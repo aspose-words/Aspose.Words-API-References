@@ -1,7 +1,9 @@
 ---
 title: ImportFormatOptions.SmartStyleBehavior
-second_title: Aspose.Words für .NET-API-Referenz
-description: ImportFormatOptions eigendom. Ruft einen booleschen Wert ab oder legt diesen fest der angibt wie Stile importiert werden wenn sie in Quell und Zieldokumenten gleiche Namen haben. Der Standardwert istFALSCH .
+linktitle: SmartStyleBehavior
+articleTitle: SmartStyleBehavior
+second_title: Aspose.Words für .NET
+description: ImportFormatOptions SmartStyleBehavior eigendom. Ruft einen booleschen Wert ab oder legt diesen fest der angibt wie Stile importiert werden wenn sie in Quell und Zieldokumenten gleiche Namen haben. Der Standardwert istFALSCH  in C#.
 type: docs
 weight: 80
 url: /de/net/aspose.words/importformatoptions/smartstylebehavior/
@@ -14,13 +16,13 @@ Ruft einen booleschen Wert ab oder legt diesen fest, der angibt, wie Stile impor
 public bool SmartStyleBehavior { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
-Wenn diese Option ist **ermöglicht** , wird der Quellstil in ein direktes Attribut innerhalb eines Zieldokuments erweitert, wennKeepSourceFormatting Der Importmodus wird verwendet.
+Wenn diese Option ist**ermöglicht** , wird der Quellstil in ein direktes Attribut innerhalb eines Zieldokuments erweitert, wennKeepSourceFormatting Der Importmodus wird verwendet.
 
-Wenn diese Option ist **deaktiviert**, wird der Quellstil nur erweitert, wenn er nummeriert ist. Vorhandene -Zielattribute werden nicht überschrieben, einschließlich Listen.
+Wenn diese Option ist**deaktiviert**, wird der Quellstil nur erweitert, wenn er nummeriert ist. Vorhandene -Zielattribute werden nicht überschrieben, einschließlich Listen.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie du doppelte Stile beim Einfügen von Dokumenten auflöst.
 
@@ -55,7 +57,5 @@ dstDoc.Save(ArtifactsDir + "DocumentBuilder.SmartStyleBehavior.docx");
 ### Siehe auch
 
 * class [ImportFormatOptions](../)
-* namensraum [Aspose.Words](../../importformatoptions/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

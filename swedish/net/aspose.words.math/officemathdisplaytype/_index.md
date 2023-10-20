@@ -1,7 +1,9 @@
 ---
-title: Enum OfficeMathDisplayType
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Math.OfficeMathDisplayType uppräkning. Anger visningsformattypen för ekvationen.
+title: OfficeMathDisplayType Enum
+linktitle: OfficeMathDisplayType
+articleTitle: OfficeMathDisplayType
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Math.OfficeMathDisplayType uppräkning. Anger visningsformattypen för ekvationen i C#.
 type: docs
 weight: 4130
 url: /sv/net/aspose.words.math/officemathdisplaytype/
@@ -21,7 +23,7 @@ public enum OfficeMathDisplayType
 | Display | `0` | Office Math visas på sin egen rad. |
 | Inline | `1` | Office Math visas i linje med texten. |
 
-### Exempel
+## Exempel
 
 Visar hur du ställer in kontorsmattevisningsformatering.
 
@@ -47,5 +49,3 @@ doc.Save(ArtifactsDir + "Shape.OfficeMath.docx");
 
 * namnutrymme [Aspose.Words.Math](../../aspose.words.math/)
 * hopsättning [Aspose.Words](../../)
-
-

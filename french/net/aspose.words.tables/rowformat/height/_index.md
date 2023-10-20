@@ -1,7 +1,9 @@
 ---
 title: RowFormat.Height
-second_title: Référence de l'API Aspose.Words pour .NET
-description: RowFormat propriété. Obtient ou définit la hauteur de la ligne du tableau en points.
+linktitle: Height
+articleTitle: Height
+second_title: Aspose.Words pour .NET
+description: RowFormat Height propriété. Obtient ou définit la hauteur de la ligne du tableau en points en C#.
 type: docs
 weight: 40
 url: /fr/net/aspose.words.tables/rowformat/height/
@@ -14,7 +16,7 @@ Obtient ou définit la hauteur de la ligne du tableau en points.
 public double Height { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment formater les lignes avec un générateur de documents.
 
@@ -109,7 +111,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.CreateFormattedTable.docx");
 ### Voir également
 
 * class [RowFormat](../)
-* espace de noms [Aspose.Words.Tables](../../rowformat/)
+* espace de noms [Aspose.Words.Tables](../../../aspose.words.tables/)
 * Assemblée [Aspose.Words](../../../)
-
-

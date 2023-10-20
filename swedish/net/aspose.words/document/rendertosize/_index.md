@@ -1,9 +1,11 @@
 ---
 title: Document.RenderToSize
-second_title: Aspose.Words för .NET API Referens
-description: Document metod. Gör en dokumentsida till enGraphics objekt till en angiven storlek.
+linktitle: RenderToSize
+articleTitle: RenderToSize
+second_title: Aspose.Words för .NET
+description: Document RenderToSize metod. Gör en dokumentsida till enGraphics objekt till en angiven storlek i C#.
 type: docs
-weight: 710
+weight: 690
 url: /sv/net/aspose.words/document/rendertosize/
 ---
 ## Document.RenderToSize method
@@ -28,7 +30,7 @@ public float RenderToSize(int pageIndex, Graphics graphics, float x, float y, fl
 
 Skalan som automatiskt beräknades för den renderade sidan för att passa den angivna storleken.
 
-### Exempel
+## Exempel
 
 Visar hur man renderar dokumentet som en bitmapp på en angiven plats och storlek (.NetStandard 2.0).
 
@@ -144,7 +146,5 @@ using (Bitmap bmp = new Bitmap(700, 700))
 ### Se även
 
 * class [Document](../)
-* namnutrymme [Aspose.Words](../../document/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

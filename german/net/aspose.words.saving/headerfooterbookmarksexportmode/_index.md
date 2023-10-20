@@ -1,7 +1,9 @@
 ---
-title: Enum HeaderFooterBookmarksExportMode
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Saving.HeaderFooterBookmarksExportMode opsomming. Gibt an wie Lesezeichen in Kopf/Fußzeilen exportiert werden.
+title: HeaderFooterBookmarksExportMode Enum
+linktitle: HeaderFooterBookmarksExportMode
+articleTitle: HeaderFooterBookmarksExportMode
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Saving.HeaderFooterBookmarksExportMode opsomming. Gibt an wie Lesezeichen in Kopf/Fußzeilen exportiert werden in C#.
 type: docs
 weight: 5050
 url: /de/net/aspose.words.saving/headerfooterbookmarksexportmode/
@@ -22,7 +24,7 @@ public enum HeaderFooterBookmarksExportMode
 | First | `1` | Nur das Lesezeichen in der ersten Kopf-/Fußzeile des Abschnitts wird exportiert. |
 | All | `2` | Lesezeichen in allen Kopf-/Fußzeilen werden exportiert. |
 
-### Beispiele
+## Beispiele
 
 Zeigt an, dass Lesezeichen in Kopf-/Fußzeilen in einem Dokument verarbeitet werden, das wir als PDF rendern.
 
@@ -55,5 +57,3 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.HeaderFooterBookmarksExportMode.pdf", sa
 
 * namensraum [Aspose.Words.Saving](../../aspose.words.saving/)
 * Montage [Aspose.Words](../../)
-
-

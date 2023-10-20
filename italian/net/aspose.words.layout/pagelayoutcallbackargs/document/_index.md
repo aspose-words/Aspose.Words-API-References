@@ -1,7 +1,9 @@
 ---
 title: PageLayoutCallbackArgs.Document
-second_title: Aspose.Words per .NET API Reference
-description: PageLayoutCallbackArgs proprietà. Ottiene il documento.
+linktitle: Document
+articleTitle: Document
+second_title: Aspose.Words per .NET
+description: PageLayoutCallbackArgs Document proprietà. Ottiene il documento in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words.layout/pagelayoutcallbackargs/document/
@@ -14,7 +16,7 @@ Ottiene il documento.
 public Document Document { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come tenere traccia delle modifiche al layout con un callback del layout.
 
@@ -81,7 +83,5 @@ private class RenderPageLayoutCallback : IPageLayoutCallback
 
 * class [Document](../../../aspose.words/document/)
 * class [PageLayoutCallbackArgs](../)
-* spazio dei nomi [Aspose.Words.Layout](../../pagelayoutcallbackargs/)
+* spazio dei nomi [Aspose.Words.Layout](../../../aspose.words.layout/)
 * assemblea [Aspose.Words](../../../)
-
-

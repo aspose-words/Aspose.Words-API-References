@@ -1,7 +1,9 @@
 ---
 title: ChartSeries.LegendEntry
-second_title: Aspose.Words för .NET API Referens
-description: ChartSeries fast egendom. Får en legendpost för denna diagramserie.
+linktitle: LegendEntry
+articleTitle: LegendEntry
+second_title: Aspose.Words för .NET
+description: ChartSeries LegendEntry fast egendom. Får en legendpost för denna diagramserie i C#.
 type: docs
 weight: 90
 url: /sv/net/aspose.words.drawing.charts/chartseries/legendentry/
@@ -18,7 +20,5 @@ public ChartLegendEntry LegendEntry { get; }
 
 * class [ChartLegendEntry](../../chartlegendentry/)
 * class [ChartSeries](../)
-* namnutrymme [Aspose.Words.Drawing.Charts](../../chartseries/)
+* namnutrymme [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../../)
-
-

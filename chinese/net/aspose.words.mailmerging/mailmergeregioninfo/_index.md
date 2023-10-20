@@ -1,7 +1,9 @@
 ---
-title: Class MailMergeRegionInfo
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.MailMerging.MailMergeRegionInfo 班级. 包含有关邮件合并区域的信息
+title: MailMergeRegionInfo Class
+linktitle: MailMergeRegionInfo
+articleTitle: MailMergeRegionInfo
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.MailMerging.MailMergeRegionInfo 班级. 包含有关邮件合并区域的信息 在 C#.
 type: docs
 weight: 3860
 url: /zh/net/aspose.words.mailmerging/mailmergeregioninfo/
@@ -31,7 +33,7 @@ public class MailMergeRegionInfo
 | [StartField](../../aspose.words.mailmerging/mailmergeregioninfo/startfield/) { get; } | 返回区域的起始字段。 |
 | [StartMustacheTag](../../aspose.words.mailmerging/mailmergeregioninfo/startmustachetag/) { get; } | 返回该区域的开始“mustache”标签。 |
 
-### 例子
+## 例子
 
 演示如何验证邮件合并区域。
 
@@ -77,5 +79,3 @@ Assert.AreEqual("TableEnd:NestedRegion1", endFieldMergeField.FieldName);
 
 * 命名空间 [Aspose.Words.MailMerging](../../aspose.words.mailmerging/)
 * 部件 [Aspose.Words](../../)
-
-

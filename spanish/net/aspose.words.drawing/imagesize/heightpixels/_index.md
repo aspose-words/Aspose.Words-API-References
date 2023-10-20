@@ -1,7 +1,9 @@
 ---
 title: ImageSize.HeightPixels
-second_title: Referencia de API de Aspose.Words para .NET
-description: ImageSize propiedad. Obtiene la altura de la imagen en píxeles.
+linktitle: HeightPixels
+articleTitle: HeightPixels
+second_title: Aspose.Words para .NET
+description: ImageSize HeightPixels propiedad. Obtiene la altura de la imagen en píxeles en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words.drawing/imagesize/heightpixels/
@@ -14,7 +16,7 @@ Obtiene la altura de la imagen en píxeles.
 public int HeightPixels { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo leer las propiedades de una imagen en una forma.
 
@@ -47,7 +49,5 @@ doc.Save(ArtifactsDir + "Drawing.ImageSize.docx");
 ### Ver también
 
 * class [ImageSize](../)
-* espacio de nombres [Aspose.Words.Drawing](../../imagesize/)
+* espacio de nombres [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * asamblea [Aspose.Words](../../../)
-
-

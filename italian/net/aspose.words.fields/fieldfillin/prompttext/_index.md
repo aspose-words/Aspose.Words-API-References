@@ -1,7 +1,9 @@
 ---
 title: FieldFillIn.PromptText
-second_title: Aspose.Words per .NET API Reference
-description: FieldFillIn proprietà. Ottiene o imposta il testo del prompt il titolo della finestra del prompt.
+linktitle: PromptText
+articleTitle: PromptText
+second_title: Aspose.Words per .NET
+description: FieldFillIn PromptText proprietà. Ottiene o imposta il testo del prompt il titolo della finestra del prompt in C#.
 type: docs
 weight: 40
 url: /it/net/aspose.words.fields/fieldfillin/prompttext/
@@ -14,7 +16,7 @@ Ottiene o imposta il testo del prompt (il titolo della finestra del prompt).
 public string PromptText { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come utilizzare il campo FILLIN per richiedere una risposta all'utente.
 
@@ -63,7 +65,5 @@ private class PromptRespondent : IFieldUserPromptRespondent
 ### Guarda anche
 
 * class [FieldFillIn](../)
-* spazio dei nomi [Aspose.Words.Fields](../../fieldfillin/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

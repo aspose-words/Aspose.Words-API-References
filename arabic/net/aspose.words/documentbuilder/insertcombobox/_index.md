@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.InsertComboBox
-second_title: Aspose.Words لمراجع .NET API
-description: DocumentBuilder طريقة. إدراج حقل نموذج combobox في الموضع الحالي.
+linktitle: InsertComboBox
+articleTitle: InsertComboBox
+second_title: Aspose.Words لـ .NET
+description: DocumentBuilder InsertComboBox طريقة. إدراج حقل نموذج combobox في الموضع الحالي في C#.
 type: docs
 weight: 300
 url: /ar/net/aspose.words/documentbuilder/insertcombobox/
@@ -24,11 +26,11 @@ public FormField InsertComboBox(string name, string[] items, int selectedIndex)
 
 عقدة حقل النموذج التي تم إدراجها للتو.
 
-### ملاحظات
+## ملاحظات
 
 إذا قمت بتحديد اسم لحقل النموذج، فسيتم إنشاء إشارة مرجعية تلقائيًا بنفس الاسم.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج حقل نموذج مربع التحرير والسرد في المستند.
 
@@ -71,7 +73,5 @@ builder.Document.Save(ArtifactsDir + "DocumentBuilder.CreateForm.docx");
 
 * class [FormField](../../../aspose.words.fields/formfield/)
 * class [DocumentBuilder](../)
-* مساحة الاسم [Aspose.Words](../../documentbuilder/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

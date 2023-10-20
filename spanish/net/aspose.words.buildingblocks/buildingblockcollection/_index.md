@@ -1,7 +1,9 @@
 ---
-title: Class BuildingBlockCollection
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.BuildingBlocks.BuildingBlockCollection clase. Una colección deBuildingBlockobjetos en el documento.
+title: BuildingBlockCollection Class
+linktitle: BuildingBlockCollection
+articleTitle: BuildingBlockCollection
+second_title: Aspose.Words para .NET
+description: Aspose.Words.BuildingBlocks.BuildingBlockCollection clase. Una colección deBuildingBlockobjetos en el documento en C#.
 type: docs
 weight: 150
 url: /es/net/aspose.words.buildingblocks/buildingblockcollection/
@@ -27,21 +29,21 @@ public class BuildingBlockCollection : NodeCollection
 
 | Nombre | Descripción |
 | --- | --- |
-| [Add](../../aspose.words/nodecollection/add/)(Node) | Agrega un nodo al final de la colección. |
+| [Add](../../aspose.words/nodecollection/add/)(*[Node](../../aspose.words/node/)*) | Agrega un nodo al final de la colección. |
 | [Clear](../../aspose.words/nodecollection/clear/)() | Elimina todos los nodos de esta colección y del documento. |
-| [Contains](../../aspose.words/nodecollection/contains/)(Node) | Determina si un nodo está en la colección. |
+| [Contains](../../aspose.words/nodecollection/contains/)(*[Node](../../aspose.words/node/)*) | Determina si un nodo está en la colección. |
 | [GetEnumerator](../../aspose.words/nodecollection/getenumerator/)() | Proporciona una iteración de estilo "foreach" simple sobre la colección de nodos. |
-| [IndexOf](../../aspose.words/nodecollection/indexof/)(Node) | Devuelve el índice de base cero del nodo especificado. |
-| [Insert](../../aspose.words/nodecollection/insert/)(int, Node) | Inserta un nodo en la colección en el índice especificado. |
-| [Remove](../../aspose.words/nodecollection/remove/)(Node) | Elimina el nodo de la colección y del documento. |
-| [RemoveAt](../../aspose.words/nodecollection/removeat/)(int) | Elimina el nodo en el índice especificado de la colección y del documento. |
+| [IndexOf](../../aspose.words/nodecollection/indexof/)(*[Node](../../aspose.words/node/)*) | Devuelve el índice de base cero del nodo especificado. |
+| [Insert](../../aspose.words/nodecollection/insert/)(*int, [Node](../../aspose.words/node/)*) | Inserta un nodo en la colección en el índice especificado. |
+| [Remove](../../aspose.words/nodecollection/remove/)(*[Node](../../aspose.words/node/)*) | Elimina el nodo de la colección y del documento. |
+| [RemoveAt](../../aspose.words/nodecollection/removeat/)(*int*) | Elimina el nodo en el índice especificado de la colección y del documento. |
 | [ToArray](../../aspose.words.buildingblocks/buildingblockcollection/toarray/#toarray)() | Copia todos los bloques de construcción de la colección en una nueva matriz de bloques de construcción. (2 methods) |
 
-### Observaciones
+## Observaciones
 
 No crea instancias de esta clase directamente. Para acceder a una colección de bloques de construcción, utilice el[`BuildingBlocks`](../glossarydocument/buildingblocks/) propiedad.
 
-### Ejemplos
+## Ejemplos
 
 Muestra formas de acceder a bloques de construcción en un documento de glosario.
 
@@ -147,5 +149,3 @@ public class GlossaryDocVisitor : DocumentVisitor
 * class [NodeCollection](../../aspose.words/nodecollection/)
 * espacio de nombres [Aspose.Words.BuildingBlocks](../../aspose.words.buildingblocks/)
 * asamblea [Aspose.Words](../../)
-
-

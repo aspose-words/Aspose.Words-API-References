@@ -1,7 +1,9 @@
 ---
 title: MetafileRenderingOptions.UseGdiRasterOperationsEmulation
-second_title: Referencia de API de Aspose.Words para .NET
-description: MetafileRenderingOptions propiedad. Obtiene o establece un valor que determina si se utiliza o no GDI para la emulación de operaciones ráster.
+linktitle: UseGdiRasterOperationsEmulation
+articleTitle: UseGdiRasterOperationsEmulation
+second_title: Aspose.Words para .NET
+description: MetafileRenderingOptions UseGdiRasterOperationsEmulation propiedad. Obtiene o establece un valor que determina si se utiliza o no GDI para la emulación de operaciones ráster en C#.
 type: docs
 weight: 80
 url: /es/net/aspose.words.saving/metafilerenderingoptions/usegdirasteroperationsemulation/
@@ -14,7 +16,7 @@ Obtiene o establece un valor que determina si se utiliza o no GDI+ para la emula
 public bool UseGdiRasterOperationsEmulation { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 La biblioteca Windows GDI+ podría usarse para emular operaciones ráster. Proporciona soporte para todas las operaciones ráster en comparación con la propia emulación de Aspose.Words, pero el rendimiento puede ser más lento en algunos casos.
 
@@ -26,7 +28,7 @@ Esta opción se utiliza sólo cuando el metarchivo se representa como gráficos 
 
 El valor predeterminado es`FALSO`.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo configurar el modo de representación al guardar documentos con imágenes de metarchivo de Windows en otros formatos de imagen.
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "ImageSaveOptions.WindowsMetaFile.png", options);
 ### Ver también
 
 * class [MetafileRenderingOptions](../)
-* espacio de nombres [Aspose.Words.Saving](../../metafilerenderingoptions/)
+* espacio de nombres [Aspose.Words.Saving](../../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../../)
-
-

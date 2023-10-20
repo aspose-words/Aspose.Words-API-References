@@ -1,7 +1,9 @@
 ---
-title: Enum TableContentAlignment
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Saving.TableContentAlignment opsomming. Ermöglicht die Angabe der Ausrichtung des Tabelleninhalts der beim Export in das MarkdownFormat verwendet werden soll.
+title: TableContentAlignment Enum
+linktitle: TableContentAlignment
+articleTitle: TableContentAlignment
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Saving.TableContentAlignment opsomming. Ermöglicht die Angabe der Ausrichtung des Tabelleninhalts der beim Export in das MarkdownFormat verwendet werden soll in C#.
 type: docs
 weight: 5620
 url: /de/net/aspose.words.saving/tablecontentalignment/
@@ -27,5 +29,3 @@ public enum TableContentAlignment
 
 * namensraum [Aspose.Words.Saving](../../aspose.words.saving/)
 * Montage [Aspose.Words](../../)
-
-

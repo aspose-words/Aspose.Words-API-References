@@ -1,7 +1,9 @@
 ---
 title: ControlChar.OptionalHyphenChar
-second_title: Referencia de API de Aspose.Words para .NET
-description: ControlChar campo. El guión opcional en Microsoft Word es char31.
+linktitle: OptionalHyphenChar
+articleTitle: OptionalHyphenChar
+second_title: Aspose.Words para .NET
+description: ControlChar OptionalHyphenChar campo. El guión opcional en Microsoft Word es char31 en C#.
 type: docs
 weight: 190
 url: /es/net/aspose.words/controlchar/optionalhyphenchar/
@@ -14,11 +16,11 @@ El guión opcional en Microsoft Word es (char)31.
 public const char OptionalHyphenChar;
 ```
 
-### Observaciones
+## Observaciones
 
 El guión opcional en Microsoft Word no corresponde al carácter Unicode U+00AD guión suave. En su lugar, inserta información interna que informa a Word sobre un posible punto de separación de palabras.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo agregar varios caracteres de control a un documento.
 
@@ -90,7 +92,5 @@ Assert.AreEqual(Convert.ToChar(ControlChar.ColumnBreak), ControlChar.ColumnBreak
 ### Ver también
 
 * class [ControlChar](../)
-* espacio de nombres [Aspose.Words](../../controlchar/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

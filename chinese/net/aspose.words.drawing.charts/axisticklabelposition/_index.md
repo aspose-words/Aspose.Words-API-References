@@ -1,7 +1,9 @@
 ---
-title: Enum AxisTickLabelPosition
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Drawing.Charts.AxisTickLabelPosition 枚举. 指定刻度标签的可能位置
+title: AxisTickLabelPosition Enum
+linktitle: AxisTickLabelPosition
+articleTitle: AxisTickLabelPosition
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Drawing.Charts.AxisTickLabelPosition 枚举. 指定刻度标签的可能位置 在 C#.
 type: docs
 weight: 580
 url: /zh/net/aspose.words.drawing.charts/axisticklabelposition/
@@ -24,7 +26,7 @@ public enum AxisTickLabelPosition
 | None | `3` | 指定不绘制轴标签。 |
 | Default | `2` | 指定刻度标签位置的默认值。 |
 
-### 例子
+## 例子
 
 演示如何插入带有日期/时间值的图表。
 
@@ -79,5 +81,3 @@ doc.Save(ArtifactsDir + "Charts.DateTimeValues.docx");
 
 * 命名空间 [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * 部件 [Aspose.Words](../../)
-
-

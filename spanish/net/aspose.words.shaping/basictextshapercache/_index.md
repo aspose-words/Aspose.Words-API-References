@@ -1,7 +1,9 @@
 ---
-title: Class BasicTextShaperCache
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Shaping.BasicTextShaperCache clase. Implementa caché básico paraITextShaper instancias. Esta clase es segura para subprocesos.
+title: BasicTextShaperCache Class
+linktitle: BasicTextShaperCache
+articleTitle: BasicTextShaperCache
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Shaping.BasicTextShaperCache clase. Implementa caché básico paraITextShaper instancias. Esta clase es segura para subprocesos en C#.
 type: docs
 weight: 6000
 url: /es/net/aspose.words.shaping/basictextshapercache/
@@ -18,7 +20,7 @@ public sealed class BasicTextShaperCache : IDisposable, ITextShaperFactory
 
 | Nombre | Descripción |
 | --- | --- |
-| [BasicTextShaperCache](basictextshapercache/)(ITextShaperFactory) | Envolturas*factory* y cachés[`GetTextShaper`](../itextshaperfactory/gettextshaper/) resultados. |
+| [BasicTextShaperCache](basictextshapercache/)(*[ITextShaperFactory](../itextshaperfactory/)*) | Envolturas*factory* y cachés[`GetTextShaper`](../itextshaperfactory/gettextshaper/) resultados. |
 
 ## Métodos
 
@@ -31,5 +33,3 @@ public sealed class BasicTextShaperCache : IDisposable, ITextShaperFactory
 * interface [ITextShaperFactory](../itextshaperfactory/)
 * espacio de nombres [Aspose.Words.Shaping](../../aspose.words.shaping/)
 * asamblea [Aspose.Words](../../)
-
-

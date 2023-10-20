@@ -1,12 +1,14 @@
 ---
 title: ConvertUtil.PixelToPoint
-second_title: Aspose.Words for .NET API 参考
-description: ConvertUtil 方法. 将像素转换为 96 dpi 的点
+linktitle: PixelToPoint
+articleTitle: PixelToPoint
+second_title: 用于 .NET 的 Aspose.Words
+description: ConvertUtil PixelToPoint 方法. 将像素转换为 96 dpi 的点 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words/convertutil/pixeltopoint/
 ---
-## PixelToPoint(double) {#pixeltopoint}
+## PixelToPoint(*double*) {#pixeltopoint}
 
 将像素转换为 96 dpi 的点。
 
@@ -18,11 +20,11 @@ public static double PixelToPoint(double pixels)
 | --- | --- | --- |
 | pixels | Double | 要转换的值。 |
 
-### 评论
+## 评论
 
 1 英寸等于 72 点。
 
-### 例子
+## 例子
 
 展示如何指定页面属性（以像素为单位）。
 
@@ -58,12 +60,12 @@ doc.Save(ArtifactsDir + "UtilityClasses.PointsAndPixels.docx");
 ### 也可以看看
 
 * class [ConvertUtil](../)
-* 命名空间 [Aspose.Words](../../convertutil/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## PixelToPoint(double, double) {#pixeltopoint_1}
+## PixelToPoint(*double, double*) {#pixeltopoint_1}
 
 将像素转换为指定像素分辨率的点。
 
@@ -76,11 +78,11 @@ public static double PixelToPoint(double pixels, double resolution)
 | pixels | Double | 要转换的值。 |
 | resolution | Double | dpi（每英寸点数）分辨率。 |
 
-### 评论
+## 评论
 
 1 英寸等于 72 点。
 
-### 例子
+## 例子
 
 演示如何使用默认和自定义分辨率将点转换为像素。
 
@@ -116,7 +118,5 @@ doc.Save(ArtifactsDir + "UtilityClasses.PointsAndPixelsDpi.docx");
 ### 也可以看看
 
 * class [ConvertUtil](../)
-* 命名空间 [Aspose.Words](../../convertutil/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

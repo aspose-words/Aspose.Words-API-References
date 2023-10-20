@@ -1,7 +1,9 @@
 ---
 title: FontSettings.ResetFontSources
-second_title: Aspose.Words för .NET API Referens
-description: FontSettings metod. Återställer teckensnittskällorna till systemets standard.
+linktitle: ResetFontSources
+articleTitle: ResetFontSources
+second_title: Aspose.Words för .NET
+description: FontSettings ResetFontSources metod. Återställer teckensnittskällorna till systemets standard i C#.
 type: docs
 weight: 60
 url: /sv/net/aspose.words.fonts/fontsettings/resetfontsources/
@@ -14,7 +16,7 @@ url: /sv/net/aspose.words.fonts/fontsettings/resetfontsources/
 public void ResetFontSources()
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du kommer åt ett dokuments systemteckensnittskälla och ställer in teckensnittsersättningar.
 
@@ -70,7 +72,5 @@ Assert.AreEqual(1,
 ### Se även
 
 * class [FontSettings](../)
-* namnutrymme [Aspose.Words.Fonts](../../fontsettings/)
+* namnutrymme [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ListCollection.GetEnumerator
-second_title: Aspose.Words för .NET API Referens
-description: ListCollection metod. Hämtar uppräkningsobjektet som kommer att räkna upp listor i dokumentet.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words för .NET
+description: ListCollection GetEnumerator metod. Hämtar uppräkningsobjektet som kommer att räkna upp listor i dokumentet i C#.
 type: docs
 weight: 60
 url: /sv/net/aspose.words.lists/listcollection/getenumerator/
@@ -14,7 +16,7 @@ Hämtar uppräkningsobjektet som kommer att räkna upp listor i dokumentet.
 public IEnumerator<List> GetEnumerator()
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man skapar ett dokument med ett exempel på alla listor från ett annat dokument.
 
@@ -54,7 +56,5 @@ private static void AddListSample(DocumentBuilder builder, List list)
 
 * class [List](../../list/)
 * class [ListCollection](../)
-* namnutrymme [Aspose.Words.Lists](../../listcollection/)
+* namnutrymme [Aspose.Words.Lists](../../../aspose.words.lists/)
 * hopsättning [Aspose.Words](../../../)
-
-

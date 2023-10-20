@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitEditableRangeStart
-second_title: Справочник по API Aspose.Words для .NET
-description: DocumentVisitor метод. Вызывается когда в документе встречается начало редактируемого диапазона.
+linktitle: VisitEditableRangeStart
+articleTitle: VisitEditableRangeStart
+second_title: Aspose.Words для .NET
+description: DocumentVisitor VisitEditableRangeStart метод. Вызывается когда в документе встречается начало редактируемого диапазона на С#.
 type: docs
 weight: 170
 url: /ru/net/aspose.words/documentvisitor/visiteditablerangestart/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitEditableRangeStart(EditableRangeStart editable
 
 А[`VisitorAction`](../../visitoraction/) значение, указывающее, как продолжить перечисление.
 
-### Примеры
+## Примеры
 
 Показывает, как распечатать структуру узлов каждого редактируемого диапазона в документе.
 
@@ -118,7 +120,5 @@ public class EditableRangeStructurePrinter : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [EditableRangeStart](../../editablerangestart/)
 * class [DocumentVisitor](../)
-* пространство имен [Aspose.Words](../../documentvisitor/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

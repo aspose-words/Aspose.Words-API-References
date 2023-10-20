@@ -1,7 +1,9 @@
 ---
-title: Class BorderCollection
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.BorderCollection classe. Una raccolta diBorder oggetti.
+title: BorderCollection Class
+linktitle: BorderCollection
+articleTitle: BorderCollection
+second_title: Aspose.Words per .NET
+description: Aspose.Words.BorderCollection classe. Una raccolta diBorder oggetti in C#.
 type: docs
 weight: 90
 url: /it/net/aspose.words/bordercollection/
@@ -39,14 +41,14 @@ public sealed class BorderCollection : IEnumerable<Border>
 | Nome | Descrizione |
 | --- | --- |
 | [ClearFormatting](../../aspose.words/bordercollection/clearformatting/)() | Rimuove tutti i bordi di un oggetto. |
-| [Equals](../../aspose.words/bordercollection/equals/#equals)(BorderCollection) | Confronta raccolte di bordi. |
+| [Equals](../../aspose.words/bordercollection/equals/#equals)(*BorderCollection*) | Confronta raccolte di bordi. |
 | [GetEnumerator](../../aspose.words/bordercollection/getenumerator/)() | Restituisce un oggetto enumeratore che può essere utilizzato per scorrere tutti i bordi della raccolta. |
 
-### Osservazioni
+## Osservazioni
 
 Elementi diversi del documento hanno bordi diversi. Ad esempio,[`ParagraphFormat`](../paragraphformat/)ha[`Bottom`](./bottom/) ,[`Left`](./left/) ,[`Right`](./right/) E[`Top`](./top/) bordi. Puoi specificare una formattazione diversa per ciascun bordo in modo indipendente oppure enumerare tutti i bordi e applicare la stessa formattazione.
 
-### Esempi
+## Esempi
 
 Mostra come inserire un paragrafo con un bordo superiore.
 
@@ -71,5 +73,3 @@ doc.Save(ArtifactsDir + "Border.ParagraphTopBorder.docx");
 * class [Border](../border/)
 * spazio dei nomi [Aspose.Words](../../aspose.words/)
 * assemblea [Aspose.Words](../../)
-
-

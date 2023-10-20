@@ -1,7 +1,9 @@
 ---
 title: WebExtension.Properties
-second_title: Aspose.Words لمراجع .NET API
-description: WebExtension ملكية. يمثل مجموعة من الخصائص المخصصة لامتداد الويب.
+linktitle: Properties
+articleTitle: Properties
+second_title: Aspose.Words لـ .NET
+description: WebExtension Properties ملكية. يمثل مجموعة من الخصائص المخصصة لامتداد الويب في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.webextensions/webextension/properties/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.webextensions/webextension/properties/
 public WebExtensionPropertyCollection Properties { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إضافة ملحق ويب إلى مستند.
 
@@ -60,7 +62,5 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 
 * class [WebExtensionPropertyCollection](../../webextensionpropertycollection/)
 * class [WebExtension](../)
-* مساحة الاسم [Aspose.Words.WebExtensions](../../webextension/)
+* مساحة الاسم [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * المجسم [Aspose.Words](../../../)
-
-

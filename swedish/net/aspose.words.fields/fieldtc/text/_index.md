@@ -1,7 +1,9 @@
 ---
 title: FieldTC.Text
-second_title: Aspose.Words för .NET API Referens
-description: FieldTC fast egendom. Hämtar eller ställer in texten i posten.
+linktitle: Text
+articleTitle: Text
+second_title: Aspose.Words för .NET
+description: FieldTC Text fast egendom. Hämtar eller ställer in texten i posten i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.fields/fieldtc/text/
@@ -14,7 +16,7 @@ Hämtar eller ställer in texten i posten.
 public string Text { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man infogar ett TOC-fält och filtrerar vilka TC-fält som slutar som poster.
 
@@ -66,7 +68,5 @@ public void InsertTocEntry(DocumentBuilder builder, string text, string typeIden
 ### Se även
 
 * class [FieldTC](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldtc/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: NodeList.ToArray
-second_title: Aspose.Words for .NET API 参考
-description: NodeList 方法. 将集合中的所有节点复制到新的节点数组
+linktitle: ToArray
+articleTitle: ToArray
+second_title: 用于 .NET 的 Aspose.Words
+description: NodeList ToArray 方法. 将集合中的所有节点复制到新的节点数组 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words/nodelist/toarray/
@@ -18,13 +20,13 @@ public Node[] ToArray()
 
 节点数组。
 
-### 评论
+## 评论
 
 您不应在迭代节点集合 时添加/删除节点，因为这会使迭代器无效并且需要刷新实时集合。
 
 为了能够在迭代期间添加/删除节点，请使用此方法将 节点复制到固定大小的数组中，然后迭代该数组。
 
-### 例子
+## 例子
 
 演示如何使用 XPath 表达式选择某些节点。
 
@@ -58,7 +60,5 @@ Assert.AreEqual(typeof(Paragraph), node.GetType());
 
 * class [Node](../../node/)
 * class [NodeList](../)
-* 命名空间 [Aspose.Words](../../nodelist/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

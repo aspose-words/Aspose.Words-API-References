@@ -1,7 +1,9 @@
 ---
-title: Enum WebExtensionStoreType
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.WebExtensions.WebExtensionStoreType enum. Enumera i tipi disponibili di un archivio di estensioni web.
+title: WebExtensionStoreType Enum
+linktitle: WebExtensionStoreType
+articleTitle: WebExtensionStoreType
+second_title: Aspose.Words per .NET
+description: Aspose.Words.WebExtensions.WebExtensionStoreType enum. Enumera i tipi disponibili di un archivio di estensioni web in C#.
 type: docs
 weight: 6820
 url: /it/net/aspose.words.webextensions/webextensionstoretype/
@@ -27,7 +29,7 @@ public enum WebExtensionStoreType
 | ExCatalog | `6` | Specifica che il tipo di archivio è Distribuzione centralizzata tramite Exchange. |
 | Default | `0` | Valore predefinito. |
 
-### Esempi
+## Esempi
 
 Mostra come aggiungere un'estensione Web a un documento.
 
@@ -73,5 +75,3 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 
 * spazio dei nomi [Aspose.Words.WebExtensions](../../aspose.words.webextensions/)
 * assemblea [Aspose.Words](../../)
-
-

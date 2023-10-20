@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.ListFormat
-second_title: Aspose.Words för .NET API Referens
-description: DocumentBuilder fast egendom. Returnerar ett objekt som representerar aktuella listformateringsegenskaper.
+linktitle: ListFormat
+articleTitle: ListFormat
+second_title: Aspose.Words för .NET
+description: DocumentBuilder ListFormat fast egendom. Returnerar ett objekt som representerar aktuella listformateringsegenskaper i C#.
 type: docs
 weight: 150
 url: /sv/net/aspose.words/documentbuilder/listformat/
@@ -14,7 +16,7 @@ Returnerar ett objekt som representerar aktuella listformateringsegenskaper.
 public ListFormat ListFormat { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man skapar punktlistor och numrerade listor.
 
@@ -100,7 +102,5 @@ doc.Save(ArtifactsDir + "Lists.ApplyDefaultBulletsAndNumbers.docx");
 
 * class [ListFormat](../../../aspose.words.lists/listformat/)
 * class [DocumentBuilder](../)
-* namnutrymme [Aspose.Words](../../documentbuilder/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

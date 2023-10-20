@@ -1,7 +1,9 @@
 ---
-title: Class FieldBuilder
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Fields.FieldBuilder klas. Erstellt ein Feld aus FeldcodeTokens Argumenten und Schaltern.
+title: FieldBuilder Class
+linktitle: FieldBuilder
+articleTitle: FieldBuilder
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Fields.FieldBuilder klas. Erstellt ein Feld aus FeldcodeTokens Argumenten und Schaltern in C#.
 type: docs
 weight: 1660
 url: /de/net/aspose.words.fields/fieldbuilder/
@@ -20,25 +22,25 @@ public class FieldBuilder
 
 | Name | Beschreibung |
 | --- | --- |
-| [FieldBuilder](fieldbuilder/)(FieldType) | Initialisiert eine Instanz von`FieldBuilder` Klasse. |
+| [FieldBuilder](fieldbuilder/)(*[FieldType](../fieldtype/)*) | Initialisiert eine Instanz von`FieldBuilder` Klasse. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [AddArgument](../../aspose.words.fields/fieldbuilder/addargument/#addargument_2)(double) | Fügt das Argument eines Feldes hinzu. |
-| [AddArgument](../../aspose.words.fields/fieldbuilder/addargument/#addargument)(FieldArgumentBuilder) | Fügt das Argument eines Feldes hinzu, das durch dargestellt wird[`FieldArgumentBuilder`](../fieldargumentbuilder/) zum Code des Feldes. |
-| [AddArgument](../../aspose.words.fields/fieldbuilder/addargument/#addargument_1)(FieldBuilder) | Fügt ein untergeordnetes Feld hinzu, das durch ein anderes dargestellt wird`FieldBuilder` zum Code des Feldes. |
-| [AddArgument](../../aspose.words.fields/fieldbuilder/addargument/#addargument_3)(int) | Fügt das Argument eines Feldes hinzu. |
-| [AddArgument](../../aspose.words.fields/fieldbuilder/addargument/#addargument_4)(string) | Fügt das Argument eines Feldes hinzu. |
-| [AddSwitch](../../aspose.words.fields/fieldbuilder/addswitch/#addswitch)(string) | Fügt den Schalter eines Feldes hinzu. |
-| [AddSwitch](../../aspose.words.fields/fieldbuilder/addswitch/#addswitch_1)(string, double) | Fügt den Schalter eines Feldes hinzu. |
-| [AddSwitch](../../aspose.words.fields/fieldbuilder/addswitch/#addswitch_2)(string, int) | Fügt den Schalter eines Feldes hinzu. |
-| [AddSwitch](../../aspose.words.fields/fieldbuilder/addswitch/#addswitch_3)(string, string) | Fügt den Schalter eines Feldes hinzu. |
-| [BuildAndInsert](../../aspose.words.fields/fieldbuilder/buildandinsert/#buildandinsert)(Inline) | Erstellt ein Feld und fügt es vor dem angegebenen Inline-Knoten in das Dokument ein. |
-| [BuildAndInsert](../../aspose.words.fields/fieldbuilder/buildandinsert/#buildandinsert_1)(Paragraph) | Erstellt ein Feld und fügt es bis zum Ende des angegebenen Absatzes in das Dokument ein. |
+| [AddArgument](../../aspose.words.fields/fieldbuilder/addargument/#addargument_2)(*double*) | Fügt das Argument eines Feldes hinzu. |
+| [AddArgument](../../aspose.words.fields/fieldbuilder/addargument/#addargument)(*[FieldArgumentBuilder](../fieldargumentbuilder/)*) | Fügt das Argument eines Feldes hinzu, das durch dargestellt wird[`FieldArgumentBuilder`](../fieldargumentbuilder/) zum Code des Feldes. |
+| [AddArgument](../../aspose.words.fields/fieldbuilder/addargument/#addargument_1)(*FieldBuilder*) | Fügt ein untergeordnetes Feld hinzu, das durch ein anderes dargestellt wird`FieldBuilder` zum Code des Feldes. |
+| [AddArgument](../../aspose.words.fields/fieldbuilder/addargument/#addargument_3)(*int*) | Fügt das Argument eines Feldes hinzu. |
+| [AddArgument](../../aspose.words.fields/fieldbuilder/addargument/#addargument_4)(*string*) | Fügt das Argument eines Feldes hinzu. |
+| [AddSwitch](../../aspose.words.fields/fieldbuilder/addswitch/#addswitch)(*string*) | Fügt den Schalter eines Feldes hinzu. |
+| [AddSwitch](../../aspose.words.fields/fieldbuilder/addswitch/#addswitch_1)(*string, double*) | Fügt den Schalter eines Feldes hinzu. |
+| [AddSwitch](../../aspose.words.fields/fieldbuilder/addswitch/#addswitch_2)(*string, int*) | Fügt den Schalter eines Feldes hinzu. |
+| [AddSwitch](../../aspose.words.fields/fieldbuilder/addswitch/#addswitch_3)(*string, string*) | Fügt den Schalter eines Feldes hinzu. |
+| [BuildAndInsert](../../aspose.words.fields/fieldbuilder/buildandinsert/#buildandinsert)(*[Inline](../../aspose.words/inline/)*) | Erstellt ein Feld und fügt es vor dem angegebenen Inline-Knoten in das Dokument ein. |
+| [BuildAndInsert](../../aspose.words.fields/fieldbuilder/buildandinsert/#buildandinsert_1)(*[Paragraph](../../aspose.words/paragraph/)*) | Erstellt ein Feld und fügt es bis zum Ende des angegebenen Absatzes in das Dokument ein. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Felder mit einem Feld-Builder erstellt und dann in das Dokument eingefügt werden.
 
@@ -122,5 +124,3 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 
 * namensraum [Aspose.Words.Fields](../../aspose.words.fields/)
 * Montage [Aspose.Words](../../)
-
-

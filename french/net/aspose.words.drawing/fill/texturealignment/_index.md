@@ -1,9 +1,11 @@
 ---
 title: Fill.TextureAlignment
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Fill propriété. Obtient ou définit lalignement pour le remplissage de la texture des carreaux.
+linktitle: TextureAlignment
+articleTitle: TextureAlignment
+second_title: Aspose.Words pour .NET
+description: Fill TextureAlignment propriété. Obtient ou définit lalignement pour le remplissage de la texture des carreaux en C#.
 type: docs
-weight: 190
+weight: 180
 url: /fr/net/aspose.words.drawing/fill/texturealignment/
 ---
 ## Fill.TextureAlignment property
@@ -14,7 +16,7 @@ Obtient ou définit l'alignement pour le remplissage de la texture des carreaux.
 public TextureAlignment TextureAlignment { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment remplir et recouvrir la texture à l’intérieur de la forme.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "Shape.TextureFill.docx", saveOptions);
 
 * enum [TextureAlignment](../../texturealignment/)
 * class [Fill](../)
-* espace de noms [Aspose.Words.Drawing](../../fill/)
+* espace de noms [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Assemblée [Aspose.Words](../../../)
-
-

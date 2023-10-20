@@ -1,7 +1,9 @@
 ---
 title: FixedPageSaveOptions.OptimizeOutput
-second_title: Aspose.Words för .NET API Referens
-description: FixedPageSaveOptions fast egendom. Flagga indikerar om det krävs för att optimera utdata. Om denna flagga ställs in redundanta kapslade dukar och tomma dukar tas bort sammanlänkas även grannglyfer med samma formatering. Obs Noggrannheten i innehållsvisningen kan påverkas den här egenskapen är inställd påSann . Standard ärfalsk .
+linktitle: OptimizeOutput
+articleTitle: OptimizeOutput
+second_title: Aspose.Words för .NET
+description: FixedPageSaveOptions OptimizeOutput fast egendom. Flagga indikerar om det krävs för att optimera utdata. Om denna flagga ställs in redundanta kapslade dukar och tomma dukar tas bort sammanlänkas även grannglyfer med samma formatering. Obs Noggrannheten i innehållsvisningen kan påverkas den här egenskapen är inställd påSann . Standard ärfalsk  i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.saving/fixedpagesaveoptions/optimizeoutput/
@@ -14,7 +16,7 @@ Flagga indikerar om det krävs för att optimera utdata. Om denna flagga ställs
 public virtual bool OptimizeOutput { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man optimerar dokumentobjekt samtidigt som man sparar till xps.
 
@@ -37,7 +39,5 @@ doc.Save(ArtifactsDir + "XpsSaveOptions.OptimizeOutput.xps", saveOptions);
 ### Se även
 
 * class [FixedPageSaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../fixedpagesaveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

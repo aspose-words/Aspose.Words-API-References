@@ -1,7 +1,9 @@
 ---
 title: Revision.Author
-second_title: Aspose.Words für .NET-API-Referenz
-description: Revision eigendom. Ruft den Autor dieser Revision ab oder legt ihn fest. Darf keine leere Zeichenfolge oder seinNull .
+linktitle: Author
+articleTitle: Author
+second_title: Aspose.Words für .NET
+description: Revision Author eigendom. Ruft den Autor dieser Revision ab oder legt ihn fest. Darf keine leere Zeichenfolge oder seinNull  in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words/revision/author/
@@ -14,7 +16,7 @@ Ruft den Autor dieser Revision ab oder legt ihn fest. Darf keine leere Zeichenfo
 public string Author { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit Revisionen in einem Dokument gearbeitet wird.
 
@@ -97,7 +99,5 @@ Assert.AreEqual("This is revision #1. \rThis is revision #2.", doc.GetText().Tri
 ### Siehe auch
 
 * class [Revision](../)
-* namensraum [Aspose.Words](../../revision/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

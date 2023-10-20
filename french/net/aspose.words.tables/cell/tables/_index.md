@@ -1,7 +1,9 @@
 ---
 title: Cell.Tables
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Cell propriété. Obtient une collection de tables qui sont les enfants immédiats de la cellule.
+linktitle: Tables
+articleTitle: Tables
+second_title: Aspose.Words pour .NET
+description: Cell Tables propriété. Obtient une collection de tables qui sont les enfants immédiats de la cellule en C#.
 type: docs
 weight: 120
 url: /fr/net/aspose.words.tables/cell/tables/
@@ -14,7 +16,7 @@ Obtient une collection de tables qui sont les enfants immédiats de la cellule.
 public TableCollection Tables { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment savoir si des tables sont imbriquées.
 
@@ -93,7 +95,5 @@ private static int GetChildTableCount(Table table)
 
 * class [TableCollection](../../tablecollection/)
 * class [Cell](../)
-* espace de noms [Aspose.Words.Tables](../../cell/)
+* espace de noms [Aspose.Words.Tables](../../../aspose.words.tables/)
 * Assemblée [Aspose.Words](../../../)
-
-

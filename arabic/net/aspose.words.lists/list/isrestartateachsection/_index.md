@@ -1,7 +1,9 @@
 ---
 title: List.IsRestartAtEachSection
-second_title: Aspose.Words لمراجع .NET API
-description: List ملكية. يحدد ما إذا كان يجب إعادة تشغيل القائمة في كل قسم. القيمة الافتراضية هيخطأ شنيع .
+linktitle: IsRestartAtEachSection
+articleTitle: IsRestartAtEachSection
+second_title: Aspose.Words لـ .NET
+description: List IsRestartAtEachSection ملكية. يحدد ما إذا كان يجب إعادة تشغيل القائمة في كل قسم. القيمة الافتراضية هيخطأ شنيع  في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.lists/list/isrestartateachsection/
@@ -14,13 +16,13 @@ url: /ar/net/aspose.words.lists/list/isrestartateachsection/
 public bool IsRestartAtEachSection { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 هذا الخيار مدعوم فقط بتنسيقات المستندات RTF وDOC وDOCX.
 
 سيتم كتابة هذا الخيار إلى DOCX فقط إذا[`OoxmlCompliance`](../../../aspose.words.saving/ooxmlcompliance/) أعلى من ذلك الحينEcma376_2006.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تكوين قائمة لإعادة بدء الترقيم في كل قسم.
 
@@ -58,7 +60,5 @@ Assert.AreEqual(restartListAtEachSection, doc.Lists[0].IsRestartAtEachSection);
 ### أنظر أيضا
 
 * class [List](../)
-* مساحة الاسم [Aspose.Words.Lists](../../list/)
+* مساحة الاسم [Aspose.Words.Lists](../../../aspose.words.lists/)
 * المجسم [Aspose.Words](../../../)
-
-

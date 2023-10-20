@@ -1,7 +1,9 @@
 ---
 title: EditableRange.Remove
-second_title: Aspose.Words für .NET-API-Referenz
-description: EditableRange methode. Entfernt den bearbeitbaren Bereich aus dem Dokument. Inhalte innerhalb des bearbeitbaren Bereichs werden nicht entfernt.
+linktitle: Remove
+articleTitle: Remove
+second_title: Aspose.Words für .NET
+description: EditableRange Remove methode. Entfernt den bearbeitbaren Bereich aus dem Dokument. Inhalte innerhalb des bearbeitbaren Bereichs werden nicht entfernt in C#.
 type: docs
 weight: 60
 url: /de/net/aspose.words/editablerange/remove/
@@ -14,7 +16,7 @@ Entfernt den bearbeitbaren Bereich aus dem Dokument. Inhalte innerhalb des bearb
 public void Remove()
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit einem bearbeitbaren Bereich gearbeitet wird.
 
@@ -60,7 +62,5 @@ editableRange.Remove();
 ### Siehe auch
 
 * class [EditableRange](../)
-* namensraum [Aspose.Words](../../editablerange/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

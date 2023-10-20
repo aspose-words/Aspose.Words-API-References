@@ -1,7 +1,9 @@
 ---
 title: ControlChar.Lf
-second_title: Aspose.Words per .NET API Reference
-description: ControlChar campo. Carattere di avanzamento riga x000a o n. Uguale aLineFeed .
+linktitle: Lf
+articleTitle: Lf
+second_title: Aspose.Words per .NET
+description: ControlChar Lf campo. Carattere di avanzamento riga x000a o n. Uguale aLineFeed  in C#.
 type: docs
 weight: 110
 url: /it/net/aspose.words/controlchar/lf/
@@ -14,7 +16,7 @@ Carattere di avanzamento riga: "\x000a" o "\n". Uguale a[`LineFeed`](../linefeed
 public static readonly string Lf;
 ```
 
-### Esempi
+## Esempi
 
 Mostra come aggiungere vari caratteri di controllo a un documento.
 
@@ -86,7 +88,5 @@ Assert.AreEqual(Convert.ToChar(ControlChar.ColumnBreak), ControlChar.ColumnBreak
 ### Guarda anche
 
 * class [ControlChar](../)
-* spazio dei nomi [Aspose.Words](../../controlchar/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

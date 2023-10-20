@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ImageResolution
-second_title: Aspose.Words for .NET API 参考
-description: HtmlSaveOptions 财产. 指定导出为 HTMLMHTML 或 EPUB 时图像的输出分辨率 默认为96 dpi.
+linktitle: ImageResolution
+articleTitle: ImageResolution
+second_title: 用于 .NET 的 Aspose.Words
+description: HtmlSaveOptions ImageResolution 财产. 指定导出为 HTMLMHTML 或 EPUB 时图像的输出分辨率 默认为96 dpi 在 C#.
 type: docs
 weight: 340
 url: /zh/net/aspose.words.saving/htmlsaveoptions/imageresolution/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.saving/htmlsaveoptions/imageresolution/
 public int ImageResolution { get; set; }
 ```
 
-### 评论
+## 评论
 
 该属性在以下情况下影响光栅图像：[`ScaleImageToShapeSize`](../scaleimagetoshapesize/) 是`真的`和效果图元文件导出为光栅图像。某些图像属性（例如cropping 或旋转）需要保存变换后的图像，在这种情况下，变换后的图像是以给定的 分辨率创建的。
 
-### 例子
+## 例子
 
 展示如何为 Aspose.Words 在将文档保存为 HTML 时创建的外部保存资源设置文件夹和文件夹别名。
 
@@ -47,7 +49,5 @@ doc.Save(ArtifactsDir + "HtmlSaveOptions.FolderAlias.html", options);
 
 * property [ScaleImageToShapeSize](../scaleimagetoshapesize/)
 * class [HtmlSaveOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../htmlsaveoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

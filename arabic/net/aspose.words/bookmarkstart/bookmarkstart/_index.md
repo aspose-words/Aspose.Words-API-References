@@ -1,7 +1,9 @@
 ---
-title: BookmarkStart.BookmarkStart
-second_title: Aspose.Words لمراجع .NET API
-description: BookmarkStart البناء. تهيئة مثيل جديد لـBookmarkStart فئة.
+title: BookmarkStart
+linktitle: BookmarkStart
+articleTitle: BookmarkStart
+second_title: Aspose.Words لـ .NET
+description: BookmarkStart البناء. تهيئة مثيل جديد لـBookmarkStart فئة في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words/bookmarkstart/bookmarkstart/
@@ -19,7 +21,7 @@ public BookmarkStart(DocumentBase doc, string name)
 | doc | DocumentBase | وثيقة المالك. |
 | name | String | اسم الإشارة المرجعية. لا يمكن`باطل`. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إضافة الإشارات المرجعية وتحديث محتوياتها.
 
@@ -109,7 +111,5 @@ public class BookmarkInfoPrinter : DocumentVisitor
 
 * class [DocumentBase](../../documentbase/)
 * class [BookmarkStart](../)
-* مساحة الاسم [Aspose.Words](../../bookmarkstart/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

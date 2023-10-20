@@ -1,7 +1,9 @@
 ---
 title: HtmlFixedSaveOptions.ShowPageBorder
-second_title: Aspose.Words لمراجع .NET API
-description: HtmlFixedSaveOptions ملكية. يحدد ما إذا كان ينبغي إظهار الحدود حول الصفحات أم لا. الإعداد الافتراضي هوحقيقي .
+linktitle: ShowPageBorder
+articleTitle: ShowPageBorder
+second_title: Aspose.Words لـ .NET
+description: HtmlFixedSaveOptions ShowPageBorder ملكية. يحدد ما إذا كان ينبغي إظهار الحدود حول الصفحات أم لا. الإعداد الافتراضي هوحقيقي  في C#.
 type: docs
 weight: 180
 url: /ar/net/aspose.words.saving/htmlfixedsaveoptions/showpageborder/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.saving/htmlfixedsaveoptions/showpageborder/
 public bool ShowPageBorder { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام رد اتصال لطباعة معرفات URI للموارد الخارجية التي تم إنشاؤها أثناء تحويل مستند إلى HTML.
 
@@ -93,7 +95,5 @@ private class ResourceUriPrinter : IResourceSavingCallback
 ### أنظر أيضا
 
 * class [HtmlFixedSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../htmlfixedsaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

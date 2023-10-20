@@ -1,9 +1,11 @@
 ---
 title: Fill.GradientVariant
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Fill propriété. Obtient la variante de dégradéGradientVariant pour le remplissage.
+linktitle: GradientVariant
+articleTitle: GradientVariant
+second_title: Aspose.Words pour .NET
+description: Fill GradientVariant propriété. Obtient la variante de dégradéGradientVariant pour le remplissage en C#.
 type: docs
-weight: 130
+weight: 120
 url: /fr/net/aspose.words.drawing/fill/gradientvariant/
 ---
 ## Fill.GradientVariant property
@@ -14,7 +16,7 @@ Obtient la variante de dégradé[`GradientVariant`](../../gradientvariant/) pour
 public GradientVariant GradientVariant { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment remplir une forme avec des dégradés.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "Shape.GradientFill.docx", saveOptions);
 
 * enum [GradientVariant](../../gradientvariant/)
 * class [Fill](../)
-* espace de noms [Aspose.Words.Drawing](../../fill/)
+* espace de noms [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Assemblée [Aspose.Words](../../../)
-
-

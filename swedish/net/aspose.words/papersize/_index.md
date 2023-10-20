@@ -1,7 +1,9 @@
 ---
-title: Enum PaperSize
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.PaperSize uppräkning. Anger pappersstorlek.
+title: PaperSize Enum
+linktitle: PaperSize
+articleTitle: PaperSize
+second_title: Aspose.Words för .NET
+description: Aspose.Words.PaperSize uppräkning. Anger pappersstorlek i C#.
 type: docs
 weight: 4380
 url: /sv/net/aspose.words/papersize/
@@ -37,7 +39,7 @@ public enum PaperSize
 | Number10Envelope | `16` | 4,125 x 9,5 tum. |
 | Custom | `17` | Anpassad pappersstorlek. |
 
-### Exempel
+## Exempel
 
 Visar hur du justerar pappersstorlek, orientering, marginaler, tillsammans med andra inställningar för ett avsnitt.
 
@@ -148,5 +150,3 @@ doc.Save(ArtifactsDir + "Section.CreateManually.docx");
 
 * namnutrymme [Aspose.Words](../../aspose.words/)
 * hopsättning [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum AxisCrosses
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Drawing.Charts.AxisCrosses تعداد. تحديد نقاط العبور المحتملة للمحور.
+title: AxisCrosses Enum
+linktitle: AxisCrosses
+articleTitle: AxisCrosses
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Drawing.Charts.AxisCrosses تعداد. تحديد نقاط العبور المحتملة للمحور في C#.
 type: docs
 weight: 540
 url: /ar/net/aspose.words.drawing.charts/axiscrosses/
@@ -23,7 +25,7 @@ public enum AxisCrosses
 | Minimum | `2` | يتقاطع المحور المتعامد مع القيمة الدنيا للمحور. |
 | Custom | `3` | يتقاطع المحور العمودي عند القيمة المحددة للمحور. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج مخطط وتعديل مظهر محاوره.
 
@@ -77,5 +79,3 @@ doc.Save(ArtifactsDir + "Charts.AxisProperties.docx");
 
 * مساحة الاسم [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../)
-
-

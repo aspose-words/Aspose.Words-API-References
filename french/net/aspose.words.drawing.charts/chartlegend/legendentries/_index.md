@@ -1,7 +1,9 @@
 ---
 title: ChartLegend.LegendEntries
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ChartLegend propriété. Renvoie une collection dentrées de légende pour toutes les séries et courbes de tendance du graphique parent.
+linktitle: LegendEntries
+articleTitle: LegendEntries
+second_title: Aspose.Words pour .NET
+description: ChartLegend LegendEntries propriété. Renvoie une collection dentrées de légende pour toutes les séries et courbes de tendance du graphique parent en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.drawing.charts/chartlegend/legendentries/
@@ -14,7 +16,7 @@ Renvoie une collection d'entrées de légende pour toutes les séries et courbes
 public ChartLegendEntryCollection LegendEntries { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment utiliser une entrée de légende pour les séries de graphiques.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "Charts.LegendEntries.docx");
 
 * class [ChartLegendEntryCollection](../../chartlegendentrycollection/)
 * class [ChartLegend](../)
-* espace de noms [Aspose.Words.Drawing.Charts](../../chartlegend/)
+* espace de noms [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Assemblée [Aspose.Words](../../../)
-
-

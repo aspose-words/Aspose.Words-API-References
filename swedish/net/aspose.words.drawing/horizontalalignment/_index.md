@@ -1,7 +1,9 @@
 ---
-title: Enum HorizontalAlignment
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Drawing.HorizontalAlignment uppräkning. Anger horisontell justering av en flytande form textram eller flytande tabell.
+title: HorizontalAlignment Enum
+linktitle: HorizontalAlignment
+articleTitle: HorizontalAlignment
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Drawing.HorizontalAlignment uppräkning. Anger horisontell justering av en flytande form textram eller flytande tabell i C#.
 type: docs
 weight: 1030
 url: /sv/net/aspose.words.drawing/horizontalalignment/
@@ -18,7 +20,7 @@ public enum HorizontalAlignment
 
 | namn | Värde | Beskrivning |
 | --- | --- | --- |
-| None | `0` | Objektet är explicit positionerat, vanligtvis med hjälp av dess **Vänster** egenskap. |
+| None | `0` | Objektet är explicit positionerat, vanligtvis med hjälp av dess**Vänster** egenskap. |
 | Default | `0` | Samma somNone . |
 | Left | `1` | Anger att objektet ska lämnas justerat till den horisontella inriktningsbasen. |
 | Center | `2` | Anger att objektet ska centreras med avseende på den horisontella inriktningsbasen. |
@@ -26,7 +28,7 @@ public enum HorizontalAlignment
 | Inside | `4` | Anger att objektet ska vara inuti den horisontella inriktningsbasen. |
 | Outside | `5` | Anger att objektet ska vara utanför den horisontella inriktningsbasen. |
 
-### Exempel
+## Exempel
 
 Visar hur man infogar en flytande bild i mitten av en sida.
 
@@ -51,5 +53,3 @@ doc.Save(ArtifactsDir + "Image.CreateFloatingPageCenter.docx");
 * property [HorizontalAlignment](../shapebase/horizontalalignment/)
 * namnutrymme [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../)
-
-

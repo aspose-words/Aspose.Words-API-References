@@ -1,7 +1,9 @@
 ---
-title: Enum ChartSeriesType
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Drawing.Charts.ChartSeriesType تعداد. يحدد نوع سلسلة المخططات.
+title: ChartSeriesType Enum
+linktitle: ChartSeriesType
+articleTitle: ChartSeriesType
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Drawing.Charts.ChartSeriesType تعداد. يحدد نوع سلسلة المخططات في C#.
 type: docs
 weight: 800
 url: /ar/net/aspose.words.drawing.charts/chartseriestype/
@@ -63,7 +65,7 @@ public enum ChartSeriesType
 | Funnel | `42` | يمثل سلسلة من المخططات القمعية. |
 | RegionMap | `43` | يمثل سلسلة من مخططات خريطة المنطقة. |
 
-### أمثلة
+## أمثلة
 
 يبين كيفية
 
@@ -90,5 +92,3 @@ doc.Save(ArtifactsDir + "Charts.RemoveSpecificChartSeries.docx");
 
 * مساحة الاسم [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../)
-
-

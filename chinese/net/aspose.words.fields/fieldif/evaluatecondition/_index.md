@@ -1,7 +1,9 @@
 ---
 title: FieldIf.EvaluateCondition
-second_title: Aspose.Words for .NET API 参考
-description: FieldIf 方法. 评估条件
+linktitle: EvaluateCondition
+articleTitle: EvaluateCondition
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldIf EvaluateCondition 方法. 评估条件 在 C#.
 type: docs
 weight: 70
 url: /zh/net/aspose.words.fields/fieldif/evaluatecondition/
@@ -18,7 +20,7 @@ public FieldIfComparisonResult EvaluateCondition()
 
 A[`FieldIfComparisonResult`](../../fieldifcomparisonresult/)表示条件评估结果的值。
 
-### 例子
+## 例子
 
 演示如何插入 IF 字段。
 
@@ -65,7 +67,5 @@ doc.Save(ArtifactsDir + "Field.IF.docx");
 
 * enum [FieldIfComparisonResult](../../fieldifcomparisonresult/)
 * class [FieldIf](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldif/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

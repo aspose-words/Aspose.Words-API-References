@@ -1,7 +1,9 @@
 ---
 title: Row.LastCell
-second_title: Aspose.Words für .NET-API-Referenz
-description: Row eigendom. Gibt den letzten zurückCell in der Zeile.
+linktitle: LastCell
+articleTitle: LastCell
+second_title: Aspose.Words für .NET
+description: Row LastCell eigendom. Gibt den letzten zurückCell in der Zeile in C#.
 type: docs
 weight: 60
 url: /de/net/aspose.words.tables/row/lastcell/
@@ -14,7 +16,7 @@ Gibt den letzten zurück[`Cell`](../../cell/) in der Zeile.
 public Cell LastCell { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Knotenstruktur jeder Tabelle in einem Dokument gedruckt wird.
 
@@ -178,7 +180,5 @@ public class TableStructurePrinter : DocumentVisitor
 
 * class [Cell](../../cell/)
 * class [Row](../)
-* namensraum [Aspose.Words.Tables](../../row/)
+* namensraum [Aspose.Words.Tables](../../../aspose.words.tables/)
 * Montage [Aspose.Words](../../../)
-
-

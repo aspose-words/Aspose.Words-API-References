@@ -1,7 +1,9 @@
 ---
 title: ControlChar.OptionalHyphenChar
-second_title: Aspose.Words for .NET API 参考
-description: ControlChar 场地. Microsoft Word 中的可选连字符是 char31.
+linktitle: OptionalHyphenChar
+articleTitle: OptionalHyphenChar
+second_title: 用于 .NET 的 Aspose.Words
+description: ControlChar OptionalHyphenChar 场地. Microsoft Word 中的可选连字符是 char31 在 C#.
 type: docs
 weight: 190
 url: /zh/net/aspose.words/controlchar/optionalhyphenchar/
@@ -14,11 +16,11 @@ Microsoft Word 中的可选连字符是 (char)31.
 public const char OptionalHyphenChar;
 ```
 
-### 评论
+## 评论
 
 Microsoft Word 中的可选连字符不对应于 Unicode 字符 U+00AD 软连字符。 相反，它插入告诉 Word 可能的连字符点的内部信息。
 
-### 例子
+## 例子
 
 演示如何向文档添加各种控制字符。
 
@@ -90,7 +92,5 @@ Assert.AreEqual(Convert.ToChar(ControlChar.ColumnBreak), ControlChar.ColumnBreak
 ### 也可以看看
 
 * class [ControlChar](../)
-* 命名空间 [Aspose.Words](../../controlchar/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

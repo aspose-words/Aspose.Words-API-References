@@ -1,12 +1,14 @@
 ---
 title: TableSubstitutionRule.Load
-second_title: Aspose.Words för .NET API Referens
-description: TableSubstitutionRule metod. Laddar tabellersättningsinställningar från XMLfil.
+linktitle: Load
+articleTitle: Load
+second_title: Aspose.Words för .NET
+description: TableSubstitutionRule Load metod. Laddar tabellersättningsinställningar från XMLfil i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.fonts/tablesubstitutionrule/load/
 ---
-## Load(string) {#load_1}
+## Load(*string*) {#load_1}
 
 Laddar tabellersättningsinställningar från XML-fil.
 
@@ -18,7 +20,7 @@ public void Load(string fileName)
 | --- | --- | --- |
 | fileName | String | Inmatat filnamn. |
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med anpassade teckensnittsersättningstabeller.
 
@@ -79,12 +81,12 @@ doc.Save(ArtifactsDir + "FontSettings.TableSubstitutionRule.Custom.pdf");
 ### Se även
 
 * class [TableSubstitutionRule](../)
-* namnutrymme [Aspose.Words.Fonts](../../tablesubstitutionrule/)
+* namnutrymme [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## Load(Stream) {#load}
+## Load(*Stream*) {#load}
 
 Laddar inställningar för tabellersättning från XML-ström.
 
@@ -96,7 +98,7 @@ public void Load(Stream stream)
 | --- | --- | --- |
 | stream | Stream | Ingångsström. |
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med anpassade teckensnittsersättningstabeller.
 
@@ -157,7 +159,5 @@ doc.Save(ArtifactsDir + "FontSettings.TableSubstitutionRule.Custom.pdf");
 ### Se även
 
 * class [TableSubstitutionRule](../)
-* namnutrymme [Aspose.Words.Fonts](../../tablesubstitutionrule/)
+* namnutrymme [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,12 +1,14 @@
 ---
 title: Aspose.Words.Drawing
-second_title: Aspose.Words per .NET API Reference
-description: IL Aspose.Parole.Disegno namespace fornisce classi che consentono di creare e modificare oggetti di disegno.
+linktitle: Aspose.Words.Drawing
+articleTitle: Aspose.Words.Drawing
+second_title: Aspose.Words per .NET
+description: ILAspose.Parole.Disegno namespace fornisce classi che consentono di creare e modificare oggetti di disegno in C#.
 type: docs
 weight: 50
 url: /it/net/aspose.words.drawing/
 ---
-IL **Aspose.Parole.Disegno** namespace fornisce classi che consentono di creare e modificare oggetti di disegno.
+IL**Aspose.Parole.Disegno** namespace fornisce classi che consentono di creare e modificare oggetti di disegno.
 
 ## Classi
 
@@ -63,5 +65,3 @@ IL **Aspose.Parole.Disegno** namespace fornisce classi che consentono di creare 
 | [VerticalAlignment](./verticalalignment/) | Specifica l'allineamento verticale di una forma mobile, cornice di testo o tabella mobile. |
 | [WrapSide](./wrapside/) | Specifica su quali lati della forma o dell'immagine si avvolge il testo. |
 | [WrapType](./wraptype/) | Specifica il modo in cui il testo viene disposto attorno a una forma o immagine. |
-
-

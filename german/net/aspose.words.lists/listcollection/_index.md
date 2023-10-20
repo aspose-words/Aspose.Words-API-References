@@ -1,7 +1,9 @@
 ---
-title: Class ListCollection
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Lists.ListCollection klas. Speichert und verwaltet die Formatierung von Listen mit Aufzählungszeichen und Nummern die in einem Dokument verwendet werden.
+title: ListCollection Class
+linktitle: ListCollection
+articleTitle: ListCollection
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Lists.ListCollection klas. Speichert und verwaltet die Formatierung von Listen mit Aufzählungszeichen und Nummern die in einem Dokument verwendet werden in C#.
 type: docs
 weight: 3470
 url: /de/net/aspose.words.lists/listcollection/
@@ -28,13 +30,13 @@ public class ListCollection : IEnumerable<List>
 
 | Name | Beschreibung |
 | --- | --- |
-| [Add](../../aspose.words.lists/listcollection/add/#add)(ListTemplate) | Erstellt eine neue Liste basierend auf einer vordefinierten Vorlage und fügt sie der Sammlung von Listen im Dokument hinzu. |
-| [Add](../../aspose.words.lists/listcollection/add/#add_1)(Style) | Erstellt eine neue Liste, die auf einen Listenstil verweist, und fügt ihn der Sammlung von Listen im Dokument hinzu. |
-| [AddCopy](../../aspose.words.lists/listcollection/addcopy/)(List) | Erstellt eine neue Liste, indem die angegebene Liste kopiert und zur Listensammlung im Dokument hinzugefügt wird. |
+| [Add](../../aspose.words.lists/listcollection/add/#add)(*[ListTemplate](../listtemplate/)*) | Erstellt eine neue Liste basierend auf einer vordefinierten Vorlage und fügt sie der Sammlung von Listen im Dokument hinzu. |
+| [Add](../../aspose.words.lists/listcollection/add/#add_1)(*[Style](../../aspose.words/style/)*) | Erstellt eine neue Liste, die auf einen Listenstil verweist, und fügt ihn der Sammlung von Listen im Dokument hinzu. |
+| [AddCopy](../../aspose.words.lists/listcollection/addcopy/)(*[List](../list/)*) | Erstellt eine neue Liste, indem die angegebene Liste kopiert und zur Listensammlung im Dokument hinzugefügt wird. |
 | [GetEnumerator](../../aspose.words.lists/listcollection/getenumerator/)() | Ruft das Enumeratorobjekt ab, das Listen im Dokument aufzählt. |
-| [GetListByListId](../../aspose.words.lists/listcollection/getlistbylistid/)(int) | Ruft eine Liste anhand einer Listenkennung ab. |
+| [GetListByListId](../../aspose.words.lists/listcollection/getlistbylistid/)(*int*) | Ruft eine Liste anhand einer Listenkennung ab. |
 
-### Bemerkungen
+## Bemerkungen
 
 Eine Liste in einem Microsoft Word-Dokument ist ein Satz von Listenformatierungseigenschaften. Die Formatierung der Listen wird im gespeichert`ListCollection` Sammlung separat aus den Textabsätzen.
 
@@ -54,7 +56,7 @@ Um das Programmiermodell zu vereinfachen, verbirgt Aspose.Words die Unterscheidu
 
 Es ist nicht möglich, Listen zu löschen, nachdem sie in der aktuellen Version von Aspose.Words. erstellt wurden. Dies ähnelt Microsoft Word, wo der Benutzer keine explizite Kontrolle über Listendefinitionen hat.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Dokument mit einem Beispiel aller Listen aus einem anderen Dokument erstellt wird.
 
@@ -182,5 +184,3 @@ doc.Save(ArtifactsDir + "Lists.SpecifyListLevel.docx");
 * class [List](../list/)
 * namensraum [Aspose.Words.Lists](../../aspose.words.lists/)
 * Montage [Aspose.Words](../../)
-
-

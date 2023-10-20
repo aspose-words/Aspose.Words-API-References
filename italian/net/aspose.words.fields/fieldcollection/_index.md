@@ -1,7 +1,9 @@
 ---
-title: Class FieldCollection
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Fields.FieldCollection classe. Una raccolta diField oggetti che rappresentano i campi nellintervallo specificato.
+title: FieldCollection Class
+linktitle: FieldCollection
+articleTitle: FieldCollection
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Fields.FieldCollection classe. Una raccolta diField oggetti che rappresentano i campi nellintervallo specificato in C#.
 type: docs
 weight: 1690
 url: /it/net/aspose.words.fields/fieldcollection/
@@ -29,10 +31,10 @@ public class FieldCollection : IEnumerable<Field>
 | --- | --- |
 | [Clear](../../aspose.words.fields/fieldcollection/clear/)() | Rimuove tutti i campi di questa raccolta dal documento e da questa raccolta stessa. |
 | [GetEnumerator](../../aspose.words.fields/fieldcollection/getenumerator/)() | Restituisce un oggetto enumeratore. |
-| [Remove](../../aspose.words.fields/fieldcollection/remove/)(Field) | Rimuove il campo specificato da questa raccolta e dal documento. |
-| [RemoveAt](../../aspose.words.fields/fieldcollection/removeat/)(int) | Rimuove un campo all'indice specificato da questa raccolta e dal documento. |
+| [Remove](../../aspose.words.fields/fieldcollection/remove/)(*[Field](../field/)*) | Rimuove il campo specificato da questa raccolta e dal documento. |
+| [RemoveAt](../../aspose.words.fields/fieldcollection/removeat/)(*int*) | Rimuove un campo all'indice specificato da questa raccolta e dal documento. |
 
-### Osservazioni
+## Osservazioni
 
 Un'istanza di questa raccolta ripete i campi che iniziano a rientrare nell'intervallo specificato.
 
@@ -40,7 +42,7 @@ IL`FieldCollection` collection non possiede i campi che contiene, ma è solo una
 
 IL`FieldCollection` la raccolta è "live", ovvero le modifiche ai figli del nodo object da cui è stata creata si riflettono immediatamente nei campi restituiti dalla`FieldCollection` Proprietà e metodi .
 
-### Esempi
+## Esempi
 
 Mostra come rimuovere i campi da una raccolta di campi.
 
@@ -182,5 +184,3 @@ public class FieldVisitor : DocumentVisitor
 * class [Field](../field/)
 * spazio dei nomi [Aspose.Words.Fields](../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../)
-
-

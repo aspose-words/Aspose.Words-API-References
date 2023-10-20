@@ -1,7 +1,9 @@
 ---
 title: DocumentPropertyCollection.Item
-second_title: Aspose.Words for .NET API 参考
-description: DocumentPropertyCollection 财产. 返回一个DocumentProperty对象的属性名称
+linktitle: Item
+articleTitle: Item
+second_title: 用于 .NET 的 Aspose.Words
+description: DocumentPropertyCollection Item 财产. 返回一个DocumentProperty对象的属性名称 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.properties/documentpropertycollection/item/
@@ -18,11 +20,11 @@ public virtual DocumentProperty this[string name] { get; }
 | --- | --- |
 | name | 要检索的属性的名称（不区分大小写）。 |
 
-### 评论
+## 评论
 
 退货`无效的`如果未找到具有指定名称的属性。
 
-### 例子
+## 例子
 
 演示如何创建包含日期和时间的自定义文档属性。
 
@@ -38,7 +40,7 @@ Console.WriteLine($"Document authorized on {doc.CustomDocumentProperties["Author
 
 * class [DocumentProperty](../../documentproperty/)
 * class [DocumentPropertyCollection](../)
-* 命名空间 [Aspose.Words.Properties](../../documentpropertycollection/)
+* 命名空间 [Aspose.Words.Properties](../../../aspose.words.properties/)
 * 部件 [Aspose.Words](../../../)
 
 ---
@@ -55,7 +57,7 @@ public DocumentProperty this[int index] { get; }
 | --- | --- |
 | index | 从零开始的索引[`DocumentProperty`](../../documentproperty/)检索。 |
 
-### 例子
+## 例子
 
 展示如何使用自定义文档属性。
 
@@ -81,7 +83,5 @@ foreach (var customDocumentProperty in doc.CustomDocumentProperties)
 
 * class [DocumentProperty](../../documentproperty/)
 * class [DocumentPropertyCollection](../)
-* 命名空间 [Aspose.Words.Properties](../../documentpropertycollection/)
+* 命名空间 [Aspose.Words.Properties](../../../aspose.words.properties/)
 * 部件 [Aspose.Words](../../../)
-
-

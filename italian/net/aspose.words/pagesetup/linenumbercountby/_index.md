@@ -1,7 +1,9 @@
 ---
 title: PageSetup.LineNumberCountBy
-second_title: Aspose.Words per .NET API Reference
-description: PageSetup proprietà. Restituisce o imposta lincremento numerico per i numeri di riga.
+linktitle: LineNumberCountBy
+articleTitle: LineNumberCountBy
+second_title: Aspose.Words per .NET
+description: PageSetup LineNumberCountBy proprietà. Restituisce o imposta lincremento numerico per i numeri di riga in C#.
 type: docs
 weight: 210
 url: /it/net/aspose.words/pagesetup/linenumbercountby/
@@ -14,7 +16,7 @@ Restituisce o imposta l'incremento numerico per i numeri di riga.
 public int LineNumberCountBy { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come abilitare la numerazione delle righe per una sezione.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "PageSetup.LineNumbers.docx");
 ### Guarda anche
 
 * class [PageSetup](../)
-* spazio dei nomi [Aspose.Words](../../pagesetup/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

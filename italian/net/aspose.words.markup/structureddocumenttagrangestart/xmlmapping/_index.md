@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTagRangeStart.XmlMapping
-second_title: Aspose.Words per .NET API Reference
-description: StructuredDocumentTagRangeStart proprietà. Ottiene un oggetto che rappresenta la mappatura di questo intervallo di tag del documento strutturato su dati XML in una parte XML personalizzata del documento corrente.
+linktitle: XmlMapping
+articleTitle: XmlMapping
+second_title: Aspose.Words per .NET
+description: StructuredDocumentTagRangeStart XmlMapping proprietà. Ottiene un oggetto che rappresenta la mappatura di questo intervallo di tag del documento strutturato su dati XML in una parte XML personalizzata del documento corrente in C#.
 type: docs
 weight: 180
 url: /it/net/aspose.words.markup/structureddocumenttagrangestart/xmlmapping/
@@ -14,11 +16,11 @@ Ottiene un oggetto che rappresenta la mappatura di questo intervallo di tag del 
 public XmlMapping XmlMapping { get; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Puoi usare il[`SetMapping`](../../xmlmapping/setmapping/) metodo di this oggetto per mappare un intervallo di tag di documento strutturato su dati XML.
 
-### Esempi
+## Esempi
 
 Mostra come impostare le mappature XML per l'inizio dell'intervallo di un tag di documento strutturato.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.StructuredDocumentTagRangeStartXm
 
 * class [XmlMapping](../../xmlmapping/)
 * class [StructuredDocumentTagRangeStart](../)
-* spazio dei nomi [Aspose.Words.Markup](../../structureddocumenttagrangestart/)
+* spazio dei nomi [Aspose.Words.Markup](../../../aspose.words.markup/)
 * assemblea [Aspose.Words](../../../)
-
-

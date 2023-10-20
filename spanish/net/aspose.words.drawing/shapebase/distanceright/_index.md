@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.DistanceRight
-second_title: Referencia de API de Aspose.Words para .NET
-description: ShapeBase propiedad. Devuelve o establece la distancia en puntos entre el texto del documento y el borde derecho de la forma.
+linktitle: DistanceRight
+articleTitle: DistanceRight
+second_title: Aspose.Words para .NET
+description: ShapeBase DistanceRight propiedad. Devuelve o establece la distancia en puntos entre el texto del documento y el borde derecho de la forma en C#.
 type: docs
 weight: 150
 url: /es/net/aspose.words.drawing/shapebase/distanceright/
@@ -14,13 +16,13 @@ Devuelve o establece la distancia (en puntos) entre el texto del documento y el 
 public double DistanceRight { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 El valor predeterminado es 1/8 de pulgada.
 
 Tiene efecto sólo para formas de nivel superior.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo establecer la distancia de ajuste para un texto que rodea una forma.
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "Shape.Coordinates.docx");
 ### Ver también
 
 * class [ShapeBase](../)
-* espacio de nombres [Aspose.Words.Drawing](../../shapebase/)
+* espacio de nombres [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: AxisBound.IsAuto
-second_title: Referencia de API de Aspose.Words para .NET
-description: AxisBound propiedad. Devuelve un indicador que indica que el límite del eje debe determinarse automáticamente.
+linktitle: IsAuto
+articleTitle: IsAuto
+second_title: Aspose.Words para .NET
+description: AxisBound IsAuto propiedad. Devuelve un indicador que indica que el límite del eje debe determinarse automáticamente en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words.drawing.charts/axisbound/isauto/
@@ -14,7 +16,7 @@ Devuelve un indicador que indica que el límite del eje debe determinarse autom�
 public bool IsAuto { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo establecer límites de eje personalizados.
 
@@ -74,7 +76,5 @@ doc.Save(ArtifactsDir + "Charts.AxisBound.docx");
 ### Ver también
 
 * class [AxisBound](../)
-* espacio de nombres [Aspose.Words.Drawing.Charts](../../axisbound/)
+* espacio de nombres [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * asamblea [Aspose.Words](../../../)
-
-

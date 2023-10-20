@@ -1,7 +1,9 @@
 ---
 title: AxisDisplayUnit.CustomUnit
-second_title: Aspose.Words for .NET API 参考
-description: AxisDisplayUnit 财产. 获取或设置用户定义的除数以缩放值轴上的显示单位
+linktitle: CustomUnit
+articleTitle: CustomUnit
+second_title: 用于 .NET 的 Aspose.Words
+description: AxisDisplayUnit CustomUnit 财产. 获取或设置用户定义的除数以缩放值轴上的显示单位 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.drawing.charts/axisdisplayunit/customunit/
@@ -14,13 +16,13 @@ url: /zh/net/aspose.words.drawing.charts/axisdisplayunit/customunit/
 public double CustomUnit { get; set; }
 ```
 
-### 评论
+## 评论
 
 MS Office 2016 新图表不支持该属性。默认值为 1。
 
 设置此属性会设置[`Unit`](../unit/)属性为 Custom。
 
-### 例子
+## 例子
 
 演示如何操作图表轴的刻度线和显示值。
 
@@ -78,7 +80,5 @@ doc.Save(ArtifactsDir + "Charts.AxisDisplayUnit.docx");
 ### 也可以看看
 
 * class [AxisDisplayUnit](../)
-* 命名空间 [Aspose.Words.Drawing.Charts](../../axisdisplayunit/)
+* 命名空间 [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * 部件 [Aspose.Words](../../../)
-
-

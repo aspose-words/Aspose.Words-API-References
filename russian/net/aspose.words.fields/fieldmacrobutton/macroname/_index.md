@@ -1,7 +1,9 @@
 ---
 title: FieldMacroButton.MacroName
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldMacroButton свойство. Получает или задает имя макроса или команды для запуска.
+linktitle: MacroName
+articleTitle: MacroName
+second_title: Aspose.Words для .NET
+description: FieldMacroButton MacroName свойство. Получает или задает имя макроса или команды для запуска на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.fields/fieldmacrobutton/macroname/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldmacrobutton/macroname/
 public string MacroName { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как использовать поля MACROBUTTON, чтобы можно было запускать макросы документа щелчком мыши.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "Field.MACROBUTTON.docm");
 ### Смотрите также
 
 * class [FieldMacroButton](../)
-* пространство имен [Aspose.Words.Fields](../../fieldmacrobutton/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

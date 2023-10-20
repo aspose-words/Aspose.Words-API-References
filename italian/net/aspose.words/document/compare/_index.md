@@ -1,12 +1,14 @@
 ---
 title: Document.Compare
-second_title: Aspose.Words per .NET API Reference
-description: Document metodo. Confronta questo documento con un altro documento producendo modifiche come numero di modifiche e revisioni del formatoRevision .
+linktitle: Compare
+articleTitle: Compare
+second_title: Aspose.Words per .NET
+description: Document Compare metodo. Confronta questo documento con un altro documento producendo modifiche come numero di modifiche e revisioni del formatoRevision  in C#.
 type: docs
-weight: 580
+weight: 560
 url: /it/net/aspose.words/document/compare/
 ---
-## Compare(Document, string, DateTime) {#compare}
+## Compare(*[Document](../), string, DateTime*) {#compare}
 
 Confronta questo documento con un altro documento producendo modifiche come numero di modifiche e revisioni del formato[`Revision`](../../revision/) .
 
@@ -20,11 +22,11 @@ public void Compare(Document document, string author, DateTime dateTime)
 | author | String | Iniziali dell'autore da utilizzare per le revisioni. |
 | dateTime | DateTime | La data e l'ora da utilizzare per le revisioni. |
 
-### Osservazioni
+## Osservazioni
 
 I documenti non devono avere revisioni prima del confronto.
 
-### Esempi
+## Esempi
 
 Mostra come confrontare i documenti.
 
@@ -58,12 +60,12 @@ Assert.AreEqual(docOriginal.GetText(), docEdited.GetText());
 ### Guarda anche
 
 * class [Document](../)
-* spazio dei nomi [Aspose.Words](../../document/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
 
 ---
 
-## Compare(Document, string, DateTime, CompareOptions) {#compare_1}
+## Compare(*[Document](../), string, DateTime, [CompareOptions](../../../aspose.words.comparing/compareoptions/)*) {#compare_1}
 
 Confronta questo documento con un altro documento producendo modifiche come una serie di modifiche e revisioni del formato[`Revision`](../../revision/) . Permette di specificare le opzioni di confronto utilizzando[`CompareOptions`](../../../aspose.words.comparing/compareoptions/) .
 
@@ -71,7 +73,7 @@ Confronta questo documento con un altro documento producendo modifiche come una 
 public void Compare(Document document, string author, DateTime dateTime, CompareOptions options)
 ```
 
-### Esempi
+## Esempi
 
 Mostra come filtrare tipi specifici di elementi del documento quando si effettua un confronto.
 
@@ -146,7 +148,5 @@ docOriginal.Save(ArtifactsDir + "Document.CompareOptions.docx");
 
 * class [CompareOptions](../../../aspose.words.comparing/compareoptions/)
 * class [Document](../)
-* spazio dei nomi [Aspose.Words](../../document/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: EditableRange.SingleUser
-second_title: Référence de l'API Aspose.Words pour .NET
-description: EditableRange propriété. Renvoie ou définit lutilisateur unique pour la plage modifiable.
+linktitle: SingleUser
+articleTitle: SingleUser
+second_title: Aspose.Words pour .NET
+description: EditableRange SingleUser propriété. Renvoie ou définit lutilisateur unique pour la plage modifiable en C#.
 type: docs
 weight: 50
 url: /fr/net/aspose.words/editablerange/singleuser/
@@ -14,7 +16,7 @@ Renvoie ou définit l'utilisateur unique pour la plage modifiable.
 public string SingleUser { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 Cet éditeur peut être stocké sous l'une des formes suivantes :
 
@@ -26,7 +28,7 @@ utilisateur - pour les utilisateurs dont l'accès doit être authentifié à l'a
 
 Un seul utilisateur et un groupe d'éditeurs ne peuvent pas être définis simultanément pour la plage modifiable spécifique, si l'un est défini, l'autre sera clair.
 
-### Exemples
+## Exemples
 
 Montre comment limiter les droits d'édition des plages modifiables à un groupe/utilisateur spécifique.
 
@@ -137,7 +139,5 @@ public class EditableRangePrinter : DocumentVisitor
 ### Voir également
 
 * class [EditableRange](../)
-* espace de noms [Aspose.Words](../../editablerange/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

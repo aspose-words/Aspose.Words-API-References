@@ -1,7 +1,9 @@
 ---
 title: HtmlFixedSaveOptions.ResourceSavingCallback
-second_title: Справочник по API Aspose.Words для .NET
-description: HtmlFixedSaveOptions свойство. Позволяет контролировать сохранение ресурсов изображений шрифтов и CSS при экспорте документа в формат Html с фиксированной страницей.
+linktitle: ResourceSavingCallback
+articleTitle: ResourceSavingCallback
+second_title: Aspose.Words для .NET
+description: HtmlFixedSaveOptions ResourceSavingCallback свойство. Позволяет контролировать сохранение ресурсов изображений шрифтов и CSS при экспорте документа в формат Html с фиксированной страницей на С#.
 type: docs
 weight: 130
 url: /ru/net/aspose.words.saving/htmlfixedsaveoptions/resourcesavingcallback/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.saving/htmlfixedsaveoptions/resourcesavingcallback/
 public IResourceSavingCallback ResourceSavingCallback { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как использовать обратный вызов для печати URI внешних ресурсов, созданных при преобразовании документа в HTML.
 
@@ -94,7 +96,5 @@ private class ResourceUriPrinter : IResourceSavingCallback
 
 * interface [IResourceSavingCallback](../../iresourcesavingcallback/)
 * class [HtmlFixedSaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../htmlfixedsaveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

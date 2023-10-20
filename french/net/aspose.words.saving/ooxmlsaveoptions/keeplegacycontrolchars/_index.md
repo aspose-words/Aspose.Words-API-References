@@ -1,7 +1,9 @@
 ---
 title: OoxmlSaveOptions.KeepLegacyControlChars
-second_title: Référence de l'API Aspose.Words pour .NET
-description: OoxmlSaveOptions propriété. Conserve la représentation originale des caractères de contrôle hérités.
+linktitle: KeepLegacyControlChars
+articleTitle: KeepLegacyControlChars
+second_title: Aspose.Words pour .NET
+description: OoxmlSaveOptions KeepLegacyControlChars propriété. Conserve la représentation originale des caractères de contrôle hérités en C#.
 type: docs
 weight: 40
 url: /fr/net/aspose.words.saving/ooxmlsaveoptions/keeplegacycontrolchars/
@@ -14,7 +16,7 @@ Conserve la représentation originale des caractères de contrôle hérités.
 public bool KeepLegacyControlChars { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment prendre en charge les caractères de contrôle hérités lors de la conversion en .docx.
 
@@ -41,7 +43,5 @@ Assert.AreEqual(keepLegacyControlChars ? "\u0013date \\@ \"MM/dd/yyyy\"\u0014\u0
 ### Voir également
 
 * class [OoxmlSaveOptions](../)
-* espace de noms [Aspose.Words.Saving](../../ooxmlsaveoptions/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldListNum.ListLevel
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldListNum propriété. Obtient ou définit le niveau dans la liste remplaçant le comportement par défaut du champ.
+linktitle: ListLevel
+articleTitle: ListLevel
+second_title: Aspose.Words pour .NET
+description: FieldListNum ListLevel propriété. Obtient ou définit le niveau dans la liste remplaçant le comportement par défaut du champ en C#.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.fields/fieldlistnum/listlevel/
@@ -14,7 +16,7 @@ Obtient ou définit le niveau dans la liste, remplaçant le comportement par dé
 public string ListLevel { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment numéroter les paragraphes avec les champs LISTNUM.
 
@@ -84,7 +86,5 @@ doc.Save(ArtifactsDir + "Field.LISTNUM.docx");
 ### Voir également
 
 * class [FieldListNum](../)
-* espace de noms [Aspose.Words.Fields](../../fieldlistnum/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

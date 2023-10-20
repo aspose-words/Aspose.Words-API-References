@@ -1,7 +1,9 @@
 ---
-title: Class TabStop
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.TabStop clase. Representa una única tabulación personalizada. ElTabStopEl objeto es miembro de the .TabStopCollection colección.
+title: TabStop Class
+linktitle: TabStop
+articleTitle: TabStop
+second_title: Aspose.Words para .NET
+description: Aspose.Words.TabStop clase. Representa una única tabulación personalizada. ElTabStopEl objeto es miembro de the .TabStopCollection colección en C#.
 type: docs
 weight: 6200
 url: /es/net/aspose.words/tabstop/
@@ -20,8 +22,8 @@ public sealed class TabStop
 
 | Nombre | Descripción |
 | --- | --- |
-| [TabStop](tabstop/#constructor)(double) | Inicializa una nueva instancia de esta clase. |
-| [TabStop](tabstop/#constructor_1)(double, TabAlignment, TabLeader) | Inicializa una nueva instancia de esta clase. |
+| [TabStop](tabstop/#constructor)(*double*) | Inicializa una nueva instancia de esta clase. |
+| [TabStop](tabstop/#constructor_1)(*double, [TabAlignment](../tabalignment/), [TabLeader](../tableader/)*) | Inicializa una nueva instancia de esta clase. |
 
 ## Propiedades
 
@@ -36,16 +38,16 @@ public sealed class TabStop
 
 | Nombre | Descripción |
 | --- | --- |
-| [Equals](../../aspose.words/tabstop/equals/#equals)(TabStop) | Se compara con lo especificado`TabStop` . |
+| [Equals](../../aspose.words/tabstop/equals/#equals)(*TabStop*) | Se compara con lo especificado`TabStop` . |
 | override [GetHashCode](../../aspose.words/tabstop/gethashcode/)() | Calcula el código hash para este objeto. |
 
-### Observaciones
+## Observaciones
 
 Normalmente, una tabulación especifica una posición donde existe una tabulación. Pero debido a que las tabulaciones se pueden heredar de los estilos principales, podría ser necesario que el objeto secundario defina explícitamente que no hay ninguna tabulación en una posición determinada. Para borrar una tabulación heredada en una posición determinada, cree una`TabStop` objeto y set [`Alignment`](./alignment/) aClear.
 
 Para más información, ver[`TabStopCollection`](../tabstopcollection/).
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo modificar la posición de la tabulación derecha en párrafos relacionados con TOC.
 
@@ -72,5 +74,3 @@ doc.Save(ArtifactsDir + "Styles.ChangeTocsTabStops.docx");
 
 * espacio de nombres [Aspose.Words](../../aspose.words/)
 * asamblea [Aspose.Words](../../)
-
-

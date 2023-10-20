@@ -1,7 +1,9 @@
 ---
 title: FindReplaceOptions.FindWholeWordsOnly
-second_title: Aspose.Words for .NET API 参考
-description: FindReplaceOptions 财产. True 表示 oldValue 必须是独立的单词
+linktitle: FindWholeWordsOnly
+articleTitle: FindWholeWordsOnly
+second_title: 用于 .NET 的 Aspose.Words
+description: FindReplaceOptions FindWholeWordsOnly 财产. True 表示 oldValue 必须是独立的单词 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words.replacing/findreplaceoptions/findwholewordsonly/
@@ -14,7 +16,7 @@ True 表示 oldValue 必须是独立的单词。
 public bool FindWholeWordsOnly { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何切换独立的仅单词查找和替换操作。
 
@@ -41,7 +43,5 @@ Assert.AreEqual(
 ### 也可以看看
 
 * class [FindReplaceOptions](../)
-* 命名空间 [Aspose.Words.Replacing](../../findreplaceoptions/)
+* 命名空间 [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * 部件 [Aspose.Words](../../../)
-
-

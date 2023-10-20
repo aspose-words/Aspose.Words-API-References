@@ -1,7 +1,9 @@
 ---
-title: Class WebExtensionProperty
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.WebExtensions.WebExtensionProperty فصل. يحدد خاصية مخصصة لامتداد الويب.
+title: WebExtensionProperty Class
+linktitle: WebExtensionProperty
+articleTitle: WebExtensionProperty
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.WebExtensions.WebExtensionProperty فصل. يحدد خاصية مخصصة لامتداد الويب في C#.
 type: docs
 weight: 6780
 url: /ar/net/aspose.words.webextensions/webextensionproperty/
@@ -20,7 +22,7 @@ public class WebExtensionProperty
 
 | اسم | وصف |
 | --- | --- |
-| [WebExtensionProperty](webextensionproperty/)(string, string) | إنشاء خاصية مخصصة لامتداد الويب بالاسم والقيمة المحددين. |
+| [WebExtensionProperty](webextensionproperty/)(*string, string*) | إنشاء خاصية مخصصة لامتداد الويب بالاسم والقيمة المحددين. |
 
 ## الخصائص
 
@@ -33,5 +35,3 @@ public class WebExtensionProperty
 
 * مساحة الاسم [Aspose.Words.WebExtensions](../../aspose.words.webextensions/)
 * المجسم [Aspose.Words](../../)
-
-

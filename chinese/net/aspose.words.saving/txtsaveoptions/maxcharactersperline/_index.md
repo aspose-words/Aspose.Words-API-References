@@ -1,7 +1,9 @@
 ---
 title: TxtSaveOptions.MaxCharactersPerLine
-second_title: Aspose.Words for .NET API 参考
-description: TxtSaveOptions 财产. 获取或设置一个整数值指定每一行的最大字符数 默认值为 0表示没有限制
+linktitle: MaxCharactersPerLine
+articleTitle: MaxCharactersPerLine
+second_title: 用于 .NET 的 Aspose.Words
+description: TxtSaveOptions MaxCharactersPerLine 财产. 获取或设置一个整数值指定每一行的最大字符数 默认值为 0表示没有限制 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.saving/txtsaveoptions/maxcharactersperline/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.saving/txtsaveoptions/maxcharactersperline/
 public int MaxCharactersPerLine { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何设置每行的最大字符数。
 
@@ -34,7 +36,5 @@ doc.Save(ArtifactsDir + "TxtSaveOptions.MaxCharactersPerLine.txt", saveOptions);
 ### 也可以看看
 
 * class [TxtSaveOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../txtsaveoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: NodeRendererBase.SizeInPoints
-second_title: Aspose.Words för .NET API Referens
-description: NodeRendererBase fast egendom. Får den faktiska storleken på formen i poäng.
+linktitle: SizeInPoints
+articleTitle: SizeInPoints
+second_title: Aspose.Words för .NET
+description: NodeRendererBase SizeInPoints fast egendom. Får den faktiska storleken på formen i poäng i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.rendering/noderendererbase/sizeinpoints/
@@ -14,11 +16,11 @@ Får den faktiska storleken på formen i poäng.
 public SizeF SizeInPoints { get; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Den här egenskapen returnerar storleken på den faktiska (som återges på sidan) begränsningsrutan för formen. Storleken tar hänsyn till formrotation (om någon).
 
-### Exempel
+## Exempel
 
 Visar hur man mäter och skalar former.
 
@@ -65,7 +67,5 @@ Assert.AreEqual(30, bounds.Height);
 ### Se även
 
 * class [NodeRendererBase](../)
-* namnutrymme [Aspose.Words.Rendering](../../noderendererbase/)
+* namnutrymme [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,9 +1,11 @@
 ---
 title: Stroke.Visible
-second_title: Aspose.Words لمراجع .NET API
-description: Stroke ملكية. الحصول على أو تعيين علامة تشير إلى ما إذا كانت الحدود مرئية أم لا.
+linktitle: Visible
+articleTitle: Visible
+second_title: Aspose.Words لـ .NET
+description: Stroke Visible ملكية. الحصول على أو تعيين علامة تشير إلى ما إذا كانت الحدود مرئية أم لا في C#.
 type: docs
-weight: 210
+weight: 200
 url: /ar/net/aspose.words.drawing/stroke/visible/
 ---
 ## Stroke.Visible property
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.drawing/stroke/visible/
 public bool Visible { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 القيمة الافتراضية لـ a[`Shape`](../../shape/) يكون`حقيقي` .
 
-### أمثلة
+## أمثلة
 
 أظهر كيفية ضبط تنسيق العلامة.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "Charts.MarkerFormatting.docx");
 ### أنظر أيضا
 
 * class [Stroke](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../stroke/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

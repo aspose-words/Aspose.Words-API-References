@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.ShowBreaksInFrames
-second_title: Aspose.Words für .NET-API-Referenz
-description: CompatibilityOptions eigendom. In Frames vorhandene Seiten/Spaltenumbrüche anzeigen.
+linktitle: ShowBreaksInFrames
+articleTitle: ShowBreaksInFrames
+second_title: Aspose.Words für .NET
+description: CompatibilityOptions ShowBreaksInFrames eigendom. In Frames vorhandene Seiten/Spaltenumbrüche anzeigen in C#.
 type: docs
 weight: 430
 url: /de/net/aspose.words.settings/compatibilityoptions/showbreaksinframes/
@@ -17,7 +19,5 @@ public bool ShowBreaksInFrames { get; set; }
 ### Siehe auch
 
 * class [CompatibilityOptions](../)
-* namensraum [Aspose.Words.Settings](../../compatibilityoptions/)
+* namensraum [Aspose.Words.Settings](../../../aspose.words.settings/)
 * Montage [Aspose.Words](../../../)
-
-

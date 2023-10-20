@@ -1,7 +1,9 @@
 ---
 title: FieldChar.IsDirty
-second_title: Aspose.Words لمراجع .NET API
-description: FieldChar ملكية. الحصول على أو تعيين ما إذا كانت النتيجة الحالية للحقل لم تعد صحيحة قديمة بسبب تعديلات أخرى تم إجراؤها على المستند.
+linktitle: IsDirty
+articleTitle: IsDirty
+second_title: Aspose.Words لـ .NET
+description: FieldChar IsDirty ملكية. الحصول على أو تعيين ما إذا كانت النتيجة الحالية للحقل لم تعد صحيحة قديمة بسبب تعديلات أخرى تم إجراؤها على المستند في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.fields/fieldchar/isdirty/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldchar/isdirty/
 public bool IsDirty { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع عقدة FieldStart.
 
@@ -45,7 +47,5 @@ field.Update();
 ### أنظر أيضا
 
 * class [FieldChar](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldchar/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

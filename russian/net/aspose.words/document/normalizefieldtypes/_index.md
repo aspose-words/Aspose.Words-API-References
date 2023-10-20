@@ -1,9 +1,11 @@
 ---
 title: Document.NormalizeFieldTypes
-second_title: Справочник по API Aspose.Words для .NET
-description: Document метод. Изменяет значения типов полей.FieldType изFieldStart FieldSeparator FieldEnd во всем документе чтобы они соответствовали типам полей содержащимся в кодах полей.
+linktitle: NormalizeFieldTypes
+articleTitle: NormalizeFieldTypes
+second_title: Aspose.Words для .NET
+description: Document NormalizeFieldTypes метод. Изменяет значения типов полей.FieldType изFieldStart FieldSeparator FieldEnd во всем документе чтобы они соответствовали типам полей содержащимся в кодах полей на С#.
 type: docs
-weight: 650
+weight: 630
 url: /ru/net/aspose.words/document/normalizefieldtypes/
 ---
 ## Document.NormalizeFieldTypes method
@@ -14,13 +16,13 @@ url: /ru/net/aspose.words/document/normalizefieldtypes/
 public void NormalizeFieldTypes()
 ```
 
-### Примечания
+## Примечания
 
 Используйте этот метод после изменений документа, которые влияют на типы полей.
 
 Чтобы изменить значения типа поля в определенной части документа, используйте[`NormalizeFieldTypes`](../../range/normalizefieldtypes/).
 
-### Примеры
+## Примеры
 
 Показывает, как обеспечить актуальность типа поля с помощью его кода поля.
 
@@ -57,7 +59,5 @@ Assert.AreEqual(FieldType.FieldPage, field.End.FieldType);
 ### Смотрите также
 
 * class [Document](../)
-* пространство имен [Aspose.Words](../../document/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

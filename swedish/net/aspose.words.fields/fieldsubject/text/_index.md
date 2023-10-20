@@ -1,7 +1,9 @@
 ---
 title: FieldSubject.Text
-second_title: Aspose.Words för .NET API Referens
-description: FieldSubject fast egendom. Hämtar eller ställer in texten i ämnet.
+linktitle: Text
+articleTitle: Text
+second_title: Aspose.Words för .NET
+description: FieldSubject Text fast egendom. Hämtar eller ställer in texten i ämnet i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.fields/fieldsubject/text/
@@ -14,7 +16,7 @@ Hämtar eller ställer in texten i ämnet.
 public string Text { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man använder fältet SUBJECT.
 
@@ -49,7 +51,5 @@ doc.Save(ArtifactsDir + "Field.SUBJECT.docx");
 ### Se även
 
 * class [FieldSubject](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldsubject/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

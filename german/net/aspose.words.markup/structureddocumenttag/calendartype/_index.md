@@ -1,26 +1,28 @@
 ---
 title: StructuredDocumentTag.CalendarType
-second_title: Aspose.Words für .NET-API-Referenz
-description: StructuredDocumentTag eigendom. Gibt den Kalendertyp hierfür an SDT . Standard istDefault
+linktitle: CalendarType
+articleTitle: CalendarType
+second_title: Aspose.Words für .NET
+description: StructuredDocumentTag CalendarType eigendom. Gibt den Kalendertyp hierfür anSDT . Standard istDefault in C#.
 type: docs
 weight: 50
 url: /de/net/aspose.words.markup/structureddocumenttag/calendartype/
 ---
 ## StructuredDocumentTag.CalendarType property
 
-Gibt den Kalendertyp hierfür an **SDT** . Standard istDefault
+Gibt den Kalendertyp hierfür an**SDT** . Standard istDefault
 
 ```csharp
 public SdtCalendarType CalendarType { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Der Zugriff auf diese Eigenschaft funktioniert nur fürDate SDT-Typ.
 
 Bei allen anderen SDT-Typen tritt eine Ausnahme auf.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie der Benutzer mit einem strukturierten Dokument-Tag zur Eingabe eines Datums aufgefordert wird.
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.Date.docx");
 
 * enum [SdtCalendarType](../../sdtcalendartype/)
 * class [StructuredDocumentTag](../)
-* namensraum [Aspose.Words.Markup](../../structureddocumenttag/)
+* namensraum [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Montage [Aspose.Words](../../../)
-
-

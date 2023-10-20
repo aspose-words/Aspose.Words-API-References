@@ -1,7 +1,9 @@
 ---
 title: HeaderFooter.NodeType
-second_title: Référence de l'API Aspose.Words pour .NET
-description: HeaderFooter propriété. RetoursHeaderFooter .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words pour .NET
+description: HeaderFooter NodeType propriété. RetoursHeaderFooter  en C#.
 type: docs
 weight: 50
 url: /fr/net/aspose.words/headerfooter/nodetype/
@@ -14,7 +16,7 @@ RetoursHeaderFooter .
 public override NodeType NodeType { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment parcourir les enfants d’un nœud composite.
 
@@ -64,7 +66,5 @@ foreach (Node node in section)
 
 * enum [NodeType](../../nodetype/)
 * class [HeaderFooter](../)
-* espace de noms [Aspose.Words](../../headerfooter/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FontSettings.SubstitutionSettings
-second_title: Aspose.Words لمراجع .NET API
-description: FontSettings ملكية. الإعدادات المتعلقة بآلية استبدال الخطوط.
+linktitle: SubstitutionSettings
+articleTitle: SubstitutionSettings
+second_title: Aspose.Words لـ .NET
+description: FontSettings SubstitutionSettings ملكية. الإعدادات المتعلقة بآلية استبدال الخطوط في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.fonts/fontsettings/substitutionsettings/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fonts/fontsettings/substitutionsettings/
 public FontSubstitutionSettings SubstitutionSettings { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الوصول إلى مصدر خط نظام المستند وتعيين بدائل الخطوط.
 
@@ -71,7 +73,5 @@ Assert.AreEqual(1,
 
 * class [FontSubstitutionSettings](../../fontsubstitutionsettings/)
 * class [FontSettings](../)
-* مساحة الاسم [Aspose.Words.Fonts](../../fontsettings/)
+* مساحة الاسم [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * المجسم [Aspose.Words](../../../)
-
-

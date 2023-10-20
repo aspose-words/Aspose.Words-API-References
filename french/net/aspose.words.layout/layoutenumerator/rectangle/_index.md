@@ -1,7 +1,9 @@
 ---
 title: LayoutEnumerator.Rectangle
-second_title: Référence de l'API Aspose.Words pour .NET
-description: LayoutEnumerator propriété. Renvoie le rectangle englobant de lentité actuelle par rapport au coin supérieur gauche de la page en points.
+linktitle: Rectangle
+articleTitle: Rectangle
+second_title: Aspose.Words pour .NET
+description: LayoutEnumerator Rectangle propriété. Renvoie le rectangle englobant de lentité actuelle par rapport au coin supérieur gauche de la page en points en C#.
 type: docs
 weight: 70
 url: /fr/net/aspose.words.layout/layoutenumerator/rectangle/
@@ -14,7 +16,7 @@ Renvoie le rectangle englobant de l'entité actuelle par rapport au coin supéri
 public RectangleF Rectangle { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre les moyens de parcourir les entités de mise en page d'un document.
 
@@ -159,7 +161,5 @@ private static void PrintCurrentEntity(LayoutEnumerator layoutEnumerator, int in
 ### Voir également
 
 * class [LayoutEnumerator](../)
-* espace de noms [Aspose.Words.Layout](../../layoutenumerator/)
+* espace de noms [Aspose.Words.Layout](../../../aspose.words.layout/)
 * Assemblée [Aspose.Words](../../../)
-
-

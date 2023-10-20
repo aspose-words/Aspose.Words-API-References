@@ -1,7 +1,9 @@
 ---
 title: FieldGlossary.EntryName
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldGlossary свойство. Получает или задает имя вставляемой записи глоссария.
+linktitle: EntryName
+articleTitle: EntryName
+second_title: Aspose.Words для .NET
+description: FieldGlossary EntryName свойство. Получает или задает имя вставляемой записи глоссария на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.fields/fieldglossary/entryname/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldglossary/entryname/
 public string EntryName { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как отобразить стандартный блок с полями АВТОТЕКСТ и ГЛОССАРИЙ.
 
@@ -64,7 +66,5 @@ doc.Save(ArtifactsDir + "Field.AUTOTEXT.GLOSSARY.dotx");
 ### Смотрите также
 
 * class [FieldGlossary](../)
-* пространство имен [Aspose.Words.Fields](../../fieldglossary/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

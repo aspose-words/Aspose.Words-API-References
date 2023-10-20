@@ -1,7 +1,9 @@
 ---
 title: OdsoFieldMapData.Name
-second_title: Справочник по API Aspose.Words для .NET
-description: OdsoFieldMapData свойство. Указывает имя столбца во внешнем источнике данных для столбца индекс которого указан вColumnproperty. Значение по умолчанию  пустая строка.
+linktitle: Name
+articleTitle: Name
+second_title: Aspose.Words для .NET
+description: OdsoFieldMapData Name свойство. Указывает имя столбца во внешнем источнике данных для столбца индекс которого указан вColumnproperty. Значение по умолчанию  пустая строка на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.settings/odsofieldmapdata/name/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.settings/odsofieldmapdata/name/
 public string Name { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как получить доступ к коллекции данных, которая сопоставляет столбцы источника данных с полями слияния.
 
@@ -57,7 +59,5 @@ Assert.AreEqual(0, dataCollection.Count);
 ### Смотрите также
 
 * class [OdsoFieldMapData](../)
-* пространство имен [Aspose.Words.Settings](../../odsofieldmapdata/)
+* пространство имен [Aspose.Words.Settings](../../../aspose.words.settings/)
 * сборка [Aspose.Words](../../../)
-
-

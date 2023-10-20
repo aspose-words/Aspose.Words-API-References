@@ -1,9 +1,11 @@
 ---
 title: Document.NormalizeFieldTypes
-second_title: Aspose.Words for .NET API 参考
-description: Document 方法. 更改字段类型值FieldType的FieldStartFieldSeparatorFieldEnd 在整个文档中以便它们对应于字段代码中包含的字段类型
+linktitle: NormalizeFieldTypes
+articleTitle: NormalizeFieldTypes
+second_title: 用于 .NET 的 Aspose.Words
+description: Document NormalizeFieldTypes 方法. 更改字段类型值FieldType的FieldStartFieldSeparatorFieldEnd 在整个文档中以便它们对应于字段代码中包含的字段类型 在 C#.
 type: docs
-weight: 650
+weight: 630
 url: /zh/net/aspose.words/document/normalizefieldtypes/
 ---
 ## Document.NormalizeFieldTypes method
@@ -14,13 +16,13 @@ url: /zh/net/aspose.words/document/normalizefieldtypes/
 public void NormalizeFieldTypes()
 ```
 
-### 评论
+## 评论
 
 在影响字段类型的文档更改后使用此方法。
 
 要更改文档特定部分中的字段类型值，请使用[`NormalizeFieldTypes`](../../range/normalizefieldtypes/)。
 
-### 例子
+## 例子
 
 演示如何使字段类型与其字段代码保持最新。
 
@@ -57,7 +59,5 @@ Assert.AreEqual(FieldType.FieldPage, field.End.FieldType);
 ### 也可以看看
 
 * class [Document](../)
-* 命名空间 [Aspose.Words](../../document/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

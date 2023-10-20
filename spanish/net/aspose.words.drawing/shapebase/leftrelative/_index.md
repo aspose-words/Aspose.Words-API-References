@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.LeftRelative
-second_title: Referencia de API de Aspose.Words para .NET
-description: ShapeBase propiedad. Obtiene o establece el valor que representa la posición relativa izquierda de la forma en porcentaje.
+linktitle: LeftRelative
+articleTitle: LeftRelative
+second_title: Aspose.Words para .NET
+description: ShapeBase LeftRelative propiedad. Obtiene o establece el valor que representa la posición relativa izquierda de la forma en porcentaje en C#.
 type: docs
 weight: 380
 url: /es/net/aspose.words.drawing/shapebase/leftrelative/
@@ -14,7 +16,7 @@ Obtiene o establece el valor que representa la posición relativa izquierda de l
 public float LeftRelative { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo establecer el tamaño y la posición relativos.
 
@@ -69,7 +71,5 @@ doc.Save(ArtifactsDir + "Shape.RelativeSizeAndPosition.docx");
 ### Ver también
 
 * class [ShapeBase](../)
-* espacio de nombres [Aspose.Words.Drawing](../../shapebase/)
+* espacio de nombres [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * asamblea [Aspose.Words](../../../)
-
-

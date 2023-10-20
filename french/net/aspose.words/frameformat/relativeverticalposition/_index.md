@@ -1,7 +1,9 @@
 ---
 title: FrameFormat.RelativeVerticalPosition
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FrameFormat propriété. Obtient la position verticale relative dun cadre.
+linktitle: RelativeVerticalPosition
+articleTitle: RelativeVerticalPosition
+second_title: Aspose.Words pour .NET
+description: FrameFormat RelativeVerticalPosition propriété. Obtient la position verticale relative dun cadre en C#.
 type: docs
 weight: 80
 url: /fr/net/aspose.words/frameformat/relativeverticalposition/
@@ -14,7 +16,7 @@ Obtient la position verticale relative d'un cadre.
 public RelativeVerticalPosition RelativeVerticalPosition { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment obtenir des informations sur les propriétés de mise en forme des paragraphes qui sont des cadres.
 
@@ -40,7 +42,5 @@ Assert.AreEqual(0.0d, paragraphFrame.FrameFormat.VerticalDistanceFromText);
 
 * enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/)
 * class [FrameFormat](../)
-* espace de noms [Aspose.Words](../../frameformat/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

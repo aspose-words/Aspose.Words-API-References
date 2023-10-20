@@ -1,12 +1,14 @@
 ---
 title: Aspose.Words.Themes
-second_title: Referencia de API de Aspose.Words para .NET
-description: El Aspose.Palabras.Temas El espacio de nombres proporciona clases que permiten acceder a información del tema en documentos de Microsoft Word.
+linktitle: Aspose.Words.Themes
+articleTitle: Aspose.Words.Themes
+second_title: Aspose.Words para .NET
+description: ElAspose.Palabras.Temas El espacio de nombres proporciona clases que permiten acceder a información del tema en documentos de Microsoft Word en C#.
 type: docs
 weight: 270
 url: /es/net/aspose.words.themes/
 ---
-El **Aspose.Palabras.Temas** El espacio de nombres proporciona clases que permiten acceder a información del tema en documentos de Microsoft Word.
+El**Aspose.Palabras.Temas** El espacio de nombres proporciona clases que permiten acceder a información del tema en documentos de Microsoft Word.
 
 ## Clases
 
@@ -21,5 +23,3 @@ El **Aspose.Palabras.Temas** El espacio de nombres proporciona clases que permit
 | --- | --- |
 | [ThemeColor](./themecolor/) | Especifica los colores del tema para los temas del documento. |
 | [ThemeFont](./themefont/) | Especifica los tipos de nombres de fuentes de temas para temas de documentos. |
-
-

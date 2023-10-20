@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.AllowNegativeIndent
-second_title: Aspose.Words for .NET API 参考
-description: HtmlSaveOptions 财产. 指定保存为 HTMLMHTML 或 EPUB 时段落的左右负缩进是否标准化 默认值为错误的.
+linktitle: AllowNegativeIndent
+articleTitle: AllowNegativeIndent
+second_title: 用于 .NET 的 Aspose.Words
+description: HtmlSaveOptions AllowNegativeIndent 财产. 指定保存为 HTMLMHTML 或 EPUB 时段落的左右负缩进是否标准化 默认值为错误的 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.saving/htmlsaveoptions/allownegativeindent/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.saving/htmlsaveoptions/allownegativeindent/
 public bool AllowNegativeIndent { get; set; }
 ```
 
-### 评论
+## 评论
 
 当不允许负缩进时，它会以零边距导出到 HTML。 当允许负缩进时，段落可能会部分显示在 浏览器窗口之外。
 
-### 例子
+## 例子
 
 演示如何在输出 .html 中保留负缩进。
 
@@ -80,7 +82,5 @@ else
 ### 也可以看看
 
 * class [HtmlSaveOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../htmlsaveoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

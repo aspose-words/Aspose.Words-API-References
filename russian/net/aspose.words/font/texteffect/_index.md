@@ -1,7 +1,9 @@
 ---
 title: Font.TextEffect
-second_title: Справочник по API Aspose.Words для .NET
-description: Font свойство. Получает или задает эффект анимации шрифта.
+linktitle: TextEffect
+articleTitle: TextEffect
+second_title: Aspose.Words для .NET
+description: Font TextEffect свойство. Получает или задает эффект анимации шрифта на С#.
 type: docs
 weight: 450
 url: /ru/net/aspose.words/font/texteffect/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/font/texteffect/
 public TextEffect TextEffect { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как применить визуальный эффект к бегу.
 
@@ -35,7 +37,5 @@ doc.Save(ArtifactsDir + "Font.SparklingText.doc");
 
 * enum [TextEffect](../../texteffect/)
 * class [Font](../)
-* пространство имен [Aspose.Words](../../font/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

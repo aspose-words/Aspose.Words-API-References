@@ -1,7 +1,9 @@
 ---
 title: PageSetup.PageWidth
-second_title: Aspose.Words لمراجع .NET API
-description: PageSetup ملكية. إرجاع أو تعيين عرض الصفحة بالنقاط.
+linktitle: PageWidth
+articleTitle: PageWidth
+second_title: Aspose.Words لـ .NET
+description: PageSetup PageWidth ملكية. إرجاع أو تعيين عرض الصفحة بالنقاط في C#.
 type: docs
 weight: 340
 url: /ar/net/aspose.words/pagesetup/pagewidth/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/pagesetup/pagewidth/
 public double PageWidth { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج صورة واستخدامها كعلامة مائية.
 
@@ -99,7 +101,5 @@ doc.Save(ArtifactsDir + "Image.CreateFloatingPositionSize.docx");
 ### أنظر أيضا
 
 * class [PageSetup](../)
-* مساحة الاسم [Aspose.Words](../../pagesetup/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

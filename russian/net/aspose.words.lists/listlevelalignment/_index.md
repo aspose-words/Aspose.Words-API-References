@@ -1,7 +1,9 @@
 ---
-title: Enum ListLevelAlignment
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Lists.ListLevelAlignment перечисление. Определяет выравнивание номера списка или маркера.
+title: ListLevelAlignment Enum
+linktitle: ListLevelAlignment
+articleTitle: ListLevelAlignment
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Lists.ListLevelAlignment перечисление. Определяет выравнивание номера списка или маркера на С#.
 type: docs
 weight: 3510
 url: /ru/net/aspose.words.lists/listlevelalignment/
@@ -22,11 +24,11 @@ public enum ListLevelAlignment
 | Center | `1` | Метка списка центрируется по номеру позиции. |
 | Right | `2` | Эта метка списка выравнивается справа от позиции номера. |
 
-### Примечания
+## Примечания
 
 Используется в качестве значения для[`Alignment`](../listlevel/alignment/) свойство.
 
-### Примеры
+## Примеры
 
 Показывает, как применить пользовательское форматирование списка к абзацам при использовании DocumentBuilder.
 
@@ -86,5 +88,3 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateCustomList.docx");
 
 * пространство имен [Aspose.Words.Lists](../../aspose.words.lists/)
 * сборка [Aspose.Words](../../)
-
-

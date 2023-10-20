@@ -1,7 +1,9 @@
 ---
 title: CompareOptions.IgnoreTextboxes
-second_title: Aspose.Words für .NET-API-Referenz
-description: CompareOptions eigendom. Gibt an ob Unterschiede in den in Textfeldern enthaltenen Daten verglichen werden sollen. Standardmäßig werden Textfelder nicht ignoriert.
+linktitle: IgnoreTextboxes
+articleTitle: IgnoreTextboxes
+second_title: Aspose.Words für .NET
+description: CompareOptions IgnoreTextboxes eigendom. Gibt an ob Unterschiede in den in Textfeldern enthaltenen Daten verglichen werden sollen. Standardmäßig werden Textfelder nicht ignoriert in C#.
 type: docs
 weight: 120
 url: /de/net/aspose.words.comparing/compareoptions/ignoretextboxes/
@@ -14,7 +16,7 @@ Gibt an, ob Unterschiede in den in Textfeldern enthaltenen Daten verglichen werd
 public bool IgnoreTextboxes { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie bei einem Vergleich bestimmte Arten von Dokumentelementen gefiltert werden.
 
@@ -88,7 +90,5 @@ docOriginal.Save(ArtifactsDir + "Document.CompareOptions.docx");
 ### Siehe auch
 
 * class [CompareOptions](../)
-* namensraum [Aspose.Words.Comparing](../../compareoptions/)
+* namensraum [Aspose.Words.Comparing](../../../aspose.words.comparing/)
 * Montage [Aspose.Words](../../../)
-
-

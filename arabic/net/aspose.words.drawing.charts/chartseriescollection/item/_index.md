@@ -1,7 +1,9 @@
 ---
 title: ChartSeriesCollection.Item
-second_title: Aspose.Words لمراجع .NET API
-description: ChartSeriesCollection ملكية. إرجاع أChartSeries في الفهرس المحدد.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words لـ .NET
+description: ChartSeriesCollection Item ملكية. إرجاع أChartSeries في الفهرس المحدد في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.drawing.charts/chartseriescollection/item/
@@ -18,7 +20,7 @@ public ChartSeries this[int index] { get; }
 | --- | --- |
 | index | فهرس في المجموعة. |
 
-### ملاحظات
+## ملاحظات
 
 المؤشر قائم على الصفر.
 
@@ -28,7 +30,7 @@ public ChartSeries this[int index] { get; }
 
 إذا كان الفهرس سالبًا وقيمته المطلقة أكبر من عدد العناصر الموجودة في القائمة، فسيُرجع هذا مرجعًا فارغًا.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إضافة وإزالة بيانات السلسلة في مخطط.
 
@@ -76,7 +78,5 @@ chartData.Clear();
 
 * class [ChartSeries](../../chartseries/)
 * class [ChartSeriesCollection](../)
-* مساحة الاسم [Aspose.Words.Drawing.Charts](../../chartseriescollection/)
+* مساحة الاسم [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../../)
-
-

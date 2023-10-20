@@ -1,7 +1,9 @@
 ---
 title: HtmlFixedSaveOptions.ResourcesFolderAlias
-second_title: Aspose.Words لمراجع .NET API
-description: HtmlFixedSaveOptions ملكية. يحدد اسم المجلد المستخدم لإنشاء معرفات URI للصور المكتوبة في مستند Html. الافتراضي هوباطل .
+linktitle: ResourcesFolderAlias
+articleTitle: ResourcesFolderAlias
+second_title: Aspose.Words لـ .NET
+description: HtmlFixedSaveOptions ResourcesFolderAlias ملكية. يحدد اسم المجلد المستخدم لإنشاء معرفات URI للصور المكتوبة في مستند Html. الافتراضي هوباطل  في C#.
 type: docs
 weight: 150
 url: /ar/net/aspose.words.saving/htmlfixedsaveoptions/resourcesfolderalias/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.saving/htmlfixedsaveoptions/resourcesfolderalias/
 public string ResourcesFolderAlias { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 عندما تقوم بحفظ أ[`Document`](../../../aspose.words/document/) بتنسيق Html، يحتاج Aspose.Words إلى حفظ جميع الصور المضمنة في المستند كملفات مستقلة.[`ResourcesFolder`](../resourcesfolder/) يسمح لك بتحديد مكان حفظ الصور و`ResourcesFolderAlias` يسمح بتحديد كيفية إنشاء معرفات URI للصورة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام رد اتصال لطباعة معرفات URI للموارد الخارجية التي تم إنشاؤها أثناء تحويل مستند إلى HTML.
 
@@ -97,7 +99,5 @@ private class ResourceUriPrinter : IResourceSavingCallback
 ### أنظر أيضا
 
 * class [HtmlFixedSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../htmlfixedsaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

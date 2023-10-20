@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.NumberFormat
-second_title: Aspose.Words für .NET-API-Referenz
-description: ChartAxis eigendom. Gibt a zurückChartNumberFormat Objekt das die Definition von Zahlenformaten für die Achse ermöglicht.
+linktitle: NumberFormat
+articleTitle: NumberFormat
+second_title: Aspose.Words für .NET
+description: ChartAxis NumberFormat eigendom. Gibt a zurückChartNumberFormat Objekt das die Definition von Zahlenformaten für die Achse ermöglicht in C#.
 type: docs
 weight: 190
 url: /de/net/aspose.words.drawing.charts/chartaxis/numberformat/
@@ -14,7 +16,7 @@ Gibt a zurück[`ChartNumberFormat`](../../chartnumberformat/) Objekt, das die De
 public ChartNumberFormat NumberFormat { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Formatierung für Diagrammwerte festgelegt wird.
 
@@ -47,7 +49,5 @@ doc.Save(ArtifactsDir + "Charts.SetNumberFormatToChartAxis.docx");
 
 * class [ChartNumberFormat](../../chartnumberformat/)
 * class [ChartAxis](../)
-* namensraum [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* namensraum [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldInfo.InfoType
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldInfo свойство. Получает или задает тип свойства документа для вставки.
+linktitle: InfoType
+articleTitle: InfoType
+second_title: Aspose.Words для .NET
+description: FieldInfo InfoType свойство. Получает или задает тип свойства документа для вставки на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.fields/fieldinfo/infotype/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldinfo/infotype/
 public string InfoType { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как работать с полями INFO.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "Field.INFO.docx");
 ### Смотрите также
 
 * class [FieldInfo](../)
-* пространство имен [Aspose.Words.Fields](../../fieldinfo/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

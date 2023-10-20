@@ -1,7 +1,9 @@
 ---
-title: FieldSubject.FieldSubject
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldSubject строитель. Конструктор по умолчанию.
+title: FieldSubject
+linktitle: FieldSubject
+articleTitle: FieldSubject
+second_title: Aspose.Words для .NET
+description: FieldSubject строитель. Конструктор по умолчанию на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fields/fieldsubject/fieldsubject/
@@ -17,7 +19,5 @@ public FieldSubject()
 ### Смотрите также
 
 * class [FieldSubject](../)
-* пространство имен [Aspose.Words.Fields](../../fieldsubject/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

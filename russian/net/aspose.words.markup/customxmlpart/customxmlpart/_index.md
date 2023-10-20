@@ -1,7 +1,9 @@
 ---
-title: CustomXmlPart.CustomXmlPart
-second_title: Справочник по API Aspose.Words для .NET
-description: CustomXmlPart строитель. Конструктор по умолчанию.
+title: CustomXmlPart
+linktitle: CustomXmlPart
+articleTitle: CustomXmlPart
+second_title: Aspose.Words для .NET
+description: CustomXmlPart строитель. Конструктор по умолчанию на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.markup/customxmlpart/customxmlpart/
@@ -17,7 +19,5 @@ public CustomXmlPart()
 ### Смотрите также
 
 * class [CustomXmlPart](../)
-* пространство имен [Aspose.Words.Markup](../../customxmlpart/)
+* пространство имен [Aspose.Words.Markup](../../../aspose.words.markup/)
 * сборка [Aspose.Words](../../../)
-
-

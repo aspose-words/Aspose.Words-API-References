@@ -1,7 +1,9 @@
 ---
 title: PdfDigitalSignatureTimestampSettings.ServerUrl
-second_title: Aspose.Words for .NET API 参考
-description: PdfDigitalSignatureTimestampSettings 财产. 时间戳服务器 URL.
+linktitle: ServerUrl
+articleTitle: ServerUrl
+second_title: 用于 .NET 的 Aspose.Words
+description: PdfDigitalSignatureTimestampSettings ServerUrl 财产. 时间戳服务器 URL 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.saving/pdfdigitalsignaturetimestampsettings/serverurl/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.saving/pdfdigitalsignaturetimestampsettings/serverurl/
 public string ServerUrl { get; set; }
 ```
 
-### 评论
+## 评论
 
 默认值为`无效的` . 如果`无效的`，那么数字签名将不会被加上时间戳。
 
-### 例子
+## 例子
 
 演示如何对保存的 PDF 文档进行数字签名并为其添加时间戳。
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignatureTimestamp.pdf", optio
 ### 也可以看看
 
 * class [PdfDigitalSignatureTimestampSettings](../)
-* 命名空间 [Aspose.Words.Saving](../../pdfdigitalsignaturetimestampsettings/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum PreferredWidthType
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Tables.PreferredWidthType enum. Specifica lunità di misura per la larghezza preferita di una tabella o cella.
+title: PreferredWidthType Enum
+linktitle: PreferredWidthType
+articleTitle: PreferredWidthType
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Tables.PreferredWidthType enum. Specifica lunità di misura per la larghezza preferita di una tabella o cella in C#.
 type: docs
 weight: 6300
 url: /it/net/aspose.words.tables/preferredwidthtype/
@@ -22,7 +24,7 @@ public enum PreferredWidthType
 | Percent | `2` | Misura la larghezza dell'elemento corrente utilizzando una percentuale specificata. |
 | Points | `3` | Misura la larghezza dell'oggetto corrente utilizzando un numero di punti specificato (1/72 di pollice). |
 
-### Esempi
+## Esempi
 
 Mostra come verificare il tipo di larghezza e il valore preferiti di una cella di tabella.
 
@@ -41,5 +43,3 @@ Assert.AreEqual(11.16d, firstCell.CellFormat.PreferredWidth.Value);
 * class [PreferredWidth](../preferredwidth/)
 * spazio dei nomi [Aspose.Words.Tables](../../aspose.words.tables/)
 * assemblea [Aspose.Words](../../)
-
-

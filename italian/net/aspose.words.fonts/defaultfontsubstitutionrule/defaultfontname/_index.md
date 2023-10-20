@@ -1,7 +1,9 @@
 ---
 title: DefaultFontSubstitutionRule.DefaultFontName
-second_title: Aspose.Words per .NET API Reference
-description: DefaultFontSubstitutionRule proprietà. Ottiene o imposta il nome del carattere predefinito.
+linktitle: DefaultFontName
+articleTitle: DefaultFontName
+second_title: Aspose.Words per .NET
+description: DefaultFontSubstitutionRule DefaultFontName proprietà. Ottiene o imposta il nome del carattere predefinito in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words.fonts/defaultfontsubstitutionrule/defaultfontname/
@@ -14,11 +16,11 @@ Ottiene o imposta il nome del carattere predefinito.
 public string DefaultFontName { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Il valore predefinito è "Times New Roman".
 
-### Esempi
+## Esempi
 
 Mostra come impostare la regola di sostituzione dei caratteri predefinita.
 
@@ -78,7 +80,5 @@ doc.Save(ArtifactsDir + "FontSettings.DefaultFontName.pdf");
 ### Guarda anche
 
 * class [DefaultFontSubstitutionRule](../)
-* spazio dei nomi [Aspose.Words.Fonts](../../defaultfontsubstitutionrule/)
+* spazio dei nomi [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * assemblea [Aspose.Words](../../../)
-
-

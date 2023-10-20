@@ -1,7 +1,9 @@
 ---
 title: DocumentBase.BackgroundShape
-second_title: Referencia de API de Aspose.Words para .NET
-description: DocumentBase propiedad. Obtiene o establece la forma del fondo del documento. Puede sernulo .
+linktitle: BackgroundShape
+articleTitle: BackgroundShape
+second_title: Aspose.Words para .NET
+description: DocumentBase BackgroundShape propiedad. Obtiene o establece la forma del fondo del documento. Puede sernulo  en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words/documentbase/backgroundshape/
@@ -14,7 +16,7 @@ Obtiene o establece la forma del fondo del documento. Puede ser`nulo` .
 public Shape BackgroundShape { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 Microsoft Word sólo permite una forma que tenga su[`ShapeType`](../../../aspose.words.drawing/shapebase/shapetype/) propiedad igual aRectangle para ser utilizado como forma de fondo para un documento.
 
@@ -22,7 +24,7 @@ Microsoft Word sólo admite las propiedades de relleno de una forma de fondo. To
 
 Establecer esta propiedad en un valor no nulo también establecerá el[`DisplayBackgroundShape`](../../../aspose.words.settings/viewoptions/displaybackgroundshape/) a`verdadero`.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo establecer una forma de fondo para cada página de un documento.
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "DocumentBase.BackgroundShape.Image.pdf", saveOptions);
 
 * class [Shape](../../../aspose.words.drawing/shape/)
 * class [DocumentBase](../)
-* espacio de nombres [Aspose.Words](../../documentbase/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ChartDataPoint.Index
-second_title: Aspose.Words för .NET API Referens
-description: ChartDataPoint fast egendom. Index för datapunkten som detta objekt tillämpar formatering på.
+linktitle: Index
+articleTitle: Index
+second_title: Aspose.Words för .NET
+description: ChartDataPoint Index fast egendom. Index för datapunkten som detta objekt tillämpar formatering på i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.drawing.charts/chartdatapoint/index/
@@ -14,7 +16,7 @@ Index för datapunkten som detta objekt tillämpar formatering på.
 public int Index { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med datapunkter på ett linjediagram.
 
@@ -76,7 +78,5 @@ private static void ApplyDataPoints(ChartSeries series, int dataPointsCount, Mar
 ### Se även
 
 * class [ChartDataPoint](../)
-* namnutrymme [Aspose.Words.Drawing.Charts](../../chartdatapoint/)
+* namnutrymme [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../../)
-
-

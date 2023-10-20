@@ -1,12 +1,14 @@
 ---
 title: HeaderFooterCollection.LinkToPrevious
-second_title: Aspose.Words per .NET API Reference
-description: HeaderFooterCollection metodo. Collega o scollega tutte le intestazioni e i piè di pagina alle intestazioni e ai piè di pagina corrispondenti nella sezione precedente.
+linktitle: LinkToPrevious
+articleTitle: LinkToPrevious
+second_title: Aspose.Words per .NET
+description: HeaderFooterCollection LinkToPrevious metodo. Collega o scollega tutte le intestazioni e i piè di pagina alle intestazioni e ai piè di pagina corrispondenti nella sezione precedente in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words/headerfootercollection/linktoprevious/
 ---
-## LinkToPrevious(bool) {#linktoprevious_1}
+## LinkToPrevious(*bool*) {#linktoprevious_1}
 
 Collega o scollega tutte le intestazioni e i piè di pagina alle intestazioni e ai piè di pagina corrispondenti nella sezione precedente.
 
@@ -18,11 +20,11 @@ public void LinkToPrevious(bool isLinkToPrevious)
 | --- | --- | --- |
 | isLinkToPrevious | Boolean | `VERO` per collegare intestazioni e piè di pagina alla sezione precedente; `falso` per scollegarli. |
 
-### Osservazioni
+## Osservazioni
 
 Se una qualsiasi delle intestazioni o dei piè di pagina non esiste, li crea automaticamente.
 
-### Esempi
+## Esempi
 
 Mostra come collegare intestazioni e piè di pagina tra le sezioni.
 
@@ -87,12 +89,12 @@ doc.Save(ArtifactsDir + "HeaderFooter.Link.docx");
 ### Guarda anche
 
 * class [HeaderFooterCollection](../)
-* spazio dei nomi [Aspose.Words](../../headerfootercollection/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
 
 ---
 
-## LinkToPrevious(HeaderFooterType, bool) {#linktoprevious}
+## LinkToPrevious(*[HeaderFooterType](../../headerfootertype/), bool*) {#linktoprevious}
 
 Collega o scollega l'intestazione o il piè di pagina specificato all'intestazione o al piè di pagina corrispondente nella sezione precedente.
 
@@ -105,11 +107,11 @@ public void LinkToPrevious(HeaderFooterType headerFooterType, bool isLinkToPrevi
 | headerFooterType | HeaderFooterType | UN[`HeaderFooterType`](../../headerfootertype/) value che specifica l'intestazione o il piè di pagina da collegare/scollegare. |
 | isLinkToPrevious | Boolean | `VERO`per collegare l'intestazione o il piè di pagina alla sezione precedente; `falso` per scollegare. |
 
-### Osservazioni
+## Osservazioni
 
 Se l'intestazione o il piè di pagina del tipo specificato non esiste, lo crea automaticamente.
 
-### Esempi
+## Esempi
 
 Mostra come collegare intestazioni e piè di pagina tra le sezioni.
 
@@ -175,7 +177,5 @@ doc.Save(ArtifactsDir + "HeaderFooter.Link.docx");
 
 * enum [HeaderFooterType](../../headerfootertype/)
 * class [HeaderFooterCollection](../)
-* spazio dei nomi [Aspose.Words](../../headerfootercollection/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

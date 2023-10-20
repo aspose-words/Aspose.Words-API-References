@@ -1,7 +1,9 @@
 ---
 title: MustacheTag.ReferenceRun
-second_title: Aspose.Words för .NET API Referens
-description: MustacheTag fast egendom. Hämtar körningen som innehåller början av taggen.
+linktitle: ReferenceRun
+articleTitle: ReferenceRun
+second_title: Aspose.Words för .NET
+description: MustacheTag ReferenceRun fast egendom. Hämtar körningen som innehåller början av taggen i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.mailmerging/mustachetag/referencerun/
@@ -14,7 +16,7 @@ Hämtar körningen som innehåller början av taggen.
 public Run ReferenceRun { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med mustaschtaggarna.
 
@@ -42,7 +44,5 @@ foreach (MailMergeRegionInfo region in hierarchy.Regions)
 
 * class [Run](../../../aspose.words/run/)
 * class [MustacheTag](../)
-* namnutrymme [Aspose.Words.MailMerging](../../mustachetag/)
+* namnutrymme [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * hopsättning [Aspose.Words](../../../)
-
-

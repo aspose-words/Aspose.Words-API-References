@@ -1,7 +1,9 @@
 ---
-title: Enum MergeFieldImageDimensionUnit
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Fields.MergeFieldImageDimensionUnit uppräkning. Anger en enhet av en bilddimension dvs. bredden eller höjden som används under en sammankopplingsprocess.
+title: MergeFieldImageDimensionUnit Enum
+linktitle: MergeFieldImageDimensionUnit
+articleTitle: MergeFieldImageDimensionUnit
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Fields.MergeFieldImageDimensionUnit uppräkning. Anger en enhet av en bilddimension dvs. bredden eller höjden som används under en sammankopplingsprocess i C#.
 type: docs
 weight: 2760
 url: /sv/net/aspose.words.fields/mergefieldimagedimensionunit/
@@ -21,7 +23,7 @@ public enum MergeFieldImageDimensionUnit
 | Point | `0` | Punkten (dvs. 1/72 tum). |
 | Percent | `1` | Procentandelen av den ursprungliga bildens dimensionsvärde. |
 
-### Exempel
+## Exempel
 
 Visar hur du ställer in dimensionerna för bilder när MERGEFIELDS accepterar dem under en sammanfogning.
 
@@ -92,5 +94,3 @@ private class MergedImageResizer : IFieldMergingCallback
 
 * namnutrymme [Aspose.Words.Fields](../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../)
-
-

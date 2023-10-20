@@ -1,7 +1,9 @@
 ---
-title: Class OdsoFieldMapData
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Settings.OdsoFieldMapData сорт. Указывает как столбец во внешнем источнике данных должен быть сопоставлен с предопределенными полями слияния в документе.
+title: OdsoFieldMapData Class
+linktitle: OdsoFieldMapData
+articleTitle: OdsoFieldMapData
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Settings.OdsoFieldMapData сорт. Указывает как столбец во внешнем источнике данных должен быть сопоставлен с предопределенными полями слияния в документе на С#.
 type: docs
 weight: 5900
 url: /ru/net/aspose.words.settings/odsofieldmapdata/
@@ -37,11 +39,11 @@ public class OdsoFieldMapData
 | --- | --- |
 | [Clone](../../aspose.words.settings/odsofieldmapdata/clone/)() | Возвращает глубокую копию этого объекта. |
 
-### Примечания
+## Примечания
 
 Microsoft Word предоставляет некоторые предопределенные имена полей слияния, которые можно вставлять в документ как MERGEFIELD или , используя поля ADDRESSBLOCK или GREETINGLINE. Информация, указанная в`OdsoFieldMapData` позволяет сопоставить один столбец во внешнем источнике данных с одним предопределенным полем слияния.
 
-### Примеры
+## Примеры
 
 Показывает, как получить доступ к коллекции данных, которая сопоставляет столбцы источника данных с полями слияния.
 
@@ -85,5 +87,3 @@ Assert.AreEqual(0, dataCollection.Count);
 
 * пространство имен [Aspose.Words.Settings](../../aspose.words.settings/)
 * сборка [Aspose.Words](../../)
-
-

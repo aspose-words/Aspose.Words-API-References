@@ -1,7 +1,9 @@
 ---
 title: ConditionalStyleCollection.FirstRow
-second_title: Aspose.Words för .NET API Referens
-description: ConditionalStyleCollection fast egendom. Får den första radens stil.
+linktitle: FirstRow
+articleTitle: FirstRow
+second_title: Aspose.Words för .NET
+description: ConditionalStyleCollection FirstRow fast egendom. Får den första radens stil i C#.
 type: docs
 weight: 70
 url: /sv/net/aspose.words/conditionalstylecollection/firstrow/
@@ -14,7 +16,7 @@ Får den första radens stil.
 public ConditionalStyle FirstRow { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med vissa områdesstilar i en tabell.
 
@@ -85,7 +87,5 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 
 * class [ConditionalStyle](../../conditionalstyle/)
 * class [ConditionalStyleCollection](../)
-* namnutrymme [Aspose.Words](../../conditionalstylecollection/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum OfficeMathDisplayType
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Math.OfficeMathDisplayType تعداد. يحدد نوع تنسيق عرض المعادلة.
+title: OfficeMathDisplayType Enum
+linktitle: OfficeMathDisplayType
+articleTitle: OfficeMathDisplayType
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Math.OfficeMathDisplayType تعداد. يحدد نوع تنسيق عرض المعادلة في C#.
 type: docs
 weight: 4130
 url: /ar/net/aspose.words.math/officemathdisplaytype/
@@ -21,7 +23,7 @@ public enum OfficeMathDisplayType
 | Display | `0` | يتم عرض Office Math في السطر الخاص بها. |
 | Inline | `1` | يتم عرض Office Math سطريًا مع النص. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية ضبط تنسيق عرض الرياضيات المكتبية.
 
@@ -47,5 +49,3 @@ doc.Save(ArtifactsDir + "Shape.OfficeMath.docx");
 
 * مساحة الاسم [Aspose.Words.Math](../../aspose.words.math/)
 * المجسم [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Interface IPageLayoutCallback
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Layout.IPageLayoutCallback واجهه المستخدم. قم بتنفيذ هذه الواجهة إذا كنت تريد أن يكون لديك طريقتك المخصصة التي يتم استدعاؤها أثناء إنشاء نموذج تخطيط الصفحة وعرضه.
+title: IPageLayoutCallback Interface
+linktitle: IPageLayoutCallback
+articleTitle: IPageLayoutCallback
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Layout.IPageLayoutCallback واجهه المستخدم. قم بتنفيذ هذه الواجهة إذا كنت تريد أن يكون لديك طريقتك المخصصة التي يتم استدعاؤها أثناء إنشاء نموذج تخطيط الصفحة وعرضه في C#.
 type: docs
 weight: 3310
 url: /ar/net/aspose.words.layout/ipagelayoutcallback/
@@ -18,9 +20,9 @@ public interface IPageLayoutCallback
 
 | اسم | وصف |
 | --- | --- |
-| [Notify](../../aspose.words.layout/ipagelayoutcallback/notify/)(PageLayoutCallbackArgs) | يتم استدعاؤه للإخطار ببناء التخطيط وتقديم التقدم. |
+| [Notify](../../aspose.words.layout/ipagelayoutcallback/notify/)(*[PageLayoutCallbackArgs](../pagelayoutcallbackargs/)*) | يتم استدعاؤه للإخطار ببناء التخطيط وتقديم التقدم. |
 
-### ملاحظات
+## ملاحظات
 
 الاستخدام الأساسي لهذه الواجهة هو السماح لكود التطبيق بإحباط عملية الإنشاء.
 
@@ -30,7 +32,7 @@ public interface IPageLayoutCallback
 
 قد لا تعمل هذه التقنية مع كل مستند أو قد تفشل تمامًا.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تتبع تغييرات التخطيط من خلال رد اتصال التخطيط.
 
@@ -98,5 +100,3 @@ private class RenderPageLayoutCallback : IPageLayoutCallback
 * property [Callback](../layoutoptions/callback/)
 * مساحة الاسم [Aspose.Words.Layout](../../aspose.words.layout/)
 * المجسم [Aspose.Words](../../)
-
-

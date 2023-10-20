@@ -1,12 +1,14 @@
 ---
 title: List.CompareTo
-second_title: Aspose.Words für .NET-API-Referenz
-description: List methode. Vergleicht das angegebene Objekt mit dem aktuellen Objekt.
+linktitle: CompareTo
+articleTitle: CompareTo
+second_title: Aspose.Words für .NET
+description: List CompareTo methode. Vergleicht das angegebene Objekt mit dem aktuellen Objekt in C#.
 type: docs
 weight: 90
 url: /de/net/aspose.words.lists/list/compareto/
 ---
-## CompareTo(object) {#compareto_1}
+## CompareTo(*object*) {#compareto_1}
 
 Vergleicht das angegebene Objekt mit dem aktuellen Objekt.
 
@@ -17,12 +19,12 @@ public int CompareTo(object obj)
 ### Siehe auch
 
 * class [List](../)
-* namensraum [Aspose.Words.Lists](../../list/)
+* namensraum [Aspose.Words.Lists](../../../aspose.words.lists/)
 * Montage [Aspose.Words](../../../)
 
 ---
 
-## CompareTo(List) {#compareto}
+## CompareTo(*[List](../)*) {#compareto}
 
 Vergleicht die angegebene Liste mit der aktuellen Liste.
 
@@ -33,7 +35,5 @@ public int CompareTo(List other)
 ### Siehe auch
 
 * class [List](../)
-* namensraum [Aspose.Words.Lists](../../list/)
+* namensraum [Aspose.Words.Lists](../../../aspose.words.lists/)
 * Montage [Aspose.Words](../../../)
-
-

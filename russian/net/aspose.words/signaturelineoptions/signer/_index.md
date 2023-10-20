@@ -1,20 +1,22 @@
 ---
 title: SignatureLineOptions.Signer
-second_title: Справочник по API Aspose.Words для .NET
-description: SignatureLineOptions свойство. Получает или задает предполагаемого подписывающего лица в строке подписи. Значение по умолчанию для этого свойства пустая строка Empty.
+linktitle: Signer
+articleTitle: Signer
+second_title: Aspose.Words для .NET
+description: SignatureLineOptions Signer свойство. Получает или задает предполагаемого подписывающего лица в строке подписи. Значение по умолчанию для этого свойствапустая строка Empty на С#.
 type: docs
 weight: 70
 url: /ru/net/aspose.words/signaturelineoptions/signer/
 ---
 ## SignatureLineOptions.Signer property
 
-Получает или задает предполагаемого подписывающего лица в строке подписи. Значение по умолчанию для этого свойства: **пустая строка** (Empty).
+Получает или задает предполагаемого подписывающего лица в строке подписи. Значение по умолчанию для этого свойства:**пустая строка** (Empty).
 
 ```csharp
 public string Signer { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как добавить в документ строку подписи, а затем подписать его с помощью цифрового сертификата.
 
@@ -130,7 +132,5 @@ public string Signer { get; set; }
 ### Смотрите также
 
 * class [SignatureLineOptions](../)
-* пространство имен [Aspose.Words](../../signaturelineoptions/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

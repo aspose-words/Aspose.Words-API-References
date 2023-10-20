@@ -1,7 +1,9 @@
 ---
 title: MailMergeSettings.ViewMergedData
-second_title: Aspose.Words لمراجع .NET API
-description: MailMergeSettings ملكية. يحدد أن Microsoft Word يجب أن يعرض البيانات من مصدر البيانات الخارجي المحدد حيث تم إدراج حقول الدمج على سبيل المثال معاينة البيانات المدمجة. القيمة الافتراضية هيخطأ شنيع .
+linktitle: ViewMergedData
+articleTitle: ViewMergedData
+second_title: Aspose.Words لـ .NET
+description: MailMergeSettings ViewMergedData ملكية. يحدد أن Microsoft Word يجب أن يعرض البيانات من مصدر البيانات الخارجي المحدد حيث تم إدراج حقول الدمج على سبيل المثال معاينة البيانات المدمجة. القيمة الافتراضية هيخطأ شنيع  في C#.
 type: docs
 weight: 170
 url: /ar/net/aspose.words.settings/mailmergesettings/viewmergeddata/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.settings/mailmergesettings/viewmergeddata/
 public bool ViewMergedData { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تنفيذ دمج البريد مع البيانات من كائن مصدر بيانات Office.
 
@@ -66,7 +68,5 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ### أنظر أيضا
 
 * class [MailMergeSettings](../)
-* مساحة الاسم [Aspose.Words.Settings](../../mailmergesettings/)
+* مساحة الاسم [Aspose.Words.Settings](../../../aspose.words.settings/)
 * المجسم [Aspose.Words](../../../)
-
-

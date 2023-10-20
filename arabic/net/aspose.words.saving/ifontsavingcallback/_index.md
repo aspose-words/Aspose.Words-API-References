@@ -1,7 +1,9 @@
 ---
-title: Interface IFontSavingCallback
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Saving.IFontSavingCallback واجهه المستخدم. قم بتنفيذ هذه الواجهة إذا كنت تريد تلقي الإشعارات والتحكم في كيفية قيام Aspose.Words بحفظ الخطوط عند تصدير مستند إلى تنسيق HTML.
+title: IFontSavingCallback Interface
+linktitle: IFontSavingCallback
+articleTitle: IFontSavingCallback
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Saving.IFontSavingCallback واجهه المستخدم. قم بتنفيذ هذه الواجهة إذا كنت تريد تلقي الإشعارات والتحكم في كيفية قيام Aspose.Words بحفظ الخطوط عند تصدير مستند إلى تنسيق HTML في C#.
 type: docs
 weight: 5160
 url: /ar/net/aspose.words.saving/ifontsavingcallback/
@@ -18,9 +20,9 @@ public interface IFontSavingCallback
 
 | اسم | وصف |
 | --- | --- |
-| [FontSaving](../../aspose.words.saving/ifontsavingcallback/fontsaving/)(FontSavingArgs) | يتم استدعاؤه عندما يكون Aspose.Words على وشك حفظ مورد الخط. |
+| [FontSaving](../../aspose.words.saving/ifontsavingcallback/fontsaving/)(*[FontSavingArgs](../fontsavingargs/)*) | يتم استدعاؤه عندما يكون Aspose.Words على وشك حفظ مورد الخط. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحديد المنطق المخصص لتصدير الخطوط عند الحفظ إلى HTML.
 
@@ -81,5 +83,3 @@ public class HandleFontSaving : IFontSavingCallback
 
 * مساحة الاسم [Aspose.Words.Saving](../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../)
-
-

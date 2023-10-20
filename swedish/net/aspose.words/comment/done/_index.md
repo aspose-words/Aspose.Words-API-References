@@ -1,7 +1,9 @@
 ---
 title: Comment.Done
-second_title: Aspose.Words för .NET API Referens
-description: Comment fast egendom. Hämtar eller sätter en flagga som indikerar att kommentaren har markerats som klar.
+linktitle: Done
+articleTitle: Done
+second_title: Aspose.Words för .NET
+description: Comment Done fast egendom. Hämtar eller sätter en flagga som indikerar att kommentaren har markerats som klar i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words/comment/done/
@@ -14,7 +16,7 @@ Hämtar eller sätter en flagga som indikerar att kommentaren har markerats som 
 public bool Done { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man markerar en kommentar som "klar".
 
@@ -204,7 +206,5 @@ public class CommentInfoPrinter : DocumentVisitor
 ### Se även
 
 * class [Comment](../)
-* namnutrymme [Aspose.Words](../../comment/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.CanHaveImage
-second_title: Aspose.Words för .NET API Referens
-description: ShapeBase fast egendom. ReturnerarSann om formtypen tillåter att formen har en bild.
+linktitle: CanHaveImage
+articleTitle: CanHaveImage
+second_title: Aspose.Words för .NET
+description: ShapeBase CanHaveImage fast egendom. ReturnerarSann om formtypen tillåter att formen har en bild i C#.
 type: docs
 weight: 100
 url: /sv/net/aspose.words.drawing/shapebase/canhaveimage/
@@ -14,11 +16,11 @@ Returnerar`Sann` om formtypen tillåter att formen har en bild.
 public bool CanHaveImage { get; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Även om Microsoft Word har en speciell formtyp för bilder, verkar det som att i Microsoft Word-dokument kan alla shape förutom en gruppform ha en bild, därför returnerar den här egenskapen`Sann` för alla former utom[`GroupShape`](../../groupshape/).
 
-### Exempel
+## Exempel
 
 Visar hur man infogar och roterar en bild.
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "Shape.Rotate.docx");
 ### Se även
 
 * class [ShapeBase](../)
-* namnutrymme [Aspose.Words.Drawing](../../shapebase/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

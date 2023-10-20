@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.TextCompression
-second_title: Aspose.Words for .NET API 参考
-description: PdfSaveOptions 财产. 指定用于文档中所有文本内容的压缩类型
+linktitle: TextCompression
+articleTitle: TextCompression
+second_title: 用于 .NET 的 Aspose.Words
+description: PdfSaveOptions TextCompression 财产. 指定用于文档中所有文本内容的压缩类型 在 C#.
 type: docs
 weight: 290
 url: /zh/net/aspose.words.saving/pdfsaveoptions/textcompression/
@@ -14,13 +16,13 @@ url: /zh/net/aspose.words.saving/pdfsaveoptions/textcompression/
 public PdfTextCompression TextCompression { get; set; }
 ```
 
-### 评论
+## 评论
 
 默认为Flate。
 
 在不压缩的情况下保存文档时，会显着增加输出大小。
 
-### 例子
+## 例子
 
 演示如何在将文档保存为 PDF 时应用文本压缩。
 
@@ -49,7 +51,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.TextCompression.pdf", options);
 
 * enum [PdfTextCompression](../../pdftextcompression/)
 * class [PdfSaveOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../pdfsaveoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ControlChar.ColumnBreakChar
-second_title: Aspose.Words för .NET API Referens
-description: ControlChar fält. Slut på kolumn tecken char14.
+linktitle: ColumnBreakChar
+articleTitle: ColumnBreakChar
+second_title: Aspose.Words för .NET
+description: ControlChar ColumnBreakChar fält. Slut på kolumn tecken char14 i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words/controlchar/columnbreakchar/
@@ -14,7 +16,7 @@ Slut på kolumn tecken: (char)14.
 public const char ColumnBreakChar;
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man lägger till olika kontrolltecken i ett dokument.
 
@@ -86,7 +88,5 @@ Assert.AreEqual(Convert.ToChar(ControlChar.ColumnBreak), ControlChar.ColumnBreak
 ### Se även
 
 * class [ControlChar](../)
-* namnutrymme [Aspose.Words](../../controlchar/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

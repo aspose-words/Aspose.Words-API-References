@@ -1,7 +1,9 @@
 ---
 title: CustomXmlPartCollection.RemoveAt
-second_title: Référence de l'API Aspose.Words pour .NET
-description: CustomXmlPartCollection méthode. Supprime un élément à lindex spécifié.
+linktitle: RemoveAt
+articleTitle: RemoveAt
+second_title: Aspose.Words pour .NET
+description: CustomXmlPartCollection RemoveAt méthode. Supprime un élément à lindex spécifié en C#.
 type: docs
 weight: 90
 url: /fr/net/aspose.words.markup/customxmlpartcollection/removeat/
@@ -18,7 +20,7 @@ public void RemoveAt(int index)
 | --- | --- | --- |
 | index | Int32 | L'indice de base zéro. |
 
-### Exemples
+## Exemples
 
 Montre comment créer une balise de document structuré avec des données XML personnalisées.
 
@@ -85,7 +87,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.CustomXml.docx");
 ### Voir également
 
 * class [CustomXmlPartCollection](../)
-* espace de noms [Aspose.Words.Markup](../../customxmlpartcollection/)
+* espace de noms [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Assemblée [Aspose.Words](../../../)
-
-

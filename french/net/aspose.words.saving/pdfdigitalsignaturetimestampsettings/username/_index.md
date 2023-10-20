@@ -1,7 +1,9 @@
 ---
 title: PdfDigitalSignatureTimestampSettings.UserName
-second_title: Référence de l'API Aspose.Words pour .NET
-description: PdfDigitalSignatureTimestampSettings propriété. Nom dutilisateur du serveur dhorodatage.
+linktitle: UserName
+articleTitle: UserName
+second_title: Aspose.Words pour .NET
+description: PdfDigitalSignatureTimestampSettings UserName propriété. Nom dutilisateur du serveur dhorodatage en C#.
 type: docs
 weight: 50
 url: /fr/net/aspose.words.saving/pdfdigitalsignaturetimestampsettings/username/
@@ -14,11 +16,11 @@ Nom d'utilisateur du serveur d'horodatage.
 public string UserName { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 La valeur par défaut est`nul` .
 
-### Exemples
+## Exemples
 
 Montre comment signer numériquement un document PDF enregistré et l'horodater.
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignatureTimestamp.pdf", optio
 ### Voir également
 
 * class [PdfDigitalSignatureTimestampSettings](../)
-* espace de noms [Aspose.Words.Saving](../../pdfdigitalsignaturetimestampsettings/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

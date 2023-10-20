@@ -1,7 +1,9 @@
 ---
 title: Bookmark.IsColumn
-second_title: Aspose.Words لمراجع .NET API
-description: Bookmark ملكية. إرجاعحقيقي إذا كانت هذه الإشارة المرجعية عبارة عن إشارة مرجعية لعمود الجدول.
+linktitle: IsColumn
+articleTitle: IsColumn
+second_title: Aspose.Words لـ .NET
+description: Bookmark IsColumn ملكية. إرجاعحقيقي إذا كانت هذه الإشارة المرجعية عبارة عن إشارة مرجعية لعمود الجدول في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words/bookmark/iscolumn/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/bookmark/iscolumn/
 public bool IsColumn { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الحصول على معلومات حول الإشارات المرجعية لأعمدة الجدول.
 
@@ -41,7 +43,5 @@ foreach (Bookmark bookmark in doc.Range.Bookmarks)
 ### أنظر أيضا
 
 * class [Bookmark](../)
-* مساحة الاسم [Aspose.Words](../../bookmark/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

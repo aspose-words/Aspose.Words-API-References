@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.MajorUnitIsAuto
-second_title: Aspose.Words per .NET API Reference
-description: ChartAxis proprietà. Ottiene o imposta un flag che indica se deve essere utilizzata la distanza predefinita tra i segni di graduazione principali.
+linktitle: MajorUnitIsAuto
+articleTitle: MajorUnitIsAuto
+second_title: Aspose.Words per .NET
+description: ChartAxis MajorUnitIsAuto proprietà. Ottiene o imposta un flag che indica se deve essere utilizzata la distanza predefinita tra i segni di graduazione principali in C#.
 type: docs
 weight: 130
 url: /it/net/aspose.words.drawing.charts/chartaxis/majorunitisauto/
@@ -14,11 +16,11 @@ Ottiene o imposta un flag che indica se deve essere utilizzata la distanza prede
 public bool MajorUnitIsAuto { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 La proprietà ha effetto per le categorie temporali e gli assi dei valori.
 
-### Esempi
+## Esempi
 
 Mostra come manipolare i segni di graduazione e i valori visualizzati di un asse del grafico.
 
@@ -76,7 +78,5 @@ doc.Save(ArtifactsDir + "Charts.AxisDisplayUnit.docx");
 ### Guarda anche
 
 * class [ChartAxis](../)
-* spazio dei nomi [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* spazio dei nomi [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * assemblea [Aspose.Words](../../../)
-
-

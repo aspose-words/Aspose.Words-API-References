@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTag.Placeholder
-second_title: Aspose.Words for .NET API 参考
-description: StructuredDocumentTag 财产. 获取BuildingBlock包含当此 SDT 运行内容为空时应显示的占位符文本 关联的映射 XML 元素为空如通过XmlMappingelement 或IsShowingPlaceholderText元素是真的.
+linktitle: Placeholder
+articleTitle: Placeholder
+second_title: 用于 .NET 的 Aspose.Words
+description: StructuredDocumentTag Placeholder 财产. 获取BuildingBlock包含当此 SDT 运行内容为空时应显示的占位符文本 关联的映射 XML 元素为空如通过XmlMappingelement 或IsShowingPlaceholderText元素是真的 在 C#.
 type: docs
 weight: 230
 url: /zh/net/aspose.words.markup/structureddocumenttag/placeholder/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.markup/structureddocumenttag/placeholder/
 public BuildingBlock Placeholder { get; }
 ```
 
-### 评论
+## 评论
 
 可`无效的`，表示占位符不适用于此 Sdt。
 
-### 例子
+## 例子
 
 演示如何使用构建块的内容作为结构化文档标记的自定义占位符文本。
 
@@ -66,7 +68,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.PlaceholderBuildingBlock.docx");
 
 * class [BuildingBlock](../../../aspose.words.buildingblocks/buildingblock/)
 * class [StructuredDocumentTag](../)
-* 命名空间 [Aspose.Words.Markup](../../structureddocumenttag/)
+* 命名空间 [Aspose.Words.Markup](../../../aspose.words.markup/)
 * 部件 [Aspose.Words](../../../)
-
-

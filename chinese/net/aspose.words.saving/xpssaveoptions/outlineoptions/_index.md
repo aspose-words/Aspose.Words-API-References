@@ -1,7 +1,9 @@
 ---
 title: XpsSaveOptions.OutlineOptions
-second_title: Aspose.Words for .NET API 参考
-description: XpsSaveOptions 财产. 允许指定轮廓选项
+linktitle: OutlineOptions
+articleTitle: OutlineOptions
+second_title: 用于 .NET 的 Aspose.Words
+description: XpsSaveOptions OutlineOptions 财产. 允许指定轮廓选项 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.saving/xpssaveoptions/outlineoptions/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.saving/xpssaveoptions/outlineoptions/
 public OutlineOptions OutlineOptions { get; }
 ```
 
-### 评论
+## 评论
 
 注意[`ExpandedOutlineLevels`](../../outlineoptions/expandedoutlinelevels/)保存到 XPS 时选项将不起作用。
 
-### 例子
+## 例子
 
 演示如何限制将出现在已保存 XPS 文档大纲中的标题级别。
 
@@ -62,7 +64,5 @@ doc.Save(ArtifactsDir + "XpsSaveOptions.OutlineLevels.xps", saveOptions);
 
 * class [OutlineOptions](../../outlineoptions/)
 * class [XpsSaveOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../xpssaveoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

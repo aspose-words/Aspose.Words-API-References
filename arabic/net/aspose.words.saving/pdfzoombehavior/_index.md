@@ -1,7 +1,9 @@
 ---
-title: Enum PdfZoomBehavior
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Saving.PdfZoomBehavior تعداد. يحدد نوع التكبير/التصغير المطبق على مستند PDF عند فتحه في عارض PDF.
+title: PdfZoomBehavior Enum
+linktitle: PdfZoomBehavior
+articleTitle: PdfZoomBehavior
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Saving.PdfZoomBehavior تعداد. يحدد نوع التكبير/التصغير المطبق على مستند PDF عند فتحه في عارض PDF في C#.
 type: docs
 weight: 5540
 url: /ar/net/aspose.words.saving/pdfzoombehavior/
@@ -25,7 +27,7 @@ public enum PdfZoomBehavior
 | FitHeight | `4` | يناسب ارتفاع الصفحة. |
 | FitBox | `5` | يناسب المربع المحيط (المستطيل الذي يحتوي على كافة العناصر المرئية في الصفحة). |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية ضبط التكبير/التصغير الافتراضي الذي يطبقه القارئ عند فتح مستند PDF معروض.
 
@@ -53,5 +55,3 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.ZoomBehaviour.pdf", options);
 
 * مساحة الاسم [Aspose.Words.Saving](../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../)
-
-

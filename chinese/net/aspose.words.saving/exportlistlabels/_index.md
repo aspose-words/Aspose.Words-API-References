@@ -1,7 +1,9 @@
 ---
-title: Enum ExportListLabels
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Saving.ExportListLabels 枚举. 指定如何将列表标签导出为 HTMLMHTML 和 EPUB
+title: ExportListLabels Enum
+linktitle: ExportListLabels
+articleTitle: ExportListLabels
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Saving.ExportListLabels 枚举. 指定如何将列表标签导出为 HTMLMHTML 和 EPUB 在 C#.
 type: docs
 weight: 5010
 url: /zh/net/aspose.words.saving/exportlistlabels/
@@ -22,7 +24,7 @@ public enum ExportListLabels
 | AsInlineText | `1` | 将所有列表标签输出为内嵌文本。 |
 | ByHtmlTags | `2` | 将所有列表标签输出为 HTML 原生元素。 |
 
-### 例子
+## 例子
 
 显示如何配置列表导出为 HTML。
 
@@ -110,5 +112,3 @@ switch (exportListLabels)
 * property [ExportListLabels](../htmlsaveoptions/exportlistlabels/)
 * 命名空间 [Aspose.Words.Saving](../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../)
-
-

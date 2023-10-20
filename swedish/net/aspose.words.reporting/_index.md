@@ -1,7 +1,9 @@
 ---
 title: Aspose.Words.Reporting
-second_title: Aspose.Words för .NET API Referens
-description: Detta namnutrymme innehåller klasser av Aspose.Words nya rapporteringsmotor som stöder rapportmallar märkta med ett språk baserat på LINQmetodens syntax.
+linktitle: Aspose.Words.Reporting
+articleTitle: Aspose.Words.Reporting
+second_title: Aspose.Words för .NET
+description: Detta namnutrymme innehåller klasser av Aspose.Words nya rapporteringsmotor som stöder rapportmallar märkta med ett språk baserat på LINQmetodens syntax i C#.
 type: docs
 weight: 220
 url: /sv/net/aspose.words.reporting/
@@ -26,5 +28,3 @@ Detta namnutrymme innehåller klasser av Aspose.Words nya rapporteringsmotor som
 | --- | --- |
 | [JsonSimpleValueParseMode](./jsonsimplevalueparsemode/) | Anger ett läge för att analysera JSON enkla värden (null, boolean, nummer, heltal och sträng) när JSON laddas. Ett sådant läge påverkar inte analysen av datum-tid-värden. |
 | [ReportBuildOptions](./reportbuildoptions/) | Anger alternativ som styr beteendet för[`ReportingEngine`](../aspose.words.reporting/reportingengine/) medan du bygger en rapport. |
-
-

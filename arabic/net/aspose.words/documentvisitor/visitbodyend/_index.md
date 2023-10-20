@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitBodyEnd
-second_title: Aspose.Words لمراجع .NET API
-description: DocumentVisitor طريقة. يتم استدعاؤه عند انتهاء تعداد القصة النصية الرئيسية في القسم.
+linktitle: VisitBodyEnd
+articleTitle: VisitBodyEnd
+second_title: Aspose.Words لـ .NET
+description: DocumentVisitor VisitBodyEnd طريقة. يتم استدعاؤه عند انتهاء تعداد القصة النصية الرئيسية في القسم في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words/documentvisitor/visitbodyend/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitBodyEnd(Body body)
 
 أ[`VisitorAction`](../../visitoraction/) القيمة التي تحدد كيفية متابعة التعداد.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام زائر المستند لطباعة بنية عقدة المستند.
 
@@ -193,7 +195,5 @@ public class DocStructurePrinter : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [Body](../../body/)
 * class [DocumentVisitor](../)
-* مساحة الاسم [Aspose.Words](../../documentvisitor/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,12 +1,14 @@
 ---
 title: Aspose.Words.Shaping
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Le Aspose.Words.Shaping Lespace de noms contient des classes pour fournir la prise en charge des fonctionnalités OpenType à laide de moteurs de mise en forme de texte externes.
+linktitle: Aspose.Words.Shaping
+articleTitle: Aspose.Words.Shaping
+second_title: Aspose.Words pour .NET
+description: LeAspose.Words.Shaping Lespace de noms contient des classes pour fournir la prise en charge des fonctionnalités OpenType à laide de moteurs de mise en forme de texte externes en C#.
 type: docs
 weight: 250
 url: /fr/net/aspose.words.shaping/
 ---
-Le **Aspose.Words.Shaping** L'espace de noms contient des classes pour fournir la prise en charge des fonctionnalités OpenType à l'aide de moteurs de mise en forme de texte externes.
+Le**Aspose.Words.Shaping** L'espace de noms contient des classes pour fournir la prise en charge des fonctionnalités OpenType à l'aide de moteurs de mise en forme de texte externes.
 
 ## Des classes
 
@@ -29,5 +31,3 @@ Le **Aspose.Words.Shaping** L'espace de noms contient des classes pour fournir l
 | [FontFeature](./fontfeature/) | Les fonctionnalités fournissent des informations sur la façon dont les glyphes sont utilisés dans une police pour restituer un script. https://docs.microsoft.com/en-us/typography/opentype/spec/featuretags |
 | [ScriptShapingLevel](./scriptshapinglevel/) | Décrit les niveaux de mise en forme requis par un script. |
 | [UnicodeScript](./unicodescript/) | Propriété de la base de données de caractères Unicode : Script (sc). |
-
-

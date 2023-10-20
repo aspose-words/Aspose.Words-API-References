@@ -1,7 +1,9 @@
 ---
 title: ListLevel.StartAt
-second_title: Aspose.Words für .NET-API-Referenz
-description: ListLevel eigendom. Gibt die Startnummer für diese Listenebene zurück oder setzt sie.
+linktitle: StartAt
+articleTitle: StartAt
+second_title: Aspose.Words für .NET
+description: ListLevel StartAt eigendom. Gibt die Startnummer für diese Listenebene zurück oder setzt sie in C#.
 type: docs
 weight: 110
 url: /de/net/aspose.words.lists/listlevel/startat/
@@ -14,11 +16,11 @@ Gibt die Startnummer für diese Listenebene zurück oder setzt sie.
 public int StartAt { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Der Standardwert ist 1.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Nummerierung in einer Liste durch Kopieren einer Liste neu gestartet wird.
 
@@ -116,7 +118,5 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateCustomList.docx");
 ### Siehe auch
 
 * class [ListLevel](../)
-* namensraum [Aspose.Words.Lists](../../listlevel/)
+* namensraum [Aspose.Words.Lists](../../../aspose.words.lists/)
 * Montage [Aspose.Words](../../../)
-
-

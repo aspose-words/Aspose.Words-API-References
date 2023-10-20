@@ -1,7 +1,9 @@
 ---
 title: VariableCollection.Contains
-second_title: Aspose.Words for .NET API 参考
-description: VariableCollection 方法. 确定集合中是否包含具有给定名称的文档变量
+linktitle: Contains
+articleTitle: Contains
+second_title: 用于 .NET 的 Aspose.Words
+description: VariableCollection Contains 方法. 确定集合中是否包含具有给定名称的文档变量 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words/variablecollection/contains/
@@ -22,7 +24,7 @@ public bool Contains(string name)
 
 `真的`如果在集合中找到项目；否则，`错误的`。
 
-### 例子
+## 例子
 
 展示如何使用文档的变量集合。
 
@@ -89,7 +91,5 @@ Assert.That(variables, Is.Empty);
 ### 也可以看看
 
 * class [VariableCollection](../)
-* 命名空间 [Aspose.Words](../../variablecollection/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Metered.SetMeteredKey
-second_title: Aspose.Words för .NET API Referens
-description: Metered metod. Ställer in mätt offentlig och privat nyckel. Om du köper mätlicens när du startar applikationen bör detta API anropas normalt räcker detta. Men om alltid misslyckas med att ladda upp förbrukningsdata och överskrider 24 timmar kommer licensen att ställas in på utvärderingsstatus för att undvika sådana fall bör du regelbundet kontrollera licensstatusen om det är utvärderingsstatus ring detta API igen.
+linktitle: SetMeteredKey
+articleTitle: SetMeteredKey
+second_title: Aspose.Words för .NET
+description: Metered SetMeteredKey metod. Ställer in mätt offentlig och privat nyckel. Om du köper mätlicens när du startar applikationen bör detta API anropas normalt räcker detta. Men om alltid misslyckas med att ladda upp förbrukningsdata och överskrider 24 timmar kommer licensen att ställas in på utvärderingsstatus för att undvika sådana fall bör du regelbundet kontrollera licensstatusen om det är utvärderingsstatus ring detta API igen i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words/metered/setmeteredkey/
@@ -19,7 +21,7 @@ public void SetMeteredKey(string publicKey, string privateKey)
 | publicKey | String | offentlig nyckel |
 | privateKey | String | privat nyckel |
 
-### Exempel
+## Exempel
 
 Visar hur du aktiverar en mätlicens och spårar kredit/förbrukning.
 
@@ -46,7 +48,5 @@ Console.WriteLine($"Consumption quantity after operation: {Metered.GetConsumptio
 ### Se även
 
 * class [Metered](../)
-* namnutrymme [Aspose.Words](../../metered/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.LineSpacingRule
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ParagraphFormat propriété. Obtient ou définit linterligne du paragraphe.
+linktitle: LineSpacingRule
+articleTitle: LineSpacingRule
+second_title: Aspose.Words pour .NET
+description: ParagraphFormat LineSpacingRule propriété. Obtient ou définit linterligne du paragraphe en C#.
 type: docs
 weight: 200
 url: /fr/net/aspose.words/paragraphformat/linespacingrule/
@@ -14,7 +16,7 @@ Obtient ou définit l'interligne du paragraphe.
 public LineSpacingRule LineSpacingRule { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment utiliser l'espacement des lignes.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "ParagraphFormat.LineSpacing.docx");
 
 * enum [LineSpacingRule](../../linespacingrule/)
 * class [ParagraphFormat](../)
-* espace de noms [Aspose.Words](../../paragraphformat/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

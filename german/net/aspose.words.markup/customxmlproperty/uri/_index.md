@@ -1,7 +1,9 @@
 ---
 title: CustomXmlProperty.Uri
-second_title: Aspose.Words für .NET-API-Referenz
-description: CustomXmlProperty eigendom. Ruft den NamespaceURI des benutzerdefinierten XMLAttributs oder der SmartTagEigenschaft ab oder legt diesen fest.
+linktitle: Uri
+articleTitle: Uri
+second_title: Aspose.Words für .NET
+description: CustomXmlProperty Uri eigendom. Ruft den NamespaceURI des benutzerdefinierten XMLAttributs oder der SmartTagEigenschaft ab oder legt diesen fest in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.markup/customxmlproperty/uri/
@@ -14,13 +16,13 @@ Ruft den Namespace-URI des benutzerdefinierten XML-Attributs oder der Smart-Tag-
 public string Uri { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Kann nicht sein`Null`.
 
 Der Standardwert ist eine leere Zeichenfolge.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie mit Smart-Tag-Eigenschaften arbeiten, um detaillierte Informationen zu Smart-Tags zu erhalten.
 
@@ -77,7 +79,5 @@ Assert.AreEqual(0, properties.Count);
 ### Siehe auch
 
 * class [CustomXmlProperty](../)
-* namensraum [Aspose.Words.Markup](../../customxmlproperty/)
+* namensraum [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Montage [Aspose.Words](../../../)
-
-

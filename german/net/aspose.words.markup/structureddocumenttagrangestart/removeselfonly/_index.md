@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTagRangeStart.RemoveSelfOnly
-second_title: Aspose.Words für .NET-API-Referenz
-description: StructuredDocumentTagRangeStart methode. Entfernt diesen Bereichsanfang und die entsprechenden Bereichsendknoten des strukturierten DokumentTags  behält aber seinen Inhalt im Dokumentbaum.
+linktitle: RemoveSelfOnly
+articleTitle: RemoveSelfOnly
+second_title: Aspose.Words für .NET
+description: StructuredDocumentTagRangeStart RemoveSelfOnly methode. Entfernt diesen Bereichsanfang und die entsprechenden Bereichsendknoten des strukturierten DokumentTags  behält aber seinen Inhalt im Dokumentbaum in C#.
 type: docs
 weight: 240
 url: /de/net/aspose.words.markup/structureddocumenttagrangestart/removeselfonly/
@@ -14,7 +16,7 @@ Entfernt diesen Bereichsanfang und die entsprechenden Bereichsendknoten des stru
 public void RemoveSelfOnly()
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie strukturierte Dokument-Tags und deren Inhalt erstellt/entfernt werden.
 
@@ -66,7 +68,5 @@ public void InsertStructuredDocumentTagRanges(Document doc, out StructuredDocume
 ### Siehe auch
 
 * class [StructuredDocumentTagRangeStart](../)
-* namensraum [Aspose.Words.Markup](../../structureddocumenttagrangestart/)
+* namensraum [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Montage [Aspose.Words](../../../)
-
-

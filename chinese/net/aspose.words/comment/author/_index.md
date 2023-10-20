@@ -1,7 +1,9 @@
 ---
 title: Comment.Author
-second_title: Aspose.Words for .NET API 参考
-description: Comment 财产. 返回或设置评论的作者姓名
+linktitle: Author
+articleTitle: Author
+second_title: 用于 .NET 的 Aspose.Words
+description: Comment Author 财产. 返回或设置评论的作者姓名 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words/comment/author/
@@ -14,13 +16,13 @@ url: /zh/net/aspose.words/comment/author/
 public string Author { get; set; }
 ```
 
-### 评论
+## 评论
 
 不可能是`无效的`。
 
 默认为空字符串。
 
-### 例子
+## 例子
 
 演示如何打印文档的所有注释及其回复。
 
@@ -46,7 +48,5 @@ foreach (Comment comment in comments.OfType<Comment>().Where(c => c.Ancestor == 
 ### 也可以看看
 
 * class [Comment](../)
-* 命名空间 [Aspose.Words](../../comment/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

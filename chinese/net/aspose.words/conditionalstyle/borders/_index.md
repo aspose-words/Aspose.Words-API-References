@@ -1,7 +1,9 @@
 ---
 title: ConditionalStyle.Borders
-second_title: Aspose.Words for .NET API 参考
-description: ConditionalStyle 财产. 获取条件样式的默认单元格边框的集合
+linktitle: Borders
+articleTitle: Borders
+second_title: 用于 .NET 的 Aspose.Words
+description: ConditionalStyle Borders 财产. 获取条件样式的默认单元格边框的集合 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words/conditionalstyle/borders/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/conditionalstyle/borders/
 public BorderCollection Borders { get; }
 ```
 
-### 例子
+## 例子
 
 展示如何使用表格的某些区域样式。
 
@@ -85,7 +87,5 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 
 * class [BorderCollection](../../bordercollection/)
 * class [ConditionalStyle](../)
-* 命名空间 [Aspose.Words](../../conditionalstyle/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

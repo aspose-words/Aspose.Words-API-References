@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.FontSavingCallback
-second_title: Aspose.Words per .NET API Reference
-description: HtmlSaveOptions proprietà. Permette di controllare come vengono salvati i caratteri quando un documento viene salvato in HTML MHTML o EPUB.
+linktitle: FontSavingCallback
+articleTitle: FontSavingCallback
+second_title: Aspose.Words per .NET
+description: HtmlSaveOptions FontSavingCallback proprietà. Permette di controllare come vengono salvati i caratteri quando un documento viene salvato in HTML MHTML o EPUB in C#.
 type: docs
 weight: 300
 url: /it/net/aspose.words.saving/htmlsaveoptions/fontsavingcallback/
@@ -14,7 +16,7 @@ Permette di controllare come vengono salvati i caratteri quando un documento vie
 public IFontSavingCallback FontSavingCallback { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come definire la logica personalizzata per l'esportazione dei caratteri durante il salvataggio in HTML.
 
@@ -75,7 +77,5 @@ public class HandleFontSaving : IFontSavingCallback
 
 * interface [IFontSavingCallback](../../ifontsavingcallback/)
 * class [HtmlSaveOptions](../)
-* spazio dei nomi [Aspose.Words.Saving](../../htmlsaveoptions/)
+* spazio dei nomi [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../../)
-
-

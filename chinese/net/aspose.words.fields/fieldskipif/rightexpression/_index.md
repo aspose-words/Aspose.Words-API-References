@@ -1,7 +1,9 @@
 ---
 title: FieldSkipIf.RightExpression
-second_title: Aspose.Words for .NET API 参考
-description: FieldSkipIf 财产. 获取或设置比较表达式的右侧部分
+linktitle: RightExpression
+articleTitle: RightExpression
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldSkipIf RightExpression 财产. 获取或设置比较表达式的右侧部分 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.fields/fieldskipif/rightexpression/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fieldskipif/rightexpression/
 public string RightExpression { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何使用 SKIPIF 字段在邮件合并中跳过页面。
 
@@ -107,7 +109,5 @@ doc.Save(ArtifactsDir + "Field.MERGEREC.MERGESEQ.docx");
 ### 也可以看看
 
 * class [FieldSkipIf](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldskipif/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

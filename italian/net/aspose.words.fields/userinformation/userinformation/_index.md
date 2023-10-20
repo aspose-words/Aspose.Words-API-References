@@ -1,7 +1,9 @@
 ---
-title: UserInformation.UserInformation
-second_title: Aspose.Words per .NET API Reference
-description: UserInformation costruttore. Default_Costruttore
+title: UserInformation
+linktitle: UserInformation
+articleTitle: UserInformation
+second_title: Aspose.Words per .NET
+description: UserInformation costruttore. Default_Costruttore in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words.fields/userinformation/userinformation/
@@ -17,7 +19,5 @@ public UserInformation()
 ### Guarda anche
 
 * class [UserInformation](../)
-* spazio dei nomi [Aspose.Words.Fields](../../userinformation/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldToc.TableOfFiguresLabel
-second_title: Aspose.Words för .NET API Referens
-description: FieldToc fast egendom. Hämtar eller ställer in namnet på sekvensidentifieraren som används när man bygger en tabell med figurer.
+linktitle: TableOfFiguresLabel
+articleTitle: TableOfFiguresLabel
+second_title: Aspose.Words för .NET
+description: FieldToc TableOfFiguresLabel fast egendom. Hämtar eller ställer in namnet på sekvensidentifieraren som används när man bygger en tabell med figurer i C#.
 type: docs
 weight: 160
 url: /sv/net/aspose.words.fields/fieldtoc/tableoffigureslabel/
@@ -14,7 +16,7 @@ Hämtar eller ställer in namnet på sekvensidentifieraren som används när man
 public string TableOfFiguresLabel { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man fyller i ett innehållsförteckningsfält med poster med hjälp av SEQ-fält.
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "Field.TOC.SEQ.docx");
 ### Se även
 
 * class [FieldToc](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldtoc/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: TextPath.Italic
-second_title: Aspose.Words لمراجع .NET API
-description: TextPath ملكية. صحيح إذا كان الخط منسقًا بالخط المائل.
+linktitle: Italic
+articleTitle: Italic
+second_title: Aspose.Words لـ .NET
+description: TextPath Italic ملكية. صحيح إذا كان الخط منسقًا بالخط المائل في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.drawing/textpath/italic/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.drawing/textpath/italic/
 public bool Italic { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 القيمة الافتراضية هي`خطأ شنيع`.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع WordArt.
 
@@ -121,7 +123,5 @@ private static Shape AppendWordArt(Document doc, string text, string textFontFam
 ### أنظر أيضا
 
 * class [TextPath](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../textpath/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

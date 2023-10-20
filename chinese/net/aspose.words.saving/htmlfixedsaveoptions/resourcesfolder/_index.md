@@ -1,7 +1,9 @@
 ---
 title: HtmlFixedSaveOptions.ResourcesFolder
-second_title: Aspose.Words for .NET API 参考
-description: HtmlFixedSaveOptions 财产. 指定将文档导出为 Html 格式时保存资源图像字体css的物理文件夹 默认为无效的.
+linktitle: ResourcesFolder
+articleTitle: ResourcesFolder
+second_title: 用于 .NET 的 Aspose.Words
+description: HtmlFixedSaveOptions ResourcesFolder 财产. 指定将文档导出为 Html 格式时保存资源图像字体css的物理文件夹 默认为无效的 在 C#.
 type: docs
 weight: 140
 url: /zh/net/aspose.words.saving/htmlfixedsaveoptions/resourcesfolder/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.saving/htmlfixedsaveoptions/resourcesfolder/
 public string ResourcesFolder { get; set; }
 ```
 
-### 评论
+## 评论
 
 仅当以下情况时才有效[`ExportEmbeddedImages`](../exportembeddedimages/)财产是`错误的`。
 
@@ -24,7 +26,7 @@ public string ResourcesFolder { get; set; }
 
 如果将文档保存到流中，Aspose.Words 没有保存图像的文件夹 ，但仍需要将图像保存在某个位置。在这种情况下，您需要使用以下命令指定可访问的文件夹 `ResourcesFolder`财产
 
-### 例子
+## 例子
 
 演示如何使用回调来打印在将文档转换为 HTML 时创建的外部资源的 URI。
 
@@ -103,7 +105,5 @@ private class ResourceUriPrinter : IResourceSavingCallback
 ### 也可以看看
 
 * class [HtmlFixedSaveOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../htmlfixedsaveoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

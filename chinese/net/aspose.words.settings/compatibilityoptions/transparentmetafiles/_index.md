@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.TransparentMetafiles
-second_title: Aspose.Words for .NET API 参考
-description: CompatibilityOptions 财产. 指定不将图元文件图片后面的区域清空
+linktitle: TransparentMetafiles
+articleTitle: TransparentMetafiles
+second_title: 用于 .NET 的 Aspose.Words
+description: CompatibilityOptions TransparentMetafiles 财产. 指定不将图元文件图片后面的区域清空 在 C#.
 type: docs
 weight: 550
 url: /zh/net/aspose.words.settings/compatibilityoptions/transparentmetafiles/
@@ -17,7 +19,5 @@ public bool TransparentMetafiles { get; set; }
 ### 也可以看看
 
 * class [CompatibilityOptions](../)
-* 命名空间 [Aspose.Words.Settings](../../compatibilityoptions/)
+* 命名空间 [Aspose.Words.Settings](../../../aspose.words.settings/)
 * 部件 [Aspose.Words](../../../)
-
-

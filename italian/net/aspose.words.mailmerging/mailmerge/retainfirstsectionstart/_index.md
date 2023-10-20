@@ -1,7 +1,9 @@
 ---
 title: MailMerge.RetainFirstSectionStart
-second_title: Aspose.Words per .NET API Reference
-description: MailMerge proprietà. Ottiene o imposta un valore che indica se ilSectionStart della prima sezione del documento e le sue copie per le successive righe dellorigine dati vengono conservate durante la stampa unione o aggiornate in base al comportamento di MS Word.
+linktitle: RetainFirstSectionStart
+articleTitle: RetainFirstSectionStart
+second_title: Aspose.Words per .NET
+description: MailMerge RetainFirstSectionStart proprietà. Ottiene o imposta un valore che indica se ilSectionStart della prima sezione del documento e le sue copie per le successive righe dellorigine dati vengono conservate durante la stampa unione o aggiornate in base al comportamento di MS Word in C#.
 type: docs
 weight: 120
 url: /it/net/aspose.words.mailmerging/mailmerge/retainfirstsectionstart/
@@ -14,14 +16,12 @@ Ottiene o imposta un valore che indica se il[`SectionStart`](../../../aspose.wor
 public bool RetainFirstSectionStart { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Il valore predefinito è`VERO` .
 
 ### Guarda anche
 
 * class [MailMerge](../)
-* spazio dei nomi [Aspose.Words.MailMerging](../../mailmerge/)
+* spazio dei nomi [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * assemblea [Aspose.Words](../../../)
-
-

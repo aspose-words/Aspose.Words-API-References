@@ -1,7 +1,9 @@
 ---
 title: ChartSeries.Format
-second_title: Справочник по API Aspose.Words для .NET
-description: ChartSeries свойство. Предоставляет доступ к заливке и форматированию строк серии.
+linktitle: Format
+articleTitle: Format
+second_title: Aspose.Words для .NET
+description: ChartSeries Format свойство. Предоставляет доступ к заливке и форматированию строк серии на С#.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.drawing.charts/chartseries/format/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.drawing.charts/chartseries/format/
 public ChartFormat Format { get; }
 ```
 
-### Примеры
+## Примеры
 
 Поясняет, как установить цвет серии.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "Charts.SeriesColor.docx");
 
 * class [ChartFormat](../../chartformat/)
 * class [ChartSeries](../)
-* пространство имен [Aspose.Words.Drawing.Charts](../../chartseries/)
+* пространство имен [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../../)
-
-

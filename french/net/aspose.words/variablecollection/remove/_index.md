@@ -1,7 +1,9 @@
 ---
 title: VariableCollection.Remove
-second_title: Référence de l'API Aspose.Words pour .NET
-description: VariableCollection méthode. Supprime une variable de document portant le nom spécifié de la collection.
+linktitle: Remove
+articleTitle: Remove
+second_title: Aspose.Words pour .NET
+description: VariableCollection Remove méthode. Supprime une variable de document portant le nom spécifié de la collection en C#.
 type: docs
 weight: 80
 url: /fr/net/aspose.words/variablecollection/remove/
@@ -18,7 +20,7 @@ public void Remove(string name)
 | --- | --- | --- |
 | name | String | Le nom de la variable qui ne respecte pas la casse. |
 
-### Exemples
+## Exemples
 
 Montre comment utiliser la collection de variables d'un document.
 
@@ -85,7 +87,5 @@ Assert.That(variables, Is.Empty);
 ### Voir également
 
 * class [VariableCollection](../)
-* espace de noms [Aspose.Words](../../variablecollection/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

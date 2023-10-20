@@ -1,7 +1,9 @@
 ---
 title: PhoneticGuide.BaseText
-second_title: Aspose.Words för .NET API Referens
-description: PhoneticGuide fast egendom. Hämtar bastext för den fonetiska guiden.
+linktitle: BaseText
+articleTitle: BaseText
+second_title: Aspose.Words för .NET
+description: PhoneticGuide BaseText fast egendom. Hämtar bastext för den fonetiska guiden i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words/phoneticguide/basetext/
@@ -14,7 +16,7 @@ Hämtar bastext för den fonetiska guiden.
 public string BaseText { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man får egenskaper för den fonetiska guiden.
 
@@ -31,7 +33,5 @@ Assert.AreEqual("ruby", runs[0].PhoneticGuide.RubyText);
 ### Se även
 
 * class [PhoneticGuide](../)
-* namnutrymme [Aspose.Words](../../phoneticguide/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

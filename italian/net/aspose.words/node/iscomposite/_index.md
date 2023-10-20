@@ -1,7 +1,9 @@
 ---
 title: Node.IsComposite
-second_title: Aspose.Words per .NET API Reference
-description: Node proprietà. RestituisceVERO se questo nodo può contenere altri nodi.
+linktitle: IsComposite
+articleTitle: IsComposite
+second_title: Aspose.Words per .NET
+description: Node IsComposite proprietà. RestituisceVERO se questo nodo può contenere altri nodi in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words/node/iscomposite/
@@ -18,7 +20,7 @@ public virtual bool IsComposite { get; }
 
 Questo metodo ritorna`falso` COME[`Node`](../) non può avere nodi figli.
 
-### Esempi
+## Esempi
 
 Mostra come attraversare l'albero dei nodi figlio di un nodo composito.
 
@@ -65,7 +67,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 ### Guarda anche
 
 * class [Node](../)
-* spazio dei nomi [Aspose.Words](../../node/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

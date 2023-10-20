@@ -1,7 +1,9 @@
 ---
 title: GeneralFormatCollection.RemoveAt
-second_title: Справочник по API Aspose.Words для .NET
-description: GeneralFormatCollection метод. Удаляет вхождение общего формата по указанному индексу.
+linktitle: RemoveAt
+articleTitle: RemoveAt
+second_title: Aspose.Words для .NET
+description: GeneralFormatCollection RemoveAt метод. Удаляет вхождение общего формата по указанному индексу на С#.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.fields/generalformatcollection/removeat/
@@ -18,7 +20,7 @@ public void RemoveAt(int index)
 | --- | --- | --- |
 | index | Int32 |  |
 
-### Примеры
+## Примеры
 
 Показывает, как форматировать результаты полей.
 
@@ -82,7 +84,5 @@ Assert.AreEqual(0, format.GeneralFormats.Count);
 ### Смотрите также
 
 * class [GeneralFormatCollection](../)
-* пространство имен [Aspose.Words.Fields](../../generalformatcollection/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

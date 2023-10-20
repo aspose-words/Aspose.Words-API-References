@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabelCollection.ShowLeaderLines
-second_title: Aspose.Words per .NET API Reference
-description: ChartDataLabelCollection proprietà. Permette di specificare se le linee guida delletichetta dati devono essere mostrate per le etichette dati dellintera serie. Il valore predefinito èfalso .
+linktitle: ShowLeaderLines
+articleTitle: ShowLeaderLines
+second_title: Aspose.Words per .NET
+description: ChartDataLabelCollection ShowLeaderLines proprietà. Permette di specificare se le linee guida delletichetta dati devono essere mostrate per le etichette dati dellintera serie. Il valore predefinito èfalso  in C#.
 type: docs
 weight: 100
 url: /it/net/aspose.words.drawing.charts/chartdatalabelcollection/showleaderlines/
@@ -14,13 +16,13 @@ Permette di specificare se le linee guida dell'etichetta dati devono essere most
 public bool ShowLeaderLines { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Si applica solo ai grafici a torta. Le linee direttrici creano una connessione visiva tra un'etichetta dati e il punto dati corrispondente.
 
 Il valore definito per questa proprietà può essere sovrascritto per una singola etichetta dati utilizzando the [`ShowLeaderLines`](../../chartdatalabel/showleaderlines/) proprietà.
 
-### Esempi
+## Esempi
 
 Mostra come lavorare con le etichette dati di un grafico a torta.
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "Charts.DataLabelsPieChart.docx");
 ### Guarda anche
 
 * class [ChartDataLabelCollection](../)
-* spazio dei nomi [Aspose.Words.Drawing.Charts](../../chartdatalabelcollection/)
+* spazio dei nomi [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * assemblea [Aspose.Words](../../../)
-
-

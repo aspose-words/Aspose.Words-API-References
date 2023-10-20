@@ -1,7 +1,9 @@
 ---
 title: FontInfo.Name
-second_title: Aspose.Words for .NET API 参考
-description: FontInfo 财产. 获取字体名称
+linktitle: Name
+articleTitle: Name
+second_title: 用于 .NET 的 Aspose.Words
+description: FontInfo Name 财产. 获取字体名称 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words.fonts/fontinfo/name/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.fonts/fontinfo/name/
 public string Name { get; }
 ```
 
-### 评论
+## 评论
 
 不可能是`无效的`。可以是空字符串。
 
-### 例子
+## 例子
 
 演示如何打印文档中存在的字体的详细信息。
 
@@ -38,7 +40,5 @@ for (int i = 0; i < allFonts.Count; i++)
 ### 也可以看看
 
 * class [FontInfo](../)
-* 命名空间 [Aspose.Words.Fonts](../../fontinfo/)
+* 命名空间 [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * 部件 [Aspose.Words](../../../)
-
-

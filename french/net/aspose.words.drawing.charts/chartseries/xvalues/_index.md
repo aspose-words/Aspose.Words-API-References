@@ -1,7 +1,9 @@
 ---
 title: ChartSeries.XValues
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ChartSeries propriété. Obtient une collection de valeurs X pour cette série de graphiques.
+linktitle: XValues
+articleTitle: XValues
+second_title: Aspose.Words pour .NET
+description: ChartSeries XValues propriété. Obtient une collection de valeurs X pour cette série de graphiques en C#.
 type: docs
 weight: 140
 url: /fr/net/aspose.words.drawing.charts/chartseries/xvalues/
@@ -18,7 +20,5 @@ public ChartXValueCollection XValues { get; }
 
 * class [ChartXValueCollection](../../chartxvaluecollection/)
 * class [ChartSeries](../)
-* espace de noms [Aspose.Words.Drawing.Charts](../../chartseries/)
+* espace de noms [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Assemblée [Aspose.Words](../../../)
-
-

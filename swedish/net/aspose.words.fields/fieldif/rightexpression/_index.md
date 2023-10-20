@@ -1,7 +1,9 @@
 ---
 title: FieldIf.RightExpression
-second_title: Aspose.Words för .NET API Referens
-description: FieldIf fast egendom. Hämtar eller ställer in den högra delen av jämförelseuttrycket.
+linktitle: RightExpression
+articleTitle: RightExpression
+second_title: Aspose.Words för .NET
+description: FieldIf RightExpression fast egendom. Hämtar eller ställer in den högra delen av jämförelseuttrycket i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.fields/fieldif/rightexpression/
@@ -14,7 +16,7 @@ Hämtar eller ställer in den högra delen av jämförelseuttrycket.
 public string RightExpression { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man infogar ett IF-fält.
 
@@ -60,7 +62,5 @@ doc.Save(ArtifactsDir + "Field.IF.docx");
 ### Se även
 
 * class [FieldIf](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldif/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Field.Format
-second_title: Aspose.Words for .NET API 参考
-description: Field 财产. 获得FieldFormat提供对字段格式的类型化访问的对象
+linktitle: Format
+articleTitle: Format
+second_title: 用于 .NET 的 Aspose.Words
+description: Field Format 财产. 获得FieldFormat提供对字段格式的类型化访问的对象 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.fields/field/format/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/field/format/
 public FieldFormat Format { get; }
 ```
 
-### 例子
+## 例子
 
 展示如何设置字段结果的格式。
 
@@ -79,7 +81,5 @@ Assert.AreEqual(0, format.GeneralFormats.Count);
 
 * class [FieldFormat](../../fieldformat/)
 * class [Field](../)
-* 命名空间 [Aspose.Words.Fields](../../field/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

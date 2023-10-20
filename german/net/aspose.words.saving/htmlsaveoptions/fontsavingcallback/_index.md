@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.FontSavingCallback
-second_title: Aspose.Words für .NET-API-Referenz
-description: HtmlSaveOptions eigendom. Ermöglicht die Steuerung wie Schriftarten gespeichert werden wenn ein Dokument in HTML MHTML oder EPUB gespeichert wird.
+linktitle: FontSavingCallback
+articleTitle: FontSavingCallback
+second_title: Aspose.Words für .NET
+description: HtmlSaveOptions FontSavingCallback eigendom. Ermöglicht die Steuerung wie Schriftarten gespeichert werden wenn ein Dokument in HTML MHTML oder EPUB gespeichert wird in C#.
 type: docs
 weight: 300
 url: /de/net/aspose.words.saving/htmlsaveoptions/fontsavingcallback/
@@ -14,7 +16,7 @@ Ermöglicht die Steuerung, wie Schriftarten gespeichert werden, wenn ein Dokumen
 public IFontSavingCallback FontSavingCallback { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie eine benutzerdefinierte Logik für den Export von Schriftarten beim Speichern in HTML definieren.
 
@@ -75,7 +77,5 @@ public class HandleFontSaving : IFontSavingCallback
 
 * interface [IFontSavingCallback](../../ifontsavingcallback/)
 * class [HtmlSaveOptions](../)
-* namensraum [Aspose.Words.Saving](../../htmlsaveoptions/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

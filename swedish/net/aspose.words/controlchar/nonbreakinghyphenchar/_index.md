@@ -1,7 +1,9 @@
 ---
 title: ControlChar.NonBreakingHyphenChar
-second_title: Aspose.Words för .NET API Referens
-description: ControlChar fält. Nonbreaking bindestreck i Microsoft Word är char30.
+linktitle: NonBreakingHyphenChar
+articleTitle: NonBreakingHyphenChar
+second_title: Aspose.Words för .NET
+description: ControlChar NonBreakingHyphenChar fält. Nonbreaking bindestreck i Microsoft Word är char30 i C#.
 type: docs
 weight: 160
 url: /sv/net/aspose.words/controlchar/nonbreakinghyphenchar/
@@ -14,13 +16,13 @@ Nonbreaking bindestreck i Microsoft Word är (char)30.
 public const char NonBreakingHyphenChar;
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Nonbreaking bindestreck i Microsoft Word motsvarar inte Unicode-tecknet U+2011 non-breaking bindestreck utan representerar istället intern information som talar om för Microsoft Word att visa ett bindestreck och inte att bryta en rad.
 
 Användbar info: http://www.cs.tut.fi/~jkorpela/dashes.html#linebreaks.
 
-### Exempel
+## Exempel
 
 Visar hur man lägger till olika kontrolltecken i ett dokument.
 
@@ -92,7 +94,5 @@ Assert.AreEqual(Convert.ToChar(ControlChar.ColumnBreak), ControlChar.ColumnBreak
 ### Se även
 
 * class [ControlChar](../)
-* namnutrymme [Aspose.Words](../../controlchar/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

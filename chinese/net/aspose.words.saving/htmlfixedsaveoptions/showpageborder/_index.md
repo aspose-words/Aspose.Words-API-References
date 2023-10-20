@@ -1,7 +1,9 @@
 ---
 title: HtmlFixedSaveOptions.ShowPageBorder
-second_title: Aspose.Words for .NET API 参考
-description: HtmlFixedSaveOptions 财产. 指定是否应显示页面周围的边框 默认为真的.
+linktitle: ShowPageBorder
+articleTitle: ShowPageBorder
+second_title: 用于 .NET 的 Aspose.Words
+description: HtmlFixedSaveOptions ShowPageBorder 财产. 指定是否应显示页面周围的边框 默认为真的 在 C#.
 type: docs
 weight: 180
 url: /zh/net/aspose.words.saving/htmlfixedsaveoptions/showpageborder/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.saving/htmlfixedsaveoptions/showpageborder/
 public bool ShowPageBorder { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何使用回调来打印在将文档转换为 HTML 时创建的外部资源的 URI。
 
@@ -93,7 +95,5 @@ private class ResourceUriPrinter : IResourceSavingCallback
 ### 也可以看看
 
 * class [HtmlFixedSaveOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../htmlfixedsaveoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

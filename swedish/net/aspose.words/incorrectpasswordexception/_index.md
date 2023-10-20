@@ -1,7 +1,9 @@
 ---
-title: Class IncorrectPasswordException
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.IncorrectPasswordException klass. Kastas om ett dokument är krypterat med ett lösenord och lösenordet som angavs när du öppnade dokumentet är felaktigt eller saknas.
+title: IncorrectPasswordException Class
+linktitle: IncorrectPasswordException
+articleTitle: IncorrectPasswordException
+second_title: Aspose.Words för .NET
+description: Aspose.Words.IncorrectPasswordException klass. Kastas om ett dokument är krypterat med ett lösenord och lösenordet som angavs när du öppnade dokumentet är felaktigt eller saknas i C#.
 type: docs
 weight: 3250
 url: /sv/net/aspose.words/incorrectpasswordexception/
@@ -20,5 +22,3 @@ public class IncorrectPasswordException : Exception
 
 * namnutrymme [Aspose.Words](../../aspose.words/)
 * hopsättning [Aspose.Words](../../)
-
-

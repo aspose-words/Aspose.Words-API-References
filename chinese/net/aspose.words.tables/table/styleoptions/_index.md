@@ -1,7 +1,9 @@
 ---
 title: Table.StyleOptions
-second_title: Aspose.Words for .NET API 参考
-description: Table 财产. 获取或设置指定如何将表样式应用于此表的位标志
+linktitle: StyleOptions
+articleTitle: StyleOptions
+second_title: 用于 .NET 的 Aspose.Words
+description: Table StyleOptions 财产. 获取或设置指定如何将表样式应用于此表的位标志 在 C#.
 type: docs
 weight: 300
 url: /zh/net/aspose.words.tables/table/styleoptions/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.tables/table/styleoptions/
 public TableStyleOptions StyleOptions { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何在应用样式时构建新表格。
 
@@ -66,7 +68,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTableWithStyle.docx");
 
 * enum [TableStyleOptions](../../tablestyleoptions/)
 * class [Table](../)
-* 命名空间 [Aspose.Words.Tables](../../table/)
+* 命名空间 [Aspose.Words.Tables](../../../aspose.words.tables/)
 * 部件 [Aspose.Words](../../../)
-
-

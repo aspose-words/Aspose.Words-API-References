@@ -1,7 +1,9 @@
 ---
-title: PdfDigitalSignatureDetails.PdfDigitalSignatureDetails
-second_title: Aspose.Words för .NET API Referens
-description: PdfDigitalSignatureDetails byggare. Initierar en instans av denna klass.
+title: PdfDigitalSignatureDetails
+linktitle: PdfDigitalSignatureDetails
+articleTitle: PdfDigitalSignatureDetails
+second_title: Aspose.Words för .NET
+description: PdfDigitalSignatureDetails byggare. Initierar en instans av denna klass i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.saving/pdfdigitalsignaturedetails/pdfdigitalsignaturedetails/
@@ -14,7 +16,7 @@ Initierar en instans av denna klass.
 public PdfDigitalSignatureDetails()
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man signerar ett genererat PDF-dokument.
 
@@ -46,12 +48,12 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignature.pdf", options);
 ### Se även
 
 * class [PdfDigitalSignatureDetails](../)
-* namnutrymme [Aspose.Words.Saving](../../pdfdigitalsignaturedetails/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## PdfDigitalSignatureDetails(CertificateHolder, string, string, DateTime) {#constructor_1}
+## PdfDigitalSignatureDetails(*[CertificateHolder](../../../aspose.words.digitalsignatures/certificateholder/), string, string, DateTime*) {#constructor_1}
 
 Initierar en instans av denna klass.
 
@@ -67,7 +69,7 @@ public PdfDigitalSignatureDetails(CertificateHolder certificateHolder, string re
 | location | String | Platsen för signering. |
 | signatureDate | DateTime | Datum och tid för undertecknandet. |
 
-### Exempel
+## Exempel
 
 Visar hur man signerar ett genererat PDF-dokument.
 
@@ -100,7 +102,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignature.pdf", options);
 
 * class [CertificateHolder](../../../aspose.words.digitalsignatures/certificateholder/)
 * class [PdfDigitalSignatureDetails](../)
-* namnutrymme [Aspose.Words.Saving](../../pdfdigitalsignaturedetails/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

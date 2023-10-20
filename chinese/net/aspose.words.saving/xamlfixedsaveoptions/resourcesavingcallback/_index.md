@@ -1,7 +1,9 @@
 ---
 title: XamlFixedSaveOptions.ResourceSavingCallback
-second_title: Aspose.Words for .NET API 参考
-description: XamlFixedSaveOptions 财产. 允许控制将文档导出为固定页面 Xaml 格式时如何保存资源图像和字体
+linktitle: ResourceSavingCallback
+articleTitle: ResourceSavingCallback
+second_title: 用于 .NET 的 Aspose.Words
+description: XamlFixedSaveOptions ResourceSavingCallback 财产. 允许控制将文档导出为固定页面 Xaml 格式时如何保存资源图像和字体 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.saving/xamlfixedsaveoptions/resourcesavingcallback/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.saving/xamlfixedsaveoptions/resourcesavingcallback/
 public IResourceSavingCallback ResourceSavingCallback { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何打印在将文档转换为固定格式 .xaml 时创建的链接资源的 URI。
 
@@ -78,7 +80,5 @@ private class ResourceUriPrinter : IResourceSavingCallback
 
 * interface [IResourceSavingCallback](../../iresourcesavingcallback/)
 * class [XamlFixedSaveOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../xamlfixedsaveoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

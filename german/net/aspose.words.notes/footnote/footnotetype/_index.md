@@ -1,7 +1,9 @@
 ---
 title: Footnote.FootnoteType
-second_title: Aspose.Words für .NET-API-Referenz
-description: Footnote eigendom. Gibt einen Wert zurück der angibt ob es sich um eine Fußnote oder eine Endnote handelt.
+linktitle: FootnoteType
+articleTitle: FootnoteType
+second_title: Aspose.Words für .NET
+description: Footnote FootnoteType eigendom. Gibt einen Wert zurück der angibt ob es sich um eine Fußnote oder eine Endnote handelt in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.notes/footnote/footnotetype/
@@ -14,7 +16,7 @@ Gibt einen Wert zurück, der angibt, ob es sich um eine Fußnote oder eine Endno
 public FootnoteType FootnoteType { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt den Unterschied zwischen Fußnoten und Endnoten.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "InlineStory.FootnoteEndnote.docx");
 
 * enum [FootnoteType](../../footnotetype/)
 * class [Footnote](../)
-* namensraum [Aspose.Words.Notes](../../footnote/)
+* namensraum [Aspose.Words.Notes](../../../aspose.words.notes/)
 * Montage [Aspose.Words](../../../)
-
-

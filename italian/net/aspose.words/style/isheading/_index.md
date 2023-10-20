@@ -1,7 +1,9 @@
 ---
 title: Style.IsHeading
-second_title: Aspose.Words per .NET API Reference
-description: Style proprietà. Vero quando lo stile è uno degli stili di intestazione integrati.
+linktitle: IsHeading
+articleTitle: IsHeading
+second_title: Aspose.Words per .NET
+description: Style IsHeading proprietà. Vero quando lo stile è uno degli stili di intestazione integrati in C#.
 type: docs
 weight: 70
 url: /it/net/aspose.words/style/isheading/
@@ -14,7 +16,7 @@ Vero quando lo stile è uno degli stili di intestazione integrati.
 public bool IsHeading { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come accedere alla raccolta di stili di un documento.
 
@@ -42,7 +44,5 @@ using (IEnumerator<Style> stylesEnum = doc.Styles.GetEnumerator())
 ### Guarda anche
 
 * class [Style](../)
-* spazio dei nomi [Aspose.Words](../../style/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

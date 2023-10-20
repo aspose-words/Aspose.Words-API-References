@@ -1,12 +1,14 @@
 ---
 title: NodeRendererBase.GetBoundsInPixels
-second_title: Aspose.Words for .NET API 参考
-description: NodeRendererBase 方法. 计算指定缩放系数和分辨率的形状边界以像素为单位
+linktitle: GetBoundsInPixels
+articleTitle: GetBoundsInPixels
+second_title: 用于 .NET 的 Aspose.Words
+description: NodeRendererBase GetBoundsInPixels 方法. 计算指定缩放系数和分辨率的形状边界以像素为单位 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.rendering/noderendererbase/getboundsinpixels/
 ---
-## GetBoundsInPixels(float, float) {#getboundsinpixels}
+## GetBoundsInPixels(*float, float*) {#getboundsinpixels}
 
 计算指定缩放系数和分辨率的形状边界（以像素为单位）。
 
@@ -23,11 +25,11 @@ public Rectangle GetBoundsInPixels(float scale, float dpi)
 
 形状的实际（如页面上呈现的）边界框（以像素为单位）。
 
-### 评论
+## 评论
 
 这个方法转换[`BoundsInPoints`](../boundsinpoints/)成像素矩形。
 
-### 例子
+## 例子
 
 展示如何测量和缩放形状。
 
@@ -74,12 +76,12 @@ Assert.AreEqual(30, bounds.Height);
 ### 也可以看看
 
 * class [NodeRendererBase](../)
-* 命名空间 [Aspose.Words.Rendering](../../noderendererbase/)
+* 命名空间 [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## GetBoundsInPixels(float, float, float) {#getboundsinpixels_1}
+## GetBoundsInPixels(*float, float, float*) {#getboundsinpixels_1}
 
 计算指定缩放系数和分辨率的形状边界（以像素为单位）。
 
@@ -97,11 +99,11 @@ public Rectangle GetBoundsInPixels(float scale, float horizontalDpi, float verti
 
 形状的实际（如页面上呈现的）边界框（以像素为单位）。
 
-### 评论
+## 评论
 
 这个方法转换[`BoundsInPoints`](../boundsinpoints/)成像素矩形。
 
-### 例子
+## 例子
 
 展示如何测量和缩放形状。
 
@@ -148,7 +150,5 @@ Assert.AreEqual(30, bounds.Height);
 ### 也可以看看
 
 * class [NodeRendererBase](../)
-* 命名空间 [Aspose.Words.Rendering](../../noderendererbase/)
+* 命名空间 [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * 部件 [Aspose.Words](../../../)
-
-

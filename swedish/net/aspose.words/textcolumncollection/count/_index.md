@@ -1,7 +1,9 @@
 ---
 title: TextColumnCollection.Count
-second_title: Aspose.Words för .NET API Referens
-description: TextColumnCollection fast egendom. Hämtar antalet kolumner i avsnittet av ett dokument.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words för .NET
+description: TextColumnCollection Count fast egendom. Hämtar antalet kolumner i avsnittet av ett dokument i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words/textcolumncollection/count/
@@ -17,7 +19,5 @@ public int Count { get; }
 ### Se även
 
 * class [TextColumnCollection](../)
-* namnutrymme [Aspose.Words](../../textcolumncollection/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

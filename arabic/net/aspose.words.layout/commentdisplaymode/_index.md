@@ -1,7 +1,9 @@
 ---
-title: Enum CommentDisplayMode
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Layout.CommentDisplayMode تعداد. يحدد وضع العرض لتعليقات المستند.
+title: CommentDisplayMode Enum
+linktitle: CommentDisplayMode
+articleTitle: CommentDisplayMode
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Layout.CommentDisplayMode تعداد. يحدد وضع العرض لتعليقات المستند في C#.
 type: docs
 weight: 3290
 url: /ar/net/aspose.words.layout/commentdisplaymode/
@@ -22,7 +24,7 @@ public enum CommentDisplayMode
 | ShowInBalloons | `1` | يعرض تعليقات المستند في بالونات في الهامش. هذه هي القيمة الافتراضية. |
 | ShowInAnnotations | `2` | يعرض تعليقات المستند في التعليقات التوضيحية. هذا متاح فقط لتنسيق Pdf. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إظهار التعليقات عند حفظ مستند بتنسيق معروض.
 
@@ -54,5 +56,3 @@ doc.Save(ArtifactsDir + "Document.ShowCommentsInBalloons.pdf");
 
 * مساحة الاسم [Aspose.Words.Layout](../../aspose.words.layout/)
 * المجسم [Aspose.Words](../../)
-
-

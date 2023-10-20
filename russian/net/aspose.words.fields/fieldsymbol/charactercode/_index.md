@@ -1,7 +1,9 @@
 ---
 title: FieldSymbol.CharacterCode
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldSymbol свойство. Получает или задает значение кодовой точки символа в десятичном или шестнадцатеричном формате.
+linktitle: CharacterCode
+articleTitle: CharacterCode
+second_title: Aspose.Words для .NET
+description: FieldSymbol CharacterCode свойство. Получает или задает значение кодовой точки символа в десятичном или шестнадцатеричном формате на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.fields/fieldsymbol/charactercode/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldsymbol/charactercode/
 public string CharacterCode { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как использовать поле СИМВОЛ.
 
@@ -70,7 +72,5 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 ### Смотрите также
 
 * class [FieldSymbol](../)
-* пространство имен [Aspose.Words.Fields](../../fieldsymbol/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

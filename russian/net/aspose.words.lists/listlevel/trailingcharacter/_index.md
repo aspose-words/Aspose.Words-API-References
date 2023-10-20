@@ -1,7 +1,9 @@
 ---
 title: ListLevel.TrailingCharacter
-second_title: Справочник по API Aspose.Words для .NET
-description: ListLevel свойство. Возвращает или задает символ вставленный после номера уровня списка.
+linktitle: TrailingCharacter
+articleTitle: TrailingCharacter
+second_title: Aspose.Words для .NET
+description: ListLevel TrailingCharacter свойство. Возвращает или задает символ вставленный после номера уровня списка на С#.
 type: docs
 weight: 140
 url: /ru/net/aspose.words.lists/listlevel/trailingcharacter/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.lists/listlevel/trailingcharacter/
 public ListTrailingCharacter TrailingCharacter { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как применить пользовательское форматирование списка к абзацам при использовании DocumentBuilder.
 
@@ -74,7 +76,5 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateCustomList.docx");
 
 * enum [ListTrailingCharacter](../../listtrailingcharacter/)
 * class [ListLevel](../)
-* пространство имен [Aspose.Words.Lists](../../listlevel/)
+* пространство имен [Aspose.Words.Lists](../../../aspose.words.lists/)
 * сборка [Aspose.Words](../../../)
-
-

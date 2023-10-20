@@ -1,7 +1,9 @@
 ---
 title: FindReplaceOptions.FindWholeWordsOnly
-second_title: Aspose.Words für .NET-API-Referenz
-description: FindReplaceOptions eigendom. True gibt an dass der alte Wert ein eigenständiges Wort sein muss.
+linktitle: FindWholeWordsOnly
+articleTitle: FindWholeWordsOnly
+second_title: Aspose.Words für .NET
+description: FindReplaceOptions FindWholeWordsOnly eigendom. True gibt an dass der alte Wert ein eigenständiges Wort sein muss in C#.
 type: docs
 weight: 50
 url: /de/net/aspose.words.replacing/findreplaceoptions/findwholewordsonly/
@@ -14,7 +16,7 @@ True gibt an, dass der alte Wert ein eigenständiges Wort sein muss.
 public bool FindWholeWordsOnly { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie eigenständige Such- und Ersetzungsvorgänge nur für Wörter umgeschaltet werden.
 
@@ -41,7 +43,5 @@ Assert.AreEqual(
 ### Siehe auch
 
 * class [FindReplaceOptions](../)
-* namensraum [Aspose.Words.Replacing](../../findreplaceoptions/)
+* namensraum [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * Montage [Aspose.Words](../../../)
-
-

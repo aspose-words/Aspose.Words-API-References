@@ -1,7 +1,9 @@
 ---
 title: OdsoRecipientData.Hash
-second_title: Справочник по API Aspose.Words для .NET
-description: OdsoRecipientData свойство. Представляет хэшкод этой записи. Иногда Microsoft Word используетHash всей записи вместоUniqueTag value. Значение по умолчанию  0. .
+linktitle: Hash
+articleTitle: Hash
+second_title: Aspose.Words для .NET
+description: OdsoRecipientData Hash свойство. Представляет хэшкод этой записи. Иногда Microsoft Word используетHash всей записи вместоUniqueTag value. Значение по умолчанию  0.  на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.settings/odsorecipientdata/hash/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.settings/odsorecipientdata/hash/
 public int Hash { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как получить доступ к коллекции данных, определяющей, какие записи источника данных слияния будут исключены при слиянии почты.
 
@@ -54,7 +56,5 @@ Assert.AreEqual(0, dataCollection.Count);
 ### Смотрите также
 
 * class [OdsoRecipientData](../)
-* пространство имен [Aspose.Words.Settings](../../odsorecipientdata/)
+* пространство имен [Aspose.Words.Settings](../../../aspose.words.settings/)
 * сборка [Aspose.Words](../../../)
-
-

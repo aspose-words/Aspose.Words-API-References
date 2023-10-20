@@ -1,7 +1,9 @@
 ---
 title: LoadOptions.BaseUri
-second_title: Aspose.Words för .NET API Referens
-description: LoadOptions fast egendom. Hämtar eller ställer in strängen som kommer att användas för att lösa relativa URIer som finns i dokumentet till absoluta URIer vid behov. Kan varanull eller tom sträng. Standard ärnull .
+linktitle: BaseUri
+articleTitle: BaseUri
+second_title: Aspose.Words för .NET
+description: LoadOptions BaseUri fast egendom. Hämtar eller ställer in strängen som kommer att användas för att lösa relativa URIer som finns i dokumentet till absoluta URIer vid behov. Kan varanull eller tom sträng. Standard ärnull  i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.loading/loadoptions/baseuri/
@@ -14,14 +16,14 @@ Hämtar eller ställer in strängen som kommer att användas för att lösa rela
 public string BaseUri { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Den här egenskapen används för att lösa relativa URI:er till absoluta i följande fall:
 
 1. När ett HTML-dokument laddas från en ström och dokumentet innehåller bilder med relativa URI:er och inte har en bas-URI specificerad i BASE HTML-elementet.
 2. När du sparar ett dokument till PDF och andra format, för att hämta bilder länkade med relativa URIs så att bilderna kan sparas i utdatadokumentet.
 
-### Exempel
+## Exempel
 
 Visar hur man öppnar ett HTML-dokument med bilder från en ström med en bas-URI.
 
@@ -48,7 +50,5 @@ using (Stream stream = File.OpenRead(MyDir + "Document.html"))
 ### Se även
 
 * class [LoadOptions](../)
-* namnutrymme [Aspose.Words.Loading](../../loadoptions/)
+* namnutrymme [Aspose.Words.Loading](../../../aspose.words.loading/)
 * hopsättning [Aspose.Words](../../../)
-
-

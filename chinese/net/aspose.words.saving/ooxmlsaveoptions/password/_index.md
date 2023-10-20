@@ -1,7 +1,9 @@
 ---
 title: OoxmlSaveOptions.Password
-second_title: Aspose.Words for .NET API 参考
-description: OoxmlSaveOptions 财产. 获取/设置使用 ECMA376 标准加密算法加密文档的密码
+linktitle: Password
+articleTitle: Password
+second_title: 用于 .NET 的 Aspose.Words
+description: OoxmlSaveOptions Password 财产. 获取/设置使用 ECMA376 标准加密算法加密文档的密码 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words.saving/ooxmlsaveoptions/password/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.saving/ooxmlsaveoptions/password/
 public string Password { get; set; }
 ```
 
-### 评论
+## 评论
 
 为了保存文档而不加密，该属性应该是`无效的`或空字符串。
 
-### 例子
+## 例子
 
 演示如何创建密码加密的 Office Open XML 文档。
 
@@ -46,7 +48,5 @@ Assert.AreEqual("Hello world!", doc.GetText().Trim());
 ### 也可以看看
 
 * class [OoxmlSaveOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../ooxmlsaveoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

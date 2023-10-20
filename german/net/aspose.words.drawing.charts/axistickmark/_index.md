@@ -1,7 +1,9 @@
 ---
-title: Enum AxisTickMark
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Drawing.Charts.AxisTickMark opsomming. Gibt die möglichen Positionen für Teilstriche an.
+title: AxisTickMark Enum
+linktitle: AxisTickMark
+articleTitle: AxisTickMark
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Drawing.Charts.AxisTickMark opsomming. Gibt die möglichen Positionen für Teilstriche an in C#.
 type: docs
 weight: 590
 url: /de/net/aspose.words.drawing.charts/axistickmark/
@@ -23,7 +25,7 @@ public enum AxisTickMark
 | Outside | `2` | Gibt an, dass die Teilstriche außerhalb des Plotbereichs liegen sollen. |
 | None | `3` | Gibt an, dass keine Häkchen vorhanden sein sollen. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Diagramm mit Datums-/Uhrzeitwerten eingefügt wird.
 
@@ -78,5 +80,3 @@ doc.Save(ArtifactsDir + "Charts.DateTimeValues.docx");
 
 * namensraum [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../)
-
-

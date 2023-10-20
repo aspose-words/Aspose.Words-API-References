@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.FontSavingCallback
-second_title: Aspose.Words for .NET API 参考
-description: HtmlSaveOptions 财产. 允许控制将文档保存为 HTMLMHTML 或 EPUB 时如何保存字体
+linktitle: FontSavingCallback
+articleTitle: FontSavingCallback
+second_title: 用于 .NET 的 Aspose.Words
+description: HtmlSaveOptions FontSavingCallback 财产. 允许控制将文档保存为 HTMLMHTML 或 EPUB 时如何保存字体 在 C#.
 type: docs
 weight: 300
 url: /zh/net/aspose.words.saving/htmlsaveoptions/fontsavingcallback/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.saving/htmlsaveoptions/fontsavingcallback/
 public IFontSavingCallback FontSavingCallback { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何定义保存为 HTML 时导出字体的自定义逻辑。
 
@@ -75,7 +77,5 @@ public class HandleFontSaving : IFontSavingCallback
 
 * interface [IFontSavingCallback](../../ifontsavingcallback/)
 * class [HtmlSaveOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../htmlsaveoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

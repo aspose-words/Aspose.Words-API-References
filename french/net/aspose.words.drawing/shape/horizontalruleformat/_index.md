@@ -1,7 +1,9 @@
 ---
 title: Shape.HorizontalRuleFormat
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Shape propriété. Donne accès aux propriétés de la forme de règle horizontale. Pour une forme qui nest pas une règle horizontale renvoienul .
+linktitle: HorizontalRuleFormat
+articleTitle: HorizontalRuleFormat
+second_title: Aspose.Words pour .NET
+description: Shape HorizontalRuleFormat propriété. Donne accès aux propriétés de la forme de règle horizontale. Pour une forme qui nest pas une règle horizontale renvoienul  en C#.
 type: docs
 weight: 100
 url: /fr/net/aspose.words.drawing/shape/horizontalruleformat/
@@ -14,7 +16,7 @@ Donne accès aux propriétés de la forme de règle horizontale. Pour une forme 
 public HorizontalRuleFormat HorizontalRuleFormat { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment insérer une forme de règle horizontale et personnaliser sa mise en forme.
 
@@ -38,7 +40,5 @@ Assert.True(shape.HorizontalRuleFormat.NoShade);
 
 * class [HorizontalRuleFormat](../../horizontalruleformat/)
 * class [Shape](../)
-* espace de noms [Aspose.Words.Drawing](../../shape/)
+* espace de noms [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Assemblée [Aspose.Words](../../../)
-
-

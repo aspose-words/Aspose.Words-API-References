@@ -1,7 +1,9 @@
 ---
-title: Class RowFormat
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Tables.RowFormat فصل. يمثل كافة التنسيقات لصف الجدول.
+title: RowFormat Class
+linktitle: RowFormat
+articleTitle: RowFormat
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Tables.RowFormat فصل. يمثل كافة التنسيقات لصف الجدول في C#.
 type: docs
 weight: 6330
 url: /ar/net/aspose.words.tables/rowformat/
@@ -32,7 +34,7 @@ public class RowFormat
 | --- | --- |
 | [ClearFormatting](../../aspose.words.tables/rowformat/clearformatting/)() | إعادة التعيين إلى تنسيق الصف الافتراضي. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعديل تنسيق صف الجدول.
 
@@ -146,5 +148,3 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
 
 * مساحة الاسم [Aspose.Words.Tables](../../aspose.words.tables/)
 * المجسم [Aspose.Words](../../)
-
-

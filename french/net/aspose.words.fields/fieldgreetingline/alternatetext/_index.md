@@ -1,7 +1,9 @@
 ---
 title: FieldGreetingLine.AlternateText
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldGreetingLine propriété. Obtient ou définit le texte à inclure dans le champ si le nom est vide.
+linktitle: AlternateText
+articleTitle: AlternateText
+second_title: Aspose.Words pour .NET
+description: FieldGreetingLine AlternateText propriété. Obtient ou définit le texte à inclure dans le champ si le nom est vide en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.fields/fieldgreetingline/alternatetext/
@@ -14,7 +16,7 @@ Obtient ou définit le texte à inclure dans le champ si le nom est vide.
 public string AlternateText { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment insérer un champ GREETINGLINE.
 
@@ -74,7 +76,5 @@ Assert.AreEqual("Dear Mr. Doe,\r\r\tThis is your custom greeting, created progra
 ### Voir également
 
 * class [FieldGreetingLine](../)
-* espace de noms [Aspose.Words.Fields](../../fieldgreetingline/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

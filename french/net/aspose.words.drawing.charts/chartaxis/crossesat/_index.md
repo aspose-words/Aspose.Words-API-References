@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.CrossesAt
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ChartAxis propriété. Spécifie lendroit où laxe se croise sur laxe perpendiculaire.
+linktitle: CrossesAt
+articleTitle: CrossesAt
+second_title: Aspose.Words pour .NET
+description: ChartAxis CrossesAt propriété. Spécifie lendroit où laxe se croise sur laxe perpendiculaire en C#.
 type: docs
 weight: 50
 url: /fr/net/aspose.words.drawing.charts/chartaxis/crossesat/
@@ -14,13 +16,13 @@ Spécifie l'endroit où l'axe se croise sur l'axe perpendiculaire.
 public double CrossesAt { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 La propriété n'a d'effet que si[`Crosses`](../crosses/) sont réglés surCustom. Il n'est pas pris en charge par les nouveaux graphiques MS Office 2016.
 
 Les unités sont déterminées par le type d'axe. Lorsque l’axe est un axe des valeurs, la valeur de la propriété est un nombre décimal sur l’axe des valeurs. Lorsque l'axe est un axe de catégories de temps, la valeur est définie comme un nombre entier de jours par rapport à la date de base (30/12/1899). Pour un axe de catégorie de texte, la valeur est un numéro de catégorie entier, commençant par 1 comme première catégorie.
 
-### Exemples
+## Exemples
 
 Montre comment faire croiser un axe graphique à un emplacement personnalisé.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "Charts.AxisCross.docx");
 ### Voir également
 
 * class [ChartAxis](../)
-* espace de noms [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* espace de noms [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Assemblée [Aspose.Words](../../../)
-
-

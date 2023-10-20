@@ -1,7 +1,9 @@
 ---
 title: Footnote.FootnoteType
-second_title: Referencia de API de Aspose.Words para .NET
-description: Footnote propiedad. Devuelve un valor que especifica si se trata de una nota al pie o al final.
+linktitle: FootnoteType
+articleTitle: FootnoteType
+second_title: Aspose.Words para .NET
+description: Footnote FootnoteType propiedad. Devuelve un valor que especifica si se trata de una nota al pie o al final en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words.notes/footnote/footnotetype/
@@ -14,7 +16,7 @@ Devuelve un valor que especifica si se trata de una nota al pie o al final.
 public FootnoteType FootnoteType { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra la diferencia entre notas al pie y notas al final.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "InlineStory.FootnoteEndnote.docx");
 
 * enum [FootnoteType](../../footnotetype/)
 * class [Footnote](../)
-* espacio de nombres [Aspose.Words.Notes](../../footnote/)
+* espacio de nombres [Aspose.Words.Notes](../../../aspose.words.notes/)
 * asamblea [Aspose.Words](../../../)
-
-

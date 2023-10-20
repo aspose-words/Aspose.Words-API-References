@@ -1,7 +1,9 @@
 ---
 title: Story.Paragraphs
-second_title: Aspose.Words لمراجع .NET API
-description: Story ملكية. يحصل على مجموعة من الفقرات التي تعتبر أبناء القصة مباشرة.
+linktitle: Paragraphs
+articleTitle: Paragraphs
+second_title: Aspose.Words لـ .NET
+description: Story Paragraphs ملكية. يحصل على مجموعة من الفقرات التي تعتبر أبناء القصة مباشرة في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words/story/paragraphs/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/story/paragraphs/
 public ParagraphCollection Paragraphs { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التحقق مما إذا كانت الفقرة عبارة عن مراجعة منقولة.
 
@@ -49,7 +51,5 @@ Assert.True(paragraphs[3].IsMoveToRevision);
 
 * class [ParagraphCollection](../../paragraphcollection/)
 * class [Story](../)
-* مساحة الاسم [Aspose.Words](../../story/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

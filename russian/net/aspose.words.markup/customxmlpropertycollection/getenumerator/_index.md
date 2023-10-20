@@ -1,7 +1,9 @@
 ---
 title: CustomXmlPropertyCollection.GetEnumerator
-second_title: Справочник по API Aspose.Words для .NET
-description: CustomXmlPropertyCollection метод. Возвращает объект перечислителя который можно использовать для перебора всех элементов коллекции.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words для .NET
+description: CustomXmlPropertyCollection GetEnumerator метод. Возвращает объект перечислителя который можно использовать для перебора всех элементов коллекции на С#.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.markup/customxmlpropertycollection/getenumerator/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.markup/customxmlpropertycollection/getenumerator/
 public IEnumerator<CustomXmlProperty> GetEnumerator()
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как работать со свойствами смарт-тегов, чтобы получить подробную информацию о смарт-тегах.
 
@@ -72,7 +74,5 @@ Assert.AreEqual(0, properties.Count);
 
 * class [CustomXmlProperty](../../customxmlproperty/)
 * class [CustomXmlPropertyCollection](../)
-* пространство имен [Aspose.Words.Markup](../../customxmlpropertycollection/)
+* пространство имен [Aspose.Words.Markup](../../../aspose.words.markup/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Document.Document
-second_title: Aspose.Words per .NET API Reference
-description: Document costruttore. Crea un documento Word vuoto.
+title: Document
+linktitle: Document
+articleTitle: Document
+second_title: Aspose.Words per .NET
+description: Document costruttore. Crea un documento Word vuoto in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words/document/document/
@@ -14,13 +16,13 @@ Crea un documento Word vuoto.
 public Document()
 ```
 
-### Osservazioni
+## Osservazioni
 
 Per impostazione predefinita, il formato carta del documento è Lettera. Se vuoi cambiare l'impostazione della pagina, usa [`PageSetup`](../../section/pagesetup/).
 
 Dopo la creazione, puoi utilizzare[`DocumentBuilder`](../../documentbuilder/) per aggiungere facilmente il contenuto del documento.
 
-### Esempi
+## Esempi
 
 Mostra come formattare una sequenza di testo utilizzando la relativa proprietà font.
 
@@ -64,12 +66,12 @@ Assert.AreEqual("Test encrypted document.", doc.FirstSection.Body.FirstParagraph
 ### Guarda anche
 
 * class [Document](../)
-* spazio dei nomi [Aspose.Words](../../document/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
 
 ---
 
-## Document(string) {#constructor_3}
+## Document(*string*) {#constructor_3}
 
 Apre un documento esistente da un file. Rileva automaticamente il formato del file.
 
@@ -92,7 +94,7 @@ public Document(string fileName)
 | [IncorrectPasswordException](../../incorrectpasswordexception/) | Il documento è crittografato e richiede una password per essere aperto, ma hai fornito una password errata. |
 | ArgumentException | Il nome del file non può essere una stringa nulla o vuota. |
 
-### Esempi
+## Esempi
 
 Mostra come aprire un documento e convertirlo in .PDF.
 
@@ -146,12 +148,12 @@ Assert.AreEqual("Hello world!", textFragmentAbsorber.Text.Trim());
 ### Guarda anche
 
 * class [Document](../)
-* spazio dei nomi [Aspose.Words](../../document/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
 
 ---
 
-## Document(string, LoadOptions) {#constructor_4}
+## Document(*string, [LoadOptions](../../../aspose.words.loading/loadoptions/)*) {#constructor_4}
 
 Apre un documento esistente da un file. Consente di specificare opzioni aggiuntive come una password di crittografia.
 
@@ -175,7 +177,7 @@ public Document(string fileName, LoadOptions loadOptions)
 | [IncorrectPasswordException](../../incorrectpasswordexception/) | Il documento è crittografato e richiede una password per essere aperto, ma hai fornito una password errata. |
 | ArgumentException | Il nome del file non può essere una stringa nulla o vuota. |
 
-### Esempi
+## Esempi
 
 Mostra come caricare un documento Microsoft Word crittografato.
 
@@ -226,12 +228,12 @@ Assert.AreEqual("Test encrypted document.", doc.FirstSection.Body.FirstParagraph
 
 * class [LoadOptions](../../../aspose.words.loading/loadoptions/)
 * class [Document](../)
-* spazio dei nomi [Aspose.Words](../../document/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
 
 ---
 
-## Document(Stream) {#constructor_1}
+## Document(*Stream*) {#constructor_1}
 
 Apre un documento esistente da uno stream. Rileva automaticamente il formato del file.
 
@@ -256,11 +258,11 @@ public Document(Stream stream)
 | NotSupportedException | Lo stream non supporta la lettura o la ricerca. |
 | ObjectDisposedException | Il flusso è un oggetto eliminato. |
 
-### Osservazioni
+## Osservazioni
 
 Il documento deve essere archiviato all'inizio dello stream. Il flusso deve supportare il posizionamento casuale.
 
-### Esempi
+## Esempi
 
 Mostra come caricare un documento utilizzando un flusso.
 
@@ -302,12 +304,12 @@ using (HttpClient webClient = new HttpClient())
 ### Guarda anche
 
 * class [Document](../)
-* spazio dei nomi [Aspose.Words](../../document/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
 
 ---
 
-## Document(Stream, LoadOptions) {#constructor_2}
+## Document(*Stream, [LoadOptions](../../../aspose.words.loading/loadoptions/)*) {#constructor_2}
 
 Apre un documento esistente da uno stream. Consente di specificare opzioni aggiuntive come una password di crittografia.
 
@@ -333,11 +335,11 @@ public Document(Stream stream, LoadOptions loadOptions)
 | NotSupportedException | Lo stream non supporta la lettura o la ricerca. |
 | ObjectDisposedException | Il flusso è un oggetto eliminato. |
 
-### Osservazioni
+## Osservazioni
 
 Il documento deve essere archiviato all'inizio dello stream. Il flusso deve supportare il posizionamento casuale.
 
-### Esempi
+## Esempi
 
 Mostra come aprire un documento HTML con immagini da un flusso utilizzando un URI di base.
 
@@ -408,7 +410,5 @@ using (Stream stream = File.OpenRead(MyDir + "Encrypted.docx"))
 
 * class [LoadOptions](../../../aspose.words.loading/loadoptions/)
 * class [Document](../)
-* spazio dei nomi [Aspose.Words](../../document/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

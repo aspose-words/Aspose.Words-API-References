@@ -1,7 +1,9 @@
 ---
-title: Enum PdfCompliance
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Saving.PdfCompliance énumération. Spécifie le niveau de conformité aux normes PDF.
+title: PdfCompliance Enum
+linktitle: PdfCompliance
+articleTitle: PdfCompliance
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Saving.PdfCompliance énumération. Spécifie le niveau de conformité aux normes PDF en C#.
 type: docs
 weight: 5410
 url: /fr/net/aspose.words.saving/pdfcompliance/
@@ -27,7 +29,7 @@ public enum PdfCompliance
 | PdfA4 | `6` | Le fichier de sortie sera conforme à la norme PDF/A-4 (ISO 19005-4:2020). PDF/A-4 a pour objectif de préserver l'apparence visuelle statique du document dans le temps, indépendamment des outils et des systèmes utilisés pour créer , le stockage ou le rendu des fichiers. De plus, tout texte contenu dans document peut être extrait de manière fiable sous la forme d'une série de points de code Unicode. |
 | PdfUa1 | `7` | Le fichier de sortie sera conforme à la norme PDF/UA-1 (ISO 14289-1). L'objectif principal de PDF/UA est de définir comment représenter les documents électroniques au format PDF d'une manière qui permette au fichier d'être accessible. |
 
-### Exemples
+## Exemples
 
 Montre comment définir le niveau de conformité aux normes PDF des documents PDF enregistrés.
 
@@ -60,5 +62,3 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.Compliance.pdf", saveOptions);
 
 * espace de noms [Aspose.Words.Saving](../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../)
-
-

@@ -1,12 +1,14 @@
 ---
 title: PageInfo.GetSizeInPixels
-second_title: Aspose.Words for .NET API 参考
-description: PageInfo 方法. 计算指定缩放系数和分辨率的页面大小以像素为单位
+linktitle: GetSizeInPixels
+articleTitle: GetSizeInPixels
+second_title: 用于 .NET 的 Aspose.Words
+description: PageInfo GetSizeInPixels 方法. 计算指定缩放系数和分辨率的页面大小以像素为单位 在 C#.
 type: docs
 weight: 90
 url: /zh/net/aspose.words.rendering/pageinfo/getsizeinpixels/
 ---
-## GetSizeInPixels(float, float) {#getsizeinpixels}
+## GetSizeInPixels(*float, float*) {#getsizeinpixels}
 
 计算指定缩放系数和分辨率的页面大小（以像素为单位）。
 
@@ -26,12 +28,12 @@ public Size GetSizeInPixels(float scale, float dpi)
 ### 也可以看看
 
 * class [PageInfo](../)
-* 命名空间 [Aspose.Words.Rendering](../../pageinfo/)
+* 命名空间 [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## GetSizeInPixels(float, float, float) {#getsizeinpixels_1}
+## GetSizeInPixels(*float, float, float*) {#getsizeinpixels_1}
 
 计算指定缩放系数和分辨率的页面大小（以像素为单位）。
 
@@ -49,7 +51,7 @@ public Size GetSizeInPixels(float scale, float horizontalDpi, float verticalDpi)
 
 页面的大小（以像素为单位）。
 
-### 例子
+## 例子
 
 演示如何打印 Word 文档中每个页面的页面大小和方向信息。
 
@@ -91,7 +93,5 @@ for (int i = 0; i < doc.PageCount; i++)
 ### 也可以看看
 
 * class [PageInfo](../)
-* 命名空间 [Aspose.Words.Rendering](../../pageinfo/)
+* 命名空间 [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * 部件 [Aspose.Words](../../../)
-
-

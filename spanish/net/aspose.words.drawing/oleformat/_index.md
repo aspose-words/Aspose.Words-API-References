@@ -1,7 +1,9 @@
 ---
-title: Class OleFormat
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Drawing.OleFormat clase. Proporciona acceso a los datos de un objeto OLE o control ActiveX.
+title: OleFormat Class
+linktitle: OleFormat
+articleTitle: OleFormat
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Drawing.OleFormat clase. Proporciona acceso a los datos de un objeto OLE o control ActiveX en C#.
 type: docs
 weight: 1150
 url: /es/net/aspose.words.drawing/oleformat/
@@ -38,16 +40,16 @@ public class OleFormat
 
 | Nombre | Descripción |
 | --- | --- |
-| [GetOleEntry](../../aspose.words.drawing/oleformat/getoleentry/)(string) | Obtiene la entrada de datos del objeto OLE. |
+| [GetOleEntry](../../aspose.words.drawing/oleformat/getoleentry/)(*string*) | Obtiene la entrada de datos del objeto OLE. |
 | [GetRawData](../../aspose.words.drawing/oleformat/getrawdata/)() | Obtiene datos sin procesar del objeto OLE. |
-| [Save](../../aspose.words.drawing/oleformat/save/#save)(Stream) | Guarda los datos del objeto incrustado en la secuencia especificada. |
-| [Save](../../aspose.words.drawing/oleformat/save/#save_1)(string) | Guarda los datos del objeto incrustado en un archivo con el nombre especificado. |
+| [Save](../../aspose.words.drawing/oleformat/save/#save)(*Stream*) | Guarda los datos del objeto incrustado en la secuencia especificada. |
+| [Save](../../aspose.words.drawing/oleformat/save/#save_1)(*string*) | Guarda los datos del objeto incrustado en un archivo con el nombre especificado. |
 
-### Observaciones
+## Observaciones
 
 Utilizar el[`OleFormat`](../shape/oleformat/)propiedad para acceder a los datos de un objeto OLE. No crea instancias del`OleFormat` clase directamente.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo extraer objetos OLE incrustados en archivos.
 
@@ -83,5 +85,3 @@ oleFormat.Save(ArtifactsDir + "OLE spreadsheet saved directly" + oleFormat.Sugge
 
 * espacio de nombres [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * asamblea [Aspose.Words](../../)
-
-

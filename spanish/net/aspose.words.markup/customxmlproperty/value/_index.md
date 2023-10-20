@@ -1,7 +1,9 @@
 ---
 title: CustomXmlProperty.Value
-second_title: Referencia de API de Aspose.Words para .NET
-description: CustomXmlProperty propiedad. Obtiene o establece el valor del atributo XML personalizado o propiedad de etiqueta inteligente.
+linktitle: Value
+articleTitle: Value
+second_title: Aspose.Words para .NET
+description: CustomXmlProperty Value propiedad. Obtiene o establece el valor del atributo XML personalizado o propiedad de etiqueta inteligente en C#.
 type: docs
 weight: 40
 url: /es/net/aspose.words.markup/customxmlproperty/value/
@@ -14,13 +16,13 @@ Obtiene o establece el valor del atributo XML personalizado o propiedad de etiqu
 public string Value { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 No puede ser`nulo`.
 
 El valor predeterminado es una cadena vacía.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear etiquetas inteligentes.
 
@@ -121,7 +123,5 @@ private class SmartTagPrinter : DocumentVisitor
 ### Ver también
 
 * class [CustomXmlProperty](../)
-* espacio de nombres [Aspose.Words.Markup](../../customxmlproperty/)
+* espacio de nombres [Aspose.Words.Markup](../../../aspose.words.markup/)
 * asamblea [Aspose.Words](../../../)
-
-

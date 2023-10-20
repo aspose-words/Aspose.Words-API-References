@@ -1,7 +1,9 @@
 ---
 title: Bookmark.IsColumn
-second_title: Aspose.Words for .NET API 参考
-description: Bookmark 财产. 返回真的如果此书签是表列书签.
+linktitle: IsColumn
+articleTitle: IsColumn
+second_title: 用于 .NET 的 Aspose.Words
+description: Bookmark IsColumn 财产. 返回真的如果此书签是表列书签 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words/bookmark/iscolumn/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/bookmark/iscolumn/
 public bool IsColumn { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何获取有关表列书签的信息。
 
@@ -41,7 +43,5 @@ foreach (Bookmark bookmark in doc.Range.Bookmarks)
 ### 也可以看看
 
 * class [Bookmark](../)
-* 命名空间 [Aspose.Words](../../bookmark/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

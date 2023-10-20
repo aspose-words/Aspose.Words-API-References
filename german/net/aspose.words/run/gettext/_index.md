@@ -1,7 +1,9 @@
 ---
 title: Run.GetText
-second_title: Aspose.Words für .NET-API-Referenz
-description: Run methode. Ruft den Text des Laufs ab.
+linktitle: GetText
+articleTitle: GetText
+second_title: Aspose.Words für .NET
+description: Run GetText methode. Ruft den Text des Laufs ab in C#.
 type: docs
 weight: 70
 url: /de/net/aspose.words/run/gettext/
@@ -18,7 +20,7 @@ public override string GetText()
 
 Der Text des Laufs.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Knotenstruktur jeder Kopf- und Fußzeile in einem Dokument gedruckt wird.
 
@@ -111,7 +113,5 @@ public class HeaderFooterStructurePrinter : DocumentVisitor
 ### Siehe auch
 
 * class [Run](../)
-* namensraum [Aspose.Words](../../run/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

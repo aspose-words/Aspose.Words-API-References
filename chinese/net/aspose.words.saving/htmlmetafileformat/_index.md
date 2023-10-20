@@ -1,7 +1,9 @@
 ---
-title: Enum HtmlMetafileFormat
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Saving.HtmlMetafileFormat 枚举. 表示图元文件保存到 HTML 文档的格式
+title: HtmlMetafileFormat Enum
+linktitle: HtmlMetafileFormat
+articleTitle: HtmlMetafileFormat
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Saving.HtmlMetafileFormat 枚举. 表示图元文件保存到 HTML 文档的格式 在 C#.
 type: docs
 weight: 5090
 url: /zh/net/aspose.words.saving/htmlmetafileformat/
@@ -22,7 +24,7 @@ public enum HtmlMetafileFormat
 | Svg | `1` | 图元文件转换为矢量 SVG 图像。 |
 | EmfOrWmf | `2` | 图元文件按原样保存，无需转换。 |
 
-### 例子
+## 例子
 
 演示如何在保存 HTML 文档时将 SVG 对象转换为其他格式。
 
@@ -82,5 +84,3 @@ switch (htmlMetafileFormat)
 
 * 命名空间 [Aspose.Words.Saving](../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../)
-
-

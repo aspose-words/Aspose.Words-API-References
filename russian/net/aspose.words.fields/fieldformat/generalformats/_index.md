@@ -1,7 +1,9 @@
 ---
 title: FieldFormat.GeneralFormats
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldFormat свойство. Получает коллекцию общих форматов которые применяются к числовым текстовым или любым результатам поля. Соответствует переключателям .
+linktitle: GeneralFormats
+articleTitle: GeneralFormats
+second_title: Aspose.Words для .NET
+description: FieldFormat GeneralFormats свойство. Получает коллекцию общих форматов которые применяются к числовым текстовым или любым результатам поля. Соответствует переключателям  на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.fields/fieldformat/generalformats/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldformat/generalformats/
 public GeneralFormatCollection GeneralFormats { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как форматировать результаты полей.
 
@@ -79,7 +81,5 @@ Assert.AreEqual(0, format.GeneralFormats.Count);
 
 * class [GeneralFormatCollection](../../generalformatcollection/)
 * class [FieldFormat](../)
-* пространство имен [Aspose.Words.Fields](../../fieldformat/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

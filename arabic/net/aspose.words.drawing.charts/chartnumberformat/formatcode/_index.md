@@ -1,7 +1,9 @@
 ---
 title: ChartNumberFormat.FormatCode
-second_title: Aspose.Words لمراجع .NET API
-description: ChartNumberFormat ملكية. الحصول على رمز التنسيق المطبق على تسمية البيانات أو تعيينه.
+linktitle: FormatCode
+articleTitle: FormatCode
+second_title: Aspose.Words لـ .NET
+description: ChartNumberFormat FormatCode ملكية. الحصول على رمز التنسيق المطبق على تسمية البيانات أو تعيينه في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.drawing.charts/chartnumberformat/formatcode/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing.charts/chartnumberformat/formatcode/
 public string FormatCode { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 يتم استخدام تنسيق الأرقام لتغيير الطريقة التي تظهر بها القيمة في تسمية البيانات ويمكن استخدامه ببعض الطرق الإبداعية للغاية. أمثلة تنسيقات الأرقام:
 
@@ -38,7 +40,7 @@ public string FormatCode { get; set; }
 
 مخصص مع اللون - "[أحمر]-#،##0.0"
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين التنسيق لقيم المخطط.
 
@@ -100,7 +102,5 @@ doc.Save(ArtifactsDir + "Charts.DataLabelNumberFormat.docx");
 ### أنظر أيضا
 
 * class [ChartNumberFormat](../)
-* مساحة الاسم [Aspose.Words.Drawing.Charts](../../chartnumberformat/)
+* مساحة الاسم [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../../)
-
-

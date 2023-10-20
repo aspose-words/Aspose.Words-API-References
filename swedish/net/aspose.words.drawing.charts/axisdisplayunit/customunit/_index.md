@@ -1,7 +1,9 @@
 ---
 title: AxisDisplayUnit.CustomUnit
-second_title: Aspose.Words för .NET API Referens
-description: AxisDisplayUnit fast egendom. Hämtar eller ställer in en användardefinierad divisor för att skala visningsenheter på värdeaxeln.
+linktitle: CustomUnit
+articleTitle: CustomUnit
+second_title: Aspose.Words för .NET
+description: AxisDisplayUnit CustomUnit fast egendom. Hämtar eller ställer in en användardefinierad divisor för att skala visningsenheter på värdeaxeln i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.drawing.charts/axisdisplayunit/customunit/
@@ -14,13 +16,13 @@ Hämtar eller ställer in en användardefinierad divisor för att skala visnings
 public double CustomUnit { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Egenskapen stöds inte av MS Office 2016 nya diagram. Standardvärdet är 1.
 
 Om du ställer in den här egenskapen ställer du in[`Unit`](../unit/) egenskap till Custom.
 
-### Exempel
+## Exempel
 
 Visar hur man manipulerar bockmarkeringarna och visade värden för en diagramaxel.
 
@@ -78,7 +80,5 @@ doc.Save(ArtifactsDir + "Charts.AxisDisplayUnit.docx");
 ### Se även
 
 * class [AxisDisplayUnit](../)
-* namnutrymme [Aspose.Words.Drawing.Charts](../../axisdisplayunit/)
+* namnutrymme [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: CompareOptions.IgnoreComments
-second_title: Aspose.Words för .NET API Referens
-description: CompareOptions fast egendom. Anger om skillnader i kommentarer ska jämföras. Som standard ignoreras inte kommentarer.
+linktitle: IgnoreComments
+articleTitle: IgnoreComments
+second_title: Aspose.Words för .NET
+description: CompareOptions IgnoreComments fast egendom. Anger om skillnader i kommentarer ska jämföras. Som standard ignoreras inte kommentarer i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.comparing/compareoptions/ignorecomments/
@@ -14,7 +16,7 @@ Anger om skillnader i kommentarer ska jämföras. Som standard ignoreras inte ko
 public bool IgnoreComments { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man filtrerar specifika typer av dokumentelement när man gör en jämförelse.
 
@@ -88,7 +90,5 @@ docOriginal.Save(ArtifactsDir + "Document.CompareOptions.docx");
 ### Se även
 
 * class [CompareOptions](../)
-* namnutrymme [Aspose.Words.Comparing](../../compareoptions/)
+* namnutrymme [Aspose.Words.Comparing](../../../aspose.words.comparing/)
 * hopsättning [Aspose.Words](../../../)
-
-

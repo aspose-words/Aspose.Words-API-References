@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTag.Accept
-second_title: Aspose.Words für .NET-API-Referenz
-description: StructuredDocumentTag methode. Akzeptiert einen Besucher.
+linktitle: Accept
+articleTitle: Accept
+second_title: Aspose.Words für .NET
+description: StructuredDocumentTag Accept methode. Akzeptiert einen Besucher in C#.
 type: docs
 weight: 330
 url: /de/net/aspose.words.markup/structureddocumenttag/accept/
@@ -22,7 +24,7 @@ public override bool Accept(DocumentVisitor visitor)
 
 True, wenn alle Knoten besucht wurden; falsch wenn[`DocumentVisitor`](../../../aspose.words/documentvisitor/) stoppte den Vorgang, bevor alle Knoten besucht wurden.
 
-### Bemerkungen
+## Bemerkungen
 
 Listet diesen Knoten und alle seine untergeordneten Knoten auf. Jeder Knoten ruft eine entsprechende Methode auf[`DocumentVisitor`](../../../aspose.words/documentvisitor/).
 
@@ -30,7 +32,7 @@ Weitere Informationen finden Sie im Visitor-Entwurfsmuster.
 
 Anrufe[`VisitStructuredDocumentTagStart`](../../../aspose.words/documentvisitor/visitstructureddocumenttagstart/) , dann ruft[`Accept`](../../../aspose.words/node/accept/) für alle untergeordneten Knoten des Smarttags und Aufrufe[`VisitStructuredDocumentTagEnd`](../../../aspose.words/documentvisitor/visitstructureddocumenttagend/) am Ende.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Knotenstruktur jedes strukturierten Dokumenttags in einem Dokument gedruckt wird.
 
@@ -121,7 +123,5 @@ public class StructuredDocumentTagNodePrinter : DocumentVisitor
 
 * class [DocumentVisitor](../../../aspose.words/documentvisitor/)
 * class [StructuredDocumentTag](../)
-* namensraum [Aspose.Words.Markup](../../structureddocumenttag/)
+* namensraum [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Montage [Aspose.Words](../../../)
-
-

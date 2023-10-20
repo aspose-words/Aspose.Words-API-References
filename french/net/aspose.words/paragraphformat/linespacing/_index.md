@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.LineSpacing
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ParagraphFormat propriété. Obtient ou définit lespacement des lignes en points pour le paragraphe.
+linktitle: LineSpacing
+articleTitle: LineSpacing
+second_title: Aspose.Words pour .NET
+description: ParagraphFormat LineSpacing propriété. Obtient ou définit lespacement des lignes en points pour le paragraphe en C#.
 type: docs
 weight: 190
 url: /fr/net/aspose.words/paragraphformat/linespacing/
@@ -14,13 +16,13 @@ Obtient ou définit l'espacement des lignes (en points) pour le paragraphe.
 public double LineSpacing { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 Quand[`LineSpacingRule`](../linespacingrule/) la propriété est définie surAtLeast , l'interligne peut être supérieur ou égal à, mais jamais inférieur à l'espacement spécifié`LineSpacing` valeur.
 
 Quand[`LineSpacingRule`](../linespacingrule/) la propriété est définie surExactly , l'interligne ne change jamais par rapport à spécifié`LineSpacing` valeur, même si une police plus grande est utilisée dans le paragraphe.
 
-### Exemples
+## Exemples
 
 Montre comment utiliser l'espacement des lignes.
 
@@ -61,7 +63,5 @@ doc.Save(ArtifactsDir + "ParagraphFormat.LineSpacing.docx");
 ### Voir également
 
 * class [ParagraphFormat](../)
-* espace de noms [Aspose.Words](../../paragraphformat/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

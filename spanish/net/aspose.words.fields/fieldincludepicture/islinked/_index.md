@@ -1,7 +1,9 @@
 ---
 title: FieldIncludePicture.IsLinked
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldIncludePicture propiedad. Obtiene o establece si se debe reducir el tamaño del archivo al no almacenar datos gráficos con el documento.
+linktitle: IsLinked
+articleTitle: IsLinked
+second_title: Aspose.Words para .NET
+description: FieldIncludePicture IsLinked propiedad. Obtiene o establece si se debe reducir el tamaño del archivo al no almacenar datos gráficos con el documento en C#.
 type: docs
 weight: 30
 url: /es/net/aspose.words.fields/fieldincludepicture/islinked/
@@ -14,7 +16,7 @@ Obtiene o establece si se debe reducir el tamaño del archivo al no almacenar da
 public bool IsLinked { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo insertar imágenes usando los campos IMPORTAR e INCLUDEPICTURE.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "Field.IMPORT.INCLUDEPICTURE.docx");
 ### Ver también
 
 * class [FieldIncludePicture](../)
-* espacio de nombres [Aspose.Words.Fields](../../fieldincludepicture/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

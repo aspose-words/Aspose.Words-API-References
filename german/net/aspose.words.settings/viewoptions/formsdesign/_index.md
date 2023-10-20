@@ -1,7 +1,9 @@
 ---
 title: ViewOptions.FormsDesign
-second_title: Aspose.Words für .NET-API-Referenz
-description: ViewOptions eigendom. Gibt an ob sich das Dokument im Formularentwurfsmodus befindet.
+linktitle: FormsDesign
+articleTitle: FormsDesign
+second_title: Aspose.Words für .NET
+description: ViewOptions FormsDesign eigendom. Gibt an ob sich das Dokument im Formularentwurfsmodus befindet in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.settings/viewoptions/formsdesign/
@@ -14,11 +16,11 @@ Gibt an, ob sich das Dokument im Formularentwurfsmodus befindet.
 public bool FormsDesign { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Funktioniert derzeit nur für Dokumente im WordML-Format.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie der Formularentwurfsmodus aktiviert/deaktiviert wird.
 
@@ -40,7 +42,5 @@ Assert.AreEqual(useFormsDesign,
 ### Siehe auch
 
 * class [ViewOptions](../)
-* namensraum [Aspose.Words.Settings](../../viewoptions/)
+* namensraum [Aspose.Words.Settings](../../../aspose.words.settings/)
 * Montage [Aspose.Words](../../../)
-
-

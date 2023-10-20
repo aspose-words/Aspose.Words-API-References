@@ -1,7 +1,9 @@
 ---
 title: FontSubstitutionSettings.DefaultFontSubstitution
-second_title: Aspose.Words för .NET API Referens
-description: FontSubstitutionSettings fast egendom. Inställningar relaterade till standardregel för teckensnittsersättning.
+linktitle: DefaultFontSubstitution
+articleTitle: DefaultFontSubstitution
+second_title: Aspose.Words för .NET
+description: FontSubstitutionSettings DefaultFontSubstitution fast egendom. Inställningar relaterade till standardregel för teckensnittsersättning i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.fonts/fontsubstitutionsettings/defaultfontsubstitution/
@@ -14,7 +16,7 @@ Inställningar relaterade till standardregel för teckensnittsersättning.
 public DefaultFontSubstitutionRule DefaultFontSubstitution { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du ställer in standardregeln för teckensnittsersättning.
 
@@ -47,7 +49,5 @@ doc.Save(ArtifactsDir + "FontSettings.DefaultFontSubstitutionRule.pdf");
 
 * class [DefaultFontSubstitutionRule](../../defaultfontsubstitutionrule/)
 * class [FontSubstitutionSettings](../)
-* namnutrymme [Aspose.Words.Fonts](../../fontsubstitutionsettings/)
+* namnutrymme [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * hopsättning [Aspose.Words](../../../)
-
-

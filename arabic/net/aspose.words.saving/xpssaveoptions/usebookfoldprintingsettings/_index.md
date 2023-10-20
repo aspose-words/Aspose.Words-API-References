@@ -1,7 +1,9 @@
 ---
 title: XpsSaveOptions.UseBookFoldPrintingSettings
-second_title: Aspose.Words لمراجع .NET API
-description: XpsSaveOptions ملكية. الحصول على قيمة منطقية أو تعيينها تشير إلى ما إذا كان يجب حفظ المستند باستخدام تخطيط طباعة الكتيبات إذا تم تحديده عبرMultiplePages .
+linktitle: UseBookFoldPrintingSettings
+articleTitle: UseBookFoldPrintingSettings
+second_title: Aspose.Words لـ .NET
+description: XpsSaveOptions UseBookFoldPrintingSettings ملكية. الحصول على قيمة منطقية أو تعيينها تشير إلى ما إذا كان يجب حفظ المستند باستخدام تخطيط طباعة الكتيبات إذا تم تحديده عبرMultiplePages  في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.saving/xpssaveoptions/usebookfoldprintingsettings/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.saving/xpssaveoptions/usebookfoldprintingsettings/
 public bool UseBookFoldPrintingSettings { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 إذا تم تحديد هذا الخيار،[`PageSet`](../../fixedpagesaveoptions/pageset/) يتم تجاهله عند الحفظ. يتطابق هذا السلوك مع MS Word. إذا لم يتم تحديد إعدادات طباعة طي الكتاب في إعداد الصفحة، فلن يكون لهذا الخيار أي تأثير.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية حفظ مستند بتنسيق XPS على شكل طية كتاب.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "XpsSaveOptions.BookFold.xps", xpsOptions);
 ### أنظر أيضا
 
 * class [XpsSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../xpssaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

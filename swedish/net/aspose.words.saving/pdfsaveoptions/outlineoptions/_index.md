@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.OutlineOptions
-second_title: Aspose.Words för .NET API Referens
-description: PdfSaveOptions fast egendom. Gör det möjligt att ange konturalternativ.
+linktitle: OutlineOptions
+articleTitle: OutlineOptions
+second_title: Aspose.Words för .NET
+description: PdfSaveOptions OutlineOptions fast egendom. Gör det möjligt att ange konturalternativ i C#.
 type: docs
 weight: 240
 url: /sv/net/aspose.words.saving/pdfsaveoptions/outlineoptions/
@@ -14,7 +16,7 @@ Gör det möjligt att ange konturalternativ.
 public OutlineOptions OutlineOptions { get; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Konturer kan skapas från rubriker och bokmärken.
 
@@ -26,7 +28,7 @@ För bokmärken kan dispositionsnivå ställas in i alternativen som ett standar
 
 Konturer kan också exporteras till XPS-format genom att använda samma`OutlineOptions` klass.
 
-### Exempel
+## Exempel
 
 Visar hur man begränsar rubrikernas nivå som kommer att visas i konturerna av ett sparat PDF-dokument.
 
@@ -107,7 +109,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.CreateMissingOutlineLevels.pdf", saveOpt
 
 * class [OutlineOptions](../../outlineoptions/)
 * class [PdfSaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../pdfsaveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

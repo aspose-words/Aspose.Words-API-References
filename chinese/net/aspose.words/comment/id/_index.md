@@ -1,7 +1,9 @@
 ---
 title: Comment.Id
-second_title: Aspose.Words for .NET API 参考
-description: Comment 财产. 获取评论标识符
+linktitle: Id
+articleTitle: Id
+second_title: 用于 .NET 的 Aspose.Words
+description: Comment Id 财产. 获取评论标识符 在 C#.
 type: docs
 weight: 60
 url: /zh/net/aspose.words/comment/id/
@@ -11,10 +13,10 @@ url: /zh/net/aspose.words/comment/id/
 获取评论标识符。
 
 ```csharp
-public int Id { get; set; }
+public int Id { get; }
 ```
 
-### 评论
+## 评论
 
 注释标识符允许将注释锚定到文档中的文本区域。 该区域必须使用[`CommentRangeStart`](../../commentrangestart/)和[`CommentRangeEnd`](../../commentrangeend/) 对象与 共享相同的标识符值[`Comment`](../)目的。
 
@@ -22,7 +24,7 @@ public int Id { get; set; }
 
 注释标识符在整个文档中应该是唯一的，Aspose.Words 在加载、保存和组合文档时自动 维护注释标识符。
 
-### 例子
+## 例子
 
 展示如何使用文档访问者打印所有注释的内容及其注释范围。
 
@@ -183,7 +185,5 @@ public class CommentInfoPrinter : DocumentVisitor
 ### 也可以看看
 
 * class [Comment](../)
-* 命名空间 [Aspose.Words](../../comment/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

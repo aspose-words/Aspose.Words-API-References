@@ -1,7 +1,9 @@
 ---
 title: WarningInfo.WarningType
-second_title: Aspose.Words for .NET API 参考
-description: WarningInfo 财产. 返回警告的类型
+linktitle: WarningType
+articleTitle: WarningType
+second_title: 用于 .NET 的 Aspose.Words
+description: WarningInfo WarningType 财产. 返回警告的类型 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words/warninginfo/warningtype/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/warninginfo/warningtype/
 public WarningType WarningType { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何设置属性以从可用字体源中查找缺失字体的最接近匹配项。
 
@@ -75,7 +77,5 @@ public class HandleDocumentSubstitutionWarnings : IWarningCallback
 
 * enum [WarningType](../../warningtype/)
 * class [WarningInfo](../)
-* 命名空间 [Aspose.Words](../../warninginfo/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

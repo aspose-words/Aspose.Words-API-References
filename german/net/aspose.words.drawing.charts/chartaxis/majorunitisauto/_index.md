@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.MajorUnitIsAuto
-second_title: Aspose.Words für .NET-API-Referenz
-description: ChartAxis eigendom. Ruft ein Flag ab oder setzt es das angibt ob der Standardabstand zwischen den Hauptteilstrichen verwendet werden soll.
+linktitle: MajorUnitIsAuto
+articleTitle: MajorUnitIsAuto
+second_title: Aspose.Words für .NET
+description: ChartAxis MajorUnitIsAuto eigendom. Ruft ein Flag ab oder setzt es das angibt ob der Standardabstand zwischen den Hauptteilstrichen verwendet werden soll in C#.
 type: docs
 weight: 130
 url: /de/net/aspose.words.drawing.charts/chartaxis/majorunitisauto/
@@ -14,11 +16,11 @@ Ruft ein Flag ab oder setzt es, das angibt, ob der Standardabstand zwischen den 
 public bool MajorUnitIsAuto { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Die Eigenschaft wirkt sich auf Zeitkategorie und Werteachsen aus.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Teilstriche und angezeigten Werte einer Diagrammachse manipuliert werden.
 
@@ -76,7 +78,5 @@ doc.Save(ArtifactsDir + "Charts.AxisDisplayUnit.docx");
 ### Siehe auch
 
 * class [ChartAxis](../)
-* namensraum [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* namensraum [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../../)
-
-

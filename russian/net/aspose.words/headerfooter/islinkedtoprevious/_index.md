@@ -1,7 +1,9 @@
 ---
 title: HeaderFooter.IsLinkedToPrevious
-second_title: Справочник по API Aspose.Words для .NET
-description: HeaderFooter свойство. Истинно если этот верхний или нижний колонтитул связан с соответствующим верхним или нижним колонтитулом в предыдущем разделе.
+linktitle: IsLinkedToPrevious
+articleTitle: IsLinkedToPrevious
+second_title: Aspose.Words для .NET
+description: HeaderFooter IsLinkedToPrevious свойство. Истинно если этот верхний или нижний колонтитул связан с соответствующим верхним или нижним колонтитулом в предыдущем разделе на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words/headerfooter/islinkedtoprevious/
@@ -14,13 +16,13 @@ url: /ru/net/aspose.words/headerfooter/islinkedtoprevious/
 public bool IsLinkedToPrevious { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 По умолчанию`истинный`.
 
 Обратите внимание: когда ваша ссылка находится в верхнем или нижнем колонтитуле, ее содержимое очищается.
 
-### Примеры
+## Примеры
 
 Показывает, как связать верхние и нижние колонтитулы между разделами.
 
@@ -85,7 +87,5 @@ doc.Save(ArtifactsDir + "HeaderFooter.Link.docx");
 ### Смотрите также
 
 * class [HeaderFooter](../)
-* пространство имен [Aspose.Words](../../headerfooter/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

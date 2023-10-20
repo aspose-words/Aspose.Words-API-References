@@ -1,7 +1,9 @@
 ---
 title: EditableRangeEnd.EditableRangeStart
-second_title: Aspose.Words för .NET API Referens
-description: EditableRangeEnd fast egendom. MotsvarandeEditableRangeStart  mottagen av ID.
+linktitle: EditableRangeStart
+articleTitle: EditableRangeStart
+second_title: Aspose.Words för .NET
+description: EditableRangeEnd EditableRangeStart fast egendom. MotsvarandeEditableRangeStart  mottagen av ID i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words/editablerangeend/editablerangestart/
@@ -14,7 +16,7 @@ Motsvarande[`EditableRangeStart`](../../editablerangestart/) , mottagen av ID.
 public EditableRangeStart EditableRangeStart { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med ett redigerbart område.
 
@@ -61,7 +63,5 @@ editableRange.Remove();
 
 * class [EditableRangeStart](../../editablerangestart/)
 * class [EditableRangeEnd](../)
-* namnutrymme [Aspose.Words](../../editablerangeend/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

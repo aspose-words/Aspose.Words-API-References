@@ -1,7 +1,9 @@
 ---
 title: Forms2OleControl.Value
-second_title: Aspose.Words for .NET API 参考
-description: Forms2OleControl 财产. 获取通常表示控件状态的基础 Value 属性 例如选中的选项按钮具有1值而未选中的值为0 默认值为空字符串
+linktitle: Value
+articleTitle: Value
+second_title: 用于 .NET 的 Aspose.Words
+description: Forms2OleControl Value 财产. 获取通常表示控件状态的基础 Value 属性 例如选中的选项按钮具有1值而未选中的值为0 默认值为空字符串 在 C#.
 type: docs
 weight: 60
 url: /zh/net/aspose.words.drawing.ole/forms2olecontrol/value/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.drawing.ole/forms2olecontrol/value/
 public string Value { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何验证 ActiveX 控件的属性。
 
@@ -44,7 +46,5 @@ if (oleControl.IsForms2OleControl)
 ### 也可以看看
 
 * class [Forms2OleControl](../)
-* 命名空间 [Aspose.Words.Drawing.Ole](../../forms2olecontrol/)
+* 命名空间 [Aspose.Words.Drawing.Ole](../../../aspose.words.drawing.ole/)
 * 部件 [Aspose.Words](../../../)
-
-

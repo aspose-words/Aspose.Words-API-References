@@ -1,7 +1,9 @@
 ---
 title: PageSetup.OtherPagesTray
-second_title: Aspose.Words per .NET API Reference
-description: PageSetup proprietà. Ottiene o imposta il vassoio della carta scomparto da utilizzare per tutte le pagine tranne la prima di una sezione. Il valore è specifico dellimplementazione stampante.
+linktitle: OtherPagesTray
+articleTitle: OtherPagesTray
+second_title: Aspose.Words per .NET
+description: PageSetup OtherPagesTray proprietà. Ottiene o imposta il vassoio della carta scomparto da utilizzare per tutte le pagine tranne la prima di una sezione. Il valore è specifico dellimplementazione stampante in C#.
 type: docs
 weight: 300
 url: /it/net/aspose.words/pagesetup/otherpagestray/
@@ -14,7 +16,7 @@ Ottiene o imposta il vassoio della carta (scomparto) da utilizzare per tutte le 
 public int OtherPagesTray { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come fare in modo che tutte le sezioni di un documento utilizzino il vassoio carta predefinito della stampante selezionata.
 
@@ -70,7 +72,5 @@ foreach (Section section in doc.Sections.OfType<Section>())
 ### Guarda anche
 
 * class [PageSetup](../)
-* spazio dei nomi [Aspose.Words](../../pagesetup/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

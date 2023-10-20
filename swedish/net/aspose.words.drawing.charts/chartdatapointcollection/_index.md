@@ -1,7 +1,9 @@
 ---
-title: Class ChartDataPointCollection
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Drawing.Charts.ChartDataPointCollection klass. Representerar en samling av enChartDataPoint .
+title: ChartDataPointCollection Class
+linktitle: ChartDataPointCollection
+articleTitle: ChartDataPointCollection
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Drawing.Charts.ChartDataPointCollection klass. Representerar en samling av enChartDataPoint  i C#.
 type: docs
 weight: 700
 url: /sv/net/aspose.words.drawing.charts/chartdatapointcollection/
@@ -28,11 +30,9 @@ public class ChartDataPointCollection : IEnumerable<ChartDataPoint>
 | namn | Beskrivning |
 | --- | --- |
 | [ClearFormat](../../aspose.words.drawing.charts/chartdatapointcollection/clearformat/)() | Rensar alla format[`ChartDataPoint`](../chartdatapoint/) i den här samlingen. |
-| [CopyFormat](../../aspose.words.drawing.charts/chartdatapointcollection/copyformat/)(int, int) |  |
 | [GetEnumerator](../../aspose.words.drawing.charts/chartdatapointcollection/getenumerator/)() | Returnerar ett uppräkningsobjekt. |
-| [HasDefaultFormat](../../aspose.words.drawing.charts/chartdatapointcollection/hasdefaultformat/)(int) |  |
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med datapunkter på ett linjediagram.
 
@@ -96,5 +96,3 @@ private static void ApplyDataPoints(ChartSeries series, int dataPointsCount, Mar
 * class [ChartDataPoint](../chartdatapoint/)
 * namnutrymme [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../)
-
-

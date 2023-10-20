@@ -1,7 +1,9 @@
 ---
 title: CustomPartCollection.Add
-second_title: Aspose.Words för .NET API Referens
-description: CustomPartCollection metod. Lägger till ett föremål i samlingen.
+linktitle: Add
+articleTitle: Add
+second_title: Aspose.Words för .NET
+description: CustomPartCollection Add metod. Lägger till ett föremål i samlingen i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.markup/custompartcollection/add/
@@ -18,7 +20,7 @@ public void Add(CustomPart part)
 | --- | --- | --- |
 | part | CustomPart | Objektet att lägga till. |
 
-### Exempel
+## Exempel
 
 Visar hur man kommer åt ett dokuments godtyckliga anpassade delarsamling.
 
@@ -63,7 +65,5 @@ Assert.AreEqual(0, doc.PackageCustomParts.Count);
 
 * class [CustomPart](../../custompart/)
 * class [CustomPartCollection](../)
-* namnutrymme [Aspose.Words.Markup](../../custompartcollection/)
+* namnutrymme [Aspose.Words.Markup](../../../aspose.words.markup/)
 * hopsättning [Aspose.Words](../../../)
-
-

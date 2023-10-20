@@ -1,7 +1,9 @@
 ---
 title: OutlineOptions.DefaultBookmarksOutlineLevel
-second_title: Справочник по API Aspose.Words для .NET
-description: OutlineOptions свойство. Указывает уровень по умолчанию в структуре документа на котором отображаются закладки Word.
+linktitle: DefaultBookmarksOutlineLevel
+articleTitle: DefaultBookmarksOutlineLevel
+second_title: Aspose.Words для .NET
+description: OutlineOptions DefaultBookmarksOutlineLevel свойство. Указывает уровень по умолчанию в структуре документа на котором отображаются закладки Word на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.saving/outlineoptions/defaultbookmarksoutlinelevel/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.saving/outlineoptions/defaultbookmarksoutlinelevel/
 public int DefaultBookmarksOutlineLevel { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Уровень отдельных закладок можно указать с помощью[`BookmarksOutlineLevels`](../bookmarksoutlinelevels/) свойство.
 
@@ -22,7 +24,7 @@ public int DefaultBookmarksOutlineLevel { get; set; }
 
 По умолчанию — 0. Допустимый диапазон — от 0 до 9.
 
-### Примеры
+## Примеры
 
 Показывает обработку закладок в верхних и нижних колонтитулах документа, который мы преобразуем в PDF.
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.HeaderFooterBookmarksExportMode.pdf", sa
 ### Смотрите также
 
 * class [OutlineOptions](../)
-* пространство имен [Aspose.Words.Saving](../../outlineoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: BasicTextShaperCache.Dispose
-second_title: Referencia de API de Aspose.Words para .NET
-description: BasicTextShaperCache método. Elimina almacenado en cachéITextShaper instancias.
+linktitle: Dispose
+articleTitle: Dispose
+second_title: Aspose.Words para .NET
+description: BasicTextShaperCache Dispose método. Elimina almacenado en cachéITextShaper instancias en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words.shaping/basictextshapercache/dispose/
@@ -17,7 +19,5 @@ public void Dispose()
 ### Ver también
 
 * class [BasicTextShaperCache](../)
-* espacio de nombres [Aspose.Words.Shaping](../../basictextshapercache/)
+* espacio de nombres [Aspose.Words.Shaping](../../../aspose.words.shaping/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: IChartDataPoint.Marker
-second_title: Aspose.Words für .NET-API-Referenz
-description: IChartDataPoint eigendom. Gibt einen Datenmarker an. Marker wird bei Anforderung automatisch erstellt.
+linktitle: Marker
+articleTitle: Marker
+second_title: Aspose.Words für .NET
+description: IChartDataPoint Marker eigendom. Gibt einen Datenmarker an. Marker wird bei Anforderung automatisch erstellt in C#.
 type: docs
 weight: 40
 url: /de/net/aspose.words.drawing.charts/ichartdatapoint/marker/
@@ -14,7 +16,7 @@ Gibt einen Datenmarker an. Marker wird bei Anforderung automatisch erstellt.
 public ChartMarker Marker { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit Datenpunkten in einem Liniendiagramm gearbeitet wird.
 
@@ -77,7 +79,5 @@ private static void ApplyDataPoints(ChartSeries series, int dataPointsCount, Mar
 
 * class [ChartMarker](../../chartmarker/)
 * interface [IChartDataPoint](../)
-* namensraum [Aspose.Words.Drawing.Charts](../../ichartdatapoint/)
+* namensraum [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../../)
-
-

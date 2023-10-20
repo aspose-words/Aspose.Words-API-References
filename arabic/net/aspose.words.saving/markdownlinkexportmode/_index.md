@@ -1,7 +1,9 @@
 ---
-title: Enum MarkdownLinkExportMode
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Saving.MarkdownLinkExportMode تعداد. طريقة تصدير الروابط إلى مستند مستهدف.
+title: MarkdownLinkExportMode Enum
+linktitle: MarkdownLinkExportMode
+articleTitle: MarkdownLinkExportMode
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Saving.MarkdownLinkExportMode تعداد. طريقة تصدير الروابط إلى مستند مستهدف في C#.
 type: docs
 weight: 5260
 url: /ar/net/aspose.words.saving/markdownlinkexportmode/
@@ -26,5 +28,3 @@ public enum MarkdownLinkExportMode
 
 * مساحة الاسم [Aspose.Words.Saving](../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../)
-
-

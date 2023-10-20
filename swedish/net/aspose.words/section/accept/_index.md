@@ -1,7 +1,9 @@
 ---
 title: Section.Accept
-second_title: Aspose.Words för .NET API Referens
-description: Section metod. Accepterar en besökare.
+linktitle: Accept
+articleTitle: Accept
+second_title: Aspose.Words för .NET
+description: Section Accept metod. Accepterar en besökare i C#.
 type: docs
 weight: 70
 url: /sv/net/aspose.words/section/accept/
@@ -22,7 +24,7 @@ public override bool Accept(DocumentVisitor visitor)
 
 Sant om alla noder besöktes; falskt om[`DocumentVisitor`](../../documentvisitor/) stoppade operationen innan du besökte alla noder.
 
-### Anmärkningar
+## Anmärkningar
 
 Räknar upp denna nod och alla dess barn. Varje nod anropar en motsvarande metod[`DocumentVisitor`](../../documentvisitor/).
 
@@ -34,7 +36,5 @@ Samtal[`VisitSectionStart`](../../documentvisitor/visitsectionstart/) , sedan ri
 
 * class [DocumentVisitor](../../documentvisitor/)
 * class [Section](../)
-* namnutrymme [Aspose.Words](../../section/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

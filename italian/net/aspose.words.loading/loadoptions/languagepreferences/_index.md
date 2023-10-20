@@ -1,7 +1,9 @@
 ---
 title: LoadOptions.LanguagePreferences
-second_title: Aspose.Words per .NET API Reference
-description: LoadOptions proprietà. Ottiene le preferenze della lingua che verranno utilizzate durante il caricamento del documento.
+linktitle: LanguagePreferences
+articleTitle: LanguagePreferences
+second_title: Aspose.Words per .NET
+description: LoadOptions LanguagePreferences proprietà. Ottiene le preferenze della lingua che verranno utilizzate durante il caricamento del documento in C#.
 type: docs
 weight: 80
 url: /it/net/aspose.words.loading/loadoptions/languagepreferences/
@@ -14,7 +16,7 @@ Ottiene le preferenze della lingua che verranno utilizzate durante il caricament
 public LanguagePreferences LanguagePreferences { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come applicare le preferenze della lingua durante il caricamento di un documento.
 
@@ -34,7 +36,5 @@ Console.WriteLine(localeIdFarEast == (int)EditingLanguage.Japanese
 
 * class [LanguagePreferences](../../languagepreferences/)
 * class [LoadOptions](../)
-* spazio dei nomi [Aspose.Words.Loading](../../loadoptions/)
+* spazio dei nomi [Aspose.Words.Loading](../../../aspose.words.loading/)
 * assemblea [Aspose.Words](../../../)
-
-

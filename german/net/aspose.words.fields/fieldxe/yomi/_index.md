@@ -1,7 +1,9 @@
 ---
 title: FieldXE.Yomi
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldXE eigendom. Ruft das Yomi erstes phonetisches Zeichen zum Sortieren von Indizes für den Indexeintrag ab oder legt es fest
+linktitle: Yomi
+articleTitle: Yomi
+second_title: Aspose.Words für .NET
+description: FieldXE Yomi eigendom. Ruft das Yomi erstes phonetisches Zeichen zum Sortieren von Indizes für den Indexeintrag ab oder legt es fest in C#.
 type: docs
 weight: 80
 url: /de/net/aspose.words.fields/fieldxe/yomi/
@@ -14,7 +16,7 @@ Ruft das Yomi (erstes phonetisches Zeichen zum Sortieren von Indizes) für den I
 public string Yomi { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie INDEX-Feldeinträge phonetisch sortiert werden.
 
@@ -73,7 +75,5 @@ doc.Save(ArtifactsDir + "Field.INDEX.XE.Yomi.docx");
 ### Siehe auch
 
 * class [FieldXE](../)
-* namensraum [Aspose.Words.Fields](../../fieldxe/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

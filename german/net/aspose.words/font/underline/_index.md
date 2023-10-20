@@ -1,7 +1,9 @@
 ---
 title: Font.Underline
-second_title: Aspose.Words für .NET-API-Referenz
-description: Font eigendom. Ruft den Typ der auf die Schriftart angewendeten Unterstreichung ab oder legt diesen fest.
+linktitle: Underline
+articleTitle: Underline
+second_title: Aspose.Words für .NET
+description: Font Underline eigendom. Ruft den Typ der auf die Schriftart angewendeten Unterstreichung ab oder legt diesen fest in C#.
 type: docs
 weight: 530
 url: /de/net/aspose.words/font/underline/
@@ -14,7 +16,7 @@ Ruft den Typ der auf die Schriftart angewendeten Unterstreichung ab oder legt di
 public Underline Underline { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie den Stil und die Farbe einer Textunterstreichung konfigurieren.
 
@@ -71,7 +73,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertHyperlink.docx");
 
 * enum [Underline](../../underline/)
 * class [Font](../)
-* namensraum [Aspose.Words](../../font/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,14 +1,16 @@
 ---
-title: Class CertificateHolder
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.DigitalSignatures.CertificateHolder сорт. Обозначает владельца X509Сертификат2 экземпляр.
+title: CertificateHolder Class
+linktitle: CertificateHolder
+articleTitle: CertificateHolder
+second_title: Aspose.Words для .NET
+description: Aspose.Words.DigitalSignatures.CertificateHolder сорт. Обозначает владельцаX509Сертификат2 экземпляр на С#.
 type: docs
 weight: 370
 url: /ru/net/aspose.words.digitalsignatures/certificateholder/
 ---
 ## CertificateHolder class
 
-Обозначает владельца **X509Сертификат2** экземпляр.
+Обозначает владельца**X509Сертификат2** экземпляр.
 
 Чтобы узнать больше, посетите[Работа с цифровыми подписями](https://docs.aspose.com/words/net/working-with-digital-signatures/) статья документации.
 
@@ -20,22 +22,22 @@ public class CertificateHolder
 
 | Имя | Описание |
 | --- | --- |
-| [Certificate](../../aspose.words.digitalsignatures/certificateholder/certificate/) { get; } | Возвращает экземпляр **X509Сертификат2** который содержит частные, открытые ключи и цепочку сертификатов. |
+| [Certificate](../../aspose.words.digitalsignatures/certificateholder/certificate/) { get; } | Возвращает экземпляр**X509Сертификат2** который содержит частные, открытые ключи и цепочку сертификатов. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| static [Create](../../aspose.words.digitalsignatures/certificateholder/create/#create)(byte[], SecureString) | Создает`CertificateHolder` объект, использующий массив байтов хранилища PKCS12 и его пароль. |
-| static [Create](../../aspose.words.digitalsignatures/certificateholder/create/#create_1)(byte[], string) | Создает`CertificateHolder` объект, использующий массив байтов хранилища PKCS12 и его пароль. |
-| static [Create](../../aspose.words.digitalsignatures/certificateholder/create/#create_2)(string, string) | Создает`CertificateHolder` объект, используя путь к хранилищу PKCS12 и его пароль. |
-| static [Create](../../aspose.words.digitalsignatures/certificateholder/create/#create_3)(string, string, string) | Создает`CertificateHolder` объект, используя путь к хранилищу PKCS12, его пароль и псевдоним, по которому будут найдены закрытый ключ и сертификат. |
+| static [Create](../../aspose.words.digitalsignatures/certificateholder/create/#create)(*byte[], SecureString*) | Создает`CertificateHolder` объект, использующий массив байтов хранилища PKCS12 и его пароль. |
+| static [Create](../../aspose.words.digitalsignatures/certificateholder/create/#create_1)(*byte[], string*) | Создает`CertificateHolder` объект, использующий массив байтов хранилища PKCS12 и его пароль. |
+| static [Create](../../aspose.words.digitalsignatures/certificateholder/create/#create_2)(*string, string*) | Создает`CertificateHolder` объект, используя путь к хранилищу PKCS12 и его пароль. |
+| static [Create](../../aspose.words.digitalsignatures/certificateholder/create/#create_3)(*string, string, string*) | Создает`CertificateHolder` объект, используя путь к хранилищу PKCS12, его пароль и псевдоним, по которому будут найдены закрытый ключ и сертификат. |
 
-### Примечания
+## Примечания
 
-`CertificateHolder` может быть создан только статическими фабричными методами. Он содержит экземпляр **X509Сертификат2** который используется для введения в систему частных, открытых ключей и цепочек сертификатов. Этот класс применяется в[`DigitalSignatureUtil`](../digitalsignatureutil/) и[`PdfDigitalSignatureDetails`](../../aspose.words.saving/pdfdigitalsignaturedetails/) вместо устаревших методов с X509Certificate2 в качестве параметров.
+`CertificateHolder` может быть создан только статическими фабричными методами. Он содержит экземпляр**X509Сертификат2** который используется для введения в систему частных, открытых ключей и цепочек сертификатов. Этот класс применяется в[`DigitalSignatureUtil`](../digitalsignatureutil/) и[`PdfDigitalSignatureDetails`](../../aspose.words.saving/pdfdigitalsignaturedetails/) вместо устаревших методов с X509Certificate2 в качестве параметров.
 
-### Примеры
+## Примеры
 
 Показывает, как подписать зашифрованный файл документа.
 
@@ -197,5 +199,3 @@ using (Stream streamIn = new FileStream(MyDir + "Document.docx", FileMode.Open))
 
 * пространство имен [Aspose.Words.DigitalSignatures](../../aspose.words.digitalsignatures/)
 * сборка [Aspose.Words](../../)
-
-

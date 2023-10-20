@@ -1,7 +1,9 @@
 ---
 title: Bookmark.BookmarkEnd
-second_title: Справочник по API Aspose.Words для .NET
-description: Bookmark свойство. Получает узел представляющий конец закладки.
+linktitle: BookmarkEnd
+articleTitle: BookmarkEnd
+second_title: Aspose.Words для .NET
+description: Bookmark BookmarkEnd свойство. Получает узел представляющий конец закладки на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words/bookmark/bookmarkend/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/bookmark/bookmarkend/
 public BookmarkEnd BookmarkEnd { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как добавлять закладки и обновлять их содержимое.
 
@@ -104,7 +106,5 @@ public class BookmarkInfoPrinter : DocumentVisitor
 
 * class [BookmarkEnd](../../bookmarkend/)
 * class [Bookmark](../)
-* пространство имен [Aspose.Words](../../bookmark/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

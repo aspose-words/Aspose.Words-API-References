@@ -1,7 +1,9 @@
 ---
-title: Class FieldOptions
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Fields.FieldOptions فصل. يمثل خيارات للتحكم في المعالجة الميدانية في المستند.
+title: FieldOptions Class
+linktitle: FieldOptions
+articleTitle: FieldOptions
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Fields.FieldOptions فصل. يمثل خيارات للتحكم في المعالجة الميدانية في المستند في C#.
 type: docs
 weight: 2250
 url: /ar/net/aspose.words.fields/fieldoptions/
@@ -43,7 +45,7 @@ public sealed class FieldOptions
 | [UseInvariantCultureNumberFormat](../../aspose.words.fields/fieldoptions/useinvariantculturenumberformat/) { get; set; } | الحصول على أو تعيين القيمة التي تشير إلى أنه تم تحليل تنسيق الأرقام باستخدام الثقافة الثابتة أو not |
 | [UserPromptRespondent](../../aspose.words.fields/fieldoptions/userpromptrespondent/) { get; set; } | الحصول على المستجيب أو تعيينه لمطالبات المستخدم أثناء التحديث الميداني. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحديد مصدر الثقافة المستخدمة لتنسيق التاريخ أثناء تحديث الحقل أو دمج المراسلات.
 
@@ -79,5 +81,3 @@ Thread.CurrentThread.CurrentCulture = currentCulture;
 
 * مساحة الاسم [Aspose.Words.Fields](../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../)
-
-

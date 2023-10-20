@@ -1,7 +1,9 @@
 ---
 title: Document.PageCount
-second_title: Aspose.Words för .NET API Referens
-description: Document fast egendom. Hämtar antalet sidor i dokumentet som beräknats av den senaste sidlayoutoperationen.
+linktitle: PageCount
+articleTitle: PageCount
+second_title: Aspose.Words för .NET
+description: Document PageCount fast egendom. Hämtar antalet sidor i dokumentet som beräknats av den senaste sidlayoutoperationen i C#.
 type: docs
 weight: 320
 url: /sv/net/aspose.words/document/pagecount/
@@ -14,7 +16,7 @@ Hämtar antalet sidor i dokumentet som beräknats av den senaste sidlayoutoperat
 public int PageCount { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man räknar antalet sidor i dokumentet.
 
@@ -41,7 +43,5 @@ doc.Save(ArtifactsDir + "Document.GetPageCount.pdf");
 
 * method [UpdatePageLayout](../updatepagelayout/)
 * class [Document](../)
-* namnutrymme [Aspose.Words](../../document/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

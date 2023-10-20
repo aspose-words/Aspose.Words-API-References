@@ -1,7 +1,9 @@
 ---
-title: Class FieldMergingArgsBase
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.MailMerging.FieldMergingArgsBase klass. Basklass förFieldMergingArgs ochImageFieldMergingArgs .
+title: FieldMergingArgsBase Class
+linktitle: FieldMergingArgsBase
+articleTitle: FieldMergingArgsBase
+second_title: Aspose.Words för .NET
+description: Aspose.Words.MailMerging.FieldMergingArgsBase klass. Basklass förFieldMergingArgs ochImageFieldMergingArgs  i C#.
 type: docs
 weight: 3780
 url: /sv/net/aspose.words.mailmerging/fieldmergingargsbase/
@@ -28,7 +30,7 @@ public abstract class FieldMergingArgsBase
 | [RecordIndex](../../aspose.words.mailmerging/fieldmergingargsbase/recordindex/) { get; } | Hämtar det nollbaserade indexet för posten som slås samman. |
 | [TableName](../../aspose.words.mailmerging/fieldmergingargsbase/tablename/) { get; } | Hämtar namnet på datatabellen för den aktuella sammanslagningsoperationen eller tom sträng om namnet inte är tillgängligt. |
 
-### Exempel
+## Exempel
 
 Visar hur man utför en sammankoppling med en anpassad återuppringning som hanterar sammanslagningsdata i form av HTML-dokument.
 
@@ -97,5 +99,3 @@ private class HandleMergeFieldInsertHtml : IFieldMergingCallback
 
 * namnutrymme [Aspose.Words.MailMerging](../../aspose.words.mailmerging/)
 * hopsättning [Aspose.Words](../../)
-
-

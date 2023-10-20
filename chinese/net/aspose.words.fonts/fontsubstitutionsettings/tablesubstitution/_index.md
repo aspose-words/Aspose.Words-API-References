@@ -1,7 +1,9 @@
 ---
 title: FontSubstitutionSettings.TableSubstitution
-second_title: Aspose.Words for .NET API 参考
-description: FontSubstitutionSettings 财产. 与表替换规则相关的设置
+linktitle: TableSubstitution
+articleTitle: TableSubstitution
+second_title: 用于 .NET 的 Aspose.Words
+description: FontSubstitutionSettings TableSubstitution 财产. 与表替换规则相关的设置 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words.fonts/fontsubstitutionsettings/tablesubstitution/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fonts/fontsubstitutionsettings/tablesubstitution/
 public TableSubstitutionRule TableSubstitution { get; }
 ```
 
-### 例子
+## 例子
 
 展示如何使用自定义字体替换表。
 
@@ -76,7 +78,5 @@ doc.Save(ArtifactsDir + "FontSettings.TableSubstitutionRule.Custom.pdf");
 
 * class [TableSubstitutionRule](../../tablesubstitutionrule/)
 * class [FontSubstitutionSettings](../)
-* 命名空间 [Aspose.Words.Fonts](../../fontsubstitutionsettings/)
+* 命名空间 [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * 部件 [Aspose.Words](../../../)
-
-

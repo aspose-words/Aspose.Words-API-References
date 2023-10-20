@@ -1,7 +1,9 @@
 ---
-title: FieldIndex.FieldIndex
-second_title: Aspose.Words لمراجع .NET API
-description: FieldIndex البناء. Default_Constructor
+title: FieldIndex
+linktitle: FieldIndex
+articleTitle: FieldIndex
+second_title: Aspose.Words لـ .NET
+description: FieldIndex البناء. Default_Constructor في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fields/fieldindex/fieldindex/
@@ -17,7 +19,5 @@ public FieldIndex()
 ### أنظر أيضا
 
 * class [FieldIndex](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldindex/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

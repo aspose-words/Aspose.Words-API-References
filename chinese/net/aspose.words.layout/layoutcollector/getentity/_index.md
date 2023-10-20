@@ -1,7 +1,9 @@
 ---
 title: LayoutCollector.GetEntity
-second_title: Aspose.Words for .NET API 参考
-description: LayoutCollector 方法. 返回一个不透明的位置LayoutEnumerator对应于指定的节点 您可以使用返回值作为参数Current给定枚举的文档being 和节点的文档是相同的.
+linktitle: GetEntity
+articleTitle: GetEntity
+second_title: 用于 .NET 的 Aspose.Words
+description: LayoutCollector GetEntity 方法. 返回一个不透明的位置LayoutEnumerator对应于指定的节点 您可以使用返回值作为参数Current给定枚举的文档being 和节点的文档是相同的 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words.layout/layoutcollector/getentity/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.layout/layoutcollector/getentity/
 public object GetEntity(Node node)
 ```
 
-### 评论
+## 评论
 
 此方法仅适用于[`Paragraph`](../../../aspose.words/paragraph/)节点，以及不可分割的内联节点， 例如[`BookmarkStart`](../../../aspose.words/bookmarkstart/)或者[`Shape`](../../../aspose.words.drawing/shape/)。它不适合[`Run`](../../../aspose.words/run/),[`Cell`](../../../aspose.words.tables/cell/)[`Row`](../../../aspose.words.tables/row/)或者[`Table`](../../../aspose.words.tables/table/)节点以及页眉/页脚内的节点。
 
@@ -24,7 +26,7 @@ public object GetEntity(Node node)
 
 如果您需要导航到[`Cell`](../../../aspose.words.tables/cell/)节点然后你可以移动到[`Paragraph`](../../../aspose.words/paragraph/) 节点在此单元中，然后上升到父实体。同样的方法可以用于[`Row`](../../../aspose.words.tables/row/) 和[`Table`](../../../aspose.words.tables/table/)节点。
 
-### 例子
+## 例子
 
 演示如何查看节点跨越的页面范围。
 
@@ -83,7 +85,5 @@ Assert.AreEqual("¶", layoutEnumerator.Text);
 
 * class [Node](../../../aspose.words/node/)
 * class [LayoutCollector](../)
-* 命名空间 [Aspose.Words.Layout](../../layoutcollector/)
+* 命名空间 [Aspose.Words.Layout](../../../aspose.words.layout/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Border.LineWidth
-second_title: Aspose.Words per .NET API Reference
-description: Border proprietà. Ottiene o imposta la larghezza del bordo in punti.
+linktitle: LineWidth
+articleTitle: LineWidth
+second_title: Aspose.Words per .NET
+description: Border LineWidth proprietà. Ottiene o imposta la larghezza del bordo in punti in C#.
 type: docs
 weight: 50
 url: /it/net/aspose.words/border/linewidth/
@@ -14,11 +16,11 @@ Ottiene o imposta la larghezza del bordo in punti.
 public double LineWidth { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Se imposti una larghezza di linea maggiore di zero quando lo stile di linea è nessuno, lo stile di linea verrà automaticamente modificato in linea singola.
 
-### Esempi
+## Esempi
 
 Mostra come inserire una stringa circondata da un bordo in un documento.
 
@@ -38,7 +40,5 @@ doc.Save(ArtifactsDir + "Border.FontBorder.docx");
 ### Guarda anche
 
 * class [Border](../)
-* spazio dei nomi [Aspose.Words](../../border/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Table.BottomPadding
-second_title: Справочник по API Aspose.Words для .NET
-description: Table свойство. Получает или задает объем пространства в пунктах добавляемого под содержимым ячеек.
+linktitle: BottomPadding
+articleTitle: BottomPadding
+second_title: Aspose.Words для .NET
+description: Table BottomPadding свойство. Получает или задает объем пространства в пунктах добавляемого под содержимым ячеек на С#.
 type: docs
 weight: 90
 url: /ru/net/aspose.words.tables/table/bottompadding/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.tables/table/bottompadding/
 public double BottomPadding { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как настроить заполнение содержимого в таблице.
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.SetRowFormatting.docx");
 ### Смотрите также
 
 * class [Table](../)
-* пространство имен [Aspose.Words.Tables](../../table/)
+* пространство имен [Aspose.Words.Tables](../../../aspose.words.tables/)
 * сборка [Aspose.Words](../../../)
-
-

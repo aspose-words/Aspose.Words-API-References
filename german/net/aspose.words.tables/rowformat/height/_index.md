@@ -1,7 +1,9 @@
 ---
 title: RowFormat.Height
-second_title: Aspose.Words für .NET-API-Referenz
-description: RowFormat eigendom. Ruft die Höhe der Tabellenzeile in Punkten ab oder legt sie fest.
+linktitle: Height
+articleTitle: Height
+second_title: Aspose.Words für .NET
+description: RowFormat Height eigendom. Ruft die Höhe der Tabellenzeile in Punkten ab oder legt sie fest in C#.
 type: docs
 weight: 40
 url: /de/net/aspose.words.tables/rowformat/height/
@@ -14,7 +16,7 @@ Ruft die Höhe der Tabellenzeile in Punkten ab oder legt sie fest.
 public double Height { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Zeilen mit einem Document Builder formatiert werden.
 
@@ -109,7 +111,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.CreateFormattedTable.docx");
 ### Siehe auch
 
 * class [RowFormat](../)
-* namensraum [Aspose.Words.Tables](../../rowformat/)
+* namensraum [Aspose.Words.Tables](../../../aspose.words.tables/)
 * Montage [Aspose.Words](../../../)
-
-

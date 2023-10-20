@@ -1,7 +1,9 @@
 ---
 title: IMailMergeDataSource.MoveNext
-second_title: Référence de l'API Aspose.Words pour .NET
-description: IMailMergeDataSource méthode. Passe à lenregistrement suivant dans la source de données.
+linktitle: MoveNext
+articleTitle: MoveNext
+second_title: Aspose.Words pour .NET
+description: IMailMergeDataSource MoveNext méthode. Passe à lenregistrement suivant dans la source de données en C#.
 type: docs
 weight: 40
 url: /fr/net/aspose.words.mailmerging/imailmergedatasource/movenext/
@@ -18,7 +20,7 @@ public bool MoveNext()
 
 `vrai` s'il est déplacé vers l'enregistrement suivant avec succès ;`FAUX` si atteint la fin de la source de données.
 
-### Exemples
+## Exemples
 
 Montre comment exécuter un publipostage avec une source de données sous la forme d'un objet personnalisé.
 
@@ -132,7 +134,5 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
 ### Voir également
 
 * interface [IMailMergeDataSource](../)
-* espace de noms [Aspose.Words.MailMerging](../../imailmergedatasource/)
+* espace de noms [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * Assemblée [Aspose.Words](../../../)
-
-

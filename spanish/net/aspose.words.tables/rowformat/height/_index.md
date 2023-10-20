@@ -1,7 +1,9 @@
 ---
 title: RowFormat.Height
-second_title: Referencia de API de Aspose.Words para .NET
-description: RowFormat propiedad. Obtiene o establece la altura de la fila de la tabla en puntos.
+linktitle: Height
+articleTitle: Height
+second_title: Aspose.Words para .NET
+description: RowFormat Height propiedad. Obtiene o establece la altura de la fila de la tabla en puntos en C#.
 type: docs
 weight: 40
 url: /es/net/aspose.words.tables/rowformat/height/
@@ -14,7 +16,7 @@ Obtiene o establece la altura de la fila de la tabla en puntos.
 public double Height { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo dar formato a filas con un generador de documentos.
 
@@ -109,7 +111,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.CreateFormattedTable.docx");
 ### Ver también
 
 * class [RowFormat](../)
-* espacio de nombres [Aspose.Words.Tables](../../rowformat/)
+* espacio de nombres [Aspose.Words.Tables](../../../aspose.words.tables/)
 * asamblea [Aspose.Words](../../../)
-
-

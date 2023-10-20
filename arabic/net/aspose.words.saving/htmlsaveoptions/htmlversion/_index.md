@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.HtmlVersion
-second_title: Aspose.Words لمراجع .NET API
-description: HtmlSaveOptions ملكية. يحدد إصدار معيار HTML الذي يجب استخدامه عند حفظ المستند إلى HTML أو MHTML. القيمة الافتراضية هيXhtml .
+linktitle: HtmlVersion
+articleTitle: HtmlVersion
+second_title: Aspose.Words لـ .NET
+description: HtmlSaveOptions HtmlVersion ملكية. يحدد إصدار معيار HTML الذي يجب استخدامه عند حفظ المستند إلى HTML أو MHTML. القيمة الافتراضية هيXhtml  في C#.
 type: docs
 weight: 330
 url: /ar/net/aspose.words.saving/htmlsaveoptions/htmlversion/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.saving/htmlsaveoptions/htmlversion/
 public HtmlVersion HtmlVersion { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية عرض عنوان DOCTYPE عند تحويل المستندات إلى المعيار الانتقالي Xhtml 1.0.
 
@@ -80,7 +82,5 @@ switch (htmlVersion)
 
 * enum [HtmlVersion](../../htmlversion/)
 * class [HtmlSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../htmlsaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

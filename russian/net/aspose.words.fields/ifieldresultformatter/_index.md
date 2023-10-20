@@ -1,7 +1,9 @@
 ---
-title: Interface IFieldResultFormatter
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Fields.IFieldResultFormatter интерфейс. Реализуйте этот интерфейс если хотите контролировать форматирование результата поля.
+title: IFieldResultFormatter Interface
+linktitle: IFieldResultFormatter
+articleTitle: IFieldResultFormatter
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Fields.IFieldResultFormatter интерфейс. Реализуйте этот интерфейс если хотите контролировать форматирование результата поля на С#.
 type: docs
 weight: 2700
 url: /ru/net/aspose.words.fields/ifieldresultformatter/
@@ -18,12 +20,12 @@ public interface IFieldResultFormatter
 
 | Имя | Описание |
 | --- | --- |
-| [Format](../../aspose.words.fields/ifieldresultformatter/format/#format)(double, GeneralFormat) | Вызывается, когда Aspose.Words применяет переключатель числового формата, т.е. \* Ordinal. |
-| [Format](../../aspose.words.fields/ifieldresultformatter/format/#format_1)(string, GeneralFormat) | Вызывается, когда Aspose.Words применяет переключатель формата заглавных букв, т.е. \* Upper. |
-| [FormatDateTime](../../aspose.words.fields/ifieldresultformatter/formatdatetime/)(DateTime, string, CalendarType) | Вызывается, когда Aspose.Words применяет переключатель формата даты/времени, т.е. \@ "dd.MM.yyyy". |
-| [FormatNumeric](../../aspose.words.fields/ifieldresultformatter/formatnumeric/)(double, string) | Вызывается, когда Aspose.Words применяет переключатель числового формата, т.е. \# "#.##". |
+| [Format](../../aspose.words.fields/ifieldresultformatter/format/#format)(*double, [GeneralFormat](../generalformat/)*) | Вызывается, когда Aspose.Words применяет переключатель числового формата, т.е. \* Ordinal. |
+| [Format](../../aspose.words.fields/ifieldresultformatter/format/#format_1)(*string, [GeneralFormat](../generalformat/)*) | Вызывается, когда Aspose.Words применяет переключатель формата заглавных букв, т.е. \* Upper. |
+| [FormatDateTime](../../aspose.words.fields/ifieldresultformatter/formatdatetime/)(*DateTime, string, [CalendarType](../../aspose.words/calendartype/)*) | Вызывается, когда Aspose.Words применяет переключатель формата даты/времени, т.е. \@ "dd.MM.yyyy". |
+| [FormatNumeric](../../aspose.words.fields/ifieldresultformatter/formatnumeric/)(*double, string*) | Вызывается, когда Aspose.Words применяет переключатель числового формата, т.е. \# "#.##". |
 
-### Примеры
+## Примеры
 
 Показывает, как автоматически применять пользовательский формат к результатам полей при обновлении полей.
 
@@ -161,5 +163,3 @@ private class FieldResultFormatter : IFieldResultFormatter
 
 * пространство имен [Aspose.Words.Fields](../../aspose.words.fields/)
 * сборка [Aspose.Words](../../)
-
-

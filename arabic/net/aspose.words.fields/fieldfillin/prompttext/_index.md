@@ -1,7 +1,9 @@
 ---
 title: FieldFillIn.PromptText
-second_title: Aspose.Words لمراجع .NET API
-description: FieldFillIn ملكية. الحصول على نص المطالبة أو تعيينه عنوان نافذة المطالبة.
+linktitle: PromptText
+articleTitle: PromptText
+second_title: Aspose.Words لـ .NET
+description: FieldFillIn PromptText ملكية. الحصول على نص المطالبة أو تعيينه عنوان نافذة المطالبة في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.fields/fieldfillin/prompttext/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldfillin/prompttext/
 public string PromptText { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام حقل FILLIN لمطالبة المستخدم بالرد.
 
@@ -63,7 +65,5 @@ private class PromptRespondent : IFieldUserPromptRespondent
 ### أنظر أيضا
 
 * class [FieldFillIn](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldfillin/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

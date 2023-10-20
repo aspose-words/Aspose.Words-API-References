@@ -1,7 +1,9 @@
 ---
 title: Font.LocaleIdFarEast
-second_title: Aspose.Words för .NET API Referens
-description: Font fast egendom. Hämtar eller ställer in lokalidentifieraren språket för de formaterade asiatiska tecknen.
+linktitle: LocaleIdFarEast
+articleTitle: LocaleIdFarEast
+second_title: Aspose.Words för .NET
+description: Font LocaleIdFarEast fast egendom. Hämtar eller ställer in lokalidentifieraren språket för de formaterade asiatiska tecknen i C#.
 type: docs
 weight: 220
 url: /sv/net/aspose.words/font/localeidfareast/
@@ -14,11 +16,11 @@ Hämtar eller ställer in lokalidentifieraren (språket) för de formaterade asi
 public int LocaleIdFarEast { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 För listan över lokalkoder se https://msdn.microsoft.com/en-us/library/cc233965.aspx
 
-### Exempel
+## Exempel
 
 Visar hur man infogar och formaterar text på ett språk i Fjärran Östern.
 
@@ -49,7 +51,5 @@ doc.Save(ArtifactsDir + "Font.FarEast.docx");
 ### Se även
 
 * class [Font](../)
-* namnutrymme [Aspose.Words](../../font/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

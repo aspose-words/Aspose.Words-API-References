@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.PreserveFormFields
-second_title: Справочник по API Aspose.Words для .NET
-description: PdfSaveOptions свойство. Указывает следует ли сохранять поля формы Microsoft Word как поля формы в PDF или преобразовывать их в текст. Значение по умолчаниюЛОЖЬ .
+linktitle: PreserveFormFields
+articleTitle: PreserveFormFields
+second_title: Aspose.Words для .NET
+description: PdfSaveOptions PreserveFormFields свойство. Указывает следует ли сохранять поля формы Microsoft Word как поля формы в PDF или преобразовывать их в текст. Значение по умолчаниюЛОЖЬ  на С#.
 type: docs
 weight: 270
 url: /ru/net/aspose.words.saving/pdfsaveoptions/preserveformfields/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.saving/pdfsaveoptions/preserveformfields/
 public bool PreserveFormFields { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Поля формы Microsoft Word включают в себя ввод текста, раскрывающийся список и элементы управления флажками.
 
@@ -28,7 +30,7 @@ public bool PreserveFormFields { get; set; }
 
 Поля формы не поддерживаются при сохранении в PDF/UA.`ЛОЖЬ` значение будет использовано автоматически.
 
-### Примеры
+## Примеры
 
 Показывает, как сохранить документ в формате PDF с помощью метода Save и класса PdfSaveOptions.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.PreserveFormFields.pdf", pdfOptions);
 ### Смотрите также
 
 * class [PdfSaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../pdfsaveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,9 +1,11 @@
 ---
 title: CompositeNode.SelectSingleNode
-second_title: Справочник по API Aspose.Words для .NET
-description: CompositeNode метод. Выбирает первыйNode которое соответствует выражению XPath.
+linktitle: SelectSingleNode
+articleTitle: SelectSingleNode
+second_title: Aspose.Words для .NET
+description: CompositeNode SelectSingleNode метод. Выбирает первыйNode которое соответствует выражению XPath на С#.
 type: docs
-weight: 220
+weight: 200
 url: /ru/net/aspose.words/compositenode/selectsinglenode/
 ---
 ## CompositeNode.SelectSingleNode method
@@ -22,11 +24,11 @@ public Node SelectSingleNode(string xpath)
 
 Первый[`Node`](../../node/) который соответствует запросу XPath или`нулевой` если соответствующий узел не найден.
 
-### Примечания
+## Примечания
 
 На данный момент поддерживаются только выражения с именами элементов. Выражения , использующие имена атрибутов, не поддерживаются.
 
-### Примеры
+## Примеры
 
 Показывает, как выбрать определенные узлы с помощью выражения XPath.
 
@@ -60,7 +62,5 @@ Assert.AreEqual(typeof(Paragraph), node.GetType());
 
 * class [Node](../../node/)
 * class [CompositeNode](../)
-* пространство имен [Aspose.Words](../../compositenode/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

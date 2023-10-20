@@ -1,7 +1,9 @@
 ---
-title: Enum EmbeddedFontStyle
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Fonts.EmbeddedFontStyle تعداد. يحدد نمط الخط المضمن داخل ملفFontInfo الكائن.
+title: EmbeddedFontStyle Enum
+linktitle: EmbeddedFontStyle
+articleTitle: EmbeddedFontStyle
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Fonts.EmbeddedFontStyle تعداد. يحدد نمط الخط المضمن داخل ملفFontInfo الكائن في C#.
 type: docs
 weight: 2860
 url: /ar/net/aspose.words.fonts/embeddedfontstyle/
@@ -24,7 +26,7 @@ public enum EmbeddedFontStyle
 | Italic | `2` | يحدد الخط المائل المضمن. |
 | BoldItalic | `3` | يحدد الخط المضمن الغامق والمائل. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخراج خط مضمن من مستند وحفظه في نظام الملفات المحلي.
 
@@ -52,5 +54,3 @@ File.WriteAllBytes(ArtifactsDir + "Alte DIN 1451 Mittelschrift.otf", embeddedFon
 
 * مساحة الاسم [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * المجسم [Aspose.Words](../../)
-
-

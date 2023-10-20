@@ -1,7 +1,9 @@
 ---
 title: Frameset.IsFrameLinkToFile
-second_title: Aspose.Words för .NET API Referens
-description: Frameset fast egendom. Hämtar eller ställer in ett värde som anger om webbsidan eller dokumentfilnamnet som anges i FrameDefaultUrl egenskapen är en extern resurs som ramen är länkad till.
+linktitle: IsFrameLinkToFile
+articleTitle: IsFrameLinkToFile
+second_title: Aspose.Words för .NET
+description: Frameset IsFrameLinkToFile fast egendom. Hämtar eller ställer in ett värde som anger om webbsidan eller dokumentfilnamnet som anges i FrameDefaultUrl egenskapen är en extern resurs som ramen är länkad till i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.framesets/frameset/isframelinktofile/
@@ -14,7 +16,7 @@ Hämtar eller ställer in ett värde som anger om webbsidan eller dokumentfilnam
 public bool IsFrameLinkToFile { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man kommer åt ramar på sidan.
 
@@ -39,7 +41,5 @@ doc.Frameset.ChildFramesets[0].ChildFramesets[0].IsFrameLinkToFile = false;
 ### Se även
 
 * class [Frameset](../)
-* namnutrymme [Aspose.Words.Framesets](../../frameset/)
+* namnutrymme [Aspose.Words.Framesets](../../../aspose.words.framesets/)
 * hopsättning [Aspose.Words](../../../)
-
-

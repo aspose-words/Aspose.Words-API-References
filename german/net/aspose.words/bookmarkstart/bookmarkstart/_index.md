@@ -1,7 +1,9 @@
 ---
-title: BookmarkStart.BookmarkStart
-second_title: Aspose.Words für .NET-API-Referenz
-description: BookmarkStart constructeur. Initialisiert eine neue Instanz vonBookmarkStart Klasse.
+title: BookmarkStart
+linktitle: BookmarkStart
+articleTitle: BookmarkStart
+second_title: Aspose.Words für .NET
+description: BookmarkStart constructeur. Initialisiert eine neue Instanz vonBookmarkStart Klasse in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words/bookmarkstart/bookmarkstart/
@@ -19,7 +21,7 @@ public BookmarkStart(DocumentBase doc, string name)
 | doc | DocumentBase | Das Eigentümerdokument. |
 | name | String | Der Name des Lesezeichens. Kann nicht sein`Null`. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie Lesezeichen hinzufügen und deren Inhalte aktualisieren.
 
@@ -109,7 +111,5 @@ public class BookmarkInfoPrinter : DocumentVisitor
 
 * class [DocumentBase](../../documentbase/)
 * class [BookmarkStart](../)
-* namensraum [Aspose.Words](../../bookmarkstart/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

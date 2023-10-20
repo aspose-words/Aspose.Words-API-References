@@ -1,7 +1,9 @@
 ---
 title: Row.NodeType
-second_title: Aspose.Words لمراجع .NET API
-description: Row ملكية. إرجاعRow .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words لـ .NET
+description: Row NodeType ملكية. إرجاعRow  في C#.
 type: docs
 weight: 80
 url: /ar/net/aspose.words.tables/row/nodetype/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.tables/row/nodetype/
 public override NodeType NodeType { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية اجتياز شجرة العقدة المركبة من العقد الفرعية.
 
@@ -62,7 +64,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 
 * enum [NodeType](../../../aspose.words/nodetype/)
 * class [Row](../)
-* مساحة الاسم [Aspose.Words.Tables](../../row/)
+* مساحة الاسم [Aspose.Words.Tables](../../../aspose.words.tables/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldPageRef.InsertHyperlink
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldPageRef propriété. Obtient ou définit sil faut insérer un lien hypertexte vers le paragraphe marqué dun signet.
+linktitle: InsertHyperlink
+articleTitle: InsertHyperlink
+second_title: Aspose.Words pour .NET
+description: FieldPageRef InsertHyperlink propriété. Obtient ou définit sil faut insérer un lien hypertexte vers le paragraphe marqué dun signet en C#.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.fields/fieldpageref/inserthyperlink/
@@ -14,7 +16,7 @@ Obtient ou définit s'il faut insérer un lien hypertexte vers le paragraphe mar
 public bool InsertHyperlink { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Permet d'insérer des champs PAGEREF pour afficher l'emplacement relatif des signets.
 
@@ -84,7 +86,5 @@ private static void InsertAndNameBookmark(DocumentBuilder builder, string bookma
 ### Voir également
 
 * class [FieldPageRef](../)
-* espace de noms [Aspose.Words.Fields](../../fieldpageref/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

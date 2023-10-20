@@ -1,7 +1,9 @@
 ---
 title: GradientStopCollection.Remove
-second_title: Aspose.Words لمراجع .NET API
-description: GradientStopCollection طريقة. يزيل المحددGradientStop من المجموعة.
+linktitle: Remove
+articleTitle: Remove
+second_title: Aspose.Words لـ .NET
+description: GradientStopCollection Remove طريقة. يزيل المحددGradientStop من المجموعة في C#.
 type: docs
 weight: 60
 url: /ar/net/aspose.words.drawing/gradientstopcollection/remove/
@@ -18,7 +20,7 @@ public bool Remove(GradientStop gradientStop)
 
 `حقيقي` إذا تمت إزالة توقف التدرج بنجاح، وإلا`خطأ شنيع`.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إضافة نقاط توقف متدرجة إلى التعبئة المتدرجة.
 
@@ -72,7 +74,5 @@ doc.Save(ArtifactsDir + "Shape.GradientStops.docx", saveOptions);
 
 * class [GradientStop](../../gradientstop/)
 * class [GradientStopCollection](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../gradientstopcollection/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

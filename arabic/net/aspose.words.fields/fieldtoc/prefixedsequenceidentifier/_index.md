@@ -1,7 +1,9 @@
 ---
 title: FieldToc.PrefixedSequenceIdentifier
-second_title: Aspose.Words لمراجع .NET API
-description: FieldToc ملكية. الحصول على أو تعيين معرف التسلسل الذي يجب إضافة بادئة له إلى رقم صفحة الإدخال.
+linktitle: PrefixedSequenceIdentifier
+articleTitle: PrefixedSequenceIdentifier
+second_title: Aspose.Words لـ .NET
+description: FieldToc PrefixedSequenceIdentifier ملكية. الحصول على أو تعيين معرف التسلسل الذي يجب إضافة بادئة له إلى رقم صفحة الإدخال في C#.
 type: docs
 weight: 120
 url: /ar/net/aspose.words.fields/fieldtoc/prefixedsequenceidentifier/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldtoc/prefixedsequenceidentifier/
 public string PrefixedSequenceIdentifier { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية ملء حقل جدول المحتويات بالإدخالات باستخدام حقول التسلسل.
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "Field.TOC.SEQ.docx");
 ### أنظر أيضا
 
 * class [FieldToc](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldtoc/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

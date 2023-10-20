@@ -1,7 +1,9 @@
 ---
 title: InlineStory.IsMoveToRevision
-second_title: Aspose.Words für .NET-API-Referenz
-description: InlineStory eigendom. Gibt zurückWAHR wenn dieses Objekt in Microsoft Word verschoben eingefügt wurde während die Änderungsverfolgung aktiviert war.
+linktitle: IsMoveToRevision
+articleTitle: IsMoveToRevision
+second_title: Aspose.Words für .NET
+description: InlineStory IsMoveToRevision eigendom. Gibt zurückWAHR wenn dieses Objekt in Microsoft Word verschoben eingefügt wurde während die Änderungsverfolgung aktiviert war in C#.
 type: docs
 weight: 60
 url: /de/net/aspose.words/inlinestory/ismovetorevision/
@@ -14,7 +16,7 @@ Gibt zurück`WAHR` wenn dieses Objekt in Microsoft Word verschoben (eingefügt) 
 public bool IsMoveToRevision { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie revisionsbezogene Eigenschaften von InlineStory-Knoten angezeigt werden.
 
@@ -62,7 +64,5 @@ Assert.IsTrue(footnotes[3].IsDeleteRevision);
 ### Siehe auch
 
 * class [InlineStory](../)
-* namensraum [Aspose.Words](../../inlinestory/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

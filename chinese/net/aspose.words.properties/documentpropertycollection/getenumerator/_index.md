@@ -1,7 +1,9 @@
 ---
 title: DocumentPropertyCollection.GetEnumerator
-second_title: Aspose.Words for .NET API 参考
-description: DocumentPropertyCollection 方法. 返回一个枚举器对象可用于迭代集合中的所有项目
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: 用于 .NET 的 Aspose.Words
+description: DocumentPropertyCollection GetEnumerator 方法. 返回一个枚举器对象可用于迭代集合中的所有项目 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words.properties/documentpropertycollection/getenumerator/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.properties/documentpropertycollection/getenumerator/
 public IEnumerator<DocumentProperty> GetEnumerator()
 ```
 
-### 例子
+## 例子
 
 展示如何使用文档的自定义属性。
 
@@ -75,7 +77,5 @@ Assert.AreEqual(0, properties.Count);
 
 * class [DocumentProperty](../../documentproperty/)
 * class [DocumentPropertyCollection](../)
-* 命名空间 [Aspose.Words.Properties](../../documentpropertycollection/)
+* 命名空间 [Aspose.Words.Properties](../../../aspose.words.properties/)
 * 部件 [Aspose.Words](../../../)
-
-

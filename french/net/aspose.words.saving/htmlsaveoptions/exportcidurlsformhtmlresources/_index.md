@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ExportCidUrlsForMhtmlResources
-second_title: Référence de l'API Aspose.Words pour .NET
-description: HtmlSaveOptions propriété. Spécifie sil faut utiliser les URL CID ContentID pour référencer les ressources images polices CSS incluses dans les documents MHTML . La valeur par défaut estFAUX .
+linktitle: ExportCidUrlsForMhtmlResources
+articleTitle: ExportCidUrlsForMhtmlResources
+second_title: Aspose.Words pour .NET
+description: HtmlSaveOptions ExportCidUrlsForMhtmlResources propriété. Spécifie sil faut utiliser les URL CID ContentID pour référencer les ressources images polices CSS incluses dans les documents MHTML . La valeur par défaut estFAUX  en C#.
 type: docs
 weight: 110
 url: /fr/net/aspose.words.saving/htmlsaveoptions/exportcidurlsformhtmlresources/
@@ -14,7 +16,7 @@ Spécifie s'il faut utiliser les URL CID (Content-ID) pour référencer les ress
 public bool ExportCidUrlsForMhtmlResources { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 Cette option affecte uniquement les documents enregistrés au format MHTML.
 
@@ -24,7 +26,7 @@ Cette option active une méthode alternative, dans laquelle les références aux
 
 En théorie, il ne devrait y avoir aucune différence entre les deux méthodes de référencement et l'une ou l'autre devrait fonctionner correctement dans n'importe quel navigateur ou agent de messagerie. Toutefois, dans la pratique, certains agents ne parviennent pas à récupérer les ressources par nom de fichier. Si votre navigateur ou agent de messagerie refuse de charger les ressources incluses dans un document MTHML (n'affiche pas d'images ou ne charge pas les styles CSS ), essayez d'exporter le document avec les URL CID.
 
-### Exemples
+## Exemples
 
 Montre comment activer les ID de contenu pour les documents MHTML de sortie.
 
@@ -64,7 +66,5 @@ else
 ### Voir également
 
 * class [HtmlSaveOptions](../)
-* espace de noms [Aspose.Words.Saving](../../htmlsaveoptions/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

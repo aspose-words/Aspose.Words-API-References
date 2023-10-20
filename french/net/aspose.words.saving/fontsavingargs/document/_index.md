@@ -1,7 +1,9 @@
 ---
 title: FontSavingArgs.Document
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FontSavingArgs propriété. Obtient lobjet document en cours denregistrement.
+linktitle: Document
+articleTitle: Document
+second_title: Aspose.Words pour .NET
+description: FontSavingArgs Document propriété. Obtient lobjet document en cours denregistrement en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.saving/fontsavingargs/document/
@@ -14,7 +16,7 @@ Obtient l'objet document en cours d'enregistrement.
 public Document Document { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment définir une logique personnalisée pour l’exportation des polices lors de l’enregistrement au format HTML.
 
@@ -75,7 +77,5 @@ public class HandleFontSaving : IFontSavingCallback
 
 * class [Document](../../../aspose.words/document/)
 * class [FontSavingArgs](../)
-* espace de noms [Aspose.Words.Saving](../../fontsavingargs/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

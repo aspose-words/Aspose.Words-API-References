@@ -1,7 +1,9 @@
 ---
-title: Enum BuildingBlockBehavior
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.BuildingBlocks.BuildingBlockBehavior 枚举. 指定将构建块 插入到主文档中时应用于其内容的行为
+title: BuildingBlockBehavior Enum
+linktitle: BuildingBlockBehavior
+articleTitle: BuildingBlockBehavior
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.BuildingBlocks.BuildingBlockBehavior 枚举. 指定将构建块 插入到主文档中时应用于其内容的行为 在 C#.
 type: docs
 weight: 140
 url: /zh/net/aspose.words.buildingblocks/buildingblockbehavior/
@@ -23,11 +25,11 @@ public enum BuildingBlockBehavior
 | Page | `2` | 指定构建块应添加到其自己的页面中。 |
 | Default | `0` | 与相同Content. |
 
-### 评论
+## 评论
 
-对应于 **ST_DocPartBehavior**输入 OOXML。
+对应于**ST_DocPartBehavior**输入 OOXML。
 
-### 例子
+## 例子
 
 演示如何将自定义构建块添加到文档中。
 
@@ -125,5 +127,3 @@ public class BuildingBlockVisitor : DocumentVisitor
 
 * 命名空间 [Aspose.Words.BuildingBlocks](../../aspose.words.buildingblocks/)
 * 部件 [Aspose.Words](../../)
-
-

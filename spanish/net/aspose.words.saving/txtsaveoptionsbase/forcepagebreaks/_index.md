@@ -1,7 +1,9 @@
 ---
 title: TxtSaveOptionsBase.ForcePageBreaks
-second_title: Referencia de API de Aspose.Words para .NET
-description: TxtSaveOptionsBase propiedad. Permite especificar si los saltos de página deben conservarse durante la exportación.
+linktitle: ForcePageBreaks
+articleTitle: ForcePageBreaks
+second_title: Aspose.Words para .NET
+description: TxtSaveOptionsBase ForcePageBreaks propiedad. Permite especificar si los saltos de página deben conservarse durante la exportación en C#.
 type: docs
 weight: 30
 url: /es/net/aspose.words.saving/txtsaveoptionsbase/forcepagebreaks/
@@ -16,11 +18,11 @@ El valor predeterminado es`FALSO`.
 public bool ForcePageBreaks { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 La propiedad afecta sólo a los saltos de página que se insertan explícitamente en un documento. No está relacionado con los saltos de página que MS Word inserta automáticamente al final de cada página.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo especificar si se conservan los saltos de página al exportar un documento a texto sin formato.
 
@@ -56,7 +58,5 @@ Assert.AreEqual(forcePageBreaks ? 3 : 1, doc.PageCount);
 ### Ver también
 
 * class [TxtSaveOptionsBase](../)
-* espacio de nombres [Aspose.Words.Saving](../../txtsaveoptionsbase/)
+* espacio de nombres [Aspose.Words.Saving](../../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../../)
-
-

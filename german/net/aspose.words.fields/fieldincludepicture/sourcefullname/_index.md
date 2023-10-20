@@ -1,7 +1,9 @@
 ---
 title: FieldIncludePicture.SourceFullName
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldIncludePicture eigendom. Ruft den Speicherort des Bildes mithilfe eines IRI ab oder legt diesen fest.
+linktitle: SourceFullName
+articleTitle: SourceFullName
+second_title: Aspose.Words für .NET
+description: FieldIncludePicture SourceFullName eigendom. Ruft den Speicherort des Bildes mithilfe eines IRI ab oder legt diesen fest in C#.
 type: docs
 weight: 60
 url: /de/net/aspose.words.fields/fieldincludepicture/sourcefullname/
@@ -14,7 +16,7 @@ Ruft den Speicherort des Bildes mithilfe eines IRI ab oder legt diesen fest.
 public string SourceFullName { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Bilder mithilfe der Felder IMPORT und INCLUDEPICTURE eingefügt werden.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "Field.IMPORT.INCLUDEPICTURE.docx");
 ### Siehe auch
 
 * class [FieldIncludePicture](../)
-* namensraum [Aspose.Words.Fields](../../fieldincludepicture/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

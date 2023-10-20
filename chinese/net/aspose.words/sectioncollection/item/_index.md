@@ -1,7 +1,9 @@
 ---
 title: SectionCollection.Item
-second_title: Aspose.Words for .NET API 参考
-description: SectionCollection 财产. 检索给定索引处的节
+linktitle: Item
+articleTitle: Item
+second_title: 用于 .NET 的 Aspose.Words
+description: SectionCollection Item 财产. 检索给定索引处的节 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words/sectioncollection/item/
@@ -18,7 +20,7 @@ public Section this[int index] { get; }
 | --- | --- |
 | index | 节列表的索引。 |
 
-### 评论
+## 评论
 
 该索引是从零开始的。
 
@@ -28,7 +30,7 @@ public Section this[int index] { get; }
 
 如果索引为负并且其绝对值大于列表中的项目数，则返回空引用。
 
-### 例子
+## 例子
 
 显示何时重新计算文档的页面布局。
 
@@ -83,7 +85,5 @@ Assert.AreEqual("Hello world!", doc.GetText().Trim());
 
 * class [Section](../../section/)
 * class [SectionCollection](../)
-* 命名空间 [Aspose.Words](../../sectioncollection/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

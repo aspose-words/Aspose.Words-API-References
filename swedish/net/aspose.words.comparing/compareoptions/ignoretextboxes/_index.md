@@ -1,7 +1,9 @@
 ---
 title: CompareOptions.IgnoreTextboxes
-second_title: Aspose.Words för .NET API Referens
-description: CompareOptions fast egendom. Anger om skillnader i data i textrutor ska jämföras. Som standard ignoreras inte textrutor.
+linktitle: IgnoreTextboxes
+articleTitle: IgnoreTextboxes
+second_title: Aspose.Words för .NET
+description: CompareOptions IgnoreTextboxes fast egendom. Anger om skillnader i data i textrutor ska jämföras. Som standard ignoreras inte textrutor i C#.
 type: docs
 weight: 120
 url: /sv/net/aspose.words.comparing/compareoptions/ignoretextboxes/
@@ -14,7 +16,7 @@ Anger om skillnader i data i textrutor ska jämföras. Som standard ignoreras in
 public bool IgnoreTextboxes { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man filtrerar specifika typer av dokumentelement när man gör en jämförelse.
 
@@ -88,7 +90,5 @@ docOriginal.Save(ArtifactsDir + "Document.CompareOptions.docx");
 ### Se även
 
 * class [CompareOptions](../)
-* namnutrymme [Aspose.Words.Comparing](../../compareoptions/)
+* namnutrymme [Aspose.Words.Comparing](../../../aspose.words.comparing/)
 * hopsättning [Aspose.Words](../../../)
-
-

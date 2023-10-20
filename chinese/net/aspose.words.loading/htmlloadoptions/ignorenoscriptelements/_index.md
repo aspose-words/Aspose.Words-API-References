@@ -1,7 +1,9 @@
 ---
 title: HtmlLoadOptions.IgnoreNoscriptElements
-second_title: Aspose.Words for .NET API 参考
-description: HtmlLoadOptions 财产. 获取或设置一个值该值指示是否忽略 noscript HTML 元素 默认值为错误的.
+linktitle: IgnoreNoscriptElements
+articleTitle: IgnoreNoscriptElements
+second_title: 用于 .NET 的 Aspose.Words
+description: HtmlLoadOptions IgnoreNoscriptElements 财产. 获取或设置一个值该值指示是否忽略 noscript HTML 元素 默认值为错误的 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.loading/htmlloadoptions/ignorenoscriptelements/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.loading/htmlloadoptions/ignorenoscriptelements/
 public bool IgnoreNoscriptElements { get; set; }
 ```
 
-### 评论
+## 评论
 
 与 MS Word 一样，Aspose.Words 不支持脚本，默认情况下会将 &lt;noscript&gt; elements 的内容加载到结果文档中。然而，在大多数浏览器中，都支持脚本，并且 &lt;noscript&gt; 中的内容不可见。将此属性设置为`真的`强制 Aspose.Words 忽略所有 &lt;noscript&gt; 元素 ，并有助于生成看起来更接近浏览器中所见内容的文档。
 
-### 例子
+## 例子
 
 演示如何忽略 &lt;noscript&gt; HTML 元素。
 
@@ -47,7 +49,5 @@ doc.Save(ArtifactsDir + "HtmlLoadOptions.IgnoreNoscriptElements.pdf");
 ### 也可以看看
 
 * class [HtmlLoadOptions](../)
-* 命名空间 [Aspose.Words.Loading](../../htmlloadoptions/)
+* 命名空间 [Aspose.Words.Loading](../../../aspose.words.loading/)
 * 部件 [Aspose.Words](../../../)
-
-

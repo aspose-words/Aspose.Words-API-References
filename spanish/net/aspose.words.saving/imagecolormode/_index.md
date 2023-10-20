@@ -1,7 +1,9 @@
 ---
-title: Enum ImageColorMode
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Saving.ImageColorMode enumeración. Especifica el modo de color para las imágenes generadas de las páginas del documento.
+title: ImageColorMode Enum
+linktitle: ImageColorMode
+articleTitle: ImageColorMode
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Saving.ImageColorMode enumeración. Especifica el modo de color para las imágenes generadas de las páginas del documento en C#.
 type: docs
 weight: 5210
 url: /es/net/aspose.words.saving/imagecolormode/
@@ -22,7 +24,7 @@ public enum ImageColorMode
 | Grayscale | `1` | Las páginas del documento se representarán como imágenes en escala de grises. |
 | BlackAndWhite | `2` | Las páginas del documento se representarán como imágenes en blanco y negro. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo configurar un modo de color al renderizar documentos.
 
@@ -82,5 +84,3 @@ Document doc = new Document();
 
 * espacio de nombres [Aspose.Words.Saving](../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../)
-
-

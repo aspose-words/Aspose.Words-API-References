@@ -1,7 +1,9 @@
 ---
 title: FieldPrint.PostScriptGroup
-second_title: Aspose.Words for .NET API 参考
-description: FieldPrint 财产. 获取或设置 PostScript 指令操作的绘图矩形
+linktitle: PostScriptGroup
+articleTitle: PostScriptGroup
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldPrint PostScriptGroup 财产. 获取或设置 PostScript 指令操作的绘图矩形 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.fields/fieldprint/postscriptgroup/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fieldprint/postscriptgroup/
 public string PostScriptGroup { get; set; }
 ```
 
-### 例子
+## 例子
 
 显示插入 PRINT 字段。
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "Field.PRINT.docx");
 ### 也可以看看
 
 * class [FieldPrint](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldprint/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

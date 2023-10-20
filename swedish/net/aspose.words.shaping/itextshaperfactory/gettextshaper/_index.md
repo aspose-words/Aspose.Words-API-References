@@ -1,12 +1,14 @@
 ---
 title: ITextShaperFactory.GetTextShaper
-second_title: Aspose.Words för .NET API Referens
-description: ITextShaperFactory metod. Returnerar en ny instans av en textformare för teckensnittet som anges avfontPath ochfaceIndex .
+linktitle: GetTextShaper
+articleTitle: GetTextShaper
+second_title: Aspose.Words för .NET
+description: ITextShaperFactory GetTextShaper metod. Returnerar en ny instans av en textformare för teckensnittet som anges avfontPath ochfaceIndex  i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.shaping/itextshaperfactory/gettextshaper/
 ---
-## GetTextShaper(string, int) {#gettextshaper_1}
+## GetTextShaper(*string, int*) {#gettextshaper_1}
 
 Returnerar en ny instans av en textformare för teckensnittet som anges av*fontPath* och*faceIndex* .
 
@@ -23,12 +25,12 @@ public ITextShaper GetTextShaper(string fontPath, int faceIndex)
 
 * interface [ITextShaper](../../itextshaper/)
 * interface [ITextShaperFactory](../)
-* namnutrymme [Aspose.Words.Shaping](../../itextshaperfactory/)
+* namnutrymme [Aspose.Words.Shaping](../../../aspose.words.shaping/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## GetTextShaper(string, byte[], int) {#gettextshaper}
+## GetTextShaper(*string, byte[], int*) {#gettextshaper}
 
 Returnerar ny instans av en textformare för teckensnittet som representeras av*fontBlob* och*faceIndex* .
 
@@ -46,7 +48,5 @@ public ITextShaper GetTextShaper(string fontId, byte[] fontBlob, int faceIndex)
 
 * interface [ITextShaper](../../itextshaper/)
 * interface [ITextShaperFactory](../)
-* namnutrymme [Aspose.Words.Shaping](../../itextshaperfactory/)
+* namnutrymme [Aspose.Words.Shaping](../../../aspose.words.shaping/)
 * hopsättning [Aspose.Words](../../../)
-
-

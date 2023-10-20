@@ -1,7 +1,9 @@
 ---
 title: ReplacingArgs.MatchNode
-second_title: Aspose.Words für .NET-API-Referenz
-description: ReplacingArgs eigendom. Ruft den Knoten ab der den Anfang des Matches enthält.
+linktitle: MatchNode
+articleTitle: MatchNode
+second_title: Aspose.Words für .NET
+description: ReplacingArgs MatchNode eigendom. Ruft den Knoten ab der den Anfang des Matches enthält in C#.
 type: docs
 weight: 40
 url: /de/net/aspose.words.replacing/replacingargs/matchnode/
@@ -14,7 +16,7 @@ Ruft den Knoten ab, der den Anfang des Matches enthält.
 public Node MatchNode { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie der Inhalt eines gesamten Dokuments als Ersatz für eine Übereinstimmung in einem Suchen-und-Ersetzen-Vorgang eingefügt wird.
 
@@ -89,7 +91,5 @@ private static void InsertDocument(Node insertionDestination, Document docToInse
 
 * class [Node](../../../aspose.words/node/)
 * class [ReplacingArgs](../)
-* namensraum [Aspose.Words.Replacing](../../replacingargs/)
+* namensraum [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: MailMerge.PreserveUnusedTags
-second_title: Aspose.Words for .NET API 参考
-description: MailMerge 财产. 获取或设置一个值该值指示是否应保留未使用的mustache标签
+linktitle: PreserveUnusedTags
+articleTitle: PreserveUnusedTags
+second_title: 用于 .NET 的 Aspose.Words
+description: MailMerge PreserveUnusedTags 财产. 获取或设置一个值该值指示是否应保留未使用的mustache标签 在 C#.
 type: docs
 weight: 80
 url: /zh/net/aspose.words.mailmerging/mailmerge/preserveunusedtags/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.mailmerging/mailmerge/preserveunusedtags/
 public bool PreserveUnusedTags { get; set; }
 ```
 
-### 评论
+## 评论
 
 默认值为`错误的`.
 
-### 例子
+## 例子
 
 演示如何保留在邮件合并期间未使用的备用邮件合并标记的外观。
 
@@ -83,7 +85,5 @@ private static DataTable CreateSourceTablePreserveUnusedTags()
 
 * property [UseNonMergeFields](../usenonmergefields/)
 * class [MailMerge](../)
-* 命名空间 [Aspose.Words.MailMerging](../../mailmerge/)
+* 命名空间 [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: MailMergeRegionInfo.Level
-second_title: Aspose.Words för .NET API Referens
-description: MailMergeRegionInfo fast egendom. Returnerar kapslingsnivån för regionen.
+linktitle: Level
+articleTitle: Level
+second_title: Aspose.Words för .NET
+description: MailMergeRegionInfo Level fast egendom. Returnerar kapslingsnivån för regionen i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.mailmerging/mailmergeregioninfo/level/
@@ -14,7 +16,7 @@ Returnerar kapslingsnivån för regionen.
 public int Level { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man verifierar kopplingsregioner.
 
@@ -59,7 +61,5 @@ Assert.AreEqual("TableEnd:NestedRegion1", endFieldMergeField.FieldName);
 ### Se även
 
 * class [MailMergeRegionInfo](../)
-* namnutrymme [Aspose.Words.MailMerging](../../mailmergeregioninfo/)
+* namnutrymme [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * hopsättning [Aspose.Words](../../../)
-
-

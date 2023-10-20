@@ -1,7 +1,9 @@
 ---
-title: Class VbaReference
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Vba.VbaReference klass. Implementerar en referens till ett bibliotek av automationstyp eller VBAprojekt.
+title: VbaReference Class
+linktitle: VbaReference
+articleTitle: VbaReference
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Vba.VbaReference klass. Implementerar en referens till ett bibliotek av automationstyp eller VBAprojekt i C#.
 type: docs
 weight: 6590
 url: /sv/net/aspose.words.vba/vbareference/
@@ -23,7 +25,7 @@ public abstract class VbaReference
 | abstract [LibId](../../aspose.words.vba/vbareference/libid/) { get; } | Hämtar ett strängvärde som innehåller identifieraren för ett bibliotek av automationstyp. |
 | abstract [Type](../../aspose.words.vba/vbareference/type/) { get; } | Blir[`VbaReferenceType`](../vbareferencetype/) objekt som anger vilken typ av referens som a`VbaReference` objekt representerar. |
 
-### Exempel
+## Exempel
 
 Visar hur man hämtar/tar bort ett element från VBA-referenssamlingen.
 
@@ -98,5 +100,3 @@ private static string GetLibIdProjectPath(string libIdProject)
 
 * namnutrymme [Aspose.Words.Vba](../../aspose.words.vba/)
 * hopsättning [Aspose.Words](../../)
-
-

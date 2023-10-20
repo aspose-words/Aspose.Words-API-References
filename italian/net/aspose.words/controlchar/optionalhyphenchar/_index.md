@@ -1,7 +1,9 @@
 ---
 title: ControlChar.OptionalHyphenChar
-second_title: Aspose.Words per .NET API Reference
-description: ControlChar campo. Il trattino facoltativo in Microsoft Word è char31.
+linktitle: OptionalHyphenChar
+articleTitle: OptionalHyphenChar
+second_title: Aspose.Words per .NET
+description: ControlChar OptionalHyphenChar campo. Il trattino facoltativo in Microsoft Word è char31 in C#.
 type: docs
 weight: 190
 url: /it/net/aspose.words/controlchar/optionalhyphenchar/
@@ -14,11 +16,11 @@ Il trattino facoltativo in Microsoft Word è (char)31.
 public const char OptionalHyphenChar;
 ```
 
-### Osservazioni
+## Osservazioni
 
 Il trattino facoltativo in Microsoft Word non corrisponde al carattere Unicode U+00AD trattino soft. Invece, inserisce informazioni interne che indicano a Word un possibile punto di sillabazione.
 
-### Esempi
+## Esempi
 
 Mostra come aggiungere vari caratteri di controllo a un documento.
 
@@ -90,7 +92,5 @@ Assert.AreEqual(Convert.ToChar(ControlChar.ColumnBreak), ControlChar.ColumnBreak
 ### Guarda anche
 
 * class [ControlChar](../)
-* spazio dei nomi [Aspose.Words](../../controlchar/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

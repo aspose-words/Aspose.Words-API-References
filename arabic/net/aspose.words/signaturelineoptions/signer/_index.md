@@ -1,20 +1,22 @@
 ---
 title: SignatureLineOptions.Signer
-second_title: Aspose.Words لمراجع .NET API
-description: SignatureLineOptions ملكية. الحصول على أو تعيين الموقّع المقترح لسطر التوقيع. القيمة الافتراضية لهذه الخاصية هي سلسلة فارغة Empty.
+linktitle: Signer
+articleTitle: Signer
+second_title: Aspose.Words لـ .NET
+description: SignatureLineOptions Signer ملكية. الحصول على أو تعيين الموقّع المقترح لسطر التوقيع. القيمة الافتراضية لهذه الخاصية هيسلسلة فارغة Empty في C#.
 type: docs
 weight: 70
 url: /ar/net/aspose.words/signaturelineoptions/signer/
 ---
 ## SignatureLineOptions.Signer property
 
-الحصول على أو تعيين الموقّع المقترح لسطر التوقيع. القيمة الافتراضية لهذه الخاصية هي **سلسلة فارغة** (Empty).
+الحصول على أو تعيين الموقّع المقترح لسطر التوقيع. القيمة الافتراضية لهذه الخاصية هي**سلسلة فارغة** (Empty).
 
 ```csharp
 public string Signer { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إضافة سطر توقيع إلى مستند، ثم التوقيع عليه باستخدام شهادة رقمية.
 
@@ -130,7 +132,5 @@ public string Signer { get; set; }
 ### أنظر أيضا
 
 * class [SignatureLineOptions](../)
-* مساحة الاسم [Aspose.Words](../../signaturelineoptions/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

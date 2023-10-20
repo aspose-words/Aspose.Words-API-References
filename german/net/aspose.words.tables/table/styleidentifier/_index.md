@@ -1,7 +1,9 @@
 ---
 title: Table.StyleIdentifier
-second_title: Aspose.Words für .NET-API-Referenz
-description: Table eigendom. Ruft die vom Gebietsschema unabhängige Stilkennung des auf diese Tabelle angewendeten Tabellenstils ab oder legt diesen fest.
+linktitle: StyleIdentifier
+articleTitle: StyleIdentifier
+second_title: Aspose.Words für .NET
+description: Table StyleIdentifier eigendom. Ruft die vom Gebietsschema unabhängige Stilkennung des auf diese Tabelle angewendeten Tabellenstils ab oder legt diesen fest in C#.
 type: docs
 weight: 280
 url: /de/net/aspose.words.tables/table/styleidentifier/
@@ -14,7 +16,7 @@ Ruft die vom Gebietsschema unabhängige Stilkennung des auf diese Tabelle angewe
 public StyleIdentifier StyleIdentifier { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man eine neue Tabelle erstellt und dabei einen Stil anwendet.
 
@@ -66,7 +68,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTableWithStyle.docx");
 
 * enum [StyleIdentifier](../../../aspose.words/styleidentifier/)
 * class [Table](../)
-* namensraum [Aspose.Words.Tables](../../table/)
+* namensraum [Aspose.Words.Tables](../../../aspose.words.tables/)
 * Montage [Aspose.Words](../../../)
-
-

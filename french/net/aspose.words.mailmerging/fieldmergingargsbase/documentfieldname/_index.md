@@ -1,7 +1,9 @@
 ---
 title: FieldMergingArgsBase.DocumentFieldName
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldMergingArgsBase propriété. Obtient le nom du champ de fusion tel que spécifié dans le document.
+linktitle: DocumentFieldName
+articleTitle: DocumentFieldName
+second_title: Aspose.Words pour .NET
+description: FieldMergingArgsBase DocumentFieldName propriété. Obtient le nom du champ de fusion tel que spécifié dans le document en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.mailmerging/fieldmergingargsbase/documentfieldname/
@@ -14,13 +16,13 @@ Obtient le nom du champ de fusion tel que spécifié dans le document.
 public string DocumentFieldName { get; }
 ```
 
-### Remarques
+## Remarques
 
 Si vous disposez d'un mappage d'un nom de champ de document vers un nom de champ de source de données différent, , il s'agit du nom de champ d'origine tel que spécifié dans le document.
 
 Si vous avez spécifié un préfixe de nom de champ, par exemple "Image:MyFieldName" dans le document, alors`DocumentFieldName` renvoie le nom du champ sans le préfixe, c'est-à-dire "MyFieldName".
 
-### Exemples
+## Exemples
 
 Montre comment exécuter un publipostage avec un rappel personnalisé qui gère les données de fusion sous la forme de documents HTML.
 
@@ -88,7 +90,5 @@ private class HandleMergeFieldInsertHtml : IFieldMergingCallback
 ### Voir également
 
 * class [FieldMergingArgsBase](../)
-* espace de noms [Aspose.Words.MailMerging](../../fieldmergingargsbase/)
+* espace de noms [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * Assemblée [Aspose.Words](../../../)
-
-

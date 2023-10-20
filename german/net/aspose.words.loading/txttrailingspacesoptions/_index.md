@@ -1,7 +1,9 @@
 ---
-title: Enum TxtTrailingSpacesOptions
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Loading.TxtTrailingSpacesOptions opsomming. Gibt die verfügbaren Optionen für die Behandlung von nachgestellten Leerzeichen beim Import aus anText Datei.
+title: TxtTrailingSpacesOptions Enum
+linktitle: TxtTrailingSpacesOptions
+articleTitle: TxtTrailingSpacesOptions
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Loading.TxtTrailingSpacesOptions opsomming. Gibt die verfügbaren Optionen für die Behandlung von nachgestellten Leerzeichen beim Import aus anText Datei in C#.
 type: docs
 weight: 3740
 url: /de/net/aspose.words.loading/txttrailingspacesoptions/
@@ -21,7 +23,7 @@ public enum TxtTrailingSpacesOptions
 | Trim | `0` |  |
 | Preserve | `1` |  |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Leerzeichen beim Laden von Klartextdokumenten entfernt werden.
 
@@ -98,5 +100,3 @@ switch (txtTrailingSpacesOptions)
 
 * namensraum [Aspose.Words.Loading](../../aspose.words.loading/)
 * Montage [Aspose.Words](../../)
-
-

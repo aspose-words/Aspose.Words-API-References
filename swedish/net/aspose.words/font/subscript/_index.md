@@ -1,7 +1,9 @@
 ---
 title: Font.Subscript
-second_title: Aspose.Words för .NET API Referens
-description: Font fast egendom. True om teckensnittet är formaterat som subscript.
+linktitle: Subscript
+articleTitle: Subscript
+second_title: Aspose.Words för .NET
+description: Font Subscript fast egendom. True om teckensnittet är formaterat som subscript i C#.
 type: docs
 weight: 430
 url: /sv/net/aspose.words/font/subscript/
@@ -14,7 +16,7 @@ True om teckensnittet är formaterat som subscript.
 public bool Subscript { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man formaterar text för att förskjuta dess position.
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "Font.PositionSubscript.docx");
 ### Se även
 
 * class [Font](../)
-* namnutrymme [Aspose.Words](../../font/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

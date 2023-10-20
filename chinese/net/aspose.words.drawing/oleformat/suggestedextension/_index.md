@@ -1,7 +1,9 @@
 ---
 title: OleFormat.SuggestedExtension
-second_title: Aspose.Words for .NET API 参考
-description: OleFormat 财产. 如果要将当前嵌入对象保存到文件中则获取建议的文件扩展名
+linktitle: SuggestedExtension
+articleTitle: SuggestedExtension
+second_title: 用于 .NET 的 Aspose.Words
+description: OleFormat SuggestedExtension 财产. 如果要将当前嵌入对象保存到文件中则获取建议的文件扩展名 在 C#.
 type: docs
 weight: 120
 url: /zh/net/aspose.words.drawing/oleformat/suggestedextension/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.drawing/oleformat/suggestedextension/
 public string SuggestedExtension { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何将嵌入的 OLE 对象提取到文件中。
 
@@ -49,7 +51,5 @@ oleFormat.Save(ArtifactsDir + "OLE spreadsheet saved directly" + oleFormat.Sugge
 ### 也可以看看
 
 * class [OleFormat](../)
-* 命名空间 [Aspose.Words.Drawing](../../oleformat/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

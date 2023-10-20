@@ -1,7 +1,9 @@
 ---
 title: OdtSaveOptions.IsStrictSchema11
-second_title: Aspose.Words per .NET API Reference
-description: OdtSaveOptions proprietà. Specifica se lesportazione deve corrispondere rigorosamente alla specifica ODT 1.1. OOo 3.0 visualizza i file correttamente quando contengono elementi e attributi di ODT 1.2. Utilizzare false per questo scopo o true per la stretta conformità alla specifica 1.1. Il valore predefinito èfalso .
+linktitle: IsStrictSchema11
+articleTitle: IsStrictSchema11
+second_title: Aspose.Words per .NET
+description: OdtSaveOptions IsStrictSchema11 proprietà. Specifica se lesportazione deve corrispondere rigorosamente alla specifica ODT 1.1. OOo 3.0 visualizza i file correttamente quando contengono elementi e attributi di ODT 1.2. Utilizzare false per questo scopo o true per la stretta conformità alla specifica 1.1. Il valore predefinito èfalso  in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words.saving/odtsaveoptions/isstrictschema11/
@@ -14,7 +16,7 @@ Specifica se l'esportazione deve corrispondere rigorosamente alla specifica ODT 
 public bool IsStrictSchema11 { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come rendere un documento salvato conforme a uno schema ODT precedente.
 
@@ -33,7 +35,5 @@ doc.Save(ArtifactsDir + "OdtSaveOptions.Odt11Schema.odt", saveOptions);
 ### Guarda anche
 
 * class [OdtSaveOptions](../)
-* spazio dei nomi [Aspose.Words.Saving](../../odtsaveoptions/)
+* spazio dei nomi [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: InlineStory.Paragraphs
-second_title: Aspose.Words för .NET API Referens
-description: InlineStory fast egendom. Får en samling stycken som är omedelbara barn till berättelsen.
+linktitle: Paragraphs
+articleTitle: Paragraphs
+second_title: Aspose.Words för .NET
+description: InlineStory Paragraphs fast egendom. Får en samling stycken som är omedelbara barn till berättelsen i C#.
 type: docs
 weight: 80
 url: /sv/net/aspose.words/inlinestory/paragraphs/
@@ -14,7 +16,7 @@ Får en samling stycken som är omedelbara barn till berättelsen.
 public ParagraphCollection Paragraphs { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man lägger till en kommentar till ett stycke.
 
@@ -81,7 +83,5 @@ doc.Save(ArtifactsDir + "InlineStory.AddFootnote.docx");
 
 * class [ParagraphCollection](../../paragraphcollection/)
 * class [InlineStory](../)
-* namnutrymme [Aspose.Words](../../inlinestory/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum TableStyleOptions
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Tables.TableStyleOptions énumération. Spécifie comment le style de tableau est appliqué à un tableau.
+title: TableStyleOptions Enum
+linktitle: TableStyleOptions
+articleTitle: TableStyleOptions
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Tables.TableStyleOptions énumération. Spécifie comment le style de tableau est appliqué à un tableau en C#.
 type: docs
 weight: 6370
 url: /fr/net/aspose.words.tables/tablestyleoptions/
@@ -29,7 +31,7 @@ public enum TableStyleOptions
 | Default2003 | `600` | Les bandes de lignes et de colonnes sont appliquées. Il s'agit de la valeur par défaut de Microsoft Word pour les anciens formats tels que DOC, WML et RTF. |
 | Default | `2A0` | Il s'agit des valeurs par défaut de Microsoft Word. |
 
-### Exemples
+## Exemples
 
 Montre comment créer un nouveau tableau tout en appliquant un style.
 
@@ -82,5 +84,3 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTableWithStyle.docx");
 * property [StyleOptions](../table/styleoptions/)
 * espace de noms [Aspose.Words.Tables](../../aspose.words.tables/)
 * Assemblée [Aspose.Words](../../)
-
-

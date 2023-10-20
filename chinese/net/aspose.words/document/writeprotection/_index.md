@@ -1,7 +1,9 @@
 ---
 title: Document.WriteProtection
-second_title: Aspose.Words for .NET API 参考
-description: Document 财产. 提供对文档写保护选项的访问
+linktitle: WriteProtection
+articleTitle: WriteProtection
+second_title: 用于 .NET 的 Aspose.Words
+description: Document WriteProtection 财产. 提供对文档写保护选项的访问 在 C#.
 type: docs
 weight: 500
 url: /zh/net/aspose.words/document/writeprotection/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/document/writeprotection/
 public WriteProtection WriteProtection { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何使用密码保护文档。
 
@@ -47,7 +49,5 @@ Assert.AreEqual("Hello world! This document is protected." +
 
 * class [WriteProtection](../../../aspose.words.settings/writeprotection/)
 * class [Document](../)
-* 命名空间 [Aspose.Words](../../document/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

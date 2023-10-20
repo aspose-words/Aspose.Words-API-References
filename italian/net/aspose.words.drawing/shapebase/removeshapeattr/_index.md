@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.RemoveShapeAttr
-second_title: Aspose.Words per .NET API Reference
-description: ShapeBase metodo. Riservato per luso del sistema. IShapeAttrSource.
+linktitle: RemoveShapeAttr
+articleTitle: RemoveShapeAttr
+second_title: Aspose.Words per .NET
+description: ShapeBase RemoveShapeAttr metodo. Riservato per luso del sistema. IShapeAttrSource in C#.
 type: docs
 weight: 680
 url: /it/net/aspose.words.drawing/shapebase/removeshapeattr/
@@ -18,7 +20,5 @@ public void RemoveShapeAttr(int key)
 ### Guarda anche
 
 * class [ShapeBase](../)
-* spazio dei nomi [Aspose.Words.Drawing](../../shapebase/)
+* spazio dei nomi [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assemblea [Aspose.Words](../../../)
-
-

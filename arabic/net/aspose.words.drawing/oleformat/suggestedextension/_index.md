@@ -1,7 +1,9 @@
 ---
 title: OleFormat.SuggestedExtension
-second_title: Aspose.Words لمراجع .NET API
-description: OleFormat ملكية. احصل على امتداد الملف المقترح للكائن المضمن الحالي إذا كنت تريد حفظه في ملف.
+linktitle: SuggestedExtension
+articleTitle: SuggestedExtension
+second_title: Aspose.Words لـ .NET
+description: OleFormat SuggestedExtension ملكية. احصل على امتداد الملف المقترح للكائن المضمن الحالي إذا كنت تريد حفظه في ملف في C#.
 type: docs
 weight: 120
 url: /ar/net/aspose.words.drawing/oleformat/suggestedextension/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing/oleformat/suggestedextension/
 public string SuggestedExtension { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخراج كائنات OLE المضمنة في الملفات.
 
@@ -49,7 +51,5 @@ oleFormat.Save(ArtifactsDir + "OLE spreadsheet saved directly" + oleFormat.Sugge
 ### أنظر أيضا
 
 * class [OleFormat](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../oleformat/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

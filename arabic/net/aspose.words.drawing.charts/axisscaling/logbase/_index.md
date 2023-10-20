@@ -1,7 +1,9 @@
 ---
 title: AxisScaling.LogBase
-second_title: Aspose.Words لمراجع .NET API
-description: AxisScaling ملكية. الحصول على أو تعيين الأساس اللوغاريتمي لمحور لوغاريتمي.
+linktitle: LogBase
+articleTitle: LogBase
+second_title: Aspose.Words لـ .NET
+description: AxisScaling LogBase ملكية. الحصول على أو تعيين الأساس اللوغاريتمي لمحور لوغاريتمي في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.drawing.charts/axisscaling/logbase/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing.charts/axisscaling/logbase/
 public double LogBase { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 الخاصية غير مدعومة بمخططات MS Office 2016 الجديدة.
 
@@ -22,7 +24,7 @@ public double LogBase { get; set; }
 
 يؤدي تعيين هذه الخاصية إلى تعيين[`Type`](../type/) الملكية لLogarithmic .
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تطبيق القياس اللوغاريتمي على محور المخطط.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "Charts.AxisScaling.docx");
 ### أنظر أيضا
 
 * class [AxisScaling](../)
-* مساحة الاسم [Aspose.Words.Drawing.Charts](../../axisscaling/)
+* مساحة الاسم [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../../)
-
-

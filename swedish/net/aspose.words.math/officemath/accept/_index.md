@@ -1,7 +1,9 @@
 ---
 title: OfficeMath.Accept
-second_title: Aspose.Words för .NET API Referens
-description: OfficeMath metod. Accepterar en besökare.
+linktitle: Accept
+articleTitle: Accept
+second_title: Aspose.Words för .NET
+description: OfficeMath Accept metod. Accepterar en besökare i C#.
 type: docs
 weight: 60
 url: /sv/net/aspose.words.math/officemath/accept/
@@ -22,7 +24,7 @@ public override bool Accept(DocumentVisitor visitor)
 
 Sant om alla noder besöktes; falskt om[`DocumentVisitor`](../../../aspose.words/documentvisitor/) stoppade operationen innan du besökte alla noder.
 
-### Anmärkningar
+## Anmärkningar
 
 Räknar upp denna nod och alla dess barn. Varje nod anropar en motsvarande metod[`DocumentVisitor`](../../../aspose.words/documentvisitor/).
 
@@ -30,7 +32,7 @@ För mer information se Visitor design mönster.
 
 Samtal[`VisitOfficeMathStart`](../../../aspose.words/documentvisitor/visitofficemathstart/) , sedan ringer[`Accept`](../../../aspose.words/node/accept/) för all underordnade noder i Office Math och samtal[`VisitOfficeMathEnd`](../../../aspose.words/documentvisitor/visitofficemathend/) i slutet.
 
-### Exempel
+## Exempel
 
 Visar hur man skriver ut nodstrukturen för varje kontors matematisk nod i ett dokument.
 
@@ -123,7 +125,5 @@ public class OfficeMathStructurePrinter : DocumentVisitor
 
 * class [DocumentVisitor](../../../aspose.words/documentvisitor/)
 * class [OfficeMath](../)
-* namnutrymme [Aspose.Words.Math](../../officemath/)
+* namnutrymme [Aspose.Words.Math](../../../aspose.words.math/)
 * hopsättning [Aspose.Words](../../../)
-
-

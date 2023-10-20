@@ -1,7 +1,9 @@
 ---
 title: NodeCollection.Clear
-second_title: Aspose.Words för .NET API Referens
-description: NodeCollection metod. Tar bort alla noder från den här samlingen och från dokumentet.
+linktitle: Clear
+articleTitle: Clear
+second_title: Aspose.Words för .NET
+description: NodeCollection Clear metod. Tar bort alla noder från den här samlingen och från dokumentet i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words/nodecollection/clear/
@@ -14,7 +16,7 @@ Tar bort alla noder från den här samlingen och från dokumentet.
 public void Clear()
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man tar bort alla avsnitt från ett dokument.
 
@@ -36,7 +38,5 @@ Assert.AreEqual(string.Empty, doc.GetText().Trim());
 ### Se även
 
 * class [NodeCollection](../)
-* namnutrymme [Aspose.Words](../../nodecollection/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

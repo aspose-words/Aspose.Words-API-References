@@ -1,7 +1,9 @@
 ---
 title: OutlineOptions.BookmarksOutlineLevels
-second_title: Aspose.Words per .NET API Reference
-description: OutlineOptions proprietà. Permette di specificare il livello di struttura dei singoli segnalibri.
+linktitle: BookmarksOutlineLevels
+articleTitle: BookmarksOutlineLevels
+second_title: Aspose.Words per .NET
+description: OutlineOptions BookmarksOutlineLevels proprietà. Permette di specificare il livello di struttura dei singoli segnalibri in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words.saving/outlineoptions/bookmarksoutlinelevels/
@@ -14,11 +16,11 @@ Permette di specificare il livello di struttura dei singoli segnalibri.
 public BookmarksOutlineLevelCollection BookmarksOutlineLevels { get; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Se il livello dei segnalibri non è specificato in questa raccolta, allora[`DefaultBookmarksOutlineLevel`](../defaultbookmarksoutlinelevel/) viene utilizzato il valore.
 
-### Esempi
+## Esempi
 
 Mostra come impostare i livelli di struttura per i segnalibri.
 
@@ -77,7 +79,5 @@ outlineLevels.Clear();
 
 * class [BookmarksOutlineLevelCollection](../../bookmarksoutlinelevelcollection/)
 * class [OutlineOptions](../)
-* spazio dei nomi [Aspose.Words.Saving](../../outlineoptions/)
+* spazio dei nomi [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldTA.PageRangeBookmarkName
-second_title: Aspose.Words for .NET API 参考
-description: FieldTA 财产. 获取或设置书签的名称该书签标记作为条目页码插入的页面范围
+linktitle: PageRangeBookmarkName
+articleTitle: PageRangeBookmarkName
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldTA PageRangeBookmarkName 财产. 获取或设置书签的名称该书签标记作为条目页码插入的页面范围 在 C#.
 type: docs
 weight: 60
 url: /zh/net/aspose.words.fields/fieldta/pagerangebookmarkname/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fieldta/pagerangebookmarkname/
 public string PageRangeBookmarkName { get; set; }
 ```
 
-### 例子
+## 例子
 
 展示如何使用 TOA 和 TA 字段构建和自定义权限表。
 
@@ -137,7 +139,5 @@ private static FieldTA InsertToaEntry(DocumentBuilder builder, string entryCateg
 ### 也可以看看
 
 * class [FieldTA](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldta/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: BookmarkCollection.Item
-second_title: Aspose.Words for .NET API 参考
-description: BookmarkCollection 财产. 返回指定索引处的书签
+linktitle: Item
+articleTitle: Item
+second_title: 用于 .NET 的 Aspose.Words
+description: BookmarkCollection Item 财产. 返回指定索引处的书签 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words/bookmarkcollection/item/
@@ -18,7 +20,7 @@ public Bookmark this[int index] { get; }
 | --- | --- |
 | index | 集合的索引。 |
 
-### 评论
+## 评论
 
 该索引是从零开始的。
 
@@ -28,7 +30,7 @@ public Bookmark this[int index] { get; }
 
 如果索引为负并且其绝对值大于列表中的项目数，则返回空引用。
 
-### 例子
+## 例子
 
 展示如何添加书签并更新其内容。
 
@@ -118,7 +120,7 @@ public class BookmarkInfoPrinter : DocumentVisitor
 
 * class [Bookmark](../../bookmark/)
 * class [BookmarkCollection](../)
-* 命名空间 [Aspose.Words](../../bookmarkcollection/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
 
 ---
@@ -135,11 +137,11 @@ public Bookmark this[string bookmarkName] { get; }
 | --- | --- |
 | bookmarkName | 书签名称不区分大小写。 |
 
-### 评论
+## 评论
 
 退货`无效的`如果找不到指定名称的书签。
 
-### 例子
+## 例子
 
 展示如何添加书签并更新其内容。
 
@@ -229,7 +231,5 @@ public class BookmarkInfoPrinter : DocumentVisitor
 
 * class [Bookmark](../../bookmark/)
 * class [BookmarkCollection](../)
-* 命名空间 [Aspose.Words](../../bookmarkcollection/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

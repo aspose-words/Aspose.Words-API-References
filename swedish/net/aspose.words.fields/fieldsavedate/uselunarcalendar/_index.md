@@ -1,7 +1,9 @@
 ---
 title: FieldSaveDate.UseLunarCalendar
-second_title: Aspose.Words för .NET API Referens
-description: FieldSaveDate fast egendom. Hämtar eller ställer in om du vill använda Hijri Lunar eller Hebrew Lunar kalender.
+linktitle: UseLunarCalendar
+articleTitle: UseLunarCalendar
+second_title: Aspose.Words för .NET
+description: FieldSaveDate UseLunarCalendar fast egendom. Hämtar eller ställer in om du vill använda Hijri Lunar eller Hebrew Lunar kalender i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.fields/fieldsavedate/uselunarcalendar/
@@ -14,7 +16,7 @@ Hämtar eller ställer in om du vill använda Hijri Lunar eller Hebrew Lunar kal
 public bool UseLunarCalendar { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du använder fältet SAVEDATE för att visa datum/tid för dokumentets senaste lagringsoperation utförd med Microsoft Word.
 
@@ -60,7 +62,5 @@ doc.Save(ArtifactsDir + "Field.SAVEDATE.docx");
 ### Se även
 
 * class [FieldSaveDate](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldsavedate/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldOptions.LegacyNumberFormat
-second_title: Aspose.Words för .NET API Referens
-description: FieldOptions fast egendom. Hämtar eller ställer in värdet som anger om äldre tidigt än AW 13.10 nummerformat för fält är aktiverat eller inte.
+linktitle: LegacyNumberFormat
+articleTitle: LegacyNumberFormat
+second_title: Aspose.Words för .NET
+description: FieldOptions LegacyNumberFormat fast egendom. Hämtar eller ställer in värdet som anger om äldre tidigt än AW 13.10 nummerformat för fält är aktiverat eller inte i C#.
 type: docs
 weight: 160
 url: /sv/net/aspose.words.fields/fieldoptions/legacynumberformat/
@@ -14,7 +16,7 @@ Hämtar eller ställer in värdet som anger om äldre (tidigt än AW 13.10) numm
 public bool LegacyNumberFormat { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 När den här egenskapen är inställd på`Sann`, mallsymbol "#" fungerade som i .net: Ersätter pundtecknet med motsvarande siffra om en sådan finns; annars visas inga symboler i resultatsträngen.
 
@@ -22,7 +24,7 @@ När den här egenskapen är inställd på`falsk`, mallsymbolen "#" fungerar som
 
 Standardvärdet är`falsk`.
 
-### Exempel
+## Exempel
 
 Visar hur man aktiverar äldre nummerformatering för fält.
 
@@ -43,7 +45,5 @@ Assert.AreEqual("$5", field.Result);
 ### Se även
 
 * class [FieldOptions](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldoptions/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

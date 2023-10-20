@@ -1,7 +1,9 @@
 ---
 title: ToaCategories.Item
-second_title: Aspose.Words för .NET API Referens
-description: ToaCategories fast egendom. Hämtar eller ställer in kategorirubriken efter kategorinummer.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words för .NET
+description: ToaCategories Item fast egendom. Hämtar eller ställer in kategorirubriken efter kategorinummer i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.fields/toacategories/item/
@@ -14,7 +16,7 @@ Hämtar eller ställer in kategorirubriken efter kategorinummer.
 public string this[int number] { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man anger en uppsättning kategorier för TOA-fält.
 
@@ -62,7 +64,5 @@ doc.Save(ArtifactsDir + "FieldOptions.TOA.Categories.docx");
 ### Se även
 
 * class [ToaCategories](../)
-* namnutrymme [Aspose.Words.Fields](../../toacategories/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

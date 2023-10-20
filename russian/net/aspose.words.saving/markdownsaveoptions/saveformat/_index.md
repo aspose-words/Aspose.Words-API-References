@@ -1,7 +1,9 @@
 ---
 title: MarkdownSaveOptions.SaveFormat
-second_title: Справочник по API Aspose.Words для .NET
-description: MarkdownSaveOptions свойство. Указывает формат в котором документ будет сохранен если используется этот объект параметров сохранения. Может быть толькоMarkdown .
+linktitle: SaveFormat
+articleTitle: SaveFormat
+second_title: Aspose.Words для .NET
+description: MarkdownSaveOptions SaveFormat свойство. Указывает формат в котором документ будет сохранен если используется этот объект параметров сохранения. Может быть толькоMarkdown  на С#.
 type: docs
 weight: 70
 url: /ru/net/aspose.words.saving/markdownsaveoptions/saveformat/
@@ -18,7 +20,5 @@ public override SaveFormat SaveFormat { get; set; }
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
 * class [MarkdownSaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../markdownsaveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

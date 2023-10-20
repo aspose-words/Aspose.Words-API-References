@@ -1,7 +1,9 @@
 ---
 title: ImageData.ImageType
-second_title: Aspose.Words لمراجع .NET API
-description: ImageData ملكية. الحصول على نوع الصورة.
+linktitle: ImageType
+articleTitle: ImageType
+second_title: Aspose.Words لـ .NET
+description: ImageData ImageType ملكية. الحصول على نوع الصورة في C#.
 type: docs
 weight: 140
 url: /ar/net/aspose.words.drawing/imagedata/imagetype/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing/imagedata/imagetype/
 public ImageType ImageType { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخراج الصور من مستند وحفظها في نظام الملفات المحلي كملفات فردية.
 
@@ -46,7 +48,5 @@ foreach (Shape shape in shapes.OfType<Shape>())
 
 * enum [ImageType](../../imagetype/)
 * class [ImageData](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../imagedata/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

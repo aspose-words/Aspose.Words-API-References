@@ -1,7 +1,9 @@
 ---
 title: OfficeMath.ParentParagraph
-second_title: Aspose.Words per .NET API Reference
-description: OfficeMath proprietà. Recupera il genitoreParagraph di questo nodo.
+linktitle: ParentParagraph
+articleTitle: ParentParagraph
+second_title: Aspose.Words per .NET
+description: OfficeMath ParentParagraph proprietà. Recupera il genitoreParagraph di questo nodo in C#.
 type: docs
 weight: 50
 url: /it/net/aspose.words.math/officemath/parentparagraph/
@@ -14,7 +16,7 @@ Recupera il genitore[`Paragraph`](../../../aspose.words/paragraph/) di questo no
 public Paragraph ParentParagraph { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come impostare la formattazione della visualizzazione della matematica di Office.
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "Shape.OfficeMath.docx");
 
 * class [Paragraph](../../../aspose.words/paragraph/)
 * class [OfficeMath](../)
-* spazio dei nomi [Aspose.Words.Math](../../officemath/)
+* spazio dei nomi [Aspose.Words.Math](../../../aspose.words.math/)
 * assemblea [Aspose.Words](../../../)
-
-

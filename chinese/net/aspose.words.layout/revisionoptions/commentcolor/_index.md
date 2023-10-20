@@ -1,7 +1,9 @@
 ---
 title: RevisionOptions.CommentColor
-second_title: Aspose.Words for .NET API 参考
-description: RevisionOptions 财产. 允许指定用于注释的颜色 默认值为Red.
+linktitle: CommentColor
+articleTitle: CommentColor
+second_title: 用于 .NET 的 Aspose.Words
+description: RevisionOptions CommentColor 财产. 允许指定用于注释的颜色 默认值为Red 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.layout/revisionoptions/commentcolor/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.layout/revisionoptions/commentcolor/
 public RevisionColor CommentColor { get; set; }
 ```
 
-### 评论
+## 评论
 
 如果将此属性设置为ByAuthor或者NoHighlight值， 作为结果，该属性将设置为默认颜色。
 
-### 例子
+## 例子
 
 展示如何修改修订版本的外观。
 
@@ -70,7 +72,5 @@ doc.Save(ArtifactsDir + "Revision.RevisionOptions.pdf");
 
 * enum [RevisionColor](../../revisioncolor/)
 * class [RevisionOptions](../)
-* 命名空间 [Aspose.Words.Layout](../../revisionoptions/)
+* 命名空间 [Aspose.Words.Layout](../../../aspose.words.layout/)
 * 部件 [Aspose.Words](../../../)
-
-

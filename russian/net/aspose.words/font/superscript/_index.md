@@ -1,7 +1,9 @@
 ---
 title: Font.Superscript
-second_title: Справочник по API Aspose.Words для .NET
-description: Font свойство. True если шрифт отформатирован как надстрочный.
+linktitle: Superscript
+articleTitle: Superscript
+second_title: Aspose.Words для .NET
+description: Font Superscript свойство. True если шрифт отформатирован как надстрочный на С#.
 type: docs
 weight: 440
 url: /ru/net/aspose.words/font/superscript/
@@ -14,7 +16,7 @@ True, если шрифт отформатирован как надстрочн
 public bool Superscript { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как форматировать текст, чтобы сместить его положение.
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "Font.PositionSubscript.docx");
 ### Смотрите также
 
 * class [Font](../)
-* пространство имен [Aspose.Words](../../font/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

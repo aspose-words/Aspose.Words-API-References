@@ -1,7 +1,9 @@
 ---
 title: FontSavingArgs.KeepFontStreamOpen
-second_title: Referencia de API de Aspose.Words para .NET
-description: FontSavingArgs propiedad. Especifica si Aspose.Words debe mantener la secuencia abierta o cerrarla después de guardar una fuente.
+linktitle: KeepFontStreamOpen
+articleTitle: KeepFontStreamOpen
+second_title: Aspose.Words para .NET
+description: FontSavingArgs KeepFontStreamOpen propiedad. Especifica si Aspose.Words debe mantener la secuencia abierta o cerrarla después de guardar una fuente en C#.
 type: docs
 weight: 90
 url: /es/net/aspose.words.saving/fontsavingargs/keepfontstreamopen/
@@ -14,11 +16,11 @@ Especifica si Aspose.Words debe mantener la secuencia abierta o cerrarla despué
 public bool KeepFontStreamOpen { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 El valor predeterminado es`FALSO` y Aspose.Words cerrará la transmisión que proporcionó en el[`FontStream`](../fontstream/) propiedad después de escribir una fuente en ella. Especificar`verdadero` para mantener la corriente abierta.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo definir una lógica personalizada para exportar fuentes al guardar en HTML.
 
@@ -78,7 +80,5 @@ public class HandleFontSaving : IFontSavingCallback
 ### Ver también
 
 * class [FontSavingArgs](../)
-* espacio de nombres [Aspose.Words.Saving](../../fontsavingargs/)
+* espacio de nombres [Aspose.Words.Saving](../../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../../)
-
-

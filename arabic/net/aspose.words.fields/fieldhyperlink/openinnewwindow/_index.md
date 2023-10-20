@@ -1,7 +1,9 @@
 ---
 title: FieldHyperlink.OpenInNewWindow
-second_title: Aspose.Words لمراجع .NET API
-description: FieldHyperlink ملكية. الحصول على أو تعيين ما إذا كان سيتم فتح موقع الوجهة في نافذة متصفح ويب جديدة.
+linktitle: OpenInNewWindow
+articleTitle: OpenInNewWindow
+second_title: Aspose.Words لـ .NET
+description: FieldHyperlink OpenInNewWindow ملكية. الحصول على أو تعيين ما إذا كان سيتم فتح موقع الوجهة في نافذة متصفح ويب جديدة في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.fields/fieldhyperlink/openinnewwindow/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldhyperlink/openinnewwindow/
 public bool OpenInNewWindow { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام حقول HYPERLINK للارتباط بالمستندات الموجودة في نظام الملفات المحلي.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "Field.HYPERLINK.docx");
 ### أنظر أيضا
 
 * class [FieldHyperlink](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldhyperlink/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

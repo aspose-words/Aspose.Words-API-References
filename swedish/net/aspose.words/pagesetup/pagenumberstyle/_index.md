@@ -1,7 +1,9 @@
 ---
 title: PageSetup.PageNumberStyle
-second_title: Aspose.Words för .NET API Referens
-description: PageSetup fast egendom. Hämtar eller ställer in sidnummerformatet.
+linktitle: PageNumberStyle
+articleTitle: PageNumberStyle
+second_title: Aspose.Words för .NET
+description: PageSetup PageNumberStyle fast egendom. Hämtar eller ställer in sidnummerformatet i C#.
 type: docs
 weight: 320
 url: /sv/net/aspose.words/pagesetup/pagenumberstyle/
@@ -14,7 +16,7 @@ Hämtar eller ställer in sidnummerformatet.
 public NumberStyle PageNumberStyle { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man ställer in sidnumrering i ett avsnitt.
 
@@ -72,7 +74,5 @@ doc.Save(ArtifactsDir + "PageSetup.PageNumbering.docx");
 
 * enum [NumberStyle](../../numberstyle/)
 * class [PageSetup](../)
-* namnutrymme [Aspose.Words](../../pagesetup/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

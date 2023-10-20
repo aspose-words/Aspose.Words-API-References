@@ -1,7 +1,9 @@
 ---
 title: List.IsListStyleReference
-second_title: Aspose.Words لمراجع .NET API
-description: List ملكية. إرجاعحقيقي إذا كانت هذه القائمة مرجعًا لنمط القائمة.
+linktitle: IsListStyleReference
+articleTitle: IsListStyleReference
+second_title: Aspose.Words لـ .NET
+description: List IsListStyleReference ملكية. إرجاعحقيقي إذا كانت هذه القائمة مرجعًا لنمط القائمة في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.lists/list/isliststylereference/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.lists/list/isliststylereference/
 public bool IsListStyleReference { get; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 لاحظ أن تعديل خصائص القائمة التي تعتبر مرجعًا لنمط القائمة ليس له أي تأثير. تنسيق القائمة المحدد في نمط القائمة نفسه له الأسبقية دائمًا.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء نمط قائمة واستخدامه في مستند.
 
@@ -79,7 +81,5 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateAndUseListStyle.docx");
 ### أنظر أيضا
 
 * class [List](../)
-* مساحة الاسم [Aspose.Words.Lists](../../list/)
+* مساحة الاسم [Aspose.Words.Lists](../../../aspose.words.lists/)
 * المجسم [Aspose.Words](../../../)
-
-

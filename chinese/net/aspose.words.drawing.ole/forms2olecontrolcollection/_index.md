@@ -1,7 +1,9 @@
 ---
-title: Class Forms2OleControlCollection
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Drawing.Ole.Forms2OleControlCollection 班级. 代表集合Forms2OleControl对象.
+title: Forms2OleControlCollection Class
+linktitle: Forms2OleControlCollection
+articleTitle: Forms2OleControlCollection
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Drawing.Ole.Forms2OleControlCollection 班级. 代表集合Forms2OleControl对象 在 C#.
 type: docs
 weight: 1120
 url: /zh/net/aspose.words.drawing.ole/forms2olecontrolcollection/
@@ -35,7 +37,7 @@ public class Forms2OleControlCollection : IEnumerable<Forms2OleControl>
 | --- | --- |
 | [GetEnumerator](../../aspose.words.drawing.ole/forms2olecontrolcollection/getenumerator/)() | 获取枚举器。 |
 
-### 例子
+## 例子
 
 演示如何访问嵌入在文档中的 OLE 控件及其子控件。
 
@@ -69,5 +71,3 @@ Assert.AreEqual("0", oleControlCollection[2].Value);
 * class [Forms2OleControl](../forms2olecontrol/)
 * 命名空间 [Aspose.Words.Drawing.Ole](../../aspose.words.drawing.ole/)
 * 部件 [Aspose.Words](../../)
-
-

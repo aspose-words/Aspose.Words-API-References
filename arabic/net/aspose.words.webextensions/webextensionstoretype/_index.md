@@ -1,7 +1,9 @@
 ---
-title: Enum WebExtensionStoreType
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.WebExtensions.WebExtensionStoreType تعداد. تعداد الأنواع المتوفرة لمتجر ملحقات الويب.
+title: WebExtensionStoreType Enum
+linktitle: WebExtensionStoreType
+articleTitle: WebExtensionStoreType
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.WebExtensions.WebExtensionStoreType تعداد. تعداد الأنواع المتوفرة لمتجر ملحقات الويب في C#.
 type: docs
 weight: 6820
 url: /ar/net/aspose.words.webextensions/webextensionstoretype/
@@ -27,7 +29,7 @@ public enum WebExtensionStoreType
 | ExCatalog | `6` | يحدد أن نوع المتجر هو النشر المركزي عبر Exchange. |
 | Default | `0` | القيمة الافتراضية. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إضافة ملحق ويب إلى مستند.
 
@@ -73,5 +75,3 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 
 * مساحة الاسم [Aspose.Words.WebExtensions](../../aspose.words.webextensions/)
 * المجسم [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.CurrentSection
-second_title: Aspose.Words per .NET API Reference
-description: DocumentBuilder proprietà. Ottiene la sezione attualmente selezionata in thisDocumentBuilder .
+linktitle: CurrentSection
+articleTitle: CurrentSection
+second_title: Aspose.Words per .NET
+description: DocumentBuilder CurrentSection proprietà. Ottiene la sezione attualmente selezionata in thisDocumentBuilder  in C#.
 type: docs
 weight: 60
 url: /it/net/aspose.words/documentbuilder/currentsection/
@@ -14,7 +16,7 @@ Ottiene la sezione attualmente selezionata in this[`DocumentBuilder`](../) .
 public Section CurrentSection { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come inserire un'immagine mobile e specificarne la posizione e le dimensioni.
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "Image.CreateFloatingPositionSize.docx");
 
 * class [Section](../../section/)
 * class [DocumentBuilder](../)
-* spazio dei nomi [Aspose.Words](../../documentbuilder/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

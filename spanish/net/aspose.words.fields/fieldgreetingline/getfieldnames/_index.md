@@ -1,7 +1,9 @@
 ---
 title: FieldGreetingLine.GetFieldNames
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldGreetingLine método. Devuelve una colección de nombres de campos de combinación de correspondencia utilizados por el campo.
+linktitle: GetFieldNames
+articleTitle: GetFieldNames
+second_title: Aspose.Words para .NET
+description: FieldGreetingLine GetFieldNames método. Devuelve una colección de nombres de campos de combinación de correspondencia utilizados por el campo en C#.
 type: docs
 weight: 50
 url: /es/net/aspose.words.fields/fieldgreetingline/getfieldnames/
@@ -14,7 +16,7 @@ Devuelve una colección de nombres de campos de combinación de correspondencia 
 public string[] GetFieldNames()
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo insertar un campo GREETINGLINE.
 
@@ -74,7 +76,5 @@ Assert.AreEqual("Dear Mr. Doe,\r\r\tThis is your custom greeting, created progra
 ### Ver también
 
 * class [FieldGreetingLine](../)
-* espacio de nombres [Aspose.Words.Fields](../../fieldgreetingline/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

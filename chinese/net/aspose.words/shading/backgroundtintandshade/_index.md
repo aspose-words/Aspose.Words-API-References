@@ -1,7 +1,9 @@
 ---
 title: Shading.BackgroundTintAndShade
-second_title: Aspose.Words for .NET API 参考
-description: Shading 财产. 获取或设置使背景主题颜色变亮或变暗的双精度值
+linktitle: BackgroundTintAndShade
+articleTitle: BackgroundTintAndShade
+second_title: 用于 .NET 的 Aspose.Words
+description: Shading BackgroundTintAndShade 财产. 获取或设置使背景主题颜色变亮或变暗的双精度值 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words/shading/backgroundtintandshade/
@@ -14,13 +16,13 @@ url: /zh/net/aspose.words/shading/backgroundtintandshade/
 public double BackgroundTintAndShade { get; set; }
 ```
 
-### 评论
+## 评论
 
 此属性允许的值范围为 -1（最暗）到 1（最亮）。 零 (0) 为中性。尝试将此属性设置为小于 -1 或大于 1 的值会导致ArgumentOutOfRangeException。
 
 为具有非主题颜色 的着色对象设置此属性会导致InvalidOperationException。
 
-### 例子
+## 例子
 
 演示如何设置着色纹理的前景色和背景色。
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "Font.ForegroundAndBackground.docx");
 ### 也可以看看
 
 * class [Shading](../)
-* 命名空间 [Aspose.Words](../../shading/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

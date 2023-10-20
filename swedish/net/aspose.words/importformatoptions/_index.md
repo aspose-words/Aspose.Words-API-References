@@ -1,7 +1,9 @@
 ---
-title: Class ImportFormatOptions
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.ImportFormatOptions klass. Gör det möjligt att ange olika importalternativ för att formatera utdata.
+title: ImportFormatOptions Class
+linktitle: ImportFormatOptions
+articleTitle: ImportFormatOptions
+second_title: Aspose.Words för .NET
+description: Aspose.Words.ImportFormatOptions klass. Gör det möjligt att ange olika importalternativ för att formatera utdata i C#.
 type: docs
 weight: 3240
 url: /sv/net/aspose.words/importformatoptions/
@@ -34,7 +36,7 @@ public class ImportFormatOptions
 | [MergePastedLists](../../aspose.words/importformatoptions/mergepastedlists/) { get; set; } | Hämtar eller ställer in ett booleskt värde som anger om inklistrade listor ska slås samman med omgivande listor. Standardvärdet är`falsk` . |
 | [SmartStyleBehavior](../../aspose.words/importformatoptions/smartstylebehavior/) { get; set; } | Hämtar eller ställer in ett booleskt värde som anger hur stilar kommer att importeras när de har samma namn i käll- och måldokument. Standardvärdet är`falsk` . |
 
-### Exempel
+## Exempel
 
 Visar hur du löser dubbletter av stilar när du infogar dokument.
 
@@ -70,5 +72,3 @@ dstDoc.Save(ArtifactsDir + "DocumentBuilder.SmartStyleBehavior.docx");
 
 * namnutrymme [Aspose.Words](../../aspose.words/)
 * hopsättning [Aspose.Words](../../)
-
-

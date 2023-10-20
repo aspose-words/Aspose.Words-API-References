@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabelCollection.NumberFormat
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ChartDataLabelCollection propriété. Obtient unChartNumberFormat instance permettant de définir le format numérique pour les étiquettes de données de la série entière.
+linktitle: NumberFormat
+articleTitle: NumberFormat
+second_title: Aspose.Words pour .NET
+description: ChartDataLabelCollection NumberFormat propriété. Obtient unChartNumberFormat instance permettant de définir le format numérique pour les étiquettes de données de la série entière en C#.
 type: docs
 weight: 50
 url: /fr/net/aspose.words.drawing.charts/chartdatalabelcollection/numberformat/
@@ -14,7 +16,7 @@ Obtient un[`ChartNumberFormat`](../../chartnumberformat/) instance permettant de
 public ChartNumberFormat NumberFormat { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment activer et configurer les étiquettes de données pour une série de graphiques.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "Charts.DataLabelNumberFormat.docx");
 
 * class [ChartNumberFormat](../../chartnumberformat/)
 * class [ChartDataLabelCollection](../)
-* espace de noms [Aspose.Words.Drawing.Charts](../../chartdatalabelcollection/)
+* espace de noms [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Assemblée [Aspose.Words](../../../)
-
-

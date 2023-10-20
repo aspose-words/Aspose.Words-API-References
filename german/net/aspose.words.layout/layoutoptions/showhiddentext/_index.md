@@ -1,7 +1,9 @@
 ---
 title: LayoutOptions.ShowHiddenText
-second_title: Aspose.Words für .NET-API-Referenz
-description: LayoutOptions eigendom. Ruft den Hinweis ab ob versteckter Text im Dokument gerendert wird oder legt diesen fest. Standard istFALSCH .
+linktitle: ShowHiddenText
+articleTitle: ShowHiddenText
+second_title: Aspose.Words für .NET
+description: LayoutOptions ShowHiddenText eigendom. Ruft den Hinweis ab ob versteckter Text im Dokument gerendert wird oder legt diesen fest. Standard istFALSCH  in C#.
 type: docs
 weight: 80
 url: /de/net/aspose.words.layout/layoutoptions/showhiddentext/
@@ -14,11 +16,11 @@ Ruft den Hinweis ab, ob versteckter Text im Dokument gerendert wird, oder legt d
 public bool ShowHiddenText { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Diese Eigenschaft betrifft alle ausgeblendeten Inhalte, nicht nur Text.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Text in einem gerenderten Ausgabedokument ausgeblendet wird.
 
@@ -38,7 +40,5 @@ doc.Save(ArtifactsDir + "Document.LayoutOptionsHiddenText.pdf");
 ### Siehe auch
 
 * class [LayoutOptions](../)
-* namensraum [Aspose.Words.Layout](../../layoutoptions/)
+* namensraum [Aspose.Words.Layout](../../../aspose.words.layout/)
 * Montage [Aspose.Words](../../../)
-
-

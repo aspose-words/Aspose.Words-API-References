@@ -1,7 +1,9 @@
 ---
 title: PdfDigitalSignatureTimestampSettings.UserName
-second_title: Aspose.Words per .NET API Reference
-description: PdfDigitalSignatureTimestampSettings proprietà. Nome utente server timestamp.
+linktitle: UserName
+articleTitle: UserName
+second_title: Aspose.Words per .NET
+description: PdfDigitalSignatureTimestampSettings UserName proprietà. Nome utente server timestamp in C#.
 type: docs
 weight: 50
 url: /it/net/aspose.words.saving/pdfdigitalsignaturetimestampsettings/username/
@@ -14,11 +16,11 @@ Nome utente server timestamp.
 public string UserName { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Il valore predefinito è`nullo` .
 
-### Esempi
+## Esempi
 
 Mostra come firmare digitalmente un documento PDF salvato e contrassegnarlo con data e ora.
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignatureTimestamp.pdf", optio
 ### Guarda anche
 
 * class [PdfDigitalSignatureTimestampSettings](../)
-* spazio dei nomi [Aspose.Words.Saving](../../pdfdigitalsignaturetimestampsettings/)
+* spazio dei nomi [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../../)
-
-

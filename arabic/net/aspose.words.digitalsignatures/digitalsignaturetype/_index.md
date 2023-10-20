@@ -1,7 +1,9 @@
 ---
-title: Enum DigitalSignatureType
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.DigitalSignatures.DigitalSignatureType تعداد. يحدد نوع التوقيع الرقمي.
+title: DigitalSignatureType Enum
+linktitle: DigitalSignatureType
+articleTitle: DigitalSignatureType
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.DigitalSignatures.DigitalSignatureType تعداد. يحدد نوع التوقيع الرقمي في C#.
 type: docs
 weight: 400
 url: /ar/net/aspose.words.digitalsignatures/digitalsignaturetype/
@@ -22,7 +24,7 @@ public enum DigitalSignatureType
 | CryptoApi | `1` | طريقة توقيع Crypto API المستخدمة في المستندات الثنائية لـ Microsoft Word 97-2003 .DOC. |
 | XmlDsig | `2` | طريقة توقيع XmlDsig المستخدمة في مستندات OOXML وOpenDocument. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية توقيع المستندات بشهادات X.509.
 
@@ -66,5 +68,3 @@ Assert.AreEqual("CN=Morzal.Me", signedDoc.DigitalSignatures[0].SubjectName);
 
 * مساحة الاسم [Aspose.Words.DigitalSignatures](../../aspose.words.digitalsignatures/)
 * المجسم [Aspose.Words](../../)
-
-

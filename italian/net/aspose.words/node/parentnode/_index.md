@@ -1,7 +1,9 @@
 ---
 title: Node.ParentNode
-second_title: Aspose.Words per .NET API Reference
-description: Node proprietà. Ottiene il genitore immediato di questo nodo.
+linktitle: ParentNode
+articleTitle: ParentNode
+second_title: Aspose.Words per .NET
+description: Node ParentNode proprietà. Ottiene il genitore immediato di questo nodo in C#.
 type: docs
 weight: 60
 url: /it/net/aspose.words/node/parentnode/
@@ -14,11 +16,11 @@ Ottiene il genitore immediato di questo nodo.
 public CompositeNode ParentNode { get; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Se un nodo è stato appena creato e non ancora aggiunto all'albero, o se è stato rimosso dall'albero, il genitore è`nullo`.
 
-### Esempi
+## Esempi
 
 Mostra come accedere al nodo genitore di un nodo.
 
@@ -69,7 +71,5 @@ Assert.AreEqual("Hello world!", doc.GetText().Trim());
 
 * class [CompositeNode](../../compositenode/)
 * class [Node](../)
-* spazio dei nomi [Aspose.Words](../../node/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

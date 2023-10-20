@@ -1,7 +1,9 @@
 ---
-title: Enum MergeFieldImageDimensionUnit
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Fields.MergeFieldImageDimensionUnit перечисление. Указывает единицу измерения изображения т. е. ширину или высоту используемую в процессе слияния почты.
+title: MergeFieldImageDimensionUnit Enum
+linktitle: MergeFieldImageDimensionUnit
+articleTitle: MergeFieldImageDimensionUnit
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Fields.MergeFieldImageDimensionUnit перечисление. Указывает единицу измерения изображения т. е. ширину или высоту используемую в процессе слияния почты на С#.
 type: docs
 weight: 2760
 url: /ru/net/aspose.words.fields/mergefieldimagedimensionunit/
@@ -21,7 +23,7 @@ public enum MergeFieldImageDimensionUnit
 | Point | `0` | Точка (т.е. 1/72 дюйма). |
 | Percent | `1` | Процент значения размера исходного изображения. |
 
-### Примеры
+## Примеры
 
 Показывает, как установить размеры изображений, поскольку MERGEFIELDS принимает их во время слияния почты.
 
@@ -92,5 +94,3 @@ private class MergedImageResizer : IFieldMergingCallback
 
 * пространство имен [Aspose.Words.Fields](../../aspose.words.fields/)
 * сборка [Aspose.Words](../../)
-
-

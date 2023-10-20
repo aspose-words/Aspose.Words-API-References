@@ -1,7 +1,9 @@
 ---
 title: Paragraph.IsEndOfSection
-second_title: Aspose.Words for .NET API 参考
-description: Paragraph 财产. 如果该段落是最后一段则为 TrueBody 正文故事aSection否则为假
+linktitle: IsEndOfSection
+articleTitle: IsEndOfSection
+second_title: 用于 .NET 的 Aspose.Words
+description: Paragraph IsEndOfSection 财产. 如果该段落是最后一段则为 TrueBody 正文故事aSection否则为假 在 C#.
 type: docs
 weight: 80
 url: /zh/net/aspose.words/paragraph/isendofsection/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/paragraph/isendofsection/
 public bool IsEndOfSection { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何将一个文档的内容插入到另一文档的书签中。
 
@@ -82,7 +84,5 @@ static void InsertDocument(Node insertionDestination, Document docToInsert)
 ### 也可以看看
 
 * class [Paragraph](../)
-* 命名空间 [Aspose.Words](../../paragraph/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

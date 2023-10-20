@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.RelativeHorizontalPosition
-second_title: Aspose.Words per .NET API Reference
-description: ShapeBase proprietà. Specifica in relazione a come è posizionata la forma orizzontalmente.
+linktitle: RelativeHorizontalPosition
+articleTitle: RelativeHorizontalPosition
+second_title: Aspose.Words per .NET
+description: ShapeBase RelativeHorizontalPosition proprietà. Specifica in relazione a come è posizionata la forma orizzontalmente in C#.
 type: docs
 weight: 420
 url: /it/net/aspose.words.drawing/shapebase/relativehorizontalposition/
@@ -14,13 +16,13 @@ Specifica in relazione a come è posizionata la forma orizzontalmente.
 public RelativeHorizontalPosition RelativeHorizontalPosition { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Il valore predefinito èColumn.
 
 Ha effetto solo per le forme fluttuanti di livello superiore.
 
-### Esempi
+## Esempi
 
 Mostra come inserire un'immagine mobile al centro di una pagina.
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "Image.CreateFloatingPageCenter.docx");
 
 * enum [RelativeHorizontalPosition](../../relativehorizontalposition/)
 * class [ShapeBase](../)
-* spazio dei nomi [Aspose.Words.Drawing](../../shapebase/)
+* spazio dei nomi [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assemblea [Aspose.Words](../../../)
-
-

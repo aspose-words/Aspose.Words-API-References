@@ -1,7 +1,9 @@
 ---
 title: Border.ThemeColor
-second_title: Aspose.Words for .NET API 参考
-description: Border 财产. 获取或设置与此 Border 对象关联的已应用配色方案中的主题颜色
+linktitle: ThemeColor
+articleTitle: ThemeColor
+second_title: 用于 .NET 的 Aspose.Words
+description: Border ThemeColor 财产. 获取或设置与此 Border 对象关联的已应用配色方案中的主题颜色 在 C#.
 type: docs
 weight: 70
 url: /zh/net/aspose.words/border/themecolor/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/border/themecolor/
 public ThemeColor ThemeColor { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何插入带有上边框的段落。
 
@@ -38,7 +40,5 @@ doc.Save(ArtifactsDir + "Border.ParagraphTopBorder.docx");
 
 * enum [ThemeColor](../../../aspose.words.themes/themecolor/)
 * class [Border](../)
-* 命名空间 [Aspose.Words](../../border/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

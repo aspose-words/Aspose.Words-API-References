@@ -1,7 +1,9 @@
 ---
 title: TabStopCollection.Clear
-second_title: Aspose.Words لمراجع .NET API
-description: TabStopCollection طريقة. حذف كافة مواضع علامات الجدولة.
+linktitle: Clear
+articleTitle: Clear
+second_title: Aspose.Words لـ .NET
+description: TabStopCollection Clear طريقة. حذف كافة مواضع علامات الجدولة في C#.
 type: docs
 weight: 60
 url: /ar/net/aspose.words/tabstopcollection/clear/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/tabstopcollection/clear/
 public void Clear()
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التعامل مع مجموعة علامات الجدولة الخاصة بالمستند.
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "TabStopCollection.TabStopCollection.docx");
 ### أنظر أيضا
 
 * class [TabStopCollection](../)
-* مساحة الاسم [Aspose.Words](../../tabstopcollection/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

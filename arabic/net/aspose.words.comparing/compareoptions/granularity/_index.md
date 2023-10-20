@@ -1,7 +1,9 @@
 ---
 title: CompareOptions.Granularity
-second_title: Aspose.Words لمراجع .NET API
-description: CompareOptions ملكية. يحدد ما إذا كان سيتم تعقب التغييرات حسب الحرف أو الكلمة. القيمة الافتراضية هيWordLevel .
+linktitle: Granularity
+articleTitle: Granularity
+second_title: Aspose.Words لـ .NET
+description: CompareOptions Granularity ملكية. يحدد ما إذا كان سيتم تعقب التغييرات حسب الحرف أو الكلمة. القيمة الافتراضية هيWordLevel  في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.comparing/compareoptions/granularity/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.comparing/compareoptions/granularity/
 public Granularity Granularity { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يظهر لتحديد التفاصيل أثناء مقارنة المستندات.
 
@@ -43,7 +45,5 @@ Assert.AreEqual(5, groups.Count);
 
 * enum [Granularity](../../granularity/)
 * class [CompareOptions](../)
-* مساحة الاسم [Aspose.Words.Comparing](../../compareoptions/)
+* مساحة الاسم [Aspose.Words.Comparing](../../../aspose.words.comparing/)
 * المجسم [Aspose.Words](../../../)
-
-

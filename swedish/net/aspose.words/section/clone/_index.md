@@ -1,9 +1,11 @@
 ---
 title: Section.Clone
-second_title: Aspose.Words för .NET API Referens
-description: Section metod. Skapar en dubblett av detta avsnitt.
+linktitle: Clone
+articleTitle: Clone
+second_title: Aspose.Words för .NET
+description: Section Clone metod. Skapar en dubblett av detta avsnitt i C#.
 type: docs
-weight: 130
+weight: 110
 url: /sv/net/aspose.words/section/clone/
 ---
 ## Section.Clone method
@@ -14,7 +16,7 @@ Skapar en dubblett av detta avsnitt.
 public Section Clone()
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man lägger till och tar bort avsnitt i ett dokument.
 
@@ -44,7 +46,5 @@ Assert.AreEqual("Section 2\x000cSection 2", doc.GetText().Trim());
 ### Se även
 
 * class [Section](../)
-* namnutrymme [Aspose.Words](../../section/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

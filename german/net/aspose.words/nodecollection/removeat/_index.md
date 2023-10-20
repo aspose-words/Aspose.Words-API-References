@@ -1,7 +1,9 @@
 ---
 title: NodeCollection.RemoveAt
-second_title: Aspose.Words für .NET-API-Referenz
-description: NodeCollection methode. Entfernt den Knoten am angegebenen Index aus der Sammlung und aus dem Dokument.
+linktitle: RemoveAt
+articleTitle: RemoveAt
+second_title: Aspose.Words für .NET
+description: NodeCollection RemoveAt methode. Entfernt den Knoten am angegebenen Index aus der Sammlung und aus dem Dokument in C#.
 type: docs
 weight: 100
 url: /de/net/aspose.words/nodecollection/removeat/
@@ -18,7 +20,7 @@ public void RemoveAt(int index)
 | --- | --- | --- |
 | index | Int32 | Der nullbasierte Index des Knotens. Negative Indizes sind zulässig und zeigen den Zugriff vom Ende der Liste an. Beispielsweise bedeutet -1 den letzten Knoten, -2 den vorletzten und so weiter. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Abschnitte in einem Dokument hinzugefügt und entfernt werden.
 
@@ -48,7 +50,5 @@ Assert.AreEqual("Section 2\x000cSection 2", doc.GetText().Trim());
 ### Siehe auch
 
 * class [NodeCollection](../)
-* namensraum [Aspose.Words](../../nodecollection/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FontInfo.AltName
-second_title: Aspose.Words för .NET API Referens
-description: FontInfo fast egendom. Hämtar eller ställer in det alternativa namnet för teckensnittet.
+linktitle: AltName
+articleTitle: AltName
+second_title: Aspose.Words för .NET
+description: FontInfo AltName fast egendom. Hämtar eller ställer in det alternativa namnet för teckensnittet i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.fonts/fontinfo/altname/
@@ -14,11 +16,11 @@ Hämtar eller ställer in det alternativa namnet för teckensnittet.
 public string AltName { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Kan inte vara`null`. Kan vara en tom sträng.
 
-### Exempel
+## Exempel
 
 Visar hur du kommer åt och skriver ut detaljer för varje typsnitt i ett dokument.
 
@@ -57,7 +59,5 @@ while (fontCollectionEnumerator.MoveNext())
 ### Se även
 
 * class [FontInfo](../)
-* namnutrymme [Aspose.Words.Fonts](../../fontinfo/)
+* namnutrymme [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * hopsättning [Aspose.Words](../../../)
-
-

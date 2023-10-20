@@ -1,7 +1,9 @@
 ---
 title: Run.Text
-second_title: Referencia de API de Aspose.Words para .NET
-description: Run propiedad. Obtiene o establece el texto de la ejecución.
+linktitle: Text
+articleTitle: Text
+second_title: Aspose.Words para .NET
+description: Run Text propiedad. Obtiene o establece el texto de la ejecución en C#.
 type: docs
 weight: 50
 url: /es/net/aspose.words/run/text/
@@ -14,7 +16,7 @@ Obtiene o establece el texto de la ejecución.
 public string Text { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo construir un documento Aspose.Words a mano.
 
@@ -64,7 +66,5 @@ doc.Save(ArtifactsDir + "Section.CreateManually.docx");
 ### Ver también
 
 * class [Run](../)
-* espacio de nombres [Aspose.Words](../../run/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

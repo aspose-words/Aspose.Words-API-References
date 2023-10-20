@@ -1,7 +1,9 @@
 ---
 title: WordML2003SaveOptions.SaveFormat
-second_title: Référence de l'API Aspose.Words pour .NET
-description: WordML2003SaveOptions propriété. Spécifie le format dans lequel le document sera enregistré si cet objet doptions de sauvegarde est utilisé. Ne peut êtreWordML .
+linktitle: SaveFormat
+articleTitle: SaveFormat
+second_title: Aspose.Words pour .NET
+description: WordML2003SaveOptions SaveFormat propriété. Spécifie le format dans lequel le document sera enregistré si cet objet doptions de sauvegarde est utilisé. Ne peut êtreWordML  en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.saving/wordml2003saveoptions/saveformat/
@@ -14,7 +16,7 @@ Spécifie le format dans lequel le document sera enregistré si cet objet d'opti
 public override SaveFormat SaveFormat { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment gérer le contenu brut du document de sortie.
 
@@ -62,7 +64,5 @@ else
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
 * class [WordML2003SaveOptions](../)
-* espace de noms [Aspose.Words.Saving](../../wordml2003saveoptions/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Field.GetFieldCode
-second_title: Aspose.Words لمراجع .NET API
-description: Field طريقة. إرجاع النص بين بداية الحقل وفاصل الحقل أو نهاية الحقل إذا لم يكن هناك فاصل. يتم تضمين كل من رمز الحقل ونتيجة الحقل للحقول الفرعية.
+linktitle: GetFieldCode
+articleTitle: GetFieldCode
+second_title: Aspose.Words لـ .NET
+description: Field GetFieldCode طريقة. إرجاع النص بين بداية الحقل وفاصل الحقل أو نهاية الحقل إذا لم يكن هناك فاصل. يتم تضمين كل من رمز الحقل ونتيجة الحقل للحقول الفرعية في C#.
 type: docs
 weight: 110
 url: /ar/net/aspose.words.fields/field/getfieldcode/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/field/getfieldcode/
 public string GetFieldCode()
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج حقل في مستند باستخدام رمز الحقل.
 
@@ -53,12 +55,12 @@ Assert.AreEqual(fieldIf.GetFieldCode(), fieldIf.GetFieldCode(true));
 ### أنظر أيضا
 
 * class [Field](../)
-* مساحة الاسم [Aspose.Words.Fields](../../field/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## GetFieldCode(bool) {#getfieldcode_1}
+## GetFieldCode(*bool*) {#getfieldcode_1}
 
 إرجاع النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل).
 
@@ -70,7 +72,7 @@ public string GetFieldCode(bool includeChildFieldCodes)
 | --- | --- | --- |
 | includeChildFieldCodes | Boolean | `حقيقي` إذا كان يجب تضمين رموز الحقول الفرعية. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الحصول على رمز الحقل الخاص بالحقل.
 
@@ -94,7 +96,5 @@ Assert.AreEqual(fieldIf.GetFieldCode(), fieldIf.GetFieldCode(true));
 ### أنظر أيضا
 
 * class [Field](../)
-* مساحة الاسم [Aspose.Words.Fields](../../field/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

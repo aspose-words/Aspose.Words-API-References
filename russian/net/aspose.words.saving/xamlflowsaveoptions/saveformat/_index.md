@@ -1,7 +1,9 @@
 ---
 title: XamlFlowSaveOptions.SaveFormat
-second_title: Справочник по API Aspose.Words для .NET
-description: XamlFlowSaveOptions свойство. Указывает формат в котором документ будет сохранен если используется этот объект параметров сохранения. Может быть толькоXamlFlow .
+linktitle: SaveFormat
+articleTitle: SaveFormat
+second_title: Aspose.Words для .NET
+description: XamlFlowSaveOptions SaveFormat свойство. Указывает формат в котором документ будет сохранен если используется этот объект параметров сохранения. Может быть толькоXamlFlow  на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.saving/xamlflowsaveoptions/saveformat/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.saving/xamlflowsaveoptions/saveformat/
 public override SaveFormat SaveFormat { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как распечатать имена файлов связанных изображений, созданных при преобразовании документа в потоковую форму .xaml.
 
@@ -81,7 +83,5 @@ private class ImageUriPrinter : IImageSavingCallback
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
 * class [XamlFlowSaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../xamlflowsaveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

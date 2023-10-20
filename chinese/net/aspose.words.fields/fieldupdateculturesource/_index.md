@@ -1,7 +1,9 @@
 ---
-title: Enum FieldUpdateCultureSource
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Fields.FieldUpdateCultureSource 枚举. 指示字段更新期间使用的区域性
+title: FieldUpdateCultureSource Enum
+linktitle: FieldUpdateCultureSource
+articleTitle: FieldUpdateCultureSource
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Fields.FieldUpdateCultureSource 枚举. 指示字段更新期间使用的区域性 在 C#.
 type: docs
 weight: 2560
 url: /zh/net/aspose.words.fields/fieldupdateculturesource/
@@ -21,7 +23,7 @@ public enum FieldUpdateCultureSource
 | CurrentThread | `0` | 当前执行线程的区域性用于更新字段。 |
 | FieldCode | `1` | 使用通过语言设置在字段格式属性中指定的区域性。 |
 
-### 例子
+## 例子
 
 演示如何在字段更新或邮件合并期间指定用于日期格式设置的区域性来源。
 
@@ -57,5 +59,3 @@ Thread.CurrentThread.CurrentCulture = currentCulture;
 
 * 命名空间 [Aspose.Words.Fields](../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../)
-
-

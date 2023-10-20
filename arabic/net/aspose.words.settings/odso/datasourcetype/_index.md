@@ -1,7 +1,9 @@
 ---
 title: Odso.DataSourceType
-second_title: Aspose.Words لمراجع .NET API
-description: Odso ملكية. تحديد نوع مصدر البيانات الخارجي المراد الاتصال به كجزء من معلومات اتصال ODSO لدمج البريد هذا. القيمة الافتراضية هيDefault .
+linktitle: DataSourceType
+articleTitle: DataSourceType
+second_title: Aspose.Words لـ .NET
+description: Odso DataSourceType ملكية. تحديد نوع مصدر البيانات الخارجي المراد الاتصال به كجزء من معلومات اتصال ODSO لدمج البريد هذا. القيمة الافتراضية هيDefault  في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.settings/odso/datasourcetype/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.settings/odso/datasourcetype/
 public OdsoDataSourceType DataSourceType { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 يعد هذا الإعداد مجرد اقتراح لنوع مصدر البيانات المستخدم لدمج المراسلات هذا.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تنفيذ دمج البريد مع البيانات من كائن مصدر بيانات Office.
 
@@ -71,7 +73,5 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 
 * enum [OdsoDataSourceType](../../odsodatasourcetype/)
 * class [Odso](../)
-* مساحة الاسم [Aspose.Words.Settings](../../odso/)
+* مساحة الاسم [Aspose.Words.Settings](../../../aspose.words.settings/)
 * المجسم [Aspose.Words](../../../)
-
-

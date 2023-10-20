@@ -1,7 +1,9 @@
 ---
 title: Document.MailMergeSettings
-second_title: Aspose.Words für .NET-API-Referenz
-description: Document eigendom. Ruft das Objekt ab oder legt es fest das alle Serienbriefinformationen für ein Dokument enthält.
+linktitle: MailMergeSettings
+articleTitle: MailMergeSettings
+second_title: Aspose.Words für .NET
+description: Document MailMergeSettings eigendom. Ruft das Objekt ab oder legt es fest das alle Serienbriefinformationen für ein Dokument enthält in C#.
 type: docs
 weight: 270
 url: /de/net/aspose.words/document/mailmergesettings/
@@ -14,13 +16,13 @@ Ruft das Objekt ab oder legt es fest, das alle Serienbriefinformationen für ein
 public MailMergeSettings MailMergeSettings { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Sie können dieses Objekt verwenden, um eine Serienbrief-Datenquelle für ein Dokument anzugeben. Diese Informationen (zusammen mit den verfügbaren Datenfeldern) werden in Microsoft Word angezeigt, wenn der Benutzer dieses Dokument öffnet. Oder Sie können dieses Objekt verwenden, um Serienbriefeinstellungen abzufragen dass der Benutzer in Microsoft Word für dieses Dokument angegeben hat.
 
 Dieses Objekt ist niemals`Null`.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Serienbrief mit Daten aus einem Office-Datenquellenobjekt ausgeführt wird.
 
@@ -73,7 +75,5 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 
 * class [MailMergeSettings](../../../aspose.words.settings/mailmergesettings/)
 * class [Document](../)
-* namensraum [Aspose.Words](../../document/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

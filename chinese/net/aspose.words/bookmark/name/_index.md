@@ -1,7 +1,9 @@
 ---
 title: Bookmark.Name
-second_title: Aspose.Words for .NET API 参考
-description: Bookmark 财产. 获取或设置书签的名称
+linktitle: Name
+articleTitle: Name
+second_title: 用于 .NET 的 Aspose.Words
+description: Bookmark Name 财产. 获取或设置书签的名称 在 C#.
 type: docs
 weight: 60
 url: /zh/net/aspose.words/bookmark/name/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words/bookmark/name/
 public string Name { get; set; }
 ```
 
-### 评论
+## 评论
 
 请注意，如果将书签的名称更改为文档中已存在的名称， 保存文档时不会给出错误，并且只会存储第一个书签。
 
-### 例子
+## 例子
 
 展示如何插入书签。
 
@@ -127,7 +129,5 @@ public class BookmarkInfoPrinter : DocumentVisitor
 ### 也可以看看
 
 * class [Bookmark](../)
-* 命名空间 [Aspose.Words](../../bookmark/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

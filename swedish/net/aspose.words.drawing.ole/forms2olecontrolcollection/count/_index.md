@@ -1,7 +1,9 @@
 ---
 title: Forms2OleControlCollection.Count
-second_title: Aspose.Words för .NET API Referens
-description: Forms2OleControlCollection fast egendom. Får antalet objekt i samlingen.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words för .NET
+description: Forms2OleControlCollection Count fast egendom. Får antalet objekt i samlingen i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.drawing.ole/forms2olecontrolcollection/count/
@@ -14,7 +16,7 @@ Får antalet objekt i samlingen.
 public int Count { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man kommer åt en OLE-kontroll inbäddad i ett dokument och dess underordnade kontroller.
 
@@ -46,7 +48,5 @@ Assert.AreEqual("0", oleControlCollection[2].Value);
 ### Se även
 
 * class [Forms2OleControlCollection](../)
-* namnutrymme [Aspose.Words.Drawing.Ole](../../forms2olecontrolcollection/)
+* namnutrymme [Aspose.Words.Drawing.Ole](../../../aspose.words.drawing.ole/)
 * hopsättning [Aspose.Words](../../../)
-
-

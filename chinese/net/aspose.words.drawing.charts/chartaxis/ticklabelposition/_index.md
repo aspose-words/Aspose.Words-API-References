@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.TickLabelPosition
-second_title: Aspose.Words for .NET API 参考
-description: ChartAxis 财产. 返回或设置轴上刻度标签的位置
+linktitle: TickLabelPosition
+articleTitle: TickLabelPosition
+second_title: 用于 .NET 的 Aspose.Words
+description: ChartAxis TickLabelPosition 财产. 返回或设置轴上刻度标签的位置 在 C#.
 type: docs
 weight: 240
 url: /zh/net/aspose.words.drawing.charts/chartaxis/ticklabelposition/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.drawing.charts/chartaxis/ticklabelposition/
 public AxisTickLabelPosition TickLabelPosition { get; set; }
 ```
 
-### 评论
+## 评论
 
 MS Office 2016 新图表不支持该属性。
 
-### 例子
+## 例子
 
 演示如何插入图表并修改其轴的外观。
 
@@ -72,7 +74,5 @@ doc.Save(ArtifactsDir + "Charts.AxisProperties.docx");
 
 * enum [AxisTickLabelPosition](../../axisticklabelposition/)
 * class [ChartAxis](../)
-* 命名空间 [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* 命名空间 [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * 部件 [Aspose.Words](../../../)
-
-

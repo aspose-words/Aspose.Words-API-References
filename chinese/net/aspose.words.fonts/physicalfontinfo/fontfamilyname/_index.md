@@ -1,7 +1,9 @@
 ---
 title: PhysicalFontInfo.FontFamilyName
-second_title: Aspose.Words for .NET API 参考
-description: PhysicalFontInfo 财产. 字体的系列名称
+linktitle: FontFamilyName
+articleTitle: FontFamilyName
+second_title: 用于 .NET 的 Aspose.Words
+description: PhysicalFontInfo FontFamilyName 财产. 字体的系列名称 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.fonts/physicalfontinfo/fontfamilyname/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fonts/physicalfontinfo/fontfamilyname/
 public string FontFamilyName { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何列出可用字体。
 
@@ -34,7 +36,5 @@ foreach (PhysicalFontInfo fontInfo in folderFontSource[0].GetAvailableFonts())
 ### 也可以看看
 
 * class [PhysicalFontInfo](../)
-* 命名空间 [Aspose.Words.Fonts](../../physicalfontinfo/)
+* 命名空间 [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * 部件 [Aspose.Words](../../../)
-
-

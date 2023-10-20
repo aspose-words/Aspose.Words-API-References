@@ -1,7 +1,9 @@
 ---
-title: Class FrameFormat
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.FrameFormat сорт. Представляет форматирование абзаца связанное с фреймом.
+title: FrameFormat Class
+linktitle: FrameFormat
+articleTitle: FrameFormat
+second_title: Aspose.Words для .NET
+description: Aspose.Words.FrameFormat сорт. Представляет форматирование абзаца связанное с фреймом на С#.
 type: docs
 weight: 3070
 url: /ru/net/aspose.words/frameformat/
@@ -31,13 +33,13 @@ public class FrameFormat
 | [VerticalPosition](../../aspose.words/frameformat/verticalposition/) { get; } | Получает расстояние по вертикали между краем кадра и элементом, указанным[`RelativeVerticalPosition`](./relativeverticalposition/) свойство. |
 | [Width](../../aspose.words/frameformat/width/) { get; } | Получает ширину указанного кадра в пунктах. |
 
-### Примечания
+## Примечания
 
 Этот объект создается всегда. Если абзац является фреймом, то все свойства будут содержать соответствующие значения, в противном случае для всех свойств устанавливаются значения по умолчанию.
 
 Использовать[`IsFrame`](./isframe/) чтобы проверить, является ли абзац фреймом.
 
-### Примеры
+## Примеры
 
 Показывает, как получить информацию о свойствах форматирования абзацев, являющихся фреймами.
 
@@ -63,5 +65,3 @@ Assert.AreEqual(0.0d, paragraphFrame.FrameFormat.VerticalDistanceFromText);
 
 * пространство имен [Aspose.Words](../../aspose.words/)
 * сборка [Aspose.Words](../../)
-
-

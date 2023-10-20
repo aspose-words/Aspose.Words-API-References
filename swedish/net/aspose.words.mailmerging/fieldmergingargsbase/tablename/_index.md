@@ -1,7 +1,9 @@
 ---
 title: FieldMergingArgsBase.TableName
-second_title: Aspose.Words för .NET API Referens
-description: FieldMergingArgsBase fast egendom. Hämtar namnet på datatabellen för den aktuella sammanslagningsoperationen eller tom sträng om namnet inte är tillgängligt.
+linktitle: TableName
+articleTitle: TableName
+second_title: Aspose.Words för .NET
+description: FieldMergingArgsBase TableName fast egendom. Hämtar namnet på datatabellen för den aktuella sammanslagningsoperationen eller tom sträng om namnet inte är tillgängligt i C#.
 type: docs
 weight: 70
 url: /sv/net/aspose.words.mailmerging/fieldmergingargsbase/tablename/
@@ -14,7 +16,7 @@ Hämtar namnet på datatabellen för den aktuella sammanslagningsoperationen ell
 public string TableName { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man infogar kryssrutaformulär i MERGEFIELDs som sammanfogningsdata under sammanfogning.
 
@@ -100,7 +102,5 @@ private static DataTable GetStudentCourseDataTable()
 ### Se även
 
 * class [FieldMergingArgsBase](../)
-* namnutrymme [Aspose.Words.MailMerging](../../fieldmergingargsbase/)
+* namnutrymme [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * hopsättning [Aspose.Words](../../../)
-
-

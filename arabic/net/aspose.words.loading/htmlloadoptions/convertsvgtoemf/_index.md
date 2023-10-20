@@ -1,7 +1,9 @@
 ---
 title: HtmlLoadOptions.ConvertSvgToEmf
-second_title: Aspose.Words لمراجع .NET API
-description: HtmlLoadOptions ملكية. الحصول على أو تعيين قيمة تشير إلى ما إذا كان سيتم تحويل صور SVG المحملة إلى تنسيق EMF. القيمة الافتراضية هيخطأ شنيع وإذا أمكن يتم تخزين صور SVG المحملة كما هي بدون تحويل.
+linktitle: ConvertSvgToEmf
+articleTitle: ConvertSvgToEmf
+second_title: Aspose.Words لـ .NET
+description: HtmlLoadOptions ConvertSvgToEmf ملكية. الحصول على أو تعيين قيمة تشير إلى ما إذا كان سيتم تحويل صور SVG المحملة إلى تنسيق EMF. القيمة الافتراضية هيخطأ شنيع وإذا أمكن يتم تخزين صور SVG المحملة كما هي بدون تحويل في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.loading/htmlloadoptions/convertsvgtoemf/
@@ -14,13 +16,13 @@ url: /ar/net/aspose.words.loading/htmlloadoptions/convertsvgtoemf/
 public bool ConvertSvgToEmf { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 تدعم الإصدارات الأحدث من برنامج MS Word صور SVG محليًا. إذا كان إصدار MS Word المحدد في خيارات التحميل يدعم SVG، فسيقوم Aspose.Words بتخزين صور SVG كما هي بدون تحويل. إذا لم يكن SVG مدعومًا، فسيتم تحويل صور SVG المحملة إلى تنسيق EMF.
 
 إذا تم ضبط هذا الخيار على`حقيقي` سيقوم Aspose.Words بتحويل صور SVG المحملة إلى EMF حتى لو كانت صور SVG مدعومة بالإصدار المحدد من MS Word.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحويل كائنات SVG إلى تنسيق مختلف عند حفظ مستندات HTML.
 
@@ -79,7 +81,5 @@ switch (htmlMetafileFormat)
 ### أنظر أيضا
 
 * class [HtmlLoadOptions](../)
-* مساحة الاسم [Aspose.Words.Loading](../../htmlloadoptions/)
+* مساحة الاسم [Aspose.Words.Loading](../../../aspose.words.loading/)
 * المجسم [Aspose.Words](../../../)
-
-

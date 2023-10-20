@@ -1,7 +1,9 @@
 ---
 title: TxtSaveOptions.SaveFormat
-second_title: Aspose.Words per .NET API Reference
-description: TxtSaveOptions proprietà. Specifica il formato in cui il documento verrà salvato se viene utilizzato questo oggetto opzioni di salvataggio. Può essereText .
+linktitle: SaveFormat
+articleTitle: SaveFormat
+second_title: Aspose.Words per .NET
+description: TxtSaveOptions SaveFormat proprietà. Specifica il formato in cui il documento verrà salvato se viene utilizzato questo oggetto opzioni di salvataggio. Può essereText  in C#.
 type: docs
 weight: 60
 url: /it/net/aspose.words.saving/txtsaveoptions/saveformat/
@@ -14,7 +16,7 @@ Specifica il formato in cui il documento verrà salvato se viene utilizzato ques
 public override SaveFormat SaveFormat { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come salvare un documento .txt con un'interruzione di paragrafo personalizzata.
 
@@ -48,7 +50,5 @@ Assert.AreEqual("Paragraph 1. End of paragraph.\n\n\t" +
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
 * class [TxtSaveOptions](../)
-* spazio dei nomi [Aspose.Words.Saving](../../txtsaveoptions/)
+* spazio dei nomi [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../../)
-
-

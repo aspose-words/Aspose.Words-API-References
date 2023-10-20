@@ -1,7 +1,9 @@
 ---
 title: Font.Shading
-second_title: Aspose.Words لمراجع .NET API
-description: Font ملكية. إرجاع أShading الكائن الذي يشير إلى تنسيق التظليل للخط.
+linktitle: Shading
+articleTitle: Shading
+second_title: Aspose.Words لـ .NET
+description: Font Shading ملكية. إرجاع أShading الكائن الذي يشير إلى تنسيق التظليل للخط في C#.
 type: docs
 weight: 320
 url: /ar/net/aspose.words/font/shading/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/font/shading/
 public Shading Shading { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تطبيق التظليل على النص الذي تم إنشاؤه بواسطة منشئ المستندات.
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "Font.Shading.docx");
 
 * class [Shading](../../shading/)
 * class [Font](../)
-* مساحة الاسم [Aspose.Words](../../font/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

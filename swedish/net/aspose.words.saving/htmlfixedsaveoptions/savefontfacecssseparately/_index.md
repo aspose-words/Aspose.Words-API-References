@@ -1,7 +1,9 @@
 ---
 title: HtmlFixedSaveOptions.SaveFontFaceCssSeparately
-second_title: Aspose.Words för .NET API Referens
-description: HtmlFixedSaveOptions fast egendom. Flagga anger om fontface CSSregler ska placeras i en separat fil fontFaces.css när ett dokument sparas med extern stilmall det vill säga närExportEmbeddedCss ärfalsk . Standardvärdet ärfalsk  alla CSSregler skrivs i en enda fil styles.css.
+linktitle: SaveFontFaceCssSeparately
+articleTitle: SaveFontFaceCssSeparately
+second_title: Aspose.Words för .NET
+description: HtmlFixedSaveOptions SaveFontFaceCssSeparately fast egendom. Flagga anger om fontface CSSregler ska placeras i en separat fil fontFaces.css när ett dokument sparas med extern stilmall det vill säga närExportEmbeddedCss ärfalsk . Standardvärdet ärfalsk  alla CSSregler skrivs i en enda fil styles.css i C#.
 type: docs
 weight: 160
 url: /sv/net/aspose.words.saving/htmlfixedsaveoptions/savefontfacecssseparately/
@@ -14,11 +16,11 @@ Flagga anger om "@font-face" CSS-regler ska placeras i en separat fil "fontFaces
 public bool SaveFontFaceCssSeparately { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Ställer in den här egenskapen till`Sann` återställer det gamla beteendet (separata filer) för kompatibilitet med äldre kod.
 
-### Exempel
+## Exempel
 
 Visar hur man placerar CSS i en separat fil och lägger till ett prefix till alla dess CSS-klassnamn.
 
@@ -50,7 +52,5 @@ Assert.True(Regex.Match(outDocContents,
 ### Se även
 
 * class [HtmlFixedSaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../htmlfixedsaveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

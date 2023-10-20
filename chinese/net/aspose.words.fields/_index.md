@@ -1,12 +1,14 @@
 ---
 title: Aspose.Words.Fields
-second_title: Aspose.Words for .NET API 参考
-description: 这 Aspose.Words.Fields命名空间包含 表示文档中的 Microsoft Word 字段的类
+linktitle: Aspose.Words.Fields
+articleTitle: Aspose.Words.Fields
+second_title: 用于 .NET 的 Aspose.Words
+description: 这Aspose.Words.Fields命名空间包含 表示文档中的 Microsoft Word 字段的类 在 C#.
 type: docs
 weight: 80
 url: /zh/net/aspose.words.fields/
 ---
-这 **Aspose.Words.Fields**命名空间包含 表示文档中的 Microsoft Word 字段的类。
+这**Aspose.Words.Fields**命名空间包含 表示文档中的 Microsoft Word 字段的类。
 
 ## 课程
 
@@ -153,5 +155,3 @@ url: /zh/net/aspose.words.fields/
 | [GeneralFormat](./generalformat/) | 指定应用于数字、文本或任何字段结果的通用格式。 字段可以具有通用格式的组合。 |
 | [MergeFieldImageDimensionUnit](./mergefieldimagedimensionunit/) | 指定邮件合并过程中使用的图像尺寸单位（即宽度或高度）。 |
 | [TextFormFieldType](./textformfieldtype/) | 指定文本表单字段的类型。 |
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldFillIn.PromptOnceOnMailMerge
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldFillIn propriété. Obtient ou définit si la réponse de lutilisateur doit être reçue une fois par opération de publipostage.
+linktitle: PromptOnceOnMailMerge
+articleTitle: PromptOnceOnMailMerge
+second_title: Aspose.Words pour .NET
+description: FieldFillIn PromptOnceOnMailMerge propriété. Obtient ou définit si la réponse de lutilisateur doit être reçue une fois par opération de publipostage en C#.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.fields/fieldfillin/promptonceonmailmerge/
@@ -14,7 +16,7 @@ Obtient ou définit si la réponse de l'utilisateur doit être reçue une fois p
 public bool PromptOnceOnMailMerge { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment utiliser le champ FILLIN pour demander une réponse à l'utilisateur.
 
@@ -63,7 +65,5 @@ private class PromptRespondent : IFieldUserPromptRespondent
 ### Voir également
 
 * class [FieldFillIn](../)
-* espace de noms [Aspose.Words.Fields](../../fieldfillin/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

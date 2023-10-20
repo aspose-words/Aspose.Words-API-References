@@ -1,9 +1,11 @@
 ---
 title: Stroke.Fill
-second_title: Aspose.Words för .NET API Referens
-description: Stroke fast egendom. Får fyllningsformatering förStroke .
+linktitle: Fill
+articleTitle: Fill
+second_title: Aspose.Words för .NET
+description: Stroke Fill fast egendom. Får fyllningsformatering förStroke  i C#.
 type: docs
-weight: 100
+weight: 90
 url: /sv/net/aspose.words.drawing/stroke/fill/
 ---
 ## Stroke.Fill property
@@ -14,7 +16,7 @@ Får fyllningsformatering för[`Stroke`](../) .
 public Fill Fill { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man ändrar slagegenskaper.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "Shape.Stroke.docx");
 
 * class [Fill](../../fill/)
 * class [Stroke](../)
-* namnutrymme [Aspose.Words.Drawing](../../stroke/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

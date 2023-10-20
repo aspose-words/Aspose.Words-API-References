@@ -1,7 +1,9 @@
 ---
 title: DropDownItemCollection.Remove
-second_title: Referencia de API de Aspose.Words para .NET
-description: DropDownItemCollection método. Elimina el valor especificado de la colección.
+linktitle: Remove
+articleTitle: Remove
+second_title: Aspose.Words para .NET
+description: DropDownItemCollection Remove método. Elimina el valor especificado de la colección en C#.
 type: docs
 weight: 90
 url: /es/net/aspose.words.fields/dropdownitemcollection/remove/
@@ -18,7 +20,7 @@ public void Remove(string name)
 | --- | --- | --- |
 | name | String | El valor que distingue entre mayúsculas y minúsculas para eliminar. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo insertar un campo de cuadro combinado y editar los elementos de su colección de elementos.
 
@@ -72,7 +74,5 @@ dropDownItems.Clear();
 ### Ver también
 
 * class [DropDownItemCollection](../)
-* espacio de nombres [Aspose.Words.Fields](../../dropdownitemcollection/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

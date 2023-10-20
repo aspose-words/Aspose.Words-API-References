@@ -1,9 +1,11 @@
 ---
 title: CellFormat.RightPadding
-second_title: Aspose.Words per .NET API Reference
-description: CellFormat proprietà. Restituisce o imposta la quantità di spazio in punti da aggiungere a destra del contenuto di cell.
+linktitle: RightPadding
+articleTitle: RightPadding
+second_title: Aspose.Words per .NET
+description: CellFormat RightPadding proprietà. Restituisce o imposta la quantità di spazio in punti da aggiungere a destra del contenuto di cell in C#.
 type: docs
-weight: 90
+weight: 80
 url: /it/net/aspose.words.tables/cellformat/rightpadding/
 ---
 ## CellFormat.RightPadding property
@@ -14,7 +16,7 @@ Restituisce o imposta la quantità di spazio (in punti) da aggiungere a destra d
 public double RightPadding { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come formattare le celle con un generatore di documenti.
 
@@ -61,7 +63,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.SetCellFormatting.docx");
 ### Guarda anche
 
 * class [CellFormat](../)
-* spazio dei nomi [Aspose.Words.Tables](../../cellformat/)
+* spazio dei nomi [Aspose.Words.Tables](../../../aspose.words.tables/)
 * assemblea [Aspose.Words](../../../)
-
-

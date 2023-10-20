@@ -1,7 +1,9 @@
 ---
 title: RowCollection.Item
-second_title: Aspose.Words für .NET-API-Referenz
-description: RowCollection eigendom. Ruft a abRow am angegebenen Index.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words für .NET
+description: RowCollection Item eigendom. Ruft a abRow am angegebenen Index in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words.tables/rowcollection/item/
@@ -18,7 +20,7 @@ public Row this[int index] { get; }
 | --- | --- |
 | index | Ein Index in die Sammlung. |
 
-### Bemerkungen
+## Bemerkungen
 
 Der Index ist nullbasiert.
 
@@ -28,7 +30,7 @@ Wenn der Index größer oder gleich der Anzahl der Elemente in der Liste ist, wi
 
 Wenn der Index negativ ist und sein absoluter Wert größer als die Anzahl der Elemente in der Liste ist, wird ein Nullverweis zurückgegeben.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie alle Tabellen im Dokument durchlaufen und der Inhalt jeder Zelle gedruckt werden.
 
@@ -75,7 +77,5 @@ for (int i = 0; i < tables.Count; i++)
 
 * class [Row](../../row/)
 * class [RowCollection](../)
-* namensraum [Aspose.Words.Tables](../../rowcollection/)
+* namensraum [Aspose.Words.Tables](../../../aspose.words.tables/)
 * Montage [Aspose.Words](../../../)
-
-

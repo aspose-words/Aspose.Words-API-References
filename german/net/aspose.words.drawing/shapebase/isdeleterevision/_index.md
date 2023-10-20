@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.IsDeleteRevision
-second_title: Aspose.Words für .NET-API-Referenz
-description: ShapeBase eigendom. Gibt true zurück wenn dieses Objekt in Microsoft Word gelöscht wurde während die Änderungsverfolgung aktiviert war.
+linktitle: IsDeleteRevision
+articleTitle: IsDeleteRevision
+second_title: Aspose.Words für .NET
+description: ShapeBase IsDeleteRevision eigendom. Gibt true zurück wenn dieses Objekt in Microsoft Word gelöscht wurde während die Änderungsverfolgung aktiviert war in C#.
 type: docs
 weight: 250
 url: /de/net/aspose.words.drawing/shapebase/isdeleterevision/
@@ -14,7 +16,7 @@ Gibt „true“ zurück, wenn dieses Objekt in Microsoft Word gelöscht wurde, w
 public bool IsDeleteRevision { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit Revisionsformen gearbeitet wird.
 
@@ -61,7 +63,5 @@ Assert.True(shapes[1].IsInsertRevision);
 ### Siehe auch
 
 * class [ShapeBase](../)
-* namensraum [Aspose.Words.Drawing](../../shapebase/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

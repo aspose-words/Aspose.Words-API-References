@@ -1,9 +1,11 @@
 ---
 title: Section.ClearContent
-second_title: Referencia de API de Aspose.Words para .NET
-description: Section método. Borra la sección.
+linktitle: ClearContent
+articleTitle: ClearContent
+second_title: Aspose.Words para .NET
+description: Section ClearContent método. Borra la sección en C#.
 type: docs
-weight: 110
+weight: 90
 url: /es/net/aspose.words/section/clearcontent/
 ---
 ## Section.ClearContent method
@@ -14,13 +16,13 @@ Borra la sección.
 public void ClearContent()
 ```
 
-### Observaciones
+## Observaciones
 
 el texto de[`Body`](../body/) se borra, solo queda un párrafo vacío que representa el salto de sección.
 
 Se borra el texto de todos los encabezados y pies de página, pero[`HeaderFooter`](../../headerfooter/) Los objetos en sí no se eliminan.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo borrar el contenido de una sección.
 
@@ -44,7 +46,5 @@ Assert.AreEqual(1, doc.FirstSection.Body.Paragraphs.Count);
 ### Ver también
 
 * class [Section](../)
-* espacio de nombres [Aspose.Words](../../section/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

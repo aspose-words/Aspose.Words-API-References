@@ -1,7 +1,9 @@
 ---
 title: Shape.SignatureLine
-second_title: Справочник по API Aspose.Words для .NET
-description: Shape свойство. ПолучаетSignatureLine объект если фигура является линией подписи. Возвратнулевой иначе.
+linktitle: SignatureLine
+articleTitle: SignatureLine
+second_title: Aspose.Words для .NET
+description: Shape SignatureLine свойство. ПолучаетSignatureLine объект если фигура является линией подписи. Возвратнулевой иначе на С#.
 type: docs
 weight: 160
 url: /ru/net/aspose.words.drawing/shape/signatureline/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.drawing/shape/signatureline/
 public SignatureLine SignatureLine { get; }
 ```
 
-### Примечания
+## Примечания
 
 Вы можете вставить новые[`SignatureLine`](../../signatureline/) в документ, используя[`InsertSignatureLine`](../../../aspose.words/documentbuilder/insertsignatureline/) and
 
-### Примеры
+## Примеры
 
 Показывает, как создать строку для подписи и вставить ее в документ.
 
@@ -64,7 +66,5 @@ doc.Save(ArtifactsDir + "Shape.SignatureLine.docx");
 
 * class [SignatureLine](../../signatureline/)
 * class [Shape](../)
-* пространство имен [Aspose.Words.Drawing](../../shape/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

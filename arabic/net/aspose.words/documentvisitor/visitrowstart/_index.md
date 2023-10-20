@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitRowStart
-second_title: Aspose.Words لمراجع .NET API
-description: DocumentVisitor طريقة. يتم استدعاؤه عند بدء تعداد صف الجدول.
+linktitle: VisitRowStart
+articleTitle: VisitRowStart
+second_title: Aspose.Words لـ .NET
+description: DocumentVisitor VisitRowStart طريقة. يتم استدعاؤه عند بدء تعداد صف الجدول في C#.
 type: docs
 weight: 350
 url: /ar/net/aspose.words/documentvisitor/visitrowstart/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitRowStart(Row row)
 
 أ[`VisitorAction`](../../visitoraction/) القيمة التي تحدد كيفية متابعة التعداد.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية طباعة بنية العقدة لكل جدول في المستند.
 
@@ -187,7 +189,5 @@ public class TableStructurePrinter : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [Row](../../../aspose.words.tables/row/)
 * class [DocumentVisitor](../)
-* مساحة الاسم [Aspose.Words](../../documentvisitor/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

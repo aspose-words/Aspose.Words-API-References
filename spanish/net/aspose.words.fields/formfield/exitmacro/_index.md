@@ -1,7 +1,9 @@
 ---
 title: FormField.ExitMacro
-second_title: Referencia de API de Aspose.Words para .NET
-description: FormField propiedad. Devuelve o establece un nombre de macro de salida para el campo del formulario.
+linktitle: ExitMacro
+articleTitle: ExitMacro
+second_title: Aspose.Words para .NET
+description: FormField ExitMacro propiedad. Devuelve o establece un nombre de macro de salida para el campo del formulario en C#.
 type: docs
 weight: 90
 url: /es/net/aspose.words.fields/formfield/exitmacro/
@@ -14,13 +16,13 @@ Devuelve o establece un nombre de macro de salida para el campo del formulario.
 public string ExitMacro { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 La macro de salida se ejecuta cuando el campo del formulario pierde el foco en Microsoft Word.
 
 Microsoft Word permite cadenas con un máximo de 32 caracteres.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo insertar diferentes tipos de campos de formulario en un documento y procesarlos mediante una implementación de visitante de documentos.
 
@@ -154,7 +156,5 @@ public class FormFieldVisitor : DocumentVisitor
 ### Ver también
 
 * class [FormField](../)
-* espacio de nombres [Aspose.Words.Fields](../../formfield/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

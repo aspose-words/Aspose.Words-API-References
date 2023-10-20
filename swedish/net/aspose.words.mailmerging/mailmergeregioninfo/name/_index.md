@@ -1,7 +1,9 @@
 ---
 title: MailMergeRegionInfo.Name
-second_title: Aspose.Words för .NET API Referens
-description: MailMergeRegionInfo fast egendom. Returnerar namnet på regionen.
+linktitle: Name
+articleTitle: Name
+second_title: Aspose.Words för .NET
+description: MailMergeRegionInfo Name fast egendom. Returnerar namnet på regionen i C#.
 type: docs
 weight: 60
 url: /sv/net/aspose.words.mailmerging/mailmergeregioninfo/name/
@@ -14,7 +16,7 @@ Returnerar namnet på regionen.
 public string Name { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man verifierar kopplingsregioner.
 
@@ -59,7 +61,5 @@ Assert.AreEqual("TableEnd:NestedRegion1", endFieldMergeField.FieldName);
 ### Se även
 
 * class [MailMergeRegionInfo](../)
-* namnutrymme [Aspose.Words.MailMerging](../../mailmergeregioninfo/)
+* namnutrymme [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * hopsättning [Aspose.Words](../../../)
-
-

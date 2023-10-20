@@ -1,7 +1,9 @@
 ---
 title: Table.AllowCellSpacing
-second_title: Aspose.Words für .NET-API-Referenz
-description: Table eigendom. Ruft die Option Abstand zwischen Zellen zulassen ab oder legt diese fest.
+linktitle: AllowCellSpacing
+articleTitle: AllowCellSpacing
+second_title: Aspose.Words für .NET
+description: Table AllowCellSpacing eigendom. Ruft die Option Abstand zwischen Zellen zulassen ab oder legt diese fest in C#.
 type: docs
 weight: 60
 url: /de/net/aspose.words.tables/table/allowcellspacing/
@@ -14,7 +16,7 @@ Ruft die Option „Abstand zwischen Zellen zulassen“ ab oder legt diese fest.
 public bool AllowCellSpacing { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie der Abstand zwischen einzelnen Zellen in einer Tabelle aktiviert wird.
 
@@ -53,7 +55,5 @@ Assert.True(table.AllowCellSpacing);
 ### Siehe auch
 
 * class [Table](../)
-* namensraum [Aspose.Words.Tables](../../table/)
+* namensraum [Aspose.Words.Tables](../../../aspose.words.tables/)
 * Montage [Aspose.Words](../../../)
-
-

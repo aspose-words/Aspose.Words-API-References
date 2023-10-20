@@ -1,7 +1,9 @@
 ---
 title: Node.CustomNodeId
-second_title: Referencia de API de Aspose.Words para .NET
-description: Node propiedad. Especifica el identificador de nodo personalizado.
+linktitle: CustomNodeId
+articleTitle: CustomNodeId
+second_title: Aspose.Words para .NET
+description: Node CustomNodeId propiedad. Especifica el identificador de nodo personalizado en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words/node/customnodeid/
@@ -14,7 +16,7 @@ Especifica el identificador de nodo personalizado.
 public int CustomNodeId { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 El valor predeterminado es cero.
 
@@ -22,7 +24,7 @@ Este identificador se puede configurar y utilizar de forma arbitraria. Por ejemp
 
 Nota importante: el valor especificado no se guarda en un archivo de salida y existe solo durante la vida útil del nodo.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo recorrer la colección de nodos secundarios de un nodo compuesto.
 
@@ -67,7 +69,5 @@ foreach (Node child in children)
 ### Ver también
 
 * class [Node](../)
-* espacio de nombres [Aspose.Words](../../node/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

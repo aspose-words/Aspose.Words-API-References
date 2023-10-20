@@ -1,7 +1,9 @@
 ---
 title: MailMergeSettings.AddressFieldName
-second_title: Справочник по API Aspose.Words для .NET
-description: MailMergeSettings свойство. Указывает столбец в источнике данных содержащий адреса электронной почты. Значение по умолчанию  пустая строка.
+linktitle: AddressFieldName
+articleTitle: AddressFieldName
+second_title: Aspose.Words для .NET
+description: MailMergeSettings AddressFieldName свойство. Указывает столбец в источнике данных содержащий адреса электронной почты. Значение по умолчанию  пустая строка на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.settings/mailmergesettings/addressfieldname/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.settings/mailmergesettings/addressfieldname/
 public string AddressFieldName { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как выполнить слияние почты при подключении к внешнему источнику данных.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "MailMerge.OdsoEmail.docx");
 ### Смотрите также
 
 * class [MailMergeSettings](../)
-* пространство имен [Aspose.Words.Settings](../../mailmergesettings/)
+* пространство имен [Aspose.Words.Settings](../../../aspose.words.settings/)
 * сборка [Aspose.Words](../../../)
-
-

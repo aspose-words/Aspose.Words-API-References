@@ -1,7 +1,9 @@
 ---
 title: BuildingBlock.Type
-second_title: Aspose.Words für .NET-API-Referenz
-description: BuildingBlock eigendom. Gibt den Bausteintyp an.
+linktitle: Type
+articleTitle: Type
+second_title: Aspose.Words für .NET
+description: BuildingBlock Type eigendom. Gibt den Bausteintyp an in C#.
 type: docs
 weight: 120
 url: /de/net/aspose.words.buildingblocks/buildingblock/type/
@@ -14,13 +16,13 @@ Gibt den Bausteintyp an.
 public BuildingBlockType Type { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Der Bausteintyp kann die Sichtbarkeit und das Verhalten des Bausteins in Microsoft Word beeinflussen.
 
-Entspricht dem **docPartPr.types** Element in OOXML.
+Entspricht dem**docPartPr.types** Element in OOXML.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man einem Dokument einen benutzerdefinierten Baustein hinzufügt.
 
@@ -118,7 +120,5 @@ public class BuildingBlockVisitor : DocumentVisitor
 
 * enum [BuildingBlockType](../../buildingblocktype/)
 * class [BuildingBlock](../)
-* namensraum [Aspose.Words.BuildingBlocks](../../buildingblock/)
+* namensraum [Aspose.Words.BuildingBlocks](../../../aspose.words.buildingblocks/)
 * Montage [Aspose.Words](../../../)
-
-

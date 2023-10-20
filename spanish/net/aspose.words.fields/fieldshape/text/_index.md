@@ -1,7 +1,9 @@
 ---
 title: FieldShape.Text
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldShape propiedad. Obtiene o establece el texto a recuperar.
+linktitle: Text
+articleTitle: Text
+second_title: Aspose.Words para .NET
+description: FieldShape Text propiedad. Obtiene o establece el texto a recuperar en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words.fields/fieldshape/text/
@@ -14,7 +16,7 @@ Obtiene o establece el texto a recuperar.
 public string Text { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear listas compatibles con idiomas de derecha a izquierda con campos BIDIOUTLINE.
 
@@ -83,7 +85,5 @@ Assert.AreEqual(ShapeType.OleObject, shape.ShapeType);
 ### Ver también
 
 * class [FieldShape](../)
-* espacio de nombres [Aspose.Words.Fields](../../fieldshape/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

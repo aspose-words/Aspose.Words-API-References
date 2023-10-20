@@ -1,9 +1,11 @@
 ---
 title: Section.DeleteHeaderFooterShapes
-second_title: Aspose.Words for .NET API 参考
-description: Section 方法. 删除本节页眉和页脚中的所有形状绘图对象
+linktitle: DeleteHeaderFooterShapes
+articleTitle: DeleteHeaderFooterShapes
+second_title: 用于 .NET 的 Aspose.Words
+description: Section DeleteHeaderFooterShapes 方法. 删除本节页眉和页脚中的所有形状绘图对象 在 C#.
 type: docs
-weight: 140
+weight: 120
 url: /zh/net/aspose.words/section/deleteheaderfootershapes/
 ---
 ## Section.DeleteHeaderFooterShapes method
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/section/deleteheaderfootershapes/
 public void DeleteHeaderFooterShapes()
 ```
 
-### 例子
+## 例子
 
 演示如何从节中的所有页眉页脚中删除所有形状。
 
@@ -43,7 +45,5 @@ Assert.AreEqual(0, doc.FirstSection.HeadersFooters[HeaderFooterType.FooterPrimar
 ### 也可以看看
 
 * class [Section](../)
-* 命名空间 [Aspose.Words](../../section/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

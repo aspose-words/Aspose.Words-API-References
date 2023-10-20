@@ -1,12 +1,14 @@
 ---
 title: Aspose.Words.Fields
-second_title: Referencia de API de Aspose.Words para .NET
-description: El Aspose.Palabras.Campos El espacio de nombres contiene clases que representan campos de Microsoft Word en un documento.
+linktitle: Aspose.Words.Fields
+articleTitle: Aspose.Words.Fields
+second_title: Aspose.Words para .NET
+description: ElAspose.Palabras.Campos El espacio de nombres contiene clases que representan campos de Microsoft Word en un documento en C#.
 type: docs
 weight: 80
 url: /es/net/aspose.words.fields/
 ---
-El **Aspose.Palabras.Campos** El espacio de nombres contiene clases que representan campos de Microsoft Word en un documento.
+El**Aspose.Palabras.Campos** El espacio de nombres contiene clases que representan campos de Microsoft Word en un documento.
 
 ## Clases
 
@@ -153,5 +155,3 @@ El **Aspose.Palabras.Campos** El espacio de nombres contiene clases que represen
 | [GeneralFormat](./generalformat/) | Especifica un formato general que se aplica a un resultado numérico, de texto o de cualquier campo. Un campo puede tener una combinación de formatos generales. |
 | [MergeFieldImageDimensionUnit](./mergefieldimagedimensionunit/) | Especifica una unidad de dimensión de imagen (es decir, el ancho o el alto) utilizada en un proceso de combinación de correspondencia. |
 | [TextFormFieldType](./textformfieldtype/) | Especifica el tipo de campo de formulario de texto. |
-
-

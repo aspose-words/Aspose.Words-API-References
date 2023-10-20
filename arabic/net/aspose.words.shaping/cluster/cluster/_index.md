@@ -1,7 +1,9 @@
 ---
-title: Cluster.Cluster
-second_title: Aspose.Words لمراجع .NET API
-description: Cluster البناء. تهيئة المثيل الجديد لهذه الفئة.
+title: Cluster
+linktitle: Cluster
+articleTitle: Cluster
+second_title: Aspose.Words لـ .NET
+description: Cluster البناء. تهيئة المثيل الجديد لهذه الفئة في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.shaping/cluster/cluster/
@@ -23,7 +25,5 @@ public Cluster(int[] codepoints, Glyph[] glyphs)
 
 * class [Glyph](../../glyph/)
 * class [Cluster](../)
-* مساحة الاسم [Aspose.Words.Shaping](../../cluster/)
+* مساحة الاسم [Aspose.Words.Shaping](../../../aspose.words.shaping/)
 * المجسم [Aspose.Words](../../../)
-
-

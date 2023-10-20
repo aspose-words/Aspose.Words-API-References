@@ -1,7 +1,9 @@
 ---
 title: CompareOptions.IgnoreFormatting
-second_title: Aspose.Words per .NET API Reference
-description: CompareOptions proprietà. True indica che la formattazione viene ignorata. Per impostazione predefinita la formattazione del documento non viene ignorata.
+linktitle: IgnoreFormatting
+articleTitle: IgnoreFormatting
+second_title: Aspose.Words per .NET
+description: CompareOptions IgnoreFormatting proprietà. True indica che la formattazione viene ignorata. Per impostazione predefinita la formattazione del documento non viene ignorata in C#.
 type: docs
 weight: 90
 url: /it/net/aspose.words.comparing/compareoptions/ignoreformatting/
@@ -14,7 +16,7 @@ True indica che la formattazione viene ignorata. Per impostazione predefinita, l
 public bool IgnoreFormatting { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come filtrare tipi specifici di elementi del documento quando si effettua un confronto.
 
@@ -88,7 +90,5 @@ docOriginal.Save(ArtifactsDir + "Document.CompareOptions.docx");
 ### Guarda anche
 
 * class [CompareOptions](../)
-* spazio dei nomi [Aspose.Words.Comparing](../../compareoptions/)
+* spazio dei nomi [Aspose.Words.Comparing](../../../aspose.words.comparing/)
 * assemblea [Aspose.Words](../../../)
-
-

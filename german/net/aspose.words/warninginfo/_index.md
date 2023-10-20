@@ -1,7 +1,9 @@
 ---
-title: Class WarningInfo
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.WarningInfo klas. Enthält Informationen zu einer Warnung die Aspose.Words beim Laden oder Speichern von Dokumenten ausgegeben hat.
+title: WarningInfo Class
+linktitle: WarningInfo
+articleTitle: WarningInfo
+second_title: Aspose.Words für .NET
+description: Aspose.Words.WarningInfo klas. Enthält Informationen zu einer Warnung die Aspose.Words beim Laden oder Speichern von Dokumenten ausgegeben hat in C#.
 type: docs
 weight: 6630
 url: /de/net/aspose.words/warninginfo/
@@ -24,11 +26,11 @@ public class WarningInfo
 | [Source](../../aspose.words/warninginfo/source/) { get; } | Gibt die Quelle der Warnung zurück. |
 | [WarningType](../../aspose.words/warninginfo/warningtype/) { get; } | Gibt den Typ der Warnung zurück. |
 
-### Bemerkungen
+## Bemerkungen
 
 Sie erstellen keine Instanzen dieser Klasse. Objekte dieser Klasse werden erstellt und von Aspose.Words an übergeben[`Warning`](../iwarningcallback/warning/) Methode.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Eigenschaft festgelegt wird, um die beste Übereinstimmung für eine fehlende Schriftart aus den verfügbaren Schriftartquellen zu finden.
 
@@ -89,5 +91,3 @@ public class HandleDocumentSubstitutionWarnings : IWarningCallback
 
 * namensraum [Aspose.Words](../../aspose.words/)
 * Montage [Aspose.Words](../../)
-
-

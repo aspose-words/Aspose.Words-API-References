@@ -1,7 +1,9 @@
 ---
-title: Enum FindReplaceDirection
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Replacing.FindReplaceDirection opsomming. Gibt die Richtung für Ersetzungsvorgänge an.
+title: FindReplaceDirection Enum
+linktitle: FindReplaceDirection
+articleTitle: FindReplaceDirection
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Replacing.FindReplaceDirection opsomming. Gibt die Richtung für Ersetzungsvorgänge an in C#.
 type: docs
 weight: 4610
 url: /de/net/aspose.words.replacing/findreplacedirection/
@@ -21,7 +23,7 @@ public enum FindReplaceDirection
 | Forward | `0` | Übereinstimmende Elemente werden vom ersten bis zum letzten ersetzt. |
 | Backward | `1` | Übereinstimmende Elemente werden vom letzten zum ersten ersetzt. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie bestimmen, in welche Richtung ein Suchen-und-Ersetzen-Vorgang das Dokument durchläuft.
 
@@ -88,5 +90,3 @@ private class TextReplacementRecorder : IReplacingCallback
 
 * namensraum [Aspose.Words.Replacing](../../aspose.words.replacing/)
 * Montage [Aspose.Words](../../)
-
-

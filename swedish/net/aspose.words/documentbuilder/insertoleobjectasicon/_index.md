@@ -1,12 +1,14 @@
 ---
 title: DocumentBuilder.InsertOleObjectAsIcon
-second_title: Aspose.Words för .NET API Referens
-description: DocumentBuilder metod. Infogar ett inbäddat eller länkat OLEobjekt som ikon i dokumentet. Tillåter att ange ikonfil och bildtext. Upptäcker OLEobjekttyp med filtillägg.
+linktitle: InsertOleObjectAsIcon
+articleTitle: InsertOleObjectAsIcon
+second_title: Aspose.Words för .NET
+description: DocumentBuilder InsertOleObjectAsIcon metod. Infogar ett inbäddat eller länkat OLEobjekt som ikon i dokumentet. Tillåter att ange ikonfil och bildtext. Upptäcker OLEobjekttyp med filtillägg i C#.
 type: docs
-weight: 410
+weight: 400
 url: /sv/net/aspose.words/documentbuilder/insertoleobjectasicon/
 ---
-## InsertOleObjectAsIcon(string, bool, string, string) {#insertoleobjectasicon_1}
+## InsertOleObjectAsIcon(*string, bool, string, string*) {#insertoleobjectasicon_1}
 
 Infogar ett inbäddat eller länkat OLE-objekt som ikon i dokumentet. Tillåter att ange ikonfil och bildtext. Upptäcker OLE-objekttyp med filtillägg.
 
@@ -26,7 +28,7 @@ public Shape InsertOleObjectAsIcon(string fileName, bool isLinked, string iconFi
 
 Formnod som innehåller Ole-objektet och infogat vid den aktuella Builder-positionen.
 
-### Exempel
+## Exempel
 
 Visar hur man infogar ett OLE-objekt i ett dokument.
 
@@ -63,12 +65,12 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertOleObject.docx");
 
 * class [Shape](../../../aspose.words.drawing/shape/)
 * class [DocumentBuilder](../)
-* namnutrymme [Aspose.Words](../../documentbuilder/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## InsertOleObjectAsIcon(string, string, bool, string, string) {#insertoleobjectasicon_2}
+## InsertOleObjectAsIcon(*string, string, bool, string, string*) {#insertoleobjectasicon_2}
 
 Infogar ett inbäddat eller länkat OLE-objekt som ikon i dokumentet. Tillåter att ange ikonfil och bildtext. Upptäcker OLE-objekttyp med hjälp av given progID-parameter.
 
@@ -89,7 +91,7 @@ public Shape InsertOleObjectAsIcon(string fileName, string progId, bool isLinked
 
 Formnod som innehåller Ole-objektet och infogat vid den aktuella Builder-positionen.
 
-### Exempel
+## Exempel
 
 Visar hur man infogar ett inbäddat eller länkat OLE-objekt som ikon i dokumentet.
 
@@ -122,12 +124,12 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertOleObjectAsIcon.docx");
 
 * class [Shape](../../../aspose.words.drawing/shape/)
 * class [DocumentBuilder](../)
-* namnutrymme [Aspose.Words](../../documentbuilder/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## InsertOleObjectAsIcon(Stream, string, string, string) {#insertoleobjectasicon}
+## InsertOleObjectAsIcon(*Stream, string, string, string*) {#insertoleobjectasicon}
 
 Infogar ett inbäddat OLE-objekt som ikon från en ström i dokumentet. Tillåter att ange ikonfil och bildtext. Upptäcker OLE-objekttyp med hjälp av given progID-parameter.
 
@@ -147,7 +149,7 @@ public Shape InsertOleObjectAsIcon(Stream stream, string progId, string iconFile
 
 Formnod som innehåller Ole-objektet och infogat vid den aktuella Builder-positionen.
 
-### Exempel
+## Exempel
 
 Visar hur man infogar ett inbäddat eller länkat OLE-objekt som ikon i dokumentet.
 
@@ -180,7 +182,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertOleObjectAsIcon.docx");
 
 * class [Shape](../../../aspose.words.drawing/shape/)
 * class [DocumentBuilder](../)
-* namnutrymme [Aspose.Words](../../documentbuilder/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

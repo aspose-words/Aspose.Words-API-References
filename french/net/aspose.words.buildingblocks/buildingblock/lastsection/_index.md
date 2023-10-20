@@ -1,7 +1,9 @@
 ---
 title: BuildingBlock.LastSection
-second_title: Référence de l'API Aspose.Words pour .NET
-description: BuildingBlock propriété. Obtient la dernière section du bloc de construction.
+linktitle: LastSection
+articleTitle: LastSection
+second_title: Aspose.Words pour .NET
+description: BuildingBlock LastSection propriété. Obtient la dernière section du bloc de construction en C#.
 type: docs
 weight: 80
 url: /fr/net/aspose.words.buildingblocks/buildingblock/lastsection/
@@ -14,11 +16,11 @@ Obtient la dernière section du bloc de construction.
 public Section LastSection { get; }
 ```
 
-### Remarques
+## Remarques
 
 Retours`nul` s'il n'y a pas de sections.
 
-### Exemples
+## Exemples
 
 Montre comment ajouter un bloc de construction personnalisé à un document.
 
@@ -116,7 +118,5 @@ public class BuildingBlockVisitor : DocumentVisitor
 
 * class [Section](../../../aspose.words/section/)
 * class [BuildingBlock](../)
-* espace de noms [Aspose.Words.BuildingBlocks](../../buildingblock/)
+* espace de noms [Aspose.Words.BuildingBlocks](../../../aspose.words.buildingblocks/)
 * Assemblée [Aspose.Words](../../../)
-
-

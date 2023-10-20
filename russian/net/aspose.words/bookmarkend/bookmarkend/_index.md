@@ -1,7 +1,9 @@
 ---
-title: BookmarkEnd.BookmarkEnd
-second_title: Справочник по API Aspose.Words для .NET
-description: BookmarkEnd строитель. Инициализирует новый экземплярBookmarkEnd класс.
+title: BookmarkEnd
+linktitle: BookmarkEnd
+articleTitle: BookmarkEnd
+second_title: Aspose.Words для .NET
+description: BookmarkEnd строитель. Инициализирует новый экземплярBookmarkEnd класс на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words/bookmarkend/bookmarkend/
@@ -19,7 +21,7 @@ public BookmarkEnd(DocumentBase doc, string name)
 | doc | DocumentBase | Документ владельца. |
 | name | String | Имя закладки. Не может быть`нулевой`. |
 
-### Примеры
+## Примеры
 
 Показывает, как добавлять закладки и обновлять их содержимое.
 
@@ -109,7 +111,5 @@ public class BookmarkInfoPrinter : DocumentVisitor
 
 * class [DocumentBase](../../documentbase/)
 * class [BookmarkEnd](../)
-* пространство имен [Aspose.Words](../../bookmarkend/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

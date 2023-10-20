@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitRun
-second_title: Aspose.Words لمراجع .NET API
-description: DocumentVisitor طريقة. يتم الاتصال به عند مواجهة سلسلة من النص في.
+linktitle: VisitRun
+articleTitle: VisitRun
+second_title: Aspose.Words لـ .NET
+description: DocumentVisitor VisitRun طريقة. يتم الاتصال به عند مواجهة سلسلة من النص في في C#.
 type: docs
 weight: 360
 url: /ar/net/aspose.words/documentvisitor/visitrun/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitRun(Run run)
 
 أ[`VisitorAction`](../../visitoraction/) القيمة التي تحدد كيفية متابعة التعداد.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام زائر المستند لطباعة بنية عقدة المستند.
 
@@ -193,7 +195,5 @@ public class DocStructurePrinter : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [Run](../../run/)
 * class [DocumentVisitor](../)
-* مساحة الاسم [Aspose.Words](../../documentvisitor/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

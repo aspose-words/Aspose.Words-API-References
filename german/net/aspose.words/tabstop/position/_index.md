@@ -1,7 +1,9 @@
 ---
 title: TabStop.Position
-second_title: Aspose.Words für .NET-API-Referenz
-description: TabStop eigendom. Ermittelt die Position des Tabstopps in Punkten.
+linktitle: Position
+articleTitle: Position
+second_title: Aspose.Words für .NET
+description: TabStop Position eigendom. Ermittelt die Position des Tabstopps in Punkten in C#.
 type: docs
 weight: 50
 url: /de/net/aspose.words/tabstop/position/
@@ -14,7 +16,7 @@ Ermittelt die Position des Tabstopps in Punkten.
 public double Position { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Position des rechten Tabstopps in Inhaltsverzeichnis-bezogenen Absätzen geändert wird.
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "Styles.ChangeTocsTabStops.docx");
 ### Siehe auch
 
 * class [TabStop](../)
-* namensraum [Aspose.Words](../../tabstop/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

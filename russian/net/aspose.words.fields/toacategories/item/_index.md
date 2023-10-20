@@ -1,7 +1,9 @@
 ---
 title: ToaCategories.Item
-second_title: Справочник по API Aspose.Words для .NET
-description: ToaCategories свойство. Получает или задает заголовок категории по номеру категории.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words для .NET
+description: ToaCategories Item свойство. Получает или задает заголовок категории по номеру категории на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.fields/toacategories/item/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/toacategories/item/
 public string this[int number] { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как указать набор категорий для полей TOA.
 
@@ -62,7 +64,5 @@ doc.Save(ArtifactsDir + "FieldOptions.TOA.Categories.docx");
 ### Смотрите также
 
 * class [ToaCategories](../)
-* пространство имен [Aspose.Words.Fields](../../toacategories/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

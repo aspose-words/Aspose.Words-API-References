@@ -1,7 +1,9 @@
 ---
 title: FieldCitation.VolumeNumber
-second_title: Aspose.Words لمراجع .NET API
-description: FieldCitation ملكية. الحصول على أو تعيين رقم المجلد المرتبط بالاستشهاد.
+linktitle: VolumeNumber
+articleTitle: VolumeNumber
+second_title: Aspose.Words لـ .NET
+description: FieldCitation VolumeNumber ملكية. الحصول على أو تعيين رقم المجلد المرتبط بالاستشهاد في C#.
 type: docs
 weight: 110
 url: /ar/net/aspose.words.fields/fieldcitation/volumenumber/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldcitation/volumenumber/
 public string VolumeNumber { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع حقول CITATION وBIBLIOGRAPHY.
 
@@ -68,7 +70,5 @@ doc.Save(ArtifactsDir + "Field.CITATION.docx");
 ### أنظر أيضا
 
 * class [FieldCitation](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldcitation/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

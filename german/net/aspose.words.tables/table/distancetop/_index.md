@@ -1,7 +1,9 @@
 ---
 title: Table.DistanceTop
-second_title: Aspose.Words für .NET-API-Referenz
-description: Table eigendom. Ruft den Abstand zwischen der Tischplatte und dem umgebenden Text in Punkten ab oder legt diesen fest.
+linktitle: DistanceTop
+articleTitle: DistanceTop
+second_title: Aspose.Words für .NET
+description: Table DistanceTop eigendom. Ruft den Abstand zwischen der Tischplatte und dem umgebenden Text in Punkten ab oder legt diesen fest in C#.
 type: docs
 weight: 150
 url: /de/net/aspose.words.tables/table/distancetop/
@@ -14,7 +16,7 @@ Ruft den Abstand zwischen der Tischplatte und dem umgebenden Text in Punkten ab 
 public double DistanceTop { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie der Abstand zwischen Tabellengrenzen und Text festgelegt wird.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "Table.DistanceBetweenTableAndText.docx");
 ### Siehe auch
 
 * class [Table](../)
-* namensraum [Aspose.Words.Tables](../../table/)
+* namensraum [Aspose.Words.Tables](../../../aspose.words.tables/)
 * Montage [Aspose.Words](../../../)
-
-

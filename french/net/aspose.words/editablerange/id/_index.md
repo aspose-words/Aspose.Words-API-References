@@ -1,7 +1,9 @@
 ---
 title: EditableRange.Id
-second_title: Référence de l'API Aspose.Words pour .NET
-description: EditableRange propriété. Obtient lidentifiant de plage modifiable.
+linktitle: Id
+articleTitle: Id
+second_title: Aspose.Words pour .NET
+description: EditableRange Id propriété. Obtient lidentifiant de plage modifiable en C#.
 type: docs
 weight: 40
 url: /fr/net/aspose.words/editablerange/id/
@@ -14,13 +16,13 @@ Obtient l'identifiant de plage modifiable.
 public int Id { get; }
 ```
 
-### Remarques
+## Remarques
 
 La région doit être délimitée à l'aide du[`EditableRangeStart`](../editablerangestart/) et[`EditableRangeEnd`](../editablerangeend/)
 
 Les identifiants de plage modifiables sont censés être uniques dans un document et Aspose.Words conserve automatiquement les identifiants de plage modifiables lors du chargement, de l'enregistrement et de la combinaison de documents.
 
-### Exemples
+## Exemples
 
 Montre comment travailler avec une plage modifiable.
 
@@ -66,7 +68,5 @@ editableRange.Remove();
 ### Voir également
 
 * class [EditableRange](../)
-* espace de noms [Aspose.Words](../../editablerange/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

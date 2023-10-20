@@ -1,7 +1,9 @@
 ---
 title: FieldOptions.PreProcessCulture
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldOptions propriété. Obtient ou définit la culture pour prétraiter les valeurs des champs.
+linktitle: PreProcessCulture
+articleTitle: PreProcessCulture
+second_title: Aspose.Words pour .NET
+description: FieldOptions PreProcessCulture propriété. Obtient ou définit la culture pour prétraiter les valeurs des champs en C#.
 type: docs
 weight: 170
 url: /fr/net/aspose.words.fields/fieldoptions/preprocessculture/
@@ -14,13 +16,13 @@ Obtient ou définit la culture pour prétraiter les valeurs des champs.
 public CultureInfo PreProcessCulture { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 Actuellement, cette propriété n'affecte que la valeur du[`FieldDocProperty`](../../fielddocproperty/) champ.
 
 La valeur par défaut est`nul` . Lorsque cette propriété est définie sur`nul` , le[`FieldDocProperty`](../../fielddocproperty/)la valeur du champ est preprocessed avec la culture contrôlée par le[`FieldUpdateCultureSource`](../fieldupdateculturesource/) propriété.
 
-### Exemples
+## Exemples
 
 Montre comment définir la culture de prétraitement.
 
@@ -47,7 +49,5 @@ Assert.IsTrue(Regex.Match(field.Result, @"\d{2}[/]\d{2}[/]\d{4} \d{2}[:]\d{2}").
 ### Voir également
 
 * class [FieldOptions](../)
-* espace de noms [Aspose.Words.Fields](../../fieldoptions/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

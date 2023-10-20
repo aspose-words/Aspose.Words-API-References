@@ -1,7 +1,9 @@
 ---
-title: Class Cluster
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Shaping.Cluster 班级. 封装组成字素的代码点和字形
+title: Cluster Class
+linktitle: Cluster
+articleTitle: Cluster
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Shaping.Cluster 班级. 封装组成字素的代码点和字形 在 C#.
 type: docs
 weight: 6010
 url: /zh/net/aspose.words.shaping/cluster/
@@ -18,7 +20,7 @@ public class Cluster
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Cluster](cluster/)(int[], Glyph[]) | 初始化此类的新实例。 |
+| [Cluster](cluster/)(*int[], Glyph[]*) | 初始化此类的新实例。 |
 
 ## 特性
 
@@ -34,12 +36,10 @@ public class Cluster
 | --- | --- |
 | [DeepClone](../../aspose.words.shaping/cluster/deepclone/)() | 返回此实例的深度克隆。 |
 | [GetString](../../aspose.words.shaping/cluster/getstring/)() | 创建String使用此集群中的代码点。 |
-| [GetWidth](../../aspose.words.shaping/cluster/getwidth/)(int, float) | 返回簇的宽度。 |
-| static [GetString](../../aspose.words.shaping/cluster/getstring/)(Cluster[]) | 创建String使用指定簇中的代码点。 |
+| [GetWidth](../../aspose.words.shaping/cluster/getwidth/)(*int, float*) | 返回簇的宽度。 |
+| static [GetString](../../aspose.words.shaping/cluster/getstring/)(*Cluster[]*) | 创建String使用指定簇中的代码点。 |
 
 ### 也可以看看
 
 * 命名空间 [Aspose.Words.Shaping](../../aspose.words.shaping/)
 * 部件 [Aspose.Words](../../)
-
-

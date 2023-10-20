@@ -1,7 +1,9 @@
 ---
-title: Enum ChapterPageSeparator
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.ChapterPageSeparator 枚举. 定义出现在章节和页码之间的分隔符
+title: ChapterPageSeparator Enum
+linktitle: ChapterPageSeparator
+articleTitle: ChapterPageSeparator
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.ChapterPageSeparator 枚举. 定义出现在章节和页码之间的分隔符 在 C#.
 type: docs
 weight: 200
 url: /zh/net/aspose.words/chapterpageseparator/
@@ -24,7 +26,7 @@ public enum ChapterPageSeparator
 | EmDash | `3` | 强调的破折号。 |
 | EnDash | `4` | 标准破折号。 |
 
-### 例子
+## 例子
 
 展示如何使用页面章节。
 
@@ -44,5 +46,3 @@ pageSetup.HeadingLevelForChapter = 1;
 * property [ChapterPageSeparator](../pagesetup/chapterpageseparator/)
 * 命名空间 [Aspose.Words](../../aspose.words/)
 * 部件 [Aspose.Words](../../)
-
-

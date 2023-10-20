@@ -1,7 +1,9 @@
 ---
 title: ListCollection.GetEnumerator
-second_title: Aspose.Words لمراجع .NET API
-description: ListCollection طريقة. الحصول على كائن العداد الذي سيقوم بتعداد القوائم في المستند.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words لـ .NET
+description: ListCollection GetEnumerator طريقة. الحصول على كائن العداد الذي سيقوم بتعداد القوائم في المستند في C#.
 type: docs
 weight: 60
 url: /ar/net/aspose.words.lists/listcollection/getenumerator/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.lists/listcollection/getenumerator/
 public IEnumerator<List> GetEnumerator()
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء مستند باستخدام عينة من كافة القوائم من مستند آخر.
 
@@ -54,7 +56,5 @@ private static void AddListSample(DocumentBuilder builder, List list)
 
 * class [List](../../list/)
 * class [ListCollection](../)
-* مساحة الاسم [Aspose.Words.Lists](../../listcollection/)
+* مساحة الاسم [Aspose.Words.Lists](../../../aspose.words.lists/)
 * المجسم [Aspose.Words](../../../)
-
-

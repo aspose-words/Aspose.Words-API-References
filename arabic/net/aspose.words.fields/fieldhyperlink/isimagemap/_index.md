@@ -1,7 +1,9 @@
 ---
 title: FieldHyperlink.IsImageMap
-second_title: Aspose.Words لمراجع .NET API
-description: FieldHyperlink ملكية. الحصول على أو تعيين ما إذا كان سيتم إلحاق الإحداثيات بالارتباط التشعبي لخريطة الصور من جانب الخادم.
+linktitle: IsImageMap
+articleTitle: IsImageMap
+second_title: Aspose.Words لـ .NET
+description: FieldHyperlink IsImageMap ملكية. الحصول على أو تعيين ما إذا كان سيتم إلحاق الإحداثيات بالارتباط التشعبي لخريطة الصور من جانب الخادم في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.fields/fieldhyperlink/isimagemap/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldhyperlink/isimagemap/
 public bool IsImageMap { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام حقول HYPERLINK للارتباط بالمستندات الموجودة في نظام الملفات المحلي.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "Field.HYPERLINK.docx");
 ### أنظر أيضا
 
 * class [FieldHyperlink](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldhyperlink/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

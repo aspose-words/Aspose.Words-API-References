@@ -1,7 +1,9 @@
 ---
 title: TextPath.XScale
-second_title: Aspose.Words for .NET API 参考
-description: TextPath 财产. 确定是否使用直文本路径而不是形状路径
+linktitle: XScale
+articleTitle: XScale
+second_title: 用于 .NET 的 Aspose.Words
+description: TextPath XScale 财产. 确定是否使用直文本路径而不是形状路径 在 C#.
 type: docs
 weight: 200
 url: /zh/net/aspose.words.drawing/textpath/xscale/
@@ -14,13 +16,13 @@ url: /zh/net/aspose.words.drawing/textpath/xscale/
 public bool XScale { get; set; }
 ```
 
-### 评论
+## 评论
 
 默认值为`错误的`。
 
 如果`真的`，文本沿着形状下边界 的 x 值从左到右的路径延伸。
 
-### 例子
+## 例子
 
 演示如何使用艺术字。
 
@@ -123,7 +125,5 @@ private static Shape AppendWordArt(Document doc, string text, string textFontFam
 ### 也可以看看
 
 * class [TextPath](../)
-* 命名空间 [Aspose.Words.Drawing](../../textpath/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

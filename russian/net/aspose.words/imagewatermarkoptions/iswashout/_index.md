@@ -1,7 +1,9 @@
 ---
 title: ImageWatermarkOptions.IsWashout
-second_title: Справочник по API Aspose.Words для .NET
-description: ImageWatermarkOptions свойство. Получает или задает логическое значение отвечающее за эффект размытия водяного знака. Значение по умолчаниюистинный .
+linktitle: IsWashout
+articleTitle: IsWashout
+second_title: Aspose.Words для .NET
+description: ImageWatermarkOptions IsWashout свойство. Получает или задает логическое значение отвечающее за эффект размытия водяного знака. Значение по умолчаниюистинный  на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words/imagewatermarkoptions/iswashout/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/imagewatermarkoptions/iswashout/
 public bool IsWashout { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как создать водяной знак из изображения в локальной файловой системе.
 
@@ -42,7 +44,5 @@ Document doc = new Document();
 ### Смотрите также
 
 * class [ImageWatermarkOptions](../)
-* пространство имен [Aspose.Words](../../imagewatermarkoptions/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

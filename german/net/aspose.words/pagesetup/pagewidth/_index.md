@@ -1,7 +1,9 @@
 ---
 title: PageSetup.PageWidth
-second_title: Aspose.Words für .NET-API-Referenz
-description: PageSetup eigendom. Gibt die Breite der Seite in Punkten zurück oder legt sie fest.
+linktitle: PageWidth
+articleTitle: PageWidth
+second_title: Aspose.Words für .NET
+description: PageSetup PageWidth eigendom. Gibt die Breite der Seite in Punkten zurück oder legt sie fest in C#.
 type: docs
 weight: 340
 url: /de/net/aspose.words/pagesetup/pagewidth/
@@ -14,7 +16,7 @@ Gibt die Breite der Seite in Punkten zurück oder legt sie fest.
 public double PageWidth { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man ein Bild einfügt und es als Wasserzeichen verwendet.
 
@@ -99,7 +101,5 @@ doc.Save(ArtifactsDir + "Image.CreateFloatingPositionSize.docx");
 ### Siehe auch
 
 * class [PageSetup](../)
-* namensraum [Aspose.Words](../../pagesetup/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

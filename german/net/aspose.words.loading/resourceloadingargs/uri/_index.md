@@ -1,7 +1,9 @@
 ---
 title: ResourceLoadingArgs.Uri
-second_title: Aspose.Words für .NET-API-Referenz
-description: ResourceLoadingArgs eigendom. URI der Ressource die zum Herunterladen von verwendet wird wennResourceLoading kehrt zurückDefault.
+linktitle: Uri
+articleTitle: Uri
+second_title: Aspose.Words für .NET
+description: ResourceLoadingArgs Uri eigendom. URI der Ressource die zum Herunterladen von verwendet wird wennResourceLoading kehrt zurückDefault in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.loading/resourceloadingargs/uri/
@@ -19,7 +21,5 @@ public string Uri { get; set; }
 ### Siehe auch
 
 * class [ResourceLoadingArgs](../)
-* namensraum [Aspose.Words.Loading](../../resourceloadingargs/)
+* namensraum [Aspose.Words.Loading](../../../aspose.words.loading/)
 * Montage [Aspose.Words](../../../)
-
-

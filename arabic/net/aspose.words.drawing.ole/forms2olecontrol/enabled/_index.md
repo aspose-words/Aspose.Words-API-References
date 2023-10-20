@@ -1,7 +1,9 @@
 ---
 title: Forms2OleControl.Enabled
-second_title: Aspose.Words لمراجع .NET API
-description: Forms2OleControl ملكية. إرجاعحقيقي إذا كان التحكم في حالة التمكين.
+linktitle: Enabled
+articleTitle: Enabled
+second_title: Aspose.Words لـ .NET
+description: Forms2OleControl Enabled ملكية. إرجاعحقيقي إذا كان التحكم في حالة التمكين في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.drawing.ole/forms2olecontrol/enabled/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing.ole/forms2olecontrol/enabled/
 public bool Enabled { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التحقق من خصائص عنصر تحكم ActiveX.
 
@@ -44,7 +46,5 @@ if (oleControl.IsForms2OleControl)
 ### أنظر أيضا
 
 * class [Forms2OleControl](../)
-* مساحة الاسم [Aspose.Words.Drawing.Ole](../../forms2olecontrol/)
+* مساحة الاسم [Aspose.Words.Drawing.Ole](../../../aspose.words.drawing.ole/)
 * المجسم [Aspose.Words](../../../)
-
-

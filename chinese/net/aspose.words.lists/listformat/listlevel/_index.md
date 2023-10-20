@@ -1,7 +1,9 @@
 ---
 title: ListFormat.ListLevel
-second_title: Aspose.Words for .NET API 参考
-description: ListFormat 财产. 返回列表级别格式以及应用于当前段落的任何格式覆盖
+linktitle: ListLevel
+articleTitle: ListLevel
+second_title: 用于 .NET 的 Aspose.Words
+description: ListFormat ListLevel 财产. 返回列表级别格式以及应用于当前段落的任何格式覆盖 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.lists/listformat/listlevel/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.lists/listformat/listlevel/
 public ListLevel ListLevel { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何在使用 DocumentBuilder 时将自定义列表格式应用于段落。
 
@@ -74,7 +76,5 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateCustomList.docx");
 
 * class [ListLevel](../../listlevel/)
 * class [ListFormat](../)
-* 命名空间 [Aspose.Words.Lists](../../listformat/)
+* 命名空间 [Aspose.Words.Lists](../../../aspose.words.lists/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Fill.BackThemeColor
-second_title: Справочник по API Aspose.Words для .NET
-description: Fill свойство. Получает или задает объект ThemeColor который представляет цвет фона для заливки.
+linktitle: BackThemeColor
+articleTitle: BackThemeColor
+second_title: Aspose.Words для .NET
+description: Fill BackThemeColor свойство. Получает или задает объект ThemeColor который представляет цвет фона для заливки на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.drawing/fill/backthemecolor/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.drawing/fill/backthemecolor/
 public ThemeColor BackThemeColor { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как установить цвет темы для цвета фигуры переднего плана/фона.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "Shape.FillThemeColor.docx");
 
 * enum [ThemeColor](../../../aspose.words.themes/themecolor/)
 * class [Fill](../)
-* пространство имен [Aspose.Words.Drawing](../../fill/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

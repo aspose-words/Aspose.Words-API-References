@@ -1,7 +1,9 @@
 ---
-title: Enum RelativeHorizontalSize
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Drawing.RelativeHorizontalSize uppräkning. Anger i förhållande till vad bredden på en form eller en textram beräknas horisontellt.
+title: RelativeHorizontalSize Enum
+linktitle: RelativeHorizontalSize
+articleTitle: RelativeHorizontalSize
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Drawing.RelativeHorizontalSize uppräkning. Anger i förhållande till vad bredden på en form eller en textram beräknas horisontellt i C#.
 type: docs
 weight: 1200
 url: /sv/net/aspose.words.drawing/relativehorizontalsize/
@@ -26,7 +28,7 @@ public enum RelativeHorizontalSize
 | OuterMargin | `5` | Anger att bredden beräknas i förhållande till yttermarginalområdets storlek, till högermarginalområdets storlek för udda sidor och till vänstermarginalens områdesstorlek för jämna sidor. |
 | Default | `1` | Standardvärdet ärMargin . |
 
-### Exempel
+## Exempel
 
 Visar hur man ställer in relativ storlek och position.
 
@@ -83,5 +85,3 @@ doc.Save(ArtifactsDir + "Shape.RelativeSizeAndPosition.docx");
 * property [RelativeHorizontalSize](../shapebase/relativehorizontalsize/)
 * namnutrymme [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../)
-
-

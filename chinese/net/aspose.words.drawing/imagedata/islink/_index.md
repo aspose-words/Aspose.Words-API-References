@@ -1,7 +1,9 @@
 ---
 title: ImageData.IsLink
-second_title: Aspose.Words for .NET API 参考
-description: ImageData 财产. 返回真的如果图像链接到形状当SourceFullName已指定.
+linktitle: IsLink
+articleTitle: IsLink
+second_title: 用于 .NET 的 Aspose.Words
+description: ImageData IsLink 财产. 返回真的如果图像链接到形状当SourceFullName已指定 在 C#.
 type: docs
 weight: 150
 url: /zh/net/aspose.words.drawing/imagedata/islink/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.drawing/imagedata/islink/
 public bool IsLink { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何编辑形状的图像数据。
 
@@ -77,7 +79,5 @@ dstDoc.Save(ArtifactsDir + "Drawing.ImageData.docx");
 ### 也可以看看
 
 * class [ImageData](../)
-* 命名空间 [Aspose.Words.Drawing](../../imagedata/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

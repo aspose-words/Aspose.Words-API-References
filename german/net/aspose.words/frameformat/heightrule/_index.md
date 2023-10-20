@@ -1,7 +1,9 @@
 ---
 title: FrameFormat.HeightRule
-second_title: Aspose.Words für .NET-API-Referenz
-description: FrameFormat eigendom. Ruft die Regel zur Bestimmung der Höhe des angegebenen Frames ab.
+linktitle: HeightRule
+articleTitle: HeightRule
+second_title: Aspose.Words für .NET
+description: FrameFormat HeightRule eigendom. Ruft die Regel zur Bestimmung der Höhe des angegebenen Frames ab in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words/frameformat/heightrule/
@@ -14,7 +16,7 @@ Ruft die Regel zur Bestimmung der Höhe des angegebenen Frames ab.
 public HeightRule HeightRule { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie Informationen zu Formatierungseigenschaften von Absätzen erhalten, die Rahmen sind.
 
@@ -40,7 +42,5 @@ Assert.AreEqual(0.0d, paragraphFrame.FrameFormat.VerticalDistanceFromText);
 
 * enum [HeightRule](../../heightrule/)
 * class [FrameFormat](../)
-* namensraum [Aspose.Words](../../frameformat/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

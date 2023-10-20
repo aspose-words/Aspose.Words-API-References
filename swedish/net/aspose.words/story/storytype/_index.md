@@ -1,7 +1,9 @@
 ---
 title: Story.StoryType
-second_title: Aspose.Words för .NET API Referens
-description: Story fast egendom. Hämtar typen av denna berättelse.
+linktitle: StoryType
+articleTitle: StoryType
+second_title: Aspose.Words för .NET
+description: Story StoryType fast egendom. Hämtar typen av denna berättelse i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words/story/storytype/
@@ -14,7 +16,7 @@ Hämtar typen av denna berättelse.
 public StoryType StoryType { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man tar bort alla former från en nod.
 
@@ -39,7 +41,5 @@ Assert.AreEqual(0, doc.GetChildNodes(NodeType.Shape, true).Count);
 
 * enum [StoryType](../../storytype/)
 * class [Story](../)
-* namnutrymme [Aspose.Words](../../story/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

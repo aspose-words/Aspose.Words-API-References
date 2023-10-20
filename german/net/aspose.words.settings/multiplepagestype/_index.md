@@ -1,7 +1,9 @@
 ---
-title: Enum MultiplePagesType
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Settings.MultiplePagesType opsomming. Gibt an wie das Dokument ausgedruckt wird.
+title: MultiplePagesType Enum
+linktitle: MultiplePagesType
+articleTitle: MultiplePagesType
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Settings.MultiplePagesType opsomming. Gibt an wie das Dokument ausgedruckt wird in C#.
 type: docs
 weight: 5870
 url: /de/net/aspose.words.settings/multiplepagestype/
@@ -29,5 +31,3 @@ public enum MultiplePagesType
 
 * namensraum [Aspose.Words.Settings](../../aspose.words.settings/)
 * Montage [Aspose.Words](../../)
-
-

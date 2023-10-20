@@ -1,7 +1,9 @@
 ---
 title: FieldFillIn.PromptText
-second_title: Aspose.Words for .NET API 参考
-description: FieldFillIn 财产. 获取或设置提示文本提示窗口的标题
+linktitle: PromptText
+articleTitle: PromptText
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldFillIn PromptText 财产. 获取或设置提示文本提示窗口的标题 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.fields/fieldfillin/prompttext/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fieldfillin/prompttext/
 public string PromptText { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何使用 FILLIN 字段提示用户做出响应。
 
@@ -63,7 +65,5 @@ private class PromptRespondent : IFieldUserPromptRespondent
 ### 也可以看看
 
 * class [FieldFillIn](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldfillin/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

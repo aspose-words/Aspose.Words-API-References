@@ -1,7 +1,9 @@
 ---
-title: Class SpecialChar
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.SpecialChar klas. Basisklasse für Sonderzeichen im Dokument.
+title: SpecialChar Class
+linktitle: SpecialChar
+articleTitle: SpecialChar
+second_title: Aspose.Words für .NET
+description: Aspose.Words.SpecialChar klas. Basisklasse für Sonderzeichen im Dokument in C#.
 type: docs
 weight: 6100
 url: /de/net/aspose.words/specialchar/
@@ -40,18 +42,18 @@ public class SpecialChar : Inline
 
 | Name | Beschreibung |
 | --- | --- |
-| override [Accept](../../aspose.words/specialchar/accept/)(DocumentVisitor) | Akzeptiert einen Besucher. |
-| [Clone](../../aspose.words/node/clone/)(bool) | Erstellt ein Duplikat des Knotens. |
-| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Ruft den ersten Vorfahren des angegebenen ab[`NodeType`](../nodetype/) . |
-| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Ruft den ersten Vorfahren des angegebenen Objekttyps ab. |
+| override [Accept](../../aspose.words/specialchar/accept/)(*[DocumentVisitor](../documentvisitor/)*) | Akzeptiert einen Besucher. |
+| [Clone](../../aspose.words/node/clone/)(*bool*) | Erstellt ein Duplikat des Knotens. |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*[NodeType](../nodetype/)*) | Ruft den ersten Vorfahren des angegebenen ab[`NodeType`](../nodetype/) . |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | Ruft den ersten Vorfahren des angegebenen Objekttyps ab. |
 | override [GetText](../../aspose.words/specialchar/gettext/)() | Ruft das Sonderzeichen ab, das dieser Knoten darstellt. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Ruft den nächsten Knoten gemäß dem Pre-Order-Tree-Traversal-Algorithmus ab. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Ruft den vorherigen Knoten gemäß dem Pre-Order-Tree-Traversal-Algorithmus ab. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../node/)*) | Ruft den nächsten Knoten gemäß dem Pre-Order-Tree-Traversal-Algorithmus ab. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../node/)*) | Ruft den vorherigen Knoten gemäß dem Pre-Order-Tree-Traversal-Algorithmus ab. |
 | [Remove](../../aspose.words/node/remove/)() | Entfernt sich selbst vom übergeordneten Element. |
-| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Exportiert den Inhalt des Knotens in einen String im angegebenen Format. |
-| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | Exportiert den Inhalt des Knotens mit den angegebenen Speicheroptionen in einen String. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../saveformat/)*) | Exportiert den Inhalt des Knotens in einen String im angegebenen Format. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | Exportiert den Inhalt des Knotens mit den angegebenen Speicheroptionen in einen String. |
 
-### Bemerkungen
+## Bemerkungen
 
 Ein Microsoft Word-Dokument kann eine Reihe von Sonderzeichen enthalten, die Felder, Formularfelder, Formen, OLE-Objekte, Fußnoten usw. darstellen. Die Liste der Sonderzeichen finden Sie unter[`ControlChar`](../controlchar/).
 
@@ -59,7 +61,7 @@ Ein Microsoft Word-Dokument kann eine Reihe von Sonderzeichen enthalten, die Fel
 
 `SpecialChar` char wird als Basisklasse für spezifischere Klassen verwendet, die Sonderzeichen darstellen, für die Aspose.Words programmgesteuerten Zugriff bietet. Die`SpecialChar` Die Klasse selbst wird auch verwendet, um Sonderzeichen darzustellen, für die which Aspose.Words keinen detaillierten programmgesteuerten Zugriff bietet.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie mithilfe einer DocumentVisitor-Implementierung alle ausgeblendeten Inhalte aus einem Dokument entfernen.
 
@@ -257,5 +259,3 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
 * class [Inline](../inline/)
 * namensraum [Aspose.Words](../../aspose.words/)
 * Montage [Aspose.Words](../../)
-
-

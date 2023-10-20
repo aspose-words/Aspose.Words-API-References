@@ -1,7 +1,9 @@
 ---
-title: FieldListNum.FieldListNum
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldListNum constructor. Constructor predeterminado
+title: FieldListNum
+linktitle: FieldListNum
+articleTitle: FieldListNum
+second_title: Aspose.Words para .NET
+description: FieldListNum constructor. Constructor predeterminado en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words.fields/fieldlistnum/fieldlistnum/
@@ -17,7 +19,5 @@ public FieldListNum()
 ### Ver también
 
 * class [FieldListNum](../)
-* espacio de nombres [Aspose.Words.Fields](../../fieldlistnum/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

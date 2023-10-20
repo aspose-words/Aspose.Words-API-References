@@ -1,24 +1,26 @@
 ---
 title: ReplacingArgs.Match
-second_title: Referencia de API de Aspose.Words para .NET
-description: ReplacingArgs propiedad. ElMatch resultante de una única coincidencia de expresión regular durante una Reemplazar .
+linktitle: Match
+articleTitle: Match
+second_title: Aspose.Words para .NET
+description: ReplacingArgs Match propiedad. ElMatch resultante de una única coincidencia de expresión regular durante unaReemplazar  en C#.
 type: docs
 weight: 30
 url: /es/net/aspose.words.replacing/replacingargs/match/
 ---
 ## ReplacingArgs.Match property
 
-ElMatch resultante de una única coincidencia de expresión regular durante una **Reemplazar** .
+ElMatch resultante de una única coincidencia de expresión regular durante una**Reemplazar** .
 
 ```csharp
 public Match Match { get; }
 ```
 
-### Observaciones
+## Observaciones
 
 **Índice de coincidencia"** obtiene la posición Starting de base cero de la coincidencia desde el inicio del rango de búsqueda y reemplazo.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo aplicar una fuente diferente a contenido nuevo a través de FindReplaceOptions.
 
@@ -91,7 +93,5 @@ private class NumberHexer : IReplacingCallback
 ### Ver también
 
 * class [ReplacingArgs](../)
-* espacio de nombres [Aspose.Words.Replacing](../../replacingargs/)
+* espacio de nombres [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * asamblea [Aspose.Words](../../../)
-
-

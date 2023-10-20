@@ -1,7 +1,9 @@
 ---
 title: Shading.BackgroundPatternThemeColor
-second_title: Aspose.Words für .NET-API-Referenz
-description: Shading eigendom. Ruft die Designfarbe des Hintergrundmusters in dem damit verbundenen angewendeten Farbschema ab oder legt diese festShading Objekt.
+linktitle: BackgroundPatternThemeColor
+articleTitle: BackgroundPatternThemeColor
+second_title: Aspose.Words für .NET
+description: Shading BackgroundPatternThemeColor eigendom. Ruft die Designfarbe des Hintergrundmusters in dem damit verbundenen angewendeten Farbschema ab oder legt diese festShading Objekt in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words/shading/backgroundpatternthemecolor/
@@ -14,7 +16,7 @@ Ruft die Designfarbe des Hintergrundmusters in dem damit verbundenen angewendete
 public ThemeColor BackgroundPatternThemeColor { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man Vordergrund- und Hintergrundfarben für die Schattierungstextur festlegt.
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "Font.ForegroundAndBackground.docx");
 
 * enum [ThemeColor](../../../aspose.words.themes/themecolor/)
 * class [Shading](../)
-* namensraum [Aspose.Words](../../shading/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

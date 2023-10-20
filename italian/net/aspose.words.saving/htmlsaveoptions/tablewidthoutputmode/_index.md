@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.TableWidthOutputMode
-second_title: Aspose.Words per .NET API Reference
-description: HtmlSaveOptions proprietà. Controlla il modo in cui la larghezza di tabelle righe e celle viene esportata in HTML MHTML o EPUB. Il valore predefinito èAll .
+linktitle: TableWidthOutputMode
+articleTitle: TableWidthOutputMode
+second_title: Aspose.Words per .NET
+description: HtmlSaveOptions TableWidthOutputMode proprietà. Controlla il modo in cui la larghezza di tabelle righe e celle viene esportata in HTML MHTML o EPUB. Il valore predefinito èAll  in C#.
 type: docs
 weight: 460
 url: /it/net/aspose.words.saving/htmlsaveoptions/tablewidthoutputmode/
@@ -14,15 +16,15 @@ Controlla il modo in cui la larghezza di tabelle, righe e celle viene esportata 
 public HtmlElementSizeOutputMode TableWidthOutputMode { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
-Nel formato HTML, gli elementi di tabella, riga e cella ( **&lt;tabella&gt;** , **&lt;tr&gt;** , **&lt;th&gt;** , **&lt;td&gt;**) possono avere la larghezza specificata in unità relative (percentuali) o assolute. In un documento in Aspose.Words, tabelle, righe e celle possono avere la larghezza specificata utilizzando anche unità relative o assolute.
+Nel formato HTML, gli elementi di tabella, riga e cella (**&lt;tabella&gt;** ,**&lt;tr&gt;** ,**&lt;th&gt;** ,**&lt;td&gt;**) possono avere la larghezza specificata in unità relative (percentuali) o assolute. In un documento in Aspose.Words, tabelle, righe e celle possono avere la larghezza specificata utilizzando anche unità relative o assolute.
 
 Quando converti un documento in HTML utilizzando Aspose.Words, potresti voler controllare come le larghezze di tabella, riga e cella vengono esportate per influenzare il modo in cui il documento risultante viene visualizzato nell'agente visivo (ad esempio un browser o visualizzatore).
 
 Utilizza questa proprietà come filtro per specificare quali valori di larghezza della tabella vengono esportati nel documento di destinazione. Ad esempio, se stai convertendo un documento in EPUB e intendi visualizzare il documento su un dispositivo di lettura mobile, probabilmente vorrai evitare esportando valori di larghezza assoluti. Per fare ciò è necessario specificare la modalità di outputRelativeOnly ONone in modo che chi visualizza sul dispositivo mobile possa disporre la tabella per adattarla al meglio alla larghezza dello schermo.
 
-### Esempi
+## Esempi
 
 Mostra come preservare i rientri negativi nell'output .html.
 
@@ -85,7 +87,5 @@ else
 
 * enum [HtmlElementSizeOutputMode](../../htmlelementsizeoutputmode/)
 * class [HtmlSaveOptions](../)
-* spazio dei nomi [Aspose.Words.Saving](../../htmlsaveoptions/)
+* spazio dei nomi [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../../)
-
-

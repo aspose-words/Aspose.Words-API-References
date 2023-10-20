@@ -1,7 +1,9 @@
 ---
 title: ShadowFormat.Visible
-second_title: Aspose.Words لمراجع .NET API
-description: ShadowFormat ملكية. إرجاعحقيقي إذا كان التنسيق المطبق على هذا المثيل مرئيًا.
+linktitle: Visible
+articleTitle: Visible
+second_title: Aspose.Words لـ .NET
+description: ShadowFormat Visible ملكية. إرجاعحقيقي إذا كان التنسيق المطبق على هذا المثيل مرئيًا في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.drawing/shadowformat/visible/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.drawing/shadowformat/visible/
 public bool Visible { get; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 على عكس[`Clear`](../clear/) ، إسناد`خطأ شنيع` إلى مرئي لا يمسح التنسيق، فهو يخفي تأثير الشكل فقط.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع تنسيق الظل للشكل.
 
@@ -36,7 +38,5 @@ if (shape.ShadowFormat.Type == ShadowType.ShadowMixed)
 ### أنظر أيضا
 
 * class [ShadowFormat](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../shadowformat/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

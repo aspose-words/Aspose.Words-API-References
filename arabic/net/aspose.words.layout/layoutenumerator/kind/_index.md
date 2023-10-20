@@ -1,7 +1,9 @@
 ---
 title: LayoutEnumerator.Kind
-second_title: Aspose.Words لمراجع .NET API
-description: LayoutEnumerator ملكية. الحصول على نوع الكيان الحالي. يمكن أن تكون هذه سلسلة فارغة ولكن أبدًاباطل .
+linktitle: Kind
+articleTitle: Kind
+second_title: Aspose.Words لـ .NET
+description: LayoutEnumerator Kind ملكية. الحصول على نوع الكيان الحالي. يمكن أن تكون هذه سلسلة فارغة ولكن أبدًاباطل  في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.layout/layoutenumerator/kind/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.layout/layoutenumerator/kind/
 public string Kind { get; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 يعد هذا نوعًا أكثر تحديدًا للكيان الحالي، على سبيل المثال، يحتوي نطاق الإشارة المرجعيةSpan قد يحتوي النوع and على النوع BOOKMARKSTART أو BOOKMARKEND.
 
-### أمثلة
+## أمثلة
 
 يُظهر طرق اجتياز كيانات تخطيط المستند.
 
@@ -163,7 +165,5 @@ private static void PrintCurrentEntity(LayoutEnumerator layoutEnumerator, int in
 ### أنظر أيضا
 
 * class [LayoutEnumerator](../)
-* مساحة الاسم [Aspose.Words.Layout](../../layoutenumerator/)
+* مساحة الاسم [Aspose.Words.Layout](../../../aspose.words.layout/)
 * المجسم [Aspose.Words](../../../)
-
-

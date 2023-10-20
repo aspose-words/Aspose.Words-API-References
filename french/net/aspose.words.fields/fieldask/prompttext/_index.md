@@ -1,7 +1,9 @@
 ---
 title: FieldAsk.PromptText
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldAsk propriété. Obtient ou définit le texte dinvite le titre de la fenêtre dinvite.
+linktitle: PromptText
+articleTitle: PromptText
+second_title: Aspose.Words pour .NET
+description: FieldAsk PromptText propriété. Obtient ou définit le texte dinvite le titre de la fenêtre dinvite en C#.
 type: docs
 weight: 50
 url: /fr/net/aspose.words.fields/fieldask/prompttext/
@@ -14,7 +16,7 @@ Obtient ou définit le texte d'invite (le titre de la fenêtre d'invite).
 public string PromptText { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment créer un champ ASK et définir ses propriétés.
 
@@ -76,7 +78,5 @@ private class MyPromptRespondent : IFieldUserPromptRespondent
 ### Voir également
 
 * class [FieldAsk](../)
-* espace de noms [Aspose.Words.Fields](../../fieldask/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

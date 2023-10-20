@@ -1,9 +1,11 @@
 ---
 title: Paragraph.JoinRunsWithSameFormatting
-second_title: Справочник по API Aspose.Words для .NET
-description: Paragraph метод. Объединяет прогоны с тем же форматированием в абзаце.
+linktitle: JoinRunsWithSameFormatting
+articleTitle: JoinRunsWithSameFormatting
+second_title: Aspose.Words для .NET
+description: Paragraph JoinRunsWithSameFormatting метод. Объединяет прогоны с тем же форматированием в абзаце на С#.
 type: docs
-weight: 300
+weight: 280
 url: /ru/net/aspose.words/paragraph/joinrunswithsameformatting/
 ---
 ## Paragraph.JoinRunsWithSameFormatting method
@@ -16,9 +18,9 @@ public int JoinRunsWithSameFormatting()
 
 ### Возвращаемое значение
 
-Количество выполненных объединений. Когда **Н** соседние трассы соединяются, они считаются **Н - 1** присоединяется.
+Количество выполненных объединений. Когда**Н** соседние трассы соединяются, они считаются**Н - 1** присоединяется.
 
-### Примеры
+## Примеры
 
 Показывает, как упростить абзацы, объединив лишние фрагменты.
 
@@ -59,7 +61,5 @@ Assert.AreEqual("Run 4. ", para.Runs[1].Text);
 ### Смотрите также
 
 * class [Paragraph](../)
-* пространство имен [Aspose.Words](../../paragraph/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

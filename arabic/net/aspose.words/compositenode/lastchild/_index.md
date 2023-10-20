@@ -1,7 +1,9 @@
 ---
 title: CompositeNode.LastChild
-second_title: Aspose.Words لمراجع .NET API
-description: CompositeNode ملكية. يحصل على الطفل الأخير للعقدة.
+linktitle: LastChild
+articleTitle: LastChild
+second_title: Aspose.Words لـ .NET
+description: CompositeNode LastChild ملكية. يحصل على الطفل الأخير للعقدة في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words/compositenode/lastchild/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words/compositenode/lastchild/
 public Node LastChild { get; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 إذا لم تكن هناك عقدة تابعة أخيرة، أ`باطل` تم إرجاعها.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام طريقتي Node وCompositeNode لإزالة قسم قبل القسم الأخير في المستند.
 
@@ -46,7 +48,5 @@ Assert.AreEqual("Section 2 text.", doc.GetText().Trim());
 
 * class [Node](../../node/)
 * class [CompositeNode](../)
-* مساحة الاسم [Aspose.Words](../../compositenode/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

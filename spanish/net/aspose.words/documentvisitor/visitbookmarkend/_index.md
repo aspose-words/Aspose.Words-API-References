@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitBookmarkEnd
-second_title: Referencia de API de Aspose.Words para .NET
-description: DocumentVisitor método. Se llama cuando se encuentra el final de un marcador en el documento.
+linktitle: VisitBookmarkEnd
+articleTitle: VisitBookmarkEnd
+second_title: Aspose.Words para .NET
+description: DocumentVisitor VisitBookmarkEnd método. Se llama cuando se encuentra el final de un marcador en el documento en C#.
 type: docs
 weight: 40
 url: /es/net/aspose.words/documentvisitor/visitbookmarkend/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitBookmarkEnd(BookmarkEnd bookmarkEnd)
 
 A[`VisitorAction`](../../visitoraction/) valor que especifica cómo continuar la enumeración.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo agregar marcadores y actualizar su contenido.
 
@@ -113,7 +115,5 @@ public class BookmarkInfoPrinter : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [BookmarkEnd](../../bookmarkend/)
 * class [DocumentVisitor](../)
-* espacio de nombres [Aspose.Words](../../documentvisitor/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

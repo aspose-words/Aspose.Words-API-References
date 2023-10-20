@@ -1,12 +1,14 @@
 ---
 title: MailMerge.ExecuteWithRegions
-second_title: Aspose.Words för .NET API Referens
-description: MailMerge metod. Utför en koppling av epost från en anpassad datakälla med kopplingsregioner.
+linktitle: ExecuteWithRegions
+articleTitle: ExecuteWithRegions
+second_title: Aspose.Words för .NET
+description: MailMerge ExecuteWithRegions metod. Utför en koppling av epost från en anpassad datakälla med kopplingsregioner i C#.
 type: docs
 weight: 200
 url: /sv/net/aspose.words.mailmerging/mailmerge/executewithregions/
 ---
-## ExecuteWithRegions(IMailMergeDataSource) {#executewithregions}
+## ExecuteWithRegions(*[IMailMergeDataSource](../../imailmergedatasource/)*) {#executewithregions}
 
 Utför en koppling av e-post från en anpassad datakälla med kopplingsregioner.
 
@@ -18,13 +20,13 @@ public void ExecuteWithRegions(IMailMergeDataSource dataSource)
 | --- | --- | --- |
 | dataSource | IMailMergeDataSource | Ett objekt som implementerar det anpassade gränssnittet för kopplingsdatakällan. |
 
-### Anmärkningar
+## Anmärkningar
 
 Använd den här metoden för att fylla sammankopplingsfält i dokumentet med värden from alla anpassade datakällor som en XML-fil eller samlingar av affärsobjekt. Du måste skriva din egen klass som implementerar[`IMailMergeDataSource`](../../imailmergedatasource/) gränssnitt.
 
 Du kan bara använda den här metoden när[`IsBidiTextSupportedOnUpdate`](../../../aspose.words.fields/fieldoptions/isbiditextsupportedonupdate/) är`falsk`, det vill säga att du inte behöver höger-till-vänster-språk (som arabiska eller hebreiska) kompatibilitet.
 
-### Exempel
+## Exempel
 
 Visar hur man använder kopplingsregioner för att köra en kapslad koppling.
 
@@ -271,12 +273,12 @@ public class OrderMailMergeDataSource : IMailMergeDataSource
 
 * interface [IMailMergeDataSource](../../imailmergedatasource/)
 * class [MailMerge](../)
-* namnutrymme [Aspose.Words.MailMerging](../../mailmerge/)
+* namnutrymme [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## ExecuteWithRegions(IMailMergeDataSourceRoot) {#executewithregions_1}
+## ExecuteWithRegions(*[IMailMergeDataSourceRoot](../../imailmergedatasourceroot/)*) {#executewithregions_1}
 
 Utför en koppling av e-post från en anpassad datakälla med kopplingsregioner.
 
@@ -288,13 +290,13 @@ public void ExecuteWithRegions(IMailMergeDataSourceRoot dataSourceRoot)
 | --- | --- | --- |
 | dataSourceRoot | IMailMergeDataSourceRoot | Ett objekt som implementerar rotgränssnittet för den anpassade kopplingsdatakällan. |
 
-### Anmärkningar
+## Anmärkningar
 
 Använd den här metoden för att fylla sammankopplingsfält i dokumentet med värden from alla anpassade datakällor som en XML-fil eller samlingar av affärsobjekt. Du måste skriva dina egna classes som implementerar[`IMailMergeDataSourceRoot`](../../imailmergedatasourceroot/) och[`IMailMergeDataSource`](../../imailmergedatasource/) gränssnitt.
 
 Du kan bara använda den här metoden när[`IsBidiTextSupportedOnUpdate`](../../../aspose.words.fields/fieldoptions/isbiditextsupportedonupdate/) är`falsk`, det vill säga att du inte behöver höger-till-vänster-språk (som arabiska eller hebreiska) kompatibilitet.
 
-### Exempel
+## Exempel
 
 Utför sammanslagning från en anpassad datakälla med huvuddetaljdata.
 
@@ -478,14 +480,14 @@ private class EmployeeListMailMergeSource : IMailMergeDataSource
 
 * interface [IMailMergeDataSourceRoot](../../imailmergedatasourceroot/)
 * class [MailMerge](../)
-* namnutrymme [Aspose.Words.MailMerging](../../mailmerge/)
+* namnutrymme [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## ExecuteWithRegions(DataSet) {#executewithregions_2}
+## ExecuteWithRegions(*DataSet*) {#executewithregions_2}
 
-Utför sammanslagning från en **Dataset** till ett dokument med kopplingsregioner.
+Utför sammanslagning från en**Dataset** till ett dokument med kopplingsregioner.
 
 ```csharp
 public void ExecuteWithRegions(DataSet dataSet)
@@ -495,31 +497,31 @@ public void ExecuteWithRegions(DataSet dataSet)
 | --- | --- | --- |
 | dataSet | DataSet | **Dataset** som innehåller data som ska infogas i kopplingsfält. |
 
-### Anmärkningar
+## Anmärkningar
 
 Använd den här metoden för att utföra sammankoppling av brev från en eller flera tabeller till repeterbara mail sammanfogningsområden i dokumentet. Kopplingsområdena i dokumentet kommer dynamiskt att växa för att rymma poster i motsvarande tabeller.
 
-Varje bord i **Dataset** måste ha ett namn.
+Varje bord i**Dataset** måste ha ett namn.
 
-Dokumentet måste ha kopplingsregioner definierade med namn som hänvisar till tables i **Dataset**.
+Dokumentet måste ha kopplingsregioner definierade med namn som hänvisar till tables i**Dataset**.
 
 För att ange en kopplingsregion i dokumentet måste du infoga två kopplingsfält för att markera början och slutet av kopplingsområdet.
 
-Allt dokumentinnehåll som ingår i en kopplingsregion kommer automatiskt att upprepas för varje post i **Datatabell**.
+Allt dokumentinnehåll som ingår i en kopplingsregion kommer automatiskt att upprepas för varje post i**Datatabell**.
 
-För att markera början av en kopplingsregion, infoga ett MERGEFIELD med namnet TableStart:MyTable, där MyTable motsvarar ett av tabellnamnen i din **Dataset**.
+För att markera början av en kopplingsregion, infoga ett MERGEFIELD med namnet TableStart:MyTable, där MyTable motsvarar ett av tabellnamnen i din**Dataset**.
 
 För att markera slutet av kopplingsområdet infogar du ett annat MERGEFIELD med namnet TableEnd:MyTable.
 
 För att infoga ett MERGEFIELD i Word använd kommandot Insert/Field och välj MergeField och skriv sedan fältets namn.
 
-De **TableStart** och **TableEnd** fält måste finnas i samma avsnitt i ditt dokument.
+De**TableStart** och**TableEnd** fält måste finnas i samma avsnitt i ditt dokument.
 
-Om det används inuti ett bord, **TableStart** och **TableEnd** måste vara inne på samma rad i tabellen.
+Om det används inuti ett bord,**TableStart** och**TableEnd** måste vara inne på samma rad i tabellen.
 
-Kopplingsregioner i ett dokument bör vara väl utformade (det måste alltid finnas ett par matchning  **TableStart** och **TableEnd** slå samman fält med samma tabellnamn).
+Kopplingsregioner i ett dokument bör vara väl utformade (det måste alltid finnas ett par matchning **TableStart** och**TableEnd** slå samman fält med samma tabellnamn).
 
-### Exempel
+## Exempel
 
 Visar hur man kör en kapslad e-postsammanfogning med två sammanfogningsregioner och två datatabeller.
 
@@ -603,14 +605,14 @@ private static DataSet CreateDataSet()
 ### Se även
 
 * class [MailMerge](../)
-* namnutrymme [Aspose.Words.MailMerging](../../mailmerge/)
+* namnutrymme [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## ExecuteWithRegions(DataTable) {#executewithregions_3}
+## ExecuteWithRegions(*DataTable*) {#executewithregions_3}
 
-Utför sammanslagning från en **Datatabell** in i dokumentet med kopplingsregioner.
+Utför sammanslagning från en**Datatabell** in i dokumentet med kopplingsregioner.
 
 ```csharp
 public void ExecuteWithRegions(DataTable dataTable)
@@ -620,13 +622,13 @@ public void ExecuteWithRegions(DataTable dataTable)
 | --- | --- | --- |
 | dataTable | DataTable | Datakälla för sammankopplingsåtgärden. Tabellen must har sinTableName egenskapsuppsättning. |
 
-### Anmärkningar
+## Anmärkningar
 
 Dokumentet måste ha en kopplingsregion definierad med namn som matchar TableName.
 
 Om det finns andra kopplingsområden definierade i dokumentet lämnas de intakta. Detta gör det möjligt att utföra flera kopplingsoperationer.
 
-### Exempel
+## Exempel
 
 Demonstrerar hur man formaterar celler under en sammanfogning.
 
@@ -762,14 +764,14 @@ doc.Save(ArtifactsDir + "MailMerge.ExecuteWithRegionsConcurrent.docx");
 ### Se även
 
 * class [MailMerge](../)
-* namnutrymme [Aspose.Words.MailMerging](../../mailmerge/)
+* namnutrymme [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## ExecuteWithRegions(DataView) {#executewithregions_4}
+## ExecuteWithRegions(*DataView*) {#executewithregions_4}
 
-Utför sammanslagning från en **DataView** in i dokumentet med kopplingsregioner.
+Utför sammanslagning från en**DataView** in i dokumentet med kopplingsregioner.
 
 ```csharp
 public void ExecuteWithRegions(DataView dataView)
@@ -777,17 +779,17 @@ public void ExecuteWithRegions(DataView dataView)
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| dataView | DataView | Datakälla för sammankopplingsåtgärden. Källtabellen för **DataView** måste ha sin **Tabellnamn** egenskapsuppsättning. |
+| dataView | DataView | Datakälla för sammankopplingsåtgärden. Källtabellen för**DataView** måste ha sin**Tabellnamn** egenskapsuppsättning. |
 
-### Anmärkningar
+## Anmärkningar
 
-Den här metoden är användbar om du hämtar data till en **Datatabell** men då måste tillämpa ett filter eller sortera innan sammanslagningen.
+Den här metoden är användbar om du hämtar data till en**Datatabell** men då måste tillämpa ett filter eller sortera innan sammanslagningen.
 
-Dokumentet måste ha en kopplingsregion definierad med namn som matchar  **DataView.Table.TableName**.
+Dokumentet måste ha en kopplingsregion definierad med namn som matchar **DataView.Table.TableName**.
 
 Om det finns andra kopplingsområden definierade i dokumentet lämnas de intakta. Detta gör det möjligt att utföra flera kopplingsoperationer.
 
-### Exempel
+## Exempel
 
 Visar hur man använder regioner för att utföra två separata sammanslagningar i ett dokument.
 
@@ -843,14 +845,14 @@ doc.Save(ArtifactsDir + "MailMerge.ExecuteWithRegionsConcurrent.docx");
 ### Se även
 
 * class [MailMerge](../)
-* namnutrymme [Aspose.Words.MailMerging](../../mailmerge/)
+* namnutrymme [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## ExecuteWithRegions(IDataReader, string) {#executewithregions_5}
+## ExecuteWithRegions(*IDataReader, string*) {#executewithregions_5}
 
-Utför sammanslagning från **IDataReader** in i dokumentet med kopplingsregioner.
+Utför sammanslagning från**IDataReader** in i dokumentet med kopplingsregioner.
 
 ```csharp
 public void ExecuteWithRegions(IDataReader dataReader, string tableName)
@@ -858,14 +860,14 @@ public void ExecuteWithRegions(IDataReader dataReader, string tableName)
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| dataReader | IDataReader | Källa till dataposterna för sammanslagning som t.ex **OleDbDataReader** eller **SqlDataReader**. |
+| dataReader | IDataReader | Källa till dataposterna för sammanslagning som t.ex**OleDbDataReader** eller**SqlDataReader**. |
 | tableName | String | Namn på kopplingsregionen i dokumentet som ska fyllas i. |
 
-### Anmärkningar
+## Anmärkningar
 
-Du kan passera **SqlDataReader** eller **OleDbDataReader**objekt till denna -metoden som en parameter eftersom de båda implementerade **IDataReader** gränssnitt.
+Du kan passera**SqlDataReader** eller**OleDbDataReader**objekt till denna -metoden som en parameter eftersom de båda implementerade**IDataReader** gränssnitt.
 
-### Exempel
+## Exempel
 
 Visar hur man infogar bilder lagrade i ett databas BLOB-fält i en rapport.
 
@@ -914,7 +916,5 @@ private class HandleMergeImageFieldFromBlob : IFieldMergingCallback
 ### Se även
 
 * class [MailMerge](../)
-* namnutrymme [Aspose.Words.MailMerging](../../mailmerge/)
+* namnutrymme [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,18 +1,20 @@
 ---
 title: Aspose.Words.Settings
-second_title: Aspose.Words لمراجع .NET API
-description: ال Aspose.Words.Settings تحتوي مساحة الاسم على فئات وenums التي يتم استخدامها عند تحديد الإعدادات والخيارات المختلفة المخزنة في المستند. وهي دمج البريد والحماية ضد الكتابة والتوافق وإعدادات أخرى.
+linktitle: Aspose.Words.Settings
+articleTitle: Aspose.Words.Settings
+second_title: Aspose.Words لـ .NET
+description: الAspose.Words.Settings تحتوي مساحة الاسم على فئات وenums التي يتم استخدامها عند تحديد الإعدادات والخيارات المختلفة المخزنة في المستند. وهي دمج البريد والحماية ضد الكتابة والتوافق وإعدادات أخرى في C#.
 type: docs
 weight: 240
 url: /ar/net/aspose.words.settings/
 ---
-ال **Aspose.Words.Settings** تحتوي مساحة الاسم على فئات وenums التي يتم استخدامها عند تحديد الإعدادات والخيارات المختلفة المخزنة في المستند. وهي دمج البريد والحماية ضد الكتابة والتوافق وإعدادات أخرى.
+ال**Aspose.Words.Settings** تحتوي مساحة الاسم على فئات وenums التي يتم استخدامها عند تحديد الإعدادات والخيارات المختلفة المخزنة في المستند. وهي دمج البريد والحماية ضد الكتابة والتوافق وإعدادات أخرى.
 
 ## الطبقات
 
 | فصل | وصف |
 | --- | --- |
-| [CompatibilityOptions](./compatibilityoptions/) | يحتوي على خيارات التوافق (أي تفضيلات المستخدم التي تم إدخالها في ملف **التوافق** علامة التبويب **خيارات** الحوار في Microsoft Word). |
+| [CompatibilityOptions](./compatibilityoptions/) | يحتوي على خيارات التوافق (أي تفضيلات المستخدم التي تم إدخالها في ملف**التوافق** علامة التبويب**خيارات** الحوار في Microsoft Word). |
 | [HyphenationOptions](./hyphenationoptions/) | يسمح بتكوين خيارات الواصلة للمستند. |
 | [MailMergeSettings](./mailmergesettings/) | تحديد كافة معلومات دمج البريد للمستند. |
 | [Odso](./odso/) | تحديد إعدادات كائن مصدر بيانات Office (ODSO) لمصدر بيانات دمج المراسلات. |
@@ -38,5 +40,3 @@ url: /ar/net/aspose.words.settings/
 | [OdsoFieldMappingType](./odsofieldmappingtype/) | يحدد الأنواع المحتملة المستخدمة للإشارة إلى ما إذا كان حقل دمج البريد المحدد قد تم تعيينه إلى عمود في مصدر البيانات الخارجي المحدد. |
 | [ViewType](./viewtype/) | القيم الممكنة لوضع العرض في Microsoft Word. |
 | [ZoomType](./zoomtype/) | القيم المحتملة لمدى كبر أو صغر حجم المستند الذي يظهر على الشاشة في Microsoft Word. |
-
-

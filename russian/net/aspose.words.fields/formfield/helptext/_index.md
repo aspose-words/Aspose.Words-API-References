@@ -1,7 +1,9 @@
 ---
 title: FormField.HelpText
-second_title: Справочник по API Aspose.Words для .NET
-description: FormField свойство. Возвращает или задает текст который отображается в окне сообщения когда поле формы находится в фокусе и пользователь нажимает F1.
+linktitle: HelpText
+articleTitle: HelpText
+second_title: Aspose.Words для .NET
+description: FormField HelpText свойство. Возвращает или задает текст который отображается в окне сообщения когда поле формы находится в фокусе и пользователь нажимает F1 на С#.
 type: docs
 weight: 100
 url: /ru/net/aspose.words.fields/formfield/helptext/
@@ -14,13 +16,13 @@ url: /ru/net/aspose.words.fields/formfield/helptext/
 public string HelpText { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Если[`OwnHelp`](../ownhelp/) свойство установлено на`истинный` ,`HelpText` указывает значение текстовой строки. Если[`OwnHelp`](../ownhelp/) установлено на`ЛОЖЬ` ,`HelpText`указывает имя записи автотекста, содержащей текст help для поля формы.
 
 Microsoft Word допускает строки длиной не более 255 символов.
 
-### Примеры
+## Примеры
 
 Показывает, как вставлять в документ различные типы полей формы и обрабатывать их с помощью реализации посетителя документа.
 
@@ -154,7 +156,5 @@ public class FormFieldVisitor : DocumentVisitor
 ### Смотрите также
 
 * class [FormField](../)
-* пространство имен [Aspose.Words.Fields](../../formfield/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

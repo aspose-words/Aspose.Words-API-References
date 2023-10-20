@@ -1,7 +1,9 @@
 ---
-title: Class WebExtensionProperty
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.WebExtensions.WebExtensionProperty klas. Gibt eine benutzerdefinierte Weberweiterungseigenschaft an.
+title: WebExtensionProperty Class
+linktitle: WebExtensionProperty
+articleTitle: WebExtensionProperty
+second_title: Aspose.Words für .NET
+description: Aspose.Words.WebExtensions.WebExtensionProperty klas. Gibt eine benutzerdefinierte Weberweiterungseigenschaft an in C#.
 type: docs
 weight: 6780
 url: /de/net/aspose.words.webextensions/webextensionproperty/
@@ -20,7 +22,7 @@ public class WebExtensionProperty
 
 | Name | Beschreibung |
 | --- | --- |
-| [WebExtensionProperty](webextensionproperty/)(string, string) | Erstellt eine benutzerdefinierte Weberweiterungseigenschaft mit dem angegebenen Namen und Wert. |
+| [WebExtensionProperty](webextensionproperty/)(*string, string*) | Erstellt eine benutzerdefinierte Weberweiterungseigenschaft mit dem angegebenen Namen und Wert. |
 
 ## Eigenschaften
 
@@ -33,5 +35,3 @@ public class WebExtensionProperty
 
 * namensraum [Aspose.Words.WebExtensions](../../aspose.words.webextensions/)
 * Montage [Aspose.Words](../../)
-
-

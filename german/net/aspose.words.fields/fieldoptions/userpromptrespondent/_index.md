@@ -1,7 +1,9 @@
 ---
 title: FieldOptions.UserPromptRespondent
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldOptions eigendom. Ruft den Befragten während der Feldaktualisierung ab oder legt ihn auf Benutzeraufforderungen fest.
+linktitle: UserPromptRespondent
+articleTitle: UserPromptRespondent
+second_title: Aspose.Words für .NET
+description: FieldOptions UserPromptRespondent eigendom. Ruft den Befragten während der Feldaktualisierung ab oder legt ihn auf Benutzeraufforderungen fest in C#.
 type: docs
 weight: 220
 url: /de/net/aspose.words.fields/fieldoptions/userpromptrespondent/
@@ -14,13 +16,13 @@ Ruft den Befragten während der Feldaktualisierung ab oder legt ihn auf Benutzer
 public IFieldUserPromptRespondent UserPromptRespondent { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Wenn der Wert dieser Eigenschaft auf festgelegt ist`Null` , die Felder, die eine Benutzerantwort bei prompting erfordern (z. B[`FieldAsk`](../../fieldask/) oder[`FieldFillIn`](../../fieldfillin/)) werden nicht aktualisiert.
 
 Der Standardwert ist`Null`.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein ASK-Feld erstellt und seine Eigenschaften festgelegt werden.
 
@@ -83,7 +85,5 @@ private class MyPromptRespondent : IFieldUserPromptRespondent
 
 * interface [IFieldUserPromptRespondent](../../ifielduserpromptrespondent/)
 * class [FieldOptions](../)
-* namensraum [Aspose.Words.Fields](../../fieldoptions/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

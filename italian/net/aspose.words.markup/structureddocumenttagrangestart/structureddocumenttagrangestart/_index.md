@@ -1,14 +1,16 @@
 ---
-title: StructuredDocumentTagRangeStart.StructuredDocumentTagRangeStart
-second_title: Aspose.Words per .NET API Reference
-description: StructuredDocumentTagRangeStart costruttore. Inizializza una nuova istanza di Inizio dellintervallo di tag del documento strutturato classe.
+title: StructuredDocumentTagRangeStart
+linktitle: StructuredDocumentTagRangeStart
+articleTitle: StructuredDocumentTagRangeStart
+second_title: Aspose.Words per .NET
+description: StructuredDocumentTagRangeStart costruttore. Inizializza una nuova istanza diInizio dellintervallo di tag del documento strutturato classe in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words.markup/structureddocumenttagrangestart/structureddocumenttagrangestart/
 ---
 ## StructuredDocumentTagRangeStart constructor
 
-Inizializza una nuova istanza di **Inizio dell'intervallo di tag del documento strutturato** classe.
+Inizializza una nuova istanza di**Inizio dell'intervallo di tag del documento strutturato** classe.
 
 ```csharp
 public StructuredDocumentTagRangeStart(DocumentBase doc, SdtType type)
@@ -19,7 +21,7 @@ public StructuredDocumentTagRangeStart(DocumentBase doc, SdtType type)
 | doc | DocumentBase | Il documento del proprietario. |
 | type | SdtType | Tipo di nodo SDT. |
 
-### Osservazioni
+## Osservazioni
 
 È possibile creare i seguenti tipi di SDT:
 
@@ -33,7 +35,7 @@ public StructuredDocumentTagRangeStart(DocumentBase doc, SdtType type)
 * RichText
 * PlainText
 
-### Esempi
+## Esempi
 
 Mostra come creare/rimuovere il tag del documento strutturato e il suo contenuto.
 
@@ -87,7 +89,5 @@ public void InsertStructuredDocumentTagRanges(Document doc, out StructuredDocume
 * class [DocumentBase](../../../aspose.words/documentbase/)
 * enum [SdtType](../../sdttype/)
 * class [StructuredDocumentTagRangeStart](../)
-* spazio dei nomi [Aspose.Words.Markup](../../structureddocumenttagrangestart/)
+* spazio dei nomi [Aspose.Words.Markup](../../../aspose.words.markup/)
 * assemblea [Aspose.Words](../../../)
-
-

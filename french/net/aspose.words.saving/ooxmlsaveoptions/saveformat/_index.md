@@ -1,7 +1,9 @@
 ---
 title: OoxmlSaveOptions.SaveFormat
-second_title: Référence de l'API Aspose.Words pour .NET
-description: OoxmlSaveOptions propriété. Spécifie le format dans lequel le document sera enregistré si cet objet doptions de sauvegarde est utilisé. Peut êtreDocx Docm  Dotx Dotm ouFlatOpc .
+linktitle: SaveFormat
+articleTitle: SaveFormat
+second_title: Aspose.Words pour .NET
+description: OoxmlSaveOptions SaveFormat propriété. Spécifie le format dans lequel le document sera enregistré si cet objet doptions de sauvegarde est utilisé. Peut êtreDocx Docm  Dotx Dotm ouFlatOpc  en C#.
 type: docs
 weight: 60
 url: /fr/net/aspose.words.saving/ooxmlsaveoptions/saveformat/
@@ -14,7 +16,7 @@ Spécifie le format dans lequel le document sera enregistré si cet objet d'opti
 public override SaveFormat SaveFormat { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment définir une spécification de conformité OOXML à laquelle un document enregistré doit adhérer.
 
@@ -50,7 +52,5 @@ Assert.AreEqual(ShapeMarkupLanguage.Dml, ((Shape)doc.GetChild(NodeType.Shape, 0,
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
 * class [OoxmlSaveOptions](../)
-* espace de noms [Aspose.Words.Saving](../../ooxmlsaveoptions/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

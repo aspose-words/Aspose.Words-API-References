@@ -1,7 +1,9 @@
 ---
-title: Class XmlDataSource
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Reporting.XmlDataSource klas. Bietet Zugriff auf Daten einer XMLDatei oder eines XMLStreams zur Verwendung in einem Bericht.
+title: XmlDataSource Class
+linktitle: XmlDataSource
+articleTitle: XmlDataSource
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Reporting.XmlDataSource klas. Bietet Zugriff auf Daten einer XMLDatei oder eines XMLStreams zur Verwendung in einem Bericht in C#.
 type: docs
 weight: 4750
 url: /de/net/aspose.words.reporting/xmldatasource/
@@ -20,16 +22,16 @@ public class XmlDataSource
 
 | Name | Beschreibung |
 | --- | --- |
-| [XmlDataSource](xmldatasource/#constructor)(Stream) | Erstellt eine neue Datenquelle mit Daten aus einem XML-Stream unter Verwendung der Standardoptionen für das Laden von XML-Daten. |
-| [XmlDataSource](xmldatasource/#constructor_4)(string) | Erstellt eine neue Datenquelle mit Daten aus einer XML-Datei unter Verwendung der Standardoptionen für das Laden von XML-Daten. |
-| [XmlDataSource](xmldatasource/#constructor_2)(Stream, Stream) | Erstellt eine neue Datenquelle mit Daten aus einem XML-Stream unter Verwendung eines XML-Schemadefinitions-Streams. Standardoptionen werden für das Laden von XML-Daten verwendet. |
-| [XmlDataSource](xmldatasource/#constructor_1)(Stream, XmlDataLoadOptions) | Erstellt eine neue Datenquelle mit Daten aus einem XML-Stream unter Verwendung der angegebenen Optionen für das Laden von XML-Daten. |
-| [XmlDataSource](xmldatasource/#constructor_6)(string, string) | Erstellt eine neue Datenquelle mit Daten aus einer XML-Datei mithilfe einer XML-Schemadefinitionsdatei. Standardoptionen werden für das Laden von XML-Daten verwendet. |
-| [XmlDataSource](xmldatasource/#constructor_5)(string, XmlDataLoadOptions) | Erstellt eine neue Datenquelle mit Daten aus einer XML-Datei unter Verwendung der angegebenen Optionen für das Laden von XML-Daten. |
-| [XmlDataSource](xmldatasource/#constructor_3)(Stream, Stream, XmlDataLoadOptions) | Erstellt eine neue Datenquelle mit Daten aus einem XML-Stream unter Verwendung eines XML-Schemadefinitions-Streams. Die angegebenen -Optionen werden zum Laden von XML-Daten verwendet. |
-| [XmlDataSource](xmldatasource/#constructor_7)(string, string, XmlDataLoadOptions) | Erstellt eine neue Datenquelle mit Daten aus einer XML-Datei mithilfe einer XML-Schemadefinitionsdatei. Die angegebenen -Optionen werden zum Laden von XML-Daten verwendet. |
+| [XmlDataSource](xmldatasource/#constructor)(*Stream*) | Erstellt eine neue Datenquelle mit Daten aus einem XML-Stream unter Verwendung der Standardoptionen für das Laden von XML-Daten. |
+| [XmlDataSource](xmldatasource/#constructor_4)(*string*) | Erstellt eine neue Datenquelle mit Daten aus einer XML-Datei unter Verwendung der Standardoptionen für das Laden von XML-Daten. |
+| [XmlDataSource](xmldatasource/#constructor_2)(*Stream, Stream*) | Erstellt eine neue Datenquelle mit Daten aus einem XML-Stream unter Verwendung eines XML-Schemadefinitions-Streams. Standardoptionen werden für das Laden von XML-Daten verwendet. |
+| [XmlDataSource](xmldatasource/#constructor_1)(*Stream, [XmlDataLoadOptions](../xmldataloadoptions/)*) | Erstellt eine neue Datenquelle mit Daten aus einem XML-Stream unter Verwendung der angegebenen Optionen für das Laden von XML-Daten. |
+| [XmlDataSource](xmldatasource/#constructor_6)(*string, string*) | Erstellt eine neue Datenquelle mit Daten aus einer XML-Datei mithilfe einer XML-Schemadefinitionsdatei. Standardoptionen werden für das Laden von XML-Daten verwendet. |
+| [XmlDataSource](xmldatasource/#constructor_5)(*string, [XmlDataLoadOptions](../xmldataloadoptions/)*) | Erstellt eine neue Datenquelle mit Daten aus einer XML-Datei unter Verwendung der angegebenen Optionen für das Laden von XML-Daten. |
+| [XmlDataSource](xmldatasource/#constructor_3)(*Stream, Stream, [XmlDataLoadOptions](../xmldataloadoptions/)*) | Erstellt eine neue Datenquelle mit Daten aus einem XML-Stream unter Verwendung eines XML-Schemadefinitions-Streams. Die angegebenen -Optionen werden zum Laden von XML-Daten verwendet. |
+| [XmlDataSource](xmldatasource/#constructor_7)(*string, string, [XmlDataLoadOptions](../xmldataloadoptions/)*) | Erstellt eine neue Datenquelle mit Daten aus einer XML-Datei mithilfe einer XML-Schemadefinitionsdatei. Die angegebenen -Optionen werden zum Laden von XML-Daten verwendet. |
 
-### Bemerkungen
+## Bemerkungen
 
 Um beim Erstellen eines Berichts auf Daten der entsprechenden Datei oder des entsprechenden Streams zuzugreifen, übergeben Sie eine Instanz dieser Klasse als eine Datenquelle an eine von[`ReportingEngine`](../reportingengine/) .BuildReport-Überladungen.
 
@@ -53,5 +55,3 @@ Um das Standardverhalten beim Laden von XML-Daten zu überschreiben, initialisie
 
 * namensraum [Aspose.Words.Reporting](../../aspose.words.reporting/)
 * Montage [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FontInfoCollection.SaveSubsetFonts
-second_title: Aspose.Words för .NET API Referens
-description: FontInfoCollection fast egendom. Anger om en delmängd av de inbäddade TrueTypeteckensnitten ska sparas eller inte med dokumentet. Standardvärdet för den här egenskapen ärfalsk.
+linktitle: SaveSubsetFonts
+articleTitle: SaveSubsetFonts
+second_title: Aspose.Words för .NET
+description: FontInfoCollection SaveSubsetFonts fast egendom. Anger om en delmängd av de inbäddade TrueTypeteckensnitten ska sparas eller inte med dokumentet. Standardvärdet för den här egenskapen ärfalsk i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.fonts/fontinfocollection/savesubsetfonts/
@@ -16,11 +18,11 @@ Det här alternativet fungerar endast när[`EmbedTrueTypeFonts`](../embedtruetyp
 public bool SaveSubsetFonts { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Det här alternativet fungerar endast för DOC-, DOCX- och RTF-format.
 
-### Exempel
+## Exempel
 
 Visar hur man sparar ett dokument med inbäddade TrueType-teckensnitt.
 
@@ -43,7 +45,5 @@ else
 ### Se även
 
 * class [FontInfoCollection](../)
-* namnutrymme [Aspose.Words.Fonts](../../fontinfocollection/)
+* namnutrymme [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * hopsättning [Aspose.Words](../../../)
-
-

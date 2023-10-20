@@ -1,7 +1,9 @@
 ---
 title: AxisScaling.Type
-second_title: Aspose.Words für .NET-API-Referenz
-description: AxisScaling eigendom. Ruft den Skalierungstyp der Achse ab oder legt diesen fest.
+linktitle: Type
+articleTitle: Type
+second_title: Aspose.Words für .NET
+description: AxisScaling Type eigendom. Ruft den Skalierungstyp der Achse ab oder legt diesen fest in C#.
 type: docs
 weight: 50
 url: /de/net/aspose.words.drawing.charts/axisscaling/type/
@@ -14,11 +16,11 @@ Ruft den Skalierungstyp der Achse ab oder legt diesen fest.
 public AxisScaleType Type { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 DieLinear Der Wert ist der einzige, der in den neuen Diagrammen von MS Office 2016 zulässig ist.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie eine logarithmische Skalierung auf eine Diagrammachse angewendet wird.
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "Charts.AxisScaling.docx");
 
 * enum [AxisScaleType](../../axisscaletype/)
 * class [AxisScaling](../)
-* namensraum [Aspose.Words.Drawing.Charts](../../axisscaling/)
+* namensraum [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../../)
-
-

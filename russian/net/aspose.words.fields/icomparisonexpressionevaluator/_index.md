@@ -1,7 +1,9 @@
 ---
-title: Interface IComparisonExpressionEvaluator
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Fields.IComparisonExpressionEvaluator интерфейс. При реализации позволяет переопределить оценку выражений сравнения по умолчанию дляFieldIf иFieldCompare поля.
+title: IComparisonExpressionEvaluator Interface
+linktitle: IComparisonExpressionEvaluator
+articleTitle: IComparisonExpressionEvaluator
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Fields.IComparisonExpressionEvaluator интерфейс. При реализации позволяет переопределить оценку выражений сравнения по умолчанию дляFieldIf иFieldCompare поля на С#.
 type: docs
 weight: 2680
 url: /ru/net/aspose.words.fields/icomparisonexpressionevaluator/
@@ -18,12 +20,10 @@ public interface IComparisonExpressionEvaluator
 
 | Имя | Описание |
 | --- | --- |
-| [Evaluate](../../aspose.words.fields/icomparisonexpressionevaluator/evaluate/)(Field, ComparisonExpression) | Вычисляет выражение сравнения. |
+| [Evaluate](../../aspose.words.fields/icomparisonexpressionevaluator/evaluate/)(*[Field](../field/), [ComparisonExpression](../comparisonexpression/)*) | Вычисляет выражение сравнения. |
 
 ### Смотрите также
 
 * property [ComparisonExpressionEvaluator](../fieldoptions/comparisonexpressionevaluator/)
 * пространство имен [Aspose.Words.Fields](../../aspose.words.fields/)
 * сборка [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Row.LastCell
-second_title: Aspose.Words per .NET API Reference
-description: Row proprietà. Restituisce lultimoCell nella riga.
+linktitle: LastCell
+articleTitle: LastCell
+second_title: Aspose.Words per .NET
+description: Row LastCell proprietà. Restituisce lultimoCell nella riga in C#.
 type: docs
 weight: 60
 url: /it/net/aspose.words.tables/row/lastcell/
@@ -14,7 +16,7 @@ Restituisce l'ultimo[`Cell`](../../cell/) nella riga.
 public Cell LastCell { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come stampare la struttura dei nodi di ogni tabella in un documento.
 
@@ -178,7 +180,5 @@ public class TableStructurePrinter : DocumentVisitor
 
 * class [Cell](../../cell/)
 * class [Row](../)
-* spazio dei nomi [Aspose.Words.Tables](../../row/)
+* spazio dei nomi [Aspose.Words.Tables](../../../aspose.words.tables/)
 * assemblea [Aspose.Words](../../../)
-
-

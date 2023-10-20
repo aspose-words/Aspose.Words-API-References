@@ -1,7 +1,9 @@
 ---
 title: Chart.Axes
-second_title: Aspose.Words för .NET API Referens
-description: Chart fast egendom. Får en samling av alla axlar i detta diagram.
+linktitle: Axes
+articleTitle: Axes
+second_title: Aspose.Words för .NET
+description: Chart Axes fast egendom. Får en samling av alla axlar i detta diagram i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.drawing.charts/chart/axes/
@@ -14,7 +16,7 @@ Får en samling av alla axlar i detta diagram.
 public ChartAxisCollection Axes { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med yxsamling.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "Charts.AxisCollection.docx");
 
 * class [ChartAxisCollection](../../chartaxiscollection/)
 * class [Chart](../)
-* namnutrymme [Aspose.Words.Drawing.Charts](../../chart/)
+* namnutrymme [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../../)
-
-

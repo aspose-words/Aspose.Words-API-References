@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.EndBookmark
-second_title: Referencia de API de Aspose.Words para .NET
-description: DocumentBuilder método. Marca la posición actual en el documento como final del marcador.
+linktitle: EndBookmark
+articleTitle: EndBookmark
+second_title: Aspose.Words para .NET
+description: DocumentBuilder EndBookmark método. Marca la posición actual en el documento como final del marcador en C#.
 type: docs
 weight: 210
 url: /es/net/aspose.words/documentbuilder/endbookmark/
@@ -22,13 +24,13 @@ public BookmarkEnd EndBookmark(string bookmarkName)
 
 El nodo final del marcador que se acaba de crear.
 
-### Observaciones
+## Observaciones
 
 Los marcadores de un documento pueden superponerse y abarcar cualquier rango. Para crear un marcador válido necesita llamar a ambos[`StartBookmark`](../startbookmark/) y`EndBookmark` con el mismo*bookmarkName* parámetro.
 
 Los marcadores mal formados o con nombres duplicados se ignorarán cuando se guarde el documento.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear un marcador.
 
@@ -71,7 +73,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertHyperlinkToLocalBookmark.docx");
 
 * class [BookmarkEnd](../../bookmarkend/)
 * class [DocumentBuilder](../)
-* espacio de nombres [Aspose.Words](../../documentbuilder/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

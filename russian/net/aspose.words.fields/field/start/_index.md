@@ -1,7 +1,9 @@
 ---
 title: Field.Start
-second_title: Справочник по API Aspose.Words для .NET
-description: Field свойство. Получает узел представляющий начало поля.
+linktitle: Start
+articleTitle: Start
+second_title: Aspose.Words для .NET
+description: Field Start свойство. Получает узел представляющий начало поля на С#.
 type: docs
 weight: 90
 url: /ru/net/aspose.words.fields/field/start/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/field/start/
 public FieldStart Start { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как работать с коллекцией полей.
 
@@ -118,7 +120,5 @@ public class FieldVisitor : DocumentVisitor
 
 * class [FieldStart](../../fieldstart/)
 * class [Field](../)
-* пространство имен [Aspose.Words.Fields](../../field/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

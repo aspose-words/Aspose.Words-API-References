@@ -1,7 +1,9 @@
 ---
-title: Document.Document
-second_title: Справочник по API Aspose.Words для .NET
-description: Document строитель. Создает пустой документ Word.
+title: Document
+linktitle: Document
+articleTitle: Document
+second_title: Aspose.Words для .NET
+description: Document строитель. Создает пустой документ Word на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words/document/document/
@@ -14,13 +16,13 @@ url: /ru/net/aspose.words/document/document/
 public Document()
 ```
 
-### Примечания
+## Примечания
 
 По умолчанию формат бумаги документа — Letter. Если вы хотите изменить настройку страницы, используйте [`PageSetup`](../../section/pagesetup/).
 
 После создания вы можете использовать[`DocumentBuilder`](../../documentbuilder/) чтобы легко добавлять содержимое документа.
 
-### Примеры
+## Примеры
 
 Показывает, как форматировать фрагмент текста, используя его свойство шрифта.
 
@@ -64,12 +66,12 @@ Assert.AreEqual("Test encrypted document.", doc.FirstSection.Body.FirstParagraph
 ### Смотрите также
 
 * class [Document](../)
-* пространство имен [Aspose.Words](../../document/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## Document(string) {#constructor_3}
+## Document(*string*) {#constructor_3}
 
 Открывает существующий документ из файла. Автоматически определяет формат файла.
 
@@ -92,7 +94,7 @@ public Document(string fileName)
 | [IncorrectPasswordException](../../incorrectpasswordexception/) | Документ зашифрован, и для его открытия требуется пароль, но вы указали неправильный пароль. |
 | ArgumentException | Имя файла не может быть нулевым или пустой строкой. |
 
-### Примеры
+## Примеры
 
 Показывает, как открыть документ и преобразовать его в .PDF.
 
@@ -146,12 +148,12 @@ Assert.AreEqual("Hello world!", textFragmentAbsorber.Text.Trim());
 ### Смотрите также
 
 * class [Document](../)
-* пространство имен [Aspose.Words](../../document/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## Document(string, LoadOptions) {#constructor_4}
+## Document(*string, [LoadOptions](../../../aspose.words.loading/loadoptions/)*) {#constructor_4}
 
 Открывает существующий документ из файла. Позволяет указать дополнительные параметры, такие как пароль шифрования.
 
@@ -175,7 +177,7 @@ public Document(string fileName, LoadOptions loadOptions)
 | [IncorrectPasswordException](../../incorrectpasswordexception/) | Документ зашифрован, и для его открытия требуется пароль, но вы указали неправильный пароль. |
 | ArgumentException | Имя файла не может быть нулевым или пустой строкой. |
 
-### Примеры
+## Примеры
 
 Показывает, как загрузить зашифрованный документ Microsoft Word.
 
@@ -226,12 +228,12 @@ Assert.AreEqual("Test encrypted document.", doc.FirstSection.Body.FirstParagraph
 
 * class [LoadOptions](../../../aspose.words.loading/loadoptions/)
 * class [Document](../)
-* пространство имен [Aspose.Words](../../document/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## Document(Stream) {#constructor_1}
+## Document(*Stream*) {#constructor_1}
 
 Открывает существующий документ из потока. Автоматически определяет формат файла.
 
@@ -256,11 +258,11 @@ public Document(Stream stream)
 | NotSupportedException | Поток не поддерживает чтение или поиск. |
 | ObjectDisposedException | Поток — это удаленный объект. |
 
-### Примечания
+## Примечания
 
 Документ должен храниться в начале потока. Поток должен поддерживать случайное позиционирование.
 
-### Примеры
+## Примеры
 
 Показывает, как загрузить документ с помощью потока.
 
@@ -302,12 +304,12 @@ using (HttpClient webClient = new HttpClient())
 ### Смотрите также
 
 * class [Document](../)
-* пространство имен [Aspose.Words](../../document/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## Document(Stream, LoadOptions) {#constructor_2}
+## Document(*Stream, [LoadOptions](../../../aspose.words.loading/loadoptions/)*) {#constructor_2}
 
 Открывает существующий документ из потока. Позволяет указать дополнительные параметры, такие как пароль шифрования.
 
@@ -333,11 +335,11 @@ public Document(Stream stream, LoadOptions loadOptions)
 | NotSupportedException | Поток не поддерживает чтение или поиск. |
 | ObjectDisposedException | Поток — это удаленный объект. |
 
-### Примечания
+## Примечания
 
 Документ должен храниться в начале потока. Поток должен поддерживать случайное позиционирование.
 
-### Примеры
+## Примеры
 
 Показывает, как открыть документ HTML с изображениями из потока, используя базовый URI.
 
@@ -408,7 +410,5 @@ using (Stream stream = File.OpenRead(MyDir + "Encrypted.docx"))
 
 * class [LoadOptions](../../../aspose.words.loading/loadoptions/)
 * class [Document](../)
-* пространство имен [Aspose.Words](../../document/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

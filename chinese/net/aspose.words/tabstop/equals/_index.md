@@ -1,7 +1,9 @@
 ---
 title: TabStop.Equals
-second_title: Aspose.Words for .NET API 参考
-description: TabStop 方法. 与指定的比较TabStop.
+linktitle: Equals
+articleTitle: Equals
+second_title: 用于 .NET 的 Aspose.Words
+description: TabStop Equals 方法. 与指定的比较TabStop 在 C#.
 type: docs
 weight: 60
 url: /zh/net/aspose.words/tabstop/equals/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/tabstop/equals/
 public bool Equals(TabStop rhs)
 ```
 
-### 例子
+## 例子
 
 展示如何使用文档的制表位集合。
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "TabStopCollection.TabStopCollection.docx");
 ### 也可以看看
 
 * class [TabStop](../)
-* 命名空间 [Aspose.Words](../../tabstop/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

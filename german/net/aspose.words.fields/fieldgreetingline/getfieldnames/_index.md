@@ -1,7 +1,9 @@
 ---
 title: FieldGreetingLine.GetFieldNames
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldGreetingLine methode. Gibt eine Sammlung von Serienbrieffeldnamen zurück die vom Feld verwendet werden.
+linktitle: GetFieldNames
+articleTitle: GetFieldNames
+second_title: Aspose.Words für .NET
+description: FieldGreetingLine GetFieldNames methode. Gibt eine Sammlung von Serienbrieffeldnamen zurück die vom Feld verwendet werden in C#.
 type: docs
 weight: 50
 url: /de/net/aspose.words.fields/fieldgreetingline/getfieldnames/
@@ -14,7 +16,7 @@ Gibt eine Sammlung von Serienbrieffeldnamen zurück, die vom Feld verwendet werd
 public string[] GetFieldNames()
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein GREETINGLINE-Feld eingefügt wird.
 
@@ -74,7 +76,5 @@ Assert.AreEqual("Dear Mr. Doe,\r\r\tThis is your custom greeting, created progra
 ### Siehe auch
 
 * class [FieldGreetingLine](../)
-* namensraum [Aspose.Words.Fields](../../fieldgreetingline/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

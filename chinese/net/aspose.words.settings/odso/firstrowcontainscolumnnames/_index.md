@@ -1,7 +1,9 @@
 ---
 title: Odso.FirstRowContainsColumnNames
-second_title: Aspose.Words for .NET API 参考
-description: Odso 财产. 指定托管应用程序应将指定外部数据 源中的第一行数据视为包含数据源中每列名称的标题行 默认值为错误的.
+linktitle: FirstRowContainsColumnNames
+articleTitle: FirstRowContainsColumnNames
+second_title: 用于 .NET 的 Aspose.Words
+description: Odso FirstRowContainsColumnNames 财产. 指定托管应用程序应将指定外部数据 源中的第一行数据视为包含数据源中每列名称的标题行 默认值为错误的 在 C#.
 type: docs
 weight: 60
 url: /zh/net/aspose.words.settings/odso/firstrowcontainscolumnnames/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.settings/odso/firstrowcontainscolumnnames/
 public bool FirstRowContainsColumnNames { get; set; }
 ```
 
-### 评论
+## 评论
 
 RK 我从未见过它被使用过。
 
-### 例子
+## 例子
 
 演示如何使用 Office 数据源对象中的数据执行邮件合并。
 
@@ -70,7 +72,5 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ### 也可以看看
 
 * class [Odso](../)
-* 命名空间 [Aspose.Words.Settings](../../odso/)
+* 命名空间 [Aspose.Words.Settings](../../../aspose.words.settings/)
 * 部件 [Aspose.Words](../../../)
-
-

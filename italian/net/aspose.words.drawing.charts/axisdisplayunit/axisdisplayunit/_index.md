@@ -1,7 +1,9 @@
 ---
-title: AxisDisplayUnit.AxisDisplayUnit
-second_title: Aspose.Words per .NET API Reference
-description: AxisDisplayUnit costruttore. Default_Costruttore
+title: AxisDisplayUnit
+linktitle: AxisDisplayUnit
+articleTitle: AxisDisplayUnit
+second_title: Aspose.Words per .NET
+description: AxisDisplayUnit costruttore. Default_Costruttore in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words.drawing.charts/axisdisplayunit/axisdisplayunit/
@@ -17,7 +19,5 @@ public AxisDisplayUnit()
 ### Guarda anche
 
 * class [AxisDisplayUnit](../)
-* spazio dei nomi [Aspose.Words.Drawing.Charts](../../axisdisplayunit/)
+* spazio dei nomi [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * assemblea [Aspose.Words](../../../)
-
-

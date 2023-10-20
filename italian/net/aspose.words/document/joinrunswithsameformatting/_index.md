@@ -1,9 +1,11 @@
 ---
 title: Document.JoinRunsWithSameFormatting
-second_title: Aspose.Words per .NET API Reference
-description: Document metodo. I join vengono eseguiti con la stessa formattazione in tutti i paragrafi del documento.
+linktitle: JoinRunsWithSameFormatting
+articleTitle: JoinRunsWithSameFormatting
+second_title: Aspose.Words per .NET
+description: Document JoinRunsWithSameFormatting metodo. I join vengono eseguiti con la stessa formattazione in tutti i paragrafi del documento in C#.
 type: docs
-weight: 640
+weight: 620
 url: /it/net/aspose.words/document/joinrunswithsameformatting/
 ---
 ## Document.JoinRunsWithSameFormatting method
@@ -16,15 +18,15 @@ public int JoinRunsWithSameFormatting()
 
 ### Valore di ritorno
 
-Numero di unioni eseguite. Quando **N** le piste adiacenti vengono unite come contano **N-1** si unisce.
+Numero di unioni eseguite. Quando**N** le piste adiacenti vengono unite come contano**N-1** si unisce.
 
-### Osservazioni
+## Osservazioni
 
 Questo è un metodo di ottimizzazione. Alcuni documenti contengono sequenze adiacenti con la stessa formattazione. Di solito ciò si verifica se un documento è stato modificato manualmente in modo intensivo. È possibile ridurre le dimensioni del documento e accelerare l'ulteriore elaborazione unendo queste sequenze.
 
 L'operazione controlla ogni[`Paragraph`](../../paragraph/) nodo nel documento per adiacente[`Run`](../../run/) nodi con proprietà identiche. Ignora gli identificatori univoci utilizzati per tenere traccia delle sessioni di modifica della creazione e della modifica di run . La prima esecuzione in ogni sequenza di unione accumula tutto il testo. Le esecuzioni rimanenti vengono eliminate dal documento.
 
-### Esempi
+## Esempi
 
 Mostra come unire le esecuzioni in un documento per ridurre le esecuzioni non necessarie.
 
@@ -48,7 +50,5 @@ Assert.AreEqual(196, doc.GetChildNodes(NodeType.Run, true).Count);
 ### Guarda anche
 
 * class [Document](../)
-* spazio dei nomi [Aspose.Words](../../document/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

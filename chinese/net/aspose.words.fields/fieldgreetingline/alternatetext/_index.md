@@ -1,7 +1,9 @@
 ---
 title: FieldGreetingLine.AlternateText
-second_title: Aspose.Words for .NET API 参考
-description: FieldGreetingLine 财产. 获取或设置要包含在字段中的文本如果名称为空白
+linktitle: AlternateText
+articleTitle: AlternateText
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldGreetingLine AlternateText 财产. 获取或设置要包含在字段中的文本如果名称为空白 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.fields/fieldgreetingline/alternatetext/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fieldgreetingline/alternatetext/
 public string AlternateText { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何插入 GREETINGLINE 字段。
 
@@ -74,7 +76,5 @@ Assert.AreEqual("Dear Mr. Doe,\r\r\tThis is your custom greeting, created progra
 ### 也可以看看
 
 * class [FieldGreetingLine](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldgreetingline/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

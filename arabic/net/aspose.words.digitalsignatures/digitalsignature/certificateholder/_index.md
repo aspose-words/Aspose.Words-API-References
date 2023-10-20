@@ -1,7 +1,9 @@
 ---
 title: DigitalSignature.CertificateHolder
-second_title: Aspose.Words لمراجع .NET API
-description: DigitalSignature ملكية. إرجاع كائن حامل الشهادة الذي يحتوي على الشهادة المستخدمة لتوقيع المستند.
+linktitle: CertificateHolder
+articleTitle: CertificateHolder
+second_title: Aspose.Words لـ .NET
+description: DigitalSignature CertificateHolder ملكية. إرجاع كائن حامل الشهادة الذي يحتوي على الشهادة المستخدمة لتوقيع المستند في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.digitalsignatures/digitalsignature/certificateholder/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.digitalsignatures/digitalsignature/certificateholder/
 public CertificateHolder CertificateHolder { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية توقيع المستندات بشهادات X.509.
 
@@ -58,7 +60,5 @@ Assert.AreEqual("CN=Morzal.Me", signedDoc.DigitalSignatures[0].SubjectName);
 
 * class [CertificateHolder](../../certificateholder/)
 * class [DigitalSignature](../)
-* مساحة الاسم [Aspose.Words.DigitalSignatures](../../digitalsignature/)
+* مساحة الاسم [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * المجسم [Aspose.Words](../../../)
-
-

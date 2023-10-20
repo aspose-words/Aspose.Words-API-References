@@ -1,7 +1,9 @@
 ---
 title: FieldSymbol.FontSize
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldSymbol eigendom. Ruft die Größe der Schriftart des vom Feld abgerufenen Zeichens in Punkten ab oder legt diese fest.
+linktitle: FontSize
+articleTitle: FontSize
+second_title: Aspose.Words für .NET
+description: FieldSymbol FontSize eigendom. Ruft die Größe der Schriftart des vom Feld abgerufenen Zeichens in Punkten ab oder legt diese fest in C#.
 type: docs
 weight: 50
 url: /de/net/aspose.words.fields/fieldsymbol/fontsize/
@@ -14,7 +16,7 @@ Ruft die Größe der Schriftart des vom Feld abgerufenen Zeichens in Punkten ab 
 public string FontSize { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie das SYMBOL-Feld verwendet wird.
 
@@ -70,7 +72,5 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 ### Siehe auch
 
 * class [FieldSymbol](../)
-* namensraum [Aspose.Words.Fields](../../fieldsymbol/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

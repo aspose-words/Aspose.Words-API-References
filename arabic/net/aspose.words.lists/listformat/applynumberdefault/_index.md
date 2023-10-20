@@ -1,7 +1,9 @@
 ---
 title: ListFormat.ApplyNumberDefault
-second_title: Aspose.Words لمراجع .NET API
-description: ListFormat طريقة. بدء قائمة مرقمة افتراضية جديدة وتطبيقها على الفقرة.
+linktitle: ApplyNumberDefault
+articleTitle: ApplyNumberDefault
+second_title: Aspose.Words لـ .NET
+description: ListFormat ApplyNumberDefault طريقة. بدء قائمة مرقمة افتراضية جديدة وتطبيقها على الفقرة في C#.
 type: docs
 weight: 60
 url: /ar/net/aspose.words.lists/listformat/applynumberdefault/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.lists/listformat/applynumberdefault/
 public void ApplyNumberDefault()
 ```
 
-### ملاحظات
+## ملاحظات
 
 هذه طريقة اختصار تقوم بإنشاء قائمة جديدة باستخدام القالب الافتراضي number ، وتطبيقها على الفقرة وتحديد مستوى القائمة الأول.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء قوائم ذات تعداد نقطي ومرقمة.
 
@@ -103,7 +105,5 @@ doc.Save(ArtifactsDir + "Lists.ApplyDefaultBulletsAndNumbers.docx");
 ### أنظر أيضا
 
 * class [ListFormat](../)
-* مساحة الاسم [Aspose.Words.Lists](../../listformat/)
+* مساحة الاسم [Aspose.Words.Lists](../../../aspose.words.lists/)
 * المجسم [Aspose.Words](../../../)
-
-

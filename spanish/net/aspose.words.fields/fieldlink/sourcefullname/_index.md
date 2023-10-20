@@ -1,7 +1,9 @@
 ---
 title: FieldLink.SourceFullName
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldLink propiedad. Obtiene o establece el nombre y la ubicación del archivo fuente.
+linktitle: SourceFullName
+articleTitle: SourceFullName
+second_title: Aspose.Words para .NET
+description: FieldLink SourceFullName propiedad. Obtiene o establece el nombre y la ubicación del archivo fuente en C#.
 type: docs
 weight: 120
 url: /es/net/aspose.words.fields/fieldlink/sourcefullname/
@@ -14,7 +16,7 @@ Obtiene o establece el nombre y la ubicación del archivo fuente.
 public string SourceFullName { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo utilizar varios tipos de campos para vincular a otros documentos en el sistema de archivos local y mostrar su contenido.
 
@@ -197,7 +199,5 @@ public enum InsertLinkedObjectAs
 ### Ver también
 
 * class [FieldLink](../)
-* espacio de nombres [Aspose.Words.Fields](../../fieldlink/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

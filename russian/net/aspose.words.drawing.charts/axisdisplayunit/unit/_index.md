@@ -1,7 +1,9 @@
 ---
 title: AxisDisplayUnit.Unit
-second_title: Справочник по API Aspose.Words для .NET
-description: AxisDisplayUnit свойство. Получает или задает значение масштабирования единиц отображения как одно из предопределенных значений.
+linktitle: Unit
+articleTitle: Unit
+second_title: Aspose.Words для .NET
+description: AxisDisplayUnit Unit свойство. Получает или задает значение масштабирования единиц отображения как одно из предопределенных значений на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.drawing.charts/axisdisplayunit/unit/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.drawing.charts/axisdisplayunit/unit/
 public AxisBuiltInUnit Unit { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Значение по умолчанию:None .Custom and Percentage значения недоступны в некоторых типах диаграмм; см. [`AxisBuiltInUnit`](../../axisbuiltinunit/) для получения дополнительной информации.
 
-### Примеры
+## Примеры
 
 Показывает, как манипулировать делениями и отображаемыми значениями оси диаграммы.
 
@@ -77,7 +79,5 @@ doc.Save(ArtifactsDir + "Charts.AxisDisplayUnit.docx");
 
 * enum [AxisBuiltInUnit](../../axisbuiltinunit/)
 * class [AxisDisplayUnit](../)
-* пространство имен [Aspose.Words.Drawing.Charts](../../axisdisplayunit/)
+* пространство имен [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../../)
-
-

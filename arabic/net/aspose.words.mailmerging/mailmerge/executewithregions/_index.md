@@ -1,12 +1,14 @@
 ---
 title: MailMerge.ExecuteWithRegions
-second_title: Aspose.Words لمراجع .NET API
-description: MailMerge طريقة. تنفيذ عملية دمج البريد من مصدر بيانات مخصص مع مناطق دمج البريد.
+linktitle: ExecuteWithRegions
+articleTitle: ExecuteWithRegions
+second_title: Aspose.Words لـ .NET
+description: MailMerge ExecuteWithRegions طريقة. تنفيذ عملية دمج البريد من مصدر بيانات مخصص مع مناطق دمج البريد في C#.
 type: docs
 weight: 200
 url: /ar/net/aspose.words.mailmerging/mailmerge/executewithregions/
 ---
-## ExecuteWithRegions(IMailMergeDataSource) {#executewithregions}
+## ExecuteWithRegions(*[IMailMergeDataSource](../../imailmergedatasource/)*) {#executewithregions}
 
 تنفيذ عملية دمج البريد من مصدر بيانات مخصص مع مناطق دمج البريد.
 
@@ -18,13 +20,13 @@ public void ExecuteWithRegions(IMailMergeDataSource dataSource)
 | --- | --- | --- |
 | dataSource | IMailMergeDataSource | كائن يقوم بتطبيق واجهة مصدر بيانات دمج المراسلات المخصصة. |
 
-### ملاحظات
+## ملاحظات
 
 استخدم هذه الطريقة لملء حقول دمج البريد في المستند بقيم من أي مصدر بيانات مخصص مثل ملف XML أو مجموعات كائنات الأعمال. أنت بحاجة إلى كتابة فصلك الخاص الذي ينفذ[`IMailMergeDataSource`](../../imailmergedatasource/) واجهه المستخدم.
 
 يمكنك استخدام هذه الطريقة فقط عندما[`IsBidiTextSupportedOnUpdate`](../../../aspose.words.fields/fieldoptions/isbiditextsupportedonupdate/) يكون`خطأ شنيع`، أي أنك لا تحتاج إلى التوافق مع اللغة من اليمين إلى اليسار (مثل العربية أو العبرية).
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام مناطق دمج البريد لتنفيذ عملية دمج بريدية متداخلة.
 
@@ -271,12 +273,12 @@ public class OrderMailMergeDataSource : IMailMergeDataSource
 
 * interface [IMailMergeDataSource](../../imailmergedatasource/)
 * class [MailMerge](../)
-* مساحة الاسم [Aspose.Words.MailMerging](../../mailmerge/)
+* مساحة الاسم [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## ExecuteWithRegions(IMailMergeDataSourceRoot) {#executewithregions_1}
+## ExecuteWithRegions(*[IMailMergeDataSourceRoot](../../imailmergedatasourceroot/)*) {#executewithregions_1}
 
 تنفيذ عملية دمج البريد من مصدر بيانات مخصص مع مناطق دمج البريد.
 
@@ -288,13 +290,13 @@ public void ExecuteWithRegions(IMailMergeDataSourceRoot dataSourceRoot)
 | --- | --- | --- |
 | dataSourceRoot | IMailMergeDataSourceRoot | كائن يقوم بتطبيق الواجهة الجذرية لمصدر بيانات دمج المراسلات المخصصة. |
 
-### ملاحظات
+## ملاحظات
 
 استخدم هذه الطريقة لملء حقول دمج البريد في المستند بقيم من أي مصدر بيانات مخصص مثل ملف XML أو مجموعات كائنات الأعمال. أنت بحاجة إلى كتابة class الخاص بك الذي يقوم بتنفيذ[`IMailMergeDataSourceRoot`](../../imailmergedatasourceroot/) و[`IMailMergeDataSource`](../../imailmergedatasource/) واجهات.
 
 يمكنك استخدام هذه الطريقة فقط عندما[`IsBidiTextSupportedOnUpdate`](../../../aspose.words.fields/fieldoptions/isbiditextsupportedonupdate/) يكون`خطأ شنيع`، أي أنك لا تحتاج إلى التوافق مع اللغة من اليمين إلى اليسار (مثل العربية أو العبرية).
 
-### أمثلة
+## أمثلة
 
 تنفيذ دمج البريد من مصدر بيانات مخصص مع بيانات رئيسية وتفصيلية.
 
@@ -478,14 +480,14 @@ private class EmployeeListMailMergeSource : IMailMergeDataSource
 
 * interface [IMailMergeDataSourceRoot](../../imailmergedatasourceroot/)
 * class [MailMerge](../)
-* مساحة الاسم [Aspose.Words.MailMerging](../../mailmerge/)
+* مساحة الاسم [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## ExecuteWithRegions(DataSet) {#executewithregions_2}
+## ExecuteWithRegions(*DataSet*) {#executewithregions_2}
 
-يقوم بدمج البريد من a **DataSet** في مستند يحتوي على مناطق دمج البريد.
+يقوم بدمج البريد من a**DataSet** في مستند يحتوي على مناطق دمج البريد.
 
 ```csharp
 public void ExecuteWithRegions(DataSet dataSet)
@@ -495,31 +497,31 @@ public void ExecuteWithRegions(DataSet dataSet)
 | --- | --- | --- |
 | dataSet | DataSet | **DataSet** الذي يحتوي على البيانات المراد إدراجها في حقول دمج المراسلات. |
 
-### ملاحظات
+## ملاحظات
 
 استخدم هذه الطريقة لإجراء دمج البريد من جدول واحد أو أكثر في مناطق دمج mail القابلة للتكرار في الوثيقة. سوف تنمو مناطق دمج المراسلات داخل المستند بشكل ديناميكي لاستيعاب السجلات في الجداول المقابلة.
 
-كل طاولة في **DataSet** يجب أن يكون له اسم.
+كل طاولة في**DataSet** يجب أن يكون له اسم.
 
-يجب أن يحتوي المستند على مناطق دمج البريد محددة بأسماء تشير إلى الجداول في ملف **DataSet**.
+يجب أن يحتوي المستند على مناطق دمج البريد محددة بأسماء تشير إلى الجداول في ملف**DataSet**.
 
 لتحديد منطقة دمج البريد في المستند، يجب عليك إدراج حقلي دمج البريد لوضع علامة على بداية ونهاية منطقة دمج البريد.
 
-سيتم تكرار كل محتوى المستند المضمن داخل منطقة دمج البريد تلقائيًا لكل سجل في **جدول البيانات**.
+سيتم تكرار كل محتوى المستند المضمن داخل منطقة دمج البريد تلقائيًا لكل سجل في**جدول البيانات**.
 
-لوضع علامة على بداية منطقة دمج البريد، قم بإدراج MERGEFIELD بالاسم TableStart:MyTable, حيث يتوافق MyTable مع أحد أسماء الجداول في **DataSet**.
+لوضع علامة على بداية منطقة دمج البريد، قم بإدراج MERGEFIELD بالاسم TableStart:MyTable, حيث يتوافق MyTable مع أحد أسماء الجداول في**DataSet**.
 
 لوضع علامة على نهاية منطقة دمج المراسلات، قم بإدراج MERGEFIELD آخر باسم TableEnd:MyTable.
 
 لإدراج MERGEFIELD في Word، استخدم أمر Insert/Field وحدد MergeField ثم اكتب اسم الحقل .
 
-ال **TableStart** و **نهاية الجدول** يجب أن تكون الحقول داخل نفس القسم في المستند الخاص بك.
+ال**TableStart** و**نهاية الجدول** يجب أن تكون الحقول داخل نفس القسم في المستند الخاص بك.
 
-إذا تم استخدامه داخل الطاولة، **TableStart** و **نهاية الجدول** يجب أن يكون داخل نفس الصف في الجدول.
+إذا تم استخدامه داخل الطاولة،**TableStart** و**نهاية الجدول** يجب أن يكون داخل نفس الصف في الجدول.
 
-يجب أن يتم تشكيل مناطق دمج البريد في المستند بشكل جيد (يجب دائمًا أن يكون هناك زوج من match  **TableStart** و **نهاية الجدول** دمج الحقول بنفس اسم الجدول).
+يجب أن يتم تشكيل مناطق دمج البريد في المستند بشكل جيد (يجب دائمًا أن يكون هناك زوج من match **TableStart** و**نهاية الجدول** دمج الحقول بنفس اسم الجدول).
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تنفيذ عملية دمج بريدية متداخلة مع منطقتي دمج وجدولي بيانات.
 
@@ -603,14 +605,14 @@ private static DataSet CreateDataSet()
 ### أنظر أيضا
 
 * class [MailMerge](../)
-* مساحة الاسم [Aspose.Words.MailMerging](../../mailmerge/)
+* مساحة الاسم [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## ExecuteWithRegions(DataTable) {#executewithregions_3}
+## ExecuteWithRegions(*DataTable*) {#executewithregions_3}
 
-يقوم بدمج البريد من a **جدول البيانات** في المستند الذي يحتوي على مناطق دمج البريد.
+يقوم بدمج البريد من a**جدول البيانات** في المستند الذي يحتوي على مناطق دمج البريد.
 
 ```csharp
 public void ExecuteWithRegions(DataTable dataTable)
@@ -620,13 +622,13 @@ public void ExecuteWithRegions(DataTable dataTable)
 | --- | --- | --- |
 | dataTable | DataTable | مصدر البيانات لعملية دمج المراسلات. يجب أن يكون للجدول خاصيتهTableName مجموعة الممتلكات. |
 
-### ملاحظات
+## ملاحظات
 
 يجب أن يحتوي المستند على منطقة دمج مراسلات محددة باسم يتطابق مع TableName.
 
 إذا كانت هناك مناطق أخرى لدمج البريد تم تعريفها في المستند، فسيتم تركها كما هي. وهذا يسمح بإجراء العديد من عمليات دمج البريد.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تنسيق الخلايا أثناء دمج المراسلات.
 
@@ -762,14 +764,14 @@ doc.Save(ArtifactsDir + "MailMerge.ExecuteWithRegionsConcurrent.docx");
 ### أنظر أيضا
 
 * class [MailMerge](../)
-* مساحة الاسم [Aspose.Words.MailMerging](../../mailmerge/)
+* مساحة الاسم [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## ExecuteWithRegions(DataView) {#executewithregions_4}
+## ExecuteWithRegions(*DataView*) {#executewithregions_4}
 
-يقوم بدمج البريد من a **عرض البيانات** في المستند الذي يحتوي على مناطق دمج البريد.
+يقوم بدمج البريد من a**عرض البيانات** في المستند الذي يحتوي على مناطق دمج البريد.
 
 ```csharp
 public void ExecuteWithRegions(DataView dataView)
@@ -777,17 +779,17 @@ public void ExecuteWithRegions(DataView dataView)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| dataView | DataView | مصدر البيانات لعملية دمج المراسلات. المصدر table الخاص بـ **عرض البيانات** يجب أن يكون لها **اسم الطاولة** مجموعة الممتلكات. |
+| dataView | DataView | مصدر البيانات لعملية دمج المراسلات. المصدر table الخاص بـ**عرض البيانات** يجب أن يكون لها**اسم الطاولة** مجموعة الممتلكات. |
 
-### ملاحظات
+## ملاحظات
 
-هذه الطريقة مفيدة إذا قمت باسترداد البيانات إلى ملف **جدول البيانات** ولكن ثم بحاجة إلى تطبيق عامل تصفية أو فرز قبل دمج البريد.
+هذه الطريقة مفيدة إذا قمت باسترداد البيانات إلى ملف**جدول البيانات** ولكن ثم بحاجة إلى تطبيق عامل تصفية أو فرز قبل دمج البريد.
 
-يجب أن يحتوي المستند على منطقة دمج مراسلات محددة باسم يتطابق مع  **DataView.Table.TableName**.
+يجب أن يحتوي المستند على منطقة دمج مراسلات محددة باسم يتطابق مع **DataView.Table.TableName**.
 
 إذا كانت هناك مناطق أخرى لدمج البريد تم تعريفها في المستند، فسيتم تركها كما هي. وهذا يسمح بإجراء العديد من عمليات دمج البريد.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام المناطق لتنفيذ عمليتين منفصلتين لدمج البريد في مستند واحد.
 
@@ -843,14 +845,14 @@ doc.Save(ArtifactsDir + "MailMerge.ExecuteWithRegionsConcurrent.docx");
 ### أنظر أيضا
 
 * class [MailMerge](../)
-* مساحة الاسم [Aspose.Words.MailMerging](../../mailmerge/)
+* مساحة الاسم [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## ExecuteWithRegions(IDataReader, string) {#executewithregions_5}
+## ExecuteWithRegions(*IDataReader, string*) {#executewithregions_5}
 
-يقوم بدمج البريد من **معرف البيانات** في المستند الذي يحتوي على مناطق دمج البريد.
+يقوم بدمج البريد من**معرف البيانات** في المستند الذي يحتوي على مناطق دمج البريد.
 
 ```csharp
 public void ExecuteWithRegions(IDataReader dataReader, string tableName)
@@ -858,14 +860,14 @@ public void ExecuteWithRegions(IDataReader dataReader, string tableName)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| dataReader | IDataReader | مصدر سجلات البيانات لدمج البريد مثل **OleDbDataReader** أو **SqlDataReader**. |
+| dataReader | IDataReader | مصدر سجلات البيانات لدمج البريد مثل**OleDbDataReader** أو**SqlDataReader**. |
 | tableName | String | اسم منطقة دمج المراسلات في المستند المطلوب تعبئته. |
 
-### ملاحظات
+## ملاحظات
 
-يمكنك تمرير **SqlDataReader** أو **OleDbDataReader**كائن في طريقة this كمعلمة لأن كلاهما تم تنفيذهما **معرف البيانات** واجهه المستخدم.
+يمكنك تمرير**SqlDataReader** أو**OleDbDataReader**كائن في طريقة this كمعلمة لأن كلاهما تم تنفيذهما**معرف البيانات** واجهه المستخدم.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج الصور المخزنة في حقل BLOB بقاعدة البيانات في تقرير.
 
@@ -914,7 +916,5 @@ private class HandleMergeImageFieldFromBlob : IFieldMergingCallback
 ### أنظر أيضا
 
 * class [MailMerge](../)
-* مساحة الاسم [Aspose.Words.MailMerging](../../mailmerge/)
+* مساحة الاسم [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FormField.Name
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FormField propriété. Obtient ou définit le nom du champ du formulaire.
+linktitle: Name
+articleTitle: Name
+second_title: Aspose.Words pour .NET
+description: FormField Name propriété. Obtient ou définit le nom du champ du formulaire en C#.
 type: docs
 weight: 130
 url: /fr/net/aspose.words.fields/formfield/name/
@@ -14,11 +16,11 @@ Obtient ou définit le nom du champ du formulaire.
 public string Name { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 Microsoft Word autorise les chaînes comportant au maximum 20 caractères.
 
-### Exemples
+## Exemples
 
 Montre comment insérer une zone de liste déroulante.
 
@@ -42,7 +44,5 @@ doc.Save(ArtifactsDir + "FormFields.Create.html");
 ### Voir également
 
 * class [FormField](../)
-* espace de noms [Aspose.Words.Fields](../../formfield/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: BuildingBlockCollection.ToArray
-second_title: Référence de l'API Aspose.Words pour .NET
-description: BuildingBlockCollection méthode. Copie tous les blocs de construction de la collection vers un nouveau tableau de blocs de construction.
+linktitle: ToArray
+articleTitle: ToArray
+second_title: Aspose.Words pour .NET
+description: BuildingBlockCollection ToArray méthode. Copie tous les blocs de construction de la collection vers un nouveau tableau de blocs de construction en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.buildingblocks/buildingblockcollection/toarray/
@@ -18,7 +20,7 @@ public BuildingBlock[] ToArray()
 
 Une gamme de blocs de construction.
 
-### Exemples
+## Exemples
 
 Montre les moyens d'accéder aux blocs de construction dans un document glossaire.
 
@@ -123,7 +125,5 @@ public class GlossaryDocVisitor : DocumentVisitor
 
 * class [BuildingBlock](../../buildingblock/)
 * class [BuildingBlockCollection](../)
-* espace de noms [Aspose.Words.BuildingBlocks](../../buildingblockcollection/)
+* espace de noms [Aspose.Words.BuildingBlocks](../../../aspose.words.buildingblocks/)
 * Assemblée [Aspose.Words](../../../)
-
-

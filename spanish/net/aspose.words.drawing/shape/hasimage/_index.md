@@ -1,7 +1,9 @@
 ---
 title: Shape.HasImage
-second_title: Referencia de API de Aspose.Words para .NET
-description: Shape propiedad. Devolucionesverdadero si la forma tiene bytes de imagen o vincula una imagen.
+linktitle: HasImage
+articleTitle: HasImage
+second_title: Aspose.Words para .NET
+description: Shape HasImage propiedad. Devolucionesverdadero si la forma tiene bytes de imagen o vincula una imagen en C#.
 type: docs
 weight: 80
 url: /es/net/aspose.words.drawing/shape/hasimage/
@@ -14,7 +16,7 @@ Devoluciones`verdadero` si la forma tiene bytes de imagen o vincula una imagen.
 public bool HasImage { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo eliminar todas las formas con imágenes de un documento.
 
@@ -60,7 +62,5 @@ foreach (Shape shape in shapes.OfType<Shape>())
 ### Ver también
 
 * class [Shape](../)
-* espacio de nombres [Aspose.Words.Drawing](../../shape/)
+* espacio de nombres [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * asamblea [Aspose.Words](../../../)
-
-

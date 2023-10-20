@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTagRangeStart.RemoveSelfOnly
-second_title: Aspose.Words for .NET API 参考
-description: StructuredDocumentTagRangeStart 方法. 删除结构化文档标记的此范围起始节点和适当的范围结束节点 但将其内容保留在文档树内
+linktitle: RemoveSelfOnly
+articleTitle: RemoveSelfOnly
+second_title: 用于 .NET 的 Aspose.Words
+description: StructuredDocumentTagRangeStart RemoveSelfOnly 方法. 删除结构化文档标记的此范围起始节点和适当的范围结束节点 但将其内容保留在文档树内 在 C#.
 type: docs
 weight: 240
 url: /zh/net/aspose.words.markup/structureddocumenttagrangestart/removeselfonly/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.markup/structureddocumenttagrangestart/removeselfonly/
 public void RemoveSelfOnly()
 ```
 
-### 例子
+## 例子
 
 展示如何创建/删除结构化文档标签及其内容。
 
@@ -66,7 +68,5 @@ public void InsertStructuredDocumentTagRanges(Document doc, out StructuredDocume
 ### 也可以看看
 
 * class [StructuredDocumentTagRangeStart](../)
-* 命名空间 [Aspose.Words.Markup](../../structureddocumenttagrangestart/)
+* 命名空间 [Aspose.Words.Markup](../../../aspose.words.markup/)
 * 部件 [Aspose.Words](../../../)
-
-

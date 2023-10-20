@@ -1,7 +1,9 @@
 ---
 title: IMailMergeDataSource.GetValue
-second_title: Aspose.Words for .NET API 参考
-description: IMailMergeDataSource 方法. 返回指定字段名称的值或错误的如果未找到该字段.
+linktitle: GetValue
+articleTitle: GetValue
+second_title: 用于 .NET 的 Aspose.Words
+description: IMailMergeDataSource GetValue 方法. 返回指定字段名称的值或错误的如果未找到该字段 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.mailmerging/imailmergedatasource/getvalue/
@@ -23,7 +25,7 @@ public bool GetValue(string fieldName, out object fieldValue)
 
 `真的`如果找到值。
 
-### 例子
+## 例子
 
 演示如何使用自定义对象形式的数据源执行邮件合并。
 
@@ -137,7 +139,5 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
 ### 也可以看看
 
 * interface [IMailMergeDataSource](../)
-* 命名空间 [Aspose.Words.MailMerging](../../imailmergedatasource/)
+* 命名空间 [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * 部件 [Aspose.Words](../../../)
-
-

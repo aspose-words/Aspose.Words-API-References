@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabel.IsHidden
-second_title: Aspose.Words لمراجع .NET API
-description: ChartDataLabel ملكية. الحصول على/تعيين علامة تشير إلى ما إذا كانت هذه التسمية مخفية أم لا. القيمة الافتراضية هيخطأ شنيع .
+linktitle: IsHidden
+articleTitle: IsHidden
+second_title: Aspose.Words لـ .NET
+description: ChartDataLabel IsHidden ملكية. الحصول على/تعيين علامة تشير إلى ما إذا كانت هذه التسمية مخفية أم لا. القيمة الافتراضية هيخطأ شنيع  في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.drawing.charts/chartdatalabel/ishidden/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing.charts/chartdatalabel/ishidden/
 public bool IsHidden { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تطبيق التسميات على نقاط البيانات في مخطط خطي.
 
@@ -92,7 +94,5 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
 ### أنظر أيضا
 
 * class [ChartDataLabel](../)
-* مساحة الاسم [Aspose.Words.Drawing.Charts](../../chartdatalabel/)
+* مساحة الاسم [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../../)
-
-

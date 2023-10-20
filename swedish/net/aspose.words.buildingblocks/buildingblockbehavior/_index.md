@@ -1,7 +1,9 @@
 ---
-title: Enum BuildingBlockBehavior
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.BuildingBlocks.BuildingBlockBehavior uppräkning. Anger beteendet som ska tillämpas på innehållet i byggblocket när det infogas i huvuddokumentet.
+title: BuildingBlockBehavior Enum
+linktitle: BuildingBlockBehavior
+articleTitle: BuildingBlockBehavior
+second_title: Aspose.Words för .NET
+description: Aspose.Words.BuildingBlocks.BuildingBlockBehavior uppräkning. Anger beteendet som ska tillämpas på innehållet i byggblocket när det infogas i huvuddokumentet i C#.
 type: docs
 weight: 140
 url: /sv/net/aspose.words.buildingblocks/buildingblockbehavior/
@@ -23,11 +25,11 @@ public enum BuildingBlockBehavior
 | Page | `2` | Anger att byggblocket ska läggas till på sin egen sida. |
 | Default | `0` | Samma somContent . |
 
-### Anmärkningar
+## Anmärkningar
 
-Motsvarar **ST_DocPartBehavior** skriv in OOXML.
+Motsvarar**ST_DocPartBehavior** skriv in OOXML.
 
-### Exempel
+## Exempel
 
 Visar hur man lägger till ett anpassat byggblock till ett dokument.
 
@@ -125,5 +127,3 @@ public class BuildingBlockVisitor : DocumentVisitor
 
 * namnutrymme [Aspose.Words.BuildingBlocks](../../aspose.words.buildingblocks/)
 * hopsättning [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.UseFELayout
-second_title: Aspose.Words لمراجع .NET API
-description: CompatibilityOptions ملكية. لا تتجاوز كود تخطيط البرنامج النصي المعقد/شرق آسيا.
+linktitle: UseFELayout
+articleTitle: UseFELayout
+second_title: Aspose.Words لـ .NET
+description: CompatibilityOptions UseFELayout ملكية. لا تتجاوز كود تخطيط البرنامج النصي المعقد/شرق آسيا في C#.
 type: docs
 weight: 620
 url: /ar/net/aspose.words.settings/compatibilityoptions/usefelayout/
@@ -17,7 +19,5 @@ public bool UseFELayout { get; set; }
 ### أنظر أيضا
 
 * class [CompatibilityOptions](../)
-* مساحة الاسم [Aspose.Words.Settings](../../compatibilityoptions/)
+* مساحة الاسم [Aspose.Words.Settings](../../../aspose.words.settings/)
 * المجسم [Aspose.Words](../../../)
-
-

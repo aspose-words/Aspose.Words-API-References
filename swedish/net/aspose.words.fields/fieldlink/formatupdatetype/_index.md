@@ -1,7 +1,9 @@
 ---
 title: FieldLink.FormatUpdateType
-second_title: Aspose.Words för .NET API Referens
-description: FieldLink fast egendom. Hämtar eller ställer in hur det länkade objektet uppdaterar sin formatering.
+linktitle: FormatUpdateType
+articleTitle: FormatUpdateType
+second_title: Aspose.Words för .NET
+description: FieldLink FormatUpdateType fast egendom. Hämtar eller ställer in hur det länkade objektet uppdaterar sin formatering i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.fields/fieldlink/formatupdatetype/
@@ -14,7 +16,7 @@ Hämtar eller ställer in hur det länkade objektet uppdaterar sin formatering.
 public string FormatUpdateType { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man använder olika fälttyper för att länka till andra dokument i det lokala filsystemet och visa deras innehåll.
 
@@ -197,7 +199,5 @@ public enum InsertLinkedObjectAs
 ### Se även
 
 * class [FieldLink](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldlink/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

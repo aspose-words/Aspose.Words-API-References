@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.DoNotUseHTMLParagraphAutoSpacing
-second_title: Aspose.Words لمراجع .NET API
-description: CompatibilityOptions ملكية. استخدم تباعد الفقرات الثابت لإعداد HTML التلقائي.
+linktitle: DoNotUseHTMLParagraphAutoSpacing
+articleTitle: DoNotUseHTMLParagraphAutoSpacing
+second_title: Aspose.Words لـ .NET
+description: CompatibilityOptions DoNotUseHTMLParagraphAutoSpacing ملكية. استخدم تباعد الفقرات الثابت لإعداد HTML التلقائي في C#.
 type: docs
 weight: 210
 url: /ar/net/aspose.words.settings/compatibilityoptions/donotusehtmlparagraphautospacing/
@@ -17,7 +19,5 @@ public bool DoNotUseHTMLParagraphAutoSpacing { get; set; }
 ### أنظر أيضا
 
 * class [CompatibilityOptions](../)
-* مساحة الاسم [Aspose.Words.Settings](../../compatibilityoptions/)
+* مساحة الاسم [Aspose.Words.Settings](../../../aspose.words.settings/)
 * المجسم [Aspose.Words](../../../)
-
-

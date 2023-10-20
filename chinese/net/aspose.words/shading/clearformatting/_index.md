@@ -1,7 +1,9 @@
 ---
 title: Shading.ClearFormatting
-second_title: Aspose.Words for .NET API 参考
-description: Shading 方法. 删除对象的阴影
+linktitle: ClearFormatting
+articleTitle: ClearFormatting
+second_title: 用于 .NET 的 Aspose.Words
+description: Shading ClearFormatting 方法. 删除对象的阴影 在 C#.
 type: docs
 weight: 80
 url: /zh/net/aspose.words/shading/clearformatting/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/shading/clearformatting/
 public void ClearFormatting()
 ```
 
-### 例子
+## 例子
 
 演示如何构建具有自定义边框的表格。
 
@@ -80,7 +82,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
 ### 也可以看看
 
 * class [Shading](../)
-* 命名空间 [Aspose.Words](../../shading/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ChartDataPointCollection.Count
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ChartDataPointCollection propriété. Renvoie le nombre deChartDataPoint dans cette collection.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words pour .NET
+description: ChartDataPointCollection Count propriété. Renvoie le nombre deChartDataPoint dans cette collection en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.drawing.charts/chartdatapointcollection/count/
@@ -14,7 +16,7 @@ Renvoie le nombre de[`ChartDataPoint`](../../chartdatapoint/) dans cette collect
 public int Count { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment utiliser des points de données sur un graphique linéaire.
 
@@ -76,7 +78,5 @@ private static void ApplyDataPoints(ChartSeries series, int dataPointsCount, Mar
 ### Voir également
 
 * class [ChartDataPointCollection](../)
-* espace de noms [Aspose.Words.Drawing.Charts](../../chartdatapointcollection/)
+* espace de noms [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Assemblée [Aspose.Words](../../../)
-
-

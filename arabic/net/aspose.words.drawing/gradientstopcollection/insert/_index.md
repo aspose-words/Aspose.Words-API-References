@@ -1,7 +1,9 @@
 ---
 title: GradientStopCollection.Insert
-second_title: Aspose.Words لمراجع .NET API
-description: GradientStopCollection طريقة. إدراج أGradientStop إلى المجموعة في فهرس محدد.
+linktitle: Insert
+articleTitle: Insert
+second_title: Aspose.Words لـ .NET
+description: GradientStopCollection Insert طريقة. إدراج أGradientStop إلى المجموعة في فهرس محدد في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.drawing/gradientstopcollection/insert/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing/gradientstopcollection/insert/
 public GradientStop Insert(int index, GradientStop gradientStop)
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إضافة نقاط توقف متدرجة إلى التعبئة المتدرجة.
 
@@ -68,7 +70,5 @@ doc.Save(ArtifactsDir + "Shape.GradientStops.docx", saveOptions);
 
 * class [GradientStop](../../gradientstop/)
 * class [GradientStopCollection](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../gradientstopcollection/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.DistanceBottom
-second_title: Aspose.Words för .NET API Referens
-description: ShapeBase fast egendom. Returnerar eller ställer in avståndet i punkter mellan dokumenttexten och den nedre kanten av formen.
+linktitle: DistanceBottom
+articleTitle: DistanceBottom
+second_title: Aspose.Words för .NET
+description: ShapeBase DistanceBottom fast egendom. Returnerar eller ställer in avståndet i punkter mellan dokumenttexten och den nedre kanten av formen i C#.
 type: docs
 weight: 130
 url: /sv/net/aspose.words.drawing/shapebase/distancebottom/
@@ -14,13 +16,13 @@ Returnerar eller ställer in avståndet (i punkter) mellan dokumenttexten och de
 public double DistanceBottom { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Standardvärdet är 0.
 
 Har effekt endast för former på högsta nivå.
 
-### Exempel
+## Exempel
 
 Visar hur man ställer in lindningsavståndet för en text som omger en form.
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "Shape.Coordinates.docx");
 ### Se även
 
 * class [ShapeBase](../)
-* namnutrymme [Aspose.Words.Drawing](../../shapebase/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

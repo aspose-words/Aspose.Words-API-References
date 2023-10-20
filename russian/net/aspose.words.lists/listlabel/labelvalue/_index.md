@@ -1,7 +1,9 @@
 ---
 title: ListLabel.LabelValue
-second_title: Справочник по API Aspose.Words для .NET
-description: ListLabel свойство. Получает числовое значение для этой метки.
+linktitle: LabelValue
+articleTitle: LabelValue
+second_title: Aspose.Words для .NET
+description: ListLabel LabelValue свойство. Получает числовое значение для этой метки на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.lists/listlabel/labelvalue/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.lists/listlabel/labelvalue/
 public int LabelValue { get; }
 ```
 
-### Примечания
+## Примечания
 
 Используйте[`UpdateListLabels`](../../../aspose.words/document/updatelistlabels/) метод для обновления значения этого свойства.
 
-### Примеры
+## Примеры
 
 Показывает, как извлечь метки списка всех абзацев, которые являются элементами списка.
 
@@ -53,7 +55,5 @@ foreach (Paragraph paragraph in paras.OfType<Paragraph>().Where(p => p.ListForma
 ### Смотрите также
 
 * class [ListLabel](../)
-* пространство имен [Aspose.Words.Lists](../../listlabel/)
+* пространство имен [Aspose.Words.Lists](../../../aspose.words.lists/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class PdfDigitalSignatureDetails
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Saving.PdfDigitalSignatureDetails classe. Contient des détails pour signer un document PDF avec une signature numérique.
+title: PdfDigitalSignatureDetails Class
+linktitle: PdfDigitalSignatureDetails
+articleTitle: PdfDigitalSignatureDetails
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Saving.PdfDigitalSignatureDetails classe. Contient des détails pour signer un document PDF avec une signature numérique en C#.
 type: docs
 weight: 5430
 url: /fr/net/aspose.words.saving/pdfdigitalsignaturedetails/
@@ -19,7 +21,7 @@ public class PdfDigitalSignatureDetails
 | Nom | La description |
 | --- | --- |
 | [PdfDigitalSignatureDetails](pdfdigitalsignaturedetails/#constructor)() | Initialise une instance de cette classe. |
-| [PdfDigitalSignatureDetails](pdfdigitalsignaturedetails/#constructor_1)(CertificateHolder, string, string, DateTime) | Initialise une instance de cette classe. |
+| [PdfDigitalSignatureDetails](pdfdigitalsignaturedetails/#constructor_1)(*[CertificateHolder](../../aspose.words.digitalsignatures/certificateholder/), string, string, DateTime*) | Initialise une instance de cette classe. |
 
 ## Propriétés
 
@@ -32,7 +34,7 @@ public class PdfDigitalSignatureDetails
 | [SignatureDate](../../aspose.words.saving/pdfdigitalsignaturedetails/signaturedate/) { get; set; } | Obtient ou définit la date de signature. |
 | [TimestampSettings](../../aspose.words.saving/pdfdigitalsignaturedetails/timestampsettings/) { get; set; } | Obtient ou définit les paramètres d'horodatage de la signature numérique. |
 
-### Remarques
+## Remarques
 
 Pour le moment, la signature numérique des documents PDF n'est disponible que sur .NET 2.0 ou version ultérieure.
 
@@ -40,7 +42,7 @@ Pour signer numériquement un document PDF lors de sa création par Aspose.Words
 
 Aspose.Words crée une signature PKCS#7 sur l'ensemble du document PDF et utilise le filtre « Adobe.PPKMS » et le sous-filtre « adbe.pkcs7.sha1 » lors de la création d'une signature numérique.
 
-### Exemples
+## Exemples
 
 Montre comment signer un document PDF généré.
 
@@ -73,5 +75,3 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignature.pdf", options);
 
 * espace de noms [Aspose.Words.Saving](../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../)
-
-

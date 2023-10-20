@@ -1,7 +1,9 @@
 ---
 title: NodeCollection.IndexOf
-second_title: Aspose.Words för .NET API Referens
-description: NodeCollection metod. Returnerar det nollbaserade indexet för den angivna noden.
+linktitle: IndexOf
+articleTitle: IndexOf
+second_title: Aspose.Words för .NET
+description: NodeCollection IndexOf metod. Returnerar det nollbaserade indexet för den angivna noden i C#.
 type: docs
 weight: 70
 url: /sv/net/aspose.words/nodecollection/indexof/
@@ -22,11 +24,11 @@ public int IndexOf(Node node)
 
 Det nollbaserade indexet för noden inom samlingen, om det hittas; annars -1.
 
-### Anmärkningar
+## Anmärkningar
 
 Denna metod utför en linjär sökning; därför är den genomsnittliga exekveringstiden proportionell mot[`Count`](../count/).
 
-### Exempel
+## Exempel
 
 Visar hur man hämtar indexet för en nod i en samling.
 
@@ -51,7 +53,5 @@ Assert.AreEqual(4, row.IndexOf(cell));
 
 * class [Node](../../node/)
 * class [NodeCollection](../)
-* namnutrymme [Aspose.Words](../../nodecollection/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

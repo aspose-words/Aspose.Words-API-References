@@ -1,7 +1,9 @@
 ---
 title: FieldDisplayBarcode.ForegroundColor
-second_title: Aspose.Words for .NET API 参考
-description: FieldDisplayBarcode 财产. 获取或设置条形码符号的前景色有效值范围为 0 0xFFFFFF
+linktitle: ForegroundColor
+articleTitle: ForegroundColor
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldDisplayBarcode ForegroundColor 财产. 获取或设置条形码符号的前景色有效值范围为 0 0xFFFFFF 在 C#.
 type: docs
 weight: 100
 url: /zh/net/aspose.words.fields/fielddisplaybarcode/foregroundcolor/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fielddisplaybarcode/foregroundcolor/
 public string ForegroundColor { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何插入 DISPLAYBARCODE 字段并设置其属性。
 
@@ -72,7 +74,5 @@ doc.Save(ArtifactsDir + "Field.DISPLAYBARCODE.docx");
 ### 也可以看看
 
 * class [FieldDisplayBarcode](../)
-* 命名空间 [Aspose.Words.Fields](../../fielddisplaybarcode/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

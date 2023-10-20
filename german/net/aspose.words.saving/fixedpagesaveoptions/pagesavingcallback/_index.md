@@ -1,7 +1,9 @@
 ---
 title: FixedPageSaveOptions.PageSavingCallback
-second_title: Aspose.Words für .NET-API-Referenz
-description: FixedPageSaveOptions eigendom. Ermöglicht die Steuerung wie einzelne Seiten gespeichert werden wenn ein Dokument in ein festes Seitenformat exportiert wird.
+linktitle: PageSavingCallback
+articleTitle: PageSavingCallback
+second_title: Aspose.Words für .NET
+description: FixedPageSaveOptions PageSavingCallback eigendom. Ermöglicht die Steuerung wie einzelne Seiten gespeichert werden wenn ein Dokument in ein festes Seitenformat exportiert wird in C#.
 type: docs
 weight: 60
 url: /de/net/aspose.words.saving/fixedpagesaveoptions/pagesavingcallback/
@@ -14,7 +16,7 @@ Ermöglicht die Steuerung, wie einzelne Seiten gespeichert werden, wenn ein Doku
 public IPageSavingCallback PageSavingCallback { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Rückruf verwendet wird, um ein Dokument Seite für Seite im HTML-Format zu speichern.
 
@@ -72,7 +74,5 @@ private class CustomFileNamePageSavingCallback : IPageSavingCallback
 
 * interface [IPageSavingCallback](../../ipagesavingcallback/)
 * class [FixedPageSaveOptions](../)
-* namensraum [Aspose.Words.Saving](../../fixedpagesaveoptions/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

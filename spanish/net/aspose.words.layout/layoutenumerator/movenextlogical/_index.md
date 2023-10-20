@@ -1,7 +1,9 @@
 ---
 title: LayoutEnumerator.MoveNextLogical
-second_title: Referencia de API de Aspose.Words para .NET
-description: LayoutEnumerator método. Pasa a la siguiente entidad hermana en un orden lógico. Al iterar líneas de un párrafo divididas en páginas este método se moverá a la siguiente línea incluso si reside en otra página.
+linktitle: MoveNextLogical
+articleTitle: MoveNextLogical
+second_title: Aspose.Words para .NET
+description: LayoutEnumerator MoveNextLogical método. Pasa a la siguiente entidad hermana en un orden lógico. Al iterar líneas de un párrafo divididas en páginas este método se moverá a la siguiente línea incluso si reside en otra página en C#.
 type: docs
 weight: 130
 url: /es/net/aspose.words.layout/layoutenumerator/movenextlogical/
@@ -14,11 +16,11 @@ Pasa a la siguiente entidad hermana en un orden lógico. Al iterar líneas de un
 public bool MoveNextLogical()
 ```
 
-### Observaciones
+## Observaciones
 
 Tenga en cuenta que todosSpan entidades están vinculadas entre sí, por lo que si[`Current`](../current/) la entidad es una llamada repetida a este método que iterará la historia completa del documento.
 
-### Ejemplos
+## Ejemplos
 
 Muestra formas de recorrer las entidades de diseño de un documento.
 
@@ -163,7 +165,5 @@ private static void PrintCurrentEntity(LayoutEnumerator layoutEnumerator, int in
 ### Ver también
 
 * class [LayoutEnumerator](../)
-* espacio de nombres [Aspose.Words.Layout](../../layoutenumerator/)
+* espacio de nombres [Aspose.Words.Layout](../../../aspose.words.layout/)
 * asamblea [Aspose.Words](../../../)
-
-

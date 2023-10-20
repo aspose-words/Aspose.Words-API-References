@@ -1,7 +1,9 @@
 ---
 title: FieldToa.UseHeading
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldToa propriété. Obtient ou définit sil faut inclure lentête de catégorie pour les entrées dans une table de références.
+linktitle: UseHeading
+articleTitle: UseHeading
+second_title: Aspose.Words pour .NET
+description: FieldToa UseHeading propriété. Obtient ou définit sil faut inclure lentête de catégorie pour les entrées dans une table de références en C#.
 type: docs
 weight: 100
 url: /fr/net/aspose.words.fields/fieldtoa/useheading/
@@ -14,7 +16,7 @@ Obtient ou définit s'il faut inclure l'en-tête de catégorie pour les entrées
 public bool UseHeading { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment créer et personnaliser une table de autorités à l’aide des champs TOA et TA.
 
@@ -137,7 +139,5 @@ private static FieldTA InsertToaEntry(DocumentBuilder builder, string entryCateg
 ### Voir également
 
 * class [FieldToa](../)
-* espace de noms [Aspose.Words.Fields](../../fieldtoa/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

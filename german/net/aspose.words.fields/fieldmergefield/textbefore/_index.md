@@ -1,7 +1,9 @@
 ---
 title: FieldMergeField.TextBefore
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldMergeField eigendom. Ruft den vor dem Feld einzufügenden Text ab oder legt diesen fest wenn das Feld nicht leer ist.
+linktitle: TextBefore
+articleTitle: TextBefore
+second_title: Aspose.Words für .NET
+description: FieldMergeField TextBefore eigendom. Ruft den vor dem Feld einzufügenden Text ab oder legt diesen fest wenn das Feld nicht leer ist in C#.
 type: docs
 weight: 60
 url: /de/net/aspose.words.fields/fieldmergefield/textbefore/
@@ -14,7 +16,7 @@ Ruft den vor dem Feld einzufügenden Text ab oder legt diesen fest, wenn das Fel
 public string TextBefore { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie MERGEFIELD-Felder zum Durchführen eines Seriendrucks verwendet werden.
 
@@ -56,7 +58,5 @@ Assert.AreEqual("Dear Mr. Doe:\u000cDear Mrs. Cardholder:", doc.GetText().Trim()
 ### Siehe auch
 
 * class [FieldMergeField](../)
-* namensraum [Aspose.Words.Fields](../../fieldmergefield/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

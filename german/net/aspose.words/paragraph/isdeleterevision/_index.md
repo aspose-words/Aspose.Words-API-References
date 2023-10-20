@@ -1,7 +1,9 @@
 ---
 title: Paragraph.IsDeleteRevision
-second_title: Aspose.Words für .NET-API-Referenz
-description: Paragraph eigendom. Gibt true zurück wenn dieses Objekt in Microsoft Word gelöscht wurde während die Änderungsverfolgung aktiviert war.
+linktitle: IsDeleteRevision
+articleTitle: IsDeleteRevision
+second_title: Aspose.Words für .NET
+description: Paragraph IsDeleteRevision eigendom. Gibt true zurück wenn dieses Objekt in Microsoft Word gelöscht wurde während die Änderungsverfolgung aktiviert war in C#.
 type: docs
 weight: 40
 url: /de/net/aspose.words/paragraph/isdeleterevision/
@@ -14,7 +16,7 @@ Gibt „true“ zurück, wenn dieses Objekt in Microsoft Word gelöscht wurde, w
 public bool IsDeleteRevision { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit Revisionsabsätzen gearbeitet wird.
 
@@ -63,7 +65,5 @@ Assert.AreEqual(
 ### Siehe auch
 
 * class [Paragraph](../)
-* namensraum [Aspose.Words](../../paragraph/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

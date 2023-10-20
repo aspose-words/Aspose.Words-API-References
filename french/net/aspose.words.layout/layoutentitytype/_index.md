@@ -1,7 +1,9 @@
 ---
-title: Enum LayoutEntityType
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Layout.LayoutEntityType énumération. Types dentités de mise en page.
+title: LayoutEntityType Enum
+linktitle: LayoutEntityType
+articleTitle: LayoutEntityType
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Layout.LayoutEntityType énumération. Types dentités de mise en page en C#.
 type: docs
 weight: 3330
 url: /fr/net/aspose.words.layout/layoutentitytype/
@@ -34,7 +36,7 @@ public enum LayoutEntityType
 | Comment | `1000` | Représente un espace réservé pour le contenu du commentaire. Le commentaire peut avoirLine etRow entités enfants. |
 | NoteSeparator | `2000` | Représente un séparateur de note de bas de page/note de fin. NoteSeparator peut avoirLine etRow entités enfants. |
 
-### Exemples
+## Exemples
 
 Montre les moyens de parcourir les entités de mise en page d'un document.
 
@@ -180,5 +182,3 @@ private static void PrintCurrentEntity(LayoutEnumerator layoutEnumerator, int in
 
 * espace de noms [Aspose.Words.Layout](../../aspose.words.layout/)
 * Assemblée [Aspose.Words](../../)
-
-

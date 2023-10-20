@@ -1,7 +1,9 @@
 ---
 title: TableSubstitutionRule.GetSubstitutes
-second_title: Aspose.Words per .NET API Reference
-description: TableSubstitutionRule metodo. Restituisce larray contenente i nomi dei font sostitutivi per il nome del font originale specificato.
+linktitle: GetSubstitutes
+articleTitle: GetSubstitutes
+second_title: Aspose.Words per .NET
+description: TableSubstitutionRule GetSubstitutes metodo. Restituisce larray contenente i nomi dei font sostitutivi per il nome del font originale specificato in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words.fonts/tablesubstitutionrule/getsubstitutes/
@@ -22,7 +24,7 @@ public IEnumerable<string> GetSubstitutes(string originalFontName)
 
 Elenco di nomi di caratteri alternativi.
 
-### Esempi
+## Esempi
 
 Mostra come accedere all'origine dei caratteri di sistema di un documento e impostare i sostituti dei caratteri.
 
@@ -134,7 +136,5 @@ doc.Save(ArtifactsDir + "FontSettings.TableSubstitutionRule.Custom.pdf");
 ### Guarda anche
 
 * class [TableSubstitutionRule](../)
-* spazio dei nomi [Aspose.Words.Fonts](../../tablesubstitutionrule/)
+* spazio dei nomi [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * assemblea [Aspose.Words](../../../)
-
-

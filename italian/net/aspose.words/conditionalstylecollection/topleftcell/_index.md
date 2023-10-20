@@ -1,7 +1,9 @@
 ---
 title: ConditionalStyleCollection.TopLeftCell
-second_title: Aspose.Words per .NET API Reference
-description: ConditionalStyleCollection proprietà. Ottiene lo stile della cella in alto a sinistra.
+linktitle: TopLeftCell
+articleTitle: TopLeftCell
+second_title: Aspose.Words per .NET
+description: ConditionalStyleCollection TopLeftCell proprietà. Ottiene lo stile della cella in alto a sinistra in C#.
 type: docs
 weight: 130
 url: /it/net/aspose.words/conditionalstylecollection/topleftcell/
@@ -14,7 +16,7 @@ Ottiene lo stile della cella in alto a sinistra.
 public ConditionalStyle TopLeftCell { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come lavorare con determinati stili di area di una tabella.
 
@@ -85,7 +87,5 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 
 * class [ConditionalStyle](../../conditionalstyle/)
 * class [ConditionalStyleCollection](../)
-* spazio dei nomi [Aspose.Words](../../conditionalstylecollection/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

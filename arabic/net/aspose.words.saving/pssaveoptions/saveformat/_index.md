@@ -1,7 +1,9 @@
 ---
 title: PsSaveOptions.SaveFormat
-second_title: Aspose.Words لمراجع .NET API
-description: PsSaveOptions ملكية. يحدد التنسيق الذي سيتم حفظ المستند به في حالة استخدام كائن خيارات الحفظ هذا. يمكن أن يكون فقطPs .
+linktitle: SaveFormat
+articleTitle: SaveFormat
+second_title: Aspose.Words لـ .NET
+description: PsSaveOptions SaveFormat ملكية. يحدد التنسيق الذي سيتم حفظ المستند به في حالة استخدام كائن خيارات الحفظ هذا. يمكن أن يكون فقطPs  في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.saving/pssaveoptions/saveformat/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.saving/pssaveoptions/saveformat/
 public override SaveFormat SaveFormat { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية حفظ مستند بتنسيق Postscript على شكل طية كتاب.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "PsSaveOptions.UseBookFoldPrintingSettings.ps", saveOpti
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
 * class [PsSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../pssaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

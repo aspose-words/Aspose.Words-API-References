@@ -1,7 +1,9 @@
 ---
 title: PsSaveOptions.UseBookFoldPrintingSettings
-second_title: Aspose.Words per .NET API Reference
-description: PsSaveOptions proprietà. Ottiene o imposta un valore booleano che indica se il documento deve essere salvato utilizzando un layout di stampa booklet se specificato tramiteMultiplePages .
+linktitle: UseBookFoldPrintingSettings
+articleTitle: UseBookFoldPrintingSettings
+second_title: Aspose.Words per .NET
+description: PsSaveOptions UseBookFoldPrintingSettings proprietà. Ottiene o imposta un valore booleano che indica se il documento deve essere salvato utilizzando un layout di stampa booklet se specificato tramiteMultiplePages  in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words.saving/pssaveoptions/usebookfoldprintingsettings/
@@ -14,11 +16,11 @@ Ottiene o imposta un valore booleano che indica se il documento deve essere salv
 public bool UseBookFoldPrintingSettings { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Se questa opzione è specificata,[`PageSet`](../../fixedpagesaveoptions/pageset/) viene ignorato durante il salvataggio. Questo comportamento corrisponde a MS Word. Se le impostazioni di stampa della piegatura del libro non sono specificate nell'impostazione della pagina, questa opzione non avrà alcun effetto.
 
-### Esempi
+## Esempi
 
 Mostra come salvare un documento nel formato Postscript sotto forma di piegatura di un libro.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "PsSaveOptions.UseBookFoldPrintingSettings.ps", saveOpti
 ### Guarda anche
 
 * class [PsSaveOptions](../)
-* spazio dei nomi [Aspose.Words.Saving](../../pssaveoptions/)
+* spazio dei nomi [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../../)
-
-

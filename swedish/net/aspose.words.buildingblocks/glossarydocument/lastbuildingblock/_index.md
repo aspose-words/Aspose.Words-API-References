@@ -1,7 +1,9 @@
 ---
 title: GlossaryDocument.LastBuildingBlock
-second_title: Aspose.Words för .NET API Referens
-description: GlossaryDocument fast egendom. Hämtar den sista byggstenen i ordlistans dokument.
+linktitle: LastBuildingBlock
+articleTitle: LastBuildingBlock
+second_title: Aspose.Words för .NET
+description: GlossaryDocument LastBuildingBlock fast egendom. Hämtar den sista byggstenen i ordlistans dokument i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.buildingblocks/glossarydocument/lastbuildingblock/
@@ -14,11 +16,11 @@ Hämtar den sista byggstenen i ordlistans dokument.
 public BuildingBlock LastBuildingBlock { get; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Returnerar`null` om det inte finns några byggstenar tillgängliga.
 
-### Exempel
+## Exempel
 
 Visar sätt att komma åt byggstenar i ett ordlistadokument.
 
@@ -123,7 +125,5 @@ public class GlossaryDocVisitor : DocumentVisitor
 
 * class [BuildingBlock](../../buildingblock/)
 * class [GlossaryDocument](../)
-* namnutrymme [Aspose.Words.BuildingBlocks](../../glossarydocument/)
+* namnutrymme [Aspose.Words.BuildingBlocks](../../../aspose.words.buildingblocks/)
 * hopsättning [Aspose.Words](../../../)
-
-

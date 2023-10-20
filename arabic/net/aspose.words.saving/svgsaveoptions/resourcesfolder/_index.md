@@ -1,7 +1,9 @@
 ---
 title: SvgSaveOptions.ResourcesFolder
-second_title: Aspose.Words لمراجع .NET API
-description: SvgSaveOptions ملكية. يحدد المجلد الفعلي حيث يتم حفظ الموارد الصور عند تصدير مستند إلى تنسيق Svg. الافتراضي هوباطل .
+linktitle: ResourcesFolder
+articleTitle: ResourcesFolder
+second_title: Aspose.Words لـ .NET
+description: SvgSaveOptions ResourcesFolder ملكية. يحدد المجلد الفعلي حيث يتم حفظ الموارد الصور عند تصدير مستند إلى تنسيق Svg. الافتراضي هوباطل  في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.saving/svgsaveoptions/resourcesfolder/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.saving/svgsaveoptions/resourcesfolder/
 public string ResourcesFolder { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 ليس له تأثير إلا إذا[`ExportEmbeddedImages`](../exportembeddedimages/) الملكية هي`خطأ شنيع`.
 
@@ -24,7 +26,7 @@ public string ResourcesFolder { get; set; }
 
 إذا قمت بحفظ مستند في دفق، فلن يحتوي Aspose.Words على مجلد لحفظ الصور، ولكنه لا يزال بحاجة إلى حفظ الصور في مكان ما. في هذه الحالة، تحتاج إلى تحديد مجلد يمكن الوصول إليه في الملف`ResourcesFolder` ملكية
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية معالجة وطباعة معرفات URI للموارد المرتبطة التي تم إنشاؤها أثناء تحويل مستند إلى .svg.
 
@@ -67,7 +69,5 @@ private class ResourceUriPrinter : IResourceSavingCallback
 ### أنظر أيضا
 
 * class [SvgSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../svgsaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

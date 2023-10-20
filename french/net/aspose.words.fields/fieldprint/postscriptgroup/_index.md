@@ -1,7 +1,9 @@
 ---
 title: FieldPrint.PostScriptGroup
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldPrint propriété. Obtient ou définit le rectangle de dessin sur lequel les instructions PostScript opèrent.
+linktitle: PostScriptGroup
+articleTitle: PostScriptGroup
+second_title: Aspose.Words pour .NET
+description: FieldPrint PostScriptGroup propriété. Obtient ou définit le rectangle de dessin sur lequel les instructions PostScript opèrent en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.fields/fieldprint/postscriptgroup/
@@ -14,7 +16,7 @@ Obtient ou définit le rectangle de dessin sur lequel les instructions PostScrip
 public string PostScriptGroup { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre pour insérer un champ PRINT.
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "Field.PRINT.docx");
 ### Voir également
 
 * class [FieldPrint](../)
-* espace de noms [Aspose.Words.Fields](../../fieldprint/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: AsposeWordsPrintDocument.ColorPagesPrinted
-second_title: Справочник по API Aspose.Words для .NET
-description: AsposeWordsPrintDocument свойство. Получает количество страниц напечатанных в цвете т. е. сColor установлено значение true.
+linktitle: ColorPagesPrinted
+articleTitle: ColorPagesPrinted
+second_title: Aspose.Words для .NET
+description: AsposeWordsPrintDocument ColorPagesPrinted свойство. Получает количество страниц напечатанных в цвете т. е. сColor установлено значение true на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.rendering/asposewordsprintdocument/colorpagesprinted/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.rendering/asposewordsprintdocument/colorpagesprinted/
 public int ColorPagesPrinted { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как выбрать диапазон страниц и принтер для печати документа, а затем вызвать предварительный просмотр печати.
 
@@ -63,7 +65,5 @@ Console.WriteLine($"The numer of pages printed in color are {awPrintDoc.ColorPag
 ### Смотрите также
 
 * class [AsposeWordsPrintDocument](../)
-* пространство имен [Aspose.Words.Rendering](../../asposewordsprintdocument/)
+* пространство имен [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * сборка [Aspose.Words](../../../)
-
-

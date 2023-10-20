@@ -1,7 +1,9 @@
 ---
-title: BookmarkEnd.BookmarkEnd
-second_title: Aspose.Words för .NET API Referens
-description: BookmarkEnd byggare. Initierar en ny instans avBookmarkEnd class.
+title: BookmarkEnd
+linktitle: BookmarkEnd
+articleTitle: BookmarkEnd
+second_title: Aspose.Words för .NET
+description: BookmarkEnd byggare. Initierar en ny instans avBookmarkEnd class i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words/bookmarkend/bookmarkend/
@@ -19,7 +21,7 @@ public BookmarkEnd(DocumentBase doc, string name)
 | doc | DocumentBase | Ägardokumentet. |
 | name | String | Namnet på bokmärket. Kan inte vara`null`. |
 
-### Exempel
+## Exempel
 
 Visar hur du lägger till bokmärken och uppdaterar deras innehåll.
 
@@ -109,7 +111,5 @@ public class BookmarkInfoPrinter : DocumentVisitor
 
 * class [DocumentBase](../../documentbase/)
 * class [BookmarkEnd](../)
-* namnutrymme [Aspose.Words](../../bookmarkend/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

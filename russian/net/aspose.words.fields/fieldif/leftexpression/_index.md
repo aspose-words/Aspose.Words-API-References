@@ -1,7 +1,9 @@
 ---
 title: FieldIf.LeftExpression
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldIf свойство. Получает или задает левую часть выражения сравнения.
+linktitle: LeftExpression
+articleTitle: LeftExpression
+second_title: Aspose.Words для .NET
+description: FieldIf LeftExpression свойство. Получает или задает левую часть выражения сравнения на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.fields/fieldif/leftexpression/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldif/leftexpression/
 public string LeftExpression { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как вставить поле ЕСЛИ.
 
@@ -60,7 +62,5 @@ doc.Save(ArtifactsDir + "Field.IF.docx");
 ### Смотрите также
 
 * class [FieldIf](../)
-* пространство имен [Aspose.Words.Fields](../../fieldif/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

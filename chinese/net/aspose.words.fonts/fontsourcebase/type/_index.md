@@ -1,7 +1,9 @@
 ---
 title: FontSourceBase.Type
-second_title: Aspose.Words for .NET API 参考
-description: FontSourceBase 财产. 返回字体源的类型
+linktitle: Type
+articleTitle: Type
+second_title: 用于 .NET 的 Aspose.Words
+description: FontSourceBase Type 财产. 返回字体源的类型 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.fonts/fontsourcebase/type/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fonts/fontsourcebase/type/
 public abstract FontSourceType Type { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何使用本地文件系统中的字体文件作为字体源。
 
@@ -34,7 +36,5 @@ Assert.AreEqual(0, fileFontSource.Priority);
 
 * enum [FontSourceType](../../fontsourcetype/)
 * class [FontSourceBase](../)
-* 命名空间 [Aspose.Words.Fonts](../../fontsourcebase/)
+* 命名空间 [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * 部件 [Aspose.Words](../../../)
-
-

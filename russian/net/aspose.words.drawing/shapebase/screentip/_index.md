@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.ScreenTip
-second_title: Справочник по API Aspose.Words для .NET
-description: ShapeBase свойство. Определяет текст отображаемый при наведении указателя мыши на фигуру.
+linktitle: ScreenTip
+articleTitle: ScreenTip
+second_title: Aspose.Words для .NET
+description: ShapeBase ScreenTip свойство. Определяет текст отображаемый при наведении указателя мыши на фигуру на С#.
 type: docs
 weight: 480
 url: /ru/net/aspose.words.drawing/shapebase/screentip/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.drawing/shapebase/screentip/
 public string ScreenTip { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Значение по умолчанию — пустая строка.
 
-### Примеры
+## Примеры
 
 Показывает, как вставить фигуру, содержащую изображение, а также гиперссылку.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "Image.InsertImageWithHyperlink.docx");
 ### Смотрите также
 
 * class [ShapeBase](../)
-* пространство имен [Aspose.Words.Drawing](../../shapebase/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

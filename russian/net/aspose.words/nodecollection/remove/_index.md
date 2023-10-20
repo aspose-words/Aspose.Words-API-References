@@ -1,7 +1,9 @@
 ---
 title: NodeCollection.Remove
-second_title: Справочник по API Aspose.Words для .NET
-description: NodeCollection метод. Удаляет узел из коллекции и из документа.
+linktitle: Remove
+articleTitle: Remove
+second_title: Aspose.Words для .NET
+description: NodeCollection Remove метод. Удаляет узел из коллекции и из документа на С#.
 type: docs
 weight: 90
 url: /ru/net/aspose.words/nodecollection/remove/
@@ -18,7 +20,7 @@ public void Remove(Node node)
 | --- | --- | --- |
 | node | Node | Узел, который нужно удалить. |
 
-### Примеры
+## Примеры
 
 Показывает, как работать с NodeCollection.
 
@@ -56,7 +58,5 @@ Assert.False(runs.Contains(run));
 
 * class [Node](../../node/)
 * class [NodeCollection](../)
-* пространство имен [Aspose.Words](../../nodecollection/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

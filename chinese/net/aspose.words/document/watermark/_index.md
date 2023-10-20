@@ -1,7 +1,9 @@
 ---
 title: Document.Watermark
-second_title: Aspose.Words for .NET API 参考
-description: Document 财产. 提供对文档水印的访问
+linktitle: Watermark
+articleTitle: Watermark
+second_title: 用于 .NET 的 Aspose.Words
+description: Document Watermark 财产. 提供对文档水印的访问 在 C#.
 type: docs
 weight: 480
 url: /zh/net/aspose.words/document/watermark/
@@ -18,7 +20,5 @@ public Watermark Watermark { get; }
 
 * class [Watermark](../../watermark/)
 * class [Document](../)
-* 命名空间 [Aspose.Words](../../document/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

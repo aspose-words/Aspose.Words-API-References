@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitStructuredDocumentTagStart
-second_title: Referencia de API de Aspose.Words para .NET
-description: DocumentVisitor método. Se llama cuando ha comenzado la enumeración de una etiqueta de documento estructurado.
+linktitle: VisitStructuredDocumentTagStart
+articleTitle: VisitStructuredDocumentTagStart
+second_title: Aspose.Words para .NET
+description: DocumentVisitor VisitStructuredDocumentTagStart método. Se llama cuando ha comenzado la enumeración de una etiqueta de documento estructurado en C#.
 type: docs
 weight: 470
 url: /es/net/aspose.words/documentvisitor/visitstructureddocumenttagstart/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitStructuredDocumentTagStart(StructuredDocumentT
 
 A[`VisitorAction`](../../visitoraction/) valor que especifica cómo continuar la enumeración.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo imprimir la estructura de nodos de cada etiqueta de documento estructurado en un documento.
 
@@ -114,7 +116,5 @@ public class StructuredDocumentTagNodePrinter : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [StructuredDocumentTag](../../../aspose.words.markup/structureddocumenttag/)
 * class [DocumentVisitor](../)
-* espacio de nombres [Aspose.Words](../../documentvisitor/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

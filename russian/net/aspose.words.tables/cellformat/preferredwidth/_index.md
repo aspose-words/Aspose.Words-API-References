@@ -1,9 +1,11 @@
 ---
 title: CellFormat.PreferredWidth
-second_title: Справочник по API Aspose.Words для .NET
-description: CellFormat свойство. Возвращает или устанавливает предпочтительную ширину ячейки.
+linktitle: PreferredWidth
+articleTitle: PreferredWidth
+second_title: Aspose.Words для .NET
+description: CellFormat PreferredWidth свойство. Возвращает или устанавливает предпочтительную ширину ячейки на С#.
 type: docs
-weight: 80
+weight: 70
 url: /ru/net/aspose.words.tables/cellformat/preferredwidth/
 ---
 ## CellFormat.PreferredWidth property
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.tables/cellformat/preferredwidth/
 public PreferredWidth PreferredWidth { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Предпочтительная ширина (вместе с параметром «Автоподбор» таблицы) определяет, как фактическая ширина ячейки рассчитывается алгоритмом макета таблицы. Макет таблицы может быть выполнен с помощью Aspose.Words при сохранении документа или с помощью Microsoft Word при отображении документа.
 
@@ -22,7 +24,7 @@ public PreferredWidth PreferredWidth { get; set; }
 
 Значение по умолчанию:[`Auto`](../../preferredwidth/auto/).
 
-### Примеры
+## Примеры
 
 Показывает, как установить предпочтительную ширину ячеек таблицы.
 
@@ -63,7 +65,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertCellsWithPreferredWidths.docx");
 
 * class [PreferredWidth](../../preferredwidth/)
 * class [CellFormat](../)
-* пространство имен [Aspose.Words.Tables](../../cellformat/)
+* пространство имен [Aspose.Words.Tables](../../../aspose.words.tables/)
 * сборка [Aspose.Words](../../../)
-
-

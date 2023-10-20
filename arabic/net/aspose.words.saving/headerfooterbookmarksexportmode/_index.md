@@ -1,7 +1,9 @@
 ---
-title: Enum HeaderFooterBookmarksExportMode
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Saving.HeaderFooterBookmarksExportMode تعداد. يحدد كيفية تصدير الإشارات المرجعية في الرؤوس/التذييلات.
+title: HeaderFooterBookmarksExportMode Enum
+linktitle: HeaderFooterBookmarksExportMode
+articleTitle: HeaderFooterBookmarksExportMode
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Saving.HeaderFooterBookmarksExportMode تعداد. يحدد كيفية تصدير الإشارات المرجعية في الرؤوس/التذييلات في C#.
 type: docs
 weight: 5050
 url: /ar/net/aspose.words.saving/headerfooterbookmarksexportmode/
@@ -22,7 +24,7 @@ public enum HeaderFooterBookmarksExportMode
 | First | `1` | يتم تصدير الإشارة المرجعية فقط في الرأس/التذييل الأول للقسم. |
 | All | `2` | يتم تصدير الإشارات المرجعية في جميع الرؤوس/التذييلات. |
 
-### أمثلة
+## أمثلة
 
 يظهر لمعالجة الإشارات المرجعية في الرؤوس/التذييلات في المستند الذي نعرضه إلى PDF.
 
@@ -55,5 +57,3 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.HeaderFooterBookmarksExportMode.pdf", sa
 
 * مساحة الاسم [Aspose.Words.Saving](../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../)
-
-

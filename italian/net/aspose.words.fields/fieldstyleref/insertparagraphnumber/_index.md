@@ -1,7 +1,9 @@
 ---
 title: FieldStyleRef.InsertParagraphNumber
-second_title: Aspose.Words per .NET API Reference
-description: FieldStyleRef proprietà. Ottiene o imposta se inserire il numero del paragrafo di riferimento esattamente come appare nel documento.
+linktitle: InsertParagraphNumber
+articleTitle: InsertParagraphNumber
+second_title: Aspose.Words per .NET
+description: FieldStyleRef InsertParagraphNumber proprietà. Ottiene o imposta se inserire il numero del paragrafo di riferimento esattamente come appare nel documento in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words.fields/fieldstyleref/insertparagraphnumber/
@@ -14,7 +16,7 @@ Ottiene o imposta se inserire il numero del paragrafo di riferimento esattamente
 public bool InsertParagraphNumber { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come utilizzare i campi STYLEREF.
 
@@ -85,7 +87,5 @@ doc.Save(ArtifactsDir + "Field.STYLEREF.docx");
 ### Guarda anche
 
 * class [FieldStyleRef](../)
-* spazio dei nomi [Aspose.Words.Fields](../../fieldstyleref/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

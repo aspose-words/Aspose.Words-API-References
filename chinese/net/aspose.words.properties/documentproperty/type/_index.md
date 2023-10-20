@@ -1,7 +1,9 @@
 ---
 title: DocumentProperty.Type
-second_title: Aspose.Words for .NET API 参考
-description: DocumentProperty 财产. 获取属性的数据类型
+linktitle: Type
+articleTitle: Type
+second_title: 用于 .NET 的 Aspose.Words
+description: DocumentProperty Type 财产. 获取属性的数据类型 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.properties/documentproperty/type/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.properties/documentproperty/type/
 public PropertyType Type { get; }
 ```
 
-### 例子
+## 例子
 
 展示如何使用内置文档属性。
 
@@ -104,7 +106,5 @@ Assert.AreEqual(0, properties.Count);
 
 * enum [PropertyType](../../propertytype/)
 * class [DocumentProperty](../)
-* 命名空间 [Aspose.Words.Properties](../../documentproperty/)
+* 命名空间 [Aspose.Words.Properties](../../../aspose.words.properties/)
 * 部件 [Aspose.Words](../../../)
-
-

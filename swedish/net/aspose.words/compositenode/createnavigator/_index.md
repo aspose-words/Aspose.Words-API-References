@@ -1,9 +1,11 @@
 ---
 title: CompositeNode.CreateNavigator
-second_title: Aspose.Words för .NET API Referens
-description: CompositeNode metod. Skapar navigator som kan användas för att korsa och läsa noder.
+linktitle: CreateNavigator
+articleTitle: CreateNavigator
+second_title: Aspose.Words för .NET
+description: CompositeNode CreateNavigator metod. Skapar navigator som kan användas för att korsa och läsa noder i C#.
 type: docs
-weight: 90
+weight: 70
 url: /sv/net/aspose.words/compositenode/createnavigator/
 ---
 ## CompositeNode.CreateNavigator method
@@ -15,7 +17,7 @@ Skapar navigator som kan användas för att korsa och läsa noder.
 public XPathNavigator CreateNavigator()
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man skapar en XPathNavigator och sedan använder den för att korsa och läsa noder.
 
@@ -81,7 +83,5 @@ private static void MapDocument(XPathNavigator navigator, StringBuilder stringBu
 ### Se även
 
 * class [CompositeNode](../)
-* namnutrymme [Aspose.Words](../../compositenode/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

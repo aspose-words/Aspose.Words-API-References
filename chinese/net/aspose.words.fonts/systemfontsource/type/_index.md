@@ -1,7 +1,9 @@
 ---
 title: SystemFontSource.Type
-second_title: Aspose.Words for .NET API 参考
-description: SystemFontSource 财产. 返回字体源的类型
+linktitle: Type
+articleTitle: Type
+second_title: 用于 .NET 的 Aspose.Words
+description: SystemFontSource Type 财产. 返回字体源的类型 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.fonts/systemfontsource/type/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fonts/systemfontsource/type/
 public override FontSourceType Type { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何访问文档的系统字体源并设置字体替代品。
 
@@ -71,7 +73,5 @@ Assert.AreEqual(1,
 
 * enum [FontSourceType](../../fontsourcetype/)
 * class [SystemFontSource](../)
-* 命名空间 [Aspose.Words.Fonts](../../systemfontsource/)
+* 命名空间 [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * 部件 [Aspose.Words](../../../)
-
-

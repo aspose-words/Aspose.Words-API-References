@@ -1,7 +1,9 @@
 ---
 title: FormField.Name
-second_title: Aspose.Words for .NET API 参考
-description: FormField 财产. 获取或设置表单字段名称
+linktitle: Name
+articleTitle: Name
+second_title: 用于 .NET 的 Aspose.Words
+description: FormField Name 财产. 获取或设置表单字段名称 在 C#.
 type: docs
 weight: 130
 url: /zh/net/aspose.words.fields/formfield/name/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.fields/formfield/name/
 public string Name { get; set; }
 ```
 
-### 评论
+## 评论
 
 Microsoft Word 允许最多包含 20 个字符的字符串。
 
-### 例子
+## 例子
 
 演示如何插入组合框。
 
@@ -42,7 +44,5 @@ doc.Save(ArtifactsDir + "FormFields.Create.html");
 ### 也可以看看
 
 * class [FormField](../)
-* 命名空间 [Aspose.Words.Fields](../../formfield/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

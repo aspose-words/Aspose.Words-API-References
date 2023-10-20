@@ -1,7 +1,9 @@
 ---
 title: ImportFormatOptions.MergePastedLists
-second_title: Справочник по API Aspose.Words для .NET
-description: ImportFormatOptions свойство. Получает или задает логическое значение определяющее будут ли вставленные списки объединяться с окружающими списками. Значение по умолчаниюЛОЖЬ .
+linktitle: MergePastedLists
+articleTitle: MergePastedLists
+second_title: Aspose.Words для .NET
+description: ImportFormatOptions MergePastedLists свойство. Получает или задает логическое значение определяющее будут ли вставленные списки объединяться с окружающими списками. Значение по умолчаниюЛОЖЬ  на С#.
 type: docs
 weight: 70
 url: /ru/net/aspose.words/importformatoptions/mergepastedlists/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/importformatoptions/mergepastedlists/
 public bool MergePastedLists { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как объединить списки из документов.
 
@@ -33,7 +35,5 @@ dstDoc.Save(ArtifactsDir + "Document.MergePastedLists.docx");
 ### Смотрите также
 
 * class [ImportFormatOptions](../)
-* пространство имен [Aspose.Words](../../importformatoptions/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

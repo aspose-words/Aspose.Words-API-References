@@ -1,7 +1,9 @@
 ---
-title: Enum Granularity
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Comparing.Granularity تعداد. يحدد مدى دقة التغييرات التي يجب تتبعها عند مقارنة مستندين.
+title: Granularity Enum
+linktitle: Granularity
+articleTitle: Granularity
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Comparing.Granularity تعداد. يحدد مدى دقة التغييرات التي يجب تتبعها عند مقارنة مستندين في C#.
 type: docs
 weight: 290
 url: /ar/net/aspose.words.comparing/granularity/
@@ -21,7 +23,7 @@ public enum Granularity
 | CharLevel | `0` |  |
 | WordLevel | `1` |  |
 
-### أمثلة
+## أمثلة
 
 يظهر لتحديد التفاصيل أثناء مقارنة المستندات.
 
@@ -50,5 +52,3 @@ Assert.AreEqual(5, groups.Count);
 
 * مساحة الاسم [Aspose.Words.Comparing](../../aspose.words.comparing/)
 * المجسم [Aspose.Words](../../)
-
-

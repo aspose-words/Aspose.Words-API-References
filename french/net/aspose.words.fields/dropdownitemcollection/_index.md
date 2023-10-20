@@ -1,7 +1,9 @@
 ---
-title: Class DropDownItemCollection
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Fields.DropDownItemCollection classe. Une collection de chaînes qui représentent tous les éléments dun champ de formulaire déroulant.
+title: DropDownItemCollection Class
+linktitle: DropDownItemCollection
+articleTitle: DropDownItemCollection
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Fields.DropDownItemCollection classe. Une collection de chaînes qui représentent tous les éléments dun champ de formulaire déroulant en C#.
 type: docs
 weight: 1500
 url: /fr/net/aspose.words.fields/dropdownitemcollection/
@@ -27,16 +29,16 @@ public class DropDownItemCollection : IEnumerable<string>
 
 | Nom | La description |
 | --- | --- |
-| [Add](../../aspose.words.fields/dropdownitemcollection/add/)(string) | Ajoute une chaîne à la fin de la collection. |
+| [Add](../../aspose.words.fields/dropdownitemcollection/add/)(*string*) | Ajoute une chaîne à la fin de la collection. |
 | [Clear](../../aspose.words.fields/dropdownitemcollection/clear/)() | Supprime tous les éléments de la collection. |
-| [Contains](../../aspose.words.fields/dropdownitemcollection/contains/)(string) | Détermine si la collection contient la valeur spécifiée. |
+| [Contains](../../aspose.words.fields/dropdownitemcollection/contains/)(*string*) | Détermine si la collection contient la valeur spécifiée. |
 | [GetEnumerator](../../aspose.words.fields/dropdownitemcollection/getenumerator/)() | Renvoie un objet énumérateur qui peut être utilisé pour parcourir tous les éléments de la collection. |
-| [IndexOf](../../aspose.words.fields/dropdownitemcollection/indexof/)(string) | Renvoie l'index de base zéro de la valeur spécifiée dans la collection. |
-| [Insert](../../aspose.words.fields/dropdownitemcollection/insert/)(int, string) | Insère une chaîne dans la collection à l'index spécifié. |
-| [Remove](../../aspose.words.fields/dropdownitemcollection/remove/)(string) | Supprime la valeur spécifiée de la collection. |
-| [RemoveAt](../../aspose.words.fields/dropdownitemcollection/removeat/)(int) | Supprime une valeur à l'index spécifié. |
+| [IndexOf](../../aspose.words.fields/dropdownitemcollection/indexof/)(*string*) | Renvoie l'index de base zéro de la valeur spécifiée dans la collection. |
+| [Insert](../../aspose.words.fields/dropdownitemcollection/insert/)(*int, string*) | Insère une chaîne dans la collection à l'index spécifié. |
+| [Remove](../../aspose.words.fields/dropdownitemcollection/remove/)(*string*) | Supprime la valeur spécifiée de la collection. |
+| [RemoveAt](../../aspose.words.fields/dropdownitemcollection/removeat/)(*int*) | Supprime une valeur à l'index spécifié. |
 
-### Exemples
+## Exemples
 
 Montre comment insérer un champ de zone de liste déroulante et modifier les éléments de sa collection d'éléments.
 
@@ -93,5 +95,3 @@ dropDownItems.Clear();
 * property [DropDownItems](../formfield/dropdownitems/)
 * espace de noms [Aspose.Words.Fields](../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../)
-
-

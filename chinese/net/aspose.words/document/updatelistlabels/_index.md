@@ -1,9 +1,11 @@
 ---
 title: Document.UpdateListLabels
-second_title: Aspose.Words for .NET API 参考
-description: Document 方法. 更新文档中所有列表项的列表标签
+linktitle: UpdateListLabels
+articleTitle: UpdateListLabels
+second_title: 用于 .NET 的 Aspose.Words
+description: Document UpdateListLabels 方法. 更新文档中所有列表项的列表标签 在 C#.
 type: docs
-weight: 780
+weight: 760
 url: /zh/net/aspose.words/document/updatelistlabels/
 ---
 ## Document.UpdateListLabels method
@@ -14,13 +16,13 @@ url: /zh/net/aspose.words/document/updatelistlabels/
 public void UpdateListLabels()
 ```
 
-### 评论
+## 评论
 
 此方法更新列表标签属性，例如[`LabelValue`](../../../aspose.words.lists/listlabel/labelvalue/)和 [`LabelString`](../../../aspose.words.lists/listlabel/labelstring/)对于每个[`ListLabel`](../../paragraph/listlabel/)文档中的对象。
 
 此外，更新文档中的字段时有时会隐式调用此方法。这是必需的 ，因为某些可能引用列表编号（例如 TOC 或 REF）的字段需要它们是最新的。
 
-### 例子
+## 例子
 
 演示如何提取属于列表项的所有段落的列表标签。
 
@@ -55,7 +57,5 @@ foreach (Paragraph paragraph in paras.OfType<Paragraph>().Where(p => p.ListForma
 ### 也可以看看
 
 * class [Document](../)
-* 命名空间 [Aspose.Words](../../document/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FontSavingArgs.IsExportNeeded
-second_title: Aspose.Words für .NET-API-Referenz
-description: FontSavingArgs eigendom. Ermöglicht die Angabe ob die aktuelle Schriftart als Schriftartressource exportiert wird. Standard istWAHR .
+linktitle: IsExportNeeded
+articleTitle: IsExportNeeded
+second_title: Aspose.Words für .NET
+description: FontSavingArgs IsExportNeeded eigendom. Ermöglicht die Angabe ob die aktuelle Schriftart als Schriftartressource exportiert wird. Standard istWAHR  in C#.
 type: docs
 weight: 60
 url: /de/net/aspose.words.saving/fontsavingargs/isexportneeded/
@@ -14,7 +16,7 @@ Ermöglicht die Angabe, ob die aktuelle Schriftart als Schriftartressource expor
 public bool IsExportNeeded { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie eine benutzerdefinierte Logik für den Export von Schriftarten beim Speichern in HTML definieren.
 
@@ -74,7 +76,5 @@ public class HandleFontSaving : IFontSavingCallback
 ### Siehe auch
 
 * class [FontSavingArgs](../)
-* namensraum [Aspose.Words.Saving](../../fontsavingargs/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

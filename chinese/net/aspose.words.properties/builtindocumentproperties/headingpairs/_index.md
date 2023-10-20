@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.HeadingPairs
-second_title: Aspose.Words for .NET API 参考
-description: BuiltInDocumentProperties 财产. 指定文档标题及其名称
+linktitle: HeadingPairs
+articleTitle: HeadingPairs
+second_title: 用于 .NET 的 Aspose.Words
+description: BuiltInDocumentProperties HeadingPairs 财产. 指定文档标题及其名称 在 C#.
 type: docs
 weight: 110
 url: /zh/net/aspose.words.properties/builtindocumentproperties/headingpairs/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.properties/builtindocumentproperties/headingpairs/
 public object[] HeadingPairs { get; set; }
 ```
 
-### 评论
+## 评论
 
 每个标题对占用该数组中的两个元素。
 
@@ -24,7 +26,7 @@ public object[] HeadingPairs { get; set; }
 
 Aspose.Words 不会更新此属性。
 
-### 例子
+## 例子
 
 显示“HeadingPairs”和“TitlesOfParts”属性之间的关系。
 
@@ -55,7 +57,5 @@ while (headingPairsIndex < headingPairs.Length)
 ### 也可以看看
 
 * class [BuiltInDocumentProperties](../)
-* 命名空间 [Aspose.Words.Properties](../../builtindocumentproperties/)
+* 命名空间 [Aspose.Words.Properties](../../../aspose.words.properties/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: SdtListItemCollection.RemoveAt
-second_title: Referencia de API de Aspose.Words para .NET
-description: SdtListItemCollection método. Elimina un elemento de la lista en el índice especificado.
+linktitle: RemoveAt
+articleTitle: RemoveAt
+second_title: Aspose.Words para .NET
+description: SdtListItemCollection RemoveAt método. Elimina un elemento de la lista en el índice especificado en C#.
 type: docs
 weight: 70
 url: /es/net/aspose.words.markup/sdtlistitemcollection/removeat/
@@ -18,7 +20,7 @@ public void RemoveAt(int index)
 | --- | --- | --- |
 | index | Int32 | El índice de base cero del elemento que se va a eliminar. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo trabajar con etiquetas de documentos estructurados de lista desplegable.
 
@@ -75,7 +77,5 @@ Assert.AreEqual(0, listItems.Count);
 ### Ver también
 
 * class [SdtListItemCollection](../)
-* espacio de nombres [Aspose.Words.Markup](../../sdtlistitemcollection/)
+* espacio de nombres [Aspose.Words.Markup](../../../aspose.words.markup/)
 * asamblea [Aspose.Words](../../../)
-
-

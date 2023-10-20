@@ -1,7 +1,9 @@
 ---
 title: ImportFormatOptions.KeepSourceNumbering
-second_title: Aspose.Words für .NET-API-Referenz
-description: ImportFormatOptions eigendom. Ruft einen booleschen Wert ab oder legt diesen fest der angibt wie die Nummerierung importiert wird wenn sie in Quell und Zieldokumenten kollidiert. Der Standardwert istFALSCH .
+linktitle: KeepSourceNumbering
+articleTitle: KeepSourceNumbering
+second_title: Aspose.Words für .NET
+description: ImportFormatOptions KeepSourceNumbering eigendom. Ruft einen booleschen Wert ab oder legt diesen fest der angibt wie die Nummerierung importiert wird wenn sie in Quell und Zieldokumenten kollidiert. Der Standardwert istFALSCH  in C#.
 type: docs
 weight: 60
 url: /de/net/aspose.words/importformatoptions/keepsourcenumbering/
@@ -14,7 +16,7 @@ Ruft einen booleschen Wert ab oder legt diesen fest, der angibt, wie die Nummeri
 public bool KeepSourceNumbering { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie eine Kollision beim Importieren von Dokumenten behoben wird, die Listen mit derselben Listendefinitions-ID enthalten.
 
@@ -108,7 +110,5 @@ else
 ### Siehe auch
 
 * class [ImportFormatOptions](../)
-* namensraum [Aspose.Words](../../importformatoptions/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

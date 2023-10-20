@@ -1,7 +1,9 @@
 ---
 title: DropDownItemCollection.Add
-second_title: Référence de l'API Aspose.Words pour .NET
-description: DropDownItemCollection méthode. Ajoute une chaîne à la fin de la collection.
+linktitle: Add
+articleTitle: Add
+second_title: Aspose.Words pour .NET
+description: DropDownItemCollection Add méthode. Ajoute une chaîne à la fin de la collection en C#.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.fields/dropdownitemcollection/add/
@@ -22,7 +24,7 @@ public int Add(string value)
 
 Index de base zéro auquel le nouvel élément est inséré.
 
-### Exemples
+## Exemples
 
 Montre comment insérer un champ de zone de liste déroulante et modifier les éléments de sa collection d'éléments.
 
@@ -76,7 +78,5 @@ dropDownItems.Clear();
 ### Voir également
 
 * class [DropDownItemCollection](../)
-* espace de noms [Aspose.Words.Fields](../../dropdownitemcollection/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

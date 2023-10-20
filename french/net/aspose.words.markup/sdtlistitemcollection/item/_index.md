@@ -1,7 +1,9 @@
 ---
 title: SdtListItemCollection.Item
-second_title: Référence de l'API Aspose.Words pour .NET
-description: SdtListItemCollection propriété. Renvoie unSdtListItem objet étant donné son index de base zéro dans la collection.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words pour .NET
+description: SdtListItemCollection Item propriété. Renvoie unSdtListItem objet étant donné son index de base zéro dans la collection en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.markup/sdtlistitemcollection/item/
@@ -14,7 +16,7 @@ Renvoie un[`SdtListItem`](../../sdtlistitem/) objet étant donné son index de b
 public SdtListItem this[int index] { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment utiliser les balises de documents structurés à liste déroulante.
 
@@ -72,7 +74,5 @@ Assert.AreEqual(0, listItems.Count);
 
 * class [SdtListItem](../../sdtlistitem/)
 * class [SdtListItemCollection](../)
-* espace de noms [Aspose.Words.Markup](../../sdtlistitemcollection/)
+* espace de noms [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Assemblée [Aspose.Words](../../../)
-
-

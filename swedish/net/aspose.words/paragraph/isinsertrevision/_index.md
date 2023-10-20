@@ -1,7 +1,9 @@
 ---
 title: Paragraph.IsInsertRevision
-second_title: Aspose.Words för .NET API Referens
-description: Paragraph fast egendom. Returnerar sant om det här objektet infogades i Microsoft Word medan ändringsspårning var aktiverad.
+linktitle: IsInsertRevision
+articleTitle: IsInsertRevision
+second_title: Aspose.Words för .NET
+description: Paragraph IsInsertRevision fast egendom. Returnerar sant om det här objektet infogades i Microsoft Word medan ändringsspårning var aktiverad i C#.
 type: docs
 weight: 110
 url: /sv/net/aspose.words/paragraph/isinsertrevision/
@@ -14,7 +16,7 @@ Returnerar sant om det här objektet infogades i Microsoft Word medan ändringss
 public bool IsInsertRevision { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med revisionsstycken.
 
@@ -63,7 +65,5 @@ Assert.AreEqual(
 ### Se även
 
 * class [Paragraph](../)
-* namnutrymme [Aspose.Words](../../paragraph/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

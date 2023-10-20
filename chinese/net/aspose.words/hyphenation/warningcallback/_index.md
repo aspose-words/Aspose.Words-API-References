@@ -1,7 +1,9 @@
 ---
 title: Hyphenation.WarningCallback
-second_title: Aspose.Words for .NET API 参考
-description: Hyphenation 财产. 在加载连字模式期间当检测到可能导致格式保真度损失的问题时调用
+linktitle: WarningCallback
+articleTitle: WarningCallback
+second_title: 用于 .NET 的 Aspose.Words
+description: Hyphenation WarningCallback 财产. 在加载连字模式期间当检测到可能导致格式保真度损失的问题时调用 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words/hyphenation/warningcallback/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/hyphenation/warningcallback/
 public static IWarningCallback WarningCallback { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何从文件打开和注册字典。
 
@@ -91,7 +93,5 @@ private class CustomHyphenationDictionaryRegister : IHyphenationCallback
 
 * interface [IWarningCallback](../../iwarningcallback/)
 * class [Hyphenation](../)
-* 命名空间 [Aspose.Words](../../hyphenation/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

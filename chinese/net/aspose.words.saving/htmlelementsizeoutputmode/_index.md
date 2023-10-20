@@ -1,7 +1,9 @@
 ---
-title: Enum HtmlElementSizeOutputMode
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Saving.HtmlElementSizeOutputMode 枚举. 指定 Aspose.Words 如何将元素宽度和高度导出为 HTMLMHTML 和 EPUB
+title: HtmlElementSizeOutputMode Enum
+linktitle: HtmlElementSizeOutputMode
+articleTitle: HtmlElementSizeOutputMode
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Saving.HtmlElementSizeOutputMode 枚举. 指定 Aspose.Words 如何将元素宽度和高度导出为 HTMLMHTML 和 EPUB 在 C#.
 type: docs
 weight: 5060
 url: /zh/net/aspose.words.saving/htmlelementsizeoutputmode/
@@ -22,7 +24,7 @@ public enum HtmlElementSizeOutputMode
 | RelativeOnly | `1` | 仅当元素大小在文档中以相对单位指定时才会导出。 在此模式下不会导出固定大小。视觉代理将计算缺失的尺寸以使 文档布局更加自然。 |
 | None | `2` | 不导出元素尺寸。视觉代理将根据元素之间的关系自动构建布局。 |
 
-### 例子
+## 例子
 
 演示如何在输出 .html 中保留负缩进。
 
@@ -86,5 +88,3 @@ else
 * property [TableWidthOutputMode](../htmlsaveoptions/tablewidthoutputmode/)
 * 命名空间 [Aspose.Words.Saving](../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../)
-
-

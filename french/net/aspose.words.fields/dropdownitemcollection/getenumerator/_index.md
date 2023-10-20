@@ -1,7 +1,9 @@
 ---
 title: DropDownItemCollection.GetEnumerator
-second_title: Référence de l'API Aspose.Words pour .NET
-description: DropDownItemCollection méthode. Renvoie un objet énumérateur qui peut être utilisé pour parcourir tous les éléments de la collection.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words pour .NET
+description: DropDownItemCollection GetEnumerator méthode. Renvoie un objet énumérateur qui peut être utilisé pour parcourir tous les éléments de la collection en C#.
 type: docs
 weight: 60
 url: /fr/net/aspose.words.fields/dropdownitemcollection/getenumerator/
@@ -14,7 +16,7 @@ Renvoie un objet énumérateur qui peut être utilisé pour parcourir tous les �
 public IEnumerator<string> GetEnumerator()
 ```
 
-### Exemples
+## Exemples
 
 Montre comment insérer un champ de zone de liste déroulante et modifier les éléments de sa collection d'éléments.
 
@@ -68,7 +70,5 @@ dropDownItems.Clear();
 ### Voir également
 
 * class [DropDownItemCollection](../)
-* espace de noms [Aspose.Words.Fields](../../dropdownitemcollection/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

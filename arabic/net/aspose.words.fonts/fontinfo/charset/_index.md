@@ -1,7 +1,9 @@
 ---
 title: FontInfo.Charset
-second_title: Aspose.Words لمراجع .NET API
-description: FontInfo ملكية. الحصول على مجموعة الأحرف للخط أو تعيينها.
+linktitle: Charset
+articleTitle: Charset
+second_title: Aspose.Words لـ .NET
+description: FontInfo Charset ملكية. الحصول على مجموعة الأحرف للخط أو تعيينها في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.fonts/fontinfo/charset/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fonts/fontinfo/charset/
 public int Charset { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الوصول إلى تفاصيل كل خط في المستند وطباعتها.
 
@@ -53,7 +55,5 @@ while (fontCollectionEnumerator.MoveNext())
 ### أنظر أيضا
 
 * class [FontInfo](../)
-* مساحة الاسم [Aspose.Words.Fonts](../../fontinfo/)
+* مساحة الاسم [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * المجسم [Aspose.Words](../../../)
-
-

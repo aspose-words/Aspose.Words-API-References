@@ -1,7 +1,9 @@
 ---
 title: ImportFormatOptions.IgnoreTextBoxes
-second_title: Aspose.Words for .NET API 参考
-description: ImportFormatOptions 财产. 获取或设置一个布尔值该值指定忽略文本框内容的源格式 ifKeepSourceFormatting使用模式 默认值为真的.
+linktitle: IgnoreTextBoxes
+articleTitle: IgnoreTextBoxes
+second_title: 用于 .NET 的 Aspose.Words
+description: ImportFormatOptions IgnoreTextBoxes 财产. 获取或设置一个布尔值该值指定忽略文本框内容的源格式 ifKeepSourceFormatting使用模式 默认值为真的 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words/importformatoptions/ignoretextboxes/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/importformatoptions/ignoretextboxes/
 public bool IgnoreTextBoxes { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何在附加文档时管理文本框格式。
 
@@ -63,7 +65,5 @@ dstDoc.Save(ArtifactsDir + "DocumentBuilder.IgnoreTextBoxes.docx");
 ### 也可以看看
 
 * class [ImportFormatOptions](../)
-* 命名空间 [Aspose.Words](../../importformatoptions/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

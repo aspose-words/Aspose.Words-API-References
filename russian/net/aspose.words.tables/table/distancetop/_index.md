@@ -1,7 +1,9 @@
 ---
 title: Table.DistanceTop
-second_title: Справочник по API Aspose.Words для .NET
-description: Table свойство. Получает или задает расстояние между верхом таблицы и окружающим текстом в пунктах.
+linktitle: DistanceTop
+articleTitle: DistanceTop
+second_title: Aspose.Words для .NET
+description: Table DistanceTop свойство. Получает или задает расстояние между верхом таблицы и окружающим текстом в пунктах на С#.
 type: docs
 weight: 150
 url: /ru/net/aspose.words.tables/table/distancetop/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.tables/table/distancetop/
 public double DistanceTop { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как установить расстояние между границами таблицы и текстом.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "Table.DistanceBetweenTableAndText.docx");
 ### Смотрите также
 
 * class [Table](../)
-* пространство имен [Aspose.Words.Tables](../../table/)
+* пространство имен [Aspose.Words.Tables](../../../aspose.words.tables/)
 * сборка [Aspose.Words](../../../)
-
-

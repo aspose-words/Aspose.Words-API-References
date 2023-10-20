@@ -1,7 +1,9 @@
 ---
-title: Class OdsoFieldMapDataCollection
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Settings.OdsoFieldMapDataCollection classe. Une collection typée desOdsoFieldMapData objets.
+title: OdsoFieldMapDataCollection Class
+linktitle: OdsoFieldMapDataCollection
+articleTitle: OdsoFieldMapDataCollection
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Settings.OdsoFieldMapDataCollection classe. Une collection typée desOdsoFieldMapData objets en C#.
 type: docs
 weight: 5910
 url: /fr/net/aspose.words.settings/odsofieldmapdatacollection/
@@ -33,12 +35,12 @@ public class OdsoFieldMapDataCollection : IEnumerable<OdsoFieldMapData>
 
 | Nom | La description |
 | --- | --- |
-| [Add](../../aspose.words.settings/odsofieldmapdatacollection/add/)(OdsoFieldMapData) | Ajoute un objet à la fin de cette collection. |
+| [Add](../../aspose.words.settings/odsofieldmapdatacollection/add/)(*[OdsoFieldMapData](../odsofieldmapdata/)*) | Ajoute un objet à la fin de cette collection. |
 | [Clear](../../aspose.words.settings/odsofieldmapdatacollection/clear/)() | Supprime tous les éléments de cette collection. |
 | [GetEnumerator](../../aspose.words.settings/odsofieldmapdatacollection/getenumerator/)() | Renvoie un objet énumérateur qui peut être utilisé pour parcourir tous les éléments de la collection. |
-| [RemoveAt](../../aspose.words.settings/odsofieldmapdatacollection/removeat/)(int) | Supprime l'élément à l'index spécifié. |
+| [RemoveAt](../../aspose.words.settings/odsofieldmapdatacollection/removeat/)(*int*) | Supprime l'élément à l'index spécifié. |
 
-### Exemples
+## Exemples
 
 Montre comment accéder à la collection de données qui mappe les colonnes de la source de données aux champs de fusion.
 
@@ -84,5 +86,3 @@ Assert.AreEqual(0, dataCollection.Count);
 * property [FieldMapDatas](../odso/fieldmapdatas/)
 * espace de noms [Aspose.Words.Settings](../../aspose.words.settings/)
 * Assemblée [Aspose.Words](../../)
-
-

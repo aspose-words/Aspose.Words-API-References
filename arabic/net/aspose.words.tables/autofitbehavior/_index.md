@@ -1,7 +1,9 @@
 ---
-title: Enum AutoFitBehavior
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Tables.AutoFitBehavior تعداد. يحدد كيفية قيام Aspose.Words بتغيير حجم الجدول عند استدعاءAutoFit الطريقة.
+title: AutoFitBehavior Enum
+linktitle: AutoFitBehavior
+articleTitle: AutoFitBehavior
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Tables.AutoFitBehavior تعداد. يحدد كيفية قيام Aspose.Words بتغيير حجم الجدول عند استدعاءAutoFit الطريقة في C#.
 type: docs
 weight: 6230
 url: /ar/net/aspose.words.tables/autofitbehavior/
@@ -22,7 +24,7 @@ public enum AutoFitBehavior
 | AutoFitToWindow | `1` | عند استخدام هذه القيمة، يقوم Aspose.Words بتمكين خيار الاحتواء التلقائي، وتعيين العرض المفضل للجدول على 100%، ويقوم بإزالة العروض المفضلة من جميع الخلايا ثم يقوم بتحديث تخطيط الجدول. |
 | FixedColumnWidths | `2` | يقوم Aspose.Words بتعطيل خيار الاحتواء التلقائي وإزالة الخيار المفضل من الجدول. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء جدول جديد أثناء تطبيق النمط.
 
@@ -115,5 +117,3 @@ doc.Save(ArtifactsDir + "DocumentBuilder.BuildTable.docx");
 
 * مساحة الاسم [Aspose.Words.Tables](../../aspose.words.tables/)
 * المجسم [Aspose.Words](../../)
-
-

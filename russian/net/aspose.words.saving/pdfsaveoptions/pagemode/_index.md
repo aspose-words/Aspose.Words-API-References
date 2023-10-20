@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.PageMode
-second_title: Справочник по API Aspose.Words для .NET
-description: PdfSaveOptions свойство. Указывает как PDFдокумент должен отображаться при открытии в программе чтения PDF.
+linktitle: PageMode
+articleTitle: PageMode
+second_title: Aspose.Words для .NET
+description: PdfSaveOptions PageMode свойство. Указывает как PDFдокумент должен отображаться при открытии в программе чтения PDF на С#.
 type: docs
 weight: 250
 url: /ru/net/aspose.words.saving/pdfsaveoptions/pagemode/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.saving/pdfsaveoptions/pagemode/
 public PdfPageMode PageMode { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Значение по умолчанию:UseOutlines .
 
-### Примеры
+## Примеры
 
 Показывает, как установить инструкции для некоторых программ чтения PDF, которым они будут следовать при открытии выходного документа.
 
@@ -77,7 +79,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.HeaderFooterBookmarksExportMode.pdf", sa
 
 * enum [PdfPageMode](../../pdfpagemode/)
 * class [PdfSaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../pdfsaveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

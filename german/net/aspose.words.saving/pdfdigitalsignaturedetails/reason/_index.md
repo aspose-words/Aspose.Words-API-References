@@ -1,7 +1,9 @@
 ---
 title: PdfDigitalSignatureDetails.Reason
-second_title: Aspose.Words für .NET-API-Referenz
-description: PdfDigitalSignatureDetails eigendom. Ruft den Grund für die Signatur ab oder legt diesen fest.
+linktitle: Reason
+articleTitle: Reason
+second_title: Aspose.Words für .NET
+description: PdfDigitalSignatureDetails Reason eigendom. Ruft den Grund für die Signatur ab oder legt diesen fest in C#.
 type: docs
 weight: 50
 url: /de/net/aspose.words.saving/pdfdigitalsignaturedetails/reason/
@@ -14,11 +16,11 @@ Ruft den Grund für die Signatur ab oder legt diesen fest.
 public string Reason { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Der Standardwert ist`Null` .
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein generiertes PDF-Dokument signiert wird.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignature.pdf", options);
 ### Siehe auch
 
 * class [PdfDigitalSignatureDetails](../)
-* namensraum [Aspose.Words.Saving](../../pdfdigitalsignaturedetails/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

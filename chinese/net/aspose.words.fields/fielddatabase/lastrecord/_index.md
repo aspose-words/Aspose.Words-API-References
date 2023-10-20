@@ -1,7 +1,9 @@
 ---
 title: FieldDatabase.LastRecord
-second_title: Aspose.Words for .NET API 参考
-description: FieldDatabase 财产. 获取或设置要插入的最后一条数据记录的完整记录号
+linktitle: LastRecord
+articleTitle: LastRecord
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldDatabase LastRecord 财产. 获取或设置要插入的最后一条数据记录的完整记录号 在 C#.
 type: docs
 weight: 80
 url: /zh/net/aspose.words.fields/fielddatabase/lastrecord/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fielddatabase/lastrecord/
 public string LastRecord { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何从数据库中提取数据并将其作为字段插入到文档中。
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "Field.DATABASE.docx");
 ### 也可以看看
 
 * class [FieldDatabase](../)
-* 命名空间 [Aspose.Words.Fields](../../fielddatabase/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

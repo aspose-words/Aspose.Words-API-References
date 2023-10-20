@@ -1,7 +1,9 @@
 ---
-title: Interface IMailMergeDataSource
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.MailMerging.IMailMergeDataSource 界面. 实现此接口以允许来自自定义数据源例如对象列表的邮件合并还支持主从数据
+title: IMailMergeDataSource Interface
+linktitle: IMailMergeDataSource
+articleTitle: IMailMergeDataSource
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.MailMerging.IMailMergeDataSource 界面. 实现此接口以允许来自自定义数据源例如对象列表的邮件合并还支持主从数据 在 C#.
 type: docs
 weight: 3810
 url: /zh/net/aspose.words.mailmerging/imailmergedatasource/
@@ -24,15 +26,15 @@ public interface IMailMergeDataSource
 
 | 姓名 | 描述 |
 | --- | --- |
-| [GetChildDataSource](../../aspose.words.mailmerging/imailmergedatasource/getchilddatasource/)(string) | Aspose.Words 邮件合并引擎在遇到嵌套邮件合并区域的开头时调用此方法。 |
-| [GetValue](../../aspose.words.mailmerging/imailmergedatasource/getvalue/)(string, out object) | 返回指定字段名称的值或`错误的`如果未找到该字段. |
+| [GetChildDataSource](../../aspose.words.mailmerging/imailmergedatasource/getchilddatasource/)(*string*) | Aspose.Words 邮件合并引擎在遇到嵌套邮件合并区域的开头时调用此方法。 |
+| [GetValue](../../aspose.words.mailmerging/imailmergedatasource/getvalue/)(*string, out object*) | 返回指定字段名称的值或`错误的`如果未找到该字段. |
 | [MoveNext](../../aspose.words.mailmerging/imailmergedatasource/movenext/)() | 前进到数据源中的下一条记录。 |
 
-### 评论
+## 评论
 
 创建数据源时，应将其初始化为指向 BOF（在第一条记录之前）。 Aspose.Words 邮件合并引擎将调用[`MoveNext`](./movenext/)前进到下一条记录 and 然后调用[`GetValue`](./getvalue/)对于文档或当前邮件合并区域中遇到的每个合并字段。
 
-### 例子
+## 例子
 
 演示如何使用自定义对象形式的数据源执行邮件合并。
 
@@ -147,5 +149,3 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
 
 * 命名空间 [Aspose.Words.MailMerging](../../aspose.words.mailmerging/)
 * 部件 [Aspose.Words](../../)
-
-

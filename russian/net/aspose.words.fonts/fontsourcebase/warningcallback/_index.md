@@ -1,7 +1,9 @@
 ---
 title: FontSourceBase.WarningCallback
-second_title: Справочник по API Aspose.Words для .NET
-description: FontSourceBase свойство. Вызывается во время обработки источника шрифта при обнаружении проблемы которая может привести к потере точности форматирования.
+linktitle: WarningCallback
+articleTitle: WarningCallback
+second_title: Aspose.Words для .NET
+description: FontSourceBase WarningCallback свойство. Вызывается во время обработки источника шрифта при обнаружении проблемы которая может привести к потере точности форматирования на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.fonts/fontsourcebase/warningcallback/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fonts/fontsourcebase/warningcallback/
 public IWarningCallback WarningCallback { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как вызвать обратный вызов с предупреждением при работе с источниками шрифтов.
 
@@ -53,7 +55,5 @@ private class FontSourceWarningCollector : IWarningCallback
 
 * interface [IWarningCallback](../../../aspose.words/iwarningcallback/)
 * class [FontSourceBase](../)
-* пространство имен [Aspose.Words.Fonts](../../fontsourcebase/)
+* пространство имен [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * сборка [Aspose.Words](../../../)
-
-

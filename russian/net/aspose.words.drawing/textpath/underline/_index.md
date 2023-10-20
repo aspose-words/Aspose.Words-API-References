@@ -1,7 +1,9 @@
 ---
 title: TextPath.Underline
-second_title: Справочник по API Aspose.Words для .NET
-description: TextPath свойство. True если шрифт подчеркнут.
+linktitle: Underline
+articleTitle: Underline
+second_title: Aspose.Words для .NET
+description: TextPath Underline свойство. True если шрифт подчеркнут на С#.
 type: docs
 weight: 190
 url: /ru/net/aspose.words.drawing/textpath/underline/
@@ -14,11 +16,11 @@ True, если шрифт подчеркнут.
 public bool Underline { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Значение по умолчанию:`ЛОЖЬ`.
 
-### Примеры
+## Примеры
 
 Показывает, как работать с WordArt.
 
@@ -121,7 +123,5 @@ private static Shape AppendWordArt(Document doc, string text, string textFontFam
 ### Смотрите также
 
 * class [TextPath](../)
-* пространство имен [Aspose.Words.Drawing](../../textpath/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

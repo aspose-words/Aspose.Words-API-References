@@ -1,7 +1,9 @@
 ---
 title: ImageSaveOptions.ImageColorMode
-second_title: Aspose.Words لمراجع .NET API
-description: ImageSaveOptions ملكية. الحصول على أو تعيين وضع الألوان للصور التي تم إنشاؤها.
+linktitle: ImageColorMode
+articleTitle: ImageColorMode
+second_title: Aspose.Words لـ .NET
+description: ImageSaveOptions ImageColorMode ملكية. الحصول على أو تعيين وضع الألوان للصور التي تم إنشاؤها في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.saving/imagesaveoptions/imagecolormode/
@@ -14,13 +16,13 @@ url: /ar/net/aspose.words.saving/imagesaveoptions/imagecolormode/
 public ImageColorMode ImageColorMode { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 تؤثر هذه الخاصية فقط عند الحفظ في تنسيقات الصور النقطية.
 
 القيمة الافتراضية هيNone.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية ضبط وضع الألوان عند عرض المستندات.
 
@@ -80,7 +82,5 @@ Document doc = new Document();
 
 * enum [ImageColorMode](../../imagecolormode/)
 * class [ImageSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../imagesaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

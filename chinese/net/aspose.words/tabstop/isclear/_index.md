@@ -1,7 +1,9 @@
 ---
 title: TabStop.IsClear
-second_title: Aspose.Words for .NET API 参考
-description: TabStop 财产. 返回真的如果此制表位清除此位置的任何现有制表位
+linktitle: IsClear
+articleTitle: IsClear
+second_title: 用于 .NET 的 Aspose.Words
+description: TabStop IsClear 财产. 返回真的如果此制表位清除此位置的任何现有制表位 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words/tabstop/isclear/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/tabstop/isclear/
 public bool IsClear { get; }
 ```
 
-### 例子
+## 例子
 
 展示如何使用文档的制表位集合。
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "TabStopCollection.TabStopCollection.docx");
 ### 也可以看看
 
 * class [TabStop](../)
-* 命名空间 [Aspose.Words](../../tabstop/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

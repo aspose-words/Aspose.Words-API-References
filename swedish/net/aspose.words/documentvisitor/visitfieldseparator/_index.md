@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitFieldSeparator
-second_title: Aspose.Words för .NET API Referens
-description: DocumentVisitor metod. Anropas när en fältavgränsare påträffas i dokumentet.
+linktitle: VisitFieldSeparator
+articleTitle: VisitFieldSeparator
+second_title: Aspose.Words för .NET
+description: DocumentVisitor VisitFieldSeparator metod. Anropas när en fältavgränsare påträffas i dokumentet i C#.
 type: docs
 weight: 190
 url: /sv/net/aspose.words/documentvisitor/visitfieldseparator/
@@ -22,13 +24,13 @@ public virtual VisitorAction VisitFieldSeparator(FieldSeparator fieldSeparator)
 
 A[`VisitorAction`](../../visitoraction/) värde som anger hur uppräkningen ska fortsätta.
 
-### Anmärkningar
+## Anmärkningar
 
 Fältavgränsaren separerar fältkoden från fältvärdet i dokumentet. Observera att vissa -fält endast har fältkod och inte har fältavgränsare och fältvärde.
 
 För mer info se[`VisitFieldStart`](../visitfieldstart/)
 
-### Exempel
+## Exempel
 
 Visar hur man skriver ut nodstrukturen för varje fält i ett dokument.
 
@@ -133,7 +135,5 @@ public class FieldStructurePrinter : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [FieldSeparator](../../../aspose.words.fields/fieldseparator/)
 * class [DocumentVisitor](../)
-* namnutrymme [Aspose.Words](../../documentvisitor/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

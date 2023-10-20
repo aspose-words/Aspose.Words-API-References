@@ -1,7 +1,9 @@
 ---
 title: ReportingEngine.Options
-second_title: Aspose.Words لمراجع .NET API
-description: ReportingEngine ملكية. الحصول على أو تعيين مجموعة من العلامات التي تتحكم في سلوك هذاReportingEngine مثيل أثناء إنشاء التقرير.
+linktitle: Options
+articleTitle: Options
+second_title: Aspose.Words لـ .NET
+description: ReportingEngine Options ملكية. الحصول على أو تعيين مجموعة من العلامات التي تتحكم في سلوك هذاReportingEngine مثيل أثناء إنشاء التقرير في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.reporting/reportingengine/options/
@@ -18,7 +20,5 @@ public ReportBuildOptions Options { get; set; }
 
 * enum [ReportBuildOptions](../../reportbuildoptions/)
 * class [ReportingEngine](../)
-* مساحة الاسم [Aspose.Words.Reporting](../../reportingengine/)
+* مساحة الاسم [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * المجسم [Aspose.Words](../../../)
-
-

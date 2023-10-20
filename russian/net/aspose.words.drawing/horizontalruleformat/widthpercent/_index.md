@@ -1,7 +1,9 @@
 ---
 title: HorizontalRuleFormat.WidthPercent
-second_title: Справочник по API Aspose.Words для .NET
-description: HorizontalRuleFormat свойство. Получает или задает длину указанной горизонтальной линейки выраженную в процентах от ширины окна.
+linktitle: WidthPercent
+articleTitle: WidthPercent
+second_title: Aspose.Words для .NET
+description: HorizontalRuleFormat WidthPercent свойство. Получает или задает длину указанной горизонтальной линейки выраженную в процентах от ширины окна на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.drawing/horizontalruleformat/widthpercent/
@@ -20,13 +22,13 @@ public double WidthPercent { get; set; }
 | --- | --- |
 | ArgumentOutOfRangeException | Выдает, когда аргумент выходит за пределы допустимого диапазона значений. |
 
-### Примечания
+## Примечания
 
 Допустимые значения находятся в диапазоне от 1 до 100 включительно.
 
 Значение по умолчанию — 100.
 
-### Примеры
+## Примеры
 
 Показывает, как вставить фигуру горизонтальной линейки и настроить ее форматирование.
 
@@ -49,7 +51,5 @@ Assert.True(shape.HorizontalRuleFormat.NoShade);
 ### Смотрите также
 
 * class [HorizontalRuleFormat](../)
-* пространство имен [Aspose.Words.Drawing](../../horizontalruleformat/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

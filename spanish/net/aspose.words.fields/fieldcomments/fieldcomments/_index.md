@@ -1,7 +1,9 @@
 ---
-title: FieldComments.FieldComments
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldComments constructor. Constructor predeterminado
+title: FieldComments
+linktitle: FieldComments
+articleTitle: FieldComments
+second_title: Aspose.Words para .NET
+description: FieldComments constructor. Constructor predeterminado en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words.fields/fieldcomments/fieldcomments/
@@ -17,7 +19,5 @@ public FieldComments()
 ### Ver también
 
 * class [FieldComments](../)
-* espacio de nombres [Aspose.Words.Fields](../../fieldcomments/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

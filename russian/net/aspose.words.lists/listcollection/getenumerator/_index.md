@@ -1,7 +1,9 @@
 ---
 title: ListCollection.GetEnumerator
-second_title: Справочник по API Aspose.Words для .NET
-description: ListCollection метод. Получает объект перечислителя который будет перечислять списки в документе.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words для .NET
+description: ListCollection GetEnumerator метод. Получает объект перечислителя который будет перечислять списки в документе на С#.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.lists/listcollection/getenumerator/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.lists/listcollection/getenumerator/
 public IEnumerator<List> GetEnumerator()
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как создать документ с выборкой всех списков из другого документа.
 
@@ -54,7 +56,5 @@ private static void AddListSample(DocumentBuilder builder, List list)
 
 * class [List](../../list/)
 * class [ListCollection](../)
-* пространство имен [Aspose.Words.Lists](../../listcollection/)
+* пространство имен [Aspose.Words.Lists](../../../aspose.words.lists/)
 * сборка [Aspose.Words](../../../)
-
-

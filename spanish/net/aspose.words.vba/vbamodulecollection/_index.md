@@ -1,7 +1,9 @@
 ---
-title: Class VbaModuleCollection
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Vba.VbaModuleCollection clase. Representa una colección deVbaModule objetos.
+title: VbaModuleCollection Class
+linktitle: VbaModuleCollection
+articleTitle: VbaModuleCollection
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Vba.VbaModuleCollection clase. Representa una colección deVbaModule objetos en C#.
 type: docs
 weight: 6560
 url: /es/net/aspose.words.vba/vbamodulecollection/
@@ -27,10 +29,10 @@ public sealed class VbaModuleCollection : IEnumerable<VbaModule>
 
 | Nombre | Descripción |
 | --- | --- |
-| [Add](../../aspose.words.vba/vbamodulecollection/add/)(VbaModule) | Agrega un módulo a la colección. |
-| [Remove](../../aspose.words.vba/vbamodulecollection/remove/)(VbaModule) | Elimina el módulo especificado de la colección. |
+| [Add](../../aspose.words.vba/vbamodulecollection/add/)(*[VbaModule](../vbamodule/)*) | Agrega un módulo a la colección. |
+| [Remove](../../aspose.words.vba/vbamodulecollection/remove/)(*[VbaModule](../vbamodule/)*) | Elimina el módulo especificado de la colección. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo acceder a la información del proyecto VBA de un documento.
 
@@ -63,5 +65,3 @@ vbaModules.Remove(vbaModules[2]);
 * class [VbaModule](../vbamodule/)
 * espacio de nombres [Aspose.Words.Vba](../../aspose.words.vba/)
 * asamblea [Aspose.Words](../../)
-
-

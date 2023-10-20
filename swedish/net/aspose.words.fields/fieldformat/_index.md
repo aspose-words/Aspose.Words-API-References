@@ -1,7 +1,9 @@
 ---
-title: Class FieldFormat
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Fields.FieldFormat klass. Ger maskinskriven åtkomst till fältets siffror datum och tid samt allmän formatering.
+title: FieldFormat Class
+linktitle: FieldFormat
+articleTitle: FieldFormat
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Fields.FieldFormat klass. Ger maskinskriven åtkomst till fältets siffror datum och tid samt allmän formatering i C#.
 type: docs
 weight: 1940
 url: /sv/net/aspose.words.fields/fieldformat/
@@ -24,7 +26,7 @@ public class FieldFormat
 | [GeneralFormats](../../aspose.words.fields/fieldformat/generalformats/) { get; } | Hämtar en samling allmänna format som tillämpas på ett numeriskt, text- eller valfritt fältresultat. Motsvarar \*-omkopplarna. |
 | [NumericFormat](../../aspose.words.fields/fieldformat/numericformat/) { get; set; } | Hämtar eller ställer in en formatering som tillämpas på ett numeriskt fältresultat. Motsvarar \# switch. |
 
-### Exempel
+## Exempel
 
 Visar hur man formaterar fältresultat.
 
@@ -89,5 +91,3 @@ Assert.AreEqual(0, format.GeneralFormats.Count);
 
 * namnutrymme [Aspose.Words.Fields](../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../)
-
-

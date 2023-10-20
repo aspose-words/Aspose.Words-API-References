@@ -1,7 +1,9 @@
 ---
 title: PageSetup.MultiplePages
-second_title: Aspose.Words for .NET API 参考
-description: PageSetup 财产. 对于多页文档获取或设置文档的打印或呈现方式以便将其装订为小册子
+linktitle: MultiplePages
+articleTitle: MultiplePages
+second_title: 用于 .NET 的 Aspose.Words
+description: PageSetup MultiplePages 财产. 对于多页文档获取或设置文档的打印或呈现方式以便将其装订为小册子 在 C#.
 type: docs
 weight: 270
 url: /zh/net/aspose.words/pagesetup/multiplepages/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/pagesetup/multiplepages/
 public MultiplePagesType MultiplePages { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何配置可打印为书本折叠的文档。
 
@@ -80,7 +82,5 @@ doc.Save(ArtifactsDir + "PageSetup.Gutter.docx");
 
 * enum [MultiplePagesType](../../../aspose.words.settings/multiplepagestype/)
 * class [PageSetup](../)
-* 命名空间 [Aspose.Words](../../pagesetup/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

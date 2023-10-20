@@ -1,7 +1,9 @@
 ---
 title: MailMerge.PreserveUnusedTags
-second_title: Referencia de API de Aspose.Words para .NET
-description: MailMerge propiedad. Obtiene o establece un valor que indica si se deben conservar las etiquetas bigote no utilizadas.
+linktitle: PreserveUnusedTags
+articleTitle: PreserveUnusedTags
+second_title: Aspose.Words para .NET
+description: MailMerge PreserveUnusedTags propiedad. Obtiene o establece un valor que indica si se deben conservar las etiquetas bigote no utilizadas en C#.
 type: docs
 weight: 80
 url: /es/net/aspose.words.mailmerging/mailmerge/preserveunusedtags/
@@ -14,11 +16,11 @@ Obtiene o establece un valor que indica si se deben conservar las etiquetas "big
 public bool PreserveUnusedTags { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 El valor predeterminado es`FALSO` .
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo conservar la apariencia de etiquetas de combinación de correspondencia alternativas que no se utilizan durante una combinación de correspondencia.
 
@@ -83,7 +85,5 @@ private static DataTable CreateSourceTablePreserveUnusedTags()
 
 * property [UseNonMergeFields](../usenonmergefields/)
 * class [MailMerge](../)
-* espacio de nombres [Aspose.Words.MailMerging](../../mailmerge/)
+* espacio de nombres [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * asamblea [Aspose.Words](../../../)
-
-

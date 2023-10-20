@@ -1,7 +1,9 @@
 ---
 title: GradientStopCollection.Add
-second_title: Référence de l'API Aspose.Words pour .NET
-description: GradientStopCollection méthode. Ajoute un spécifiéGradientStop à un dégradé.
+linktitle: Add
+articleTitle: Add
+second_title: Aspose.Words pour .NET
+description: GradientStopCollection Add méthode. Ajoute un spécifiéGradientStop à un dégradé en C#.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.drawing/gradientstopcollection/add/
@@ -14,7 +16,7 @@ Ajoute un spécifié[`GradientStop`](../../gradientstop/) à un dégradé.
 public GradientStop Add(GradientStop gradientStop)
 ```
 
-### Exemples
+## Exemples
 
 Montre comment ajouter des points de dégradé au remplissage dégradé.
 
@@ -68,7 +70,5 @@ doc.Save(ArtifactsDir + "Shape.GradientStops.docx", saveOptions);
 
 * class [GradientStop](../../gradientstop/)
 * class [GradientStopCollection](../)
-* espace de noms [Aspose.Words.Drawing](../../gradientstopcollection/)
+* espace de noms [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Assemblée [Aspose.Words](../../../)
-
-

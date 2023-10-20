@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTag.WordOpenXML
-second_title: Aspose.Words per .NET API Reference
-description: StructuredDocumentTag proprietà. Ottiene una stringa che rappresenta lXML contenuto nel nodo inFlatOpc formato.
+linktitle: WordOpenXML
+articleTitle: WordOpenXML
+second_title: Aspose.Words per .NET
+description: StructuredDocumentTag WordOpenXML proprietà. Ottiene una stringa che rappresenta lXML contenuto nel nodo inFlatOpc formato in C#.
 type: docs
 weight: 300
 url: /it/net/aspose.words.markup/structureddocumenttag/wordopenxml/
@@ -14,7 +16,7 @@ Ottiene una stringa che rappresenta l'XML contenuto nel nodo inFlatOpc formato.
 public string WordOpenXML { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come ottenere l'XML contenuto nel nodo nel formato FlatOpc.
 
@@ -32,7 +34,5 @@ Assert.True(tags[0].WordOpenXML
 ### Guarda anche
 
 * class [StructuredDocumentTag](../)
-* spazio dei nomi [Aspose.Words.Markup](../../structureddocumenttag/)
+* spazio dei nomi [Aspose.Words.Markup](../../../aspose.words.markup/)
 * assemblea [Aspose.Words](../../../)
-
-

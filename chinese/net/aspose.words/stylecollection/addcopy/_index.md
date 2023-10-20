@@ -1,7 +1,9 @@
 ---
 title: StyleCollection.AddCopy
-second_title: Aspose.Words for .NET API 参考
-description: StyleCollection 方法. 将样式复制到此集合中
+linktitle: AddCopy
+articleTitle: AddCopy
+second_title: 用于 .NET 的 Aspose.Words
+description: StyleCollection AddCopy 方法. 将样式复制到此集合中 在 C#.
 type: docs
 weight: 70
 url: /zh/net/aspose.words/stylecollection/addcopy/
@@ -22,7 +24,7 @@ public Style AddCopy(Style style)
 
 复制的样式可供使用。
 
-### 评论
+## 评论
 
 要复制的样式可以属于同一文档，也可以属于不同文档。
 
@@ -32,7 +34,7 @@ public Style AddCopy(Style style)
 
 如果集合已包含同名样式，则新名称为 ，通过添加从0开始的“_number”后缀自动生成，例如“Normal_0”、“标题1_1”等 使用[`Name`](../../style/name/)setter 用于更改导入样式的名称。
 
-### 例子
+## 例子
 
 演示如何将样式从一个文档导入到另一文档中。
 
@@ -81,7 +83,5 @@ Assert.AreNotEqual(doc.Styles["Heading 1"].Font.Color, newStyle.Font.Color);
 
 * class [Style](../../style/)
 * class [StyleCollection](../)
-* 命名空间 [Aspose.Words](../../stylecollection/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

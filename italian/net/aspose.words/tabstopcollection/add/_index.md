@@ -1,12 +1,14 @@
 ---
 title: TabStopCollection.Add
-second_title: Aspose.Words per .NET API Reference
-description: TabStopCollection metodo. Aggiunge o sostituisce un punto di tabulazione nella raccolta.
+linktitle: Add
+articleTitle: Add
+second_title: Aspose.Words per .NET
+description: TabStopCollection Add metodo. Aggiunge o sostituisce un punto di tabulazione nella raccolta in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words/tabstopcollection/add/
 ---
-## Add(TabStop) {#add}
+## Add(*[TabStop](../../tabstop/)*) {#add}
 
 Aggiunge o sostituisce un punto di tabulazione nella raccolta.
 
@@ -18,11 +20,11 @@ public void Add(TabStop tabStop)
 | --- | --- | --- |
 | tabStop | TabStop | Un oggetto tabulazione da aggiungere. |
 
-### Osservazioni
+## Osservazioni
 
 Se nella posizione specificata esiste già un punto di tabulazione, verrà sostituito.
 
-### Esempi
+## Esempi
 
 Mostra come aggiungere tabulazioni personalizzate a un documento.
 
@@ -57,12 +59,12 @@ doc.Save(ArtifactsDir + "TabStopCollection.AddTabStops.docx");
 
 * class [TabStop](../../tabstop/)
 * class [TabStopCollection](../)
-* spazio dei nomi [Aspose.Words](../../tabstopcollection/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
 
 ---
 
-## Add(double, TabAlignment, TabLeader) {#add_1}
+## Add(*double, [TabAlignment](../../tabalignment/), [TabLeader](../../tableader/)*) {#add_1}
 
 Aggiunge o sostituisce un punto di tabulazione nella raccolta.
 
@@ -76,11 +78,11 @@ public void Add(double position, TabAlignment alignment, TabLeader leader)
 | alignment | TabAlignment | UN[`TabAlignment`](../../tabalignment/) valore that specifica l'allineamento del testo alla tabulazione. |
 | leader | TabLeader | UN[`TabLeader`](../../tableader/) valore that specifica il tipo di linea guida visualizzata sotto il carattere di tabulazione. |
 
-### Osservazioni
+## Osservazioni
 
 Se nella posizione specificata esiste già un punto di tabulazione, verrà sostituito.
 
-### Esempi
+## Esempi
 
 Mostra come aggiungere tabulazioni personalizzate a un documento.
 
@@ -116,7 +118,5 @@ doc.Save(ArtifactsDir + "TabStopCollection.AddTabStops.docx");
 * enum [TabAlignment](../../tabalignment/)
 * enum [TabLeader](../../tableader/)
 * class [TabStopCollection](../)
-* spazio dei nomi [Aspose.Words](../../tabstopcollection/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

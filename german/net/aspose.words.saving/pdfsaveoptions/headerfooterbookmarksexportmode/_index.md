@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.HeaderFooterBookmarksExportMode
-second_title: Aspose.Words für .NET-API-Referenz
-description: PdfSaveOptions eigendom. Legt fest wie Lesezeichen in Kopf/Fußzeilen exportiert werden.
+linktitle: HeaderFooterBookmarksExportMode
+articleTitle: HeaderFooterBookmarksExportMode
+second_title: Aspose.Words für .NET
+description: PdfSaveOptions HeaderFooterBookmarksExportMode eigendom. Legt fest wie Lesezeichen in Kopf/Fußzeilen exportiert werden in C#.
 type: docs
 weight: 180
 url: /de/net/aspose.words.saving/pdfsaveoptions/headerfooterbookmarksexportmode/
@@ -14,13 +16,13 @@ Legt fest, wie Lesezeichen in Kopf-/Fußzeilen exportiert werden.
 public HeaderFooterBookmarksExportMode HeaderFooterBookmarksExportMode { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Der Standardwert istAll.
 
 Diese Eigenschaft wird in Verbindung mit verwendet[`OutlineOptions`](../outlineoptions/) Möglichkeit.
 
-### Beispiele
+## Beispiele
 
 Zeigt an, dass Lesezeichen in Kopf-/Fußzeilen in einem Dokument verarbeitet werden, das wir als PDF rendern.
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.HeaderFooterBookmarksExportMode.pdf", sa
 
 * enum [HeaderFooterBookmarksExportMode](../../headerfooterbookmarksexportmode/)
 * class [PdfSaveOptions](../)
-* namensraum [Aspose.Words.Saving](../../pdfsaveoptions/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

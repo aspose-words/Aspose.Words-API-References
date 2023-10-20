@@ -1,7 +1,9 @@
 ---
 title: FieldUpdatingProgressArgs.TotalFieldsCount
-second_title: Aspose.Words لمراجع .NET API
-description: FieldUpdatingProgressArgs ملكية. الحصول على إجمالي عدد الحقول المراد تحديثها.
+linktitle: TotalFieldsCount
+articleTitle: TotalFieldsCount
+second_title: Aspose.Words لـ .NET
+description: FieldUpdatingProgressArgs TotalFieldsCount ملكية. الحصول على إجمالي عدد الحقول المراد تحديثها في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fields/fieldupdatingprogressargs/totalfieldscount/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.fields/fieldupdatingprogressargs/totalfieldscount/
 public int TotalFieldsCount { get; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 القيمة ليست ثابتة وقد تزيد أثناء عملية التحديث.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام طرق رد الاتصال أثناء التحديث الميداني.
 
@@ -86,7 +88,5 @@ public class FieldUpdatingCallback : IFieldUpdatingCallback, IFieldUpdatingProgr
 ### أنظر أيضا
 
 * class [FieldUpdatingProgressArgs](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldupdatingprogressargs/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: TabStopCollection.After
-second_title: Aspose.Words für .NET-API-Referenz
-description: TabStopCollection methode. Ruft einen ersten Tabstopp rechts von der angegebenen Position ab.
+linktitle: After
+articleTitle: After
+second_title: Aspose.Words für .NET
+description: TabStopCollection After methode. Ruft einen ersten Tabstopp rechts von der angegebenen Position ab in C#.
 type: docs
 weight: 40
 url: /de/net/aspose.words/tabstopcollection/after/
@@ -22,11 +24,11 @@ public TabStop After(double position)
 
 Ein Tabstoppobjekt oder`Null` wenn kein passender Tabstopp gefunden wurde.
 
-### Bemerkungen
+## Bemerkungen
 
 Überspringt Tabstopps mit[`Alignment`](../../tabstop/alignment/) einstellenBar.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit der Sammlung von Tabstopps eines Dokuments gearbeitet wird.
 
@@ -71,7 +73,5 @@ doc.Save(ArtifactsDir + "TabStopCollection.TabStopCollection.docx");
 
 * class [TabStop](../../tabstop/)
 * class [TabStopCollection](../)
-* namensraum [Aspose.Words](../../tabstopcollection/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

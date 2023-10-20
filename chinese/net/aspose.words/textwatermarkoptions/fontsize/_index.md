@@ -1,7 +1,9 @@
 ---
 title: TextWatermarkOptions.FontSize
-second_title: Aspose.Words for .NET API 参考
-description: TextWatermarkOptions 财产. 获取或设置字体大小默认值为 0  auto.
+linktitle: FontSize
+articleTitle: FontSize
+second_title: 用于 .NET 的 Aspose.Words
+description: TextWatermarkOptions FontSize 财产. 获取或设置字体大小默认值为 0  auto 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words/textwatermarkoptions/fontsize/
@@ -20,13 +22,13 @@ public float FontSize { get; set; }
 | --- | --- |
 | ArgumentOutOfRangeException | 当参数超出有效值范围时抛出。 |
 
-### 评论
+## 评论
 
 有效值范围为 0 到 65.5（含）。
 
 自动字体大小意味着水印将缩放到相对于 页边距的最大宽度和最大高度。
 
-### 例子
+## 例子
 
 展示如何创建文本水印。
 
@@ -57,7 +59,5 @@ if (doc.Watermark.Type == WatermarkType.Text)
 ### 也可以看看
 
 * class [TextWatermarkOptions](../)
-* 命名空间 [Aspose.Words](../../textwatermarkoptions/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

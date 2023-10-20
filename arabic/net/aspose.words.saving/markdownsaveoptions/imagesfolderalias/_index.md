@@ -1,7 +1,9 @@
 ---
 title: MarkdownSaveOptions.ImagesFolderAlias
-second_title: Aspose.Words لمراجع .NET API
-description: MarkdownSaveOptions ملكية. يحدد اسم المجلد المستخدم لإنشاء معرفات URI للصور المكتوبة في المستند. الافتراضي هو سلسلة فارغة.
+linktitle: ImagesFolderAlias
+articleTitle: ImagesFolderAlias
+second_title: Aspose.Words لـ .NET
+description: MarkdownSaveOptions ImagesFolderAlias ملكية. يحدد اسم المجلد المستخدم لإنشاء معرفات URI للصور المكتوبة في المستند. الافتراضي هو سلسلة فارغة في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.saving/markdownsaveoptions/imagesfolderalias/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.saving/markdownsaveoptions/imagesfolderalias/
 public string ImagesFolderAlias { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 عندما تقوم بحفظ أ[`Document`](../../../aspose.words/document/) فيMarkdown التنسيق، يحتاج Aspose.Words إلى حفظ جميع الصور المضمنة في المستند كملفات مستقلة. [`ImagesFolder`](../imagesfolder/) يسمح لك بتحديد مكان حفظ الصور و `ImagesFolderAlias` يسمح بتحديد كيفية إنشاء معرفات URI للصورة.
 
@@ -24,7 +26,7 @@ public string ImagesFolderAlias { get; set; }
 
 لو`ImagesFolderAlias`تم ضبطه على "." (نقطة)، فسيتم كتابة ملف الصورة name إلى Markdown بدون مسار بغض النظر عن الخيارات الأخرى.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحديد اسم المجلد المستخدم لإنشاء معرفات URI للصورة.
 
@@ -69,7 +71,5 @@ builder.Document.Save(ArtifactsDir + "MarkdownSaveOptions.ImagesFolder.md", save
 ### أنظر أيضا
 
 * class [MarkdownSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../markdownsaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

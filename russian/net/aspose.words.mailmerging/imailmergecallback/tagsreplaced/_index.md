@@ -1,7 +1,9 @@
 ---
 title: IMailMergeCallback.TagsReplaced
-second_title: Справочник по API Aspose.Words для .NET
-description: IMailMergeCallback метод. Вызывается когда текстовые теги усы заменяются полями MERGEFIELD.
+linktitle: TagsReplaced
+articleTitle: TagsReplaced
+second_title: Aspose.Words для .NET
+description: IMailMergeCallback TagsReplaced метод. Вызывается когда текстовые теги усы заменяются полями MERGEFIELD на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.mailmerging/imailmergecallback/tagsreplaced/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.mailmerging/imailmergecallback/tagsreplaced/
 public void TagsReplaced()
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как определить пользовательскую логику для обработки событий во время слияния почты.
 
@@ -66,7 +68,5 @@ private class MailMergeTagReplacementCounter : IMailMergeCallback
 
 * property [UseNonMergeFields](../../mailmerge/usenonmergefields/)
 * interface [IMailMergeCallback](../)
-* пространство имен [Aspose.Words.MailMerging](../../imailmergecallback/)
+* пространство имен [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ImageSaveOptions.PaperColor
-second_title: Aspose.Words för .NET API Referens
-description: ImageSaveOptions fast egendom. Hämtar eller ställer in bakgrundsfärgen papper för de genererade bilderna.
+linktitle: PaperColor
+articleTitle: PaperColor
+second_title: Aspose.Words för .NET
+description: ImageSaveOptions PaperColor fast egendom. Hämtar eller ställer in bakgrundsfärgen papper för de genererade bilderna i C#.
 type: docs
 weight: 110
 url: /sv/net/aspose.words.saving/imagesaveoptions/papercolor/
@@ -16,11 +18,11 @@ Standardvärdet ärWhite.
 public Color PaperColor { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 När du renderar sidor i ett dokument som anger sin egen bakgrundsfärg, , kommer dokumentets bakgrundsfärg att åsidosätta färgen som anges av den här egenskapen.
 
-### Exempel
+## Exempel
 
 Återger en sida i ett Word-dokument till en bild med transparent eller färgad bakgrund.
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "ImageSaveOptions.PaperColor.LightCoral.png", imgOptions
 ### Se även
 
 * class [ImageSaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../imagesaveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

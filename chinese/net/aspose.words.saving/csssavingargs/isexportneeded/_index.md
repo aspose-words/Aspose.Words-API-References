@@ -1,7 +1,9 @@
 ---
 title: CssSavingArgs.IsExportNeeded
-second_title: Aspose.Words for .NET API 参考
-description: CssSavingArgs 财产. 允许指定 CSS 是否导出到文件并嵌入到 HTML 文档默认为真的. 当此属性为错误的CSS信息不会保存到CSS文件中也不会嵌入到HTML文档中
+linktitle: IsExportNeeded
+articleTitle: IsExportNeeded
+second_title: 用于 .NET 的 Aspose.Words
+description: CssSavingArgs IsExportNeeded 财产. 允许指定 CSS 是否导出到文件并嵌入到 HTML 文档默认为真的. 当此属性为错误的CSS信息不会保存到CSS文件中也不会嵌入到HTML文档中 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.saving/csssavingargs/isexportneeded/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.saving/csssavingargs/isexportneeded/
 public bool IsExportNeeded { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何使用 HTML 转换创建的 CSS 样式表。
 
@@ -75,7 +77,5 @@ private class CustomCssSavingCallback : ICssSavingCallback
 ### 也可以看看
 
 * class [CssSavingArgs](../)
-* 命名空间 [Aspose.Words.Saving](../../csssavingargs/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

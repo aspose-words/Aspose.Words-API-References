@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.MarkupLanguage
-second_title: Aspose.Words لمراجع .NET API
-description: ShapeBase ملكية. يحصل على لغة الترميز المستخدمة لهذا الكائن الرسومي.
+linktitle: MarkupLanguage
+articleTitle: MarkupLanguage
+second_title: Aspose.Words لـ .NET
+description: ShapeBase MarkupLanguage ملكية. يحصل على لغة الترميز المستخدمة لهذا الكائن الرسومي في C#.
 type: docs
 weight: 390
 url: /ar/net/aspose.words.drawing/shapebase/markuplanguage/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing/shapebase/markuplanguage/
 public ShapeMarkupLanguage MarkupLanguage { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التحقق من حجم الشكل ولغة الترميز.
 
@@ -32,7 +34,5 @@ Assert.AreEqual(new SizeF(300, 300), shape.SizeInPoints);
 
 * enum [ShapeMarkupLanguage](../../shapemarkuplanguage/)
 * class [ShapeBase](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../shapebase/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: NodeRendererBase.OpaqueBoundsInPoints
-second_title: Aspose.Words för .NET API Referens
-description: NodeRendererBase fast egendom. Får de ogenomskinliga gränserna för formen i punkter.
+linktitle: OpaqueBoundsInPoints
+articleTitle: OpaqueBoundsInPoints
+second_title: Aspose.Words för .NET
+description: NodeRendererBase OpaqueBoundsInPoints fast egendom. Får de ogenomskinliga gränserna för formen i punkter i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.rendering/noderendererbase/opaqueboundsinpoints/
@@ -14,11 +16,11 @@ Får de ogenomskinliga gränserna för formen i punkter.
 public RectangleF OpaqueBoundsInPoints { get; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Den här egenskapen returnerar den ogenomskinliga (dvs. genomskinliga delar av formen ignoreras) begränsningsrutan för formen. Gränserna tar hänsyn till formrotationen.
 
-### Exempel
+## Exempel
 
 Visar hur man mäter och skalar former.
 
@@ -65,7 +67,5 @@ Assert.AreEqual(30, bounds.Height);
 ### Se även
 
 * class [NodeRendererBase](../)
-* namnutrymme [Aspose.Words.Rendering](../../noderendererbase/)
+* namnutrymme [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * hopsättning [Aspose.Words](../../../)
-
-

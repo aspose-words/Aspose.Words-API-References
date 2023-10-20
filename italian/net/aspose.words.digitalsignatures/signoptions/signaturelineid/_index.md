@@ -1,24 +1,26 @@
 ---
 title: SignOptions.SignatureLineId
-second_title: Aspose.Words per .NET API Reference
-description: SignOptions proprietà. Identificatore riga firma. Il valore predefinito è Guida vuota tutti zeri. .
+linktitle: SignatureLineId
+articleTitle: SignatureLineId
+second_title: Aspose.Words per .NET
+description: SignOptions SignatureLineId proprietà. Identificatore riga firma. Il valore predefinito èGuida vuota tutti zeri.  in C#.
 type: docs
 weight: 50
 url: /it/net/aspose.words.digitalsignatures/signoptions/signaturelineid/
 ---
 ## SignOptions.SignatureLineId property
 
-Identificatore riga firma. Il valore predefinito è **Guida vuota (tutti zeri).** .
+Identificatore riga firma. Il valore predefinito è**Guida vuota (tutti zeri).** .
 
 ```csharp
 public Guid SignatureLineId { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Quando impostato, si associa[`SignatureLine`](../../../aspose.words.drawing/signatureline/) con corrispondente[`DigitalSignature`](../../digitalsignature/) .
 
-### Esempi
+## Esempi
 
 Mostra come aggiungere una riga per la firma a un documento e quindi firmarlo utilizzando un certificato digitale.
 
@@ -134,7 +136,5 @@ Mostra come aggiungere una riga per la firma a un documento e quindi firmarlo ut
 ### Guarda anche
 
 * class [SignOptions](../)
-* spazio dei nomi [Aspose.Words.DigitalSignatures](../../signoptions/)
+* spazio dei nomi [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * assemblea [Aspose.Words](../../../)
-
-

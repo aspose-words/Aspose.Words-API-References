@@ -1,7 +1,9 @@
 ---
-title: Class DownsampleOptions
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Saving.DownsampleOptions klass. Gör det möjligt att ange alternativ för nedsampling.
+title: DownsampleOptions Class
+linktitle: DownsampleOptions
+articleTitle: DownsampleOptions
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Saving.DownsampleOptions klass. Gör det möjligt att ange alternativ för nedsampling i C#.
 type: docs
 weight: 4970
 url: /sv/net/aspose.words.saving/downsampleoptions/
@@ -30,7 +32,7 @@ public class DownsampleOptions
 | [Resolution](../../aspose.words.saving/downsampleoptions/resolution/) { get; set; } | Anger upplösningen i pixlar per tum som bilderna ska nedsamplas till. |
 | [ResolutionThreshold](../../aspose.words.saving/downsampleoptions/resolutionthreshold/) { get; set; } | Anger tröskelupplösningen i pixlar per tum. Om upplösningen för en bild i dokumentet är lägre än tröskelvärdet, kommer nedsamplingsalgoritmen inte att tillämpas. Ett värde på 0 betyder att tröskelkontrollen inte används och alla bilder som kan minskas i storlek är nedsamplade. |
 
-### Exempel
+## Exempel
 
 Visar hur du ändrar upplösningen på bilder i PDF-dokumentet.
 
@@ -63,5 +65,3 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.DownsampleOptions.LowerResolution.pdf", 
 
 * namnutrymme [Aspose.Words.Saving](../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../)
-
-

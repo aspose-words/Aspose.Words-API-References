@@ -1,7 +1,9 @@
 ---
 title: ChartSeriesCollection.RemoveAt
-second_title: Aspose.Words per .NET API Reference
-description: ChartSeriesCollection metodo. Rimuove aChartSeries allindice specificato.
+linktitle: RemoveAt
+articleTitle: RemoveAt
+second_title: Aspose.Words per .NET
+description: ChartSeriesCollection RemoveAt metodo. Rimuove aChartSeries allindice specificato in C#.
 type: docs
 weight: 60
 url: /it/net/aspose.words.drawing.charts/chartseriescollection/removeat/
@@ -18,7 +20,7 @@ public void RemoveAt(int index)
 | --- | --- | --- |
 | index | Int32 | L'indice in base zero di[`ChartSeries`](../../chartseries/) rimuovere. |
 
-### Esempi
+## Esempi
 
 Mostra come aggiungere e rimuovere i dati delle serie in un grafico.
 
@@ -65,7 +67,5 @@ chartData.Clear();
 ### Guarda anche
 
 * class [ChartSeriesCollection](../)
-* spazio dei nomi [Aspose.Words.Drawing.Charts](../../chartseriescollection/)
+* spazio dei nomi [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * assemblea [Aspose.Words](../../../)
-
-

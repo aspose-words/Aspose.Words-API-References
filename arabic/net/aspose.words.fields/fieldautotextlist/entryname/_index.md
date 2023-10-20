@@ -1,7 +1,9 @@
 ---
 title: FieldAutoTextList.EntryName
-second_title: Aspose.Words لمراجع .NET API
-description: FieldAutoTextList ملكية. الحصول على اسم إدخال النص التلقائي أو تعيينه.
+linktitle: EntryName
+articleTitle: EntryName
+second_title: Aspose.Words لـ .NET
+description: FieldAutoTextList EntryName ملكية. الحصول على اسم إدخال النص التلقائي أو تعيينه في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.fields/fieldautotextlist/entryname/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldautotextlist/entryname/
 public string EntryName { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام حقل AUTOTEXTLIST للاختيار من قائمة إدخالات النص التلقائي.
 
@@ -69,7 +71,5 @@ private static void AppendAutoTextEntry(GlossaryDocument glossaryDoc, string nam
 ### أنظر أيضا
 
 * class [FieldAutoTextList](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldautotextlist/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

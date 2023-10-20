@@ -1,7 +1,9 @@
 ---
 title: HeaderFooter.NodeType
-second_title: Aspose.Words för .NET API Referens
-description: HeaderFooter fast egendom. ReturnerarHeaderFooter .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words för .NET
+description: HeaderFooter NodeType fast egendom. ReturnerarHeaderFooter  i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words/headerfooter/nodetype/
@@ -14,7 +16,7 @@ ReturnerarHeaderFooter .
 public override NodeType NodeType { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man itererar genom barnen i en sammansatt nod.
 
@@ -64,7 +66,5 @@ foreach (Node node in section)
 
 * enum [NodeType](../../nodetype/)
 * class [HeaderFooter](../)
-* namnutrymme [Aspose.Words](../../headerfooter/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

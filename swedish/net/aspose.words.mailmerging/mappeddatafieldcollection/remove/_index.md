@@ -1,7 +1,9 @@
 ---
 title: MappedDataFieldCollection.Remove
-second_title: Aspose.Words för .NET API Referens
-description: MappedDataFieldCollection metod. Tar bort en fältmappning.
+linktitle: Remove
+articleTitle: Remove
+second_title: Aspose.Words för .NET
+description: MappedDataFieldCollection Remove metod. Tar bort en fältmappning i C#.
 type: docs
 weight: 80
 url: /sv/net/aspose.words.mailmerging/mappeddatafieldcollection/remove/
@@ -18,7 +20,7 @@ public void Remove(string documentFieldName)
 | --- | --- | --- |
 | documentFieldName | String | Skiftlägeskänsligt namn på kopplingsfältet i dokumentet. |
 
-### Exempel
+## Exempel
 
 Visar hur man mappar datakolumner och MERGEFIELDs med olika namn så att data överförs mellan dem under en sammankoppling.
 
@@ -103,7 +105,5 @@ private static DataTable CreateSourceTableMappedDataFields()
 ### Se även
 
 * class [MappedDataFieldCollection](../)
-* namnutrymme [Aspose.Words.MailMerging](../../mappeddatafieldcollection/)
+* namnutrymme [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * hopsättning [Aspose.Words](../../../)
-
-

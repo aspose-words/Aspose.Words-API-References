@@ -1,7 +1,9 @@
 ---
-title: PdfSaveOptions.PdfSaveOptions
-second_title: Aspose.Words for .NET API 参考
-description: PdfSaveOptions 构造函数. 初始化此类的新实例该实例可用于在 中保存文档Pdf格式.
+title: PdfSaveOptions
+linktitle: PdfSaveOptions
+articleTitle: PdfSaveOptions
+second_title: 用于 .NET 的 Aspose.Words
+description: PdfSaveOptions 构造函数. 初始化此类的新实例该实例可用于在 中保存文档Pdf格式 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.saving/pdfsaveoptions/pdfsaveoptions/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.saving/pdfsaveoptions/pdfsaveoptions/
 public PdfSaveOptions()
 ```
 
-### 例子
+## 例子
 
 演示如何在将文档渲染为 PDF 时嵌入字体时启用或禁用子集化。
 
@@ -62,7 +64,5 @@ FontSettings.DefaultInstance.SetFontsSources(originalFontsSources);
 ### 也可以看看
 
 * class [PdfSaveOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../pdfsaveoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

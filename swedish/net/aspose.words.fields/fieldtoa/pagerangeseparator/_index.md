@@ -1,7 +1,9 @@
 ---
 title: FieldToa.PageRangeSeparator
-second_title: Aspose.Words för .NET API Referens
-description: FieldToa fast egendom. Hämtar eller ställer in teckensekvensen som används för att separera början och slutet av ett sidintervall.
+linktitle: PageRangeSeparator
+articleTitle: PageRangeSeparator
+second_title: Aspose.Words för .NET
+description: FieldToa PageRangeSeparator fast egendom. Hämtar eller ställer in teckensekvensen som används för att separera början och slutet av ett sidintervall i C#.
 type: docs
 weight: 60
 url: /sv/net/aspose.words.fields/fieldtoa/pagerangeseparator/
@@ -14,7 +16,7 @@ Hämtar eller ställer in teckensekvensen som används för att separera början
 public string PageRangeSeparator { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man bygger och anpassar en tabell över myndigheter med hjälp av TOA- och TA-fält.
 
@@ -137,7 +139,5 @@ private static FieldTA InsertToaEntry(DocumentBuilder builder, string entryCateg
 ### Se även
 
 * class [FieldToa](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldtoa/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

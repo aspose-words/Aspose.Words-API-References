@@ -1,7 +1,9 @@
 ---
 title: FontSubstitutionSettings.FontInfoSubstitution
-second_title: Справочник по API Aspose.Words для .NET
-description: FontSubstitutionSettings свойство. Настройки связанные с правилом замены информации о шрифте.
+linktitle: FontInfoSubstitution
+articleTitle: FontInfoSubstitution
+second_title: Aspose.Words для .NET
+description: FontSubstitutionSettings FontInfoSubstitution свойство. Настройки связанные с правилом замены информации о шрифте на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.fonts/fontsubstitutionsettings/fontinfosubstitution/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fonts/fontsubstitutionsettings/fontinfosubstitution/
 public FontInfoSubstitutionRule FontInfoSubstitution { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как настроить свойство для поиска ближайшего соответствия отсутствующему шрифту из доступных источников шрифтов.
 
@@ -75,7 +77,5 @@ public class HandleDocumentSubstitutionWarnings : IWarningCallback
 
 * class [FontInfoSubstitutionRule](../../fontinfosubstitutionrule/)
 * class [FontSubstitutionSettings](../)
-* пространство имен [Aspose.Words.Fonts](../../fontsubstitutionsettings/)
+* пространство имен [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * сборка [Aspose.Words](../../../)
-
-

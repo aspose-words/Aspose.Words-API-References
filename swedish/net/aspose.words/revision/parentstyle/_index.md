@@ -1,7 +1,9 @@
 ---
 title: Revision.ParentStyle
-second_title: Aspose.Words för .NET API Referens
-description: Revision fast egendom. Hämtar den omedelbara överordnade stilen ägaren för denna version. Den här egenskapen fungerar endast förStyleDefinitionChange revisionstyp.
+linktitle: ParentStyle
+articleTitle: ParentStyle
+second_title: Aspose.Words för .NET
+description: Revision ParentStyle fast egendom. Hämtar den omedelbara överordnade stilen ägaren för denna version. Den här egenskapen fungerar endast förStyleDefinitionChange revisionstyp i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words/revision/parentstyle/
@@ -14,11 +16,11 @@ Hämtar den omedelbara överordnade stilen (ägaren) för denna version. Den hä
 public Style ParentStyle { get; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Om denna version avser ändringar på dokumentnoder, använd[`ParentNode`](../parentnode/) istället.
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med ett dokuments samling av revisioner.
 
@@ -75,7 +77,5 @@ Assert.AreEqual(0, revisions.Count);
 
 * class [Style](../../style/)
 * class [Revision](../)
-* namnutrymme [Aspose.Words](../../revision/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

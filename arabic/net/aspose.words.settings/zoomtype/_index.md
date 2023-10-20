@@ -1,7 +1,9 @@
 ---
-title: Enum ZoomType
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Settings.ZoomType تعداد. القيم المحتملة لمدى كبر أو صغر حجم المستند الذي يظهر على الشاشة في Microsoft Word.
+title: ZoomType Enum
+linktitle: ZoomType
+articleTitle: ZoomType
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Settings.ZoomType تعداد. القيم المحتملة لمدى كبر أو صغر حجم المستند الذي يظهر على الشاشة في Microsoft Word في C#.
 type: docs
 weight: 5980
 url: /ar/net/aspose.words.settings/zoomtype/
@@ -30,5 +32,3 @@ public enum ZoomType
 * property [ZoomType](../viewoptions/zoomtype/)
 * مساحة الاسم [Aspose.Words.Settings](../../aspose.words.settings/)
 * المجسم [Aspose.Words](../../)
-
-

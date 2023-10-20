@@ -1,7 +1,9 @@
 ---
-title: DownsampleOptions.DownsampleOptions
-second_title: Справочник по API Aspose.Words для .NET
-description: DownsampleOptions строитель. Конструктор по умолчанию.
+title: DownsampleOptions
+linktitle: DownsampleOptions
+articleTitle: DownsampleOptions
+second_title: Aspose.Words для .NET
+description: DownsampleOptions строитель. Конструктор по умолчанию на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.saving/downsampleoptions/downsampleoptions/
@@ -17,7 +19,5 @@ public DownsampleOptions()
 ### Смотрите также
 
 * class [DownsampleOptions](../)
-* пространство имен [Aspose.Words.Saving](../../downsampleoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

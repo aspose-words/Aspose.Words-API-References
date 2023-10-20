@@ -1,9 +1,11 @@
 ---
 title: Body.EnsureMinimum
-second_title: Aspose.Words för .NET API Referens
-description: Body metod. Om det sista underordnade inte är ett stycke skapar och lägger till ett tomt stycke.
+linktitle: EnsureMinimum
+articleTitle: EnsureMinimum
+second_title: Aspose.Words för .NET
+description: Body EnsureMinimum metod. Om det sista underordnade inte är ett stycke skapar och lägger till ett tomt stycke i C#.
 type: docs
-weight: 70
+weight: 50
 url: /sv/net/aspose.words/body/ensureminimum/
 ---
 ## Body.EnsureMinimum method
@@ -14,7 +16,7 @@ Om det sista underordnade inte är ett stycke, skapar och lägger till ett tomt 
 public void EnsureMinimum()
 ```
 
-### Exempel
+## Exempel
 
 Rensar huvudtexten från alla avsnitt från dokumentet och lämnar själva avsnitten.
 
@@ -52,7 +54,5 @@ Assert.AreEqual("Hello world!", doc.GetText().Trim());
 ### Se även
 
 * class [Body](../)
-* namnutrymme [Aspose.Words](../../body/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

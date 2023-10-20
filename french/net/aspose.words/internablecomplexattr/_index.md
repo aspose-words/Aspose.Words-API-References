@@ -1,7 +1,9 @@
 ---
-title: Class InternableComplexAttr
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.InternableComplexAttr classe. Classe de base pour lattribut complexe interne. Lattribut complexe interne doit informer la collection parent lorsquil va être modifié.
+title: InternableComplexAttr Class
+linktitle: InternableComplexAttr
+articleTitle: InternableComplexAttr
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.InternableComplexAttr classe. Classe de base pour lattribut complexe interne. Lattribut complexe interne doit informer la collection parent lorsquil va être modifié en C#.
 type: docs
 weight: 3280
 url: /fr/net/aspose.words/internablecomplexattr/
@@ -20,5 +22,3 @@ public abstract class InternableComplexAttr
 
 * espace de noms [Aspose.Words](../../aspose.words/)
 * Assemblée [Aspose.Words](../../)
-
-

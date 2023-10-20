@@ -1,7 +1,9 @@
 ---
-title: Class DigitalSignatureUtil
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.DigitalSignatures.DigitalSignatureUtil 班级. 提供签署文档的方法
+title: DigitalSignatureUtil Class
+linktitle: DigitalSignatureUtil
+articleTitle: DigitalSignatureUtil
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.DigitalSignatures.DigitalSignatureUtil 班级. 提供签署文档的方法 在 C#.
 type: docs
 weight: 410
 url: /zh/net/aspose.words.digitalsignatures/digitalsignatureutil/
@@ -20,22 +22,22 @@ public static class DigitalSignatureUtil
 
 | 姓名 | 描述 |
 | --- | --- |
-| static [LoadSignatures](../../aspose.words.digitalsignatures/digitalsignatureutil/loadsignatures/#loadsignatures)(Stream) | 使用流从文档加载数字签名。 |
-| static [LoadSignatures](../../aspose.words.digitalsignatures/digitalsignatureutil/loadsignatures/#loadsignatures_1)(string) | 从文档加载数字签名。 |
-| static [RemoveAllSignatures](../../aspose.words.digitalsignatures/digitalsignatureutil/removeallsignatures/#removeallsignatures)(Stream, Stream) | 从源流中的文档中删除所有数字签名，并将未签名的文档写入目标流。 |
-| static [RemoveAllSignatures](../../aspose.words.digitalsignatures/digitalsignatureutil/removeallsignatures/#removeallsignatures_1)(string, string) | 从源文件中删除所有数字签名并将未签名的文件写入目标文件。 |
-| static [Sign](../../aspose.words.digitalsignatures/digitalsignatureutil/sign/#sign)(Stream, Stream, CertificateHolder) | 使用给定的源文档签名[`CertificateHolder`](../certificateholder/)带有数字签名 并将签名文档写入目标流. |
-| static [Sign](../../aspose.words.digitalsignatures/digitalsignatureutil/sign/#sign_2)(string, string, CertificateHolder) | 使用给定的源文档签名[`CertificateHolder`](../certificateholder/)带有数字签名 并将签名文档写入目标文件. |
-| static [Sign](../../aspose.words.digitalsignatures/digitalsignatureutil/sign/#sign_1)(Stream, Stream, CertificateHolder, SignOptions) | 使用给定的源文档签名[`CertificateHolder`](../certificateholder/)和[`SignOptions`](../signoptions/) 带有数字签名并将签名文档写入目标流。 |
-| static [Sign](../../aspose.words.digitalsignatures/digitalsignatureutil/sign/#sign_3)(string, string, CertificateHolder, SignOptions) | 使用给定的源文档签名[`CertificateHolder`](../certificateholder/)和[`SignOptions`](../signoptions/) 带有数字签名并将签名文档写入目标文件。 |
+| static [LoadSignatures](../../aspose.words.digitalsignatures/digitalsignatureutil/loadsignatures/#loadsignatures)(*Stream*) | 使用流从文档加载数字签名。 |
+| static [LoadSignatures](../../aspose.words.digitalsignatures/digitalsignatureutil/loadsignatures/#loadsignatures_1)(*string*) | 从文档加载数字签名。 |
+| static [RemoveAllSignatures](../../aspose.words.digitalsignatures/digitalsignatureutil/removeallsignatures/#removeallsignatures)(*Stream, Stream*) | 从源流中的文档中删除所有数字签名，并将未签名的文档写入目标流。 |
+| static [RemoveAllSignatures](../../aspose.words.digitalsignatures/digitalsignatureutil/removeallsignatures/#removeallsignatures_1)(*string, string*) | 从源文件中删除所有数字签名并将未签名的文件写入目标文件。 |
+| static [Sign](../../aspose.words.digitalsignatures/digitalsignatureutil/sign/#sign)(*Stream, Stream, [CertificateHolder](../certificateholder/)*) | 使用给定的源文档签名[`CertificateHolder`](../certificateholder/)带有数字签名 并将签名文档写入目标流. |
+| static [Sign](../../aspose.words.digitalsignatures/digitalsignatureutil/sign/#sign_2)(*string, string, [CertificateHolder](../certificateholder/)*) | 使用给定的源文档签名[`CertificateHolder`](../certificateholder/)带有数字签名 并将签名文档写入目标文件. |
+| static [Sign](../../aspose.words.digitalsignatures/digitalsignatureutil/sign/#sign_1)(*Stream, Stream, [CertificateHolder](../certificateholder/), [SignOptions](../signoptions/)*) | 使用给定的源文档签名[`CertificateHolder`](../certificateholder/)和[`SignOptions`](../signoptions/) 带有数字签名并将签名文档写入目标流。 |
+| static [Sign](../../aspose.words.digitalsignatures/digitalsignatureutil/sign/#sign_3)(*string, string, [CertificateHolder](../certificateholder/), [SignOptions](../signoptions/)*) | 使用给定的源文档签名[`CertificateHolder`](../certificateholder/)和[`SignOptions`](../signoptions/) 带有数字签名并将签名文档写入目标文件。 |
 
-### 评论
+## 评论
 
 由于数字签名适用于文件内容而不是文档对象模型，因此这些方法被放入单独的类中。
 
 支持的格式有Doc和Docx。
 
-### 例子
+## 例子
 
 演示如何从数字签名文档加载签名。
 
@@ -83,5 +85,3 @@ Assert.That(DigitalSignatureUtil.LoadSignatures(ArtifactsDir + "DigitalSignature
 
 * 命名空间 [Aspose.Words.DigitalSignatures](../../aspose.words.digitalsignatures/)
 * 部件 [Aspose.Words](../../)
-
-

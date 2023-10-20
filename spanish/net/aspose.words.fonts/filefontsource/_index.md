@@ -1,7 +1,9 @@
 ---
-title: Class FileFontSource
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Fonts.FileFontSource clase. Representa el único archivo de fuente TrueType almacenado en el sistema de archivos.
+title: FileFontSource Class
+linktitle: FileFontSource
+articleTitle: FileFontSource
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Fonts.FileFontSource clase. Representa el único archivo de fuente TrueType almacenado en el sistema de archivos en C#.
 type: docs
 weight: 2870
 url: /es/net/aspose.words.fonts/filefontsource/
@@ -20,9 +22,9 @@ public class FileFontSource : FontSourceBase
 
 | Nombre | Descripción |
 | --- | --- |
-| [FileFontSource](filefontsource/#constructor)(string) | Director. |
-| [FileFontSource](filefontsource/#constructor_1)(string, int) | Director. |
-| [FileFontSource](filefontsource/#constructor_2)(string, int, string) | Director. |
+| [FileFontSource](filefontsource/#constructor)(*string*) | Director. |
+| [FileFontSource](filefontsource/#constructor_1)(*string, int*) | Director. |
+| [FileFontSource](filefontsource/#constructor_2)(*string, int, string*) | Director. |
 
 ## Propiedades
 
@@ -40,7 +42,7 @@ public class FileFontSource : FontSourceBase
 | --- | --- |
 | [GetAvailableFonts](../../aspose.words.fonts/fontsourcebase/getavailablefonts/)() | Devuelve una lista de fuentes disponibles a través de esta fuente. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo utilizar un archivo de fuente en el sistema de archivos local como fuente de fuente.
 
@@ -61,5 +63,3 @@ Assert.AreEqual(0, fileFontSource.Priority);
 * class [FontSourceBase](../fontsourcebase/)
 * espacio de nombres [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * asamblea [Aspose.Words](../../)
-
-

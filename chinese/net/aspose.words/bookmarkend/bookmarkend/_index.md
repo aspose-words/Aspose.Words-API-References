@@ -1,7 +1,9 @@
 ---
-title: BookmarkEnd.BookmarkEnd
-second_title: Aspose.Words for .NET API 参考
-description: BookmarkEnd 构造函数. 初始化一个新实例BookmarkEnd类.
+title: BookmarkEnd
+linktitle: BookmarkEnd
+articleTitle: BookmarkEnd
+second_title: 用于 .NET 的 Aspose.Words
+description: BookmarkEnd 构造函数. 初始化一个新实例BookmarkEnd类 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words/bookmarkend/bookmarkend/
@@ -19,7 +21,7 @@ public BookmarkEnd(DocumentBase doc, string name)
 | doc | DocumentBase | 所有者文件。 |
 | name | String | 书签的名称。不可能是`无效的`。 |
 
-### 例子
+## 例子
 
 展示如何添加书签并更新其内容。
 
@@ -109,7 +111,5 @@ public class BookmarkInfoPrinter : DocumentVisitor
 
 * class [DocumentBase](../../documentbase/)
 * class [BookmarkEnd](../)
-* 命名空间 [Aspose.Words](../../bookmarkend/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

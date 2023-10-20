@@ -1,7 +1,9 @@
 ---
 title: OdsoFieldMapDataCollection.GetEnumerator
-second_title: Aspose.Words per .NET API Reference
-description: OdsoFieldMapDataCollection metodo. Restituisce un oggetto enumeratore che può essere utilizzato per scorrere tutti gli elementi della raccolta.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words per .NET
+description: OdsoFieldMapDataCollection GetEnumerator metodo. Restituisce un oggetto enumeratore che può essere utilizzato per scorrere tutti gli elementi della raccolta in C#.
 type: docs
 weight: 60
 url: /it/net/aspose.words.settings/odsofieldmapdatacollection/getenumerator/
@@ -14,7 +16,7 @@ Restituisce un oggetto enumeratore che può essere utilizzato per scorrere tutti
 public IEnumerator<OdsoFieldMapData> GetEnumerator()
 ```
 
-### Esempi
+## Esempi
 
 Mostra come accedere alla raccolta di dati che mappa le colonne dell'origine dati per unire i campi.
 
@@ -58,7 +60,5 @@ Assert.AreEqual(0, dataCollection.Count);
 
 * class [OdsoFieldMapData](../../odsofieldmapdata/)
 * class [OdsoFieldMapDataCollection](../)
-* spazio dei nomi [Aspose.Words.Settings](../../odsofieldmapdatacollection/)
+* spazio dei nomi [Aspose.Words.Settings](../../../aspose.words.settings/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: IMailMergeDataSource.GetValue
-second_title: Aspose.Words per .NET API Reference
-description: IMailMergeDataSource metodo. Restituisce un valore per il nome del campo specificato ofalso se il campo non viene trovato.
+linktitle: GetValue
+articleTitle: GetValue
+second_title: Aspose.Words per .NET
+description: IMailMergeDataSource GetValue metodo. Restituisce un valore per il nome del campo specificato ofalso se il campo non viene trovato in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words.mailmerging/imailmergedatasource/getvalue/
@@ -23,7 +25,7 @@ public bool GetValue(string fieldName, out object fieldValue)
 
 `VERO` se il valore è stato trovato.
 
-### Esempi
+## Esempi
 
 Mostra come eseguire una stampa unione con un'origine dati sotto forma di oggetto personalizzato.
 
@@ -137,7 +139,5 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
 ### Guarda anche
 
 * interface [IMailMergeDataSource](../)
-* spazio dei nomi [Aspose.Words.MailMerging](../../imailmergedatasource/)
+* spazio dei nomi [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * assemblea [Aspose.Words](../../../)
-
-

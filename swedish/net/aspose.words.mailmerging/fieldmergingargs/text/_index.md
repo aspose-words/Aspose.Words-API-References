@@ -1,7 +1,9 @@
 ---
 title: FieldMergingArgs.Text
-second_title: Aspose.Words för .NET API Referens
-description: FieldMergingArgs fast egendom. Hämtar eller ställer in texten som ska infogas i dokumentet för det aktuella sammanslagningsfältet.
+linktitle: Text
+articleTitle: Text
+second_title: Aspose.Words för .NET
+description: FieldMergingArgs Text fast egendom. Hämtar eller ställer in texten som ska infogas i dokumentet för det aktuella sammanslagningsfältet i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.mailmerging/fieldmergingargs/text/
@@ -14,7 +16,7 @@ Hämtar eller ställer in texten som ska infogas i dokumentet för det aktuella 
 public string Text { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 När din händelsehanterare anropas är den här egenskapen inställd på`null`.
 
@@ -22,7 +24,7 @@ Om du lämnar Text som`null` , kommer kopplingsmotorn att infogas[`FieldValue`](
 
 Om du ställer in Text till någon sträng (inklusive tom), kommer strängen att infogas i dokumentet istället för sammanslagningsfältet.
 
-### Exempel
+## Exempel
 
 Visar hur man utför en sammankoppling med en anpassad återuppringning som hanterar sammanslagningsdata i form av HTML-dokument.
 
@@ -90,7 +92,5 @@ private class HandleMergeFieldInsertHtml : IFieldMergingCallback
 ### Se även
 
 * class [FieldMergingArgs](../)
-* namnutrymme [Aspose.Words.MailMerging](../../fieldmergingargs/)
+* namnutrymme [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: MailMergeRegionInfo.Level
-second_title: Référence de l'API Aspose.Words pour .NET
-description: MailMergeRegionInfo propriété. Renvoie le niveau dimbrication pour la région.
+linktitle: Level
+articleTitle: Level
+second_title: Aspose.Words pour .NET
+description: MailMergeRegionInfo Level propriété. Renvoie le niveau dimbrication pour la région en C#.
 type: docs
 weight: 40
 url: /fr/net/aspose.words.mailmerging/mailmergeregioninfo/level/
@@ -14,7 +16,7 @@ Renvoie le niveau d'imbrication pour la région.
 public int Level { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment vérifier les régions de publipostage.
 
@@ -59,7 +61,5 @@ Assert.AreEqual("TableEnd:NestedRegion1", endFieldMergeField.FieldName);
 ### Voir également
 
 * class [MailMergeRegionInfo](../)
-* espace de noms [Aspose.Words.MailMerging](../../mailmergeregioninfo/)
+* espace de noms [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * Assemblée [Aspose.Words](../../../)
-
-

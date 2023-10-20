@@ -1,12 +1,14 @@
 ---
 title: MailMerge.ExecuteWithRegions
-second_title: Aspose.Words für .NET-API-Referenz
-description: MailMerge methode. Führt einen Serienbrief aus einer benutzerdefinierten Datenquelle mit Serienbriefbereichen durch.
+linktitle: ExecuteWithRegions
+articleTitle: ExecuteWithRegions
+second_title: Aspose.Words für .NET
+description: MailMerge ExecuteWithRegions methode. Führt einen Serienbrief aus einer benutzerdefinierten Datenquelle mit Serienbriefbereichen durch in C#.
 type: docs
 weight: 200
 url: /de/net/aspose.words.mailmerging/mailmerge/executewithregions/
 ---
-## ExecuteWithRegions(IMailMergeDataSource) {#executewithregions}
+## ExecuteWithRegions(*[IMailMergeDataSource](../../imailmergedatasource/)*) {#executewithregions}
 
 Führt einen Serienbrief aus einer benutzerdefinierten Datenquelle mit Serienbriefbereichen durch.
 
@@ -18,13 +20,13 @@ public void ExecuteWithRegions(IMailMergeDataSource dataSource)
 | --- | --- | --- |
 | dataSource | IMailMergeDataSource | Ein Objekt, das die benutzerdefinierte Serienbrief-Datenquellenschnittstelle implementiert. |
 
-### Bemerkungen
+## Bemerkungen
 
 Verwenden Sie diese Methode, um Serienbrieffelder im Dokument mit Werten aus jeder benutzerdefinierten Datenquelle wie einer XML-Datei oder Sammlungen von Geschäftsobjekten zu füllen. Sie müssen Ihre eigene Klasse schreiben, die das implementiert[`IMailMergeDataSource`](../../imailmergedatasource/) Schnittstelle.
 
 Sie können diese Methode nur verwenden, wenn[`IsBidiTextSupportedOnUpdate`](../../../aspose.words.fields/fieldoptions/isbiditextsupportedonupdate/) Ist`FALSCH`, Das heißt, Sie benötigen keine Rechts-nach-Links-Sprachkompatibilität (z. B. Arabisch oder Hebräisch).
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie Seriendruckbereiche verwenden, um einen verschachtelten Serienbrief auszuführen.
 
@@ -271,12 +273,12 @@ public class OrderMailMergeDataSource : IMailMergeDataSource
 
 * interface [IMailMergeDataSource](../../imailmergedatasource/)
 * class [MailMerge](../)
-* namensraum [Aspose.Words.MailMerging](../../mailmerge/)
+* namensraum [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * Montage [Aspose.Words](../../../)
 
 ---
 
-## ExecuteWithRegions(IMailMergeDataSourceRoot) {#executewithregions_1}
+## ExecuteWithRegions(*[IMailMergeDataSourceRoot](../../imailmergedatasourceroot/)*) {#executewithregions_1}
 
 Führt einen Serienbrief aus einer benutzerdefinierten Datenquelle mit Serienbriefbereichen durch.
 
@@ -288,13 +290,13 @@ public void ExecuteWithRegions(IMailMergeDataSourceRoot dataSourceRoot)
 | --- | --- | --- |
 | dataSourceRoot | IMailMergeDataSourceRoot | Ein Objekt, das die Stammschnittstelle der benutzerdefinierten Serienbriefdatenquelle implementiert. |
 
-### Bemerkungen
+## Bemerkungen
 
 Verwenden Sie diese Methode, um Serienbrieffelder im Dokument mit Werten aus jeder benutzerdefinierten Datenquelle wie einer XML-Datei oder Sammlungen von Geschäftsobjekten zu füllen. Sie müssen Ihre eigenen Klassen schreiben, die das implementieren[`IMailMergeDataSourceRoot`](../../imailmergedatasourceroot/) Und[`IMailMergeDataSource`](../../imailmergedatasource/) Schnittstellen.
 
 Sie können diese Methode nur verwenden, wenn[`IsBidiTextSupportedOnUpdate`](../../../aspose.words.fields/fieldoptions/isbiditextsupportedonupdate/) Ist`FALSCH`, Das heißt, Sie benötigen keine Rechts-nach-Links-Sprachkompatibilität (z. B. Arabisch oder Hebräisch).
 
-### Beispiele
+## Beispiele
 
 Führt einen Serienbrief aus einer benutzerdefinierten Datenquelle mit Master-Detail-Daten durch.
 
@@ -478,14 +480,14 @@ private class EmployeeListMailMergeSource : IMailMergeDataSource
 
 * interface [IMailMergeDataSourceRoot](../../imailmergedatasourceroot/)
 * class [MailMerge](../)
-* namensraum [Aspose.Words.MailMerging](../../mailmerge/)
+* namensraum [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * Montage [Aspose.Words](../../../)
 
 ---
 
-## ExecuteWithRegions(DataSet) {#executewithregions_2}
+## ExecuteWithRegions(*DataSet*) {#executewithregions_2}
 
-Führt einen Serienbrief von einem aus **Datensatz** in ein Dokument mit Seriendruckbereichen.
+Führt einen Serienbrief von einem aus**Datensatz** in ein Dokument mit Seriendruckbereichen.
 
 ```csharp
 public void ExecuteWithRegions(DataSet dataSet)
@@ -495,31 +497,31 @@ public void ExecuteWithRegions(DataSet dataSet)
 | --- | --- | --- |
 | dataSet | DataSet | **Datensatz** das Daten enthält, die in Serienbrieffelder eingefügt werden sollen. |
 
-### Bemerkungen
+## Bemerkungen
 
 Verwenden Sie diese Methode, um einen Serienbrief aus einer oder mehreren Tabellen in wiederholbaren Mail -Zusammenführungsbereichen im Dokument durchzuführen. Die Seriendruckbereiche innerhalb des Dokuments werden dynamisch vergrößert, um Datensätze in den entsprechenden Tabellen aufzunehmen.
 
-Jeder Tisch im **Datensatz** muss einen Namen haben.
+Jeder Tisch im**Datensatz** muss einen Namen haben.
 
-Für das Dokument müssen Seriendruckbereiche definiert sein, deren Namen auf die Tabellen im Dokument verweisen **Datensatz**.
+Für das Dokument müssen Seriendruckbereiche definiert sein, deren Namen auf die Tabellen im Dokument verweisen**Datensatz**.
 
 Um einen Seriendruckbereich im Dokument anzugeben, müssen Sie zwei Seriendruckfelder einfügen, um den Anfang und das Ende des Seriendruckbereichs zu markieren.
 
-Der gesamte Dokumentinhalt, der in einem Serienbriefbereich enthalten ist, wird automatisch für jeden Datensatz im wiederholt **Datentabelle**.
+Der gesamte Dokumentinhalt, der in einem Serienbriefbereich enthalten ist, wird automatisch für jeden Datensatz im wiederholt**Datentabelle**.
 
-Um den Anfang eines Serienbriefbereichs zu markieren, fügen Sie ein MERGEFIELD mit dem Namen TableStart:MyTable, ein, wobei MyTable einem der Tabellennamen in Ihrem entspricht **Datensatz**.
+Um den Anfang eines Serienbriefbereichs zu markieren, fügen Sie ein MERGEFIELD mit dem Namen TableStart:MyTable, ein, wobei MyTable einem der Tabellennamen in Ihrem entspricht**Datensatz**.
 
 Um das Ende des Serienbriefbereichs zu markieren, fügen Sie ein weiteres MERGEFIELD mit dem Namen TableEnd:MyTable ein.
 
 Um ein MERGEFIELD in Word einzufügen, verwenden Sie den Befehl „Einfügen/Feld“, wählen Sie „MergeField“ und geben Sie dann den -Namen des Felds ein.
 
-Der **TableStart** Und **TableEnd** Felder müssen sich im selben Abschnitt Ihres Dokuments befinden.
+Der**TableStart** Und**TableEnd** Felder müssen sich im selben Abschnitt Ihres Dokuments befinden.
 
-Bei Verwendung innerhalb eines Tisches **TableStart** Und **TableEnd** muss sich in derselben Zeile der Tabelle befinden.
+Bei Verwendung innerhalb eines Tisches**TableStart** Und**TableEnd** muss sich in derselben Zeile der Tabelle befinden.
 
-Seriendruckbereiche in einem Dokument sollten wohlgeformt sein (es muss immer ein Paar passender vorhanden sein). **TableStart** Und **TableEnd** Zusammenführungsfelder mit demselben Tabellennamen).
+Seriendruckbereiche in einem Dokument sollten wohlgeformt sein (es muss immer ein Paar passender vorhanden sein).**TableStart** Und**TableEnd** Zusammenführungsfelder mit demselben Tabellennamen).
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein verschachtelter Serienbrief mit zwei Zusammenführungsbereichen und zwei Datentabellen ausgeführt wird.
 
@@ -603,14 +605,14 @@ private static DataSet CreateDataSet()
 ### Siehe auch
 
 * class [MailMerge](../)
-* namensraum [Aspose.Words.MailMerging](../../mailmerge/)
+* namensraum [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * Montage [Aspose.Words](../../../)
 
 ---
 
-## ExecuteWithRegions(DataTable) {#executewithregions_3}
+## ExecuteWithRegions(*DataTable*) {#executewithregions_3}
 
-Führt einen Serienbrief von einem aus **Datentabelle** in das Dokument mit Seriendruckbereichen.
+Führt einen Serienbrief von einem aus**Datentabelle** in das Dokument mit Seriendruckbereichen.
 
 ```csharp
 public void ExecuteWithRegions(DataTable dataTable)
@@ -620,13 +622,13 @@ public void ExecuteWithRegions(DataTable dataTable)
 | --- | --- | --- |
 | dataTable | DataTable | Datenquelle für den Seriendruckvorgang. Die Tabelle muss habenTableName Eigenschaftssatz. |
 
-### Bemerkungen
+## Bemerkungen
 
 Für das Dokument muss ein Serienbriefbereich mit einem Namen definiert sein, der mit übereinstimmt.TableName.
 
 Wenn im Dokument andere Seriendruckbereiche definiert sind, bleiben diese intakt. Dies ermöglicht die Durchführung mehrerer Serienbriefvorgänge.
 
-### Beispiele
+## Beispiele
 
 Demonstriert, wie Zellen während eines Seriendrucks formatiert werden.
 
@@ -762,14 +764,14 @@ doc.Save(ArtifactsDir + "MailMerge.ExecuteWithRegionsConcurrent.docx");
 ### Siehe auch
 
 * class [MailMerge](../)
-* namensraum [Aspose.Words.MailMerging](../../mailmerge/)
+* namensraum [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * Montage [Aspose.Words](../../../)
 
 ---
 
-## ExecuteWithRegions(DataView) {#executewithregions_4}
+## ExecuteWithRegions(*DataView*) {#executewithregions_4}
 
-Führt einen Serienbrief von einem aus **Datenansicht** in das Dokument mit Seriendruckbereichen.
+Führt einen Serienbrief von einem aus**Datenansicht** in das Dokument mit Seriendruckbereichen.
 
 ```csharp
 public void ExecuteWithRegions(DataView dataView)
@@ -777,17 +779,17 @@ public void ExecuteWithRegions(DataView dataView)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| dataView | DataView | Datenquelle für den Seriendruckvorgang. Die Quelltabelle der **Datenansicht** muss es haben **Tabellenname** Eigenschaftssatz. |
+| dataView | DataView | Datenquelle für den Seriendruckvorgang. Die Quelltabelle der**Datenansicht** muss es haben**Tabellenname** Eigenschaftssatz. |
 
-### Bemerkungen
+## Bemerkungen
 
-Diese Methode ist nützlich, wenn Sie Daten in a abrufen **Datentabelle** aber dann muss vor dem Seriendruck ein Filter oder eine Sortierung angewendet werden.
+Diese Methode ist nützlich, wenn Sie Daten in a abrufen**Datentabelle** aber dann muss vor dem Seriendruck ein Filter oder eine Sortierung angewendet werden.
 
-Für das Dokument muss ein Serienbriefbereich mit einem Namen definiert sein, der mit übereinstimmt. **DataView.Table.TableName**.
+Für das Dokument muss ein Serienbriefbereich mit einem Namen definiert sein, der mit übereinstimmt.**DataView.Table.TableName**.
 
 Wenn im Dokument andere Seriendruckbereiche definiert sind, bleiben diese intakt. Dies ermöglicht die Durchführung mehrerer Serienbriefvorgänge.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Regionen verwendet werden, um zwei separate Serienbriefe in einem Dokument auszuführen.
 
@@ -843,14 +845,14 @@ doc.Save(ArtifactsDir + "MailMerge.ExecuteWithRegionsConcurrent.docx");
 ### Siehe auch
 
 * class [MailMerge](../)
-* namensraum [Aspose.Words.MailMerging](../../mailmerge/)
+* namensraum [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * Montage [Aspose.Words](../../../)
 
 ---
 
-## ExecuteWithRegions(IDataReader, string) {#executewithregions_5}
+## ExecuteWithRegions(*IDataReader, string*) {#executewithregions_5}
 
-Führt einen Serienbrief durch **IDataReader** in das Dokument mit Seriendruckbereichen.
+Führt einen Serienbrief durch**IDataReader** in das Dokument mit Seriendruckbereichen.
 
 ```csharp
 public void ExecuteWithRegions(IDataReader dataReader, string tableName)
@@ -858,14 +860,14 @@ public void ExecuteWithRegions(IDataReader dataReader, string tableName)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| dataReader | IDataReader | Quelle der Datensätze für den Serienbrief wie z.B **OleDbDataReader** oder **SqlDataReader**. |
+| dataReader | IDataReader | Quelle der Datensätze für den Serienbrief wie z.B**OleDbDataReader** oder**SqlDataReader**. |
 | tableName | String | Name des Seriendruckbereichs im Dokument, der gefüllt werden soll. |
 
-### Bemerkungen
+## Bemerkungen
 
-Du kannst passieren **SqlDataReader** oder **OleDbDataReader**Objekt als Parameter in die Methode this ein, da beide implementiert sind **IDataReader** Schnittstelle.
+Du kannst passieren**SqlDataReader** oder**OleDbDataReader**Objekt als Parameter in die Methode this ein, da beide implementiert sind**IDataReader** Schnittstelle.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie in einem Datenbank-BLOB-Feld gespeicherte Bilder in einen Bericht eingefügt werden.
 
@@ -914,7 +916,5 @@ private class HandleMergeImageFieldFromBlob : IFieldMergingCallback
 ### Siehe auch
 
 * class [MailMerge](../)
-* namensraum [Aspose.Words.MailMerging](../../mailmerge/)
+* namensraum [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * Montage [Aspose.Words](../../../)
-
-

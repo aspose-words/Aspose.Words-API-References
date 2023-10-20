@@ -1,7 +1,9 @@
 ---
 title: ImageData.Brightness
-second_title: Referencia de API de Aspose.Words para .NET
-description: ImageData propiedad. Obtiene o establece el brillo de la imagen. El valor de esta propiedad debe ser un número entre 00 más tenue y 10 más brillante.
+linktitle: Brightness
+articleTitle: Brightness
+second_title: Aspose.Words para .NET
+description: ImageData Brightness propiedad. Obtiene o establece el brillo de la imagen. El valor de esta propiedad debe ser un número entre 00 más tenue y 10 más brillante en C#.
 type: docs
 weight: 30
 url: /es/net/aspose.words.drawing/imagedata/brightness/
@@ -14,11 +16,11 @@ Obtiene o establece el brillo de la imagen. El valor de esta propiedad debe ser 
 public double Brightness { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 El valor predeterminado es 0,5.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo editar los datos de imagen de una forma.
 
@@ -81,7 +83,5 @@ dstDoc.Save(ArtifactsDir + "Drawing.ImageData.docx");
 ### Ver también
 
 * class [ImageData](../)
-* espacio de nombres [Aspose.Words.Drawing](../../imagedata/)
+* espacio de nombres [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: GlossaryDocument.BuildingBlocks
-second_title: Référence de l'API Aspose.Words pour .NET
-description: GlossaryDocument propriété. Renvoie une collection typée qui représente tous les éléments constitutifs du document glossaire.
+linktitle: BuildingBlocks
+articleTitle: BuildingBlocks
+second_title: Aspose.Words pour .NET
+description: GlossaryDocument BuildingBlocks propriété. Renvoie une collection typée qui représente tous les éléments constitutifs du document glossaire en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.buildingblocks/glossarydocument/buildingblocks/
@@ -14,7 +16,7 @@ Renvoie une collection typée qui représente tous les éléments constitutifs d
 public BuildingBlockCollection BuildingBlocks { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre les moyens d'accéder aux blocs de construction dans un document glossaire.
 
@@ -119,7 +121,5 @@ public class GlossaryDocVisitor : DocumentVisitor
 
 * class [BuildingBlockCollection](../../buildingblockcollection/)
 * class [GlossaryDocument](../)
-* espace de noms [Aspose.Words.BuildingBlocks](../../glossarydocument/)
+* espace de noms [Aspose.Words.BuildingBlocks](../../../aspose.words.buildingblocks/)
 * Assemblée [Aspose.Words](../../../)
-
-

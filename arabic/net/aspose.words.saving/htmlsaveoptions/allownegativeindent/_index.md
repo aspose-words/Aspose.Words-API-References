@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.AllowNegativeIndent
-second_title: Aspose.Words لمراجع .NET API
-description: HtmlSaveOptions ملكية. يحدد ما إذا كانت المسافات البادئة السلبية اليمنى واليسرى للفقرات ستتم تسويتها عند الحفظ في HTML أو MHTML أو EPUB. القيمة الافتراضية هيخطأ شنيع .
+linktitle: AllowNegativeIndent
+articleTitle: AllowNegativeIndent
+second_title: Aspose.Words لـ .NET
+description: HtmlSaveOptions AllowNegativeIndent ملكية. يحدد ما إذا كانت المسافات البادئة السلبية اليمنى واليسرى للفقرات ستتم تسويتها عند الحفظ في HTML أو MHTML أو EPUB. القيمة الافتراضية هيخطأ شنيع  في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.saving/htmlsaveoptions/allownegativeindent/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.saving/htmlsaveoptions/allownegativeindent/
 public bool AllowNegativeIndent { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 عند عدم السماح بمسافة بادئة سلبية، يتم تصديرها كهامش صفر إلى HTML. عند السماح بمسافة بادئة سلبية، قد تظهر الفقرة جزئيًا خارج نافذة المتصفح .
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الحفاظ على المسافات البادئة السلبية في ملف .html للإخراج.
 
@@ -80,7 +82,5 @@ else
 ### أنظر أيضا
 
 * class [HtmlSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../htmlsaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

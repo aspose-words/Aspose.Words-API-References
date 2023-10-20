@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.DoNotExpandShiftReturn
-second_title: Aspose.Words för .NET API Referens
-description: CompatibilityOptions fast egendom. Rättfärdiga inte rader som slutar med mjuk radbrytning.
+linktitle: DoNotExpandShiftReturn
+articleTitle: DoNotExpandShiftReturn
+second_title: Aspose.Words för .NET
+description: CompatibilityOptions DoNotExpandShiftReturn fast egendom. Rättfärdiga inte rader som slutar med mjuk radbrytning i C#.
 type: docs
 weight: 150
 url: /sv/net/aspose.words.settings/compatibilityoptions/donotexpandshiftreturn/
@@ -17,7 +19,5 @@ public bool DoNotExpandShiftReturn { get; set; }
 ### Se även
 
 * class [CompatibilityOptions](../)
-* namnutrymme [Aspose.Words.Settings](../../compatibilityoptions/)
+* namnutrymme [Aspose.Words.Settings](../../../aspose.words.settings/)
 * hopsättning [Aspose.Words](../../../)
-
-

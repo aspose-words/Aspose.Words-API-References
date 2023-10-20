@@ -1,7 +1,9 @@
 ---
 title: FieldCollection.Count
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldCollection propiedad. Devuelve el número de campos de la colección.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words para .NET
+description: FieldCollection Count propiedad. Devuelve el número de campos de la colección en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words.fields/fieldcollection/count/
@@ -14,7 +16,7 @@ Devuelve el número de campos de la colección.
 public int Count { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo eliminar campos de una colección de campos.
 
@@ -154,7 +156,5 @@ public class FieldVisitor : DocumentVisitor
 ### Ver también
 
 * class [FieldCollection](../)
-* espacio de nombres [Aspose.Words.Fields](../../fieldcollection/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

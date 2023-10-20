@@ -1,7 +1,9 @@
 ---
-title: Class Bookmark
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Bookmark klas. Stellt ein einzelnes Lesezeichen dar.
+title: Bookmark Class
+linktitle: Bookmark
+articleTitle: Bookmark
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Bookmark klas. Stellt ein einzelnes Lesezeichen dar in C#.
 type: docs
 weight: 40
 url: /de/net/aspose.words/bookmark/
@@ -34,11 +36,11 @@ public class Bookmark
 | --- | --- |
 | [Remove](../../aspose.words/bookmark/remove/)() | Entfernt das Lesezeichen aus dem Dokument. Entfernt keinen Text im Lesezeichen. |
 
-### Bemerkungen
+## Bemerkungen
 
 `Bookmark` ist ein „Fassaden“-Objekt, das zwei Knoten kapselt[`BookmarkStart`](./bookmarkstart/) und[`BookmarkEnd`](./bookmarkend/) in einem Dokumentbaum und ermöglicht die Arbeit mit einem Lesezeichen als einzelnes Objekt.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie Lesezeichen hinzufügen und deren Inhalte aktualisieren.
 
@@ -128,5 +130,3 @@ public class BookmarkInfoPrinter : DocumentVisitor
 
 * namensraum [Aspose.Words](../../aspose.words/)
 * Montage [Aspose.Words](../../)
-
-

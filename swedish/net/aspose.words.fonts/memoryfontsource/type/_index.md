@@ -1,7 +1,9 @@
 ---
 title: MemoryFontSource.Type
-second_title: Aspose.Words för .NET API Referens
-description: MemoryFontSource fast egendom. Returnerar typen av teckensnittskälla.
+linktitle: Type
+articleTitle: Type
+second_title: Aspose.Words för .NET
+description: MemoryFontSource Type fast egendom. Returnerar typen av teckensnittskälla i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.fonts/memoryfontsource/type/
@@ -14,7 +16,7 @@ Returnerar typen av teckensnittskälla.
 public override FontSourceType Type { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man använder en byte-array med data från en teckensnittsfil som teckensnittskälla.
 
@@ -34,7 +36,5 @@ Assert.AreEqual(0, memoryFontSource.Priority);
 
 * enum [FontSourceType](../../fontsourcetype/)
 * class [MemoryFontSource](../)
-* namnutrymme [Aspose.Words.Fonts](../../memoryfontsource/)
+* namnutrymme [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * hopsättning [Aspose.Words](../../../)
-
-

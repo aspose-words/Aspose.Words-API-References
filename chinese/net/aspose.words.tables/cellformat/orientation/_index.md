@@ -1,9 +1,11 @@
 ---
 title: CellFormat.Orientation
-second_title: Aspose.Words for .NET API 参考
-description: CellFormat 财产. 返回或设置表格单元格中文本的方向
+linktitle: Orientation
+articleTitle: Orientation
+second_title: 用于 .NET 的 Aspose.Words
+description: CellFormat Orientation 财产. 返回或设置表格单元格中文本的方向 在 C#.
 type: docs
-weight: 70
+weight: 60
 url: /zh/net/aspose.words.tables/cellformat/orientation/
 ---
 ## CellFormat.Orientation property
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.tables/cellformat/orientation/
 public TextOrientation Orientation { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何构建格式化的 2x2 表。
 
@@ -122,7 +124,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
 
 * enum [TextOrientation](../../../aspose.words/textorientation/)
 * class [CellFormat](../)
-* 命名空间 [Aspose.Words.Tables](../../cellformat/)
+* 命名空间 [Aspose.Words.Tables](../../../aspose.words.tables/)
 * 部件 [Aspose.Words](../../../)
-
-

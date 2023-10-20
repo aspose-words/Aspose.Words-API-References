@@ -1,7 +1,9 @@
 ---
 title: Shape.SignatureLine
-second_title: Aspose.Words för .NET API Referens
-description: Shape fast egendom. BlirSignatureLine objekt om formen är en signaturlinje. Returnerarnull annars.
+linktitle: SignatureLine
+articleTitle: SignatureLine
+second_title: Aspose.Words för .NET
+description: Shape SignatureLine fast egendom. BlirSignatureLine objekt om formen är en signaturlinje. Returnerarnull annars i C#.
 type: docs
 weight: 160
 url: /sv/net/aspose.words.drawing/shape/signatureline/
@@ -14,11 +16,11 @@ Blir[`SignatureLine`](../../signatureline/) objekt om formen är en signaturlinj
 public SignatureLine SignatureLine { get; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Du kan infoga nya[`SignatureLine`](../../signatureline/) in i dokumentet med hjälp av[`InsertSignatureLine`](../../../aspose.words/documentbuilder/insertsignatureline/) och
 
-### Exempel
+## Exempel
 
 Visar hur man skapar en rad för en signatur och infogar den i ett dokument.
 
@@ -64,7 +66,5 @@ doc.Save(ArtifactsDir + "Shape.SignatureLine.docx");
 
 * class [SignatureLine](../../signatureline/)
 * class [Shape](../)
-* namnutrymme [Aspose.Words.Drawing](../../shape/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class ImageSavingArgs
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Saving.ImageSavingArgs 班级. 提供数据ImageSaving事件.
+title: ImageSavingArgs Class
+linktitle: ImageSavingArgs
+articleTitle: ImageSavingArgs
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Saving.ImageSavingArgs 班级. 提供数据ImageSaving事件 在 C#.
 type: docs
 weight: 5240
 url: /zh/net/aspose.words.saving/imagesavingargs/
@@ -27,7 +29,7 @@ public class ImageSavingArgs
 | [IsImageAvailable](../../aspose.words.saving/imagesavingargs/isimageavailable/) { get; } | 返回`真的`当前图像是否可导出。 |
 | [KeepImageStreamOpen](../../aspose.words.saving/imagesavingargs/keepimagestreamopen/) { get; set; } | 指定 Aspose.Words 在保存图像后是否应保持流打开或关闭它。 |
 
-### 评论
+## 评论
 
 默认情况下，当 Aspose.Words 将文档保存为 HTML 时，它会将每个图像保存到 一个单独的文件中。 Aspose.Words 使用文档文件名和唯一编号为文档中找到的每个图像生成唯一的文件名 。
 
@@ -37,7 +39,7 @@ public class ImageSavingArgs
 
 要将图像保存到流而不是文件中，请使用[`ImageStream`](./imagestream/)财产。
 
-### 例子
+## 例子
 
 演示如何将文档拆分为多个部分并保存它们。
 
@@ -155,5 +157,3 @@ public class SavedImageRename : IImageSavingCallback
 
 * 命名空间 [Aspose.Words.Saving](../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../)
-
-

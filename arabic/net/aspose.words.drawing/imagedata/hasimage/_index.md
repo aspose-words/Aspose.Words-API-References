@@ -1,7 +1,9 @@
 ---
 title: ImageData.HasImage
-second_title: Aspose.Words لمراجع .NET API
-description: ImageData ملكية. إرجاعحقيقي إذا كان الشكل يحتوي على بايتات صورة أو يربط صورة.
+linktitle: HasImage
+articleTitle: HasImage
+second_title: Aspose.Words لـ .NET
+description: ImageData HasImage ملكية. إرجاعحقيقي إذا كان الشكل يحتوي على بايتات صورة أو يربط صورة في C#.
 type: docs
 weight: 110
 url: /ar/net/aspose.words.drawing/imagedata/hasimage/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing/imagedata/hasimage/
 public bool HasImage { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية حفظ جميع الصور من مستند إلى نظام الملفات.
 
@@ -47,7 +49,5 @@ using (IEnumerator<Shape> enumerator = shapesWithImages.GetEnumerator())
 ### أنظر أيضا
 
 * class [ImageData](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../imagedata/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

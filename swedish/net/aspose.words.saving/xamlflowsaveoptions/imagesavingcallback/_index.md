@@ -1,7 +1,9 @@
 ---
 title: XamlFlowSaveOptions.ImageSavingCallback
-second_title: Aspose.Words för .NET API Referens
-description: XamlFlowSaveOptions fast egendom. Gör det möjligt att styra hur bilder sparas när ett dokument sparas till XAML.
+linktitle: ImageSavingCallback
+articleTitle: ImageSavingCallback
+second_title: Aspose.Words för .NET
+description: XamlFlowSaveOptions ImageSavingCallback fast egendom. Gör det möjligt att styra hur bilder sparas när ett dokument sparas till XAML i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.saving/xamlflowsaveoptions/imagesavingcallback/
@@ -14,7 +16,7 @@ Gör det möjligt att styra hur bilder sparas när ett dokument sparas till XAML
 public IImageSavingCallback ImageSavingCallback { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man skriver ut filnamnen på länkade bilder som skapats när ett dokument konverteras till flödesformat .xaml.
 
@@ -81,7 +83,5 @@ private class ImageUriPrinter : IImageSavingCallback
 
 * interface [IImageSavingCallback](../../iimagesavingcallback/)
 * class [XamlFlowSaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../xamlflowsaveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

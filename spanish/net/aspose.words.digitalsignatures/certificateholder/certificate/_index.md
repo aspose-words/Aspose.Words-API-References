@@ -1,14 +1,16 @@
 ---
 title: CertificateHolder.Certificate
-second_title: Referencia de API de Aspose.Words para .NET
-description: CertificateHolder propiedad. Devuelve la instancia de Certificado X5092 que contiene claves públicas y privadas y cadena de certificados.
+linktitle: Certificate
+articleTitle: Certificate
+second_title: Aspose.Words para .NET
+description: CertificateHolder Certificate propiedad. Devuelve la instancia deCertificado X5092 que contiene claves públicas y privadas y cadena de certificados en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words.digitalsignatures/certificateholder/certificate/
 ---
 ## CertificateHolder.Certificate property
 
-Devuelve la instancia de **Certificado X5092** que contiene claves públicas y privadas y cadena de certificados.
+Devuelve la instancia de**Certificado X5092** que contiene claves públicas y privadas y cadena de certificados.
 
 ```csharp
 public X509Certificate2 Certificate { get; }
@@ -18,7 +20,7 @@ public X509Certificate2 Certificate { get; }
 
 X509Certificate2 instancia
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo validar y mostrar información sobre cada firma en un documento.
 
@@ -40,7 +42,5 @@ foreach (DigitalSignature signature in doc.DigitalSignatures)
 ### Ver también
 
 * class [CertificateHolder](../)
-* espacio de nombres [Aspose.Words.DigitalSignatures](../../certificateholder/)
+* espacio de nombres [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * asamblea [Aspose.Words](../../../)
-
-

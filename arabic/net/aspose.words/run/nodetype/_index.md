@@ -1,7 +1,9 @@
 ---
 title: Run.NodeType
-second_title: Aspose.Words لمراجع .NET API
-description: Run ملكية. إرجاعRun .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words لـ .NET
+description: Run NodeType ملكية. إرجاعRun  في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words/run/nodetype/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/run/nodetype/
 public override NodeType NodeType { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية اجتياز شجرة العقدة المركبة من العقد الفرعية.
 
@@ -62,7 +64,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 
 * enum [NodeType](../../nodetype/)
 * class [Run](../)
-* مساحة الاسم [Aspose.Words](../../run/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

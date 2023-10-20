@@ -1,7 +1,9 @@
 ---
 title: DocumentPropertyCollection.Clear
-second_title: Aspose.Words لمراجع .NET API
-description: DocumentPropertyCollection طريقة. إزالة كافة الخصائص من المجموعة.
+linktitle: Clear
+articleTitle: Clear
+second_title: Aspose.Words لـ .NET
+description: DocumentPropertyCollection Clear طريقة. إزالة كافة الخصائص من المجموعة في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.properties/documentpropertycollection/clear/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.properties/documentpropertycollection/clear/
 public void Clear()
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التعامل مع الخصائص المخصصة للمستند.
 
@@ -74,7 +76,5 @@ Assert.AreEqual(0, properties.Count);
 ### أنظر أيضا
 
 * class [DocumentPropertyCollection](../)
-* مساحة الاسم [Aspose.Words.Properties](../../documentpropertycollection/)
+* مساحة الاسم [Aspose.Words.Properties](../../../aspose.words.properties/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FormFieldCollection.Clear
-second_title: Aspose.Words för .NET API Referens
-description: FormFieldCollection metod. Tar bort alla formulärfält från den här samlingen och från dokumentet.
+linktitle: Clear
+articleTitle: Clear
+second_title: Aspose.Words för .NET
+description: FormFieldCollection Clear metod. Tar bort alla formulärfält från den här samlingen och från dokumentet i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.fields/formfieldcollection/clear/
@@ -14,7 +16,7 @@ Tar bort alla formulärfält från den här samlingen och från dokumentet.
 public void Clear()
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man infogar olika typer av formulärfält i ett dokument och bearbetar dem med hjälp av en dokumentbesökarimplementering.
 
@@ -148,7 +150,5 @@ public class FormFieldVisitor : DocumentVisitor
 ### Se även
 
 * class [FormFieldCollection](../)
-* namnutrymme [Aspose.Words.Fields](../../formfieldcollection/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

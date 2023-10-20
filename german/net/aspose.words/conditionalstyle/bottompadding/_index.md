@@ -1,7 +1,9 @@
 ---
 title: ConditionalStyle.BottomPadding
-second_title: Aspose.Words für .NET-API-Referenz
-description: ConditionalStyle eigendom. Ruft den Abstand in Punkten ab der unterhalb des Inhalts von Tabellenzellen hinzugefügt werden soll oder legt diesen fest.
+linktitle: BottomPadding
+articleTitle: BottomPadding
+second_title: Aspose.Words für .NET
+description: ConditionalStyle BottomPadding eigendom. Ruft den Abstand in Punkten ab der unterhalb des Inhalts von Tabellenzellen hinzugefügt werden soll oder legt diesen fest in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words/conditionalstyle/bottompadding/
@@ -14,7 +16,7 @@ Ruft den Abstand (in Punkten) ab, der unterhalb des Inhalts von Tabellenzellen h
 public double BottomPadding { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit bestimmten Bereichsstilen einer Tabelle gearbeitet wird.
 
@@ -84,7 +86,5 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 ### Siehe auch
 
 * class [ConditionalStyle](../)
-* namensraum [Aspose.Words](../../conditionalstyle/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

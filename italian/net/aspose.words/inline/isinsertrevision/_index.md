@@ -1,7 +1,9 @@
 ---
 title: Inline.IsInsertRevision
-second_title: Aspose.Words per .NET API Reference
-description: Inline proprietà. Restituisce vero se questo oggetto è stato inserito in Microsoft Word mentre il rilevamento delle modifiche era abilitato.
+linktitle: IsInsertRevision
+articleTitle: IsInsertRevision
+second_title: Aspose.Words per .NET
+description: Inline IsInsertRevision proprietà. Restituisce vero se questo oggetto è stato inserito in Microsoft Word mentre il rilevamento delle modifiche era abilitato in C#.
 type: docs
 weight: 40
 url: /it/net/aspose.words/inline/isinsertrevision/
@@ -14,7 +16,7 @@ Restituisce vero se questo oggetto è stato inserito in Microsoft Word mentre il
 public bool IsInsertRevision { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come determinare il tipo di revisione di un nodo in linea.
 
@@ -70,7 +72,5 @@ Assert.IsTrue(runs[5].IsDeleteRevision);
 ### Guarda anche
 
 * class [Inline](../)
-* spazio dei nomi [Aspose.Words](../../inline/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

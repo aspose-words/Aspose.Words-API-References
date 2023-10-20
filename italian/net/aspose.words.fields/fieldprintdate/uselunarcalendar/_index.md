@@ -1,7 +1,9 @@
 ---
 title: FieldPrintDate.UseLunarCalendar
-second_title: Aspose.Words per .NET API Reference
-description: FieldPrintDate proprietà. Ottiene o imposta se utilizzare il calendario lunare Hijri o quello lunare ebraico.
+linktitle: UseLunarCalendar
+articleTitle: UseLunarCalendar
+second_title: Aspose.Words per .NET
+description: FieldPrintDate UseLunarCalendar proprietà. Ottiene o imposta se utilizzare il calendario lunare Hijri o quello lunare ebraico in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words.fields/fieldprintdate/uselunarcalendar/
@@ -14,7 +16,7 @@ Ottiene o imposta se utilizzare il calendario lunare Hijri o quello lunare ebrai
 public bool UseLunarCalendar { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra i campi PRINTDATE letti.
 
@@ -56,7 +58,5 @@ Assert.AreEqual(" PRINTDATE  \\s", field.GetFieldCode());
 ### Guarda anche
 
 * class [FieldPrintDate](../)
-* spazio dei nomi [Aspose.Words.Fields](../../fieldprintdate/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

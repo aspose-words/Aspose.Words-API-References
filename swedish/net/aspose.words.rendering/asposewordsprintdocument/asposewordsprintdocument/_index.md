@@ -1,7 +1,9 @@
 ---
-title: AsposeWordsPrintDocument.AsposeWordsPrintDocument
-second_title: Aspose.Words för .NET API Referens
-description: AsposeWordsPrintDocument byggare. Initierar en ny instans av den här klassen.
+title: AsposeWordsPrintDocument
+linktitle: AsposeWordsPrintDocument
+articleTitle: AsposeWordsPrintDocument
+second_title: Aspose.Words för .NET
+description: AsposeWordsPrintDocument byggare. Initierar en ny instans av den här klassen i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.rendering/asposewordsprintdocument/asposewordsprintdocument/
@@ -18,7 +20,7 @@ public AsposeWordsPrintDocument(Document document)
 | --- | --- | --- |
 | document | Document | Dokumentet som ska skrivas ut. |
 
-### Exempel
+## Exempel
 
 Visar hur du väljer ett sidintervall och en skrivare att skriva ut dokumentet med och sedan tar fram en förhandsgranskning.
 
@@ -68,7 +70,5 @@ Console.WriteLine($"The numer of pages printed in color are {awPrintDoc.ColorPag
 
 * class [Document](../../../aspose.words/document/)
 * class [AsposeWordsPrintDocument](../)
-* namnutrymme [Aspose.Words.Rendering](../../asposewordsprintdocument/)
+* namnutrymme [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * hopsättning [Aspose.Words](../../../)
-
-

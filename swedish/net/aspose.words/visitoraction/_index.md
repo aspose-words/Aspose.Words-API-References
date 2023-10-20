@@ -1,7 +1,9 @@
 ---
-title: Enum VisitorAction
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.VisitorAction uppräkning. Tillåter besökaren att styra uppräkningen av noder.
+title: VisitorAction Enum
+linktitle: VisitorAction
+articleTitle: VisitorAction
+second_title: Aspose.Words för .NET
+description: Aspose.Words.VisitorAction uppräkning. Tillåter besökaren att styra uppräkningen av noder i C#.
 type: docs
 weight: 6620
 url: /sv/net/aspose.words/visitoraction/
@@ -26,5 +28,3 @@ public enum VisitorAction
 
 * namnutrymme [Aspose.Words](../../aspose.words/)
 * hopsättning [Aspose.Words](../../)
-
-

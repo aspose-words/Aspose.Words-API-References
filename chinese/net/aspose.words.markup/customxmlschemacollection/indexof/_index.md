@@ -1,7 +1,9 @@
 ---
 title: CustomXmlSchemaCollection.IndexOf
-second_title: Aspose.Words for .NET API 参考
-description: CustomXmlSchemaCollection 方法. 返回集合中指定值的从零开始的索引
+linktitle: IndexOf
+articleTitle: IndexOf
+second_title: 用于 .NET 的 Aspose.Words
+description: CustomXmlSchemaCollection IndexOf 方法. 返回集合中指定值的从零开始的索引 在 C#.
 type: docs
 weight: 70
 url: /zh/net/aspose.words.markup/customxmlschemacollection/indexof/
@@ -22,7 +24,7 @@ public int IndexOf(string value)
 
 从零开始的索引。如果没有找到则为负值。
 
-### 例子
+## 例子
 
 展示如何使用 XML 架构集合。
 
@@ -68,7 +70,5 @@ Assert.AreEqual(0, schemas.Count);
 ### 也可以看看
 
 * class [CustomXmlSchemaCollection](../)
-* 命名空间 [Aspose.Words.Markup](../../customxmlschemacollection/)
+* 命名空间 [Aspose.Words.Markup](../../../aspose.words.markup/)
 * 部件 [Aspose.Words](../../../)
-
-

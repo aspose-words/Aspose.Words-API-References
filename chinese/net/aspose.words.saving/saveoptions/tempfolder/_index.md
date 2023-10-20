@@ -1,7 +1,9 @@
 ---
 title: SaveOptions.TempFolder
-second_title: Aspose.Words for .NET API 参考
-description: SaveOptions 财产. 指定保存到 DOC 或 DOCX 文件时使用的临时文件的文件夹 默认情况下此属性为无效的并且没有使用临时文件
+linktitle: TempFolder
+articleTitle: TempFolder
+second_title: 用于 .NET 的 Aspose.Words
+description: SaveOptions TempFolder 财产. 指定保存到 DOC 或 DOCX 文件时使用的临时文件的文件夹 默认情况下此属性为无效的并且没有使用临时文件 在 C#.
 type: docs
 weight: 140
 url: /zh/net/aspose.words.saving/saveoptions/tempfolder/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.saving/saveoptions/tempfolder/
 public string TempFolder { get; set; }
 ```
 
-### 评论
+## 评论
 
 当Aspose.Words保存文档时，它需要创建临时内部结构。默认情况下， 这些内部结构是在内存中创建的，并且在保存 文档时，内存使用量会在短时间内出现峰值。保存完成后，内存将被释放并由垃圾收集器回收。
 
@@ -24,7 +26,7 @@ public string TempFolder { get; set; }
 
 保存完成后，Aspose.Words 会自动删除所有临时文件。
 
-### 例子
+## 例子
 
 演示在保存文档时如何使用硬盘驱动器而不是内存。
 
@@ -49,7 +51,5 @@ Assert.That(Directory.GetFiles(options.TempFolder), Is.Empty);
 ### 也可以看看
 
 * class [SaveOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../saveoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

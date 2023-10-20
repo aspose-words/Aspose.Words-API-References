@@ -1,7 +1,9 @@
 ---
-title: Enum Orientation
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Orientation 枚举. 指定页面方向
+title: Orientation Enum
+linktitle: Orientation
+articleTitle: Orientation
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Orientation 枚举. 指定页面方向 在 C#.
 type: docs
 weight: 4320
 url: /zh/net/aspose.words/orientation/
@@ -21,7 +23,7 @@ public enum Orientation
 | Portrait | `1` | 纵向页面方向（窄和高）。 |
 | Landscape | `2` | 横向页面方向（宽和短）。 |
 
-### 例子
+## 例子
 
 演示如何将页面设置设置应用和恢复到文档中的各个部分。
 
@@ -56,5 +58,3 @@ doc.Save(ArtifactsDir + "PageSetup.ClearFormatting.docx");
 
 * 命名空间 [Aspose.Words](../../aspose.words/)
 * 部件 [Aspose.Words](../../)
-
-

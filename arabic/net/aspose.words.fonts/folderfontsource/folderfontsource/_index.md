@@ -1,12 +1,14 @@
 ---
-title: FolderFontSource.FolderFontSource
-second_title: Aspose.Words لمراجع .NET API
-description: FolderFontSource البناء. الممثل.
+title: FolderFontSource
+linktitle: FolderFontSource
+articleTitle: FolderFontSource
+second_title: Aspose.Words لـ .NET
+description: FolderFontSource البناء. الممثل في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fonts/folderfontsource/folderfontsource/
 ---
-## FolderFontSource(string, bool) {#constructor}
+## FolderFontSource(*string, bool*) {#constructor}
 
 الممثل.
 
@@ -19,7 +21,7 @@ public FolderFontSource(string folderPath, bool scanSubfolders)
 | folderPath | String | المسار إلى المجلد. |
 | scanSubfolders | Boolean | يحدد ما إذا كان سيتم فحص المجلدات الفرعية أم لا. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام مجلد النظام المحلي الذي يحتوي على الخطوط كمصدر للخط.
 
@@ -40,12 +42,12 @@ Assert.AreEqual(1, folderFontSource.Priority);
 ### أنظر أيضا
 
 * class [FolderFontSource](../)
-* مساحة الاسم [Aspose.Words.Fonts](../../folderfontsource/)
+* مساحة الاسم [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## FolderFontSource(string, bool, int) {#constructor_1}
+## FolderFontSource(*string, bool, int*) {#constructor_1}
 
 الممثل.
 
@@ -59,7 +61,7 @@ public FolderFontSource(string folderPath, bool scanSubfolders, int priority)
 | scanSubfolders | Boolean | يحدد ما إذا كان سيتم فحص المجلدات الفرعية أم لا. |
 | priority | Int32 | أولوية مصدر الخط. انظر[`Priority`](../../fontsourcebase/priority/) وصف العقار لمزيد من المعلومات. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام مجلد النظام المحلي الذي يحتوي على الخطوط كمصدر للخط.
 
@@ -80,7 +82,5 @@ Assert.AreEqual(1, folderFontSource.Priority);
 ### أنظر أيضا
 
 * class [FolderFontSource](../)
-* مساحة الاسم [Aspose.Words.Fonts](../../folderfontsource/)
+* مساحة الاسم [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * المجسم [Aspose.Words](../../../)
-
-

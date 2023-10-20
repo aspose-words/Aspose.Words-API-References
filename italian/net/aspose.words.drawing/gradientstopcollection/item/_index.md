@@ -1,7 +1,9 @@
 ---
 title: GradientStopCollection.Item
-second_title: Aspose.Words per .NET API Reference
-description: GradientStopCollection proprietà. Ottiene o imposta aGradientStop oggetto nella raccolta.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words per .NET
+description: GradientStopCollection Item proprietà. Ottiene o imposta aGradientStop oggetto nella raccolta in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words.drawing/gradientstopcollection/item/
@@ -14,7 +16,7 @@ Ottiene o imposta a[`GradientStop`](../../gradientstop/) oggetto nella raccolta.
 public GradientStop this[int index] { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come aggiungere interruzioni sfumatura al riempimento sfumatura.
 
@@ -68,7 +70,5 @@ doc.Save(ArtifactsDir + "Shape.GradientStops.docx", saveOptions);
 
 * class [GradientStop](../../gradientstop/)
 * class [GradientStopCollection](../)
-* spazio dei nomi [Aspose.Words.Drawing](../../gradientstopcollection/)
+* spazio dei nomi [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assemblea [Aspose.Words](../../../)
-
-

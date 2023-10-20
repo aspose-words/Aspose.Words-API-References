@@ -1,7 +1,9 @@
 ---
 title: Document.VbaProject
-second_title: Aspose.Words für .NET-API-Referenz
-description: Document eigendom. Ruft a ab oder legt es festVbaProject .
+linktitle: VbaProject
+articleTitle: VbaProject
+second_title: Aspose.Words für .NET
+description: Document VbaProject eigendom. Ruft a ab oder legt es festVbaProject  in C#.
 type: docs
 weight: 450
 url: /de/net/aspose.words/document/vbaproject/
@@ -14,7 +16,7 @@ Ruft a ab oder legt es fest`VbaProject` .
 public VbaProject VbaProject { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie auf die VBA-Projektinformationen eines Dokuments zugegriffen wird.
 
@@ -46,7 +48,5 @@ vbaModules.Remove(vbaModules[2]);
 
 * class [VbaProject](../../../aspose.words.vba/vbaproject/)
 * class [Document](../)
-* namensraum [Aspose.Words](../../document/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ListLevel.TextPosition
-second_title: Справочник по API Aspose.Words для .NET
-description: ListLevel свойство. Возвращает или задает позицию в пунктах второй строки переносимого текста для уровня списка.
+linktitle: TextPosition
+articleTitle: TextPosition
+second_title: Aspose.Words для .NET
+description: ListLevel TextPosition свойство. Возвращает или задает позицию в пунктах второй строки переносимого текста для уровня списка на С#.
 type: docs
 weight: 130
 url: /ru/net/aspose.words.lists/listlevel/textposition/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.lists/listlevel/textposition/
 public double TextPosition { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 `TextPosition` соответствует LeftIndent абзаца.
 
-### Примеры
+## Примеры
 
 Показывает, как применить пользовательское форматирование списка к абзацам при использовании DocumentBuilder.
 
@@ -77,7 +79,5 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateCustomList.docx");
 ### Смотрите также
 
 * class [ListLevel](../)
-* пространство имен [Aspose.Words.Lists](../../listlevel/)
+* пространство имен [Aspose.Words.Lists](../../../aspose.words.lists/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTagRangeStart.PlaceholderName
-second_title: Referencia de API de Aspose.Words para .NET
-description: StructuredDocumentTagRangeStart propiedad. Obtiene o establece el nombre delBuildingBlock que contiene texto de marcador de posición.
+linktitle: PlaceholderName
+articleTitle: PlaceholderName
+second_title: Aspose.Words para .NET
+description: StructuredDocumentTagRangeStart PlaceholderName propiedad. Obtiene o establece el nombre delBuildingBlock que contiene texto de marcador de posición en C#.
 type: docs
 weight: 120
 url: /es/net/aspose.words.markup/structureddocumenttagrangestart/placeholdername/
@@ -16,7 +18,7 @@ Obtiene o establece el nombre del[`BuildingBlock`](../../../aspose.words.buildin
 public string PlaceholderName { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo obtener las propiedades de etiquetas de documentos estructurados de varias secciones.
 
@@ -51,7 +53,5 @@ Console.WriteLine($"\t|NodeType: {rangeEndTag.NodeType}");
 ### Ver también
 
 * class [StructuredDocumentTagRangeStart](../)
-* espacio de nombres [Aspose.Words.Markup](../../structureddocumenttagrangestart/)
+* espacio de nombres [Aspose.Words.Markup](../../../aspose.words.markup/)
 * asamblea [Aspose.Words](../../../)
-
-

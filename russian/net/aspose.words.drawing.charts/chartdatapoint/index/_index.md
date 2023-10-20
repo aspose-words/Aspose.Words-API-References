@@ -1,7 +1,9 @@
 ---
 title: ChartDataPoint.Index
-second_title: Справочник по API Aspose.Words для .NET
-description: ChartDataPoint свойство. Индекс точки данных к которой этот объект применяет форматирование.
+linktitle: Index
+articleTitle: Index
+second_title: Aspose.Words для .NET
+description: ChartDataPoint Index свойство. Индекс точки данных к которой этот объект применяет форматирование на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.drawing.charts/chartdatapoint/index/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.drawing.charts/chartdatapoint/index/
 public int Index { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как работать с точками данных на линейной диаграмме.
 
@@ -76,7 +78,5 @@ private static void ApplyDataPoints(ChartSeries series, int dataPointsCount, Mar
 ### Смотрите также
 
 * class [ChartDataPoint](../)
-* пространство имен [Aspose.Words.Drawing.Charts](../../chartdatapoint/)
+* пространство имен [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../../)
-
-

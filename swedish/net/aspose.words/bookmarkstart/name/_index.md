@@ -1,7 +1,9 @@
 ---
 title: BookmarkStart.Name
-second_title: Aspose.Words för .NET API Referens
-description: BookmarkStart fast egendom. Hämtar eller ställer in bokmärkets namn.
+linktitle: Name
+articleTitle: Name
+second_title: Aspose.Words för .NET
+description: BookmarkStart Name fast egendom. Hämtar eller ställer in bokmärkets namn i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words/bookmarkstart/name/
@@ -14,11 +16,11 @@ Hämtar eller ställer in bokmärkets namn.
 public string Name { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Kan inte vara`null`.
 
-### Exempel
+## Exempel
 
 Visar hur du lägger till bokmärken och uppdaterar deras innehåll.
 
@@ -107,7 +109,5 @@ public class BookmarkInfoPrinter : DocumentVisitor
 ### Se även
 
 * class [BookmarkStart](../)
-* namnutrymme [Aspose.Words](../../bookmarkstart/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

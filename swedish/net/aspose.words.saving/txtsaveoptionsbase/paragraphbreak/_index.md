@@ -1,7 +1,9 @@
 ---
 title: TxtSaveOptionsBase.ParagraphBreak
-second_title: Aspose.Words för .NET API Referens
-description: TxtSaveOptionsBase fast egendom. Anger strängen som ska användas som styckebrytning vid export i textformat.
+linktitle: ParagraphBreak
+articleTitle: ParagraphBreak
+second_title: Aspose.Words för .NET
+description: TxtSaveOptionsBase ParagraphBreak fast egendom. Anger strängen som ska användas som styckebrytning vid export i textformat i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.saving/txtsaveoptionsbase/paragraphbreak/
@@ -14,11 +16,11 @@ Anger strängen som ska användas som styckebrytning vid export i textformat.
 public string ParagraphBreak { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Standardvärdet är[`CrLf`](../../../aspose.words/controlchar/crlf/).
 
-### Exempel
+## Exempel
 
 Visar hur man sparar ett .txt-dokument med en anpassad styckebrytning.
 
@@ -51,7 +53,5 @@ Assert.AreEqual("Paragraph 1. End of paragraph.\n\n\t" +
 ### Se även
 
 * class [TxtSaveOptionsBase](../)
-* namnutrymme [Aspose.Words.Saving](../../txtsaveoptionsbase/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

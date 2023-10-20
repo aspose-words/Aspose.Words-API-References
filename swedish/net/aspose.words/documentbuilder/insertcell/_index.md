@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.InsertCell
-second_title: Aspose.Words för .NET API Referens
-description: DocumentBuilder metod. Infogar en tabellcell i dokumentet.
+linktitle: InsertCell
+articleTitle: InsertCell
+second_title: Aspose.Words för .NET
+description: DocumentBuilder InsertCell metod. Infogar en tabellcell i dokumentet i C#.
 type: docs
 weight: 270
 url: /sv/net/aspose.words/documentbuilder/insertcell/
@@ -18,7 +20,7 @@ public Cell InsertCell()
 
 Cellnoden som precis satts in.
 
-### Anmärkningar
+## Anmärkningar
 
 För att starta ett bord, ring bara`InsertCell` . Efter detta, allt innehåll du lägger till med hjälp av andra metoder för[`DocumentBuilder`](../) klass kommer att läggas till i den aktuella cellen.
 
@@ -28,7 +30,7 @@ För att avsluta ett tabellradssamtal[`EndRow`](../endrow/).
 
 Använd[`CellFormat`](../cellformat/)egenskap för att ange cellformatering.
 
-### Exempel
+## Exempel
 
 Visar hur man använder en dokumentbyggare för att skapa en tabell.
 
@@ -119,7 +121,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
 
 * class [Cell](../../../aspose.words.tables/cell/)
 * class [DocumentBuilder](../)
-* namnutrymme [Aspose.Words](../../documentbuilder/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

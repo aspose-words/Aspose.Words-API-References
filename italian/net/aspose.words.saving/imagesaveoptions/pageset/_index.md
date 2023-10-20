@@ -1,7 +1,9 @@
 ---
 title: ImageSaveOptions.PageSet
-second_title: Aspose.Words per .NET API Reference
-description: ImageSaveOptions proprietà. Ottiene o imposta le pagine da visualizzare. Limpostazione predefinita è tutte le pagine nel documento.
+linktitle: PageSet
+articleTitle: PageSet
+second_title: Aspose.Words per .NET
+description: ImageSaveOptions PageSet proprietà. Ottiene o imposta le pagine da visualizzare. Limpostazione predefinita è tutte le pagine nel documento in C#.
 type: docs
 weight: 100
 url: /it/net/aspose.words.saving/imagesaveoptions/pageset/
@@ -14,11 +16,11 @@ Ottiene o imposta le pagine da visualizzare. L'impostazione predefinita è tutte
 public PageSet PageSet { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Questa proprietà ha effetto solo durante il rendering delle pagine del documento. Questa proprietà viene ignorata durante il rendering delle forme nelle immagini.
 
-### Esempi
+## Esempi
 
 Mostra come estrarre le pagine in base a intervalli di pagine esatti.
 
@@ -122,7 +124,5 @@ doc.Save(ArtifactsDir + "ImageSaveOptions.OnePage.jpg", options);
 
 * class [PageSet](../../pageset/)
 * class [ImageSaveOptions](../)
-* spazio dei nomi [Aspose.Words.Saving](../../imagesaveoptions/)
+* spazio dei nomi [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../../)
-
-

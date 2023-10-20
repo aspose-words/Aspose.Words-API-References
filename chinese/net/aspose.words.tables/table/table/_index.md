@@ -1,7 +1,9 @@
 ---
-title: Table.Table
-second_title: Aspose.Words for .NET API 参考
-description: Table 构造函数. 初始化一个新实例Table类.
+title: Table
+linktitle: Table
+articleTitle: Table
+second_title: 用于 .NET 的 Aspose.Words
+description: Table 构造函数. 初始化一个新实例Table类 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.tables/table/table/
@@ -18,13 +20,13 @@ public Table(DocumentBase doc)
 | --- | --- | --- |
 | doc | DocumentBase | 所有者文件。 |
 
-### 评论
+## 评论
 
 什么时候[`Table`](../)创建后，它属于指定文档，但还不是 文档的一部分并且[`ParentNode`](../../../aspose.words/node/parentnode/)是`无效的`。
 
-追加[`Table`](../)到文档使用Node)或者Node) 位于您想要插入表格的故事上。
+追加[`Table`](../)到文档使用[`InsertAfter`](../../../aspose.words/compositenode/insertafter/)或者[`InsertBefore`](../../../aspose.words/compositenode/insertbefore/) 位于您想要插入表格的故事上。
 
-### 例子
+## 例子
 
 展示如何创建表。
 
@@ -108,7 +110,5 @@ private static Table CreateTable(Document doc, int rowCount, int cellCount, stri
 
 * class [DocumentBase](../../../aspose.words/documentbase/)
 * class [Table](../)
-* 命名空间 [Aspose.Words.Tables](../../table/)
+* 命名空间 [Aspose.Words.Tables](../../../aspose.words.tables/)
 * 部件 [Aspose.Words](../../../)
-
-

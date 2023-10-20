@@ -1,7 +1,9 @@
 ---
 title: FieldMergeBarcode.CaseCodeStyle
-second_title: Aspose.Words för .NET API Referens
-description: FieldMergeBarcode fast egendom. Hämtar eller ställer in stilen för en ärendekod för streckkodstyp ITF14. De giltiga värdena är STDEXTADD
+linktitle: CaseCodeStyle
+articleTitle: CaseCodeStyle
+second_title: Aspose.Words för .NET
+description: FieldMergeBarcode CaseCodeStyle fast egendom. Hämtar eller ställer in stilen för en ärendekod för streckkodstyp ITF14. De giltiga värdena är STDEXTADD i C#.
 type: docs
 weight: 60
 url: /sv/net/aspose.words.fields/fieldmergebarcode/casecodestyle/
@@ -14,7 +16,7 @@ Hämtar eller ställer in stilen för en ärendekod för streckkodstyp ITF14. De
 public string CaseCodeStyle { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man utför en brevkoppling på ITF14 streckkoder.
 
@@ -55,7 +57,5 @@ doc.Save(ArtifactsDir + "Field.MERGEBARCODE.ITF14.docx");
 ### Se även
 
 * class [FieldMergeBarcode](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldmergebarcode/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

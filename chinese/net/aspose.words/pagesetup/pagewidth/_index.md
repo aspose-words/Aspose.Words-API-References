@@ -1,7 +1,9 @@
 ---
 title: PageSetup.PageWidth
-second_title: Aspose.Words for .NET API 参考
-description: PageSetup 财产. 返回或设置页面的宽度以磅为单位
+linktitle: PageWidth
+articleTitle: PageWidth
+second_title: 用于 .NET 的 Aspose.Words
+description: PageSetup PageWidth 财产. 返回或设置页面的宽度以磅为单位 在 C#.
 type: docs
 weight: 340
 url: /zh/net/aspose.words/pagesetup/pagewidth/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/pagesetup/pagewidth/
 public double PageWidth { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何插入图像并将其用作水印。
 
@@ -99,7 +101,5 @@ doc.Save(ArtifactsDir + "Image.CreateFloatingPositionSize.docx");
 ### 也可以看看
 
 * class [PageSetup](../)
-* 命名空间 [Aspose.Words](../../pagesetup/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

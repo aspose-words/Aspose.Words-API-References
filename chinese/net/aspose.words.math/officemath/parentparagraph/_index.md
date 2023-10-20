@@ -1,7 +1,9 @@
 ---
 title: OfficeMath.ParentParagraph
-second_title: Aspose.Words for .NET API 参考
-description: OfficeMath 财产. 检索父级Paragraph此节点的.
+linktitle: ParentParagraph
+articleTitle: ParentParagraph
+second_title: 用于 .NET 的 Aspose.Words
+description: OfficeMath ParentParagraph 财产. 检索父级Paragraph此节点的 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words.math/officemath/parentparagraph/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.math/officemath/parentparagraph/
 public Paragraph ParentParagraph { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何设置 Office 数学显示格式。
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "Shape.OfficeMath.docx");
 
 * class [Paragraph](../../../aspose.words/paragraph/)
 * class [OfficeMath](../)
-* 命名空间 [Aspose.Words.Math](../../officemath/)
+* 命名空间 [Aspose.Words.Math](../../../aspose.words.math/)
 * 部件 [Aspose.Words](../../../)
-
-

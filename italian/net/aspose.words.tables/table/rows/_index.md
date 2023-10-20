@@ -1,7 +1,9 @@
 ---
 title: Table.Rows
-second_title: Aspose.Words per .NET API Reference
-description: Table proprietà. Fornisce laccesso digitato alle righe della tabella.
+linktitle: Rows
+articleTitle: Rows
+second_title: Aspose.Words per .NET
+description: Table Rows proprietà. Fornisce laccesso digitato alle righe della tabella in C#.
 type: docs
 weight: 260
 url: /it/net/aspose.words.tables/table/rows/
@@ -14,7 +16,7 @@ Fornisce l'accesso digitato alle righe della tabella.
 public RowCollection Rows { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come combinare le righe di due tabelle in una.
 
@@ -83,7 +85,5 @@ for (int i = 0; i < tables.Count; i++)
 
 * class [RowCollection](../../rowcollection/)
 * class [Table](../)
-* spazio dei nomi [Aspose.Words.Tables](../../table/)
+* spazio dei nomi [Aspose.Words.Tables](../../../aspose.words.tables/)
 * assemblea [Aspose.Words](../../../)
-
-

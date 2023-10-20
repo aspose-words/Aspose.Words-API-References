@@ -1,9 +1,11 @@
 ---
 title: Fill.Solid
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Fill méthode. Définit le remplissage sur une couleur uniforme.
+linktitle: Solid
+articleTitle: Solid
+second_title: Aspose.Words pour .NET
+description: Fill Solid méthode. Définit le remplissage sur une couleur uniforme en C#.
 type: docs
-weight: 260
+weight: 250
 url: /fr/net/aspose.words.drawing/fill/solid/
 ---
 ## Solid() {#solid}
@@ -14,19 +16,19 @@ Définit le remplissage sur une couleur uniforme.
 public void Solid()
 ```
 
-### Remarques
+## Remarques
 
 Utilisez cette méthode pour reconvertir n'importe quel remplissage en remplissage solide.
 
 ### Voir également
 
 * class [Fill](../)
-* espace de noms [Aspose.Words.Drawing](../../fill/)
+* espace de noms [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Assemblée [Aspose.Words](../../../)
 
 ---
 
-## Solid(Color) {#solid_1}
+## Solid(*Color*) {#solid_1}
 
 Définit le remplissage sur une couleur uniforme spécifiée.
 
@@ -34,11 +36,11 @@ Définit le remplissage sur une couleur uniforme spécifiée.
 public void Solid(Color color)
 ```
 
-### Remarques
+## Remarques
 
 Utilisez cette méthode pour reconvertir n'importe quel remplissage en remplissage solide.
 
-### Exemples
+## Exemples
 
 Montre comment reconvertir n’importe quel remplissage en remplissage solide.
 
@@ -66,7 +68,5 @@ doc.Save(ArtifactsDir + "Drawing.FillSolid.docx");
 ### Voir également
 
 * class [Fill](../)
-* espace de noms [Aspose.Words.Drawing](../../fill/)
+* espace de noms [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Assemblée [Aspose.Words](../../../)
-
-

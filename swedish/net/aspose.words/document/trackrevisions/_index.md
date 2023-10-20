@@ -1,7 +1,9 @@
 ---
 title: Document.TrackRevisions
-second_title: Aspose.Words för .NET API Referens
-description: Document fast egendom. Sant om ändringar spåras när detta dokument redigeras i Microsoft Word.
+linktitle: TrackRevisions
+articleTitle: TrackRevisions
+second_title: Aspose.Words för .NET
+description: Document TrackRevisions fast egendom. Sant om ändringar spåras när detta dokument redigeras i Microsoft Word i C#.
 type: docs
 weight: 430
 url: /sv/net/aspose.words/document/trackrevisions/
@@ -14,13 +16,13 @@ Sant om ändringar spåras när detta dokument redigeras i Microsoft Word.
 public bool TrackRevisions { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Om du ställer in det här alternativet instrueras endast Microsoft Word om spårändringar är på eller av. Denna egenskap har ingen effekt på ändringar av dokumentet som du gör programmatiskt via Aspose.Words.
 
 Om du vill spåra ändringar automatiskt eftersom de görs programmatiskt av Aspose.Words till detta dokument, använd[`StartTrackRevisions`](../starttrackrevisions/) metod.
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med revisioner i ett dokument.
 
@@ -103,7 +105,5 @@ Assert.AreEqual("This is revision #1. \rThis is revision #2.", doc.GetText().Tri
 ### Se även
 
 * class [Document](../)
-* namnutrymme [Aspose.Words](../../document/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

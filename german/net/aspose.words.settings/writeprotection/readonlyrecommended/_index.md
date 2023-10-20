@@ -1,7 +1,9 @@
 ---
 title: WriteProtection.ReadOnlyRecommended
-second_title: Aspose.Words für .NET-API-Referenz
-description: WriteProtection eigendom. Gibt an ob der Dokumentautor empfohlen hat das Dokument schreibgeschützt zu öffnen.
+linktitle: ReadOnlyRecommended
+articleTitle: ReadOnlyRecommended
+second_title: Aspose.Words für .NET
+description: WriteProtection ReadOnlyRecommended eigendom. Gibt an ob der Dokumentautor empfohlen hat das Dokument schreibgeschützt zu öffnen in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.settings/writeprotection/readonlyrecommended/
@@ -14,7 +16,7 @@ Gibt an, ob der Dokumentautor empfohlen hat, das Dokument schreibgeschützt zu �
 public bool ReadOnlyRecommended { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man ein Dokument mit einem Passwort schützt.
 
@@ -46,7 +48,5 @@ Assert.AreEqual("Hello world! This document is protected." +
 ### Siehe auch
 
 * class [WriteProtection](../)
-* namensraum [Aspose.Words.Settings](../../writeprotection/)
+* namensraum [Aspose.Words.Settings](../../../aspose.words.settings/)
 * Montage [Aspose.Words](../../../)
-
-

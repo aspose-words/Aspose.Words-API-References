@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTag.Tag
-second_title: Aspose.Words för .NET API Referens
-description: StructuredDocumentTag fast egendom. Anger en tagg som är associerad med den aktuella SDTnoden. Kan inte varanull .
+linktitle: Tag
+articleTitle: Tag
+second_title: Aspose.Words för .NET
+description: StructuredDocumentTag Tag fast egendom. Anger en tagg som är associerad med den aktuella SDTnoden. Kan inte varanull  i C#.
 type: docs
 weight: 280
 url: /sv/net/aspose.words.markup/structureddocumenttag/tag/
@@ -14,11 +16,11 @@ Anger en tagg som är associerad med den aktuella SDT-noden. Kan inte vara`null`
 public string Tag { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 En tagg är en godtycklig sträng som applikationer kan associera med SDT för att identifiera den utan att ge ett synligt vänligt namn.
 
-### Exempel
+## Exempel
 
 Visar hur man skapar en strukturerad dokumenttagg i en vanlig textruta och ändrar dess utseende.
 
@@ -75,7 +77,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.PlainText.docx");
 ### Se även
 
 * class [StructuredDocumentTag](../)
-* namnutrymme [Aspose.Words.Markup](../../structureddocumenttag/)
+* namnutrymme [Aspose.Words.Markup](../../../aspose.words.markup/)
 * hopsättning [Aspose.Words](../../../)
-
-

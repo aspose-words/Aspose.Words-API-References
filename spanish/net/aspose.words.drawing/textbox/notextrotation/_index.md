@@ -1,7 +1,9 @@
 ---
 title: TextBox.NoTextRotation
-second_title: Referencia de API de Aspose.Words para .NET
-description: TextBox propiedad. Obtiene o establece un valor booleano que indica que el texto del cuadro de texto no debe girar cuando se gira la forma.
+linktitle: NoTextRotation
+articleTitle: NoTextRotation
+second_title: Aspose.Words para .NET
+description: TextBox NoTextRotation propiedad. Obtiene o establece un valor booleano que indica que el texto del cuadro de texto no debe girar cuando se gira la forma en C#.
 type: docs
 weight: 80
 url: /es/net/aspose.words.drawing/textbox/notextrotation/
@@ -14,11 +16,11 @@ Obtiene o establece un valor booleano que indica que el texto del cuadro de text
 public bool NoTextRotation { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 El valor predeterminado es`FALSO`
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo deshabilitar la rotación del texto cuando se gira la forma.
 
@@ -35,7 +37,5 @@ doc.Save(ArtifactsDir + "Shape.NoTextRotation.docx");
 ### Ver también
 
 * class [TextBox](../)
-* espacio de nombres [Aspose.Words.Drawing](../../textbox/)
+* espacio de nombres [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * asamblea [Aspose.Words](../../../)
-
-

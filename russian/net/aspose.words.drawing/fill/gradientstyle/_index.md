@@ -1,9 +1,11 @@
 ---
 title: Fill.GradientStyle
-second_title: Справочник по API Aspose.Words для .NET
-description: Fill свойство. Получает стиль градиента.GradientStyle для заливки.
+linktitle: GradientStyle
+articleTitle: GradientStyle
+second_title: Aspose.Words для .NET
+description: Fill GradientStyle свойство. Получает стиль градиента.GradientStyle для заливки на С#.
 type: docs
-weight: 120
+weight: 110
 url: /ru/net/aspose.words.drawing/fill/gradientstyle/
 ---
 ## Fill.GradientStyle property
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.drawing/fill/gradientstyle/
 public GradientStyle GradientStyle { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как заполнить фигуру градиентами.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "Shape.GradientFill.docx", saveOptions);
 
 * enum [GradientStyle](../../gradientstyle/)
 * class [Fill](../)
-* пространство имен [Aspose.Words.Drawing](../../fill/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

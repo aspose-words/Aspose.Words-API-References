@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.ExportLanguageToSpanTag
-second_title: Referencia de API de Aspose.Words para .NET
-description: PdfSaveOptions propiedad. Obtiene o establece un valor que determina si se crea o no una etiqueta Span en la estructura del documento para exportar el idioma del texto.
+linktitle: ExportLanguageToSpanTag
+articleTitle: ExportLanguageToSpanTag
+second_title: Aspose.Words para .NET
+description: PdfSaveOptions ExportLanguageToSpanTag propiedad. Obtiene o establece un valor que determina si se crea o no una etiqueta Span en la estructura del documento para exportar el idioma del texto en C#.
 type: docs
 weight: 150
 url: /es/net/aspose.words.saving/pdfsaveoptions/exportlanguagetospantag/
@@ -14,7 +16,7 @@ Obtiene o establece un valor que determina si se crea o no una etiqueta "Span" e
 public bool ExportLanguageToSpanTag { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 El valor predeterminado es`FALSO` el atributo "Idioma" se adjunta a una secuencia de contenido marcado en un flujo de contenido de página.
 
@@ -22,7 +24,7 @@ Cuando el valor es`verdadero` Se crea la etiqueta "Span" para el texto con un id
 
 Este valor se ignora cuando[`ExportDocumentStructure`](../exportdocumentstructure/) es`FALSO` .
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear una etiqueta "Span" en la estructura del documento para exportar el idioma del texto.
 
@@ -45,7 +47,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.ExportLanguageToSpanTag.pdf", saveOption
 ### Ver también
 
 * class [PdfSaveOptions](../)
-* espacio de nombres [Aspose.Words.Saving](../../pdfsaveoptions/)
+* espacio de nombres [Aspose.Words.Saving](../../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../../)
-
-

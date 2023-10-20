@@ -1,7 +1,9 @@
 ---
 title: ControlChar.LineFeedChar
-second_title: Aspose.Words für .NET-API-Referenz
-description: ControlChar veld. Zeilenvorschubzeichen char10 oder n.
+linktitle: LineFeedChar
+articleTitle: LineFeedChar
+second_title: Aspose.Words für .NET
+description: ControlChar LineFeedChar veld. Zeilenvorschubzeichen char10 oder n in C#.
 type: docs
 weight: 150
 url: /de/net/aspose.words/controlchar/linefeedchar/
@@ -14,7 +16,7 @@ Zeilenvorschubzeichen: (char)10 oder „\n“.
 public const char LineFeedChar;
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man einem Dokument verschiedene Steuerzeichen hinzufügt.
 
@@ -86,7 +88,5 @@ Assert.AreEqual(Convert.ToChar(ControlChar.ColumnBreak), ControlChar.ColumnBreak
 ### Siehe auch
 
 * class [ControlChar](../)
-* namensraum [Aspose.Words](../../controlchar/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

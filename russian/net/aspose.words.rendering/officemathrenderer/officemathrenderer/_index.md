@@ -1,7 +1,9 @@
 ---
-title: OfficeMathRenderer.OfficeMathRenderer
-second_title: Справочник по API Aspose.Words для .NET
-description: OfficeMathRenderer строитель. Инициализирует новый экземпляр этого класса.
+title: OfficeMathRenderer
+linktitle: OfficeMathRenderer
+articleTitle: OfficeMathRenderer
+second_title: Aspose.Words для .NET
+description: OfficeMathRenderer строитель. Инициализирует новый экземпляр этого класса на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.rendering/officemathrenderer/officemathrenderer/
@@ -18,7 +20,7 @@ public OfficeMathRenderer(OfficeMath math)
 | --- | --- | --- |
 | math | OfficeMath | [`OfficeMath`](../../../aspose.words.math/officemath/) объект, который вы хотите визуализировать. |
 
-### Примеры
+## Примеры
 
 Показывает, как измерять и масштабировать фигуры.
 
@@ -66,7 +68,5 @@ Assert.AreEqual(30, bounds.Height);
 
 * class [OfficeMath](../../../aspose.words.math/officemath/)
 * class [OfficeMathRenderer](../)
-* пространство имен [Aspose.Words.Rendering](../../officemathrenderer/)
+* пространство имен [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * сборка [Aspose.Words](../../../)
-
-

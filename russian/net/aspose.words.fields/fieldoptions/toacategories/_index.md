@@ -1,7 +1,9 @@
 ---
 title: FieldOptions.ToaCategories
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldOptions свойство. Получает или задает таблицу категорий полномочий.
+linktitle: ToaCategories
+articleTitle: ToaCategories
+second_title: Aspose.Words для .NET
+description: FieldOptions ToaCategories свойство. Получает или задает таблицу категорий полномочий на С#.
 type: docs
 weight: 200
 url: /ru/net/aspose.words.fields/fieldoptions/toacategories/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldoptions/toacategories/
 public ToaCategories ToaCategories { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как указать набор категорий для полей TOA.
 
@@ -63,7 +65,5 @@ doc.Save(ArtifactsDir + "FieldOptions.TOA.Categories.docx");
 
 * class [ToaCategories](../../toacategories/)
 * class [FieldOptions](../)
-* пространство имен [Aspose.Words.Fields](../../fieldoptions/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

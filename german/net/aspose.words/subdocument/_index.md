@@ -1,14 +1,16 @@
 ---
-title: Class SubDocument
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.SubDocument klas. Stellt a dar Unterdokument  was ein Verweis auf ein extern gespeichertes Dokument ist.
+title: SubDocument Class
+linktitle: SubDocument
+articleTitle: SubDocument
+second_title: Aspose.Words für .NET
+description: Aspose.Words.SubDocument klas. Stellt a darUnterdokument  was ein Verweis auf ein extern gespeichertes Dokument ist in C#.
 type: docs
 weight: 6170
 url: /de/net/aspose.words/subdocument/
 ---
 ## SubDocument class
 
-Stellt a dar **Unterdokument** - was ein Verweis auf ein extern gespeichertes Dokument ist.
+Stellt a dar**Unterdokument** - was ein Verweis auf ein extern gespeichertes Dokument ist.
 
 Um mehr zu erfahren, besuchen Sie die[Aspose.Words Document Object Model (DOM)](https://docs.aspose.com/words/net/aspose-words-document-object-model/) Dokumentationsartikel.
 
@@ -33,24 +35,24 @@ public class SubDocument : Node
 
 | Name | Beschreibung |
 | --- | --- |
-| override [Accept](../../aspose.words/subdocument/accept/)(DocumentVisitor) | Akzeptiert einen Besucher. |
-| [Clone](../../aspose.words/node/clone/)(bool) | Erstellt ein Duplikat des Knotens. |
-| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Ruft den ersten Vorfahren des angegebenen ab[`NodeType`](../nodetype/) . |
-| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Ruft den ersten Vorfahren des angegebenen Objekttyps ab. |
+| override [Accept](../../aspose.words/subdocument/accept/)(*[DocumentVisitor](../documentvisitor/)*) | Akzeptiert einen Besucher. |
+| [Clone](../../aspose.words/node/clone/)(*bool*) | Erstellt ein Duplikat des Knotens. |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*[NodeType](../nodetype/)*) | Ruft den ersten Vorfahren des angegebenen ab[`NodeType`](../nodetype/) . |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | Ruft den ersten Vorfahren des angegebenen Objekttyps ab. |
 | virtual [GetText](../../aspose.words/node/gettext/)() | Ruft den Text dieses Knotens und aller seiner untergeordneten Knoten ab. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Ruft den nächsten Knoten gemäß dem Pre-Order-Tree-Traversal-Algorithmus ab. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Ruft den vorherigen Knoten gemäß dem Pre-Order-Tree-Traversal-Algorithmus ab. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../node/)*) | Ruft den nächsten Knoten gemäß dem Pre-Order-Tree-Traversal-Algorithmus ab. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../node/)*) | Ruft den vorherigen Knoten gemäß dem Pre-Order-Tree-Traversal-Algorithmus ab. |
 | [Remove](../../aspose.words/node/remove/)() | Entfernt sich selbst vom übergeordneten Element. |
-| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Exportiert den Inhalt des Knotens in einen String im angegebenen Format. |
-| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | Exportiert den Inhalt des Knotens mit den angegebenen Speicheroptionen in einen String. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../saveformat/)*) | Exportiert den Inhalt des Knotens in einen String im angegebenen Format. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | Exportiert den Inhalt des Knotens mit den angegebenen Speicheroptionen in einen String. |
 
-### Bemerkungen
+## Bemerkungen
 
 In dieser Version von Aspose.Words,`SubDocument` Knoten stellen keine öffentlichen Methoden und Eigenschaften zum Erstellen oder Ändern eines Unterdokuments bereit. In dieser Version können Sie nicht instanziieren.`SubDocument` Knoten ändern oder bestehende ändern, außer sie zu löschen.
 
 `SubDocument` kann nur ein Kind von sein[`Paragraph`](../paragraph/).
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie auf das Unterdokument eines Masterdokuments zugegriffen wird.
 
@@ -69,5 +71,3 @@ Assert.False(subDocument.IsComposite);
 * class [Node](../node/)
 * namensraum [Aspose.Words](../../aspose.words/)
 * Montage [Aspose.Words](../../)
-
-

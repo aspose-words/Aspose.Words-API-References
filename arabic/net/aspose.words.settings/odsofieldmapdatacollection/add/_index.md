@@ -1,7 +1,9 @@
 ---
 title: OdsoFieldMapDataCollection.Add
-second_title: Aspose.Words لمراجع .NET API
-description: OdsoFieldMapDataCollection طريقة. إضافة كائن إلى نهاية هذه المجموعة.
+linktitle: Add
+articleTitle: Add
+second_title: Aspose.Words لـ .NET
+description: OdsoFieldMapDataCollection Add طريقة. إضافة كائن إلى نهاية هذه المجموعة في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.settings/odsofieldmapdatacollection/add/
@@ -18,7 +20,7 @@ public int Add(OdsoFieldMapData value)
 | --- | --- | --- |
 | value | OdsoFieldMapData | الكائن المراد إضافته. لا يمكن`باطل`. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الوصول إلى مجموعة البيانات التي تقوم بتعيين أعمدة مصدر البيانات لدمج الحقول.
 
@@ -62,7 +64,5 @@ Assert.AreEqual(0, dataCollection.Count);
 
 * class [OdsoFieldMapData](../../odsofieldmapdata/)
 * class [OdsoFieldMapDataCollection](../)
-* مساحة الاسم [Aspose.Words.Settings](../../odsofieldmapdatacollection/)
+* مساحة الاسم [Aspose.Words.Settings](../../../aspose.words.settings/)
 * المجسم [Aspose.Words](../../../)
-
-

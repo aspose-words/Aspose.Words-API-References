@@ -1,7 +1,9 @@
 ---
 title: Font.LocaleIdBi
-second_title: Aspose.Words for .NET API 参考
-description: Font 财产. 获取或设置格式化的从右到左字符的区域设置标识符语言
+linktitle: LocaleIdBi
+articleTitle: LocaleIdBi
+second_title: 用于 .NET 的 Aspose.Words
+description: Font LocaleIdBi 财产. 获取或设置格式化的从右到左字符的区域设置标识符语言 在 C#.
 type: docs
 weight: 210
 url: /zh/net/aspose.words/font/localeidbi/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words/font/localeidbi/
 public int LocaleIdBi { get; set; }
 ```
 
-### 评论
+## 评论
 
 有关区域设置标识符的列表，请参阅 https://msdn.microsoft.com/en-us/library/cc233965.aspx
 
-### 例子
+## 例子
 
 演示如何为从右到左和从右到左的文本定义单独的字体设置集。
 
@@ -57,7 +59,5 @@ doc.Save(ArtifactsDir + "Font.Bidi.docx");
 ### 也可以看看
 
 * class [Font](../)
-* 命名空间 [Aspose.Words](../../font/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

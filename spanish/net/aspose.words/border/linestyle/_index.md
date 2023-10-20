@@ -1,7 +1,9 @@
 ---
 title: Border.LineStyle
-second_title: Referencia de API de Aspose.Words para .NET
-description: Border propiedad. Obtiene o establece el estilo del borde.
+linktitle: LineStyle
+articleTitle: LineStyle
+second_title: Aspose.Words para .NET
+description: Border LineStyle propiedad. Obtiene o establece el estilo del borde en C#.
 type: docs
 weight: 40
 url: /es/net/aspose.words/border/linestyle/
@@ -14,11 +16,11 @@ Obtiene o establece el estilo del borde.
 public LineStyle LineStyle { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 Si establece el estilo de línea en ninguno, el ancho de línea cambia automáticamente a cero.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo insertar una cadena rodeada por un borde en un documento.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "Border.FontBorder.docx");
 
 * enum [LineStyle](../../linestyle/)
 * class [Border](../)
-* espacio de nombres [Aspose.Words](../../border/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

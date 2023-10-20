@@ -1,7 +1,9 @@
 ---
 title: ReportingEngine.Options
-second_title: Справочник по API Aspose.Words для .NET
-description: ReportingEngine свойство. Получает или устанавливает набор флагов управляющих поведением этогоReportingEngine экземпляр при построении отчета.
+linktitle: Options
+articleTitle: Options
+second_title: Aspose.Words для .NET
+description: ReportingEngine Options свойство. Получает или устанавливает набор флагов управляющих поведением этогоReportingEngine экземпляр при построении отчета на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.reporting/reportingengine/options/
@@ -18,7 +20,5 @@ public ReportBuildOptions Options { get; set; }
 
 * enum [ReportBuildOptions](../../reportbuildoptions/)
 * class [ReportingEngine](../)
-* пространство имен [Aspose.Words.Reporting](../../reportingengine/)
+* пространство имен [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * сборка [Aspose.Words](../../../)
-
-

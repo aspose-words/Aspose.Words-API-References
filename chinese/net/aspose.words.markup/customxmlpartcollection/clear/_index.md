@@ -1,7 +1,9 @@
 ---
 title: CustomXmlPartCollection.Clear
-second_title: Aspose.Words for .NET API 参考
-description: CustomXmlPartCollection 方法. 从集合中删除所有元素
+linktitle: Clear
+articleTitle: Clear
+second_title: 用于 .NET 的 Aspose.Words
+description: CustomXmlPartCollection Clear 方法. 从集合中删除所有元素 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words.markup/customxmlpartcollection/clear/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.markup/customxmlpartcollection/clear/
 public void Clear()
 ```
 
-### 例子
+## 例子
 
 演示如何使用自定义 XML 数据创建结构化文档标签。
 
@@ -81,7 +83,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.CustomXml.docx");
 ### 也可以看看
 
 * class [CustomXmlPartCollection](../)
-* 命名空间 [Aspose.Words.Markup](../../customxmlpartcollection/)
+* 命名空间 [Aspose.Words.Markup](../../../aspose.words.markup/)
 * 部件 [Aspose.Words](../../../)
-
-

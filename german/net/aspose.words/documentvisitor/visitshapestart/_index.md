@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitShapeStart
-second_title: Aspose.Words für .NET-API-Referenz
-description: DocumentVisitor methode. Wird aufgerufen wenn die Aufzählung einer Form begonnen hat.
+linktitle: VisitShapeStart
+articleTitle: VisitShapeStart
+second_title: Aspose.Words für .NET
+description: DocumentVisitor VisitShapeStart methode. Wird aufgerufen wenn die Aufzählung einer Form begonnen hat in C#.
 type: docs
 weight: 400
 url: /de/net/aspose.words/documentvisitor/visitshapestart/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitShapeStart(Shape shape)
 
 A[`VisitorAction`](../../visitoraction/) Wert, der angibt, wie die Enumeration fortgesetzt werden soll.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie eine Gruppe von Formen erstellt und deren Inhalt mithilfe eines Dokumentbesuchers gedruckt wird.
 
@@ -306,7 +308,5 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [Shape](../../../aspose.words.drawing/shape/)
 * class [DocumentVisitor](../)
-* namensraum [Aspose.Words](../../documentvisitor/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

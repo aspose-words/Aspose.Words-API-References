@@ -1,7 +1,9 @@
 ---
 title: TextWatermarkOptions.IsSemitrasparent
-second_title: Référence de l'API Aspose.Words pour .NET
-description: TextWatermarkOptions propriété. Obtient ou définit une valeur booléenne responsable de lopacité du filigrane. La valeur par défaut estvrai .
+linktitle: IsSemitrasparent
+articleTitle: IsSemitrasparent
+second_title: Aspose.Words pour .NET
+description: TextWatermarkOptions IsSemitrasparent propriété. Obtient ou définit une valeur booléenne responsable de lopacité du filigrane. La valeur par défaut estvrai  en C#.
 type: docs
 weight: 50
 url: /fr/net/aspose.words/textwatermarkoptions/issemitrasparent/
@@ -14,7 +16,7 @@ Obtient ou définit une valeur booléenne responsable de l'opacité du filigrane
 public bool IsSemitrasparent { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment créer un filigrane de texte.
 
@@ -45,7 +47,5 @@ if (doc.Watermark.Type == WatermarkType.Text)
 ### Voir également
 
 * class [TextWatermarkOptions](../)
-* espace de noms [Aspose.Words](../../textwatermarkoptions/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ImageData.GrayScale
-second_title: Aspose.Words för .NET API Referens
-description: ImageData fast egendom. Bestämmer om en bild ska visas i gråskaleläge.
+linktitle: GrayScale
+articleTitle: GrayScale
+second_title: Aspose.Words för .NET
+description: ImageData GrayScale fast egendom. Bestämmer om en bild ska visas i gråskaleläge i C#.
 type: docs
 weight: 100
 url: /sv/net/aspose.words.drawing/imagedata/grayscale/
@@ -14,11 +16,11 @@ Bestämmer om en bild ska visas i gråskaleläge.
 public bool GrayScale { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Standardvärdet är`falsk`.
 
-### Exempel
+## Exempel
 
 Visar hur man redigerar en forms bilddata.
 
@@ -81,7 +83,5 @@ dstDoc.Save(ArtifactsDir + "Drawing.ImageData.docx");
 ### Se även
 
 * class [ImageData](../)
-* namnutrymme [Aspose.Words.Drawing](../../imagedata/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

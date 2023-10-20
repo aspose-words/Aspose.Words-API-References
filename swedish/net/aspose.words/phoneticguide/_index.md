@@ -1,7 +1,9 @@
 ---
-title: Class PhoneticGuide
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.PhoneticGuide klass. representerar fonetisk guide.
+title: PhoneticGuide Class
+linktitle: PhoneticGuide
+articleTitle: PhoneticGuide
+second_title: Aspose.Words för .NET
+description: Aspose.Words.PhoneticGuide klass. representerar fonetisk guide i C#.
 type: docs
 weight: 4430
 url: /sv/net/aspose.words/phoneticguide/
@@ -25,5 +27,3 @@ public class PhoneticGuide
 
 * namnutrymme [Aspose.Words](../../aspose.words/)
 * hopsättning [Aspose.Words](../../)
-
-

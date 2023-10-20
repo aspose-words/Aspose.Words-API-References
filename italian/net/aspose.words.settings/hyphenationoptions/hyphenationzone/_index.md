@@ -1,7 +1,9 @@
 ---
 title: HyphenationOptions.HyphenationZone
-second_title: Aspose.Words per .NET API Reference
-description: HyphenationOptions proprietà. Ottiene o imposta la distanza in 1/20 di punto dal margine destro entro il quale non si desidera sillabare le parole. Il valore predefinito per questa proprietà è 360 025 pollici.
+linktitle: HyphenationZone
+articleTitle: HyphenationZone
+second_title: Aspose.Words per .NET
+description: HyphenationOptions HyphenationZone proprietà. Ottiene o imposta la distanza in 1/20 di punto dal margine destro entro il quale non si desidera sillabare le parole. Il valore predefinito per questa proprietà è 360 025 pollici in C#.
 type: docs
 weight: 50
 url: /it/net/aspose.words.settings/hyphenationoptions/hyphenationzone/
@@ -14,7 +16,7 @@ Ottiene o imposta la distanza in 1/20 di punto dal margine destro entro il quale
 public int HyphenationZone { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come configurare la sillabazione automatica.
 
@@ -37,7 +39,5 @@ doc.Save(ArtifactsDir + "Document.HyphenationOptions.docx");
 ### Guarda anche
 
 * class [HyphenationOptions](../)
-* spazio dei nomi [Aspose.Words.Settings](../../hyphenationoptions/)
+* spazio dei nomi [Aspose.Words.Settings](../../../aspose.words.settings/)
 * assemblea [Aspose.Words](../../../)
-
-

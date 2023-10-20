@@ -1,7 +1,9 @@
 ---
 title: ListLevel.TrailingCharacter
-second_title: Aspose.Words för .NET API Referens
-description: ListLevel fast egendom. Returnerar eller ställer in tecknet som infogats efter numret för listnivån.
+linktitle: TrailingCharacter
+articleTitle: TrailingCharacter
+second_title: Aspose.Words för .NET
+description: ListLevel TrailingCharacter fast egendom. Returnerar eller ställer in tecknet som infogats efter numret för listnivån i C#.
 type: docs
 weight: 140
 url: /sv/net/aspose.words.lists/listlevel/trailingcharacter/
@@ -14,7 +16,7 @@ Returnerar eller ställer in tecknet som infogats efter numret för listnivån.
 public ListTrailingCharacter TrailingCharacter { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du använder anpassad listformatering på stycken när du använder DocumentBuilder.
 
@@ -74,7 +76,5 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateCustomList.docx");
 
 * enum [ListTrailingCharacter](../../listtrailingcharacter/)
 * class [ListLevel](../)
-* namnutrymme [Aspose.Words.Lists](../../listlevel/)
+* namnutrymme [Aspose.Words.Lists](../../../aspose.words.lists/)
 * hopsättning [Aspose.Words](../../../)
-
-

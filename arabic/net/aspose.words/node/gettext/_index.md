@@ -1,7 +1,9 @@
 ---
 title: Node.GetText
-second_title: Aspose.Words لمراجع .NET API
-description: Node طريقة. الحصول على نص هذه العقدة وجميع أبنائها.
+linktitle: GetText
+articleTitle: GetText
+second_title: Aspose.Words لـ .NET
+description: Node GetText طريقة. الحصول على نص هذه العقدة وجميع أبنائها في C#.
 type: docs
 weight: 120
 url: /ar/net/aspose.words/node/gettext/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words/node/gettext/
 public virtual string GetText()
 ```
 
-### ملاحظات
+## ملاحظات
 
 تتضمن السلسلة التي تم إرجاعها جميع عناصر التحكم والأحرف الخاصة كما هو موضح في[`ControlChar`](../../controlchar/).
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام أحرف التحكم.
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "Section.CreateManually.docx");
 ### أنظر أيضا
 
 * class [Node](../)
-* مساحة الاسم [Aspose.Words](../../node/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

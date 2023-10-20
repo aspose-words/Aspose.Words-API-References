@@ -1,7 +1,9 @@
 ---
 title: OdsoRecipientDataCollection.Clear
-second_title: Aspose.Words for .NET API 参考
-description: OdsoRecipientDataCollection 方法. 从此集合中删除所有元素
+linktitle: Clear
+articleTitle: Clear
+second_title: 用于 .NET 的 Aspose.Words
+description: OdsoRecipientDataCollection Clear 方法. 从此集合中删除所有元素 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words.settings/odsorecipientdatacollection/clear/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.settings/odsorecipientdatacollection/clear/
 public void Clear()
 ```
 
-### 例子
+## 例子
 
 显示如何访问指定邮件合并将排除哪些合并数据源记录的数据集合。
 
@@ -54,7 +56,5 @@ Assert.AreEqual(0, dataCollection.Count);
 ### 也可以看看
 
 * class [OdsoRecipientDataCollection](../)
-* 命名空间 [Aspose.Words.Settings](../../odsorecipientdatacollection/)
+* 命名空间 [Aspose.Words.Settings](../../../aspose.words.settings/)
 * 部件 [Aspose.Words](../../../)
-
-

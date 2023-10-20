@@ -1,9 +1,11 @@
 ---
 title: DocumentBuilder.MoveToHeaderFooter
-second_title: Aspose.Words per .NET API Reference
-description: DocumentBuilder metodo. Sposta il cursore allinizio di unintestazione o piè di pagina nella sezione corrente.
+linktitle: MoveToHeaderFooter
+articleTitle: MoveToHeaderFooter
+second_title: Aspose.Words per .NET
+description: DocumentBuilder MoveToHeaderFooter metodo. Sposta il cursore allinizio di unintestazione o piè di pagina nella sezione corrente in C#.
 type: docs
-weight: 550
+weight: 540
 url: /it/net/aspose.words/documentbuilder/movetoheaderfooter/
 ---
 ## DocumentBuilder.MoveToHeaderFooter method
@@ -18,7 +20,7 @@ public void MoveToHeaderFooter(HeaderFooterType headerFooterType)
 | --- | --- | --- |
 | headerFooterType | HeaderFooterType | Specifica l'intestazione o il piè di pagina in cui spostarsi. |
 
-### Osservazioni
+## Osservazioni
 
 Dopo aver spostato il cursore nell'intestazione o nel piè di pagina, puoi utilizzare il resto del file[`DocumentBuilder`](../) Metodi per modificare il contenuto dell'intestazione o del piè di pagina.
 
@@ -28,7 +30,7 @@ Se desideri creare intestazioni e piè di pagina diversi per le pagine pari e di
 
 Utilizzo[`MoveToSection`](../movetosection/) per uscire dall'intestazione e passare al testo principale.
 
-### Esempi
+## Esempi
 
 Mostra come inserire un'immagine e utilizzarla come filigrana.
 
@@ -110,7 +112,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.HeadersAndFooters.docx");
 
 * enum [HeaderFooterType](../../headerfootertype/)
 * class [DocumentBuilder](../)
-* spazio dei nomi [Aspose.Words](../../documentbuilder/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

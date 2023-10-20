@@ -1,7 +1,9 @@
 ---
 title: ChartSeries.HasDataLabels
-second_title: Справочник по API Aspose.Words для .NET
-description: ChartSeries свойство. Получает или задает флаг указывающий отображаются ли метки данных для серии.
+linktitle: HasDataLabels
+articleTitle: HasDataLabels
+second_title: Aspose.Words для .NET
+description: ChartSeries HasDataLabels свойство. Получает или задает флаг указывающий отображаются ли метки данных для серии на С#.
 type: docs
 weight: 70
 url: /ru/net/aspose.words.drawing.charts/chartseries/hasdatalabels/
@@ -17,7 +19,5 @@ public bool HasDataLabels { get; set; }
 ### Смотрите также
 
 * class [ChartSeries](../)
-* пространство имен [Aspose.Words.Drawing.Charts](../../chartseries/)
+* пространство имен [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class HtmlFixedSaveOptions
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Saving.HtmlFixedSaveOptions klass. Kan användas för att ange ytterligare alternativ när du sparar ett dokument iHtmlFixed format.
+title: HtmlFixedSaveOptions Class
+linktitle: HtmlFixedSaveOptions
+articleTitle: HtmlFixedSaveOptions
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Saving.HtmlFixedSaveOptions klass. Kan användas för att ange ytterligare alternativ när du sparar ett dokument iHtmlFixed format i C#.
 type: docs
 weight: 5080
 url: /sv/net/aspose.words.saving/htmlfixedsaveoptions/
@@ -30,7 +32,7 @@ public class HtmlFixedSaveOptions : FixedPageSaveOptions
 | [ColorMode](../../aspose.words.saving/fixedpagesaveoptions/colormode/) { get; set; } | Hämtar eller ställer in ett värde som bestämmer hur färger återges. |
 | [CssClassNamesPrefix](../../aspose.words.saving/htmlfixedsaveoptions/cssclassnamesprefix/) { get; set; } | Anger prefix som läggs till i alla klassnamn i filen style.css. Standardvärdet är`"åh"` . |
 | [CustomTimeZoneInfo](../../aspose.words.saving/saveoptions/customtimezoneinfo/) { get; set; } | Hämtar eller ställer in anpassad lokal tidszon som används för datum-/tidsfält. |
-| [DefaultTemplate](../../aspose.words.saving/saveoptions/defaulttemplate/) { get; set; } | Hämtar eller ställer in sökvägen till standardmall (inklusive filnamn). Standardvärdet för den här egenskapen är **tom sträng** (Empty). |
+| [DefaultTemplate](../../aspose.words.saving/saveoptions/defaulttemplate/) { get; set; } | Hämtar eller ställer in sökvägen till standardmall (inklusive filnamn). Standardvärdet för den här egenskapen är**tom sträng** (Empty). |
 | [Dml3DEffectsRenderingMode](../../aspose.words.saving/saveoptions/dml3deffectsrenderingmode/) { get; set; } | Hämtar eller ställer in ett värde som bestämmer hur 3D-effekter renderas. |
 | virtual [DmlEffectsRenderingMode](../../aspose.words.saving/saveoptions/dmleffectsrenderingmode/) { get; set; } | Hämtar eller ställer in ett värde som bestämmer hur DrawingML-effekter renderas. |
 | [DmlRenderingMode](../../aspose.words.saving/saveoptions/dmlrenderingmode/) { get; set; } | Hämtar eller ställer in ett värde som bestämmer hur DrawingML-former renderas. |
@@ -73,9 +75,9 @@ public class HtmlFixedSaveOptions : FixedPageSaveOptions
 
 | namn | Beskrivning |
 | --- | --- |
-| override [Equals](../../aspose.words.saving/fixedpagesaveoptions/equals/)(object) | Bestämmer om det angivna objektet har samma värde som det aktuella objektet. |
+| override [Equals](../../aspose.words.saving/fixedpagesaveoptions/equals/)(*object*) | Bestämmer om det angivna objektet har samma värde som det aktuella objektet. |
 
-### Exempel
+## Exempel
 
 Visar hur man använder en återuppringning för att skriva ut URI:erna för externa resurser som skapats när ett dokument konverterades till HTML.
 
@@ -156,5 +158,3 @@ private class ResourceUriPrinter : IResourceSavingCallback
 * class [FixedPageSaveOptions](../fixedpagesaveoptions/)
 * namnutrymme [Aspose.Words.Saving](../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../)
-
-

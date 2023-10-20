@@ -1,7 +1,9 @@
 ---
 title: Range.Bookmarks
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Range propriété. Renvoie unBookmarks collection qui représente tous les signets de la plage.
+linktitle: Bookmarks
+articleTitle: Bookmarks
+second_title: Aspose.Words pour .NET
+description: Range Bookmarks propriété. Renvoie unBookmarks collection qui représente tous les signets de la plage en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words/range/bookmarks/
@@ -14,7 +16,7 @@ Renvoie un`Bookmarks` collection qui représente tous les signets de la plage.
 public BookmarkCollection Bookmarks { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment ajouter des signets et mettre à jour leur contenu.
 
@@ -104,7 +106,5 @@ public class BookmarkInfoPrinter : DocumentVisitor
 
 * class [BookmarkCollection](../../bookmarkcollection/)
 * class [Range](../)
-* espace de noms [Aspose.Words](../../range/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

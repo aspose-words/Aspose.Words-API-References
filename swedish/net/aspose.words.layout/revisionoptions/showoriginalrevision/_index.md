@@ -1,7 +1,9 @@
 ---
 title: RevisionOptions.ShowOriginalRevision
-second_title: Aspose.Words för .NET API Referens
-description: RevisionOptions fast egendom. Tillåter att ange om den ursprungliga texten ska visas istället för en reviderad. Standardvärdet ärfalsk .
+linktitle: ShowOriginalRevision
+articleTitle: ShowOriginalRevision
+second_title: Aspose.Words för .NET
+description: RevisionOptions ShowOriginalRevision fast egendom. Tillåter att ange om den ursprungliga texten ska visas istället för en reviderad. Standardvärdet ärfalsk  i C#.
 type: docs
 weight: 170
 url: /sv/net/aspose.words.layout/revisionoptions/showoriginalrevision/
@@ -14,7 +16,7 @@ Tillåter att ange om den ursprungliga texten ska visas istället för en revide
 public bool ShowOriginalRevision { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man ändrar utseendet på revisioner.
 
@@ -65,7 +67,5 @@ doc.Save(ArtifactsDir + "Revision.RevisionOptions.pdf");
 ### Se även
 
 * class [RevisionOptions](../)
-* namnutrymme [Aspose.Words.Layout](../../revisionoptions/)
+* namnutrymme [Aspose.Words.Layout](../../../aspose.words.layout/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Interface IBarcodeGenerator
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Fields.IBarcodeGenerator gränssnitt. Offentligt gränssnitt för streckkodsgenerator. Implementering bör tillhandahållas av användaren.
+title: IBarcodeGenerator Interface
+linktitle: IBarcodeGenerator
+articleTitle: IBarcodeGenerator
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Fields.IBarcodeGenerator gränssnitt. Offentligt gränssnitt för streckkodsgenerator. Implementering bör tillhandahållas av användaren i C#.
 type: docs
 weight: 2660
 url: /sv/net/aspose.words.fields/ibarcodegenerator/
@@ -18,14 +20,14 @@ public interface IBarcodeGenerator
 
 | namn | Beskrivning |
 | --- | --- |
-| [GetBarcodeImage](../../aspose.words.fields/ibarcodegenerator/getbarcodeimage/)(BarcodeParameters) | Generera streckkodsbild med hjälp av uppsättningen parametrar (för fältet DisplayBarcode). |
-| [GetOldBarcodeImage](../../aspose.words.fields/ibarcodegenerator/getoldbarcodeimage/)(BarcodeParameters) | Generera streckkodsbild med hjälp av uppsättningen parametrar (för gammaldags streckkodsfält). |
+| [GetBarcodeImage](../../aspose.words.fields/ibarcodegenerator/getbarcodeimage/)(*[BarcodeParameters](../barcodeparameters/)*) | Generera streckkodsbild med hjälp av uppsättningen parametrar (för fältet DisplayBarcode). |
+| [GetOldBarcodeImage](../../aspose.words.fields/ibarcodegenerator/getoldbarcodeimage/)(*[BarcodeParameters](../barcodeparameters/)*) | Generera streckkodsbild med hjälp av uppsättningen parametrar (för gammaldags streckkodsfält). |
 
-### Anmärkningar
+## Anmärkningar
 
 Generator-instansen ska skickas genom[`BarcodeGenerator`](../fieldoptions/barcodegenerator/) egenskap.
 
-### Exempel
+## Exempel
 
 Visar hur man använder en streckkodsgenerator.
 
@@ -102,5 +104,3 @@ doc.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.docx");
 
 * namnutrymme [Aspose.Words.Fields](../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../)
-
-

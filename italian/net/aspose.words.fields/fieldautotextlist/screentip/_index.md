@@ -1,7 +1,9 @@
 ---
 title: FieldAutoTextList.ScreenTip
-second_title: Aspose.Words per .NET API Reference
-description: FieldAutoTextList proprietà. Ottiene o imposta il testo della descrizione comando da mostrare.
+linktitle: ScreenTip
+articleTitle: ScreenTip
+second_title: Aspose.Words per .NET
+description: FieldAutoTextList ScreenTip proprietà. Ottiene o imposta il testo della descrizione comando da mostrare in C#.
 type: docs
 weight: 40
 url: /it/net/aspose.words.fields/fieldautotextlist/screentip/
@@ -14,7 +16,7 @@ Ottiene o imposta il testo della descrizione comando da mostrare.
 public string ScreenTip { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come utilizzare un campo AUTOTEXTLIST per selezionare da un elenco di voci di glossario.
 
@@ -69,7 +71,5 @@ private static void AppendAutoTextEntry(GlossaryDocument glossaryDoc, string nam
 ### Guarda anche
 
 * class [FieldAutoTextList](../)
-* spazio dei nomi [Aspose.Words.Fields](../../fieldautotextlist/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

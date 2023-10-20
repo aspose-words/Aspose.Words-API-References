@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.DistanceBottom
-second_title: Aspose.Words für .NET-API-Referenz
-description: ShapeBase eigendom. Gibt den Abstand in Punkten zwischen dem Dokumenttext und der Unterkante der Form zurück oder legt ihn fest.
+linktitle: DistanceBottom
+articleTitle: DistanceBottom
+second_title: Aspose.Words für .NET
+description: ShapeBase DistanceBottom eigendom. Gibt den Abstand in Punkten zwischen dem Dokumenttext und der Unterkante der Form zurück oder legt ihn fest in C#.
 type: docs
 weight: 130
 url: /de/net/aspose.words.drawing/shapebase/distancebottom/
@@ -14,13 +16,13 @@ Gibt den Abstand (in Punkten) zwischen dem Dokumenttext und der Unterkante der F
 public double DistanceBottom { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Der Standardwert ist 0.
 
 Hat nur Auswirkungen auf Formen der obersten Ebene.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie der Umbruchabstand für einen Text festgelegt wird, der eine Form umgibt.
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "Shape.Coordinates.docx");
 ### Siehe auch
 
 * class [ShapeBase](../)
-* namensraum [Aspose.Words.Drawing](../../shapebase/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

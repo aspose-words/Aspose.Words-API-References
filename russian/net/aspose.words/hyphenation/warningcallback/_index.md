@@ -1,7 +1,9 @@
 ---
 title: Hyphenation.WarningCallback
-second_title: Справочник по API Aspose.Words для .NET
-description: Hyphenation свойство. Вызывается во время загрузки шаблонов расстановки переносов когда обнаруживается проблема которая может привести к потере точности форматирования.
+linktitle: WarningCallback
+articleTitle: WarningCallback
+second_title: Aspose.Words для .NET
+description: Hyphenation WarningCallback свойство. Вызывается во время загрузки шаблонов расстановки переносов когда обнаруживается проблема которая может привести к потере точности форматирования на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words/hyphenation/warningcallback/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/hyphenation/warningcallback/
 public static IWarningCallback WarningCallback { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как открыть и зарегистрировать словарь из файла.
 
@@ -91,7 +93,5 @@ private class CustomHyphenationDictionaryRegister : IHyphenationCallback
 
 * interface [IWarningCallback](../../iwarningcallback/)
 * class [Hyphenation](../)
-* пространство имен [Aspose.Words](../../hyphenation/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

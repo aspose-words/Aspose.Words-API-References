@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ExportDropDownFormFieldAsText
-second_title: Справочник по API Aspose.Words для .NET
-description: HtmlSaveOptions свойство. Управляет сохранением полей раскрывающейся формы в формате HTML или MHTML. Значение по умолчаниюЛОЖЬ .
+linktitle: ExportDropDownFormFieldAsText
+articleTitle: ExportDropDownFormFieldAsText
+second_title: Aspose.Words для .NET
+description: HtmlSaveOptions ExportDropDownFormFieldAsText свойство. Управляет сохранением полей раскрывающейся формы в формате HTML или MHTML. Значение по умолчаниюЛОЖЬ  на С#.
 type: docs
 weight: 130
 url: /ru/net/aspose.words.saving/htmlsaveoptions/exportdropdownformfieldastext/
@@ -14,13 +16,13 @@ url: /ru/net/aspose.words.saving/htmlsaveoptions/exportdropdownformfieldastext/
 public bool ExportDropDownFormFieldAsText { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Если установлено значение`истинный` , экспортирует поля раскрывающейся формы как обычный текст. Когда`ЛОЖЬ`, экспортирует поля раскрывающейся формы как элемент SELECT в HTML.
 
 При экспорте в EPUB текстовые поля формы раскрывающегося списка всегда сохраняются как текст в соответствии с требованиями этого формата .
 
-### Примеры
+## Примеры
 
 Показывает, как заставить поля формы раскрывающегося поля со списком сливаться с текстом абзаца при сохранении в HTML.
 
@@ -58,7 +60,5 @@ else
 ### Смотрите также
 
 * class [HtmlSaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../htmlsaveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

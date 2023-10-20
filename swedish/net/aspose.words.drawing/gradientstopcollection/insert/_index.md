@@ -1,7 +1,9 @@
 ---
 title: GradientStopCollection.Insert
-second_title: Aspose.Words för .NET API Referens
-description: GradientStopCollection metod. Infogar enGradientStop till samlingen vid ett specificerat index.
+linktitle: Insert
+articleTitle: Insert
+second_title: Aspose.Words för .NET
+description: GradientStopCollection Insert metod. Infogar enGradientStop till samlingen vid ett specificerat index i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.drawing/gradientstopcollection/insert/
@@ -14,7 +16,7 @@ Infogar en[`GradientStop`](../../gradientstop/) till samlingen vid ett specifice
 public GradientStop Insert(int index, GradientStop gradientStop)
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man lägger till övertoningsstopp i övertoningsfyllningen.
 
@@ -68,7 +70,5 @@ doc.Save(ArtifactsDir + "Shape.GradientStops.docx", saveOptions);
 
 * class [GradientStop](../../gradientstop/)
 * class [GradientStopCollection](../)
-* namnutrymme [Aspose.Words.Drawing](../../gradientstopcollection/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

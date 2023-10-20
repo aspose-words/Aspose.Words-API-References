@@ -1,7 +1,9 @@
 ---
-title: Enum PdfTextCompression
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Saving.PdfTextCompression 枚举. 指定应用于 PDF 文件中除图像之外的所有内容的压缩类型
+title: PdfTextCompression Enum
+linktitle: PdfTextCompression
+articleTitle: PdfTextCompression
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Saving.PdfTextCompression 枚举. 指定应用于 PDF 文件中除图像之外的所有内容的压缩类型 在 C#.
 type: docs
 weight: 5530
 url: /zh/net/aspose.words.saving/pdftextcompression/
@@ -21,7 +23,7 @@ public enum PdfTextCompression
 | None | `0` | 无压缩。 |
 | Flate | `1` | Flate (ZIP) 压缩。 |
 
-### 例子
+## 例子
 
 演示如何在将文档保存为 PDF 时应用文本压缩。
 
@@ -50,5 +52,3 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.TextCompression.pdf", options);
 
 * 命名空间 [Aspose.Words.Saving](../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../)
-
-

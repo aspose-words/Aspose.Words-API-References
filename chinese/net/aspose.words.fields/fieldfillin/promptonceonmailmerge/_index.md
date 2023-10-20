@@ -1,7 +1,9 @@
 ---
 title: FieldFillIn.PromptOnceOnMailMerge
-second_title: Aspose.Words for .NET API 参考
-description: FieldFillIn 财产. 获取或设置每次邮件合并操作是否应接收一次用户响应
+linktitle: PromptOnceOnMailMerge
+articleTitle: PromptOnceOnMailMerge
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldFillIn PromptOnceOnMailMerge 财产. 获取或设置每次邮件合并操作是否应接收一次用户响应 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.fields/fieldfillin/promptonceonmailmerge/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fieldfillin/promptonceonmailmerge/
 public bool PromptOnceOnMailMerge { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何使用 FILLIN 字段提示用户做出响应。
 
@@ -63,7 +65,5 @@ private class PromptRespondent : IFieldUserPromptRespondent
 ### 也可以看看
 
 * class [FieldFillIn](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldfillin/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

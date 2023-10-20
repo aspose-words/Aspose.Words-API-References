@@ -1,7 +1,9 @@
 ---
 title: ConvertUtil.InchToPoint
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ConvertUtil méthode. Convertit les pouces en points.
+linktitle: InchToPoint
+articleTitle: InchToPoint
+second_title: Aspose.Words pour .NET
+description: ConvertUtil InchToPoint méthode. Convertit les pouces en points en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words/convertutil/inchtopoint/
@@ -18,11 +20,11 @@ public static double InchToPoint(double inches)
 | --- | --- | --- |
 | inches | Double | La valeur à convertir. |
 
-### Remarques
+## Remarques
 
 1 pouce équivaut à 72 points.
 
-### Exemples
+## Exemples
 
 Montre comment ajuster le format du papier, l’orientation, les marges, ainsi que d’autres paramètres pour une section.
 
@@ -75,7 +77,5 @@ doc.Save(ArtifactsDir + "UtilityClasses.PointsAndInches.docx");
 ### Voir également
 
 * class [ConvertUtil](../)
-* espace de noms [Aspose.Words](../../convertutil/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

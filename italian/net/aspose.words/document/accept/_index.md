@@ -1,7 +1,9 @@
 ---
 title: Document.Accept
-second_title: Aspose.Words per .NET API Reference
-description: Document metodo. Accetta un visitatore.
+linktitle: Accept
+articleTitle: Accept
+second_title: Aspose.Words per .NET
+description: Document Accept metodo. Accetta un visitatore in C#.
 type: docs
 weight: 510
 url: /it/net/aspose.words/document/accept/
@@ -22,7 +24,7 @@ public override bool Accept(DocumentVisitor visitor)
 
 Vero se tutti i nodi sono stati visitati; falso se[`DocumentVisitor`](../../documentvisitor/) ha interrotto l'operazione prima di visitare tutti i nodi.
 
-### Osservazioni
+## Osservazioni
 
 Enumera questo nodo e tutti i relativi figli. Ogni nodo chiama un metodo corrispondente[`DocumentVisitor`](../../documentvisitor/).
 
@@ -30,7 +32,7 @@ Per maggiori informazioni vedere il modello di progettazione Visitor.
 
 Chiamate[`VisitDocumentStart`](../../documentvisitor/visitdocumentstart/) , poi chiama[`Accept`](../../node/accept/) per tutti i nodi figlio di document e chiamate[`VisitDocumentEnd`](../../documentvisitor/visitdocumentend/) alla fine.
 
-### Esempi
+## Esempi
 
 Mostra come utilizzare un visitatore di documento per stampare la struttura del nodo di un documento.
 
@@ -200,7 +202,5 @@ public class DocStructurePrinter : DocumentVisitor
 
 * class [DocumentVisitor](../../documentvisitor/)
 * class [Document](../)
-* spazio dei nomi [Aspose.Words](../../document/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

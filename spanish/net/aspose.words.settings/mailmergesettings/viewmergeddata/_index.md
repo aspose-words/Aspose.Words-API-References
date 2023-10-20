@@ -1,7 +1,9 @@
 ---
 title: MailMergeSettings.ViewMergedData
-second_title: Referencia de API de Aspose.Words para .NET
-description: MailMergeSettings propiedad. Especifica que Microsoft Word mostrará los datos de la fuente de datos externa especificada donde se han insertado los campos de combinación por ejemplo vista previa de los datos combinados. El valor predeterminado esFALSO .
+linktitle: ViewMergedData
+articleTitle: ViewMergedData
+second_title: Aspose.Words para .NET
+description: MailMergeSettings ViewMergedData propiedad. Especifica que Microsoft Word mostrará los datos de la fuente de datos externa especificada donde se han insertado los campos de combinación por ejemplo vista previa de los datos combinados. El valor predeterminado esFALSO  en C#.
 type: docs
 weight: 170
 url: /es/net/aspose.words.settings/mailmergesettings/viewmergeddata/
@@ -14,7 +16,7 @@ Especifica que Microsoft Word mostrará los datos de la fuente de datos externa 
 public bool ViewMergedData { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo ejecutar una combinación de correspondencia con datos de un objeto de origen de datos de Office.
 
@@ -66,7 +68,5 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ### Ver también
 
 * class [MailMergeSettings](../)
-* espacio de nombres [Aspose.Words.Settings](../../mailmergesettings/)
+* espacio de nombres [Aspose.Words.Settings](../../../aspose.words.settings/)
 * asamblea [Aspose.Words](../../../)
-
-

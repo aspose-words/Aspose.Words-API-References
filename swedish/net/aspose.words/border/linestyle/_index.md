@@ -1,7 +1,9 @@
 ---
 title: Border.LineStyle
-second_title: Aspose.Words för .NET API Referens
-description: Border fast egendom. Hämtar eller ställer in kantstilen.
+linktitle: LineStyle
+articleTitle: LineStyle
+second_title: Aspose.Words för .NET
+description: Border LineStyle fast egendom. Hämtar eller ställer in kantstilen i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words/border/linestyle/
@@ -14,11 +16,11 @@ Hämtar eller ställer in kantstilen.
 public LineStyle LineStyle { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Om du ställer in linjestil till ingen, ändras linjebredden automatiskt till noll.
 
-### Exempel
+## Exempel
 
 Visar hur man infogar en sträng omgiven av en kant i ett dokument.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "Border.FontBorder.docx");
 
 * enum [LineStyle](../../linestyle/)
 * class [Border](../)
-* namnutrymme [Aspose.Words](../../border/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: GeneralFormatCollection.Add
-second_title: Aspose.Words لمراجع .NET API
-description: GeneralFormatCollection طريقة. إضافة تنسيق عام إلى المجموعة.
+linktitle: Add
+articleTitle: Add
+second_title: Aspose.Words لـ .NET
+description: GeneralFormatCollection Add طريقة. إضافة تنسيق عام إلى المجموعة في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.fields/generalformatcollection/add/
@@ -18,7 +20,7 @@ public void Add(GeneralFormat item)
 | --- | --- | --- |
 | item | GeneralFormat | صيغة عامة. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تنسيق النتائج الميدانية.
 
@@ -83,7 +85,5 @@ Assert.AreEqual(0, format.GeneralFormats.Count);
 
 * enum [GeneralFormat](../../generalformat/)
 * class [GeneralFormatCollection](../)
-* مساحة الاسم [Aspose.Words.Fields](../../generalformatcollection/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

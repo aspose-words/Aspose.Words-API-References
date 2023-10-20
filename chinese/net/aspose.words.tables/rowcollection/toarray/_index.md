@@ -1,7 +1,9 @@
 ---
 title: RowCollection.ToArray
-second_title: Aspose.Words for .NET API 参考
-description: RowCollection 方法. 将集合中的所有行复制到新的行数组
+linktitle: ToArray
+articleTitle: ToArray
+second_title: 用于 .NET 的 Aspose.Words
+description: RowCollection ToArray 方法. 将集合中的所有行复制到新的行数组 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.tables/rowcollection/toarray/
@@ -18,7 +20,7 @@ public Row[] ToArray()
 
 行数组。
 
-### 例子
+## 例子
 
 演示如何迭代文档中的所有表格并打印每个单元格的内容。
 
@@ -65,7 +67,5 @@ for (int i = 0; i < tables.Count; i++)
 
 * class [Row](../../row/)
 * class [RowCollection](../)
-* 命名空间 [Aspose.Words.Tables](../../rowcollection/)
+* 命名空间 [Aspose.Words.Tables](../../../aspose.words.tables/)
 * 部件 [Aspose.Words](../../../)
-
-

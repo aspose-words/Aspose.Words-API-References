@@ -1,7 +1,9 @@
 ---
 title: BaseWebExtensionCollection1.Remove
-second_title: Aspose.Words för .NET API Referens
-description: BaseWebExtensionCollection metod. Tar bort objektet vid det angivna indexet från samlingen.
+linktitle: Remove
+articleTitle: Remove
+second_title: Aspose.Words för .NET
+description: BaseWebExtensionCollection Remove metod. Tar bort objektet vid det angivna indexet från samlingen i C#.
 type: docs
 weight: 60
 url: /sv/net/aspose.words.webextensions/basewebextensioncollection-1/remove/
@@ -18,7 +20,7 @@ public void Remove(int index)
 | --- | --- | --- |
 | index | Int32 | Det nollbaserade indexet för samlingsobjektet. |
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med ett dokuments samling av webbtillägg.
 
@@ -47,7 +49,5 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 ### Se även
 
 * class [BaseWebExtensionCollection&lt;T&gt;](../)
-* namnutrymme [Aspose.Words.WebExtensions](../../basewebextensioncollection-1/)
+* namnutrymme [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * hopsättning [Aspose.Words](../../../)
-
-

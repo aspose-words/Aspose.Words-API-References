@@ -1,7 +1,9 @@
 ---
 title: Document.FontSettings
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Document propriété. Obtient ou définit les paramètres de police du document.
+linktitle: FontSettings
+articleTitle: FontSettings
+second_title: Aspose.Words pour .NET
+description: Document FontSettings propriété. Obtient ou définit les paramètres de police du document en C#.
 type: docs
 weight: 140
 url: /fr/net/aspose.words/document/fontsettings/
@@ -14,13 +16,13 @@ Obtient ou définit les paramètres de police du document.
 public FontSettings FontSettings { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 Cette propriété permet de spécifier les paramètres de police par document. Si réglé sur`nul` , paramètres de police statique par défaut [`DefaultInstance`](../../../aspose.words.fonts/fontsettings/defaultinstance/) sera utilisé.
 
 La valeur par défaut est`nul`.
 
-### Exemples
+## Exemples
 
 Montre comment définir les règles de substitution de police.
 
@@ -64,7 +66,5 @@ doc.Save(ArtifactsDir + "FontSettings.TableSubstitution.pdf");
 
 * class [FontSettings](../../../aspose.words.fonts/fontsettings/)
 * class [Document](../)
-* espace de noms [Aspose.Words](../../document/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

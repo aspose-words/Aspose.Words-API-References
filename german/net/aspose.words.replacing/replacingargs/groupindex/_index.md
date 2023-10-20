@@ -1,7 +1,9 @@
 ---
 title: ReplacingArgs.GroupIndex
-second_title: Aspose.Words für .NET-API-Referenz
-description: ReplacingArgs eigendom. Identifiziert anhand des Index eine erfasste Gruppe imMatch  das durch das ersetzt werden sollReplacement string.
+linktitle: GroupIndex
+articleTitle: GroupIndex
+second_title: Aspose.Words für .NET
+description: ReplacingArgs GroupIndex eigendom. Identifiziert anhand des Index eine erfasste Gruppe imMatch  das durch das ersetzt werden sollReplacement string in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words.replacing/replacingargs/groupindex/
@@ -14,13 +16,13 @@ Identifiziert anhand des Index eine erfasste Gruppe im[`Match`](../match/) , das
 public int GroupIndex { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 `GroupIndex`hat nur Wirkung, wenn[`GroupName`](../groupname/) Ist`Null`.
 
 Der Standardwert ist Null.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie über FindReplaceOptions eine andere Schriftart auf neue Inhalte anwenden.
 
@@ -93,7 +95,5 @@ private class NumberHexer : IReplacingCallback
 ### Siehe auch
 
 * class [ReplacingArgs](../)
-* namensraum [Aspose.Words.Replacing](../../replacingargs/)
+* namensraum [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * Montage [Aspose.Words](../../../)
-
-

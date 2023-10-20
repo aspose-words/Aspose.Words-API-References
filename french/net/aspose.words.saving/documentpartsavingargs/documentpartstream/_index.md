@@ -1,7 +1,9 @@
 ---
 title: DocumentPartSavingArgs.DocumentPartStream
-second_title: Référence de l'API Aspose.Words pour .NET
-description: DocumentPartSavingArgs propriété. Permet de spécifier le flux dans lequel la partie du document sera enregistrée.
+linktitle: DocumentPartStream
+articleTitle: DocumentPartStream
+second_title: Aspose.Words pour .NET
+description: DocumentPartSavingArgs DocumentPartStream propriété. Permet de spécifier le flux dans lequel la partie du document sera enregistrée en C#.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.saving/documentpartsavingargs/documentpartstream/
@@ -14,7 +16,7 @@ Permet de spécifier le flux dans lequel la partie du document sera enregistrée
 public Stream DocumentPartStream { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 Cette propriété vous permet d'enregistrer des parties de document dans des flux plutôt que dans des fichiers lors de l'exportation HTML.
 
@@ -24,7 +26,7 @@ Lorsque l'enregistrement dans un flux au format HTML est demandé par[`Save`](..
 
 Lors de l'enregistrement au format EPUB qui est un format conteneur basé sur HTML,`DocumentPartStream` ne peut pas être spécifié car toutes les parties subsidiaires seront encapsulées dans un seul package de sortie.
 
-### Exemples
+## Exemples
 
 Montre comment diviser un document en parties et les enregistrer.
 
@@ -141,7 +143,5 @@ public class SavedImageRename : IImageSavingCallback
 ### Voir également
 
 * class [DocumentPartSavingArgs](../)
-* espace de noms [Aspose.Words.Saving](../../documentpartsavingargs/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum SectionStart
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.SectionStart uppräkning. Typen av avbrott i början av avsnittet.
+title: SectionStart Enum
+linktitle: SectionStart
+articleTitle: SectionStart
+second_title: Aspose.Words för .NET
+description: Aspose.Words.SectionStart uppräkning. Typen av avbrott i början av avsnittet i C#.
 type: docs
 weight: 5760
 url: /sv/net/aspose.words/sectionstart/
@@ -24,7 +26,7 @@ public enum SectionStart
 | EvenPage | `3` | Avsnittet börjar på en ny jämn sida. |
 | OddPage | `4` | Avsnittet börjar på en ny udda sida. |
 
-### Exempel
+## Exempel
 
 Visar hur man konstruerar ett Aspose.Words-dokument för hand.
 
@@ -120,5 +122,3 @@ doc.Save(ArtifactsDir + "PageSetup.SetSectionStart.docx");
 
 * namnutrymme [Aspose.Words](../../aspose.words/)
 * hopsättning [Aspose.Words](../../)
-
-

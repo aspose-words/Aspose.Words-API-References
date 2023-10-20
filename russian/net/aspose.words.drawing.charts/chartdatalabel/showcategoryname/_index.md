@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabel.ShowCategoryName
-second_title: Справочник по API Aspose.Words для .NET
-description: ChartDataLabel свойство. Позволяет указать должно ли имя категории отображаться для меток данных на диаграмме. Значение по умолчаниюЛОЖЬ .
+linktitle: ShowCategoryName
+articleTitle: ShowCategoryName
+second_title: Aspose.Words для .NET
+description: ChartDataLabel ShowCategoryName свойство. Позволяет указать должно ли имя категории отображаться для меток данных на диаграмме. Значение по умолчаниюЛОЖЬ  на С#.
 type: docs
 weight: 90
 url: /ru/net/aspose.words.drawing.charts/chartdatalabel/showcategoryname/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.drawing.charts/chartdatalabel/showcategoryname/
 public bool ShowCategoryName { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как применять метки к точкам данных на линейной диаграмме.
 
@@ -92,7 +94,5 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
 ### Смотрите также
 
 * class [ChartDataLabel](../)
-* пространство имен [Aspose.Words.Drawing.Charts](../../chartdatalabel/)
+* пространство имен [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../../)
-
-

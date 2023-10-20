@@ -1,7 +1,9 @@
 ---
 title: ChartMarker.Size
-second_title: Aspose.Words für .NET-API-Referenz
-description: ChartMarker eigendom. Ruft die Größe der Diagrammmarkierung ab oder legt sie fest. Der Standardwert ist 7.
+linktitle: Size
+articleTitle: Size
+second_title: Aspose.Words für .NET
+description: ChartMarker Size eigendom. Ruft die Größe der Diagrammmarkierung ab oder legt sie fest. Der Standardwert ist 7 in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.drawing.charts/chartmarker/size/
@@ -14,7 +16,7 @@ Ruft die Größe der Diagrammmarkierung ab oder legt sie fest. Der Standardwert 
 public int Size { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit Datenpunkten in einem Liniendiagramm gearbeitet wird.
 
@@ -76,7 +78,5 @@ private static void ApplyDataPoints(ChartSeries series, int dataPointsCount, Mar
 ### Siehe auch
 
 * class [ChartMarker](../)
-* namensraum [Aspose.Words.Drawing.Charts](../../chartmarker/)
+* namensraum [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../../)
-
-

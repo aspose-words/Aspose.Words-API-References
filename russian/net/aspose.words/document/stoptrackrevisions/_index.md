@@ -1,9 +1,11 @@
 ---
 title: Document.StopTrackRevisions
-second_title: Справочник по API Aspose.Words для .NET
-description: Document метод. Останавливает автоматическую маркировку изменений документа как редакций.
+linktitle: StopTrackRevisions
+articleTitle: StopTrackRevisions
+second_title: Aspose.Words для .NET
+description: Document StopTrackRevisions метод. Останавливает автоматическую маркировку изменений документа как редакций на С#.
 type: docs
-weight: 740
+weight: 720
 url: /ru/net/aspose.words/document/stoptrackrevisions/
 ---
 ## Document.StopTrackRevisions method
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/document/stoptrackrevisions/
 public void StopTrackRevisions()
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как отслеживать изменения при редактировании документа.
 
@@ -63,7 +65,5 @@ doc.Save(ArtifactsDir + "Document.StartTrackRevisions.docx");
 
 * method [StartTrackRevisions](../starttrackrevisions/)
 * class [Document](../)
-* пространство имен [Aspose.Words](../../document/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldShape.Text
-second_title: Aspose.Words för .NET API Referens
-description: FieldShape fast egendom. Hämtar eller ställer in texten som ska hämtas.
+linktitle: Text
+articleTitle: Text
+second_title: Aspose.Words för .NET
+description: FieldShape Text fast egendom. Hämtar eller ställer in texten som ska hämtas i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.fields/fieldshape/text/
@@ -14,7 +16,7 @@ Hämtar eller ställer in texten som ska hämtas.
 public string Text { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man skapar höger-till-vänster språkkompatibla listor med BIDIOUTLINE-fält.
 
@@ -83,7 +85,5 @@ Assert.AreEqual(ShapeType.OleObject, shape.ShapeType);
 ### Se även
 
 * class [FieldShape](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldshape/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

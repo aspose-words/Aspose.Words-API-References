@@ -1,9 +1,11 @@
 ---
 title: DocumentBuilder.Write
-second_title: Aspose.Words for .NET API 参考
-description: DocumentBuilder 方法. 将字符串插入到文档中的当前插入位置
+linktitle: Write
+articleTitle: Write
+second_title: 用于 .NET 的 Aspose.Words
+description: DocumentBuilder Write 方法. 将字符串插入到文档中的当前插入位置 在 C#.
 type: docs
-weight: 660
+weight: 650
 url: /zh/net/aspose.words/documentbuilder/write/
 ---
 ## DocumentBuilder.Write method
@@ -18,11 +20,11 @@ public void Write(string text)
 | --- | --- | --- |
 | text | String | 要插入到文档中的字符串。 |
 
-### 评论
+## 评论
 
 由指定的当前字体格式[`Font`](../font/)使用属性。
 
-### 例子
+## 例子
 
 演示如何将边框包围的字符串插入到文档中。
 
@@ -168,7 +170,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
 ### 也可以看看
 
 * class [DocumentBuilder](../)
-* 命名空间 [Aspose.Words](../../documentbuilder/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FileFormatUtil.ContentTypeToLoadFormat
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FileFormatUtil méthode. Convertit le type de contenu IANA en une valeur énumérée au format de chargement.
+linktitle: ContentTypeToLoadFormat
+articleTitle: ContentTypeToLoadFormat
+second_title: Aspose.Words pour .NET
+description: FileFormatUtil ContentTypeToLoadFormat méthode. Convertit le type de contenu IANA en une valeur énumérée au format de chargement en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words/fileformatutil/contenttypetoloadformat/
@@ -20,7 +22,7 @@ public static LoadFormat ContentTypeToLoadFormat(string contentType)
 | --- | --- |
 | ArgumentException | Lance quand on ne peut pas convertir. |
 
-### Exemples
+## Exemples
 
 Montre comment trouver le format de chargement/enregistrement Aspose correspondant à partir de chaque chaîne de type de média.
 
@@ -75,7 +77,5 @@ Assert.AreEqual(SaveFormat.Mhtml, FileFormatUtil.ContentTypeToSaveFormat("multip
 
 * enum [LoadFormat](../../loadformat/)
 * class [FileFormatUtil](../)
-* espace de noms [Aspose.Words](../../fileformatutil/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

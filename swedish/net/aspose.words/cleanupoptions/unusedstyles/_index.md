@@ -1,7 +1,9 @@
 ---
 title: CleanupOptions.UnusedStyles
-second_title: Aspose.Words för .NET API Referens
-description: CleanupOptions fast egendom. Anger om oanvända formatmallar ska tas bort från dokumentet. Standardvärdet ärSann .
+linktitle: UnusedStyles
+articleTitle: UnusedStyles
+second_title: Aspose.Words för .NET
+description: CleanupOptions UnusedStyles fast egendom. Anger om oanvända formatmallar ska tas bort från dokumentet. Standardvärdet ärSann  i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words/cleanupoptions/unusedstyles/
@@ -14,7 +16,7 @@ Anger om oanvända formatmallar ska tas bort från dokumentet. Standardvärdet �
 public bool UnusedStyles { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man tar bort alla oanvända anpassade stilar från ett dokument.
 
@@ -63,7 +65,5 @@ Assert.AreEqual(2, doc.Styles.Count);
 ### Se även
 
 * class [CleanupOptions](../)
-* namnutrymme [Aspose.Words](../../cleanupoptions/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

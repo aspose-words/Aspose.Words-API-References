@@ -1,7 +1,9 @@
 ---
 title: WebExtension.Reference
-second_title: Aspose.Words för .NET API Referens
-description: WebExtension fast egendom. Anger den primära referensen till ett webbtillägg.
+linktitle: Reference
+articleTitle: Reference
+second_title: Aspose.Words för .NET
+description: WebExtension Reference fast egendom. Anger den primära referensen till ett webbtillägg i C#.
 type: docs
 weight: 60
 url: /sv/net/aspose.words.webextensions/webextension/reference/
@@ -14,7 +16,7 @@ Anger den primära referensen till ett webbtillägg.
 public WebExtensionReference Reference { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man lägger till ett webbtillägg till ett dokument.
 
@@ -60,7 +62,5 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 
 * class [WebExtensionReference](../../webextensionreference/)
 * class [WebExtension](../)
-* namnutrymme [Aspose.Words.WebExtensions](../../webextension/)
+* namnutrymme [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * hopsättning [Aspose.Words](../../../)
-
-

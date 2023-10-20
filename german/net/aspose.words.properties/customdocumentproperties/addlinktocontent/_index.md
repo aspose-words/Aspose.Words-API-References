@@ -1,7 +1,9 @@
 ---
 title: CustomDocumentProperties.AddLinkToContent
-second_title: Aspose.Words für .NET-API-Referenz
-description: CustomDocumentProperties methode. Erstellt eine neue mit dem Inhalt verknüpfte benutzerdefinierte Dokumenteigenschaft.
+linktitle: AddLinkToContent
+articleTitle: AddLinkToContent
+second_title: Aspose.Words für .NET
+description: CustomDocumentProperties AddLinkToContent methode. Erstellt eine neue mit dem Inhalt verknüpfte benutzerdefinierte Dokumenteigenschaft in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.properties/customdocumentproperties/addlinktocontent/
@@ -23,7 +25,7 @@ public DocumentProperty AddLinkToContent(string name, string linkSource)
 
 Das neu erstellte Eigenschaftsobjekt bzw`Null` wenn das*linkSource* ist ungültig.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie eine benutzerdefinierte Dokumenteigenschaft mit einem Lesezeichen verknüpft wird.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "DocumentProperties.LinkCustomDocumentPropertiesToBookma
 
 * class [DocumentProperty](../../documentproperty/)
 * class [CustomDocumentProperties](../)
-* namensraum [Aspose.Words.Properties](../../customdocumentproperties/)
+* namensraum [Aspose.Words.Properties](../../../aspose.words.properties/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: CommentRangeStart.Id
-second_title: Aspose.Words för .NET API Referens
-description: CommentRangeStart fast egendom. Anger identifieraren för kommentaren som denna region är länkad till.
+linktitle: Id
+articleTitle: Id
+second_title: Aspose.Words för .NET
+description: CommentRangeStart Id fast egendom. Anger identifieraren för kommentaren som denna region är länkad till i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words/commentrangestart/id/
@@ -14,7 +16,7 @@ Anger identifieraren för kommentaren som denna region är länkad till.
 public int Id { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du skriver ut innehållet i alla kommentarer och deras kommentarintervall med hjälp av en dokumentbesökare.
 
@@ -175,7 +177,5 @@ public class CommentInfoPrinter : DocumentVisitor
 ### Se även
 
 * class [CommentRangeStart](../)
-* namnutrymme [Aspose.Words](../../commentrangestart/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

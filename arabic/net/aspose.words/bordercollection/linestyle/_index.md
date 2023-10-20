@@ -1,7 +1,9 @@
 ---
 title: BorderCollection.LineStyle
-second_title: Aspose.Words لمراجع .NET API
-description: BorderCollection ملكية. الحصول على نمط الحدود أو تعيينه.
+linktitle: LineStyle
+articleTitle: LineStyle
+second_title: Aspose.Words لـ .NET
+description: BorderCollection LineStyle ملكية. الحصول على نمط الحدود أو تعيينه في C#.
 type: docs
 weight: 80
 url: /ar/net/aspose.words/bordercollection/linestyle/
@@ -14,13 +16,13 @@ url: /ar/net/aspose.words/bordercollection/linestyle/
 public LineStyle LineStyle { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 إرجاع نمط الحد الأول في المجموعة.
 
 يضبط نمط كل الحدود في المجموعة باستثناء الحدود القطرية.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء حدود صفحة خضراء متموجة مع الظل.
 
@@ -41,7 +43,5 @@ doc.Save(ArtifactsDir + "PageSetup.PageBorders.docx");
 
 * enum [LineStyle](../../linestyle/)
 * class [BorderCollection](../)
-* مساحة الاسم [Aspose.Words](../../bordercollection/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

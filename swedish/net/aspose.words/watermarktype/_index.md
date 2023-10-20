@@ -1,7 +1,9 @@
 ---
-title: Enum WatermarkType
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.WatermarkType uppräkning. Anger vattenstämpeltypen.
+title: WatermarkType Enum
+linktitle: WatermarkType
+articleTitle: WatermarkType
+second_title: Aspose.Words för .NET
+description: Aspose.Words.WatermarkType uppräkning. Anger vattenstämpeltypen i C#.
 type: docs
 weight: 6690
 url: /sv/net/aspose.words/watermarktype/
@@ -22,7 +24,7 @@ public enum WatermarkType
 | Image | `1` | Indikerar att bilden kommer att användas som vattenstämpel. |
 | None | `2` | Indikerar att vattenstämpeln inte är inställd. |
 
-### Exempel
+## Exempel
 
 Visar hur man skapar en textvattenstämpel.
 
@@ -54,5 +56,3 @@ if (doc.Watermark.Type == WatermarkType.Text)
 
 * namnutrymme [Aspose.Words](../../aspose.words/)
 * hopsättning [Aspose.Words](../../)
-
-

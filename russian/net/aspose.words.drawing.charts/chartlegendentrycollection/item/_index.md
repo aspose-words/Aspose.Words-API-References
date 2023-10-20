@@ -1,7 +1,9 @@
 ---
 title: ChartLegendEntryCollection.Item
-second_title: Справочник по API Aspose.Words для .NET
-description: ChartLegendEntryCollection свойство. ВозвращаетChartLegendEntry для указанного индекса.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words для .NET
+description: ChartLegendEntryCollection Item свойство. ВозвращаетChartLegendEntry для указанного индекса на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.drawing.charts/chartlegendentrycollection/item/
@@ -18,7 +20,5 @@ public ChartLegendEntry this[int index] { get; }
 
 * class [ChartLegendEntry](../../chartlegendentry/)
 * class [ChartLegendEntryCollection](../)
-* пространство имен [Aspose.Words.Drawing.Charts](../../chartlegendentrycollection/)
+* пространство имен [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../../)
-
-

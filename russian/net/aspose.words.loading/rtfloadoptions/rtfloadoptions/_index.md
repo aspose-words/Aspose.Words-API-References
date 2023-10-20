@@ -1,7 +1,9 @@
 ---
-title: RtfLoadOptions.RtfLoadOptions
-second_title: Справочник по API Aspose.Words для .NET
-description: RtfLoadOptions строитель. Инициализирует новый экземпляр этого класса со значениями по умолчанию.
+title: RtfLoadOptions
+linktitle: RtfLoadOptions
+articleTitle: RtfLoadOptions
+second_title: Aspose.Words для .NET
+description: RtfLoadOptions строитель. Инициализирует новый экземпляр этого класса со значениями по умолчанию на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.loading/rtfloadoptions/rtfloadoptions/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.loading/rtfloadoptions/rtfloadoptions/
 public RtfLoadOptions()
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как обнаружить символы UTF-8 при загрузке документа RTF.
 
@@ -41,7 +43,5 @@ Assert.AreEqual(
 ### Смотрите также
 
 * class [RtfLoadOptions](../)
-* пространство имен [Aspose.Words.Loading](../../rtfloadoptions/)
+* пространство имен [Aspose.Words.Loading](../../../aspose.words.loading/)
 * сборка [Aspose.Words](../../../)
-
-

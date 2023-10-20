@@ -1,7 +1,9 @@
 ---
 title: SmartTag.Accept
-second_title: Aspose.Words for .NET API 参考
-description: SmartTag 方法. 接受访客
+linktitle: Accept
+articleTitle: Accept
+second_title: 用于 .NET 的 Aspose.Words
+description: SmartTag Accept 方法. 接受访客 在 C#.
 type: docs
 weight: 60
 url: /zh/net/aspose.words.markup/smarttag/accept/
@@ -22,7 +24,7 @@ public override bool Accept(DocumentVisitor visitor)
 
 如果访问了所有节点，则为 True；假如果[`DocumentVisitor`](../../../aspose.words/documentvisitor/)在访问所有节点之前停止操作。
 
-### 评论
+## 评论
 
 枚举该节点及其所有子节点。每个节点调用相应的方法[`DocumentVisitor`](../../../aspose.words/documentvisitor/)。
 
@@ -30,7 +32,7 @@ public override bool Accept(DocumentVisitor visitor)
 
 通话[`VisitSmartTagStart`](../../../aspose.words/documentvisitor/visitsmarttagstart/)，然后调用[`Accept`](../../../aspose.words/node/accept/)对于智能标记的 all 子节点并调用[`VisitSmartTagEnd`](../../../aspose.words/documentvisitor/visitsmarttagend/)最后.
 
-### 例子
+## 例子
 
 展示如何创建智能标签。
 
@@ -132,7 +134,5 @@ private class SmartTagPrinter : DocumentVisitor
 
 * class [DocumentVisitor](../../../aspose.words/documentvisitor/)
 * class [SmartTag](../)
-* 命名空间 [Aspose.Words.Markup](../../smarttag/)
+* 命名空间 [Aspose.Words.Markup](../../../aspose.words.markup/)
 * 部件 [Aspose.Words](../../../)
-
-

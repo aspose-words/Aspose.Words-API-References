@@ -1,9 +1,11 @@
 ---
 title: DocumentBuilder.MoveToSection
-second_title: Aspose.Words لمراجع .NET API
-description: DocumentBuilder طريقة. ينقل المؤشر إلى بداية النص في قسم محدد.
+linktitle: MoveToSection
+articleTitle: MoveToSection
+second_title: Aspose.Words لـ .NET
+description: DocumentBuilder MoveToSection طريقة. ينقل المؤشر إلى بداية النص في قسم محدد في C#.
 type: docs
-weight: 580
+weight: 570
 url: /ar/net/aspose.words/documentbuilder/movetosection/
 ---
 ## DocumentBuilder.MoveToSection method
@@ -18,13 +20,13 @@ public void MoveToSection(int sectionIndex)
 | --- | --- | --- |
 | sectionIndex | Int32 | فهرس القسم المراد الانتقال إليه. |
 
-### ملاحظات
+## ملاحظات
 
 متى*sectionIndex* أكبر من أو يساوي 0، فإنه يحدد فهرس from بداية المستند حيث يكون 0 هو القسم الأول. متى*sectionIndex* أقل من 0, وقد حددت فهرسًا من نهاية المستند حيث يكون -1 هو القسم الأخير.
 
 يتم نقل المؤشر إلى الفقرة الأولى في[`Body`](../../body/) من القسم المحدد.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء الرؤوس والتذييلات في مستند باستخدام DocumentBuilder.
 
@@ -57,7 +59,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.HeadersAndFooters.docx");
 ### أنظر أيضا
 
 * class [DocumentBuilder](../)
-* مساحة الاسم [Aspose.Words](../../documentbuilder/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

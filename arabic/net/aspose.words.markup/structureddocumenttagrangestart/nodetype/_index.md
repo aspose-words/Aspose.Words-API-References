@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTagRangeStart.NodeType
-second_title: Aspose.Words لمراجع .NET API
-description: StructuredDocumentTagRangeStart ملكية. إرجاعStructuredDocumentTagRangeStart .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words لـ .NET
+description: StructuredDocumentTagRangeStart NodeType ملكية. إرجاعStructuredDocumentTagRangeStart  في C#.
 type: docs
 weight: 100
 url: /ar/net/aspose.words.markup/structureddocumenttagrangestart/nodetype/
@@ -18,7 +20,5 @@ public override NodeType NodeType { get; }
 
 * enum [NodeType](../../../aspose.words/nodetype/)
 * class [StructuredDocumentTagRangeStart](../)
-* مساحة الاسم [Aspose.Words.Markup](../../structureddocumenttagrangestart/)
+* مساحة الاسم [Aspose.Words.Markup](../../../aspose.words.markup/)
 * المجسم [Aspose.Words](../../../)
-
-

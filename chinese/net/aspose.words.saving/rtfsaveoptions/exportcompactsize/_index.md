@@ -1,7 +1,9 @@
 ---
 title: RtfSaveOptions.ExportCompactSize
-second_title: Aspose.Words for .NET API 参考
-description: RtfSaveOptions 财产. 允许缩小输出 RTF 文档的大小但如果它们包含 RTL从右到左文本则将无法正确显示 默认值为错误的.
+linktitle: ExportCompactSize
+articleTitle: ExportCompactSize
+second_title: 用于 .NET 的 Aspose.Words
+description: RtfSaveOptions ExportCompactSize 财产. 允许缩小输出 RTF 文档的大小但如果它们包含 RTL从右到左文本则将无法正确显示 默认值为错误的 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.saving/rtfsaveoptions/exportcompactsize/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.saving/rtfsaveoptions/exportcompactsize/
 public bool ExportCompactSize { get; set; }
 ```
 
-### 评论
+## 评论
 
 如果您要使用 Aspose.Words 转换为 RTF 的文档不包含阿拉伯语等语言中的 从右到左文本，那么您可以将此选项设置为`真的` 以减小生成的 RTF 的大小。
 
-### 例子
+## 例子
 
 演示如何使用自定义选项将文档保存为 .rtf。
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "RtfSaveOptions.ExportImages.rtf", options);
 ### 也可以看看
 
 * class [RtfSaveOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../rtfsaveoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

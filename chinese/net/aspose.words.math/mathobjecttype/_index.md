@@ -1,7 +1,9 @@
 ---
-title: Enum MathObjectType
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Math.MathObjectType 枚举. 指定 Office Math 对象的类型
+title: MathObjectType Enum
+linktitle: MathObjectType
+articleTitle: MathObjectType
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Math.MathObjectType 枚举. 指定 Office Math 对象的类型 在 C#.
 type: docs
 weight: 4110
 url: /zh/net/aspose.words.math/mathobjecttype/
@@ -49,7 +51,7 @@ public enum MathObjectType
 | SubSuperscript | `28` | 子上标对象，由基本元素、位于下方和右侧的缩小尺寸脚本以及位于上方和右侧的缩小尺寸脚本组成。 |
 | Supercript | `29` | 上标对象，由基本元素和位于上方和右侧的缩小尺寸脚本组成。 |
 
-### 例子
+## 例子
 
 演示如何打印文档中每个 Office Math 节点的节点结构。
 
@@ -142,5 +144,3 @@ public class OfficeMathStructurePrinter : DocumentVisitor
 
 * 命名空间 [Aspose.Words.Math](../../aspose.words.math/)
 * 部件 [Aspose.Words](../../)
-
-

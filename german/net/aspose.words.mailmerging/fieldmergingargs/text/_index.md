@@ -1,7 +1,9 @@
 ---
 title: FieldMergingArgs.Text
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldMergingArgs eigendom. Ruft den Text ab der für das aktuelle Zusammenführungsfeld in das Dokument eingefügt wird oder legt diesen fest.
+linktitle: Text
+articleTitle: Text
+second_title: Aspose.Words für .NET
+description: FieldMergingArgs Text eigendom. Ruft den Text ab der für das aktuelle Zusammenführungsfeld in das Dokument eingefügt wird oder legt diesen fest in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words.mailmerging/fieldmergingargs/text/
@@ -14,7 +16,7 @@ Ruft den Text ab, der für das aktuelle Zusammenführungsfeld in das Dokument ei
 public string Text { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Wenn Ihr Event-Handler aufgerufen wird, wird diese Eigenschaft auf gesetzt`Null`.
 
@@ -22,7 +24,7 @@ Wenn Sie Text als belassen`Null` , wird die Mail-Merge-Engine einfügen[`FieldVa
 
 Wenn Sie Text auf eine beliebige Zeichenfolge (auch leer) festlegen, wird die Zeichenfolge anstelle des Serienbrieffelds in das Dokument eingefügt.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Serienbrief mit einem benutzerdefinierten Rückruf ausgeführt wird, der Seriendaten in Form von HTML-Dokumenten verarbeitet.
 
@@ -90,7 +92,5 @@ private class HandleMergeFieldInsertHtml : IFieldMergingCallback
 ### Siehe auch
 
 * class [FieldMergingArgs](../)
-* namensraum [Aspose.Words.MailMerging](../../fieldmergingargs/)
+* namensraum [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * Montage [Aspose.Words](../../../)
-
-

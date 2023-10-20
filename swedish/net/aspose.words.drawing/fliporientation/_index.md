@@ -1,7 +1,9 @@
 ---
-title: Enum FlipOrientation
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Drawing.FlipOrientation uppräkning. Möjliga värden för orienteringen av en form.
+title: FlipOrientation Enum
+linktitle: FlipOrientation
+articleTitle: FlipOrientation
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Drawing.FlipOrientation uppräkning. Möjliga värden för orienteringen av en form i C#.
 type: docs
 weight: 970
 url: /sv/net/aspose.words.drawing/fliporientation/
@@ -24,7 +26,7 @@ public enum FlipOrientation
 | Vertical | `2` | Vänd längs x-axeln och vänd om y-koordinaterna. |
 | Both | `3` | Vänd längs både y- och x-axeln. |
 
-### Exempel
+## Exempel
 
 Visar hur man vänder en form på en axel.
 
@@ -71,5 +73,3 @@ doc.Save(ArtifactsDir + "Shape.FlipShapeOrientation.docx");
 * property [FlipOrientation](../shapebase/fliporientation/)
 * namnutrymme [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../)
-
-

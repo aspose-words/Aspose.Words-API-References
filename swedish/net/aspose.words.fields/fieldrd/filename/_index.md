@@ -1,7 +1,9 @@
 ---
 title: FieldRD.FileName
-second_title: Aspose.Words för .NET API Referens
-description: FieldRD fast egendom. Hämtar eller ställer in namnet på filen som ska inkluderas när en innehållsförteckning behörighetsförteckning eller index genereras.
+linktitle: FileName
+articleTitle: FileName
+second_title: Aspose.Words för .NET
+description: FieldRD FileName fast egendom. Hämtar eller ställer in namnet på filen som ska inkluderas när en innehållsförteckning behörighetsförteckning eller index genereras i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.fields/fieldrd/filename/
@@ -14,7 +16,7 @@ Hämtar eller ställer in namnet på filen som ska inkluderas när en innehålls
 public string FileName { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar att använda RD-fältet för att skapa en innehållsförteckning från rubriker i andra dokument.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "Field.RD.docx");
 ### Se även
 
 * class [FieldRD](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldrd/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

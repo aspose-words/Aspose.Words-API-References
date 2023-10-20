@@ -1,7 +1,9 @@
 ---
-title: Class ReportingEngine
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Reporting.ReportingEngine classe. Fornisce routine per popolare i documenti modello con dati e una serie di impostazioni per controllare queste routine.
+title: ReportingEngine Class
+linktitle: ReportingEngine
+articleTitle: ReportingEngine
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Reporting.ReportingEngine classe. Fornisce routine per popolare i documenti modello con dati e una serie di impostazioni per controllare queste routine in C#.
 type: docs
 weight: 4730
 url: /it/net/aspose.words.reporting/reportingengine/
@@ -34,15 +36,13 @@ public class ReportingEngine
 
 | Nome | Descrizione |
 | --- | --- |
-| [BuildReport](../../aspose.words.reporting/reportingengine/buildreport/#buildreport)(Document, object) | Compila il documento modello specificato con i dati provenienti dall'origine specificata rendendolo un report pronto. |
-| [BuildReport](../../aspose.words.reporting/reportingengine/buildreport/#buildreport_1)(Document, object, string) | Compila il documento modello specificato con i dati provenienti dall'origine specificata rendendolo un report pronto. |
-| [BuildReport](../../aspose.words.reporting/reportingengine/buildreport/#buildreport_2)(Document, object[], string[]) | Compila il documento modello specificato con i dati provenienti dalle origini specificate rendendolo un report pronto. |
-| [Equals](../../aspose.words.reporting/reportingengine/equals/)(object) | Determina se l'oggetto specificato ha un valore uguale all'oggetto corrente. |
+| [BuildReport](../../aspose.words.reporting/reportingengine/buildreport/#buildreport)(*[Document](../../aspose.words/document/), object*) | Compila il documento modello specificato con i dati provenienti dall'origine specificata rendendolo un report pronto. |
+| [BuildReport](../../aspose.words.reporting/reportingengine/buildreport/#buildreport_1)(*[Document](../../aspose.words/document/), object, string*) | Compila il documento modello specificato con i dati provenienti dall'origine specificata rendendolo un report pronto. |
+| [BuildReport](../../aspose.words.reporting/reportingengine/buildreport/#buildreport_2)(*[Document](../../aspose.words/document/), object[], string[]*) | Compila il documento modello specificato con i dati provenienti dalle origini specificate rendendolo un report pronto. |
+| [Equals](../../aspose.words.reporting/reportingengine/equals/)(*object*) | Determina se l'oggetto specificato ha un valore uguale all'oggetto corrente. |
 | [GetHashCode](../../aspose.words.reporting/reportingengine/gethashcode/)() | Serve come funzione hash per questo tipo. |
 
 ### Guarda anche
 
 * spazio dei nomi [Aspose.Words.Reporting](../../aspose.words.reporting/)
 * assemblea [Aspose.Words](../../)
-
-

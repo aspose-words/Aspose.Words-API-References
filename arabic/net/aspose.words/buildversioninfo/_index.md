@@ -1,7 +1,9 @@
 ---
-title: Class BuildVersionInfo
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.BuildVersionInfo فصل. يوفر معلومات حول اسم المنتج الحالي وإصداره.
+title: BuildVersionInfo Class
+linktitle: BuildVersionInfo
+articleTitle: BuildVersionInfo
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.BuildVersionInfo فصل. يوفر معلومات حول اسم المنتج الحالي وإصداره في C#.
 type: docs
 weight: 120
 url: /ar/net/aspose.words/buildversioninfo/
@@ -23,7 +25,7 @@ public static class BuildVersionInfo
 | static [Product](../../aspose.words/buildversioninfo/product/) { get; } | الحصول على الاسم الكامل للمنتج. |
 | static [Version](../../aspose.words/buildversioninfo/version/) { get; } | الحصول على إصدار المنتج. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية عرض معلومات حول الإصدار المثبت لديك من Aspose.Words.
 
@@ -35,5 +37,3 @@ Console.WriteLine($"I am currently using {BuildVersionInfo.Product}, version num
 
 * مساحة الاسم [Aspose.Words](../../aspose.words/)
 * المجسم [Aspose.Words](../../)
-
-

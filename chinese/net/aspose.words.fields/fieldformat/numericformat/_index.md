@@ -1,7 +1,9 @@
 ---
 title: FieldFormat.NumericFormat
-second_title: Aspose.Words for .NET API 参考
-description: FieldFormat 财产. 获取或设置应用于数字字段结果的格式对应开关.
+linktitle: NumericFormat
+articleTitle: NumericFormat
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldFormat NumericFormat 财产. 获取或设置应用于数字字段结果的格式对应开关 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.fields/fieldformat/numericformat/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fieldformat/numericformat/
 public string NumericFormat { get; set; }
 ```
 
-### 例子
+## 例子
 
 展示如何设置字段结果的格式。
 
@@ -78,7 +80,5 @@ Assert.AreEqual(0, format.GeneralFormats.Count);
 ### 也可以看看
 
 * class [FieldFormat](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldformat/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

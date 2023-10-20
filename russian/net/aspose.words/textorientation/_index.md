@@ -1,7 +1,9 @@
 ---
-title: Enum TextOrientation
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.TextOrientation перечисление. Определяет ориентацию текста на странице в ячейке таблицы или текстовом фрейме.
+title: TextOrientation Enum
+linktitle: TextOrientation
+articleTitle: TextOrientation
+second_title: Aspose.Words для .NET
+description: Aspose.Words.TextOrientation перечисление. Определяет ориентацию текста на странице в ячейке таблицы или текстовом фрейме на С#.
 type: docs
 weight: 6430
 url: /ru/net/aspose.words/textorientation/
@@ -25,7 +27,7 @@ public enum TextOrientation
 | VerticalFarEast | `5` | Символы Дальнего Востока отображаются вертикально, остальной текст поворачивается на 90 градусов вправо и отображается сверху вниз (tb-rl-v). |
 | VerticalRotatedFarEast | `7` | Символы Дальнего Востока отображаются вертикально, остальной текст поворачивается на 90 градусов вправо, чтобы располагаться сверху вниз по вертикали, а затем слева направо по горизонтали (tb-lr-v). |
 
-### Примеры
+## Примеры
 
 Показывает, как построить форматированную таблицу 2x2.
 
@@ -72,5 +74,3 @@ doc.Save(ArtifactsDir + "DocumentBuilder.BuildTable.docx");
 
 * пространство имен [Aspose.Words](../../aspose.words/)
 * сборка [Aspose.Words](../../)
-
-

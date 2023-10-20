@@ -1,7 +1,9 @@
 ---
 title: BorderCollection.Horizontal
-second_title: Referencia de API de Aspose.Words para .NET
-description: BorderCollection propiedad. Obtiene el borde horizontal que se utiliza entre celdas o párrafos conformes.
+linktitle: Horizontal
+articleTitle: Horizontal
+second_title: Aspose.Words para .NET
+description: BorderCollection Horizontal propiedad. Obtiene el borde horizontal que se utiliza entre celdas o párrafos conformes en C#.
 type: docs
 weight: 50
 url: /es/net/aspose.words/bordercollection/horizontal/
@@ -14,7 +16,7 @@ Obtiene el borde horizontal que se utiliza entre celdas o párrafos conformes.
 public Border Horizontal { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo aplicar configuraciones a los bordes horizontales del formato de un párrafo.
 
@@ -83,7 +85,5 @@ doc.Save(ArtifactsDir + "Border.VerticalBorders.docx");
 
 * class [Border](../../border/)
 * class [BorderCollection](../)
-* espacio de nombres [Aspose.Words](../../bordercollection/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

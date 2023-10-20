@@ -1,7 +1,9 @@
 ---
 title: FieldArgumentBuilder.AddText
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldArgumentBuilder methode. Fügt dem Argument einen einfachen Text hinzu.
+linktitle: AddText
+articleTitle: AddText
+second_title: Aspose.Words für .NET
+description: FieldArgumentBuilder AddText methode. Fügt dem Argument einen einfachen Text hinzu in C#.
 type: docs
 weight: 40
 url: /de/net/aspose.words.fields/fieldargumentbuilder/addtext/
@@ -14,7 +16,7 @@ Fügt dem Argument einen einfachen Text hinzu.
 public FieldArgumentBuilder AddText(string text)
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Felder mit einem Feld-Builder erstellt und dann in das Dokument eingefügt werden.
 
@@ -97,7 +99,5 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 ### Siehe auch
 
 * class [FieldArgumentBuilder](../)
-* namensraum [Aspose.Words.Fields](../../fieldargumentbuilder/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

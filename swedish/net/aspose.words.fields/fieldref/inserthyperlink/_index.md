@@ -1,7 +1,9 @@
 ---
 title: FieldRef.InsertHyperlink
-second_title: Aspose.Words för .NET API Referens
-description: FieldRef fast egendom. Hämtar eller ställer in om en hyperlänk till det bokmärkta stycket ska skapas.
+linktitle: InsertHyperlink
+articleTitle: InsertHyperlink
+second_title: Aspose.Words för .NET
+description: FieldRef InsertHyperlink fast egendom. Hämtar eller ställer in om en hyperlänk till det bokmärkta stycket ska skapas i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.fields/fieldref/inserthyperlink/
@@ -14,7 +16,7 @@ Hämtar eller ställer in om en hyperlänk till det bokmärkta stycket ska skapa
 public bool InsertHyperlink { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man infogar REF-fält för att referera till bokmärken.
 
@@ -104,7 +106,5 @@ private static FieldRef InsertFieldRef(DocumentBuilder builder, string bookmarkN
 ### Se även
 
 * class [FieldRef](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldref/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

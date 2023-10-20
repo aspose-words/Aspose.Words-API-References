@@ -1,7 +1,9 @@
 ---
 title: ConditionalStyleCollection.Count
-second_title: Aspose.Words für .NET-API-Referenz
-description: ConditionalStyleCollection eigendom. Ruft die Anzahl der bedingten Stile in der Sammlung ab.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words für .NET
+description: ConditionalStyleCollection Count eigendom. Ruft die Anzahl der bedingten Stile in der Sammlung ab in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words/conditionalstylecollection/count/
@@ -14,7 +16,7 @@ Ruft die Anzahl der bedingten Stile in der Sammlung ab.
 public int Count { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit bestimmten Bereichsstilen einer Tabelle gearbeitet wird.
 
@@ -84,7 +86,5 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 ### Siehe auch
 
 * class [ConditionalStyleCollection](../)
-* namensraum [Aspose.Words](../../conditionalstylecollection/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

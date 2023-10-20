@@ -1,7 +1,9 @@
 ---
 title: ImageData.Brightness
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ImageData propriété. Obtient ou définit la luminosité de limage. La valeur de cette propriété doit être un nombre compris entre 00 le plus sombre et 10 le plus lumineux.
+linktitle: Brightness
+articleTitle: Brightness
+second_title: Aspose.Words pour .NET
+description: ImageData Brightness propriété. Obtient ou définit la luminosité de limage. La valeur de cette propriété doit être un nombre compris entre 00 le plus sombre et 10 le plus lumineux en C#.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.drawing/imagedata/brightness/
@@ -14,11 +16,11 @@ Obtient ou définit la luminosité de l'image. La valeur de cette propriété do
 public double Brightness { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 La valeur par défaut est 0,5.
 
-### Exemples
+## Exemples
 
 Montre comment modifier les données d’image d’une forme.
 
@@ -81,7 +83,5 @@ dstDoc.Save(ArtifactsDir + "Drawing.ImageData.docx");
 ### Voir également
 
 * class [ImageData](../)
-* espace de noms [Aspose.Words.Drawing](../../imagedata/)
+* espace de noms [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: PdfDigitalSignatureTimestampSettings.Password
-second_title: Aspose.Words for .NET API 参考
-description: PdfDigitalSignatureTimestampSettings 财产. 时间戳服务器密码
+linktitle: Password
+articleTitle: Password
+second_title: 用于 .NET 的 Aspose.Words
+description: PdfDigitalSignatureTimestampSettings Password 财产. 时间戳服务器密码 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.saving/pdfdigitalsignaturetimestampsettings/password/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.saving/pdfdigitalsignaturetimestampsettings/password/
 public string Password { get; set; }
 ```
 
-### 评论
+## 评论
 
 默认值为`无效的`.
 
-### 例子
+## 例子
 
 演示如何对保存的 PDF 文档进行数字签名并为其添加时间戳。
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignatureTimestamp.pdf", optio
 ### 也可以看看
 
 * class [PdfDigitalSignatureTimestampSettings](../)
-* 命名空间 [Aspose.Words.Saving](../../pdfdigitalsignaturetimestampsettings/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

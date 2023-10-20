@@ -1,7 +1,9 @@
 ---
 title: MemoryFontSource.FontData
-second_title: Référence de l'API Aspose.Words pour .NET
-description: MemoryFontSource propriété. Données de police binaires.
+linktitle: FontData
+articleTitle: FontData
+second_title: Aspose.Words pour .NET
+description: MemoryFontSource FontData propriété. Données de police binaires en C#.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.fonts/memoryfontsource/fontdata/
@@ -14,7 +16,7 @@ Données de police binaires.
 public byte[] FontData { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment utiliser un tableau d'octets avec les données d'un fichier de police comme source de police.
 
@@ -33,7 +35,5 @@ Assert.AreEqual(0, memoryFontSource.Priority);
 ### Voir également
 
 * class [MemoryFontSource](../)
-* espace de noms [Aspose.Words.Fonts](../../memoryfontsource/)
+* espace de noms [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * Assemblée [Aspose.Words](../../../)
-
-

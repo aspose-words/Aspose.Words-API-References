@@ -1,12 +1,14 @@
 ---
 title: Aspose.Words.Layout
-second_title: Aspose.Words für .NET-API-Referenz
-description: Der Aspose.Words.Layout Der Namespace stellt Klassen bereit die den Zugriff auf Informationen ermöglichen z. B. auf welcher Seite und wo auf einer Seite bestimmte Dokumentelemente positioniert sind wenn das Dokument in Seiten formatiert wird.
+linktitle: Aspose.Words.Layout
+articleTitle: Aspose.Words.Layout
+second_title: Aspose.Words für .NET
+description: DerAspose.Words.Layout Der Namespace stellt Klassen bereit die den Zugriff auf Informationen ermöglichen z. B. auf welcher Seite und wo auf einer Seite bestimmte Dokumentelemente positioniert sind wenn das Dokument in Seiten formatiert wird in C#.
 type: docs
 weight: 110
 url: /de/net/aspose.words.layout/
 ---
-Der **Aspose.Words.Layout** Der Namespace stellt Klassen bereit, die den Zugriff auf -Informationen ermöglichen, z. B. auf welcher Seite und wo auf einer Seite bestimmte Dokumentelemente positioniert sind, wenn das Dokument in Seiten formatiert wird.
+Der**Aspose.Words.Layout** Der Namespace stellt Klassen bereit, die den Zugriff auf -Informationen ermöglichen, z. B. auf welcher Seite und wo auf einer Seite bestimmte Dokumentelemente positioniert sind, wenn das Dokument in Seiten formatiert wird.
 
 ## Klassen
 
@@ -33,5 +35,3 @@ Der **Aspose.Words.Layout** Der Namespace stellt Klassen bereit, die den Zugriff
 | [RevisionColor](./revisioncolor/) | Ermöglicht die Angabe der Farbe von Dokumentrevisionen. |
 | [RevisionTextEffect](./revisiontexteffect/) | Ermöglicht die Festlegung eines Dekorationseffekts für Überarbeitungen des Dokumenttexts. |
 | [ShowInBalloons](./showinballoons/) | Gibt an, welche Revisionen in Sprechblasen gerendert werden. |
-
-

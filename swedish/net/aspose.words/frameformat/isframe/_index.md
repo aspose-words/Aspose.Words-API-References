@@ -1,7 +1,9 @@
 ---
 title: FrameFormat.IsFrame
-second_title: Aspose.Words för .NET API Referens
-description: FrameFormat fast egendom. ReturnerarSann om stycket är en ram.
+linktitle: IsFrame
+articleTitle: IsFrame
+second_title: Aspose.Words för .NET
+description: FrameFormat IsFrame fast egendom. ReturnerarSann om stycket är en ram i C#.
 type: docs
 weight: 60
 url: /sv/net/aspose.words/frameformat/isframe/
@@ -14,7 +16,7 @@ Returnerar`Sann` om stycket är en ram.
 public bool IsFrame { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man får information om formateringsegenskaper för stycken som är ramar.
 
@@ -39,7 +41,5 @@ Assert.AreEqual(0.0d, paragraphFrame.FrameFormat.VerticalDistanceFromText);
 ### Se även
 
 * class [FrameFormat](../)
-* namnutrymme [Aspose.Words](../../frameformat/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

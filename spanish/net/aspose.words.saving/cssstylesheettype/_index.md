@@ -1,7 +1,9 @@
 ---
-title: Enum CssStyleSheetType
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Saving.CssStyleSheetType enumeración. Especifica cómo se exportan los estilos CSS Hoja de estilos en cascada a HTML.
+title: CssStyleSheetType Enum
+linktitle: CssStyleSheetType
+articleTitle: CssStyleSheetType
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Saving.CssStyleSheetType enumeración. Especifica cómo se exportan los estilos CSS Hoja de estilos en cascada a HTML en C#.
 type: docs
 weight: 4890
 url: /es/net/aspose.words.saving/cssstylesheettype/
@@ -18,11 +20,11 @@ public enum CssStyleSheetType
 
 | Nombre | Valor | Descripción |
 | --- | --- | --- |
-| Inline | `0` | Los estilos CSS se escriben en línea (como un valor del **estilo** atributo en cada elemento). |
+| Inline | `0` | Los estilos CSS se escriben en línea (como un valor del**estilo** atributo en cada elemento). |
 | Embedded | `1` | Los estilos CSS se escriben por separado del contenido en una hoja de estilos incrustada en el archivo HTML. |
 | External | `2` | Los estilos CSS se escriben por separado del contenido en una hoja de estilos en un archivo externo. El archivo HTML vincula la hoja de estilos. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo trabajar con hojas de estilo CSS que crea una conversión HTML.
 
@@ -85,5 +87,3 @@ private class CustomCssSavingCallback : ICssSavingCallback
 * property [CssStyleSheetType](../htmlsaveoptions/cssstylesheettype/)
 * espacio de nombres [Aspose.Words.Saving](../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../)
-
-

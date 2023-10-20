@@ -1,7 +1,9 @@
 ---
-title: Enum PreferredWidthType
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Tables.PreferredWidthType 枚举. 指定表格或单元格的首选宽度的测量单位
+title: PreferredWidthType Enum
+linktitle: PreferredWidthType
+articleTitle: PreferredWidthType
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Tables.PreferredWidthType 枚举. 指定表格或单元格的首选宽度的测量单位 在 C#.
 type: docs
 weight: 6300
 url: /zh/net/aspose.words.tables/preferredwidthtype/
@@ -22,7 +24,7 @@ public enum PreferredWidthType
 | Percent | `2` | 使用指定的百分比测量当前项目的宽度。 |
 | Points | `3` | 使用指定数量的点数（1/72 英寸）测量当前项目的宽度。 |
 
-### 例子
+## 例子
 
 演示如何验证表格单元格的首选宽度类型和值。
 
@@ -41,5 +43,3 @@ Assert.AreEqual(11.16d, firstCell.CellFormat.PreferredWidth.Value);
 * class [PreferredWidth](../preferredwidth/)
 * 命名空间 [Aspose.Words.Tables](../../aspose.words.tables/)
 * 部件 [Aspose.Words](../../)
-
-

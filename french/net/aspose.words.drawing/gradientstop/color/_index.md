@@ -1,7 +1,9 @@
 ---
 title: GradientStop.Color
-second_title: Référence de l'API Aspose.Words pour .NET
-description: GradientStop propriété. Obtient ou définit une valeur représentant la couleur du point darrêt du dégradé.
+linktitle: Color
+articleTitle: Color
+second_title: Aspose.Words pour .NET
+description: GradientStop Color propriété. Obtient ou définit une valeur représentant la couleur du point darrêt du dégradé en C#.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.drawing/gradientstop/color/
@@ -14,7 +16,7 @@ Obtient ou définit une valeur représentant la couleur du point d'arrêt du dé
 public Color Color { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment ajouter des points de dégradé au remplissage dégradé.
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "Shape.GradientStops.docx", saveOptions);
 ### Voir également
 
 * class [GradientStop](../)
-* espace de noms [Aspose.Words.Drawing](../../gradientstop/)
+* espace de noms [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Assemblée [Aspose.Words](../../../)
-
-

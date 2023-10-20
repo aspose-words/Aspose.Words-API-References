@@ -1,12 +1,14 @@
 ---
 title: FontFallbackSettings.Load
-second_title: Aspose.Words for .NET API 参考
-description: FontFallbackSettings 方法. 从 XML 文件加载字体后备设置
+linktitle: Load
+articleTitle: Load
+second_title: 用于 .NET 的 Aspose.Words
+description: FontFallbackSettings Load 方法. 从 XML 文件加载字体后备设置 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.fonts/fontfallbacksettings/load/
 ---
-## Load(string) {#load_1}
+## Load(*string*) {#load_1}
 
 从 XML 文件加载字体后备设置。
 
@@ -18,7 +20,7 @@ public void Load(string fileName)
 | --- | --- | --- |
 | fileName | String | 输入文件名。 |
 
-### 例子
+## 例子
 
 演示如何在本地文件系统中的 XML 文档中加载和保存字体后备设置。
 
@@ -39,12 +41,12 @@ doc.FontSettings.FallbackSettings.Save(ArtifactsDir + "FallbackSettings.xml");
 ### 也可以看看
 
 * class [FontFallbackSettings](../)
-* 命名空间 [Aspose.Words.Fonts](../../fontfallbacksettings/)
+* 命名空间 [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## Load(Stream) {#load}
+## Load(*Stream*) {#load}
 
 从 XML 流加载后备设置。
 
@@ -56,7 +58,7 @@ public void Load(Stream stream)
 | --- | --- | --- |
 | stream | Stream | 输入流。 |
 
-### 例子
+## 例子
 
 演示如何从流中加载和保存字体后备设置。
 
@@ -85,7 +87,5 @@ using (FileStream fontFallbackStream =
 ### 也可以看看
 
 * class [FontFallbackSettings](../)
-* 命名空间 [Aspose.Words.Fonts](../../fontfallbacksettings/)
+* 命名空间 [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * 部件 [Aspose.Words](../../../)
-
-

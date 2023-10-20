@@ -1,7 +1,9 @@
 ---
 title: Shape.Chart
-second_title: Справочник по API Aspose.Words для .NET
-description: Shape свойство. Предоставляет доступ к свойствам диаграммы если эта фигура имеетChart .
+linktitle: Chart
+articleTitle: Chart
+second_title: Aspose.Words для .NET
+description: Shape Chart свойство. Предоставляет доступ к свойствам диаграммы если эта фигура имеетChart  на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.drawing/shape/chart/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.drawing/shape/chart/
 public Chart Chart { get; }
 ```
 
-### Примечания
+## Примечания
 
 Это свойство вернет[`Chart`](../../../aspose.words.drawing.charts/chart/) возражать, только если[`HasChart`](../haschart/) Свойство `истинный` для этого[`Shape`](../)и в противном случае выдаст исключение.
 
-### Примеры
+## Примеры
 
 Показывает, как перебирать все фигуры в документе.
 
@@ -142,7 +144,5 @@ private class ShapeAppearancePrinter : DocumentVisitor
 
 * class [Chart](../../../aspose.words.drawing.charts/chart/)
 * class [Shape](../)
-* пространство имен [Aspose.Words.Drawing](../../shape/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

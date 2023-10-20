@@ -1,7 +1,9 @@
 ---
 title: ConvertUtil.InchToPoint
-second_title: Aspose.Words für .NET-API-Referenz
-description: ConvertUtil methode. Konvertiert Zoll in Punkte.
+linktitle: InchToPoint
+articleTitle: InchToPoint
+second_title: Aspose.Words für .NET
+description: ConvertUtil InchToPoint methode. Konvertiert Zoll in Punkte in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words/convertutil/inchtopoint/
@@ -18,11 +20,11 @@ public static double InchToPoint(double inches)
 | --- | --- | --- |
 | inches | Double | Der zu konvertierende Wert. |
 
-### Bemerkungen
+## Bemerkungen
 
 1 Zoll entspricht 72 Punkten.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Papiergröße, Ausrichtung, Ränder und andere Einstellungen für einen Abschnitt angepasst werden.
 
@@ -75,7 +77,5 @@ doc.Save(ArtifactsDir + "UtilityClasses.PointsAndInches.docx");
 ### Siehe auch
 
 * class [ConvertUtil](../)
-* namensraum [Aspose.Words](../../convertutil/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

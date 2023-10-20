@@ -1,7 +1,9 @@
 ---
 title: Font.NameBi
-second_title: Aspose.Words per .NET API Reference
-description: Font proprietà. Restituisce o imposta il nome del carattere in un documento in lingua da destra a sinistra.
+linktitle: NameBi
+articleTitle: NameBi
+second_title: Aspose.Words per .NET
+description: Font NameBi proprietà. Restituisce o imposta il nome del carattere in un documento in lingua da destra a sinistra in C#.
 type: docs
 weight: 250
 url: /it/net/aspose.words/font/namebi/
@@ -14,7 +16,7 @@ Restituisce o imposta il nome del carattere in un documento in lingua da destra 
 public string NameBi { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come definire set separati di impostazioni dei caratteri per il testo da destra a sinistra e da destra a sinistra.
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "Font.Bidi.docx");
 
 * property [Name](../name/)
 * class [Font](../)
-* spazio dei nomi [Aspose.Words](../../font/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

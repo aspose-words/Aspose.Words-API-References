@@ -1,7 +1,9 @@
 ---
 title: Cell.Paragraphs
-second_title: Справочник по API Aspose.Words для .NET
-description: Cell свойство. Получает коллекцию абзацев которые являются непосредственными дочерними элементами ячейки.
+linktitle: Paragraphs
+articleTitle: Paragraphs
+second_title: Aspose.Words для .NET
+description: Cell Paragraphs свойство. Получает коллекцию абзацев которые являются непосредственными дочерними элементами ячейки на С#.
 type: docs
 weight: 90
 url: /ru/net/aspose.words.tables/cell/paragraphs/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.tables/cell/paragraphs/
 public ParagraphCollection Paragraphs { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как настроить таблицу так, чтобы она оставалась вместе на одной странице.
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "Table.KeepTableTogether.docx");
 
 * class [ParagraphCollection](../../../aspose.words/paragraphcollection/)
 * class [Cell](../)
-* пространство имен [Aspose.Words.Tables](../../cell/)
+* пространство имен [Aspose.Words.Tables](../../../aspose.words.tables/)
 * сборка [Aspose.Words](../../../)
-
-

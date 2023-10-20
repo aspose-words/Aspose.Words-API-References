@@ -1,7 +1,9 @@
 ---
 title: RevisionCollection.Item
-second_title: Aspose.Words لمراجع .NET API
-description: RevisionCollection ملكية. إرجاع أRevision في الفهرس المحدد.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words لـ .NET
+description: RevisionCollection Item ملكية. إرجاع أRevision في الفهرس المحدد في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words/revisioncollection/item/
@@ -18,7 +20,7 @@ public Revision this[int index] { get; }
 | --- | --- |
 | index | فهرس في المجموعة. |
 
-### ملاحظات
+## ملاحظات
 
 المؤشر قائم على الصفر.
 
@@ -28,7 +30,7 @@ public Revision this[int index] { get; }
 
 إذا كان الفهرس سالبًا وقيمته المطلقة أكبر من عدد العناصر الموجودة في القائمة، فسيُرجع هذا مرجعًا فارغًا.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التعامل مع المراجعات في المستند.
 
@@ -112,7 +114,5 @@ Assert.AreEqual("This is revision #1. \rThis is revision #2.", doc.GetText().Tri
 
 * class [Revision](../../revision/)
 * class [RevisionCollection](../)
-* مساحة الاسم [Aspose.Words](../../revisioncollection/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

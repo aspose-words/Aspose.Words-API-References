@@ -1,7 +1,9 @@
 ---
 title: Table.FirstRow
-second_title: Справочник по API Aspose.Words для .NET
-description: Table свойство. Возвращает первыйRow узел в таблице.
+linktitle: FirstRow
+articleTitle: FirstRow
+second_title: Aspose.Words для .NET
+description: Table FirstRow свойство. Возвращает первыйRow узел в таблице на С#.
 type: docs
 weight: 160
 url: /ru/net/aspose.words.tables/table/firstrow/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.tables/table/firstrow/
 public Row FirstRow { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как удалить первую и последнюю строки всех таблиц в документе.
 
@@ -62,7 +64,5 @@ doc.Save(ArtifactsDir + "Table.CombineTables.docx");
 
 * class [Row](../../row/)
 * class [Table](../)
-* пространство имен [Aspose.Words.Tables](../../table/)
+* пространство имен [Aspose.Words.Tables](../../../aspose.words.tables/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ImageData.HasImage
-second_title: Aspose.Words för .NET API Referens
-description: ImageData fast egendom. ReturnerarSann om formen har bildbytes eller länkar en bild.
+linktitle: HasImage
+articleTitle: HasImage
+second_title: Aspose.Words för .NET
+description: ImageData HasImage fast egendom. ReturnerarSann om formen har bildbytes eller länkar en bild i C#.
 type: docs
 weight: 110
 url: /sv/net/aspose.words.drawing/imagedata/hasimage/
@@ -14,7 +16,7 @@ Returnerar`Sann` om formen har bildbytes eller länkar en bild.
 public bool HasImage { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man sparar alla bilder från ett dokument till filsystemet.
 
@@ -47,7 +49,5 @@ using (IEnumerator<Shape> enumerator = shapesWithImages.GetEnumerator())
 ### Se även
 
 * class [ImageData](../)
-* namnutrymme [Aspose.Words.Drawing](../../imagedata/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Footnote.FootnoteType
-second_title: Aspose.Words for .NET API 参考
-description: Footnote 财产. 返回一个值指定这是脚注还是尾注
+linktitle: FootnoteType
+articleTitle: FootnoteType
+second_title: 用于 .NET 的 Aspose.Words
+description: Footnote FootnoteType 财产. 返回一个值指定这是脚注还是尾注 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.notes/footnote/footnotetype/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.notes/footnote/footnotetype/
 public FootnoteType FootnoteType { get; }
 ```
 
-### 例子
+## 例子
 
 显示脚注和尾注之间的区别。
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "InlineStory.FootnoteEndnote.docx");
 
 * enum [FootnoteType](../../footnotetype/)
 * class [Footnote](../)
-* 命名空间 [Aspose.Words.Notes](../../footnote/)
+* 命名空间 [Aspose.Words.Notes](../../../aspose.words.notes/)
 * 部件 [Aspose.Words](../../../)
-
-

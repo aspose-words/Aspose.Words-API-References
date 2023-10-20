@@ -1,7 +1,9 @@
 ---
 title: MetafileRenderingOptions.UseEmfEmbeddedToWmf
-second_title: Aspose.Words för .NET API Referens
-description: MetafileRenderingOptions fast egendom. Hämtar eller ställer in ett värde som bestämmer hur WMFmetafiler med inbäddade EMFmetafiler ska renderas.
+linktitle: UseEmfEmbeddedToWmf
+articleTitle: UseEmfEmbeddedToWmf
+second_title: Aspose.Words för .NET
+description: MetafileRenderingOptions UseEmfEmbeddedToWmf fast egendom. Hämtar eller ställer in ett värde som bestämmer hur WMFmetafiler med inbäddade EMFmetafiler ska renderas i C#.
 type: docs
 weight: 70
 url: /sv/net/aspose.words.saving/metafilerenderingoptions/useemfembeddedtowmf/
@@ -14,7 +16,7 @@ Hämtar eller ställer in ett värde som bestämmer hur WMF-metafiler med inbäd
 public bool UseEmfEmbeddedToWmf { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 WMF-metafiler kan innehålla inbäddade EMF-data. MS Word använder i de flesta fall inbäddade EMF-data. GDI+ använder alltid WMF-data.
 
@@ -26,7 +28,7 @@ Det här alternativet används endast när metafilen renderas som vektorgrafik. 
 
 Standardvärdet är`Sann`.
 
-### Exempel
+## Exempel
 
 Visar hur du konfigurerar förbättrade Windows Metafil-relaterade renderingsalternativ när du sparar till PDF.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.RenderMetafile.pdf", saveOptions);
 ### Se även
 
 * class [MetafileRenderingOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../metafilerenderingoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

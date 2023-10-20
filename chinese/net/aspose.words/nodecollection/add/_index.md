@@ -1,7 +1,9 @@
 ---
 title: NodeCollection.Add
-second_title: Aspose.Words for .NET API 参考
-description: NodeCollection 方法. 将节点添加到集合的末尾
+linktitle: Add
+articleTitle: Add
+second_title: 用于 .NET 的 Aspose.Words
+description: NodeCollection Add 方法. 将节点添加到集合的末尾 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words/nodecollection/add/
@@ -24,13 +26,13 @@ public void Add(Node node)
 | --- | --- |
 | NotSupportedException | 这[`NodeCollection`](../)是一个“深度”的集合。 |
 
-### 评论
+## 评论
 
 该节点作为子节点插入到创建集合的节点对象中。
 
 如果插入的节点是从另一个文档创建的，则应使用 [`ImportNode`](../../documentbase/importnode/)将节点导入到当前文档。 然后可以将导入的节点插入到当前文档中。
 
-### 例子
+## 例子
 
 演示如何准备新的截面节点以进行编辑。
 
@@ -63,7 +65,5 @@ Assert.AreEqual("Hello world!", doc.GetText().Trim());
 
 * class [Node](../../node/)
 * class [NodeCollection](../)
-* 命名空间 [Aspose.Words](../../nodecollection/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

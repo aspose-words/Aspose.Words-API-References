@@ -1,7 +1,9 @@
 ---
 title: DigitalSignatureCollection.IsValid
-second_title: Справочник по API Aspose.Words для .NET
-description: DigitalSignatureCollection свойство. Возвращаетистинный если все цифровые подписи в этой коллекции действительны и документ не был подделан Также возвращаетсяистинный если нет цифровых подписей. ВозвращаетЛОЖЬ если хотя бы одна цифровая подпись недействительна.
+linktitle: IsValid
+articleTitle: IsValid
+second_title: Aspose.Words для .NET
+description: DigitalSignatureCollection IsValid свойство. Возвращаетистинный если все цифровые подписи в этой коллекции действительны и документ не был подделан Также возвращаетсяистинный если нет цифровых подписей. ВозвращаетЛОЖЬ если хотя бы одна цифровая подпись недействительна на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.digitalsignatures/digitalsignaturecollection/isvalid/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.digitalsignatures/digitalsignaturecollection/isvalid/
 public bool IsValid { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как подписывать документы с помощью сертификатов X.509.
 
@@ -57,7 +59,5 @@ Assert.AreEqual("CN=Morzal.Me", signedDoc.DigitalSignatures[0].SubjectName);
 ### Смотрите также
 
 * class [DigitalSignatureCollection](../)
-* пространство имен [Aspose.Words.DigitalSignatures](../../digitalsignaturecollection/)
+* пространство имен [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * сборка [Aspose.Words](../../../)
-
-

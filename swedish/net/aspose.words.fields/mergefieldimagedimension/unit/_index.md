@@ -1,7 +1,9 @@
 ---
 title: MergeFieldImageDimension.Unit
-second_title: Aspose.Words för .NET API Referens
-description: MergeFieldImageDimension fast egendom. Enheten.
+linktitle: Unit
+articleTitle: Unit
+second_title: Aspose.Words för .NET
+description: MergeFieldImageDimension Unit fast egendom. Enheten i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.fields/mergefieldimagedimension/unit/
@@ -14,7 +16,7 @@ Enheten.
 public MergeFieldImageDimensionUnit Unit { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du ställer in dimensionerna för bilder när MERGEFIELDS accepterar dem under en sammanfogning.
 
@@ -85,7 +87,5 @@ private class MergedImageResizer : IFieldMergingCallback
 
 * enum [MergeFieldImageDimensionUnit](../../mergefieldimagedimensionunit/)
 * class [MergeFieldImageDimension](../)
-* namnutrymme [Aspose.Words.Fields](../../mergefieldimagedimension/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

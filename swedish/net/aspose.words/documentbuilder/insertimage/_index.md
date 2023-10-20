@@ -1,12 +1,14 @@
 ---
 title: DocumentBuilder.InsertImage
-second_title: Aspose.Words för .NET API Referens
-description: DocumentBuilder metod. Infogar en bild från ett .NETImage objekt i dokumentet. Bilden infogas inline och i 100  skala.
+linktitle: InsertImage
+articleTitle: InsertImage
+second_title: Aspose.Words för .NET
+description: DocumentBuilder InsertImage metod. Infogar en bild från ett .NETImage objekt i dokumentet. Bilden infogas inline och i 100  skala i C#.
 type: docs
-weight: 380
+weight: 370
 url: /sv/net/aspose.words/documentbuilder/insertimage/
 ---
-## InsertImage(Image) {#insertimage_3}
+## InsertImage(*Image*) {#insertimage_3}
 
 Infogar en bild från ett .NETImage objekt i dokumentet. Bilden infogas inline och i 100 % skala.
 
@@ -22,11 +24,11 @@ public Shape InsertImage(Image image)
 
 Bildnoden som precis infogades.
 
-### Anmärkningar
+## Anmärkningar
 
 Du kan ändra bildstorlek, plats, positioneringsmetod och andra inställningar med hjälp av [`Shape`](../../../aspose.words.drawing/shape/) objekt som returneras med denna metod.
 
-### Exempel
+## Exempel
 
 Visar hur man infogar en bild från ett objekt i ett dokument.
 
@@ -58,12 +60,12 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromImageObject.docx")
 
 * class [Shape](../../../aspose.words.drawing/shape/)
 * class [DocumentBuilder](../)
-* namnutrymme [Aspose.Words](../../documentbuilder/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## InsertImage(string) {#insertimage_9}
+## InsertImage(*string*) {#insertimage_9}
 
 Infogar en bild från en fil eller URL i dokumentet. Bilden infogas inline och i 100 % skala.
 
@@ -79,13 +81,13 @@ public Shape InsertImage(string fileName)
 
 Bildnoden som precis infogades.
 
-### Anmärkningar
+## Anmärkningar
 
 Denna överbelastning kommer automatiskt att ladda ner bilden innan den infogas i document om du anger en fjärr-URI.
 
 Du kan ändra bildstorlek, plats, positioneringsmetod och andra inställningar med hjälp av [`Shape`](../../../aspose.words.drawing/shape/) objekt som returneras med denna metod.
 
-### Exempel
+## Exempel
 
 Visar hur man infogar gif-bild i dokumentet.
 
@@ -191,12 +193,12 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromFilename.docx");
 
 * class [Shape](../../../aspose.words.drawing/shape/)
 * class [DocumentBuilder](../)
-* namnutrymme [Aspose.Words](../../documentbuilder/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## InsertImage(Stream) {#insertimage_6}
+## InsertImage(*Stream*) {#insertimage_6}
 
 Infogar en bild från en ström i dokumentet. Bilden infogas inline och i 100 % skala.
 
@@ -212,11 +214,11 @@ public Shape InsertImage(Stream stream)
 
 Bildnoden som precis infogades.
 
-### Anmärkningar
+## Anmärkningar
 
 Du kan ändra bildstorlek, plats, positioneringsmetod och andra inställningar med hjälp av [`Shape`](../../../aspose.words.drawing/shape/) objekt som returneras med denna metod.
 
-### Exempel
+## Exempel
 
 Visar hur man infogar en form med en bild från en ström i ett dokument.
 
@@ -264,12 +266,12 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromStream.docx");
 
 * class [Shape](../../../aspose.words.drawing/shape/)
 * class [DocumentBuilder](../)
-* namnutrymme [Aspose.Words](../../documentbuilder/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## InsertImage(byte[]) {#insertimage}
+## InsertImage(*byte[]*) {#insertimage}
 
 Infogar en bild från en byte-array i dokumentet. Bilden infogas inline och i 100 % skala.
 
@@ -285,11 +287,11 @@ public Shape InsertImage(byte[] imageBytes)
 
 Bildnoden som precis infogades.
 
-### Anmärkningar
+## Anmärkningar
 
 Du kan ändra bildstorlek, plats, positioneringsmetod och andra inställningar med hjälp av [`Shape`](../../../aspose.words.drawing/shape/) objekt som returneras med denna metod.
 
-### Exempel
+## Exempel
 
 Visar hur man infogar en bild från en byte-array i ett dokument.
 
@@ -363,12 +365,12 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromByteArrayNetStanda
 
 * class [Shape](../../../aspose.words.drawing/shape/)
 * class [DocumentBuilder](../)
-* namnutrymme [Aspose.Words](../../documentbuilder/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## InsertImage(Image, double, double) {#insertimage_5}
+## InsertImage(*Image, double, double*) {#insertimage_5}
 
 Infogar en inline-bild från ett .NETImage objekt i dokumentet och skalar det till den angivna storleken.
 
@@ -386,11 +388,11 @@ public Shape InsertImage(Image image, double width, double height)
 
 Bildnoden som precis infogades.
 
-### Anmärkningar
+## Anmärkningar
 
 Du kan ändra bildstorlek, plats, positioneringsmetod och andra inställningar med hjälp av [`Shape`](../../../aspose.words.drawing/shape/) objekt som returneras med denna metod.
 
-### Exempel
+## Exempel
 
 Visar hur man infogar en bild från ett objekt i ett dokument.
 
@@ -450,12 +452,12 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromImageObjectNetStan
 
 * class [Shape](../../../aspose.words.drawing/shape/)
 * class [DocumentBuilder](../)
-* namnutrymme [Aspose.Words](../../documentbuilder/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## InsertImage(string, double, double) {#insertimage_11}
+## InsertImage(*string, double, double*) {#insertimage_11}
 
 Infogar en inline-bild från en fil eller URL i dokumentet och skalar den till den angivna storleken.
 
@@ -473,11 +475,11 @@ public Shape InsertImage(string fileName, double width, double height)
 
 Bildnoden som precis infogades.
 
-### Anmärkningar
+## Anmärkningar
 
 Du kan ändra bildstorlek, plats, positioneringsmetod och andra inställningar med hjälp av [`Shape`](../../../aspose.words.drawing/shape/) objekt som returneras med denna metod.
 
-### Exempel
+## Exempel
 
 Visar hur man infogar en bild från det lokala filsystemet i ett dokument.
 
@@ -508,12 +510,12 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromFilename.docx");
 
 * class [Shape](../../../aspose.words.drawing/shape/)
 * class [DocumentBuilder](../)
-* namnutrymme [Aspose.Words](../../documentbuilder/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## InsertImage(Stream, double, double) {#insertimage_8}
+## InsertImage(*Stream, double, double*) {#insertimage_8}
 
 Infogar en inline-bild från en ström i dokumentet och skalar den till den angivna storleken.
 
@@ -531,11 +533,11 @@ public Shape InsertImage(Stream stream, double width, double height)
 
 Bildnoden som precis infogades.
 
-### Anmärkningar
+## Anmärkningar
 
 Du kan ändra bildstorlek, plats, positioneringsmetod och andra inställningar med hjälp av [`Shape`](../../../aspose.words.drawing/shape/) objekt som returneras med denna metod.
 
-### Exempel
+## Exempel
 
 Visar hur man infogar en bild från en ström i ett dokument.
 
@@ -568,12 +570,12 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromStream.docx");
 
 * class [Shape](../../../aspose.words.drawing/shape/)
 * class [DocumentBuilder](../)
-* namnutrymme [Aspose.Words](../../documentbuilder/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## InsertImage(byte[], double, double) {#insertimage_2}
+## InsertImage(*byte[], double, double*) {#insertimage_2}
 
 Infogar en inline-bild från en byte-array i dokumentet och skalar den till den angivna storleken.
 
@@ -591,11 +593,11 @@ public Shape InsertImage(byte[] imageBytes, double width, double height)
 
 Bildnoden som precis infogades.
 
-### Anmärkningar
+## Anmärkningar
 
 Du kan ändra bildstorlek, plats, positioneringsmetod och andra inställningar med hjälp av [`Shape`](../../../aspose.words.drawing/shape/) objekt som returneras med denna metod.
 
-### Exempel
+## Exempel
 
 Visar hur man infogar en bild från en byte-array i ett dokument.
 
@@ -669,12 +671,12 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromByteArrayNetStanda
 
 * class [Shape](../../../aspose.words.drawing/shape/)
 * class [DocumentBuilder](../)
-* namnutrymme [Aspose.Words](../../documentbuilder/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## InsertImage(Image, RelativeHorizontalPosition, double, RelativeVerticalPosition, double, double, double, WrapType) {#insertimage_4}
+## InsertImage(*Image, [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/), double, [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/), double, double, double, [WrapType](../../../aspose.words.drawing/wraptype/)*) {#insertimage_4}
 
 Infogar en bild från ett .NETImage objekt vid angiven position och storlek.
 
@@ -698,11 +700,11 @@ public Shape InsertImage(Image image, RelativeHorizontalPosition horzPos, double
 
 Bildnoden som precis infogades.
 
-### Anmärkningar
+## Anmärkningar
 
 Du kan ändra bildstorlek, plats, positioneringsmetod och andra inställningar med hjälp av [`Shape`](../../../aspose.words.drawing/shape/) objekt som returneras med denna metod.
 
-### Exempel
+## Exempel
 
 Visar hur man infogar en bild från ett objekt i ett dokument.
 
@@ -765,12 +767,12 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromImageObjectNetStan
 * enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/)
 * enum [WrapType](../../../aspose.words.drawing/wraptype/)
 * class [DocumentBuilder](../)
-* namnutrymme [Aspose.Words](../../documentbuilder/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## InsertImage(string, RelativeHorizontalPosition, double, RelativeVerticalPosition, double, double, double, WrapType) {#insertimage_10}
+## InsertImage(*string, [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/), double, [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/), double, double, double, [WrapType](../../../aspose.words.drawing/wraptype/)*) {#insertimage_10}
 
 Infogar en bild från en fil eller URL på angiven position och storlek.
 
@@ -794,11 +796,11 @@ public Shape InsertImage(string fileName, RelativeHorizontalPosition horzPos, do
 
 Bildnoden som precis infogades.
 
-### Anmärkningar
+## Anmärkningar
 
 Du kan ändra bildstorlek, plats, positioneringsmetod och andra inställningar med hjälp av [`Shape`](../../../aspose.words.drawing/shape/) objekt som returneras med denna metod.
 
-### Exempel
+## Exempel
 
 Visar hur man infogar en bild.
 
@@ -869,12 +871,12 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromFilename.docx");
 * enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/)
 * enum [WrapType](../../../aspose.words.drawing/wraptype/)
 * class [DocumentBuilder](../)
-* namnutrymme [Aspose.Words](../../documentbuilder/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## InsertImage(Stream, RelativeHorizontalPosition, double, RelativeVerticalPosition, double, double, double, WrapType) {#insertimage_7}
+## InsertImage(*Stream, [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/), double, [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/), double, double, double, [WrapType](../../../aspose.words.drawing/wraptype/)*) {#insertimage_7}
 
 Infogar en bild från en ström vid angiven position och storlek.
 
@@ -898,11 +900,11 @@ public Shape InsertImage(Stream stream, RelativeHorizontalPosition horzPos, doub
 
 Bildnoden som precis infogades.
 
-### Anmärkningar
+## Anmärkningar
 
 Du kan ändra bildstorlek, plats, positioneringsmetod och andra inställningar med hjälp av [`Shape`](../../../aspose.words.drawing/shape/) objekt som returneras med denna metod.
 
-### Exempel
+## Exempel
 
 Visar hur man infogar en bild från en ström i ett dokument.
 
@@ -938,12 +940,12 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromStream.docx");
 * enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/)
 * enum [WrapType](../../../aspose.words.drawing/wraptype/)
 * class [DocumentBuilder](../)
-* namnutrymme [Aspose.Words](../../documentbuilder/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## InsertImage(byte[], RelativeHorizontalPosition, double, RelativeVerticalPosition, double, double, double, WrapType) {#insertimage_1}
+## InsertImage(*byte[], [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/), double, [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/), double, double, double, [WrapType](../../../aspose.words.drawing/wraptype/)*) {#insertimage_1}
 
 Infogar en bild från en byte-array vid angiven position och storlek.
 
@@ -967,11 +969,11 @@ public Shape InsertImage(byte[] imageBytes, RelativeHorizontalPosition horzPos, 
 
 Bildnoden som precis infogades.
 
-### Anmärkningar
+## Anmärkningar
 
 Du kan ändra bildstorlek, plats, positioneringsmetod och andra inställningar med hjälp av [`Shape`](../../../aspose.words.drawing/shape/) objekt som returneras med denna metod.
 
-### Exempel
+## Exempel
 
 Visar hur man infogar en bild från en byte-array i ett dokument.
 
@@ -1048,7 +1050,5 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromByteArrayNetStanda
 * enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/)
 * enum [WrapType](../../../aspose.words.drawing/wraptype/)
 * class [DocumentBuilder](../)
-* namnutrymme [Aspose.Words](../../documentbuilder/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldCollection.GetEnumerator
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldCollection метод. Возвращает объект перечислителя.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words для .NET
+description: FieldCollection GetEnumerator метод. Возвращает объект перечислителя на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.fields/fieldcollection/getenumerator/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldcollection/getenumerator/
 public IEnumerator<Field> GetEnumerator()
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как работать с коллекцией полей.
 
@@ -118,7 +120,5 @@ public class FieldVisitor : DocumentVisitor
 
 * class [Field](../../field/)
 * class [FieldCollection](../)
-* пространство имен [Aspose.Words.Fields](../../fieldcollection/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

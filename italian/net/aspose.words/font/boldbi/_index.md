@@ -1,7 +1,9 @@
 ---
 title: Font.BoldBi
-second_title: Aspose.Words per .NET API Reference
-description: Font proprietà. Vero se il testo da destra a sinistra è formattato in grassetto.
+linktitle: BoldBi
+articleTitle: BoldBi
+second_title: Aspose.Words per .NET
+description: Font BoldBi proprietà. Vero se il testo da destra a sinistra è formattato in grassetto in C#.
 type: docs
 weight: 50
 url: /it/net/aspose.words/font/boldbi/
@@ -14,7 +16,7 @@ Vero se il testo da destra a sinistra è formattato in grassetto.
 public bool BoldBi { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come definire set separati di impostazioni dei caratteri per il testo da destra a sinistra e da destra a sinistra.
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "Font.Bidi.docx");
 ### Guarda anche
 
 * class [Font](../)
-* spazio dei nomi [Aspose.Words](../../font/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

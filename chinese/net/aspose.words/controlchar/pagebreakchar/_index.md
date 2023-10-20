@@ -1,7 +1,9 @@
 ---
 title: ControlChar.PageBreakChar
-second_title: Aspose.Words for .NET API 参考
-description: ControlChar 场地. 分页符char12 或f.
+linktitle: PageBreakChar
+articleTitle: PageBreakChar
+second_title: 用于 .NET 的 Aspose.Words
+description: ControlChar PageBreakChar 场地. 分页符char12 或f 在 C#.
 type: docs
 weight: 210
 url: /zh/net/aspose.words/controlchar/pagebreakchar/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/controlchar/pagebreakchar/
 public const char PageBreakChar;
 ```
 
-### 例子
+## 例子
 
 演示如何向文档添加各种控制字符。
 
@@ -86,7 +88,5 @@ Assert.AreEqual(Convert.ToChar(ControlChar.ColumnBreak), ControlChar.ColumnBreak
 ### 也可以看看
 
 * class [ControlChar](../)
-* 命名空间 [Aspose.Words](../../controlchar/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

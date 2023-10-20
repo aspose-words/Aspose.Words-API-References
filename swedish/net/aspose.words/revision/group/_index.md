@@ -1,7 +1,9 @@
 ---
 title: Revision.Group
-second_title: Aspose.Words för .NET API Referens
-description: Revision fast egendom. Hämtar revisionsgruppen. Returnerarnull om revisionen inte tillhör någon grupp.
+linktitle: Group
+articleTitle: Group
+second_title: Aspose.Words för .NET
+description: Revision Group fast egendom. Hämtar revisionsgruppen. Returnerarnull om revisionen inte tillhör någon grupp i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words/revision/group/
@@ -14,11 +16,11 @@ Hämtar revisionsgruppen. Returnerar`null` om revisionen inte tillhör någon gr
 public RevisionGroup Group { get; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Revision har ingen grupp om revisionstypen är detStyleDefinitionChangeor om revisionen inte längre finns i dokumentsammanhang (godkänd/avvisad).
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med revisioner i ett dokument.
 
@@ -102,7 +104,5 @@ Assert.AreEqual("This is revision #1. \rThis is revision #2.", doc.GetText().Tri
 
 * class [RevisionGroup](../../revisiongroup/)
 * class [Revision](../)
-* namnutrymme [Aspose.Words](../../revision/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

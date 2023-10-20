@@ -1,7 +1,9 @@
 ---
 title: FontSubstitutionSettings.FontInfoSubstitution
-second_title: Aspose.Words för .NET API Referens
-description: FontSubstitutionSettings fast egendom. Inställningar relaterade till regel för ersättning av teckensnittsinformation.
+linktitle: FontInfoSubstitution
+articleTitle: FontInfoSubstitution
+second_title: Aspose.Words för .NET
+description: FontSubstitutionSettings FontInfoSubstitution fast egendom. Inställningar relaterade till regel för ersättning av teckensnittsinformation i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.fonts/fontsubstitutionsettings/fontinfosubstitution/
@@ -14,7 +16,7 @@ Inställningar relaterade till regel för ersättning av teckensnittsinformation
 public FontInfoSubstitutionRule FontInfoSubstitution { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du ställer in egenskapen för att hitta den närmaste matchningen för ett saknat teckensnitt från tillgängliga teckensnittskällor.
 
@@ -75,7 +77,5 @@ public class HandleDocumentSubstitutionWarnings : IWarningCallback
 
 * class [FontInfoSubstitutionRule](../../fontinfosubstitutionrule/)
 * class [FontSubstitutionSettings](../)
-* namnutrymme [Aspose.Words.Fonts](../../fontsubstitutionsettings/)
+* namnutrymme [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * hopsättning [Aspose.Words](../../../)
-
-

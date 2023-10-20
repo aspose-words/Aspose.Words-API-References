@@ -1,7 +1,9 @@
 ---
 title: EditableRange.EditorGroup
-second_title: Aspose.Words for .NET API 参考
-description: EditableRange 财产. 返回或设置别名或编辑组用于确定是否允许当前用户 编辑此可编辑范围
+linktitle: EditorGroup
+articleTitle: EditorGroup
+second_title: 用于 .NET 的 Aspose.Words
+description: EditableRange EditorGroup 财产. 返回或设置别名或编辑组用于确定是否允许当前用户 编辑此可编辑范围 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words/editablerange/editorgroup/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words/editablerange/editorgroup/
 public EditorType EditorGroup { get; set; }
 ```
 
-### 评论
+## 评论
 
 对于具体的可编辑范围，单个用户和编辑者组不能同时设置， 如果其中一个设置了，另一个就会被清除。
 
-### 例子
+## 例子
 
 演示如何创建嵌套的可编辑范围。
 
@@ -166,7 +168,5 @@ public class EditableRangePrinter : DocumentVisitor
 
 * enum [EditorType](../../editortype/)
 * class [EditableRange](../)
-* 命名空间 [Aspose.Words](../../editablerange/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

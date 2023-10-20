@@ -1,7 +1,9 @@
 ---
 title: CustomPart.RelationshipType
-second_title: Referencia de API de Aspose.Words para .NET
-description: CustomPart propiedad. Obtiene o establece el tipo de relación del artículo principal con este artículo personalizado.
+linktitle: RelationshipType
+articleTitle: RelationshipType
+second_title: Aspose.Words para .NET
+description: CustomPart RelationshipType propiedad. Obtiene o establece el tipo de relación del artículo principal con este artículo personalizado en C#.
 type: docs
 weight: 60
 url: /es/net/aspose.words.markup/custompart/relationshiptype/
@@ -14,13 +16,13 @@ Obtiene o establece el tipo de relación del artículo principal con este artíc
 public string RelationshipType { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 El tipo de relación para una pieza personalizada debe ser "desconocido", por ejemplo, un tipo de relación personalizada, , no uno de los tipos de relación definidos en ISO/IEC 29500.
 
 El valor predeterminado es una cadena vacía. Un valor válido debe ser una cadena que no esté vacía.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo acceder a la colección de piezas personalizadas arbitrarias de un documento.
 
@@ -64,7 +66,5 @@ Assert.AreEqual(0, doc.PackageCustomParts.Count);
 ### Ver también
 
 * class [CustomPart](../)
-* espacio de nombres [Aspose.Words.Markup](../../custompart/)
+* espacio de nombres [Aspose.Words.Markup](../../../aspose.words.markup/)
 * asamblea [Aspose.Words](../../../)
-
-

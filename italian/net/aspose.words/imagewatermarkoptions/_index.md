@@ -1,7 +1,9 @@
 ---
-title: Class ImageWatermarkOptions
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.ImageWatermarkOptions classe. Contiene le opzioni che possono essere specificate quando si aggiunge una filigrana con limmagine.
+title: ImageWatermarkOptions Class
+linktitle: ImageWatermarkOptions
+articleTitle: ImageWatermarkOptions
+second_title: Aspose.Words per .NET
+description: Aspose.Words.ImageWatermarkOptions classe. Contiene le opzioni che possono essere specificate quando si aggiunge una filigrana con limmagine in C#.
 type: docs
 weight: 3220
 url: /it/net/aspose.words/imagewatermarkoptions/
@@ -33,5 +35,3 @@ public class ImageWatermarkOptions
 
 * spazio dei nomi [Aspose.Words](../../aspose.words/)
 * assemblea [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.ReverseOrder
-second_title: Aspose.Words für .NET-API-Referenz
-description: ChartAxis eigendom. Gibt ein Flag zurück oder setzt es das angibt ob die Werte der Achse in umgekehrter Reihenfolge angezeigt werden sollen d. h. von max nach min.
+linktitle: ReverseOrder
+articleTitle: ReverseOrder
+second_title: Aspose.Words für .NET
+description: ChartAxis ReverseOrder eigendom. Gibt ein Flag zurück oder setzt es das angibt ob die Werte der Achse in umgekehrter Reihenfolge angezeigt werden sollen d. h. von max nach min in C#.
 type: docs
 weight: 200
 url: /de/net/aspose.words.drawing.charts/chartaxis/reverseorder/
@@ -14,11 +16,11 @@ Gibt ein Flag zurück oder setzt es, das angibt, ob die Werte der Achse in umgek
 public bool ReverseOrder { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Die Eigenschaft wird von den neuen Diagrammen von MS Office 2016 nicht unterstützt. Der Standardwert ist`FALSCH` .
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man ein Diagramm einfügt und das Erscheinungsbild seiner Achsen ändert.
 
@@ -71,7 +73,5 @@ doc.Save(ArtifactsDir + "Charts.AxisProperties.docx");
 ### Siehe auch
 
 * class [ChartAxis](../)
-* namensraum [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* namensraum [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../../)
-
-

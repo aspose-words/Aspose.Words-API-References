@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.Crosses
-second_title: Aspose.Words for .NET API 参考
-description: ChartAxis 财产. 指定该轴如何与垂直轴相交
+linktitle: Crosses
+articleTitle: Crosses
+second_title: 用于 .NET 的 Aspose.Words
+description: ChartAxis Crosses 财产. 指定该轴如何与垂直轴相交 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.drawing.charts/chartaxis/crosses/
@@ -14,13 +16,13 @@ url: /zh/net/aspose.words.drawing.charts/chartaxis/crosses/
 public AxisCrosses Crosses { get; set; }
 ```
 
-### 评论
+## 评论
 
 默认值为Automatic。
 
 MS Office 2016 新图表不支持该属性。
 
-### 例子
+## 例子
 
 演示如何插入图表并修改其轴的外观。
 
@@ -74,7 +76,5 @@ doc.Save(ArtifactsDir + "Charts.AxisProperties.docx");
 
 * enum [AxisCrosses](../../axiscrosses/)
 * class [ChartAxis](../)
-* 命名空间 [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* 命名空间 [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * 部件 [Aspose.Words](../../../)
-
-

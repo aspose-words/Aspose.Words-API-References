@@ -1,7 +1,9 @@
 ---
 title: AxisDisplayUnit.CustomUnit
-second_title: Aspose.Words für .NET-API-Referenz
-description: AxisDisplayUnit eigendom. Ruft einen benutzerdefinierten Divisor ab oder legt diesen fest um Anzeigeeinheiten auf der Werteachse zu skalieren.
+linktitle: CustomUnit
+articleTitle: CustomUnit
+second_title: Aspose.Words für .NET
+description: AxisDisplayUnit CustomUnit eigendom. Ruft einen benutzerdefinierten Divisor ab oder legt diesen fest um Anzeigeeinheiten auf der Werteachse zu skalieren in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.drawing.charts/axisdisplayunit/customunit/
@@ -14,13 +16,13 @@ Ruft einen benutzerdefinierten Divisor ab oder legt diesen fest, um Anzeigeeinhe
 public double CustomUnit { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Die Eigenschaft wird von den neuen Diagrammen von MS Office 2016 nicht unterstützt. Der Standardwert ist 1.
 
 Durch das Festlegen dieser Eigenschaft wird die festgelegt[`Unit`](../unit/) Eigenschaft zu Custom.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Teilstriche und angezeigten Werte einer Diagrammachse manipuliert werden.
 
@@ -78,7 +80,5 @@ doc.Save(ArtifactsDir + "Charts.AxisDisplayUnit.docx");
 ### Siehe auch
 
 * class [AxisDisplayUnit](../)
-* namensraum [Aspose.Words.Drawing.Charts](../../axisdisplayunit/)
+* namensraum [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../../)
-
-

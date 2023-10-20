@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.AddSpaceBetweenFarEastAndDigit
-second_title: Справочник по API Aspose.Words для .NET
-description: ParagraphFormat свойство. Получает или задает флаг указывающий регулируется ли автоматически межсимвольный интервал между регионами чисел и регионами восточноазиатского текста в текущем абзаце.
+linktitle: AddSpaceBetweenFarEastAndDigit
+articleTitle: AddSpaceBetweenFarEastAndDigit
+second_title: Aspose.Words для .NET
+description: ParagraphFormat AddSpaceBetweenFarEastAndDigit свойство. Получает или задает флаг указывающий регулируется ли автоматически межсимвольный интервал между регионами чисел и регионами восточноазиатского текста в текущем абзаце на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words/paragraphformat/addspacebetweenfareastanddigit/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/paragraphformat/addspacebetweenfareastanddigit/
 public bool AddSpaceBetweenFarEastAndDigit { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как вставить абзац в документ.
 
@@ -46,7 +48,5 @@ Assert.True(builder.CurrentParagraph.IsEndOfDocument);
 ### Смотрите также
 
 * class [ParagraphFormat](../)
-* пространство имен [Aspose.Words](../../paragraphformat/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

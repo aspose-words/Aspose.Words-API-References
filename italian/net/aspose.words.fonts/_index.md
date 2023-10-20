@@ -1,12 +1,14 @@
 ---
 title: Aspose.Words.Fonts
-second_title: Aspose.Words per .NET API Reference
-description: IL Aspose.Words.Fonts namespace fornisce classi ed enumerazioni per accedere alle informazioni sui caratteri utilizzati in un documento.
+linktitle: Aspose.Words.Fonts
+articleTitle: Aspose.Words.Fonts
+second_title: Aspose.Words per .NET
+description: ILAspose.Words.Fonts namespace fornisce classi ed enumerazioni per accedere alle informazioni sui caratteri utilizzati in un documento in C#.
 type: docs
 weight: 90
 url: /it/net/aspose.words.fonts/
 ---
-IL **Aspose.Words.Fonts** namespace fornisce classi ed enumerazioni per accedere alle informazioni sui caratteri utilizzati in un documento.
+IL**Aspose.Words.Fonts** namespace fornisce classi ed enumerazioni per accedere alle informazioni sui caratteri utilizzati in un documento.
 
 ## Classi
 
@@ -39,5 +41,3 @@ IL **Aspose.Words.Fonts** namespace fornisce classi ed enumerazioni per accedere
 | [FontFamily](./fontfamily/) | Rappresenta la famiglia di caratteri. |
 | [FontPitch](./fontpitch/) | Rappresenta la spaziatura del carattere. |
 | [FontSourceType](./fontsourcetype/) | Specifica il tipo di fonte di carattere. |
-
-

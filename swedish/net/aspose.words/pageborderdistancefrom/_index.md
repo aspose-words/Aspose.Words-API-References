@@ -1,7 +1,9 @@
 ---
-title: Enum PageBorderDistanceFrom
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.PageBorderDistanceFrom uppräkning. Anger placeringen av sidkanten i förhållande till sidmarginalen.
+title: PageBorderDistanceFrom Enum
+linktitle: PageBorderDistanceFrom
+articleTitle: PageBorderDistanceFrom
+second_title: Aspose.Words för .NET
+description: Aspose.Words.PageBorderDistanceFrom uppräkning. Anger placeringen av sidkanten i förhållande till sidmarginalen i C#.
 type: docs
 weight: 4350
 url: /sv/net/aspose.words/pageborderdistancefrom/
@@ -21,7 +23,7 @@ public enum PageBorderDistanceFrom
 | Text | `0` | Kantposition mäts från sidmarginalen. |
 | PageEdge | `1` | Kantpositionen mäts från sidans kant. |
 
-### Exempel
+## Exempel
 
 Visar hur man skapar en bred blå bandkant längst upp på första sidan.
 
@@ -48,5 +50,3 @@ doc.Save(ArtifactsDir + "PageSetup.PageBorderProperties.docx");
 * property [BorderDistanceFrom](../pagesetup/borderdistancefrom/)
 * namnutrymme [Aspose.Words](../../aspose.words/)
 * hopsättning [Aspose.Words](../../)
-
-

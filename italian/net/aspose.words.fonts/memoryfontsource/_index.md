@@ -1,7 +1,9 @@
 ---
-title: Class MemoryFontSource
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Fonts.MemoryFontSource classe. Rappresenta il singolo file di font TrueType archiviato in memoria.
+title: MemoryFontSource Class
+linktitle: MemoryFontSource
+articleTitle: MemoryFontSource
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Fonts.MemoryFontSource classe. Rappresenta il singolo file di font TrueType archiviato in memoria in C#.
 type: docs
 weight: 3020
 url: /it/net/aspose.words.fonts/memoryfontsource/
@@ -20,9 +22,9 @@ public class MemoryFontSource : FontSourceBase
 
 | Nome | Descrizione |
 | --- | --- |
-| [MemoryFontSource](memoryfontsource/#constructor)(byte[]) | Ctor. |
-| [MemoryFontSource](memoryfontsource/#constructor_1)(byte[], int) | Ctor. |
-| [MemoryFontSource](memoryfontsource/#constructor_2)(byte[], int, string) | Ctor. |
+| [MemoryFontSource](memoryfontsource/#constructor)(*byte[]*) | Ctor. |
+| [MemoryFontSource](memoryfontsource/#constructor_1)(*byte[], int*) | Ctor. |
+| [MemoryFontSource](memoryfontsource/#constructor_2)(*byte[], int, string*) | Ctor. |
 
 ## Proprietà
 
@@ -40,7 +42,7 @@ public class MemoryFontSource : FontSourceBase
 | --- | --- |
 | [GetAvailableFonts](../../aspose.words.fonts/fontsourcebase/getavailablefonts/)() | Restituisce l'elenco dei caratteri disponibili tramite questa origine. |
 
-### Esempi
+## Esempi
 
 Mostra come utilizzare una matrice di byte con i dati di un file di caratteri come origine dei caratteri.
 
@@ -61,5 +63,3 @@ Assert.AreEqual(0, memoryFontSource.Priority);
 * class [FontSourceBase](../fontsourcebase/)
 * spazio dei nomi [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * assemblea [Aspose.Words](../../)
-
-

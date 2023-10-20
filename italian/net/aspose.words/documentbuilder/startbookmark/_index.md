@@ -1,9 +1,11 @@
 ---
 title: DocumentBuilder.StartBookmark
-second_title: Aspose.Words per .NET API Reference
-description: DocumentBuilder metodo. Contrassegna la posizione corrente nel documento come inizio segnalibro.
+linktitle: StartBookmark
+articleTitle: StartBookmark
+second_title: Aspose.Words per .NET
+description: DocumentBuilder StartBookmark metodo. Contrassegna la posizione corrente nel documento come inizio segnalibro in C#.
 type: docs
-weight: 620
+weight: 610
 url: /it/net/aspose.words/documentbuilder/startbookmark/
 ---
 ## DocumentBuilder.StartBookmark method
@@ -22,13 +24,13 @@ public BookmarkStart StartBookmark(string bookmarkName)
 
 Il nodo iniziale del segnalibro appena creato.
 
-### Osservazioni
+## Osservazioni
 
 I segnalibri in un documento possono sovrapporsi e estendersi su qualsiasi intervallo. Per creare un segnalibro valido devi chiamarli entrambi`StartBookmark` E[`EndBookmark`](../endbookmark/) con lo stesso*bookmarkName* parametro .
 
 I segnalibri formati in modo errato o i segnalibri con nomi duplicati verranno ignorati quando il documento viene salvato.
 
-### Esempi
+## Esempi
 
 Mostra come creare un segnalibro.
 
@@ -71,7 +73,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertHyperlinkToLocalBookmark.docx");
 
 * class [BookmarkStart](../../bookmarkstart/)
 * class [DocumentBuilder](../)
-* spazio dei nomi [Aspose.Words](../../documentbuilder/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FormField.HelpText
-second_title: Aspose.Words für .NET-API-Referenz
-description: FormField eigendom. Gibt den Text zurück oder legt ihn fest der in einem Meldungsfeld angezeigt wird wenn das Formularfeld den Fokus hat und der Benutzer F1 drückt.
+linktitle: HelpText
+articleTitle: HelpText
+second_title: Aspose.Words für .NET
+description: FormField HelpText eigendom. Gibt den Text zurück oder legt ihn fest der in einem Meldungsfeld angezeigt wird wenn das Formularfeld den Fokus hat und der Benutzer F1 drückt in C#.
 type: docs
 weight: 100
 url: /de/net/aspose.words.fields/formfield/helptext/
@@ -14,13 +16,13 @@ Gibt den Text zurück oder legt ihn fest, der in einem Meldungsfeld angezeigt wi
 public string HelpText { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Wenn die[`OwnHelp`](../ownhelp/) Die Eigenschaft ist auf festgelegt`WAHR` ,`HelpText` Gibt den Textzeichenfolgenwert an. If[`OwnHelp`](../ownhelp/) ist eingestellt auf`FALSCH` ,`HelpText`Gibt den Namen eines AutoText-Eintrags an, der help -Text für das Formularfeld enthält.
 
 Microsoft Word erlaubt Zeichenfolgen mit maximal 255 Zeichen.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie verschiedene Arten von Formularfeldern in ein Dokument eingefügt und mithilfe einer Dokumentbesucherimplementierung verarbeitet werden.
 
@@ -154,7 +156,5 @@ public class FormFieldVisitor : DocumentVisitor
 ### Siehe auch
 
 * class [FormField](../)
-* namensraum [Aspose.Words.Fields](../../formfield/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

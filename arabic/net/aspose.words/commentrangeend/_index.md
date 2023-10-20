@@ -1,7 +1,9 @@
 ---
-title: Class CommentRangeEnd
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.CommentRangeEnd فصل. تشير إلى نهاية منطقة النص التي تحتوي على تعليق مرتبط بها.
+title: CommentRangeEnd Class
+linktitle: CommentRangeEnd
+articleTitle: CommentRangeEnd
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.CommentRangeEnd فصل. تشير إلى نهاية منطقة النص التي تحتوي على تعليق مرتبط بها في C#.
 type: docs
 weight: 250
 url: /ar/net/aspose.words/commentrangeend/
@@ -20,7 +22,7 @@ public sealed class CommentRangeEnd : Node
 
 | اسم | وصف |
 | --- | --- |
-| [CommentRangeEnd](commentrangeend/)(DocumentBase, int) | تهيئة مثيل جديد لهذه الفئة. |
+| [CommentRangeEnd](commentrangeend/)(*[DocumentBase](../documentbase/), int*) | تهيئة مثيل جديد لهذه الفئة. |
 
 ## الخصائص
 
@@ -40,24 +42,24 @@ public sealed class CommentRangeEnd : Node
 
 | اسم | وصف |
 | --- | --- |
-| override [Accept](../../aspose.words/commentrangeend/accept/)(DocumentVisitor) | يقبل الزائر. |
-| [Clone](../../aspose.words/node/clone/)(bool) | إنشاء نسخة مكررة من العقدة. |
-| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | يحصل على السلف الأول للمحدد[`NodeType`](../nodetype/) . |
-| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | الحصول على السلف الأول لنوع الكائن المحدد. |
+| override [Accept](../../aspose.words/commentrangeend/accept/)(*[DocumentVisitor](../documentvisitor/)*) | يقبل الزائر. |
+| [Clone](../../aspose.words/node/clone/)(*bool*) | إنشاء نسخة مكررة من العقدة. |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*[NodeType](../nodetype/)*) | يحصل على السلف الأول للمحدد[`NodeType`](../nodetype/) . |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | الحصول على السلف الأول لنوع الكائن المحدد. |
 | virtual [GetText](../../aspose.words/node/gettext/)() | الحصول على نص هذه العقدة وجميع أبنائها. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | الحصول على العقدة التالية وفقًا لخوارزمية اجتياز شجرة الطلب المسبق. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | الحصول على العقدة السابقة وفقًا لخوارزمية اجتياز شجرة الطلب المسبق. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../node/)*) | الحصول على العقدة التالية وفقًا لخوارزمية اجتياز شجرة الطلب المسبق. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../node/)*) | الحصول على العقدة السابقة وفقًا لخوارزمية اجتياز شجرة الطلب المسبق. |
 | [Remove](../../aspose.words/node/remove/)() | يزيل نفسه من الأصل. |
-| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | تصدير محتوى العقدة إلى سلسلة بالتنسيق المحدد. |
-| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | تصدير محتوى العقدة إلى سلسلة باستخدام خيارات الحفظ المحددة. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../saveformat/)*) | تصدير محتوى العقدة إلى سلسلة بالتنسيق المحدد. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | تصدير محتوى العقدة إلى سلسلة باستخدام خيارات الحفظ المحددة. |
 
-### ملاحظات
+## ملاحظات
 
 لإنشاء تعليق مرتبط بمنطقة نصية، تحتاج إلى إنشاء ملف[`Comment`](../comment/) and ثم أنشئ[`CommentRangeStart`](../commentrangestart/) و`CommentRangeEnd`وقم بتعيين معرفاتهم على نفس الشيء[`Id`](../comment/id/) قيمة.
 
 `CommentRangeEnd` هي عقدة ذات مستوى مضمّن ويمكن أن تكون فرعًا فقط لـ[`Paragraph`](../paragraph/).
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية طباعة محتويات جميع التعليقات ونطاقات التعليقات الخاصة بها باستخدام زائر المستند.
 
@@ -220,5 +222,3 @@ public class CommentInfoPrinter : DocumentVisitor
 * class [Node](../node/)
 * مساحة الاسم [Aspose.Words](../../aspose.words/)
 * المجسم [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum RevisionTextEffect
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Layout.RevisionTextEffect uppräkning. Tillåter att specificera dekorationseffekt för revisioner av dokumenttext.
+title: RevisionTextEffect Enum
+linktitle: RevisionTextEffect
+articleTitle: RevisionTextEffect
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Layout.RevisionTextEffect uppräkning. Tillåter att specificera dekorationseffekt för revisioner av dokumenttext i C#.
 type: docs
 weight: 3400
 url: /sv/net/aspose.words.layout/revisiontexteffect/
@@ -28,7 +30,7 @@ public enum RevisionTextEffect
 | DoubleStrikeThrough | `7` | Reviderat innehåll är dubbelstruket och färglagt. |
 | Hidden | `8` | Reviderat innehåll är dolt. |
 
-### Exempel
+## Exempel
 
 Visar hur man ändrar utseendet på revisioner.
 
@@ -80,5 +82,3 @@ doc.Save(ArtifactsDir + "Revision.RevisionOptions.pdf");
 
 * namnutrymme [Aspose.Words.Layout](../../aspose.words.layout/)
 * hopsättning [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum ComparisonTargetType
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Comparing.ComparisonTargetType opsomming. Ermöglicht die Angabe des Basisdokuments das beim Vergleich verwendet wird. Der Standardwert istCurrent .
+title: ComparisonTargetType Enum
+linktitle: ComparisonTargetType
+articleTitle: ComparisonTargetType
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Comparing.ComparisonTargetType opsomming. Ermöglicht die Angabe des Basisdokuments das beim Vergleich verwendet wird. Der Standardwert istCurrent  in C#.
 type: docs
 weight: 280
 url: /de/net/aspose.words.comparing/comparisontargettype/
@@ -21,11 +23,11 @@ public enum ComparisonTargetType
 | Current | `0` | Dieses Dokument dient als Grundlage für den Vergleich. |
 | New | `1` | Anderes Dokument wird beim Vergleich als Basis verwendet. |
 
-### Bemerkungen
+## Bemerkungen
 
 Bezieht sich auf die Microsoft Word-Option „Änderungen anzeigen in“ im Dialogfeld „Dokumente vergleichen“.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie bei einem Vergleich bestimmte Arten von Dokumentelementen gefiltert werden.
 
@@ -100,5 +102,3 @@ docOriginal.Save(ArtifactsDir + "Document.CompareOptions.docx");
 
 * namensraum [Aspose.Words.Comparing](../../aspose.words.comparing/)
 * Montage [Aspose.Words](../../)
-
-

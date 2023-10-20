@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.Target
-second_title: Справочник по API Aspose.Words для .NET
-description: ShapeBase свойство. Получает или задает целевой кадр для гиперссылки фигуры.
+linktitle: Target
+articleTitle: Target
+second_title: Aspose.Words для .NET
+description: ShapeBase Target свойство. Получает или задает целевой кадр для гиперссылки фигуры на С#.
 type: docs
 weight: 520
 url: /ru/net/aspose.words.drawing/shapebase/target/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.drawing/shapebase/target/
 public string Target { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Значение по умолчанию — пустая строка.
 
-### Примеры
+## Примеры
 
 Показывает, как вставить фигуру, содержащую изображение, а также гиперссылку.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "Image.InsertImageWithHyperlink.docx");
 ### Смотрите также
 
 * class [ShapeBase](../)
-* пространство имен [Aspose.Words.Drawing](../../shapebase/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

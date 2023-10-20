@@ -1,7 +1,9 @@
 ---
 title: DropDownItemCollection.Remove
-second_title: Référence de l'API Aspose.Words pour .NET
-description: DropDownItemCollection méthode. Supprime la valeur spécifiée de la collection.
+linktitle: Remove
+articleTitle: Remove
+second_title: Aspose.Words pour .NET
+description: DropDownItemCollection Remove méthode. Supprime la valeur spécifiée de la collection en C#.
 type: docs
 weight: 90
 url: /fr/net/aspose.words.fields/dropdownitemcollection/remove/
@@ -18,7 +20,7 @@ public void Remove(string name)
 | --- | --- | --- |
 | name | String | La valeur sensible à la casse à supprimer. |
 
-### Exemples
+## Exemples
 
 Montre comment insérer un champ de zone de liste déroulante et modifier les éléments de sa collection d'éléments.
 
@@ -72,7 +74,5 @@ dropDownItems.Clear();
 ### Voir également
 
 * class [DropDownItemCollection](../)
-* espace de noms [Aspose.Words.Fields](../../dropdownitemcollection/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

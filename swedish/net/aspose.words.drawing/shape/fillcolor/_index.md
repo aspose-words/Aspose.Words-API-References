@@ -1,7 +1,9 @@
 ---
 title: Shape.FillColor
-second_title: Aspose.Words för .NET API Referens
-description: Shape fast egendom. Definierar penselfärgen som fyller den stängda banan för formen.
+linktitle: FillColor
+articleTitle: FillColor
+second_title: Aspose.Words för .NET
+description: Shape FillColor fast egendom. Definierar penselfärgen som fyller den stängda banan för formen i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.drawing/shape/fillcolor/
@@ -14,13 +16,13 @@ Definierar penselfärgen som fyller den stängda banan för formen.
 public Color FillColor { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Detta är en genväg till[`Color`](../../fill/color/) fast egendom.
 
 Standardvärdet är White.
 
-### Exempel
+## Exempel
 
 Visar hur man fyller en form med enfärgad.
 
@@ -55,7 +57,5 @@ doc.Save(ArtifactsDir + "Shape.Fill.docx");
 ### Se även
 
 * class [Shape](../)
-* namnutrymme [Aspose.Words.Drawing](../../shape/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

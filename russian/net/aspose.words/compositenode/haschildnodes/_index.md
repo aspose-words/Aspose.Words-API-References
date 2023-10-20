@@ -1,7 +1,9 @@
 ---
 title: CompositeNode.HasChildNodes
-second_title: Справочник по API Aspose.Words для .NET
-description: CompositeNode свойство. Возвращаетистинный если у этого узла есть дочерние узлы.
+linktitle: HasChildNodes
+articleTitle: HasChildNodes
+second_title: Aspose.Words для .NET
+description: CompositeNode HasChildNodes свойство. Возвращаетистинный если у этого узла есть дочерние узлы на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words/compositenode/haschildnodes/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/compositenode/haschildnodes/
 public bool HasChildNodes { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как объединить строки из двух таблиц в одну.
 
@@ -41,7 +43,5 @@ doc.Save(ArtifactsDir + "Table.CombineTables.docx");
 ### Смотрите также
 
 * class [CompositeNode](../)
-* пространство имен [Aspose.Words](../../compositenode/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

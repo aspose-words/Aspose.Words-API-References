@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.EmbedAttachments
-second_title: Referencia de API de Aspose.Words para .NET
-description: PdfSaveOptions propiedad. Obtiene o establece un valor que determina si se incrustan o no archivos adjuntos en el documento PDF.
+linktitle: EmbedAttachments
+articleTitle: EmbedAttachments
+second_title: Aspose.Words para .NET
+description: PdfSaveOptions EmbedAttachments propiedad. Obtiene o establece un valor que determina si se incrustan o no archivos adjuntos en el documento PDF en C#.
 type: docs
 weight: 110
 url: /es/net/aspose.words.saving/pdfsaveoptions/embedattachments/
@@ -14,7 +16,7 @@ Obtiene o establece un valor que determina si se incrustan o no archivos adjunto
 public bool EmbedAttachments { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 El valor predeterminado es`FALSO` los archivos adjuntos no están incrustados.
 
@@ -24,7 +26,7 @@ No se admite la incrustación de archivos adjuntos al guardar en formato PDF/A y
 
 No se admite la incrustación de archivos adjuntos cuando el cifrado está habilitado.`FALSO` value se utilizará automáticamente.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo agregar archivos adjuntos incrustados al documento PDF.
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.PdfEmbedAttachments.pdf", options);
 ### Ver también
 
 * class [PdfSaveOptions](../)
-* espacio de nombres [Aspose.Words.Saving](../../pdfsaveoptions/)
+* espacio de nombres [Aspose.Words.Saving](../../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../../)
-
-

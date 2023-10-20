@@ -1,7 +1,9 @@
 ---
 title: FontInfo.Name
-second_title: Aspose.Words för .NET API Referens
-description: FontInfo fast egendom. Hämtar namnet på teckensnittet.
+linktitle: Name
+articleTitle: Name
+second_title: Aspose.Words för .NET
+description: FontInfo Name fast egendom. Hämtar namnet på teckensnittet i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.fonts/fontinfo/name/
@@ -14,11 +16,11 @@ Hämtar namnet på teckensnittet.
 public string Name { get; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Kan inte vara`null`. Kan vara en tom sträng.
 
-### Exempel
+## Exempel
 
 Visar hur man skriver ut information om vilka typsnitt som finns i ett dokument.
 
@@ -38,7 +40,5 @@ for (int i = 0; i < allFonts.Count; i++)
 ### Se även
 
 * class [FontInfo](../)
-* namnutrymme [Aspose.Words.Fonts](../../fontinfo/)
+* namnutrymme [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * hopsättning [Aspose.Words](../../../)
-
-

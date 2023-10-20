@@ -1,12 +1,14 @@
 ---
-title: PlainTextDocument.PlainTextDocument
-second_title: Aspose.Words für .NET-API-Referenz
-description: PlainTextDocument constructeur. Erstellt ein NurTextDokument aus einer Datei. Erkennt automatisch das Dateiformat.
+title: PlainTextDocument
+linktitle: PlainTextDocument
+articleTitle: PlainTextDocument
+second_title: Aspose.Words für .NET
+description: PlainTextDocument constructeur. Erstellt ein NurTextDokument aus einer Datei. Erkennt automatisch das Dateiformat in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words/plaintextdocument/plaintextdocument/
 ---
-## PlainTextDocument(string) {#constructor_2}
+## PlainTextDocument(*string*) {#constructor_2}
 
 Erstellt ein Nur-Text-Dokument aus einer Datei. Erkennt automatisch das Dateiformat.
 
@@ -29,7 +31,7 @@ public PlainTextDocument(string fileName)
 | [IncorrectPasswordException](../../incorrectpasswordexception/) | Das Dokument ist verschlüsselt und erfordert zum Öffnen ein Passwort, Sie haben jedoch ein falsches Passwort angegeben. |
 | ArgumentException | Der Name der Datei darf nicht null oder eine leere Zeichenfolge sein. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie der Inhalt eines Microsoft Word-Dokuments im Klartext geladen wird.
 
@@ -48,12 +50,12 @@ Assert.AreEqual("Hello world!", plaintext.Text.Trim());
 ### Siehe auch
 
 * class [PlainTextDocument](../)
-* namensraum [Aspose.Words](../../plaintextdocument/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
 
 ---
 
-## PlainTextDocument(string, LoadOptions) {#constructor_3}
+## PlainTextDocument(*string, [LoadOptions](../../../aspose.words.loading/loadoptions/)*) {#constructor_3}
 
 Erstellt ein Nur-Text-Dokument aus einer Datei. Ermöglicht die Angabe zusätzlicher Optionen wie z. B. eines Verschlüsselungskennworts.
 
@@ -77,7 +79,7 @@ public PlainTextDocument(string fileName, LoadOptions loadOptions)
 | [IncorrectPasswordException](../../incorrectpasswordexception/) | Das Dokument ist verschlüsselt und erfordert zum Öffnen ein Passwort, Sie haben jedoch ein falsches Passwort angegeben. |
 | ArgumentException | Der Name der Datei darf nicht null oder eine leere Zeichenfolge sein. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie der Inhalt eines verschlüsselten Microsoft Word-Dokuments im Klartext geladen wird.
 
@@ -103,12 +105,12 @@ Assert.AreEqual("Hello world!", plaintext.Text.Trim());
 
 * class [LoadOptions](../../../aspose.words.loading/loadoptions/)
 * class [PlainTextDocument](../)
-* namensraum [Aspose.Words](../../plaintextdocument/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
 
 ---
 
-## PlainTextDocument(Stream) {#constructor}
+## PlainTextDocument(*Stream*) {#constructor}
 
 Erstellt ein Nur-Text-Dokument aus einem Stream. Erkennt automatisch das Dateiformat.
 
@@ -133,11 +135,11 @@ public PlainTextDocument(Stream stream)
 | NotSupportedException | Der Stream unterstützt weder Lesen noch Suchen. |
 | ObjectDisposedException | Der Stream ist ein entsorgtes Objekt. |
 
-### Bemerkungen
+## Bemerkungen
 
 Das Dokument muss am Anfang des Streams gespeichert werden. Der Stream muss eine zufällige Positionierung unterstützen.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie der Inhalt eines Microsoft Word-Dokuments mithilfe von Stream im Klartext geladen wird.
 
@@ -159,12 +161,12 @@ using (FileStream stream = new FileStream(ArtifactsDir + "PlainTextDocument.Load
 ### Siehe auch
 
 * class [PlainTextDocument](../)
-* namensraum [Aspose.Words](../../plaintextdocument/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
 
 ---
 
-## PlainTextDocument(Stream, LoadOptions) {#constructor_1}
+## PlainTextDocument(*Stream, [LoadOptions](../../../aspose.words.loading/loadoptions/)*) {#constructor_1}
 
 Erstellt ein Nur-Text-Dokument aus einem Stream. Ermöglicht die Angabe zusätzlicher Optionen wie z. B. eines Verschlüsselungskennworts.
 
@@ -190,11 +192,11 @@ public PlainTextDocument(Stream stream, LoadOptions loadOptions)
 | NotSupportedException | Der Stream unterstützt weder Lesen noch Suchen. |
 | ObjectDisposedException | Der Stream ist ein entsorgtes Objekt. |
 
-### Bemerkungen
+## Bemerkungen
 
 Das Dokument muss am Anfang des Streams gespeichert werden. Der Stream muss eine zufällige Positionierung unterstützen.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie der Inhalt eines verschlüsselten Microsoft Word-Dokuments mithilfe eines Streams im Klartext geladen wird.
 
@@ -224,7 +226,5 @@ using (FileStream stream = new FileStream(ArtifactsDir + "PlainTextDocument.Load
 
 * class [LoadOptions](../../../aspose.words.loading/loadoptions/)
 * class [PlainTextDocument](../)
-* namensraum [Aspose.Words](../../plaintextdocument/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

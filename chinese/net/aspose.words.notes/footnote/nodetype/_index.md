@@ -1,7 +1,9 @@
 ---
 title: Footnote.NodeType
-second_title: Aspose.Words for .NET API 参考
-description: Footnote 财产. 返回Footnote.
+linktitle: NodeType
+articleTitle: NodeType
+second_title: 用于 .NET 的 Aspose.Words
+description: Footnote NodeType 财产. 返回Footnote 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.notes/footnote/nodetype/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.notes/footnote/nodetype/
 public override NodeType NodeType { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何遍历复合节点的子节点树。
 
@@ -62,7 +64,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 
 * enum [NodeType](../../../aspose.words/nodetype/)
 * class [Footnote](../)
-* 命名空间 [Aspose.Words.Notes](../../footnote/)
+* 命名空间 [Aspose.Words.Notes](../../../aspose.words.notes/)
 * 部件 [Aspose.Words](../../../)
-
-

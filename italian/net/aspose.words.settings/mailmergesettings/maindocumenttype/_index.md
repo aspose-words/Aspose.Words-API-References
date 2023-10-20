@@ -1,7 +1,9 @@
 ---
 title: MailMergeSettings.MainDocumentType
-second_title: Aspose.Words per .NET API Reference
-description: MailMergeSettings proprietà. Specifica il tipo di documento principale di stampa unione. Il valore predefinito èDefault .
+linktitle: MainDocumentType
+articleTitle: MainDocumentType
+second_title: Aspose.Words per .NET
+description: MailMergeSettings MainDocumentType proprietà. Specifica il tipo di documento principale di stampa unione. Il valore predefinito èDefault  in C#.
 type: docs
 weight: 140
 url: /it/net/aspose.words.settings/mailmergesettings/maindocumenttype/
@@ -14,11 +16,11 @@ Specifica il tipo di documento principale di stampa unione. Il valore predefinit
 public MailMergeMainDocumentType MainDocumentType { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Il documento principale è il documento che contiene informazioni identiche per ciascuna versione del documento unito.
 
-### Esempi
+## Esempi
 
 Mostra come eseguire una stampa unione con i dati di un oggetto origine dati di Office.
 
@@ -71,7 +73,5 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 
 * enum [MailMergeMainDocumentType](../../mailmergemaindocumenttype/)
 * class [MailMergeSettings](../)
-* spazio dei nomi [Aspose.Words.Settings](../../mailmergesettings/)
+* spazio dei nomi [Aspose.Words.Settings](../../../aspose.words.settings/)
 * assemblea [Aspose.Words](../../../)
-
-

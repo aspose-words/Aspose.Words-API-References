@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.ExportParagraphGraphicsToArtifact
-second_title: Aspose.Words für .NET-API-Referenz
-description: PdfSaveOptions eigendom. Ruft einen Wert ab oder legt diesen fest der bestimmt ob eine Absatzgrafik als Artefakt markiert werden soll.
+linktitle: ExportParagraphGraphicsToArtifact
+articleTitle: ExportParagraphGraphicsToArtifact
+second_title: Aspose.Words für .NET
+description: PdfSaveOptions ExportParagraphGraphicsToArtifact eigendom. Ruft einen Wert ab oder legt diesen fest der bestimmt ob eine Absatzgrafik als Artefakt markiert werden soll in C#.
 type: docs
 weight: 160
 url: /de/net/aspose.words.saving/pdfsaveoptions/exportparagraphgraphicstoartifact/
@@ -14,7 +16,7 @@ Ruft einen Wert ab oder legt diesen fest, der bestimmt, ob eine Absatzgrafik als
 public bool ExportParagraphGraphicsToArtifact { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Der Standardwert ist`FALSCH` und Absatzgrafiken (Unterstreichungen, Texthervorhebung usw.) werden in der logischen Struktur des Dokuments als „Span“ markiert.
 
@@ -22,7 +24,7 @@ Wenn der Wert ist`WAHR` Die Absatzgrafiken werden als „Artefakt“ gekennzeich
 
 Dieser Wert wird ignoriert, wenn[`ExportDocumentStructure`](../exportdocumentstructure/) Ist`FALSCH` .
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Absatzgrafiken als Artefakt exportiert werden (Unterstreichungen, Texthervorhebung usw.).
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.ExportParagraphGraphicsToArtifact.pdf", 
 ### Siehe auch
 
 * class [PdfSaveOptions](../)
-* namensraum [Aspose.Words.Saving](../../pdfsaveoptions/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

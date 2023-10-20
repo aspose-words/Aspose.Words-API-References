@@ -1,7 +1,9 @@
 ---
-title: Class FieldOptions
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Fields.FieldOptions clase. Representa opciones para controlar el manejo de campos en un documento.
+title: FieldOptions Class
+linktitle: FieldOptions
+articleTitle: FieldOptions
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Fields.FieldOptions clase. Representa opciones para controlar el manejo de campos en un documento en C#.
 type: docs
 weight: 2250
 url: /es/net/aspose.words.fields/fieldoptions/
@@ -43,7 +45,7 @@ public sealed class FieldOptions
 | [UseInvariantCultureNumberFormat](../../aspose.words.fields/fieldoptions/useinvariantculturenumberformat/) { get; set; } | Obtiene o establece el valor que indica que el formato del número se analiza utilizando una cultura invariante o no |
 | [UserPromptRespondent](../../aspose.words.fields/fieldoptions/userpromptrespondent/) { get; set; } | Obtiene o configura el encuestado según las indicaciones del usuario durante la actualización del campo. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo especificar el origen de la referencia cultural utilizada para el formato de fecha durante una actualización de campo o combinación de correspondencia.
 
@@ -79,5 +81,3 @@ Thread.CurrentThread.CurrentCulture = currentCulture;
 
 * espacio de nombres [Aspose.Words.Fields](../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../)
-
-

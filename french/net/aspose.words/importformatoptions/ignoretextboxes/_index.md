@@ -1,7 +1,9 @@
 ---
 title: ImportFormatOptions.IgnoreTextBoxes
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ImportFormatOptions propriété. Obtient ou définit une valeur booléenne qui spécifie que le formatage source du contenu des zones de texte est ignoré siKeepSourceFormatting Le mode est utilisé. La valeur par défaut estvrai .
+linktitle: IgnoreTextBoxes
+articleTitle: IgnoreTextBoxes
+second_title: Aspose.Words pour .NET
+description: ImportFormatOptions IgnoreTextBoxes propriété. Obtient ou définit une valeur booléenne qui spécifie que le formatage source du contenu des zones de texte est ignoré siKeepSourceFormatting Le mode est utilisé. La valeur par défaut estvrai  en C#.
 type: docs
 weight: 50
 url: /fr/net/aspose.words/importformatoptions/ignoretextboxes/
@@ -14,7 +16,7 @@ Obtient ou définit une valeur booléenne qui spécifie que le formatage source 
 public bool IgnoreTextBoxes { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment gérer le formatage de la zone de texte lors de l’ajout d’un document.
 
@@ -63,7 +65,5 @@ dstDoc.Save(ArtifactsDir + "DocumentBuilder.IgnoreTextBoxes.docx");
 ### Voir également
 
 * class [ImportFormatOptions](../)
-* espace de noms [Aspose.Words](../../importformatoptions/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

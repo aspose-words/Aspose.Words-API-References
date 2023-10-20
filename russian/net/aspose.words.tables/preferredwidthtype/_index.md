@@ -1,7 +1,9 @@
 ---
-title: Enum PreferredWidthType
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Tables.PreferredWidthType перечисление. Указывает единицу измерения предпочтительной ширины таблицы или ячейки.
+title: PreferredWidthType Enum
+linktitle: PreferredWidthType
+articleTitle: PreferredWidthType
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Tables.PreferredWidthType перечисление. Указывает единицу измерения предпочтительной ширины таблицы или ячейки на С#.
 type: docs
 weight: 6300
 url: /ru/net/aspose.words.tables/preferredwidthtype/
@@ -22,7 +24,7 @@ public enum PreferredWidthType
 | Percent | `2` | Измерьте текущую ширину элемента, используя указанный процент. |
 | Points | `3` | Измерьте текущую ширину элемента, используя указанное количество точек (1/72 дюйма). |
 
-### Примеры
+## Примеры
 
 Показывает, как проверить предпочтительный тип ширины и значение ячейки таблицы.
 
@@ -41,5 +43,3 @@ Assert.AreEqual(11.16d, firstCell.CellFormat.PreferredWidth.Value);
 * class [PreferredWidth](../preferredwidth/)
 * пространство имен [Aspose.Words.Tables](../../aspose.words.tables/)
 * сборка [Aspose.Words](../../)
-
-

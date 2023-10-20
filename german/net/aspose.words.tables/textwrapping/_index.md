@@ -1,7 +1,9 @@
 ---
-title: Enum TextWrapping
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Tables.TextWrapping opsomming. Gibt an wie Text um die Tabelle gewickelt wird.
+title: TextWrapping Enum
+linktitle: TextWrapping
+articleTitle: TextWrapping
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Tables.TextWrapping opsomming. Gibt an wie Text um die Tabelle gewickelt wird in C#.
 type: docs
 weight: 6380
 url: /de/net/aspose.words.tables/textwrapping/
@@ -22,7 +24,7 @@ public enum TextWrapping
 | Around | `1` | Der Text wird um die Tabelle gewickelt und nimmt den verfügbaren seitlichen Platz ein. |
 | Default | `0` | Standardwert. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man mit Tabellentextumbrüchen arbeitet.
 
@@ -54,5 +56,3 @@ doc.Save(ArtifactsDir + "Table.WrapText.docx");
 
 * namensraum [Aspose.Words.Tables](../../aspose.words.tables/)
 * Montage [Aspose.Words](../../)
-
-

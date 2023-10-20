@@ -1,7 +1,9 @@
 ---
-title: Class CustomXmlProperty
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Markup.CustomXmlProperty classe. Rappresenta un singolo attributo XML personalizzato o una proprietà smart tag.
+title: CustomXmlProperty Class
+linktitle: CustomXmlProperty
+articleTitle: CustomXmlProperty
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Markup.CustomXmlProperty classe. Rappresenta un singolo attributo XML personalizzato o una proprietà smart tag in C#.
 type: docs
 weight: 3940
 url: /it/net/aspose.words.markup/customxmlproperty/
@@ -20,7 +22,7 @@ public class CustomXmlProperty
 
 | Nome | Descrizione |
 | --- | --- |
-| [CustomXmlProperty](customxmlproperty/)(string, string, string) | Inizializza una nuova istanza di questa classe. |
+| [CustomXmlProperty](customxmlproperty/)(*string, string, string*) | Inizializza una nuova istanza di questa classe. |
 
 ## Proprietà
 
@@ -30,11 +32,11 @@ public class CustomXmlProperty
 | [Uri](../../aspose.words.markup/customxmlproperty/uri/) { get; set; } | Ottiene o imposta l'URI dello spazio dei nomi dell'attributo XML personalizzato o della proprietà smart tag. |
 | [Value](../../aspose.words.markup/customxmlproperty/value/) { get; set; } | Ottiene o imposta il valore dell'attributo XML personalizzato o della proprietà smart tag. |
 
-### Osservazioni
+## Osservazioni
 
 Utilizzato come oggetto di a[`CustomXmlPropertyCollection`](../customxmlpropertycollection/) collezione.
 
-### Esempi
+## Esempi
 
 Mostra come creare smart tag.
 
@@ -136,5 +138,3 @@ private class SmartTagPrinter : DocumentVisitor
 
 * spazio dei nomi [Aspose.Words.Markup](../../aspose.words.markup/)
 * assemblea [Aspose.Words](../../)
-
-

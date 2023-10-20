@@ -1,7 +1,9 @@
 ---
 title: Font.SmallCaps
-second_title: Aspose.Words für .NET-API-Referenz
-description: Font eigendom. True wenn die Schriftart als kleine Großbuchstaben formatiert ist.
+linktitle: SmallCaps
+articleTitle: SmallCaps
+second_title: Aspose.Words für .NET
+description: Font SmallCaps eigendom. True wenn die Schriftart als kleine Großbuchstaben formatiert ist in C#.
 type: docs
 weight: 360
 url: /de/net/aspose.words/font/smallcaps/
@@ -14,7 +16,7 @@ True, wenn die Schriftart als kleine Großbuchstaben formatiert ist.
 public bool SmallCaps { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Lauf formatiert wird, um seinen Inhalt in Großbuchstaben anzuzeigen.
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "Font.Caps.docx");
 ### Siehe auch
 
 * class [Font](../)
-* namensraum [Aspose.Words](../../font/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

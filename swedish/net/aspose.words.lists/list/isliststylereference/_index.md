@@ -1,7 +1,9 @@
 ---
 title: List.IsListStyleReference
-second_title: Aspose.Words för .NET API Referens
-description: List fast egendom. ReturnerarSann om den här listan är en referens till en liststil.
+linktitle: IsListStyleReference
+articleTitle: IsListStyleReference
+second_title: Aspose.Words för .NET
+description: List IsListStyleReference fast egendom. ReturnerarSann om den här listan är en referens till en liststil i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.lists/list/isliststylereference/
@@ -14,11 +16,11 @@ Returnerar`Sann` om den här listan är en referens till en liststil.
 public bool IsListStyleReference { get; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Observera att ändring av egenskaper för en lista som är en referens till liststil har ingen effekt. Listformateringen som anges i själva listformatet har alltid företräde.
 
-### Exempel
+## Exempel
 
 Visar hur du skapar en liststil och använder den i ett dokument.
 
@@ -79,7 +81,5 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateAndUseListStyle.docx");
 ### Se även
 
 * class [List](../)
-* namnutrymme [Aspose.Words.Lists](../../list/)
+* namnutrymme [Aspose.Words.Lists](../../../aspose.words.lists/)
 * hopsättning [Aspose.Words](../../../)
-
-

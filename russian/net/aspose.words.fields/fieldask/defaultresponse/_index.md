@@ -1,7 +1,9 @@
 ---
 title: FieldAsk.DefaultResponse
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldAsk свойство. Получает или задает ответ пользователя по умолчанию начальное значение содержащееся в окне подсказки.
+linktitle: DefaultResponse
+articleTitle: DefaultResponse
+second_title: Aspose.Words для .NET
+description: FieldAsk DefaultResponse свойство. Получает или задает ответ пользователя по умолчанию начальное значение содержащееся в окне подсказки на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.fields/fieldask/defaultresponse/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldask/defaultresponse/
 public string DefaultResponse { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как создать поле ASK и настроить его свойства.
 
@@ -76,7 +78,5 @@ private class MyPromptRespondent : IFieldUserPromptRespondent
 ### Смотрите также
 
 * class [FieldAsk](../)
-* пространство имен [Aspose.Words.Fields](../../fieldask/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Shape.FillColor
-second_title: Aspose.Words für .NET-API-Referenz
-description: Shape eigendom. Definiert die Pinselfarbe die den geschlossenen Pfad der Form ausfüllt.
+linktitle: FillColor
+articleTitle: FillColor
+second_title: Aspose.Words für .NET
+description: Shape FillColor eigendom. Definiert die Pinselfarbe die den geschlossenen Pfad der Form ausfüllt in C#.
 type: docs
 weight: 40
 url: /de/net/aspose.words.drawing/shape/fillcolor/
@@ -14,13 +16,13 @@ Definiert die Pinselfarbe, die den geschlossenen Pfad der Form ausfüllt.
 public Color FillColor { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Dies ist eine Verknüpfung zum[`Color`](../../fill/color/) Eigentum.
 
 Der Standardwert ist White.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie eine Form mit einer Volltonfarbe gefüllt wird.
 
@@ -55,7 +57,5 @@ doc.Save(ArtifactsDir + "Shape.Fill.docx");
 ### Siehe auch
 
 * class [Shape](../)
-* namensraum [Aspose.Words.Drawing](../../shape/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

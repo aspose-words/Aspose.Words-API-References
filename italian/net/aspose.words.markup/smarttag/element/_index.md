@@ -1,7 +1,9 @@
 ---
 title: SmartTag.Element
-second_title: Aspose.Words per .NET API Reference
-description: SmartTag proprietà. Specifica il nome dello smart tag allinterno del documento.
+linktitle: Element
+articleTitle: Element
+second_title: Aspose.Words per .NET
+description: SmartTag Element proprietà. Specifica il nome dello smart tag allinterno del documento in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words.markup/smarttag/element/
@@ -14,13 +16,13 @@ Specifica il nome dello smart tag all'interno del documento.
 public string Element { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Non può essere`nullo`.
 
 L'impostazione predefinita è una stringa vuota.
 
-### Esempi
+## Esempi
 
 Mostra come creare smart tag.
 
@@ -121,7 +123,5 @@ private class SmartTagPrinter : DocumentVisitor
 ### Guarda anche
 
 * class [SmartTag](../)
-* spazio dei nomi [Aspose.Words.Markup](../../smarttag/)
+* spazio dei nomi [Aspose.Words.Markup](../../../aspose.words.markup/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: LoadOptions.Encoding
-second_title: Aspose.Words för .NET API Referens
-description: LoadOptions fast egendom. Hämtar eller ställer in kodningen som ska användas för att ladda ett HTML TXT eller CHMdokument om kodningen inte är specificerad inuti dokumentet. Kan varanull . Standard ärnull .
+linktitle: Encoding
+articleTitle: Encoding
+second_title: Aspose.Words för .NET
+description: LoadOptions Encoding fast egendom. Hämtar eller ställer in kodningen som ska användas för att ladda ett HTML TXT eller CHMdokument om kodningen inte är specificerad inuti dokumentet. Kan varanull . Standard ärnull  i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.loading/loadoptions/encoding/
@@ -14,13 +16,13 @@ Hämtar eller ställer in kodningen som ska användas för att ladda ett HTML-, 
 public Encoding Encoding { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Den här egenskapen används endast när HTML-, TXT- eller CHM-dokument laddas.
 
 Om kodning inte anges i dokumentet och den här egenskapen är`null`då kommer systemet att försöka automatiskt upptäcka kodningen.
 
-### Exempel
+## Exempel
 
 Visar hur man ställer in kodningen för att öppna ett dokument.
 
@@ -39,7 +41,5 @@ Assert.True(doc.ToString(SaveFormat.Text).Contains("This is a sample text in Eng
 ### Se även
 
 * class [LoadOptions](../)
-* namnutrymme [Aspose.Words.Loading](../../loadoptions/)
+* namnutrymme [Aspose.Words.Loading](../../../aspose.words.loading/)
 * hopsättning [Aspose.Words](../../../)
-
-

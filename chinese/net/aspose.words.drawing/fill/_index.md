@@ -1,7 +1,9 @@
 ---
-title: Class Fill
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Drawing.Fill 班级. 表示对象的填充格式
+title: Fill Class
+linktitle: Fill
+articleTitle: Fill
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Drawing.Fill 班级. 表示对象的填充格式 在 C#.
 type: docs
 weight: 950
 url: /zh/net/aspose.words.drawing/fill/
@@ -23,7 +25,6 @@ public class Fill
 | [BackColor](../../aspose.words.drawing/fill/backcolor/) { get; set; } | 获取或设置一个 Color 对象，该对象表示填充的背景颜色。 |
 | [BackThemeColor](../../aspose.words.drawing/fill/backthemecolor/) { get; set; } | 获取或设置一个 ThemeColor 对象，该对象表示填充的背景颜色。 |
 | [BackTintAndShade](../../aspose.words.drawing/fill/backtintandshade/) { get; set; } | 获取或设置使背景颜色变亮或变暗的双精度值。 |
-| [BaseForeColor](../../aspose.words.drawing/fill/baseforecolor/) { get; } |  |
 | [Color](../../aspose.words.drawing/fill/color/) { get; set; } | 获取或设置一个 Color 对象，该对象表示填充的前景色。 |
 | [FillType](../../aspose.words.drawing/fill/filltype/) { get; } | 获取填充类型。 |
 | [ForeColor](../../aspose.words.drawing/fill/forecolor/) { get; set; } | 获取或设置一个 Color 对象，该对象表示填充的前景色。 |
@@ -46,24 +47,24 @@ public class Fill
 
 | 姓名 | 描述 |
 | --- | --- |
-| [OneColorGradient](../../aspose.words.drawing/fill/onecolorgradient/#onecolorgradient)(GradientStyle, GradientVariant, double) | 将指定填充设置为单色渐变。 |
-| [OneColorGradient](../../aspose.words.drawing/fill/onecolorgradient/#onecolorgradient_1)(Color, GradientStyle, GradientVariant, double) | 使用指定颜色将指定填充设置为单色渐变。 |
-| [Patterned](../../aspose.words.drawing/fill/patterned/#patterned)(PatternType) | 将指定填充设置为图案。 |
-| [Patterned](../../aspose.words.drawing/fill/patterned/#patterned_1)(PatternType, Color, Color) | 将指定填充设置为图案。 |
-| [PresetTextured](../../aspose.words.drawing/fill/presettextured/)(PresetTexture) | 将填充设置为预设纹理。 |
-| [SetImage](../../aspose.words.drawing/fill/setimage/#setimage)(byte[]) | 将填充类型更改为单个图像。 |
-| [SetImage](../../aspose.words.drawing/fill/setimage/#setimage_1)(Stream) | 将填充类型更改为单个图像。 |
-| [SetImage](../../aspose.words.drawing/fill/setimage/#setimage_2)(string) | 将填充类型更改为单个图像。 |
+| [OneColorGradient](../../aspose.words.drawing/fill/onecolorgradient/#onecolorgradient)(*[GradientStyle](../gradientstyle/), [GradientVariant](../gradientvariant/), double*) | 将指定填充设置为单色渐变。 |
+| [OneColorGradient](../../aspose.words.drawing/fill/onecolorgradient/#onecolorgradient_1)(*Color, [GradientStyle](../gradientstyle/), [GradientVariant](../gradientvariant/), double*) | 使用指定颜色将指定填充设置为单色渐变。 |
+| [Patterned](../../aspose.words.drawing/fill/patterned/#patterned)(*[PatternType](../patterntype/)*) | 将指定填充设置为图案。 |
+| [Patterned](../../aspose.words.drawing/fill/patterned/#patterned_1)(*[PatternType](../patterntype/), Color, Color*) | 将指定填充设置为图案。 |
+| [PresetTextured](../../aspose.words.drawing/fill/presettextured/)(*[PresetTexture](../presettexture/)*) | 将填充设置为预设纹理。 |
+| [SetImage](../../aspose.words.drawing/fill/setimage/#setimage)(*byte[]*) | 将填充类型更改为单个图像。 |
+| [SetImage](../../aspose.words.drawing/fill/setimage/#setimage_1)(*Stream*) | 将填充类型更改为单个图像。 |
+| [SetImage](../../aspose.words.drawing/fill/setimage/#setimage_2)(*string*) | 将填充类型更改为单个图像。 |
 | [Solid](../../aspose.words.drawing/fill/solid/#solid)() | 将填充设置为统一颜色。 |
-| [Solid](../../aspose.words.drawing/fill/solid/#solid_1)(Color) | 将填充设置为指定的统一颜色。 |
-| [TwoColorGradient](../../aspose.words.drawing/fill/twocolorgradient/#twocolorgradient)(GradientStyle, GradientVariant) | 将指定填充设置为二色渐变。 |
-| [TwoColorGradient](../../aspose.words.drawing/fill/twocolorgradient/#twocolorgradient_1)(Color, Color, GradientStyle, GradientVariant) | 将指定填充设置为二色渐变。 |
+| [Solid](../../aspose.words.drawing/fill/solid/#solid_1)(*Color*) | 将填充设置为指定的统一颜色。 |
+| [TwoColorGradient](../../aspose.words.drawing/fill/twocolorgradient/#twocolorgradient)(*[GradientStyle](../gradientstyle/), [GradientVariant](../gradientvariant/)*) | 将指定填充设置为二色渐变。 |
+| [TwoColorGradient](../../aspose.words.drawing/fill/twocolorgradient/#twocolorgradient_1)(*Color, Color, [GradientStyle](../gradientstyle/), [GradientVariant](../gradientvariant/)*) | 将指定填充设置为二色渐变。 |
 
-### 评论
+## 评论
 
 使用[`Fill`](../shapebase/fill/)或者[`Fill`](../../aspose.words/font/fill/)属性来访问对象的填充属性。 您不创建该对象的实例`Fill`直接上课。
 
-### 例子
+## 例子
 
 演示如何用纯色填充形状。
 
@@ -99,5 +100,3 @@ doc.Save(ArtifactsDir + "Shape.Fill.docx");
 
 * 命名空间 [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../)
-
-

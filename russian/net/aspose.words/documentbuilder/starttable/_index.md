@@ -1,9 +1,11 @@
 ---
 title: DocumentBuilder.StartTable
-second_title: Справочник по API Aspose.Words для .NET
-description: DocumentBuilder метод. Начинает таблицу в документе.
+linktitle: StartTable
+articleTitle: StartTable
+second_title: Aspose.Words для .NET
+description: DocumentBuilder StartTable метод. Начинает таблицу в документе на С#.
 type: docs
-weight: 650
+weight: 640
 url: /ru/net/aspose.words/documentbuilder/starttable/
 ---
 ## DocumentBuilder.StartTable method
@@ -18,13 +20,13 @@ public Table StartTable()
 
 Узел таблицы, который был только что создан.
 
-### Примечания
+## Примечания
 
 Следующий метод для вызова:[`InsertCell`](../insertcell/).
 
 Этот метод запускает вложенную таблицу при вызове внутри ячейки.
 
-### Примеры
+## Примеры
 
 Показывает, как форматировать ячейки с помощью построителя документов.
 
@@ -174,7 +176,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
 
 * class [Table](../../../aspose.words.tables/table/)
 * class [DocumentBuilder](../)
-* пространство имен [Aspose.Words](../../documentbuilder/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: GraphicsQualityOptions.CompositingMode
-second_title: Référence de l'API Aspose.Words pour .NET
-description: GraphicsQualityOptions propriété. Obtient ou définit une valeur qui spécifie la manière dont les images composées sont dessinées sur ce Graphics.
+linktitle: CompositingMode
+articleTitle: CompositingMode
+second_title: Aspose.Words pour .NET
+description: GraphicsQualityOptions CompositingMode propriété. Obtient ou définit une valeur qui spécifie la manière dont les images composées sont dessinées sur ce Graphics en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.saving/graphicsqualityoptions/compositingmode/
@@ -14,7 +16,7 @@ Obtient ou définit une valeur qui spécifie la manière dont les images compos�
 public CompositingMode? CompositingMode { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment définir les options de qualité de rendu lors de la conversion de documents aux formats d'image.
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "ImageSaveOptions.GraphicsQuality.jpg", saveOptions);
 ### Voir également
 
 * class [GraphicsQualityOptions](../)
-* espace de noms [Aspose.Words.Saving](../../graphicsqualityoptions/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

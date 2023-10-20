@@ -1,7 +1,9 @@
 ---
-title: Class ChartYValue
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Drawing.Charts.ChartYValue klass. Representerar ett Yvärde för en diagramserie.
+title: ChartYValue Class
+linktitle: ChartYValue
+articleTitle: ChartYValue
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Drawing.Charts.ChartYValue klass. Representerar ett Yvärde för en diagramserie i C#.
 type: docs
 weight: 870
 url: /sv/net/aspose.words.drawing.charts/chartyvalue/
@@ -27,13 +29,13 @@ public class ChartYValue
 
 | namn | Beskrivning |
 | --- | --- |
-| static [FromDateTime](../../aspose.words.drawing.charts/chartyvalue/fromdatetime/)(DateTime) | Skapar en`ChartYValue` instans avDateTime typ. |
-| static [FromDouble](../../aspose.words.drawing.charts/chartyvalue/fromdouble/)(double) | Skapar en`ChartYValue` instans avDouble typ. |
-| static [FromTimeSpan](../../aspose.words.drawing.charts/chartyvalue/fromtimespan/)(TimeSpan) | Skapar en`ChartYValue` instans avTime typ. |
-| override [Equals](../../aspose.words.drawing.charts/chartyvalue/equals/)(object) | Får en flagga som indikerar om det angivna objektet är lika med det aktuella Y-värdeobjektet. |
+| static [FromDateTime](../../aspose.words.drawing.charts/chartyvalue/fromdatetime/)(*DateTime*) | Skapar en`ChartYValue` instans avDateTime typ. |
+| static [FromDouble](../../aspose.words.drawing.charts/chartyvalue/fromdouble/)(*double*) | Skapar en`ChartYValue` instans avDouble typ. |
+| static [FromTimeSpan](../../aspose.words.drawing.charts/chartyvalue/fromtimespan/)(*TimeSpan*) | Skapar en`ChartYValue` instans avTime typ. |
+| override [Equals](../../aspose.words.drawing.charts/chartyvalue/equals/)(*object*) | Får en flagga som indikerar om det angivna objektet är lika med det aktuella Y-värdeobjektet. |
 | override [GetHashCode](../../aspose.words.drawing.charts/chartyvalue/gethashcode/)() | Hämtar en hash-kod för det aktuella Y-värdeobjektet. |
 
-### Anmärkningar
+## Anmärkningar
 
 Den här klassen innehåller ett antal statiska metoder för att skapa ett Y-värde av en viss typ. The [`ValueType`](./valuetype/) egenskap låter dig bestämma typen av ett befintligt Y-värde.
 
@@ -43,5 +45,3 @@ Alla Y-värden som inte är noll i en diagramserie måste vara av samma[`ChartYV
 
 * namnutrymme [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../)
-
-

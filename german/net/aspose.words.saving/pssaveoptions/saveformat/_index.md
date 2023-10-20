@@ -1,7 +1,9 @@
 ---
 title: PsSaveOptions.SaveFormat
-second_title: Aspose.Words für .NET-API-Referenz
-description: PsSaveOptions eigendom. Gibt das Format an in dem das Dokument gespeichert wird wenn dieses Speicheroptionsobjekt verwendet wird. Kann nur seinPs .
+linktitle: SaveFormat
+articleTitle: SaveFormat
+second_title: Aspose.Words für .NET
+description: PsSaveOptions SaveFormat eigendom. Gibt das Format an in dem das Dokument gespeichert wird wenn dieses Speicheroptionsobjekt verwendet wird. Kann nur seinPs  in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.saving/pssaveoptions/saveformat/
@@ -14,7 +16,7 @@ Gibt das Format an, in dem das Dokument gespeichert wird, wenn dieses Speicherop
 public override SaveFormat SaveFormat { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Dokument im Postscript-Format in Form einer Buchfalte gespeichert wird.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "PsSaveOptions.UseBookFoldPrintingSettings.ps", saveOpti
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
 * class [PsSaveOptions](../)
-* namensraum [Aspose.Words.Saving](../../pssaveoptions/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

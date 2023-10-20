@@ -1,7 +1,9 @@
 ---
 title: ResourceLoadingArgs.ResourceType
-second_title: Aspose.Words for .NET API 参考
-description: ResourceLoadingArgs 财产. 资源类型
+linktitle: ResourceType
+articleTitle: ResourceType
+second_title: 用于 .NET 的 Aspose.Words
+description: ResourceLoadingArgs ResourceType 财产. 资源类型 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.loading/resourceloadingargs/resourcetype/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.loading/resourceloadingargs/resourcetype/
 public ResourceType ResourceType { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何自定义将外部资源加载到文档中的过程。
 
@@ -78,7 +80,5 @@ private class ImageNameHandler : IResourceLoadingCallback
 
 * enum [ResourceType](../../resourcetype/)
 * class [ResourceLoadingArgs](../)
-* 命名空间 [Aspose.Words.Loading](../../resourceloadingargs/)
+* 命名空间 [Aspose.Words.Loading](../../../aspose.words.loading/)
 * 部件 [Aspose.Words](../../../)
-
-

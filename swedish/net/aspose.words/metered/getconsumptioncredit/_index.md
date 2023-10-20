@@ -1,7 +1,9 @@
 ---
 title: Metered.GetConsumptionCredit
-second_title: Aspose.Words för .NET API Referens
-description: Metered metod. Får konsumtionskredit
+linktitle: GetConsumptionCredit
+articleTitle: GetConsumptionCredit
+second_title: Aspose.Words för .NET
+description: Metered GetConsumptionCredit metod. Får konsumtionskredit i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words/metered/getconsumptioncredit/
@@ -18,7 +20,7 @@ public static decimal GetConsumptionCredit()
 
 konsumtionsmängd
 
-### Exempel
+## Exempel
 
 Visar hur du aktiverar en mätlicens och spårar kredit/förbrukning.
 
@@ -45,7 +47,5 @@ Console.WriteLine($"Consumption quantity after operation: {Metered.GetConsumptio
 ### Se även
 
 * class [Metered](../)
-* namnutrymme [Aspose.Words](../../metered/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldRef.InsertRelativePosition
-second_title: Aspose.Words لمراجع .NET API
-description: FieldRef ملكية. الحصول على أو تعيين ما إذا كان سيتم إدراج الموضع النسبي للفقرة المشار إليها.
+linktitle: InsertRelativePosition
+articleTitle: InsertRelativePosition
+second_title: Aspose.Words لـ .NET
+description: FieldRef InsertRelativePosition ملكية. الحصول على أو تعيين ما إذا كان سيتم إدراج الموضع النسبي للفقرة المشار إليها في C#.
 type: docs
 weight: 80
 url: /ar/net/aspose.words.fields/fieldref/insertrelativeposition/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldref/insertrelativeposition/
 public bool InsertRelativePosition { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج حقول REF للإشارة إلى الإشارات المرجعية.
 
@@ -104,7 +106,5 @@ private static FieldRef InsertFieldRef(DocumentBuilder builder, string bookmarkN
 ### أنظر أيضا
 
 * class [FieldRef](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldref/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

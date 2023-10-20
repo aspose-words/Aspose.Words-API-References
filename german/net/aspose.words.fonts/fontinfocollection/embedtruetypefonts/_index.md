@@ -1,7 +1,9 @@
 ---
 title: FontInfoCollection.EmbedTrueTypeFonts
-second_title: Aspose.Words für .NET-API-Referenz
-description: FontInfoCollection eigendom. Gibt an ob TrueTypeSchriftarten beim Speichern in ein Dokument eingebettet werden sollen. Der Standardwert für diese Eigenschaft istFALSCH .
+linktitle: EmbedTrueTypeFonts
+articleTitle: EmbedTrueTypeFonts
+second_title: Aspose.Words für .NET
+description: FontInfoCollection EmbedTrueTypeFonts eigendom. Gibt an ob TrueTypeSchriftarten beim Speichern in ein Dokument eingebettet werden sollen. Der Standardwert für diese Eigenschaft istFALSCH  in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.fonts/fontinfocollection/embedtruetypefonts/
@@ -14,13 +16,13 @@ Gibt an, ob TrueType-Schriftarten beim Speichern in ein Dokument eingebettet wer
 public bool EmbedTrueTypeFonts { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Durch das Einbetten von TrueType-Schriftarten können andere das Dokument mit denselben Schriftarten anzeigen, mit denen es erstellt wurde, , die Dokumentgröße kann sich jedoch erheblich erhöhen.
 
 Diese Option funktioniert nur für die Formate DOC, DOCX und RTF.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Dokument mit eingebetteten TrueType-Schriftarten gespeichert wird.
 
@@ -43,7 +45,5 @@ else
 ### Siehe auch
 
 * class [FontInfoCollection](../)
-* namensraum [Aspose.Words.Fonts](../../fontinfocollection/)
+* namensraum [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * Montage [Aspose.Words](../../../)
-
-

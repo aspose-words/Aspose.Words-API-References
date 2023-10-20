@@ -1,7 +1,9 @@
 ---
 title: ChartYValue.FromDouble
-second_title: Aspose.Words for .NET API 参考
-description: ChartYValue 方法. 创建一个ChartYValue的实例Double类型.
+linktitle: FromDouble
+articleTitle: FromDouble
+second_title: 用于 .NET 的 Aspose.Words
+description: ChartYValue FromDouble 方法. 创建一个ChartYValue的实例Double类型 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.drawing.charts/chartyvalue/fromdouble/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.drawing.charts/chartyvalue/fromdouble/
 public static ChartYValue FromDouble(double value)
 ```
 
-### 例子
+## 例子
 
 展示如何使用数据填充图表系列。
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "Charts.PopulateChartWithData.docx");
 ### 也可以看看
 
 * class [ChartYValue](../)
-* 命名空间 [Aspose.Words.Drawing.Charts](../../chartyvalue/)
+* 命名空间 [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ImageFieldMergingArgs.ImageHeight
-second_title: Aspose.Words for .NET API 参考
-description: ImageFieldMergingArgs 财产. 指定要插入到文档中的图像的图像高度
+linktitle: ImageHeight
+articleTitle: ImageHeight
+second_title: 用于 .NET 的 Aspose.Words
+description: ImageFieldMergingArgs ImageHeight 财产. 指定要插入到文档中的图像的图像高度 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.mailmerging/imagefieldmergingargs/imageheight/
@@ -14,13 +16,13 @@ url: /zh/net/aspose.words.mailmerging/imagefieldmergingargs/imageheight/
 public MergeFieldImageDimension ImageHeight { get; set; }
 ```
 
-### 评论
+## 评论
 
 该属性的值最初来自相应的 MERGEFIELD 代码，包含在 模板文档中。要覆盖初始值，您应该分配一个实例 of [`MergeFieldImageDimension`](../../../aspose.words.fields/mergefieldimagedimension/)类为此属性或设置实例 的属性[`MergeFieldImageDimension`](../../../aspose.words.fields/mergefieldimagedimension/)类，由此属性返回。
 
 要指示应应用图像高度的原始值，您应该分配`无效的` 值为此属性或设置[`Value`](../../../aspose.words.fields/mergefieldimagedimension/value/)的instance 的属性[`MergeFieldImageDimension`](../../../aspose.words.fields/mergefieldimagedimension/)该属性返回的类为负值。
 
-### 例子
+## 例子
 
 展示如何在 MERGEFIELDS 在邮件合并期间接受图像时设置图像尺寸。
 
@@ -91,7 +93,5 @@ private class MergedImageResizer : IFieldMergingCallback
 
 * class [MergeFieldImageDimension](../../../aspose.words.fields/mergefieldimagedimension/)
 * class [ImageFieldMergingArgs](../)
-* 命名空间 [Aspose.Words.MailMerging](../../imagefieldmergingargs/)
+* 命名空间 [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * 部件 [Aspose.Words](../../../)
-
-

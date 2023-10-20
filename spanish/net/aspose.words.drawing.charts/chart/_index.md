@@ -1,7 +1,9 @@
 ---
-title: Class Chart
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Drawing.Charts.Chart clase. Proporciona acceso a las propiedades de forma del gráfico.
+title: Chart Class
+linktitle: Chart
+articleTitle: Chart
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Drawing.Charts.Chart clase. Proporciona acceso a las propiedades de forma del gráfico en C#.
 type: docs
 weight: 620
 url: /es/net/aspose.words.drawing.charts/chart/
@@ -29,7 +31,7 @@ public class Chart
 | [SourceFullName](../../aspose.words.drawing.charts/chart/sourcefullname/) { get; set; } | Obtiene la ruta y el nombre de un archivo xls/xlsx al que está vinculado este gráfico. |
 | [Title](../../aspose.words.drawing.charts/chart/title/) { get; } | Proporciona acceso a las propiedades del título del gráfico. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo insertar un gráfico y establecer un título.
 
@@ -58,5 +60,3 @@ doc.Save(ArtifactsDir + "Charts.ChartTitle.docx");
 
 * espacio de nombres [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * asamblea [Aspose.Words](../../)
-
-

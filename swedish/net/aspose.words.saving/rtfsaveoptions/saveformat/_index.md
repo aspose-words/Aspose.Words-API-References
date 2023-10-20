@@ -1,7 +1,9 @@
 ---
 title: RtfSaveOptions.SaveFormat
-second_title: Aspose.Words för .NET API Referens
-description: RtfSaveOptions fast egendom. Anger formatet som dokumentet kommer att sparas i om detta sparaalternativobjekt används. Kan endastRtf .
+linktitle: SaveFormat
+articleTitle: SaveFormat
+second_title: Aspose.Words för .NET
+description: RtfSaveOptions SaveFormat fast egendom. Anger formatet som dokumentet kommer att sparas i om detta sparaalternativobjekt används. Kan endastRtf  i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.saving/rtfsaveoptions/saveformat/
@@ -14,7 +16,7 @@ Anger formatet som dokumentet kommer att sparas i om detta sparaalternativ-objek
 public override SaveFormat SaveFormat { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man sparar ett dokument till .rtf med anpassade alternativ.
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "RtfSaveOptions.ExportImages.rtf", options);
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
 * class [RtfSaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../rtfsaveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

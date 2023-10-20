@@ -1,7 +1,9 @@
 ---
 title: Cell.LastParagraph
-second_title: Aspose.Words för .NET API Referens
-description: Cell fast egendom. Får det sista stycket bland de närmaste barnen.
+linktitle: LastParagraph
+articleTitle: LastParagraph
+second_title: Aspose.Words för .NET
+description: Cell LastParagraph fast egendom. Får det sista stycket bland de närmaste barnen i C#.
 type: docs
 weight: 60
 url: /sv/net/aspose.words.tables/cell/lastparagraph/
@@ -14,7 +16,7 @@ Får det sista stycket bland de närmaste barnen.
 public Paragraph LastParagraph { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man tillämpar inställningar på vertikala ramar på en tabellrads format.
 
@@ -60,7 +62,5 @@ doc.Save(ArtifactsDir + "Border.VerticalBorders.docx");
 
 * class [Paragraph](../../../aspose.words/paragraph/)
 * class [Cell](../)
-* namnutrymme [Aspose.Words.Tables](../../cell/)
+* namnutrymme [Aspose.Words.Tables](../../../aspose.words.tables/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,12 +1,14 @@
 ---
 title: License.SetLicense
-second_title: Aspose.Words für .NET-API-Referenz
-description: License methode. Lizenziert die Komponente.
+linktitle: SetLicense
+articleTitle: SetLicense
+second_title: Aspose.Words für .NET
+description: License SetLicense methode. Lizenziert die Komponente in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words/license/setlicense/
 ---
-## SetLicense(string) {#setlicense_1}
+## SetLicense(*string*) {#setlicense_1}
 
 Lizenziert die Komponente.
 
@@ -18,7 +20,7 @@ public void SetLicense(string licenseName)
 | --- | --- | --- |
 | licenseName | String | Kann ein vollständiger oder kurzer Dateiname oder der Name einer eingebetteten Ressource sein. Verwenden Sie eine leere Zeichenfolge, um in den Auswertungsmodus zu wechseln. |
 
-### Bemerkungen
+## Bemerkungen
 
 Versucht, die Lizenz an den folgenden Orten zu finden:
 
@@ -38,7 +40,7 @@ Versucht, die Lizenz an den folgenden Orten zu finden:
 
 2. Eine eingebettete Ressource in der aufrufenden Assembly des Clients.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie eine Lizenz für Aspose.Words mithilfe einer Lizenzdatei im lokalen Dateisystem initialisiert wird.
 
@@ -62,12 +64,12 @@ license.SetLicense("Aspose.Words.NET.lic");
 ### Siehe auch
 
 * class [License](../)
-* namensraum [Aspose.Words](../../license/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
 
 ---
 
-## SetLicense(Stream) {#setlicense}
+## SetLicense(*Stream*) {#setlicense}
 
 Lizenziert die Komponente.
 
@@ -79,11 +81,11 @@ public void SetLicense(Stream stream)
 | --- | --- | --- |
 | stream | Stream | Ein Stream, der die Lizenz enthält. |
 
-### Bemerkungen
+## Bemerkungen
 
 Verwenden Sie diese Methode, um eine Lizenz aus einem Stream zu laden.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie eine Lizenz für Aspose.Words aus einem Stream initialisiert wird.
 
@@ -99,7 +101,5 @@ using (Stream myStream = File.OpenRead(Path.Combine(LicenseDir, "Aspose.Words.NE
 ### Siehe auch
 
 * class [License](../)
-* namensraum [Aspose.Words](../../license/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

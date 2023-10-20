@@ -1,7 +1,9 @@
 ---
 title: MailMerge.MappedDataFields
-second_title: Aspose.Words for .NET API 参考
-description: MailMerge 财产. 返回表示邮件合并操作的映射数据字段的集合
+linktitle: MappedDataFields
+articleTitle: MappedDataFields
+second_title: 用于 .NET 的 Aspose.Words
+description: MailMerge MappedDataFields 财产. 返回表示邮件合并操作的映射数据字段的集合 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words.mailmerging/mailmerge/mappeddatafields/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.mailmerging/mailmerge/mappeddatafields/
 public MappedDataFieldCollection MappedDataFields { get; }
 ```
 
-### 评论
+## 评论
 
 映射数据字段允许在数据源 中的字段名称与文档中的邮件合并字段名称之间自动映射。
 
-### 例子
+## 例子
 
 演示如何映射具有不同名称的数据列和 MERGEFIELD，以便在邮件合并期间在它们之间传输数据。
 
@@ -104,7 +106,5 @@ private static DataTable CreateSourceTableMappedDataFields()
 
 * class [MappedDataFieldCollection](../../mappeddatafieldcollection/)
 * class [MailMerge](../)
-* 命名空间 [Aspose.Words.MailMerging](../../mailmerge/)
+* 命名空间 [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * 部件 [Aspose.Words](../../../)
-
-

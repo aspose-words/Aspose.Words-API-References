@@ -1,7 +1,9 @@
 ---
 title: FieldDisplayBarcode.SymbolHeight
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldDisplayBarcode свойство. Получает или задает высоту символа. Единицы измерения  TWIPS 1/1440 дюйма.
+linktitle: SymbolHeight
+articleTitle: SymbolHeight
+second_title: Aspose.Words для .NET
+description: FieldDisplayBarcode SymbolHeight свойство. Получает или задает высоту символа. Единицы измерения  TWIPS 1/1440 дюйма на С#.
 type: docs
 weight: 130
 url: /ru/net/aspose.words.fields/fielddisplaybarcode/symbolheight/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fielddisplaybarcode/symbolheight/
 public string SymbolHeight { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как вставить поле DISPLAYBARCODE и установить его свойства.
 
@@ -72,7 +74,5 @@ doc.Save(ArtifactsDir + "Field.DISPLAYBARCODE.docx");
 ### Смотрите также
 
 * class [FieldDisplayBarcode](../)
-* пространство имен [Aspose.Words.Fields](../../fielddisplaybarcode/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldRef.InsertHyperlink
-second_title: Aspose.Words per .NET API Reference
-description: FieldRef proprietà. Ottiene o imposta se creare un collegamento ipertestuale al paragrafo con segnalibro.
+linktitle: InsertHyperlink
+articleTitle: InsertHyperlink
+second_title: Aspose.Words per .NET
+description: FieldRef InsertHyperlink proprietà. Ottiene o imposta se creare un collegamento ipertestuale al paragrafo con segnalibro in C#.
 type: docs
 weight: 40
 url: /it/net/aspose.words.fields/fieldref/inserthyperlink/
@@ -14,7 +16,7 @@ Ottiene o imposta se creare un collegamento ipertestuale al paragrafo con segnal
 public bool InsertHyperlink { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come inserire campi REF per fare riferimento ai segnalibri.
 
@@ -104,7 +106,5 @@ private static FieldRef InsertFieldRef(DocumentBuilder builder, string bookmarkN
 ### Guarda anche
 
 * class [FieldRef](../)
-* spazio dei nomi [Aspose.Words.Fields](../../fieldref/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

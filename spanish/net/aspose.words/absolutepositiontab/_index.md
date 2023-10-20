@@ -1,7 +1,9 @@
 ---
-title: Class AbsolutePositionTab
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.AbsolutePositionTab clase. Una pestaña de posición absoluta es un carácter que se utiliza para avanzar la posición en la línea de texto actual al mostrar este contenido de WordprocessingML.
+title: AbsolutePositionTab Class
+linktitle: AbsolutePositionTab
+articleTitle: AbsolutePositionTab
+second_title: Aspose.Words para .NET
+description: Aspose.Words.AbsolutePositionTab clase. Una pestaña de posición absoluta es un carácter que se utiliza para avanzar la posición en la línea de texto actual al mostrar este contenido de WordprocessingML en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words/absolutepositiontab/
@@ -40,18 +42,18 @@ public class AbsolutePositionTab : SpecialChar
 
 | Nombre | Descripción |
 | --- | --- |
-| override [Accept](../../aspose.words/absolutepositiontab/accept/)(DocumentVisitor) | Acepta un visitante. |
-| [Clone](../../aspose.words/node/clone/)(bool) | Crea un duplicado del nodo. |
-| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Obtiene el primer ancestro del especificado[`NodeType`](../nodetype/) . |
-| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Obtiene el primer antepasado del tipo de objeto especificado. |
+| override [Accept](../../aspose.words/absolutepositiontab/accept/)(*[DocumentVisitor](../documentvisitor/)*) | Acepta un visitante. |
+| [Clone](../../aspose.words/node/clone/)(*bool*) | Crea un duplicado del nodo. |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*[NodeType](../nodetype/)*) | Obtiene el primer ancestro del especificado[`NodeType`](../nodetype/) . |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | Obtiene el primer antepasado del tipo de objeto especificado. |
 | override [GetText](../../aspose.words/specialchar/gettext/)() | Obtiene el carácter especial que representa este nodo. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Obtiene el siguiente nodo según el algoritmo transversal del árbol de pedidos anticipados. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Obtiene el nodo anterior según el algoritmo transversal del árbol de pedidos anticipados. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../node/)*) | Obtiene el siguiente nodo según el algoritmo transversal del árbol de pedidos anticipados. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../node/)*) | Obtiene el nodo anterior según el algoritmo transversal del árbol de pedidos anticipados. |
 | [Remove](../../aspose.words/node/remove/)() | Se elimina del padre. |
-| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Exporta el contenido del nodo a una cadena en el formato especificado. |
-| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | Exporta el contenido del nodo a una cadena usando las opciones de guardado especificadas. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../saveformat/)*) | Exporta el contenido del nodo a una cadena en el formato especificado. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | Exporta el contenido del nodo a una cadena usando las opciones de guardado especificadas. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo procesar caracteres de tabulación de posición absoluta con un visitante del documento.
 
@@ -129,5 +131,3 @@ public class DocTextExtractor : DocumentVisitor
 * class [SpecialChar](../specialchar/)
 * espacio de nombres [Aspose.Words](../../aspose.words/)
 * asamblea [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldGoToButton.DisplayText
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldGoToButton свойство. Получает или задает текст кнопки которая появляется в документе чтобы ее можно было выбрать для активации перехода.
+linktitle: DisplayText
+articleTitle: DisplayText
+second_title: Aspose.Words для .NET
+description: FieldGoToButton DisplayText свойство. Получает или задает текст кнопки которая появляется в документе чтобы ее можно было выбрать для активации перехода на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.fields/fieldgotobutton/displaytext/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldgotobutton/displaytext/
 public string DisplayText { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, что нужно вставить поле GOTOBUTTON.
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "Field.GOTOBUTTON.docx");
 ### Смотрите также
 
 * class [FieldGoToButton](../)
-* пространство имен [Aspose.Words.Fields](../../fieldgotobutton/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

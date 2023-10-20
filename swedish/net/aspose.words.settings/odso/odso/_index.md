@@ -1,7 +1,9 @@
 ---
-title: Odso.Odso
-second_title: Aspose.Words för .NET API Referens
-description: Odso byggare. Default_Constructor
+title: Odso
+linktitle: Odso
+articleTitle: Odso
+second_title: Aspose.Words för .NET
+description: Odso byggare. Default_Constructor i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.settings/odso/odso/
@@ -17,7 +19,5 @@ public Odso()
 ### Se även
 
 * class [Odso](../)
-* namnutrymme [Aspose.Words.Settings](../../odso/)
+* namnutrymme [Aspose.Words.Settings](../../../aspose.words.settings/)
 * hopsättning [Aspose.Words](../../../)
-
-

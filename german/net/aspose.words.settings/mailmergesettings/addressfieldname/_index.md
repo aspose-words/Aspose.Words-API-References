@@ -1,7 +1,9 @@
 ---
 title: MailMergeSettings.AddressFieldName
-second_title: Aspose.Words für .NET-API-Referenz
-description: MailMergeSettings eigendom. Gibt die Spalte innerhalb der Datenquelle an die EMailAdressen enthält. Der Standardwert ist eine leere Zeichenfolge.
+linktitle: AddressFieldName
+articleTitle: AddressFieldName
+second_title: Aspose.Words für .NET
+description: MailMergeSettings AddressFieldName eigendom. Gibt die Spalte innerhalb der Datenquelle an die EMailAdressen enthält. Der Standardwert ist eine leere Zeichenfolge in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.settings/mailmergesettings/addressfieldname/
@@ -14,7 +16,7 @@ Gibt die Spalte innerhalb der Datenquelle an, die E-Mail-Adressen enthält. Der 
 public string AddressFieldName { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Serienbrief ausgeführt wird, während eine Verbindung zu einer externen Datenquelle hergestellt wird.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "MailMerge.OdsoEmail.docx");
 ### Siehe auch
 
 * class [MailMergeSettings](../)
-* namensraum [Aspose.Words.Settings](../../mailmergesettings/)
+* namensraum [Aspose.Words.Settings](../../../aspose.words.settings/)
 * Montage [Aspose.Words](../../../)
-
-

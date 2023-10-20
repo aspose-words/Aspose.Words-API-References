@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.TitlesOfParts
-second_title: Справочник по API Aspose.Words для .NET
-description: BuiltInDocumentProperties свойство. Каждая строка в массиве определяет имя части документа.
+linktitle: TitlesOfParts
+articleTitle: TitlesOfParts
+second_title: Aspose.Words для .NET
+description: BuiltInDocumentProperties TitlesOfParts свойство. Каждая строка в массиве определяет имя части документа на С#.
 type: docs
 weight: 300
 url: /ru/net/aspose.words.properties/builtindocumentproperties/titlesofparts/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.properties/builtindocumentproperties/titlesofparts/
 public string[] TitlesOfParts { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Aspose.Words не обновляет это свойство.
 
-### Примеры
+## Примеры
 
 Показывает связь между свойствами "HeadingPairs" и "TitlesOfParts".
 
@@ -49,7 +51,5 @@ while (headingPairsIndex < headingPairs.Length)
 ### Смотрите также
 
 * class [BuiltInDocumentProperties](../)
-* пространство имен [Aspose.Words.Properties](../../builtindocumentproperties/)
+* пространство имен [Aspose.Words.Properties](../../../aspose.words.properties/)
 * сборка [Aspose.Words](../../../)
-
-

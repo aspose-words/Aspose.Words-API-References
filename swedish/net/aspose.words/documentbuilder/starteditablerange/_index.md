@@ -1,9 +1,11 @@
 ---
 title: DocumentBuilder.StartEditableRange
-second_title: Aspose.Words för .NET API Referens
-description: DocumentBuilder metod. Markerar den aktuella positionen i dokumentet som en redigerbar intervallstart.
+linktitle: StartEditableRange
+articleTitle: StartEditableRange
+second_title: Aspose.Words för .NET
+description: DocumentBuilder StartEditableRange metod. Markerar den aktuella positionen i dokumentet som en redigerbar intervallstart i C#.
 type: docs
-weight: 640
+weight: 630
 url: /sv/net/aspose.words/documentbuilder/starteditablerange/
 ---
 ## DocumentBuilder.StartEditableRange method
@@ -18,13 +20,13 @@ public EditableRangeStart StartEditableRange()
 
 Den redigerbara intervallstartnoden som just skapades.
 
-### Anmärkningar
+## Anmärkningar
 
 Redigerbart område i ett dokument kan överlappa och sträcka sig över vilket område som helst. För att skapa ett giltigt redigerbart område måste du anropa båda`StartEditableRange` och[`EndEditableRange`](../endeditablerange/) eller[`EndEditableRange`](../endeditablerange/) metoder.
 
 Dåligt format redigerbart område kommer att ignoreras när dokumentet sparas.
 
-### Exempel
+## Exempel
 
 Visar hur man skapar kapslade redigerbara intervall.
 
@@ -107,7 +109,5 @@ editableRange.Remove();
 
 * class [EditableRangeStart](../../editablerangestart/)
 * class [DocumentBuilder](../)
-* namnutrymme [Aspose.Words](../../documentbuilder/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

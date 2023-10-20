@@ -1,7 +1,9 @@
 ---
 title: Paragraph.FrameFormat
-second_title: Справочник по API Aspose.Words для .NET
-description: Paragraph свойство. Обеспечивает доступ к свойствам форматирования фрейма.
+linktitle: FrameFormat
+articleTitle: FrameFormat
+second_title: Aspose.Words для .NET
+description: Paragraph FrameFormat свойство. Обеспечивает доступ к свойствам форматирования фрейма на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words/paragraph/frameformat/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/paragraph/frameformat/
 public FrameFormat FrameFormat { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как получить информацию о свойствах форматирования абзацев, являющихся фреймами.
 
@@ -40,7 +42,5 @@ Assert.AreEqual(0.0d, paragraphFrame.FrameFormat.VerticalDistanceFromText);
 
 * class [FrameFormat](../../frameformat/)
 * class [Paragraph](../)
-* пространство имен [Aspose.Words](../../paragraph/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,26 +1,28 @@
 ---
 title: StructuredDocumentTag.FullDate
-second_title: Référence de l'API Aspose.Words pour .NET
-description: StructuredDocumentTag propriété. Spécifie la date et lheure complètes saisies pour la dernière fois TSD .
+linktitle: FullDate
+articleTitle: FullDate
+second_title: Aspose.Words pour .NET
+description: StructuredDocumentTag FullDate propriété. Spécifie la date et lheure complètes saisies pour la dernière foisTSD  en C#.
 type: docs
 weight: 130
 url: /fr/net/aspose.words.markup/structureddocumenttag/fulldate/
 ---
 ## StructuredDocumentTag.FullDate property
 
-Spécifie la date et l'heure complètes saisies pour la dernière fois **TSD** .
+Spécifie la date et l'heure complètes saisies pour la dernière fois**TSD** .
 
 ```csharp
 public DateTime FullDate { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 L'accès à cette propriété ne fonctionnera que pourDate Type SDT.
 
 Pour tous les autres types de SDT, une exception se produira.
 
-### Exemples
+## Exemples
 
 Montre comment inviter l'utilisateur à saisir une date avec une balise de document structuré.
 
@@ -57,7 +59,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.Date.docx");
 ### Voir également
 
 * class [StructuredDocumentTag](../)
-* espace de noms [Aspose.Words.Markup](../../structureddocumenttag/)
+* espace de noms [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Assemblée [Aspose.Words](../../../)
-
-

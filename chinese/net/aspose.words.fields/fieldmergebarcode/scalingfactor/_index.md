@@ -1,7 +1,9 @@
 ---
 title: FieldMergeBarcode.ScalingFactor
-second_title: Aspose.Words for .NET API 参考
-description: FieldMergeBarcode 财产. 获取或设置符号的缩放因子该值为整数百分点有效值为 10 1000
+linktitle: ScalingFactor
+articleTitle: ScalingFactor
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldMergeBarcode ScalingFactor 财产. 获取或设置符号的缩放因子该值为整数百分点有效值为 10 1000 在 C#.
 type: docs
 weight: 120
 url: /zh/net/aspose.words.fields/fieldmergebarcode/scalingfactor/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fieldmergebarcode/scalingfactor/
 public string ScalingFactor { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何对 QR 条形码执行邮件合并。
 
@@ -64,7 +66,5 @@ doc.Save(ArtifactsDir + "Field.MERGEBARCODE.QR.docx");
 ### 也可以看看
 
 * class [FieldMergeBarcode](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldmergebarcode/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

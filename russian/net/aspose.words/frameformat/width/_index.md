@@ -1,7 +1,9 @@
 ---
 title: FrameFormat.Width
-second_title: Справочник по API Aspose.Words для .NET
-description: FrameFormat свойство. Получает ширину указанного кадра в пунктах.
+linktitle: Width
+articleTitle: Width
+second_title: Aspose.Words для .NET
+description: FrameFormat Width свойство. Получает ширину указанного кадра в пунктах на С#.
 type: docs
 weight: 120
 url: /ru/net/aspose.words/frameformat/width/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/frameformat/width/
 public double Width { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как получить информацию о свойствах форматирования абзацев, являющихся фреймами.
 
@@ -39,7 +41,5 @@ Assert.AreEqual(0.0d, paragraphFrame.FrameFormat.VerticalDistanceFromText);
 ### Смотрите также
 
 * class [FrameFormat](../)
-* пространство имен [Aspose.Words](../../frameformat/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ExportListLabels
-second_title: Aspose.Words for .NET API 参考
-description: HtmlSaveOptions 财产. 控制列表标签如何输出为 HTMLMHTML 或 EPUB 默认值为Auto.
+linktitle: ExportListLabels
+articleTitle: ExportListLabels
+second_title: 用于 .NET 的 Aspose.Words
+description: HtmlSaveOptions ExportListLabels 财产. 控制列表标签如何输出为 HTMLMHTML 或 EPUB 默认值为Auto 在 C#.
 type: docs
 weight: 190
 url: /zh/net/aspose.words.saving/htmlsaveoptions/exportlistlabels/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.saving/htmlsaveoptions/exportlistlabels/
 public ExportListLabels ExportListLabels { get; set; }
 ```
 
-### 例子
+## 例子
 
 显示如何配置列表导出为 HTML。
 
@@ -101,7 +103,5 @@ switch (exportListLabels)
 
 * enum [ExportListLabels](../../exportlistlabels/)
 * class [HtmlSaveOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../htmlsaveoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: PreferredWidth.Auto
-second_title: Справочник по API Aspose.Words для .NET
-description: PreferredWidth поле. Возвращает экземпляр представляющий значение предпочтительная ширина не указана.
+linktitle: Auto
+articleTitle: Auto
+second_title: Aspose.Words для .NET
+description: PreferredWidth Auto поле. Возвращает экземпляр представляющий значение предпочтительная ширина не указана на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.tables/preferredwidth/auto/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.tables/preferredwidth/auto/
 public static readonly PreferredWidth Auto;
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как установить предпочтительную ширину ячеек таблицы.
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertCellsWithPreferredWidths.docx");
 ### Смотрите также
 
 * class [PreferredWidth](../)
-* пространство имен [Aspose.Words.Tables](../../preferredwidth/)
+* пространство имен [Aspose.Words.Tables](../../../aspose.words.tables/)
 * сборка [Aspose.Words](../../../)
-
-

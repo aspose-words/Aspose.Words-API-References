@@ -1,7 +1,9 @@
 ---
 title: RevisionOptions.InsertedTextEffect
-second_title: Aspose.Words for .NET API 参考
-description: RevisionOptions 财产. 允许指定要应用于插入内容的效果Insertion. 默认值为Underline.
+linktitle: InsertedTextEffect
+articleTitle: InsertedTextEffect
+second_title: 用于 .NET 的 Aspose.Words
+description: RevisionOptions InsertedTextEffect 财产. 允许指定要应用于插入内容的效果Insertion. 默认值为Underline 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words.layout/revisionoptions/insertedtexteffect/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.layout/revisionoptions/insertedtexteffect/
 public RevisionTextEffect InsertedTextEffect { get; set; }
 ```
 
-### 评论
+## 评论
 
 的价值观Hidden和DoubleStrikeThrough 是不允许的，会导致ArgumentOutOfRangeException。
 
-### 例子
+## 例子
 
 展示如何修改修订版本的外观。
 
@@ -70,7 +72,5 @@ doc.Save(ArtifactsDir + "Revision.RevisionOptions.pdf");
 
 * enum [RevisionTextEffect](../../revisiontexteffect/)
 * class [RevisionOptions](../)
-* 命名空间 [Aspose.Words.Layout](../../revisionoptions/)
+* 命名空间 [Aspose.Words.Layout](../../../aspose.words.layout/)
 * 部件 [Aspose.Words](../../../)
-
-

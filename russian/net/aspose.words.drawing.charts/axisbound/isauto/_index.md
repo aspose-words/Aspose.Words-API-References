@@ -1,7 +1,9 @@
 ---
 title: AxisBound.IsAuto
-second_title: Справочник по API Aspose.Words для .NET
-description: AxisBound свойство. Возвращает флаг указывающий что граница оси должна определяться автоматически.
+linktitle: IsAuto
+articleTitle: IsAuto
+second_title: Aspose.Words для .NET
+description: AxisBound IsAuto свойство. Возвращает флаг указывающий что граница оси должна определяться автоматически на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.drawing.charts/axisbound/isauto/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.drawing.charts/axisbound/isauto/
 public bool IsAuto { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как установить пользовательские границы оси.
 
@@ -74,7 +76,5 @@ doc.Save(ArtifactsDir + "Charts.AxisBound.docx");
 ### Смотрите также
 
 * class [AxisBound](../)
-* пространство имен [Aspose.Words.Drawing.Charts](../../axisbound/)
+* пространство имен [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../../)
-
-

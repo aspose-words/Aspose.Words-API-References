@@ -1,7 +1,9 @@
 ---
 title: FieldDde.InsertAsRtf
-second_title: Aspose.Words för .NET API Referens
-description: FieldDde fast egendom. Hämtar eller ställer in om det länkade objektet ska infogas i richtextformat RTF.
+linktitle: InsertAsRtf
+articleTitle: InsertAsRtf
+second_title: Aspose.Words för .NET
+description: FieldDde InsertAsRtf fast egendom. Hämtar eller ställer in om det länkade objektet ska infogas i richtextformat RTF i C#.
 type: docs
 weight: 60
 url: /sv/net/aspose.words.fields/fielddde/insertasrtf/
@@ -14,7 +16,7 @@ Hämtar eller ställer in om det länkade objektet ska infogas i rich-text-forma
 public bool InsertAsRtf { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man använder olika fälttyper för att länka till andra dokument i det lokala filsystemet och visa deras innehåll.
 
@@ -197,7 +199,5 @@ public enum InsertLinkedObjectAs
 ### Se även
 
 * class [FieldDde](../)
-* namnutrymme [Aspose.Words.Fields](../../fielddde/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

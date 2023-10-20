@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.ParentParagraph
-second_title: Aspose.Words for .NET API 参考
-description: ShapeBase 财产. 返回直接父段落
+linktitle: ParentParagraph
+articleTitle: ParentParagraph
+second_title: 用于 .NET 的 Aspose.Words
+description: ShapeBase ParentParagraph 财产. 返回直接父段落 在 C#.
 type: docs
 weight: 410
 url: /zh/net/aspose.words.drawing/shapebase/parentparagraph/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.drawing/shapebase/parentparagraph/
 public Paragraph ParentParagraph { get; }
 ```
 
-### 评论
+## 评论
 
 对于组形状的子形状和 Office Math 对象的子形状始终返回`无效的`。
 
-### 例子
+## 例子
 
 演示如何插入文本框并设置其内容的字体。
 
@@ -57,7 +59,5 @@ doc.Save(ArtifactsDir + "Shape.Font.docx");
 
 * class [Paragraph](../../../aspose.words/paragraph/)
 * class [ShapeBase](../)
-* 命名空间 [Aspose.Words.Drawing](../../shapebase/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

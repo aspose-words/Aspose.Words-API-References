@@ -1,9 +1,11 @@
 ---
 title: CompositeNode.GetChild
-second_title: Référence de l'API Aspose.Words pour .NET
-description: CompositeNode méthode. Renvoie un Nième nœud enfant qui correspond au type spécifié.
+linktitle: GetChild
+articleTitle: GetChild
+second_title: Aspose.Words pour .NET
+description: CompositeNode GetChild méthode. Renvoie un Nième nœud enfant qui correspond au type spécifié en C#.
 type: docs
-weight: 100
+weight: 80
 url: /fr/net/aspose.words/compositenode/getchild/
 ---
 ## CompositeNode.GetChild method
@@ -24,13 +26,13 @@ public Node GetChild(NodeType nodeType, int index, bool isDeep)
 
 Le nœud enfant qui correspond aux critères ou`nul` si aucun nœud correspondant n'est trouvé.
 
-### Remarques
+## Remarques
 
 Si l'index est hors plage, un`nul` est retourné.
 
 Notez que les nœuds de balisage (StructuredDocumentTag etSmartTag ) sont parcourus même lorsque*isDeep* =`FAUX` et`GetChild` est invoqué pour le type de nœud sans balisage. Par exemple, si la première exécution d'un para est enveloppée dans un[`StructuredDocumentTag`](../../../aspose.words.markup/structureddocumenttag/) , il sera quand même restitué par`GetChild`(Run , 0,`FAUX`).
 
-### Exemples
+## Exemples
 
 Montre comment appliquer les propriétés du style d’un tableau directement aux éléments du tableau.
 
@@ -103,7 +105,5 @@ foreach (Node child in children)
 * class [Node](../../node/)
 * enum [NodeType](../../nodetype/)
 * class [CompositeNode](../)
-* espace de noms [Aspose.Words](../../compositenode/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

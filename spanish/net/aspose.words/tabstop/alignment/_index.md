@@ -1,7 +1,9 @@
 ---
 title: TabStop.Alignment
-second_title: Referencia de API de Aspose.Words para .NET
-description: TabStop propiedad. Obtiene o establece la alineación del texto en esta tabulación.
+linktitle: Alignment
+articleTitle: Alignment
+second_title: Aspose.Words para .NET
+description: TabStop Alignment propiedad. Obtiene o establece la alineación del texto en esta tabulación en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words/tabstop/alignment/
@@ -14,7 +16,7 @@ Obtiene o establece la alineación del texto en esta tabulación.
 public TabAlignment Alignment { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo modificar la posición de la tabulación derecha en párrafos relacionados con TOC.
 
@@ -41,7 +43,5 @@ doc.Save(ArtifactsDir + "Styles.ChangeTocsTabStops.docx");
 
 * enum [TabAlignment](../../tabalignment/)
 * class [TabStop](../)
-* espacio de nombres [Aspose.Words](../../tabstop/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

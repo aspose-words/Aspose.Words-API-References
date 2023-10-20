@@ -1,7 +1,9 @@
 ---
 title: InlineStory.LastParagraph
-second_title: Aspose.Words per .NET API Reference
-description: InlineStory proprietà. Ottiene lultimo paragrafo della storia.
+linktitle: LastParagraph
+articleTitle: LastParagraph
+second_title: Aspose.Words per .NET
+description: InlineStory LastParagraph proprietà. Ottiene lultimo paragrafo della storia in C#.
 type: docs
 weight: 70
 url: /it/net/aspose.words/inlinestory/lastparagraph/
@@ -14,7 +16,7 @@ Ottiene l'ultimo paragrafo della storia.
 public Paragraph LastParagraph { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come inserire i nodi InlineStory.
 
@@ -74,7 +76,5 @@ doc.Save(ArtifactsDir + "InlineStory.InsertInlineStoryNodes.docx");
 
 * class [Paragraph](../../paragraph/)
 * class [InlineStory](../)
-* spazio dei nomi [Aspose.Words](../../inlinestory/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

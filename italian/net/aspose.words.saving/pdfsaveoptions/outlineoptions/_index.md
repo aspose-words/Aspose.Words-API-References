@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.OutlineOptions
-second_title: Aspose.Words per .NET API Reference
-description: PdfSaveOptions proprietà. Permette di specificare le opzioni del contorno.
+linktitle: OutlineOptions
+articleTitle: OutlineOptions
+second_title: Aspose.Words per .NET
+description: PdfSaveOptions OutlineOptions proprietà. Permette di specificare le opzioni del contorno in C#.
 type: docs
 weight: 240
 url: /it/net/aspose.words.saving/pdfsaveoptions/outlineoptions/
@@ -14,7 +16,7 @@ Permette di specificare le opzioni del contorno.
 public OutlineOptions OutlineOptions { get; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 È possibile creare strutture da intestazioni e segnalibri.
 
@@ -26,7 +28,7 @@ Per i segnalibri il livello di struttura può essere impostato nelle opzioni com
 
 Inoltre, i contorni possono essere esportati in formato XPS utilizzando lo stesso`OutlineOptions` classe.
 
-### Esempi
+## Esempi
 
 Mostra come limitare il livello delle intestazioni che appariranno nella struttura di un documento PDF salvato.
 
@@ -107,7 +109,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.CreateMissingOutlineLevels.pdf", saveOpt
 
 * class [OutlineOptions](../../outlineoptions/)
 * class [PdfSaveOptions](../)
-* spazio dei nomi [Aspose.Words.Saving](../../pdfsaveoptions/)
+* spazio dei nomi [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../../)
-
-

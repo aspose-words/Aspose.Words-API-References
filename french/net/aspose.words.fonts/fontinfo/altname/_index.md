@@ -1,7 +1,9 @@
 ---
 title: FontInfo.AltName
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FontInfo propriété. Obtient ou définit le nom alternatif de la police.
+linktitle: AltName
+articleTitle: AltName
+second_title: Aspose.Words pour .NET
+description: FontInfo AltName propriété. Obtient ou définit le nom alternatif de la police en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.fonts/fontinfo/altname/
@@ -14,11 +16,11 @@ Obtient ou définit le nom alternatif de la police.
 public string AltName { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 C'est pas possible`nul`. Peut être une chaîne vide.
 
-### Exemples
+## Exemples
 
 Montre comment accéder et imprimer les détails de chaque police dans un document.
 
@@ -57,7 +59,5 @@ while (fontCollectionEnumerator.MoveNext())
 ### Voir également
 
 * class [FontInfo](../)
-* espace de noms [Aspose.Words.Fonts](../../fontinfo/)
+* espace de noms [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * Assemblée [Aspose.Words](../../../)
-
-

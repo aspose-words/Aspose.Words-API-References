@@ -1,7 +1,9 @@
 ---
 title: FormField.CheckBoxSize
-second_title: Aspose.Words لمراجع .NET API
-description: FormField ملكية. الحصول على حجم مربع الاختيار أو تحديده بالنقاط. يكون له تأثير فقط عندماIsCheckBoxExactSize يكونحقيقي .
+linktitle: CheckBoxSize
+articleTitle: CheckBoxSize
+second_title: Aspose.Words لـ .NET
+description: FormField CheckBoxSize ملكية. الحصول على حجم مربع الاختيار أو تحديده بالنقاط. يكون له تأثير فقط عندماIsCheckBoxExactSize يكونحقيقي  في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.fields/formfield/checkboxsize/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.fields/formfield/checkboxsize/
 public double CheckBoxSize { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 ينطبق على حقل نموذج خانة الاختيار فقط.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج أنواع مختلفة من حقول النموذج في المستند ومعالجتها باستخدام تطبيق زائر المستند.
 
@@ -152,7 +154,5 @@ public class FormFieldVisitor : DocumentVisitor
 ### أنظر أيضا
 
 * class [FormField](../)
-* مساحة الاسم [Aspose.Words.Fields](../../formfield/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: TextPath.Shadow
-second_title: Referencia de API de Aspose.Words para .NET
-description: TextPath propiedad. Define si se aplica una sombra al texto en una ruta de texto.
+linktitle: Shadow
+articleTitle: Shadow
+second_title: Aspose.Words para .NET
+description: TextPath Shadow propiedad. Define si se aplica una sombra al texto en una ruta de texto en C#.
 type: docs
 weight: 110
 url: /es/net/aspose.words.drawing/textpath/shadow/
@@ -14,11 +16,11 @@ Define si se aplica una sombra al texto en una ruta de texto.
 public bool Shadow { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 El valor predeterminado es`FALSO`.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo trabajar con WordArt.
 
@@ -121,7 +123,5 @@ private static Shape AppendWordArt(Document doc, string text, string textFontFam
 ### Ver también
 
 * class [TextPath](../)
-* espacio de nombres [Aspose.Words.Drawing](../../textpath/)
+* espacio de nombres [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * asamblea [Aspose.Words](../../../)
-
-

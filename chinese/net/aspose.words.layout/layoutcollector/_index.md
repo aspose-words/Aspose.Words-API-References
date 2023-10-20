@@ -1,7 +1,9 @@
 ---
-title: Class LayoutCollector
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Layout.LayoutCollector 班级. 此类允许计算文档节点的页码
+title: LayoutCollector Class
+linktitle: LayoutCollector
+articleTitle: LayoutCollector
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Layout.LayoutCollector 班级. 此类允许计算文档节点的页码 在 C#.
 type: docs
 weight: 3320
 url: /zh/net/aspose.words.layout/layoutcollector/
@@ -20,7 +22,7 @@ public class LayoutCollector
 
 | 姓名 | 描述 |
 | --- | --- |
-| [LayoutCollector](layoutcollector/)(Document) | 初始化此类的实例。 |
+| [LayoutCollector](layoutcollector/)(*[Document](../../aspose.words/document/)*) | 初始化此类的实例。 |
 
 ## 特性
 
@@ -33,12 +35,12 @@ public class LayoutCollector
 | 姓名 | 描述 |
 | --- | --- |
 | [Clear](../../aspose.words.layout/layoutcollector/clear/)() | 清除所有收集的布局数据。手动更新文档或重建布局后调用此方法。 |
-| [GetEndPageIndex](../../aspose.words.layout/layoutcollector/getendpageindex/)(Node) | 获取节点结束的页面的从 1 开始的索引。如果节点无法映射到页面，则返回 0。 |
-| [GetEntity](../../aspose.words.layout/layoutcollector/getentity/)(Node) | 返回一个不透明的位置[`LayoutEnumerator`](../layoutenumerator/)对应于指定的节点。 您可以使用返回值作为参数[`Current`](../layoutenumerator/current/)给定枚举的文档being 和节点的文档是相同的. |
-| [GetNumPagesSpanned](../../aspose.words.layout/layoutcollector/getnumpagesspanned/)(Node) | 获取指定节点跨越的页数。如果节点位于单个页面内，则为 0。 这与[`GetEndPageIndex`](./getendpageindex/)-[`GetStartPageIndex`](./getstartpageindex/). |
-| [GetStartPageIndex](../../aspose.words.layout/layoutcollector/getstartpageindex/)(Node) | 获取节点开始的页面的从 1 开始的索引。如果节点无法映射到页面，则返回 0。 |
+| [GetEndPageIndex](../../aspose.words.layout/layoutcollector/getendpageindex/)(*[Node](../../aspose.words/node/)*) | 获取节点结束的页面的从 1 开始的索引。如果节点无法映射到页面，则返回 0。 |
+| [GetEntity](../../aspose.words.layout/layoutcollector/getentity/)(*[Node](../../aspose.words/node/)*) | 返回一个不透明的位置[`LayoutEnumerator`](../layoutenumerator/)对应于指定的节点。 您可以使用返回值作为参数[`Current`](../layoutenumerator/current/)给定枚举的文档being 和节点的文档是相同的. |
+| [GetNumPagesSpanned](../../aspose.words.layout/layoutcollector/getnumpagesspanned/)(*[Node](../../aspose.words/node/)*) | 获取指定节点跨越的页数。如果节点位于单个页面内，则为 0。 这与[`GetEndPageIndex`](./getendpageindex/)-[`GetStartPageIndex`](./getstartpageindex/). |
+| [GetStartPageIndex](../../aspose.words.layout/layoutcollector/getstartpageindex/)(*[Node](../../aspose.words/node/)*) | 获取节点开始的页面的从 1 开始的索引。如果节点无法映射到页面，则返回 0。 |
 
-### 评论
+## 评论
 
 当您创建一个`LayoutCollector`并指定一个[`Document`](../../aspose.words/document/)要附加到的文档对象， 当文档格式化为页面时，收集器将记录文档节点到布局对象的映射。
 
@@ -46,7 +48,7 @@ public class LayoutCollector
 
 当不再需要收集布局信息时，最好设置[`Document`](./document/)财产给`无效的` 以避免不必要地收集更多布局映射。
 
-### 例子
+## 例子
 
 演示如何查看节点跨越的页面范围。
 
@@ -105,5 +107,3 @@ Assert.AreEqual("¶", layoutEnumerator.Text);
 
 * 命名空间 [Aspose.Words.Layout](../../aspose.words.layout/)
 * 部件 [Aspose.Words](../../)
-
-

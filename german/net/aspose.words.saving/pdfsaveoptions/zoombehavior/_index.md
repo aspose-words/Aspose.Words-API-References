@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.ZoomBehavior
-second_title: Aspose.Words für .NET-API-Referenz
-description: PdfSaveOptions eigendom. Ruft einen Wert ab oder legt diesen fest der bestimmt welcher Zoomtyp angewendet werden soll wenn ein Dokument mit einem PDFViewer geöffnet wird.
+linktitle: ZoomBehavior
+articleTitle: ZoomBehavior
+second_title: Aspose.Words für .NET
+description: PdfSaveOptions ZoomBehavior eigendom. Ruft einen Wert ab oder legt diesen fest der bestimmt welcher Zoomtyp angewendet werden soll wenn ein Dokument mit einem PDFViewer geöffnet wird in C#.
 type: docs
 weight: 320
 url: /de/net/aspose.words.saving/pdfsaveoptions/zoombehavior/
@@ -14,11 +16,11 @@ Ruft einen Wert ab oder legt diesen fest, der bestimmt, welcher Zoomtyp angewend
 public PdfZoomBehavior ZoomBehavior { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Der Standardwert istNone , d. h. es wird keine Anpassung angewendet.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie der Standardzoom festgelegt wird, den ein Leser beim Öffnen eines gerenderten PDF-Dokuments anwendet.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.ZoomBehaviour.pdf", options);
 
 * enum [PdfZoomBehavior](../../pdfzoombehavior/)
 * class [PdfSaveOptions](../)
-* namensraum [Aspose.Words.Saving](../../pdfsaveoptions/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

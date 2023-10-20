@@ -1,7 +1,9 @@
 ---
 title: HorizontalRuleFormat.NoShade
-second_title: Référence de l'API Aspose.Words pour .NET
-description: HorizontalRuleFormat propriété. Indique la présence dun ombrage 3D pour la règle horizontale. Sivrai alors la règle horizontale est sans ombrage 3D et une couleur unie est utilisée.
+linktitle: NoShade
+articleTitle: NoShade
+second_title: Aspose.Words pour .NET
+description: HorizontalRuleFormat NoShade propriété. Indique la présence dun ombrage 3D pour la règle horizontale. Sivrai alors la règle horizontale est sans ombrage 3D et une couleur unie est utilisée en C#.
 type: docs
 weight: 40
 url: /fr/net/aspose.words.drawing/horizontalruleformat/noshade/
@@ -14,11 +16,11 @@ Indique la présence d'un ombrage 3D pour la règle horizontale. Si`vrai` alors 
 public bool NoShade { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 La valeur par défaut est`FAUX`.
 
-### Exemples
+## Exemples
 
 Montre comment insérer une forme de règle horizontale et personnaliser sa mise en forme.
 
@@ -41,7 +43,5 @@ Assert.True(shape.HorizontalRuleFormat.NoShade);
 ### Voir également
 
 * class [HorizontalRuleFormat](../)
-* espace de noms [Aspose.Words.Drawing](../../horizontalruleformat/)
+* espace de noms [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Assemblée [Aspose.Words](../../../)
-
-

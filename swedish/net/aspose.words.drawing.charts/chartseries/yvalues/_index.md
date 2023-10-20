@@ -1,7 +1,9 @@
 ---
 title: ChartSeries.YValues
-second_title: Aspose.Words för .NET API Referens
-description: ChartSeries fast egendom. Får en samling Yvärden för denna diagramserie.
+linktitle: YValues
+articleTitle: YValues
+second_title: Aspose.Words för .NET
+description: ChartSeries YValues fast egendom. Får en samling Yvärden för denna diagramserie i C#.
 type: docs
 weight: 150
 url: /sv/net/aspose.words.drawing.charts/chartseries/yvalues/
@@ -18,7 +20,5 @@ public ChartYValueCollection YValues { get; }
 
 * class [ChartYValueCollection](../../chartyvaluecollection/)
 * class [ChartSeries](../)
-* namnutrymme [Aspose.Words.Drawing.Charts](../../chartseries/)
+* namnutrymme [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../../)
-
-

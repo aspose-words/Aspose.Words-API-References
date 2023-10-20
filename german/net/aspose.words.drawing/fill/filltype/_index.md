@@ -1,9 +1,11 @@
 ---
 title: Fill.FillType
-second_title: Aspose.Words für .NET-API-Referenz
-description: Fill eigendom. Ruft einen Fülltyp ab.
+linktitle: FillType
+articleTitle: FillType
+second_title: Aspose.Words für .NET
+description: Fill FillType eigendom. Ruft einen Fülltyp ab in C#.
 type: docs
-weight: 60
+weight: 50
 url: /de/net/aspose.words.drawing/fill/filltype/
 ---
 ## Fill.FillType property
@@ -18,7 +20,5 @@ public FillType FillType { get; }
 
 * enum [FillType](../../filltype/)
 * class [Fill](../)
-* namensraum [Aspose.Words.Drawing](../../fill/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class BarcodeParameters
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Fields.BarcodeParameters classe. Classe contenitore per i parametri del codice a barre da trasferire a BarcodeGenerator.
+title: BarcodeParameters Class
+linktitle: BarcodeParameters
+articleTitle: BarcodeParameters
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Fields.BarcodeParameters classe. Classe contenitore per i parametri del codice a barre da trasferire a BarcodeGenerator in C#.
 type: docs
 weight: 1470
 url: /it/net/aspose.words.fields/barcodeparameters/
@@ -44,11 +46,11 @@ public class BarcodeParameters
 | [SymbolHeight](../../aspose.words.fields/barcodeparameters/symbolheight/) { get; set; } | Altezza immagine codice a barre (in twip - 1/1440 pollici) |
 | [SymbolRotation](../../aspose.words.fields/barcodeparameters/symbolrotation/) { get; set; } | Rotazione del simbolo del codice a barre. I valori validi sono [0, 3]. |
 
-### Osservazioni
+## Osservazioni
 
 Il set di parametri dipende dalle opzioni del campo DISPLAYBARCODE. Vedi l'elenco esatto su[https://msdn.microsoft.com/en-us/library/hh745901(v=office.12).aspx](https://msdn.microsoft.com/en-us/library/hh745901(v=office.12).aspx)
 
-### Esempi
+## Esempi
 
 Mostra come utilizzare un generatore di codici a barre.
 
@@ -125,5 +127,3 @@ doc.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.docx");
 
 * spazio dei nomi [Aspose.Words.Fields](../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../)
-
-

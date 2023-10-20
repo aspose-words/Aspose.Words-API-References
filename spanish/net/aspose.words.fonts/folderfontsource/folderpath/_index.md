@@ -1,7 +1,9 @@
 ---
 title: FolderFontSource.FolderPath
-second_title: Referencia de API de Aspose.Words para .NET
-description: FolderFontSource propiedad. Ruta a la carpeta.
+linktitle: FolderPath
+articleTitle: FolderPath
+second_title: Aspose.Words para .NET
+description: FolderFontSource FolderPath propiedad. Ruta a la carpeta en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words.fonts/folderfontsource/folderpath/
@@ -14,7 +16,7 @@ Ruta a la carpeta.
 public string FolderPath { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo utilizar una carpeta del sistema local que contiene fuentes como fuente de fuentes.
 
@@ -35,7 +37,5 @@ Assert.AreEqual(1, folderFontSource.Priority);
 ### Ver también
 
 * class [FolderFontSource](../)
-* espacio de nombres [Aspose.Words.Fonts](../../folderfontsource/)
+* espacio de nombres [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * asamblea [Aspose.Words](../../../)
-
-

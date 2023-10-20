@@ -1,7 +1,9 @@
 ---
 title: TextColumnCollection.Spacing
-second_title: Referencia de API de Aspose.Words para .NET
-description: TextColumnCollection propiedad. Cuando las columnas están espaciadas uniformemente obtiene o establece la cantidad de espacio entre cada columna en puntos.
+linktitle: Spacing
+articleTitle: Spacing
+second_title: Aspose.Words para .NET
+description: TextColumnCollection Spacing propiedad. Cuando las columnas están espaciadas uniformemente obtiene o establece la cantidad de espacio entre cada columna en puntos en C#.
 type: docs
 weight: 50
 url: /es/net/aspose.words/textcolumncollection/spacing/
@@ -14,11 +16,11 @@ Cuando las columnas están espaciadas uniformemente, obtiene o establece la cant
 public double Spacing { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 Tiene efecto sólo cuando[`EvenlySpaced`](../evenlyspaced/) se establece en`verdadero` .
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear varias columnas espaciadas uniformemente en una sección.
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "PageSetup.ColumnsSameWidth.docx");
 ### Ver también
 
 * class [TextColumnCollection](../)
-* espacio de nombres [Aspose.Words](../../textcolumncollection/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

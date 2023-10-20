@@ -1,9 +1,11 @@
 ---
 title: DocumentBuilder.StartEditableRange
-second_title: Référence de l'API Aspose.Words pour .NET
-description: DocumentBuilder méthode. Marque la position actuelle dans le document comme début de plage modifiable.
+linktitle: StartEditableRange
+articleTitle: StartEditableRange
+second_title: Aspose.Words pour .NET
+description: DocumentBuilder StartEditableRange méthode. Marque la position actuelle dans le document comme début de plage modifiable en C#.
 type: docs
-weight: 640
+weight: 630
 url: /fr/net/aspose.words/documentbuilder/starteditablerange/
 ---
 ## DocumentBuilder.StartEditableRange method
@@ -18,13 +20,13 @@ public EditableRangeStart StartEditableRange()
 
 Le nœud de début de plage modifiable qui vient d'être créé.
 
-### Remarques
+## Remarques
 
 La plage modifiable dans un document peut se chevaucher et s'étendre sur n'importe quelle plage. Pour créer une plage modifiable valide, vous devez appeler les deux`StartEditableRange` et[`EndEditableRange`](../endeditablerange/) ou[`EndEditableRange`](../endeditablerange/) méthodes.
 
 La plage modifiable mal formée sera ignorée lors de l’enregistrement du document.
 
-### Exemples
+## Exemples
 
 Montre comment créer des plages modifiables imbriquées.
 
@@ -107,7 +109,5 @@ editableRange.Remove();
 
 * class [EditableRangeStart](../../editablerangestart/)
 * class [DocumentBuilder](../)
-* espace de noms [Aspose.Words](../../documentbuilder/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

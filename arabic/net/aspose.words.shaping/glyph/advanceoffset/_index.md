@@ -1,7 +1,9 @@
 ---
 title: Glyph.AdvanceOffset
-second_title: Aspose.Words لمراجع .NET API
-description: Glyph ملكية. الإزاحة الأفقية x بالنسبة لموضع الحرف الرسومي. تستخدم غالبًا لإرفاق علامات مثل علامات التشكيل بالأحرف الأساسية.
+linktitle: AdvanceOffset
+articleTitle: AdvanceOffset
+second_title: Aspose.Words لـ .NET
+description: Glyph AdvanceOffset ملكية. الإزاحة الأفقية x بالنسبة لموضع الحرف الرسومي. تستخدم غالبًا لإرفاق علامات مثل علامات التشكيل بالأحرف الأساسية في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.shaping/glyph/advanceoffset/
@@ -17,7 +19,5 @@ public short AdvanceOffset { get; }
 ### أنظر أيضا
 
 * class [Glyph](../)
-* مساحة الاسم [Aspose.Words.Shaping](../../glyph/)
+* مساحة الاسم [Aspose.Words.Shaping](../../../aspose.words.shaping/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: MailMergeRegionInfo.Regions
-second_title: Справочник по API Aspose.Words для .NET
-description: MailMergeRegionInfo свойство. Возвращает список дочерних регионов.
+linktitle: Regions
+articleTitle: Regions
+second_title: Aspose.Words для .NET
+description: MailMergeRegionInfo Regions свойство. Возвращает список дочерних регионов на С#.
 type: docs
 weight: 80
 url: /ru/net/aspose.words.mailmerging/mailmergeregioninfo/regions/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.mailmerging/mailmergeregioninfo/regions/
 public IList<MailMergeRegionInfo> Regions { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как проверить регионы слияния почты.
 
@@ -59,7 +61,5 @@ Assert.AreEqual("TableEnd:NestedRegion1", endFieldMergeField.FieldName);
 ### Смотрите также
 
 * class [MailMergeRegionInfo](../)
-* пространство имен [Aspose.Words.MailMerging](../../mailmergeregioninfo/)
+* пространство имен [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * сборка [Aspose.Words](../../../)
-
-

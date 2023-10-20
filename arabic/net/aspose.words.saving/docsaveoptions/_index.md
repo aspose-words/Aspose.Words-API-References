@@ -1,7 +1,9 @@
 ---
-title: Class DocSaveOptions
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Saving.DocSaveOptions فصل. يمكن استخدامه لتحديد خيارات إضافية عند حفظ مستند في ملفDoc أو Dot التنسيق.
+title: DocSaveOptions Class
+linktitle: DocSaveOptions
+articleTitle: DocSaveOptions
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Saving.DocSaveOptions فصل. يمكن استخدامه لتحديد خيارات إضافية عند حفظ مستند في ملفDoc أو Dot التنسيق في C#.
 type: docs
 weight: 4930
 url: /ar/net/aspose.words.saving/docsaveoptions/
@@ -21,7 +23,7 @@ public class DocSaveOptions : SaveOptions
 | اسم | وصف |
 | --- | --- |
 | [DocSaveOptions](docsaveoptions/#constructor)() | تهيئة مثيل جديد لهذه الفئة يمكن استخدامه لحفظ مستند في ملفDoc التنسيق. |
-| [DocSaveOptions](docsaveoptions/#constructor_1)(SaveFormat) | تهيئة مثيل جديد لهذه الفئة يمكن استخدامه لحفظ مستند في ملفDoc أو Dot التنسيق. |
+| [DocSaveOptions](docsaveoptions/#constructor_1)(*[SaveFormat](../../aspose.words/saveformat/)*) | تهيئة مثيل جديد لهذه الفئة يمكن استخدامه لحفظ مستند في ملفDoc أو Dot التنسيق. |
 
 ## الخصائص
 
@@ -30,7 +32,7 @@ public class DocSaveOptions : SaveOptions
 | [AllowEmbeddingPostScriptFonts](../../aspose.words.saving/saveoptions/allowembeddingpostscriptfonts/) { get; set; } | الحصول على قيمة منطقية أو تعيينها تشير إلى ما إذا كان سيتم السماح بدمج الخطوط باستخدام مخططات PostScript عند حفظ تضمين خطوط TrueType في مستند. القيمة الافتراضية هي`خطأ شنيع` . |
 | [AlwaysCompressMetafiles](../../aspose.words.saving/docsaveoptions/alwayscompressmetafiles/) { get; set; } | متى`خطأ شنيع` ، لا يتم ضغط ملفات التعريف الصغيرة لأسباب تتعلق بالأداء. القيمة الافتراضية هي`حقيقي` يتم ضغط كافة ملفات التعريف بغض النظر عن حجمها. |
 | [CustomTimeZoneInfo](../../aspose.words.saving/saveoptions/customtimezoneinfo/) { get; set; } | الحصول على أو تعيين المنطقة الزمنية المحلية المخصصة المستخدمة لحقول التاريخ/الوقت. |
-| [DefaultTemplate](../../aspose.words.saving/saveoptions/defaulttemplate/) { get; set; } | الحصول على أو تعيين المسار إلى القالب الافتراضي (بما في ذلك اسم الملف). القيمة الافتراضية لهذه الخاصية هي **سلسلة فارغة** (Empty). |
+| [DefaultTemplate](../../aspose.words.saving/saveoptions/defaulttemplate/) { get; set; } | الحصول على أو تعيين المسار إلى القالب الافتراضي (بما في ذلك اسم الملف). القيمة الافتراضية لهذه الخاصية هي**سلسلة فارغة** (Empty). |
 | [Dml3DEffectsRenderingMode](../../aspose.words.saving/saveoptions/dml3deffectsrenderingmode/) { get; set; } | الحصول على قيمة أو تعيينها لتحديد كيفية عرض التأثيرات ثلاثية الأبعاد. |
 | virtual [DmlEffectsRenderingMode](../../aspose.words.saving/saveoptions/dmleffectsrenderingmode/) { get; set; } | الحصول على قيمة أو تعيينها لتحديد كيفية عرض تأثيرات DrawML. |
 | [DmlRenderingMode](../../aspose.words.saving/saveoptions/dmlrenderingmode/) { get; set; } | الحصول على قيمة أو تعيينها لتحديد كيفية عرض أشكال DrawML. |
@@ -51,11 +53,11 @@ public class DocSaveOptions : SaveOptions
 | [UseAntiAliasing](../../aspose.words.saving/saveoptions/useantialiasing/) { get; set; } | الحصول على قيمة أو تعيينها لتحديد ما إذا كان سيتم استخدام الصقل للعرض أم لا. |
 | [UseHighQualityRendering](../../aspose.words.saving/saveoptions/usehighqualityrendering/) { get; set; } | الحصول على قيمة أو تعيينها لتحديد ما إذا كان سيتم استخدام خوارزميات عرض عالية الجودة (أي بطيئة) أم لا. |
 
-### ملاحظات
+## ملاحظات
 
 في هذه اللحظة يوفر فقط[`SaveFormat`](./saveformat/) الخاصية، ولكن في المستقبل ستتم إضافة خيارات أخرى، مثل كلمة مرور التشفير أو إعدادات التوقيع الرقمي.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين خيارات الحفظ لتنسيقات Microsoft Word الأقدم.
 
@@ -90,5 +92,3 @@ Assert.AreEqual("Hello world!", doc.GetText().Trim());
 * class [SaveOptions](../saveoptions/)
 * مساحة الاسم [Aspose.Words.Saving](../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../)
-
-

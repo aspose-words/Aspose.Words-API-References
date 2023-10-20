@@ -1,7 +1,9 @@
 ---
-title: Class SystemFontSource
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Fonts.SystemFontSource klas. Stellt alle auf dem System installierten TrueTypeSchriftarten dar.
+title: SystemFontSource Class
+linktitle: SystemFontSource
+articleTitle: SystemFontSource
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Fonts.SystemFontSource klas. Stellt alle auf dem System installierten TrueTypeSchriftarten dar in C#.
 type: docs
 weight: 3050
 url: /de/net/aspose.words.fonts/systemfontsource/
@@ -21,7 +23,7 @@ public class SystemFontSource : FontSourceBase
 | Name | Beschreibung |
 | --- | --- |
 | [SystemFontSource](systemfontsource/#constructor)() | Ctor. |
-| [SystemFontSource](systemfontsource/#constructor_1)(int) | Ctor. |
+| [SystemFontSource](systemfontsource/#constructor_1)(*int*) | Ctor. |
 
 ## Eigenschaften
 
@@ -38,7 +40,7 @@ public class SystemFontSource : FontSourceBase
 | [GetAvailableFonts](../../aspose.words.fonts/fontsourcebase/getavailablefonts/)() | Gibt eine Liste der über diese Quelle verfügbaren Schriftarten zurück. |
 | static [GetSystemFontFolders](../../aspose.words.fonts/systemfontsource/getsystemfontfolders/)() | Gibt Systemschriftartenordner oder ein leeres Array zurück, wenn auf Ordner nicht zugegriffen werden kann. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie auf die Systemschriftquelle eines Dokuments zugreifen und Schriftartersatz festlegen.
 
@@ -96,5 +98,3 @@ Assert.AreEqual(1,
 * class [FontSourceBase](../fontsourcebase/)
 * namensraum [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * Montage [Aspose.Words](../../)
-
-

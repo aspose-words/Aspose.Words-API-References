@@ -1,9 +1,11 @@
 ---
 title: Stroke.DashStyle
-second_title: Справочник по API Aspose.Words для .NET
-description: Stroke свойство. Указывает образец точки и тире для обводки.
+linktitle: DashStyle
+articleTitle: DashStyle
+second_title: Aspose.Words для .NET
+description: Stroke DashStyle свойство. Указывает образец точки и тире для обводки на С#.
 type: docs
-weight: 50
+weight: 40
 url: /ru/net/aspose.words.drawing/stroke/dashstyle/
 ---
 ## Stroke.DashStyle property
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.drawing/stroke/dashstyle/
 public DashStyle DashStyle { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Значение по умолчанию:Solid.
 
-### Примеры
+## Примеры
 
 Показывает создание разнообразных фигур.
 
@@ -94,7 +96,5 @@ doc.Save(ArtifactsDir + "Drawing.VariousShapes.docx");
 
 * enum [DashStyle](../../dashstyle/)
 * class [Stroke](../)
-* пространство имен [Aspose.Words.Drawing](../../stroke/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

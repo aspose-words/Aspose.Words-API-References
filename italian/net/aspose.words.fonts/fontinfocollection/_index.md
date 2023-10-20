@@ -1,7 +1,9 @@
 ---
-title: Class FontInfoCollection
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Fonts.FontInfoCollection classe. Rappresenta una raccolta di caratteri utilizzati in un documento.
+title: FontInfoCollection Class
+linktitle: FontInfoCollection
+articleTitle: FontInfoCollection
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Fonts.FontInfoCollection classe. Rappresenta una raccolta di caratteri utilizzati in un documento in C#.
 type: docs
 weight: 2930
 url: /it/net/aspose.words.fonts/fontinfocollection/
@@ -30,16 +32,16 @@ public class FontInfoCollection : IEnumerable<FontInfo>
 
 | Nome | Descrizione |
 | --- | --- |
-| [Contains](../../aspose.words.fonts/fontinfocollection/contains/)(string) | Determina se la raccolta contiene un carattere con il nome specificato. |
+| [Contains](../../aspose.words.fonts/fontinfocollection/contains/)(*string*) | Determina se la raccolta contiene un carattere con il nome specificato. |
 | [GetEnumerator](../../aspose.words.fonts/fontinfocollection/getenumerator/)() | Restituisce un oggetto enumeratore che può essere utilizzato per scorrere tutti gli elementi della raccolta. |
 
-### Osservazioni
+## Osservazioni
 
 Gli articoli sono[`FontInfo`](../fontinfo/) oggetti.
 
 Non crei direttamente istanze di questa classe. Usa il[`FontInfos`](../../aspose.words/documentbase/fontinfos/) proprietà per accedere alla raccolta di caratteri definiti nel documento.
 
-### Esempi
+## Esempi
 
 Mostra come stampare i dettagli di quali caratteri sono presenti in un documento.
 
@@ -79,5 +81,3 @@ else
 * class [FontInfo](../fontinfo/)
 * spazio dei nomi [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * assemblea [Aspose.Words](../../)
-
-

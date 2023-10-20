@@ -1,7 +1,9 @@
 ---
 title: DigitalSignature.IssuerName
-second_title: Aspose.Words för .NET API Referens
-description: DigitalSignature fast egendom. Returnerar subjektets distinguerade namn på certifikatet isuuer.
+linktitle: IssuerName
+articleTitle: IssuerName
+second_title: Aspose.Words för .NET
+description: DigitalSignature IssuerName fast egendom. Returnerar subjektets distinguerade namn på certifikatet isuuer i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.digitalsignatures/digitalsignature/issuername/
@@ -14,7 +16,7 @@ Returnerar subjektets distinguerade namn på certifikatet isuuer.
 public string IssuerName { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man signerar dokument med X.509-certifikat.
 
@@ -57,7 +59,5 @@ Assert.AreEqual("CN=Morzal.Me", signedDoc.DigitalSignatures[0].SubjectName);
 ### Se även
 
 * class [DigitalSignature](../)
-* namnutrymme [Aspose.Words.DigitalSignatures](../../digitalsignature/)
+* namnutrymme [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * hopsättning [Aspose.Words](../../../)
-
-

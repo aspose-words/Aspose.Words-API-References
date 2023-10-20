@@ -1,7 +1,9 @@
 ---
 title: Table.StyleIdentifier
-second_title: Aspose.Words för .NET API Referens
-description: Table fast egendom. Hämtar eller ställer in den språkoberoende stilidentifieraren för tabellstilen som tillämpas på denna tabell.
+linktitle: StyleIdentifier
+articleTitle: StyleIdentifier
+second_title: Aspose.Words för .NET
+description: Table StyleIdentifier fast egendom. Hämtar eller ställer in den språkoberoende stilidentifieraren för tabellstilen som tillämpas på denna tabell i C#.
 type: docs
 weight: 280
 url: /sv/net/aspose.words.tables/table/styleidentifier/
@@ -14,7 +16,7 @@ Hämtar eller ställer in den språkoberoende stilidentifieraren för tabellstil
 public StyleIdentifier StyleIdentifier { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man bygger en ny tabell samtidigt som man använder en stil.
 
@@ -66,7 +68,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTableWithStyle.docx");
 
 * enum [StyleIdentifier](../../../aspose.words/styleidentifier/)
 * class [Table](../)
-* namnutrymme [Aspose.Words.Tables](../../table/)
+* namnutrymme [Aspose.Words.Tables](../../../aspose.words.tables/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.Alignment
-second_title: Referencia de API de Aspose.Words para .NET
-description: ParagraphFormat propiedad. Obtiene o establece la alineación del texto para el párrafo.
+linktitle: Alignment
+articleTitle: Alignment
+second_title: Aspose.Words para .NET
+description: ParagraphFormat Alignment propiedad. Obtiene o establece la alineación del texto para el párrafo en C#.
 type: docs
 weight: 30
 url: /es/net/aspose.words/paragraphformat/alignment/
@@ -14,7 +16,7 @@ Obtiene o establece la alineación del texto para el párrafo.
 public ParagraphAlignment Alignment { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo insertar un párrafo en el documento.
 
@@ -92,7 +94,5 @@ doc.Save(ArtifactsDir + "Section.CreateManually.docx");
 
 * enum [ParagraphAlignment](../../paragraphalignment/)
 * class [ParagraphFormat](../)
-* espacio de nombres [Aspose.Words](../../paragraphformat/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

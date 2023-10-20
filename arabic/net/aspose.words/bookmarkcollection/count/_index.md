@@ -1,7 +1,9 @@
 ---
 title: BookmarkCollection.Count
-second_title: Aspose.Words لمراجع .NET API
-description: BookmarkCollection ملكية. إرجاع عدد الإشارات المرجعية في المجموعة.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words لـ .NET
+description: BookmarkCollection Count ملكية. إرجاع عدد الإشارات المرجعية في المجموعة في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words/bookmarkcollection/count/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/bookmarkcollection/count/
 public int Count { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إزالة الإشارات المرجعية من مستند.
 
@@ -75,7 +77,5 @@ Assert.AreEqual("Text inside MyBookmark_1.\r" +
 ### أنظر أيضا
 
 * class [BookmarkCollection](../)
-* مساحة الاسم [Aspose.Words](../../bookmarkcollection/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

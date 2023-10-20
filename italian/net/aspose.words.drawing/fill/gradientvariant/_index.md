@@ -1,9 +1,11 @@
 ---
 title: Fill.GradientVariant
-second_title: Aspose.Words per .NET API Reference
-description: Fill proprietà. Ottiene la variante del gradienteGradientVariant per il riempimento.
+linktitle: GradientVariant
+articleTitle: GradientVariant
+second_title: Aspose.Words per .NET
+description: Fill GradientVariant proprietà. Ottiene la variante del gradienteGradientVariant per il riempimento in C#.
 type: docs
-weight: 130
+weight: 120
 url: /it/net/aspose.words.drawing/fill/gradientvariant/
 ---
 ## Fill.GradientVariant property
@@ -14,7 +16,7 @@ Ottiene la variante del gradiente[`GradientVariant`](../../gradientvariant/) per
 public GradientVariant GradientVariant { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come riempire una forma con sfumature.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "Shape.GradientFill.docx", saveOptions);
 
 * enum [GradientVariant](../../gradientvariant/)
 * class [Fill](../)
-* spazio dei nomi [Aspose.Words.Drawing](../../fill/)
+* spazio dei nomi [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Cell.LastParagraph
-second_title: Aspose.Words for .NET API 参考
-description: Cell 财产. 获取直接子级中的最后一段
+linktitle: LastParagraph
+articleTitle: LastParagraph
+second_title: 用于 .NET 的 Aspose.Words
+description: Cell LastParagraph 财产. 获取直接子级中的最后一段 在 C#.
 type: docs
 weight: 60
 url: /zh/net/aspose.words.tables/cell/lastparagraph/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.tables/cell/lastparagraph/
 public Paragraph LastParagraph { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何将垂直边框设置应用到表格行的格式。
 
@@ -60,7 +62,5 @@ doc.Save(ArtifactsDir + "Border.VerticalBorders.docx");
 
 * class [Paragraph](../../../aspose.words/paragraph/)
 * class [Cell](../)
-* 命名空间 [Aspose.Words.Tables](../../cell/)
+* 命名空间 [Aspose.Words.Tables](../../../aspose.words.tables/)
 * 部件 [Aspose.Words](../../../)
-
-

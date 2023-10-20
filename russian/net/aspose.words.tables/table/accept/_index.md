@@ -1,7 +1,9 @@
 ---
 title: Table.Accept
-second_title: Справочник по API Aspose.Words для .NET
-description: Table метод. Принимает посетителя.
+linktitle: Accept
+articleTitle: Accept
+second_title: Aspose.Words для .NET
+description: Table Accept метод. Принимает посетителя на С#.
 type: docs
 weight: 350
 url: /ru/net/aspose.words.tables/table/accept/
@@ -22,7 +24,7 @@ public override bool Accept(DocumentVisitor visitor)
 
 Истинно, если были посещены все узлы; ложь, если[`DocumentVisitor`](../../../aspose.words/documentvisitor/) остановил операцию перед посещением всех узлов.
 
-### Примечания
+## Примечания
 
 Перечисляет этот узел и все его дочерние элементы. Каждый узел вызывает соответствующий метод[`DocumentVisitor`](../../../aspose.words/documentvisitor/).
 
@@ -30,7 +32,7 @@ public override bool Accept(DocumentVisitor visitor)
 
 Звонки[`VisitTableStart`](../../../aspose.words/documentvisitor/visittablestart/) , затем звонит[`Accept`](../../../aspose.words/node/accept/) для всех дочерних узловsection и вызовов[`VisitTableEnd`](../../../aspose.words/documentvisitor/visittableend/) в конце.
 
-### Примеры
+## Примеры
 
 Показывает, как использовать реализацию DocumentVisitor для удаления всего скрытого содержимого из документа.
 
@@ -227,7 +229,5 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
 
 * class [DocumentVisitor](../../../aspose.words/documentvisitor/)
 * class [Table](../)
-* пространство имен [Aspose.Words.Tables](../../table/)
+* пространство имен [Aspose.Words.Tables](../../../aspose.words.tables/)
 * сборка [Aspose.Words](../../../)
-
-

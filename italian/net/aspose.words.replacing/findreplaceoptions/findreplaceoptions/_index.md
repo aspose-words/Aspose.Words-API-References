@@ -1,7 +1,9 @@
 ---
-title: FindReplaceOptions.FindReplaceOptions
-second_title: Aspose.Words per .NET API Reference
-description: FindReplaceOptions costruttore. Default_Costruttore
+title: FindReplaceOptions
+linktitle: FindReplaceOptions
+articleTitle: FindReplaceOptions
+second_title: Aspose.Words per .NET
+description: FindReplaceOptions costruttore. Default_Costruttore in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words.replacing/findreplaceoptions/findreplaceoptions/
@@ -17,12 +19,12 @@ public FindReplaceOptions()
 ### Guarda anche
 
 * class [FindReplaceOptions](../)
-* spazio dei nomi [Aspose.Words.Replacing](../../findreplaceoptions/)
+* spazio dei nomi [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * assemblea [Aspose.Words](../../../)
 
 ---
 
-## FindReplaceOptions(FindReplaceDirection) {#constructor_1}
+## FindReplaceOptions(*[FindReplaceDirection](../../findreplacedirection/)*) {#constructor_1}
 
 ```csharp
 public FindReplaceOptions(FindReplaceDirection direction)
@@ -32,12 +34,12 @@ public FindReplaceOptions(FindReplaceDirection direction)
 
 * enum [FindReplaceDirection](../../findreplacedirection/)
 * class [FindReplaceOptions](../)
-* spazio dei nomi [Aspose.Words.Replacing](../../findreplaceoptions/)
+* spazio dei nomi [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * assemblea [Aspose.Words](../../../)
 
 ---
 
-## FindReplaceOptions(IReplacingCallback) {#constructor_3}
+## FindReplaceOptions(*[IReplacingCallback](../../ireplacingcallback/)*) {#constructor_3}
 
 ```csharp
 public FindReplaceOptions(IReplacingCallback replacingCallback)
@@ -47,12 +49,12 @@ public FindReplaceOptions(IReplacingCallback replacingCallback)
 
 * interface [IReplacingCallback](../../ireplacingcallback/)
 * class [FindReplaceOptions](../)
-* spazio dei nomi [Aspose.Words.Replacing](../../findreplaceoptions/)
+* spazio dei nomi [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * assemblea [Aspose.Words](../../../)
 
 ---
 
-## FindReplaceOptions(FindReplaceDirection, IReplacingCallback) {#constructor_2}
+## FindReplaceOptions(*[FindReplaceDirection](../../findreplacedirection/), [IReplacingCallback](../../ireplacingcallback/)*) {#constructor_2}
 
 ```csharp
 public FindReplaceOptions(FindReplaceDirection direction, IReplacingCallback replacingCallback)
@@ -63,7 +65,5 @@ public FindReplaceOptions(FindReplaceDirection direction, IReplacingCallback rep
 * enum [FindReplaceDirection](../../findreplacedirection/)
 * interface [IReplacingCallback](../../ireplacingcallback/)
 * class [FindReplaceOptions](../)
-* spazio dei nomi [Aspose.Words.Replacing](../../findreplaceoptions/)
+* spazio dei nomi [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * assemblea [Aspose.Words](../../../)
-
-

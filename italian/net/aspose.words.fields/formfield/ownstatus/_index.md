@@ -1,7 +1,9 @@
 ---
 title: FormField.OwnStatus
-second_title: Aspose.Words per .NET API Reference
-description: FormField proprietà. Specifica lorigine del testo visualizzato nella barra di stato quando è attivo un campo modulo.
+linktitle: OwnStatus
+articleTitle: OwnStatus
+second_title: Aspose.Words per .NET
+description: FormField OwnStatus proprietà. Specifica lorigine del testo visualizzato nella barra di stato quando è attivo un campo modulo in C#.
 type: docs
 weight: 160
 url: /it/net/aspose.words.fields/formfield/ownstatus/
@@ -14,11 +16,11 @@ Specifica l'origine del testo visualizzato nella barra di stato quando è attivo
 public bool OwnStatus { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Se`VERO` , il testo specificato dal[`StatusText`](../statustext/) viene visualizzata la proprietà. Se`falso` , il testo della voce di glossario specificata da[`StatusText`](../statustext/) viene visualizzata la proprietà.
 
-### Esempi
+## Esempi
 
 Mostra come inserire diversi tipi di campi modulo in un documento ed elaborarli utilizzando un'implementazione del visitatore del documento.
 
@@ -152,7 +154,5 @@ public class FormFieldVisitor : DocumentVisitor
 ### Guarda anche
 
 * class [FormField](../)
-* spazio dei nomi [Aspose.Words.Fields](../../formfield/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

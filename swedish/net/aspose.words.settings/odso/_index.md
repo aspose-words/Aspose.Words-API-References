@@ -1,7 +1,9 @@
 ---
-title: Class Odso
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Settings.Odso klass. Anger ODSOinställningarna Office Data Source Object för en kopplingsdatakälla.
+title: Odso Class
+linktitle: Odso
+articleTitle: Odso
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Settings.Odso klass. Anger ODSOinställningarna Office Data Source Object för en kopplingsdatakälla i C#.
 type: docs
 weight: 5880
 url: /sv/net/aspose.words.settings/odso/
@@ -41,7 +43,7 @@ public class Odso
 | --- | --- |
 | [Clone](../../aspose.words.settings/odso/clone/)() | Returnerar en djup klon av detta objekt. |
 
-### Anmärkningar
+## Anmärkningar
 
 ODSO verkar vara det "nya" sättet som de nyare Microsoft Word-versionerna föredrar att använda när de specificerar vissa -typer av datakällor för ett kopplingsdokument. ODSO dök förmodligen först upp i Microsoft Word 2000.
 
@@ -49,7 +51,7 @@ Användningen av ODSO är dåligt dokumenterad och det bästa sättet att lära 
 
 Du behöver normalt inte skapa objekt av denna klass direkt eftersom ODSO settings alltid är tillgängliga via[`Odso`](../mailmergesettings/odso/) fast egendom.
 
-### Exempel
+## Exempel
 
 Visar hur man kör en sammankoppling med data från ett Office-datakällobjekt.
 
@@ -102,5 +104,3 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 
 * namnutrymme [Aspose.Words.Settings](../../aspose.words.settings/)
 * hopsättning [Aspose.Words](../../)
-
-

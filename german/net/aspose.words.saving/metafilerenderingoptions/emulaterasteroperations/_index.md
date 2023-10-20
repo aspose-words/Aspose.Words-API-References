@@ -1,7 +1,9 @@
 ---
 title: MetafileRenderingOptions.EmulateRasterOperations
-second_title: Aspose.Words für .NET-API-Referenz
-description: MetafileRenderingOptions eigendom. Ruft einen Wert ab oder legt diesen fest der bestimmt ob die Rasteroperationen emuliert werden sollen oder nicht.
+linktitle: EmulateRasterOperations
+articleTitle: EmulateRasterOperations
+second_title: Aspose.Words für .NET
+description: MetafileRenderingOptions EmulateRasterOperations eigendom. Ruft einen Wert ab oder legt diesen fest der bestimmt ob die Rasteroperationen emuliert werden sollen oder nicht in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.saving/metafilerenderingoptions/emulaterasteroperations/
@@ -14,7 +16,7 @@ Ruft einen Wert ab oder legt diesen fest, der bestimmt, ob die Rasteroperationen
 public bool EmulateRasterOperations { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 In Metadateien könnten bestimmte Rasteroperationen verwendet werden. Sie können nicht direkt in Vektorgrafiken gerendert werden. Das Emulieren von Rasteroperationen erfordert eine teilweise Rasterung der resultierenden Vektorgrafiken, was sich auf die Renderleistung der Metadatei auswirken kann.
 
@@ -26,7 +28,7 @@ Diese Option wird nur verwendet, wenn die Metadatei als Vektorgrafik gerendert w
 
 Der Standardwert ist`WAHR`.
 
-### Beispiele
+## Beispiele
 
 Zeigt einen Fallback für die Bitmap-Wiedergabe und eine Änderung der Art von Warnungen zu nicht unterstützten Metadateidatensätzen an.
 
@@ -81,7 +83,5 @@ public class HandleDocumentWarnings : IWarningCallback
 ### Siehe auch
 
 * class [MetafileRenderingOptions](../)
-* namensraum [Aspose.Words.Saving](../../metafilerenderingoptions/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

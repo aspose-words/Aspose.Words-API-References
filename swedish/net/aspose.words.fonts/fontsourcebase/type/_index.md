@@ -1,7 +1,9 @@
 ---
 title: FontSourceBase.Type
-second_title: Aspose.Words för .NET API Referens
-description: FontSourceBase fast egendom. Returnerar typen av teckensnittskälla.
+linktitle: Type
+articleTitle: Type
+second_title: Aspose.Words för .NET
+description: FontSourceBase Type fast egendom. Returnerar typen av teckensnittskälla i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.fonts/fontsourcebase/type/
@@ -14,7 +16,7 @@ Returnerar typen av teckensnittskälla.
 public abstract FontSourceType Type { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man använder en teckensnittsfil i det lokala filsystemet som en teckensnittskälla.
 
@@ -34,7 +36,5 @@ Assert.AreEqual(0, fileFontSource.Priority);
 
 * enum [FontSourceType](../../fontsourcetype/)
 * class [FontSourceBase](../)
-* namnutrymme [Aspose.Words.Fonts](../../fontsourcebase/)
+* namnutrymme [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * hopsättning [Aspose.Words](../../../)
-
-

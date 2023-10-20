@@ -1,7 +1,9 @@
 ---
 title: Section.HeadersFooters
-second_title: Aspose.Words för .NET API Referens
-description: Section fast egendom. Ger åtkomst till noder för sidhuvuden och sidfötter i avsnittet.
+linktitle: HeadersFooters
+articleTitle: HeadersFooters
+second_title: Aspose.Words för .NET
+description: Section HeadersFooters fast egendom. Ger åtkomst till noder för sidhuvuden och sidfötter i avsnittet i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words/section/headersfooters/
@@ -14,7 +16,7 @@ Ger åtkomst till noder för sidhuvuden och sidfötter i avsnittet.
 public HeaderFooterCollection HeadersFooters { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man ersätter text i ett dokuments sidfot.
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "HeaderFooter.RemoveFooters.docx");
 
 * class [HeaderFooterCollection](../../headerfootercollection/)
 * class [Section](../)
-* namnutrymme [Aspose.Words](../../section/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

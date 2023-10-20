@@ -1,7 +1,9 @@
 ---
 title: OutlineOptions.CreateOutlinesForHeadingsInTables
-second_title: Справочник по API Aspose.Words для .NET
-description: OutlineOptions свойство. Указывает создавать ли структуры для заголовков абзацев отформатированных с использованием стилей заголовков внутри таблиц.
+linktitle: CreateOutlinesForHeadingsInTables
+articleTitle: CreateOutlinesForHeadingsInTables
+second_title: Aspose.Words для .NET
+description: OutlineOptions CreateOutlinesForHeadingsInTables свойство. Указывает создавать ли структуры для заголовков абзацев отформатированных с использованием стилей заголовков внутри таблиц на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.saving/outlineoptions/createoutlinesforheadingsintables/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.saving/outlineoptions/createoutlinesforheadingsintable
 public bool CreateOutlinesForHeadingsInTables { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Значение по умолчанию:`ЛОЖЬ`.
 
-### Примеры
+## Примеры
 
 Показывает, как создавать записи схемы PDF-документа для заголовков внутри таблиц.
 
@@ -63,7 +65,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.TableHeadingOutlines.pdf", pdfSaveOption
 ### Смотрите также
 
 * class [OutlineOptions](../)
-* пространство имен [Aspose.Words.Saving](../../outlineoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

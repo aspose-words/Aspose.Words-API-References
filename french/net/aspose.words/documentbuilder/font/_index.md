@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.Font
-second_title: Référence de l'API Aspose.Words pour .NET
-description: DocumentBuilder propriété. Renvoie un objet qui représente les propriétés actuelles de formatage de la police.
+linktitle: Font
+articleTitle: Font
+second_title: Aspose.Words pour .NET
+description: DocumentBuilder Font propriété. Renvoie un objet qui représente les propriétés actuelles de formatage de la police en C#.
 type: docs
 weight: 100
 url: /fr/net/aspose.words/documentbuilder/font/
@@ -14,13 +16,13 @@ Renvoie un objet qui représente les propriétés actuelles de formatage de la p
 public Font Font { get; }
 ```
 
-### Remarques
+## Remarques
 
 Utiliser`Font` pour accéder et modifier les propriétés de formatage des polices.
 
 Spécifiez le formatage de la police avant d'insérer du texte.
 
-### Exemples
+## Exemples
 
 Montre comment insérer une chaîne entourée d'une bordure dans un document.
 
@@ -99,7 +101,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.CreateFormattedTable.docx");
 
 * class [Font](../../font/)
 * class [DocumentBuilder](../)
-* espace de noms [Aspose.Words](../../documentbuilder/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

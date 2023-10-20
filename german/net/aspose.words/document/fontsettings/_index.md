@@ -1,7 +1,9 @@
 ---
 title: Document.FontSettings
-second_title: Aspose.Words für .NET-API-Referenz
-description: Document eigendom. Ruft Einstellungen für Dokumentschriftarten ab oder legt diese fest.
+linktitle: FontSettings
+articleTitle: FontSettings
+second_title: Aspose.Words für .NET
+description: Document FontSettings eigendom. Ruft Einstellungen für Dokumentschriftarten ab oder legt diese fest in C#.
 type: docs
 weight: 140
 url: /de/net/aspose.words/document/fontsettings/
@@ -14,13 +16,13 @@ Ruft Einstellungen für Dokumentschriftarten ab oder legt diese fest.
 public FontSettings FontSettings { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Mit dieser Eigenschaft können Sie Schriftarteinstellungen pro Dokument festlegen. Wenn eingestellt auf`Null` , Standardeinstellungen für statische Schriftarten [`DefaultInstance`](../../../aspose.words.fonts/fontsettings/defaultinstance/) verwendet wird.
 
 Der Standardwert ist`Null`.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Schriftartersetzungsregeln festgelegt werden.
 
@@ -64,7 +66,5 @@ doc.Save(ArtifactsDir + "FontSettings.TableSubstitution.pdf");
 
 * class [FontSettings](../../../aspose.words.fonts/fontsettings/)
 * class [Document](../)
-* namensraum [Aspose.Words](../../document/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

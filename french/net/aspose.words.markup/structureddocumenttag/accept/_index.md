@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTag.Accept
-second_title: Référence de l'API Aspose.Words pour .NET
-description: StructuredDocumentTag méthode. Accepte un visiteur.
+linktitle: Accept
+articleTitle: Accept
+second_title: Aspose.Words pour .NET
+description: StructuredDocumentTag Accept méthode. Accepte un visiteur en C#.
 type: docs
 weight: 330
 url: /fr/net/aspose.words.markup/structureddocumenttag/accept/
@@ -22,7 +24,7 @@ public override bool Accept(DocumentVisitor visitor)
 
 Vrai si tous les nœuds ont été visités ; faux si[`DocumentVisitor`](../../../aspose.words/documentvisitor/) arrêté l'opération avant de visiter tous les nœuds.
 
-### Remarques
+## Remarques
 
 Énumère ce nœud et tous ses enfants. Chaque nœud appelle une méthode correspondante sur[`DocumentVisitor`](../../../aspose.words/documentvisitor/).
 
@@ -30,7 +32,7 @@ Pour plus d’informations, consultez le modèle de conception Visiteur.
 
 Appels[`VisitStructuredDocumentTagStart`](../../../aspose.words/documentvisitor/visitstructureddocumenttagstart/) , puis appelle[`Accept`](../../../aspose.words/node/accept/) pour all nœuds enfants de la balise active et des appels[`VisitStructuredDocumentTagEnd`](../../../aspose.words/documentvisitor/visitstructureddocumenttagend/) à la fin.
 
-### Exemples
+## Exemples
 
 Montre comment imprimer la structure de nœuds de chaque balise de document structuré dans un document.
 
@@ -121,7 +123,5 @@ public class StructuredDocumentTagNodePrinter : DocumentVisitor
 
 * class [DocumentVisitor](../../../aspose.words/documentvisitor/)
 * class [StructuredDocumentTag](../)
-* espace de noms [Aspose.Words.Markup](../../structureddocumenttag/)
+* espace de noms [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: RevisionOptions.ShowOriginalRevision
-second_title: Aspose.Words لمراجع .NET API
-description: RevisionOptions ملكية. يسمح بتحديد ما إذا كان يجب عرض النص الأصلي بدلاً من النص المعدل أم لا. القيمة الافتراضية هيخطأ شنيع .
+linktitle: ShowOriginalRevision
+articleTitle: ShowOriginalRevision
+second_title: Aspose.Words لـ .NET
+description: RevisionOptions ShowOriginalRevision ملكية. يسمح بتحديد ما إذا كان يجب عرض النص الأصلي بدلاً من النص المعدل أم لا. القيمة الافتراضية هيخطأ شنيع  في C#.
 type: docs
 weight: 170
 url: /ar/net/aspose.words.layout/revisionoptions/showoriginalrevision/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.layout/revisionoptions/showoriginalrevision/
 public bool ShowOriginalRevision { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعديل مظهر المراجعات.
 
@@ -65,7 +67,5 @@ doc.Save(ArtifactsDir + "Revision.RevisionOptions.pdf");
 ### أنظر أيضا
 
 * class [RevisionOptions](../)
-* مساحة الاسم [Aspose.Words.Layout](../../revisionoptions/)
+* مساحة الاسم [Aspose.Words.Layout](../../../aspose.words.layout/)
 * المجسم [Aspose.Words](../../../)
-
-

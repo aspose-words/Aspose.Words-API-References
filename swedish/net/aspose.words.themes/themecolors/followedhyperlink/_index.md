@@ -1,7 +1,9 @@
 ---
 title: ThemeColors.FollowedHyperlink
-second_title: Aspose.Words för .NET API Referens
-description: ThemeColors fast egendom. Anger färg för en klickad hyperlänk.
+linktitle: FollowedHyperlink
+articleTitle: FollowedHyperlink
+second_title: Aspose.Words för .NET
+description: ThemeColors FollowedHyperlink fast egendom. Anger färg för en klickad hyperlänk i C#.
 type: docs
 weight: 90
 url: /sv/net/aspose.words.themes/themecolors/followedhyperlink/
@@ -14,7 +16,7 @@ Anger färg för en klickad hyperlänk.
 public Color FollowedHyperlink { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du ställer in anpassade färger och teckensnitt för teman.
 
@@ -62,7 +64,5 @@ doc.Save(ArtifactsDir + "Themes.CustomColorsAndFonts.docx");
 ### Se även
 
 * class [ThemeColors](../)
-* namnutrymme [Aspose.Words.Themes](../../themecolors/)
+* namnutrymme [Aspose.Words.Themes](../../../aspose.words.themes/)
 * hopsättning [Aspose.Words](../../../)
-
-

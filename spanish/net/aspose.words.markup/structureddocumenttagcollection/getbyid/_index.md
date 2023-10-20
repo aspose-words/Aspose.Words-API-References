@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTagCollection.GetById
-second_title: Referencia de API de Aspose.Words para .NET
-description: StructuredDocumentTagCollection método. Devuelve la etiqueta del documento estructurado por identificador.
+linktitle: GetById
+articleTitle: GetById
+second_title: Aspose.Words para .NET
+description: StructuredDocumentTagCollection GetById método. Devuelve la etiqueta del documento estructurado por identificador en C#.
 type: docs
 weight: 30
 url: /es/net/aspose.words.markup/structureddocumenttagcollection/getbyid/
@@ -18,11 +20,11 @@ public IStructuredDocumentTag GetById(int id)
 | --- | --- | --- |
 | id | Int32 | El identificador de etiqueta de documento estructurado. |
 
-### Observaciones
+## Observaciones
 
 Devuelve nulo si no se puede encontrar la etiqueta del documento estructurado con el identificador especificado.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo obtener una etiqueta de documento estructurado.
 
@@ -43,7 +45,5 @@ Console.WriteLine(sdt.Id);
 
 * interface [IStructuredDocumentTag](../../istructureddocumenttag/)
 * class [StructuredDocumentTagCollection](../)
-* espacio de nombres [Aspose.Words.Markup](../../structureddocumenttagcollection/)
+* espacio de nombres [Aspose.Words.Markup](../../../aspose.words.markup/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabelCollection.GetEnumerator
-second_title: Aspose.Words لمراجع .NET API
-description: ChartDataLabelCollection طريقة. يُرجع كائن العداد.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words لـ .NET
+description: ChartDataLabelCollection GetEnumerator طريقة. يُرجع كائن العداد في C#.
 type: docs
 weight: 160
 url: /ar/net/aspose.words.drawing.charts/chartdatalabelcollection/getenumerator/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing.charts/chartdatalabelcollection/getenumerator/
 public IEnumerator<ChartDataLabel> GetEnumerator()
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تطبيق التسميات على نقاط البيانات في مخطط خطي.
 
@@ -93,7 +95,5 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
 
 * class [ChartDataLabel](../../chartdatalabel/)
 * class [ChartDataLabelCollection](../)
-* مساحة الاسم [Aspose.Words.Drawing.Charts](../../chartdatalabelcollection/)
+* مساحة الاسم [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.Top
-second_title: Aspose.Words for .NET API 参考
-description: ShapeBase 财产. 获取或设置形状包含块的顶部边缘的位置
+linktitle: Top
+articleTitle: Top
+second_title: 用于 .NET 的 Aspose.Words
+description: ShapeBase Top 财产. 获取或设置形状包含块的顶部边缘的位置 在 C#.
 type: docs
 weight: 540
 url: /zh/net/aspose.words.drawing/shapebase/top/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.drawing/shapebase/top/
 public double Top { get; set; }
 ```
 
-### 评论
+## 评论
 
 对于顶级形状，该值以点为单位并且相对于形状锚点。
 
@@ -24,7 +26,7 @@ public double Top { get; set; }
 
 仅对浮动形状有效。
 
-### 例子
+## 例子
 
 演示如何插入浮动图像，并指定其位置和大小。
 
@@ -61,7 +63,5 @@ doc.Save(ArtifactsDir + "Image.CreateFloatingPositionSize.docx");
 ### 也可以看看
 
 * class [ShapeBase](../)
-* 命名空间 [Aspose.Words.Drawing](../../shapebase/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

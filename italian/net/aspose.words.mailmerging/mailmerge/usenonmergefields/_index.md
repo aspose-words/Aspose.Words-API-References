@@ -1,7 +1,9 @@
 ---
 title: MailMerge.UseNonMergeFields
-second_title: Aspose.Words per .NET API Reference
-description: MailMerge proprietà. QuandoVERO  specifica che oltre ai campi MERGEFIELD la stampa unione viene eseguita in alcuni altri tipi di campi e anche nei tag fieldName.
+linktitle: UseNonMergeFields
+articleTitle: UseNonMergeFields
+second_title: Aspose.Words per .NET
+description: MailMerge UseNonMergeFields proprietà. QuandoVERO  specifica che oltre ai campi MERGEFIELD la stampa unione viene eseguita in alcuni altri tipi di campi e anche nei tag fieldName in C#.
 type: docs
 weight: 150
 url: /it/net/aspose.words.mailmerging/mailmerge/usenonmergefields/
@@ -14,7 +16,7 @@ Quando`VERO` , specifica che oltre ai campi MERGEFIELD, la stampa unione viene e
 public bool UseNonMergeFields { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Normalmente, la stampa unione viene eseguita solo nei campi MERGEFIELD, ma diversi clienti hanno creato il loro reporting utilizzando altri campi e hanno creato molti documenti in questo modo. Per semplificare la migrazione (e poiché questo approccio è stato utilizzato in modo indipendente da diversi clienti) è stata introdotta la possibilità di eseguire la stampa unione in altri campi.
 
@@ -28,7 +30,7 @@ SE 0 = 0 "{NomeCampo}" ""
 
 Inoltre, quando`UseNonMergeFields` è impostato per`VERO`, Aspose.Words eseguirà la stampa unione nel testo tags "{{fieldName}}". Questi non sono campi, ma solo tag di testo.
 
-### Esempi
+## Esempi
 
 Mostra come preservare l'aspetto dei tag di stampa unione alternativi che rimangono inutilizzati durante una stampa unione.
 
@@ -92,7 +94,5 @@ private static DataTable CreateSourceTablePreserveUnusedTags()
 ### Guarda anche
 
 * class [MailMerge](../)
-* spazio dei nomi [Aspose.Words.MailMerging](../../mailmerge/)
+* spazio dei nomi [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * assemblea [Aspose.Words](../../../)
-
-

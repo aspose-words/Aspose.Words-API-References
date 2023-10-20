@@ -1,7 +1,9 @@
 ---
 title: PageSetup.FirstPageTray
-second_title: Référence de l'API Aspose.Words pour .NET
-description: PageSetup propriété. Obtient ou définit le bac à papier bac à utiliser pour la première page dune section. La valeur est spécifique à limplémentation imprimante.
+linktitle: FirstPageTray
+articleTitle: FirstPageTray
+second_title: Aspose.Words pour .NET
+description: PageSetup FirstPageTray propriété. Obtient ou définit le bac à papier bac à utiliser pour la première page dune section. La valeur est spécifique à limplémentation imprimante en C#.
 type: docs
 weight: 130
 url: /fr/net/aspose.words/pagesetup/firstpagetray/
@@ -14,7 +16,7 @@ Obtient ou définit le bac à papier (bac) à utiliser pour la première page d'
 public int FirstPageTray { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment faire en sorte que toutes les sections d'un document utilisent le bac à papier par défaut de l'imprimante sélectionnée.
 
@@ -70,7 +72,5 @@ foreach (Section section in doc.Sections.OfType<Section>())
 ### Voir également
 
 * class [PageSetup](../)
-* espace de noms [Aspose.Words](../../pagesetup/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

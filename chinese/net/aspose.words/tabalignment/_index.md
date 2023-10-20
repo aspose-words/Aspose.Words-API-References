@@ -1,7 +1,9 @@
 ---
-title: Enum TabAlignment
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.TabAlignment 枚举. 指定制表位的对齐方式/类型
+title: TabAlignment Enum
+linktitle: TabAlignment
+articleTitle: TabAlignment
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.TabAlignment 枚举. 指定制表位的对齐方式/类型 在 C#.
 type: docs
 weight: 6180
 url: /zh/net/aspose.words/tabalignment/
@@ -30,5 +32,3 @@ public enum TabAlignment
 
 * 命名空间 [Aspose.Words](../../aspose.words/)
 * 部件 [Aspose.Words](../../)
-
-

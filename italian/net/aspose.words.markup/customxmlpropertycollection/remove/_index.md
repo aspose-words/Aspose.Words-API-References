@@ -1,7 +1,9 @@
 ---
 title: CustomXmlPropertyCollection.Remove
-second_title: Aspose.Words per .NET API Reference
-description: CustomXmlPropertyCollection metodo. Rimuove una proprietà con il nome specificato dalla raccolta.
+linktitle: Remove
+articleTitle: Remove
+second_title: Aspose.Words per .NET
+description: CustomXmlPropertyCollection Remove metodo. Rimuove una proprietà con il nome specificato dalla raccolta in C#.
 type: docs
 weight: 80
 url: /it/net/aspose.words.markup/customxmlpropertycollection/remove/
@@ -18,7 +20,7 @@ public void Remove(string name)
 | --- | --- | --- |
 | name | String | Il nome della proprietà con distinzione tra maiuscole e minuscole. |
 
-### Esempi
+## Esempi
 
 Mostra come utilizzare le proprietà degli smart tag per ottenere informazioni approfondite sugli smart tag.
 
@@ -75,7 +77,5 @@ Assert.AreEqual(0, properties.Count);
 ### Guarda anche
 
 * class [CustomXmlPropertyCollection](../)
-* spazio dei nomi [Aspose.Words.Markup](../../customxmlpropertycollection/)
+* spazio dei nomi [Aspose.Words.Markup](../../../aspose.words.markup/)
 * assemblea [Aspose.Words](../../../)
-
-

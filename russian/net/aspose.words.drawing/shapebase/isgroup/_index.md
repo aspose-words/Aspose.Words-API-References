@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.IsGroup
-second_title: Справочник по API Aspose.Words для .NET
-description: ShapeBase свойство. Возвращаетистинный если это фигура группы.
+linktitle: IsGroup
+articleTitle: IsGroup
+second_title: Aspose.Words для .NET
+description: ShapeBase IsGroup свойство. Возвращаетистинный если это фигура группы на С#.
 type: docs
 weight: 260
 url: /ru/net/aspose.words.drawing/shapebase/isgroup/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.drawing/shapebase/isgroup/
 public bool IsGroup { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как создать группу фигур и распечатать ее содержимое с помощью посетителя документа.
 
@@ -105,7 +107,5 @@ public class ShapeGroupPrinter : DocumentVisitor
 ### Смотрите также
 
 * class [ShapeBase](../)
-* пространство имен [Aspose.Words.Drawing](../../shapebase/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

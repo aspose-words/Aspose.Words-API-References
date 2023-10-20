@@ -1,7 +1,9 @@
 ---
 title: XmlMapping.SetMapping
-second_title: Aspose.Words für .NET-API-Referenz
-description: XmlMapping methode. Legt eine Zuordnung zwischen dem Tag des übergeordneten strukturierten Dokuments und einem XMLKnoten eines benutzerdefinierten XMLDatenteils fest.
+linktitle: SetMapping
+articleTitle: SetMapping
+second_title: Aspose.Words für .NET
+description: XmlMapping SetMapping methode. Legt eine Zuordnung zwischen dem Tag des übergeordneten strukturierten Dokuments und einem XMLKnoten eines benutzerdefinierten XMLDatenteils fest in C#.
 type: docs
 weight: 70
 url: /de/net/aspose.words.markup/xmlmapping/setmapping/
@@ -24,7 +26,7 @@ public bool SetMapping(CustomXmlPart customXmlPart, string xPath, string prefixM
 
 Ein Flag, das angibt, ob das Tag des übergeordneten strukturierten Dokuments erfolgreich dem XML-Knoten zugeordnet wurde.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein strukturiertes Dokument-Tag mit benutzerdefinierten XML-Daten erstellt wird.
 
@@ -92,7 +94,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.CustomXml.docx");
 
 * class [CustomXmlPart](../../customxmlpart/)
 * class [XmlMapping](../)
-* namensraum [Aspose.Words.Markup](../../xmlmapping/)
+* namensraum [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Montage [Aspose.Words](../../../)
-
-

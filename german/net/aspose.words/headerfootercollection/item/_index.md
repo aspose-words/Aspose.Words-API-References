@@ -1,7 +1,9 @@
 ---
 title: HeaderFooterCollection.Item
-second_title: Aspose.Words für .NET-API-Referenz
-description: HeaderFooterCollection eigendom. Ruft a abHeaderFooter am angegebenen Index.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words für .NET
+description: HeaderFooterCollection Item eigendom. Ruft a abHeaderFooter am angegebenen Index in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words/headerfootercollection/item/
@@ -18,7 +20,7 @@ public HeaderFooter this[int index] { get; }
 | --- | --- |
 | index | Ein Index in die Sammlung. |
 
-### Bemerkungen
+## Bemerkungen
 
 Der Index ist nullbasiert.
 
@@ -28,7 +30,7 @@ Wenn der Index größer oder gleich der Anzahl der Elemente in der Liste ist, wi
 
 Wenn der Index negativ ist und sein absoluter Wert größer als die Anzahl der Elemente in der Liste ist, wird ein Nullverweis zurückgegeben.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Kopf- und Fußzeilen zwischen Abschnitten verknüpft werden.
 
@@ -94,7 +96,7 @@ doc.Save(ArtifactsDir + "HeaderFooter.Link.docx");
 
 * class [HeaderFooter](../../headerfooter/)
 * class [HeaderFooterCollection](../)
-* namensraum [Aspose.Words](../../headerfootercollection/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
 
 ---
@@ -111,11 +113,11 @@ public HeaderFooter this[HeaderFooterType headerFooterType] { get; }
 | --- | --- |
 | headerFooterType | A[`HeaderFooterType`](../../headerfootertype/) value , der den Typ der abzurufenden Kopf-/Fußzeile angibt. |
 
-### Bemerkungen
+## Bemerkungen
 
 Gibt zurück`Null` wenn die Kopf-/Fußzeile des angegebenen Typs nicht gefunden wird.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Text in der Fußzeile eines Dokuments ersetzt wird.
 
@@ -169,7 +171,5 @@ doc.Save(ArtifactsDir + "HeaderFooter.RemoveFooters.docx");
 * class [HeaderFooter](../../headerfooter/)
 * enum [HeaderFooterType](../../headerfootertype/)
 * class [HeaderFooterCollection](../)
-* namensraum [Aspose.Words](../../headerfootercollection/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

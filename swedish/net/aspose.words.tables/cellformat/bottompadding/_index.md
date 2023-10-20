@@ -1,7 +1,9 @@
 ---
 title: CellFormat.BottomPadding
-second_title: Aspose.Words för .NET API Referens
-description: CellFormat fast egendom. Returnerar eller ställer in mängden utrymme i poäng som ska läggas till under innehållet i cellen.
+linktitle: BottomPadding
+articleTitle: BottomPadding
+second_title: Aspose.Words för .NET
+description: CellFormat BottomPadding fast egendom. Returnerar eller ställer in mängden utrymme i poäng som ska läggas till under innehållet i cellen i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.tables/cellformat/bottompadding/
@@ -14,7 +16,7 @@ Returnerar eller ställer in mängden utrymme (i poäng) som ska läggas till un
 public double BottomPadding { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man formaterar celler med en dokumentbyggare.
 
@@ -61,7 +63,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.SetCellFormatting.docx");
 ### Se även
 
 * class [CellFormat](../)
-* namnutrymme [Aspose.Words.Tables](../../cellformat/)
+* namnutrymme [Aspose.Words.Tables](../../../aspose.words.tables/)
 * hopsättning [Aspose.Words](../../../)
-
-

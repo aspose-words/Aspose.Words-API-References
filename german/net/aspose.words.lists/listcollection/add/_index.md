@@ -1,12 +1,14 @@
 ---
 title: ListCollection.Add
-second_title: Aspose.Words für .NET-API-Referenz
-description: ListCollection methode. Erstellt eine neue Liste basierend auf einer vordefinierten Vorlage und fügt sie der Sammlung von Listen im Dokument hinzu.
+linktitle: Add
+articleTitle: Add
+second_title: Aspose.Words für .NET
+description: ListCollection Add methode. Erstellt eine neue Liste basierend auf einer vordefinierten Vorlage und fügt sie der Sammlung von Listen im Dokument hinzu in C#.
 type: docs
 weight: 40
 url: /de/net/aspose.words.lists/listcollection/add/
 ---
-## Add(ListTemplate) {#add}
+## Add(*[ListTemplate](../../listtemplate/)*) {#add}
 
 Erstellt eine neue Liste basierend auf einer vordefinierten Vorlage und fügt sie der Sammlung von Listen im Dokument hinzu.
 
@@ -22,13 +24,13 @@ public List Add(ListTemplate listTemplate)
 
 Die neu erstellte Liste.
 
-### Bemerkungen
+## Bemerkungen
 
 Aspose.Words-Listenvorlagen entsprechen den 21 verfügbaren Listenvorlagen im Dialogfeld „Aufzählungszeichen und Nummerierung“ in Microsoft Word 2003.
 
 Alle mit dieser Methode erstellten Listen verfügen über 9 Listenebenen.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie eine Liste erstellen, indem Sie ein neues Listenformat auf eine Sammlung von Absätzen anwenden.
 
@@ -147,12 +149,12 @@ doc.Save(ArtifactsDir + "Lists.SpecifyListLevel.docx");
 * class [List](../../list/)
 * enum [ListTemplate](../../listtemplate/)
 * class [ListCollection](../)
-* namensraum [Aspose.Words.Lists](../../listcollection/)
+* namensraum [Aspose.Words.Lists](../../../aspose.words.lists/)
 * Montage [Aspose.Words](../../../)
 
 ---
 
-## Add(Style) {#add_1}
+## Add(*[Style](../../../aspose.words/style/)*) {#add_1}
 
 Erstellt eine neue Liste, die auf einen Listenstil verweist, und fügt ihn der Sammlung von Listen im Dokument hinzu.
 
@@ -168,11 +170,11 @@ public List Add(Style listStyle)
 
 Die neu erstellte Liste.
 
-### Bemerkungen
+## Bemerkungen
 
 Die neu erstellte Liste referenziert den Listenstil. Wenn Sie die Eigenschaften des list -Stils ändern, wird dies in den Eigenschaften der Liste widergespiegelt. Wenn Sie umgekehrt die Eigenschaften der Liste ändern, wird dies in den Eigenschaften des Listenstils widergespiegelt.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Listenstil erstellt und in einem Dokument verwendet wird.
 
@@ -235,7 +237,5 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateAndUseListStyle.docx");
 * class [List](../../list/)
 * class [Style](../../../aspose.words/style/)
 * class [ListCollection](../)
-* namensraum [Aspose.Words.Lists](../../listcollection/)
+* namensraum [Aspose.Words.Lists](../../../aspose.words.lists/)
 * Montage [Aspose.Words](../../../)
-
-

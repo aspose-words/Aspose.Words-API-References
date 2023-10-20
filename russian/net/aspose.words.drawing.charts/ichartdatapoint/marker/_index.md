@@ -1,7 +1,9 @@
 ---
 title: IChartDataPoint.Marker
-second_title: Справочник по API Aspose.Words для .NET
-description: IChartDataPoint свойство. Указывает маркер данных. Маркер создается автоматически по запросу.
+linktitle: Marker
+articleTitle: Marker
+second_title: Aspose.Words для .NET
+description: IChartDataPoint Marker свойство. Указывает маркер данных. Маркер создается автоматически по запросу на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.drawing.charts/ichartdatapoint/marker/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.drawing.charts/ichartdatapoint/marker/
 public ChartMarker Marker { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как работать с точками данных на линейной диаграмме.
 
@@ -77,7 +79,5 @@ private static void ApplyDataPoints(ChartSeries series, int dataPointsCount, Mar
 
 * class [ChartMarker](../../chartmarker/)
 * interface [IChartDataPoint](../)
-* пространство имен [Aspose.Words.Drawing.Charts](../../ichartdatapoint/)
+* пространство имен [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../../)
-
-

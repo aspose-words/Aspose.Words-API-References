@@ -1,7 +1,9 @@
 ---
 title: FieldNextIf.RightExpression
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldNextIf свойство. Получает или задает правую часть выражения сравнения.
+linktitle: RightExpression
+articleTitle: RightExpression
+second_title: Aspose.Words для .NET
+description: FieldNextIf RightExpression свойство. Получает или задает правую часть выражения сравнения на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.fields/fieldnextif/rightexpression/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldnextif/rightexpression/
 public string RightExpression { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как использовать поля NEXT/NEXTIF для объединения нескольких строк на одну страницу во время слияния почты.
 
@@ -96,7 +98,5 @@ public void InsertMergeField(DocumentBuilder builder, string fieldName, string t
 ### Смотрите также
 
 * class [FieldNextIf](../)
-* пространство имен [Aspose.Words.Fields](../../fieldnextif/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

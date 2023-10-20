@@ -1,7 +1,9 @@
 ---
 title: TableSubstitutionRule.GetSubstitutes
-second_title: Référence de l'API Aspose.Words pour .NET
-description: TableSubstitutionRule méthode. Renvoie un tableau contenant des noms de police de remplacement pour le nom de police dorigine spécifié.
+linktitle: GetSubstitutes
+articleTitle: GetSubstitutes
+second_title: Aspose.Words pour .NET
+description: TableSubstitutionRule GetSubstitutes méthode. Renvoie un tableau contenant des noms de police de remplacement pour le nom de police dorigine spécifié en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.fonts/tablesubstitutionrule/getsubstitutes/
@@ -22,7 +24,7 @@ public IEnumerable<string> GetSubstitutes(string originalFontName)
 
 Liste de noms de polices alternatives.
 
-### Exemples
+## Exemples
 
 Montre comment accéder à la source de police système d’un document et définir des substituts de police.
 
@@ -134,7 +136,5 @@ doc.Save(ArtifactsDir + "FontSettings.TableSubstitutionRule.Custom.pdf");
 ### Voir également
 
 * class [TableSubstitutionRule](../)
-* espace de noms [Aspose.Words.Fonts](../../tablesubstitutionrule/)
+* espace de noms [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * Assemblée [Aspose.Words](../../../)
-
-

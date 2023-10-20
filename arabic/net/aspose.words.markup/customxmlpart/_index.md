@@ -1,7 +1,9 @@
 ---
-title: Class CustomXmlPart
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Markup.CustomXmlPart فصل. يمثل جزءًا مخصصًا لتخزين بيانات XML بيانات XML مخصصة داخل الحزمة.
+title: CustomXmlPart Class
+linktitle: CustomXmlPart
+articleTitle: CustomXmlPart
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Markup.CustomXmlPart فصل. يمثل جزءًا مخصصًا لتخزين بيانات XML بيانات XML مخصصة داخل الحزمة في C#.
 type: docs
 weight: 3920
 url: /ar/net/aspose.words.markup/customxmlpart/
@@ -37,11 +39,11 @@ public class CustomXmlPart
 | --- | --- |
 | [Clone](../../aspose.words.markup/customxmlpart/clone/)() | يقوم بإنشاء نسخة "عميقة بما فيه الكفاية" من الكائن. لا يكرر بايتات ملف[`Data`](./data/) القيمة. |
 
-### ملاحظات
+## ملاحظات
 
 يمكن أن يحتوي مستند DOCX أو DOC على جزء واحد أو أكثر من أجزاء تخزين بيانات XML المخصصة. يحافظ Aspose.Words على ويسمح بإنشاء واستخراج بيانات XML المخصصة عبر[`CustomXmlParts`](../../aspose.words/document/customxmlparts/) مجموعة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء علامة مستند منظمة باستخدام بيانات XML المخصصة.
 
@@ -109,5 +111,3 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.CustomXml.docx");
 
 * مساحة الاسم [Aspose.Words.Markup](../../aspose.words.markup/)
 * المجسم [Aspose.Words](../../)
-
-

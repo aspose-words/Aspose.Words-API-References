@@ -1,7 +1,9 @@
 ---
 title: DocumentProperty.ToString
-second_title: Aspose.Words per .NET API Reference
-description: DocumentProperty metodo. Restituisce il valore della proprietà come una stringa formattata in base alle impostazioni internazionali correnti.
+linktitle: ToString
+articleTitle: ToString
+second_title: Aspose.Words per .NET
+description: DocumentProperty ToString metodo. Restituisce il valore della proprietà come una stringa formattata in base alle impostazioni internazionali correnti in C#.
 type: docs
 weight: 110
 url: /it/net/aspose.words.properties/documentproperty/tostring/
@@ -14,11 +16,11 @@ Restituisce il valore della proprietà come una stringa formattata in base alle 
 public override string ToString()
 ```
 
-### Osservazioni
+## Osservazioni
 
 Converte una proprietà booleana in "Y" o "N". Converte una proprietà di data in una stringa di data breve. Per tutti gli altri tipi converte una proprietà utilizzando Object.ToString().
 
-### Esempi
+## Esempi
 
 Mostra vari metodi di conversione del tipo delle proprietà personalizzate del documento.
 
@@ -63,7 +65,5 @@ foreach (var customDocumentProperty in doc.CustomDocumentProperties)
 ### Guarda anche
 
 * class [DocumentProperty](../)
-* spazio dei nomi [Aspose.Words.Properties](../../documentproperty/)
+* spazio dei nomi [Aspose.Words.Properties](../../../aspose.words.properties/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Comment.DateTime
-second_title: Справочник по API Aspose.Words для .NET
-description: Comment свойство. Получает дату и время создания комментария.
+linktitle: DateTime
+articleTitle: DateTime
+second_title: Aspose.Words для .NET
+description: Comment DateTime свойство. Получает дату и время создания комментария на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words/comment/datetime/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words/comment/datetime/
 public DateTime DateTime { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 По умолчаниюMinValue.
 
-### Примеры
+## Примеры
 
 Показывает, как распечатать содержимое всех комментариев и их диапазоны комментариев с помощью посетителя документов.
 
@@ -179,7 +181,5 @@ public class CommentInfoPrinter : DocumentVisitor
 ### Смотрите также
 
 * class [Comment](../)
-* пространство имен [Aspose.Words](../../comment/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

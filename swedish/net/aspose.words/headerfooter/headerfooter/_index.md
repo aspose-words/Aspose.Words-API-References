@@ -1,7 +1,9 @@
 ---
-title: HeaderFooter.HeaderFooter
-second_title: Aspose.Words för .NET API Referens
-description: HeaderFooter byggare. Skapar en ny sidhuvud eller sidfot av den angivna typen.
+title: HeaderFooter
+linktitle: HeaderFooter
+articleTitle: HeaderFooter
+second_title: Aspose.Words för .NET
+description: HeaderFooter byggare. Skapar en ny sidhuvud eller sidfot av den angivna typen i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words/headerfooter/headerfooter/
@@ -19,13 +21,13 @@ public HeaderFooter(DocumentBase doc, HeaderFooterType headerFooterType)
 | doc | DocumentBase | Ägardokumentet. |
 | headerFooterType | HeaderFooterType | A[`HeaderFooterType`](../headerfootertype/) värde som anger typen av sidhuvud eller sidfot. |
 
-### Anmärkningar
+## Anmärkningar
 
 När[`HeaderFooter`](../) skapas, det tillhör det angivna dokumentet, men är inte ännu en del av dokumentet och[`ParentNode`](../../node/parentnode/) är`null`.
 
-Att lägga till[`HeaderFooter`](../)till a[`Section`](../../section/) använda sig avNode) ,Node) , eller[`HeadersFooters`](../../section/headersfooters/) egendom och metoder[`Add`](../../nodecollection/add/) ,[`Insert`](../../nodecollection/insert/).
+Att lägga till[`HeaderFooter`](../)till a[`Section`](../../section/) använda sig av[`InsertAfter`](../../compositenode/insertafter/) ,[`InsertBefore`](../../compositenode/insertbefore/) , eller[`HeadersFooters`](../../section/headersfooters/) egendom och metoder[`Add`](../../nodecollection/add/) ,[`Insert`](../../nodecollection/insert/).
 
-### Exempel
+## Exempel
 
 Visar hur man skapar ett sidhuvud och en sidfot.
 
@@ -64,7 +66,5 @@ doc.Save(ArtifactsDir + "HeaderFooter.Create.docx");
 * class [DocumentBase](../../documentbase/)
 * enum [HeaderFooterType](../../headerfootertype/)
 * class [HeaderFooter](../)
-* namnutrymme [Aspose.Words](../../headerfooter/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

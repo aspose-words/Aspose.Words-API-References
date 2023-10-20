@@ -1,7 +1,9 @@
 ---
 title: BookmarksOutlineLevelCollection.Add
-second_title: Aspose.Words per .NET API Reference
-description: BookmarksOutlineLevelCollection metodo. Aggiunge un segnalibro alla raccolta.
+linktitle: Add
+articleTitle: Add
+second_title: Aspose.Words per .NET
+description: BookmarksOutlineLevelCollection Add metodo. Aggiunge un segnalibro alla raccolta in C#.
 type: docs
 weight: 40
 url: /it/net/aspose.words.saving/bookmarksoutlinelevelcollection/add/
@@ -19,7 +21,7 @@ public void Add(string name, int outlineLevel)
 | name | String | Il nome del segnalibro da aggiungere, senza distinzione tra maiuscole e minuscole. |
 | outlineLevel | Int32 | Il livello di struttura del segnalibro. L'intervallo valido è compreso tra 0 e 9. |
 
-### Esempi
+## Esempi
 
 Mostra come impostare i livelli di struttura per i segnalibri.
 
@@ -77,7 +79,5 @@ outlineLevels.Clear();
 ### Guarda anche
 
 * class [BookmarksOutlineLevelCollection](../)
-* spazio dei nomi [Aspose.Words.Saving](../../bookmarksoutlinelevelcollection/)
+* spazio dei nomi [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../../)
-
-

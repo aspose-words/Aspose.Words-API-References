@@ -1,7 +1,9 @@
 ---
 title: FieldMergeBarcode.PosCodeStyle
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldMergeBarcode propriété. Obtient ou définit le style dun codebarres de point de vente types de codesbarres UPCAUPCEEAN13EAN8. Les valeurs valides insensibles à la casse sont STDSUP2SUP5CASE.
+linktitle: PosCodeStyle
+articleTitle: PosCodeStyle
+second_title: Aspose.Words pour .NET
+description: FieldMergeBarcode PosCodeStyle propriété. Obtient ou définit le style dun codebarres de point de vente types de codesbarres UPCAUPCEEAN13EAN8. Les valeurs valides insensibles à la casse sont STDSUP2SUP5CASE en C#.
 type: docs
 weight: 110
 url: /fr/net/aspose.words.fields/fieldmergebarcode/poscodestyle/
@@ -14,7 +16,7 @@ Obtient ou définit le style d'un code-barres de point de vente (types de codes-
 public string PosCodeStyle { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment effectuer un publipostage sur des codes-barres EAN13.
 
@@ -60,7 +62,5 @@ doc.Save(ArtifactsDir + "Field.MERGEBARCODE.EAN13.docx");
 ### Voir également
 
 * class [FieldMergeBarcode](../)
-* espace de noms [Aspose.Words.Fields](../../fieldmergebarcode/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

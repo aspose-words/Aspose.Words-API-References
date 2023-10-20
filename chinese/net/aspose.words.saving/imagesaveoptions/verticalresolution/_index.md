@@ -1,7 +1,9 @@
 ---
 title: ImageSaveOptions.VerticalResolution
-second_title: Aspose.Words for .NET API 参考
-description: ImageSaveOptions 财产. 获取或设置生成图像的垂直分辨率以每英寸点数为单位
+linktitle: VerticalResolution
+articleTitle: VerticalResolution
+second_title: 用于 .NET 的 Aspose.Words
+description: ImageSaveOptions VerticalResolution 财产. 获取或设置生成图像的垂直分辨率以每英寸点数为单位 在 C#.
 type: docs
 weight: 200
 url: /zh/net/aspose.words.saving/imagesaveoptions/verticalresolution/
@@ -14,13 +16,13 @@ url: /zh/net/aspose.words.saving/imagesaveoptions/verticalresolution/
 public float VerticalResolution { get; set; }
 ```
 
-### 评论
+## 评论
 
 此属性仅在保存为光栅图像格式时有效，并影响输出大小（以像素为单位）。
 
 默认值为 96。
 
-### 例子
+## 例子
 
 演示如何在 Aspose.Words 将文档转换为文档时编辑图像。
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "ImageSaveOptions.EditImage.png", options);
 ### 也可以看看
 
 * class [ImageSaveOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../imagesaveoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

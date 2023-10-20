@@ -1,7 +1,9 @@
 ---
-title: Interface IHyphenationCallback
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.IHyphenationCallback interfaccia. Implementato da classi che possono registrare dizionari di sillabazione.
+title: IHyphenationCallback Interface
+linktitle: IHyphenationCallback
+articleTitle: IHyphenationCallback
+second_title: Aspose.Words per .NET
+description: Aspose.Words.IHyphenationCallback interfaccia. Implementato da classi che possono registrare dizionari di sillabazione in C#.
 type: docs
 weight: 3190
 url: /it/net/aspose.words/ihyphenationcallback/
@@ -18,9 +20,9 @@ public interface IHyphenationCallback
 
 | Nome | Descrizione |
 | --- | --- |
-| [RequestDictionary](../../aspose.words/ihyphenationcallback/requestdictionary/)(string) | Notifica all'applicazione che il dizionario di sillabazione per la lingua specificata non è stato trovato e potrebbe essere necessario registrarlo. |
+| [RequestDictionary](../../aspose.words/ihyphenationcallback/requestdictionary/)(*string*) | Notifica all'applicazione che il dizionario di sillabazione per la lingua specificata non è stato trovato e potrebbe essere necessario registrarlo. |
 
-### Esempi
+## Esempi
 
 Mostra come aprire e registrare un dizionario da un file.
 
@@ -97,5 +99,3 @@ private class CustomHyphenationDictionaryRegister : IHyphenationCallback
 
 * spazio dei nomi [Aspose.Words](../../aspose.words/)
 * assemblea [Aspose.Words](../../)
-
-

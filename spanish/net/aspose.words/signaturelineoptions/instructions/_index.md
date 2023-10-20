@@ -1,20 +1,22 @@
 ---
 title: SignatureLineOptions.Instructions
-second_title: Referencia de API de Aspose.Words para .NET
-description: SignatureLineOptions propiedad. Obtiene o establece instrucciones para el firmante que se muestran al firmar la línea de firma. El valor predeterminado para esta propiedad es cuerda vacía Empty.
+linktitle: Instructions
+articleTitle: Instructions
+second_title: Aspose.Words para .NET
+description: SignatureLineOptions Instructions propiedad. Obtiene o establece instrucciones para el firmante que se muestran al firmar la línea de firma. El valor predeterminado para esta propiedad escuerda vacía Empty en C#.
 type: docs
 weight: 50
 url: /es/net/aspose.words/signaturelineoptions/instructions/
 ---
 ## SignatureLineOptions.Instructions property
 
-Obtiene o establece instrucciones para el firmante que se muestran al firmar la línea de firma. El valor predeterminado para esta propiedad es **cuerda vacía** (Empty).
+Obtiene o establece instrucciones para el firmante que se muestran al firmar la línea de firma. El valor predeterminado para esta propiedad es**cuerda vacía** (Empty).
 
 ```csharp
 public string Instructions { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo firmar un documento con un certificado personal y una línea de firma.
 
@@ -67,7 +69,5 @@ Assert.True(signatureLine.IsValid);
 ### Ver también
 
 * class [SignatureLineOptions](../)
-* espacio de nombres [Aspose.Words](../../signaturelineoptions/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

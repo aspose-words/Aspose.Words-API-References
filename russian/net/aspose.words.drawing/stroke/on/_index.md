@@ -1,9 +1,11 @@
 ---
 title: Stroke.On
-second_title: Справочник по API Aspose.Words для .NET
-description: Stroke свойство. Определяет будет ли путь обведен.
+linktitle: On
+articleTitle: On
+second_title: Aspose.Words для .NET
+description: Stroke On свойство. Определяет будет ли путь обведен на С#.
 type: docs
-weight: 150
+weight: 140
 url: /ru/net/aspose.words.drawing/stroke/on/
 ---
 ## Stroke.On property
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.drawing/stroke/on/
 public bool On { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Значение по умолчанию для[`Shape`](../../shape/) является`истинный`.
 
-### Примеры
+## Примеры
 
 Показывает, как изменить свойства обводки.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "Shape.Stroke.docx");
 ### Смотрите также
 
 * class [Stroke](../)
-* пространство имен [Aspose.Words.Drawing](../../stroke/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

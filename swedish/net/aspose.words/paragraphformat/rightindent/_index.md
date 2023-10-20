@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.RightIndent
-second_title: Aspose.Words för .NET API Referens
-description: ParagraphFormat fast egendom. Hämtar eller ställer in värdet i poäng som representerar höger indrag för stycke.
+linktitle: RightIndent
+articleTitle: RightIndent
+second_title: Aspose.Words för .NET
+description: ParagraphFormat RightIndent fast egendom. Hämtar eller ställer in värdet i poäng som representerar höger indrag för stycke i C#.
 type: docs
 weight: 270
 url: /sv/net/aspose.words/paragraphformat/rightindent/
@@ -14,7 +16,7 @@ Hämtar eller ställer in värdet (i poäng) som representerar höger indrag fö
 public double RightIndent { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du konfigurerar styckeformatering för att skapa text utanför centrum.
 
@@ -42,7 +44,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.SetParagraphFormatting.docx");
 ### Se även
 
 * class [ParagraphFormat](../)
-* namnutrymme [Aspose.Words](../../paragraphformat/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

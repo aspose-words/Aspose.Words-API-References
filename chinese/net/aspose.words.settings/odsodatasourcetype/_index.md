@@ -1,7 +1,9 @@
 ---
-title: Enum OdsoDataSourceType
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Settings.OdsoDataSourceType 枚举. 指定要连接的外部数据源的类型作为 ODSO 连接信息的一部分
+title: OdsoDataSourceType Enum
+linktitle: OdsoDataSourceType
+articleTitle: OdsoDataSourceType
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Settings.OdsoDataSourceType 枚举. 指定要连接的外部数据源的类型作为 ODSO 连接信息的一部分 在 C#.
 type: docs
 weight: 5890
 url: /zh/net/aspose.words.settings/odsodatasourcetype/
@@ -30,11 +32,11 @@ public enum OdsoDataSourceType
 | Master | `9` | 指定给定文档已连接到聚合其他数据源的数据源。 |
 | Default | `7` | 等于None. |
 
-### 评论
+## 评论
 
 OOXML 规范对于这个枚举来说非常模糊。我想它可能对应于 WdMergeSubType 枚举 http://msdn.microsoft.com/en-us/library/bb237801.aspx。
 
-### 例子
+## 例子
 
 演示如何使用 Office 数据源对象中的数据执行邮件合并。
 
@@ -87,5 +89,3 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 
 * 命名空间 [Aspose.Words.Settings](../../aspose.words.settings/)
 * 部件 [Aspose.Words](../../)
-
-

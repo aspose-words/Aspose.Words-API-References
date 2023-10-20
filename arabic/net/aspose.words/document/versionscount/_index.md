@@ -1,7 +1,9 @@
 ---
 title: Document.VersionsCount
-second_title: Aspose.Words لمراجع .NET API
-description: Document ملكية. الحصول على عدد إصدارات المستند التي تم تخزينها في مستند DOC.
+linktitle: VersionsCount
+articleTitle: VersionsCount
+second_title: Aspose.Words لـ .NET
+description: Document VersionsCount ملكية. الحصول على عدد إصدارات المستند التي تم تخزينها في مستند DOC في C#.
 type: docs
 weight: 460
 url: /ar/net/aspose.words/document/versionscount/
@@ -14,13 +16,13 @@ url: /ar/net/aspose.words/document/versionscount/
 public int VersionsCount { get; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 يتم الوصول إلى الإصدارات في Microsoft Word عبر قائمة الملفات/الإصدارات. يدعم Microsoft Word إصدارات فقط لملفات DOC.
 
 تسمح هذه الخاصية باكتشاف ما إذا كانت هناك إصدارات مستند مخزنة في document هذا قبل فتحه في Aspose.Words. لا يوفر Aspose.Words أي دعم آخر لإصدارات المستند. إذا قمت بحفظ هذا المستند باستخدام Aspose.Words، فسيتم حفظ المستند بدون إصدارات.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع ميزة عدد الإصدارات لمستندات Microsoft Word الأقدم.
 
@@ -39,7 +41,5 @@ Assert.AreEqual(0, doc.VersionsCount);
 ### أنظر أيضا
 
 * class [Document](../)
-* مساحة الاسم [Aspose.Words](../../document/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

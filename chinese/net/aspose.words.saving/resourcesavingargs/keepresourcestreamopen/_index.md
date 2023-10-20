@@ -1,7 +1,9 @@
 ---
 title: ResourceSavingArgs.KeepResourceStreamOpen
-second_title: Aspose.Words for .NET API 参考
-description: ResourceSavingArgs 财产. 指定 Aspose.Words 在保存资源后是否应保持流打开或关闭它
+linktitle: KeepResourceStreamOpen
+articleTitle: KeepResourceStreamOpen
+second_title: 用于 .NET 的 Aspose.Words
+description: ResourceSavingArgs KeepResourceStreamOpen 财产. 指定 Aspose.Words 在保存资源后是否应保持流打开或关闭它 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.saving/resourcesavingargs/keepresourcestreamopen/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.saving/resourcesavingargs/keepresourcestreamopen/
 public bool KeepResourceStreamOpen { get; set; }
 ```
 
-### 评论
+## 评论
 
 默认为`错误的` Aspose.Words 将关闭您提供的流 [`ResourceStream`](../resourcestream/)写入资源后的属性。 指定`真的`以保持流打开。
 
-### 例子
+## 例子
 
 演示如何使用回调来打印在将文档转换为 HTML 时创建的外部资源的 URI。
 
@@ -97,7 +99,5 @@ private class ResourceUriPrinter : IResourceSavingCallback
 ### 也可以看看
 
 * class [ResourceSavingArgs](../)
-* 命名空间 [Aspose.Words.Saving](../../resourcesavingargs/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

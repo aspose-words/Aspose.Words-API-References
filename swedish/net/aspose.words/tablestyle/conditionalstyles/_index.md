@@ -1,7 +1,9 @@
 ---
 title: TableStyle.ConditionalStyles
-second_title: Aspose.Words för .NET API Referens
-description: TableStyle fast egendom. Samling av villkorliga stilar som kan definieras för denna tabellstil.
+linktitle: ConditionalStyles
+articleTitle: ConditionalStyles
+second_title: Aspose.Words för .NET
+description: TableStyle ConditionalStyles fast egendom. Samling av villkorliga stilar som kan definieras för denna tabellstil i C#.
 type: docs
 weight: 80
 url: /sv/net/aspose.words/tablestyle/conditionalstyles/
@@ -14,7 +16,7 @@ Samling av villkorliga stilar som kan definieras för denna tabellstil.
 public ConditionalStyleCollection ConditionalStyles { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med vissa områdesstilar i en tabell.
 
@@ -85,7 +87,5 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 
 * class [ConditionalStyleCollection](../../conditionalstylecollection/)
 * class [TableStyle](../)
-* namnutrymme [Aspose.Words](../../tablestyle/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: TabStopCollection.GetHashCode
-second_title: Aspose.Words for .NET API 参考
-description: TabStopCollection 方法. 用作此类型的哈希函数
+linktitle: GetHashCode
+articleTitle: GetHashCode
+second_title: 用于 .NET 的 Aspose.Words
+description: TabStopCollection GetHashCode 方法. 用作此类型的哈希函数 在 C#.
 type: docs
 weight: 80
 url: /zh/net/aspose.words/tabstopcollection/gethashcode/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/tabstopcollection/gethashcode/
 public override int GetHashCode()
 ```
 
-### 例子
+## 例子
 
 展示如何使用文档的制表位集合。
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "TabStopCollection.TabStopCollection.docx");
 ### 也可以看看
 
 * class [TabStopCollection](../)
-* 命名空间 [Aspose.Words](../../tabstopcollection/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

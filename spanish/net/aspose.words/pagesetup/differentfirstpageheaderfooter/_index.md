@@ -1,7 +1,9 @@
 ---
 title: PageSetup.DifferentFirstPageHeaderFooter
-second_title: Referencia de API de Aspose.Words para .NET
-description: PageSetup propiedad. Verdadero si se utiliza un encabezado o pie de página diferente en la primera página.
+linktitle: DifferentFirstPageHeaderFooter
+articleTitle: DifferentFirstPageHeaderFooter
+second_title: Aspose.Words para .NET
+description: PageSetup DifferentFirstPageHeaderFooter propiedad. Verdadero si se utiliza un encabezado o pie de página diferente en la primera página en C#.
 type: docs
 weight: 110
 url: /es/net/aspose.words/pagesetup/differentfirstpageheaderfooter/
@@ -14,7 +16,7 @@ Verdadero si se utiliza un encabezado o pie de página diferente en la primera p
 public bool DifferentFirstPageHeaderFooter { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear encabezados y pies de página en un documento usando DocumentBuilder.
 
@@ -136,7 +138,5 @@ public void Order(bool differentFirstPageHeaderFooter)
 ### Ver también
 
 * class [PageSetup](../)
-* espacio de nombres [Aspose.Words](../../pagesetup/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

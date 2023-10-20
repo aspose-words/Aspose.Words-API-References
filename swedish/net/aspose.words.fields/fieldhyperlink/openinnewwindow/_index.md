@@ -1,7 +1,9 @@
 ---
 title: FieldHyperlink.OpenInNewWindow
-second_title: Aspose.Words för .NET API Referens
-description: FieldHyperlink fast egendom. Hämtar eller ställer in om destinationsplatsen ska öppnas i ett nytt webbläsarfönster.
+linktitle: OpenInNewWindow
+articleTitle: OpenInNewWindow
+second_title: Aspose.Words för .NET
+description: FieldHyperlink OpenInNewWindow fast egendom. Hämtar eller ställer in om destinationsplatsen ska öppnas i ett nytt webbläsarfönster i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.fields/fieldhyperlink/openinnewwindow/
@@ -14,7 +16,7 @@ Hämtar eller ställer in om destinationsplatsen ska öppnas i ett nytt webbläs
 public bool OpenInNewWindow { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man använder HYPERLINK-fält för att länka till dokument i det lokala filsystemet.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "Field.HYPERLINK.docx");
 ### Se även
 
 * class [FieldHyperlink](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldhyperlink/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

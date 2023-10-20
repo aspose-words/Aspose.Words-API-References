@@ -1,7 +1,9 @@
 ---
 title: Document.DefaultTabStop
-second_title: Справочник по API Aspose.Words для .NET
-description: Document свойство. Получает или задает интервал в пунктах между позициями табуляции по умолчанию.
+linktitle: DefaultTabStop
+articleTitle: DefaultTabStop
+second_title: Aspose.Words для .NET
+description: Document DefaultTabStop свойство. Получает или задает интервал в пунктах между позициями табуляции по умолчанию на С#.
 type: docs
 weight: 90
 url: /ru/net/aspose.words/document/defaulttabstop/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/document/defaulttabstop/
 public double DefaultTabStop { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как установить собственный интервал для позиций табуляции.
 
@@ -35,7 +37,5 @@ builder.Writeln("Hello" + ControlChar.TabChar + "World!");
 * class [TabStopCollection](../../tabstopcollection/)
 * class [TabStop](../../tabstop/)
 * class [Document](../)
-* пространство имен [Aspose.Words](../../document/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

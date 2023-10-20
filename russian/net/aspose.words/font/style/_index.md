@@ -1,7 +1,9 @@
 ---
 title: Font.Style
-second_title: Справочник по API Aspose.Words для .NET
-description: Font свойство. Получает или задает стиль символов применяемый к этому форматированию.
+linktitle: Style
+articleTitle: Style
+second_title: Aspose.Words для .NET
+description: Font Style свойство. Получает или задает стиль символов применяемый к этому форматированию на С#.
 type: docs
 weight: 400
 url: /ru/net/aspose.words/font/style/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/font/style/
 public Style Style { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Применяет двойное подчеркивание ко всем фрагментам документа, отформатированным с использованием пользовательских стилей символов.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "Font.Style.docx");
 
 * class [Style](../../style/)
 * class [Font](../)
-* пространство имен [Aspose.Words](../../font/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class FieldMergingArgsBase
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.MailMerging.FieldMergingArgsBase clase. Clase base paraFieldMergingArgs yImageFieldMergingArgs .
+title: FieldMergingArgsBase Class
+linktitle: FieldMergingArgsBase
+articleTitle: FieldMergingArgsBase
+second_title: Aspose.Words para .NET
+description: Aspose.Words.MailMerging.FieldMergingArgsBase clase. Clase base paraFieldMergingArgs yImageFieldMergingArgs  en C#.
 type: docs
 weight: 3780
 url: /es/net/aspose.words.mailmerging/fieldmergingargsbase/
@@ -28,7 +30,7 @@ public abstract class FieldMergingArgsBase
 | [RecordIndex](../../aspose.words.mailmerging/fieldmergingargsbase/recordindex/) { get; } | Obtiene el índice de base cero del registro que se está fusionando. |
 | [TableName](../../aspose.words.mailmerging/fieldmergingargsbase/tablename/) { get; } | Obtiene el nombre de la tabla de datos para la operación de combinación actual o una cadena vacía si el nombre no está disponible. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo ejecutar una combinación de correspondencia con una devolución de llamada personalizada que maneja datos combinados en forma de documentos HTML.
 
@@ -97,5 +99,3 @@ private class HandleMergeFieldInsertHtml : IFieldMergingCallback
 
 * espacio de nombres [Aspose.Words.MailMerging](../../aspose.words.mailmerging/)
 * asamblea [Aspose.Words](../../)
-
-

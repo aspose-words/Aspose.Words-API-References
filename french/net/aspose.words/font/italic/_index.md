@@ -1,7 +1,9 @@
 ---
 title: Font.Italic
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Font propriété. True si la police est au format italique.
+linktitle: Italic
+articleTitle: Italic
+second_title: Aspose.Words pour .NET
+description: Font Italic propriété. True si la police est au format italique en C#.
 type: docs
 weight: 160
 url: /fr/net/aspose.words/font/italic/
@@ -14,7 +16,7 @@ True si la police est au format italique.
 public bool Italic { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment écrire du texte en italique à l’aide d’un générateur de documents.
 
@@ -32,7 +34,5 @@ doc.Save(ArtifactsDir + "Font.Italic.docx");
 ### Voir également
 
 * class [Font](../)
-* espace de noms [Aspose.Words](../../font/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

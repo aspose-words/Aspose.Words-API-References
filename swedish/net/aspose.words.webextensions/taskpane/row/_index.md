@@ -1,7 +1,9 @@
 ---
 title: TaskPane.Row
-second_title: Aspose.Words för .NET API Referens
-description: TaskPane fast egendom. Anger indexet uppräknat från utsidan till insidan för den här aktivitetsrutan bland andra persisted uppgiftsrutor dockade på samma standardplats.
+linktitle: Row
+articleTitle: Row
+second_title: Aspose.Words för .NET
+description: TaskPane Row fast egendom. Anger indexet uppräknat från utsidan till insidan för den här aktivitetsrutan bland andra persisted uppgiftsrutor dockade på samma standardplats i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.webextensions/taskpane/row/
@@ -14,7 +16,7 @@ Anger indexet, uppräknat från utsidan till insidan, för den här aktivitetsru
 public int Row { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man lägger till ett webbtillägg till ett dokument.
 
@@ -59,7 +61,5 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 ### Se även
 
 * class [TaskPane](../)
-* namnutrymme [Aspose.Words.WebExtensions](../../taskpane/)
+* namnutrymme [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * hopsättning [Aspose.Words](../../../)
-
-

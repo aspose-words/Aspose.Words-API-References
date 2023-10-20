@@ -1,7 +1,9 @@
 ---
 title: LoadOptions.Password
-second_title: Aspose.Words per .NET API Reference
-description: LoadOptions proprietà. Ottiene o imposta la password per lapertura di un documento crittografato. Può esserenullo o stringa vuota. Limpostazione predefinita ènullo .
+linktitle: Password
+articleTitle: Password
+second_title: Aspose.Words per .NET
+description: LoadOptions Password proprietà. Ottiene o imposta la password per lapertura di un documento crittografato. Può esserenullo o stringa vuota. Limpostazione predefinita ènullo  in C#.
 type: docs
 weight: 110
 url: /it/net/aspose.words.loading/loadoptions/password/
@@ -14,11 +16,11 @@ Ottiene o imposta la password per l'apertura di un documento crittografato. Può
 public string Password { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 È necessario conoscere la password per aprire un documento crittografato. Se il documento non è crittografato, impostalo su`nullo` o stringa vuota.
 
-### Esempi
+## Esempi
 
 Mostra come firmare un file di documento crittografato.
 
@@ -44,7 +46,5 @@ DigitalSignatureUtil.Sign(inputFileName, outputFileName, certificateHolder, sign
 ### Guarda anche
 
 * class [LoadOptions](../)
-* spazio dei nomi [Aspose.Words.Loading](../../loadoptions/)
+* spazio dei nomi [Aspose.Words.Loading](../../../aspose.words.loading/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class NodeList
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.NodeList klas. Stellt eine Sammlung von Knoten dar die einer XPathAbfrage entsprechen die mit ausgeführt wurdeSelectNodes method.
+title: NodeList Class
+linktitle: NodeList
+articleTitle: NodeList
+second_title: Aspose.Words für .NET
+description: Aspose.Words.NodeList klas. Stellt eine Sammlung von Knoten dar die einer XPathAbfrage entsprechen die mit ausgeführt wurdeSelectNodes method in C#.
 type: docs
 weight: 4220
 url: /de/net/aspose.words/nodelist/
@@ -30,7 +32,7 @@ public class NodeList : IEnumerable<Node>
 | [GetEnumerator](../../aspose.words/nodelist/getenumerator/)() | Bietet eine einfache Iteration im „foreach“-Stil über die Sammlung von Knoten. |
 | [ToArray](../../aspose.words/nodelist/toarray/)() | Kopiert alle Knoten aus der Sammlung in ein neues Array von Knoten. |
 
-### Bemerkungen
+## Bemerkungen
 
 `NodeList` wird zurückgegeben von[`SelectNodes`](../compositenode/selectnodes/) und enthält eine Sammlung von Knoten, die der XPath-Abfrage entsprechen.
 
@@ -38,7 +40,7 @@ public class NodeList : IEnumerable<Node>
 
 Behandeln Sie die`NodeList` Sammlung als „Snapshot“-Sammlung.`NodeList`startet als „Live“-Sammlung, da die Knoten nicht tatsächlich abgerufen werden, wenn die XPath-Abfrage ausgeführt wird. Die Knoten werden nur beim Zugriff abgerufen und zu diesem Zeitpunkt werden der Knoten und alle ihm vorausgehenden Knoten zwischengespeichert und bilden eine „Snapshot“-Sammlung.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie alle Hyperlinks in einem Word-Dokument finden und dann ihre URLs und Anzeigenamen ändern.
 
@@ -257,5 +259,3 @@ namespace ApiExamples
 * class [Node](../node/)
 * namensraum [Aspose.Words](../../aspose.words/)
 * Montage [Aspose.Words](../../)
-
-

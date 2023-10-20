@@ -1,7 +1,9 @@
 ---
 title: Document.WriteProtection
-second_title: Referencia de API de Aspose.Words para .NET
-description: Document propiedad. Proporciona acceso a las opciones de protección contra escritura del documento.
+linktitle: WriteProtection
+articleTitle: WriteProtection
+second_title: Aspose.Words para .NET
+description: Document WriteProtection propiedad. Proporciona acceso a las opciones de protección contra escritura del documento en C#.
 type: docs
 weight: 500
 url: /es/net/aspose.words/document/writeprotection/
@@ -14,7 +16,7 @@ Proporciona acceso a las opciones de protección contra escritura del documento.
 public WriteProtection WriteProtection { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo proteger un documento con una contraseña.
 
@@ -47,7 +49,5 @@ Assert.AreEqual("Hello world! This document is protected." +
 
 * class [WriteProtection](../../../aspose.words.settings/writeprotection/)
 * class [Document](../)
-* espacio de nombres [Aspose.Words](../../document/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

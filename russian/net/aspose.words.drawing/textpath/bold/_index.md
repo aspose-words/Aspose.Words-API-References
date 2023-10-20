@@ -1,7 +1,9 @@
 ---
 title: TextPath.Bold
-second_title: Справочник по API Aspose.Words для .NET
-description: TextPath свойство. True если шрифт отформатирован как жирный.
+linktitle: Bold
+articleTitle: Bold
+second_title: Aspose.Words для .NET
+description: TextPath Bold свойство. True если шрифт отформатирован как жирный на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.drawing/textpath/bold/
@@ -14,11 +16,11 @@ True, если шрифт отформатирован как жирный.
 public bool Bold { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Значение по умолчанию:`ЛОЖЬ`.
 
-### Примеры
+## Примеры
 
 Показывает, как работать с WordArt.
 
@@ -121,7 +123,5 @@ private static Shape AppendWordArt(Document doc, string text, string textFontFam
 ### Смотрите также
 
 * class [TextPath](../)
-* пространство имен [Aspose.Words.Drawing](../../textpath/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

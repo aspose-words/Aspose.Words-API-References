@@ -1,7 +1,9 @@
 ---
-title: Interface IHyphenationCallback
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.IHyphenationCallback interface. Implémenté par des classes qui peuvent enregistrer des dictionnaires de césure.
+title: IHyphenationCallback Interface
+linktitle: IHyphenationCallback
+articleTitle: IHyphenationCallback
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.IHyphenationCallback interface. Implémenté par des classes qui peuvent enregistrer des dictionnaires de césure en C#.
 type: docs
 weight: 3190
 url: /fr/net/aspose.words/ihyphenationcallback/
@@ -18,9 +20,9 @@ public interface IHyphenationCallback
 
 | Nom | La description |
 | --- | --- |
-| [RequestDictionary](../../aspose.words/ihyphenationcallback/requestdictionary/)(string) | Avertit l'application que le dictionnaire de césure pour la langue spécifiée n'a pas été trouvé et qu'il doit peut-être être enregistré. |
+| [RequestDictionary](../../aspose.words/ihyphenationcallback/requestdictionary/)(*string*) | Avertit l'application que le dictionnaire de césure pour la langue spécifiée n'a pas été trouvé et qu'il doit peut-être être enregistré. |
 
-### Exemples
+## Exemples
 
 Montre comment ouvrir et enregistrer un dictionnaire à partir d’un fichier.
 
@@ -97,5 +99,3 @@ private class CustomHyphenationDictionaryRegister : IHyphenationCallback
 
 * espace de noms [Aspose.Words](../../aspose.words/)
 * Assemblée [Aspose.Words](../../)
-
-

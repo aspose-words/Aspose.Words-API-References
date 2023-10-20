@@ -1,7 +1,9 @@
 ---
 title: Cell.NodeType
-second_title: Referencia de API de Aspose.Words para .NET
-description: Cell propiedad. DevolucionesCell .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words para .NET
+description: Cell NodeType propiedad. DevolucionesCell  en C#.
 type: docs
 weight: 80
 url: /es/net/aspose.words.tables/cell/nodetype/
@@ -14,7 +16,7 @@ DevolucionesCell .
 public override NodeType NodeType { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo recorrer el árbol de nodos secundarios de un nodo compuesto.
 
@@ -62,7 +64,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 
 * enum [NodeType](../../../aspose.words/nodetype/)
 * class [Cell](../)
-* espacio de nombres [Aspose.Words.Tables](../../cell/)
+* espacio de nombres [Aspose.Words.Tables](../../../aspose.words.tables/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Row.PreviousRow
-second_title: Справочник по API Aspose.Words для .NET
-description: Row свойство. Получает предыдущееRow узел.
+linktitle: PreviousRow
+articleTitle: PreviousRow
+second_title: Aspose.Words для .NET
+description: Row PreviousRow свойство. Получает предыдущееRow узел на С#.
 type: docs
 weight: 100
 url: /ru/net/aspose.words.tables/row/previousrow/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.tables/row/previousrow/
 public Row PreviousRow { get; }
 ```
 
-### Примечания
+## Примечания
 
 Этот метод можно использовать, когда вам необходимо иметь типизированный доступ к строкам таблицы. Если a [`StructuredDocumentTag`](../../../aspose.words.markup/structureddocumenttag/)узел найден в таблице, а не в строке, он автоматически просматривается для получения строки, содержащейся внутри.
 
-### Примеры
+## Примеры
 
 Показывает, как перебрать все ячейки таблицы.
 
@@ -39,7 +41,5 @@ for (Row row = table.FirstRow; row != null; row = row.NextRow)
 ### Смотрите также
 
 * class [Row](../)
-* пространство имен [Aspose.Words.Tables](../../row/)
+* пространство имен [Aspose.Words.Tables](../../../aspose.words.tables/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class FieldAutoTextList
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Fields.FieldAutoTextList klas. Implementiert das AUTOTEXTLISTFeld.
+title: FieldAutoTextList Class
+linktitle: FieldAutoTextList
+articleTitle: FieldAutoTextList
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Fields.FieldAutoTextList klas. Implementiert das AUTOTEXTLISTFeld in C#.
 type: docs
 weight: 1620
 url: /de/net/aspose.words.fields/fieldautotextlist/
@@ -45,17 +47,17 @@ public class FieldAutoTextList : Field
 | Name | Beschreibung |
 | --- | --- |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Gibt Text zwischen Feldanfang und Feldtrennzeichen zurück (oder Feldende, wenn kein Trennzeichen vorhanden ist). Sowohl der Feldcode als auch das Feldergebnis der untergeordneten Felder sind enthalten. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Gibt Text zwischen Feldanfang und Feldtrennzeichen zurück (oder Feldende, wenn kein Trennzeichen vorhanden ist). |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | Gibt Text zwischen Feldanfang und Feldtrennzeichen zurück (oder Feldende, wenn kein Trennzeichen vorhanden ist). |
 | [Remove](../../aspose.words.fields/field/remove/)() | Entfernt das Feld aus dem Dokument. Gibt einen Knoten direkt nach dem Feld zurück. Wenn das Ende des Felds das letzte child seines übergeordneten Knotens ist, wird dessen übergeordneter Absatz zurückgegeben. Wenn das Feld bereits entfernt wurde, wird zurückgegeben`Null` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | Führt das Feld unlink aus. |
 | [Update](../../aspose.words.fields/field/update/)() | Führt die Feldaktualisierung durch. Wird ausgelöst, wenn das Feld bereits aktualisiert wird. |
-| [Update](../../aspose.words.fields/field/update/)(bool) | Führt eine Feldaktualisierung durch. Wird ausgelöst, wenn das Feld bereits aktualisiert wird. |
+| [Update](../../aspose.words.fields/field/update/)(*bool*) | Führt eine Feldaktualisierung durch. Wird ausgelöst, wenn das Feld bereits aktualisiert wird. |
 
-### Bemerkungen
+## Bemerkungen
 
 Erstellt ein Kontextmenü basierend auf AutoText-Einträgen in der aktiven Vorlage.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein AUTOTEXTLIST-Feld verwendet wird, um aus einer Liste von AutoText-Einträgen auszuwählen.
 
@@ -112,5 +114,3 @@ private static void AppendAutoTextEntry(GlossaryDocument glossaryDoc, string nam
 * class [Field](../field/)
 * namensraum [Aspose.Words.Fields](../../aspose.words.fields/)
 * Montage [Aspose.Words](../../)
-
-

@@ -1,12 +1,14 @@
 ---
 title: Aspose.Words
-second_title: Aspose.Words for .NET API 参考
-description: 这 Aspose.Words命名空间提供了用于在不使用 Microsoft Word 的情况下生成转换修改渲染和打印 Microsoft Word 文档的类
+linktitle: Aspose.Words
+articleTitle: Aspose.Words
+second_title: 用于 .NET 的 Aspose.Words
+description: 这Aspose.Words命名空间提供了用于在不使用 Microsoft Word 的情况下生成转换修改渲染和打印 Microsoft Word 文档的类 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words/
 ---
-这 **Aspose.Words**命名空间提供了用于在不使用 Microsoft Word 的情况下生成、转换、修改、渲染和打印 Microsoft Word 文档的类。
+这**Aspose.Words**命名空间提供了用于在不使用 Microsoft Word 的情况下生成、转换、修改、渲染和打印 Microsoft Word 文档的类。
 
 ## 课程
 
@@ -82,7 +84,7 @@ url: /zh/net/aspose.words/
 | [Story](./story/) | 包含块级节点的元素的基类[`Paragraph`](../aspose.words/paragraph/)和[`Table`](../aspose.words.tables/table/). |
 | [Style](./style/) | 表示单个内置或用户定义的样式。 |
 | [StyleCollection](./stylecollection/) | 的集合[`Style`](../aspose.words/style/)表示文档中内置样式和用户定义样式的对象。 |
-| [SubDocument](./subdocument/) | 代表一个 **子文档** 这是对外部存储文档的引用。 |
+| [SubDocument](./subdocument/) | 代表一个**子文档** 这是对外部存储文档的引用。 |
 | [TableStyle](./tablestyle/) | 代表表格样式。 |
 | [TabStop](./tabstop/) | 表示单个自定义制表位。这[`TabStop`](../aspose.words/tabstop/)对象是 the 的成员[`TabStopCollection`](../aspose.words/tabstopcollection/)集合. |
 | [TabStopCollection](./tabstopcollection/) | 的集合[`TabStop`](../aspose.words/tabstop/)代表段落或样式的自定义选项卡的对象。 |
@@ -159,5 +161,3 @@ url: /zh/net/aspose.words/
 | [WarningType](./warningtype/) | 指定在文档加载或保存期间 Aspose.Words 发出的警告类型。 |
 | [WatermarkLayout](./watermarklayout/) | 定义水印相对于水印中心的布局。 |
 | [WatermarkType](./watermarktype/) | 指定水印类型。 |
-
-

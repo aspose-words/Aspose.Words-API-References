@@ -1,7 +1,9 @@
 ---
 title: TabStop.Alignment
-second_title: Aspose.Words لمراجع .NET API
-description: TabStop ملكية. الحصول على أو تعيين محاذاة النص عند علامة التبويب هذه.
+linktitle: Alignment
+articleTitle: Alignment
+second_title: Aspose.Words لـ .NET
+description: TabStop Alignment ملكية. الحصول على أو تعيين محاذاة النص عند علامة التبويب هذه في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words/tabstop/alignment/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/tabstop/alignment/
 public TabAlignment Alignment { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعديل موضع علامة التبويب اليمنى في الفقرات ذات الصلة بجدول المحتويات.
 
@@ -41,7 +43,5 @@ doc.Save(ArtifactsDir + "Styles.ChangeTocsTabStops.docx");
 
 * enum [TabAlignment](../../tabalignment/)
 * class [TabStop](../)
-* مساحة الاسم [Aspose.Words](../../tabstop/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

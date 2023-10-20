@@ -1,7 +1,9 @@
 ---
-title: Class WebExtension
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.WebExtensions.WebExtension klas. Stellt ein Weberweiterungsobjekt dar.
+title: WebExtension Class
+linktitle: WebExtension
+articleTitle: WebExtension
+second_title: Aspose.Words für .NET
+description: Aspose.Words.WebExtensions.WebExtension klas. Stellt ein Weberweiterungsobjekt dar in C#.
 type: docs
 weight: 6740
 url: /de/net/aspose.words.webextensions/webextension/
@@ -27,7 +29,7 @@ public class WebExtension
 | [Properties](../../aspose.words.webextensions/webextension/properties/) { get; } | Stellt eine Reihe benutzerdefinierter Eigenschaften der Weberweiterung dar. |
 | [Reference](../../aspose.words.webextensions/webextension/reference/) { get; } | Gibt den primären Verweis auf eine Weberweiterung an. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man einem Dokument eine Weberweiterung hinzufügt.
 
@@ -73,5 +75,3 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 
 * namensraum [Aspose.Words.WebExtensions](../../aspose.words.webextensions/)
 * Montage [Aspose.Words](../../)
-
-

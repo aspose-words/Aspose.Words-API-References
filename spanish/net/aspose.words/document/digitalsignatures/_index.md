@@ -1,7 +1,9 @@
 ---
 title: Document.DigitalSignatures
-second_title: Referencia de API de Aspose.Words para .NET
-description: Document propiedad. Obtiene la colección de firmas digitales para este documento y sus resultados de validación.
+linktitle: DigitalSignatures
+articleTitle: DigitalSignatures
+second_title: Aspose.Words para .NET
+description: Document DigitalSignatures propiedad. Obtiene la colección de firmas digitales para este documento y sus resultados de validación en C#.
 type: docs
 weight: 100
 url: /es/net/aspose.words/document/digitalsignatures/
@@ -14,13 +16,13 @@ Obtiene la colección de firmas digitales para este documento y sus resultados d
 public DigitalSignatureCollection DigitalSignatures { get; }
 ```
 
-### Observaciones
+## Observaciones
 
 Esta colección contiene firmas digitales que se cargaron desde el documento original. Estas firmas digitales no se guardarán cuando guarde esto[`Document`](../) object en un archivo o secuencia porque al guardarlo o convertirlo se producirá un documento diferente del original y las firmas digitales originales ya no serán válidas.
 
 Esta colección nunca es`nulo`. Si el documento no está firmado, contendrá cero elementos.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo validar y mostrar información sobre cada firma en un documento.
 
@@ -81,7 +83,5 @@ Assert.AreEqual("CN=Morzal.Me", signedDoc.DigitalSignatures[0].SubjectName);
 
 * class [DigitalSignatureCollection](../../../aspose.words.digitalsignatures/digitalsignaturecollection/)
 * class [Document](../)
-* espacio de nombres [Aspose.Words](../../document/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FontInfoCollection.Item
-second_title: Aspose.Words för .NET API Referens
-description: FontInfoCollection fast egendom. Får ett teckensnitt med det angivna namnet.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words för .NET
+description: FontInfoCollection Item fast egendom. Får ett teckensnitt med det angivna namnet i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.fonts/fontinfocollection/item/
@@ -18,7 +20,7 @@ public FontInfo this[string name] { get; }
 | --- | --- |
 | name | Skiftlägesokänsligt namn på teckensnittet som ska hittas. |
 
-### Exempel
+## Exempel
 
 Visar hur man extraherar ett inbäddat teckensnitt från ett dokument och sparar det i det lokala filsystemet.
 
@@ -46,7 +48,7 @@ File.WriteAllBytes(ArtifactsDir + "Alte DIN 1451 Mittelschrift.otf", embeddedFon
 
 * class [FontInfo](../../fontinfo/)
 * class [FontInfoCollection](../)
-* namnutrymme [Aspose.Words.Fonts](../../fontinfocollection/)
+* namnutrymme [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
@@ -63,7 +65,7 @@ public FontInfo this[int index] { get; }
 | --- | --- |
 | index | Nollbaserat index för teckensnittet. |
 
-### Exempel
+## Exempel
 
 Visar hur man extraherar ett inbäddat teckensnitt från ett dokument och sparar det i det lokala filsystemet.
 
@@ -91,7 +93,5 @@ File.WriteAllBytes(ArtifactsDir + "Alte DIN 1451 Mittelschrift.otf", embeddedFon
 
 * class [FontInfo](../../fontinfo/)
 * class [FontInfoCollection](../)
-* namnutrymme [Aspose.Words.Fonts](../../fontinfocollection/)
+* namnutrymme [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * hopsättning [Aspose.Words](../../../)
-
-

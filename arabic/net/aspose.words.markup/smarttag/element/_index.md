@@ -1,7 +1,9 @@
 ---
 title: SmartTag.Element
-second_title: Aspose.Words لمراجع .NET API
-description: SmartTag ملكية. يحدد اسم العلامة الذكية داخل المستند.
+linktitle: Element
+articleTitle: Element
+second_title: Aspose.Words لـ .NET
+description: SmartTag Element ملكية. يحدد اسم العلامة الذكية داخل المستند في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.markup/smarttag/element/
@@ -14,13 +16,13 @@ url: /ar/net/aspose.words.markup/smarttag/element/
 public string Element { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 لا يمكن`باطل`.
 
 الافتراضي هو سلسلة فارغة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء العلامات الذكية.
 
@@ -121,7 +123,5 @@ private class SmartTagPrinter : DocumentVisitor
 ### أنظر أيضا
 
 * class [SmartTag](../)
-* مساحة الاسم [Aspose.Words.Markup](../../smarttag/)
+* مساحة الاسم [Aspose.Words.Markup](../../../aspose.words.markup/)
 * المجسم [Aspose.Words](../../../)
-
-

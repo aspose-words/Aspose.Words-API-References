@@ -1,7 +1,9 @@
 ---
 title: BorderCollection.GetEnumerator
-second_title: Aspose.Words för .NET API Referens
-description: BorderCollection metod. Returnerar ett uppräkningsobjekt som kan användas för att iterera över alla gränser i samlingen.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words för .NET
+description: BorderCollection GetEnumerator metod. Returnerar ett uppräkningsobjekt som kan användas för att iterera över alla gränser i samlingen i C#.
 type: docs
 weight: 160
 url: /sv/net/aspose.words/bordercollection/getenumerator/
@@ -14,7 +16,7 @@ Returnerar ett uppräkningsobjekt som kan användas för att iterera över alla 
 public IEnumerator<Border> GetEnumerator()
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man itererar över och redigerar alla kanter i ett objekt i styckeformat.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "BorderCollection.GetBordersEnumerator.docx");
 
 * class [Border](../../border/)
 * class [BorderCollection](../)
-* namnutrymme [Aspose.Words](../../bordercollection/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

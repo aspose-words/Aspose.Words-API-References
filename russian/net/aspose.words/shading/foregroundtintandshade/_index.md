@@ -1,7 +1,9 @@
 ---
 title: Shading.ForegroundTintAndShade
-second_title: Справочник по API Aspose.Words для .NET
-description: Shading свойство. Получает или задает двойное значение которое осветляет или затемняет цвет темы переднего плана.
+linktitle: ForegroundTintAndShade
+articleTitle: ForegroundTintAndShade
+second_title: Aspose.Words для .NET
+description: Shading ForegroundTintAndShade свойство. Получает или задает двойное значение которое осветляет или затемняет цвет темы переднего плана на С#.
 type: docs
 weight: 60
 url: /ru/net/aspose.words/shading/foregroundtintandshade/
@@ -14,13 +16,13 @@ url: /ru/net/aspose.words/shading/foregroundtintandshade/
 public double ForegroundTintAndShade { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Допустимые значения для этого свойства находятся в диапазоне от -1 (самый темный) до 1 (самый светлый). Ноль (0) является нейтральным. Попытка установить для этого свойства значение меньше -1 или больше 1 приводит кArgumentOutOfRangeException.
 
 Установка этого свойства для объекта Shading с цветами , не относящимися к теме, приводит кInvalidOperationException.
 
-### Примеры
+## Примеры
 
 Показывает, как установить цвета переднего плана и фона для затенения текстуры.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "Font.ForegroundAndBackground.docx");
 ### Смотрите также
 
 * class [Shading](../)
-* пространство имен [Aspose.Words](../../shading/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: DocumentProperty.ToString
-second_title: Aspose.Words لمراجع .NET API
-description: DocumentProperty طريقة. تُرجع قيمة الخاصية كسلسلة منسقة وفقًا للغة المحلية الحالية.
+linktitle: ToString
+articleTitle: ToString
+second_title: Aspose.Words لـ .NET
+description: DocumentProperty ToString طريقة. تُرجع قيمة الخاصية كسلسلة منسقة وفقًا للغة المحلية الحالية في C#.
 type: docs
 weight: 110
 url: /ar/net/aspose.words.properties/documentproperty/tostring/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.properties/documentproperty/tostring/
 public override string ToString()
 ```
 
-### ملاحظات
+## ملاحظات
 
 تحويل خاصية منطقية إلى "Y" أو "N". تحويل خاصية تاريخ إلى سلسلة تاريخ قصيرة. بالنسبة لجميع الأنواع الأخرى، يتم تحويل خاصية باستخدام Object.ToString().
 
-### أمثلة
+## أمثلة
 
 يعرض طرق تحويل النوع المختلفة لخصائص المستند المخصصة.
 
@@ -63,7 +65,5 @@ foreach (var customDocumentProperty in doc.CustomDocumentProperties)
 ### أنظر أيضا
 
 * class [DocumentProperty](../)
-* مساحة الاسم [Aspose.Words.Properties](../../documentproperty/)
+* مساحة الاسم [Aspose.Words.Properties](../../../aspose.words.properties/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: SystemFontSource.GetSystemFontFolders
-second_title: Referencia de API de Aspose.Words para .NET
-description: SystemFontSource método. Devuelve carpetas de fuentes del sistema o una matriz vacía si no se puede acceder a las carpetas.
+linktitle: GetSystemFontFolders
+articleTitle: GetSystemFontFolders
+second_title: Aspose.Words para .NET
+description: SystemFontSource GetSystemFontFolders método. Devuelve carpetas de fuentes del sistema o una matriz vacía si no se puede acceder a las carpetas en C#.
 type: docs
 weight: 30
 url: /es/net/aspose.words.fonts/systemfontsource/getsystemfontfolders/
@@ -14,11 +16,11 @@ Devuelve carpetas de fuentes del sistema o una matriz vacía si no se puede acce
 public static string[] GetSystemFontFolders()
 ```
 
-### Observaciones
+## Observaciones
 
 En algunas plataformas, Aspose.Words podía buscar fuentes del sistema no solo en carpetas sino también en otras fuentes. Por ejemplo, en la plataforma Windows Aspose.Words busca fuentes también en el registro.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo acceder a la fuente de fuentes del sistema de un documento y configurar fuentes sustitutas.
 
@@ -74,7 +76,5 @@ Assert.AreEqual(1,
 ### Ver también
 
 * class [SystemFontSource](../)
-* espacio de nombres [Aspose.Words.Fonts](../../systemfontsource/)
+* espacio de nombres [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * asamblea [Aspose.Words](../../../)
-
-

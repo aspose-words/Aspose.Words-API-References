@@ -1,7 +1,9 @@
 ---
 title: FieldIncludeText.Encoding
-second_title: Aspose.Words لمراجع .NET API
-description: FieldIncludeText ملكية. الحصول على أو تعيين الترميز المطبق على البيانات داخل الملف المشار إليه.
+linktitle: Encoding
+articleTitle: Encoding
+second_title: Aspose.Words لـ .NET
+description: FieldIncludeText Encoding ملكية. الحصول على أو تعيين الترميز المطبق على البيانات داخل الملف المشار إليه في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.fields/fieldincludetext/encoding/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldincludetext/encoding/
 public string Encoding { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء حقل INCLUDETEXT وتعيين خصائصه.
 
@@ -59,7 +61,5 @@ public FieldIncludeText CreateFieldIncludeText(DocumentBuilder builder, string s
 ### أنظر أيضا
 
 * class [FieldIncludeText](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldincludetext/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

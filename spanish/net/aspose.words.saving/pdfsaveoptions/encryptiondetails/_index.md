@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.EncryptionDetails
-second_title: Referencia de API de Aspose.Words para .NET
-description: PdfSaveOptions propiedad. Obtiene o establece los detalles para cifrar el documento PDF de salida.
+linktitle: EncryptionDetails
+articleTitle: EncryptionDetails
+second_title: Aspose.Words para .NET
+description: PdfSaveOptions EncryptionDetails propiedad. Obtiene o establece los detalles para cifrar el documento PDF de salida en C#.
 type: docs
 weight: 130
 url: /es/net/aspose.words.saving/pdfsaveoptions/encryptiondetails/
@@ -14,7 +16,7 @@ Obtiene o establece los detalles para cifrar el documento PDF de salida.
 public PdfEncryptionDetails EncryptionDetails { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 El valor predeterminado es`nulo` y el documento de salida no se cifrará. Cuando esta propiedad se establece en un valor válido[`PdfEncryptionDetails`](../../pdfencryptiondetails/) object, entonces el documento PDF de salida se cifrará.
 
@@ -26,7 +28,7 @@ ContentCopyForAccessibility Se requiere permiso para cumplimiento de PDF/UA si e
 
 ContentCopyForAccessibility El permiso está obsoleto en formato PDF 2.0. Este permiso se ignorará al guardar en PDF 2.0.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo establecer permisos en un documento PDF guardado.
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.EncryptionPermissions.pdf", saveOptions)
 
 * class [PdfEncryptionDetails](../../pdfencryptiondetails/)
 * class [PdfSaveOptions](../)
-* espacio de nombres [Aspose.Words.Saving](../../pdfsaveoptions/)
+* espacio de nombres [Aspose.Words.Saving](../../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../../)
-
-

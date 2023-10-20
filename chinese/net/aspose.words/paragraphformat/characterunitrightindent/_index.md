@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.CharacterUnitRightIndent
-second_title: Aspose.Words for .NET API 参考
-description: ParagraphFormat 财产. 获取或设置指定段落的右缩进值以字符为单位
+linktitle: CharacterUnitRightIndent
+articleTitle: CharacterUnitRightIndent
+second_title: 用于 .NET 的 Aspose.Words
+description: ParagraphFormat CharacterUnitRightIndent 财产. 获取或设置指定段落的右缩进值以字符为单位 在 C#.
 type: docs
 weight: 90
 url: /zh/net/aspose.words/paragraphformat/characterunitrightindent/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/paragraphformat/characterunitrightindent/
 public double CharacterUnitRightIndent { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何更改段落间距和缩进。
 
@@ -68,7 +70,5 @@ builder.Write("测试文档测试文档测试文档测试文档测试文档测�
 ### 也可以看看
 
 * class [ParagraphFormat](../)
-* 命名空间 [Aspose.Words](../../paragraphformat/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

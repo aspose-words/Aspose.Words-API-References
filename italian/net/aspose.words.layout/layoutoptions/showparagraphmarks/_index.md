@@ -1,7 +1,9 @@
 ---
 title: LayoutOptions.ShowParagraphMarks
-second_title: Aspose.Words per .NET API Reference
-description: LayoutOptions proprietà. Ottiene o imposta lindicazione se viene eseguito il rendering dei segni di paragrafo. Limpostazione predefinita èfalso .
+linktitle: ShowParagraphMarks
+articleTitle: ShowParagraphMarks
+second_title: Aspose.Words per .NET
+description: LayoutOptions ShowParagraphMarks proprietà. Ottiene o imposta lindicazione se viene eseguito il rendering dei segni di paragrafo. Limpostazione predefinita èfalso  in C#.
 type: docs
 weight: 90
 url: /it/net/aspose.words.layout/layoutoptions/showparagraphmarks/
@@ -14,7 +16,7 @@ Ottiene o imposta l'indicazione se viene eseguito il rendering dei segni di para
 public bool ShowParagraphMarks { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come visualizzare i segni di paragrafo in un documento di output sottoposto a rendering.
 
@@ -34,7 +36,5 @@ doc.Save(ArtifactsDir + "Document.LayoutOptionsParagraphMarks.pdf");
 ### Guarda anche
 
 * class [LayoutOptions](../)
-* spazio dei nomi [Aspose.Words.Layout](../../layoutoptions/)
+* spazio dei nomi [Aspose.Words.Layout](../../../aspose.words.layout/)
 * assemblea [Aspose.Words](../../../)
-
-

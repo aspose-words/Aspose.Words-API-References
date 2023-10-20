@@ -1,7 +1,9 @@
 ---
 title: FormField.StatusText
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FormField propriété. Renvoie ou définit le texte affiché dans la barre détat lorsquun champ de formulaire a le focus.
+linktitle: StatusText
+articleTitle: StatusText
+second_title: Aspose.Words pour .NET
+description: FormField StatusText propriété. Renvoie ou définit le texte affiché dans la barre détat lorsquun champ de formulaire a le focus en C#.
 type: docs
 weight: 180
 url: /fr/net/aspose.words.fields/formfield/statustext/
@@ -14,13 +16,13 @@ Renvoie ou définit le texte affiché dans la barre d'état lorsqu'un champ de f
 public string StatusText { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 Si la[`OwnStatus`](../ownstatus/) la propriété est définie sur`vrai` , le`StatusText` La propriété spécifie le texte de la barre d'état. Si le[`OwnStatus`](../ownstatus/) la propriété est définie sur`FAUX` , le`StatusText` La propriété spécifie le nom d'une entrée AutoText qui contient le texte de la barre d'état pour le champ du formulaire.
 
 Microsoft Word autorise les chaînes contenant au maximum 138 caractères.
 
-### Exemples
+## Exemples
 
 Montre comment insérer différents types de champs de formulaire dans un document et les traiter à l'aide d'une implémentation de visiteur de document.
 
@@ -154,7 +156,5 @@ public class FormFieldVisitor : DocumentVisitor
 ### Voir également
 
 * class [FormField](../)
-* espace de noms [Aspose.Words.Fields](../../formfield/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldHyperlink.ScreenTip
-second_title: Aspose.Words لمراجع .NET API
-description: FieldHyperlink ملكية. الحصول على نص تلميح الشاشة للارتباط التشعبي أو تعيينه.
+linktitle: ScreenTip
+articleTitle: ScreenTip
+second_title: Aspose.Words لـ .NET
+description: FieldHyperlink ScreenTip ملكية. الحصول على نص تلميح الشاشة للارتباط التشعبي أو تعيينه في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.fields/fieldhyperlink/screentip/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldhyperlink/screentip/
 public string ScreenTip { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام حقول HYPERLINK للارتباط بالمستندات الموجودة في نظام الملفات المحلي.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "Field.HYPERLINK.docx");
 ### أنظر أيضا
 
 * class [FieldHyperlink](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldhyperlink/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

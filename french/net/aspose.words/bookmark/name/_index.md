@@ -1,7 +1,9 @@
 ---
 title: Bookmark.Name
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Bookmark propriété. Obtient ou définit le nom du signet.
+linktitle: Name
+articleTitle: Name
+second_title: Aspose.Words pour .NET
+description: Bookmark Name propriété. Obtient ou définit le nom du signet en C#.
 type: docs
 weight: 60
 url: /fr/net/aspose.words/bookmark/name/
@@ -14,11 +16,11 @@ Obtient ou définit le nom du signet.
 public string Name { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 Notez que si vous remplacez le nom d'un signet par un nom qui existe déjà dans le document, aucune erreur ne sera générée et seul le premier signet sera stocké lorsque vous enregistrerez le document.
 
-### Exemples
+## Exemples
 
 Montre comment insérer un signet.
 
@@ -127,7 +129,5 @@ public class BookmarkInfoPrinter : DocumentVisitor
 ### Voir également
 
 * class [Bookmark](../)
-* espace de noms [Aspose.Words](../../bookmark/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

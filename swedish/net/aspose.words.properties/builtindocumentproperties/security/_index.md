@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.Security
-second_title: Aspose.Words för .NET API Referens
-description: BuiltInDocumentProperties fast egendom. Anger säkerhetsnivån för ett dokument som ett numeriskt värde.
+linktitle: Security
+articleTitle: Security
+second_title: Aspose.Words för .NET
+description: BuiltInDocumentProperties Security fast egendom. Anger säkerhetsnivån för ett dokument som ett numeriskt värde i C#.
 type: docs
 weight: 250
 url: /sv/net/aspose.words.properties/builtindocumentproperties/security/
@@ -14,7 +16,7 @@ Anger säkerhetsnivån för ett dokument som ett numeriskt värde.
 public DocumentSecurity Security { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Använd den här egenskapen endast i informationssyfte eftersom Microsoft Word inte alltid anger den här egenskapen. Den här egenskapen är endast tillgänglig i DOC- och OOXML-dokument.
 
@@ -22,7 +24,7 @@ För att skydda eller avskydda ett dokument använd the [`Protect`](../../../asp
 
 Aspose.Words uppdaterar den här egenskapen till ett korrekt värde innan ett dokument sparas.
 
-### Exempel
+## Exempel
 
 Visar hur du använder dokumentegenskaper för att visa säkerhetsnivån för ett dokument.
 
@@ -68,7 +70,5 @@ Assert.AreEqual(DocumentSecurity.ReadOnlyExceptAnnotations,
 
 * enum [DocumentSecurity](../../documentsecurity/)
 * class [BuiltInDocumentProperties](../)
-* namnutrymme [Aspose.Words.Properties](../../builtindocumentproperties/)
+* namnutrymme [Aspose.Words.Properties](../../../aspose.words.properties/)
 * hopsättning [Aspose.Words](../../../)
-
-

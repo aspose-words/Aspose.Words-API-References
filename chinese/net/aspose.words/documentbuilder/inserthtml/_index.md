@@ -1,12 +1,14 @@
 ---
 title: DocumentBuilder.InsertHtml
-second_title: Aspose.Words for .NET API 参考
-description: DocumentBuilder 方法. 将 HTML 字符串插入文档中
+linktitle: InsertHtml
+articleTitle: InsertHtml
+second_title: 用于 .NET 的 Aspose.Words
+description: DocumentBuilder InsertHtml 方法. 将 HTML 字符串插入文档中 在 C#.
 type: docs
-weight: 360
+weight: 350
 url: /zh/net/aspose.words/documentbuilder/inserthtml/
 ---
-## InsertHtml(string) {#inserthtml}
+## InsertHtml(*string*) {#inserthtml}
 
 将 HTML 字符串插入文档中。
 
@@ -18,11 +20,11 @@ public void InsertHtml(string html)
 | --- | --- | --- |
 | html | String | 要插入到文档中的 HTML 字符串。 |
 
-### 评论
+## 评论
 
 您可以使用此方法插入 HTML 片段或整个 HTML 文档。
 
-### 例子
+## 例子
 
 演示如何使用文档生成器将 html 内容插入到文档中。
 
@@ -122,12 +124,12 @@ private class HandleMergeFieldInsertHtml : IFieldMergingCallback
 ### 也可以看看
 
 * class [DocumentBuilder](../)
-* 命名空间 [Aspose.Words](../../documentbuilder/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## InsertHtml(string, bool) {#inserthtml_2}
+## InsertHtml(*string, bool*) {#inserthtml_2}
 
 将 HTML 字符串插入文档中。
 
@@ -140,7 +142,7 @@ public void InsertHtml(string html, bool useBuilderFormatting)
 | html | String | 要插入到文档中的 HTML 字符串。 |
 | useBuilderFormatting | Boolean | 指示是否在中指定格式的值[`DocumentBuilder`](../) 用作从 HTML 导入的文本的基本格式。 |
 
-### 评论
+## 评论
 
 您可以使用此方法插入 HTML 片段或整个 HTML 文档。
 
@@ -148,7 +150,7 @@ public void InsertHtml(string html, bool useBuilderFormatting)
 
 当*useBuilderFormatting*是`真的` , 插入文本的格式基于[`DocumentBuilder`](../)格式， 并且文本看起来好像是用[`Write`](../write/).
 
-### 例子
+## 例子
 
 演示如何在插入 HTML 内容时应用文档生成器的格式设置。
 
@@ -181,12 +183,12 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertHtmlWithFormatting.docx");
 ### 也可以看看
 
 * class [DocumentBuilder](../)
-* 命名空间 [Aspose.Words](../../documentbuilder/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## InsertHtml(string, HtmlInsertOptions) {#inserthtml_1}
+## InsertHtml(*string, [HtmlInsertOptions](../../htmlinsertoptions/)*) {#inserthtml_1}
 
 将 HTML 字符串插入到文档中。允许指定附加选项。
 
@@ -199,11 +201,11 @@ public void InsertHtml(string html, HtmlInsertOptions options)
 | html | String | 要插入到文档中的 HTML 字符串。 |
 | options | HtmlInsertOptions | 插入 HTML 字符串时使用的选项。 |
 
-### 评论
+## 评论
 
 您可以使用此方法插入 HTML 片段或整个 HTML 文档。
 
-### 例子
+## 例子
 
 演示如何在插入 html 时使用选项。
 
@@ -232,7 +234,5 @@ doc.Save(ArtifactsDir + "MailMerge.RemoveLastEmptyParagraph.docx");
 
 * enum [HtmlInsertOptions](../../htmlinsertoptions/)
 * class [DocumentBuilder](../)
-* 命名空间 [Aspose.Words](../../documentbuilder/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

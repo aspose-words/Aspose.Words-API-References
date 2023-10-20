@@ -1,12 +1,14 @@
 ---
-title: FolderFontSource.FolderFontSource
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FolderFontSource constructeur. Directeur.
+title: FolderFontSource
+linktitle: FolderFontSource
+articleTitle: FolderFontSource
+second_title: Aspose.Words pour .NET
+description: FolderFontSource constructeur. Directeur en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.fonts/folderfontsource/folderfontsource/
 ---
-## FolderFontSource(string, bool) {#constructor}
+## FolderFontSource(*string, bool*) {#constructor}
 
 Directeur.
 
@@ -19,7 +21,7 @@ public FolderFontSource(string folderPath, bool scanSubfolders)
 | folderPath | String | Chemin d'accès au dossier. |
 | scanSubfolders | Boolean | Détermine s’il faut ou non analyser les sous-dossiers. |
 
-### Exemples
+## Exemples
 
 Montre comment utiliser un dossier système local contenant des polices comme source de polices.
 
@@ -40,12 +42,12 @@ Assert.AreEqual(1, folderFontSource.Priority);
 ### Voir également
 
 * class [FolderFontSource](../)
-* espace de noms [Aspose.Words.Fonts](../../folderfontsource/)
+* espace de noms [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * Assemblée [Aspose.Words](../../../)
 
 ---
 
-## FolderFontSource(string, bool, int) {#constructor_1}
+## FolderFontSource(*string, bool, int*) {#constructor_1}
 
 Directeur.
 
@@ -59,7 +61,7 @@ public FolderFontSource(string folderPath, bool scanSubfolders, int priority)
 | scanSubfolders | Boolean | Détermine s’il faut ou non analyser les sous-dossiers. |
 | priority | Int32 | Priorité de la source de police. Voir le[`Priority`](../../fontsourcebase/priority/) Description de la propriété pour plus d'informations. |
 
-### Exemples
+## Exemples
 
 Montre comment utiliser un dossier système local contenant des polices comme source de polices.
 
@@ -80,7 +82,5 @@ Assert.AreEqual(1, folderFontSource.Priority);
 ### Voir également
 
 * class [FolderFontSource](../)
-* espace de noms [Aspose.Words.Fonts](../../folderfontsource/)
+* espace de noms [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * Assemblée [Aspose.Words](../../../)
-
-

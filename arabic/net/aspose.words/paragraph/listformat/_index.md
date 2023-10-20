@@ -1,7 +1,9 @@
 ---
 title: Paragraph.ListFormat
-second_title: Aspose.Words لمراجع .NET API
-description: Paragraph ملكية. يوفر الوصول إلى خصائص تنسيق القائمة الخاصة بالفقرة.
+linktitle: ListFormat
+articleTitle: ListFormat
+second_title: Aspose.Words لـ .NET
+description: Paragraph ListFormat ملكية. يوفر الوصول إلى خصائص تنسيق القائمة الخاصة بالفقرة في C#.
 type: docs
 weight: 150
 url: /ar/net/aspose.words/paragraph/listformat/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/paragraph/listformat/
 public ListFormat ListFormat { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إخراج كافة الفقرات في مستند عبارة عن عناصر قائمة.
 
@@ -47,7 +49,5 @@ foreach (Paragraph para in paras.OfType<Paragraph>().Where(p => p.ListFormat.IsL
 
 * class [ListFormat](../../../aspose.words.lists/listformat/)
 * class [Paragraph](../)
-* مساحة الاسم [Aspose.Words](../../paragraph/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

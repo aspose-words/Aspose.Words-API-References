@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.TransparentMetafiles
-second_title: Справочник по API Aspose.Words для .NET
-description: CompatibilityOptions свойство. Указывает что область за изображениями метафайла не очищается.
+linktitle: TransparentMetafiles
+articleTitle: TransparentMetafiles
+second_title: Aspose.Words для .NET
+description: CompatibilityOptions TransparentMetafiles свойство. Указывает что область за изображениями метафайла не очищается на С#.
 type: docs
 weight: 550
 url: /ru/net/aspose.words.settings/compatibilityoptions/transparentmetafiles/
@@ -17,7 +19,5 @@ public bool TransparentMetafiles { get; set; }
 ### Смотрите также
 
 * class [CompatibilityOptions](../)
-* пространство имен [Aspose.Words.Settings](../../compatibilityoptions/)
+* пространство имен [Aspose.Words.Settings](../../../aspose.words.settings/)
 * сборка [Aspose.Words](../../../)
-
-

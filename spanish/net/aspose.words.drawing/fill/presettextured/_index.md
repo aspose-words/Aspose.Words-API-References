@@ -1,9 +1,11 @@
 ---
 title: Fill.PresetTextured
-second_title: Referencia de API de Aspose.Words para .NET
-description: Fill método. Establece el relleno en una textura preestablecida.
+linktitle: PresetTextured
+articleTitle: PresetTextured
+second_title: Aspose.Words para .NET
+description: Fill PresetTextured método. Establece el relleno en una textura preestablecida en C#.
 type: docs
-weight: 240
+weight: 230
 url: /es/net/aspose.words.drawing/fill/presettextured/
 ---
 ## Fill.PresetTextured method
@@ -18,7 +20,7 @@ public void PresetTextured(PresetTexture presetTexture)
 | --- | --- | --- |
 | presetTexture | PresetTexture | [`PresetTexture`](../../presettexture/) |
 
-### Ejemplos
+## Ejemplos
 
 Muestre cómo configurar el formato del marcador.
 
@@ -57,7 +59,5 @@ doc.Save(ArtifactsDir + "Charts.MarkerFormatting.docx");
 
 * enum [PresetTexture](../../presettexture/)
 * class [Fill](../)
-* espacio de nombres [Aspose.Words.Drawing](../../fill/)
+* espacio de nombres [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * asamblea [Aspose.Words](../../../)
-
-

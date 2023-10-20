@@ -1,7 +1,9 @@
 ---
 title: MarkdownSaveOptions.ImageSavingCallback
-second_title: Aspose.Words för .NET API Referens
-description: MarkdownSaveOptions fast egendom. Gör det möjligt att styra hur bilder sparas när ett dokument sparas till Markdown format.
+linktitle: ImageSavingCallback
+articleTitle: ImageSavingCallback
+second_title: Aspose.Words för .NET
+description: MarkdownSaveOptions ImageSavingCallback fast egendom. Gör det möjligt att styra hur bilder sparas när ett dokument sparas till Markdown format i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.saving/markdownsaveoptions/imagesavingcallback/
@@ -14,7 +16,7 @@ Gör det möjligt att styra hur bilder sparas när ett dokument sparas till Mark
 public IImageSavingCallback ImageSavingCallback { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du byter namn på bildnamnet när du sparar i Markdown-dokument.
 
@@ -74,7 +76,5 @@ public class SavedImageRename : IImageSavingCallback
 
 * interface [IImageSavingCallback](../../iimagesavingcallback/)
 * class [MarkdownSaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../markdownsaveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

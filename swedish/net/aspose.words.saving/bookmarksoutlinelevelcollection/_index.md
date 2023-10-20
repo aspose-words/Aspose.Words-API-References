@@ -1,7 +1,9 @@
 ---
-title: Class BookmarksOutlineLevelCollection
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Saving.BookmarksOutlineLevelCollection klass. En samling individuella bokmärken konturnivå.
+title: BookmarksOutlineLevelCollection Class
+linktitle: BookmarksOutlineLevelCollection
+articleTitle: BookmarksOutlineLevelCollection
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Saving.BookmarksOutlineLevelCollection klass. En samling individuella bokmärken konturnivå i C#.
 type: docs
 weight: 4850
 url: /sv/net/aspose.words.saving/bookmarksoutlinelevelcollection/
@@ -33,21 +35,21 @@ public class BookmarksOutlineLevelCollection : IEnumerable<KeyValuePair<string, 
 
 | namn | Beskrivning |
 | --- | --- |
-| [Add](../../aspose.words.saving/bookmarksoutlinelevelcollection/add/)(string, int) | Lägger till ett bokmärke i samlingen. |
+| [Add](../../aspose.words.saving/bookmarksoutlinelevelcollection/add/)(*string, int*) | Lägger till ett bokmärke i samlingen. |
 | [Clear](../../aspose.words.saving/bookmarksoutlinelevelcollection/clear/)() | Tar bort alla element från samlingen. |
-| [Contains](../../aspose.words.saving/bookmarksoutlinelevelcollection/contains/)(string) | Bestämmer om samlingen innehåller ett bokmärke med det angivna namnet. |
+| [Contains](../../aspose.words.saving/bookmarksoutlinelevelcollection/contains/)(*string*) | Bestämmer om samlingen innehåller ett bokmärke med det angivna namnet. |
 | [GetEnumerator](../../aspose.words.saving/bookmarksoutlinelevelcollection/getenumerator/)() | Returnerar ett uppräkningsobjekt som kan användas för att iterera över alla objekt i samlingen. |
-| [IndexOfKey](../../aspose.words.saving/bookmarksoutlinelevelcollection/indexofkey/)(string) | Returnerar det nollbaserade indexet för det angivna bokmärket i samlingen. |
-| [Remove](../../aspose.words.saving/bookmarksoutlinelevelcollection/remove/)(string) | Tar bort ett bokmärke med det angivna namnet från samlingen. |
-| [RemoveAt](../../aspose.words.saving/bookmarksoutlinelevelcollection/removeat/)(int) | Tar bort ett bokmärke vid det angivna indexet. |
+| [IndexOfKey](../../aspose.words.saving/bookmarksoutlinelevelcollection/indexofkey/)(*string*) | Returnerar det nollbaserade indexet för det angivna bokmärket i samlingen. |
+| [Remove](../../aspose.words.saving/bookmarksoutlinelevelcollection/remove/)(*string*) | Tar bort ett bokmärke med det angivna namnet från samlingen. |
+| [RemoveAt](../../aspose.words.saving/bookmarksoutlinelevelcollection/removeat/)(*int*) | Tar bort ett bokmärke vid det angivna indexet. |
 
-### Anmärkningar
+## Anmärkningar
 
 Nyckel är ett bokmärkesnamn för strängar som inte är skiftlägeskänsliga. Värde är en int bokmärkeskonturnivå.
 
 Bokmärkeskonturnivå kan vara ett värde från 0 till 9. Ange 0 och Word-bokmärke kommer inte att visas i dokumentkonturen. Ange 1 och Word-bokmärke kommer att visas i dokumentkonturen på nivå 1; 2 för nivå 2 och så vidare.
 
-### Exempel
+## Exempel
 
 Visar hur du ställer in konturnivåer för bokmärken.
 
@@ -106,5 +108,3 @@ outlineLevels.Clear();
 
 * namnutrymme [Aspose.Words.Saving](../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../)
-
-

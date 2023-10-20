@@ -1,7 +1,9 @@
 ---
-title: Class ChartDataLabel
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Drawing.Charts.ChartDataLabel klass. Representerar dataetikett på en diagrampunkt eller trendlinje.
+title: ChartDataLabel Class
+linktitle: ChartDataLabel
+articleTitle: ChartDataLabel
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Drawing.Charts.ChartDataLabel klass. Representerar dataetikett på en diagrampunkt eller trendlinje i C#.
 type: docs
 weight: 670
 url: /sv/net/aspose.words.drawing.charts/chartdatalabel/
@@ -42,11 +44,11 @@ public class ChartDataLabel
 | --- | --- |
 | [ClearFormat](../../aspose.words.drawing.charts/chartdatalabel/clearformat/)() | Rensar formatet för denna dataetikett. Egenskaperna är inställda på standardvärdena som definieras i den överordnade data etikettsamlingen. |
 
-### Anmärkningar
+## Anmärkningar
 
 På en serie`ChartDataLabel` objektet är medlem i[`ChartDataLabelCollection`](../chartdatalabelcollection/) . Den[`ChartDataLabelCollection`](../chartdatalabelcollection/) innehåller en`ChartDataLabel` objekt för varje punkt.
 
-### Exempel
+## Exempel
 
 Visar hur man applicerar etiketter på datapunkter i ett linjediagram.
 
@@ -125,5 +127,3 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
 
 * namnutrymme [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../)
-
-

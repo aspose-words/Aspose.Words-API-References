@@ -1,7 +1,9 @@
 ---
 title: Style.ListFormat
-second_title: Aspose.Words för .NET API Referens
-description: Style fast egendom. Ger tillgång till listformateringsegenskaperna för en styckestil.
+linktitle: ListFormat
+articleTitle: ListFormat
+second_title: Aspose.Words för .NET
+description: Style ListFormat fast egendom. Ger tillgång till listformateringsegenskaperna för en styckestil i C#.
 type: docs
 weight: 110
 url: /sv/net/aspose.words/style/listformat/
@@ -14,11 +16,11 @@ Ger tillgång till listformateringsegenskaperna för en styckestil.
 public ListFormat ListFormat { get; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Den här egenskapen är endast giltig för styckestilar. För andra stiltyper returnerar den här egenskapen`null`.
 
-### Exempel
+## Exempel
 
 Visar hur du skapar och använder ett styckeformat med listformatering.
 
@@ -51,7 +53,5 @@ builder.Document.Save(ArtifactsDir + "Styles.ParagraphStyleBulletedList.docx");
 
 * class [ListFormat](../../../aspose.words.lists/listformat/)
 * class [Style](../)
-* namnutrymme [Aspose.Words](../../style/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

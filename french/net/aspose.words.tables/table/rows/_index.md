@@ -1,7 +1,9 @@
 ---
 title: Table.Rows
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Table propriété. Fournit un accès typé aux lignes de la table.
+linktitle: Rows
+articleTitle: Rows
+second_title: Aspose.Words pour .NET
+description: Table Rows propriété. Fournit un accès typé aux lignes de la table en C#.
 type: docs
 weight: 260
 url: /fr/net/aspose.words.tables/table/rows/
@@ -14,7 +16,7 @@ Fournit un accès typé aux lignes de la table.
 public RowCollection Rows { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment combiner les lignes de deux tables en une seule.
 
@@ -83,7 +85,5 @@ for (int i = 0; i < tables.Count; i++)
 
 * class [RowCollection](../../rowcollection/)
 * class [Table](../)
-* espace de noms [Aspose.Words.Tables](../../table/)
+* espace de noms [Aspose.Words.Tables](../../../aspose.words.tables/)
 * Assemblée [Aspose.Words](../../../)
-
-

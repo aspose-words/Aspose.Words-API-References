@@ -1,7 +1,9 @@
 ---
 title: Forms2OleControl.ChildNodes
-second_title: Aspose.Words لمراجع .NET API
-description: Forms2OleControl ملكية. يحصل على مجموعة من عناصر التحكم التابعة المباشرة.
+linktitle: ChildNodes
+articleTitle: ChildNodes
+second_title: Aspose.Words لـ .NET
+description: Forms2OleControl ChildNodes ملكية. يحصل على مجموعة من عناصر التحكم التابعة المباشرة في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.drawing.ole/forms2olecontrol/childnodes/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.drawing.ole/forms2olecontrol/childnodes/
 public virtual Forms2OleControlCollection ChildNodes { get; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 عائدات`باطل` إذا كانت هذه السيطرة لا يمكن أن يكون لها أطفال.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التحقق من خصائص عنصر تحكم ActiveX.
 
@@ -49,7 +51,5 @@ if (oleControl.IsForms2OleControl)
 
 * class [Forms2OleControlCollection](../../forms2olecontrolcollection/)
 * class [Forms2OleControl](../)
-* مساحة الاسم [Aspose.Words.Drawing.Ole](../../forms2olecontrol/)
+* مساحة الاسم [Aspose.Words.Drawing.Ole](../../../aspose.words.drawing.ole/)
 * المجسم [Aspose.Words](../../../)
-
-

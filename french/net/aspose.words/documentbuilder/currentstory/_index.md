@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.CurrentStory
-second_title: Référence de l'API Aspose.Words pour .NET
-description: DocumentBuilder propriété. Obtient lhistoire actuellement sélectionnée dans ceDocumentBuilder .
+linktitle: CurrentStory
+articleTitle: CurrentStory
+second_title: Aspose.Words pour .NET
+description: DocumentBuilder CurrentStory propriété. Obtient lhistoire actuellement sélectionnée dans ceDocumentBuilder  en C#.
 type: docs
 weight: 70
 url: /fr/net/aspose.words/documentbuilder/currentstory/
@@ -14,7 +16,7 @@ Obtient l'histoire actuellement sélectionnée dans ce[`DocumentBuilder`](../) .
 public Story CurrentStory { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment travailler avec l'histoire actuelle d'un générateur de documents.
 
@@ -44,7 +46,5 @@ Assert.IsTrue(builder.CurrentStory.Tables.Contains(table));
 
 * class [Story](../../story/)
 * class [DocumentBuilder](../)
-* espace de noms [Aspose.Words](../../documentbuilder/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

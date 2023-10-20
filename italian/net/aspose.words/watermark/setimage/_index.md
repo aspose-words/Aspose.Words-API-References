@@ -1,12 +1,14 @@
 ---
 title: Watermark.SetImage
-second_title: Aspose.Words per .NET API Reference
-description: Watermark metodo. Aggiunge la filigrana dellimmagine al documento.
+linktitle: SetImage
+articleTitle: SetImage
+second_title: Aspose.Words per .NET
+description: Watermark SetImage metodo. Aggiunge la filigrana dellimmagine al documento in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words/watermark/setimage/
 ---
-## SetImage(Image) {#setimage}
+## SetImage(*Image*) {#setimage}
 
 Aggiunge la filigrana dell'immagine al documento.
 
@@ -27,12 +29,12 @@ public void SetImage(Image image)
 ### Guarda anche
 
 * class [Watermark](../)
-* spazio dei nomi [Aspose.Words](../../watermark/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
 
 ---
 
-## SetImage(Image, ImageWatermarkOptions) {#setimage_1}
+## SetImage(*Image, [ImageWatermarkOptions](../../imagewatermarkoptions/)*) {#setimage_1}
 
 Aggiunge la filigrana dell'immagine al documento.
 
@@ -51,11 +53,11 @@ public void SetImage(Image image, ImageWatermarkOptions options)
 | --- | --- |
 | ArgumentNullException | Genera quando l'immagine è`nullo` . |
 
-### Osservazioni
+## Osservazioni
 
 Se[`ImageWatermarkOptions`](../../imagewatermarkoptions/) È`nullo`, la filigrana verrà impostata con le opzioni predefinite.
 
-### Esempi
+## Esempi
 
 Mostra come creare una filigrana da un'immagine nel file system locale.
 
@@ -84,12 +86,12 @@ Document doc = new Document();
 
 * class [ImageWatermarkOptions](../../imagewatermarkoptions/)
 * class [Watermark](../)
-* spazio dei nomi [Aspose.Words](../../watermark/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
 
 ---
 
-## SetImage(string, ImageWatermarkOptions) {#setimage_2}
+## SetImage(*string, [ImageWatermarkOptions](../../imagewatermarkoptions/)*) {#setimage_2}
 
 Aggiunge la filigrana dell'immagine al documento.
 
@@ -108,7 +110,7 @@ public void SetImage(string imagePath, ImageWatermarkOptions options)
 | --- | --- |
 | ArgumentNullException | Genera quando il percorso è`nullo` . |
 
-### Osservazioni
+## Osservazioni
 
 Se[`ImageWatermarkOptions`](../../imagewatermarkoptions/) È`nullo`, la filigrana verrà impostata con le opzioni predefinite.
 
@@ -116,7 +118,5 @@ Se[`ImageWatermarkOptions`](../../imagewatermarkoptions/) È`nullo`, la filigran
 
 * class [ImageWatermarkOptions](../../imagewatermarkoptions/)
 * class [Watermark](../)
-* spazio dei nomi [Aspose.Words](../../watermark/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

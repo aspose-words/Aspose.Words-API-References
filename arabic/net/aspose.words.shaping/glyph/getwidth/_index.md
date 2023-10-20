@@ -1,7 +1,9 @@
 ---
 title: Glyph.GetWidth
-second_title: Aspose.Words لمراجع .NET API
-description: Glyph طريقة. إرجاع عرض مقدمة الحرف الرسومي بالنقاط.
+linktitle: GetWidth
+articleTitle: GetWidth
+second_title: Aspose.Words لـ .NET
+description: Glyph GetWidth طريقة. إرجاع عرض مقدمة الحرف الرسومي بالنقاط في C#.
 type: docs
 weight: 70
 url: /ar/net/aspose.words.shaping/glyph/getwidth/
@@ -17,7 +19,5 @@ public virtual float GetWidth(int em, float fontSize)
 ### أنظر أيضا
 
 * class [Glyph](../)
-* مساحة الاسم [Aspose.Words.Shaping](../../glyph/)
+* مساحة الاسم [Aspose.Words.Shaping](../../../aspose.words.shaping/)
 * المجسم [Aspose.Words](../../../)
-
-

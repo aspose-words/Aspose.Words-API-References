@@ -1,7 +1,9 @@
 ---
 title: HtmlFixedSaveOptions.OptimizeOutput
-second_title: Aspose.Words für .NET-API-Referenz
-description: HtmlFixedSaveOptions eigendom. Flag gibt an ob es zur Optimierung der Ausgabe erforderlich ist. Wenn dieses Flag gesetzt ist werden redundante verschachtelte Leinwände und leere Leinwände entfernt auch benachbarte Glyphen mit derselben Formatierung werden verkettet. Hinweis Die Genauigkeit der Inhaltsanzeige kann beeinträchtigt werden wenn Diese Eigenschaft ist auf festgelegtWAHR . Standard istWAHR .
+linktitle: OptimizeOutput
+articleTitle: OptimizeOutput
+second_title: Aspose.Words für .NET
+description: HtmlFixedSaveOptions OptimizeOutput eigendom. Flag gibt an ob es zur Optimierung der Ausgabe erforderlich ist. Wenn dieses Flag gesetzt ist werden redundante verschachtelte Leinwände und leere Leinwände entfernt auch benachbarte Glyphen mit derselben Formatierung werden verkettet. Hinweis Die Genauigkeit der Inhaltsanzeige kann beeinträchtigt werden wenn Diese Eigenschaft ist auf festgelegtWAHR . Standard istWAHR  in C#.
 type: docs
 weight: 100
 url: /de/net/aspose.words.saving/htmlfixedsaveoptions/optimizeoutput/
@@ -14,7 +16,7 @@ Flag gibt an, ob es zur Optimierung der Ausgabe erforderlich ist. Wenn dieses Fl
 public override bool OptimizeOutput { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man ein Dokument beim Speichern in HTML vereinfacht, indem man verschiedene überflüssige Objekte entfernt.
 
@@ -33,7 +35,5 @@ Assert.AreEqual(optimizeOutput ? 62521 : 191770,
 ### Siehe auch
 
 * class [HtmlFixedSaveOptions](../)
-* namensraum [Aspose.Words.Saving](../../htmlfixedsaveoptions/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

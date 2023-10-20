@@ -1,12 +1,14 @@
 ---
 title: List.CompareTo
-second_title: Aspose.Words för .NET API Referens
-description: List metod. Jämför det angivna objektet med det aktuella objektet.
+linktitle: CompareTo
+articleTitle: CompareTo
+second_title: Aspose.Words för .NET
+description: List CompareTo metod. Jämför det angivna objektet med det aktuella objektet i C#.
 type: docs
 weight: 90
 url: /sv/net/aspose.words.lists/list/compareto/
 ---
-## CompareTo(object) {#compareto_1}
+## CompareTo(*object*) {#compareto_1}
 
 Jämför det angivna objektet med det aktuella objektet.
 
@@ -17,12 +19,12 @@ public int CompareTo(object obj)
 ### Se även
 
 * class [List](../)
-* namnutrymme [Aspose.Words.Lists](../../list/)
+* namnutrymme [Aspose.Words.Lists](../../../aspose.words.lists/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## CompareTo(List) {#compareto}
+## CompareTo(*[List](../)*) {#compareto}
 
 Jämför den angivna listan med den aktuella listan.
 
@@ -33,7 +35,5 @@ public int CompareTo(List other)
 ### Se även
 
 * class [List](../)
-* namnutrymme [Aspose.Words.Lists](../../list/)
+* namnutrymme [Aspose.Words.Lists](../../../aspose.words.lists/)
 * hopsättning [Aspose.Words](../../../)
-
-

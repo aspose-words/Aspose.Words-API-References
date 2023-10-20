@@ -1,7 +1,9 @@
 ---
-title: FieldGoToButton.FieldGoToButton
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldGoToButton constructeur. Default_Constructor
+title: FieldGoToButton
+linktitle: FieldGoToButton
+articleTitle: FieldGoToButton
+second_title: Aspose.Words für .NET
+description: FieldGoToButton constructeur. Default_Constructor in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words.fields/fieldgotobutton/fieldgotobutton/
@@ -17,7 +19,5 @@ public FieldGoToButton()
 ### Siehe auch
 
 * class [FieldGoToButton](../)
-* namensraum [Aspose.Words.Fields](../../fieldgotobutton/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

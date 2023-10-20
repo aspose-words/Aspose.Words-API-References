@@ -1,14 +1,16 @@
 ---
-title: Class CertificateHolder
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.DigitalSignatures.CertificateHolder 班级. 代表持有者 X509证书2实例.
+title: CertificateHolder Class
+linktitle: CertificateHolder
+articleTitle: CertificateHolder
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.DigitalSignatures.CertificateHolder 班级. 代表持有者X509证书2实例 在 C#.
 type: docs
 weight: 370
 url: /zh/net/aspose.words.digitalsignatures/certificateholder/
 ---
 ## CertificateHolder class
 
-代表持有者 **X509证书2**实例.
+代表持有者**X509证书2**实例.
 
 要了解更多信息，请访问[使用数字签名](https://docs.aspose.com/words/net/working-with-digital-signatures/)文档文章。
 
@@ -20,22 +22,22 @@ public class CertificateHolder
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Certificate](../../aspose.words.digitalsignatures/certificateholder/certificate/) { get; } | 返回以下实例 **X509证书2**它保存私钥、公钥和证书链。 |
+| [Certificate](../../aspose.words.digitalsignatures/certificateholder/certificate/) { get; } | 返回以下实例**X509证书2**它保存私钥、公钥和证书链。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| static [Create](../../aspose.words.digitalsignatures/certificateholder/create/#create)(byte[], SecureString) | 创建`CertificateHolder`使用 PKCS12 存储的字节数组及其密码的对象。 |
-| static [Create](../../aspose.words.digitalsignatures/certificateholder/create/#create_1)(byte[], string) | 创建`CertificateHolder`使用 PKCS12 存储的字节数组及其密码的对象。 |
-| static [Create](../../aspose.words.digitalsignatures/certificateholder/create/#create_2)(string, string) | 创建`CertificateHolder`使用 PKCS12 存储路径及其密码的对象。 |
-| static [Create](../../aspose.words.digitalsignatures/certificateholder/create/#create_3)(string, string, string) | 创建`CertificateHolder`使用 PKCS12 存储路径、其密码和别名的对象，通过使用该对象将找到私钥和证书。 |
+| static [Create](../../aspose.words.digitalsignatures/certificateholder/create/#create)(*byte[], SecureString*) | 创建`CertificateHolder`使用 PKCS12 存储的字节数组及其密码的对象。 |
+| static [Create](../../aspose.words.digitalsignatures/certificateholder/create/#create_1)(*byte[], string*) | 创建`CertificateHolder`使用 PKCS12 存储的字节数组及其密码的对象。 |
+| static [Create](../../aspose.words.digitalsignatures/certificateholder/create/#create_2)(*string, string*) | 创建`CertificateHolder`使用 PKCS12 存储路径及其密码的对象。 |
+| static [Create](../../aspose.words.digitalsignatures/certificateholder/create/#create_3)(*string, string, string*) | 创建`CertificateHolder`使用 PKCS12 存储路径、其密码和别名的对象，通过使用该对象将找到私钥和证书。 |
 
-### 评论
+## 评论
 
-`CertificateHolder`只能通过静态工厂方法创建。 它包含一个实例 **X509证书2**用于将私钥、公钥和证书链引入到系统中。 该类应用于[`DigitalSignatureUtil`](../digitalsignatureutil/)和[`PdfDigitalSignatureDetails`](../../aspose.words.saving/pdfdigitalsignaturedetails/)用 代替过时的方法X509Certificate2作为参数。
+`CertificateHolder`只能通过静态工厂方法创建。 它包含一个实例**X509证书2**用于将私钥、公钥和证书链引入到系统中。 该类应用于[`DigitalSignatureUtil`](../digitalsignatureutil/)和[`PdfDigitalSignatureDetails`](../../aspose.words.saving/pdfdigitalsignaturedetails/)用 代替过时的方法X509Certificate2作为参数。
 
-### 例子
+## 例子
 
 演示如何签署加密的文档文件。
 
@@ -197,5 +199,3 @@ using (Stream streamIn = new FileStream(MyDir + "Document.docx", FileMode.Open))
 
 * 命名空间 [Aspose.Words.DigitalSignatures](../../aspose.words.digitalsignatures/)
 * 部件 [Aspose.Words](../../)
-
-

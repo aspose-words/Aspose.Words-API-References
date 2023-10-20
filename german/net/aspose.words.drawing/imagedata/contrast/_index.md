@@ -1,7 +1,9 @@
 ---
 title: ImageData.Contrast
-second_title: Aspose.Words für .NET-API-Referenz
-description: ImageData eigendom. Ruft den Kontrast für das angegebene Bild ab oder legt diesen fest. Der Wert für diese Eigenschaft muss eine Zahl zwischen 00 geringster Kontrast und 10 größter Kontrast sein.
+linktitle: Contrast
+articleTitle: Contrast
+second_title: Aspose.Words für .NET
+description: ImageData Contrast eigendom. Ruft den Kontrast für das angegebene Bild ab oder legt diesen fest. Der Wert für diese Eigenschaft muss eine Zahl zwischen 00 geringster Kontrast und 10 größter Kontrast sein in C#.
 type: docs
 weight: 50
 url: /de/net/aspose.words.drawing/imagedata/contrast/
@@ -14,11 +16,11 @@ Ruft den Kontrast für das angegebene Bild ab oder legt diesen fest. Der Wert f�
 public double Contrast { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Der Standardwert ist 0,5.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Bilddaten einer Form bearbeitet werden.
 
@@ -81,7 +83,5 @@ dstDoc.Save(ArtifactsDir + "Drawing.ImageData.docx");
 ### Siehe auch
 
 * class [ImageData](../)
-* namensraum [Aspose.Words.Drawing](../../imagedata/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

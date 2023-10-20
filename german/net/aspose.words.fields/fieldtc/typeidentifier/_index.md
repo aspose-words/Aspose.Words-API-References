@@ -1,7 +1,9 @@
 ---
 title: FieldTC.TypeIdentifier
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldTC eigendom. Ruft einen Typbezeichner für dieses Feld ab normalerweise ein Buchstabe oder legt diesen fest.
+linktitle: TypeIdentifier
+articleTitle: TypeIdentifier
+second_title: Aspose.Words für .NET
+description: FieldTC TypeIdentifier eigendom. Ruft einen Typbezeichner für dieses Feld ab normalerweise ein Buchstabe oder legt diesen fest in C#.
 type: docs
 weight: 50
 url: /de/net/aspose.words.fields/fieldtc/typeidentifier/
@@ -14,7 +16,7 @@ Ruft einen Typbezeichner für dieses Feld ab (normalerweise ein Buchstabe) oder 
 public string TypeIdentifier { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man ein TOC-Feld einfügt und filtert, welche TC-Felder als Einträge enden.
 
@@ -66,7 +68,5 @@ public void InsertTocEntry(DocumentBuilder builder, string text, string typeIden
 ### Siehe auch
 
 * class [FieldTC](../)
-* namensraum [Aspose.Words.Fields](../../fieldtc/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

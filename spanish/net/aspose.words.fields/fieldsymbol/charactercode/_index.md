@@ -1,7 +1,9 @@
 ---
 title: FieldSymbol.CharacterCode
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldSymbol propiedad. Obtiene o establece el valor del punto de código del carácter en decimal o hexadecimal.
+linktitle: CharacterCode
+articleTitle: CharacterCode
+second_title: Aspose.Words para .NET
+description: FieldSymbol CharacterCode propiedad. Obtiene o establece el valor del punto de código del carácter en decimal o hexadecimal en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words.fields/fieldsymbol/charactercode/
@@ -14,7 +16,7 @@ Obtiene o establece el valor del punto de código del carácter en decimal o hex
 public string CharacterCode { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo utilizar el campo SÍMBOLO.
 
@@ -70,7 +72,5 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 ### Ver también
 
 * class [FieldSymbol](../)
-* espacio de nombres [Aspose.Words.Fields](../../fieldsymbol/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

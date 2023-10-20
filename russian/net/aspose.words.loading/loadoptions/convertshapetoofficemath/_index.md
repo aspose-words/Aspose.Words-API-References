@@ -1,7 +1,9 @@
 ---
 title: LoadOptions.ConvertShapeToOfficeMath
-second_title: Справочник по API Aspose.Words для .NET
-description: LoadOptions свойство. Получает или задает необходимость преобразования фигур с помощью EquationXML в объекты Office Math.
+linktitle: ConvertShapeToOfficeMath
+articleTitle: ConvertShapeToOfficeMath
+second_title: Aspose.Words для .NET
+description: LoadOptions ConvertShapeToOfficeMath свойство. Получает или задает необходимость преобразования фигур с помощью EquationXML в объекты Office Math на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.loading/loadoptions/convertshapetoofficemath/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.loading/loadoptions/convertshapetoofficemath/
 public bool ConvertShapeToOfficeMath { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как преобразовать фигуры EquationXML в объекты Office Math.
 
@@ -42,7 +44,5 @@ else
 ### Смотрите также
 
 * class [LoadOptions](../)
-* пространство имен [Aspose.Words.Loading](../../loadoptions/)
+* пространство имен [Aspose.Words.Loading](../../../aspose.words.loading/)
 * сборка [Aspose.Words](../../../)
-
-

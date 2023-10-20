@@ -1,7 +1,9 @@
 ---
-title: Enum TextBoxAnchor
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Drawing.TextBoxAnchor تعداد. يحدد القيم المستخدمة للمحاذاة العمودية لنص الشكل.
+title: TextBoxAnchor Enum
+linktitle: TextBoxAnchor
+articleTitle: TextBoxAnchor
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Drawing.TextBoxAnchor تعداد. يحدد القيم المستخدمة للمحاذاة العمودية لنص الشكل في C#.
 type: docs
 weight: 1330
 url: /ar/net/aspose.words.drawing/textboxanchor/
@@ -29,7 +31,7 @@ public enum TextBoxAnchor
 | TopCenteredBaseline | `8` | تتم محاذاة النص إلى الخط الأساسي الأوسط العلوي لمربع النص. |
 | BottomCenteredBaseline | `9` | تتم محاذاة النص إلى الخط الأساسي الأوسط السفلي لمربع النص. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية محاذاة محتويات النص في مربع النص عموديًا.
 
@@ -59,5 +61,3 @@ doc.Save(ArtifactsDir + "Shape.VerticalAnchor.docx");
 
 * مساحة الاسم [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../)
-
-

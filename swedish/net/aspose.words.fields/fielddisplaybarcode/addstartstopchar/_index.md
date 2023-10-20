@@ -1,7 +1,9 @@
 ---
 title: FieldDisplayBarcode.AddStartStopChar
-second_title: Aspose.Words för .NET API Referens
-description: FieldDisplayBarcode fast egendom. Hämtar eller ställer in om start/stopptecken ska läggas till för streckkodstyperna NW7 och CODE39.
+linktitle: AddStartStopChar
+articleTitle: AddStartStopChar
+second_title: Aspose.Words för .NET
+description: FieldDisplayBarcode AddStartStopChar fast egendom. Hämtar eller ställer in om start/stopptecken ska läggas till för streckkodstyperna NW7 och CODE39 i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.fields/fielddisplaybarcode/addstartstopchar/
@@ -14,7 +16,7 @@ Hämtar eller ställer in om start/stopp-tecken ska läggas till för streckkods
 public bool AddStartStopChar { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man infogar ett DISPLAYBARCODE-fält och ställer in dess egenskaper.
 
@@ -72,7 +74,5 @@ doc.Save(ArtifactsDir + "Field.DISPLAYBARCODE.docx");
 ### Se även
 
 * class [FieldDisplayBarcode](../)
-* namnutrymme [Aspose.Words.Fields](../../fielddisplaybarcode/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

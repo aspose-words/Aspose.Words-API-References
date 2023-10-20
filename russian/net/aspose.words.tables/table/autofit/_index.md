@@ -1,9 +1,11 @@
 ---
 title: Table.AutoFit
-second_title: Справочник по API Aspose.Words для .NET
-description: Table метод. Изменяет размеры таблицы и ячеек в соответствии с указанным поведением автоподбора.
+linktitle: AutoFit
+articleTitle: AutoFit
+second_title: Aspose.Words для .NET
+description: Table AutoFit метод. Изменяет размеры таблицы и ячеек в соответствии с указанным поведением автоподбора на С#.
 type: docs
-weight: 380
+weight: 360
 url: /ru/net/aspose.words.tables/table/autofit/
 ---
 ## Table.AutoFit method
@@ -18,11 +20,11 @@ public void AutoFit(AutoFitBehavior behavior)
 | --- | --- | --- |
 | behavior | AutoFitBehavior | Указывает, как автоматически подогнать таблицу. |
 
-### Примечания
+## Примечания
 
 Этот метод имитирует команды, доступные в меню «Автоматическое размещение» для таблицы в Microsoft Word. Доступные команды: «Автоматическое соответствие содержимому», «Автоматическое соответствие размеру окна» и «Фиксированная ширина столбца». В Microsoft Word эти команды устанавливают соответствующие свойства таблицы, а затем обновляют макет таблицы, и Aspose.Words делает то же самое за вас.
 
-### Примеры
+## Примеры
 
 Показывает, как построить новую таблицу с применением стиля.
 
@@ -74,7 +76,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTableWithStyle.docx");
 
 * enum [AutoFitBehavior](../../autofitbehavior/)
 * class [Table](../)
-* пространство имен [Aspose.Words.Tables](../../table/)
+* пространство имен [Aspose.Words.Tables](../../../aspose.words.tables/)
 * сборка [Aspose.Words](../../../)
-
-

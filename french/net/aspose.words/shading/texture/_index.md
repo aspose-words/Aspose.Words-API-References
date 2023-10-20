@@ -1,7 +1,9 @@
 ---
 title: Shading.Texture
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Shading propriété. Obtient ou définit la texture dombrage.
+linktitle: Texture
+articleTitle: Texture
+second_title: Aspose.Words pour .NET
+description: Shading Texture propriété. Obtient ou définit la texture dombrage en C#.
 type: docs
 weight: 70
 url: /fr/net/aspose.words/shading/texture/
@@ -14,7 +16,7 @@ Obtient ou définit la texture d'ombrage.
 public TextureIndex Texture { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment décorer du texte avec des bordures et des ombrages.
 
@@ -42,7 +44,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.ApplyBordersAndShading.docx");
 
 * enum [TextureIndex](../../textureindex/)
 * class [Shading](../)
-* espace de noms [Aspose.Words](../../shading/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

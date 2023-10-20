@@ -1,20 +1,22 @@
 ---
 title: TxtSaveOptionsBase.Encoding
-second_title: Aspose.Words för .NET API Referens
-description: TxtSaveOptionsBase fast egendom. Anger kodningen som ska användas vid export i textformat. Standardvärdet är Encoding.UTF8 .
+linktitle: Encoding
+articleTitle: Encoding
+second_title: Aspose.Words för .NET
+description: TxtSaveOptionsBase Encoding fast egendom. Anger kodningen som ska användas vid export i textformat. Standardvärdet ärEncoding.UTF8  i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.saving/txtsaveoptionsbase/encoding/
 ---
 ## TxtSaveOptionsBase.Encoding property
 
-Anger kodningen som ska användas vid export i textformat. Standardvärdet är **Encoding.UTF8** .
+Anger kodningen som ska användas vid export i textformat. Standardvärdet är**Encoding.UTF8** .
 
 ```csharp
 public Encoding Encoding { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man ställer in kodning för ett .txt-utdatadokument.
 
@@ -49,7 +51,5 @@ Assert.AreEqual("? ? ? ? ?.\r\n", docText);
 ### Se även
 
 * class [TxtSaveOptionsBase](../)
-* namnutrymme [Aspose.Words.Saving](../../txtsaveoptionsbase/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

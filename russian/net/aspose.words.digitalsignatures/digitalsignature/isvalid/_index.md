@@ -1,7 +1,9 @@
 ---
 title: DigitalSignature.IsValid
-second_title: Справочник по API Aspose.Words для .NET
-description: DigitalSignature свойство. Возвращаетистинный если эта цифровая подпись действительна и документ не был подделан.
+linktitle: IsValid
+articleTitle: IsValid
+second_title: Aspose.Words для .NET
+description: DigitalSignature IsValid свойство. Возвращаетистинный если эта цифровая подпись действительна и документ не был подделан на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.digitalsignatures/digitalsignature/isvalid/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.digitalsignatures/digitalsignature/isvalid/
 public bool IsValid { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как проверять и отображать информацию о каждой подписи в документе.
 
@@ -36,7 +38,5 @@ foreach (DigitalSignature signature in doc.DigitalSignatures)
 ### Смотрите также
 
 * class [DigitalSignature](../)
-* пространство имен [Aspose.Words.DigitalSignatures](../../digitalsignature/)
+* пространство имен [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ImageData.Brightness
-second_title: Aspose.Words für .NET-API-Referenz
-description: ImageData eigendom. Ruft die Helligkeit des Bildes ab oder legt sie fest. Der Wert für diese Eigenschaft muss eine Zahl von 00 am dunkelsten bis 10 am hellsten sein.
+linktitle: Brightness
+articleTitle: Brightness
+second_title: Aspose.Words für .NET
+description: ImageData Brightness eigendom. Ruft die Helligkeit des Bildes ab oder legt sie fest. Der Wert für diese Eigenschaft muss eine Zahl von 00 am dunkelsten bis 10 am hellsten sein in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.drawing/imagedata/brightness/
@@ -14,11 +16,11 @@ Ruft die Helligkeit des Bildes ab oder legt sie fest. Der Wert für diese Eigens
 public double Brightness { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Der Standardwert ist 0,5.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Bilddaten einer Form bearbeitet werden.
 
@@ -81,7 +83,5 @@ dstDoc.Save(ArtifactsDir + "Drawing.ImageData.docx");
 ### Siehe auch
 
 * class [ImageData](../)
-* namensraum [Aspose.Words.Drawing](../../imagedata/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

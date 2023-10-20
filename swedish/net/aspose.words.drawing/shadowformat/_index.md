@@ -1,7 +1,9 @@
 ---
-title: Class ShadowFormat
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Drawing.ShadowFormat klass. Representerar skuggformatering för ett objekt.
+title: ShadowFormat Class
+linktitle: ShadowFormat
+articleTitle: ShadowFormat
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Drawing.ShadowFormat klass. Representerar skuggformatering för ett objekt i C#.
 type: docs
 weight: 1230
 url: /sv/net/aspose.words.drawing/shadowformat/
@@ -33,5 +35,3 @@ public class ShadowFormat
 
 * namnutrymme [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../)
-
-

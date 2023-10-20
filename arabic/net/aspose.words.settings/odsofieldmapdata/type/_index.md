@@ -1,7 +1,9 @@
 ---
 title: OdsoFieldMapData.Type
-second_title: Aspose.Words لمراجع .NET API
-description: OdsoFieldMapData ملكية. تحديد ما إذا كان حقل دمج البريد المحدد قد تم تعيينه إلى عمود في مصدر البيانات الخارجي المحدد أم لا. القيمة الافتراضية هيDefault .
+linktitle: Type
+articleTitle: Type
+second_title: Aspose.Words لـ .NET
+description: OdsoFieldMapData Type ملكية. تحديد ما إذا كان حقل دمج البريد المحدد قد تم تعيينه إلى عمود في مصدر البيانات الخارجي المحدد أم لا. القيمة الافتراضية هيDefault  في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.settings/odsofieldmapdata/type/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.settings/odsofieldmapdata/type/
 public OdsoFieldMappingType Type { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الوصول إلى مجموعة البيانات التي تقوم بتعيين أعمدة مصدر البيانات لدمج الحقول.
 
@@ -58,7 +60,5 @@ Assert.AreEqual(0, dataCollection.Count);
 
 * enum [OdsoFieldMappingType](../../odsofieldmappingtype/)
 * class [OdsoFieldMapData](../)
-* مساحة الاسم [Aspose.Words.Settings](../../odsofieldmapdata/)
+* مساحة الاسم [Aspose.Words.Settings](../../../aspose.words.settings/)
 * المجسم [Aspose.Words](../../../)
-
-

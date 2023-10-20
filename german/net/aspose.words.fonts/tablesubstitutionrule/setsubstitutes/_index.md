@@ -1,7 +1,9 @@
 ---
 title: TableSubstitutionRule.SetSubstitutes
-second_title: Aspose.Words für .NET-API-Referenz
-description: TableSubstitutionRule methode. Ersetzen Sie die Namen der Ersatzschriftarten für den angegebenen Originalschriftnamen.
+linktitle: SetSubstitutes
+articleTitle: SetSubstitutes
+second_title: Aspose.Words für .NET
+description: TableSubstitutionRule SetSubstitutes methode. Ersetzen Sie die Namen der Ersatzschriftarten für den angegebenen Originalschriftnamen in C#.
 type: docs
 weight: 80
 url: /de/net/aspose.words.fonts/tablesubstitutionrule/setsubstitutes/
@@ -19,7 +21,7 @@ public void SetSubstitutes(string originalFontName, params string[] substituteFo
 | originalFontName | String | Ursprünglicher Schriftartname. |
 | substituteFontNames | String[] | Liste alternativer Schriftartnamen. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Schriftartersetzungsregeln festgelegt werden.
 
@@ -118,7 +120,5 @@ doc.Save(ArtifactsDir + "FontSettings.TableSubstitutionRule.Custom.pdf");
 ### Siehe auch
 
 * class [TableSubstitutionRule](../)
-* namensraum [Aspose.Words.Fonts](../../tablesubstitutionrule/)
+* namensraum [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * Montage [Aspose.Words](../../../)
-
-

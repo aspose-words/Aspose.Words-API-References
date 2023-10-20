@@ -1,7 +1,9 @@
 ---
 title: ConditionalStyleCollection.LastRow
-second_title: Aspose.Words für .NET-API-Referenz
-description: ConditionalStyleCollection eigendom. Ruft den Stil der letzten Zeile ab.
+linktitle: LastRow
+articleTitle: LastRow
+second_title: Aspose.Words für .NET
+description: ConditionalStyleCollection LastRow eigendom. Ruft den Stil der letzten Zeile ab in C#.
 type: docs
 weight: 100
 url: /de/net/aspose.words/conditionalstylecollection/lastrow/
@@ -14,7 +16,7 @@ Ruft den Stil der letzten Zeile ab.
 public ConditionalStyle LastRow { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit bestimmten Bereichsstilen einer Tabelle gearbeitet wird.
 
@@ -85,7 +87,5 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 
 * class [ConditionalStyle](../../conditionalstyle/)
 * class [ConditionalStyleCollection](../)
-* namensraum [Aspose.Words](../../conditionalstylecollection/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

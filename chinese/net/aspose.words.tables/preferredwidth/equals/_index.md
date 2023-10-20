@@ -1,12 +1,14 @@
 ---
 title: PreferredWidth.Equals
-second_title: Aspose.Words for .NET API 参考
-description: PreferredWidth 方法. 判断是否指定PreferredWidth与当前值相等PreferredWidth.
+linktitle: Equals
+articleTitle: Equals
+second_title: 用于 .NET 的 Aspose.Words
+description: PreferredWidth Equals 方法. 判断是否指定PreferredWidth与当前值相等PreferredWidth 在 C#.
 type: docs
 weight: 60
 url: /zh/net/aspose.words.tables/preferredwidth/equals/
 ---
-## Equals(PreferredWidth) {#equals}
+## Equals(*[PreferredWidth](../)*) {#equals}
 
 判断是否指定[`PreferredWidth`](../)与当前值相等[`PreferredWidth`](../).
 
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.tables/preferredwidth/equals/
 public bool Equals(PreferredWidth other)
 ```
 
-### 例子
+## 例子
 
 演示如何设置表格单元格的首选宽度。
 
@@ -54,12 +56,12 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertCellsWithPreferredWidths.docx");
 ### 也可以看看
 
 * class [PreferredWidth](../)
-* 命名空间 [Aspose.Words.Tables](../../preferredwidth/)
+* 命名空间 [Aspose.Words.Tables](../../../aspose.words.tables/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## Equals(object) {#equals_1}
+## Equals(*object*) {#equals_1}
 
 确定指定对象的值是否等于当前对象。
 
@@ -67,7 +69,7 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertCellsWithPreferredWidths.docx");
 public override bool Equals(object obj)
 ```
 
-### 例子
+## 例子
 
 演示如何设置表格单元格的首选宽度。
 
@@ -107,7 +109,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertCellsWithPreferredWidths.docx");
 ### 也可以看看
 
 * class [PreferredWidth](../)
-* 命名空间 [Aspose.Words.Tables](../../preferredwidth/)
+* 命名空间 [Aspose.Words.Tables](../../../aspose.words.tables/)
 * 部件 [Aspose.Words](../../../)
-
-

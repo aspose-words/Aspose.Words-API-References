@@ -1,7 +1,9 @@
 ---
 title: ChartYValue.DoubleValue
-second_title: Aspose.Words لمراجع .NET API
-description: ChartYValue ملكية. الحصول على القيمة الرقمية المخزنة.
+linktitle: DoubleValue
+articleTitle: DoubleValue
+second_title: Aspose.Words لـ .NET
+description: ChartYValue DoubleValue ملكية. الحصول على القيمة الرقمية المخزنة في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.drawing.charts/chartyvalue/doublevalue/
@@ -17,7 +19,5 @@ public double DoubleValue { get; }
 ### أنظر أيضا
 
 * class [ChartYValue](../)
-* مساحة الاسم [Aspose.Words.Drawing.Charts](../../chartyvalue/)
+* مساحة الاسم [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Cell.CellFormat
-second_title: Справочник по API Aspose.Words для .NET
-description: Cell свойство. Предоставляет доступ к свойствам форматирования ячейки.
+linktitle: CellFormat
+articleTitle: CellFormat
+second_title: Aspose.Words для .NET
+description: Cell CellFormat свойство. Предоставляет доступ к свойствам форматирования ячейки на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.tables/cell/cellformat/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.tables/cell/cellformat/
 public CellFormat CellFormat { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как изменить форматирование ячейки таблицы.
 
@@ -89,7 +91,5 @@ doc.Save(ArtifactsDir + "Table.RowCellFormat.docx");
 
 * class [CellFormat](../../cellformat/)
 * class [Cell](../)
-* пространство имен [Aspose.Words.Tables](../../cell/)
+* пространство имен [Aspose.Words.Tables](../../../aspose.words.tables/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FormField.OwnStatus
-second_title: Aspose.Words für .NET-API-Referenz
-description: FormField eigendom. Gibt die Quelle des Textes an der in der Statusleiste angezeigt wird wenn ein Formularfeld den Fokus hat.
+linktitle: OwnStatus
+articleTitle: OwnStatus
+second_title: Aspose.Words für .NET
+description: FormField OwnStatus eigendom. Gibt die Quelle des Textes an der in der Statusleiste angezeigt wird wenn ein Formularfeld den Fokus hat in C#.
 type: docs
 weight: 160
 url: /de/net/aspose.words.fields/formfield/ownstatus/
@@ -14,11 +16,11 @@ Gibt die Quelle des Textes an, der in der Statusleiste angezeigt wird, wenn ein 
 public bool OwnStatus { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Wenn`WAHR` , der durch die angegebene Text[`StatusText`](../statustext/) Eigenschaft wird angezeigt. Wenn`FALSCH` , der Text des AutoText-Eintrags, der durch angegeben wird[`StatusText`](../statustext/) Eigenschaft angezeigt wird.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie verschiedene Arten von Formularfeldern in ein Dokument eingefügt und mithilfe einer Dokumentbesucherimplementierung verarbeitet werden.
 
@@ -152,7 +154,5 @@ public class FormFieldVisitor : DocumentVisitor
 ### Siehe auch
 
 * class [FormField](../)
-* namensraum [Aspose.Words.Fields](../../formfield/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum FieldUpdateCultureSource
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Fields.FieldUpdateCultureSource تعداد. يشير إلى الثقافة التي سيتم استخدامها أثناء التحديث الميداني.
+title: FieldUpdateCultureSource Enum
+linktitle: FieldUpdateCultureSource
+articleTitle: FieldUpdateCultureSource
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Fields.FieldUpdateCultureSource تعداد. يشير إلى الثقافة التي سيتم استخدامها أثناء التحديث الميداني في C#.
 type: docs
 weight: 2560
 url: /ar/net/aspose.words.fields/fieldupdateculturesource/
@@ -21,7 +23,7 @@ public enum FieldUpdateCultureSource
 | CurrentThread | `0` | يتم استخدام ثقافة مؤشر ترابط التنفيذ الحالي لتحديث الحقول. |
 | FieldCode | `1` | يتم استخدام الثقافة المحددة في خصائص تنسيق الحقل عبر إعداد اللغة. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحديد مصدر الثقافة المستخدمة لتنسيق التاريخ أثناء تحديث الحقل أو دمج المراسلات.
 
@@ -57,5 +59,3 @@ Thread.CurrentThread.CurrentCulture = currentCulture;
 
 * مساحة الاسم [Aspose.Words.Fields](../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../)
-
-

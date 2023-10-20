@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.CharacterUnitLeftIndent
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ParagraphFormat propriété. Obtient ou définit la valeur de retrait gauche en caractères pour les paragraphes spécifiés.
+linktitle: CharacterUnitLeftIndent
+articleTitle: CharacterUnitLeftIndent
+second_title: Aspose.Words pour .NET
+description: ParagraphFormat CharacterUnitLeftIndent propriété. Obtient ou définit la valeur de retrait gauche en caractères pour les paragraphes spécifiés en C#.
 type: docs
 weight: 80
 url: /fr/net/aspose.words/paragraphformat/characterunitleftindent/
@@ -14,7 +16,7 @@ Obtient ou définit la valeur de retrait gauche (en caractères) pour les paragr
 public double CharacterUnitLeftIndent { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment modifier l’espacement et le retrait des paragraphes.
 
@@ -68,7 +70,5 @@ builder.Write("测试文档测试文档测试文档测试文档测试文档测�
 ### Voir également
 
 * class [ParagraphFormat](../)
-* espace de noms [Aspose.Words](../../paragraphformat/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

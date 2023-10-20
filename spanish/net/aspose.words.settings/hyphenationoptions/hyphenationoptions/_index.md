@@ -1,7 +1,9 @@
 ---
-title: HyphenationOptions.HyphenationOptions
-second_title: Referencia de API de Aspose.Words para .NET
-description: HyphenationOptions constructor. Constructor predeterminado
+title: HyphenationOptions
+linktitle: HyphenationOptions
+articleTitle: HyphenationOptions
+second_title: Aspose.Words para .NET
+description: HyphenationOptions constructor. Constructor predeterminado en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words.settings/hyphenationoptions/hyphenationoptions/
@@ -17,7 +19,5 @@ public HyphenationOptions()
 ### Ver también
 
 * class [HyphenationOptions](../)
-* espacio de nombres [Aspose.Words.Settings](../../hyphenationoptions/)
+* espacio de nombres [Aspose.Words.Settings](../../../aspose.words.settings/)
 * asamblea [Aspose.Words](../../../)
-
-

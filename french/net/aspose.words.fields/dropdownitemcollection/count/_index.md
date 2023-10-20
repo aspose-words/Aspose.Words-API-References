@@ -1,7 +1,9 @@
 ---
 title: DropDownItemCollection.Count
-second_title: Référence de l'API Aspose.Words pour .NET
-description: DropDownItemCollection propriété. Obtient le nombre déléments contenus dans la collection.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words pour .NET
+description: DropDownItemCollection Count propriété. Obtient le nombre déléments contenus dans la collection en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.fields/dropdownitemcollection/count/
@@ -14,7 +16,7 @@ Obtient le nombre d'éléments contenus dans la collection.
 public int Count { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment insérer un champ de zone de liste déroulante et modifier les éléments de sa collection d'éléments.
 
@@ -68,7 +70,5 @@ dropDownItems.Clear();
 ### Voir également
 
 * class [DropDownItemCollection](../)
-* espace de noms [Aspose.Words.Fields](../../dropdownitemcollection/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

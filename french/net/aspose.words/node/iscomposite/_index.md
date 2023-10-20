@@ -1,7 +1,9 @@
 ---
 title: Node.IsComposite
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Node propriété. Retoursvrai si ce nœud peut contenir dautres nœuds.
+linktitle: IsComposite
+articleTitle: IsComposite
+second_title: Aspose.Words pour .NET
+description: Node IsComposite propriété. Retoursvrai si ce nœud peut contenir dautres nœuds en C#.
 type: docs
 weight: 30
 url: /fr/net/aspose.words/node/iscomposite/
@@ -18,7 +20,7 @@ public virtual bool IsComposite { get; }
 
 Cette méthode renvoie`FAUX` comme[`Node`](../) ne peut pas avoir de nœuds enfants.
 
-### Exemples
+## Exemples
 
 Montre comment parcourir l’arborescence des nœuds enfants d’un nœud composite.
 
@@ -65,7 +67,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 ### Voir également
 
 * class [Node](../)
-* espace de noms [Aspose.Words](../../node/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

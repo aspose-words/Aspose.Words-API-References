@@ -1,7 +1,9 @@
 ---
 title: WebExtensionReference.Store
-second_title: Справочник по API Aspose.Words для .NET
-description: WebExtensionReference свойство. Указывает экземпляр торговой площадки где хранится вебрасширение.
+linktitle: Store
+articleTitle: Store
+second_title: Aspose.Words для .NET
+description: WebExtensionReference Store свойство. Указывает экземпляр торговой площадки где хранится вебрасширение на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.webextensions/webextensionreference/store/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.webextensions/webextensionreference/store/
 public string Store { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как добавить веб-расширение в документ.
 
@@ -59,7 +61,5 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 ### Смотрите также
 
 * class [WebExtensionReference](../)
-* пространство имен [Aspose.Words.WebExtensions](../../webextensionreference/)
+* пространство имен [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * сборка [Aspose.Words](../../../)
-
-

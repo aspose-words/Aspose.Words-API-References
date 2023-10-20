@@ -1,7 +1,9 @@
 ---
 title: PageSetup.PageWidth
-second_title: Referencia de API de Aspose.Words para .NET
-description: PageSetup propiedad. Devuelve o establece el ancho de la página en puntos.
+linktitle: PageWidth
+articleTitle: PageWidth
+second_title: Aspose.Words para .NET
+description: PageSetup PageWidth propiedad. Devuelve o establece el ancho de la página en puntos en C#.
 type: docs
 weight: 340
 url: /es/net/aspose.words/pagesetup/pagewidth/
@@ -14,7 +16,7 @@ Devuelve o establece el ancho de la página en puntos.
 public double PageWidth { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo insertar una imagen y utilizarla como marca de agua.
 
@@ -99,7 +101,5 @@ doc.Save(ArtifactsDir + "Image.CreateFloatingPositionSize.docx");
 ### Ver también
 
 * class [PageSetup](../)
-* espacio de nombres [Aspose.Words](../../pagesetup/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

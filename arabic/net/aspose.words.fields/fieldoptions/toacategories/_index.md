@@ -1,7 +1,9 @@
 ---
 title: FieldOptions.ToaCategories
-second_title: Aspose.Words لمراجع .NET API
-description: FieldOptions ملكية. الحصول على أو تعيين جدول فئات المراجع.
+linktitle: ToaCategories
+articleTitle: ToaCategories
+second_title: Aspose.Words لـ .NET
+description: FieldOptions ToaCategories ملكية. الحصول على أو تعيين جدول فئات المراجع في C#.
 type: docs
 weight: 200
 url: /ar/net/aspose.words.fields/fieldoptions/toacategories/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldoptions/toacategories/
 public ToaCategories ToaCategories { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحديد مجموعة من الفئات لحقول TOA.
 
@@ -63,7 +65,5 @@ doc.Save(ArtifactsDir + "FieldOptions.TOA.Categories.docx");
 
 * class [ToaCategories](../../toacategories/)
 * class [FieldOptions](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldoptions/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

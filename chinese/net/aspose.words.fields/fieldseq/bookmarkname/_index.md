@@ -1,7 +1,9 @@
 ---
 title: FieldSeq.BookmarkName
-second_title: Aspose.Words for .NET API 参考
-description: FieldSeq 财产. 获取或设置引用文档中其他位置而不是当前位置的项目的书签名称
+linktitle: BookmarkName
+articleTitle: BookmarkName
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldSeq BookmarkName 财产. 获取或设置引用文档中其他位置而不是当前位置的项目的书签名称 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.fields/fieldseq/bookmarkname/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fieldseq/bookmarkname/
 public string BookmarkName { get; set; }
 ```
 
-### 例子
+## 例子
 
 展示如何组合目录和序列字段。
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "Field.SEQ.Bookmark.docx");
 ### 也可以看看
 
 * class [FieldSeq](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldseq/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

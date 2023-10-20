@@ -1,7 +1,9 @@
 ---
 title: FieldDatabase.LastRecord
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldDatabase eigendom. Ruft die ganzzahlige Datensatznummer des letzten einzufügenden Datensatzes ab oder legt diese fest.
+linktitle: LastRecord
+articleTitle: LastRecord
+second_title: Aspose.Words für .NET
+description: FieldDatabase LastRecord eigendom. Ruft die ganzzahlige Datensatznummer des letzten einzufügenden Datensatzes ab oder legt diese fest in C#.
 type: docs
 weight: 80
 url: /de/net/aspose.words.fields/fielddatabase/lastrecord/
@@ -14,7 +16,7 @@ Ruft die ganzzahlige Datensatznummer des letzten einzufügenden Datensatzes ab o
 public string LastRecord { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man Daten aus einer Datenbank extrahiert und als Feld in ein Dokument einfügt.
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "Field.DATABASE.docx");
 ### Siehe auch
 
 * class [FieldDatabase](../)
-* namensraum [Aspose.Words.Fields](../../fielddatabase/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,9 +1,11 @@
 ---
 title: Fill.ImageBytes
-second_title: Aspose.Words för .NET API Referens
-description: Fill fast egendom. Hämtar råbyte för fyllningstexturen eller mönstret.
+linktitle: ImageBytes
+articleTitle: ImageBytes
+second_title: Aspose.Words för .NET
+description: Fill ImageBytes fast egendom. Hämtar råbyte för fyllningstexturen eller mönstret i C#.
 type: docs
-weight: 140
+weight: 130
 url: /sv/net/aspose.words.drawing/fill/imagebytes/
 ---
 ## Fill.ImageBytes property
@@ -14,11 +16,11 @@ Hämtar råbyte för fyllningstexturen eller mönstret.
 public byte[] ImageBytes { get; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Standardvärdet är`null`.
 
-### Exempel
+## Exempel
 
 Visar för att skapa en mängd olika former.
 
@@ -93,7 +95,5 @@ doc.Save(ArtifactsDir + "Drawing.VariousShapes.docx");
 ### Se även
 
 * class [Fill](../)
-* namnutrymme [Aspose.Words.Drawing](../../fill/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

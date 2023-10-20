@@ -1,7 +1,9 @@
 ---
 title: BaseWebExtensionCollection1.Count
-second_title: Aspose.Words för .NET API Referens
-description: BaseWebExtensionCollection fast egendom. Hämtar antalet element som finns i samlingen.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words för .NET
+description: BaseWebExtensionCollection Count fast egendom. Hämtar antalet element som finns i samlingen i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.webextensions/basewebextensioncollection-1/count/
@@ -14,7 +16,7 @@ Hämtar antalet element som finns i samlingen.
 public int Count { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med ett dokuments samling av webbtillägg.
 
@@ -43,7 +45,5 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 ### Se även
 
 * class [BaseWebExtensionCollection&lt;T&gt;](../)
-* namnutrymme [Aspose.Words.WebExtensions](../../basewebextensioncollection-1/)
+* namnutrymme [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * hopsättning [Aspose.Words](../../../)
-
-

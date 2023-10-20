@@ -1,7 +1,9 @@
 ---
 title: ChartAxisCollection.GetEnumerator
-second_title: Aspose.Words per .NET API Reference
-description: ChartAxisCollection metodo. Restituisce un oggetto enumeratore.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words per .NET
+description: ChartAxisCollection GetEnumerator metodo. Restituisce un oggetto enumeratore in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words.drawing.charts/chartaxiscollection/getenumerator/
@@ -18,7 +20,5 @@ public IEnumerator<ChartAxis> GetEnumerator()
 
 * class [ChartAxis](../../chartaxis/)
 * class [ChartAxisCollection](../)
-* spazio dei nomi [Aspose.Words.Drawing.Charts](../../chartaxiscollection/)
+* spazio dei nomi [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * assemblea [Aspose.Words](../../../)
-
-

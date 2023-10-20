@@ -1,7 +1,9 @@
 ---
-title: Enum ReportBuildOptions
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Reporting.ReportBuildOptions uppräkning. Anger alternativ som styr beteendet förReportingEngine medan du bygger en rapport.
+title: ReportBuildOptions Enum
+linktitle: ReportBuildOptions
+articleTitle: ReportBuildOptions
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Reporting.ReportBuildOptions uppräkning. Anger alternativ som styr beteendet förReportingEngine medan du bygger en rapport i C#.
 type: docs
 weight: 4720
 url: /sv/net/aspose.words.reporting/reportbuildoptions/
@@ -30,5 +32,3 @@ public enum ReportBuildOptions
 
 * namnutrymme [Aspose.Words.Reporting](../../aspose.words.reporting/)
 * hopsättning [Aspose.Words](../../)
-
-

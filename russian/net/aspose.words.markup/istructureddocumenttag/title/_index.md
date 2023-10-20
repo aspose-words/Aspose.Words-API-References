@@ -1,20 +1,22 @@
 ---
 title: IStructuredDocumentTag.Title
-second_title: Справочник по API Aspose.Words для .NET
-description: IStructuredDocumentTag свойство. Указывает понятное имя связанное с этим СДТ . Не может быть нулевым.
+linktitle: Title
+articleTitle: Title
+second_title: Aspose.Words для .NET
+description: IStructuredDocumentTag Title свойство. Указывает понятное имя связанное с этимСДТ . Не может быть нулевым на С#.
 type: docs
 weight: 110
 url: /ru/net/aspose.words.markup/istructureddocumenttag/title/
 ---
 ## IStructuredDocumentTag.Title property
 
-Указывает понятное имя, связанное с этим **СДТ** . Не может быть нулевым.
+Указывает понятное имя, связанное с этим**СДТ** . Не может быть нулевым.
 
 ```csharp
 public string Title { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как получить структурированный тег документа.
 
@@ -34,7 +36,5 @@ Console.WriteLine(sdt.Id);
 ### Смотрите также
 
 * interface [IStructuredDocumentTag](../)
-* пространство имен [Aspose.Words.Markup](../../istructureddocumenttag/)
+* пространство имен [Aspose.Words.Markup](../../../aspose.words.markup/)
 * сборка [Aspose.Words](../../../)
-
-

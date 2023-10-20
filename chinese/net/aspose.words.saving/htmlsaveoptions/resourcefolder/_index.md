@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ResourceFolder
-second_title: Aspose.Words for .NET API 参考
-description: HtmlSaveOptions 财产. 指定一个物理文件夹当 document 导出为 HTML 时所有资源如图像字体和外部 CSS都保存在其中默认为空字符串
+linktitle: ResourceFolder
+articleTitle: ResourceFolder
+second_title: 用于 .NET 的 Aspose.Words
+description: HtmlSaveOptions ResourceFolder 财产. 指定一个物理文件夹当 document 导出为 HTML 时所有资源如图像字体和外部 CSS都保存在其中默认为空字符串 在 C#.
 type: docs
 weight: 420
 url: /zh/net/aspose.words.saving/htmlsaveoptions/resourcefolder/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.saving/htmlsaveoptions/resourcefolder/
 public string ResourceFolder { get; set; }
 ```
 
-### 评论
+## 评论
 
 `ResourceFolder`是指定应写入所有资源的文件夹的最简单方法。 另一种方法是使用单独的属性[`FontsFolder`](../fontsfolder/),[`ImagesFolder`](../imagesfolder/), 和[`CssStyleSheetFileName`](../cssstylesheetfilename/)。
 
@@ -22,7 +24,7 @@ public string ResourceFolder { get; set; }
 
 如果指定的文件夹`ResourceFolder`不存在，将自动创建。
 
-### 例子
+## 例子
 
 展示如何为 Aspose.Words 在将文档保存为 HTML 时创建的外部保存资源设置文件夹和文件夹别名。
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "HtmlSaveOptions.FolderAlias.html", options);
 ### 也可以看看
 
 * class [HtmlSaveOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../htmlsaveoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

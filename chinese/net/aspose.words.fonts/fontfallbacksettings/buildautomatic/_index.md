@@ -1,7 +1,9 @@
 ---
 title: FontFallbackSettings.BuildAutomatic
-second_title: Aspose.Words for .NET API 参考
-description: FontFallbackSettings 方法. 通过扫描可用字体自动构建后备设置
+linktitle: BuildAutomatic
+articleTitle: BuildAutomatic
+second_title: 用于 .NET 的 Aspose.Words
+description: FontFallbackSettings BuildAutomatic 方法. 通过扫描可用字体自动构建后备设置 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.fonts/fontfallbacksettings/buildautomatic/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.fonts/fontfallbacksettings/buildautomatic/
 public void BuildAutomatic()
 ```
 
-### 评论
+## 评论
 
 此方法可能会产生非最佳后备设置。字体由以下方式检查[ Unicode 字符范围](https://docs.microsoft.com/en-us/typography/opentype/spec/os2#ur)字段而不是实际字形的存在。此外，Unicode 范围会单独检查 ，并且与单一语言/脚本相关的多个范围可能使用不同的后备字体。
 
-### 例子
+## 例子
 
 演示如何跨 Unicode 字符代码范围分发后备字体。
 
@@ -77,7 +79,5 @@ doc.Save(ArtifactsDir + "FontSettings.FallbackSettingsCustom.pdf");
 ### 也可以看看
 
 * class [FontFallbackSettings](../)
-* 命名空间 [Aspose.Words.Fonts](../../fontfallbacksettings/)
+* 命名空间 [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * 部件 [Aspose.Words](../../../)
-
-

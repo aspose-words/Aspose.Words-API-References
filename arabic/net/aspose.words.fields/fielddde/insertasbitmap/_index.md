@@ -1,7 +1,9 @@
 ---
 title: FieldDde.InsertAsBitmap
-second_title: Aspose.Words لمراجع .NET API
-description: FieldDde ملكية. الحصول على أو تعيين ما إذا كان سيتم إدراج الكائن المرتبط كصورة نقطية.
+linktitle: InsertAsBitmap
+articleTitle: InsertAsBitmap
+second_title: Aspose.Words لـ .NET
+description: FieldDde InsertAsBitmap ملكية. الحصول على أو تعيين ما إذا كان سيتم إدراج الكائن المرتبط كصورة نقطية في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.fields/fielddde/insertasbitmap/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fielddde/insertasbitmap/
 public bool InsertAsBitmap { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام أنواع الحقول المختلفة للارتباط بالمستندات الأخرى في نظام الملفات المحلي وعرض محتوياتها.
 
@@ -197,7 +199,5 @@ public enum InsertLinkedObjectAs
 ### أنظر أيضا
 
 * class [FieldDde](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fielddde/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

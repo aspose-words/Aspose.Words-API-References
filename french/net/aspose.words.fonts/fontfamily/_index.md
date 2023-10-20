@@ -1,7 +1,9 @@
 ---
-title: Enum FontFamily
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Fonts.FontFamily énumération. Représente la famille de polices.
+title: FontFamily Enum
+linktitle: FontFamily
+articleTitle: FontFamily
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Fonts.FontFamily énumération. Représente la famille de polices en C#.
 type: docs
 weight: 2910
 url: /fr/net/aspose.words.fonts/fontfamily/
@@ -25,11 +27,11 @@ public enum FontFamily
 | Script | `4` | Spécifie une police conçue pour ressembler à une écriture manuscrite ; les exemples incluent Script et Cursive. |
 | Decorative | `5` | Spécifie une police de nouveauté. Un exemple est le vieil anglais. |
 
-### Remarques
+## Remarques
 
 Une famille de polices est un ensemble de polices ayant des caractéristiques communes de largeur de trait et d’empattement.
 
-### Exemples
+## Exemples
 
 Montre comment accéder et imprimer les détails de chaque police dans un document.
 
@@ -69,5 +71,3 @@ while (fontCollectionEnumerator.MoveNext())
 
 * espace de noms [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * Assemblée [Aspose.Words](../../)
-
-

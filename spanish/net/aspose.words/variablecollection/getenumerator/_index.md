@@ -1,7 +1,9 @@
 ---
 title: VariableCollection.GetEnumerator
-second_title: Referencia de API de Aspose.Words para .NET
-description: VariableCollection método. Devuelve un objeto enumerador que se puede utilizar para iterar sobre todas las variables de la colección.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words para .NET
+description: VariableCollection GetEnumerator método. Devuelve un objeto enumerador que se puede utilizar para iterar sobre todas las variables de la colección en C#.
 type: docs
 weight: 60
 url: /es/net/aspose.words/variablecollection/getenumerator/
@@ -14,7 +16,7 @@ Devuelve un objeto enumerador que se puede utilizar para iterar sobre todas las 
 public IEnumerator<KeyValuePair<string, string>> GetEnumerator()
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo trabajar con la colección de variables de un documento.
 
@@ -81,7 +83,5 @@ Assert.That(variables, Is.Empty);
 ### Ver también
 
 * class [VariableCollection](../)
-* espacio de nombres [Aspose.Words](../../variablecollection/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

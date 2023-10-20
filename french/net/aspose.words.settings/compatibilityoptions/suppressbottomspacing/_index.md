@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.SuppressBottomSpacing
-second_title: Référence de l'API Aspose.Words pour .NET
-description: CompatibilityOptions propriété. Ignorer la hauteur exacte de la ligne pour la dernière ligne de la page.
+linktitle: SuppressBottomSpacing
+articleTitle: SuppressBottomSpacing
+second_title: Aspose.Words pour .NET
+description: CompatibilityOptions SuppressBottomSpacing propriété. Ignorer la hauteur exacte de la ligne pour la dernière ligne de la page en C#.
 type: docs
 weight: 480
 url: /fr/net/aspose.words.settings/compatibilityoptions/suppressbottomspacing/
@@ -17,7 +19,5 @@ public bool SuppressBottomSpacing { get; set; }
 ### Voir également
 
 * class [CompatibilityOptions](../)
-* espace de noms [Aspose.Words.Settings](../../compatibilityoptions/)
+* espace de noms [Aspose.Words.Settings](../../../aspose.words.settings/)
 * Assemblée [Aspose.Words](../../../)
-
-

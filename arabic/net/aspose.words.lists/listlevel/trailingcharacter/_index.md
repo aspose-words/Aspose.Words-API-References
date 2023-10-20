@@ -1,7 +1,9 @@
 ---
 title: ListLevel.TrailingCharacter
-second_title: Aspose.Words لمراجع .NET API
-description: ListLevel ملكية. إرجاع أو تعيين الحرف المدرج بعد الرقم الخاص بمستوى القائمة.
+linktitle: TrailingCharacter
+articleTitle: TrailingCharacter
+second_title: Aspose.Words لـ .NET
+description: ListLevel TrailingCharacter ملكية. إرجاع أو تعيين الحرف المدرج بعد الرقم الخاص بمستوى القائمة في C#.
 type: docs
 weight: 140
 url: /ar/net/aspose.words.lists/listlevel/trailingcharacter/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.lists/listlevel/trailingcharacter/
 public ListTrailingCharacter TrailingCharacter { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تطبيق تنسيق القائمة المخصصة على الفقرات عند استخدام DocumentBuilder.
 
@@ -74,7 +76,5 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateCustomList.docx");
 
 * enum [ListTrailingCharacter](../../listtrailingcharacter/)
 * class [ListLevel](../)
-* مساحة الاسم [Aspose.Words.Lists](../../listlevel/)
+* مساحة الاسم [Aspose.Words.Lists](../../../aspose.words.lists/)
 * المجسم [Aspose.Words](../../../)
-
-

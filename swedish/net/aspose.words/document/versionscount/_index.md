@@ -1,7 +1,9 @@
 ---
 title: Document.VersionsCount
-second_title: Aspose.Words för .NET API Referens
-description: Document fast egendom. Hämtar antalet dokumentversioner som lagrades i DOCdokumentet.
+linktitle: VersionsCount
+articleTitle: VersionsCount
+second_title: Aspose.Words för .NET
+description: Document VersionsCount fast egendom. Hämtar antalet dokumentversioner som lagrades i DOCdokumentet i C#.
 type: docs
 weight: 460
 url: /sv/net/aspose.words/document/versionscount/
@@ -14,13 +16,13 @@ Hämtar antalet dokumentversioner som lagrades i DOC-dokumentet.
 public int VersionsCount { get; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Versioner i Microsoft Word nås via menyn Arkiv/Version. Microsoft Word stöder versioner endast för DOC-filer.
 
 Denna egenskap gör det möjligt att upptäcka om det fanns dokumentversioner lagrade i detta document innan det öppnades i Aspose.Words. Aspose.Words ger inget annat stöd för dokumentversioner. Om du sparar detta dokument med Aspose.Words kommer dokumentet att sparas utan versioner.
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med versionsräkningsfunktionen i äldre Microsoft Word-dokument.
 
@@ -39,7 +41,5 @@ Assert.AreEqual(0, doc.VersionsCount);
 ### Se även
 
 * class [Document](../)
-* namnutrymme [Aspose.Words](../../document/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: VariableCollection.Remove
-second_title: Aspose.Words per .NET API Reference
-description: VariableCollection metodo. Rimuove una variabile del documento con il nome specificato dalla raccolta.
+linktitle: Remove
+articleTitle: Remove
+second_title: Aspose.Words per .NET
+description: VariableCollection Remove metodo. Rimuove una variabile del documento con il nome specificato dalla raccolta in C#.
 type: docs
 weight: 80
 url: /it/net/aspose.words/variablecollection/remove/
@@ -18,7 +20,7 @@ public void Remove(string name)
 | --- | --- | --- |
 | name | String | Il nome della variabile senza distinzione tra maiuscole e minuscole. |
 
-### Esempi
+## Esempi
 
 Mostra come lavorare con la raccolta di variabili di un documento.
 
@@ -85,7 +87,5 @@ Assert.That(variables, Is.Empty);
 ### Guarda anche
 
 * class [VariableCollection](../)
-* spazio dei nomi [Aspose.Words](../../variablecollection/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

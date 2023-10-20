@@ -1,7 +1,9 @@
 ---
-title: Enum ScriptShapingLevel
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Shaping.ScriptShapingLevel 枚举. 描述脚本所需的整形级别
+title: ScriptShapingLevel Enum
+linktitle: ScriptShapingLevel
+articleTitle: ScriptShapingLevel
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Shaping.ScriptShapingLevel 枚举. 描述脚本所需的整形级别 在 C#.
 type: docs
 weight: 6070
 url: /zh/net/aspose.words.shaping/scriptshapinglevel/
@@ -27,5 +29,3 @@ public enum ScriptShapingLevel
 
 * 命名空间 [Aspose.Words.Shaping](../../aspose.words.shaping/)
 * 部件 [Aspose.Words](../../)
-
-

@@ -1,9 +1,11 @@
 ---
 title: Comment.SetText
-second_title: Aspose.Words för .NET API Referens
-description: Comment metod. Detta är en bekvämlighetsmetod som gör det enkelt att ställa in texten i kommentaren.
+linktitle: SetText
+articleTitle: SetText
+second_title: Aspose.Words för .NET
+description: Comment SetText metod. Detta är en bekvämlighetsmetod som gör det enkelt att ställa in texten i kommentaren i C#.
 type: docs
-weight: 180
+weight: 150
 url: /sv/net/aspose.words/comment/settext/
 ---
 ## Comment.SetText method
@@ -18,11 +20,11 @@ public void SetText(string text)
 | --- | --- | --- |
 | text | String | Den nya texten i kommentaren. |
 
-### Anmärkningar
+## Anmärkningar
 
 Denna metod gör det möjligt att snabbt ställa in text i en kommentar från en sträng. Strängen kan innehålla styckebrytningar, detta kommer att skapa textstycken i kommentaren i enlighet därmed. Om du vill infoga mer komplexa element i kommentaren, till exempel bookmarks eller tabeller eller tillämpa rik formatering, måste du använda lämpliga nodklasser att bygga upp kommentarstexten.
 
-### Exempel
+## Exempel
 
 Visar hur man lägger till en kommentar till ett dokument och sedan svarar på det.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "Comment.AddCommentWithReply.docx");
 ### Se även
 
 * class [Comment](../)
-* namnutrymme [Aspose.Words](../../comment/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

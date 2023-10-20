@@ -1,7 +1,9 @@
 ---
 title: ConditionalStyleCollection.OddColumnBanding
-second_title: Aspose.Words für .NET-API-Referenz
-description: ConditionalStyleCollection eigendom. Ruft den ungeraden Spaltenbandstil ab.
+linktitle: OddColumnBanding
+articleTitle: OddColumnBanding
+second_title: Aspose.Words für .NET
+description: ConditionalStyleCollection OddColumnBanding eigendom. Ruft den ungeraden Spaltenbandstil ab in C#.
 type: docs
 weight: 110
 url: /de/net/aspose.words/conditionalstylecollection/oddcolumnbanding/
@@ -14,7 +16,7 @@ Ruft den ungeraden Spaltenbandstil ab.
 public ConditionalStyle OddColumnBanding { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit bestimmten Bereichsstilen einer Tabelle gearbeitet wird.
 
@@ -85,7 +87,5 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 
 * class [ConditionalStyle](../../conditionalstyle/)
 * class [ConditionalStyleCollection](../)
-* namensraum [Aspose.Words](../../conditionalstylecollection/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: MappedDataFieldCollection.Count
-second_title: Référence de l'API Aspose.Words pour .NET
-description: MappedDataFieldCollection propriété. Obtient le nombre déléments contenus dans la collection.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words pour .NET
+description: MappedDataFieldCollection Count propriété. Obtient le nombre déléments contenus dans la collection en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.mailmerging/mappeddatafieldcollection/count/
@@ -14,7 +16,7 @@ Obtient le nombre d'éléments contenus dans la collection.
 public int Count { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment mapper des colonnes de données et des MERGEFIELD avec des noms différents afin que les données soient transférées entre elles lors d'un publipostage.
 
@@ -99,7 +101,5 @@ private static DataTable CreateSourceTableMappedDataFields()
 ### Voir également
 
 * class [MappedDataFieldCollection](../)
-* espace de noms [Aspose.Words.MailMerging](../../mappeddatafieldcollection/)
+* espace de noms [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * Assemblée [Aspose.Words](../../../)
-
-

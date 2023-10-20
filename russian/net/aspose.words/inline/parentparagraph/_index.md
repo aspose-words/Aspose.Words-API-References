@@ -1,7 +1,9 @@
 ---
 title: Inline.ParentParagraph
-second_title: Справочник по API Aspose.Words для .NET
-description: Inline свойство. Получает родительский элементParagraph этого узла.
+linktitle: ParentParagraph
+articleTitle: ParentParagraph
+second_title: Aspose.Words для .NET
+description: Inline ParentParagraph свойство. Получает родительский элементParagraph этого узла на С#.
 type: docs
 weight: 70
 url: /ru/net/aspose.words/inline/parentparagraph/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/inline/parentparagraph/
 public Paragraph ParentParagraph { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как определить тип редакции встроенного узла.
 
@@ -71,7 +73,5 @@ Assert.IsTrue(runs[5].IsDeleteRevision);
 
 * class [Paragraph](../../paragraph/)
 * class [Inline](../)
-* пространство имен [Aspose.Words](../../inline/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

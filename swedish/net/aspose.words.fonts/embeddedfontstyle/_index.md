@@ -1,7 +1,9 @@
 ---
-title: Enum EmbeddedFontStyle
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Fonts.EmbeddedFontStyle uppräkning. Anger stilen för ett inbäddat teckensnitt i enFontInfo objekt.
+title: EmbeddedFontStyle Enum
+linktitle: EmbeddedFontStyle
+articleTitle: EmbeddedFontStyle
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Fonts.EmbeddedFontStyle uppräkning. Anger stilen för ett inbäddat teckensnitt i enFontInfo objekt i C#.
 type: docs
 weight: 2860
 url: /sv/net/aspose.words.fonts/embeddedfontstyle/
@@ -24,7 +26,7 @@ public enum EmbeddedFontStyle
 | Italic | `2` | Anger det inbäddade kursivt teckensnitt. |
 | BoldItalic | `3` | Anger det inbäddade teckensnittet med fet kursiv. |
 
-### Exempel
+## Exempel
 
 Visar hur man extraherar ett inbäddat teckensnitt från ett dokument och sparar det i det lokala filsystemet.
 
@@ -52,5 +54,3 @@ File.WriteAllBytes(ArtifactsDir + "Alte DIN 1451 Mittelschrift.otf", embeddedFon
 
 * namnutrymme [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * hopsättning [Aspose.Words](../../)
-
-

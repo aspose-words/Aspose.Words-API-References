@@ -1,7 +1,9 @@
 ---
 title: RowFormat.Borders
-second_title: Aspose.Words für .NET-API-Referenz
-description: RowFormat eigendom. Ruft die Sammlung der Standardzellenränder für die Zeile ab.
+linktitle: Borders
+articleTitle: Borders
+second_title: Aspose.Words für .NET
+description: RowFormat Borders eigendom. Ruft die Sammlung der Standardzellenränder für die Zeile ab in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.tables/rowformat/borders/
@@ -14,7 +16,7 @@ Ruft die Sammlung der Standardzellenränder für die Zeile ab.
 public BorderCollection Borders { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man eine Tabelle mit benutzerdefinierten Rändern erstellt.
 
@@ -81,7 +83,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
 
 * class [BorderCollection](../../../aspose.words/bordercollection/)
 * class [RowFormat](../)
-* namensraum [Aspose.Words.Tables](../../rowformat/)
+* namensraum [Aspose.Words.Tables](../../../aspose.words.tables/)
 * Montage [Aspose.Words](../../../)
-
-

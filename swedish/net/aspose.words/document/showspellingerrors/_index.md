@@ -1,7 +1,9 @@
 ---
 title: Document.ShowSpellingErrors
-second_title: Aspose.Words för .NET API Referens
-description: Document fast egendom. Anger om stavfel ska visas i detta dokument.
+linktitle: ShowSpellingErrors
+articleTitle: ShowSpellingErrors
+second_title: Aspose.Words för .NET
+description: Document ShowSpellingErrors fast egendom. Anger om stavfel ska visas i detta dokument i C#.
 type: docs
 weight: 400
 url: /sv/net/aspose.words/document/showspellingerrors/
@@ -14,7 +16,7 @@ Anger om stavfel ska visas i detta dokument.
 public bool ShowSpellingErrors { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man visar/döljer fel i dokumentet.
 
@@ -38,7 +40,5 @@ doc.Save(ArtifactsDir + "Document.SpellingAndGrammarErrors.docx");
 ### Se även
 
 * class [Document](../)
-* namnutrymme [Aspose.Words](../../document/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ListLevel.TextPosition
-second_title: Aspose.Words für .NET-API-Referenz
-description: ListLevel eigendom. Gibt die Position in Punkt für die zweite Zeile des Umbruchtextes für die Listenebene zurück oder legt sie fest.
+linktitle: TextPosition
+articleTitle: TextPosition
+second_title: Aspose.Words für .NET
+description: ListLevel TextPosition eigendom. Gibt die Position in Punkt für die zweite Zeile des Umbruchtextes für die Listenebene zurück oder legt sie fest in C#.
 type: docs
 weight: 130
 url: /de/net/aspose.words.lists/listlevel/textposition/
@@ -14,11 +16,11 @@ Gibt die Position (in Punkt) für die zweite Zeile des Umbruchtextes für die Li
 public double TextPosition { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 `TextPosition` entspricht LeftIndent des Absatzes.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie bei Verwendung von DocumentBuilder eine benutzerdefinierte Listenformatierung auf Absätze anwenden.
 
@@ -77,7 +79,5 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateCustomList.docx");
 ### Siehe auch
 
 * class [ListLevel](../)
-* namensraum [Aspose.Words.Lists](../../listlevel/)
+* namensraum [Aspose.Words.Lists](../../../aspose.words.lists/)
 * Montage [Aspose.Words](../../../)
-
-

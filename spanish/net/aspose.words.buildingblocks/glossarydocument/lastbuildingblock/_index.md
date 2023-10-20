@@ -1,7 +1,9 @@
 ---
 title: GlossaryDocument.LastBuildingBlock
-second_title: Referencia de API de Aspose.Words para .NET
-description: GlossaryDocument propiedad. Obtiene el último bloque de construcción del documento del glosario.
+linktitle: LastBuildingBlock
+articleTitle: LastBuildingBlock
+second_title: Aspose.Words para .NET
+description: GlossaryDocument LastBuildingBlock propiedad. Obtiene el último bloque de construcción del documento del glosario en C#.
 type: docs
 weight: 40
 url: /es/net/aspose.words.buildingblocks/glossarydocument/lastbuildingblock/
@@ -14,11 +16,11 @@ Obtiene el último bloque de construcción del documento del glosario.
 public BuildingBlock LastBuildingBlock { get; }
 ```
 
-### Observaciones
+## Observaciones
 
 Devoluciones`nulo` si no hay bloques de construcción disponibles.
 
-### Ejemplos
+## Ejemplos
 
 Muestra formas de acceder a bloques de construcción en un documento de glosario.
 
@@ -123,7 +125,5 @@ public class GlossaryDocVisitor : DocumentVisitor
 
 * class [BuildingBlock](../../buildingblock/)
 * class [GlossaryDocument](../)
-* espacio de nombres [Aspose.Words.BuildingBlocks](../../glossarydocument/)
+* espacio de nombres [Aspose.Words.BuildingBlocks](../../../aspose.words.buildingblocks/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: PdfLoadOptions.SkipPdfImages
-second_title: Aspose.Words لمراجع .NET API
-description: PdfLoadOptions ملكية. الحصول على أو تعيين العلامة التي تشير إلى ما إذا كان يجب تخطي الصور أثناء تحميل مستند PDF. الافتراضي هوخطأ شنيع .
+linktitle: SkipPdfImages
+articleTitle: SkipPdfImages
+second_title: Aspose.Words لـ .NET
+description: PdfLoadOptions SkipPdfImages ملكية. الحصول على أو تعيين العلامة التي تشير إلى ما إذا كان يجب تخطي الصور أثناء تحميل مستند PDF. الافتراضي هوخطأ شنيع  في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.loading/pdfloadoptions/skippdfimages/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.loading/pdfloadoptions/skippdfimages/
 public bool SkipPdfImages { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تخطي الصور أثناء تحميل ملفات PDF.
 
@@ -38,7 +40,5 @@ else
 ### أنظر أيضا
 
 * class [PdfLoadOptions](../)
-* مساحة الاسم [Aspose.Words.Loading](../../pdfloadoptions/)
+* مساحة الاسم [Aspose.Words.Loading](../../../aspose.words.loading/)
 * المجسم [Aspose.Words](../../../)
-
-

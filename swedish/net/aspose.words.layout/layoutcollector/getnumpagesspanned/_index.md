@@ -1,7 +1,9 @@
 ---
 title: LayoutCollector.GetNumPagesSpanned
-second_title: Aspose.Words för .NET API Referens
-description: LayoutCollector metod. Hämtar antal sidor som den angivna noden sträcker sig över. 0 om noden är inom en enda sida. Detta är samma sak somGetEndPageIndex GetStartPageIndex .
+linktitle: GetNumPagesSpanned
+articleTitle: GetNumPagesSpanned
+second_title: Aspose.Words för .NET
+description: LayoutCollector GetNumPagesSpanned metod. Hämtar antal sidor som den angivna noden sträcker sig över. 0 om noden är inom en enda sida. Detta är samma sak somGetEndPageIndex GetStartPageIndex  i C#.
 type: docs
 weight: 60
 url: /sv/net/aspose.words.layout/layoutcollector/getnumpagesspanned/
@@ -14,7 +16,7 @@ Hämtar antal sidor som den angivna noden sträcker sig över. 0 om noden är in
 public int GetNumPagesSpanned(Node node)
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man kan se sidorna som en nod sträcker sig över.
 
@@ -73,7 +75,5 @@ Assert.AreEqual("¶", layoutEnumerator.Text);
 
 * class [Node](../../../aspose.words/node/)
 * class [LayoutCollector](../)
-* namnutrymme [Aspose.Words.Layout](../../layoutcollector/)
+* namnutrymme [Aspose.Words.Layout](../../../aspose.words.layout/)
 * hopsättning [Aspose.Words](../../../)
-
-

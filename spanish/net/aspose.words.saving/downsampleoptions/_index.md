@@ -1,7 +1,9 @@
 ---
-title: Class DownsampleOptions
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Saving.DownsampleOptions clase. Permite especificar opciones de reducción de resolución.
+title: DownsampleOptions Class
+linktitle: DownsampleOptions
+articleTitle: DownsampleOptions
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Saving.DownsampleOptions clase. Permite especificar opciones de reducción de resolución en C#.
 type: docs
 weight: 4970
 url: /es/net/aspose.words.saving/downsampleoptions/
@@ -30,7 +32,7 @@ public class DownsampleOptions
 | [Resolution](../../aspose.words.saving/downsampleoptions/resolution/) { get; set; } | Especifica la resolución en píxeles por pulgada a la que se deben reducir las imágenes. |
 | [ResolutionThreshold](../../aspose.words.saving/downsampleoptions/resolutionthreshold/) { get; set; } | Especifica el umbral de resolución en píxeles por pulgada. Si la resolución de una imagen en el documento es inferior al valor umbral, no se aplicará el algoritmo de reducción de resolución. Un valor de 0 significa que no se utiliza la verificación del umbral y todas las imágenes que se pueden reducir en tamaño y se reducen la resolución. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo cambiar la resolución de las imágenes en el documento PDF.
 
@@ -63,5 +65,3 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.DownsampleOptions.LowerResolution.pdf", 
 
 * espacio de nombres [Aspose.Words.Saving](../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../)
-
-

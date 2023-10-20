@@ -1,7 +1,9 @@
 ---
 title: TabStopCollection.GetIndexByPosition
-second_title: Référence de l'API Aspose.Words pour .NET
-description: TabStopCollection méthode. Obtient lindex dun taquet de tabulation avec la position spécifiée en points.
+linktitle: GetIndexByPosition
+articleTitle: GetIndexByPosition
+second_title: Aspose.Words pour .NET
+description: TabStopCollection GetIndexByPosition méthode. Obtient lindex dun taquet de tabulation avec la position spécifiée en points en C#.
 type: docs
 weight: 90
 url: /fr/net/aspose.words/tabstopcollection/getindexbyposition/
@@ -14,7 +16,7 @@ Obtient l'index d'un taquet de tabulation avec la position spécifiée en points
 public int GetIndexByPosition(double position)
 ```
 
-### Exemples
+## Exemples
 
 Montre comment rechercher une position pour voir si un taquet de tabulation existe à cet endroit et obtenir son index.
 
@@ -37,7 +39,5 @@ Assert.AreEqual(-1, tabStops.GetIndexByPosition(ConvertUtil.MillimeterToPoint(60
 ### Voir également
 
 * class [TabStopCollection](../)
-* espace de noms [Aspose.Words](../../tabstopcollection/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

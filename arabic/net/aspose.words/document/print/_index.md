@@ -1,9 +1,11 @@
 ---
 title: Document.Print
-second_title: Aspose.Words لمراجع .NET API
-description: Document طريقة. طباعة المستند بالكامل إلى الطابعة الافتراضية.
+linktitle: Print
+articleTitle: Print
+second_title: Aspose.Words لـ .NET
+description: Document Print طريقة. طباعة المستند بالكامل إلى الطابعة الافتراضية في C#.
 type: docs
-weight: 660
+weight: 640
 url: /ar/net/aspose.words/document/print/
 ---
 ## Print() {#print}
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/document/print/
 public void Print()
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية طباعة مستند باستخدام الطابعة الافتراضية.
 
@@ -38,12 +40,12 @@ doc.Print(myPrinter);
 ### أنظر أيضا
 
 * class [Document](../)
-* مساحة الاسم [Aspose.Words](../../document/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## Print(string) {#print_3}
+## Print(*string*) {#print_3}
 
 طباعة المستند بالكامل إلى الطابعة المحددة، باستخدام وحدة التحكم في الطباعة القياسية (بدون واجهة مستخدم).
 
@@ -55,7 +57,7 @@ public void Print(string printerName)
 | --- | --- | --- |
 | printerName | String | اسم الطابعة. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية طباعة مستند باستخدام الطابعة الافتراضية.
 
@@ -79,12 +81,12 @@ doc.Print(myPrinter);
 ### أنظر أيضا
 
 * class [Document](../)
-* مساحة الاسم [Aspose.Words](../../document/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## Print(PrinterSettings) {#print_1}
+## Print(*PrinterSettings*) {#print_1}
 
 يطبع المستند وفقًا لإعدادات الطابعة المحددة، باستخدام وحدة التحكم في الطباعة القياسية (بدون واجهة مستخدم).
 
@@ -96,11 +98,11 @@ public void Print(PrinterSettings printerSettings)
 | --- | --- | --- |
 | printerSettings | PrinterSettings | إعدادات الطابعة المراد استخدامها. |
 
-### ملاحظات
+## ملاحظات
 
 الPrinterSettings يتيح لك كائن تحديد الطابعة التي تريد الطباعة عليها، ونطاق الصفحات التي تريد طباعتها، والخيارات الأخرى.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية طباعة مجموعة من الصفحات.
 
@@ -131,12 +133,12 @@ doc.Print(printerSettings, "My rendered document");
 ### أنظر أيضا
 
 * class [Document](../)
-* مساحة الاسم [Aspose.Words](../../document/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## Print(PrinterSettings, string) {#print_2}
+## Print(*PrinterSettings, string*) {#print_2}
 
 يطبع المستند وفقًا لإعدادات الطابعة المحددة، باستخدام وحدة التحكم في الطباعة القياسية (بدون واجهة مستخدم) واسم المستند.
 
@@ -149,11 +151,11 @@ public void Print(PrinterSettings printerSettings, string documentName)
 | printerSettings | PrinterSettings | إعدادات الطابعة المراد استخدامها. |
 | documentName | String | اسم المستند الذي سيتم عرضه (على سبيل المثال، في مربع حوار حالة الطباعة أو قائمة انتظار الطابعة) أثناء طباعة المستند. |
 
-### ملاحظات
+## ملاحظات
 
 الPrinterSettings يتيح لك كائن تحديد الطابعة التي تريد الطباعة عليها، ونطاق الصفحات التي تريد طباعتها، والخيارات الأخرى.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية طباعة مجموعة من الصفحات.
 
@@ -184,7 +186,5 @@ doc.Print(printerSettings, "My rendered document");
 ### أنظر أيضا
 
 * class [Document](../)
-* مساحة الاسم [Aspose.Words](../../document/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

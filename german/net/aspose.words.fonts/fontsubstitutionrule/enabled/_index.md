@@ -1,7 +1,9 @@
 ---
 title: FontSubstitutionRule.Enabled
-second_title: Aspose.Words für .NET-API-Referenz
-description: FontSubstitutionRule eigendom. Gibt an ob die Regel aktiviert ist oder nicht.
+linktitle: Enabled
+articleTitle: Enabled
+second_title: Aspose.Words für .NET
+description: FontSubstitutionRule Enabled eigendom. Gibt an ob die Regel aktiviert ist oder nicht in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words.fonts/fontsubstitutionrule/enabled/
@@ -14,7 +16,7 @@ Gibt an, ob die Regel aktiviert ist oder nicht.
 public virtual bool Enabled { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt die betriebssystemabhängige Schriftartkonfigurationsersetzung an.
 
@@ -101,7 +103,5 @@ Assert.AreEqual(1,
 ### Siehe auch
 
 * class [FontSubstitutionRule](../)
-* namensraum [Aspose.Words.Fonts](../../fontsubstitutionrule/)
+* namensraum [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * Montage [Aspose.Words](../../../)
-
-

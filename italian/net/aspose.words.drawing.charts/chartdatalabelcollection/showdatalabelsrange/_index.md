@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabelCollection.ShowDataLabelsRange
-second_title: Aspose.Words per .NET API Reference
-description: ChartDataLabelCollection proprietà. Permette di specificare se i valori delle etichette dati devono essere visualizzati nelle etichette dati dellintera serie. Il valore predefinito èfalso .
+linktitle: ShowDataLabelsRange
+articleTitle: ShowDataLabelsRange
+second_title: Aspose.Words per .NET
+description: ChartDataLabelCollection ShowDataLabelsRange proprietà. Permette di specificare se i valori delle etichette dati devono essere visualizzati nelle etichette dati dellintera serie. Il valore predefinito èfalso  in C#.
 type: docs
 weight: 90
 url: /it/net/aspose.words.drawing.charts/chartdatalabelcollection/showdatalabelsrange/
@@ -14,14 +16,12 @@ Permette di specificare se i valori delle etichette dati devono essere visualizz
 public bool ShowDataLabelsRange { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Il valore definito per questa proprietà può essere sovrascritto per una singola etichetta dati utilizzando [`ShowDataLabelsRange`](../../chartdatalabel/showdatalabelsrange/) proprietà.
 
 ### Guarda anche
 
 * class [ChartDataLabelCollection](../)
-* spazio dei nomi [Aspose.Words.Drawing.Charts](../../chartdatalabelcollection/)
+* spazio dei nomi [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * assemblea [Aspose.Words](../../../)
-
-

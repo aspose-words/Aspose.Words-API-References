@@ -1,7 +1,9 @@
 ---
 title: Node.IsComposite
-second_title: Aspose.Words för .NET API Referens
-description: Node fast egendom. ReturnerarSann om denna nod kan innehålla andra noder.
+linktitle: IsComposite
+articleTitle: IsComposite
+second_title: Aspose.Words för .NET
+description: Node IsComposite fast egendom. ReturnerarSann om denna nod kan innehålla andra noder i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words/node/iscomposite/
@@ -18,7 +20,7 @@ public virtual bool IsComposite { get; }
 
 Denna metod återkommer`falsk` som[`Node`](../) kan inte ha barnnoder.
 
-### Exempel
+## Exempel
 
 Visar hur man korsar en sammansatt nods träd med undernoder.
 
@@ -65,7 +67,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 ### Se även
 
 * class [Node](../)
-* namnutrymme [Aspose.Words](../../node/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

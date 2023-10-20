@@ -1,7 +1,9 @@
 ---
 title: ControlChar.PageBreak
-second_title: Справочник по API Aspose.Words для .NET
-description: ControlChar поле. Символ разрыва страницы x000c или f. Обратите внимание что оно имеет то же значение что иSectionBreak .
+linktitle: PageBreak
+articleTitle: PageBreak
+second_title: Aspose.Words для .NET
+description: ControlChar PageBreak поле. Символ разрыва страницы x000c или f. Обратите внимание что оно имеет то же значение что иSectionBreak  на С#.
 type: docs
 weight: 200
 url: /ru/net/aspose.words/controlchar/pagebreak/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/controlchar/pagebreak/
 public static readonly string PageBreak;
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как добавлять в документ различные управляющие символы.
 
@@ -86,7 +88,5 @@ Assert.AreEqual(Convert.ToChar(ControlChar.ColumnBreak), ControlChar.ColumnBreak
 ### Смотрите также
 
 * class [ControlChar](../)
-* пространство имен [Aspose.Words](../../controlchar/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

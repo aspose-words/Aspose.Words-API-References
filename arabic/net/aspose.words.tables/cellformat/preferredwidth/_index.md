@@ -1,9 +1,11 @@
 ---
 title: CellFormat.PreferredWidth
-second_title: Aspose.Words لمراجع .NET API
-description: CellFormat ملكية. إرجاع أو تعيين العرض المفضل للخلية.
+linktitle: PreferredWidth
+articleTitle: PreferredWidth
+second_title: Aspose.Words لـ .NET
+description: CellFormat PreferredWidth ملكية. إرجاع أو تعيين العرض المفضل للخلية في C#.
 type: docs
-weight: 80
+weight: 70
 url: /ar/net/aspose.words.tables/cellformat/preferredwidth/
 ---
 ## CellFormat.PreferredWidth property
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.tables/cellformat/preferredwidth/
 public PreferredWidth PreferredWidth { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 يحدد العرض المفضل (مع خيار الاحتواء التلقائي للجدول) كيفية حساب عرض الفعلي للخلية بواسطة خوارزمية تخطيط الجدول. يمكن تنفيذ تخطيط الجدول بواسطة Aspose.Words عندما يحفظ المستند أو بواسطة Microsoft Word عندما يعرض المستند.
 
@@ -22,7 +24,7 @@ public PreferredWidth PreferredWidth { get; set; }
 
 القيمة الافتراضية هي[`Auto`](../../preferredwidth/auto/).
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين العرض المفضل لخلايا الجدول.
 
@@ -63,7 +65,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertCellsWithPreferredWidths.docx");
 
 * class [PreferredWidth](../../preferredwidth/)
 * class [CellFormat](../)
-* مساحة الاسم [Aspose.Words.Tables](../../cellformat/)
+* مساحة الاسم [Aspose.Words.Tables](../../../aspose.words.tables/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,12 +1,14 @@
 ---
-title: SdtListItem.SdtListItem
-second_title: Aspose.Words per .NET API Reference
-description: SdtListItem costruttore. Inizializza una nuova istanza di questa classe.
+title: SdtListItem
+linktitle: SdtListItem
+articleTitle: SdtListItem
+second_title: Aspose.Words per .NET
+description: SdtListItem costruttore. Inizializza una nuova istanza di questa classe in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words.markup/sdtlistitem/sdtlistitem/
 ---
-## SdtListItem(string, string) {#constructor_1}
+## SdtListItem(*string, string*) {#constructor_1}
 
 Inizializza una nuova istanza di questa classe.
 
@@ -14,7 +16,7 @@ Inizializza una nuova istanza di questa classe.
 public SdtListItem(string displayText, string value)
 ```
 
-### Esempi
+## Esempi
 
 Mostra come lavorare con i tag dei documenti strutturati con elenco a discesa.
 
@@ -71,12 +73,12 @@ Assert.AreEqual(0, listItems.Count);
 ### Guarda anche
 
 * class [SdtListItem](../)
-* spazio dei nomi [Aspose.Words.Markup](../../sdtlistitem/)
+* spazio dei nomi [Aspose.Words.Markup](../../../aspose.words.markup/)
 * assemblea [Aspose.Words](../../../)
 
 ---
 
-## SdtListItem(string) {#constructor}
+## SdtListItem(*string*) {#constructor}
 
 Inizializza una nuova istanza di questa classe.
 
@@ -84,7 +86,7 @@ Inizializza una nuova istanza di questa classe.
 public SdtListItem(string value)
 ```
 
-### Esempi
+## Esempi
 
 Mostra come lavorare con i tag dei documenti strutturati con elenco a discesa.
 
@@ -141,7 +143,5 @@ Assert.AreEqual(0, listItems.Count);
 ### Guarda anche
 
 * class [SdtListItem](../)
-* spazio dei nomi [Aspose.Words.Markup](../../sdtlistitem/)
+* spazio dei nomi [Aspose.Words.Markup](../../../aspose.words.markup/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FixedPageSaveOptions.OptimizeOutput
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FixedPageSaveOptions propriété. Lindicateur indique sil est nécessaire doptimiser la sortie. Si cet indicateur est défini les canevas imbriqués redondants et les canevas vides sont supprimés également les glyphes voisins avec le même formatage sont concaténés. Remarque  la précision de laffichage du contenu peut être affectée si cette propriété est définie survrai . La valeur par défaut estFAUX .
+linktitle: OptimizeOutput
+articleTitle: OptimizeOutput
+second_title: Aspose.Words pour .NET
+description: FixedPageSaveOptions OptimizeOutput propriété. Lindicateur indique sil est nécessaire doptimiser la sortie. Si cet indicateur est défini les canevas imbriqués redondants et les canevas vides sont supprimés également les glyphes voisins avec le même formatage sont concaténés. Remarque  la précision de laffichage du contenu peut être affectée si cette propriété est définie survrai . La valeur par défaut estFAUX  en C#.
 type: docs
 weight: 50
 url: /fr/net/aspose.words.saving/fixedpagesaveoptions/optimizeoutput/
@@ -14,7 +16,7 @@ L'indicateur indique s'il est nécessaire d'optimiser la sortie. Si cet indicate
 public virtual bool OptimizeOutput { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment optimiser les objets de document lors de l'enregistrement au format XP.
 
@@ -37,7 +39,5 @@ doc.Save(ArtifactsDir + "XpsSaveOptions.OptimizeOutput.xps", saveOptions);
 ### Voir également
 
 * class [FixedPageSaveOptions](../)
-* espace de noms [Aspose.Words.Saving](../../fixedpagesaveoptions/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

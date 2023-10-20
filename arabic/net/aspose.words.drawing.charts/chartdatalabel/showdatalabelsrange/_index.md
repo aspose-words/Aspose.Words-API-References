@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabel.ShowDataLabelsRange
-second_title: Aspose.Words لمراجع .NET API
-description: ChartDataLabel ملكية. يسمح بتحديد ما إذا كانت القيم من تسميات البيانات سيتم عرضها في تسميات البيانات. القيمة الافتراضية هيخطأ شنيع .
+linktitle: ShowDataLabelsRange
+articleTitle: ShowDataLabelsRange
+second_title: Aspose.Words لـ .NET
+description: ChartDataLabel ShowDataLabelsRange ملكية. يسمح بتحديد ما إذا كانت القيم من تسميات البيانات سيتم عرضها في تسميات البيانات. القيمة الافتراضية هيخطأ شنيع  في C#.
 type: docs
 weight: 100
 url: /ar/net/aspose.words.drawing.charts/chartdatalabel/showdatalabelsrange/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing.charts/chartdatalabel/showdatalabelsrange/
 public bool ShowDataLabelsRange { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تطبيق التسميات على نقاط البيانات في مخطط خطي.
 
@@ -92,7 +94,5 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
 ### أنظر أيضا
 
 * class [ChartDataLabel](../)
-* مساحة الاسم [Aspose.Words.Drawing.Charts](../../chartdatalabel/)
+* مساحة الاسم [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../../)
-
-

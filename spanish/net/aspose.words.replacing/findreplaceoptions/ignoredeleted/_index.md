@@ -1,7 +1,9 @@
 ---
 title: FindReplaceOptions.IgnoreDeleted
-second_title: Referencia de API de Aspose.Words para .NET
-description: FindReplaceOptions propiedad. Obtiene o establece un valor booleano que indica que se debe ignorar el texto dentro de las revisiones de eliminación. El valor predeterminado esFALSO .
+linktitle: IgnoreDeleted
+articleTitle: IgnoreDeleted
+second_title: Aspose.Words para .NET
+description: FindReplaceOptions IgnoreDeleted propiedad. Obtiene o establece un valor booleano que indica que se debe ignorar el texto dentro de las revisiones de eliminación. El valor predeterminado esFALSO  en C#.
 type: docs
 weight: 60
 url: /es/net/aspose.words.replacing/findreplaceoptions/ignoredeleted/
@@ -14,7 +16,7 @@ Obtiene o establece un valor booleano que indica que se debe ignorar el texto de
 public bool IgnoreDeleted { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo incluir o ignorar texto dentro de revisiones de eliminación durante una operación de buscar y reemplazar.
 
@@ -53,7 +55,5 @@ Assert.AreEqual(
 ### Ver también
 
 * class [FindReplaceOptions](../)
-* espacio de nombres [Aspose.Words.Replacing](../../findreplaceoptions/)
+* espacio de nombres [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * asamblea [Aspose.Words](../../../)
-
-

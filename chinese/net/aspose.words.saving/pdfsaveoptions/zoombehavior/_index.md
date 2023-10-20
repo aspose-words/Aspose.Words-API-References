@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.ZoomBehavior
-second_title: Aspose.Words for .NET API 参考
-description: PdfSaveOptions 财产. 获取或设置一个值该值确定使用 PDF 查看器打开文档时应应用哪种类型的缩放
+linktitle: ZoomBehavior
+articleTitle: ZoomBehavior
+second_title: 用于 .NET 的 Aspose.Words
+description: PdfSaveOptions ZoomBehavior 财产. 获取或设置一个值该值确定使用 PDF 查看器打开文档时应应用哪种类型的缩放 在 C#.
 type: docs
 weight: 320
 url: /zh/net/aspose.words.saving/pdfsaveoptions/zoombehavior/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.saving/pdfsaveoptions/zoombehavior/
 public PdfZoomBehavior ZoomBehavior { get; set; }
 ```
 
-### 评论
+## 评论
 
 默认值为None ，即不应用拟合。
 
-### 例子
+## 例子
 
 演示如何设置读者在打开渲染的 PDF 文档时应用的默认缩放。
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.ZoomBehaviour.pdf", options);
 
 * enum [PdfZoomBehavior](../../pdfzoombehavior/)
 * class [PdfSaveOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../pdfsaveoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

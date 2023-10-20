@@ -1,7 +1,9 @@
 ---
 title: XmlMapping.CustomXmlPart
-second_title: Aspose.Words for .NET API 参考
-description: XmlMapping 财产. 返回父结构化文档标记映射到的自定义 XML 数据部分
+linktitle: CustomXmlPart
+articleTitle: CustomXmlPart
+second_title: 用于 .NET 的 Aspose.Words
+description: XmlMapping CustomXmlPart 财产. 返回父结构化文档标记映射到的自定义 XML 数据部分 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.markup/xmlmapping/customxmlpart/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.markup/xmlmapping/customxmlpart/
 public CustomXmlPart CustomXmlPart { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何为自定义 XML 部件设置 XML 映射。
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.XmlMapping.docx");
 
 * class [CustomXmlPart](../../customxmlpart/)
 * class [XmlMapping](../)
-* 命名空间 [Aspose.Words.Markup](../../xmlmapping/)
+* 命名空间 [Aspose.Words.Markup](../../../aspose.words.markup/)
 * 部件 [Aspose.Words](../../../)
-
-

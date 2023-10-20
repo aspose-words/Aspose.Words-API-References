@@ -1,7 +1,9 @@
 ---
 title: ListFormat.RemoveNumbers
-second_title: Referencia de API de Aspose.Words para .NET
-description: ListFormat método. Elimina números o viñetas del párrafo actual y establece el nivel de lista en cero.
+linktitle: RemoveNumbers
+articleTitle: RemoveNumbers
+second_title: Aspose.Words para .NET
+description: ListFormat RemoveNumbers método. Elimina números o viñetas del párrafo actual y establece el nivel de lista en cero en C#.
 type: docs
 weight: 90
 url: /es/net/aspose.words.lists/listformat/removenumbers/
@@ -14,11 +16,11 @@ Elimina números o viñetas del párrafo actual y establece el nivel de lista en
 public void RemoveNumbers()
 ```
 
-### Observaciones
+## Observaciones
 
 Llamar a este método equivale a configurar el[`List`](../list/) propiedad a`nulo`.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo eliminar el formato de lista de todos los párrafos del texto principal de una sección.
 
@@ -124,7 +126,5 @@ doc.Save(ArtifactsDir + "Lists.ApplyDefaultBulletsAndNumbers.docx");
 ### Ver también
 
 * class [ListFormat](../)
-* espacio de nombres [Aspose.Words.Lists](../../listformat/)
+* espacio de nombres [Aspose.Words.Lists](../../../aspose.words.lists/)
 * asamblea [Aspose.Words](../../../)
-
-

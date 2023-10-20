@@ -1,7 +1,9 @@
 ---
 title: BorderCollection.DistanceFromText
-second_title: Aspose.Words for .NET API 参考
-description: BorderCollection 财产. 获取或设置文本边框的距离以磅为单位
+linktitle: DistanceFromText
+articleTitle: DistanceFromText
+second_title: 用于 .NET 的 Aspose.Words
+description: BorderCollection DistanceFromText 财产. 获取或设置文本边框的距离以磅为单位 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words/bordercollection/distancefromtext/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/bordercollection/distancefromtext/
 public double DistanceFromText { get; set; }
 ```
 
-### 评论
+## 评论
 
 获取第一个边框距文本的距离。
 
@@ -22,7 +24,7 @@ public double DistanceFromText { get; set; }
 
 没有任何效果，并且表格单元格的边框将自动重置为零。
 
-### 例子
+## 例子
 
 演示如何创建带阴影的绿色波浪页面边框。
 
@@ -42,7 +44,5 @@ doc.Save(ArtifactsDir + "PageSetup.PageBorders.docx");
 ### 也可以看看
 
 * class [BorderCollection](../)
-* 命名空间 [Aspose.Words](../../bordercollection/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

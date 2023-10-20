@@ -1,7 +1,9 @@
 ---
-title: Enum BuildingBlockType
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.BuildingBlocks.BuildingBlockType uppräkning. Anger en byggblockstyp. Typen kan påverka synligheten och beteendet för byggstenen i Microsoft Word.
+title: BuildingBlockType Enum
+linktitle: BuildingBlockType
+articleTitle: BuildingBlockType
+second_title: Aspose.Words för .NET
+description: Aspose.Words.BuildingBlocks.BuildingBlockType uppräkning. Anger en byggblockstyp. Typen kan påverka synligheten och beteendet för byggstenen i Microsoft Word i C#.
 type: docs
 weight: 170
 url: /sv/net/aspose.words.buildingblocks/buildingblocktype/
@@ -28,11 +30,11 @@ public enum BuildingBlockType
 | All | `7` | Byggstenen är associerad med alla typer. |
 | Default | `0` | Spara somNone . |
 
-### Anmärkningar
+## Anmärkningar
 
-Motsvarar **ST_DocPartType** skriv in OOXML.
+Motsvarar**ST_DocPartType** skriv in OOXML.
 
-### Exempel
+## Exempel
 
 Visar hur man lägger till ett anpassat byggblock till ett dokument.
 
@@ -130,5 +132,3 @@ public class BuildingBlockVisitor : DocumentVisitor
 
 * namnutrymme [Aspose.Words.BuildingBlocks](../../aspose.words.buildingblocks/)
 * hopsättning [Aspose.Words](../../)
-
-

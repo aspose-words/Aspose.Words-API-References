@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.Bidi
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ParagraphFormat propriété. Obtient ou définit sil sagit dun paragraphe de droite à gauche.
+linktitle: Bidi
+articleTitle: Bidi
+second_title: Aspose.Words pour .NET
+description: ParagraphFormat Bidi propriété. Obtient ou définit sil sagit dun paragraphe de droite à gauche en C#.
 type: docs
 weight: 50
 url: /fr/net/aspose.words/paragraphformat/bidi/
@@ -14,11 +16,11 @@ Obtient ou définit s'il s'agit d'un paragraphe de droite à gauche.
 public bool Bidi { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 Quand`vrai`, les exécutions et autres objets en ligne dans ce paragraphe sont disposés de droite à gauche.
 
-### Exemples
+## Exemples
 
 Montre comment détecter la direction du texte d'un document en texte brut.
 
@@ -77,7 +79,5 @@ doc.Save(ArtifactsDir + "Field.BIDIOUTLINE.docx");
 ### Voir également
 
 * class [ParagraphFormat](../)
-* espace de noms [Aspose.Words](../../paragraphformat/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Font.AutoColor
-second_title: Aspose.Words per .NET API Reference
-description: Font proprietà. Restituisce il colore calcolato attuale del testo bianco o nero da utilizzare per colore automatico. Se il colore non è auto restituisceColor .
+linktitle: AutoColor
+articleTitle: AutoColor
+second_title: Aspose.Words per .NET
+description: Font AutoColor proprietà. Restituisce il colore calcolato attuale del testo bianco o nero da utilizzare per colore automatico. Se il colore non è auto restituisceColor  in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words/font/autocolor/
@@ -14,11 +16,11 @@ Restituisce il colore calcolato attuale del testo (bianco o nero) da utilizzare 
 public Color AutoColor { get; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Quando il testo ha il "colore automatico", il colore effettivo del testo viene calcolato automaticamente in modo che sia leggibile rispetto al colore di sfondo. Quando cambi il colore di sfondo, il colore del testo cambierà automaticamente in bianco o nero in MS Word per massimizzare la leggibilità.
 
-### Esempi
+## Esempi
 
 Mostra come migliorare la leggibilità selezionando automaticamente il colore del testo in base alla luminosità dello sfondo.
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "Font.SetFontAutoColor.docx");
 ### Guarda anche
 
 * class [Font](../)
-* spazio dei nomi [Aspose.Words](../../font/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

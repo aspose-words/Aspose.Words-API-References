@@ -1,7 +1,9 @@
 ---
 title: ImageSize.WidthPoints
-second_title: Aspose.Words لمراجع .NET API
-description: ImageSize ملكية. الحصول على عرض الصورة بالنقاط. النقطة الواحدة هي 1/72 بوصة.
+linktitle: WidthPoints
+articleTitle: WidthPoints
+second_title: Aspose.Words لـ .NET
+description: ImageSize WidthPoints ملكية. الحصول على عرض الصورة بالنقاط. النقطة الواحدة هي 1/72 بوصة في C#.
 type: docs
 weight: 70
 url: /ar/net/aspose.words.drawing/imagesize/widthpoints/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing/imagesize/widthpoints/
 public double WidthPoints { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تغيير حجم الشكل باستخدام الصورة.
 
@@ -71,7 +73,5 @@ public double WidthPoints { get; }
 ### أنظر أيضا
 
 * class [ImageSize](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../imagesize/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

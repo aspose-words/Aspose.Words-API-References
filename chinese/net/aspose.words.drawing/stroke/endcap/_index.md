@@ -1,9 +1,11 @@
 ---
 title: Stroke.EndCap
-second_title: Aspose.Words for .NET API 参考
-description: Stroke 财产. 定义笔画末端的端盖样式
+linktitle: EndCap
+articleTitle: EndCap
+second_title: 用于 .NET 的 Aspose.Words
+description: Stroke EndCap 财产. 定义笔画末端的端盖样式 在 C#.
 type: docs
-weight: 90
+weight: 80
 url: /zh/net/aspose.words.drawing/stroke/endcap/
 ---
 ## Stroke.EndCap property
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.drawing/stroke/endcap/
 public EndCap EndCap { get; set; }
 ```
 
-### 评论
+## 评论
 
 默认值为Flat。
 
-### 例子
+## 例子
 
 展示创造出各种形状。
 
@@ -94,7 +96,5 @@ doc.Save(ArtifactsDir + "Drawing.VariousShapes.docx");
 
 * enum [EndCap](../../endcap/)
 * class [Stroke](../)
-* 命名空间 [Aspose.Words.Drawing](../../stroke/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

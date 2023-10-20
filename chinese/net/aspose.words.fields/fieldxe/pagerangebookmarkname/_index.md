@@ -1,7 +1,9 @@
 ---
 title: FieldXE.PageRangeBookmarkName
-second_title: Aspose.Words for .NET API 参考
-description: FieldXE 财产. 获取或设置书签的名称该书签标记作为条目页码插入的页面范围
+linktitle: PageRangeBookmarkName
+articleTitle: PageRangeBookmarkName
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldXE PageRangeBookmarkName 财产. 获取或设置书签的名称该书签标记作为条目页码插入的页面范围 在 C#.
 type: docs
 weight: 60
 url: /zh/net/aspose.words.fields/fieldxe/pagerangebookmarkname/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fieldxe/pagerangebookmarkname/
 public string PageRangeBookmarkName { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何将书签的跨页指定为 INDEX 字段条目的页面范围。
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "Field.INDEX.XE.PageRangeBookmark.docx");
 ### 也可以看看
 
 * class [FieldXE](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldxe/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

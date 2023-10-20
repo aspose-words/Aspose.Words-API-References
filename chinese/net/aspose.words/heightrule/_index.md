@@ -1,7 +1,9 @@
 ---
-title: Enum HeightRule
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.HeightRule 枚举. 指定确定对象高度的规则
+title: HeightRule Enum
+linktitle: HeightRule
+articleTitle: HeightRule
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.HeightRule 枚举. 指定确定对象高度的规则 在 C#.
 type: docs
 weight: 3130
 url: /zh/net/aspose.words/heightrule/
@@ -22,7 +24,7 @@ public enum HeightRule
 | Exactly | `1` | 高度以磅为单位精确指定。请注意，如果文本无法 放入此高度的对象内，它将显示为被截断。 |
 | Auto | `2` | 高度将自动增长以容纳对象内的所有文本。 |
 
-### 例子
+## 例子
 
 演示如何使用文档生成器设置行格式。
 
@@ -60,5 +62,3 @@ doc.Save(ArtifactsDir + "DocumentBuilder.SetRowFormatting.docx");
 
 * 命名空间 [Aspose.Words](../../aspose.words/)
 * 部件 [Aspose.Words](../../)
-
-

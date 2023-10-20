@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.DownsampleOptions
-second_title: Aspose.Words لمراجع .NET API
-description: PdfSaveOptions ملكية. يسمح بتحديد خيارات الاختزال.
+linktitle: DownsampleOptions
+articleTitle: DownsampleOptions
+second_title: Aspose.Words لـ .NET
+description: PdfSaveOptions DownsampleOptions ملكية. يسمح بتحديد خيارات الاختزال في C#.
 type: docs
 weight: 100
 url: /ar/net/aspose.words.saving/pdfsaveoptions/downsampleoptions/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.saving/pdfsaveoptions/downsampleoptions/
 public DownsampleOptions DownsampleOptions { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تغيير دقة الصور في مستند PDF.
 
@@ -47,7 +49,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.DownsampleOptions.LowerResolution.pdf", 
 
 * class [DownsampleOptions](../../downsampleoptions/)
 * class [PdfSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../pdfsaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

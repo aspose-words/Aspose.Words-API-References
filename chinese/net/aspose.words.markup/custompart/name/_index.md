@@ -1,7 +1,9 @@
 ---
 title: CustomPart.Name
-second_title: Aspose.Words for .NET API 参考
-description: CustomPart 财产. 获取或设置该部分在 OOXML 包或目标 URL 中的绝对名称
+linktitle: Name
+articleTitle: Name
+second_title: 用于 .NET 的 Aspose.Words
+description: CustomPart Name 财产. 获取或设置该部分在 OOXML 包或目标 URL 中的绝对名称 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words.markup/custompart/name/
@@ -14,13 +16,13 @@ url: /zh/net/aspose.words.markup/custompart/name/
 public string Name { get; set; }
 ```
 
-### 评论
+## 评论
 
 如果关系目标是内部的，则此属性是包内的绝对部分名称。 如果关系目标是外部的，则此属性是目标 URL。
 
 默认值为空字符串。有效值必须是非空字符串。
 
-### 例子
+## 例子
 
 演示如何访问文档的任意自定义部件集合。
 
@@ -64,7 +66,5 @@ Assert.AreEqual(0, doc.PackageCustomParts.Count);
 ### 也可以看看
 
 * class [CustomPart](../)
-* 命名空间 [Aspose.Words.Markup](../../custompart/)
+* 命名空间 [Aspose.Words.Markup](../../../aspose.words.markup/)
 * 部件 [Aspose.Words](../../../)
-
-

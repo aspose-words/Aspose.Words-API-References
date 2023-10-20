@@ -1,7 +1,9 @@
 ---
 title: PageSetup.SheetsPerBooklet
-second_title: Aspose.Words für .NET-API-Referenz
-description: PageSetup eigendom. Gibt die Anzahl der Seiten zurück die in jede Broschüre aufgenommen werden sollen oder legt sie fest.
+linktitle: SheetsPerBooklet
+articleTitle: SheetsPerBooklet
+second_title: Aspose.Words für .NET
+description: PageSetup SheetsPerBooklet eigendom. Gibt die Anzahl der Seiten zurück die in jede Broschüre aufgenommen werden sollen oder legt sie fest in C#.
 type: docs
 weight: 400
 url: /de/net/aspose.words/pagesetup/sheetsperbooklet/
@@ -14,7 +16,7 @@ Gibt die Anzahl der Seiten zurück, die in jede Broschüre aufgenommen werden so
 public int SheetsPerBooklet { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Dokument konfiguriert wird, das als Buchfalte gedruckt werden kann.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "PageSetup.Booklet.docx");
 ### Siehe auch
 
 * class [PageSetup](../)
-* namensraum [Aspose.Words](../../pagesetup/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

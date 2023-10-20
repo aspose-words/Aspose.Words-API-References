@@ -1,7 +1,9 @@
 ---
-title: Class FontConfigSubstitutionRule
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Fonts.FontConfigSubstitutionRule 班级. 字体配置替换规则
+title: FontConfigSubstitutionRule Class
+linktitle: FontConfigSubstitutionRule
+articleTitle: FontConfigSubstitutionRule
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Fonts.FontConfigSubstitutionRule 班级. 字体配置替换规则 在 C#.
 type: docs
 weight: 2890
 url: /zh/net/aspose.words.fonts/fontconfigsubstitutionrule/
@@ -29,13 +31,13 @@ public class FontConfigSubstitutionRule : FontSubstitutionRule
 | [IsFontConfigAvailable](../../aspose.words.fonts/fontconfigsubstitutionrule/isfontconfigavailable/)() | 检查 fontconfig 实用程序是否可用。 |
 | [ResetCache](../../aspose.words.fonts/fontconfigsubstitutionrule/resetcache/)() | 重置 fontconfig 调用结果的缓存。 |
 
-### 评论
+## 评论
 
 如果原始字体不可用，则此规则使用 Linux（和其他类 Unix）平台上的 fontconfig 实用程序来获取替换 。
 
 如果 fontconfig 实用程序不可用，则此规则将被忽略。
 
-### 例子
+## 例子
 
 显示与操作系统相关的字体配置替换。
 
@@ -73,5 +75,3 @@ if (isLinuxOrMac)
 * class [FontSubstitutionRule](../fontsubstitutionrule/)
 * 命名空间 [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * 部件 [Aspose.Words](../../)
-
-

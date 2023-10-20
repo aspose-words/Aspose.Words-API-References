@@ -1,7 +1,9 @@
 ---
 title: FieldStyleRef.StyleName
-second_title: Aspose.Words för .NET API Referens
-description: FieldStyleRef fast egendom. Hämtar eller ställer in namnet på stilen som texten som ska sökas efter formateras.
+linktitle: StyleName
+articleTitle: StyleName
+second_title: Aspose.Words för .NET
+description: FieldStyleRef StyleName fast egendom. Hämtar eller ställer in namnet på stilen som texten som ska sökas efter formateras i C#.
 type: docs
 weight: 70
 url: /sv/net/aspose.words.fields/fieldstyleref/stylename/
@@ -14,7 +16,7 @@ Hämtar eller ställer in namnet på stilen som texten som ska sökas efter form
 public string StyleName { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man använder STYLEREF-fält.
 
@@ -85,7 +87,5 @@ doc.Save(ArtifactsDir + "Field.STYLEREF.docx");
 ### Se även
 
 * class [FieldStyleRef](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldstyleref/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

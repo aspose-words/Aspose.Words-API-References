@@ -1,9 +1,11 @@
 ---
 title: StructuredDocumentTag.SetUncheckedSymbol
-second_title: Aspose.Words for .NET API 参考
-description: StructuredDocumentTag 方法. 设置用于表示复选框内容控件的未选中状态的符号
+linktitle: SetUncheckedSymbol
+articleTitle: SetUncheckedSymbol
+second_title: 用于 .NET 的 Aspose.Words
+description: StructuredDocumentTag SetUncheckedSymbol 方法. 设置用于表示复选框内容控件的未选中状态的符号 在 C#.
 type: docs
-weight: 390
+weight: 370
 url: /zh/net/aspose.words.markup/structureddocumenttag/setuncheckedsymbol/
 ---
 ## StructuredDocumentTag.SetUncheckedSymbol method
@@ -19,13 +21,13 @@ public void SetUncheckedSymbol(int characterCode, string fontName)
 | characterCode | Int32 | 指定符号的字符代码。 |
 | fontName | String | 包含符号的字体名称。 |
 
-### 评论
+## 评论
 
 访问此方法仅适用于CheckboxSDT 类型。
 
 对于所有其他 SDT 类型，都会发生异常。
 
-### 例子
+## 例子
 
 展示如何以复选框的形式创建结构化文档标签。
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.CheckBox.docx");
 ### 也可以看看
 
 * class [StructuredDocumentTag](../)
-* 命名空间 [Aspose.Words.Markup](../../structureddocumenttag/)
+* 命名空间 [Aspose.Words.Markup](../../../aspose.words.markup/)
 * 部件 [Aspose.Words](../../../)
-
-

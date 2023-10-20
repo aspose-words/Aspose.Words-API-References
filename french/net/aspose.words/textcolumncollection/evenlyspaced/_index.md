@@ -1,7 +1,9 @@
 ---
 title: TextColumnCollection.EvenlySpaced
-second_title: Référence de l'API Aspose.Words pour .NET
-description: TextColumnCollection propriété. Vrai si les colonnes de texte sont de largeur égale et régulièrement espacées.
+linktitle: EvenlySpaced
+articleTitle: EvenlySpaced
+second_title: Aspose.Words pour .NET
+description: TextColumnCollection EvenlySpaced propriété. Vrai si les colonnes de texte sont de largeur égale et régulièrement espacées en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words/textcolumncollection/evenlyspaced/
@@ -14,7 +16,7 @@ Vrai si les colonnes de texte sont de largeur égale et régulièrement espacée
 public bool EvenlySpaced { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment créer des colonnes inégalement espacées.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "PageSetup.CustomColumnWidth.docx");
 ### Voir également
 
 * class [TextColumnCollection](../)
-* espace de noms [Aspose.Words](../../textcolumncollection/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

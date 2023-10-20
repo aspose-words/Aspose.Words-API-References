@@ -1,7 +1,9 @@
 ---
 title: Chart.AxisZ
-second_title: Aspose.Words لمراجع .NET API
-description: Chart ملكية. يوفر الوصول إلى خصائص المحور Z للمخطط.
+linktitle: AxisZ
+articleTitle: AxisZ
+second_title: Aspose.Words لـ .NET
+description: Chart AxisZ ملكية. يوفر الوصول إلى خصائص المحور Z للمخطط في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.drawing.charts/chart/axisz/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing.charts/chart/axisz/
 public ChartAxis AxisZ { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج مخطط وتعديل مظهر محاوره.
 
@@ -68,7 +70,5 @@ doc.Save(ArtifactsDir + "Charts.AxisProperties.docx");
 
 * class [ChartAxis](../../chartaxis/)
 * class [Chart](../)
-* مساحة الاسم [Aspose.Words.Drawing.Charts](../../chart/)
+* مساحة الاسم [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../../)
-
-

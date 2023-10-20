@@ -1,7 +1,9 @@
 ---
-title: Class Bookmark
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Bookmark classe. Rappresenta un singolo segnalibro.
+title: Bookmark Class
+linktitle: Bookmark
+articleTitle: Bookmark
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Bookmark classe. Rappresenta un singolo segnalibro in C#.
 type: docs
 weight: 40
 url: /it/net/aspose.words/bookmark/
@@ -34,11 +36,11 @@ public class Bookmark
 | --- | --- |
 | [Remove](../../aspose.words/bookmark/remove/)() | Rimuove il segnalibro dal documento. Non rimuove il testo all'interno del segnalibro. |
 
-### Osservazioni
+## Osservazioni
 
 `Bookmark` è un oggetto "facciata" che incapsula due nodi[`BookmarkStart`](./bookmarkstart/) e[`BookmarkEnd`](./bookmarkend/) in un albero del documento e consente di lavorare con un segnalibro come un singolo oggetto.
 
-### Esempi
+## Esempi
 
 Mostra come aggiungere segnalibri e aggiornarne i contenuti.
 
@@ -128,5 +130,3 @@ public class BookmarkInfoPrinter : DocumentVisitor
 
 * spazio dei nomi [Aspose.Words](../../aspose.words/)
 * assemblea [Aspose.Words](../../)
-
-

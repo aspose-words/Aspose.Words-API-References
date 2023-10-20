@@ -1,7 +1,9 @@
 ---
-title: Class ImageSaveOptions
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Saving.ImageSaveOptions 班级. 允许在将文档页面或形状渲染为图像时指定其他选项
+title: ImageSaveOptions Class
+linktitle: ImageSaveOptions
+articleTitle: ImageSaveOptions
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Saving.ImageSaveOptions 班级. 允许在将文档页面或形状渲染为图像时指定其他选项 在 C#.
 type: docs
 weight: 5230
 url: /zh/net/aspose.words.saving/imagesaveoptions/
@@ -20,7 +22,7 @@ public class ImageSaveOptions : FixedPageSaveOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ImageSaveOptions](imagesaveoptions/)(SaveFormat) | 初始化此类的一个新实例，可用于将渲染图像保存在 中Tiff,Png,Bmp, Jpeg,Emf,Eps 或Svg格式. |
+| [ImageSaveOptions](imagesaveoptions/)(*[SaveFormat](../../aspose.words/saveformat/)*) | 初始化此类的一个新实例，可用于将渲染图像保存在 中Tiff,Png,Bmp, Jpeg,Emf,Eps 或Svg格式. |
 
 ## 特性
 
@@ -29,7 +31,7 @@ public class ImageSaveOptions : FixedPageSaveOptions
 | [AllowEmbeddingPostScriptFonts](../../aspose.words.saving/saveoptions/allowembeddingpostscriptfonts/) { get; set; } | 获取或设置一个布尔值，指示在保存的文档中嵌入 TrueType 字体时是否允许使用 PostScript 轮廓嵌入字体。 默认值为`错误的`. |
 | [ColorMode](../../aspose.words.saving/fixedpagesaveoptions/colormode/) { get; set; } | 获取或设置一个确定颜色呈现方式的值。 |
 | [CustomTimeZoneInfo](../../aspose.words.saving/saveoptions/customtimezoneinfo/) { get; set; } | 获取或设置用于日期/时间字段的自定义本地时区。 |
-| [DefaultTemplate](../../aspose.words.saving/saveoptions/defaulttemplate/) { get; set; } | 获取或设置默认模板的路径（包括文件名）。 此属性的默认值为 **空字符串**（Empty). |
+| [DefaultTemplate](../../aspose.words.saving/saveoptions/defaulttemplate/) { get; set; } | 获取或设置默认模板的路径（包括文件名）。 此属性的默认值为**空字符串**（Empty). |
 | [Dml3DEffectsRenderingMode](../../aspose.words.saving/saveoptions/dml3deffectsrenderingmode/) { get; set; } | 获取或设置一个确定如何渲染 3D 效果的值。 |
 | virtual [DmlEffectsRenderingMode](../../aspose.words.saving/saveoptions/dmleffectsrenderingmode/) { get; set; } | 获取或设置一个值，确定如何呈现 DrawingML 效果。 |
 | [DmlRenderingMode](../../aspose.words.saving/saveoptions/dmlrenderingmode/) { get; set; } | 获取或设置一个值，确定如何呈现 DrawingML 形状。 |
@@ -73,9 +75,9 @@ public class ImageSaveOptions : FixedPageSaveOptions
 | 姓名 | 描述 |
 | --- | --- |
 | [Clone](../../aspose.words.saving/imagesaveoptions/clone/)() | 创建此对象的深度克隆。 |
-| override [Equals](../../aspose.words.saving/fixedpagesaveoptions/equals/)(object) | 确定指定对象的值是否等于当前对象。 |
+| override [Equals](../../aspose.words.saving/fixedpagesaveoptions/equals/)(*object*) | 确定指定对象的值是否等于当前对象。 |
 
-### 例子
+## 例子
 
 将Word文档的页面渲染为具有透明或彩色背景的图像。
 
@@ -195,5 +197,3 @@ Document doc = new Document();
 * class [FixedPageSaveOptions](../fixedpagesaveoptions/)
 * 命名空间 [Aspose.Words.Saving](../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../)
-
-

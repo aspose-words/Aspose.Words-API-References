@@ -1,7 +1,9 @@
 ---
 title: FieldDdeAuto.InsertAsPicture
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldDdeAuto propriété. Obtient ou définit sil faut insérer lobjet lié en tant quimage.
+linktitle: InsertAsPicture
+articleTitle: InsertAsPicture
+second_title: Aspose.Words pour .NET
+description: FieldDdeAuto InsertAsPicture propriété. Obtient ou définit sil faut insérer lobjet lié en tant quimage en C#.
 type: docs
 weight: 40
 url: /fr/net/aspose.words.fields/fieldddeauto/insertaspicture/
@@ -14,7 +16,7 @@ Obtient ou définit s'il faut insérer l'objet lié en tant qu'image.
 public bool InsertAsPicture { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment utiliser différents types de champs pour créer des liens vers d’autres documents dans le système de fichiers local et afficher leur contenu.
 
@@ -197,7 +199,5 @@ public enum InsertLinkedObjectAs
 ### Voir également
 
 * class [FieldDdeAuto](../)
-* espace de noms [Aspose.Words.Fields](../../fieldddeauto/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

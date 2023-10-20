@@ -1,9 +1,11 @@
 ---
 title: CellFormat.Shading
-second_title: Aspose.Words per .NET API Reference
-description: CellFormat proprietà. Restituisce aShading oggetto che fa riferimento alla formattazione dellombreggiatura per la cella.
+linktitle: Shading
+articleTitle: Shading
+second_title: Aspose.Words per .NET
+description: CellFormat Shading proprietà. Restituisce aShading oggetto che fa riferimento alla formattazione dellombreggiatura per la cella in C#.
 type: docs
-weight: 100
+weight: 90
 url: /it/net/aspose.words.tables/cellformat/shading/
 ---
 ## CellFormat.Shading property
@@ -14,7 +16,7 @@ Restituisce a[`Shading`](../../../aspose.words/shading/) oggetto che fa riferime
 public Shading Shading { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come modificare il formato di righe e celle in una tabella.
 
@@ -113,7 +115,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
 
 * class [Shading](../../../aspose.words/shading/)
 * class [CellFormat](../)
-* spazio dei nomi [Aspose.Words.Tables](../../cellformat/)
+* spazio dei nomi [Aspose.Words.Tables](../../../aspose.words.tables/)
 * assemblea [Aspose.Words](../../../)
-
-

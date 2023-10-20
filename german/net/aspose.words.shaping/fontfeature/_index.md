@@ -1,7 +1,9 @@
 ---
-title: Enum FontFeature
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Shaping.FontFeature opsomming. Funktionen bieten Informationen darüber wie Glyphen in einer Schriftart zum Rendern eines Skripts verwendet werden. https//docs.microsoft.com/enus/typography/opentype/spec/featuretags
+title: FontFeature Enum
+linktitle: FontFeature
+articleTitle: FontFeature
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Shaping.FontFeature opsomming. Funktionen bieten Informationen darüber wie Glyphen in einer Schriftart zum Rendern eines Skripts verwendet werden. https//docs.microsoft.com/enus/typography/opentype/spec/featuretags in C#.
 type: docs
 weight: 6030
 url: /de/net/aspose.words.shaping/fontfeature/
@@ -56,5 +58,3 @@ public enum FontFeature
 
 * namensraum [Aspose.Words.Shaping](../../aspose.words.shaping/)
 * Montage [Aspose.Words](../../)
-
-

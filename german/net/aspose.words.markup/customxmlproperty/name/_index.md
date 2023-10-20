@@ -1,7 +1,9 @@
 ---
 title: CustomXmlProperty.Name
-second_title: Aspose.Words für .NET-API-Referenz
-description: CustomXmlProperty eigendom. Gibt den Namen des benutzerdefinierten XMLAttributs oder der SmartTagEigenschaft an.
+linktitle: Name
+articleTitle: Name
+second_title: Aspose.Words für .NET
+description: CustomXmlProperty Name eigendom. Gibt den Namen des benutzerdefinierten XMLAttributs oder der SmartTagEigenschaft an in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.markup/customxmlproperty/name/
@@ -14,13 +16,13 @@ Gibt den Namen des benutzerdefinierten XML-Attributs oder der Smart-Tag-Eigensch
 public string Name { get; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Kann nicht sein`Null`.
 
 Der Standardwert ist eine leere Zeichenfolge.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man Smarttags erstellt.
 
@@ -121,7 +123,5 @@ private class SmartTagPrinter : DocumentVisitor
 ### Siehe auch
 
 * class [CustomXmlProperty](../)
-* namensraum [Aspose.Words.Markup](../../customxmlproperty/)
+* namensraum [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Montage [Aspose.Words](../../../)
-
-

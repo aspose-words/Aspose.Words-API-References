@@ -1,7 +1,9 @@
 ---
 title: PageSetup.SheetsPerBooklet
-second_title: Aspose.Words for .NET API 参考
-description: PageSetup 财产. 返回或设置每本小册子中要包含的页数
+linktitle: SheetsPerBooklet
+articleTitle: SheetsPerBooklet
+second_title: 用于 .NET 的 Aspose.Words
+description: PageSetup SheetsPerBooklet 财产. 返回或设置每本小册子中要包含的页数 在 C#.
 type: docs
 weight: 400
 url: /zh/net/aspose.words/pagesetup/sheetsperbooklet/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/pagesetup/sheetsperbooklet/
 public int SheetsPerBooklet { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何配置可打印为书本折叠的文档。
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "PageSetup.Booklet.docx");
 ### 也可以看看
 
 * class [PageSetup](../)
-* 命名空间 [Aspose.Words](../../pagesetup/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

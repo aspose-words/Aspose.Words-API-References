@@ -1,9 +1,11 @@
 ---
 title: StructuredDocumentTag.RemoveSelfOnly
-second_title: Aspose.Words لمراجع .NET API
-description: StructuredDocumentTag طريقة. إزالة عقدة SDT نفسها فقط مع الاحتفاظ بمحتواها داخل شجرة المستندات.
+linktitle: RemoveSelfOnly
+articleTitle: RemoveSelfOnly
+second_title: Aspose.Words لـ .NET
+description: StructuredDocumentTag RemoveSelfOnly طريقة. إزالة عقدة SDT نفسها فقط مع الاحتفاظ بمحتواها داخل شجرة المستندات في C#.
 type: docs
-weight: 370
+weight: 350
 url: /ar/net/aspose.words.markup/structureddocumenttag/removeselfonly/
 ---
 ## StructuredDocumentTag.RemoveSelfOnly method
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.markup/structureddocumenttag/removeselfonly/
 public void RemoveSelfOnly()
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء علامة مستند منظمة في مربع نص عادي وتعديل مظهرها.
 
@@ -71,7 +73,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.PlainText.docx");
 ### أنظر أيضا
 
 * class [StructuredDocumentTag](../)
-* مساحة الاسم [Aspose.Words.Markup](../../structureddocumenttag/)
+* مساحة الاسم [Aspose.Words.Markup](../../../aspose.words.markup/)
 * المجسم [Aspose.Words](../../../)
-
-

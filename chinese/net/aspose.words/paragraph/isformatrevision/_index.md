@@ -1,7 +1,9 @@
 ---
 title: Paragraph.IsFormatRevision
-second_title: Aspose.Words for .NET API 参考
-description: Paragraph 财产. 如果在启用更改跟踪的情况下在 Microsoft Word 中更改了对象的格式则返回 true
+linktitle: IsFormatRevision
+articleTitle: IsFormatRevision
+second_title: 用于 .NET 的 Aspose.Words
+description: Paragraph IsFormatRevision 财产. 如果在启用更改跟踪的情况下在 Microsoft Word 中更改了对象的格式则返回 true 在 C#.
 type: docs
 weight: 90
 url: /zh/net/aspose.words/paragraph/isformatrevision/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/paragraph/isformatrevision/
 public bool IsFormatRevision { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何检查段落是否是格式修订版。
 
@@ -29,7 +31,5 @@ Assert.True(doc.FirstSection.Body.FirstParagraph.IsFormatRevision);
 ### 也可以看看
 
 * class [Paragraph](../)
-* 命名空间 [Aspose.Words](../../paragraph/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

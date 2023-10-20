@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.IsAtStartOfParagraph
-second_title: Aspose.Words för .NET API Referens
-description: DocumentBuilder fast egendom. ReturnerarSann om markören är i början av det aktuella stycket ingen text före markören.
+linktitle: IsAtStartOfParagraph
+articleTitle: IsAtStartOfParagraph
+second_title: Aspose.Words för .NET
+description: DocumentBuilder IsAtStartOfParagraph fast egendom. ReturnerarSann om markören är i början av det aktuella stycket ingen text före markören i C#.
 type: docs
 weight: 130
 url: /sv/net/aspose.words/documentbuilder/isatstartofparagraph/
@@ -14,7 +16,7 @@ Returnerar`Sann` om markören är i början av det aktuella stycket (ingen text 
 public bool IsAtStartOfParagraph { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man flyttar en dokumentbyggares markör till olika noder i ett dokument.
 
@@ -68,7 +70,5 @@ Assert.IsTrue(builder.IsAtStartOfParagraph);
 ### Se även
 
 * class [DocumentBuilder](../)
-* namnutrymme [Aspose.Words](../../documentbuilder/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

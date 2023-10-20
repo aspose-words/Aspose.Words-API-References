@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.ZOrder
-second_title: Referencia de API de Aspose.Words para .NET
-description: ShapeBase propiedad. Determina el orden de visualización de las formas superpuestas.
+linktitle: ZOrder
+articleTitle: ZOrder
+second_title: Aspose.Words para .NET
+description: ShapeBase ZOrder propiedad. Determina el orden de visualización de las formas superpuestas en C#.
 type: docs
 weight: 610
 url: /es/net/aspose.words.drawing/shapebase/zorder/
@@ -14,7 +16,7 @@ Determina el orden de visualización de las formas superpuestas.
 public int ZOrder { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 Tiene efecto sólo para formas de nivel superior.
 
@@ -26,7 +28,7 @@ El orden de las formas superpuestas es independiente para las formas en el encab
 
 El orden de visualización de las formas secundarias en una forma de grupo está determinado por su orden dentro de la forma de grupo.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo manipular el orden de las formas.
 
@@ -68,7 +70,5 @@ doc.Save(ArtifactsDir + "Shape.ZOrder.docx");
 ### Ver también
 
 * class [ShapeBase](../)
-* espacio de nombres [Aspose.Words.Drawing](../../shapebase/)
+* espacio de nombres [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * asamblea [Aspose.Words](../../../)
-
-

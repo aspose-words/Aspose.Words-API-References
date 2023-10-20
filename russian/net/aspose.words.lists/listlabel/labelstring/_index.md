@@ -1,7 +1,9 @@
 ---
 title: ListLabel.LabelString
-second_title: Справочник по API Aspose.Words для .NET
-description: ListLabel свойство. Получает строковое представление метки списка.
+linktitle: LabelString
+articleTitle: LabelString
+second_title: Aspose.Words для .NET
+description: ListLabel LabelString свойство. Получает строковое представление метки списка на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.lists/listlabel/labelstring/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.lists/listlabel/labelstring/
 public string LabelString { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как извлечь метки списка всех абзацев, которые являются элементами списка.
 
@@ -49,7 +51,5 @@ foreach (Paragraph paragraph in paras.OfType<Paragraph>().Where(p => p.ListForma
 ### Смотрите также
 
 * class [ListLabel](../)
-* пространство имен [Aspose.Words.Lists](../../listlabel/)
+* пространство имен [Aspose.Words.Lists](../../../aspose.words.lists/)
 * сборка [Aspose.Words](../../../)
-
-

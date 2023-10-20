@@ -1,7 +1,9 @@
 ---
-title: VbaProject.VbaProject
-second_title: Aspose.Words per .NET API Reference
-description: VbaProject costruttore. Crea uno spazio vuotoVbaProject .
+title: VbaProject
+linktitle: VbaProject
+articleTitle: VbaProject
+second_title: Aspose.Words per .NET
+description: VbaProject costruttore. Crea uno spazio vuotoVbaProject  in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words.vba/vbaproject/vbaproject/
@@ -14,7 +16,7 @@ Crea uno spazio vuoto[`VbaProject`](../) .
 public VbaProject()
 ```
 
-### Esempi
+## Esempi
 
 Mostra come creare un progetto VBA utilizzando le macro.
 
@@ -41,7 +43,5 @@ doc.Save(ArtifactsDir + "VbaProject.CreateVBAMacros.docm");
 ### Guarda anche
 
 * class [VbaProject](../)
-* spazio dei nomi [Aspose.Words.Vba](../../vbaproject/)
+* spazio dei nomi [Aspose.Words.Vba](../../../aspose.words.vba/)
 * assemblea [Aspose.Words](../../../)
-
-

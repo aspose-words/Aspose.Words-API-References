@@ -1,7 +1,9 @@
 ---
-title: Enum ShadowType
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Drawing.ShadowType 枚举. 指定形状阴影的类型
+title: ShadowType Enum
+linktitle: ShadowType
+articleTitle: ShadowType
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Drawing.ShadowType 枚举. 指定形状阴影的类型 在 C#.
 type: docs
 weight: 1240
 url: /zh/net/aspose.words.drawing/shadowtype/
@@ -63,11 +65,11 @@ public enum ShadowType
 | Shadow8 | `8` | 第八种影子类型. |
 | Shadow9 | `9` | 第九种影子类型. |
 
-### 评论
+## 评论
 
 ShadowType 不是一个简单的属性，而是一个预设，可同时设置形成 阴影外观的多个属性。
 
-### 例子
+## 例子
 
 展示如何使用形状的阴影格式。
 
@@ -86,5 +88,3 @@ if (shape.ShadowFormat.Type == ShadowType.ShadowMixed)
 
 * 命名空间 [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: FieldShape.FieldShape
-second_title: Aspose.Words för .NET API Referens
-description: FieldShape byggare. Default_Constructor
+title: FieldShape
+linktitle: FieldShape
+articleTitle: FieldShape
+second_title: Aspose.Words för .NET
+description: FieldShape byggare. Default_Constructor i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.fields/fieldshape/fieldshape/
@@ -17,7 +19,5 @@ public FieldShape()
 ### Se även
 
 * class [FieldShape](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldshape/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class ChartSeries
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Drawing.Charts.ChartSeries فصل. يمثل خصائص سلسلة المخططات.
+title: ChartSeries Class
+linktitle: ChartSeries
+articleTitle: ChartSeries
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Drawing.Charts.ChartSeries فصل. يمثل خصائص سلسلة المخططات في C#.
 type: docs
 weight: 780
 url: /ar/net/aspose.words.drawing.charts/chartseries/
@@ -40,18 +42,17 @@ public class ChartSeries : IChartDataPoint
 
 | اسم | وصف |
 | --- | --- |
-| [Add](../../aspose.words.drawing.charts/chartseries/add/#add)(ChartXValue) | إضافة قيمة X المحددة إلى سلسلة المخططات. إذا كانت السلسلة تدعم قيم Y وأحجام الفقاعات، فستكون فارغة للقيمة X. |
-| [Add](../../aspose.words.drawing.charts/chartseries/add/#add_1)(ChartXValue, ChartYValue) | إضافة قيم X وY المحددة إلى سلسلة المخططات. |
-| [Add](../../aspose.words.drawing.charts/chartseries/add/#add_2)(ChartXValue, ChartYValue, double) | إضافة قيمة X وقيمة Y وحجم الفقاعة المحددة إلى سلسلة المخطط. |
+| [Add](../../aspose.words.drawing.charts/chartseries/add/#add)(*[ChartXValue](../chartxvalue/)*) | إضافة قيمة X المحددة إلى سلسلة المخططات. إذا كانت السلسلة تدعم قيم Y وأحجام الفقاعات، فستكون فارغة للقيمة X. |
+| [Add](../../aspose.words.drawing.charts/chartseries/add/#add_1)(*[ChartXValue](../chartxvalue/), [ChartYValue](../chartyvalue/)*) | إضافة قيم X وY المحددة إلى سلسلة المخططات. |
+| [Add](../../aspose.words.drawing.charts/chartseries/add/#add_2)(*[ChartXValue](../chartxvalue/), [ChartYValue](../chartyvalue/), double*) | إضافة قيمة X وقيمة Y وحجم الفقاعة المحددة إلى سلسلة المخطط. |
 | [Clear](../../aspose.words.drawing.charts/chartseries/clear/)() | إزالة كافة قيم البيانات من سلسلة المخططات. تم مسح تنسيق جميع نقاط البيانات الفردية وتسميات البيانات. |
 | [ClearValues](../../aspose.words.drawing.charts/chartseries/clearvalues/)() | إزالة كافة قيم البيانات من سلسلة المخططات مع الحفاظ على تنسيق نقاط البيانات وتسميات البيانات. |
-| [CopyFormatFrom](../../aspose.words.drawing.charts/chartseries/copyformatfrom/)(int) |  |
-| [Insert](../../aspose.words.drawing.charts/chartseries/insert/#insert)(int, ChartXValue) | يقوم بإدراج قيمة X المحددة في سلسلة المخططات في الفهرس المحدد. إذا كانت السلسلة تدعم قيم Y وأحجام الفقاعات، فستكون فارغة بالنسبة لقيمة X. |
-| [Insert](../../aspose.words.drawing.charts/chartseries/insert/#insert_1)(int, ChartXValue, ChartYValue) | يقوم بإدراج قيم X وY المحددة في سلسلة المخططات في الفهرس المحدد. |
-| [Insert](../../aspose.words.drawing.charts/chartseries/insert/#insert_2)(int, ChartXValue, ChartYValue, double) | يقوم بإدراج قيمة X المحددة وقيمة Y وحجم الفقاعة في سلسلة المخططات في الفهرس المحدد. |
-| [Remove](../../aspose.words.drawing.charts/chartseries/remove/)(int) | إزالة القيمة X والقيمة Y وحجم الفقاعة، إذا كانت مدعومة، من سلسلة المخططات في الفهرس المحدد. تتم أيضًا إزالة نقطة البيانات المقابلة وتسمية البيانات. |
+| [Insert](../../aspose.words.drawing.charts/chartseries/insert/#insert)(*int, [ChartXValue](../chartxvalue/)*) | يقوم بإدراج قيمة X المحددة في سلسلة المخططات في الفهرس المحدد. إذا كانت السلسلة تدعم قيم Y وأحجام الفقاعات، فستكون فارغة بالنسبة لقيمة X. |
+| [Insert](../../aspose.words.drawing.charts/chartseries/insert/#insert_1)(*int, [ChartXValue](../chartxvalue/), [ChartYValue](../chartyvalue/)*) | يقوم بإدراج قيم X وY المحددة في سلسلة المخططات في الفهرس المحدد. |
+| [Insert](../../aspose.words.drawing.charts/chartseries/insert/#insert_2)(*int, [ChartXValue](../chartxvalue/), [ChartYValue](../chartyvalue/), double*) | يقوم بإدراج قيمة X المحددة وقيمة Y وحجم الفقاعة في سلسلة المخططات في الفهرس المحدد. |
+| [Remove](../../aspose.words.drawing.charts/chartseries/remove/)(*int*) | إزالة القيمة X والقيمة Y وحجم الفقاعة، إذا كانت مدعومة، من سلسلة المخططات في الفهرس المحدد. تتم أيضًا إزالة نقطة البيانات المقابلة وتسمية البيانات. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تطبيق التسميات على نقاط البيانات في مخطط خطي.
 
@@ -131,5 +132,3 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
 * interface [IChartDataPoint](../ichartdatapoint/)
 * مساحة الاسم [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../)
-
-

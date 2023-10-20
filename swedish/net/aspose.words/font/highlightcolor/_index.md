@@ -1,7 +1,9 @@
 ---
 title: Font.HighlightColor
-second_title: Aspose.Words för .NET API Referens
-description: Font fast egendom. Hämtar eller ställer in markeringsfärgen.
+linktitle: HighlightColor
+articleTitle: HighlightColor
+second_title: Aspose.Words för .NET
+description: Font HighlightColor fast egendom. Hämtar eller ställer in markeringsfärgen i C#.
 type: docs
 weight: 150
 url: /sv/net/aspose.words/font/highlightcolor/
@@ -14,7 +16,7 @@ Hämtar eller ställer in markeringsfärgen.
 public Color HighlightColor { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man formaterar en serie text med dess teckensnittsegenskap.
 
@@ -34,7 +36,5 @@ doc.Save(ArtifactsDir + "Font.CreateFormattedRun.docx");
 ### Se även
 
 * class [Font](../)
-* namnutrymme [Aspose.Words](../../font/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

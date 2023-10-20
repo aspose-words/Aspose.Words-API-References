@@ -1,7 +1,9 @@
 ---
-title: Class WebExtensionReference
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.WebExtensions.WebExtensionReference clase. Representa la referencia a una extensión web. La referencia se utiliza para identificar la ubicación del proveedor y la versión de la extensión .
+title: WebExtensionReference Class
+linktitle: WebExtensionReference
+articleTitle: WebExtensionReference
+second_title: Aspose.Words para .NET
+description: Aspose.Words.WebExtensions.WebExtensionReference clase. Representa la referencia a una extensión web. La referencia se utiliza para identificar la ubicación del proveedor y la versión de la extensión  en C#.
 type: docs
 weight: 6800
 url: /es/net/aspose.words.webextensions/webextensionreference/
@@ -35,5 +37,3 @@ public class WebExtensionReference
 
 * espacio de nombres [Aspose.Words.WebExtensions](../../aspose.words.webextensions/)
 * asamblea [Aspose.Words](../../)
-
-

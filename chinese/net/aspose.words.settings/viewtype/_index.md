@@ -1,7 +1,9 @@
 ---
-title: Enum ViewType
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Settings.ViewType 枚举. Microsoft Word 中查看模式的可能值
+title: ViewType Enum
+linktitle: ViewType
+articleTitle: ViewType
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Settings.ViewType 枚举. Microsoft Word 中查看模式的可能值 在 C#.
 type: docs
 weight: 5960
 url: /zh/net/aspose.words.settings/viewtype/
@@ -25,7 +27,7 @@ public enum ViewType
 | Normal | `4` | 文档应在针对概述或创建长文档而优化的视图中呈现。 |
 | Web | `5` | 该文档应在模仿该文档在网页中显示 的方式的视图中呈现。 |
 
-### 例子
+## 例子
 
 演示如何设置自定义缩放系数，旧版本的 Microsoft Word 将在加载时应用于文档。
 
@@ -49,5 +51,3 @@ doc.Save(ArtifactsDir + "ViewOptions.SetZoomPercentage.doc");
 * property [ViewType](../viewoptions/viewtype/)
 * 命名空间 [Aspose.Words.Settings](../../aspose.words.settings/)
 * 部件 [Aspose.Words](../../)
-
-

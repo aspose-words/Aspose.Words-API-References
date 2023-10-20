@@ -1,7 +1,9 @@
 ---
 title: MailMergeSettings.MainDocumentType
-second_title: Aspose.Words för .NET API Referens
-description: MailMergeSettings fast egendom. Anger huvuddokumenttypen för sammankoppling. Standardvärdet ärDefault .
+linktitle: MainDocumentType
+articleTitle: MainDocumentType
+second_title: Aspose.Words för .NET
+description: MailMergeSettings MainDocumentType fast egendom. Anger huvuddokumenttypen för sammankoppling. Standardvärdet ärDefault  i C#.
 type: docs
 weight: 140
 url: /sv/net/aspose.words.settings/mailmergesettings/maindocumenttype/
@@ -14,11 +16,11 @@ Anger huvuddokumenttypen för sammankoppling. Standardvärdet ärDefault .
 public MailMergeMainDocumentType MainDocumentType { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Huvuddokumentet är det dokument som innehåller information som är densamma för varje version av det sammanslagna dokumentet.
 
-### Exempel
+## Exempel
 
 Visar hur man kör en sammankoppling med data från ett Office-datakällobjekt.
 
@@ -71,7 +73,5 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 
 * enum [MailMergeMainDocumentType](../../mailmergemaindocumenttype/)
 * class [MailMergeSettings](../)
-* namnutrymme [Aspose.Words.Settings](../../mailmergesettings/)
+* namnutrymme [Aspose.Words.Settings](../../../aspose.words.settings/)
 * hopsättning [Aspose.Words](../../../)
-
-

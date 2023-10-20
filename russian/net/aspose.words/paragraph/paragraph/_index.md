@@ -1,7 +1,9 @@
 ---
-title: Paragraph.Paragraph
-second_title: Справочник по API Aspose.Words для .NET
-description: Paragraph строитель. Инициализирует новый экземплярParagraph класс.
+title: Paragraph
+linktitle: Paragraph
+articleTitle: Paragraph
+second_title: Aspose.Words для .NET
+description: Paragraph строитель. Инициализирует новый экземплярParagraph класс на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words/paragraph/paragraph/
@@ -18,13 +20,13 @@ public Paragraph(DocumentBase doc)
 | --- | --- | --- |
 | doc | DocumentBase | Документ владельца. |
 
-### Примечания
+## Примечания
 
 Когда[`Paragraph`](../) создан, он принадлежит указанному документу, но еще не является частью документа и[`ParentNode`](../../node/parentnode/) является`нулевой`.
 
-Чтобы добавить[`Paragraph`](../) к использованию документаNode) илиNode) в статье, в которую вы хотите вставить абзац.
+Чтобы добавить[`Paragraph`](../) к использованию документа[`InsertAfter`](../../compositenode/insertafter/) или[`InsertBefore`](../../compositenode/insertbefore/) в статье, в которую вы хотите вставить абзац.
 
-### Примеры
+## Примеры
 
 Показывает, как вручную создать документ Aspose.Words.
 
@@ -75,7 +77,5 @@ doc.Save(ArtifactsDir + "Section.CreateManually.docx");
 
 * class [DocumentBase](../../documentbase/)
 * class [Paragraph](../)
-* пространство имен [Aspose.Words](../../paragraph/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

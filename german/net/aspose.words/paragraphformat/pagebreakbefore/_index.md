@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.PageBreakBefore
-second_title: Aspose.Words für .NET-API-Referenz
-description: ParagraphFormat eigendom. True wenn vor dem Absatz ein Seitenumbruch erzwungen wird.
+linktitle: PageBreakBefore
+articleTitle: PageBreakBefore
+second_title: Aspose.Words für .NET
+description: ParagraphFormat PageBreakBefore eigendom. True wenn vor dem Absatz ein Seitenumbruch erzwungen wird in C#.
 type: docs
 weight: 260
 url: /de/net/aspose.words/paragraphformat/pagebreakbefore/
@@ -14,7 +16,7 @@ True, wenn vor dem Absatz ein Seitenumbruch erzwungen wird.
 public bool PageBreakBefore { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Absätze mit Seitenumbrüchen am Anfang erstellt werden.
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "ParagraphFormat.PageBreakBefore.docx");
 ### Siehe auch
 
 * class [ParagraphFormat](../)
-* namensraum [Aspose.Words](../../paragraphformat/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

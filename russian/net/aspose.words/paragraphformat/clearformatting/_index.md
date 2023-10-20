@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.ClearFormatting
-second_title: Справочник по API Aspose.Words для .NET
-description: ParagraphFormat метод. Сбрасывает форматирование абзаца по умолчанию.
+linktitle: ClearFormatting
+articleTitle: ClearFormatting
+second_title: Aspose.Words для .NET
+description: ParagraphFormat ClearFormatting метод. Сбрасывает форматирование абзаца по умолчанию на С#.
 type: docs
 weight: 420
 url: /ru/net/aspose.words/paragraphformat/clearformatting/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words/paragraphformat/clearformatting/
 public void ClearFormatting()
 ```
 
-### Примечания
+## Примечания
 
 Форматирование абзаца по умолчанию: обычный стиль, выравнивание по левому краю, без отступов, без интервалов, без границ и без заливки.
 
-### Примеры
+## Примеры
 
 Показывает, как вложить список в другой список.
 
@@ -72,7 +74,5 @@ builder.Document.Save(ArtifactsDir + "Lists.NestedLists.docx");
 ### Смотрите также
 
 * class [ParagraphFormat](../)
-* пространство имен [Aspose.Words](../../paragraphformat/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

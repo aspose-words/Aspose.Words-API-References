@@ -1,7 +1,9 @@
 ---
-title: Enum StoryType
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.StoryType تعداد. يتم تخزين نص مستند Word في القصص.StoryType يحدد القصة.
+title: StoryType Enum
+linktitle: StoryType
+articleTitle: StoryType
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.StoryType تعداد. يتم تخزين نص مستند Word في القصص.StoryType يحدد القصة في C#.
 type: docs
 weight: 6120
 url: /ar/net/aspose.words/storytype/
@@ -37,7 +39,7 @@ public enum StoryType
 | EndnoteContinuationSeparator | `16` | يحتوي على نص فاصل استمرار التعليق الختامي، ممثلاً بـFootnoteSeparator . |
 | EndnoteContinuationNotice | `17` | يحتوي على نص فاصل إشعار متابعة التعليق الختامي، ممثلاً بـFootnoteSeparator . |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إزالة كافة الأشكال من العقدة.
 
@@ -62,5 +64,3 @@ Assert.AreEqual(0, doc.GetChildNodes(NodeType.Shape, true).Count);
 
 * مساحة الاسم [Aspose.Words](../../aspose.words/)
 * المجسم [Aspose.Words](../../)
-
-

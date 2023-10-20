@@ -1,7 +1,9 @@
 ---
 title: ChartLegend.Overlay
-second_title: Aspose.Words لمراجع .NET API
-description: ChartLegend ملكية. يحدد ما إذا كان سيتم السماح لعناصر المخطط الأخرى بتداخل وسيلة الإيضاح أم لا. القيمة الافتراضية هيخطأ شنيع .
+linktitle: Overlay
+articleTitle: Overlay
+second_title: Aspose.Words لـ .NET
+description: ChartLegend Overlay ملكية. يحدد ما إذا كان سيتم السماح لعناصر المخطط الأخرى بتداخل وسيلة الإيضاح أم لا. القيمة الافتراضية هيخطأ شنيع  في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.drawing.charts/chartlegend/overlay/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing.charts/chartlegend/overlay/
 public bool Overlay { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحرير مظهر وسيلة إيضاح المخطط.
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "Charts.ChartLegend.docx");
 ### أنظر أيضا
 
 * class [ChartLegend](../)
-* مساحة الاسم [Aspose.Words.Drawing.Charts](../../chartlegend/)
+* مساحة الاسم [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../../)
-
-

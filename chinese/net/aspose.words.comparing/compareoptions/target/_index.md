@@ -1,7 +1,9 @@
 ---
 title: CompareOptions.Target
-second_title: Aspose.Words for .NET API 参考
-description: CompareOptions 财产. 指定比较期间应使用哪个文档作为目标
+linktitle: Target
+articleTitle: Target
+second_title: 用于 .NET 的 Aspose.Words
+description: CompareOptions Target 财产. 指定比较期间应使用哪个文档作为目标 在 C#.
 type: docs
 weight: 130
 url: /zh/net/aspose.words.comparing/compareoptions/target/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.comparing/compareoptions/target/
 public ComparisonTargetType Target { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何在进行比较时过滤特定类型的文档元素。
 
@@ -89,7 +91,5 @@ docOriginal.Save(ArtifactsDir + "Document.CompareOptions.docx");
 
 * enum [ComparisonTargetType](../../comparisontargettype/)
 * class [CompareOptions](../)
-* 命名空间 [Aspose.Words.Comparing](../../compareoptions/)
+* 命名空间 [Aspose.Words.Comparing](../../../aspose.words.comparing/)
 * 部件 [Aspose.Words](../../../)
-
-

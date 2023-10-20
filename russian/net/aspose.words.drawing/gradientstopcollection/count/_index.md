@@ -1,7 +1,9 @@
 ---
 title: GradientStopCollection.Count
-second_title: Справочник по API Aspose.Words для .NET
-description: GradientStopCollection свойство. Получает целочисленное значение указывающее количество элементов в коллекции.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words для .NET
+description: GradientStopCollection Count свойство. Получает целочисленное значение указывающее количество элементов в коллекции на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.drawing/gradientstopcollection/count/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.drawing/gradientstopcollection/count/
 public int Count { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как добавить остановки градиента к градиентной заливке.
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "Shape.GradientStops.docx", saveOptions);
 ### Смотрите также
 
 * class [GradientStopCollection](../)
-* пространство имен [Aspose.Words.Drawing](../../gradientstopcollection/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

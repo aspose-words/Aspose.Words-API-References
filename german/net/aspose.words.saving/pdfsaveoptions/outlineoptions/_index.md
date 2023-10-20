@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.OutlineOptions
-second_title: Aspose.Words für .NET-API-Referenz
-description: PdfSaveOptions eigendom. Ermöglicht die Angabe von Umrissoptionen.
+linktitle: OutlineOptions
+articleTitle: OutlineOptions
+second_title: Aspose.Words für .NET
+description: PdfSaveOptions OutlineOptions eigendom. Ermöglicht die Angabe von Umrissoptionen in C#.
 type: docs
 weight: 240
 url: /de/net/aspose.words.saving/pdfsaveoptions/outlineoptions/
@@ -14,7 +16,7 @@ Ermöglicht die Angabe von Umrissoptionen.
 public OutlineOptions OutlineOptions { get; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Aus Überschriften und Lesezeichen können Gliederungen erstellt werden.
 
@@ -26,7 +28,7 @@ Für Lesezeichen kann die Umrissebene in den Optionen als Standardwert für alle
 
 Außerdem können Umrisse mit derselben Funktion in das XPS-Format exportiert werden`OutlineOptions` Klasse.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man die Überschriftenebene einschränkt, die in der Gliederung eines gespeicherten PDF-Dokuments angezeigt wird.
 
@@ -107,7 +109,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.CreateMissingOutlineLevels.pdf", saveOpt
 
 * class [OutlineOptions](../../outlineoptions/)
 * class [PdfSaveOptions](../)
-* namensraum [Aspose.Words.Saving](../../pdfsaveoptions/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

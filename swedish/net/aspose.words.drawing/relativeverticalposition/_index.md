@@ -1,7 +1,9 @@
 ---
-title: Enum RelativeVerticalPosition
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Drawing.RelativeVerticalPosition uppräkning. Anger vad den vertikala positionen för en form eller textram är relativ.
+title: RelativeVerticalPosition Enum
+linktitle: RelativeVerticalPosition
+articleTitle: RelativeVerticalPosition
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Drawing.RelativeVerticalPosition uppräkning. Anger vad den vertikala positionen för en form eller textram är relativ i C#.
 type: docs
 weight: 1210
 url: /sv/net/aspose.words.drawing/relativeverticalposition/
@@ -29,7 +31,7 @@ public enum RelativeVerticalPosition
 | TableDefault | `0` | Standardvärdet ärMargin . |
 | TextFrameDefault | `2` | Standardvärdet ärParagraph . |
 
-### Exempel
+## Exempel
 
 Visar hur man infogar en flytande bild i mitten av en sida.
 
@@ -102,5 +104,3 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertWatermarkNetStandard2.docx");
 * property [RelativeVerticalPosition](../shapebase/relativeverticalposition/)
 * namnutrymme [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../)
-
-

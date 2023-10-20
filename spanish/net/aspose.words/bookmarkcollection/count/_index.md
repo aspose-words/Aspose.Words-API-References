@@ -1,7 +1,9 @@
 ---
 title: BookmarkCollection.Count
-second_title: Referencia de API de Aspose.Words para .NET
-description: BookmarkCollection propiedad. Devuelve el número de marcadores de la colección.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words para .NET
+description: BookmarkCollection Count propiedad. Devuelve el número de marcadores de la colección en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words/bookmarkcollection/count/
@@ -14,7 +16,7 @@ Devuelve el número de marcadores de la colección.
 public int Count { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo eliminar marcadores de un documento.
 
@@ -75,7 +77,5 @@ Assert.AreEqual("Text inside MyBookmark_1.\r" +
 ### Ver también
 
 * class [BookmarkCollection](../)
-* espacio de nombres [Aspose.Words](../../bookmarkcollection/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

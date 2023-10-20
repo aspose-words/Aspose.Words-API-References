@@ -1,7 +1,9 @@
 ---
-title: Enum ImageBinarizationMethod
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Saving.ImageBinarizationMethod uppräkning. Anger metoden som används för att binarisera bilden.
+title: ImageBinarizationMethod Enum
+linktitle: ImageBinarizationMethod
+articleTitle: ImageBinarizationMethod
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Saving.ImageBinarizationMethod uppräkning. Anger metoden som används för att binarisera bilden i C#.
 type: docs
 weight: 5200
 url: /sv/net/aspose.words.saving/imagebinarizationmethod/
@@ -21,7 +23,7 @@ public enum ImageBinarizationMethod
 | Threshold | `0` | Anger tröskelmetod. |
 | FloydSteinbergDithering | `1` | Anger vibrering med Floyd-Steinbergs felspridningsmetod. |
 
-### Exempel
+## Exempel
 
 Visar hur man ställer in TIFF-binariseringsfeltröskeln när man använder Floyd-Steinberg-metoden för att rendera en TIFF-bild.
 
@@ -51,5 +53,3 @@ doc.Save(ArtifactsDir + "ImageSaveOptions.FloydSteinbergDithering.tiff", options
 
 * namnutrymme [Aspose.Words.Saving](../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../)
-
-

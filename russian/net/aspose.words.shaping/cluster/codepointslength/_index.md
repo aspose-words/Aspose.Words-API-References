@@ -1,7 +1,9 @@
 ---
 title: Cluster.CodepointsLength
-second_title: Справочник по API Aspose.Words для .NET
-description: Cluster свойство. Получает общее количество кодовых точек вCluster .
+linktitle: CodepointsLength
+articleTitle: CodepointsLength
+second_title: Aspose.Words для .NET
+description: Cluster CodepointsLength свойство. Получает общее количество кодовых точек вCluster  на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.shaping/cluster/codepointslength/
@@ -17,7 +19,5 @@ public int CodepointsLength { get; }
 ### Смотрите также
 
 * class [Cluster](../)
-* пространство имен [Aspose.Words.Shaping](../../cluster/)
+* пространство имен [Aspose.Words.Shaping](../../../aspose.words.shaping/)
 * сборка [Aspose.Words](../../../)
-
-

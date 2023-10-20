@@ -1,7 +1,9 @@
 ---
 title: PreferredWidth.GetHashCode
-second_title: Aspose.Words for .NET API 参考
-description: PreferredWidth 方法. 用作此类型的哈希函数
+linktitle: GetHashCode
+articleTitle: GetHashCode
+second_title: 用于 .NET 的 Aspose.Words
+description: PreferredWidth GetHashCode 方法. 用作此类型的哈希函数 在 C#.
 type: docs
 weight: 70
 url: /zh/net/aspose.words.tables/preferredwidth/gethashcode/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.tables/preferredwidth/gethashcode/
 public override int GetHashCode()
 ```
 
-### 例子
+## 例子
 
 演示如何设置表格单元格的首选宽度。
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertCellsWithPreferredWidths.docx");
 ### 也可以看看
 
 * class [PreferredWidth](../)
-* 命名空间 [Aspose.Words.Tables](../../preferredwidth/)
+* 命名空间 [Aspose.Words.Tables](../../../aspose.words.tables/)
 * 部件 [Aspose.Words](../../../)
-
-

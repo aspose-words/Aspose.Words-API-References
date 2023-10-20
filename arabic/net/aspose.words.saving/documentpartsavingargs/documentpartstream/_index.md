@@ -1,7 +1,9 @@
 ---
 title: DocumentPartSavingArgs.DocumentPartStream
-second_title: Aspose.Words لمراجع .NET API
-description: DocumentPartSavingArgs ملكية. يسمح بتحديد الدفق الذي سيتم حفظ جزء المستند فيه.
+linktitle: DocumentPartStream
+articleTitle: DocumentPartStream
+second_title: Aspose.Words لـ .NET
+description: DocumentPartSavingArgs DocumentPartStream ملكية. يسمح بتحديد الدفق الذي سيتم حفظ جزء المستند فيه في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.saving/documentpartsavingargs/documentpartstream/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.saving/documentpartsavingargs/documentpartstream/
 public Stream DocumentPartStream { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 تسمح لك هذه الخاصية بحفظ أجزاء المستند في التدفقات بدلاً من الملفات أثناء تصدير HTML.
 
@@ -24,7 +26,7 @@ public Stream DocumentPartStream { get; set; }
 
 عند الحفظ بتنسيق EPUB وهو تنسيق حاوية يعتمد على HTML،`DocumentPartStream` لا يمكن تحديد لأنه سيتم تغليف كافة الأجزاء الفرعية في حزمة إخراج واحدة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تقسيم مستند إلى أجزاء وحفظها.
 
@@ -141,7 +143,5 @@ public class SavedImageRename : IImageSavingCallback
 ### أنظر أيضا
 
 * class [DocumentPartSavingArgs](../)
-* مساحة الاسم [Aspose.Words.Saving](../../documentpartsavingargs/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

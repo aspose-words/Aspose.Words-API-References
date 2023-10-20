@@ -1,7 +1,9 @@
 ---
-title: Interface IFieldMergingCallback
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.MailMerging.IFieldMergingCallback interfaz. Implemente esta interfaz si desea controlar cómo se insertan los datos en los campos de combinación durante una operación de combinación de correspondencia.
+title: IFieldMergingCallback Interface
+linktitle: IFieldMergingCallback
+articleTitle: IFieldMergingCallback
+second_title: Aspose.Words para .NET
+description: Aspose.Words.MailMerging.IFieldMergingCallback interfaz. Implemente esta interfaz si desea controlar cómo se insertan los datos en los campos de combinación durante una operación de combinación de correspondencia en C#.
 type: docs
 weight: 3790
 url: /es/net/aspose.words.mailmerging/ifieldmergingcallback/
@@ -18,10 +20,10 @@ public interface IFieldMergingCallback
 
 | Nombre | Descripción |
 | --- | --- |
-| [FieldMerging](../../aspose.words.mailmerging/ifieldmergingcallback/fieldmerging/)(FieldMergingArgs) | Se llama cuando el motor de combinación de correspondencia Aspose.Words está a punto de insertar datos en un campo de combinación en el documento. |
-| [ImageFieldMerging](../../aspose.words.mailmerging/ifieldmergingcallback/imagefieldmerging/)(ImageFieldMergingArgs) | Se llama cuando el motor de combinación de correspondencia Aspose.Words está a punto de insertar una imagen en un campo de combinación. |
+| [FieldMerging](../../aspose.words.mailmerging/ifieldmergingcallback/fieldmerging/)(*[FieldMergingArgs](../fieldmergingargs/)*) | Se llama cuando el motor de combinación de correspondencia Aspose.Words está a punto de insertar datos en un campo de combinación en el documento. |
+| [ImageFieldMerging](../../aspose.words.mailmerging/ifieldmergingcallback/imagefieldmerging/)(*[ImageFieldMergingArgs](../imagefieldmergingargs/)*) | Se llama cuando el motor de combinación de correspondencia Aspose.Words está a punto de insertar una imagen en un campo de combinación. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo insertar imágenes almacenadas en un campo BLOB de la base de datos en un informe.
 
@@ -134,5 +136,3 @@ private class HandleMergeFieldInsertHtml : IFieldMergingCallback
 
 * espacio de nombres [Aspose.Words.MailMerging](../../aspose.words.mailmerging/)
 * asamblea [Aspose.Words](../../)
-
-

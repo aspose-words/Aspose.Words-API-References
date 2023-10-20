@@ -1,7 +1,9 @@
 ---
 title: BaseWebExtensionCollection1.Count
-second_title: Справочник по API Aspose.Words для .NET
-description: BaseWebExtensionCollection свойство. Получает количество элементов содержащихся в коллекции.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words для .NET
+description: BaseWebExtensionCollection Count свойство. Получает количество элементов содержащихся в коллекции на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.webextensions/basewebextensioncollection-1/count/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.webextensions/basewebextensioncollection-1/count/
 public int Count { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как работать с коллекцией веб-расширений документа.
 
@@ -43,7 +45,5 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 ### Смотрите также
 
 * class [BaseWebExtensionCollection&lt;T&gt;](../)
-* пространство имен [Aspose.Words.WebExtensions](../../basewebextensioncollection-1/)
+* пространство имен [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * сборка [Aspose.Words](../../../)
-
-

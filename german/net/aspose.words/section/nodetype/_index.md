@@ -1,7 +1,9 @@
 ---
 title: Section.NodeType
-second_title: Aspose.Words für .NET-API-Referenz
-description: Section eigendom. Gibt zurückSection .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words für .NET
+description: Section NodeType eigendom. Gibt zurückSection  in C#.
 type: docs
 weight: 40
 url: /de/net/aspose.words/section/nodetype/
@@ -14,7 +16,7 @@ Gibt zurückSection .
 public override NodeType NodeType { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie der Baum der untergeordneten Knoten eines zusammengesetzten Knotens durchlaufen wird.
 
@@ -62,7 +64,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 
 * enum [NodeType](../../nodetype/)
 * class [Section](../)
-* namensraum [Aspose.Words](../../section/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

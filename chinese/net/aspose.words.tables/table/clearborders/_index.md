@@ -1,9 +1,11 @@
 ---
 title: Table.ClearBorders
-second_title: Aspose.Words for .NET API 参考
-description: Table 方法. 删除此表上的所有表格和单元格边框
+linktitle: ClearBorders
+articleTitle: ClearBorders
+second_title: 用于 .NET 的 Aspose.Words
+description: Table ClearBorders 方法. 删除此表上的所有表格和单元格边框 在 C#.
 type: docs
-weight: 390
+weight: 370
 url: /zh/net/aspose.words.tables/table/clearborders/
 ---
 ## Table.ClearBorders method
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.tables/table/clearborders/
 public void ClearBorders()
 ```
 
-### 例子
+## 例子
 
 演示如何将轮廓边框应用到表格。
 
@@ -77,7 +79,5 @@ Assert.AreEqual(LineStyle.None, topBorder.LineStyle);
 ### 也可以看看
 
 * class [Table](../)
-* 命名空间 [Aspose.Words.Tables](../../table/)
+* 命名空间 [Aspose.Words.Tables](../../../aspose.words.tables/)
 * 部件 [Aspose.Words](../../../)
-
-

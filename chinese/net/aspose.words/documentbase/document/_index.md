@@ -1,7 +1,9 @@
 ---
 title: DocumentBase.Document
-second_title: Aspose.Words for .NET API 参考
-description: DocumentBase 财产. 获取此实例
+linktitle: Document
+articleTitle: Document
+second_title: 用于 .NET 的 Aspose.Words
+description: DocumentBase Document 财产. 获取此实例 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words/documentbase/document/
@@ -17,7 +19,5 @@ public override DocumentBase Document { get; }
 ### 也可以看看
 
 * class [DocumentBase](../)
-* 命名空间 [Aspose.Words](../../documentbase/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

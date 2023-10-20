@@ -1,7 +1,9 @@
 ---
 title: MailMergeSettings.DataType
-second_title: Aspose.Words per .NET API Reference
-description: MailMergeSettings proprietà. Specifica il tipo di origine dati di stampa unione e il metodo di accesso ai dati. Il valore predefinito èDefault .
+linktitle: DataType
+articleTitle: DataType
+second_title: Aspose.Words per .NET
+description: MailMergeSettings DataType proprietà. Specifica il tipo di origine dati di stampa unione e il metodo di accesso ai dati. Il valore predefinito èDefault  in C#.
 type: docs
 weight: 70
 url: /it/net/aspose.words.settings/mailmergesettings/datatype/
@@ -14,7 +16,7 @@ Specifica il tipo di origine dati di stampa unione e il metodo di accesso ai dat
 public MailMergeDataType DataType { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come eseguire una stampa unione con i dati di un oggetto origine dati di Office.
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 
 * enum [MailMergeDataType](../../mailmergedatatype/)
 * class [MailMergeSettings](../)
-* spazio dei nomi [Aspose.Words.Settings](../../mailmergesettings/)
+* spazio dei nomi [Aspose.Words.Settings](../../../aspose.words.settings/)
 * assemblea [Aspose.Words](../../../)
-
-

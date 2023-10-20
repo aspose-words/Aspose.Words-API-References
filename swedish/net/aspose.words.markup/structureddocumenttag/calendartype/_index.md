@@ -1,26 +1,28 @@
 ---
 title: StructuredDocumentTag.CalendarType
-second_title: Aspose.Words för .NET API Referens
-description: StructuredDocumentTag fast egendom. Anger typen av kalender för detta SDT . Standard ärDefault
+linktitle: CalendarType
+articleTitle: CalendarType
+second_title: Aspose.Words för .NET
+description: StructuredDocumentTag CalendarType fast egendom. Anger typen av kalender för dettaSDT . Standard ärDefault i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.markup/structureddocumenttag/calendartype/
 ---
 ## StructuredDocumentTag.CalendarType property
 
-Anger typen av kalender för detta **SDT** . Standard ärDefault
+Anger typen av kalender för detta**SDT** . Standard ärDefault
 
 ```csharp
 public SdtCalendarType CalendarType { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Åtkomst till den här egenskapen fungerar bara förDate SDT-typ.
 
 För alla andra SDT-typer kommer undantag att förekomma.
 
-### Exempel
+## Exempel
 
 Visar hur man uppmanar användaren att ange ett datum med en strukturerad dokumenttagg.
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.Date.docx");
 
 * enum [SdtCalendarType](../../sdtcalendartype/)
 * class [StructuredDocumentTag](../)
-* namnutrymme [Aspose.Words.Markup](../../structureddocumenttag/)
+* namnutrymme [Aspose.Words.Markup](../../../aspose.words.markup/)
 * hopsättning [Aspose.Words](../../../)
-
-

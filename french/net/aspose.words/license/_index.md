@@ -1,7 +1,9 @@
 ---
-title: Class License
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.License classe. Fournit des méthodes pour obtenir une licence pour le composant.
+title: License Class
+linktitle: License
+articleTitle: License
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.License classe. Fournit des méthodes pour obtenir une licence pour le composant en C#.
 type: docs
 weight: 3420
 url: /fr/net/aspose.words/license/
@@ -26,10 +28,10 @@ public class License
 
 | Nom | La description |
 | --- | --- |
-| [SetLicense](../../aspose.words/license/setlicense/#setlicense)(Stream) | Licence pour le composant. |
-| [SetLicense](../../aspose.words/license/setlicense/#setlicense_1)(string) | Licence pour le composant. |
+| [SetLicense](../../aspose.words/license/setlicense/#setlicense)(*Stream*) | Licence pour le composant. |
+| [SetLicense](../../aspose.words/license/setlicense/#setlicense_1)(*string*) | Licence pour le composant. |
 
-### Exemples
+## Exemples
 
 Montre comment initialiser une licence pour Aspose.Words à l’aide d’un fichier de licence dans le système de fichiers local.
 
@@ -54,5 +56,3 @@ license.SetLicense("Aspose.Words.NET.lic");
 
 * espace de noms [Aspose.Words](../../aspose.words/)
 * Assemblée [Aspose.Words](../../)
-
-

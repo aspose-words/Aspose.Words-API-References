@@ -1,7 +1,9 @@
 ---
-title: Class XamlFlowSaveOptions
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Saving.XamlFlowSaveOptions classe. Può essere utilizzato per specificare opzioni aggiuntive quando si salva un documento in XamlFlow OXamlFlowPack formato.
+title: XamlFlowSaveOptions Class
+linktitle: XamlFlowSaveOptions
+articleTitle: XamlFlowSaveOptions
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Saving.XamlFlowSaveOptions classe. Può essere utilizzato per specificare opzioni aggiuntive quando si salva un documento in XamlFlow OXamlFlowPack formato in C#.
 type: docs
 weight: 5700
 url: /it/net/aspose.words.saving/xamlflowsaveoptions/
@@ -21,7 +23,7 @@ public class XamlFlowSaveOptions : SaveOptions
 | Nome | Descrizione |
 | --- | --- |
 | [XamlFlowSaveOptions](xamlflowsaveoptions/#constructor)() | Inizializza una nuova istanza di questa classe che può essere utilizzata per salvare un documento nel fileXamlFlow formato. |
-| [XamlFlowSaveOptions](xamlflowsaveoptions/#constructor_1)(SaveFormat) | Inizializza una nuova istanza di questa classe che può essere utilizzata per salvare un documento nel fileXamlFlow oXamlFlowPack formato. |
+| [XamlFlowSaveOptions](xamlflowsaveoptions/#constructor_1)(*[SaveFormat](../../aspose.words/saveformat/)*) | Inizializza una nuova istanza di questa classe che può essere utilizzata per salvare un documento nel fileXamlFlow oXamlFlowPack formato. |
 
 ## Proprietà
 
@@ -29,7 +31,7 @@ public class XamlFlowSaveOptions : SaveOptions
 | --- | --- |
 | [AllowEmbeddingPostScriptFonts](../../aspose.words.saving/saveoptions/allowembeddingpostscriptfonts/) { get; set; } | Ottiene o imposta un valore booleano che indica se consentire l'incorporamento di caratteri con contorni PostScript quando si incorporano caratteri TrueType in un documento al momento del salvataggio. Il valore predefinito è`falso` . |
 | [CustomTimeZoneInfo](../../aspose.words.saving/saveoptions/customtimezoneinfo/) { get; set; } | Ottiene o imposta il fuso orario locale personalizzato utilizzato per i campi data/ora. |
-| [DefaultTemplate](../../aspose.words.saving/saveoptions/defaulttemplate/) { get; set; } | Ottiene o imposta il percorso del modello predefinito (incluso il nome file). Il valore predefinito per questa proprietà è **stringa vuota** (Empty). |
+| [DefaultTemplate](../../aspose.words.saving/saveoptions/defaulttemplate/) { get; set; } | Ottiene o imposta il percorso del modello predefinito (incluso il nome file). Il valore predefinito per questa proprietà è**stringa vuota** (Empty). |
 | [Dml3DEffectsRenderingMode](../../aspose.words.saving/saveoptions/dml3deffectsrenderingmode/) { get; set; } | Ottiene o imposta un valore che determina la modalità di rendering degli effetti 3D. |
 | virtual [DmlEffectsRenderingMode](../../aspose.words.saving/saveoptions/dmleffectsrenderingmode/) { get; set; } | Ottiene o imposta un valore che determina la modalità di rendering degli effetti DrawingML. |
 | [DmlRenderingMode](../../aspose.words.saving/saveoptions/dmlrenderingmode/) { get; set; } | Ottiene o imposta un valore che determina la modalità di rendering delle forme DrawingML. |
@@ -50,7 +52,7 @@ public class XamlFlowSaveOptions : SaveOptions
 | [UseAntiAliasing](../../aspose.words.saving/saveoptions/useantialiasing/) { get; set; } | Ottiene o imposta un valore che determina se utilizzare o meno l'antialiasing per il rendering. |
 | [UseHighQualityRendering](../../aspose.words.saving/saveoptions/usehighqualityrendering/) { get; set; } | Ottiene o imposta un valore che determina se utilizzare o meno algoritmi di rendering di alta qualità (ovvero lenti). |
 
-### Esempi
+## Esempi
 
 Mostra come stampare i nomi file delle immagini collegate create durante la conversione di un documento in formato flusso .xaml.
 
@@ -118,5 +120,3 @@ private class ImageUriPrinter : IImageSavingCallback
 * class [SaveOptions](../saveoptions/)
 * spazio dei nomi [Aspose.Words.Saving](../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../)
-
-

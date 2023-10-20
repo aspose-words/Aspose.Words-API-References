@@ -1,7 +1,9 @@
 ---
 title: FieldFillIn.PromptText
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldFillIn свойство. Получает или задает текст подсказки заголовок окна подсказки.
+linktitle: PromptText
+articleTitle: PromptText
+second_title: Aspose.Words для .NET
+description: FieldFillIn PromptText свойство. Получает или задает текст подсказки заголовок окна подсказки на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.fields/fieldfillin/prompttext/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldfillin/prompttext/
 public string PromptText { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как использовать поле ЗАПОЛНИТЬ, чтобы запросить у пользователя ответ.
 
@@ -63,7 +65,5 @@ private class PromptRespondent : IFieldUserPromptRespondent
 ### Смотрите также
 
 * class [FieldFillIn](../)
-* пространство имен [Aspose.Words.Fields](../../fieldfillin/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

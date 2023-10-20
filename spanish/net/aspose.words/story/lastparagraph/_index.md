@@ -1,7 +1,9 @@
 ---
 title: Story.LastParagraph
-second_title: Referencia de API de Aspose.Words para .NET
-description: Story propiedad. Obtiene el último párrafo de la historia.
+linktitle: LastParagraph
+articleTitle: LastParagraph
+second_title: Aspose.Words para .NET
+description: Story LastParagraph propiedad. Obtiene el último párrafo de la historia en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words/story/lastparagraph/
@@ -14,7 +16,7 @@ Obtiene el último párrafo de la historia.
 public Paragraph LastParagraph { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo mover la posición del cursor de DocumentBuilder a un nodo específico.
 
@@ -47,7 +49,5 @@ Assert.AreEqual("Run 2. \rRun 1. \rRun 3.", doc.GetText().Trim());
 
 * class [Paragraph](../../paragraph/)
 * class [Story](../)
-* espacio de nombres [Aspose.Words](../../story/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

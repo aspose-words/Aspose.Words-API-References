@@ -1,7 +1,9 @@
 ---
 title: TaskPane.IsLocked
-second_title: Aspose.Words für .NET-API-Referenz
-description: TaskPane eigendom. Gibt an ob der Aufgabenbereich für das Dokument in der Benutzeroberfläche gesperrt ist und vom Benutzer nicht geschlossen werden kann.
+linktitle: IsLocked
+articleTitle: IsLocked
+second_title: Aspose.Words für .NET
+description: TaskPane IsLocked eigendom. Gibt an ob der Aufgabenbereich für das Dokument in der Benutzeroberfläche gesperrt ist und vom Benutzer nicht geschlossen werden kann in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.webextensions/taskpane/islocked/
@@ -14,7 +16,7 @@ Gibt an, ob der Aufgabenbereich für das Dokument in der Benutzeroberfläche ges
 public bool IsLocked { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man einem Dokument eine Weberweiterung hinzufügt.
 
@@ -59,7 +61,5 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 ### Siehe auch
 
 * class [TaskPane](../)
-* namensraum [Aspose.Words.WebExtensions](../../taskpane/)
+* namensraum [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Range.UnlinkFields
-second_title: Aspose.Words per .NET API Reference
-description: Range metodo. Scollega i campi in questo intervallo.
+linktitle: UnlinkFields
+articleTitle: UnlinkFields
+second_title: Aspose.Words per .NET
+description: Range UnlinkFields metodo. Scollega i campi in questo intervallo in C#.
 type: docs
 weight: 110
 url: /it/net/aspose.words/range/unlinkfields/
@@ -14,13 +16,13 @@ Scollega i campi in questo intervallo.
 public void UnlinkFields()
 ```
 
-### Osservazioni
+## Osservazioni
 
 Sostituisce tutti i campi di questo intervallo con i risultati più recenti.
 
 Per scollegare i campi nell'intero documento utilizzare`UnlinkFields`.
 
-### Esempi
+## Esempi
 
 Mostra come scollegare tutti i campi in un intervallo.
 
@@ -36,7 +38,5 @@ doc.Sections[1].Range.UnlinkFields();
 ### Guarda anche
 
 * class [Range](../)
-* spazio dei nomi [Aspose.Words](../../range/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

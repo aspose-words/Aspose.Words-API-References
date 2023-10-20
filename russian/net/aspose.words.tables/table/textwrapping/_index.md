@@ -1,7 +1,9 @@
 ---
 title: Table.TextWrapping
-second_title: Справочник по API Aspose.Words для .NET
-description: Table свойство. Получает или устанавливаетTextWrapping для таблицы.
+linktitle: TextWrapping
+articleTitle: TextWrapping
+second_title: Aspose.Words для .NET
+description: Table TextWrapping свойство. Получает или устанавливаетTextWrapping для таблицы на С#.
 type: docs
 weight: 310
 url: /ru/net/aspose.words.tables/table/textwrapping/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.tables/table/textwrapping/
 public TextWrapping TextWrapping { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как работать с переносом текста в таблице.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "Table.WrapText.docx");
 
 * enum [TextWrapping](../../textwrapping/)
 * class [Table](../)
-* пространство имен [Aspose.Words.Tables](../../table/)
+* пространство имен [Aspose.Words.Tables](../../../aspose.words.tables/)
 * сборка [Aspose.Words](../../../)
-
-

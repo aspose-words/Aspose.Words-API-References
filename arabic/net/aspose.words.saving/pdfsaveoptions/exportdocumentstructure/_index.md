@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.ExportDocumentStructure
-second_title: Aspose.Words لمراجع .NET API
-description: PdfSaveOptions ملكية. الحصول على أو تعيين قيمة لتحديد ما إذا كان سيتم تصدير بنية المستند أم لا.
+linktitle: ExportDocumentStructure
+articleTitle: ExportDocumentStructure
+second_title: Aspose.Words لـ .NET
+description: PdfSaveOptions ExportDocumentStructure ملكية. الحصول على أو تعيين قيمة لتحديد ما إذا كان سيتم تصدير بنية المستند أم لا في C#.
 type: docs
 weight: 140
 url: /ar/net/aspose.words.saving/pdfsaveoptions/exportdocumentstructure/
@@ -14,13 +16,13 @@ url: /ar/net/aspose.words.saving/pdfsaveoptions/exportdocumentstructure/
 public bool ExportDocumentStructure { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 يتم تجاهل هذه القيمة عند الحفظ في PDF/A-1a وPDF/A-2a وPDF/UA-1 لأن بنية المستند مطلوبة لهذا التوافق.
 
 لاحظ أن تصدير بنية المستند يزيد بشكل كبير من استهلاك الذاكرة، خاصة للمستندات الكبيرة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الحفاظ على عناصر بنية المستند، والتي يمكن أن تساعد في تفسير وثيقتنا برمجياً.
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.ExportDocumentStructure.pdf", options);
 ### أنظر أيضا
 
 * class [PdfSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../pdfsaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

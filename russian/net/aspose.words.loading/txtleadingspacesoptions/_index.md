@@ -1,7 +1,9 @@
 ---
-title: Enum TxtLeadingSpacesOptions
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Loading.TxtLeadingSpacesOptions перечисление. Указывает доступные параметры обработки начального пробела во время импорта изText файл.
+title: TxtLeadingSpacesOptions Enum
+linktitle: TxtLeadingSpacesOptions
+articleTitle: TxtLeadingSpacesOptions
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Loading.TxtLeadingSpacesOptions перечисление. Указывает доступные параметры обработки начального пробела во время импорта изText файл на С#.
 type: docs
 weight: 3720
 url: /ru/net/aspose.words.loading/txtleadingspacesoptions/
@@ -22,7 +24,7 @@ public enum TxtLeadingSpacesOptions
 | Trim | `1` |  |
 | Preserve | `2` |  |
 
-### Примеры
+## Примеры
 
 Показывает, как обрезать пробелы при загрузке документов с открытым текстом.
 
@@ -99,5 +101,3 @@ switch (txtTrailingSpacesOptions)
 
 * пространство имен [Aspose.Words.Loading](../../aspose.words.loading/)
 * сборка [Aspose.Words](../../)
-
-

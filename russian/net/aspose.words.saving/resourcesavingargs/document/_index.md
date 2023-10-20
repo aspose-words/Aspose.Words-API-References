@@ -1,7 +1,9 @@
 ---
 title: ResourceSavingArgs.Document
-second_title: Справочник по API Aspose.Words для .NET
-description: ResourceSavingArgs свойство. Получает объект документа который в данный момент сохраняется.
+linktitle: Document
+articleTitle: Document
+second_title: Aspose.Words для .NET
+description: ResourceSavingArgs Document свойство. Получает объект документа который в данный момент сохраняется на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.saving/resourcesavingargs/document/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.saving/resourcesavingargs/document/
 public Document Document { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как использовать обратный вызов для отслеживания внешних ресурсов, созданных при преобразовании документа в HTML.
 
@@ -60,7 +62,5 @@ private class FontSavingCallback : IResourceSavingCallback
 
 * class [Document](../../../aspose.words/document/)
 * class [ResourceSavingArgs](../)
-* пространство имен [Aspose.Words.Saving](../../resourcesavingargs/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

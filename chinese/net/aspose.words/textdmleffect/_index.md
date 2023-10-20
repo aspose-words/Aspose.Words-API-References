@@ -1,7 +1,9 @@
 ---
-title: Enum TextDmlEffect
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.TextDmlEffect 枚举. 文本运行的 Dml 文本效果
+title: TextDmlEffect Enum
+linktitle: TextDmlEffect
+articleTitle: TextDmlEffect
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.TextDmlEffect 枚举. 文本运行的 Dml 文本效果 在 C#.
 type: docs
 weight: 6410
 url: /zh/net/aspose.words/textdmleffect/
@@ -29,5 +31,3 @@ public enum TextDmlEffect
 
 * 命名空间 [Aspose.Words](../../aspose.words/)
 * 部件 [Aspose.Words](../../)
-
-

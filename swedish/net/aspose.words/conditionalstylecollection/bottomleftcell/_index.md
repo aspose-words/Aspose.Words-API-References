@@ -1,7 +1,9 @@
 ---
 title: ConditionalStyleCollection.BottomLeftCell
-second_title: Aspose.Words för .NET API Referens
-description: ConditionalStyleCollection fast egendom. Hämtar cellformatet längst ner till vänster.
+linktitle: BottomLeftCell
+articleTitle: BottomLeftCell
+second_title: Aspose.Words för .NET
+description: ConditionalStyleCollection BottomLeftCell fast egendom. Hämtar cellformatet längst ner till vänster i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words/conditionalstylecollection/bottomleftcell/
@@ -14,7 +16,7 @@ Hämtar cellformatet längst ner till vänster.
 public ConditionalStyle BottomLeftCell { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med vissa områdesstilar i en tabell.
 
@@ -85,7 +87,5 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 
 * class [ConditionalStyle](../../conditionalstyle/)
 * class [ConditionalStyleCollection](../)
-* namnutrymme [Aspose.Words](../../conditionalstylecollection/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

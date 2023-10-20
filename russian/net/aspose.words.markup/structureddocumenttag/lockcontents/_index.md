@@ -1,20 +1,22 @@
 ---
 title: StructuredDocumentTag.LockContents
-second_title: Справочник по API Aspose.Words для .NET
-description: StructuredDocumentTag свойство. Если установлено значениеистинный  это свойство запретит пользователю редактировать содержимое этого СДТ .
+linktitle: LockContents
+articleTitle: LockContents
+second_title: Aspose.Words для .NET
+description: StructuredDocumentTag LockContents свойство. Если установлено значениеистинный  это свойство запретит пользователю редактировать содержимое этогоСДТ  на С#.
 type: docs
 weight: 200
 url: /ru/net/aspose.words.markup/structureddocumenttag/lockcontents/
 ---
 ## StructuredDocumentTag.LockContents property
 
-Если установлено значение`истинный` , это свойство запретит пользователю редактировать содержимое этого **СДТ** .
+Если установлено значение`истинный` , это свойство запретит пользователю редактировать содержимое этого**СДТ** .
 
 ```csharp
 public bool LockContents { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как применить ограничения редактирования к тегам структурированного документа.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.Lock.docx");
 ### Смотрите также
 
 * class [StructuredDocumentTag](../)
-* пространство имен [Aspose.Words.Markup](../../structureddocumenttag/)
+* пространство имен [Aspose.Words.Markup](../../../aspose.words.markup/)
 * сборка [Aspose.Words](../../../)
-
-

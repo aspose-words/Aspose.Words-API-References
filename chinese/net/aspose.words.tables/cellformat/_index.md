@@ -1,7 +1,9 @@
 ---
-title: Class CellFormat
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Tables.CellFormat 班级. 表示表格单元格的所有格式
+title: CellFormat Class
+linktitle: CellFormat
+articleTitle: CellFormat
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Tables.CellFormat 班级. 表示表格单元格的所有格式 在 C#.
 type: docs
 weight: 6260
 url: /zh/net/aspose.words.tables/cellformat/
@@ -23,7 +25,6 @@ public class CellFormat
 | [Borders](../../aspose.words.tables/cellformat/borders/) { get; } | 获取单元格边框的集合。 |
 | [BottomPadding](../../aspose.words.tables/cellformat/bottompadding/) { get; set; } | 返回或设置要在单元格内容下方添加的空间量（以磅为单位）。 |
 | [FitText](../../aspose.words.tables/cellformat/fittext/) { get; set; } | 如果`真的` ，适合单元格中的文本，将每个段落压缩到单元格的宽度。 |
-| [HideMark](../../aspose.words.tables/cellformat/hidemark/) { get; set; } |  |
 | [HorizontalMerge](../../aspose.words.tables/cellformat/horizontalmerge/) { get; set; } | 指定单元格如何与行中的其他单元格水平合并。 |
 | [LeftPadding](../../aspose.words.tables/cellformat/leftpadding/) { get; set; } | 返回或设置要添加到单元格内容左侧的空间量（以磅为单位）。 |
 | [Orientation](../../aspose.words.tables/cellformat/orientation/) { get; set; } | 返回或设置表格单元格中文本的方向。 |
@@ -41,9 +42,9 @@ public class CellFormat
 | 姓名 | 描述 |
 | --- | --- |
 | [ClearFormatting](../../aspose.words.tables/cellformat/clearformatting/)() | 重置为默认单元格格式。不改变单元格的宽度。 |
-| [SetPaddings](../../aspose.words.tables/cellformat/setpaddings/)(double, double, double, double) | 设置添加到单元格内容的左侧/顶部/右侧/底部的空间量（以磅为单位）。 |
+| [SetPaddings](../../aspose.words.tables/cellformat/setpaddings/)(*double, double, double, double*) | 设置添加到单元格内容的左侧/顶部/右侧/底部的空间量（以磅为单位）。 |
 
-### 例子
+## 例子
 
 演示如何修改表格单元格的格式。
 
@@ -157,5 +158,3 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
 
 * 命名空间 [Aspose.Words.Tables](../../aspose.words.tables/)
 * 部件 [Aspose.Words](../../)
-
-

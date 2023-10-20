@@ -1,7 +1,9 @@
 ---
-title: Class ReportingEngine
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Reporting.ReportingEngine сорт. Предоставляет процедуры для заполнения документовшаблонов данными и набор настроек для управления этими процедурами.
+title: ReportingEngine Class
+linktitle: ReportingEngine
+articleTitle: ReportingEngine
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Reporting.ReportingEngine сорт. Предоставляет процедуры для заполнения документовшаблонов данными и набор настроек для управления этими процедурами на С#.
 type: docs
 weight: 4730
 url: /ru/net/aspose.words.reporting/reportingengine/
@@ -34,15 +36,13 @@ public class ReportingEngine
 
 | Имя | Описание |
 | --- | --- |
-| [BuildReport](../../aspose.words.reporting/reportingengine/buildreport/#buildreport)(Document, object) | Заполняет указанный шаблонный документ данными из указанного источника, превращая его в готовый отчет. |
-| [BuildReport](../../aspose.words.reporting/reportingengine/buildreport/#buildreport_1)(Document, object, string) | Заполняет указанный шаблонный документ данными из указанного источника, превращая его в готовый отчет. |
-| [BuildReport](../../aspose.words.reporting/reportingengine/buildreport/#buildreport_2)(Document, object[], string[]) | Заполняет указанный шаблонный документ данными из указанных источников, превращая его в готовый отчет. |
-| [Equals](../../aspose.words.reporting/reportingengine/equals/)(object) | Определяет, равен ли указанный объект по значению текущему объекту. |
+| [BuildReport](../../aspose.words.reporting/reportingengine/buildreport/#buildreport)(*[Document](../../aspose.words/document/), object*) | Заполняет указанный шаблонный документ данными из указанного источника, превращая его в готовый отчет. |
+| [BuildReport](../../aspose.words.reporting/reportingengine/buildreport/#buildreport_1)(*[Document](../../aspose.words/document/), object, string*) | Заполняет указанный шаблонный документ данными из указанного источника, превращая его в готовый отчет. |
+| [BuildReport](../../aspose.words.reporting/reportingengine/buildreport/#buildreport_2)(*[Document](../../aspose.words/document/), object[], string[]*) | Заполняет указанный шаблонный документ данными из указанных источников, превращая его в готовый отчет. |
+| [Equals](../../aspose.words.reporting/reportingengine/equals/)(*object*) | Определяет, равен ли указанный объект по значению текущему объекту. |
 | [GetHashCode](../../aspose.words.reporting/reportingengine/gethashcode/)() | Служит хеш-функцией для этого типа. |
 
 ### Смотрите также
 
 * пространство имен [Aspose.Words.Reporting](../../aspose.words.reporting/)
 * сборка [Aspose.Words](../../)
-
-

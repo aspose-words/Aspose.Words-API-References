@@ -1,7 +1,9 @@
 ---
 title: FieldMergingArgsBase.Document
-second_title: Aspose.Words per .NET API Reference
-description: FieldMergingArgsBase proprietà. Restituisce ilDocument oggetto per cui viene eseguita la stampa unione.
+linktitle: Document
+articleTitle: Document
+second_title: Aspose.Words per .NET
+description: FieldMergingArgsBase Document proprietà. Restituisce ilDocument oggetto per cui viene eseguita la stampa unione in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words.mailmerging/fieldmergingargsbase/document/
@@ -14,7 +16,7 @@ Restituisce il`Document` oggetto per cui viene eseguita la stampa unione.
 public Document Document { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come eseguire una stampa unione con un callback personalizzato che gestisce i dati di unione sotto forma di documenti HTML.
 
@@ -83,7 +85,5 @@ private class HandleMergeFieldInsertHtml : IFieldMergingCallback
 
 * class [Document](../../../aspose.words/document/)
 * class [FieldMergingArgsBase](../)
-* spazio dei nomi [Aspose.Words.MailMerging](../../fieldmergingargsbase/)
+* spazio dei nomi [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * assemblea [Aspose.Words](../../../)
-
-

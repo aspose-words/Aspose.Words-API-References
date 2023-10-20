@@ -1,7 +1,9 @@
 ---
 title: InlineStory.StoryType
-second_title: Référence de l'API Aspose.Words pour .NET
-description: InlineStory propriété. Renvoie le type de lhistoire.
+linktitle: StoryType
+articleTitle: StoryType
+second_title: Aspose.Words pour .NET
+description: InlineStory StoryType propriété. Renvoie le type de lhistoire en C#.
 type: docs
 weight: 100
 url: /fr/net/aspose.words/inlinestory/storytype/
@@ -14,7 +16,7 @@ Renvoie le type de l'histoire.
 public abstract StoryType StoryType { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment insérer des nœuds InlineStory.
 
@@ -74,7 +76,5 @@ doc.Save(ArtifactsDir + "InlineStory.InsertInlineStoryNodes.docx");
 
 * enum [StoryType](../../storytype/)
 * class [InlineStory](../)
-* espace de noms [Aspose.Words](../../inlinestory/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

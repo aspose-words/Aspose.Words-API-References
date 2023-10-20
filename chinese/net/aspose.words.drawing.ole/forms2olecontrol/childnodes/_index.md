@@ -1,7 +1,9 @@
 ---
 title: Forms2OleControl.ChildNodes
-second_title: Aspose.Words for .NET API 参考
-description: Forms2OleControl 财产. 获取直接子控件的集合
+linktitle: ChildNodes
+articleTitle: ChildNodes
+second_title: 用于 .NET 的 Aspose.Words
+description: Forms2OleControl ChildNodes 财产. 获取直接子控件的集合 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.drawing.ole/forms2olecontrol/childnodes/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.drawing.ole/forms2olecontrol/childnodes/
 public virtual Forms2OleControlCollection ChildNodes { get; }
 ```
 
-### 评论
+## 评论
 
 退货`无效的`如果这样控制就不能生孩子。
 
-### 例子
+## 例子
 
 演示如何验证 ActiveX 控件的属性。
 
@@ -49,7 +51,5 @@ if (oleControl.IsForms2OleControl)
 
 * class [Forms2OleControlCollection](../../forms2olecontrolcollection/)
 * class [Forms2OleControl](../)
-* 命名空间 [Aspose.Words.Drawing.Ole](../../forms2olecontrol/)
+* 命名空间 [Aspose.Words.Drawing.Ole](../../../aspose.words.drawing.ole/)
 * 部件 [Aspose.Words](../../../)
-
-

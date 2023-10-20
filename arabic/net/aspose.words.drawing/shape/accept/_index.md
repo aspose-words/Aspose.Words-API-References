@@ -1,7 +1,9 @@
 ---
 title: Shape.Accept
-second_title: Aspose.Words لمراجع .NET API
-description: Shape طريقة. يقبل الزائر.
+linktitle: Accept
+articleTitle: Accept
+second_title: Aspose.Words لـ .NET
+description: Shape Accept طريقة. يقبل الزائر في C#.
 type: docs
 weight: 240
 url: /ar/net/aspose.words.drawing/shape/accept/
@@ -22,7 +24,7 @@ public override bool Accept(DocumentVisitor visitor)
 
 صحيح إذا تمت زيارة جميع العقد؛ كاذبة إذا[`DocumentVisitor`](../../../aspose.words/documentvisitor/) أوقفت العملية قبل زيارة كافة العقد.
 
-### ملاحظات
+## ملاحظات
 
 يعدد هذه العقدة وجميع أبنائها. تستدعي كل عقدة الطريقة المقابلة لها[`DocumentVisitor`](../../../aspose.words/documentvisitor/).
 
@@ -30,7 +32,7 @@ public override bool Accept(DocumentVisitor visitor)
 
 المكالمات[`VisitShapeStart`](../../../aspose.words/documentvisitor/visitshapestart/) ، ثم يتصل[`Accept`](../../../aspose.words/node/accept/) لجميع العقد التابعة للشكل والمكالمات[`VisitShapeEnd`](../../../aspose.words/documentvisitor/visitshapeend/) في النهاية.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التكرار على كافة الأشكال في المستند.
 
@@ -154,7 +156,5 @@ private class ShapeAppearancePrinter : DocumentVisitor
 
 * class [DocumentVisitor](../../../aspose.words/documentvisitor/)
 * class [Shape](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../shape/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

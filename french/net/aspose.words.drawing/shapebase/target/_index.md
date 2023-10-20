@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.Target
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ShapeBase propriété. Obtient ou définit le cadre cible pour le lien hypertexte de forme.
+linktitle: Target
+articleTitle: Target
+second_title: Aspose.Words pour .NET
+description: ShapeBase Target propriété. Obtient ou définit le cadre cible pour le lien hypertexte de forme en C#.
 type: docs
 weight: 520
 url: /fr/net/aspose.words.drawing/shapebase/target/
@@ -14,11 +16,11 @@ Obtient ou définit le cadre cible pour le lien hypertexte de forme.
 public string Target { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 La valeur par défaut est une chaîne vide.
 
-### Exemples
+## Exemples
 
 Montre comment insérer une forme contenant une image et qui constitue également un lien hypertexte.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "Image.InsertImageWithHyperlink.docx");
 ### Voir également
 
 * class [ShapeBase](../)
-* espace de noms [Aspose.Words.Drawing](../../shapebase/)
+* espace de noms [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Assemblée [Aspose.Words](../../../)
-
-

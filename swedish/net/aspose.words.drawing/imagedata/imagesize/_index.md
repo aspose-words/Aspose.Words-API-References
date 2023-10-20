@@ -1,7 +1,9 @@
 ---
 title: ImageData.ImageSize
-second_title: Aspose.Words för .NET API Referens
-description: ImageData fast egendom. Får information om bildstorlek och upplösning.
+linktitle: ImageSize
+articleTitle: ImageSize
+second_title: Aspose.Words för .NET
+description: ImageData ImageSize fast egendom. Får information om bildstorlek och upplösning i C#.
 type: docs
 weight: 130
 url: /sv/net/aspose.words.drawing/imagedata/imagesize/
@@ -14,11 +16,11 @@ Får information om bildstorlek och upplösning.
 public ImageSize ImageSize { get; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Om bilden endast är länkad och inte lagras i dokumentet, returneras noll storlek.
 
-### Exempel
+## Exempel
 
 Visar hur man ändrar storlek på en form med en bild.
 
@@ -76,7 +78,5 @@ Visar hur man ändrar storlek på en form med en bild.
 
 * class [ImageSize](../../imagesize/)
 * class [ImageData](../)
-* namnutrymme [Aspose.Words.Drawing](../../imagedata/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: LayoutEnumerator.PageIndex
-second_title: Aspose.Words för .NET API Referens
-description: LayoutEnumerator fast egendom. Hämtar det 1baserade indexet för en sida som innehåller den aktuella enheten.
+linktitle: PageIndex
+articleTitle: PageIndex
+second_title: Aspose.Words för .NET
+description: LayoutEnumerator PageIndex fast egendom. Hämtar det 1baserade indexet för en sida som innehåller den aktuella enheten i C#.
 type: docs
 weight: 60
 url: /sv/net/aspose.words.layout/layoutenumerator/pageindex/
@@ -14,7 +16,7 @@ Hämtar det 1-baserade indexet för en sida som innehåller den aktuella enheten
 public int PageIndex { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar sätt att gå igenom ett dokuments layoutenheter.
 
@@ -159,7 +161,5 @@ private static void PrintCurrentEntity(LayoutEnumerator layoutEnumerator, int in
 ### Se även
 
 * class [LayoutEnumerator](../)
-* namnutrymme [Aspose.Words.Layout](../../layoutenumerator/)
+* namnutrymme [Aspose.Words.Layout](../../../aspose.words.layout/)
 * hopsättning [Aspose.Words](../../../)
-
-

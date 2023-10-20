@@ -1,7 +1,9 @@
 ---
 title: DocumentPartSavingArgs.KeepDocumentPartStreamOpen
-second_title: Aspose.Words لمراجع .NET API
-description: DocumentPartSavingArgs ملكية. يحدد ما إذا كان يجب على Aspose.Words إبقاء الدفق مفتوحًا أو إغلاقه بعد حفظ جزء من المستند.
+linktitle: KeepDocumentPartStreamOpen
+articleTitle: KeepDocumentPartStreamOpen
+second_title: Aspose.Words لـ .NET
+description: DocumentPartSavingArgs KeepDocumentPartStreamOpen ملكية. يحدد ما إذا كان يجب على Aspose.Words إبقاء الدفق مفتوحًا أو إغلاقه بعد حفظ جزء من المستند في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.saving/documentpartsavingargs/keepdocumentpartstreamopen/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.saving/documentpartsavingargs/keepdocumentpartstreamop
 public bool KeepDocumentPartStreamOpen { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 الافتراضي هو`خطأ شنيع` وسيقوم Aspose.Words بإغلاق الدفق الذي قدمته في ملف[`DocumentPartStream`](../documentpartstream/) الخاصية بعد كتابة جزء من المستند فيها. تحديد`حقيقي` لإبقاء الدفق مفتوحًا. يرجى ملاحظة أن تيار الإخراج الرئيسي تم توفيره في المكالمة[`Save`](../../../aspose.words/document/save/)أو [`Save`](../../../aspose.words/document/save/) لن يتم إغلاقه أبدًا بواسطة Aspose.Words حتى لو`KeepDocumentPartStreamOpen` تم ضبطه على`خطأ شنيع`.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تقسيم مستند إلى أجزاء وحفظها.
 
@@ -135,7 +137,5 @@ public class SavedImageRename : IImageSavingCallback
 ### أنظر أيضا
 
 * class [DocumentPartSavingArgs](../)
-* مساحة الاسم [Aspose.Words.Saving](../../documentpartsavingargs/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

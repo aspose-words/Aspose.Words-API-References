@@ -1,7 +1,9 @@
 ---
 title: CsvDataLoadOptions.HasHeaders
-second_title: Referencia de API de Aspose.Words para .NET
-description: CsvDataLoadOptions propiedad. Obtiene o establece un valor que indica si el primer registro de datos CSV contiene nombres de columnas.
+linktitle: HasHeaders
+articleTitle: HasHeaders
+second_title: Aspose.Words para .NET
+description: CsvDataLoadOptions HasHeaders propiedad. Obtiene o establece un valor que indica si el primer registro de datos CSV contiene nombres de columnas en C#.
 type: docs
 weight: 40
 url: /es/net/aspose.words.reporting/csvdataloadoptions/hasheaders/
@@ -14,14 +16,12 @@ Obtiene o establece un valor que indica si el primer registro de datos CSV conti
 public bool HasHeaders { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 El valor predeterminado es`FALSO` .
 
 ### Ver también
 
 * class [CsvDataLoadOptions](../)
-* espacio de nombres [Aspose.Words.Reporting](../../csvdataloadoptions/)
+* espacio de nombres [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * asamblea [Aspose.Words](../../../)
-
-

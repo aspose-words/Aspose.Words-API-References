@@ -1,7 +1,9 @@
 ---
-title: Enum CommentDisplayMode
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Layout.CommentDisplayMode 枚举. 指定文档注释的呈现模式
+title: CommentDisplayMode Enum
+linktitle: CommentDisplayMode
+articleTitle: CommentDisplayMode
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Layout.CommentDisplayMode 枚举. 指定文档注释的呈现模式 在 C#.
 type: docs
 weight: 3290
 url: /zh/net/aspose.words.layout/commentdisplaymode/
@@ -22,7 +24,7 @@ public enum CommentDisplayMode
 | ShowInBalloons | `1` | 在页边空白处以气球形式呈现文档注释。这是默认值。 |
 | ShowInAnnotations | `2` | 在注释中呈现文档注释。这仅适用于 Pdf 格式。 |
 
-### 例子
+## 例子
 
 演示如何在将文档保存为渲染格式时显示注释。
 
@@ -54,5 +56,3 @@ doc.Save(ArtifactsDir + "Document.ShowCommentsInBalloons.pdf");
 
 * 命名空间 [Aspose.Words.Layout](../../aspose.words.layout/)
 * 部件 [Aspose.Words](../../)
-
-

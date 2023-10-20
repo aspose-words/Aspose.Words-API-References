@@ -1,7 +1,9 @@
 ---
 title: SystemFontSource.GetSystemFontFolders
-second_title: Aspose.Words for .NET API 参考
-description: SystemFontSource 方法. 返回系统字体文件夹或空数组如果文件夹不可访问
+linktitle: GetSystemFontFolders
+articleTitle: GetSystemFontFolders
+second_title: 用于 .NET 的 Aspose.Words
+description: SystemFontSource GetSystemFontFolders 方法. 返回系统字体文件夹或空数组如果文件夹不可访问 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.fonts/systemfontsource/getsystemfontfolders/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.fonts/systemfontsource/getsystemfontfolders/
 public static string[] GetSystemFontFolders()
 ```
 
-### 评论
+## 评论
 
 在某些平台上，Aspose.Words 不仅可以通过文件夹搜索系统字体，还可以在其他来源中搜索系统字体。例如，在 Windows 平台上 Aspose.Words 也在注册表中搜索字体。
 
-### 例子
+## 例子
 
 演示如何访问文档的系统字体源并设置字体替代品。
 
@@ -74,7 +76,5 @@ Assert.AreEqual(1,
 ### 也可以看看
 
 * class [SystemFontSource](../)
-* 命名空间 [Aspose.Words.Fonts](../../systemfontsource/)
+* 命名空间 [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * 部件 [Aspose.Words](../../../)
-
-

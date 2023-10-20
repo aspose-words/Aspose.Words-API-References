@@ -1,7 +1,9 @@
 ---
-title: Enum AxisTickLabelPosition
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Drawing.Charts.AxisTickLabelPosition تعداد. يحدد المواضع المحتملة لتسميات التجزئة.
+title: AxisTickLabelPosition Enum
+linktitle: AxisTickLabelPosition
+articleTitle: AxisTickLabelPosition
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Drawing.Charts.AxisTickLabelPosition تعداد. يحدد المواضع المحتملة لتسميات التجزئة في C#.
 type: docs
 weight: 580
 url: /ar/net/aspose.words.drawing.charts/axisticklabelposition/
@@ -24,7 +26,7 @@ public enum AxisTickLabelPosition
 | None | `3` | تحديد تسميات المحاور غير المرسومة. |
 | Default | `2` | يحدد القيمة الافتراضية لموضع تسميات التجزئة. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج مخطط بقيم التاريخ/الوقت.
 
@@ -79,5 +81,3 @@ doc.Save(ArtifactsDir + "Charts.DateTimeValues.docx");
 
 * مساحة الاسم [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../)
-
-

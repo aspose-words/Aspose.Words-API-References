@@ -1,7 +1,9 @@
 ---
 title: FieldRD.IsPathRelative
-second_title: Aspose.Words لمراجع .NET API
-description: FieldRD ملكية. الحصول على أو تحديد ما إذا كان المسار مرتبطًا بالمستند الحالي.
+linktitle: IsPathRelative
+articleTitle: IsPathRelative
+second_title: Aspose.Words لـ .NET
+description: FieldRD IsPathRelative ملكية. الحصول على أو تحديد ما إذا كان المسار مرتبطًا بالمستند الحالي في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.fields/fieldrd/ispathrelative/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldrd/ispathrelative/
 public bool IsPathRelative { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يظهر كيفية استخدام حقل RD لإنشاء جدول محتويات الإدخالات من العناوين في المستندات الأخرى.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "Field.RD.docx");
 ### أنظر أيضا
 
 * class [FieldRD](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldrd/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

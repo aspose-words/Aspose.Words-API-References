@@ -1,7 +1,9 @@
 ---
 title: FormField.DropDownSelectedIndex
-second_title: Aspose.Words für .NET-API-Referenz
-description: FormField eigendom. Ruft den Index ab oder legt ihn fest der das aktuell ausgewählte Element in einem DropdownFormularfeld angibt.
+linktitle: DropDownSelectedIndex
+articleTitle: DropDownSelectedIndex
+second_title: Aspose.Words für .NET
+description: FormField DropDownSelectedIndex eigendom. Ruft den Index ab oder legt ihn fest der das aktuell ausgewählte Element in einem DropdownFormularfeld angibt in C#.
 type: docs
 weight: 60
 url: /de/net/aspose.words.fields/formfield/dropdownselectedindex/
@@ -14,7 +16,7 @@ Ruft den Index ab oder legt ihn fest, der das aktuell ausgewählte Element in ei
 public int DropDownSelectedIndex { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie verschiedene Arten von Formularfeldern in ein Dokument eingefügt und mithilfe einer Dokumentbesucherimplementierung verarbeitet werden.
 
@@ -148,7 +150,5 @@ public class FormFieldVisitor : DocumentVisitor
 ### Siehe auch
 
 * class [FormField](../)
-* namensraum [Aspose.Words.Fields](../../formfield/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

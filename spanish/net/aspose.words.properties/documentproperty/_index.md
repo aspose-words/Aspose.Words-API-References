@@ -1,7 +1,9 @@
 ---
-title: Class DocumentProperty
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Properties.DocumentProperty clase. Representa una propiedad de documento personalizada o integrada.
+title: DocumentProperty Class
+linktitle: DocumentProperty
+articleTitle: DocumentProperty
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Properties.DocumentProperty clase. Representa una propiedad de documento personalizada o integrada en C#.
 type: docs
 weight: 4470
 url: /es/net/aspose.words.properties/documentproperty/
@@ -32,12 +34,12 @@ public class DocumentProperty
 | --- | --- |
 | [ToBool](../../aspose.words.properties/documentproperty/tobool/)() | Devuelve el valor de la propiedad como bool. |
 | [ToByteArray](../../aspose.words.properties/documentproperty/tobytearray/)() | Devuelve el valor de la propiedad como matriz de bytes. |
-| [ToDateTime](../../aspose.words.properties/documentproperty/todatetime/)() | Devuelve el valor de la propiedad como **Fecha y hora** en UTC. |
+| [ToDateTime](../../aspose.words.properties/documentproperty/todatetime/)() | Devuelve el valor de la propiedad como**Fecha y hora** en UTC. |
 | [ToDouble](../../aspose.words.properties/documentproperty/todouble/)() | Devuelve el valor de la propiedad como doble. |
 | [ToInt](../../aspose.words.properties/documentproperty/toint/)() | Devuelve el valor de la propiedad como un número entero. |
 | override [ToString](../../aspose.words.properties/documentproperty/tostring/)() | Devuelve el valor de la propiedad como una cadena formateada según la configuración regional actual. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo trabajar con propiedades de documentos integradas.
 
@@ -73,5 +75,3 @@ foreach (DocumentProperty docProperty in doc.BuiltInDocumentProperties)
 * class [DocumentPropertyCollection](../documentpropertycollection/)
 * espacio de nombres [Aspose.Words.Properties](../../aspose.words.properties/)
 * asamblea [Aspose.Words](../../)
-
-

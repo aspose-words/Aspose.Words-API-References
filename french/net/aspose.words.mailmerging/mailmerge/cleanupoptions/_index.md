@@ -1,7 +1,9 @@
 ---
 title: MailMerge.CleanupOptions
-second_title: Référence de l'API Aspose.Words pour .NET
-description: MailMerge propriété. Obtient ou définit un ensemble dindicateurs qui spécifient les éléments qui doivent être supprimés lors du publipostage.
+linktitle: CleanupOptions
+articleTitle: CleanupOptions
+second_title: Aspose.Words pour .NET
+description: MailMerge CleanupOptions propriété. Obtient ou définit un ensemble dindicateurs qui spécifient les éléments qui doivent être supprimés lors du publipostage en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.mailmerging/mailmerge/cleanupoptions/
@@ -14,7 +16,7 @@ Obtient ou définit un ensemble d'indicateurs qui spécifient les éléments qui
 public MailMergeCleanupOptions CleanupOptions { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment supprimer les paragraphes vides qu’un publipostage peut créer à partir du document de sortie de la fusion.
 
@@ -87,7 +89,5 @@ else
 
 * enum [MailMergeCleanupOptions](../../mailmergecleanupoptions/)
 * class [MailMerge](../)
-* espace de noms [Aspose.Words.MailMerging](../../mailmerge/)
+* espace de noms [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * Assemblée [Aspose.Words](../../../)
-
-

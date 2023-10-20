@@ -1,7 +1,9 @@
 ---
 title: IFieldUpdateCultureProvider.GetCulture
-second_title: Aspose.Words for .NET API 参考
-description: IFieldUpdateCultureProvider 方法. 返回一个CultureInfo字段更新期间要使用的对象
+linktitle: GetCulture
+articleTitle: GetCulture
+second_title: 用于 .NET 的 Aspose.Words
+description: IFieldUpdateCultureProvider GetCulture 方法. 返回一个CultureInfo字段更新期间要使用的对象 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.fields/ifieldupdatecultureprovider/getculture/
@@ -23,7 +25,7 @@ public CultureInfo GetCulture(string culture, Field field)
 
 应用于字段更新的区域性对象。
 
-### 例子
+## 例子
 
 演示如何指定解析每个字段的日期/时间格式的区域性。
 
@@ -95,7 +97,5 @@ private class FieldUpdateCultureProvider : IFieldUpdateCultureProvider
 
 * class [Field](../../field/)
 * interface [IFieldUpdateCultureProvider](../)
-* 命名空间 [Aspose.Words.Fields](../../ifieldupdatecultureprovider/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

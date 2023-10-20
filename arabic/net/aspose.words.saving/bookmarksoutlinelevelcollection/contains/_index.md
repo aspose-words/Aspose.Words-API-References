@@ -1,7 +1,9 @@
 ---
 title: BookmarksOutlineLevelCollection.Contains
-second_title: Aspose.Words لمراجع .NET API
-description: BookmarksOutlineLevelCollection طريقة. يحدد ما إذا كانت المجموعة تحتوي على إشارة مرجعية بالاسم المحدد.
+linktitle: Contains
+articleTitle: Contains
+second_title: Aspose.Words لـ .NET
+description: BookmarksOutlineLevelCollection Contains طريقة. يحدد ما إذا كانت المجموعة تحتوي على إشارة مرجعية بالاسم المحدد في C#.
 type: docs
 weight: 60
 url: /ar/net/aspose.words.saving/bookmarksoutlinelevelcollection/contains/
@@ -22,7 +24,7 @@ public bool Contains(string name)
 
 `حقيقي` إذا تم العثور على العنصر في المجموعة؛ خلاف ذلك،`خطأ شنيع`.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين مستويات المخطط التفصيلي للإشارات المرجعية.
 
@@ -80,7 +82,5 @@ outlineLevels.Clear();
 ### أنظر أيضا
 
 * class [BookmarksOutlineLevelCollection](../)
-* مساحة الاسم [Aspose.Words.Saving](../../bookmarksoutlinelevelcollection/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

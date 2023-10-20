@@ -1,7 +1,9 @@
 ---
 title: MailMerge.TrimWhitespaces
-second_title: Aspose.Words för .NET API Referens
-description: MailMerge fast egendom. Hämtar eller ställer in ett värde som anger om efterföljande och inledande blanksteg beskärs från sammanslagningsvärden.
+linktitle: TrimWhitespaces
+articleTitle: TrimWhitespaces
+second_title: Aspose.Words för .NET
+description: MailMerge TrimWhitespaces fast egendom. Hämtar eller ställer in ett värde som anger om efterföljande och inledande blanksteg beskärs från sammanslagningsvärden i C#.
 type: docs
 weight: 130
 url: /sv/net/aspose.words.mailmerging/mailmerge/trimwhitespaces/
@@ -14,11 +16,11 @@ Hämtar eller ställer in ett värde som anger om efterföljande och inledande b
 public bool TrimWhitespaces { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Standardvärdet är`Sann` .
 
-### Exempel
+## Exempel
 
 Visar hur man trimmar blanksteg från värden för en datakälla medan en e-postsammanslagning körs.
 
@@ -37,7 +39,5 @@ Assert.AreEqual(trimWhitespaces ? "hello world!\f" : "\t hello world! \f", doc.G
 ### Se även
 
 * class [MailMerge](../)
-* namnutrymme [Aspose.Words.MailMerging](../../mailmerge/)
+* namnutrymme [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: BookmarksOutlineLevelCollection.Count
-second_title: Aspose.Words per .NET API Reference
-description: BookmarksOutlineLevelCollection proprietà. Ottiene il numero di elementi contenuti nella raccolta.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words per .NET
+description: BookmarksOutlineLevelCollection Count proprietà. Ottiene il numero di elementi contenuti nella raccolta in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words.saving/bookmarksoutlinelevelcollection/count/
@@ -14,7 +16,7 @@ Ottiene il numero di elementi contenuti nella raccolta.
 public int Count { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come impostare i livelli di struttura per i segnalibri.
 
@@ -72,7 +74,5 @@ outlineLevels.Clear();
 ### Guarda anche
 
 * class [BookmarksOutlineLevelCollection](../)
-* spazio dei nomi [Aspose.Words.Saving](../../bookmarksoutlinelevelcollection/)
+* spazio dei nomi [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.LineUnitAfter
-second_title: Aspose.Words per .NET API Reference
-description: ParagraphFormat proprietà. Ottiene o imposta la quantità di spaziatura nelle griglie dopo i paragrafi.
+linktitle: LineUnitAfter
+articleTitle: LineUnitAfter
+second_title: Aspose.Words per .NET
+description: ParagraphFormat LineUnitAfter proprietà. Ottiene o imposta la quantità di spaziatura nelle griglie dopo i paragrafi in C#.
 type: docs
 weight: 220
 url: /it/net/aspose.words/paragraphformat/lineunitafter/
@@ -14,7 +16,7 @@ Ottiene o imposta la quantità di spaziatura (nelle griglie) dopo i paragrafi.
 public double LineUnitAfter { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come modificare la spaziatura e i rientri dei paragrafi.
 
@@ -68,7 +70,5 @@ builder.Write("测试文档测试文档测试文档测试文档测试文档测�
 ### Guarda anche
 
 * class [ParagraphFormat](../)
-* spazio dei nomi [Aspose.Words](../../paragraphformat/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

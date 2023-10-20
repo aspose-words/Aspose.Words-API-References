@@ -1,7 +1,9 @@
 ---
 title: ControlChar.NonBreakingSpace
-second_title: Aspose.Words لمراجع .NET API
-description: ControlChar مجال. حرف مسافة غير منقسمة x00a0.
+linktitle: NonBreakingSpace
+articleTitle: NonBreakingSpace
+second_title: Aspose.Words لـ .NET
+description: ControlChar NonBreakingSpace مجال. حرف مسافة غير منقسمة x00a0 في C#.
 type: docs
 weight: 170
 url: /ar/net/aspose.words/controlchar/nonbreakingspace/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/controlchar/nonbreakingspace/
 public static readonly string NonBreakingSpace;
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إضافة أحرف تحكم مختلفة إلى مستند.
 
@@ -86,7 +88,5 @@ Assert.AreEqual(Convert.ToChar(ControlChar.ColumnBreak), ControlChar.ColumnBreak
 ### أنظر أيضا
 
 * class [ControlChar](../)
-* مساحة الاسم [Aspose.Words](../../controlchar/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

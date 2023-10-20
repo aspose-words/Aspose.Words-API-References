@@ -1,7 +1,9 @@
 ---
-title: Class BookmarkCollection
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.BookmarkCollection klas. Eine Sammlung vonBookmark Objekte die die Lesezeichen im angegebenen Bereich darstellen.
+title: BookmarkCollection Class
+linktitle: BookmarkCollection
+articleTitle: BookmarkCollection
+second_title: Aspose.Words für .NET
+description: Aspose.Words.BookmarkCollection klas. Eine Sammlung vonBookmark Objekte die die Lesezeichen im angegebenen Bereich darstellen in C#.
 type: docs
 weight: 50
 url: /de/net/aspose.words/bookmarkcollection/
@@ -29,11 +31,11 @@ public class BookmarkCollection : IEnumerable<Bookmark>
 | --- | --- |
 | [Clear](../../aspose.words/bookmarkcollection/clear/)() | Entfernt alle Lesezeichen aus dieser Sammlung und aus dem Dokument. |
 | [GetEnumerator](../../aspose.words/bookmarkcollection/getenumerator/)() | Gibt ein Enumeratorobjekt zurück. |
-| [Remove](../../aspose.words/bookmarkcollection/remove/#remove)(Bookmark) | Entfernt das angegebene Lesezeichen aus dem Dokument. |
-| [Remove](../../aspose.words/bookmarkcollection/remove/#remove_1)(string) | Entfernt ein Lesezeichen mit dem angegebenen Namen. |
-| [RemoveAt](../../aspose.words/bookmarkcollection/removeat/)(int) | Entfernt ein Lesezeichen am angegebenen Index. |
+| [Remove](../../aspose.words/bookmarkcollection/remove/#remove)(*[Bookmark](../bookmark/)*) | Entfernt das angegebene Lesezeichen aus dem Dokument. |
+| [Remove](../../aspose.words/bookmarkcollection/remove/#remove_1)(*string*) | Entfernt ein Lesezeichen mit dem angegebenen Namen. |
+| [RemoveAt](../../aspose.words/bookmarkcollection/removeat/)(*int*) | Entfernt ein Lesezeichen am angegebenen Index. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie Lesezeichen hinzufügen und deren Inhalte aktualisieren.
 
@@ -124,5 +126,3 @@ public class BookmarkInfoPrinter : DocumentVisitor
 * class [Bookmark](../bookmark/)
 * namensraum [Aspose.Words](../../aspose.words/)
 * Montage [Aspose.Words](../../)
-
-

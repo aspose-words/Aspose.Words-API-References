@@ -1,7 +1,9 @@
 ---
 title: EditableRangeStart.EditableRange
-second_title: Aspose.Words für .NET-API-Referenz
-description: EditableRangeStart eigendom. Ruft das Fassadenobjekt ab das den Anfang und das Ende dieses bearbeitbaren Bereichs einschließt.
+linktitle: EditableRange
+articleTitle: EditableRange
+second_title: Aspose.Words für .NET
+description: EditableRangeStart EditableRange eigendom. Ruft das Fassadenobjekt ab das den Anfang und das Ende dieses bearbeitbaren Bereichs einschließt in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words/editablerangestart/editablerange/
@@ -14,7 +16,7 @@ Ruft das Fassadenobjekt ab, das den Anfang und das Ende dieses bearbeitbaren Ber
 public EditableRange EditableRange { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit einem bearbeitbaren Bereich gearbeitet wird.
 
@@ -61,7 +63,5 @@ editableRange.Remove();
 
 * class [EditableRange](../../editablerange/)
 * class [EditableRangeStart](../)
-* namensraum [Aspose.Words](../../editablerangestart/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ListLevel.LinkedStyle
-second_title: Aspose.Words for .NET API 参考
-description: ListLevel 财产. 获取或设置链接到此列表级别的段落样式
+linktitle: LinkedStyle
+articleTitle: LinkedStyle
+second_title: 用于 .NET 的 Aspose.Words
+description: ListLevel LinkedStyle 财产. 获取或设置链接到此列表级别的段落样式 在 C#.
 type: docs
 weight: 60
 url: /zh/net/aspose.words.lists/listlevel/linkedstyle/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.lists/listlevel/linkedstyle/
 public Style LinkedStyle { get; set; }
 ```
 
-### 评论
+## 评论
 
 此属性是`无效的`当列表级别未链接到段落样式时。 该属性可以设置为`无效的`。
 
-### 例子
+## 例子
 
 显示自定义列表标签的高级方法。
 
@@ -80,7 +82,5 @@ doc.Save(ArtifactsDir + "Lists.CreateListRestartAfterHigher.docx");
 
 * class [Style](../../../aspose.words/style/)
 * class [ListLevel](../)
-* 命名空间 [Aspose.Words.Lists](../../listlevel/)
+* 命名空间 [Aspose.Words.Lists](../../../aspose.words.lists/)
 * 部件 [Aspose.Words](../../../)
-
-

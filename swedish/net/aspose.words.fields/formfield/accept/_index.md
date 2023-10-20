@@ -1,7 +1,9 @@
 ---
 title: FormField.Accept
-second_title: Aspose.Words för .NET API Referens
-description: FormField metod. Accepterar en besökare.
+linktitle: Accept
+articleTitle: Accept
+second_title: Aspose.Words för .NET
+description: FormField Accept metod. Accepterar en besökare i C#.
 type: docs
 weight: 230
 url: /sv/net/aspose.words.fields/formfield/accept/
@@ -22,13 +24,13 @@ public override bool Accept(DocumentVisitor visitor)
 
 `falsk` om besökaren begärde att uppräkningen skulle sluta.
 
-### Anmärkningar
+## Anmärkningar
 
 Samtal[`VisitFormField`](../../../aspose.words/documentvisitor/visitformfield/).
 
 För mer information se Visitor design mönster.
 
-### Exempel
+## Exempel
 
 Visar hur man infogar olika typer av formulärfält i ett dokument och bearbetar dem med hjälp av en dokumentbesökarimplementering.
 
@@ -163,7 +165,5 @@ public class FormFieldVisitor : DocumentVisitor
 
 * class [DocumentVisitor](../../../aspose.words/documentvisitor/)
 * class [FormField](../)
-* namnutrymme [Aspose.Words.Fields](../../formfield/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

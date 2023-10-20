@@ -1,7 +1,9 @@
 ---
-title: Class LayoutCollector
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Layout.LayoutCollector classe. Cette classe permet de calculer les numéros de page des nœuds du document.
+title: LayoutCollector Class
+linktitle: LayoutCollector
+articleTitle: LayoutCollector
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Layout.LayoutCollector classe. Cette classe permet de calculer les numéros de page des nœuds du document en C#.
 type: docs
 weight: 3320
 url: /fr/net/aspose.words.layout/layoutcollector/
@@ -20,7 +22,7 @@ public class LayoutCollector
 
 | Nom | La description |
 | --- | --- |
-| [LayoutCollector](layoutcollector/)(Document) | Initialise une instance de cette classe. |
+| [LayoutCollector](layoutcollector/)(*[Document](../../aspose.words/document/)*) | Initialise une instance de cette classe. |
 
 ## Propriétés
 
@@ -33,12 +35,12 @@ public class LayoutCollector
 | Nom | La description |
 | --- | --- |
 | [Clear](../../aspose.words.layout/layoutcollector/clear/)() | Efface toutes les données de mise en page collectées. Appelez cette méthode après que le document a été mis à jour manuellement ou que la mise en page a été reconstruite. |
-| [GetEndPageIndex](../../aspose.words.layout/layoutcollector/getendpageindex/)(Node) | Obtient l'index de base 1 de la page où se termine le nœud. Renvoie 0 si le nœud ne peut pas être mappé à une page. |
-| [GetEntity](../../aspose.words.layout/layoutcollector/getentity/)(Node) | Renvoie une position opaque du[`LayoutEnumerator`](../layoutenumerator/) qui correspond au nœud spécifié. Vous pouvez utiliser la valeur renvoyée comme argument pour[`Current`](../layoutenumerator/current/) étant donné que le document étant énuméré et le document du nœud sont les mêmes. |
-| [GetNumPagesSpanned](../../aspose.words.layout/layoutcollector/getnumpagesspanned/)(Node) | Obtient le nombre de pages couvertes par le nœud spécifié. 0 si le nœud se trouve dans une seule page. C'est la même chose que[`GetEndPageIndex`](./getendpageindex/) -[`GetStartPageIndex`](./getstartpageindex/) . |
-| [GetStartPageIndex](../../aspose.words.layout/layoutcollector/getstartpageindex/)(Node) | Obtient l'index de base 1 de la page où commence le nœud. Renvoie 0 si le nœud ne peut pas être mappé à une page. |
+| [GetEndPageIndex](../../aspose.words.layout/layoutcollector/getendpageindex/)(*[Node](../../aspose.words/node/)*) | Obtient l'index de base 1 de la page où se termine le nœud. Renvoie 0 si le nœud ne peut pas être mappé à une page. |
+| [GetEntity](../../aspose.words.layout/layoutcollector/getentity/)(*[Node](../../aspose.words/node/)*) | Renvoie une position opaque du[`LayoutEnumerator`](../layoutenumerator/) qui correspond au nœud spécifié. Vous pouvez utiliser la valeur renvoyée comme argument pour[`Current`](../layoutenumerator/current/) étant donné que le document étant énuméré et le document du nœud sont les mêmes. |
+| [GetNumPagesSpanned](../../aspose.words.layout/layoutcollector/getnumpagesspanned/)(*[Node](../../aspose.words/node/)*) | Obtient le nombre de pages couvertes par le nœud spécifié. 0 si le nœud se trouve dans une seule page. C'est la même chose que[`GetEndPageIndex`](./getendpageindex/) -[`GetStartPageIndex`](./getstartpageindex/) . |
+| [GetStartPageIndex](../../aspose.words.layout/layoutcollector/getstartpageindex/)(*[Node](../../aspose.words/node/)*) | Obtient l'index de base 1 de la page où commence le nœud. Renvoie 0 si le nœud ne peut pas être mappé à une page. |
 
-### Remarques
+## Remarques
 
 Lorsque vous créez un`LayoutCollector` et précisez un[`Document`](../../aspose.words/document/) objet de document auquel attacher, le collecteur enregistrera le mappage des nœuds de document aux objets de mise en page lorsque le document est formaté en pages.
 
@@ -46,7 +48,7 @@ Vous pourrez savoir sur quelle page se trouve un nœud de document particulier (
 
 Lorsque vous n'avez plus besoin de collecter des informations de mise en page, il est préférable de définir le[`Document`](./document/) propriété à`nul` pour éviter la collecte inutile de mappages de mise en page supplémentaires.
 
-### Exemples
+## Exemples
 
 Montre comment afficher les plages de pages couvertes par un nœud.
 
@@ -105,5 +107,3 @@ Assert.AreEqual("¶", layoutEnumerator.Text);
 
 * espace de noms [Aspose.Words.Layout](../../aspose.words.layout/)
 * Assemblée [Aspose.Words](../../)
-
-

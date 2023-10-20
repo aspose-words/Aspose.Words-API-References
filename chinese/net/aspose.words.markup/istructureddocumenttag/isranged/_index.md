@@ -1,7 +1,9 @@
 ---
 title: IStructuredDocumentTag.IsRanged
-second_title: Aspose.Words for .NET API 参考
-description: IStructuredDocumentTag 方法. 如果此实例是范围结构化文档标记则返回 true
+linktitle: IsRanged
+articleTitle: IsRanged
+second_title: 用于 .NET 的 Aspose.Words
+description: IStructuredDocumentTag IsRanged 方法. 如果此实例是范围结构化文档标记则返回 true 在 C#.
 type: docs
 weight: 140
 url: /zh/net/aspose.words.markup/istructureddocumenttag/isranged/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.markup/istructureddocumenttag/isranged/
 public bool IsRanged()
 ```
 
-### 例子
+## 例子
 
 展示如何获取结构化文档标签。
 
@@ -34,7 +36,5 @@ Console.WriteLine(sdt.Id);
 ### 也可以看看
 
 * interface [IStructuredDocumentTag](../)
-* 命名空间 [Aspose.Words.Markup](../../istructureddocumenttag/)
+* 命名空间 [Aspose.Words.Markup](../../../aspose.words.markup/)
 * 部件 [Aspose.Words](../../../)
-
-

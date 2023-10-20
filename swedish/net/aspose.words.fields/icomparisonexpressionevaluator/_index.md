@@ -1,7 +1,9 @@
 ---
-title: Interface IComparisonExpressionEvaluator
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Fields.IComparisonExpressionEvaluator gränssnitt. När det är implementerat tillåter det att åsidosätta standardutvärdering av jämförelseuttryck förFieldIf ochFieldCompare fields.
+title: IComparisonExpressionEvaluator Interface
+linktitle: IComparisonExpressionEvaluator
+articleTitle: IComparisonExpressionEvaluator
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Fields.IComparisonExpressionEvaluator gränssnitt. När det är implementerat tillåter det att åsidosätta standardutvärdering av jämförelseuttryck förFieldIf ochFieldCompare fields i C#.
 type: docs
 weight: 2680
 url: /sv/net/aspose.words.fields/icomparisonexpressionevaluator/
@@ -18,12 +20,10 @@ public interface IComparisonExpressionEvaluator
 
 | namn | Beskrivning |
 | --- | --- |
-| [Evaluate](../../aspose.words.fields/icomparisonexpressionevaluator/evaluate/)(Field, ComparisonExpression) | Utvärderar jämförelseuttryck. |
+| [Evaluate](../../aspose.words.fields/icomparisonexpressionevaluator/evaluate/)(*[Field](../field/), [ComparisonExpression](../comparisonexpression/)*) | Utvärderar jämförelseuttryck. |
 
 ### Se även
 
 * property [ComparisonExpressionEvaluator](../fieldoptions/comparisonexpressionevaluator/)
 * namnutrymme [Aspose.Words.Fields](../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../)
-
-

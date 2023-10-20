@@ -1,7 +1,9 @@
 ---
 title: Odso.Clone
-second_title: Aspose.Words لمراجع .NET API
-description: Odso طريقة. يُرجع نسخة عميقة من هذا الكائن.
+linktitle: Clone
+articleTitle: Clone
+second_title: Aspose.Words لـ .NET
+description: Odso Clone طريقة. يُرجع نسخة عميقة من هذا الكائن في C#.
 type: docs
 weight: 100
 url: /ar/net/aspose.words.settings/odso/clone/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.settings/odso/clone/
 public Odso Clone()
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تنفيذ دمج البريد مع البيانات من كائن مصدر بيانات Office.
 
@@ -66,7 +68,5 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ### أنظر أيضا
 
 * class [Odso](../)
-* مساحة الاسم [Aspose.Words.Settings](../../odso/)
+* مساحة الاسم [Aspose.Words.Settings](../../../aspose.words.settings/)
 * المجسم [Aspose.Words](../../../)
-
-

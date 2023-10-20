@@ -1,7 +1,9 @@
 ---
 title: ListFormat.ListLevelNumber
-second_title: Aspose.Words لمراجع .NET API
-description: ListFormat ملكية. الحصول على أو تعيين رقم مستوى القائمة 0 إلى 8 للفقرة.
+linktitle: ListLevelNumber
+articleTitle: ListLevelNumber
+second_title: Aspose.Words لـ .NET
+description: ListFormat ListLevelNumber ملكية. الحصول على أو تعيين رقم مستوى القائمة 0 إلى 8 للفقرة في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.lists/listformat/listlevelnumber/
@@ -14,13 +16,13 @@ url: /ar/net/aspose.words.lists/listformat/listlevelnumber/
 public int ListLevelNumber { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 في مستندات Word، قد تتكون القوائم من 1 أو 9 مستويات، مرقمة من 0 إلى 8.
 
 لا يكون له تأثير إلا عندما[`List`](../list/) تم تعيين الخاصية للإشارة إلى قائمة صالحة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع مستويات القائمة.
 
@@ -153,7 +155,5 @@ doc.Save(ArtifactsDir + "Lists.ApplyDefaultBulletsAndNumbers.docx");
 ### أنظر أيضا
 
 * class [ListFormat](../)
-* مساحة الاسم [Aspose.Words.Lists](../../listformat/)
+* مساحة الاسم [Aspose.Words.Lists](../../../aspose.words.lists/)
 * المجسم [Aspose.Words](../../../)
-
-

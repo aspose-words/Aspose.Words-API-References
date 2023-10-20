@@ -1,7 +1,9 @@
 ---
 title: Node.ParentNode
-second_title: Aspose.Words for .NET API 参考
-description: Node 财产. 获取此节点的直接父节点
+linktitle: ParentNode
+articleTitle: ParentNode
+second_title: 用于 .NET 的 Aspose.Words
+description: Node ParentNode 财产. 获取此节点的直接父节点 在 C#.
 type: docs
 weight: 60
 url: /zh/net/aspose.words/node/parentnode/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words/node/parentnode/
 public CompositeNode ParentNode { get; }
 ```
 
-### 评论
+## 评论
 
 如果一个节点刚刚创建但尚未添加到树中， 或者如果它已从树中删除，则父节点是`无效的`。
 
-### 例子
+## 例子
 
 展示如何访问节点的父节点。
 
@@ -69,7 +71,5 @@ Assert.AreEqual("Hello world!", doc.GetText().Trim());
 
 * class [CompositeNode](../../compositenode/)
 * class [Node](../)
-* 命名空间 [Aspose.Words](../../node/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

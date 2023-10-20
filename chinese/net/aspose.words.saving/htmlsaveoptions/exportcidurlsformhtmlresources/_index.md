@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ExportCidUrlsForMhtmlResources
-second_title: Aspose.Words for .NET API 参考
-description: HtmlSaveOptions 财产. 指定是否使用 CID ContentID URL 来引用 MHTML 文档中包含的资源图像字体CSS默认值为错误的.
+linktitle: ExportCidUrlsForMhtmlResources
+articleTitle: ExportCidUrlsForMhtmlResources
+second_title: 用于 .NET 的 Aspose.Words
+description: HtmlSaveOptions ExportCidUrlsForMhtmlResources 财产. 指定是否使用 CID ContentID URL 来引用 MHTML 文档中包含的资源图像字体CSS默认值为错误的 在 C#.
 type: docs
 weight: 110
 url: /zh/net/aspose.words.saving/htmlsaveoptions/exportcidurlsformhtmlresources/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.saving/htmlsaveoptions/exportcidurlsformhtmlresources/
 public bool ExportCidUrlsForMhtmlResources { get; set; }
 ```
 
-### 评论
+## 评论
 
 此选项仅影响保存为 MHTML 的文档。
 
@@ -24,7 +26,7 @@ public bool ExportCidUrlsForMhtmlResources { get; set; }
 
 理论上，两种引用方法之间应该没有区别，并且它们中的任何一种都应该在任何浏览器或邮件代理中都可以正常工作 。然而，在实践中，某些代理无法通过文件名获取资源。如果您的 浏览器或邮件代理拒绝加载MTHML文档中包含的资源（不显示图像或不加载 CSS样式），请尝试使用CID URL导出文档。
 
-### 例子
+## 例子
 
 演示如何为输出 MHTML 文档启用内容 ID。
 
@@ -64,7 +66,5 @@ else
 ### 也可以看看
 
 * class [HtmlSaveOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../htmlsaveoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

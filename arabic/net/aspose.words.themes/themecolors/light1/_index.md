@@ -1,7 +1,9 @@
 ---
 title: ThemeColors.Light1
-second_title: Aspose.Words لمراجع .NET API
-description: ThemeColors ملكية. يحدد لون الضوء 1.
+linktitle: Light1
+articleTitle: Light1
+second_title: Aspose.Words لـ .NET
+description: ThemeColors Light1 ملكية. يحدد لون الضوء 1 في C#.
 type: docs
 weight: 110
 url: /ar/net/aspose.words.themes/themecolors/light1/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.themes/themecolors/light1/
 public Color Light1 { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين الألوان والخطوط المخصصة للموضوعات.
 
@@ -62,7 +64,5 @@ doc.Save(ArtifactsDir + "Themes.CustomColorsAndFonts.docx");
 ### أنظر أيضا
 
 * class [ThemeColors](../)
-* مساحة الاسم [Aspose.Words.Themes](../../themecolors/)
+* مساحة الاسم [Aspose.Words.Themes](../../../aspose.words.themes/)
 * المجسم [Aspose.Words](../../../)
-
-

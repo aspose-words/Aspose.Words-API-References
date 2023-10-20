@@ -1,7 +1,9 @@
 ---
-title: Enum ConditionalStyleType
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.ConditionalStyleType تعداد. يمثل مناطق الجدول المحتملة التي يمكن تعريف التنسيق الشرطي لها في نمط الجدول.
+title: ConditionalStyleType Enum
+linktitle: ConditionalStyleType
+articleTitle: ConditionalStyleType
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.ConditionalStyleType تعداد. يمثل مناطق الجدول المحتملة التي يمكن تعريف التنسيق الشرطي لها في نمط الجدول في C#.
 type: docs
 weight: 330
 url: /ar/net/aspose.words/conditionalstyletype/
@@ -31,7 +33,7 @@ public enum ConditionalStyleType
 | BottomLeftCell | `10` | تحديد تنسيق الخلية اليسرى السفلية للجدول. |
 | BottomRightCell | `11` | تحديد تنسيق الخلية اليمنى السفلية للجدول. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع أنماط مناطق معينة في الجدول.
 
@@ -102,5 +104,3 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 
 * مساحة الاسم [Aspose.Words](../../aspose.words/)
 * المجسم [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: BorderCollection.Color
-second_title: Aspose.Words för .NET API Referens
-description: BorderCollection fast egendom. Hämtar eller ställer in kantfärgen.
+linktitle: Color
+articleTitle: Color
+second_title: Aspose.Words för .NET
+description: BorderCollection Color fast egendom. Hämtar eller ställer in kantfärgen i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words/bordercollection/color/
@@ -14,13 +16,13 @@ Hämtar eller ställer in kantfärgen.
 public Color Color { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Returnerar färgen på den första kanten i samlingen.
 
 Ställer in färgen på alla ramar i samlingen exklusive diagonala kanter.
 
-### Exempel
+## Exempel
 
 Visar hur man skapar grön vågig sidkant med en skugga.
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "PageSetup.PageBorders.docx");
 ### Se även
 
 * class [BorderCollection](../)
-* namnutrymme [Aspose.Words](../../bordercollection/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

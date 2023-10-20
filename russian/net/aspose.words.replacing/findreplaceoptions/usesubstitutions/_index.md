@@ -1,7 +1,9 @@
 ---
 title: FindReplaceOptions.UseSubstitutions
-second_title: Справочник по API Aspose.Words для .NET
-description: FindReplaceOptions свойство. Получает или задает логическое значение указывающее следует ли распознавать и использовать замены в шаблонах замены. Значение по умолчаниюЛОЖЬ .
+linktitle: UseSubstitutions
+articleTitle: UseSubstitutions
+second_title: Aspose.Words для .NET
+description: FindReplaceOptions UseSubstitutions свойство. Получает или задает логическое значение указывающее следует ли распознавать и использовать замены в шаблонах замены. Значение по умолчаниюЛОЖЬ  на С#.
 type: docs
 weight: 180
 url: /ru/net/aspose.words.replacing/findreplaceoptions/usesubstitutions/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.replacing/findreplaceoptions/usesubstitutions/
 public bool UseSubstitutions { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Подробную информацию об элементах замены см. по адресу: https://docs.microsoft.com/en-us/dotnet/standard/base-types/substitutions-in-regular-expressions.
 
-### Примеры
+## Примеры
 
 Показывает, как распознавать и использовать замены в шаблонах замены.
 
@@ -70,7 +72,5 @@ Assert.AreEqual(
 ### Смотрите также
 
 * class [FindReplaceOptions](../)
-* пространство имен [Aspose.Words.Replacing](../../findreplaceoptions/)
+* пространство имен [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * сборка [Aspose.Words](../../../)
-
-

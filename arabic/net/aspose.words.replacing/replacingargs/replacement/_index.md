@@ -1,7 +1,9 @@
 ---
 title: ReplacingArgs.Replacement
-second_title: Aspose.Words لمراجع .NET API
-description: ReplacingArgs ملكية. الحصول على سلسلة الاستبدال أو تعيينها.
+linktitle: Replacement
+articleTitle: Replacement
+second_title: Aspose.Words لـ .NET
+description: ReplacingArgs Replacement ملكية. الحصول على سلسلة الاستبدال أو تعيينها في C#.
 type: docs
 weight: 60
 url: /ar/net/aspose.words.replacing/replacingargs/replacement/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.replacing/replacingargs/replacement/
 public string Replacement { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استبدال كافة تكرارات نمط التعبير العادي بسلسلة أخرى، مع تتبع كل هذه الاستبدالات.
 
@@ -70,7 +72,5 @@ private class TextFindAndReplacementLogger : IReplacingCallback
 ### أنظر أيضا
 
 * class [ReplacingArgs](../)
-* مساحة الاسم [Aspose.Words.Replacing](../../replacingargs/)
+* مساحة الاسم [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * المجسم [Aspose.Words](../../../)
-
-

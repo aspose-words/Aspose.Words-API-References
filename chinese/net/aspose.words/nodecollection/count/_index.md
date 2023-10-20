@@ -1,7 +1,9 @@
 ---
 title: NodeCollection.Count
-second_title: Aspose.Words for .NET API 参考
-description: NodeCollection 财产. 获取集合中的节点数
+linktitle: Count
+articleTitle: Count
+second_title: 用于 .NET 的 Aspose.Words
+description: NodeCollection Count 财产. 获取集合中的节点数 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words/nodecollection/count/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/nodecollection/count/
 public int Count { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何遍历复合节点的子节点集合。
 
@@ -132,7 +134,5 @@ private static int GetChildTableCount(Table table)
 ### 也可以看看
 
 * class [NodeCollection](../)
-* 命名空间 [Aspose.Words](../../nodecollection/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

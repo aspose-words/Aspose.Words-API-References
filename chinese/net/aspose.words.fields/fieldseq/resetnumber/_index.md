@@ -1,7 +1,9 @@
 ---
 title: FieldSeq.ResetNumber
-second_title: Aspose.Words for .NET API 参考
-description: FieldSeq 财产. 获取或设置要将序列号重置为的整数如果数字不存在则返回 1
+linktitle: ResetNumber
+articleTitle: ResetNumber
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldSeq ResetNumber 财产. 获取或设置要将序列号重置为的整数如果数字不存在则返回 1 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words.fields/fieldseq/resetnumber/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fieldseq/resetnumber/
 public string ResetNumber { get; set; }
 ```
 
-### 例子
+## 例子
 
 显示使用 SEQ 字段创建编号。
 
@@ -78,7 +80,5 @@ doc.Save(ArtifactsDir + "Field.SEQ.ResetNumbering.docx");
 ### 也可以看看
 
 * class [FieldSeq](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldseq/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

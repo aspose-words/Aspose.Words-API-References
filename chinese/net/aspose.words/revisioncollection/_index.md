@@ -1,7 +1,9 @@
 ---
-title: Class RevisionCollection
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.RevisionCollection 班级. 的集合Revision代表文档中修订的对象
+title: RevisionCollection Class
+linktitle: RevisionCollection
+articleTitle: RevisionCollection
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.RevisionCollection 班级. 的集合Revision代表文档中修订的对象 在 C#.
 type: docs
 weight: 4770
 url: /zh/net/aspose.words/revisioncollection/
@@ -32,11 +34,11 @@ public class RevisionCollection : IEnumerable<Revision>
 | [GetEnumerator](../../aspose.words/revisioncollection/getenumerator/)() | 返回一个枚举器对象。 |
 | [RejectAll](../../aspose.words/revisioncollection/rejectall/)() | 拒绝此集合中的所有修订。 |
 
-### 评论
+## 评论
 
 您不直接创建此类的实例。使用[`Revisions`](../document/revisions/)属性来获取文档中存在的修订。
 
-### 例子
+## 例子
 
 展示如何处理文档中的修订。
 
@@ -121,5 +123,3 @@ Assert.AreEqual("This is revision #1. \rThis is revision #2.", doc.GetText().Tri
 * class [Revision](../revision/)
 * 命名空间 [Aspose.Words](../../aspose.words/)
 * 部件 [Aspose.Words](../../)
-
-

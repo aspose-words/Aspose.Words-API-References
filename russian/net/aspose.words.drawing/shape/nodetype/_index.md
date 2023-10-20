@@ -1,7 +1,9 @@
 ---
 title: Shape.NodeType
-second_title: Справочник по API Aspose.Words для .NET
-description: Shape свойство. ВозвращаетShape .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words для .NET
+description: Shape NodeType свойство. ВозвращаетShape  на С#.
 type: docs
 weight: 130
 url: /ru/net/aspose.words.drawing/shape/nodetype/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.drawing/shape/nodetype/
 public override NodeType NodeType { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как перемещаться по дереву дочерних узлов составного узла.
 
@@ -62,7 +64,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 
 * enum [NodeType](../../../aspose.words/nodetype/)
 * class [Shape](../)
-* пространство имен [Aspose.Words.Drawing](../../shape/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

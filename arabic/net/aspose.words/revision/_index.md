@@ -1,7 +1,9 @@
 ---
-title: Class Revision
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Revision فصل. يمثل مراجعة تغيير متعقب في عقدة أو نمط المستند. الاستخدامRevisionType للتحقق من نوع هذه المراجعة.
+title: Revision Class
+linktitle: Revision
+articleTitle: Revision
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Revision فصل. يمثل مراجعة تغيير متعقب في عقدة أو نمط المستند. الاستخدامRevisionType للتحقق من نوع هذه المراجعة في C#.
 type: docs
 weight: 4760
 url: /ar/net/aspose.words/revision/
@@ -34,7 +36,7 @@ public class Revision
 | [Accept](../../aspose.words/revision/accept/)() | قبول هذه المراجعة. |
 | [Reject](../../aspose.words/revision/reject/)() | رفض هذه المراجعة. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التعامل مع المراجعات في المستند.
 
@@ -118,5 +120,3 @@ Assert.AreEqual("This is revision #1. \rThis is revision #2.", doc.GetText().Tri
 
 * مساحة الاسم [Aspose.Words](../../aspose.words/)
 * المجسم [Aspose.Words](../../)
-
-

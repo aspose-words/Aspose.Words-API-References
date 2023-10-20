@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.Target
-second_title: Aspose.Words för .NET API Referens
-description: ShapeBase fast egendom. Hämtar eller ställer in målramen för formhyperlänken.
+linktitle: Target
+articleTitle: Target
+second_title: Aspose.Words för .NET
+description: ShapeBase Target fast egendom. Hämtar eller ställer in målramen för formhyperlänken i C#.
 type: docs
 weight: 520
 url: /sv/net/aspose.words.drawing/shapebase/target/
@@ -14,11 +16,11 @@ Hämtar eller ställer in målramen för formhyperlänken.
 public string Target { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Standardvärdet är en tom sträng.
 
-### Exempel
+## Exempel
 
 Visar hur man infogar en form som innehåller en bild och är också en hyperlänk.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "Image.InsertImageWithHyperlink.docx");
 ### Se även
 
 * class [ShapeBase](../)
-* namnutrymme [Aspose.Words.Drawing](../../shapebase/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: MailMergeSettings.MailAsAttachment
-second_title: Aspose.Words för .NET API Referens
-description: MailMergeSettings fast egendom. Anger att dokumenten som skapas under en sammankopplingsåtgärd ska skickas som en bilaga via epost snarare än själva epostmeddelandets brödtext. Standardvärdet ärfalsk .
+linktitle: MailAsAttachment
+articleTitle: MailAsAttachment
+second_title: Aspose.Words för .NET
+description: MailMergeSettings MailAsAttachment fast egendom. Anger att dokumenten som skapas under en sammankopplingsåtgärd ska skickas som en bilaga via epost snarare än själva epostmeddelandets brödtext. Standardvärdet ärfalsk  i C#.
 type: docs
 weight: 120
 url: /sv/net/aspose.words.settings/mailmergesettings/mailasattachment/
@@ -14,7 +16,7 @@ Anger att dokumenten som skapas under en sammankopplingsåtgärd ska skickas som
 public bool MailAsAttachment { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man kör en sammankoppling av brev samtidigt som man ansluter till en extern datakälla.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "MailMerge.OdsoEmail.docx");
 ### Se även
 
 * class [MailMergeSettings](../)
-* namnutrymme [Aspose.Words.Settings](../../mailmergesettings/)
+* namnutrymme [Aspose.Words.Settings](../../../aspose.words.settings/)
 * hopsättning [Aspose.Words](../../../)
-
-

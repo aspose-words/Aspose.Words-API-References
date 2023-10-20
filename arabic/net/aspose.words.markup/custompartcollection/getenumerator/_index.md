@@ -1,7 +1,9 @@
 ---
 title: CustomPartCollection.GetEnumerator
-second_title: Aspose.Words لمراجع .NET API
-description: CustomPartCollection طريقة. إرجاع كائن العداد الذي يمكن استخدامه للتكرار على كافة العناصر الموجودة في المجموعة.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words لـ .NET
+description: CustomPartCollection GetEnumerator طريقة. إرجاع كائن العداد الذي يمكن استخدامه للتكرار على كافة العناصر الموجودة في المجموعة في C#.
 type: docs
 weight: 70
 url: /ar/net/aspose.words.markup/custompartcollection/getenumerator/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.markup/custompartcollection/getenumerator/
 public IEnumerator<CustomPart> GetEnumerator()
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الوصول إلى مجموعة الأجزاء المخصصة العشوائية للمستند.
 
@@ -59,7 +61,5 @@ Assert.AreEqual(0, doc.PackageCustomParts.Count);
 
 * class [CustomPart](../../custompart/)
 * class [CustomPartCollection](../)
-* مساحة الاسم [Aspose.Words.Markup](../../custompartcollection/)
+* مساحة الاسم [Aspose.Words.Markup](../../../aspose.words.markup/)
 * المجسم [Aspose.Words](../../../)
-
-

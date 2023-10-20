@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.EmbedAttachments
-second_title: Aspose.Words لمراجع .NET API
-description: PdfSaveOptions ملكية. الحصول على قيمة أو تعيينها لتحديد ما إذا كان سيتم تضمين المرفقات في مستند PDF أم لا.
+linktitle: EmbedAttachments
+articleTitle: EmbedAttachments
+second_title: Aspose.Words لـ .NET
+description: PdfSaveOptions EmbedAttachments ملكية. الحصول على قيمة أو تعيينها لتحديد ما إذا كان سيتم تضمين المرفقات في مستند PDF أم لا في C#.
 type: docs
 weight: 110
 url: /ar/net/aspose.words.saving/pdfsaveoptions/embedattachments/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.saving/pdfsaveoptions/embedattachments/
 public bool EmbedAttachments { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 القيمة الافتراضية هي`خطأ شنيع`ولا يتم تضمين المرفقات.
 
@@ -24,7 +26,7 @@ public bool EmbedAttachments { get; set; }
 
 تضمين المرفقات غير مدعوم عند تمكين التشفير.`خطأ شنيع` سيتم استخدام value تلقائيًا.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إضافة مرفقات مضمنة إلى مستند PDF.
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.PdfEmbedAttachments.pdf", options);
 ### أنظر أيضا
 
 * class [PdfSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../pdfsaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

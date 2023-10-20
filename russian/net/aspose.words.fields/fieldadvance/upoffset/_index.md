@@ -1,7 +1,9 @@
 ---
 title: FieldAdvance.UpOffset
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldAdvance свойство. Получает или задает количество пунктов на которое текст следующий за полем должен быть перемещен вверх.
+linktitle: UpOffset
+articleTitle: UpOffset
+second_title: Aspose.Words для .NET
+description: FieldAdvance UpOffset свойство. Получает или задает количество пунктов на которое текст следующий за полем должен быть перемещен вверх на С#.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.fields/fieldadvance/upoffset/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldadvance/upoffset/
 public string UpOffset { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как вставить поле ADVANCE и отредактировать его свойства.
 
@@ -59,7 +61,5 @@ doc.Save(ArtifactsDir + "Field.ADVANCE.docx");
 ### Смотрите также
 
 * class [FieldAdvance](../)
-* пространство имен [Aspose.Words.Fields](../../fieldadvance/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

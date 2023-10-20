@@ -1,12 +1,14 @@
 ---
-title: SdtListItem.SdtListItem
-second_title: Aspose.Words für .NET-API-Referenz
-description: SdtListItem constructeur. Initialisiert eine neue Instanz dieser Klasse.
+title: SdtListItem
+linktitle: SdtListItem
+articleTitle: SdtListItem
+second_title: Aspose.Words für .NET
+description: SdtListItem constructeur. Initialisiert eine neue Instanz dieser Klasse in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words.markup/sdtlistitem/sdtlistitem/
 ---
-## SdtListItem(string, string) {#constructor_1}
+## SdtListItem(*string, string*) {#constructor_1}
 
 Initialisiert eine neue Instanz dieser Klasse.
 
@@ -14,7 +16,7 @@ Initialisiert eine neue Instanz dieser Klasse.
 public SdtListItem(string displayText, string value)
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit strukturierten Dropdown-Dokument-Tags gearbeitet wird.
 
@@ -71,12 +73,12 @@ Assert.AreEqual(0, listItems.Count);
 ### Siehe auch
 
 * class [SdtListItem](../)
-* namensraum [Aspose.Words.Markup](../../sdtlistitem/)
+* namensraum [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Montage [Aspose.Words](../../../)
 
 ---
 
-## SdtListItem(string) {#constructor}
+## SdtListItem(*string*) {#constructor}
 
 Initialisiert eine neue Instanz dieser Klasse.
 
@@ -84,7 +86,7 @@ Initialisiert eine neue Instanz dieser Klasse.
 public SdtListItem(string value)
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit strukturierten Dropdown-Dokument-Tags gearbeitet wird.
 
@@ -141,7 +143,5 @@ Assert.AreEqual(0, listItems.Count);
 ### Siehe auch
 
 * class [SdtListItem](../)
-* namensraum [Aspose.Words.Markup](../../sdtlistitem/)
+* namensraum [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Montage [Aspose.Words](../../../)
-
-

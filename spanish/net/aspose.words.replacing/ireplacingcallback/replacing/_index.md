@@ -1,7 +1,9 @@
 ---
 title: IReplacingCallback.Replacing
-second_title: Referencia de API de Aspose.Words para .NET
-description: IReplacingCallback método. Un método definido por el usuario que se llama durante una operación de reemplazo para cada coincidencia encontrada justo antes de realizar un reemplazo.
+linktitle: Replacing
+articleTitle: Replacing
+second_title: Aspose.Words para .NET
+description: IReplacingCallback Replacing método. Un método definido por el usuario que se llama durante una operación de reemplazo para cada coincidencia encontrada justo antes de realizar un reemplazo en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words.replacing/ireplacingcallback/replacing/
@@ -18,7 +20,7 @@ public ReplaceAction Replacing(ReplacingArgs args)
 
 A[`ReplaceAction`](../../replaceaction/) valor que especifica la acción que se tomará para la coincidencia actual.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo reemplazar todas las apariciones de un patrón de expresión regular con otra cadena, mientras realiza un seguimiento de todos esos reemplazos.
 
@@ -145,7 +147,5 @@ private static void InsertDocument(Node insertionDestination, Document docToInse
 * enum [ReplaceAction](../../replaceaction/)
 * class [ReplacingArgs](../../replacingargs/)
 * interface [IReplacingCallback](../)
-* espacio de nombres [Aspose.Words.Replacing](../../ireplacingcallback/)
+* espacio de nombres [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * asamblea [Aspose.Words](../../../)
-
-

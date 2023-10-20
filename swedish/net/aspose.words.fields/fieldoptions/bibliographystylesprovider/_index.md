@@ -1,7 +1,9 @@
 ---
 title: FieldOptions.BibliographyStylesProvider
-second_title: Aspose.Words för .NET API Referens
-description: FieldOptions fast egendom. Hämtar eller ställer in en leverantör som returnerar en bibliografistil för FieldBibliography ochFieldCitation fields.
+linktitle: BibliographyStylesProvider
+articleTitle: BibliographyStylesProvider
+second_title: Aspose.Words för .NET
+description: FieldOptions BibliographyStylesProvider fast egendom. Hämtar eller ställer in en leverantör som returnerar en bibliografistil för FieldBibliography ochFieldCitation fields i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.fields/fieldoptions/bibliographystylesprovider/
@@ -14,7 +16,7 @@ Hämtar eller ställer in en leverantör som returnerar en bibliografistil för 
 public IBibliographyStylesProvider BibliographyStylesProvider { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man åsidosätter inbyggda stilar eller tillhandahåller en anpassad.
 
@@ -42,7 +44,5 @@ public class BibliographyStylesProvider : IBibliographyStylesProvider
 
 * interface [IBibliographyStylesProvider](../../ibibliographystylesprovider/)
 * class [FieldOptions](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldoptions/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

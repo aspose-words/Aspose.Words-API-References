@@ -1,7 +1,9 @@
 ---
 title: FieldMergingArgsBase.Field
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldMergingArgsBase propriété. Obtient lobjet qui représente le champ de fusion actuel.
+linktitle: Field
+articleTitle: Field
+second_title: Aspose.Words pour .NET
+description: FieldMergingArgsBase Field propriété. Obtient lobjet qui représente le champ de fusion actuel en C#.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.mailmerging/fieldmergingargsbase/field/
@@ -14,7 +16,7 @@ Obtient l'objet qui représente le champ de fusion actuel.
 public FieldMergeField Field { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment exécuter un publipostage avec un rappel personnalisé qui gère les données de fusion sous la forme de documents HTML.
 
@@ -83,7 +85,5 @@ private class HandleMergeFieldInsertHtml : IFieldMergingCallback
 
 * class [FieldMergeField](../../../aspose.words.fields/fieldmergefield/)
 * class [FieldMergingArgsBase](../)
-* espace de noms [Aspose.Words.MailMerging](../../fieldmergingargsbase/)
+* espace de noms [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * Assemblée [Aspose.Words](../../../)
-
-

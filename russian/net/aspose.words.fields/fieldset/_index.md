@@ -1,7 +1,9 @@
 ---
-title: Class FieldSet
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Fields.FieldSet сорт. Реализует поле SET.
+title: FieldSet Class
+linktitle: FieldSet
+articleTitle: FieldSet
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Fields.FieldSet сорт. Реализует поле SET на С#.
 type: docs
 weight: 2400
 url: /ru/net/aspose.words.fields/fieldset/
@@ -44,17 +46,17 @@ public class FieldSet : Field
 | Имя | Описание |
 | --- | --- |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Возвращает текст между началом поля и разделителем поля (или концом поля, если разделителя нет). Включены как код поля, так и результат поля дочерних полей. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Возвращает текст между началом поля и разделителем полей (или концом поля, если разделителя нет). |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | Возвращает текст между началом поля и разделителем полей (или концом поля, если разделителя нет). |
 | [Remove](../../aspose.words.fields/field/remove/)() | Удаляет поле из документа. Возвращает узел сразу после поля. Если конец поля является последним дочерним его родительского узла, возвращает его родительский абзац. Если поле уже удалено, возвращается`нулевой` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | Выполняет отсоединение поля. |
 | [Update](../../aspose.words.fields/field/update/)() | Выполняет обновление поля. Выдает, если поле уже обновляется. |
-| [Update](../../aspose.words.fields/field/update/)(bool) | Выполняет обновление поля. Выдает, если поле уже обновляется. |
+| [Update](../../aspose.words.fields/field/update/)(*bool*) | Выполняет обновление поля. Выдает, если поле уже обновляется. |
 
-### Примечания
+## Примечания
 
 Назначает новый текст закладке.
 
-### Примеры
+## Примеры
 
 Показывает, как создать текст с закладкой с помощью поля SET, а затем отобразить его в документе с помощью поля REF.
 
@@ -87,5 +89,3 @@ doc.Save(ArtifactsDir + "Field.SET.REF.docx");
 * class [Field](../field/)
 * пространство имен [Aspose.Words.Fields](../../aspose.words.fields/)
 * сборка [Aspose.Words](../../)
-
-

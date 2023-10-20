@@ -1,7 +1,9 @@
 ---
 title: BaseWebExtensionCollection1.Clear
-second_title: Aspose.Words für .NET-API-Referenz
-description: BaseWebExtensionCollection methode. Entfernt alle Elemente aus der Sammlung.
+linktitle: Clear
+articleTitle: Clear
+second_title: Aspose.Words für .NET
+description: BaseWebExtensionCollection Clear methode. Entfernt alle Elemente aus der Sammlung in C#.
 type: docs
 weight: 40
 url: /de/net/aspose.words.webextensions/basewebextensioncollection-1/clear/
@@ -14,7 +16,7 @@ Entfernt alle Elemente aus der Sammlung.
 public void Clear()
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man einem Dokument eine Weberweiterung hinzufügt.
 
@@ -59,7 +61,5 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 ### Siehe auch
 
 * class [BaseWebExtensionCollection&lt;T&gt;](../)
-* namensraum [Aspose.Words.WebExtensions](../../basewebextensioncollection-1/)
+* namensraum [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * Montage [Aspose.Words](../../../)
-
-

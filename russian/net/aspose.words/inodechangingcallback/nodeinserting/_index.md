@@ -1,7 +1,9 @@
 ---
 title: INodeChangingCallback.NodeInserting
-second_title: Справочник по API Aspose.Words для .NET
-description: INodeChangingCallback метод. Вызывается непосредственно перед тем как узел принадлежащий этому документу будет вставлен в другой узел.
+linktitle: NodeInserting
+articleTitle: NodeInserting
+second_title: Aspose.Words для .NET
+description: INodeChangingCallback NodeInserting метод. Вызывается непосредственно перед тем как узел принадлежащий этому документу будет вставлен в другой узел на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words/inodechangingcallback/nodeinserting/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/inodechangingcallback/nodeinserting/
 public void NodeInserting(NodeChangingArgs args)
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как настроить изменение узла с помощью обратного вызова.
 
@@ -92,7 +94,5 @@ public class HandleNodeChangingFontChanger : INodeChangingCallback
 
 * class [NodeChangingArgs](../../nodechangingargs/)
 * interface [INodeChangingCallback](../)
-* пространство имен [Aspose.Words](../../inodechangingcallback/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

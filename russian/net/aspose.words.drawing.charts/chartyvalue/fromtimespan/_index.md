@@ -1,7 +1,9 @@
 ---
 title: ChartYValue.FromTimeSpan
-second_title: Справочник по API Aspose.Words для .NET
-description: ChartYValue метод. СоздаетChartYValue экземплярTime тип.
+linktitle: FromTimeSpan
+articleTitle: FromTimeSpan
+second_title: Aspose.Words для .NET
+description: ChartYValue FromTimeSpan метод. СоздаетChartYValue экземплярTime тип на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.drawing.charts/chartyvalue/fromtimespan/
@@ -17,7 +19,5 @@ public static ChartYValue FromTimeSpan(TimeSpan value)
 ### Смотрите также
 
 * class [ChartYValue](../)
-* пространство имен [Aspose.Words.Drawing.Charts](../../chartyvalue/)
+* пространство имен [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../../)
-
-

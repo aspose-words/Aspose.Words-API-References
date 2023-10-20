@@ -1,7 +1,9 @@
 ---
 title: FieldEnd.NodeType
-second_title: Aspose.Words for .NET API 参考
-description: FieldEnd 财产. 返回FieldEnd.
+linktitle: NodeType
+articleTitle: NodeType
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldEnd NodeType 财产. 返回FieldEnd 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.fields/fieldend/nodetype/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fieldend/nodetype/
 public override NodeType NodeType { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何遍历复合节点的子节点树。
 
@@ -62,7 +64,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 
 * enum [NodeType](../../../aspose.words/nodetype/)
 * class [FieldEnd](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldend/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

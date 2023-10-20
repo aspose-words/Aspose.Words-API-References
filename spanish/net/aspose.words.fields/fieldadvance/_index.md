@@ -1,7 +1,9 @@
 ---
-title: Class FieldAdvance
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Fields.FieldAdvance clase. Implementa el campo AVANCE.
+title: FieldAdvance Class
+linktitle: FieldAdvance
+articleTitle: FieldAdvance
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Fields.FieldAdvance clase. Implementa el campo AVANCE en C#.
 type: docs
 weight: 1540
 url: /es/net/aspose.words.fields/fieldadvance/
@@ -48,17 +50,17 @@ public class FieldAdvance : Field
 | Nombre | Descripción |
 | --- | --- |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Devuelve texto entre el inicio del campo y el separador de campo (o el final del campo si no hay separador). Se incluyen tanto el código de campo como el resultado del campo de los campos secundarios. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Devuelve texto entre el inicio del campo y el separador de campo (o el final del campo si no hay separador). |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | Devuelve texto entre el inicio del campo y el separador de campo (o el final del campo si no hay separador). |
 | [Remove](../../aspose.words.fields/field/remove/)() | Elimina el campo del documento. Devuelve un nodo justo después del campo. Si el final del campo es el último hijo de su nodo principal, devuelve su párrafo principal. Si el campo ya está eliminado, devuelve`nulo` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | Realiza la desvinculación del campo. |
 | [Update](../../aspose.words.fields/field/update/)() | Realiza la actualización del campo. Se produce si el campo ya se está actualizando. |
-| [Update](../../aspose.words.fields/field/update/)(bool) | Realiza una actualización de campo. Se produce si el campo ya se está actualizando. |
+| [Update](../../aspose.words.fields/field/update/)(*bool*) | Realiza una actualización de campo. Se produce si el campo ya se está actualizando. |
 
-### Observaciones
+## Observaciones
 
 Mueve el punto inicial en el que el texto que sigue léxicamente al campo se muestra hacia la derecha o izquierda, hacia arriba o hacia abajo, o a una posición horizontal o vertical específica.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo insertar un campo AVANZADO y editar sus propiedades.
 
@@ -105,5 +107,3 @@ doc.Save(ArtifactsDir + "Field.ADVANCE.docx");
 * class [Field](../field/)
 * espacio de nombres [Aspose.Words.Fields](../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../)
-
-

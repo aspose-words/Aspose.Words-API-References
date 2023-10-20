@@ -1,7 +1,9 @@
 ---
 title: CustomXmlSchemaCollection.Add
-second_title: Aspose.Words لمراجع .NET API
-description: CustomXmlSchemaCollection طريقة. إضافة عنصر إلى المجموعة.
+linktitle: Add
+articleTitle: Add
+second_title: Aspose.Words لـ .NET
+description: CustomXmlSchemaCollection Add طريقة. إضافة عنصر إلى المجموعة في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.markup/customxmlschemacollection/add/
@@ -18,7 +20,7 @@ public void Add(string value)
 | --- | --- | --- |
 | value | String | العنصر المراد إضافته. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع مجموعة مخططات XML.
 
@@ -64,7 +66,5 @@ Assert.AreEqual(0, schemas.Count);
 ### أنظر أيضا
 
 * class [CustomXmlSchemaCollection](../)
-* مساحة الاسم [Aspose.Words.Markup](../../customxmlschemacollection/)
+* مساحة الاسم [Aspose.Words.Markup](../../../aspose.words.markup/)
 * المجسم [Aspose.Words](../../../)
-
-

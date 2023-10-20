@@ -1,7 +1,9 @@
 ---
 title: FindReplaceOptions.SmartParagraphBreakReplacement
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FindReplaceOptions propriété. Obtient ou définit une valeur booléenne indiquant quil est autorisé à remplacer le paragraphe break lorsquil ny a pas de paragraphe frère suivant.
+linktitle: SmartParagraphBreakReplacement
+articleTitle: SmartParagraphBreakReplacement
+second_title: Aspose.Words pour .NET
+description: FindReplaceOptions SmartParagraphBreakReplacement propriété. Obtient ou définit une valeur booléenne indiquant quil est autorisé à remplacer le paragraphe break lorsquil ny a pas de paragraphe frère suivant en C#.
 type: docs
 weight: 160
 url: /fr/net/aspose.words.replacing/findreplaceoptions/smartparagraphbreakreplacement/
@@ -16,11 +18,11 @@ La valeur par défaut est`FAUX`.
 public bool SmartParagraphBreakReplacement { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 Cette option permet de remplacer le saut de paragraphe lorsqu'il n'y a pas de paragraphe frère suivant vers lequel tous les nœuds child peuvent être déplacés, en recherchant n'importe quel paragraphe suivant (pas nécessairement frère) après le paragraphe à remplacer.
 
-### Exemples
+## Exemples
 
 Montre comment supprimer un paragraphe d’une cellule de tableau avec un tableau imbriqué.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "Table.RemoveParagraphTextAndMark.docx");
 ### Voir également
 
 * class [FindReplaceOptions](../)
-* espace de noms [Aspose.Words.Replacing](../../findreplaceoptions/)
+* espace de noms [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * Assemblée [Aspose.Words](../../../)
-
-

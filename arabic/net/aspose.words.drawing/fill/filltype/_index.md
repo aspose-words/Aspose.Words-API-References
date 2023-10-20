@@ -1,9 +1,11 @@
 ---
 title: Fill.FillType
-second_title: Aspose.Words لمراجع .NET API
-description: Fill ملكية. الحصول على نوع التعبئة.
+linktitle: FillType
+articleTitle: FillType
+second_title: Aspose.Words لـ .NET
+description: Fill FillType ملكية. الحصول على نوع التعبئة في C#.
 type: docs
-weight: 60
+weight: 50
 url: /ar/net/aspose.words.drawing/fill/filltype/
 ---
 ## Fill.FillType property
@@ -18,7 +20,5 @@ public FillType FillType { get; }
 
 * enum [FillType](../../filltype/)
 * class [Fill](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../fill/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

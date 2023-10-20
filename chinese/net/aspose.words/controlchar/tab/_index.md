@@ -1,7 +1,9 @@
 ---
 title: ControlChar.Tab
-second_title: Aspose.Words for .NET API 参考
-description: ControlChar 场地. 制表符x0009或t.
+linktitle: Tab
+articleTitle: Tab
+second_title: 用于 .NET 的 Aspose.Words
+description: ControlChar Tab 场地. 制表符x0009或t 在 C#.
 type: docs
 weight: 270
 url: /zh/net/aspose.words/controlchar/tab/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/controlchar/tab/
 public static readonly string Tab;
 ```
 
-### 例子
+## 例子
 
 展示如何设置制表位位置的自定义间隔。
 
@@ -33,7 +35,5 @@ builder.Writeln("Hello" + ControlChar.TabChar + "World!");
 ### 也可以看看
 
 * class [ControlChar](../)
-* 命名空间 [Aspose.Words](../../controlchar/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

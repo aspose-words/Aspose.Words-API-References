@@ -1,7 +1,9 @@
 ---
 title: FieldToa.UsePassim
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldToa propiedad. Obtiene o establece si se deben reemplazar cinco o más referencias de páginas diferentes a la misma autoridad con passim que se utiliza para indicar que una palabra o pasaje aparece con frecuencia en el trabajo citado.
+linktitle: UsePassim
+articleTitle: UsePassim
+second_title: Aspose.Words para .NET
+description: FieldToa UsePassim propiedad. Obtiene o establece si se deben reemplazar cinco o más referencias de páginas diferentes a la misma autoridad con passim que se utiliza para indicar que una palabra o pasaje aparece con frecuencia en el trabajo citado en C#.
 type: docs
 weight: 110
 url: /es/net/aspose.words.fields/fieldtoa/usepassim/
@@ -14,7 +16,7 @@ Obtiene o establece si se deben reemplazar cinco o más referencias de páginas 
 public bool UsePassim { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear y personalizar una tabla de autoridades utilizando los campos TOA y TA.
 
@@ -137,7 +139,5 @@ private static FieldTA InsertToaEntry(DocumentBuilder builder, string entryCateg
 ### Ver también
 
 * class [FieldToa](../)
-* espacio de nombres [Aspose.Words.Fields](../../fieldtoa/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

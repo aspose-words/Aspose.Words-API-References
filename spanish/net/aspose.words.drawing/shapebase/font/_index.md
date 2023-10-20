@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.Font
-second_title: Referencia de API de Aspose.Words para .NET
-description: ShapeBase propiedad. Proporciona acceso al formato de fuente de este objeto.
+linktitle: Font
+articleTitle: Font
+second_title: Aspose.Words para .NET
+description: ShapeBase Font propiedad. Proporciona acceso al formato de fuente de este objeto en C#.
 type: docs
 weight: 190
 url: /es/net/aspose.words.drawing/shapebase/font/
@@ -14,7 +16,7 @@ Proporciona acceso al formato de fuente de este objeto.
 public Font Font { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo insertar un cuadro de texto y configurar la fuente de su contenido.
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "Shape.Font.docx");
 
 * class [Font](../../../aspose.words/font/)
 * class [ShapeBase](../)
-* espacio de nombres [Aspose.Words.Drawing](../../shapebase/)
+* espacio de nombres [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * asamblea [Aspose.Words](../../../)
-
-

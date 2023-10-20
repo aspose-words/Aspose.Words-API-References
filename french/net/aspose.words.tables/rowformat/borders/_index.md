@@ -1,7 +1,9 @@
 ---
 title: RowFormat.Borders
-second_title: Référence de l'API Aspose.Words pour .NET
-description: RowFormat propriété. Obtient la collection de bordures de cellule par défaut pour la ligne.
+linktitle: Borders
+articleTitle: Borders
+second_title: Aspose.Words pour .NET
+description: RowFormat Borders propriété. Obtient la collection de bordures de cellule par défaut pour la ligne en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.tables/rowformat/borders/
@@ -14,7 +16,7 @@ Obtient la collection de bordures de cellule par défaut pour la ligne.
 public BorderCollection Borders { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment créer un tableau avec des bordures personnalisées.
 
@@ -81,7 +83,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
 
 * class [BorderCollection](../../../aspose.words/bordercollection/)
 * class [RowFormat](../)
-* espace de noms [Aspose.Words.Tables](../../rowformat/)
+* espace de noms [Aspose.Words.Tables](../../../aspose.words.tables/)
 * Assemblée [Aspose.Words](../../../)
-
-

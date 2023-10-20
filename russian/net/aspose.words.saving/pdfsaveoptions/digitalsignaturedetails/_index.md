@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.DigitalSignatureDetails
-second_title: Справочник по API Aspose.Words для .NET
-description: PdfSaveOptions свойство. Получает или задает данные для подписи выходного PDFдокумента.
+linktitle: DigitalSignatureDetails
+articleTitle: DigitalSignatureDetails
+second_title: Aspose.Words для .NET
+description: PdfSaveOptions DigitalSignatureDetails свойство. Получает или задает данные для подписи выходного PDFдокумента на С#.
 type: docs
 weight: 70
 url: /ru/net/aspose.words.saving/pdfsaveoptions/digitalsignaturedetails/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.saving/pdfsaveoptions/digitalsignaturedetails/
 public PdfDigitalSignatureDetails DigitalSignatureDetails { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Значение по умолчанию:`нулевой`и выходной документ не будет подписан. Если для этого свойства установлено допустимое значение[`PdfDigitalSignatureDetails`](../../pdfdigitalsignaturedetails/) object, , то выходной PDF-документ будет иметь цифровую подпись.
 
-### Примеры
+## Примеры
 
 Показывает, как подписать созданный PDF-документ.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignature.pdf", options);
 
 * class [PdfDigitalSignatureDetails](../../pdfdigitalsignaturedetails/)
 * class [PdfSaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../pdfsaveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

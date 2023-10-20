@@ -1,7 +1,9 @@
 ---
 title: ImageFieldMergingArgs.Image
-second_title: Referencia de API de Aspose.Words para .NET
-description: ImageFieldMergingArgs propiedad. Especifica la imagen que el motor de combinación de correspondencia debe insertar en el documento.
+linktitle: Image
+articleTitle: Image
+second_title: Aspose.Words para .NET
+description: ImageFieldMergingArgs Image propiedad. Especifica la imagen que el motor de combinación de correspondencia debe insertar en el documento en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words.mailmerging/imagefieldmergingargs/image/
@@ -14,7 +16,7 @@ Especifica la imagen que el motor de combinación de correspondencia debe insert
 public Image Image { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo utilizar una devolución de llamada para personalizar la lógica de fusión de imágenes.
 
@@ -88,7 +90,5 @@ private class ImageFilenameCallback : IFieldMergingCallback
 ### Ver también
 
 * class [ImageFieldMergingArgs](../)
-* espacio de nombres [Aspose.Words.MailMerging](../../imagefieldmergingargs/)
+* espacio de nombres [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * asamblea [Aspose.Words](../../../)
-
-

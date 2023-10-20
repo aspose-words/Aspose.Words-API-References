@@ -1,7 +1,9 @@
 ---
 title: XmlMapping.PrefixMappings
-second_title: Aspose.Words för .NET API Referens
-description: XmlMapping fast egendom. Returnerar XMLnamnområdesprefixmappningar för att utvärderaXPath .
+linktitle: PrefixMappings
+articleTitle: PrefixMappings
+second_title: Aspose.Words för .NET
+description: XmlMapping PrefixMappings fast egendom. Returnerar XMLnamnområdesprefixmappningar för att utvärderaXPath  i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.markup/xmlmapping/prefixmappings/
@@ -14,11 +16,11 @@ Returnerar XML-namnområdesprefixmappningar för att utvärdera[`XPath`](../xpat
 public string PrefixMappings { get; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Anger uppsättningen prefixmappningar som ska användas för att tolka XPath expression när XPath-uttrycket utvärderas mot de anpassade XML-datadelarna i dokumentet.
 
-### Exempel
+## Exempel
 
 Visar hur du ställer in XML-mappningar för anpassade XML-delar.
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.XmlMapping.docx");
 ### Se även
 
 * class [XmlMapping](../)
-* namnutrymme [Aspose.Words.Markup](../../xmlmapping/)
+* namnutrymme [Aspose.Words.Markup](../../../aspose.words.markup/)
 * hopsättning [Aspose.Words](../../../)
-
-

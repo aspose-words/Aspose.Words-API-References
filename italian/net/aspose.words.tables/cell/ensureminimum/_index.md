@@ -1,9 +1,11 @@
 ---
 title: Cell.EnsureMinimum
-second_title: Aspose.Words per .NET API Reference
-description: Cell metodo. Se lultimo figlio non è un paragrafo crea e aggiunge un paragrafo vuoto.
+linktitle: EnsureMinimum
+articleTitle: EnsureMinimum
+second_title: Aspose.Words per .NET
+description: Cell EnsureMinimum metodo. Se lultimo figlio non è un paragrafo crea e aggiunge un paragrafo vuoto in C#.
 type: docs
-weight: 160
+weight: 140
 url: /it/net/aspose.words.tables/cell/ensureminimum/
 ---
 ## Cell.EnsureMinimum method
@@ -14,7 +16,7 @@ Se l'ultimo figlio non è un paragrafo, crea e aggiunge un paragrafo vuoto.
 public void EnsureMinimum()
 ```
 
-### Esempi
+## Esempi
 
 Mostra come garantire che un nodo cella contenga i nodi necessari per iniziare ad aggiungervi contenuto.
 
@@ -40,7 +42,5 @@ cell.FirstParagraph.AppendChild(new Run(doc, "Hello world!"));
 ### Guarda anche
 
 * class [Cell](../)
-* spazio dei nomi [Aspose.Words.Tables](../../cell/)
+* spazio dei nomi [Aspose.Words.Tables](../../../aspose.words.tables/)
 * assemblea [Aspose.Words](../../../)
-
-

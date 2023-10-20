@@ -1,7 +1,9 @@
 ---
 title: MailMergeSettings.MailAsAttachment
-second_title: Aspose.Words for .NET API 参考
-description: MailMergeSettings 财产. 指定在邮件合并操作期间生成的文档应作为附件而不是 而不是实际电子邮件的正文通过电子邮件发送默认值为错误的.
+linktitle: MailAsAttachment
+articleTitle: MailAsAttachment
+second_title: 用于 .NET 的 Aspose.Words
+description: MailMergeSettings MailAsAttachment 财产. 指定在邮件合并操作期间生成的文档应作为附件而不是 而不是实际电子邮件的正文通过电子邮件发送默认值为错误的 在 C#.
 type: docs
 weight: 120
 url: /zh/net/aspose.words.settings/mailmergesettings/mailasattachment/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.settings/mailmergesettings/mailasattachment/
 public bool MailAsAttachment { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何在连接到外部数据源时执行邮件合并。
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "MailMerge.OdsoEmail.docx");
 ### 也可以看看
 
 * class [MailMergeSettings](../)
-* 命名空间 [Aspose.Words.Settings](../../mailmergesettings/)
+* 命名空间 [Aspose.Words.Settings](../../../aspose.words.settings/)
 * 部件 [Aspose.Words](../../../)
-
-

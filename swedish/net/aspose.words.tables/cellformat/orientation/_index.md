@@ -1,9 +1,11 @@
 ---
 title: CellFormat.Orientation
-second_title: Aspose.Words för .NET API Referens
-description: CellFormat fast egendom. Returnerar eller ställer in orienteringen för text i en tabellcell.
+linktitle: Orientation
+articleTitle: Orientation
+second_title: Aspose.Words för .NET
+description: CellFormat Orientation fast egendom. Returnerar eller ställer in orienteringen för text i en tabellcell i C#.
 type: docs
-weight: 70
+weight: 60
 url: /sv/net/aspose.words.tables/cellformat/orientation/
 ---
 ## CellFormat.Orientation property
@@ -14,7 +16,7 @@ Returnerar eller ställer in orienteringen för text i en tabellcell.
 public TextOrientation Orientation { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man bygger en formaterad 2x2-tabell.
 
@@ -122,7 +124,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
 
 * enum [TextOrientation](../../../aspose.words/textorientation/)
 * class [CellFormat](../)
-* namnutrymme [Aspose.Words.Tables](../../cellformat/)
+* namnutrymme [Aspose.Words.Tables](../../../aspose.words.tables/)
 * hopsättning [Aspose.Words](../../../)
-
-

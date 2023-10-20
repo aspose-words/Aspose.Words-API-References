@@ -1,7 +1,9 @@
 ---
-title: Class FieldSubject
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Fields.FieldSubject classe. Implémente le champ SUJET.
+title: FieldSubject Class
+linktitle: FieldSubject
+articleTitle: FieldSubject
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Fields.FieldSubject classe. Implémente le champ SUJET en C#.
 type: docs
 weight: 2450
 url: /fr/net/aspose.words.fields/fieldsubject/
@@ -43,17 +45,17 @@ public class FieldSubject : Field
 | Nom | La description |
 | --- | --- |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Renvoie le texte entre le début du champ et le séparateur de champ (ou la fin du champ s'il n'y a pas de séparateur). Le code de champ et le résultat du champ des champs enfants sont inclus. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Renvoie le texte entre le début du champ et le séparateur de champ (ou la fin du champ s'il n'y a pas de séparateur). |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | Renvoie le texte entre le début du champ et le séparateur de champ (ou la fin du champ s'il n'y a pas de séparateur). |
 | [Remove](../../aspose.words.fields/field/remove/)() | Supprime le champ du document. Renvoie un nœud juste après le champ. Si la fin du champ est le dernier child de son nœud parent, renvoie son paragraphe parent. Si le champ est déjà supprimé, renvoie`nul` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | Effectue la dissociation du champ. |
 | [Update](../../aspose.words.fields/field/update/)() | Effectue la mise à jour du champ. Lance si le champ est déjà mis à jour. |
-| [Update](../../aspose.words.fields/field/update/)(bool) | Effectue une mise à jour du champ. Lance si le champ est déjà mis à jour. |
+| [Update](../../aspose.words.fields/field/update/)(*bool*) | Effectue une mise à jour du champ. Lance si le champ est déjà mis à jour. |
 
-### Remarques
+## Remarques
 
-Récupère et définit éventuellement le sujet du document, tel qu'enregistré dans le **Sujet** propriété des propriétés du document intégré .
+Récupère et définit éventuellement le sujet du document, tel qu'enregistré dans le**Sujet** propriété des propriétés du document intégré .
 
-### Exemples
+## Exemples
 
 Montre comment utiliser le champ SUJET.
 
@@ -90,5 +92,3 @@ doc.Save(ArtifactsDir + "Field.SUBJECT.docx");
 * class [Field](../field/)
 * espace de noms [Aspose.Words.Fields](../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../)
-
-

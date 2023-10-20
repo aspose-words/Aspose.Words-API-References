@@ -1,7 +1,9 @@
 ---
 title: LoadOptions.LoadFormat
-second_title: Aspose.Words für .NET-API-Referenz
-description: LoadOptions eigendom. Gibt das Format des zu ladenden Dokuments an. Standard istAuto .
+linktitle: LoadFormat
+articleTitle: LoadFormat
+second_title: Aspose.Words für .NET
+description: LoadOptions LoadFormat eigendom. Gibt das Format des zu ladenden Dokuments an. Standard istAuto  in C#.
 type: docs
 weight: 90
 url: /de/net/aspose.words.loading/loadoptions/loadformat/
@@ -14,11 +16,11 @@ Gibt das Format des zu ladenden Dokuments an. Standard istAuto .
 public LoadFormat LoadFormat { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Es wird empfohlen, dass Sie angebenAuto Geben Sie den Wert ein und lassen Sie Aspose.Words das Dateiformat automatisch erkennen. Wenn Sie das Format des Dokuments kennen, das Sie laden möchten, können Sie das Format explizit angeben. Dadurch wird die Ladezeit um den Mehraufwand, der mit der automatischen Formaterkennung verbunden ist, geringfügig verkürzt. Wenn Sie ein explizites Ladeformat angeben, wird es automatisch angezeigt Wenn sich herausstellt, dass die Datei falsch ist, wird die automatische Erkennung aufgerufen und ein zweiter Versuch unternommen, die Datei zu laden.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man beim Öffnen eines HTML-Dokuments einen Basis-URI angibt.
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "HtmlLoadOptions.BaseUri.docx");
 
 * enum [LoadFormat](../../../aspose.words/loadformat/)
 * class [LoadOptions](../)
-* namensraum [Aspose.Words.Loading](../../loadoptions/)
+* namensraum [Aspose.Words.Loading](../../../aspose.words.loading/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.SpaceBeforeAuto
-second_title: Aspose.Words for .NET API 参考
-description: ParagraphFormat 财产. 如果自动设置段落之前的间距则为 True
+linktitle: SpaceBeforeAuto
+articleTitle: SpaceBeforeAuto
+second_title: 用于 .NET 的 Aspose.Words
+description: ParagraphFormat SpaceBeforeAuto 财产. 如果自动设置段落之前的间距则为 True 在 C#.
 type: docs
 weight: 330
 url: /zh/net/aspose.words/paragraphformat/spacebeforeauto/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/paragraphformat/spacebeforeauto/
 public bool SpaceBeforeAuto { get; set; }
 ```
 
-### 评论
+## 评论
 
 当设置为`真的`，覆盖效果[`SpaceBefore`](../spacebefore/)。
 
@@ -27,7 +29,7 @@ public bool SpaceBeforeAuto { get; set; }
 * 如果表格是表格单元格中的最后一个块，则不会在表格后面添加间距。
 * 表格单元格中最后一段之后不添加间距。
 
-### 例子
+## 例子
 
 演示如何设置自动段落间距。
 
@@ -55,7 +57,5 @@ doc.Save(ArtifactsDir + "ParagraphFormat.ParagraphSpacingAuto.docx");
 ### 也可以看看
 
 * class [ParagraphFormat](../)
-* 命名空间 [Aspose.Words](../../paragraphformat/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

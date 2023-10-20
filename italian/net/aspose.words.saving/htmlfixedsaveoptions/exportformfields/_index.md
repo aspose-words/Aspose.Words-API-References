@@ -1,7 +1,9 @@
 ---
 title: HtmlFixedSaveOptions.ExportFormFields
-second_title: Aspose.Words per .NET API Reference
-description: HtmlFixedSaveOptions proprietà. Ottiene o imposta lindicazione se i campi del modulo vengono esportati come elementi interattivi come tag input anziché convertiti in testo o grafica.
+linktitle: ExportFormFields
+articleTitle: ExportFormFields
+second_title: Aspose.Words per .NET
+description: HtmlFixedSaveOptions ExportFormFields proprietà. Ottiene o imposta lindicazione se i campi del modulo vengono esportati come elementi interattivi come tag input anziché convertiti in testo o grafica in C#.
 type: docs
 weight: 80
 url: /it/net/aspose.words.saving/htmlfixedsaveoptions/exportformfields/
@@ -14,7 +16,7 @@ Ottiene o imposta l'indicazione se i campi del modulo vengono esportati come ele
 public bool ExportFormFields { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come esportare i campi del modulo in Html.
 
@@ -56,7 +58,5 @@ else
 ### Guarda anche
 
 * class [HtmlFixedSaveOptions](../)
-* spazio dei nomi [Aspose.Words.Saving](../../htmlfixedsaveoptions/)
+* spazio dei nomi [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../../)
-
-

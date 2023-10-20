@@ -1,7 +1,9 @@
 ---
 title: FieldSet.BookmarkText
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldSet свойство. Получает или задает новый текст закладки.
+linktitle: BookmarkText
+articleTitle: BookmarkText
+second_title: Aspose.Words для .NET
+description: FieldSet BookmarkText свойство. Получает или задает новый текст закладки на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.fields/fieldset/bookmarktext/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldset/bookmarktext/
 public string BookmarkText { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как создать текст с закладкой с помощью поля SET, а затем отобразить его в документе с помощью поля REF.
 
@@ -45,7 +47,5 @@ doc.Save(ArtifactsDir + "Field.SET.REF.docx");
 ### Смотрите также
 
 * class [FieldSet](../)
-* пространство имен [Aspose.Words.Fields](../../fieldset/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

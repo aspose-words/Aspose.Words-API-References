@@ -1,7 +1,9 @@
 ---
 title: IFieldUserPromptRespondent.Respond
-second_title: Aspose.Words per .NET API Reference
-description: IFieldUserPromptRespondent metodo. Una volta implementato restituisce una risposta dallutente al prompt. La tua implementazione dovrebbe restituirenullo per indicare che lutente non ha risposto al prompt ovvero lutente ha premuto il pulsante Annulla nella finestra del prompt.
+linktitle: Respond
+articleTitle: Respond
+second_title: Aspose.Words per .NET
+description: IFieldUserPromptRespondent Respond metodo. Una volta implementato restituisce una risposta dallutente al prompt. La tua implementazione dovrebbe restituirenullo per indicare che lutente non ha risposto al prompt ovvero lutente ha premuto il pulsante Annulla nella finestra del prompt in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words.fields/ifielduserpromptrespondent/respond/
@@ -23,7 +25,7 @@ public string Respond(string promptText, string defaultResponse)
 
 Risposta dell'utente (vale a dire il valore confermato contenuto nella finestra del prompt).
 
-### Esempi
+## Esempi
 
 Mostra come creare un campo ASK e impostarne le proprietà.
 
@@ -85,7 +87,5 @@ private class MyPromptRespondent : IFieldUserPromptRespondent
 ### Guarda anche
 
 * interface [IFieldUserPromptRespondent](../)
-* spazio dei nomi [Aspose.Words.Fields](../../ifielduserpromptrespondent/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

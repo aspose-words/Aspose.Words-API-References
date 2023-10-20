@@ -1,7 +1,9 @@
 ---
 title: FieldDde.InsertAsRtf
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldDde propriété. Obtient ou définit sil faut insérer lobjet lié au format de texte enrichi RTF.
+linktitle: InsertAsRtf
+articleTitle: InsertAsRtf
+second_title: Aspose.Words pour .NET
+description: FieldDde InsertAsRtf propriété. Obtient ou définit sil faut insérer lobjet lié au format de texte enrichi RTF en C#.
 type: docs
 weight: 60
 url: /fr/net/aspose.words.fields/fielddde/insertasrtf/
@@ -14,7 +16,7 @@ Obtient ou définit s'il faut insérer l'objet lié au format de texte enrichi (
 public bool InsertAsRtf { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment utiliser différents types de champs pour créer des liens vers d’autres documents dans le système de fichiers local et afficher leur contenu.
 
@@ -197,7 +199,5 @@ public enum InsertLinkedObjectAs
 ### Voir également
 
 * class [FieldDde](../)
-* espace de noms [Aspose.Words.Fields](../../fielddde/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

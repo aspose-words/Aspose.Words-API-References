@@ -1,7 +1,9 @@
 ---
-title: Enum BreakType
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.BreakType تعداد. يحدد نوع الفاصل داخل المستند.
+title: BreakType Enum
+linktitle: BreakType
+articleTitle: BreakType
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.BreakType تعداد. يحدد نوع الفاصل داخل المستند في C#.
 type: docs
 weight: 110
 url: /ar/net/aspose.words/breaktype/
@@ -28,7 +30,7 @@ public enum BreakType
 | SectionBreakOddPage | `7` | يحدد بداية القسم الجديد في صفحة فردية. |
 | LineBreak | `8` | فاصل أسطر صريح. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء الرؤوس والتذييلات في مستند باستخدام DocumentBuilder.
 
@@ -138,5 +140,3 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertToc.docx");
 
 * مساحة الاسم [Aspose.Words](../../aspose.words/)
 * المجسم [Aspose.Words](../../)
-
-

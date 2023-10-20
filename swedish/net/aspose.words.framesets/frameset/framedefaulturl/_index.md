@@ -1,7 +1,9 @@
 ---
 title: Frameset.FrameDefaultUrl
-second_title: Aspose.Words för .NET API Referens
-description: Frameset fast egendom. Hämtar eller ställer in webbsidans URL eller dokumentfilnamnet som ska visas i denna ram.
+linktitle: FrameDefaultUrl
+articleTitle: FrameDefaultUrl
+second_title: Aspose.Words för .NET
+description: Frameset FrameDefaultUrl fast egendom. Hämtar eller ställer in webbsidans URL eller dokumentfilnamnet som ska visas i denna ram i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.framesets/frameset/framedefaulturl/
@@ -14,7 +16,7 @@ Hämtar eller ställer in webbsidans URL eller dokumentfilnamnet som ska visas i
 public string FrameDefaultUrl { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man kommer åt ramar på sidan.
 
@@ -39,7 +41,5 @@ doc.Frameset.ChildFramesets[0].ChildFramesets[0].IsFrameLinkToFile = false;
 ### Se även
 
 * class [Frameset](../)
-* namnutrymme [Aspose.Words.Framesets](../../frameset/)
+* namnutrymme [Aspose.Words.Framesets](../../../aspose.words.framesets/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: GroupShape.GroupShape
-second_title: Aspose.Words für .NET-API-Referenz
-description: GroupShape constructeur. Erstellt eine neue Gruppenform.
+title: GroupShape
+linktitle: GroupShape
+articleTitle: GroupShape
+second_title: Aspose.Words für .NET
+description: GroupShape constructeur. Erstellt eine neue Gruppenform in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words.drawing/groupshape/groupshape/
@@ -18,13 +20,13 @@ public GroupShape(DocumentBase doc)
 | --- | --- | --- |
 | doc | DocumentBase | Das Eigentümerdokument. |
 
-### Bemerkungen
+## Bemerkungen
 
 Standardmäßig ist die Form schwebend und hat die Standardposition und -größe.
 
 Sie sollten die gewünschten Formeigenschaften angeben, nachdem Sie eine Form erstellt haben.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie eine Gruppe von Formen erstellt und deren Inhalt mithilfe eines Dokumentbesuchers gedruckt wird.
 
@@ -116,7 +118,5 @@ public class ShapeGroupPrinter : DocumentVisitor
 
 * class [DocumentBase](../../../aspose.words/documentbase/)
 * class [GroupShape](../)
-* namensraum [Aspose.Words.Drawing](../../groupshape/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Font.ThemeFont
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Font propriété. Obtient ou définit la police du thème dans le jeu de polices appliqué associé à ce thème.Font objet.
+linktitle: ThemeFont
+articleTitle: ThemeFont
+second_title: Aspose.Words pour .NET
+description: Font ThemeFont propriété. Obtient ou définit la police du thème dans le jeu de polices appliqué associé à ce thème.Font objet en C#.
 type: docs
 weight: 470
 url: /fr/net/aspose.words/font/themefont/
@@ -14,7 +16,7 @@ Obtient ou définit la police du thème dans le jeu de polices appliqué associ�
 public ThemeFont ThemeFont { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment créer et utiliser un style thématique.
 
@@ -119,7 +121,5 @@ Assert.AreEqual(Color.Blue.ToArgb(), font.Color.ToArgb());
 
 * enum [ThemeFont](../../../aspose.words.themes/themefont/)
 * class [Font](../)
-* espace de noms [Aspose.Words](../../font/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

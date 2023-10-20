@@ -1,7 +1,9 @@
 ---
 title: Story.StoryType
-second_title: Справочник по API Aspose.Words для .NET
-description: Story свойство. Получает тип этой истории.
+linktitle: StoryType
+articleTitle: StoryType
+second_title: Aspose.Words для .NET
+description: Story StoryType свойство. Получает тип этой истории на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words/story/storytype/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/story/storytype/
 public StoryType StoryType { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как удалить все фигуры из узла.
 
@@ -39,7 +41,5 @@ Assert.AreEqual(0, doc.GetChildNodes(NodeType.Shape, true).Count);
 
 * enum [StoryType](../../storytype/)
 * class [Story](../)
-* пространство имен [Aspose.Words](../../story/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

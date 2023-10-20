@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.GetShapeRenderer
-second_title: Aspose.Words لمراجع .NET API
-description: ShapeBase طريقة. إنشاء وإرجاع كائن يمكن استخدامه لتحويل هذا الشكل إلى صورة.
+linktitle: GetShapeRenderer
+articleTitle: GetShapeRenderer
+second_title: Aspose.Words لـ .NET
+description: ShapeBase GetShapeRenderer طريقة. إنشاء وإرجاع كائن يمكن استخدامه لتحويل هذا الشكل إلى صورة في C#.
 type: docs
 weight: 660
 url: /ar/net/aspose.words.drawing/shapebase/getshaperenderer/
@@ -18,11 +20,11 @@ public ShapeRenderer GetShapeRenderer()
 
 كائن العارض لهذا الشكل.
 
-### ملاحظات
+## ملاحظات
 
 هذه الطريقة تستدعي فقط[`ShapeRenderer`](../../../aspose.words.rendering/shaperenderer/) منشئ ويمرر هذا الكائن كمعلمة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام عارض الأشكال لتصدير الأشكال إلى الملفات الموجودة في نظام الملفات المحلي.
 
@@ -48,7 +50,5 @@ foreach (Shape shape in doc.GetChildNodes(NodeType.Shape, true).OfType<Shape>())
 
 * class [ShapeRenderer](../../../aspose.words.rendering/shaperenderer/)
 * class [ShapeBase](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../shapebase/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,12 +1,14 @@
 ---
-title: GradientStop.GradientStop
-second_title: Aspose.Words per .NET API Reference
-description: GradientStop costruttore. Inizializza una nuova istanza diGradientStop classe.
+title: GradientStop
+linktitle: GradientStop
+articleTitle: GradientStop
+second_title: Aspose.Words per .NET
+description: GradientStop costruttore. Inizializza una nuova istanza diGradientStop classe in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words.drawing/gradientstop/gradientstop/
 ---
-## GradientStop(Color, double) {#constructor}
+## GradientStop(*Color, double*) {#constructor}
 
 Inizializza una nuova istanza di[`GradientStop`](../) classe.
 
@@ -19,7 +21,7 @@ public GradientStop(Color color, double position)
 | color | Color | Rappresenta il colore dell'interruzione del gradiente. |
 | position | Double | Rappresenta la posizione di una fermata all'interno del gradiente espresso come percentuale nell'intervallo da 0,0 a 1,0. |
 
-### Esempi
+## Esempi
 
 Mostra come aggiungere interruzioni sfumatura al riempimento sfumatura.
 
@@ -72,12 +74,12 @@ doc.Save(ArtifactsDir + "Shape.GradientStops.docx", saveOptions);
 ### Guarda anche
 
 * class [GradientStop](../)
-* spazio dei nomi [Aspose.Words.Drawing](../../gradientstop/)
+* spazio dei nomi [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assemblea [Aspose.Words](../../../)
 
 ---
 
-## GradientStop(Color, double, double) {#constructor_1}
+## GradientStop(*Color, double, double*) {#constructor_1}
 
 Inizializza una nuova istanza di[`GradientStop`](../) classe.
 
@@ -91,7 +93,7 @@ public GradientStop(Color color, double position, double transparency)
 | position | Double | Rappresenta la posizione di una fermata all'interno del gradiente espresso come percentuale nell'intervallo da 0,0 a 1,0. |
 | transparency | Double | Rappresenta la trasparenza di una fermata entro il gradiente espresso come percentuale nell'intervallo da 0,0 a 1,0. |
 
-### Esempi
+## Esempi
 
 Mostra come aggiungere interruzioni sfumatura al riempimento sfumatura.
 
@@ -144,7 +146,5 @@ doc.Save(ArtifactsDir + "Shape.GradientStops.docx", saveOptions);
 ### Guarda anche
 
 * class [GradientStop](../)
-* spazio dei nomi [Aspose.Words.Drawing](../../gradientstop/)
+* spazio dei nomi [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assemblea [Aspose.Words](../../../)
-
-

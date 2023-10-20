@@ -1,7 +1,9 @@
 ---
 title: FieldXE.EntryType
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldXE свойство. Получает или задает тип записи индекса.
+linktitle: EntryType
+articleTitle: EntryType
+second_title: Aspose.Words для .NET
+description: FieldXE EntryType свойство. Получает или задает тип записи индекса на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.fields/fieldxe/entrytype/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldxe/entrytype/
 public string EntryType { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как создать поле INDEX, а затем использовать поля XE для заполнения его записями.
 
@@ -73,7 +75,5 @@ doc.Save(ArtifactsDir + "Field.INDEX.XE.Filtering.docx");
 ### Смотрите также
 
 * class [FieldXE](../)
-* пространство имен [Aspose.Words.Fields](../../fieldxe/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

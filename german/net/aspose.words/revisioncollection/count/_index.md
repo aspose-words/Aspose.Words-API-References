@@ -1,7 +1,9 @@
 ---
 title: RevisionCollection.Count
-second_title: Aspose.Words für .NET-API-Referenz
-description: RevisionCollection eigendom. Gibt die Anzahl der Revisionen in der Sammlung zurück.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words für .NET
+description: RevisionCollection Count eigendom. Gibt die Anzahl der Revisionen in der Sammlung zurück in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words/revisioncollection/count/
@@ -14,7 +16,7 @@ Gibt die Anzahl der Revisionen in der Sammlung zurück.
 public int Count { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit Revisionen in einem Dokument gearbeitet wird.
 
@@ -97,7 +99,5 @@ Assert.AreEqual("This is revision #1. \rThis is revision #2.", doc.GetText().Tri
 ### Siehe auch
 
 * class [RevisionCollection](../)
-* namensraum [Aspose.Words](../../revisioncollection/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

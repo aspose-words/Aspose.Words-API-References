@@ -1,7 +1,9 @@
 ---
 title: FontSettings.ResetFontSources
-second_title: Referencia de API de Aspose.Words para .NET
-description: FontSettings método. Restablece las fuentes de fuentes a los valores predeterminados del sistema.
+linktitle: ResetFontSources
+articleTitle: ResetFontSources
+second_title: Aspose.Words para .NET
+description: FontSettings ResetFontSources método. Restablece las fuentes de fuentes a los valores predeterminados del sistema en C#.
 type: docs
 weight: 60
 url: /es/net/aspose.words.fonts/fontsettings/resetfontsources/
@@ -14,7 +16,7 @@ Restablece las fuentes de fuentes a los valores predeterminados del sistema.
 public void ResetFontSources()
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo acceder a la fuente de fuentes del sistema de un documento y configurar fuentes sustitutas.
 
@@ -70,7 +72,5 @@ Assert.AreEqual(1,
 ### Ver también
 
 * class [FontSettings](../)
-* espacio de nombres [Aspose.Words.Fonts](../../fontsettings/)
+* espacio de nombres [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * asamblea [Aspose.Words](../../../)
-
-

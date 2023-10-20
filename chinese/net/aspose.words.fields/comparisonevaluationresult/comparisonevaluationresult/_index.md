@@ -1,12 +1,14 @@
 ---
-title: ComparisonEvaluationResult.ComparisonEvaluationResult
-second_title: Aspose.Words for .NET API 参考
-description: ComparisonEvaluationResult 构造函数. 创建比较评估结果
+title: ComparisonEvaluationResult
+linktitle: ComparisonEvaluationResult
+articleTitle: ComparisonEvaluationResult
+second_title: 用于 .NET 的 Aspose.Words
+description: ComparisonEvaluationResult 构造函数. 创建比较评估结果 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.fields/comparisonevaluationresult/comparisonevaluationresult/
 ---
-## ComparisonEvaluationResult(bool) {#constructor}
+## ComparisonEvaluationResult(*bool*) {#constructor}
 
 创建比较评估结果。
 
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/comparisonevaluationresult/comparisonevaluation
 public ComparisonEvaluationResult(bool result)
 ```
 
-### 例子
+## 例子
 
 展示如何实现 IF 和 COMPARE 字段的自定义评估。
 
@@ -98,12 +100,12 @@ private class ComparisonExpressionEvaluator : IComparisonExpressionEvaluator
 ### 也可以看看
 
 * class [ComparisonEvaluationResult](../)
-* 命名空间 [Aspose.Words.Fields](../../comparisonevaluationresult/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## ComparisonEvaluationResult(string) {#constructor_1}
+## ComparisonEvaluationResult(*string*) {#constructor_1}
 
 创建失败的比较评估结果以及相应的错误消息。
 
@@ -111,7 +113,7 @@ private class ComparisonExpressionEvaluator : IComparisonExpressionEvaluator
 public ComparisonEvaluationResult(string errorMessage)
 ```
 
-### 例子
+## 例子
 
 展示如何实现 IF 和 COMPARE 字段的自定义评估。
 
@@ -195,7 +197,5 @@ private class ComparisonExpressionEvaluator : IComparisonExpressionEvaluator
 ### 也可以看看
 
 * class [ComparisonEvaluationResult](../)
-* 命名空间 [Aspose.Words.Fields](../../comparisonevaluationresult/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: DocumentProperty.LinkSource
-second_title: Referencia de API de Aspose.Words para .NET
-description: DocumentProperty propiedad. Obtiene el origen de una propiedad de documento personalizada vinculada.
+linktitle: LinkSource
+articleTitle: LinkSource
+second_title: Aspose.Words para .NET
+description: DocumentProperty LinkSource propiedad. Obtiene el origen de una propiedad de documento personalizada vinculada en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words.properties/documentproperty/linksource/
@@ -14,7 +16,7 @@ Obtiene el origen de una propiedad de documento personalizada vinculada.
 public string LinkSource { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo vincular una propiedad de documento personalizada a un marcador.
 
@@ -41,7 +43,5 @@ doc.Save(ArtifactsDir + "DocumentProperties.LinkCustomDocumentPropertiesToBookma
 ### Ver también
 
 * class [DocumentProperty](../)
-* espacio de nombres [Aspose.Words.Properties](../../documentproperty/)
+* espacio de nombres [Aspose.Words.Properties](../../../aspose.words.properties/)
 * asamblea [Aspose.Words](../../../)
-
-

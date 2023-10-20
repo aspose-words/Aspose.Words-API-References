@@ -1,7 +1,9 @@
 ---
-title: Enum ChartSeriesType
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Drawing.Charts.ChartSeriesType opsomming. Gibt einen Typ einer Diagrammreihe an.
+title: ChartSeriesType Enum
+linktitle: ChartSeriesType
+articleTitle: ChartSeriesType
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Drawing.Charts.ChartSeriesType opsomming. Gibt einen Typ einer Diagrammreihe an in C#.
 type: docs
 weight: 800
 url: /de/net/aspose.words.drawing.charts/chartseriestype/
@@ -63,7 +65,7 @@ public enum ChartSeriesType
 | Funnel | `42` | Stellt eine Trichterdiagrammreihe dar. |
 | RegionMap | `43` | Stellt eine Regionskarten-Diagrammserie dar. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie es geht
 
@@ -90,5 +92,3 @@ doc.Save(ArtifactsDir + "Charts.RemoveSpecificChartSeries.docx");
 
 * namensraum [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: TableStyle.ConditionalStyles
-second_title: Aspose.Words for .NET API 参考
-description: TableStyle 财产. 可以为此表格样式定义的条件样式的集合
+linktitle: ConditionalStyles
+articleTitle: ConditionalStyles
+second_title: 用于 .NET 的 Aspose.Words
+description: TableStyle ConditionalStyles 财产. 可以为此表格样式定义的条件样式的集合 在 C#.
 type: docs
 weight: 80
 url: /zh/net/aspose.words/tablestyle/conditionalstyles/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/tablestyle/conditionalstyles/
 public ConditionalStyleCollection ConditionalStyles { get; }
 ```
 
-### 例子
+## 例子
 
 展示如何使用表格的某些区域样式。
 
@@ -85,7 +87,5 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 
 * class [ConditionalStyleCollection](../../conditionalstylecollection/)
 * class [TableStyle](../)
-* 命名空间 [Aspose.Words](../../tablestyle/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

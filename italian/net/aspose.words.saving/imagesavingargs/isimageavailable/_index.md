@@ -1,7 +1,9 @@
 ---
 title: ImageSavingArgs.IsImageAvailable
-second_title: Aspose.Words per .NET API Reference
-description: ImageSavingArgs proprietà. RestituisceVERO se limmagine corrente è disponibile per lesportazione.
+linktitle: IsImageAvailable
+articleTitle: IsImageAvailable
+second_title: Aspose.Words per .NET
+description: ImageSavingArgs IsImageAvailable proprietà. RestituisceVERO se limmagine corrente è disponibile per lesportazione in C#.
 type: docs
 weight: 50
 url: /it/net/aspose.words.saving/imagesavingargs/isimageavailable/
@@ -14,13 +16,13 @@ Restituisce`VERO` se l'immagine corrente è disponibile per l'esportazione.
 public bool IsImageAvailable { get; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Alcune immagini nel documento potrebbero non essere disponibili, ad esempio perché image è collegata e il collegamento è inaccessibile o non punta a un'immagine valida. In questo caso Aspose.Words esporta un'icona con una croce rossa. Questa proprietà restituisce `VERO` se l'immagine originale è disponibile; ritorna`falso`se l'immagine originale non è disponibile e verrà offerta un'icona "nessuna immagine" per il salvataggio.
 
 Quando si salva una forma di gruppo o una forma che non richiede alcuna immagine, questa proprietà è sempre attiva`VERO`.
 
-### Esempi
+## Esempi
 
 Mostra come coinvolgere un callback per il salvataggio dell'immagine in un processo di conversione HTML.
 
@@ -67,7 +69,5 @@ private class ImageShapePrinter : IImageSavingCallback
 
 * property [CurrentShape](../currentshape/)
 * class [ImageSavingArgs](../)
-* spazio dei nomi [Aspose.Words.Saving](../../imagesavingargs/)
+* spazio dei nomi [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../../)
-
-

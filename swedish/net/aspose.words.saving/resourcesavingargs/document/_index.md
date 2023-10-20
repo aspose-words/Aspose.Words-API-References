@@ -1,7 +1,9 @@
 ---
 title: ResourceSavingArgs.Document
-second_title: Aspose.Words för .NET API Referens
-description: ResourceSavingArgs fast egendom. Hämtar dokumentobjektet som för närvarande sparas.
+linktitle: Document
+articleTitle: Document
+second_title: Aspose.Words för .NET
+description: ResourceSavingArgs Document fast egendom. Hämtar dokumentobjektet som för närvarande sparas i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.saving/resourcesavingargs/document/
@@ -14,7 +16,7 @@ Hämtar dokumentobjektet som för närvarande sparas.
 public Document Document { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man använder en återuppringning för att spåra externa resurser som skapas när ett dokument konverteras till HTML.
 
@@ -60,7 +62,5 @@ private class FontSavingCallback : IResourceSavingCallback
 
 * class [Document](../../../aspose.words/document/)
 * class [ResourceSavingArgs](../)
-* namnutrymme [Aspose.Words.Saving](../../resourcesavingargs/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

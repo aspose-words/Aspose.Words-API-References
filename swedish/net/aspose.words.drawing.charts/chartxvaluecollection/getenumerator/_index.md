@@ -1,7 +1,9 @@
 ---
 title: ChartXValueCollection.GetEnumerator
-second_title: Aspose.Words för .NET API Referens
-description: ChartXValueCollection metod. Returnerar ett uppräkningsobjekt.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words för .NET
+description: ChartXValueCollection GetEnumerator metod. Returnerar ett uppräkningsobjekt i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.drawing.charts/chartxvaluecollection/getenumerator/
@@ -18,7 +20,5 @@ public IEnumerator<ChartXValue> GetEnumerator()
 
 * class [ChartXValue](../../chartxvalue/)
 * class [ChartXValueCollection](../)
-* namnutrymme [Aspose.Words.Drawing.Charts](../../chartxvaluecollection/)
+* namnutrymme [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../../)
-
-

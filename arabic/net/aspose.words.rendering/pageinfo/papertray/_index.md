@@ -1,7 +1,9 @@
 ---
 title: PageInfo.PaperTray
-second_title: Aspose.Words لمراجع .NET API
-description: PageInfo ملكية. الحصول على درج الورق الحاوية لهذه الصفحة كما هو محدد في المستند. القيمة خاصة بالتنفيذ الطابعة.
+linktitle: PaperTray
+articleTitle: PaperTray
+second_title: Aspose.Words لـ .NET
+description: PageInfo PaperTray ملكية. الحصول على درج الورق الحاوية لهذه الصفحة كما هو محدد في المستند. القيمة خاصة بالتنفيذ الطابعة في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.rendering/pageinfo/papertray/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.rendering/pageinfo/papertray/
 public int PaperTray { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية طباعة حجم الصفحة ومعلومات الاتجاه لكل صفحة في مستند Word.
 
@@ -56,7 +58,5 @@ for (int i = 0; i < doc.PageCount; i++)
 ### أنظر أيضا
 
 * class [PageInfo](../)
-* مساحة الاسم [Aspose.Words.Rendering](../../pageinfo/)
+* مساحة الاسم [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * المجسم [Aspose.Words](../../../)
-
-

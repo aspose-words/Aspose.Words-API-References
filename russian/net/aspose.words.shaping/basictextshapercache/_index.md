@@ -1,7 +1,9 @@
 ---
-title: Class BasicTextShaperCache
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Shaping.BasicTextShaperCache сорт. Реализует базовый кеш дляITextShaper экземпляры. Этот класс является потокобезопасным.
+title: BasicTextShaperCache Class
+linktitle: BasicTextShaperCache
+articleTitle: BasicTextShaperCache
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Shaping.BasicTextShaperCache сорт. Реализует базовый кеш дляITextShaper экземпляры. Этот класс является потокобезопасным на С#.
 type: docs
 weight: 6000
 url: /ru/net/aspose.words.shaping/basictextshapercache/
@@ -18,7 +20,7 @@ public sealed class BasicTextShaperCache : IDisposable, ITextShaperFactory
 
 | Имя | Описание |
 | --- | --- |
-| [BasicTextShaperCache](basictextshapercache/)(ITextShaperFactory) | Обертывания*factory* и кэши[`GetTextShaper`](../itextshaperfactory/gettextshaper/) результаты. |
+| [BasicTextShaperCache](basictextshapercache/)(*[ITextShaperFactory](../itextshaperfactory/)*) | Обертывания*factory* и кэши[`GetTextShaper`](../itextshaperfactory/gettextshaper/) результаты. |
 
 ## Методы
 
@@ -31,5 +33,3 @@ public sealed class BasicTextShaperCache : IDisposable, ITextShaperFactory
 * interface [ITextShaperFactory](../itextshaperfactory/)
 * пространство имен [Aspose.Words.Shaping](../../aspose.words.shaping/)
 * сборка [Aspose.Words](../../)
-
-

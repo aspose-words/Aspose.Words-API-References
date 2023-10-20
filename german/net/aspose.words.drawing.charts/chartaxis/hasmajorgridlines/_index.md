@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.HasMajorGridlines
-second_title: Aspose.Words für .NET-API-Referenz
-description: ChartAxis eigendom. Ruft ein Flag ab oder setzt es das angibt ob die Achse über Hauptgitterlinien verfügt.
+linktitle: HasMajorGridlines
+articleTitle: HasMajorGridlines
+second_title: Aspose.Words für .NET
+description: ChartAxis HasMajorGridlines eigendom. Ruft ein Flag ab oder setzt es das angibt ob die Achse über Hauptgitterlinien verfügt in C#.
 type: docs
 weight: 80
 url: /de/net/aspose.words.drawing.charts/chartaxis/hasmajorgridlines/
@@ -14,7 +16,7 @@ Ruft ein Flag ab oder setzt es, das angibt, ob die Achse über Hauptgitterlinien
 public bool HasMajorGridlines { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Diagramm mit Datums-/Uhrzeitwerten eingefügt wird.
 
@@ -68,7 +70,5 @@ doc.Save(ArtifactsDir + "Charts.DateTimeValues.docx");
 ### Siehe auch
 
 * class [ChartAxis](../)
-* namensraum [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* namensraum [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../../)
-
-

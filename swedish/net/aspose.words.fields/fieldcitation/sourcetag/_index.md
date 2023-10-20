@@ -1,20 +1,22 @@
 ---
 title: FieldCitation.SourceTag
-second_title: Aspose.Words för .NET API Referens
-description: FieldCitation fast egendom. Hämtar eller ställer in ett värde som matchar Märka elementets värde för källan som ska infogas.
+linktitle: SourceTag
+articleTitle: SourceTag
+second_title: Aspose.Words för .NET
+description: FieldCitation SourceTag fast egendom. Hämtar eller ställer in ett värde som matcharMärka elementets värde för källan som ska infogas i C#.
 type: docs
 weight: 60
 url: /sv/net/aspose.words.fields/fieldcitation/sourcetag/
 ---
 ## FieldCitation.SourceTag property
 
-Hämtar eller ställer in ett värde som matchar **Märka** elementets värde för källan som ska infogas.
+Hämtar eller ställer in ett värde som matchar**Märka** elementets värde för källan som ska infogas.
 
 ```csharp
 public string SourceTag { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med CITATION och BIBLIOGRAPHY-fält.
 
@@ -68,7 +70,5 @@ doc.Save(ArtifactsDir + "Field.CITATION.docx");
 ### Se även
 
 * class [FieldCitation](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldcitation/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FixedPageSaveOptions.Equals
-second_title: Aspose.Words per .NET API Reference
-description: FixedPageSaveOptions metodo. Determina se loggetto specificato ha un valore uguale alloggetto corrente.
+linktitle: Equals
+articleTitle: Equals
+second_title: Aspose.Words per .NET
+description: FixedPageSaveOptions Equals metodo. Determina se loggetto specificato ha un valore uguale alloggetto corrente in C#.
 type: docs
 weight: 80
 url: /it/net/aspose.words.saving/fixedpagesaveoptions/equals/
@@ -17,7 +19,5 @@ public override bool Equals(object obj)
 ### Guarda anche
 
 * class [FixedPageSaveOptions](../)
-* spazio dei nomi [Aspose.Words.Saving](../../fixedpagesaveoptions/)
+* spazio dei nomi [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../../)
-
-

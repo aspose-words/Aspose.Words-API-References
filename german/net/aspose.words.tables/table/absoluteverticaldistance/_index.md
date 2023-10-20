@@ -1,7 +1,9 @@
 ---
 title: Table.AbsoluteVerticalDistance
-second_title: Aspose.Words für .NET-API-Referenz
-description: Table eigendom. Ruft die durch die Tabelleneigenschaften angegebene absolute vertikale schwebende Tabellenposition in Punkten ab oder legt diese fest. Der Standardwert ist 0.
+linktitle: AbsoluteVerticalDistance
+articleTitle: AbsoluteVerticalDistance
+second_title: Aspose.Words für .NET
+description: Table AbsoluteVerticalDistance eigendom. Ruft die durch die Tabelleneigenschaften angegebene absolute vertikale schwebende Tabellenposition in Punkten ab oder legt diese fest. Der Standardwert ist 0 in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.tables/table/absoluteverticaldistance/
@@ -14,7 +16,7 @@ Ruft die durch die Tabelleneigenschaften angegebene absolute vertikale schwebend
 public double AbsoluteVerticalDistance { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Position schwebender Tabellen festgelegt wird.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "Table.ChangeFloatingTableProperties.docx");
 ### Siehe auch
 
 * class [Table](../)
-* namensraum [Aspose.Words.Tables](../../table/)
+* namensraum [Aspose.Words.Tables](../../../aspose.words.tables/)
 * Montage [Aspose.Words](../../../)
-
-

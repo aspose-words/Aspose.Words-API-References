@@ -1,7 +1,9 @@
 ---
-title: Enum ResourceType
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Loading.ResourceType تعداد. نوع المورد المحمل.
+title: ResourceType Enum
+linktitle: ResourceType
+articleTitle: ResourceType
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Loading.ResourceType تعداد. نوع المورد المحمل في C#.
 type: docs
 weight: 3700
 url: /ar/net/aspose.words.loading/resourcetype/
@@ -22,7 +24,7 @@ public enum ResourceType
 | CssStyleSheet | `1` | ورقة أنماط Css. |
 | Document | `2` | المستند. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تخصيص عملية تحميل الموارد الخارجية إلى مستند.
 
@@ -86,5 +88,3 @@ private class ImageNameHandler : IResourceLoadingCallback
 
 * مساحة الاسم [Aspose.Words.Loading](../../aspose.words.loading/)
 * المجسم [Aspose.Words](../../)
-
-

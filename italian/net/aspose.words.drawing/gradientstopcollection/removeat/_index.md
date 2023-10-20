@@ -1,7 +1,9 @@
 ---
 title: GradientStopCollection.RemoveAt
-second_title: Aspose.Words per .NET API Reference
-description: GradientStopCollection metodo. Rimuove aGradientStop dalla raccolta in un indice specificato.
+linktitle: RemoveAt
+articleTitle: RemoveAt
+second_title: Aspose.Words per .NET
+description: GradientStopCollection RemoveAt metodo. Rimuove aGradientStop dalla raccolta in un indice specificato in C#.
 type: docs
 weight: 70
 url: /it/net/aspose.words.drawing/gradientstopcollection/removeat/
@@ -18,7 +20,7 @@ public GradientStop RemoveAt(int index)
 
 RIMOSSO[`GradientStop`](../../gradientstop/).
 
-### Esempi
+## Esempi
 
 Mostra come aggiungere interruzioni sfumatura al riempimento sfumatura.
 
@@ -72,7 +74,5 @@ doc.Save(ArtifactsDir + "Shape.GradientStops.docx", saveOptions);
 
 * class [GradientStop](../../gradientstop/)
 * class [GradientStopCollection](../)
-* spazio dei nomi [Aspose.Words.Drawing](../../gradientstopcollection/)
+* spazio dei nomi [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assemblea [Aspose.Words](../../../)
-
-

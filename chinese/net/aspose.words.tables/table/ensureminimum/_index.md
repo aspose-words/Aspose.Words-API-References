@@ -1,9 +1,11 @@
 ---
 title: Table.EnsureMinimum
-second_title: Aspose.Words for .NET API 参考
-description: Table 方法. 如果表没有行则创建并追加一行Row.
+linktitle: EnsureMinimum
+articleTitle: EnsureMinimum
+second_title: 用于 .NET 的 Aspose.Words
+description: Table EnsureMinimum 方法. 如果表没有行则创建并追加一行Row 在 C#.
 type: docs
-weight: 420
+weight: 400
 url: /zh/net/aspose.words.tables/table/ensureminimum/
 ---
 ## Table.EnsureMinimum method
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.tables/table/ensureminimum/
 public void EnsureMinimum()
 ```
 
-### 例子
+## 例子
 
 展示了如何确保表节点包含我们需要添加内容的节点。
 
@@ -37,7 +39,5 @@ table.FirstRow.FirstCell.FirstParagraph.AppendChild(new Run(doc, "Hello world!")
 ### 也可以看看
 
 * class [Table](../)
-* 命名空间 [Aspose.Words.Tables](../../table/)
+* 命名空间 [Aspose.Words.Tables](../../../aspose.words.tables/)
 * 部件 [Aspose.Words](../../../)
-
-

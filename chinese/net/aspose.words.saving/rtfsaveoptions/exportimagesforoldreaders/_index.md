@@ -1,7 +1,9 @@
 ---
 title: RtfSaveOptions.ExportImagesForOldReaders
-second_title: Aspose.Words for .NET API 参考
-description: RtfSaveOptions 财产. 指定老读者的关键字是否写入 RTF 这会显着影响 RTF 文档的大小 默认值为真的.
+linktitle: ExportImagesForOldReaders
+articleTitle: ExportImagesForOldReaders
+second_title: 用于 .NET 的 Aspose.Words
+description: RtfSaveOptions ExportImagesForOldReaders 财产. 指定老读者的关键字是否写入 RTF 这会显着影响 RTF 文档的大小 默认值为真的 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.saving/rtfsaveoptions/exportimagesforoldreaders/
@@ -14,13 +16,13 @@ url: /zh/net/aspose.words.saving/rtfsaveoptions/exportimagesforoldreaders/
 public bool ExportImagesForOldReaders { get; set; }
 ```
 
-### 评论
+## 评论
 
 “老读者”是 Microsoft Word 97 之前的应用程序以及写字板。 当此选项打开时`真的`Aspose.Words 写入额外的 RTF 关键字。 这些关键字允许文档在 “旧阅读器”应用程序中打开时正确显示，但会显着增加文档的大小。
 
 如果您将此选项设置为`错误的`，那么“旧阅读器”中将只显示 WMF、EMF 和 BMP 格式 的图像。
 
-### 例子
+## 例子
 
 演示如何使用自定义选项将文档保存为 .rtf。
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "RtfSaveOptions.ExportImages.rtf", options);
 ### 也可以看看
 
 * class [RtfSaveOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../rtfsaveoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

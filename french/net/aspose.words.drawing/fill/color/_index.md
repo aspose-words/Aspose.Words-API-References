@@ -1,9 +1,11 @@
 ---
 title: Fill.Color
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Fill propriété. Obtient ou définit un objet Color qui représente la couleur de premier plan du remplissage.
+linktitle: Color
+articleTitle: Color
+second_title: Aspose.Words pour .NET
+description: Fill Color propriété. Obtient ou définit un objet Color qui représente la couleur de premier plan du remplissage en C#.
 type: docs
-weight: 50
+weight: 40
 url: /fr/net/aspose.words.drawing/fill/color/
 ---
 ## Fill.Color property
@@ -14,11 +16,11 @@ Obtient ou définit un objet Color qui représente la couleur de premier plan du
 public Color Color { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 Cette propriété préserve la composante alpha duColor , contrairement au[`ForeColor`](../forecolor/)propriété, qui la réinitialise à une couleur totalement opaque.
 
-### Exemples
+## Exemples
 
 Montre comment reconvertir n’importe quel remplissage en remplissage solide.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "Drawing.FillSolid.docx");
 ### Voir également
 
 * class [Fill](../)
-* espace de noms [Aspose.Words.Drawing](../../fill/)
+* espace de noms [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Assemblée [Aspose.Words](../../../)
-
-

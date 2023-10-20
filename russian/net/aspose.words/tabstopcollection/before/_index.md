@@ -1,7 +1,9 @@
 ---
 title: TabStopCollection.Before
-second_title: Справочник по API Aspose.Words для .NET
-description: TabStopCollection метод. Получает первую позицию табуляции слева от указанной позиции.
+linktitle: Before
+articleTitle: Before
+second_title: Aspose.Words для .NET
+description: TabStopCollection Before метод. Получает первую позицию табуляции слева от указанной позиции на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words/tabstopcollection/before/
@@ -22,11 +24,11 @@ public TabStop Before(double position)
 
 Объект табуляции или`нулевой` если подходящая позиция табуляции не найдена.
 
-### Примечания
+## Примечания
 
 Пропускает позиции табуляции с помощью[`Alignment`](../../tabstop/alignment/) установлен вBar.
 
-### Примеры
+## Примеры
 
 Показывает, как работать с коллекцией табуляции документа.
 
@@ -71,7 +73,5 @@ doc.Save(ArtifactsDir + "TabStopCollection.TabStopCollection.docx");
 
 * class [TabStop](../../tabstop/)
 * class [TabStopCollection](../)
-* пространство имен [Aspose.Words](../../tabstopcollection/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

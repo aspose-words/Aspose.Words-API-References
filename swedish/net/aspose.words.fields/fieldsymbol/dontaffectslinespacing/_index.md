@@ -1,7 +1,9 @@
 ---
 title: FieldSymbol.DontAffectsLineSpacing
-second_title: Aspose.Words för .NET API Referens
-description: FieldSymbol fast egendom. Hämtar eller ställer in om tecknet som hämtas av fältet påverkar radavståndet i stycket.
+linktitle: DontAffectsLineSpacing
+articleTitle: DontAffectsLineSpacing
+second_title: Aspose.Words för .NET
+description: FieldSymbol DontAffectsLineSpacing fast egendom. Hämtar eller ställer in om tecknet som hämtas av fältet påverkar radavståndet i stycket i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.fields/fieldsymbol/dontaffectslinespacing/
@@ -14,7 +16,7 @@ Hämtar eller ställer in om tecknet som hämtas av fältet påverkar radavstån
 public bool DontAffectsLineSpacing { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man använder SYMBOL-fältet.
 
@@ -70,7 +72,5 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 ### Se även
 
 * class [FieldSymbol](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldsymbol/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

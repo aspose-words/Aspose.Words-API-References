@@ -1,7 +1,9 @@
 ---
-title: Class AxisScaling
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Drawing.Charts.AxisScaling classe. Représente les options de mise à léchelle de laxe.
+title: AxisScaling Class
+linktitle: AxisScaling
+articleTitle: AxisScaling
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Drawing.Charts.AxisScaling classe. Représente les options de mise à léchelle de laxe en C#.
 type: docs
 weight: 570
 url: /fr/net/aspose.words.drawing.charts/axisscaling/
@@ -31,7 +33,7 @@ public class AxisScaling
 | [Minimum](../../aspose.words.drawing.charts/axisscaling/minimum/) { get; set; } | Obtient ou définit la valeur minimale de l'axe. |
 | [Type](../../aspose.words.drawing.charts/axisscaling/type/) { get; set; } | Obtient ou définit le type de mise à l'échelle de l'axe. |
 
-### Exemples
+## Exemples
 
 Montre comment appliquer une mise à l’échelle logarithmique à un axe de graphique.
 
@@ -66,5 +68,3 @@ doc.Save(ArtifactsDir + "Charts.AxisScaling.docx");
 
 * espace de noms [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * Assemblée [Aspose.Words](../../)
-
-

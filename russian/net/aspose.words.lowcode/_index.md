@@ -1,7 +1,9 @@
 ---
 title: Aspose.Words.LowCode
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.LowCodeсодержит классы и методы для выполнения сложных общих операций с минимальным использованием кода.
+linktitle: Aspose.Words.LowCode
+articleTitle: Aspose.Words.LowCode
+second_title: Aspose.Words для .NET
+description: Aspose.Words.LowCodeсодержит классы и методы для выполнения сложных общих операций с минимальным использованием кода на С#.
 type: docs
 weight: 140
 url: /ru/net/aspose.words.lowcode/
@@ -18,5 +20,3 @@ url: /ru/net/aspose.words.lowcode/
 | перечисление | Описание |
 | --- | --- |
 | [MergeFormatMode](./mergeformatmode/) | Указывает, как форматирование объединяется при объединении нескольких документов. |
-
-

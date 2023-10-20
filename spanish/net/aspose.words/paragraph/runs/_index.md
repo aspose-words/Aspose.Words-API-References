@@ -1,7 +1,9 @@
 ---
 title: Paragraph.Runs
-second_title: Referencia de API de Aspose.Words para .NET
-description: Paragraph propiedad. Proporciona acceso a la colección mecanografiada de fragmentos de texto dentro del párrafo.
+linktitle: Runs
+articleTitle: Runs
+second_title: Aspose.Words para .NET
+description: Paragraph Runs propiedad. Proporciona acceso a la colección mecanografiada de fragmentos de texto dentro del párrafo en C#.
 type: docs
 weight: 220
 url: /es/net/aspose.words/paragraph/runs/
@@ -14,7 +16,7 @@ Proporciona acceso a la colección mecanografiada de fragmentos de texto dentro 
 public RunCollection Runs { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo determinar el tipo de revisión de un nodo en línea.
 
@@ -71,7 +73,5 @@ Assert.IsTrue(runs[5].IsDeleteRevision);
 
 * class [RunCollection](../../runcollection/)
 * class [Paragraph](../)
-* espacio de nombres [Aspose.Words](../../paragraph/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

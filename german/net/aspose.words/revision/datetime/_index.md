@@ -1,7 +1,9 @@
 ---
 title: Revision.DateTime
-second_title: Aspose.Words für .NET-API-Referenz
-description: Revision eigendom. Ruft das Datum/die Uhrzeit dieser Revision ab oder legt diese fest.
+linktitle: DateTime
+articleTitle: DateTime
+second_title: Aspose.Words für .NET
+description: Revision DateTime eigendom. Ruft das Datum/die Uhrzeit dieser Revision ab oder legt diese fest in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words/revision/datetime/
@@ -14,7 +16,7 @@ Ruft das Datum/die Uhrzeit dieser Revision ab oder legt diese fest.
 public DateTime DateTime { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit Revisionen in einem Dokument gearbeitet wird.
 
@@ -97,7 +99,5 @@ Assert.AreEqual("This is revision #1. \rThis is revision #2.", doc.GetText().Tri
 ### Siehe auch
 
 * class [Revision](../)
-* namensraum [Aspose.Words](../../revision/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

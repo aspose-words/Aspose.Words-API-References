@@ -1,7 +1,9 @@
 ---
 title: FieldIndex.CrossReferenceSeparator
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldIndex свойство. Получает или задает последовательность символов которая используется для разделения перекрестных ссылок и других записей.
+linktitle: CrossReferenceSeparator
+articleTitle: CrossReferenceSeparator
+second_title: Aspose.Words для .NET
+description: FieldIndex CrossReferenceSeparator свойство. Получает или задает последовательность символов которая используется для разделения перекрестных ссылок и других записей на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.fields/fieldindex/crossreferenceseparator/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldindex/crossreferenceseparator/
 public string CrossReferenceSeparator { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как определить перекрестные ссылки в поле ИНДЕКС.
 
@@ -64,7 +66,5 @@ doc.Save(ArtifactsDir + "Field.INDEX.XE.CrossReferenceSeparator.docx");
 ### Смотрите также
 
 * class [FieldIndex](../)
-* пространство имен [Aspose.Words.Fields](../../fieldindex/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

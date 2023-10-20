@@ -1,7 +1,9 @@
 ---
-title: Enum TextOrientation
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.TextOrientation 枚举. 指定页面上表格单元格或文本框架中文本的方向
+title: TextOrientation Enum
+linktitle: TextOrientation
+articleTitle: TextOrientation
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.TextOrientation 枚举. 指定页面上表格单元格或文本框架中文本的方向 在 C#.
 type: docs
 weight: 6430
 url: /zh/net/aspose.words/textorientation/
@@ -25,7 +27,7 @@ public enum TextOrientation
 | VerticalFarEast | `5` | 远东字符垂直显示，其他文本向右旋转 90 度 以从上到下显示 (tb-rl-v)。 |
 | VerticalRotatedFarEast | `7` | 远东字符垂直显示，其他文本向右旋转 90 度 以从上到下垂直显示，然后从左到右水平显示 (tb-lr-v)。 |
 
-### 例子
+## 例子
 
 演示如何构建格式化的 2x2 表。
 
@@ -72,5 +74,3 @@ doc.Save(ArtifactsDir + "DocumentBuilder.BuildTable.docx");
 
 * 命名空间 [Aspose.Words](../../aspose.words/)
 * 部件 [Aspose.Words](../../)
-
-

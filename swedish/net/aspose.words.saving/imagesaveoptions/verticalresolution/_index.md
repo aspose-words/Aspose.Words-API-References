@@ -1,7 +1,9 @@
 ---
 title: ImageSaveOptions.VerticalResolution
-second_title: Aspose.Words för .NET API Referens
-description: ImageSaveOptions fast egendom. Hämtar eller ställer in den vertikala upplösningen för de genererade bilderna i punkter per tum.
+linktitle: VerticalResolution
+articleTitle: VerticalResolution
+second_title: Aspose.Words för .NET
+description: ImageSaveOptions VerticalResolution fast egendom. Hämtar eller ställer in den vertikala upplösningen för de genererade bilderna i punkter per tum i C#.
 type: docs
 weight: 200
 url: /sv/net/aspose.words.saving/imagesaveoptions/verticalresolution/
@@ -14,13 +16,13 @@ Hämtar eller ställer in den vertikala upplösningen för de genererade bildern
 public float VerticalResolution { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Den här egenskapen har endast effekt när du sparar i rasterbildsformat och påverkar utdatastorleken i pixlar.
 
 Standardvärdet är 96.
 
-### Exempel
+## Exempel
 
 Visar hur man redigerar bilden medan Aspose.Words konverterar ett dokument till ett.
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "ImageSaveOptions.EditImage.png", options);
 ### Se även
 
 * class [ImageSaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../imagesaveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

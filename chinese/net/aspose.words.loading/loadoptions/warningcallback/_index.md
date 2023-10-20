@@ -1,7 +1,9 @@
 ---
 title: LoadOptions.WarningCallback
-second_title: Aspose.Words for .NET API 参考
-description: LoadOptions 财产. 在加载操作期间检测到可能导致数据或格式保真度损失的问题时调用
+linktitle: WarningCallback
+articleTitle: WarningCallback
+second_title: 用于 .NET 的 Aspose.Words
+description: LoadOptions WarningCallback 财产. 在加载操作期间检测到可能导致数据或格式保真度损失的问题时调用 在 C#.
 type: docs
 weight: 170
 url: /zh/net/aspose.words.loading/loadoptions/warningcallback/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.loading/loadoptions/warningcallback/
 public IWarningCallback WarningCallback { get; set; }
 ```
 
-### 例子
+## 例子
 
 显示如何打印和存储文档加载期间出现的警告。
 
@@ -59,7 +61,5 @@ private class DocumentLoadingWarningCallback : IWarningCallback
 
 * interface [IWarningCallback](../../../aspose.words/iwarningcallback/)
 * class [LoadOptions](../)
-* 命名空间 [Aspose.Words.Loading](../../loadoptions/)
+* 命名空间 [Aspose.Words.Loading](../../../aspose.words.loading/)
 * 部件 [Aspose.Words](../../../)
-
-

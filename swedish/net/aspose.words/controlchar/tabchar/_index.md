@@ -1,7 +1,9 @@
 ---
 title: ControlChar.TabChar
-second_title: Aspose.Words för .NET API Referens
-description: ControlChar fält. Tabtecken char9 eller t.
+linktitle: TabChar
+articleTitle: TabChar
+second_title: Aspose.Words för .NET
+description: ControlChar TabChar fält. Tabtecken char9 eller t i C#.
 type: docs
 weight: 280
 url: /sv/net/aspose.words/controlchar/tabchar/
@@ -14,7 +16,7 @@ Tab-tecken: (char)9 eller "\t".
 public const char TabChar;
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man ställer in ett anpassat intervall för tabbstopppositioner.
 
@@ -33,7 +35,5 @@ builder.Writeln("Hello" + ControlChar.TabChar + "World!");
 ### Se även
 
 * class [ControlChar](../)
-* namnutrymme [Aspose.Words](../../controlchar/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

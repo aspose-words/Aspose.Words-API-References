@@ -1,7 +1,9 @@
 ---
-title: Enum OdsoDataSourceType
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Settings.OdsoDataSourceType تعداد. يحدد نوع مصدر البيانات الخارجي المراد الاتصال به كجزء من معلومات اتصال ODSO.
+title: OdsoDataSourceType Enum
+linktitle: OdsoDataSourceType
+articleTitle: OdsoDataSourceType
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Settings.OdsoDataSourceType تعداد. يحدد نوع مصدر البيانات الخارجي المراد الاتصال به كجزء من معلومات اتصال ODSO في C#.
 type: docs
 weight: 5890
 url: /ar/net/aspose.words.settings/odsodatasourcetype/
@@ -30,11 +32,11 @@ public enum OdsoDataSourceType
 | Master | `9` | يحدد أنه تم ربط مستند معين بمصدر بيانات يقوم بتجميع مصادر البيانات الأخرى. |
 | Default | `7` | يساويNone . |
 
-### ملاحظات
+## ملاحظات
 
 مواصفات OOXML غامضة جدًا لهذا التعداد. أعتقد أنه قد يتوافق مع تعداد WdMergeSubType http://msdn.microsoft.com/en-us/library/bb237801.aspx.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تنفيذ دمج البريد مع البيانات من كائن مصدر بيانات Office.
 
@@ -87,5 +89,3 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 
 * مساحة الاسم [Aspose.Words.Settings](../../aspose.words.settings/)
 * المجسم [Aspose.Words](../../)
-
-

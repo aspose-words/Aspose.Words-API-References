@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabel.ShowCategoryName
-second_title: Aspose.Words for .NET API 参考
-description: ChartDataLabel 财产. 允许指定是否为图表上的数据标签显示类别名称 默认值为错误的.
+linktitle: ShowCategoryName
+articleTitle: ShowCategoryName
+second_title: 用于 .NET 的 Aspose.Words
+description: ChartDataLabel ShowCategoryName 财产. 允许指定是否为图表上的数据标签显示类别名称 默认值为错误的 在 C#.
 type: docs
 weight: 90
 url: /zh/net/aspose.words.drawing.charts/chartdatalabel/showcategoryname/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.drawing.charts/chartdatalabel/showcategoryname/
 public bool ShowCategoryName { get; set; }
 ```
 
-### 例子
+## 例子
 
 展示如何将标签应用到折线图中的数据点。
 
@@ -92,7 +94,5 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
 ### 也可以看看
 
 * class [ChartDataLabel](../)
-* 命名空间 [Aspose.Words.Drawing.Charts](../../chartdatalabel/)
+* 命名空间 [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * 部件 [Aspose.Words](../../../)
-
-

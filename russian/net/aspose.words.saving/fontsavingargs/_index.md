@@ -1,7 +1,9 @@
 ---
-title: Class FontSavingArgs
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Saving.FontSavingArgs сорт. Предоставляет данные дляFontSaving событие.
+title: FontSavingArgs Class
+linktitle: FontSavingArgs
+articleTitle: FontSavingArgs
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Saving.FontSavingArgs сорт. Предоставляет данные дляFontSaving событие на С#.
 type: docs
 weight: 5030
 url: /ru/net/aspose.words.saving/fontsavingargs/
@@ -32,7 +34,7 @@ public class FontSavingArgs
 | [OriginalFileName](../../aspose.words.saving/fontsavingargs/originalfilename/) { get; } | Получает исходное имя файла шрифта с расширением. |
 | [OriginalFileSize](../../aspose.words.saving/fontsavingargs/originalfilesize/) { get; } | Получает исходный размер файла шрифта. |
 
-### Примечания
+## Примечания
 
 Когда Aspose.Words сохраняет документ в HTML или родственных форматах и[`ExportFontResources`](../htmlsaveoptions/exportfontresources/) установлено на`истинный`, он сохраняет каждую тему шрифта для экспорта в отдельный файл.
 
@@ -44,7 +46,7 @@ public class FontSavingArgs
 
 Чтобы сохранить шрифты в потоки, а не в файлы, используйте команду[`FontStream`](./fontstream/) свойство.
 
-### Примеры
+## Примеры
 
 Показывает, как определить пользовательскую логику для экспорта шрифтов при сохранении в HTML.
 
@@ -105,5 +107,3 @@ public class HandleFontSaving : IFontSavingCallback
 
 * пространство имен [Aspose.Words.Saving](../../aspose.words.saving/)
 * сборка [Aspose.Words](../../)
-
-

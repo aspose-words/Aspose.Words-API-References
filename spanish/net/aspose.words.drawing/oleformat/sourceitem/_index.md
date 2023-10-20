@@ -1,7 +1,9 @@
 ---
 title: OleFormat.SourceItem
-second_title: Referencia de API de Aspose.Words para .NET
-description: OleFormat propiedad. Obtiene o establece una cadena que se utiliza para identificar la parte del archivo fuente que se está vinculando.
+linktitle: SourceItem
+articleTitle: SourceItem
+second_title: Aspose.Words para .NET
+description: OleFormat SourceItem propiedad. Obtiene o establece una cadena que se utiliza para identificar la parte del archivo fuente que se está vinculando en C#.
 type: docs
 weight: 110
 url: /es/net/aspose.words.drawing/oleformat/sourceitem/
@@ -14,13 +16,13 @@ Obtiene o establece una cadena que se utiliza para identificar la parte del arch
 public string SourceItem { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 El valor predeterminado es una cadena vacía.
 
 Por ejemplo, si el archivo fuente es un libro de Microsoft Excel, el`SourceItem` La propiedad puede devolver "Workbook1!R3C1:R4C2" si el objeto OLE contiene solo unas pocas celdas de la hoja de trabajo.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo insertar objetos OLE vinculados y no vinculados.
 
@@ -70,7 +72,5 @@ using (MemoryStream stream = oleFormat.GetOleEntry("\x0001CompObj"))
 ### Ver también
 
 * class [OleFormat](../)
-* espacio de nombres [Aspose.Words.Drawing](../../oleformat/)
+* espacio de nombres [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * asamblea [Aspose.Words](../../../)
-
-

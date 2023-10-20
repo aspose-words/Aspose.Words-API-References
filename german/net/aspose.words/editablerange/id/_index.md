@@ -1,7 +1,9 @@
 ---
 title: EditableRange.Id
-second_title: Aspose.Words für .NET-API-Referenz
-description: EditableRange eigendom. Ruft die bearbeitbare Bereichskennung ab.
+linktitle: Id
+articleTitle: Id
+second_title: Aspose.Words für .NET
+description: EditableRange Id eigendom. Ruft die bearbeitbare Bereichskennung ab in C#.
 type: docs
 weight: 40
 url: /de/net/aspose.words/editablerange/id/
@@ -14,13 +16,13 @@ Ruft die bearbeitbare Bereichskennung ab.
 public int Id { get; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Die Region muss mit dem abgegrenzt werden[`EditableRangeStart`](../editablerangestart/) Und[`EditableRangeEnd`](../editablerangeend/)
 
 Bearbeitbare Bereichsbezeichner sollen in einem Dokument eindeutig sein und Aspose.Words behält bearbeitbare Bereichsbezeichner automatisch beim Laden, Speichern und Kombinieren von Dokumenten bei.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit einem bearbeitbaren Bereich gearbeitet wird.
 
@@ -66,7 +68,5 @@ editableRange.Remove();
 ### Siehe auch
 
 * class [EditableRange](../)
-* namensraum [Aspose.Words](../../editablerange/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

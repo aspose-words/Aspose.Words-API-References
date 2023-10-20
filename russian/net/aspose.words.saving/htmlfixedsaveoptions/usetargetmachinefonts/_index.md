@@ -1,7 +1,9 @@
 ---
 title: HtmlFixedSaveOptions.UseTargetMachineFonts
-second_title: Справочник по API Aspose.Words для .NET
-description: HtmlFixedSaveOptions свойство. Флаг указывает необходимо ли использовать шрифты с целевого компьютера для отображения документа. Если этот флаг установлен в значениеистинный FontFormat иExportEmbeddedFonts свойства не имеют эффекта такжеResourceSavingCallback не запускается для шрифтов. По умолчаниюЛОЖЬ .
+linktitle: UseTargetMachineFonts
+articleTitle: UseTargetMachineFonts
+second_title: Aspose.Words для .NET
+description: HtmlFixedSaveOptions UseTargetMachineFonts свойство. Флаг указывает необходимо ли использовать шрифты с целевого компьютера для отображения документа. Если этот флаг установлен в значениеистинный FontFormat иExportEmbeddedFonts свойства не имеют эффекта такжеResourceSavingCallback не запускается для шрифтов. По умолчаниюЛОЖЬ  на С#.
 type: docs
 weight: 190
 url: /ru/net/aspose.words.saving/htmlfixedsaveoptions/usetargetmachinefonts/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.saving/htmlfixedsaveoptions/usetargetmachinefonts/
 public bool UseTargetMachineFonts { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как использовать шрифты только с целевого компьютера при сохранении документа в HTML.
 
@@ -44,7 +46,5 @@ else
 ### Смотрите также
 
 * class [HtmlFixedSaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../htmlfixedsaveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

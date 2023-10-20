@@ -1,7 +1,9 @@
 ---
 title: MetafileRenderingOptions.EmulateRenderingToSizeOnPage
-second_title: Référence de l'API Aspose.Words pour .NET
-description: MetafileRenderingOptions propriété. Obtient ou définit une valeur déterminant si le rendu du métafichier émule laffichage du métafichier en fonction de la taille sur la page ou laffichage du métafichier dans sa taille par défaut.
+linktitle: EmulateRenderingToSizeOnPage
+articleTitle: EmulateRenderingToSizeOnPage
+second_title: Aspose.Words pour .NET
+description: MetafileRenderingOptions EmulateRenderingToSizeOnPage propriété. Obtient ou définit une valeur déterminant si le rendu du métafichier émule laffichage du métafichier en fonction de la taille sur la page ou laffichage du métafichier dans sa taille par défaut en C#.
 type: docs
 weight: 40
 url: /fr/net/aspose.words.saving/metafilerenderingoptions/emulaterenderingtosizeonpage/
@@ -14,7 +16,7 @@ Obtient ou définit une valeur déterminant si le rendu du métafichier émule l
 public bool EmulateRenderingToSizeOnPage { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 Lorsque les métafichiers sont affichés dans MS Word, certains graphiques peuvent être mis à l'échelle en fonction de la taille réelle du métafichier en pixels. C'est-à-dire que même le zoom peut affecter l'affichage du métafichier.
 
@@ -26,7 +28,7 @@ Cette option est utilisée uniquement lorsque le métafichier est rendu sous for
 
 La valeur par défaut est`vrai`.
 
-### Exemples
+## Exemples
 
 Montre comment afficher le métafichier en fonction de la taille sur la page.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.EmulateRenderingToSizeOnPage.pdf", saveO
 ### Voir également
 
 * class [MetafileRenderingOptions](../)
-* espace de noms [Aspose.Words.Saving](../../metafilerenderingoptions/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

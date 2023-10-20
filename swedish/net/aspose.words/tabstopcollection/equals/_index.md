@@ -1,12 +1,14 @@
 ---
 title: TabStopCollection.Equals
-second_title: Aspose.Words för .NET API Referens
-description: TabStopCollection metod. Bestämmer om den angivnaTabStopCollection är lika i värde med strömmenTabStopCollection .
+linktitle: Equals
+articleTitle: Equals
+second_title: Aspose.Words för .NET
+description: TabStopCollection Equals metod. Bestämmer om den angivnaTabStopCollection är lika i värde med strömmenTabStopCollection  i C#.
 type: docs
 weight: 70
 url: /sv/net/aspose.words/tabstopcollection/equals/
 ---
-## Equals(TabStopCollection) {#equals}
+## Equals(*[TabStopCollection](../)*) {#equals}
 
 Bestämmer om den angivna[`TabStopCollection`](../) är lika i värde med strömmen[`TabStopCollection`](../) .
 
@@ -14,7 +16,7 @@ Bestämmer om den angivna[`TabStopCollection`](../) är lika i värde med ström
 public bool Equals(TabStopCollection rhs)
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med ett dokuments samling av tabbstopp.
 
@@ -58,12 +60,12 @@ doc.Save(ArtifactsDir + "TabStopCollection.TabStopCollection.docx");
 ### Se även
 
 * class [TabStopCollection](../)
-* namnutrymme [Aspose.Words](../../tabstopcollection/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## Equals(object) {#equals_1}
+## Equals(*object*) {#equals_1}
 
 Bestämmer om det angivna objektet har samma värde som det aktuella objektet.
 
@@ -71,7 +73,7 @@ Bestämmer om det angivna objektet har samma värde som det aktuella objektet.
 public override bool Equals(object obj)
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med ett dokuments samling av tabbstopp.
 
@@ -115,7 +117,5 @@ doc.Save(ArtifactsDir + "TabStopCollection.TabStopCollection.docx");
 ### Se även
 
 * class [TabStopCollection](../)
-* namnutrymme [Aspose.Words](../../tabstopcollection/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

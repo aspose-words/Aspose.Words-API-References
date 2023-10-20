@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTagRangeStart.IsShowingPlaceholderText
-second_title: Справочник по API Aspose.Words для .NET
-description: StructuredDocumentTagRangeStart свойство. Указывает должно ли содержимое этого тега структурированного документа интерпретироваться как содержащий текстзаполнитель в отличие от обычного текстового содержимого в теге структурированного документа.
+linktitle: IsShowingPlaceholderText
+articleTitle: IsShowingPlaceholderText
+second_title: Aspose.Words для .NET
+description: StructuredDocumentTagRangeStart IsShowingPlaceholderText свойство. Указывает должно ли содержимое этого тега структурированного документа интерпретироваться как содержащий текстзаполнитель в отличие от обычного текстового содержимого в теге структурированного документа на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.markup/structureddocumenttagrangestart/isshowingplaceholdertext/
@@ -16,7 +18,7 @@ url: /ru/net/aspose.words.markup/structureddocumenttagrangestart/isshowingplaceh
 public bool IsShowingPlaceholderText { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как получить свойства тегов многосекционного структурированного документа.
 
@@ -51,7 +53,5 @@ Console.WriteLine($"\t|NodeType: {rangeEndTag.NodeType}");
 ### Смотрите также
 
 * class [StructuredDocumentTagRangeStart](../)
-* пространство имен [Aspose.Words.Markup](../../structureddocumenttagrangestart/)
+* пространство имен [Aspose.Words.Markup](../../../aspose.words.markup/)
 * сборка [Aspose.Words](../../../)
-
-

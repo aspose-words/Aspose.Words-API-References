@@ -1,7 +1,9 @@
 ---
-title: Class LoadOptions
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Loading.LoadOptions 班级. 允许在 将文档加载到Document对象.
+title: LoadOptions Class
+linktitle: LoadOptions
+articleTitle: LoadOptions
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Loading.LoadOptions 班级. 允许在 将文档加载到Document对象 在 C#.
 type: docs
 weight: 3660
 url: /zh/net/aspose.words.loading/loadoptions/
@@ -21,8 +23,8 @@ public class LoadOptions
 | 姓名 | 描述 |
 | --- | --- |
 | [LoadOptions](loadoptions/#constructor)() | 使用默认值初始化此类的新实例。 |
-| [LoadOptions](loadoptions/#constructor_2)(string) | 使用指定的密码初始化此类的新实例以加载加密文档的快捷方式。 |
-| [LoadOptions](loadoptions/#constructor_1)(LoadFormat, string, string) | 初始化此类新实例并将属性设置为指定值的快捷方式。 |
+| [LoadOptions](loadoptions/#constructor_2)(*string*) | 使用指定的密码初始化此类的新实例以加载加密文档的快捷方式。 |
+| [LoadOptions](loadoptions/#constructor_1)(*[LoadFormat](../../aspose.words/loadformat/), string, string*) | 初始化此类新实例并将属性设置为指定值的快捷方式。 |
 
 ## 特性
 
@@ -49,9 +51,9 @@ public class LoadOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [Equals](../../aspose.words.loading/loadoptions/equals/)(object) |  |
+| override [Equals](../../aspose.words.loading/loadoptions/equals/)(*object*) |  |
 
-### 例子
+## 例子
 
 演示如何加载加密的 Microsoft Word 文档。
 
@@ -78,5 +80,3 @@ using (Stream stream = File.OpenRead(MyDir + "Encrypted.docx"))
 
 * 命名空间 [Aspose.Words.Loading](../../aspose.words.loading/)
 * 部件 [Aspose.Words](../../)
-
-

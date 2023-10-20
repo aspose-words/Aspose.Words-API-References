@@ -1,7 +1,9 @@
 ---
 title: FontSavingArgs.IsExportNeeded
-second_title: Aspose.Words لمراجع .NET API
-description: FontSavingArgs ملكية. يسمح بتحديد ما إذا كان سيتم تصدير الخط الحالي كمورد خط. الافتراضي هوحقيقي .
+linktitle: IsExportNeeded
+articleTitle: IsExportNeeded
+second_title: Aspose.Words لـ .NET
+description: FontSavingArgs IsExportNeeded ملكية. يسمح بتحديد ما إذا كان سيتم تصدير الخط الحالي كمورد خط. الافتراضي هوحقيقي  في C#.
 type: docs
 weight: 60
 url: /ar/net/aspose.words.saving/fontsavingargs/isexportneeded/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.saving/fontsavingargs/isexportneeded/
 public bool IsExportNeeded { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحديد المنطق المخصص لتصدير الخطوط عند الحفظ إلى HTML.
 
@@ -74,7 +76,5 @@ public class HandleFontSaving : IFontSavingCallback
 ### أنظر أيضا
 
 * class [FontSavingArgs](../)
-* مساحة الاسم [Aspose.Words.Saving](../../fontsavingargs/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

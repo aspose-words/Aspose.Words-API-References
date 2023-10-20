@@ -1,7 +1,9 @@
 ---
 title: FieldDatabase.FirstRecord
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldDatabase eigendom. Ruft die ganzzahlige Datensatznummer des ersten einzufügenden Datensatzes ab oder legt diese fest.
+linktitle: FirstRecord
+articleTitle: FirstRecord
+second_title: Aspose.Words für .NET
+description: FieldDatabase FirstRecord eigendom. Ruft die ganzzahlige Datensatznummer des ersten einzufügenden Datensatzes ab oder legt diese fest in C#.
 type: docs
 weight: 40
 url: /de/net/aspose.words.fields/fielddatabase/firstrecord/
@@ -14,7 +16,7 @@ Ruft die ganzzahlige Datensatznummer des ersten einzufügenden Datensatzes ab od
 public string FirstRecord { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man Daten aus einer Datenbank extrahiert und als Feld in ein Dokument einfügt.
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "Field.DATABASE.docx");
 ### Siehe auch
 
 * class [FieldDatabase](../)
-* namensraum [Aspose.Words.Fields](../../fielddatabase/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

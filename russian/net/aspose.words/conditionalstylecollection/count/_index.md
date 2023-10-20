@@ -1,7 +1,9 @@
 ---
 title: ConditionalStyleCollection.Count
-second_title: Справочник по API Aspose.Words для .NET
-description: ConditionalStyleCollection свойство. Получает количество условных стилей в коллекции.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words для .NET
+description: ConditionalStyleCollection Count свойство. Получает количество условных стилей в коллекции на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words/conditionalstylecollection/count/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/conditionalstylecollection/count/
 public int Count { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как работать с определенными стилями областей таблицы.
 
@@ -84,7 +86,5 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 ### Смотрите также
 
 * class [ConditionalStyleCollection](../)
-* пространство имен [Aspose.Words](../../conditionalstylecollection/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

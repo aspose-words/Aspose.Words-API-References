@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.ImageColorSpaceExportMode
-second_title: Aspose.Words لمراجع .NET API
-description: PdfSaveOptions ملكية. يحدد كيفية تحديد مساحة اللون للصور في مستند PDF.
+linktitle: ImageColorSpaceExportMode
+articleTitle: ImageColorSpaceExportMode
+second_title: Aspose.Words لـ .NET
+description: PdfSaveOptions ImageColorSpaceExportMode ملكية. يحدد كيفية تحديد مساحة اللون للصور في مستند PDF في C#.
 type: docs
 weight: 190
 url: /ar/net/aspose.words.saving/pdfsaveoptions/imagecolorspaceexportmode/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.saving/pdfsaveoptions/imagecolorspaceexportmode/
 public PdfImageColorSpaceExportMode ImageColorSpaceExportMode { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 القيمة الافتراضية هيAuto .
 
@@ -22,7 +24,7 @@ public PdfImageColorSpaceExportMode ImageColorSpaceExportMode { get; set; }
 
 SimpleCmyk القيمة غير مدعومة عند الحفظ بتنسيق PDF/A. Auto سيتم استخدام القيمة بدلاً من ذلك.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين مساحة ألوان مختلفة للصور في مستند أثناء تصديره إلى PDF.
 
@@ -55,7 +57,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.ImageColorSpaceExportMode.pdf", pdfSaveO
 
 * enum [PdfImageColorSpaceExportMode](../../pdfimagecolorspaceexportmode/)
 * class [PdfSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../pdfsaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

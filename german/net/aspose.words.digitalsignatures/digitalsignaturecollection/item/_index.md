@@ -1,7 +1,9 @@
 ---
 title: DigitalSignatureCollection.Item
-second_title: Aspose.Words für .NET-API-Referenz
-description: DigitalSignatureCollection eigendom. Ruft eine Dokumentsignatur am angegebenen Index ab.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words für .NET
+description: DigitalSignatureCollection Item eigendom. Ruft eine Dokumentsignatur am angegebenen Index ab in C#.
 type: docs
 weight: 40
 url: /de/net/aspose.words.digitalsignatures/digitalsignaturecollection/item/
@@ -18,7 +20,7 @@ public DigitalSignature this[int index] { get; }
 | --- | --- |
 | index | Nullbasierter Index der Signatur. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Dokumente mit X.509-Zertifikaten signiert werden.
 
@@ -62,7 +64,5 @@ Assert.AreEqual("CN=Morzal.Me", signedDoc.DigitalSignatures[0].SubjectName);
 
 * class [DigitalSignature](../../digitalsignature/)
 * class [DigitalSignatureCollection](../)
-* namensraum [Aspose.Words.DigitalSignatures](../../digitalsignaturecollection/)
+* namensraum [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * Montage [Aspose.Words](../../../)
-
-

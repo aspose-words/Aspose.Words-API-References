@@ -1,7 +1,9 @@
 ---
-title: Class TaskPaneCollection
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.WebExtensions.TaskPaneCollection classe. Spécifie une liste dobjets du volet de tâches persistants.
+title: TaskPaneCollection Class
+linktitle: TaskPaneCollection
+articleTitle: TaskPaneCollection
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.WebExtensions.TaskPaneCollection classe. Spécifie une liste dobjets du volet de tâches persistants en C#.
 type: docs
 weight: 6720
 url: /fr/net/aspose.words.webextensions/taskpanecollection/
@@ -27,12 +29,12 @@ public class TaskPaneCollection : BaseWebExtensionCollection<TaskPane>
 
 | Nom | La description |
 | --- | --- |
-| [Add](../../aspose.words.webextensions/basewebextensioncollection-1/add/)(TaskPane) |  |
+| [Add](../../aspose.words.webextensions/basewebextensioncollection-1/add/)(*[TaskPane](../taskpane/)*) |  |
 | [Clear](../../aspose.words.webextensions/basewebextensioncollection-1/clear/)() |  |
 | [GetEnumerator](../../aspose.words.webextensions/basewebextensioncollection-1/getenumerator/)() |  |
-| [Remove](../../aspose.words.webextensions/basewebextensioncollection-1/remove/)(int) |  |
+| [Remove](../../aspose.words.webextensions/basewebextensioncollection-1/remove/)(*int*) |  |
 
-### Exemples
+## Exemples
 
 Montre comment ajouter une extension Web à un document.
 
@@ -80,5 +82,3 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 * class [TaskPane](../taskpane/)
 * espace de noms [Aspose.Words.WebExtensions](../../aspose.words.webextensions/)
 * Assemblée [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FileFontSource.FilePath
-second_title: Справочник по API Aspose.Words для .NET
-description: FileFontSource свойство. Путь к файлу шрифта.
+linktitle: FilePath
+articleTitle: FilePath
+second_title: Aspose.Words для .NET
+description: FileFontSource FilePath свойство. Путь к файлу шрифта на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.fonts/filefontsource/filepath/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fonts/filefontsource/filepath/
 public string FilePath { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как использовать файл шрифта в локальной файловой системе в качестве источника шрифта.
 
@@ -33,7 +35,5 @@ Assert.AreEqual(0, fileFontSource.Priority);
 ### Смотрите также
 
 * class [FileFontSource](../)
-* пространство имен [Aspose.Words.Fonts](../../filefontsource/)
+* пространство имен [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * сборка [Aspose.Words](../../../)
-
-

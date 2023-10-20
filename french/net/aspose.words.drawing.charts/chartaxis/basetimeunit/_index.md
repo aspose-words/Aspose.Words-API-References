@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.BaseTimeUnit
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ChartAxis propriété. Renvoie ou définit la plus petite unité de temps représentée sur laxe des catégories de temps.
+linktitle: BaseTimeUnit
+articleTitle: BaseTimeUnit
+second_title: Aspose.Words pour .NET
+description: ChartAxis BaseTimeUnit propriété. Renvoie ou définit la plus petite unité de temps représentée sur laxe des catégories de temps en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.drawing.charts/chartaxis/basetimeunit/
@@ -14,11 +16,11 @@ Renvoie ou définit la plus petite unité de temps représentée sur l'axe des c
 public AxisTimeUnit BaseTimeUnit { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 La propriété n'a d'effet que pour les axes de catégorie de temps.
 
-### Exemples
+## Exemples
 
 Montre comment insérer un graphique avec des valeurs de date/heure.
 
@@ -73,7 +75,5 @@ doc.Save(ArtifactsDir + "Charts.DateTimeValues.docx");
 
 * enum [AxisTimeUnit](../../axistimeunit/)
 * class [ChartAxis](../)
-* espace de noms [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* espace de noms [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Assemblée [Aspose.Words](../../../)
-
-

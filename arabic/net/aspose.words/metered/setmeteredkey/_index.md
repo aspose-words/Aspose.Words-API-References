@@ -1,7 +1,9 @@
 ---
 title: Metered.SetMeteredKey
-second_title: Aspose.Words لمراجع .NET API
-description: Metered طريقة. يعين المفتاح العام والخاص. إذا قمت بشراء ترخيص مقنن عند بدء التطبيق يجب استدعاء واجهة برمجة التطبيقات هذه عادةً وهذا يكفي. ومع ذلك إذا فشلت دائمًا في تحميل بيانات الاستهلاك وتجاوزت 24 ساعة فسيتم ضبط الترخيص على حالة التقييم لتجنب مثل هذه الحالة يجب عليك التحقق بانتظام من حالة الترخيص إذا كانت حالة التقييم فاتصل بواجهة برمجة التطبيقات هذه مرة أخرى.
+linktitle: SetMeteredKey
+articleTitle: SetMeteredKey
+second_title: Aspose.Words لـ .NET
+description: Metered SetMeteredKey طريقة. يعين المفتاح العام والخاص. إذا قمت بشراء ترخيص مقنن عند بدء التطبيق يجب استدعاء واجهة برمجة التطبيقات هذه عادةً وهذا يكفي. ومع ذلك إذا فشلت دائمًا في تحميل بيانات الاستهلاك وتجاوزت 24 ساعة فسيتم ضبط الترخيص على حالة التقييم لتجنب مثل هذه الحالة يجب عليك التحقق بانتظام من حالة الترخيص إذا كانت حالة التقييم فاتصل بواجهة برمجة التطبيقات هذه مرة أخرى في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words/metered/setmeteredkey/
@@ -19,7 +21,7 @@ public void SetMeteredKey(string publicKey, string privateKey)
 | publicKey | String | المفتاح العمومي |
 | privateKey | String | مفتاح سري |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تفعيل الترخيص المقنن وتتبع الرصيد/الاستهلاك.
 
@@ -46,7 +48,5 @@ Console.WriteLine($"Consumption quantity after operation: {Metered.GetConsumptio
 ### أنظر أيضا
 
 * class [Metered](../)
-* مساحة الاسم [Aspose.Words](../../metered/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

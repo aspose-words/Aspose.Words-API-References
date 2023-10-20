@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.ZoomBehavior
-second_title: Справочник по API Aspose.Words для .NET
-description: PdfSaveOptions свойство. Получает или задает значение определяющее какой тип масштабирования следует применять при открытии документа с помощью средства просмотра PDF.
+linktitle: ZoomBehavior
+articleTitle: ZoomBehavior
+second_title: Aspose.Words для .NET
+description: PdfSaveOptions ZoomBehavior свойство. Получает или задает значение определяющее какой тип масштабирования следует применять при открытии документа с помощью средства просмотра PDF на С#.
 type: docs
 weight: 320
 url: /ru/net/aspose.words.saving/pdfsaveoptions/zoombehavior/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.saving/pdfsaveoptions/zoombehavior/
 public PdfZoomBehavior ZoomBehavior { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Значение по умолчанию:None , т. е. подгонка не применяется.
 
-### Примеры
+## Примеры
 
 Показывает, как установить масштабирование по умолчанию, которое программа чтения применяет при открытии обработанного PDF-документа.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.ZoomBehaviour.pdf", options);
 
 * enum [PdfZoomBehavior](../../pdfzoombehavior/)
 * class [PdfSaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../pdfsaveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: TextBox.VerticalAnchor
-second_title: Aspose.Words لمراجع .NET API
-description: TextBox ملكية. يحدد المحاذاة الرأسية للنص داخل الشكل.
+linktitle: VerticalAnchor
+articleTitle: VerticalAnchor
+second_title: Aspose.Words لـ .NET
+description: TextBox VerticalAnchor ملكية. يحدد المحاذاة الرأسية للنص داخل الشكل في C#.
 type: docs
 weight: 120
 url: /ar/net/aspose.words.drawing/textbox/verticalanchor/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.drawing/textbox/verticalanchor/
 public TextBoxAnchor VerticalAnchor { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 القيمة الافتراضية هيTop.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية محاذاة محتويات النص في مربع النص عموديًا.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "Shape.VerticalAnchor.docx");
 
 * enum [TextBoxAnchor](../../textboxanchor/)
 * class [TextBox](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../textbox/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

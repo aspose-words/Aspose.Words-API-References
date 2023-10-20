@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitOfficeMathStart
-second_title: Referencia de API de Aspose.Words para .NET
-description: DocumentVisitor método. Se llama cuando ha comenzado la enumeración de un objeto de Office Math.
+linktitle: VisitOfficeMathStart
+articleTitle: VisitOfficeMathStart
+second_title: Aspose.Words para .NET
+description: DocumentVisitor VisitOfficeMathStart método. Se llama cuando ha comenzado la enumeración de un objeto de Office Math en C#.
 type: docs
 weight: 310
 url: /es/net/aspose.words/documentvisitor/visitofficemathstart/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitOfficeMathStart(OfficeMath officeMath)
 
 A[`VisitorAction`](../../visitoraction/) valor que especifica cómo continuar la enumeración.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo imprimir la estructura de nodos de cada nodo matemático de Office en un documento.
 
@@ -116,7 +118,5 @@ public class OfficeMathStructurePrinter : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [OfficeMath](../../../aspose.words.math/officemath/)
 * class [DocumentVisitor](../)
-* espacio de nombres [Aspose.Words](../../documentvisitor/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

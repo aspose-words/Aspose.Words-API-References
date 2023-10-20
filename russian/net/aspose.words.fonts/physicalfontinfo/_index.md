@@ -1,7 +1,9 @@
 ---
-title: Class PhysicalFontInfo
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Fonts.PhysicalFontInfo сорт. Указывает информацию о физическом шрифте доступном для механизма шрифтов Aspose.Words.
+title: PhysicalFontInfo Class
+linktitle: PhysicalFontInfo
+articleTitle: PhysicalFontInfo
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Fonts.PhysicalFontInfo сорт. Указывает информацию о физическом шрифте доступном для механизма шрифтов Aspose.Words на С#.
 type: docs
 weight: 3030
 url: /ru/net/aspose.words.fonts/physicalfontinfo/
@@ -25,7 +27,7 @@ public class PhysicalFontInfo
 | [FullFontName](../../aspose.words.fonts/physicalfontinfo/fullfontname/) { get; } | Полное название шрифта. |
 | [Version](../../aspose.words.fonts/physicalfontinfo/version/) { get; } | Строка версии шрифта. |
 
-### Примеры
+## Примеры
 
 Показывает, как составить список доступных шрифтов.
 
@@ -46,5 +48,3 @@ foreach (PhysicalFontInfo fontInfo in folderFontSource[0].GetAvailableFonts())
 
 * пространство имен [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * сборка [Aspose.Words](../../)
-
-

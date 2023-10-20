@@ -1,7 +1,9 @@
 ---
 title: CustomPartCollection.Clear
-second_title: Справочник по API Aspose.Words для .NET
-description: CustomPartCollection метод. Удаляет все элементы из коллекции.
+linktitle: Clear
+articleTitle: Clear
+second_title: Aspose.Words для .NET
+description: CustomPartCollection Clear метод. Удаляет все элементы из коллекции на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.markup/custompartcollection/clear/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.markup/custompartcollection/clear/
 public void Clear()
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как получить доступ к произвольной коллекции пользовательских частей документа.
 
@@ -58,7 +60,5 @@ Assert.AreEqual(0, doc.PackageCustomParts.Count);
 ### Смотрите также
 
 * class [CustomPartCollection](../)
-* пространство имен [Aspose.Words.Markup](../../custompartcollection/)
+* пространство имен [Aspose.Words.Markup](../../../aspose.words.markup/)
 * сборка [Aspose.Words](../../../)
-
-

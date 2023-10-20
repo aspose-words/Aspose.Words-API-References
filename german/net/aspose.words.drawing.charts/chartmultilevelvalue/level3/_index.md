@@ -1,7 +1,9 @@
 ---
 title: ChartMultilevelValue.Level3
-second_title: Aspose.Words für .NET-API-Referenz
-description: ChartMultilevelValue eigendom. Ruft den Namen der unteren Diagrammebene ab auf die sich dieser Wert bezieht.
+linktitle: Level3
+articleTitle: Level3
+second_title: Aspose.Words für .NET
+description: ChartMultilevelValue Level3 eigendom. Ruft den Namen der unteren Diagrammebene ab auf die sich dieser Wert bezieht in C#.
 type: docs
 weight: 40
 url: /de/net/aspose.words.drawing.charts/chartmultilevelvalue/level3/
@@ -17,7 +19,5 @@ public string Level3 { get; }
 ### Siehe auch
 
 * class [ChartMultilevelValue](../)
-* namensraum [Aspose.Words.Drawing.Charts](../../chartmultilevelvalue/)
+* namensraum [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../../)
-
-

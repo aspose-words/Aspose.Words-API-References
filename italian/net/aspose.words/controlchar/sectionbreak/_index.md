@@ -1,7 +1,9 @@
 ---
 title: ControlChar.SectionBreak
-second_title: Aspose.Words per .NET API Reference
-description: ControlChar campo. Carattere di fine sezione x000c o f. Nota che ha lo stesso valore diPageBreak .
+linktitle: SectionBreak
+articleTitle: SectionBreak
+second_title: Aspose.Words per .NET
+description: ControlChar SectionBreak campo. Carattere di fine sezione x000c o f. Nota che ha lo stesso valore diPageBreak  in C#.
 type: docs
 weight: 240
 url: /it/net/aspose.words/controlchar/sectionbreak/
@@ -14,7 +16,7 @@ Carattere di fine sezione: "\x000c" o "\f". Nota che ha lo stesso valore di[`Pag
 public static readonly string SectionBreak;
 ```
 
-### Esempi
+## Esempi
 
 Mostra come aggiungere vari caratteri di controllo a un documento.
 
@@ -86,7 +88,5 @@ Assert.AreEqual(Convert.ToChar(ControlChar.ColumnBreak), ControlChar.ColumnBreak
 ### Guarda anche
 
 * class [ControlChar](../)
-* spazio dei nomi [Aspose.Words](../../controlchar/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

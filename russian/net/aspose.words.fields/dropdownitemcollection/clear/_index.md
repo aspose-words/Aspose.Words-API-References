@@ -1,7 +1,9 @@
 ---
 title: DropDownItemCollection.Clear
-second_title: Справочник по API Aspose.Words для .NET
-description: DropDownItemCollection метод. Удаляет все элементы из коллекции.
+linktitle: Clear
+articleTitle: Clear
+second_title: Aspose.Words для .NET
+description: DropDownItemCollection Clear метод. Удаляет все элементы из коллекции на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.fields/dropdownitemcollection/clear/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/dropdownitemcollection/clear/
 public void Clear()
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как вставить поле со списком и отредактировать элементы в его коллекции элементов.
 
@@ -68,7 +70,5 @@ dropDownItems.Clear();
 ### Смотрите также
 
 * class [DropDownItemCollection](../)
-* пространство имен [Aspose.Words.Fields](../../dropdownitemcollection/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum ProtectionType
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.ProtectionType 枚举. 文档的保护类型
+title: ProtectionType Enum
+linktitle: ProtectionType
+articleTitle: ProtectionType
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.ProtectionType 枚举. 文档的保护类型 在 C#.
 type: docs
 weight: 4510
 url: /zh/net/aspose.words/protectiontype/
@@ -24,7 +26,7 @@ public enum ProtectionType
 | ReadOnly | `3` | 不允许对文档进行任何更改。自 Microsoft Word 2003 起可用。 |
 | NoProtection | `-1` | 该文档不受保护。 |
 
-### 例子
+## 例子
 
 展示如何关闭某个部分的保护。
 
@@ -54,5 +56,3 @@ doc.Save(ArtifactsDir + "Section.Protect.docx");
 
 * 命名空间 [Aspose.Words](../../aspose.words/)
 * 部件 [Aspose.Words](../../)
-
-

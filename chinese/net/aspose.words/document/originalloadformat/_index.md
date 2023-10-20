@@ -1,7 +1,9 @@
 ---
 title: Document.OriginalLoadFormat
-second_title: Aspose.Words for .NET API 参考
-description: Document 财产. 获取加载到此对象中的原始文档的格式
+linktitle: OriginalLoadFormat
+articleTitle: OriginalLoadFormat
+second_title: 用于 .NET 的 Aspose.Words
+description: Document OriginalLoadFormat 财产. 获取加载到此对象中的原始文档的格式 在 C#.
 type: docs
 weight: 300
 url: /zh/net/aspose.words/document/originalloadformat/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words/document/originalloadformat/
 public LoadFormat OriginalLoadFormat { get; }
 ```
 
-### 评论
+## 评论
 
 如果您创建了一个新的空白文档，则返回Doc价值。
 
-### 例子
+## 例子
 
 演示如何检索文档加载操作的详细信息。
 
@@ -33,7 +35,5 @@ Assert.AreEqual(LoadFormat.Docx, doc.OriginalLoadFormat);
 
 * enum [LoadFormat](../../loadformat/)
 * class [Document](../)
-* 命名空间 [Aspose.Words](../../document/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

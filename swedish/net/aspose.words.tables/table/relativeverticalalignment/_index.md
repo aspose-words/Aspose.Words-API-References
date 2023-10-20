@@ -1,7 +1,9 @@
 ---
 title: Table.RelativeVerticalAlignment
-second_title: Aspose.Words för .NET API Referens
-description: Table fast egendom. Hämtar eller ställer in flytande tabell relativ vertikal justering.
+linktitle: RelativeVerticalAlignment
+articleTitle: RelativeVerticalAlignment
+second_title: Aspose.Words för .NET
+description: Table RelativeVerticalAlignment fast egendom. Hämtar eller ställer in flytande tabell relativ vertikal justering i C#.
 type: docs
 weight: 240
 url: /sv/net/aspose.words.tables/table/relativeverticalalignment/
@@ -14,7 +16,7 @@ Hämtar eller ställer in flytande tabell relativ vertikal justering.
 public VerticalAlignment RelativeVerticalAlignment { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man ställer in placeringen av flytande bord.
 
@@ -49,7 +51,5 @@ doc.Save(ArtifactsDir + "Table.ChangeFloatingTableProperties.docx");
 
 * enum [VerticalAlignment](../../../aspose.words.drawing/verticalalignment/)
 * class [Table](../)
-* namnutrymme [Aspose.Words.Tables](../../table/)
+* namnutrymme [Aspose.Words.Tables](../../../aspose.words.tables/)
 * hopsättning [Aspose.Words](../../../)
-
-

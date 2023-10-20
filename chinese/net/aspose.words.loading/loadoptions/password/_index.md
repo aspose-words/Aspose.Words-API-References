@@ -1,7 +1,9 @@
 ---
 title: LoadOptions.Password
-second_title: Aspose.Words for .NET API 参考
-description: LoadOptions 财产. 获取或设置打开加密文档的密码 可以无效的或空字符串默认为无效的.
+linktitle: Password
+articleTitle: Password
+second_title: 用于 .NET 的 Aspose.Words
+description: LoadOptions Password 财产. 获取或设置打开加密文档的密码 可以无效的或空字符串默认为无效的 在 C#.
 type: docs
 weight: 110
 url: /zh/net/aspose.words.loading/loadoptions/password/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.loading/loadoptions/password/
 public string Password { get; set; }
 ```
 
-### 评论
+## 评论
 
 您需要知道密码才能打开加密文档。如果文档未加密，请将其设置为`无效的`或空字符串。
 
-### 例子
+## 例子
 
 演示如何签署加密的文档文件。
 
@@ -44,7 +46,5 @@ DigitalSignatureUtil.Sign(inputFileName, outputFileName, certificateHolder, sign
 ### 也可以看看
 
 * class [LoadOptions](../)
-* 命名空间 [Aspose.Words.Loading](../../loadoptions/)
+* 命名空间 [Aspose.Words.Loading](../../../aspose.words.loading/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldBarcode.PostalAddress
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldBarcode propriété. Obtient ou définit ladresse postale utilisée pour générer un codebarres ou le nom du signet qui y fait référence.
+linktitle: PostalAddress
+articleTitle: PostalAddress
+second_title: Aspose.Words pour .NET
+description: FieldBarcode PostalAddress propriété. Obtient ou définit ladresse postale utilisée pour générer un codebarres ou le nom du signet qui y fait référence en C#.
 type: docs
 weight: 50
 url: /fr/net/aspose.words.fields/fieldbarcode/postaladdress/
@@ -14,7 +16,7 @@ Obtient ou définit l'adresse postale utilisée pour générer un code-barres ou
 public string PostalAddress { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment utiliser le champ BARCODE pour afficher les codes postaux américains sous la forme d'un code-barres.
 
@@ -57,7 +59,5 @@ doc.Save(ArtifactsDir + "Field.BARCODE.docx");
 ### Voir également
 
 * class [FieldBarcode](../)
-* espace de noms [Aspose.Words.Fields](../../fieldbarcode/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

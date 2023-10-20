@@ -1,7 +1,9 @@
 ---
 title: FieldRD.IsPathRelative
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldRD свойство. Получает или задает является ли путь относительно текущего документа.
+linktitle: IsPathRelative
+articleTitle: IsPathRelative
+second_title: Aspose.Words для .NET
+description: FieldRD IsPathRelative свойство. Получает или задает является ли путь относительно текущего документа на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.fields/fieldrd/ispathrelative/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldrd/ispathrelative/
 public bool IsPathRelative { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как использовать поле RD для создания записей оглавления из заголовков в других документах.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "Field.RD.docx");
 ### Смотрите также
 
 * class [FieldRD](../)
-* пространство имен [Aspose.Words.Fields](../../fieldrd/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

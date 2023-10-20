@@ -1,7 +1,9 @@
 ---
 title: BorderCollection.Color
-second_title: Aspose.Words لمراجع .NET API
-description: BorderCollection ملكية. الحصول على لون الحدود أو تعيينه.
+linktitle: Color
+articleTitle: Color
+second_title: Aspose.Words لـ .NET
+description: BorderCollection Color ملكية. الحصول على لون الحدود أو تعيينه في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words/bordercollection/color/
@@ -14,13 +16,13 @@ url: /ar/net/aspose.words/bordercollection/color/
 public Color Color { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 إرجاع لون الحد الأول في المجموعة.
 
 يضبط لون كل الحدود في المجموعة باستثناء الحدود القطرية.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء حدود صفحة خضراء متموجة مع الظل.
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "PageSetup.PageBorders.docx");
 ### أنظر أيضا
 
 * class [BorderCollection](../)
-* مساحة الاسم [Aspose.Words](../../bordercollection/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: DigitalSignatureCollection.Item
-second_title: Справочник по API Aspose.Words для .NET
-description: DigitalSignatureCollection свойство. Получает подпись документа по указанному индексу.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words для .NET
+description: DigitalSignatureCollection Item свойство. Получает подпись документа по указанному индексу на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.digitalsignatures/digitalsignaturecollection/item/
@@ -18,7 +20,7 @@ public DigitalSignature this[int index] { get; }
 | --- | --- |
 | index | Индекс подписи, начинающийся с нуля. |
 
-### Примеры
+## Примеры
 
 Показывает, как подписывать документы с помощью сертификатов X.509.
 
@@ -62,7 +64,5 @@ Assert.AreEqual("CN=Morzal.Me", signedDoc.DigitalSignatures[0].SubjectName);
 
 * class [DigitalSignature](../../digitalsignature/)
 * class [DigitalSignatureCollection](../)
-* пространство имен [Aspose.Words.DigitalSignatures](../../digitalsignaturecollection/)
+* пространство имен [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ExportLanguageInformation
-second_title: Aspose.Words لمراجع .NET API
-description: HtmlSaveOptions ملكية. يحدد ما إذا كان سيتم تصدير معلومات اللغة إلى HTML أو MHTML أو EPUB. الإعداد الافتراضي هوخطأ شنيع .
+linktitle: ExportLanguageInformation
+articleTitle: ExportLanguageInformation
+second_title: Aspose.Words لـ .NET
+description: HtmlSaveOptions ExportLanguageInformation ملكية. يحدد ما إذا كان سيتم تصدير معلومات اللغة إلى HTML أو MHTML أو EPUB. الإعداد الافتراضي هوخطأ شنيع  في C#.
 type: docs
 weight: 180
 url: /ar/net/aspose.words.saving/htmlsaveoptions/exportlanguageinformation/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.saving/htmlsaveoptions/exportlanguageinformation/
 public bool ExportLanguageInformation { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
-عندما يتم تعيين هذه الخاصية إلى`حقيقي` Aspose.Words النواتج **لانج** سمة HTML في عناصر document التي تحدد اللغة. قد يكون هذا ضروريًا للحفاظ على الدلالات المتعلقة باللغة.
+عندما يتم تعيين هذه الخاصية إلى`حقيقي` Aspose.Words النواتج**لانج** سمة HTML في عناصر document التي تحدد اللغة. قد يكون هذا ضروريًا للحفاظ على الدلالات المتعلقة باللغة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الحفاظ على معلومات اللغة عند الحفظ إلى .html.
 
@@ -69,7 +71,5 @@ else
 ### أنظر أيضا
 
 * class [HtmlSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../htmlsaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

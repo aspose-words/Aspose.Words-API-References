@@ -1,9 +1,11 @@
 ---
 title: CellFormat.PreferredWidth
-second_title: Référence de l'API Aspose.Words pour .NET
-description: CellFormat propriété. Renvoie ou définit la largeur préférée de la cellule.
+linktitle: PreferredWidth
+articleTitle: PreferredWidth
+second_title: Aspose.Words pour .NET
+description: CellFormat PreferredWidth propriété. Renvoie ou définit la largeur préférée de la cellule en C#.
 type: docs
-weight: 80
+weight: 70
 url: /fr/net/aspose.words.tables/cellformat/preferredwidth/
 ---
 ## CellFormat.PreferredWidth property
@@ -14,7 +16,7 @@ Renvoie ou définit la largeur préférée de la cellule.
 public PreferredWidth PreferredWidth { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 La largeur préférée (ainsi que l'option Ajustement automatique du tableau) détermine la manière dont la largeur réelle de la cellule est calculée par l'algorithme de mise en page du tableau. La mise en page du tableau peut être effectuée par Aspose.Words lors de l'enregistrement du document ou par Microsoft Word lors de l'affichage du document.
 
@@ -22,7 +24,7 @@ La largeur préférée peut être spécifiée en points ou en pourcentage. La la
 
 La valeur par défaut est[`Auto`](../../preferredwidth/auto/).
 
-### Exemples
+## Exemples
 
 Montre comment définir une largeur préférée pour les cellules du tableau.
 
@@ -63,7 +65,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertCellsWithPreferredWidths.docx");
 
 * class [PreferredWidth](../../preferredwidth/)
 * class [CellFormat](../)
-* espace de noms [Aspose.Words.Tables](../../cellformat/)
+* espace de noms [Aspose.Words.Tables](../../../aspose.words.tables/)
 * Assemblée [Aspose.Words](../../../)
-
-

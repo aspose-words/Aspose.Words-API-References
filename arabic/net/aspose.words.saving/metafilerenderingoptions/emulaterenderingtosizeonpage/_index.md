@@ -1,7 +1,9 @@
 ---
 title: MetafileRenderingOptions.EmulateRenderingToSizeOnPage
-second_title: Aspose.Words لمراجع .NET API
-description: MetafileRenderingOptions ملكية. الحصول على قيمة أو تعيينها لتحديد ما إذا كان عرض ملف التعريف يحاكي عرض ملف التعريف وفقًا للحجم الموجود على page أو عرض ملف التعريف بحجمه الافتراضي.
+linktitle: EmulateRenderingToSizeOnPage
+articleTitle: EmulateRenderingToSizeOnPage
+second_title: Aspose.Words لـ .NET
+description: MetafileRenderingOptions EmulateRenderingToSizeOnPage ملكية. الحصول على قيمة أو تعيينها لتحديد ما إذا كان عرض ملف التعريف يحاكي عرض ملف التعريف وفقًا للحجم الموجود على page أو عرض ملف التعريف بحجمه الافتراضي في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.saving/metafilerenderingoptions/emulaterenderingtosizeonpage/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.saving/metafilerenderingoptions/emulaterenderingtosize
 public bool EmulateRenderingToSizeOnPage { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 عندما يتم عرض ملفات التعريف في برنامج MS Word، قد يتم تغيير حجم بعض الرسومات وفقًا لحجم ملف التعريف الفعلي بالبكسل. أي أن التكبير/التصغير قد يؤثر على عرض ملف التعريف.
 
@@ -26,7 +28,7 @@ public bool EmulateRenderingToSizeOnPage { get; set; }
 
 القيمة الافتراضية هي`حقيقي`.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية عرض ملف التعريف وفقًا لحجم الصفحة.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.EmulateRenderingToSizeOnPage.pdf", saveO
 ### أنظر أيضا
 
 * class [MetafileRenderingOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../metafilerenderingoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

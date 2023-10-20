@@ -1,7 +1,9 @@
 ---
 title: TabStopCollection.RemoveByPosition
-second_title: Aspose.Words لمراجع .NET API
-description: TabStopCollection طريقة. إزالة علامة الجدولة عند الموضع المحدد من المجموعة.
+linktitle: RemoveByPosition
+articleTitle: RemoveByPosition
+second_title: Aspose.Words لـ .NET
+description: TabStopCollection RemoveByPosition طريقة. إزالة علامة الجدولة عند الموضع المحدد من المجموعة في C#.
 type: docs
 weight: 120
 url: /ar/net/aspose.words/tabstopcollection/removebyposition/
@@ -18,7 +20,7 @@ public void RemoveByPosition(double position)
 | --- | --- | --- |
 | position | Double | موضع علامة التبويب (بالنقاط) المراد إزالتها. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعديل موضع علامة التبويب اليمنى في الفقرات ذات الصلة بجدول المحتويات.
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "Styles.ChangeTocsTabStops.docx");
 ### أنظر أيضا
 
 * class [TabStopCollection](../)
-* مساحة الاسم [Aspose.Words](../../tabstopcollection/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

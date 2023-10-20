@@ -1,7 +1,9 @@
 ---
-title: SignatureLineOptions.SignatureLineOptions
-second_title: Referencia de API de Aspose.Words para .NET
-description: SignatureLineOptions constructor. Constructor predeterminado
+title: SignatureLineOptions
+linktitle: SignatureLineOptions
+articleTitle: SignatureLineOptions
+second_title: Aspose.Words para .NET
+description: SignatureLineOptions constructor. Constructor predeterminado en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words/signaturelineoptions/signaturelineoptions/
@@ -17,7 +19,5 @@ public SignatureLineOptions()
 ### Ver también
 
 * class [SignatureLineOptions](../)
-* espacio de nombres [Aspose.Words](../../signaturelineoptions/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

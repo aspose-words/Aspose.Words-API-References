@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.IsAtStartOfParagraph
-second_title: Aspose.Words für .NET-API-Referenz
-description: DocumentBuilder eigendom. Gibt zurückWAHR wenn sich der Cursor am Anfang des aktuellen Absatzes befindet kein Text vor dem Cursor.
+linktitle: IsAtStartOfParagraph
+articleTitle: IsAtStartOfParagraph
+second_title: Aspose.Words für .NET
+description: DocumentBuilder IsAtStartOfParagraph eigendom. Gibt zurückWAHR wenn sich der Cursor am Anfang des aktuellen Absatzes befindet kein Text vor dem Cursor in C#.
 type: docs
 weight: 130
 url: /de/net/aspose.words/documentbuilder/isatstartofparagraph/
@@ -14,7 +16,7 @@ Gibt zurück`WAHR` wenn sich der Cursor am Anfang des aktuellen Absatzes befinde
 public bool IsAtStartOfParagraph { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie der Cursor eines Document Builders zu verschiedenen Knoten in einem Dokument bewegt wird.
 
@@ -68,7 +70,5 @@ Assert.IsTrue(builder.IsAtStartOfParagraph);
 ### Siehe auch
 
 * class [DocumentBuilder](../)
-* namensraum [Aspose.Words](../../documentbuilder/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

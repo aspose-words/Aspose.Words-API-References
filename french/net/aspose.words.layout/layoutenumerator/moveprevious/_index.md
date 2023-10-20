@@ -1,7 +1,9 @@
 ---
 title: LayoutEnumerator.MovePrevious
-second_title: Référence de l'API Aspose.Words pour .NET
-description: LayoutEnumerator méthode. Passe à lentité frère précédente.
+linktitle: MovePrevious
+articleTitle: MovePrevious
+second_title: Aspose.Words pour .NET
+description: LayoutEnumerator MovePrevious méthode. Passe à lentité frère précédente en C#.
 type: docs
 weight: 150
 url: /fr/net/aspose.words.layout/layoutenumerator/moveprevious/
@@ -14,7 +16,7 @@ Passe à l'entité frère précédente.
 public bool MovePrevious()
 ```
 
-### Exemples
+## Exemples
 
 Montre les moyens de parcourir les entités de mise en page d'un document.
 
@@ -159,7 +161,5 @@ private static void PrintCurrentEntity(LayoutEnumerator layoutEnumerator, int in
 ### Voir également
 
 * class [LayoutEnumerator](../)
-* espace de noms [Aspose.Words.Layout](../../layoutenumerator/)
+* espace de noms [Aspose.Words.Layout](../../../aspose.words.layout/)
 * Assemblée [Aspose.Words](../../../)
-
-

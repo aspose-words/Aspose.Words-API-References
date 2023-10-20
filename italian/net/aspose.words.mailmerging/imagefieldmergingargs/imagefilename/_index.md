@@ -1,7 +1,9 @@
 ---
 title: ImageFieldMergingArgs.ImageFileName
-second_title: Aspose.Words per .NET API Reference
-description: ImageFieldMergingArgs proprietà. Imposta il nome del file dellimmagine che il motore di stampa unione deve inserire nel documento.
+linktitle: ImageFileName
+articleTitle: ImageFileName
+second_title: Aspose.Words per .NET
+description: ImageFieldMergingArgs ImageFileName proprietà. Imposta il nome del file dellimmagine che il motore di stampa unione deve inserire nel documento in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words.mailmerging/imagefieldmergingargs/imagefilename/
@@ -14,7 +16,7 @@ Imposta il nome del file dell'immagine che il motore di stampa unione deve inser
 public string ImageFileName { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come impostare le dimensioni delle immagini poiché MERGEFIELDS le accetta durante una stampa unione.
 
@@ -84,7 +86,5 @@ private class MergedImageResizer : IFieldMergingCallback
 ### Guarda anche
 
 * class [ImageFieldMergingArgs](../)
-* spazio dei nomi [Aspose.Words.MailMerging](../../imagefieldmergingargs/)
+* spazio dei nomi [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * assemblea [Aspose.Words](../../../)
-
-

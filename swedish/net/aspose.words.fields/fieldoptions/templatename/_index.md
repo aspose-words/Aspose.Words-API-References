@@ -1,7 +1,9 @@
 ---
 title: FieldOptions.TemplateName
-second_title: Aspose.Words för .NET API Referens
-description: FieldOptions fast egendom. Hämtar eller ställer in filnamnet på mallen som används av dokumentet.
+linktitle: TemplateName
+articleTitle: TemplateName
+second_title: Aspose.Words för .NET
+description: FieldOptions TemplateName fast egendom. Hämtar eller ställer in filnamnet på mallen som används av dokumentet i C#.
 type: docs
 weight: 190
 url: /sv/net/aspose.words.fields/fieldoptions/templatename/
@@ -14,13 +16,13 @@ Hämtar eller ställer in filnamnet på mallen som används av dokumentet.
 public string TemplateName { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Den här egenskapen används av[`FieldTemplate`](../../fieldtemplate/) fältet om[`AttachedTemplate`](../../../aspose.words/document/attachedtemplate/) fastigheten är tom.
 
 Om den här egenskapen är tom, standard mallfilnamn`Normal.dotm` är använd.
 
-### Exempel
+## Exempel
 
 Visar hur man använder ett MALL-fält för att visa den lokala filsystemets plats för ett dokuments mall.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "Field.TEMPLATE.docx");
 ### Se även
 
 * class [FieldOptions](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldoptions/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

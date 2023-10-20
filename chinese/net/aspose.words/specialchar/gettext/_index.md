@@ -1,7 +1,9 @@
 ---
 title: SpecialChar.GetText
-second_title: Aspose.Words for .NET API 参考
-description: SpecialChar 方法. 获取该节点代表的特殊字符
+linktitle: GetText
+articleTitle: GetText
+second_title: 用于 .NET 的 Aspose.Words
+description: SpecialChar GetText 方法. 获取该节点代表的特殊字符 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words/specialchar/gettext/
@@ -21,7 +23,5 @@ public override string GetText()
 ### 也可以看看
 
 * class [SpecialChar](../)
-* 命名空间 [Aspose.Words](../../specialchar/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

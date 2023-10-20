@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ImagesFolderAlias
-second_title: Aspose.Words per .NET API Reference
-description: HtmlSaveOptions proprietà. Specifica il nome della cartella utilizzata per costruire gli URI di immagine scritti in un documento HTML. Il valore predefinito è una stringa vuota.
+linktitle: ImagesFolderAlias
+articleTitle: ImagesFolderAlias
+second_title: Aspose.Words per .NET
+description: HtmlSaveOptions ImagesFolderAlias proprietà. Specifica il nome della cartella utilizzata per costruire gli URI di immagine scritti in un documento HTML. Il valore predefinito è una stringa vuota in C#.
 type: docs
 weight: 370
 url: /it/net/aspose.words.saving/htmlsaveoptions/imagesfolderalias/
@@ -14,7 +16,7 @@ Specifica il nome della cartella utilizzata per costruire gli URI di immagine sc
 public string ImagesFolderAlias { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Quando salvi un file[`Document`](../../../aspose.words/document/) in formato HTML, Aspose.Words deve salvare tutte le immagini incorporate nel documento come file autonomi.[`ImagesFolder`](../imagesfolder/) ti consente di specificare dove verranno salvate le immagini e`ImagesFolderAlias` consente di specificare come verranno costruiti gli URI dell'immagine.
 
@@ -26,7 +28,7 @@ Se`ImagesFolderAlias`è impostato per '.' (punto), il nome del file immagine ver
 
 Un modo alternativo per specificare il nome della cartella per costruire gli URI dell'immagine è utilizzare[`ResourceFolderAlias`](../resourcefolderalias/).
 
-### Esempi
+## Esempi
 
 Mostra come impostare cartelle e alias di cartelle per le risorse salvate esternamente che Aspose.Words creerà durante il salvataggio di un documento in HTML.
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "HtmlSaveOptions.FolderAlias.html", options);
 ### Guarda anche
 
 * class [HtmlSaveOptions](../)
-* spazio dei nomi [Aspose.Words.Saving](../../htmlsaveoptions/)
+* spazio dei nomi [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../../)
-
-

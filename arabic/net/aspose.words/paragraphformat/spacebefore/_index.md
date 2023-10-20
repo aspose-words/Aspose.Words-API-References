@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.SpaceBefore
-second_title: Aspose.Words لمراجع .NET API
-description: ParagraphFormat ملكية. الحصول على أو تعيين مقدار التباعد بالنقاط قبل الفقرة.
+linktitle: SpaceBefore
+articleTitle: SpaceBefore
+second_title: Aspose.Words لـ .NET
+description: ParagraphFormat SpaceBefore ملكية. الحصول على أو تعيين مقدار التباعد بالنقاط قبل الفقرة في C#.
 type: docs
 weight: 320
 url: /ar/net/aspose.words/paragraphformat/spacebefore/
@@ -20,13 +22,13 @@ public double SpaceBefore { get; set; }
 | --- | --- |
 | ArgumentOutOfRangeException | يتم طرحه عندما تكون الوسيطة خارج نطاق القيم الصالحة. |
 
-### ملاحظات
+## ملاحظات
 
 ليس له أي تأثير عندما[`SpaceBeforeAuto`](../spacebeforeauto/) يكون`حقيقي`.
 
 تتراوح القيم الصالحة من 0 إلى 1584 ضمناً.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية ضبط التباعد التلقائي للفقرات.
 
@@ -84,7 +86,5 @@ doc.Save(ArtifactsDir + "ParagraphFormat.ParagraphSpacingSameStyle.docx");
 ### أنظر أيضا
 
 * class [ParagraphFormat](../)
-* مساحة الاسم [Aspose.Words](../../paragraphformat/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

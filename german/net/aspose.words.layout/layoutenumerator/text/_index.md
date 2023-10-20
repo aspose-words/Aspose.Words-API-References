@@ -1,7 +1,9 @@
 ---
 title: LayoutEnumerator.Text
-second_title: Aspose.Words für .NET-API-Referenz
-description: LayoutEnumerator eigendom. Ruft Text der aktuellen SpanEntität ab. Auslöser für andere Entitätstypen.
+linktitle: Text
+articleTitle: Text
+second_title: Aspose.Words für .NET
+description: LayoutEnumerator Text eigendom. Ruft Text der aktuellen SpanEntität ab. Auslöser für andere Entitätstypen in C#.
 type: docs
 weight: 80
 url: /de/net/aspose.words.layout/layoutenumerator/text/
@@ -14,7 +16,7 @@ Ruft Text der aktuellen Span-Entität ab. Auslöser für andere Entitätstypen.
 public string Text { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt Möglichkeiten zum Durchlaufen der Layoutelemente eines Dokuments.
 
@@ -159,7 +161,5 @@ private static void PrintCurrentEntity(LayoutEnumerator layoutEnumerator, int in
 ### Siehe auch
 
 * class [LayoutEnumerator](../)
-* namensraum [Aspose.Words.Layout](../../layoutenumerator/)
+* namensraum [Aspose.Words.Layout](../../../aspose.words.layout/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: DigitalSignatureCollection.IsValid
-second_title: Aspose.Words för .NET API Referens
-description: DigitalSignatureCollection fast egendom. ReturnerarSann om alla digitala signaturer i denna samling är giltiga och dokumentet inte har manipulerats returneras ocksåSann om det inte finns några digitala signaturer. Returnerarfalsk om minst en digital signatur är ogiltig.
+linktitle: IsValid
+articleTitle: IsValid
+second_title: Aspose.Words för .NET
+description: DigitalSignatureCollection IsValid fast egendom. ReturnerarSann om alla digitala signaturer i denna samling är giltiga och dokumentet inte har manipulerats returneras ocksåSann om det inte finns några digitala signaturer. Returnerarfalsk om minst en digital signatur är ogiltig i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.digitalsignatures/digitalsignaturecollection/isvalid/
@@ -14,7 +16,7 @@ Returnerar`Sann` om alla digitala signaturer i denna samling är giltiga och dok
 public bool IsValid { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man signerar dokument med X.509-certifikat.
 
@@ -57,7 +59,5 @@ Assert.AreEqual("CN=Morzal.Me", signedDoc.DigitalSignatures[0].SubjectName);
 ### Se även
 
 * class [DigitalSignatureCollection](../)
-* namnutrymme [Aspose.Words.DigitalSignatures](../../digitalsignaturecollection/)
+* namnutrymme [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * hopsättning [Aspose.Words](../../../)
-
-

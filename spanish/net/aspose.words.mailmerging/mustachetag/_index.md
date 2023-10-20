@@ -1,7 +1,9 @@
 ---
-title: Class MustacheTag
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.MailMerging.MustacheTag clase. Representa la etiqueta bigote.
+title: MustacheTag Class
+linktitle: MustacheTag
+articleTitle: MustacheTag
+second_title: Aspose.Words para .NET
+description: Aspose.Words.MailMerging.MustacheTag clase. Representa la etiqueta bigote en C#.
 type: docs
 weight: 3880
 url: /es/net/aspose.words.mailmerging/mustachetag/
@@ -26,5 +28,3 @@ public class MustacheTag
 
 * espacio de nombres [Aspose.Words.MailMerging](../../aspose.words.mailmerging/)
 * asamblea [Aspose.Words](../../)
-
-

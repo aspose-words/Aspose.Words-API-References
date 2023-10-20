@@ -1,9 +1,11 @@
 ---
 title: Style.Equals
-second_title: Aspose.Words for .NET API 参考
-description: Style 方法. 与指定样式进行比较 仅比较内置样式的样式 Istd 比较中不包括默认样式 递归比较基本样式链接样式和下一段样式
+linktitle: Equals
+articleTitle: Equals
+second_title: 用于 .NET 的 Aspose.Words
+description: Style Equals 方法. 与指定样式进行比较 仅比较内置样式的样式 Istd 比较中不包括默认样式 递归比较基本样式链接样式和下一段样式 在 C#.
 type: docs
-weight: 190
+weight: 180
 url: /zh/net/aspose.words/style/equals/
 ---
 ## Style.Equals method
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/style/equals/
 public bool Equals(Style style)
 ```
 
-### 例子
+## 例子
 
 展示如何使用样式别名。
 
@@ -45,7 +47,5 @@ Assert.AreEqual(doc.FirstSection.Body.Paragraphs[0].ParagraphFormat.Style,
 ### 也可以看看
 
 * class [Style](../)
-* 命名空间 [Aspose.Words](../../style/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

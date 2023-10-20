@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.Bytes
-second_title: Aspose.Words for .NET API 参考
-description: BuiltInDocumentProperties 财产. 表示文档中字节数的估计值
+linktitle: Bytes
+articleTitle: Bytes
+second_title: 用于 .NET 的 Aspose.Words
+description: BuiltInDocumentProperties Bytes 财产. 表示文档中字节数的估计值 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.properties/builtindocumentproperties/bytes/
@@ -14,13 +16,13 @@ url: /zh/net/aspose.words.properties/builtindocumentproperties/bytes/
 public int Bytes { get; set; }
 ```
 
-### 评论
+## 评论
 
 Microsoft Word 并不总是设置此属性。
 
 Aspose.Words 不会更新此属性。
 
-### 例子
+## 例子
 
 展示如何使用“内容”类别中的文档属性。
 
@@ -130,7 +132,5 @@ private class LineCounter
 ### 也可以看看
 
 * class [BuiltInDocumentProperties](../)
-* 命名空间 [Aspose.Words.Properties](../../builtindocumentproperties/)
+* 命名空间 [Aspose.Words.Properties](../../../aspose.words.properties/)
 * 部件 [Aspose.Words](../../../)
-
-

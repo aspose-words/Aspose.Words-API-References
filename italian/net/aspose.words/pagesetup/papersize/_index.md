@@ -1,7 +1,9 @@
 ---
 title: PageSetup.PaperSize
-second_title: Aspose.Words per .NET API Reference
-description: PageSetup proprietà. Restituisce o imposta la dimensione della carta.
+linktitle: PaperSize
+articleTitle: PaperSize
+second_title: Aspose.Words per .NET
+description: PageSetup PaperSize proprietà. Restituisce o imposta la dimensione della carta in C#.
 type: docs
 weight: 350
 url: /it/net/aspose.words/pagesetup/papersize/
@@ -14,11 +16,11 @@ Restituisce o imposta la dimensione della carta.
 public PaperSize PaperSize { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Impostazione degli aggiornamenti di questa proprietà[`PageWidth`](../pagewidth/) E[`PageHeight`](../pageheight/) valori. Impostazione di questo valore suCustom non modifica i valori esistenti.
 
-### Esempi
+## Esempi
 
 Mostra come regolare il formato della carta, l'orientamento, i margini e altre impostazioni per una sezione.
 
@@ -129,7 +131,5 @@ doc.Save(ArtifactsDir + "Section.CreateManually.docx");
 
 * enum [PaperSize](../../papersize/)
 * class [PageSetup](../)
-* spazio dei nomi [Aspose.Words](../../pagesetup/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

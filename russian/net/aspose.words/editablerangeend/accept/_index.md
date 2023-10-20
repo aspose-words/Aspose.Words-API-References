@@ -1,7 +1,9 @@
 ---
 title: EditableRangeEnd.Accept
-second_title: Справочник по API Aspose.Words для .NET
-description: EditableRangeEnd метод. Принимает посетителя.
+linktitle: Accept
+articleTitle: Accept
+second_title: Aspose.Words для .NET
+description: EditableRangeEnd Accept метод. Принимает посетителя на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words/editablerangeend/accept/
@@ -22,13 +24,13 @@ public override bool Accept(DocumentVisitor visitor)
 
 `ЛОЖЬ` если посетитель запросил остановку перечисления.
 
-### Примечания
+## Примечания
 
 Звонки[`VisitEditableRangeEnd`](../../documentvisitor/visiteditablerangeend/).
 
 Дополнительные сведения см. в шаблоне проектирования «Посетитель».
 
-### Примеры
+## Примеры
 
 Показывает, как ограничить права редактирования редактируемых диапазонов определенной группой/пользователем.
 
@@ -140,7 +142,5 @@ public class EditableRangePrinter : DocumentVisitor
 
 * class [DocumentVisitor](../../documentvisitor/)
 * class [EditableRangeEnd](../)
-* пространство имен [Aspose.Words](../../editablerangeend/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

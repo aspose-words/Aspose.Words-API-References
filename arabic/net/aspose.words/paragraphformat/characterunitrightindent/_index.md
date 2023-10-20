@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.CharacterUnitRightIndent
-second_title: Aspose.Words لمراجع .NET API
-description: ParagraphFormat ملكية. الحصول على أو تعيين قيمة المسافة البادئة الصحيحة بالأحرف للفقرات المحددة.
+linktitle: CharacterUnitRightIndent
+articleTitle: CharacterUnitRightIndent
+second_title: Aspose.Words لـ .NET
+description: ParagraphFormat CharacterUnitRightIndent ملكية. الحصول على أو تعيين قيمة المسافة البادئة الصحيحة بالأحرف للفقرات المحددة في C#.
 type: docs
 weight: 90
 url: /ar/net/aspose.words/paragraphformat/characterunitrightindent/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/paragraphformat/characterunitrightindent/
 public double CharacterUnitRightIndent { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تغيير تباعد الفقرات والمسافات البادئة.
 
@@ -68,7 +70,5 @@ builder.Write("测试文档测试文档测试文档测试文档测试文档测�
 ### أنظر أيضا
 
 * class [ParagraphFormat](../)
-* مساحة الاسم [Aspose.Words](../../paragraphformat/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

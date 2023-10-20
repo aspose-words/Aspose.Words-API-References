@@ -1,7 +1,9 @@
 ---
 title: FieldFormat.DateTimeFormat
-second_title: Aspose.Words for .NET API 参考
-description: FieldFormat 财产. 获取或设置应用于日期和时间字段结果的格式对应于开关.
+linktitle: DateTimeFormat
+articleTitle: DateTimeFormat
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldFormat DateTimeFormat 财产. 获取或设置应用于日期和时间字段结果的格式对应于开关 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.fields/fieldformat/datetimeformat/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fieldformat/datetimeformat/
 public string DateTimeFormat { get; set; }
 ```
 
-### 例子
+## 例子
 
 展示如何设置字段结果的格式。
 
@@ -78,7 +80,5 @@ Assert.AreEqual(0, format.GeneralFormats.Count);
 ### 也可以看看
 
 * class [FieldFormat](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldformat/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

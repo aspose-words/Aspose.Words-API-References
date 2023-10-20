@@ -1,7 +1,9 @@
 ---
 title: FieldArgumentBuilder.AddNode
-second_title: Aspose.Words for .NET API 参考
-description: FieldArgumentBuilder 方法. 将节点添加到参数
+linktitle: AddNode
+articleTitle: AddNode
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldArgumentBuilder AddNode 方法. 将节点添加到参数 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.fields/fieldargumentbuilder/addnode/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.fields/fieldargumentbuilder/addnode/
 public FieldArgumentBuilder AddNode(Inline node)
 ```
 
-### 评论
+## 评论
 
 目前仅支持文本级节点。
 
-### 例子
+## 例子
 
 演示如何使用字段生成器构造字段，然后将它们插入到文档中。
 
@@ -102,7 +104,5 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 
 * class [Inline](../../../aspose.words/inline/)
 * class [FieldArgumentBuilder](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldargumentbuilder/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

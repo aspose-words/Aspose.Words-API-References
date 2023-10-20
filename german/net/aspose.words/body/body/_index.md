@@ -1,7 +1,9 @@
 ---
-title: Body.Body
-second_title: Aspose.Words für .NET-API-Referenz
-description: Body constructeur. Initialisiert eine neue Instanz vonBody Klasse.
+title: Body
+linktitle: Body
+articleTitle: Body
+second_title: Aspose.Words für .NET
+description: Body constructeur. Initialisiert eine neue Instanz vonBody Klasse in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words/body/body/
@@ -18,13 +20,13 @@ public Body(DocumentBase doc)
 | --- | --- | --- |
 | doc | DocumentBase | Das Eigentümerdokument. |
 
-### Bemerkungen
+## Bemerkungen
 
 Wann[`Body`](../) erstellt wird, gehört es zum angegebenen Dokument, ist aber noch nicht Teil des Dokuments und[`ParentNode`](../../node/parentnode/) Ist`Null`.
 
-Anhängen[`Body`](../)zu einem[`Section`](../../section/) verwendenAppendChild , Einfügen nach oderVorher einfügen Methoden.
+Anhängen[`Body`](../)zu einem[`Section`](../../section/) verwenden[`AppendChild`](../../compositenode/appendchild/) , [`Einfügen nach`](../../compositenode/insertafter/) oder[`Vorher einfügen`](../../compositenode/insertbefore/) Methoden.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man ein Aspose.Words-Dokument manuell erstellt.
 
@@ -75,7 +77,5 @@ doc.Save(ArtifactsDir + "Section.CreateManually.docx");
 
 * class [DocumentBase](../../documentbase/)
 * class [Body](../)
-* namensraum [Aspose.Words](../../body/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

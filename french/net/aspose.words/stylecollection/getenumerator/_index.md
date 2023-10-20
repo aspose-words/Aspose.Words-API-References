@@ -1,7 +1,9 @@
 ---
 title: StyleCollection.GetEnumerator
-second_title: Référence de l'API Aspose.Words pour .NET
-description: StyleCollection méthode. Obtient un objet énumérateur qui énumérera les styles dans lordre alphabétique de leurs noms.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words pour .NET
+description: StyleCollection GetEnumerator méthode. Obtient un objet énumérateur qui énumérera les styles dans lordre alphabétique de leurs noms en C#.
 type: docs
 weight: 90
 url: /fr/net/aspose.words/stylecollection/getenumerator/
@@ -14,7 +16,7 @@ Obtient un objet énumérateur qui énumérera les styles dans l'ordre alphabét
 public IEnumerator<Style> GetEnumerator()
 ```
 
-### Exemples
+## Exemples
 
 Montre comment accéder à la collection de styles d’un document.
 
@@ -43,7 +45,5 @@ using (IEnumerator<Style> stylesEnum = doc.Styles.GetEnumerator())
 
 * class [Style](../../style/)
 * class [StyleCollection](../)
-* espace de noms [Aspose.Words](../../stylecollection/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: PdfEncryptionDetails.UserPassword
-second_title: Справочник по API Aspose.Words для .NET
-description: PdfEncryptionDetails свойство. Указывает пароль пользователя необходимый для открытия зашифрованного PDFдокумента.
+linktitle: UserPassword
+articleTitle: UserPassword
+second_title: Aspose.Words для .NET
+description: PdfEncryptionDetails UserPassword свойство. Указывает пароль пользователя необходимый для открытия зашифрованного PDFдокумента на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.saving/pdfencryptiondetails/userpassword/
@@ -14,13 +16,13 @@ url: /ru/net/aspose.words.saving/pdfencryptiondetails/userpassword/
 public string UserPassword { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Пароль пользователя потребуется для открытия зашифрованного PDF-документа для просмотра. Разрешения, указанные в [`Permissions`](../permissions/) будет обеспечиваться программным обеспечением считывателя.
 
 Пароль пользователя может быть`нулевой` или пустая строка, в этом случае пароль от пользователя при открытии PDF-документа не потребуется. Пароль пользователя не может совпадать с паролем владельца.
 
-### Примеры
+## Примеры
 
 Показывает, как установить разрешения для сохраненного PDF-документа.
 
@@ -47,7 +49,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.EncryptionPermissions.pdf", saveOptions)
 ### Смотрите также
 
 * class [PdfEncryptionDetails](../)
-* пространство имен [Aspose.Words.Saving](../../pdfencryptiondetails/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

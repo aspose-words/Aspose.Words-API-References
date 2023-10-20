@@ -1,7 +1,9 @@
 ---
 title: PageSetup.Orientation
-second_title: Aspose.Words لمراجع .NET API
-description: PageSetup ملكية. إرجاع أو تعيين اتجاه الصفحة.
+linktitle: Orientation
+articleTitle: Orientation
+second_title: Aspose.Words لـ .NET
+description: PageSetup Orientation ملكية. إرجاع أو تعيين اتجاه الصفحة في C#.
 type: docs
 weight: 290
 url: /ar/net/aspose.words/pagesetup/orientation/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words/pagesetup/orientation/
 public Orientation Orientation { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 تغيير`Orientation` مقايضات[`PageWidth`](../pagewidth/) و[`PageHeight`](../pageheight/).
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية ضبط حجم الورق واتجاهه والهوامش بالإضافة إلى الإعدادات الأخرى لقسم ما.
 
@@ -73,7 +75,5 @@ doc.Save(ArtifactsDir + "PageSetup.ClearFormatting.docx");
 
 * enum [Orientation](../../orientation/)
 * class [PageSetup](../)
-* مساحة الاسم [Aspose.Words](../../pagesetup/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

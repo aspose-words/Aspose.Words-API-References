@@ -1,7 +1,9 @@
 ---
 title: FieldSymbol.DontAffectsLineSpacing
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldSymbol eigendom. Ruft ab oder legt fest ob das vom Feld abgerufene Zeichen den Zeilenabstand des Absatzes beeinflusst.
+linktitle: DontAffectsLineSpacing
+articleTitle: DontAffectsLineSpacing
+second_title: Aspose.Words für .NET
+description: FieldSymbol DontAffectsLineSpacing eigendom. Ruft ab oder legt fest ob das vom Feld abgerufene Zeichen den Zeilenabstand des Absatzes beeinflusst in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.fields/fieldsymbol/dontaffectslinespacing/
@@ -14,7 +16,7 @@ Ruft ab oder legt fest, ob das vom Feld abgerufene Zeichen den Zeilenabstand des
 public bool DontAffectsLineSpacing { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie das SYMBOL-Feld verwendet wird.
 
@@ -70,7 +72,5 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 ### Siehe auch
 
 * class [FieldSymbol](../)
-* namensraum [Aspose.Words.Fields](../../fieldsymbol/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

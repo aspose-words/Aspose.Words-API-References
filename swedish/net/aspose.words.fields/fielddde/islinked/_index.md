@@ -1,7 +1,9 @@
 ---
 title: FieldDde.IsLinked
-second_title: Aspose.Words för .NET API Referens
-description: FieldDde fast egendom. Hämtar eller ställer in om filstorleken ska minskas genom att inte lagra grafikdata med dokumentet.
+linktitle: IsLinked
+articleTitle: IsLinked
+second_title: Aspose.Words för .NET
+description: FieldDde IsLinked fast egendom. Hämtar eller ställer in om filstorleken ska minskas genom att inte lagra grafikdata med dokumentet i C#.
 type: docs
 weight: 90
 url: /sv/net/aspose.words.fields/fielddde/islinked/
@@ -14,7 +16,7 @@ Hämtar eller ställer in om filstorleken ska minskas genom att inte lagra grafi
 public bool IsLinked { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man använder olika fälttyper för att länka till andra dokument i det lokala filsystemet och visa deras innehåll.
 
@@ -197,7 +199,5 @@ public enum InsertLinkedObjectAs
 ### Se även
 
 * class [FieldDde](../)
-* namnutrymme [Aspose.Words.Fields](../../fielddde/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

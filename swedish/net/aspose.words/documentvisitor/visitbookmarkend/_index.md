@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitBookmarkEnd
-second_title: Aspose.Words för .NET API Referens
-description: DocumentVisitor metod. Anropas när slutet av ett bokmärke påträffas i dokumentet.
+linktitle: VisitBookmarkEnd
+articleTitle: VisitBookmarkEnd
+second_title: Aspose.Words för .NET
+description: DocumentVisitor VisitBookmarkEnd metod. Anropas när slutet av ett bokmärke påträffas i dokumentet i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words/documentvisitor/visitbookmarkend/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitBookmarkEnd(BookmarkEnd bookmarkEnd)
 
 A[`VisitorAction`](../../visitoraction/) värde som anger hur uppräkningen ska fortsätta.
 
-### Exempel
+## Exempel
 
 Visar hur du lägger till bokmärken och uppdaterar deras innehåll.
 
@@ -113,7 +115,5 @@ public class BookmarkInfoPrinter : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [BookmarkEnd](../../bookmarkend/)
 * class [DocumentVisitor](../)
-* namnutrymme [Aspose.Words](../../documentvisitor/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

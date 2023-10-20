@@ -1,12 +1,14 @@
 ---
 title: Aspose.Words.Math
-second_title: Aspose.Words für .NET-API-Referenz
-description: Der Aspose.Words.Math Der Namespace enthält Klassen die Office MathElemente darstellen.
+linktitle: Aspose.Words.Math
+articleTitle: Aspose.Words.Math
+second_title: Aspose.Words für .NET
+description: DerAspose.Words.Math Der Namespace enthält Klassen die Office MathElemente darstellen in C#.
 type: docs
 weight: 170
 url: /de/net/aspose.words.math/
 ---
-Der **Aspose.Words.Math** Der Namespace enthält Klassen, die Office Math-Elemente darstellen.
+Der**Aspose.Words.Math** Der Namespace enthält Klassen, die Office Math-Elemente darstellen.
 
 ## Klassen
 
@@ -20,5 +22,3 @@ Der **Aspose.Words.Math** Der Namespace enthält Klassen, die Office Math-Elemen
 | [MathObjectType](./mathobjecttype/) | Gibt den Typ eines Office Math-Objekts an. |
 | [OfficeMathDisplayType](./officemathdisplaytype/) | Gibt den Anzeigeformattyp der Gleichung an. |
 | [OfficeMathJustification](./officemathjustification/) | Gibt die Begründung der Gleichung an. |
-
-

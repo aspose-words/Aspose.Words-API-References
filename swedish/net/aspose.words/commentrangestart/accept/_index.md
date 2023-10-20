@@ -1,7 +1,9 @@
 ---
 title: CommentRangeStart.Accept
-second_title: Aspose.Words för .NET API Referens
-description: CommentRangeStart metod. Accepterar en besökare.
+linktitle: Accept
+articleTitle: Accept
+second_title: Aspose.Words för .NET
+description: CommentRangeStart Accept metod. Accepterar en besökare i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words/commentrangestart/accept/
@@ -22,13 +24,13 @@ public override bool Accept(DocumentVisitor visitor)
 
 `falsk` om besökaren begärde att uppräkningen skulle sluta.
 
-### Anmärkningar
+## Anmärkningar
 
 Samtal[`VisitCommentRangeStart`](../../documentvisitor/visitcommentrangestart/).
 
 För mer information se Visitor design mönster.
 
-### Exempel
+## Exempel
 
 Visar hur du skriver ut innehållet i alla kommentarer och deras kommentarintervall med hjälp av en dokumentbesökare.
 
@@ -190,7 +192,5 @@ public class CommentInfoPrinter : DocumentVisitor
 
 * class [DocumentVisitor](../../documentvisitor/)
 * class [CommentRangeStart](../)
-* namnutrymme [Aspose.Words](../../commentrangestart/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

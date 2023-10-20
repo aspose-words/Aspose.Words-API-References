@@ -1,7 +1,9 @@
 ---
 title: ReplacingArgs.GroupName
-second_title: Aspose.Words für .NET-API-Referenz
-description: ReplacingArgs eigendom. Identifiziert anhand des Namens eine erfasste Gruppe imMatch  das durch das ersetzt werden sollReplacement string.
+linktitle: GroupName
+articleTitle: GroupName
+second_title: Aspose.Words für .NET
+description: ReplacingArgs GroupName eigendom. Identifiziert anhand des Namens eine erfasste Gruppe imMatch  das durch das ersetzt werden sollReplacement string in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.replacing/replacingargs/groupname/
@@ -14,13 +16,13 @@ Identifiziert anhand des Namens eine erfasste Gruppe im[`Match`](../match/) , da
 public string GroupName { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Wenn der Gruppenname lautet`Null` ,[`GroupIndex`](../groupindex/) wird zur Identifizierung der Gruppe verwendet.
 
 Standard ist`Null`.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie über FindReplaceOptions eine andere Schriftart auf neue Inhalte anwenden.
 
@@ -93,7 +95,5 @@ private class NumberHexer : IReplacingCallback
 ### Siehe auch
 
 * class [ReplacingArgs](../)
-* namensraum [Aspose.Words.Replacing](../../replacingargs/)
+* namensraum [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Paragraph.Paragraph
-second_title: Aspose.Words för .NET API Referens
-description: Paragraph byggare. Initierar en ny instans avParagraph class.
+title: Paragraph
+linktitle: Paragraph
+articleTitle: Paragraph
+second_title: Aspose.Words för .NET
+description: Paragraph byggare. Initierar en ny instans avParagraph class i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words/paragraph/paragraph/
@@ -18,13 +20,13 @@ public Paragraph(DocumentBase doc)
 | --- | --- | --- |
 | doc | DocumentBase | Ägardokumentet. |
 
-### Anmärkningar
+## Anmärkningar
 
 När[`Paragraph`](../) skapas, det tillhör det angivna dokumentet, men är inte ännu en del av dokumentet och[`ParentNode`](../../node/parentnode/) är`null`.
 
-Att lägga till[`Paragraph`](../) till dokumentanvändningenNode) ellerNode) på berättelsen där du vill att stycket ska infogas.
+Att lägga till[`Paragraph`](../) till dokumentanvändningen[`InsertAfter`](../../compositenode/insertafter/) eller[`InsertBefore`](../../compositenode/insertbefore/) på berättelsen där du vill att stycket ska infogas.
 
-### Exempel
+## Exempel
 
 Visar hur man konstruerar ett Aspose.Words-dokument för hand.
 
@@ -75,7 +77,5 @@ doc.Save(ArtifactsDir + "Section.CreateManually.docx");
 
 * class [DocumentBase](../../documentbase/)
 * class [Paragraph](../)
-* namnutrymme [Aspose.Words](../../paragraph/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

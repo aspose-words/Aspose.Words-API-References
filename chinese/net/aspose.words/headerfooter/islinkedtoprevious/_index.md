@@ -1,7 +1,9 @@
 ---
 title: HeaderFooter.IsLinkedToPrevious
-second_title: Aspose.Words for .NET API 参考
-description: HeaderFooter 财产. 如果此页眉或页脚链接到上一节中相应的页眉或页脚 则为 True
+linktitle: IsLinkedToPrevious
+articleTitle: IsLinkedToPrevious
+second_title: 用于 .NET 的 Aspose.Words
+description: HeaderFooter IsLinkedToPrevious 财产. 如果此页眉或页脚链接到上一节中相应的页眉或页脚 则为 True 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words/headerfooter/islinkedtoprevious/
@@ -14,13 +16,13 @@ url: /zh/net/aspose.words/headerfooter/islinkedtoprevious/
 public bool IsLinkedToPrevious { get; set; }
 ```
 
-### 评论
+## 评论
 
 默认为`真的`。
 
 请注意，当您链接页眉或页脚时，其内容将被清除。
 
-### 例子
+## 例子
 
 展示如何在各部分之间链接页眉和页脚。
 
@@ -85,7 +87,5 @@ doc.Save(ArtifactsDir + "HeaderFooter.Link.docx");
 ### 也可以看看
 
 * class [HeaderFooter](../)
-* 命名空间 [Aspose.Words](../../headerfooter/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

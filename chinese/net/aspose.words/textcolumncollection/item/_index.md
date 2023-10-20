@@ -1,7 +1,9 @@
 ---
 title: TextColumnCollection.Item
-second_title: Aspose.Words for .NET API 参考
-description: TextColumnCollection 财产. 返回指定索引处的文本列
+linktitle: Item
+articleTitle: Item
+second_title: 用于 .NET 的 Aspose.Words
+description: TextColumnCollection Item 财产. 返回指定索引处的文本列 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words/textcolumncollection/item/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/textcolumncollection/item/
 public TextColumn this[int index] { get; }
 ```
 
-### 例子
+## 例子
 
 展示如何创建间隔不均匀的列。
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "PageSetup.CustomColumnWidth.docx");
 
 * class [TextColumn](../../textcolumn/)
 * class [TextColumnCollection](../)
-* 命名空间 [Aspose.Words](../../textcolumncollection/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

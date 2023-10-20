@@ -1,7 +1,9 @@
 ---
-title: Class MergeFieldImageDimension
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Fields.MergeFieldImageDimension klas. Stellt eine Bilddimension d. h. die Breite oder Höhe dar die in einem Serienbriefprozess verwendet wird.
+title: MergeFieldImageDimension Class
+linktitle: MergeFieldImageDimension
+articleTitle: MergeFieldImageDimension
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Fields.MergeFieldImageDimension klas. Stellt eine Bilddimension d. h. die Breite oder Höhe dar die in einem Serienbriefprozess verwendet wird in C#.
 type: docs
 weight: 2750
 url: /de/net/aspose.words.fields/mergefieldimagedimension/
@@ -20,8 +22,8 @@ public class MergeFieldImageDimension
 
 | Name | Beschreibung |
 | --- | --- |
-| [MergeFieldImageDimension](mergefieldimagedimension/#constructor)(double) | Erstellt eine Bilddimensionsinstanz mit dem angegebenen Wert in Punkten. |
-| [MergeFieldImageDimension](mergefieldimagedimension/#constructor_1)(double, MergeFieldImageDimensionUnit) | Erstellt eine Bilddimensionsinstanz mit dem angegebenen Wert und der angegebenen Einheit. |
+| [MergeFieldImageDimension](mergefieldimagedimension/#constructor)(*double*) | Erstellt eine Bilddimensionsinstanz mit dem angegebenen Wert in Punkten. |
+| [MergeFieldImageDimension](mergefieldimagedimension/#constructor_1)(*double, [MergeFieldImageDimensionUnit](../mergefieldimagedimensionunit/)*) | Erstellt eine Bilddimensionsinstanz mit dem angegebenen Wert und der angegebenen Einheit. |
 
 ## Eigenschaften
 
@@ -30,11 +32,11 @@ public class MergeFieldImageDimension
 | [Unit](../../aspose.words.fields/mergefieldimagedimension/unit/) { get; set; } | Die Einheit. |
 | [Value](../../aspose.words.fields/mergefieldimagedimension/value/) { get; set; } | Der Wert. |
 
-### Bemerkungen
+## Bemerkungen
 
 Um anzugeben, dass das Bild während eines Seriendrucks in seiner ursprünglichen Größe eingefügt werden soll, sollten Sie dem einen negativen Wert zuweisen[`Value`](./value/) Eigenschaft.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Abmessungen von Bildern festgelegt werden, wenn MERGEFIELDS sie während eines Seriendrucks akzeptiert.
 
@@ -105,5 +107,3 @@ private class MergedImageResizer : IFieldMergingCallback
 
 * namensraum [Aspose.Words.Fields](../../aspose.words.fields/)
 * Montage [Aspose.Words](../../)
-
-

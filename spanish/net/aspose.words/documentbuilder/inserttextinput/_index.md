@@ -1,9 +1,11 @@
 ---
 title: DocumentBuilder.InsertTextInput
-second_title: Referencia de API de Aspose.Words para .NET
-description: DocumentBuilder método. Inserta un campo de formulario de texto en la posición actual.
+linktitle: InsertTextInput
+articleTitle: InsertTextInput
+second_title: Aspose.Words para .NET
+description: DocumentBuilder InsertTextInput método. Inserta un campo de formulario de texto en la posición actual en C#.
 type: docs
-weight: 480
+weight: 470
 url: /es/net/aspose.words/documentbuilder/inserttextinput/
 ---
 ## DocumentBuilder.InsertTextInput method
@@ -27,11 +29,11 @@ public FormField InsertTextInput(string name, TextFormFieldType type, string for
 
 El nodo del campo de formulario que se acaba de insertar.
 
-### Observaciones
+## Observaciones
 
 Si especifica un nombre para el campo del formulario, se crea automáticamente un marcador con el mismo nombre.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo insertar un campo de formulario de entrada de texto en un documento.
 
@@ -90,7 +92,5 @@ builder.Document.Save(ArtifactsDir + "DocumentBuilder.CreateForm.docx");
 * class [FormField](../../../aspose.words.fields/formfield/)
 * enum [TextFormFieldType](../../../aspose.words.fields/textformfieldtype/)
 * class [DocumentBuilder](../)
-* espacio de nombres [Aspose.Words](../../documentbuilder/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

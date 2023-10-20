@@ -1,7 +1,9 @@
 ---
 title: Font.LocaleId
-second_title: Aspose.Words für .NET-API-Referenz
-description: Font eigendom. Ruft die Gebietsschemakennung Sprache der formatierten Zeichen ab oder legt diese fest.
+linktitle: LocaleId
+articleTitle: LocaleId
+second_title: Aspose.Words für .NET
+description: Font LocaleId eigendom. Ruft die Gebietsschemakennung Sprache der formatierten Zeichen ab oder legt diese fest in C#.
 type: docs
 weight: 200
 url: /de/net/aspose.words/font/localeid/
@@ -14,11 +16,11 @@ Ruft die Gebietsschemakennung (Sprache) der formatierten Zeichen ab oder legt di
 public int LocaleId { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Die Liste der Gebietsschema-IDs finden Sie unter https://msdn.microsoft.com/en-us/library/cc233965.aspx
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie das Gebietsschema des Texts festgelegt wird, den wir mit einem Dokumentersteller hinzufügen.
 
@@ -41,7 +43,5 @@ doc.Save(ArtifactsDir + "Font.LocaleId.docx");
 ### Siehe auch
 
 * class [Font](../)
-* namensraum [Aspose.Words](../../font/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

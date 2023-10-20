@@ -1,7 +1,9 @@
 ---
 title: PdfDigitalSignatureTimestampSettings.ServerUrl
-second_title: Référence de l'API Aspose.Words pour .NET
-description: PdfDigitalSignatureTimestampSettings propriété. URL du serveur dhorodatage.
+linktitle: ServerUrl
+articleTitle: ServerUrl
+second_title: Aspose.Words pour .NET
+description: PdfDigitalSignatureTimestampSettings ServerUrl propriété. URL du serveur dhorodatage en C#.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.saving/pdfdigitalsignaturetimestampsettings/serverurl/
@@ -14,11 +16,11 @@ URL du serveur d'horodatage.
 public string ServerUrl { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 La valeur par défaut est`nul` . Si`nul` , alors la signature numérique ne sera pas horodatée.
 
-### Exemples
+## Exemples
 
 Montre comment signer numériquement un document PDF enregistré et l'horodater.
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignatureTimestamp.pdf", optio
 ### Voir également
 
 * class [PdfDigitalSignatureTimestampSettings](../)
-* espace de noms [Aspose.Words.Saving](../../pdfdigitalsignaturetimestampsettings/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

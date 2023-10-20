@@ -1,7 +1,9 @@
 ---
 title: FieldFillIn.PromptText
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldFillIn eigendom. Ruft den Eingabeaufforderungstext den Titel des Eingabeaufforderungsfensters ab oder legt diesen fest.
+linktitle: PromptText
+articleTitle: PromptText
+second_title: Aspose.Words für .NET
+description: FieldFillIn PromptText eigendom. Ruft den Eingabeaufforderungstext den Titel des Eingabeaufforderungsfensters ab oder legt diesen fest in C#.
 type: docs
 weight: 40
 url: /de/net/aspose.words.fields/fieldfillin/prompttext/
@@ -14,7 +16,7 @@ Ruft den Eingabeaufforderungstext (den Titel des Eingabeaufforderungsfensters) a
 public string PromptText { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie das FILLIN-Feld verwendet wird, um den Benutzer zu einer Antwort aufzufordern.
 
@@ -63,7 +65,5 @@ private class PromptRespondent : IFieldUserPromptRespondent
 ### Siehe auch
 
 * class [FieldFillIn](../)
-* namensraum [Aspose.Words.Fields](../../fieldfillin/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

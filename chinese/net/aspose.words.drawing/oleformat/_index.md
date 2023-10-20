@@ -1,7 +1,9 @@
 ---
-title: Class OleFormat
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Drawing.OleFormat 班级. 提供对 OLE 对象或 ActiveX 控件的数据的访问
+title: OleFormat Class
+linktitle: OleFormat
+articleTitle: OleFormat
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Drawing.OleFormat 班级. 提供对 OLE 对象或 ActiveX 控件的数据的访问 在 C#.
 type: docs
 weight: 1150
 url: /zh/net/aspose.words.drawing/oleformat/
@@ -38,16 +40,16 @@ public class OleFormat
 
 | 姓名 | 描述 |
 | --- | --- |
-| [GetOleEntry](../../aspose.words.drawing/oleformat/getoleentry/)(string) | 获取 OLE 对象数据条目。 |
+| [GetOleEntry](../../aspose.words.drawing/oleformat/getoleentry/)(*string*) | 获取 OLE 对象数据条目。 |
 | [GetRawData](../../aspose.words.drawing/oleformat/getrawdata/)() | 获取 OLE 对象原始数据。 |
-| [Save](../../aspose.words.drawing/oleformat/save/#save)(Stream) | 将嵌入对象的数据保存到指定的流中。 |
-| [Save](../../aspose.words.drawing/oleformat/save/#save_1)(string) | 将嵌入对象的数据保存到指定名称的文件中。 |
+| [Save](../../aspose.words.drawing/oleformat/save/#save)(*Stream*) | 将嵌入对象的数据保存到指定的流中。 |
+| [Save](../../aspose.words.drawing/oleformat/save/#save_1)(*string*) | 将嵌入对象的数据保存到指定名称的文件中。 |
 
-### 评论
+## 评论
 
 使用[`OleFormat`](../shape/oleformat/)属性来访问 OLE 对象的数据。 您不创建`OleFormat`直接上课。
 
-### 例子
+## 例子
 
 演示如何将嵌入的 OLE 对象提取到文件中。
 
@@ -83,5 +85,3 @@ oleFormat.Save(ArtifactsDir + "OLE spreadsheet saved directly" + oleFormat.Sugge
 
 * 命名空间 [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../)
-
-

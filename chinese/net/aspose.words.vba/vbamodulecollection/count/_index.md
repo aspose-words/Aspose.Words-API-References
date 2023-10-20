@@ -1,7 +1,9 @@
 ---
 title: VbaModuleCollection.Count
-second_title: Aspose.Words for .NET API 参考
-description: VbaModuleCollection 财产. 返回集合中 VBA 模块的数量
+linktitle: Count
+articleTitle: Count
+second_title: 用于 .NET 的 Aspose.Words
+description: VbaModuleCollection Count 财产. 返回集合中 VBA 模块的数量 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.vba/vbamodulecollection/count/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.vba/vbamodulecollection/count/
 public int Count { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何访问文档的 VBA 项目信息。
 
@@ -45,7 +47,5 @@ vbaModules.Remove(vbaModules[2]);
 ### 也可以看看
 
 * class [VbaModuleCollection](../)
-* 命名空间 [Aspose.Words.Vba](../../vbamodulecollection/)
+* 命名空间 [Aspose.Words.Vba](../../../aspose.words.vba/)
 * 部件 [Aspose.Words](../../../)
-
-

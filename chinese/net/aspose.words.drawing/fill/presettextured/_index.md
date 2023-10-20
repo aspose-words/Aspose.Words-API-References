@@ -1,9 +1,11 @@
 ---
 title: Fill.PresetTextured
-second_title: Aspose.Words for .NET API 参考
-description: Fill 方法. 将填充设置为预设纹理
+linktitle: PresetTextured
+articleTitle: PresetTextured
+second_title: 用于 .NET 的 Aspose.Words
+description: Fill PresetTextured 方法. 将填充设置为预设纹理 在 C#.
 type: docs
-weight: 240
+weight: 230
 url: /zh/net/aspose.words.drawing/fill/presettextured/
 ---
 ## Fill.PresetTextured method
@@ -18,7 +20,7 @@ public void PresetTextured(PresetTexture presetTexture)
 | --- | --- | --- |
 | presetTexture | PresetTexture | [`PresetTexture`](../../presettexture/) |
 
-### 例子
+## 例子
 
 展示如何设置标记格式。
 
@@ -57,7 +59,5 @@ doc.Save(ArtifactsDir + "Charts.MarkerFormatting.docx");
 
 * enum [PresetTexture](../../presettexture/)
 * class [Fill](../)
-* 命名空间 [Aspose.Words.Drawing](../../fill/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

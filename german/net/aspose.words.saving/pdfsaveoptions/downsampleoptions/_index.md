@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.DownsampleOptions
-second_title: Aspose.Words für .NET-API-Referenz
-description: PdfSaveOptions eigendom. Ermöglicht die Angabe von DownsamplingOptionen.
+linktitle: DownsampleOptions
+articleTitle: DownsampleOptions
+second_title: Aspose.Words für .NET
+description: PdfSaveOptions DownsampleOptions eigendom. Ermöglicht die Angabe von DownsamplingOptionen in C#.
 type: docs
 weight: 100
 url: /de/net/aspose.words.saving/pdfsaveoptions/downsampleoptions/
@@ -14,7 +16,7 @@ Ermöglicht die Angabe von Downsampling-Optionen.
 public DownsampleOptions DownsampleOptions { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Auflösung von Bildern im PDF-Dokument geändert wird.
 
@@ -47,7 +49,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.DownsampleOptions.LowerResolution.pdf", 
 
 * class [DownsampleOptions](../../downsampleoptions/)
 * class [PdfSaveOptions](../)
-* namensraum [Aspose.Words.Saving](../../pdfsaveoptions/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

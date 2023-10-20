@@ -1,7 +1,9 @@
 ---
 title: IFieldUpdatingProgressCallback.Notify
-second_title: Aspose.Words för .NET API Referens
-description: IFieldUpdatingProgressCallback metod. En användardefinierad metod som anropas när uppdateringsförloppet ändras.
+linktitle: Notify
+articleTitle: Notify
+second_title: Aspose.Words för .NET
+description: IFieldUpdatingProgressCallback Notify metod. En användardefinierad metod som anropas när uppdateringsförloppet ändras i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.fields/ifieldupdatingprogresscallback/notify/
@@ -14,7 +16,7 @@ En användardefinierad metod som anropas när uppdateringsförloppet ändras.
 public void Notify(FieldUpdatingProgressArgs args)
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man använder återuppringningsmetoder under en fältuppdatering.
 
@@ -83,7 +85,5 @@ public class FieldUpdatingCallback : IFieldUpdatingCallback, IFieldUpdatingProgr
 
 * class [FieldUpdatingProgressArgs](../../fieldupdatingprogressargs/)
 * interface [IFieldUpdatingProgressCallback](../)
-* namnutrymme [Aspose.Words.Fields](../../ifieldupdatingprogresscallback/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

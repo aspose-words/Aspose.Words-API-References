@@ -1,9 +1,11 @@
 ---
 title: Section.Clone
-second_title: Aspose.Words for .NET API 参考
-description: Section 方法. 创建此部分的副本
+linktitle: Clone
+articleTitle: Clone
+second_title: 用于 .NET 的 Aspose.Words
+description: Section Clone 方法. 创建此部分的副本 在 C#.
 type: docs
-weight: 130
+weight: 110
 url: /zh/net/aspose.words/section/clone/
 ---
 ## Section.Clone method
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/section/clone/
 public Section Clone()
 ```
 
-### 例子
+## 例子
 
 演示如何在文档中添加和删除部分。
 
@@ -44,7 +46,5 @@ Assert.AreEqual("Section 2\x000cSection 2", doc.GetText().Trim());
 ### 也可以看看
 
 * class [Section](../)
-* 命名空间 [Aspose.Words](../../section/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

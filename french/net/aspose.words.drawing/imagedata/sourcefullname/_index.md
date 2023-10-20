@@ -1,7 +1,9 @@
 ---
 title: ImageData.SourceFullName
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ImageData propriété. Obtient ou définit le chemin et le nom du fichier source de limage liée.
+linktitle: SourceFullName
+articleTitle: SourceFullName
+second_title: Aspose.Words pour .NET
+description: ImageData SourceFullName propriété. Obtient ou définit le chemin et le nom du fichier source de limage liée en C#.
 type: docs
 weight: 170
 url: /fr/net/aspose.words.drawing/imagedata/sourcefullname/
@@ -14,13 +16,13 @@ Obtient ou définit le chemin et le nom du fichier source de l'image liée.
 public string SourceFullName { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 La valeur par défaut est une chaîne vide.
 
 Si`SourceFullName` n'est pas une chaîne vide, l'image est liée.
 
-### Exemples
+## Exemples
 
 Montre comment insérer une image liée dans un document.
 
@@ -62,7 +64,5 @@ Assert.True(10000 > new FileInfo(ArtifactsDir + "Image.CreateLinkedImage.Linked.
 ### Voir également
 
 * class [ImageData](../)
-* espace de noms [Aspose.Words.Drawing](../../imagedata/)
+* espace de noms [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Assemblée [Aspose.Words](../../../)
-
-

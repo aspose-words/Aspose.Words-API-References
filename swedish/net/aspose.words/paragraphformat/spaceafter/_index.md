@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.SpaceAfter
-second_title: Aspose.Words för .NET API Referens
-description: ParagraphFormat fast egendom. Hämtar eller ställer in mängden mellanrum i poäng efter stycket.
+linktitle: SpaceAfter
+articleTitle: SpaceAfter
+second_title: Aspose.Words för .NET
+description: ParagraphFormat SpaceAfter fast egendom. Hämtar eller ställer in mängden mellanrum i poäng efter stycket i C#.
 type: docs
 weight: 300
 url: /sv/net/aspose.words/paragraphformat/spaceafter/
@@ -20,13 +22,13 @@ public double SpaceAfter { get; set; }
 | --- | --- |
 | ArgumentOutOfRangeException | Kastar när argumentet var utanför intervallet för giltiga värden. |
 
-### Anmärkningar
+## Anmärkningar
 
 Har ingen effekt när[`SpaceAfterAuto`](../spaceafterauto/) är`Sann`.
 
 Giltiga värden sträcker sig från 0 till 1584 inklusive.
 
-### Exempel
+## Exempel
 
 Visar hur man ställer in automatiskt styckeavstånd.
 
@@ -84,7 +86,5 @@ doc.Save(ArtifactsDir + "ParagraphFormat.ParagraphSpacingSameStyle.docx");
 ### Se även
 
 * class [ParagraphFormat](../)
-* namnutrymme [Aspose.Words](../../paragraphformat/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

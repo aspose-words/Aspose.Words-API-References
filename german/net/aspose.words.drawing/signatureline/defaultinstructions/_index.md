@@ -1,7 +1,9 @@
 ---
 title: SignatureLine.DefaultInstructions
-second_title: Aspose.Words für .NET-API-Referenz
-description: SignatureLine eigendom. Ruft einen Wert ab oder legt ihn fest der angibt dass Standardanweisungen im Dialogfeld Signieren angezeigt werden. Der Standardwert für diese Eigenschaft istWAHR .
+linktitle: DefaultInstructions
+articleTitle: DefaultInstructions
+second_title: Aspose.Words für .NET
+description: SignatureLine DefaultInstructions eigendom. Ruft einen Wert ab oder legt ihn fest der angibt dass Standardanweisungen im Dialogfeld Signieren angezeigt werden. Der Standardwert für diese Eigenschaft istWAHR  in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.drawing/signatureline/defaultinstructions/
@@ -14,7 +16,7 @@ Ruft einen Wert ab oder legt ihn fest, der angibt, dass Standardanweisungen im D
 public bool DefaultInstructions { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie eine Zeile für eine Signatur erstellt und in ein Dokument eingefügt wird.
 
@@ -59,7 +61,5 @@ doc.Save(ArtifactsDir + "Shape.SignatureLine.docx");
 ### Siehe auch
 
 * class [SignatureLine](../)
-* namensraum [Aspose.Words.Drawing](../../signatureline/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

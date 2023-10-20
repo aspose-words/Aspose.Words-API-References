@@ -1,7 +1,9 @@
 ---
 title: IStructuredDocumentTag.IsRanged
-second_title: Referencia de API de Aspose.Words para .NET
-description: IStructuredDocumentTag método. Devuelve verdadero si esta instancia es una etiqueta de documento estructurado por rangos.
+linktitle: IsRanged
+articleTitle: IsRanged
+second_title: Aspose.Words para .NET
+description: IStructuredDocumentTag IsRanged método. Devuelve verdadero si esta instancia es una etiqueta de documento estructurado por rangos en C#.
 type: docs
 weight: 140
 url: /es/net/aspose.words.markup/istructureddocumenttag/isranged/
@@ -14,7 +16,7 @@ Devuelve verdadero si esta instancia es una etiqueta de documento estructurado p
 public bool IsRanged()
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo obtener una etiqueta de documento estructurado.
 
@@ -34,7 +36,5 @@ Console.WriteLine(sdt.Id);
 ### Ver también
 
 * interface [IStructuredDocumentTag](../)
-* espacio de nombres [Aspose.Words.Markup](../../istructureddocumenttag/)
+* espacio de nombres [Aspose.Words.Markup](../../../aspose.words.markup/)
 * asamblea [Aspose.Words](../../../)
-
-

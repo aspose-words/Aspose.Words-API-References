@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.AlternativeText
-second_title: Aspose.Words for .NET API 参考
-description: ShapeBase 财产. 定义要显示的替代文本而不是图形
+linktitle: AlternativeText
+articleTitle: AlternativeText
+second_title: 用于 .NET 的 Aspose.Words
+description: ShapeBase AlternativeText 财产. 定义要显示的替代文本而不是图形 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.drawing/shapebase/alternativetext/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.drawing/shapebase/alternativetext/
 public string AlternativeText { get; set; }
 ```
 
-### 评论
+## 评论
 
 默认值为空字符串。
 
-### 例子
+## 例子
 
 演示如何使用形状的替代文本。
 
@@ -42,7 +44,5 @@ File.Delete(ArtifactsDir + "Shape.AltText.001.png");
 ### 也可以看看
 
 * class [ShapeBase](../)
-* 命名空间 [Aspose.Words.Drawing](../../shapebase/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

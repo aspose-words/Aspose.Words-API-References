@@ -1,7 +1,9 @@
 ---
 title: Document.Sections
-second_title: Aspose.Words per .NET API Reference
-description: Document proprietà. Restituisce una raccolta che rappresenta tutte le sezioni del documento.
+linktitle: Sections
+articleTitle: Sections
+second_title: Aspose.Words per .NET
+description: Document Sections proprietà. Restituisce una raccolta che rappresenta tutte le sezioni del documento in C#.
 type: docs
 weight: 370
 url: /it/net/aspose.words/document/sections/
@@ -14,7 +16,7 @@ Restituisce una raccolta che rappresenta tutte le sezioni del documento.
 public SectionCollection Sections { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come aggiungere e rimuovere sezioni in un documento.
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "PageSetup.SetSectionStart.docx");
 
 * class [SectionCollection](../../sectioncollection/)
 * class [Document](../)
-* spazio dei nomi [Aspose.Words](../../document/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

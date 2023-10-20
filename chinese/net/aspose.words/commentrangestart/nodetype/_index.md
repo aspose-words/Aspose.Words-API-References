@@ -1,7 +1,9 @@
 ---
 title: CommentRangeStart.NodeType
-second_title: Aspose.Words for .NET API 参考
-description: CommentRangeStart 财产. 返回CommentRangeStart.
+linktitle: NodeType
+articleTitle: NodeType
+second_title: 用于 .NET 的 Aspose.Words
+description: CommentRangeStart NodeType 财产. 返回CommentRangeStart 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words/commentrangestart/nodetype/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/commentrangestart/nodetype/
 public override NodeType NodeType { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何遍历复合节点的子节点树。
 
@@ -62,7 +64,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 
 * enum [NodeType](../../nodetype/)
 * class [CommentRangeStart](../)
-* 命名空间 [Aspose.Words](../../commentrangestart/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,12 +1,14 @@
 ---
 title: ImageData.Save
-second_title: Aspose.Words för .NET API Referens
-description: ImageData metod. Sparar bilden i den angivna strömmen.
+linktitle: Save
+articleTitle: Save
+second_title: Aspose.Words för .NET
+description: ImageData Save metod. Sparar bilden i den angivna strömmen i C#.
 type: docs
-weight: 200
+weight: 190
 url: /sv/net/aspose.words.drawing/imagedata/save/
 ---
-## Save(Stream) {#save}
+## Save(*Stream*) {#save}
 
 Sparar bilden i den angivna strömmen.
 
@@ -18,11 +20,11 @@ public void Save(Stream stream)
 | --- | --- | --- |
 | stream | Stream | Streamen där bilden ska sparas. |
 
-### Anmärkningar
+## Anmärkningar
 
 Är det uppringarens ansvar att kassera strömobjektet.
 
-### Exempel
+## Exempel
 
 Visar hur man sparar alla bilder från ett dokument till filsystemet.
 
@@ -55,12 +57,12 @@ using (IEnumerator<Shape> enumerator = shapesWithImages.GetEnumerator())
 ### Se även
 
 * class [ImageData](../)
-* namnutrymme [Aspose.Words.Drawing](../../imagedata/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## Save(string) {#save_1}
+## Save(*string*) {#save_1}
 
 Sparar bilden i en fil.
 
@@ -72,7 +74,7 @@ public void Save(string fileName)
 | --- | --- | --- |
 | fileName | String | Filnamnet där bilden ska sparas. |
 
-### Exempel
+## Exempel
 
 Visar hur man extraherar bilder från ett dokument och sparar dem i det lokala filsystemet som enskilda filer.
 
@@ -103,7 +105,5 @@ foreach (Shape shape in shapes.OfType<Shape>())
 ### Se även
 
 * class [ImageData](../)
-* namnutrymme [Aspose.Words.Drawing](../../imagedata/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

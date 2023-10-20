@@ -1,7 +1,9 @@
 ---
 title: SmartTag.NodeType
-second_title: Справочник по API Aspose.Words для .NET
-description: SmartTag свойство. ВозвращаетSmartTag .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words для .NET
+description: SmartTag NodeType свойство. ВозвращаетSmartTag  на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.markup/smarttag/nodetype/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.markup/smarttag/nodetype/
 public override NodeType NodeType { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как перемещаться по дереву дочерних узлов составного узла.
 
@@ -62,7 +64,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 
 * enum [NodeType](../../../aspose.words/nodetype/)
 * class [SmartTag](../)
-* пространство имен [Aspose.Words.Markup](../../smarttag/)
+* пространство имен [Aspose.Words.Markup](../../../aspose.words.markup/)
 * сборка [Aspose.Words](../../../)
-
-

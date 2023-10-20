@@ -1,7 +1,9 @@
 ---
 title: BorderCollection.Horizontal
-second_title: Aspose.Words für .NET-API-Referenz
-description: BorderCollection eigendom. Ruft den horizontalen Rahmen ab der zwischen Zellen oder entsprechenden Absätzen verwendet wird.
+linktitle: Horizontal
+articleTitle: Horizontal
+second_title: Aspose.Words für .NET
+description: BorderCollection Horizontal eigendom. Ruft den horizontalen Rahmen ab der zwischen Zellen oder entsprechenden Absätzen verwendet wird in C#.
 type: docs
 weight: 50
 url: /de/net/aspose.words/bordercollection/horizontal/
@@ -14,7 +16,7 @@ Ruft den horizontalen Rahmen ab, der zwischen Zellen oder entsprechenden Absätz
 public Border Horizontal { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie Einstellungen für horizontale Ränder auf das Format eines Absatzes anwenden.
 
@@ -83,7 +85,5 @@ doc.Save(ArtifactsDir + "Border.VerticalBorders.docx");
 
 * class [Border](../../border/)
 * class [BorderCollection](../)
-* namensraum [Aspose.Words](../../bordercollection/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

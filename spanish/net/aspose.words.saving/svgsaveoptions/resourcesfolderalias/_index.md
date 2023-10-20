@@ -1,7 +1,9 @@
 ---
 title: SvgSaveOptions.ResourcesFolderAlias
-second_title: Referencia de API de Aspose.Words para .NET
-description: SvgSaveOptions propiedad. Especifica el nombre de la carpeta utilizada para construir los URI de imágenes escritos en un documento SVG. El valor predeterminado esnulo .
+linktitle: ResourcesFolderAlias
+articleTitle: ResourcesFolderAlias
+second_title: Aspose.Words para .NET
+description: SvgSaveOptions ResourcesFolderAlias propiedad. Especifica el nombre de la carpeta utilizada para construir los URI de imágenes escritos en un documento SVG. El valor predeterminado esnulo  en C#.
 type: docs
 weight: 60
 url: /es/net/aspose.words.saving/svgsaveoptions/resourcesfolderalias/
@@ -14,11 +16,11 @@ Especifica el nombre de la carpeta utilizada para construir los URI de imágenes
 public string ResourcesFolderAlias { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 Cuando guardas un[`Document`](../../../aspose.words/document/) en formato SVG, Aspose.Words necesita guardar todas las imágenes incrustadas en el documento como archivos independientes.[`ResourcesFolder`](../resourcesfolder/) le permite especificar dónde se guardarán las imágenes y`ResourcesFolderAlias` permite especificar cómo se construirán los URI de la imagen.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo manipular e imprimir los URI de los recursos vinculados creados al convertir un documento a .svg.
 
@@ -61,7 +63,5 @@ private class ResourceUriPrinter : IResourceSavingCallback
 ### Ver también
 
 * class [SvgSaveOptions](../)
-* espacio de nombres [Aspose.Words.Saving](../../svgsaveoptions/)
+* espacio de nombres [Aspose.Words.Saving](../../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../../)
-
-

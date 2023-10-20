@@ -1,7 +1,9 @@
 ---
 title: ConditionalStyle.Shading
-second_title: Aspose.Words för .NET API Referens
-description: ConditionalStyle fast egendom. Får enShading objekt som refererar till skuggningsformateringen för denna villkorliga stil.
+linktitle: Shading
+articleTitle: Shading
+second_title: Aspose.Words för .NET
+description: ConditionalStyle Shading fast egendom. Får enShading objekt som refererar till skuggningsformateringen för denna villkorliga stil i C#.
 type: docs
 weight: 70
 url: /sv/net/aspose.words/conditionalstyle/shading/
@@ -14,7 +16,7 @@ Får en[`Shading`](../../shading/) objekt som refererar till skuggningsformateri
 public Shading Shading { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med vissa områdesstilar i en tabell.
 
@@ -85,7 +87,5 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 
 * class [Shading](../../shading/)
 * class [ConditionalStyle](../)
-* namnutrymme [Aspose.Words](../../conditionalstyle/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class AxisBound
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Drawing.Charts.AxisBound classe. Représente la limite minimale ou maximale des valeurs daxe.
+title: AxisBound Class
+linktitle: AxisBound
+articleTitle: AxisBound
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Drawing.Charts.AxisBound classe. Représente la limite minimale ou maximale des valeurs daxe en C#.
 type: docs
 weight: 510
 url: /fr/net/aspose.words.drawing.charts/axisbound/
@@ -21,8 +23,8 @@ public sealed class AxisBound
 | Nom | La description |
 | --- | --- |
 | [AxisBound](axisbound/#constructor)() | Crée une nouvelle instance indiquant que la limite de l'axe doit être déterminée automatiquement par une application de traitement de texte . |
-| [AxisBound](axisbound/#constructor_2)(DateTime) | Crée une limite d'axe représentée comme valeur datetime. |
-| [AxisBound](axisbound/#constructor_1)(double) | Crée une limite d'axe représentée sous forme de nombre. |
+| [AxisBound](axisbound/#constructor_2)(*DateTime*) | Crée une limite d'axe représentée comme valeur datetime. |
+| [AxisBound](axisbound/#constructor_1)(*double*) | Crée une limite d'axe représentée sous forme de nombre. |
 
 ## Propriétés
 
@@ -36,17 +38,17 @@ public sealed class AxisBound
 
 | Nom | La description |
 | --- | --- |
-| override [Equals](../../aspose.words.drawing.charts/axisbound/equals/)(object) | Détermine si l'objet spécifié a une valeur égale à l'objet actuel. |
+| override [Equals](../../aspose.words.drawing.charts/axisbound/equals/)(*object*) | Détermine si l'objet spécifié a une valeur égale à l'objet actuel. |
 | override [GetHashCode](../../aspose.words.drawing.charts/axisbound/gethashcode/)() | Sert de fonction de hachage pour ce type. |
 | override [ToString](../../aspose.words.drawing.charts/axisbound/tostring/)() | Renvoie une chaîne conviviale qui affiche la valeur de cet objet. |
 
-### Remarques
+## Remarques
 
 La limite peut être spécifiée sous la forme d'une valeur numérique, d'une date/heure ou d'une valeur "auto" spéciale.
 
 Les instances de cette classe sont immuables.
 
-### Exemples
+## Exemples
 
 Montre comment insérer un graphique avec des valeurs de date/heure.
 
@@ -101,5 +103,3 @@ doc.Save(ArtifactsDir + "Charts.DateTimeValues.docx");
 
 * espace de noms [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * Assemblée [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FileFontSource.FilePath
-second_title: Aspose.Words per .NET API Reference
-description: FileFontSource proprietà. Percorso del file del carattere.
+linktitle: FilePath
+articleTitle: FilePath
+second_title: Aspose.Words per .NET
+description: FileFontSource FilePath proprietà. Percorso del file del carattere in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words.fonts/filefontsource/filepath/
@@ -14,7 +16,7 @@ Percorso del file del carattere.
 public string FilePath { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come utilizzare un file di font nel file system locale come origine di font.
 
@@ -33,7 +35,5 @@ Assert.AreEqual(0, fileFontSource.Priority);
 ### Guarda anche
 
 * class [FileFontSource](../)
-* spazio dei nomi [Aspose.Words.Fonts](../../filefontsource/)
+* spazio dei nomi [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * assemblea [Aspose.Words](../../../)
-
-

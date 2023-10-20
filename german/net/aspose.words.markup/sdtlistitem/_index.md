@@ -1,7 +1,9 @@
 ---
-title: Class SdtListItem
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Markup.SdtListItem klas. Dieses Element gibt ein einzelnes Listenelement innerhalb eines übergeordneten Elements anComboBox oderDropDownList Strukturiertes DokumentTag.
+title: SdtListItem Class
+linktitle: SdtListItem
+articleTitle: SdtListItem
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Markup.SdtListItem klas. Dieses Element gibt ein einzelnes Listenelement innerhalb eines übergeordneten Elements anComboBox oderDropDownList Strukturiertes DokumentTag in C#.
 type: docs
 weight: 4020
 url: /de/net/aspose.words.markup/sdtlistitem/
@@ -20,8 +22,8 @@ public class SdtListItem
 
 | Name | Beschreibung |
 | --- | --- |
-| [SdtListItem](sdtlistitem/#constructor)(string) | Initialisiert eine neue Instanz dieser Klasse. |
-| [SdtListItem](sdtlistitem/#constructor_1)(string, string) | Initialisiert eine neue Instanz dieser Klasse. |
+| [SdtListItem](sdtlistitem/#constructor)(*string*) | Initialisiert eine neue Instanz dieser Klasse. |
+| [SdtListItem](sdtlistitem/#constructor_1)(*string, string*) | Initialisiert eine neue Instanz dieser Klasse. |
 
 ## Eigenschaften
 
@@ -30,7 +32,7 @@ public class SdtListItem
 | [DisplayText](../../aspose.words.markup/sdtlistitem/displaytext/) { get; } | Ruft den Text ab, der im Ausführungsinhalt anstelle von angezeigt werden soll[`Value`](./value/) Attributinhalte für dieses Listenelement. |
 | [Value](../../aspose.words.markup/sdtlistitem/value/) { get; } | Ruft den Wert dieses Listenelements ab. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit strukturierten Dropdown-Dokument-Tags gearbeitet wird.
 
@@ -88,5 +90,3 @@ Assert.AreEqual(0, listItems.Count);
 
 * namensraum [Aspose.Words.Markup](../../aspose.words.markup/)
 * Montage [Aspose.Words](../../)
-
-

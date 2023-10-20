@@ -1,7 +1,9 @@
 ---
-title: GroupShape.GroupShape
-second_title: Aspose.Words for .NET API 参考
-description: GroupShape 构造函数. 创建一个新的组形状
+title: GroupShape
+linktitle: GroupShape
+articleTitle: GroupShape
+second_title: 用于 .NET 的 Aspose.Words
+description: GroupShape 构造函数. 创建一个新的组形状 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.drawing/groupshape/groupshape/
@@ -18,13 +20,13 @@ public GroupShape(DocumentBase doc)
 | --- | --- | --- |
 | doc | DocumentBase | 所有者文件。 |
 
-### 评论
+## 评论
 
 默认情况下，形状是浮动的，并且具有默认位置和大小。
 
 创建形状后，您应该指定所需的形状属性。
 
-### 例子
+## 例子
 
 演示如何创建一组形状，并使用文档访问者打印其内容。
 
@@ -116,7 +118,5 @@ public class ShapeGroupPrinter : DocumentVisitor
 
 * class [DocumentBase](../../../aspose.words/documentbase/)
 * class [GroupShape](../)
-* 命名空间 [Aspose.Words.Drawing](../../groupshape/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: PclSaveOptions.SaveFormat
-second_title: Справочник по API Aspose.Words для .NET
-description: PclSaveOptions свойство. Указывает формат в котором документ будет сохранен если используется этот объект параметров сохранения. Может быть толькоPcl .
+linktitle: SaveFormat
+articleTitle: SaveFormat
+second_title: Aspose.Words для .NET
+description: PclSaveOptions SaveFormat свойство. Указывает формат в котором документ будет сохранен если используется этот объект параметров сохранения. Может быть толькоPcl  на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.saving/pclsaveoptions/saveformat/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.saving/pclsaveoptions/saveformat/
 public override SaveFormat SaveFormat { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как растрировать сложные элементы при сохранении документа в PCL.
 
@@ -34,7 +36,5 @@ doc.Save(ArtifactsDir + "PclSaveOptions.RasterizeElements.pcl", saveOptions);
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
 * class [PclSaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../pclsaveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldCompare.LeftExpression
-second_title: Aspose.Words for .NET API 参考
-description: FieldCompare 财产. 获取或设置比较表达式的左侧部分
+linktitle: LeftExpression
+articleTitle: LeftExpression
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldCompare LeftExpression 财产. 获取或设置比较表达式的左侧部分 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.fields/fieldcompare/leftexpression/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fieldcompare/leftexpression/
 public string LeftExpression { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何使用 COMPARE 字段比较表达式。
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "Field.COMPARE.docx");
 ### 也可以看看
 
 * class [FieldCompare](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldcompare/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: BuildingBlock.Name
-second_title: Référence de l'API Aspose.Words pour .NET
-description: BuildingBlock propriété. Obtient ou définit le nom de ce bloc de construction.
+linktitle: Name
+articleTitle: Name
+second_title: Aspose.Words pour .NET
+description: BuildingBlock Name propriété. Obtient ou définit le nom de ce bloc de construction en C#.
 type: docs
 weight: 90
 url: /fr/net/aspose.words.buildingblocks/buildingblock/name/
@@ -14,15 +16,15 @@ Obtient ou définit le nom de ce bloc de construction.
 public string Name { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 Le nom peut contenir n'importe quel contenu de chaîne, généralement un identifiant convivial. Plusieurs blocs de construction peuvent avoir le même nom.
 
 C'est pas possible`nul` et ne peut pas être une chaîne vide.
 
-Correspond au **docPartPr.name** élément dans OOXML.
+Correspond au**docPartPr.name** élément dans OOXML.
 
-### Exemples
+## Exemples
 
 Montre comment ajouter un bloc de construction personnalisé à un document.
 
@@ -119,7 +121,5 @@ public class BuildingBlockVisitor : DocumentVisitor
 ### Voir également
 
 * class [BuildingBlock](../)
-* espace de noms [Aspose.Words.BuildingBlocks](../../buildingblock/)
+* espace de noms [Aspose.Words.BuildingBlocks](../../../aspose.words.buildingblocks/)
 * Assemblée [Aspose.Words](../../../)
-
-

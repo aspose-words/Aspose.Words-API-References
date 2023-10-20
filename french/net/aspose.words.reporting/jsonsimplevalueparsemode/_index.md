@@ -1,7 +1,9 @@
 ---
-title: Enum JsonSimpleValueParseMode
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Reporting.JsonSimpleValueParseMode énumération. Spécifie un mode danalyse des valeurs simples JSON null booléen nombre entier et chaîne lors du chargement de JSON. Un tel mode naffecte pas lanalyse des valeurs dateheure.
+title: JsonSimpleValueParseMode Enum
+linktitle: JsonSimpleValueParseMode
+articleTitle: JsonSimpleValueParseMode
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Reporting.JsonSimpleValueParseMode énumération. Spécifie un mode danalyse des valeurs simples JSON null booléen nombre entier et chaîne lors du chargement de JSON. Un tel mode naffecte pas lanalyse des valeurs dateheure en C#.
 type: docs
 weight: 4700
 url: /fr/net/aspose.words.reporting/jsonsimplevalueparsemode/
@@ -25,5 +27,3 @@ public enum JsonSimpleValueParseMode
 
 * espace de noms [Aspose.Words.Reporting](../../aspose.words.reporting/)
 * Assemblée [Aspose.Words](../../)
-
-

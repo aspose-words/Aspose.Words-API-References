@@ -1,7 +1,9 @@
 ---
 title: PageSetup.PageHeight
-second_title: Aspose.Words for .NET API 参考
-description: PageSetup 财产. 返回或设置页面的高度以磅为单位
+linktitle: PageHeight
+articleTitle: PageHeight
+second_title: 用于 .NET 的 Aspose.Words
+description: PageSetup PageHeight 财产. 返回或设置页面的高度以磅为单位 在 C#.
 type: docs
 weight: 310
 url: /zh/net/aspose.words/pagesetup/pageheight/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/pagesetup/pageheight/
 public double PageHeight { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何插入图像并将其用作水印。
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertWatermarkNetStandard2.docx");
 ### 也可以看看
 
 * class [PageSetup](../)
-* 命名空间 [Aspose.Words](../../pagesetup/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

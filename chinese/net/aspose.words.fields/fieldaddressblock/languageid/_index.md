@@ -1,7 +1,9 @@
 ---
 title: FieldAddressBlock.LanguageId
-second_title: Aspose.Words for .NET API 参考
-description: FieldAddressBlock 财产. 获取或设置用于格式化地址的语言 ID
+linktitle: LanguageId
+articleTitle: LanguageId
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldAddressBlock LanguageId 财产. 获取或设置用于格式化地址的语言 ID 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words.fields/fieldaddressblock/languageid/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fieldaddressblock/languageid/
 public string LanguageId { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何插入 ADDRESSBLOCK 字段。
 
@@ -45,7 +47,5 @@ Assert.AreEqual(
 ### 也可以看看
 
 * class [FieldAddressBlock](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldaddressblock/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

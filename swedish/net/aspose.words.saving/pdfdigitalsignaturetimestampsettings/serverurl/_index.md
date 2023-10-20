@@ -1,7 +1,9 @@
 ---
 title: PdfDigitalSignatureTimestampSettings.ServerUrl
-second_title: Aspose.Words för .NET API Referens
-description: PdfDigitalSignatureTimestampSettings fast egendom. Tidstämpelserverns URL.
+linktitle: ServerUrl
+articleTitle: ServerUrl
+second_title: Aspose.Words för .NET
+description: PdfDigitalSignatureTimestampSettings ServerUrl fast egendom. Tidstämpelserverns URL i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.saving/pdfdigitalsignaturetimestampsettings/serverurl/
@@ -14,11 +16,11 @@ Tidstämpelserverns URL.
 public string ServerUrl { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Standardvärdet är`null` . Om`null` , då kommer den digitala signaturen inte att tidsstämplas.
 
-### Exempel
+## Exempel
 
 Visar hur man signerar ett sparat PDF-dokument digitalt och tidsstämplar det.
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignatureTimestamp.pdf", optio
 ### Se även
 
 * class [PdfDigitalSignatureTimestampSettings](../)
-* namnutrymme [Aspose.Words.Saving](../../pdfdigitalsignaturetimestampsettings/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

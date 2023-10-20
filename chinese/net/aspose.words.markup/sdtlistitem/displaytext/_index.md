@@ -1,7 +1,9 @@
 ---
 title: SdtListItem.DisplayText
-second_title: Aspose.Words for .NET API 参考
-description: SdtListItem 财产. 获取要在运行内容中显示的文本以代替Value此列表项的属性内容
+linktitle: DisplayText
+articleTitle: DisplayText
+second_title: 用于 .NET 的 Aspose.Words
+description: SdtListItem DisplayText 财产. 获取要在运行内容中显示的文本以代替Value此列表项的属性内容 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.markup/sdtlistitem/displaytext/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.markup/sdtlistitem/displaytext/
 public string DisplayText { get; }
 ```
 
-### 评论
+## 评论
 
 不可能是`无效的`并且不能为空字符串。
 
-### 例子
+## 例子
 
 展示如何使用下拉列表结构化文档标签。
 
@@ -75,7 +77,5 @@ Assert.AreEqual(0, listItems.Count);
 ### 也可以看看
 
 * class [SdtListItem](../)
-* 命名空间 [Aspose.Words.Markup](../../sdtlistitem/)
+* 命名空间 [Aspose.Words.Markup](../../../aspose.words.markup/)
 * 部件 [Aspose.Words](../../../)
-
-

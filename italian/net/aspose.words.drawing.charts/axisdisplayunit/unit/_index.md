@@ -1,7 +1,9 @@
 ---
 title: AxisDisplayUnit.Unit
-second_title: Aspose.Words per .NET API Reference
-description: AxisDisplayUnit proprietà. Ottiene o imposta il valore di scala delle unità di visualizzazione come uno dei valori predefiniti.
+linktitle: Unit
+articleTitle: Unit
+second_title: Aspose.Words per .NET
+description: AxisDisplayUnit Unit proprietà. Ottiene o imposta il valore di scala delle unità di visualizzazione come uno dei valori predefiniti in C#.
 type: docs
 weight: 40
 url: /it/net/aspose.words.drawing.charts/axisdisplayunit/unit/
@@ -14,11 +16,11 @@ Ottiene o imposta il valore di scala delle unità di visualizzazione come uno de
 public AxisBuiltInUnit Unit { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Il valore predefinito èNone . ILCustom e Percentage i valori non sono disponibili in alcuni tipi di grafico; vedi [`AxisBuiltInUnit`](../../axisbuiltinunit/) per ulteriori informazioni.
 
-### Esempi
+## Esempi
 
 Mostra come manipolare i segni di graduazione e i valori visualizzati di un asse del grafico.
 
@@ -77,7 +79,5 @@ doc.Save(ArtifactsDir + "Charts.AxisDisplayUnit.docx");
 
 * enum [AxisBuiltInUnit](../../axisbuiltinunit/)
 * class [AxisDisplayUnit](../)
-* spazio dei nomi [Aspose.Words.Drawing.Charts](../../axisdisplayunit/)
+* spazio dei nomi [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * assemblea [Aspose.Words](../../../)
-
-

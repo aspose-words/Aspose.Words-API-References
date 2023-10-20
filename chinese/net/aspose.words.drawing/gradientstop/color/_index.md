@@ -1,7 +1,9 @@
 ---
 title: GradientStop.Color
-second_title: Aspose.Words for .NET API 参考
-description: GradientStop 财产. 获取或设置表示渐变停止点颜色的值
+linktitle: Color
+articleTitle: Color
+second_title: 用于 .NET 的 Aspose.Words
+description: GradientStop Color 财产. 获取或设置表示渐变停止点颜色的值 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.drawing/gradientstop/color/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.drawing/gradientstop/color/
 public Color Color { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何向渐变填充添加渐变停止点。
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "Shape.GradientStops.docx", saveOptions);
 ### 也可以看看
 
 * class [GradientStop](../)
-* 命名空间 [Aspose.Words.Drawing](../../gradientstop/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

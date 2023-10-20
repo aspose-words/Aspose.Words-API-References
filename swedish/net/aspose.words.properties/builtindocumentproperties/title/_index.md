@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.Title
-second_title: Aspose.Words för .NET API Referens
-description: BuiltInDocumentProperties fast egendom. Hämtar eller ställer in titeln på dokumentet.
+linktitle: Title
+articleTitle: Title
+second_title: Aspose.Words för .NET
+description: BuiltInDocumentProperties Title fast egendom. Hämtar eller ställer in titeln på dokumentet i C#.
 type: docs
 weight: 290
 url: /sv/net/aspose.words.properties/builtindocumentproperties/title/
@@ -14,7 +16,7 @@ Hämtar eller ställer in titeln på dokumentet.
 public string Title { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med inbyggda dokumentegenskaper i kategorin "Beskrivning".
 
@@ -59,7 +61,5 @@ doc.Save(ArtifactsDir + "DocumentProperties.Description.docx");
 ### Se även
 
 * class [BuiltInDocumentProperties](../)
-* namnutrymme [Aspose.Words.Properties](../../builtindocumentproperties/)
+* namnutrymme [Aspose.Words.Properties](../../../aspose.words.properties/)
 * hopsättning [Aspose.Words](../../../)
-
-

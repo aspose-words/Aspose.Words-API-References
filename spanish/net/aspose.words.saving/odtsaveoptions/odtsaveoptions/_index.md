@@ -1,7 +1,9 @@
 ---
-title: OdtSaveOptions.OdtSaveOptions
-second_title: Referencia de API de Aspose.Words para .NET
-description: OdtSaveOptions constructor. Inicializa una nueva instancia de esta clase que se puede utilizar para guardar un documento en elOdt formato.
+title: OdtSaveOptions
+linktitle: OdtSaveOptions
+articleTitle: OdtSaveOptions
+second_title: Aspose.Words para .NET
+description: OdtSaveOptions constructor. Inicializa una nueva instancia de esta clase que se puede utilizar para guardar un documento en elOdt formato en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words.saving/odtsaveoptions/odtsaveoptions/
@@ -14,7 +16,7 @@ Inicializa una nueva instancia de esta clase que se puede utilizar para guardar 
 public OdtSaveOptions()
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo hacer que un documento guardado se ajuste a un esquema ODT anterior.
 
@@ -33,12 +35,12 @@ doc.Save(ArtifactsDir + "OdtSaveOptions.Odt11Schema.odt", saveOptions);
 ### Ver también
 
 * class [OdtSaveOptions](../)
-* espacio de nombres [Aspose.Words.Saving](../../odtsaveoptions/)
+* espacio de nombres [Aspose.Words.Saving](../../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../../)
 
 ---
 
-## OdtSaveOptions(string) {#constructor_2}
+## OdtSaveOptions(*string*) {#constructor_2}
 
 Inicializa una nueva instancia de esta clase que se puede utilizar para guardar un documento en elOdt format cifrado con una contraseña.
 
@@ -49,12 +51,12 @@ public OdtSaveOptions(string password)
 ### Ver también
 
 * class [OdtSaveOptions](../)
-* espacio de nombres [Aspose.Words.Saving](../../odtsaveoptions/)
+* espacio de nombres [Aspose.Words.Saving](../../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../../)
 
 ---
 
-## OdtSaveOptions(SaveFormat) {#constructor_1}
+## OdtSaveOptions(*[SaveFormat](../../../aspose.words/saveformat/)*) {#constructor_1}
 
 Inicializa una nueva instancia de esta clase que se puede utilizar para guardar un documento en elOdt o Ott formato.
 
@@ -66,7 +68,7 @@ public OdtSaveOptions(SaveFormat saveFormat)
 | --- | --- | --- |
 | saveFormat | SaveFormat | Puede serOdt oOtt. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo cifrar un documento ODT/OTT guardado con una contraseña y luego cargarlo usando Aspose.Words.
 
@@ -102,7 +104,5 @@ Assert.AreEqual("Hello world!", doc.GetText().Trim());
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
 * class [OdtSaveOptions](../)
-* espacio de nombres [Aspose.Words.Saving](../../odtsaveoptions/)
+* espacio de nombres [Aspose.Words.Saving](../../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../../)
-
-

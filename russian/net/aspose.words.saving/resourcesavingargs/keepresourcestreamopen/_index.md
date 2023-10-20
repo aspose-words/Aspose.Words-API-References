@@ -1,7 +1,9 @@
 ---
 title: ResourceSavingArgs.KeepResourceStreamOpen
-second_title: Справочник по API Aspose.Words для .NET
-description: ResourceSavingArgs свойство. Указывает должен ли Aspose.Words сохранять поток открытым или закрывать его после сохранения ресурса.
+linktitle: KeepResourceStreamOpen
+articleTitle: KeepResourceStreamOpen
+second_title: Aspose.Words для .NET
+description: ResourceSavingArgs KeepResourceStreamOpen свойство. Указывает должен ли Aspose.Words сохранять поток открытым или закрывать его после сохранения ресурса на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.saving/resourcesavingargs/keepresourcestreamopen/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.saving/resourcesavingargs/keepresourcestreamopen/
 public bool KeepResourceStreamOpen { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 По умолчанию`ЛОЖЬ` и Aspose.Words закроет поток, который вы предоставили в[`ResourceStream`](../resourcestream/) свойство после записи в него ресурса. Укажите`истинный` чтобы поток оставался открытым.
 
-### Примеры
+## Примеры
 
 Показывает, как использовать обратный вызов для печати URI внешних ресурсов, созданных при преобразовании документа в HTML.
 
@@ -97,7 +99,5 @@ private class ResourceUriPrinter : IResourceSavingCallback
 ### Смотрите также
 
 * class [ResourceSavingArgs](../)
-* пространство имен [Aspose.Words.Saving](../../resourcesavingargs/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class ChartTitle
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Drawing.Charts.ChartTitle klas. Bietet Zugriff auf die Eigenschaften des Diagrammtitels.
+title: ChartTitle Class
+linktitle: ChartTitle
+articleTitle: ChartTitle
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Drawing.Charts.ChartTitle klas. Bietet Zugriff auf die Eigenschaften des Diagrammtitels in C#.
 type: docs
 weight: 820
 url: /de/net/aspose.words.drawing.charts/charttitle/
@@ -20,12 +22,11 @@ public class ChartTitle
 
 | Name | Beschreibung |
 | --- | --- |
-| [Font](../../aspose.words.drawing.charts/charttitle/font/) { get; } |  |
 | [Overlay](../../aspose.words.drawing.charts/charttitle/overlay/) { get; set; } | Legt fest, ob andere Diagrammelemente den Titel überlappen dürfen. Standardmäßig ist Overlay`FALSCH` . |
 | [Show](../../aspose.words.drawing.charts/charttitle/show/) { get; set; } | Legt fest, ob der Titel für dieses Diagramm angezeigt werden soll. Der Standardwert ist`WAHR` . |
 | [Text](../../aspose.words.drawing.charts/charttitle/text/) { get; set; } | Ruft den Text des Diagrammtitels ab oder legt ihn fest. Wenn`Null` oder ein leerer Wert angegeben wird, wird der automatisch generierte Titel angezeigt. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man ein Diagramm einfügt und einen Titel festlegt.
 
@@ -54,5 +55,3 @@ doc.Save(ArtifactsDir + "Charts.ChartTitle.docx");
 
 * namensraum [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../)
-
-

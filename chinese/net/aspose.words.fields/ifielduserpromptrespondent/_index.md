@@ -1,7 +1,9 @@
 ---
-title: Interface IFieldUserPromptRespondent
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Fields.IFieldUserPromptRespondent 界面. 表示字段更新期间用户提示的响应者
+title: IFieldUserPromptRespondent Interface
+linktitle: IFieldUserPromptRespondent
+articleTitle: IFieldUserPromptRespondent
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Fields.IFieldUserPromptRespondent 界面. 表示字段更新期间用户提示的响应者 在 C#.
 type: docs
 weight: 2740
 url: /zh/net/aspose.words.fields/ifielduserpromptrespondent/
@@ -18,13 +20,13 @@ public interface IFieldUserPromptRespondent
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Respond](../../aspose.words.fields/ifielduserpromptrespondent/respond/)(string, string) | 实现后，根据提示返回用户的响应。 您的实现应该返回`无效的`表示用户尚未响应提示 （即用户已按下提示窗口中的“取消”按钮）。 |
+| [Respond](../../aspose.words.fields/ifielduserpromptrespondent/respond/)(*string, string*) | 实现后，根据提示返回用户的响应。 您的实现应该返回`无效的`表示用户尚未响应提示 （即用户已按下提示窗口中的“取消”按钮）。 |
 
-### 评论
+## 评论
 
 ASK 和 FILLIN 字段是提示用户进行某些响应的字段示例。实现这个接口 并将其分配给[`UserPromptRespondent`](../fieldoptions/userpromptrespondent/)用于在字段 update 和用户之间建立交互的属性。
 
-### 例子
+## 例子
 
 演示如何创建 ASK 字段并设置其属性。
 
@@ -87,5 +89,3 @@ private class MyPromptRespondent : IFieldUserPromptRespondent
 
 * 命名空间 [Aspose.Words.Fields](../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../)
-
-

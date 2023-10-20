@@ -1,7 +1,9 @@
 ---
 title: FindReplaceOptions.MatchCase
-second_title: Aspose.Words per .NET API Reference
-description: FindReplaceOptions proprietà. Vero indica un confronto con distinzione tra maiuscole e minuscole falso indica un confronto senza distinzione tra maiuscole e minuscole.
+linktitle: MatchCase
+articleTitle: MatchCase
+second_title: Aspose.Words per .NET
+description: FindReplaceOptions MatchCase proprietà. Vero indica un confronto con distinzione tra maiuscole e minuscole falso indica un confronto senza distinzione tra maiuscole e minuscole in C#.
 type: docs
 weight: 140
 url: /it/net/aspose.words.replacing/findreplaceoptions/matchcase/
@@ -14,7 +16,7 @@ Vero indica un confronto con distinzione tra maiuscole e minuscole, falso indica
 public bool MatchCase { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come attivare la distinzione tra maiuscole e minuscole durante l'esecuzione di un'operazione di ricerca e sostituzione.
 
@@ -40,7 +42,5 @@ Assert.AreEqual(matchCase ? "Jade bought a ruby necklace." : "Jade bought a Jade
 ### Guarda anche
 
 * class [FindReplaceOptions](../)
-* spazio dei nomi [Aspose.Words.Replacing](../../findreplaceoptions/)
+* spazio dei nomi [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * assemblea [Aspose.Words](../../../)
-
-

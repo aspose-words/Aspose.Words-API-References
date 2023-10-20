@@ -1,9 +1,11 @@
 ---
 title: Stroke.EndCap
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Stroke propriété. Définit le style de capuchon pour la fin dun trait.
+linktitle: EndCap
+articleTitle: EndCap
+second_title: Aspose.Words pour .NET
+description: Stroke EndCap propriété. Définit le style de capuchon pour la fin dun trait en C#.
 type: docs
-weight: 90
+weight: 80
 url: /fr/net/aspose.words.drawing/stroke/endcap/
 ---
 ## Stroke.EndCap property
@@ -14,11 +16,11 @@ Définit le style de capuchon pour la fin d'un trait.
 public EndCap EndCap { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 La valeur par défaut estFlat.
 
-### Exemples
+## Exemples
 
 Montre pour créer une variété de formes.
 
@@ -94,7 +96,5 @@ doc.Save(ArtifactsDir + "Drawing.VariousShapes.docx");
 
 * enum [EndCap](../../endcap/)
 * class [Stroke](../)
-* espace de noms [Aspose.Words.Drawing](../../stroke/)
+* espace de noms [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Assemblée [Aspose.Words](../../../)
-
-

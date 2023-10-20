@@ -1,7 +1,9 @@
 ---
 title: MailMergeSettings.AddressFieldName
-second_title: Referencia de API de Aspose.Words para .NET
-description: MailMergeSettings propiedad. Especifica la columna dentro de la fuente de datos que contiene direcciones de correo electrónico. El valor predeterminado es una cadena vacía.
+linktitle: AddressFieldName
+articleTitle: AddressFieldName
+second_title: Aspose.Words para .NET
+description: MailMergeSettings AddressFieldName propiedad. Especifica la columna dentro de la fuente de datos que contiene direcciones de correo electrónico. El valor predeterminado es una cadena vacía en C#.
 type: docs
 weight: 30
 url: /es/net/aspose.words.settings/mailmergesettings/addressfieldname/
@@ -14,7 +16,7 @@ Especifica la columna dentro de la fuente de datos que contiene direcciones de c
 public string AddressFieldName { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo ejecutar una combinación de correspondencia mientras se conecta a una fuente de datos externa.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "MailMerge.OdsoEmail.docx");
 ### Ver también
 
 * class [MailMergeSettings](../)
-* espacio de nombres [Aspose.Words.Settings](../../mailmergesettings/)
+* espacio de nombres [Aspose.Words.Settings](../../../aspose.words.settings/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Font.ComplexScript
-second_title: Справочник по API Aspose.Words для .NET
-description: Font свойство. Указывает должно ли содержимое этого запуска рассматриваться как сложный текст сценария независимо от значений символов Юникода при определении форматирования для этого запуска.
+linktitle: ComplexScript
+articleTitle: ComplexScript
+second_title: Aspose.Words для .NET
+description: Font ComplexScript свойство. Указывает должно ли содержимое этого запуска рассматриваться как сложный текст сценария независимо от значений символов Юникода при определении форматирования для этого запуска на С#.
 type: docs
 weight: 80
 url: /ru/net/aspose.words/font/complexscript/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/font/complexscript/
 public bool ComplexScript { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как добавить текст, который всегда рассматривается как сложный скрипт.
 
@@ -32,7 +34,5 @@ doc.Save(ArtifactsDir + "Font.ComplexScript.docx");
 ### Смотрите также
 
 * class [Font](../)
-* пространство имен [Aspose.Words](../../font/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

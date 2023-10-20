@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ImagesFolder
-second_title: Référence de l'API Aspose.Words pour .NET
-description: HtmlSaveOptions propriété. Spécifie le dossier physique dans lequel les images sont enregistrées lors de lexportation dun document au format HTML. La valeur par défaut est une chaîne vide.
+linktitle: ImagesFolder
+articleTitle: ImagesFolder
+second_title: Aspose.Words pour .NET
+description: HtmlSaveOptions ImagesFolder propriété. Spécifie le dossier physique dans lequel les images sont enregistrées lors de lexportation dun document au format HTML. La valeur par défaut est une chaîne vide en C#.
 type: docs
 weight: 360
 url: /fr/net/aspose.words.saving/htmlsaveoptions/imagesfolder/
@@ -14,7 +16,7 @@ Spécifie le dossier physique dans lequel les images sont enregistrées lors de 
 public string ImagesFolder { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 Lorsque vous enregistrez un[`Document`](../../../aspose.words/document/) au format HTML, Aspose.Words doit enregistrer toutes les images intégrées dans le document en tant que fichiers autonomes.`ImagesFolder` permet de préciser où les images seront enregistrées et[`ImagesFolderAlias`](../imagesfolderalias/) permet de spécifier comment les URI des images seront construites.
 
@@ -26,7 +28,7 @@ Si le dossier spécifié par`ImagesFolder` n'existe pas, il sera créé automati
 
 [`ResourceFolder`](../resourcefolder/) est une autre façon de spécifier un dossier dans lequel les images doivent être enregistrées.
 
-### Exemples
+## Exemples
 
 Montre comment spécifier le dossier dans lequel stocker les images liées après leur enregistrement au format .html.
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "HtmlSaveOptions.SaveHtmlWithOptions.html", options);
 ### Voir également
 
 * class [HtmlSaveOptions](../)
-* espace de noms [Aspose.Words.Saving](../../htmlsaveoptions/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

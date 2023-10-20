@@ -1,7 +1,9 @@
 ---
 title: NodeCollection.Clear
-second_title: Aspose.Words لمراجع .NET API
-description: NodeCollection طريقة. إزالة كافة العقد من هذه المجموعة ومن المستند.
+linktitle: Clear
+articleTitle: Clear
+second_title: Aspose.Words لـ .NET
+description: NodeCollection Clear طريقة. إزالة كافة العقد من هذه المجموعة ومن المستند في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words/nodecollection/clear/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/nodecollection/clear/
 public void Clear()
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إزالة جميع الأقسام من المستند.
 
@@ -36,7 +38,5 @@ Assert.AreEqual(string.Empty, doc.GetText().Trim());
 ### أنظر أيضا
 
 * class [NodeCollection](../)
-* مساحة الاسم [Aspose.Words](../../nodecollection/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

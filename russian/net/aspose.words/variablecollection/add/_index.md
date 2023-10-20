@@ -1,7 +1,9 @@
 ---
 title: VariableCollection.Add
-second_title: Справочник по API Aspose.Words для .NET
-description: VariableCollection метод. Добавляет переменную документа в коллекцию.
+linktitle: Add
+articleTitle: Add
+second_title: Aspose.Words для .NET
+description: VariableCollection Add метод. Добавляет переменную документа в коллекцию на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words/variablecollection/add/
@@ -19,7 +21,7 @@ public void Add(string name, string value)
 | name | String | Имя добавляемой переменной без учета регистра. |
 | value | String | Значение переменной. Значение не может быть`нулевой`, если значение равно нулю, вместо него будет использоваться пустая строка. |
 
-### Примеры
+## Примеры
 
 Показывает, как работать с коллекцией переменных документа.
 
@@ -86,7 +88,5 @@ Assert.That(variables, Is.Empty);
 ### Смотрите также
 
 * class [VariableCollection](../)
-* пространство имен [Aspose.Words](../../variablecollection/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: TextBox.IsValidLinkTarget
-second_title: Référence de l'API Aspose.Words pour .NET
-description: TextBox méthode. Détermine si ceciTextBox peut être lié à la cibleTextBox .
+linktitle: IsValidLinkTarget
+articleTitle: IsValidLinkTarget
+second_title: Aspose.Words pour .NET
+description: TextBox IsValidLinkTarget méthode. Détermine si ceciTextBox peut être lié à la cibleTextBox  en C#.
 type: docs
 weight: 140
 url: /fr/net/aspose.words.drawing/textbox/isvalidlinktarget/
@@ -14,7 +16,7 @@ Détermine si ceci[`TextBox`](../) peut être lié à la cible[`TextBox`](../) .
 public bool IsValidLinkTarget(TextBox target)
 ```
 
-### Exemples
+## Exemples
 
 Montre comment lier des zones de texte.
 
@@ -75,7 +77,5 @@ doc.Save(ArtifactsDir + "Shape.CreateLinkBetweenTextBoxes.docx");
 ### Voir également
 
 * class [TextBox](../)
-* espace de noms [Aspose.Words.Drawing](../../textbox/)
+* espace de noms [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Assemblée [Aspose.Words](../../../)
-
-

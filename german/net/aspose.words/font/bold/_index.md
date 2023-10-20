@@ -1,7 +1,9 @@
 ---
 title: Font.Bold
-second_title: Aspose.Words für .NET-API-Referenz
-description: Font eigendom. True wenn die Schriftart fett formatiert ist.
+linktitle: Bold
+articleTitle: Bold
+second_title: Aspose.Words für .NET
+description: Font Bold eigendom. True wenn die Schriftart fett formatiert ist in C#.
 type: docs
 weight: 40
 url: /de/net/aspose.words/font/bold/
@@ -14,7 +16,7 @@ True, wenn die Schriftart fett formatiert ist.
 public bool Bold { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie formatierter Text mit DocumentBuilder eingefügt wird.
 
@@ -36,7 +38,5 @@ builder.Write("Hello world!");
 ### Siehe auch
 
 * class [Font](../)
-* namensraum [Aspose.Words](../../font/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

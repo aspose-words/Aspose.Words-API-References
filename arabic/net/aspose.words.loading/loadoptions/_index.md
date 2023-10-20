@@ -1,7 +1,9 @@
 ---
-title: Class LoadOptions
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Loading.LoadOptions فصل. يسمح بتحديد خيارات إضافية مثل كلمة المرور أو URI الأساسي عند تحميل مستند إلى ملفDocument الكائن.
+title: LoadOptions Class
+linktitle: LoadOptions
+articleTitle: LoadOptions
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Loading.LoadOptions فصل. يسمح بتحديد خيارات إضافية مثل كلمة المرور أو URI الأساسي عند تحميل مستند إلى ملفDocument الكائن في C#.
 type: docs
 weight: 3660
 url: /ar/net/aspose.words.loading/loadoptions/
@@ -21,8 +23,8 @@ public class LoadOptions
 | اسم | وصف |
 | --- | --- |
 | [LoadOptions](loadoptions/#constructor)() | تهيئة مثيل جديد لهذه الفئة بالقيم الافتراضية. |
-| [LoadOptions](loadoptions/#constructor_2)(string) | اختصار لتهيئة مثيل جديد لهذه الفئة بكلمة المرور المحددة لتحميل مستند مشفر. |
-| [LoadOptions](loadoptions/#constructor_1)(LoadFormat, string, string) | اختصار لتهيئة مثيل جديد لهذه الفئة مع تعيين الخصائص على القيم المحددة. |
+| [LoadOptions](loadoptions/#constructor_2)(*string*) | اختصار لتهيئة مثيل جديد لهذه الفئة بكلمة المرور المحددة لتحميل مستند مشفر. |
+| [LoadOptions](loadoptions/#constructor_1)(*[LoadFormat](../../aspose.words/loadformat/), string, string*) | اختصار لتهيئة مثيل جديد لهذه الفئة مع تعيين الخصائص على القيم المحددة. |
 
 ## الخصائص
 
@@ -49,9 +51,9 @@ public class LoadOptions
 
 | اسم | وصف |
 | --- | --- |
-| override [Equals](../../aspose.words.loading/loadoptions/equals/)(object) |  |
+| override [Equals](../../aspose.words.loading/loadoptions/equals/)(*object*) |  |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحميل مستند Microsoft Word المشفر.
 
@@ -78,5 +80,3 @@ using (Stream stream = File.OpenRead(MyDir + "Encrypted.docx"))
 
 * مساحة الاسم [Aspose.Words.Loading](../../aspose.words.loading/)
 * المجسم [Aspose.Words](../../)
-
-

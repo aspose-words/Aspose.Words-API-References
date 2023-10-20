@@ -1,7 +1,9 @@
 ---
 title: ThemeFonts.EastAsian
-second_title: Справочник по API Aspose.Words для .NET
-description: ThemeFonts свойство. Указывает имя шрифта для символов восточноазиатского языка.
+linktitle: EastAsian
+articleTitle: EastAsian
+second_title: Aspose.Words для .NET
+description: ThemeFonts EastAsian свойство. Указывает имя шрифта для символов восточноазиатского языка на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.themes/themefonts/eastasian/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.themes/themefonts/eastasian/
 public string EastAsian { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как устанавливать собственные цвета и шрифты для тем.
 
@@ -62,7 +64,5 @@ doc.Save(ArtifactsDir + "Themes.CustomColorsAndFonts.docx");
 ### Смотрите также
 
 * class [ThemeFonts](../)
-* пространство имен [Aspose.Words.Themes](../../themefonts/)
+* пространство имен [Aspose.Words.Themes](../../../aspose.words.themes/)
 * сборка [Aspose.Words](../../../)
-
-

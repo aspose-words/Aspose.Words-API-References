@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.BehindText
-second_title: Aspose.Words لمراجع .NET API
-description: ShapeBase ملكية. يحدد ما إذا كان الشكل أسفل النص أو فوقه.
+linktitle: BehindText
+articleTitle: BehindText
+second_title: Aspose.Words لـ .NET
+description: ShapeBase BehindText ملكية. يحدد ما إذا كان الشكل أسفل النص أو فوقه في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.drawing/shapebase/behindtext/
@@ -14,13 +16,13 @@ url: /ar/net/aspose.words.drawing/shapebase/behindtext/
 public bool BehindText { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 له تأثير فقط على أشكال المستوى الأعلى.
 
 القيمة الافتراضية هي`خطأ شنيع`.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج صورة عائمة في وسط الصفحة.
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "Image.CreateFloatingPageCenter.docx");
 ### أنظر أيضا
 
 * class [ShapeBase](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../shapebase/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

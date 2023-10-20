@@ -1,12 +1,14 @@
 ---
 title: DocumentBuilder.InsertShape
-second_title: Aspose.Words for .NET API 参考
-description: DocumentBuilder 方法. 插入指定类型和大小的内联形状
+linktitle: InsertShape
+articleTitle: InsertShape
+second_title: 用于 .NET 的 Aspose.Words
+description: DocumentBuilder InsertShape 方法. 插入指定类型和大小的内联形状 在 C#.
 type: docs
-weight: 440
+weight: 430
 url: /zh/net/aspose.words/documentbuilder/insertshape/
 ---
-## InsertShape(ShapeType, double, double) {#insertshape_1}
+## InsertShape(*[ShapeType](../../../aspose.words.drawing/shapetype/), double, double*) {#insertshape_1}
 
 插入指定类型和大小的内联形状。
 
@@ -24,7 +26,7 @@ public Shape InsertShape(ShapeType shapeType, double width, double height)
 
 插入的形状节点。
 
-### 例子
+## 例子
 
 演示如何将 DML 形状插入到文档中。
 
@@ -54,12 +56,12 @@ doc.Save(ArtifactsDir + "Shape.ShapeInsertion.docx", saveOptions);
 * class [Shape](../../../aspose.words.drawing/shape/)
 * enum [ShapeType](../../../aspose.words.drawing/shapetype/)
 * class [DocumentBuilder](../)
-* 命名空间 [Aspose.Words](../../documentbuilder/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## InsertShape(ShapeType, RelativeHorizontalPosition, double, RelativeVerticalPosition, double, double, double, WrapType) {#insertshape}
+## InsertShape(*[ShapeType](../../../aspose.words.drawing/shapetype/), [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/), double, [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/), double, double, double, [WrapType](../../../aspose.words.drawing/wraptype/)*) {#insertshape}
 
 插入具有指定位置、大小和文本换行类型的自由浮动形状。
 
@@ -83,7 +85,7 @@ public Shape InsertShape(ShapeType shapeType, RelativeHorizontalPosition horzPos
 
 插入的形状节点。
 
-### 例子
+## 例子
 
 演示如何将 DML 形状插入到文档中。
 
@@ -116,7 +118,5 @@ doc.Save(ArtifactsDir + "Shape.ShapeInsertion.docx", saveOptions);
 * enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/)
 * enum [WrapType](../../../aspose.words.drawing/wraptype/)
 * class [DocumentBuilder](../)
-* 命名空间 [Aspose.Words](../../documentbuilder/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

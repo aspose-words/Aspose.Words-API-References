@@ -1,7 +1,9 @@
 ---
 title: FontSavingArgs.FontStream
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FontSavingArgs propriété. Permet de spécifier le flux dans lequel la police sera enregistrée.
+linktitle: FontStream
+articleTitle: FontStream
+second_title: Aspose.Words pour .NET
+description: FontSavingArgs FontStream propriété. Permet de spécifier le flux dans lequel la police sera enregistrée en C#.
 type: docs
 weight: 50
 url: /fr/net/aspose.words.saving/fontsavingargs/fontstream/
@@ -14,13 +16,13 @@ Permet de spécifier le flux dans lequel la police sera enregistrée.
 public Stream FontStream { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 Cette propriété vous permet d'enregistrer les polices dans des flux plutôt que dans des fichiers lors de l'exportation HTML.
 
 La valeur par défaut est`nul` . Lorsque cette propriété est`nul` , la police sera enregistrée dans un fichier spécifié dans le[`FontFileName`](../fontfilename/) propriété.
 
-### Exemples
+## Exemples
 
 Montre comment définir une logique personnalisée pour l’exportation des polices lors de l’enregistrement au format HTML.
 
@@ -80,7 +82,5 @@ public class HandleFontSaving : IFontSavingCallback
 ### Voir également
 
 * class [FontSavingArgs](../)
-* espace de noms [Aspose.Words.Saving](../../fontsavingargs/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

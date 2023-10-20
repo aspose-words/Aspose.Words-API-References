@@ -1,7 +1,9 @@
 ---
 title: VariableCollection.GetEnumerator
-second_title: Aspose.Words for .NET API 参考
-description: VariableCollection 方法. 返回一个枚举器对象可用于迭代集合中的所有变量
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: 用于 .NET 的 Aspose.Words
+description: VariableCollection GetEnumerator 方法. 返回一个枚举器对象可用于迭代集合中的所有变量 在 C#.
 type: docs
 weight: 60
 url: /zh/net/aspose.words/variablecollection/getenumerator/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/variablecollection/getenumerator/
 public IEnumerator<KeyValuePair<string, string>> GetEnumerator()
 ```
 
-### 例子
+## 例子
 
 展示如何使用文档的变量集合。
 
@@ -81,7 +83,5 @@ Assert.That(variables, Is.Empty);
 ### 也可以看看
 
 * class [VariableCollection](../)
-* 命名空间 [Aspose.Words](../../variablecollection/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

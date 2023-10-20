@@ -1,7 +1,9 @@
 ---
-title: Class FontSavingArgs
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Saving.FontSavingArgs 班级. 提供数据FontSaving事件.
+title: FontSavingArgs Class
+linktitle: FontSavingArgs
+articleTitle: FontSavingArgs
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Saving.FontSavingArgs 班级. 提供数据FontSaving事件 在 C#.
 type: docs
 weight: 5030
 url: /zh/net/aspose.words.saving/fontsavingargs/
@@ -32,7 +34,7 @@ public class FontSavingArgs
 | [OriginalFileName](../../aspose.words.saving/fontsavingargs/originalfilename/) { get; } | 获取带有扩展名的原始字体文件名。 |
 | [OriginalFileSize](../../aspose.words.saving/fontsavingargs/originalfilesize/) { get; } | 获取原始字体文件大小。 |
 
-### 评论
+## 评论
 
 当 Aspose.Words 将文档保存为 HTML 或相关格式并[`ExportFontResources`](../htmlsaveoptions/exportfontresources/) 设置为`真的`，它将每个字体主题保存为导出到单独的文件中。
 
@@ -44,7 +46,7 @@ public class FontSavingArgs
 
 要将字体保存到流而不是文件中，请使用[`FontStream`](./fontstream/)财产。
 
-### 例子
+## 例子
 
 演示如何定义保存为 HTML 时导出字体的自定义逻辑。
 
@@ -105,5 +107,3 @@ public class HandleFontSaving : IFontSavingCallback
 
 * 命名空间 [Aspose.Words.Saving](../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../)
-
-

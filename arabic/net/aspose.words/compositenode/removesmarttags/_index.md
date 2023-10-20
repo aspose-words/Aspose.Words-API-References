@@ -1,9 +1,11 @@
 ---
 title: CompositeNode.RemoveSmartTags
-second_title: Aspose.Words لمراجع .NET API
-description: CompositeNode طريقة. يزيل الكلSmartTagالعقد التابعة للعقدة الحالية.
+linktitle: RemoveSmartTags
+articleTitle: RemoveSmartTags
+second_title: Aspose.Words لـ .NET
+description: CompositeNode RemoveSmartTags طريقة. يزيل الكلSmartTagالعقد التابعة للعقدة الحالية في C#.
 type: docs
-weight: 200
+weight: 180
 url: /ar/net/aspose.words/compositenode/removesmarttags/
 ---
 ## CompositeNode.RemoveSmartTags method
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words/compositenode/removesmarttags/
 public void RemoveSmartTags()
 ```
 
-### ملاحظات
+## ملاحظات
 
 لا تؤدي هذه الطريقة إلى إزالة محتوى العلامات الذكية.
 
-### أمثلة
+## أمثلة
 
 إزالة جميع العلامات الذكية من العقد التابعة للعقدة المركبة.
 
@@ -131,7 +133,5 @@ private class SmartTagPrinter : DocumentVisitor
 ### أنظر أيضا
 
 * class [CompositeNode](../)
-* مساحة الاسم [Aspose.Words](../../compositenode/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: CellFormat.BottomPadding
-second_title: Справочник по API Aspose.Words для .NET
-description: CellFormat свойство. Возвращает или задает количество места в пунктах которое нужно добавить под содержимым ячейки.
+linktitle: BottomPadding
+articleTitle: BottomPadding
+second_title: Aspose.Words для .NET
+description: CellFormat BottomPadding свойство. Возвращает или задает количество места в пунктах которое нужно добавить под содержимым ячейки на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.tables/cellformat/bottompadding/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.tables/cellformat/bottompadding/
 public double BottomPadding { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как форматировать ячейки с помощью построителя документов.
 
@@ -61,7 +63,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.SetCellFormatting.docx");
 ### Смотрите также
 
 * class [CellFormat](../)
-* пространство имен [Aspose.Words.Tables](../../cellformat/)
+* пространство имен [Aspose.Words.Tables](../../../aspose.words.tables/)
 * сборка [Aspose.Words](../../../)
-
-

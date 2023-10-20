@@ -1,12 +1,14 @@
 ---
-title: MemoryFontSource.MemoryFontSource
-second_title: Aspose.Words لمراجع .NET API
-description: MemoryFontSource البناء. الممثل.
+title: MemoryFontSource
+linktitle: MemoryFontSource
+articleTitle: MemoryFontSource
+second_title: Aspose.Words لـ .NET
+description: MemoryFontSource البناء. الممثل في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fonts/memoryfontsource/memoryfontsource/
 ---
-## MemoryFontSource(byte[]) {#constructor}
+## MemoryFontSource(*byte[]*) {#constructor}
 
 الممثل.
 
@@ -18,7 +20,7 @@ public MemoryFontSource(byte[] fontData)
 | --- | --- | --- |
 | fontData | Byte[] | بيانات الخط الثنائي. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام مصفوفة بايت مع البيانات من ملف خط كمصدر خط.
 
@@ -37,12 +39,12 @@ Assert.AreEqual(0, memoryFontSource.Priority);
 ### أنظر أيضا
 
 * class [MemoryFontSource](../)
-* مساحة الاسم [Aspose.Words.Fonts](../../memoryfontsource/)
+* مساحة الاسم [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## MemoryFontSource(byte[], int) {#constructor_1}
+## MemoryFontSource(*byte[], int*) {#constructor_1}
 
 الممثل.
 
@@ -55,7 +57,7 @@ public MemoryFontSource(byte[] fontData, int priority)
 | fontData | Byte[] | بيانات الخط الثنائي. |
 | priority | Int32 | أولوية مصدر الخط. انظر[`Priority`](../../fontsourcebase/priority/) وصف العقار لمزيد من المعلومات. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام مصفوفة بايت مع البيانات من ملف خط كمصدر خط.
 
@@ -74,12 +76,12 @@ Assert.AreEqual(0, memoryFontSource.Priority);
 ### أنظر أيضا
 
 * class [MemoryFontSource](../)
-* مساحة الاسم [Aspose.Words.Fonts](../../memoryfontsource/)
+* مساحة الاسم [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## MemoryFontSource(byte[], int, string) {#constructor_2}
+## MemoryFontSource(*byte[], int, string*) {#constructor_2}
 
 الممثل.
 
@@ -93,7 +95,7 @@ public MemoryFontSource(byte[] fontData, int priority, string cacheKey)
 | priority | Int32 | أولوية مصدر الخط. انظر[`Priority`](../../fontsourcebase/priority/) وصف العقار لمزيد من المعلومات. |
 | cacheKey | String | مفتاح هذا المصدر في ذاكرة التخزين المؤقت. يرى[`CacheKey`](../cachekey/) وصف العقار لمزيد من المعلومات. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تسريع عملية تهيئة ذاكرة التخزين المؤقت للخط.
 
@@ -144,7 +146,5 @@ private class SearchCacheStream : StreamFontSource
 ### أنظر أيضا
 
 * class [MemoryFontSource](../)
-* مساحة الاسم [Aspose.Words.Fonts](../../memoryfontsource/)
+* مساحة الاسم [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * المجسم [Aspose.Words](../../../)
-
-

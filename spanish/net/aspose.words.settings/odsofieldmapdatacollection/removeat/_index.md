@@ -1,7 +1,9 @@
 ---
 title: OdsoFieldMapDataCollection.RemoveAt
-second_title: Referencia de API de Aspose.Words para .NET
-description: OdsoFieldMapDataCollection método. Elimina el elemento en el índice especificado.
+linktitle: RemoveAt
+articleTitle: RemoveAt
+second_title: Aspose.Words para .NET
+description: OdsoFieldMapDataCollection RemoveAt método. Elimina el elemento en el índice especificado en C#.
 type: docs
 weight: 70
 url: /es/net/aspose.words.settings/odsofieldmapdatacollection/removeat/
@@ -18,7 +20,7 @@ public void RemoveAt(int index)
 | --- | --- | --- |
 | index | Int32 | El índice de base cero del elemento. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo acceder a la colección de datos que asigna columnas de origen de datos para fusionar campos.
 
@@ -61,7 +63,5 @@ Assert.AreEqual(0, dataCollection.Count);
 ### Ver también
 
 * class [OdsoFieldMapDataCollection](../)
-* espacio de nombres [Aspose.Words.Settings](../../odsofieldmapdatacollection/)
+* espacio de nombres [Aspose.Words.Settings](../../../aspose.words.settings/)
 * asamblea [Aspose.Words](../../../)
-
-

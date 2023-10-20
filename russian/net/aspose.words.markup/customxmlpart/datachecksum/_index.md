@@ -1,7 +1,9 @@
 ---
 title: CustomXmlPart.DataChecksum
-second_title: Справочник по API Aspose.Words для .NET
-description: CustomXmlPart свойство. Указывает контрольную сумму циклического избыточного кода CRCData контент.
+linktitle: DataChecksum
+articleTitle: DataChecksum
+second_title: Aspose.Words для .NET
+description: CustomXmlPart DataChecksum свойство. Указывает контрольную сумму циклического избыточного кода CRCData контент на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.markup/customxmlpart/datachecksum/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.markup/customxmlpart/datachecksum/
 public long DataChecksum { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как контрольная сумма рассчитывается во время выполнения.
 
@@ -44,7 +46,5 @@ Assert.AreNotEqual(checksum, updatedChecksum);
 ### Смотрите также
 
 * class [CustomXmlPart](../)
-* пространство имен [Aspose.Words.Markup](../../customxmlpart/)
+* пространство имен [Aspose.Words.Markup](../../../aspose.words.markup/)
 * сборка [Aspose.Words](../../../)
-
-

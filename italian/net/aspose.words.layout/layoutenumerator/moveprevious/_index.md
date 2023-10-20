@@ -1,7 +1,9 @@
 ---
 title: LayoutEnumerator.MovePrevious
-second_title: Aspose.Words per .NET API Reference
-description: LayoutEnumerator metodo. Passa allentità gemella precedente.
+linktitle: MovePrevious
+articleTitle: MovePrevious
+second_title: Aspose.Words per .NET
+description: LayoutEnumerator MovePrevious metodo. Passa allentità gemella precedente in C#.
 type: docs
 weight: 150
 url: /it/net/aspose.words.layout/layoutenumerator/moveprevious/
@@ -14,7 +16,7 @@ Passa all'entità gemella precedente.
 public bool MovePrevious()
 ```
 
-### Esempi
+## Esempi
 
 Mostra le modalità per attraversare le entità di layout di un documento.
 
@@ -159,7 +161,5 @@ private static void PrintCurrentEntity(LayoutEnumerator layoutEnumerator, int in
 ### Guarda anche
 
 * class [LayoutEnumerator](../)
-* spazio dei nomi [Aspose.Words.Layout](../../layoutenumerator/)
+* spazio dei nomi [Aspose.Words.Layout](../../../aspose.words.layout/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: OutlineOptions.BookmarksOutlineLevels
-second_title: Aspose.Words für .NET-API-Referenz
-description: OutlineOptions eigendom. Ermöglicht die Angabe der Gliederungsebene einzelner Lesezeichen.
+linktitle: BookmarksOutlineLevels
+articleTitle: BookmarksOutlineLevels
+second_title: Aspose.Words für .NET
+description: OutlineOptions BookmarksOutlineLevels eigendom. Ermöglicht die Angabe der Gliederungsebene einzelner Lesezeichen in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.saving/outlineoptions/bookmarksoutlinelevels/
@@ -14,11 +16,11 @@ Ermöglicht die Angabe der Gliederungsebene einzelner Lesezeichen.
 public BookmarksOutlineLevelCollection BookmarksOutlineLevels { get; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Wenn in dieser Sammlung keine Lesezeichenebene angegeben ist, dann[`DefaultBookmarksOutlineLevel`](../defaultbookmarksoutlinelevel/) Wert verwendet wird.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Gliederungsebenen für Lesezeichen festgelegt werden.
 
@@ -77,7 +79,5 @@ outlineLevels.Clear();
 
 * class [BookmarksOutlineLevelCollection](../../bookmarksoutlinelevelcollection/)
 * class [OutlineOptions](../)
-* namensraum [Aspose.Words.Saving](../../outlineoptions/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

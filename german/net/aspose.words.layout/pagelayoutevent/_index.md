@@ -1,7 +1,9 @@
 ---
-title: Enum PageLayoutEvent
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Layout.PageLayoutEvent opsomming. Ein Ereigniscode der während der Erstellung und Darstellung des Seitenlayoutmodells ausgelöst wird.
+title: PageLayoutEvent Enum
+linktitle: PageLayoutEvent
+articleTitle: PageLayoutEvent
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Layout.PageLayoutEvent opsomming. Ein Ereigniscode der während der Erstellung und Darstellung des Seitenlayoutmodells ausgelöst wird in C#.
 type: docs
 weight: 3370
 url: /de/net/aspose.words.layout/pagelayoutevent/
@@ -35,7 +37,7 @@ public enum PageLayoutEvent
 | PartRenderingStarted | `10` | Das Rendern der Seite wurde gestartet. Dies wird einmal pro Seite ausgelöst. |
 | PartRenderingFinished | `11` | Das Rendern der Seite ist abgeschlossen. Dies wird einmal pro Seite ausgelöst. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Layoutänderungen mit einem Layout-Callback verfolgt werden.
 
@@ -102,5 +104,3 @@ private class RenderPageLayoutCallback : IPageLayoutCallback
 
 * namensraum [Aspose.Words.Layout](../../aspose.words.layout/)
 * Montage [Aspose.Words](../../)
-
-

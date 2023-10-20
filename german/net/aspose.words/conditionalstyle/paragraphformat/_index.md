@@ -1,7 +1,9 @@
 ---
 title: ConditionalStyle.ParagraphFormat
-second_title: Aspose.Words für .NET-API-Referenz
-description: ConditionalStyle eigendom. Ruft die Absatzformatierung des bedingten Stils ab.
+linktitle: ParagraphFormat
+articleTitle: ParagraphFormat
+second_title: Aspose.Words für .NET
+description: ConditionalStyle ParagraphFormat eigendom. Ruft die Absatzformatierung des bedingten Stils ab in C#.
 type: docs
 weight: 50
 url: /de/net/aspose.words/conditionalstyle/paragraphformat/
@@ -14,7 +16,7 @@ Ruft die Absatzformatierung des bedingten Stils ab.
 public ParagraphFormat ParagraphFormat { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit bestimmten Bereichsstilen einer Tabelle gearbeitet wird.
 
@@ -85,7 +87,5 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 
 * class [ParagraphFormat](../../paragraphformat/)
 * class [ConditionalStyle](../)
-* namensraum [Aspose.Words](../../conditionalstyle/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

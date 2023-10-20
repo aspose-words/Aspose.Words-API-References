@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.EmbedAttachments
-second_title: Référence de l'API Aspose.Words pour .NET
-description: PdfSaveOptions propriété. Obtient ou définit une valeur déterminant sil faut ou non intégrer les pièces jointes au document PDF.
+linktitle: EmbedAttachments
+articleTitle: EmbedAttachments
+second_title: Aspose.Words pour .NET
+description: PdfSaveOptions EmbedAttachments propriété. Obtient ou définit une valeur déterminant sil faut ou non intégrer les pièces jointes au document PDF en C#.
 type: docs
 weight: 110
 url: /fr/net/aspose.words.saving/pdfsaveoptions/embedattachments/
@@ -14,7 +16,7 @@ Obtient ou définit une valeur déterminant s'il faut ou non intégrer les pièc
 public bool EmbedAttachments { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 La valeur par défaut est`FAUX`et les pièces jointes ne sont pas intégrées.
 
@@ -24,7 +26,7 @@ L'intégration de pièces jointes n'est pas prise en charge lors de l'enregistre
 
 L'intégration de pièces jointes n'est pas prise en charge lorsque le cryptage est activé.`FAUX` value sera utilisé automatiquement.
 
-### Exemples
+## Exemples
 
 Montre comment ajouter des pièces jointes intégrées au document PDF.
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.PdfEmbedAttachments.pdf", options);
 ### Voir également
 
 * class [PdfSaveOptions](../)
-* espace de noms [Aspose.Words.Saving](../../pdfsaveoptions/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

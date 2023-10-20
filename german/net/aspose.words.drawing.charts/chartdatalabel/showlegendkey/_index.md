@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabel.ShowLegendKey
-second_title: Aspose.Words für .NET-API-Referenz
-description: ChartDataLabel eigendom. Ermöglicht die Angabe ob der Legendenschlüssel für die Datenbeschriftungen in einem Diagramm angezeigt werden soll. Der Standardwert istFALSCH .
+linktitle: ShowLegendKey
+articleTitle: ShowLegendKey
+second_title: Aspose.Words für .NET
+description: ChartDataLabel ShowLegendKey eigendom. Ermöglicht die Angabe ob der Legendenschlüssel für die Datenbeschriftungen in einem Diagramm angezeigt werden soll. Der Standardwert istFALSCH  in C#.
 type: docs
 weight: 120
 url: /de/net/aspose.words.drawing.charts/chartdatalabel/showlegendkey/
@@ -14,7 +16,7 @@ Ermöglicht die Angabe, ob der Legendenschlüssel für die Datenbeschriftungen i
 public bool ShowLegendKey { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Beschriftungen auf Datenpunkte in einem Liniendiagramm angewendet werden.
 
@@ -92,7 +94,5 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
 ### Siehe auch
 
 * class [ChartDataLabel](../)
-* namensraum [Aspose.Words.Drawing.Charts](../../chartdatalabel/)
+* namensraum [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../../)
-
-

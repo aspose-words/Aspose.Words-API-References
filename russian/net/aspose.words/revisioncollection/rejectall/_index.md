@@ -1,7 +1,9 @@
 ---
 title: RevisionCollection.RejectAll
-second_title: Справочник по API Aspose.Words для .NET
-description: RevisionCollection метод. Отклоняет все изменения в этой коллекции.
+linktitle: RejectAll
+articleTitle: RejectAll
+second_title: Aspose.Words для .NET
+description: RevisionCollection RejectAll метод. Отклоняет все изменения в этой коллекции на С#.
 type: docs
 weight: 60
 url: /ru/net/aspose.words/revisioncollection/rejectall/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/revisioncollection/rejectall/
 public void RejectAll()
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как работать с коллекцией редакций документа.
 
@@ -70,7 +72,5 @@ Assert.AreEqual(0, revisions.Count);
 ### Смотрите также
 
 * class [RevisionCollection](../)
-* пространство имен [Aspose.Words](../../revisioncollection/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

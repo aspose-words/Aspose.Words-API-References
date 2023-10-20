@@ -1,7 +1,9 @@
 ---
-title: Enum StyleIdentifier
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.StyleIdentifier 枚举. 独立于语言环境的样式标识符
+title: StyleIdentifier Enum
+linktitle: StyleIdentifier
+articleTitle: StyleIdentifier
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.StyleIdentifier 枚举. 独立于语言环境的样式标识符 在 C#.
 type: docs
 weight: 6150
 url: /zh/net/aspose.words/styleidentifier/
@@ -397,13 +399,13 @@ public enum StyleIdentifier
 | User | `4094` | 用户定义的样式。 |
 | Nil | `12287` | 保留供内部使用。 |
 
-### 评论
+## 评论
 
 MS Word 中内置样式的名称针对不同语言进行了本地化。 使用样式标识符，无论文档语言如何，您都可以找到正确的样式。
 
 所有用户定义的样式都被分配User价值。
 
-### 例子
+## 例子
 
 演示如何更改现有文本的样式。
 
@@ -438,5 +440,3 @@ doc.Save(ArtifactsDir + "Font.ChangeStyle.docx");
 
 * 命名空间 [Aspose.Words](../../aspose.words/)
 * 部件 [Aspose.Words](../../)
-
-

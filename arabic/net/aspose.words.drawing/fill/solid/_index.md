@@ -1,9 +1,11 @@
 ---
 title: Fill.Solid
-second_title: Aspose.Words لمراجع .NET API
-description: Fill طريقة. يضبط التعبئة على لون موحد.
+linktitle: Solid
+articleTitle: Solid
+second_title: Aspose.Words لـ .NET
+description: Fill Solid طريقة. يضبط التعبئة على لون موحد في C#.
 type: docs
-weight: 260
+weight: 250
 url: /ar/net/aspose.words.drawing/fill/solid/
 ---
 ## Solid() {#solid}
@@ -14,19 +16,19 @@ url: /ar/net/aspose.words.drawing/fill/solid/
 public void Solid()
 ```
 
-### ملاحظات
+## ملاحظات
 
 استخدم هذه الطريقة لتحويل أي من عمليات التعبئة مرة أخرى إلى تعبئة صلبة.
 
 ### أنظر أيضا
 
 * class [Fill](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../fill/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## Solid(Color) {#solid_1}
+## Solid(*Color*) {#solid_1}
 
 يضبط التعبئة على لون موحد محدد.
 
@@ -34,11 +36,11 @@ public void Solid()
 public void Solid(Color color)
 ```
 
-### ملاحظات
+## ملاحظات
 
 استخدم هذه الطريقة لتحويل أي من عمليات التعبئة مرة أخرى إلى تعبئة صلبة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحويل أي من عمليات التعبئة مرة أخرى إلى تعبئة صلبة.
 
@@ -66,7 +68,5 @@ doc.Save(ArtifactsDir + "Drawing.FillSolid.docx");
 ### أنظر أيضا
 
 * class [Fill](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../fill/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,12 +1,14 @@
 ---
 title: Border.Equals
-second_title: Aspose.Words for .NET API 参考
-description: Border 方法. 确定指定边框的值是否等于当前边框
+linktitle: Equals
+articleTitle: Equals
+second_title: 用于 .NET 的 Aspose.Words
+description: Border Equals 方法. 确定指定边框的值是否等于当前边框 在 C#.
 type: docs
 weight: 100
 url: /zh/net/aspose.words/border/equals/
 ---
-## Equals(Border) {#equals}
+## Equals(*[Border](../)*) {#equals}
 
 确定指定边框的值是否等于当前边框。
 
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/border/equals/
 public bool Equals(Border rhs)
 ```
 
-### 例子
+## 例子
 
 展示边框集合如何共享元素。
 
@@ -56,12 +58,12 @@ doc.Save(ArtifactsDir + "Border.SharedElements.docx");
 ### 也可以看看
 
 * class [Border](../)
-* 命名空间 [Aspose.Words](../../border/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## Equals(object) {#equals_1}
+## Equals(*object*) {#equals_1}
 
 确定指定对象的值是否等于当前对象。
 
@@ -69,7 +71,7 @@ doc.Save(ArtifactsDir + "Border.SharedElements.docx");
 public override bool Equals(object obj)
 ```
 
-### 例子
+## 例子
 
 展示边框集合如何共享元素。
 
@@ -111,7 +113,5 @@ doc.Save(ArtifactsDir + "Border.SharedElements.docx");
 ### 也可以看看
 
 * class [Border](../)
-* 命名空间 [Aspose.Words](../../border/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

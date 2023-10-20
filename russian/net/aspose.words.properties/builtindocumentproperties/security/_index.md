@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.Security
-second_title: Справочник по API Aspose.Words для .NET
-description: BuiltInDocumentProperties свойство. Указывает уровень безопасности документа в виде числового значения.
+linktitle: Security
+articleTitle: Security
+second_title: Aspose.Words для .NET
+description: BuiltInDocumentProperties Security свойство. Указывает уровень безопасности документа в виде числового значения на С#.
 type: docs
 weight: 250
 url: /ru/net/aspose.words.properties/builtindocumentproperties/security/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.properties/builtindocumentproperties/security/
 public DocumentSecurity Security { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Используйте это свойство только в информационных целях, поскольку Microsoft Word не всегда устанавливает это свойство. Это свойство доступно только в документах DOC и OOXML.
 
@@ -22,7 +24,7 @@ public DocumentSecurity Security { get; set; }
 
 Aspose.Words обновляет это свойство до правильного значения перед сохранением документа.
 
-### Примеры
+## Примеры
 
 Показывает, как использовать свойства документа для отображения уровня безопасности документа.
 
@@ -68,7 +70,5 @@ Assert.AreEqual(DocumentSecurity.ReadOnlyExceptAnnotations,
 
 * enum [DocumentSecurity](../../documentsecurity/)
 * class [BuiltInDocumentProperties](../)
-* пространство имен [Aspose.Words.Properties](../../builtindocumentproperties/)
+* пространство имен [Aspose.Words.Properties](../../../aspose.words.properties/)
 * сборка [Aspose.Words](../../../)
-
-

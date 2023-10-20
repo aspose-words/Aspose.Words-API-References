@@ -1,7 +1,9 @@
 ---
 title: FileFormatInfo.Encoding
-second_title: Aspose.Words for .NET API 参考
-description: FileFormatInfo 财产. 获取检测到的编码如果适用于当前文档格式 目前仅检测 HTML 文档的编码
+linktitle: Encoding
+articleTitle: Encoding
+second_title: 用于 .NET 的 Aspose.Words
+description: FileFormatInfo Encoding 财产. 获取检测到的编码如果适用于当前文档格式 目前仅检测 HTML 文档的编码 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words/fileformatinfo/encoding/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/fileformatinfo/encoding/
 public Encoding Encoding { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何检测 html 文件中的编码。
 
@@ -31,7 +33,5 @@ Assert.AreEqual(1252, info.Encoding.CodePage);
 ### 也可以看看
 
 * class [FileFormatInfo](../)
-* 命名空间 [Aspose.Words](../../fileformatinfo/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

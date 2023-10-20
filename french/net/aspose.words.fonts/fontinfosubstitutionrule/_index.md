@@ -1,7 +1,9 @@
 ---
-title: Class FontInfoSubstitutionRule
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Fonts.FontInfoSubstitutionRule classe. Règle de substitution des informations de police.
+title: FontInfoSubstitutionRule Class
+linktitle: FontInfoSubstitutionRule
+articleTitle: FontInfoSubstitutionRule
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Fonts.FontInfoSubstitutionRule classe. Règle de substitution des informations de police en C#.
 type: docs
 weight: 2940
 url: /fr/net/aspose.words.fonts/fontinfosubstitutionrule/
@@ -22,11 +24,11 @@ public class FontInfoSubstitutionRule : FontSubstitutionRule
 | --- | --- |
 | virtual [Enabled](../../aspose.words.fonts/fontsubstitutionrule/enabled/) { get; set; } | Spécifie si la règle est activée ou non. |
 
-### Remarques
+## Remarques
 
 Selon cette règle, Aspose.Words évalue tous les champs associés dans[`FontInfo`](../fontinfo/) (Panose, Sig, etc.) for la police manquante et trouve la correspondance la plus proche parmi les sources de polices disponibles. Si[`FontInfo`](../fontinfo/)n'est pas disponible pour la police manquante alors rien ne sera fait.
 
-### Exemples
+## Exemples
 
 Montre comment définir la propriété permettant de trouver la correspondance la plus proche pour une police manquante à partir des sources de polices disponibles.
 
@@ -88,5 +90,3 @@ public class HandleDocumentSubstitutionWarnings : IWarningCallback
 * class [FontSubstitutionRule](../fontsubstitutionrule/)
 * espace de noms [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * Assemblée [Aspose.Words](../../)
-
-

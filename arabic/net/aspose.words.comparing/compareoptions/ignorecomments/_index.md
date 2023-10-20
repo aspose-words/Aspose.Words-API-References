@@ -1,7 +1,9 @@
 ---
 title: CompareOptions.IgnoreComments
-second_title: Aspose.Words لمراجع .NET API
-description: CompareOptions ملكية. يحدد ما إذا كان سيتم مقارنة الاختلافات في التعليقات أم لا. بشكل افتراضي لا يتم تجاهل التعليقات.
+linktitle: IgnoreComments
+articleTitle: IgnoreComments
+second_title: Aspose.Words لـ .NET
+description: CompareOptions IgnoreComments ملكية. يحدد ما إذا كان سيتم مقارنة الاختلافات في التعليقات أم لا. بشكل افتراضي لا يتم تجاهل التعليقات في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.comparing/compareoptions/ignorecomments/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.comparing/compareoptions/ignorecomments/
 public bool IgnoreComments { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تصفية أنواع معينة من عناصر المستند عند إجراء المقارنة.
 
@@ -88,7 +90,5 @@ docOriginal.Save(ArtifactsDir + "Document.CompareOptions.docx");
 ### أنظر أيضا
 
 * class [CompareOptions](../)
-* مساحة الاسم [Aspose.Words.Comparing](../../compareoptions/)
+* مساحة الاسم [Aspose.Words.Comparing](../../../aspose.words.comparing/)
 * المجسم [Aspose.Words](../../../)
-
-

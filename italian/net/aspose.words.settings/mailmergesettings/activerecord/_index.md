@@ -1,7 +1,9 @@
 ---
 title: MailMergeSettings.ActiveRecord
-second_title: Aspose.Words per .NET API Reference
-description: MailMergeSettings proprietà. Specifica lindice in base uno del record dallorigine dati che verrà visualizzato in Microsoft Word. Il valore predefinito è 1.
+linktitle: ActiveRecord
+articleTitle: ActiveRecord
+second_title: Aspose.Words per .NET
+description: MailMergeSettings ActiveRecord proprietà. Specifica lindice in base uno del record dallorigine dati che verrà visualizzato in Microsoft Word. Il valore predefinito è 1 in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words.settings/mailmergesettings/activerecord/
@@ -14,7 +16,7 @@ Specifica l'indice in base uno del record dall'origine dati che verrà visualizz
 public int ActiveRecord { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come eseguire una stampa unione durante la connessione a un'origine dati esterna.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "MailMerge.OdsoEmail.docx");
 ### Guarda anche
 
 * class [MailMergeSettings](../)
-* spazio dei nomi [Aspose.Words.Settings](../../mailmergesettings/)
+* spazio dei nomi [Aspose.Words.Settings](../../../aspose.words.settings/)
 * assemblea [Aspose.Words](../../../)
-
-

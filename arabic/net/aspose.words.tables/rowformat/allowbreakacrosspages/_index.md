@@ -1,7 +1,9 @@
 ---
 title: RowFormat.AllowBreakAcrossPages
-second_title: Aspose.Words لمراجع .NET API
-description: RowFormat ملكية. صحيح إذا تم السماح للنص الموجود في صف الجدول بالانقسام عبر فاصل الصفحات.
+linktitle: AllowBreakAcrossPages
+articleTitle: AllowBreakAcrossPages
+second_title: Aspose.Words لـ .NET
+description: RowFormat AllowBreakAcrossPages ملكية. صحيح إذا تم السماح للنص الموجود في صف الجدول بالانقسام عبر فاصل الصفحات في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.tables/rowformat/allowbreakacrosspages/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.tables/rowformat/allowbreakacrosspages/
 public bool AllowBreakAcrossPages { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعطيل تقسيم الصفوف عبر الصفحات لكل صف في الجدول.
 
@@ -35,7 +37,5 @@ doc.Save(ArtifactsDir + "Table.AllowBreakAcrossPages.docx");
 ### أنظر أيضا
 
 * class [RowFormat](../)
-* مساحة الاسم [Aspose.Words.Tables](../../rowformat/)
+* مساحة الاسم [Aspose.Words.Tables](../../../aspose.words.tables/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum FieldUpdateCultureSource
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Fields.FieldUpdateCultureSource uppräkning. Indikerar vilken kultur som ska användas under fältuppdatering.
+title: FieldUpdateCultureSource Enum
+linktitle: FieldUpdateCultureSource
+articleTitle: FieldUpdateCultureSource
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Fields.FieldUpdateCultureSource uppräkning. Indikerar vilken kultur som ska användas under fältuppdatering i C#.
 type: docs
 weight: 2560
 url: /sv/net/aspose.words.fields/fieldupdateculturesource/
@@ -21,7 +23,7 @@ public enum FieldUpdateCultureSource
 | CurrentThread | `0` | Kulturen för den aktuella körningstråden används för att uppdatera fält. |
 | FieldCode | `1` | Kulturen som anges i fältformateringsegenskaperna via språkinställning används. |
 
-### Exempel
+## Exempel
 
 Visar hur man anger källan till kulturen som används för datumformatering under en fältuppdatering eller e-postsammanfogning.
 
@@ -57,5 +59,3 @@ Thread.CurrentThread.CurrentCulture = currentCulture;
 
 * namnutrymme [Aspose.Words.Fields](../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../)
-
-

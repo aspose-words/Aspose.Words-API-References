@@ -1,7 +1,9 @@
 ---
-title: Enum ResourceLoadingAction
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Loading.ResourceLoadingAction enumeración. Especifica el modo de carga de recursos.
+title: ResourceLoadingAction Enum
+linktitle: ResourceLoadingAction
+articleTitle: ResourceLoadingAction
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Loading.ResourceLoadingAction enumeración. Especifica el modo de carga de recursos en C#.
 type: docs
 weight: 3680
 url: /es/net/aspose.words.loading/resourceloadingaction/
@@ -24,7 +26,7 @@ public enum ResourceLoadingAction
 | Skip | `1` | Aspose.Words omitirá la carga de este recurso. Solo se almacenará el enlace sin datos para una imagen, la hoja de estilo CSS se ignorará para el formato HTML. |
 | UserProvided | `2` | Aspose.Words utilizará una matriz de bytes proporcionada por el usuario en[`SetData`](../resourceloadingargs/setdata/) como datos de recursos. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo personalizar el proceso de carga de recursos externos en un documento.
 
@@ -88,5 +90,3 @@ private class ImageNameHandler : IResourceLoadingCallback
 
 * espacio de nombres [Aspose.Words.Loading](../../aspose.words.loading/)
 * asamblea [Aspose.Words](../../)
-
-

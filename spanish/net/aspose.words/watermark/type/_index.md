@@ -1,7 +1,9 @@
 ---
 title: Watermark.Type
-second_title: Referencia de API de Aspose.Words para .NET
-description: Watermark propiedad. Obtiene el tipo de marca de agua.
+linktitle: Type
+articleTitle: Type
+second_title: Aspose.Words para .NET
+description: Watermark Type propiedad. Obtiene el tipo de marca de agua en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words/watermark/type/
@@ -18,7 +20,5 @@ public WatermarkType Type { get; }
 
 * enum [WatermarkType](../../watermarktype/)
 * class [Watermark](../)
-* espacio de nombres [Aspose.Words](../../watermark/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

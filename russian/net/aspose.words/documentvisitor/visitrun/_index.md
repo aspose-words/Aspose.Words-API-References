@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitRun
-second_title: Справочник по API Aspose.Words для .NET
-description: DocumentVisitor метод. Вызывается когда встречается текст в.
+linktitle: VisitRun
+articleTitle: VisitRun
+second_title: Aspose.Words для .NET
+description: DocumentVisitor VisitRun метод. Вызывается когда встречается текст в на С#.
 type: docs
 weight: 360
 url: /ru/net/aspose.words/documentvisitor/visitrun/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitRun(Run run)
 
 А[`VisitorAction`](../../visitoraction/) значение, указывающее, как продолжить перечисление.
 
-### Примеры
+## Примеры
 
 Показывает, как использовать посетитель документа для печати структуры узла документа.
 
@@ -193,7 +195,5 @@ public class DocStructurePrinter : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [Run](../../run/)
 * class [DocumentVisitor](../)
-* пространство имен [Aspose.Words](../../documentvisitor/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

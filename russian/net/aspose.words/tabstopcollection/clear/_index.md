@@ -1,7 +1,9 @@
 ---
 title: TabStopCollection.Clear
-second_title: Справочник по API Aspose.Words для .NET
-description: TabStopCollection метод. Удаляет все позиции табуляции.
+linktitle: Clear
+articleTitle: Clear
+second_title: Aspose.Words для .NET
+description: TabStopCollection Clear метод. Удаляет все позиции табуляции на С#.
 type: docs
 weight: 60
 url: /ru/net/aspose.words/tabstopcollection/clear/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/tabstopcollection/clear/
 public void Clear()
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как работать с коллекцией табуляции документа.
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "TabStopCollection.TabStopCollection.docx");
 ### Смотрите также
 
 * class [TabStopCollection](../)
-* пространство имен [Aspose.Words](../../tabstopcollection/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

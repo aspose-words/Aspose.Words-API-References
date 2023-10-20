@@ -1,7 +1,9 @@
 ---
-title: Class DownsampleOptions
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Saving.DownsampleOptions classe. Permet de spécifier les options de souséchantillonnage.
+title: DownsampleOptions Class
+linktitle: DownsampleOptions
+articleTitle: DownsampleOptions
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Saving.DownsampleOptions classe. Permet de spécifier les options de souséchantillonnage en C#.
 type: docs
 weight: 4970
 url: /fr/net/aspose.words.saving/downsampleoptions/
@@ -30,7 +32,7 @@ public class DownsampleOptions
 | [Resolution](../../aspose.words.saving/downsampleoptions/resolution/) { get; set; } | Spécifie la résolution en pixels par pouce à laquelle les images doivent être sous-échantillonnées. |
 | [ResolutionThreshold](../../aspose.words.saving/downsampleoptions/resolutionthreshold/) { get; set; } | Spécifie la résolution du seuil en pixels par pouce. Si la résolution d'une image dans le document est inférieure à la valeur seuil, l'algorithme de sous-échantillonnage ne sera pas appliqué. Une valeur de 0 signifie que la vérification du seuil n'est pas utilisée et que toutes les images qui peuvent être réduits en taille sont sous-échantillonnés. |
 
-### Exemples
+## Exemples
 
 Montre comment modifier la résolution des images dans le document PDF.
 
@@ -63,5 +65,3 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.DownsampleOptions.LowerResolution.pdf", 
 
 * espace de noms [Aspose.Words.Saving](../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../)
-
-

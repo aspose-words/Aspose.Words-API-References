@@ -1,7 +1,9 @@
 ---
 title: ImageWatermarkOptions.Scale
-second_title: Aspose.Words لمراجع .NET API
-description: ImageWatermarkOptions ملكية. الحصول على أو تعيين عامل القياس المعبر عنه بجزء صغير من الصورة. القيمة الافتراضية هي 0  auto.
+linktitle: Scale
+articleTitle: Scale
+second_title: Aspose.Words لـ .NET
+description: ImageWatermarkOptions Scale ملكية. الحصول على أو تعيين عامل القياس المعبر عنه بجزء صغير من الصورة. القيمة الافتراضية هي 0  auto في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words/imagewatermarkoptions/scale/
@@ -20,13 +22,13 @@ public double Scale { get; set; }
 | --- | --- |
 | ArgumentOutOfRangeException | يتم طرحه عندما تكون الوسيطة خارج نطاق القيم الصالحة. |
 
-### ملاحظات
+## ملاحظات
 
 تتراوح القيم الصالحة من 0 إلى 65.5 ضمناً.
 
 يعني المقياس التلقائي أنه سيتم تغيير حجم العلامة المائية إلى الحد الأقصى للعرض والحد الأقصى للارتفاع بالنسبة إلى هوامش الصفحة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء علامة مائية من صورة في نظام الملفات المحلي.
 
@@ -54,7 +56,5 @@ Document doc = new Document();
 ### أنظر أيضا
 
 * class [ImageWatermarkOptions](../)
-* مساحة الاسم [Aspose.Words](../../imagewatermarkoptions/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

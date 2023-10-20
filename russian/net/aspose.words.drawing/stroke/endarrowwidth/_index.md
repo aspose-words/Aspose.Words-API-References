@@ -1,9 +1,11 @@
 ---
 title: Stroke.EndArrowWidth
-second_title: Справочник по API Aspose.Words для .NET
-description: Stroke свойство. Определяет ширину стрелки в конце обводки.
+linktitle: EndArrowWidth
+articleTitle: EndArrowWidth
+second_title: Aspose.Words для .NET
+description: Stroke EndArrowWidth свойство. Определяет ширину стрелки в конце обводки на С#.
 type: docs
-weight: 80
+weight: 70
 url: /ru/net/aspose.words.drawing/stroke/endarrowwidth/
 ---
 ## Stroke.EndArrowWidth property
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.drawing/stroke/endarrowwidth/
 public ArrowWidth EndArrowWidth { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Значение по умолчанию:Medium.
 
-### Примеры
+## Примеры
 
 Показывает создание разнообразных фигур.
 
@@ -94,7 +96,5 @@ doc.Save(ArtifactsDir + "Drawing.VariousShapes.docx");
 
 * enum [ArrowWidth](../../arrowwidth/)
 * class [Stroke](../)
-* пространство имен [Aspose.Words.Drawing](../../stroke/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

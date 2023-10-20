@@ -1,9 +1,11 @@
 ---
 title: Stroke.EndCap
-second_title: Aspose.Words per .NET API Reference
-description: Stroke proprietà. Definisce lo stile dellestremità per la fine di un tratto.
+linktitle: EndCap
+articleTitle: EndCap
+second_title: Aspose.Words per .NET
+description: Stroke EndCap proprietà. Definisce lo stile dellestremità per la fine di un tratto in C#.
 type: docs
-weight: 90
+weight: 80
 url: /it/net/aspose.words.drawing/stroke/endcap/
 ---
 ## Stroke.EndCap property
@@ -14,11 +16,11 @@ Definisce lo stile dell'estremità per la fine di un tratto.
 public EndCap EndCap { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Il valore predefinito èFlat.
 
-### Esempi
+## Esempi
 
 Mostra per creare una varietà di forme.
 
@@ -94,7 +96,5 @@ doc.Save(ArtifactsDir + "Drawing.VariousShapes.docx");
 
 * enum [EndCap](../../endcap/)
 * class [Stroke](../)
-* spazio dei nomi [Aspose.Words.Drawing](../../stroke/)
+* spazio dei nomi [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assemblea [Aspose.Words](../../../)
-
-

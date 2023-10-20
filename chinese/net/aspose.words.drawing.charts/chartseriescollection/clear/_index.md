@@ -1,7 +1,9 @@
 ---
 title: ChartSeriesCollection.Clear
-second_title: Aspose.Words for .NET API 参考
-description: ChartSeriesCollection 方法. 删除所有ChartSeries来自这个集合.
+linktitle: Clear
+articleTitle: Clear
+second_title: 用于 .NET 的 Aspose.Words
+description: ChartSeriesCollection Clear 方法. 删除所有ChartSeries来自这个集合 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.drawing.charts/chartseriescollection/clear/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.drawing.charts/chartseriescollection/clear/
 public void Clear()
 ```
 
-### 例子
+## 例子
 
 演示如何在图表中添加和删除系列数据。
 
@@ -61,7 +63,5 @@ chartData.Clear();
 ### 也可以看看
 
 * class [ChartSeriesCollection](../)
-* 命名空间 [Aspose.Words.Drawing.Charts](../../chartseriescollection/)
+* 命名空间 [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * 部件 [Aspose.Words](../../../)
-
-

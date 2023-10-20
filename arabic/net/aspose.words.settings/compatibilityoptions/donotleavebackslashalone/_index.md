@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.DoNotLeaveBackslashAlone
-second_title: Aspose.Words لمراجع .NET API
-description: CompatibilityOptions ملكية. تحويل الشرطة المائلة العكسية إلى علامة الين عند الإدخال.
+linktitle: DoNotLeaveBackslashAlone
+articleTitle: DoNotLeaveBackslashAlone
+second_title: Aspose.Words لـ .NET
+description: CompatibilityOptions DoNotLeaveBackslashAlone ملكية. تحويل الشرطة المائلة العكسية إلى علامة الين عند الإدخال في C#.
 type: docs
 weight: 160
 url: /ar/net/aspose.words.settings/compatibilityoptions/donotleavebackslashalone/
@@ -17,7 +19,5 @@ public bool DoNotLeaveBackslashAlone { get; set; }
 ### أنظر أيضا
 
 * class [CompatibilityOptions](../)
-* مساحة الاسم [Aspose.Words.Settings](../../compatibilityoptions/)
+* مساحة الاسم [Aspose.Words.Settings](../../../aspose.words.settings/)
 * المجسم [Aspose.Words](../../../)
-
-

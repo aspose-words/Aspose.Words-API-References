@@ -1,9 +1,11 @@
 ---
 title: ChartSeries.Remove
-second_title: Referencia de API de Aspose.Words para .NET
-description: ChartSeries método. Elimina el valor X el valor Y y el tamaño de la burbuja si se admiten de la serie de gráficos en el índice especificado. También se eliminan el punto de datos y la etiqueta de datos correspondientes.
+linktitle: Remove
+articleTitle: Remove
+second_title: Aspose.Words para .NET
+description: ChartSeries Remove método. Elimina el valor X el valor Y y el tamaño de la burbuja si se admiten de la serie de gráficos en el índice especificado. También se eliminan el punto de datos y la etiqueta de datos correspondientes en C#.
 type: docs
-weight: 210
+weight: 200
 url: /es/net/aspose.words.drawing.charts/chartseries/remove/
 ---
 ## ChartSeries.Remove method
@@ -14,7 +16,7 @@ Elimina el valor X, el valor Y y el tamaño de la burbuja, si se admiten, de la 
 public void Remove(int index)
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo agregar/eliminar valores de datos del gráfico.
 
@@ -42,7 +44,5 @@ doc.Save(ArtifactsDir + "Charts.ChartDataValues.docx");
 ### Ver también
 
 * class [ChartSeries](../)
-* espacio de nombres [Aspose.Words.Drawing.Charts](../../chartseries/)
+* espacio de nombres [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * asamblea [Aspose.Words](../../../)
-
-

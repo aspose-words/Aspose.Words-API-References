@@ -1,7 +1,9 @@
 ---
 title: ChartLegend.LegendEntries
-second_title: Aspose.Words for .NET API 参考
-description: ChartLegend 财产. 返回父图表的所有系列和趋势线的图例条目的集合
+linktitle: LegendEntries
+articleTitle: LegendEntries
+second_title: 用于 .NET 的 Aspose.Words
+description: ChartLegend LegendEntries 财产. 返回父图表的所有系列和趋势线的图例条目的集合 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.drawing.charts/chartlegend/legendentries/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.drawing.charts/chartlegend/legendentries/
 public ChartLegendEntryCollection LegendEntries { get; }
 ```
 
-### 例子
+## 例子
 
 展示如何使用图表系列的图例条目。
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "Charts.LegendEntries.docx");
 
 * class [ChartLegendEntryCollection](../../chartlegendentrycollection/)
 * class [ChartLegend](../)
-* 命名空间 [Aspose.Words.Drawing.Charts](../../chartlegend/)
+* 命名空间 [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: LayoutOptions.KeepOriginalFontMetrics
-second_title: Aspose.Words لمراجع .NET API
-description: LayoutOptions ملكية. الحصول على أو تعيين إشارة إلى ما إذا كان ينبغي استخدام قياسات الخط الأصلي بعد استبدال الخط. الافتراضي هوحقيقي .
+linktitle: KeepOriginalFontMetrics
+articleTitle: KeepOriginalFontMetrics
+second_title: Aspose.Words لـ .NET
+description: LayoutOptions KeepOriginalFontMetrics ملكية. الحصول على أو تعيين إشارة إلى ما إذا كان ينبغي استخدام قياسات الخط الأصلي بعد استبدال الخط. الافتراضي هوحقيقي  في C#.
 type: docs
 weight: 60
 url: /ar/net/aspose.words.layout/layoutoptions/keeporiginalfontmetrics/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.layout/layoutoptions/keeporiginalfontmetrics/
 public bool KeepOriginalFontMetrics { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين الخاصية للعثور على أقرب تطابق لخط مفقود من مصادر الخطوط المتوفرة.
 
@@ -74,7 +76,5 @@ public class HandleDocumentSubstitutionWarnings : IWarningCallback
 ### أنظر أيضا
 
 * class [LayoutOptions](../)
-* مساحة الاسم [Aspose.Words.Layout](../../layoutoptions/)
+* مساحة الاسم [Aspose.Words.Layout](../../../aspose.words.layout/)
 * المجسم [Aspose.Words](../../../)
-
-

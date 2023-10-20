@@ -1,7 +1,9 @@
 ---
 title: FormField.DropDownSelectedIndex
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FormField propriété. Obtient ou définit lindex spécifiant lélément actuellement sélectionné dans un champ de formulaire déroulant.
+linktitle: DropDownSelectedIndex
+articleTitle: DropDownSelectedIndex
+second_title: Aspose.Words pour .NET
+description: FormField DropDownSelectedIndex propriété. Obtient ou définit lindex spécifiant lélément actuellement sélectionné dans un champ de formulaire déroulant en C#.
 type: docs
 weight: 60
 url: /fr/net/aspose.words.fields/formfield/dropdownselectedindex/
@@ -14,7 +16,7 @@ Obtient ou définit l'index spécifiant l'élément actuellement sélectionné d
 public int DropDownSelectedIndex { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment insérer différents types de champs de formulaire dans un document et les traiter à l'aide d'une implémentation de visiteur de document.
 
@@ -148,7 +150,5 @@ public class FormFieldVisitor : DocumentVisitor
 ### Voir également
 
 * class [FormField](../)
-* espace de noms [Aspose.Words.Fields](../../formfield/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

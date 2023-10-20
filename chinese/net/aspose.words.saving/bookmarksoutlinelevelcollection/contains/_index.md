@@ -1,7 +1,9 @@
 ---
 title: BookmarksOutlineLevelCollection.Contains
-second_title: Aspose.Words for .NET API 参考
-description: BookmarksOutlineLevelCollection 方法. 确定集合中是否包含具有给定名称的书签
+linktitle: Contains
+articleTitle: Contains
+second_title: 用于 .NET 的 Aspose.Words
+description: BookmarksOutlineLevelCollection Contains 方法. 确定集合中是否包含具有给定名称的书签 在 C#.
 type: docs
 weight: 60
 url: /zh/net/aspose.words.saving/bookmarksoutlinelevelcollection/contains/
@@ -22,7 +24,7 @@ public bool Contains(string name)
 
 `真的`如果在集合中找到项目；否则，`错误的`。
 
-### 例子
+## 例子
 
 演示如何设置书签的大纲级别。
 
@@ -80,7 +82,5 @@ outlineLevels.Clear();
 ### 也可以看看
 
 * class [BookmarksOutlineLevelCollection](../)
-* 命名空间 [Aspose.Words.Saving](../../bookmarksoutlinelevelcollection/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

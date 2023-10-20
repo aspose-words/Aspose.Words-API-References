@@ -1,7 +1,9 @@
 ---
 title: TxtSaveOptions.SaveFormat
-second_title: Aspose.Words for .NET API 参考
-description: TxtSaveOptions 财产. 指定使用此保存选项对象时保存文档的格式 只能是Text.
+linktitle: SaveFormat
+articleTitle: SaveFormat
+second_title: 用于 .NET 的 Aspose.Words
+description: TxtSaveOptions SaveFormat 财产. 指定使用此保存选项对象时保存文档的格式 只能是Text 在 C#.
 type: docs
 weight: 60
 url: /zh/net/aspose.words.saving/txtsaveoptions/saveformat/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.saving/txtsaveoptions/saveformat/
 public override SaveFormat SaveFormat { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何使用自定义分段符保存 .txt 文档。
 
@@ -48,7 +50,5 @@ Assert.AreEqual("Paragraph 1. End of paragraph.\n\n\t" +
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
 * class [TxtSaveOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../txtsaveoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

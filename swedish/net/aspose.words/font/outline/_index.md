@@ -1,7 +1,9 @@
 ---
 title: Font.Outline
-second_title: Aspose.Words för .NET API Referens
-description: Font fast egendom. Sant om teckensnittet är formaterat som kontur.
+linktitle: Outline
+articleTitle: Outline
+second_title: Aspose.Words för .NET
+description: Font Outline fast egendom. Sant om teckensnittet är formaterat som kontur i C#.
 type: docs
 weight: 290
 url: /sv/net/aspose.words/font/outline/
@@ -14,7 +16,7 @@ Sant om teckensnittet är formaterat som kontur.
 public bool Outline { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man skapar en serie text formaterad som disposition.
 
@@ -36,7 +38,5 @@ doc.Save(ArtifactsDir + "Font.Outline.docx");
 ### Se även
 
 * class [Font](../)
-* namnutrymme [Aspose.Words](../../font/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: FieldAutoText.FieldAutoText
-second_title: Aspose.Words för .NET API Referens
-description: FieldAutoText byggare. Default_Constructor
+title: FieldAutoText
+linktitle: FieldAutoText
+articleTitle: FieldAutoText
+second_title: Aspose.Words för .NET
+description: FieldAutoText byggare. Default_Constructor i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.fields/fieldautotext/fieldautotext/
@@ -17,7 +19,5 @@ public FieldAutoText()
 ### Se även
 
 * class [FieldAutoText](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldautotext/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

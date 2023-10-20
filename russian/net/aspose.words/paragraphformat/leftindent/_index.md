@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.LeftIndent
-second_title: Справочник по API Aspose.Words для .NET
-description: ParagraphFormat свойство. Получает или задает значение в пунктах представляющее левый отступ абзаца.
+linktitle: LeftIndent
+articleTitle: LeftIndent
+second_title: Aspose.Words для .NET
+description: ParagraphFormat LeftIndent свойство. Получает или задает значение в пунктах представляющее левый отступ абзаца на С#.
 type: docs
 weight: 180
 url: /ru/net/aspose.words/paragraphformat/leftindent/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/paragraphformat/leftindent/
 public double LeftIndent { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как настроить форматирование абзаца для создания текста со смещением от центра.
 
@@ -42,7 +44,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.SetParagraphFormatting.docx");
 ### Смотрите также
 
 * class [ParagraphFormat](../)
-* пространство имен [Aspose.Words](../../paragraphformat/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

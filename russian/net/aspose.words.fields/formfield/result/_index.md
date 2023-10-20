@@ -1,7 +1,9 @@
 ---
 title: FormField.Result
-second_title: Справочник по API Aspose.Words для .NET
-description: FormField свойство. Получает или задает строку представляющую результат этого поля формы.
+linktitle: Result
+articleTitle: Result
+second_title: Aspose.Words для .NET
+description: FormField Result свойство. Получает или задает строку представляющую результат этого поля формы на С#.
 type: docs
 weight: 170
 url: /ru/net/aspose.words.fields/formfield/result/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/formfield/result/
 public string Result { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Для поля текстовой формы результатом является текст, который находится в поле.
 
@@ -26,7 +28,7 @@ public string Result { get; set; }
 
 Для поля текстовой формы[`TextInputDefault`](../textinputdefault/) значение применяется , если*value* является`нулевой`.
 
-### Примеры
+## Примеры
 
 Показывает, как вставить поле со списком.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "FormFields.Create.html");
 ### Смотрите также
 
 * class [FormField](../)
-* пространство имен [Aspose.Words.Fields](../../formfield/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

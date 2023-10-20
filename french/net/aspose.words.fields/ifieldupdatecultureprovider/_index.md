@@ -1,7 +1,9 @@
 ---
-title: Interface IFieldUpdateCultureProvider
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Fields.IFieldUpdateCultureProvider interface. Une fois implémenté fournit unCultureInfo objet qui doit être utilisé lors de la mise à jour dun champ particulier.
+title: IFieldUpdateCultureProvider Interface
+linktitle: IFieldUpdateCultureProvider
+articleTitle: IFieldUpdateCultureProvider
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Fields.IFieldUpdateCultureProvider interface. Une fois implémenté fournit unCultureInfo objet qui doit être utilisé lors de la mise à jour dun champ particulier en C#.
 type: docs
 weight: 2710
 url: /fr/net/aspose.words.fields/ifieldupdatecultureprovider/
@@ -18,9 +20,9 @@ public interface IFieldUpdateCultureProvider
 
 | Nom | La description |
 | --- | --- |
-| [GetCulture](../../aspose.words.fields/ifieldupdatecultureprovider/getculture/)(string, Field) | Renvoie unCultureInfoobjet à utiliser lors de la mise à jour du champ. |
+| [GetCulture](../../aspose.words.fields/ifieldupdatecultureprovider/getculture/)(*string, [Field](../field/)*) | Renvoie unCultureInfoobjet à utiliser lors de la mise à jour du champ. |
 
-### Exemples
+## Exemples
 
 Montre comment spécifier une culture qui analyse le formatage date/heure pour chaque champ.
 
@@ -92,5 +94,3 @@ private class FieldUpdateCultureProvider : IFieldUpdateCultureProvider
 
 * espace de noms [Aspose.Words.Fields](../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../)
-
-

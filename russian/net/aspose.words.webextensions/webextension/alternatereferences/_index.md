@@ -1,7 +1,9 @@
 ---
 title: WebExtension.AlternateReferences
-second_title: Справочник по API Aspose.Words для .NET
-description: WebExtension свойство. Указывает альтернативные ссылки на вебрасширение.
+linktitle: AlternateReferences
+articleTitle: AlternateReferences
+second_title: Aspose.Words для .NET
+description: WebExtension AlternateReferences свойство. Указывает альтернативные ссылки на вебрасширение на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.webextensions/webextension/alternatereferences/
@@ -18,7 +20,5 @@ public WebExtensionReferenceCollection AlternateReferences { get; }
 
 * class [WebExtensionReferenceCollection](../../webextensionreferencecollection/)
 * class [WebExtension](../)
-* пространство имен [Aspose.Words.WebExtensions](../../webextension/)
+* пространство имен [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: BookmarksOutlineLevelCollection.BookmarksOutlineLevelCollection
-second_title: Aspose.Words för .NET API Referens
-description: BookmarksOutlineLevelCollection byggare. Default_Constructor
+title: BookmarksOutlineLevelCollection
+linktitle: BookmarksOutlineLevelCollection
+articleTitle: BookmarksOutlineLevelCollection
+second_title: Aspose.Words för .NET
+description: BookmarksOutlineLevelCollection byggare. Default_Constructor i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.saving/bookmarksoutlinelevelcollection/bookmarksoutlinelevelcollection/
@@ -17,7 +19,5 @@ public BookmarksOutlineLevelCollection()
 ### Se även
 
 * class [BookmarksOutlineLevelCollection](../)
-* namnutrymme [Aspose.Words.Saving](../../bookmarksoutlinelevelcollection/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

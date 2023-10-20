@@ -1,7 +1,9 @@
 ---
 title: TabStopCollection.GetIndexByPosition
-second_title: Aspose.Words for .NET API 参考
-description: TabStopCollection 方法. 获取指定位置的制表位索引以磅为单位
+linktitle: GetIndexByPosition
+articleTitle: GetIndexByPosition
+second_title: 用于 .NET 的 Aspose.Words
+description: TabStopCollection GetIndexByPosition 方法. 获取指定位置的制表位索引以磅为单位 在 C#.
 type: docs
 weight: 90
 url: /zh/net/aspose.words/tabstopcollection/getindexbyposition/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/tabstopcollection/getindexbyposition/
 public int GetIndexByPosition(double position)
 ```
 
-### 例子
+## 例子
 
 演示如何查找位置以查看该位置是否存在制表位并获取其索引。
 
@@ -37,7 +39,5 @@ Assert.AreEqual(-1, tabStops.GetIndexByPosition(ConvertUtil.MillimeterToPoint(60
 ### 也可以看看
 
 * class [TabStopCollection](../)
-* 命名空间 [Aspose.Words](../../tabstopcollection/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

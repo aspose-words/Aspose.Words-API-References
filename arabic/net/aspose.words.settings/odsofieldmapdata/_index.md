@@ -1,7 +1,9 @@
 ---
-title: Class OdsoFieldMapData
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Settings.OdsoFieldMapData فصل. يحدد كيفية تعيين عمود في مصدر البيانات الخارجي إلى حقول الدمج المحددة مسبقًا داخل المستند.
+title: OdsoFieldMapData Class
+linktitle: OdsoFieldMapData
+articleTitle: OdsoFieldMapData
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Settings.OdsoFieldMapData فصل. يحدد كيفية تعيين عمود في مصدر البيانات الخارجي إلى حقول الدمج المحددة مسبقًا داخل المستند في C#.
 type: docs
 weight: 5900
 url: /ar/net/aspose.words.settings/odsofieldmapdata/
@@ -37,11 +39,11 @@ public class OdsoFieldMapData
 | --- | --- |
 | [Clone](../../aspose.words.settings/odsofieldmapdata/clone/)() | يُرجع نسخة عميقة من هذا الكائن. |
 
-### ملاحظات
+## ملاحظات
 
 يوفر Microsoft Word بعض أسماء حقول الدمج المحددة مسبقًا والتي يسمح بإدراجها في مستند مثل MERGEFIELD أو للاستخدام في حقول ADDRESSBLOCK أو GREETINGLINE. المعلومات المحددة في`OdsoFieldMapData`يسمح بتعيين عمود واحد في مصدر البيانات الخارجي إلى حقل دمج واحد محدد مسبقًا.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الوصول إلى مجموعة البيانات التي تقوم بتعيين أعمدة مصدر البيانات لدمج الحقول.
 
@@ -85,5 +87,3 @@ Assert.AreEqual(0, dataCollection.Count);
 
 * مساحة الاسم [Aspose.Words.Settings](../../aspose.words.settings/)
 * المجسم [Aspose.Words](../../)
-
-

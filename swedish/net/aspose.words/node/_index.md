@@ -1,7 +1,9 @@
 ---
-title: Class Node
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Node klass. Basklass för alla noder i ett Worddokument.
+title: Node Class
+linktitle: Node
+articleTitle: Node
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Node klass. Basklass för alla noder i ett Worddokument i C#.
 type: docs
 weight: 4170
 url: /sv/net/aspose.words/node/
@@ -33,19 +35,19 @@ public abstract class Node
 
 | namn | Beskrivning |
 | --- | --- |
-| abstract [Accept](../../aspose.words/node/accept/)(DocumentVisitor) | Accepterar en besökare. |
-| [Clone](../../aspose.words/node/clone/)(bool) | Skapar en dubblett av noden. |
-| [GetAncestor](../../aspose.words/node/getancestor/#getancestor)(NodeType) | Hämtar den första förfadern till den angivna[`NodeType`](../nodetype/) . |
-| [GetAncestor](../../aspose.words/node/getancestor/#getancestor_1)(Type) | Hämtar den första förfadern till den angivna objekttypen. |
+| abstract [Accept](../../aspose.words/node/accept/)(*[DocumentVisitor](../documentvisitor/)*) | Accepterar en besökare. |
+| [Clone](../../aspose.words/node/clone/)(*bool*) | Skapar en dubblett av noden. |
+| [GetAncestor](../../aspose.words/node/getancestor/#getancestor)(*[NodeType](../nodetype/)*) | Hämtar den första förfadern till den angivna[`NodeType`](../nodetype/) . |
+| [GetAncestor](../../aspose.words/node/getancestor/#getancestor_1)(*Type*) | Hämtar den första förfadern till den angivna objekttypen. |
 | virtual [GetText](../../aspose.words/node/gettext/)() | Hämtar texten för denna nod och alla dess underordnade. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Hämtar nästa nod enligt algoritmen för förbeställningsträdet. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Hämtar föregående nod enligt algoritmen för förbeställningsträdet. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*Node*) | Hämtar nästa nod enligt algoritmen för förbeställningsträdet. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*Node*) | Hämtar föregående nod enligt algoritmen för förbeställningsträdet. |
 | [Remove](../../aspose.words/node/remove/)() | Tar bort sig själv från föräldern. |
-| [ToString](../../aspose.words/node/tostring/#tostring_1)(SaveFormat) | Exporterar innehållet i noden till en sträng i angivet format. |
-| [ToString](../../aspose.words/node/tostring/#tostring_2)(SaveOptions) | Exporterar innehållet i noden till en sträng med de angivna sparalternativen. |
-| static [NodeTypeToString](../../aspose.words/node/nodetypetostring/)(NodeType) | En verktygsmetod som omvandlar ett nodtyps enumvärde till en användarvänlig sträng. |
+| [ToString](../../aspose.words/node/tostring/#tostring_1)(*[SaveFormat](../saveformat/)*) | Exporterar innehållet i noden till en sträng i angivet format. |
+| [ToString](../../aspose.words/node/tostring/#tostring_2)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | Exporterar innehållet i noden till en sträng med de angivna sparalternativen. |
+| static [NodeTypeToString](../../aspose.words/node/nodetypetostring/)(*[NodeType](../nodetype/)*) | En verktygsmetod som omvandlar ett nodtyps enumvärde till en användarvänlig sträng. |
 
-### Anmärkningar
+## Anmärkningar
 
 Ett dokument representeras som ett träd av noder, liknande DOM eller XmlDocument.
 
@@ -59,7 +61,7 @@ De`Node` klass:
 * Implementerar mekanismer för överordnad nod och ägardokument.
 * Implementerar åtkomst till syskonnoder.
 
-### Exempel
+## Exempel
 
 Visar hur man tar bort alla underordnade noder av en specifik typ från en sammansatt nod.
 
@@ -151,5 +153,3 @@ foreach (Node child in children)
 
 * namnutrymme [Aspose.Words](../../aspose.words/)
 * hopsättning [Aspose.Words](../../)
-
-

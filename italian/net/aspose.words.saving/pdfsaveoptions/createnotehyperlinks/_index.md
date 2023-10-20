@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.CreateNoteHyperlinks
-second_title: Aspose.Words per .NET API Reference
-description: PdfSaveOptions proprietà. Specifica se convertire i riferimenti alle note a piè di pagina/note di chiusura nel brano del testo principale in collegamenti ipertestuali attivi. Quando si fa clic il collegamento ipertestuale porterà alla nota a piè di pagina/nota di chiusura corrispondente. Limpostazione predefinita èfalso .
+linktitle: CreateNoteHyperlinks
+articleTitle: CreateNoteHyperlinks
+second_title: Aspose.Words per .NET
+description: PdfSaveOptions CreateNoteHyperlinks proprietà. Specifica se convertire i riferimenti alle note a piè di pagina/note di chiusura nel brano del testo principale in collegamenti ipertestuali attivi. Quando si fa clic il collegamento ipertestuale porterà alla nota a piè di pagina/nota di chiusura corrispondente. Limpostazione predefinita èfalso  in C#.
 type: docs
 weight: 50
 url: /it/net/aspose.words.saving/pdfsaveoptions/createnotehyperlinks/
@@ -14,7 +16,7 @@ Specifica se convertire i riferimenti alle note a piè di pagina/note di chiusur
 public bool CreateNoteHyperlinks { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come fare in modo che le note a piè di pagina e le note di chiusura funzionino come collegamenti ipertestuali.
 
@@ -36,7 +38,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.NoteHyperlinks.pdf", options);
 ### Guarda anche
 
 * class [PdfSaveOptions](../)
-* spazio dei nomi [Aspose.Words.Saving](../../pdfsaveoptions/)
+* spazio dei nomi [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../../)
-
-

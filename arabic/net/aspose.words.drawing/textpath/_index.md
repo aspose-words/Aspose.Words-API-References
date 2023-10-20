@@ -1,7 +1,9 @@
 ---
-title: Class TextPath
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Drawing.TextPath فصل. تحديد النص وتنسيق مسار النص لكائن WordArt.
+title: TextPath Class
+linktitle: TextPath
+articleTitle: TextPath
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Drawing.TextPath فصل. تحديد النص وتنسيق مسار النص لكائن WordArt في C#.
 type: docs
 weight: 1350
 url: /ar/net/aspose.words.drawing/textpath/
@@ -41,11 +43,11 @@ public class TextPath
 | [Underline](../../aspose.words.drawing/textpath/underline/) { get; set; } | صحيح إذا كان الخط تحته خط. |
 | [XScale](../../aspose.words.drawing/textpath/xscale/) { get; set; } | يحدد ما إذا كان سيتم استخدام مسار نص مستقيم بدلاً من مسار الشكل. |
 
-### ملاحظات
+## ملاحظات
 
 استخدم ال[`TextPath`](../shape/textpath/) الخاصية للوصول إلى خصائص WordArt الخاصة بالشكل. لا تقم بإنشاء مثيلات للشكل`TextPath` الصف مباشرة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع WordArt.
 
@@ -149,5 +151,3 @@ private static Shape AppendWordArt(Document doc, string text, string textFontFam
 
 * مساحة الاسم [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../)
-
-

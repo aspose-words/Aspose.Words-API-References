@@ -1,7 +1,9 @@
 ---
-title: Class FieldFormat
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Fields.FieldFormat 班级. 提供对字段的数字日期和时间以及常规格式的键入访问
+title: FieldFormat Class
+linktitle: FieldFormat
+articleTitle: FieldFormat
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Fields.FieldFormat 班级. 提供对字段的数字日期和时间以及常规格式的键入访问 在 C#.
 type: docs
 weight: 1940
 url: /zh/net/aspose.words.fields/fieldformat/
@@ -24,7 +26,7 @@ public class FieldFormat
 | [GeneralFormats](../../aspose.words.fields/fieldformat/generalformats/) { get; } | 获取应用于数字、文本或任何字段结果的通用格式的集合。 对应于 \* 开关。 |
 | [NumericFormat](../../aspose.words.fields/fieldformat/numericformat/) { get; set; } | 获取或设置应用于数字字段结果的格式。对应\#开关. |
 
-### 例子
+## 例子
 
 展示如何设置字段结果的格式。
 
@@ -89,5 +91,3 @@ Assert.AreEqual(0, format.GeneralFormats.Count);
 
 * 命名空间 [Aspose.Words.Fields](../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../)
-
-

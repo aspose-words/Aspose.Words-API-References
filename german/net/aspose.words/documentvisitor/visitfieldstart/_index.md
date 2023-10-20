@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitFieldStart
-second_title: Aspose.Words für .NET-API-Referenz
-description: DocumentVisitor methode. Wird aufgerufen wenn ein Feld im Dokument beginnt.
+linktitle: VisitFieldStart
+articleTitle: VisitFieldStart
+second_title: Aspose.Words für .NET
+description: DocumentVisitor VisitFieldStart methode. Wird aufgerufen wenn ein Feld im Dokument beginnt in C#.
 type: docs
 weight: 200
 url: /de/net/aspose.words/documentvisitor/visitfieldstart/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitFieldStart(FieldStart fieldStart)
 
 A[`VisitorAction`](../../visitoraction/) Wert, der angibt, wie die Enumeration fortgesetzt werden soll.
 
-### Bemerkungen
+## Bemerkungen
 
 Ein Feld in einem Word-Dokument besteht aus einem Feldcode und einem Feldwert.
 
@@ -34,7 +36,7 @@ Das Feldtrennzeichen trennt den Feldcode vom Feldwert im Dokument. Beachten Sie,
 
 Felder können verschachtelt werden.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Knotenstruktur jedes Felds in einem Dokument gedruckt wird.
 
@@ -139,7 +141,5 @@ public class FieldStructurePrinter : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [FieldStart](../../../aspose.words.fields/fieldstart/)
 * class [DocumentVisitor](../)
-* namensraum [Aspose.Words](../../documentvisitor/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

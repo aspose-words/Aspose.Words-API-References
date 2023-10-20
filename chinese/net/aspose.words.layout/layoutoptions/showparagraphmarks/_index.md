@@ -1,7 +1,9 @@
 ---
 title: LayoutOptions.ShowParagraphMarks
-second_title: Aspose.Words for .NET API 参考
-description: LayoutOptions 财产. 获取或设置是否呈现段落标记的指示 默认为错误的.
+linktitle: ShowParagraphMarks
+articleTitle: ShowParagraphMarks
+second_title: 用于 .NET 的 Aspose.Words
+description: LayoutOptions ShowParagraphMarks 财产. 获取或设置是否呈现段落标记的指示 默认为错误的 在 C#.
 type: docs
 weight: 90
 url: /zh/net/aspose.words.layout/layoutoptions/showparagraphmarks/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.layout/layoutoptions/showparagraphmarks/
 public bool ShowParagraphMarks { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何在渲染的输出文档中显示段落标记。
 
@@ -34,7 +36,5 @@ doc.Save(ArtifactsDir + "Document.LayoutOptionsParagraphMarks.pdf");
 ### 也可以看看
 
 * class [LayoutOptions](../)
-* 命名空间 [Aspose.Words.Layout](../../layoutoptions/)
+* 命名空间 [Aspose.Words.Layout](../../../aspose.words.layout/)
 * 部件 [Aspose.Words](../../../)
-
-

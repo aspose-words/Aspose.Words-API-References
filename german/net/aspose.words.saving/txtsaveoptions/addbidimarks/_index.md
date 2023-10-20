@@ -1,7 +1,9 @@
 ---
 title: TxtSaveOptions.AddBidiMarks
-second_title: Aspose.Words für .NET-API-Referenz
-description: TxtSaveOptions eigendom. Gibt an ob beim Exportieren im NurTextFormat vor jedem BiDiLauf bidirektionale Markierungen hinzugefügt werden sollen.
+linktitle: AddBidiMarks
+articleTitle: AddBidiMarks
+second_title: Aspose.Words für .NET
+description: TxtSaveOptions AddBidiMarks eigendom. Gibt an ob beim Exportieren im NurTextFormat vor jedem BiDiLauf bidirektionale Markierungen hinzugefügt werden sollen in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.saving/txtsaveoptions/addbidimarks/
@@ -16,7 +18,7 @@ Der Standardwert ist`FALSCH`.
 public bool AddBidiMarks { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie das Unicode-Zeichen „RIGHT-TO-LEFT MARK“ (U+200F) vor jedem bidirektionalen Lauf im Text eingefügt wird.
 
@@ -58,7 +60,5 @@ else
 ### Siehe auch
 
 * class [TxtSaveOptions](../)
-* namensraum [Aspose.Words.Saving](../../txtsaveoptions/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

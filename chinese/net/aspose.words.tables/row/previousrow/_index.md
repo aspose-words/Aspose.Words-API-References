@@ -1,7 +1,9 @@
 ---
 title: Row.PreviousRow
-second_title: Aspose.Words for .NET API 参考
-description: Row 财产. 获取上一个Row节点.
+linktitle: PreviousRow
+articleTitle: PreviousRow
+second_title: 用于 .NET 的 Aspose.Words
+description: Row PreviousRow 财产. 获取上一个Row节点 在 C#.
 type: docs
 weight: 100
 url: /zh/net/aspose.words.tables/row/previousrow/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.tables/row/previousrow/
 public Row PreviousRow { get; }
 ```
 
-### 评论
+## 评论
 
 当您需要对表行进行类型访问时，可以使用该方法。如果a [`StructuredDocumentTag`](../../../aspose.words.markup/structureddocumenttag/)在表中而不是行中找到节点， 会自动遍历它以获取其中包含的行。
 
-### 例子
+## 例子
 
 演示如何枚举所有表格单元格。
 
@@ -39,7 +41,5 @@ for (Row row = table.FirstRow; row != null; row = row.NextRow)
 ### 也可以看看
 
 * class [Row](../)
-* 命名空间 [Aspose.Words.Tables](../../row/)
+* 命名空间 [Aspose.Words.Tables](../../../aspose.words.tables/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: FieldDate.FieldDate
-second_title: Aspose.Words لمراجع .NET API
-description: FieldDate البناء. Default_Constructor
+title: FieldDate
+linktitle: FieldDate
+articleTitle: FieldDate
+second_title: Aspose.Words لـ .NET
+description: FieldDate البناء. Default_Constructor في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fields/fielddate/fielddate/
@@ -17,7 +19,5 @@ public FieldDate()
 ### أنظر أيضا
 
 * class [FieldDate](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fielddate/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

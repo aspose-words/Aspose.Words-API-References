@@ -1,7 +1,9 @@
 ---
 title: RowFormat.HeadingFormat
-second_title: Aspose.Words لمراجع .NET API
-description: RowFormat ملكية. صحيح إذا تم تكرار الصف كعنوان جدول في كل صفحة عندما يمتد الجدول لأكثر من صفحة واحدة.
+linktitle: HeadingFormat
+articleTitle: HeadingFormat
+second_title: Aspose.Words لـ .NET
+description: RowFormat HeadingFormat ملكية. صحيح إذا تم تكرار الصف كعنوان جدول في كل صفحة عندما يمتد الجدول لأكثر من صفحة واحدة في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.tables/rowformat/headingformat/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.tables/rowformat/headingformat/
 public bool HeadingFormat { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء جدول يحتوي على صفوف تتكرر في كل صفحة.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTableSetHeadingRow.docx");
 ### أنظر أيضا
 
 * class [RowFormat](../)
-* مساحة الاسم [Aspose.Words.Tables](../../rowformat/)
+* مساحة الاسم [Aspose.Words.Tables](../../../aspose.words.tables/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Frameset.ChildFramesets
-second_title: Aspose.Words för .NET API Referens
-description: Frameset fast egendom. Får samlingen av underordnade ramar och ramsidor.
+linktitle: ChildFramesets
+articleTitle: ChildFramesets
+second_title: Aspose.Words för .NET
+description: Frameset ChildFramesets fast egendom. Får samlingen av underordnade ramar och ramsidor i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.framesets/frameset/childframesets/
@@ -14,7 +16,7 @@ Får samlingen av underordnade ramar och ramsidor.
 public FramesetCollection ChildFramesets { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man kommer åt ramar på sidan.
 
@@ -40,7 +42,5 @@ doc.Frameset.ChildFramesets[0].ChildFramesets[0].IsFrameLinkToFile = false;
 
 * class [FramesetCollection](../../framesetcollection/)
 * class [Frameset](../)
-* namnutrymme [Aspose.Words.Framesets](../../frameset/)
+* namnutrymme [Aspose.Words.Framesets](../../../aspose.words.framesets/)
 * hopsättning [Aspose.Words](../../../)
-
-

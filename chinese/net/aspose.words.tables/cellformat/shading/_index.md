@@ -1,9 +1,11 @@
 ---
 title: CellFormat.Shading
-second_title: Aspose.Words for .NET API 参考
-description: CellFormat 财产. 返回一个Shading引用单元格着色格式的对象
+linktitle: Shading
+articleTitle: Shading
+second_title: 用于 .NET 的 Aspose.Words
+description: CellFormat Shading 财产. 返回一个Shading引用单元格着色格式的对象 在 C#.
 type: docs
-weight: 100
+weight: 90
 url: /zh/net/aspose.words.tables/cellformat/shading/
 ---
 ## CellFormat.Shading property
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.tables/cellformat/shading/
 public Shading Shading { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何修改表中行和单元格的格式。
 
@@ -113,7 +115,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
 
 * class [Shading](../../../aspose.words/shading/)
 * class [CellFormat](../)
-* 命名空间 [Aspose.Words.Tables](../../cellformat/)
+* 命名空间 [Aspose.Words.Tables](../../../aspose.words.tables/)
 * 部件 [Aspose.Words](../../../)
-
-

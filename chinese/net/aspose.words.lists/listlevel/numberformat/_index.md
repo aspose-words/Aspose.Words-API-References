@@ -1,7 +1,9 @@
 ---
 title: ListLevel.NumberFormat
-second_title: Aspose.Words for .NET API 参考
-description: ListLevel 财产. 返回或设置列表级别的数字格式
+linktitle: NumberFormat
+articleTitle: NumberFormat
+second_title: 用于 .NET 的 Aspose.Words
+description: ListLevel NumberFormat 财产. 返回或设置列表级别的数字格式 在 C#.
 type: docs
 weight: 70
 url: /zh/net/aspose.words.lists/listlevel/numberformat/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.lists/listlevel/numberformat/
 public string NumberFormat { get; set; }
 ```
 
-### 评论
+## 评论
 
 在普通文本字符中，字符串可以包含占位符字符 \x0000 到 \x0008 ，表示相应列表级别中的数字。
 
@@ -22,7 +24,7 @@ public string NumberFormat { get; set; }
 
 不允许使用 Null，但空字符串意味着没有数字有效。
 
-### 例子
+## 例子
 
 演示如何在使用 DocumentBuilder 时将自定义列表格式应用于段落。
 
@@ -137,7 +139,5 @@ doc.Save(ArtifactsDir + "Lists.CreateListRestartAfterHigher.docx");
 ### 也可以看看
 
 * class [ListLevel](../)
-* 命名空间 [Aspose.Words.Lists](../../listlevel/)
+* 命名空间 [Aspose.Words.Lists](../../../aspose.words.lists/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum MailMergeCheckErrors
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Settings.MailMergeCheckErrors uppräkning. Anger hur Microsoft Word kommer att rapportera fel som upptäcks under sammanslagningen.
+title: MailMergeCheckErrors Enum
+linktitle: MailMergeCheckErrors
+articleTitle: MailMergeCheckErrors
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Settings.MailMergeCheckErrors uppräkning. Anger hur Microsoft Word kommer att rapportera fel som upptäcks under sammanslagningen i C#.
 type: docs
 weight: 5810
 url: /sv/net/aspose.words.settings/mailmergecheckerrors/
@@ -23,7 +25,7 @@ public enum MailMergeCheckErrors
 | CollectErrors | `3` | Slutför sammanslagningen och rapportera fel i ett nytt dokument. |
 | Default | `2` | är lika medPauseOnError värde. |
 
-### Exempel
+## Exempel
 
 Visar hur man kör en sammankoppling med data från ett Office-datakällobjekt.
 
@@ -77,5 +79,3 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 * property [CheckErrors](../mailmergesettings/checkerrors/)
 * namnutrymme [Aspose.Words.Settings](../../aspose.words.settings/)
 * hopsättning [Aspose.Words](../../)
-
-

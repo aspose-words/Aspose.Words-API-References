@@ -1,7 +1,9 @@
 ---
 title: MailMergeSettings.HeaderSource
-second_title: Référence de l'API Aspose.Words pour .NET
-description: MailMergeSettings propriété. Spécifie le chemin daccès à la source de lentête de publipostage. La valeur par défaut est une chaîne vide.
+linktitle: HeaderSource
+articleTitle: HeaderSource
+second_title: Aspose.Words pour .NET
+description: MailMergeSettings HeaderSource propriété. Spécifie le chemin daccès à la source de lentête de publipostage. La valeur par défaut est une chaîne vide en C#.
 type: docs
 weight: 100
 url: /fr/net/aspose.words.settings/mailmergesettings/headersource/
@@ -14,7 +16,7 @@ Spécifie le chemin d'accès à la source de l'en-tête de publipostage. La vale
 public string HeaderSource { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment créer une source de données pour un publipostage à partir d’une source d’en-tête et d’une source de données.
 
@@ -79,7 +81,5 @@ doc.Save(ArtifactsDir + "MailMerge.MailingLabelMerge.docx");
 ### Voir également
 
 * class [MailMergeSettings](../)
-* espace de noms [Aspose.Words.Settings](../../mailmergesettings/)
+* espace de noms [Aspose.Words.Settings](../../../aspose.words.settings/)
 * Assemblée [Aspose.Words](../../../)
-
-

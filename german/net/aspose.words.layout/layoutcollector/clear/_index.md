@@ -1,7 +1,9 @@
 ---
 title: LayoutCollector.Clear
-second_title: Aspose.Words für .NET-API-Referenz
-description: LayoutCollector methode. Löscht alle gesammelten Layoutdaten. Rufen Sie diese Methode auf nachdem das Dokument manuell aktualisiert oder das Layout neu erstellt wurde.
+linktitle: Clear
+articleTitle: Clear
+second_title: Aspose.Words für .NET
+description: LayoutCollector Clear methode. Löscht alle gesammelten Layoutdaten. Rufen Sie diese Methode auf nachdem das Dokument manuell aktualisiert oder das Layout neu erstellt wurde in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.layout/layoutcollector/clear/
@@ -14,7 +16,7 @@ Löscht alle gesammelten Layoutdaten. Rufen Sie diese Methode auf, nachdem das D
 public void Clear()
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Seitenbereiche angezeigt werden, die ein Knoten umfasst.
 
@@ -72,7 +74,5 @@ Assert.AreEqual("¶", layoutEnumerator.Text);
 ### Siehe auch
 
 * class [LayoutCollector](../)
-* namensraum [Aspose.Words.Layout](../../layoutcollector/)
+* namensraum [Aspose.Words.Layout](../../../aspose.words.layout/)
 * Montage [Aspose.Words](../../../)
-
-

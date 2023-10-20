@@ -1,7 +1,9 @@
 ---
 title: Table.AllowOverlap
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Table propriété. Obtient si une table flottante doit autoriser dautres objets flottants dans le document à chevaucher ses étendues lorsquils sont affichés. La valeur par défaut estvrai .
+linktitle: AllowOverlap
+articleTitle: AllowOverlap
+second_title: Aspose.Words pour .NET
+description: Table AllowOverlap propriété. Obtient si une table flottante doit autoriser dautres objets flottants dans le document à chevaucher ses étendues lorsquils sont affichés. La valeur par défaut estvrai  en C#.
 type: docs
 weight: 70
 url: /fr/net/aspose.words.tables/table/allowoverlap/
@@ -14,7 +16,7 @@ Obtient si une table flottante doit autoriser d'autres objets flottants dans le 
 public bool AllowOverlap { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment utiliser les propriétés des tables flottantes.
 
@@ -42,7 +44,5 @@ if (table.TextWrapping == TextWrapping.Around)
 ### Voir également
 
 * class [Table](../)
-* espace de noms [Aspose.Words.Tables](../../table/)
+* espace de noms [Aspose.Words.Tables](../../../aspose.words.tables/)
 * Assemblée [Aspose.Words](../../../)
-
-

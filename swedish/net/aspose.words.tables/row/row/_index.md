@@ -1,7 +1,9 @@
 ---
-title: Row.Row
-second_title: Aspose.Words för .NET API Referens
-description: Row byggare. Initierar en ny instans avRow class.
+title: Row
+linktitle: Row
+articleTitle: Row
+second_title: Aspose.Words för .NET
+description: Row byggare. Initierar en ny instans avRow class i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.tables/row/row/
@@ -18,13 +20,13 @@ public Row(DocumentBase doc)
 | --- | --- | --- |
 | doc | DocumentBase | Ägardokumentet. |
 
-### Anmärkningar
+## Anmärkningar
 
 När[`Row`](../) skapas, det tillhör det angivna dokumentet, men är inte ännu en del av dokumentet och[`ParentNode`](../../../aspose.words/node/parentnode/) är`null`.
 
-Att lägga till[`Row`](../) till dokumentanvändningenNode) ellerNode) i tabellen där du vill att raden ska infogas.
+Att lägga till[`Row`](../) till dokumentanvändningen[`InsertAfter`](../../../aspose.words/compositenode/insertafter/) eller[`InsertBefore`](../../../aspose.words/compositenode/insertbefore/) i tabellen där du vill att raden ska infogas.
 
-### Exempel
+## Exempel
 
 Visar hur man bygger en kapslad tabell utan att använda ett dokumentbyggare.
 
@@ -81,7 +83,5 @@ private static Table CreateTable(Document doc, int rowCount, int cellCount, stri
 
 * class [DocumentBase](../../../aspose.words/documentbase/)
 * class [Row](../)
-* namnutrymme [Aspose.Words.Tables](../../row/)
+* namnutrymme [Aspose.Words.Tables](../../../aspose.words.tables/)
 * hopsättning [Aspose.Words](../../../)
-
-

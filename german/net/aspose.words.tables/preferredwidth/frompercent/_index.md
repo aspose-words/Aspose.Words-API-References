@@ -1,7 +1,9 @@
 ---
 title: PreferredWidth.FromPercent
-second_title: Aspose.Words für .NET-API-Referenz
-description: PreferredWidth methode. Eine Erstellungsmethode die eine neue Instanz zurückgibt die eine bevorzugte Breite darstellt die als Prozentsatz angegeben wird.
+linktitle: FromPercent
+articleTitle: FromPercent
+second_title: Aspose.Words für .NET
+description: PreferredWidth FromPercent methode. Eine Erstellungsmethode die eine neue Instanz zurückgibt die eine bevorzugte Breite darstellt die als Prozentsatz angegeben wird in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.tables/preferredwidth/frompercent/
@@ -18,7 +20,7 @@ public static PreferredWidth FromPercent(double percent)
 | --- | --- | --- |
 | percent | Double | Der Wert muss zwischen 0 und 100 liegen. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man eine Tabelle so einstellt, dass sie automatisch an 50 % der Seitenbreite angepasst wird.
 
@@ -77,7 +79,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertCellsWithPreferredWidths.docx");
 ### Siehe auch
 
 * class [PreferredWidth](../)
-* namensraum [Aspose.Words.Tables](../../preferredwidth/)
+* namensraum [Aspose.Words.Tables](../../../aspose.words.tables/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: HeaderFooter.IsLinkedToPrevious
-second_title: Referencia de API de Aspose.Words para .NET
-description: HeaderFooter propiedad. Verdadero si este encabezado o pie de página está vinculado al encabezado o pie de página correspondiente en la sección anterior.
+linktitle: IsLinkedToPrevious
+articleTitle: IsLinkedToPrevious
+second_title: Aspose.Words para .NET
+description: HeaderFooter IsLinkedToPrevious propiedad. Verdadero si este encabezado o pie de página está vinculado al encabezado o pie de página correspondiente en la sección anterior en C#.
 type: docs
 weight: 40
 url: /es/net/aspose.words/headerfooter/islinkedtoprevious/
@@ -14,13 +16,13 @@ Verdadero si este encabezado o pie de página está vinculado al encabezado o pi
 public bool IsLinkedToPrevious { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 El valor predeterminado es`verdadero`.
 
 Tenga en cuenta que cuando su enlace tiene un encabezado o pie de página, su contenido se borra.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo vincular encabezados y pies de página entre secciones.
 
@@ -85,7 +87,5 @@ doc.Save(ArtifactsDir + "HeaderFooter.Link.docx");
 ### Ver también
 
 * class [HeaderFooter](../)
-* espacio de nombres [Aspose.Words](../../headerfooter/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

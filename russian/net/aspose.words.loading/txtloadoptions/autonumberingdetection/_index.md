@@ -1,7 +1,9 @@
 ---
 title: TxtLoadOptions.AutoNumberingDetection
-second_title: Справочник по API Aspose.Words для .NET
-description: TxtLoadOptions свойство. Получает или задает логическое значение указывающее что при загрузке документа будет выполняться автоматическое обнаружение нумерации . Значение по умолчаниюистинный .
+linktitle: AutoNumberingDetection
+articleTitle: AutoNumberingDetection
+second_title: Aspose.Words для .NET
+description: TxtLoadOptions AutoNumberingDetection свойство. Получает или задает логическое значение указывающее что при загрузке документа будет выполняться автоматическое обнаружение нумерации . Значение по умолчаниюистинный  на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.loading/txtloadoptions/autonumberingdetection/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.loading/txtloadoptions/autonumberingdetection/
 public bool AutoNumberingDetection { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как отключить автоматическое определение нумерации.
 
@@ -26,7 +28,5 @@ Document doc = new Document(MyDir + "Number detection.txt", options);
 ### Смотрите также
 
 * class [TxtLoadOptions](../)
-* пространство имен [Aspose.Words.Loading](../../txtloadoptions/)
+* пространство имен [Aspose.Words.Loading](../../../aspose.words.loading/)
 * сборка [Aspose.Words](../../../)
-
-

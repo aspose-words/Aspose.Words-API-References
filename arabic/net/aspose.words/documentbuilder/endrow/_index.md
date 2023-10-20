@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.EndRow
-second_title: Aspose.Words لمراجع .NET API
-description: DocumentBuilder طريقة. إنهاء صف الجدول في المستند.
+linktitle: EndRow
+articleTitle: EndRow
+second_title: Aspose.Words لـ .NET
+description: DocumentBuilder EndRow طريقة. إنهاء صف الجدول في المستند في C#.
 type: docs
 weight: 240
 url: /ar/net/aspose.words/documentbuilder/endrow/
@@ -18,13 +20,13 @@ public Row EndRow()
 
 عقدة الصف التي تم الانتهاء منها للتو.
 
-### ملاحظات
+## ملاحظات
 
 يتصل`EndRow` لإنهاء صف الجدول. إذا اتصلت[`InsertCell`](../insertcell/) على الفور بعد ذلك، ثم يستمر الجدول في صف جديد.
 
 استخدم ال[`RowFormat`](../rowformat/) الخاصية لتحديد تنسيق الصف.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية دمج خلايا الجدول عموديًا.
 
@@ -166,7 +168,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
 
 * class [Row](../../../aspose.words.tables/row/)
 * class [DocumentBuilder](../)
-* مساحة الاسم [Aspose.Words](../../documentbuilder/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

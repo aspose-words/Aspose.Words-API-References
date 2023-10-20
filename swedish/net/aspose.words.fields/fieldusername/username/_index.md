@@ -1,7 +1,9 @@
 ---
 title: FieldUserName.UserName
-second_title: Aspose.Words för .NET API Referens
-description: FieldUserName fast egendom. Gest eller ställer in den nuvarande användarens namn.
+linktitle: UserName
+articleTitle: UserName
+second_title: Aspose.Words för .NET
+description: FieldUserName UserName fast egendom. Gest eller ställer in den nuvarande användarens namn i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.fields/fieldusername/username/
@@ -14,7 +16,7 @@ Gest eller ställer in den nuvarande användarens namn.
 public string UserName { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man använder fältet USERNAME.
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "Field.USERNAME.docx");
 ### Se även
 
 * class [FieldUserName](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldusername/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

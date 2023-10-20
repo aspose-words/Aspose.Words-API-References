@@ -1,7 +1,9 @@
 ---
 title: FormField.DropDownSelectedIndex
-second_title: Aspose.Words per .NET API Reference
-description: FormField proprietà. Ottiene o imposta lindice specificando lelemento attualmente selezionato in un campo del modulo a discesa.
+linktitle: DropDownSelectedIndex
+articleTitle: DropDownSelectedIndex
+second_title: Aspose.Words per .NET
+description: FormField DropDownSelectedIndex proprietà. Ottiene o imposta lindice specificando lelemento attualmente selezionato in un campo del modulo a discesa in C#.
 type: docs
 weight: 60
 url: /it/net/aspose.words.fields/formfield/dropdownselectedindex/
@@ -14,7 +16,7 @@ Ottiene o imposta l'indice specificando l'elemento attualmente selezionato in un
 public int DropDownSelectedIndex { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come inserire diversi tipi di campi modulo in un documento ed elaborarli utilizzando un'implementazione del visitatore del documento.
 
@@ -148,7 +150,5 @@ public class FormFieldVisitor : DocumentVisitor
 ### Guarda anche
 
 * class [FormField](../)
-* spazio dei nomi [Aspose.Words.Fields](../../formfield/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: SdtListItemCollection.RemoveAt
-second_title: Aspose.Words für .NET-API-Referenz
-description: SdtListItemCollection methode. Entfernt ein Listenelement am angegebenen Index.
+linktitle: RemoveAt
+articleTitle: RemoveAt
+second_title: Aspose.Words für .NET
+description: SdtListItemCollection RemoveAt methode. Entfernt ein Listenelement am angegebenen Index in C#.
 type: docs
 weight: 70
 url: /de/net/aspose.words.markup/sdtlistitemcollection/removeat/
@@ -18,7 +20,7 @@ public void RemoveAt(int index)
 | --- | --- | --- |
 | index | Int32 | Der nullbasierte Index des zu entfernenden Elements. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit strukturierten Dropdown-Dokument-Tags gearbeitet wird.
 
@@ -75,7 +77,5 @@ Assert.AreEqual(0, listItems.Count);
 ### Siehe auch
 
 * class [SdtListItemCollection](../)
-* namensraum [Aspose.Words.Markup](../../sdtlistitemcollection/)
+* namensraum [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum LineStyle
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.LineStyle تعداد. يحدد نمط الخط لـ aBorder .
+title: LineStyle Enum
+linktitle: LineStyle
+articleTitle: LineStyle
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.LineStyle تعداد. يحدد نمط الخط لـ aBorder  في C#.
 type: docs
 weight: 3450
 url: /ar/net/aspose.words/linestyle/
@@ -46,7 +48,7 @@ public enum LineStyle
 | Outset | `26` |  |
 | Inset | `27` |  |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج سلسلة محاطة بحد في مستند.
 
@@ -67,5 +69,3 @@ doc.Save(ArtifactsDir + "Border.FontBorder.docx");
 
 * مساحة الاسم [Aspose.Words](../../aspose.words/)
 * المجسم [Aspose.Words](../../)
-
-

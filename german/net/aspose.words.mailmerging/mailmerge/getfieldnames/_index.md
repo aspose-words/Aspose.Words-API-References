@@ -1,7 +1,9 @@
 ---
 title: MailMerge.GetFieldNames
-second_title: Aspose.Words für .NET-API-Referenz
-description: MailMerge methode. Gibt eine Sammlung von im Dokument verfügbaren Serienbrieffeldnamen zurück.
+linktitle: GetFieldNames
+articleTitle: GetFieldNames
+second_title: Aspose.Words für .NET
+description: MailMerge GetFieldNames methode. Gibt eine Sammlung von im Dokument verfügbaren Serienbrieffeldnamen zurück in C#.
 type: docs
 weight: 220
 url: /de/net/aspose.words.mailmerging/mailmerge/getfieldnames/
@@ -14,7 +16,7 @@ Gibt eine Sammlung von im Dokument verfügbaren Serienbrieffeldnamen zurück.
 public string[] GetFieldNames()
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Gibt vollständige Briefvorlagenfeldnamen einschließlich optionalem Präfix zurück. Eliminiert keine doppelten Feldnamen.
 
@@ -22,7 +24,7 @@ Bei jedem Aufruf wird ein neues String-Array erstellt.
 
 Enthält „Schnurrbart“-Feldnamen, wenn[`UseNonMergeFields`](../usenonmergefields/) Ist`WAHR`.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man Namen aller Zusammenführungsfelder in einem Dokument erhält.
 
@@ -58,7 +60,5 @@ doc.MailMerge.Execute(dataTable);
 ### Siehe auch
 
 * class [MailMerge](../)
-* namensraum [Aspose.Words.MailMerging](../../mailmerge/)
+* namensraum [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * Montage [Aspose.Words](../../../)
-
-

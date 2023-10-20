@@ -1,7 +1,9 @@
 ---
 title: ThumbnailGeneratingOptions.ThumbnailSize
-second_title: Aspose.Words für .NET-API-Referenz
-description: ThumbnailGeneratingOptions eigendom. Größe des generierten Miniaturbilds in Pixel. Standard ist 600 x 900.
+linktitle: ThumbnailSize
+articleTitle: ThumbnailSize
+second_title: Aspose.Words für .NET
+description: ThumbnailGeneratingOptions ThumbnailSize eigendom. Größe des generierten Miniaturbilds in Pixel. Standard ist 600 x 900 in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.rendering/thumbnailgeneratingoptions/thumbnailsize/
@@ -14,7 +16,7 @@ Größe des generierten Miniaturbilds in Pixel. Standard ist 600 x 900.
 public Size ThumbnailSize { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Miniaturansicht eines Dokuments aktualisiert wird.
 
@@ -42,7 +44,5 @@ doc.Save(ArtifactsDir + "Document.UpdateThumbnail.FirstImage.epub");
 ### Siehe auch
 
 * class [ThumbnailGeneratingOptions](../)
-* namensraum [Aspose.Words.Rendering](../../thumbnailgeneratingoptions/)
+* namensraum [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * Montage [Aspose.Words](../../../)
-
-

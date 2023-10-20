@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.Bold
-second_title: Aspose.Words for .NET API 参考
-description: DocumentBuilder 财产. 如果字体格式为粗体则为 True
+linktitle: Bold
+articleTitle: Bold
+second_title: 用于 .NET 的 Aspose.Words
+description: DocumentBuilder Bold 财产. 如果字体格式为粗体则为 True 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words/documentbuilder/bold/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/documentbuilder/bold/
 public bool Bold { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何使用文档生成器而不是邮件合并来填充数据MERGEFIELD。
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.FillMergeFields.docx");
 ### 也可以看看
 
 * class [DocumentBuilder](../)
-* 命名空间 [Aspose.Words](../../documentbuilder/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

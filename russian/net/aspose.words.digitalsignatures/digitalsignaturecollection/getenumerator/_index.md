@@ -1,7 +1,9 @@
 ---
 title: DigitalSignatureCollection.GetEnumerator
-second_title: Справочник по API Aspose.Words для .NET
-description: DigitalSignatureCollection метод. Возвращает объект перечислителя словаря который можно использовать для перебора всех элементов коллекции.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words для .NET
+description: DigitalSignatureCollection GetEnumerator метод. Возвращает объект перечислителя словаря который можно использовать для перебора всех элементов коллекции на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.digitalsignatures/digitalsignaturecollection/getenumerator/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.digitalsignatures/digitalsignaturecollection/getenumer
 public IEnumerator<DigitalSignature> GetEnumerator()
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как распечатать все цифровые подписи подписанного документа.
 
@@ -38,7 +40,5 @@ using (IEnumerator<DigitalSignature> enumerator = digitalSignatures.GetEnumerato
 
 * class [DigitalSignature](../../digitalsignature/)
 * class [DigitalSignatureCollection](../)
-* пространство имен [Aspose.Words.DigitalSignatures](../../digitalsignaturecollection/)
+* пространство имен [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * сборка [Aspose.Words](../../../)
-
-

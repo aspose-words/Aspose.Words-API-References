@@ -1,20 +1,22 @@
 ---
 title: FieldCitation.AnotherSourceTag
-second_title: Aspose.Words لمراجع .NET API
-description: FieldCitation ملكية. الحصول على أو تعيين قيمة تطابق بطاقة شعار قيمة العنصر لمصدر آخر ليتم تضمينه في الاقتباس.
+linktitle: AnotherSourceTag
+articleTitle: AnotherSourceTag
+second_title: Aspose.Words لـ .NET
+description: FieldCitation AnotherSourceTag ملكية. الحصول على أو تعيين قيمة تطابقبطاقة شعار قيمة العنصر لمصدر آخر ليتم تضمينه في الاقتباس في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.fields/fieldcitation/anothersourcetag/
 ---
 ## FieldCitation.AnotherSourceTag property
 
-الحصول على أو تعيين قيمة تطابق **بطاقة شعار** قيمة العنصر لمصدر آخر ليتم تضمينه في الاقتباس.
+الحصول على أو تعيين قيمة تطابق**بطاقة شعار** قيمة العنصر لمصدر آخر ليتم تضمينه في الاقتباس.
 
 ```csharp
 public string AnotherSourceTag { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع حقول CITATION وBIBLIOGRAPHY.
 
@@ -68,7 +70,5 @@ doc.Save(ArtifactsDir + "Field.CITATION.docx");
 ### أنظر أيضا
 
 * class [FieldCitation](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldcitation/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

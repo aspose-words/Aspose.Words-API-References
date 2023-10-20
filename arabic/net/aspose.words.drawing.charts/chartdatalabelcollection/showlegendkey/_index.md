@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabelCollection.ShowLegendKey
-second_title: Aspose.Words لمراجع .NET API
-description: ChartDataLabelCollection ملكية. يسمح بتحديد ما إذا كان سيتم عرض مفتاح وسيلة الإيضاح لتسميات البيانات الخاصة بالسلسلة بأكملها. القيمة الافتراضية هيخطأ شنيع .
+linktitle: ShowLegendKey
+articleTitle: ShowLegendKey
+second_title: Aspose.Words لـ .NET
+description: ChartDataLabelCollection ShowLegendKey ملكية. يسمح بتحديد ما إذا كان سيتم عرض مفتاح وسيلة الإيضاح لتسميات البيانات الخاصة بالسلسلة بأكملها. القيمة الافتراضية هيخطأ شنيع  في C#.
 type: docs
 weight: 110
 url: /ar/net/aspose.words.drawing.charts/chartdatalabelcollection/showlegendkey/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.drawing.charts/chartdatalabelcollection/showlegendkey/
 public bool ShowLegendKey { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 يمكن تجاوز القيمة المحددة لهذه الخاصية لتسمية بيانات فردية باستخدام [`ShowLegendKey`](../../chartdatalabel/showlegendkey/) الملكية.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التعامل مع تسميات البيانات الخاصة بالمخطط الدائري.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "Charts.DataLabelsPieChart.docx");
 ### أنظر أيضا
 
 * class [ChartDataLabelCollection](../)
-* مساحة الاسم [Aspose.Words.Drawing.Charts](../../chartdatalabelcollection/)
+* مساحة الاسم [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class LayoutOptions
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Layout.LayoutOptions сорт. Содержит параметры позволяющие управлять процессом макетирования документа.
+title: LayoutOptions Class
+linktitle: LayoutOptions
+articleTitle: LayoutOptions
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Layout.LayoutOptions сорт. Содержит параметры позволяющие управлять процессом макетирования документа на С#.
 type: docs
 weight: 3350
 url: /ru/net/aspose.words.layout/layoutoptions/
@@ -36,13 +38,13 @@ public class LayoutOptions
 | [ShowParagraphMarks](../../aspose.words.layout/layoutoptions/showparagraphmarks/) { get; set; } | Получает или задает индикатор того, отображаются ли знаки абзаца. Значение по умолчанию:`ЛОЖЬ` . |
 | [TextShaperFactory](../../aspose.words.layout/layoutoptions/textshaperfactory/) { get; set; } | Получает или устанавливает[`ITextShaperFactory`](../../aspose.words.shaping/itextshaperfactory/) реализация, используемая для функций рендеринга расширенной типографики. |
 
-### Примечания
+## Примечания
 
 Вы не создаете экземпляры этого класса напрямую. Использовать[`LayoutOptions`](../../aspose.words/document/layoutoptions/) свойство для доступа к параметрам макета для этого документа.
 
 Обратите внимание, что после изменения любого из параметров, присутствующих в этом классе,[`UpdatePageLayout`](../../aspose.words/document/updatepagelayout/) Метод следует вызывать, чтобы измененные параметры были применены к макету.
 
-### Примеры
+## Примеры
 
 Показывает, как скрыть текст в визуализированном выходном документе.
 
@@ -98,5 +100,3 @@ doc.Save(ArtifactsDir + "Document.LayoutOptionsRevisions.pdf");
 
 * пространство имен [Aspose.Words.Layout](../../aspose.words.layout/)
 * сборка [Aspose.Words](../../)
-
-

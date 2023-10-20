@@ -1,7 +1,9 @@
 ---
 title: IStructuredDocumentTag.Color
-second_title: Aspose.Words لمراجع .NET API
-description: IStructuredDocumentTag ملكية. الحصول على أو تعيين لون علامة المستند المنظمة.
+linktitle: Color
+articleTitle: Color
+second_title: Aspose.Words لـ .NET
+description: IStructuredDocumentTag Color ملكية. الحصول على أو تعيين لون علامة المستند المنظمة في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.markup/istructureddocumenttag/color/
@@ -17,7 +19,5 @@ public Color Color { get; set; }
 ### أنظر أيضا
 
 * interface [IStructuredDocumentTag](../)
-* مساحة الاسم [Aspose.Words.Markup](../../istructureddocumenttag/)
+* مساحة الاسم [Aspose.Words.Markup](../../../aspose.words.markup/)
 * المجسم [Aspose.Words](../../../)
-
-

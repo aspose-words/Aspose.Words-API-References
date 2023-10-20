@@ -1,7 +1,9 @@
 ---
 title: VariableCollection.Item
-second_title: Aspose.Words för .NET API Referens
-description: VariableCollection fast egendom. Hämtar eller ställer in en dokumentvariabel med det skiftlägesokänsliga namnet. null värden är inte tillåtna som en höger sida av uppgiften och kommer att ersättas av en tom sträng.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words för .NET
+description: VariableCollection Item fast egendom. Hämtar eller ställer in en dokumentvariabel med det skiftlägesokänsliga namnet. null värden är inte tillåtna som en höger sida av uppgiften och kommer att ersättas av en tom sträng i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words/variablecollection/item/
@@ -17,7 +19,7 @@ public string this[string name] { get; set; }
 ### Se även
 
 * class [VariableCollection](../)
-* namnutrymme [Aspose.Words](../../variablecollection/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
@@ -37,7 +39,5 @@ public string this[int index] { get; set; }
 ### Se även
 
 * class [VariableCollection](../)
-* namnutrymme [Aspose.Words](../../variablecollection/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

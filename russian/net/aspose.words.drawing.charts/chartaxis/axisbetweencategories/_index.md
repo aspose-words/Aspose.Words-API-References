@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.AxisBetweenCategories
-second_title: Справочник по API Aspose.Words для .NET
-description: ChartAxis свойство. Получает или задает флаг указывающий пересекает ли ось значений ось категорий между категориями.
+linktitle: AxisBetweenCategories
+articleTitle: AxisBetweenCategories
+second_title: Aspose.Words для .NET
+description: ChartAxis AxisBetweenCategories свойство. Получает или задает флаг указывающий пересекает ли ось значений ось категорий между категориями на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.drawing.charts/chartaxis/axisbetweencategories/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.drawing.charts/chartaxis/axisbetweencategories/
 public bool AxisBetweenCategories { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Свойство действует только для осей значений. Он не поддерживается новыми диаграммами MS Office 2016.
 
-### Примеры
+## Примеры
 
 Показывает, как заставить ось графика пересекаться в произвольном месте.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "Charts.AxisCross.docx");
 ### Смотрите также
 
 * class [ChartAxis](../)
-* пространство имен [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* пространство имен [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../../)
-
-

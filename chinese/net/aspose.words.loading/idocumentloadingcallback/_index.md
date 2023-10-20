@@ -1,7 +1,9 @@
 ---
-title: Interface IDocumentLoadingCallback
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Loading.IDocumentLoadingCallback 界面. 如果您想在加载文档期间调用自己的自定义方法请实现此接口
+title: IDocumentLoadingCallback Interface
+linktitle: IDocumentLoadingCallback
+articleTitle: IDocumentLoadingCallback
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Loading.IDocumentLoadingCallback 界面. 如果您想在加载文档期间调用自己的自定义方法请实现此接口 在 C#.
 type: docs
 weight: 3630
 url: /zh/net/aspose.words.loading/idocumentloadingcallback/
@@ -18,9 +20,9 @@ public interface IDocumentLoadingCallback
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Notify](../../aspose.words.loading/idocumentloadingcallback/notify/)(DocumentLoadingArgs) | 调用此函数以通知文档加载进度。 |
+| [Notify](../../aspose.words.loading/idocumentloadingcallback/notify/)(*[DocumentLoadingArgs](../documentloadingargs/)*) | 调用此函数以通知文档加载进度。 |
 
-### 例子
+## 例子
 
 演示如何在文档加载超出预期加载时间时通知用户。
 
@@ -85,5 +87,3 @@ public class LoadingProgressCallback : IDocumentLoadingCallback
 
 * 命名空间 [Aspose.Words.Loading](../../aspose.words.loading/)
 * 部件 [Aspose.Words](../../)
-
-

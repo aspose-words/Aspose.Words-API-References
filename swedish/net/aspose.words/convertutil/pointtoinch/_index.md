@@ -1,7 +1,9 @@
 ---
 title: ConvertUtil.PointToInch
-second_title: Aspose.Words för .NET API Referens
-description: ConvertUtil metod. Konverterar poäng till tum.
+linktitle: PointToInch
+articleTitle: PointToInch
+second_title: Aspose.Words för .NET
+description: ConvertUtil PointToInch metod. Konverterar poäng till tum i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words/convertutil/pointtoinch/
@@ -18,11 +20,11 @@ public static double PointToInch(double points)
 | --- | --- | --- |
 | points | Double | Värdet att konvertera. |
 
-### Anmärkningar
+## Anmärkningar
 
 1 tum är lika med 72 poäng.
 
-### Exempel
+## Exempel
 
 Visar hur man anger sidegenskaper i tum.
 
@@ -55,7 +57,5 @@ doc.Save(ArtifactsDir + "UtilityClasses.PointsAndInches.docx");
 ### Se även
 
 * class [ConvertUtil](../)
-* namnutrymme [Aspose.Words](../../convertutil/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

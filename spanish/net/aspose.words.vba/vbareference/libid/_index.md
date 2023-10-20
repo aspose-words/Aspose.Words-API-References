@@ -1,7 +1,9 @@
 ---
 title: VbaReference.LibId
-second_title: Referencia de API de Aspose.Words para .NET
-description: VbaReference propiedad. Obtiene un valor de cadena que contiene el identificador de una biblioteca de tipo de automatización.
+linktitle: LibId
+articleTitle: LibId
+second_title: Aspose.Words para .NET
+description: VbaReference LibId propiedad. Obtiene un valor de cadena que contiene el identificador de una biblioteca de tipo de automatización en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words.vba/vbareference/libid/
@@ -14,14 +16,14 @@ Obtiene un valor de cadena que contiene el identificador de una biblioteca de ti
 public abstract string LibId { get; }
 ```
 
-### Observaciones
+## Observaciones
 
 Dependiendo del tipo de referencia, el valor de esta propiedad puede ser:
 
 * una LibidReference especificada en 2.1.1.8 LibidReference de [MS-OVBA]: https://docs.microsoft.com/en-us/openspecs/office_file_formats/ms-ovba/3737ef6e-d819-4186-a5f2-6e258ddf66a5
 * una ProjectReference especificada en 2.1.1.12 ProjectReference de [MS-OVBA]: https://docs.microsoft.com/en-us/openspecs/office_file_formats/ms-ovba/9a45ac1a-f1ff-4ebd-958e-537701aa8131
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo obtener/eliminar un elemento de la colección de referencia de VBA.
 
@@ -95,7 +97,5 @@ private static string GetLibIdProjectPath(string libIdProject)
 ### Ver también
 
 * class [VbaReference](../)
-* espacio de nombres [Aspose.Words.Vba](../../vbareference/)
+* espacio de nombres [Aspose.Words.Vba](../../../aspose.words.vba/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.IsDecorative
-second_title: Aspose.Words för .NET API Referens
-description: ShapeBase fast egendom. Hämtar eller ställer in flaggan som anger om formen är dekorativ i dokumentet.
+linktitle: IsDecorative
+articleTitle: IsDecorative
+second_title: Aspose.Words för .NET
+description: ShapeBase IsDecorative fast egendom. Hämtar eller ställer in flaggan som anger om formen är dekorativ i dokumentet i C#.
 type: docs
 weight: 240
 url: /sv/net/aspose.words.drawing/shapebase/isdecorative/
@@ -14,11 +16,11 @@ Hämtar eller ställer in flaggan som anger om formen är dekorativ i dokumentet
 public bool IsDecorative { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Observera att formen inte är tom[`AlternativeText`](../alternativetext/) kan inte vara dekorativ.
 
-### Exempel
+## Exempel
 
 Visar hur man ställer in att formen är dekorativ.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "Shape.IsDecorative.docx");
 ### Se även
 
 * class [ShapeBase](../)
-* namnutrymme [Aspose.Words.Drawing](../../shapebase/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

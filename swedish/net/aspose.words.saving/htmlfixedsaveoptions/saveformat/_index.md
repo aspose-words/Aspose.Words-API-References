@@ -1,7 +1,9 @@
 ---
 title: HtmlFixedSaveOptions.SaveFormat
-second_title: Aspose.Words för .NET API Referens
-description: HtmlFixedSaveOptions fast egendom. Anger formatet som dokumentet kommer att sparas i om detta sparaalternativobjekt används. Kan endastHtmlFixed .
+linktitle: SaveFormat
+articleTitle: SaveFormat
+second_title: Aspose.Words för .NET
+description: HtmlFixedSaveOptions SaveFormat fast egendom. Anger formatet som dokumentet kommer att sparas i om detta sparaalternativobjekt används. Kan endastHtmlFixed  i C#.
 type: docs
 weight: 170
 url: /sv/net/aspose.words.saving/htmlfixedsaveoptions/saveformat/
@@ -14,7 +16,7 @@ Anger formatet som dokumentet kommer att sparas i om detta sparaalternativ-objek
 public override SaveFormat SaveFormat { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man använder en återuppringning för att skriva ut URI:erna för externa resurser som skapats när ett dokument konverterades till HTML.
 
@@ -94,7 +96,5 @@ private class ResourceUriPrinter : IResourceSavingCallback
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
 * class [HtmlFixedSaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../htmlfixedsaveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum ListTemplate
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Lists.ListTemplate 枚举. 指定 Microsoft Word 中可用的预定义列表格式之一
+title: ListTemplate Enum
+linktitle: ListTemplate
+articleTitle: ListTemplate
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Lists.ListTemplate 枚举. 指定 Microsoft Word 中可用的预定义列表格式之一 在 C#.
 type: docs
 weight: 3530
 url: /zh/net/aspose.words.lists/listtemplate/
@@ -41,13 +43,13 @@ public enum ListTemplate
 | OutlineHeadingsNumbers | `18` | 具有链接到标题样式的级别的大纲列表。 |
 | OutlineHeadingsChapter | `19` | 具有链接到标题样式的级别的大纲列表。 |
 
-### 评论
+## 评论
 
 列表模板值用作 the 的参数[`Add`](../listcollection/add/)方法。
 
 Aspose.Words 列表模板对应于 Microsoft Word 2003 中“项目符号和编号”对话框中的 21 个列表模板 available 。
 
-### 例子
+## 例子
 
 演示如何创建包含所有大纲标题列表模板的文档。
 
@@ -184,5 +186,3 @@ doc.Save(ArtifactsDir + "Lists.SpecifyListLevel.docx");
 
 * 命名空间 [Aspose.Words.Lists](../../aspose.words.lists/)
 * 部件 [Aspose.Words](../../)
-
-

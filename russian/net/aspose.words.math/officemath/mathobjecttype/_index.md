@@ -1,7 +1,9 @@
 ---
 title: OfficeMath.MathObjectType
-second_title: Справочник по API Aspose.Words для .NET
-description: OfficeMath свойство. Получает типMathObjectType этого объекта Office Math.
+linktitle: MathObjectType
+articleTitle: MathObjectType
+second_title: Aspose.Words для .NET
+description: OfficeMath MathObjectType свойство. Получает типMathObjectType этого объекта Office Math на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.math/officemath/mathobjecttype/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.math/officemath/mathobjecttype/
 public MathObjectType MathObjectType { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как распечатать структуру каждого узла офисной математики в документе.
 
@@ -107,7 +109,5 @@ public class OfficeMathStructurePrinter : DocumentVisitor
 
 * enum [MathObjectType](../../mathobjecttype/)
 * class [OfficeMath](../)
-* пространство имен [Aspose.Words.Math](../../officemath/)
+* пространство имен [Aspose.Words.Math](../../../aspose.words.math/)
 * сборка [Aspose.Words](../../../)
-
-

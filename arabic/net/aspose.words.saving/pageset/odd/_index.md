@@ -1,7 +1,9 @@
 ---
 title: PageSet.Odd
-second_title: Aspose.Words لمراجع .NET API
-description: PageSet ملكية. الحصول على مجموعة تحتوي على كافة الصفحات الفردية للمستند بترتيبها الأصلي.
+linktitle: Odd
+articleTitle: Odd
+second_title: Aspose.Words لـ .NET
+description: PageSet Odd ملكية. الحصول على مجموعة تحتوي على كافة الصفحات الفردية للمستند بترتيبها الأصلي في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.saving/pageset/odd/
@@ -14,14 +16,12 @@ url: /ar/net/aspose.words.saving/pageset/odd/
 public static PageSet Odd { get; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 تحتوي الصفحات الفردية على فهارس زوجية نظرًا لأن فهارس الصفحات تعتمد على الصفر.
 
 ### أنظر أيضا
 
 * class [PageSet](../)
-* مساحة الاسم [Aspose.Words.Saving](../../pageset/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

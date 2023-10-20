@@ -1,7 +1,9 @@
 ---
 title: Node.NodeType
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Node propriété. Obtient le type de ce nœud.
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words pour .NET
+description: Node NodeType propriété. Obtient le type de ce nœud en C#.
 type: docs
 weight: 50
 url: /fr/net/aspose.words/node/nodetype/
@@ -14,7 +16,7 @@ Obtient le type de ce nœud.
 public abstract NodeType NodeType { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment utiliser la propriété NextSibling d’un nœud pour énumérer ses enfants immédiats.
 
@@ -102,7 +104,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 
 * enum [NodeType](../../nodetype/)
 * class [Node](../)
-* espace de noms [Aspose.Words](../../node/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

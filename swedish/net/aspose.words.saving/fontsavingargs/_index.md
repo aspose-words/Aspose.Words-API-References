@@ -1,7 +1,9 @@
 ---
-title: Class FontSavingArgs
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Saving.FontSavingArgs klass. Tillhandahåller data förFontSaving händelse.
+title: FontSavingArgs Class
+linktitle: FontSavingArgs
+articleTitle: FontSavingArgs
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Saving.FontSavingArgs klass. Tillhandahåller data förFontSaving händelse i C#.
 type: docs
 weight: 5030
 url: /sv/net/aspose.words.saving/fontsavingargs/
@@ -32,7 +34,7 @@ public class FontSavingArgs
 | [OriginalFileName](../../aspose.words.saving/fontsavingargs/originalfilename/) { get; } | Hämtar det ursprungliga teckensnittsfilnamnet med ett tillägg. |
 | [OriginalFileSize](../../aspose.words.saving/fontsavingargs/originalfilesize/) { get; } | Får den ursprungliga teckensnittsfilstorleken. |
 
-### Anmärkningar
+## Anmärkningar
 
 När Aspose.Words sparar ett dokument till HTML eller relaterade format och[`ExportFontResources`](../htmlsaveoptions/exportfontresources/) är inställd på`Sann`, sparar varje teckensnittsämne för export till en separat fil.
 
@@ -44,7 +46,7 @@ För att bestämma om du vill spara en viss typsnittsresurs, använd[`IsExportNe
 
 För att spara teckensnitt i strömmar istället för filer, använd[`FontStream`](./fontstream/) fast egendom.
 
-### Exempel
+## Exempel
 
 Visar hur man definierar anpassad logik för att exportera teckensnitt när man sparar till HTML.
 
@@ -105,5 +107,3 @@ public class HandleFontSaving : IFontSavingCallback
 
 * namnutrymme [Aspose.Words.Saving](../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../)
-
-

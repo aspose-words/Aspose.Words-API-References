@@ -1,7 +1,9 @@
 ---
-title: Class ImageData
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Drawing.ImageData 班级. 定义形状的图像
+title: ImageData Class
+linktitle: ImageData
+articleTitle: ImageData
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Drawing.ImageData 班级. 定义形状的图像 在 C#.
 type: docs
 weight: 1060
 url: /zh/net/aspose.words.drawing/imagedata/
@@ -43,17 +45,16 @@ public class ImageData
 
 | 姓名 | 描述 |
 | --- | --- |
-| [FitImageToShape](../../aspose.words.drawing/imagedata/fitimagetoshape/)() |  |
-| [Save](../../aspose.words.drawing/imagedata/save/#save)(Stream) | 将图像保存到指定的流中。 |
-| [Save](../../aspose.words.drawing/imagedata/save/#save_1)(string) | 将图像保存到文件中。 |
-| [SetImage](../../aspose.words.drawing/imagedata/setimage/#setimage)(Image) | 设置形状显示的图像。 |
-| [SetImage](../../aspose.words.drawing/imagedata/setimage/#setimage_1)(Stream) | 设置形状显示的图像。 |
-| [SetImage](../../aspose.words.drawing/imagedata/setimage/#setimage_2)(string) | 设置形状显示的图像。 |
+| [Save](../../aspose.words.drawing/imagedata/save/#save)(*Stream*) | 将图像保存到指定的流中。 |
+| [Save](../../aspose.words.drawing/imagedata/save/#save_1)(*string*) | 将图像保存到文件中。 |
+| [SetImage](../../aspose.words.drawing/imagedata/setimage/#setimage)(*Image*) | 设置形状显示的图像。 |
+| [SetImage](../../aspose.words.drawing/imagedata/setimage/#setimage_1)(*Stream*) | 设置形状显示的图像。 |
+| [SetImage](../../aspose.words.drawing/imagedata/setimage/#setimage_2)(*string*) | 设置形状显示的图像。 |
 | [ToByteArray](../../aspose.words.drawing/imagedata/tobytearray/)() | 返回任何图像的图像字节，无论图像是存储还是链接。 |
 | [ToImage](../../aspose.words.drawing/imagedata/toimage/)() | 获取存储在形状中的图像Image对象. |
 | [ToStream](../../aspose.words.drawing/imagedata/tostream/)() | 创建并返回包含图像字节的流。 |
 
-### 评论
+## 评论
 
 使用[`ImageData`](../shape/imagedata/)属性来访问和修改形状内的图像。 您不创建`ImageData`直接上课。
 
@@ -63,7 +64,7 @@ public class ImageData
 
 要将图像存储在形状内，请使用[`SetImage`](./setimage/)方法。要将图像链接到形状，请设置[`SourceFullName`](./sourcefullname/)财产。
 
-### 例子
+## 例子
 
 演示如何从文档中提取图像，并将它们作为单独的文件保存到本地文件系统。
 
@@ -132,5 +133,3 @@ Assert.True(10000 > new FileInfo(ArtifactsDir + "Image.CreateLinkedImage.Linked.
 
 * 命名空间 [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../)
-
-

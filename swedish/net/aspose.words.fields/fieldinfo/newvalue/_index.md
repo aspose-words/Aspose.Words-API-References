@@ -1,7 +1,9 @@
 ---
 title: FieldInfo.NewValue
-second_title: Aspose.Words för .NET API Referens
-description: FieldInfo fast egendom. Hämtar eller ställer in ett valfritt värde som uppdaterar egenskapen.
+linktitle: NewValue
+articleTitle: NewValue
+second_title: Aspose.Words för .NET
+description: FieldInfo NewValue fast egendom. Hämtar eller ställer in ett valfritt värde som uppdaterar egenskapen i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.fields/fieldinfo/newvalue/
@@ -14,7 +16,7 @@ Hämtar eller ställer in ett valfritt värde som uppdaterar egenskapen.
 public string NewValue { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med INFO-fält.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "Field.INFO.docx");
 ### Se även
 
 * class [FieldInfo](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldinfo/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: TextPath.XScale
-second_title: Référence de l'API Aspose.Words pour .NET
-description: TextPath propriété. Détermine si un chemin de texte droit sera utilisé à la place du chemin de forme.
+linktitle: XScale
+articleTitle: XScale
+second_title: Aspose.Words pour .NET
+description: TextPath XScale propriété. Détermine si un chemin de texte droit sera utilisé à la place du chemin de forme en C#.
 type: docs
 weight: 200
 url: /fr/net/aspose.words.drawing/textpath/xscale/
@@ -14,13 +16,13 @@ Détermine si un chemin de texte droit sera utilisé à la place du chemin de fo
 public bool XScale { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 La valeur par défaut est`FAUX`.
 
 Si`vrai`le texte suit un chemin de gauche à droite le long de la valeur x de la limite inférieure de la forme.
 
-### Exemples
+## Exemples
 
 Montre comment travailler avec WordArt.
 
@@ -123,7 +125,5 @@ private static Shape AppendWordArt(Document doc, string text, string textFontFam
 ### Voir également
 
 * class [TextPath](../)
-* espace de noms [Aspose.Words.Drawing](../../textpath/)
+* espace de noms [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Assemblée [Aspose.Words](../../../)
-
-

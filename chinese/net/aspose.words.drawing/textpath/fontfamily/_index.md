@@ -1,7 +1,9 @@
 ---
 title: TextPath.FontFamily
-second_title: Aspose.Words for .NET API 参考
-description: TextPath 财产. 定义文本路径字体系列
+linktitle: FontFamily
+articleTitle: FontFamily
+second_title: 用于 .NET 的 Aspose.Words
+description: TextPath FontFamily 财产. 定义文本路径字体系列 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.drawing/textpath/fontfamily/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.drawing/textpath/fontfamily/
 public string FontFamily { get; set; }
 ```
 
-### 评论
+## 评论
 
 默认值为 Arial。
 
-### 例子
+## 例子
 
 演示如何使用艺术字。
 
@@ -121,7 +123,5 @@ private static Shape AppendWordArt(Document doc, string text, string textFontFam
 ### 也可以看看
 
 * class [TextPath](../)
-* 命名空间 [Aspose.Words.Drawing](../../textpath/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

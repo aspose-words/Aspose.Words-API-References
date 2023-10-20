@@ -1,7 +1,9 @@
 ---
-title: License.License
-second_title: Aspose.Words för .NET API Referens
-description: License byggare. Initierar en ny instans av den här klassen.
+title: License
+linktitle: License
+articleTitle: License
+second_title: Aspose.Words för .NET
+description: License byggare. Initierar en ny instans av den här klassen i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words/license/license/
@@ -14,7 +16,7 @@ Initierar en ny instans av den här klassen.
 public License()
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man initierar en licens för Aspose.Words med hjälp av en licensfil i det lokala filsystemet.
 
@@ -38,7 +40,5 @@ license.SetLicense("Aspose.Words.NET.lic");
 ### Se även
 
 * class [License](../)
-* namnutrymme [Aspose.Words](../../license/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

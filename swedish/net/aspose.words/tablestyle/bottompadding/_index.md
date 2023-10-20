@@ -1,7 +1,9 @@
 ---
 title: TableStyle.BottomPadding
-second_title: Aspose.Words för .NET API Referens
-description: TableStyle fast egendom. Hämtar eller ställer in mängden utrymme i poäng som ska läggas till under innehållet i tabellceller.
+linktitle: BottomPadding
+articleTitle: BottomPadding
+second_title: Aspose.Words för .NET
+description: TableStyle BottomPadding fast egendom. Hämtar eller ställer in mängden utrymme i poäng som ska läggas till under innehållet i tabellceller i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words/tablestyle/bottompadding/
@@ -14,7 +16,7 @@ Hämtar eller ställer in mängden utrymme (i poäng) som ska läggas till under
 public double BottomPadding { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man skapar anpassade stilinställningar för tabellen.
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "Table.TableStyleCreation.docx");
 ### Se även
 
 * class [TableStyle](../)
-* namnutrymme [Aspose.Words](../../tablestyle/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

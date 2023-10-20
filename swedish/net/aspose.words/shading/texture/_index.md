@@ -1,7 +1,9 @@
 ---
 title: Shading.Texture
-second_title: Aspose.Words för .NET API Referens
-description: Shading fast egendom. Får eller ställer in skuggningsstrukturen.
+linktitle: Texture
+articleTitle: Texture
+second_title: Aspose.Words för .NET
+description: Shading Texture fast egendom. Får eller ställer in skuggningsstrukturen i C#.
 type: docs
 weight: 70
 url: /sv/net/aspose.words/shading/texture/
@@ -14,7 +16,7 @@ Får eller ställer in skuggningsstrukturen.
 public TextureIndex Texture { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man dekorerar text med kanter och skuggningar.
 
@@ -42,7 +44,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.ApplyBordersAndShading.docx");
 
 * enum [TextureIndex](../../textureindex/)
 * class [Shading](../)
-* namnutrymme [Aspose.Words](../../shading/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

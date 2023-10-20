@@ -1,7 +1,9 @@
 ---
 title: TxtListIndentation.Character
-second_title: Référence de l'API Aspose.Words pour .NET
-description: TxtListIndentation propriété. Obtient ou définit le caractère à utiliser pour indenter les niveaux de liste. La valeur par défaut est 0 ce qui signifie quil ny a pas dindentation.
+linktitle: Character
+articleTitle: Character
+second_title: Aspose.Words pour .NET
+description: TxtListIndentation Character propriété. Obtient ou définit le caractère à utiliser pour indenter les niveaux de liste. La valeur par défaut est 0 ce qui signifie quil ny a pas dindentation en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.saving/txtlistindentation/character/
@@ -14,7 +16,7 @@ Obtient ou définit le caractère à utiliser pour indenter les niveaux de liste
 public char Character { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment configurer l’indentation de liste lors de l’enregistrement d’un document en texte brut.
 
@@ -54,7 +56,5 @@ Assert.AreEqual("1. Item 1\r\n" +
 ### Voir également
 
 * class [TxtListIndentation](../)
-* espace de noms [Aspose.Words.Saving](../../txtlistindentation/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

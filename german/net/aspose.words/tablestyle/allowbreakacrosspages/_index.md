@@ -1,7 +1,9 @@
 ---
 title: TableStyle.AllowBreakAcrossPages
-second_title: Aspose.Words für .NET-API-Referenz
-description: TableStyle eigendom. Ruft ein Flag ab oder setzt es das angibt ob Text in einer Tabellenzeile über einen Seitenumbruch geteilt werden darf.
+linktitle: AllowBreakAcrossPages
+articleTitle: AllowBreakAcrossPages
+second_title: Aspose.Words für .NET
+description: TableStyle AllowBreakAcrossPages eigendom. Ruft ein Flag ab oder setzt es das angibt ob Text in einer Tabellenzeile über einen Seitenumbruch geteilt werden darf in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words/tablestyle/allowbreakacrosspages/
@@ -14,11 +16,11 @@ Ruft ein Flag ab oder setzt es, das angibt, ob Text in einer Tabellenzeile über
 public bool AllowBreakAcrossPages { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Der Standardwert ist`WAHR` .
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie benutzerdefinierte Stileinstellungen für die Tabelle erstellen.
 
@@ -62,7 +64,5 @@ doc.Save(ArtifactsDir + "Table.TableStyleCreation.docx");
 ### Siehe auch
 
 * class [TableStyle](../)
-* namensraum [Aspose.Words](../../tablestyle/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

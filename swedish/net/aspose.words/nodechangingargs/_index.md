@@ -1,7 +1,9 @@
 ---
-title: Class NodeChangingArgs
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.NodeChangingArgs klass. Tillhandahåller data för metoder förINodeChangingCallback gränssnitt.
+title: NodeChangingArgs Class
+linktitle: NodeChangingArgs
+articleTitle: NodeChangingArgs
+second_title: Aspose.Words för .NET
+description: Aspose.Words.NodeChangingArgs klass. Tillhandahåller data för metoder förINodeChangingCallback gränssnitt i C#.
 type: docs
 weight: 4190
 url: /sv/net/aspose.words/nodechangingargs/
@@ -25,7 +27,7 @@ public class NodeChangingArgs
 | [Node](../../aspose.words/nodechangingargs/node/) { get; } | Får[`Node`](./node/) som läggs till eller tas bort. |
 | [OldParent](../../aspose.words/nodechangingargs/oldparent/) { get; } | Hämtar nodens förälder innan operationen började. |
 
-### Exempel
+## Exempel
 
 Visar hur du anpassar nodbyte med en återuppringning.
 
@@ -103,5 +105,3 @@ public class HandleNodeChangingFontChanger : INodeChangingCallback
 
 * namnutrymme [Aspose.Words](../../aspose.words/)
 * hopsättning [Aspose.Words](../../)
-
-

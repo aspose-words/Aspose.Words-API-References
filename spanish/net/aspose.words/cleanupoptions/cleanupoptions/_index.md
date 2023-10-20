@@ -1,7 +1,9 @@
 ---
-title: CleanupOptions.CleanupOptions
-second_title: Referencia de API de Aspose.Words para .NET
-description: CleanupOptions constructor. Constructor predeterminado
+title: CleanupOptions
+linktitle: CleanupOptions
+articleTitle: CleanupOptions
+second_title: Aspose.Words para .NET
+description: CleanupOptions constructor. Constructor predeterminado en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words/cleanupoptions/cleanupoptions/
@@ -17,7 +19,5 @@ public CleanupOptions()
 ### Ver también
 
 * class [CleanupOptions](../)
-* espacio de nombres [Aspose.Words](../../cleanupoptions/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

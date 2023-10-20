@@ -1,7 +1,9 @@
 ---
-title: Class NodeImporter
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.NodeImporter clase. Permite realizar de manera eficiente la importación repetida de nodos de un documento a otro.
+title: NodeImporter Class
+linktitle: NodeImporter
+articleTitle: NodeImporter
+second_title: Aspose.Words para .NET
+description: Aspose.Words.NodeImporter clase. Permite realizar de manera eficiente la importación repetida de nodos de un documento a otro en C#.
 type: docs
 weight: 4210
 url: /es/net/aspose.words/nodeimporter/
@@ -20,16 +22,16 @@ public class NodeImporter
 
 | Nombre | Descripción |
 | --- | --- |
-| [NodeImporter](nodeimporter/#constructor)(DocumentBase, DocumentBase, ImportFormatMode) | Inicializa una nueva instancia del`NodeImporter` clase. |
-| [NodeImporter](nodeimporter/#constructor_1)(DocumentBase, DocumentBase, ImportFormatMode, ImportFormatOptions) | Inicializa una nueva instancia del`NodeImporter` clase. |
+| [NodeImporter](nodeimporter/#constructor)(*[DocumentBase](../documentbase/), [DocumentBase](../documentbase/), [ImportFormatMode](../importformatmode/)*) | Inicializa una nueva instancia del`NodeImporter` clase. |
+| [NodeImporter](nodeimporter/#constructor_1)(*[DocumentBase](../documentbase/), [DocumentBase](../documentbase/), [ImportFormatMode](../importformatmode/), [ImportFormatOptions](../importformatoptions/)*) | Inicializa una nueva instancia del`NodeImporter` clase. |
 
 ## Métodos
 
 | Nombre | Descripción |
 | --- | --- |
-| [ImportNode](../../aspose.words/nodeimporter/importnode/)(Node, bool) | Importa un nodo de un documento a otro. |
+| [ImportNode](../../aspose.words/nodeimporter/importnode/)(*[Node](../node/), bool*) | Importa un nodo de un documento a otro. |
 
-### Observaciones
+## Observaciones
 
 Aspose.Words proporciona funcionalidad para copiar y mover fragmentos fácilmente entre documentos de Microsoft Word. Esto se conoce como "importar nodos". Antes de poder insertar un fragmento de un documento en otro, debe "importarlo". La importación crea un clon profundo del nodo original, listo para insertarse en el documento de destino.
 
@@ -43,7 +45,7 @@ Los desafíos surgen del hecho de que los estilos y las listas son diferentes en
 
 El`NodeImporter`La clase es como un contexto, que contiene las "tablas de traducción" durante la importación. Traduce correctamente entre estilos y listas en los documentos de origen y de destino.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo insertar el contenido de un documento en un marcador de otro documento.
 
@@ -112,5 +114,3 @@ static void InsertDocument(Node insertionDestination, Document docToInsert)
 
 * espacio de nombres [Aspose.Words](../../aspose.words/)
 * asamblea [Aspose.Words](../../)
-
-

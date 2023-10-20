@@ -1,20 +1,22 @@
 ---
 title: TxtSaveOptionsBase.Encoding
-second_title: Referencia de API de Aspose.Words para .NET
-description: TxtSaveOptionsBase propiedad. Especifica la codificación que se utilizará al exportar en formatos de texto. El valor predeterminado es Codificación.UTF8 .
+linktitle: Encoding
+articleTitle: Encoding
+second_title: Aspose.Words para .NET
+description: TxtSaveOptionsBase Encoding propiedad. Especifica la codificación que se utilizará al exportar en formatos de texto. El valor predeterminado esCodificación.UTF8  en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words.saving/txtsaveoptionsbase/encoding/
 ---
 ## TxtSaveOptionsBase.Encoding property
 
-Especifica la codificación que se utilizará al exportar en formatos de texto. El valor predeterminado es **Codificación.UTF8** .
+Especifica la codificación que se utilizará al exportar en formatos de texto. El valor predeterminado es**Codificación.UTF8** .
 
 ```csharp
 public Encoding Encoding { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo configurar la codificación para un documento de salida .txt.
 
@@ -49,7 +51,5 @@ Assert.AreEqual("? ? ? ? ?.\r\n", docText);
 ### Ver también
 
 * class [TxtSaveOptionsBase](../)
-* espacio de nombres [Aspose.Words.Saving](../../txtsaveoptionsbase/)
+* espacio de nombres [Aspose.Words.Saving](../../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../../)
-
-

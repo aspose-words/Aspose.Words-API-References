@@ -1,7 +1,9 @@
 ---
 title: PageSavingArgs.KeepPageStreamOpen
-second_title: Aspose.Words per .NET API Reference
-description: PageSavingArgs proprietà. Specifica se Aspose.Words deve mantenere aperto il flusso o chiuderlo dopo aver salvato una pagina del documento.
+linktitle: KeepPageStreamOpen
+articleTitle: KeepPageStreamOpen
+second_title: Aspose.Words per .NET
+description: PageSavingArgs KeepPageStreamOpen proprietà. Specifica se Aspose.Words deve mantenere aperto il flusso o chiuderlo dopo aver salvato una pagina del documento in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words.saving/pagesavingargs/keeppagestreamopen/
@@ -14,11 +16,11 @@ Specifica se Aspose.Words deve mantenere aperto il flusso o chiuderlo dopo aver 
 public bool KeepPageStreamOpen { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 L'impostazione predefinita è`falso` e Aspose.Words chiuderà lo stream che hai fornito nel file[`PageStream`](../pagestream/) proprietà dopo aver scritto una pagina di documento al suo interno. Specificare`VERO` per mantenere aperto il flusso.
 
-### Esempi
+## Esempi
 
 Mostra come utilizzare un callback per salvare un documento in HTML pagina per pagina.
 
@@ -75,7 +77,5 @@ private class CustomFileNamePageSavingCallback : IPageSavingCallback
 ### Guarda anche
 
 * class [PageSavingArgs](../)
-* spazio dei nomi [Aspose.Words.Saving](../../pagesavingargs/)
+* spazio dei nomi [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../../)
-
-

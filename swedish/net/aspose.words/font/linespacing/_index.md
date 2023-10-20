@@ -1,7 +1,9 @@
 ---
 title: Font.LineSpacing
-second_title: Aspose.Words för .NET API Referens
-description: Font fast egendom. Returnerar radavstånd för detta teckensnitt i punkter.
+linktitle: LineSpacing
+articleTitle: LineSpacing
+second_title: Aspose.Words för .NET
+description: Font LineSpacing fast egendom. Returnerar radavstånd för detta teckensnitt i punkter i C#.
 type: docs
 weight: 190
 url: /sv/net/aspose.words/font/linespacing/
@@ -14,7 +16,7 @@ Returnerar radavstånd för detta teckensnitt (i punkter).
 public double LineSpacing { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man får ett teckensnitts radavstånd, i punkter.
 
@@ -33,7 +35,5 @@ Assert.AreEqual(13.798828125d, builder.Font.LineSpacing);
 ### Se även
 
 * class [Font](../)
-* namnutrymme [Aspose.Words](../../font/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

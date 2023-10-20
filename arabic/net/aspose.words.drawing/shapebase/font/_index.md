@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.Font
-second_title: Aspose.Words لمراجع .NET API
-description: ShapeBase ملكية. يوفر الوصول إلى تنسيق الخط لهذا الكائن.
+linktitle: Font
+articleTitle: Font
+second_title: Aspose.Words لـ .NET
+description: ShapeBase Font ملكية. يوفر الوصول إلى تنسيق الخط لهذا الكائن في C#.
 type: docs
 weight: 190
 url: /ar/net/aspose.words.drawing/shapebase/font/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing/shapebase/font/
 public Font Font { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج مربع نص وتعيين خط محتوياته.
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "Shape.Font.docx");
 
 * class [Font](../../../aspose.words/font/)
 * class [ShapeBase](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../shapebase/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

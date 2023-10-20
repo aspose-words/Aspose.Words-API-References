@@ -1,7 +1,9 @@
 ---
 title: LayoutOptions.ShowParagraphMarks
-second_title: Référence de l'API Aspose.Words pour .NET
-description: LayoutOptions propriété. Obtient ou définit une indication indiquant si les marques de paragraphe sont rendues. La valeur par défaut estFAUX .
+linktitle: ShowParagraphMarks
+articleTitle: ShowParagraphMarks
+second_title: Aspose.Words pour .NET
+description: LayoutOptions ShowParagraphMarks propriété. Obtient ou définit une indication indiquant si les marques de paragraphe sont rendues. La valeur par défaut estFAUX  en C#.
 type: docs
 weight: 90
 url: /fr/net/aspose.words.layout/layoutoptions/showparagraphmarks/
@@ -14,7 +16,7 @@ Obtient ou définit une indication indiquant si les marques de paragraphe sont r
 public bool ShowParagraphMarks { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment afficher les marques de paragraphe dans un document de sortie rendu.
 
@@ -34,7 +36,5 @@ doc.Save(ArtifactsDir + "Document.LayoutOptionsParagraphMarks.pdf");
 ### Voir également
 
 * class [LayoutOptions](../)
-* espace de noms [Aspose.Words.Layout](../../layoutoptions/)
+* espace de noms [Aspose.Words.Layout](../../../aspose.words.layout/)
 * Assemblée [Aspose.Words](../../../)
-
-

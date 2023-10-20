@@ -1,7 +1,9 @@
 ---
 title: BookmarkCollection.GetEnumerator
-second_title: Aspose.Words لمراجع .NET API
-description: BookmarkCollection طريقة. يُرجع كائن العداد.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words لـ .NET
+description: BookmarkCollection GetEnumerator طريقة. يُرجع كائن العداد في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words/bookmarkcollection/getenumerator/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/bookmarkcollection/getenumerator/
 public IEnumerator<Bookmark> GetEnumerator()
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إضافة الإشارات المرجعية وتحديث محتوياتها.
 
@@ -104,7 +106,5 @@ public class BookmarkInfoPrinter : DocumentVisitor
 
 * class [Bookmark](../../bookmark/)
 * class [BookmarkCollection](../)
-* مساحة الاسم [Aspose.Words](../../bookmarkcollection/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

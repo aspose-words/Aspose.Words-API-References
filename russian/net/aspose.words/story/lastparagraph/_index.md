@@ -1,7 +1,9 @@
 ---
 title: Story.LastParagraph
-second_title: Справочник по API Aspose.Words для .NET
-description: Story свойство. Получает последний абзац истории.
+linktitle: LastParagraph
+articleTitle: LastParagraph
+second_title: Aspose.Words для .NET
+description: Story LastParagraph свойство. Получает последний абзац истории на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words/story/lastparagraph/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/story/lastparagraph/
 public Paragraph LastParagraph { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как переместить позицию курсора DocumentBuilder в указанный узел.
 
@@ -47,7 +49,5 @@ Assert.AreEqual("Run 2. \rRun 1. \rRun 3.", doc.GetText().Trim());
 
 * class [Paragraph](../../paragraph/)
 * class [Story](../)
-* пространство имен [Aspose.Words](../../story/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

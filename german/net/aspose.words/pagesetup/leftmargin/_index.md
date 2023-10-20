@@ -1,7 +1,9 @@
 ---
 title: PageSetup.LeftMargin
-second_title: Aspose.Words für .NET-API-Referenz
-description: PageSetup eigendom. Gibt den Abstand in Punkt zwischen dem linken Rand der Seite und der linken Grenze des Textkörpers zurück oder legt ihn fest.
+linktitle: LeftMargin
+articleTitle: LeftMargin
+second_title: Aspose.Words für .NET
+description: PageSetup LeftMargin eigendom. Gibt den Abstand in Punkt zwischen dem linken Rand der Seite und der linken Grenze des Textkörpers zurück oder legt ihn fest in C#.
 type: docs
 weight: 200
 url: /de/net/aspose.words/pagesetup/leftmargin/
@@ -14,7 +16,7 @@ Gibt den Abstand (in Punkt) zwischen dem linken Rand der Seite und der linken Gr
 public double LeftMargin { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Papiergröße, Ausrichtung, Ränder und andere Einstellungen für einen Abschnitt angepasst werden.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "PageSetup.PageMargins.docx");
 ### Siehe auch
 
 * class [PageSetup](../)
-* namensraum [Aspose.Words](../../pagesetup/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

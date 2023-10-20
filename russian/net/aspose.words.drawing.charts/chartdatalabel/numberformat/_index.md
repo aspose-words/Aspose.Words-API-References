@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabel.NumberFormat
-second_title: Справочник по API Aspose.Words для .NET
-description: ChartDataLabel свойство. Возвращает числовой формат родительского элемента.
+linktitle: NumberFormat
+articleTitle: NumberFormat
+second_title: Aspose.Words для .NET
+description: ChartDataLabel NumberFormat свойство. Возвращает числовой формат родительского элемента на С#.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.drawing.charts/chartdatalabel/numberformat/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.drawing.charts/chartdatalabel/numberformat/
 public ChartNumberFormat NumberFormat { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как применять метки к точкам данных на линейной диаграмме.
 
@@ -93,7 +95,5 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
 
 * class [ChartNumberFormat](../../chartnumberformat/)
 * class [ChartDataLabel](../)
-* пространство имен [Aspose.Words.Drawing.Charts](../../chartdatalabel/)
+* пространство имен [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../../)
-
-

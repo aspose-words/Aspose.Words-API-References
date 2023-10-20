@@ -1,7 +1,9 @@
 ---
 title: InlineStory.IsInsertRevision
-second_title: Aspose.Words for .NET API 参考
-description: InlineStory 财产. 如果在启用更改跟踪的情况下将此对象插入到 Microsoft Word 中则返回 true
+linktitle: IsInsertRevision
+articleTitle: IsInsertRevision
+second_title: 用于 .NET 的 Aspose.Words
+description: InlineStory IsInsertRevision 财产. 如果在启用更改跟踪的情况下将此对象插入到 Microsoft Word 中则返回 true 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words/inlinestory/isinsertrevision/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/inlinestory/isinsertrevision/
 public bool IsInsertRevision { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何查看 InlineStory 节点的修订相关属性。
 
@@ -62,7 +64,5 @@ Assert.IsTrue(footnotes[3].IsDeleteRevision);
 ### 也可以看看
 
 * class [InlineStory](../)
-* 命名空间 [Aspose.Words](../../inlinestory/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

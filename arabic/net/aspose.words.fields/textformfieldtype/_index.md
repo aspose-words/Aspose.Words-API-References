@@ -1,7 +1,9 @@
 ---
-title: Enum TextFormFieldType
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Fields.TextFormFieldType تعداد. يحدد نوع حقل النموذج النصي.
+title: TextFormFieldType Enum
+linktitle: TextFormFieldType
+articleTitle: TextFormFieldType
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Fields.TextFormFieldType تعداد. يحدد نوع حقل النموذج النصي في C#.
 type: docs
 weight: 2770
 url: /ar/net/aspose.words.fields/textformfieldtype/
@@ -25,7 +27,7 @@ public enum TextFormFieldType
 | CurrentTime | `4` | قيمة حقل النموذج النصي هي الوقت الحالي الذي يتم فيه تحديث الحقل. |
 | Calculated | `5` | يتم حساب قيمة حقل النموذج النصي من التعبير المحدد في the[`TextInputDefault`](../formfield/textinputdefault/) الملكية. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء حقول النموذج.
 
@@ -54,5 +56,3 @@ builder.Document.Save(ArtifactsDir + "DocumentBuilder.CreateForm.docx");
 
 * مساحة الاسم [Aspose.Words.Fields](../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../)
-
-

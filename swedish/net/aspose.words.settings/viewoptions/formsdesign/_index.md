@@ -1,7 +1,9 @@
 ---
 title: ViewOptions.FormsDesign
-second_title: Aspose.Words för .NET API Referens
-description: ViewOptions fast egendom. Anger om dokumentet är i formulärdesignläge.
+linktitle: FormsDesign
+articleTitle: FormsDesign
+second_title: Aspose.Words för .NET
+description: ViewOptions FormsDesign fast egendom. Anger om dokumentet är i formulärdesignläge i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.settings/viewoptions/formsdesign/
@@ -14,11 +16,11 @@ Anger om dokumentet är i formulärdesignläge.
 public bool FormsDesign { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Fungerar för närvarande endast för dokument i WordML-format.
 
-### Exempel
+## Exempel
 
 Visar hur man aktiverar/inaktiverar formulärdesignläge.
 
@@ -40,7 +42,5 @@ Assert.AreEqual(useFormsDesign,
 ### Se även
 
 * class [ViewOptions](../)
-* namnutrymme [Aspose.Words.Settings](../../viewoptions/)
+* namnutrymme [Aspose.Words.Settings](../../../aspose.words.settings/)
 * hopsättning [Aspose.Words](../../../)
-
-

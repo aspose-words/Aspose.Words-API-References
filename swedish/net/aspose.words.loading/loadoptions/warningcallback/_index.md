@@ -1,7 +1,9 @@
 ---
 title: LoadOptions.WarningCallback
-second_title: Aspose.Words för .NET API Referens
-description: LoadOptions fast egendom. Anropas under en laddningsoperation när ett problem upptäcks som kan resultera i förlust av data eller formatering.
+linktitle: WarningCallback
+articleTitle: WarningCallback
+second_title: Aspose.Words för .NET
+description: LoadOptions WarningCallback fast egendom. Anropas under en laddningsoperation när ett problem upptäcks som kan resultera i förlust av data eller formatering i C#.
 type: docs
 weight: 170
 url: /sv/net/aspose.words.loading/loadoptions/warningcallback/
@@ -14,7 +16,7 @@ Anropas under en laddningsoperation, när ett problem upptäcks som kan resulter
 public IWarningCallback WarningCallback { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man skriver ut och lagrar varningar som uppstår när dokument laddas.
 
@@ -59,7 +61,5 @@ private class DocumentLoadingWarningCallback : IWarningCallback
 
 * interface [IWarningCallback](../../../aspose.words/iwarningcallback/)
 * class [LoadOptions](../)
-* namnutrymme [Aspose.Words.Loading](../../loadoptions/)
+* namnutrymme [Aspose.Words.Loading](../../../aspose.words.loading/)
 * hopsättning [Aspose.Words](../../../)
-
-

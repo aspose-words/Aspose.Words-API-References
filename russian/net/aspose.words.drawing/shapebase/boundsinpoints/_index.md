@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.BoundsInPoints
-second_title: Справочник по API Aspose.Words для .NET
-description: ShapeBase свойство. Получает местоположение и размер содержащего блока фигуры в точках относительно привязки самой верхней фигуры.
+linktitle: BoundsInPoints
+articleTitle: BoundsInPoints
+second_title: Aspose.Words для .NET
+description: ShapeBase BoundsInPoints свойство. Получает местоположение и размер содержащего блока фигуры в точках относительно привязки самой верхней фигуры на С#.
 type: docs
 weight: 80
 url: /ru/net/aspose.words.drawing/shapebase/boundsinpoints/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.drawing/shapebase/boundsinpoints/
 public RectangleF BoundsInPoints { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как проверить форму, содержащую границы блоков.
 
@@ -81,7 +83,5 @@ doc.Save(ArtifactsDir + "Shape.Bounds.docx");
 ### Смотрите также
 
 * class [ShapeBase](../)
-* пространство имен [Aspose.Words.Drawing](../../shapebase/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

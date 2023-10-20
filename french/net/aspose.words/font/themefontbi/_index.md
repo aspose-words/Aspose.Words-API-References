@@ -1,7 +1,9 @@
 ---
 title: Font.ThemeFontBi
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Font propriété. Obtient ou définit la police du thème dans le jeu de polices appliqué associé à ce thème.Font object dans un document linguistique rédigé de droite à gauche.
+linktitle: ThemeFontBi
+articleTitle: ThemeFontBi
+second_title: Aspose.Words pour .NET
+description: Font ThemeFontBi propriété. Obtient ou définit la police du thème dans le jeu de polices appliqué associé à ce thème.Font object dans un document linguistique rédigé de droite à gauche en C#.
 type: docs
 weight: 490
 url: /fr/net/aspose.words/font/themefontbi/
@@ -14,7 +16,7 @@ Obtient ou définit la police du thème dans le jeu de polices appliqué associ�
 public ThemeFont ThemeFontBi { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment utiliser les polices et les couleurs du thème.
 
@@ -101,7 +103,5 @@ Assert.AreEqual(Color.Blue.ToArgb(), font.Color.ToArgb());
 
 * enum [ThemeFont](../../../aspose.words.themes/themefont/)
 * class [Font](../)
-* espace de noms [Aspose.Words](../../font/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

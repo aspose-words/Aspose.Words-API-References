@@ -1,7 +1,9 @@
 ---
-title: Enum BuildingBlockType
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.BuildingBlocks.BuildingBlockType énumération. Spécifie un type de bloc de construction. Le type peut affecter la visibilité et le comportement du building block dans Microsoft Word.
+title: BuildingBlockType Enum
+linktitle: BuildingBlockType
+articleTitle: BuildingBlockType
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.BuildingBlocks.BuildingBlockType énumération. Spécifie un type de bloc de construction. Le type peut affecter la visibilité et le comportement du building block dans Microsoft Word en C#.
 type: docs
 weight: 170
 url: /fr/net/aspose.words.buildingblocks/buildingblocktype/
@@ -28,11 +30,11 @@ public enum BuildingBlockType
 | All | `7` | Le bloc de construction est associé à tous les types. |
 | Default | `0` | Enregistrer sousNone . |
 
-### Remarques
+## Remarques
 
-Correspond au **ST_DocPartType** tapez OOXML.
+Correspond au**ST_DocPartType** tapez OOXML.
 
-### Exemples
+## Exemples
 
 Montre comment ajouter un bloc de construction personnalisé à un document.
 
@@ -130,5 +132,3 @@ public class BuildingBlockVisitor : DocumentVisitor
 
 * espace de noms [Aspose.Words.BuildingBlocks](../../aspose.words.buildingblocks/)
 * Assemblée [Aspose.Words](../../)
-
-

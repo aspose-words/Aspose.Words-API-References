@@ -1,7 +1,9 @@
 ---
 title: Font.ItalicBi
-second_title: Aspose.Words für .NET-API-Referenz
-description: Font eigendom. True wenn der Text von rechts nach links kursiv formatiert ist.
+linktitle: ItalicBi
+articleTitle: ItalicBi
+second_title: Aspose.Words für .NET
+description: Font ItalicBi eigendom. True wenn der Text von rechts nach links kursiv formatiert ist in C#.
 type: docs
 weight: 170
 url: /de/net/aspose.words/font/italicbi/
@@ -14,7 +16,7 @@ True, wenn der Text von rechts nach links kursiv formatiert ist.
 public bool ItalicBi { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie separate Sätze von Schriftarteinstellungen für Text mit der Schreibrichtung von rechts nach links und von rechts nach links definiert werden.
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "Font.Bidi.docx");
 ### Siehe auch
 
 * class [Font](../)
-* namensraum [Aspose.Words](../../font/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

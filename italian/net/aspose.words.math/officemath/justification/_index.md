@@ -1,7 +1,9 @@
 ---
 title: OfficeMath.Justification
-second_title: Aspose.Words per .NET API Reference
-description: OfficeMath proprietà. Ottiene/imposta la giustificazione matematica di Office.
+linktitle: Justification
+articleTitle: Justification
+second_title: Aspose.Words per .NET
+description: OfficeMath Justification proprietà. Ottiene/imposta la giustificazione matematica di Office in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words.math/officemath/justification/
@@ -14,7 +16,7 @@ Ottiene/imposta la giustificazione matematica di Office.
 public OfficeMathJustification Justification { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 La giustificazione non può essere impostata su Office Math con il tipo di formato di visualizzazioneInline.
 
@@ -22,7 +24,7 @@ La giustificazione in linea non può essere impostata sul tipo Office Math con f
 
 Corrispondente[`DisplayType`](../displaytype/) deve essere impostato prima di impostare la giustificazione matematica di Office.
 
-### Esempi
+## Esempi
 
 Mostra come impostare la formattazione della visualizzazione della matematica di Office.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "Shape.OfficeMath.docx");
 
 * enum [OfficeMathJustification](../../officemathjustification/)
 * class [OfficeMath](../)
-* spazio dei nomi [Aspose.Words.Math](../../officemath/)
+* spazio dei nomi [Aspose.Words.Math](../../../aspose.words.math/)
 * assemblea [Aspose.Words](../../../)
-
-

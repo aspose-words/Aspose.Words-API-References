@@ -1,7 +1,9 @@
 ---
 title: Font.StyleIdentifier
-second_title: Aspose.Words for .NET API 参考
-description: Font 财产. 获取或设置应用于此格式的字符样式的区域设置独立样式标识符
+linktitle: StyleIdentifier
+articleTitle: StyleIdentifier
+second_title: 用于 .NET 的 Aspose.Words
+description: Font StyleIdentifier 财产. 获取或设置应用于此格式的字符样式的区域设置独立样式标识符 在 C#.
 type: docs
 weight: 410
 url: /zh/net/aspose.words/font/styleidentifier/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/font/styleidentifier/
 public StyleIdentifier StyleIdentifier { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何更改现有文本的样式。
 
@@ -49,7 +51,5 @@ doc.Save(ArtifactsDir + "Font.ChangeStyle.docx");
 
 * enum [StyleIdentifier](../../styleidentifier/)
 * class [Font](../)
-* 命名空间 [Aspose.Words](../../font/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

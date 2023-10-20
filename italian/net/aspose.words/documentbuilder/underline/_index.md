@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.Underline
-second_title: Aspose.Words per .NET API Reference
-description: DocumentBuilder proprietà. Ottiene/imposta il tipo di sottolineatura per il carattere corrente.
+linktitle: Underline
+articleTitle: Underline
+second_title: Aspose.Words per .NET
+description: DocumentBuilder Underline proprietà. Ottiene/imposta il tipo di sottolineatura per il carattere corrente in C#.
 type: docs
 weight: 190
 url: /it/net/aspose.words/documentbuilder/underline/
@@ -14,7 +16,7 @@ Ottiene/imposta il tipo di sottolineatura per il carattere corrente.
 public Underline Underline { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come formattare il testo inserito da un generatore di documenti.
 
@@ -36,7 +38,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertUnderline.docx");
 
 * enum [Underline](../../underline/)
 * class [DocumentBuilder](../)
-* spazio dei nomi [Aspose.Words](../../documentbuilder/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

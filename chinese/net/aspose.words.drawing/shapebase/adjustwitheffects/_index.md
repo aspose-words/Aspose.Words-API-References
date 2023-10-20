@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.AdjustWithEffects
-second_title: Aspose.Words for .NET API 参考
-description: ShapeBase 方法. 添加效果范围的源矩形值并返回最终矩形
+linktitle: AdjustWithEffects
+articleTitle: AdjustWithEffects
+second_title: 用于 .NET 的 Aspose.Words
+description: ShapeBase AdjustWithEffects 方法. 添加效果范围的源矩形值并返回最终矩形 在 C#.
 type: docs
 weight: 620
 url: /zh/net/aspose.words.drawing/shapebase/adjustwitheffects/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.drawing/shapebase/adjustwitheffects/
 public RectangleF AdjustWithEffects(RectangleF source)
 ```
 
-### 例子
+## 例子
 
 演示如何检查形状效果如何影响形状的边界。
 
@@ -83,7 +85,5 @@ Assert.AreEqual(279, shape.BoundsWithEffects.Height);
 ### 也可以看看
 
 * class [ShapeBase](../)
-* 命名空间 [Aspose.Words.Drawing](../../shapebase/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

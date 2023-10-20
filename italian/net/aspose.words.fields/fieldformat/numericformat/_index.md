@@ -1,7 +1,9 @@
 ---
 title: FieldFormat.NumericFormat
-second_title: Aspose.Words per .NET API Reference
-description: FieldFormat proprietà. Ottiene o imposta una formattazione applicata al risultato di un campo numerico. Corrisponde allopzione .
+linktitle: NumericFormat
+articleTitle: NumericFormat
+second_title: Aspose.Words per .NET
+description: FieldFormat NumericFormat proprietà. Ottiene o imposta una formattazione applicata al risultato di un campo numerico. Corrisponde allopzione  in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words.fields/fieldformat/numericformat/
@@ -14,7 +16,7 @@ Ottiene o imposta una formattazione applicata al risultato di un campo numerico.
 public string NumericFormat { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come formattare i risultati dei campi.
 
@@ -78,7 +80,5 @@ Assert.AreEqual(0, format.GeneralFormats.Count);
 ### Guarda anche
 
 * class [FieldFormat](../)
-* spazio dei nomi [Aspose.Words.Fields](../../fieldformat/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldPrint.PostScriptGroup
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldPrint свойство. Получает или задает прямоугольник рисования над которым работают инструкции PostScript.
+linktitle: PostScriptGroup
+articleTitle: PostScriptGroup
+second_title: Aspose.Words для .NET
+description: FieldPrint PostScriptGroup свойство. Получает или задает прямоугольник рисования над которым работают инструкции PostScript на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.fields/fieldprint/postscriptgroup/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldprint/postscriptgroup/
 public string PostScriptGroup { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, что нужно вставить поле ПЕЧАТЬ.
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "Field.PRINT.docx");
 ### Смотрите также
 
 * class [FieldPrint](../)
-* пространство имен [Aspose.Words.Fields](../../fieldprint/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

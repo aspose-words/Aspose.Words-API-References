@@ -1,7 +1,9 @@
 ---
 title: FieldRef.NumberSeparator
-second_title: Aspose.Words لمراجع .NET API
-description: FieldRef ملكية. الحصول على أو تعيين تسلسل الأحرف المستخدم لفصل أرقام التسلسل وأرقام الصفحات.
+linktitle: NumberSeparator
+articleTitle: NumberSeparator
+second_title: Aspose.Words لـ .NET
+description: FieldRef NumberSeparator ملكية. الحصول على أو تعيين تسلسل الأحرف المستخدم لفصل أرقام التسلسل وأرقام الصفحات في C#.
 type: docs
 weight: 90
 url: /ar/net/aspose.words.fields/fieldref/numberseparator/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldref/numberseparator/
 public string NumberSeparator { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج حقول REF للإشارة إلى الإشارات المرجعية.
 
@@ -104,7 +106,5 @@ private static FieldRef InsertFieldRef(DocumentBuilder builder, string bookmarkN
 ### أنظر أيضا
 
 * class [FieldRef](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldref/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: OutlineOptions.ExpandedOutlineLevels
-second_title: Referencia de API de Aspose.Words para .NET
-description: OutlineOptions propiedad. Especifica cuántos niveles en el esquema del documento se mostrarán expandidos cuando se visualice el archivo.
+linktitle: ExpandedOutlineLevels
+articleTitle: ExpandedOutlineLevels
+second_title: Aspose.Words para .NET
+description: OutlineOptions ExpandedOutlineLevels propiedad. Especifica cuántos niveles en el esquema del documento se mostrarán expandidos cuando se visualice el archivo en C#.
 type: docs
 weight: 60
 url: /es/net/aspose.words.saving/outlineoptions/expandedoutlinelevels/
@@ -14,7 +16,7 @@ Especifica cuántos niveles en el esquema del documento se mostrarán expandidos
 public int ExpandedOutlineLevels { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 Tenga en cuenta que estas opciones no funcionarán al guardar en XPS.
 
@@ -22,7 +24,7 @@ Especifique 0 y el esquema del documento se contraerá; especifique 1 y los elem
 
 El valor predeterminado es 0. El rango válido es de 0 a 9.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo convertir un documento completo a PDF con tres niveles en el esquema del documento.
 
@@ -81,7 +83,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.ExpandedOutlineLevels.pdf", options);
 ### Ver también
 
 * class [OutlineOptions](../)
-* espacio de nombres [Aspose.Words.Saving](../../outlineoptions/)
+* espacio de nombres [Aspose.Words.Saving](../../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../../)
-
-

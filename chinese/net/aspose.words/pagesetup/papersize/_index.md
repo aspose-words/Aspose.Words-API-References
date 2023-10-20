@@ -1,7 +1,9 @@
 ---
 title: PageSetup.PaperSize
-second_title: Aspose.Words for .NET API 参考
-description: PageSetup 财产. 返回或设置纸张尺寸
+linktitle: PaperSize
+articleTitle: PaperSize
+second_title: 用于 .NET 的 Aspose.Words
+description: PageSetup PaperSize 财产. 返回或设置纸张尺寸 在 C#.
 type: docs
 weight: 350
 url: /zh/net/aspose.words/pagesetup/papersize/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words/pagesetup/papersize/
 public PaperSize PaperSize { get; set; }
 ```
 
-### 评论
+## 评论
 
 设置此属性更新[`PageWidth`](../pagewidth/)和[`PageHeight`](../pageheight/)value. 将此值设置为Custom不改变现有的价值观。
 
-### 例子
+## 例子
 
 展示如何调整纸张尺寸、方向、边距以及某个部分的其他设置。
 
@@ -129,7 +131,5 @@ doc.Save(ArtifactsDir + "Section.CreateManually.docx");
 
 * enum [PaperSize](../../papersize/)
 * class [PageSetup](../)
-* 命名空间 [Aspose.Words](../../pagesetup/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.SpacingInWholePoints
-second_title: Référence de l'API Aspose.Words pour .NET
-description: CompatibilityOptions propriété. Développer/condenser uniquement le texte par points entiers.
+linktitle: SpacingInWholePoints
+articleTitle: SpacingInWholePoints
+second_title: Aspose.Words pour .NET
+description: CompatibilityOptions SpacingInWholePoints propriété. Développer/condenser uniquement le texte par points entiers en C#.
 type: docs
 weight: 450
 url: /fr/net/aspose.words.settings/compatibilityoptions/spacinginwholepoints/
@@ -17,7 +19,5 @@ public bool SpacingInWholePoints { get; set; }
 ### Voir également
 
 * class [CompatibilityOptions](../)
-* espace de noms [Aspose.Words.Settings](../../compatibilityoptions/)
+* espace de noms [Aspose.Words.Settings](../../../aspose.words.settings/)
 * Assemblée [Aspose.Words](../../../)
-
-

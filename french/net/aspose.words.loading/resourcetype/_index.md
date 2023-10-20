@@ -1,7 +1,9 @@
 ---
-title: Enum ResourceType
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Loading.ResourceType énumération. Type de ressource chargée.
+title: ResourceType Enum
+linktitle: ResourceType
+articleTitle: ResourceType
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Loading.ResourceType énumération. Type de ressource chargée en C#.
 type: docs
 weight: 3700
 url: /fr/net/aspose.words.loading/resourcetype/
@@ -22,7 +24,7 @@ public enum ResourceType
 | CssStyleSheet | `1` | Feuille de style CSS. |
 | Document | `2` | Document. |
 
-### Exemples
+## Exemples
 
 Montre comment personnaliser le processus de chargement de ressources externes dans un document.
 
@@ -86,5 +88,3 @@ private class ImageNameHandler : IResourceLoadingCallback
 
 * espace de noms [Aspose.Words.Loading](../../aspose.words.loading/)
 * Assemblée [Aspose.Words](../../)
-
-

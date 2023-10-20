@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitEditableRangeStart
-second_title: Référence de l'API Aspose.Words pour .NET
-description: DocumentVisitor méthode. Appelé lorsquun début dune plage modifiable est rencontré dans le document.
+linktitle: VisitEditableRangeStart
+articleTitle: VisitEditableRangeStart
+second_title: Aspose.Words pour .NET
+description: DocumentVisitor VisitEditableRangeStart méthode. Appelé lorsquun début dune plage modifiable est rencontré dans le document en C#.
 type: docs
 weight: 170
 url: /fr/net/aspose.words/documentvisitor/visiteditablerangestart/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitEditableRangeStart(EditableRangeStart editable
 
 UN[`VisitorAction`](../../visitoraction/) valeur qui spécifie comment continuer l’énumération.
 
-### Exemples
+## Exemples
 
 Montre comment imprimer la structure des nœuds de chaque plage modifiable dans un document.
 
@@ -118,7 +120,5 @@ public class EditableRangeStructurePrinter : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [EditableRangeStart](../../editablerangestart/)
 * class [DocumentVisitor](../)
-* espace de noms [Aspose.Words](../../documentvisitor/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

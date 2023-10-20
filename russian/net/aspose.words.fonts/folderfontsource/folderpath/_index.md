@@ -1,7 +1,9 @@
 ---
 title: FolderFontSource.FolderPath
-second_title: Справочник по API Aspose.Words для .NET
-description: FolderFontSource свойство. Путь к папке.
+linktitle: FolderPath
+articleTitle: FolderPath
+second_title: Aspose.Words для .NET
+description: FolderFontSource FolderPath свойство. Путь к папке на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.fonts/folderfontsource/folderpath/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fonts/folderfontsource/folderpath/
 public string FolderPath { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как использовать локальную системную папку, содержащую шрифты, в качестве источника шрифтов.
 
@@ -35,7 +37,5 @@ Assert.AreEqual(1, folderFontSource.Priority);
 ### Смотрите также
 
 * class [FolderFontSource](../)
-* пространство имен [Aspose.Words.Fonts](../../folderfontsource/)
+* пространство имен [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * сборка [Aspose.Words](../../../)
-
-

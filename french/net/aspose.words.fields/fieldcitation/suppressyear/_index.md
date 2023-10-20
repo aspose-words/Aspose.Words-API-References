@@ -1,7 +1,9 @@
 ---
 title: FieldCitation.SuppressYear
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldCitation propriété. Obtient ou définit si les informations sur lannée sont supprimées de la citation.
+linktitle: SuppressYear
+articleTitle: SuppressYear
+second_title: Aspose.Words pour .NET
+description: FieldCitation SuppressYear propriété. Obtient ou définit si les informations sur lannée sont supprimées de la citation en C#.
 type: docs
 weight: 100
 url: /fr/net/aspose.words.fields/fieldcitation/suppressyear/
@@ -14,7 +16,7 @@ Obtient ou définit si les informations sur l'année sont supprimées de la cita
 public bool SuppressYear { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment travailler avec les champs CITATION et BIBLIOGRAPHIE.
 
@@ -68,7 +70,5 @@ doc.Save(ArtifactsDir + "Field.CITATION.docx");
 ### Voir également
 
 * class [FieldCitation](../)
-* espace de noms [Aspose.Words.Fields](../../fieldcitation/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

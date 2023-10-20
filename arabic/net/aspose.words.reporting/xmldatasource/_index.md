@@ -1,7 +1,9 @@
 ---
-title: Class XmlDataSource
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Reporting.XmlDataSource فصل. يوفر الوصول إلى بيانات ملف XML أو الدفق لاستخدامه في التقرير.
+title: XmlDataSource Class
+linktitle: XmlDataSource
+articleTitle: XmlDataSource
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Reporting.XmlDataSource فصل. يوفر الوصول إلى بيانات ملف XML أو الدفق لاستخدامه في التقرير في C#.
 type: docs
 weight: 4750
 url: /ar/net/aspose.words.reporting/xmldatasource/
@@ -20,16 +22,16 @@ public class XmlDataSource
 
 | اسم | وصف |
 | --- | --- |
-| [XmlDataSource](xmldatasource/#constructor)(Stream) | إنشاء مصدر بيانات جديد ببيانات من تدفق XML باستخدام الخيارات الافتراضية لتحميل بيانات XML. |
-| [XmlDataSource](xmldatasource/#constructor_4)(string) | إنشاء مصدر بيانات جديد ببيانات من ملف XML باستخدام الخيارات الافتراضية لتحميل بيانات XML. |
-| [XmlDataSource](xmldatasource/#constructor_2)(Stream, Stream) | إنشاء مصدر بيانات جديد ببيانات من دفق XML باستخدام دفق تعريف مخطط XML. يتم استخدام options الافتراضية لتحميل بيانات XML. |
-| [XmlDataSource](xmldatasource/#constructor_1)(Stream, XmlDataLoadOptions) | إنشاء مصدر بيانات جديد ببيانات من تدفق XML باستخدام الخيارات المحددة لتحميل بيانات XML. |
-| [XmlDataSource](xmldatasource/#constructor_6)(string, string) | إنشاء مصدر بيانات جديد ببيانات من ملف XML باستخدام ملف تعريف مخطط XML. يتم استخدام options الافتراضية لتحميل بيانات XML. |
-| [XmlDataSource](xmldatasource/#constructor_5)(string, XmlDataLoadOptions) | إنشاء مصدر بيانات جديد ببيانات من ملف XML باستخدام الخيارات المحددة لتحميل بيانات XML. |
-| [XmlDataSource](xmldatasource/#constructor_3)(Stream, Stream, XmlDataLoadOptions) | إنشاء مصدر بيانات جديد ببيانات من دفق XML باستخدام دفق تعريف مخطط XML. يتم استخدام الخيارات المحددة لتحميل بيانات XML. |
-| [XmlDataSource](xmldatasource/#constructor_7)(string, string, XmlDataLoadOptions) | إنشاء مصدر بيانات جديد ببيانات من ملف XML باستخدام ملف تعريف مخطط XML. يتم استخدام الخيارات المحددة لتحميل بيانات XML. |
+| [XmlDataSource](xmldatasource/#constructor)(*Stream*) | إنشاء مصدر بيانات جديد ببيانات من تدفق XML باستخدام الخيارات الافتراضية لتحميل بيانات XML. |
+| [XmlDataSource](xmldatasource/#constructor_4)(*string*) | إنشاء مصدر بيانات جديد ببيانات من ملف XML باستخدام الخيارات الافتراضية لتحميل بيانات XML. |
+| [XmlDataSource](xmldatasource/#constructor_2)(*Stream, Stream*) | إنشاء مصدر بيانات جديد ببيانات من دفق XML باستخدام دفق تعريف مخطط XML. يتم استخدام options الافتراضية لتحميل بيانات XML. |
+| [XmlDataSource](xmldatasource/#constructor_1)(*Stream, [XmlDataLoadOptions](../xmldataloadoptions/)*) | إنشاء مصدر بيانات جديد ببيانات من تدفق XML باستخدام الخيارات المحددة لتحميل بيانات XML. |
+| [XmlDataSource](xmldatasource/#constructor_6)(*string, string*) | إنشاء مصدر بيانات جديد ببيانات من ملف XML باستخدام ملف تعريف مخطط XML. يتم استخدام options الافتراضية لتحميل بيانات XML. |
+| [XmlDataSource](xmldatasource/#constructor_5)(*string, [XmlDataLoadOptions](../xmldataloadoptions/)*) | إنشاء مصدر بيانات جديد ببيانات من ملف XML باستخدام الخيارات المحددة لتحميل بيانات XML. |
+| [XmlDataSource](xmldatasource/#constructor_3)(*Stream, Stream, [XmlDataLoadOptions](../xmldataloadoptions/)*) | إنشاء مصدر بيانات جديد ببيانات من دفق XML باستخدام دفق تعريف مخطط XML. يتم استخدام الخيارات المحددة لتحميل بيانات XML. |
+| [XmlDataSource](xmldatasource/#constructor_7)(*string, string, [XmlDataLoadOptions](../xmldataloadoptions/)*) | إنشاء مصدر بيانات جديد ببيانات من ملف XML باستخدام ملف تعريف مخطط XML. يتم استخدام الخيارات المحددة لتحميل بيانات XML. |
 
-### ملاحظات
+## ملاحظات
 
 للوصول إلى بيانات الملف أو الدفق المقابل أثناء إنشاء تقرير، قم بتمرير مثيل من هذه الفئة as مصدر بيانات إلى أحدها[`ReportingEngine`](../reportingengine/) .BuildReport الحمولة الزائدة.
 
@@ -53,5 +55,3 @@ public class XmlDataSource
 
 * مساحة الاسم [Aspose.Words.Reporting](../../aspose.words.reporting/)
 * المجسم [Aspose.Words](../../)
-
-

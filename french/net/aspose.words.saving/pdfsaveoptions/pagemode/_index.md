@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.PageMode
-second_title: Référence de l'API Aspose.Words pour .NET
-description: PdfSaveOptions propriété. Spécifie comment le document PDF doit être affiché lorsquil est ouvert dans le lecteur PDF.
+linktitle: PageMode
+articleTitle: PageMode
+second_title: Aspose.Words pour .NET
+description: PdfSaveOptions PageMode propriété. Spécifie comment le document PDF doit être affiché lorsquil est ouvert dans le lecteur PDF en C#.
 type: docs
 weight: 250
 url: /fr/net/aspose.words.saving/pdfsaveoptions/pagemode/
@@ -14,11 +16,11 @@ Spécifie comment le document PDF doit être affiché lorsqu'il est ouvert dans 
 public PdfPageMode PageMode { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 La valeur par défaut estUseOutlines .
 
-### Exemples
+## Exemples
 
 Montre comment définir les instructions que certains lecteurs PDF doivent suivre lors de l'ouverture d'un document de sortie.
 
@@ -77,7 +79,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.HeaderFooterBookmarksExportMode.pdf", sa
 
 * enum [PdfPageMode](../../pdfpagemode/)
 * class [PdfSaveOptions](../)
-* espace de noms [Aspose.Words.Saving](../../pdfsaveoptions/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

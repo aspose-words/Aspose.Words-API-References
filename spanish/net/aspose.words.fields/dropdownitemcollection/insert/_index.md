@@ -1,7 +1,9 @@
 ---
 title: DropDownItemCollection.Insert
-second_title: Referencia de API de Aspose.Words para .NET
-description: DropDownItemCollection método. Inserta una cadena en la colección en el índice especificado.
+linktitle: Insert
+articleTitle: Insert
+second_title: Aspose.Words para .NET
+description: DropDownItemCollection Insert método. Inserta una cadena en la colección en el índice especificado en C#.
 type: docs
 weight: 80
 url: /es/net/aspose.words.fields/dropdownitemcollection/insert/
@@ -19,7 +21,7 @@ public void Insert(int index, string value)
 | index | Int32 | El índice de base cero en el que se inserta el valor. |
 | value | String | La cadena a insertar. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo insertar un campo de cuadro combinado y editar los elementos de su colección de elementos.
 
@@ -73,7 +75,5 @@ dropDownItems.Clear();
 ### Ver también
 
 * class [DropDownItemCollection](../)
-* espacio de nombres [Aspose.Words.Fields](../../dropdownitemcollection/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

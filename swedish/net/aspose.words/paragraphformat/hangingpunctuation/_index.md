@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.HangingPunctuation
-second_title: Aspose.Words för .NET API Referens
-description: ParagraphFormat fast egendom. Hämtar eller ställer in en flagga som indikerar om hängande interpunktion är aktiverad för det aktuella stycket.
+linktitle: HangingPunctuation
+articleTitle: HangingPunctuation
+second_title: Aspose.Words för .NET
+description: ParagraphFormat HangingPunctuation fast egendom. Hämtar eller ställer in en flagga som indikerar om hängande interpunktion är aktiverad för det aktuella stycket i C#.
 type: docs
 weight: 130
 url: /sv/net/aspose.words/paragraphformat/hangingpunctuation/
@@ -14,7 +16,7 @@ Hämtar eller ställer in en flagga som indikerar om hängande interpunktion är
 public bool HangingPunctuation { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du ställer in speciella egenskaper för asiatisk typografi.
 
@@ -32,7 +34,5 @@ doc.Save(ArtifactsDir + "ParagraphFormat.AsianTypographyProperties.docx");
 ### Se även
 
 * class [ParagraphFormat](../)
-* namnutrymme [Aspose.Words](../../paragraphformat/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Story.FirstParagraph
-second_title: Aspose.Words لمراجع .NET API
-description: Story ملكية. الحصول على الفقرة الأولى في القصة.
+linktitle: FirstParagraph
+articleTitle: FirstParagraph
+second_title: Aspose.Words لـ .NET
+description: Story FirstParagraph ملكية. الحصول على الفقرة الأولى في القصة في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words/story/firstparagraph/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/story/firstparagraph/
 public Paragraph FirstParagraph { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تنسيق مجموعة من النص باستخدام خاصية الخط الخاصة به.
 
@@ -63,7 +65,5 @@ doc.Save(ArtifactsDir + "Shape.CreateTextBox.docx");
 
 * class [Paragraph](../../paragraph/)
 * class [Story](../)
-* مساحة الاسم [Aspose.Words](../../story/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

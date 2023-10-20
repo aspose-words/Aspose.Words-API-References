@@ -1,7 +1,9 @@
 ---
 title: ControlChar.FieldStartChar
-second_title: Aspose.Words för .NET API Referens
-description: ControlChar fält. Start av MS Wordfälttecken char19.
+linktitle: FieldStartChar
+articleTitle: FieldStartChar
+second_title: Aspose.Words för .NET
+description: ControlChar FieldStartChar fält. Start av MS Wordfälttecken char19 i C#.
 type: docs
 weight: 100
 url: /sv/net/aspose.words/controlchar/fieldstartchar/
@@ -14,7 +16,7 @@ Start av MS Word-fälttecken: (char)19.
 public const char FieldStartChar;
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man lägger till olika kontrolltecken i ett dokument.
 
@@ -86,7 +88,5 @@ Assert.AreEqual(Convert.ToChar(ControlChar.ColumnBreak), ControlChar.ColumnBreak
 ### Se även
 
 * class [ControlChar](../)
-* namnutrymme [Aspose.Words](../../controlchar/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ExportXhtmlTransitional
-second_title: Aspose.Words för .NET API Referens
-description: HtmlSaveOptions fast egendom. Anger om DOCTYPEdeklarationen ska skrivas när du sparar till HTML eller MHTML. NärSann  skriver en DOCTYPEdeklaration i dokumentet före rotelementet. Standardvärdet ärfalsk. När du sparar till EPUB eller HTML5 Html5  DOCTYPE deklarationen skrivs alltid.
+linktitle: ExportXhtmlTransitional
+articleTitle: ExportXhtmlTransitional
+second_title: Aspose.Words för .NET
+description: HtmlSaveOptions ExportXhtmlTransitional fast egendom. Anger om DOCTYPEdeklarationen ska skrivas när du sparar till HTML eller MHTML. NärSann  skriver en DOCTYPEdeklaration i dokumentet före rotelementet. Standardvärdet ärfalsk. När du sparar till EPUB eller HTML5 Html5  DOCTYPE deklarationen skrivs alltid i C#.
 type: docs
 weight: 280
 url: /sv/net/aspose.words.saving/htmlsaveoptions/exportxhtmltransitional/
@@ -14,7 +16,7 @@ Anger om DOCTYPE-deklarationen ska skrivas när du sparar till HTML eller MHTML.
 public bool ExportXhtmlTransitional { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Aspose.Words skriver alltid välformad HTML oavsett denna inställning.
 
@@ -30,7 +32,7 @@ Aspose.Words syftar till att mata ut XHTML enligt XHTML 1.0 Transitional-specifi
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man visar en DOCTYPE-rubrik när man konverterar dokument till övergångsstandarden Xhtml 1.0.
 
@@ -64,7 +66,5 @@ else
 ### Se även
 
 * class [HtmlSaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../htmlsaveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

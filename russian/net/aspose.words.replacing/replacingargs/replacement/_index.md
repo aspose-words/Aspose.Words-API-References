@@ -1,7 +1,9 @@
 ---
 title: ReplacingArgs.Replacement
-second_title: Справочник по API Aspose.Words для .NET
-description: ReplacingArgs свойство. Получает или задает строку замены.
+linktitle: Replacement
+articleTitle: Replacement
+second_title: Aspose.Words для .NET
+description: ReplacingArgs Replacement свойство. Получает или задает строку замены на С#.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.replacing/replacingargs/replacement/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.replacing/replacingargs/replacement/
 public string Replacement { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как заменить все вхождения шаблона регулярного выражения другой строкой, отслеживая при этом все такие замены.
 
@@ -70,7 +72,5 @@ private class TextFindAndReplacementLogger : IReplacingCallback
 ### Смотрите также
 
 * class [ReplacingArgs](../)
-* пространство имен [Aspose.Words.Replacing](../../replacingargs/)
+* пространство имен [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * сборка [Aspose.Words](../../../)
-
-

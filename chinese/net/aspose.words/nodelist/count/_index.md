@@ -1,7 +1,9 @@
 ---
 title: NodeList.Count
-second_title: Aspose.Words for .NET API 参考
-description: NodeList 财产. 获取列表中的节点数
+linktitle: Count
+articleTitle: Count
+second_title: 用于 .NET 的 Aspose.Words
+description: NodeList Count 财产. 获取列表中的节点数 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words/nodelist/count/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/nodelist/count/
 public int Count { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何使用 XPath 导航 NodeList。
 
@@ -72,7 +74,5 @@ Assert.True(shape.HasImage);
 ### 也可以看看
 
 * class [NodeList](../)
-* 命名空间 [Aspose.Words](../../nodelist/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

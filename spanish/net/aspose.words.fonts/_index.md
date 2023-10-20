@@ -1,12 +1,14 @@
 ---
 title: Aspose.Words.Fonts
-second_title: Referencia de API de Aspose.Words para .NET
-description: El Aspose.Words.Fuentes El espacio de nombres proporciona clases y enumeraciones para acceder a información sobre las fuentes utilizadas en un documento.
+linktitle: Aspose.Words.Fonts
+articleTitle: Aspose.Words.Fonts
+second_title: Aspose.Words para .NET
+description: ElAspose.Words.Fuentes El espacio de nombres proporciona clases y enumeraciones para acceder a información sobre las fuentes utilizadas en un documento en C#.
 type: docs
 weight: 90
 url: /es/net/aspose.words.fonts/
 ---
-El **Aspose.Words.Fuentes** El espacio de nombres proporciona clases y enumeraciones para acceder a información sobre las fuentes utilizadas en un documento.
+El**Aspose.Words.Fuentes** El espacio de nombres proporciona clases y enumeraciones para acceder a información sobre las fuentes utilizadas en un documento.
 
 ## Clases
 
@@ -39,5 +41,3 @@ El **Aspose.Words.Fuentes** El espacio de nombres proporciona clases y enumeraci
 | [FontFamily](./fontfamily/) | Representa la familia de fuentes. |
 | [FontPitch](./fontpitch/) | Representa el paso de la fuente. |
 | [FontSourceType](./fontsourcetype/) | Especifica el tipo de fuente de fuente. |
-
-

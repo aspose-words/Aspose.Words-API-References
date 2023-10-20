@@ -1,7 +1,9 @@
 ---
 title: CleanupOptions.DuplicateStyle
-second_title: Aspose.Words för .NET API Referens
-description: CleanupOptions fast egendom. Hämtar/ställer in en flagga som indikerar om dubblettstilar ska tas bort från dokumentet. Standardvärdet ärfalsk .
+linktitle: DuplicateStyle
+articleTitle: DuplicateStyle
+second_title: Aspose.Words för .NET
+description: CleanupOptions DuplicateStyle fast egendom. Hämtar/ställer in en flagga som indikerar om dubblettstilar ska tas bort från dokumentet. Standardvärdet ärfalsk  i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words/cleanupoptions/duplicatestyle/
@@ -14,7 +16,7 @@ Hämtar/ställer in en flagga som indikerar om dubblettstilar ska tas bort från
 public bool DuplicateStyle { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du tar bort dubblerade stilar från dokumentet.
 
@@ -62,7 +64,5 @@ Assert.AreEqual(myStyle, paragraphs[1].ParagraphFormat.Style);
 ### Se även
 
 * class [CleanupOptions](../)
-* namnutrymme [Aspose.Words](../../cleanupoptions/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

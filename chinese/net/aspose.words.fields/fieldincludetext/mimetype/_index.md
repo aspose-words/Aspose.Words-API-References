@@ -1,7 +1,9 @@
 ---
 title: FieldIncludeText.MimeType
-second_title: Aspose.Words for .NET API 参考
-description: FieldIncludeText 财产. 获取或设置引用文件的 MIME 类型
+linktitle: MimeType
+articleTitle: MimeType
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldIncludeText MimeType 财产. 获取或设置引用文件的 MIME 类型 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words.fields/fieldincludetext/mimetype/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fieldincludetext/mimetype/
 public string MimeType { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何创建 INCLUDETEXT 字段并设置其属性。
 
@@ -59,7 +61,5 @@ public FieldIncludeText CreateFieldIncludeText(DocumentBuilder builder, string s
 ### 也可以看看
 
 * class [FieldIncludeText](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldincludetext/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

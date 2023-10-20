@@ -1,7 +1,9 @@
 ---
 title: LayoutEnumerator.MovePreviousLogical
-second_title: Aspose.Words för .NET API Referens
-description: LayoutEnumerator metod. Flyttar till föregående syskonentitet i en logisk ordning. När rader i ett stycke uppdelat över sidorna upprepas kommer denna metod att flyttas till föregående rad även om den finns på en annan sida.
+linktitle: MovePreviousLogical
+articleTitle: MovePreviousLogical
+second_title: Aspose.Words för .NET
+description: LayoutEnumerator MovePreviousLogical metod. Flyttar till föregående syskonentitet i en logisk ordning. När rader i ett stycke uppdelat över sidorna upprepas kommer denna metod att flyttas till föregående rad även om den finns på en annan sida i C#.
 type: docs
 weight: 160
 url: /sv/net/aspose.words.layout/layoutenumerator/movepreviouslogical/
@@ -14,11 +16,11 @@ Flyttar till föregående syskonentitet i en logisk ordning. När rader i ett st
 public bool MovePreviousLogical()
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Observera att allaSpan enheter är sammanlänkade alltså om[`Current`](../current/) entitet är span upprepade anrop av denna metod kommer att upprepa hela historien om dokumentet.
 
-### Exempel
+## Exempel
 
 Visar sätt att gå igenom ett dokuments layoutenheter.
 
@@ -163,7 +165,5 @@ private static void PrintCurrentEntity(LayoutEnumerator layoutEnumerator, int in
 ### Se även
 
 * class [LayoutEnumerator](../)
-* namnutrymme [Aspose.Words.Layout](../../layoutenumerator/)
+* namnutrymme [Aspose.Words.Layout](../../../aspose.words.layout/)
 * hopsättning [Aspose.Words](../../../)
-
-

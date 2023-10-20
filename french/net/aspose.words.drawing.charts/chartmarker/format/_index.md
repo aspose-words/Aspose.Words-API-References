@@ -1,7 +1,9 @@
 ---
 title: ChartMarker.Format
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ChartMarker propriété. Donne accès au formatage de remplissage et de ligne de ce marqueur.
+linktitle: Format
+articleTitle: Format
+second_title: Aspose.Words pour .NET
+description: ChartMarker Format propriété. Donne accès au formatage de remplissage et de ligne de ce marqueur en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.drawing.charts/chartmarker/format/
@@ -14,7 +16,7 @@ Donne accès au formatage de remplissage et de ligne de ce marqueur.
 public ChartFormat Format { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montrez comment définir le formatage des marqueurs.
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "Charts.MarkerFormatting.docx");
 
 * class [ChartFormat](../../chartformat/)
 * class [ChartMarker](../)
-* espace de noms [Aspose.Words.Drawing.Charts](../../chartmarker/)
+* espace de noms [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Assemblée [Aspose.Words](../../../)
-
-

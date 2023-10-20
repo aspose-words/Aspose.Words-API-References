@@ -1,7 +1,9 @@
 ---
 title: ConditionalStyle.Shading
-second_title: Справочник по API Aspose.Words для .NET
-description: ConditionalStyle свойство. ПолучаетShading объект который ссылается на форматирование штриховки для этого условного стиля.
+linktitle: Shading
+articleTitle: Shading
+second_title: Aspose.Words для .NET
+description: ConditionalStyle Shading свойство. ПолучаетShading объект который ссылается на форматирование штриховки для этого условного стиля на С#.
 type: docs
 weight: 70
 url: /ru/net/aspose.words/conditionalstyle/shading/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/conditionalstyle/shading/
 public Shading Shading { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как работать с определенными стилями областей таблицы.
 
@@ -85,7 +87,5 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 
 * class [Shading](../../shading/)
 * class [ConditionalStyle](../)
-* пространство имен [Aspose.Words](../../conditionalstyle/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

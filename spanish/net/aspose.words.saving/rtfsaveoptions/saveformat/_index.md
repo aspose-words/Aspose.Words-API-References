@@ -1,7 +1,9 @@
 ---
 title: RtfSaveOptions.SaveFormat
-second_title: Referencia de API de Aspose.Words para .NET
-description: RtfSaveOptions propiedad. Especifica el formato en el que se guardará el documento si se utiliza este objeto de opciones de guardado. Sólo se puedeRtf .
+linktitle: SaveFormat
+articleTitle: SaveFormat
+second_title: Aspose.Words para .NET
+description: RtfSaveOptions SaveFormat propiedad. Especifica el formato en el que se guardará el documento si se utiliza este objeto de opciones de guardado. Sólo se puedeRtf  en C#.
 type: docs
 weight: 40
 url: /es/net/aspose.words.saving/rtfsaveoptions/saveformat/
@@ -14,7 +16,7 @@ Especifica el formato en el que se guardará el documento si se utiliza este obj
 public override SaveFormat SaveFormat { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo guardar un documento en .rtf con opciones personalizadas.
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "RtfSaveOptions.ExportImages.rtf", options);
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
 * class [RtfSaveOptions](../)
-* espacio de nombres [Aspose.Words.Saving](../../rtfsaveoptions/)
+* espacio de nombres [Aspose.Words.Saving](../../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../../)
-
-

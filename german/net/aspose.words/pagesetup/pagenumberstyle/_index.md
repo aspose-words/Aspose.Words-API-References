@@ -1,7 +1,9 @@
 ---
 title: PageSetup.PageNumberStyle
-second_title: Aspose.Words für .NET-API-Referenz
-description: PageSetup eigendom. Ruft das Seitenzahlenformat ab oder legt es fest.
+linktitle: PageNumberStyle
+articleTitle: PageNumberStyle
+second_title: Aspose.Words für .NET
+description: PageSetup PageNumberStyle eigendom. Ruft das Seitenzahlenformat ab oder legt es fest in C#.
 type: docs
 weight: 320
 url: /de/net/aspose.words/pagesetup/pagenumberstyle/
@@ -14,7 +16,7 @@ Ruft das Seitenzahlenformat ab oder legt es fest.
 public NumberStyle PageNumberStyle { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Seitennummerierung in einem Abschnitt eingerichtet wird.
 
@@ -72,7 +74,5 @@ doc.Save(ArtifactsDir + "PageSetup.PageNumbering.docx");
 
 * enum [NumberStyle](../../numberstyle/)
 * class [PageSetup](../)
-* namensraum [Aspose.Words](../../pagesetup/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

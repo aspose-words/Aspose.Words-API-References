@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTag.Placeholder
-second_title: Référence de l'API Aspose.Words pour .NET
-description: StructuredDocumentTag propriété. Obtient leBuildingBlockcontenant du texte despace réservé qui doit être affiché lorsque le contenu de cette exécution SDT est vide lélément XML mappé associé est vide comme spécifié via leXmlMapping element ou leIsShowingPlaceholderText lélément estvrai .
+linktitle: Placeholder
+articleTitle: Placeholder
+second_title: Aspose.Words pour .NET
+description: StructuredDocumentTag Placeholder propriété. Obtient leBuildingBlockcontenant du texte despace réservé qui doit être affiché lorsque le contenu de cette exécution SDT est vide lélément XML mappé associé est vide comme spécifié via leXmlMapping element ou leIsShowingPlaceholderText lélément estvrai  en C#.
 type: docs
 weight: 230
 url: /fr/net/aspose.words.markup/structureddocumenttag/placeholder/
@@ -14,11 +16,11 @@ Obtient le[`BuildingBlock`](../../../aspose.words.buildingblocks/buildingblock/)
 public BuildingBlock Placeholder { get; }
 ```
 
-### Remarques
+## Remarques
 
 Peut être`nul`, ce qui signifie que l'espace réservé n'est pas applicable pour ce Sdt.
 
-### Exemples
+## Exemples
 
 Montre comment utiliser le contenu d'un bloc de construction comme texte d'espace réservé personnalisé pour une balise de document structuré.
 
@@ -66,7 +68,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.PlaceholderBuildingBlock.docx");
 
 * class [BuildingBlock](../../../aspose.words.buildingblocks/buildingblock/)
 * class [StructuredDocumentTag](../)
-* espace de noms [Aspose.Words.Markup](../../structureddocumenttag/)
+* espace de noms [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Assemblée [Aspose.Words](../../../)
-
-

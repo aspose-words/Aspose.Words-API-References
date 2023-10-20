@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.UseFELayout
-second_title: Aspose.Words für .NET-API-Referenz
-description: CompatibilityOptions eigendom. Ostasiatischen/komplexen SkriptLayoutCode nicht umgehen.
+linktitle: UseFELayout
+articleTitle: UseFELayout
+second_title: Aspose.Words für .NET
+description: CompatibilityOptions UseFELayout eigendom. Ostasiatischen/komplexen SkriptLayoutCode nicht umgehen in C#.
 type: docs
 weight: 620
 url: /de/net/aspose.words.settings/compatibilityoptions/usefelayout/
@@ -17,7 +19,5 @@ public bool UseFELayout { get; set; }
 ### Siehe auch
 
 * class [CompatibilityOptions](../)
-* namensraum [Aspose.Words.Settings](../../compatibilityoptions/)
+* namensraum [Aspose.Words.Settings](../../../aspose.words.settings/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FontInfo.Pitch
-second_title: Aspose.Words för .NET API Referens
-description: FontInfo fast egendom. Tonhöjden indikerar om teckensnittet har fast tonhöjd proportionellt fördelat eller är beroende av en standardinställning.
+linktitle: Pitch
+articleTitle: Pitch
+second_title: Aspose.Words för .NET
+description: FontInfo Pitch fast egendom. Tonhöjden indikerar om teckensnittet har fast tonhöjd proportionellt fördelat eller är beroende av en standardinställning i C#.
 type: docs
 weight: 70
 url: /sv/net/aspose.words.fonts/fontinfo/pitch/
@@ -14,7 +16,7 @@ Tonhöjden indikerar om teckensnittet har fast tonhöjd, proportionellt fördela
 public FontPitch Pitch { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du kommer åt och skriver ut detaljer för varje typsnitt i ett dokument.
 
@@ -54,7 +56,5 @@ while (fontCollectionEnumerator.MoveNext())
 
 * enum [FontPitch](../../fontpitch/)
 * class [FontInfo](../)
-* namnutrymme [Aspose.Words.Fonts](../../fontinfo/)
+* namnutrymme [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * hopsättning [Aspose.Words](../../../)
-
-

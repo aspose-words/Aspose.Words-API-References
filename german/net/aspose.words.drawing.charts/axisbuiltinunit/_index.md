@@ -1,7 +1,9 @@
 ---
-title: Enum AxisBuiltInUnit
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Drawing.Charts.AxisBuiltInUnit opsomming. Gibt die Anzeigeeinheiten für eine Achse an.
+title: AxisBuiltInUnit Enum
+linktitle: AxisBuiltInUnit
+articleTitle: AxisBuiltInUnit
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Drawing.Charts.AxisBuiltInUnit opsomming. Gibt die Anzeigeeinheiten für eine Achse an in C#.
 type: docs
 weight: 520
 url: /de/net/aspose.words.drawing.charts/axisbuiltinunit/
@@ -31,7 +33,7 @@ public enum AxisBuiltInUnit
 | Trillions | `10` | Gibt an, dass die Werte im Diagramm durch 1.000.000.000.0000 geteilt werden sollen. |
 | Percentage | `11` | Gibt an, dass die Werte im Diagramm durch 0,01 geteilt werden sollen. Dieser Wert wird nur von den neuen Diagrammtypen von MS Office 2016 unterstützt. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Teilstriche und angezeigten Werte einer Diagrammachse manipuliert werden.
 
@@ -90,5 +92,3 @@ doc.Save(ArtifactsDir + "Charts.AxisDisplayUnit.docx");
 
 * namensraum [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../)
-
-

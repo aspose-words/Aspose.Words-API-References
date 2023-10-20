@@ -1,20 +1,22 @@
 ---
 title: SignatureLineOptions.Signer
-second_title: Référence de l'API Aspose.Words pour .NET
-description: SignatureLineOptions propriété. Obtient ou définit le signataire suggéré de la ligne de signature. La valeur par défaut de cette propriété est chaîne vide Empty.
+linktitle: Signer
+articleTitle: Signer
+second_title: Aspose.Words pour .NET
+description: SignatureLineOptions Signer propriété. Obtient ou définit le signataire suggéré de la ligne de signature. La valeur par défaut de cette propriété estchaîne vide Empty en C#.
 type: docs
 weight: 70
 url: /fr/net/aspose.words/signaturelineoptions/signer/
 ---
 ## SignatureLineOptions.Signer property
 
-Obtient ou définit le signataire suggéré de la ligne de signature. La valeur par défaut de cette propriété est **chaîne vide** (Empty).
+Obtient ou définit le signataire suggéré de la ligne de signature. La valeur par défaut de cette propriété est**chaîne vide** (Empty).
 
 ```csharp
 public string Signer { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment ajouter une ligne de signature à un document, puis le signer à l'aide d'un certificat numérique.
 
@@ -130,7 +132,5 @@ Montre comment ajouter une ligne de signature à un document, puis le signer à 
 ### Voir également
 
 * class [SignatureLineOptions](../)
-* espace de noms [Aspose.Words](../../signaturelineoptions/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

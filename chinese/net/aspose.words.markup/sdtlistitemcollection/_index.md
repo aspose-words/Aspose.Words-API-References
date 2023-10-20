@@ -1,7 +1,9 @@
 ---
-title: Class SdtListItemCollection
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Markup.SdtListItemCollection 班级. 提供对SdtListItem结构化文档标签的元素
+title: SdtListItemCollection Class
+linktitle: SdtListItemCollection
+articleTitle: SdtListItemCollection
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Markup.SdtListItemCollection 班级. 提供对SdtListItem结构化文档标签的元素 在 C#.
 type: docs
 weight: 4030
 url: /zh/net/aspose.words.markup/sdtlistitemcollection/
@@ -28,12 +30,12 @@ public class SdtListItemCollection : IEnumerable<SdtListItem>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Add](../../aspose.words.markup/sdtlistitemcollection/add/)(SdtListItem) | 将项目添加到此集合。 |
+| [Add](../../aspose.words.markup/sdtlistitemcollection/add/)(*[SdtListItem](../sdtlistitem/)*) | 将项目添加到此集合。 |
 | [Clear](../../aspose.words.markup/sdtlistitemcollection/clear/)() | 清除此集合中的所有项目。 |
 | [GetEnumerator](../../aspose.words.markup/sdtlistitemcollection/getenumerator/)() | 返回一个枚举器对象，可用于迭代集合中的所有项目。 |
-| [RemoveAt](../../aspose.words.markup/sdtlistitemcollection/removeat/)(int) | 删除指定索引处的列表项。 |
+| [RemoveAt](../../aspose.words.markup/sdtlistitemcollection/removeat/)(*int*) | 删除指定索引处的列表项。 |
 
-### 例子
+## 例子
 
 展示如何使用下拉列表结构化文档标签。
 
@@ -92,5 +94,3 @@ Assert.AreEqual(0, listItems.Count);
 * class [SdtListItem](../sdtlistitem/)
 * 命名空间 [Aspose.Words.Markup](../../aspose.words.markup/)
 * 部件 [Aspose.Words](../../)
-
-

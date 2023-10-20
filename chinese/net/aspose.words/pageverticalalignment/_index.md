@@ -1,7 +1,9 @@
 ---
-title: Enum PageVerticalAlignment
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.PageVerticalAlignment 枚举. 指定每页上文本的垂直对齐方式
+title: PageVerticalAlignment Enum
+linktitle: PageVerticalAlignment
+articleTitle: PageVerticalAlignment
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.PageVerticalAlignment 枚举. 指定每页上文本的垂直对齐方式 在 C#.
 type: docs
 weight: 4370
 url: /zh/net/aspose.words/pageverticalalignment/
@@ -23,7 +25,7 @@ public enum PageVerticalAlignment
 | Justify | `2` | 文本展开以填充页面。 |
 | Top | `0` | 文本在页面顶部对齐。 |
 
-### 例子
+## 例子
 
 演示如何将页面设置设置应用和恢复到文档中的各个部分。
 
@@ -60,5 +62,3 @@ doc.Save(ArtifactsDir + "PageSetup.ClearFormatting.docx");
 * property [VerticalAlignment](../pagesetup/verticalalignment/)
 * 命名空间 [Aspose.Words](../../aspose.words/)
 * 部件 [Aspose.Words](../../)
-
-

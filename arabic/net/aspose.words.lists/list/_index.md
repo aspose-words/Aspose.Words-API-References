@@ -1,7 +1,9 @@
 ---
-title: Class List
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Lists.List فصل. يمثل تنسيق القائمة.
+title: List Class
+linktitle: List
+articleTitle: List
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Lists.List فصل. يمثل تنسيق القائمة في C#.
 type: docs
 weight: 3460
 url: /ar/net/aspose.words.lists/list/
@@ -33,14 +35,14 @@ public class List : IComparable<List>
 
 | اسم | وصف |
 | --- | --- |
-| [CompareTo](../../aspose.words.lists/list/compareto/#compareto)(List) | مقارنة القائمة المحددة بالقائمة الحالية. |
-| [CompareTo](../../aspose.words.lists/list/compareto/#compareto_1)(object) | مقارنة الكائن المحدد بالكائن الحالي. |
-| [Equals](../../aspose.words.lists/list/equals/#equals)(List) | يقارن بالقائمة المحددة. |
-| override [Equals](../../aspose.words.lists/list/equals/#equals_1)(object) | تحديد ما إذا كان الكائن المحدد يساوي قيمة الكائن الحالي. |
+| [CompareTo](../../aspose.words.lists/list/compareto/#compareto)(*List*) | مقارنة القائمة المحددة بالقائمة الحالية. |
+| [CompareTo](../../aspose.words.lists/list/compareto/#compareto_1)(*object*) | مقارنة الكائن المحدد بالكائن الحالي. |
+| [Equals](../../aspose.words.lists/list/equals/#equals)(*List*) | يقارن بالقائمة المحددة. |
+| override [Equals](../../aspose.words.lists/list/equals/#equals_1)(*object*) | تحديد ما إذا كان الكائن المحدد يساوي قيمة الكائن الحالي. |
 | override [GetHashCode](../../aspose.words.lists/list/gethashcode/)() | لحساب رمز التجزئة لكائن القائمة هذا. |
-| [HasSameTemplate](../../aspose.words.lists/list/hassametemplate/)(List) | إرجاع صحيح إذا تم إنشاء القائمة الحالية والقائمة المحددة من نفس القالب. |
+| [HasSameTemplate](../../aspose.words.lists/list/hassametemplate/)(*List*) | إرجاع صحيح إذا تم إنشاء القائمة الحالية والقائمة المحددة من نفس القالب. |
 
-### ملاحظات
+## ملاحظات
 
 القائمة في مستند Microsoft Word عبارة عن مجموعة من خصائص تنسيق القائمة. يمكن أن تحتوي كل قائمة على ما يصل إلى 9 مستويات ويتم تحديد خصائص التنسيق، مثل نمط الرقم، وقيمة البداية، و المسافة البادئة، وموضع علامة التبويب وما إلى ذلك بشكل منفصل لكل مستوى.
 
@@ -52,7 +54,7 @@ public class List : IComparable<List>
 
 لتطبيق تنسيق القائمة أو إزالته من فقرة، استخدم[`ListFormat`](../listformat/).
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إعادة تشغيل الترقيم في القائمة عن طريق نسخ القائمة.
 
@@ -199,5 +201,3 @@ doc.Save(ArtifactsDir + "Lists.SpecifyListLevel.docx");
 
 * مساحة الاسم [Aspose.Words.Lists](../../aspose.words.lists/)
 * المجسم [Aspose.Words](../../)
-
-

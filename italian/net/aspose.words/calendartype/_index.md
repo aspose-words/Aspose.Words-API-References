@@ -1,7 +1,9 @@
 ---
-title: Enum CalendarType
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.CalendarType enum. Specifica il tipo di calendario.
+title: CalendarType Enum
+linktitle: CalendarType
+articleTitle: CalendarType
+second_title: Aspose.Words per .NET
+description: Aspose.Words.CalendarType enum. Specifica il tipo di calendario in C#.
 type: docs
 weight: 190
 url: /it/net/aspose.words/calendartype/
@@ -24,7 +26,7 @@ public enum CalendarType
 | SakaEra | `3` | Il calendario dell'era Saka. |
 | UmAlQura | `4` | Il calendario Um-al-Qura. |
 
-### Esempi
+## Esempi
 
 Mostra come applicare automaticamente un formato personalizzato ai risultati dei campi man mano che i campi vengono aggiornati.
 
@@ -162,5 +164,3 @@ private class FieldResultFormatter : IFieldResultFormatter
 
 * spazio dei nomi [Aspose.Words](../../aspose.words/)
 * assemblea [Aspose.Words](../../)
-
-

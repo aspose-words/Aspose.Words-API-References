@@ -1,26 +1,28 @@
 ---
 title: StructuredDocumentTag.Multiline
-second_title: Aspose.Words per .NET API Reference
-description: StructuredDocumentTag proprietà. Specifica se questo SDT consente più righe di testo.
+linktitle: Multiline
+articleTitle: Multiline
+second_title: Aspose.Words per .NET
+description: StructuredDocumentTag Multiline proprietà. Specifica se questoSDT consente più righe di testo in C#.
 type: docs
 weight: 210
 url: /it/net/aspose.words.markup/structureddocumenttag/multiline/
 ---
 ## StructuredDocumentTag.Multiline property
 
-Specifica se questo **SDT** consente più righe di testo.
+Specifica se questo**SDT** consente più righe di testo.
 
 ```csharp
 public bool Multiline { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 L'accesso a questa proprietà funzionerà solo perRichText EPlainText Tipo SDT.
 
 Per tutti gli altri tipi di SDT si verificherà un'eccezione.
 
-### Esempi
+## Esempi
 
 Mostra come creare un tag di documento strutturato in una casella di testo semplice e modificarne l'aspetto.
 
@@ -77,7 +79,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.PlainText.docx");
 ### Guarda anche
 
 * class [StructuredDocumentTag](../)
-* spazio dei nomi [Aspose.Words.Markup](../../structureddocumenttag/)
+* spazio dei nomi [Aspose.Words.Markup](../../../aspose.words.markup/)
 * assemblea [Aspose.Words](../../../)
-
-

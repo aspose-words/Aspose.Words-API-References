@@ -1,7 +1,9 @@
 ---
 title: Comment.NodeType
-second_title: Aspose.Words för .NET API Referens
-description: Comment fast egendom. ReturnerarComment .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words för .NET
+description: Comment NodeType fast egendom. ReturnerarComment  i C#.
 type: docs
 weight: 80
 url: /sv/net/aspose.words/comment/nodetype/
@@ -14,7 +16,7 @@ ReturnerarComment .
 public override NodeType NodeType { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man korsar en sammansatt nods träd med undernoder.
 
@@ -62,7 +64,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 
 * enum [NodeType](../../nodetype/)
 * class [Comment](../)
-* namnutrymme [Aspose.Words](../../comment/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,26 +1,28 @@
 ---
 title: StructuredDocumentTag.ListItems
-second_title: Referencia de API de Aspose.Words para .NET
-description: StructuredDocumentTag propiedad. ObtieneSdtListItemCollection asociado con esto TED .
+linktitle: ListItems
+articleTitle: ListItems
+second_title: Aspose.Words para .NET
+description: StructuredDocumentTag ListItems propiedad. ObtieneSdtListItemCollection asociado con estoTED  en C#.
 type: docs
 weight: 180
 url: /es/net/aspose.words.markup/structureddocumenttag/listitems/
 ---
 ## StructuredDocumentTag.ListItems property
 
-Obtiene[`SdtListItemCollection`](../../sdtlistitemcollection/) asociado con esto **TED** .
+Obtiene[`SdtListItemCollection`](../../sdtlistitemcollection/) asociado con esto**TED** .
 
 ```csharp
 public SdtListItemCollection ListItems { get; }
 ```
 
-### Observaciones
+## Observaciones
 
 Acceder a esta propiedad sólo funcionará paraComboBox oDropDownList Tipos SDT.
 
 Para todos los demás tipos de SDT se producirá una excepción.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo trabajar con etiquetas de documentos estructurados de lista desplegable.
 
@@ -78,7 +80,5 @@ Assert.AreEqual(0, listItems.Count);
 
 * class [SdtListItemCollection](../../sdtlistitemcollection/)
 * class [StructuredDocumentTag](../)
-* espacio de nombres [Aspose.Words.Markup](../../structureddocumenttag/)
+* espacio de nombres [Aspose.Words.Markup](../../../aspose.words.markup/)
 * asamblea [Aspose.Words](../../../)
-
-

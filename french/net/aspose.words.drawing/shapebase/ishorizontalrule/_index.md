@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.IsHorizontalRule
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ShapeBase propriété. Retoursvrai si cette forme est une règle horizontale.
+linktitle: IsHorizontalRule
+articleTitle: IsHorizontalRule
+second_title: Aspose.Words pour .NET
+description: ShapeBase IsHorizontalRule propriété. Retoursvrai si cette forme est une règle horizontale en C#.
 type: docs
 weight: 270
 url: /fr/net/aspose.words.drawing/shapebase/ishorizontalrule/
@@ -14,7 +16,7 @@ Retours`vrai` si cette forme est une règle horizontale.
 public bool IsHorizontalRule { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment insérer une forme de règle horizontale et personnaliser sa mise en forme.
 
@@ -37,7 +39,5 @@ Assert.True(shape.HorizontalRuleFormat.NoShade);
 ### Voir également
 
 * class [ShapeBase](../)
-* espace de noms [Aspose.Words.Drawing](../../shapebase/)
+* espace de noms [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Assemblée [Aspose.Words](../../../)
-
-

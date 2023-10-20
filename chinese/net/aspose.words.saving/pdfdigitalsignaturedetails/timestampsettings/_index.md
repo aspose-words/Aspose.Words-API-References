@@ -1,7 +1,9 @@
 ---
 title: PdfDigitalSignatureDetails.TimestampSettings
-second_title: Aspose.Words for .NET API 参考
-description: PdfDigitalSignatureDetails 财产. 获取或设置数字签名时间戳设置
+linktitle: TimestampSettings
+articleTitle: TimestampSettings
+second_title: 用于 .NET 的 Aspose.Words
+description: PdfDigitalSignatureDetails TimestampSettings 财产. 获取或设置数字签名时间戳设置 在 C#.
 type: docs
 weight: 70
 url: /zh/net/aspose.words.saving/pdfdigitalsignaturedetails/timestampsettings/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.saving/pdfdigitalsignaturedetails/timestampsettings/
 public PdfDigitalSignatureTimestampSettings TimestampSettings { get; set; }
 ```
 
-### 评论
+## 评论
 
 默认值为`无效的`并且数字签名不会带有时间戳。 当此属性设置为有效时[`PdfDigitalSignatureTimestampSettings`](../../pdfdigitalsignaturetimestampsettings/)object, 那么 PDF 文档中的数字签名将被加上时间戳。
 
-### 例子
+## 例子
 
 演示如何对保存的 PDF 文档进行数字签名并为其添加时间戳。
 
@@ -59,7 +61,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignatureTimestamp.pdf", optio
 
 * class [PdfDigitalSignatureTimestampSettings](../../pdfdigitalsignaturetimestampsettings/)
 * class [PdfDigitalSignatureDetails](../)
-* 命名空间 [Aspose.Words.Saving](../../pdfdigitalsignaturedetails/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

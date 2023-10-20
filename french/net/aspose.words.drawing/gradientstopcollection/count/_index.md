@@ -1,7 +1,9 @@
 ---
 title: GradientStopCollection.Count
-second_title: Référence de l'API Aspose.Words pour .NET
-description: GradientStopCollection propriété. Obtient une valeur entière indiquant le nombre déléments dans la collection.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words pour .NET
+description: GradientStopCollection Count propriété. Obtient une valeur entière indiquant le nombre déléments dans la collection en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.drawing/gradientstopcollection/count/
@@ -14,7 +16,7 @@ Obtient une valeur entière indiquant le nombre d'éléments dans la collection.
 public int Count { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment ajouter des points de dégradé au remplissage dégradé.
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "Shape.GradientStops.docx", saveOptions);
 ### Voir également
 
 * class [GradientStopCollection](../)
-* espace de noms [Aspose.Words.Drawing](../../gradientstopcollection/)
+* espace de noms [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Assemblée [Aspose.Words](../../../)
-
-

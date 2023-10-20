@@ -1,18 +1,20 @@
 ---
 title: Aspose.Words.MailMerging
-second_title: Referencia de API de Aspose.Words para .NET
-description: El Aspose.Words.MailMergingEl espacio de nombres contiene clases del motor de informes de combinación de correspondencia original .
+linktitle: Aspose.Words.MailMerging
+articleTitle: Aspose.Words.MailMerging
+second_title: Aspose.Words para .NET
+description: ElAspose.Words.MailMergingEl espacio de nombres contiene clases del motor de informes de combinación de correspondencia original  en C#.
 type: docs
 weight: 150
 url: /es/net/aspose.words.mailmerging/
 ---
-El **Aspose.Words.MailMerging**El espacio de nombres contiene clases del motor de informes de combinación de correspondencia "original" .
+El**Aspose.Words.MailMerging**El espacio de nombres contiene clases del motor de informes de combinación de correspondencia "original" .
 
 ## Clases
 
 | Clase | Descripción |
 | --- | --- |
-| [FieldMergingArgs](./fieldmergingargs/) | Proporciona datos para el **Fusionar campo** evento. |
+| [FieldMergingArgs](./fieldmergingargs/) | Proporciona datos para el**Fusionar campo** evento. |
 | [FieldMergingArgsBase](./fieldmergingargsbase/) | Clase base para[`FieldMergingArgs`](../aspose.words.mailmerging/fieldmergingargs/) y[`ImageFieldMergingArgs`](../aspose.words.mailmerging/imagefieldmergingargs/) . |
 | [ImageFieldMergingArgs](./imagefieldmergingargs/) | Proporciona datos para el[`ImageFieldMerging`](../aspose.words.mailmerging/ifieldmergingcallback/imagefieldmerging/) evento. |
 | [MailMerge](./mailmerge/) | Representa la funcionalidad de combinación de correspondencia. |
@@ -32,5 +34,3 @@ El **Aspose.Words.MailMerging**El espacio de nombres contiene clases del motor d
 | Enumeración | Descripción |
 | --- | --- |
 | [MailMergeCleanupOptions](./mailmergecleanupoptions/) | Especifica opciones que determinan qué elementos se eliminan durante la combinación de correspondencia. |
-
-

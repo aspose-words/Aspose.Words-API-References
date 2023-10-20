@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.DoNotUseIndentAsNumberingTabStop
-second_title: Référence de l'API Aspose.Words pour .NET
-description: CompatibilityOptions propriété. Ignorer le retrait suspendu lors de la création dun taquet de tabulation après la numérotation.
+linktitle: DoNotUseIndentAsNumberingTabStop
+articleTitle: DoNotUseIndentAsNumberingTabStop
+second_title: Aspose.Words pour .NET
+description: CompatibilityOptions DoNotUseIndentAsNumberingTabStop propriété. Ignorer le retrait suspendu lors de la création dun taquet de tabulation après la numérotation en C#.
 type: docs
 weight: 220
 url: /fr/net/aspose.words.settings/compatibilityoptions/donotuseindentasnumberingtabstop/
@@ -17,7 +19,5 @@ public bool DoNotUseIndentAsNumberingTabStop { get; set; }
 ### Voir également
 
 * class [CompatibilityOptions](../)
-* espace de noms [Aspose.Words.Settings](../../compatibilityoptions/)
+* espace de noms [Aspose.Words.Settings](../../../aspose.words.settings/)
 * Assemblée [Aspose.Words](../../../)
-
-

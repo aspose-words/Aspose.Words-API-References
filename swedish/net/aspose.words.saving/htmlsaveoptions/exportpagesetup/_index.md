@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ExportPageSetup
-second_title: Aspose.Words för .NET API Referens
-description: HtmlSaveOptions fast egendom. Anger om sidinställningarna exporteras till HTML MHTML eller EPUB. Standard ärfalsk .
+linktitle: ExportPageSetup
+articleTitle: ExportPageSetup
+second_title: Aspose.Words för .NET
+description: HtmlSaveOptions ExportPageSetup fast egendom. Anger om sidinställningarna exporteras till HTML MHTML eller EPUB. Standard ärfalsk  i C#.
 type: docs
 weight: 220
 url: /sv/net/aspose.words.saving/htmlsaveoptions/exportpagesetup/
@@ -14,13 +16,13 @@ Anger om sidinställningarna exporteras till HTML, MHTML eller EPUB. Standard ä
 public bool ExportPageSetup { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Varje[`Section`](../../../aspose.words/section/) i Aspose.Words dokumentmodell ger sidinställningar information via[`PageSetup`](../../../aspose.words/pagesetup/) klass. När du exporterar ett dokument till HTML-format kan du behöva behålla denna information för vidare användning. I synnerhet kan sidinställningarna vara viktiga för rendering till sidmedia (utskrift) eller efterföljande konvertering till de ursprungliga Microsoft Word-filformaten (DOCX, DOC, RTF, WML).
 
 de flesta fall är HTML avsedd för visning i webbläsare där paginering inte utförs. Så denna feature är inaktiv som standard.
 
-### Exempel
+## Exempel
 
 Visar hur du bestämmer om du vill behålla information om avsnittsstruktur/sidinställningar när du sparar till HTML.
 
@@ -80,7 +82,5 @@ else
 ### Se även
 
 * class [HtmlSaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../htmlsaveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

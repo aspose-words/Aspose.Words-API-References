@@ -1,7 +1,9 @@
 ---
 title: NodeChangingArgs.OldParent
-second_title: Справочник по API Aspose.Words для .NET
-description: NodeChangingArgs свойство. Получает родительский узел до начала операции.
+linktitle: OldParent
+articleTitle: OldParent
+second_title: Aspose.Words для .NET
+description: NodeChangingArgs OldParent свойство. Получает родительский узел до начала операции на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words/nodechangingargs/oldparent/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/nodechangingargs/oldparent/
 public Node OldParent { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как использовать NodeChangingCallback для отслеживания изменений в дереве документа в режиме реального времени по мере его редактирования.
 
@@ -90,7 +92,5 @@ private class NodeChangingPrinter : INodeChangingCallback
 
 * class [Node](../../node/)
 * class [NodeChangingArgs](../)
-* пространство имен [Aspose.Words](../../nodechangingargs/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

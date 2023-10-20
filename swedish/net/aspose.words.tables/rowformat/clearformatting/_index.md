@@ -1,7 +1,9 @@
 ---
 title: RowFormat.ClearFormatting
-second_title: Aspose.Words för .NET API Referens
-description: RowFormat metod. Återställer till standardradformatering.
+linktitle: ClearFormatting
+articleTitle: ClearFormatting
+second_title: Aspose.Words för .NET
+description: RowFormat ClearFormatting metod. Återställer till standardradformatering i C#.
 type: docs
 weight: 60
 url: /sv/net/aspose.words.tables/rowformat/clearformatting/
@@ -14,7 +16,7 @@ url: /sv/net/aspose.words.tables/rowformat/clearformatting/
 public void ClearFormatting()
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man bygger en tabell med anpassade ramar.
 
@@ -80,7 +82,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
 ### Se även
 
 * class [RowFormat](../)
-* namnutrymme [Aspose.Words.Tables](../../rowformat/)
+* namnutrymme [Aspose.Words.Tables](../../../aspose.words.tables/)
 * hopsättning [Aspose.Words](../../../)
-
-

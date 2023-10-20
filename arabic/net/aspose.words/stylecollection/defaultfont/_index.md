@@ -1,7 +1,9 @@
 ---
 title: StyleCollection.DefaultFont
-second_title: Aspose.Words لمراجع .NET API
-description: StyleCollection ملكية. الحصول على تنسيق النص الافتراضي للمستند.
+linktitle: DefaultFont
+articleTitle: DefaultFont
+second_title: Aspose.Words لـ .NET
+description: StyleCollection DefaultFont ملكية. الحصول على تنسيق النص الافتراضي للمستند في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words/stylecollection/defaultfont/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words/stylecollection/defaultfont/
 public Font DefaultFont { get; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 لاحظ أنه تم تقديم الإعدادات الافتراضية على مستوى المستند في Microsoft Word 2007 وهي مدعومة بالكامل بتنسيقات OOXML (Docx) فقط. تتمتع تنسيقات المستندات السابقة بدعم محدود لهذه الميزة ويمكن تخزين أسماء الخطوط فقط.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إضافة نمط إلى مجموعة أنماط المستند.
 
@@ -42,7 +44,5 @@ Assert.AreEqual(15.0, styles["MyStyle"].ParagraphFormat.FirstLineIndent);
 
 * class [Font](../../font/)
 * class [StyleCollection](../)
-* مساحة الاسم [Aspose.Words](../../stylecollection/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

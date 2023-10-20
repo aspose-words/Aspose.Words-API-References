@@ -1,12 +1,14 @@
 ---
-title: Run.Run
-second_title: Aspose.Words لمراجع .NET API
-description: Run البناء. تهيئة مثيل جديد لـRun فئة.
+title: Run
+linktitle: Run
+articleTitle: Run
+second_title: Aspose.Words لـ .NET
+description: Run البناء. تهيئة مثيل جديد لـRun فئة في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words/run/run/
 ---
-## Run(DocumentBase) {#constructor}
+## Run(*[DocumentBase](../../documentbase/)*) {#constructor}
 
 تهيئة مثيل جديد لـ[`Run`](../) فئة.
 
@@ -18,13 +20,13 @@ public Run(DocumentBase doc)
 | --- | --- | --- |
 | doc | DocumentBase | وثيقة المالك. |
 
-### ملاحظات
+## ملاحظات
 
 متى[`Run`](../) تم إنشاؤه، فهو ينتمي إلى المستند المحدد، ولكنه ليس بعد جزءًا من المستند و[`ParentNode`](../../node/parentnode/) يكون`باطل`.
 
-لإلحاق[`Run`](../) لاستخدام الوثيقةNode) أوNode) في الفقرة التي تريد إدراج التشغيل فيها.
+لإلحاق[`Run`](../) لاستخدام الوثيقة[`InsertAfter`](../../compositenode/insertafter/) أو[`InsertBefore`](../../compositenode/insertbefore/) في الفقرة التي تريد إدراج التشغيل فيها.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء مستند Aspose.Words يدويًا.
 
@@ -75,14 +77,14 @@ doc.Save(ArtifactsDir + "Section.CreateManually.docx");
 
 * class [DocumentBase](../../documentbase/)
 * class [Run](../)
-* مساحة الاسم [Aspose.Words](../../run/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## Run(DocumentBase, string) {#constructor_1}
+## Run(*[DocumentBase](../../documentbase/), string*) {#constructor_1}
 
-تهيئة مثيل جديد لـ **يجري** فئة.
+تهيئة مثيل جديد لـ**يجري** فئة.
 
 ```csharp
 public Run(DocumentBase doc, string text)
@@ -93,13 +95,13 @@ public Run(DocumentBase doc, string text)
 | doc | DocumentBase | وثيقة المالك. |
 | text | String | نص الجري. |
 
-### ملاحظات
+## ملاحظات
 
 متى[`Run`](../) تم إنشاؤه، فهو ينتمي إلى المستند المحدد، ولكنه ليس بعد جزءًا من المستند و[`ParentNode`](../../node/parentnode/) يكون`باطل`.
 
-لإلحاق[`Run`](../) لاستخدام الوثيقةNode) أوNode) في الفقرة التي تريد إدراج التشغيل فيها.
+لإلحاق[`Run`](../) لاستخدام الوثيقة[`InsertAfter`](../../compositenode/insertafter/) أو[`InsertBefore`](../../compositenode/insertbefore/) في الفقرة التي تريد إدراج التشغيل فيها.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تنسيق مجموعة من النص باستخدام خاصية الخط الخاصة به.
 
@@ -120,7 +122,5 @@ doc.Save(ArtifactsDir + "Font.CreateFormattedRun.docx");
 
 * class [DocumentBase](../../documentbase/)
 * class [Run](../)
-* مساحة الاسم [Aspose.Words](../../run/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,9 +1,11 @@
 ---
 title: Style.ParagraphFormat
-second_title: Aspose.Words لمراجع .NET API
-description: Style ملكية. الحصول على تنسيق الفقرة للنمط.
+linktitle: ParagraphFormat
+articleTitle: ParagraphFormat
+second_title: Aspose.Words لـ .NET
+description: Style ParagraphFormat ملكية. الحصول على تنسيق الفقرة للنمط في C#.
 type: docs
-weight: 150
+weight: 140
 url: /ar/net/aspose.words/style/paragraphformat/
 ---
 ## Style.ParagraphFormat property
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words/style/paragraphformat/
 public ParagraphFormat ParagraphFormat { get; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 بالنسبة لأنماط الأحرف والقوائم، تُرجع هذه الخاصية`باطل`.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء نمط فقرة واستخدامه بتنسيق القائمة.
 
@@ -51,7 +53,5 @@ builder.Document.Save(ArtifactsDir + "Styles.ParagraphStyleBulletedList.docx");
 
 * class [ParagraphFormat](../../paragraphformat/)
 * class [Style](../)
-* مساحة الاسم [Aspose.Words](../../style/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

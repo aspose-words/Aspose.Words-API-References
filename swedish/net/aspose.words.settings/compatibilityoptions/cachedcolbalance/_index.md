@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.CachedColBalance
-second_title: Aspose.Words för .NET API Referens
-description: CompatibilityOptions fast egendom. Använd cachad styckeinformation för kolumnbalansering.
+linktitle: CachedColBalance
+articleTitle: CachedColBalance
+second_title: Aspose.Words för .NET
+description: CompatibilityOptions CachedColBalance fast egendom. Använd cachad styckeinformation för kolumnbalansering i C#.
 type: docs
 weight: 80
 url: /sv/net/aspose.words.settings/compatibilityoptions/cachedcolbalance/
@@ -17,7 +19,5 @@ public bool CachedColBalance { get; set; }
 ### Se även
 
 * class [CompatibilityOptions](../)
-* namnutrymme [Aspose.Words.Settings](../../compatibilityoptions/)
+* namnutrymme [Aspose.Words.Settings](../../../aspose.words.settings/)
 * hopsättning [Aspose.Words](../../../)
-
-

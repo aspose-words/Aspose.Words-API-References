@@ -1,7 +1,9 @@
 ---
-title: DocSaveOptions.DocSaveOptions
-second_title: Aspose.Words for .NET API 参考
-description: DocSaveOptions 构造函数. 初始化此类的一个新实例该实例可用于将文档保存在Doc格式.
+title: DocSaveOptions
+linktitle: DocSaveOptions
+articleTitle: DocSaveOptions
+second_title: 用于 .NET 的 Aspose.Words
+description: DocSaveOptions 构造函数. 初始化此类的一个新实例该实例可用于将文档保存在Doc格式 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.saving/docsaveoptions/docsaveoptions/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.saving/docsaveoptions/docsaveoptions/
 public DocSaveOptions()
 ```
 
-### 例子
+## 例子
 
 演示如何为旧版 Microsoft Word 格式设置保存选项。
 
@@ -47,12 +49,12 @@ Assert.AreEqual("Hello world!", doc.GetText().Trim());
 ### 也可以看看
 
 * class [DocSaveOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../docsaveoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## DocSaveOptions(SaveFormat) {#constructor_1}
+## DocSaveOptions(*[SaveFormat](../../../aspose.words/saveformat/)*) {#constructor_1}
 
 初始化此类的一个新实例，该实例可用于将文档保存在Doc或 Dot格式.
 
@@ -64,7 +66,7 @@ public DocSaveOptions(SaveFormat saveFormat)
 | --- | --- | --- |
 | saveFormat | SaveFormat | 可Doc或者Dot。 |
 
-### 例子
+## 例子
 
 演示如何为旧版 Microsoft Word 格式设置保存选项。
 
@@ -98,7 +100,5 @@ Assert.AreEqual("Hello world!", doc.GetText().Trim());
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
 * class [DocSaveOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../docsaveoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

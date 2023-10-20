@@ -1,7 +1,9 @@
 ---
 title: Font.Underline
-second_title: Aspose.Words för .NET API Referens
-description: Font fast egendom. Hämtar eller ställer in typen av understrykning som appliceras på teckensnittet.
+linktitle: Underline
+articleTitle: Underline
+second_title: Aspose.Words för .NET
+description: Font Underline fast egendom. Hämtar eller ställer in typen av understrykning som appliceras på teckensnittet i C#.
 type: docs
 weight: 530
 url: /sv/net/aspose.words/font/underline/
@@ -14,7 +16,7 @@ Hämtar eller ställer in typen av understrykning som appliceras på teckensnitt
 public Underline Underline { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du konfigurerar stilen och färgen på en textunderstrykning.
 
@@ -71,7 +73,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertHyperlink.docx");
 
 * enum [Underline](../../underline/)
 * class [Font](../)
-* namnutrymme [Aspose.Words](../../font/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

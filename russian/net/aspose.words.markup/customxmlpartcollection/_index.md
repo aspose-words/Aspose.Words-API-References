@@ -1,7 +1,9 @@
 ---
-title: Class CustomXmlPartCollection
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Markup.CustomXmlPartCollection сорт. Представляет коллекцию пользовательских частей XML. ПредметыCustomXmlPart объекты.
+title: CustomXmlPartCollection Class
+linktitle: CustomXmlPartCollection
+articleTitle: CustomXmlPartCollection
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Markup.CustomXmlPartCollection сорт. Представляет коллекцию пользовательских частей XML. ПредметыCustomXmlPart объекты на С#.
 type: docs
 weight: 3930
 url: /ru/net/aspose.words.markup/customxmlpartcollection/
@@ -33,19 +35,19 @@ public class CustomXmlPartCollection : IEnumerable<CustomXmlPart>
 
 | Имя | Описание |
 | --- | --- |
-| [Add](../../aspose.words.markup/customxmlpartcollection/add/#add_1)(CustomXmlPart) | Добавляет элемент в коллекцию. |
-| [Add](../../aspose.words.markup/customxmlpartcollection/add/#add)(string, string) | Создает новую часть XML с указанным XML и добавляет ее в коллекцию. |
+| [Add](../../aspose.words.markup/customxmlpartcollection/add/#add_1)(*[CustomXmlPart](../customxmlpart/)*) | Добавляет элемент в коллекцию. |
+| [Add](../../aspose.words.markup/customxmlpartcollection/add/#add)(*string, string*) | Создает новую часть XML с указанным XML и добавляет ее в коллекцию. |
 | [Clear](../../aspose.words.markup/customxmlpartcollection/clear/)() | Удаляет все элементы из коллекции. |
 | [Clone](../../aspose.words.markup/customxmlpartcollection/clone/)() | Создает глубокую копию этой коллекции и ее элементов. |
-| [GetById](../../aspose.words.markup/customxmlpartcollection/getbyid/)(string) | Находит и возвращает пользовательскую часть XML по ее идентификатору. |
+| [GetById](../../aspose.words.markup/customxmlpartcollection/getbyid/)(*string*) | Находит и возвращает пользовательскую часть XML по ее идентификатору. |
 | [GetEnumerator](../../aspose.words.markup/customxmlpartcollection/getenumerator/)() | Возвращает объект перечислителя, который можно использовать для перебора всех элементов коллекции. |
-| [RemoveAt](../../aspose.words.markup/customxmlpartcollection/removeat/)(int) | Удаляет элемент по указанному индексу. |
+| [RemoveAt](../../aspose.words.markup/customxmlpartcollection/removeat/)(*int*) | Удаляет элемент по указанному индексу. |
 
-### Примечания
+## Примечания
 
 Обычно вам не нужно создавать экземпляры этого класса. Вы можете получить доступ к пользовательским XML-данным , хранящимся в документе, через[`CustomXmlParts`](../../aspose.words/document/customxmlparts/) свойство.
 
-### Примеры
+## Примеры
 
 Показывает, как создать тег структурированного документа с пользовательскими данными XML.
 
@@ -114,5 +116,3 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.CustomXml.docx");
 * class [CustomXmlPart](../customxmlpart/)
 * пространство имен [Aspose.Words.Markup](../../aspose.words.markup/)
 * сборка [Aspose.Words](../../)
-
-

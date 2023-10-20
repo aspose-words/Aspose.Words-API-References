@@ -1,7 +1,9 @@
 ---
-title: Class PageSet
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Saving.PageSet klass. Beskriver en slumpmässig uppsättning sidor.
+title: PageSet Class
+linktitle: PageSet
+articleTitle: PageSet
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Saving.PageSet klass. Beskriver en slumpmässig uppsättning sidor i C#.
 type: docs
 weight: 5390
 url: /sv/net/aspose.words.saving/pageset/
@@ -20,9 +22,9 @@ public sealed class PageSet
 
 | namn | Beskrivning |
 | --- | --- |
-| [PageSet](pageset/#constructor_1)(int) | Skapar en ensidig uppsättning baserat på exakt sidindex. |
-| [PageSet](pageset/#constructor_2)(params int[]) | Skapar en siduppsättning baserat på exakta sidindex. |
-| [PageSet](pageset/#constructor)(params PageRange[]) | Skapar en siduppsättning baserat på intervall. |
+| [PageSet](pageset/#constructor_1)(*int*) | Skapar en ensidig uppsättning baserat på exakt sidindex. |
+| [PageSet](pageset/#constructor_2)(*params int[]*) | Skapar en siduppsättning baserat på exakta sidindex. |
+| [PageSet](pageset/#constructor)(*params PageRange[]*) | Skapar en siduppsättning baserat på intervall. |
 
 ## Egenskaper
 
@@ -36,5 +38,3 @@ public sealed class PageSet
 
 * namnutrymme [Aspose.Words.Saving](../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.ZOrder
-second_title: Aspose.Words för .NET API Referens
-description: ShapeBase fast egendom. Bestämmer visningsordningen för överlappande former.
+linktitle: ZOrder
+articleTitle: ZOrder
+second_title: Aspose.Words för .NET
+description: ShapeBase ZOrder fast egendom. Bestämmer visningsordningen för överlappande former i C#.
 type: docs
 weight: 610
 url: /sv/net/aspose.words.drawing/shapebase/zorder/
@@ -14,7 +16,7 @@ Bestämmer visningsordningen för överlappande former.
 public int ZOrder { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Har effekt endast för former på högsta nivå.
 
@@ -26,7 +28,7 @@ Ordningen på överlappande former är oberoende för former i rubriken och i hu
 
 Visningsordningen för underordnade former i en gruppform bestäms av deras order inuti gruppformen.
 
-### Exempel
+## Exempel
 
 Visar hur man manipulerar ordningen på formerna.
 
@@ -68,7 +70,5 @@ doc.Save(ArtifactsDir + "Shape.ZOrder.docx");
 ### Se även
 
 * class [ShapeBase](../)
-* namnutrymme [Aspose.Words.Drawing](../../shapebase/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

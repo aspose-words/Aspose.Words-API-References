@@ -1,9 +1,11 @@
 ---
 title: Style.Type
-second_title: Справочник по API Aspose.Words для .NET
-description: Style свойство. Получает тип стиля абзац или символ.
+linktitle: Type
+articleTitle: Type
+second_title: Aspose.Words для .NET
+description: Style Type свойство. Получает тип стиля абзац или символ на С#.
 type: docs
-weight: 180
+weight: 170
 url: /ru/net/aspose.words/style/type/
 ---
 ## Style.Type property
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/style/type/
 public StyleType Type { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как получить доступ к коллекции стилей документа.
 
@@ -43,7 +45,5 @@ using (IEnumerator<Style> stylesEnum = doc.Styles.GetEnumerator())
 
 * enum [StyleType](../../styletype/)
 * class [Style](../)
-* пространство имен [Aspose.Words](../../style/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

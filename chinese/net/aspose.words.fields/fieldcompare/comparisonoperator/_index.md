@@ -1,7 +1,9 @@
 ---
 title: FieldCompare.ComparisonOperator
-second_title: Aspose.Words for .NET API 参考
-description: FieldCompare 财产. 获取或设置比较运算符
+linktitle: ComparisonOperator
+articleTitle: ComparisonOperator
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldCompare ComparisonOperator 财产. 获取或设置比较运算符 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.fields/fieldcompare/comparisonoperator/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fieldcompare/comparisonoperator/
 public string ComparisonOperator { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何使用 COMPARE 字段比较表达式。
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "Field.COMPARE.docx");
 ### 也可以看看
 
 * class [FieldCompare](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldcompare/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

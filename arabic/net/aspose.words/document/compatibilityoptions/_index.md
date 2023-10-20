@@ -1,20 +1,22 @@
 ---
 title: Document.CompatibilityOptions
-second_title: Aspose.Words لمراجع .NET API
-description: Document ملكية. يوفر الوصول إلى خيارات توافق المستندات أي تفضيلات المستخدم التي تم إدخالها في ملف التوافق علامة التبويب خيارات الحوار في Word.
+linktitle: CompatibilityOptions
+articleTitle: CompatibilityOptions
+second_title: Aspose.Words لـ .NET
+description: Document CompatibilityOptions ملكية. يوفر الوصول إلى خيارات توافق المستندات أي تفضيلات المستخدم التي تم إدخالها في ملفالتوافق علامة التبويبخيارات الحوار في Word في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words/document/compatibilityoptions/
 ---
 ## Document.CompatibilityOptions property
 
-يوفر الوصول إلى خيارات توافق المستندات (أي تفضيلات المستخدم التي تم إدخالها في ملف **التوافق** علامة التبويب **خيارات** الحوار في Word).
+يوفر الوصول إلى خيارات توافق المستندات (أي تفضيلات المستخدم التي تم إدخالها في ملف**التوافق** علامة التبويب**خيارات** الحوار في Word).
 
 ```csharp
 public CompatibilityOptions CompatibilityOptions { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحسين المستند لإصدارات مختلفة من Microsoft Word.
 
@@ -74,7 +76,5 @@ private static void PrintCompatibilityOptions(CompatibilityOptions options)
 
 * class [CompatibilityOptions](../../../aspose.words.settings/compatibilityoptions/)
 * class [Document](../)
-* مساحة الاسم [Aspose.Words](../../document/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

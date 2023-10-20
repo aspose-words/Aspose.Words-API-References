@@ -1,7 +1,9 @@
 ---
 title: BorderCollection.Shadow
-second_title: Aspose.Words för .NET API Referens
-description: BorderCollection fast egendom. Hämtar eller ställer in ett värde som anger om gränsen har en skugga.
+linktitle: Shadow
+articleTitle: Shadow
+second_title: Aspose.Words för .NET
+description: BorderCollection Shadow fast egendom. Hämtar eller ställer in ett värde som anger om gränsen har en skugga i C#.
 type: docs
 weight: 110
 url: /sv/net/aspose.words/bordercollection/shadow/
@@ -14,13 +16,13 @@ Hämtar eller ställer in ett värde som anger om gränsen har en skugga.
 public bool Shadow { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Får värdet från den första kanten i samlingen.
 
 Ställer in värdet för alla kanter i samlingen exklusive diagonala kanter.
 
-### Exempel
+## Exempel
 
 Visar hur man skapar grön vågig sidkant med en skugga.
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "PageSetup.PageBorders.docx");
 ### Se även
 
 * class [BorderCollection](../)
-* namnutrymme [Aspose.Words](../../bordercollection/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

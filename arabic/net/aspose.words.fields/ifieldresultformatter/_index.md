@@ -1,7 +1,9 @@
 ---
-title: Interface IFieldResultFormatter
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Fields.IFieldResultFormatter واجهه المستخدم. قم بتنفيذ هذه الواجهة إذا كنت تريد التحكم في كيفية تنسيق نتيجة الحقل.
+title: IFieldResultFormatter Interface
+linktitle: IFieldResultFormatter
+articleTitle: IFieldResultFormatter
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Fields.IFieldResultFormatter واجهه المستخدم. قم بتنفيذ هذه الواجهة إذا كنت تريد التحكم في كيفية تنسيق نتيجة الحقل في C#.
 type: docs
 weight: 2700
 url: /ar/net/aspose.words.fields/ifieldresultformatter/
@@ -18,12 +20,12 @@ public interface IFieldResultFormatter
 
 | اسم | وصف |
 | --- | --- |
-| [Format](../../aspose.words.fields/ifieldresultformatter/format/#format)(double, GeneralFormat) | يتم استدعاؤه عندما يقوم Aspose.Words بتطبيق تبديل تنسيق الأرقام، على سبيل المثال \* Ordinal. |
-| [Format](../../aspose.words.fields/ifieldresultformatter/format/#format_1)(string, GeneralFormat) | يتم استدعاؤه عندما يقوم Aspose.Words بتطبيق تبديل تنسيق الكتابة بالأحرف الكبيرة، على سبيل المثال \* Upper. |
-| [FormatDateTime](../../aspose.words.fields/ifieldresultformatter/formatdatetime/)(DateTime, string, CalendarType) | يتم استدعاؤه عندما يقوم Aspose.Words بتطبيق تبديل تنسيق التاريخ/الوقت، على سبيل المثال \@ "dd.MM.yyyy". |
-| [FormatNumeric](../../aspose.words.fields/ifieldresultformatter/formatnumeric/)(double, string) | يتم استدعاؤه عندما يقوم Aspose.Words بتطبيق مفتاح تنسيق رقمي، على سبيل المثال \# "#.##". |
+| [Format](../../aspose.words.fields/ifieldresultformatter/format/#format)(*double, [GeneralFormat](../generalformat/)*) | يتم استدعاؤه عندما يقوم Aspose.Words بتطبيق تبديل تنسيق الأرقام، على سبيل المثال \* Ordinal. |
+| [Format](../../aspose.words.fields/ifieldresultformatter/format/#format_1)(*string, [GeneralFormat](../generalformat/)*) | يتم استدعاؤه عندما يقوم Aspose.Words بتطبيق تبديل تنسيق الكتابة بالأحرف الكبيرة، على سبيل المثال \* Upper. |
+| [FormatDateTime](../../aspose.words.fields/ifieldresultformatter/formatdatetime/)(*DateTime, string, [CalendarType](../../aspose.words/calendartype/)*) | يتم استدعاؤه عندما يقوم Aspose.Words بتطبيق تبديل تنسيق التاريخ/الوقت، على سبيل المثال \@ "dd.MM.yyyy". |
+| [FormatNumeric](../../aspose.words.fields/ifieldresultformatter/formatnumeric/)(*double, string*) | يتم استدعاؤه عندما يقوم Aspose.Words بتطبيق مفتاح تنسيق رقمي، على سبيل المثال \# "#.##". |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تطبيق تنسيق مخصص تلقائيًا على نتائج الحقول عندما يتم تحديث الحقول.
 
@@ -161,5 +163,3 @@ private class FieldResultFormatter : IFieldResultFormatter
 
 * مساحة الاسم [Aspose.Words.Fields](../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: PageSetup.BorderDistanceFrom
-second_title: Aspose.Words for .NET API 参考
-description: PageSetup 财产. 获取或设置一个值该值指示指定的页面边框是从页面边缘还是从其周围的文本测量
+linktitle: BorderDistanceFrom
+articleTitle: BorderDistanceFrom
+second_title: 用于 .NET 的 Aspose.Words
+description: PageSetup BorderDistanceFrom 财产. 获取或设置一个值该值指示指定的页面边框是从页面边缘还是从其周围的文本测量 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words/pagesetup/borderdistancefrom/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/pagesetup/borderdistancefrom/
 public PageBorderDistanceFrom BorderDistanceFrom { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何在第一页顶部创建宽蓝色带边框。
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "PageSetup.PageBorderProperties.docx");
 
 * enum [PageBorderDistanceFrom](../../pageborderdistancefrom/)
 * class [PageSetup](../)
-* 命名空间 [Aspose.Words](../../pagesetup/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FormFieldCollection.Item
-second_title: Справочник по API Aspose.Words для .NET
-description: FormFieldCollection свойство. Возвращает поле формы по указанному индексу.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words для .NET
+description: FormFieldCollection Item свойство. Возвращает поле формы по указанному индексу на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.fields/formfieldcollection/item/
@@ -18,7 +20,7 @@ public FormField this[int index] { get; }
 | --- | --- |
 | index | Индекс в коллекции. |
 
-### Примечания
+## Примечания
 
 Индекс отсчитывается от нуля.
 
@@ -28,7 +30,7 @@ public FormField this[int index] { get; }
 
 Если индекс отрицателен и его абсолютное значение превышает количество элементов в списке, возвращается нулевая ссылка.
 
-### Примеры
+## Примеры
 
 Показывает, как вставлять в документ различные типы полей формы и обрабатывать их с помощью реализации посетителя документа.
 
@@ -163,7 +165,7 @@ public class FormFieldVisitor : DocumentVisitor
 
 * class [FormField](../../formfield/)
 * class [FormFieldCollection](../)
-* пространство имен [Aspose.Words.Fields](../../formfieldcollection/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
 
 ---
@@ -180,11 +182,11 @@ public FormField this[string bookmarkName] { get; }
 | --- | --- |
 | bookmarkName | Имя закладки без учета регистра. |
 
-### Примечания
+## Примечания
 
 Возвращает`нулевой` если поле формы с указанным именем закладки не найдено.
 
-### Примеры
+## Примеры
 
 Показывает, как вставлять в документ различные типы полей формы и обрабатывать их с помощью реализации посетителя документа.
 
@@ -319,7 +321,5 @@ public class FormFieldVisitor : DocumentVisitor
 
 * class [FormField](../../formfield/)
 * class [FormFieldCollection](../)
-* пространство имен [Aspose.Words.Fields](../../formfieldcollection/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.HtmlVersion
-second_title: Aspose.Words för .NET API Referens
-description: HtmlSaveOptions fast egendom. Anger version av HTMLstandarden som ska användas när dokumentet sparas till HTML eller MHTML. Standardvärdet ärXhtml .
+linktitle: HtmlVersion
+articleTitle: HtmlVersion
+second_title: Aspose.Words för .NET
+description: HtmlSaveOptions HtmlVersion fast egendom. Anger version av HTMLstandarden som ska användas när dokumentet sparas till HTML eller MHTML. Standardvärdet ärXhtml  i C#.
 type: docs
 weight: 330
 url: /sv/net/aspose.words.saving/htmlsaveoptions/htmlversion/
@@ -14,7 +16,7 @@ Anger version av HTML-standarden som ska användas när dokumentet sparas till H
 public HtmlVersion HtmlVersion { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man visar en DOCTYPE-rubrik när man konverterar dokument till övergångsstandarden Xhtml 1.0.
 
@@ -80,7 +82,5 @@ switch (htmlVersion)
 
 * enum [HtmlVersion](../../htmlversion/)
 * class [HtmlSaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../htmlsaveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

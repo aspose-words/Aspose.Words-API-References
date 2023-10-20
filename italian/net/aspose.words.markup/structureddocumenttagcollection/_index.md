@@ -1,7 +1,9 @@
 ---
-title: Class StructuredDocumentTagCollection
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Markup.StructuredDocumentTagCollection classe. Una raccolta diIStructuredDocumentTag istanze che rappresentano i tag del documento strutturato nellintervallo specificato.
+title: StructuredDocumentTagCollection Class
+linktitle: StructuredDocumentTagCollection
+articleTitle: StructuredDocumentTagCollection
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Markup.StructuredDocumentTagCollection classe. Una raccolta diIStructuredDocumentTag istanze che rappresentano i tag del documento strutturato nellintervallo specificato in C#.
 type: docs
 weight: 4070
 url: /it/net/aspose.words.markup/structureddocumenttagcollection/
@@ -27,17 +29,15 @@ public class StructuredDocumentTagCollection : IEnumerable<IStructuredDocumentTa
 
 | Nome | Descrizione |
 | --- | --- |
-| [GetById](../../aspose.words.markup/structureddocumenttagcollection/getbyid/)(int) | Restituisce il tag del documento strutturato per identificatore. |
-| [GetByTag](../../aspose.words.markup/structureddocumenttagcollection/getbytag/)(string) | Restituisce il primo tag di documento strutturato riscontrato nella raccolta con il tag specificato. |
-| [GetByTitle](../../aspose.words.markup/structureddocumenttagcollection/getbytitle/)(string) | Restituisce il primo tag di documento strutturato riscontrato nella raccolta con il titolo specificato. |
+| [GetById](../../aspose.words.markup/structureddocumenttagcollection/getbyid/)(*int*) | Restituisce il tag del documento strutturato per identificatore. |
+| [GetByTag](../../aspose.words.markup/structureddocumenttagcollection/getbytag/)(*string*) | Restituisce il primo tag di documento strutturato riscontrato nella raccolta con il tag specificato. |
+| [GetByTitle](../../aspose.words.markup/structureddocumenttagcollection/getbytitle/)(*string*) | Restituisce il primo tag di documento strutturato riscontrato nella raccolta con il titolo specificato. |
 | [GetEnumerator](../../aspose.words.markup/structureddocumenttagcollection/getenumerator/)() | Restituisce un oggetto enumeratore. |
-| [Remove](../../aspose.words.markup/structureddocumenttagcollection/remove/)(int) | Rimuove il tag del documento strutturato con l'identificatore specificato. |
-| [RemoveAt](../../aspose.words.markup/structureddocumenttagcollection/removeat/)(int) | Rimuove un tag di documento strutturato nell'indice specificato. |
+| [Remove](../../aspose.words.markup/structureddocumenttagcollection/remove/)(*int*) | Rimuove il tag del documento strutturato con l'identificatore specificato. |
+| [RemoveAt](../../aspose.words.markup/structureddocumenttagcollection/removeat/)(*int*) | Rimuove un tag di documento strutturato nell'indice specificato. |
 
 ### Guarda anche
 
 * interface [IStructuredDocumentTag](../istructureddocumenttag/)
 * spazio dei nomi [Aspose.Words.Markup](../../aspose.words.markup/)
 * assemblea [Aspose.Words](../../)
-
-

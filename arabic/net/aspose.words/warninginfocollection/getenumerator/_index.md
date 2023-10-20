@@ -1,7 +1,9 @@
 ---
 title: WarningInfoCollection.GetEnumerator
-second_title: Aspose.Words لمراجع .NET API
-description: WarningInfoCollection طريقة. إرجاع كائن العداد الذي يمكن استخدامه للتكرار على كافة العناصر الموجودة في المجموعة.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words لـ .NET
+description: WarningInfoCollection GetEnumerator طريقة. إرجاع كائن العداد الذي يمكن استخدامه للتكرار على كافة العناصر الموجودة في المجموعة في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words/warninginfocollection/getenumerator/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/warninginfocollection/getenumerator/
 public IEnumerator<WarningInfo> GetEnumerator()
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين الخاصية للعثور على أقرب تطابق لخط مفقود من مصادر الخطوط المتوفرة.
 
@@ -75,7 +77,5 @@ public class HandleDocumentSubstitutionWarnings : IWarningCallback
 
 * class [WarningInfo](../../warninginfo/)
 * class [WarningInfoCollection](../)
-* مساحة الاسم [Aspose.Words](../../warninginfocollection/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

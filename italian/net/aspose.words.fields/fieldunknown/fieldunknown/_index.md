@@ -1,7 +1,9 @@
 ---
-title: FieldUnknown.FieldUnknown
-second_title: Aspose.Words per .NET API Reference
-description: FieldUnknown costruttore. Default_Costruttore
+title: FieldUnknown
+linktitle: FieldUnknown
+articleTitle: FieldUnknown
+second_title: Aspose.Words per .NET
+description: FieldUnknown costruttore. Default_Costruttore in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words.fields/fieldunknown/fieldunknown/
@@ -17,7 +19,5 @@ public FieldUnknown()
 ### Guarda anche
 
 * class [FieldUnknown](../)
-* spazio dei nomi [Aspose.Words.Fields](../../fieldunknown/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

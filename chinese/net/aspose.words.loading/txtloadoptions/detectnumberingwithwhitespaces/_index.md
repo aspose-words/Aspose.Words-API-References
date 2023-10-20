@@ -1,9 +1,11 @@
 ---
 title: TxtLoadOptions.DetectNumberingWithWhitespaces
-second_title: Aspose.Words for .NET API 参考
-description: TxtLoadOptions 财产. 允许指定从纯文本格式导入文档时如何识别编号列表项 默认值为真的
+linktitle: DetectNumberingWithWhitespaces
+articleTitle: DetectNumberingWithWhitespaces
+second_title: 用于 .NET 的 Aspose.Words
+description: TxtLoadOptions DetectNumberingWithWhitespaces 财产. 允许指定从纯文本格式导入文档时如何识别编号列表项 默认值为真的 在 C#.
 type: docs
-weight: 40
+weight: 30
 url: /zh/net/aspose.words.loading/txtloadoptions/detectnumberingwithwhitespaces/
 ---
 ## TxtLoadOptions.DetectNumberingWithWhitespaces property
@@ -14,13 +16,13 @@ url: /zh/net/aspose.words.loading/txtloadoptions/detectnumberingwithwhitespaces/
 public bool DetectNumberingWithWhitespaces { get; set; }
 ```
 
-### 评论
+## 评论
 
 如果该选项设置为`错误的`，当列表编号以 点、右括号或项目符号（例如“•”、“*”、“-”或“o”）结尾时，列表识别算法会检测列表段落。
 
 如果该选项设置为`真的`，空格也用作列表编号分隔符： 阿拉伯风格编号 (1., 1.1.2.) 的列表识别算法同时使用空格和点 (".") 符号。
 
-### 例子
+## 例子
 
 演示如何在加载纯文本文档时检测列表。
 
@@ -74,7 +76,5 @@ else
 ### 也可以看看
 
 * class [TxtLoadOptions](../)
-* 命名空间 [Aspose.Words.Loading](../../txtloadoptions/)
+* 命名空间 [Aspose.Words.Loading](../../../aspose.words.loading/)
 * 部件 [Aspose.Words](../../../)
-
-

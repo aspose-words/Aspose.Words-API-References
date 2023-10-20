@@ -1,7 +1,9 @@
 ---
 title: FormField.HelpText
-second_title: Aspose.Words for .NET API 参考
-description: FormField 财产. 返回或设置当表单字段获得焦点并且用户按 F1 时消息框中显示的文本
+linktitle: HelpText
+articleTitle: HelpText
+second_title: 用于 .NET 的 Aspose.Words
+description: FormField HelpText 财产. 返回或设置当表单字段获得焦点并且用户按 F1 时消息框中显示的文本 在 C#.
 type: docs
 weight: 100
 url: /zh/net/aspose.words.fields/formfield/helptext/
@@ -14,13 +16,13 @@ url: /zh/net/aspose.words.fields/formfield/helptext/
 public string HelpText { get; set; }
 ```
 
-### 评论
+## 评论
 
 如果[`OwnHelp`](../ownhelp/)属性设置为`真的`,`HelpText`指定文本字符串值。 If[`OwnHelp`](../ownhelp/)被设定为`错误的`,`HelpText`指定包含表单字段的 help 文本的自动图文集条目的名称。
 
 Microsoft Word 允许字符串最多包含 255 个字符。
 
-### 例子
+## 例子
 
 展示如何将不同类型的表单字段插入到文档中，并使用文档访问者实现来处理它们。
 
@@ -154,7 +156,5 @@ public class FormFieldVisitor : DocumentVisitor
 ### 也可以看看
 
 * class [FormField](../)
-* 命名空间 [Aspose.Words.Fields](../../formfield/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

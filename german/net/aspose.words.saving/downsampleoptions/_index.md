@@ -1,7 +1,9 @@
 ---
-title: Class DownsampleOptions
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Saving.DownsampleOptions klas. Ermöglicht die Angabe von DownsamplingOptionen.
+title: DownsampleOptions Class
+linktitle: DownsampleOptions
+articleTitle: DownsampleOptions
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Saving.DownsampleOptions klas. Ermöglicht die Angabe von DownsamplingOptionen in C#.
 type: docs
 weight: 4970
 url: /de/net/aspose.words.saving/downsampleoptions/
@@ -30,7 +32,7 @@ public class DownsampleOptions
 | [Resolution](../../aspose.words.saving/downsampleoptions/resolution/) { get; set; } | Gibt die Auflösung in Pixel pro Zoll an, auf die die Bilder heruntergerechnet werden sollen. |
 | [ResolutionThreshold](../../aspose.words.saving/downsampleoptions/resolutionthreshold/) { get; set; } | Gibt die Schwellenwertauflösung in Pixel pro Zoll an. Wenn die Auflösung eines Bildes im Dokument unter dem Schwellenwert liegt, wird der Downsampling-Algorithmus nicht angewendet. Ein Wert von 0 bedeutet, dass die Schwellenwertprüfung nicht verwendet wird und alle Bilder dies tun können verkleinert werden, werden heruntergesampelt. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Auflösung von Bildern im PDF-Dokument geändert wird.
 
@@ -63,5 +65,3 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.DownsampleOptions.LowerResolution.pdf", 
 
 * namensraum [Aspose.Words.Saving](../../aspose.words.saving/)
 * Montage [Aspose.Words](../../)
-
-

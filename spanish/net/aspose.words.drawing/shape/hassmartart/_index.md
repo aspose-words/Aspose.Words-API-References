@@ -1,7 +1,9 @@
 ---
 title: Shape.HasSmartArt
-second_title: Referencia de API de Aspose.Words para .NET
-description: Shape propiedad. Devolucionesverdadero si estoShape tiene un objeto SmartArt.
+linktitle: HasSmartArt
+articleTitle: HasSmartArt
+second_title: Aspose.Words para .NET
+description: Shape HasSmartArt propiedad. Devolucionesverdadero si estoShape tiene un objeto SmartArt en C#.
 type: docs
 weight: 90
 url: /es/net/aspose.words.drawing/shape/hassmartart/
@@ -14,7 +16,7 @@ Devoluciones`verdadero` si esto[`Shape`](../) tiene un objeto SmartArt.
 public bool HasSmartArt { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo contar el número de formas en un documento con objetos SmartArt.
 
@@ -29,7 +31,5 @@ Assert.AreEqual(2, numberOfSmartArtShapes);
 ### Ver también
 
 * class [Shape](../)
-* espacio de nombres [Aspose.Words.Drawing](../../shape/)
+* espacio de nombres [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * asamblea [Aspose.Words](../../../)
-
-

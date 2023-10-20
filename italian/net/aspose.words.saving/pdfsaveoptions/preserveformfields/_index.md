@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.PreserveFormFields
-second_title: Aspose.Words per .NET API Reference
-description: PdfSaveOptions proprietà. Specifica se conservare i campi modulo di Microsoft Word come campi modulo in PDF o convertirli in testo. Limpostazione predefinita èfalso .
+linktitle: PreserveFormFields
+articleTitle: PreserveFormFields
+second_title: Aspose.Words per .NET
+description: PdfSaveOptions PreserveFormFields proprietà. Specifica se conservare i campi modulo di Microsoft Word come campi modulo in PDF o convertirli in testo. Limpostazione predefinita èfalso  in C#.
 type: docs
 weight: 270
 url: /it/net/aspose.words.saving/pdfsaveoptions/preserveformfields/
@@ -14,7 +16,7 @@ Specifica se conservare i campi modulo di Microsoft Word come campi modulo in PD
 public bool PreserveFormFields { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 I campi del modulo di Microsoft Word includono controlli di input di testo, menu a discesa e caselle di controllo.
 
@@ -28,7 +30,7 @@ I moduli modificabili sono vietati dalla conformità PDF/A.`falso` il valore ver
 
 I campi modulo non sono supportati durante il salvataggio in PDF/UA.`falso` il valore verrà utilizzato automaticamente.
 
-### Esempi
+## Esempi
 
 Mostra come salvare un documento nel formato PDF utilizzando il metodo Save e la classe PdfSaveOptions.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.PreserveFormFields.pdf", pdfOptions);
 ### Guarda anche
 
 * class [PdfSaveOptions](../)
-* spazio dei nomi [Aspose.Words.Saving](../../pdfsaveoptions/)
+* spazio dei nomi [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,12 +1,14 @@
 ---
 title: CustomXmlPartCollection.Add
-second_title: Aspose.Words per .NET API Reference
-description: CustomXmlPartCollection metodo. Aggiunge un elemento alla raccolta.
+linktitle: Add
+articleTitle: Add
+second_title: Aspose.Words per .NET
+description: CustomXmlPartCollection Add metodo. Aggiunge un elemento alla raccolta in C#.
 type: docs
 weight: 40
 url: /it/net/aspose.words.markup/customxmlpartcollection/add/
 ---
-## Add(CustomXmlPart) {#add_1}
+## Add(*[CustomXmlPart](../../customxmlpart/)*) {#add_1}
 
 Aggiunge un elemento alla raccolta.
 
@@ -18,7 +20,7 @@ public void Add(CustomXmlPart part)
 | --- | --- | --- |
 | part | CustomXmlPart | La parte XML personalizzata da aggiungere. |
 
-### Esempi
+## Esempi
 
 Mostra come creare un tag di documento strutturato con dati XML personalizzati.
 
@@ -86,12 +88,12 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.CustomXml.docx");
 
 * class [CustomXmlPart](../../customxmlpart/)
 * class [CustomXmlPartCollection](../)
-* spazio dei nomi [Aspose.Words.Markup](../../customxmlpartcollection/)
+* spazio dei nomi [Aspose.Words.Markup](../../../aspose.words.markup/)
 * assemblea [Aspose.Words](../../../)
 
 ---
 
-## Add(string, string) {#add}
+## Add(*string, string*) {#add}
 
 Crea una nuova parte XML con l'XML specificato e la aggiunge alla raccolta.
 
@@ -108,7 +110,7 @@ public CustomXmlPart Add(string id, string xml)
 
 Parte XML personalizzata creata.
 
-### Esempi
+## Esempi
 
 Mostra come creare un tag di documento strutturato con dati XML personalizzati.
 
@@ -176,7 +178,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.CustomXml.docx");
 
 * class [CustomXmlPart](../../customxmlpart/)
 * class [CustomXmlPartCollection](../)
-* spazio dei nomi [Aspose.Words.Markup](../../customxmlpartcollection/)
+* spazio dei nomi [Aspose.Words.Markup](../../../aspose.words.markup/)
 * assemblea [Aspose.Words](../../../)
-
-

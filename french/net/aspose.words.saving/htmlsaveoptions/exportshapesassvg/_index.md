@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ExportShapesAsSvg
-second_title: Référence de l'API Aspose.Words pour .NET
-description: HtmlSaveOptions propriété. Contrôle siShapeles nœuds sont convertis en images SVG lors de la sauvegarde de au format HTML MHTML EPUB ou AZW3. La valeur par défaut estFAUX .
+linktitle: ExportShapesAsSvg
+articleTitle: ExportShapesAsSvg
+second_title: Aspose.Words pour .NET
+description: HtmlSaveOptions ExportShapesAsSvg propriété. Contrôle siShapeles nœuds sont convertis en images SVG lors de la sauvegarde de au format HTML MHTML EPUB ou AZW3. La valeur par défaut estFAUX  en C#.
 type: docs
 weight: 250
 url: /fr/net/aspose.words.saving/htmlsaveoptions/exportshapesassvg/
@@ -14,11 +16,11 @@ Contrôle si[`Shape`](../../../aspose.words.drawing/shape/)les nœuds sont conve
 public bool ExportShapesAsSvg { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 Si cette option est définie sur`vrai` ,[`Shape`](../../../aspose.words.drawing/shape/) les nœuds sont exportés sous forme d'éléments &lt;svg&gt;. Sinon, ils sont rendus en bitmaps et exportés sous forme d'éléments &lt;img&gt;.
 
-### Exemples
+## Exemples
 
 Montre comment exporter une forme sous forme de graphiques vectoriels évolutifs.
 
@@ -61,7 +63,5 @@ else
 ### Voir également
 
 * class [HtmlSaveOptions](../)
-* espace de noms [Aspose.Words.Saving](../../htmlsaveoptions/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

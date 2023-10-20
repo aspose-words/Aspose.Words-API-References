@@ -1,7 +1,9 @@
 ---
 title: ImageSavingArgs.KeepImageStreamOpen
-second_title: Aspose.Words لمراجع .NET API
-description: ImageSavingArgs ملكية. يحدد ما إذا كان يجب على Aspose.Words إبقاء الدفق مفتوحًا أو إغلاقه بعد حفظ الصورة.
+linktitle: KeepImageStreamOpen
+articleTitle: KeepImageStreamOpen
+second_title: Aspose.Words لـ .NET
+description: ImageSavingArgs KeepImageStreamOpen ملكية. يحدد ما إذا كان يجب على Aspose.Words إبقاء الدفق مفتوحًا أو إغلاقه بعد حفظ الصورة في C#.
 type: docs
 weight: 60
 url: /ar/net/aspose.words.saving/imagesavingargs/keepimagestreamopen/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.saving/imagesavingargs/keepimagestreamopen/
 public bool KeepImageStreamOpen { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 الافتراضي هو`خطأ شنيع` وسيقوم Aspose.Words بإغلاق الدفق الذي قدمته في ملف[`ImageStream`](../imagestream/) الخاصية بعد كتابة الصورة فيها. تحديد`حقيقي` لإبقاء الدفق مفتوحًا.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تضمين رد اتصال لحفظ الصورة في عملية تحويل HTML.
 
@@ -64,7 +66,5 @@ private class ImageShapePrinter : IImageSavingCallback
 ### أنظر أيضا
 
 * class [ImageSavingArgs](../)
-* مساحة الاسم [Aspose.Words.Saving](../../imagesavingargs/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

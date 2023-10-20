@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitCommentEnd
-second_title: Aspose.Words لمراجع .NET API
-description: DocumentVisitor طريقة. يتم الاتصال به عند انتهاء تعداد نص التعليق.
+linktitle: VisitCommentEnd
+articleTitle: VisitCommentEnd
+second_title: Aspose.Words لـ .NET
+description: DocumentVisitor VisitCommentEnd طريقة. يتم الاتصال به عند انتهاء تعداد نص التعليق في C#.
 type: docs
 weight: 100
 url: /ar/net/aspose.words/documentvisitor/visitcommentend/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitCommentEnd(Comment comment)
 
 أ[`VisitorAction`](../../visitoraction/) القيمة التي تحدد كيفية متابعة التعداد.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية طباعة بنية العقدة لكل تعليق ونطاق التعليقات في المستند.
 
@@ -143,7 +145,5 @@ public class CommentStructurePrinter : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [Comment](../../comment/)
 * class [DocumentVisitor](../)
-* مساحة الاسم [Aspose.Words](../../documentvisitor/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

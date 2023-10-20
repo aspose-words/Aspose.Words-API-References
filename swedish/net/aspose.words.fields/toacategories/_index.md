@@ -1,7 +1,9 @@
 ---
-title: Class ToaCategories
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Fields.ToaCategories klass. Representerar en tabell över myndighetskategorier.
+title: ToaCategories Class
+linktitle: ToaCategories
+articleTitle: ToaCategories
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Fields.ToaCategories klass. Representerar en tabell över myndighetskategorier i C#.
 type: docs
 weight: 2780
 url: /sv/net/aspose.words.fields/toacategories/
@@ -29,7 +31,7 @@ public class ToaCategories
 | static [DefaultCategories](../../aspose.words.fields/toacategories/defaultcategories/) { get; } | Hämtar standardtabellen över behörighetskategorier. |
 | [Item](../../aspose.words.fields/toacategories/item/) { get; set; } | Hämtar eller ställer in kategorirubriken efter kategorinummer. |
 
-### Exempel
+## Exempel
 
 Visar hur man anger en uppsättning kategorier för TOA-fält.
 
@@ -78,5 +80,3 @@ doc.Save(ArtifactsDir + "FieldOptions.TOA.Categories.docx");
 
 * namnutrymme [Aspose.Words.Fields](../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../)
-
-

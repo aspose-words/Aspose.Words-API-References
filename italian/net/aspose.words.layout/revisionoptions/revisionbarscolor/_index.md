@@ -1,7 +1,9 @@
 ---
 title: RevisionOptions.RevisionBarsColor
-second_title: Aspose.Words per .NET API Reference
-description: RevisionOptions proprietà. Permette di specificare il colore da utilizzare per le barre laterali che identificano le righe del documento contenenti le informazioni riviste. Il valore predefinito èRed .
+linktitle: RevisionBarsColor
+articleTitle: RevisionBarsColor
+second_title: Aspose.Words per .NET
+description: RevisionOptions RevisionBarsColor proprietà. Permette di specificare il colore da utilizzare per le barre laterali che identificano le righe del documento contenenti le informazioni riviste. Il valore predefinito èRed  in C#.
 type: docs
 weight: 130
 url: /it/net/aspose.words.layout/revisionoptions/revisionbarscolor/
@@ -14,11 +16,11 @@ Permette di specificare il colore da utilizzare per le barre laterali che identi
 public RevisionColor RevisionBarsColor { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Impostando questa proprietà suByAuthor ONoHighlight values comporterà la scomparsa delle barre di revisione dal layout.
 
-### Esempi
+## Esempi
 
 Mostra come modificare l'aspetto delle revisioni.
 
@@ -70,7 +72,5 @@ doc.Save(ArtifactsDir + "Revision.RevisionOptions.pdf");
 
 * enum [RevisionColor](../../revisioncolor/)
 * class [RevisionOptions](../)
-* spazio dei nomi [Aspose.Words.Layout](../../revisionoptions/)
+* spazio dei nomi [Aspose.Words.Layout](../../../aspose.words.layout/)
 * assemblea [Aspose.Words](../../../)
-
-

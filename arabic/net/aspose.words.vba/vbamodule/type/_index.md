@@ -1,7 +1,9 @@
 ---
 title: VbaModule.Type
-second_title: Aspose.Words لمراجع .NET API
-description: VbaModule ملكية. يحدد ما إذا كانت الوحدة هي وحدة إجرائية أو وحدة مستند أو وحدة فئة أو وحدة مصمم.
+linktitle: Type
+articleTitle: Type
+second_title: Aspose.Words لـ .NET
+description: VbaModule Type ملكية. يحدد ما إذا كانت الوحدة هي وحدة إجرائية أو وحدة مستند أو وحدة فئة أو وحدة مصمم في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.vba/vbamodule/type/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.vba/vbamodule/type/
 public VbaModuleType Type { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء مشروع VBA باستخدام وحدات الماكرو.
 
@@ -42,7 +44,5 @@ doc.Save(ArtifactsDir + "VbaProject.CreateVBAMacros.docm");
 
 * enum [VbaModuleType](../../vbamoduletype/)
 * class [VbaModule](../)
-* مساحة الاسم [Aspose.Words.Vba](../../vbamodule/)
+* مساحة الاسم [Aspose.Words.Vba](../../../aspose.words.vba/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Hyphenation.IsDictionaryRegistered
-second_title: Справочник по API Aspose.Words для .NET
-description: Hyphenation метод. ВозвращаетЛОЖЬ если для указанного языка не зарегистрирован словарь или зарегистрирован пустой словарьистинный иначе.
+linktitle: IsDictionaryRegistered
+articleTitle: IsDictionaryRegistered
+second_title: Aspose.Words для .NET
+description: Hyphenation IsDictionaryRegistered метод. ВозвращаетЛОЖЬ если для указанного языка не зарегистрирован словарь или зарегистрирован пустой словарьистинный иначе на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words/hyphenation/isdictionaryregistered/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/hyphenation/isdictionaryregistered/
 public static bool IsDictionaryRegistered(string language)
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как зарегистрировать словарь переносов.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "Hyphenation.Dictionary.Unregistered.pdf");
 ### Смотрите также
 
 * class [Hyphenation](../)
-* пространство имен [Aspose.Words](../../hyphenation/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

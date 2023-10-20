@@ -1,7 +1,9 @@
 ---
 title: FieldDate.UseLunarCalendar
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldDate eigendom. Ruft ab oder legt fest ob der HijriMondkalender oder der hebräische Mondkalender verwendet werden soll.
+linktitle: UseLunarCalendar
+articleTitle: UseLunarCalendar
+second_title: Aspose.Words für .NET
+description: FieldDate UseLunarCalendar eigendom. Ruft ab oder legt fest ob der HijriMondkalender oder der hebräische Mondkalender verwendet werden soll in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.fields/fielddate/uselunarcalendar/
@@ -14,7 +16,7 @@ Ruft ab oder legt fest, ob der Hijri-Mondkalender oder der hebräische Mondkalen
 public bool UseLunarCalendar { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie DATE-Felder verwendet werden, um Daten gemäß verschiedenen Kalenderarten anzuzeigen.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "Field.DATE.docx");
 ### Siehe auch
 
 * class [FieldDate](../)
-* namensraum [Aspose.Words.Fields](../../fielddate/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

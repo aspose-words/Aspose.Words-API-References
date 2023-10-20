@@ -1,7 +1,9 @@
 ---
-title: DocSaveOptions.DocSaveOptions
-second_title: Aspose.Words für .NET-API-Referenz
-description: DocSaveOptions constructeur. Initialisiert eine neue Instanz dieser Klasse die zum Speichern eines Dokuments im verwendet werden kannDoc format.
+title: DocSaveOptions
+linktitle: DocSaveOptions
+articleTitle: DocSaveOptions
+second_title: Aspose.Words für .NET
+description: DocSaveOptions constructeur. Initialisiert eine neue Instanz dieser Klasse die zum Speichern eines Dokuments im verwendet werden kannDoc format in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words.saving/docsaveoptions/docsaveoptions/
@@ -14,7 +16,7 @@ Initialisiert eine neue Instanz dieser Klasse, die zum Speichern eines Dokuments
 public DocSaveOptions()
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Speicheroptionen für ältere Microsoft Word-Formate festgelegt werden.
 
@@ -47,12 +49,12 @@ Assert.AreEqual("Hello world!", doc.GetText().Trim());
 ### Siehe auch
 
 * class [DocSaveOptions](../)
-* namensraum [Aspose.Words.Saving](../../docsaveoptions/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
 
 ---
 
-## DocSaveOptions(SaveFormat) {#constructor_1}
+## DocSaveOptions(*[SaveFormat](../../../aspose.words/saveformat/)*) {#constructor_1}
 
 Initialisiert eine neue Instanz dieser Klasse, die zum Speichern eines Dokuments im verwendet werden kannDoc or Dot format.
 
@@ -64,7 +66,7 @@ public DocSaveOptions(SaveFormat saveFormat)
 | --- | --- | --- |
 | saveFormat | SaveFormat | Kann seinDoc oderDot. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Speicheroptionen für ältere Microsoft Word-Formate festgelegt werden.
 
@@ -98,7 +100,5 @@ Assert.AreEqual("Hello world!", doc.GetText().Trim());
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
 * class [DocSaveOptions](../)
-* namensraum [Aspose.Words.Saving](../../docsaveoptions/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

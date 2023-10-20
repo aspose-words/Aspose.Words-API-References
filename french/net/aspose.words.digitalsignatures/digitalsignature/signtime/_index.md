@@ -1,7 +1,9 @@
 ---
 title: DigitalSignature.SignTime
-second_title: Référence de l'API Aspose.Words pour .NET
-description: DigitalSignature propriété. Obtient lheure à laquelle le document a été signé.
+linktitle: SignTime
+articleTitle: SignTime
+second_title: Aspose.Words pour .NET
+description: DigitalSignature SignTime propriété. Obtient lheure à laquelle le document a été signé en C#.
 type: docs
 weight: 70
 url: /fr/net/aspose.words.digitalsignatures/digitalsignature/signtime/
@@ -14,7 +16,7 @@ Obtient l'heure à laquelle le document a été signé.
 public DateTime SignTime { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment valider et afficher des informations sur chaque signature dans un document.
 
@@ -36,7 +38,5 @@ foreach (DigitalSignature signature in doc.DigitalSignatures)
 ### Voir également
 
 * class [DigitalSignature](../)
-* espace de noms [Aspose.Words.DigitalSignatures](../../digitalsignature/)
+* espace de noms [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * Assemblée [Aspose.Words](../../../)
-
-

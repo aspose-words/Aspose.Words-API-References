@@ -1,7 +1,9 @@
 ---
 title: FieldMergingArgsBase.Document
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldMergingArgsBase propriété. Renvoie leDocument objet pour lequel le publipostage est effectué.
+linktitle: Document
+articleTitle: Document
+second_title: Aspose.Words pour .NET
+description: FieldMergingArgsBase Document propriété. Renvoie leDocument objet pour lequel le publipostage est effectué en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.mailmerging/fieldmergingargsbase/document/
@@ -14,7 +16,7 @@ Renvoie le`Document` objet pour lequel le publipostage est effectué.
 public Document Document { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment exécuter un publipostage avec un rappel personnalisé qui gère les données de fusion sous la forme de documents HTML.
 
@@ -83,7 +85,5 @@ private class HandleMergeFieldInsertHtml : IFieldMergingCallback
 
 * class [Document](../../../aspose.words/document/)
 * class [FieldMergingArgsBase](../)
-* espace de noms [Aspose.Words.MailMerging](../../fieldmergingargsbase/)
+* espace de noms [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * Assemblée [Aspose.Words](../../../)
-
-

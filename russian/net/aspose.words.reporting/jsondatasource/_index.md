@@ -1,7 +1,9 @@
 ---
-title: Class JsonDataSource
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Reporting.JsonDataSource сорт. Обеспечивает доступ к данным файла или потока JSON которые будут использоваться в отчете.
+title: JsonDataSource Class
+linktitle: JsonDataSource
+articleTitle: JsonDataSource
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Reporting.JsonDataSource сорт. Обеспечивает доступ к данным файла или потока JSON которые будут использоваться в отчете на С#.
 type: docs
 weight: 4690
 url: /ru/net/aspose.words.reporting/jsondatasource/
@@ -20,12 +22,12 @@ public class JsonDataSource
 
 | Имя | Описание |
 | --- | --- |
-| [JsonDataSource](jsondatasource/#constructor)(Stream) | Создает новый источник данных с данными из потока JSON, используя параметры по умолчанию для анализа данных JSON. |
-| [JsonDataSource](jsondatasource/#constructor_2)(string) | Создает новый источник данных с данными из файла JSON, используя параметры по умолчанию для анализа данных JSON. |
-| [JsonDataSource](jsondatasource/#constructor_1)(Stream, JsonDataLoadOptions) | Создает новый источник данных с данными из потока JSON, используя указанные параметры анализа данных JSON. |
-| [JsonDataSource](jsondatasource/#constructor_3)(string, JsonDataLoadOptions) | Создает новый источник данных с данными из файла JSON, используя указанные параметры анализа данных JSON. |
+| [JsonDataSource](jsondatasource/#constructor)(*Stream*) | Создает новый источник данных с данными из потока JSON, используя параметры по умолчанию для анализа данных JSON. |
+| [JsonDataSource](jsondatasource/#constructor_2)(*string*) | Создает новый источник данных с данными из файла JSON, используя параметры по умолчанию для анализа данных JSON. |
+| [JsonDataSource](jsondatasource/#constructor_1)(*Stream, [JsonDataLoadOptions](../jsondataloadoptions/)*) | Создает новый источник данных с данными из потока JSON, используя указанные параметры анализа данных JSON. |
+| [JsonDataSource](jsondatasource/#constructor_3)(*string, [JsonDataLoadOptions](../jsondataloadoptions/)*) | Создает новый источник данных с данными из файла JSON, используя указанные параметры анализа данных JSON. |
 
-### Примечания
+## Примечания
 
 Чтобы получить доступ к данным соответствующего файла или потока при создании отчета, передайте экземпляр этого класса как источник данных одному из[`ReportingEngine`](../reportingengine/) .BuildReport перегрузки.
 
@@ -47,5 +49,3 @@ public class JsonDataSource
 
 * пространство имен [Aspose.Words.Reporting](../../aspose.words.reporting/)
 * сборка [Aspose.Words](../../)
-
-

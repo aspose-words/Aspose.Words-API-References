@@ -1,7 +1,9 @@
 ---
 title: SdtListItemCollection.Clear
-second_title: Aspose.Words für .NET-API-Referenz
-description: SdtListItemCollection methode. Löscht alle Elemente aus dieser Sammlung.
+linktitle: Clear
+articleTitle: Clear
+second_title: Aspose.Words für .NET
+description: SdtListItemCollection Clear methode. Löscht alle Elemente aus dieser Sammlung in C#.
 type: docs
 weight: 50
 url: /de/net/aspose.words.markup/sdtlistitemcollection/clear/
@@ -14,7 +16,7 @@ Löscht alle Elemente aus dieser Sammlung.
 public void Clear()
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit strukturierten Dropdown-Dokument-Tags gearbeitet wird.
 
@@ -71,7 +73,5 @@ Assert.AreEqual(0, listItems.Count);
 ### Siehe auch
 
 * class [SdtListItemCollection](../)
-* namensraum [Aspose.Words.Markup](../../sdtlistitemcollection/)
+* namensraum [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Montage [Aspose.Words](../../../)
-
-

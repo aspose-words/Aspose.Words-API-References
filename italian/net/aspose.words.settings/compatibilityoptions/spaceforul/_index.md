@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.SpaceForUL
-second_title: Aspose.Words per .NET API Reference
-description: CompatibilityOptions proprietà. Aggiungi spazio aggiuntivo sotto la linea di base per il testo dellAsia orientale sottolineato.
+linktitle: SpaceForUL
+articleTitle: SpaceForUL
+second_title: Aspose.Words per .NET
+description: CompatibilityOptions SpaceForUL proprietà. Aggiungi spazio aggiuntivo sotto la linea di base per il testo dellAsia orientale sottolineato in C#.
 type: docs
 weight: 440
 url: /it/net/aspose.words.settings/compatibilityoptions/spaceforul/
@@ -17,7 +19,5 @@ public bool SpaceForUL { get; set; }
 ### Guarda anche
 
 * class [CompatibilityOptions](../)
-* spazio dei nomi [Aspose.Words.Settings](../../compatibilityoptions/)
+* spazio dei nomi [Aspose.Words.Settings](../../../aspose.words.settings/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: RevisionOptions.ShowInBalloons
-second_title: Aspose.Words för .NET API Referens
-description: RevisionOptions fast egendom. Gör det möjligt att ange om revisionerna ska återges i ballongerna. Standardvärdet ärNone .
+linktitle: ShowInBalloons
+articleTitle: ShowInBalloons
+second_title: Aspose.Words för .NET
+description: RevisionOptions ShowInBalloons fast egendom. Gör det möjligt att ange om revisionerna ska återges i ballongerna. Standardvärdet ärNone  i C#.
 type: docs
 weight: 160
 url: /sv/net/aspose.words.layout/revisionoptions/showinballoons/
@@ -14,11 +16,11 @@ Gör det möjligt att ange om revisionerna ska återges i ballongerna. Standardv
 public ShowInBalloons ShowInBalloons { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Observera att revisioner inte återges i ballonger förShowInAnnotations .
 
-### Exempel
+## Exempel
 
 Visar hur man visar ändringar i ballonger.
 
@@ -81,7 +83,5 @@ doc.Save(ArtifactsDir + "Revision.RevisionOptions.pdf");
 
 * enum [ShowInBalloons](../../showinballoons/)
 * class [RevisionOptions](../)
-* namnutrymme [Aspose.Words.Layout](../../revisionoptions/)
+* namnutrymme [Aspose.Words.Layout](../../../aspose.words.layout/)
 * hopsättning [Aspose.Words](../../../)
-
-

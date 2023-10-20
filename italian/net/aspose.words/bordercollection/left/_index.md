@@ -1,7 +1,9 @@
 ---
 title: BorderCollection.Left
-second_title: Aspose.Words per .NET API Reference
-description: BorderCollection proprietà. Ottiene il bordo sinistro.
+linktitle: Left
+articleTitle: Left
+second_title: Aspose.Words per .NET
+description: BorderCollection Left proprietà. Ottiene il bordo sinistro in C#.
 type: docs
 weight: 70
 url: /it/net/aspose.words/bordercollection/left/
@@ -14,7 +16,7 @@ Ottiene il bordo sinistro.
 public Border Left { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come applicare il colore del bordo e dell'ombreggiatura durante la creazione di una tabella.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.TableBordersAndShading.docx");
 
 * class [Border](../../border/)
 * class [BorderCollection](../)
-* spazio dei nomi [Aspose.Words](../../bordercollection/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

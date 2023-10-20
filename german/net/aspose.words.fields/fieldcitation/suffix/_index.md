@@ -1,7 +1,9 @@
 ---
 title: FieldCitation.Suffix
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldCitation eigendom. Ruft ein Suffix ab das an das Zitat angehängt wird oder legt es fest.
+linktitle: Suffix
+articleTitle: Suffix
+second_title: Aspose.Words für .NET
+description: FieldCitation Suffix eigendom. Ruft ein Suffix ab das an das Zitat angehängt wird oder legt es fest in C#.
 type: docs
 weight: 70
 url: /de/net/aspose.words.fields/fieldcitation/suffix/
@@ -14,7 +16,7 @@ Ruft ein Suffix ab, das an das Zitat angehängt wird, oder legt es fest.
 public string Suffix { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit den Feldern CITATION und BIBLIOGRAPHY gearbeitet wird.
 
@@ -68,7 +70,5 @@ doc.Save(ArtifactsDir + "Field.CITATION.docx");
 ### Siehe auch
 
 * class [FieldCitation](../)
-* namensraum [Aspose.Words.Fields](../../fieldcitation/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

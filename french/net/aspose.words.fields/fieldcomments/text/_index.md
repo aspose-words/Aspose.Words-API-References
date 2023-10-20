@@ -1,7 +1,9 @@
 ---
 title: FieldComments.Text
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldComments propriété. Obtient ou définit le texte des commentaires.
+linktitle: Text
+articleTitle: Text
+second_title: Aspose.Words pour .NET
+description: FieldComments Text propriété. Obtient ou définit le texte des commentaires en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.fields/fieldcomments/text/
@@ -14,7 +16,7 @@ Obtient ou définit le texte des commentaires.
 public string Text { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment utiliser le champ COMMENTAIRES.
 
@@ -47,7 +49,5 @@ doc.Save(ArtifactsDir + "Field.COMMENTS.docx");
 ### Voir également
 
 * class [FieldComments](../)
-* espace de noms [Aspose.Words.Fields](../../fieldcomments/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

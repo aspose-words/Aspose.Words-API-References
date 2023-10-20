@@ -1,7 +1,9 @@
 ---
 title: ListFormat.RemoveNumbers
-second_title: Справочник по API Aspose.Words для .NET
-description: ListFormat метод. Удаляет номера или маркеры из текущего абзаца и устанавливает нулевой уровень списка.
+linktitle: RemoveNumbers
+articleTitle: RemoveNumbers
+second_title: Aspose.Words для .NET
+description: ListFormat RemoveNumbers метод. Удаляет номера или маркеры из текущего абзаца и устанавливает нулевой уровень списка на С#.
 type: docs
 weight: 90
 url: /ru/net/aspose.words.lists/listformat/removenumbers/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.lists/listformat/removenumbers/
 public void RemoveNumbers()
 ```
 
-### Примечания
+## Примечания
 
 Вызов этого метода эквивалентен установке[`List`](../list/) собственность`нулевой`.
 
-### Примеры
+## Примеры
 
 Показывает, как удалить форматирование списка из всех абзацев основного текста раздела.
 
@@ -124,7 +126,5 @@ doc.Save(ArtifactsDir + "Lists.ApplyDefaultBulletsAndNumbers.docx");
 ### Смотрите также
 
 * class [ListFormat](../)
-* пространство имен [Aspose.Words.Lists](../../listformat/)
+* пространство имен [Aspose.Words.Lists](../../../aspose.words.lists/)
 * сборка [Aspose.Words](../../../)
-
-

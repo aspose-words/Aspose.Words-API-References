@@ -1,12 +1,14 @@
 ---
 title: Aspose.Words.Loading
-second_title: Aspose.Words لمراجع .NET API
-description: ال Aspose.Words.Loadingتوفر مساحة الاسم فئات وتعدادات تسمح بتحديد خيارات إضافية عند تحميل المستندات.
+linktitle: Aspose.Words.Loading
+articleTitle: Aspose.Words.Loading
+second_title: Aspose.Words لـ .NET
+description: الAspose.Words.Loadingتوفر مساحة الاسم فئات وتعدادات تسمح بتحديد خيارات إضافية عند تحميل المستندات في C#.
 type: docs
 weight: 130
 url: /ar/net/aspose.words.loading/
 ---
-ال **Aspose.Words.Loading**توفر مساحة الاسم فئات وتعدادات تسمح بتحديد خيارات إضافية عند تحميل المستندات.
+ال**Aspose.Words.Loading**توفر مساحة الاسم فئات وتعدادات تسمح بتحديد خيارات إضافية عند تحميل المستندات.
 
 ## الطبقات
 
@@ -39,5 +41,3 @@ url: /ar/net/aspose.words.loading/
 | [ResourceType](./resourcetype/) | نوع المورد المحمل. |
 | [TxtLeadingSpacesOptions](./txtleadingspacesoptions/) | يحدد الخيارات المتاحة للتعامل مع المساحة الرائدة أثناء الاستيراد منText ملف. |
 | [TxtTrailingSpacesOptions](./txttrailingspacesoptions/) | يحدد الخيارات المتاحة لمعالجة المسافات الزائدة أثناء الاستيراد منText ملف. |
-
-

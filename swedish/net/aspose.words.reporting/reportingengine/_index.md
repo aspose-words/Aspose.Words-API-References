@@ -1,7 +1,9 @@
 ---
-title: Class ReportingEngine
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Reporting.ReportingEngine klass. Tillhandahåller rutiner för att fylla i malldokument med data och en uppsättning inställningar för att kontrollera dessa rutiner.
+title: ReportingEngine Class
+linktitle: ReportingEngine
+articleTitle: ReportingEngine
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Reporting.ReportingEngine klass. Tillhandahåller rutiner för att fylla i malldokument med data och en uppsättning inställningar för att kontrollera dessa rutiner i C#.
 type: docs
 weight: 4730
 url: /sv/net/aspose.words.reporting/reportingengine/
@@ -34,15 +36,13 @@ public class ReportingEngine
 
 | namn | Beskrivning |
 | --- | --- |
-| [BuildReport](../../aspose.words.reporting/reportingengine/buildreport/#buildreport)(Document, object) | Fyller i det angivna malldokumentet med data från den angivna källan vilket gör det till en klar rapport. |
-| [BuildReport](../../aspose.words.reporting/reportingengine/buildreport/#buildreport_1)(Document, object, string) | Fyller i det angivna malldokumentet med data från den angivna källan vilket gör det till en klar rapport. |
-| [BuildReport](../../aspose.words.reporting/reportingengine/buildreport/#buildreport_2)(Document, object[], string[]) | Fyller i det angivna malldokumentet med data från de angivna källorna vilket gör det till en klar rapport. |
-| [Equals](../../aspose.words.reporting/reportingengine/equals/)(object) | Bestämmer om det angivna objektet har samma värde som det aktuella objektet. |
+| [BuildReport](../../aspose.words.reporting/reportingengine/buildreport/#buildreport)(*[Document](../../aspose.words/document/), object*) | Fyller i det angivna malldokumentet med data från den angivna källan vilket gör det till en klar rapport. |
+| [BuildReport](../../aspose.words.reporting/reportingengine/buildreport/#buildreport_1)(*[Document](../../aspose.words/document/), object, string*) | Fyller i det angivna malldokumentet med data från den angivna källan vilket gör det till en klar rapport. |
+| [BuildReport](../../aspose.words.reporting/reportingengine/buildreport/#buildreport_2)(*[Document](../../aspose.words/document/), object[], string[]*) | Fyller i det angivna malldokumentet med data från de angivna källorna vilket gör det till en klar rapport. |
+| [Equals](../../aspose.words.reporting/reportingengine/equals/)(*object*) | Bestämmer om det angivna objektet har samma värde som det aktuella objektet. |
 | [GetHashCode](../../aspose.words.reporting/reportingengine/gethashcode/)() | Fungerar som en hashfunktion för denna typ. |
 
 ### Se även
 
 * namnutrymme [Aspose.Words.Reporting](../../aspose.words.reporting/)
 * hopsättning [Aspose.Words](../../)
-
-

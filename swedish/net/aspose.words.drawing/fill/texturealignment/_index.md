@@ -1,9 +1,11 @@
 ---
 title: Fill.TextureAlignment
-second_title: Aspose.Words för .NET API Referens
-description: Fill fast egendom. Hämtar eller ställer in justeringen för kakeltexturfyllning.
+linktitle: TextureAlignment
+articleTitle: TextureAlignment
+second_title: Aspose.Words för .NET
+description: Fill TextureAlignment fast egendom. Hämtar eller ställer in justeringen för kakeltexturfyllning i C#.
 type: docs
-weight: 190
+weight: 180
 url: /sv/net/aspose.words.drawing/fill/texturealignment/
 ---
 ## Fill.TextureAlignment property
@@ -14,7 +16,7 @@ Hämtar eller ställer in justeringen för kakeltexturfyllning.
 public TextureAlignment TextureAlignment { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man fyller och kakelar strukturen inuti formen.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "Shape.TextureFill.docx", saveOptions);
 
 * enum [TextureAlignment](../../texturealignment/)
 * class [Fill](../)
-* namnutrymme [Aspose.Words.Drawing](../../fill/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

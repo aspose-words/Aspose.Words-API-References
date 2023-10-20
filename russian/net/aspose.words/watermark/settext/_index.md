@@ -1,12 +1,14 @@
 ---
 title: Watermark.SetText
-second_title: Справочник по API Aspose.Words для .NET
-description: Watermark метод. Добавляет текстовый водяной знак в документ.
+linktitle: SetText
+articleTitle: SetText
+second_title: Aspose.Words для .NET
+description: Watermark SetText метод. Добавляет текстовый водяной знак в документ на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words/watermark/settext/
 ---
-## SetText(string) {#settext}
+## SetText(*string*) {#settext}
 
 Добавляет текстовый водяной знак в документ.
 
@@ -25,11 +27,11 @@ public void SetText(string text)
 | ArgumentOutOfRangeException | Выдается, когда длина текста выходит за пределы допустимого диапазона или текст содержит только пробелы. |
 | ArgumentNullException | Выдает, когда текст`нулевой` . |
 
-### Примечания
+## Примечания
 
 Длина текста должна быть в диапазоне от 1 до 200 включительно. Текст не может быть`нулевой` или содержать только пробелы.
 
-### Примеры
+## Примеры
 
 Показывает, как создать текстовый водяной знак.
 
@@ -60,12 +62,12 @@ if (doc.Watermark.Type == WatermarkType.Text)
 ### Смотрите также
 
 * class [Watermark](../)
-* пространство имен [Aspose.Words](../../watermark/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## SetText(string, TextWatermarkOptions) {#settext_1}
+## SetText(*string, [TextWatermarkOptions](../../textwatermarkoptions/)*) {#settext_1}
 
 Добавляет текстовый водяной знак в документ.
 
@@ -85,13 +87,13 @@ public void SetText(string text, TextWatermarkOptions options)
 | ArgumentOutOfRangeException | Выдается, когда длина текста выходит за пределы допустимого диапазона или текст содержит только пробелы. |
 | ArgumentNullException | Выдает, когда текст`нулевой` . |
 
-### Примечания
+## Примечания
 
 Длина текста должна быть в диапазоне от 1 до 200 включительно. Текст не может быть`нулевой` или содержать только пробелы.
 
 Если[`TextWatermarkOptions`](../../textwatermarkoptions/) является`нулевой`, для водяного знака будут установлены параметры по умолчанию.
 
-### Примеры
+## Примеры
 
 Показывает, как создать текстовый водяной знак.
 
@@ -123,7 +125,5 @@ if (doc.Watermark.Type == WatermarkType.Text)
 
 * class [TextWatermarkOptions](../../textwatermarkoptions/)
 * class [Watermark](../)
-* пространство имен [Aspose.Words](../../watermark/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

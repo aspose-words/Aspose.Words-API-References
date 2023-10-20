@@ -1,7 +1,9 @@
 ---
 title: SignatureLineOptions.DefaultInstructions
-second_title: Aspose.Words for .NET API 参考
-description: SignatureLineOptions 财产. 获取或设置一个值该值指示默认说明显示在签名对话框中 此属性的默认值为真的.
+linktitle: DefaultInstructions
+articleTitle: DefaultInstructions
+second_title: 用于 .NET 的 Aspose.Words
+description: SignatureLineOptions DefaultInstructions 财产. 获取或设置一个值该值指示默认说明显示在签名对话框中 此属性的默认值为真的 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words/signaturelineoptions/defaultinstructions/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/signaturelineoptions/defaultinstructions/
 public bool DefaultInstructions { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何使用个人证书和签名行签署文档。
 
@@ -67,7 +69,5 @@ Assert.True(signatureLine.IsValid);
 ### 也可以看看
 
 * class [SignatureLineOptions](../)
-* 命名空间 [Aspose.Words](../../signaturelineoptions/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

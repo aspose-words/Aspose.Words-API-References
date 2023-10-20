@@ -1,7 +1,9 @@
 ---
 title: Revision.DateTime
-second_title: Aspose.Words för .NET API Referens
-description: Revision fast egendom. Hämtar eller ställer in datum/tid för denna revision.
+linktitle: DateTime
+articleTitle: DateTime
+second_title: Aspose.Words för .NET
+description: Revision DateTime fast egendom. Hämtar eller ställer in datum/tid för denna revision i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words/revision/datetime/
@@ -14,7 +16,7 @@ Hämtar eller ställer in datum/tid för denna revision.
 public DateTime DateTime { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med revisioner i ett dokument.
 
@@ -97,7 +99,5 @@ Assert.AreEqual("This is revision #1. \rThis is revision #2.", doc.GetText().Tri
 ### Se även
 
 * class [Revision](../)
-* namnutrymme [Aspose.Words](../../revision/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

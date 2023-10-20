@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTag.Appearance
-second_title: Référence de l'API Aspose.Words pour .NET
-description: StructuredDocumentTag propriété. Obtient/définit lapparence dune balise de document structuré.
+linktitle: Appearance
+articleTitle: Appearance
+second_title: Aspose.Words pour .NET
+description: StructuredDocumentTag Appearance propriété. Obtient/définit lapparence dune balise de document structuré en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.markup/structureddocumenttag/appearance/
@@ -14,7 +16,7 @@ Obtient/définit l'apparence d'une balise de document structuré.
 public SdtAppearance Appearance { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment créer une balise de document structuré dans une zone de texte brut et modifier son apparence.
 
@@ -72,7 +74,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.PlainText.docx");
 
 * enum [SdtAppearance](../../sdtappearance/)
 * class [StructuredDocumentTag](../)
-* espace de noms [Aspose.Words.Markup](../../structureddocumenttag/)
+* espace de noms [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Assemblée [Aspose.Words](../../../)
-
-

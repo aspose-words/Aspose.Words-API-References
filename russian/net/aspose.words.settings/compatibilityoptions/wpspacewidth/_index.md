@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.WPSpaceWidth
-second_title: Справочник по API Aspose.Words для .NET
-description: CompatibilityOptions свойство. Указывает устанавливать ли ширину пробела как это делается в WordPerfect 5.x. .
+linktitle: WPSpaceWidth
+articleTitle: WPSpaceWidth
+second_title: Aspose.Words для .NET
+description: CompatibilityOptions WPSpaceWidth свойство. Указывает устанавливать ли ширину пробела как это делается в WordPerfect 5.x.  на С#.
 type: docs
 weight: 700
 url: /ru/net/aspose.words.settings/compatibilityoptions/wpspacewidth/
@@ -17,7 +19,5 @@ public bool WPSpaceWidth { get; set; }
 ### Смотрите также
 
 * class [CompatibilityOptions](../)
-* пространство имен [Aspose.Words.Settings](../../compatibilityoptions/)
+* пространство имен [Aspose.Words.Settings](../../../aspose.words.settings/)
 * сборка [Aspose.Words](../../../)
-
-

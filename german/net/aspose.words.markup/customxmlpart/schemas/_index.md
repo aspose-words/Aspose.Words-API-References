@@ -1,7 +1,9 @@
 ---
 title: CustomXmlPart.Schemas
-second_title: Aspose.Words für .NET-API-Referenz
-description: CustomXmlPart eigendom. Gibt den Satz von XMLSchemas an die diesem benutzerdefinierten XMLTeil zugeordnet sind.
+linktitle: Schemas
+articleTitle: Schemas
+second_title: Aspose.Words für .NET
+description: CustomXmlPart Schemas eigendom. Gibt den Satz von XMLSchemas an die diesem benutzerdefinierten XMLTeil zugeordnet sind in C#.
 type: docs
 weight: 50
 url: /de/net/aspose.words.markup/customxmlpart/schemas/
@@ -14,7 +16,7 @@ Gibt den Satz von XML-Schemas an, die diesem benutzerdefinierten XML-Teil zugeor
 public CustomXmlSchemaCollection Schemas { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein strukturiertes Dokument-Tag mit benutzerdefinierten XML-Daten erstellt wird.
 
@@ -82,7 +84,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.CustomXml.docx");
 
 * class [CustomXmlSchemaCollection](../../customxmlschemacollection/)
 * class [CustomXmlPart](../)
-* namensraum [Aspose.Words.Markup](../../customxmlpart/)
+* namensraum [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Montage [Aspose.Words](../../../)
-
-

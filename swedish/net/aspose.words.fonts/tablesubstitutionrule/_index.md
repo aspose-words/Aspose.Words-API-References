@@ -1,7 +1,9 @@
 ---
-title: Class TableSubstitutionRule
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Fonts.TableSubstitutionRule klass. Regel för ersättning av tabellteckensnitt.
+title: TableSubstitutionRule Class
+linktitle: TableSubstitutionRule
+articleTitle: TableSubstitutionRule
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Fonts.TableSubstitutionRule klass. Regel för ersättning av tabellteckensnitt i C#.
 type: docs
 weight: 3060
 url: /sv/net/aspose.words.fonts/tablesubstitutionrule/
@@ -26,22 +28,22 @@ public class TableSubstitutionRule : FontSubstitutionRule
 
 | namn | Beskrivning |
 | --- | --- |
-| [AddSubstitutes](../../aspose.words.fonts/tablesubstitutionrule/addsubstitutes/)(string, params string[]) | Lägger till ersättande teckensnittsnamn för det ursprungliga teckensnittsnamnet. |
-| [GetSubstitutes](../../aspose.words.fonts/tablesubstitutionrule/getsubstitutes/)(string) | Returnerar array som innehåller ersättande teckensnittsnamn för det angivna ursprungliga teckensnittsnamnet. |
-| [Load](../../aspose.words.fonts/tablesubstitutionrule/load/#load)(Stream) | Laddar inställningar för tabellersättning från XML-ström. |
-| [Load](../../aspose.words.fonts/tablesubstitutionrule/load/#load_1)(string) | Laddar tabellersättningsinställningar från XML-fil. |
+| [AddSubstitutes](../../aspose.words.fonts/tablesubstitutionrule/addsubstitutes/)(*string, params string[]*) | Lägger till ersättande teckensnittsnamn för det ursprungliga teckensnittsnamnet. |
+| [GetSubstitutes](../../aspose.words.fonts/tablesubstitutionrule/getsubstitutes/)(*string*) | Returnerar array som innehåller ersättande teckensnittsnamn för det angivna ursprungliga teckensnittsnamnet. |
+| [Load](../../aspose.words.fonts/tablesubstitutionrule/load/#load)(*Stream*) | Laddar inställningar för tabellersättning från XML-ström. |
+| [Load](../../aspose.words.fonts/tablesubstitutionrule/load/#load_1)(*string*) | Laddar tabellersättningsinställningar från XML-fil. |
 | [LoadAndroidSettings](../../aspose.words.fonts/tablesubstitutionrule/loadandroidsettings/)() | Laddar fördefinierade tabellersättningsinställningar för Android-plattformen. |
 | [LoadLinuxSettings](../../aspose.words.fonts/tablesubstitutionrule/loadlinuxsettings/)() | Laddar fördefinierade tabellersättningsinställningar för Linux-plattformen. |
 | [LoadWindowsSettings](../../aspose.words.fonts/tablesubstitutionrule/loadwindowssettings/)() | Laddar fördefinierade tabellersättningsinställningar för Windows-plattformen. |
-| [Save](../../aspose.words.fonts/tablesubstitutionrule/save/#save)(Stream) | Sparar de aktuella inställningarna för tabellersättning för att streama. |
-| [Save](../../aspose.words.fonts/tablesubstitutionrule/save/#save_1)(string) | Sparar de aktuella inställningarna för tabellersättning i filen. |
-| [SetSubstitutes](../../aspose.words.fonts/tablesubstitutionrule/setsubstitutes/)(string, params string[]) | Åsidosätt ersättande teckensnittsnamn för det ursprungliga teckensnittsnamnet. |
+| [Save](../../aspose.words.fonts/tablesubstitutionrule/save/#save)(*Stream*) | Sparar de aktuella inställningarna för tabellersättning för att streama. |
+| [Save](../../aspose.words.fonts/tablesubstitutionrule/save/#save_1)(*string*) | Sparar de aktuella inställningarna för tabellersättning i filen. |
+| [SetSubstitutes](../../aspose.words.fonts/tablesubstitutionrule/setsubstitutes/)(*string, params string[]*) | Åsidosätt ersättande teckensnittsnamn för det ursprungliga teckensnittsnamnet. |
 
-### Anmärkningar
+## Anmärkningar
 
 Den här regeln definierar listan över ersättningsteckensnittsnamn som ska användas om det ursprungliga teckensnittet inte är tillgängligt. Ersättningar kommer att kontrolleras för teckensnittsnamnet och[`AltName`](../fontinfo/altname/) (om någon).
 
-### Exempel
+## Exempel
 
 Visar hur du får åtkomst till teckensnittsersättningstabeller för Windows och Linux.
 
@@ -82,5 +84,3 @@ using (FileStream fileStream = new FileStream(ArtifactsDir + "FontSettings.Table
 * class [FontSubstitutionRule](../fontsubstitutionrule/)
 * namnutrymme [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * hopsättning [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Font.SizeBi
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Font propriété. Obtient ou définit la taille de la police en points utilisée dans un document de droite à gauche.
+linktitle: SizeBi
+articleTitle: SizeBi
+second_title: Aspose.Words pour .NET
+description: Font SizeBi propriété. Obtient ou définit la taille de la police en points utilisée dans un document de droite à gauche en C#.
 type: docs
 weight: 350
 url: /fr/net/aspose.words/font/sizebi/
@@ -14,7 +16,7 @@ Obtient ou définit la taille de la police en points utilisée dans un document 
 public double SizeBi { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment définir des ensembles distincts de paramètres de police pour le texte de droite à gauche et de droite à gauche.
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "Font.Bidi.docx");
 ### Voir également
 
 * class [Font](../)
-* espace de noms [Aspose.Words](../../font/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

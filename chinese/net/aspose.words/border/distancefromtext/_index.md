@@ -1,7 +1,9 @@
 ---
 title: Border.DistanceFromText
-second_title: Aspose.Words for .NET API 参考
-description: Border 财产. 获取或设置边框距文本或页面边缘的距离以磅为单位
+linktitle: DistanceFromText
+articleTitle: DistanceFromText
+second_title: 用于 .NET 的 Aspose.Words
+description: Border DistanceFromText 财产. 获取或设置边框距文本或页面边缘的距离以磅为单位 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words/border/distancefromtext/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words/border/distancefromtext/
 public double DistanceFromText { get; set; }
 ```
 
-### 评论
+## 评论
 
 无效，并且表格单元格的边框将自动重置为零。
 
-### 例子
+## 例子
 
 演示如何在第一页顶部创建宽蓝色带边框。
 
@@ -42,7 +44,5 @@ doc.Save(ArtifactsDir + "PageSetup.PageBorderProperties.docx");
 ### 也可以看看
 
 * class [Border](../)
-* 命名空间 [Aspose.Words](../../border/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

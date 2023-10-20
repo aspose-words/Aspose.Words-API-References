@@ -1,7 +1,9 @@
 ---
 title: DocSaveOptions.AlwaysCompressMetafiles
-second_title: Aspose.Words för .NET API Referens
-description: DocSaveOptions fast egendom. Närfalsk  små metafiler komprimeras inte av prestandaskäl. Standardvärdet ärSann  alla metafiler komprimeras oavsett storlek.
+linktitle: AlwaysCompressMetafiles
+articleTitle: AlwaysCompressMetafiles
+second_title: Aspose.Words för .NET
+description: DocSaveOptions AlwaysCompressMetafiles fast egendom. Närfalsk  små metafiler komprimeras inte av prestandaskäl. Standardvärdet ärSann  alla metafiler komprimeras oavsett storlek i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.saving/docsaveoptions/alwayscompressmetafiles/
@@ -14,7 +16,7 @@ När`falsk` , små metafiler komprimeras inte av prestandaskäl. Standardvärdet
 public bool AlwaysCompressMetafiles { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du ändrar metafilers komprimering i ett dokument medan du sparar.
 
@@ -39,7 +41,5 @@ else
 ### Se även
 
 * class [DocSaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../docsaveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

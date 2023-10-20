@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.CreatedTime
-second_title: Referencia de API de Aspose.Words para .NET
-description: BuiltInDocumentProperties propiedad. Obtiene o establece la fecha de creación del documento en UTC.
+linktitle: CreatedTime
+articleTitle: CreatedTime
+second_title: Aspose.Words para .NET
+description: BuiltInDocumentProperties CreatedTime propiedad. Obtiene o establece la fecha de creación del documento en UTC en C#.
 type: docs
 weight: 100
 url: /es/net/aspose.words.properties/builtindocumentproperties/createdtime/
@@ -14,13 +16,13 @@ Obtiene o establece la fecha de creación del documento en UTC.
 public DateTime CreatedTime { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 Para documentos originados en formato RTF, esta propiedad devuelve la hora local de la máquina del autor en el momento de la creación del documento.
 
 Aspose.Words no actualiza esta propiedad.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo trabajar con propiedades de documentos en la categoría "Origen".
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "DocumentProperties.Origin.docx");
 ### Ver también
 
 * class [BuiltInDocumentProperties](../)
-* espacio de nombres [Aspose.Words.Properties](../../builtindocumentproperties/)
+* espacio de nombres [Aspose.Words.Properties](../../../aspose.words.properties/)
 * asamblea [Aspose.Words](../../../)
-
-

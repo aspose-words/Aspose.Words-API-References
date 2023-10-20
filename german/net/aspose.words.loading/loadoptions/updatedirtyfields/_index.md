@@ -1,7 +1,9 @@
 ---
 title: LoadOptions.UpdateDirtyFields
-second_title: Aspose.Words für .NET-API-Referenz
-description: LoadOptions eigendom. Gibt an ob die Felder mit aktualisiert werden sollenschmutzig attribute.
+linktitle: UpdateDirtyFields
+articleTitle: UpdateDirtyFields
+second_title: Aspose.Words für .NET
+description: LoadOptions UpdateDirtyFields eigendom. Gibt an ob die Felder mit aktualisiert werden sollenschmutzig attribute in C#.
 type: docs
 weight: 160
 url: /de/net/aspose.words.loading/loadoptions/updatedirtyfields/
@@ -14,7 +16,7 @@ Gibt an, ob die Felder mit aktualisiert werden sollen`schmutzig` attribute.
 public bool UpdateDirtyFields { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie eine spezielle Eigenschaft zum Aktualisieren des Feldergebnisses verwendet wird.
 
@@ -71,7 +73,5 @@ using (MemoryStream docStream = new MemoryStream())
 ### Siehe auch
 
 * class [LoadOptions](../)
-* namensraum [Aspose.Words.Loading](../../loadoptions/)
+* namensraum [Aspose.Words.Loading](../../../aspose.words.loading/)
 * Montage [Aspose.Words](../../../)
-
-

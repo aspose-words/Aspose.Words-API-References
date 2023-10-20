@@ -1,7 +1,9 @@
 ---
-title: Enum WatermarkLayout
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.WatermarkLayout 枚举. 定义水印相对于水印中心的布局
+title: WatermarkLayout Enum
+linktitle: WatermarkLayout
+articleTitle: WatermarkLayout
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.WatermarkLayout 枚举. 定义水印相对于水印中心的布局 在 C#.
 type: docs
 weight: 6680
 url: /zh/net/aspose.words/watermarklayout/
@@ -21,7 +23,7 @@ public enum WatermarkLayout
 | Horizontal | `0` | 水平水印布局。对应0度旋转。 |
 | Diagonal | `315` | 对角水印布局。对应315度旋转。 |
 
-### 例子
+## 例子
 
 展示如何创建文本水印。
 
@@ -53,5 +55,3 @@ if (doc.Watermark.Type == WatermarkType.Text)
 
 * 命名空间 [Aspose.Words](../../aspose.words/)
 * 部件 [Aspose.Words](../../)
-
-

@@ -1,20 +1,22 @@
 ---
 title: StructuredDocumentTag.LockContents
-second_title: Aspose.Words per .NET API Reference
-description: StructuredDocumentTag proprietà. Quando impostato suVERO  questa proprietà impedirà a un utente di modificarne il contenuto SDT .
+linktitle: LockContents
+articleTitle: LockContents
+second_title: Aspose.Words per .NET
+description: StructuredDocumentTag LockContents proprietà. Quando impostato suVERO  questa proprietà impedirà a un utente di modificarne il contenutoSDT  in C#.
 type: docs
 weight: 200
 url: /it/net/aspose.words.markup/structureddocumenttag/lockcontents/
 ---
 ## StructuredDocumentTag.LockContents property
 
-Quando impostato su`VERO` , questa proprietà impedirà a un utente di modificarne il contenuto **SDT** .
+Quando impostato su`VERO` , questa proprietà impedirà a un utente di modificarne il contenuto**SDT** .
 
 ```csharp
 public bool LockContents { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come applicare restrizioni di modifica ai tag dei documenti strutturati.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.Lock.docx");
 ### Guarda anche
 
 * class [StructuredDocumentTag](../)
-* spazio dei nomi [Aspose.Words.Markup](../../structureddocumenttag/)
+* spazio dei nomi [Aspose.Words.Markup](../../../aspose.words.markup/)
 * assemblea [Aspose.Words](../../../)
-
-

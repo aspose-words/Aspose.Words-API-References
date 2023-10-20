@@ -1,7 +1,9 @@
 ---
-title: Class FieldCollection
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Fields.FieldCollection clase. Una colección deField objetos que representan los campos en el rango especificado.
+title: FieldCollection Class
+linktitle: FieldCollection
+articleTitle: FieldCollection
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Fields.FieldCollection clase. Una colección deField objetos que representan los campos en el rango especificado en C#.
 type: docs
 weight: 1690
 url: /es/net/aspose.words.fields/fieldcollection/
@@ -29,10 +31,10 @@ public class FieldCollection : IEnumerable<Field>
 | --- | --- |
 | [Clear](../../aspose.words.fields/fieldcollection/clear/)() | Elimina todos los campos de esta colección del documento y de esta colección misma. |
 | [GetEnumerator](../../aspose.words.fields/fieldcollection/getenumerator/)() | Devuelve un objeto enumerador. |
-| [Remove](../../aspose.words.fields/fieldcollection/remove/)(Field) | Elimina el campo especificado de esta colección y del documento. |
-| [RemoveAt](../../aspose.words.fields/fieldcollection/removeat/)(int) | Elimina un campo en el índice especificado de esta colección y del documento. |
+| [Remove](../../aspose.words.fields/fieldcollection/remove/)(*[Field](../field/)*) | Elimina el campo especificado de esta colección y del documento. |
+| [RemoveAt](../../aspose.words.fields/fieldcollection/removeat/)(*int*) | Elimina un campo en el índice especificado de esta colección y del documento. |
 
-### Observaciones
+## Observaciones
 
 Una instancia de esta colección itera campos que comienzan dentro del rango especificado.
 
@@ -40,7 +42,7 @@ El`FieldCollection` La colección no es propietaria de los campos que contiene, 
 
 El`FieldCollection` La colección está "activa", es decir, los cambios en los hijos del nodo object desde el que se creó se reflejan inmediatamente en los campos devueltos por el`FieldCollection` propiedades y métodos.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo eliminar campos de una colección de campos.
 
@@ -182,5 +184,3 @@ public class FieldVisitor : DocumentVisitor
 * class [Field](../field/)
 * espacio de nombres [Aspose.Words.Fields](../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../)
-
-

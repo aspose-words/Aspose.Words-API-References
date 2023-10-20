@@ -1,7 +1,9 @@
 ---
-title: Class TextWatermarkOptions
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.TextWatermarkOptions klass. Innehåller alternativ som kan anges när du lägger till en vattenstämpel med text.
+title: TextWatermarkOptions Class
+linktitle: TextWatermarkOptions
+articleTitle: TextWatermarkOptions
+second_title: Aspose.Words för .NET
+description: Aspose.Words.TextWatermarkOptions klass. Innehåller alternativ som kan anges när du lägger till en vattenstämpel med text i C#.
 type: docs
 weight: 6440
 url: /sv/net/aspose.words/textwatermarkoptions/
@@ -36,5 +38,3 @@ public class TextWatermarkOptions
 
 * namnutrymme [Aspose.Words](../../aspose.words/)
 * hopsättning [Aspose.Words](../../)
-
-

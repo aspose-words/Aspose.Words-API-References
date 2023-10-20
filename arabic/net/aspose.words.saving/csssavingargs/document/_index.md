@@ -1,7 +1,9 @@
 ---
 title: CssSavingArgs.Document
-second_title: Aspose.Words لمراجع .NET API
-description: CssSavingArgs ملكية. الحصول على كائن المستند الذي يتم حفظه حاليًا.
+linktitle: Document
+articleTitle: Document
+second_title: Aspose.Words لـ .NET
+description: CssSavingArgs Document ملكية. الحصول على كائن المستند الذي يتم حفظه حاليًا في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.saving/csssavingargs/document/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.saving/csssavingargs/document/
 public Document Document { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع أوراق أنماط CSS التي ينشئها تحويل HTML.
 
@@ -76,7 +78,5 @@ private class CustomCssSavingCallback : ICssSavingCallback
 
 * class [Document](../../../aspose.words/document/)
 * class [CssSavingArgs](../)
-* مساحة الاسم [Aspose.Words.Saving](../../csssavingargs/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

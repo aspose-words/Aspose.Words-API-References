@@ -1,7 +1,9 @@
 ---
 title: Shading.ForegroundPatternThemeColor
-second_title: Aspose.Words لمراجع .NET API
-description: Shading ملكية. الحصول على أو تعيين لون سمة النمط الأمامي في نظام الألوان المطبق المرتبط بهذاShading الكائن.
+linktitle: ForegroundPatternThemeColor
+articleTitle: ForegroundPatternThemeColor
+second_title: Aspose.Words لـ .NET
+description: Shading ForegroundPatternThemeColor ملكية. الحصول على أو تعيين لون سمة النمط الأمامي في نظام الألوان المطبق المرتبط بهذاShading الكائن في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words/shading/foregroundpatternthemecolor/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/shading/foregroundpatternthemecolor/
 public ThemeColor ForegroundPatternThemeColor { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين الألوان الأمامية والخلفية لتظليل الملمس.
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "Font.ForegroundAndBackground.docx");
 
 * enum [ThemeColor](../../../aspose.words.themes/themecolor/)
 * class [Shading](../)
-* مساحة الاسم [Aspose.Words](../../shading/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

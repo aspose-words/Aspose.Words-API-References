@@ -1,7 +1,9 @@
 ---
-title: Enum TxtTrailingSpacesOptions
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Loading.TxtTrailingSpacesOptions enum. Specifica le opzioni disponibili per la gestione degli spazi finali durante limportazione daText file.
+title: TxtTrailingSpacesOptions Enum
+linktitle: TxtTrailingSpacesOptions
+articleTitle: TxtTrailingSpacesOptions
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Loading.TxtTrailingSpacesOptions enum. Specifica le opzioni disponibili per la gestione degli spazi finali durante limportazione daText file in C#.
 type: docs
 weight: 3740
 url: /it/net/aspose.words.loading/txttrailingspacesoptions/
@@ -21,7 +23,7 @@ public enum TxtTrailingSpacesOptions
 | Trim | `0` |  |
 | Preserve | `1` |  |
 
-### Esempi
+## Esempi
 
 Mostra come tagliare gli spazi bianchi durante il caricamento di documenti di testo normale.
 
@@ -98,5 +100,3 @@ switch (txtTrailingSpacesOptions)
 
 * spazio dei nomi [Aspose.Words.Loading](../../aspose.words.loading/)
 * assemblea [Aspose.Words](../../)
-
-

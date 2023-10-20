@@ -1,7 +1,9 @@
 ---
 title: Border.LineStyle
-second_title: Aspose.Words für .NET-API-Referenz
-description: Border eigendom. Ruft den Rahmenstil ab oder legt ihn fest.
+linktitle: LineStyle
+articleTitle: LineStyle
+second_title: Aspose.Words für .NET
+description: Border LineStyle eigendom. Ruft den Rahmenstil ab oder legt ihn fest in C#.
 type: docs
 weight: 40
 url: /de/net/aspose.words/border/linestyle/
@@ -14,11 +16,11 @@ Ruft den Rahmenstil ab oder legt ihn fest.
 public LineStyle LineStyle { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Wenn Sie den Linienstil auf „Keine“ festlegen, wird die Linienbreite automatisch auf Null geändert.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man eine von einem Rahmen umgebene Zeichenfolge in ein Dokument einfügt.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "Border.FontBorder.docx");
 
 * enum [LineStyle](../../linestyle/)
 * class [Border](../)
-* namensraum [Aspose.Words](../../border/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

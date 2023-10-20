@@ -1,7 +1,9 @@
 ---
 title: FieldLink.InsertAsRtf
-second_title: Aspose.Words för .NET API Referens
-description: FieldLink fast egendom. Hämtar eller ställer in om det länkade objektet ska infogas i richtextformat RTF.
+linktitle: InsertAsRtf
+articleTitle: InsertAsRtf
+second_title: Aspose.Words för .NET
+description: FieldLink InsertAsRtf fast egendom. Hämtar eller ställer in om det länkade objektet ska infogas i richtextformat RTF i C#.
 type: docs
 weight: 70
 url: /sv/net/aspose.words.fields/fieldlink/insertasrtf/
@@ -14,7 +16,7 @@ Hämtar eller ställer in om det länkade objektet ska infogas i rich-text-forma
 public bool InsertAsRtf { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man använder olika fälttyper för att länka till andra dokument i det lokala filsystemet och visa deras innehåll.
 
@@ -197,7 +199,5 @@ public enum InsertLinkedObjectAs
 ### Se även
 
 * class [FieldLink](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldlink/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class FieldMergingArgsBase
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.MailMerging.FieldMergingArgsBase classe. Classe base perFieldMergingArgs EImageFieldMergingArgs .
+title: FieldMergingArgsBase Class
+linktitle: FieldMergingArgsBase
+articleTitle: FieldMergingArgsBase
+second_title: Aspose.Words per .NET
+description: Aspose.Words.MailMerging.FieldMergingArgsBase classe. Classe base perFieldMergingArgs EImageFieldMergingArgs  in C#.
 type: docs
 weight: 3780
 url: /it/net/aspose.words.mailmerging/fieldmergingargsbase/
@@ -28,7 +30,7 @@ public abstract class FieldMergingArgsBase
 | [RecordIndex](../../aspose.words.mailmerging/fieldmergingargsbase/recordindex/) { get; } | Ottiene l'indice in base zero del record da unire. |
 | [TableName](../../aspose.words.mailmerging/fieldmergingargsbase/tablename/) { get; } | Ottiene il nome della tabella dati per l'operazione di unione corrente o una stringa vuota se il nome non è disponibile. |
 
-### Esempi
+## Esempi
 
 Mostra come eseguire una stampa unione con un callback personalizzato che gestisce i dati di unione sotto forma di documenti HTML.
 
@@ -97,5 +99,3 @@ private class HandleMergeFieldInsertHtml : IFieldMergingCallback
 
 * spazio dei nomi [Aspose.Words.MailMerging](../../aspose.words.mailmerging/)
 * assemblea [Aspose.Words](../../)
-
-

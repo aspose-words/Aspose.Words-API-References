@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.DocumentSplitCriteria
-second_title: Aspose.Words for .NET API 参考
-description: HtmlSaveOptions 财产. 指定保存时文档应如何分割Html Epub或者Azw3格式 默认为None对于 HTML 和 HeadingParagraph适用于 EPUB 和 AZW3.
+linktitle: DocumentSplitCriteria
+articleTitle: DocumentSplitCriteria
+second_title: 用于 .NET 的 Aspose.Words
+description: HtmlSaveOptions DocumentSplitCriteria 财产. 指定保存时文档应如何分割Html Epub或者Azw3格式 默认为None对于 HTML 和 HeadingParagraph适用于 EPUB 和 AZW3 在 C#.
 type: docs
 weight: 80
 url: /zh/net/aspose.words.saving/htmlsaveoptions/documentsplitcriteria/
@@ -14,13 +16,13 @@ url: /zh/net/aspose.words.saving/htmlsaveoptions/documentsplitcriteria/
 public DocumentSplitCriteria DocumentSplitCriteria { get; set; }
 ```
 
-### 评论
+## 评论
 
 通常您希望将文档保存为 HTML 作为单个文件。 但在某些情况下，最好将输出分割成几个较小的 HTML 页面。 保存为 HTML 格式时，这些页面将输出到单独的文件或流中。 保存为 EPUB 格式时，它们将被合并到相应的包中。
 
 以 MHTML 格式保存时无法分割文档。
 
-### 例子
+## 例子
 
 演示将文档保存为 .epub 时如何使用特定编码。
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "HtmlSaveOptions.Doc2EpubSaveOptions.epub", saveOptions)
 
 * enum [DocumentSplitCriteria](../../documentsplitcriteria/)
 * class [HtmlSaveOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../htmlsaveoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

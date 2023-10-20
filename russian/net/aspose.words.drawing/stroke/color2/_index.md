@@ -1,9 +1,11 @@
 ---
 title: Stroke.Color2
-second_title: Справочник по API Aspose.Words для .NET
-description: Stroke свойство. Определяет второй цвет обводки.
+linktitle: Color2
+articleTitle: Color2
+second_title: Aspose.Words для .NET
+description: Stroke Color2 свойство. Определяет второй цвет обводки на С#.
 type: docs
-weight: 40
+weight: 30
 url: /ru/net/aspose.words.drawing/stroke/color2/
 ---
 ## Stroke.Color2 property
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.drawing/stroke/color2/
 public Color Color2 { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Значение по умолчанию для[`Shape`](../../shape/) is White.
 
-### Примеры
+## Примеры
 
 Показывает, как обрабатывать элементы обводки фигуры.
 
@@ -39,7 +41,5 @@ File.WriteAllBytes(ArtifactsDir + "Drawing.StrokePattern.png", stroke.ImageBytes
 ### Смотрите также
 
 * class [Stroke](../)
-* пространство имен [Aspose.Words.Drawing](../../stroke/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

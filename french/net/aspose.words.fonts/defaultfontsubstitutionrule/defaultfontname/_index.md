@@ -1,7 +1,9 @@
 ---
 title: DefaultFontSubstitutionRule.DefaultFontName
-second_title: Référence de l'API Aspose.Words pour .NET
-description: DefaultFontSubstitutionRule propriété. Obtient ou définit le nom de la police par défaut.
+linktitle: DefaultFontName
+articleTitle: DefaultFontName
+second_title: Aspose.Words pour .NET
+description: DefaultFontSubstitutionRule DefaultFontName propriété. Obtient ou définit le nom de la police par défaut en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.fonts/defaultfontsubstitutionrule/defaultfontname/
@@ -14,11 +16,11 @@ Obtient ou définit le nom de la police par défaut.
 public string DefaultFontName { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 La valeur par défaut est « Times New Roman ».
 
-### Exemples
+## Exemples
 
 Montre comment définir la règle de substitution de police par défaut.
 
@@ -78,7 +80,5 @@ doc.Save(ArtifactsDir + "FontSettings.DefaultFontName.pdf");
 ### Voir également
 
 * class [DefaultFontSubstitutionRule](../)
-* espace de noms [Aspose.Words.Fonts](../../defaultfontsubstitutionrule/)
+* espace de noms [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * Assemblée [Aspose.Words](../../../)
-
-

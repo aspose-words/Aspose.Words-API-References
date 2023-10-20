@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.EndEditableRange
-second_title: Aspose.Words för .NET API Referens
-description: DocumentBuilder metod. Markerar den aktuella positionen i dokumentet som ett redigerbart intervallslut.
+linktitle: EndEditableRange
+articleTitle: EndEditableRange
+second_title: Aspose.Words för .NET
+description: DocumentBuilder EndEditableRange metod. Markerar den aktuella positionen i dokumentet som ett redigerbart intervallslut i C#.
 type: docs
 weight: 230
 url: /sv/net/aspose.words/documentbuilder/endeditablerange/
@@ -18,13 +20,13 @@ public EditableRangeEnd EndEditableRange()
 
 Den redigerbara intervallnoden som just skapades.
 
-### Anmärkningar
+## Anmärkningar
 
 Redigerbart område i ett dokument kan överlappa och sträcka sig över vilket område som helst. För att skapa ett giltigt redigerbart område måste du anropa båda[`StartEditableRange`](../starteditablerange/) och`EndEditableRange` eller`EndEditableRange` metoder.
 
 Dåligt format redigerbart område kommer att ignoreras när dokumentet sparas.
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med ett redigerbart område.
 
@@ -71,12 +73,12 @@ editableRange.Remove();
 
 * class [EditableRangeEnd](../../editablerangeend/)
 * class [DocumentBuilder](../)
-* namnutrymme [Aspose.Words](../../documentbuilder/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## EndEditableRange(EditableRangeStart) {#endeditablerange_1}
+## EndEditableRange(*[EditableRangeStart](../../editablerangestart/)*) {#endeditablerange_1}
 
 Markerar den aktuella positionen i dokumentet som ett redigerbart intervallslut.
 
@@ -92,7 +94,7 @@ public EditableRangeEnd EndEditableRange(EditableRangeStart start)
 
 Den redigerbara intervallnoden som just skapades.
 
-### Anmärkningar
+## Anmärkningar
 
 Använd denna överbelastning när du skapar kapslade redigerbara intervall.
 
@@ -100,7 +102,7 @@ Redigerbart område i ett dokument kan överlappa och sträcka sig över vilket 
 
 Dåligt format redigerbart område kommer att ignoreras när dokumentet sparas.
 
-### Exempel
+## Exempel
 
 Visar hur man skapar kapslade redigerbara intervall.
 
@@ -143,7 +145,5 @@ doc.Save(ArtifactsDir + "EditableRange.Nested.docx");
 * class [EditableRangeEnd](../../editablerangeend/)
 * class [EditableRangeStart](../../editablerangestart/)
 * class [DocumentBuilder](../)
-* namnutrymme [Aspose.Words](../../documentbuilder/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

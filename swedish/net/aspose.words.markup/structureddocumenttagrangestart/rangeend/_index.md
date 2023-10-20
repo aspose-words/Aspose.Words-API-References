@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTagRangeStart.RangeEnd
-second_title: Aspose.Words för .NET API Referens
-description: StructuredDocumentTagRangeStart fast egendom. Anger slutet av intervallet omStructuredDocumentTag är en strukturerad dokumenttagg med intervall. Returnerar annarsnull .
+linktitle: RangeEnd
+articleTitle: RangeEnd
+second_title: Aspose.Words för .NET
+description: StructuredDocumentTagRangeStart RangeEnd fast egendom. Anger slutet av intervallet omStructuredDocumentTag är en strukturerad dokumenttagg med intervall. Returnerar annarsnull  i C#.
 type: docs
 weight: 130
 url: /sv/net/aspose.words.markup/structureddocumenttagrangestart/rangeend/
@@ -14,7 +16,7 @@ Anger slutet av intervallet om[`StructuredDocumentTag`](../../structureddocument
 public StructuredDocumentTagRangeEnd RangeEnd { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du får egenskaperna för strukturerade dokumenttaggar med flera sektioner.
 
@@ -50,7 +52,5 @@ Console.WriteLine($"\t|NodeType: {rangeEndTag.NodeType}");
 
 * class [StructuredDocumentTagRangeEnd](../../structureddocumenttagrangeend/)
 * class [StructuredDocumentTagRangeStart](../)
-* namnutrymme [Aspose.Words.Markup](../../structureddocumenttagrangestart/)
+* namnutrymme [Aspose.Words.Markup](../../../aspose.words.markup/)
 * hopsättning [Aspose.Words](../../../)
-
-

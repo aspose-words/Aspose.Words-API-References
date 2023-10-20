@@ -1,7 +1,9 @@
 ---
 title: TableStyle.ColumnStripe
-second_title: Référence de l'API Aspose.Words pour .NET
-description: TableStyle propriété. Obtient ou définit un certain nombre de colonnes à inclure dans la bande lorsque le style spécifie une bande de colonnes paires/impaires.
+linktitle: ColumnStripe
+articleTitle: ColumnStripe
+second_title: Aspose.Words pour .NET
+description: TableStyle ColumnStripe propriété. Obtient ou définit un certain nombre de colonnes à inclure dans la bande lorsque le style spécifie une bande de colonnes paires/impaires en C#.
 type: docs
 weight: 70
 url: /fr/net/aspose.words/tablestyle/columnstripe/
@@ -14,7 +16,7 @@ Obtient ou définit un certain nombre de colonnes à inclure dans la bande lorsq
 public int ColumnStripe { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment créer des styles de tableau conditionnels qui alternent entre les lignes.
 
@@ -69,7 +71,5 @@ doc.Save(ArtifactsDir + "Table.AlternatingRowStyles.docx");
 ### Voir également
 
 * class [TableStyle](../)
-* espace de noms [Aspose.Words](../../tablestyle/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

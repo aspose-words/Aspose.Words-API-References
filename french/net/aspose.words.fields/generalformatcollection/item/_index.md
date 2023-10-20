@@ -1,7 +1,9 @@
 ---
 title: GeneralFormatCollection.Item
-second_title: Référence de l'API Aspose.Words pour .NET
-description: GeneralFormatCollection propriété. Obtient un format général à lindex spécifié.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words pour .NET
+description: GeneralFormatCollection Item propriété. Obtient un format général à lindex spécifié en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.fields/generalformatcollection/item/
@@ -22,7 +24,7 @@ public GeneralFormat this[int index] { get; }
 
 Un format général.
 
-### Exemples
+## Exemples
 
 Montre comment formater les résultats des champs.
 
@@ -87,7 +89,5 @@ Assert.AreEqual(0, format.GeneralFormats.Count);
 
 * enum [GeneralFormat](../../generalformat/)
 * class [GeneralFormatCollection](../)
-* espace de noms [Aspose.Words.Fields](../../generalformatcollection/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

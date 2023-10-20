@@ -1,7 +1,9 @@
 ---
 title: FieldNoteRef.BookmarkName
-second_title: Aspose.Words لمراجع .NET API
-description: FieldNoteRef ملكية. الحصول على اسم الإشارة المرجعية أو تعيينه.
+linktitle: BookmarkName
+articleTitle: BookmarkName
+second_title: Aspose.Words لـ .NET
+description: FieldNoteRef BookmarkName ملكية. الحصول على اسم الإشارة المرجعية أو تعيينه في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.fields/fieldnoteref/bookmarkname/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldnoteref/bookmarkname/
 public string BookmarkName { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يظهر لإدراج حقول NOTREF، وتعديل مظهرها.
 
@@ -83,7 +85,5 @@ private static void InsertBookmarkWithFootnote(DocumentBuilder builder, string b
 ### أنظر أيضا
 
 * class [FieldNoteRef](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldnoteref/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

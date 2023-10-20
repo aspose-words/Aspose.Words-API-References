@@ -1,7 +1,9 @@
 ---
 title: BorderCollection.Vertical
-second_title: Aspose.Words für .NET-API-Referenz
-description: BorderCollection eigendom. Ruft den vertikalen Rahmen ab der zwischen Zellen verwendet wird.
+linktitle: Vertical
+articleTitle: Vertical
+second_title: Aspose.Words für .NET
+description: BorderCollection Vertical eigendom. Ruft den vertikalen Rahmen ab der zwischen Zellen verwendet wird in C#.
 type: docs
 weight: 130
 url: /de/net/aspose.words/bordercollection/vertical/
@@ -14,7 +16,7 @@ Ruft den vertikalen Rahmen ab, der zwischen Zellen verwendet wird.
 public Border Vertical { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Einstellungen für vertikale Ränder auf das Format einer Tabellenzeile angewendet werden.
 
@@ -60,7 +62,5 @@ doc.Save(ArtifactsDir + "Border.VerticalBorders.docx");
 
 * class [Border](../../border/)
 * class [BorderCollection](../)
-* namensraum [Aspose.Words](../../bordercollection/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

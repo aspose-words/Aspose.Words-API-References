@@ -1,7 +1,9 @@
 ---
 title: Document.HyphenationOptions
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Document propriété. Donne accès aux options de césure des documents.
+linktitle: HyphenationOptions
+articleTitle: HyphenationOptions
+second_title: Aspose.Words pour .NET
+description: Document HyphenationOptions propriété. Donne accès aux options de césure des documents en C#.
 type: docs
 weight: 210
 url: /fr/net/aspose.words/document/hyphenationoptions/
@@ -14,7 +16,7 @@ Donne accès aux options de césure des documents.
 public HyphenationOptions HyphenationOptions { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment configurer la césure automatique.
 
@@ -38,7 +40,5 @@ doc.Save(ArtifactsDir + "Document.HyphenationOptions.docx");
 
 * class [HyphenationOptions](../../../aspose.words.settings/hyphenationoptions/)
 * class [Document](../)
-* espace de noms [Aspose.Words](../../document/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

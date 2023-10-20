@@ -1,7 +1,9 @@
 ---
 title: TextBox.TextBoxWrapMode
-second_title: Aspose.Words für .NET-API-Referenz
-description: TextBox eigendom. Bestimmt wie Text innerhalb einer Form umbrochen wird.
+linktitle: TextBoxWrapMode
+articleTitle: TextBoxWrapMode
+second_title: Aspose.Words für .NET
+description: TextBox TextBoxWrapMode eigendom. Bestimmt wie Text innerhalb einer Form umbrochen wird in C#.
 type: docs
 weight: 110
 url: /de/net/aspose.words.drawing/textbox/textboxwrapmode/
@@ -14,11 +16,11 @@ Bestimmt, wie Text innerhalb einer Form umbrochen wird.
 public TextBoxWrapMode TextBoxWrapMode { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Der Standardwert istSquare.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Umbruchmodus für den Inhalt eines Textfelds festgelegt wird.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "Shape.TextBoxContentsWrapMode.docx");
 
 * enum [TextBoxWrapMode](../../textboxwrapmode/)
 * class [TextBox](../)
-* namensraum [Aspose.Words.Drawing](../../textbox/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

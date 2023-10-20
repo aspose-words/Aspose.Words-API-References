@@ -1,7 +1,9 @@
 ---
 title: SdtListItemCollection.Add
-second_title: Aspose.Words لمراجع .NET API
-description: SdtListItemCollection طريقة. إضافة عنصر إلى هذه المجموعة.
+linktitle: Add
+articleTitle: Add
+second_title: Aspose.Words لـ .NET
+description: SdtListItemCollection Add طريقة. إضافة عنصر إلى هذه المجموعة في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.markup/sdtlistitemcollection/add/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.markup/sdtlistitemcollection/add/
 public void Add(SdtListItem item)
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع علامات المستندات المنظمة ذات القائمة المنسدلة.
 
@@ -72,7 +74,5 @@ Assert.AreEqual(0, listItems.Count);
 
 * class [SdtListItem](../../sdtlistitem/)
 * class [SdtListItemCollection](../)
-* مساحة الاسم [Aspose.Words.Markup](../../sdtlistitemcollection/)
+* مساحة الاسم [Aspose.Words.Markup](../../../aspose.words.markup/)
 * المجسم [Aspose.Words](../../../)
-
-

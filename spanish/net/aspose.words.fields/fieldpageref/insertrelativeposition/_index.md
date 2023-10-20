@@ -1,7 +1,9 @@
 ---
 title: FieldPageRef.InsertRelativePosition
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldPageRef propiedad. Obtiene o establece si se debe insertar una posición relativa del párrafo marcado.
+linktitle: InsertRelativePosition
+articleTitle: InsertRelativePosition
+second_title: Aspose.Words para .NET
+description: FieldPageRef InsertRelativePosition propiedad. Obtiene o establece si se debe insertar una posición relativa del párrafo marcado en C#.
 type: docs
 weight: 40
 url: /es/net/aspose.words.fields/fieldpageref/insertrelativeposition/
@@ -14,7 +16,7 @@ Obtiene o establece si se debe insertar una posición relativa del párrafo marc
 public bool InsertRelativePosition { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra para insertar campos PAGEREF para mostrar la ubicación relativa de los marcadores.
 
@@ -84,7 +86,5 @@ private static void InsertAndNameBookmark(DocumentBuilder builder, string bookma
 ### Ver también
 
 * class [FieldPageRef](../)
-* espacio de nombres [Aspose.Words.Fields](../../fieldpageref/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

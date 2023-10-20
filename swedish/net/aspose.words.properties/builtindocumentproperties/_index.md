@@ -1,7 +1,9 @@
 ---
-title: Class BuiltInDocumentProperties
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Properties.BuiltInDocumentProperties klass. En samling inbyggda dokumentegenskaper.
+title: BuiltInDocumentProperties Class
+linktitle: BuiltInDocumentProperties
+articleTitle: BuiltInDocumentProperties
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Properties.BuiltInDocumentProperties klass. En samling inbyggda dokumentegenskaper i C#.
 type: docs
 weight: 4450
 url: /sv/net/aspose.words.properties/builtindocumentproperties/
@@ -61,13 +63,13 @@ public class BuiltInDocumentProperties : DocumentPropertyCollection
 | namn | Beskrivning |
 | --- | --- |
 | [Clear](../../aspose.words.properties/documentpropertycollection/clear/)() | Tar bort alla egenskaper från samlingen. |
-| [Contains](../../aspose.words.properties/documentpropertycollection/contains/)(string) | Returnerar`Sann` om en egenskap med det angivna namnet finns i samlingen. |
+| [Contains](../../aspose.words.properties/documentpropertycollection/contains/)(*string*) | Returnerar`Sann` om en egenskap med det angivna namnet finns i samlingen. |
 | [GetEnumerator](../../aspose.words.properties/documentpropertycollection/getenumerator/)() | Returnerar ett uppräkningsobjekt som kan användas för att iterera över alla objekt i samlingen. |
-| [IndexOf](../../aspose.words.properties/documentpropertycollection/indexof/)(string) | Hämtar indexet för en egenskap efter namn. |
-| [Remove](../../aspose.words.properties/documentpropertycollection/remove/)(string) | Tar bort en egenskap med det angivna namnet från samlingen. |
-| [RemoveAt](../../aspose.words.properties/documentpropertycollection/removeat/)(int) | Tar bort en egenskap vid det angivna indexet. |
+| [IndexOf](../../aspose.words.properties/documentpropertycollection/indexof/)(*string*) | Hämtar indexet för en egenskap efter namn. |
+| [Remove](../../aspose.words.properties/documentpropertycollection/remove/)(*string*) | Tar bort en egenskap med det angivna namnet från samlingen. |
+| [RemoveAt](../../aspose.words.properties/documentpropertycollection/removeat/)(*int*) | Tar bort en egenskap vid det angivna indexet. |
 
-### Anmärkningar
+## Anmärkningar
 
 Ger tillgång till[`DocumentProperty`](../documentproperty/) objekt genom deras namn (med hjälp av en indexerare) och via en uppsättning typade egenskaper som returnerar värden av lämpliga typer.
 
@@ -75,7 +77,7 @@ Namnen på egenskaperna är skiftlägesokänsliga.
 
 Fastigheterna i samlingen är sorterade alfabetiskt efter namn.
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med inbyggda dokumentegenskaper.
 
@@ -114,5 +116,3 @@ foreach (DocumentProperty docProperty in doc.BuiltInDocumentProperties)
 * class [DocumentPropertyCollection](../documentpropertycollection/)
 * namnutrymme [Aspose.Words.Properties](../../aspose.words.properties/)
 * hopsättning [Aspose.Words](../../)
-
-

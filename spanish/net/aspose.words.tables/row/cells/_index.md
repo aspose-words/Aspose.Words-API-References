@@ -1,7 +1,9 @@
 ---
 title: Row.Cells
-second_title: Referencia de API de Aspose.Words para .NET
-description: Row propiedad. Proporciona acceso escrito alCell nodos secundarios de la fila.
+linktitle: Cells
+articleTitle: Cells
+second_title: Aspose.Words para .NET
+description: Row Cells propiedad. Proporciona acceso escrito alCell nodos secundarios de la fila en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words.tables/row/cells/
@@ -14,7 +16,7 @@ Proporciona acceso escrito al[`Cell`](../../cell/) nodos secundarios de la fila.
 public CellCollection Cells { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo recorrer todas las tablas del documento e imprimir el contenido de cada celda.
 
@@ -61,7 +63,5 @@ for (int i = 0; i < tables.Count; i++)
 
 * class [CellCollection](../../cellcollection/)
 * class [Row](../)
-* espacio de nombres [Aspose.Words.Tables](../../row/)
+* espacio de nombres [Aspose.Words.Tables](../../../aspose.words.tables/)
 * asamblea [Aspose.Words](../../../)
-
-

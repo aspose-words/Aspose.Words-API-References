@@ -1,7 +1,9 @@
 ---
 title: BarcodeParameters.SymbolRotation
-second_title: Aspose.Words für .NET-API-Referenz
-description: BarcodeParameters eigendom. Drehung des Barcodesymbols. Gültige Werte sind 0 3.
+linktitle: SymbolRotation
+articleTitle: SymbolRotation
+second_title: Aspose.Words für .NET
+description: BarcodeParameters SymbolRotation eigendom. Drehung des Barcodesymbols. Gültige Werte sind 0 3 in C#.
 type: docs
 weight: 180
 url: /de/net/aspose.words.fields/barcodeparameters/symbolrotation/
@@ -14,7 +16,7 @@ Drehung des Barcodesymbols. Gültige Werte sind [0, 3].
 public string SymbolRotation { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Barcode-Generator verwendet wird.
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.docx");
 ### Siehe auch
 
 * class [BarcodeParameters](../)
-* namensraum [Aspose.Words.Fields](../../barcodeparameters/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: TextPath.FitPath
-second_title: Aspose.Words für .NET-API-Referenz
-description: TextPath eigendom. Definiert ob der Text zum Pfad einer Form passt.
+linktitle: FitPath
+articleTitle: FitPath
+second_title: Aspose.Words für .NET
+description: TextPath FitPath eigendom. Definiert ob der Text zum Pfad einer Form passt in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.drawing/textpath/fitpath/
@@ -14,11 +16,11 @@ Definiert, ob der Text zum Pfad einer Form passt.
 public bool FitPath { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Der Standardwert ist`FALSCH`.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man mit WordArt arbeitet.
 
@@ -121,7 +123,5 @@ private static Shape AppendWordArt(Document doc, string text, string textFontFam
 ### Siehe auch
 
 * class [TextPath](../)
-* namensraum [Aspose.Words.Drawing](../../textpath/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

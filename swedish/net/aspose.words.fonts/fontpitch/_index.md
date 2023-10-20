@@ -1,7 +1,9 @@
 ---
-title: Enum FontPitch
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Fonts.FontPitch uppräkning. Representerar teckensnittets tonhöjd.
+title: FontPitch Enum
+linktitle: FontPitch
+articleTitle: FontPitch
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Fonts.FontPitch uppräkning. Representerar teckensnittets tonhöjd i C#.
 type: docs
 weight: 2960
 url: /sv/net/aspose.words.fonts/fontpitch/
@@ -22,11 +24,11 @@ public enum FontPitch
 | Fixed | `1` | Anger att detta är ett teckensnitt med fast bredd. |
 | Variable | `2` | Anger att detta är ett teckensnitt med proportionell bredd. |
 
-### Anmärkningar
+## Anmärkningar
 
 Pitch indikerar om teckensnittet är fast breddsteg, proportionellt fördelat eller är beroende av en standardinställning.
 
-### Exempel
+## Exempel
 
 Visar hur du kommer åt och skriver ut detaljer för varje typsnitt i ett dokument.
 
@@ -66,5 +68,3 @@ while (fontCollectionEnumerator.MoveNext())
 
 * namnutrymme [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * hopsättning [Aspose.Words](../../)
-
-

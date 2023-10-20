@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabelCollection.Separator
-second_title: Aspose.Words für .NET-API-Referenz
-description: ChartDataLabelCollection eigendom. Ruft das für die Datenbeschriftungen der gesamten Serie verwendete Zeichenfolgentrennzeichen ab oder legt dieses fest. Der Standardwert ist ein Komma außer bei Kreisdiagrammen die nur den Kategorienamen und den Prozentsatz anzeigen bei denen stattdessen ein Zeilenumbruch verwendet werden soll.
+linktitle: Separator
+articleTitle: Separator
+second_title: Aspose.Words für .NET
+description: ChartDataLabelCollection Separator eigendom. Ruft das für die Datenbeschriftungen der gesamten Serie verwendete Zeichenfolgentrennzeichen ab oder legt dieses fest. Der Standardwert ist ein Komma außer bei Kreisdiagrammen die nur den Kategorienamen und den Prozentsatz anzeigen bei denen stattdessen ein Zeilenumbruch verwendet werden soll in C#.
 type: docs
 weight: 60
 url: /de/net/aspose.words.drawing.charts/chartdatalabelcollection/separator/
@@ -14,11 +16,11 @@ Ruft das für die Datenbeschriftungen der gesamten Serie verwendete Zeichenfolge
 public string Separator { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Der für diese Eigenschaft definierte Wert kann für eine einzelne Datenbeschriftung mithilfe von überschrieben werden.[`Separator`](../../chartdatalabel/separator/) Eigenschaft.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit Datenbeschriftungen eines Blasendiagramms gearbeitet wird.
 
@@ -79,7 +81,5 @@ doc.Save(ArtifactsDir + "Charts.DataLabelsPieChart.docx");
 ### Siehe auch
 
 * class [ChartDataLabelCollection](../)
-* namensraum [Aspose.Words.Drawing.Charts](../../chartdatalabelcollection/)
+* namensraum [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../../)
-
-

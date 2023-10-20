@@ -1,7 +1,9 @@
 ---
 title: Font.AllCaps
-second_title: Aspose.Words für .NET-API-Referenz
-description: Font eigendom. True wenn die Schriftart ausschließlich in Großbuchstaben formatiert ist.
+linktitle: AllCaps
+articleTitle: AllCaps
+second_title: Aspose.Words für .NET
+description: Font AllCaps eigendom. True wenn die Schriftart ausschließlich in Großbuchstaben formatiert ist in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words/font/allcaps/
@@ -14,7 +16,7 @@ True, wenn die Schriftart ausschließlich in Großbuchstaben formatiert ist.
 public bool AllCaps { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Lauf formatiert wird, um seinen Inhalt in Großbuchstaben anzuzeigen.
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "Font.Caps.docx");
 ### Siehe auch
 
 * class [Font](../)
-* namensraum [Aspose.Words](../../font/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

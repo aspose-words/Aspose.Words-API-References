@@ -1,7 +1,9 @@
 ---
 title: Frameset.ChildFramesets
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Frameset propriété. Obtient la collection de cadres enfants et de pages de cadres.
+linktitle: ChildFramesets
+articleTitle: ChildFramesets
+second_title: Aspose.Words pour .NET
+description: Frameset ChildFramesets propriété. Obtient la collection de cadres enfants et de pages de cadres en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.framesets/frameset/childframesets/
@@ -14,7 +16,7 @@ Obtient la collection de cadres enfants et de pages de cadres.
 public FramesetCollection ChildFramesets { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment accéder aux cadres sur la page.
 
@@ -40,7 +42,5 @@ doc.Frameset.ChildFramesets[0].ChildFramesets[0].IsFrameLinkToFile = false;
 
 * class [FramesetCollection](../../framesetcollection/)
 * class [Frameset](../)
-* espace de noms [Aspose.Words.Framesets](../../frameset/)
+* espace de noms [Aspose.Words.Framesets](../../../aspose.words.framesets/)
 * Assemblée [Aspose.Words](../../../)
-
-

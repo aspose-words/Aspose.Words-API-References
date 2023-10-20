@@ -1,7 +1,9 @@
 ---
-title: Class FileFontSource
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Fonts.FileFontSource сорт. Представляет один файл шрифта TrueType хранящийся в файловой системе.
+title: FileFontSource Class
+linktitle: FileFontSource
+articleTitle: FileFontSource
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Fonts.FileFontSource сорт. Представляет один файл шрифта TrueType хранящийся в файловой системе на С#.
 type: docs
 weight: 2870
 url: /ru/net/aspose.words.fonts/filefontsource/
@@ -20,9 +22,9 @@ public class FileFontSource : FontSourceBase
 
 | Имя | Описание |
 | --- | --- |
-| [FileFontSource](filefontsource/#constructor)(string) | Cтор. |
-| [FileFontSource](filefontsource/#constructor_1)(string, int) | Cтор. |
-| [FileFontSource](filefontsource/#constructor_2)(string, int, string) | Cтор. |
+| [FileFontSource](filefontsource/#constructor)(*string*) | Cтор. |
+| [FileFontSource](filefontsource/#constructor_1)(*string, int*) | Cтор. |
+| [FileFontSource](filefontsource/#constructor_2)(*string, int, string*) | Cтор. |
 
 ## Характеристики
 
@@ -40,7 +42,7 @@ public class FileFontSource : FontSourceBase
 | --- | --- |
 | [GetAvailableFonts](../../aspose.words.fonts/fontsourcebase/getavailablefonts/)() | Возвращает список шрифтов, доступных через этот источник. |
 
-### Примеры
+## Примеры
 
 Показывает, как использовать файл шрифта в локальной файловой системе в качестве источника шрифта.
 
@@ -61,5 +63,3 @@ Assert.AreEqual(0, fileFontSource.Priority);
 * class [FontSourceBase](../fontsourcebase/)
 * пространство имен [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * сборка [Aspose.Words](../../)
-
-

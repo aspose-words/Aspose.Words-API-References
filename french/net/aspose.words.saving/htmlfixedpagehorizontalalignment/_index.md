@@ -1,7 +1,9 @@
 ---
-title: Enum HtmlFixedPageHorizontalAlignment
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Saving.HtmlFixedPageHorizontalAlignment énumération. Spécifie lalignement horizontal des pages dans le document HTML de sortie.
+title: HtmlFixedPageHorizontalAlignment Enum
+linktitle: HtmlFixedPageHorizontalAlignment
+articleTitle: HtmlFixedPageHorizontalAlignment
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Saving.HtmlFixedPageHorizontalAlignment énumération. Spécifie lalignement horizontal des pages dans le document HTML de sortie en C#.
 type: docs
 weight: 5070
 url: /fr/net/aspose.words.saving/htmlfixedpagehorizontalalignment/
@@ -22,7 +24,7 @@ public enum HtmlFixedPageHorizontalAlignment
 | Center | `1` | Pages centrales. Il s'agit de la valeur par défaut. |
 | Right | `2` | Aligner les pages à droite. |
 
-### Exemples
+## Exemples
 
 Montre comment définir l'alignement horizontal des pages lors de l'enregistrement d'un document au format HTML.
 
@@ -59,5 +61,3 @@ switch (pageHorizontalAlignment)
 
 * espace de noms [Aspose.Words.Saving](../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../)
-
-

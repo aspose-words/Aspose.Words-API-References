@@ -1,7 +1,9 @@
 ---
 title: Document.ShadeFormData
-second_title: Aspose.Words لمراجع .NET API
-description: Document ملكية. يحدد ما إذا كان سيتم تشغيل التظليل الرمادي في حقول النموذج.
+linktitle: ShadeFormData
+articleTitle: ShadeFormData
+second_title: Aspose.Words لـ .NET
+description: Document ShadeFormData ملكية. يحدد ما إذا كان سيتم تشغيل التظليل الرمادي في حقول النموذج في C#.
 type: docs
 weight: 380
 url: /ar/net/aspose.words/document/shadeformdata/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/document/shadeformdata/
 public bool ShadeFormData { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تطبيق التظليل الرمادي على حقول النموذج.
 
@@ -33,7 +35,5 @@ doc.Save(ArtifactsDir + "Document.ShadeFormData.docx");
 ### أنظر أيضا
 
 * class [Document](../)
-* مساحة الاسم [Aspose.Words](../../document/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Shape.Chart
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Shape propriété. Donne accès aux propriétés du graphique si cette forme a unChart .
+linktitle: Chart
+articleTitle: Chart
+second_title: Aspose.Words pour .NET
+description: Shape Chart propriété. Donne accès aux propriétés du graphique si cette forme a unChart  en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.drawing/shape/chart/
@@ -14,11 +16,11 @@ Donne accès aux propriétés du graphique si cette forme a un[`Chart`](../../..
 public Chart Chart { get; }
 ```
 
-### Remarques
+## Remarques
 
 Cette propriété renverra le[`Chart`](../../../aspose.words.drawing.charts/chart/) objet seulement si[`HasChart`](../haschart/) La propriété est`vrai` pour ça[`Shape`](../)et lèvera une exception sinon.
 
-### Exemples
+## Exemples
 
 Montre comment parcourir toutes les formes d’un document.
 
@@ -142,7 +144,5 @@ private class ShapeAppearancePrinter : DocumentVisitor
 
 * class [Chart](../../../aspose.words.drawing.charts/chart/)
 * class [Shape](../)
-* espace de noms [Aspose.Words.Drawing](../../shape/)
+* espace de noms [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Assemblée [Aspose.Words](../../../)
-
-

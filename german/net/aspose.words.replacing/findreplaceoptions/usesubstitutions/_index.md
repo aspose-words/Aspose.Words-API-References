@@ -1,7 +1,9 @@
 ---
 title: FindReplaceOptions.UseSubstitutions
-second_title: Aspose.Words für .NET-API-Referenz
-description: FindReplaceOptions eigendom. Ruft einen booleschen Wert ab der angibt ob Ersetzungen innerhalb von Ersetzungsmustern erkannt und verwendet werden sollen oder legt diesen fest. Der Standardwert istFALSCH .
+linktitle: UseSubstitutions
+articleTitle: UseSubstitutions
+second_title: Aspose.Words für .NET
+description: FindReplaceOptions UseSubstitutions eigendom. Ruft einen booleschen Wert ab der angibt ob Ersetzungen innerhalb von Ersetzungsmustern erkannt und verwendet werden sollen oder legt diesen fest. Der Standardwert istFALSCH  in C#.
 type: docs
 weight: 180
 url: /de/net/aspose.words.replacing/findreplaceoptions/usesubstitutions/
@@ -14,11 +16,11 @@ Ruft einen booleschen Wert ab, der angibt, ob Ersetzungen innerhalb von Ersetzun
 public bool UseSubstitutions { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Einzelheiten zu Substitutionselementen finden Sie unter: https://docs.microsoft.com/en-us/dotnet/standard/base-types/substitutions-in-regular-expressions.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Ersetzungen innerhalb von Ersetzungsmustern erkannt und verwendet werden.
 
@@ -70,7 +72,5 @@ Assert.AreEqual(
 ### Siehe auch
 
 * class [FindReplaceOptions](../)
-* namensraum [Aspose.Words.Replacing](../../findreplaceoptions/)
+* namensraum [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * Montage [Aspose.Words](../../../)
-
-

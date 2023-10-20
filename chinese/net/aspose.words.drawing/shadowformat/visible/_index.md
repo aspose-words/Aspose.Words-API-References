@@ -1,7 +1,9 @@
 ---
 title: ShadowFormat.Visible
-second_title: Aspose.Words for .NET API 参考
-description: ShadowFormat 财产. 返回真的如果应用于此实例的格式可见
+linktitle: Visible
+articleTitle: Visible
+second_title: 用于 .NET 的 Aspose.Words
+description: ShadowFormat Visible 财产. 返回真的如果应用于此实例的格式可见 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.drawing/shadowformat/visible/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.drawing/shadowformat/visible/
 public bool Visible { get; }
 ```
 
-### 评论
+## 评论
 
 不像[`Clear`](../clear/) 分配`错误的`to Visible 不会清除格式， 它仅隐藏形状效果。
 
-### 例子
+## 例子
 
 展示如何使用形状的阴影格式。
 
@@ -36,7 +38,5 @@ if (shape.ShadowFormat.Type == ShadowType.ShadowMixed)
 ### 也可以看看
 
 * class [ShadowFormat](../)
-* 命名空间 [Aspose.Words.Drawing](../../shadowformat/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

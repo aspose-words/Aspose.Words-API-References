@@ -1,7 +1,9 @@
 ---
 title: XmlMapping.StoreItemId
-second_title: Aspose.Words لمراجع .NET API
-description: XmlMapping ملكية. يحدد معرف بيانات XML المخصص لجزء بيانات XML المخصص والذي يجب استخدامه لتقييمXPath التعبير.
+linktitle: StoreItemId
+articleTitle: StoreItemId
+second_title: Aspose.Words لـ .NET
+description: XmlMapping StoreItemId ملكية. يحدد معرف بيانات XML المخصص لجزء بيانات XML المخصص والذي يجب استخدامه لتقييمXPath التعبير في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.markup/xmlmapping/storeitemid/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.markup/xmlmapping/storeitemid/
 public string StoreItemId { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الحصول على معرف بيانات XML المخصص لجزء XML.
 
@@ -30,7 +32,5 @@ Assert.AreEqual("{F3029283-4FF8-4DD2-9F31-395F19ACEE85}", tag.XmlMapping.StoreIt
 ### أنظر أيضا
 
 * class [XmlMapping](../)
-* مساحة الاسم [Aspose.Words.Markup](../../xmlmapping/)
+* مساحة الاسم [Aspose.Words.Markup](../../../aspose.words.markup/)
 * المجسم [Aspose.Words](../../../)
-
-

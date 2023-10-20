@@ -1,7 +1,9 @@
 ---
-title: FieldOcx.FieldOcx
-second_title: Aspose.Words för .NET API Referens
-description: FieldOcx byggare. Default_Constructor
+title: FieldOcx
+linktitle: FieldOcx
+articleTitle: FieldOcx
+second_title: Aspose.Words för .NET
+description: FieldOcx byggare. Default_Constructor i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.fields/fieldocx/fieldocx/
@@ -17,7 +19,5 @@ public FieldOcx()
 ### Se även
 
 * class [FieldOcx](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldocx/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

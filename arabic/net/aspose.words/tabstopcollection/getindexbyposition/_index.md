@@ -1,7 +1,9 @@
 ---
 title: TabStopCollection.GetIndexByPosition
-second_title: Aspose.Words لمراجع .NET API
-description: TabStopCollection طريقة. الحصول على فهرس علامة الجدولة بالموضع المحدد بالنقاط.
+linktitle: GetIndexByPosition
+articleTitle: GetIndexByPosition
+second_title: Aspose.Words لـ .NET
+description: TabStopCollection GetIndexByPosition طريقة. الحصول على فهرس علامة الجدولة بالموضع المحدد بالنقاط في C#.
 type: docs
 weight: 90
 url: /ar/net/aspose.words/tabstopcollection/getindexbyposition/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/tabstopcollection/getindexbyposition/
 public int GetIndexByPosition(double position)
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية البحث عن موضع لمعرفة ما إذا كانت علامة الجدولة موجودة هناك والحصول على فهرسها.
 
@@ -37,7 +39,5 @@ Assert.AreEqual(-1, tabStops.GetIndexByPosition(ConvertUtil.MillimeterToPoint(60
 ### أنظر أيضا
 
 * class [TabStopCollection](../)
-* مساحة الاسم [Aspose.Words](../../tabstopcollection/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class Document
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Document classe. Représente un document Word.
+title: Document Class
+linktitle: Document
+articleTitle: Document
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Document classe. Représente un document Word en C#.
 type: docs
 weight: 430
 url: /fr/net/aspose.words/document/
@@ -21,10 +23,10 @@ public class Document : DocumentBase
 | Nom | La description |
 | --- | --- |
 | [Document](document/#constructor)() | Crée un document Word vierge. |
-| [Document](document/#constructor_1)(Stream) | Ouvre un document existant à partir d'un flux. Détecte automatiquement le format de fichier. |
-| [Document](document/#constructor_3)(string) | Ouvre un document existant à partir d'un fichier. Détecte automatiquement le format de fichier. |
-| [Document](document/#constructor_2)(Stream, LoadOptions) | Ouvre un document existant à partir d'un flux. Permet de spécifier des options supplémentaires telles qu'un mot de passe de cryptage. |
-| [Document](document/#constructor_4)(string, LoadOptions) | Ouvre un document existant à partir d'un fichier. Permet de spécifier des options supplémentaires telles qu'un mot de passe de cryptage. |
+| [Document](document/#constructor_1)(*Stream*) | Ouvre un document existant à partir d'un flux. Détecte automatiquement le format de fichier. |
+| [Document](document/#constructor_3)(*string*) | Ouvre un document existant à partir d'un fichier. Détecte automatiquement le format de fichier. |
+| [Document](document/#constructor_2)(*Stream, [LoadOptions](../../aspose.words.loading/loadoptions/)*) | Ouvre un document existant à partir d'un flux. Permet de spécifier des options supplémentaires telles qu'un mot de passe de cryptage. |
+| [Document](document/#constructor_4)(*string, [LoadOptions](../../aspose.words.loading/loadoptions/)*) | Ouvre un document existant à partir d'un fichier. Permet de spécifier des options supplémentaires telles qu'un mot de passe de cryptage. |
 
 ## Propriétés
 
@@ -34,7 +36,7 @@ public class Document : DocumentBase
 | [AutomaticallyUpdateStyles](../../aspose.words/document/automaticallyupdatestyles/) { get; set; } | Obtient ou définit un indicateur indiquant si les styles du document sont mis à jour pour correspondre aux styles du modèle joint à chaque fois que le document est ouvert dans MS Word. |
 | [BackgroundShape](../../aspose.words/documentbase/backgroundshape/) { get; set; } | Obtient ou définit la forme d'arrière-plan du document. Peut être`nul` . |
 | [BuiltInDocumentProperties](../../aspose.words/document/builtindocumentproperties/) { get; } | Renvoie une collection qui représente toutes les propriétés de document intégrées du document. |
-| [CompatibilityOptions](../../aspose.words/document/compatibilityoptions/) { get; } | Donne accès aux options de compatibilité des documents (c'est-à-dire les préférences utilisateur saisies dans le **Compatibilité** Onglet du **Possibilités** boîte de dialogue dans Word). |
+| [CompatibilityOptions](../../aspose.words/document/compatibilityoptions/) { get; } | Donne accès aux options de compatibilité des documents (c'est-à-dire les préférences utilisateur saisies dans le**Compatibilité** Onglet du**Possibilités** boîte de dialogue dans Word). |
 | [Compliance](../../aspose.words/document/compliance/) { get; } | Obtient la version de conformité OOXML déterminée à partir du contenu du document chargé. N'a de sens que pour les documents OOXML. |
 | [Count](../../aspose.words/compositenode/count/) { get; } | Obtient le nombre d'enfants immédiats de ce nœud. |
 | [CustomDocumentProperties](../../aspose.words/document/customdocumentproperties/) { get; } | Renvoie une collection qui représente toutes les propriétés de document personnalisées du document. |
@@ -103,81 +105,79 @@ public class Document : DocumentBase
 
 | Nom | La description |
 | --- | --- |
-| override [Accept](../../aspose.words/document/accept/)(DocumentVisitor) | Accepte un visiteur. |
+| override [Accept](../../aspose.words/document/accept/)(*[DocumentVisitor](../documentvisitor/)*) | Accepte un visiteur. |
 | [AcceptAllRevisions](../../aspose.words/document/acceptallrevisions/)() | Accepte toutes les modifications suivies dans le document. |
-| override [AcceptEnd](../../aspose.words/document/acceptend/)(DocumentVisitor) |  |
-| override [AcceptStart](../../aspose.words/document/acceptstart/)(DocumentVisitor) |  |
-| [AppendChild&lt;T&gt;](../../aspose.words/compositenode/appendchild/)(T) |  |
-| [AppendDocument](../../aspose.words/document/appenddocument/#appenddocument)(Document, ImportFormatMode) | Ajoute le document spécifié à la fin de ce document. |
-| [AppendDocument](../../aspose.words/document/appenddocument/#appenddocument_1)(Document, ImportFormatMode, ImportFormatOptions) | Ajoute le document spécifié à la fin de ce document. |
+| [AppendChild](../../aspose.words/compositenode/appendchild/)(*[Node](../node/)*) | Ajoute le nœud spécifié à la fin de la liste des nœuds enfants pour ce nœud. |
+| [AppendDocument](../../aspose.words/document/appenddocument/#appenddocument)(*Document, [ImportFormatMode](../importformatmode/)*) | Ajoute le document spécifié à la fin de ce document. |
+| [AppendDocument](../../aspose.words/document/appenddocument/#appenddocument_1)(*Document, [ImportFormatMode](../importformatmode/), [ImportFormatOptions](../importformatoptions/)*) | Ajoute le document spécifié à la fin de ce document. |
 | [Cleanup](../../aspose.words/document/cleanup/#cleanup)() | Nettoie les styles et les listes inutilisés du document. |
-| [Cleanup](../../aspose.words/document/cleanup/#cleanup_1)(CleanupOptions) | Nettoie les styles et les listes inutilisés du document en fonction des données[`CleanupOptions`](../cleanupoptions/) . |
+| [Cleanup](../../aspose.words/document/cleanup/#cleanup_1)(*[CleanupOptions](../cleanupoptions/)*) | Nettoie les styles et les listes inutilisés du document en fonction des données[`CleanupOptions`](../cleanupoptions/) . |
 | [Clone](../../aspose.words/document/clone/#clone)() | Effectue une copie complète du`Document` . |
-| [Clone](../../aspose.words/node/clone/)(bool) | Crée un duplicata du nœud. |
-| [Compare](../../aspose.words/document/compare/#compare)(Document, string, DateTime) | Compare ce document avec un autre document produisant des modifications en nombre de révisions d'édition et de format[`Revision`](../revision/) . |
-| [Compare](../../aspose.words/document/compare/#compare_1)(Document, string, DateTime, CompareOptions) | Compare ce document avec un autre document produisant des changements sous forme d'un certain nombre de révisions d'édition et de format[`Revision`](../revision/) . Permet de spécifier des options de comparaison en utilisant[`CompareOptions`](../../aspose.words.comparing/compareoptions/) . |
-| [CopyStylesFromTemplate](../../aspose.words/document/copystylesfromtemplate/#copystylesfromtemplate)(Document) | Copie les styles du modèle spécifié vers un document. |
-| [CopyStylesFromTemplate](../../aspose.words/document/copystylesfromtemplate/#copystylesfromtemplate_1)(string) | Copie les styles du modèle spécifié vers un document. |
+| [Clone](../../aspose.words/node/clone/)(*bool*) | Crée un duplicata du nœud. |
+| [Compare](../../aspose.words/document/compare/#compare)(*Document, string, DateTime*) | Compare ce document avec un autre document produisant des modifications en nombre de révisions d'édition et de format[`Revision`](../revision/) . |
+| [Compare](../../aspose.words/document/compare/#compare_1)(*Document, string, DateTime, [CompareOptions](../../aspose.words.comparing/compareoptions/)*) | Compare ce document avec un autre document produisant des changements sous forme d'un certain nombre de révisions d'édition et de format[`Revision`](../revision/) . Permet de spécifier des options de comparaison en utilisant[`CompareOptions`](../../aspose.words.comparing/compareoptions/) . |
+| [CopyStylesFromTemplate](../../aspose.words/document/copystylesfromtemplate/#copystylesfromtemplate)(*Document*) | Copie les styles du modèle spécifié vers un document. |
+| [CopyStylesFromTemplate](../../aspose.words/document/copystylesfromtemplate/#copystylesfromtemplate_1)(*string*) | Copie les styles du modèle spécifié vers un document. |
 | [CreateNavigator](../../aspose.words/compositenode/createnavigator/)() | Crée un navigateur qui peut être utilisé pour parcourir et lire des nœuds. |
 | [EnsureMinimum](../../aspose.words/document/ensureminimum/)() | Si le document ne contient aucune section, crée une section avec un paragraphe. |
 | [ExpandTableStylesToDirectFormatting](../../aspose.words/document/expandtablestylestodirectformatting/)() | Convertit le formatage spécifié dans les styles de tableau en formatage direct sur les tableaux du document. |
-| [ExtractPages](../../aspose.words/document/extractpages/)(int, int) | Renvoie le`Document` objet représentant la plage spécifiée de pages. |
-| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Obtient le premier ancêtre du spécifié[`NodeType`](../nodetype/) . |
-| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Obtient le premier ancêtre du type d'objet spécifié. |
-| [GetChild](../../aspose.words/compositenode/getchild/)(NodeType, int, bool) | Renvoie un Nième nœud enfant qui correspond au type spécifié. |
-| [GetChildNodes](../../aspose.words/compositenode/getchildnodes/)(NodeType, bool) | Renvoie une collection active de nœuds enfants qui correspondent au type spécifié. |
+| [ExtractPages](../../aspose.words/document/extractpages/)(*int, int*) | Renvoie le`Document` objet représentant la plage spécifiée de pages. |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*[NodeType](../nodetype/)*) | Obtient le premier ancêtre du spécifié[`NodeType`](../nodetype/) . |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | Obtient le premier ancêtre du type d'objet spécifié. |
+| [GetChild](../../aspose.words/compositenode/getchild/)(*[NodeType](../nodetype/), int, bool*) | Renvoie un Nième nœud enfant qui correspond au type spécifié. |
+| [GetChildNodes](../../aspose.words/compositenode/getchildnodes/)(*[NodeType](../nodetype/), bool*) | Renvoie une collection active de nœuds enfants qui correspondent au type spécifié. |
 | [GetEnumerator](../../aspose.words/compositenode/getenumerator/)() | Fournit la prise en charge de chaque itération de style sur les nœuds enfants de ce nœud. |
-| [GetPageInfo](../../aspose.words/document/getpageinfo/)(int) | Obtient la taille de la page, son orientation et d'autres informations sur une page qui pourraient être utiles pour l'impression ou le rendu. |
+| [GetPageInfo](../../aspose.words/document/getpageinfo/)(*int*) | Obtient la taille de la page, son orientation et d'autres informations sur une page qui pourraient être utiles pour l'impression ou le rendu. |
 | override [GetText](../../aspose.words/compositenode/gettext/)() | Récupère le texte de ce nœud et de tous ses enfants. |
-| [ImportNode](../../aspose.words/documentbase/importnode/)(Node, bool) | Importe un nœud d'un autre document vers le document actuel. |
-| [ImportNode](../../aspose.words/documentbase/importnode/)(Node, bool, ImportFormatMode) | Importe un nœud d'un autre document vers le document actuel avec une option pour contrôler le formatage. |
-| [IndexOf](../../aspose.words/compositenode/indexof/)(Node) | Renvoie l'index du nœud enfant spécifié dans le tableau de nœuds enfants. |
-| [InsertAfter&lt;T&gt;](../../aspose.words/compositenode/insertafter/)(T, Node) |  |
-| [InsertBefore&lt;T&gt;](../../aspose.words/compositenode/insertbefore/)(T, Node) |  |
+| [ImportNode](../../aspose.words/documentbase/importnode/)(*[Node](../node/), bool*) | Importe un nœud d'un autre document vers le document actuel. |
+| [ImportNode](../../aspose.words/documentbase/importnode/)(*[Node](../node/), bool, [ImportFormatMode](../importformatmode/)*) | Importe un nœud d'un autre document vers le document actuel avec une option pour contrôler le formatage. |
+| [IndexOf](../../aspose.words/compositenode/indexof/)(*[Node](../node/)*) | Renvoie l'index du nœud enfant spécifié dans le tableau de nœuds enfants. |
+| [InsertAfter](../../aspose.words/compositenode/insertafter/)(*[Node](../node/), [Node](../node/)*) | Insère le nœud spécifié immédiatement après le nœud de référence spécifié. |
+| [InsertBefore](../../aspose.words/compositenode/insertbefore/)(*[Node](../node/), [Node](../node/)*) | Insère le nœud spécifié immédiatement avant le nœud de référence spécifié. |
 | [JoinRunsWithSameFormatting](../../aspose.words/document/joinrunswithsameformatting/)() | Les jointures s'exécutent avec le même formatage dans tous les paragraphes du document. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Obtient le nœud suivant selon l'algorithme de traversée de l'arbre de pré-commande. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../node/)*) | Obtient le nœud suivant selon l'algorithme de traversée de l'arbre de pré-commande. |
 | [NormalizeFieldTypes](../../aspose.words/document/normalizefieldtypes/)() | Modifie les valeurs du type de champ[`FieldType`](../../aspose.words.fields/fieldchar/fieldtype/) de[`FieldStart`](../../aspose.words.fields/fieldstart/) ,[`FieldSeparator`](../../aspose.words.fields/fieldseparator/) ,[`FieldEnd`](../../aspose.words.fields/fieldend/) dans tout le document afin qu'ils correspondent aux types de champs contenus dans les codes de champs. |
-| [PrependChild&lt;T&gt;](../../aspose.words/compositenode/prependchild/)(T) |  |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Obtient le nœud précédent selon l'algorithme de traversée d'arbre de pré-commande. |
+| [PrependChild](../../aspose.words/compositenode/prependchild/)(*[Node](../node/)*) | Ajoute le nœud spécifié au début de la liste des nœuds enfants pour ce nœud. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../node/)*) | Obtient le nœud précédent selon l'algorithme de traversée d'arbre de pré-commande. |
 | [Print](../../aspose.words/document/print/#print)() | Imprime l'intégralité du document sur l'imprimante par défaut. |
-| [Print](../../aspose.words/document/print/#print_1)(PrinterSettings) | Imprime le document selon les paramètres d'imprimante spécifiés, à l'aide du contrôleur d'impression standard (sans interface utilisateur). |
-| [Print](../../aspose.words/document/print/#print_3)(string) | Imprimez l'intégralité du document sur l'imprimante spécifiée, à l'aide du contrôleur d'impression standard (sans interface utilisateur). |
-| [Print](../../aspose.words/document/print/#print_2)(PrinterSettings, string) | Imprime le document selon les paramètres d'imprimante spécifiés, à l'aide du contrôleur d'impression standard (sans interface utilisateur) et d'un nom de document. |
-| [Protect](../../aspose.words/document/protect/#protect)(ProtectionType) | Protège le document des modifications sans modifier le mot de passe existant ou attribue un mot de passe aléatoire. |
-| [Protect](../../aspose.words/document/protect/#protect_1)(ProtectionType, string) | Protège le document des modifications et définit éventuellement un mot de passe de protection. |
+| [Print](../../aspose.words/document/print/#print_1)(*PrinterSettings*) | Imprime le document selon les paramètres d'imprimante spécifiés, à l'aide du contrôleur d'impression standard (sans interface utilisateur). |
+| [Print](../../aspose.words/document/print/#print_3)(*string*) | Imprimez l'intégralité du document sur l'imprimante spécifiée, à l'aide du contrôleur d'impression standard (sans interface utilisateur). |
+| [Print](../../aspose.words/document/print/#print_2)(*PrinterSettings, string*) | Imprime le document selon les paramètres d'imprimante spécifiés, à l'aide du contrôleur d'impression standard (sans interface utilisateur) et d'un nom de document. |
+| [Protect](../../aspose.words/document/protect/#protect)(*[ProtectionType](../protectiontype/)*) | Protège le document des modifications sans modifier le mot de passe existant ou attribue un mot de passe aléatoire. |
+| [Protect](../../aspose.words/document/protect/#protect_1)(*[ProtectionType](../protectiontype/), string*) | Protège le document des modifications et définit éventuellement un mot de passe de protection. |
 | [Remove](../../aspose.words/node/remove/)() | Se supprime du parent. |
 | [RemoveAllChildren](../../aspose.words/compositenode/removeallchildren/)() | Supprime tous les nœuds enfants du nœud actuel. |
-| [RemoveChild&lt;T&gt;](../../aspose.words/compositenode/removechild/)(T) |  |
+| [RemoveChild](../../aspose.words/compositenode/removechild/)(*[Node](../node/)*) | Supprime le nœud enfant spécifié. |
 | [RemoveExternalSchemaReferences](../../aspose.words/document/removeexternalschemareferences/)() | Supprime les références de schéma XML externes de ce document. |
 | [RemoveMacros](../../aspose.words/document/removemacros/)() | Supprime toutes les macros (le projet VBA) ainsi que les barres d'outils et les personnalisations de commandes du document. |
 | [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags/)() | Supprime tout[`SmartTag`](../../aspose.words.markup/smarttag/)nœuds descendants du nœud actuel. |
-| [RenderToScale](../../aspose.words/document/rendertoscale/)(int, Graphics, float, float, float) | Rend une page de document dans unGraphics objet à une échelle spécifiée. |
-| [RenderToSize](../../aspose.words/document/rendertosize/)(int, Graphics, float, float, float, float) | Rend une page de document dans unGraphics objet à une taille spécifiée. |
-| [Save](../../aspose.words/document/save/#save_2)(string) | Enregistre le document dans un fichier. Détermine automatiquement le format de sauvegarde à partir de l'extension. |
-| [Save](../../aspose.words/document/save/#save)(Stream, SaveFormat) | Enregistre le document dans un flux en utilisant le format spécifié. |
-| [Save](../../aspose.words/document/save/#save_1)(Stream, SaveOptions) | Enregistre le document dans un flux à l'aide des options d'enregistrement spécifiées. |
-| [Save](../../aspose.words/document/save/#save_3)(string, SaveFormat) | Enregistre le document dans un fichier au format spécifié. |
-| [Save](../../aspose.words/document/save/#save_4)(string, SaveOptions) | Enregistre le document dans un fichier en utilisant les options d'enregistrement spécifiées. |
-| [Save](../../aspose.words/document/save/#save_5)(HttpResponse, string, ContentDisposition, SaveOptions) | Envoie le document au navigateur client. |
-| [SelectNodes](../../aspose.words/compositenode/selectnodes/)(string) | Sélectionne une liste de nœuds correspondant à l'expression XPath. |
-| [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(string) | Sélectionne le premier[`Node`](../node/) qui correspond à l'expression XPath. |
-| [StartTrackRevisions](../../aspose.words/document/starttrackrevisions/#starttrackrevisions)(string) | Commence automatiquement à marquer toutes les autres modifications que vous apportez au document par programme en tant que modifications de révision. |
-| [StartTrackRevisions](../../aspose.words/document/starttrackrevisions/#starttrackrevisions_1)(string, DateTime) | Commence automatiquement à marquer toutes les autres modifications que vous apportez au document par programme en tant que modifications de révision. |
+| [RenderToScale](../../aspose.words/document/rendertoscale/)(*int, Graphics, float, float, float*) | Rend une page de document dans unGraphics objet à une échelle spécifiée. |
+| [RenderToSize](../../aspose.words/document/rendertosize/)(*int, Graphics, float, float, float, float*) | Rend une page de document dans unGraphics objet à une taille spécifiée. |
+| [Save](../../aspose.words/document/save/#save_2)(*string*) | Enregistre le document dans un fichier. Détermine automatiquement le format de sauvegarde à partir de l'extension. |
+| [Save](../../aspose.words/document/save/#save)(*Stream, [SaveFormat](../saveformat/)*) | Enregistre le document dans un flux en utilisant le format spécifié. |
+| [Save](../../aspose.words/document/save/#save_1)(*Stream, [SaveOptions](../../aspose.words.saving/saveoptions/)*) | Enregistre le document dans un flux à l'aide des options d'enregistrement spécifiées. |
+| [Save](../../aspose.words/document/save/#save_3)(*string, [SaveFormat](../saveformat/)*) | Enregistre le document dans un fichier au format spécifié. |
+| [Save](../../aspose.words/document/save/#save_4)(*string, [SaveOptions](../../aspose.words.saving/saveoptions/)*) | Enregistre le document dans un fichier en utilisant les options d'enregistrement spécifiées. |
+| [Save](../../aspose.words/document/save/#save_5)(*HttpResponse, string, [ContentDisposition](../contentdisposition/), [SaveOptions](../../aspose.words.saving/saveoptions/)*) | Envoie le document au navigateur client. |
+| [SelectNodes](../../aspose.words/compositenode/selectnodes/)(*string*) | Sélectionne une liste de nœuds correspondant à l'expression XPath. |
+| [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(*string*) | Sélectionne le premier[`Node`](../node/) qui correspond à l'expression XPath. |
+| [StartTrackRevisions](../../aspose.words/document/starttrackrevisions/#starttrackrevisions)(*string*) | Commence automatiquement à marquer toutes les autres modifications que vous apportez au document par programme en tant que modifications de révision. |
+| [StartTrackRevisions](../../aspose.words/document/starttrackrevisions/#starttrackrevisions_1)(*string, DateTime*) | Commence automatiquement à marquer toutes les autres modifications que vous apportez au document par programme en tant que modifications de révision. |
 | [StopTrackRevisions](../../aspose.words/document/stoptrackrevisions/)() | Arrête le marquage automatique des modifications du document en tant que révisions. |
-| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Exporte le contenu du nœud dans une chaîne au format spécifié. |
-| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | Exporte le contenu du nœud dans une chaîne à l'aide des options de sauvegarde spécifiées. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../saveformat/)*) | Exporte le contenu du nœud dans une chaîne au format spécifié. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | Exporte le contenu du nœud dans une chaîne à l'aide des options de sauvegarde spécifiées. |
 | [UnlinkFields](../../aspose.words/document/unlinkfields/)() | Dissocie les champs dans tout le document. |
 | [Unprotect](../../aspose.words/document/unprotect/#unprotect_1)() | Supprime la protection du document quel que soit le mot de passe. |
-| [Unprotect](../../aspose.words/document/unprotect/#unprotect)(string) | Supprime la protection du document si un mot de passe correct est spécifié. |
+| [Unprotect](../../aspose.words/document/unprotect/#unprotect)(*string*) | Supprime la protection du document si un mot de passe correct est spécifié. |
 | [UpdateFields](../../aspose.words/document/updatefields/)() | Met à jour les valeurs des champs dans tout le document. |
 | [UpdateListLabels](../../aspose.words/document/updatelistlabels/)() | Met à jour les étiquettes de liste pour tous les éléments de liste du document. |
 | [UpdatePageLayout](../../aspose.words/document/updatepagelayout/)() | Reconstruit la mise en page du document. |
 | [UpdateThumbnail](../../aspose.words/document/updatethumbnail/#updatethumbnail)() | Mises à jour[`Thumbnail`](../../aspose.words.properties/builtindocumentproperties/thumbnail/) du document en utilisant les options par défaut. |
-| [UpdateThumbnail](../../aspose.words/document/updatethumbnail/#updatethumbnail_1)(ThumbnailGeneratingOptions) | Mises à jour[`Thumbnail`](../../aspose.words.properties/builtindocumentproperties/thumbnail/) du document selon les options spécifiées. |
+| [UpdateThumbnail](../../aspose.words/document/updatethumbnail/#updatethumbnail_1)(*[ThumbnailGeneratingOptions](../../aspose.words.rendering/thumbnailgeneratingoptions/)*) | Mises à jour[`Thumbnail`](../../aspose.words.properties/builtindocumentproperties/thumbnail/) du document selon les options spécifiées. |
 | [UpdateWordCount](../../aspose.words/document/updatewordcount/#updatewordcount)() | Met à jour les propriétés du nombre de mots du document. |
-| [UpdateWordCount](../../aspose.words/document/updatewordcount/#updatewordcount_1)(bool) | Met à jour les propriétés du nombre de mots du document, éventuellement mises à jour[`Lines`](../../aspose.words.properties/builtindocumentproperties/lines/) propriété. |
+| [UpdateWordCount](../../aspose.words/document/updatewordcount/#updatewordcount_1)(*bool*) | Met à jour les propriétés du nombre de mots du document, éventuellement mises à jour[`Lines`](../../aspose.words.properties/builtindocumentproperties/lines/) propriété. |
 
-### Remarques
+## Remarques
 
 Le`Document` est un objet central de la bibliothèque Aspose.Words.
 
@@ -185,11 +185,11 @@ Pour charger un document existant dans l'un des[`LoadFormat`](../loadformat/) fo
 
 Utilisez l'une des surcharges de la méthode Save pour enregistrer le document dans l'un des [`SaveFormat`](../saveformat/) formats.
 
-Pour dessiner des pages de document directement sur un **Graphique** objet use [`RenderToScale`](./rendertoscale/) ou[`RenderToSize`](./rendertosize/) méthode.
+Pour dessiner des pages de document directement sur un**Graphique** objet use [`RenderToScale`](./rendertoscale/) ou[`RenderToSize`](./rendertosize/) méthode.
 
 Pour imprimer le document, utilisez l'un des[`Print`](./print/) méthodes.
 
-[`MailMerge`](./mailmerge/) est le moteur de reporting d'Aspose.Words qui permet de remplir rapidement et facilement des rapports conçus dans Microsoft Word avec des données provenant de diverses sources de données. Les données peuvent provenir d'un DataSet, DataTable, DataView, IDataReader ou d'un tableau de valeurs.  **Fusion et publipostage** parcourra les enregistrements trouvés dans la source de données et les insérera dans les champs de publipostage du document en le développant si nécessaire.
+[`MailMerge`](./mailmerge/) est le moteur de reporting d'Aspose.Words qui permet de remplir rapidement et facilement des rapports conçus dans Microsoft Word avec des données provenant de diverses sources de données. Les données peuvent provenir d'un DataSet, DataTable, DataView, IDataReader ou d'un tableau de valeurs. **Fusion et publipostage** parcourra les enregistrements trouvés dans la source de données et les insérera dans les champs de publipostage du document en le développant si nécessaire.
 
 `Document` stocke des informations à l'échelle du document telles que[`Styles`](../documentbase/styles/) , [`BuiltInDocumentProperties`](./builtindocumentproperties/) ,[`CustomDocumentProperties`](./customdocumentproperties/) listes et macros. La plupart de ces objets sont accessibles via les propriétés correspondantes du`Document`.
 
@@ -197,7 +197,7 @@ Le`Document` est un nœud racine d'une arborescence qui contient tous les autres
 
 * Les nœuds du document sont accessibles via des collections typées, par exemple[`Sections`](./sections/) , [`ParagraphCollection`](../paragraphcollection/) etc.
 * Les nœuds du document peuvent être sélectionnés par leur type de nœud en utilisant [`GetChildNodes`](../compositenode/getchildnodes/) ou en utilisant une requête XPath avec[`SelectNodes`](../compositenode/selectnodes/) ou[`SelectSingleNode`](../compositenode/selectsinglenode/).
-* Les nœuds de contenu peuvent être ajoutés ou supprimés n'importe où dans le document en utilisant Node) ,Node) , Node) et les méthodes other fournies par la classe de base[`CompositeNode`](../compositenode/).
+* Les nœuds de contenu peuvent être ajoutés ou supprimés n'importe où dans le document en utilisant [`InsertBefore`](../compositenode/insertbefore/) ,[`InsertAfter`](../compositenode/insertafter/) , [`RemoveChild`](../compositenode/removechild/) et les méthodes other fournies par la classe de base[`CompositeNode`](../compositenode/).
 * Les attributs de formatage de chaque nœud peuvent être modifiés via les propriétés de ce nœud.
 
 Pensez à utiliser[`DocumentBuilder`](../documentbuilder/)cela simplifie la tâche de création par programme de ou de remplissage de l'arborescence des documents.
@@ -206,7 +206,7 @@ Le`Document` ne peut contenir que[`Section`](../section/) objets.
 
 Dans Microsoft Word, un document valide doit comporter au moins une section.
 
-### Exemples
+## Exemples
 
 Montre comment exécuter un publipostage avec les données d'un DataTable.
 
@@ -256,5 +256,3 @@ private static Document CreateSourceDocExecuteDataTable()
 * class [DocumentBase](../documentbase/)
 * espace de noms [Aspose.Words](../../aspose.words/)
 * Assemblée [Aspose.Words](../../)
-
-

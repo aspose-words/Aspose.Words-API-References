@@ -1,7 +1,9 @@
 ---
 title: DocSaveOptions.Password
-second_title: Aspose.Words for .NET API 参考
-description: DocSaveOptions 财产. 获取/设置使用 RC4 加密方法加密文档的密码
+linktitle: Password
+articleTitle: Password
+second_title: 用于 .NET 的 Aspose.Words
+description: DocSaveOptions Password 财产. 获取/设置使用 RC4 加密方法加密文档的密码 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.saving/docsaveoptions/password/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.saving/docsaveoptions/password/
 public string Password { get; set; }
 ```
 
-### 评论
+## 评论
 
 为了保存文档而不加密，该属性应该是`无效的`或空字符串。
 
-### 例子
+## 例子
 
 演示如何为旧版 Microsoft Word 格式设置保存选项。
 
@@ -51,7 +53,5 @@ Assert.AreEqual("Hello world!", doc.GetText().Trim());
 ### 也可以看看
 
 * class [DocSaveOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../docsaveoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

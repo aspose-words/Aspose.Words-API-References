@@ -1,24 +1,26 @@
 ---
 title: MailMerge.UseWholeParagraphAsRegion
-second_title: Aspose.Words لمراجع .NET API
-description: MailMerge ملكية. الحصول على أو تعيين قيمة تشير إلى ما إذا كانت الفقرة بأكملها بها TableStart أو نهاية الجدول field أو نطاق معين بين TableStart و نهاية الجدول يجب تضمين الحقول في منطقة دمج البريد.
+linktitle: UseWholeParagraphAsRegion
+articleTitle: UseWholeParagraphAsRegion
+second_title: Aspose.Words لـ .NET
+description: MailMerge UseWholeParagraphAsRegion ملكية. الحصول على أو تعيين قيمة تشير إلى ما إذا كانت الفقرة بأكملها بهاTableStart أونهاية الجدول field أو نطاق معين بينTableStart ونهاية الجدول يجب تضمين الحقول في منطقة دمج البريد في C#.
 type: docs
 weight: 160
 url: /ar/net/aspose.words.mailmerging/mailmerge/usewholeparagraphasregion/
 ---
 ## MailMerge.UseWholeParagraphAsRegion property
 
-الحصول على أو تعيين قيمة تشير إلى ما إذا كانت الفقرة بأكملها بها **TableStart** أو **نهاية الجدول** field أو نطاق معين بين **TableStart** و **نهاية الجدول** يجب تضمين الحقول في منطقة دمج البريد.
+الحصول على أو تعيين قيمة تشير إلى ما إذا كانت الفقرة بأكملها بها**TableStart** أو**نهاية الجدول** field أو نطاق معين بين**TableStart** و**نهاية الجدول** يجب تضمين الحقول في منطقة دمج البريد.
 
 ```csharp
 public bool UseWholeParagraphAsRegion { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 القيمة الافتراضية هي`حقيقي` .
 
-### أمثلة
+## أمثلة
 
 إظهار العلاقة بين مناطق دمج البريد والفقرات.
 
@@ -85,7 +87,5 @@ private static DataTable CreateSourceTableDataTableForOneRegion()
 ### أنظر أيضا
 
 * class [MailMerge](../)
-* مساحة الاسم [Aspose.Words.MailMerging](../../mailmerge/)
+* مساحة الاسم [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * المجسم [Aspose.Words](../../../)
-
-

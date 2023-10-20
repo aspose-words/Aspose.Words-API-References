@@ -1,12 +1,14 @@
 ---
 title: ComHelper.Open
-second_title: Aspose.Words لمراجع .NET API
-description: ComHelper طريقة. يسمح لتطبيق COM بتحميل ملفDocument من ملف.
+linktitle: Open
+articleTitle: Open
+second_title: Aspose.Words لـ .NET
+description: ComHelper Open طريقة. يسمح لتطبيق COM بتحميل ملفDocument من ملف في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words/comhelper/open/
 ---
-## Open(string) {#open_1}
+## Open(*string*) {#open_1}
 
 يسمح لتطبيق COM بتحميل ملف[`Document`](../../document/) من ملف.
 
@@ -22,11 +24,11 @@ public Document Open(string fileName)
 
 أ[`Document`](../../document/)الكائن الذي يمثل مستند Word.
 
-### ملاحظات
+## ملاحظات
 
 هذه الطريقة هي نفس طريقة استدعاء[`Document`](../../document/) منشئ مع معلمة اسم الملف.
 
-### أمثلة
+## أمثلة
 
 ```csharp
 [VBScript]
@@ -62,12 +64,12 @@ using (FileStream stream = new FileStream(MyDir + "Document.docx", FileMode.Open
 
 * class [Document](../../document/)
 * class [ComHelper](../)
-* مساحة الاسم [Aspose.Words](../../comhelper/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## Open(Stream) {#open}
+## Open(*Stream*) {#open}
 
 يسمح بتحميل تطبيق COM[`Document`](../../document/) من تيار.
 
@@ -83,11 +85,11 @@ public Document Open(Stream stream)
 
 أ[`Document`](../../document/)الكائن الذي يمثل مستند Word.
 
-### ملاحظات
+## ملاحظات
 
 هذه الطريقة هي نفس طريقة استدعاء[`Document`](../../document/) منشئ مع معلمة الدفق.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية فتح المستندات باستخدام فئة ComHelper.
 
@@ -113,7 +115,5 @@ using (FileStream stream = new FileStream(MyDir + "Document.docx", FileMode.Open
 
 * class [Document](../../document/)
 * class [ComHelper](../)
-* مساحة الاسم [Aspose.Words](../../comhelper/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

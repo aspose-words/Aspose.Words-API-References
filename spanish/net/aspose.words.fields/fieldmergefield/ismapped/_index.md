@@ -1,7 +1,9 @@
 ---
 title: FieldMergeField.IsMapped
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldMergeField propiedad. Obtiene o establece si este campo es un campo asignado.
+linktitle: IsMapped
+articleTitle: IsMapped
+second_title: Aspose.Words para .NET
+description: FieldMergeField IsMapped propiedad. Obtiene o establece si este campo es un campo asignado en C#.
 type: docs
 weight: 30
 url: /es/net/aspose.words.fields/fieldmergefield/ismapped/
@@ -14,7 +16,7 @@ Obtiene o establece si este campo es un campo asignado.
 public bool IsMapped { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo utilizar los campos MERGEFIELD para realizar una combinación de correspondencia.
 
@@ -56,7 +58,5 @@ Assert.AreEqual("Dear Mr. Doe:\u000cDear Mrs. Cardholder:", doc.GetText().Trim()
 ### Ver también
 
 * class [FieldMergeField](../)
-* espacio de nombres [Aspose.Words.Fields](../../fieldmergefield/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

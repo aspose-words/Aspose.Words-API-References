@@ -1,7 +1,9 @@
 ---
 title: FixedPageSaveOptions.Equals
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FixedPageSaveOptions méthode. Détermine si lobjet spécifié a une valeur égale à lobjet actuel.
+linktitle: Equals
+articleTitle: Equals
+second_title: Aspose.Words pour .NET
+description: FixedPageSaveOptions Equals méthode. Détermine si lobjet spécifié a une valeur égale à lobjet actuel en C#.
 type: docs
 weight: 80
 url: /fr/net/aspose.words.saving/fixedpagesaveoptions/equals/
@@ -17,7 +19,5 @@ public override bool Equals(object obj)
 ### Voir également
 
 * class [FixedPageSaveOptions](../)
-* espace de noms [Aspose.Words.Saving](../../fixedpagesaveoptions/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

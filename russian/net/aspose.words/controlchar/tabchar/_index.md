@@ -1,7 +1,9 @@
 ---
 title: ControlChar.TabChar
-second_title: Справочник по API Aspose.Words для .NET
-description: ControlChar поле. Символ табуляции char9 или t.
+linktitle: TabChar
+articleTitle: TabChar
+second_title: Aspose.Words для .NET
+description: ControlChar TabChar поле. Символ табуляции char9 или t на С#.
 type: docs
 weight: 280
 url: /ru/net/aspose.words/controlchar/tabchar/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/controlchar/tabchar/
 public const char TabChar;
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как установить собственный интервал для позиций табуляции.
 
@@ -33,7 +35,5 @@ builder.Writeln("Hello" + ControlChar.TabChar + "World!");
 ### Смотрите также
 
 * class [ControlChar](../)
-* пространство имен [Aspose.Words](../../controlchar/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

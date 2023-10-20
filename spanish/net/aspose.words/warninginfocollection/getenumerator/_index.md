@@ -1,7 +1,9 @@
 ---
 title: WarningInfoCollection.GetEnumerator
-second_title: Referencia de API de Aspose.Words para .NET
-description: WarningInfoCollection método. Devuelve un objeto enumerador que se puede utilizar para iterar sobre todos los elementos de la colección.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words para .NET
+description: WarningInfoCollection GetEnumerator método. Devuelve un objeto enumerador que se puede utilizar para iterar sobre todos los elementos de la colección en C#.
 type: docs
 weight: 50
 url: /es/net/aspose.words/warninginfocollection/getenumerator/
@@ -14,7 +16,7 @@ Devuelve un objeto enumerador que se puede utilizar para iterar sobre todos los 
 public IEnumerator<WarningInfo> GetEnumerator()
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo configurar la propiedad para encontrar la coincidencia más cercana para una fuente faltante entre las fuentes de fuentes disponibles.
 
@@ -75,7 +77,5 @@ public class HandleDocumentSubstitutionWarnings : IWarningCallback
 
 * class [WarningInfo](../../warninginfo/)
 * class [WarningInfoCollection](../)
-* espacio de nombres [Aspose.Words](../../warninginfocollection/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

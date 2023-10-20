@@ -1,7 +1,9 @@
 ---
 title: Table.TextWrapping
-second_title: Aspose.Words für .NET-API-Referenz
-description: Table eigendom. Ruft ab oder legt festTextWrapping für Tabelle.
+linktitle: TextWrapping
+articleTitle: TextWrapping
+second_title: Aspose.Words für .NET
+description: Table TextWrapping eigendom. Ruft ab oder legt festTextWrapping für Tabelle in C#.
 type: docs
 weight: 310
 url: /de/net/aspose.words.tables/table/textwrapping/
@@ -14,7 +16,7 @@ Ruft ab oder legt fest`TextWrapping` für Tabelle.
 public TextWrapping TextWrapping { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man mit Tabellentextumbrüchen arbeitet.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "Table.WrapText.docx");
 
 * enum [TextWrapping](../../textwrapping/)
 * class [Table](../)
-* namensraum [Aspose.Words.Tables](../../table/)
+* namensraum [Aspose.Words.Tables](../../../aspose.words.tables/)
 * Montage [Aspose.Words](../../../)
-
-

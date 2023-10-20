@@ -1,7 +1,9 @@
 ---
 title: Section.Body
-second_title: Aspose.Words for .NET API 参考
-description: Section 财产. 返回Body该节的子节点.
+linktitle: Body
+articleTitle: Body
+second_title: 用于 .NET 的 Aspose.Words
+description: Section Body 财产. 返回Body该节的子节点 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words/section/body/
@@ -14,13 +16,13 @@ url: /zh/net/aspose.words/section/body/
 public Body Body { get; }
 ```
 
-### 评论
+## 评论
 
 [`Body`](../../body/)包含该部分的主要文本。
 
 退货`无效的`如果该部分没有[`Body`](../../body/)其子节点中的节点。
 
-### 例子
+## 例子
 
 清除文档中所有部分的主要文本，保留部分本身。
 
@@ -59,7 +61,5 @@ Assert.AreEqual("Hello world!", doc.GetText().Trim());
 
 * class [Body](../../body/)
 * class [Section](../)
-* 命名空间 [Aspose.Words](../../section/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

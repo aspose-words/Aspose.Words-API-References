@@ -1,7 +1,9 @@
 ---
 title: Document.RemovePersonalInformation
-second_title: Aspose.Words per .NET API Reference
-description: Document proprietà. Ottiene o imposta un flag che indica che Microsoft Word rimuoverà tutte le informazioni dellutente da commenti revisioni e proprietà del documento al momento del salvataggio del documento.
+linktitle: RemovePersonalInformation
+articleTitle: RemovePersonalInformation
+second_title: Aspose.Words per .NET
+description: Document RemovePersonalInformation proprietà. Ottiene o imposta un flag che indica che Microsoft Word rimuoverà tutte le informazioni dellutente da commenti revisioni e proprietà del documento al momento del salvataggio del documento in C#.
 type: docs
 weight: 340
 url: /it/net/aspose.words/document/removepersonalinformation/
@@ -14,7 +16,7 @@ Ottiene o imposta un flag che indica che Microsoft Word rimuoverà tutte le info
 public bool RemovePersonalInformation { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come abilitare la rimozione delle informazioni personali durante un salvataggio manuale.
 
@@ -48,7 +50,5 @@ Assert.AreEqual("John Doe", doc.Revisions[0].Author);
 ### Guarda anche
 
 * class [Document](../)
-* spazio dei nomi [Aspose.Words](../../document/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

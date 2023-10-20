@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTagCollection.GetByTitle
-second_title: Référence de l'API Aspose.Words pour .NET
-description: StructuredDocumentTagCollection méthode. Renvoie la première balise de document structuré rencontrée dans la collection avec le titre spécifié.
+linktitle: GetByTitle
+articleTitle: GetByTitle
+second_title: Aspose.Words pour .NET
+description: StructuredDocumentTagCollection GetByTitle méthode. Renvoie la première balise de document structuré rencontrée dans la collection avec le titre spécifié en C#.
 type: docs
 weight: 50
 url: /fr/net/aspose.words.markup/structureddocumenttagcollection/getbytitle/
@@ -18,11 +20,11 @@ public IStructuredDocumentTag GetByTitle(string title)
 | --- | --- | --- |
 | title | String | Le titre de la balise du document structuré. |
 
-### Remarques
+## Remarques
 
 Renvoie null si la balise du document structuré avec le titre spécifié est introuvable.
 
-### Exemples
+## Exemples
 
 Montre comment obtenir une balise de document structuré.
 
@@ -43,7 +45,5 @@ Console.WriteLine(sdt.Id);
 
 * interface [IStructuredDocumentTag](../../istructureddocumenttag/)
 * class [StructuredDocumentTagCollection](../)
-* espace de noms [Aspose.Words.Markup](../../structureddocumenttagcollection/)
+* espace de noms [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Assemblée [Aspose.Words](../../../)
-
-

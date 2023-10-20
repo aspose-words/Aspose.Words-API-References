@@ -1,7 +1,9 @@
 ---
 title: TabStopCollection.Clear
-second_title: Aspose.Words für .NET-API-Referenz
-description: TabStopCollection methode. Löscht alle TabstoppPositionen.
+linktitle: Clear
+articleTitle: Clear
+second_title: Aspose.Words für .NET
+description: TabStopCollection Clear methode. Löscht alle TabstoppPositionen in C#.
 type: docs
 weight: 60
 url: /de/net/aspose.words/tabstopcollection/clear/
@@ -14,7 +16,7 @@ Löscht alle Tabstopp-Positionen.
 public void Clear()
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit der Sammlung von Tabstopps eines Dokuments gearbeitet wird.
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "TabStopCollection.TabStopCollection.docx");
 ### Siehe auch
 
 * class [TabStopCollection](../)
-* namensraum [Aspose.Words](../../tabstopcollection/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

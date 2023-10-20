@@ -1,12 +1,14 @@
 ---
 title: DocumentBuilder.InsertOleObjectAsIcon
-second_title: Aspose.Words for .NET API 参考
-description: DocumentBuilder 方法. 将嵌入或链接的 OLE 对象作为图标插入到文档中 允许指定图标文件和标题使用文件扩展名检测 OLE 对象类型
+linktitle: InsertOleObjectAsIcon
+articleTitle: InsertOleObjectAsIcon
+second_title: 用于 .NET 的 Aspose.Words
+description: DocumentBuilder InsertOleObjectAsIcon 方法. 将嵌入或链接的 OLE 对象作为图标插入到文档中 允许指定图标文件和标题使用文件扩展名检测 OLE 对象类型 在 C#.
 type: docs
-weight: 410
+weight: 400
 url: /zh/net/aspose.words/documentbuilder/insertoleobjectasicon/
 ---
-## InsertOleObjectAsIcon(string, bool, string, string) {#insertoleobjectasicon_1}
+## InsertOleObjectAsIcon(*string, bool, string, string*) {#insertoleobjectasicon_1}
 
 将嵌入或链接的 OLE 对象作为图标插入到文档中。 允许指定图标文件和标题。使用文件扩展名检测 OLE 对象类型。
 
@@ -26,7 +28,7 @@ public Shape InsertOleObjectAsIcon(string fileName, bool isLinked, string iconFi
 
 包含 Ole 对象并插入到当前 Builder 位置的形状节点。
 
-### 例子
+## 例子
 
 演示如何将 OLE 对象插入到文档中。
 
@@ -63,12 +65,12 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertOleObject.docx");
 
 * class [Shape](../../../aspose.words.drawing/shape/)
 * class [DocumentBuilder](../)
-* 命名空间 [Aspose.Words](../../documentbuilder/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## InsertOleObjectAsIcon(string, string, bool, string, string) {#insertoleobjectasicon_2}
+## InsertOleObjectAsIcon(*string, string, bool, string, string*) {#insertoleobjectasicon_2}
 
 将嵌入或链接的 OLE 对象作为图标插入到文档中。 允许指定图标文件和标题。使用给定的 progID 参数检测 OLE 对象类型。
 
@@ -89,7 +91,7 @@ public Shape InsertOleObjectAsIcon(string fileName, string progId, bool isLinked
 
 包含 Ole 对象并插入到当前 Builder 位置的形状节点。
 
-### 例子
+## 例子
 
 演示如何将嵌入或链接的 OLE 对象作为图标插入到文档中。
 
@@ -122,12 +124,12 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertOleObjectAsIcon.docx");
 
 * class [Shape](../../../aspose.words.drawing/shape/)
 * class [DocumentBuilder](../)
-* 命名空间 [Aspose.Words](../../documentbuilder/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## InsertOleObjectAsIcon(Stream, string, string, string) {#insertoleobjectasicon}
+## InsertOleObjectAsIcon(*Stream, string, string, string*) {#insertoleobjectasicon}
 
 将嵌入的 OLE 对象作为图标从流插入到文档中。 允许指定图标文件和标题。使用给定的 progID 参数检测 OLE 对象类型。
 
@@ -147,7 +149,7 @@ public Shape InsertOleObjectAsIcon(Stream stream, string progId, string iconFile
 
 包含 Ole 对象并插入到当前 Builder 位置的形状节点。
 
-### 例子
+## 例子
 
 演示如何将嵌入或链接的 OLE 对象作为图标插入到文档中。
 
@@ -180,7 +182,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertOleObjectAsIcon.docx");
 
 * class [Shape](../../../aspose.words.drawing/shape/)
 * class [DocumentBuilder](../)
-* 命名空间 [Aspose.Words](../../documentbuilder/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

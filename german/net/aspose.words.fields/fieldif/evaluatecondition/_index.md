@@ -1,7 +1,9 @@
 ---
 title: FieldIf.EvaluateCondition
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldIf methode. Wertet die Bedingung aus.
+linktitle: EvaluateCondition
+articleTitle: EvaluateCondition
+second_title: Aspose.Words für .NET
+description: FieldIf EvaluateCondition methode. Wertet die Bedingung aus in C#.
 type: docs
 weight: 70
 url: /de/net/aspose.words.fields/fieldif/evaluatecondition/
@@ -18,7 +20,7 @@ public FieldIfComparisonResult EvaluateCondition()
 
 A[`FieldIfComparisonResult`](../../fieldifcomparisonresult/) Wert, der das Ergebnis der Bedingungsauswertung darstellt.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein IF-Feld eingefügt wird.
 
@@ -65,7 +67,5 @@ doc.Save(ArtifactsDir + "Field.IF.docx");
 
 * enum [FieldIfComparisonResult](../../fieldifcomparisonresult/)
 * class [FieldIf](../)
-* namensraum [Aspose.Words.Fields](../../fieldif/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

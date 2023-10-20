@@ -1,12 +1,14 @@
 ---
 title: Document.Save
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Document méthode. Enregistre le document dans un fichier. Détermine automatiquement le format de sauvegarde à partir de lextension.
+linktitle: Save
+articleTitle: Save
+second_title: Aspose.Words pour .NET
+description: Document Save méthode. Enregistre le document dans un fichier. Détermine automatiquement le format de sauvegarde à partir de lextension en C#.
 type: docs
-weight: 720
+weight: 700
 url: /fr/net/aspose.words/document/save/
 ---
-## Save(string) {#save_2}
+## Save(*string*) {#save_2}
 
 Enregistre le document dans un fichier. Détermine automatiquement le format de sauvegarde à partir de l'extension.
 
@@ -22,7 +24,7 @@ public SaveOutputParameters Save(string fileName)
 
 Informations supplémentaires que vous pouvez éventuellement utiliser.
 
-### Exemples
+## Exemples
 
 Montre comment ouvrir un document et le convertir en .PDF.
 
@@ -52,12 +54,12 @@ pdfDoc.Save(ArtifactsDir + "PDF2Word.ConvertPdfToDocx.docx");
 
 * class [SaveOutputParameters](../../../aspose.words.saving/saveoutputparameters/)
 * class [Document](../)
-* espace de noms [Aspose.Words](../../document/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
 
 ---
 
-## Save(string, SaveFormat) {#save_3}
+## Save(*string, [SaveFormat](../../saveformat/)*) {#save_3}
 
 Enregistre le document dans un fichier au format spécifié.
 
@@ -74,7 +76,7 @@ public SaveOutputParameters Save(string fileName, SaveFormat saveFormat)
 
 Informations supplémentaires que vous pouvez éventuellement utiliser.
 
-### Exemples
+## Exemples
 
 Montre comment convertir du format DOCX au format HTML.
 
@@ -89,12 +91,12 @@ doc.Save(ArtifactsDir + "Document.ConvertToHtml.html", SaveFormat.Html);
 * class [SaveOutputParameters](../../../aspose.words.saving/saveoutputparameters/)
 * enum [SaveFormat](../../saveformat/)
 * class [Document](../)
-* espace de noms [Aspose.Words](../../document/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
 
 ---
 
-## Save(string, SaveOptions) {#save_4}
+## Save(*string, [SaveOptions](../../../aspose.words.saving/saveoptions/)*) {#save_4}
 
 Enregistre le document dans un fichier en utilisant les options d'enregistrement spécifiées.
 
@@ -111,7 +113,7 @@ public SaveOutputParameters Save(string fileName, SaveOptions saveOptions)
 
 Informations supplémentaires que vous pouvez éventuellement utiliser.
 
-### Exemples
+## Exemples
 
 Montre comment améliorer la qualité d’un document rendu avec SaveOptions.
 
@@ -296,12 +298,12 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.ExpandedOutlineLevels.pdf", options);
 * class [SaveOutputParameters](../../../aspose.words.saving/saveoutputparameters/)
 * class [SaveOptions](../../../aspose.words.saving/saveoptions/)
 * class [Document](../)
-* espace de noms [Aspose.Words](../../document/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
 
 ---
 
-## Save(Stream, SaveFormat) {#save}
+## Save(*Stream, [SaveFormat](../../saveformat/)*) {#save}
 
 Enregistre le document dans un flux en utilisant le format spécifié.
 
@@ -318,7 +320,7 @@ public SaveOutputParameters Save(Stream stream, SaveFormat saveFormat)
 
 Informations supplémentaires que vous pouvez éventuellement utiliser.
 
-### Exemples
+## Exemples
 
 Montre comment enregistrer un document dans un flux.
 
@@ -388,12 +390,12 @@ Document doc = new Document();
 * class [SaveOutputParameters](../../../aspose.words.saving/saveoutputparameters/)
 * enum [SaveFormat](../../saveformat/)
 * class [Document](../)
-* espace de noms [Aspose.Words](../../document/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
 
 ---
 
-## Save(Stream, SaveOptions) {#save_1}
+## Save(*Stream, [SaveOptions](../../../aspose.words.saving/saveoptions/)*) {#save_1}
 
 Enregistre le document dans un flux à l'aide des options d'enregistrement spécifiées.
 
@@ -410,7 +412,7 @@ public SaveOutputParameters Save(Stream stream, SaveOptions saveOptions)
 
 Informations supplémentaires que vous pouvez éventuellement utiliser.
 
-### Exemples
+## Exemples
 
 Montre comment convertir uniquement certaines pages d'un document en PDF.
 
@@ -443,12 +445,12 @@ using (Stream stream = File.Create(ArtifactsDir + "PdfSaveOptions.OnePage.pdf"))
 * class [SaveOutputParameters](../../../aspose.words.saving/saveoutputparameters/)
 * class [SaveOptions](../../../aspose.words.saving/saveoptions/)
 * class [Document](../)
-* espace de noms [Aspose.Words](../../document/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
 
 ---
 
-## Save(HttpResponse, string, ContentDisposition, SaveOptions) {#save_5}
+## Save(*HttpResponse, string, [ContentDisposition](../../contentdisposition/), [SaveOptions](../../../aspose.words.saving/saveoptions/)*) {#save_5}
 
 Envoie le document au navigateur client.
 
@@ -468,11 +470,11 @@ public SaveOutputParameters Save(HttpResponse response, string fileName,
 
 Informations supplémentaires que vous pouvez éventuellement utiliser.
 
-### Remarques
+## Remarques
 
 En interne, cette méthode enregistre d'abord dans un flux mémoire, puis copie dans le flux de réponse car le flux de réponse ne prend pas en charge la recherche.
 
-### Exemples
+## Exemples
 
 Montre comment effectuer un publipostage, puis enregistrer le document dans le navigateur client.
 
@@ -505,7 +507,5 @@ Assert.That(() => response.End(), Throws.TypeOf<NullReferenceException>());
 * enum [ContentDisposition](../../contentdisposition/)
 * class [SaveOptions](../../../aspose.words.saving/saveoptions/)
 * class [Document](../)
-* espace de noms [Aspose.Words](../../document/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

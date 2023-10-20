@@ -1,7 +1,9 @@
 ---
-title: Enum HeaderFooterBookmarksExportMode
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Saving.HeaderFooterBookmarksExportMode 枚举. 指定如何导出页眉/页脚中的书签
+title: HeaderFooterBookmarksExportMode Enum
+linktitle: HeaderFooterBookmarksExportMode
+articleTitle: HeaderFooterBookmarksExportMode
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Saving.HeaderFooterBookmarksExportMode 枚举. 指定如何导出页眉/页脚中的书签 在 C#.
 type: docs
 weight: 5050
 url: /zh/net/aspose.words.saving/headerfooterbookmarksexportmode/
@@ -22,7 +24,7 @@ public enum HeaderFooterBookmarksExportMode
 | First | `1` | 仅导出该部分第一个页眉/页脚中的书签。 |
 | All | `2` | 所有页眉/页脚中的书签均已导出。 |
 
-### 例子
+## 例子
 
 演示如何处理我们正在渲染为 PDF 的文档中页眉/页脚中的书签。
 
@@ -55,5 +57,3 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.HeaderFooterBookmarksExportMode.pdf", sa
 
 * 命名空间 [Aspose.Words.Saving](../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../)
-
-

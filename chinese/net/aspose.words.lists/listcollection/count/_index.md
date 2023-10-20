@@ -1,7 +1,9 @@
 ---
 title: ListCollection.Count
-second_title: Aspose.Words for .NET API 参考
-description: ListCollection 财产. 获取文档中编号列表和项目符号列表的计数
+linktitle: Count
+articleTitle: Count
+second_title: 用于 .NET 的 Aspose.Words
+description: ListCollection Count 财产. 获取文档中编号列表和项目符号列表的计数 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.lists/listcollection/count/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.lists/listcollection/count/
 public int Count { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何验证列表的所有者文档属性。
 
@@ -36,7 +38,5 @@ Console.WriteLine("List is the same by ListId: " + (lists.GetListByListId(1).Equ
 ### 也可以看看
 
 * class [ListCollection](../)
-* 命名空间 [Aspose.Words.Lists](../../listcollection/)
+* 命名空间 [Aspose.Words.Lists](../../../aspose.words.lists/)
 * 部件 [Aspose.Words](../../../)
-
-

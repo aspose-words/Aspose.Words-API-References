@@ -1,7 +1,9 @@
 ---
-title: Class ThumbnailGeneratingOptions
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Rendering.ThumbnailGeneratingOptions classe. Può essere utilizzato per specificare opzioni aggiuntive durante la generazione della miniatura per un documento.
+title: ThumbnailGeneratingOptions Class
+linktitle: ThumbnailGeneratingOptions
+articleTitle: ThumbnailGeneratingOptions
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Rendering.ThumbnailGeneratingOptions classe. Può essere utilizzato per specificare opzioni aggiuntive durante la generazione della miniatura per un documento in C#.
 type: docs
 weight: 4600
 url: /it/net/aspose.words.rendering/thumbnailgeneratingoptions/
@@ -27,11 +29,11 @@ public class ThumbnailGeneratingOptions
 | [GenerateFromFirstPage](../../aspose.words.rendering/thumbnailgeneratingoptions/generatefromfirstpage/) { get; set; } | Specifica se generare la miniatura dalla prima pagina del documento o dalla prima immagine. |
 | [ThumbnailSize](../../aspose.words.rendering/thumbnailgeneratingoptions/thumbnailsize/) { get; set; } | Dimensione della miniatura generata in pixel. L'impostazione predefinita è 600x900. |
 
-### Osservazioni
+## Osservazioni
 
 L'utente può chiamare il metodo[`UpdateThumbnail`](../../aspose.words/document/updatethumbnail/) per generare [`Thumbnail`](../../aspose.words.properties/builtindocumentproperties/thumbnail/) per un documento.
 
-### Esempi
+## Esempi
 
 Mostra come aggiornare la miniatura di un documento.
 
@@ -60,5 +62,3 @@ doc.Save(ArtifactsDir + "Document.UpdateThumbnail.FirstImage.epub");
 
 * spazio dei nomi [Aspose.Words.Rendering](../../aspose.words.rendering/)
 * assemblea [Aspose.Words](../../)
-
-

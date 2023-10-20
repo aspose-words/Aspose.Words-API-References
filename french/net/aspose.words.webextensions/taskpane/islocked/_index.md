@@ -1,7 +1,9 @@
 ---
 title: TaskPane.IsLocked
-second_title: Référence de l'API Aspose.Words pour .NET
-description: TaskPane propriété. Spécifie si le volet des tâches est verrouillé sur le document dans linterface utilisateur et ne peut pas être fermé par lutilisateur.
+linktitle: IsLocked
+articleTitle: IsLocked
+second_title: Aspose.Words pour .NET
+description: TaskPane IsLocked propriété. Spécifie si le volet des tâches est verrouillé sur le document dans linterface utilisateur et ne peut pas être fermé par lutilisateur en C#.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.webextensions/taskpane/islocked/
@@ -14,7 +16,7 @@ Spécifie si le volet des tâches est verrouillé sur le document dans l'interfa
 public bool IsLocked { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment ajouter une extension Web à un document.
 
@@ -59,7 +61,5 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 ### Voir également
 
 * class [TaskPane](../)
-* espace de noms [Aspose.Words.WebExtensions](../../taskpane/)
+* espace de noms [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * Assemblée [Aspose.Words](../../../)
-
-

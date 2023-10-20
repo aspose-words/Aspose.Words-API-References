@@ -1,14 +1,16 @@
 ---
-title: StructuredDocumentTagRangeEnd.StructuredDocumentTagRangeEnd
-second_title: Справочник по API Aspose.Words для .NET
-description: StructuredDocumentTagRangeEnd строитель. Инициализирует новый экземпляр Конец диапазона тегов структурированного документа класс.
+title: StructuredDocumentTagRangeEnd
+linktitle: StructuredDocumentTagRangeEnd
+articleTitle: StructuredDocumentTagRangeEnd
+second_title: Aspose.Words для .NET
+description: StructuredDocumentTagRangeEnd строитель. Инициализирует новый экземплярКонец диапазона тегов структурированного документа класс на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.markup/structureddocumenttagrangeend/structureddocumenttagrangeend/
 ---
 ## StructuredDocumentTagRangeEnd constructor
 
-Инициализирует новый экземпляр **Конец диапазона тегов структурированного документа** класс.
+Инициализирует новый экземпляр**Конец диапазона тегов структурированного документа** класс.
 
 ```csharp
 public StructuredDocumentTagRangeEnd(DocumentBase doc, int id)
@@ -19,7 +21,7 @@ public StructuredDocumentTagRangeEnd(DocumentBase doc, int id)
 | doc | DocumentBase | Документ владельца. |
 | id | Int32 | Идентификатор начала диапазона тегов соответствующего структурированного документа. |
 
-### Примеры
+## Примеры
 
 Показывает, как создать/удалить тег структурированного документа и его содержимое.
 
@@ -72,7 +74,5 @@ public void InsertStructuredDocumentTagRanges(Document doc, out StructuredDocume
 
 * class [DocumentBase](../../../aspose.words/documentbase/)
 * class [StructuredDocumentTagRangeEnd](../)
-* пространство имен [Aspose.Words.Markup](../../structureddocumenttagrangeend/)
+* пространство имен [Aspose.Words.Markup](../../../aspose.words.markup/)
 * сборка [Aspose.Words](../../../)
-
-

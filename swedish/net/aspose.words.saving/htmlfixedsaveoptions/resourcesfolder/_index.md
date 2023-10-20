@@ -1,7 +1,9 @@
 ---
 title: HtmlFixedSaveOptions.ResourcesFolder
-second_title: Aspose.Words för .NET API Referens
-description: HtmlFixedSaveOptions fast egendom. Anger den fysiska mappen där resurser bilder teckensnitt css sparas vid export av ett dokument till HTMLformat. Standard ärnull .
+linktitle: ResourcesFolder
+articleTitle: ResourcesFolder
+second_title: Aspose.Words för .NET
+description: HtmlFixedSaveOptions ResourcesFolder fast egendom. Anger den fysiska mappen där resurser bilder teckensnitt css sparas vid export av ett dokument till HTMLformat. Standard ärnull  i C#.
 type: docs
 weight: 140
 url: /sv/net/aspose.words.saving/htmlfixedsaveoptions/resourcesfolder/
@@ -14,7 +16,7 @@ Anger den fysiska mappen där resurser (bilder, teckensnitt, css) sparas vid exp
 public string ResourcesFolder { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Har effekt endast om[`ExportEmbeddedImages`](../exportembeddedimages/) egendom är`falsk`.
 
@@ -24,7 +26,7 @@ Om du sparar ett dokument i en fil och anger ett filnamn, sparar Aspose.Words, s
 
 Om du sparar ett dokument i en ström, har Aspose.Words ingen mapp där du kan spara bilderna, men behöver fortfarande spara bilderna någonstans. I det här fallet måste du ange en tillgänglig mapp genom att använda`ResourcesFolder` fast egendom
 
-### Exempel
+## Exempel
 
 Visar hur man använder en återuppringning för att skriva ut URI:erna för externa resurser som skapats när ett dokument konverterades till HTML.
 
@@ -103,7 +105,5 @@ private class ResourceUriPrinter : IResourceSavingCallback
 ### Se även
 
 * class [HtmlFixedSaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../htmlfixedsaveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

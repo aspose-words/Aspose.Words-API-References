@@ -1,7 +1,9 @@
 ---
-title: FieldNumWords.FieldNumWords
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldNumWords constructor. Constructor predeterminado
+title: FieldNumWords
+linktitle: FieldNumWords
+articleTitle: FieldNumWords
+second_title: Aspose.Words para .NET
+description: FieldNumWords constructor. Constructor predeterminado en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words.fields/fieldnumwords/fieldnumwords/
@@ -17,7 +19,5 @@ public FieldNumWords()
 ### Ver también
 
 * class [FieldNumWords](../)
-* espacio de nombres [Aspose.Words.Fields](../../fieldnumwords/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

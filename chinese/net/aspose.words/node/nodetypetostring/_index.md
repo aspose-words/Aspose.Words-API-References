@@ -1,7 +1,9 @@
 ---
 title: Node.NodeTypeToString
-second_title: Aspose.Words for .NET API 参考
-description: Node 方法. 将节点类型枚举值转换为用户友好字符串的实用方法
+linktitle: NodeTypeToString
+articleTitle: NodeTypeToString
+second_title: 用于 .NET 的 Aspose.Words
+description: Node NodeTypeToString 方法. 将节点类型枚举值转换为用户友好字符串的实用方法 在 C#.
 type: docs
 weight: 170
 url: /zh/net/aspose.words/node/nodetypetostring/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/node/nodetypetostring/
 public static string NodeTypeToString(NodeType nodeType)
 ```
 
-### 例子
+## 例子
 
 演示如何使用节点的 NextSibling 属性来枚举其直接子节点。
 
@@ -77,7 +79,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 
 * enum [NodeType](../../nodetype/)
 * class [Node](../)
-* 命名空间 [Aspose.Words](../../node/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Document.Theme
-second_title: Aspose.Words لمراجع .NET API
-description: Document ملكية. يحصل علىTheme كائن لهذا المستند.
+linktitle: Theme
+articleTitle: Theme
+second_title: Aspose.Words لـ .NET
+description: Document Theme ملكية. يحصل علىTheme كائن لهذا المستند في C#.
 type: docs
 weight: 420
 url: /ar/net/aspose.words/document/theme/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/document/theme/
 public Theme Theme { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين الألوان والخطوط المخصصة للموضوعات.
 
@@ -63,7 +65,5 @@ doc.Save(ArtifactsDir + "Themes.CustomColorsAndFonts.docx");
 
 * class [Theme](../../../aspose.words.themes/theme/)
 * class [Document](../)
-* مساحة الاسم [Aspose.Words](../../document/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

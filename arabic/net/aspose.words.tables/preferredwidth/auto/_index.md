@@ -1,7 +1,9 @@
 ---
 title: PreferredWidth.Auto
-second_title: Aspose.Words لمراجع .NET API
-description: PreferredWidth مجال. إرجاع مثيل يمثل القيمة لم يتم تحديد العرض المفضل.
+linktitle: Auto
+articleTitle: Auto
+second_title: Aspose.Words لـ .NET
+description: PreferredWidth Auto مجال. إرجاع مثيل يمثل القيمة لم يتم تحديد العرض المفضل في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.tables/preferredwidth/auto/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.tables/preferredwidth/auto/
 public static readonly PreferredWidth Auto;
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين العرض المفضل لخلايا الجدول.
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertCellsWithPreferredWidths.docx");
 ### أنظر أيضا
 
 * class [PreferredWidth](../)
-* مساحة الاسم [Aspose.Words.Tables](../../preferredwidth/)
+* مساحة الاسم [Aspose.Words.Tables](../../../aspose.words.tables/)
 * المجسم [Aspose.Words](../../../)
-
-

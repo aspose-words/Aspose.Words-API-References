@@ -1,7 +1,9 @@
 ---
 title: TxtSaveOptions.SimplifyListLabels
-second_title: Справочник по API Aspose.Words для .NET
-description: TxtSaveOptions свойство. Указывает должна ли программа упрощать метки списков в случае если сложное форматирование меток не представляется должным образом в виде обычного текста.
+linktitle: SimplifyListLabels
+articleTitle: SimplifyListLabels
+second_title: Aspose.Words для .NET
+description: TxtSaveOptions SimplifyListLabels свойство. Указывает должна ли программа упрощать метки списков в случае если сложное форматирование меток не представляется должным образом в виде обычного текста на С#.
 type: docs
 weight: 70
 url: /ru/net/aspose.words.saving/txtsaveoptions/simplifylistlabels/
@@ -16,7 +18,7 @@ url: /ru/net/aspose.words.saving/txtsaveoptions/simplifylistlabels/
 public bool SimplifyListLabels { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как изменить внешний вид списков при сохранении документа в виде обычного текста.
 
@@ -66,7 +68,5 @@ else
 ### Смотрите также
 
 * class [TxtSaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../txtsaveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

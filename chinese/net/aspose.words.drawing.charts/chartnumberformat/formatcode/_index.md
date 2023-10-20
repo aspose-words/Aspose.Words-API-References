@@ -1,7 +1,9 @@
 ---
 title: ChartNumberFormat.FormatCode
-second_title: Aspose.Words for .NET API 参考
-description: ChartNumberFormat 财产. 获取或设置应用于数据标签的格式代码
+linktitle: FormatCode
+articleTitle: FormatCode
+second_title: 用于 .NET 的 Aspose.Words
+description: ChartNumberFormat FormatCode 财产. 获取或设置应用于数据标签的格式代码 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.drawing.charts/chartnumberformat/formatcode/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.drawing.charts/chartnumberformat/formatcode/
 public string FormatCode { get; set; }
 ```
 
-### 评论
+## 评论
 
 数字格式用于更改值在数据标签中的显示方式，并且可以以一些非常有创意的方式使用。 数字格式的示例：
 
@@ -38,7 +40,7 @@ public string FormatCode { get; set; }
 
 自定义颜色 - “[红色]-#,##0.0”
 
-### 例子
+## 例子
 
 展示如何设置图表值的格式。
 
@@ -100,7 +102,5 @@ doc.Save(ArtifactsDir + "Charts.DataLabelNumberFormat.docx");
 ### 也可以看看
 
 * class [ChartNumberFormat](../)
-* 命名空间 [Aspose.Words.Drawing.Charts](../../chartnumberformat/)
+* 命名空间 [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * 部件 [Aspose.Words](../../../)
-
-

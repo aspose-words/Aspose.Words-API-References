@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.EmbedFullFonts
-second_title: Référence de l'API Aspose.Words pour .NET
-description: PdfSaveOptions propriété. Contrôle la manière dont les polices sont intégrées dans les documents PDF résultants.
+linktitle: EmbedFullFonts
+articleTitle: EmbedFullFonts
+second_title: Aspose.Words pour .NET
+description: PdfSaveOptions EmbedFullFonts propriété. Contrôle la manière dont les polices sont intégrées dans les documents PDF résultants en C#.
 type: docs
 weight: 120
 url: /fr/net/aspose.words.saving/pdfsaveoptions/embedfullfonts/
@@ -14,7 +16,7 @@ Contrôle la manière dont les polices sont intégrées dans les documents PDF r
 public bool EmbedFullFonts { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 La valeur par défaut est`FAUX`, ce qui signifie que les polices sont divisées en sous-ensembles avant l'intégration. Le sous-ensemble est utile si vous souhaitez réduire la taille du fichier de sortie. Le sous-ensemble supprime tous les glyphes inutilisés all d'une police.
 
@@ -22,7 +24,7 @@ Lorsque cette valeur est fixée à`vrai`, un fichier de police complet est inté
 
 Certaines polices sont volumineuses (plusieurs mégaoctets) et leur intégration sans subsetting entraînera des documents de sortie volumineux.
 
-### Exemples
+## Exemples
 
 Montre comment activer ou désactiver les sous-paramètres lors de l'intégration de polices lors du rendu d'un document au format PDF.
 
@@ -70,7 +72,5 @@ FontSettings.DefaultInstance.SetFontsSources(originalFontsSources);
 ### Voir également
 
 * class [PdfSaveOptions](../)
-* espace de noms [Aspose.Words.Saving](../../pdfsaveoptions/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

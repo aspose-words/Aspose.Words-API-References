@@ -1,7 +1,9 @@
 ---
 title: DigitalSignature.SignTime
-second_title: Aspose.Words für .NET-API-Referenz
-description: DigitalSignature eigendom. Ruft den Zeitpunkt ab zu dem das Dokument signiert wurde.
+linktitle: SignTime
+articleTitle: SignTime
+second_title: Aspose.Words für .NET
+description: DigitalSignature SignTime eigendom. Ruft den Zeitpunkt ab zu dem das Dokument signiert wurde in C#.
 type: docs
 weight: 70
 url: /de/net/aspose.words.digitalsignatures/digitalsignature/signtime/
@@ -14,7 +16,7 @@ Ruft den Zeitpunkt ab, zu dem das Dokument signiert wurde.
 public DateTime SignTime { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Informationen zu jeder Signatur in einem Dokument validiert und angezeigt werden.
 
@@ -36,7 +38,5 @@ foreach (DigitalSignature signature in doc.DigitalSignatures)
 ### Siehe auch
 
 * class [DigitalSignature](../)
-* namensraum [Aspose.Words.DigitalSignatures](../../digitalsignature/)
+* namensraum [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * Montage [Aspose.Words](../../../)
-
-

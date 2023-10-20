@@ -1,7 +1,9 @@
 ---
 title: Node.PreviousPreOrder
-second_title: Aspose.Words per .NET API Reference
-description: Node metodo. Ottiene il nodo precedente in base allalgoritmo di attraversamento dellalbero di preordine.
+linktitle: PreviousPreOrder
+articleTitle: PreviousPreOrder
+second_title: Aspose.Words per .NET
+description: Node PreviousPreOrder metodo. Ottiene il nodo precedente in base allalgoritmo di attraversamento dellalbero di preordine in C#.
 type: docs
 weight: 140
 url: /it/net/aspose.words/node/previouspreorder/
@@ -22,7 +24,7 @@ public Node PreviousPreOrder(Node rootNode)
 
 Nodo precedente nell'ordine di preordine. Null se raggiunto il*rootNode*.
 
-### Esempi
+## Esempi
 
 Mostra come attraversare l'albero dei nodi del documento utilizzando l'algoritmo di attraversamento del preordine ed eliminare qualsiasi forma incontrata con un'immagine.
 
@@ -53,7 +55,5 @@ Assert.AreEqual(0,
 ### Guarda anche
 
 * class [Node](../)
-* spazio dei nomi [Aspose.Words](../../node/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

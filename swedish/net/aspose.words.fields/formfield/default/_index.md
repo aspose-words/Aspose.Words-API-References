@@ -1,7 +1,9 @@
 ---
 title: FormField.Default
-second_title: Aspose.Words för .NET API Referens
-description: FormField fast egendom. Hämtar eller ställer in standardvärdet för kryssrutans formulärfält. Standardvärdet för den här egenskapen ärfalsk .
+linktitle: Default
+articleTitle: Default
+second_title: Aspose.Words för .NET
+description: FormField Default fast egendom. Hämtar eller ställer in standardvärdet för kryssrutans formulärfält. Standardvärdet för den här egenskapen ärfalsk  i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.fields/formfield/default/
@@ -14,11 +16,11 @@ Hämtar eller ställer in standardvärdet för kryssrutans formulärfält. Stand
 public bool Default { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Tillämpligt endast för ett kryssrutaformulär.
 
-### Exempel
+## Exempel
 
 Visar hur man infogar olika typer av formulärfält i ett dokument och bearbetar dem med hjälp av en dokumentbesökarimplementering.
 
@@ -152,7 +154,5 @@ public class FormFieldVisitor : DocumentVisitor
 ### Se även
 
 * class [FormField](../)
-* namnutrymme [Aspose.Words.Fields](../../formfield/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

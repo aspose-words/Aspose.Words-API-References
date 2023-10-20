@@ -1,7 +1,9 @@
 ---
 title: PageSetup.LinesPerPage
-second_title: Référence de l'API Aspose.Words pour .NET
-description: PageSetup propriété. Obtient ou définit le nombre de lignes par page dans la grille du document.
+linktitle: LinesPerPage
+articleTitle: LinesPerPage
+second_title: Aspose.Words pour .NET
+description: PageSetup LinesPerPage propriété. Obtient ou définit le nombre de lignes par page dans la grille du document en C#.
 type: docs
 weight: 240
 url: /fr/net/aspose.words/pagesetup/linesperpage/
@@ -14,13 +16,13 @@ Obtient ou définit le nombre de lignes par page dans la grille du document.
 public int LinesPerPage { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 La valeur minimale de la propriété est 1. La valeur maximale dépend de la hauteur de la page et de la taille de la police du style Normal . L'espacement minimum des lignes est de 136 % de la taille de la police. Par exemple, le nombre maximum de lignes par page d'une page de lettre avec des marges d'un pouce est de 39.
 
 Par défaut, la propriété a une valeur sur laquelle le pas de ligne est 1,5 fois supérieur à la taille de police de le style Normal.
 
-### Exemples
+## Exemples
 
 Montre comment spécifier une limite pour le nombre de lignes que chaque page peut avoir.
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "PageSetup.LinesPerPage.docx");
 ### Voir également
 
 * class [PageSetup](../)
-* espace de noms [Aspose.Words](../../pagesetup/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

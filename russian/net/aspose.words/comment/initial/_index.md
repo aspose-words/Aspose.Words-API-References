@@ -1,7 +1,9 @@
 ---
 title: Comment.Initial
-second_title: Справочник по API Aspose.Words для .NET
-description: Comment свойство. Возвращает или устанавливает инициалы пользователя связанного с определенным комментарием.
+linktitle: Initial
+articleTitle: Initial
+second_title: Aspose.Words для .NET
+description: Comment Initial свойство. Возвращает или устанавливает инициалы пользователя связанного с определенным комментарием на С#.
 type: docs
 weight: 70
 url: /ru/net/aspose.words/comment/initial/
@@ -14,13 +16,13 @@ url: /ru/net/aspose.words/comment/initial/
 public string Initial { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Не может быть`нулевой`.
 
 По умолчанию — пустая строка.
 
-### Примеры
+## Примеры
 
 Показывает, как распечатать содержимое всех комментариев и их диапазоны комментариев с помощью посетителя документов.
 
@@ -181,7 +183,5 @@ public class CommentInfoPrinter : DocumentVisitor
 ### Смотрите также
 
 * class [Comment](../)
-* пространство имен [Aspose.Words](../../comment/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

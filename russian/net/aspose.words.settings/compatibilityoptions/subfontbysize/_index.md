@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.SubFontBySize
-second_title: Справочник по API Aspose.Words для .NET
-description: CompatibilityOptions свойство. Увеличить приоритет размера шрифта при замене шрифта.
+linktitle: SubFontBySize
+articleTitle: SubFontBySize
+second_title: Aspose.Words для .NET
+description: CompatibilityOptions SubFontBySize свойство. Увеличить приоритет размера шрифта при замене шрифта на С#.
 type: docs
 weight: 470
 url: /ru/net/aspose.words.settings/compatibilityoptions/subfontbysize/
@@ -17,7 +19,5 @@ public bool SubFontBySize { get; set; }
 ### Смотрите также
 
 * class [CompatibilityOptions](../)
-* пространство имен [Aspose.Words.Settings](../../compatibilityoptions/)
+* пространство имен [Aspose.Words.Settings](../../../aspose.words.settings/)
 * сборка [Aspose.Words](../../../)
-
-

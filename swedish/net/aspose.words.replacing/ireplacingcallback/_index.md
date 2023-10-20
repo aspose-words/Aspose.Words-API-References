@@ -1,7 +1,9 @@
 ---
-title: Interface IReplacingCallback
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Replacing.IReplacingCallback gränssnitt. Implementera detta gränssnitt om du vill ha din egen anpassade metod anropad under en sök och ersättoperation.
+title: IReplacingCallback Interface
+linktitle: IReplacingCallback
+articleTitle: IReplacingCallback
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Replacing.IReplacingCallback gränssnitt. Implementera detta gränssnitt om du vill ha din egen anpassade metod anropad under en sök och ersättoperation i C#.
 type: docs
 weight: 4630
 url: /sv/net/aspose.words.replacing/ireplacingcallback/
@@ -18,9 +20,9 @@ public interface IReplacingCallback
 
 | namn | Beskrivning |
 | --- | --- |
-| [Replacing](../../aspose.words.replacing/ireplacingcallback/replacing/)(ReplacingArgs) | En användardefinierad metod som anropas under en ersättningsoperation för varje matchning som hittas precis innan en ersättning görs. |
+| [Replacing](../../aspose.words.replacing/ireplacingcallback/replacing/)(*[ReplacingArgs](../replacingargs/)*) | En användardefinierad metod som anropas under en ersättningsoperation för varje matchning som hittas precis innan en ersättning görs. |
 
-### Exempel
+## Exempel
 
 Visar hur man ersätter alla förekomster av ett reguljärt uttrycksmönster med en annan sträng, samtidigt som alla sådana ersättningar spåras.
 
@@ -196,5 +198,3 @@ private static void InsertDocument(Node insertionDestination, Document docToInse
 
 * namnutrymme [Aspose.Words.Replacing](../../aspose.words.replacing/)
 * hopsättning [Aspose.Words](../../)
-
-

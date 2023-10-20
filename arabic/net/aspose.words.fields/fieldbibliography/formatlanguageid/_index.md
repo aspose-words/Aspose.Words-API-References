@@ -1,7 +1,9 @@
 ---
 title: FieldBibliography.FormatLanguageId
-second_title: Aspose.Words لمراجع .NET API
-description: FieldBibliography ملكية. الحصول على أو تعيين معرف اللغة المستخدم لتنسيق المصادر الببليوغرافية في الوثيقة.
+linktitle: FormatLanguageId
+articleTitle: FormatLanguageId
+second_title: Aspose.Words لـ .NET
+description: FieldBibliography FormatLanguageId ملكية. الحصول على أو تعيين معرف اللغة المستخدم لتنسيق المصادر الببليوغرافية في الوثيقة في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.fields/fieldbibliography/formatlanguageid/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldbibliography/formatlanguageid/
 public string FormatLanguageId { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع حقول CITATION وBIBLIOGRAPHY.
 
@@ -68,7 +70,5 @@ doc.Save(ArtifactsDir + "Field.CITATION.docx");
 ### أنظر أيضا
 
 * class [FieldBibliography](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldbibliography/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

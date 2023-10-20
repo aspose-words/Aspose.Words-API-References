@@ -1,7 +1,9 @@
 ---
 title: DocumentPartSavingArgs.DocumentPartStream
-second_title: Aspose.Words för .NET API Referens
-description: DocumentPartSavingArgs fast egendom. Tillåter att ange strömmen där dokumentdelen ska sparas.
+linktitle: DocumentPartStream
+articleTitle: DocumentPartStream
+second_title: Aspose.Words för .NET
+description: DocumentPartSavingArgs DocumentPartStream fast egendom. Tillåter att ange strömmen där dokumentdelen ska sparas i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.saving/documentpartsavingargs/documentpartstream/
@@ -14,7 +16,7 @@ Tillåter att ange strömmen där dokumentdelen ska sparas.
 public Stream DocumentPartStream { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Den här egenskapen låter dig spara dokumentdelar till strömmar istället för filer under HTML-export.
 
@@ -24,7 +26,7 @@ När du sparar till en ström i HTML-format efterfrågas av[`Save`](../../../asp
 
 När du sparar till EPUB-format som är ett containerformat baserat på HTML,`DocumentPartStream` kan inte specificeras eftersom alla underordnade delar kommer att kapslas in i ett enda utdatapaket.
 
-### Exempel
+## Exempel
 
 Visar hur man delar upp ett dokument i delar och sparar dem.
 
@@ -141,7 +143,5 @@ public class SavedImageRename : IImageSavingCallback
 ### Se även
 
 * class [DocumentPartSavingArgs](../)
-* namnutrymme [Aspose.Words.Saving](../../documentpartsavingargs/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FileFormatUtil.SaveFormatToExtension
-second_title: Справочник по API Aspose.Words для .NET
-description: FileFormatUtil метод. Преобразует перечисляемое значение формата сохранения в расширение файла. Возвращаемое расширение представляет собой строку в нижнем регистре с начальной точкой.
+linktitle: SaveFormatToExtension
+articleTitle: SaveFormatToExtension
+second_title: Aspose.Words для .NET
+description: FileFormatUtil SaveFormatToExtension метод. Преобразует перечисляемое значение формата сохранения в расширение файла. Возвращаемое расширение представляет собой строку в нижнем регистре с начальной точкой на С#.
 type: docs
 weight: 80
 url: /ru/net/aspose.words/fileformatutil/saveformattoextension/
@@ -20,13 +22,13 @@ public static string SaveFormatToExtension(SaveFormat saveFormat)
 | --- | --- |
 | ArgumentException | Выдает, когда невозможно преобразовать. |
 
-### Примечания
+## Примечания
 
 WordML значение преобразуется в «.wml».
 
 FlatOpc значение преобразуется в «.fopc».
 
-### Примеры
+## Примеры
 
 Показывает, как использовать методы FileFormatUtil для определения формата документа.
 
@@ -60,7 +62,5 @@ using (FileStream docStream = File.OpenRead(MyDir + "Word document with missing 
 
 * enum [SaveFormat](../../saveformat/)
 * class [FileFormatUtil](../)
-* пространство имен [Aspose.Words](../../fileformatutil/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

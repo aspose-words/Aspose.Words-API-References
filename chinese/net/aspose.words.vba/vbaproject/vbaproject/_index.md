@@ -1,7 +1,9 @@
 ---
-title: VbaProject.VbaProject
-second_title: Aspose.Words for .NET API 参考
-description: VbaProject 构造函数. 创建一个空白VbaProject.
+title: VbaProject
+linktitle: VbaProject
+articleTitle: VbaProject
+second_title: 用于 .NET 的 Aspose.Words
+description: VbaProject 构造函数. 创建一个空白VbaProject 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.vba/vbaproject/vbaproject/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.vba/vbaproject/vbaproject/
 public VbaProject()
 ```
 
-### 例子
+## 例子
 
 演示如何使用宏创建 VBA 项目。
 
@@ -41,7 +43,5 @@ doc.Save(ArtifactsDir + "VbaProject.CreateVBAMacros.docm");
 ### 也可以看看
 
 * class [VbaProject](../)
-* 命名空间 [Aspose.Words.Vba](../../vbaproject/)
+* 命名空间 [Aspose.Words.Vba](../../../aspose.words.vba/)
 * 部件 [Aspose.Words](../../../)
-
-

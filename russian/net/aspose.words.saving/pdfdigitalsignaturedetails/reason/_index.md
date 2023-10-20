@@ -1,7 +1,9 @@
 ---
 title: PdfDigitalSignatureDetails.Reason
-second_title: Справочник по API Aspose.Words для .NET
-description: PdfDigitalSignatureDetails свойство. Получает или задает причину подписи.
+linktitle: Reason
+articleTitle: Reason
+second_title: Aspose.Words для .NET
+description: PdfDigitalSignatureDetails Reason свойство. Получает или задает причину подписи на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.saving/pdfdigitalsignaturedetails/reason/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.saving/pdfdigitalsignaturedetails/reason/
 public string Reason { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Значение по умолчанию:`нулевой` .
 
-### Примеры
+## Примеры
 
 Показывает, как подписать созданный PDF-документ.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignature.pdf", options);
 ### Смотрите также
 
 * class [PdfDigitalSignatureDetails](../)
-* пространство имен [Aspose.Words.Saving](../../pdfdigitalsignaturedetails/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

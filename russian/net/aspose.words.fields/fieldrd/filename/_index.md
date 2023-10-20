@@ -1,7 +1,9 @@
 ---
 title: FieldRD.FileName
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldRD свойство. Получает или задает имя файла который будет включаться при создании оглавления авторитетной таблицы или индекса.
+linktitle: FileName
+articleTitle: FileName
+second_title: Aspose.Words для .NET
+description: FieldRD FileName свойство. Получает или задает имя файла который будет включаться при создании оглавления авторитетной таблицы или индекса на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.fields/fieldrd/filename/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldrd/filename/
 public string FileName { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как использовать поле RD для создания записей оглавления из заголовков в других документах.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "Field.RD.docx");
 ### Смотрите также
 
 * class [FieldRD](../)
-* пространство имен [Aspose.Words.Fields](../../fieldrd/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

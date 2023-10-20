@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ScaleImageToShapeSize
-second_title: Справочник по API Aspose.Words для .NET
-description: HtmlSaveOptions свойство. Указывает масштабируются ли изображения с помощью Aspose.Words до размера ограничивающей фигуры при экспорте в HTML MHTML или EPUB. Значение по умолчаниюистинный .
+linktitle: ScaleImageToShapeSize
+articleTitle: ScaleImageToShapeSize
+second_title: Aspose.Words для .NET
+description: HtmlSaveOptions ScaleImageToShapeSize свойство. Указывает масштабируются ли изображения с помощью Aspose.Words до размера ограничивающей фигуры при экспорте в HTML MHTML или EPUB. Значение по умолчаниюистинный  на С#.
 type: docs
 weight: 450
 url: /ru/net/aspose.words.saving/htmlsaveoptions/scaleimagetoshapesize/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.saving/htmlsaveoptions/scaleimagetoshapesize/
 public bool ScaleImageToShapeSize { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Изображение в документе Microsoft Word — это фигура. Форма имеет размер, а image имеет свой собственный размер. Размеры напрямую не связаны. Например, изображение может иметь размер 1024x786 пикселей, , но форма, отображающая это изображение, может иметь размер 400x300 точек.
 
@@ -26,7 +28,7 @@ public bool ScaleImageToShapeSize { get; set; }
 
 Помимо фигур, содержащих отдельные растровые изображения, этот параметр также влияет на групповые фигуры, состоящие из растровых изображений. Если`ScaleImageToShapeSize` является`ЛОЖЬ` а фигура группы содержит растровые изображения , собственное разрешение которых выше значения, указанного в[`ImageResolution`](../imageresolution/), Aspose.Words will увеличит разрешение рендеринга для этой группы. Это позволяет лучше сохранить качество сгруппированных изображений высокого разрешения при сохранении в HTML.
 
-### Примеры
+## Примеры
 
 Показывает, как отключить масштабирование изображений до размеров родительской фигуры при сохранении в формате .html.
 
@@ -82,7 +84,5 @@ Document doc = new Document();
 
 * property [ImageResolution](../imageresolution/)
 * class [HtmlSaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../htmlsaveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

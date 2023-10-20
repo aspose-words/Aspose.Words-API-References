@@ -1,7 +1,9 @@
 ---
 title: ImageSaveOptions.ThresholdForFloydSteinbergDithering
-second_title: Aspose.Words för .NET API Referens
-description: ImageSaveOptions fast egendom. Hämtar eller ställer in tröskeln som bestämmer värdet för binariseringsfelet i FloydSteinbergmetoden. närImageBinarizationMethod ärFloydSteinbergDithering .
+linktitle: ThresholdForFloydSteinbergDithering
+articleTitle: ThresholdForFloydSteinbergDithering
+second_title: Aspose.Words för .NET
+description: ImageSaveOptions ThresholdForFloydSteinbergDithering fast egendom. Hämtar eller ställer in tröskeln som bestämmer värdet för binariseringsfelet i FloydSteinbergmetoden. närImageBinarizationMethod ärFloydSteinbergDithering  i C#.
 type: docs
 weight: 160
 url: /sv/net/aspose.words.saving/imagesaveoptions/thresholdforfloydsteinbergdithering/
@@ -14,11 +16,11 @@ Hämtar eller ställer in tröskeln som bestämmer värdet för binariseringsfel
 public byte ThresholdForFloydSteinbergDithering { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Standardvärdet är 128.
 
-### Exempel
+## Exempel
 
 Visar hur man ställer in TIFF-binariseringsfeltröskeln när man använder Floyd-Steinberg-metoden för att rendera en TIFF-bild.
 
@@ -47,7 +49,5 @@ doc.Save(ArtifactsDir + "ImageSaveOptions.FloydSteinbergDithering.tiff", options
 ### Se även
 
 * class [ImageSaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../imagesaveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

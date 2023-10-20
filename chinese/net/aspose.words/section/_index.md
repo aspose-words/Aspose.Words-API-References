@@ -1,7 +1,9 @@
 ---
-title: Class Section
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Section 班级. 表示文档中的单个部分
+title: Section Class
+linktitle: Section
+articleTitle: Section
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Section 班级. 表示文档中的单个部分 在 C#.
 type: docs
 weight: 5730
 url: /zh/net/aspose.words/section/
@@ -20,7 +22,7 @@ public sealed class Section : CompositeNode
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Section](section/)(DocumentBase) | 初始化Section 类的新实例。 |
+| [Section](section/)(*[DocumentBase](../documentbase/)*) | 初始化Section 类的新实例。 |
 
 ## 特性
 
@@ -47,41 +49,39 @@ public sealed class Section : CompositeNode
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [Accept](../../aspose.words/section/accept/)(DocumentVisitor) | 接受访客。 |
-| override [AcceptEnd](../../aspose.words/section/acceptend/)(DocumentVisitor) |  |
-| override [AcceptStart](../../aspose.words/section/acceptstart/)(DocumentVisitor) |  |
-| [AppendChild&lt;T&gt;](../../aspose.words/compositenode/appendchild/)(T) |  |
-| [AppendContent](../../aspose.words/section/appendcontent/)(Section) | 在本节末尾插入源节内容的副本。 |
+| override [Accept](../../aspose.words/section/accept/)(*[DocumentVisitor](../documentvisitor/)*) | 接受访客。 |
+| [AppendChild](../../aspose.words/compositenode/appendchild/)(*[Node](../node/)*) | 将指定节点添加到该节点的子节点列表的末尾。 |
+| [AppendContent](../../aspose.words/section/appendcontent/)(*Section*) | 在本节末尾插入源节内容的副本。 |
 | [ClearContent](../../aspose.words/section/clearcontent/)() | 清除该部分。 |
 | [ClearHeadersFooters](../../aspose.words/section/clearheadersfooters/)() | 清除本节的页眉和页脚。 |
 | [Clone](../../aspose.words/section/clone/#clone_1)() | 创建此部分的副本。 |
-| [Clone](../../aspose.words/node/clone/)(bool) | 创建节点的副本。 |
+| [Clone](../../aspose.words/node/clone/)(*bool*) | 创建节点的副本。 |
 | [CreateNavigator](../../aspose.words/compositenode/createnavigator/)() | 创建可用于遍历和读取节点的导航器。 |
 | [DeleteHeaderFooterShapes](../../aspose.words/section/deleteheaderfootershapes/)() | 删除本节页眉和页脚中的所有形状（绘图对象）。 |
 | [EnsureMinimum](../../aspose.words/section/ensureminimum/)() | 确保该部分具有[`Body`](./body/)与一个[`Paragraph`](../paragraph/). |
-| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | 获取指定的第一个祖先[`NodeType`](../nodetype/). |
-| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | 获取指定对象类型的第一个祖先。 |
-| [GetChild](../../aspose.words/compositenode/getchild/)(NodeType, int, bool) | 返回与指定类型匹配的第 N 个子节点。 |
-| [GetChildNodes](../../aspose.words/compositenode/getchildnodes/)(NodeType, bool) | 返回与指定类型匹配的子节点的实时集合。 |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*[NodeType](../nodetype/)*) | 获取指定的第一个祖先[`NodeType`](../nodetype/). |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | 获取指定对象类型的第一个祖先。 |
+| [GetChild](../../aspose.words/compositenode/getchild/)(*[NodeType](../nodetype/), int, bool*) | 返回与指定类型匹配的第 N 个子节点。 |
+| [GetChildNodes](../../aspose.words/compositenode/getchildnodes/)(*[NodeType](../nodetype/), bool*) | 返回与指定类型匹配的子节点的实时集合。 |
 | [GetEnumerator](../../aspose.words/compositenode/getenumerator/)() | 为该节点的子节点上的每个样式迭代提供支持。 |
 | override [GetText](../../aspose.words/compositenode/gettext/)() | 获取此节点及其所有子节点的文本。 |
-| [IndexOf](../../aspose.words/compositenode/indexof/)(Node) | 返回子节点数组中指定子节点的索引。 |
-| [InsertAfter&lt;T&gt;](../../aspose.words/compositenode/insertafter/)(T, Node) |  |
-| [InsertBefore&lt;T&gt;](../../aspose.words/compositenode/insertbefore/)(T, Node) |  |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | 根据先序树遍历算法获取下一个节点。 |
-| [PrependChild&lt;T&gt;](../../aspose.words/compositenode/prependchild/)(T) |  |
-| [PrependContent](../../aspose.words/section/prependcontent/)(Section) | 在本节的开头插入源节内容的副本。 |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | 根据先序树遍历算法获取前一个节点。 |
+| [IndexOf](../../aspose.words/compositenode/indexof/)(*[Node](../node/)*) | 返回子节点数组中指定子节点的索引。 |
+| [InsertAfter](../../aspose.words/compositenode/insertafter/)(*[Node](../node/), [Node](../node/)*) | 在指定的引用节点之后立即插入指定的节点。 |
+| [InsertBefore](../../aspose.words/compositenode/insertbefore/)(*[Node](../node/), [Node](../node/)*) | 在指定的引用节点之前插入指定的节点。 |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../node/)*) | 根据先序树遍历算法获取下一个节点。 |
+| [PrependChild](../../aspose.words/compositenode/prependchild/)(*[Node](../node/)*) | 将指定节点添加到该节点的子节点列表的开头。 |
+| [PrependContent](../../aspose.words/section/prependcontent/)(*Section*) | 在本节的开头插入源节内容的副本。 |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../node/)*) | 根据先序树遍历算法获取前一个节点。 |
 | [Remove](../../aspose.words/node/remove/)() | 将自身从父级中删除。 |
 | [RemoveAllChildren](../../aspose.words/compositenode/removeallchildren/)() | 删除当前节点的所有子节点。 |
-| [RemoveChild&lt;T&gt;](../../aspose.words/compositenode/removechild/)(T) |  |
+| [RemoveChild](../../aspose.words/compositenode/removechild/)(*[Node](../node/)*) | 删除指定的子节点。 |
 | [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags/)() | 删除所有[`SmartTag`](../../aspose.words.markup/smarttag/)当前节点的后代节点. |
-| [SelectNodes](../../aspose.words/compositenode/selectnodes/)(string) | 选择与 XPath 表达式匹配的节点列表。 |
-| [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(string) | 选择第一个[`Node`](../node/)与 XPath 表达式匹配。 |
-| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | 将节点的内容导出为指定格式的字符串。 |
-| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | 使用指定的保存选项将节点的内容导出到字符串中。 |
+| [SelectNodes](../../aspose.words/compositenode/selectnodes/)(*string*) | 选择与 XPath 表达式匹配的节点列表。 |
+| [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(*string*) | 选择第一个[`Node`](../node/)与 XPath 表达式匹配。 |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../saveformat/)*) | 将节点的内容导出为指定格式的字符串。 |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | 使用指定的保存选项将节点的内容导出到字符串中。 |
 
-### 评论
+## 评论
 
 `Section`可以拥有一个[`Body`](../body/)和最多一个[`HeaderFooter`](../headerfooter/)每个 [`HeaderFooterType`](../headerfootertype/) 。[`Body`](../body/)和[`HeaderFooter`](../headerfooter/) Nodes 内部可以是任意顺序`Section`。
 
@@ -95,7 +95,7 @@ public sealed class Section : CompositeNode
 
 要仅复制和插入节的内容（不包括分节符 和节属性），请使用[`AppendContent`](./appendcontent/)和[`PrependContent`](./prependcontent/)方法。
 
-### 例子
+## 例子
 
 展示如何手动构建 Aspose.Words 文档。
 
@@ -147,5 +147,3 @@ doc.Save(ArtifactsDir + "Section.CreateManually.docx");
 * class [CompositeNode](../compositenode/)
 * 命名空间 [Aspose.Words](../../aspose.words/)
 * 部件 [Aspose.Words](../../)
-
-

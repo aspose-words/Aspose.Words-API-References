@@ -1,7 +1,9 @@
 ---
 title: CommentRangeEnd.Id
-second_title: Aspose.Words per .NET API Reference
-description: CommentRangeEnd proprietà. Specifica lidentificatore del commento a cui è collegata questa regione.
+linktitle: Id
+articleTitle: Id
+second_title: Aspose.Words per .NET
+description: CommentRangeEnd Id proprietà. Specifica lidentificatore del commento a cui è collegata questa regione in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words/commentrangeend/id/
@@ -14,7 +16,7 @@ Specifica l'identificatore del commento a cui è collegata questa regione.
 public int Id { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come stampare il contenuto di tutti i commenti e i relativi intervalli di commenti utilizzando un visitatore del documento.
 
@@ -175,7 +177,5 @@ public class CommentInfoPrinter : DocumentVisitor
 ### Guarda anche
 
 * class [CommentRangeEnd](../)
-* spazio dei nomi [Aspose.Words](../../commentrangeend/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

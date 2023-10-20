@@ -1,7 +1,9 @@
 ---
-title: Class Theme
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Themes.Theme klass. Representerar dokumenttema och ger tillgång till huvudtema inklusiveMajorFonts MinorFonts ochColors
+title: Theme Class
+linktitle: Theme
+articleTitle: Theme
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Themes.Theme klass. Representerar dokumenttema och ger tillgång till huvudtema inklusiveMajorFonts MinorFonts ochColors i C#.
 type: docs
 weight: 6460
 url: /sv/net/aspose.words.themes/theme/
@@ -30,7 +32,7 @@ public class Theme
 | [MajorFonts](../../aspose.words.themes/theme/majorfonts/) { get; } | Tillåter att ange uppsättningen av huvudteckensnitt för olika språk. |
 | [MinorFonts](../../aspose.words.themes/theme/minorfonts/) { get; } | Tillåter att ange uppsättningen av mindre teckensnitt för olika språk. |
 
-### Exempel
+## Exempel
 
 Visar hur du ställer in anpassade färger och teckensnitt för teman.
 
@@ -79,5 +81,3 @@ doc.Save(ArtifactsDir + "Themes.CustomColorsAndFonts.docx");
 
 * namnutrymme [Aspose.Words.Themes](../../aspose.words.themes/)
 * hopsättning [Aspose.Words](../../)
-
-

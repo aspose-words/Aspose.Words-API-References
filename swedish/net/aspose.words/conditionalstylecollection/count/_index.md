@@ -1,7 +1,9 @@
 ---
 title: ConditionalStyleCollection.Count
-second_title: Aspose.Words för .NET API Referens
-description: ConditionalStyleCollection fast egendom. Hämtar antalet villkorade stilar i samlingen.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words för .NET
+description: ConditionalStyleCollection Count fast egendom. Hämtar antalet villkorade stilar i samlingen i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words/conditionalstylecollection/count/
@@ -14,7 +16,7 @@ Hämtar antalet villkorade stilar i samlingen.
 public int Count { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med vissa områdesstilar i en tabell.
 
@@ -84,7 +86,5 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 ### Se även
 
 * class [ConditionalStyleCollection](../)
-* namnutrymme [Aspose.Words](../../conditionalstylecollection/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

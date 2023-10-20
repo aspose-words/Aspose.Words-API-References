@@ -1,7 +1,9 @@
 ---
 title: BarcodeParameters.IsUSPostalAddress
-second_title: Справочник по API Aspose.Words для .NET
-description: BarcodeParameters свойство. ЛиPostalAddress  почтовый адрес США.
+linktitle: IsUSPostalAddress
+articleTitle: IsUSPostalAddress
+second_title: Aspose.Words для .NET
+description: BarcodeParameters IsUSPostalAddress свойство. ЛиPostalAddress  почтовый адрес США на С#.
 type: docs
 weight: 130
 url: /ru/net/aspose.words.fields/barcodeparameters/isuspostaladdress/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/barcodeparameters/isuspostaladdress/
 public bool IsUSPostalAddress { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как использовать генератор штрих-кода.
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.docx");
 ### Смотрите также
 
 * class [BarcodeParameters](../)
-* пространство имен [Aspose.Words.Fields](../../barcodeparameters/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

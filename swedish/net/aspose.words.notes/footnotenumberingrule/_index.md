@@ -1,7 +1,9 @@
 ---
-title: Enum FootnoteNumberingRule
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Notes.FootnoteNumberingRule uppräkning. Bestämmer när automatisk fotnots eller slutnotsnumrering startar om.
+title: FootnoteNumberingRule Enum
+linktitle: FootnoteNumberingRule
+articleTitle: FootnoteNumberingRule
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Notes.FootnoteNumberingRule uppräkning. Bestämmer när automatisk fotnots eller slutnotsnumrering startar om i C#.
 type: docs
 weight: 4270
 url: /sv/net/aspose.words.notes/footnotenumberingrule/
@@ -23,7 +25,7 @@ public enum FootnoteNumberingRule
 | RestartPage | `2` | Numrering startar om på varje sida. Gäller endast fotnoter. |
 | Default | `0` | Lika medContinuous . |
 
-### Exempel
+## Exempel
 
 Visar hur man startar om fotnots-/slutnotsnumrering på vissa ställen i dokumentet.
 
@@ -81,5 +83,3 @@ doc.Save(ArtifactsDir + "InlineStory.NumberingRule.docx");
 * class [EndnoteOptions](../endnoteoptions/)
 * namnutrymme [Aspose.Words.Notes](../../aspose.words.notes/)
 * hopsättning [Aspose.Words](../../)
-
-

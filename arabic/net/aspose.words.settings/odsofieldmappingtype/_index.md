@@ -1,7 +1,9 @@
 ---
-title: Enum OdsoFieldMappingType
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Settings.OdsoFieldMappingType تعداد. يحدد الأنواع المحتملة المستخدمة للإشارة إلى ما إذا كان حقل دمج البريد المحدد قد تم تعيينه إلى عمود في مصدر البيانات الخارجي المحدد.
+title: OdsoFieldMappingType Enum
+linktitle: OdsoFieldMappingType
+articleTitle: OdsoFieldMappingType
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Settings.OdsoFieldMappingType تعداد. يحدد الأنواع المحتملة المستخدمة للإشارة إلى ما إذا كان حقل دمج البريد المحدد قد تم تعيينه إلى عمود في مصدر البيانات الخارجي المحدد في C#.
 type: docs
 weight: 5920
 url: /ar/net/aspose.words.settings/odsofieldmappingtype/
@@ -22,7 +24,7 @@ public enum OdsoFieldMappingType
 | Null | `1` | تحديد أنه لم يتم تعيين حقل دمج البريد إلى عمود في مصدر البيانات الخارجي المحدد. |
 | Default | `1` | يساويNull . |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الوصول إلى مجموعة البيانات التي تقوم بتعيين أعمدة مصدر البيانات لدمج الحقول.
 
@@ -67,5 +69,3 @@ Assert.AreEqual(0, dataCollection.Count);
 * property [Type](../odsofieldmapdata/type/)
 * مساحة الاسم [Aspose.Words.Settings](../../aspose.words.settings/)
 * المجسم [Aspose.Words](../../)
-
-

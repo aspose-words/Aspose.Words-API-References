@@ -1,7 +1,9 @@
 ---
 title: Document.ShadeFormData
-second_title: Справочник по API Aspose.Words для .NET
-description: Document свойство. Указывает включать ли затенение серым в полях формы.
+linktitle: ShadeFormData
+articleTitle: ShadeFormData
+second_title: Aspose.Words для .NET
+description: Document ShadeFormData свойство. Указывает включать ли затенение серым в полях формы на С#.
 type: docs
 weight: 380
 url: /ru/net/aspose.words/document/shadeformdata/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/document/shadeformdata/
 public bool ShadeFormData { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как применить заливку серым к полям формы.
 
@@ -33,7 +35,5 @@ doc.Save(ArtifactsDir + "Document.ShadeFormData.docx");
 ### Смотрите также
 
 * class [Document](../)
-* пространство имен [Aspose.Words](../../document/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.DisableOpenTypeFontFormattingFeatures
-second_title: Aspose.Words för .NET API Referens
-description: CompatibilityOptions fast egendom. Anger att inaktivera OpenType teckensnittsformateringsfunktioner.
+linktitle: DisableOpenTypeFontFormattingFeatures
+articleTitle: DisableOpenTypeFontFormattingFeatures
+second_title: Aspose.Words för .NET
+description: CompatibilityOptions DisableOpenTypeFontFormattingFeatures fast egendom. Anger att inaktivera OpenType teckensnittsformateringsfunktioner i C#.
 type: docs
 weight: 100
 url: /sv/net/aspose.words.settings/compatibilityoptions/disableopentypefontformattingfeatures/
@@ -17,7 +19,5 @@ public bool DisableOpenTypeFontFormattingFeatures { get; set; }
 ### Se även
 
 * class [CompatibilityOptions](../)
-* namnutrymme [Aspose.Words.Settings](../../compatibilityoptions/)
+* namnutrymme [Aspose.Words.Settings](../../../aspose.words.settings/)
 * hopsättning [Aspose.Words](../../../)
-
-

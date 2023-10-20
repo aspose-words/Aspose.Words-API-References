@@ -1,7 +1,9 @@
 ---
-title: Enum MailMergeCheckErrors
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Settings.MailMergeCheckErrors 枚举. 指定 Microsoft Word 如何报告邮件合并期间检测到的错误
+title: MailMergeCheckErrors Enum
+linktitle: MailMergeCheckErrors
+articleTitle: MailMergeCheckErrors
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Settings.MailMergeCheckErrors 枚举. 指定 Microsoft Word 如何报告邮件合并期间检测到的错误 在 C#.
 type: docs
 weight: 5810
 url: /zh/net/aspose.words.settings/mailmergecheckerrors/
@@ -23,7 +25,7 @@ public enum MailMergeCheckErrors
 | CollectErrors | `3` | 完成合并并在新文档中报告错误。 |
 | Default | `2` | 等于PauseOnError值. |
 
-### 例子
+## 例子
 
 演示如何使用 Office 数据源对象中的数据执行邮件合并。
 
@@ -77,5 +79,3 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 * property [CheckErrors](../mailmergesettings/checkerrors/)
 * 命名空间 [Aspose.Words.Settings](../../aspose.words.settings/)
 * 部件 [Aspose.Words](../../)
-
-

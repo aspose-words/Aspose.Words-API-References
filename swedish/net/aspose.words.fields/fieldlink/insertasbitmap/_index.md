@@ -1,7 +1,9 @@
 ---
 title: FieldLink.InsertAsBitmap
-second_title: Aspose.Words för .NET API Referens
-description: FieldLink fast egendom. Hämtar eller ställer in om det länkade objektet ska infogas som en bitmapp.
+linktitle: InsertAsBitmap
+articleTitle: InsertAsBitmap
+second_title: Aspose.Words för .NET
+description: FieldLink InsertAsBitmap fast egendom. Hämtar eller ställer in om det länkade objektet ska infogas som en bitmapp i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.fields/fieldlink/insertasbitmap/
@@ -14,7 +16,7 @@ Hämtar eller ställer in om det länkade objektet ska infogas som en bitmapp.
 public bool InsertAsBitmap { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man använder olika fälttyper för att länka till andra dokument i det lokala filsystemet och visa deras innehåll.
 
@@ -197,7 +199,5 @@ public enum InsertLinkedObjectAs
 ### Se även
 
 * class [FieldLink](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldlink/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

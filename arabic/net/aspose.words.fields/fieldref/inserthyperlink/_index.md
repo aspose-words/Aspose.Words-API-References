@@ -1,7 +1,9 @@
 ---
 title: FieldRef.InsertHyperlink
-second_title: Aspose.Words لمراجع .NET API
-description: FieldRef ملكية. الحصول على أو تحديد ما إذا كان سيتم إنشاء ارتباط تشعبي للفقرة ذات الإشارة المرجعية.
+linktitle: InsertHyperlink
+articleTitle: InsertHyperlink
+second_title: Aspose.Words لـ .NET
+description: FieldRef InsertHyperlink ملكية. الحصول على أو تحديد ما إذا كان سيتم إنشاء ارتباط تشعبي للفقرة ذات الإشارة المرجعية في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.fields/fieldref/inserthyperlink/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldref/inserthyperlink/
 public bool InsertHyperlink { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج حقول REF للإشارة إلى الإشارات المرجعية.
 
@@ -104,7 +106,5 @@ private static FieldRef InsertFieldRef(DocumentBuilder builder, string bookmarkN
 ### أنظر أيضا
 
 * class [FieldRef](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldref/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

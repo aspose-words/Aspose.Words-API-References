@@ -1,7 +1,9 @@
 ---
 title: FontFallbackSettings.BuildAutomatic
-second_title: Aspose.Words per .NET API Reference
-description: FontFallbackSettings metodo. Crea automaticamente le impostazioni di fallback eseguendo la scansione dei caratteri disponibili.
+linktitle: BuildAutomatic
+articleTitle: BuildAutomatic
+second_title: Aspose.Words per .NET
+description: FontFallbackSettings BuildAutomatic metodo. Crea automaticamente le impostazioni di fallback eseguendo la scansione dei caratteri disponibili in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words.fonts/fontfallbacksettings/buildautomatic/
@@ -14,11 +16,11 @@ Crea automaticamente le impostazioni di fallback eseguendo la scansione dei cara
 public void BuildAutomatic()
 ```
 
-### Osservazioni
+## Osservazioni
 
 Questo metodo potrebbe produrre impostazioni di fallback non ottimali. I caratteri vengono controllati da[ Intervallo di caratteri Unicode](https://docs.microsoft.com/en-us/typography/opentype/spec/os2#ur) campi e non dalla presenza effettiva dei glifi. Anche gli intervalli Unicode vengono controllati individualmente e diversi intervalli relativi a una singola lingua/script possono utilizzare caratteri di fallback diversi.
 
-### Esempi
+## Esempi
 
 Mostra come distribuire i caratteri di fallback negli intervalli di codici di caratteri Unicode.
 
@@ -77,7 +79,5 @@ doc.Save(ArtifactsDir + "FontSettings.FallbackSettingsCustom.pdf");
 ### Guarda anche
 
 * class [FontFallbackSettings](../)
-* spazio dei nomi [Aspose.Words.Fonts](../../fontfallbacksettings/)
+* spazio dei nomi [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * assemblea [Aspose.Words](../../../)
-
-

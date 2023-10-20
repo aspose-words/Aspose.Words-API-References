@@ -1,7 +1,9 @@
 ---
 title: LayoutOptions.ShowHiddenText
-second_title: Aspose.Words لمراجع .NET API
-description: LayoutOptions ملكية. الحصول على أو تعيين الإشارة إلى ما إذا كان سيتم عرض النص المخفي في المستند. الافتراضي هوخطأ شنيع .
+linktitle: ShowHiddenText
+articleTitle: ShowHiddenText
+second_title: Aspose.Words لـ .NET
+description: LayoutOptions ShowHiddenText ملكية. الحصول على أو تعيين الإشارة إلى ما إذا كان سيتم عرض النص المخفي في المستند. الافتراضي هوخطأ شنيع  في C#.
 type: docs
 weight: 80
 url: /ar/net/aspose.words.layout/layoutoptions/showhiddentext/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.layout/layoutoptions/showhiddentext/
 public bool ShowHiddenText { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 تؤثر هذه الخاصية على كافة المحتويات المخفية، وليس النص فقط.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إخفاء النص في مستند الإخراج المقدم.
 
@@ -38,7 +40,5 @@ doc.Save(ArtifactsDir + "Document.LayoutOptionsHiddenText.pdf");
 ### أنظر أيضا
 
 * class [LayoutOptions](../)
-* مساحة الاسم [Aspose.Words.Layout](../../layoutoptions/)
+* مساحة الاسم [Aspose.Words.Layout](../../../aspose.words.layout/)
 * المجسم [Aspose.Words](../../../)
-
-

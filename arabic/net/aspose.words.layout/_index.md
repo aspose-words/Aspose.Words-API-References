@@ -1,12 +1,14 @@
 ---
 title: Aspose.Words.Layout
-second_title: Aspose.Words لمراجع .NET API
-description: ال Aspose.Words.Layout توفر مساحة الاسم فئات تسمح بالوصول إلى معلومات مثل أي صفحة وأين يتم وضع عناصر مستند معينة على الصفحة عندما يتم تنسيق المستند في صفحات.
+linktitle: Aspose.Words.Layout
+articleTitle: Aspose.Words.Layout
+second_title: Aspose.Words لـ .NET
+description: الAspose.Words.Layout توفر مساحة الاسم فئات تسمح بالوصول إلى معلومات مثل أي صفحة وأين يتم وضع عناصر مستند معينة على الصفحة عندما يتم تنسيق المستند في صفحات في C#.
 type: docs
 weight: 110
 url: /ar/net/aspose.words.layout/
 ---
-ال **Aspose.Words.Layout** توفر مساحة الاسم فئات تسمح بالوصول إلى معلومات مثل أي صفحة وأين يتم وضع عناصر مستند معينة على الصفحة، عندما يتم تنسيق المستند في صفحات.
+ال**Aspose.Words.Layout** توفر مساحة الاسم فئات تسمح بالوصول إلى معلومات مثل أي صفحة وأين يتم وضع عناصر مستند معينة على الصفحة، عندما يتم تنسيق المستند في صفحات.
 
 ## الطبقات
 
@@ -33,5 +35,3 @@ url: /ar/net/aspose.words.layout/
 | [RevisionColor](./revisioncolor/) | يسمح بتحديد لون مراجعات المستند. |
 | [RevisionTextEffect](./revisiontexteffect/) | يسمح بتحديد تأثير الزخرفة لمراجعات نص المستند. |
 | [ShowInBalloons](./showinballoons/) | يحدد المراجعات التي سيتم عرضها في البالونات. |
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldXE.IsItalic
-second_title: Aspose.Words för .NET API Referens
-description: FieldXE fast egendom. Hämtar eller ställer in om kursiv formatering ska tillämpas på postens sidnummer.
+linktitle: IsItalic
+articleTitle: IsItalic
+second_title: Aspose.Words för .NET
+description: FieldXE IsItalic fast egendom. Hämtar eller ställer in om kursiv formatering ska tillämpas på postens sidnummer i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.fields/fieldxe/isitalic/
@@ -14,7 +16,7 @@ Hämtar eller ställer in om kursiv formatering ska tillämpas på postens sidnu
 public bool IsItalic { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man fyller i ett INDEX-fält med poster med XE-fält, och även ändrar dess utseende.
 
@@ -86,7 +88,5 @@ doc.Save(ArtifactsDir + "Field.INDEX.XE.Formatting.docx");
 ### Se även
 
 * class [FieldXE](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldxe/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

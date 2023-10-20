@@ -1,7 +1,9 @@
 ---
 title: PageInfo.GetSpecifiedPrinterPaperSource
-second_title: Aspose.Words for .NET API 参考
-description: PageInfo 方法. 获取PaperSource适合打印 由此表示的页面的对象PageInfo.
+linktitle: GetSpecifiedPrinterPaperSource
+articleTitle: GetSpecifiedPrinterPaperSource
+second_title: 用于 .NET 的 Aspose.Words
+description: PageInfo GetSpecifiedPrinterPaperSource 方法. 获取PaperSource适合打印 由此表示的页面的对象PageInfo 在 C#.
 type: docs
 weight: 100
 url: /zh/net/aspose.words.rendering/pageinfo/getspecifiedprinterpapersource/
@@ -24,11 +26,11 @@ public PaperSource GetSpecifiedPrinterPaperSource(PaperSourceCollection paperSou
 
 您可以在 .NET 打印框架中使用该对象来指定纸张来源。
 
-### 评论
+## 评论
 
 此方法需要 .NET Framework 2.0 或更高版本。
 
-### 例子
+## 例子
 
 演示如何打印 Word 文档中每个页面的页面大小和方向信息。
 
@@ -70,7 +72,5 @@ for (int i = 0; i < doc.PageCount; i++)
 ### 也可以看看
 
 * class [PageInfo](../)
-* 命名空间 [Aspose.Words.Rendering](../../pageinfo/)
+* 命名空间 [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: SmartTag.Uri
-second_title: Aspose.Words för .NET API Referens
-description: SmartTag fast egendom. Anger namnutrymmesURI för smarttaggen.
+linktitle: Uri
+articleTitle: Uri
+second_title: Aspose.Words för .NET
+description: SmartTag Uri fast egendom. Anger namnutrymmesURI för smarttaggen i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.markup/smarttag/uri/
@@ -14,13 +16,13 @@ Anger namnutrymmes-URI för smarttaggen.
 public string Uri { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Kan inte vara`null`.
 
 Standard är tom sträng.
 
-### Exempel
+## Exempel
 
 Visar hur man skapar smarta taggar.
 
@@ -121,7 +123,5 @@ private class SmartTagPrinter : DocumentVisitor
 ### Se även
 
 * class [SmartTag](../)
-* namnutrymme [Aspose.Words.Markup](../../smarttag/)
+* namnutrymme [Aspose.Words.Markup](../../../aspose.words.markup/)
 * hopsättning [Aspose.Words](../../../)
-
-

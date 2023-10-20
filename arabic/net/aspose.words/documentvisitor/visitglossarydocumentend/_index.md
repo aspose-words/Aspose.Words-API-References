@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitGlossaryDocumentEnd
-second_title: Aspose.Words لمراجع .NET API
-description: DocumentVisitor طريقة. يتم استدعاؤه عند انتهاء تعداد مستند المسرد.
+linktitle: VisitGlossaryDocumentEnd
+articleTitle: VisitGlossaryDocumentEnd
+second_title: Aspose.Words لـ .NET
+description: DocumentVisitor VisitGlossaryDocumentEnd طريقة. يتم استدعاؤه عند انتهاء تعداد مستند المسرد في C#.
 type: docs
 weight: 240
 url: /ar/net/aspose.words/documentvisitor/visitglossarydocumentend/
@@ -22,11 +24,11 @@ public virtual VisitorAction VisitGlossaryDocumentEnd(GlossaryDocument glossary)
 
 أ[`VisitorAction`](../../visitoraction/) القيمة التي تحدد كيفية متابعة التعداد.
 
-### ملاحظات
+## ملاحظات
 
 ملاحظة: لا تتم زيارة عقدة مستند المسرد وأبناءها عند تنفيذ a Visitor عبر a[`Document`](../../document/) . إذا كنت تريد تنفيذ زائر عبر مستند مسرد a ، فستحتاج إلى الاتصال[`Accept`](../../../aspose.words.buildingblocks/glossarydocument/accept/) .
 
-### أمثلة
+## أمثلة
 
 يعرض طرق الوصول إلى الكتل البرمجية الإنشائية في مستند المسرد.
 
@@ -132,7 +134,5 @@ public class GlossaryDocVisitor : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [GlossaryDocument](../../../aspose.words.buildingblocks/glossarydocument/)
 * class [DocumentVisitor](../)
-* مساحة الاسم [Aspose.Words](../../documentvisitor/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

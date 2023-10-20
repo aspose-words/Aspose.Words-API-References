@@ -1,7 +1,9 @@
 ---
 title: FieldSet.BookmarkName
-second_title: Aspose.Words för .NET API Referens
-description: FieldSet fast egendom. Hämtar eller ställer in namnet på bokmärket.
+linktitle: BookmarkName
+articleTitle: BookmarkName
+second_title: Aspose.Words för .NET
+description: FieldSet BookmarkName fast egendom. Hämtar eller ställer in namnet på bokmärket i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.fields/fieldset/bookmarkname/
@@ -14,7 +16,7 @@ Hämtar eller ställer in namnet på bokmärket.
 public string BookmarkName { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man skapar bokmärkt text med ett SET-fält och sedan visar det i dokumentet med ett REF-fält.
 
@@ -45,7 +47,5 @@ doc.Save(ArtifactsDir + "Field.SET.REF.docx");
 ### Se även
 
 * class [FieldSet](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldset/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

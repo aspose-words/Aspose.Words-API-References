@@ -1,7 +1,9 @@
 ---
 title: WebExtension.Id
-second_title: Aspose.Words för .NET API Referens
-description: WebExtension fast egendom. Identifierar unikt webbtilläggsinstansen i det aktuella dokumentet.
+linktitle: Id
+articleTitle: Id
+second_title: Aspose.Words för .NET
+description: WebExtension Id fast egendom. Identifierar unikt webbtilläggsinstansen i det aktuella dokumentet i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.webextensions/webextension/id/
@@ -17,7 +19,5 @@ public string Id { get; set; }
 ### Se även
 
 * class [WebExtension](../)
-* namnutrymme [Aspose.Words.WebExtensions](../../webextension/)
+* namnutrymme [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: OdsoRecipientDataCollection.OdsoRecipientDataCollection
-second_title: Référence de l'API Aspose.Words pour .NET
-description: OdsoRecipientDataCollection constructeur. Default_Constructor
+title: OdsoRecipientDataCollection
+linktitle: OdsoRecipientDataCollection
+articleTitle: OdsoRecipientDataCollection
+second_title: Aspose.Words pour .NET
+description: OdsoRecipientDataCollection constructeur. Default_Constructor en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.settings/odsorecipientdatacollection/odsorecipientdatacollection/
@@ -17,7 +19,5 @@ public OdsoRecipientDataCollection()
 ### Voir également
 
 * class [OdsoRecipientDataCollection](../)
-* espace de noms [Aspose.Words.Settings](../../odsorecipientdatacollection/)
+* espace de noms [Aspose.Words.Settings](../../../aspose.words.settings/)
 * Assemblée [Aspose.Words](../../../)
-
-

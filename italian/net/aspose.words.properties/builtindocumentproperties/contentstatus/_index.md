@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.ContentStatus
-second_title: Aspose.Words per .NET API Reference
-description: BuiltInDocumentProperties proprietà. Ottiene o imposta il fileContentStatus del documento.
+linktitle: ContentStatus
+articleTitle: ContentStatus
+second_title: Aspose.Words per .NET
+description: BuiltInDocumentProperties ContentStatus proprietà. Ottiene o imposta il fileContentStatus del documento in C#.
 type: docs
 weight: 80
 url: /it/net/aspose.words.properties/builtindocumentproperties/contentstatus/
@@ -14,7 +16,7 @@ Ottiene o imposta il fileContentStatus del documento.
 public string ContentStatus { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come lavorare con le proprietà del documento nella categoria "Contenuto".
 
@@ -124,7 +126,5 @@ private class LineCounter
 ### Guarda anche
 
 * class [BuiltInDocumentProperties](../)
-* spazio dei nomi [Aspose.Words.Properties](../../builtindocumentproperties/)
+* spazio dei nomi [Aspose.Words.Properties](../../../aspose.words.properties/)
 * assemblea [Aspose.Words](../../../)
-
-

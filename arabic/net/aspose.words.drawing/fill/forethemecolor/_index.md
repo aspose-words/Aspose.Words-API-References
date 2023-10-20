@@ -1,9 +1,11 @@
 ---
 title: Fill.ForeThemeColor
-second_title: Aspose.Words لمراجع .NET API
-description: Fill ملكية. الحصول على أو تعيين كائن ThemeColor الذي يمثل اللون الأمامي للتعبئة.
+linktitle: ForeThemeColor
+articleTitle: ForeThemeColor
+second_title: Aspose.Words لـ .NET
+description: Fill ForeThemeColor ملكية. الحصول على أو تعيين كائن ThemeColor الذي يمثل اللون الأمامي للتعبئة في C#.
 type: docs
-weight: 80
+weight: 70
 url: /ar/net/aspose.words.drawing/fill/forethemecolor/
 ---
 ## Fill.ForeThemeColor property
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing/fill/forethemecolor/
 public ThemeColor ForeThemeColor { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين لون السمة للون شكل المقدمة/الخلفية.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "Shape.FillThemeColor.docx");
 
 * enum [ThemeColor](../../../aspose.words.themes/themecolor/)
 * class [Fill](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../fill/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

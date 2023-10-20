@@ -1,7 +1,9 @@
 ---
 title: ChartLegendEntry.Font
-second_title: Aspose.Words per .NET API Reference
-description: ChartLegendEntry proprietà. Fornisce laccesso alla formattazione del carattere di questa voce della legenda.
+linktitle: Font
+articleTitle: Font
+second_title: Aspose.Words per .NET
+description: ChartLegendEntry Font proprietà. Fornisce laccesso alla formattazione del carattere di questa voce della legenda in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words.drawing.charts/chartlegendentry/font/
@@ -14,7 +16,7 @@ Fornisce l'accesso alla formattazione del carattere di questa voce della legenda
 public Font Font { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come utilizzare una voce di legenda per le serie di grafici.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "Charts.LegendEntries.docx");
 
 * class [Font](../../../aspose.words/font/)
 * class [ChartLegendEntry](../)
-* spazio dei nomi [Aspose.Words.Drawing.Charts](../../chartlegendentry/)
+* spazio dei nomi [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * assemblea [Aspose.Words](../../../)
-
-

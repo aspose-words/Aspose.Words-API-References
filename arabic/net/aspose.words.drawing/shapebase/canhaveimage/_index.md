@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.CanHaveImage
-second_title: Aspose.Words لمراجع .NET API
-description: ShapeBase ملكية. إرجاعحقيقي إذا كان نوع الشكل يسمح للشكل بأن يكون له صورة.
+linktitle: CanHaveImage
+articleTitle: CanHaveImage
+second_title: Aspose.Words لـ .NET
+description: ShapeBase CanHaveImage ملكية. إرجاعحقيقي إذا كان نوع الشكل يسمح للشكل بأن يكون له صورة في C#.
 type: docs
 weight: 100
 url: /ar/net/aspose.words.drawing/shapebase/canhaveimage/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.drawing/shapebase/canhaveimage/
 public bool CanHaveImage { get; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 على الرغم من أن Microsoft Word يحتوي على نوع شكل خاص للصور، إلا أنه يبدو أنه في مستندات Microsoft Word يمكن لأي شكل باستثناء شكل المجموعة أن يحتوي على صورة، وبالتالي ترجع هذه الخاصية`حقيقي` لجميع الأشكال ما عدا[`GroupShape`](../../groupshape/).
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج صورة وتدويرها.
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "Shape.Rotate.docx");
 ### أنظر أيضا
 
 * class [ShapeBase](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../shapebase/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

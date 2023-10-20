@@ -1,12 +1,14 @@
 ---
 title: Aspose.Words.Fonts
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Le Aspose.Words.Fonts Lespace de noms fournit des classes et des énumérations pour accéder aux informations sur les polices utilisées dans un document.
+linktitle: Aspose.Words.Fonts
+articleTitle: Aspose.Words.Fonts
+second_title: Aspose.Words pour .NET
+description: LeAspose.Words.Fonts Lespace de noms fournit des classes et des énumérations pour accéder aux informations sur les polices utilisées dans un document en C#.
 type: docs
 weight: 90
 url: /fr/net/aspose.words.fonts/
 ---
-Le **Aspose.Words.Fonts** L'espace de noms fournit des classes et des énumérations pour accéder aux informations sur les polices utilisées dans un document.
+Le**Aspose.Words.Fonts** L'espace de noms fournit des classes et des énumérations pour accéder aux informations sur les polices utilisées dans un document.
 
 ## Des classes
 
@@ -39,5 +41,3 @@ Le **Aspose.Words.Fonts** L'espace de noms fournit des classes et des énumérat
 | [FontFamily](./fontfamily/) | Représente la famille de polices. |
 | [FontPitch](./fontpitch/) | Représente l'espacement de la police. |
 | [FontSourceType](./fontsourcetype/) | Spécifie le type d'une source de police. |
-
-

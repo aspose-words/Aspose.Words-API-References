@@ -1,7 +1,9 @@
 ---
-title: Class XpsSaveOptions
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Saving.XpsSaveOptions فصل. يمكن استخدامه لتحديد خيارات إضافية عند حفظ مستند في ملفXps التنسيق.
+title: XpsSaveOptions Class
+linktitle: XpsSaveOptions
+articleTitle: XpsSaveOptions
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Saving.XpsSaveOptions فصل. يمكن استخدامه لتحديد خيارات إضافية عند حفظ مستند في ملفXps التنسيق في C#.
 type: docs
 weight: 5720
 url: /ar/net/aspose.words.saving/xpssaveoptions/
@@ -21,7 +23,7 @@ public class XpsSaveOptions : FixedPageSaveOptions
 | اسم | وصف |
 | --- | --- |
 | [XpsSaveOptions](xpssaveoptions/#constructor)() | تهيئة مثيل جديد لهذه الفئة يمكن استخدامه لحفظ document فيXps التنسيق. |
-| [XpsSaveOptions](xpssaveoptions/#constructor_1)(SaveFormat) | تهيئة مثيل جديد لهذه الفئة يمكن استخدامه لحفظ document فيXps أوOpenXps التنسيق. |
+| [XpsSaveOptions](xpssaveoptions/#constructor_1)(*[SaveFormat](../../aspose.words/saveformat/)*) | تهيئة مثيل جديد لهذه الفئة يمكن استخدامه لحفظ document فيXps أوOpenXps التنسيق. |
 
 ## الخصائص
 
@@ -30,7 +32,7 @@ public class XpsSaveOptions : FixedPageSaveOptions
 | [AllowEmbeddingPostScriptFonts](../../aspose.words.saving/saveoptions/allowembeddingpostscriptfonts/) { get; set; } | الحصول على قيمة منطقية أو تعيينها تشير إلى ما إذا كان سيتم السماح بدمج الخطوط باستخدام مخططات PostScript عند حفظ تضمين خطوط TrueType في مستند. القيمة الافتراضية هي`خطأ شنيع` . |
 | [ColorMode](../../aspose.words.saving/fixedpagesaveoptions/colormode/) { get; set; } | الحصول على أو تعيين قيمة تحدد كيفية عرض الألوان. |
 | [CustomTimeZoneInfo](../../aspose.words.saving/saveoptions/customtimezoneinfo/) { get; set; } | الحصول على أو تعيين المنطقة الزمنية المحلية المخصصة المستخدمة لحقول التاريخ/الوقت. |
-| [DefaultTemplate](../../aspose.words.saving/saveoptions/defaulttemplate/) { get; set; } | الحصول على أو تعيين المسار إلى القالب الافتراضي (بما في ذلك اسم الملف). القيمة الافتراضية لهذه الخاصية هي **سلسلة فارغة** (Empty). |
+| [DefaultTemplate](../../aspose.words.saving/saveoptions/defaulttemplate/) { get; set; } | الحصول على أو تعيين المسار إلى القالب الافتراضي (بما في ذلك اسم الملف). القيمة الافتراضية لهذه الخاصية هي**سلسلة فارغة** (Empty). |
 | [Dml3DEffectsRenderingMode](../../aspose.words.saving/saveoptions/dml3deffectsrenderingmode/) { get; set; } | الحصول على قيمة أو تعيينها لتحديد كيفية عرض التأثيرات ثلاثية الأبعاد. |
 | virtual [DmlEffectsRenderingMode](../../aspose.words.saving/saveoptions/dmleffectsrenderingmode/) { get; set; } | الحصول على قيمة أو تعيينها لتحديد كيفية عرض تأثيرات DrawML. |
 | [DmlRenderingMode](../../aspose.words.saving/saveoptions/dmlrenderingmode/) { get; set; } | الحصول على قيمة أو تعيينها لتحديد كيفية عرض أشكال DrawML. |
@@ -60,9 +62,9 @@ public class XpsSaveOptions : FixedPageSaveOptions
 
 | اسم | وصف |
 | --- | --- |
-| override [Equals](../../aspose.words.saving/fixedpagesaveoptions/equals/)(object) | تحديد ما إذا كان الكائن المحدد يساوي قيمة الكائن الحالي. |
+| override [Equals](../../aspose.words.saving/fixedpagesaveoptions/equals/)(*object*) | تحديد ما إذا كان الكائن المحدد يساوي قيمة الكائن الحالي. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحديد مستوى العناوين التي ستظهر في المخطط التفصيلي لمستند XPS المحفوظ.
 
@@ -107,5 +109,3 @@ doc.Save(ArtifactsDir + "XpsSaveOptions.OutlineLevels.xps", saveOptions);
 * class [FixedPageSaveOptions](../fixedpagesaveoptions/)
 * مساحة الاسم [Aspose.Words.Saving](../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../)
-
-

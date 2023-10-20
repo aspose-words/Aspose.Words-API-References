@@ -1,7 +1,9 @@
 ---
-title: Class WebExtensionBinding
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.WebExtensions.WebExtensionBinding classe. Specifica una relazione vincolante tra unestensione Web e i dati nel documento.
+title: WebExtensionBinding Class
+linktitle: WebExtensionBinding
+articleTitle: WebExtensionBinding
+second_title: Aspose.Words per .NET
+description: Aspose.Words.WebExtensions.WebExtensionBinding classe. Specifica una relazione vincolante tra unestensione Web e i dati nel documento in C#.
 type: docs
 weight: 6750
 url: /it/net/aspose.words.webextensions/webextensionbinding/
@@ -20,7 +22,7 @@ public class WebExtensionBinding
 
 | Nome | Descrizione |
 | --- | --- |
-| [WebExtensionBinding](webextensionbinding/)(string, WebExtensionBindingType, string) | Crea l'associazione dell'estensione web con i parametri specificati. |
+| [WebExtensionBinding](webextensionbinding/)(*string, [WebExtensionBindingType](../webextensionbindingtype/), string*) | Crea l'associazione dell'estensione web con i parametri specificati. |
 
 ## Proprietà
 
@@ -34,5 +36,3 @@ public class WebExtensionBinding
 
 * spazio dei nomi [Aspose.Words.WebExtensions](../../aspose.words.webextensions/)
 * assemblea [Aspose.Words](../../)
-
-

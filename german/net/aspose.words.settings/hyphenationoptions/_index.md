@@ -1,7 +1,9 @@
 ---
-title: Class HyphenationOptions
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Settings.HyphenationOptions klas. Ermöglicht die Konfiguration der Silbentrennungsoptionen für Dokumente.
+title: HyphenationOptions Class
+linktitle: HyphenationOptions
+articleTitle: HyphenationOptions
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Settings.HyphenationOptions klas. Ermöglicht die Konfiguration der Silbentrennungsoptionen für Dokumente in C#.
 type: docs
 weight: 5790
 url: /de/net/aspose.words.settings/hyphenationoptions/
@@ -31,7 +33,7 @@ public class HyphenationOptions
 | [HyphenateCaps](../../aspose.words.settings/hyphenationoptions/hyphenatecaps/) { get; set; } | Ruft den Wert ab oder legt diesen fest, der bestimmt, ob in Großbuchstaben geschriebene Wörter getrennt werden. Der Standardwert für diese Eigenschaft ist`WAHR` . |
 | [HyphenationZone](../../aspose.words.settings/hyphenationoptions/hyphenationzone/) { get; set; } | Ruft den Abstand in 1/20 eines Punktes vom rechten Rand ab, innerhalb dessen Sie Wörter nicht trennen möchten. Der Standardwert für diese Eigenschaft ist 360 (0,25 Zoll). |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die automatische Silbentrennung konfiguriert wird.
 
@@ -55,5 +57,3 @@ doc.Save(ArtifactsDir + "Document.HyphenationOptions.docx");
 
 * namensraum [Aspose.Words.Settings](../../aspose.words.settings/)
 * Montage [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: IDocumentReaderPlugin.Read
-second_title: Aspose.Words für .NET-API-Referenz
-description: IDocumentReaderPlugin methode. Liest die Daten aus dem angegebenen Stream in denDocument Instanz.
+linktitle: Read
+articleTitle: Read
+second_title: Aspose.Words für .NET
+description: IDocumentReaderPlugin Read methode. Liest die Daten aus dem angegebenen Stream in denDocument Instanz in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words/idocumentreaderplugin/read/
@@ -25,7 +27,5 @@ public void Read(Stream src, LoadOptions loadOptions, Document document)
 * class [LoadOptions](../../../aspose.words.loading/loadoptions/)
 * class [Document](../../document/)
 * interface [IDocumentReaderPlugin](../)
-* namensraum [Aspose.Words](../../idocumentreaderplugin/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,12 +1,14 @@
 ---
-title: TabStop.TabStop
-second_title: Aspose.Words für .NET-API-Referenz
-description: TabStop constructeur. Initialisiert eine neue Instanz dieser Klasse.
+title: TabStop
+linktitle: TabStop
+articleTitle: TabStop
+second_title: Aspose.Words für .NET
+description: TabStop constructeur. Initialisiert eine neue Instanz dieser Klasse in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words/tabstop/tabstop/
 ---
-## TabStop(double) {#constructor}
+## TabStop(*double*) {#constructor}
 
 Initialisiert eine neue Instanz dieser Klasse.
 
@@ -14,7 +16,7 @@ Initialisiert eine neue Instanz dieser Klasse.
 public TabStop(double position)
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit der Sammlung von Tabstopps eines Dokuments gearbeitet wird.
 
@@ -58,12 +60,12 @@ doc.Save(ArtifactsDir + "TabStopCollection.TabStopCollection.docx");
 ### Siehe auch
 
 * class [TabStop](../)
-* namensraum [Aspose.Words](../../tabstop/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
 
 ---
 
-## TabStop(double, TabAlignment, TabLeader) {#constructor_1}
+## TabStop(*double, [TabAlignment](../../tabalignment/), [TabLeader](../../tableader/)*) {#constructor_1}
 
 Initialisiert eine neue Instanz dieser Klasse.
 
@@ -77,7 +79,7 @@ public TabStop(double position, TabAlignment alignment, TabLeader leader)
 | alignment | TabAlignment | A[`TabAlignment`](../../tabalignment/) Der Wert that gibt die Ausrichtung des Texts an diesem Tabstopp an. |
 | leader | TabLeader | A[`TabLeader`](../../tableader/) Wert, der den Typ der Führungslinie angibt, die unter dem Tabulatorzeichen angezeigt wird. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit der Sammlung von Tabstopps eines Dokuments gearbeitet wird.
 
@@ -123,7 +125,5 @@ doc.Save(ArtifactsDir + "TabStopCollection.TabStopCollection.docx");
 * enum [TabAlignment](../../tabalignment/)
 * enum [TabLeader](../../tableader/)
 * class [TabStop](../)
-* namensraum [Aspose.Words](../../tabstop/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

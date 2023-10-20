@@ -1,7 +1,9 @@
 ---
 title: CustomXmlSchemaCollection.Remove
-second_title: Aspose.Words per .NET API Reference
-description: CustomXmlSchemaCollection metodo. Rimuove il valore specificato dalla raccolta.
+linktitle: Remove
+articleTitle: Remove
+second_title: Aspose.Words per .NET
+description: CustomXmlSchemaCollection Remove metodo. Rimuove il valore specificato dalla raccolta in C#.
 type: docs
 weight: 80
 url: /it/net/aspose.words.markup/customxmlschemacollection/remove/
@@ -18,7 +20,7 @@ public void Remove(string name)
 | --- | --- | --- |
 | name | String | Il valore con distinzione tra maiuscole e minuscole da rimuovere. |
 
-### Esempi
+## Esempi
 
 Mostra come lavorare con una raccolta di schemi XML.
 
@@ -64,7 +66,5 @@ Assert.AreEqual(0, schemas.Count);
 ### Guarda anche
 
 * class [CustomXmlSchemaCollection](../)
-* spazio dei nomi [Aspose.Words.Markup](../../customxmlschemacollection/)
+* spazio dei nomi [Aspose.Words.Markup](../../../aspose.words.markup/)
 * assemblea [Aspose.Words](../../../)
-
-

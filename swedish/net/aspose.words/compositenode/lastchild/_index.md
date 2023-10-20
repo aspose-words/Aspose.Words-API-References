@@ -1,7 +1,9 @@
 ---
 title: CompositeNode.LastChild
-second_title: Aspose.Words för .NET API Referens
-description: CompositeNode fast egendom. Hämtar nodens sista underordnade.
+linktitle: LastChild
+articleTitle: LastChild
+second_title: Aspose.Words för .NET
+description: CompositeNode LastChild fast egendom. Hämtar nodens sista underordnade i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words/compositenode/lastchild/
@@ -14,11 +16,11 @@ Hämtar nodens sista underordnade.
 public Node LastChild { get; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Om det inte finns någon sista underordnad nod, a`null` returneras.
 
-### Exempel
+## Exempel
 
 Visar hur man använder metoderna för Node och CompositeNode för att ta bort ett avsnitt före det sista avsnittet i dokumentet.
 
@@ -46,7 +48,5 @@ Assert.AreEqual("Section 2 text.", doc.GetText().Trim());
 
 * class [Node](../../node/)
 * class [CompositeNode](../)
-* namnutrymme [Aspose.Words](../../compositenode/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

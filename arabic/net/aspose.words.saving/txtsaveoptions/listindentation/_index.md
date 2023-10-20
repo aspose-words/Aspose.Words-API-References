@@ -1,7 +1,9 @@
 ---
 title: TxtSaveOptions.ListIndentation
-second_title: Aspose.Words لمراجع .NET API
-description: TxtSaveOptions ملكية. يحصل علىTxtListIndentation كائن يحدد عدد الأحرف التي سيتم استخدامها لتحديد المسافة البادئة لمستويات القائمة. بشكل افتراضي يكون عدد الأحرف 0 صفرًا وهذا يعني عدم وجود مسافة بادئة.
+linktitle: ListIndentation
+articleTitle: ListIndentation
+second_title: Aspose.Words لـ .NET
+description: TxtSaveOptions ListIndentation ملكية. يحصل علىTxtListIndentation كائن يحدد عدد الأحرف التي سيتم استخدامها لتحديد المسافة البادئة لمستويات القائمة. بشكل افتراضي يكون عدد الأحرف 0 صفرًا وهذا يعني عدم وجود مسافة بادئة في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.saving/txtsaveoptions/listindentation/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.saving/txtsaveoptions/listindentation/
 public TxtListIndentation ListIndentation { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تكوين المسافة البادئة للقائمة عند حفظ مستند إلى نص عادي.
 
@@ -55,7 +57,5 @@ Assert.AreEqual("1. Item 1\r\n" +
 
 * class [TxtListIndentation](../../txtlistindentation/)
 * class [TxtSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../txtsaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

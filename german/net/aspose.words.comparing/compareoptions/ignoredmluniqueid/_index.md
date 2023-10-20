@@ -1,7 +1,9 @@
 ---
 title: CompareOptions.IgnoreDmlUniqueId
-second_title: Aspose.Words für .NET-API-Referenz
-description: CompareOptions eigendom. Gibt an ob Unterschiede in der eindeutigen DrawingMLID ignoriert werden sollen. Der Standardwert istFALSCH .
+linktitle: IgnoreDmlUniqueId
+articleTitle: IgnoreDmlUniqueId
+second_title: Aspose.Words für .NET
+description: CompareOptions IgnoreDmlUniqueId eigendom. Gibt an ob Unterschiede in der eindeutigen DrawingMLID ignoriert werden sollen. Der Standardwert istFALSCH  in C#.
 type: docs
 weight: 60
 url: /de/net/aspose.words.comparing/compareoptions/ignoredmluniqueid/
@@ -14,7 +16,7 @@ Gibt an, ob Unterschiede in der eindeutigen DrawingML-ID ignoriert werden sollen
 public bool IgnoreDmlUniqueId { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Dokumente verglichen werden, wobei die eindeutige DML-ID ignoriert wird.
 
@@ -35,7 +37,5 @@ Assert.AreEqual(isIgnoreDmlUniqueId ? 0 : 2, docA.Revisions.Count);
 ### Siehe auch
 
 * class [CompareOptions](../)
-* namensraum [Aspose.Words.Comparing](../../compareoptions/)
+* namensraum [Aspose.Words.Comparing](../../../aspose.words.comparing/)
 * Montage [Aspose.Words](../../../)
-
-

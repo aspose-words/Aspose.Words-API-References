@@ -1,7 +1,9 @@
 ---
 title: InlineStory.ParentParagraph
-second_title: Aspose.Words für .NET-API-Referenz
-description: InlineStory eigendom. Ruft das übergeordnete Element abParagraph dieses Knotens.
+linktitle: ParentParagraph
+articleTitle: ParentParagraph
+second_title: Aspose.Words für .NET
+description: InlineStory ParentParagraph eigendom. Ruft das übergeordnete Element abParagraph dieses Knotens in C#.
 type: docs
 weight: 90
 url: /de/net/aspose.words/inlinestory/parentparagraph/
@@ -14,7 +16,7 @@ Ruft das übergeordnete Element ab[`Paragraph`](../../paragraph/) dieses Knotens
 public Paragraph ParentParagraph { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie InlineStory-Knoten eingefügt werden.
 
@@ -74,7 +76,5 @@ doc.Save(ArtifactsDir + "InlineStory.InsertInlineStoryNodes.docx");
 
 * class [Paragraph](../../paragraph/)
 * class [InlineStory](../)
-* namensraum [Aspose.Words](../../inlinestory/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

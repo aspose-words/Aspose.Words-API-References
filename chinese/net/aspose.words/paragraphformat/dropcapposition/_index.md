@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.DropCapPosition
-second_title: Aspose.Words for .NET API 参考
-description: ParagraphFormat 财产. 获取或设置首字下沉文本的位置
+linktitle: DropCapPosition
+articleTitle: DropCapPosition
+second_title: 用于 .NET 的 Aspose.Words
+description: ParagraphFormat DropCapPosition 财产. 获取或设置首字下沉文本的位置 在 C#.
 type: docs
 weight: 100
 url: /zh/net/aspose.words/paragraphformat/dropcapposition/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/paragraphformat/dropcapposition/
 public DropCapPosition DropCapPosition { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何将一个列表嵌套在另一个列表中。
 
@@ -69,7 +71,5 @@ builder.Document.Save(ArtifactsDir + "Lists.NestedLists.docx");
 
 * enum [DropCapPosition](../../dropcapposition/)
 * class [ParagraphFormat](../)
-* 命名空间 [Aspose.Words](../../paragraphformat/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

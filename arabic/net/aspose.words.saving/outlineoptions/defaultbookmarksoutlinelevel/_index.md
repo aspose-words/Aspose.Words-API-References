@@ -1,7 +1,9 @@
 ---
 title: OutlineOptions.DefaultBookmarksOutlineLevel
-second_title: Aspose.Words لمراجع .NET API
-description: OutlineOptions ملكية. يحدد المستوى الافتراضي في المخطط التفصيلي للمستند الذي سيتم عرض إشارات Word المرجعية فيه.
+linktitle: DefaultBookmarksOutlineLevel
+articleTitle: DefaultBookmarksOutlineLevel
+second_title: Aspose.Words لـ .NET
+description: OutlineOptions DefaultBookmarksOutlineLevel ملكية. يحدد المستوى الافتراضي في المخطط التفصيلي للمستند الذي سيتم عرض إشارات Word المرجعية فيه في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.saving/outlineoptions/defaultbookmarksoutlinelevel/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.saving/outlineoptions/defaultbookmarksoutlinelevel/
 public int DefaultBookmarksOutlineLevel { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 يمكن تحديد مستوى الإشارات المرجعية الفردية باستخدام[`BookmarksOutlineLevels`](../bookmarksoutlinelevels/) ملكية.
 
@@ -22,7 +24,7 @@ public int DefaultBookmarksOutlineLevel { get; set; }
 
 الافتراضي هو 0. النطاق الصالح هو من 0 إلى 9.
 
-### أمثلة
+## أمثلة
 
 يظهر لمعالجة الإشارات المرجعية في الرؤوس/التذييلات في المستند الذي نعرضه إلى PDF.
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.HeaderFooterBookmarksExportMode.pdf", sa
 ### أنظر أيضا
 
 * class [OutlineOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../outlineoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

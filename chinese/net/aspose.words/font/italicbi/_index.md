@@ -1,7 +1,9 @@
 ---
 title: Font.ItalicBi
-second_title: Aspose.Words for .NET API 参考
-description: Font 财产. 如果从右到左的文本格式为斜体则为 True
+linktitle: ItalicBi
+articleTitle: ItalicBi
+second_title: 用于 .NET 的 Aspose.Words
+description: Font ItalicBi 财产. 如果从右到左的文本格式为斜体则为 True 在 C#.
 type: docs
 weight: 170
 url: /zh/net/aspose.words/font/italicbi/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/font/italicbi/
 public bool ItalicBi { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何为从右到左和从右到左的文本定义单独的字体设置集。
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "Font.Bidi.docx");
 ### 也可以看看
 
 * class [Font](../)
-* 命名空间 [Aspose.Words](../../font/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

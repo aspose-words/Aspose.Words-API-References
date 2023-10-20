@@ -1,7 +1,9 @@
 ---
 title: MustacheTag.ReferenceOffset
-second_title: Aspose.Words لمراجع .NET API
-description: MustacheTag ملكية. يحصل على موضع البداية الصفري للعلامة من بدايةReferenceRun .
+linktitle: ReferenceOffset
+articleTitle: ReferenceOffset
+second_title: Aspose.Words لـ .NET
+description: MustacheTag ReferenceOffset ملكية. يحصل على موضع البداية الصفري للعلامة من بدايةReferenceRun  في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.mailmerging/mustachetag/referenceoffset/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.mailmerging/mustachetag/referenceoffset/
 public int ReferenceOffset { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع علامات الشارب.
 
@@ -41,7 +43,5 @@ foreach (MailMergeRegionInfo region in hierarchy.Regions)
 ### أنظر أيضا
 
 * class [MustacheTag](../)
-* مساحة الاسم [Aspose.Words.MailMerging](../../mustachetag/)
+* مساحة الاسم [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * المجسم [Aspose.Words](../../../)
-
-

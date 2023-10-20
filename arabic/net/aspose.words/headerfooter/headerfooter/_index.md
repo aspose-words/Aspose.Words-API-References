@@ -1,7 +1,9 @@
 ---
-title: HeaderFooter.HeaderFooter
-second_title: Aspose.Words لمراجع .NET API
-description: HeaderFooter البناء. إنشاء رأس أو تذييل جديد من النوع المحدد.
+title: HeaderFooter
+linktitle: HeaderFooter
+articleTitle: HeaderFooter
+second_title: Aspose.Words لـ .NET
+description: HeaderFooter البناء. إنشاء رأس أو تذييل جديد من النوع المحدد في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words/headerfooter/headerfooter/
@@ -19,13 +21,13 @@ public HeaderFooter(DocumentBase doc, HeaderFooterType headerFooterType)
 | doc | DocumentBase | وثيقة المالك. |
 | headerFooterType | HeaderFooterType | أ[`HeaderFooterType`](../headerfootertype/) value الذي يحدد نوع الرأس أو التذييل. |
 
-### ملاحظات
+## ملاحظات
 
 متى[`HeaderFooter`](../) تم إنشاؤه، فهو ينتمي إلى المستند المحدد، ولكنه ليس بعد جزءًا من المستند و[`ParentNode`](../../node/parentnode/) يكون`باطل`.
 
-لإلحاق[`HeaderFooter`](../)إلى أ[`Section`](../../section/) يستخدمNode) ,Node) أو[`HeadersFooters`](../../section/headersfooters/) الممتلكات والأساليب[`Add`](../../nodecollection/add/) ,[`Insert`](../../nodecollection/insert/).
+لإلحاق[`HeaderFooter`](../)إلى أ[`Section`](../../section/) يستخدم[`InsertAfter`](../../compositenode/insertafter/) ,[`InsertBefore`](../../compositenode/insertbefore/) أو[`HeadersFooters`](../../section/headersfooters/) الممتلكات والأساليب[`Add`](../../nodecollection/add/) ,[`Insert`](../../nodecollection/insert/).
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء رأس وتذييل.
 
@@ -64,7 +66,5 @@ doc.Save(ArtifactsDir + "HeaderFooter.Create.docx");
 * class [DocumentBase](../../documentbase/)
 * enum [HeaderFooterType](../../headerfootertype/)
 * class [HeaderFooter](../)
-* مساحة الاسم [Aspose.Words](../../headerfooter/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

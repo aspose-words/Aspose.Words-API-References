@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.IsTopLevel
-second_title: Справочник по API Aspose.Words для .NET
-description: ShapeBase свойство. Возвращаетистинныйесли эта фигура не является дочерней фигурой группы.
+linktitle: IsTopLevel
+articleTitle: IsTopLevel
+second_title: Aspose.Words для .NET
+description: ShapeBase IsTopLevel свойство. Возвращаетистинныйесли эта фигура не является дочерней фигурой группы на С#.
 type: docs
 weight: 350
 url: /ru/net/aspose.words.drawing/shapebase/istoplevel/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.drawing/shapebase/istoplevel/
 public bool IsTopLevel { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как определить, является ли фигура частью группы фигур.
 
@@ -39,7 +41,5 @@ Assert.False(shape.IsTopLevel);
 ### Смотрите также
 
 * class [ShapeBase](../)
-* пространство имен [Aspose.Words.Drawing](../../shapebase/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldMergingArgsBase.RecordIndex
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldMergingArgsBase propriété. Obtient lindex de base zéro de lenregistrement en cours de fusion.
+linktitle: RecordIndex
+articleTitle: RecordIndex
+second_title: Aspose.Words pour .NET
+description: FieldMergingArgsBase RecordIndex propriété. Obtient lindex de base zéro de lenregistrement en cours de fusion en C#.
 type: docs
 weight: 60
 url: /fr/net/aspose.words.mailmerging/fieldmergingargsbase/recordindex/
@@ -14,7 +16,7 @@ Obtient l'index de base zéro de l'enregistrement en cours de fusion.
 public int RecordIndex { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment insérer des champs de formulaire de case à cocher dans les MERGEFIELD en tant que données de fusion lors du publipostage.
 
@@ -100,7 +102,5 @@ private static DataTable GetStudentCourseDataTable()
 ### Voir également
 
 * class [FieldMergingArgsBase](../)
-* espace de noms [Aspose.Words.MailMerging](../../fieldmergingargsbase/)
+* espace de noms [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * Assemblée [Aspose.Words](../../../)
-
-

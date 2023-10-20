@@ -1,7 +1,9 @@
 ---
-title: Enum TableStyleOptions
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Tables.TableStyleOptions opsomming. Gibt an wie der Tabellenstil auf eine Tabelle angewendet wird.
+title: TableStyleOptions Enum
+linktitle: TableStyleOptions
+articleTitle: TableStyleOptions
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Tables.TableStyleOptions opsomming. Gibt an wie der Tabellenstil auf eine Tabelle angewendet wird in C#.
 type: docs
 weight: 6370
 url: /de/net/aspose.words.tables/tablestyleoptions/
@@ -29,7 +31,7 @@ public enum TableStyleOptions
 | Default2003 | `600` | Zeilen- und Spaltenbänderung wird angewendet. Dies ist die Microsoft Word-Standardeinstellung für alte Formate wie DOC, WML und RTF. |
 | Default | `2A0` | Dies sind die Standardeinstellungen von Microsoft Word. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man eine neue Tabelle erstellt und dabei einen Stil anwendet.
 
@@ -82,5 +84,3 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTableWithStyle.docx");
 * property [StyleOptions](../table/styleoptions/)
 * namensraum [Aspose.Words.Tables](../../aspose.words.tables/)
 * Montage [Aspose.Words](../../)
-
-

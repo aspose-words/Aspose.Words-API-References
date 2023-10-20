@@ -1,7 +1,9 @@
 ---
 title: PageInfo.GetSpecifiedPrinterPaperSource
-second_title: Aspose.Words för .NET API Referens
-description: PageInfo metod. FårPaperSource objekt som är lämpligt för utskrift sidan som representeras av dettaPageInfo .
+linktitle: GetSpecifiedPrinterPaperSource
+articleTitle: GetSpecifiedPrinterPaperSource
+second_title: Aspose.Words för .NET
+description: PageInfo GetSpecifiedPrinterPaperSource metod. FårPaperSource objekt som är lämpligt för utskrift sidan som representeras av dettaPageInfo  i C#.
 type: docs
 weight: 100
 url: /sv/net/aspose.words.rendering/pageinfo/getspecifiedprinterpapersource/
@@ -24,11 +26,11 @@ public PaperSource GetSpecifiedPrinterPaperSource(PaperSourceCollection paperSou
 
 Ett objekt som du kan använda i .NET-utskriftsramverket för att ange papperskällan.
 
-### Anmärkningar
+## Anmärkningar
 
 Denna metod kräver .NET Framework 2.0 eller senare.
 
-### Exempel
+## Exempel
 
 Visar hur du skriver ut information om sidstorlek och orientering för varje sida i ett Word-dokument.
 
@@ -70,7 +72,5 @@ for (int i = 0; i < doc.PageCount; i++)
 ### Se även
 
 * class [PageInfo](../)
-* namnutrymme [Aspose.Words.Rendering](../../pageinfo/)
+* namnutrymme [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * hopsättning [Aspose.Words](../../../)
-
-

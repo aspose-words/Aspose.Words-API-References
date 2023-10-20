@@ -1,7 +1,9 @@
 ---
 title: ResourceLoadingArgs.OriginalUri
-second_title: Referencia de API de Aspose.Words para .NET
-description: ResourceLoadingArgs propiedad. URI original del recurso como se especifica en el documento importado.
+linktitle: OriginalUri
+articleTitle: OriginalUri
+second_title: Aspose.Words para .NET
+description: ResourceLoadingArgs OriginalUri propiedad. URI original del recurso como se especifica en el documento importado en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words.loading/resourceloadingargs/originaluri/
@@ -14,7 +16,7 @@ URI original del recurso como se especifica en el documento importado.
 public string OriginalUri { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo personalizar el proceso de carga de recursos externos en un documento.
 
@@ -77,7 +79,5 @@ private class ImageNameHandler : IResourceLoadingCallback
 ### Ver también
 
 * class [ResourceLoadingArgs](../)
-* espacio de nombres [Aspose.Words.Loading](../../resourceloadingargs/)
+* espacio de nombres [Aspose.Words.Loading](../../../aspose.words.loading/)
 * asamblea [Aspose.Words](../../../)
-
-

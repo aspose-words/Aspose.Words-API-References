@@ -1,7 +1,9 @@
 ---
 title: OleFormat.OleIcon
-second_title: Справочник по API Aspose.Words для .NET
-description: OleFormat свойство. Получает аспект рисования объекта OLE. Когдаистинный  объект OLE отображается в виде значка. КогдаЛОЖЬ  объект OLE отображается как контент.
+linktitle: OleIcon
+articleTitle: OleIcon
+second_title: Aspose.Words для .NET
+description: OleFormat OleIcon свойство. Получает аспект рисования объекта OLE. Когдаистинный  объект OLE отображается в виде значка. КогдаЛОЖЬ  объект OLE отображается как контент на С#.
 type: docs
 weight: 70
 url: /ru/net/aspose.words.drawing/oleformat/oleicon/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.drawing/oleformat/oleicon/
 public bool OleIcon { get; }
 ```
 
-### Примечания
+## Примечания
 
 Aspose.Words не позволяет устанавливать это свойство во избежание путаницы. Если бы вы могли изменить аспект рисования в Aspose.Words, Microsoft Word по-прежнему будет отображать объект OLE в его исходном аспекте рисования, пока вы не отредактируете или не обновите объект OLE в Microsoft Word.
 
-### Примеры
+## Примеры
 
 Показывает, как вставлять связанные и несвязанные объекты OLE.
 
@@ -68,7 +70,5 @@ using (MemoryStream stream = oleFormat.GetOleEntry("\x0001CompObj"))
 ### Смотрите также
 
 * class [OleFormat](../)
-* пространство имен [Aspose.Words.Drawing](../../oleformat/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: CustomXmlPropertyCollection.RemoveAt
-second_title: Aspose.Words لمراجع .NET API
-description: CustomXmlPropertyCollection طريقة. إزالة خاصية في الفهرس المحدد.
+linktitle: RemoveAt
+articleTitle: RemoveAt
+second_title: Aspose.Words لـ .NET
+description: CustomXmlPropertyCollection RemoveAt طريقة. إزالة خاصية في الفهرس المحدد في C#.
 type: docs
 weight: 90
 url: /ar/net/aspose.words.markup/customxmlpropertycollection/removeat/
@@ -18,7 +20,7 @@ public void RemoveAt(int index)
 | --- | --- | --- |
 | index | Int32 | المؤشر القائم على الصفر. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التعامل مع خصائص العلامات الذكية للحصول على معلومات متعمقة حول العلامات الذكية.
 
@@ -75,7 +77,5 @@ Assert.AreEqual(0, properties.Count);
 ### أنظر أيضا
 
 * class [CustomXmlPropertyCollection](../)
-* مساحة الاسم [Aspose.Words.Markup](../../customxmlpropertycollection/)
+* مساحة الاسم [Aspose.Words.Markup](../../../aspose.words.markup/)
 * المجسم [Aspose.Words](../../../)
-
-

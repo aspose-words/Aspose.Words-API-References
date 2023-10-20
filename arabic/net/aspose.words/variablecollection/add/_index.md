@@ -1,7 +1,9 @@
 ---
 title: VariableCollection.Add
-second_title: Aspose.Words لمراجع .NET API
-description: VariableCollection طريقة. إضافة متغير مستند إلى المجموعة.
+linktitle: Add
+articleTitle: Add
+second_title: Aspose.Words لـ .NET
+description: VariableCollection Add طريقة. إضافة متغير مستند إلى المجموعة في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words/variablecollection/add/
@@ -19,7 +21,7 @@ public void Add(string name, string value)
 | name | String | الاسم غير حساس لحالة الأحرف للمتغير المراد إضافته. |
 | value | String | قيمة المتغير. لا يمكن أن تكون القيمة`باطل`، إذا كانت القيمة فارغة فسيتم استخدام سلسلة فارغة بدلاً من ذلك. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع مجموعة متغيرات المستند.
 
@@ -86,7 +88,5 @@ Assert.That(variables, Is.Empty);
 ### أنظر أيضا
 
 * class [VariableCollection](../)
-* مساحة الاسم [Aspose.Words](../../variablecollection/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

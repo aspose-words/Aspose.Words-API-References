@@ -1,7 +1,9 @@
 ---
-title: Class MustacheTag
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.MailMerging.MustacheTag classe. Rappresenta il tag baffi.
+title: MustacheTag Class
+linktitle: MustacheTag
+articleTitle: MustacheTag
+second_title: Aspose.Words per .NET
+description: Aspose.Words.MailMerging.MustacheTag classe. Rappresenta il tag baffi in C#.
 type: docs
 weight: 3880
 url: /it/net/aspose.words.mailmerging/mustachetag/
@@ -26,5 +28,3 @@ public class MustacheTag
 
 * spazio dei nomi [Aspose.Words.MailMerging](../../aspose.words.mailmerging/)
 * assemblea [Aspose.Words](../../)
-
-

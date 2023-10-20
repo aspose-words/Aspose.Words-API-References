@@ -1,7 +1,9 @@
 ---
 title: Font.UnderlineColor
-second_title: Aspose.Words für .NET-API-Referenz
-description: Font eigendom. Ruft die Farbe der auf die Schriftart angewendeten Unterstreichung ab oder legt diese fest.
+linktitle: UnderlineColor
+articleTitle: UnderlineColor
+second_title: Aspose.Words für .NET
+description: Font UnderlineColor eigendom. Ruft die Farbe der auf die Schriftart angewendeten Unterstreichung ab oder legt diese fest in C#.
 type: docs
 weight: 540
 url: /de/net/aspose.words/font/underlinecolor/
@@ -14,7 +16,7 @@ Ruft die Farbe der auf die Schriftart angewendeten Unterstreichung ab oder legt 
 public Color UnderlineColor { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie den Stil und die Farbe einer Textunterstreichung konfigurieren.
 
@@ -33,7 +35,5 @@ doc.Save(ArtifactsDir + "Font.Underlines.docx");
 ### Siehe auch
 
 * class [Font](../)
-* namensraum [Aspose.Words](../../font/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

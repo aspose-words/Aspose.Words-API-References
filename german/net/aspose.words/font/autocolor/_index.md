@@ -1,7 +1,9 @@
 ---
 title: Font.AutoColor
-second_title: Aspose.Words für .NET-API-Referenz
-description: Font eigendom. Gibt die aktuell berechnete Farbe des Texts Schwarz oder Weiß zurück die für AutoFarbe verwendet werden soll. Wenn die Farbe nicht Auto ist wird zurückgegebenColor .
+linktitle: AutoColor
+articleTitle: AutoColor
+second_title: Aspose.Words für .NET
+description: Font AutoColor eigendom. Gibt die aktuell berechnete Farbe des Texts Schwarz oder Weiß zurück die für AutoFarbe verwendet werden soll. Wenn die Farbe nicht Auto ist wird zurückgegebenColor  in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words/font/autocolor/
@@ -14,11 +16,11 @@ Gibt die aktuell berechnete Farbe des Texts (Schwarz oder Weiß) zurück, die f�
 public Color AutoColor { get; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Wenn Text eine „automatische Farbe“ hat, wird die tatsächliche Farbe des Texts automatisch berechnet , sodass er vor der Hintergrundfarbe lesbar ist. Wenn Sie die Hintergrundfarbe ändern, wechselt die Textfarbe in MS Word automatisch zu Schwarz oder Weiß, um die Lesbarkeit zu maximieren.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie die Lesbarkeit verbessern können, indem Sie die Textfarbe automatisch basierend auf der Helligkeit des Hintergrunds auswählen.
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "Font.SetFontAutoColor.docx");
 ### Siehe auch
 
 * class [Font](../)
-* namensraum [Aspose.Words](../../font/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

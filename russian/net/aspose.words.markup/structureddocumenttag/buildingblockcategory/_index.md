@@ -1,26 +1,28 @@
 ---
 title: StructuredDocumentTag.BuildingBlockCategory
-second_title: Справочник по API Aspose.Words для .NET
-description: StructuredDocumentTag свойство. Указывает категорию стандартного блока для этого СДТ node. Не может бытьнулевой .
+linktitle: BuildingBlockCategory
+articleTitle: BuildingBlockCategory
+second_title: Aspose.Words для .NET
+description: StructuredDocumentTag BuildingBlockCategory свойство. Указывает категорию стандартного блока для этогоСДТ node. Не может бытьнулевой  на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.markup/structureddocumenttag/buildingblockcategory/
 ---
 ## StructuredDocumentTag.BuildingBlockCategory property
 
-Указывает категорию стандартного блока для этого **СДТ** node. Не может быть`нулевой` .
+Указывает категорию стандартного блока для этого**СДТ** node. Не может быть`нулевой` .
 
 ```csharp
 public string BuildingBlockCategory { get; set; }
 ```
 
-### Примечания
+## Примечания
 
-Доступ к этому ресурсу будет работать только дляBuildingBlockGallery and DocPartObj Типы СДТ. Он доступен только для чтения для **СДТ** типа части документа.
+Доступ к этому ресурсу будет работать только дляBuildingBlockGallery and DocPartObj Типы СДТ. Он доступен только для чтения для**СДТ** типа части документа.
 
 Для всех остальных типов SDT возникнет исключение.
 
-### Примеры
+## Примеры
 
 Показывает, как вставить тег структурированного документа в качестве стандартного блока и установить его категорию и галерею.
 
@@ -42,7 +44,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.BuildingBlockCategories.docx");
 ### Смотрите также
 
 * class [StructuredDocumentTag](../)
-* пространство имен [Aspose.Words.Markup](../../structureddocumenttag/)
+* пространство имен [Aspose.Words.Markup](../../../aspose.words.markup/)
 * сборка [Aspose.Words](../../../)
-
-

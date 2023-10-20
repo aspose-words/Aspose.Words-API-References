@@ -1,7 +1,9 @@
 ---
 title: Field.Type
-second_title: Справочник по API Aspose.Words для .NET
-description: Field свойство. Получает тип поля Microsoft Word.
+linktitle: Type
+articleTitle: Type
+second_title: Aspose.Words для .NET
+description: Field Type свойство. Получает тип поля Microsoft Word на С#.
 type: docs
 weight: 100
 url: /ru/net/aspose.words.fields/field/type/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/field/type/
 public virtual FieldType Type { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как вставить поле в документ с помощью кода поля.
 
@@ -35,7 +37,5 @@ Assert.That(DateTime.Parse(field.Result), Is.EqualTo(DateTime.Today).Within(1).D
 
 * enum [FieldType](../../fieldtype/)
 * class [Field](../)
-* пространство имен [Aspose.Words.Fields](../../field/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

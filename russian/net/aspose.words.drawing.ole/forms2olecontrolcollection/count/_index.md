@@ -1,7 +1,9 @@
 ---
 title: Forms2OleControlCollection.Count
-second_title: Справочник по API Aspose.Words для .NET
-description: Forms2OleControlCollection свойство. Получает количество объектов в коллекции.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words для .NET
+description: Forms2OleControlCollection Count свойство. Получает количество объектов в коллекции на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.drawing.ole/forms2olecontrolcollection/count/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.drawing.ole/forms2olecontrolcollection/count/
 public int Count { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как получить доступ к элементу управления OLE, встроенному в документ, и его дочерним элементам управления.
 
@@ -46,7 +48,5 @@ Assert.AreEqual("0", oleControlCollection[2].Value);
 ### Смотрите также
 
 * class [Forms2OleControlCollection](../)
-* пространство имен [Aspose.Words.Drawing.Ole](../../forms2olecontrolcollection/)
+* пространство имен [Aspose.Words.Drawing.Ole](../../../aspose.words.drawing.ole/)
 * сборка [Aspose.Words](../../../)
-
-

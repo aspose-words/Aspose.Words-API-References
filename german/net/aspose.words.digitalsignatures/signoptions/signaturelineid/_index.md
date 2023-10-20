@@ -1,24 +1,26 @@
 ---
 title: SignOptions.SignatureLineId
-second_title: Aspose.Words für .NET-API-Referenz
-description: SignOptions eigendom. Signaturzeilenkennung. Der Standardwert ist Leere alle Nullen Guid .
+linktitle: SignatureLineId
+articleTitle: SignatureLineId
+second_title: Aspose.Words für .NET
+description: SignOptions SignatureLineId eigendom. Signaturzeilenkennung. Der Standardwert istLeere alle Nullen Guid  in C#.
 type: docs
 weight: 50
 url: /de/net/aspose.words.digitalsignatures/signoptions/signaturelineid/
 ---
 ## SignOptions.SignatureLineId property
 
-Signaturzeilenkennung. Der Standardwert ist **Leere (alle Nullen) Guid** .
+Signaturzeilenkennung. Der Standardwert ist**Leere (alle Nullen) Guid** .
 
 ```csharp
 public Guid SignatureLineId { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Wenn festgelegt, wird es zugeordnet[`SignatureLine`](../../../aspose.words.drawing/signatureline/) mit entsprechendem[`DigitalSignature`](../../digitalsignature/) .
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man einem Dokument eine Signaturzeile hinzufügt und es dann mit einem digitalen Zertifikat signiert.
 
@@ -134,7 +136,5 @@ Zeigt, wie man einem Dokument eine Signaturzeile hinzufügt und es dann mit eine
 ### Siehe auch
 
 * class [SignOptions](../)
-* namensraum [Aspose.Words.DigitalSignatures](../../signoptions/)
+* namensraum [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * Montage [Aspose.Words](../../../)
-
-

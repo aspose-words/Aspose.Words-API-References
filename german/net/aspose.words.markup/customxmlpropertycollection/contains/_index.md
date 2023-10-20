@@ -1,7 +1,9 @@
 ---
 title: CustomXmlPropertyCollection.Contains
-second_title: Aspose.Words für .NET-API-Referenz
-description: CustomXmlPropertyCollection methode. Bestimmt ob die Sammlung eine Eigenschaft mit dem angegebenen Namen enthält.
+linktitle: Contains
+articleTitle: Contains
+second_title: Aspose.Words für .NET
+description: CustomXmlPropertyCollection Contains methode. Bestimmt ob die Sammlung eine Eigenschaft mit dem angegebenen Namen enthält in C#.
 type: docs
 weight: 50
 url: /de/net/aspose.words.markup/customxmlpropertycollection/contains/
@@ -22,7 +24,7 @@ public bool Contains(string name)
 
 `WAHR` wenn der Artikel in der Sammlung gefunden wird; ansonsten,`FALSCH`.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie mit Smart-Tag-Eigenschaften arbeiten, um detaillierte Informationen zu Smart-Tags zu erhalten.
 
@@ -79,7 +81,5 @@ Assert.AreEqual(0, properties.Count);
 ### Siehe auch
 
 * class [CustomXmlPropertyCollection](../)
-* namensraum [Aspose.Words.Markup](../../customxmlpropertycollection/)
+* namensraum [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Montage [Aspose.Words](../../../)
-
-

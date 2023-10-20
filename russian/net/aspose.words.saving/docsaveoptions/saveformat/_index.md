@@ -1,7 +1,9 @@
 ---
 title: DocSaveOptions.SaveFormat
-second_title: Справочник по API Aspose.Words для .NET
-description: DocSaveOptions свойство. Указывает формат в котором документ будет сохранен если используется этот объект параметров сохранения. Может бытьDoc илиDot .
+linktitle: SaveFormat
+articleTitle: SaveFormat
+second_title: Aspose.Words для .NET
+description: DocSaveOptions SaveFormat свойство. Указывает формат в котором документ будет сохранен если используется этот объект параметров сохранения. Может бытьDoc илиDot  на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.saving/docsaveoptions/saveformat/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.saving/docsaveoptions/saveformat/
 public override SaveFormat SaveFormat { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как настроить параметры сохранения для старых форматов Microsoft Word.
 
@@ -48,7 +50,5 @@ Assert.AreEqual("Hello world!", doc.GetText().Trim());
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
 * class [DocSaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../docsaveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

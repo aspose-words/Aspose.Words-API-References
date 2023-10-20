@@ -1,7 +1,9 @@
 ---
 title: Font.LocaleIdBi
-second_title: Aspose.Words per .NET API Reference
-description: Font proprietà. Ottiene o imposta lidentificatore locale lingua dei caratteri formattati da destra a sinistra.
+linktitle: LocaleIdBi
+articleTitle: LocaleIdBi
+second_title: Aspose.Words per .NET
+description: Font LocaleIdBi proprietà. Ottiene o imposta lidentificatore locale lingua dei caratteri formattati da destra a sinistra in C#.
 type: docs
 weight: 210
 url: /it/net/aspose.words/font/localeidbi/
@@ -14,11 +16,11 @@ Ottiene o imposta l'identificatore locale (lingua) dei caratteri formattati da d
 public int LocaleIdBi { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Per l'elenco degli identificatori locali vedere https://msdn.microsoft.com/en-us/library/cc233965.aspx
 
-### Esempi
+## Esempi
 
 Mostra come definire set separati di impostazioni dei caratteri per il testo da destra a sinistra e da destra a sinistra.
 
@@ -57,7 +59,5 @@ doc.Save(ArtifactsDir + "Font.Bidi.docx");
 ### Guarda anche
 
 * class [Font](../)
-* spazio dei nomi [Aspose.Words](../../font/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

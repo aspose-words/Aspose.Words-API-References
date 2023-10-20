@@ -1,7 +1,9 @@
 ---
 title: PdfDigitalSignatureDetails.TimestampSettings
-second_title: Aspose.Words för .NET API Referens
-description: PdfDigitalSignatureDetails fast egendom. Hämtar eller ställer in tidsstämpelinställningarna för digital signatur.
+linktitle: TimestampSettings
+articleTitle: TimestampSettings
+second_title: Aspose.Words för .NET
+description: PdfDigitalSignatureDetails TimestampSettings fast egendom. Hämtar eller ställer in tidsstämpelinställningarna för digital signatur i C#.
 type: docs
 weight: 70
 url: /sv/net/aspose.words.saving/pdfdigitalsignaturedetails/timestampsettings/
@@ -14,11 +16,11 @@ Hämtar eller ställer in tidsstämpelinställningarna för digital signatur.
 public PdfDigitalSignatureTimestampSettings TimestampSettings { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Standardvärdet är`null` och den digitala signaturen kommer inte att tidsstämplas. När den här egenskapen är inställd på en giltig[`PdfDigitalSignatureTimestampSettings`](../../pdfdigitalsignaturetimestampsettings/) object, så kommer den digitala signaturen i PDF-dokumentet att tidsstämplas.
 
-### Exempel
+## Exempel
 
 Visar hur man signerar ett sparat PDF-dokument digitalt och tidsstämplar det.
 
@@ -59,7 +61,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignatureTimestamp.pdf", optio
 
 * class [PdfDigitalSignatureTimestampSettings](../../pdfdigitalsignaturetimestampsettings/)
 * class [PdfDigitalSignatureDetails](../)
-* namnutrymme [Aspose.Words.Saving](../../pdfdigitalsignaturedetails/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

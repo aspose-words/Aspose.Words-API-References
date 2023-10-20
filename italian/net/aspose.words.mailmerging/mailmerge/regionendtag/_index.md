@@ -1,7 +1,9 @@
 ---
 title: MailMerge.RegionEndTag
-second_title: Aspose.Words per .NET API Reference
-description: MailMerge proprietà. Ottiene o imposta un tag di fine della regione di stampa unione.
+linktitle: RegionEndTag
+articleTitle: RegionEndTag
+second_title: Aspose.Words per .NET
+description: MailMerge RegionEndTag proprietà. Ottiene o imposta un tag di fine della regione di stampa unione in C#.
 type: docs
 weight: 90
 url: /it/net/aspose.words.mailmerging/mailmerge/regionendtag/
@@ -14,7 +16,7 @@ Ottiene o imposta un tag di fine della regione di stampa unione.
 public string RegionEndTag { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come creare, elencare e leggere le aree di stampa unione.
 
@@ -69,7 +71,5 @@ Assert.AreEqual("Column2", mergeFieldNames[0]);
 ### Guarda anche
 
 * class [MailMerge](../)
-* spazio dei nomi [Aspose.Words.MailMerging](../../mailmerge/)
+* spazio dei nomi [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * assemblea [Aspose.Words](../../../)
-
-

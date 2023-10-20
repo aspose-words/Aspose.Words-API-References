@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.StyleIdentifier
-second_title: Справочник по API Aspose.Words для .NET
-description: ParagraphFormat свойство. Получает или задает независимый от локали идентификатор стиля абзаца примененного к этому форматированию.
+linktitle: StyleIdentifier
+articleTitle: StyleIdentifier
+second_title: Aspose.Words для .NET
+description: ParagraphFormat StyleIdentifier свойство. Получает или задает независимый от локали идентификатор стиля абзаца примененного к этому форматированию на С#.
 type: docs
 weight: 350
 url: /ru/net/aspose.words/paragraphformat/styleidentifier/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/paragraphformat/styleidentifier/
 public StyleIdentifier StyleIdentifier { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как вставить оглавление (TOC) в документ, используя стили заголовков в качестве записей.
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertToc.docx");
 
 * enum [StyleIdentifier](../../styleidentifier/)
 * class [ParagraphFormat](../)
-* пространство имен [Aspose.Words](../../paragraphformat/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

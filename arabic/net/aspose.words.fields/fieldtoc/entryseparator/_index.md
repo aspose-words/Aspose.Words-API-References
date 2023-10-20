@@ -1,7 +1,9 @@
 ---
 title: FieldToc.EntrySeparator
-second_title: Aspose.Words لمراجع .NET API
-description: FieldToc ملكية. الحصول على أو تعيين سلسلة من الأحرف التي تفصل بين الإدخال ورقم الصفحة الخاصة به.
+linktitle: EntrySeparator
+articleTitle: EntrySeparator
+second_title: Aspose.Words لـ .NET
+description: FieldToc EntrySeparator ملكية. الحصول على أو تعيين سلسلة من الأحرف التي تفصل بين الإدخال ورقم الصفحة الخاصة به في C#.
 type: docs
 weight: 70
 url: /ar/net/aspose.words.fields/fieldtoc/entryseparator/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldtoc/entryseparator/
 public string EntrySeparator { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج جدول محتويات، وتعبئته بالإدخالات بناءً على أنماط العناوين.
 
@@ -99,7 +101,5 @@ public void InsertNewPageWithHeading(DocumentBuilder builder, string captionText
 ### أنظر أيضا
 
 * class [FieldToc](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldtoc/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

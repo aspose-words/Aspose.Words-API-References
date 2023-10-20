@@ -1,7 +1,9 @@
 ---
 title: CustomXmlSchemaCollection.IndexOf
-second_title: Aspose.Words لمراجع .NET API
-description: CustomXmlSchemaCollection طريقة. إرجاع الفهرس الصفري للقيمة المحددة في المجموعة.
+linktitle: IndexOf
+articleTitle: IndexOf
+second_title: Aspose.Words لـ .NET
+description: CustomXmlSchemaCollection IndexOf طريقة. إرجاع الفهرس الصفري للقيمة المحددة في المجموعة في C#.
 type: docs
 weight: 70
 url: /ar/net/aspose.words.markup/customxmlschemacollection/indexof/
@@ -22,7 +24,7 @@ public int IndexOf(string value)
 
 المؤشر القائم على الصفر. قيمة سلبية إذا لم يتم العثور عليها.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع مجموعة مخططات XML.
 
@@ -68,7 +70,5 @@ Assert.AreEqual(0, schemas.Count);
 ### أنظر أيضا
 
 * class [CustomXmlSchemaCollection](../)
-* مساحة الاسم [Aspose.Words.Markup](../../customxmlschemacollection/)
+* مساحة الاسم [Aspose.Words.Markup](../../../aspose.words.markup/)
 * المجسم [Aspose.Words](../../../)
-
-

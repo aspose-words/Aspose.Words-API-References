@@ -1,7 +1,9 @@
 ---
-title: Enum PageBorderDistanceFrom
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.PageBorderDistanceFrom énumération. Spécifie le positionnement de la bordure de la page par rapport à la marge de la page.
+title: PageBorderDistanceFrom Enum
+linktitle: PageBorderDistanceFrom
+articleTitle: PageBorderDistanceFrom
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.PageBorderDistanceFrom énumération. Spécifie le positionnement de la bordure de la page par rapport à la marge de la page en C#.
 type: docs
 weight: 4350
 url: /fr/net/aspose.words/pageborderdistancefrom/
@@ -21,7 +23,7 @@ public enum PageBorderDistanceFrom
 | Text | `0` | La position de la bordure est mesurée à partir de la marge de la page. |
 | PageEdge | `1` | La position de la bordure est mesurée à partir du bord de la page. |
 
-### Exemples
+## Exemples
 
 Montre comment créer une large bordure bleue en haut de la première page.
 
@@ -48,5 +50,3 @@ doc.Save(ArtifactsDir + "PageSetup.PageBorderProperties.docx");
 * property [BorderDistanceFrom](../pagesetup/borderdistancefrom/)
 * espace de noms [Aspose.Words](../../aspose.words/)
 * Assemblée [Aspose.Words](../../)
-
-

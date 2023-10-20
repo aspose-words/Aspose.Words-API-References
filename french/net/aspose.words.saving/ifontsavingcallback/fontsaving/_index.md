@@ -1,7 +1,9 @@
 ---
 title: IFontSavingCallback.FontSaving
-second_title: Référence de l'API Aspose.Words pour .NET
-description: IFontSavingCallback méthode. Appelé lorsquAspose.Words est sur le point denregistrer une ressource de police.
+linktitle: FontSaving
+articleTitle: FontSaving
+second_title: Aspose.Words pour .NET
+description: IFontSavingCallback FontSaving méthode. Appelé lorsquAspose.Words est sur le point denregistrer une ressource de police en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.saving/ifontsavingcallback/fontsaving/
@@ -14,7 +16,7 @@ Appelé lorsqu'Aspose.Words est sur le point d'enregistrer une ressource de poli
 public void FontSaving(FontSavingArgs args)
 ```
 
-### Exemples
+## Exemples
 
 Montre comment définir une logique personnalisée pour l’exportation des polices lors de l’enregistrement au format HTML.
 
@@ -75,7 +77,5 @@ public class HandleFontSaving : IFontSavingCallback
 
 * class [FontSavingArgs](../../fontsavingargs/)
 * interface [IFontSavingCallback](../)
-* espace de noms [Aspose.Words.Saving](../../ifontsavingcallback/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,9 +1,11 @@
 ---
 title: Document.UpdateWordCount
-second_title: Справочник по API Aspose.Words для .NET
-description: Document метод. Обновляет свойства количества слов в документе.
+linktitle: UpdateWordCount
+articleTitle: UpdateWordCount
+second_title: Aspose.Words для .NET
+description: Document UpdateWordCount метод. Обновляет свойства количества слов в документе на С#.
 type: docs
-weight: 810
+weight: 790
 url: /ru/net/aspose.words/document/updatewordcount/
 ---
 ## UpdateWordCount() {#updatewordcount}
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/document/updatewordcount/
 public void UpdateWordCount()
 ```
 
-### Примечания
+## Примечания
 
 `UpdateWordCount` пересчитывает и обновляет свойства символов, слов и абзацев в[`BuiltInDocumentProperties`](../builtindocumentproperties/) коллекция[`Document`](../).
 
@@ -22,7 +24,7 @@ public void UpdateWordCount()
 
 При использовании ознакомительной версии водяной знак оценки также будет включен в число слов .
 
-### Примеры
+## Примеры
 
 Показывает, как обновить все метки списков в документе.
 
@@ -59,12 +61,12 @@ Assert.AreEqual(4, doc.BuiltInDocumentProperties.Lines);
 ### Смотрите также
 
 * class [Document](../)
-* пространство имен [Aspose.Words](../../document/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## UpdateWordCount(bool) {#updatewordcount_1}
+## UpdateWordCount(*bool*) {#updatewordcount_1}
 
 Обновляет свойства количества слов в документе, при необходимости обновляет.[`Lines`](../../../aspose.words.properties/builtindocumentproperties/lines/) свойство.
 
@@ -76,11 +78,11 @@ public void UpdateWordCount(bool updateLinesCount)
 | --- | --- | --- |
 | updateLinesCount | Boolean | `истинный` если необходимо подсчитать количество строк в документе. |
 
-### Примечания
+## Примечания
 
 Этот метод перестроит макет страницы документа.
 
-### Примеры
+## Примеры
 
 Показывает, как обновить все метки списков в документе.
 
@@ -117,7 +119,5 @@ Assert.AreEqual(4, doc.BuiltInDocumentProperties.Lines);
 ### Смотрите также
 
 * class [Document](../)
-* пространство имен [Aspose.Words](../../document/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

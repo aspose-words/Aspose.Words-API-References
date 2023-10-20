@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.InsertBreak
-second_title: Référence de l'API Aspose.Words pour .NET
-description: DocumentBuilder méthode. Insère un saut du type spécifié dans le document.
+linktitle: InsertBreak
+articleTitle: InsertBreak
+second_title: Aspose.Words pour .NET
+description: DocumentBuilder InsertBreak méthode. Insère un saut du type spécifié dans le document en C#.
 type: docs
 weight: 260
 url: /fr/net/aspose.words/documentbuilder/insertbreak/
@@ -18,11 +20,11 @@ public void InsertBreak(BreakType breakType)
 | --- | --- | --- |
 | breakType | BreakType | Spécifie le type de saut à insérer. |
 
-### Remarques
+## Remarques
 
 Utilisez cette méthode pour insérer un paragraphe, une page, une colonne, une section ou un saut de ligne dans le document.
 
-### Exemples
+## Exemples
 
 Montre comment créer des en-têtes et des pieds de page dans un document à l'aide de DocumentBuilder.
 
@@ -132,7 +134,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertToc.docx");
 
 * enum [BreakType](../../breaktype/)
 * class [DocumentBuilder](../)
-* espace de noms [Aspose.Words](../../documentbuilder/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

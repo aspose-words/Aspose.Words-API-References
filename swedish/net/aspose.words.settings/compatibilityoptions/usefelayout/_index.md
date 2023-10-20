@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.UseFELayout
-second_title: Aspose.Words för .NET API Referens
-description: CompatibilityOptions fast egendom. Förbigå inte östasiatisk/komplex skriptlayoutkod.
+linktitle: UseFELayout
+articleTitle: UseFELayout
+second_title: Aspose.Words för .NET
+description: CompatibilityOptions UseFELayout fast egendom. Förbigå inte östasiatisk/komplex skriptlayoutkod i C#.
 type: docs
 weight: 620
 url: /sv/net/aspose.words.settings/compatibilityoptions/usefelayout/
@@ -17,7 +19,5 @@ public bool UseFELayout { get; set; }
 ### Se även
 
 * class [CompatibilityOptions](../)
-* namnutrymme [Aspose.Words.Settings](../../compatibilityoptions/)
+* namnutrymme [Aspose.Words.Settings](../../../aspose.words.settings/)
 * hopsättning [Aspose.Words](../../../)
-
-

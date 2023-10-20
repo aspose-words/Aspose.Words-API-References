@@ -1,7 +1,9 @@
 ---
-title: Enum ArrowType
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Drawing.ArrowType 枚举. 指定行末端箭头的类型
+title: ArrowType Enum
+linktitle: ArrowType
+articleTitle: ArrowType
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Drawing.ArrowType 枚举. 指定行末端箭头的类型 在 C#.
 type: docs
 weight: 490
 url: /zh/net/aspose.words.drawing/arrowtype/
@@ -26,7 +28,7 @@ public enum ArrowType
 | Open | `5` | 箭头是空心箭头。 |
 | Default | `0` | 与相同None. |
 
-### 例子
+## 例子
 
 展示创造出各种形状。
 
@@ -104,5 +106,3 @@ doc.Save(ArtifactsDir + "Drawing.VariousShapes.docx");
 * property [EndArrowType](../stroke/endarrowtype/)
 * 命名空间 [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../)
-
-

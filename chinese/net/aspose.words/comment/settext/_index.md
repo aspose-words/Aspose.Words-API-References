@@ -1,9 +1,11 @@
 ---
 title: Comment.SetText
-second_title: Aspose.Words for .NET API 参考
-description: Comment 方法. 这是一种方便的方法可以轻松设置评论文本
+linktitle: SetText
+articleTitle: SetText
+second_title: 用于 .NET 的 Aspose.Words
+description: Comment SetText 方法. 这是一种方便的方法可以轻松设置评论文本 在 C#.
 type: docs
-weight: 180
+weight: 150
 url: /zh/net/aspose.words/comment/settext/
 ---
 ## Comment.SetText method
@@ -18,11 +20,11 @@ public void SetText(string text)
 | --- | --- | --- |
 | text | String | 评论的新文本。 |
 
-### 评论
+## 评论
 
 此方法允许快速设置字符串中的评论文本。该字符串可以包含 段落分隔符，这将相应地在注释中创建文本段落。 如果您想在注释中插入更复杂的元素，例如书签 或表格或应用丰富的格式，那么您需要使用适当的节点类 构建评论文本。
 
-### 例子
+## 例子
 
 演示如何向文档添加评论，然后回复它。
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "Comment.AddCommentWithReply.docx");
 ### 也可以看看
 
 * class [Comment](../)
-* 命名空间 [Aspose.Words](../../comment/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

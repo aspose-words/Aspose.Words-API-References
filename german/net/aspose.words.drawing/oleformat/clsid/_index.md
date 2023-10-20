@@ -1,7 +1,9 @@
 ---
 title: OleFormat.Clsid
-second_title: Aspose.Words für .NET-API-Referenz
-description: OleFormat eigendom. Ruft die CLSID des OLEObjekts ab.
+linktitle: Clsid
+articleTitle: Clsid
+second_title: Aspose.Words für .NET
+description: OleFormat Clsid eigendom. Ruft die CLSID des OLEObjekts ab in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.drawing/oleformat/clsid/
@@ -14,7 +16,7 @@ Ruft die CLSID des OLE-Objekts ab.
 public Guid Clsid { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie auf ein in ein Dokument eingebettetes OLE-Steuerelement und seine untergeordneten Steuerelemente zugegriffen wird.
 
@@ -46,7 +48,5 @@ Assert.AreEqual("0", oleControlCollection[2].Value);
 ### Siehe auch
 
 * class [OleFormat](../)
-* namensraum [Aspose.Words.Drawing](../../oleformat/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

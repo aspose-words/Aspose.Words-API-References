@@ -1,12 +1,14 @@
 ---
-title: NodeImporter.NodeImporter
-second_title: Aspose.Words per .NET API Reference
-description: NodeImporter costruttore. Inizializza una nuova istanza diNodeImporter classe.
+title: NodeImporter
+linktitle: NodeImporter
+articleTitle: NodeImporter
+second_title: Aspose.Words per .NET
+description: NodeImporter costruttore. Inizializza una nuova istanza diNodeImporter classe in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words/nodeimporter/nodeimporter/
 ---
-## NodeImporter(DocumentBase, DocumentBase, ImportFormatMode) {#constructor}
+## NodeImporter(*[DocumentBase](../../documentbase/), [DocumentBase](../../documentbase/), [ImportFormatMode](../../importformatmode/)*) {#constructor}
 
 Inizializza una nuova istanza di[`NodeImporter`](../) classe.
 
@@ -20,7 +22,7 @@ public NodeImporter(DocumentBase srcDoc, DocumentBase dstDoc, ImportFormatMode i
 | dstDoc | DocumentBase | Il documento di destinazione che sarà il proprietario dei nodi importati. |
 | importFormatMode | ImportFormatMode | Specifica come unire la formattazione dello stile in conflitto. |
 
-### Esempi
+## Esempi
 
 Mostra come inserire il contenuto di un documento in un segnalibro in un altro documento.
 
@@ -90,12 +92,12 @@ static void InsertDocument(Node insertionDestination, Document docToInsert)
 * class [DocumentBase](../../documentbase/)
 * enum [ImportFormatMode](../../importformatmode/)
 * class [NodeImporter](../)
-* spazio dei nomi [Aspose.Words](../../nodeimporter/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
 
 ---
 
-## NodeImporter(DocumentBase, DocumentBase, ImportFormatMode, ImportFormatOptions) {#constructor_1}
+## NodeImporter(*[DocumentBase](../../documentbase/), [DocumentBase](../../documentbase/), [ImportFormatMode](../../importformatmode/), [ImportFormatOptions](../../importformatoptions/)*) {#constructor_1}
 
 Inizializza una nuova istanza di[`NodeImporter`](../) classe.
 
@@ -111,7 +113,7 @@ public NodeImporter(DocumentBase srcDoc, DocumentBase dstDoc, ImportFormatMode i
 | importFormatMode | ImportFormatMode | Specifica come unire la formattazione dello stile in conflitto. |
 | importFormatOptions | ImportFormatOptions | Specifica varie opzioni per formattare il nodo importato. |
 
-### Esempi
+## Esempi
 
 Mostra come risolvere un'interferenza durante l'importazione di documenti che presentano elenchi con lo stesso identificatore di definizione di elenco.
 
@@ -186,7 +188,5 @@ else
 * enum [ImportFormatMode](../../importformatmode/)
 * class [ImportFormatOptions](../../importformatoptions/)
 * class [NodeImporter](../)
-* spazio dei nomi [Aspose.Words](../../nodeimporter/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

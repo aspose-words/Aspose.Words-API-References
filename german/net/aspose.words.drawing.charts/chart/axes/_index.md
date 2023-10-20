@@ -1,7 +1,9 @@
 ---
 title: Chart.Axes
-second_title: Aspose.Words für .NET-API-Referenz
-description: Chart eigendom. Ruft eine Sammlung aller Achsen dieses Diagramms ab.
+linktitle: Axes
+articleTitle: Axes
+second_title: Aspose.Words für .NET
+description: Chart Axes eigendom. Ruft eine Sammlung aller Achsen dieses Diagramms ab in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words.drawing.charts/chart/axes/
@@ -14,7 +16,7 @@ Ruft eine Sammlung aller Achsen dieses Diagramms ab.
 public ChartAxisCollection Axes { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man mit der Achsensammlung arbeitet.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "Charts.AxisCollection.docx");
 
 * class [ChartAxisCollection](../../chartaxiscollection/)
 * class [Chart](../)
-* namensraum [Aspose.Words.Drawing.Charts](../../chart/)
+* namensraum [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../../)
-
-

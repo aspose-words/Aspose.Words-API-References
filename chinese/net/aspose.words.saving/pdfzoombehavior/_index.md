@@ -1,7 +1,9 @@
 ---
-title: Enum PdfZoomBehavior
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Saving.PdfZoomBehavior 枚举. 指定在 PDF 查看器中打开 PDF 文档时应用于该文档的缩放类型
+title: PdfZoomBehavior Enum
+linktitle: PdfZoomBehavior
+articleTitle: PdfZoomBehavior
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Saving.PdfZoomBehavior 枚举. 指定在 PDF 查看器中打开 PDF 文档时应用于该文档的缩放类型 在 C#.
 type: docs
 weight: 5540
 url: /zh/net/aspose.words.saving/pdfzoombehavior/
@@ -25,7 +27,7 @@ public enum PdfZoomBehavior
 | FitHeight | `4` | 适合页面的高度。 |
 | FitBox | `5` | 适合边界框（包含页面上所有可见元素的矩形）。 |
 
-### 例子
+## 例子
 
 演示如何设置读者在打开渲染的 PDF 文档时应用的默认缩放。
 
@@ -53,5 +55,3 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.ZoomBehaviour.pdf", options);
 
 * 命名空间 [Aspose.Words.Saving](../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../)
-
-

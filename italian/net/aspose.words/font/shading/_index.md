@@ -1,7 +1,9 @@
 ---
 title: Font.Shading
-second_title: Aspose.Words per .NET API Reference
-description: Font proprietà. Restituisce aShading oggetto che fa riferimento alla formattazione dellombreggiatura per il font.
+linktitle: Shading
+articleTitle: Shading
+second_title: Aspose.Words per .NET
+description: Font Shading proprietà. Restituisce aShading oggetto che fa riferimento alla formattazione dellombreggiatura per il font in C#.
 type: docs
 weight: 320
 url: /it/net/aspose.words/font/shading/
@@ -14,7 +16,7 @@ Restituisce a[`Shading`](../../shading/) oggetto che fa riferimento alla formatt
 public Shading Shading { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come applicare l'ombreggiatura al testo creato da un generatore di documenti.
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "Font.Shading.docx");
 
 * class [Shading](../../shading/)
 * class [Font](../)
-* spazio dei nomi [Aspose.Words](../../font/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

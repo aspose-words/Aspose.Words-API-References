@@ -1,7 +1,9 @@
 ---
-title: RtfSaveOptions.RtfSaveOptions
-second_title: Referencia de API de Aspose.Words para .NET
-description: RtfSaveOptions constructor. Constructor predeterminado
+title: RtfSaveOptions
+linktitle: RtfSaveOptions
+articleTitle: RtfSaveOptions
+second_title: Aspose.Words para .NET
+description: RtfSaveOptions constructor. Constructor predeterminado en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words.saving/rtfsaveoptions/rtfsaveoptions/
@@ -17,7 +19,5 @@ public RtfSaveOptions()
 ### Ver también
 
 * class [RtfSaveOptions](../)
-* espacio de nombres [Aspose.Words.Saving](../../rtfsaveoptions/)
+* espacio de nombres [Aspose.Words.Saving](../../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../../)
-
-

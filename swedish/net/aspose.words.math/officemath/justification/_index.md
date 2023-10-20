@@ -1,7 +1,9 @@
 ---
 title: OfficeMath.Justification
-second_title: Aspose.Words för .NET API Referens
-description: OfficeMath fast egendom. Får/ställer in Office Math motivering.
+linktitle: Justification
+articleTitle: Justification
+second_title: Aspose.Words för .NET
+description: OfficeMath Justification fast egendom. Får/ställer in Office Math motivering i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.math/officemath/justification/
@@ -14,7 +16,7 @@ Får/ställer in Office Math motivering.
 public OfficeMathJustification Justification { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Justering kan inte ställas in på Office Math med visningsformattypInline.
 
@@ -22,7 +24,7 @@ Inline-justering kan inte ställas in på Office Math med visningsformattypDispl
 
 Motsvarande[`DisplayType`](../displaytype/) måste ställas in innan du ställer in Office Math-motivering.
 
-### Exempel
+## Exempel
 
 Visar hur du ställer in kontorsmattevisningsformatering.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "Shape.OfficeMath.docx");
 
 * enum [OfficeMathJustification](../../officemathjustification/)
 * class [OfficeMath](../)
-* namnutrymme [Aspose.Words.Math](../../officemath/)
+* namnutrymme [Aspose.Words.Math](../../../aspose.words.math/)
 * hopsättning [Aspose.Words](../../../)
-
-

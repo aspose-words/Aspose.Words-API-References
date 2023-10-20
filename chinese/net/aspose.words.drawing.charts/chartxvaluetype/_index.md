@@ -1,7 +1,9 @@
 ---
-title: Enum ChartXValueType
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Drawing.Charts.ChartXValueType 枚举. 允许指定图表系列的 X 值的类型
+title: ChartXValueType Enum
+linktitle: ChartXValueType
+articleTitle: ChartXValueType
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Drawing.Charts.ChartXValueType 枚举. 允许指定图表系列的 X 值的类型 在 C#.
 type: docs
 weight: 860
 url: /zh/net/aspose.words.drawing.charts/chartxvaluetype/
@@ -28,5 +30,3 @@ public enum ChartXValueType
 
 * 命名空间 [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * 部件 [Aspose.Words](../../)
-
-

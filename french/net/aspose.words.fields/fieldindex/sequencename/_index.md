@@ -1,7 +1,9 @@
 ---
 title: FieldIndex.SequenceName
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldIndex propriété. Obtient ou définit le nom dune séquence dont le numéro est inclus avec le numéro de page.
+linktitle: SequenceName
+articleTitle: SequenceName
+second_title: Aspose.Words pour .NET
+description: FieldIndex SequenceName propriété. Obtient ou définit le nom dune séquence dont le numéro est inclus avec le numéro de page en C#.
 type: docs
 weight: 150
 url: /fr/net/aspose.words.fields/fieldindex/sequencename/
@@ -14,7 +16,7 @@ Obtient ou définit le nom d'une séquence dont le numéro est inclus avec le nu
 public string SequenceName { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment diviser un document en parties en combinant les champs INDEX et SEQ.
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "Field.INDEX.XE.Sequence.docx");
 ### Voir également
 
 * class [FieldIndex](../)
-* espace de noms [Aspose.Words.Fields](../../fieldindex/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: MetafileRenderingOptions.UseGdiRasterOperationsEmulation
-second_title: Aspose.Words لمراجع .NET API
-description: MetafileRenderingOptions ملكية. الحصول على قيمة أو تعيينها لتحديد ما إذا كان سيتم استخدام GDI لمحاكاة العمليات النقطية أم لا.
+linktitle: UseGdiRasterOperationsEmulation
+articleTitle: UseGdiRasterOperationsEmulation
+second_title: Aspose.Words لـ .NET
+description: MetafileRenderingOptions UseGdiRasterOperationsEmulation ملكية. الحصول على قيمة أو تعيينها لتحديد ما إذا كان سيتم استخدام GDI لمحاكاة العمليات النقطية أم لا في C#.
 type: docs
 weight: 80
 url: /ar/net/aspose.words.saving/metafilerenderingoptions/usegdirasteroperationsemulation/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.saving/metafilerenderingoptions/usegdirasteroperations
 public bool UseGdiRasterOperationsEmulation { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 يمكن استخدام مكتبة Windows GDI+ لمحاكاة العمليات النقطية. وهو يوفر الدعم لجميع عمليات البيانات النقطية مقارنة بمحاكاة Aspose.Words الخاصة ولكن الأداء قد يكون أبطأ في بعض الحالات.
 
@@ -26,7 +28,7 @@ public bool UseGdiRasterOperationsEmulation { get; set; }
 
 القيمة الافتراضية هي`خطأ شنيع`.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية ضبط وضع العرض عند حفظ المستندات التي تحتوي على صور Windows Metafile إلى تنسيقات صور أخرى.
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "ImageSaveOptions.WindowsMetaFile.png", options);
 ### أنظر أيضا
 
 * class [MetafileRenderingOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../metafilerenderingoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

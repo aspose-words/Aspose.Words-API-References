@@ -1,7 +1,9 @@
 ---
 title: GraphicsQualityOptions.InterpolationMode
-second_title: Aspose.Words لمراجع .NET API
-description: GraphicsQualityOptions ملكية. الحصول على أو تعيين وضع الاستيفاء المرتبط بهذه الرسومات.
+linktitle: InterpolationMode
+articleTitle: InterpolationMode
+second_title: Aspose.Words لـ .NET
+description: GraphicsQualityOptions InterpolationMode ملكية. الحصول على أو تعيين وضع الاستيفاء المرتبط بهذه الرسومات في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.saving/graphicsqualityoptions/interpolationmode/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.saving/graphicsqualityoptions/interpolationmode/
 public InterpolationMode? InterpolationMode { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين خيارات جودة العرض أثناء تحويل المستندات إلى تنسيقات الصور.
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "ImageSaveOptions.GraphicsQuality.jpg", saveOptions);
 ### أنظر أيضا
 
 * class [GraphicsQualityOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../graphicsqualityoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

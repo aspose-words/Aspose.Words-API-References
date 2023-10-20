@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.IsMoveToRevision
-second_title: Referencia de API de Aspose.Words para .NET
-description: ShapeBase propiedad. Devolucionesverdadero si este objeto se movió insertó en Microsoft Word mientras el seguimiento de cambios estaba habilitado.
+linktitle: IsMoveToRevision
+articleTitle: IsMoveToRevision
+second_title: Aspose.Words para .NET
+description: ShapeBase IsMoveToRevision propiedad. Devolucionesverdadero si este objeto se movió insertó en Microsoft Word mientras el seguimiento de cambios estaba habilitado en C#.
 type: docs
 weight: 330
 url: /es/net/aspose.words.drawing/shapebase/ismovetorevision/
@@ -14,7 +16,7 @@ Devoluciones`verdadero` si este objeto se movió (insertó) en Microsoft Word mi
 public bool IsMoveToRevision { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo identificar formas de revisión de movimiento.
 
@@ -46,7 +48,5 @@ Assert.False(shapes[1].IsMoveToRevision);
 ### Ver también
 
 * class [ShapeBase](../)
-* espacio de nombres [Aspose.Words.Drawing](../../shapebase/)
+* espacio de nombres [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Fill.BackThemeColor
-second_title: Aspose.Words لمراجع .NET API
-description: Fill ملكية. الحصول على أو تعيين كائن ThemeColor الذي يمثل لون الخلفية للتعبئة.
+linktitle: BackThemeColor
+articleTitle: BackThemeColor
+second_title: Aspose.Words لـ .NET
+description: Fill BackThemeColor ملكية. الحصول على أو تعيين كائن ThemeColor الذي يمثل لون الخلفية للتعبئة في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.drawing/fill/backthemecolor/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing/fill/backthemecolor/
 public ThemeColor BackThemeColor { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين لون السمة للون شكل المقدمة/الخلفية.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "Shape.FillThemeColor.docx");
 
 * enum [ThemeColor](../../../aspose.words.themes/themecolor/)
 * class [Fill](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../fill/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitEditableRangeEnd
-second_title: Aspose.Words لمراجع .NET API
-description: DocumentVisitor طريقة. يتم استدعاؤه عند مواجهة نهاية نطاق قابل للتحرير في المستند.
+linktitle: VisitEditableRangeEnd
+articleTitle: VisitEditableRangeEnd
+second_title: Aspose.Words لـ .NET
+description: DocumentVisitor VisitEditableRangeEnd طريقة. يتم استدعاؤه عند مواجهة نهاية نطاق قابل للتحرير في المستند في C#.
 type: docs
 weight: 160
 url: /ar/net/aspose.words/documentvisitor/visiteditablerangeend/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitEditableRangeEnd(EditableRangeEnd editableRang
 
 أ[`VisitorAction`](../../visitoraction/) القيمة التي تحدد كيفية متابعة التعداد.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية طباعة بنية العقدة لكل نطاق قابل للتحرير في المستند.
 
@@ -118,7 +120,5 @@ public class EditableRangeStructurePrinter : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [EditableRangeEnd](../../editablerangeend/)
 * class [DocumentVisitor](../)
-* مساحة الاسم [Aspose.Words](../../documentvisitor/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

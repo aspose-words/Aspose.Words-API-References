@@ -1,7 +1,9 @@
 ---
 title: ImageData.Title
-second_title: Aspose.Words för .NET API Referens
-description: ImageData fast egendom. Definierar titeln på en bild.
+linktitle: Title
+articleTitle: Title
+second_title: Aspose.Words för .NET
+description: ImageData Title fast egendom. Definierar titeln på en bild i C#.
 type: docs
 weight: 180
 url: /sv/net/aspose.words.drawing/imagedata/title/
@@ -14,11 +16,11 @@ Definierar titeln på en bild.
 public string Title { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Standardvärdet är en tom sträng.
 
-### Exempel
+## Exempel
 
 Visar hur man redigerar en forms bilddata.
 
@@ -81,7 +83,5 @@ dstDoc.Save(ArtifactsDir + "Drawing.ImageData.docx");
 ### Se även
 
 * class [ImageData](../)
-* namnutrymme [Aspose.Words.Drawing](../../imagedata/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

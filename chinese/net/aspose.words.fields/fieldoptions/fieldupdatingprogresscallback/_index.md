@@ -1,7 +1,9 @@
 ---
 title: FieldOptions.FieldUpdatingProgressCallback
-second_title: Aspose.Words for .NET API 参考
-description: FieldOptions 财产. 获取或设置IFieldUpdatingProgressCallback实施.
+linktitle: FieldUpdatingProgressCallback
+articleTitle: FieldUpdatingProgressCallback
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldOptions FieldUpdatingProgressCallback 财产. 获取或设置IFieldUpdatingProgressCallback实施 在 C#.
 type: docs
 weight: 130
 url: /zh/net/aspose.words.fields/fieldoptions/fieldupdatingprogresscallback/
@@ -18,7 +20,5 @@ public IFieldUpdatingProgressCallback FieldUpdatingProgressCallback { get; set; 
 
 * interface [IFieldUpdatingProgressCallback](../../ifieldupdatingprogresscallback/)
 * class [FieldOptions](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldoptions/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

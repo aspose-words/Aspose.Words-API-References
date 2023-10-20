@@ -1,7 +1,9 @@
 ---
 title: PdfEncryptionDetails.Permissions
-second_title: Aspose.Words for .NET API 参考
-description: PdfEncryptionDetails 财产. 指定允许用户对加密 PDF 文档进行的操作 默认值为DisallowAll.
+linktitle: Permissions
+articleTitle: Permissions
+second_title: 用于 .NET 的 Aspose.Words
+description: PdfEncryptionDetails Permissions 财产. 指定允许用户对加密 PDF 文档进行的操作 默认值为DisallowAll 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.saving/pdfencryptiondetails/permissions/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.saving/pdfencryptiondetails/permissions/
 public PdfPermissions Permissions { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何设置已保存 PDF 文档的权限。
 
@@ -42,7 +44,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.EncryptionPermissions.pdf", saveOptions)
 
 * enum [PdfPermissions](../../pdfpermissions/)
 * class [PdfEncryptionDetails](../)
-* 命名空间 [Aspose.Words.Saving](../../pdfencryptiondetails/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldArgumentBuilder.AddNode
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldArgumentBuilder метод. Добавляет узел к аргументу.
+linktitle: AddNode
+articleTitle: AddNode
+second_title: Aspose.Words для .NET
+description: FieldArgumentBuilder AddNode метод. Добавляет узел к аргументу на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.fields/fieldargumentbuilder/addnode/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.fields/fieldargumentbuilder/addnode/
 public FieldArgumentBuilder AddNode(Inline node)
 ```
 
-### Примечания
+## Примечания
 
 На данный момент поддерживаются только узлы текстового уровня.
 
-### Примеры
+## Примеры
 
 Показывает, как создавать поля с помощью построителя полей, а затем вставлять их в документ.
 
@@ -102,7 +104,5 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 
 * class [Inline](../../../aspose.words/inline/)
 * class [FieldArgumentBuilder](../)
-* пространство имен [Aspose.Words.Fields](../../fieldargumentbuilder/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

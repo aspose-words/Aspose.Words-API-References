@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.Fill
-second_title: Aspose.Words für .NET-API-Referenz
-description: ShapeBase eigendom. Ruft die Füllformatierung für die Form ab.
+linktitle: Fill
+articleTitle: Fill
+second_title: Aspose.Words für .NET
+description: ShapeBase Fill eigendom. Ruft die Füllformatierung für die Form ab in C#.
 type: docs
 weight: 170
 url: /de/net/aspose.words.drawing/shapebase/fill/
@@ -14,7 +16,7 @@ Ruft die Füllformatierung für die Form ab.
 public Fill Fill { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie eine Form mit einer Volltonfarbe gefüllt wird.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "Shape.Fill.docx");
 
 * class [Fill](../../fill/)
 * class [ShapeBase](../)
-* namensraum [Aspose.Words.Drawing](../../shapebase/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

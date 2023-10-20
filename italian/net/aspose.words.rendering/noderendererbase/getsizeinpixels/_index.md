@@ -1,12 +1,14 @@
 ---
 title: NodeRendererBase.GetSizeInPixels
-second_title: Aspose.Words per .NET API Reference
-description: NodeRendererBase metodo. Calcola la dimensione della forma in pixel per un fattore di zoom e una risoluzione specificati.
+linktitle: GetSizeInPixels
+articleTitle: GetSizeInPixels
+second_title: Aspose.Words per .NET
+description: NodeRendererBase GetSizeInPixels metodo. Calcola la dimensione della forma in pixel per un fattore di zoom e una risoluzione specificati in C#.
 type: docs
 weight: 60
 url: /it/net/aspose.words.rendering/noderendererbase/getsizeinpixels/
 ---
-## GetSizeInPixels(float, float) {#getsizeinpixels}
+## GetSizeInPixels(*float, float*) {#getsizeinpixels}
 
 Calcola la dimensione della forma in pixel per un fattore di zoom e una risoluzione specificati.
 
@@ -23,11 +25,11 @@ public Size GetSizeInPixels(float scale, float dpi)
 
 La dimensione della forma in pixel.
 
-### Osservazioni
+## Osservazioni
 
 Questo metodo converte[`SizeInPoints`](../sizeinpoints/) nella dimensione in pixel ed è utile quando vuoi creare una bitmap per rendere ordinatamente la forma sulla bitmap.
 
-### Esempi
+## Esempi
 
 Mostra come misurare e ridimensionare le forme.
 
@@ -74,12 +76,12 @@ Assert.AreEqual(30, bounds.Height);
 ### Guarda anche
 
 * class [NodeRendererBase](../)
-* spazio dei nomi [Aspose.Words.Rendering](../../noderendererbase/)
+* spazio dei nomi [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * assemblea [Aspose.Words](../../../)
 
 ---
 
-## GetSizeInPixels(float, float, float) {#getsizeinpixels_1}
+## GetSizeInPixels(*float, float, float*) {#getsizeinpixels_1}
 
 Calcola la dimensione della forma in pixel per un fattore di zoom e una risoluzione specificati.
 
@@ -97,11 +99,11 @@ public Size GetSizeInPixels(float scale, float horizontalDpi, float verticalDpi)
 
 La dimensione della forma in pixel.
 
-### Osservazioni
+## Osservazioni
 
 Questo metodo converte[`SizeInPoints`](../sizeinpoints/) nella dimensione in pixel ed è utile quando vuoi creare una bitmap per rendere ordinatamente la forma sulla bitmap.
 
-### Esempi
+## Esempi
 
 Mostra come misurare e ridimensionare le forme.
 
@@ -148,7 +150,5 @@ Assert.AreEqual(30, bounds.Height);
 ### Guarda anche
 
 * class [NodeRendererBase](../)
-* spazio dei nomi [Aspose.Words.Rendering](../../noderendererbase/)
+* spazio dei nomi [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * assemblea [Aspose.Words](../../../)
-
-

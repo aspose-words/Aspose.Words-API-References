@@ -1,7 +1,9 @@
 ---
 title: CustomPart.Clone
-second_title: Aspose.Words for .NET API 参考
-description: CustomPart 方法. 制作对象的足够深的副本 不重复字节Data值.
+linktitle: Clone
+articleTitle: Clone
+second_title: 用于 .NET 的 Aspose.Words
+description: CustomPart Clone 方法. 制作对象的足够深的副本 不重复字节Data值 在 C#.
 type: docs
 weight: 70
 url: /zh/net/aspose.words.markup/custompart/clone/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.markup/custompart/clone/
 public CustomPart Clone()
 ```
 
-### 例子
+## 例子
 
 演示如何访问文档的任意自定义部件集合。
 
@@ -58,7 +60,5 @@ Assert.AreEqual(0, doc.PackageCustomParts.Count);
 ### 也可以看看
 
 * class [CustomPart](../)
-* 命名空间 [Aspose.Words.Markup](../../custompart/)
+* 命名空间 [Aspose.Words.Markup](../../../aspose.words.markup/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldMergeBarcode.SymbolRotation
-second_title: Aspose.Words per .NET API Reference
-description: FieldMergeBarcode proprietà. Ottiene o imposta la rotazione del simbolo del codice a barre. I valori validi sono 0 3
+linktitle: SymbolRotation
+articleTitle: SymbolRotation
+second_title: Aspose.Words per .NET
+description: FieldMergeBarcode SymbolRotation proprietà. Ottiene o imposta la rotazione del simbolo del codice a barre. I valori validi sono 0 3 in C#.
 type: docs
 weight: 140
 url: /it/net/aspose.words.fields/fieldmergebarcode/symbolrotation/
@@ -14,7 +16,7 @@ Ottiene o imposta la rotazione del simbolo del codice a barre. I valori validi s
 public string SymbolRotation { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come eseguire una stampa unione sui codici a barre QR.
 
@@ -64,7 +66,5 @@ doc.Save(ArtifactsDir + "Field.MERGEBARCODE.QR.docx");
 ### Guarda anche
 
 * class [FieldMergeBarcode](../)
-* spazio dei nomi [Aspose.Words.Fields](../../fieldmergebarcode/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

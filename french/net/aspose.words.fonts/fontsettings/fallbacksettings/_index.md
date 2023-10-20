@@ -1,7 +1,9 @@
 ---
 title: FontSettings.FallbackSettings
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FontSettings propriété. Paramètres liés au mécanisme de secours des polices.
+linktitle: FallbackSettings
+articleTitle: FallbackSettings
+second_title: Aspose.Words pour .NET
+description: FontSettings FallbackSettings propriété. Paramètres liés au mécanisme de secours des polices en C#.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.fonts/fontsettings/fallbacksettings/
@@ -14,7 +16,7 @@ Paramètres liés au mécanisme de secours des polices.
 public FontFallbackSettings FallbackSettings { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment distribuer les polices de secours sur les plages de codes de caractères Unicode.
 
@@ -74,7 +76,5 @@ doc.Save(ArtifactsDir + "FontSettings.FallbackSettingsCustom.pdf");
 
 * class [FontFallbackSettings](../../fontfallbacksettings/)
 * class [FontSettings](../)
-* espace de noms [Aspose.Words.Fonts](../../fontsettings/)
+* espace de noms [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * Assemblée [Aspose.Words](../../../)
-
-

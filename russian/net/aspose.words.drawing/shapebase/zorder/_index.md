@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.ZOrder
-second_title: Справочник по API Aspose.Words для .NET
-description: ShapeBase свойство. Определяет порядок отображения перекрывающихся фигур.
+linktitle: ZOrder
+articleTitle: ZOrder
+second_title: Aspose.Words для .NET
+description: ShapeBase ZOrder свойство. Определяет порядок отображения перекрывающихся фигур на С#.
 type: docs
 weight: 610
 url: /ru/net/aspose.words.drawing/shapebase/zorder/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.drawing/shapebase/zorder/
 public int ZOrder { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Имеет эффект только для фигур верхнего уровня.
 
@@ -26,7 +28,7 @@ public int ZOrder { get; set; }
 
 Порядок отображения дочерних фигур в фигуре группы определяется их order внутри фигуры группы.
 
-### Примеры
+## Примеры
 
 Показывает, как управлять порядком фигур.
 
@@ -68,7 +70,5 @@ doc.Save(ArtifactsDir + "Shape.ZOrder.docx");
 ### Смотрите также
 
 * class [ShapeBase](../)
-* пространство имен [Aspose.Words.Drawing](../../shapebase/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

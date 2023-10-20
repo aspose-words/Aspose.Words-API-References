@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.CssStyleSheetFileName
-second_title: Aspose.Words for .NET API 参考
-description: HtmlSaveOptions 财产. 指定将文档 导出为 HTML 时写入的级联样式表 CSS 文件的路径和名称 默认为空字符串
+linktitle: CssStyleSheetFileName
+articleTitle: CssStyleSheetFileName
+second_title: 用于 .NET 的 Aspose.Words
+description: HtmlSaveOptions CssStyleSheetFileName 财产. 指定将文档 导出为 HTML 时写入的级联样式表 CSS 文件的路径和名称 默认为空字符串 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words.saving/htmlsaveoptions/cssstylesheetfilename/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.saving/htmlsaveoptions/cssstylesheetfilename/
 public string CssStyleSheetFileName { get; set; }
 ```
 
-### 评论
+## 评论
 
 仅当将文档保存为 HTML 格式 并且使用请求外部 CSS 样式表时，此属性才有效[`CssStyleSheetType`](../cssstylesheettype/)。
 
@@ -26,7 +28,7 @@ public string CssStyleSheetFileName { get; set; }
 
 指定保存外部 CSS 文件的文件夹的另一种方法是使用[`ResourceFolder`](../resourcefolder/).
 
-### 例子
+## 例子
 
 演示如何使用 HTML 转换创建的 CSS 样式表。
 
@@ -87,7 +89,5 @@ private class CustomCssSavingCallback : ICssSavingCallback
 ### 也可以看看
 
 * class [HtmlSaveOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../htmlsaveoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

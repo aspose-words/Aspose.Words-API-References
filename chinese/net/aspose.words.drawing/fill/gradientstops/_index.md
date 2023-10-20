@@ -1,9 +1,11 @@
 ---
 title: Fill.GradientStops
-second_title: Aspose.Words for .NET API 参考
-description: Fill 财产. 获取集合GradientStop用于填充的对象.
+linktitle: GradientStops
+articleTitle: GradientStops
+second_title: 用于 .NET 的 Aspose.Words
+description: Fill GradientStops 财产. 获取集合GradientStop用于填充的对象 在 C#.
 type: docs
-weight: 110
+weight: 100
 url: /zh/net/aspose.words.drawing/fill/gradientstops/
 ---
 ## Fill.GradientStops property
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.drawing/fill/gradientstops/
 public GradientStopCollection GradientStops { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何向渐变填充添加渐变停止点。
 
@@ -68,7 +70,5 @@ doc.Save(ArtifactsDir + "Shape.GradientStops.docx", saveOptions);
 
 * class [GradientStopCollection](../../gradientstopcollection/)
 * class [Fill](../)
-* 命名空间 [Aspose.Words.Drawing](../../fill/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Font.ThemeFontOther
-second_title: Aspose.Words für .NET-API-Referenz
-description: Font eigendom. Ruft die Designschriftart ab die für Zeichen mit Zeichencodes von 128 bis 255 im angewendeten Schriftartenschema verwendet wird das damit verknüpft ist oder legt diese festFont Objekt.
+linktitle: ThemeFontOther
+articleTitle: ThemeFontOther
+second_title: Aspose.Words für .NET
+description: Font ThemeFontOther eigendom. Ruft die Designschriftart ab die für Zeichen mit Zeichencodes von 128 bis 255 im angewendeten Schriftartenschema verwendet wird das damit verknüpft ist oder legt diese festFont Objekt in C#.
 type: docs
 weight: 510
 url: /de/net/aspose.words/font/themefontother/
@@ -14,7 +16,7 @@ Ruft die Designschriftart ab, die für Zeichen mit Zeichencodes von 128 bis 255 
 public ThemeFont ThemeFontOther { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit Designschriftarten und -farben gearbeitet wird.
 
@@ -101,7 +103,5 @@ Assert.AreEqual(Color.Blue.ToArgb(), font.Color.ToArgb());
 
 * enum [ThemeFont](../../../aspose.words.themes/themefont/)
 * class [Font](../)
-* namensraum [Aspose.Words](../../font/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

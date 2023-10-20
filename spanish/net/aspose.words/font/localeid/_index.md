@@ -1,7 +1,9 @@
 ---
 title: Font.LocaleId
-second_title: Referencia de API de Aspose.Words para .NET
-description: Font propiedad. Obtiene o establece el identificador local idioma de los caracteres formateados.
+linktitle: LocaleId
+articleTitle: LocaleId
+second_title: Aspose.Words para .NET
+description: Font LocaleId propiedad. Obtiene o establece el identificador local idioma de los caracteres formateados en C#.
 type: docs
 weight: 200
 url: /es/net/aspose.words/font/localeid/
@@ -14,11 +16,11 @@ Obtiene o establece el identificador local (idioma) de los caracteres formateado
 public int LocaleId { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 Para obtener la lista de identificadores locales, consulte https://msdn.microsoft.com/en-us/library/cc233965.aspx
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo configurar la configuración regional del texto que estamos agregando con un generador de documentos.
 
@@ -41,7 +43,5 @@ doc.Save(ArtifactsDir + "Font.LocaleId.docx");
 ### Ver también
 
 * class [Font](../)
-* espacio de nombres [Aspose.Words](../../font/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

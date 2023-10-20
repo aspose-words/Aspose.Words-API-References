@@ -1,18 +1,20 @@
 ---
 title: Aspose.Words.Settings
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Le Aspose.Words.Paramètres Lespace de noms contient des classes et des enums qui sont utilisés lors de la spécification de divers paramètres et options stockés dans un document. Il sagit du publipostage de la protection en écriture de la compatibilité et dautres paramètres.
+linktitle: Aspose.Words.Settings
+articleTitle: Aspose.Words.Settings
+second_title: Aspose.Words pour .NET
+description: LeAspose.Words.Paramètres Lespace de noms contient des classes et des enums qui sont utilisés lors de la spécification de divers paramètres et options stockés dans un document. Il sagit du publipostage de la protection en écriture de la compatibilité et dautres paramètres en C#.
 type: docs
 weight: 240
 url: /fr/net/aspose.words.settings/
 ---
-Le **Aspose.Words.Paramètres** L'espace de noms contient des classes et des enums qui sont utilisés lors de la spécification de divers paramètres et options stockés dans un document. Il s'agit du publipostage, de la protection en écriture, de la compatibilité et d'autres paramètres.
+Le**Aspose.Words.Paramètres** L'espace de noms contient des classes et des enums qui sont utilisés lors de la spécification de divers paramètres et options stockés dans un document. Il s'agit du publipostage, de la protection en écriture, de la compatibilité et d'autres paramètres.
 
 ## Des classes
 
 | Classer | La description |
 | --- | --- |
-| [CompatibilityOptions](./compatibilityoptions/) | Contient les options de compatibilité (c'est-à-dire les préférences utilisateur saisies sur le **Compatibilité** Onglet du **Possibilités** boîte de dialogue dans Microsoft Word). |
+| [CompatibilityOptions](./compatibilityoptions/) | Contient les options de compatibilité (c'est-à-dire les préférences utilisateur saisies sur le**Compatibilité** Onglet du**Possibilités** boîte de dialogue dans Microsoft Word). |
 | [HyphenationOptions](./hyphenationoptions/) | Permet de configurer les options de césure du document. |
 | [MailMergeSettings](./mailmergesettings/) | Spécifie toutes les informations de publipostage pour un document. |
 | [Odso](./odso/) | Spécifie les paramètres ODSO (Office Data Source Object) pour une source de données de publipostage. |
@@ -38,5 +40,3 @@ Le **Aspose.Words.Paramètres** L'espace de noms contient des classes et des enu
 | [OdsoFieldMappingType](./odsofieldmappingtype/) | Spécifie les types possibles utilisés pour indiquer si un champ de publipostage donné a été mappé à une colonne dans la source de données externe donnée. |
 | [ViewType](./viewtype/) | Valeurs possibles pour le mode d'affichage dans Microsoft Word. |
 | [ZoomType](./zoomtype/) | Valeurs possibles pour la taille ou la taille du document qui apparaît à l'écran dans Microsoft Word. |
-
-

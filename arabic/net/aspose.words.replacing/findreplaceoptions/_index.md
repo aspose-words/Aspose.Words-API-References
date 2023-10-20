@@ -1,7 +1,9 @@
 ---
-title: Class FindReplaceOptions
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Replacing.FindReplaceOptions فصل. يحدد خيارات عمليات البحث/الاستبدال.
+title: FindReplaceOptions Class
+linktitle: FindReplaceOptions
+articleTitle: FindReplaceOptions
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Replacing.FindReplaceOptions فصل. يحدد خيارات عمليات البحث/الاستبدال في C#.
 type: docs
 weight: 4620
 url: /ar/net/aspose.words.replacing/findreplaceoptions/
@@ -21,9 +23,9 @@ public class FindReplaceOptions
 | اسم | وصف |
 | --- | --- |
 | [FindReplaceOptions](findreplaceoptions/#constructor)() | Default_Constructor |
-| [FindReplaceOptions](findreplaceoptions/#constructor_1)(FindReplaceDirection) |  |
-| [FindReplaceOptions](findreplaceoptions/#constructor_3)(IReplacingCallback) |  |
-| [FindReplaceOptions](findreplaceoptions/#constructor_2)(FindReplaceDirection, IReplacingCallback) |  |
+| [FindReplaceOptions](findreplaceoptions/#constructor_1)(*[FindReplaceDirection](../findreplacedirection/)*) |  |
+| [FindReplaceOptions](findreplaceoptions/#constructor_3)(*[IReplacingCallback](../ireplacingcallback/)*) |  |
+| [FindReplaceOptions](findreplaceoptions/#constructor_2)(*[FindReplaceDirection](../findreplacedirection/), [IReplacingCallback](../ireplacingcallback/)*) |  |
 
 ## الخصائص
 
@@ -47,7 +49,7 @@ public class FindReplaceOptions
 | [UseLegacyOrder](../../aspose.words.replacing/findreplaceoptions/uselegacyorder/) { get; set; } | يشير True إلى أن البحث عن النص يتم إجراؤه بشكل تسلسلي من الأعلى إلى الأسفل مع الأخذ في الاعتبار مربعات النص. القيمة الافتراضية هي`خطأ شنيع` . |
 | [UseSubstitutions](../../aspose.words.replacing/findreplaceoptions/usesubstitutions/) { get; set; } | الحصول على قيمة منطقية أو تعيينها تشير إلى ما إذا كان سيتم التعرف على البدائل واستخدامها ضمن أنماط الاستبدال. القيمة الافتراضية هي`خطأ شنيع` . |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تبديل حساسية حالة الأحرف عند إجراء عملية البحث والاستبدال.
 
@@ -96,5 +98,3 @@ Assert.AreEqual(
 
 * مساحة الاسم [Aspose.Words.Replacing](../../aspose.words.replacing/)
 * المجسم [Aspose.Words](../../)
-
-

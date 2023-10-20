@@ -1,7 +1,9 @@
 ---
 title: OutlineOptions.DefaultBookmarksOutlineLevel
-second_title: Aspose.Words for .NET API 参考
-description: OutlineOptions 财产. 指定文档大纲中显示 Word 书签的默认级别
+linktitle: DefaultBookmarksOutlineLevel
+articleTitle: DefaultBookmarksOutlineLevel
+second_title: 用于 .NET 的 Aspose.Words
+description: OutlineOptions DefaultBookmarksOutlineLevel 财产. 指定文档大纲中显示 Word 书签的默认级别 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words.saving/outlineoptions/defaultbookmarksoutlinelevel/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.saving/outlineoptions/defaultbookmarksoutlinelevel/
 public int DefaultBookmarksOutlineLevel { get; set; }
 ```
 
-### 评论
+## 评论
 
 可以使用指定单独的书签级别[`BookmarksOutlineLevels`](../bookmarksoutlinelevels/)财产。
 
@@ -22,7 +24,7 @@ public int DefaultBookmarksOutlineLevel { get; set; }
 
 默认值为 0。有效范围为 0 到 9。
 
-### 例子
+## 例子
 
 演示如何处理我们正在渲染为 PDF 的文档中页眉/页脚中的书签。
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.HeaderFooterBookmarksExportMode.pdf", sa
 ### 也可以看看
 
 * class [OutlineOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../outlineoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,12 +1,14 @@
 ---
 title: Fill.SetImage
-second_title: Aspose.Words per .NET API Reference
-description: Fill metodo. Modifica il tipo di riempimento in immagine singola.
+linktitle: SetImage
+articleTitle: SetImage
+second_title: Aspose.Words per .NET
+description: Fill SetImage metodo. Modifica il tipo di riempimento in immagine singola in C#.
 type: docs
-weight: 250
+weight: 240
 url: /it/net/aspose.words.drawing/fill/setimage/
 ---
-## SetImage(string) {#setimage_2}
+## SetImage(*string*) {#setimage_2}
 
 Modifica il tipo di riempimento in immagine singola.
 
@@ -18,7 +20,7 @@ public void SetImage(string fileName)
 | --- | --- | --- |
 | fileName | String | Il percorso del file immagine. |
 
-### Esempi
+## Esempi
 
 Mostra come impostare il tipo di riempimento della forma come immagine.
 
@@ -45,12 +47,12 @@ doc.Save(ArtifactsDir + "Shape.FillImage.Stream.docx");
 ### Guarda anche
 
 * class [Fill](../)
-* spazio dei nomi [Aspose.Words.Drawing](../../fill/)
+* spazio dei nomi [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assemblea [Aspose.Words](../../../)
 
 ---
 
-## SetImage(Stream) {#setimage_1}
+## SetImage(*Stream*) {#setimage_1}
 
 Modifica il tipo di riempimento in immagine singola.
 
@@ -65,12 +67,12 @@ public void SetImage(Stream stream)
 ### Guarda anche
 
 * class [Fill](../)
-* spazio dei nomi [Aspose.Words.Drawing](../../fill/)
+* spazio dei nomi [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assemblea [Aspose.Words](../../../)
 
 ---
 
-## SetImage(byte[]) {#setimage}
+## SetImage(*byte[]*) {#setimage}
 
 Modifica il tipo di riempimento in immagine singola.
 
@@ -85,7 +87,5 @@ public void SetImage(byte[] imageBytes)
 ### Guarda anche
 
 * class [Fill](../)
-* spazio dei nomi [Aspose.Words.Drawing](../../fill/)
+* spazio dei nomi [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Field.End
-second_title: Aspose.Words för .NET API Referens
-description: Field fast egendom. Hämtar noden som representerar fältänden.
+linktitle: End
+articleTitle: End
+second_title: Aspose.Words för .NET
+description: Field End fast egendom. Hämtar noden som representerar fältänden i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.fields/field/end/
@@ -14,7 +16,7 @@ Hämtar noden som representerar fältänden.
 public FieldEnd End { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med en samling fält.
 
@@ -118,7 +120,5 @@ public class FieldVisitor : DocumentVisitor
 
 * class [FieldEnd](../../fieldend/)
 * class [Field](../)
-* namnutrymme [Aspose.Words.Fields](../../field/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,12 +1,14 @@
 ---
 title: Merger.Merge
-second_title: Aspose.Words لمراجع .NET API
-description: Merger طريقة. دمج مستندات الإدخال المحددة في مستند إخراج واحد باستخدام أسماء ملفات الإدخال والإخراج المحددة.
+linktitle: Merge
+articleTitle: Merge
+second_title: Aspose.Words لـ .NET
+description: Merger Merge طريقة. دمج مستندات الإدخال المحددة في مستند إخراج واحد باستخدام أسماء ملفات الإدخال والإخراج المحددة في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.lowcode/merger/merge/
 ---
-## Merge(string, string[]) {#merge_4}
+## Merge(*string, string[]*) {#merge_4}
 
 دمج مستندات الإدخال المحددة في مستند إخراج واحد باستخدام أسماء ملفات الإدخال والإخراج المحددة.
 
@@ -19,11 +21,11 @@ public static void Merge(string outputFile, string[] inputFiles)
 | outputFile | String | اسم ملف الإخراج. |
 | inputFiles | String[] | أسماء ملفات الإدخال |
 
-### ملاحظات
+## ملاحظات
 
 بشكل افتراضيKeepSourceFormatting يستخدم.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية دمج المستندات في مستند إخراج واحد.
 
@@ -42,12 +44,12 @@ doc.Save(ArtifactsDir + "LowCode.MergeDocument.DocumentInstance.docx");
 ### أنظر أيضا
 
 * class [Merger](../)
-* مساحة الاسم [Aspose.Words.LowCode](../../merger/)
+* مساحة الاسم [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## Merge(string, string[], SaveFormat, MergeFormatMode) {#merge_5}
+## Merge(*string, string[], [SaveFormat](../../../aspose.words/saveformat/), [MergeFormatMode](../../mergeformatmode/)*) {#merge_5}
 
 يدمج مستندات الإدخال المحددة في مستند إخراج واحد باستخدام أسماء ملفات الإدخال والإخراج المحددة وتنسيق المستند النهائي.
 
@@ -63,7 +65,7 @@ public static void Merge(string outputFile, string[] inputFiles, SaveFormat save
 | saveFormat | SaveFormat | تنسيق الحفظ. |
 | mergeFormatMode | MergeFormatMode | يحدد كيفية دمج التنسيق الذي يتعارض. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية دمج المستندات في مستند إخراج واحد.
 
@@ -84,12 +86,12 @@ doc.Save(ArtifactsDir + "LowCode.MergeDocument.DocumentInstance.docx");
 * enum [SaveFormat](../../../aspose.words/saveformat/)
 * enum [MergeFormatMode](../../mergeformatmode/)
 * class [Merger](../)
-* مساحة الاسم [Aspose.Words.LowCode](../../merger/)
+* مساحة الاسم [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## Merge(string, string[], SaveOptions, MergeFormatMode) {#merge_6}
+## Merge(*string, string[], [SaveOptions](../../../aspose.words.saving/saveoptions/), [MergeFormatMode](../../mergeformatmode/)*) {#merge_6}
 
 يدمج مستندات الإدخال المحددة في مستند إخراج واحد باستخدام أسماء ملفات الإدخال والإخراج المحددة وخيارات الحفظ.
 
@@ -105,7 +107,7 @@ public static void Merge(string outputFile, string[] inputFiles, SaveOptions sav
 | saveOptions | SaveOptions | خيارات الحفظ. |
 | mergeFormatMode | MergeFormatMode | يحدد كيفية دمج التنسيق الذي يتعارض. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية دمج المستندات في مستند إخراج واحد.
 
@@ -126,12 +128,12 @@ doc.Save(ArtifactsDir + "LowCode.MergeDocument.DocumentInstance.docx");
 * class [SaveOptions](../../../aspose.words.saving/saveoptions/)
 * enum [MergeFormatMode](../../mergeformatmode/)
 * class [Merger](../)
-* مساحة الاسم [Aspose.Words.LowCode](../../merger/)
+* مساحة الاسم [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## Merge(string[], MergeFormatMode) {#merge_1}
+## Merge(*string[], [MergeFormatMode](../../mergeformatmode/)*) {#merge_1}
 
 يدمج مستندات الإدخال المحددة في مستند واحد ويعيدها[`Document`](../../../aspose.words/document/) مثيل للوثيقة النهائية.
 
@@ -144,7 +146,7 @@ public static Document Merge(string[] inputFiles, MergeFormatMode mergeFormatMod
 | inputFiles | String[] | أسماء ملفات الإدخال |
 | mergeFormatMode | MergeFormatMode | يحدد كيفية دمج التنسيق الذي يتعارض. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية دمج المستندات في مستند إخراج واحد.
 
@@ -165,12 +167,12 @@ doc.Save(ArtifactsDir + "LowCode.MergeDocument.DocumentInstance.docx");
 * class [Document](../../../aspose.words/document/)
 * enum [MergeFormatMode](../../mergeformatmode/)
 * class [Merger](../)
-* مساحة الاسم [Aspose.Words.LowCode](../../merger/)
+* مساحة الاسم [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## Merge(Stream, Stream[], SaveFormat) {#merge_2}
+## Merge(*Stream, Stream[], [SaveFormat](../../../aspose.words/saveformat/)*) {#merge_2}
 
 دمج مستندات الإدخال المحددة في مستند إخراج واحد باستخدام تدفقات إخراج الإدخال المحددة وتنسيق المستند النهائي.
 
@@ -184,7 +186,7 @@ public static void Merge(Stream outputStream, Stream[] inputStreams, SaveFormat 
 | inputStreams | Stream[] | تدفقات الإدخال. |
 | saveFormat | SaveFormat | تنسيق الحفظ. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية دمج المستندات من الدفق في مستند إخراج واحد.
 
@@ -210,12 +212,12 @@ using (FileStream firstStreamIn = new FileStream(MyDir + "Big document.docx", Fi
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
 * class [Merger](../)
-* مساحة الاسم [Aspose.Words.LowCode](../../merger/)
+* مساحة الاسم [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## Merge(Stream, Stream[], SaveOptions, MergeFormatMode) {#merge_3}
+## Merge(*Stream, Stream[], [SaveOptions](../../../aspose.words.saving/saveoptions/), [MergeFormatMode](../../mergeformatmode/)*) {#merge_3}
 
 دمج مستندات الإدخال المحددة في مستند إخراج واحد باستخدام تدفقات إخراج الإدخال المحددة وخيارات الحفظ.
 
@@ -231,7 +233,7 @@ public static void Merge(Stream outputStream, Stream[] inputStreams, SaveOptions
 | saveOptions | SaveOptions | خيارات الحفظ. |
 | mergeFormatMode | MergeFormatMode | يحدد كيفية دمج التنسيق الذي يتعارض. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية دمج المستندات من الدفق في مستند إخراج واحد.
 
@@ -258,12 +260,12 @@ using (FileStream firstStreamIn = new FileStream(MyDir + "Big document.docx", Fi
 * class [SaveOptions](../../../aspose.words.saving/saveoptions/)
 * enum [MergeFormatMode](../../mergeformatmode/)
 * class [Merger](../)
-* مساحة الاسم [Aspose.Words.LowCode](../../merger/)
+* مساحة الاسم [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## Merge(Stream[], MergeFormatMode) {#merge}
+## Merge(*Stream[], [MergeFormatMode](../../mergeformatmode/)*) {#merge}
 
 يدمج مستندات الإدخال المحددة في مستند واحد ويعيدها[`Document`](../../../aspose.words/document/) مثيل للوثيقة النهائية.
 
@@ -276,7 +278,7 @@ public static Document Merge(Stream[] inputStreams, MergeFormatMode mergeFormatM
 | inputStreams | Stream[] | تدفقات الإدخال. |
 | mergeFormatMode | MergeFormatMode | يحدد كيفية دمج التنسيق الذي يتعارض. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية دمج المستندات من الدفق في مستند إخراج واحد.
 
@@ -303,7 +305,5 @@ using (FileStream firstStreamIn = new FileStream(MyDir + "Big document.docx", Fi
 * class [Document](../../../aspose.words/document/)
 * enum [MergeFormatMode](../../mergeformatmode/)
 * class [Merger](../)
-* مساحة الاسم [Aspose.Words.LowCode](../../merger/)
+* مساحة الاسم [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
 * المجسم [Aspose.Words](../../../)
-
-

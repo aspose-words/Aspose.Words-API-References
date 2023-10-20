@@ -1,7 +1,9 @@
 ---
-title: Interface IWarningCallback
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.IWarningCallback interface. Implémentez cette interface si vous souhaitez que votre propre méthode personnalisée soit appelée pour capturer les avertissements de perte de fidélité qui peuvent survenir lors du chargement ou de lenregistrement du document.
+title: IWarningCallback Interface
+linktitle: IWarningCallback
+articleTitle: IWarningCallback
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.IWarningCallback interface. Implémentez cette interface si vous souhaitez que votre propre méthode personnalisée soit appelée pour capturer les avertissements de perte de fidélité qui peuvent survenir lors du chargement ou de lenregistrement du document en C#.
 type: docs
 weight: 3210
 url: /fr/net/aspose.words/iwarningcallback/
@@ -18,9 +20,9 @@ public interface IWarningCallback
 
 | Nom | La description |
 | --- | --- |
-| [Warning](../../aspose.words/iwarningcallback/warning/)(WarningInfo) | Aspose.Words appelle cette méthode lorsqu'il rencontre un problème lors du chargement ou de l'enregistrement d'un document pouvant entraîner une perte de formatage ou de fidélité des données. |
+| [Warning](../../aspose.words/iwarningcallback/warning/)(*[WarningInfo](../warninginfo/)*) | Aspose.Words appelle cette méthode lorsqu'il rencontre un problème lors du chargement ou de l'enregistrement d'un document pouvant entraîner une perte de formatage ou de fidélité des données. |
 
-### Exemples
+## Exemples
 
 Montre comment utiliser l’interface IWarningCallback pour surveiller les avertissements de substitution de police.
 
@@ -179,5 +181,3 @@ public class HandleDocumentSubstitutionWarnings : IWarningCallback
 
 * espace de noms [Aspose.Words](../../aspose.words/)
 * Assemblée [Aspose.Words](../../)
-
-

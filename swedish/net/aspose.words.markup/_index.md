@@ -1,12 +1,14 @@
 ---
 title: Aspose.Words.Markup
-second_title: Aspose.Words för .NET API Referens
-description: De Aspose.Words.Markup namnutrymmet innehåller klasser som representerar kunddefinierad semantik i ett dokument smarta taggar anpassade XML och strukturerade dokumenttaggar innehållskontroller.
+linktitle: Aspose.Words.Markup
+articleTitle: Aspose.Words.Markup
+second_title: Aspose.Words för .NET
+description: DeAspose.Words.Markup namnutrymmet innehåller klasser som representerar kunddefinierad semantik i ett dokument smarta taggar anpassade XML och strukturerade dokumenttaggar innehållskontroller i C#.
 type: docs
 weight: 160
 url: /sv/net/aspose.words.markup/
 ---
-De **Aspose.Words.Markup** namnutrymmet innehåller klasser som representerar kunddefinierad semantik i ett dokument: smarta taggar, anpassade XML och strukturerade dokumenttaggar (innehållskontroller).
+De**Aspose.Words.Markup** namnutrymmet innehåller klasser som representerar kunddefinierad semantik i ett dokument: smarta taggar, anpassade XML och strukturerade dokumenttaggar (innehållskontroller).
 
 ## Klasser
 
@@ -24,8 +26,8 @@ De **Aspose.Words.Markup** namnutrymmet innehåller klasser som representerar ku
 | [SmartTag](./smarttag/) | Detta element specificerar närvaron av en smart tagg runt en eller flera inline structures (körningar, bilder, fält, etc.) i ett stycke. |
 | [StructuredDocumentTag](./structureddocumenttag/) | Representerar en strukturerad dokumenttagg (SDT eller innehållskontroll) i ett dokument. |
 | [StructuredDocumentTagCollection](./structureddocumenttagcollection/) | En samling av[`IStructuredDocumentTag`](../aspose.words.markup/istructureddocumenttag/) instanser som representerar de strukturerade dokumenttaggarna i det angivna intervallet. |
-| [StructuredDocumentTagRangeEnd](./structureddocumenttagrangeend/) | Representerar ett slut på **varierade** strukturerad dokumenttagg som accepterar innehåll i flera sektioner. Se även[`StructuredDocumentTagRangeStart`](../aspose.words.markup/structureddocumenttagrangestart/) nod. |
-| [StructuredDocumentTagRangeStart](./structureddocumenttagrangestart/) | Representerar en början på **varierade** strukturerad dokumenttagg som accepterar innehåll i flera sektioner. Se även[`StructuredDocumentTagRangeEnd`](../aspose.words.markup/structureddocumenttagrangeend/) . |
+| [StructuredDocumentTagRangeEnd](./structureddocumenttagrangeend/) | Representerar ett slut på**varierade** strukturerad dokumenttagg som accepterar innehåll i flera sektioner. Se även[`StructuredDocumentTagRangeStart`](../aspose.words.markup/structureddocumenttagrangestart/) nod. |
+| [StructuredDocumentTagRangeStart](./structureddocumenttagrangestart/) | Representerar en början på**varierade** strukturerad dokumenttagg som accepterar innehåll i flera sektioner. Se även[`StructuredDocumentTagRangeEnd`](../aspose.words.markup/structureddocumenttagrangeend/) . |
 | [XmlMapping](./xmlmapping/) | Anger informationen som används för att upprätta en mappning mellan den strukturerade dokumenttaggen parent och ett XML-element lagrat i en anpassad XML-datadel i dokumentet. |
 ## Gränssnitt
 
@@ -41,5 +43,3 @@ De **Aspose.Words.Markup** namnutrymmet innehåller klasser som representerar ku
 | [SdtCalendarType](./sdtcalendartype/) | Anger möjliga typer av kalendrar som kan användas för att specificera[`CalendarType`](../aspose.words.markup/structureddocumenttag/calendartype/) i ett Office Open XML-dokument. |
 | [SdtDateStorageFormat](./sdtdatestorageformat/) | Anger hur datumet för ett datum SDT lagras/hämtas när SDT är bunden till en XML-nod i dokumentets datalager. |
 | [SdtType](./sdttype/) | Anger typen av en strukturerad dokumenttagg (SDT)-nod. |
-
-

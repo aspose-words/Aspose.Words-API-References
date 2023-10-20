@@ -1,7 +1,9 @@
 ---
 title: Font.Underline
-second_title: Aspose.Words لمراجع .NET API
-description: Font ملكية. الحصول على أو تعيين نوع التسطير المطبق على الخط.
+linktitle: Underline
+articleTitle: Underline
+second_title: Aspose.Words لـ .NET
+description: Font Underline ملكية. الحصول على أو تعيين نوع التسطير المطبق على الخط في C#.
 type: docs
 weight: 530
 url: /ar/net/aspose.words/font/underline/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/font/underline/
 public Underline Underline { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تكوين نمط ولون التسطير في النص.
 
@@ -71,7 +73,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertHyperlink.docx");
 
 * enum [Underline](../../underline/)
 * class [Font](../)
-* مساحة الاسم [Aspose.Words](../../font/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

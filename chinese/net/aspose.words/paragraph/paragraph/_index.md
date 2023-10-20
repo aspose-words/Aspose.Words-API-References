@@ -1,7 +1,9 @@
 ---
-title: Paragraph.Paragraph
-second_title: Aspose.Words for .NET API 参考
-description: Paragraph 构造函数. 初始化一个新实例Paragraph类.
+title: Paragraph
+linktitle: Paragraph
+articleTitle: Paragraph
+second_title: 用于 .NET 的 Aspose.Words
+description: Paragraph 构造函数. 初始化一个新实例Paragraph类 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words/paragraph/paragraph/
@@ -18,13 +20,13 @@ public Paragraph(DocumentBase doc)
 | --- | --- | --- |
 | doc | DocumentBase | 所有者文件。 |
 
-### 评论
+## 评论
 
 什么时候[`Paragraph`](../)创建后，它属于指定文档，但还不是 文档的一部分并且[`ParentNode`](../../node/parentnode/)是`无效的`。
 
-追加[`Paragraph`](../)到文档使用Node)或者Node) 在您想要插入段落的故事上。
+追加[`Paragraph`](../)到文档使用[`InsertAfter`](../../compositenode/insertafter/)或者[`InsertBefore`](../../compositenode/insertbefore/) 在您想要插入段落的故事上。
 
-### 例子
+## 例子
 
 展示如何手动构建 Aspose.Words 文档。
 
@@ -75,7 +77,5 @@ doc.Save(ArtifactsDir + "Section.CreateManually.docx");
 
 * class [DocumentBase](../../documentbase/)
 * class [Paragraph](../)
-* 命名空间 [Aspose.Words](../../paragraph/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

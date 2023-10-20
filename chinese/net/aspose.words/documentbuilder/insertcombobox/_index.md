@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.InsertComboBox
-second_title: Aspose.Words for .NET API 参考
-description: DocumentBuilder 方法. 在当前位置插入组合框表单字段
+linktitle: InsertComboBox
+articleTitle: InsertComboBox
+second_title: 用于 .NET 的 Aspose.Words
+description: DocumentBuilder InsertComboBox 方法. 在当前位置插入组合框表单字段 在 C#.
 type: docs
 weight: 300
 url: /zh/net/aspose.words/documentbuilder/insertcombobox/
@@ -24,11 +26,11 @@ public FormField InsertComboBox(string name, string[] items, int selectedIndex)
 
 刚刚插入的表单字段节点。
 
-### 评论
+## 评论
 
 如果您为表单字段指定名称，则会自动创建同名的书签。
 
-### 例子
+## 例子
 
 演示如何将组合框表单字段插入到文档中。
 
@@ -71,7 +73,5 @@ builder.Document.Save(ArtifactsDir + "DocumentBuilder.CreateForm.docx");
 
 * class [FormField](../../../aspose.words.fields/formfield/)
 * class [DocumentBuilder](../)
-* 命名空间 [Aspose.Words](../../documentbuilder/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

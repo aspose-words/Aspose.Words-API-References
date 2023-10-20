@@ -1,7 +1,9 @@
 ---
 title: Node.GetText
-second_title: Aspose.Words for .NET API 参考
-description: Node 方法. 获取此节点及其所有子节点的文本
+linktitle: GetText
+articleTitle: GetText
+second_title: 用于 .NET 的 Aspose.Words
+description: Node GetText 方法. 获取此节点及其所有子节点的文本 在 C#.
 type: docs
 weight: 120
 url: /zh/net/aspose.words/node/gettext/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words/node/gettext/
 public virtual string GetText()
 ```
 
-### 评论
+## 评论
 
 返回的字符串包括所有控制字符和特殊字符，如中所述[`ControlChar`](../../controlchar/)。
 
-### 例子
+## 例子
 
 展示如何使用控制字符。
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "Section.CreateManually.docx");
 ### 也可以看看
 
 * class [Node](../)
-* 命名空间 [Aspose.Words](../../node/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

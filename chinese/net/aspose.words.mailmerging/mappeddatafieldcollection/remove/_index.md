@@ -1,7 +1,9 @@
 ---
 title: MappedDataFieldCollection.Remove
-second_title: Aspose.Words for .NET API 参考
-description: MappedDataFieldCollection 方法. 删除字段映射
+linktitle: Remove
+articleTitle: Remove
+second_title: 用于 .NET 的 Aspose.Words
+description: MappedDataFieldCollection Remove 方法. 删除字段映射 在 C#.
 type: docs
 weight: 80
 url: /zh/net/aspose.words.mailmerging/mappeddatafieldcollection/remove/
@@ -18,7 +20,7 @@ public void Remove(string documentFieldName)
 | --- | --- | --- |
 | documentFieldName | String | 文档中邮件合并字段的名称（区分大小写）。 |
 
-### 例子
+## 例子
 
 演示如何映射具有不同名称的数据列和 MERGEFIELD，以便在邮件合并期间在它们之间传输数据。
 
@@ -103,7 +105,5 @@ private static DataTable CreateSourceTableMappedDataFields()
 ### 也可以看看
 
 * class [MappedDataFieldCollection](../)
-* 命名空间 [Aspose.Words.MailMerging](../../mappeddatafieldcollection/)
+* 命名空间 [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * 部件 [Aspose.Words](../../../)
-
-

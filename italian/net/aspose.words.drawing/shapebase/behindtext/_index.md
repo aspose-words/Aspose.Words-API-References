@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.BehindText
-second_title: Aspose.Words per .NET API Reference
-description: ShapeBase proprietà. Specifica se la forma è sotto o sopra il testo.
+linktitle: BehindText
+articleTitle: BehindText
+second_title: Aspose.Words per .NET
+description: ShapeBase BehindText proprietà. Specifica se la forma è sotto o sopra il testo in C#.
 type: docs
 weight: 50
 url: /it/net/aspose.words.drawing/shapebase/behindtext/
@@ -14,13 +16,13 @@ Specifica se la forma è sotto o sopra il testo.
 public bool BehindText { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Ha effetto solo per le forme di livello superiore.
 
 Il valore predefinito è`falso`.
 
-### Esempi
+## Esempi
 
 Mostra come inserire un'immagine mobile al centro di una pagina.
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "Image.CreateFloatingPageCenter.docx");
 ### Guarda anche
 
 * class [ShapeBase](../)
-* spazio dei nomi [Aspose.Words.Drawing](../../shapebase/)
+* spazio dei nomi [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assemblea [Aspose.Words](../../../)
-
-

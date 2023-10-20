@@ -1,7 +1,9 @@
 ---
-title: Class TabStopCollection
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.TabStopCollection 班级. 的集合TabStop代表段落或样式的自定义选项卡的对象
+title: TabStopCollection Class
+linktitle: TabStopCollection
+articleTitle: TabStopCollection
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.TabStopCollection 班级. 的集合TabStop代表段落或样式的自定义选项卡的对象 在 C#.
 type: docs
 weight: 6210
 url: /zh/net/aspose.words/tabstopcollection/
@@ -27,26 +29,26 @@ public class TabStopCollection : InternableComplexAttr
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Add](../../aspose.words/tabstopcollection/add/#add)(TabStop) | 在集合中添加或替换制表位。 |
-| [Add](../../aspose.words/tabstopcollection/add/#add_1)(double, TabAlignment, TabLeader) | 在集合中添加或替换制表位。 |
-| [After](../../aspose.words/tabstopcollection/after/)(double) | 获取指定位置右侧的第一个制表位。 |
-| [Before](../../aspose.words/tabstopcollection/before/)(double) | 获取指定位置左侧的第一个制表位。 |
+| [Add](../../aspose.words/tabstopcollection/add/#add)(*[TabStop](../tabstop/)*) | 在集合中添加或替换制表位。 |
+| [Add](../../aspose.words/tabstopcollection/add/#add_1)(*double, [TabAlignment](../tabalignment/), [TabLeader](../tableader/)*) | 在集合中添加或替换制表位。 |
+| [After](../../aspose.words/tabstopcollection/after/)(*double*) | 获取指定位置右侧的第一个制表位。 |
+| [Before](../../aspose.words/tabstopcollection/before/)(*double*) | 获取指定位置左侧的第一个制表位。 |
 | [Clear](../../aspose.words/tabstopcollection/clear/)() | 删除所有制表位位置。 |
-| override [Equals](../../aspose.words/tabstopcollection/equals/#equals_1)(object) | 确定指定对象的值是否等于当前对象。 |
-| [Equals](../../aspose.words/tabstopcollection/equals/#equals)(TabStopCollection) | 判断是否指定`TabStopCollection`与当前值相等`TabStopCollection`. |
+| override [Equals](../../aspose.words/tabstopcollection/equals/#equals_1)(*object*) | 确定指定对象的值是否等于当前对象。 |
+| [Equals](../../aspose.words/tabstopcollection/equals/#equals)(*TabStopCollection*) | 判断是否指定`TabStopCollection`与当前值相等`TabStopCollection`. |
 | override [GetHashCode](../../aspose.words/tabstopcollection/gethashcode/)() | 用作此类型的哈希函数。 |
-| [GetIndexByPosition](../../aspose.words/tabstopcollection/getindexbyposition/)(double) | 获取指定位置的制表位索引（以磅为单位）。 |
-| [GetPositionByIndex](../../aspose.words/tabstopcollection/getpositionbyindex/)(int) | 获取指定索引处制表位的位置（以磅为单位）。 |
-| [RemoveByIndex](../../aspose.words/tabstopcollection/removebyindex/)(int) | 从集合中删除指定索引处的制表位。 |
-| [RemoveByPosition](../../aspose.words/tabstopcollection/removebyposition/)(double) | 从集合中删除指定位置处的制表位。 |
+| [GetIndexByPosition](../../aspose.words/tabstopcollection/getindexbyposition/)(*double*) | 获取指定位置的制表位索引（以磅为单位）。 |
+| [GetPositionByIndex](../../aspose.words/tabstopcollection/getpositionbyindex/)(*int*) | 获取指定索引处制表位的位置（以磅为单位）。 |
+| [RemoveByIndex](../../aspose.words/tabstopcollection/removebyindex/)(*int*) | 从集合中删除指定索引处的制表位。 |
+| [RemoveByPosition](../../aspose.words/tabstopcollection/removebyposition/)(*double*) | 从集合中删除指定位置处的制表位。 |
 
-### 评论
+## 评论
 
 在 Microsoft Word 文档中，制表位可以在 paragraph 样式的属性中定义，也可以直接在段落的属性中定义。一个样式可以基于另一个样式。 因此，给定对象的完整制表位集是直接在此对象上定义的制表位 和从父样式继承的制表位的组合。
 
 在 Aspose.Words 中，当您获得`TabStopCollection`对于段落或样式， 它仅包含直接为此段落或样式定义的自定义制表位。 该集合不包括在父样式中定义的制表位或默认制表位。
 
-### 例子
+## 例子
 
 展示如何使用文档的制表位集合。
 
@@ -92,5 +94,3 @@ doc.Save(ArtifactsDir + "TabStopCollection.TabStopCollection.docx");
 * class [InternableComplexAttr](../internablecomplexattr/)
 * 命名空间 [Aspose.Words](../../aspose.words/)
 * 部件 [Aspose.Words](../../)
-
-

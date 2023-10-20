@@ -1,7 +1,9 @@
 ---
-title: OfficeMathRenderer.OfficeMathRenderer
-second_title: Aspose.Words für .NET-API-Referenz
-description: OfficeMathRenderer constructeur. Initialisiert eine neue Instanz dieser Klasse.
+title: OfficeMathRenderer
+linktitle: OfficeMathRenderer
+articleTitle: OfficeMathRenderer
+second_title: Aspose.Words für .NET
+description: OfficeMathRenderer constructeur. Initialisiert eine neue Instanz dieser Klasse in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words.rendering/officemathrenderer/officemathrenderer/
@@ -18,7 +20,7 @@ public OfficeMathRenderer(OfficeMath math)
 | --- | --- | --- |
 | math | OfficeMath | Der[`OfficeMath`](../../../aspose.words.math/officemath/) Objekt, das Sie rendern möchten. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Formen gemessen und skaliert werden.
 
@@ -66,7 +68,5 @@ Assert.AreEqual(30, bounds.Height);
 
 * class [OfficeMath](../../../aspose.words.math/officemath/)
 * class [OfficeMathRenderer](../)
-* namensraum [Aspose.Words.Rendering](../../officemathrenderer/)
+* namensraum [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * Montage [Aspose.Words](../../../)
-
-

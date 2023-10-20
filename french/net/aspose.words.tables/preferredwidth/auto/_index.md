@@ -1,7 +1,9 @@
 ---
 title: PreferredWidth.Auto
-second_title: Référence de l'API Aspose.Words pour .NET
-description: PreferredWidth champ. Renvoie une instance qui représente la valeur  la largeur préférée nest pas spécifiée .
+linktitle: Auto
+articleTitle: Auto
+second_title: Aspose.Words pour .NET
+description: PreferredWidth Auto champ. Renvoie une instance qui représente la valeur  la largeur préférée nest pas spécifiée  en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.tables/preferredwidth/auto/
@@ -14,7 +16,7 @@ Renvoie une instance qui représente la valeur « la largeur préférée n'est p
 public static readonly PreferredWidth Auto;
 ```
 
-### Exemples
+## Exemples
 
 Montre comment définir une largeur préférée pour les cellules du tableau.
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertCellsWithPreferredWidths.docx");
 ### Voir également
 
 * class [PreferredWidth](../)
-* espace de noms [Aspose.Words.Tables](../../preferredwidth/)
+* espace de noms [Aspose.Words.Tables](../../../aspose.words.tables/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldOptions.UserPromptRespondent
-second_title: Aspose.Words for .NET API 参考
-description: FieldOptions 财产. 获取或设置字段更新期间用户提示的受访者
+linktitle: UserPromptRespondent
+articleTitle: UserPromptRespondent
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldOptions UserPromptRespondent 财产. 获取或设置字段更新期间用户提示的受访者 在 C#.
 type: docs
 weight: 220
 url: /zh/net/aspose.words.fields/fieldoptions/userpromptrespondent/
@@ -14,13 +16,13 @@ url: /zh/net/aspose.words.fields/fieldoptions/userpromptrespondent/
 public IFieldUserPromptRespondent UserPromptRespondent { get; set; }
 ```
 
-### 评论
+## 评论
 
 如果该属性的值设置为`无效的`，需要用户在prompting 上响应的字段（例如[`FieldAsk`](../../fieldask/)或者[`FieldFillIn`](../../fieldfillin/)）没有更新。
 
 默认值为`无效的`。
 
-### 例子
+## 例子
 
 演示如何创建 ASK 字段并设置其属性。
 
@@ -83,7 +85,5 @@ private class MyPromptRespondent : IFieldUserPromptRespondent
 
 * interface [IFieldUserPromptRespondent](../../ifielduserpromptrespondent/)
 * class [FieldOptions](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldoptions/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

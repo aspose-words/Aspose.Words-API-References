@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabel.ShowPercentage
-second_title: Aspose.Words för .NET API Referens
-description: ChartDataLabel fast egendom. Gör det möjligt att ange om ett procentvärde ska visas för dataetiketterna i ett diagram. Standardvärdet ärfalsk .
+linktitle: ShowPercentage
+articleTitle: ShowPercentage
+second_title: Aspose.Words för .NET
+description: ChartDataLabel ShowPercentage fast egendom. Gör det möjligt att ange om ett procentvärde ska visas för dataetiketterna i ett diagram. Standardvärdet ärfalsk  i C#.
 type: docs
 weight: 130
 url: /sv/net/aspose.words.drawing.charts/chartdatalabel/showpercentage/
@@ -14,7 +16,7 @@ Gör det möjligt att ange om ett procentvärde ska visas för dataetiketterna i
 public bool ShowPercentage { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man applicerar etiketter på datapunkter i ett linjediagram.
 
@@ -92,7 +94,5 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
 ### Se även
 
 * class [ChartDataLabel](../)
-* namnutrymme [Aspose.Words.Drawing.Charts](../../chartdatalabel/)
+* namnutrymme [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../../)
-
-

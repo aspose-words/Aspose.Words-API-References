@@ -1,7 +1,9 @@
 ---
-title: Class WordML2003SaveOptions
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Saving.WordML2003SaveOptions klass. Kan användas för att ange ytterligare alternativ när du sparar ett dokument iWordML format.
+title: WordML2003SaveOptions Class
+linktitle: WordML2003SaveOptions
+articleTitle: WordML2003SaveOptions
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Saving.WordML2003SaveOptions klass. Kan användas för att ange ytterligare alternativ när du sparar ett dokument iWordML format i C#.
 type: docs
 weight: 5680
 url: /sv/net/aspose.words.saving/wordml2003saveoptions/
@@ -28,7 +30,7 @@ public class WordML2003SaveOptions : SaveOptions
 | --- | --- |
 | [AllowEmbeddingPostScriptFonts](../../aspose.words.saving/saveoptions/allowembeddingpostscriptfonts/) { get; set; } | Hämtar eller ställer in ett booleskt värde som indikerar om man ska tillåta inbäddning av teckensnitt med PostScript outlines när inbäddning av TrueType-teckensnitt i ett dokument på det sparas. Standardvärdet är`falsk` . |
 | [CustomTimeZoneInfo](../../aspose.words.saving/saveoptions/customtimezoneinfo/) { get; set; } | Hämtar eller ställer in anpassad lokal tidszon som används för datum-/tidsfält. |
-| [DefaultTemplate](../../aspose.words.saving/saveoptions/defaulttemplate/) { get; set; } | Hämtar eller ställer in sökvägen till standardmall (inklusive filnamn). Standardvärdet för den här egenskapen är **tom sträng** (Empty). |
+| [DefaultTemplate](../../aspose.words.saving/saveoptions/defaulttemplate/) { get; set; } | Hämtar eller ställer in sökvägen till standardmall (inklusive filnamn). Standardvärdet för den här egenskapen är**tom sträng** (Empty). |
 | [Dml3DEffectsRenderingMode](../../aspose.words.saving/saveoptions/dml3deffectsrenderingmode/) { get; set; } | Hämtar eller ställer in ett värde som bestämmer hur 3D-effekter renderas. |
 | virtual [DmlEffectsRenderingMode](../../aspose.words.saving/saveoptions/dmleffectsrenderingmode/) { get; set; } | Hämtar eller ställer in ett värde som bestämmer hur DrawingML-effekter renderas. |
 | [DmlRenderingMode](../../aspose.words.saving/saveoptions/dmlrenderingmode/) { get; set; } | Hämtar eller ställer in ett värde som bestämmer hur DrawingML-former renderas. |
@@ -46,11 +48,11 @@ public class WordML2003SaveOptions : SaveOptions
 | [UseAntiAliasing](../../aspose.words.saving/saveoptions/useantialiasing/) { get; set; } | Hämtar eller ställer in ett värde som avgör om kantutjämning ska användas eller inte för rendering. |
 | [UseHighQualityRendering](../../aspose.words.saving/saveoptions/usehighqualityrendering/) { get; set; } | Hämtar eller ställer in ett värde som avgör huruvida högkvalitativa (dvs långsamma) renderingsalgoritmer ska användas eller inte. |
 
-### Anmärkningar
+## Anmärkningar
 
 För närvarande ger endast[`SaveFormat`](./saveformat/)egendom, men i framtiden kan andra alternativ läggas till.
 
-### Exempel
+## Exempel
 
 Visar hur man hanterar minnesoptimering.
 
@@ -118,5 +120,3 @@ else
 * class [SaveOptions](../saveoptions/)
 * namnutrymme [Aspose.Words.Saving](../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../)
-
-

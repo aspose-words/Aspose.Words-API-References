@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.EndTable
-second_title: Справочник по API Aspose.Words для .NET
-description: DocumentBuilder метод. Завершает таблицу в документе.
+linktitle: EndTable
+articleTitle: EndTable
+second_title: Aspose.Words для .NET
+description: DocumentBuilder EndTable метод. Завершает таблицу в документе на С#.
 type: docs
 weight: 250
 url: /ru/net/aspose.words/documentbuilder/endtable/
@@ -18,11 +20,11 @@ public Table EndTable()
 
 Узел таблицы, который только что был завершен.
 
-### Примечания
+## Примечания
 
 Этот метод следует вызывать только один раз после[`EndRow`](../endrow/) назывался. При вызове `EndTable` перемещает курсор из текущей ячейки в точку сразу после таблицы.
 
-### Примеры
+## Примеры
 
 Показывает, как форматировать ячейки с помощью построителя документов.
 
@@ -172,7 +174,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
 
 * class [Table](../../../aspose.words.tables/table/)
 * class [DocumentBuilder](../)
-* пространство имен [Aspose.Words](../../documentbuilder/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Shape.TextPath
-second_title: Aspose.Words für .NET-API-Referenz
-description: Shape eigendom. Definiert den Text des Textpfads eines WordArtObjekts.
+linktitle: TextPath
+articleTitle: TextPath
+second_title: Aspose.Words für .NET
+description: Shape TextPath eigendom. Definiert den Text des Textpfads eines WordArtObjekts in C#.
 type: docs
 weight: 230
 url: /de/net/aspose.words.drawing/shape/textpath/
@@ -14,7 +16,7 @@ Definiert den Text des Textpfads (eines WordArt-Objekts).
 public TextPath TextPath { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man mit WordArt arbeitet.
 
@@ -118,7 +120,5 @@ private static Shape AppendWordArt(Document doc, string text, string textFontFam
 
 * class [TextPath](../../textpath/)
 * class [Shape](../)
-* namensraum [Aspose.Words.Drawing](../../shape/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

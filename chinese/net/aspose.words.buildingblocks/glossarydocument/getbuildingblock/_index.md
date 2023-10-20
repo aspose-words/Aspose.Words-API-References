@@ -1,9 +1,11 @@
 ---
 title: GlossaryDocument.GetBuildingBlock
-second_title: Aspose.Words for .NET API 参考
-description: GlossaryDocument 方法. 使用指定的图库类别和名称查找构建块
+linktitle: GetBuildingBlock
+articleTitle: GetBuildingBlock
+second_title: 用于 .NET 的 Aspose.Words
+description: GlossaryDocument GetBuildingBlock 方法. 使用指定的图库类别和名称查找构建块 在 C#.
 type: docs
-weight: 90
+weight: 70
 url: /zh/net/aspose.words.buildingblocks/glossarydocument/getbuildingblock/
 ---
 ## GlossaryDocument.GetBuildingBlock method
@@ -24,13 +26,13 @@ public BuildingBlock GetBuildingBlock(BuildingBlockGallery gallery, string categ
 
 匹配的构建块或`无效的`如果没有找到匹配项。
 
-### 评论
+## 评论
 
 这是一种便捷方法，可迭代此集合中的所有构建块 ，并返回与 指定图库、类别和名称匹配的第一个构建块。
 
 Microsoft Word 将构建块组织到库中。 gallery 是使用预定义的[`BuildingBlockGallery`](../../buildingblockgallery/)enum. 在每个库中，构建块可以组织为一个或多个类别。 类别名称是一个字符串。每个构建块都有一个名称。不保证构建块 名称是唯一的。
 
-### 例子
+## 例子
 
 显示访问术语表文档中的构建块的方法。
 
@@ -136,7 +138,5 @@ public class GlossaryDocVisitor : DocumentVisitor
 * class [BuildingBlock](../../buildingblock/)
 * enum [BuildingBlockGallery](../../buildingblockgallery/)
 * class [GlossaryDocument](../)
-* 命名空间 [Aspose.Words.BuildingBlocks](../../glossarydocument/)
+* 命名空间 [Aspose.Words.BuildingBlocks](../../../aspose.words.buildingblocks/)
 * 部件 [Aspose.Words](../../../)
-
-

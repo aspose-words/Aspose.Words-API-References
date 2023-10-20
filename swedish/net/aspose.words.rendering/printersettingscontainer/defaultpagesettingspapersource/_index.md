@@ -1,7 +1,9 @@
 ---
 title: PrinterSettingsContainer.DefaultPageSettingsPaperSource
-second_title: Aspose.Words för .NET API Referens
-description: PrinterSettingsContainer fast egendom. SePaperSource avDefaultPageSettings .
+linktitle: DefaultPageSettingsPaperSource
+articleTitle: DefaultPageSettingsPaperSource
+second_title: Aspose.Words för .NET
+description: PrinterSettingsContainer DefaultPageSettingsPaperSource fast egendom. SePaperSource avDefaultPageSettings  i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.rendering/printersettingscontainer/defaultpagesettingspapersource/
@@ -14,7 +16,7 @@ SePaperSource avDefaultPageSettings .
 public PaperSource DefaultPageSettingsPaperSource { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du kommer åt och listar skrivarens papperskällor och storlekar.
 
@@ -47,7 +49,5 @@ foreach (System.Drawing.Printing.PaperSize paperSize in container.PaperSizes)
 ### Se även
 
 * class [PrinterSettingsContainer](../)
-* namnutrymme [Aspose.Words.Rendering](../../printersettingscontainer/)
+* namnutrymme [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * hopsättning [Aspose.Words](../../../)
-
-

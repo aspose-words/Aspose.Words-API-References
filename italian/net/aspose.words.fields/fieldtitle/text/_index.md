@@ -1,7 +1,9 @@
 ---
 title: FieldTitle.Text
-second_title: Aspose.Words per .NET API Reference
-description: FieldTitle proprietà. Ottiene o imposta il testo del titolo.
+linktitle: Text
+articleTitle: Text
+second_title: Aspose.Words per .NET
+description: FieldTitle Text proprietà. Ottiene o imposta il testo del titolo in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words.fields/fieldtitle/text/
@@ -14,7 +16,7 @@ Ottiene o imposta il testo del titolo.
 public string Text { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come utilizzare il campo TITOLO.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "Field.TITLE.docx");
 ### Guarda anche
 
 * class [FieldTitle](../)
-* spazio dei nomi [Aspose.Words.Fields](../../fieldtitle/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

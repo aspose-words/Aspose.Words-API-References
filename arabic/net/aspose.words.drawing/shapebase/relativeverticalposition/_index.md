@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.RelativeVerticalPosition
-second_title: Aspose.Words لمراجع .NET API
-description: ShapeBase ملكية. يحدد نسبة إلى موضع الشكل عموديًا.
+linktitle: RelativeVerticalPosition
+articleTitle: RelativeVerticalPosition
+second_title: Aspose.Words لـ .NET
+description: ShapeBase RelativeVerticalPosition ملكية. يحدد نسبة إلى موضع الشكل عموديًا في C#.
 type: docs
 weight: 440
 url: /ar/net/aspose.words.drawing/shapebase/relativeverticalposition/
@@ -14,13 +16,13 @@ url: /ar/net/aspose.words.drawing/shapebase/relativeverticalposition/
 public RelativeVerticalPosition RelativeVerticalPosition { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 القيمة الافتراضية هيParagraph.
 
 له تأثير فقط على الأشكال العائمة ذات المستوى الأعلى.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج صورة عائمة في وسط الصفحة.
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "Image.CreateFloatingPageCenter.docx");
 
 * enum [RelativeVerticalPosition](../../relativeverticalposition/)
 * class [ShapeBase](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../shapebase/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

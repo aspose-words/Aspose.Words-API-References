@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.StyleName
-second_title: Aspose.Words för .NET API Referens
-description: ParagraphFormat fast egendom. Hämtar eller ställer in namnet på styckeformatet som tillämpas på denna formatering.
+linktitle: StyleName
+articleTitle: StyleName
+second_title: Aspose.Words för .NET
+description: ParagraphFormat StyleName fast egendom. Hämtar eller ställer in namnet på styckeformatet som tillämpas på denna formatering i C#.
 type: docs
 weight: 360
 url: /sv/net/aspose.words/paragraphformat/stylename/
@@ -14,7 +16,7 @@ Hämtar eller ställer in namnet på styckeformatet som tillämpas på denna for
 public string StyleName { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man konstruerar ett Aspose.Words-dokument för hand.
 
@@ -64,7 +66,5 @@ doc.Save(ArtifactsDir + "Section.CreateManually.docx");
 ### Se även
 
 * class [ParagraphFormat](../)
-* namnutrymme [Aspose.Words](../../paragraphformat/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

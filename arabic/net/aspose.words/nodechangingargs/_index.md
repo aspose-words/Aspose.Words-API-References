@@ -1,7 +1,9 @@
 ---
-title: Class NodeChangingArgs
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.NodeChangingArgs فصل. يوفر بيانات عن طرقINodeChangingCallback الواجهة.
+title: NodeChangingArgs Class
+linktitle: NodeChangingArgs
+articleTitle: NodeChangingArgs
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.NodeChangingArgs فصل. يوفر بيانات عن طرقINodeChangingCallback الواجهة في C#.
 type: docs
 weight: 4190
 url: /ar/net/aspose.words/nodechangingargs/
@@ -25,7 +27,7 @@ public class NodeChangingArgs
 | [Node](../../aspose.words/nodechangingargs/node/) { get; } | يحصل على[`Node`](./node/) التي تتم إضافتها أو إزالتها. |
 | [OldParent](../../aspose.words/nodechangingargs/oldparent/) { get; } | الحصول على أصل العقدة قبل بدء العملية. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تخصيص تغيير العقدة من خلال رد الاتصال.
 
@@ -103,5 +105,3 @@ public class HandleNodeChangingFontChanger : INodeChangingCallback
 
 * مساحة الاسم [Aspose.Words](../../aspose.words/)
 * المجسم [Aspose.Words](../../)
-
-

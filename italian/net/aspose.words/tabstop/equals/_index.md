@@ -1,7 +1,9 @@
 ---
 title: TabStop.Equals
-second_title: Aspose.Words per .NET API Reference
-description: TabStop metodo. Confronta con quanto specificatoTabStop .
+linktitle: Equals
+articleTitle: Equals
+second_title: Aspose.Words per .NET
+description: TabStop Equals metodo. Confronta con quanto specificatoTabStop  in C#.
 type: docs
 weight: 60
 url: /it/net/aspose.words/tabstop/equals/
@@ -14,7 +16,7 @@ Confronta con quanto specificato[`TabStop`](../) .
 public bool Equals(TabStop rhs)
 ```
 
-### Esempi
+## Esempi
 
 Mostra come lavorare con la raccolta di tabulazioni di un documento.
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "TabStopCollection.TabStopCollection.docx");
 ### Guarda anche
 
 * class [TabStop](../)
-* spazio dei nomi [Aspose.Words](../../tabstop/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

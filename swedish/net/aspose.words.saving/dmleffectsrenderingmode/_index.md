@@ -1,7 +1,9 @@
 ---
-title: Enum DmlEffectsRenderingMode
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Saving.DmlEffectsRenderingMode uppräkning. Anger hur DrawingMLeffekter renderas till fasta sidformat.
+title: DmlEffectsRenderingMode Enum
+linktitle: DmlEffectsRenderingMode
+articleTitle: DmlEffectsRenderingMode
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Saving.DmlEffectsRenderingMode uppräkning. Anger hur DrawingMLeffekter renderas till fasta sidformat i C#.
 type: docs
 weight: 4910
 url: /sv/net/aspose.words.saving/dmleffectsrenderingmode/
@@ -22,7 +24,7 @@ public enum DmlEffectsRenderingMode
 | None | `1` | Inga DrawingML-effekter renderas. |
 | Fine | `2` | DrawingML-effekter renderas i fint läge som involverar avancerad bearbetning. I detta läge ger rendering av effekter bättre resultat men till en högre prestandakostnad änSimplified läge. |
 
-### Exempel
+## Exempel
 
 Visar hur du konfigurerar renderingskvaliteten för DrawingML-effekter i ett dokument när vi sparar det till PDF.
 
@@ -49,5 +51,3 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.DrawingMLEffects.pdf", options);
 
 * namnutrymme [Aspose.Words.Saving](../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../)
-
-

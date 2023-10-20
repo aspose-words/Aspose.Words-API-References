@@ -1,7 +1,9 @@
 ---
 title: FieldKeywords.Text
-second_title: Aspose.Words för .NET API Referens
-description: FieldKeywords fast egendom. Hämtar eller ställer in texten för sökorden.
+linktitle: Text
+articleTitle: Text
+second_title: Aspose.Words för .NET
+description: FieldKeywords Text fast egendom. Hämtar eller ställer in texten för sökorden i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.fields/fieldkeywords/text/
@@ -14,7 +16,7 @@ Hämtar eller ställer in texten för sökorden.
 public string Text { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar för att infoga ett KEYWORDS-fält.
 
@@ -47,7 +49,5 @@ doc.Save(ArtifactsDir + "Field.KEYWORDS.docx");
 ### Se även
 
 * class [FieldKeywords](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldkeywords/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

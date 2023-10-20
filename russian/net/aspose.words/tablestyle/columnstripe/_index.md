@@ -1,7 +1,9 @@
 ---
 title: TableStyle.ColumnStripe
-second_title: Справочник по API Aspose.Words для .NET
-description: TableStyle свойство. Получает или задает количество столбцов которые необходимо включить в группировку когда стиль определяет группировку нечетных/четных столбцов.
+linktitle: ColumnStripe
+articleTitle: ColumnStripe
+second_title: Aspose.Words для .NET
+description: TableStyle ColumnStripe свойство. Получает или задает количество столбцов которые необходимо включить в группировку когда стиль определяет группировку нечетных/четных столбцов на С#.
 type: docs
 weight: 70
 url: /ru/net/aspose.words/tablestyle/columnstripe/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/tablestyle/columnstripe/
 public int ColumnStripe { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как создавать стили условных таблиц, которые чередуются между строками.
 
@@ -69,7 +71,5 @@ doc.Save(ArtifactsDir + "Table.AlternatingRowStyles.docx");
 ### Смотрите также
 
 * class [TableStyle](../)
-* пространство имен [Aspose.Words](../../tablestyle/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

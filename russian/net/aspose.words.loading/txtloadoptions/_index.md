@@ -1,7 +1,9 @@
 ---
-title: Class TxtLoadOptions
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Loading.TxtLoadOptions сорт. Позволяет указать дополнительные параметры при загрузке.Text документ вDocument объект.
+title: TxtLoadOptions Class
+linktitle: TxtLoadOptions
+articleTitle: TxtLoadOptions
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Loading.TxtLoadOptions сорт. Позволяет указать дополнительные параметры при загрузке.Text документ вDocument объект на С#.
 type: docs
 weight: 3730
 url: /ru/net/aspose.words.loading/txtloadoptions/
@@ -30,7 +32,6 @@ public class TxtLoadOptions : LoadOptions
 | [BaseUri](../../aspose.words.loading/loadoptions/baseuri/) { get; set; } | Получает или задает строку, которая будет использоваться для преобразования относительных URI, найденных в документе, в абсолютные URI, когда это необходимо. Может быть`нулевой` или пустая строка. По умолчанию`нулевой` . |
 | [ConvertMetafilesToPng](../../aspose.words.loading/loadoptions/convertmetafilestopng/) { get; set; } | Получает или задает необходимость преобразования метафайла (Wmf илиEmf ) изображения дляPng формат изображения. |
 | [ConvertShapeToOfficeMath](../../aspose.words.loading/loadoptions/convertshapetoofficemath/) { get; set; } | Получает или задает необходимость преобразования фигур с помощью EquationXML в объекты Office Math. |
-| [DetectHyperlinks](../../aspose.words.loading/txtloadoptions/detecthyperlinks/) { get; set; } |  |
 | [DetectNumberingWithWhitespaces](../../aspose.words.loading/txtloadoptions/detectnumberingwithwhitespaces/) { get; set; } | Позволяет указать, как распознаются нумерованные элементы списка, когда документ импортируется из обычного текстового формата. Значение по умолчанию:`истинный`. |
 | [DocumentDirection](../../aspose.words.loading/txtloadoptions/documentdirection/) { get; set; } | Получает или задает направление документа. Значение по умолчанию:LeftToRight . |
 | [Encoding](../../aspose.words.loading/loadoptions/encoding/) { get; set; } | Получает или задает кодировку, которая будет использоваться для загрузки документа HTML, TXT или CHM, если кодировка не указана внутри документа. Может быть`нулевой` . По умолчанию`нулевой` . |
@@ -53,12 +54,10 @@ public class TxtLoadOptions : LoadOptions
 
 | Имя | Описание |
 | --- | --- |
-| override [Equals](../../aspose.words.loading/loadoptions/equals/)(object) |  |
+| override [Equals](../../aspose.words.loading/loadoptions/equals/)(*object*) |  |
 
 ### Смотрите также
 
 * class [LoadOptions](../loadoptions/)
 * пространство имен [Aspose.Words.Loading](../../aspose.words.loading/)
 * сборка [Aspose.Words](../../)
-
-

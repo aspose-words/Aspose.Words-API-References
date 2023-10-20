@@ -1,7 +1,9 @@
 ---
 title: MailMergeSettings.DoNotSupressBlankLines
-second_title: Aspose.Words for .NET API 参考
-description: MailMergeSettings 财产. 指定执行邮件合并的应用程序应如何处理邮件合并产生的合并文档中的空行 默认值为错误的.
+linktitle: DoNotSupressBlankLines
+articleTitle: DoNotSupressBlankLines
+second_title: 用于 .NET 的 Aspose.Words
+description: MailMergeSettings DoNotSupressBlankLines 财产. 指定执行邮件合并的应用程序应如何处理邮件合并产生的合并文档中的空行 默认值为错误的 在 C#.
 type: docs
 weight: 90
 url: /zh/net/aspose.words.settings/mailmergesettings/donotsupressblanklines/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.settings/mailmergesettings/donotsupressblanklines/
 public bool DoNotSupressBlankLines { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何使用 Office 数据源对象中的数据执行邮件合并。
 
@@ -66,7 +68,5 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ### 也可以看看
 
 * class [MailMergeSettings](../)
-* 命名空间 [Aspose.Words.Settings](../../mailmergesettings/)
+* 命名空间 [Aspose.Words.Settings](../../../aspose.words.settings/)
 * 部件 [Aspose.Words](../../../)
-
-

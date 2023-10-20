@@ -1,7 +1,9 @@
 ---
 title: OdsoRecipientDataCollection.RemoveAt
-second_title: Справочник по API Aspose.Words для .NET
-description: OdsoRecipientDataCollection метод. Удаляет элемент по указанному индексу.
+linktitle: RemoveAt
+articleTitle: RemoveAt
+second_title: Aspose.Words для .NET
+description: OdsoRecipientDataCollection RemoveAt метод. Удаляет элемент по указанному индексу на С#.
 type: docs
 weight: 70
 url: /ru/net/aspose.words.settings/odsorecipientdatacollection/removeat/
@@ -18,7 +20,7 @@ public void RemoveAt(int index)
 | --- | --- | --- |
 | index | Int32 | Индекс элемента, отсчитываемый от нуля. |
 
-### Примеры
+## Примеры
 
 Показывает, как получить доступ к коллекции данных, определяющей, какие записи источника данных слияния будут исключены при слиянии почты.
 
@@ -58,7 +60,5 @@ Assert.AreEqual(0, dataCollection.Count);
 ### Смотрите также
 
 * class [OdsoRecipientDataCollection](../)
-* пространство имен [Aspose.Words.Settings](../../odsorecipientdatacollection/)
+* пространство имен [Aspose.Words.Settings](../../../aspose.words.settings/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: PsSaveOptions.SaveFormat
-second_title: Referencia de API de Aspose.Words para .NET
-description: PsSaveOptions propiedad. Especifica el formato en el que se guardará el documento si se utiliza este objeto de opciones de guardado. Sólo se puedePs .
+linktitle: SaveFormat
+articleTitle: SaveFormat
+second_title: Aspose.Words para .NET
+description: PsSaveOptions SaveFormat propiedad. Especifica el formato en el que se guardará el documento si se utiliza este objeto de opciones de guardado. Sólo se puedePs  en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words.saving/pssaveoptions/saveformat/
@@ -14,7 +16,7 @@ Especifica el formato en el que se guardará el documento si se utiliza este obj
 public override SaveFormat SaveFormat { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo guardar un documento en formato Postscript en forma de libro plegado.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "PsSaveOptions.UseBookFoldPrintingSettings.ps", saveOpti
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
 * class [PsSaveOptions](../)
-* espacio de nombres [Aspose.Words.Saving](../../pssaveoptions/)
+* espacio de nombres [Aspose.Words.Saving](../../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.LastPrinted
-second_title: Aspose.Words för .NET API Referens
-description: BuiltInDocumentProperties fast egendom. Hämtar eller ställer in datumet när dokumentet senast skrevs ut i UTC.
+linktitle: LastPrinted
+articleTitle: LastPrinted
+second_title: Aspose.Words för .NET
+description: BuiltInDocumentProperties LastPrinted fast egendom. Hämtar eller ställer in datumet när dokumentet senast skrevs ut i UTC i C#.
 type: docs
 weight: 150
 url: /sv/net/aspose.words.properties/builtindocumentproperties/lastprinted/
@@ -14,7 +16,7 @@ Hämtar eller ställer in datumet när dokumentet senast skrevs ut i UTC.
 public DateTime LastPrinted { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 För dokument som kommer från RTF-format returnerar denna egenskap den lokala tiden för senaste utskrift.
 
@@ -22,7 +24,7 @@ Om dokumentet aldrig skrevs ut kommer den här egenskapen att returnera DateTime
 
 Aspose.Words uppdaterar inte den här egenskapen.
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med dokumentegenskaper i kategorin "Ursprung".
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "DocumentProperties.Origin.docx");
 ### Se även
 
 * class [BuiltInDocumentProperties](../)
-* namnutrymme [Aspose.Words.Properties](../../builtindocumentproperties/)
+* namnutrymme [Aspose.Words.Properties](../../../aspose.words.properties/)
 * hopsättning [Aspose.Words](../../../)
-
-

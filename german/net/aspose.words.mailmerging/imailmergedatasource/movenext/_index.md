@@ -1,7 +1,9 @@
 ---
 title: IMailMergeDataSource.MoveNext
-second_title: Aspose.Words für .NET-API-Referenz
-description: IMailMergeDataSource methode. Geht zum nächsten Datensatz in der Datenquelle.
+linktitle: MoveNext
+articleTitle: MoveNext
+second_title: Aspose.Words für .NET
+description: IMailMergeDataSource MoveNext methode. Geht zum nächsten Datensatz in der Datenquelle in C#.
 type: docs
 weight: 40
 url: /de/net/aspose.words.mailmerging/imailmergedatasource/movenext/
@@ -18,7 +20,7 @@ public bool MoveNext()
 
 `WAHR` wenn erfolgreich zum nächsten Datensatz verschoben;`FALSCH` wenn das Ende der Datenquelle erreicht ist.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Serienbrief mit einer Datenquelle in Form eines benutzerdefinierten Objekts ausgeführt wird.
 
@@ -132,7 +134,5 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
 ### Siehe auch
 
 * interface [IMailMergeDataSource](../)
-* namensraum [Aspose.Words.MailMerging](../../imailmergedatasource/)
+* namensraum [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * Montage [Aspose.Words](../../../)
-
-

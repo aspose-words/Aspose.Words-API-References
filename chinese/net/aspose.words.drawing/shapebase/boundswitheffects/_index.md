@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.BoundsWithEffects
-second_title: Aspose.Words for .NET API 参考
-description: ShapeBase 财产. 获取该形状对象在应用绘图效果后的最终范围 值以点为单位进行测量
+linktitle: BoundsWithEffects
+articleTitle: BoundsWithEffects
+second_title: 用于 .NET 的 Aspose.Words
+description: ShapeBase BoundsWithEffects 财产. 获取该形状对象在应用绘图效果后的最终范围 值以点为单位进行测量 在 C#.
 type: docs
 weight: 90
 url: /zh/net/aspose.words.drawing/shapebase/boundswitheffects/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.drawing/shapebase/boundswitheffects/
 public RectangleF BoundsWithEffects { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何检查形状效果如何影响形状的边界。
 
@@ -83,7 +85,5 @@ Assert.AreEqual(279, shape.BoundsWithEffects.Height);
 ### 也可以看看
 
 * class [ShapeBase](../)
-* 命名空间 [Aspose.Words.Drawing](../../shapebase/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class XmlDataSource
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Reporting.XmlDataSource clase. Proporciona acceso a los datos de un archivo o secuencia XML para utilizarlos en un informe.
+title: XmlDataSource Class
+linktitle: XmlDataSource
+articleTitle: XmlDataSource
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Reporting.XmlDataSource clase. Proporciona acceso a los datos de un archivo o secuencia XML para utilizarlos en un informe en C#.
 type: docs
 weight: 4750
 url: /es/net/aspose.words.reporting/xmldatasource/
@@ -20,16 +22,16 @@ public class XmlDataSource
 
 | Nombre | Descripción |
 | --- | --- |
-| [XmlDataSource](xmldatasource/#constructor)(Stream) | Crea una nueva fuente de datos con datos de una secuencia XML usando opciones predeterminadas para la carga de datos XML. |
-| [XmlDataSource](xmldatasource/#constructor_4)(string) | Crea una nueva fuente de datos con datos de un archivo XML utilizando las opciones predeterminadas para la carga de datos XML. |
-| [XmlDataSource](xmldatasource/#constructor_2)(Stream, Stream) | Crea una nueva fuente de datos con datos de una secuencia XML utilizando una secuencia de definición de esquema XML. Las opciones predeterminadas se utilizan para la carga de datos XML. |
-| [XmlDataSource](xmldatasource/#constructor_1)(Stream, XmlDataLoadOptions) | Crea una nueva fuente de datos con datos de una secuencia XML utilizando las opciones especificadas para la carga de datos XML. |
-| [XmlDataSource](xmldatasource/#constructor_6)(string, string) | Crea una nueva fuente de datos con datos de un archivo XML utilizando un archivo de definición de esquema XML. Las opciones predeterminadas se utilizan para la carga de datos XML. |
-| [XmlDataSource](xmldatasource/#constructor_5)(string, XmlDataLoadOptions) | Crea una nueva fuente de datos con datos de un archivo XML utilizando las opciones especificadas para la carga de datos XML. |
-| [XmlDataSource](xmldatasource/#constructor_3)(Stream, Stream, XmlDataLoadOptions) | Crea una nueva fuente de datos con datos de una secuencia XML utilizando una secuencia de definición de esquema XML. Las opciones especificadas se utilizan para la carga de datos XML. |
-| [XmlDataSource](xmldatasource/#constructor_7)(string, string, XmlDataLoadOptions) | Crea una nueva fuente de datos con datos de un archivo XML utilizando un archivo de definición de esquema XML. Las opciones especificadas se utilizan para la carga de datos XML. |
+| [XmlDataSource](xmldatasource/#constructor)(*Stream*) | Crea una nueva fuente de datos con datos de una secuencia XML usando opciones predeterminadas para la carga de datos XML. |
+| [XmlDataSource](xmldatasource/#constructor_4)(*string*) | Crea una nueva fuente de datos con datos de un archivo XML utilizando las opciones predeterminadas para la carga de datos XML. |
+| [XmlDataSource](xmldatasource/#constructor_2)(*Stream, Stream*) | Crea una nueva fuente de datos con datos de una secuencia XML utilizando una secuencia de definición de esquema XML. Las opciones predeterminadas se utilizan para la carga de datos XML. |
+| [XmlDataSource](xmldatasource/#constructor_1)(*Stream, [XmlDataLoadOptions](../xmldataloadoptions/)*) | Crea una nueva fuente de datos con datos de una secuencia XML utilizando las opciones especificadas para la carga de datos XML. |
+| [XmlDataSource](xmldatasource/#constructor_6)(*string, string*) | Crea una nueva fuente de datos con datos de un archivo XML utilizando un archivo de definición de esquema XML. Las opciones predeterminadas se utilizan para la carga de datos XML. |
+| [XmlDataSource](xmldatasource/#constructor_5)(*string, [XmlDataLoadOptions](../xmldataloadoptions/)*) | Crea una nueva fuente de datos con datos de un archivo XML utilizando las opciones especificadas para la carga de datos XML. |
+| [XmlDataSource](xmldatasource/#constructor_3)(*Stream, Stream, [XmlDataLoadOptions](../xmldataloadoptions/)*) | Crea una nueva fuente de datos con datos de una secuencia XML utilizando una secuencia de definición de esquema XML. Las opciones especificadas se utilizan para la carga de datos XML. |
+| [XmlDataSource](xmldatasource/#constructor_7)(*string, string, [XmlDataLoadOptions](../xmldataloadoptions/)*) | Crea una nueva fuente de datos con datos de un archivo XML utilizando un archivo de definición de esquema XML. Las opciones especificadas se utilizan para la carga de datos XML. |
 
-### Observaciones
+## Observaciones
 
 Para acceder a los datos del archivo o flujo correspondiente mientras genera un informe, pase una instancia de esta clase como una fuente de datos a uno de[`ReportingEngine`](../reportingengine/) .BuildReport sobrecargas.
 
@@ -53,5 +55,3 @@ Para anular el comportamiento predeterminado de la carga de datos XML, inicialic
 
 * espacio de nombres [Aspose.Words.Reporting](../../aspose.words.reporting/)
 * asamblea [Aspose.Words](../../)
-
-

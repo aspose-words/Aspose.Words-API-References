@@ -1,12 +1,14 @@
 ---
 title: ListCollection.Add
-second_title: Aspose.Words for .NET API 参考
-description: ListCollection 方法. 根据预定义模板创建新列表并将其添加到文档中的列表集合中
+linktitle: Add
+articleTitle: Add
+second_title: 用于 .NET 的 Aspose.Words
+description: ListCollection Add 方法. 根据预定义模板创建新列表并将其添加到文档中的列表集合中 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.lists/listcollection/add/
 ---
-## Add(ListTemplate) {#add}
+## Add(*[ListTemplate](../../listtemplate/)*) {#add}
 
 根据预定义模板创建新列表并将其添加到文档中的列表集合中。
 
@@ -22,13 +24,13 @@ public List Add(ListTemplate listTemplate)
 
 新创建的列表。
 
-### 评论
+## 评论
 
 Aspose.Words 列表模板对应于 Microsoft Word 2003 中“项目符号和编号”对话框中的 21 个列表模板 available 。
 
 使用此方法创建的所有列表都有 9 个列表级别。
 
-### 例子
+## 例子
 
 演示如何通过将新的列表格式应用于段落集合来创建列表。
 
@@ -147,12 +149,12 @@ doc.Save(ArtifactsDir + "Lists.SpecifyListLevel.docx");
 * class [List](../../list/)
 * enum [ListTemplate](../../listtemplate/)
 * class [ListCollection](../)
-* 命名空间 [Aspose.Words.Lists](../../listcollection/)
+* 命名空间 [Aspose.Words.Lists](../../../aspose.words.lists/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## Add(Style) {#add_1}
+## Add(*[Style](../../../aspose.words/style/)*) {#add_1}
 
 创建引用列表样式的新列表并将其添加到文档中的列表集合中。
 
@@ -168,11 +170,11 @@ public List Add(Style listStyle)
 
 新创建的列表。
 
-### 评论
+## 评论
 
 新创建的列表引用列表样式。如果更改 list 样式的属性，则会反映在列表的属性中。反之亦然，如果更改列表的properties ，它会反映在列表样式的属性中。
 
-### 例子
+## 例子
 
 演示如何创建列表样式并在文档中使用它。
 
@@ -235,7 +237,5 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateAndUseListStyle.docx");
 * class [List](../../list/)
 * class [Style](../../../aspose.words/style/)
 * class [ListCollection](../)
-* 命名空间 [Aspose.Words.Lists](../../listcollection/)
+* 命名空间 [Aspose.Words.Lists](../../../aspose.words.lists/)
 * 部件 [Aspose.Words](../../../)
-
-

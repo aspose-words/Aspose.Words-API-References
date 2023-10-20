@@ -1,7 +1,9 @@
 ---
-title: Class ThemeFonts
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Themes.ThemeFonts сорт. Представляет коллекцию шрифтов в схеме шрифтов позволяющую указать разные шрифты для разных языков.Latin EastAsian иComplexScript .
+title: ThemeFonts Class
+linktitle: ThemeFonts
+articleTitle: ThemeFonts
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Themes.ThemeFonts сорт. Представляет коллекцию шрифтов в схеме шрифтов позволяющую указать разные шрифты для разных языков.Latin EastAsian иComplexScript  на С#.
 type: docs
 weight: 6500
 url: /ru/net/aspose.words.themes/themefonts/
@@ -24,7 +26,7 @@ public class ThemeFonts
 | [EastAsian](../../aspose.words.themes/themefonts/eastasian/) { get; set; } | Указывает имя шрифта для символов восточноазиатского языка. |
 | [Latin](../../aspose.words.themes/themefonts/latin/) { get; set; } | Указывает имя шрифта для латинских символов. |
 
-### Примеры
+## Примеры
 
 Показывает, как устанавливать собственные цвета и шрифты для тем.
 
@@ -73,5 +75,3 @@ doc.Save(ArtifactsDir + "Themes.CustomColorsAndFonts.docx");
 
 * пространство имен [Aspose.Words.Themes](../../aspose.words.themes/)
 * сборка [Aspose.Words](../../)
-
-

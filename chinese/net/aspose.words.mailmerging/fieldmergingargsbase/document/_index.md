@@ -1,7 +1,9 @@
 ---
 title: FieldMergingArgsBase.Document
-second_title: Aspose.Words for .NET API 参考
-description: FieldMergingArgsBase 财产. 返回Document执行邮件合并的对象
+linktitle: Document
+articleTitle: Document
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldMergingArgsBase Document 财产. 返回Document执行邮件合并的对象 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.mailmerging/fieldmergingargsbase/document/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.mailmerging/fieldmergingargsbase/document/
 public Document Document { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何使用自定义回调执行邮件合并，该回调处理 HTML 文档形式的合并数据。
 
@@ -83,7 +85,5 @@ private class HandleMergeFieldInsertHtml : IFieldMergingCallback
 
 * class [Document](../../../aspose.words/document/)
 * class [FieldMergingArgsBase](../)
-* 命名空间 [Aspose.Words.MailMerging](../../fieldmergingargsbase/)
+* 命名空间 [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * 部件 [Aspose.Words](../../../)
-
-

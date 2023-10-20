@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.PreserveFormFields
-second_title: Aspose.Words لمراجع .NET API
-description: PdfSaveOptions ملكية. يحدد ما إذا كان سيتم الاحتفاظ بحقول نموذج Microsoft Word كحقول نموذج في PDF أو تحويلها إلى نص. الافتراضي هوخطأ شنيع .
+linktitle: PreserveFormFields
+articleTitle: PreserveFormFields
+second_title: Aspose.Words لـ .NET
+description: PdfSaveOptions PreserveFormFields ملكية. يحدد ما إذا كان سيتم الاحتفاظ بحقول نموذج Microsoft Word كحقول نموذج في PDF أو تحويلها إلى نص. الافتراضي هوخطأ شنيع  في C#.
 type: docs
 weight: 270
 url: /ar/net/aspose.words.saving/pdfsaveoptions/preserveformfields/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.saving/pdfsaveoptions/preserveformfields/
 public bool PreserveFormFields { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 تتضمن حقول نموذج Microsoft Word إدخال النص والقائمة المنسدلة وعناصر التحكم في خانة الاختيار.
 
@@ -28,7 +30,7 @@ public bool PreserveFormFields { get; set; }
 
 حقول النموذج غير مدعومة عند الحفظ إلى PDF/UA.`خطأ شنيع` سيتم استخدام القيمة تلقائيًا.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية حفظ مستند بتنسيق PDF باستخدام طريقة الحفظ وفئة PdfSaveOptions.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.PreserveFormFields.pdf", pdfOptions);
 ### أنظر أيضا
 
 * class [PdfSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../pdfsaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

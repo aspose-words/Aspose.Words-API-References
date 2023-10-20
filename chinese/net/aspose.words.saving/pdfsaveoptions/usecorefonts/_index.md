@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.UseCoreFonts
-second_title: Aspose.Words for .NET API 参考
-description: PdfSaveOptions 财产. 获取或设置一个值确定是否用核心 PDF Type 1 字体替换 TrueType 字体 ArialTimes New Roman Courier New 和 Symbol
+linktitle: UseCoreFonts
+articleTitle: UseCoreFonts
+second_title: 用于 .NET 的 Aspose.Words
+description: PdfSaveOptions UseCoreFonts 财产. 获取或设置一个值确定是否用核心 PDF Type 1 字体替换 TrueType 字体 ArialTimes New Roman Courier New 和 Symbol 在 C#.
 type: docs
 weight: 310
 url: /zh/net/aspose.words.saving/pdfsaveoptions/usecorefonts/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.saving/pdfsaveoptions/usecorefonts/
 public bool UseCoreFonts { get; set; }
 ```
 
-### 评论
+## 评论
 
 默认值为`错误的` 。当该值设置为`真的`Arial、Times New Roman、 Courier New 和 Symbol 字体在 PDF 文档中被替换为相应的核心 Type 1 字体。
 
@@ -28,7 +30,7 @@ PDF/A 和 PDF/UA 合规性要求嵌入所有字体。`错误的`保存到 PDF/A 
 
 该选项具有更高的优先级[`FontEmbeddingMode`](../fontembeddingmode/)选项。
 
-### 例子
+## 例子
 
 显示如何启用/禁用 PDF Type 1 字体替换。
 
@@ -61,7 +63,5 @@ else
 ### 也可以看看
 
 * class [PdfSaveOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../pdfsaveoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldToa.SequenceName
-second_title: Aspose.Words لمراجع .NET API
-description: FieldToa ملكية. الحصول على أو تعيين اسم التسلسل الذي تم تضمين رقمه مع رقم الصفحة.
+linktitle: SequenceName
+articleTitle: SequenceName
+second_title: Aspose.Words لـ .NET
+description: FieldToa SequenceName ملكية. الحصول على أو تعيين اسم التسلسل الذي تم تضمين رقمه مع رقم الصفحة في C#.
 type: docs
 weight: 80
 url: /ar/net/aspose.words.fields/fieldtoa/sequencename/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldtoa/sequencename/
 public string SequenceName { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء جدول المراجع المصدقة وتخصيصه باستخدام حقلي TOA وTA.
 
@@ -137,7 +139,5 @@ private static FieldTA InsertToaEntry(DocumentBuilder builder, string entryCateg
 ### أنظر أيضا
 
 * class [FieldToa](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldtoa/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

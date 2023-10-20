@@ -1,7 +1,9 @@
 ---
 title: ImageFieldMergingArgs.ImageHeight
-second_title: Aspose.Words för .NET API Referens
-description: ImageFieldMergingArgs fast egendom. Anger bildhöjden för bilden som ska infogas i dokumentet.
+linktitle: ImageHeight
+articleTitle: ImageHeight
+second_title: Aspose.Words för .NET
+description: ImageFieldMergingArgs ImageHeight fast egendom. Anger bildhöjden för bilden som ska infogas i dokumentet i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.mailmerging/imagefieldmergingargs/imageheight/
@@ -14,13 +16,13 @@ Anger bildhöjden för bilden som ska infogas i dokumentet.
 public MergeFieldImageDimension ImageHeight { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Värdet på den här egenskapen kommer initialt från motsvarande MERGEFIELDs kod, som finns i malldokumentet . För att åsidosätta det initiala värdet bör du tilldela en instans av [`MergeFieldImageDimension`](../../../aspose.words.fields/mergefieldimagedimension/) klass till den här egenskapen eller ställ in egenskaperna för instans av[`MergeFieldImageDimension`](../../../aspose.words.fields/mergefieldimagedimension/) klass, returneras av den här egenskapen.
 
 För att indikera att det ursprungliga värdet för bildhöjden ska tillämpas, bör du tilldela`null` värde till den här egenskapen eller ställ in[`Value`](../../../aspose.words.fields/mergefieldimagedimension/value/) egenskap för instans av[`MergeFieldImageDimension`](../../../aspose.words.fields/mergefieldimagedimension/) klass, som returneras av den här egenskapen, till ett negativt värde.
 
-### Exempel
+## Exempel
 
 Visar hur du ställer in dimensionerna för bilder när MERGEFIELDS accepterar dem under en sammanfogning.
 
@@ -91,7 +93,5 @@ private class MergedImageResizer : IFieldMergingCallback
 
 * class [MergeFieldImageDimension](../../../aspose.words.fields/mergefieldimagedimension/)
 * class [ImageFieldMergingArgs](../)
-* namnutrymme [Aspose.Words.MailMerging](../../imagefieldmergingargs/)
+* namnutrymme [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * hopsättning [Aspose.Words](../../../)
-
-

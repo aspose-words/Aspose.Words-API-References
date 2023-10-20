@@ -1,7 +1,9 @@
 ---
 title: DocumentSavingArgs.EstimatedProgress
-second_title: Aspose.Words för .NET API Referens
-description: DocumentSavingArgs fast egendom. Totalt uppskattat procentuellt framsteg.
+linktitle: EstimatedProgress
+articleTitle: EstimatedProgress
+second_title: Aspose.Words för .NET
+description: DocumentSavingArgs EstimatedProgress fast egendom. Totalt uppskattat procentuellt framsteg i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.saving/documentsavingargs/estimatedprogress/
@@ -14,7 +16,7 @@ Totalt uppskattat procentuellt framsteg.
 public double EstimatedProgress { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man hanterar ett dokument samtidigt som man sparar till html.
 
@@ -184,7 +186,5 @@ public class SavingProgressCallback : IDocumentSavingCallback
 ### Se även
 
 * class [DocumentSavingArgs](../)
-* namnutrymme [Aspose.Words.Saving](../../documentsavingargs/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

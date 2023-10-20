@@ -1,7 +1,9 @@
 ---
 title: EditableRangeStart.Id
-second_title: Referencia de API de Aspose.Words para .NET
-description: EditableRangeStart propiedad. Especifica el identificador del rango editable.
+linktitle: Id
+articleTitle: Id
+second_title: Aspose.Words para .NET
+description: EditableRangeStart Id propiedad. Especifica el identificador del rango editable en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words/editablerangestart/id/
@@ -14,7 +16,7 @@ Especifica el identificador del rango editable.
 public int Id { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo trabajar con un rango editable.
 
@@ -60,7 +62,5 @@ editableRange.Remove();
 ### Ver también
 
 * class [EditableRangeStart](../)
-* espacio de nombres [Aspose.Words](../../editablerangestart/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

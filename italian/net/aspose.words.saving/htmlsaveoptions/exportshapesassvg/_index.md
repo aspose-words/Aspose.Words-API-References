@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ExportShapesAsSvg
-second_title: Aspose.Words per .NET API Reference
-description: HtmlSaveOptions proprietà. Controlla seShape nodi vengono convertiti in immagini SVG quando si salva in HTML MHTML EPUB o AZW3. Il valore predefinito èfalso .
+linktitle: ExportShapesAsSvg
+articleTitle: ExportShapesAsSvg
+second_title: Aspose.Words per .NET
+description: HtmlSaveOptions ExportShapesAsSvg proprietà. Controlla seShape nodi vengono convertiti in immagini SVG quando si salva in HTML MHTML EPUB o AZW3. Il valore predefinito èfalso  in C#.
 type: docs
 weight: 250
 url: /it/net/aspose.words.saving/htmlsaveoptions/exportshapesassvg/
@@ -14,11 +16,11 @@ Controlla se[`Shape`](../../../aspose.words.drawing/shape/) nodi vengono convert
 public bool ExportShapesAsSvg { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Se questa opzione è impostata su`VERO` ,[`Shape`](../../../aspose.words.drawing/shape/) i nodi vengono esportati come elementi &lt;svg&gt;. Altrimenti, vengono renderizzati in bitmap e vengono esportati come elementi &lt;img&gt;.
 
-### Esempi
+## Esempi
 
 Mostra come esportare la forma come grafica vettoriale scalabile.
 
@@ -61,7 +63,5 @@ else
 ### Guarda anche
 
 * class [HtmlSaveOptions](../)
-* spazio dei nomi [Aspose.Words.Saving](../../htmlsaveoptions/)
+* spazio dei nomi [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../../)
-
-

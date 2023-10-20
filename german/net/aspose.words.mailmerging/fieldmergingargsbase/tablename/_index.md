@@ -1,7 +1,9 @@
 ---
 title: FieldMergingArgsBase.TableName
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldMergingArgsBase eigendom. Ruft den Namen der Datentabelle für den aktuellen Zusammenführungsvorgang oder eine leere Zeichenfolge ab wenn der Name nicht verfügbar ist.
+linktitle: TableName
+articleTitle: TableName
+second_title: Aspose.Words für .NET
+description: FieldMergingArgsBase TableName eigendom. Ruft den Namen der Datentabelle für den aktuellen Zusammenführungsvorgang oder eine leere Zeichenfolge ab wenn der Name nicht verfügbar ist in C#.
 type: docs
 weight: 70
 url: /de/net/aspose.words.mailmerging/fieldmergingargsbase/tablename/
@@ -14,7 +16,7 @@ Ruft den Namen der Datentabelle für den aktuellen Zusammenführungsvorgang oder
 public string TableName { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Kontrollkästchen-Formularfelder als Seriendaten während des Seriendrucks in MERGEFIELDs eingefügt werden.
 
@@ -100,7 +102,5 @@ private static DataTable GetStudentCourseDataTable()
 ### Siehe auch
 
 * class [FieldMergingArgsBase](../)
-* namensraum [Aspose.Words.MailMerging](../../fieldmergingargsbase/)
+* namensraum [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * Montage [Aspose.Words](../../../)
-
-

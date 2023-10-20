@@ -1,7 +1,9 @@
 ---
 title: ChartSeriesCollection.Item
-second_title: Aspose.Words for .NET API 参考
-description: ChartSeriesCollection 财产. 返回一个ChartSeries在指定的索引处
+linktitle: Item
+articleTitle: Item
+second_title: 用于 .NET 的 Aspose.Words
+description: ChartSeriesCollection Item 财产. 返回一个ChartSeries在指定的索引处 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.drawing.charts/chartseriescollection/item/
@@ -18,7 +20,7 @@ public ChartSeries this[int index] { get; }
 | --- | --- |
 | index | 集合的索引。 |
 
-### 评论
+## 评论
 
 该索引是从零开始的。
 
@@ -28,7 +30,7 @@ public ChartSeries this[int index] { get; }
 
 如果索引为负并且其绝对值大于列表中的项目数，则返回空引用。
 
-### 例子
+## 例子
 
 演示如何在图表中添加和删除系列数据。
 
@@ -76,7 +78,5 @@ chartData.Clear();
 
 * class [ChartSeries](../../chartseries/)
 * class [ChartSeriesCollection](../)
-* 命名空间 [Aspose.Words.Drawing.Charts](../../chartseriescollection/)
+* 命名空间 [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * 部件 [Aspose.Words](../../../)
-
-

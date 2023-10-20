@@ -1,7 +1,9 @@
 ---
-title: Enum HtmlInsertOptions
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.HtmlInsertOptions uppräkning. Anger alternativ förInsertHtml metod.
+title: HtmlInsertOptions Enum
+linktitle: HtmlInsertOptions
+articleTitle: HtmlInsertOptions
+second_title: Aspose.Words för .NET
+description: Aspose.Words.HtmlInsertOptions uppräkning. Anger alternativ förInsertHtml metod i C#.
 type: docs
 weight: 3140
 url: /sv/net/aspose.words/htmlinsertoptions/
@@ -24,7 +26,7 @@ public enum HtmlInsertOptions
 | RemoveLastEmptyParagraph | `2` | Ta bort det tomma stycket som normalt infogas efter HTML som slutar med ett element på blocknivå. |
 | PreserveBlocks | `4` | Bevara egenskaperna för element på blocknivå. |
 
-### Exempel
+## Exempel
 
 Visar hur man gör det möjligt att bättre bevara kanter och marginaler.
 
@@ -51,5 +53,3 @@ builder.Document.Save(ArtifactsDir + "DocumentBuilder.PreserveBlocks.docx");
 
 * namnutrymme [Aspose.Words](../../aspose.words/)
 * hopsättning [Aspose.Words](../../)
-
-

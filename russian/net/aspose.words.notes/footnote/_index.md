@@ -1,7 +1,9 @@
 ---
-title: Class Footnote
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Notes.Footnote сорт. Представляет контейнер для текста сноски или концевой сноски.
+title: Footnote Class
+linktitle: Footnote
+articleTitle: Footnote
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Notes.Footnote сорт. Представляет контейнер для текста сноски или концевой сноски на С#.
 type: docs
 weight: 4260
 url: /ru/net/aspose.words.notes/footnote/
@@ -20,7 +22,7 @@ public class Footnote : InlineStory
 
 | Имя | Описание |
 | --- | --- |
-| [Footnote](footnote/)(DocumentBase, FootnoteType) | Инициализирует экземпляр`Footnote` класс. |
+| [Footnote](footnote/)(*[DocumentBase](../../aspose.words/documentbase/), [FootnoteType](../footnotetype/)*) | Инициализирует экземпляр`Footnote` класс. |
 
 ## Характеристики
 
@@ -49,7 +51,7 @@ public class Footnote : InlineStory
 | [ParentParagraph](../../aspose.words/inlinestory/parentparagraph/) { get; } | Получает родительский элемент[`Paragraph`](../../aspose.words/paragraph/) этого узла. |
 | [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Получает узел, непосредственно предшествующий этому узлу. |
 | [Range](../../aspose.words/node/range/) { get; } | Возвращает[`Range`](../../aspose.words/range/) объект, представляющий часть документа, содержащуюся в этом узле. |
-| [ReferenceMark](../../aspose.words.notes/footnote/referencemark/) { get; set; } | Получает/устанавливает пользовательскую метку ссылки, которая будет использоваться для этой сноски. Значение по умолчанию: **пустая строка** (Empty ), что означает, что используются сноски с автоматической нумерацией. |
+| [ReferenceMark](../../aspose.words.notes/footnote/referencemark/) { get; set; } | Получает/устанавливает пользовательскую метку ссылки, которая будет использоваться для этой сноски. Значение по умолчанию:**пустая строка** (Empty ), что означает, что используются сноски с автоматической нумерацией. |
 | override [StoryType](../../aspose.words.notes/footnote/storytype/) { get; } | ВозвращаетFootnotes илиEndnotes . |
 | [Tables](../../aspose.words/inlinestory/tables/) { get; } | Получает коллекцию таблиц, которые являются непосредственными дочерними элементами истории. |
 
@@ -57,35 +59,33 @@ public class Footnote : InlineStory
 
 | Имя | Описание |
 | --- | --- |
-| override [Accept](../../aspose.words.notes/footnote/accept/)(DocumentVisitor) | Принимает посетителя. |
-| override [AcceptEnd](../../aspose.words.notes/footnote/acceptend/)(DocumentVisitor) |  |
-| override [AcceptStart](../../aspose.words.notes/footnote/acceptstart/)(DocumentVisitor) |  |
-| [AppendChild&lt;T&gt;](../../aspose.words/compositenode/appendchild/)(T) |  |
-| [Clone](../../aspose.words/node/clone/)(bool) | Создает дубликат узла. |
+| override [Accept](../../aspose.words.notes/footnote/accept/)(*[DocumentVisitor](../../aspose.words/documentvisitor/)*) | Принимает посетителя. |
+| [AppendChild](../../aspose.words/compositenode/appendchild/)(*[Node](../../aspose.words/node/)*) | Добавляет указанный узел в конец списка дочерних узлов для этого узла. |
+| [Clone](../../aspose.words/node/clone/)(*bool*) | Создает дубликат узла. |
 | [CreateNavigator](../../aspose.words/compositenode/createnavigator/)() | Создает навигатор, который можно использовать для перемещения и чтения узлов. |
 | [EnsureMinimum](../../aspose.words/inlinestory/ensureminimum/)() | Если последний дочерний элемент не является абзацем, создается и добавляется один пустой абзац. |
-| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Получает первого предка указанного[`NodeType`](../../aspose.words/nodetype/) . |
-| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Получает первого предка указанного типа объекта. |
-| [GetChild](../../aspose.words/compositenode/getchild/)(NodeType, int, bool) | Возвращает N-й дочерний узел, соответствующий указанному типу. |
-| [GetChildNodes](../../aspose.words/compositenode/getchildnodes/)(NodeType, bool) | Возвращает живую коллекцию дочерних узлов, соответствующих указанному типу. |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*[NodeType](../../aspose.words/nodetype/)*) | Получает первого предка указанного[`NodeType`](../../aspose.words/nodetype/) . |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | Получает первого предка указанного типа объекта. |
+| [GetChild](../../aspose.words/compositenode/getchild/)(*[NodeType](../../aspose.words/nodetype/), int, bool*) | Возвращает N-й дочерний узел, соответствующий указанному типу. |
+| [GetChildNodes](../../aspose.words/compositenode/getchildnodes/)(*[NodeType](../../aspose.words/nodetype/), bool*) | Возвращает живую коллекцию дочерних узлов, соответствующих указанному типу. |
 | [GetEnumerator](../../aspose.words/compositenode/getenumerator/)() | Обеспечивает поддержку для каждой итерации стиля над дочерними узлами этого узла. |
 | override [GetText](../../aspose.words/compositenode/gettext/)() | Получает текст этого узла и всех его дочерних элементов. |
-| [IndexOf](../../aspose.words/compositenode/indexof/)(Node) | Возвращает индекс указанного дочернего узла в массиве дочерних узлов. |
-| [InsertAfter&lt;T&gt;](../../aspose.words/compositenode/insertafter/)(T, Node) |  |
-| [InsertBefore&lt;T&gt;](../../aspose.words/compositenode/insertbefore/)(T, Node) |  |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Получает следующий узел в соответствии с алгоритмом обхода дерева предварительного заказа. |
-| [PrependChild&lt;T&gt;](../../aspose.words/compositenode/prependchild/)(T) |  |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Получает предыдущий узел в соответствии с алгоритмом обхода дерева предварительного заказа. |
+| [IndexOf](../../aspose.words/compositenode/indexof/)(*[Node](../../aspose.words/node/)*) | Возвращает индекс указанного дочернего узла в массиве дочерних узлов. |
+| [InsertAfter](../../aspose.words/compositenode/insertafter/)(*[Node](../../aspose.words/node/), [Node](../../aspose.words/node/)*) | Вставляет указанный узел сразу после указанного ссылочного узла. |
+| [InsertBefore](../../aspose.words/compositenode/insertbefore/)(*[Node](../../aspose.words/node/), [Node](../../aspose.words/node/)*) | Вставляет указанный узел непосредственно перед указанным ссылочным узлом. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../../aspose.words/node/)*) | Получает следующий узел в соответствии с алгоритмом обхода дерева предварительного заказа. |
+| [PrependChild](../../aspose.words/compositenode/prependchild/)(*[Node](../../aspose.words/node/)*) | Добавляет указанный узел в начало списка дочерних узлов для этого узла. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../../aspose.words/node/)*) | Получает предыдущий узел в соответствии с алгоритмом обхода дерева предварительного заказа. |
 | [Remove](../../aspose.words/node/remove/)() | Удаляет себя от родителя. |
 | [RemoveAllChildren](../../aspose.words/compositenode/removeallchildren/)() | Удаляет все дочерние узлы текущего узла. |
-| [RemoveChild&lt;T&gt;](../../aspose.words/compositenode/removechild/)(T) |  |
+| [RemoveChild](../../aspose.words/compositenode/removechild/)(*[Node](../../aspose.words/node/)*) | Удаляет указанный дочерний узел. |
 | [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags/)() | Удаляет все[`SmartTag`](../../aspose.words.markup/smarttag/)узлы-потомки текущего узла. |
-| [SelectNodes](../../aspose.words/compositenode/selectnodes/)(string) | Выбирает список узлов, соответствующих выражению XPath. |
-| [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(string) | Выбирает первый[`Node`](../../aspose.words/node/) которое соответствует выражению XPath. |
-| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Экспортирует содержимое узла в строку указанного формата. |
-| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | Экспортирует содержимое узла в строку, используя указанные параметры сохранения. |
+| [SelectNodes](../../aspose.words/compositenode/selectnodes/)(*string*) | Выбирает список узлов, соответствующих выражению XPath. |
+| [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(*string*) | Выбирает первый[`Node`](../../aspose.words/node/) которое соответствует выражению XPath. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../../aspose.words/saveformat/)*) | Экспортирует содержимое узла в строку указанного формата. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | Экспортирует содержимое узла в строку, используя указанные параметры сохранения. |
 
-### Примечания
+## Примечания
 
 `Footnote` Класс используется для представления как сносок, так и концевых сносок в документе Word.
 
@@ -93,7 +93,7 @@ public class Footnote : InlineStory
 
 `Footnote` может содержать[`Paragraph`](../../aspose.words/paragraph/) и[`Table`](../../aspose.words.tables/table/) дочерние узлы.
 
-### Примеры
+## Примеры
 
 Показывает, как вставлять и настраивать сноски.
 
@@ -143,5 +143,3 @@ doc.Save(ArtifactsDir + "InlineStory.AddFootnote.docx");
 * class [InlineStory](../../aspose.words/inlinestory/)
 * пространство имен [Aspose.Words.Notes](../../aspose.words.notes/)
 * сборка [Aspose.Words](../../)
-
-

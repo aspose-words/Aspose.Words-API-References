@@ -1,7 +1,9 @@
 ---
-title: Enum VerticalAlignment
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Drawing.VerticalAlignment enumeración. Especifica la alineación vertical de una forma flotante un marco de texto o una tabla flotante.
+title: VerticalAlignment Enum
+linktitle: VerticalAlignment
+articleTitle: VerticalAlignment
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Drawing.VerticalAlignment enumeración. Especifica la alineación vertical de una forma flotante un marco de texto o una tabla flotante en C#.
 type: docs
 weight: 1380
 url: /es/net/aspose.words.drawing/verticalalignment/
@@ -18,7 +20,7 @@ public enum VerticalAlignment
 
 | Nombre | Valor | Descripción |
 | --- | --- | --- |
-| None | `0` | El objeto se posiciona explícitamente, generalmente usando su **Arriba** propiedad. |
+| None | `0` | El objeto se posiciona explícitamente, generalmente usando su**Arriba** propiedad. |
 | Top | `1` | Especifica que el objeto estará en la parte superior de la base de alineación vertical. |
 | Center | `2` | Especifica que el objeto estará centrado con respecto a la base de alineación vertical. |
 | Bottom | `3` | Especifica que el objeto estará en la parte inferior de la base de alineación vertical. |
@@ -27,7 +29,7 @@ public enum VerticalAlignment
 | Inline | `-1` | No documentado. Parece ser un valor posible para tablas y párrafos flotantes. |
 | Default | `0` | Igual queNone . |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo insertar una imagen flotante en el centro de una página.
 
@@ -52,5 +54,3 @@ doc.Save(ArtifactsDir + "Image.CreateFloatingPageCenter.docx");
 * property [VerticalAlignment](../shapebase/verticalalignment/)
 * espacio de nombres [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * asamblea [Aspose.Words](../../)
-
-

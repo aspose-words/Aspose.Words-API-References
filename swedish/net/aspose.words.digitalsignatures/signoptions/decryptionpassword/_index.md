@@ -1,24 +1,26 @@
 ---
 title: SignOptions.DecryptionPassword
-second_title: Aspose.Words för .NET API Referens
-description: SignOptions fast egendom. Lösenordet för att dekryptera källdokumentet. Standardvärdet är tom sträng Empty.
+linktitle: DecryptionPassword
+articleTitle: DecryptionPassword
+second_title: Aspose.Words för .NET
+description: SignOptions DecryptionPassword fast egendom. Lösenordet för att dekryptera källdokumentet. Standardvärdet ärtom sträng Empty i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.digitalsignatures/signoptions/decryptionpassword/
 ---
 ## SignOptions.DecryptionPassword property
 
-Lösenordet för att dekryptera källdokumentet. Standardvärdet är **tom sträng** (Empty).
+Lösenordet för att dekryptera källdokumentet. Standardvärdet är**tom sträng** (Empty).
 
 ```csharp
 public string DecryptionPassword { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Om OOXML-dokument är krypterat, bör du tillhandahålla dekrypteringslösenord för att dekryptera källdokumentet innan det kommer att signeras. Detta krävs inte för dokument i binärt DOC-format.
 
-### Exempel
+## Exempel
 
 Visar hur man signerar krypterad dokumentfil.
 
@@ -44,7 +46,5 @@ DigitalSignatureUtil.Sign(inputFileName, outputFileName, certificateHolder, sign
 ### Se även
 
 * class [SignOptions](../)
-* namnutrymme [Aspose.Words.DigitalSignatures](../../signoptions/)
+* namnutrymme [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * hopsättning [Aspose.Words](../../../)
-
-

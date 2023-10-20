@@ -1,9 +1,11 @@
 ---
 title: StructuredDocumentTag.Clear
-second_title: Aspose.Words för .NET API Referens
-description: StructuredDocumentTag metod. Rensar innehållet i denna strukturerade dokumenttagg och visar en platshållare om den är definierad.
+linktitle: Clear
+articleTitle: Clear
+second_title: Aspose.Words för .NET
+description: StructuredDocumentTag Clear metod. Rensar innehållet i denna strukturerade dokumenttagg och visar en platshållare om den är definierad i C#.
 type: docs
-weight: 360
+weight: 340
 url: /sv/net/aspose.words.markup/structureddocumenttag/clear/
 ---
 ## StructuredDocumentTag.Clear method
@@ -14,13 +16,13 @@ Rensar innehållet i denna strukturerade dokumenttagg och visar en platshållare
 public void Clear()
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Det är inte möjligt att rensa innehållet i en strukturerad dokumenttagg om den har revideringar.
 
 Om denna strukturerade dokumenttagg är mappad till anpassad XML (med hjälp av[`XmlMapping`](../xmlmapping/) egenskapen), rensas den refererade XML-noden.
 
-### Exempel
+## Exempel
 
 Visar hur man tar bort innehållet i strukturerade dokumenttaggelement.
 
@@ -68,7 +70,5 @@ Assert.AreEqual("Custom placeholder text.", tag.GetText().Trim());
 ### Se även
 
 * class [StructuredDocumentTag](../)
-* namnutrymme [Aspose.Words.Markup](../../structureddocumenttag/)
+* namnutrymme [Aspose.Words.Markup](../../../aspose.words.markup/)
 * hopsättning [Aspose.Words](../../../)
-
-

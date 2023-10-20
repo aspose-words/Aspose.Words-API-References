@@ -1,7 +1,9 @@
 ---
 title: FieldOptions.DefaultDocumentAuthor
-second_title: Aspose.Words för .NET API Referens
-description: FieldOptions fast egendom. Hämtar eller ställer in standarddokumentets författares namn. Om författarens namn redan är specificerat i inbyggda dokumentegenskaper övervägs inte detta alternativ.
+linktitle: DefaultDocumentAuthor
+articleTitle: DefaultDocumentAuthor
+second_title: Aspose.Words för .NET
+description: FieldOptions DefaultDocumentAuthor fast egendom. Hämtar eller ställer in standarddokumentets författares namn. Om författarens namn redan är specificerat i inbyggda dokumentegenskaper övervägs inte detta alternativ i C#.
 type: docs
 weight: 70
 url: /sv/net/aspose.words.fields/fieldoptions/defaultdocumentauthor/
@@ -14,7 +16,7 @@ Hämtar eller ställer in standarddokumentets författares namn. Om författaren
 public string DefaultDocumentAuthor { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man använder ett AUTHOR-fält för att visa en dokumentskapares namn.
 
@@ -69,7 +71,5 @@ doc.Save(ArtifactsDir + "Field.AUTHOR.docx");
 ### Se även
 
 * class [FieldOptions](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldoptions/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

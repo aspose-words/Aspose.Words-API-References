@@ -1,7 +1,9 @@
 ---
 title: GlossaryDocument.Accept
-second_title: Référence de l'API Aspose.Words pour .NET
-description: GlossaryDocument méthode. Accepte un visiteur.
+linktitle: Accept
+articleTitle: Accept
+second_title: Aspose.Words pour .NET
+description: GlossaryDocument Accept méthode. Accepte un visiteur en C#.
 type: docs
 weight: 60
 url: /fr/net/aspose.words.buildingblocks/glossarydocument/accept/
@@ -22,7 +24,7 @@ public override bool Accept(DocumentVisitor visitor)
 
 Vrai si tous les nœuds ont été visités ; faux si[`DocumentVisitor`](../../../aspose.words/documentvisitor/) arrêté l'opération avant de visiter tous les nœuds.
 
-### Remarques
+## Remarques
 
 Énumère ce nœud et tous ses enfants. Chaque nœud appelle une méthode correspondante sur[`DocumentVisitor`](../../../aspose.words/documentvisitor/).
 
@@ -32,7 +34,7 @@ Appels[`VisitGlossaryDocumentStart`](../../../aspose.words/documentvisitor/visit
 
 Remarque : Un nœud de document de glossaire et ses enfants ne sont pas visités lorsque vous exécutez a Visitor sur un[`Document`](../../../aspose.words/document/) . Si vous souhaitez exécuter un Visiteur sur un document glossaire , vous devez appeler`Accept` .
 
-### Exemples
+## Exemples
 
 Montre les moyens d'accéder aux blocs de construction dans un document glossaire.
 
@@ -137,7 +139,5 @@ public class GlossaryDocVisitor : DocumentVisitor
 
 * class [DocumentVisitor](../../../aspose.words/documentvisitor/)
 * class [GlossaryDocument](../)
-* espace de noms [Aspose.Words.BuildingBlocks](../../glossarydocument/)
+* espace de noms [Aspose.Words.BuildingBlocks](../../../aspose.words.buildingblocks/)
 * Assemblée [Aspose.Words](../../../)
-
-

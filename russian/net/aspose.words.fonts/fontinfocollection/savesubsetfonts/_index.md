@@ -1,7 +1,9 @@
 ---
 title: FontInfoCollection.SaveSubsetFonts
-second_title: Справочник по API Aspose.Words для .NET
-description: FontInfoCollection свойство. Указывает следует ли сохранять подмножество встроенных шрифтов TrueType вместе с документом. Значение по умолчанию для этого свойстваЛОЖЬ.
+linktitle: SaveSubsetFonts
+articleTitle: SaveSubsetFonts
+second_title: Aspose.Words для .NET
+description: FontInfoCollection SaveSubsetFonts свойство. Указывает следует ли сохранять подмножество встроенных шрифтов TrueType вместе с документом. Значение по умолчанию для этого свойстваЛОЖЬ на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.fonts/fontinfocollection/savesubsetfonts/
@@ -16,11 +18,11 @@ url: /ru/net/aspose.words.fonts/fontinfocollection/savesubsetfonts/
 public bool SaveSubsetFonts { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Эта опция работает только для форматов DOC, DOCX и RTF.
 
-### Примеры
+## Примеры
 
 Показывает, как сохранить документ со встроенными шрифтами TrueType.
 
@@ -43,7 +45,5 @@ else
 ### Смотрите также
 
 * class [FontInfoCollection](../)
-* пространство имен [Aspose.Words.Fonts](../../fontinfocollection/)
+* пространство имен [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * сборка [Aspose.Words](../../../)
-
-

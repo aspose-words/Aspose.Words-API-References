@@ -1,7 +1,9 @@
 ---
-title: Class CsvDataLoadOptions
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Reporting.CsvDataLoadOptions فصل. يمثل خيارات لتحليل بيانات CSV.
+title: CsvDataLoadOptions Class
+linktitle: CsvDataLoadOptions
+articleTitle: CsvDataLoadOptions
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Reporting.CsvDataLoadOptions فصل. يمثل خيارات لتحليل بيانات CSV في C#.
 type: docs
 weight: 4660
 url: /ar/net/aspose.words.reporting/csvdataloadoptions/
@@ -21,7 +23,7 @@ public class CsvDataLoadOptions
 | اسم | وصف |
 | --- | --- |
 | [CsvDataLoadOptions](csvdataloadoptions/#constructor)() | تهيئة مثيل جديد لهذه الفئة بالخيارات الافتراضية. |
-| [CsvDataLoadOptions](csvdataloadoptions/#constructor_1)(bool) | تهيئة مثيل جديد لهذه الفئة مع تحديد ما إذا كانت بيانات CSV تحتوي على أسماء الأعمدة في السطر الأول. |
+| [CsvDataLoadOptions](csvdataloadoptions/#constructor_1)(*bool*) | تهيئة مثيل جديد لهذه الفئة مع تحديد ما إذا كانت بيانات CSV تحتوي على أسماء الأعمدة في السطر الأول. |
 
 ## الخصائص
 
@@ -32,7 +34,7 @@ public class CsvDataLoadOptions
 | [HasHeaders](../../aspose.words.reporting/csvdataloadoptions/hasheaders/) { get; set; } | الحصول على قيمة أو تعيينها تشير إلى ما إذا كان السجل الأول لبيانات CSV يحتوي على أسماء الأعمدة. |
 | [QuoteChar](../../aspose.words.reporting/csvdataloadoptions/quotechar/) { get; set; } | الحصول على أو تعيين الحرف المستخدم لاقتباس قيم الحقول. |
 
-### ملاحظات
+## ملاحظات
 
 يمكن تمرير مثيل لهذه الفئة إلى منشئي[`CsvDataSource`](../csvdatasource/) .
 
@@ -40,5 +42,3 @@ public class CsvDataLoadOptions
 
 * مساحة الاسم [Aspose.Words.Reporting](../../aspose.words.reporting/)
 * المجسم [Aspose.Words](../../)
-
-

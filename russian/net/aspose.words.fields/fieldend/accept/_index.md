@@ -1,7 +1,9 @@
 ---
 title: FieldEnd.Accept
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldEnd метод. Принимает посетителя.
+linktitle: Accept
+articleTitle: Accept
+second_title: Aspose.Words для .NET
+description: FieldEnd Accept метод. Принимает посетителя на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.fields/fieldend/accept/
@@ -22,13 +24,13 @@ public override bool Accept(DocumentVisitor visitor)
 
 **ЛОЖЬ** если посетитель запросил остановку перечисления.
 
-### Примечания
+## Примечания
 
 Звонки[`VisitFieldEnd`](../../../aspose.words/documentvisitor/visitfieldend/).
 
 Дополнительные сведения см. в шаблоне проектирования «Посетитель».
 
-### Примеры
+## Примеры
 
 Показывает, как работать с коллекцией полей.
 
@@ -132,7 +134,5 @@ public class FieldVisitor : DocumentVisitor
 
 * class [DocumentVisitor](../../../aspose.words/documentvisitor/)
 * class [FieldEnd](../)
-* пространство имен [Aspose.Words.Fields](../../fieldend/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

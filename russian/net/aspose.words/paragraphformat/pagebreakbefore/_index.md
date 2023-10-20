@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.PageBreakBefore
-second_title: Справочник по API Aspose.Words для .NET
-description: ParagraphFormat свойство. Истинно если перед абзацем принудительно устанавливается разрыв страницы.
+linktitle: PageBreakBefore
+articleTitle: PageBreakBefore
+second_title: Aspose.Words для .NET
+description: ParagraphFormat PageBreakBefore свойство. Истинно если перед абзацем принудительно устанавливается разрыв страницы на С#.
 type: docs
 weight: 260
 url: /ru/net/aspose.words/paragraphformat/pagebreakbefore/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/paragraphformat/pagebreakbefore/
 public bool PageBreakBefore { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как создавать абзацы с разрывами страниц в начале.
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "ParagraphFormat.PageBreakBefore.docx");
 ### Смотрите также
 
 * class [ParagraphFormat](../)
-* пространство имен [Aspose.Words](../../paragraphformat/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

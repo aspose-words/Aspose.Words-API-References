@@ -1,7 +1,9 @@
 ---
 title: TextPath.Bold
-second_title: Referencia de API de Aspose.Words para .NET
-description: TextPath propiedad. Verdadero si la fuente tiene el formato negrita.
+linktitle: Bold
+articleTitle: Bold
+second_title: Aspose.Words para .NET
+description: TextPath Bold propiedad. Verdadero si la fuente tiene el formato negrita en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words.drawing/textpath/bold/
@@ -14,11 +16,11 @@ Verdadero si la fuente tiene el formato negrita.
 public bool Bold { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 El valor predeterminado es`FALSO`.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo trabajar con WordArt.
 
@@ -121,7 +123,5 @@ private static Shape AppendWordArt(Document doc, string text, string textFontFam
 ### Ver también
 
 * class [TextPath](../)
-* espacio de nombres [Aspose.Words.Drawing](../../textpath/)
+* espacio de nombres [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * asamblea [Aspose.Words](../../../)
-
-

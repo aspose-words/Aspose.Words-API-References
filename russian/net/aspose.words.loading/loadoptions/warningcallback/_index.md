@@ -1,7 +1,9 @@
 ---
 title: LoadOptions.WarningCallback
-second_title: Справочник по API Aspose.Words для .NET
-description: LoadOptions свойство. Вызывается во время операции загрузки когда обнаруживается проблема которая может привести к потере точности данных или форматирования.
+linktitle: WarningCallback
+articleTitle: WarningCallback
+second_title: Aspose.Words для .NET
+description: LoadOptions WarningCallback свойство. Вызывается во время операции загрузки когда обнаруживается проблема которая может привести к потере точности данных или форматирования на С#.
 type: docs
 weight: 170
 url: /ru/net/aspose.words.loading/loadoptions/warningcallback/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.loading/loadoptions/warningcallback/
 public IWarningCallback WarningCallback { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как печатать и сохранять предупреждения, возникающие во время загрузки документа.
 
@@ -59,7 +61,5 @@ private class DocumentLoadingWarningCallback : IWarningCallback
 
 * interface [IWarningCallback](../../../aspose.words/iwarningcallback/)
 * class [LoadOptions](../)
-* пространство имен [Aspose.Words.Loading](../../loadoptions/)
+* пространство имен [Aspose.Words.Loading](../../../aspose.words.loading/)
 * сборка [Aspose.Words](../../../)
-
-

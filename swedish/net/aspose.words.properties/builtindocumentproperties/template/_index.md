@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.Template
-second_title: Aspose.Words för .NET API Referens
-description: BuiltInDocumentProperties fast egendom. Hämtar eller ställer in informationsnamnet på dokumentmallen.
+linktitle: Template
+articleTitle: Template
+second_title: Aspose.Words för .NET
+description: BuiltInDocumentProperties Template fast egendom. Hämtar eller ställer in informationsnamnet på dokumentmallen i C#.
 type: docs
 weight: 270
 url: /sv/net/aspose.words.properties/builtindocumentproperties/template/
@@ -14,7 +16,7 @@ Hämtar eller ställer in informationsnamnet på dokumentmallen.
 public string Template { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 I Microsoft Word är den här egenskapen endast i informationssyfte och innehåller vanligtvis bara mallens filnamn utan sökvägen.
 
@@ -22,7 +24,7 @@ Tom sträng betyder att dokumentet är bifogat till mallen Normal.
 
 För att få eller ange det faktiska namnet på den bifogade mallen, använd the [`AttachedTemplate`](../../../aspose.words/document/attachedtemplate/) fast egendom.
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med dokumentegenskaper i kategorin "Ursprung".
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "DocumentProperties.Origin.docx");
 ### Se även
 
 * class [BuiltInDocumentProperties](../)
-* namnutrymme [Aspose.Words.Properties](../../builtindocumentproperties/)
+* namnutrymme [Aspose.Words.Properties](../../../aspose.words.properties/)
 * hopsättning [Aspose.Words](../../../)
-
-

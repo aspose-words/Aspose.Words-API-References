@@ -1,7 +1,9 @@
 ---
 title: FieldTA.PageRangeBookmarkName
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldTA propiedad. Obtiene o establece el nombre del marcador que marca un rango de páginas que se inserta como número de página de la entrada.
+linktitle: PageRangeBookmarkName
+articleTitle: PageRangeBookmarkName
+second_title: Aspose.Words para .NET
+description: FieldTA PageRangeBookmarkName propiedad. Obtiene o establece el nombre del marcador que marca un rango de páginas que se inserta como número de página de la entrada en C#.
 type: docs
 weight: 60
 url: /es/net/aspose.words.fields/fieldta/pagerangebookmarkname/
@@ -14,7 +16,7 @@ Obtiene o establece el nombre del marcador que marca un rango de páginas que se
 public string PageRangeBookmarkName { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear y personalizar una tabla de autoridades utilizando los campos TOA y TA.
 
@@ -137,7 +139,5 @@ private static FieldTA InsertToaEntry(DocumentBuilder builder, string entryCateg
 ### Ver también
 
 * class [FieldTA](../)
-* espacio de nombres [Aspose.Words.Fields](../../fieldta/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

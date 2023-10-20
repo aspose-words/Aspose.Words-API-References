@@ -1,7 +1,9 @@
 ---
 title: ControlChar.Cr
-second_title: Справочник по API Aspose.Words для .NET
-description: ControlChar поле. Символ возврата каретки x000d или r. Такой же какParagraphBreak .
+linktitle: Cr
+articleTitle: Cr
+second_title: Aspose.Words для .NET
+description: ControlChar Cr поле. Символ возврата каретки x000d или r. Такой же какParagraphBreak  на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words/controlchar/cr/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/controlchar/cr/
 public static readonly string Cr;
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как использовать управляющие символы.
 
@@ -41,7 +43,5 @@ Assert.AreEqual($"Hello world!{ControlChar.Cr}" +
 ### Смотрите также
 
 * class [ControlChar](../)
-* пространство имен [Aspose.Words](../../controlchar/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ExportHeadersFootersMode
-second_title: Aspose.Words för .NET API Referens
-description: HtmlSaveOptions fast egendom. Anger hur sidhuvuden och sidfötter matas ut till HTML MHTML eller EPUB. Standardvärdet ärPerSection för HTML/MHTML ochNone för EPUB.
+linktitle: ExportHeadersFootersMode
+articleTitle: ExportHeadersFootersMode
+second_title: Aspose.Words för .NET
+description: HtmlSaveOptions ExportHeadersFootersMode fast egendom. Anger hur sidhuvuden och sidfötter matas ut till HTML MHTML eller EPUB. Standardvärdet ärPerSection för HTML/MHTML ochNone för EPUB i C#.
 type: docs
 weight: 160
 url: /sv/net/aspose.words.saving/htmlsaveoptions/exportheadersfootersmode/
@@ -14,7 +16,7 @@ Anger hur sidhuvuden och sidfötter matas ut till HTML, MHTML eller EPUB. Standa
 public ExportHeadersFootersMode ExportHeadersFootersMode { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Det är svårt att meningsfullt mata ut sidhuvuden och sidfötter till HTML eftersom HTML inte är paginerad.
 
@@ -24,7 +26,7 @@ När det ärFirstSectionHeaderLastSectionFooter endast den första primära sidh
 
 Du kan inaktivera export av sidhuvuden och sidfötter helt och hållet genom att ställa in denna egenskap tillNone.
 
-### Exempel
+## Exempel
 
 Visar hur du utelämnar sidhuvuden/sidfötter när du sparar ett dokument i HTML.
 
@@ -53,7 +55,5 @@ Assert.IsFalse(doc.Range.Text.Contains("First header"));
 
 * enum [ExportHeadersFootersMode](../../exportheadersfootersmode/)
 * class [HtmlSaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../htmlsaveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

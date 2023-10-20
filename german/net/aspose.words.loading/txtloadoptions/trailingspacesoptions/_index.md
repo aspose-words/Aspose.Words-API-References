@@ -1,9 +1,11 @@
 ---
 title: TxtLoadOptions.TrailingSpacesOptions
-second_title: Aspose.Words für .NET-API-Referenz
-description: TxtLoadOptions eigendom. Ruft die bevorzugte Option einer nachgestellten Leerzeichenbehandlung ab oder legt diese fest. Der Standardwert istTrim .
+linktitle: TrailingSpacesOptions
+articleTitle: TrailingSpacesOptions
+second_title: Aspose.Words für .NET
+description: TxtLoadOptions TrailingSpacesOptions eigendom. Ruft die bevorzugte Option einer nachgestellten Leerzeichenbehandlung ab oder legt diese fest. Der Standardwert istTrim  in C#.
 type: docs
-weight: 70
+weight: 60
 url: /de/net/aspose.words.loading/txtloadoptions/trailingspacesoptions/
 ---
 ## TxtLoadOptions.TrailingSpacesOptions property
@@ -14,7 +16,7 @@ Ruft die bevorzugte Option einer nachgestellten Leerzeichenbehandlung ab oder le
 public TxtTrailingSpacesOptions TrailingSpacesOptions { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Leerzeichen beim Laden von Klartextdokumenten entfernt werden.
 
@@ -91,7 +93,5 @@ switch (txtTrailingSpacesOptions)
 
 * enum [TxtTrailingSpacesOptions](../../txttrailingspacesoptions/)
 * class [TxtLoadOptions](../)
-* namensraum [Aspose.Words.Loading](../../txtloadoptions/)
+* namensraum [Aspose.Words.Loading](../../../aspose.words.loading/)
 * Montage [Aspose.Words](../../../)
-
-

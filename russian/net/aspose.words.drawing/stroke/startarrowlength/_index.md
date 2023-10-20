@@ -1,9 +1,11 @@
 ---
 title: Stroke.StartArrowLength
-second_title: Справочник по API Aspose.Words для .NET
-description: Stroke свойство. Определяет длину наконечника стрелки для начала штриха.
+linktitle: StartArrowLength
+articleTitle: StartArrowLength
+second_title: Aspose.Words для .NET
+description: Stroke StartArrowLength свойство. Определяет длину наконечника стрелки для начала штриха на С#.
 type: docs
-weight: 170
+weight: 160
 url: /ru/net/aspose.words.drawing/stroke/startarrowlength/
 ---
 ## Stroke.StartArrowLength property
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.drawing/stroke/startarrowlength/
 public ArrowLength StartArrowLength { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Значение по умолчанию:Medium.
 
-### Примеры
+## Примеры
 
 Показывает создание разнообразных фигур.
 
@@ -94,7 +96,5 @@ doc.Save(ArtifactsDir + "Drawing.VariousShapes.docx");
 
 * enum [ArrowLength](../../arrowlength/)
 * class [Stroke](../)
-* пространство имен [Aspose.Words.Drawing](../../stroke/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

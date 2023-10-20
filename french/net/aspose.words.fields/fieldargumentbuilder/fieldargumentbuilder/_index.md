@@ -1,7 +1,9 @@
 ---
-title: FieldArgumentBuilder.FieldArgumentBuilder
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldArgumentBuilder constructeur. Initialise une instance duFieldArgumentBuilder classe.
+title: FieldArgumentBuilder
+linktitle: FieldArgumentBuilder
+articleTitle: FieldArgumentBuilder
+second_title: Aspose.Words pour .NET
+description: FieldArgumentBuilder constructeur. Initialise une instance duFieldArgumentBuilder classe en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.fields/fieldargumentbuilder/fieldargumentbuilder/
@@ -17,7 +19,5 @@ public FieldArgumentBuilder()
 ### Voir également
 
 * class [FieldArgumentBuilder](../)
-* espace de noms [Aspose.Words.Fields](../../fieldargumentbuilder/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

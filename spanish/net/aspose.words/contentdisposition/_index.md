@@ -1,7 +1,9 @@
 ---
-title: Enum ContentDisposition
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.ContentDisposition enumeración. Enumera diferentes formas de presentar el documento en el navegador del cliente.
+title: ContentDisposition Enum
+linktitle: ContentDisposition
+articleTitle: ContentDisposition
+second_title: Aspose.Words para .NET
+description: Aspose.Words.ContentDisposition enumeración. Enumera diferentes formas de presentar el documento en el navegador del cliente en C#.
 type: docs
 weight: 340
 url: /es/net/aspose.words/contentdisposition/
@@ -21,11 +23,11 @@ public enum ContentDisposition
 | Attachment | `0` | Envíe el documento al navegador y presente una opción para guardar el documento en el disco o abrirlo en la aplicación asociada con la extensión del documento. |
 | Inline | `1` | Envía el documento al navegador y presenta una opción para guardar el documento en el disco o abrirlo dentro del navegador. |
 
-### Observaciones
+## Observaciones
 
 Tenga en cuenta que el comportamiento real en el navegador del cliente puede verse afectado por la configuración de seguridad del navegador.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo realizar una combinación de correspondencia y luego guardar el documento en el navegador del cliente.
 
@@ -56,5 +58,3 @@ Assert.That(() => response.End(), Throws.TypeOf<NullReferenceException>());
 
 * espacio de nombres [Aspose.Words](../../aspose.words/)
 * asamblea [Aspose.Words](../../)
-
-

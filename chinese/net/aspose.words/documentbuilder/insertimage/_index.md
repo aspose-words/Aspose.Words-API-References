@@ -1,12 +1,14 @@
 ---
 title: DocumentBuilder.InsertImage
-second_title: Aspose.Words for .NET API 参考
-description: DocumentBuilder 方法. 插入来自 .NET 的图像Image 对象放入文档中图像以 100 比例内嵌插入
+linktitle: InsertImage
+articleTitle: InsertImage
+second_title: 用于 .NET 的 Aspose.Words
+description: DocumentBuilder InsertImage 方法. 插入来自 .NET 的图像Image 对象放入文档中图像以 100 比例内嵌插入 在 C#.
 type: docs
-weight: 380
+weight: 370
 url: /zh/net/aspose.words/documentbuilder/insertimage/
 ---
-## InsertImage(Image) {#insertimage_3}
+## InsertImage(*Image*) {#insertimage_3}
 
 插入来自 .NET 的图像Image 对象放入文档中。图像以 100% 比例内嵌插入。
 
@@ -22,11 +24,11 @@ public Shape InsertImage(Image image)
 
 刚刚插入的图像节点。
 
-### 评论
+## 评论
 
 您可以使用 更改图像大小、位置、定位方法和其他设置[`Shape`](../../../aspose.words.drawing/shape/)该方法返回的对象。
 
-### 例子
+## 例子
 
 演示如何将对象中的图像插入到文档中。
 
@@ -58,12 +60,12 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromImageObject.docx")
 
 * class [Shape](../../../aspose.words.drawing/shape/)
 * class [DocumentBuilder](../)
-* 命名空间 [Aspose.Words](../../documentbuilder/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## InsertImage(string) {#insertimage_9}
+## InsertImage(*string*) {#insertimage_9}
 
 将文件或 URL 中的图像插入到文档中。图像以 100% 比例内嵌插入。
 
@@ -79,13 +81,13 @@ public Shape InsertImage(string fileName)
 
 刚刚插入的图像节点。
 
-### 评论
+## 评论
 
 如果您指定远程 URI，此重载将在插入到 document 之前自动下载图像。
 
 您可以使用 更改图像大小、位置、定位方法和其他设置[`Shape`](../../../aspose.words.drawing/shape/)该方法返回的对象。
 
-### 例子
+## 例子
 
 演示如何将 gif 图像插入到文档中。
 
@@ -191,12 +193,12 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromFilename.docx");
 
 * class [Shape](../../../aspose.words.drawing/shape/)
 * class [DocumentBuilder](../)
-* 命名空间 [Aspose.Words](../../documentbuilder/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## InsertImage(Stream) {#insertimage_6}
+## InsertImage(*Stream*) {#insertimage_6}
 
 将图像从流插入到文档中。图像以 100% 比例内嵌插入。
 
@@ -212,11 +214,11 @@ public Shape InsertImage(Stream stream)
 
 刚刚插入的图像节点。
 
-### 评论
+## 评论
 
 您可以使用 更改图像大小、位置、定位方法和其他设置[`Shape`](../../../aspose.words.drawing/shape/)该方法返回的对象。
 
-### 例子
+## 例子
 
 演示如何将带有图像的形状从流插入到文档中。
 
@@ -264,12 +266,12 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromStream.docx");
 
 * class [Shape](../../../aspose.words.drawing/shape/)
 * class [DocumentBuilder](../)
-* 命名空间 [Aspose.Words](../../documentbuilder/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## InsertImage(byte[]) {#insertimage}
+## InsertImage(*byte[]*) {#insertimage}
 
 将字节数组中的图像插入到文档中。图像以 100% 比例内嵌插入。
 
@@ -285,11 +287,11 @@ public Shape InsertImage(byte[] imageBytes)
 
 刚刚插入的图像节点。
 
-### 评论
+## 评论
 
 您可以使用 更改图像大小、位置、定位方法和其他设置[`Shape`](../../../aspose.words.drawing/shape/)该方法返回的对象。
 
-### 例子
+## 例子
 
 演示如何将图像从字节数组插入到文档中。
 
@@ -363,12 +365,12 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromByteArrayNetStanda
 
 * class [Shape](../../../aspose.words.drawing/shape/)
 * class [DocumentBuilder](../)
-* 命名空间 [Aspose.Words](../../documentbuilder/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## InsertImage(Image, double, double) {#insertimage_5}
+## InsertImage(*Image, double, double*) {#insertimage_5}
 
 从 .NET 插入内嵌图像Image 对象放入文档中并将其缩放至指定大小。
 
@@ -386,11 +388,11 @@ public Shape InsertImage(Image image, double width, double height)
 
 刚刚插入的图像节点。
 
-### 评论
+## 评论
 
 您可以使用 更改图像大小、位置、定位方法和其他设置[`Shape`](../../../aspose.words.drawing/shape/)该方法返回的对象。
 
-### 例子
+## 例子
 
 演示如何将对象中的图像插入到文档中。
 
@@ -450,12 +452,12 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromImageObjectNetStan
 
 * class [Shape](../../../aspose.words.drawing/shape/)
 * class [DocumentBuilder](../)
-* 命名空间 [Aspose.Words](../../documentbuilder/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## InsertImage(string, double, double) {#insertimage_11}
+## InsertImage(*string, double, double*) {#insertimage_11}
 
 将文件或 URL 中的内嵌图像插入到文档中，并将其缩放到指定的大小。
 
@@ -473,11 +475,11 @@ public Shape InsertImage(string fileName, double width, double height)
 
 刚刚插入的图像节点。
 
-### 评论
+## 评论
 
 您可以使用 更改图像大小、位置、定位方法和其他设置[`Shape`](../../../aspose.words.drawing/shape/)该方法返回的对象。
 
-### 例子
+## 例子
 
 演示如何将本地文件系统中的图像插入到文档中。
 
@@ -508,12 +510,12 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromFilename.docx");
 
 * class [Shape](../../../aspose.words.drawing/shape/)
 * class [DocumentBuilder](../)
-* 命名空间 [Aspose.Words](../../documentbuilder/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## InsertImage(Stream, double, double) {#insertimage_8}
+## InsertImage(*Stream, double, double*) {#insertimage_8}
 
 将内嵌图像从流插入到文档中并将其缩放到指定的大小。
 
@@ -531,11 +533,11 @@ public Shape InsertImage(Stream stream, double width, double height)
 
 刚刚插入的图像节点。
 
-### 评论
+## 评论
 
 您可以使用 更改图像大小、位置、定位方法和其他设置[`Shape`](../../../aspose.words.drawing/shape/)该方法返回的对象。
 
-### 例子
+## 例子
 
 演示如何将图像从流插入到文档中。
 
@@ -568,12 +570,12 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromStream.docx");
 
 * class [Shape](../../../aspose.words.drawing/shape/)
 * class [DocumentBuilder](../)
-* 命名空间 [Aspose.Words](../../documentbuilder/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## InsertImage(byte[], double, double) {#insertimage_2}
+## InsertImage(*byte[], double, double*) {#insertimage_2}
 
 将字节数组中的内联图像插入到文档中并将其缩放到指定的大小。
 
@@ -591,11 +593,11 @@ public Shape InsertImage(byte[] imageBytes, double width, double height)
 
 刚刚插入的图像节点。
 
-### 评论
+## 评论
 
 您可以使用 更改图像大小、位置、定位方法和其他设置[`Shape`](../../../aspose.words.drawing/shape/)该方法返回的对象。
 
-### 例子
+## 例子
 
 演示如何将图像从字节数组插入到文档中。
 
@@ -669,12 +671,12 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromByteArrayNetStanda
 
 * class [Shape](../../../aspose.words.drawing/shape/)
 * class [DocumentBuilder](../)
-* 命名空间 [Aspose.Words](../../documentbuilder/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## InsertImage(Image, RelativeHorizontalPosition, double, RelativeVerticalPosition, double, double, double, WrapType) {#insertimage_4}
+## InsertImage(*Image, [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/), double, [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/), double, double, double, [WrapType](../../../aspose.words.drawing/wraptype/)*) {#insertimage_4}
 
 插入来自 .NET 的图像Image 指定位置和大小的对象。
 
@@ -698,11 +700,11 @@ public Shape InsertImage(Image image, RelativeHorizontalPosition horzPos, double
 
 刚刚插入的图像节点。
 
-### 评论
+## 评论
 
 您可以使用 更改图像大小、位置、定位方法和其他设置[`Shape`](../../../aspose.words.drawing/shape/)该方法返回的对象。
 
-### 例子
+## 例子
 
 演示如何将对象中的图像插入到文档中。
 
@@ -765,12 +767,12 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromImageObjectNetStan
 * enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/)
 * enum [WrapType](../../../aspose.words.drawing/wraptype/)
 * class [DocumentBuilder](../)
-* 命名空间 [Aspose.Words](../../documentbuilder/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## InsertImage(string, RelativeHorizontalPosition, double, RelativeVerticalPosition, double, double, double, WrapType) {#insertimage_10}
+## InsertImage(*string, [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/), double, [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/), double, double, double, [WrapType](../../../aspose.words.drawing/wraptype/)*) {#insertimage_10}
 
 在指定位置和大小插入文件或 URL 中的图像。
 
@@ -794,11 +796,11 @@ public Shape InsertImage(string fileName, RelativeHorizontalPosition horzPos, do
 
 刚刚插入的图像节点。
 
-### 评论
+## 评论
 
 您可以使用 更改图像大小、位置、定位方法和其他设置[`Shape`](../../../aspose.words.drawing/shape/)该方法返回的对象。
 
-### 例子
+## 例子
 
 展示如何插入图像。
 
@@ -869,12 +871,12 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromFilename.docx");
 * enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/)
 * enum [WrapType](../../../aspose.words.drawing/wraptype/)
 * class [DocumentBuilder](../)
-* 命名空间 [Aspose.Words](../../documentbuilder/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## InsertImage(Stream, RelativeHorizontalPosition, double, RelativeVerticalPosition, double, double, double, WrapType) {#insertimage_7}
+## InsertImage(*Stream, [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/), double, [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/), double, double, double, [WrapType](../../../aspose.words.drawing/wraptype/)*) {#insertimage_7}
 
 在指定位置和大小处插入流中的图像。
 
@@ -898,11 +900,11 @@ public Shape InsertImage(Stream stream, RelativeHorizontalPosition horzPos, doub
 
 刚刚插入的图像节点。
 
-### 评论
+## 评论
 
 您可以使用 更改图像大小、位置、定位方法和其他设置[`Shape`](../../../aspose.words.drawing/shape/)该方法返回的对象。
 
-### 例子
+## 例子
 
 演示如何将图像从流插入到文档中。
 
@@ -938,12 +940,12 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromStream.docx");
 * enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/)
 * enum [WrapType](../../../aspose.words.drawing/wraptype/)
 * class [DocumentBuilder](../)
-* 命名空间 [Aspose.Words](../../documentbuilder/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## InsertImage(byte[], RelativeHorizontalPosition, double, RelativeVerticalPosition, double, double, double, WrapType) {#insertimage_1}
+## InsertImage(*byte[], [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/), double, [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/), double, double, double, [WrapType](../../../aspose.words.drawing/wraptype/)*) {#insertimage_1}
 
 在指定位置和大小处插入字节数组中的图像。
 
@@ -967,11 +969,11 @@ public Shape InsertImage(byte[] imageBytes, RelativeHorizontalPosition horzPos, 
 
 刚刚插入的图像节点。
 
-### 评论
+## 评论
 
 您可以使用 更改图像大小、位置、定位方法和其他设置[`Shape`](../../../aspose.words.drawing/shape/)该方法返回的对象。
 
-### 例子
+## 例子
 
 演示如何将图像从字节数组插入到文档中。
 
@@ -1048,7 +1050,5 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromByteArrayNetStanda
 * enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/)
 * enum [WrapType](../../../aspose.words.drawing/wraptype/)
 * class [DocumentBuilder](../)
-* 命名空间 [Aspose.Words](../../documentbuilder/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: AsposeWordsPrintDocument.ColorPagesPrinted
-second_title: Aspose.Words för .NET API Referens
-description: AsposeWordsPrintDocument fast egendom. Får antalet sidor som skrivs ut i färg dvs. medColor satt till sant.
+linktitle: ColorPagesPrinted
+articleTitle: ColorPagesPrinted
+second_title: Aspose.Words för .NET
+description: AsposeWordsPrintDocument ColorPagesPrinted fast egendom. Får antalet sidor som skrivs ut i färg dvs. medColor satt till sant i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.rendering/asposewordsprintdocument/colorpagesprinted/
@@ -14,7 +16,7 @@ Får antalet sidor som skrivs ut i färg (dvs. medColor satt till sant).
 public int ColorPagesPrinted { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du väljer ett sidintervall och en skrivare att skriva ut dokumentet med och sedan tar fram en förhandsgranskning.
 
@@ -63,7 +65,5 @@ Console.WriteLine($"The numer of pages printed in color are {awPrintDoc.ColorPag
 ### Se även
 
 * class [AsposeWordsPrintDocument](../)
-* namnutrymme [Aspose.Words.Rendering](../../asposewordsprintdocument/)
+* namnutrymme [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * hopsättning [Aspose.Words](../../../)
-
-

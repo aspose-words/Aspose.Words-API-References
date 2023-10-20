@@ -1,7 +1,9 @@
 ---
 title: ListLevel.LinkedStyle
-second_title: Справочник по API Aspose.Words для .NET
-description: ListLevel свойство. Получает или задает стиль абзаца связанный с этим уровнем списка.
+linktitle: LinkedStyle
+articleTitle: LinkedStyle
+second_title: Aspose.Words для .NET
+description: ListLevel LinkedStyle свойство. Получает или задает стиль абзаца связанный с этим уровнем списка на С#.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.lists/listlevel/linkedstyle/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.lists/listlevel/linkedstyle/
 public Style LinkedStyle { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Это свойство`нулевой` когда уровень списка не связан со стилем абзаца. Это свойство может быть установлено в значение`нулевой`.
 
-### Примеры
+## Примеры
 
 Показывает усовершенствованные способы настройки меток списков.
 
@@ -80,7 +82,5 @@ doc.Save(ArtifactsDir + "Lists.CreateListRestartAfterHigher.docx");
 
 * class [Style](../../../aspose.words/style/)
 * class [ListLevel](../)
-* пространство имен [Aspose.Words.Lists](../../listlevel/)
+* пространство имен [Aspose.Words.Lists](../../../aspose.words.lists/)
 * сборка [Aspose.Words](../../../)
-
-

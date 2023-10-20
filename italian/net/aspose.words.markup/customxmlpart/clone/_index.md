@@ -1,7 +1,9 @@
 ---
 title: CustomXmlPart.Clone
-second_title: Aspose.Words per .NET API Reference
-description: CustomXmlPart metodo. Crea una copia abbastanza profonda delloggetto. Non duplica i byte del fileData valore.
+linktitle: Clone
+articleTitle: Clone
+second_title: Aspose.Words per .NET
+description: CustomXmlPart Clone metodo. Crea una copia abbastanza profonda delloggetto. Non duplica i byte del fileData valore in C#.
 type: docs
 weight: 60
 url: /it/net/aspose.words.markup/customxmlpart/clone/
@@ -14,7 +16,7 @@ Crea una copia "abbastanza profonda" dell'oggetto. Non duplica i byte del file[`
 public CustomXmlPart Clone()
 ```
 
-### Esempi
+## Esempi
 
 Mostra come creare un tag di documento strutturato con dati XML personalizzati.
 
@@ -81,7 +83,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.CustomXml.docx");
 ### Guarda anche
 
 * class [CustomXmlPart](../)
-* spazio dei nomi [Aspose.Words.Markup](../../customxmlpart/)
+* spazio dei nomi [Aspose.Words.Markup](../../../aspose.words.markup/)
 * assemblea [Aspose.Words](../../../)
-
-

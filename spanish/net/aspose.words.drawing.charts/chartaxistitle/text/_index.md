@@ -1,9 +1,11 @@
 ---
 title: ChartAxisTitle.Text
-second_title: Referencia de API de Aspose.Words para .NET
-description: ChartAxisTitle propiedad. Obtiene o establece el texto del título del eje. Sinulo o se especifica un valor vacío se mostrará el título generado automáticamente.
+linktitle: Text
+articleTitle: Text
+second_title: Aspose.Words para .NET
+description: ChartAxisTitle Text propiedad. Obtiene o establece el texto del título del eje. Sinulo o se especifica un valor vacío se mostrará el título generado automáticamente en C#.
 type: docs
-weight: 40
+weight: 30
 url: /es/net/aspose.words.drawing.charts/chartaxistitle/text/
 ---
 ## ChartAxisTitle.Text property
@@ -14,11 +16,11 @@ Obtiene o establece el texto del título del eje. Si`nulo` o se especifica un va
 public string Text { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 Usar[`Show`](../show/) opción si necesita mostrar el título.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo configurar el título del eje del gráfico.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "Charts.ChartAxisTitle.docx");
 ### Ver también
 
 * class [ChartAxisTitle](../)
-* espacio de nombres [Aspose.Words.Drawing.Charts](../../chartaxistitle/)
+* espacio de nombres [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * asamblea [Aspose.Words](../../../)
-
-

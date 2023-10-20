@@ -1,7 +1,9 @@
 ---
-title: Enum WatermarkType
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.WatermarkType تعداد. يحدد نوع العلامة المائية.
+title: WatermarkType Enum
+linktitle: WatermarkType
+articleTitle: WatermarkType
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.WatermarkType تعداد. يحدد نوع العلامة المائية في C#.
 type: docs
 weight: 6690
 url: /ar/net/aspose.words/watermarktype/
@@ -22,7 +24,7 @@ public enum WatermarkType
 | Image | `1` | يشير إلى أنه سيتم استخدام الصورة كعلامة مائية. |
 | None | `2` | يشير إلى عدم تعيين العلامة المائية. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء علامة مائية نصية.
 
@@ -54,5 +56,3 @@ if (doc.Watermark.Type == WatermarkType.Text)
 
 * مساحة الاسم [Aspose.Words](../../aspose.words/)
 * المجسم [Aspose.Words](../../)
-
-

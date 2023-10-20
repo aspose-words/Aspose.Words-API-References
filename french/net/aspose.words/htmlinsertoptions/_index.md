@@ -1,7 +1,9 @@
 ---
-title: Enum HtmlInsertOptions
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.HtmlInsertOptions énumération. Spécifie les options pour leInsertHtml méthode.
+title: HtmlInsertOptions Enum
+linktitle: HtmlInsertOptions
+articleTitle: HtmlInsertOptions
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.HtmlInsertOptions énumération. Spécifie les options pour leInsertHtml méthode en C#.
 type: docs
 weight: 3140
 url: /fr/net/aspose.words/htmlinsertoptions/
@@ -24,7 +26,7 @@ public enum HtmlInsertOptions
 | RemoveLastEmptyParagraph | `2` | Supprimez le paragraphe vide qui est normalement inséré après le HTML et qui se termine par un élément de niveau bloc. |
 | PreserveBlocks | `4` | Préserver les propriétés des éléments au niveau du bloc. |
 
-### Exemples
+## Exemples
 
 Montre comment permettre de mieux préserver les bordures et les marges vues.
 
@@ -51,5 +53,3 @@ builder.Document.Save(ArtifactsDir + "DocumentBuilder.PreserveBlocks.docx");
 
 * espace de noms [Aspose.Words](../../aspose.words/)
 * Assemblée [Aspose.Words](../../)
-
-

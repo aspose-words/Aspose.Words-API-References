@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.DocumentSplitHeadingLevel
-second_title: Справочник по API Aspose.Words для .NET
-description: HtmlSaveOptions свойство. Указывает максимальный уровень заголовков по которому можно разделить документ. Значение по умолчанию2 .
+linktitle: DocumentSplitHeadingLevel
+articleTitle: DocumentSplitHeadingLevel
+second_title: Aspose.Words для .NET
+description: HtmlSaveOptions DocumentSplitHeadingLevel свойство. Указывает максимальный уровень заголовков по которому можно разделить документ. Значение по умолчанию2  на С#.
 type: docs
 weight: 90
 url: /ru/net/aspose.words.saving/htmlsaveoptions/documentsplitheadinglevel/
@@ -14,13 +16,13 @@ url: /ru/net/aspose.words.saving/htmlsaveoptions/documentsplitheadinglevel/
 public int DocumentSplitHeadingLevel { get; set; }
 ```
 
-### Примечания
+## Примечания
 
-Когда[`DocumentSplitCriteria`](../documentsplitcriteria/) включаетHeadingParagraph и этому свойству присвоено значение от 1 до 9, документ будет разбит на абзацы, отформатированные с использованием . **Заголовок 1** , **Заголовок 2** , **Заголовок 3**и т. д. стили до указанного уровня заголовка.
+Когда[`DocumentSplitCriteria`](../documentsplitcriteria/) включаетHeadingParagraph и этому свойству присвоено значение от 1 до 9, документ будет разбит на абзацы, отформатированные с использованием .**Заголовок 1** ,**Заголовок 2** ,**Заголовок 3**и т. д. стили до указанного уровня заголовка.
 
-По умолчанию только **Заголовок 1** и **Заголовок 2** абзацы приводят к разделению документа. Установка этого свойства в ноль приведет к тому, что документ вообще не будет разбит на абзацы заголовков.
+По умолчанию только**Заголовок 1** и**Заголовок 2** абзацы приводят к разделению документа. Установка этого свойства в ноль приведет к тому, что документ вообще не будет разбит на абзацы заголовков.
 
-### Примеры
+## Примеры
 
 Показывает, как разделить выходной HTML-документ по заголовкам на несколько частей.
 
@@ -82,7 +84,5 @@ Assert.AreEqual("Heading #5\r" +
 ### Смотрите также
 
 * class [HtmlSaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../htmlsaveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

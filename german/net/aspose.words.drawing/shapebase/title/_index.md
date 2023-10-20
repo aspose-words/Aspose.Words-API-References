@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.Title
-second_title: Aspose.Words für .NET-API-Referenz
-description: ShapeBase eigendom. Ruft den Titel Beschriftung des aktuellen Formobjekts ab oder legt diesen fest.
+linktitle: Title
+articleTitle: Title
+second_title: Aspose.Words für .NET
+description: ShapeBase Title eigendom. Ruft den Titel Beschriftung des aktuellen Formobjekts ab oder legt diesen fest in C#.
 type: docs
 weight: 530
 url: /de/net/aspose.words.drawing/shapebase/title/
@@ -14,13 +16,13 @@ Ruft den Titel (Beschriftung) des aktuellen Formobjekts ab oder legt diesen fest
 public string Title { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Der Standardwert ist eine leere Zeichenfolge.
 
 Kann nicht sein`Null`, kann aber eine leere Zeichenfolge sein.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie der Titel einer Form festgelegt wird.
 
@@ -50,7 +52,5 @@ Assert.AreEqual("Title: My cube", shape.AlternativeText);
 ### Siehe auch
 
 * class [ShapeBase](../)
-* namensraum [Aspose.Words.Drawing](../../shapebase/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

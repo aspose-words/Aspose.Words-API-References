@@ -1,7 +1,9 @@
 ---
 title: StyleCollection.Document
-second_title: Aspose.Words für .NET-API-Referenz
-description: StyleCollection eigendom. Ruft das Eigentümerdokument ab.
+linktitle: Document
+articleTitle: Document
+second_title: Aspose.Words für .NET
+description: StyleCollection Document eigendom. Ruft das Eigentümerdokument ab in C#.
 type: docs
 weight: 40
 url: /de/net/aspose.words/stylecollection/document/
@@ -14,7 +16,7 @@ Ruft das Eigentümerdokument ab.
 public DocumentBase Document { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie auf die Stilsammlung eines Dokuments zugegriffen wird.
 
@@ -43,7 +45,5 @@ using (IEnumerator<Style> stylesEnum = doc.Styles.GetEnumerator())
 
 * class [DocumentBase](../../documentbase/)
 * class [StyleCollection](../)
-* namensraum [Aspose.Words](../../stylecollection/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

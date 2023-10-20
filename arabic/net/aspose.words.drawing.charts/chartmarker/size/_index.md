@@ -1,7 +1,9 @@
 ---
 title: ChartMarker.Size
-second_title: Aspose.Words لمراجع .NET API
-description: ChartMarker ملكية. الحصول على حجم علامة المخطط أو تعيينه. القيمة الافتراضية هي 7.
+linktitle: Size
+articleTitle: Size
+second_title: Aspose.Words لـ .NET
+description: ChartMarker Size ملكية. الحصول على حجم علامة المخطط أو تعيينه. القيمة الافتراضية هي 7 في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.drawing.charts/chartmarker/size/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing.charts/chartmarker/size/
 public int Size { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التعامل مع نقاط البيانات على مخطط خطي.
 
@@ -76,7 +78,5 @@ private static void ApplyDataPoints(ChartSeries series, int dataPointsCount, Mar
 ### أنظر أيضا
 
 * class [ChartMarker](../)
-* مساحة الاسم [Aspose.Words.Drawing.Charts](../../chartmarker/)
+* مساحة الاسم [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../../)
-
-

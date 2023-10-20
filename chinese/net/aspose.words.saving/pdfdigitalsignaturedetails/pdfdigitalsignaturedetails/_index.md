@@ -1,7 +1,9 @@
 ---
-title: PdfDigitalSignatureDetails.PdfDigitalSignatureDetails
-second_title: Aspose.Words for .NET API 参考
-description: PdfDigitalSignatureDetails 构造函数. 初始化此类的实例
+title: PdfDigitalSignatureDetails
+linktitle: PdfDigitalSignatureDetails
+articleTitle: PdfDigitalSignatureDetails
+second_title: 用于 .NET 的 Aspose.Words
+description: PdfDigitalSignatureDetails 构造函数. 初始化此类的实例 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.saving/pdfdigitalsignaturedetails/pdfdigitalsignaturedetails/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.saving/pdfdigitalsignaturedetails/pdfdigitalsignatured
 public PdfDigitalSignatureDetails()
 ```
 
-### 例子
+## 例子
 
 演示如何签署生成的 PDF 文档。
 
@@ -46,12 +48,12 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignature.pdf", options);
 ### 也可以看看
 
 * class [PdfDigitalSignatureDetails](../)
-* 命名空间 [Aspose.Words.Saving](../../pdfdigitalsignaturedetails/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## PdfDigitalSignatureDetails(CertificateHolder, string, string, DateTime) {#constructor_1}
+## PdfDigitalSignatureDetails(*[CertificateHolder](../../../aspose.words.digitalsignatures/certificateholder/), string, string, DateTime*) {#constructor_1}
 
 初始化此类的实例。
 
@@ -67,7 +69,7 @@ public PdfDigitalSignatureDetails(CertificateHolder certificateHolder, string re
 | location | String | 签字地点。 |
 | signatureDate | DateTime | 签署的日期和时间。 |
 
-### 例子
+## 例子
 
 演示如何签署生成的 PDF 文档。
 
@@ -100,7 +102,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignature.pdf", options);
 
 * class [CertificateHolder](../../../aspose.words.digitalsignatures/certificateholder/)
 * class [PdfDigitalSignatureDetails](../)
-* 命名空间 [Aspose.Words.Saving](../../pdfdigitalsignaturedetails/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: OdsoFieldMapDataCollection.Add
-second_title: Referencia de API de Aspose.Words para .NET
-description: OdsoFieldMapDataCollection método. Agrega un objeto al final de esta colección.
+linktitle: Add
+articleTitle: Add
+second_title: Aspose.Words para .NET
+description: OdsoFieldMapDataCollection Add método. Agrega un objeto al final de esta colección en C#.
 type: docs
 weight: 40
 url: /es/net/aspose.words.settings/odsofieldmapdatacollection/add/
@@ -18,7 +20,7 @@ public int Add(OdsoFieldMapData value)
 | --- | --- | --- |
 | value | OdsoFieldMapData | El objeto a agregar. No puede ser`nulo`. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo acceder a la colección de datos que asigna columnas de origen de datos para fusionar campos.
 
@@ -62,7 +64,5 @@ Assert.AreEqual(0, dataCollection.Count);
 
 * class [OdsoFieldMapData](../../odsofieldmapdata/)
 * class [OdsoFieldMapDataCollection](../)
-* espacio de nombres [Aspose.Words.Settings](../../odsofieldmapdatacollection/)
+* espacio de nombres [Aspose.Words.Settings](../../../aspose.words.settings/)
 * asamblea [Aspose.Words](../../../)
-
-

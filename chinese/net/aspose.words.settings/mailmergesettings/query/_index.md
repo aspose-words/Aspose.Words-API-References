@@ -1,7 +1,9 @@
 ---
 title: MailMergeSettings.Query
-second_title: Aspose.Words for .NET API 参考
-description: MailMergeSettings 财产. 包含结构化查询语言字符串该字符串应针对指定的外部数据源运行以返回执行邮件合并操作时应导入到文档中的记录集 默认值为空字符串
+linktitle: Query
+articleTitle: Query
+second_title: 用于 .NET 的 Aspose.Words
+description: MailMergeSettings Query 财产. 包含结构化查询语言字符串该字符串应针对指定的外部数据源运行以返回执行邮件合并操作时应导入到文档中的记录集 默认值为空字符串 在 C#.
 type: docs
 weight: 160
 url: /zh/net/aspose.words.settings/mailmergesettings/query/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.settings/mailmergesettings/query/
 public string Query { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何使用 Office 数据源对象中的数据执行邮件合并。
 
@@ -66,7 +68,5 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ### 也可以看看
 
 * class [MailMergeSettings](../)
-* 命名空间 [Aspose.Words.Settings](../../mailmergesettings/)
+* 命名空间 [Aspose.Words.Settings](../../../aspose.words.settings/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldTC.EntryLevel
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldTC propiedad. Obtiene o establece el nivel de la entrada.
+linktitle: EntryLevel
+articleTitle: EntryLevel
+second_title: Aspose.Words para .NET
+description: FieldTC EntryLevel propiedad. Obtiene o establece el nivel de la entrada en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words.fields/fieldtc/entrylevel/
@@ -14,7 +16,7 @@ Obtiene o establece el nivel de la entrada.
 public string EntryLevel { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo insertar un campo TOC y filtrar qué campos TC terminan como entradas.
 
@@ -66,7 +68,5 @@ public void InsertTocEntry(DocumentBuilder builder, string text, string typeIden
 ### Ver también
 
 * class [FieldTC](../)
-* espacio de nombres [Aspose.Words.Fields](../../fieldtc/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

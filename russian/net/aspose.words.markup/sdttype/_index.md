@@ -1,7 +1,9 @@
 ---
-title: Enum SdtType
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Markup.SdtType перечисление. Указывает тип узла тега структурированного документа SDT.
+title: SdtType Enum
+linktitle: SdtType
+articleTitle: SdtType
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Markup.SdtType перечисление. Указывает тип узла тега структурированного документа SDT на С#.
 type: docs
 weight: 4040
 url: /ru/net/aspose.words.markup/sdttype/
@@ -36,7 +38,7 @@ public enum SdtType
 | RepeatingSectionItem | `15` | SDT представляет повторяющийся элемент раздела. |
 | EntityPicker | `16` | SDT представляет собой средство выбора объекта, которое позволяет пользователю выбрать экземпляр внешнего типа контента. |
 
-### Примеры
+## Примеры
 
 Показывает, как создать тег структурированного документа группы на уровне строки.
 
@@ -172,5 +174,3 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.RepeatingSectionItem.docx");
 
 * пространство имен [Aspose.Words.Markup](../../aspose.words.markup/)
 * сборка [Aspose.Words](../../)
-
-

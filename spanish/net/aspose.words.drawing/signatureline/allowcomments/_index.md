@@ -1,7 +1,9 @@
 ---
 title: SignatureLine.AllowComments
-second_title: Referencia de API de Aspose.Words para .NET
-description: SignatureLine propiedad. Obtiene o establece un valor que indica que el firmante puede agregar comentarios en el cuadro de diálogo Firmar. El valor predeterminado para esta propiedad esFALSO .
+linktitle: AllowComments
+articleTitle: AllowComments
+second_title: Aspose.Words para .NET
+description: SignatureLine AllowComments propiedad. Obtiene o establece un valor que indica que el firmante puede agregar comentarios en el cuadro de diálogo Firmar. El valor predeterminado para esta propiedad esFALSO  en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words.drawing/signatureline/allowcomments/
@@ -14,7 +16,7 @@ Obtiene o establece un valor que indica que el firmante puede agregar comentario
 public bool AllowComments { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear una línea para una firma e insertarla en un documento.
 
@@ -59,7 +61,5 @@ doc.Save(ArtifactsDir + "Shape.SignatureLine.docx");
 ### Ver también
 
 * class [SignatureLine](../)
-* espacio de nombres [Aspose.Words.Drawing](../../signatureline/)
+* espacio de nombres [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * asamblea [Aspose.Words](../../../)
-
-

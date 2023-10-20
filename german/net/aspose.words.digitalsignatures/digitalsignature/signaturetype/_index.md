@@ -1,7 +1,9 @@
 ---
 title: DigitalSignature.SignatureType
-second_title: Aspose.Words für .NET-API-Referenz
-description: DigitalSignature eigendom. Ruft den Typ der digitalen Signatur ab.
+linktitle: SignatureType
+articleTitle: SignatureType
+second_title: Aspose.Words für .NET
+description: DigitalSignature SignatureType eigendom. Ruft den Typ der digitalen Signatur ab in C#.
 type: docs
 weight: 50
 url: /de/net/aspose.words.digitalsignatures/digitalsignature/signaturetype/
@@ -14,7 +16,7 @@ Ruft den Typ der digitalen Signatur ab.
 public DigitalSignatureType SignatureType { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Informationen zu jeder Signatur in einem Dokument validiert und angezeigt werden.
 
@@ -37,7 +39,5 @@ foreach (DigitalSignature signature in doc.DigitalSignatures)
 
 * enum [DigitalSignatureType](../../digitalsignaturetype/)
 * class [DigitalSignature](../)
-* namensraum [Aspose.Words.DigitalSignatures](../../digitalsignature/)
+* namensraum [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * Montage [Aspose.Words](../../../)
-
-

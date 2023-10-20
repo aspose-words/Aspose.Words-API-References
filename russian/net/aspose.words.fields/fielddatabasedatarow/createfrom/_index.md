@@ -1,7 +1,9 @@
 ---
 title: FieldDatabaseDataRow.CreateFrom
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldDatabaseDataRow метод. Инициализирует новый экземплярFieldDatabaseDataRow class изDataRow экземпляр.
+linktitle: CreateFrom
+articleTitle: CreateFrom
+second_title: Aspose.Words для .NET
+description: FieldDatabaseDataRow CreateFrom метод. Инициализирует новый экземплярFieldDatabaseDataRow class изDataRow экземпляр на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.fields/fielddatabasedatarow/createfrom/
@@ -17,7 +19,5 @@ public static FieldDatabaseDataRow CreateFrom(DataRow dataRow)
 ### Смотрите также
 
 * class [FieldDatabaseDataRow](../)
-* пространство имен [Aspose.Words.Fields](../../fielddatabasedatarow/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

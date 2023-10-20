@@ -1,7 +1,9 @@
 ---
 title: PageLayoutCallbackArgs.Document
-second_title: Aspose.Words für .NET-API-Referenz
-description: PageLayoutCallbackArgs eigendom. Ruft das Dokument ab.
+linktitle: Document
+articleTitle: Document
+second_title: Aspose.Words für .NET
+description: PageLayoutCallbackArgs Document eigendom. Ruft das Dokument ab in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words.layout/pagelayoutcallbackargs/document/
@@ -14,7 +16,7 @@ Ruft das Dokument ab.
 public Document Document { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Layoutänderungen mit einem Layout-Callback verfolgt werden.
 
@@ -81,7 +83,5 @@ private class RenderPageLayoutCallback : IPageLayoutCallback
 
 * class [Document](../../../aspose.words/document/)
 * class [PageLayoutCallbackArgs](../)
-* namensraum [Aspose.Words.Layout](../../pagelayoutcallbackargs/)
+* namensraum [Aspose.Words.Layout](../../../aspose.words.layout/)
 * Montage [Aspose.Words](../../../)
-
-

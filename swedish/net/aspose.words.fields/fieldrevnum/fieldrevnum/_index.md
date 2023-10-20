@@ -1,7 +1,9 @@
 ---
-title: FieldRevNum.FieldRevNum
-second_title: Aspose.Words för .NET API Referens
-description: FieldRevNum byggare. Default_Constructor
+title: FieldRevNum
+linktitle: FieldRevNum
+articleTitle: FieldRevNum
+second_title: Aspose.Words för .NET
+description: FieldRevNum byggare. Default_Constructor i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.fields/fieldrevnum/fieldrevnum/
@@ -17,7 +19,5 @@ public FieldRevNum()
 ### Se även
 
 * class [FieldRevNum](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldrevnum/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

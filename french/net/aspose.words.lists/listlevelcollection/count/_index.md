@@ -1,7 +1,9 @@
 ---
 title: ListLevelCollection.Count
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ListLevelCollection propriété. Obtient le nombre de niveaux dans cette liste.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words pour .NET
+description: ListLevelCollection Count propriété. Obtient le nombre de niveaux dans cette liste en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.lists/listlevelcollection/count/
@@ -14,11 +16,11 @@ Obtient le nombre de niveaux dans cette liste.
 public int Count { get; }
 ```
 
-### Remarques
+## Remarques
 
 Il peut y avoir 1 ou 9 niveaux dans une liste.
 
-### Exemples
+## Exemples
 
 Montre comment créer un style de liste et l’utiliser dans un document.
 
@@ -79,7 +81,5 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateAndUseListStyle.docx");
 ### Voir également
 
 * class [ListLevelCollection](../)
-* espace de noms [Aspose.Words.Lists](../../listlevelcollection/)
+* espace de noms [Aspose.Words.Lists](../../../aspose.words.lists/)
 * Assemblée [Aspose.Words](../../../)
-
-

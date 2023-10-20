@@ -1,7 +1,9 @@
 ---
 title: DocumentProperty.ToBool
-second_title: Aspose.Words för .NET API Referens
-description: DocumentProperty metod. Returnerar egenskapsvärdet som bool.
+linktitle: ToBool
+articleTitle: ToBool
+second_title: Aspose.Words för .NET
+description: DocumentProperty ToBool metod. Returnerar egenskapsvärdet som bool i C#.
 type: docs
 weight: 60
 url: /sv/net/aspose.words.properties/documentproperty/tobool/
@@ -14,11 +16,11 @@ Returnerar egenskapsvärdet som bool.
 public bool ToBool()
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Kastar ett undantag om egenskapstypen inte är detBoolean.
 
-### Exempel
+## Exempel
 
 Visar olika typer av konverteringsmetoder för anpassade dokumentegenskaper.
 
@@ -43,7 +45,5 @@ Assert.AreEqual(123.45d, properties["Authorized Amount"].ToDouble());
 ### Se även
 
 * class [DocumentProperty](../)
-* namnutrymme [Aspose.Words.Properties](../../documentproperty/)
+* namnutrymme [Aspose.Words.Properties](../../../aspose.words.properties/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: AxisScaling.Maximum
-second_title: Aspose.Words لمراجع .NET API
-description: AxisScaling ملكية. الحصول على أو تعيين القيمة القصوى للمحور.
+linktitle: Maximum
+articleTitle: Maximum
+second_title: Aspose.Words لـ .NET
+description: AxisScaling Maximum ملكية. الحصول على أو تعيين القيمة القصوى للمحور في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.drawing.charts/axisscaling/maximum/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.drawing.charts/axisscaling/maximum/
 public AxisBound Maximum { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 القيمة الافتراضية هي "تلقائي".
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج مخطط بقيم التاريخ/الوقت.
 
@@ -73,7 +75,5 @@ doc.Save(ArtifactsDir + "Charts.DateTimeValues.docx");
 
 * class [AxisBound](../../axisbound/)
 * class [AxisScaling](../)
-* مساحة الاسم [Aspose.Words.Drawing.Charts](../../axisscaling/)
+* مساحة الاسم [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../../)
-
-

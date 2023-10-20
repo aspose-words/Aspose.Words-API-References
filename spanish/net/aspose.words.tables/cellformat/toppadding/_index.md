@@ -1,9 +1,11 @@
 ---
 title: CellFormat.TopPadding
-second_title: Referencia de API de Aspose.Words para .NET
-description: CellFormat propiedad. Devuelve o establece la cantidad de espacio en puntos para agregar encima del contenido de la celda.
+linktitle: TopPadding
+articleTitle: TopPadding
+second_title: Aspose.Words para .NET
+description: CellFormat TopPadding propiedad. Devuelve o establece la cantidad de espacio en puntos para agregar encima del contenido de la celda en C#.
 type: docs
-weight: 110
+weight: 100
 url: /es/net/aspose.words.tables/cellformat/toppadding/
 ---
 ## CellFormat.TopPadding property
@@ -14,7 +16,7 @@ Devuelve o establece la cantidad de espacio (en puntos) para agregar encima del 
 public double TopPadding { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo dar formato a celdas con un generador de documentos.
 
@@ -61,7 +63,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.SetCellFormatting.docx");
 ### Ver también
 
 * class [CellFormat](../)
-* espacio de nombres [Aspose.Words.Tables](../../cellformat/)
+* espacio de nombres [Aspose.Words.Tables](../../../aspose.words.tables/)
 * asamblea [Aspose.Words](../../../)
-
-

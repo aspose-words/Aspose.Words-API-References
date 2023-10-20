@@ -1,7 +1,9 @@
 ---
 title: Revision.RevisionType
-second_title: Aspose.Words für .NET-API-Referenz
-description: Revision eigendom. Ruft den Typ dieser Revision ab.
+linktitle: RevisionType
+articleTitle: RevisionType
+second_title: Aspose.Words für .NET
+description: Revision RevisionType eigendom. Ruft den Typ dieser Revision ab in C#.
 type: docs
 weight: 60
 url: /de/net/aspose.words/revision/revisiontype/
@@ -14,7 +16,7 @@ Ruft den Typ dieser Revision ab.
 public RevisionType RevisionType { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit Revisionen in einem Dokument gearbeitet wird.
 
@@ -98,7 +100,5 @@ Assert.AreEqual("This is revision #1. \rThis is revision #2.", doc.GetText().Tri
 
 * enum [RevisionType](../../revisiontype/)
 * class [Revision](../)
-* namensraum [Aspose.Words](../../revision/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

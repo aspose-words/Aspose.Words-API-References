@@ -1,7 +1,9 @@
 ---
-title: Enum CellVerticalAlignment
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Tables.CellVerticalAlignment 枚举. 指定表格单元格内文本的垂直对齐方式
+title: CellVerticalAlignment Enum
+linktitle: CellVerticalAlignment
+articleTitle: CellVerticalAlignment
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Tables.CellVerticalAlignment 枚举. 指定表格单元格内文本的垂直对齐方式 在 C#.
 type: docs
 weight: 6280
 url: /zh/net/aspose.words.tables/cellverticalalignment/
@@ -22,7 +24,7 @@ public enum CellVerticalAlignment
 | Center | `1` | 文本在单元格中间对齐。 |
 | Bottom | `2` | 文本在单元格底部对齐。 |
 
-### 例子
+## 例子
 
 演示如何构建格式化的 2x2 表。
 
@@ -69,5 +71,3 @@ doc.Save(ArtifactsDir + "DocumentBuilder.BuildTable.docx");
 
 * 命名空间 [Aspose.Words.Tables](../../aspose.words.tables/)
 * 部件 [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Footnote.Footnote
-second_title: Aspose.Words per .NET API Reference
-description: Footnote costruttore. Inizializza unistanza diFootnote classe.
+title: Footnote
+linktitle: Footnote
+articleTitle: Footnote
+second_title: Aspose.Words per .NET
+description: Footnote costruttore. Inizializza unistanza diFootnote classe in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words.notes/footnote/footnote/
@@ -19,13 +21,13 @@ public Footnote(DocumentBase doc, FootnoteType footnoteType)
 | doc | DocumentBase | Il documento del proprietario. |
 | footnoteType | FootnoteType | UN[`FootnoteType`](../footnotetype/) value che specifica se si tratta di una nota a piè di pagina o di chiusura. |
 
-### Osservazioni
+## Osservazioni
 
 Quando[`Footnote`](../) viene creato, appartiene al documento specificato, ma non è ancora parte del documento e[`ParentNode`](../../../aspose.words/node/parentnode/) È`nullo`.
 
-Per aggiungere[`Footnote`](../) all'uso del documentoNode) ONode) sul paragrafo in cui desideri inserire la nota a piè di pagina.
+Per aggiungere[`Footnote`](../) all'uso del documento[`InsertAfter`](../../../aspose.words/compositenode/insertafter/) O[`InsertBefore`](../../../aspose.words/compositenode/insertbefore/) sul paragrafo in cui desideri inserire la nota a piè di pagina.
 
-### Esempi
+## Esempi
 
 Mostra come inserire e personalizzare le note a piè di pagina.
 
@@ -75,7 +77,5 @@ doc.Save(ArtifactsDir + "InlineStory.AddFootnote.docx");
 * class [DocumentBase](../../../aspose.words/documentbase/)
 * enum [FootnoteType](../../footnotetype/)
 * class [Footnote](../)
-* spazio dei nomi [Aspose.Words.Notes](../../footnote/)
+* spazio dei nomi [Aspose.Words.Notes](../../../aspose.words.notes/)
 * assemblea [Aspose.Words](../../../)
-
-

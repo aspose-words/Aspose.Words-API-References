@@ -1,7 +1,9 @@
 ---
 title: RowFormat.AllowBreakAcrossPages
-second_title: Référence de l'API Aspose.Words pour .NET
-description: RowFormat propriété. True si le texte dune ligne de tableau est autorisé à être divisé sur un saut de page.
+linktitle: AllowBreakAcrossPages
+articleTitle: AllowBreakAcrossPages
+second_title: Aspose.Words pour .NET
+description: RowFormat AllowBreakAcrossPages propriété. True si le texte dune ligne de tableau est autorisé à être divisé sur un saut de page en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.tables/rowformat/allowbreakacrosspages/
@@ -14,7 +16,7 @@ True si le texte d'une ligne de tableau est autorisé à être divisé sur un sa
 public bool AllowBreakAcrossPages { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment désactiver la séparation des lignes sur plusieurs pages pour chaque ligne d'un tableau.
 
@@ -35,7 +37,5 @@ doc.Save(ArtifactsDir + "Table.AllowBreakAcrossPages.docx");
 ### Voir également
 
 * class [RowFormat](../)
-* espace de noms [Aspose.Words.Tables](../../rowformat/)
+* espace de noms [Aspose.Words.Tables](../../../aspose.words.tables/)
 * Assemblée [Aspose.Words](../../../)
-
-

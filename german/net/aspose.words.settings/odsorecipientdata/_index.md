@@ -1,7 +1,9 @@
 ---
-title: Class OdsoRecipientData
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Settings.OdsoRecipientData klas. Stellt Informationen zu einem einzelnen Datensatz in einer externen Datenquelle dar der vom Serienbrief ausgeschlossen werden soll.
+title: OdsoRecipientData Class
+linktitle: OdsoRecipientData
+articleTitle: OdsoRecipientData
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Settings.OdsoRecipientData klas. Stellt Informationen zu einem einzelnen Datensatz in einer externen Datenquelle dar der vom Serienbrief ausgeschlossen werden soll in C#.
 type: docs
 weight: 5930
 url: /de/net/aspose.words.settings/odsorecipientdata/
@@ -37,11 +39,11 @@ public class OdsoRecipientData
 | --- | --- |
 | [Clone](../../aspose.words.settings/odsorecipientdata/clone/)() | Gibt einen tiefen Klon dieses Objekts zurück. |
 
-### Bemerkungen
+## Bemerkungen
 
 Wenn ein Datensatz in einem zusammengeführten Dokument zusammengeführt werden soll, sind keine Informationen zu diesem Datensatz erforderlich. Wenn ein bestimmter Datensatz jedoch nicht in einem zusammengeführten Dokument zusammengeführt werden soll, muss der Wert des eindeutigen Schlüssels für diesen Datensatz im gespeichert werden[`UniqueTag`](./uniquetag/)Eigenschaft dieses Objekts, um diesen Ausschluss anzuzeigen.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie auf die Datensammlung zugegriffen wird, die angibt, welche Zusammenführungsdatenquellendatensätze von einem Serienbrief ausgeschlossen werden.
 
@@ -82,5 +84,3 @@ Assert.AreEqual(0, dataCollection.Count);
 
 * namensraum [Aspose.Words.Settings](../../aspose.words.settings/)
 * Montage [Aspose.Words](../../)
-
-

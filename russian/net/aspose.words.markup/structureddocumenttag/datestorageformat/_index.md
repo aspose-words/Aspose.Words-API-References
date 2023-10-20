@@ -1,26 +1,28 @@
 ---
 title: StructuredDocumentTag.DateStorageFormat
-second_title: Справочник по API Aspose.Words для .NET
-description: StructuredDocumentTag свойство. Получает/устанавливает формат в котором хранится дата для SDT даты когда СДТпривязан к узлу XML в хранилище данных документа. Значение по умолчаниюDateTime
+linktitle: DateStorageFormat
+articleTitle: DateStorageFormat
+second_title: Aspose.Words для .NET
+description: StructuredDocumentTag DateStorageFormat свойство. Получает/устанавливает формат в котором хранится дата для SDT даты когдаСДТпривязан к узлу XML в хранилище данных документа. Значение по умолчаниюDateTime на С#.
 type: docs
 weight: 110
 url: /ru/net/aspose.words.markup/structureddocumenttag/datestorageformat/
 ---
 ## StructuredDocumentTag.DateStorageFormat property
 
-Получает/устанавливает формат, в котором хранится дата для SDT даты, когда **СДТ**привязан к узлу XML в хранилище данных документа. Значение по умолчанию:DateTime
+Получает/устанавливает формат, в котором хранится дата для SDT даты, когда**СДТ**привязан к узлу XML в хранилище данных документа. Значение по умолчанию:DateTime
 
 ```csharp
 public SdtDateStorageFormat DateStorageFormat { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Доступ к этому ресурсу будет работать только дляDate Тип SDT.
 
 Для всех остальных типов SDT возникнет исключение.
 
-### Примеры
+## Примеры
 
 Показывает, как предложить пользователю ввести дату с помощью тега структурированного документа.
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.Date.docx");
 
 * enum [SdtDateStorageFormat](../../sdtdatestorageformat/)
 * class [StructuredDocumentTag](../)
-* пространство имен [Aspose.Words.Markup](../../structureddocumenttag/)
+* пространство имен [Aspose.Words.Markup](../../../aspose.words.markup/)
 * сборка [Aspose.Words](../../../)
-
-

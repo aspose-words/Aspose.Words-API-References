@@ -1,7 +1,9 @@
 ---
 title: CustomXmlProperty.Name
-second_title: Aspose.Words för .NET API Referens
-description: CustomXmlProperty fast egendom. Anger namnet på det anpassade XMLattributet eller smarttaggen.
+linktitle: Name
+articleTitle: Name
+second_title: Aspose.Words för .NET
+description: CustomXmlProperty Name fast egendom. Anger namnet på det anpassade XMLattributet eller smarttaggen i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.markup/customxmlproperty/name/
@@ -14,13 +16,13 @@ Anger namnet på det anpassade XML-attributet eller smart-taggen.
 public string Name { get; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Kan inte vara`null`.
 
 Standard är tom sträng.
 
-### Exempel
+## Exempel
 
 Visar hur man skapar smarta taggar.
 
@@ -121,7 +123,5 @@ private class SmartTagPrinter : DocumentVisitor
 ### Se även
 
 * class [CustomXmlProperty](../)
-* namnutrymme [Aspose.Words.Markup](../../customxmlproperty/)
+* namnutrymme [Aspose.Words.Markup](../../../aspose.words.markup/)
 * hopsättning [Aspose.Words](../../../)
-
-

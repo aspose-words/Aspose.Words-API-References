@@ -1,7 +1,9 @@
 ---
 title: FieldMergeBarcode.CaseCodeStyle
-second_title: Aspose.Words لمراجع .NET API
-description: FieldMergeBarcode ملكية. الحصول على أو تعيين نمط رمز الحالة لنوع الرمز الشريطي ITF14. القيم الصالحة هي STDEXTADD
+linktitle: CaseCodeStyle
+articleTitle: CaseCodeStyle
+second_title: Aspose.Words لـ .NET
+description: FieldMergeBarcode CaseCodeStyle ملكية. الحصول على أو تعيين نمط رمز الحالة لنوع الرمز الشريطي ITF14. القيم الصالحة هي STDEXTADD في C#.
 type: docs
 weight: 60
 url: /ar/net/aspose.words.fields/fieldmergebarcode/casecodestyle/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldmergebarcode/casecodestyle/
 public string CaseCodeStyle { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إجراء دمج البريد على الرموز الشريطية ITF14.
 
@@ -55,7 +57,5 @@ doc.Save(ArtifactsDir + "Field.MERGEBARCODE.ITF14.docx");
 ### أنظر أيضا
 
 * class [FieldMergeBarcode](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldmergebarcode/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

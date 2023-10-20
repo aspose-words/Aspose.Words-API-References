@@ -1,7 +1,9 @@
 ---
 title: PageSetup.LeftMargin
-second_title: Referencia de API de Aspose.Words para .NET
-description: PageSetup propiedad. Devuelve o establece la distancia en puntos entre el borde izquierdo de la página y el límite izquierdo del cuerpo del texto.
+linktitle: LeftMargin
+articleTitle: LeftMargin
+second_title: Aspose.Words para .NET
+description: PageSetup LeftMargin propiedad. Devuelve o establece la distancia en puntos entre el borde izquierdo de la página y el límite izquierdo del cuerpo del texto en C#.
 type: docs
 weight: 200
 url: /es/net/aspose.words/pagesetup/leftmargin/
@@ -14,7 +16,7 @@ Devuelve o establece la distancia (en puntos) entre el borde izquierdo de la pá
 public double LeftMargin { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo ajustar el tamaño del papel, la orientación, los márgenes y otras configuraciones para una sección.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "PageSetup.PageMargins.docx");
 ### Ver también
 
 * class [PageSetup](../)
-* espacio de nombres [Aspose.Words](../../pagesetup/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

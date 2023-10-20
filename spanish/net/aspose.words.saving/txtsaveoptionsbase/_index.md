@@ -1,7 +1,9 @@
 ---
-title: Class TxtSaveOptionsBase
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Saving.TxtSaveOptionsBase clase. La clase base para especificar opciones adicionales al guardar un documento en formatos basados en texto.
+title: TxtSaveOptionsBase Class
+linktitle: TxtSaveOptionsBase
+articleTitle: TxtSaveOptionsBase
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Saving.TxtSaveOptionsBase clase. La clase base para especificar opciones adicionales al guardar un documento en formatos basados en texto en C#.
 type: docs
 weight: 5670
 url: /es/net/aspose.words.saving/txtsaveoptionsbase/
@@ -22,11 +24,11 @@ public abstract class TxtSaveOptionsBase : SaveOptions
 | --- | --- |
 | [AllowEmbeddingPostScriptFonts](../../aspose.words.saving/saveoptions/allowembeddingpostscriptfonts/) { get; set; } | Obtiene o establece un valor booleano que indica si se permite incrustar fuentes con contornos PostScript al incrustar fuentes TrueType en un documento una vez guardado. El valor predeterminado es`FALSO` . |
 | [CustomTimeZoneInfo](../../aspose.words.saving/saveoptions/customtimezoneinfo/) { get; set; } | Obtiene o establece la zona horaria local personalizada utilizada para los campos de fecha/hora. |
-| [DefaultTemplate](../../aspose.words.saving/saveoptions/defaulttemplate/) { get; set; } | Obtiene o establece la ruta a la plantilla predeterminada (incluido el nombre del archivo). El valor predeterminado para esta propiedad es **cuerda vacía** (Empty). |
+| [DefaultTemplate](../../aspose.words.saving/saveoptions/defaulttemplate/) { get; set; } | Obtiene o establece la ruta a la plantilla predeterminada (incluido el nombre del archivo). El valor predeterminado para esta propiedad es**cuerda vacía** (Empty). |
 | [Dml3DEffectsRenderingMode](../../aspose.words.saving/saveoptions/dml3deffectsrenderingmode/) { get; set; } | Obtiene o establece un valor que determina cómo se representan los efectos 3D. |
 | virtual [DmlEffectsRenderingMode](../../aspose.words.saving/saveoptions/dmleffectsrenderingmode/) { get; set; } | Obtiene o establece un valor que determina cómo se representan los efectos de DrawingML. |
 | [DmlRenderingMode](../../aspose.words.saving/saveoptions/dmlrenderingmode/) { get; set; } | Obtiene o establece un valor que determina cómo se representan las formas de DrawingML. |
-| [Encoding](../../aspose.words.saving/txtsaveoptionsbase/encoding/) { get; set; } | Especifica la codificación que se utilizará al exportar en formatos de texto. El valor predeterminado es **Codificación.UTF8** . |
+| [Encoding](../../aspose.words.saving/txtsaveoptionsbase/encoding/) { get; set; } | Especifica la codificación que se utilizará al exportar en formatos de texto. El valor predeterminado es**Codificación.UTF8** . |
 | [ExportGeneratorName](../../aspose.words.saving/saveoptions/exportgeneratorname/) { get; set; } | cuando`verdadero` , hace que el nombre y la versión de Aspose.Words se incrusten en los archivos producidos. El valor predeterminado es`verdadero` . |
 | [ExportHeadersFootersMode](../../aspose.words.saving/txtsaveoptionsbase/exportheadersfootersmode/) { get; set; } | Especifica la forma en que se exportan los encabezados y pies de página a los formatos de texto. El valor predeterminado esPrimaryOnly . |
 | [ForcePageBreaks](../../aspose.words.saving/txtsaveoptionsbase/forcepagebreaks/) { get; set; } | Permite especificar si los saltos de página deben conservarse durante la exportación. |
@@ -44,7 +46,7 @@ public abstract class TxtSaveOptionsBase : SaveOptions
 | [UseAntiAliasing](../../aspose.words.saving/saveoptions/useantialiasing/) { get; set; } | Obtiene o establece un valor que determina si se utiliza o no el suavizado para la representación. |
 | [UseHighQualityRendering](../../aspose.words.saving/saveoptions/usehighqualityrendering/) { get; set; } | Obtiene o establece un valor que determina si se utilizan o no algoritmos de renderizado de alta calidad (es decir, lentos). |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo guardar un documento .txt con un salto de párrafo personalizado.
 
@@ -79,5 +81,3 @@ Assert.AreEqual("Paragraph 1. End of paragraph.\n\n\t" +
 * class [SaveOptions](../saveoptions/)
 * espacio de nombres [Aspose.Words.Saving](../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../)
-
-

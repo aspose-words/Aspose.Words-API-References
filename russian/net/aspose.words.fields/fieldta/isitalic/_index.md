@@ -1,7 +1,9 @@
 ---
 title: FieldTA.IsItalic
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldTA свойство. Получает или задает необходимость применения курсива к номеру страницы для записи.
+linktitle: IsItalic
+articleTitle: IsItalic
+second_title: Aspose.Words для .NET
+description: FieldTA IsItalic свойство. Получает или задает необходимость применения курсива к номеру страницы для записи на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.fields/fieldta/isitalic/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldta/isitalic/
 public bool IsItalic { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как построить и настроить таблицу авторитетов, используя поля TOA и TA.
 
@@ -137,7 +139,5 @@ private static FieldTA InsertToaEntry(DocumentBuilder builder, string entryCateg
 ### Смотрите также
 
 * class [FieldTA](../)
-* пространство имен [Aspose.Words.Fields](../../fieldta/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

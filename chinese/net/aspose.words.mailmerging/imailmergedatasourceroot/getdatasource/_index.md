@@ -1,7 +1,9 @@
 ---
 title: IMailMergeDataSourceRoot.GetDataSource
-second_title: Aspose.Words for .NET API 参考
-description: IMailMergeDataSourceRoot 方法. Aspose.Words 邮件合并引擎在遇到顶级邮件合并区域的开头时调用此方法
+linktitle: GetDataSource
+articleTitle: GetDataSource
+second_title: 用于 .NET 的 Aspose.Words
+description: IMailMergeDataSourceRoot GetDataSource 方法. Aspose.Words 邮件合并引擎在遇到顶级邮件合并区域的开头时调用此方法 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.mailmerging/imailmergedatasourceroot/getdatasource/
@@ -22,13 +24,13 @@ public IMailMergeDataSource GetDataSource(string tableName)
 
 将提供对指定表的数据记录的访问的数据源对象。
 
-### 评论
+## 评论
 
 当 Aspose.Words 邮件合并引擎用数据填充文档并遇到 MERGEFIELD TableStart:TableName, 时，它会调用`GetDataSource`在这个物体上。您的实现需要返回一个新的数据源对象。 Aspose.Words 将使用返回的数据源来填充邮件合并区域。
 
 如果指定名称的数据源（表）不存在，您的实现应该返回`无效的`.
 
-### 例子
+## 例子
 
 使用主从数据从自定义数据源执行邮件合并。
 
@@ -212,7 +214,5 @@ private class EmployeeListMailMergeSource : IMailMergeDataSource
 
 * interface [IMailMergeDataSource](../../imailmergedatasource/)
 * interface [IMailMergeDataSourceRoot](../)
-* 命名空间 [Aspose.Words.MailMerging](../../imailmergedatasourceroot/)
+* 命名空间 [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * 部件 [Aspose.Words](../../../)
-
-

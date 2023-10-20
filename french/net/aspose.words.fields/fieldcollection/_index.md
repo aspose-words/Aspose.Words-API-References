@@ -1,7 +1,9 @@
 ---
-title: Class FieldCollection
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Fields.FieldCollection classe. Une collection deField objets qui représentent les champs dans la plage spécifiée.
+title: FieldCollection Class
+linktitle: FieldCollection
+articleTitle: FieldCollection
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Fields.FieldCollection classe. Une collection deField objets qui représentent les champs dans la plage spécifiée en C#.
 type: docs
 weight: 1690
 url: /fr/net/aspose.words.fields/fieldcollection/
@@ -29,10 +31,10 @@ public class FieldCollection : IEnumerable<Field>
 | --- | --- |
 | [Clear](../../aspose.words.fields/fieldcollection/clear/)() | Supprime tous les champs de cette collection du document et de cette collection elle-même. |
 | [GetEnumerator](../../aspose.words.fields/fieldcollection/getenumerator/)() | Renvoie un objet énumérateur. |
-| [Remove](../../aspose.words.fields/fieldcollection/remove/)(Field) | Supprime le champ spécifié de cette collection et du document. |
-| [RemoveAt](../../aspose.words.fields/fieldcollection/removeat/)(int) | Supprime un champ à l'index spécifié de cette collection et du document. |
+| [Remove](../../aspose.words.fields/fieldcollection/remove/)(*[Field](../field/)*) | Supprime le champ spécifié de cette collection et du document. |
+| [RemoveAt](../../aspose.words.fields/fieldcollection/removeat/)(*int*) | Supprime un champ à l'index spécifié de cette collection et du document. |
 
-### Remarques
+## Remarques
 
 Une instance de cette collection itère les champs qui commencent par se situer dans la plage spécifiée.
 
@@ -40,7 +42,7 @@ Le`FieldCollection` La collection ne possède pas les champs qu'elle contient, m
 
 Le`FieldCollection` la collection est "live", c'est-à-dire que les modifications apportées aux enfants du nœud object à partir duquel elle a été créée sont immédiatement reflétées dans les champs renvoyés par le`FieldCollection` Propriétés et méthodes .
 
-### Exemples
+## Exemples
 
 Montre comment supprimer des champs d’une collection de champs.
 
@@ -182,5 +184,3 @@ public class FieldVisitor : DocumentVisitor
 * class [Field](../field/)
 * espace de noms [Aspose.Words.Fields](../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Table.AllowCellSpacing
-second_title: Aspose.Words for .NET API 参考
-description: Table 财产. 获取或设置允许单元格之间的间距选项
+linktitle: AllowCellSpacing
+articleTitle: AllowCellSpacing
+second_title: 用于 .NET 的 Aspose.Words
+description: Table AllowCellSpacing 财产. 获取或设置允许单元格之间的间距选项 在 C#.
 type: docs
 weight: 60
 url: /zh/net/aspose.words.tables/table/allowcellspacing/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.tables/table/allowcellspacing/
 public bool AllowCellSpacing { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何启用表格中各个单元格之间的间距。
 
@@ -53,7 +55,5 @@ Assert.True(table.AllowCellSpacing);
 ### 也可以看看
 
 * class [Table](../)
-* 命名空间 [Aspose.Words.Tables](../../table/)
+* 命名空间 [Aspose.Words.Tables](../../../aspose.words.tables/)
 * 部件 [Aspose.Words](../../../)
-
-

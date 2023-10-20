@@ -1,7 +1,9 @@
 ---
 title: ChartNumberFormat.IsLinkedToSource
-second_title: Aspose.Words für .NET-API-Referenz
-description: ChartNumberFormat eigendom. Gibt an ob der Formatcode mit einer Quellzelle verknüpft ist. Der Standardwert ist true.
+linktitle: IsLinkedToSource
+articleTitle: IsLinkedToSource
+second_title: Aspose.Words für .NET
+description: ChartNumberFormat IsLinkedToSource eigendom. Gibt an ob der Formatcode mit einer Quellzelle verknüpft ist. Der Standardwert ist true in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.drawing.charts/chartnumberformat/islinkedtosource/
@@ -14,11 +16,11 @@ Gibt an, ob der Formatcode mit einer Quellzelle verknüpft ist. Der Standardwert
 public bool IsLinkedToSource { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Das NumberFormat wird auf „Allgemein“ zurückgesetzt, wenn der Formatcode mit der Quelle verknüpft ist.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Formatierung für Diagrammwerte festgelegt wird.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "Charts.SetNumberFormatToChartAxis.docx");
 ### Siehe auch
 
 * class [ChartNumberFormat](../)
-* namensraum [Aspose.Words.Drawing.Charts](../../chartnumberformat/)
+* namensraum [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../../)
-
-

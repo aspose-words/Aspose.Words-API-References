@@ -1,7 +1,9 @@
 ---
 title: WebExtensionReference.StoreType
-second_title: Aspose.Words لمراجع .NET API
-description: WebExtensionReference ملكية. يحدد نوع السوق.
+linktitle: StoreType
+articleTitle: StoreType
+second_title: Aspose.Words لـ .NET
+description: WebExtensionReference StoreType ملكية. يحدد نوع السوق في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.webextensions/webextensionreference/storetype/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.webextensions/webextensionreference/storetype/
 public WebExtensionStoreType StoreType { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إضافة ملحق ويب إلى مستند.
 
@@ -60,7 +62,5 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 
 * enum [WebExtensionStoreType](../../webextensionstoretype/)
 * class [WebExtensionReference](../)
-* مساحة الاسم [Aspose.Words.WebExtensions](../../webextensionreference/)
+* مساحة الاسم [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,26 +1,28 @@
 ---
 title: StructuredDocumentTag.Multiline
-second_title: Aspose.Words لمراجع .NET API
-description: StructuredDocumentTag ملكية. يحدد ما إذا كان هذا المعاملة الخاصة والتفضيلية يسمح بعدة أسطر من النص.
+linktitle: Multiline
+articleTitle: Multiline
+second_title: Aspose.Words لـ .NET
+description: StructuredDocumentTag Multiline ملكية. يحدد ما إذا كان هذاالمعاملة الخاصة والتفضيلية يسمح بعدة أسطر من النص في C#.
 type: docs
 weight: 210
 url: /ar/net/aspose.words.markup/structureddocumenttag/multiline/
 ---
 ## StructuredDocumentTag.Multiline property
 
-يحدد ما إذا كان هذا **المعاملة الخاصة والتفضيلية** يسمح بعدة أسطر من النص.
+يحدد ما إذا كان هذا**المعاملة الخاصة والتفضيلية** يسمح بعدة أسطر من النص.
 
 ```csharp
 public bool Multiline { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 الوصول إلى هذه الخاصية سوف يعمل فقط من أجلRichText وPlainText نوع المعاملة الخاصة والتفضيلية.
 
 بالنسبة لجميع أنواع SDT الأخرى، سيحدث استثناء.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء علامة مستند منظمة في مربع نص عادي وتعديل مظهرها.
 
@@ -77,7 +79,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.PlainText.docx");
 ### أنظر أيضا
 
 * class [StructuredDocumentTag](../)
-* مساحة الاسم [Aspose.Words.Markup](../../structureddocumenttag/)
+* مساحة الاسم [Aspose.Words.Markup](../../../aspose.words.markup/)
 * المجسم [Aspose.Words](../../../)
-
-

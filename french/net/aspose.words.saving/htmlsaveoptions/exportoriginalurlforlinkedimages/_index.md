@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ExportOriginalUrlForLinkedImages
-second_title: Référence de l'API Aspose.Words pour .NET
-description: HtmlSaveOptions propriété. Spécifie si lURL dorigine doit être utilisée comme URL des images liées. La valeur par défaut estFAUX .
+linktitle: ExportOriginalUrlForLinkedImages
+articleTitle: ExportOriginalUrlForLinkedImages
+second_title: Aspose.Words pour .NET
+description: HtmlSaveOptions ExportOriginalUrlForLinkedImages propriété. Spécifie si lURL dorigine doit être utilisée comme URL des images liées. La valeur par défaut estFAUX  en C#.
 type: docs
 weight: 200
 url: /fr/net/aspose.words.saving/htmlsaveoptions/exportoriginalurlforlinkedimages/
@@ -14,13 +16,13 @@ Spécifie si l'URL d'origine doit être utilisée comme URL des images liées. L
 public bool ExportOriginalUrlForLinkedImages { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 Si la valeur est définie sur`vrai`[`SourceFullName`](../../../aspose.words.drawing/imagedata/sourcefullname/) la valeur est utilisée car l'URL des images liées et les images liées ne sont pas chargées dans le dossier du document ou[`ImagesFolder`](../imagesfolder/).
 
 Si la valeur est définie sur`FAUX`les images liées sont chargées dans le dossier du document ou[`ImagesFolder`](../imagesfolder/) et l'URL de chaque image liée est construite en fonction du dossier du document,[`ImagesFolder`](../imagesfolder/) et[`ImagesFolderAlias`](../imagesfolderalias/) propriétés.
 
-### Exemples
+## Exemples
 
 Montre comment définir des dossiers et des alias de dossier pour les ressources enregistrées en externe qu'Aspose.Words créera lors de l'enregistrement d'un document au format HTML.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "HtmlSaveOptions.FolderAlias.html", options);
 ### Voir également
 
 * class [HtmlSaveOptions](../)
-* espace de noms [Aspose.Words.Saving](../../htmlsaveoptions/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

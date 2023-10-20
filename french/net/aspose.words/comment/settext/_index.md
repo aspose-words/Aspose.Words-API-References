@@ -1,9 +1,11 @@
 ---
 title: Comment.SetText
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Comment méthode. Il sagit dune méthode pratique qui permet de définir facilement le texte du commentaire.
+linktitle: SetText
+articleTitle: SetText
+second_title: Aspose.Words pour .NET
+description: Comment SetText méthode. Il sagit dune méthode pratique qui permet de définir facilement le texte du commentaire en C#.
 type: docs
-weight: 180
+weight: 150
 url: /fr/net/aspose.words/comment/settext/
 ---
 ## Comment.SetText method
@@ -18,11 +20,11 @@ public void SetText(string text)
 | --- | --- | --- |
 | text | String | Le nouveau texte du commentaire. |
 
-### Remarques
+## Remarques
 
 Cette méthode permet de définir rapidement le texte d'un commentaire à partir d'une chaîne. La chaîne peut contenir des sauts de paragraphe , cela créera des paragraphes de texte dans le commentaire en conséquence. Si vous souhaitez insérer des éléments plus complexes dans le commentaire, par exemple bookmarks ou des tableaux ou appliquer une mise en forme riche, vous devez alors utiliser les classes de nœuds appropriées. pour construire le texte du commentaire.
 
-### Exemples
+## Exemples
 
 Montre comment ajouter un commentaire à un document, puis y répondre.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "Comment.AddCommentWithReply.docx");
 ### Voir également
 
 * class [Comment](../)
-* espace de noms [Aspose.Words](../../comment/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

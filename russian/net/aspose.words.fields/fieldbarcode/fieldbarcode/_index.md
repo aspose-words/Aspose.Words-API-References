@@ -1,7 +1,9 @@
 ---
-title: FieldBarcode.FieldBarcode
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldBarcode строитель. Конструктор по умолчанию.
+title: FieldBarcode
+linktitle: FieldBarcode
+articleTitle: FieldBarcode
+second_title: Aspose.Words для .NET
+description: FieldBarcode строитель. Конструктор по умолчанию на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fields/fieldbarcode/fieldbarcode/
@@ -17,7 +19,5 @@ public FieldBarcode()
 ### Смотрите также
 
 * class [FieldBarcode](../)
-* пространство имен [Aspose.Words.Fields](../../fieldbarcode/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

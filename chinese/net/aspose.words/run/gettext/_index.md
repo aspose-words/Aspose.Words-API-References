@@ -1,7 +1,9 @@
 ---
 title: Run.GetText
-second_title: Aspose.Words for .NET API 参考
-description: Run 方法. 获取运行文本
+linktitle: GetText
+articleTitle: GetText
+second_title: 用于 .NET 的 Aspose.Words
+description: Run GetText 方法. 获取运行文本 在 C#.
 type: docs
 weight: 70
 url: /zh/net/aspose.words/run/gettext/
@@ -18,7 +20,7 @@ public override string GetText()
 
 运行的文本。
 
-### 例子
+## 例子
 
 演示如何打印文档中每个页眉和页脚的节点结构。
 
@@ -111,7 +113,5 @@ public class HeaderFooterStructurePrinter : DocumentVisitor
 ### 也可以看看
 
 * class [Run](../)
-* 命名空间 [Aspose.Words](../../run/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

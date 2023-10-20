@@ -1,9 +1,11 @@
 ---
 title: Stroke.EndArrowLength
-second_title: Aspose.Words per .NET API Reference
-description: Stroke proprietà. Definisce la lunghezza della punta della freccia per la fine di un tratto.
+linktitle: EndArrowLength
+articleTitle: EndArrowLength
+second_title: Aspose.Words per .NET
+description: Stroke EndArrowLength proprietà. Definisce la lunghezza della punta della freccia per la fine di un tratto in C#.
 type: docs
-weight: 60
+weight: 50
 url: /it/net/aspose.words.drawing/stroke/endarrowlength/
 ---
 ## Stroke.EndArrowLength property
@@ -14,11 +16,11 @@ Definisce la lunghezza della punta della freccia per la fine di un tratto.
 public ArrowLength EndArrowLength { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Il valore predefinito èMedium.
 
-### Esempi
+## Esempi
 
 Mostra per creare una varietà di forme.
 
@@ -94,7 +96,5 @@ doc.Save(ArtifactsDir + "Drawing.VariousShapes.docx");
 
 * enum [ArrowLength](../../arrowlength/)
 * class [Stroke](../)
-* spazio dei nomi [Aspose.Words.Drawing](../../stroke/)
+* spazio dei nomi [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assemblea [Aspose.Words](../../../)
-
-

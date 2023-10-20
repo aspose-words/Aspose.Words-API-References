@@ -1,7 +1,9 @@
 ---
 title: OutlineOptions.HeadingsOutlineLevels
-second_title: Aspose.Words لمراجع .NET API
-description: OutlineOptions ملكية. يحدد عدد مستويات العناوين الفقرات المنسقة باستخدام أنماط العناوين التي سيتم تضمينها في مخطط المستند .
+linktitle: HeadingsOutlineLevels
+articleTitle: HeadingsOutlineLevels
+second_title: Aspose.Words لـ .NET
+description: OutlineOptions HeadingsOutlineLevels ملكية. يحدد عدد مستويات العناوين الفقرات المنسقة باستخدام أنماط العناوين التي سيتم تضمينها في مخطط المستند  في C#.
 type: docs
 weight: 70
 url: /ar/net/aspose.words.saving/outlineoptions/headingsoutlinelevels/
@@ -14,13 +16,13 @@ url: /ar/net/aspose.words.saving/outlineoptions/headingsoutlinelevels/
 public int HeadingsOutlineLevels { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 حدد 0 لعدم وجود عناوين في المخطط التفصيلي؛ حدد 1 لمستوى واحد من العناوين في المخطط التفصيلي وهكذا.
 
 الافتراضي هو 0. النطاق الصالح هو من 0 إلى 9.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحويل مستند كامل إلى PDF بثلاثة مستويات في مخطط المستند.
 
@@ -79,7 +81,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.ExpandedOutlineLevels.pdf", options);
 ### أنظر أيضا
 
 * class [OutlineOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../outlineoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

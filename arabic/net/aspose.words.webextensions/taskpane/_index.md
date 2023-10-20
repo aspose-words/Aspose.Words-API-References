@@ -1,7 +1,9 @@
 ---
-title: Class TaskPane
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.WebExtensions.TaskPane فصل. يمثل كائن جزء المهام الإضافي.
+title: TaskPane Class
+linktitle: TaskPane
+articleTitle: TaskPane
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.WebExtensions.TaskPane فصل. يمثل كائن جزء المهام الإضافي في C#.
 type: docs
 weight: 6710
 url: /ar/net/aspose.words.webextensions/taskpane/
@@ -33,7 +35,7 @@ public class TaskPane
 | [WebExtension](../../aspose.words.webextensions/taskpane/webextension/) { get; } | يمثل كائن ملحق الويب. |
 | [Width](../../aspose.words.webextensions/taskpane/width/) { get; set; } | يحدد قيمة العرض الافتراضية لمثيل جزء المهام هذا. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إضافة ملحق ويب إلى مستند.
 
@@ -79,5 +81,3 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 
 * مساحة الاسم [Aspose.Words.WebExtensions](../../aspose.words.webextensions/)
 * المجسم [Aspose.Words](../../)
-
-

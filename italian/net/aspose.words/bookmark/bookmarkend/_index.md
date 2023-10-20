@@ -1,7 +1,9 @@
 ---
 title: Bookmark.BookmarkEnd
-second_title: Aspose.Words per .NET API Reference
-description: Bookmark proprietà. Ottiene il nodo che rappresenta la fine del segnalibro.
+linktitle: BookmarkEnd
+articleTitle: BookmarkEnd
+second_title: Aspose.Words per .NET
+description: Bookmark BookmarkEnd proprietà. Ottiene il nodo che rappresenta la fine del segnalibro in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words/bookmark/bookmarkend/
@@ -14,7 +16,7 @@ Ottiene il nodo che rappresenta la fine del segnalibro.
 public BookmarkEnd BookmarkEnd { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come aggiungere segnalibri e aggiornarne i contenuti.
 
@@ -104,7 +106,5 @@ public class BookmarkInfoPrinter : DocumentVisitor
 
 * class [BookmarkEnd](../../bookmarkend/)
 * class [Bookmark](../)
-* spazio dei nomi [Aspose.Words](../../bookmark/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

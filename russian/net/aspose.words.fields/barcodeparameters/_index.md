@@ -1,7 +1,9 @@
 ---
-title: Class BarcodeParameters
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Fields.BarcodeParameters сорт. Классконтейнер для параметров штрихкода передаваемых в BarcodeGenerator.
+title: BarcodeParameters Class
+linktitle: BarcodeParameters
+articleTitle: BarcodeParameters
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Fields.BarcodeParameters сорт. Классконтейнер для параметров штрихкода передаваемых в BarcodeGenerator на С#.
 type: docs
 weight: 1470
 url: /ru/net/aspose.words.fields/barcodeparameters/
@@ -44,11 +46,11 @@ public class BarcodeParameters
 | [SymbolHeight](../../aspose.words.fields/barcodeparameters/symbolheight/) { get; set; } | Высота изображения штрих-кода (в твипах — 1/1440 дюйма) |
 | [SymbolRotation](../../aspose.words.fields/barcodeparameters/symbolrotation/) { get; set; } | Поворот символа штрих-кода. Допустимые значения: [0, 3]. . |
 
-### Примечания
+## Примечания
 
 Набор параметров соответствует опциям поля DISPLAYBARCODE. Точный список см. на странице[https://msdn.microsoft.com/en-us/library/hh745901(v=office.12).aspx](https://msdn.microsoft.com/en-us/library/hh745901(v=office.12).aspx)
 
-### Примеры
+## Примеры
 
 Показывает, как использовать генератор штрих-кода.
 
@@ -125,5 +127,3 @@ doc.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.docx");
 
 * пространство имен [Aspose.Words.Fields](../../aspose.words.fields/)
 * сборка [Aspose.Words](../../)
-
-

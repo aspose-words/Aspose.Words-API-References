@@ -1,7 +1,9 @@
 ---
-title: Interface IMailMergeDataSourceRoot
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.MailMerging.IMailMergeDataSourceRoot interfaccia. Implementa questa interfaccia per consentire la stampa unione da unorigine dati personalizzata con dati masterdettagli.
+title: IMailMergeDataSourceRoot Interface
+linktitle: IMailMergeDataSourceRoot
+articleTitle: IMailMergeDataSourceRoot
+second_title: Aspose.Words per .NET
+description: Aspose.Words.MailMerging.IMailMergeDataSourceRoot interfaccia. Implementa questa interfaccia per consentire la stampa unione da unorigine dati personalizzata con dati masterdettagli in C#.
 type: docs
 weight: 3820
 url: /it/net/aspose.words.mailmerging/imailmergedatasourceroot/
@@ -18,9 +20,9 @@ public interface IMailMergeDataSourceRoot
 
 | Nome | Descrizione |
 | --- | --- |
-| [GetDataSource](../../aspose.words.mailmerging/imailmergedatasourceroot/getdatasource/)(string) | Il motore di stampa unione Aspose.Words richiama questo metodo quando incontra l'inizio di un'area di stampa unione di livello superiore. |
+| [GetDataSource](../../aspose.words.mailmerging/imailmergedatasourceroot/getdatasource/)(*string*) | Il motore di stampa unione Aspose.Words richiama questo metodo quando incontra l'inizio di un'area di stampa unione di livello superiore. |
 
-### Esempi
+## Esempi
 
 Esegue la stampa unione da un'origine dati personalizzata con dati master-dettagli.
 
@@ -204,5 +206,3 @@ private class EmployeeListMailMergeSource : IMailMergeDataSource
 
 * spazio dei nomi [Aspose.Words.MailMerging](../../aspose.words.mailmerging/)
 * assemblea [Aspose.Words](../../)
-
-

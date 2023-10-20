@@ -1,7 +1,9 @@
 ---
 title: TextBox.BreakForwardLink
-second_title: Aspose.Words for .NET API 参考
-description: TextBox 方法. 断开下一个链接TextBox.
+linktitle: BreakForwardLink
+articleTitle: BreakForwardLink
+second_title: 用于 .NET 的 Aspose.Words
+description: TextBox BreakForwardLink 方法. 断开下一个链接TextBox 在 C#.
 type: docs
 weight: 130
 url: /zh/net/aspose.words.drawing/textbox/breakforwardlink/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.drawing/textbox/breakforwardlink/
 public void BreakForwardLink()
 ```
 
-### 评论
+## 评论
 
 `BreakForwardLink`不会破坏当前形状序列中的所有其他链接。 例如：1-2-3-4 序列和`BreakForwardLink`在第二个文本框中将创建 两个序列1-2、3-4.
 
-### 例子
+## 例子
 
 展示如何链接文本框。
 
@@ -79,7 +81,5 @@ doc.Save(ArtifactsDir + "Shape.CreateLinkBetweenTextBoxes.docx");
 ### 也可以看看
 
 * class [TextBox](../)
-* 命名空间 [Aspose.Words.Drawing](../../textbox/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

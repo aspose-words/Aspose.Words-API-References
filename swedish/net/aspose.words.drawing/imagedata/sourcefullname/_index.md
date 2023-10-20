@@ -1,7 +1,9 @@
 ---
 title: ImageData.SourceFullName
-second_title: Aspose.Words för .NET API Referens
-description: ImageData fast egendom. Hämtar eller ställer in sökvägen och namnet på källfilen för den länkade bilden.
+linktitle: SourceFullName
+articleTitle: SourceFullName
+second_title: Aspose.Words för .NET
+description: ImageData SourceFullName fast egendom. Hämtar eller ställer in sökvägen och namnet på källfilen för den länkade bilden i C#.
 type: docs
 weight: 170
 url: /sv/net/aspose.words.drawing/imagedata/sourcefullname/
@@ -14,13 +16,13 @@ Hämtar eller ställer in sökvägen och namnet på källfilen för den länkade
 public string SourceFullName { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Standardvärdet är en tom sträng.
 
 Om`SourceFullName` är inte en tom sträng, bilden är länkad.
 
-### Exempel
+## Exempel
 
 Visar hur man infogar en länkad bild i ett dokument.
 
@@ -62,7 +64,5 @@ Assert.True(10000 > new FileInfo(ArtifactsDir + "Image.CreateLinkedImage.Linked.
 ### Se även
 
 * class [ImageData](../)
-* namnutrymme [Aspose.Words.Drawing](../../imagedata/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

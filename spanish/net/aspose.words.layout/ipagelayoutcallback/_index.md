@@ -1,7 +1,9 @@
 ---
-title: Interface IPageLayoutCallback
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Layout.IPageLayoutCallback interfaz. Implemente esta interfaz si desea que se llame a su propio método personalizado durante la creación y representación del modelo de diseño de página.
+title: IPageLayoutCallback Interface
+linktitle: IPageLayoutCallback
+articleTitle: IPageLayoutCallback
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Layout.IPageLayoutCallback interfaz. Implemente esta interfaz si desea que se llame a su propio método personalizado durante la creación y representación del modelo de diseño de página en C#.
 type: docs
 weight: 3310
 url: /es/net/aspose.words.layout/ipagelayoutcallback/
@@ -18,9 +20,9 @@ public interface IPageLayoutCallback
 
 | Nombre | Descripción |
 | --- | --- |
-| [Notify](../../aspose.words.layout/ipagelayoutcallback/notify/)(PageLayoutCallbackArgs) | Esto se llama para notificar sobre la construcción del diseño y el progreso de la representación. |
+| [Notify](../../aspose.words.layout/ipagelayoutcallback/notify/)(*[PageLayoutCallbackArgs](../pagelayoutcallbackargs/)*) | Esto se llama para notificar sobre la construcción del diseño y el progreso de la representación. |
 
-### Observaciones
+## Observaciones
 
 El uso principal de esta interfaz es permitir que el código de la aplicación cancele el proceso de compilación.
 
@@ -30,7 +32,7 @@ Tenga en cuenta, sin embargo, que los resultados de la representación pueden no
 
 Es posible que esta técnica no funcione para todos los documentos o que falle por completo.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo realizar un seguimiento de los cambios de diseño con una devolución de llamada de diseño.
 
@@ -98,5 +100,3 @@ private class RenderPageLayoutCallback : IPageLayoutCallback
 * property [Callback](../layoutoptions/callback/)
 * espacio de nombres [Aspose.Words.Layout](../../aspose.words.layout/)
 * asamblea [Aspose.Words](../../)
-
-

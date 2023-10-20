@@ -1,7 +1,9 @@
 ---
 title: Field.LocaleId
-second_title: Aspose.Words per .NET API Reference
-description: Field proprietà. Ottiene o imposta lLCID del campo.
+linktitle: LocaleId
+articleTitle: LocaleId
+second_title: Aspose.Words per .NET
+description: Field LocaleId proprietà. Ottiene o imposta lLCID del campo in C#.
 type: docs
 weight: 60
 url: /it/net/aspose.words.fields/field/localeid/
@@ -14,7 +16,7 @@ Ottiene o imposta l'LCID del campo.
 public int LocaleId { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come inserire un campo e lavorare con le relative impostazioni locali.
 
@@ -42,7 +44,5 @@ Console.WriteLine($"Today's date, as displayed according to the \"{CultureInfo.G
 ### Guarda anche
 
 * class [Field](../)
-* spazio dei nomi [Aspose.Words.Fields](../../field/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class CsvDataSource
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Reporting.CsvDataSource فصل. يوفر الوصول إلى بيانات ملف CSV أو الدفق لاستخدامها في التقرير.
+title: CsvDataSource Class
+linktitle: CsvDataSource
+articleTitle: CsvDataSource
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Reporting.CsvDataSource فصل. يوفر الوصول إلى بيانات ملف CSV أو الدفق لاستخدامها في التقرير في C#.
 type: docs
 weight: 4670
 url: /ar/net/aspose.words.reporting/csvdatasource/
@@ -20,12 +22,12 @@ public class CsvDataSource
 
 | اسم | وصف |
 | --- | --- |
-| [CsvDataSource](csvdatasource/#constructor)(Stream) | إنشاء مصدر بيانات جديد ببيانات من تدفق CSV باستخدام الخيارات الافتراضية لتحليل بيانات CSV. |
-| [CsvDataSource](csvdatasource/#constructor_2)(string) | إنشاء مصدر بيانات جديد ببيانات من ملف CSV باستخدام الخيارات الافتراضية لتحليل بيانات CSV. |
-| [CsvDataSource](csvdatasource/#constructor_1)(Stream, CsvDataLoadOptions) | إنشاء مصدر بيانات جديد ببيانات من تدفق CSV باستخدام الخيارات المحددة لتحليل بيانات CSV. |
-| [CsvDataSource](csvdatasource/#constructor_3)(string, CsvDataLoadOptions) | إنشاء مصدر بيانات جديد ببيانات من ملف CSV باستخدام الخيارات المحددة لتحليل بيانات CSV. |
+| [CsvDataSource](csvdatasource/#constructor)(*Stream*) | إنشاء مصدر بيانات جديد ببيانات من تدفق CSV باستخدام الخيارات الافتراضية لتحليل بيانات CSV. |
+| [CsvDataSource](csvdatasource/#constructor_2)(*string*) | إنشاء مصدر بيانات جديد ببيانات من ملف CSV باستخدام الخيارات الافتراضية لتحليل بيانات CSV. |
+| [CsvDataSource](csvdatasource/#constructor_1)(*Stream, [CsvDataLoadOptions](../csvdataloadoptions/)*) | إنشاء مصدر بيانات جديد ببيانات من تدفق CSV باستخدام الخيارات المحددة لتحليل بيانات CSV. |
+| [CsvDataSource](csvdatasource/#constructor_3)(*string, [CsvDataLoadOptions](../csvdataloadoptions/)*) | إنشاء مصدر بيانات جديد ببيانات من ملف CSV باستخدام الخيارات المحددة لتحليل بيانات CSV. |
 
-### ملاحظات
+## ملاحظات
 
 للوصول إلى بيانات الملف أو الدفق المقابل أثناء إنشاء تقرير، قم بتمرير مثيل من هذه الفئة as مصدر بيانات إلى أحدها[`ReportingEngine`](../reportingengine/) .BuildReport الحمولة الزائدة.
 
@@ -47,5 +49,3 @@ public class CsvDataSource
 
 * مساحة الاسم [Aspose.Words.Reporting](../../aspose.words.reporting/)
 * المجسم [Aspose.Words](../../)
-
-

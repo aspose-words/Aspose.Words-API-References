@@ -1,9 +1,11 @@
 ---
 title: CompositeNode.RemoveAllChildren
-second_title: Aspose.Words för .NET API Referens
-description: CompositeNode metod. Tar bort alla undernoder för den aktuella noden.
+linktitle: RemoveAllChildren
+articleTitle: RemoveAllChildren
+second_title: Aspose.Words för .NET
+description: CompositeNode RemoveAllChildren metod. Tar bort alla undernoder för den aktuella noden i C#.
 type: docs
-weight: 180
+weight: 160
 url: /sv/net/aspose.words/compositenode/removeallchildren/
 ---
 ## CompositeNode.RemoveAllChildren method
@@ -14,7 +16,7 @@ Tar bort alla undernoder för den aktuella noden.
 public void RemoveAllChildren()
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man konstruerar ett Aspose.Words-dokument för hand.
 
@@ -64,7 +66,5 @@ doc.Save(ArtifactsDir + "Section.CreateManually.docx");
 ### Se även
 
 * class [CompositeNode](../)
-* namnutrymme [Aspose.Words](../../compositenode/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: IMailMergeDataSource.MoveNext
-second_title: Aspose.Words per .NET API Reference
-description: IMailMergeDataSource metodo. Avanza al record successivo nellorigine dati.
+linktitle: MoveNext
+articleTitle: MoveNext
+second_title: Aspose.Words per .NET
+description: IMailMergeDataSource MoveNext metodo. Avanza al record successivo nellorigine dati in C#.
 type: docs
 weight: 40
 url: /it/net/aspose.words.mailmerging/imailmergedatasource/movenext/
@@ -18,7 +20,7 @@ public bool MoveNext()
 
 `VERO` se spostato al record successivo con successo;`falso` se raggiunta la fine dell'origine dati.
 
-### Esempi
+## Esempi
 
 Mostra come eseguire una stampa unione con un'origine dati sotto forma di oggetto personalizzato.
 
@@ -132,7 +134,5 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
 ### Guarda anche
 
 * interface [IMailMergeDataSource](../)
-* spazio dei nomi [Aspose.Words.MailMerging](../../imailmergedatasource/)
+* spazio dei nomi [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * assemblea [Aspose.Words](../../../)
-
-

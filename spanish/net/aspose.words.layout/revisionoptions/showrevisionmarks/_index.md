@@ -1,7 +1,9 @@
 ---
 title: RevisionOptions.ShowRevisionMarks
-second_title: Referencia de API de Aspose.Words para .NET
-description: RevisionOptions propiedad. Permite especificar si el texto de revisión debe marcarse con un formato especial. El valor predeterminado esverdadero .
+linktitle: ShowRevisionMarks
+articleTitle: ShowRevisionMarks
+second_title: Aspose.Words para .NET
+description: RevisionOptions ShowRevisionMarks propiedad. Permite especificar si el texto de revisión debe marcarse con un formato especial. El valor predeterminado esverdadero  en C#.
 type: docs
 weight: 190
 url: /es/net/aspose.words.layout/revisionoptions/showrevisionmarks/
@@ -14,7 +16,7 @@ Permite especificar si el texto de revisión debe marcarse con un formato especi
 public bool ShowRevisionMarks { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo modificar la apariencia de las revisiones.
 
@@ -65,7 +67,5 @@ doc.Save(ArtifactsDir + "Revision.RevisionOptions.pdf");
 ### Ver también
 
 * class [RevisionOptions](../)
-* espacio de nombres [Aspose.Words.Layout](../../revisionoptions/)
+* espacio de nombres [Aspose.Words.Layout](../../../aspose.words.layout/)
 * asamblea [Aspose.Words](../../../)
-
-

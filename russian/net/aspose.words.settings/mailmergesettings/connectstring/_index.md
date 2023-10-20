@@ -1,7 +1,9 @@
 ---
 title: MailMergeSettings.ConnectString
-second_title: Справочник по API Aspose.Words для .NET
-description: MailMergeSettings свойство. Указывает строку подключения используемую для подключения к внешнему источнику данных. Значение по умолчанию  пустая строка.
+linktitle: ConnectString
+articleTitle: ConnectString
+second_title: Aspose.Words для .NET
+description: MailMergeSettings ConnectString свойство. Указывает строку подключения используемую для подключения к внешнему источнику данных. Значение по умолчанию  пустая строка на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.settings/mailmergesettings/connectstring/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.settings/mailmergesettings/connectstring/
 public string ConnectString { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как выполнить слияние почты при подключении к внешнему источнику данных.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "MailMerge.OdsoEmail.docx");
 ### Смотрите также
 
 * class [MailMergeSettings](../)
-* пространство имен [Aspose.Words.Settings](../../mailmergesettings/)
+* пространство имен [Aspose.Words.Settings](../../../aspose.words.settings/)
 * сборка [Aspose.Words](../../../)
-
-

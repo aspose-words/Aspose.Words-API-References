@@ -1,9 +1,11 @@
 ---
 title: Table.ClearShading
-second_title: Referencia de API de Aspose.Words para .NET
-description: Table método. Elimina todas las sombras de la mesa.
+linktitle: ClearShading
+articleTitle: ClearShading
+second_title: Aspose.Words para .NET
+description: Table ClearShading método. Elimina todas las sombras de la mesa en C#.
 type: docs
-weight: 400
+weight: 380
 url: /es/net/aspose.words.tables/table/clearshading/
 ---
 ## Table.ClearShading method
@@ -14,7 +16,7 @@ Elimina todas las sombras de la mesa.
 public void ClearShading()
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo aplicar un borde de contorno a una tabla.
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "Table.SetOutlineBorders.docx");
 ### Ver también
 
 * class [Table](../)
-* espacio de nombres [Aspose.Words.Tables](../../table/)
+* espacio de nombres [Aspose.Words.Tables](../../../aspose.words.tables/)
 * asamblea [Aspose.Words](../../../)
-
-

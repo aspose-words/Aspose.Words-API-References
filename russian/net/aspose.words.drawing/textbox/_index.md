@@ -1,7 +1,9 @@
 ---
-title: Class TextBox
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Drawing.TextBox сорт. Определяет атрибуты которые определяют как текст отображается внутри фигуры.
+title: TextBox Class
+linktitle: TextBox
+articleTitle: TextBox
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Drawing.TextBox сорт. Определяет атрибуты которые определяют как текст отображается внутри фигуры на С#.
 type: docs
 weight: 1320
 url: /ru/net/aspose.words.drawing/textbox/
@@ -38,13 +40,13 @@ public class TextBox
 | Имя | Описание |
 | --- | --- |
 | [BreakForwardLink](../../aspose.words.drawing/textbox/breakforwardlink/)() | Разрывает ссылку на следующий`TextBox` . |
-| [IsValidLinkTarget](../../aspose.words.drawing/textbox/isvalidlinktarget/)(TextBox) | Определяет, является ли это`TextBox` может быть привязан к цели`TextBox` . |
+| [IsValidLinkTarget](../../aspose.words.drawing/textbox/isvalidlinktarget/)(*TextBox*) | Определяет, является ли это`TextBox` может быть привязан к цели`TextBox` . |
 
-### Примечания
+## Примечания
 
 Использовать[`TextBox`](../shape/textbox/) свойство для доступа к текстовым свойствам фигуры. Вы не создаете экземпляры`TextBox` класс напрямую.
 
-### Примеры
+## Примеры
 
 Показывает, как установить внутренние поля для текстового поля.
 
@@ -110,5 +112,3 @@ doc.Save(ArtifactsDir + "Shape.TextBoxFitShapeToText.docx");
 
 * пространство имен [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../)
-
-

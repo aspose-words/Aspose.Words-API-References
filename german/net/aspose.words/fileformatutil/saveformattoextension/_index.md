@@ -1,7 +1,9 @@
 ---
 title: FileFormatUtil.SaveFormatToExtension
-second_title: Aspose.Words für .NET-API-Referenz
-description: FileFormatUtil methode. Konvertiert einen Aufzählungswert im Speicherformat in eine Dateierweiterung. Die zurückgegebene Erweiterung ist eine Zeichenfolge in Kleinbuchstaben mit einem führenden Punkt.
+linktitle: SaveFormatToExtension
+articleTitle: SaveFormatToExtension
+second_title: Aspose.Words für .NET
+description: FileFormatUtil SaveFormatToExtension methode. Konvertiert einen Aufzählungswert im Speicherformat in eine Dateierweiterung. Die zurückgegebene Erweiterung ist eine Zeichenfolge in Kleinbuchstaben mit einem führenden Punkt in C#.
 type: docs
 weight: 80
 url: /de/net/aspose.words/fileformatutil/saveformattoextension/
@@ -20,13 +22,13 @@ public static string SaveFormatToExtension(SaveFormat saveFormat)
 | --- | --- |
 | ArgumentException | Wirft, wenn keine Konvertierung möglich ist. |
 
-### Bemerkungen
+## Bemerkungen
 
 DerWordML Der Wert wird in „.wml“ konvertiert.
 
 DerFlatOpc Der Wert wird in „.fopc“ konvertiert.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die FileFormatUtil-Methoden verwendet werden, um das Format eines Dokuments zu erkennen.
 
@@ -60,7 +62,5 @@ using (FileStream docStream = File.OpenRead(MyDir + "Word document with missing 
 
 * enum [SaveFormat](../../saveformat/)
 * class [FileFormatUtil](../)
-* namensraum [Aspose.Words](../../fileformatutil/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

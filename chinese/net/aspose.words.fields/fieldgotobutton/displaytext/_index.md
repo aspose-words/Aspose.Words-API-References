@@ -1,7 +1,9 @@
 ---
 title: FieldGoToButton.DisplayText
-second_title: Aspose.Words for .NET API 参考
-description: FieldGoToButton 财产. 获取或设置出现在文档中的按钮的文本以便可以选择它来激活跳转
+linktitle: DisplayText
+articleTitle: DisplayText
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldGoToButton DisplayText 财产. 获取或设置出现在文档中的按钮的文本以便可以选择它来激活跳转 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.fields/fieldgotobutton/displaytext/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fieldgotobutton/displaytext/
 public string DisplayText { get; set; }
 ```
 
-### 例子
+## 例子
 
 显示插入 GOTOBUTTON 字段。
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "Field.GOTOBUTTON.docx");
 ### 也可以看看
 
 * class [FieldGoToButton](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldgotobutton/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

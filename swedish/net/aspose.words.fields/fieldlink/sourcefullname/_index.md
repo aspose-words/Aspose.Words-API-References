@@ -1,7 +1,9 @@
 ---
 title: FieldLink.SourceFullName
-second_title: Aspose.Words för .NET API Referens
-description: FieldLink fast egendom. Hämtar eller ställer in namnet och platsen för källfilen.
+linktitle: SourceFullName
+articleTitle: SourceFullName
+second_title: Aspose.Words för .NET
+description: FieldLink SourceFullName fast egendom. Hämtar eller ställer in namnet och platsen för källfilen i C#.
 type: docs
 weight: 120
 url: /sv/net/aspose.words.fields/fieldlink/sourcefullname/
@@ -14,7 +16,7 @@ Hämtar eller ställer in namnet och platsen för källfilen.
 public string SourceFullName { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man använder olika fälttyper för att länka till andra dokument i det lokala filsystemet och visa deras innehåll.
 
@@ -197,7 +199,5 @@ public enum InsertLinkedObjectAs
 ### Se även
 
 * class [FieldLink](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldlink/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

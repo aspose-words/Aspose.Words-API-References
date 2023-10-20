@@ -1,7 +1,9 @@
 ---
 title: XamlFixedSaveOptions.ResourcesFolder
-second_title: Aspose.Words per .NET API Reference
-description: XamlFixedSaveOptions proprietà. Specifica la cartella fisica in cui vengono salvate le risorse immagini e caratteri durante lesportazione di un documento in formato Xaml a pagina fissa. Limpostazione predefinita ènullo .
+linktitle: ResourcesFolder
+articleTitle: ResourcesFolder
+second_title: Aspose.Words per .NET
+description: XamlFixedSaveOptions ResourcesFolder proprietà. Specifica la cartella fisica in cui vengono salvate le risorse immagini e caratteri durante lesportazione di un documento in formato Xaml a pagina fissa. Limpostazione predefinita ènullo  in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words.saving/xamlfixedsaveoptions/resourcesfolder/
@@ -14,7 +16,7 @@ Specifica la cartella fisica in cui vengono salvate le risorse (immagini e carat
 public string ResourcesFolder { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Quando salvi un file[`Document`](../../../aspose.words/document/) nel formato Xaml a pagina fissa, Aspose.Words deve salvare tutte le immagini incorporate nel documento come file autonomi.`ResourcesFolder` ti consente di specificare dove verranno salvate le immagini e[`ResourcesFolderAlias`](../resourcesfolderalias/) consente di specificare come verranno costruiti gli URI dell'immagine.
 
@@ -22,7 +24,7 @@ Se salvi un documento in un file e fornisci un nome file, Aspose.Words, per impo
 
 Se salvi un documento in uno stream, Aspose.Words non ha una cartella in cui salvare le immagini, ma deve comunque salvare le immagini da qualche parte. In questo caso, è necessario specificare una cartella accessibile utilizzando il file`ResourcesFolder` proprietà
 
-### Esempi
+## Esempi
 
 Mostra come stampare gli URI delle risorse collegate create durante la conversione di un documento in formato .xaml.
 
@@ -85,7 +87,5 @@ private class ResourceUriPrinter : IResourceSavingCallback
 ### Guarda anche
 
 * class [XamlFixedSaveOptions](../)
-* spazio dei nomi [Aspose.Words.Saving](../../xamlfixedsaveoptions/)
+* spazio dei nomi [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../../)
-
-

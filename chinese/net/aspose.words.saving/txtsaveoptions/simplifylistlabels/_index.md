@@ -1,7 +1,9 @@
 ---
 title: TxtSaveOptions.SimplifyListLabels
-second_title: Aspose.Words for .NET API 参考
-description: TxtSaveOptions 财产. 指定程序是否应在 复杂标签格式无法用纯文本充分表示的情况下简化列表标签
+linktitle: SimplifyListLabels
+articleTitle: SimplifyListLabels
+second_title: 用于 .NET 的 Aspose.Words
+description: TxtSaveOptions SimplifyListLabels 财产. 指定程序是否应在 复杂标签格式无法用纯文本充分表示的情况下简化列表标签 在 C#.
 type: docs
 weight: 70
 url: /zh/net/aspose.words.saving/txtsaveoptions/simplifylistlabels/
@@ -16,7 +18,7 @@ url: /zh/net/aspose.words.saving/txtsaveoptions/simplifylistlabels/
 public bool SimplifyListLabels { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何在将文档保存为纯文本时更改列表的外观。
 
@@ -66,7 +68,5 @@ else
 ### 也可以看看
 
 * class [TxtSaveOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../txtsaveoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

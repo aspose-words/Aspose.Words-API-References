@@ -1,7 +1,9 @@
 ---
 title: RevisionOptions.RevisionBarsPosition
-second_title: Aspose.Words för .NET API Referens
-description: RevisionOptions fast egendom. Hämtar eller ställer in renderingsposition för revisionsstaplar. Standardvärdet ärOutside .
+linktitle: RevisionBarsPosition
+articleTitle: RevisionBarsPosition
+second_title: Aspose.Words för .NET
+description: RevisionOptions RevisionBarsPosition fast egendom. Hämtar eller ställer in renderingsposition för revisionsstaplar. Standardvärdet ärOutside  i C#.
 type: docs
 weight: 140
 url: /sv/net/aspose.words.layout/revisionoptions/revisionbarsposition/
@@ -14,7 +16,7 @@ Hämtar eller ställer in renderingsposition för revisionsstaplar. Standardvär
 public HorizontalAlignment RevisionBarsPosition { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Värden avCenter ochInside är inte tillåtna och kommer att orsakaArgumentOutOfRangeException.
 
@@ -22,7 +24,5 @@ Värden avCenter ochInside är inte tillåtna och kommer att orsakaArgumentOutOf
 
 * enum [HorizontalAlignment](../../../aspose.words.drawing/horizontalalignment/)
 * class [RevisionOptions](../)
-* namnutrymme [Aspose.Words.Layout](../../revisionoptions/)
+* namnutrymme [Aspose.Words.Layout](../../../aspose.words.layout/)
 * hopsättning [Aspose.Words](../../../)
-
-

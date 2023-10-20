@@ -1,12 +1,14 @@
 ---
 title: IFieldResultFormatter.Format
-second_title: Aspose.Words لمراجع .NET API
-description: IFieldResultFormatter طريقة. يتم استدعاؤه عندما يقوم Aspose.Words بتطبيق تبديل تنسيق الكتابة بالأحرف الكبيرة على سبيل المثال  Upper.
+linktitle: Format
+articleTitle: Format
+second_title: Aspose.Words لـ .NET
+description: IFieldResultFormatter Format طريقة. يتم استدعاؤه عندما يقوم Aspose.Words بتطبيق تبديل تنسيق الكتابة بالأحرف الكبيرة على سبيل المثال  Upper في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fields/ifieldresultformatter/format/
 ---
-## Format(string, GeneralFormat) {#format_1}
+## Format(*string, [GeneralFormat](../../generalformat/)*) {#format_1}
 
 يتم استدعاؤه عندما يقوم Aspose.Words بتطبيق تبديل تنسيق الكتابة بالأحرف الكبيرة، على سبيل المثال \* Upper.
 
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.fields/ifieldresultformatter/format/
 public string Format(string value, GeneralFormat format)
 ```
 
-### ملاحظات
+## ملاحظات
 
 يجب أن يعود التنفيذ`باطل` للإشارة إلى ضرورة تطبيق التنسيق الافتراضي.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تطبيق تنسيق مخصص تلقائيًا على نتائج الحقول عندما يتم تحديث الحقول.
 
@@ -156,12 +158,12 @@ private class FieldResultFormatter : IFieldResultFormatter
 
 * enum [GeneralFormat](../../generalformat/)
 * interface [IFieldResultFormatter](../)
-* مساحة الاسم [Aspose.Words.Fields](../../ifieldresultformatter/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## Format(double, GeneralFormat) {#format}
+## Format(*double, [GeneralFormat](../../generalformat/)*) {#format}
 
 يتم استدعاؤه عندما يقوم Aspose.Words بتطبيق تبديل تنسيق الأرقام، على سبيل المثال \* Ordinal.
 
@@ -169,11 +171,11 @@ private class FieldResultFormatter : IFieldResultFormatter
 public string Format(double value, GeneralFormat format)
 ```
 
-### ملاحظات
+## ملاحظات
 
 يجب أن يعود التنفيذ`باطل` للإشارة إلى ضرورة تطبيق التنسيق الافتراضي.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تطبيق تنسيق مخصص تلقائيًا على نتائج الحقول عندما يتم تحديث الحقول.
 
@@ -311,7 +313,5 @@ private class FieldResultFormatter : IFieldResultFormatter
 
 * enum [GeneralFormat](../../generalformat/)
 * interface [IFieldResultFormatter](../)
-* مساحة الاسم [Aspose.Words.Fields](../../ifieldresultformatter/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

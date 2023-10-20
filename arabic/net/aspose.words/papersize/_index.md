@@ -1,7 +1,9 @@
 ---
-title: Enum PaperSize
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.PaperSize تعداد. يحدد حجم الورق.
+title: PaperSize Enum
+linktitle: PaperSize
+articleTitle: PaperSize
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.PaperSize تعداد. يحدد حجم الورق في C#.
 type: docs
 weight: 4380
 url: /ar/net/aspose.words/papersize/
@@ -37,7 +39,7 @@ public enum PaperSize
 | Number10Envelope | `16` | 4.125 × 9.5 بوصة. |
 | Custom | `17` | حجم الورق المخصص. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية ضبط حجم الورق واتجاهه والهوامش بالإضافة إلى الإعدادات الأخرى لقسم ما.
 
@@ -148,5 +150,3 @@ doc.Save(ArtifactsDir + "Section.CreateManually.docx");
 
 * مساحة الاسم [Aspose.Words](../../aspose.words/)
 * المجسم [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Document.FirstSection
-second_title: Справочник по API Aspose.Words для .NET
-description: Document свойство. Получает первый раздел документа.
+linktitle: FirstSection
+articleTitle: FirstSection
+second_title: Aspose.Words для .NET
+description: Document FirstSection свойство. Получает первый раздел документа на С#.
 type: docs
 weight: 130
 url: /ru/net/aspose.words/document/firstsection/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words/document/firstsection/
 public Section FirstSection { get; }
 ```
 
-### Примечания
+## Примечания
 
 Возвращает`нулевой` если разделов нет.
 
-### Примеры
+## Примеры
 
 Показывает, как заменить текст в нижнем колонтитуле документа.
 
@@ -120,7 +122,5 @@ foreach (Node node in section)
 
 * class [Section](../../section/)
 * class [Document](../)
-* пространство имен [Aspose.Words](../../document/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,9 +1,11 @@
 ---
 title: DocumentBuilder.MoveTo
-second_title: Référence de l'API Aspose.Words pour .NET
-description: DocumentBuilder méthode. Déplace le curseur vers un nœud en ligne ou à la fin dun paragraphe.
+linktitle: MoveTo
+articleTitle: MoveTo
+second_title: Aspose.Words pour .NET
+description: DocumentBuilder MoveTo méthode. Déplace le curseur vers un nœud en ligne ou à la fin dun paragraphe en C#.
 type: docs
-weight: 490
+weight: 480
 url: /fr/net/aspose.words/documentbuilder/moveto/
 ---
 ## DocumentBuilder.MoveTo method
@@ -18,7 +20,7 @@ public void MoveTo(Node node)
 | --- | --- | --- |
 | node | Node | Le nœud doit être un paragraphe ou un enfant direct d'un paragraphe. |
 
-### Remarques
+## Remarques
 
 Quandnœud est un nœud de niveau en ligne, le curseur est déplacé vers ce nœud et du contenu supplémentaire sera inséré avant ce nœud.
 
@@ -26,7 +28,7 @@ Quandnœud est un[`Paragraph`](../../paragraph/), le curseur est déplacé à la
 
 Quandnœud est un nœud de niveau bloc mais pas un[`Paragraph`](../../paragraph/), le curseur est déplacé à la fin du premier paragraphe dans node au niveau du bloc et le contenu supplémentaire sera inséré juste avant le saut de paragraphe.
 
-### Exemples
+## Exemples
 
 Montre comment déplacer la position du curseur d'un DocumentBuilder vers un nœud spécifié.
 
@@ -108,7 +110,5 @@ Assert.IsTrue(builder.IsAtStartOfParagraph);
 
 * class [Node](../../node/)
 * class [DocumentBuilder](../)
-* espace de noms [Aspose.Words](../../documentbuilder/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ThemeFonts.Latin
-second_title: Aspose.Words for .NET API 参考
-description: ThemeFonts 财产. 指定拉丁字符的字体名称
+linktitle: Latin
+articleTitle: Latin
+second_title: 用于 .NET 的 Aspose.Words
+description: ThemeFonts Latin 财产. 指定拉丁字符的字体名称 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.themes/themefonts/latin/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.themes/themefonts/latin/
 public string Latin { get; set; }
 ```
 
-### 例子
+## 例子
 
 展示如何设置主题的自定义颜色和字体。
 
@@ -62,7 +64,5 @@ doc.Save(ArtifactsDir + "Themes.CustomColorsAndFonts.docx");
 ### 也可以看看
 
 * class [ThemeFonts](../)
-* 命名空间 [Aspose.Words.Themes](../../themefonts/)
+* 命名空间 [Aspose.Words.Themes](../../../aspose.words.themes/)
 * 部件 [Aspose.Words](../../../)
-
-

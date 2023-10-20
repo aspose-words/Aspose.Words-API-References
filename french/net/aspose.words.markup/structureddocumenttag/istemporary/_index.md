@@ -1,20 +1,22 @@
 ---
 title: StructuredDocumentTag.IsTemporary
-second_title: Référence de l'API Aspose.Words pour .NET
-description: StructuredDocumentTag propriété. Spécifie si ceci TSD doit être supprimé du document WordProcessingML lorsque son contenu est modifié.
+linktitle: IsTemporary
+articleTitle: IsTemporary
+second_title: Aspose.Words pour .NET
+description: StructuredDocumentTag IsTemporary propriété. Spécifie si ceciTSD doit être supprimé du document WordProcessingML lorsque son contenu est modifié en C#.
 type: docs
 weight: 160
 url: /fr/net/aspose.words.markup/structureddocumenttag/istemporary/
 ---
 ## StructuredDocumentTag.IsTemporary property
 
-Spécifie si ceci **TSD** doit être supprimé du document WordProcessingML lorsque son contenu est modifié.
+Spécifie si ceci**TSD** doit être supprimé du document WordProcessingML lorsque son contenu est modifié.
 
 ```csharp
 public bool IsTemporary { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment créer des contrôles à usage unique.
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.IsTemporary.docx");
 ### Voir également
 
 * class [StructuredDocumentTag](../)
-* espace de noms [Aspose.Words.Markup](../../structureddocumenttag/)
+* espace de noms [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Assemblée [Aspose.Words](../../../)
-
-

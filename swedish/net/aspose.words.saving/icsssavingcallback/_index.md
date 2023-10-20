@@ -1,7 +1,9 @@
 ---
-title: Interface ICssSavingCallback
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Saving.ICssSavingCallback gränssnitt. Implementera detta gränssnitt om du vill styra hur Aspose.Words sparar CSS Cascading Style Sheet när sparar ett dokument till HTML.
+title: ICssSavingCallback Interface
+linktitle: ICssSavingCallback
+articleTitle: ICssSavingCallback
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Saving.ICssSavingCallback gränssnitt. Implementera detta gränssnitt om du vill styra hur Aspose.Words sparar CSS Cascading Style Sheet när sparar ett dokument till HTML i C#.
 type: docs
 weight: 5130
 url: /sv/net/aspose.words.saving/icsssavingcallback/
@@ -18,9 +20,9 @@ public interface ICssSavingCallback
 
 | namn | Beskrivning |
 | --- | --- |
-| [CssSaving](../../aspose.words.saving/icsssavingcallback/csssaving/)(CssSavingArgs) | Anropas när Aspose.Words sparar en CSS (Cascading Style Sheet). |
+| [CssSaving](../../aspose.words.saving/icsssavingcallback/csssaving/)(*[CssSavingArgs](../csssavingargs/)*) | Anropas när Aspose.Words sparar en CSS (Cascading Style Sheet). |
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med CSS-formatmallar som en HTML-konvertering skapar.
 
@@ -82,5 +84,3 @@ private class CustomCssSavingCallback : ICssSavingCallback
 
 * namnutrymme [Aspose.Words.Saving](../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../)
-
-

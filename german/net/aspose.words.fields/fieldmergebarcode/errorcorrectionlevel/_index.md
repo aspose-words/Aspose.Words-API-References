@@ -1,7 +1,9 @@
 ---
 title: FieldMergeBarcode.ErrorCorrectionLevel
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldMergeBarcode eigendom. Ruft eine Fehlerkorrekturstufe des QRCodes ab oder legt diese fest. Gültige Werte sind 0 3.
+linktitle: ErrorCorrectionLevel
+articleTitle: ErrorCorrectionLevel
+second_title: Aspose.Words für .NET
+description: FieldMergeBarcode ErrorCorrectionLevel eigendom. Ruft eine Fehlerkorrekturstufe des QRCodes ab oder legt diese fest. Gültige Werte sind 0 3 in C#.
 type: docs
 weight: 80
 url: /de/net/aspose.words.fields/fieldmergebarcode/errorcorrectionlevel/
@@ -14,7 +16,7 @@ Ruft eine Fehlerkorrekturstufe des QR-Codes ab oder legt diese fest. Gültige We
 public string ErrorCorrectionLevel { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man einen Serienbrief für QR-Barcodes durchführt.
 
@@ -64,7 +66,5 @@ doc.Save(ArtifactsDir + "Field.MERGEBARCODE.QR.docx");
 ### Siehe auch
 
 * class [FieldMergeBarcode](../)
-* namensraum [Aspose.Words.Fields](../../fieldmergebarcode/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

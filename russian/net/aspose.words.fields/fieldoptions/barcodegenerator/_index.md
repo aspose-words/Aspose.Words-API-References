@@ -1,7 +1,9 @@
 ---
 title: FieldOptions.BarcodeGenerator
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldOptions свойство. Получает или устанавливает собственный генератор штрихкода.
+linktitle: BarcodeGenerator
+articleTitle: BarcodeGenerator
+second_title: Aspose.Words для .NET
+description: FieldOptions BarcodeGenerator свойство. Получает или устанавливает собственный генератор штрихкода на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fields/fieldoptions/barcodegenerator/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.fields/fieldoptions/barcodegenerator/
 public IBarcodeGenerator BarcodeGenerator { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Пользовательский генератор штрих-кодов должен реализовывать общедоступный интерфейс.[`IBarcodeGenerator`](../../ibarcodegenerator/) .
 
-### Примеры
+## Примеры
 
 Показывает, как использовать генератор штрих-кода.
 
@@ -95,7 +97,5 @@ doc.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.docx");
 
 * interface [IBarcodeGenerator](../../ibarcodegenerator/)
 * class [FieldOptions](../)
-* пространство имен [Aspose.Words.Fields](../../fieldoptions/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

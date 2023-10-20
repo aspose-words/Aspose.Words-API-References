@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.EndColumnBookmark
-second_title: Aspose.Words för .NET API Referens
-description: DocumentBuilder metod. Markerar den aktuella positionen i dokumentet som ett kolumnbokmärkesslut. Positionen måste vara i en tabellcell.
+linktitle: EndColumnBookmark
+articleTitle: EndColumnBookmark
+second_title: Aspose.Words för .NET
+description: DocumentBuilder EndColumnBookmark metod. Markerar den aktuella positionen i dokumentet som ett kolumnbokmärkesslut. Positionen måste vara i en tabellcell i C#.
 type: docs
 weight: 220
 url: /sv/net/aspose.words/documentbuilder/endcolumnbookmark/
@@ -22,7 +24,7 @@ public BookmarkEnd EndColumnBookmark(string bookmarkName)
 
 Bokmärkets slutnod som just skapades.
 
-### Anmärkningar
+## Anmärkningar
 
 Ett kolumnbokmärke täcker en eller flera kolumner i ett radintervall. För att skapa ett giltigt bokmärke måste du anropa båda[`StartColumnBookmark`](../startcolumnbookmark/) och`EndColumnBookmark` med samma *bookmarkName*parameter.
 
@@ -30,7 +32,7 @@ Dåligt utformade bokmärken eller bokmärken med dubbletter av namn kommer att 
 
 Den faktiska positionen för den infogade[`BookmarkEnd`](../../bookmarkend/) noden kan skilja sig från den aktuella dokument -byggarens position.
 
-### Exempel
+## Exempel
 
 Visar hur man skapar ett kolumnbokmärke.
 
@@ -77,7 +79,5 @@ doc.Save(ArtifactsDir + "Bookmarks.CreateColumnBookmark.docx");
 
 * class [BookmarkEnd](../../bookmarkend/)
 * class [DocumentBuilder](../)
-* namnutrymme [Aspose.Words](../../documentbuilder/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

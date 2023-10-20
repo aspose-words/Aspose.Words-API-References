@@ -1,7 +1,9 @@
 ---
 title: FieldTC.TypeIdentifier
-second_title: Aspose.Words för .NET API Referens
-description: FieldTC fast egendom. Hämtar eller ställer in en typidentifierare för detta fält som vanligtvis är en bokstav.
+linktitle: TypeIdentifier
+articleTitle: TypeIdentifier
+second_title: Aspose.Words för .NET
+description: FieldTC TypeIdentifier fast egendom. Hämtar eller ställer in en typidentifierare för detta fält som vanligtvis är en bokstav i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.fields/fieldtc/typeidentifier/
@@ -14,7 +16,7 @@ Hämtar eller ställer in en typidentifierare för detta fält (som vanligtvis �
 public string TypeIdentifier { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man infogar ett TOC-fält och filtrerar vilka TC-fält som slutar som poster.
 
@@ -66,7 +68,5 @@ public void InsertTocEntry(DocumentBuilder builder, string text, string typeIden
 ### Se även
 
 * class [FieldTC](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldtc/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

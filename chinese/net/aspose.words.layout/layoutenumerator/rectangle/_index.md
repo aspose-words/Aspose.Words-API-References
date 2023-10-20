@@ -1,7 +1,9 @@
 ---
 title: LayoutEnumerator.Rectangle
-second_title: Aspose.Words for .NET API 参考
-description: LayoutEnumerator 财产. 返回当前实体相对于页面左上角的边界矩形以磅为单位
+linktitle: Rectangle
+articleTitle: Rectangle
+second_title: 用于 .NET 的 Aspose.Words
+description: LayoutEnumerator Rectangle 财产. 返回当前实体相对于页面左上角的边界矩形以磅为单位 在 C#.
 type: docs
 weight: 70
 url: /zh/net/aspose.words.layout/layoutenumerator/rectangle/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.layout/layoutenumerator/rectangle/
 public RectangleF Rectangle { get; }
 ```
 
-### 例子
+## 例子
 
 显示遍历文档布局实体的方法。
 
@@ -159,7 +161,5 @@ private static void PrintCurrentEntity(LayoutEnumerator layoutEnumerator, int in
 ### 也可以看看
 
 * class [LayoutEnumerator](../)
-* 命名空间 [Aspose.Words.Layout](../../layoutenumerator/)
+* 命名空间 [Aspose.Words.Layout](../../../aspose.words.layout/)
 * 部件 [Aspose.Words](../../../)
-
-

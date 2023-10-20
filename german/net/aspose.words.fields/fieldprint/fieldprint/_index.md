@@ -1,7 +1,9 @@
 ---
-title: FieldPrint.FieldPrint
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldPrint constructeur. Default_Constructor
+title: FieldPrint
+linktitle: FieldPrint
+articleTitle: FieldPrint
+second_title: Aspose.Words für .NET
+description: FieldPrint constructeur. Default_Constructor in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words.fields/fieldprint/fieldprint/
@@ -17,7 +19,5 @@ public FieldPrint()
 ### Siehe auch
 
 * class [FieldPrint](../)
-* namensraum [Aspose.Words.Fields](../../fieldprint/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

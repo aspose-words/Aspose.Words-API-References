@@ -1,7 +1,9 @@
 ---
 title: ListFormat.ApplyNumberDefault
-second_title: Aspose.Words per .NET API Reference
-description: ListFormat metodo. Avvia un nuovo elenco numerato predefinito e lo applica al paragrafo.
+linktitle: ApplyNumberDefault
+articleTitle: ApplyNumberDefault
+second_title: Aspose.Words per .NET
+description: ListFormat ApplyNumberDefault metodo. Avvia un nuovo elenco numerato predefinito e lo applica al paragrafo in C#.
 type: docs
 weight: 60
 url: /it/net/aspose.words.lists/listformat/applynumberdefault/
@@ -14,11 +16,11 @@ Avvia un nuovo elenco numerato predefinito e lo applica al paragrafo.
 public void ApplyNumberDefault()
 ```
 
-### Osservazioni
+## Osservazioni
 
 Questo è un metodo di scelta rapida che crea un nuovo elenco utilizzando il modello numerato predefinito, lo applica al paragrafo e seleziona il primo livello dell'elenco.
 
-### Esempi
+## Esempi
 
 Mostra come creare elenchi puntati e numerati.
 
@@ -103,7 +105,5 @@ doc.Save(ArtifactsDir + "Lists.ApplyDefaultBulletsAndNumbers.docx");
 ### Guarda anche
 
 * class [ListFormat](../)
-* spazio dei nomi [Aspose.Words.Lists](../../listformat/)
+* spazio dei nomi [Aspose.Words.Lists](../../../aspose.words.lists/)
 * assemblea [Aspose.Words](../../../)
-
-

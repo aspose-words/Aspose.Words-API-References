@@ -1,7 +1,9 @@
 ---
 title: HtmlLoadOptions.IgnoreNoscriptElements
-second_title: Aspose.Words لمراجع .NET API
-description: HtmlLoadOptions ملكية. الحصول على قيمة أو تعيينها تشير إلى ما إذا كان سيتم تجاهل عناصر HTML noscript أم لا. القيمة الافتراضية هيخطأ شنيع .
+linktitle: IgnoreNoscriptElements
+articleTitle: IgnoreNoscriptElements
+second_title: Aspose.Words لـ .NET
+description: HtmlLoadOptions IgnoreNoscriptElements ملكية. الحصول على قيمة أو تعيينها تشير إلى ما إذا كان سيتم تجاهل عناصر HTML noscript أم لا. القيمة الافتراضية هيخطأ شنيع  في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.loading/htmlloadoptions/ignorenoscriptelements/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.loading/htmlloadoptions/ignorenoscriptelements/
 public bool IgnoreNoscriptElements { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 مثل MS Word، لا يدعم Aspose.Words البرامج النصية ويقوم افتراضيًا بتحميل محتوى &lt;noscript&gt; Elements في المستند الناتج. ومع ذلك، في معظم المتصفحات، تكون البرامج النصية مدعومة ولا يكون المحتوى من &lt;noscript&gt; مرئيًا. تعيين هذه الخاصية إلى`حقيقي` يجبر Aspose.Words على تجاهل كافة العناصر &lt;noscript&gt; ويساعد في إنتاج مستندات تبدو أقرب إلى ما يتم رؤيته في المتصفحات.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تجاهل عناصر HTML &lt;noscript&gt;.
 
@@ -47,7 +49,5 @@ doc.Save(ArtifactsDir + "HtmlLoadOptions.IgnoreNoscriptElements.pdf");
 ### أنظر أيضا
 
 * class [HtmlLoadOptions](../)
-* مساحة الاسم [Aspose.Words.Loading](../../htmlloadoptions/)
+* مساحة الاسم [Aspose.Words.Loading](../../../aspose.words.loading/)
 * المجسم [Aspose.Words](../../../)
-
-

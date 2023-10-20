@@ -1,9 +1,11 @@
 ---
 title: ChartAxisTitle.Text
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ChartAxisTitle propriété. Obtient ou définit le texte du titre de laxe. Sinul ou une valeur vide est spécifiée le titre généré automatiquement sera affiché.
+linktitle: Text
+articleTitle: Text
+second_title: Aspose.Words pour .NET
+description: ChartAxisTitle Text propriété. Obtient ou définit le texte du titre de laxe. Sinul ou une valeur vide est spécifiée le titre généré automatiquement sera affiché en C#.
 type: docs
-weight: 40
+weight: 30
 url: /fr/net/aspose.words.drawing.charts/chartaxistitle/text/
 ---
 ## ChartAxisTitle.Text property
@@ -14,11 +16,11 @@ Obtient ou définit le texte du titre de l'axe. Si`nul` ou une valeur vide est s
 public string Text { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 Utiliser[`Show`](../show/) option si vous devez afficher le titre.
 
-### Exemples
+## Exemples
 
 Montre comment définir le titre de l’axe du graphique.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "Charts.ChartAxisTitle.docx");
 ### Voir également
 
 * class [ChartAxisTitle](../)
-* espace de noms [Aspose.Words.Drawing.Charts](../../chartaxistitle/)
+* espace de noms [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Assemblée [Aspose.Words](../../../)
-
-

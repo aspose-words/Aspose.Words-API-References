@@ -1,7 +1,9 @@
 ---
 title: FormFieldCollection.RemoveAt
-second_title: Aspose.Words for .NET API 参考
-description: FormFieldCollection 方法. 删除指定索引处的表单字段
+linktitle: RemoveAt
+articleTitle: RemoveAt
+second_title: 用于 .NET 的 Aspose.Words
+description: FormFieldCollection RemoveAt 方法. 删除指定索引处的表单字段 在 C#.
 type: docs
 weight: 60
 url: /zh/net/aspose.words.fields/formfieldcollection/removeat/
@@ -18,11 +20,11 @@ public void RemoveAt(int index)
 | --- | --- | --- |
 | index | Int32 | 要删除的表单字段的从零开始的索引。 |
 
-### 评论
+## 评论
 
 如果存在与表单字段关联的书签，则不会删除该书签。
 
-### 例子
+## 例子
 
 展示如何将不同类型的表单字段插入到文档中，并使用文档访问者实现来处理它们。
 
@@ -156,7 +158,5 @@ public class FormFieldVisitor : DocumentVisitor
 ### 也可以看看
 
 * class [FormFieldCollection](../)
-* 命名空间 [Aspose.Words.Fields](../../formfieldcollection/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

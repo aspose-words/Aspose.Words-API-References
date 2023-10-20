@@ -1,12 +1,14 @@
 ---
 title: Watermark.SetImage
-second_title: Aspose.Words für .NET-API-Referenz
-description: Watermark methode. Fügt dem Dokument ein Bildwasserzeichen hinzu.
+linktitle: SetImage
+articleTitle: SetImage
+second_title: Aspose.Words für .NET
+description: Watermark SetImage methode. Fügt dem Dokument ein Bildwasserzeichen hinzu in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words/watermark/setimage/
 ---
-## SetImage(Image) {#setimage}
+## SetImage(*Image*) {#setimage}
 
 Fügt dem Dokument ein Bildwasserzeichen hinzu.
 
@@ -27,12 +29,12 @@ public void SetImage(Image image)
 ### Siehe auch
 
 * class [Watermark](../)
-* namensraum [Aspose.Words](../../watermark/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
 
 ---
 
-## SetImage(Image, ImageWatermarkOptions) {#setimage_1}
+## SetImage(*Image, [ImageWatermarkOptions](../../imagewatermarkoptions/)*) {#setimage_1}
 
 Fügt dem Dokument ein Bildwasserzeichen hinzu.
 
@@ -51,11 +53,11 @@ public void SetImage(Image image, ImageWatermarkOptions options)
 | --- | --- |
 | ArgumentNullException | Wird ausgelöst, wenn das Bild vorhanden ist`Null` . |
 
-### Bemerkungen
+## Bemerkungen
 
 Wenn[`ImageWatermarkOptions`](../../imagewatermarkoptions/) Ist`Null`, das Wasserzeichen wird mit Standardoptionen eingestellt.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man aus einem Bild im lokalen Dateisystem ein Wasserzeichen erstellt.
 
@@ -84,12 +86,12 @@ Document doc = new Document();
 
 * class [ImageWatermarkOptions](../../imagewatermarkoptions/)
 * class [Watermark](../)
-* namensraum [Aspose.Words](../../watermark/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
 
 ---
 
-## SetImage(string, ImageWatermarkOptions) {#setimage_2}
+## SetImage(*string, [ImageWatermarkOptions](../../imagewatermarkoptions/)*) {#setimage_2}
 
 Fügt dem Dokument ein Bildwasserzeichen hinzu.
 
@@ -108,7 +110,7 @@ public void SetImage(string imagePath, ImageWatermarkOptions options)
 | --- | --- |
 | ArgumentNullException | Wird ausgelöst, wenn der Pfad vorhanden ist`Null` . |
 
-### Bemerkungen
+## Bemerkungen
 
 Wenn[`ImageWatermarkOptions`](../../imagewatermarkoptions/) Ist`Null`, das Wasserzeichen wird mit Standardoptionen eingestellt.
 
@@ -116,7 +118,5 @@ Wenn[`ImageWatermarkOptions`](../../imagewatermarkoptions/) Ist`Null`, das Wasse
 
 * class [ImageWatermarkOptions](../../imagewatermarkoptions/)
 * class [Watermark](../)
-* namensraum [Aspose.Words](../../watermark/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

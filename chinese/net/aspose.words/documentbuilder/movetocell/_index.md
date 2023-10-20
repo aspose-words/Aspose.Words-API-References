@@ -1,9 +1,11 @@
 ---
 title: DocumentBuilder.MoveToCell
-second_title: Aspose.Words for .NET API 参考
-description: DocumentBuilder 方法. 将光标移动到当前部分中的表格单元格
+linktitle: MoveToCell
+articleTitle: MoveToCell
+second_title: 用于 .NET 的 Aspose.Words
+description: DocumentBuilder MoveToCell 方法. 将光标移动到当前部分中的表格单元格 在 C#.
 type: docs
-weight: 510
+weight: 500
 url: /zh/net/aspose.words/documentbuilder/movetocell/
 ---
 ## DocumentBuilder.MoveToCell method
@@ -21,13 +23,13 @@ public void MoveToCell(int tableIndex, int rowIndex, int columnIndex, int charac
 | columnIndex | Int32 | 表中列的索引。 |
 | characterIndex | Int32 | 单元格内字符的索引。 负值允许您指定从单元格末尾开始的位置。使用 -1 移动到单元格的末尾 of 。 |
 
-### 评论
+## 评论
 
 导航在当前部分的当前故事内执行。
 
 对于索引参数，当index大于或等于0时，指定索引从 开始，以0为第一个元素。当index小于0时，它指定一个索引from 结尾，-1是最后一个元素。
 
-### 例子
+## 例子
 
 演示如何将文档生成器的光标移动到表中的单元格。
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.MoveToCell.docx");
 ### 也可以看看
 
 * class [DocumentBuilder](../)
-* 命名空间 [Aspose.Words](../../documentbuilder/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

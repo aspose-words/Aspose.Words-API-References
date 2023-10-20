@@ -1,7 +1,9 @@
 ---
-title: Class NodeList
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.NodeList فصل. يمثل مجموعة من العقد المطابقة لاستعلام XPath الذي تم تنفيذه باستخدامSelectNodes الطريقة.
+title: NodeList Class
+linktitle: NodeList
+articleTitle: NodeList
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.NodeList فصل. يمثل مجموعة من العقد المطابقة لاستعلام XPath الذي تم تنفيذه باستخدامSelectNodes الطريقة في C#.
 type: docs
 weight: 4220
 url: /ar/net/aspose.words/nodelist/
@@ -30,7 +32,7 @@ public class NodeList : IEnumerable<Node>
 | [GetEnumerator](../../aspose.words/nodelist/getenumerator/)() | يوفر تكرارًا بسيطًا لنمط "foreach" عبر مجموعة العقد. |
 | [ToArray](../../aspose.words/nodelist/toarray/)() | نسخ كافة العقد من المجموعة إلى مجموعة جديدة من العقد. |
 
-### ملاحظات
+## ملاحظات
 
 `NodeList` يتم إرجاعها بواسطة[`SelectNodes`](../compositenode/selectnodes/) ويحتوي على مجموعة من العقد المطابقة لاستعلام XPath.
 
@@ -38,7 +40,7 @@ public class NodeList : IEnumerable<Node>
 
 علاج`NodeList` المجموعة كمجموعة "لقطة".`NodeList`يبدأ كمجموعة "مباشرة" لأنه لا يتم استرداد العقد فعليًا عند تشغيل استعلام XPath. يتم استرداد العقد فقط عند الوصول وفي هذا الوقت يتم تخزين العقدة وجميع العقد التي تسبق مؤقتًا لتشكل مجموعة "لقطة".
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية البحث عن كافة الارتباطات التشعبية في مستند Word، ثم تغيير عناوين URL وأسماء العرض الخاصة بها.
 
@@ -257,5 +259,3 @@ namespace ApiExamples
 * class [Node](../node/)
 * مساحة الاسم [Aspose.Words](../../aspose.words/)
 * المجسم [Aspose.Words](../../)
-
-

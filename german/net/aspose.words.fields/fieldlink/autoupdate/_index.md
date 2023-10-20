@@ -1,7 +1,9 @@
 ---
 title: FieldLink.AutoUpdate
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldLink eigendom. Ruft ab oder legt fest ob dieses Feld automatisch aktualisiert werden soll.
+linktitle: AutoUpdate
+articleTitle: AutoUpdate
+second_title: Aspose.Words für .NET
+description: FieldLink AutoUpdate eigendom. Ruft ab oder legt fest ob dieses Feld automatisch aktualisiert werden soll in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.fields/fieldlink/autoupdate/
@@ -14,7 +16,7 @@ Ruft ab oder legt fest, ob dieses Feld automatisch aktualisiert werden soll.
 public bool AutoUpdate { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie verschiedene Feldtypen verwenden, um eine Verknüpfung zu anderen Dokumenten im lokalen Dateisystem herzustellen und deren Inhalte anzuzeigen.
 
@@ -197,7 +199,5 @@ public enum InsertLinkedObjectAs
 ### Siehe auch
 
 * class [FieldLink](../)
-* namensraum [Aspose.Words.Fields](../../fieldlink/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

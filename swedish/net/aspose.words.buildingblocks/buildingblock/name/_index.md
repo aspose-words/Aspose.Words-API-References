@@ -1,7 +1,9 @@
 ---
 title: BuildingBlock.Name
-second_title: Aspose.Words för .NET API Referens
-description: BuildingBlock fast egendom. Hämtar eller ställer in namnet på denna byggsten.
+linktitle: Name
+articleTitle: Name
+second_title: Aspose.Words för .NET
+description: BuildingBlock Name fast egendom. Hämtar eller ställer in namnet på denna byggsten i C#.
 type: docs
 weight: 90
 url: /sv/net/aspose.words.buildingblocks/buildingblock/name/
@@ -14,15 +16,15 @@ Hämtar eller ställer in namnet på denna byggsten.
 public string Name { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Namnet kan innehålla vilket stränginnehåll som helst, vanligtvis en vänlig identifierare. Flera byggstenar kan ha samma namn.
 
 Kan inte vara`null` och kan inte vara en tom sträng.
 
-Motsvarar **docPartPr.name** element i OOXML.
+Motsvarar**docPartPr.name** element i OOXML.
 
-### Exempel
+## Exempel
 
 Visar hur man lägger till ett anpassat byggblock till ett dokument.
 
@@ -119,7 +121,5 @@ public class BuildingBlockVisitor : DocumentVisitor
 ### Se även
 
 * class [BuildingBlock](../)
-* namnutrymme [Aspose.Words.BuildingBlocks](../../buildingblock/)
+* namnutrymme [Aspose.Words.BuildingBlocks](../../../aspose.words.buildingblocks/)
 * hopsättning [Aspose.Words](../../../)
-
-

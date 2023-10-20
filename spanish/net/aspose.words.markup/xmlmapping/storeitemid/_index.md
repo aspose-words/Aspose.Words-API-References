@@ -1,7 +1,9 @@
 ---
 title: XmlMapping.StoreItemId
-second_title: Referencia de API de Aspose.Words para .NET
-description: XmlMapping propiedad. Especifica el identificador de datos XML personalizado para la parte de datos XML personalizado que se utilizará para evaluar elXPath expresión.
+linktitle: StoreItemId
+articleTitle: StoreItemId
+second_title: Aspose.Words para .NET
+description: XmlMapping StoreItemId propiedad. Especifica el identificador de datos XML personalizado para la parte de datos XML personalizado que se utilizará para evaluar elXPath expresión en C#.
 type: docs
 weight: 40
 url: /es/net/aspose.words.markup/xmlmapping/storeitemid/
@@ -14,7 +16,7 @@ Especifica el identificador de datos XML personalizado para la parte de datos XM
 public string StoreItemId { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo obtener el identificador de datos XML personalizado de una parte XML.
 
@@ -30,7 +32,5 @@ Assert.AreEqual("{F3029283-4FF8-4DD2-9F31-395F19ACEE85}", tag.XmlMapping.StoreIt
 ### Ver también
 
 * class [XmlMapping](../)
-* espacio de nombres [Aspose.Words.Markup](../../xmlmapping/)
+* espacio de nombres [Aspose.Words.Markup](../../../aspose.words.markup/)
 * asamblea [Aspose.Words](../../../)
-
-

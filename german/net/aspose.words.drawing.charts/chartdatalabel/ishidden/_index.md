@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabel.IsHidden
-second_title: Aspose.Words für .NET-API-Referenz
-description: ChartDataLabel eigendom. Ruft/setzt ein Flag das angibt ob diese Bezeichnung ausgeblendet ist. Der Standardwert istFALSCH .
+linktitle: IsHidden
+articleTitle: IsHidden
+second_title: Aspose.Words für .NET
+description: ChartDataLabel IsHidden eigendom. Ruft/setzt ein Flag das angibt ob diese Bezeichnung ausgeblendet ist. Der Standardwert istFALSCH  in C#.
 type: docs
 weight: 40
 url: /de/net/aspose.words.drawing.charts/chartdatalabel/ishidden/
@@ -14,7 +16,7 @@ Ruft/setzt ein Flag, das angibt, ob diese Bezeichnung ausgeblendet ist. Der Stan
 public bool IsHidden { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Beschriftungen auf Datenpunkte in einem Liniendiagramm angewendet werden.
 
@@ -92,7 +94,5 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
 ### Siehe auch
 
 * class [ChartDataLabel](../)
-* namensraum [Aspose.Words.Drawing.Charts](../../chartdatalabel/)
+* namensraum [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../../)
-
-

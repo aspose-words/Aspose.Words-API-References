@@ -1,24 +1,26 @@
 ---
 title: SignOptions.DecryptionPassword
-second_title: Référence de l'API Aspose.Words pour .NET
-description: SignOptions propriété. Le mot de passe pour déchiffrer le document source. La valeur par défaut est chaîne vide Empty.
+linktitle: DecryptionPassword
+articleTitle: DecryptionPassword
+second_title: Aspose.Words pour .NET
+description: SignOptions DecryptionPassword propriété. Le mot de passe pour déchiffrer le document source. La valeur par défaut estchaîne vide Empty en C#.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.digitalsignatures/signoptions/decryptionpassword/
 ---
 ## SignOptions.DecryptionPassword property
 
-Le mot de passe pour déchiffrer le document source. La valeur par défaut est **chaîne vide** (Empty).
+Le mot de passe pour déchiffrer le document source. La valeur par défaut est**chaîne vide** (Empty).
 
 ```csharp
 public string DecryptionPassword { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 Si le document OOXML est crypté, vous devez fournir le mot de passe de décryptage pour déchiffrer le document source avant qu'il ne soit signé. Ceci n'est pas requis pour les documents au format DOC binaire.
 
-### Exemples
+## Exemples
 
 Montre comment signer un fichier de document crypté.
 
@@ -44,7 +46,5 @@ DigitalSignatureUtil.Sign(inputFileName, outputFileName, certificateHolder, sign
 ### Voir également
 
 * class [SignOptions](../)
-* espace de noms [Aspose.Words.DigitalSignatures](../../signoptions/)
+* espace de noms [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * Assemblée [Aspose.Words](../../../)
-
-

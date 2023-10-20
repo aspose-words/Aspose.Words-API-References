@@ -1,7 +1,9 @@
 ---
-title: Enum FillType
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Drawing.FillType перечисление. Указывает тип заливки для заполняемого объекта.
+title: FillType Enum
+linktitle: FillType
+articleTitle: FillType
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Drawing.FillType перечисление. Указывает тип заливки для заполняемого объекта на С#.
 type: docs
 weight: 960
 url: /ru/net/aspose.words.drawing/filltype/
@@ -29,5 +31,3 @@ public enum FillType
 
 * пространство имен [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../)
-
-

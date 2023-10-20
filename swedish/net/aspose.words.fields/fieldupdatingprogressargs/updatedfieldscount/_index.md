@@ -1,7 +1,9 @@
 ---
 title: FieldUpdatingProgressArgs.UpdatedFieldsCount
-second_title: Aspose.Words för .NET API Referens
-description: FieldUpdatingProgressArgs fast egendom. Hämtar antalet uppdaterade fält.
+linktitle: UpdatedFieldsCount
+articleTitle: UpdatedFieldsCount
+second_title: Aspose.Words för .NET
+description: FieldUpdatingProgressArgs UpdatedFieldsCount fast egendom. Hämtar antalet uppdaterade fält i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.fields/fieldupdatingprogressargs/updatedfieldscount/
@@ -14,7 +16,7 @@ Hämtar antalet uppdaterade fält.
 public int UpdatedFieldsCount { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man använder återuppringningsmetoder under en fältuppdatering.
 
@@ -82,7 +84,5 @@ public class FieldUpdatingCallback : IFieldUpdatingCallback, IFieldUpdatingProgr
 ### Se även
 
 * class [FieldUpdatingProgressArgs](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldupdatingprogressargs/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

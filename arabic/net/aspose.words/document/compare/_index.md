@@ -1,12 +1,14 @@
 ---
 title: Document.Compare
-second_title: Aspose.Words لمراجع .NET API
-description: Document طريقة. يقارن هذا المستند بمستند آخر ينتج عنه تغييرات حسب عدد مراجعات التحرير والتنسيقRevision .
+linktitle: Compare
+articleTitle: Compare
+second_title: Aspose.Words لـ .NET
+description: Document Compare طريقة. يقارن هذا المستند بمستند آخر ينتج عنه تغييرات حسب عدد مراجعات التحرير والتنسيقRevision  في C#.
 type: docs
-weight: 580
+weight: 560
 url: /ar/net/aspose.words/document/compare/
 ---
-## Compare(Document, string, DateTime) {#compare}
+## Compare(*[Document](../), string, DateTime*) {#compare}
 
 يقارن هذا المستند بمستند آخر ينتج عنه تغييرات حسب عدد مراجعات التحرير والتنسيق[`Revision`](../../revision/) .
 
@@ -20,11 +22,11 @@ public void Compare(Document document, string author, DateTime dateTime)
 | author | String | الأحرف الأولى من اسم المؤلف لاستخدامها في المراجعات. |
 | dateTime | DateTime | التاريخ والوقت المستخدم للمراجعات. |
 
-### ملاحظات
+## ملاحظات
 
 يجب ألا تحتوي المستندات على مراجعات قبل المقارنة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية مقارنة المستندات.
 
@@ -58,12 +60,12 @@ Assert.AreEqual(docOriginal.GetText(), docEdited.GetText());
 ### أنظر أيضا
 
 * class [Document](../)
-* مساحة الاسم [Aspose.Words](../../document/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## Compare(Document, string, DateTime, CompareOptions) {#compare_1}
+## Compare(*[Document](../), string, DateTime, [CompareOptions](../../../aspose.words.comparing/compareoptions/)*) {#compare_1}
 
 يقارن هذا المستند بمستند آخر ينتج عنه تغييرات بعدد من مراجعات التحرير والتنسيق[`Revision`](../../revision/) . يسمح بتحديد خيارات المقارنة باستخدام[`CompareOptions`](../../../aspose.words.comparing/compareoptions/) .
 
@@ -71,7 +73,7 @@ Assert.AreEqual(docOriginal.GetText(), docEdited.GetText());
 public void Compare(Document document, string author, DateTime dateTime, CompareOptions options)
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تصفية أنواع معينة من عناصر المستند عند إجراء المقارنة.
 
@@ -146,7 +148,5 @@ docOriginal.Save(ArtifactsDir + "Document.CompareOptions.docx");
 
 * class [CompareOptions](../../../aspose.words.comparing/compareoptions/)
 * class [Document](../)
-* مساحة الاسم [Aspose.Words](../../document/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

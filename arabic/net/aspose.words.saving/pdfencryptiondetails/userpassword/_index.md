@@ -1,7 +1,9 @@
 ---
 title: PdfEncryptionDetails.UserPassword
-second_title: Aspose.Words لمراجع .NET API
-description: PdfEncryptionDetails ملكية. يحدد كلمة مرور المستخدم المطلوبة لفتح مستند PDF المشفر.
+linktitle: UserPassword
+articleTitle: UserPassword
+second_title: Aspose.Words لـ .NET
+description: PdfEncryptionDetails UserPassword ملكية. يحدد كلمة مرور المستخدم المطلوبة لفتح مستند PDF المشفر في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.saving/pdfencryptiondetails/userpassword/
@@ -14,13 +16,13 @@ url: /ar/net/aspose.words.saving/pdfencryptiondetails/userpassword/
 public string UserPassword { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 سيُطلب كلمة مرور المستخدم لفتح مستند PDF مشفر للعرض. الأذونات المحددة في [`Permissions`](../permissions/) سيتم فرضه بواسطة برنامج القارئ.
 
 يمكن أن تكون كلمة مرور المستخدم`باطل` أو سلسلة فارغة، في هذه الحالة لن تكون هناك حاجة لكلمة مرور من المستخدم عند فتح مستند PDF. لا يمكن أن تكون كلمة مرور المستخدم هي نفس كلمة مرور المالك.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين الأذونات على مستند PDF محفوظ.
 
@@ -47,7 +49,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.EncryptionPermissions.pdf", saveOptions)
 ### أنظر أيضا
 
 * class [PdfEncryptionDetails](../)
-* مساحة الاسم [Aspose.Words.Saving](../../pdfencryptiondetails/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

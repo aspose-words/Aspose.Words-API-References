@@ -1,7 +1,9 @@
 ---
 title: FieldFillIn.PromptOnceOnMailMerge
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldFillIn eigendom. Ruft ab oder legt fest ob die Benutzerantwort einmal pro Serienbriefvorgang empfangen werden soll.
+linktitle: PromptOnceOnMailMerge
+articleTitle: PromptOnceOnMailMerge
+second_title: Aspose.Words für .NET
+description: FieldFillIn PromptOnceOnMailMerge eigendom. Ruft ab oder legt fest ob die Benutzerantwort einmal pro Serienbriefvorgang empfangen werden soll in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.fields/fieldfillin/promptonceonmailmerge/
@@ -14,7 +16,7 @@ Ruft ab oder legt fest, ob die Benutzerantwort einmal pro Serienbriefvorgang emp
 public bool PromptOnceOnMailMerge { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie das FILLIN-Feld verwendet wird, um den Benutzer zu einer Antwort aufzufordern.
 
@@ -63,7 +65,5 @@ private class PromptRespondent : IFieldUserPromptRespondent
 ### Siehe auch
 
 * class [FieldFillIn](../)
-* namensraum [Aspose.Words.Fields](../../fieldfillin/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

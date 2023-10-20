@@ -1,7 +1,9 @@
 ---
 title: FieldDatabaseDataTable.Rows
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldDatabaseDataTable propiedad. Obtiene filas que pertenecen a esta tabla.
+linktitle: Rows
+articleTitle: Rows
+second_title: Aspose.Words para .NET
+description: FieldDatabaseDataTable Rows propiedad. Obtiene filas que pertenecen a esta tabla en C#.
 type: docs
 weight: 40
 url: /es/net/aspose.words.fields/fielddatabasedatatable/rows/
@@ -18,7 +20,5 @@ public IList<FieldDatabaseDataRow> Rows { get; }
 
 * class [FieldDatabaseDataRow](../../fielddatabasedatarow/)
 * class [FieldDatabaseDataTable](../)
-* espacio de nombres [Aspose.Words.Fields](../../fielddatabasedatatable/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

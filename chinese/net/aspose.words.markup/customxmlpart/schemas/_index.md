@@ -1,7 +1,9 @@
 ---
 title: CustomXmlPart.Schemas
-second_title: Aspose.Words for .NET API 参考
-description: CustomXmlPart 财产. 指定与此自定义 XML 部分关联的 XML 架构集
+linktitle: Schemas
+articleTitle: Schemas
+second_title: 用于 .NET 的 Aspose.Words
+description: CustomXmlPart Schemas 财产. 指定与此自定义 XML 部分关联的 XML 架构集 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words.markup/customxmlpart/schemas/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.markup/customxmlpart/schemas/
 public CustomXmlSchemaCollection Schemas { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何使用自定义 XML 数据创建结构化文档标签。
 
@@ -82,7 +84,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.CustomXml.docx");
 
 * class [CustomXmlSchemaCollection](../../customxmlschemacollection/)
 * class [CustomXmlPart](../)
-* 命名空间 [Aspose.Words.Markup](../../customxmlpart/)
+* 命名空间 [Aspose.Words.Markup](../../../aspose.words.markup/)
 * 部件 [Aspose.Words](../../../)
-
-

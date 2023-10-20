@@ -1,7 +1,9 @@
 ---
-title: Enum TabLeader
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.TabLeader перечисление. Указывает тип линиивыноски отображаемой под символом табуляции.
+title: TabLeader Enum
+linktitle: TabLeader
+articleTitle: TabLeader
+second_title: Aspose.Words для .NET
+description: Aspose.Words.TabLeader перечисление. Указывает тип линиивыноски отображаемой под символом табуляции на С#.
 type: docs
 weight: 6190
 url: /ru/net/aspose.words/tableader/
@@ -29,5 +31,3 @@ public enum TabLeader
 
 * пространство имен [Aspose.Words](../../aspose.words/)
 * сборка [Aspose.Words](../../)
-
-

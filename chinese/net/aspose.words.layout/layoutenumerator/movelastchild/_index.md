@@ -1,7 +1,9 @@
 ---
 title: LayoutEnumerator.MoveLastChild
-second_title: Aspose.Words for .NET API 参考
-description: LayoutEnumerator 方法. 移动到最后一个子实体
+linktitle: MoveLastChild
+articleTitle: MoveLastChild
+second_title: 用于 .NET 的 Aspose.Words
+description: LayoutEnumerator MoveLastChild 方法. 移动到最后一个子实体 在 C#.
 type: docs
 weight: 110
 url: /zh/net/aspose.words.layout/layoutenumerator/movelastchild/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.layout/layoutenumerator/movelastchild/
 public bool MoveLastChild()
 ```
 
-### 例子
+## 例子
 
 显示遍历文档布局实体的方法。
 
@@ -159,7 +161,5 @@ private static void PrintCurrentEntity(LayoutEnumerator layoutEnumerator, int in
 ### 也可以看看
 
 * class [LayoutEnumerator](../)
-* 命名空间 [Aspose.Words.Layout](../../layoutenumerator/)
+* 命名空间 [Aspose.Words.Layout](../../../aspose.words.layout/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,9 +1,11 @@
 ---
 title: CompositeNode.GetChildNodes
-second_title: Référence de l'API Aspose.Words pour .NET
-description: CompositeNode méthode. Renvoie une collection active de nœuds enfants qui correspondent au type spécifié.
+linktitle: GetChildNodes
+articleTitle: GetChildNodes
+second_title: Aspose.Words pour .NET
+description: CompositeNode GetChildNodes méthode. Renvoie une collection active de nœuds enfants qui correspondent au type spécifié en C#.
 type: docs
-weight: 110
+weight: 90
 url: /fr/net/aspose.words/compositenode/getchildnodes/
 ---
 ## CompositeNode.GetChildNodes method
@@ -23,13 +25,13 @@ public NodeCollection GetChildNodes(NodeType nodeType, bool isDeep)
 
 Une collection active de nœuds enfants du type spécifié.
 
-### Remarques
+## Remarques
 
 La collection de nœuds renvoyée par cette méthode est toujours active.
 
 Une collection live est toujours synchronisée avec le document. Par exemple, si vous avez sélectionné toutes les sections d'un document et énumérez la collection en supprimant les sections, la section est supprimée de la collection immédiatement lorsqu'elle est supprimée du document.
 
-### Exemples
+## Exemples
 
 Montre comment imprimer tous les commentaires d'un document et leurs réponses.
 
@@ -171,7 +173,5 @@ Assert.AreEqual(3, paragraph.GetChildNodes(NodeType.Any, true).Count);
 * class [NodeCollection](../../nodecollection/)
 * enum [NodeType](../../nodetype/)
 * class [CompositeNode](../)
-* espace de noms [Aspose.Words](../../compositenode/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

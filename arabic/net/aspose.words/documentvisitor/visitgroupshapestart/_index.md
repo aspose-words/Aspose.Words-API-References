@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitGroupShapeStart
-second_title: Aspose.Words لمراجع .NET API
-description: DocumentVisitor طريقة. يتم استدعاؤه عند بدء تعداد شكل المجموعة.
+linktitle: VisitGroupShapeStart
+articleTitle: VisitGroupShapeStart
+second_title: Aspose.Words لـ .NET
+description: DocumentVisitor VisitGroupShapeStart طريقة. يتم استدعاؤه عند بدء تعداد شكل المجموعة في C#.
 type: docs
 weight: 270
 url: /ar/net/aspose.words/documentvisitor/visitgroupshapestart/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitGroupShapeStart(GroupShape groupShape)
 
 أ[`VisitorAction`](../../visitoraction/) القيمة التي تحدد كيفية متابعة التعداد.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء مجموعة من الأشكال، وطباعة محتوياتها باستخدام زائر المستند.
 
@@ -306,7 +308,5 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [GroupShape](../../../aspose.words.drawing/groupshape/)
 * class [DocumentVisitor](../)
-* مساحة الاسم [Aspose.Words](../../documentvisitor/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

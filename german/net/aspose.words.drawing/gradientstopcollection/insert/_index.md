@@ -1,7 +1,9 @@
 ---
 title: GradientStopCollection.Insert
-second_title: Aspose.Words für .NET-API-Referenz
-description: GradientStopCollection methode. Fügt a einGradientStop zur Sammlung an einem angegebenen Index.
+linktitle: Insert
+articleTitle: Insert
+second_title: Aspose.Words für .NET
+description: GradientStopCollection Insert methode. Fügt a einGradientStop zur Sammlung an einem angegebenen Index in C#.
 type: docs
 weight: 50
 url: /de/net/aspose.words.drawing/gradientstopcollection/insert/
@@ -14,7 +16,7 @@ Fügt a ein[`GradientStop`](../../gradientstop/) zur Sammlung an einem angegeben
 public GradientStop Insert(int index, GradientStop gradientStop)
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man der Verlaufsfüllung Verlaufsstopps hinzufügt.
 
@@ -68,7 +70,5 @@ doc.Save(ArtifactsDir + "Shape.GradientStops.docx", saveOptions);
 
 * class [GradientStop](../../gradientstop/)
 * class [GradientStopCollection](../)
-* namensraum [Aspose.Words.Drawing](../../gradientstopcollection/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitTableEnd
-second_title: Aspose.Words per .NET API Reference
-description: DocumentVisitor metodo. Chiamato al termine dellenumerazione di una tabella.
+linktitle: VisitTableEnd
+articleTitle: VisitTableEnd
+second_title: Aspose.Words per .NET
+description: DocumentVisitor VisitTableEnd metodo. Chiamato al termine dellenumerazione di una tabella in C#.
 type: docs
 weight: 490
 url: /it/net/aspose.words/documentvisitor/visittableend/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitTableEnd(Table table)
 
 UN[`VisitorAction`](../../visitoraction/) valore che specifica come continuare l'enumerazione.
 
-### Esempi
+## Esempi
 
 Mostra come stampare la struttura dei nodi di ogni tabella in un documento.
 
@@ -378,7 +380,5 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [Table](../../../aspose.words.tables/table/)
 * class [DocumentVisitor](../)
-* spazio dei nomi [Aspose.Words](../../documentvisitor/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

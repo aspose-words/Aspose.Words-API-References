@@ -1,7 +1,9 @@
 ---
 title: Section.Body
-second_title: Aspose.Words لمراجع .NET API
-description: Section ملكية. إرجاعBody العقدة الفرعية للقسم.
+linktitle: Body
+articleTitle: Body
+second_title: Aspose.Words لـ .NET
+description: Section Body ملكية. إرجاعBody العقدة الفرعية للقسم في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words/section/body/
@@ -14,13 +16,13 @@ url: /ar/net/aspose.words/section/body/
 public Body Body { get; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 [`Body`](../../body/) يحتوي على النص الرئيسي للقسم.
 
 عائدات`باطل` إذا لم يكن القسم[`Body`](../../body/) العقدة بين أبنائها.
 
-### أمثلة
+## أمثلة
 
 مسح النص الرئيسي من كافة أقسام المستند مع ترك الأقسام نفسها.
 
@@ -59,7 +61,5 @@ Assert.AreEqual("Hello world!", doc.GetText().Trim());
 
 * class [Body](../../body/)
 * class [Section](../)
-* مساحة الاسم [Aspose.Words](../../section/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: GraphicsQualityOptions.UseTileFlipMode
-second_title: Référence de l'API Aspose.Words pour .NET
-description: GraphicsQualityOptions propriété. Obtient ou définit un indicateur indiquant si WrapMode est TileFlipXY.
+linktitle: UseTileFlipMode
+articleTitle: UseTileFlipMode
+second_title: Aspose.Words pour .NET
+description: GraphicsQualityOptions UseTileFlipMode propriété. Obtient ou définit un indicateur indiquant si WrapMode est TileFlipXY en C#.
 type: docs
 weight: 80
 url: /fr/net/aspose.words.saving/graphicsqualityoptions/usetileflipmode/
@@ -14,7 +16,7 @@ Obtient ou définit un indicateur indiquant si WrapMode est TileFlipXY.
 public bool UseTileFlipMode { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 LeWrapMode spécifie comment une texture ou un dégradé est carrelé lorsqu'il est plus petit que la zone à remplir.
 
@@ -22,7 +24,7 @@ Par défaut utiliseTile (spécifie le carrelage sans retournement). Cela provoqu
 
 Cette propriété permet de passer WrapMode àTileFlipXY (spécifie que les tuiles sont retournées horizontalement lorsque vous vous déplacez le long d'une ligne et retournées verticalement lorsque vous vous déplacez le long d'une colonne).
 
-### Exemples
+## Exemples
 
 Montre comment éviter l'apparition d'une ligne blanche lors d'un rendu avec une haute résolution.
 
@@ -42,7 +44,5 @@ renderer.Save(ArtifactsDir + "ImageSaveOptions.UseTileFlipMode.png", saveOptions
 ### Voir également
 
 * class [GraphicsQualityOptions](../)
-* espace de noms [Aspose.Words.Saving](../../graphicsqualityoptions/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

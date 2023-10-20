@@ -1,7 +1,9 @@
 ---
 title: DownsampleOptions.ResolutionThreshold
-second_title: Справочник по API Aspose.Words для .NET
-description: DownsampleOptions свойство. Указывает пороговое разрешение в пикселях на дюйм. Если разрешение изображения в документе меньше порогового значения алгоритм понижения разрешения не будет применяться. Значение 0 означает что проверка порога не используется и все изображения могут быть уменьшены в размере.
+linktitle: ResolutionThreshold
+articleTitle: ResolutionThreshold
+second_title: Aspose.Words для .NET
+description: DownsampleOptions ResolutionThreshold свойство. Указывает пороговое разрешение в пикселях на дюйм. Если разрешение изображения в документе меньше порогового значения алгоритм понижения разрешения не будет применяться. Значение 0 означает что проверка порога не используется и все изображения могут быть уменьшены в размере на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.saving/downsampleoptions/resolutionthreshold/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.saving/downsampleoptions/resolutionthreshold/
 public int ResolutionThreshold { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Значение по умолчанию — 0. .
 
-### Примеры
+## Примеры
 
 Показывает, как изменить разрешение изображений в документе PDF.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.DownsampleOptions.LowerResolution.pdf", 
 ### Смотрите также
 
 * class [DownsampleOptions](../)
-* пространство имен [Aspose.Words.Saving](../../downsampleoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

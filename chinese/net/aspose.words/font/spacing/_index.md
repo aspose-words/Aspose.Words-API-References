@@ -1,7 +1,9 @@
 ---
 title: Font.Spacing
-second_title: Aspose.Words for .NET API 参考
-description: Font 财产. 返回或设置字符之间的间距以磅为单位.
+linktitle: Spacing
+articleTitle: Spacing
+second_title: 用于 .NET 的 Aspose.Words
+description: Font Spacing 财产. 返回或设置字符之间的间距以磅为单位 在 C#.
 type: docs
 weight: 380
 url: /zh/net/aspose.words/font/spacing/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/font/spacing/
 public double Spacing { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何设置字符的水平缩放和间距。
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "Font.ScalingSpacing.docx");
 ### 也可以看看
 
 * class [Font](../)
-* 命名空间 [Aspose.Words](../../font/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

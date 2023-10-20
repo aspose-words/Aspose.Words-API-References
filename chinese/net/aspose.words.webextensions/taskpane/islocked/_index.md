@@ -1,7 +1,9 @@
 ---
 title: TaskPane.IsLocked
-second_title: Aspose.Words for .NET API 参考
-description: TaskPane 财产. 指定任务窗格是否锁定到 UI 中的文档且无法由用户关闭
+linktitle: IsLocked
+articleTitle: IsLocked
+second_title: 用于 .NET 的 Aspose.Words
+description: TaskPane IsLocked 财产. 指定任务窗格是否锁定到 UI 中的文档且无法由用户关闭 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.webextensions/taskpane/islocked/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.webextensions/taskpane/islocked/
 public bool IsLocked { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何向文档添加 Web 扩展。
 
@@ -59,7 +61,5 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 ### 也可以看看
 
 * class [TaskPane](../)
-* 命名空间 [Aspose.Words.WebExtensions](../../taskpane/)
+* 命名空间 [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * 部件 [Aspose.Words](../../../)
-
-

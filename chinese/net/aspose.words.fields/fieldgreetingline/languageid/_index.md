@@ -1,7 +1,9 @@
 ---
 title: FieldGreetingLine.LanguageId
-second_title: Aspose.Words for .NET API 参考
-description: FieldGreetingLine 财产. 获取或设置用于格式化名称的语言 ID
+linktitle: LanguageId
+articleTitle: LanguageId
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldGreetingLine LanguageId 财产. 获取或设置用于格式化名称的语言 ID 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.fields/fieldgreetingline/languageid/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fieldgreetingline/languageid/
 public string LanguageId { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何插入 GREETINGLINE 字段。
 
@@ -74,7 +76,5 @@ Assert.AreEqual("Dear Mr. Doe,\r\r\tThis is your custom greeting, created progra
 ### 也可以看看
 
 * class [FieldGreetingLine](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldgreetingline/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

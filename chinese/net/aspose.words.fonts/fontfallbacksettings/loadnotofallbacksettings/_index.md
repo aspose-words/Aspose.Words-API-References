@@ -1,7 +1,9 @@
 ---
 title: FontFallbackSettings.LoadNotoFallbackSettings
-second_title: Aspose.Words for .NET API 参考
-description: FontFallbackSettings 方法. 加载使用 Google Noto 字体的预定义后备设置
+linktitle: LoadNotoFallbackSettings
+articleTitle: LoadNotoFallbackSettings
+second_title: 用于 .NET 的 Aspose.Words
+description: FontFallbackSettings LoadNotoFallbackSettings 方法. 加载使用 Google Noto 字体的预定义后备设置 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.fonts/fontfallbacksettings/loadnotofallbacksettings/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fonts/fontfallbacksettings/loadnotofallbacksettings/
 public void LoadNotoFallbackSettings()
 ```
 
-### 例子
+## 例子
 
 演示如何为 Google Noto 字体添加预定义字体后备设置。
 
@@ -65,7 +67,5 @@ fontFallbackSettings.Save(ArtifactsDir + "FontSettings.FallbackSettings.LoadNoto
 ### 也可以看看
 
 * class [FontFallbackSettings](../)
-* 命名空间 [Aspose.Words.Fonts](../../fontfallbacksettings/)
+* 命名空间 [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * 部件 [Aspose.Words](../../../)
-
-

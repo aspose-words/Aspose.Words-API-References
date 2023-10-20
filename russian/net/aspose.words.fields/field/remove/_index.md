@@ -1,7 +1,9 @@
 ---
 title: Field.Remove
-second_title: Справочник по API Aspose.Words для .NET
-description: Field метод. Удаляет поле из документа. Возвращает узел сразу после поля. Если конец поля является последним дочерним его родительского узла возвращает его родительский абзац. Если поле уже удалено возвращаетсянулевой .
+linktitle: Remove
+articleTitle: Remove
+second_title: Aspose.Words для .NET
+description: Field Remove метод. Удаляет поле из документа. Возвращает узел сразу после поля. Если конец поля является последним дочерним его родительского узла возвращает его родительский абзац. Если поле уже удалено возвращаетсянулевой  на С#.
 type: docs
 weight: 120
 url: /ru/net/aspose.words.fields/field/remove/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/field/remove/
 public Node Remove()
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как удалить поля из коллекции полей.
 
@@ -123,7 +125,5 @@ public class FieldPrivateRemover : DocumentVisitor
 
 * class [Node](../../../aspose.words/node/)
 * class [Field](../)
-* пространство имен [Aspose.Words.Fields](../../field/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

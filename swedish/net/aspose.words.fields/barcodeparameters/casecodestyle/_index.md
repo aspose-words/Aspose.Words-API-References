@@ -1,7 +1,9 @@
 ---
 title: BarcodeParameters.CaseCodeStyle
-second_title: Aspose.Words för .NET API Referens
-description: BarcodeParameters fast egendom. Typ av ärendekod för streckkodstyp ITF14. De giltiga värdena är STDEXTADD
+linktitle: CaseCodeStyle
+articleTitle: CaseCodeStyle
+second_title: Aspose.Words för .NET
+description: BarcodeParameters CaseCodeStyle fast egendom. Typ av ärendekod för streckkodstyp ITF14. De giltiga värdena är STDEXTADD i C#.
 type: docs
 weight: 60
 url: /sv/net/aspose.words.fields/barcodeparameters/casecodestyle/
@@ -14,7 +16,7 @@ Typ av ärendekod för streckkodstyp ITF14. De giltiga värdena är [STD&#x7C;EX
 public string CaseCodeStyle { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man använder en streckkodsgenerator.
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.docx");
 ### Se även
 
 * class [BarcodeParameters](../)
-* namnutrymme [Aspose.Words.Fields](../../barcodeparameters/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

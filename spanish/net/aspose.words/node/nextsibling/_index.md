@@ -1,7 +1,9 @@
 ---
 title: Node.NextSibling
-second_title: Referencia de API de Aspose.Words para .NET
-description: Node propiedad. Obtiene el nodo que sigue inmediatamente a este nodo.
+linktitle: NextSibling
+articleTitle: NextSibling
+second_title: Aspose.Words para .NET
+description: Node NextSibling propiedad. Obtiene el nodo que sigue inmediatamente a este nodo en C#.
 type: docs
 weight: 40
 url: /es/net/aspose.words/node/nextsibling/
@@ -14,11 +16,11 @@ Obtiene el nodo que sigue inmediatamente a este nodo.
 public Node NextSibling { get; }
 ```
 
-### Observaciones
+## Observaciones
 
 Si no hay ningún siguiente nodo, se`nulo` se devuelve.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo utilizar la propiedad NextSibling de un nodo para enumerar sus hijos inmediatos.
 
@@ -80,7 +82,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 ### Ver también
 
 * class [Node](../)
-* espacio de nombres [Aspose.Words](../../node/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

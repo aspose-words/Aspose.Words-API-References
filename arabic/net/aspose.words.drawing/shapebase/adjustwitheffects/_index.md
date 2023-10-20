@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.AdjustWithEffects
-second_title: Aspose.Words لمراجع .NET API
-description: ShapeBase طريقة. يضيف إلى قيم المستطيل المصدر لمدى التأثير ويعيد المستطيل النهائي.
+linktitle: AdjustWithEffects
+articleTitle: AdjustWithEffects
+second_title: Aspose.Words لـ .NET
+description: ShapeBase AdjustWithEffects طريقة. يضيف إلى قيم المستطيل المصدر لمدى التأثير ويعيد المستطيل النهائي في C#.
 type: docs
 weight: 620
 url: /ar/net/aspose.words.drawing/shapebase/adjustwitheffects/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing/shapebase/adjustwitheffects/
 public RectangleF AdjustWithEffects(RectangleF source)
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التحقق من مدى تأثر حدود الشكل بتأثيرات الشكل.
 
@@ -83,7 +85,5 @@ Assert.AreEqual(279, shape.BoundsWithEffects.Height);
 ### أنظر أيضا
 
 * class [ShapeBase](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../shapebase/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

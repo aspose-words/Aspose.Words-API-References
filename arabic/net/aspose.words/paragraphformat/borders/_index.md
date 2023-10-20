@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.Borders
-second_title: Aspose.Words لمراجع .NET API
-description: ParagraphFormat ملكية. الحصول على مجموعة حدود الفقرة.
+linktitle: Borders
+articleTitle: Borders
+second_title: Aspose.Words لـ .NET
+description: ParagraphFormat Borders ملكية. الحصول على مجموعة حدود الفقرة في C#.
 type: docs
 weight: 60
 url: /ar/net/aspose.words/paragraphformat/borders/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/paragraphformat/borders/
 public BorderCollection Borders { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج فقرة ذات حد علوي.
 
@@ -38,7 +40,5 @@ doc.Save(ArtifactsDir + "Border.ParagraphTopBorder.docx");
 
 * class [BorderCollection](../../bordercollection/)
 * class [ParagraphFormat](../)
-* مساحة الاسم [Aspose.Words](../../paragraphformat/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

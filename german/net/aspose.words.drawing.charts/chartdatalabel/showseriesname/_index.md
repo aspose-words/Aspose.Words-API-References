@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabel.ShowSeriesName
-second_title: Aspose.Words für .NET-API-Referenz
-description: ChartDataLabel eigendom. Gibt einen booleschen Wert zurück oder legt ihn fest um das Anzeigeverhalten des Reihennamens für die Datenbeschriftungen in einem Diagramm anzugeben. WAHR um den Seriennamen anzuzeigenFALSCH verstecken. StandardmäßigFALSCH .
+linktitle: ShowSeriesName
+articleTitle: ShowSeriesName
+second_title: Aspose.Words für .NET
+description: ChartDataLabel ShowSeriesName eigendom. Gibt einen booleschen Wert zurück oder legt ihn fest um das Anzeigeverhalten des Reihennamens für die Datenbeschriftungen in einem Diagramm anzugeben. WAHR um den Seriennamen anzuzeigenFALSCH verstecken. StandardmäßigFALSCH  in C#.
 type: docs
 weight: 140
 url: /de/net/aspose.words.drawing.charts/chartdatalabel/showseriesname/
@@ -14,7 +16,7 @@ Gibt einen booleschen Wert zurück oder legt ihn fest, um das Anzeigeverhalten d
 public bool ShowSeriesName { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Beschriftungen auf Datenpunkte in einem Liniendiagramm angewendet werden.
 
@@ -92,7 +94,5 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
 ### Siehe auch
 
 * class [ChartDataLabel](../)
-* namensraum [Aspose.Words.Drawing.Charts](../../chartdatalabel/)
+* namensraum [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../../)
-
-

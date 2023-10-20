@@ -1,7 +1,9 @@
 ---
 title: CustomXmlPropertyCollection.Add
-second_title: Справочник по API Aspose.Words для .NET
-description: CustomXmlPropertyCollection метод. Добавляет свойство в коллекцию.
+linktitle: Add
+articleTitle: Add
+second_title: Aspose.Words для .NET
+description: CustomXmlPropertyCollection Add метод. Добавляет свойство в коллекцию на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.markup/customxmlpropertycollection/add/
@@ -18,7 +20,7 @@ public void Add(CustomXmlProperty property)
 | --- | --- | --- |
 | property | CustomXmlProperty | Добавляемое свойство. |
 
-### Примеры
+## Примеры
 
 Показывает, как работать со свойствами смарт-тегов, чтобы получить подробную информацию о смарт-тегах.
 
@@ -76,7 +78,5 @@ Assert.AreEqual(0, properties.Count);
 
 * class [CustomXmlProperty](../../customxmlproperty/)
 * class [CustomXmlPropertyCollection](../)
-* пространство имен [Aspose.Words.Markup](../../customxmlpropertycollection/)
+* пространство имен [Aspose.Words.Markup](../../../aspose.words.markup/)
 * сборка [Aspose.Words](../../../)
-
-

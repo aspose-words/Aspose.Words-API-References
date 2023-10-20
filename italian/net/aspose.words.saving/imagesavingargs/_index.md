@@ -1,7 +1,9 @@
 ---
-title: Class ImageSavingArgs
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Saving.ImageSavingArgs classe. Fornisce i dati per ilImageSaving evento.
+title: ImageSavingArgs Class
+linktitle: ImageSavingArgs
+articleTitle: ImageSavingArgs
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Saving.ImageSavingArgs classe. Fornisce i dati per ilImageSaving evento in C#.
 type: docs
 weight: 5240
 url: /it/net/aspose.words.saving/imagesavingargs/
@@ -27,7 +29,7 @@ public class ImageSavingArgs
 | [IsImageAvailable](../../aspose.words.saving/imagesavingargs/isimageavailable/) { get; } | Restituisce`VERO` se l'immagine corrente è disponibile per l'esportazione. |
 | [KeepImageStreamOpen](../../aspose.words.saving/imagesavingargs/keepimagestreamopen/) { get; set; } | Specifica se Aspose.Words deve mantenere aperto lo stream o chiuderlo dopo aver salvato un'immagine. |
 
-### Osservazioni
+## Osservazioni
 
 Per impostazione predefinita, quando Aspose.Words salva un documento in HTML, salva ogni immagine in un file separato. Aspose.Words utilizza il nome del file del documento e un numero univoco per generare un nome file univoco per ogni immagine trovata nel documento.
 
@@ -37,7 +39,7 @@ Per applicare la tua logica per generare nomi di file immagine, utilizza [`Image
 
 Per salvare le immagini in flussi anziché in file, utilizzare il file[`ImageStream`](./imagestream/) proprietà.
 
-### Esempi
+## Esempi
 
 Mostra come dividere un documento in parti e salvarle.
 
@@ -155,5 +157,3 @@ public class SavedImageRename : IImageSavingCallback
 
 * spazio dei nomi [Aspose.Words.Saving](../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../)
-
-

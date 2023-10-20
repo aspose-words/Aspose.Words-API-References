@@ -1,7 +1,9 @@
 ---
 title: Font.Subscript
-second_title: Referencia de API de Aspose.Words para .NET
-description: Font propiedad. Verdadero si la fuente tiene el formato de subíndice.
+linktitle: Subscript
+articleTitle: Subscript
+second_title: Aspose.Words para .NET
+description: Font Subscript propiedad. Verdadero si la fuente tiene el formato de subíndice en C#.
 type: docs
 weight: 430
 url: /es/net/aspose.words/font/subscript/
@@ -14,7 +16,7 @@ Verdadero si la fuente tiene el formato de subíndice.
 public bool Subscript { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo dar formato al texto para compensar su posición.
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "Font.PositionSubscript.docx");
 ### Ver también
 
 * class [Font](../)
-* espacio de nombres [Aspose.Words](../../font/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

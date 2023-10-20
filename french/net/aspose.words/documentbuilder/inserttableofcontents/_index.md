@@ -1,9 +1,11 @@
 ---
 title: DocumentBuilder.InsertTableOfContents
-second_title: Référence de l'API Aspose.Words pour .NET
-description: DocumentBuilder méthode. Insère un champ TOC table des matières dans le document.
+linktitle: InsertTableOfContents
+articleTitle: InsertTableOfContents
+second_title: Aspose.Words pour .NET
+description: DocumentBuilder InsertTableOfContents méthode. Insère un champ TOC table des matières dans le document en C#.
 type: docs
-weight: 470
+weight: 460
 url: /fr/net/aspose.words/documentbuilder/inserttableofcontents/
 ---
 ## DocumentBuilder.InsertTableOfContents method
@@ -18,7 +20,7 @@ public Field InsertTableOfContents(string switches)
 | --- | --- | --- |
 | switches | String | Le champ TOC change. |
 
-### Remarques
+## Remarques
 
 Cette méthode insère un champ TOC (table des matières) dans le document à la position actuelle.
 
@@ -26,7 +28,7 @@ Une table des matières dans un document Word peut être créée de plusieurs ma
 
 Le moyen le plus simple de spécifier les commutateurs est d'insérer et de configurer une table de contenu dans un document Word à l'aide du menu Insertion-&gt;Référence-&gt;Index et tableaux, , puis d'activer l'affichage des codes de champ pour voir les commutateurs. Vous pouvez appuyer sur Alt+F9 dans Microsoft Word pour activer ou désactiver l'affichage des codes de champ.
 
-Par exemple, après avoir créé une table des matières, le champ suivant est inséré dans le document : **{ Table des matières \o "1-3" \h \z \u }** . Vous pouvez copier **\o "1-3" \h \z \u** et utilisez-le comme paramètre de commutateurs.
+Par exemple, après avoir créé une table des matières, le champ suivant est inséré dans le document :**{ Table des matières \o "1-3" \h \z \u }** . Vous pouvez copier**\o "1-3" \h \z \u** et utilisez-le comme paramètre de commutateurs.
 
 Noter que`InsertTableOfContents` insérera uniquement un champ TOC, mais ne construira pas réellement la table des matières. La table des matières est construite par Microsoft Word lorsque le champ est mis à jour.
 
@@ -34,7 +36,7 @@ Si vous insérez une table des matières à l'aide de cette méthode, puis ouvre
 
 Dans Microsoft Word, les champs ne sont pas automatiquement mis à jour lorsqu'un document est ouvert, mais vous pouvez mettre à jour les champs d'un document à tout moment en appuyant sur F9.
 
-### Exemples
+## Exemples
 
 Montre comment insérer une table des matières (TOC) dans un document en utilisant des styles de titre comme entrées.
 
@@ -87,7 +89,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertToc.docx");
 
 * class [Field](../../../aspose.words.fields/field/)
 * class [DocumentBuilder](../)
-* espace de noms [Aspose.Words](../../documentbuilder/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: MarkdownSaveOptions.ImagesFolderAlias
-second_title: Aspose.Words för .NET API Referens
-description: MarkdownSaveOptions fast egendom. Anger namnet på mappen som används för att konstruera bildURIer inskrivna i ett dokument. Standard är en tom sträng.
+linktitle: ImagesFolderAlias
+articleTitle: ImagesFolderAlias
+second_title: Aspose.Words för .NET
+description: MarkdownSaveOptions ImagesFolderAlias fast egendom. Anger namnet på mappen som används för att konstruera bildURIer inskrivna i ett dokument. Standard är en tom sträng i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.saving/markdownsaveoptions/imagesfolderalias/
@@ -14,7 +16,7 @@ Anger namnet på mappen som används för att konstruera bild-URI:er inskrivna i
 public string ImagesFolderAlias { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 När du sparar en[`Document`](../../../aspose.words/document/) iMarkdown format, Aspose.Words måste spara alla bilder som är inbäddade i dokumentet som fristående filer. [`ImagesFolder`](../imagesfolder/) låter dig ange var bilderna ska sparas och `ImagesFolderAlias` gör det möjligt att specificera hur bildens URI:er kommer att konstrueras.
 
@@ -24,7 +26,7 @@ Om`ImagesFolderAlias` är en tom sträng, då blir bilden URI written till Markd
 
 Om`ImagesFolderAlias`är satt till '.' (prick), då kommer bildfilen name att skrivas till Markdown utan sökväg oavsett andra alternativ.
 
-### Exempel
+## Exempel
 
 Visar hur man anger namnet på mappen som används för att konstruera bild-URI:er.
 
@@ -69,7 +71,5 @@ builder.Document.Save(ArtifactsDir + "MarkdownSaveOptions.ImagesFolder.md", save
 ### Se även
 
 * class [MarkdownSaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../markdownsaveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

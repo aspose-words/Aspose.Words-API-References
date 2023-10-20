@@ -1,9 +1,11 @@
 ---
 title: Paragraph.JoinRunsWithSameFormatting
-second_title: Aspose.Words för .NET API Referens
-description: Paragraph metod. Joins körs med samma formatering i stycket.
+linktitle: JoinRunsWithSameFormatting
+articleTitle: JoinRunsWithSameFormatting
+second_title: Aspose.Words för .NET
+description: Paragraph JoinRunsWithSameFormatting metod. Joins körs med samma formatering i stycket i C#.
 type: docs
-weight: 300
+weight: 280
 url: /sv/net/aspose.words/paragraph/joinrunswithsameformatting/
 ---
 ## Paragraph.JoinRunsWithSameFormatting method
@@ -16,9 +18,9 @@ public int JoinRunsWithSameFormatting()
 
 ### Returvärde
 
-Antal utförda anslutningar. När **N** angränsande körningar sammanfogas de räknas som **N - 1** ansluter sig.
+Antal utförda anslutningar. När**N** angränsande körningar sammanfogas de räknas som**N - 1** ansluter sig.
 
-### Exempel
+## Exempel
 
 Visar hur man förenklar stycken genom att slå samman överflödiga körningar.
 
@@ -59,7 +61,5 @@ Assert.AreEqual("Run 4. ", para.Runs[1].Text);
 ### Se även
 
 * class [Paragraph](../)
-* namnutrymme [Aspose.Words](../../paragraph/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

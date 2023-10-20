@@ -1,7 +1,9 @@
 ---
 title: ListLevel.NumberStyle
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ListLevel propriété. Renvoie ou définit le style numérique pour ce niveau de liste.
+linktitle: NumberStyle
+articleTitle: NumberStyle
+second_title: Aspose.Words pour .NET
+description: ListLevel NumberStyle propriété. Renvoie ou définit le style numérique pour ce niveau de liste en C#.
 type: docs
 weight: 90
 url: /fr/net/aspose.words.lists/listlevel/numberstyle/
@@ -14,7 +16,7 @@ Renvoie ou définit le style numérique pour ce niveau de liste.
 public NumberStyle NumberStyle { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment appliquer une mise en forme de liste personnalisée aux paragraphes lors de l’utilisation de DocumentBuilder.
 
@@ -130,7 +132,5 @@ doc.Save(ArtifactsDir + "Lists.CreateListRestartAfterHigher.docx");
 
 * enum [NumberStyle](../../../aspose.words/numberstyle/)
 * class [ListLevel](../)
-* espace de noms [Aspose.Words.Lists](../../listlevel/)
+* espace de noms [Aspose.Words.Lists](../../../aspose.words.lists/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FormFieldCollection.Clear
-second_title: Справочник по API Aspose.Words для .NET
-description: FormFieldCollection метод. Удаляет все поля формы из этой коллекции и из документа.
+linktitle: Clear
+articleTitle: Clear
+second_title: Aspose.Words для .NET
+description: FormFieldCollection Clear метод. Удаляет все поля формы из этой коллекции и из документа на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.fields/formfieldcollection/clear/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/formfieldcollection/clear/
 public void Clear()
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как вставлять в документ различные типы полей формы и обрабатывать их с помощью реализации посетителя документа.
 
@@ -148,7 +150,5 @@ public class FormFieldVisitor : DocumentVisitor
 ### Смотрите также
 
 * class [FormFieldCollection](../)
-* пространство имен [Aspose.Words.Fields](../../formfieldcollection/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

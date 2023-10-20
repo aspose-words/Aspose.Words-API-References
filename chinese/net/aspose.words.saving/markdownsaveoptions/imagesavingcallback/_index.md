@@ -1,7 +1,9 @@
 ---
 title: MarkdownSaveOptions.ImageSavingCallback
-second_title: Aspose.Words for .NET API 参考
-description: MarkdownSaveOptions 财产. 允许控制将文档保存到 时图像的保存方式Markdown格式.
+linktitle: ImageSavingCallback
+articleTitle: ImageSavingCallback
+second_title: 用于 .NET 的 Aspose.Words
+description: MarkdownSaveOptions ImageSavingCallback 财产. 允许控制将文档保存到 时图像的保存方式Markdown格式 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.saving/markdownsaveoptions/imagesavingcallback/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.saving/markdownsaveoptions/imagesavingcallback/
 public IImageSavingCallback ImageSavingCallback { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何在保存到 Markdown 文档期间重命名图像名称。
 
@@ -74,7 +76,5 @@ public class SavedImageRename : IImageSavingCallback
 
 * interface [IImageSavingCallback](../../iimagesavingcallback/)
 * class [MarkdownSaveOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../markdownsaveoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

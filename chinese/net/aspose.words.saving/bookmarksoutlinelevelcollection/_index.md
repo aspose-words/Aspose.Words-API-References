@@ -1,7 +1,9 @@
 ---
-title: Class BookmarksOutlineLevelCollection
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Saving.BookmarksOutlineLevelCollection 班级. 各个书签大纲级别的集合
+title: BookmarksOutlineLevelCollection Class
+linktitle: BookmarksOutlineLevelCollection
+articleTitle: BookmarksOutlineLevelCollection
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Saving.BookmarksOutlineLevelCollection 班级. 各个书签大纲级别的集合 在 C#.
 type: docs
 weight: 4850
 url: /zh/net/aspose.words.saving/bookmarksoutlinelevelcollection/
@@ -33,21 +35,21 @@ public class BookmarksOutlineLevelCollection : IEnumerable<KeyValuePair<string, 
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Add](../../aspose.words.saving/bookmarksoutlinelevelcollection/add/)(string, int) | 将书签添加到集合中。 |
+| [Add](../../aspose.words.saving/bookmarksoutlinelevelcollection/add/)(*string, int*) | 将书签添加到集合中。 |
 | [Clear](../../aspose.words.saving/bookmarksoutlinelevelcollection/clear/)() | 从集合中删除所有元素。 |
-| [Contains](../../aspose.words.saving/bookmarksoutlinelevelcollection/contains/)(string) | 确定集合中是否包含具有给定名称的书签。 |
+| [Contains](../../aspose.words.saving/bookmarksoutlinelevelcollection/contains/)(*string*) | 确定集合中是否包含具有给定名称的书签。 |
 | [GetEnumerator](../../aspose.words.saving/bookmarksoutlinelevelcollection/getenumerator/)() | 返回一个枚举器对象，可用于迭代集合中的所有项目。 |
-| [IndexOfKey](../../aspose.words.saving/bookmarksoutlinelevelcollection/indexofkey/)(string) | 返回集合中指定书签的从零开始的索引。 |
-| [Remove](../../aspose.words.saving/bookmarksoutlinelevelcollection/remove/)(string) | 从集合中删除具有指定名称的书签。 |
-| [RemoveAt](../../aspose.words.saving/bookmarksoutlinelevelcollection/removeat/)(int) | 删除指定索引处的书签。 |
+| [IndexOfKey](../../aspose.words.saving/bookmarksoutlinelevelcollection/indexofkey/)(*string*) | 返回集合中指定书签的从零开始的索引。 |
+| [Remove](../../aspose.words.saving/bookmarksoutlinelevelcollection/remove/)(*string*) | 从集合中删除具有指定名称的书签。 |
+| [RemoveAt](../../aspose.words.saving/bookmarksoutlinelevelcollection/removeat/)(*int*) | 删除指定索引处的书签。 |
 
-### 评论
+## 评论
 
 Key 是不区分大小写的字符串书签名称。值是一个 int 书签大纲级别。
 
 书签大纲级别可以是 0 到 9 之间的值。指定 0，Word 书签将不会显示在文档大纲中。 指定 1，Word 书签将显示在文档大纲中的级别 1； 2 表示级别 2，依此类推。
 
-### 例子
+## 例子
 
 演示如何设置书签的大纲级别。
 
@@ -106,5 +108,3 @@ outlineLevels.Clear();
 
 * 命名空间 [Aspose.Words.Saving](../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../)
-
-

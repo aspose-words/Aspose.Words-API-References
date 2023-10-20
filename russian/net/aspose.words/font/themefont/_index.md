@@ -1,7 +1,9 @@
 ---
 title: Font.ThemeFont
-second_title: Справочник по API Aspose.Words для .NET
-description: Font свойство. Получает или задает шрифт темы в применяемой схеме шрифтов связанной с этимFont объект.
+linktitle: ThemeFont
+articleTitle: ThemeFont
+second_title: Aspose.Words для .NET
+description: Font ThemeFont свойство. Получает или задает шрифт темы в применяемой схеме шрифтов связанной с этимFont объект на С#.
 type: docs
 weight: 470
 url: /ru/net/aspose.words/font/themefont/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/font/themefont/
 public ThemeFont ThemeFont { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как создавать и использовать тематический стиль.
 
@@ -119,7 +121,5 @@ Assert.AreEqual(Color.Blue.ToArgb(), font.Color.ToArgb());
 
 * enum [ThemeFont](../../../aspose.words.themes/themefont/)
 * class [Font](../)
-* пространство имен [Aspose.Words](../../font/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.Author
-second_title: Aspose.Words per .NET API Reference
-description: BuiltInDocumentProperties proprietà. Ottiene o imposta il nome dellautore del documento.
+linktitle: Author
+articleTitle: Author
+second_title: Aspose.Words per .NET
+description: BuiltInDocumentProperties Author proprietà. Ottiene o imposta il nome dellautore del documento in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words.properties/builtindocumentproperties/author/
@@ -14,7 +16,7 @@ Ottiene o imposta il nome dell'autore del documento.
 public string Author { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come lavorare con le proprietà del documento integrate nella categoria "Descrizione".
 
@@ -59,7 +61,5 @@ doc.Save(ArtifactsDir + "DocumentProperties.Description.docx");
 ### Guarda anche
 
 * class [BuiltInDocumentProperties](../)
-* spazio dei nomi [Aspose.Words.Properties](../../builtindocumentproperties/)
+* spazio dei nomi [Aspose.Words.Properties](../../../aspose.words.properties/)
 * assemblea [Aspose.Words](../../../)
-
-

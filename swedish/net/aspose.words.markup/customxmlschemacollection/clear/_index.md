@@ -1,7 +1,9 @@
 ---
 title: CustomXmlSchemaCollection.Clear
-second_title: Aspose.Words för .NET API Referens
-description: CustomXmlSchemaCollection metod. Tar bort alla element från samlingen.
+linktitle: Clear
+articleTitle: Clear
+second_title: Aspose.Words för .NET
+description: CustomXmlSchemaCollection Clear metod. Tar bort alla element från samlingen i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.markup/customxmlschemacollection/clear/
@@ -14,7 +16,7 @@ Tar bort alla element från samlingen.
 public void Clear()
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med en XML-schemasamling.
 
@@ -60,7 +62,5 @@ Assert.AreEqual(0, schemas.Count);
 ### Se även
 
 * class [CustomXmlSchemaCollection](../)
-* namnutrymme [Aspose.Words.Markup](../../customxmlschemacollection/)
+* namnutrymme [Aspose.Words.Markup](../../../aspose.words.markup/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Font.Emboss
-second_title: Aspose.Words per .NET API Reference
-description: Font proprietà. Vero se il carattere è formattato in rilievo.
+linktitle: Emboss
+articleTitle: Emboss
+second_title: Aspose.Words per .NET
+description: Font Emboss proprietà. Vero se il carattere è formattato in rilievo in C#.
 type: docs
 weight: 100
 url: /it/net/aspose.words/font/emboss/
@@ -14,7 +16,7 @@ Vero se il carattere è formattato in rilievo.
 public bool Emboss { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come applicare effetti di incisione/rilievo al testo.
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "Font.EngraveEmboss.docx");
 ### Guarda anche
 
 * class [Font](../)
-* spazio dei nomi [Aspose.Words](../../font/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

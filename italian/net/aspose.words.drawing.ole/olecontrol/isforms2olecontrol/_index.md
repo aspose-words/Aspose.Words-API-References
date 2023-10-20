@@ -1,7 +1,9 @@
 ---
 title: OleControl.IsForms2OleControl
-second_title: Aspose.Words per .NET API Reference
-description: OleControl proprietà. RestituisceVERO se il controllo è aForms2OleControl .
+linktitle: IsForms2OleControl
+articleTitle: IsForms2OleControl
+second_title: Aspose.Words per .NET
+description: OleControl IsForms2OleControl proprietà. RestituisceVERO se il controllo è aForms2OleControl  in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words.drawing.ole/olecontrol/isforms2olecontrol/
@@ -14,7 +16,7 @@ Restituisce`VERO` se il controllo è a[`Forms2OleControl`](../../forms2olecontro
 public bool IsForms2OleControl { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come verificare le proprietà di un controllo ActiveX.
 
@@ -44,7 +46,5 @@ if (oleControl.IsForms2OleControl)
 ### Guarda anche
 
 * class [OleControl](../)
-* spazio dei nomi [Aspose.Words.Drawing.Ole](../../olecontrol/)
+* spazio dei nomi [Aspose.Words.Drawing.Ole](../../../aspose.words.drawing.ole/)
 * assemblea [Aspose.Words](../../../)
-
-

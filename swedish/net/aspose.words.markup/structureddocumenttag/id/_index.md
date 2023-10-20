@@ -1,20 +1,22 @@
 ---
 title: StructuredDocumentTag.Id
-second_title: Aspose.Words för .NET API Referens
-description: StructuredDocumentTag fast egendom. Anger ett unikt skrivskyddat beständigt numeriskt ID för detta SDT.
+linktitle: Id
+articleTitle: Id
+second_title: Aspose.Words för .NET
+description: StructuredDocumentTag Id fast egendom. Anger ett unikt skrivskyddat beständigt numeriskt ID för dettaSDT i C#.
 type: docs
 weight: 140
 url: /sv/net/aspose.words.markup/structureddocumenttag/id/
 ---
 ## StructuredDocumentTag.Id property
 
-Anger ett unikt skrivskyddat beständigt numeriskt ID för detta **SDT**.
+Anger ett unikt skrivskyddat beständigt numeriskt ID för detta**SDT**.
 
 ```csharp
 public int Id { get; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Id-attribut ska följa dessa regler:
 
@@ -24,7 +26,7 @@ Id-attribut ska följa dessa regler:
 * Under fristående SDTINodeCloningListener) operation nytt unikt ID kommer att genereras för den klonade SDT-noden.
 * Om Id inte anges i källdokumentet ska SDT-noden ha en ny unik identifierare tilldelad när dokumentet laddas.
 
-### Exempel
+## Exempel
 
 Visar hur man skapar en strukturerad dokumenttagg i en vanlig textruta och ändrar dess utseende.
 
@@ -81,7 +83,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.PlainText.docx");
 ### Se även
 
 * class [StructuredDocumentTag](../)
-* namnutrymme [Aspose.Words.Markup](../../structureddocumenttag/)
+* namnutrymme [Aspose.Words.Markup](../../../aspose.words.markup/)
 * hopsättning [Aspose.Words](../../../)
-
-

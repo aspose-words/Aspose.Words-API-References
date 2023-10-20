@@ -1,7 +1,9 @@
 ---
 title: OutlineOptions.BookmarksOutlineLevels
-second_title: Aspose.Words for .NET API 参考
-description: OutlineOptions 财产. 允许指定单独的书签大纲级别
+linktitle: BookmarksOutlineLevels
+articleTitle: BookmarksOutlineLevels
+second_title: 用于 .NET 的 Aspose.Words
+description: OutlineOptions BookmarksOutlineLevels 财产. 允许指定单独的书签大纲级别 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.saving/outlineoptions/bookmarksoutlinelevels/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.saving/outlineoptions/bookmarksoutlinelevels/
 public BookmarksOutlineLevelCollection BookmarksOutlineLevels { get; }
 ```
 
-### 评论
+## 评论
 
 如果此集合中未指定书签级别，则[`DefaultBookmarksOutlineLevel`](../defaultbookmarksoutlinelevel/)值被使用。
 
-### 例子
+## 例子
 
 演示如何设置书签的大纲级别。
 
@@ -77,7 +79,5 @@ outlineLevels.Clear();
 
 * class [BookmarksOutlineLevelCollection](../../bookmarksoutlinelevelcollection/)
 * class [OutlineOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../outlineoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

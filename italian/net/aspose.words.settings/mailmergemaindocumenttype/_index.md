@@ -1,7 +1,9 @@
 ---
-title: Enum MailMergeMainDocumentType
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Settings.MailMergeMainDocumentType enum. Specifica i tipi possibili per un documento di origine di stampa unione.
+title: MailMergeMainDocumentType Enum
+linktitle: MailMergeMainDocumentType
+articleTitle: MailMergeMainDocumentType
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Settings.MailMergeMainDocumentType enum. Specifica i tipi possibili per un documento di origine di stampa unione in C#.
 type: docs
 weight: 5840
 url: /it/net/aspose.words.settings/mailmergemaindocumenttype/
@@ -27,7 +29,7 @@ public enum MailMergeMainDocumentType
 | Fax | `32` | Specifica che il documento di origine della stampa unione è di tipo fax. |
 | Default | `0` | Uguale aNotAMergeDocument |
 
-### Esempi
+## Esempi
 
 Mostra come eseguire una stampa unione con i dati di un oggetto origine dati di Office.
 
@@ -81,5 +83,3 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 * property [MainDocumentType](../mailmergesettings/maindocumenttype/)
 * spazio dei nomi [Aspose.Words.Settings](../../aspose.words.settings/)
 * assemblea [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: RtfSaveOptions.ExportImagesForOldReaders
-second_title: Aspose.Words لمراجع .NET API
-description: RtfSaveOptions ملكية. يحدد ما إذا كانت الكلمات الأساسية لـ القراء القدامى مكتوبة في RTF أم لا. يمكن أن يؤثر هذا بشكل كبير على حجم مستند RTF. القيمة الافتراضية هيحقيقي .
+linktitle: ExportImagesForOldReaders
+articleTitle: ExportImagesForOldReaders
+second_title: Aspose.Words لـ .NET
+description: RtfSaveOptions ExportImagesForOldReaders ملكية. يحدد ما إذا كانت الكلمات الأساسية لـ القراء القدامى مكتوبة في RTF أم لا. يمكن أن يؤثر هذا بشكل كبير على حجم مستند RTF. القيمة الافتراضية هيحقيقي  في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.saving/rtfsaveoptions/exportimagesforoldreaders/
@@ -14,13 +16,13 @@ url: /ar/net/aspose.words.saving/rtfsaveoptions/exportimagesforoldreaders/
 public bool ExportImagesForOldReaders { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 "القراء القدامى" هم تطبيقات ما قبل Microsoft Word 97 وأيضًا WordPad. عندما يكون هذا الخيار`حقيقي` يقوم Aspose.Words بكتابة كلمات RTF إضافية. تسمح هذه الكلمات الأساسية بعرض المستند بشكل صحيح عند فتحه في تطبيق "القارئ القديم"، ولكنها يمكن أن تزيد حجم المستند بشكل ملحوظ.
 
 إذا قمت بتعيين هذا الخيار ل`خطأ شنيع`، فسيتم عرض الصور بتنسيقات WMF وEMF وBMP فقط في "أجهزة القراءة القديمة".
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية حفظ مستند إلى .rtf مع خيارات مخصصة.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "RtfSaveOptions.ExportImages.rtf", options);
 ### أنظر أيضا
 
 * class [RtfSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../rtfsaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

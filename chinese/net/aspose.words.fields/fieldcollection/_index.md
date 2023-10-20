@@ -1,7 +1,9 @@
 ---
-title: Class FieldCollection
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Fields.FieldCollection 班级. 的集合Field表示指定范围内的字段的对象
+title: FieldCollection Class
+linktitle: FieldCollection
+articleTitle: FieldCollection
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Fields.FieldCollection 班级. 的集合Field表示指定范围内的字段的对象 在 C#.
 type: docs
 weight: 1690
 url: /zh/net/aspose.words.fields/fieldcollection/
@@ -29,10 +31,10 @@ public class FieldCollection : IEnumerable<Field>
 | --- | --- |
 | [Clear](../../aspose.words.fields/fieldcollection/clear/)() | 从文档和此集合本身中删除此集合的所有字段。 |
 | [GetEnumerator](../../aspose.words.fields/fieldcollection/getenumerator/)() | 返回一个枚举器对象。 |
-| [Remove](../../aspose.words.fields/fieldcollection/remove/)(Field) | 从此集合和文档中删除指定字段。 |
-| [RemoveAt](../../aspose.words.fields/fieldcollection/removeat/)(int) | 从此集合和文档中删除指定索引处的字段。 |
+| [Remove](../../aspose.words.fields/fieldcollection/remove/)(*[Field](../field/)*) | 从此集合和文档中删除指定字段。 |
+| [RemoveAt](../../aspose.words.fields/fieldcollection/removeat/)(*int*) | 从此集合和文档中删除指定索引处的字段。 |
 
-### 评论
+## 评论
 
 此集合的实例会迭代开始落在指定范围内的字段。
 
@@ -40,7 +42,7 @@ public class FieldCollection : IEnumerable<Field>
 
 这`FieldCollection`集合是“实时”的，即对创建它的节点 object 的子节点所做的更改会立即反映在返回的字段中`FieldCollection` 属性和方法。
 
-### 例子
+## 例子
 
 演示如何从字段集合中删除字段。
 
@@ -182,5 +184,3 @@ public class FieldVisitor : DocumentVisitor
 * class [Field](../field/)
 * 命名空间 [Aspose.Words.Fields](../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Paragraph.ListLabel
-second_title: Aspose.Words for .NET API 参考
-description: Paragraph 财产. 获得ListLabel提供对此段落的列表编号值和格式 的访问的对象
+linktitle: ListLabel
+articleTitle: ListLabel
+second_title: 用于 .NET 的 Aspose.Words
+description: Paragraph ListLabel 财产. 获得ListLabel提供对此段落的列表编号值和格式 的访问的对象 在 C#.
 type: docs
 weight: 160
 url: /zh/net/aspose.words/paragraph/listlabel/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/paragraph/listlabel/
 public ListLabel ListLabel { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何提取属于列表项的所有段落的列表标签。
 
@@ -50,7 +52,5 @@ foreach (Paragraph paragraph in paras.OfType<Paragraph>().Where(p => p.ListForma
 
 * class [ListLabel](../../../aspose.words.lists/listlabel/)
 * class [Paragraph](../)
-* 命名空间 [Aspose.Words](../../paragraph/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

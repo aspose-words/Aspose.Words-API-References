@@ -1,7 +1,9 @@
 ---
 title: Document.DigitalSignatures
-second_title: Aspose.Words för .NET API Referens
-description: Document fast egendom. Hämtar insamlingen av digitala signaturer för detta dokument och deras valideringsresultat.
+linktitle: DigitalSignatures
+articleTitle: DigitalSignatures
+second_title: Aspose.Words för .NET
+description: Document DigitalSignatures fast egendom. Hämtar insamlingen av digitala signaturer för detta dokument och deras valideringsresultat i C#.
 type: docs
 weight: 100
 url: /sv/net/aspose.words/document/digitalsignatures/
@@ -14,13 +16,13 @@ Hämtar insamlingen av digitala signaturer för detta dokument och deras valider
 public DigitalSignatureCollection DigitalSignatures { get; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Den här samlingen innehåller digitala signaturer som laddades från originaldokumentet. Dessa digitala signaturer kommer inte att sparas när du sparar detta[`Document`](../) object till en fil eller ström eftersom att spara eller konvertera kommer att producera ett dokument som skiljer sig från originalet och de ursprungliga digitala signaturerna kommer inte längre att vara giltiga.
 
 Denna samling är aldrig`null`. Om dokumentet inte är signerat kommer det att innehålla noll element.
 
-### Exempel
+## Exempel
 
 Visar hur man validerar och visar information om varje signatur i ett dokument.
 
@@ -81,7 +83,5 @@ Assert.AreEqual("CN=Morzal.Me", signedDoc.DigitalSignatures[0].SubjectName);
 
 * class [DigitalSignatureCollection](../../../aspose.words.digitalsignatures/digitalsignaturecollection/)
 * class [Document](../)
-* namnutrymme [Aspose.Words](../../document/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

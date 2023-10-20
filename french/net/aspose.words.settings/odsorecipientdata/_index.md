@@ -1,7 +1,9 @@
 ---
-title: Class OdsoRecipientData
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Settings.OdsoRecipientData classe. Représente des informations sur un seul enregistrement dans une source de données externe qui doit être exclu du publipostage.
+title: OdsoRecipientData Class
+linktitle: OdsoRecipientData
+articleTitle: OdsoRecipientData
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Settings.OdsoRecipientData classe. Représente des informations sur un seul enregistrement dans une source de données externe qui doit être exclu du publipostage en C#.
 type: docs
 weight: 5930
 url: /fr/net/aspose.words.settings/odsorecipientdata/
@@ -37,11 +39,11 @@ public class OdsoRecipientData
 | --- | --- |
 | [Clone](../../aspose.words.settings/odsorecipientdata/clone/)() | Renvoie un clone profond de cet objet. |
 
-### Remarques
+## Remarques
 
 Si un enregistrement doit être fusionné dans un document fusionné, aucune information n’est nécessaire sur cet enregistrement. Cependant, si un enregistrement donné ne doit pas être fusionné dans un document fusionné, alors la valeur de la clé unique pour cet enregistrement doit être stockée dans le[`UniqueTag`](./uniquetag/)propriété de cet objet pour indiquer cette exclusion.
 
-### Exemples
+## Exemples
 
 Montre comment accéder à la collection de données qui désigne les enregistrements de source de données de fusion qu'un publipostage exclura.
 
@@ -82,5 +84,3 @@ Assert.AreEqual(0, dataCollection.Count);
 
 * espace de noms [Aspose.Words.Settings](../../aspose.words.settings/)
 * Assemblée [Aspose.Words](../../)
-
-

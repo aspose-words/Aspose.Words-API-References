@@ -1,7 +1,9 @@
 ---
-title: Class AsposeWordsPrintDocument
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Rendering.AsposeWordsPrintDocument classe. Fornisce unimplementazione predefinita per la stampa di aDocument allinterno del framework di stampa .NET.
+title: AsposeWordsPrintDocument Class
+linktitle: AsposeWordsPrintDocument
+articleTitle: AsposeWordsPrintDocument
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Rendering.AsposeWordsPrintDocument classe. Fornisce unimplementazione predefinita per la stampa di aDocument allinterno del framework di stampa .NET in C#.
 type: docs
 weight: 4530
 url: /it/net/aspose.words.rendering/asposewordsprintdocument/
@@ -20,7 +22,7 @@ public class AsposeWordsPrintDocument : PrintDocument
 
 | Nome | Descrizione |
 | --- | --- |
-| [AsposeWordsPrintDocument](asposewordsprintdocument/)(Document) | Inizializza una nuova istanza di questa classe. |
+| [AsposeWordsPrintDocument](asposewordsprintdocument/)(*[Document](../../aspose.words/document/)*) | Inizializza una nuova istanza di questa classe. |
 
 ## Proprietà
 
@@ -35,7 +37,7 @@ public class AsposeWordsPrintDocument : PrintDocument
 | --- | --- |
 | [CachePrinterSettings](../../aspose.words.rendering/asposewordsprintdocument/cacheprintersettings/)() | Legge e memorizza nella cache alcuni campi diPrinterSettings per ridurre i tempi di stampa. |
 
-### Osservazioni
+## Osservazioni
 
 `AsposeWordsPrintDocument` sovrascrivePrintEventArgs) per stampare l'intervallo di pagine specificato inPrinterSettings.
 
@@ -47,5 +49,3 @@ Microsoft Word memorizza i valori specifici della stampante per i vassoi carta i
 
 * spazio dei nomi [Aspose.Words.Rendering](../../aspose.words.rendering/)
 * assemblea [Aspose.Words](../../)
-
-

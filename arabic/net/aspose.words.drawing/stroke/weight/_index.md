@@ -1,9 +1,11 @@
 ---
 title: Stroke.Weight
-second_title: Aspose.Words لمراجع .NET API
-description: Stroke ملكية. يحدد سمك الفرشاة الذي يحدد مسار الشكل بالنقاط.
+linktitle: Weight
+articleTitle: Weight
+second_title: Aspose.Words لـ .NET
+description: Stroke Weight ملكية. يحدد سمك الفرشاة الذي يحدد مسار الشكل بالنقاط في C#.
 type: docs
-weight: 220
+weight: 210
 url: /ar/net/aspose.words.drawing/stroke/weight/
 ---
 ## Stroke.Weight property
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.drawing/stroke/weight/
 public double Weight { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 القيمة الافتراضية ل[`Shape`](../../shape/) هو 0.75.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تغيير خصائص السكتة الدماغية.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "Shape.Stroke.docx");
 ### أنظر أيضا
 
 * class [Stroke](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../stroke/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

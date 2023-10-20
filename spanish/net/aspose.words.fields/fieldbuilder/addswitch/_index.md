@@ -1,12 +1,14 @@
 ---
 title: FieldBuilder.AddSwitch
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldBuilder método. Agrega un modificador de campo.
+linktitle: AddSwitch
+articleTitle: AddSwitch
+second_title: Aspose.Words para .NET
+description: FieldBuilder AddSwitch método. Agrega un modificador de campo en C#.
 type: docs
 weight: 30
 url: /es/net/aspose.words.fields/fieldbuilder/addswitch/
 ---
-## AddSwitch(string) {#addswitch}
+## AddSwitch(*string*) {#addswitch}
 
 Agrega un modificador de campo.
 
@@ -18,11 +20,11 @@ public FieldBuilder AddSwitch(string switchName)
 | --- | --- | --- |
 | switchName | String | El nombre del interruptor. |
 
-### Observaciones
+## Observaciones
 
 Esta sobrecarga agrega una bandera (cambio sin argumento).
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo construir campos usando un generador de campos y luego insertarlos en el documento.
 
@@ -105,12 +107,12 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 ### Ver también
 
 * class [FieldBuilder](../)
-* espacio de nombres [Aspose.Words.Fields](../../fieldbuilder/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
 
 ---
 
-## AddSwitch(string, string) {#addswitch_3}
+## AddSwitch(*string, string*) {#addswitch_3}
 
 Agrega un modificador de campo.
 
@@ -123,7 +125,7 @@ public FieldBuilder AddSwitch(string switchName, string switchArgument)
 | switchName | String | El nombre del interruptor. |
 | switchArgument | String | El valor del interruptor. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo construir campos usando un generador de campos y luego insertarlos en el documento.
 
@@ -206,12 +208,12 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 ### Ver también
 
 * class [FieldBuilder](../)
-* espacio de nombres [Aspose.Words.Fields](../../fieldbuilder/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
 
 ---
 
-## AddSwitch(string, int) {#addswitch_2}
+## AddSwitch(*string, int*) {#addswitch_2}
 
 Agrega un modificador de campo.
 
@@ -224,7 +226,7 @@ public FieldBuilder AddSwitch(string switchName, int switchArgument)
 | switchName | String | El nombre del interruptor. |
 | switchArgument | Int32 | El valor del interruptor. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo construir campos usando un generador de campos y luego insertarlos en el documento.
 
@@ -307,12 +309,12 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 ### Ver también
 
 * class [FieldBuilder](../)
-* espacio de nombres [Aspose.Words.Fields](../../fieldbuilder/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
 
 ---
 
-## AddSwitch(string, double) {#addswitch_1}
+## AddSwitch(*string, double*) {#addswitch_1}
 
 Agrega un modificador de campo.
 
@@ -325,7 +327,7 @@ public FieldBuilder AddSwitch(string switchName, double switchArgument)
 | switchName | String | El nombre del interruptor. |
 | switchArgument | Double | El valor del interruptor. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo construir campos usando un generador de campos y luego insertarlos en el documento.
 
@@ -408,7 +410,5 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 ### Ver también
 
 * class [FieldBuilder](../)
-* espacio de nombres [Aspose.Words.Fields](../../fieldbuilder/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

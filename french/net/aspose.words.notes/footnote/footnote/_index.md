@@ -1,7 +1,9 @@
 ---
-title: Footnote.Footnote
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Footnote constructeur. Initialise une instance duFootnote classe.
+title: Footnote
+linktitle: Footnote
+articleTitle: Footnote
+second_title: Aspose.Words pour .NET
+description: Footnote constructeur. Initialise une instance duFootnote classe en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.notes/footnote/footnote/
@@ -19,13 +21,13 @@ public Footnote(DocumentBase doc, FootnoteType footnoteType)
 | doc | DocumentBase | Le document du propriétaire. |
 | footnoteType | FootnoteType | UN[`FootnoteType`](../footnotetype/) value qui spécifie s'il s'agit d'une note de bas de page ou d'une note de fin. |
 
-### Remarques
+## Remarques
 
 Quand[`Footnote`](../) est créé, il appartient au document spécifié, mais ne fait pas encore partie du document et[`ParentNode`](../../../aspose.words/node/parentnode/) est`nul`.
 
-À ajouter[`Footnote`](../) à l'utilisation du documentNode) ouNode) sur le paragraphe où vous souhaitez insérer la note de bas de page.
+À ajouter[`Footnote`](../) à l'utilisation du document[`InsertAfter`](../../../aspose.words/compositenode/insertafter/) ou[`InsertBefore`](../../../aspose.words/compositenode/insertbefore/) sur le paragraphe où vous souhaitez insérer la note de bas de page.
 
-### Exemples
+## Exemples
 
 Montre comment insérer et personnaliser des notes de bas de page.
 
@@ -75,7 +77,5 @@ doc.Save(ArtifactsDir + "InlineStory.AddFootnote.docx");
 * class [DocumentBase](../../../aspose.words/documentbase/)
 * enum [FootnoteType](../../footnotetype/)
 * class [Footnote](../)
-* espace de noms [Aspose.Words.Notes](../../footnote/)
+* espace de noms [Aspose.Words.Notes](../../../aspose.words.notes/)
 * Assemblée [Aspose.Words](../../../)
-
-

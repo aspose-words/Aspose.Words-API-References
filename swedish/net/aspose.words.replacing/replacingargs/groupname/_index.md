@@ -1,7 +1,9 @@
 ---
 title: ReplacingArgs.GroupName
-second_title: Aspose.Words för .NET API Referens
-description: ReplacingArgs fast egendom. Identifierar med namn en infångad grupp iMatch som ska ersättas medReplacement string.
+linktitle: GroupName
+articleTitle: GroupName
+second_title: Aspose.Words för .NET
+description: ReplacingArgs GroupName fast egendom. Identifierar med namn en infångad grupp iMatch som ska ersättas medReplacement string i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.replacing/replacingargs/groupname/
@@ -14,13 +16,13 @@ Identifierar, med namn, en infångad grupp i[`Match`](../match/) som ska ersätt
 public string GroupName { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 När gruppnamnet är`null` ,[`GroupIndex`](../groupindex/) används för att identifiera gruppen.
 
 Standard är`null`.
 
-### Exempel
+## Exempel
 
 Visar hur du använder ett annat teckensnitt på nytt innehåll via FindReplaceOptions.
 
@@ -93,7 +95,5 @@ private class NumberHexer : IReplacingCallback
 ### Se även
 
 * class [ReplacingArgs](../)
-* namnutrymme [Aspose.Words.Replacing](../../replacingargs/)
+* namnutrymme [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: OfficeMathRenderer.OfficeMathRenderer
-second_title: Aspose.Words لمراجع .NET API
-description: OfficeMathRenderer البناء. تهيئة مثيل جديد لهذه الفئة.
+title: OfficeMathRenderer
+linktitle: OfficeMathRenderer
+articleTitle: OfficeMathRenderer
+second_title: Aspose.Words لـ .NET
+description: OfficeMathRenderer البناء. تهيئة مثيل جديد لهذه الفئة في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.rendering/officemathrenderer/officemathrenderer/
@@ -18,7 +20,7 @@ public OfficeMathRenderer(OfficeMath math)
 | --- | --- | --- |
 | math | OfficeMath | ال[`OfficeMath`](../../../aspose.words.math/officemath/) الكائن الذي تريد تقديمه. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية قياس الأشكال وحجمها.
 
@@ -66,7 +68,5 @@ Assert.AreEqual(30, bounds.Height);
 
 * class [OfficeMath](../../../aspose.words.math/officemath/)
 * class [OfficeMathRenderer](../)
-* مساحة الاسم [Aspose.Words.Rendering](../../officemathrenderer/)
+* مساحة الاسم [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * المجسم [Aspose.Words](../../../)
-
-

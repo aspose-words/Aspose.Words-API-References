@@ -1,7 +1,9 @@
 ---
 title: VariableCollection.Add
-second_title: Aspose.Words for .NET API 参考
-description: VariableCollection 方法. 将文档变量添加到集合中
+linktitle: Add
+articleTitle: Add
+second_title: 用于 .NET 的 Aspose.Words
+description: VariableCollection Add 方法. 将文档变量添加到集合中 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words/variablecollection/add/
@@ -19,7 +21,7 @@ public void Add(string name, string value)
 | name | String | 要添加的变量的名称（不区分大小写）。 |
 | value | String | 变量的值。该值不能是`无效的`，如果值为 null，将使用空字符串。 |
 
-### 例子
+## 例子
 
 展示如何使用文档的变量集合。
 
@@ -86,7 +88,5 @@ Assert.That(variables, Is.Empty);
 ### 也可以看看
 
 * class [VariableCollection](../)
-* 命名空间 [Aspose.Words](../../variablecollection/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

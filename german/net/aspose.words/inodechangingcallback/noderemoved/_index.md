@@ -1,7 +1,9 @@
 ---
 title: INodeChangingCallback.NodeRemoved
-second_title: Aspose.Words für .NET-API-Referenz
-description: INodeChangingCallback methode. Wird aufgerufen wenn ein zu diesem Dokument gehörender Knoten von seinem übergeordneten Knoten entfernt wurde.
+linktitle: NodeRemoved
+articleTitle: NodeRemoved
+second_title: Aspose.Words für .NET
+description: INodeChangingCallback NodeRemoved methode. Wird aufgerufen wenn ein zu diesem Dokument gehörender Knoten von seinem übergeordneten Knoten entfernt wurde in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words/inodechangingcallback/noderemoved/
@@ -14,7 +16,7 @@ Wird aufgerufen, wenn ein zu diesem Dokument gehörender Knoten von seinem über
 public void NodeRemoved(NodeChangingArgs args)
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Knotenänderungen mit einem Rückruf angepasst werden.
 
@@ -92,7 +94,5 @@ public class HandleNodeChangingFontChanger : INodeChangingCallback
 
 * class [NodeChangingArgs](../../nodechangingargs/)
 * interface [INodeChangingCallback](../)
-* namensraum [Aspose.Words](../../inodechangingcallback/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

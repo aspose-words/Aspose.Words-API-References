@@ -1,9 +1,11 @@
 ---
 title: Stroke.LineStyle
-second_title: Aspose.Words لمراجع .NET API
-description: Stroke ملكية. يحدد نمط الخط للحد.
+linktitle: LineStyle
+articleTitle: LineStyle
+second_title: Aspose.Words لـ .NET
+description: Stroke LineStyle ملكية. يحدد نمط الخط للحد في C#.
 type: docs
-weight: 140
+weight: 130
 url: /ar/net/aspose.words.drawing/stroke/linestyle/
 ---
 ## Stroke.LineStyle property
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.drawing/stroke/linestyle/
 public ShapeLineStyle LineStyle { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 القيمة الافتراضية هيSingle.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تغيير خصائص السكتة الدماغية.
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "Shape.Stroke.docx");
 
 * enum [ShapeLineStyle](../../shapelinestyle/)
 * class [Stroke](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../stroke/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

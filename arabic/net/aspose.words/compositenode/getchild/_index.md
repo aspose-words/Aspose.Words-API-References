@@ -1,9 +1,11 @@
 ---
 title: CompositeNode.GetChild
-second_title: Aspose.Words لمراجع .NET API
-description: CompositeNode طريقة. إرجاع العقدة الفرعية N التي تطابق النوع المحدد.
+linktitle: GetChild
+articleTitle: GetChild
+second_title: Aspose.Words لـ .NET
+description: CompositeNode GetChild طريقة. إرجاع العقدة الفرعية N التي تطابق النوع المحدد في C#.
 type: docs
-weight: 100
+weight: 80
 url: /ar/net/aspose.words/compositenode/getchild/
 ---
 ## CompositeNode.GetChild method
@@ -24,13 +26,13 @@ public Node GetChild(NodeType nodeType, int index, bool isDeep)
 
 العقدة الفرعية التي تطابق المعايير أو`باطل` إذا لم يتم العثور على عقدة مطابقة.
 
-### ملاحظات
+## ملاحظات
 
 إذا كان الفهرس خارج النطاق، أ`باطل` يتم إرجاع.
 
 لاحظ أن العقد الترميزية (StructuredDocumentTag وSmartTag ) يتم اجتيازها حتى عندما*isDeep* =`خطأ شنيع` و`GetChild` يتم استدعاؤه لنوع العقدة غير الترميزية. على سبيل المثال، إذا تم تغليف التشغيل الأول في para بملف a[`StructuredDocumentTag`](../../../aspose.words.markup/structureddocumenttag/) ، سيتم إعادته بواسطة`GetChild`(Run , 0,`خطأ شنيع`).
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تطبيق خصائص نمط الجدول مباشرة على عناصر الجدول.
 
@@ -103,7 +105,5 @@ foreach (Node child in children)
 * class [Node](../../node/)
 * enum [NodeType](../../nodetype/)
 * class [CompositeNode](../)
-* مساحة الاسم [Aspose.Words](../../compositenode/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Style.Font
-second_title: Aspose.Words für .NET-API-Referenz
-description: Style eigendom. Ruft die Zeichenformatierung des Stils ab.
+linktitle: Font
+articleTitle: Font
+second_title: Aspose.Words für .NET
+description: Style Font eigendom. Ruft die Zeichenformatierung des Stils ab in C#.
 type: docs
 weight: 60
 url: /de/net/aspose.words/style/font/
@@ -14,11 +16,11 @@ Ruft die Zeichenformatierung des Stils ab.
 public Font Font { get; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Für Listenstile gibt diese Eigenschaft zurück`Null`.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Absatzstil mit Listenformatierung erstellt und verwendet wird.
 
@@ -85,7 +87,5 @@ Assert.AreEqual(Color.Empty.ToArgb(), firstParagraphStyle.Font.Color.ToArgb());
 
 * class [Font](../../font/)
 * class [Style](../)
-* namensraum [Aspose.Words](../../style/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

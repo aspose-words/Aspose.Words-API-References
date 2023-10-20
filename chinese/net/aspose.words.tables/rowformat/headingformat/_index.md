@@ -1,7 +1,9 @@
 ---
 title: RowFormat.HeadingFormat
-second_title: Aspose.Words for .NET API 参考
-description: RowFormat 财产. 如果当表格跨越一页以上时该行作为表格标题在每一页上重复则为 True
+linktitle: HeadingFormat
+articleTitle: HeadingFormat
+second_title: 用于 .NET 的 Aspose.Words
+description: RowFormat HeadingFormat 财产. 如果当表格跨越一页以上时该行作为表格标题在每一页上重复则为 True 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.tables/rowformat/headingformat/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.tables/rowformat/headingformat/
 public bool HeadingFormat { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何构建一个表，其中的行在每页上重复。
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTableSetHeadingRow.docx");
 ### 也可以看看
 
 * class [RowFormat](../)
-* 命名空间 [Aspose.Words.Tables](../../rowformat/)
+* 命名空间 [Aspose.Words.Tables](../../../aspose.words.tables/)
 * 部件 [Aspose.Words](../../../)
-
-

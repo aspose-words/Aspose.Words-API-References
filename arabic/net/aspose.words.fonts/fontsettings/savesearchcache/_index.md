@@ -1,7 +1,9 @@
 ---
 title: FontSettings.SaveSearchCache
-second_title: Aspose.Words لمراجع .NET API
-description: FontSettings طريقة. يحفظ ذاكرة التخزين المؤقت للبحث عن الخطوط في الدفق.
+linktitle: SaveSearchCache
+articleTitle: SaveSearchCache
+second_title: Aspose.Words لـ .NET
+description: FontSettings SaveSearchCache طريقة. يحفظ ذاكرة التخزين المؤقت للبحث عن الخطوط في الدفق في C#.
 type: docs
 weight: 70
 url: /ar/net/aspose.words.fonts/fontsettings/savesearchcache/
@@ -18,11 +20,11 @@ public void SaveSearchCache(Stream outputStream)
 | --- | --- | --- |
 | outputStream | Stream | تيار الإخراج. |
 
-### ملاحظات
+## ملاحظات
 
 يرى[`SetFontsSources`](../setfontssources/) وصف الطريقة لمزيد من المعلومات.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تسريع عملية تهيئة ذاكرة التخزين المؤقت للخط.
 
@@ -73,7 +75,5 @@ private class SearchCacheStream : StreamFontSource
 ### أنظر أيضا
 
 * class [FontSettings](../)
-* مساحة الاسم [Aspose.Words.Fonts](../../fontsettings/)
+* مساحة الاسم [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * المجسم [Aspose.Words](../../../)
-
-

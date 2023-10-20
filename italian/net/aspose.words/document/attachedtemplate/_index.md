@@ -1,7 +1,9 @@
 ---
 title: Document.AttachedTemplate
-second_title: Aspose.Words per .NET API Reference
-description: Document proprietà. Ottiene o imposta il percorso completo del modello allegato al documento.
+linktitle: AttachedTemplate
+articleTitle: AttachedTemplate
+second_title: Aspose.Words per .NET
+description: Document AttachedTemplate proprietà. Ottiene o imposta il percorso completo del modello allegato al documento in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words/document/attachedtemplate/
@@ -20,11 +22,11 @@ public string AttachedTemplate { get; set; }
 | --- | --- |
 | ArgumentNullException | Genera se tenti di impostare su a`nullo` valore. |
 
-### Osservazioni
+## Osservazioni
 
 Una stringa vuota significa che il documento è allegato al modello Normal.
 
-### Esempi
+## Esempi
 
 Mostra come impostare un modello predefinito per i documenti a cui non sono allegati modelli.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "Document.DefaultTemplate.docx", options);
 ### Guarda anche
 
 * class [Document](../)
-* spazio dei nomi [Aspose.Words](../../document/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

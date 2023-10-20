@@ -1,7 +1,9 @@
 ---
 title: PageSetup.Margins
-second_title: Référence de l'API Aspose.Words pour .NET
-description: PageSetup propriété. Renvoie ou définit le préréglageMargins de la page.
+linktitle: Margins
+articleTitle: Margins
+second_title: Aspose.Words pour .NET
+description: PageSetup Margins propriété. Renvoie ou définit le préréglageMargins de la page en C#.
 type: docs
 weight: 260
 url: /fr/net/aspose.words/pagesetup/margins/
@@ -14,7 +16,7 @@ Renvoie ou définit le préréglage[`Margins`](../../margins/) de la page.
 public Margins Margins { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Indique quand recalculer la mise en page du document.
 
@@ -42,7 +44,5 @@ doc.Save(ArtifactsDir + "Document.UpdatePageLayout.2.pdf");
 
 * enum [Margins](../../margins/)
 * class [PageSetup](../)
-* espace de noms [Aspose.Words](../../pagesetup/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

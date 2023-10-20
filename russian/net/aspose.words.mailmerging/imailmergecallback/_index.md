@@ -1,7 +1,9 @@
 ---
-title: Interface IMailMergeCallback
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.MailMerging.IMailMergeCallback интерфейс. Реализуйте этот интерфейс если хотите получать уведомления во время выполнения слияния почты.
+title: IMailMergeCallback Interface
+linktitle: IMailMergeCallback
+articleTitle: IMailMergeCallback
+second_title: Aspose.Words для .NET
+description: Aspose.Words.MailMerging.IMailMergeCallback интерфейс. Реализуйте этот интерфейс если хотите получать уведомления во время выполнения слияния почты на С#.
 type: docs
 weight: 3800
 url: /ru/net/aspose.words.mailmerging/imailmergecallback/
@@ -20,7 +22,7 @@ public interface IMailMergeCallback
 | --- | --- |
 | [TagsReplaced](../../aspose.words.mailmerging/imailmergecallback/tagsreplaced/)() | Вызывается, когда текстовые теги «усы» заменяются полями MERGEFIELD. |
 
-### Примеры
+## Примеры
 
 Показывает, как определить пользовательскую логику для обработки событий во время слияния почты.
 
@@ -72,5 +74,3 @@ private class MailMergeTagReplacementCounter : IMailMergeCallback
 
 * пространство имен [Aspose.Words.MailMerging](../../aspose.words.mailmerging/)
 * сборка [Aspose.Words](../../)
-
-

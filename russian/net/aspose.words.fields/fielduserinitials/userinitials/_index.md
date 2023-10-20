@@ -1,7 +1,9 @@
 ---
 title: FieldUserInitials.UserInitials
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldUserInitials свойство. Получает или задает инициалы текущего пользователя.
+linktitle: UserInitials
+articleTitle: UserInitials
+second_title: Aspose.Words для .NET
+description: FieldUserInitials UserInitials свойство. Получает или задает инициалы текущего пользователя на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.fields/fielduserinitials/userinitials/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fielduserinitials/userinitials/
 public string UserInitials { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как использовать поле USERINITIALS.
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "Field.USERINITIALS.docx");
 ### Смотрите также
 
 * class [FieldUserInitials](../)
-* пространство имен [Aspose.Words.Fields](../../fielduserinitials/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

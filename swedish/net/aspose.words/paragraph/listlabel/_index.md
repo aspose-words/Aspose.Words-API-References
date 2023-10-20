@@ -1,7 +1,9 @@
 ---
 title: Paragraph.ListLabel
-second_title: Aspose.Words för .NET API Referens
-description: Paragraph fast egendom. Får enListLabelobjekt som ger tillgång till listnumreringsvärde och formatering för detta stycke.
+linktitle: ListLabel
+articleTitle: ListLabel
+second_title: Aspose.Words för .NET
+description: Paragraph ListLabel fast egendom. Får enListLabelobjekt som ger tillgång till listnumreringsvärde och formatering för detta stycke i C#.
 type: docs
 weight: 160
 url: /sv/net/aspose.words/paragraph/listlabel/
@@ -14,7 +16,7 @@ Får en`ListLabel`objekt som ger tillgång till listnumreringsvärde och formate
 public ListLabel ListLabel { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man extraherar listetiketterna för alla stycken som är listobjekt.
 
@@ -50,7 +52,5 @@ foreach (Paragraph paragraph in paras.OfType<Paragraph>().Where(p => p.ListForma
 
 * class [ListLabel](../../../aspose.words.lists/listlabel/)
 * class [Paragraph](../)
-* namnutrymme [Aspose.Words](../../paragraph/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

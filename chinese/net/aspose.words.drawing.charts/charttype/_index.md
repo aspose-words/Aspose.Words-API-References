@@ -1,7 +1,9 @@
 ---
-title: Enum ChartType
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Drawing.Charts.ChartType 枚举. 指定图表类型
+title: ChartType Enum
+linktitle: ChartType
+articleTitle: ChartType
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Drawing.Charts.ChartType 枚举. 指定图表类型 在 C#.
 type: docs
 weight: 830
 url: /zh/net/aspose.words.drawing.charts/charttype/
@@ -54,7 +56,7 @@ public enum ChartType
 | Surface | `33` | 表面图. |
 | Surface3D | `34` | 3D 曲面图。 |
 
-### 例子
+## 例子
 
 展示如何为图形类型创建适当类型的图表系列。
 
@@ -144,5 +146,3 @@ private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, d
 
 * 命名空间 [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * 部件 [Aspose.Words](../../)
-
-

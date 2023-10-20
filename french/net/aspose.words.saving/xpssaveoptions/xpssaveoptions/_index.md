@@ -1,7 +1,9 @@
 ---
-title: XpsSaveOptions.XpsSaveOptions
-second_title: Référence de l'API Aspose.Words pour .NET
-description: XpsSaveOptions constructeur. Initialise une nouvelle instance de cette classe qui peut être utilisée pour enregistrer un document dans leXps format.
+title: XpsSaveOptions
+linktitle: XpsSaveOptions
+articleTitle: XpsSaveOptions
+second_title: Aspose.Words pour .NET
+description: XpsSaveOptions constructeur. Initialise une nouvelle instance de cette classe qui peut être utilisée pour enregistrer un document dans leXps format en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.saving/xpssaveoptions/xpssaveoptions/
@@ -14,7 +16,7 @@ Initialise une nouvelle instance de cette classe qui peut être utilisée pour e
 public XpsSaveOptions()
 ```
 
-### Exemples
+## Exemples
 
 Montre comment limiter le niveau des titres qui apparaîtront dans le plan d'un document XPS enregistré.
 
@@ -57,12 +59,12 @@ doc.Save(ArtifactsDir + "XpsSaveOptions.OutlineLevels.xps", saveOptions);
 ### Voir également
 
 * class [XpsSaveOptions](../)
-* espace de noms [Aspose.Words.Saving](../../xpssaveoptions/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
 
 ---
 
-## XpsSaveOptions(SaveFormat) {#constructor_1}
+## XpsSaveOptions(*[SaveFormat](../../../aspose.words/saveformat/)*) {#constructor_1}
 
 Initialise une nouvelle instance de cette classe qui peut être utilisée pour enregistrer un document dans leXps ouOpenXps format.
 
@@ -70,7 +72,7 @@ Initialise une nouvelle instance de cette classe qui peut être utilisée pour e
 public XpsSaveOptions(SaveFormat saveFormat)
 ```
 
-### Exemples
+## Exemples
 
 Montre comment enregistrer un document au format XPS sous la forme d'un pli de livre.
 
@@ -103,7 +105,5 @@ doc.Save(ArtifactsDir + "XpsSaveOptions.BookFold.xps", xpsOptions);
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
 * class [XpsSaveOptions](../)
-* espace de noms [Aspose.Words.Saving](../../xpssaveoptions/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

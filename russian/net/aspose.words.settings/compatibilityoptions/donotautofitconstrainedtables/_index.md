@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.DoNotAutofitConstrainedTables
-second_title: Справочник по API Aspose.Words для .NET
-description: CompatibilityOptions свойство. Не выполнять автоподгонку таблиц по размеру рядом с обернутыми объектами.
+linktitle: DoNotAutofitConstrainedTables
+articleTitle: DoNotAutofitConstrainedTables
+second_title: Aspose.Words для .NET
+description: CompatibilityOptions DoNotAutofitConstrainedTables свойство. Не выполнять автоподгонку таблиц по размеру рядом с обернутыми объектами на С#.
 type: docs
 weight: 120
 url: /ru/net/aspose.words.settings/compatibilityoptions/donotautofitconstrainedtables/
@@ -17,7 +19,5 @@ public bool DoNotAutofitConstrainedTables { get; set; }
 ### Смотрите также
 
 * class [CompatibilityOptions](../)
-* пространство имен [Aspose.Words.Settings](../../compatibilityoptions/)
+* пространство имен [Aspose.Words.Settings](../../../aspose.words.settings/)
 * сборка [Aspose.Words](../../../)
-
-

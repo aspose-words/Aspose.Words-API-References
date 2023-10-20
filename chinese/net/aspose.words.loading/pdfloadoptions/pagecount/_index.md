@@ -1,7 +1,9 @@
 ---
 title: PdfLoadOptions.PageCount
-second_title: Aspose.Words for .NET API 参考
-description: PdfLoadOptions 财产. 获取或设置要读取的页数默认值为 MaxValue这意味着将读取文档的所有页面
+linktitle: PageCount
+articleTitle: PageCount
+second_title: 用于 .NET 的 Aspose.Words
+description: PdfLoadOptions PageCount 财产. 获取或设置要读取的页数默认值为 MaxValue这意味着将读取文档的所有页面 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.loading/pdfloadoptions/pagecount/
@@ -17,7 +19,5 @@ public int PageCount { get; set; }
 ### 也可以看看
 
 * class [PdfLoadOptions](../)
-* 命名空间 [Aspose.Words.Loading](../../pdfloadoptions/)
+* 命名空间 [Aspose.Words.Loading](../../../aspose.words.loading/)
 * 部件 [Aspose.Words](../../../)
-
-

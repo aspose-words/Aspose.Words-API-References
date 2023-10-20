@@ -1,7 +1,9 @@
 ---
 title: SpecialChar.Accept
-second_title: Aspose.Words för .NET API Referens
-description: SpecialChar metod. Accepterar en besökare.
+linktitle: Accept
+articleTitle: Accept
+second_title: Aspose.Words för .NET
+description: SpecialChar Accept metod. Accepterar en besökare i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words/specialchar/accept/
@@ -22,7 +24,7 @@ public override bool Accept(DocumentVisitor visitor)
 
 `falsk` om besökaren begärde att uppräkningen skulle sluta.
 
-### Anmärkningar
+## Anmärkningar
 
 Samtal[`VisitSpecialChar`](../../documentvisitor/visitspecialchar/).
 
@@ -32,7 +34,5 @@ För mer information se Visitor design mönster.
 
 * class [DocumentVisitor](../../documentvisitor/)
 * class [SpecialChar](../)
-* namnutrymme [Aspose.Words](../../specialchar/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: CustomXmlSchemaCollection.Count
-second_title: Aspose.Words für .NET-API-Referenz
-description: CustomXmlSchemaCollection eigendom. Ruft die Anzahl der in der Sammlung enthaltenen Elemente ab.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words für .NET
+description: CustomXmlSchemaCollection Count eigendom. Ruft die Anzahl der in der Sammlung enthaltenen Elemente ab in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words.markup/customxmlschemacollection/count/
@@ -14,7 +16,7 @@ Ruft die Anzahl der in der Sammlung enthaltenen Elemente ab.
 public int Count { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit einer XML-Schemasammlung gearbeitet wird.
 
@@ -60,7 +62,5 @@ Assert.AreEqual(0, schemas.Count);
 ### Siehe auch
 
 * class [CustomXmlSchemaCollection](../)
-* namensraum [Aspose.Words.Markup](../../customxmlschemacollection/)
+* namensraum [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Montage [Aspose.Words](../../../)
-
-

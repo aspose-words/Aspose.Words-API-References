@@ -1,7 +1,9 @@
 ---
-title: Class FramesetCollection
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Framesets.FramesetCollection فصل. يمثل مجموعة من مثيلاتFrameset فئة.
+title: FramesetCollection Class
+linktitle: FramesetCollection
+articleTitle: FramesetCollection
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Framesets.FramesetCollection فصل. يمثل مجموعة من مثيلاتFrameset فئة في C#.
 type: docs
 weight: 3090
 url: /ar/net/aspose.words.framesets/framesetcollection/
@@ -40,5 +42,3 @@ public class FramesetCollection : IEnumerable<Frameset>
 * class [Frameset](../frameset/)
 * مساحة الاسم [Aspose.Words.Framesets](../../aspose.words.framesets/)
 * المجسم [Aspose.Words](../../)
-
-

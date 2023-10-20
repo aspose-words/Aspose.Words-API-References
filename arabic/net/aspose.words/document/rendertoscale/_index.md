@@ -1,9 +1,11 @@
 ---
 title: Document.RenderToScale
-second_title: Aspose.Words لمراجع .NET API
-description: Document طريقة. يعرض صفحة المستند إلى ملفGraphics كائن بمقياس محدد.
+linktitle: RenderToScale
+articleTitle: RenderToScale
+second_title: Aspose.Words لـ .NET
+description: Document RenderToScale طريقة. يعرض صفحة المستند إلى ملفGraphics كائن بمقياس محدد في C#.
 type: docs
-weight: 700
+weight: 680
 url: /ar/net/aspose.words/document/rendertoscale/
 ---
 ## Document.RenderToScale method
@@ -26,7 +28,7 @@ public SizeF RenderToScale(int pageIndex, Graphics graphics, float x, float y, f
 
 العرض والارتفاع (بالوحدات العالمية) للصفحة المعروضة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحويل الصفحات الفردية للمستند إلى رسومات لإنشاء صورة واحدة مع صور مصغرة لجميع الصفحات.
 
@@ -133,7 +135,5 @@ using (SKBitmap bitmap = new SKBitmap(imgWidth, imgHeight))
 ### أنظر أيضا
 
 * class [Document](../)
-* مساحة الاسم [Aspose.Words](../../document/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: TabStop.IsClear
-second_title: Référence de l'API Aspose.Words pour .NET
-description: TabStop propriété. Retoursvrai si ce taquet de tabulation efface tous les taquets de tabulation existants dans cette position.
+linktitle: IsClear
+articleTitle: IsClear
+second_title: Aspose.Words pour .NET
+description: TabStop IsClear propriété. Retoursvrai si ce taquet de tabulation efface tous les taquets de tabulation existants dans cette position en C#.
 type: docs
 weight: 30
 url: /fr/net/aspose.words/tabstop/isclear/
@@ -14,7 +16,7 @@ Retours`vrai` si ce taquet de tabulation efface tous les taquets de tabulation e
 public bool IsClear { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment utiliser la collection de taquets de tabulation d’un document.
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "TabStopCollection.TabStopCollection.docx");
 ### Voir également
 
 * class [TabStop](../)
-* espace de noms [Aspose.Words](../../tabstop/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

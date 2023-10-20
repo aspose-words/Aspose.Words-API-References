@@ -1,7 +1,9 @@
 ---
 title: RtfSaveOptions.SaveImagesAsWmf
-second_title: Aspose.Words for .NET API 参考
-description: RtfSaveOptions 财产. 当真的所有图像都将保存为 WMF.
+linktitle: SaveImagesAsWmf
+articleTitle: SaveImagesAsWmf
+second_title: 用于 .NET 的 Aspose.Words
+description: RtfSaveOptions SaveImagesAsWmf 财产. 当真的所有图像都将保存为 WMF 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words.saving/rtfsaveoptions/saveimagesaswmf/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.saving/rtfsaveoptions/saveimagesaswmf/
 public bool SaveImagesAsWmf { get; set; }
 ```
 
-### 评论
+## 评论
 
 此选项可能有助于避免写字板警告消息。
 
-### 例子
+## 例子
 
 演示当我们将文档另存为 RTF 时，如何将文档中的所有图像转换为 Windows 图元文件格式。
 
@@ -67,7 +69,5 @@ else
 ### 也可以看看
 
 * class [RtfSaveOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../rtfsaveoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

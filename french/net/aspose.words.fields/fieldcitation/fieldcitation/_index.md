@@ -1,7 +1,9 @@
 ---
-title: FieldCitation.FieldCitation
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldCitation constructeur. Default_Constructor
+title: FieldCitation
+linktitle: FieldCitation
+articleTitle: FieldCitation
+second_title: Aspose.Words pour .NET
+description: FieldCitation constructeur. Default_Constructor en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.fields/fieldcitation/fieldcitation/
@@ -17,7 +19,5 @@ public FieldCitation()
 ### Voir également
 
 * class [FieldCitation](../)
-* espace de noms [Aspose.Words.Fields](../../fieldcitation/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

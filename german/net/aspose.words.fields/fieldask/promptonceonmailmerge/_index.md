@@ -1,7 +1,9 @@
 ---
 title: FieldAsk.PromptOnceOnMailMerge
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldAsk eigendom. Ruft ab oder legt fest ob die Benutzerantwort einmal pro Serienbriefvorgang empfangen werden soll.
+linktitle: PromptOnceOnMailMerge
+articleTitle: PromptOnceOnMailMerge
+second_title: Aspose.Words für .NET
+description: FieldAsk PromptOnceOnMailMerge eigendom. Ruft ab oder legt fest ob die Benutzerantwort einmal pro Serienbriefvorgang empfangen werden soll in C#.
 type: docs
 weight: 40
 url: /de/net/aspose.words.fields/fieldask/promptonceonmailmerge/
@@ -14,7 +16,7 @@ Ruft ab oder legt fest, ob die Benutzerantwort einmal pro Serienbriefvorgang emp
 public bool PromptOnceOnMailMerge { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein ASK-Feld erstellt und seine Eigenschaften festgelegt werden.
 
@@ -76,7 +78,5 @@ private class MyPromptRespondent : IFieldUserPromptRespondent
 ### Siehe auch
 
 * class [FieldAsk](../)
-* namensraum [Aspose.Words.Fields](../../fieldask/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitFootnoteStart
-second_title: Référence de l'API Aspose.Words pour .NET
-description: DocumentVisitor méthode. Appelé lorsque lénumération dun texte de note de bas de page ou de fin a commencé.
+linktitle: VisitFootnoteStart
+articleTitle: VisitFootnoteStart
+second_title: Aspose.Words pour .NET
+description: DocumentVisitor VisitFootnoteStart méthode. Appelé lorsque lénumération dun texte de note de bas de page ou de fin a commencé en C#.
 type: docs
 weight: 220
 url: /fr/net/aspose.words/documentvisitor/visitfootnotestart/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitFootnoteStart(Footnote footnote)
 
 UN[`VisitorAction`](../../visitoraction/) valeur qui spécifie comment continuer l’énumération.
 
-### Exemples
+## Exemples
 
 Montre comment imprimer la structure des nœuds de chaque note de bas de page d’un document.
 
@@ -307,7 +309,5 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [Footnote](../../../aspose.words.notes/footnote/)
 * class [DocumentVisitor](../)
-* espace de noms [Aspose.Words](../../documentvisitor/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ControlChar.NonBreakingHyphenChar
-second_title: Справочник по API Aspose.Words для .NET
-description: ControlChar поле. Неразрывный дефис в Microsoft Word  char30.
+linktitle: NonBreakingHyphenChar
+articleTitle: NonBreakingHyphenChar
+second_title: Aspose.Words для .NET
+description: ControlChar NonBreakingHyphenChar поле. Неразрывный дефис в Microsoft Word  char30 на С#.
 type: docs
 weight: 160
 url: /ru/net/aspose.words/controlchar/nonbreakinghyphenchar/
@@ -14,13 +16,13 @@ url: /ru/net/aspose.words/controlchar/nonbreakinghyphenchar/
 public const char NonBreakingHyphenChar;
 ```
 
-### Примечания
+## Примечания
 
 Неразрывный дефис в Microsoft Word не соответствует символу Юникода неразрывному дефису U+2011, а вместо этого представляет внутреннюю информацию , которая сообщает Microsoft Word отображать дефис, а не разрывать строку.
 
 Полезная информация: http://www.cs.tut.fi/~jkorpela/dashes.html#linebreaks.
 
-### Примеры
+## Примеры
 
 Показывает, как добавлять в документ различные управляющие символы.
 
@@ -92,7 +94,5 @@ Assert.AreEqual(Convert.ToChar(ControlChar.ColumnBreak), ControlChar.ColumnBreak
 ### Смотрите также
 
 * class [ControlChar](../)
-* пространство имен [Aspose.Words](../../controlchar/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

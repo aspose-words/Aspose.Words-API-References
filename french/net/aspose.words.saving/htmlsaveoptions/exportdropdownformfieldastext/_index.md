@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ExportDropDownFormFieldAsText
-second_title: Référence de l'API Aspose.Words pour .NET
-description: HtmlSaveOptions propriété. Contrôle la façon dont les champs du formulaire déroulant sont enregistrés au format HTML ou MHTML. La valeur par défaut estFAUX .
+linktitle: ExportDropDownFormFieldAsText
+articleTitle: ExportDropDownFormFieldAsText
+second_title: Aspose.Words pour .NET
+description: HtmlSaveOptions ExportDropDownFormFieldAsText propriété. Contrôle la façon dont les champs du formulaire déroulant sont enregistrés au format HTML ou MHTML. La valeur par défaut estFAUX  en C#.
 type: docs
 weight: 130
 url: /fr/net/aspose.words.saving/htmlsaveoptions/exportdropdownformfieldastext/
@@ -14,13 +16,13 @@ Contrôle la façon dont les champs du formulaire déroulant sont enregistrés a
 public bool ExportDropDownFormFieldAsText { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 Lorsqu'il est réglé sur`vrai` , exporte les champs du formulaire déroulant sous forme de texte normal. Lorsque`FAUX`, exporte les champs du formulaire déroulant en tant qu'élément SELECT en HTML.
 
 Lors de l'exportation vers EPUB, les champs du formulaire déroulant de texte sont toujours enregistrés sous forme de texte en raison des exigences de ce format.
 
-### Exemples
+## Exemples
 
 Montre comment faire en sorte que les champs de formulaire de liste déroulante se fondent dans le texte du paragraphe lors de l'enregistrement au format HTML.
 
@@ -58,7 +60,5 @@ else
 ### Voir également
 
 * class [HtmlSaveOptions](../)
-* espace de noms [Aspose.Words.Saving](../../htmlsaveoptions/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

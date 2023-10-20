@@ -1,7 +1,9 @@
 ---
 title: ListLevel.IsLegal
-second_title: Referencia de API de Aspose.Words para .NET
-description: ListLevel propiedad. Verdadero si el nivel convierte todos los números heredados al árabe falso si conserva su estilo numérico.
+linktitle: IsLegal
+articleTitle: IsLegal
+second_title: Aspose.Words para .NET
+description: ListLevel IsLegal propiedad. Verdadero si el nivel convierte todos los números heredados al árabe falso si conserva su estilo numérico en C#.
 type: docs
 weight: 50
 url: /es/net/aspose.words.lists/listlevel/islegal/
@@ -14,7 +16,7 @@ Verdadero si el nivel convierte todos los números heredados al árabe, falso si
 public bool IsLegal { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra formas avanzadas de personalizar las etiquetas de las listas.
 
@@ -75,7 +77,5 @@ doc.Save(ArtifactsDir + "Lists.CreateListRestartAfterHigher.docx");
 ### Ver también
 
 * class [ListLevel](../)
-* espacio de nombres [Aspose.Words.Lists](../../listlevel/)
+* espacio de nombres [Aspose.Words.Lists](../../../aspose.words.lists/)
 * asamblea [Aspose.Words](../../../)
-
-

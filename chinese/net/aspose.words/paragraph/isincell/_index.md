@@ -1,7 +1,9 @@
 ---
 title: Paragraph.IsInCell
-second_title: Aspose.Words for .NET API 参考
-description: Paragraph 财产. 如果该段落是以下段落的直接子段落则为真Cell否则为假
+linktitle: IsInCell
+articleTitle: IsInCell
+second_title: 用于 .NET 的 Aspose.Words
+description: Paragraph IsInCell 财产. 如果该段落是以下段落的直接子段落则为真Cell否则为假 在 C#.
 type: docs
 weight: 100
 url: /zh/net/aspose.words/paragraph/isincell/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/paragraph/isincell/
 public bool IsInCell { get; }
 ```
 
-### 例子
+## 例子
 
 展示如何将表格设置为在同一页面上保持在一起。
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "Table.KeepTableTogether.docx");
 ### 也可以看看
 
 * class [Paragraph](../)
-* 命名空间 [Aspose.Words](../../paragraph/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

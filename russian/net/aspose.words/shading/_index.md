@@ -1,7 +1,9 @@
 ---
-title: Class Shading
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Shading сорт. Содержит атрибуты затенения для объекта.
+title: Shading Class
+linktitle: Shading
+articleTitle: Shading
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Shading сорт. Содержит атрибуты затенения для объекта на С#.
 type: docs
 weight: 5990
 url: /ru/net/aspose.words/shading/
@@ -33,11 +35,11 @@ public class Shading : InternableComplexAttr
 | Имя | Описание |
 | --- | --- |
 | [ClearFormatting](../../aspose.words/shading/clearformatting/)() | Удаляет затенение объекта. |
-| override [Equals](../../aspose.words/shading/equals/#equals_1)(object) | Определяет, равен ли указанный объект по значению текущему объекту. |
-| [Equals](../../aspose.words/shading/equals/#equals)(Shading) | Определяет, задано ли указанное`Shading` по значению равен текущему`Shading` . |
+| override [Equals](../../aspose.words/shading/equals/#equals_1)(*object*) | Определяет, равен ли указанный объект по значению текущему объекту. |
+| [Equals](../../aspose.words/shading/equals/#equals)(*Shading*) | Определяет, задано ли указанное`Shading` по значению равен текущему`Shading` . |
 | override [GetHashCode](../../aspose.words/shading/gethashcode/)() | Служит хеш-функцией для этого типа. |
 
-### Примеры
+## Примеры
 
 Показывает, как украшать текст границами и заливкой.
 
@@ -102,5 +104,3 @@ doc.Save(ArtifactsDir + "DocumentBuilder.TableBordersAndShading.docx");
 * class [InternableComplexAttr](../internablecomplexattr/)
 * пространство имен [Aspose.Words](../../aspose.words/)
 * сборка [Aspose.Words](../../)
-
-

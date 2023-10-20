@@ -1,7 +1,9 @@
 ---
 title: SdtListItemCollection.SelectedValue
-second_title: Aspose.Words för .NET API Referens
-description: SdtListItemCollection fast egendom. Anger för närvarande valt värde i denna lista. Nullvärde tillåtet vilket betyder att ingen för närvarande vald post är associerad med denna listobjektsamling.
+linktitle: SelectedValue
+articleTitle: SelectedValue
+second_title: Aspose.Words för .NET
+description: SdtListItemCollection SelectedValue fast egendom. Anger för närvarande valt värde i denna lista. Nullvärde tillåtet vilket betyder att ingen för närvarande vald post är associerad med denna listobjektsamling i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.markup/sdtlistitemcollection/selectedvalue/
@@ -14,7 +16,7 @@ Anger för närvarande valt värde i denna lista. Nullvärde tillåtet, vilket b
 public SdtListItem SelectedValue { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med strukturerade dokumenttaggar i listrutan.
 
@@ -72,7 +74,5 @@ Assert.AreEqual(0, listItems.Count);
 
 * class [SdtListItem](../../sdtlistitem/)
 * class [SdtListItemCollection](../)
-* namnutrymme [Aspose.Words.Markup](../../sdtlistitemcollection/)
+* namnutrymme [Aspose.Words.Markup](../../../aspose.words.markup/)
 * hopsättning [Aspose.Words](../../../)
-
-

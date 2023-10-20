@@ -1,9 +1,11 @@
 ---
 title: CompositeNode.SelectSingleNode
-second_title: Aspose.Words لمراجع .NET API
-description: CompositeNode طريقة. تحديد الأولNode الذي يطابق تعبير XPath.
+linktitle: SelectSingleNode
+articleTitle: SelectSingleNode
+second_title: Aspose.Words لـ .NET
+description: CompositeNode SelectSingleNode طريقة. تحديد الأولNode الذي يطابق تعبير XPath في C#.
 type: docs
-weight: 220
+weight: 200
 url: /ar/net/aspose.words/compositenode/selectsinglenode/
 ---
 ## CompositeNode.SelectSingleNode method
@@ -22,11 +24,11 @@ public Node SelectSingleNode(string xpath)
 
 الأول[`Node`](../../node/) الذي يطابق استعلام XPath أو`باطل` إذا لم يتم العثور على عقدة مطابقة.
 
-### ملاحظات
+## ملاحظات
 
 يتم دعم التعبيرات التي تحتوي على أسماء العناصر فقط في الوقت الحالي. Expressions التي تستخدم أسماء السمات غير مدعومة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحديد عقد معينة باستخدام تعبير XPath.
 
@@ -60,7 +62,5 @@ Assert.AreEqual(typeof(Paragraph), node.GetType());
 
 * class [Node](../../node/)
 * class [CompositeNode](../)
-* مساحة الاسم [Aspose.Words](../../compositenode/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

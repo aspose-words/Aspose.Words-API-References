@@ -1,7 +1,9 @@
 ---
 title: FieldAddressBlock.NameAndAddressFormat
-second_title: Aspose.Words för .NET API Referens
-description: FieldAddressBlock fast egendom. Hämtar eller ställer in namn och adressformat.
+linktitle: NameAndAddressFormat
+articleTitle: NameAndAddressFormat
+second_title: Aspose.Words för .NET
+description: FieldAddressBlock NameAndAddressFormat fast egendom. Hämtar eller ställer in namn och adressformat i C#.
 type: docs
 weight: 60
 url: /sv/net/aspose.words.fields/fieldaddressblock/nameandaddressformat/
@@ -14,7 +16,7 @@ Hämtar eller ställer in namn- och adressformat.
 public string NameAndAddressFormat { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man infogar ett ADDRESSBLOCK-fält.
 
@@ -45,7 +47,5 @@ Assert.AreEqual(
 ### Se även
 
 * class [FieldAddressBlock](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldaddressblock/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

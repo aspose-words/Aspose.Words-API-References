@@ -1,7 +1,9 @@
 ---
 title: SaveOptions.UpdateFields
-second_title: Aspose.Words for .NET API 参考
-description: SaveOptions 财产. 获取或设置一个值确定在将文档保存为固定页面格式之前是否应更新某些类型的字段 此属性的默认值为真的.
+linktitle: UpdateFields
+articleTitle: UpdateFields
+second_title: 用于 .NET 的 Aspose.Words
+description: SaveOptions UpdateFields 财产. 获取或设置一个值确定在将文档保存为固定页面格式之前是否应更新某些类型的字段 此属性的默认值为真的 在 C#.
 type: docs
 weight: 160
 url: /zh/net/aspose.words.saving/saveoptions/updatefields/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.saving/saveoptions/updatefields/
 public bool UpdateFields { get; set; }
 ```
 
-### 评论
+## 评论
 
 允许指定是否模仿 MS Word 行为。
 
-### 例子
+## 例子
 
 演示如何在将文档保存为 PDF 之前立即更新文档中的所有字段。
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.UpdateFields.pdf", options);
 ### 也可以看看
 
 * class [SaveOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../saveoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,9 +1,11 @@
 ---
 title: Document.Print
-second_title: Aspose.Words för .NET API Referens
-description: Document metod. Skriver ut hela dokumentet till standardskrivaren.
+linktitle: Print
+articleTitle: Print
+second_title: Aspose.Words för .NET
+description: Document Print metod. Skriver ut hela dokumentet till standardskrivaren i C#.
 type: docs
-weight: 660
+weight: 640
 url: /sv/net/aspose.words/document/print/
 ---
 ## Print() {#print}
@@ -14,7 +16,7 @@ Skriver ut hela dokumentet till standardskrivaren.
 public void Print()
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man skriver ut ett dokument med standardskrivaren.
 
@@ -38,12 +40,12 @@ doc.Print(myPrinter);
 ### Se även
 
 * class [Document](../)
-* namnutrymme [Aspose.Words](../../document/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## Print(string) {#print_3}
+## Print(*string*) {#print_3}
 
 Skriv ut hela dokumentet till den angivna skrivaren, med standardutskriftskontrollern (inget användargränssnitt).
 
@@ -55,7 +57,7 @@ public void Print(string printerName)
 | --- | --- | --- |
 | printerName | String | Namnet på skrivaren. |
 
-### Exempel
+## Exempel
 
 Visar hur man skriver ut ett dokument med standardskrivaren.
 
@@ -79,12 +81,12 @@ doc.Print(myPrinter);
 ### Se även
 
 * class [Document](../)
-* namnutrymme [Aspose.Words](../../document/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## Print(PrinterSettings) {#print_1}
+## Print(*PrinterSettings*) {#print_1}
 
 Skriver ut dokumentet enligt de angivna skrivarinställningarna, med standardutskriftskontrollern (utan användargränssnitt).
 
@@ -96,11 +98,11 @@ public void Print(PrinterSettings printerSettings)
 | --- | --- | --- |
 | printerSettings | PrinterSettings | Skrivarinställningarna som ska användas. |
 
-### Anmärkningar
+## Anmärkningar
 
 DePrinterSettings Med -objektet kan du ange vilken skrivare du vill skriva ut på, antalet sidor som ska skrivas ut och andra alternativ.
 
-### Exempel
+## Exempel
 
 Visar hur man skriver ut ett antal sidor.
 
@@ -131,12 +133,12 @@ doc.Print(printerSettings, "My rendered document");
 ### Se även
 
 * class [Document](../)
-* namnutrymme [Aspose.Words](../../document/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## Print(PrinterSettings, string) {#print_2}
+## Print(*PrinterSettings, string*) {#print_2}
 
 Skriver ut dokumentet enligt de angivna skrivarinställningarna, med standardutskriftskontrollern (inget användargränssnitt) och ett dokumentnamn.
 
@@ -149,11 +151,11 @@ public void Print(PrinterSettings printerSettings, string documentName)
 | printerSettings | PrinterSettings | Skrivarinställningarna som ska användas. |
 | documentName | String | Dokumentnamnet som ska visas (till exempel i en dialogruta för utskriftsstatus eller skrivarkö) under utskrift av dokumentet. |
 
-### Anmärkningar
+## Anmärkningar
 
 DePrinterSettings Med -objektet kan du ange vilken skrivare du vill skriva ut på, antalet sidor som ska skrivas ut och andra alternativ.
 
-### Exempel
+## Exempel
 
 Visar hur man skriver ut ett antal sidor.
 
@@ -184,7 +186,5 @@ doc.Print(printerSettings, "My rendered document");
 ### Se även
 
 * class [Document](../)
-* namnutrymme [Aspose.Words](../../document/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

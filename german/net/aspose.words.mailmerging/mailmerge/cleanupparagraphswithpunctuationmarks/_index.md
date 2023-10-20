@@ -1,7 +1,9 @@
 ---
 title: MailMerge.CleanupParagraphsWithPunctuationMarks
-second_title: Aspose.Words für .NET-API-Referenz
-description: MailMerge eigendom. Ruft einen Wert ab oder legt diesen fest der angibt ob Absätze mit Satzzeichen als leer betrachtet werden und entfernt werden sollten wenn dieRemoveEmptyParagraphs Option ist angegeben.
+linktitle: CleanupParagraphsWithPunctuationMarks
+articleTitle: CleanupParagraphsWithPunctuationMarks
+second_title: Aspose.Words für .NET
+description: MailMerge CleanupParagraphsWithPunctuationMarks eigendom. Ruft einen Wert ab oder legt diesen fest der angibt ob Absätze mit Satzzeichen als leer betrachtet werden und entfernt werden sollten wenn dieRemoveEmptyParagraphs Option ist angegeben in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.mailmerging/mailmerge/cleanupparagraphswithpunctuationmarks/
@@ -14,7 +16,7 @@ Ruft einen Wert ab oder legt diesen fest, der angibt, ob Absätze mit Satzzeiche
 public bool CleanupParagraphsWithPunctuationMarks { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Der Standardwert ist`WAHR` .
 
@@ -29,7 +31,7 @@ Hier ist die vollständige Liste der löschbaren Satzzeichen:
 * ¡
 * ¿
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Absätze mit Satzzeichen nach einem Serienbriefvorgang entfernt werden.
 
@@ -63,7 +65,5 @@ doc.Save(ArtifactsDir + "MailMerge.RemoveColonBetweenEmptyMergeFields.docx");
 ### Siehe auch
 
 * class [MailMerge](../)
-* namensraum [Aspose.Words.MailMerging](../../mailmerge/)
+* namensraum [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * Montage [Aspose.Words](../../../)
-
-

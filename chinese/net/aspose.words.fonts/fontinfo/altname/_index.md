@@ -1,7 +1,9 @@
 ---
 title: FontInfo.AltName
-second_title: Aspose.Words for .NET API 参考
-description: FontInfo 财产. 获取或设置字体的备用名称
+linktitle: AltName
+articleTitle: AltName
+second_title: 用于 .NET 的 Aspose.Words
+description: FontInfo AltName 财产. 获取或设置字体的备用名称 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.fonts/fontinfo/altname/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.fonts/fontinfo/altname/
 public string AltName { get; set; }
 ```
 
-### 评论
+## 评论
 
 不可能是`无效的`。可以是空字符串。
 
-### 例子
+## 例子
 
 演示如何访问和打印文档中每种字体的详细信息。
 
@@ -57,7 +59,5 @@ while (fontCollectionEnumerator.MoveNext())
 ### 也可以看看
 
 * class [FontInfo](../)
-* 命名空间 [Aspose.Words.Fonts](../../fontinfo/)
+* 命名空间 [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * 部件 [Aspose.Words](../../../)
-
-

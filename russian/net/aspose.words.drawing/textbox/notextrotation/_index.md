@@ -1,7 +1,9 @@
 ---
 title: TextBox.NoTextRotation
-second_title: Справочник по API Aspose.Words для .NET
-description: TextBox свойство. Получает или задает логическое значение указывающее что текст TextBox не должен вращаться при повороте фигуры.
+linktitle: NoTextRotation
+articleTitle: NoTextRotation
+second_title: Aspose.Words для .NET
+description: TextBox NoTextRotation свойство. Получает или задает логическое значение указывающее что текст TextBox не должен вращаться при повороте фигуры на С#.
 type: docs
 weight: 80
 url: /ru/net/aspose.words.drawing/textbox/notextrotation/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.drawing/textbox/notextrotation/
 public bool NoTextRotation { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Значение по умолчанию:`ЛОЖЬ`
 
-### Примеры
+## Примеры
 
 Показывает, как отключить поворот текста при повороте фигуры.
 
@@ -35,7 +37,5 @@ doc.Save(ArtifactsDir + "Shape.NoTextRotation.docx");
 ### Смотрите также
 
 * class [TextBox](../)
-* пространство имен [Aspose.Words.Drawing](../../textbox/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

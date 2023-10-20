@@ -1,12 +1,14 @@
 ---
-title: Comment.Comment
-second_title: Aspose.Words for .NET API 参考
-description: Comment 构造函数. 初始化一个新实例Comment类.
+title: Comment
+linktitle: Comment
+articleTitle: Comment
+second_title: 用于 .NET 的 Aspose.Words
+description: Comment 构造函数. 初始化一个新实例Comment类 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words/comment/comment/
 ---
-## Comment(DocumentBase) {#constructor}
+## Comment(*[DocumentBase](../../documentbase/)*) {#constructor}
 
 初始化一个新实例[`Comment`](../)类.
 
@@ -18,15 +20,15 @@ public Comment(DocumentBase doc)
 | --- | --- | --- |
 | doc | DocumentBase | 所有者文件。 |
 
-### 评论
+## 评论
 
 什么时候[`Comment`](../)创建后，它属于指定文档，但还不是 文档的一部分并且[`ParentNode`](../../node/parentnode/)是`无效的`。
 
-追加[`Comment`](../)到文档使用Node)或者Node) 在您想要插入评论的段落上。
+追加[`Comment`](../)到文档使用[`InsertAfter`](../../compositenode/insertafter/)或者[`InsertBefore`](../../compositenode/insertbefore/) 在您想要插入评论的段落上。
 
 创建评论后，不要忘记设置它[`Author`](../author/), [`Initial`](../initial/)和[`DateTime`](../datetime/)特性。
 
-### 例子
+## 例子
 
 展示如何使用文档访问者打印所有注释的内容及其注释范围。
 
@@ -188,12 +190,12 @@ public class CommentInfoPrinter : DocumentVisitor
 
 * class [DocumentBase](../../documentbase/)
 * class [Comment](../)
-* 命名空间 [Aspose.Words](../../comment/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## Comment(DocumentBase, string, string, DateTime) {#constructor_1}
+## Comment(*[DocumentBase](../../documentbase/), string, string, DateTime*) {#constructor_1}
 
 初始化一个新实例[`Comment`](../)类.
 
@@ -208,7 +210,7 @@ public Comment(DocumentBase doc, string author, string initial, DateTime dateTim
 | initial | String | 评论的作者姓名缩写。不可能是`无效的`。 |
 | dateTime | DateTime | 发表评论的日期和时间。 |
 
-### 例子
+## 例子
 
 演示如何向段落添加注释。
 
@@ -232,7 +234,5 @@ doc.Save(ArtifactsDir + "InlineStory.AddComment.docx");
 
 * class [DocumentBase](../../documentbase/)
 * class [Comment](../)
-* 命名空间 [Aspose.Words](../../comment/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

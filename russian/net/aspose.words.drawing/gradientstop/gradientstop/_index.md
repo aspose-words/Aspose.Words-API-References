@@ -1,12 +1,14 @@
 ---
-title: GradientStop.GradientStop
-second_title: Справочник по API Aspose.Words для .NET
-description: GradientStop строитель. Инициализирует новый экземплярGradientStop класс.
+title: GradientStop
+linktitle: GradientStop
+articleTitle: GradientStop
+second_title: Aspose.Words для .NET
+description: GradientStop строитель. Инициализирует новый экземплярGradientStop класс на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.drawing/gradientstop/gradientstop/
 ---
-## GradientStop(Color, double) {#constructor}
+## GradientStop(*Color, double*) {#constructor}
 
 Инициализирует новый экземпляр[`GradientStop`](../) класс.
 
@@ -19,7 +21,7 @@ public GradientStop(Color color, double position)
 | color | Color | Представляет цвет остановки градиента. |
 | position | Double | Представляет положение остановки внутри градиента, выраженного в процентах в диапазоне от 0,0 до 1,0. |
 
-### Примеры
+## Примеры
 
 Показывает, как добавить остановки градиента к градиентной заливке.
 
@@ -72,12 +74,12 @@ doc.Save(ArtifactsDir + "Shape.GradientStops.docx", saveOptions);
 ### Смотрите также
 
 * class [GradientStop](../)
-* пространство имен [Aspose.Words.Drawing](../../gradientstop/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## GradientStop(Color, double, double) {#constructor_1}
+## GradientStop(*Color, double, double*) {#constructor_1}
 
 Инициализирует новый экземпляр[`GradientStop`](../) класс.
 
@@ -91,7 +93,7 @@ public GradientStop(Color color, double position, double transparency)
 | position | Double | Представляет положение остановки внутри градиента, выраженного в процентах в диапазоне от 0,0 до 1,0. |
 | transparency | Double | Представляет прозрачность остановки в пределах градиента, выраженного в процентах в диапазоне от 0,0 до 1,0. |
 
-### Примеры
+## Примеры
 
 Показывает, как добавить остановки градиента к градиентной заливке.
 
@@ -144,7 +146,5 @@ doc.Save(ArtifactsDir + "Shape.GradientStops.docx", saveOptions);
 ### Смотрите также
 
 * class [GradientStop](../)
-* пространство имен [Aspose.Words.Drawing](../../gradientstop/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

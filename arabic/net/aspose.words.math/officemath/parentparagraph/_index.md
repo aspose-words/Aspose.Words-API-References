@@ -1,7 +1,9 @@
 ---
 title: OfficeMath.ParentParagraph
-second_title: Aspose.Words لمراجع .NET API
-description: OfficeMath ملكية. يسترد الأصلParagraph من هذه العقدة.
+linktitle: ParentParagraph
+articleTitle: ParentParagraph
+second_title: Aspose.Words لـ .NET
+description: OfficeMath ParentParagraph ملكية. يسترد الأصلParagraph من هذه العقدة في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.math/officemath/parentparagraph/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.math/officemath/parentparagraph/
 public Paragraph ParentParagraph { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية ضبط تنسيق عرض الرياضيات المكتبية.
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "Shape.OfficeMath.docx");
 
 * class [Paragraph](../../../aspose.words/paragraph/)
 * class [OfficeMath](../)
-* مساحة الاسم [Aspose.Words.Math](../../officemath/)
+* مساحة الاسم [Aspose.Words.Math](../../../aspose.words.math/)
 * المجسم [Aspose.Words](../../../)
-
-

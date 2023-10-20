@@ -1,7 +1,9 @@
 ---
 title: NodeImporter.ImportNode
-second_title: Aspose.Words für .NET-API-Referenz
-description: NodeImporter methode. Importiert einen Knoten aus einem Dokument in ein anderes.
+linktitle: ImportNode
+articleTitle: ImportNode
+second_title: Aspose.Words für .NET
+description: NodeImporter ImportNode methode. Importiert einen Knoten aus einem Dokument in ein anderes in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words/nodeimporter/importnode/
@@ -23,15 +25,15 @@ public Node ImportNode(Node srcNode, bool isImportChildren)
 
 Der geklonte, importierte Knoten. Der Knoten gehört zum Zieldokument, hat aber keinen übergeordneten Knoten.
 
-### Bemerkungen
+## Bemerkungen
 
 Beim Importieren eines Knotens wird eine Kopie des Quellknotens erstellt, der zum importierenden Dokument gehört. Der zurückgegebene Knoten hat keinen übergeordneten Knoten. Der Quellknoten wird nicht geändert oder aus dem Originaldokument entfernt.
 
-Bevor ein Knoten aus einem anderen Dokument in dieses Dokument eingefügt werden kann, muss dieser importiert werden. Beim Import werden dokumentspezifische Eigenschaften wie Verweise auf Stile und Listen vom Original in das importierende Dokument übersetzt . Nachdem der Knoten importiert wurde, kann er mit an der entsprechenden Stelle im Dokument eingefügt werdenNode) oder Node).
+Bevor ein Knoten aus einem anderen Dokument in dieses Dokument eingefügt werden kann, muss dieser importiert werden. Beim Import werden dokumentspezifische Eigenschaften wie Verweise auf Stile und Listen vom Original in das importierende Dokument übersetzt . Nachdem der Knoten importiert wurde, kann er mit an der entsprechenden Stelle im Dokument eingefügt werden[`InsertBefore`](../../compositenode/insertbefore/) oder [`InsertAfter`](../../compositenode/insertafter/).
 
 Wenn der Quellknoten bereits zum Zieldokument gehört, wird einfach ein tiefer Klon des Quellknotens erstellt.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie der Inhalt eines Dokuments in ein Lesezeichen in einem anderen Dokument eingefügt wird.
 
@@ -100,7 +102,5 @@ static void InsertDocument(Node insertionDestination, Document docToInsert)
 
 * class [Node](../../node/)
 * class [NodeImporter](../)
-* namensraum [Aspose.Words](../../nodeimporter/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

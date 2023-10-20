@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.CharacterUnitLeftIndent
-second_title: Aspose.Words för .NET API Referens
-description: ParagraphFormat fast egendom. Hämtar eller ställer in vänster indragsvärde i tecken för de angivna styckena.
+linktitle: CharacterUnitLeftIndent
+articleTitle: CharacterUnitLeftIndent
+second_title: Aspose.Words för .NET
+description: ParagraphFormat CharacterUnitLeftIndent fast egendom. Hämtar eller ställer in vänster indragsvärde i tecken för de angivna styckena i C#.
 type: docs
 weight: 80
 url: /sv/net/aspose.words/paragraphformat/characterunitleftindent/
@@ -14,7 +16,7 @@ Hämtar eller ställer in vänster indragsvärde (i tecken) för de angivna styc
 public double CharacterUnitLeftIndent { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du ändrar styckeavstånd och indrag.
 
@@ -68,7 +70,5 @@ builder.Write("测试文档测试文档测试文档测试文档测试文档测�
 ### Se även
 
 * class [ParagraphFormat](../)
-* namnutrymme [Aspose.Words](../../paragraphformat/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

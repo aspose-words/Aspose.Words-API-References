@@ -1,20 +1,22 @@
 ---
 title: SignOptions.SignTime
-second_title: Aspose.Words لمراجع .NET API
-description: SignOptions ملكية. تاريخ التوقيع. القيمة الافتراضية هي الوقت الحالي Now.
+linktitle: SignTime
+articleTitle: SignTime
+second_title: Aspose.Words لـ .NET
+description: SignOptions SignTime ملكية. تاريخ التوقيع. القيمة الافتراضية هيالوقت الحالي Now في C#.
 type: docs
 weight: 70
 url: /ar/net/aspose.words.digitalsignatures/signoptions/signtime/
 ---
 ## SignOptions.SignTime property
 
-تاريخ التوقيع. القيمة الافتراضية هي **الوقت الحالي** (Now).
+تاريخ التوقيع. القيمة الافتراضية هي**الوقت الحالي** (Now).
 
 ```csharp
 public DateTime SignTime { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية توقيع المستندات رقميًا.
 
@@ -43,7 +45,5 @@ using (Stream streamIn = new FileStream(MyDir + "Document.docx", FileMode.Open))
 ### أنظر أيضا
 
 * class [SignOptions](../)
-* مساحة الاسم [Aspose.Words.DigitalSignatures](../../signoptions/)
+* مساحة الاسم [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ImageFieldMergingArgs.Image
-second_title: Aspose.Words for .NET API 参考
-description: ImageFieldMergingArgs 财产. 指定邮件合并引擎必须插入到文档中的图像
+linktitle: Image
+articleTitle: Image
+second_title: 用于 .NET 的 Aspose.Words
+description: ImageFieldMergingArgs Image 财产. 指定邮件合并引擎必须插入到文档中的图像 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.mailmerging/imagefieldmergingargs/image/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.mailmerging/imagefieldmergingargs/image/
 public Image Image { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何使用回调来自定义图像合并逻辑。
 
@@ -88,7 +90,5 @@ private class ImageFilenameCallback : IFieldMergingCallback
 ### 也可以看看
 
 * class [ImageFieldMergingArgs](../)
-* 命名空间 [Aspose.Words.MailMerging](../../imagefieldmergingargs/)
+* 命名空间 [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * 部件 [Aspose.Words](../../../)
-
-

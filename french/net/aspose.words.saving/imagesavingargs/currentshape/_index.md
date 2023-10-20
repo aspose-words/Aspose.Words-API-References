@@ -1,7 +1,9 @@
 ---
 title: ImageSavingArgs.CurrentShape
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ImageSavingArgs propriété. Obtient leShapeBase objet correspondant à la forme ou à la forme de groupe qui est sur le point dêtre enregistrée.
+linktitle: CurrentShape
+articleTitle: CurrentShape
+second_title: Aspose.Words pour .NET
+description: ImageSavingArgs CurrentShape propriété. Obtient leShapeBase objet correspondant à la forme ou à la forme de groupe qui est sur le point dêtre enregistrée en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.saving/imagesavingargs/currentshape/
@@ -14,7 +16,7 @@ Obtient le[`ShapeBase`](../../../aspose.words.drawing/shapebase/) objet correspo
 public ShapeBase CurrentShape { get; }
 ```
 
-### Remarques
+## Remarques
 
 [`IImageSavingCallback`](../../iimagesavingcallback/) peut être déclenché tout en enregistrant une forme ou une forme de groupe. C'est pourquoi la propriété a[`ShapeBase`](../../../aspose.words.drawing/shapebase/) taper. Vous pouvez vérifier s'il s'agit d'une forme de groupe en comparant [`ShapeType`](../../../aspose.words.drawing/shapebase/shapetype/) avecGroup ou en le convertissant dans l'une des classes dérivées : [`Shape`](../../../aspose.words.drawing/shape/) ou[`GroupShape`](../../../aspose.words.drawing/groupshape/).
 
@@ -22,7 +24,7 @@ Aspose.Words utilise le nom du fichier du document et un numéro unique pour gé
 
 Certaines images du document peuvent être indisponibles. Pour vérifier la disponibilité de l'image , utilisez le[`IsImageAvailable`](../isimageavailable/) propriété.
 
-### Exemples
+## Exemples
 
 Montre comment impliquer un rappel d’enregistrement d’image dans un processus de conversion HTML.
 
@@ -69,7 +71,5 @@ private class ImageShapePrinter : IImageSavingCallback
 
 * class [ShapeBase](../../../aspose.words.drawing/shapebase/)
 * class [ImageSavingArgs](../)
-* espace de noms [Aspose.Words.Saving](../../imagesavingargs/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

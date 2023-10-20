@@ -1,7 +1,9 @@
 ---
-title: Interface IDocumentLoadingCallback
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Loading.IDocumentLoadingCallback واجهه المستخدم. قم بتنفيذ هذه الواجهة إذا كنت تريد أن يكون لديك طريقتك المخصصة التي يتم استدعاؤها أثناء تحميل المستند.
+title: IDocumentLoadingCallback Interface
+linktitle: IDocumentLoadingCallback
+articleTitle: IDocumentLoadingCallback
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Loading.IDocumentLoadingCallback واجهه المستخدم. قم بتنفيذ هذه الواجهة إذا كنت تريد أن يكون لديك طريقتك المخصصة التي يتم استدعاؤها أثناء تحميل المستند في C#.
 type: docs
 weight: 3630
 url: /ar/net/aspose.words.loading/idocumentloadingcallback/
@@ -18,9 +20,9 @@ public interface IDocumentLoadingCallback
 
 | اسم | وصف |
 | --- | --- |
-| [Notify](../../aspose.words.loading/idocumentloadingcallback/notify/)(DocumentLoadingArgs) | يتم استدعاؤه للإخطار بتقدم تحميل المستند. |
+| [Notify](../../aspose.words.loading/idocumentloadingcallback/notify/)(*[DocumentLoadingArgs](../documentloadingargs/)*) | يتم استدعاؤه للإخطار بتقدم تحميل المستند. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إعلام المستخدم إذا تجاوز تحميل المستند وقت التحميل المتوقع.
 
@@ -85,5 +87,3 @@ public class LoadingProgressCallback : IDocumentLoadingCallback
 
 * مساحة الاسم [Aspose.Words.Loading](../../aspose.words.loading/)
 * المجسم [Aspose.Words](../../)
-
-

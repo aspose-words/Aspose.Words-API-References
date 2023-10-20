@@ -1,7 +1,9 @@
 ---
 title: MappedDataFieldCollection.Add
-second_title: Référence de l'API Aspose.Words pour .NET
-description: MappedDataFieldCollection méthode. Ajoute un nouveau mappage de champ.
+linktitle: Add
+articleTitle: Add
+second_title: Aspose.Words pour .NET
+description: MappedDataFieldCollection Add méthode. Ajoute un nouveau mappage de champ en C#.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.mailmerging/mappeddatafieldcollection/add/
@@ -19,7 +21,7 @@ public void Add(string documentFieldName, string dataSourceFieldName)
 | documentFieldName | String | Nom sensible à la casse du champ de publipostage dans le document. |
 | dataSourceFieldName | String | Nom du champ sensible à la casse dans la source de données. |
 
-### Exemples
+## Exemples
 
 Montre comment mapper des colonnes de données et des MERGEFIELD avec des noms différents afin que les données soient transférées entre elles lors d'un publipostage.
 
@@ -104,7 +106,5 @@ private static DataTable CreateSourceTableMappedDataFields()
 ### Voir également
 
 * class [MappedDataFieldCollection](../)
-* espace de noms [Aspose.Words.MailMerging](../../mappeddatafieldcollection/)
+* espace de noms [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * Assemblée [Aspose.Words](../../../)
-
-

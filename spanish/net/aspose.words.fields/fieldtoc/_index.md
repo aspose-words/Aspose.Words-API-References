@@ -1,7 +1,9 @@
 ---
-title: Class FieldToc
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Fields.FieldToc clase. Implementa el campo TOC.
+title: FieldToc Class
+linktitle: FieldToc
+articleTitle: FieldToc
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Fields.FieldToc clase. Implementa el campo TOC en C#.
 type: docs
 weight: 2530
 url: /es/net/aspose.words.fields/fieldtoc/
@@ -58,18 +60,18 @@ public class FieldToc : Field
 | Nombre | Descripción |
 | --- | --- |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Devuelve texto entre el inicio del campo y el separador de campo (o el final del campo si no hay separador). Se incluyen tanto el código de campo como el resultado del campo de los campos secundarios. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Devuelve texto entre el inicio del campo y el separador de campo (o el final del campo si no hay separador). |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | Devuelve texto entre el inicio del campo y el separador de campo (o el final del campo si no hay separador). |
 | [Remove](../../aspose.words.fields/field/remove/)() | Elimina el campo del documento. Devuelve un nodo justo después del campo. Si el final del campo es el último hijo de su nodo principal, devuelve su párrafo principal. Si el campo ya está eliminado, devuelve`nulo` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | Realiza la desvinculación del campo. |
 | [Update](../../aspose.words.fields/field/update/)() | Realiza la actualización del campo. Se produce si el campo ya se está actualizando. |
-| [Update](../../aspose.words.fields/field/update/)(bool) | Realiza una actualización de campo. Se produce si el campo ya se está actualizando. |
+| [Update](../../aspose.words.fields/field/update/)(*bool*) | Realiza una actualización de campo. Se produce si el campo ya se está actualizando. |
 | [UpdatePageNumbers](../../aspose.words.fields/fieldtoc/updatepagenumbers/)() | Actualiza los números de página de los elementos de esta tabla de contenido. |
 
-### Observaciones
+## Observaciones
 
 Crea una tabla de contenido (que también puede ser una tabla de figuras) usando las entradas especificadas por los campos TC, sus niveles de encabezado y estilos especificados, e inserta esa tabla en este lugar del documento.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo insertar una tabla de contenido y completarla con entradas basadas en estilos de título.
 
@@ -227,5 +229,3 @@ doc.Save(ArtifactsDir + "Field.TOC.SEQ.docx");
 * class [Field](../field/)
 * espacio de nombres [Aspose.Words.Fields](../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../)
-
-

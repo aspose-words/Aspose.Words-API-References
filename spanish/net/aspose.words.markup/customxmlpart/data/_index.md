@@ -1,7 +1,9 @@
 ---
 title: CustomXmlPart.Data
-second_title: Referencia de API de Aspose.Words para .NET
-description: CustomXmlPart propiedad. Obtiene o establece el contenido XML de esta parte de almacenamiento de datos XML personalizado.
+linktitle: Data
+articleTitle: Data
+second_title: Aspose.Words para .NET
+description: CustomXmlPart Data propiedad. Obtiene o establece el contenido XML de esta parte de almacenamiento de datos XML personalizado en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words.markup/customxmlpart/data/
@@ -14,11 +16,11 @@ Obtiene o establece el contenido XML de esta parte de almacenamiento de datos XM
 public byte[] Data { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 El valor predeterminado es una matriz de bytes vacía. El valor no puede ser`nulo`.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear una etiqueta de documento estructurado con datos XML personalizados.
 
@@ -85,7 +87,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.CustomXml.docx");
 ### Ver también
 
 * class [CustomXmlPart](../)
-* espacio de nombres [Aspose.Words.Markup](../../customxmlpart/)
+* espacio de nombres [Aspose.Words.Markup](../../../aspose.words.markup/)
 * asamblea [Aspose.Words](../../../)
-
-

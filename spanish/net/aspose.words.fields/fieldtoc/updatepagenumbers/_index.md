@@ -1,7 +1,9 @@
 ---
 title: FieldToc.UpdatePageNumbers
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldToc método. Actualiza los números de página de los elementos de esta tabla de contenido.
+linktitle: UpdatePageNumbers
+articleTitle: UpdatePageNumbers
+second_title: Aspose.Words para .NET
+description: FieldToc UpdatePageNumbers método. Actualiza los números de página de los elementos de esta tabla de contenido en C#.
 type: docs
 weight: 180
 url: /es/net/aspose.words.fields/fieldtoc/updatepagenumbers/
@@ -18,7 +20,7 @@ public bool UpdatePageNumbers()
 
 `verdadero` si la operación es exitosa. Si se eliminó alguno de los marcadores TOC relacionados,`FALSO` será devuelto.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo insertar una tabla de contenido y completarla con entradas basadas en estilos de título.
 
@@ -103,7 +105,5 @@ public void InsertNewPageWithHeading(DocumentBuilder builder, string captionText
 ### Ver también
 
 * class [FieldToc](../)
-* espacio de nombres [Aspose.Words.Fields](../../fieldtoc/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

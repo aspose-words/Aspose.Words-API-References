@@ -1,7 +1,9 @@
 ---
 title: FieldDisplayBarcode.BackgroundColor
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldDisplayBarcode свойство. Получает или задает цвет фона символа штрихкода. Допустимые значения находятся в диапазоне 0 0xFFFFFF .
+linktitle: BackgroundColor
+articleTitle: BackgroundColor
+second_title: Aspose.Words для .NET
+description: FieldDisplayBarcode BackgroundColor свойство. Получает или задает цвет фона символа штрихкода. Допустимые значения находятся в диапазоне 0 0xFFFFFF  на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.fields/fielddisplaybarcode/backgroundcolor/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fielddisplaybarcode/backgroundcolor/
 public string BackgroundColor { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как вставить поле DISPLAYBARCODE и установить его свойства.
 
@@ -72,7 +74,5 @@ doc.Save(ArtifactsDir + "Field.DISPLAYBARCODE.docx");
 ### Смотрите также
 
 * class [FieldDisplayBarcode](../)
-* пространство имен [Aspose.Words.Fields](../../fielddisplaybarcode/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

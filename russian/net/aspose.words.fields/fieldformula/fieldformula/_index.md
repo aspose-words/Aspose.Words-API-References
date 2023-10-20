@@ -1,7 +1,9 @@
 ---
-title: FieldFormula.FieldFormula
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldFormula строитель. Конструктор по умолчанию.
+title: FieldFormula
+linktitle: FieldFormula
+articleTitle: FieldFormula
+second_title: Aspose.Words для .NET
+description: FieldFormula строитель. Конструктор по умолчанию на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fields/fieldformula/fieldformula/
@@ -17,7 +19,5 @@ public FieldFormula()
 ### Смотрите также
 
 * class [FieldFormula](../)
-* пространство имен [Aspose.Words.Fields](../../fieldformula/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

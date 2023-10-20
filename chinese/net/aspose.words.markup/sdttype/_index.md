@@ -1,7 +1,9 @@
 ---
-title: Enum SdtType
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Markup.SdtType 枚举. 指定结构化文档标记 SDT 节点的类型
+title: SdtType Enum
+linktitle: SdtType
+articleTitle: SdtType
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Markup.SdtType 枚举. 指定结构化文档标记 SDT 节点的类型 在 C#.
 type: docs
 weight: 4040
 url: /zh/net/aspose.words.markup/sdttype/
@@ -36,7 +38,7 @@ public enum SdtType
 | RepeatingSectionItem | `15` | SDT 表示重复节项。 |
 | EntityPicker | `16` | SDT 表示一个实体选择器，允许用户选择外部内容类型的实例。 |
 
-### 例子
+## 例子
 
 展示如何在行级别创建组结构化文档标签。
 
@@ -172,5 +174,3 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.RepeatingSectionItem.docx");
 
 * 命名空间 [Aspose.Words.Markup](../../aspose.words.markup/)
 * 部件 [Aspose.Words](../../)
-
-

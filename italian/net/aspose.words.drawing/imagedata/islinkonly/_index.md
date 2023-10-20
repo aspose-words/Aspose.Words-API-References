@@ -1,7 +1,9 @@
 ---
 title: ImageData.IsLinkOnly
-second_title: Aspose.Words per .NET API Reference
-description: ImageData proprietà. RestituisceVERO se limmagine è collegata e non memorizzata nel documento.
+linktitle: IsLinkOnly
+articleTitle: IsLinkOnly
+second_title: Aspose.Words per .NET
+description: ImageData IsLinkOnly proprietà. RestituisceVERO se limmagine è collegata e non memorizzata nel documento in C#.
 type: docs
 weight: 160
 url: /it/net/aspose.words.drawing/imagedata/islinkonly/
@@ -14,7 +16,7 @@ Restituisce`VERO` se l'immagine è collegata e non memorizzata nel documento.
 public bool IsLinkOnly { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come modificare i dati dell'immagine di una forma.
 
@@ -77,7 +79,5 @@ dstDoc.Save(ArtifactsDir + "Drawing.ImageData.docx");
 ### Guarda anche
 
 * class [ImageData](../)
-* spazio dei nomi [Aspose.Words.Drawing](../../imagedata/)
+* spazio dei nomi [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assemblea [Aspose.Words](../../../)
-
-

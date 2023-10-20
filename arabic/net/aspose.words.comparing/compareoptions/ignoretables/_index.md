@@ -1,7 +1,9 @@
 ---
 title: CompareOptions.IgnoreTables
-second_title: Aspose.Words لمراجع .NET API
-description: CompareOptions ملكية. يحدد ما إذا كان سيتم مقارنة الاختلافات في البيانات الموجودة في الجداول. بشكل افتراضي لا يتم تجاهل الجداول.
+linktitle: IgnoreTables
+articleTitle: IgnoreTables
+second_title: Aspose.Words لـ .NET
+description: CompareOptions IgnoreTables ملكية. يحدد ما إذا كان سيتم مقارنة الاختلافات في البيانات الموجودة في الجداول. بشكل افتراضي لا يتم تجاهل الجداول في C#.
 type: docs
 weight: 110
 url: /ar/net/aspose.words.comparing/compareoptions/ignoretables/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.comparing/compareoptions/ignoretables/
 public bool IgnoreTables { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تصفية أنواع معينة من عناصر المستند عند إجراء المقارنة.
 
@@ -88,7 +90,5 @@ docOriginal.Save(ArtifactsDir + "Document.CompareOptions.docx");
 ### أنظر أيضا
 
 * class [CompareOptions](../)
-* مساحة الاسم [Aspose.Words.Comparing](../../compareoptions/)
+* مساحة الاسم [Aspose.Words.Comparing](../../../aspose.words.comparing/)
 * المجسم [Aspose.Words](../../../)
-
-

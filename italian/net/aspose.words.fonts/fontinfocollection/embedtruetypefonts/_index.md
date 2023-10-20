@@ -1,7 +1,9 @@
 ---
 title: FontInfoCollection.EmbedTrueTypeFonts
-second_title: Aspose.Words per .NET API Reference
-description: FontInfoCollection proprietà. Specifica se incorporare o meno i caratteri TrueType in un documento quando viene salvato. Il valore predefinito per questa proprietà èfalso .
+linktitle: EmbedTrueTypeFonts
+articleTitle: EmbedTrueTypeFonts
+second_title: Aspose.Words per .NET
+description: FontInfoCollection EmbedTrueTypeFonts proprietà. Specifica se incorporare o meno i caratteri TrueType in un documento quando viene salvato. Il valore predefinito per questa proprietà èfalso  in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words.fonts/fontinfocollection/embedtruetypefonts/
@@ -14,13 +16,13 @@ Specifica se incorporare o meno i caratteri TrueType in un documento quando vien
 public bool EmbedTrueTypeFonts { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 L'incorporamento dei caratteri TrueType consente ad altri di visualizzare il documento con gli stessi caratteri utilizzati per crearlo, ma può aumentare sostanzialmente le dimensioni del documento.
 
 Questa opzione funziona solo per i formati DOC, DOCX e RTF.
 
-### Esempi
+## Esempi
 
 Mostra come salvare un documento con caratteri TrueType incorporati.
 
@@ -43,7 +45,5 @@ else
 ### Guarda anche
 
 * class [FontInfoCollection](../)
-* spazio dei nomi [Aspose.Words.Fonts](../../fontinfocollection/)
+* spazio dei nomi [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * assemblea [Aspose.Words](../../../)
-
-

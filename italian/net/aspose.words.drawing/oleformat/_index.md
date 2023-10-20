@@ -1,7 +1,9 @@
 ---
-title: Class OleFormat
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Drawing.OleFormat classe. Fornisce laccesso ai dati di un oggetto OLE o di un controllo ActiveX.
+title: OleFormat Class
+linktitle: OleFormat
+articleTitle: OleFormat
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Drawing.OleFormat classe. Fornisce laccesso ai dati di un oggetto OLE o di un controllo ActiveX in C#.
 type: docs
 weight: 1150
 url: /it/net/aspose.words.drawing/oleformat/
@@ -38,16 +40,16 @@ public class OleFormat
 
 | Nome | Descrizione |
 | --- | --- |
-| [GetOleEntry](../../aspose.words.drawing/oleformat/getoleentry/)(string) | Ottiene l'immissione dei dati dell'oggetto OLE. |
+| [GetOleEntry](../../aspose.words.drawing/oleformat/getoleentry/)(*string*) | Ottiene l'immissione dei dati dell'oggetto OLE. |
 | [GetRawData](../../aspose.words.drawing/oleformat/getrawdata/)() | Ottiene i dati grezzi dell'oggetto OLE. |
-| [Save](../../aspose.words.drawing/oleformat/save/#save)(Stream) | Salva i dati dell'oggetto incorporato nello stream specificato. |
-| [Save](../../aspose.words.drawing/oleformat/save/#save_1)(string) | Salva i dati dell'oggetto incorporato in un file con il nome specificato. |
+| [Save](../../aspose.words.drawing/oleformat/save/#save)(*Stream*) | Salva i dati dell'oggetto incorporato nello stream specificato. |
+| [Save](../../aspose.words.drawing/oleformat/save/#save_1)(*string*) | Salva i dati dell'oggetto incorporato in un file con il nome specificato. |
 
-### Osservazioni
+## Osservazioni
 
 Usa il[`OleFormat`](../shape/oleformat/)proprietà per accedere ai dati di un oggetto OLE. Non si creano istanze del`OleFormat` classe direttamente.
 
-### Esempi
+## Esempi
 
 Mostra come estrarre oggetti OLE incorporati nei file.
 
@@ -83,5 +85,3 @@ oleFormat.Save(ArtifactsDir + "OLE spreadsheet saved directly" + oleFormat.Sugge
 
 * spazio dei nomi [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * assemblea [Aspose.Words](../../)
-
-

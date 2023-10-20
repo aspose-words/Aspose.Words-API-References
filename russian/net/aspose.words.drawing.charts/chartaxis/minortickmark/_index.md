@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.MinorTickMark
-second_title: Справочник по API Aspose.Words для .NET
-description: ChartAxis свойство. Возвращает или устанавливает второстепенные деления для оси.
+linktitle: MinorTickMark
+articleTitle: MinorTickMark
+second_title: Aspose.Words для .NET
+description: ChartAxis MinorTickMark свойство. Возвращает или устанавливает второстепенные деления для оси на С#.
 type: docs
 weight: 150
 url: /ru/net/aspose.words.drawing.charts/chartaxis/minortickmark/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.drawing.charts/chartaxis/minortickmark/
 public AxisTickMark MinorTickMark { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как вставить диаграмму и изменить внешний вид ее осей.
 
@@ -68,7 +70,5 @@ doc.Save(ArtifactsDir + "Charts.AxisProperties.docx");
 
 * enum [AxisTickMark](../../axistickmark/)
 * class [ChartAxis](../)
-* пространство имен [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* пространство имен [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../../)
-
-

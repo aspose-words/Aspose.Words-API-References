@@ -1,7 +1,9 @@
 ---
 title: ImageSaveOptions.PageSet
-second_title: Aspose.Words لمراجع .NET API
-description: ImageSaveOptions ملكية. الحصول على الصفحات المراد عرضها أو تعيينها. الافتراضي هو كافة الصفحات الموجودة في المستند.
+linktitle: PageSet
+articleTitle: PageSet
+second_title: Aspose.Words لـ .NET
+description: ImageSaveOptions PageSet ملكية. الحصول على الصفحات المراد عرضها أو تعيينها. الافتراضي هو كافة الصفحات الموجودة في المستند في C#.
 type: docs
 weight: 100
 url: /ar/net/aspose.words.saving/imagesaveoptions/pageset/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.saving/imagesaveoptions/pageset/
 public PageSet PageSet { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 هذه الخاصية لها تأثير فقط عند عرض صفحات المستند. يتم تجاهل هذه الخاصية عند تحويل الأشكال إلى صور.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخراج الصفحات بناءً على نطاقات الصفحات المحددة.
 
@@ -122,7 +124,5 @@ doc.Save(ArtifactsDir + "ImageSaveOptions.OnePage.jpg", options);
 
 * class [PageSet](../../pageset/)
 * class [ImageSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../imagesaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

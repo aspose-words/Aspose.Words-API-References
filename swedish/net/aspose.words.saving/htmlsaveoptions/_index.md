@@ -1,7 +1,9 @@
 ---
-title: Class HtmlSaveOptions
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Saving.HtmlSaveOptions klass. Kan användas för att ange ytterligare alternativ när du sparar ett dokument i Html Mhtml Epub  Azw3 ellerMobi format.
+title: HtmlSaveOptions Class
+linktitle: HtmlSaveOptions
+articleTitle: HtmlSaveOptions
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Saving.HtmlSaveOptions klass. Kan användas för att ange ytterligare alternativ när du sparar ett dokument i Html Mhtml Epub  Azw3 ellerMobi format i C#.
 type: docs
 weight: 5110
 url: /sv/net/aspose.words.saving/htmlsaveoptions/
@@ -21,7 +23,7 @@ public class HtmlSaveOptions : SaveOptions
 | namn | Beskrivning |
 | --- | --- |
 | [HtmlSaveOptions](htmlsaveoptions/#constructor)() | Initierar en ny instans av denna klass som kan användas för att spara ett document iHtml format. |
-| [HtmlSaveOptions](htmlsaveoptions/#constructor_1)(SaveFormat) | Initierar en ny instans av denna klass som kan användas för att spara ett document iHtml ,Mhtml ,Epub , Azw3 ellerMobi format. |
+| [HtmlSaveOptions](htmlsaveoptions/#constructor_1)(*[SaveFormat](../../aspose.words/saveformat/)*) | Initierar en ny instans av denna klass som kan användas för att spara ett document iHtml ,Mhtml ,Epub , Azw3 ellerMobi format. |
 
 ## Egenskaper
 
@@ -34,7 +36,7 @@ public class HtmlSaveOptions : SaveOptions
 | [CssStyleSheetFileName](../../aspose.words.saving/htmlsaveoptions/cssstylesheetfilename/) { get; set; } | Anger sökvägen och namnet på CSS-filen (Cascading Style Sheet) som skrivs när ett document exporteras till HTML. Standard är en tom sträng. |
 | [CssStyleSheetType](../../aspose.words.saving/htmlsaveoptions/cssstylesheettype/) { get; set; } | Anger hur CSS-stilar (Cascading Style Sheet) exporteras till HTML, MHTML eller EPUB. Standardvärdet ärInline för HTML/MHTML och External för EPUB. |
 | [CustomTimeZoneInfo](../../aspose.words.saving/saveoptions/customtimezoneinfo/) { get; set; } | Hämtar eller ställer in anpassad lokal tidszon som används för datum-/tidsfält. |
-| [DefaultTemplate](../../aspose.words.saving/saveoptions/defaulttemplate/) { get; set; } | Hämtar eller ställer in sökvägen till standardmall (inklusive filnamn). Standardvärdet för den här egenskapen är **tom sträng** (Empty). |
+| [DefaultTemplate](../../aspose.words.saving/saveoptions/defaulttemplate/) { get; set; } | Hämtar eller ställer in sökvägen till standardmall (inklusive filnamn). Standardvärdet för den här egenskapen är**tom sträng** (Empty). |
 | [Dml3DEffectsRenderingMode](../../aspose.words.saving/saveoptions/dml3deffectsrenderingmode/) { get; set; } | Hämtar eller ställer in ett värde som bestämmer hur 3D-effekter renderas. |
 | virtual [DmlEffectsRenderingMode](../../aspose.words.saving/saveoptions/dmleffectsrenderingmode/) { get; set; } | Hämtar eller ställer in ett värde som bestämmer hur DrawingML-effekter renderas. |
 | [DmlRenderingMode](../../aspose.words.saving/saveoptions/dmlrenderingmode/) { get; set; } | Hämtar eller ställer in ett värde som bestämmer hur DrawingML-former renderas. |
@@ -91,7 +93,7 @@ public class HtmlSaveOptions : SaveOptions
 | [UseAntiAliasing](../../aspose.words.saving/saveoptions/useantialiasing/) { get; set; } | Hämtar eller ställer in ett värde som avgör om kantutjämning ska användas eller inte för rendering. |
 | [UseHighQualityRendering](../../aspose.words.saving/saveoptions/usehighqualityrendering/) { get; set; } | Hämtar eller ställer in ett värde som avgör huruvida högkvalitativa (dvs långsamma) renderingsalgoritmer ska användas eller inte. |
 
-### Exempel
+## Exempel
 
 Visar hur man anger mappen för lagring av länkade bilder efter att ha sparats i .html.
 
@@ -254,5 +256,3 @@ public class SavedImageRename : IImageSavingCallback
 * class [SaveOptions](../saveoptions/)
 * namnutrymme [Aspose.Words.Saving](../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../)
-
-

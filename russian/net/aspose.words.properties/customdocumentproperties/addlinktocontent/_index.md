@@ -1,7 +1,9 @@
 ---
 title: CustomDocumentProperties.AddLinkToContent
-second_title: Справочник по API Aspose.Words для .NET
-description: CustomDocumentProperties метод. Создает новое свойство пользовательского документа связанное с содержимым.
+linktitle: AddLinkToContent
+articleTitle: AddLinkToContent
+second_title: Aspose.Words для .NET
+description: CustomDocumentProperties AddLinkToContent метод. Создает новое свойство пользовательского документа связанное с содержимым на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.properties/customdocumentproperties/addlinktocontent/
@@ -23,7 +25,7 @@ public DocumentProperty AddLinkToContent(string name, string linkSource)
 
 Вновь созданный объект свойства или`нулевой` когда*linkSource* является недействительным.
 
-### Примеры
+## Примеры
 
 Показывает, как связать настраиваемое свойство документа с закладкой.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "DocumentProperties.LinkCustomDocumentPropertiesToBookma
 
 * class [DocumentProperty](../../documentproperty/)
 * class [CustomDocumentProperties](../)
-* пространство имен [Aspose.Words.Properties](../../customdocumentproperties/)
+* пространство имен [Aspose.Words.Properties](../../../aspose.words.properties/)
 * сборка [Aspose.Words](../../../)
-
-

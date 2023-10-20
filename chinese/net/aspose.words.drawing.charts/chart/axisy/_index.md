@@ -1,7 +1,9 @@
 ---
 title: Chart.AxisY
-second_title: Aspose.Words for .NET API 参考
-description: Chart 财产. 提供对图表 Y 轴属性的访问
+linktitle: AxisY
+articleTitle: AxisY
+second_title: 用于 .NET 的 Aspose.Words
+description: Chart AxisY 财产. 提供对图表 Y 轴属性的访问 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.drawing.charts/chart/axisy/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.drawing.charts/chart/axisy/
 public ChartAxis AxisY { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何插入图表并修改其轴的外观。
 
@@ -68,7 +70,5 @@ doc.Save(ArtifactsDir + "Charts.AxisProperties.docx");
 
 * class [ChartAxis](../../chartaxis/)
 * class [Chart](../)
-* 命名空间 [Aspose.Words.Drawing.Charts](../../chart/)
+* 命名空间 [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * 部件 [Aspose.Words](../../../)
-
-

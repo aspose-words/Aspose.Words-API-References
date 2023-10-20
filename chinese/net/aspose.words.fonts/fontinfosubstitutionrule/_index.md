@@ -1,7 +1,9 @@
 ---
-title: Class FontInfoSubstitutionRule
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Fonts.FontInfoSubstitutionRule 班级. 字体信息替换规则
+title: FontInfoSubstitutionRule Class
+linktitle: FontInfoSubstitutionRule
+articleTitle: FontInfoSubstitutionRule
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Fonts.FontInfoSubstitutionRule 班级. 字体信息替换规则 在 C#.
 type: docs
 weight: 2940
 url: /zh/net/aspose.words.fonts/fontinfosubstitutionrule/
@@ -22,11 +24,11 @@ public class FontInfoSubstitutionRule : FontSubstitutionRule
 | --- | --- |
 | virtual [Enabled](../../aspose.words.fonts/fontsubstitutionrule/enabled/) { get; set; } | 指定是否启用规则。 |
 
-### 评论
+## 评论
 
 根据此规则 Aspose.Words 评估中的所有相关字段[`FontInfo`](../fontinfo/)（Panose、Sig 等）查找 缺失的字体，并在可用字体源中找到最接近的匹配。如果[`FontInfo`](../fontinfo/) 不适用于缺少的字体，那么什么也不做。
 
-### 例子
+## 例子
 
 演示如何设置属性以从可用字体源中查找缺失字体的最接近匹配项。
 
@@ -88,5 +90,3 @@ public class HandleDocumentSubstitutionWarnings : IWarningCallback
 * class [FontSubstitutionRule](../fontsubstitutionrule/)
 * 命名空间 [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * 部件 [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: PageSetup.OddAndEvenPagesHeaderFooter
-second_title: Aspose.Words für .NET-API-Referenz
-description: PageSetup eigendom. True wenn das Dokument unterschiedliche Kopf und Fußzeilen für ungeradzahlige und gerade nummerierte Seiten hat.
+linktitle: OddAndEvenPagesHeaderFooter
+articleTitle: OddAndEvenPagesHeaderFooter
+second_title: Aspose.Words für .NET
+description: PageSetup OddAndEvenPagesHeaderFooter eigendom. True wenn das Dokument unterschiedliche Kopf und Fußzeilen für ungeradzahlige und gerade nummerierte Seiten hat in C#.
 type: docs
 weight: 280
 url: /de/net/aspose.words/pagesetup/oddandevenpagesheaderfooter/
@@ -14,11 +16,11 @@ True, wenn das Dokument unterschiedliche Kopf- und Fußzeilen für ungeradzahlig
 public bool OddAndEvenPagesHeaderFooter { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Beachten Sie, dass sich die Änderung dieser Eigenschaft auf alle Abschnitte im Dokument auswirkt.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man mit DocumentBuilder Kopf- und Fußzeilen in einem Dokument erstellt.
 
@@ -91,7 +93,5 @@ doc.Save(ArtifactsDir + "PageSetup.OddAndEvenPagesHeaderFooter.docx");
 ### Siehe auch
 
 * class [PageSetup](../)
-* namensraum [Aspose.Words](../../pagesetup/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

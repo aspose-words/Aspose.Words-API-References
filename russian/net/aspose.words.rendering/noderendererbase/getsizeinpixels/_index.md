@@ -1,12 +1,14 @@
 ---
 title: NodeRendererBase.GetSizeInPixels
-second_title: Справочник по API Aspose.Words для .NET
-description: NodeRendererBase метод. Вычисляет размер фигуры в пикселях для указанного коэффициента масштабирования и разрешения.
+linktitle: GetSizeInPixels
+articleTitle: GetSizeInPixels
+second_title: Aspose.Words для .NET
+description: NodeRendererBase GetSizeInPixels метод. Вычисляет размер фигуры в пикселях для указанного коэффициента масштабирования и разрешения на С#.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.rendering/noderendererbase/getsizeinpixels/
 ---
-## GetSizeInPixels(float, float) {#getsizeinpixels}
+## GetSizeInPixels(*float, float*) {#getsizeinpixels}
 
 Вычисляет размер фигуры в пикселях для указанного коэффициента масштабирования и разрешения.
 
@@ -23,11 +25,11 @@ public Size GetSizeInPixels(float scale, float dpi)
 
 Размер фигуры в пикселях.
 
-### Примечания
+## Примечания
 
 Этот метод преобразует[`SizeInPoints`](../sizeinpoints/) в размер в пикселях, и это полезно , когда вы хотите создать растровое изображение для аккуратной визуализации формы на растровом изображении.
 
-### Примеры
+## Примеры
 
 Показывает, как измерять и масштабировать фигуры.
 
@@ -74,12 +76,12 @@ Assert.AreEqual(30, bounds.Height);
 ### Смотрите также
 
 * class [NodeRendererBase](../)
-* пространство имен [Aspose.Words.Rendering](../../noderendererbase/)
+* пространство имен [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## GetSizeInPixels(float, float, float) {#getsizeinpixels_1}
+## GetSizeInPixels(*float, float, float*) {#getsizeinpixels_1}
 
 Вычисляет размер фигуры в пикселях для указанного коэффициента масштабирования и разрешения.
 
@@ -97,11 +99,11 @@ public Size GetSizeInPixels(float scale, float horizontalDpi, float verticalDpi)
 
 Размер фигуры в пикселях.
 
-### Примечания
+## Примечания
 
 Этот метод преобразует[`SizeInPoints`](../sizeinpoints/) в размер в пикселях, и это полезно , когда вы хотите создать растровое изображение для аккуратной визуализации формы на растровом изображении.
 
-### Примеры
+## Примеры
 
 Показывает, как измерять и масштабировать фигуры.
 
@@ -148,7 +150,5 @@ Assert.AreEqual(30, bounds.Height);
 ### Смотрите также
 
 * class [NodeRendererBase](../)
-* пространство имен [Aspose.Words.Rendering](../../noderendererbase/)
+* пространство имен [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * сборка [Aspose.Words](../../../)
-
-

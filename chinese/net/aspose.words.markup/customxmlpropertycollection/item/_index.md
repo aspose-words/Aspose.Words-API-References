@@ -1,7 +1,9 @@
 ---
 title: CustomXmlPropertyCollection.Item
-second_title: Aspose.Words for .NET API 参考
-description: CustomXmlPropertyCollection 财产. 获取具有指定名称的属性
+linktitle: Item
+articleTitle: Item
+second_title: 用于 .NET 的 Aspose.Words
+description: CustomXmlPropertyCollection Item 财产. 获取具有指定名称的属性 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.markup/customxmlpropertycollection/item/
@@ -18,7 +20,7 @@ public CustomXmlProperty this[string name] { get; }
 | --- | --- |
 | name | 要查找的属性名称，区分大小写。 |
 
-### 例子
+## 例子
 
 展示如何使用智能标记属性来获取有关智能标记的深入信息。
 
@@ -76,7 +78,7 @@ Assert.AreEqual(0, properties.Count);
 
 * class [CustomXmlProperty](../../customxmlproperty/)
 * class [CustomXmlPropertyCollection](../)
-* 命名空间 [Aspose.Words.Markup](../../customxmlpropertycollection/)
+* 命名空间 [Aspose.Words.Markup](../../../aspose.words.markup/)
 * 部件 [Aspose.Words](../../../)
 
 ---
@@ -93,7 +95,7 @@ public CustomXmlProperty this[int index] { get; }
 | --- | --- |
 | index | 属性的从零开始的索引。 |
 
-### 例子
+## 例子
 
 展示如何使用智能标记属性来获取有关智能标记的深入信息。
 
@@ -151,7 +153,5 @@ Assert.AreEqual(0, properties.Count);
 
 * class [CustomXmlProperty](../../customxmlproperty/)
 * class [CustomXmlPropertyCollection](../)
-* 命名空间 [Aspose.Words.Markup](../../customxmlpropertycollection/)
+* 命名空间 [Aspose.Words.Markup](../../../aspose.words.markup/)
 * 部件 [Aspose.Words](../../../)
-
-

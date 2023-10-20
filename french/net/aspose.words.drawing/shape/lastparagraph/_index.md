@@ -1,7 +1,9 @@
 ---
 title: Shape.LastParagraph
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Shape propriété. Obtient le dernier paragraphe de la forme.
+linktitle: LastParagraph
+articleTitle: LastParagraph
+second_title: Aspose.Words pour .NET
+description: Shape LastParagraph propriété. Obtient le dernier paragraphe de la forme en C#.
 type: docs
 weight: 120
 url: /fr/net/aspose.words.drawing/shape/lastparagraph/
@@ -14,7 +16,7 @@ Obtient le dernier paragraphe de la forme.
 public Paragraph LastParagraph { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment définir l’orientation du texte à l’intérieur d’une zone de texte.
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "Shape.TextBoxLayoutFlow.docx");
 
 * class [Paragraph](../../../aspose.words/paragraph/)
 * class [Shape](../)
-* espace de noms [Aspose.Words.Drawing](../../shape/)
+* espace de noms [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: HtmlLoadOptions.SupportVml
-second_title: Aspose.Words لمراجع .NET API
-description: HtmlLoadOptions ملكية. الحصول على قيمة أو تعيينها تشير إلى ما إذا كان سيتم دعم صور VML أم لا.
+linktitle: SupportVml
+articleTitle: SupportVml
+second_title: Aspose.Words لـ .NET
+description: HtmlLoadOptions SupportVml ملكية. الحصول على قيمة أو تعيينها تشير إلى ما إذا كان سيتم دعم صور VML أم لا في C#.
 type: docs
 weight: 60
 url: /ar/net/aspose.words.loading/htmlloadoptions/supportvml/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.loading/htmlloadoptions/supportvml/
 public bool SupportVml { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية دعم التعليقات الشرطية أثناء تحميل مستند HTML.
 
@@ -39,7 +41,5 @@ else
 ### أنظر أيضا
 
 * class [HtmlLoadOptions](../)
-* مساحة الاسم [Aspose.Words.Loading](../../htmlloadoptions/)
+* مساحة الاسم [Aspose.Words.Loading](../../../aspose.words.loading/)
 * المجسم [Aspose.Words](../../../)
-
-

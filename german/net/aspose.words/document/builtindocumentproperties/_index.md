@@ -1,7 +1,9 @@
 ---
 title: Document.BuiltInDocumentProperties
-second_title: Aspose.Words für .NET-API-Referenz
-description: Document eigendom. Gibt eine Sammlung zurück die alle integrierten Dokumenteigenschaften des Dokuments darstellt.
+linktitle: BuiltInDocumentProperties
+articleTitle: BuiltInDocumentProperties
+second_title: Aspose.Words für .NET
+description: Document BuiltInDocumentProperties eigendom. Gibt eine Sammlung zurück die alle integrierten Dokumenteigenschaften des Dokuments darstellt in C#.
 type: docs
 weight: 40
 url: /de/net/aspose.words/document/builtindocumentproperties/
@@ -14,7 +16,7 @@ Gibt eine Sammlung zurück, die alle integrierten Dokumenteigenschaften des Doku
 public BuiltInDocumentProperties BuiltInDocumentProperties { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit integrierten Dokumenteigenschaften gearbeitet wird.
 
@@ -49,7 +51,5 @@ foreach (DocumentProperty docProperty in doc.BuiltInDocumentProperties)
 
 * class [BuiltInDocumentProperties](../../../aspose.words.properties/builtindocumentproperties/)
 * class [Document](../)
-* namensraum [Aspose.Words](../../document/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

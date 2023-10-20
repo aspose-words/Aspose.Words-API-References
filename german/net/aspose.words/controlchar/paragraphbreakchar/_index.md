@@ -1,7 +1,9 @@
 ---
 title: ControlChar.ParagraphBreakChar
-second_title: Aspose.Words für .NET-API-Referenz
-description: ControlChar veld. Absatzendezeichen char13 oder r.
+linktitle: ParagraphBreakChar
+articleTitle: ParagraphBreakChar
+second_title: Aspose.Words für .NET
+description: ControlChar ParagraphBreakChar veld. Absatzendezeichen char13 oder r in C#.
 type: docs
 weight: 230
 url: /de/net/aspose.words/controlchar/paragraphbreakchar/
@@ -14,7 +16,7 @@ Absatzendezeichen: (char)13 oder „\r“.
 public const char ParagraphBreakChar;
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man einem Dokument verschiedene Steuerzeichen hinzufügt.
 
@@ -86,7 +88,5 @@ Assert.AreEqual(Convert.ToChar(ControlChar.ColumnBreak), ControlChar.ColumnBreak
 ### Siehe auch
 
 * class [ControlChar](../)
-* namensraum [Aspose.Words](../../controlchar/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

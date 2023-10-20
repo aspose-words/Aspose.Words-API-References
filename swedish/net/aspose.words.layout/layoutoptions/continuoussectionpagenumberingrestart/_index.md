@@ -1,7 +1,9 @@
 ---
 title: LayoutOptions.ContinuousSectionPageNumberingRestart
-second_title: Aspose.Words för .NET API Referens
-description: LayoutOptions fast egendom. Hämtar eller ställer in beteendet för beräkning av sidnummer när ett kontinuerligt avsnitt startar om sidnumreringen.
+linktitle: ContinuousSectionPageNumberingRestart
+articleTitle: ContinuousSectionPageNumberingRestart
+second_title: Aspose.Words för .NET
+description: LayoutOptions ContinuousSectionPageNumberingRestart fast egendom. Hämtar eller ställer in beteendet för beräkning av sidnummer när ett kontinuerligt avsnitt startar om sidnumreringen i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.layout/layoutoptions/continuoussectionpagenumberingrestart/
@@ -14,11 +16,11 @@ Hämtar eller ställer in beteendet för beräkning av sidnummer när ett kontin
 public ContinuousSectionRestart ContinuousSectionPageNumberingRestart { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Standardvärdet ärAlways. Det matchar beteendet hos MS Word 2019 som var den senaste versionen vid det ögonblick då alternativet introducerades. Äldre sidnumreringslogik som demonstreras av MS Word 2016 är tillgänglig via detta alternativ. Vänligen[`ContinuousSectionRestart`](../../continuoussectionrestart/) för beteendebeskrivningen.
 
-### Exempel
+## Exempel
 
 Visar hur man styr sidnumreringen i ett kontinuerligt avsnitt.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "Layout.RestartPageNumberingInContinuousSection.pdf");
 
 * enum [ContinuousSectionRestart](../../continuoussectionrestart/)
 * class [LayoutOptions](../)
-* namnutrymme [Aspose.Words.Layout](../../layoutoptions/)
+* namnutrymme [Aspose.Words.Layout](../../../aspose.words.layout/)
 * hopsättning [Aspose.Words](../../../)
-
-

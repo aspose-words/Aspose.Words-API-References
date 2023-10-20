@@ -1,7 +1,9 @@
 ---
 title: CustomXmlSchemaCollection.Clone
-second_title: Aspose.Words لمراجع .NET API
-description: CustomXmlSchemaCollection طريقة. إجراء استنساخ عميق لهذا الكائن.
+linktitle: Clone
+articleTitle: Clone
+second_title: Aspose.Words لـ .NET
+description: CustomXmlSchemaCollection Clone طريقة. إجراء استنساخ عميق لهذا الكائن في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.markup/customxmlschemacollection/clone/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.markup/customxmlschemacollection/clone/
 public CustomXmlSchemaCollection Clone()
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع مجموعة مخططات XML.
 
@@ -60,7 +62,5 @@ Assert.AreEqual(0, schemas.Count);
 ### أنظر أيضا
 
 * class [CustomXmlSchemaCollection](../)
-* مساحة الاسم [Aspose.Words.Markup](../../customxmlschemacollection/)
+* مساحة الاسم [Aspose.Words.Markup](../../../aspose.words.markup/)
 * المجسم [Aspose.Words](../../../)
-
-

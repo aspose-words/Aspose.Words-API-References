@@ -1,7 +1,9 @@
 ---
 title: FontSavingArgs.FontFamilyName
-second_title: Referencia de API de Aspose.Words para .NET
-description: FontSavingArgs propiedad. Indica el nombre de la familia de fuentes actual.
+linktitle: FontFamilyName
+articleTitle: FontFamilyName
+second_title: Aspose.Words para .NET
+description: FontSavingArgs FontFamilyName propiedad. Indica el nombre de la familia de fuentes actual en C#.
 type: docs
 weight: 30
 url: /es/net/aspose.words.saving/fontsavingargs/fontfamilyname/
@@ -14,7 +16,7 @@ Indica el nombre de la familia de fuentes actual.
 public string FontFamilyName { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo definir una lógica personalizada para exportar fuentes al guardar en HTML.
 
@@ -74,7 +76,5 @@ public class HandleFontSaving : IFontSavingCallback
 ### Ver también
 
 * class [FontSavingArgs](../)
-* espacio de nombres [Aspose.Words.Saving](../../fontsavingargs/)
+* espacio de nombres [Aspose.Words.Saving](../../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../../)
-
-

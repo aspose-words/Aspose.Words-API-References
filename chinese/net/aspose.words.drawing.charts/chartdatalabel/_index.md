@@ -1,7 +1,9 @@
 ---
-title: Class ChartDataLabel
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Drawing.Charts.ChartDataLabel 班级. 表示图表点或趋势线上的数据标签
+title: ChartDataLabel Class
+linktitle: ChartDataLabel
+articleTitle: ChartDataLabel
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Drawing.Charts.ChartDataLabel 班级. 表示图表点或趋势线上的数据标签 在 C#.
 type: docs
 weight: 670
 url: /zh/net/aspose.words.drawing.charts/chartdatalabel/
@@ -42,11 +44,11 @@ public class ChartDataLabel
 | --- | --- |
 | [ClearFormat](../../aspose.words.drawing.charts/chartdatalabel/clearformat/)() | 清除该数据标签的格式。这些属性设置为父 data 标签集合中定义的默认值。 |
 
-### 评论
+## 评论
 
 在一个系列中，`ChartDataLabel`对象是一个成员[`ChartDataLabelCollection`](../chartdatalabelcollection/)。 的[`ChartDataLabelCollection`](../chartdatalabelcollection/)包含一个`ChartDataLabel`每个点的对象。
 
-### 例子
+## 例子
 
 展示如何将标签应用到折线图中的数据点。
 
@@ -125,5 +127,3 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
 
 * 命名空间 [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * 部件 [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldNoteRef.BookmarkName
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldNoteRef свойство. Получает или задает имя закладки.
+linktitle: BookmarkName
+articleTitle: BookmarkName
+second_title: Aspose.Words для .NET
+description: FieldNoteRef BookmarkName свойство. Получает или задает имя закладки на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.fields/fieldnoteref/bookmarkname/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldnoteref/bookmarkname/
 public string BookmarkName { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как вставить поля NOTEREF и изменить их внешний вид.
 
@@ -83,7 +85,5 @@ private static void InsertBookmarkWithFootnote(DocumentBuilder builder, string b
 ### Смотрите также
 
 * class [FieldNoteRef](../)
-* пространство имен [Aspose.Words.Fields](../../fieldnoteref/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

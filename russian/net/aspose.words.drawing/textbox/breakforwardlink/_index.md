@@ -1,7 +1,9 @@
 ---
 title: TextBox.BreakForwardLink
-second_title: Справочник по API Aspose.Words для .NET
-description: TextBox метод. Разрывает ссылку на следующийTextBox .
+linktitle: BreakForwardLink
+articleTitle: BreakForwardLink
+second_title: Aspose.Words для .NET
+description: TextBox BreakForwardLink метод. Разрывает ссылку на следующийTextBox  на С#.
 type: docs
 weight: 130
 url: /ru/net/aspose.words.drawing/textbox/breakforwardlink/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.drawing/textbox/breakforwardlink/
 public void BreakForwardLink()
 ```
 
-### Примечания
+## Примечания
 
 `BreakForwardLink`не разрывает все остальные связи в текущей последовательности фигур. Например: последовательность 1-2-3-4 и`BreakForwardLink` во 2-м текстовом поле создадим две последовательности 1-2, 3-4.
 
-### Примеры
+## Примеры
 
 Показывает, как связать текстовые поля.
 
@@ -79,7 +81,5 @@ doc.Save(ArtifactsDir + "Shape.CreateLinkBetweenTextBoxes.docx");
 ### Смотрите также
 
 * class [TextBox](../)
-* пространство имен [Aspose.Words.Drawing](../../textbox/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ResourceLoadingArgs.ResourceType
-second_title: Referencia de API de Aspose.Words para .NET
-description: ResourceLoadingArgs propiedad. Tipo de recurso.
+linktitle: ResourceType
+articleTitle: ResourceType
+second_title: Aspose.Words para .NET
+description: ResourceLoadingArgs ResourceType propiedad. Tipo de recurso en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words.loading/resourceloadingargs/resourcetype/
@@ -14,7 +16,7 @@ Tipo de recurso.
 public ResourceType ResourceType { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo personalizar el proceso de carga de recursos externos en un documento.
 
@@ -78,7 +80,5 @@ private class ImageNameHandler : IResourceLoadingCallback
 
 * enum [ResourceType](../../resourcetype/)
 * class [ResourceLoadingArgs](../)
-* espacio de nombres [Aspose.Words.Loading](../../resourceloadingargs/)
+* espacio de nombres [Aspose.Words.Loading](../../../aspose.words.loading/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: List.HasSameTemplate
-second_title: Aspose.Words لمراجع .NET API
-description: List طريقة. إرجاع صحيح إذا تم إنشاء القائمة الحالية والقائمة المحددة من نفس القالب.
+linktitle: HasSameTemplate
+articleTitle: HasSameTemplate
+second_title: Aspose.Words لـ .NET
+description: List HasSameTemplate طريقة. إرجاع صحيح إذا تم إنشاء القائمة الحالية والقائمة المحددة من نفس القالب في C#.
 type: docs
 weight: 120
 url: /ar/net/aspose.words.lists/list/hassametemplate/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.lists/list/hassametemplate/
 public bool HasSameTemplate(List other)
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحديد القوائم بنفس ListDefId.
 
@@ -28,7 +30,5 @@ Assert.False(doc.Lists[1].HasSameTemplate(doc.Lists[2]));
 ### أنظر أيضا
 
 * class [List](../)
-* مساحة الاسم [Aspose.Words.Lists](../../list/)
+* مساحة الاسم [Aspose.Words.Lists](../../../aspose.words.lists/)
 * المجسم [Aspose.Words](../../../)
-
-

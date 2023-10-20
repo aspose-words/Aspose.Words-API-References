@@ -1,9 +1,11 @@
 ---
 title: TxtLoadOptions.TrailingSpacesOptions
-second_title: Aspose.Words per .NET API Reference
-description: TxtLoadOptions proprietà. Ottiene o imposta lopzione preferita per la gestione dello spazio finale. Il valore predefinito èTrim .
+linktitle: TrailingSpacesOptions
+articleTitle: TrailingSpacesOptions
+second_title: Aspose.Words per .NET
+description: TxtLoadOptions TrailingSpacesOptions proprietà. Ottiene o imposta lopzione preferita per la gestione dello spazio finale. Il valore predefinito èTrim  in C#.
 type: docs
-weight: 70
+weight: 60
 url: /it/net/aspose.words.loading/txtloadoptions/trailingspacesoptions/
 ---
 ## TxtLoadOptions.TrailingSpacesOptions property
@@ -14,7 +16,7 @@ Ottiene o imposta l'opzione preferita per la gestione dello spazio finale. Il va
 public TxtTrailingSpacesOptions TrailingSpacesOptions { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come tagliare gli spazi bianchi durante il caricamento di documenti di testo normale.
 
@@ -91,7 +93,5 @@ switch (txtTrailingSpacesOptions)
 
 * enum [TxtTrailingSpacesOptions](../../txttrailingspacesoptions/)
 * class [TxtLoadOptions](../)
-* spazio dei nomi [Aspose.Words.Loading](../../txtloadoptions/)
+* spazio dei nomi [Aspose.Words.Loading](../../../aspose.words.loading/)
 * assemblea [Aspose.Words](../../../)
-
-

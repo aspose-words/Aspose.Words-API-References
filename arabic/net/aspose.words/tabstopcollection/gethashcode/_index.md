@@ -1,7 +1,9 @@
 ---
 title: TabStopCollection.GetHashCode
-second_title: Aspose.Words لمراجع .NET API
-description: TabStopCollection طريقة. بمثابة دالة تجزئة لهذا النوع.
+linktitle: GetHashCode
+articleTitle: GetHashCode
+second_title: Aspose.Words لـ .NET
+description: TabStopCollection GetHashCode طريقة. بمثابة دالة تجزئة لهذا النوع في C#.
 type: docs
 weight: 80
 url: /ar/net/aspose.words/tabstopcollection/gethashcode/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/tabstopcollection/gethashcode/
 public override int GetHashCode()
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التعامل مع مجموعة علامات الجدولة الخاصة بالمستند.
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "TabStopCollection.TabStopCollection.docx");
 ### أنظر أيضا
 
 * class [TabStopCollection](../)
-* مساحة الاسم [Aspose.Words](../../tabstopcollection/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

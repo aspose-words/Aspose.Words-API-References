@@ -1,7 +1,9 @@
 ---
-title: Interface IDocumentPartSavingCallback
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Saving.IDocumentPartSavingCallback gränssnitt. Implementera detta gränssnitt om du vill ta emot meddelanden och kontrollera hur Aspose.Words sparar dokumentdelar när du exporterar ett dokument tillHtml ellerEpub format.
+title: IDocumentPartSavingCallback Interface
+linktitle: IDocumentPartSavingCallback
+articleTitle: IDocumentPartSavingCallback
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Saving.IDocumentPartSavingCallback gränssnitt. Implementera detta gränssnitt om du vill ta emot meddelanden och kontrollera hur Aspose.Words sparar dokumentdelar när du exporterar ett dokument tillHtml ellerEpub format i C#.
 type: docs
 weight: 5140
 url: /sv/net/aspose.words.saving/idocumentpartsavingcallback/
@@ -18,9 +20,9 @@ public interface IDocumentPartSavingCallback
 
 | namn | Beskrivning |
 | --- | --- |
-| [DocumentPartSaving](../../aspose.words.saving/idocumentpartsavingcallback/documentpartsaving/)(DocumentPartSavingArgs) | Anropas när Aspose.Words håller på att spara en dokumentdel. |
+| [DocumentPartSaving](../../aspose.words.saving/idocumentpartsavingcallback/documentpartsaving/)(*[DocumentPartSavingArgs](../documentpartsavingargs/)*) | Anropas när Aspose.Words håller på att spara en dokumentdel. |
 
-### Exempel
+## Exempel
 
 Visar hur man delar upp ett dokument i delar och sparar dem.
 
@@ -138,5 +140,3 @@ public class SavedImageRename : IImageSavingCallback
 
 * namnutrymme [Aspose.Words.Saving](../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../)
-
-

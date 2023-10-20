@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.TabStops
-second_title: Aspose.Words für .NET-API-Referenz
-description: ParagraphFormat eigendom. Ruft die Sammlung benutzerdefinierter Tabstopps ab die für dieses Objekt definiert sind.
+linktitle: TabStops
+articleTitle: TabStops
+second_title: Aspose.Words für .NET
+description: ParagraphFormat TabStops eigendom. Ruft die Sammlung benutzerdefinierter Tabstopps ab die für dieses Objekt definiert sind in C#.
 type: docs
 weight: 390
 url: /de/net/aspose.words/paragraphformat/tabstops/
@@ -14,7 +16,7 @@ Ruft die Sammlung benutzerdefinierter Tabstopps ab, die für dieses Objekt defin
 public TabStopCollection TabStops { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Position des rechten Tabstopps in Inhaltsverzeichnis-bezogenen Absätzen geändert wird.
 
@@ -41,7 +43,5 @@ doc.Save(ArtifactsDir + "Styles.ChangeTocsTabStops.docx");
 
 * class [TabStopCollection](../../tabstopcollection/)
 * class [ParagraphFormat](../)
-* namensraum [Aspose.Words](../../paragraphformat/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

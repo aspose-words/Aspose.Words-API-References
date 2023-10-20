@@ -1,7 +1,9 @@
 ---
 title: MetafileRenderingOptions.EmulateRasterOperations
-second_title: Aspose.Words لمراجع .NET API
-description: MetafileRenderingOptions ملكية. الحصول على قيمة أو تعيينها لتحديد ما إذا كان يجب محاكاة العمليات النقطية أم لا.
+linktitle: EmulateRasterOperations
+articleTitle: EmulateRasterOperations
+second_title: Aspose.Words لـ .NET
+description: MetafileRenderingOptions EmulateRasterOperations ملكية. الحصول على قيمة أو تعيينها لتحديد ما إذا كان يجب محاكاة العمليات النقطية أم لا في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.saving/metafilerenderingoptions/emulaterasteroperations/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.saving/metafilerenderingoptions/emulaterasteroperation
 public bool EmulateRasterOperations { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 يمكن استخدام عمليات نقطية محددة في ملفات التعريف. ولا يمكن عرضها مباشرة إلى الرسومات المتجهة. تتطلب محاكاة العمليات النقطية تنقيطًا جزئيًا للرسومات المتجهة الناتجة مما قد يؤثر على أداء عرض ملف التعريف .
 
@@ -26,7 +28,7 @@ public bool EmulateRasterOperations { get; set; }
 
 القيمة الافتراضية هي`حقيقي`.
 
-### أمثلة
+## أمثلة
 
 تمت إضافة بديل لعرض الصور النقطية وتغيير نوع التحذيرات حول سجلات ملفات التعريف غير المدعومة.
 
@@ -81,7 +83,5 @@ public class HandleDocumentWarnings : IWarningCallback
 ### أنظر أيضا
 
 * class [MetafileRenderingOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../metafilerenderingoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,14 +1,16 @@
 ---
-title: Class StructuredDocumentTagRangeStart
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Markup.StructuredDocumentTagRangeStart clase. Representa un inicio de a distancia etiqueta de documento estructurado que acepta contenido de varias secciones. Véase tambiénStructuredDocumentTagRangeEnd .
+title: StructuredDocumentTagRangeStart Class
+linktitle: StructuredDocumentTagRangeStart
+articleTitle: StructuredDocumentTagRangeStart
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Markup.StructuredDocumentTagRangeStart clase. Representa un inicio dea distancia etiqueta de documento estructurado que acepta contenido de varias secciones. Véase tambiénStructuredDocumentTagRangeEnd  en C#.
 type: docs
 weight: 4090
 url: /es/net/aspose.words.markup/structureddocumenttagrangestart/
 ---
 ## StructuredDocumentTagRangeStart class
 
-Representa un inicio de **a distancia** etiqueta de documento estructurado que acepta contenido de varias secciones. Véase también[`StructuredDocumentTagRangeEnd`](../structureddocumenttagrangeend/) .
+Representa un inicio de**a distancia** etiqueta de documento estructurado que acepta contenido de varias secciones. Véase también[`StructuredDocumentTagRangeEnd`](../structureddocumenttagrangeend/) .
 
 Para obtener más información, visite el[Etiquetas de documentos estructurados o control de contenido](https://docs.aspose.com/words/net/working-with-content-control-sdt/) artículo de documentación.
 
@@ -20,7 +22,7 @@ public class StructuredDocumentTagRangeStart : Node, IEnumerable<Node>, IStructu
 
 | Nombre | Descripción |
 | --- | --- |
-| [StructuredDocumentTagRangeStart](structureddocumenttagrangestart/)(DocumentBase, SdtType) | Inicializa una nueva instancia del **Inicio del rango de etiquetas de documentos estructurados** clase. |
+| [StructuredDocumentTagRangeStart](structureddocumenttagrangestart/)(*[DocumentBase](../../aspose.words/documentbase/), [SdtType](../sdttype/)*) | Inicializa una nueva instancia del**Inicio del rango de etiquetas de documentos estructurados** clase. |
 
 ## Propiedades
 
@@ -55,27 +57,27 @@ public class StructuredDocumentTagRangeStart : Node, IEnumerable<Node>, IStructu
 
 | Nombre | Descripción |
 | --- | --- |
-| override [Accept](../../aspose.words.markup/structureddocumenttagrangestart/accept/)(DocumentVisitor) | Acepta un visitante. |
-| [AppendChild](../../aspose.words.markup/structureddocumenttagrangestart/appendchild/)(Node) | Agrega el nodo especificado al final del rango de contenido estándar. |
-| [Clone](../../aspose.words/node/clone/)(bool) | Crea un duplicado del nodo. |
-| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Obtiene el primer ancestro del especificado[`NodeType`](../../aspose.words/nodetype/) . |
-| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Obtiene el primer antepasado del tipo de objeto especificado. |
-| [GetChildNodes](../../aspose.words.markup/structureddocumenttagrangestart/getchildnodes/)(NodeType, bool) | Devuelve una colección activa de nodos secundarios que coinciden con los tipos especificados. |
+| override [Accept](../../aspose.words.markup/structureddocumenttagrangestart/accept/)(*[DocumentVisitor](../../aspose.words/documentvisitor/)*) | Acepta un visitante. |
+| [AppendChild](../../aspose.words.markup/structureddocumenttagrangestart/appendchild/)(*[Node](../../aspose.words/node/)*) | Agrega el nodo especificado al final del rango de contenido estándar. |
+| [Clone](../../aspose.words/node/clone/)(*bool*) | Crea un duplicado del nodo. |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*[NodeType](../../aspose.words/nodetype/)*) | Obtiene el primer ancestro del especificado[`NodeType`](../../aspose.words/nodetype/) . |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | Obtiene el primer antepasado del tipo de objeto especificado. |
+| [GetChildNodes](../../aspose.words.markup/structureddocumenttagrangestart/getchildnodes/)(*[NodeType](../../aspose.words/nodetype/), bool*) | Devuelve una colección activa de nodos secundarios que coinciden con los tipos especificados. |
 | [GetEnumerator](../../aspose.words.markup/structureddocumenttagrangestart/getenumerator/)() | Proporciona soporte para cada iteración de estilo sobre los nodos secundarios de este nodo. |
 | virtual [GetText](../../aspose.words/node/gettext/)() | Obtiene el texto de este nodo y de todos sus hijos. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Obtiene el siguiente nodo según el algoritmo transversal del árbol de pedidos anticipados. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Obtiene el nodo anterior según el algoritmo transversal del árbol de pedidos anticipados. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../../aspose.words/node/)*) | Obtiene el siguiente nodo según el algoritmo transversal del árbol de pedidos anticipados. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../../aspose.words/node/)*) | Obtiene el nodo anterior según el algoritmo transversal del árbol de pedidos anticipados. |
 | [Remove](../../aspose.words/node/remove/)() | Se elimina del padre. |
 | [RemoveAllChildren](../../aspose.words.markup/structureddocumenttagrangestart/removeallchildren/)() | Elimina todos los nodos entre este nodo de inicio de rango y el nodo de final de rango. |
 | [RemoveSelfOnly](../../aspose.words.markup/structureddocumenttagrangestart/removeselfonly/)() | Elimina este inicio de rango y los nodos de final de rango apropiados de la etiqueta del documento estructurado, pero mantiene su contenido dentro del árbol del documento. |
-| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Exporta el contenido del nodo a una cadena en el formato especificado. |
-| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | Exporta el contenido del nodo a una cadena usando las opciones de guardado especificadas. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../../aspose.words/saveformat/)*) | Exporta el contenido del nodo a una cadena en el formato especificado. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | Exporta el contenido del nodo a una cadena usando las opciones de guardado especificadas. |
 
-### Observaciones
+## Observaciones
 
-Puede ser hijo inmediato de[`Body`](../../aspose.words/body/) nodo **solo** .
+Puede ser hijo inmediato de[`Body`](../../aspose.words/body/) nodo**solo** .
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo obtener las propiedades de etiquetas de documentos estructurados de varias secciones.
 
@@ -113,5 +115,3 @@ Console.WriteLine($"\t|NodeType: {rangeEndTag.NodeType}");
 * interface [IStructuredDocumentTag](../istructureddocumenttag/)
 * espacio de nombres [Aspose.Words.Markup](../../aspose.words.markup/)
 * asamblea [Aspose.Words](../../)
-
-

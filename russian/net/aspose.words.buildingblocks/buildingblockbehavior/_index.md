@@ -1,7 +1,9 @@
 ---
-title: Enum BuildingBlockBehavior
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.BuildingBlocks.BuildingBlockBehavior перечисление. Определяет поведение которое должно применяться к содержимому стандартного блока при его вставке в основной документ.
+title: BuildingBlockBehavior Enum
+linktitle: BuildingBlockBehavior
+articleTitle: BuildingBlockBehavior
+second_title: Aspose.Words для .NET
+description: Aspose.Words.BuildingBlocks.BuildingBlockBehavior перечисление. Определяет поведение которое должно применяться к содержимому стандартного блока при его вставке в основной документ на С#.
 type: docs
 weight: 140
 url: /ru/net/aspose.words.buildingblocks/buildingblockbehavior/
@@ -23,11 +25,11 @@ public enum BuildingBlockBehavior
 | Page | `2` | Указывает, что стандартный блок должен быть добавлен на отдельную страницу. |
 | Default | `0` | То же, что иContent . |
 
-### Примечания
+## Примечания
 
-Соответствует **ST_DocPartBehavior** введите OOXML.
+Соответствует**ST_DocPartBehavior** введите OOXML.
 
-### Примеры
+## Примеры
 
 Показывает, как добавить в документ пользовательский стандартный блок.
 
@@ -125,5 +127,3 @@ public class BuildingBlockVisitor : DocumentVisitor
 
 * пространство имен [Aspose.Words.BuildingBlocks](../../aspose.words.buildingblocks/)
 * сборка [Aspose.Words](../../)
-
-

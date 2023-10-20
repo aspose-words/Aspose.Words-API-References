@@ -1,7 +1,9 @@
 ---
 title: XlsxSaveOptions.CompressionLevel
-second_title: Aspose.Words för .NET API Referens
-description: XlsxSaveOptions fast egendom. Anger komprimeringsnivån som används för att spara dokument. Standardvärdet ärNormal .
+linktitle: CompressionLevel
+articleTitle: CompressionLevel
+second_title: Aspose.Words för .NET
+description: XlsxSaveOptions CompressionLevel fast egendom. Anger komprimeringsnivån som används för att spara dokument. Standardvärdet ärNormal  i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.saving/xlsxsaveoptions/compressionlevel/
@@ -14,7 +16,7 @@ Anger komprimeringsnivån som används för att spara dokument. Standardvärdet 
 public CompressionLevel CompressionLevel { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man komprimerar XLSX-dokument.
 
@@ -31,7 +33,5 @@ doc.Save(ArtifactsDir + "XlsxSaveOptions.CompressXlsx.xlsx", xlsxSaveOptions);
 
 * enum [CompressionLevel](../../compressionlevel/)
 * class [XlsxSaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../xlsxsaveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

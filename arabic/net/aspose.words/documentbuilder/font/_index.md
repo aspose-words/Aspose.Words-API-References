@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.Font
-second_title: Aspose.Words لمراجع .NET API
-description: DocumentBuilder ملكية. إرجاع كائن يمثل خصائص تنسيق الخط الحالية.
+linktitle: Font
+articleTitle: Font
+second_title: Aspose.Words لـ .NET
+description: DocumentBuilder Font ملكية. إرجاع كائن يمثل خصائص تنسيق الخط الحالية في C#.
 type: docs
 weight: 100
 url: /ar/net/aspose.words/documentbuilder/font/
@@ -14,13 +16,13 @@ url: /ar/net/aspose.words/documentbuilder/font/
 public Font Font { get; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 يستخدم`Font` للوصول إلى خصائص تنسيق الخط وتعديلها.
 
 تحديد تنسيق الخط قبل إدراج النص.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج سلسلة محاطة بحد في مستند.
 
@@ -99,7 +101,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.CreateFormattedTable.docx");
 
 * class [Font](../../font/)
 * class [DocumentBuilder](../)
-* مساحة الاسم [Aspose.Words](../../documentbuilder/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

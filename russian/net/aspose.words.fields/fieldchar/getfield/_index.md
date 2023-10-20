@@ -1,7 +1,9 @@
 ---
 title: FieldChar.GetField
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldChar метод. Возвращает поле для поля char.
+linktitle: GetField
+articleTitle: GetField
+second_title: Aspose.Words для .NET
+description: FieldChar GetField метод. Возвращает поле для поля char на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.fields/fieldchar/getfield/
@@ -18,11 +20,11 @@ public Field GetField()
 
 Поле для поля char.
 
-### Примечания
+## Примечания
 
 Новый[`Field`](../../field/) объект создается каждый раз при вызове метода.
 
-### Примеры
+## Примеры
 
 Показывает, как работать с узлом FieldStart.
 
@@ -54,7 +56,5 @@ field.Update();
 
 * class [Field](../../field/)
 * class [FieldChar](../)
-* пространство имен [Aspose.Words.Fields](../../fieldchar/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.DoNotVertAlignCellWithSp
-second_title: Aspose.Words لمراجع .NET API
-description: CompatibilityOptions ملكية. لا تقم بمحاذاة الخلايا التي تحتوي على كائنات عائمة رأسيًا.
+linktitle: DoNotVertAlignCellWithSp
+articleTitle: DoNotVertAlignCellWithSp
+second_title: Aspose.Words لـ .NET
+description: CompatibilityOptions DoNotVertAlignCellWithSp ملكية. لا تقم بمحاذاة الخلايا التي تحتوي على كائنات عائمة رأسيًا في C#.
 type: docs
 weight: 230
 url: /ar/net/aspose.words.settings/compatibilityoptions/donotvertaligncellwithsp/
@@ -17,7 +19,5 @@ public bool DoNotVertAlignCellWithSp { get; set; }
 ### أنظر أيضا
 
 * class [CompatibilityOptions](../)
-* مساحة الاسم [Aspose.Words.Settings](../../compatibilityoptions/)
+* مساحة الاسم [Aspose.Words.Settings](../../../aspose.words.settings/)
 * المجسم [Aspose.Words](../../../)
-
-

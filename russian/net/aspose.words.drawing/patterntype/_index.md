@@ -1,7 +1,9 @@
 ---
-title: Enum PatternType
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Drawing.PatternType перечисление. Указывает образец заливки который будет использоваться для заливки фигуры.
+title: PatternType Enum
+linktitle: PatternType
+articleTitle: PatternType
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Drawing.PatternType перечисление. Указывает образец заливки который будет использоваться для заливки фигуры на С#.
 type: docs
 weight: 1170
 url: /ru/net/aspose.words.drawing/patterntype/
@@ -78,5 +80,3 @@ public enum PatternType
 
 * пространство имен [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../)
-
-

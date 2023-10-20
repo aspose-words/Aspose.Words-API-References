@@ -1,20 +1,22 @@
 ---
 title: StructuredDocumentTagRangeEnd.Id
-second_title: Справочник по API Aspose.Words для .NET
-description: StructuredDocumentTagRangeEnd свойство. Указывает для этого уникальный постоянный числовой идентификатор доступный только для чтения. Структурированный документTagRange node. СоответствующийStructuredDocumentTagRangeStart узел имеет то же самоеId .
+linktitle: Id
+articleTitle: Id
+second_title: Aspose.Words для .NET
+description: StructuredDocumentTagRangeEnd Id свойство. Указывает для этого уникальный постоянный числовой идентификатор доступный только для чтения.Структурированный документTagRange node. СоответствующийStructuredDocumentTagRangeStart узел имеет то же самоеId  на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.markup/structureddocumenttagrangeend/id/
 ---
 ## StructuredDocumentTagRangeEnd.Id property
 
-Указывает для этого уникальный постоянный числовой идентификатор, доступный только для чтения. **Структурированный документTagRange** node. Соответствующий[`StructuredDocumentTagRangeStart`](../../structureddocumenttagrangestart/) узел имеет то же самое[`Id`](../../structureddocumenttagrangestart/id/) .
+Указывает для этого уникальный постоянный числовой идентификатор, доступный только для чтения.**Структурированный документTagRange** node. Соответствующий[`StructuredDocumentTagRangeStart`](../../structureddocumenttagrangestart/) узел имеет то же самое[`Id`](../../structureddocumenttagrangestart/id/) .
 
 ```csharp
 public int Id { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как получить свойства тегов многосекционного структурированного документа.
 
@@ -49,7 +51,5 @@ Console.WriteLine($"\t|NodeType: {rangeEndTag.NodeType}");
 ### Смотрите также
 
 * class [StructuredDocumentTagRangeEnd](../)
-* пространство имен [Aspose.Words.Markup](../../structureddocumenttagrangeend/)
+* пространство имен [Aspose.Words.Markup](../../../aspose.words.markup/)
 * сборка [Aspose.Words](../../../)
-
-

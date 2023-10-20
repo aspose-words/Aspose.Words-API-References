@@ -1,7 +1,9 @@
 ---
 title: FindReplaceOptions.UseLegacyOrder
-second_title: Aspose.Words لمراجع .NET API
-description: FindReplaceOptions ملكية. يشير True إلى أن البحث عن النص يتم إجراؤه بشكل تسلسلي من الأعلى إلى الأسفل مع الأخذ في الاعتبار مربعات النص. القيمة الافتراضية هيخطأ شنيع .
+linktitle: UseLegacyOrder
+articleTitle: UseLegacyOrder
+second_title: Aspose.Words لـ .NET
+description: FindReplaceOptions UseLegacyOrder ملكية. يشير True إلى أن البحث عن النص يتم إجراؤه بشكل تسلسلي من الأعلى إلى الأسفل مع الأخذ في الاعتبار مربعات النص. القيمة الافتراضية هيخطأ شنيع  في C#.
 type: docs
 weight: 170
 url: /ar/net/aspose.words.replacing/findreplaceoptions/uselegacyorder/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.replacing/findreplaceoptions/uselegacyorder/
 public bool UseLegacyOrder { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تغيير ترتيب البحث للعقد عند إجراء عملية البحث عن النص واستبداله.
 
@@ -71,7 +73,5 @@ private class TextReplacementTracker : IReplacingCallback
 ### أنظر أيضا
 
 * class [FindReplaceOptions](../)
-* مساحة الاسم [Aspose.Words.Replacing](../../findreplaceoptions/)
+* مساحة الاسم [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * المجسم [Aspose.Words](../../../)
-
-

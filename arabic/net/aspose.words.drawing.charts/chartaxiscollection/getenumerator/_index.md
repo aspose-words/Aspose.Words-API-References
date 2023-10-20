@@ -1,7 +1,9 @@
 ---
 title: ChartAxisCollection.GetEnumerator
-second_title: Aspose.Words لمراجع .NET API
-description: ChartAxisCollection طريقة. يُرجع كائن العداد.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words لـ .NET
+description: ChartAxisCollection GetEnumerator طريقة. يُرجع كائن العداد في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.drawing.charts/chartaxiscollection/getenumerator/
@@ -18,7 +20,5 @@ public IEnumerator<ChartAxis> GetEnumerator()
 
 * class [ChartAxis](../../chartaxis/)
 * class [ChartAxisCollection](../)
-* مساحة الاسم [Aspose.Words.Drawing.Charts](../../chartaxiscollection/)
+* مساحة الاسم [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.CanHaveImage
-second_title: Aspose.Words per .NET API Reference
-description: ShapeBase proprietà. RestituisceVERO se il tipo di forma consente alla forma di avere unimmagine.
+linktitle: CanHaveImage
+articleTitle: CanHaveImage
+second_title: Aspose.Words per .NET
+description: ShapeBase CanHaveImage proprietà. RestituisceVERO se il tipo di forma consente alla forma di avere unimmagine in C#.
 type: docs
 weight: 100
 url: /it/net/aspose.words.drawing/shapebase/canhaveimage/
@@ -14,11 +16,11 @@ Restituisce`VERO` se il tipo di forma consente alla forma di avere un'immagine.
 public bool CanHaveImage { get; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Sebbene Microsoft Word abbia un tipo di forma speciale per le immagini, sembra che nei documenti di Microsoft Word qualsiasi forma tranne una forma di gruppo possa avere un'immagine, quindi questa proprietà restituisce`VERO` per tutte le forme tranne[`GroupShape`](../../groupshape/).
 
-### Esempi
+## Esempi
 
 Mostra come inserire e ruotare un'immagine.
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "Shape.Rotate.docx");
 ### Guarda anche
 
 * class [ShapeBase](../)
-* spazio dei nomi [Aspose.Words.Drawing](../../shapebase/)
+* spazio dei nomi [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ExportRelativeFontSize
-second_title: Aspose.Words för .NET API Referens
-description: HtmlSaveOptions fast egendom. Anger om teckenstorlekar ska matas ut i relativa enheter när du sparar till HTML MHTML eller EPUB. Standard ärfalsk .
+linktitle: ExportRelativeFontSize
+articleTitle: ExportRelativeFontSize
+second_title: Aspose.Words för .NET
+description: HtmlSaveOptions ExportRelativeFontSize fast egendom. Anger om teckenstorlekar ska matas ut i relativa enheter när du sparar till HTML MHTML eller EPUB. Standard ärfalsk  i C#.
 type: docs
 weight: 230
 url: /sv/net/aspose.words.saving/htmlsaveoptions/exportrelativefontsize/
@@ -14,15 +16,15 @@ Anger om teckenstorlekar ska matas ut i relativa enheter när du sparar till HTM
 public bool ExportRelativeFontSize { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 många befintliga dokument (HTML, IDPF EPUB) anges teckenstorlekar i relativa enheter. Detta gör det möjligt för -applikationer att justera textstorleken vid visning/bearbetning av dokument. Till exempel har Microsoft Internet Explorer undermenyn "Visa-&gt;Textstorlek", Adobe Digital Editions har två knappar: Öka/minska textstorlek. Om du förväntar dig att den här funktionen ska fungera, ställ in`ExportRelativeFontSize` egendom till`Sann` .
 
-Aspose Words dokumentmodell innehåller och fungerar endast med absoluta teckenstorleksenheter. Relativa enheter behöver ytterligare logik för att beräknas om från någon initial (standard) storlek. Teckenstorlek på **Vanligt** dokumentstil tas som standard. Till exempel om **Vanligt** har 12 pkt teckensnitt och viss text är 18 pkt så kommer den att matas ut som **1,5 em.** till HTML.
+Aspose Words dokumentmodell innehåller och fungerar endast med absoluta teckenstorleksenheter. Relativa enheter behöver ytterligare logik för att beräknas om från någon initial (standard) storlek. Teckenstorlek på**Vanligt** dokumentstil tas som standard. Till exempel om**Vanligt** har 12 pkt teckensnitt och viss text är 18 pkt så kommer den att matas ut som**1,5 em.** till HTML.
 
 När det här alternativet är aktiverat kommer andra dokumentelement än text fortfarande att ha absoluta storlekar. Vissa textrelaterade attribut kan också uttryckas absolut. I synnerhet radavstånd som anges med "exakt" regeln kan ge oönskade resultat vid skalning av text. Så källdokumenten bör vara korrekt designade och testade vid export med`ExportRelativeFontSize` satt till`Sann`.
 
-### Exempel
+## Exempel
 
 Visar hur du använder relativa teckenstorlekar när du sparar till .html.
 
@@ -87,7 +89,5 @@ else
 ### Se även
 
 * class [HtmlSaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../htmlsaveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

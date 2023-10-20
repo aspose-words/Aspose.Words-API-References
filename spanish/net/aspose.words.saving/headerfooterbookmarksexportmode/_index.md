@@ -1,7 +1,9 @@
 ---
-title: Enum HeaderFooterBookmarksExportMode
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Saving.HeaderFooterBookmarksExportMode enumeración. Especifica cómo se exportan los marcadores en encabezados/pies de página.
+title: HeaderFooterBookmarksExportMode Enum
+linktitle: HeaderFooterBookmarksExportMode
+articleTitle: HeaderFooterBookmarksExportMode
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Saving.HeaderFooterBookmarksExportMode enumeración. Especifica cómo se exportan los marcadores en encabezados/pies de página en C#.
 type: docs
 weight: 5050
 url: /es/net/aspose.words.saving/headerfooterbookmarksexportmode/
@@ -22,7 +24,7 @@ public enum HeaderFooterBookmarksExportMode
 | First | `1` | Solo se exporta el marcador en el primer encabezado/pie de página de la sección. |
 | All | `2` | Se exportan los marcadores de todos los encabezados y pies de página. |
 
-### Ejemplos
+## Ejemplos
 
 Se muestra cómo procesar marcadores en encabezados/pies de página en un documento que estamos renderizando a PDF.
 
@@ -55,5 +57,3 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.HeaderFooterBookmarksExportMode.pdf", sa
 
 * espacio de nombres [Aspose.Words.Saving](../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../)
-
-

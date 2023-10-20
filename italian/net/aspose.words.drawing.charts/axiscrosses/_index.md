@@ -1,7 +1,9 @@
 ---
-title: Enum AxisCrosses
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Drawing.Charts.AxisCrosses enum. Specifica i possibili punti di incrocio per un asse.
+title: AxisCrosses Enum
+linktitle: AxisCrosses
+articleTitle: AxisCrosses
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Drawing.Charts.AxisCrosses enum. Specifica i possibili punti di incrocio per un asse in C#.
 type: docs
 weight: 540
 url: /it/net/aspose.words.drawing.charts/axiscrosses/
@@ -23,7 +25,7 @@ public enum AxisCrosses
 | Minimum | `2` | Un asse perpendicolare incrocia al valore minimo dell'asse. |
 | Custom | `3` | Un asse perpendicolare interseca al valore specificato dell'asse. |
 
-### Esempi
+## Esempi
 
 Mostra come inserire un grafico e modificare l'aspetto dei suoi assi.
 
@@ -77,5 +79,3 @@ doc.Save(ArtifactsDir + "Charts.AxisProperties.docx");
 
 * spazio dei nomi [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * assemblea [Aspose.Words](../../)
-
-

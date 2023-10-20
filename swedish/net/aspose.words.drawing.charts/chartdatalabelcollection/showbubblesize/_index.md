@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabelCollection.ShowBubbleSize
-second_title: Aspose.Words för .NET API Referens
-description: ChartDataLabelCollection fast egendom. Tillåter att ange om bubbelstorlek ska visas för dataetiketterna för hela serien. Gäller endast bubbeldiagram. Standardvärdet ärfalsk .
+linktitle: ShowBubbleSize
+articleTitle: ShowBubbleSize
+second_title: Aspose.Words för .NET
+description: ChartDataLabelCollection ShowBubbleSize fast egendom. Tillåter att ange om bubbelstorlek ska visas för dataetiketterna för hela serien. Gäller endast bubbeldiagram. Standardvärdet ärfalsk  i C#.
 type: docs
 weight: 70
 url: /sv/net/aspose.words.drawing.charts/chartdatalabelcollection/showbubblesize/
@@ -14,11 +16,11 @@ Tillåter att ange om bubbelstorlek ska visas för dataetiketterna för hela ser
 public bool ShowBubbleSize { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Värdet som definierats för den här egenskapen kan åsidosättas för en individuell dataetikett med hjälp av [`ShowBubbleSize`](../../chartdatalabel/showbubblesize/) egenskap.
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med dataetiketter i ett bubbeldiagram.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "Charts.DataLabelsBubbleChart.docx");
 ### Se även
 
 * class [ChartDataLabelCollection](../)
-* namnutrymme [Aspose.Words.Drawing.Charts](../../chartdatalabelcollection/)
+* namnutrymme [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../../)
-
-

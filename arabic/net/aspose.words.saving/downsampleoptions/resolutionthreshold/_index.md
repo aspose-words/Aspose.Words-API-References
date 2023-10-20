@@ -1,7 +1,9 @@
 ---
 title: DownsampleOptions.ResolutionThreshold
-second_title: Aspose.Words لمراجع .NET API
-description: DownsampleOptions ملكية. يحدد دقة العتبة بالبكسل في البوصة. إذا كانت دقة الصورة في المستند أقل من قيمة العتبة فلن يتم تطبيق خوارزمية الاختزال. القيمة 0 تعني عدم استخدام فحص العتبة وجميع الصور التي يمكن تقليل حجمها.
+linktitle: ResolutionThreshold
+articleTitle: ResolutionThreshold
+second_title: Aspose.Words لـ .NET
+description: DownsampleOptions ResolutionThreshold ملكية. يحدد دقة العتبة بالبكسل في البوصة. إذا كانت دقة الصورة في المستند أقل من قيمة العتبة فلن يتم تطبيق خوارزمية الاختزال. القيمة 0 تعني عدم استخدام فحص العتبة وجميع الصور التي يمكن تقليل حجمها في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.saving/downsampleoptions/resolutionthreshold/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.saving/downsampleoptions/resolutionthreshold/
 public int ResolutionThreshold { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 القيمة الافتراضية هي 0.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تغيير دقة الصور في مستند PDF.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.DownsampleOptions.LowerResolution.pdf", 
 ### أنظر أيضا
 
 * class [DownsampleOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../downsampleoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

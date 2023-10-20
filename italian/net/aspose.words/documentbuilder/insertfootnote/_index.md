@@ -1,12 +1,14 @@
 ---
 title: DocumentBuilder.InsertFootnote
-second_title: Aspose.Words per .NET API Reference
-description: DocumentBuilder metodo. Inserisce una nota a piè di pagina o di chiusura nel documento.
+linktitle: InsertFootnote
+articleTitle: InsertFootnote
+second_title: Aspose.Words per .NET
+description: DocumentBuilder InsertFootnote metodo. Inserisce una nota a piè di pagina o di chiusura nel documento in C#.
 type: docs
-weight: 340
+weight: 330
 url: /it/net/aspose.words/documentbuilder/insertfootnote/
 ---
-## InsertFootnote(FootnoteType, string) {#insertfootnote}
+## InsertFootnote(*[FootnoteType](../../../aspose.words.notes/footnotetype/), string*) {#insertfootnote}
 
 Inserisce una nota a piè di pagina o di chiusura nel documento.
 
@@ -23,7 +25,7 @@ public Footnote InsertFootnote(FootnoteType footnoteType, string footnoteText)
 
 Restituisce un oggetto nota a piè di pagina appena creato.
 
-### Esempi
+## Esempi
 
 Mostra come fare riferimento al testo con una nota a piè di pagina e una nota di chiusura.
 
@@ -56,12 +58,12 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertFootnote.docx");
 * class [Footnote](../../../aspose.words.notes/footnote/)
 * enum [FootnoteType](../../../aspose.words.notes/footnotetype/)
 * class [DocumentBuilder](../)
-* spazio dei nomi [Aspose.Words](../../documentbuilder/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
 
 ---
 
-## InsertFootnote(FootnoteType, string, string) {#insertfootnote_1}
+## InsertFootnote(*[FootnoteType](../../../aspose.words.notes/footnotetype/), string, string*) {#insertfootnote_1}
 
 Inserisce una nota a piè di pagina o di chiusura nel documento.
 
@@ -79,7 +81,7 @@ public Footnote InsertFootnote(FootnoteType footnoteType, string footnoteText, s
 
 Restituisce un oggetto nota a piè di pagina appena creato.
 
-### Esempi
+## Esempi
 
 Mostra come fare riferimento al testo con una nota a piè di pagina e una nota di chiusura.
 
@@ -112,7 +114,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertFootnote.docx");
 * class [Footnote](../../../aspose.words.notes/footnote/)
 * enum [FootnoteType](../../../aspose.words.notes/footnotetype/)
 * class [DocumentBuilder](../)
-* spazio dei nomi [Aspose.Words](../../documentbuilder/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

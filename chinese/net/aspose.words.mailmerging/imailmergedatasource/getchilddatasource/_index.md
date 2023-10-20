@@ -1,7 +1,9 @@
 ---
 title: IMailMergeDataSource.GetChildDataSource
-second_title: Aspose.Words for .NET API 参考
-description: IMailMergeDataSource 方法. Aspose.Words 邮件合并引擎在遇到嵌套邮件合并区域的开头时调用此方法
+linktitle: GetChildDataSource
+articleTitle: GetChildDataSource
+second_title: 用于 .NET 的 Aspose.Words
+description: IMailMergeDataSource GetChildDataSource 方法. Aspose.Words 邮件合并引擎在遇到嵌套邮件合并区域的开头时调用此方法 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.mailmerging/imailmergedatasource/getchilddatasource/
@@ -22,7 +24,7 @@ public IMailMergeDataSource GetChildDataSource(string tableName)
 
 将提供对指定表的数据记录的访问的数据源对象。
 
-### 评论
+## 评论
 
 当 Aspose.Words 邮件合并引擎用数据填充邮件合并区域并遇到 MERGEFIELD TableStart:TableName 形式的nested 邮件合并区域的开头时，它会调用`GetChildDataSource`在 current 数据源对象上。您的实现需要返回一个新的数据源对象，该对象将提供对当前父记录的 child 记录的访问。 Aspose.Words 将使用返回的数据源填充嵌套邮件合并区域。
 
@@ -34,7 +36,7 @@ public IMailMergeDataSource GetChildDataSource(string tableName)
 
 如果指定名称的表不存在，您的实现应该返回`无效的`.
 
-### 例子
+## 例子
 
 演示如何使用自定义对象形式的数据源执行邮件合并。
 
@@ -148,7 +150,5 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
 ### 也可以看看
 
 * interface [IMailMergeDataSource](../)
-* 命名空间 [Aspose.Words.MailMerging](../../imailmergedatasource/)
+* 命名空间 [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * 部件 [Aspose.Words](../../../)
-
-

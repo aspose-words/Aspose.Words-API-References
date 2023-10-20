@@ -1,12 +1,14 @@
 ---
 title: Document.Protect
-second_title: Aspose.Words for .NET API 参考
-description: Document 方法. 保护文档免遭更改而不更改现有密码或分配随机密码
+linktitle: Protect
+articleTitle: Protect
+second_title: 用于 .NET 的 Aspose.Words
+description: Document Protect 方法. 保护文档免遭更改而不更改现有密码或分配随机密码 在 C#.
 type: docs
-weight: 670
+weight: 650
 url: /zh/net/aspose.words/document/protect/
 ---
-## Protect(ProtectionType) {#protect}
+## Protect(*[ProtectionType](../../protectiontype/)*) {#protect}
 
 保护文档免遭更改，而不更改现有密码或分配随机密码。
 
@@ -18,7 +20,7 @@ public void Protect(ProtectionType type)
 | --- | --- | --- |
 | type | ProtectionType | 指定文档的保护类型。 |
 
-### 评论
+## 评论
 
 当文档受到保护时，用户只能进行有限的更改，例如添加注释、进行修订或填写表单。
 
@@ -26,7 +28,7 @@ public void Protect(ProtectionType type)
 
 当您保护文档且该文档没有保护密码时， 此方法会分配一个随机密码，使得无法在 Microsoft Word 中取消对文档 的保护，但您仍然可以在 Aspose.Words 中取消对文档的保护，因为它不会 取消保护时需要密码。
 
-### 例子
+## 例子
 
 展示如何关闭某个部分的保护。
 
@@ -56,12 +58,12 @@ doc.Save(ArtifactsDir + "Section.Protect.docx");
 
 * enum [ProtectionType](../../protectiontype/)
 * class [Document](../)
-* 命名空间 [Aspose.Words](../../document/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## Protect(ProtectionType, string) {#protect_1}
+## Protect(*[ProtectionType](../../protectiontype/), string*) {#protect_1}
 
 保护文档免遭更改，并可选择设置保护密码。
 
@@ -74,13 +76,13 @@ public void Protect(ProtectionType type, string password)
 | type | ProtectionType | 指定文档的保护类型。 |
 | password | String | 保护文档的密码用. 指定`无效的`如果您想在没有密码的情况下保护文档，则为空字符串。 |
 
-### 评论
+## 评论
 
 当文档受到保护时，用户只能进行有限的更改，例如添加注释、进行修订或填写表单。
 
 请注意，文档保护与写保护不同。 写保护是使用[`WriteProtection`](../writeprotection/)。
 
-### 例子
+## 例子
 
 展示如何保护和取消保护文档。
 
@@ -126,7 +128,5 @@ Assert.AreEqual(ProtectionType.NoProtection, doc.ProtectionType);
 
 * enum [ProtectionType](../../protectiontype/)
 * class [Document](../)
-* 命名空间 [Aspose.Words](../../document/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

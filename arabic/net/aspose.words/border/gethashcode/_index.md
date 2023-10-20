@@ -1,7 +1,9 @@
 ---
 title: Border.GetHashCode
-second_title: Aspose.Words لمراجع .NET API
-description: Border طريقة. بمثابة دالة تجزئة لهذا النوع.
+linktitle: GetHashCode
+articleTitle: GetHashCode
+second_title: Aspose.Words لـ .NET
+description: Border GetHashCode طريقة. بمثابة دالة تجزئة لهذا النوع في C#.
 type: docs
 weight: 110
 url: /ar/net/aspose.words/border/gethashcode/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/border/gethashcode/
 public override int GetHashCode()
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيف يمكن لمجموعات الحدود مشاركة العناصر.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "Border.SharedElements.docx");
 ### أنظر أيضا
 
 * class [Border](../)
-* مساحة الاسم [Aspose.Words](../../border/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

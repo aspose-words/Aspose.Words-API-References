@@ -1,7 +1,9 @@
 ---
 title: DocumentBase.FontInfos
-second_title: Aspose.Words لمراجع .NET API
-description: DocumentBase ملكية. يوفر الوصول إلى خصائص الخطوط المستخدمة في هذا المستند.
+linktitle: FontInfos
+articleTitle: FontInfos
+second_title: Aspose.Words لـ .NET
+description: DocumentBase FontInfos ملكية. يوفر الوصول إلى خصائص الخطوط المستخدمة في هذا المستند في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words/documentbase/fontinfos/
@@ -14,13 +16,13 @@ url: /ar/net/aspose.words/documentbase/fontinfos/
 public FontInfoCollection FontInfos { get; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 يتم تحميل مجموعة تعريفات الخطوط هذه كما هي من المستند. قد تكون تعريفات الخطوط اختيارية أو مفقودة أو غير كاملة في بعض المستندات.
 
 لا تعتمد على هذه المجموعة للتأكد من استخدام خط معين في الوثيقة. يجب عليك استخدام هذه المجموعة فقط للحصول على معلومات حول الخطوط التي يمكن استخدامها في الوثيقة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية طباعة تفاصيل الخطوط الموجودة في المستند.
 
@@ -59,7 +61,5 @@ else
 
 * class [FontInfoCollection](../../../aspose.words.fonts/fontinfocollection/)
 * class [DocumentBase](../)
-* مساحة الاسم [Aspose.Words](../../documentbase/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

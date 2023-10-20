@@ -1,7 +1,9 @@
 ---
-title: Enum EditingLanguage
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Loading.EditingLanguage uppräkning. Anger redigeringsspråket.
+title: EditingLanguage Enum
+linktitle: EditingLanguage
+articleTitle: EditingLanguage
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Loading.EditingLanguage uppräkning. Anger redigeringsspråket i C#.
 type: docs
 weight: 3600
 url: /sv/net/aspose.words.loading/editinglanguage/
@@ -246,7 +248,7 @@ public enum EditingLanguage
 | Yiddish | `1085` |  |
 | Yoruba | `1130` |  |
 
-### Exempel
+## Exempel
 
 Visar hur du använder språkinställningar när du laddar ett dokument.
 
@@ -266,5 +268,3 @@ Console.WriteLine(localeIdFarEast == (int)EditingLanguage.Japanese
 
 * namnutrymme [Aspose.Words.Loading](../../aspose.words.loading/)
 * hopsättning [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldMergeBarcode.FixCheckDigit
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldMergeBarcode propriété. Obtient ou définit sil faut corriger le chiffre de contrôle sil est invalide.
+linktitle: FixCheckDigit
+articleTitle: FixCheckDigit
+second_title: Aspose.Words pour .NET
+description: FieldMergeBarcode FixCheckDigit propriété. Obtient ou définit sil faut corriger le chiffre de contrôle sil est invalide en C#.
 type: docs
 weight: 90
 url: /fr/net/aspose.words.fields/fieldmergebarcode/fixcheckdigit/
@@ -14,7 +16,7 @@ Obtient ou définit s'il faut corriger le chiffre de contrôle s'il est invalide
 public bool FixCheckDigit { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment effectuer un publipostage sur des codes-barres EAN13.
 
@@ -60,7 +62,5 @@ doc.Save(ArtifactsDir + "Field.MERGEBARCODE.EAN13.docx");
 ### Voir également
 
 * class [FieldMergeBarcode](../)
-* espace de noms [Aspose.Words.Fields](../../fieldmergebarcode/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FontSettings.FallbackSettings
-second_title: Aspose.Words لمراجع .NET API
-description: FontSettings ملكية. الإعدادات المتعلقة بآلية الرجوع للخط.
+linktitle: FallbackSettings
+articleTitle: FallbackSettings
+second_title: Aspose.Words لـ .NET
+description: FontSettings FallbackSettings ملكية. الإعدادات المتعلقة بآلية الرجوع للخط في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.fonts/fontsettings/fallbacksettings/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fonts/fontsettings/fallbacksettings/
 public FontFallbackSettings FallbackSettings { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية توزيع الخطوط الاحتياطية عبر نطاقات رموز أحرف Unicode.
 
@@ -74,7 +76,5 @@ doc.Save(ArtifactsDir + "FontSettings.FallbackSettingsCustom.pdf");
 
 * class [FontFallbackSettings](../../fontfallbacksettings/)
 * class [FontSettings](../)
-* مساحة الاسم [Aspose.Words.Fonts](../../fontsettings/)
+* مساحة الاسم [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * المجسم [Aspose.Words](../../../)
-
-

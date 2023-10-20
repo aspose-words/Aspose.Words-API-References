@@ -1,7 +1,9 @@
 ---
-title: Class GeneralFormatCollection
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Fields.GeneralFormatCollection 班级. 表示通用格式的类型化集合
+title: GeneralFormatCollection Class
+linktitle: GeneralFormatCollection
+articleTitle: GeneralFormatCollection
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Fields.GeneralFormatCollection 班级. 表示通用格式的类型化集合 在 C#.
 type: docs
 weight: 2650
 url: /zh/net/aspose.words.fields/generalformatcollection/
@@ -27,12 +29,12 @@ public class GeneralFormatCollection : IEnumerable<GeneralFormat>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Add](../../aspose.words.fields/generalformatcollection/add/)(GeneralFormat) | 将通用格式添加到集合中。 |
+| [Add](../../aspose.words.fields/generalformatcollection/add/)(*[GeneralFormat](../generalformat/)*) | 将通用格式添加到集合中。 |
 | [GetEnumerator](../../aspose.words.fields/generalformatcollection/getenumerator/)() | 返回一个枚举器对象。 |
-| [Remove](../../aspose.words.fields/generalformatcollection/remove/)(GeneralFormat) | 从集合中删除所有出现的指定通用格式。 |
-| [RemoveAt](../../aspose.words.fields/generalformatcollection/removeat/)(int) | 删除指定索引处出现的通用格式。 |
+| [Remove](../../aspose.words.fields/generalformatcollection/remove/)(*[GeneralFormat](../generalformat/)*) | 从集合中删除所有出现的指定通用格式。 |
+| [RemoveAt](../../aspose.words.fields/generalformatcollection/removeat/)(*int*) | 删除指定索引处出现的通用格式。 |
 
-### 例子
+## 例子
 
 展示如何设置字段结果的格式。
 
@@ -98,5 +100,3 @@ Assert.AreEqual(0, format.GeneralFormats.Count);
 * enum [GeneralFormat](../generalformat/)
 * 命名空间 [Aspose.Words.Fields](../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../)
-
-

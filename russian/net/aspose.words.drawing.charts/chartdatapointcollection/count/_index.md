@@ -1,7 +1,9 @@
 ---
 title: ChartDataPointCollection.Count
-second_title: Справочник по API Aspose.Words для .NET
-description: ChartDataPointCollection свойство. Возвращает количествоChartDataPoint в этой коллекции.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words для .NET
+description: ChartDataPointCollection Count свойство. Возвращает количествоChartDataPoint в этой коллекции на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.drawing.charts/chartdatapointcollection/count/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.drawing.charts/chartdatapointcollection/count/
 public int Count { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как работать с точками данных на линейной диаграмме.
 
@@ -76,7 +78,5 @@ private static void ApplyDataPoints(ChartSeries series, int dataPointsCount, Mar
 ### Смотрите также
 
 * class [ChartDataPointCollection](../)
-* пространство имен [Aspose.Words.Drawing.Charts](../../chartdatapointcollection/)
+* пространство имен [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../../)
-
-

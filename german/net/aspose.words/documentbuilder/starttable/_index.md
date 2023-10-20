@@ -1,9 +1,11 @@
 ---
 title: DocumentBuilder.StartTable
-second_title: Aspose.Words für .NET-API-Referenz
-description: DocumentBuilder methode. Startet eine Tabelle im Dokument.
+linktitle: StartTable
+articleTitle: StartTable
+second_title: Aspose.Words für .NET
+description: DocumentBuilder StartTable methode. Startet eine Tabelle im Dokument in C#.
 type: docs
-weight: 650
+weight: 640
 url: /de/net/aspose.words/documentbuilder/starttable/
 ---
 ## DocumentBuilder.StartTable method
@@ -18,13 +20,13 @@ public Table StartTable()
 
 Der gerade erstellte Tabellenknoten.
 
-### Bemerkungen
+## Bemerkungen
 
 Die nächste aufzurufende Methode ist[`InsertCell`](../insertcell/).
 
 Diese Methode startet eine verschachtelte Tabelle, wenn sie innerhalb einer Zelle aufgerufen wird.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Zellen mit einem Document Builder formatiert werden.
 
@@ -174,7 +176,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
 
 * class [Table](../../../aspose.words.tables/table/)
 * class [DocumentBuilder](../)
-* namensraum [Aspose.Words](../../documentbuilder/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

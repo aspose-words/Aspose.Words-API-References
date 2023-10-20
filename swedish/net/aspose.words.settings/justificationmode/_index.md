@@ -1,7 +1,9 @@
 ---
-title: Enum JustificationMode
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Settings.JustificationMode uppräkning. Anger teckenavståndsjusteringen för ett dokument. Standardvärdet ärBygga ut .
+title: JustificationMode Enum
+linktitle: JustificationMode
+articleTitle: JustificationMode
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Settings.JustificationMode uppräkning. Anger teckenavståndsjusteringen för ett dokument. Standardvärdet ärBygga ut  i C#.
 type: docs
 weight: 5800
 url: /sv/net/aspose.words.settings/justificationmode/
@@ -22,7 +24,7 @@ public enum JustificationMode
 | Compress | `1` |  |
 | CompressKana | `2` |  |
 
-### Exempel
+## Exempel
 
 Visar hur man hanterar teckenavståndskontroll.
 
@@ -40,5 +42,3 @@ doc.Save(ArtifactsDir + "Document.SetJustificationMode.docx");
 
 * namnutrymme [Aspose.Words.Settings](../../aspose.words.settings/)
 * hopsättning [Aspose.Words](../../)
-
-

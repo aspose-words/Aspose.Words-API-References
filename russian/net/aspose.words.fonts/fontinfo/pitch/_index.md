@@ -1,7 +1,9 @@
 ---
 title: FontInfo.Pitch
-second_title: Справочник по API Aspose.Words для .NET
-description: FontInfo свойство. Шаг указывает является ли шрифт фиксированным пропорциональным или основан на настройке по умолчанию.
+linktitle: Pitch
+articleTitle: Pitch
+second_title: Aspose.Words для .NET
+description: FontInfo Pitch свойство. Шаг указывает является ли шрифт фиксированным пропорциональным или основан на настройке по умолчанию на С#.
 type: docs
 weight: 70
 url: /ru/net/aspose.words.fonts/fontinfo/pitch/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fonts/fontinfo/pitch/
 public FontPitch Pitch { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как получить доступ и распечатать сведения о каждом шрифте в документе.
 
@@ -54,7 +56,5 @@ while (fontCollectionEnumerator.MoveNext())
 
 * enum [FontPitch](../../fontpitch/)
 * class [FontInfo](../)
-* пространство имен [Aspose.Words.Fonts](../../fontinfo/)
+* пространство имен [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * сборка [Aspose.Words](../../../)
-
-

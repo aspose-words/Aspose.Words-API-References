@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.DoNotExpandShiftReturn
-second_title: Référence de l'API Aspose.Words pour .NET
-description: CompatibilityOptions propriété. Ne justifiez pas les lignes se terminant par un saut de ligne doux.
+linktitle: DoNotExpandShiftReturn
+articleTitle: DoNotExpandShiftReturn
+second_title: Aspose.Words pour .NET
+description: CompatibilityOptions DoNotExpandShiftReturn propriété. Ne justifiez pas les lignes se terminant par un saut de ligne doux en C#.
 type: docs
 weight: 150
 url: /fr/net/aspose.words.settings/compatibilityoptions/donotexpandshiftreturn/
@@ -17,7 +19,5 @@ public bool DoNotExpandShiftReturn { get; set; }
 ### Voir également
 
 * class [CompatibilityOptions](../)
-* espace de noms [Aspose.Words.Settings](../../compatibilityoptions/)
+* espace de noms [Aspose.Words.Settings](../../../aspose.words.settings/)
 * Assemblée [Aspose.Words](../../../)
-
-

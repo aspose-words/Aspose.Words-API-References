@@ -1,7 +1,9 @@
 ---
 title: DigitalSignature.IsValid
-second_title: Referencia de API de Aspose.Words para .NET
-description: DigitalSignature propiedad. Devolucionesverdadero si esta firma digital es válida y el documento no ha sido alterado.
+linktitle: IsValid
+articleTitle: IsValid
+second_title: Aspose.Words para .NET
+description: DigitalSignature IsValid propiedad. Devolucionesverdadero si esta firma digital es válida y el documento no ha sido alterado en C#.
 type: docs
 weight: 40
 url: /es/net/aspose.words.digitalsignatures/digitalsignature/isvalid/
@@ -14,7 +16,7 @@ Devoluciones`verdadero` si esta firma digital es válida y el documento no ha si
 public bool IsValid { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo validar y mostrar información sobre cada firma en un documento.
 
@@ -36,7 +38,5 @@ foreach (DigitalSignature signature in doc.DigitalSignatures)
 ### Ver también
 
 * class [DigitalSignature](../)
-* espacio de nombres [Aspose.Words.DigitalSignatures](../../digitalsignature/)
+* espacio de nombres [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * asamblea [Aspose.Words](../../../)
-
-

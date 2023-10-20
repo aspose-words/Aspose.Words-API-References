@@ -1,7 +1,9 @@
 ---
 title: FieldChar.GetField
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldChar methode. Gibt ein Feld für das Feld char zurück.
+linktitle: GetField
+articleTitle: GetField
+second_title: Aspose.Words für .NET
+description: FieldChar GetField methode. Gibt ein Feld für das Feld char zurück in C#.
 type: docs
 weight: 40
 url: /de/net/aspose.words.fields/fieldchar/getfield/
@@ -18,11 +20,11 @@ public Field GetField()
 
 Ein Feld für das Feld char.
 
-### Bemerkungen
+## Bemerkungen
 
 Ein neues[`Field`](../../field/) Das Objekt wird bei jedem Aufruf der Methode erstellt.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit einem FieldStart-Knoten gearbeitet wird.
 
@@ -54,7 +56,5 @@ field.Update();
 
 * class [Field](../../field/)
 * class [FieldChar](../)
-* namensraum [Aspose.Words.Fields](../../fieldchar/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

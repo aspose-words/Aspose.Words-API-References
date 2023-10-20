@@ -1,7 +1,9 @@
 ---
 title: FieldStyleRef.SuppressNonDelimiters
-second_title: Aspose.Words لمراجع .NET API
-description: FieldStyleRef ملكية. الحصول على أو تعيين ما إذا كان سيتم منع الأحرف غير المحددة.
+linktitle: SuppressNonDelimiters
+articleTitle: SuppressNonDelimiters
+second_title: Aspose.Words لـ .NET
+description: FieldStyleRef SuppressNonDelimiters ملكية. الحصول على أو تعيين ما إذا كان سيتم منع الأحرف غير المحددة في C#.
 type: docs
 weight: 80
 url: /ar/net/aspose.words.fields/fieldstyleref/suppressnondelimiters/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldstyleref/suppressnondelimiters/
 public bool SuppressNonDelimiters { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام حقول STYLEREF.
 
@@ -85,7 +87,5 @@ doc.Save(ArtifactsDir + "Field.STYLEREF.docx");
 ### أنظر أيضا
 
 * class [FieldStyleRef](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldstyleref/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

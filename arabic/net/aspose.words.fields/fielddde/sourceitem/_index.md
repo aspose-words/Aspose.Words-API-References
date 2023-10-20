@@ -1,7 +1,9 @@
 ---
 title: FieldDde.SourceItem
-second_title: Aspose.Words لمراجع .NET API
-description: FieldDde ملكية. الحصول على أو تعيين جزء الملف المصدر الذي يتم ربطه.
+linktitle: SourceItem
+articleTitle: SourceItem
+second_title: Aspose.Words لـ .NET
+description: FieldDde SourceItem ملكية. الحصول على أو تعيين جزء الملف المصدر الذي يتم ربطه في C#.
 type: docs
 weight: 120
 url: /ar/net/aspose.words.fields/fielddde/sourceitem/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fielddde/sourceitem/
 public string SourceItem { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام أنواع الحقول المختلفة للارتباط بالمستندات الأخرى في نظام الملفات المحلي وعرض محتوياتها.
 
@@ -197,7 +199,5 @@ public enum InsertLinkedObjectAs
 ### أنظر أيضا
 
 * class [FieldDde](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fielddde/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

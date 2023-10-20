@@ -1,7 +1,9 @@
 ---
-title: Enum LineNumberRestartMode
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.LineNumberRestartMode enum. Determina quando riavvia la numerazione automatica delle righe.
+title: LineNumberRestartMode Enum
+linktitle: LineNumberRestartMode
+articleTitle: LineNumberRestartMode
+second_title: Aspose.Words per .NET
+description: Aspose.Words.LineNumberRestartMode enum. Determina quando riavvia la numerazione automatica delle righe in C#.
 type: docs
 weight: 3430
 url: /it/net/aspose.words/linenumberrestartmode/
@@ -22,7 +24,7 @@ public enum LineNumberRestartMode
 | RestartSection | `1` | La numerazione delle righe ricomincia dall'inizio della sezione. |
 | Continuous | `2` | Numerazione delle righe continua dalla sezione precedente. |
 
-### Esempi
+## Esempi
 
 Mostra come abilitare la numerazione delle righe per una sezione.
 
@@ -59,5 +61,3 @@ doc.Save(ArtifactsDir + "PageSetup.LineNumbers.docx");
 * property [LineNumberRestartMode](../pagesetup/linenumberrestartmode/)
 * spazio dei nomi [Aspose.Words](../../aspose.words/)
 * assemblea [Aspose.Words](../../)
-
-

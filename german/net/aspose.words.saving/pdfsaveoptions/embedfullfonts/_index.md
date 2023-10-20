@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.EmbedFullFonts
-second_title: Aspose.Words für .NET-API-Referenz
-description: PdfSaveOptions eigendom. Steuert wie Schriftarten in die resultierenden PDFDokumente eingebettet werden.
+linktitle: EmbedFullFonts
+articleTitle: EmbedFullFonts
+second_title: Aspose.Words für .NET
+description: PdfSaveOptions EmbedFullFonts eigendom. Steuert wie Schriftarten in die resultierenden PDFDokumente eingebettet werden in C#.
 type: docs
 weight: 120
 url: /de/net/aspose.words.saving/pdfsaveoptions/embedfullfonts/
@@ -14,7 +16,7 @@ Steuert, wie Schriftarten in die resultierenden PDF-Dokumente eingebettet werden
 public bool EmbedFullFonts { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Der Standardwert ist`FALSCH`, was bedeutet, dass die Schriftarten vor dem Einbetten in Teilmengen unterteilt werden. Die Teilmenge ist nützlich, wenn Sie die Größe der Ausgabedatei kleiner halten möchten. Durch die Teilmenge werden alle nicht verwendeten Glyphen aus einer Schriftart entfernt.
 
@@ -22,7 +24,7 @@ Wenn dieser Wert auf eingestellt ist`WAHR`, wird eine vollständige Schriftartda
 
 Einige Schriftarten sind groß (mehrere Megabyte) und ihre Einbettung ohne Untereinstellung führt zu großen Ausgabedokumenten.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Teilmenge beim Einbetten von Schriftarten beim Rendern eines Dokuments als PDF aktiviert oder deaktiviert wird.
 
@@ -70,7 +72,5 @@ FontSettings.DefaultInstance.SetFontsSources(originalFontsSources);
 ### Siehe auch
 
 * class [PdfSaveOptions](../)
-* namensraum [Aspose.Words.Saving](../../pdfsaveoptions/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

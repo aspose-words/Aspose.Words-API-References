@@ -1,7 +1,9 @@
 ---
 title: ThemeColors.Accent2
-second_title: Aspose.Words per .NET API Reference
-description: ThemeColors proprietà. Specifica laccento colore 2.
+linktitle: Accent2
+articleTitle: Accent2
+second_title: Aspose.Words per .NET
+description: ThemeColors Accent2 proprietà. Specifica laccento colore 2 in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words.themes/themecolors/accent2/
@@ -14,7 +16,7 @@ Specifica l'accento colore 2.
 public Color Accent2 { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come impostare colori e caratteri personalizzati per i temi.
 
@@ -62,7 +64,5 @@ doc.Save(ArtifactsDir + "Themes.CustomColorsAndFonts.docx");
 ### Guarda anche
 
 * class [ThemeColors](../)
-* spazio dei nomi [Aspose.Words.Themes](../../themecolors/)
+* spazio dei nomi [Aspose.Words.Themes](../../../aspose.words.themes/)
 * assemblea [Aspose.Words](../../../)
-
-

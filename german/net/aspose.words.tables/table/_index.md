@@ -1,7 +1,9 @@
 ---
-title: Class Table
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Tables.Table klas. Stellt eine Tabelle in einem WordDokument dar.
+title: Table Class
+linktitle: Table
+articleTitle: Table
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Tables.Table klas. Stellt eine Tabelle in einem WordDokument dar in C#.
 type: docs
 weight: 6340
 url: /de/net/aspose.words.tables/table/
@@ -20,7 +22,7 @@ public class Table : CompositeNode
 
 | Name | Beschreibung |
 | --- | --- |
-| [Table](table/)(DocumentBase) | Initialisiert eine neue Instanz von`Table` Klasse. |
+| [Table](table/)(*[DocumentBase](../../aspose.words/documentbase/)*) | Initialisiert eine neue Instanz von`Table` Klasse. |
 
 ## Eigenschaften
 
@@ -75,42 +77,40 @@ public class Table : CompositeNode
 
 | Name | Beschreibung |
 | --- | --- |
-| override [Accept](../../aspose.words.tables/table/accept/)(DocumentVisitor) | Akzeptiert einen Besucher. |
-| override [AcceptEnd](../../aspose.words.tables/table/acceptend/)(DocumentVisitor) |  |
-| override [AcceptStart](../../aspose.words.tables/table/acceptstart/)(DocumentVisitor) |  |
-| [AppendChild&lt;T&gt;](../../aspose.words/compositenode/appendchild/)(T) |  |
-| [AutoFit](../../aspose.words.tables/table/autofit/)(AutoFitBehavior) | Ändert die Größe der Tabelle und der Zellen entsprechend dem angegebenen automatischen Anpassungsverhalten. |
+| override [Accept](../../aspose.words.tables/table/accept/)(*[DocumentVisitor](../../aspose.words/documentvisitor/)*) | Akzeptiert einen Besucher. |
+| [AppendChild](../../aspose.words/compositenode/appendchild/)(*[Node](../../aspose.words/node/)*) | Fügt den angegebenen Knoten am Ende der Liste der untergeordneten Knoten für diesen Knoten hinzu. |
+| [AutoFit](../../aspose.words.tables/table/autofit/)(*[AutoFitBehavior](../autofitbehavior/)*) | Ändert die Größe der Tabelle und der Zellen entsprechend dem angegebenen automatischen Anpassungsverhalten. |
 | [ClearBorders](../../aspose.words.tables/table/clearborders/)() | Entfernt alle Tabellen- und Zellenränder dieser Tabelle. |
 | [ClearShading](../../aspose.words.tables/table/clearshading/)() | Entfernt alle Schattierungen auf der Tabelle. |
-| [Clone](../../aspose.words/node/clone/)(bool) | Erstellt ein Duplikat des Knotens. |
+| [Clone](../../aspose.words/node/clone/)(*bool*) | Erstellt ein Duplikat des Knotens. |
 | [ConvertToHorizontallyMergedCells](../../aspose.words.tables/table/converttohorizontallymergedcells/)() | Konvertiert horizontal um die Breite verbundene Zellen in um zusammengeführte Zellen[`HorizontalMerge`](../cellformat/horizontalmerge/) . |
 | [CreateNavigator](../../aspose.words/compositenode/createnavigator/)() | Erstellt einen Navigator, der zum Durchlaufen und Lesen von Knoten verwendet werden kann. |
 | [EnsureMinimum](../../aspose.words.tables/table/ensureminimum/)() | Wenn die Tabelle keine Zeilen enthält, wird eine erstellt und angehängt[`Row`](../row/) . |
-| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Ruft den ersten Vorfahren des angegebenen ab[`NodeType`](../../aspose.words/nodetype/) . |
-| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Ruft den ersten Vorfahren des angegebenen Objekttyps ab. |
-| [GetChild](../../aspose.words/compositenode/getchild/)(NodeType, int, bool) | Gibt einen N-ten untergeordneten Knoten zurück, der dem angegebenen Typ entspricht. |
-| [GetChildNodes](../../aspose.words/compositenode/getchildnodes/)(NodeType, bool) | Gibt eine Live-Sammlung untergeordneter Knoten zurück, die dem angegebenen Typ entsprechen. |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*[NodeType](../../aspose.words/nodetype/)*) | Ruft den ersten Vorfahren des angegebenen ab[`NodeType`](../../aspose.words/nodetype/) . |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | Ruft den ersten Vorfahren des angegebenen Objekttyps ab. |
+| [GetChild](../../aspose.words/compositenode/getchild/)(*[NodeType](../../aspose.words/nodetype/), int, bool*) | Gibt einen N-ten untergeordneten Knoten zurück, der dem angegebenen Typ entspricht. |
+| [GetChildNodes](../../aspose.words/compositenode/getchildnodes/)(*[NodeType](../../aspose.words/nodetype/), bool*) | Gibt eine Live-Sammlung untergeordneter Knoten zurück, die dem angegebenen Typ entsprechen. |
 | [GetEnumerator](../../aspose.words/compositenode/getenumerator/)() | Bietet Unterstützung für die Iteration jedes Stils über die untergeordneten Knoten dieses Knotens. |
 | override [GetText](../../aspose.words/compositenode/gettext/)() | Ruft den Text dieses Knotens und aller seiner untergeordneten Knoten ab. |
-| [IndexOf](../../aspose.words/compositenode/indexof/)(Node) | Gibt den Index des angegebenen untergeordneten Knotens im untergeordneten Knoten-Array zurück. |
-| [InsertAfter&lt;T&gt;](../../aspose.words/compositenode/insertafter/)(T, Node) |  |
-| [InsertBefore&lt;T&gt;](../../aspose.words/compositenode/insertbefore/)(T, Node) |  |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Ruft den nächsten Knoten gemäß dem Pre-Order-Tree-Traversal-Algorithmus ab. |
-| [PrependChild&lt;T&gt;](../../aspose.words/compositenode/prependchild/)(T) |  |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Ruft den vorherigen Knoten gemäß dem Pre-Order-Tree-Traversal-Algorithmus ab. |
+| [IndexOf](../../aspose.words/compositenode/indexof/)(*[Node](../../aspose.words/node/)*) | Gibt den Index des angegebenen untergeordneten Knotens im untergeordneten Knoten-Array zurück. |
+| [InsertAfter](../../aspose.words/compositenode/insertafter/)(*[Node](../../aspose.words/node/), [Node](../../aspose.words/node/)*) | Fügt den angegebenen Knoten unmittelbar nach dem angegebenen Referenzknoten ein. |
+| [InsertBefore](../../aspose.words/compositenode/insertbefore/)(*[Node](../../aspose.words/node/), [Node](../../aspose.words/node/)*) | Fügt den angegebenen Knoten unmittelbar vor dem angegebenen Referenzknoten ein. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../../aspose.words/node/)*) | Ruft den nächsten Knoten gemäß dem Pre-Order-Tree-Traversal-Algorithmus ab. |
+| [PrependChild](../../aspose.words/compositenode/prependchild/)(*[Node](../../aspose.words/node/)*) | Fügt den angegebenen Knoten am Anfang der Liste der untergeordneten Knoten für diesen Knoten hinzu. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../../aspose.words/node/)*) | Ruft den vorherigen Knoten gemäß dem Pre-Order-Tree-Traversal-Algorithmus ab. |
 | [Remove](../../aspose.words/node/remove/)() | Entfernt sich selbst vom übergeordneten Element. |
 | [RemoveAllChildren](../../aspose.words/compositenode/removeallchildren/)() | Entfernt alle untergeordneten Knoten des aktuellen Knotens. |
-| [RemoveChild&lt;T&gt;](../../aspose.words/compositenode/removechild/)(T) |  |
+| [RemoveChild](../../aspose.words/compositenode/removechild/)(*[Node](../../aspose.words/node/)*) | Entfernt den angegebenen untergeordneten Knoten. |
 | [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags/)() | Entfernt alle[`SmartTag`](../../aspose.words.markup/smarttag/)Nachkommenknoten des aktuellen Knotens. |
-| [SelectNodes](../../aspose.words/compositenode/selectnodes/)(string) | Wählt eine Liste von Knoten aus, die dem XPath-Ausdruck entsprechen. |
-| [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(string) | Wählt den ersten aus[`Node`](../../aspose.words/node/) das entspricht dem XPath-Ausdruck. |
-| [SetBorder](../../aspose.words.tables/table/setborder/)(BorderType, LineStyle, double, Color, bool) | Setzt den angegebenen Tabellenrand auf den angegebenen Linienstil, die angegebene Breite und die angegebene Farbe. |
-| [SetBorders](../../aspose.words.tables/table/setborders/)(LineStyle, double, Color) | Setzt alle Tabellenränder auf den angegebenen Linienstil, die angegebene Breite und die angegebene Farbe. |
-| [SetShading](../../aspose.words.tables/table/setshading/)(TextureIndex, Color, Color) | Setzt die Schattierung auf die angegebenen Werte für die gesamte Tabelle. |
-| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Exportiert den Inhalt des Knotens in einen String im angegebenen Format. |
-| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | Exportiert den Inhalt des Knotens mit den angegebenen Speicheroptionen in einen String. |
+| [SelectNodes](../../aspose.words/compositenode/selectnodes/)(*string*) | Wählt eine Liste von Knoten aus, die dem XPath-Ausdruck entsprechen. |
+| [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(*string*) | Wählt den ersten aus[`Node`](../../aspose.words/node/) das entspricht dem XPath-Ausdruck. |
+| [SetBorder](../../aspose.words.tables/table/setborder/)(*[BorderType](../../aspose.words/bordertype/), [LineStyle](../../aspose.words/linestyle/), double, Color, bool*) | Setzt den angegebenen Tabellenrand auf den angegebenen Linienstil, die angegebene Breite und die angegebene Farbe. |
+| [SetBorders](../../aspose.words.tables/table/setborders/)(*[LineStyle](../../aspose.words/linestyle/), double, Color*) | Setzt alle Tabellenränder auf den angegebenen Linienstil, die angegebene Breite und die angegebene Farbe. |
+| [SetShading](../../aspose.words.tables/table/setshading/)(*[TextureIndex](../../aspose.words/textureindex/), Color, Color*) | Setzt die Schattierung auf die angegebenen Werte für die gesamte Tabelle. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../../aspose.words/saveformat/)*) | Exportiert den Inhalt des Knotens in einen String im angegebenen Format. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | Exportiert den Inhalt des Knotens mit den angegebenen Speicheroptionen in einen String. |
 
-### Bemerkungen
+## Bemerkungen
 
 `Table`ist ein Knoten auf Blockebene und kann ein untergeordnetes Element von abgeleiteten Klassen sein[`Story`](../../aspose.words/story/) or [`InlineStory`](../../aspose.words/inlinestory/).
 
@@ -118,7 +118,7 @@ public class Table : CompositeNode
 
 Eine minimal gültige Tabelle muss mindestens eine haben[`Row`](../row/).
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie eine Tabelle erstellt wird.
 
@@ -285,5 +285,3 @@ private static Table CreateTable(Document doc, int rowCount, int cellCount, stri
 * class [CompositeNode](../../aspose.words/compositenode/)
 * namensraum [Aspose.Words.Tables](../../aspose.words.tables/)
 * Montage [Aspose.Words](../../)
-
-

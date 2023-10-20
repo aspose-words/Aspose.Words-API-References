@@ -1,7 +1,9 @@
 ---
 title: Shape.TextPath
-second_title: Aspose.Words for .NET API 参考
-description: Shape 财产. 定义艺术字对象的文本路径的文本
+linktitle: TextPath
+articleTitle: TextPath
+second_title: 用于 .NET 的 Aspose.Words
+description: Shape TextPath 财产. 定义艺术字对象的文本路径的文本 在 C#.
 type: docs
 weight: 230
 url: /zh/net/aspose.words.drawing/shape/textpath/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.drawing/shape/textpath/
 public TextPath TextPath { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何使用艺术字。
 
@@ -118,7 +120,5 @@ private static Shape AppendWordArt(Document doc, string text, string textFontFam
 
 * class [TextPath](../../textpath/)
 * class [Shape](../)
-* 命名空间 [Aspose.Words.Drawing](../../shape/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

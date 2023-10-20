@@ -1,7 +1,9 @@
 ---
 title: RowFormat.Borders
-second_title: Aspose.Words لمراجع .NET API
-description: RowFormat ملكية. الحصول على مجموعة حدود الخلايا الافتراضية للصف.
+linktitle: Borders
+articleTitle: Borders
+second_title: Aspose.Words لـ .NET
+description: RowFormat Borders ملكية. الحصول على مجموعة حدود الخلايا الافتراضية للصف في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.tables/rowformat/borders/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.tables/rowformat/borders/
 public BorderCollection Borders { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء جدول بحدود مخصصة.
 
@@ -81,7 +83,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
 
 * class [BorderCollection](../../../aspose.words/bordercollection/)
 * class [RowFormat](../)
-* مساحة الاسم [Aspose.Words.Tables](../../rowformat/)
+* مساحة الاسم [Aspose.Words.Tables](../../../aspose.words.tables/)
 * المجسم [Aspose.Words](../../../)
-
-

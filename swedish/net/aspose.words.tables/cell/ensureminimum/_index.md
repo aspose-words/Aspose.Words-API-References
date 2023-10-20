@@ -1,9 +1,11 @@
 ---
 title: Cell.EnsureMinimum
-second_title: Aspose.Words för .NET API Referens
-description: Cell metod. Om det sista underordnade inte är ett stycke skapar och lägger till ett tomt stycke.
+linktitle: EnsureMinimum
+articleTitle: EnsureMinimum
+second_title: Aspose.Words för .NET
+description: Cell EnsureMinimum metod. Om det sista underordnade inte är ett stycke skapar och lägger till ett tomt stycke i C#.
 type: docs
-weight: 160
+weight: 140
 url: /sv/net/aspose.words.tables/cell/ensureminimum/
 ---
 ## Cell.EnsureMinimum method
@@ -14,7 +16,7 @@ Om det sista underordnade inte är ett stycke, skapar och lägger till ett tomt 
 public void EnsureMinimum()
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man säkerställer att en cellnod innehåller de noder vi behöver för att börja lägga till innehåll till den.
 
@@ -40,7 +42,5 @@ cell.FirstParagraph.AppendChild(new Run(doc, "Hello world!"));
 ### Se även
 
 * class [Cell](../)
-* namnutrymme [Aspose.Words.Tables](../../cell/)
+* namnutrymme [Aspose.Words.Tables](../../../aspose.words.tables/)
 * hopsättning [Aspose.Words](../../../)
-
-

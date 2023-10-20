@@ -1,7 +1,9 @@
 ---
 title: MailMerge.GetRegionsHierarchy
-second_title: Справочник по API Aspose.Words для .NET
-description: MailMerge метод. Возвращает полную иерархию регионов с полями доступных в документе.
+linktitle: GetRegionsHierarchy
+articleTitle: GetRegionsHierarchy
+second_title: Aspose.Words для .NET
+description: MailMerge GetRegionsHierarchy метод. Возвращает полную иерархию регионов с полями доступных в документе на С#.
 type: docs
 weight: 250
 url: /ru/net/aspose.words.mailmerging/mailmerge/getregionshierarchy/
@@ -18,11 +20,11 @@ public MailMergeRegionInfo GetRegionsHierarchy()
 
 Иерархия регионов.
 
-### Примечания
+## Примечания
 
 Иерархия возвращается в виде[`MailMergeRegionInfo`](../../mailmergeregioninfo/) сорт.
 
-### Примеры
+## Примеры
 
 Показывает, как проверить регионы слияния почты.
 
@@ -68,7 +70,5 @@ Assert.AreEqual("TableEnd:NestedRegion1", endFieldMergeField.FieldName);
 
 * class [MailMergeRegionInfo](../../mailmergeregioninfo/)
 * class [MailMerge](../)
-* пространство имен [Aspose.Words.MailMerging](../../mailmerge/)
+* пространство имен [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * сборка [Aspose.Words](../../../)
-
-

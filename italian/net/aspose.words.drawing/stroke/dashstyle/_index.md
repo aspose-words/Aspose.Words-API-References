@@ -1,9 +1,11 @@
 ---
 title: Stroke.DashStyle
-second_title: Aspose.Words per .NET API Reference
-description: Stroke proprietà. Specifica il motivo di punti e trattini per un tratto.
+linktitle: DashStyle
+articleTitle: DashStyle
+second_title: Aspose.Words per .NET
+description: Stroke DashStyle proprietà. Specifica il motivo di punti e trattini per un tratto in C#.
 type: docs
-weight: 50
+weight: 40
 url: /it/net/aspose.words.drawing/stroke/dashstyle/
 ---
 ## Stroke.DashStyle property
@@ -14,11 +16,11 @@ Specifica il motivo di punti e trattini per un tratto.
 public DashStyle DashStyle { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Il valore predefinito èSolid.
 
-### Esempi
+## Esempi
 
 Mostra per creare una varietà di forme.
 
@@ -94,7 +96,5 @@ doc.Save(ArtifactsDir + "Drawing.VariousShapes.docx");
 
 * enum [DashStyle](../../dashstyle/)
 * class [Stroke](../)
-* spazio dei nomi [Aspose.Words.Drawing](../../stroke/)
+* spazio dei nomi [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class ListLevel
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Lists.ListLevel klas. Definiert die Formatierung für eine Listenebene.
+title: ListLevel Class
+linktitle: ListLevel
+articleTitle: ListLevel
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Lists.ListLevel klas. Definiert die Formatierung für eine Listenebene in C#.
 type: docs
 weight: 3500
 url: /de/net/aspose.words.lists/listlevel/
@@ -41,17 +43,17 @@ public class ListLevel
 | --- | --- |
 | [CreatePictureBullet](../../aspose.words.lists/listlevel/createpicturebullet/)() | Erstellt eine Bildaufzählungsform für die aktuelle Listenebene. |
 | [DeletePictureBullet](../../aspose.words.lists/listlevel/deletepicturebullet/)() | Löscht Bildaufzählungszeichen für die aktuelle Listenebene. |
-| [Equals](../../aspose.words.lists/listlevel/equals/#equals)(ListLevel) | Vergleicht mit dem angegebenen ListLevel. |
+| [Equals](../../aspose.words.lists/listlevel/equals/#equals)(*ListLevel*) | Vergleicht mit dem angegebenen ListLevel. |
 | override [GetHashCode](../../aspose.words.lists/listlevel/gethashcode/)() | Berechnet den Hash-Code für dieses Objekt. |
-| static [GetEffectiveValue](../../aspose.words.lists/listlevel/geteffectivevalue/)(int, NumberStyle, string) | Meldet die Zeichenfolgendarstellung von`ListLevel`Objekt für den angegebenen index des Listenelements. Parameter geben die an[`NumberStyle`](../../aspose.words/numberstyle/) und ein optionales Format string , das verwendet wird, wennCustom angegeben ist. |
+| static [GetEffectiveValue](../../aspose.words.lists/listlevel/geteffectivevalue/)(*int, [NumberStyle](../../aspose.words/numberstyle/), string*) | Meldet die Zeichenfolgendarstellung von`ListLevel`Objekt für den angegebenen index des Listenelements. Parameter geben die an[`NumberStyle`](../../aspose.words/numberstyle/) und ein optionales Format string , das verwendet wird, wennCustom angegeben ist. |
 
-### Bemerkungen
+## Bemerkungen
 
 Sie erstellen keine Objekte dieser Klasse. Objekte auf Listenebene werden automatisch erstellt, wenn eine Liste erstellt wird. Sie greifen zu`ListLevel` Objekte über the [`ListLevelCollection`](../listlevelcollection/) Sammlung.
 
 Nutzen Sie die Eigenschaften von`ListLevel` um Listenformatierung für einzelne Listenebenen anzugeben.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie bei Verwendung von DocumentBuilder eine benutzerdefinierte Listenformatierung auf Absätze anwenden.
 
@@ -111,5 +113,3 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateCustomList.docx");
 
 * namensraum [Aspose.Words.Lists](../../aspose.words.lists/)
 * Montage [Aspose.Words](../../)
-
-

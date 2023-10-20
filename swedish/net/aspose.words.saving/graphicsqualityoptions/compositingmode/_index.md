@@ -1,7 +1,9 @@
 ---
 title: GraphicsQualityOptions.CompositingMode
-second_title: Aspose.Words för .NET API Referens
-description: GraphicsQualityOptions fast egendom. Hämtar eller ställer in ett värde som anger hur sammansatta bilder ritas till denna grafik.
+linktitle: CompositingMode
+articleTitle: CompositingMode
+second_title: Aspose.Words för .NET
+description: GraphicsQualityOptions CompositingMode fast egendom. Hämtar eller ställer in ett värde som anger hur sammansatta bilder ritas till denna grafik i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.saving/graphicsqualityoptions/compositingmode/
@@ -14,7 +16,7 @@ Hämtar eller ställer in ett värde som anger hur sammansatta bilder ritas till
 public CompositingMode? CompositingMode { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du ställer in alternativ för återgivningskvalitet när du konverterar dokument till bildformat.
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "ImageSaveOptions.GraphicsQuality.jpg", saveOptions);
 ### Se även
 
 * class [GraphicsQualityOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../graphicsqualityoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

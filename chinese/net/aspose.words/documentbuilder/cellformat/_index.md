@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.CellFormat
-second_title: Aspose.Words for .NET API 参考
-description: DocumentBuilder 财产. 返回表示当前表格单元格格式属性的对象
+linktitle: CellFormat
+articleTitle: CellFormat
+second_title: 用于 .NET 的 Aspose.Words
+description: DocumentBuilder CellFormat 财产. 返回表示当前表格单元格格式属性的对象 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words/documentbuilder/cellformat/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/documentbuilder/cellformat/
 public CellFormat CellFormat { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何使用文档生成器设置单元格格式。
 
@@ -164,7 +166,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
 
 * class [CellFormat](../../../aspose.words.tables/cellformat/)
 * class [DocumentBuilder](../)
-* 命名空间 [Aspose.Words](../../documentbuilder/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

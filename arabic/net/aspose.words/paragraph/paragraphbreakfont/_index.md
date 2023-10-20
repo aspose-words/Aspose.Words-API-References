@@ -1,7 +1,9 @@
 ---
 title: Paragraph.ParagraphBreakFont
-second_title: Aspose.Words لمراجع .NET API
-description: Paragraph ملكية. يوفر الوصول إلى تنسيق الخط لحرف فاصل الفقرة.
+linktitle: ParagraphBreakFont
+articleTitle: ParagraphBreakFont
+second_title: Aspose.Words لـ .NET
+description: Paragraph ParagraphBreakFont ملكية. يوفر الوصول إلى تنسيق الخط لحرف فاصل الفقرة في C#.
 type: docs
 weight: 180
 url: /ar/net/aspose.words/paragraph/paragraphbreakfont/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/paragraph/paragraphbreakfont/
 public Font ParagraphBreakFont { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام تطبيق DocumentVisitor لإزالة كل المحتوى المخفي من المستند.
 
@@ -211,7 +213,5 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
 
 * class [Font](../../font/)
 * class [Paragraph](../)
-* مساحة الاسم [Aspose.Words](../../paragraph/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

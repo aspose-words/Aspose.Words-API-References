@@ -1,12 +1,14 @@
 ---
 title: Cluster.GetString
-second_title: Aspose.Words för .NET API Referens
-description: Cluster metod. SkaparString använder kodpunkter från de angivna klustren.
+linktitle: GetString
+articleTitle: GetString
+second_title: Aspose.Words för .NET
+description: Cluster GetString metod. SkaparString använder kodpunkter från de angivna klustren i C#.
 type: docs
 weight: 70
 url: /sv/net/aspose.words.shaping/cluster/getstring/
 ---
-## GetString(Cluster[])
+## GetString(*Cluster[]*)
 
 SkaparString använder kodpunkter från de angivna klustren.
 
@@ -17,7 +19,7 @@ public static string GetString(Cluster[] clusters)
 ### Se även
 
 * class [Cluster](../)
-* namnutrymme [Aspose.Words.Shaping](../../cluster/)
+* namnutrymme [Aspose.Words.Shaping](../../../aspose.words.shaping/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
@@ -33,7 +35,5 @@ public string GetString()
 ### Se även
 
 * class [Cluster](../)
-* namnutrymme [Aspose.Words.Shaping](../../cluster/)
+* namnutrymme [Aspose.Words.Shaping](../../../aspose.words.shaping/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,20 +1,22 @@
 ---
 title: SignOptions.ProviderId
-second_title: Aspose.Words für .NET-API-Referenz
-description: SignOptions eigendom. Gibt die KlassenID des Signaturanbieters an. Der Standardwert ist Leere alle Nullen Guid .
+linktitle: ProviderId
+articleTitle: ProviderId
+second_title: Aspose.Words für .NET
+description: SignOptions ProviderId eigendom. Gibt die KlassenID des Signaturanbieters an. Der Standardwert istLeere alle Nullen Guid  in C#.
 type: docs
 weight: 40
 url: /de/net/aspose.words.digitalsignatures/signoptions/providerid/
 ---
 ## SignOptions.ProviderId property
 
-Gibt die Klassen-ID des Signaturanbieters an. Der Standardwert ist **Leere (alle Nullen) Guid** .
+Gibt die Klassen-ID des Signaturanbieters an. Der Standardwert ist**Leere (alle Nullen) Guid** .
 
 ```csharp
 public Guid ProviderId { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Der Kryptografiedienstanbieter (CSP) ist ein unabhängiges Softwaremodul, das tatsächlich Kryptografiealgorithmen zur Authentifizierung, Kodierung und Verschlüsselung ausführt. MS Office reserviert den Wert von {00000000-0000-0000-0000-000000000000} für seinen Standardsignaturanbieter.
 
@@ -22,7 +24,7 @@ Die GUID des zusätzlich installierten Providers entnehmen Sie bitte der mitgeli
 
 Darüber hinaus werden alle installierten Kryptografieanbieter in der Windows-Registrierung aufgelistet. Sie finden sie im folgenden Pfad: HKLM\SOFTWARE\Microsoft\Cryptography\Defaults\Provider. Es gibt einen Schlüsselnamen „CP Service UUID“, der entspricht eine GUID des Signaturanbieters.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man ein Dokument mit einem persönlichen Zertifikat und einer Signaturzeile signiert.
 
@@ -75,7 +77,5 @@ Assert.True(signatureLine.IsValid);
 ### Siehe auch
 
 * class [SignOptions](../)
-* namensraum [Aspose.Words.DigitalSignatures](../../signoptions/)
+* namensraum [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * Montage [Aspose.Words](../../../)
-
-

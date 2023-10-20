@@ -1,7 +1,9 @@
 ---
 title: OfficeMath.Justification
-second_title: Aspose.Words for .NET API 参考
-description: OfficeMath 财产. 获取/设置 Office Math 理由
+linktitle: Justification
+articleTitle: Justification
+second_title: 用于 .NET 的 Aspose.Words
+description: OfficeMath Justification 财产. 获取/设置 Office Math 理由 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.math/officemath/justification/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.math/officemath/justification/
 public OfficeMathJustification Justification { get; set; }
 ```
 
-### 评论
+## 评论
 
 无法将对齐方式设置为具有显示格式类型的 Office MathInline。
 
@@ -22,7 +24,7 @@ public OfficeMathJustification Justification { get; set; }
 
 相应的[`DisplayType`](../displaytype/)必须在设置 Office Math 对齐方式之前进行设置。
 
-### 例子
+## 例子
 
 演示如何设置 Office 数学显示格式。
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "Shape.OfficeMath.docx");
 
 * enum [OfficeMathJustification](../../officemathjustification/)
 * class [OfficeMath](../)
-* 命名空间 [Aspose.Words.Math](../../officemath/)
+* 命名空间 [Aspose.Words.Math](../../../aspose.words.math/)
 * 部件 [Aspose.Words](../../../)
-
-

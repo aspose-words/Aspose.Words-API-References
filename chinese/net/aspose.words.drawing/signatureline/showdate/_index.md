@@ -1,7 +1,9 @@
 ---
 title: SignatureLine.ShowDate
-second_title: Aspose.Words for .NET API 参考
-description: SignatureLine 财产. 获取或设置一个值该值指示签名日期显示在签名行中 此属性的默认值为真的.
+linktitle: ShowDate
+articleTitle: ShowDate
+second_title: 用于 .NET 的 Aspose.Words
+description: SignatureLine ShowDate 财产. 获取或设置一个值该值指示签名日期显示在签名行中 此属性的默认值为真的 在 C#.
 type: docs
 weight: 90
 url: /zh/net/aspose.words.drawing/signatureline/showdate/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.drawing/signatureline/showdate/
 public bool ShowDate { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何创建签名行并将其插入文档中。
 
@@ -59,7 +61,5 @@ doc.Save(ArtifactsDir + "Shape.SignatureLine.docx");
 ### 也可以看看
 
 * class [SignatureLine](../)
-* 命名空间 [Aspose.Words.Drawing](../../signatureline/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

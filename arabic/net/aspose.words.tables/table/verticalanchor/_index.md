@@ -1,7 +1,9 @@
 ---
 title: Table.VerticalAnchor
-second_title: Aspose.Words لمراجع .NET API
-description: Table ملكية. يحصل على الكائن الأساسي الذي يجب حساب الموضع الرأسي للجدول العائم منه. القيمة الافتراضية هيMargin .
+linktitle: VerticalAnchor
+articleTitle: VerticalAnchor
+second_title: Aspose.Words لـ .NET
+description: Table VerticalAnchor ملكية. يحصل على الكائن الأساسي الذي يجب حساب الموضع الرأسي للجدول العائم منه. القيمة الافتراضية هيMargin  في C#.
 type: docs
 weight: 340
 url: /ar/net/aspose.words.tables/table/verticalanchor/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.tables/table/verticalanchor/
 public RelativeVerticalPosition VerticalAnchor { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع خصائص الجداول العائمة.
 
@@ -43,7 +45,5 @@ if (table.TextWrapping == TextWrapping.Around)
 
 * enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/)
 * class [Table](../)
-* مساحة الاسم [Aspose.Words.Tables](../../table/)
+* مساحة الاسم [Aspose.Words.Tables](../../../aspose.words.tables/)
 * المجسم [Aspose.Words](../../../)
-
-

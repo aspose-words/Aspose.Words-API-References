@@ -1,7 +1,9 @@
 ---
 title: PdfDigitalSignatureTimestampSettings.Timeout
-second_title: Référence de l'API Aspose.Words pour .NET
-description: PdfDigitalSignatureTimestampSettings propriété. Valeur du délai dattente pour accéder au serveur dhorodatage.
+linktitle: Timeout
+articleTitle: Timeout
+second_title: Aspose.Words pour .NET
+description: PdfDigitalSignatureTimestampSettings Timeout propriété. Valeur du délai dattente pour accéder au serveur dhorodatage en C#.
 type: docs
 weight: 40
 url: /fr/net/aspose.words.saving/pdfdigitalsignaturetimestampsettings/timeout/
@@ -14,11 +16,11 @@ Valeur du délai d'attente pour accéder au serveur d'horodatage.
 public TimeSpan Timeout { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 La valeur par défaut est 100 secondes.
 
-### Exemples
+## Exemples
 
 Montre comment signer numériquement un document PDF enregistré et l'horodater.
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignatureTimestamp.pdf", optio
 ### Voir également
 
 * class [PdfDigitalSignatureTimestampSettings](../)
-* espace de noms [Aspose.Words.Saving](../../pdfdigitalsignaturetimestampsettings/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

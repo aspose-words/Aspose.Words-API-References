@@ -1,7 +1,9 @@
 ---
-title: Enum PdfPageMode
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Saving.PdfPageMode 枚举. 指定在 PDF 阅读器中打开 PDF 文档时应如何显示
+title: PdfPageMode Enum
+linktitle: PdfPageMode
+articleTitle: PdfPageMode
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Saving.PdfPageMode 枚举. 指定在 PDF 阅读器中打开 PDF 文档时应如何显示 在 C#.
 type: docs
 weight: 5500
 url: /zh/net/aspose.words.saving/pdfpagemode/
@@ -25,7 +27,7 @@ public enum PdfPageMode
 | UseOC | `4` | 可选内容组面板可见。 |
 | UseAttachments | `5` | 附件面板可见。 |
 
-### 例子
+## 例子
 
 展示如何设置某些 PDF 阅读器在打开输出文档时要遵循的说明。
 
@@ -84,5 +86,3 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.HeaderFooterBookmarksExportMode.pdf", sa
 
 * 命名空间 [Aspose.Words.Saving](../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../)
-
-

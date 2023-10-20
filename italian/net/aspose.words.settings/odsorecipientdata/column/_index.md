@@ -1,7 +1,9 @@
 ---
 title: OdsoRecipientData.Column
-second_title: Aspose.Words per .NET API Reference
-description: OdsoRecipientData proprietà. Specifica la colonna allinterno dellorigine dati che contiene dati univoci per il record corrente. Il valore predefinito è 0.
+linktitle: Column
+articleTitle: Column
+second_title: Aspose.Words per .NET
+description: OdsoRecipientData Column proprietà. Specifica la colonna allinterno dellorigine dati che contiene dati univoci per il record corrente. Il valore predefinito è 0 in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words.settings/odsorecipientdata/column/
@@ -14,7 +16,7 @@ Specifica la colonna all'interno dell'origine dati che contiene dati univoci per
 public int Column { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come accedere alla raccolta di dati che indica quali record dell'origine dati di unione verranno esclusi da una stampa unione.
 
@@ -54,7 +56,5 @@ Assert.AreEqual(0, dataCollection.Count);
 ### Guarda anche
 
 * class [OdsoRecipientData](../)
-* spazio dei nomi [Aspose.Words.Settings](../../odsorecipientdata/)
+* spazio dei nomi [Aspose.Words.Settings](../../../aspose.words.settings/)
 * assemblea [Aspose.Words](../../../)
-
-

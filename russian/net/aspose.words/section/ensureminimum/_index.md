@@ -1,9 +1,11 @@
 ---
 title: Section.EnsureMinimum
-second_title: Справочник по API Aspose.Words для .NET
-description: Section метод. Гарантирует что в разделе естьBody с однимParagraph .
+linktitle: EnsureMinimum
+articleTitle: EnsureMinimum
+second_title: Aspose.Words для .NET
+description: Section EnsureMinimum метод. Гарантирует что в разделе естьBody с однимParagraph  на С#.
 type: docs
-weight: 150
+weight: 130
 url: /ru/net/aspose.words/section/ensureminimum/
 ---
 ## Section.EnsureMinimum method
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/section/ensureminimum/
 public void EnsureMinimum()
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как подготовить новый узел раздела к редактированию.
 
@@ -46,7 +48,5 @@ Assert.AreEqual("Hello world!", doc.GetText().Trim());
 ### Смотрите также
 
 * class [Section](../)
-* пространство имен [Aspose.Words](../../section/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: MailMerge.GetRegionsByName
-second_title: Справочник по API Aspose.Words для .NET
-description: MailMerge метод. Возвращает коллекцию регионов слияния почты с указанным именем.
+linktitle: GetRegionsByName
+articleTitle: GetRegionsByName
+second_title: Aspose.Words для .NET
+description: MailMerge GetRegionsByName метод. Возвращает коллекцию регионов слияния почты с указанным именем на С#.
 type: docs
 weight: 240
 url: /ru/net/aspose.words.mailmerging/mailmerge/getregionsbyname/
@@ -22,7 +24,7 @@ public IList<MailMergeRegionInfo> GetRegionsByName(string regionName)
 
 Список регионов.
 
-### Примеры
+## Примеры
 
 Показывает, как создавать, составлять список и читать регионы слияния почты.
 
@@ -78,7 +80,5 @@ Assert.AreEqual("Column2", mergeFieldNames[0]);
 
 * class [MailMergeRegionInfo](../../mailmergeregioninfo/)
 * class [MailMerge](../)
-* пространство имен [Aspose.Words.MailMerging](../../mailmerge/)
+* пространство имен [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * сборка [Aspose.Words](../../../)
-
-

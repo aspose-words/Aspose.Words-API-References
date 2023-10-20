@@ -1,7 +1,9 @@
 ---
 title: LoadOptions.UpdateDirtyFields
-second_title: Aspose.Words لمراجع .NET API
-description: LoadOptions ملكية. يحدد ما إذا كان سيتم تحديث الحقول ذات الامتداد أم لامتسخ السمة.
+linktitle: UpdateDirtyFields
+articleTitle: UpdateDirtyFields
+second_title: Aspose.Words لـ .NET
+description: LoadOptions UpdateDirtyFields ملكية. يحدد ما إذا كان سيتم تحديث الحقول ذات الامتداد أم لامتسخ السمة في C#.
 type: docs
 weight: 160
 url: /ar/net/aspose.words.loading/loadoptions/updatedirtyfields/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.loading/loadoptions/updatedirtyfields/
 public bool UpdateDirtyFields { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام خاصية خاصة لتحديث نتيجة الحقل.
 
@@ -71,7 +73,5 @@ using (MemoryStream docStream = new MemoryStream())
 ### أنظر أيضا
 
 * class [LoadOptions](../)
-* مساحة الاسم [Aspose.Words.Loading](../../loadoptions/)
+* مساحة الاسم [Aspose.Words.Loading](../../../aspose.words.loading/)
 * المجسم [Aspose.Words](../../../)
-
-

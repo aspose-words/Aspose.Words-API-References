@@ -1,7 +1,9 @@
 ---
 title: SignatureLine.ProviderId
-second_title: Aspose.Words per .NET API Reference
-description: SignatureLine proprietà. Ottiene o imposta lidentificatore del fornitore della firma per questa riga della firma. Il valore predefinito è 00000000000000000000000000000000.
+linktitle: ProviderId
+articleTitle: ProviderId
+second_title: Aspose.Words per .NET
+description: SignatureLine ProviderId proprietà. Ottiene o imposta lidentificatore del fornitore della firma per questa riga della firma. Il valore predefinito è 00000000000000000000000000000000 in C#.
 type: docs
 weight: 80
 url: /it/net/aspose.words.drawing/signatureline/providerid/
@@ -14,7 +16,7 @@ Ottiene o imposta l'identificatore del fornitore della firma per questa riga del
 public Guid ProviderId { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Il fornitore di servizi di crittografia (CSP) è un modulo software indipendente che esegue effettivamente algoritmi di crittografia x000d per l'autenticazione, la codifica e la crittografia. MS Office riserva il valore di {00000000-0000-0000-0000-000000000000} per il suo fornitore di firma predefinito.
 
@@ -22,7 +24,7 @@ Il GUID del provider installato in aggiunta deve essere ottenuto dalla documenta
 
 Inoltre, tutti i provider di crittografia installati sono enumerati nel registro di Windows. Può essere trovato nel seguente percorso: HKLM\SOFTWARE\Microsoft\Cryptography\Defaults\Provider. Esiste un nome chiave "CP Service UUID" che corrisponde a un GUID del provider della firma.
 
-### Esempi
+## Esempi
 
 Mostra come firmare un documento con un certificato personale e una riga per la firma.
 
@@ -75,7 +77,5 @@ Assert.True(signatureLine.IsValid);
 ### Guarda anche
 
 * class [SignatureLine](../)
-* spazio dei nomi [Aspose.Words.Drawing](../../signatureline/)
+* spazio dei nomi [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ResourceFolderAlias
-second_title: Aspose.Words für .NET-API-Referenz
-description: HtmlSaveOptions eigendom. Gibt den Namen des Ordners an der zum Erstellen der URIs aller in ein HTMLDokument geschriebenen Ressourcen verwendet wird. Der Standardwert ist eine leere Zeichenfolge.
+linktitle: ResourceFolderAlias
+articleTitle: ResourceFolderAlias
+second_title: Aspose.Words für .NET
+description: HtmlSaveOptions ResourceFolderAlias eigendom. Gibt den Namen des Ordners an der zum Erstellen der URIs aller in ein HTMLDokument geschriebenen Ressourcen verwendet wird. Der Standardwert ist eine leere Zeichenfolge in C#.
 type: docs
 weight: 430
 url: /de/net/aspose.words.saving/htmlsaveoptions/resourcefolderalias/
@@ -14,7 +16,7 @@ Gibt den Namen des Ordners an, der zum Erstellen der URIs aller in ein HTML-Doku
 public string ResourceFolderAlias { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 `ResourceFolderAlias` ist die einfachste Möglichkeit, anzugeben, wie URIs für alle Ressourcendateien erstellt werden sollen. Dieselben Informationen können für Bilder und Schriftarten separat angegeben werden über[`ImagesFolderAlias`](../imagesfolderalias/) und[`FontsFolderAlias`](../fontsfolderalias/) Eigenschaften bzw. Es gibt jedoch keine individuelle Eigenschaft für CSS.
 
@@ -24,7 +26,7 @@ Wenn`ResourceFolderAlias` ist leer, die[`ResourceFolder`](../resourcefolder/)Der
 
 Wenn`ResourceFolderAlias` ist eingestellt auf '.' (Punkt), Ressourcen-URIs enthalten nur Dateinamen, ohne einen Pfad.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Ordner und Ordneraliase für extern gespeicherte Ressourcen festgelegt werden, die Aspose.Words beim Speichern eines Dokuments in HTML erstellt.
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "HtmlSaveOptions.FolderAlias.html", options);
 ### Siehe auch
 
 * class [HtmlSaveOptions](../)
-* namensraum [Aspose.Words.Saving](../../htmlsaveoptions/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

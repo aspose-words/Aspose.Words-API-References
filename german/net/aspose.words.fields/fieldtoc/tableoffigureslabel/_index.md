@@ -1,7 +1,9 @@
 ---
 title: FieldToc.TableOfFiguresLabel
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldToc eigendom. Ruft den Namen der Sequenzkennung ab die beim Erstellen eines Abbildungsverzeichnisses verwendet wird oder legt diesen fest.
+linktitle: TableOfFiguresLabel
+articleTitle: TableOfFiguresLabel
+second_title: Aspose.Words für .NET
+description: FieldToc TableOfFiguresLabel eigendom. Ruft den Namen der Sequenzkennung ab die beim Erstellen eines Abbildungsverzeichnisses verwendet wird oder legt diesen fest in C#.
 type: docs
 weight: 160
 url: /de/net/aspose.words.fields/fieldtoc/tableoffigureslabel/
@@ -14,7 +16,7 @@ Ruft den Namen der Sequenzkennung ab, die beim Erstellen eines Abbildungsverzeic
 public string TableOfFiguresLabel { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein TOC-Feld mithilfe von SEQ-Feldern mit Einträgen gefüllt wird.
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "Field.TOC.SEQ.docx");
 ### Siehe auch
 
 * class [FieldToc](../)
-* namensraum [Aspose.Words.Fields](../../fieldtoc/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

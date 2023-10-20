@@ -1,7 +1,9 @@
 ---
-title: BookmarkStart.BookmarkStart
-second_title: Aspose.Words per .NET API Reference
-description: BookmarkStart costruttore. Inizializza una nuova istanza diBookmarkStart classe.
+title: BookmarkStart
+linktitle: BookmarkStart
+articleTitle: BookmarkStart
+second_title: Aspose.Words per .NET
+description: BookmarkStart costruttore. Inizializza una nuova istanza diBookmarkStart classe in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words/bookmarkstart/bookmarkstart/
@@ -19,7 +21,7 @@ public BookmarkStart(DocumentBase doc, string name)
 | doc | DocumentBase | Il documento del proprietario. |
 | name | String | Il nome del segnalibro. Non può essere`nullo`. |
 
-### Esempi
+## Esempi
 
 Mostra come aggiungere segnalibri e aggiornarne i contenuti.
 
@@ -109,7 +111,5 @@ public class BookmarkInfoPrinter : DocumentVisitor
 
 * class [DocumentBase](../../documentbase/)
 * class [BookmarkStart](../)
-* spazio dei nomi [Aspose.Words](../../bookmarkstart/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

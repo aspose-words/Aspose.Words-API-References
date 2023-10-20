@@ -1,7 +1,9 @@
 ---
 title: GraphicsQualityOptions.UseTileFlipMode
-second_title: Справочник по API Aspose.Words для .NET
-description: GraphicsQualityOptions свойство. Получает или задает флаг указывающий является ли WrapMode значением TileFlipXY.
+linktitle: UseTileFlipMode
+articleTitle: UseTileFlipMode
+second_title: Aspose.Words для .NET
+description: GraphicsQualityOptions UseTileFlipMode свойство. Получает или задает флаг указывающий является ли WrapMode значением TileFlipXY на С#.
 type: docs
 weight: 80
 url: /ru/net/aspose.words.saving/graphicsqualityoptions/usetileflipmode/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.saving/graphicsqualityoptions/usetileflipmode/
 public bool UseTileFlipMode { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 WrapMode определяет, как текстура или градиент будет располагаться плиткой, если она меньше , чем заполняемая область.
 
@@ -22,7 +24,7 @@ WrapMode определяет, как текстура или градиент �
 
 Это свойство позволяет переключить WrapMode наTileFlipXY (указывает, что плитки переворачиваются на по горизонтали при перемещении по строке и переворачиваются по вертикали при перемещении по столбцу).
 
-### Примеры
+## Примеры
 
 Показывает, как предотвратить появление белой линии при рендеринге с высоким разрешением.
 
@@ -42,7 +44,5 @@ renderer.Save(ArtifactsDir + "ImageSaveOptions.UseTileFlipMode.png", saveOptions
 ### Смотрите также
 
 * class [GraphicsQualityOptions](../)
-* пространство имен [Aspose.Words.Saving](../../graphicsqualityoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

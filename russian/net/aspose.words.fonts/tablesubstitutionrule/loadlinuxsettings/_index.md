@@ -1,7 +1,9 @@
 ---
 title: TableSubstitutionRule.LoadLinuxSettings
-second_title: Справочник по API Aspose.Words для .NET
-description: TableSubstitutionRule метод. Загружает предопределенные настройки подстановки таблиц для платформы Linux.
+linktitle: LoadLinuxSettings
+articleTitle: LoadLinuxSettings
+second_title: Aspose.Words для .NET
+description: TableSubstitutionRule LoadLinuxSettings метод. Загружает предопределенные настройки подстановки таблиц для платформы Linux на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.fonts/tablesubstitutionrule/loadlinuxsettings/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fonts/tablesubstitutionrule/loadlinuxsettings/
 public void LoadLinuxSettings()
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как получить доступ к таблицам замены шрифтов для Windows и Linux.
 
@@ -53,7 +55,5 @@ using (FileStream fileStream = new FileStream(ArtifactsDir + "FontSettings.Table
 ### Смотрите также
 
 * class [TableSubstitutionRule](../)
-* пространство имен [Aspose.Words.Fonts](../../tablesubstitutionrule/)
+* пространство имен [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * сборка [Aspose.Words](../../../)
-
-

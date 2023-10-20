@@ -1,7 +1,9 @@
 ---
 title: BookmarkCollection.Item
-second_title: Aspose.Words per .NET API Reference
-description: BookmarkCollection proprietà. Restituisce un segnalibro allindice specificato.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words per .NET
+description: BookmarkCollection Item proprietà. Restituisce un segnalibro allindice specificato in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words/bookmarkcollection/item/
@@ -18,7 +20,7 @@ public Bookmark this[int index] { get; }
 | --- | --- |
 | index | Un indice nella raccolta. |
 
-### Osservazioni
+## Osservazioni
 
 L'indice è a base zero.
 
@@ -28,7 +30,7 @@ Se indice è maggiore o uguale al numero di elementi nell'elenco, restituisce un
 
 Se indice è negativo e il suo valore assoluto è maggiore del numero di elementi nell'elenco, restituisce un riferimento null.
 
-### Esempi
+## Esempi
 
 Mostra come aggiungere segnalibri e aggiornarne i contenuti.
 
@@ -118,7 +120,7 @@ public class BookmarkInfoPrinter : DocumentVisitor
 
 * class [Bookmark](../../bookmark/)
 * class [BookmarkCollection](../)
-* spazio dei nomi [Aspose.Words](../../bookmarkcollection/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
 
 ---
@@ -135,11 +137,11 @@ public Bookmark this[string bookmarkName] { get; }
 | --- | --- |
 | bookmarkName | Nome del segnalibro senza distinzione tra maiuscole e minuscole. |
 
-### Osservazioni
+## Osservazioni
 
 ritorna`nullo`se non è possibile trovare il segnalibro con il nome specificato.
 
-### Esempi
+## Esempi
 
 Mostra come aggiungere segnalibri e aggiornarne i contenuti.
 
@@ -229,7 +231,5 @@ public class BookmarkInfoPrinter : DocumentVisitor
 
 * class [Bookmark](../../bookmark/)
 * class [BookmarkCollection](../)
-* spazio dei nomi [Aspose.Words](../../bookmarkcollection/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

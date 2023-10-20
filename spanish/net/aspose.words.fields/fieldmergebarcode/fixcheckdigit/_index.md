@@ -1,7 +1,9 @@
 ---
 title: FieldMergeBarcode.FixCheckDigit
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldMergeBarcode propiedad. Obtiene o establece si se corrige el dígito de control si no es válido.
+linktitle: FixCheckDigit
+articleTitle: FixCheckDigit
+second_title: Aspose.Words para .NET
+description: FieldMergeBarcode FixCheckDigit propiedad. Obtiene o establece si se corrige el dígito de control si no es válido en C#.
 type: docs
 weight: 90
 url: /es/net/aspose.words.fields/fieldmergebarcode/fixcheckdigit/
@@ -14,7 +16,7 @@ Obtiene o establece si se corrige el dígito de control si no es válido.
 public bool FixCheckDigit { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo realizar una combinación de correspondencia en códigos de barras EAN13.
 
@@ -60,7 +62,5 @@ doc.Save(ArtifactsDir + "Field.MERGEBARCODE.EAN13.docx");
 ### Ver también
 
 * class [FieldMergeBarcode](../)
-* espacio de nombres [Aspose.Words.Fields](../../fieldmergebarcode/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

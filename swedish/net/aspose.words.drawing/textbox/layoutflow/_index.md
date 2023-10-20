@@ -1,7 +1,9 @@
 ---
 title: TextBox.LayoutFlow
-second_title: Aspose.Words för .NET API Referens
-description: TextBox fast egendom. Bestämmer flödet av textlayouten i en form.
+linktitle: LayoutFlow
+articleTitle: LayoutFlow
+second_title: Aspose.Words för .NET
+description: TextBox LayoutFlow fast egendom. Bestämmer flödet av textlayouten i en form i C#.
 type: docs
 weight: 60
 url: /sv/net/aspose.words.drawing/textbox/layoutflow/
@@ -14,11 +16,11 @@ Bestämmer flödet av textlayouten i en form.
 public LayoutFlow LayoutFlow { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Standardvärdet ärHorizontal.
 
-### Exempel
+## Exempel
 
 Visar hur man ställer in orienteringen för text inuti en textruta.
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "Shape.TextBoxLayoutFlow.docx");
 
 * enum [LayoutFlow](../../layoutflow/)
 * class [TextBox](../)
-* namnutrymme [Aspose.Words.Drawing](../../textbox/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,20 +1,22 @@
 ---
 title: SignatureLine.Instructions
-second_title: Aspose.Words for .NET API 参考
-description: SignatureLine 财产. 获取或设置在签署签名行时显示的给签名者的说明 如果满足以下条件则忽略此属性DefaultInstructions已设置 此属性的默认值为 空字符串Empty.
+linktitle: Instructions
+articleTitle: Instructions
+second_title: 用于 .NET 的 Aspose.Words
+description: SignatureLine Instructions 财产. 获取或设置在签署签名行时显示的给签名者的说明 如果满足以下条件则忽略此属性DefaultInstructions已设置 此属性的默认值为空字符串Empty 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words.drawing/signatureline/instructions/
 ---
 ## SignatureLine.Instructions property
 
-获取或设置在签署签名行时显示的给签名者的说明。 如果满足以下条件，则忽略此属性：[`DefaultInstructions`](../defaultinstructions/)已设置。 此属性的默认值为 **空字符串**（Empty).
+获取或设置在签署签名行时显示的给签名者的说明。 如果满足以下条件，则忽略此属性：[`DefaultInstructions`](../defaultinstructions/)已设置。 此属性的默认值为**空字符串**（Empty).
 
 ```csharp
 public string Instructions { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何创建签名行并将其插入文档中。
 
@@ -59,7 +61,5 @@ doc.Save(ArtifactsDir + "Shape.SignatureLine.docx");
 ### 也可以看看
 
 * class [SignatureLine](../)
-* 命名空间 [Aspose.Words.Drawing](../../signatureline/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

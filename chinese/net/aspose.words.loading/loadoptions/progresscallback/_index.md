@@ -1,7 +1,9 @@
 ---
 title: LoadOptions.ProgressCallback
-second_title: Aspose.Words for .NET API 参考
-description: LoadOptions 财产. 在加载文档期间调用并接受有关加载进度的数据
+linktitle: ProgressCallback
+articleTitle: ProgressCallback
+second_title: 用于 .NET 的 Aspose.Words
+description: LoadOptions ProgressCallback 财产. 在加载文档期间调用并接受有关加载进度的数据 在 C#.
 type: docs
 weight: 130
 url: /zh/net/aspose.words.loading/loadoptions/progresscallback/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.loading/loadoptions/progresscallback/
 public IDocumentLoadingCallback ProgressCallback { get; set; }
 ```
 
-### 评论
+## 评论
 
 Docx,FlatOpc,Docm,Dotm,Dotx,Markdown,Rtf,WordML,Doc,Dot,Odt,Ott支持的格式。
 
-### 例子
+## 例子
 
 演示如何在文档加载超出预期加载时间时通知用户。
 
@@ -83,7 +85,5 @@ public class LoadingProgressCallback : IDocumentLoadingCallback
 
 * interface [IDocumentLoadingCallback](../../idocumentloadingcallback/)
 * class [LoadOptions](../)
-* 命名空间 [Aspose.Words.Loading](../../loadoptions/)
+* 命名空间 [Aspose.Words.Loading](../../../aspose.words.loading/)
 * 部件 [Aspose.Words](../../../)
-
-

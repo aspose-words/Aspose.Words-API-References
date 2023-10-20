@@ -1,7 +1,9 @@
 ---
 title: Document.LastSection
-second_title: Referencia de API de Aspose.Words para .NET
-description: Document propiedad. Obtiene la última sección del documento.
+linktitle: LastSection
+articleTitle: LastSection
+second_title: Aspose.Words para .NET
+description: Document LastSection propiedad. Obtiene la última sección del documento en C#.
 type: docs
 weight: 240
 url: /es/net/aspose.words/document/lastsection/
@@ -14,11 +16,11 @@ Obtiene la última sección del documento.
 public Section LastSection { get; }
 ```
 
-### Observaciones
+## Observaciones
 
 Devoluciones`nulo` si no hay secciones.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear una nueva sección con un generador de documentos.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "Section.Create.docx");
 
 * class [Section](../../section/)
 * class [Document](../)
-* espacio de nombres [Aspose.Words](../../document/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ImageSaveOptions.VerticalResolution
-second_title: Aspose.Words لمراجع .NET API
-description: ImageSaveOptions ملكية. الحصول على أو تعيين الدقة الرأسية للصور التي تم إنشاؤها بالنقاط في البوصة.
+linktitle: VerticalResolution
+articleTitle: VerticalResolution
+second_title: Aspose.Words لـ .NET
+description: ImageSaveOptions VerticalResolution ملكية. الحصول على أو تعيين الدقة الرأسية للصور التي تم إنشاؤها بالنقاط في البوصة في C#.
 type: docs
 weight: 200
 url: /ar/net/aspose.words.saving/imagesaveoptions/verticalresolution/
@@ -14,13 +16,13 @@ url: /ar/net/aspose.words.saving/imagesaveoptions/verticalresolution/
 public float VerticalResolution { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 تؤثر هذه الخاصية فقط عند الحفظ في تنسيقات الصور النقطية وتؤثر على حجم الإخراج بالبكسل.
 
 القيمة الافتراضية هي 96.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحرير الصورة بينما يقوم Aspose.Words بتحويل مستند إلى مستند.
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "ImageSaveOptions.EditImage.png", options);
 ### أنظر أيضا
 
 * class [ImageSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../imagesaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

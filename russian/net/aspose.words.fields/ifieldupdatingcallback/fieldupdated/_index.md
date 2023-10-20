@@ -1,7 +1,9 @@
 ---
 title: IFieldUpdatingCallback.FieldUpdated
-second_title: Справочник по API Aspose.Words для .NET
-description: IFieldUpdatingCallback метод. Определенный пользователем метод который вызывается сразу после обновления поля.
+linktitle: FieldUpdated
+articleTitle: FieldUpdated
+second_title: Aspose.Words для .NET
+description: IFieldUpdatingCallback FieldUpdated метод. Определенный пользователем метод который вызывается сразу после обновления поля на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fields/ifieldupdatingcallback/fieldupdated/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/ifieldupdatingcallback/fieldupdated/
 public void FieldUpdated(Field field)
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как использовать методы обратного вызова во время обновления поля.
 
@@ -83,7 +85,5 @@ public class FieldUpdatingCallback : IFieldUpdatingCallback, IFieldUpdatingProgr
 
 * class [Field](../../field/)
 * interface [IFieldUpdatingCallback](../)
-* пространство имен [Aspose.Words.Fields](../../ifieldupdatingcallback/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

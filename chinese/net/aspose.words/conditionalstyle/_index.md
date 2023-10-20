@@ -1,7 +1,9 @@
 ---
-title: Class ConditionalStyle
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.ConditionalStyle 班级. 表示应用于具有指定表格样式的表格某些区域的特殊格式
+title: ConditionalStyle Class
+linktitle: ConditionalStyle
+articleTitle: ConditionalStyle
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.ConditionalStyle 班级. 表示应用于具有指定表格样式的表格某些区域的特殊格式 在 C#.
 type: docs
 weight: 310
 url: /zh/net/aspose.words/conditionalstyle/
@@ -35,10 +37,10 @@ public sealed class ConditionalStyle
 | 姓名 | 描述 |
 | --- | --- |
 | [ClearFormatting](../../aspose.words/conditionalstyle/clearformatting/)() | 清除此条件样式的格式。 |
-| override [Equals](../../aspose.words/conditionalstyle/equals/)(object) | 将此条件样式与指定对象进行比较。 |
+| override [Equals](../../aspose.words/conditionalstyle/equals/)(*object*) | 将此条件样式与指定对象进行比较。 |
 | override [GetHashCode](../../aspose.words/conditionalstyle/gethashcode/)() | 计算该对象的哈希码。 |
 
-### 例子
+## 例子
 
 展示如何使用表格的某些区域样式。
 
@@ -109,5 +111,3 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 
 * 命名空间 [Aspose.Words](../../aspose.words/)
 * 部件 [Aspose.Words](../../)
-
-

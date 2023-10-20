@@ -1,7 +1,9 @@
 ---
 title: BookmarkEnd.NodeType
-second_title: Aspose.Words för .NET API Referens
-description: BookmarkEnd fast egendom. ReturnerarBookmarkEnd .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words för .NET
+description: BookmarkEnd NodeType fast egendom. ReturnerarBookmarkEnd  i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words/bookmarkend/nodetype/
@@ -14,7 +16,7 @@ ReturnerarBookmarkEnd .
 public override NodeType NodeType { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man korsar en sammansatt nods träd med undernoder.
 
@@ -62,7 +64,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 
 * enum [NodeType](../../nodetype/)
 * class [BookmarkEnd](../)
-* namnutrymme [Aspose.Words](../../bookmarkend/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

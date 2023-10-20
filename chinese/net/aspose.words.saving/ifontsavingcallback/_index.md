@@ -1,7 +1,9 @@
 ---
-title: Interface IFontSavingCallback
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Saving.IFontSavingCallback 界面. 如果您想接收通知并控制 Aspose.Words 在将文档导出为 HTML 格式时如何保存字体请实现此接口
+title: IFontSavingCallback Interface
+linktitle: IFontSavingCallback
+articleTitle: IFontSavingCallback
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Saving.IFontSavingCallback 界面. 如果您想接收通知并控制 Aspose.Words 在将文档导出为 HTML 格式时如何保存字体请实现此接口 在 C#.
 type: docs
 weight: 5160
 url: /zh/net/aspose.words.saving/ifontsavingcallback/
@@ -18,9 +20,9 @@ public interface IFontSavingCallback
 
 | 姓名 | 描述 |
 | --- | --- |
-| [FontSaving](../../aspose.words.saving/ifontsavingcallback/fontsaving/)(FontSavingArgs) | 当 Aspose.Words 即将保存字体资源时调用。 |
+| [FontSaving](../../aspose.words.saving/ifontsavingcallback/fontsaving/)(*[FontSavingArgs](../fontsavingargs/)*) | 当 Aspose.Words 即将保存字体资源时调用。 |
 
-### 例子
+## 例子
 
 演示如何定义保存为 HTML 时导出字体的自定义逻辑。
 
@@ -81,5 +83,3 @@ public class HandleFontSaving : IFontSavingCallback
 
 * 命名空间 [Aspose.Words.Saving](../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../)
-
-

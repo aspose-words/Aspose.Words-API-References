@@ -1,7 +1,9 @@
 ---
 title: IHyphenationCallback.RequestDictionary
-second_title: Aspose.Words för .NET API Referens
-description: IHyphenationCallback metod. Meddelar programmet att avstavningsordbok för det angivna språket inte hittades och kan behöva registreras.
+linktitle: RequestDictionary
+articleTitle: RequestDictionary
+second_title: Aspose.Words för .NET
+description: IHyphenationCallback RequestDictionary metod. Meddelar programmet att avstavningsordbok för det angivna språket inte hittades och kan behöva registreras i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words/ihyphenationcallback/requestdictionary/
@@ -22,11 +24,11 @@ public void RequestDictionary(string language)
 | --- | --- | --- |
 | language | String | Ett språknamn, t.ex. "en-US". Se .NET-dokumentationen för "kulturnamn" och RFC 4646 för detaljer. |
 
-### Anmärkningar
+## Anmärkningar
 
 Undantag som skapas av denna metod kommer att avbryta exekvering av sidlayoutprocessen.
 
-### Exempel
+## Exempel
 
 Visar hur man öppnar och registrerar en ordbok från en fil.
 
@@ -102,7 +104,5 @@ private class CustomHyphenationDictionaryRegister : IHyphenationCallback
 ### Se även
 
 * interface [IHyphenationCallback](../)
-* namnutrymme [Aspose.Words](../../ihyphenationcallback/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

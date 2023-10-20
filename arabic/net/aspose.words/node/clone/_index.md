@@ -1,7 +1,9 @@
 ---
 title: Node.Clone
-second_title: Aspose.Words لمراجع .NET API
-description: Node طريقة. إنشاء نسخة مكررة من العقدة.
+linktitle: Clone
+articleTitle: Clone
+second_title: Aspose.Words لـ .NET
+description: Node Clone طريقة. إنشاء نسخة مكررة من العقدة في C#.
 type: docs
 weight: 100
 url: /ar/net/aspose.words/node/clone/
@@ -22,13 +24,13 @@ public Node Clone(bool isCloneChildren)
 
 العقدة المستنسخة.
 
-### ملاحظات
+## ملاحظات
 
 تعمل هذه الطريقة كمنشئ نسخة للعقد. العقدة المستنسخة ليس لها أصل، ولكنها تنتمي إلى نفس المستند مثل العقدة الأصلية.
 
 تقوم هذه الطريقة دائمًا بتنفيذ نسخة عميقة من العقدة. ال*isCloneChildren* تحدد المعلمة ما إذا كان سيتم إجراء نسخ لجميع العقد الفرعية أيضًا.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استنساخ عقدة مركبة.
 
@@ -54,7 +56,5 @@ Assert.AreEqual(string.Empty, cloneWithoutChildren.GetText().Trim());
 ### أنظر أيضا
 
 * class [Node](../)
-* مساحة الاسم [Aspose.Words](../../node/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

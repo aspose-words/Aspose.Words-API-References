@@ -1,7 +1,9 @@
 ---
 title: TableSubstitutionRule.SetSubstitutes
-second_title: Aspose.Words for .NET API 参考
-description: TableSubstitutionRule 方法. 覆盖给定原始字体名称的替代字体名称
+linktitle: SetSubstitutes
+articleTitle: SetSubstitutes
+second_title: 用于 .NET 的 Aspose.Words
+description: TableSubstitutionRule SetSubstitutes 方法. 覆盖给定原始字体名称的替代字体名称 在 C#.
 type: docs
 weight: 80
 url: /zh/net/aspose.words.fonts/tablesubstitutionrule/setsubstitutes/
@@ -19,7 +21,7 @@ public void SetSubstitutes(string originalFontName, params string[] substituteFo
 | originalFontName | String | 原始字体名称。 |
 | substituteFontNames | String[] | 替代字体名称列表。 |
 
-### 例子
+## 例子
 
 显示如何设置字体替换规则。
 
@@ -118,7 +120,5 @@ doc.Save(ArtifactsDir + "FontSettings.TableSubstitutionRule.Custom.pdf");
 ### 也可以看看
 
 * class [TableSubstitutionRule](../)
-* 命名空间 [Aspose.Words.Fonts](../../tablesubstitutionrule/)
+* 命名空间 [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Story.LastParagraph
-second_title: Aspose.Words för .NET API Referens
-description: Story fast egendom. Hämtar det sista stycket i berättelsen.
+linktitle: LastParagraph
+articleTitle: LastParagraph
+second_title: Aspose.Words för .NET
+description: Story LastParagraph fast egendom. Hämtar det sista stycket i berättelsen i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words/story/lastparagraph/
@@ -14,7 +16,7 @@ Hämtar det sista stycket i berättelsen.
 public Paragraph LastParagraph { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man flyttar en DocumentBuilders markörposition till en angiven nod.
 
@@ -47,7 +49,5 @@ Assert.AreEqual("Run 2. \rRun 1. \rRun 3.", doc.GetText().Trim());
 
 * class [Paragraph](../../paragraph/)
 * class [Story](../)
-* namnutrymme [Aspose.Words](../../story/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

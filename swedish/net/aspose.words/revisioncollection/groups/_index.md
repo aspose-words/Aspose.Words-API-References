@@ -1,7 +1,9 @@
 ---
 title: RevisionCollection.Groups
-second_title: Aspose.Words för .NET API Referens
-description: RevisionCollection fast egendom. Samling av revisionsgrupper.
+linktitle: Groups
+articleTitle: Groups
+second_title: Aspose.Words för .NET
+description: RevisionCollection Groups fast egendom. Samling av revisionsgrupper i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words/revisioncollection/groups/
@@ -14,7 +16,7 @@ Samling av revisionsgrupper.
 public RevisionGroupCollection Groups { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med ett dokuments samling av revisioner.
 
@@ -71,7 +73,5 @@ Assert.AreEqual(0, revisions.Count);
 
 * class [RevisionGroupCollection](../../revisiongroupcollection/)
 * class [RevisionCollection](../)
-* namnutrymme [Aspose.Words](../../revisioncollection/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

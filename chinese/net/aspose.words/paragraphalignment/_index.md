@@ -1,7 +1,9 @@
 ---
-title: Enum ParagraphAlignment
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.ParagraphAlignment 枚举. 指定段落中的文本对齐方式
+title: ParagraphAlignment Enum
+linktitle: ParagraphAlignment
+articleTitle: ParagraphAlignment
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.ParagraphAlignment 枚举. 指定段落中的文本对齐方式 在 C#.
 type: docs
 weight: 4400
 url: /zh/net/aspose.words/paragraphalignment/
@@ -29,7 +31,7 @@ public enum ParagraphAlignment
 | ThaiDistributed | `9` | 仅泰语。通过对泰语的优化来调整文本。 |
 | MathElementCenterAsGroup | `10` | 一行中唯一的数学元素，对齐为“居中为组”。 |
 
-### 例子
+## 例子
 
 展示如何手动构建 Aspose.Words 文档。
 
@@ -80,5 +82,3 @@ doc.Save(ArtifactsDir + "Section.CreateManually.docx");
 
 * 命名空间 [Aspose.Words](../../aspose.words/)
 * 部件 [Aspose.Words](../../)
-
-

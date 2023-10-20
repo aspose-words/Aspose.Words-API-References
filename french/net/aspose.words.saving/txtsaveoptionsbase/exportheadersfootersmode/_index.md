@@ -1,7 +1,9 @@
 ---
 title: TxtSaveOptionsBase.ExportHeadersFootersMode
-second_title: Référence de l'API Aspose.Words pour .NET
-description: TxtSaveOptionsBase propriété. Spécifie la manière dont les entêtes et les pieds de page sont exportés aux formats de texte. La valeur par défaut estPrimaryOnly .
+linktitle: ExportHeadersFootersMode
+articleTitle: ExportHeadersFootersMode
+second_title: Aspose.Words pour .NET
+description: TxtSaveOptionsBase ExportHeadersFootersMode propriété. Spécifie la manière dont les entêtes et les pieds de page sont exportés aux formats de texte. La valeur par défaut estPrimaryOnly  en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.saving/txtsaveoptionsbase/exportheadersfootersmode/
@@ -14,7 +16,7 @@ Spécifie la manière dont les en-têtes et les pieds de page sont exportés aux
 public TxtExportHeadersFootersMode ExportHeadersFootersMode { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment spécifier comment exporter les en-têtes et les pieds de page au format texte brut.
 
@@ -86,7 +88,5 @@ switch (txtExportHeadersFootersMode)
 
 * enum [TxtExportHeadersFootersMode](../../txtexportheadersfootersmode/)
 * class [TxtSaveOptionsBase](../)
-* espace de noms [Aspose.Words.Saving](../../txtsaveoptionsbase/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

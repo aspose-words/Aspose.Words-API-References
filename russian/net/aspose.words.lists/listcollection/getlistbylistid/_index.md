@@ -1,7 +1,9 @@
 ---
 title: ListCollection.GetListByListId
-second_title: Справочник по API Aspose.Words для .NET
-description: ListCollection метод. Получает список по идентификатору списка.
+linktitle: GetListByListId
+articleTitle: GetListByListId
+second_title: Aspose.Words для .NET
+description: ListCollection GetListByListId метод. Получает список по идентификатору списка на С#.
 type: docs
 weight: 70
 url: /ru/net/aspose.words.lists/listcollection/getlistbylistid/
@@ -22,11 +24,11 @@ public List GetListByListId(int listId)
 
 Возвращает объект списка. Возврат`нулевой` если список с указанным идентификатором не найден.
 
-### Примечания
+## Примечания
 
 Обычно вам не нужно использовать этот метод. В большинстве случаев вы применяете форматирование списка к абзацам, просто устанавливая[`List`](../../listformat/list/) property из[`ListFormat`](../../listformat/) объект.
 
-### Примеры
+## Примеры
 
 Показывает, как проверить свойства документов владельцев списков.
 
@@ -49,7 +51,5 @@ Console.WriteLine("List is the same by ListId: " + (lists.GetListByListId(1).Equ
 
 * class [List](../../list/)
 * class [ListCollection](../)
-* пространство имен [Aspose.Words.Lists](../../listcollection/)
+* пространство имен [Aspose.Words.Lists](../../../aspose.words.lists/)
 * сборка [Aspose.Words](../../../)
-
-

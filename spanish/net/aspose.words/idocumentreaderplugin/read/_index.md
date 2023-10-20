@@ -1,7 +1,9 @@
 ---
 title: IDocumentReaderPlugin.Read
-second_title: Referencia de API de Aspose.Words para .NET
-description: IDocumentReaderPlugin método. Lee los datos de la secuencia especificada en elDocument instancia.
+linktitle: Read
+articleTitle: Read
+second_title: Aspose.Words para .NET
+description: IDocumentReaderPlugin Read método. Lee los datos de la secuencia especificada en elDocument instancia en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words/idocumentreaderplugin/read/
@@ -25,7 +27,5 @@ public void Read(Stream src, LoadOptions loadOptions, Document document)
 * class [LoadOptions](../../../aspose.words.loading/loadoptions/)
 * class [Document](../../document/)
 * interface [IDocumentReaderPlugin](../)
-* espacio de nombres [Aspose.Words](../../idocumentreaderplugin/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

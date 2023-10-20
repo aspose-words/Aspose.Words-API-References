@@ -1,7 +1,9 @@
 ---
 title: FontSettings.GetFontsSources
-second_title: Aspose.Words för .NET API Referens
-description: FontSettings metod. Får en kopia av arrayen som innehåller listan över källor där Aspose.Words letar efter TrueTypeteckensnitt.
+linktitle: GetFontsSources
+articleTitle: GetFontsSources
+second_title: Aspose.Words för .NET
+description: FontSettings GetFontsSources metod. Får en kopia av arrayen som innehåller listan över källor där Aspose.Words letar efter TrueTypeteckensnitt i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.fonts/fontsettings/getfontssources/
@@ -18,11 +20,11 @@ public FontSourceBase[] GetFontsSources()
 
 En kopia av de aktuella teckensnittskällorna.
 
-### Anmärkningar
+## Anmärkningar
 
 Det returnerade värdet är en kopia av den data som Aspose.Words använder. Om du ändrar entries i den returnerade arrayen kommer det inte att påverka dokumentåtergivningen. För att ange nya teckensnitt sources använd[`SetFontsSources`](../setfontssources/) metod.
 
-### Exempel
+## Exempel
 
 Visar hur du lägger till en teckensnittskälla till våra befintliga teckensnittskällor.
 
@@ -72,7 +74,5 @@ FontSettings.DefaultInstance.SetFontsSources(originalFontSources);
 
 * class [FontSourceBase](../../fontsourcebase/)
 * class [FontSettings](../)
-* namnutrymme [Aspose.Words.Fonts](../../fontsettings/)
+* namnutrymme [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * hopsättning [Aspose.Words](../../../)
-
-

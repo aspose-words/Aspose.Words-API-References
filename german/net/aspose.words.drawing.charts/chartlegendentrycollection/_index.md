@@ -1,7 +1,9 @@
 ---
-title: Class ChartLegendEntryCollection
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Drawing.Charts.ChartLegendEntryCollection klas. Stellt eine Sammlung von Diagrammlegendeneinträgen dar.
+title: ChartLegendEntryCollection Class
+linktitle: ChartLegendEntryCollection
+articleTitle: ChartLegendEntryCollection
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Drawing.Charts.ChartLegendEntryCollection klas. Stellt eine Sammlung von Diagrammlegendeneinträgen dar in C#.
 type: docs
 weight: 740
 url: /de/net/aspose.words.drawing.charts/chartlegendentrycollection/
@@ -29,7 +31,7 @@ public class ChartLegendEntryCollection : IEnumerable<ChartLegendEntry>
 | --- | --- |
 | [GetEnumerator](../../aspose.words.drawing.charts/chartlegendentrycollection/getenumerator/)() | Gibt ein Enumeratorobjekt zurück. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit einem Legendeneintrag für Diagrammreihen gearbeitet wird.
 
@@ -66,5 +68,3 @@ doc.Save(ArtifactsDir + "Charts.LegendEntries.docx");
 * class [ChartLegendEntry](../chartlegendentry/)
 * namensraum [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../)
-
-

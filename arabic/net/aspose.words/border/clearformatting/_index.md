@@ -1,7 +1,9 @@
 ---
 title: Border.ClearFormatting
-second_title: Aspose.Words لمراجع .NET API
-description: Border طريقة. إعادة تعيين خصائص الحدود إلى القيم الافتراضية.
+linktitle: ClearFormatting
+articleTitle: ClearFormatting
+second_title: Aspose.Words لـ .NET
+description: Border ClearFormatting طريقة. إعادة تعيين خصائص الحدود إلى القيم الافتراضية في C#.
 type: docs
 weight: 90
 url: /ar/net/aspose.words/border/clearformatting/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words/border/clearformatting/
 public void ClearFormatting()
 ```
 
-### ملاحظات
+## ملاحظات
 
 عند إعادة تعيين خصائص الحدود إلى القيم الافتراضية، تكون الحدود غير مرئية.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إزالة الحدود من الفقرة.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "Border.ClearFormatting.docx");
 ### أنظر أيضا
 
 * class [Border](../)
-* مساحة الاسم [Aspose.Words](../../border/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

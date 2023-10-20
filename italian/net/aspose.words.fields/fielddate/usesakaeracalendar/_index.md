@@ -1,7 +1,9 @@
 ---
 title: FieldDate.UseSakaEraCalendar
-second_title: Aspose.Words per .NET API Reference
-description: FieldDate proprietà. Ottiene o imposta se utilizzare il calendario dellera Saka.
+linktitle: UseSakaEraCalendar
+articleTitle: UseSakaEraCalendar
+second_title: Aspose.Words per .NET
+description: FieldDate UseSakaEraCalendar proprietà. Ottiene o imposta se utilizzare il calendario dellera Saka in C#.
 type: docs
 weight: 40
 url: /it/net/aspose.words.fields/fielddate/usesakaeracalendar/
@@ -14,7 +16,7 @@ Ottiene o imposta se utilizzare il calendario dell'era Saka.
 public bool UseSakaEraCalendar { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come utilizzare i campi DATA per visualizzare le date in base a diversi tipi di calendari.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "Field.DATE.docx");
 ### Guarda anche
 
 * class [FieldDate](../)
-* spazio dei nomi [Aspose.Words.Fields](../../fielddate/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ControlChar.FieldEndChar
-second_title: Aspose.Words for .NET API 参考
-description: ControlChar 场地. MS Word 字段字符结束char21.
+linktitle: FieldEndChar
+articleTitle: FieldEndChar
+second_title: 用于 .NET 的 Aspose.Words
+description: ControlChar FieldEndChar 场地. MS Word 字段字符结束char21 在 C#.
 type: docs
 weight: 80
 url: /zh/net/aspose.words/controlchar/fieldendchar/
@@ -14,7 +16,7 @@ MS Word 字段字符结束：(char)21.
 public const char FieldEndChar;
 ```
 
-### 例子
+## 例子
 
 演示如何向文档添加各种控制字符。
 
@@ -86,7 +88,5 @@ Assert.AreEqual(Convert.ToChar(ControlChar.ColumnBreak), ControlChar.ColumnBreak
 ### 也可以看看
 
 * class [ControlChar](../)
-* 命名空间 [Aspose.Words](../../controlchar/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Bookmark.Text
-second_title: Aspose.Words لمراجع .NET API
-description: Bookmark ملكية. الحصول على النص الموجود في الإشارة المرجعية أو تعيينه.
+linktitle: Text
+articleTitle: Text
+second_title: Aspose.Words لـ .NET
+description: Bookmark Text ملكية. الحصول على النص الموجود في الإشارة المرجعية أو تعيينه في C#.
 type: docs
 weight: 70
 url: /ar/net/aspose.words/bookmark/text/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/bookmark/text/
 public string Text { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إضافة الإشارات المرجعية وتحديث محتوياتها.
 
@@ -103,7 +105,5 @@ public class BookmarkInfoPrinter : DocumentVisitor
 ### أنظر أيضا
 
 * class [Bookmark](../)
-* مساحة الاسم [Aspose.Words](../../bookmark/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

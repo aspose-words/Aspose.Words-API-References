@@ -1,7 +1,9 @@
 ---
 title: Font.Size
-second_title: Aspose.Words für .NET-API-Referenz
-description: Font eigendom. Ruft die Schriftgröße in Punkten ab oder legt sie fest.
+linktitle: Size
+articleTitle: Size
+second_title: Aspose.Words für .NET
+description: Font Size eigendom. Ruft die Schriftgröße in Punkten ab oder legt sie fest in C#.
 type: docs
 weight: 340
 url: /de/net/aspose.words/font/size/
@@ -14,7 +16,7 @@ Ruft die Schriftgröße in Punkten ab oder legt sie fest.
 public double Size { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie eine Textzeile mithilfe ihrer Schriftarteigenschaft formatiert wird.
 
@@ -51,7 +53,5 @@ builder.Write("Hello world!");
 ### Siehe auch
 
 * class [Font](../)
-* namensraum [Aspose.Words](../../font/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

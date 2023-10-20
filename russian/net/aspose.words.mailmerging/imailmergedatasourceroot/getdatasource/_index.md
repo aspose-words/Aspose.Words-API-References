@@ -1,7 +1,9 @@
 ---
 title: IMailMergeDataSourceRoot.GetDataSource
-second_title: Справочник по API Aspose.Words для .NET
-description: IMailMergeDataSourceRoot метод. Механизм слияния почты Aspose.Words вызывает этот метод когда обнаруживает начало региона слияния почты верхнего уровня.
+linktitle: GetDataSource
+articleTitle: GetDataSource
+second_title: Aspose.Words для .NET
+description: IMailMergeDataSourceRoot GetDataSource метод. Механизм слияния почты Aspose.Words вызывает этот метод когда обнаруживает начало региона слияния почты верхнего уровня на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.mailmerging/imailmergedatasourceroot/getdatasource/
@@ -22,13 +24,13 @@ public IMailMergeDataSource GetDataSource(string tableName)
 
 Объект источника данных, который будет предоставлять доступ к записям данных указанной таблицы.
 
-### Примечания
+## Примечания
 
 Когда механизмы слияния почты Aspose.Words заполняют документ данными и встречают MERGEFIELD TableStart:TableName, , он вызывает`GetDataSource` на этом объекте. Ваша реализация должна вернуть новый объект источника данных. Aspose.Words будет использовать возвращенный источник данных для заполнения области слияния почты.
 
 Если источник данных (таблица) с указанным именем не существует, ваша реализация должна вернуть`нулевой` .
 
-### Примеры
+## Примеры
 
 Выполняет слияние почты из пользовательского источника данных с основными и подробными данными.
 
@@ -212,7 +214,5 @@ private class EmployeeListMailMergeSource : IMailMergeDataSource
 
 * interface [IMailMergeDataSource](../../imailmergedatasource/)
 * interface [IMailMergeDataSourceRoot](../)
-* пространство имен [Aspose.Words.MailMerging](../../imailmergedatasourceroot/)
+* пространство имен [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * сборка [Aspose.Words](../../../)
-
-

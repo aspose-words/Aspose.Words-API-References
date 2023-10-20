@@ -1,7 +1,9 @@
 ---
-title: LoadOptions.LoadOptions
-second_title: Aspose.Words لمراجع .NET API
-description: LoadOptions البناء. تهيئة مثيل جديد لهذه الفئة بالقيم الافتراضية.
+title: LoadOptions
+linktitle: LoadOptions
+articleTitle: LoadOptions
+second_title: Aspose.Words لـ .NET
+description: LoadOptions البناء. تهيئة مثيل جديد لهذه الفئة بالقيم الافتراضية في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.loading/loadoptions/loadoptions/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.loading/loadoptions/loadoptions/
 public LoadOptions()
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية فتح مستند HTML يحتوي على صور من دفق باستخدام عنوان URI أساسي.
 
@@ -41,12 +43,12 @@ using (Stream stream = File.OpenRead(MyDir + "Document.html"))
 ### أنظر أيضا
 
 * class [LoadOptions](../)
-* مساحة الاسم [Aspose.Words.Loading](../../loadoptions/)
+* مساحة الاسم [Aspose.Words.Loading](../../../aspose.words.loading/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## LoadOptions(string) {#constructor_2}
+## LoadOptions(*string*) {#constructor_2}
 
 اختصار لتهيئة مثيل جديد لهذه الفئة بكلمة المرور المحددة لتحميل مستند مشفر.
 
@@ -58,7 +60,7 @@ public LoadOptions(string password)
 | --- | --- | --- |
 | password | String | كلمة المرور لفتح مستند مشفر. يمكن ان يكون`باطل` أو سلسلة فارغة. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحميل مستند Microsoft Word المشفر.
 
@@ -84,12 +86,12 @@ using (Stream stream = File.OpenRead(MyDir + "Encrypted.docx"))
 ### أنظر أيضا
 
 * class [LoadOptions](../)
-* مساحة الاسم [Aspose.Words.Loading](../../loadoptions/)
+* مساحة الاسم [Aspose.Words.Loading](../../../aspose.words.loading/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## LoadOptions(LoadFormat, string, string) {#constructor_1}
+## LoadOptions(*[LoadFormat](../../../aspose.words/loadformat/), string, string*) {#constructor_1}
 
 اختصار لتهيئة مثيل جديد لهذه الفئة مع تعيين الخصائص على القيم المحددة.
 
@@ -103,7 +105,7 @@ public LoadOptions(LoadFormat loadFormat, string password, string baseUri)
 | password | String | كلمة المرور لفتح مستند مشفر. يمكن ان يكون`باطل` أو سلسلة فارغة. |
 | baseUri | String | السلسلة التي سيتم استخدامها لتحليل معرفات URI النسبية إلى مطلقة. يمكن ان يكون`باطل` أو سلسلة فارغة. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية حفظ صفحة ويب كملف .docx.
 
@@ -151,7 +153,5 @@ doc.Save(ArtifactsDir + "HtmlLoadOptions.BaseUri.docx");
 
 * enum [LoadFormat](../../../aspose.words/loadformat/)
 * class [LoadOptions](../)
-* مساحة الاسم [Aspose.Words.Loading](../../loadoptions/)
+* مساحة الاسم [Aspose.Words.Loading](../../../aspose.words.loading/)
 * المجسم [Aspose.Words](../../../)
-
-

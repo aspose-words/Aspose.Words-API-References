@@ -1,7 +1,9 @@
 ---
 title: Table.TextWrapping
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Table propriété. Obtient ou définitTextWrapping pour la table.
+linktitle: TextWrapping
+articleTitle: TextWrapping
+second_title: Aspose.Words pour .NET
+description: Table TextWrapping propriété. Obtient ou définitTextWrapping pour la table en C#.
 type: docs
 weight: 310
 url: /fr/net/aspose.words.tables/table/textwrapping/
@@ -14,7 +16,7 @@ Obtient ou définit`TextWrapping` pour la table.
 public TextWrapping TextWrapping { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment utiliser l'habillage du texte d'un tableau.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "Table.WrapText.docx");
 
 * enum [TextWrapping](../../textwrapping/)
 * class [Table](../)
-* espace de noms [Aspose.Words.Tables](../../table/)
+* espace de noms [Aspose.Words.Tables](../../../aspose.words.tables/)
 * Assemblée [Aspose.Words](../../../)
-
-

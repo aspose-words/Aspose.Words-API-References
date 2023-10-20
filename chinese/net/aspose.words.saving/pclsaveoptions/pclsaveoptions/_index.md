@@ -1,7 +1,9 @@
 ---
-title: PclSaveOptions.PclSaveOptions
-second_title: Aspose.Words for .NET API 参考
-description: PclSaveOptions 构造函数. 默认构造函数
+title: PclSaveOptions
+linktitle: PclSaveOptions
+articleTitle: PclSaveOptions
+second_title: 用于 .NET 的 Aspose.Words
+description: PclSaveOptions 构造函数. 默认构造函数 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.saving/pclsaveoptions/pclsaveoptions/
@@ -17,7 +19,5 @@ public PclSaveOptions()
 ### 也可以看看
 
 * class [PclSaveOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../pclsaveoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: BookmarksOutlineLevelCollection.RemoveAt
-second_title: Aspose.Words for .NET API 参考
-description: BookmarksOutlineLevelCollection 方法. 删除指定索引处的书签
+linktitle: RemoveAt
+articleTitle: RemoveAt
+second_title: 用于 .NET 的 Aspose.Words
+description: BookmarksOutlineLevelCollection RemoveAt 方法. 删除指定索引处的书签 在 C#.
 type: docs
 weight: 100
 url: /zh/net/aspose.words.saving/bookmarksoutlinelevelcollection/removeat/
@@ -18,7 +20,7 @@ public void RemoveAt(int index)
 | --- | --- | --- |
 | index | Int32 | 从零开始的索引。 |
 
-### 例子
+## 例子
 
 演示如何设置书签的大纲级别。
 
@@ -76,7 +78,5 @@ outlineLevels.Clear();
 ### 也可以看看
 
 * class [BookmarksOutlineLevelCollection](../)
-* 命名空间 [Aspose.Words.Saving](../../bookmarksoutlinelevelcollection/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

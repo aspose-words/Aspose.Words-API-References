@@ -1,7 +1,9 @@
 ---
-title: Enum ScriptShapingLevel
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Shaping.ScriptShapingLevel enumeración. Describe los niveles de configuración requeridos por un script.
+title: ScriptShapingLevel Enum
+linktitle: ScriptShapingLevel
+articleTitle: ScriptShapingLevel
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Shaping.ScriptShapingLevel enumeración. Describe los niveles de configuración requeridos por un script en C#.
 type: docs
 weight: 6070
 url: /es/net/aspose.words.shaping/scriptshapinglevel/
@@ -27,5 +29,3 @@ public enum ScriptShapingLevel
 
 * espacio de nombres [Aspose.Words.Shaping](../../aspose.words.shaping/)
 * asamblea [Aspose.Words](../../)
-
-

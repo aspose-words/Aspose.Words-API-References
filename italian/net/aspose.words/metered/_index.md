@@ -1,7 +1,9 @@
 ---
-title: Class Metered
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Metered classe. Fornisce metodi per impostare la chiave a consumo.
+title: Metered Class
+linktitle: Metered
+articleTitle: Metered
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Metered classe. Fornisce metodi per impostare la chiave a consumo in C#.
 type: docs
 weight: 4160
 url: /it/net/aspose.words/metered/
@@ -26,11 +28,11 @@ public class Metered
 
 | Nome | Descrizione |
 | --- | --- |
-| [SetMeteredKey](../../aspose.words/metered/setmeteredkey/)(string, string) | Imposta la chiave pubblica e privata misurata. Se acquisti una licenza misurata, quando avvii l'applicazione, questa API dovrebbe essere chiamata, normalmente, questo è sufficiente. Tuttavia, se non si riesce sempre a caricare i dati sul consumo e si superano le 24 ore, la licenza verrà impostata sullo stato di valutazione, per evitare tale caso, è necessario controllare regolarmente lo stato della licenza, se è lo stato di valutazione, richiamare nuovamente questa API. |
+| [SetMeteredKey](../../aspose.words/metered/setmeteredkey/)(*string, string*) | Imposta la chiave pubblica e privata misurata. Se acquisti una licenza misurata, quando avvii l'applicazione, questa API dovrebbe essere chiamata, normalmente, questo è sufficiente. Tuttavia, se non si riesce sempre a caricare i dati sul consumo e si superano le 24 ore, la licenza verrà impostata sullo stato di valutazione, per evitare tale caso, è necessario controllare regolarmente lo stato della licenza, se è lo stato di valutazione, richiamare nuovamente questa API. |
 | static [GetConsumptionCredit](../../aspose.words/metered/getconsumptioncredit/)() | Ottiene credito di consumo |
 | static [GetConsumptionQuantity](../../aspose.words/metered/getconsumptionquantity/)() | Ottiene la dimensione del file di consumo |
 
-### Esempi
+## Esempi
 
 In questo esempio, verrà effettuato un tentativo di impostare la chiave pubblica e privata a consumo
 
@@ -73,5 +75,3 @@ Console.WriteLine($"Consumption quantity after operation: {Metered.GetConsumptio
 
 * spazio dei nomi [Aspose.Words](../../aspose.words/)
 * assemblea [Aspose.Words](../../)
-
-

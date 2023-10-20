@@ -1,7 +1,9 @@
 ---
-title: FieldAdvance.FieldAdvance
-second_title: Aspose.Words per .NET API Reference
-description: FieldAdvance costruttore. Default_Costruttore
+title: FieldAdvance
+linktitle: FieldAdvance
+articleTitle: FieldAdvance
+second_title: Aspose.Words per .NET
+description: FieldAdvance costruttore. Default_Costruttore in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words.fields/fieldadvance/fieldadvance/
@@ -17,7 +19,5 @@ public FieldAdvance()
 ### Guarda anche
 
 * class [FieldAdvance](../)
-* spazio dei nomi [Aspose.Words.Fields](../../fieldadvance/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

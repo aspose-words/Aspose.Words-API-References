@@ -1,12 +1,14 @@
 ---
 title: CustomDocumentProperties.Add
-second_title: Aspose.Words für .NET-API-Referenz
-description: CustomDocumentProperties methode. Erstellt eine neue benutzerdefinierte Dokumenteigenschaft desString Datentyp.
+linktitle: Add
+articleTitle: Add
+second_title: Aspose.Words für .NET
+description: CustomDocumentProperties Add methode. Erstellt eine neue benutzerdefinierte Dokumenteigenschaft desString Datentyp in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words.properties/customdocumentproperties/add/
 ---
-## Add(string, string) {#add_4}
+## Add(*string, string*) {#add_4}
 
 Erstellt eine neue benutzerdefinierte Dokumenteigenschaft desString Datentyp.
 
@@ -23,7 +25,7 @@ public DocumentProperty Add(string name, string value)
 
 Das neu erstellte Eigenschaftsobjekt.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit den benutzerdefinierten Eigenschaften eines Dokuments gearbeitet wird.
 
@@ -84,12 +86,12 @@ Assert.AreEqual(0, properties.Count);
 
 * class [DocumentProperty](../../documentproperty/)
 * class [CustomDocumentProperties](../)
-* namensraum [Aspose.Words.Properties](../../customdocumentproperties/)
+* namensraum [Aspose.Words.Properties](../../../aspose.words.properties/)
 * Montage [Aspose.Words](../../../)
 
 ---
 
-## Add(string, int) {#add_2}
+## Add(*string, int*) {#add_2}
 
 Erstellt eine neue benutzerdefinierte Dokumenteigenschaft desNumber Datentyp.
 
@@ -106,7 +108,7 @@ public DocumentProperty Add(string name, int value)
 
 Das neu erstellte Eigenschaftsobjekt.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit den benutzerdefinierten Eigenschaften eines Dokuments gearbeitet wird.
 
@@ -167,12 +169,12 @@ Assert.AreEqual(0, properties.Count);
 
 * class [DocumentProperty](../../documentproperty/)
 * class [CustomDocumentProperties](../)
-* namensraum [Aspose.Words.Properties](../../customdocumentproperties/)
+* namensraum [Aspose.Words.Properties](../../../aspose.words.properties/)
 * Montage [Aspose.Words](../../../)
 
 ---
 
-## Add(string, DateTime) {#add_3}
+## Add(*string, DateTime*) {#add_3}
 
 Erstellt eine neue benutzerdefinierte Dokumenteigenschaft desDateTime Datentyp.
 
@@ -189,7 +191,7 @@ public DocumentProperty Add(string name, DateTime value)
 
 Das neu erstellte Eigenschaftsobjekt.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie eine benutzerdefinierte Dokumenteigenschaft erstellt wird, die ein Datum und eine Uhrzeit enthält.
 
@@ -260,12 +262,12 @@ Assert.AreEqual(0, properties.Count);
 
 * class [DocumentProperty](../../documentproperty/)
 * class [CustomDocumentProperties](../)
-* namensraum [Aspose.Words.Properties](../../customdocumentproperties/)
+* namensraum [Aspose.Words.Properties](../../../aspose.words.properties/)
 * Montage [Aspose.Words](../../../)
 
 ---
 
-## Add(string, bool) {#add}
+## Add(*string, bool*) {#add}
 
 Erstellt eine neue benutzerdefinierte Dokumenteigenschaft desBoolean Datentyp.
 
@@ -282,7 +284,7 @@ public DocumentProperty Add(string name, bool value)
 
 Das neu erstellte Eigenschaftsobjekt.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit den benutzerdefinierten Eigenschaften eines Dokuments gearbeitet wird.
 
@@ -343,12 +345,12 @@ Assert.AreEqual(0, properties.Count);
 
 * class [DocumentProperty](../../documentproperty/)
 * class [CustomDocumentProperties](../)
-* namensraum [Aspose.Words.Properties](../../customdocumentproperties/)
+* namensraum [Aspose.Words.Properties](../../../aspose.words.properties/)
 * Montage [Aspose.Words](../../../)
 
 ---
 
-## Add(string, double) {#add_1}
+## Add(*string, double*) {#add_1}
 
 Erstellt eine neue benutzerdefinierte Dokumenteigenschaft desDouble Datentyp.
 
@@ -365,7 +367,7 @@ public DocumentProperty Add(string name, double value)
 
 Das neu erstellte Eigenschaftsobjekt.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit den benutzerdefinierten Eigenschaften eines Dokuments gearbeitet wird.
 
@@ -426,7 +428,5 @@ Assert.AreEqual(0, properties.Count);
 
 * class [DocumentProperty](../../documentproperty/)
 * class [CustomDocumentProperties](../)
-* namensraum [Aspose.Words.Properties](../../customdocumentproperties/)
+* namensraum [Aspose.Words.Properties](../../../aspose.words.properties/)
 * Montage [Aspose.Words](../../../)
-
-

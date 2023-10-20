@@ -1,12 +1,14 @@
 ---
 title: Fill.TwoColorGradient
-second_title: Aspose.Words لمراجع .NET API
-description: Fill طريقة. يضبط التعبئة المحددة على تدرج لونين.
+linktitle: TwoColorGradient
+articleTitle: TwoColorGradient
+second_title: Aspose.Words لـ .NET
+description: Fill TwoColorGradient طريقة. يضبط التعبئة المحددة على تدرج لونين في C#.
 type: docs
-weight: 270
+weight: 260
 url: /ar/net/aspose.words.drawing/fill/twocolorgradient/
 ---
-## TwoColorGradient(GradientStyle, GradientVariant) {#twocolorgradient}
+## TwoColorGradient(*[GradientStyle](../../gradientstyle/), [GradientVariant](../../gradientvariant/)*) {#twocolorgradient}
 
 يضبط التعبئة المحددة على تدرج لونين.
 
@@ -19,7 +21,7 @@ public void TwoColorGradient(GradientStyle style, GradientVariant variant)
 | style | GradientStyle | أسلوب التدرج[`GradientStyle`](../../gradientstyle/). |
 | variant | GradientVariant | البديل التدرج[`GradientVariant`](../../gradientvariant/) |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعبئة الشكل بالتدرجات اللونية.
 
@@ -62,12 +64,12 @@ doc.Save(ArtifactsDir + "Shape.GradientFill.docx", saveOptions);
 * enum [GradientStyle](../../gradientstyle/)
 * enum [GradientVariant](../../gradientvariant/)
 * class [Fill](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../fill/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## TwoColorGradient(Color, Color, GradientStyle, GradientVariant) {#twocolorgradient_1}
+## TwoColorGradient(*Color, Color, [GradientStyle](../../gradientstyle/), [GradientVariant](../../gradientvariant/)*) {#twocolorgradient_1}
 
 يضبط التعبئة المحددة على تدرج لونين.
 
@@ -83,7 +85,7 @@ public void TwoColorGradient(Color color1, Color color2, GradientStyle style,
 | style | GradientStyle | أسلوب التدرج[`GradientStyle`](../../gradientstyle/). |
 | variant | GradientVariant | البديل التدرج[`GradientVariant`](../../gradientvariant/) |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعبئة الشكل بالتدرجات اللونية.
 
@@ -126,7 +128,5 @@ doc.Save(ArtifactsDir + "Shape.GradientFill.docx", saveOptions);
 * enum [GradientStyle](../../gradientstyle/)
 * enum [GradientVariant](../../gradientvariant/)
 * class [Fill](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../fill/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

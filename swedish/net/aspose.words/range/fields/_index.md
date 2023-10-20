@@ -1,7 +1,9 @@
 ---
 title: Range.Fields
-second_title: Aspose.Words för .NET API Referens
-description: Range fast egendom. Returnerar enFields samling som representerar alla fält i området.
+linktitle: Fields
+articleTitle: Fields
+second_title: Aspose.Words för .NET
+description: Range Fields fast egendom. Returnerar enFields samling som representerar alla fält i området i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words/range/fields/
@@ -18,7 +20,5 @@ public FieldCollection Fields { get; }
 
 * class [FieldCollection](../../../aspose.words.fields/fieldcollection/)
 * class [Range](../)
-* namnutrymme [Aspose.Words](../../range/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

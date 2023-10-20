@@ -1,7 +1,9 @@
 ---
-title: Enum LineSpacingRule
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.LineSpacingRule 枚举. 指定段落的行间距值
+title: LineSpacingRule Enum
+linktitle: LineSpacingRule
+articleTitle: LineSpacingRule
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.LineSpacingRule 枚举. 指定段落的行间距值 在 C#.
 type: docs
 weight: 3440
 url: /zh/net/aspose.words/linespacingrule/
@@ -26,5 +28,3 @@ public enum LineSpacingRule
 
 * 命名空间 [Aspose.Words](../../aspose.words/)
 * 部件 [Aspose.Words](../../)
-
-

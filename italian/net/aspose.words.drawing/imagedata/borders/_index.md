@@ -1,7 +1,9 @@
 ---
 title: ImageData.Borders
-second_title: Aspose.Words per .NET API Reference
-description: ImageData proprietà. Ottiene la raccolta dei bordi dellimmagine. I bordi hanno effetto solo per le immagini in linea.
+linktitle: Borders
+articleTitle: Borders
+second_title: Aspose.Words per .NET
+description: ImageData Borders proprietà. Ottiene la raccolta dei bordi dellimmagine. I bordi hanno effetto solo per le immagini in linea in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words.drawing/imagedata/borders/
@@ -14,7 +16,7 @@ Ottiene la raccolta dei bordi dell'immagine. I bordi hanno effetto solo per le i
 public BorderCollection Borders { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come modificare i dati dell'immagine di una forma.
 
@@ -78,7 +80,5 @@ dstDoc.Save(ArtifactsDir + "Drawing.ImageData.docx");
 
 * class [BorderCollection](../../../aspose.words/bordercollection/)
 * class [ImageData](../)
-* spazio dei nomi [Aspose.Words.Drawing](../../imagedata/)
+* spazio dei nomi [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Shading.ForegroundTintAndShade
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Shading propriété. Obtient ou définit une valeur double qui éclaircit ou assombrit la couleur dun thème de premier plan.
+linktitle: ForegroundTintAndShade
+articleTitle: ForegroundTintAndShade
+second_title: Aspose.Words pour .NET
+description: Shading ForegroundTintAndShade propriété. Obtient ou définit une valeur double qui éclaircit ou assombrit la couleur dun thème de premier plan en C#.
 type: docs
 weight: 60
 url: /fr/net/aspose.words/shading/foregroundtintandshade/
@@ -14,13 +16,13 @@ Obtient ou définit une valeur double qui éclaircit ou assombrit la couleur d'u
 public double ForegroundTintAndShade { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 Les valeurs autorisées sont comprises entre -1 (le plus sombre) et 1 (le plus clair) pour cette propriété. Zéro (0) est neutre. Tenter de définir cette propriété sur une valeur inférieure à -1 ou supérieure à 1 entraîneArgumentOutOfRangeException.
 
 La définition de cette propriété pour l'objet Shading avec des couleurs non thématiques entraîneInvalidOperationException.
 
-### Exemples
+## Exemples
 
 Montre comment définir les couleurs de premier plan et d’arrière-plan pour l’ombrage de la texture.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "Font.ForegroundAndBackground.docx");
 ### Voir également
 
 * class [Shading](../)
-* espace de noms [Aspose.Words](../../shading/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

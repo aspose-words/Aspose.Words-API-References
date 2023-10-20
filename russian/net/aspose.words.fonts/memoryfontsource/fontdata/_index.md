@@ -1,7 +1,9 @@
 ---
 title: MemoryFontSource.FontData
-second_title: Справочник по API Aspose.Words для .NET
-description: MemoryFontSource свойство. Двоичные данные шрифта.
+linktitle: FontData
+articleTitle: FontData
+second_title: Aspose.Words для .NET
+description: MemoryFontSource FontData свойство. Двоичные данные шрифта на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.fonts/memoryfontsource/fontdata/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fonts/memoryfontsource/fontdata/
 public byte[] FontData { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как использовать массив байтов с данными из файла шрифта в качестве источника шрифта.
 
@@ -33,7 +35,5 @@ Assert.AreEqual(0, memoryFontSource.Priority);
 ### Смотрите также
 
 * class [MemoryFontSource](../)
-* пространство имен [Aspose.Words.Fonts](../../memoryfontsource/)
+* пространство имен [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * сборка [Aspose.Words](../../../)
-
-

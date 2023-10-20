@@ -1,7 +1,9 @@
 ---
 title: FieldCitation.SuppressAuthor
-second_title: Aspose.Words for .NET API 参考
-description: FieldCitation 财产. 获取或设置是否在引文中隐藏作者信息
+linktitle: SuppressAuthor
+articleTitle: SuppressAuthor
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldCitation SuppressAuthor 财产. 获取或设置是否在引文中隐藏作者信息 在 C#.
 type: docs
 weight: 80
 url: /zh/net/aspose.words.fields/fieldcitation/suppressauthor/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fieldcitation/suppressauthor/
 public bool SuppressAuthor { get; set; }
 ```
 
-### 例子
+## 例子
 
 展示如何使用 CITATION 和 BIBLIOGRAPHY 字段。
 
@@ -68,7 +70,5 @@ doc.Save(ArtifactsDir + "Field.CITATION.docx");
 ### 也可以看看
 
 * class [FieldCitation](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldcitation/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

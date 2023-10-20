@@ -1,7 +1,9 @@
 ---
 title: RevisionCollection.Item
-second_title: Referencia de API de Aspose.Words para .NET
-description: RevisionCollection propiedad. Devuelve unRevision en el índice especificado.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words para .NET
+description: RevisionCollection Item propiedad. Devuelve unRevision en el índice especificado en C#.
 type: docs
 weight: 30
 url: /es/net/aspose.words/revisioncollection/item/
@@ -18,7 +20,7 @@ public Revision this[int index] { get; }
 | --- | --- |
 | index | Un índice de la colección. |
 
-### Observaciones
+## Observaciones
 
 El índice tiene base cero.
 
@@ -28,7 +30,7 @@ Si el índice es mayor o igual que el número de elementos de la lista, esto dev
 
 Si el índice es negativo y su valor absoluto es mayor que el número de elementos de la lista, esto devuelve una referencia nula.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo trabajar con revisiones en un documento.
 
@@ -112,7 +114,5 @@ Assert.AreEqual("This is revision #1. \rThis is revision #2.", doc.GetText().Tri
 
 * class [Revision](../../revision/)
 * class [RevisionCollection](../)
-* espacio de nombres [Aspose.Words](../../revisioncollection/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

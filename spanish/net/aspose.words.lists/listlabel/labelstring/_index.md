@@ -1,7 +1,9 @@
 ---
 title: ListLabel.LabelString
-second_title: Referencia de API de Aspose.Words para .NET
-description: ListLabel propiedad. Obtiene una representación de cadena de la etiqueta de la lista.
+linktitle: LabelString
+articleTitle: LabelString
+second_title: Aspose.Words para .NET
+description: ListLabel LabelString propiedad. Obtiene una representación de cadena de la etiqueta de la lista en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words.lists/listlabel/labelstring/
@@ -14,7 +16,7 @@ Obtiene una representación de cadena de la etiqueta de la lista.
 public string LabelString { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo extraer las etiquetas de la lista de todos los párrafos que son elementos de la lista.
 
@@ -49,7 +51,5 @@ foreach (Paragraph paragraph in paras.OfType<Paragraph>().Where(p => p.ListForma
 ### Ver también
 
 * class [ListLabel](../)
-* espacio de nombres [Aspose.Words.Lists](../../listlabel/)
+* espacio de nombres [Aspose.Words.Lists](../../../aspose.words.lists/)
 * asamblea [Aspose.Words](../../../)
-
-

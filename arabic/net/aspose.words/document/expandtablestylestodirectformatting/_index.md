@@ -1,9 +1,11 @@
 ---
 title: Document.ExpandTableStylesToDirectFormatting
-second_title: Aspose.Words لمراجع .NET API
-description: Document طريقة. تحويل التنسيق المحدد في أنماط الجدول إلى تنسيق مباشر على الجداول في المستند.
+linktitle: ExpandTableStylesToDirectFormatting
+articleTitle: ExpandTableStylesToDirectFormatting
+second_title: Aspose.Words لـ .NET
+description: Document ExpandTableStylesToDirectFormatting طريقة. تحويل التنسيق المحدد في أنماط الجدول إلى تنسيق مباشر على الجداول في المستند في C#.
 type: docs
-weight: 610
+weight: 590
 url: /ar/net/aspose.words/document/expandtablestylestodirectformatting/
 ---
 ## Document.ExpandTableStylesToDirectFormatting method
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/document/expandtablestylestodirectformatting/
 public void ExpandTableStylesToDirectFormatting()
 ```
 
-### ملاحظات
+## ملاحظات
 
 توجد هذه الطريقة لأن هذا الإصدار من Aspose.Words يوفر دعمًا محدودًا فقط لأنماط الجدول (انظر أدناه). قد تكون هذه الطريقة مفيدة عند تحميل مستند DOCX أو WordprocessingML الذي يحتوي على جداول منسقة باستخدام أنماط الجدول وتحتاج إلى الاستعلام عن تنسيق الجداول أو الخلايا أو الفقرات أو النص .
 
@@ -24,7 +26,7 @@ public void ExpandTableStylesToDirectFormatting()
 * يتم تحويل أنماط الجدول المحددة في مستندات DOCX أو WordprocessingML تلقائيًا إلى تنسيق مباشر على الجداول عند حفظ المستند في أي تنسيق آخر، أو للعرض أو الطباعة.
 * يتم الاحتفاظ بأنماط الجدول المحددة في مستندات DOC كأنماط جدول عند حفظ المستند كـ DOC فقط.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تطبيق خصائص نمط الجدول مباشرة على عناصر الجدول.
 
@@ -55,7 +57,5 @@ doc.Save(ArtifactsDir + "Document.TableStyleToDirectFormatting.docx");
 ### أنظر أيضا
 
 * class [Document](../)
-* مساحة الاسم [Aspose.Words](../../document/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

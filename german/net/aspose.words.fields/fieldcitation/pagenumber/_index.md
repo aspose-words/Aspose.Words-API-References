@@ -1,7 +1,9 @@
 ---
 title: FieldCitation.PageNumber
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldCitation eigendom. Ruft eine mit dem Zitat verknüpfte Seitenzahl ab oder legt diese fest.
+linktitle: PageNumber
+articleTitle: PageNumber
+second_title: Aspose.Words für .NET
+description: FieldCitation PageNumber eigendom. Ruft eine mit dem Zitat verknüpfte Seitenzahl ab oder legt diese fest in C#.
 type: docs
 weight: 40
 url: /de/net/aspose.words.fields/fieldcitation/pagenumber/
@@ -14,7 +16,7 @@ Ruft eine mit dem Zitat verknüpfte Seitenzahl ab oder legt diese fest.
 public string PageNumber { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit den Feldern CITATION und BIBLIOGRAPHY gearbeitet wird.
 
@@ -68,7 +70,5 @@ doc.Save(ArtifactsDir + "Field.CITATION.docx");
 ### Siehe auch
 
 * class [FieldCitation](../)
-* namensraum [Aspose.Words.Fields](../../fieldcitation/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

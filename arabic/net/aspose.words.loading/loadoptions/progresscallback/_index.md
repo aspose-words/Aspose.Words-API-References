@@ -1,7 +1,9 @@
 ---
 title: LoadOptions.ProgressCallback
-second_title: Aspose.Words لمراجع .NET API
-description: LoadOptions ملكية. يتم الاتصال به أثناء تحميل مستند ويقبل البيانات المتعلقة بتقدم التحميل.
+linktitle: ProgressCallback
+articleTitle: ProgressCallback
+second_title: Aspose.Words لـ .NET
+description: LoadOptions ProgressCallback ملكية. يتم الاتصال به أثناء تحميل مستند ويقبل البيانات المتعلقة بتقدم التحميل في C#.
 type: docs
 weight: 130
 url: /ar/net/aspose.words.loading/loadoptions/progresscallback/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.loading/loadoptions/progresscallback/
 public IDocumentLoadingCallback ProgressCallback { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 Docx ,FlatOpc ,Docm ,Dotm ,Dotx ,Markdown ,Rtf ,WordML ,Doc ,Dot ,Odt ,Ott التنسيقات المدعومة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إعلام المستخدم إذا تجاوز تحميل المستند وقت التحميل المتوقع.
 
@@ -83,7 +85,5 @@ public class LoadingProgressCallback : IDocumentLoadingCallback
 
 * interface [IDocumentLoadingCallback](../../idocumentloadingcallback/)
 * class [LoadOptions](../)
-* مساحة الاسم [Aspose.Words.Loading](../../loadoptions/)
+* مساحة الاسم [Aspose.Words.Loading](../../../aspose.words.loading/)
 * المجسم [Aspose.Words](../../../)
-
-

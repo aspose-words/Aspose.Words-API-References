@@ -1,7 +1,9 @@
 ---
 title: PageSetup.VerticalAlignment
-second_title: Referencia de API de Aspose.Words para .NET
-description: PageSetup propiedad. Devuelve o establece la alineación vertical del texto en cada página de un documento o sección.
+linktitle: VerticalAlignment
+articleTitle: VerticalAlignment
+second_title: Aspose.Words para .NET
+description: PageSetup VerticalAlignment propiedad. Devuelve o establece la alineación vertical del texto en cada página de un documento o sección en C#.
 type: docs
 weight: 450
 url: /es/net/aspose.words/pagesetup/verticalalignment/
@@ -14,7 +16,7 @@ Devuelve o establece la alineación vertical del texto en cada página de un doc
 public PageVerticalAlignment VerticalAlignment { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo aplicar y revertir la configuración de configuración de página a secciones de un documento.
 
@@ -49,7 +51,5 @@ doc.Save(ArtifactsDir + "PageSetup.ClearFormatting.docx");
 
 * enum [PageVerticalAlignment](../../pageverticalalignment/)
 * class [PageSetup](../)
-* espacio de nombres [Aspose.Words](../../pagesetup/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: BookmarksOutlineLevelCollection.RemoveAt
-second_title: Aspose.Words per .NET API Reference
-description: BookmarksOutlineLevelCollection metodo. Rimuove un segnalibro allindice specificato.
+linktitle: RemoveAt
+articleTitle: RemoveAt
+second_title: Aspose.Words per .NET
+description: BookmarksOutlineLevelCollection RemoveAt metodo. Rimuove un segnalibro allindice specificato in C#.
 type: docs
 weight: 100
 url: /it/net/aspose.words.saving/bookmarksoutlinelevelcollection/removeat/
@@ -18,7 +20,7 @@ public void RemoveAt(int index)
 | --- | --- | --- |
 | index | Int32 | L'indice a base zero. |
 
-### Esempi
+## Esempi
 
 Mostra come impostare i livelli di struttura per i segnalibri.
 
@@ -76,7 +78,5 @@ outlineLevels.Clear();
 ### Guarda anche
 
 * class [BookmarksOutlineLevelCollection](../)
-* spazio dei nomi [Aspose.Words.Saving](../../bookmarksoutlinelevelcollection/)
+* spazio dei nomi [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../../)
-
-

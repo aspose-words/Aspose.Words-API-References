@@ -1,14 +1,16 @@
 ---
-title: StructuredDocumentTag.StructuredDocumentTag
-second_title: Referencia de API de Aspose.Words para .NET
-description: StructuredDocumentTag constructor. Inicializa una nueva instancia del Etiqueta de documento estructurado clase.
+title: StructuredDocumentTag
+linktitle: StructuredDocumentTag
+articleTitle: StructuredDocumentTag
+second_title: Aspose.Words para .NET
+description: StructuredDocumentTag constructor. Inicializa una nueva instancia delEtiqueta de documento estructurado clase en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words.markup/structureddocumenttag/structureddocumenttag/
 ---
 ## StructuredDocumentTag constructor
 
-Inicializa una nueva instancia del **Etiqueta de documento estructurado** clase.
+Inicializa una nueva instancia del**Etiqueta de documento estructurado** clase.
 
 ```csharp
 public StructuredDocumentTag(DocumentBase doc, SdtType type, MarkupLevel level)
@@ -20,7 +22,7 @@ public StructuredDocumentTag(DocumentBase doc, SdtType type, MarkupLevel level)
 | type | SdtType | Tipo de nodo SDT. |
 | level | MarkupLevel | Nivel de nodo SDT dentro del documento. |
 
-### Observaciones
+## Observaciones
 
 Se pueden crear los siguientes tipos de SDT:
 
@@ -34,7 +36,7 @@ Se pueden crear los siguientes tipos de SDT:
 * RichText
 * PlainText
 
-### Ejemplos
+## Ejemplos
 
 Muestre cómo crear una etiqueta de documento estructurada en forma de casilla de verificación.
 
@@ -60,7 +62,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.CheckBox.docx");
 * enum [SdtType](../../sdttype/)
 * enum [MarkupLevel](../../markuplevel/)
 * class [StructuredDocumentTag](../)
-* espacio de nombres [Aspose.Words.Markup](../../structureddocumenttag/)
+* espacio de nombres [Aspose.Words.Markup](../../../aspose.words.markup/)
 * asamblea [Aspose.Words](../../../)
-
-

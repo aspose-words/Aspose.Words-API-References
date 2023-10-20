@@ -1,7 +1,9 @@
 ---
 title: FieldMergeBarcode.DisplayText
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldMergeBarcode eigendom. Ruft ab oder legt fest ob BarcodeDaten Text zusammen mit dem Bild angezeigt werden sollen.
+linktitle: DisplayText
+articleTitle: DisplayText
+second_title: Aspose.Words für .NET
+description: FieldMergeBarcode DisplayText eigendom. Ruft ab oder legt fest ob BarcodeDaten Text zusammen mit dem Bild angezeigt werden sollen in C#.
 type: docs
 weight: 70
 url: /de/net/aspose.words.fields/fieldmergebarcode/displaytext/
@@ -14,7 +16,7 @@ Ruft ab oder legt fest, ob Barcode-Daten (Text) zusammen mit dem Bild angezeigt 
 public bool DisplayText { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Serienbrief für EAN13-Barcodes durchgeführt wird.
 
@@ -60,7 +62,5 @@ doc.Save(ArtifactsDir + "Field.MERGEBARCODE.EAN13.docx");
 ### Siehe auch
 
 * class [FieldMergeBarcode](../)
-* namensraum [Aspose.Words.Fields](../../fieldmergebarcode/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

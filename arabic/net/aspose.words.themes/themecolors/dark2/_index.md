@@ -1,7 +1,9 @@
 ---
 title: ThemeColors.Dark2
-second_title: Aspose.Words لمراجع .NET API
-description: ThemeColors ملكية. يحدد اللون الداكن 2.
+linktitle: Dark2
+articleTitle: Dark2
+second_title: Aspose.Words لـ .NET
+description: ThemeColors Dark2 ملكية. يحدد اللون الداكن 2 في C#.
 type: docs
 weight: 80
 url: /ar/net/aspose.words.themes/themecolors/dark2/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.themes/themecolors/dark2/
 public Color Dark2 { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين الألوان والخطوط المخصصة للموضوعات.
 
@@ -62,7 +64,5 @@ doc.Save(ArtifactsDir + "Themes.CustomColorsAndFonts.docx");
 ### أنظر أيضا
 
 * class [ThemeColors](../)
-* مساحة الاسم [Aspose.Words.Themes](../../themecolors/)
+* مساحة الاسم [Aspose.Words.Themes](../../../aspose.words.themes/)
 * المجسم [Aspose.Words](../../../)
-
-

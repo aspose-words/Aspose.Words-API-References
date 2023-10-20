@@ -1,7 +1,9 @@
 ---
-title: Class ControlChar
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.ControlChar сорт. Управляющие символы часто встречающиеся в документах.
+title: ControlChar Class
+linktitle: ControlChar
+articleTitle: ControlChar
+second_title: Aspose.Words для .NET
+description: Aspose.Words.ControlChar сорт. Управляющие символы часто встречающиеся в документах на С#.
 type: docs
 weight: 350
 url: /ru/net/aspose.words/controlchar/
@@ -49,11 +51,11 @@ public static class ControlChar
 | static readonly [Tab](../../aspose.words/controlchar/tab/) | Символ табуляции: "\x0009" или "\t". |
 | const [TabChar](../../aspose.words/controlchar/tabchar/) | Символ табуляции: (char)9 или "\t". |
 
-### Примечания
+## Примечания
 
 Предоставляет как символьные, так и строковые версии одних и тех же констант. Например: строка [`LineBreak`](./linebreak/) и голец[`LineBreakChar`](./linebreakchar/) имеют одинаковое значение.
 
-### Примеры
+## Примеры
 
 Показывает, как использовать управляющие символы.
 
@@ -81,5 +83,3 @@ Assert.AreEqual($"Hello world!{ControlChar.Cr}" +
 
 * пространство имен [Aspose.Words](../../aspose.words/)
 * сборка [Aspose.Words](../../)
-
-

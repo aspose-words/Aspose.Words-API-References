@@ -1,7 +1,9 @@
 ---
-title: RtfLoadOptions.RtfLoadOptions
-second_title: Aspose.Words för .NET API Referens
-description: RtfLoadOptions byggare. Initierar en ny instans av denna klass med standardvärden.
+title: RtfLoadOptions
+linktitle: RtfLoadOptions
+articleTitle: RtfLoadOptions
+second_title: Aspose.Words för .NET
+description: RtfLoadOptions byggare. Initierar en ny instans av denna klass med standardvärden i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.loading/rtfloadoptions/rtfloadoptions/
@@ -14,7 +16,7 @@ Initierar en ny instans av denna klass med standardvärden.
 public RtfLoadOptions()
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man upptäcker UTF-8-tecken när ett RTF-dokument laddas.
 
@@ -41,7 +43,5 @@ Assert.AreEqual(
 ### Se även
 
 * class [RtfLoadOptions](../)
-* namnutrymme [Aspose.Words.Loading](../../rtfloadoptions/)
+* namnutrymme [Aspose.Words.Loading](../../../aspose.words.loading/)
 * hopsättning [Aspose.Words](../../../)
-
-

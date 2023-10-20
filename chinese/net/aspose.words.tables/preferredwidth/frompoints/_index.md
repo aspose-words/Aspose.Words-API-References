@@ -1,7 +1,9 @@
 ---
 title: PreferredWidth.FromPoints
-second_title: Aspose.Words for .NET API 参考
-description: PreferredWidth 方法. 一种创建方法返回一个新实例该实例表示使用多个点指定的首选宽度
+linktitle: FromPoints
+articleTitle: FromPoints
+second_title: 用于 .NET 的 Aspose.Words
+description: PreferredWidth FromPoints 方法. 一种创建方法返回一个新实例该实例表示使用多个点指定的首选宽度 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.tables/preferredwidth/frompoints/
@@ -18,7 +20,7 @@ public static PreferredWidth FromPoints(double points)
 | --- | --- | --- |
 | points | Double | 该值必须介于 0 到 22 英寸（22 * 72 点）之间。 |
 
-### 例子
+## 例子
 
 演示如何在指定单元格的首选宽度时使用单位转换工具。
 
@@ -71,7 +73,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertCellsWithPreferredWidths.docx");
 ### 也可以看看
 
 * class [PreferredWidth](../)
-* 命名空间 [Aspose.Words.Tables](../../preferredwidth/)
+* 命名空间 [Aspose.Words.Tables](../../../aspose.words.tables/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: MarkdownSaveOptions.ImageSavingCallback
-second_title: Aspose.Words لمراجع .NET API
-description: MarkdownSaveOptions ملكية. يسمح بالتحكم في كيفية حفظ الصور عند حفظ مستند في Markdown التنسيق.
+linktitle: ImageSavingCallback
+articleTitle: ImageSavingCallback
+second_title: Aspose.Words لـ .NET
+description: MarkdownSaveOptions ImageSavingCallback ملكية. يسمح بالتحكم في كيفية حفظ الصور عند حفظ مستند في Markdown التنسيق في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.saving/markdownsaveoptions/imagesavingcallback/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.saving/markdownsaveoptions/imagesavingcallback/
 public IImageSavingCallback ImageSavingCallback { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إعادة تسمية اسم الصورة أثناء الحفظ في مستند Markdown.
 
@@ -74,7 +76,5 @@ public class SavedImageRename : IImageSavingCallback
 
 * interface [IImageSavingCallback](../../iimagesavingcallback/)
 * class [MarkdownSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../markdownsaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

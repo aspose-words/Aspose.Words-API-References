@@ -1,7 +1,9 @@
 ---
-title: Interface IFieldMergingCallback
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.MailMerging.IFieldMergingCallback واجهه المستخدم. قم بتنفيذ هذه الواجهة إذا كنت تريد التحكم في كيفية إدراج البيانات في حقول الدمج أثناء عملية دمج البريد.
+title: IFieldMergingCallback Interface
+linktitle: IFieldMergingCallback
+articleTitle: IFieldMergingCallback
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.MailMerging.IFieldMergingCallback واجهه المستخدم. قم بتنفيذ هذه الواجهة إذا كنت تريد التحكم في كيفية إدراج البيانات في حقول الدمج أثناء عملية دمج البريد في C#.
 type: docs
 weight: 3790
 url: /ar/net/aspose.words.mailmerging/ifieldmergingcallback/
@@ -18,10 +20,10 @@ public interface IFieldMergingCallback
 
 | اسم | وصف |
 | --- | --- |
-| [FieldMerging](../../aspose.words.mailmerging/ifieldmergingcallback/fieldmerging/)(FieldMergingArgs) | يتم استدعاؤه عندما يكون محرك دمج البريد Aspose.Words على وشك إدراج البيانات في حقل دمج في المستند. |
-| [ImageFieldMerging](../../aspose.words.mailmerging/ifieldmergingcallback/imagefieldmerging/)(ImageFieldMergingArgs) | يتم استدعاؤه عندما يكون محرك دمج البريد Aspose.Words على وشك إدراج صورة في حقل دمج. |
+| [FieldMerging](../../aspose.words.mailmerging/ifieldmergingcallback/fieldmerging/)(*[FieldMergingArgs](../fieldmergingargs/)*) | يتم استدعاؤه عندما يكون محرك دمج البريد Aspose.Words على وشك إدراج البيانات في حقل دمج في المستند. |
+| [ImageFieldMerging](../../aspose.words.mailmerging/ifieldmergingcallback/imagefieldmerging/)(*[ImageFieldMergingArgs](../imagefieldmergingargs/)*) | يتم استدعاؤه عندما يكون محرك دمج البريد Aspose.Words على وشك إدراج صورة في حقل دمج. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج الصور المخزنة في حقل BLOB بقاعدة البيانات في تقرير.
 
@@ -134,5 +136,3 @@ private class HandleMergeFieldInsertHtml : IFieldMergingCallback
 
 * مساحة الاسم [Aspose.Words.MailMerging](../../aspose.words.mailmerging/)
 * المجسم [Aspose.Words](../../)
-
-

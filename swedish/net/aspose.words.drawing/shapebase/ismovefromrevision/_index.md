@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.IsMoveFromRevision
-second_title: Aspose.Words för .NET API Referens
-description: ShapeBase fast egendom. ReturnerarSann om det här objektet flyttades borttogs i Microsoft Word medan ändringsspårning var aktiverad.
+linktitle: IsMoveFromRevision
+articleTitle: IsMoveFromRevision
+second_title: Aspose.Words för .NET
+description: ShapeBase IsMoveFromRevision fast egendom. ReturnerarSann om det här objektet flyttades borttogs i Microsoft Word medan ändringsspårning var aktiverad i C#.
 type: docs
 weight: 320
 url: /sv/net/aspose.words.drawing/shapebase/ismovefromrevision/
@@ -14,7 +16,7 @@ Returnerar`Sann` om det här objektet flyttades (borttogs) i Microsoft Word meda
 public bool IsMoveFromRevision { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man identifierar flyttversionsformer.
 
@@ -46,7 +48,5 @@ Assert.False(shapes[1].IsMoveToRevision);
 ### Se även
 
 * class [ShapeBase](../)
-* namnutrymme [Aspose.Words.Drawing](../../shapebase/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

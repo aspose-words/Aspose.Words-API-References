@@ -1,7 +1,9 @@
 ---
 title: FieldAsk.PromptOnceOnMailMerge
-second_title: Aspose.Words per .NET API Reference
-description: FieldAsk proprietà. Ottiene o imposta se la risposta dellutente deve essere ricevuta una volta per unoperazione di stampa unione.
+linktitle: PromptOnceOnMailMerge
+articleTitle: PromptOnceOnMailMerge
+second_title: Aspose.Words per .NET
+description: FieldAsk PromptOnceOnMailMerge proprietà. Ottiene o imposta se la risposta dellutente deve essere ricevuta una volta per unoperazione di stampa unione in C#.
 type: docs
 weight: 40
 url: /it/net/aspose.words.fields/fieldask/promptonceonmailmerge/
@@ -14,7 +16,7 @@ Ottiene o imposta se la risposta dell'utente deve essere ricevuta una volta per 
 public bool PromptOnceOnMailMerge { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come creare un campo ASK e impostarne le proprietà.
 
@@ -76,7 +78,5 @@ private class MyPromptRespondent : IFieldUserPromptRespondent
 ### Guarda anche
 
 * class [FieldAsk](../)
-* spazio dei nomi [Aspose.Words.Fields](../../fieldask/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

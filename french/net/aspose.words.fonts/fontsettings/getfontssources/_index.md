@@ -1,7 +1,9 @@
 ---
 title: FontSettings.GetFontsSources
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FontSettings méthode. Obtient une copie du tableau qui contient la liste des sources dans lesquelles Aspose.Words recherche les polices TrueType.
+linktitle: GetFontsSources
+articleTitle: GetFontsSources
+second_title: Aspose.Words pour .NET
+description: FontSettings GetFontsSources méthode. Obtient une copie du tableau qui contient la liste des sources dans lesquelles Aspose.Words recherche les polices TrueType en C#.
 type: docs
 weight: 50
 url: /fr/net/aspose.words.fonts/fontsettings/getfontssources/
@@ -18,11 +20,11 @@ public FontSourceBase[] GetFontsSources()
 
 Une copie des sources de polices actuelles.
 
-### Remarques
+## Remarques
 
 La valeur renvoyée est une copie des données utilisées par Aspose.Words. Si vous modifiez les entrées dans le tableau renvoyé, cela n'aura aucun effet sur le rendu du document. Pour spécifier une nouvelle police sources , utilisez le[`SetFontsSources`](../setfontssources/) méthode.
 
-### Exemples
+## Exemples
 
 Montre comment ajouter une source de polices à nos sources de polices existantes.
 
@@ -72,7 +74,5 @@ FontSettings.DefaultInstance.SetFontsSources(originalFontSources);
 
 * class [FontSourceBase](../../fontsourcebase/)
 * class [FontSettings](../)
-* espace de noms [Aspose.Words.Fonts](../../fontsettings/)
+* espace de noms [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * Assemblée [Aspose.Words](../../../)
-
-

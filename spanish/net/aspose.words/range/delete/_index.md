@@ -1,7 +1,9 @@
 ---
 title: Range.Delete
-second_title: Referencia de API de Aspose.Words para .NET
-description: Range método. Elimina todos los caracteres del rango.
+linktitle: Delete
+articleTitle: Delete
+second_title: Aspose.Words para .NET
+description: Range Delete método. Elimina todos los caracteres del rango en C#.
 type: docs
 weight: 70
 url: /es/net/aspose.words/range/delete/
@@ -14,7 +16,7 @@ Elimina todos los caracteres del rango.
 public void Delete()
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo eliminar todos los nodos de un rango.
 
@@ -40,7 +42,5 @@ Assert.AreEqual("Section 2.", doc.GetText().Trim());
 ### Ver también
 
 * class [Range](../)
-* espacio de nombres [Aspose.Words](../../range/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

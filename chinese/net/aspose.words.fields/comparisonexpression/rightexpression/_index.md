@@ -1,7 +1,9 @@
 ---
 title: ComparisonExpression.RightExpression
-second_title: Aspose.Words for .NET API 参考
-description: ComparisonExpression 财产. 获得正确的表达式
+linktitle: RightExpression
+articleTitle: RightExpression
+second_title: 用于 .NET 的 Aspose.Words
+description: ComparisonExpression RightExpression 财产. 获得正确的表达式 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.fields/comparisonexpression/rightexpression/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/comparisonexpression/rightexpression/
 public string RightExpression { get; }
 ```
 
-### 例子
+## 例子
 
 展示如何实现 IF 和 COMPARE 字段的自定义评估。
 
@@ -98,7 +100,5 @@ private class ComparisonExpressionEvaluator : IComparisonExpressionEvaluator
 ### 也可以看看
 
 * class [ComparisonExpression](../)
-* 命名空间 [Aspose.Words.Fields](../../comparisonexpression/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

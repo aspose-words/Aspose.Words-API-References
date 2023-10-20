@@ -1,7 +1,9 @@
 ---
-title: Class PhoneticGuide
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.PhoneticGuide classe. Représente le guide phonétique.
+title: PhoneticGuide Class
+linktitle: PhoneticGuide
+articleTitle: PhoneticGuide
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.PhoneticGuide classe. Représente le guide phonétique en C#.
 type: docs
 weight: 4430
 url: /fr/net/aspose.words/phoneticguide/
@@ -25,5 +27,3 @@ public class PhoneticGuide
 
 * espace de noms [Aspose.Words](../../aspose.words/)
 * Assemblée [Aspose.Words](../../)
-
-

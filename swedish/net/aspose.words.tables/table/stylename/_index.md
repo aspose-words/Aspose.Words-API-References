@@ -1,7 +1,9 @@
 ---
 title: Table.StyleName
-second_title: Aspose.Words för .NET API Referens
-description: Table fast egendom. Hämtar eller ställer in namnet på tabellformatet som tillämpas på denna tabell.
+linktitle: StyleName
+articleTitle: StyleName
+second_title: Aspose.Words för .NET
+description: Table StyleName fast egendom. Hämtar eller ställer in namnet på tabellformatet som tillämpas på denna tabell i C#.
 type: docs
 weight: 290
 url: /sv/net/aspose.words.tables/table/stylename/
@@ -14,7 +16,7 @@ Hämtar eller ställer in namnet på tabellformatet som tillämpas på denna tab
 public string StyleName { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man skapar anpassade stilinställningar för tabellen.
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "Table.TableStyleCreation.docx");
 ### Se även
 
 * class [Table](../)
-* namnutrymme [Aspose.Words.Tables](../../table/)
+* namnutrymme [Aspose.Words.Tables](../../../aspose.words.tables/)
 * hopsättning [Aspose.Words](../../../)
-
-

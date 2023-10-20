@@ -1,7 +1,9 @@
 ---
 title: OdsoRecipientDataCollection.GetEnumerator
-second_title: Référence de l'API Aspose.Words pour .NET
-description: OdsoRecipientDataCollection méthode. Renvoie un objet énumérateur qui peut être utilisé pour parcourir tous les éléments de la collection.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words pour .NET
+description: OdsoRecipientDataCollection GetEnumerator méthode. Renvoie un objet énumérateur qui peut être utilisé pour parcourir tous les éléments de la collection en C#.
 type: docs
 weight: 60
 url: /fr/net/aspose.words.settings/odsorecipientdatacollection/getenumerator/
@@ -14,7 +16,7 @@ Renvoie un objet énumérateur qui peut être utilisé pour parcourir tous les �
 public IEnumerator<OdsoRecipientData> GetEnumerator()
 ```
 
-### Exemples
+## Exemples
 
 Montre comment accéder à la collection de données qui désigne les enregistrements de source de données de fusion qu'un publipostage exclura.
 
@@ -55,7 +57,5 @@ Assert.AreEqual(0, dataCollection.Count);
 
 * class [OdsoRecipientData](../../odsorecipientdata/)
 * class [OdsoRecipientDataCollection](../)
-* espace de noms [Aspose.Words.Settings](../../odsorecipientdatacollection/)
+* espace de noms [Aspose.Words.Settings](../../../aspose.words.settings/)
 * Assemblée [Aspose.Words](../../../)
-
-

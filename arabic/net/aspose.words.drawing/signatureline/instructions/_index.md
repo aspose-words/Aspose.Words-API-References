@@ -1,20 +1,22 @@
 ---
 title: SignatureLine.Instructions
-second_title: Aspose.Words لمراجع .NET API
-description: SignatureLine ملكية. الحصول على أو تعيين التعليمات للموقّع التي يتم عرضها عند توقيع سطر التوقيع. يتم تجاهل هذه الخاصية إذاDefaultInstructionsتم تعيينها. القيمة الافتراضية لهذه الخاصية هي سلسلة فارغة Empty.
+linktitle: Instructions
+articleTitle: Instructions
+second_title: Aspose.Words لـ .NET
+description: SignatureLine Instructions ملكية. الحصول على أو تعيين التعليمات للموقّع التي يتم عرضها عند توقيع سطر التوقيع. يتم تجاهل هذه الخاصية إذاDefaultInstructionsتم تعيينها. القيمة الافتراضية لهذه الخاصية هيسلسلة فارغة Empty في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.drawing/signatureline/instructions/
 ---
 ## SignatureLine.Instructions property
 
-الحصول على أو تعيين التعليمات للموقّع التي يتم عرضها عند توقيع سطر التوقيع. يتم تجاهل هذه الخاصية إذا[`DefaultInstructions`](../defaultinstructions/)تم تعيينها. القيمة الافتراضية لهذه الخاصية هي **سلسلة فارغة** (Empty).
+الحصول على أو تعيين التعليمات للموقّع التي يتم عرضها عند توقيع سطر التوقيع. يتم تجاهل هذه الخاصية إذا[`DefaultInstructions`](../defaultinstructions/)تم تعيينها. القيمة الافتراضية لهذه الخاصية هي**سلسلة فارغة** (Empty).
 
 ```csharp
 public string Instructions { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء سطر للتوقيع وإدراجه في مستند.
 
@@ -59,7 +61,5 @@ doc.Save(ArtifactsDir + "Shape.SignatureLine.docx");
 ### أنظر أيضا
 
 * class [SignatureLine](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../signatureline/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

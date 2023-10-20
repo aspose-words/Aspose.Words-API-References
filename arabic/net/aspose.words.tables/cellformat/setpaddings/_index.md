@@ -1,9 +1,11 @@
 ---
 title: CellFormat.SetPaddings
-second_title: Aspose.Words لمراجع .NET API
-description: CellFormat طريقة. يضبط مقدار المسافة بالنقاط المراد إضافتها إلى يسار/أعلى/يمين/أسفل محتويات الخلية.
+linktitle: SetPaddings
+articleTitle: SetPaddings
+second_title: Aspose.Words لـ .NET
+description: CellFormat SetPaddings طريقة. يضبط مقدار المسافة بالنقاط المراد إضافتها إلى يسار/أعلى/يمين/أسفل محتويات الخلية في C#.
 type: docs
-weight: 170
+weight: 160
 url: /ar/net/aspose.words.tables/cellformat/setpaddings/
 ---
 ## CellFormat.SetPaddings method
@@ -15,7 +17,7 @@ public void SetPaddings(double leftPadding, double topPadding, double rightPaddi
     double bottomPadding)
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إضافة مسافة بيضاء إلى محتويات الخلية.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "CellFormat.Padding.docx");
 ### أنظر أيضا
 
 * class [CellFormat](../)
-* مساحة الاسم [Aspose.Words.Tables](../../cellformat/)
+* مساحة الاسم [Aspose.Words.Tables](../../../aspose.words.tables/)
 * المجسم [Aspose.Words](../../../)
-
-

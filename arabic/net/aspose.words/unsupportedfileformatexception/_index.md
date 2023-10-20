@@ -1,7 +1,9 @@
 ---
-title: Class UnsupportedFileFormatException
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.UnsupportedFileFormatException فصل. تم طرحه أثناء تحميل المستند عندما لا يتم التعرف على تنسيق المستند أو أنه غير مدعوم بواسطة Aspose.Words.
+title: UnsupportedFileFormatException Class
+linktitle: UnsupportedFileFormatException
+articleTitle: UnsupportedFileFormatException
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.UnsupportedFileFormatException فصل. تم طرحه أثناء تحميل المستند عندما لا يتم التعرف على تنسيق المستند أو أنه غير مدعوم بواسطة Aspose.Words في C#.
 type: docs
 weight: 6520
 url: /ar/net/aspose.words/unsupportedfileformatexception/
@@ -20,5 +22,3 @@ public class UnsupportedFileFormatException : Exception
 
 * مساحة الاسم [Aspose.Words](../../aspose.words/)
 * المجسم [Aspose.Words](../../)
-
-

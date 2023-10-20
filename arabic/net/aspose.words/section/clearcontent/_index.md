@@ -1,9 +1,11 @@
 ---
 title: Section.ClearContent
-second_title: Aspose.Words لمراجع .NET API
-description: Section طريقة. مسح القسم.
+linktitle: ClearContent
+articleTitle: ClearContent
+second_title: Aspose.Words لـ .NET
+description: Section ClearContent طريقة. مسح القسم في C#.
 type: docs
-weight: 110
+weight: 90
 url: /ar/net/aspose.words/section/clearcontent/
 ---
 ## Section.ClearContent method
@@ -14,13 +16,13 @@ url: /ar/net/aspose.words/section/clearcontent/
 public void ClearContent()
 ```
 
-### ملاحظات
+## ملاحظات
 
 نص[`Body`](../body/) تم مسحه، ولم يتبق سوى فقرة واحدة فارغة تمثل الفاصل المقطعي.
 
 يتم مسح نص كافة الرؤوس والتذييلات، ولكن[`HeaderFooter`](../../headerfooter/) لا تتم إزالة الكائنات نفسها.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية مسح محتويات القسم.
 
@@ -44,7 +46,5 @@ Assert.AreEqual(1, doc.FirstSection.Body.Paragraphs.Count);
 ### أنظر أيضا
 
 * class [Section](../)
-* مساحة الاسم [Aspose.Words](../../section/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

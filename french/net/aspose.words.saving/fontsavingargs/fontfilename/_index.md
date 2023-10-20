@@ -1,7 +1,9 @@
 ---
 title: FontSavingArgs.FontFileName
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FontSavingArgs propriété. Obtient ou définit le nom du fichier sans chemin dans lequel la police sera enregistrée.
+linktitle: FontFileName
+articleTitle: FontFileName
+second_title: Aspose.Words pour .NET
+description: FontSavingArgs FontFileName propriété. Obtient ou définit le nom du fichier sans chemin dans lequel la police sera enregistrée en C#.
 type: docs
 weight: 40
 url: /fr/net/aspose.words.saving/fontsavingargs/fontfilename/
@@ -14,7 +16,7 @@ Obtient ou définit le nom du fichier (sans chemin) dans lequel la police sera e
 public string FontFileName { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 Cette propriété vous permet de redéfinir la manière dont les noms de fichiers de polices sont générés lors de l'exportation au format HTML.
 
@@ -28,7 +30,7 @@ Lors de l'enregistrement d'un document dans un flux, le nom du fichier de police
 
 `FontFileName` doit contenir uniquement le nom du fichier sans le chemin. Aspose.Words détermine le chemin d'enregistrement en utilisant le nom du fichier du document, le[`FontsFolder`](../../htmlsaveoptions/fontsfolder/) et [`FontsFolderAlias`](../../htmlsaveoptions/fontsfolderalias/) propriétés.
 
-### Exemples
+## Exemples
 
 Montre comment définir une logique personnalisée pour l’exportation des polices lors de l’enregistrement au format HTML.
 
@@ -88,7 +90,5 @@ public class HandleFontSaving : IFontSavingCallback
 ### Voir également
 
 * class [FontSavingArgs](../)
-* espace de noms [Aspose.Words.Saving](../../fontsavingargs/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

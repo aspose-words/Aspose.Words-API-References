@@ -1,7 +1,9 @@
 ---
-title: Class MustacheTag
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.MailMerging.MustacheTag فصل. يمثل علامة الشارب.
+title: MustacheTag Class
+linktitle: MustacheTag
+articleTitle: MustacheTag
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.MailMerging.MustacheTag فصل. يمثل علامة الشارب في C#.
 type: docs
 weight: 3880
 url: /ar/net/aspose.words.mailmerging/mustachetag/
@@ -26,5 +28,3 @@ public class MustacheTag
 
 * مساحة الاسم [Aspose.Words.MailMerging](../../aspose.words.mailmerging/)
 * المجسم [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldIndex.PageRangeSeparator
-second_title: Aspose.Words لمراجع .NET API
-description: FieldIndex ملكية. الحصول على أو تعيين تسلسل الأحرف المستخدم للفصل بين بداية نطاق الصفحات ونهايته.
+linktitle: PageRangeSeparator
+articleTitle: PageRangeSeparator
+second_title: Aspose.Words لـ .NET
+description: FieldIndex PageRangeSeparator ملكية. الحصول على أو تعيين تسلسل الأحرف المستخدم للفصل بين بداية نطاق الصفحات ونهايته في C#.
 type: docs
 weight: 130
 url: /ar/net/aspose.words.fields/fieldindex/pagerangeseparator/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldindex/pagerangeseparator/
 public string PageRangeSeparator { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحديد الصفحات الممتدة لإشارة مرجعية كنطاق صفحات لإدخال حقل INDEX.
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "Field.INDEX.XE.PageRangeBookmark.docx");
 ### أنظر أيضا
 
 * class [FieldIndex](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldindex/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: BuildingBlock.LastSection
-second_title: Aspose.Words for .NET API 参考
-description: BuildingBlock 财产. 获取构建块中的最后一部分
+linktitle: LastSection
+articleTitle: LastSection
+second_title: 用于 .NET 的 Aspose.Words
+description: BuildingBlock LastSection 财产. 获取构建块中的最后一部分 在 C#.
 type: docs
 weight: 80
 url: /zh/net/aspose.words.buildingblocks/buildingblock/lastsection/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.buildingblocks/buildingblock/lastsection/
 public Section LastSection { get; }
 ```
 
-### 评论
+## 评论
 
 返回`无效的`如果没有部分.
 
-### 例子
+## 例子
 
 演示如何将自定义构建块添加到文档中。
 
@@ -116,7 +118,5 @@ public class BuildingBlockVisitor : DocumentVisitor
 
 * class [Section](../../../aspose.words/section/)
 * class [BuildingBlock](../)
-* 命名空间 [Aspose.Words.BuildingBlocks](../../buildingblock/)
+* 命名空间 [Aspose.Words.BuildingBlocks](../../../aspose.words.buildingblocks/)
 * 部件 [Aspose.Words](../../../)
-
-

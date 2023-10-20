@@ -1,7 +1,9 @@
 ---
 title: Document.EndnoteOptions
-second_title: Справочник по API Aspose.Words для .NET
-description: Document свойство. Предоставляет параметры управляющие нумерацией и расположением сносок в этом документе.
+linktitle: EndnoteOptions
+articleTitle: EndnoteOptions
+second_title: Aspose.Words для .NET
+description: Document EndnoteOptions свойство. Предоставляет параметры управляющие нумерацией и расположением сносок в этом документе на С#.
 type: docs
 weight: 110
 url: /ru/net/aspose.words/document/endnoteoptions/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/document/endnoteoptions/
 public EndnoteOptions EndnoteOptions { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как выбрать другое место, где документ будет собираться и отображать его концевые сноски.
 
@@ -188,7 +190,5 @@ doc.Save(ArtifactsDir + "InlineStory.NumberingRule.docx");
 
 * class [EndnoteOptions](../../../aspose.words.notes/endnoteoptions/)
 * class [Document](../)
-* пространство имен [Aspose.Words](../../document/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: AxisScaling.LogBase
-second_title: Référence de l'API Aspose.Words pour .NET
-description: AxisScaling propriété. Obtient ou définit la base logarithmique dun axe logarithmique.
+linktitle: LogBase
+articleTitle: LogBase
+second_title: Aspose.Words pour .NET
+description: AxisScaling LogBase propriété. Obtient ou définit la base logarithmique dun axe logarithmique en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.drawing.charts/axisscaling/logbase/
@@ -14,7 +16,7 @@ Obtient ou définit la base logarithmique d'un axe logarithmique.
 public double LogBase { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 La propriété n'est pas prise en charge par les nouveaux graphiques MS Office 2016.
 
@@ -22,7 +24,7 @@ La plage valide d'une valeur à virgule flottante est supérieure ou égale à 2
 
 La définition de cette propriété définit le[`Type`](../type/) propriété àLogarithmic .
 
-### Exemples
+## Exemples
 
 Montre comment appliquer une mise à l’échelle logarithmique à un axe de graphique.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "Charts.AxisScaling.docx");
 ### Voir également
 
 * class [AxisScaling](../)
-* espace de noms [Aspose.Words.Drawing.Charts](../../axisscaling/)
+* espace de noms [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Assemblée [Aspose.Words](../../../)
-
-

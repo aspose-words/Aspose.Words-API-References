@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.CoordOrigin
-second_title: Aspose.Words for .NET API 参考
-description: ShapeBase 财产. 该形状的包含块左上角的坐标
+linktitle: CoordOrigin
+articleTitle: CoordOrigin
+second_title: 用于 .NET 的 Aspose.Words
+description: ShapeBase CoordOrigin 财产. 该形状的包含块左上角的坐标 在 C#.
 type: docs
 weight: 110
 url: /zh/net/aspose.words.drawing/shapebase/coordorigin/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.drawing/shapebase/coordorigin/
 public Point CoordOrigin { get; set; }
 ```
 
-### 评论
+## 评论
 
 默认值为 (0,0)。
 
-### 例子
+## 例子
 
 演示如何将形状坐标平面上的 x 和 y 坐标位置转换为父形状坐标平面上的位置。
 
@@ -164,7 +166,5 @@ doc.Save(ArtifactsDir + "Shape.GroupShape.docx");
 ### 也可以看看
 
 * class [ShapeBase](../)
-* 命名空间 [Aspose.Words.Drawing](../../shapebase/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

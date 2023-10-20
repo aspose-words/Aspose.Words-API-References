@@ -1,7 +1,9 @@
 ---
 title: Font.AllCaps
-second_title: Aspose.Words för .NET API Referens
-description: Font fast egendom. Sant om teckensnittet är formaterat med stora bokstäver.
+linktitle: AllCaps
+articleTitle: AllCaps
+second_title: Aspose.Words för .NET
+description: Font AllCaps fast egendom. Sant om teckensnittet är formaterat med stora bokstäver i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words/font/allcaps/
@@ -14,7 +16,7 @@ Sant om teckensnittet är formaterat med stora bokstäver.
 public bool AllCaps { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man formaterar en körning för att visa dess innehåll med versaler.
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "Font.Caps.docx");
 ### Se även
 
 * class [Font](../)
-* namnutrymme [Aspose.Words](../../font/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

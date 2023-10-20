@@ -1,7 +1,9 @@
 ---
-title: Class License
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.License klass. Tillhandahåller metoder för att licensiera komponenten.
+title: License Class
+linktitle: License
+articleTitle: License
+second_title: Aspose.Words för .NET
+description: Aspose.Words.License klass. Tillhandahåller metoder för att licensiera komponenten i C#.
 type: docs
 weight: 3420
 url: /sv/net/aspose.words/license/
@@ -26,10 +28,10 @@ public class License
 
 | namn | Beskrivning |
 | --- | --- |
-| [SetLicense](../../aspose.words/license/setlicense/#setlicense)(Stream) | Licensierar komponenten. |
-| [SetLicense](../../aspose.words/license/setlicense/#setlicense_1)(string) | Licensierar komponenten. |
+| [SetLicense](../../aspose.words/license/setlicense/#setlicense)(*Stream*) | Licensierar komponenten. |
+| [SetLicense](../../aspose.words/license/setlicense/#setlicense_1)(*string*) | Licensierar komponenten. |
 
-### Exempel
+## Exempel
 
 Visar hur man initierar en licens för Aspose.Words med hjälp av en licensfil i det lokala filsystemet.
 
@@ -54,5 +56,3 @@ license.SetLicense("Aspose.Words.NET.lic");
 
 * namnutrymme [Aspose.Words](../../aspose.words/)
 * hopsättning [Aspose.Words](../../)
-
-

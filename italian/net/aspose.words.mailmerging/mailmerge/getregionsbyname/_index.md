@@ -1,7 +1,9 @@
 ---
 title: MailMerge.GetRegionsByName
-second_title: Aspose.Words per .NET API Reference
-description: MailMerge metodo. Restituisce una raccolta di regioni di stampa unione con il nome specificato.
+linktitle: GetRegionsByName
+articleTitle: GetRegionsByName
+second_title: Aspose.Words per .NET
+description: MailMerge GetRegionsByName metodo. Restituisce una raccolta di regioni di stampa unione con il nome specificato in C#.
 type: docs
 weight: 240
 url: /it/net/aspose.words.mailmerging/mailmerge/getregionsbyname/
@@ -22,7 +24,7 @@ public IList<MailMergeRegionInfo> GetRegionsByName(string regionName)
 
 L'elenco delle regioni.
 
-### Esempi
+## Esempi
 
 Mostra come creare, elencare e leggere le aree di stampa unione.
 
@@ -78,7 +80,5 @@ Assert.AreEqual("Column2", mergeFieldNames[0]);
 
 * class [MailMergeRegionInfo](../../mailmergeregioninfo/)
 * class [MailMerge](../)
-* spazio dei nomi [Aspose.Words.MailMerging](../../mailmerge/)
+* spazio dei nomi [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * assemblea [Aspose.Words](../../../)
-
-

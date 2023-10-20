@@ -1,7 +1,9 @@
 ---
 title: FieldIndex.SequenceName
-second_title: Aspose.Words för .NET API Referens
-description: FieldIndex fast egendom. Hämtar eller ställer in namnet på en sekvens vars nummer ingår i sidnumret.
+linktitle: SequenceName
+articleTitle: SequenceName
+second_title: Aspose.Words för .NET
+description: FieldIndex SequenceName fast egendom. Hämtar eller ställer in namnet på en sekvens vars nummer ingår i sidnumret i C#.
 type: docs
 weight: 150
 url: /sv/net/aspose.words.fields/fieldindex/sequencename/
@@ -14,7 +16,7 @@ Hämtar eller ställer in namnet på en sekvens vars nummer ingår i sidnumret.
 public string SequenceName { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man delar upp ett dokument i delar genom att kombinera INDEX- och SEQ-fält.
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "Field.INDEX.XE.Sequence.docx");
 ### Se även
 
 * class [FieldIndex](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldindex/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

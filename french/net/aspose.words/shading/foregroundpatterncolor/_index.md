@@ -1,7 +1,9 @@
 ---
 title: Shading.ForegroundPatternColor
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Shading propriété. Obtient ou définit la couleur appliquée au premier plan duShading objet.
+linktitle: ForegroundPatternColor
+articleTitle: ForegroundPatternColor
+second_title: Aspose.Words pour .NET
+description: Shading ForegroundPatternColor propriété. Obtient ou définit la couleur appliquée au premier plan duShading objet en C#.
 type: docs
 weight: 40
 url: /fr/net/aspose.words/shading/foregroundpatterncolor/
@@ -14,7 +16,7 @@ Obtient ou définit la couleur appliquée au premier plan du[`Shading`](../) obj
 public Color ForegroundPatternColor { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment décorer du texte avec des bordures et des ombrages.
 
@@ -41,7 +43,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.ApplyBordersAndShading.docx");
 ### Voir également
 
 * class [Shading](../)
-* espace de noms [Aspose.Words](../../shading/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

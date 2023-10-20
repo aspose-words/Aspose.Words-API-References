@@ -1,7 +1,9 @@
 ---
 title: Footnote.Accept
-second_title: Aspose.Words لمراجع .NET API
-description: Footnote طريقة. يقبل الزائر.
+linktitle: Accept
+articleTitle: Accept
+second_title: Aspose.Words لـ .NET
+description: Footnote Accept طريقة. يقبل الزائر في C#.
 type: docs
 weight: 70
 url: /ar/net/aspose.words.notes/footnote/accept/
@@ -22,7 +24,7 @@ public override bool Accept(DocumentVisitor visitor)
 
 صحيح إذا تمت زيارة جميع العقد؛ كاذبة إذا[`DocumentVisitor`](../../../aspose.words/documentvisitor/) أوقفت العملية قبل زيارة كافة العقد.
 
-### ملاحظات
+## ملاحظات
 
 يعدد هذه العقدة وجميع أبنائها. تستدعي كل عقدة الطريقة المقابلة لها[`DocumentVisitor`](../../../aspose.words/documentvisitor/).
 
@@ -30,7 +32,7 @@ public override bool Accept(DocumentVisitor visitor)
 
 يستدعي DocumentVisitor.VisitFootnoteStart، ثم يستدعي قبول لكافة العقد التابعة للحاشية السفلية ويستدعي DocumentVisitor.VisitFootnoteEnd في النهاية.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية طباعة بنية العقدة لكل حاشية سفلية في المستند.
 
@@ -123,7 +125,5 @@ public class FootnoteStructurePrinter : DocumentVisitor
 
 * class [DocumentVisitor](../../../aspose.words/documentvisitor/)
 * class [Footnote](../)
-* مساحة الاسم [Aspose.Words.Notes](../../footnote/)
+* مساحة الاسم [Aspose.Words.Notes](../../../aspose.words.notes/)
 * المجسم [Aspose.Words](../../../)
-
-

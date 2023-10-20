@@ -1,7 +1,9 @@
 ---
 title: IFieldUpdateCultureProvider.GetCulture
-second_title: Aspose.Words för .NET API Referens
-description: IFieldUpdateCultureProvider metod. Returnerar enCultureInfoobjekt som ska användas under fältets uppdatering.
+linktitle: GetCulture
+articleTitle: GetCulture
+second_title: Aspose.Words för .NET
+description: IFieldUpdateCultureProvider GetCulture metod. Returnerar enCultureInfoobjekt som ska användas under fältets uppdatering i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.fields/ifieldupdatecultureprovider/getculture/
@@ -23,7 +25,7 @@ public CultureInfo GetCulture(string culture, Field field)
 
 Kulturobjektet som ska användas för fältets uppdatering.
 
-### Exempel
+## Exempel
 
 Visar hur man anger en kultur som analyserar formatering av datum/tid för varje fält.
 
@@ -95,7 +97,5 @@ private class FieldUpdateCultureProvider : IFieldUpdateCultureProvider
 
 * class [Field](../../field/)
 * interface [IFieldUpdateCultureProvider](../)
-* namnutrymme [Aspose.Words.Fields](../../ifieldupdatecultureprovider/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

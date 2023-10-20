@@ -1,7 +1,9 @@
 ---
 title: Table.StyleIdentifier
-second_title: Aspose.Words for .NET API 参考
-description: Table 财产. 获取或设置应用于此表的表样式的区域设置独立样式标识符
+linktitle: StyleIdentifier
+articleTitle: StyleIdentifier
+second_title: 用于 .NET 的 Aspose.Words
+description: Table StyleIdentifier 财产. 获取或设置应用于此表的表样式的区域设置独立样式标识符 在 C#.
 type: docs
 weight: 280
 url: /zh/net/aspose.words.tables/table/styleidentifier/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.tables/table/styleidentifier/
 public StyleIdentifier StyleIdentifier { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何在应用样式时构建新表格。
 
@@ -66,7 +68,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTableWithStyle.docx");
 
 * enum [StyleIdentifier](../../../aspose.words/styleidentifier/)
 * class [Table](../)
-* 命名空间 [Aspose.Words.Tables](../../table/)
+* 命名空间 [Aspose.Words.Tables](../../../aspose.words.tables/)
 * 部件 [Aspose.Words](../../../)
-
-

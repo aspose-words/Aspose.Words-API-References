@@ -1,7 +1,9 @@
 ---
-title: Enum Underline
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Underline 枚举. 表示应用于字体的下划线类型
+title: Underline Enum
+linktitle: Underline
+articleTitle: Underline
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Underline 枚举. 表示应用于字体的下划线类型 在 C#.
 type: docs
 weight: 6510
 url: /zh/net/aspose.words/underline/
@@ -37,7 +39,7 @@ public enum Underline
 | WavyHeavy | `27` |  |
 | WavyDouble | `43` |  |
 
-### 例子
+## 例子
 
 演示如何插入超链接字段。
 
@@ -63,5 +65,3 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertHyperlink.docx");
 
 * 命名空间 [Aspose.Words](../../aspose.words/)
 * 部件 [Aspose.Words](../../)
-
-

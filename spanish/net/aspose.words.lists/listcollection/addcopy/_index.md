@@ -1,7 +1,9 @@
 ---
 title: ListCollection.AddCopy
-second_title: Referencia de API de Aspose.Words para .NET
-description: ListCollection método. Crea una nueva lista copiando la lista especificada y agregándola a la colección de listas en el documento.
+linktitle: AddCopy
+articleTitle: AddCopy
+second_title: Aspose.Words para .NET
+description: ListCollection AddCopy método. Crea una nueva lista copiando la lista especificada y agregándola a la colección de listas en el documento en C#.
 type: docs
 weight: 50
 url: /es/net/aspose.words.lists/listcollection/addcopy/
@@ -22,13 +24,13 @@ public List AddCopy(List srcList)
 
 La lista recién creada.
 
-### Observaciones
+## Observaciones
 
 La lista de fuentes puede ser de cualquier documento. Si la lista de origen pertenece a un documento diferente, se crea una copia de la lista y se agrega al documento actual.
 
 Si la lista de origen es una referencia o una definición de un estilo de lista, la lista recién creada no está relacionada con el estilo de lista original.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear un documento con una muestra de todas las listas de otro documento.
 
@@ -107,7 +109,5 @@ doc.Save(ArtifactsDir + "Lists.RestartNumberingUsingListCopy.docx");
 
 * class [List](../../list/)
 * class [ListCollection](../)
-* espacio de nombres [Aspose.Words.Lists](../../listcollection/)
+* espacio de nombres [Aspose.Words.Lists](../../../aspose.words.lists/)
 * asamblea [Aspose.Words](../../../)
-
-

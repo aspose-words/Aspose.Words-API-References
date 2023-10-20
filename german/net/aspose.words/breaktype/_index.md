@@ -1,7 +1,9 @@
 ---
-title: Enum BreakType
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.BreakType opsomming. Gibt die Art eines Umbruchs innerhalb eines Dokuments an.
+title: BreakType Enum
+linktitle: BreakType
+articleTitle: BreakType
+second_title: Aspose.Words für .NET
+description: Aspose.Words.BreakType opsomming. Gibt die Art eines Umbruchs innerhalb eines Dokuments an in C#.
 type: docs
 weight: 110
 url: /de/net/aspose.words/breaktype/
@@ -28,7 +30,7 @@ public enum BreakType
 | SectionBreakOddPage | `7` | Gibt den Beginn eines neuen Abschnitts auf einer ungeraden Seite an. |
 | LineBreak | `8` | Expliziter Zeilenumbruch. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man mit DocumentBuilder Kopf- und Fußzeilen in einem Dokument erstellt.
 
@@ -138,5 +140,3 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertToc.docx");
 
 * namensraum [Aspose.Words](../../aspose.words/)
 * Montage [Aspose.Words](../../)
-
-

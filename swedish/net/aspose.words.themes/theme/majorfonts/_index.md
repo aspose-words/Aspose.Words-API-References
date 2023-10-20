@@ -1,7 +1,9 @@
 ---
 title: Theme.MajorFonts
-second_title: Aspose.Words för .NET API Referens
-description: Theme fast egendom. Tillåter att ange uppsättningen av huvudteckensnitt för olika språk.
+linktitle: MajorFonts
+articleTitle: MajorFonts
+second_title: Aspose.Words för .NET
+description: Theme MajorFonts fast egendom. Tillåter att ange uppsättningen av huvudteckensnitt för olika språk i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.themes/theme/majorfonts/
@@ -14,7 +16,7 @@ Tillåter att ange uppsättningen av huvudteckensnitt för olika språk.
 public ThemeFonts MajorFonts { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du ställer in anpassade färger och teckensnitt för teman.
 
@@ -63,7 +65,5 @@ doc.Save(ArtifactsDir + "Themes.CustomColorsAndFonts.docx");
 
 * class [ThemeFonts](../../themefonts/)
 * class [Theme](../)
-* namnutrymme [Aspose.Words.Themes](../../theme/)
+* namnutrymme [Aspose.Words.Themes](../../../aspose.words.themes/)
 * hopsättning [Aspose.Words](../../../)
-
-

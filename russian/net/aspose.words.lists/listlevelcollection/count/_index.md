@@ -1,7 +1,9 @@
 ---
 title: ListLevelCollection.Count
-second_title: Справочник по API Aspose.Words для .NET
-description: ListLevelCollection свойство. Получает количество уровней в этом списке.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words для .NET
+description: ListLevelCollection Count свойство. Получает количество уровней в этом списке на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.lists/listlevelcollection/count/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.lists/listlevelcollection/count/
 public int Count { get; }
 ```
 
-### Примечания
+## Примечания
 
 В списке может быть 1 или 9 уровней.
 
-### Примеры
+## Примеры
 
 Показывает, как создать стиль списка и использовать его в документе.
 
@@ -79,7 +81,5 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateAndUseListStyle.docx");
 ### Смотрите также
 
 * class [ListLevelCollection](../)
-* пространство имен [Aspose.Words.Lists](../../listlevelcollection/)
+* пространство имен [Aspose.Words.Lists](../../../aspose.words.lists/)
 * сборка [Aspose.Words](../../../)
-
-

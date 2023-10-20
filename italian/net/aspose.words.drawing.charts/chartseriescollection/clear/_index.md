@@ -1,7 +1,9 @@
 ---
 title: ChartSeriesCollection.Clear
-second_title: Aspose.Words per .NET API Reference
-description: ChartSeriesCollection metodo. Rimuove tuttoChartSeries da questa collezione.
+linktitle: Clear
+articleTitle: Clear
+second_title: Aspose.Words per .NET
+description: ChartSeriesCollection Clear metodo. Rimuove tuttoChartSeries da questa collezione in C#.
 type: docs
 weight: 40
 url: /it/net/aspose.words.drawing.charts/chartseriescollection/clear/
@@ -14,7 +16,7 @@ Rimuove tutto[`ChartSeries`](../../chartseries/) da questa collezione.
 public void Clear()
 ```
 
-### Esempi
+## Esempi
 
 Mostra come aggiungere e rimuovere i dati delle serie in un grafico.
 
@@ -61,7 +63,5 @@ chartData.Clear();
 ### Guarda anche
 
 * class [ChartSeriesCollection](../)
-* spazio dei nomi [Aspose.Words.Drawing.Charts](../../chartseriescollection/)
+* spazio dei nomi [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * assemblea [Aspose.Words](../../../)
-
-

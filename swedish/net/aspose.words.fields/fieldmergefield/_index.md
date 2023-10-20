@@ -1,7 +1,9 @@
 ---
-title: Class FieldMergeField
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Fields.FieldMergeField klass. Implementerar MERGEFIELDfältet.
+title: FieldMergeField Class
+linktitle: FieldMergeField
+articleTitle: FieldMergeField
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Fields.FieldMergeField klass. Implementerar MERGEFIELDfältet i C#.
 type: docs
 weight: 2150
 url: /sv/net/aspose.words.fields/fieldmergefield/
@@ -42,17 +44,17 @@ public class FieldMergeField : Field
 | namn | Beskrivning |
 | --- | --- |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Returnerar text mellan fältstart och fältavgränsare (eller fältslut om det inte finns någon avgränsare). Både fältkod och fältresultat för underordnade fält ingår. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Returnerar text mellan fältstart och fältavgränsare (eller fältslut om det inte finns någon avgränsare). |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | Returnerar text mellan fältstart och fältavgränsare (eller fältslut om det inte finns någon avgränsare). |
 | [Remove](../../aspose.words.fields/field/remove/)() | Tar bort fältet från dokumentet. Returnerar en nod direkt efter fältet. Om fältets slut är den sista child av dess överordnade nod, returnerar dess överordnade stycke. Om fältet redan är borttaget, returneras`null` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | Utför fältavlänkningen. |
 | [Update](../../aspose.words.fields/field/update/)() | Utför fältuppdateringen. Kastar om fältet redan uppdateras. |
-| [Update](../../aspose.words.fields/field/update/)(bool) | Utför en fältuppdatering. Kastar om fältet redan uppdateras. |
+| [Update](../../aspose.words.fields/field/update/)(*bool*) | Utför en fältuppdatering. Kastar om fältet redan uppdateras. |
 
-### Anmärkningar
+## Anmärkningar
 
 Hämtar namnet på ett datafält inom kopplingstecknen i ett huvuddokument för sammankoppling. När huvuddokumentet slås samman med den valda datakällan infogas information från det specificerade datafältet i stället för sammanslagningsfältet.
 
-### Exempel
+## Exempel
 
 Visar hur man använder MERGEFIELD-fält för att utföra en e-postkoppling.
 
@@ -96,5 +98,3 @@ Assert.AreEqual("Dear Mr. Doe:\u000cDear Mrs. Cardholder:", doc.GetText().Trim()
 * class [Field](../field/)
 * namnutrymme [Aspose.Words.Fields](../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../)
-
-

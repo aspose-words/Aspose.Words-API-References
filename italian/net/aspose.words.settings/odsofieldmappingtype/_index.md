@@ -1,7 +1,9 @@
 ---
-title: Enum OdsoFieldMappingType
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Settings.OdsoFieldMappingType enum. Specifica i possibili tipi utilizzati per indicare se un determinato campo di stampa unione è stato mappato a una colonna nellorigine dati esterna specificata.
+title: OdsoFieldMappingType Enum
+linktitle: OdsoFieldMappingType
+articleTitle: OdsoFieldMappingType
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Settings.OdsoFieldMappingType enum. Specifica i possibili tipi utilizzati per indicare se un determinato campo di stampa unione è stato mappato a una colonna nellorigine dati esterna specificata in C#.
 type: docs
 weight: 5920
 url: /it/net/aspose.words.settings/odsofieldmappingtype/
@@ -22,7 +24,7 @@ public enum OdsoFieldMappingType
 | Null | `1` | Specifica che il campo della stampa unione non è stato mappato a una colonna nell'origine dati esterna specificata. |
 | Default | `1` | Uguale aNull . |
 
-### Esempi
+## Esempi
 
 Mostra come accedere alla raccolta di dati che mappa le colonne dell'origine dati per unire i campi.
 
@@ -67,5 +69,3 @@ Assert.AreEqual(0, dataCollection.Count);
 * property [Type](../odsofieldmapdata/type/)
 * spazio dei nomi [Aspose.Words.Settings](../../aspose.words.settings/)
 * assemblea [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: SaveOptions.AllowEmbeddingPostScriptFonts
-second_title: Aspose.Words for .NET API 参考
-description: SaveOptions 财产. 获取或设置一个布尔值指示在保存的文档中嵌入 TrueType 字体时是否允许使用 PostScript 轮廓嵌入字体 默认值为错误的.
+linktitle: AllowEmbeddingPostScriptFonts
+articleTitle: AllowEmbeddingPostScriptFonts
+second_title: 用于 .NET 的 Aspose.Words
+description: SaveOptions AllowEmbeddingPostScriptFonts 财产. 获取或设置一个布尔值指示在保存的文档中嵌入 TrueType 字体时是否允许使用 PostScript 轮廓嵌入字体 默认值为错误的 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.saving/saveoptions/allowembeddingpostscriptfonts/
@@ -14,13 +16,13 @@ url: /zh/net/aspose.words.saving/saveoptions/allowembeddingpostscriptfonts/
 public bool AllowEmbeddingPostScriptFonts { get; set; }
 ```
 
-### 评论
+## 评论
 
 请注意，Word 不嵌入 PostScript 字体，但可以打开嵌入这种类型字体的文档。
 
 此选项仅在以下情况下有效[`EmbedTrueTypeFonts`](../../../aspose.words.fonts/fontinfocollection/embedtruetypefonts/)的 [`FontInfos`](../../../aspose.words/documentbase/fontinfos/)属性设置为`真的`。
 
-### 例子
+## 例子
 
 演示如何使用 PostScript 字体保存文档。
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "Document.AllowEmbeddingPostScriptFonts.docx", saveOptio
 ### 也可以看看
 
 * class [SaveOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../saveoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

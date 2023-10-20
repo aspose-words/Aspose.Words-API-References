@@ -1,7 +1,9 @@
 ---
-title: Interface IFieldMergingCallback
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.MailMerging.IFieldMergingCallback koppel. Implementieren Sie diese Schnittstelle wenn Sie steuern möchten wie Daten während eines Serienbriefvorgangs in Serienbrieffelder eingefügt werden.
+title: IFieldMergingCallback Interface
+linktitle: IFieldMergingCallback
+articleTitle: IFieldMergingCallback
+second_title: Aspose.Words für .NET
+description: Aspose.Words.MailMerging.IFieldMergingCallback koppel. Implementieren Sie diese Schnittstelle wenn Sie steuern möchten wie Daten während eines Serienbriefvorgangs in Serienbrieffelder eingefügt werden in C#.
 type: docs
 weight: 3790
 url: /de/net/aspose.words.mailmerging/ifieldmergingcallback/
@@ -18,10 +20,10 @@ public interface IFieldMergingCallback
 
 | Name | Beschreibung |
 | --- | --- |
-| [FieldMerging](../../aspose.words.mailmerging/ifieldmergingcallback/fieldmerging/)(FieldMergingArgs) | Wird aufgerufen, wenn die Mail-Merge-Engine von Aspose.Words im Begriff ist, Daten in ein Seriendruckfeld im Dokument einzufügen. |
-| [ImageFieldMerging](../../aspose.words.mailmerging/ifieldmergingcallback/imagefieldmerging/)(ImageFieldMergingArgs) | Wird aufgerufen, wenn die Mail-Merge-Engine von Aspose.Words im Begriff ist, ein Bild in ein Serienbrieffeld einzufügen. |
+| [FieldMerging](../../aspose.words.mailmerging/ifieldmergingcallback/fieldmerging/)(*[FieldMergingArgs](../fieldmergingargs/)*) | Wird aufgerufen, wenn die Mail-Merge-Engine von Aspose.Words im Begriff ist, Daten in ein Seriendruckfeld im Dokument einzufügen. |
+| [ImageFieldMerging](../../aspose.words.mailmerging/ifieldmergingcallback/imagefieldmerging/)(*[ImageFieldMergingArgs](../imagefieldmergingargs/)*) | Wird aufgerufen, wenn die Mail-Merge-Engine von Aspose.Words im Begriff ist, ein Bild in ein Serienbrieffeld einzufügen. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie in einem Datenbank-BLOB-Feld gespeicherte Bilder in einen Bericht eingefügt werden.
 
@@ -134,5 +136,3 @@ private class HandleMergeFieldInsertHtml : IFieldMergingCallback
 
 * namensraum [Aspose.Words.MailMerging](../../aspose.words.mailmerging/)
 * Montage [Aspose.Words](../../)
-
-

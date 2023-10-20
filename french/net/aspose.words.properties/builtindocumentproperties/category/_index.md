@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.Category
-second_title: Référence de l'API Aspose.Words pour .NET
-description: BuiltInDocumentProperties propriété. Obtient ou définit la catégorie du document.
+linktitle: Category
+articleTitle: Category
+second_title: Aspose.Words pour .NET
+description: BuiltInDocumentProperties Category propriété. Obtient ou définit la catégorie du document en C#.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.properties/builtindocumentproperties/category/
@@ -14,7 +16,7 @@ Obtient ou définit la catégorie du document.
 public string Category { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment utiliser les propriétés de document intégrées dans la catégorie « Description ».
 
@@ -59,7 +61,5 @@ doc.Save(ArtifactsDir + "DocumentProperties.Description.docx");
 ### Voir également
 
 * class [BuiltInDocumentProperties](../)
-* espace de noms [Aspose.Words.Properties](../../builtindocumentproperties/)
+* espace de noms [Aspose.Words.Properties](../../../aspose.words.properties/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum SdtDateStorageFormat
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Markup.SdtDateStorageFormat opsomming. Gibt an wie das Datum für ein DatumsSDT gespeichert/abgerufen wird wenn das SDT an einen XMLKnoten im Datenspeicher des Dokuments gebunden ist.
+title: SdtDateStorageFormat Enum
+linktitle: SdtDateStorageFormat
+articleTitle: SdtDateStorageFormat
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Markup.SdtDateStorageFormat opsomming. Gibt an wie das Datum für ein DatumsSDT gespeichert/abgerufen wird wenn das SDT an einen XMLKnoten im Datenspeicher des Dokuments gebunden ist in C#.
 type: docs
 weight: 4010
 url: /de/net/aspose.words.markup/sdtdatestorageformat/
@@ -27,5 +29,3 @@ public enum SdtDateStorageFormat
 
 * namensraum [Aspose.Words.Markup](../../aspose.words.markup/)
 * Montage [Aspose.Words](../../)
-
-

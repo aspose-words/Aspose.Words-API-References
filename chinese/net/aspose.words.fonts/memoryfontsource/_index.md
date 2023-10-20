@@ -1,7 +1,9 @@
 ---
-title: Class MemoryFontSource
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Fonts.MemoryFontSource 班级. 表示存储在内存中的单个 TrueType 字体文件
+title: MemoryFontSource Class
+linktitle: MemoryFontSource
+articleTitle: MemoryFontSource
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Fonts.MemoryFontSource 班级. 表示存储在内存中的单个 TrueType 字体文件 在 C#.
 type: docs
 weight: 3020
 url: /zh/net/aspose.words.fonts/memoryfontsource/
@@ -20,9 +22,9 @@ public class MemoryFontSource : FontSourceBase
 
 | 姓名 | 描述 |
 | --- | --- |
-| [MemoryFontSource](memoryfontsource/#constructor)(byte[]) | 向量. |
-| [MemoryFontSource](memoryfontsource/#constructor_1)(byte[], int) | 向量. |
-| [MemoryFontSource](memoryfontsource/#constructor_2)(byte[], int, string) | 向量. |
+| [MemoryFontSource](memoryfontsource/#constructor)(*byte[]*) | 向量. |
+| [MemoryFontSource](memoryfontsource/#constructor_1)(*byte[], int*) | 向量. |
+| [MemoryFontSource](memoryfontsource/#constructor_2)(*byte[], int, string*) | 向量. |
 
 ## 特性
 
@@ -40,7 +42,7 @@ public class MemoryFontSource : FontSourceBase
 | --- | --- |
 | [GetAvailableFonts](../../aspose.words.fonts/fontsourcebase/getavailablefonts/)() | 返回通过此源可用的字体列表。 |
 
-### 例子
+## 例子
 
 演示如何使用字节数组和字体文件中的数据作为字体源。
 
@@ -61,5 +63,3 @@ Assert.AreEqual(0, memoryFontSource.Priority);
 * class [FontSourceBase](../fontsourcebase/)
 * 命名空间 [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * 部件 [Aspose.Words](../../)
-
-

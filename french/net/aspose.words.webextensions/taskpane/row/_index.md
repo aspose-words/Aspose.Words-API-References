@@ -1,7 +1,9 @@
 ---
 title: TaskPane.Row
-second_title: Référence de l'API Aspose.Words pour .NET
-description: TaskPane propriété. Spécifie lindex énumérant de lextérieur vers lintérieur de ce volet de tâches parmi dautres volets de tâches persisted ancrés au même emplacement par défaut.
+linktitle: Row
+articleTitle: Row
+second_title: Aspose.Words pour .NET
+description: TaskPane Row propriété. Spécifie lindex énumérant de lextérieur vers lintérieur de ce volet de tâches parmi dautres volets de tâches persisted ancrés au même emplacement par défaut en C#.
 type: docs
 weight: 50
 url: /fr/net/aspose.words.webextensions/taskpane/row/
@@ -14,7 +16,7 @@ Spécifie l'index, énumérant de l'extérieur vers l'intérieur, de ce volet de
 public int Row { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment ajouter une extension Web à un document.
 
@@ -59,7 +61,5 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 ### Voir également
 
 * class [TaskPane](../)
-* espace de noms [Aspose.Words.WebExtensions](../../taskpane/)
+* espace de noms [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * Assemblée [Aspose.Words](../../../)
-
-

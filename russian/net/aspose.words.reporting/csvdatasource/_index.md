@@ -1,7 +1,9 @@
 ---
-title: Class CsvDataSource
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Reporting.CsvDataSource сорт. Обеспечивает доступ к данным CSVфайла или потока которые будут использоваться в отчете.
+title: CsvDataSource Class
+linktitle: CsvDataSource
+articleTitle: CsvDataSource
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Reporting.CsvDataSource сорт. Обеспечивает доступ к данным CSVфайла или потока которые будут использоваться в отчете на С#.
 type: docs
 weight: 4670
 url: /ru/net/aspose.words.reporting/csvdatasource/
@@ -20,12 +22,12 @@ public class CsvDataSource
 
 | Имя | Описание |
 | --- | --- |
-| [CsvDataSource](csvdatasource/#constructor)(Stream) | Создает новый источник данных с данными из потока CSV, используя параметры по умолчанию для анализа данных CSV. |
-| [CsvDataSource](csvdatasource/#constructor_2)(string) | Создает новый источник данных с данными из файла CSV, используя параметры по умолчанию для анализа данных CSV. |
-| [CsvDataSource](csvdatasource/#constructor_1)(Stream, CsvDataLoadOptions) | Создает новый источник данных с данными из потока CSV, используя указанные параметры анализа данных CSV. |
-| [CsvDataSource](csvdatasource/#constructor_3)(string, CsvDataLoadOptions) | Создает новый источник данных с данными из файла CSV, используя указанные параметры анализа данных CSV. |
+| [CsvDataSource](csvdatasource/#constructor)(*Stream*) | Создает новый источник данных с данными из потока CSV, используя параметры по умолчанию для анализа данных CSV. |
+| [CsvDataSource](csvdatasource/#constructor_2)(*string*) | Создает новый источник данных с данными из файла CSV, используя параметры по умолчанию для анализа данных CSV. |
+| [CsvDataSource](csvdatasource/#constructor_1)(*Stream, [CsvDataLoadOptions](../csvdataloadoptions/)*) | Создает новый источник данных с данными из потока CSV, используя указанные параметры анализа данных CSV. |
+| [CsvDataSource](csvdatasource/#constructor_3)(*string, [CsvDataLoadOptions](../csvdataloadoptions/)*) | Создает новый источник данных с данными из файла CSV, используя указанные параметры анализа данных CSV. |
 
-### Примечания
+## Примечания
 
 Чтобы получить доступ к данным соответствующего файла или потока при создании отчета, передайте экземпляр этого класса как источник данных одному из[`ReportingEngine`](../reportingengine/) .BuildReport перегрузки.
 
@@ -47,5 +49,3 @@ public class CsvDataSource
 
 * пространство имен [Aspose.Words.Reporting](../../aspose.words.reporting/)
 * сборка [Aspose.Words](../../)
-
-

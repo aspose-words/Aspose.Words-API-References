@@ -1,7 +1,9 @@
 ---
 title: ListLevel.IsLegal
-second_title: Aspose.Words لمراجع .NET API
-description: ListLevel ملكية. صحيح إذا كان المستوى يحول جميع الأرقام الموروثة إلى اللغة العربية وخطأ إذا احتفظ بنمط أرقامها.
+linktitle: IsLegal
+articleTitle: IsLegal
+second_title: Aspose.Words لـ .NET
+description: ListLevel IsLegal ملكية. صحيح إذا كان المستوى يحول جميع الأرقام الموروثة إلى اللغة العربية وخطأ إذا احتفظ بنمط أرقامها في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.lists/listlevel/islegal/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.lists/listlevel/islegal/
 public bool IsLegal { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يعرض طرقًا متقدمة لتخصيص تسميات القائمة.
 
@@ -75,7 +77,5 @@ doc.Save(ArtifactsDir + "Lists.CreateListRestartAfterHigher.docx");
 ### أنظر أيضا
 
 * class [ListLevel](../)
-* مساحة الاسم [Aspose.Words.Lists](../../listlevel/)
+* مساحة الاسم [Aspose.Words.Lists](../../../aspose.words.lists/)
 * المجسم [Aspose.Words](../../../)
-
-

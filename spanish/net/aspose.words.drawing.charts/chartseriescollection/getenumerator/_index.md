@@ -1,7 +1,9 @@
 ---
 title: ChartSeriesCollection.GetEnumerator
-second_title: Referencia de API de Aspose.Words para .NET
-description: ChartSeriesCollection método. Devuelve un objeto enumerador.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words para .NET
+description: ChartSeriesCollection GetEnumerator método. Devuelve un objeto enumerador en C#.
 type: docs
 weight: 50
 url: /es/net/aspose.words.drawing.charts/chartseriescollection/getenumerator/
@@ -14,7 +16,7 @@ Devuelve un objeto enumerador.
 public IEnumerator<ChartSeries> GetEnumerator()
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo agregar y eliminar datos de series en un gráfico.
 
@@ -62,7 +64,5 @@ chartData.Clear();
 
 * class [ChartSeries](../../chartseries/)
 * class [ChartSeriesCollection](../)
-* espacio de nombres [Aspose.Words.Drawing.Charts](../../chartseriescollection/)
+* espacio de nombres [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * asamblea [Aspose.Words](../../../)
-
-

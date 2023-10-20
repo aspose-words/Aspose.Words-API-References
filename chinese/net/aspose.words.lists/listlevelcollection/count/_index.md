@@ -1,7 +1,9 @@
 ---
 title: ListLevelCollection.Count
-second_title: Aspose.Words for .NET API 参考
-description: ListLevelCollection 财产. 获取此列表中的级别数
+linktitle: Count
+articleTitle: Count
+second_title: 用于 .NET 的 Aspose.Words
+description: ListLevelCollection Count 财产. 获取此列表中的级别数 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.lists/listlevelcollection/count/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.lists/listlevelcollection/count/
 public int Count { get; }
 ```
 
-### 评论
+## 评论
 
 列表中可以有 1 或 9 个级别。
 
-### 例子
+## 例子
 
 演示如何创建列表样式并在文档中使用它。
 
@@ -79,7 +81,5 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateAndUseListStyle.docx");
 ### 也可以看看
 
 * class [ListLevelCollection](../)
-* 命名空间 [Aspose.Words.Lists](../../listlevelcollection/)
+* 命名空间 [Aspose.Words.Lists](../../../aspose.words.lists/)
 * 部件 [Aspose.Words](../../../)
-
-

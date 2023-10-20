@@ -1,7 +1,9 @@
 ---
-title: Interface IChartDataPoint
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Drawing.Charts.IChartDataPoint интерфейс. Содержит свойства одной точки данных на диаграмме.
+title: IChartDataPoint Interface
+linktitle: IChartDataPoint
+articleTitle: IChartDataPoint
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Drawing.Charts.IChartDataPoint интерфейс. Содержит свойства одной точки данных на диаграмме на С#.
 type: docs
 weight: 900
 url: /ru/net/aspose.words.drawing.charts/ichartdatapoint/
@@ -23,7 +25,7 @@ public interface IChartDataPoint
 | [InvertIfNegative](../../aspose.words.drawing.charts/ichartdatapoint/invertifnegative/) { get; set; } | Указывает, должен ли родительский элемент инвертировать свои цвета, если значение отрицательное. |
 | [Marker](../../aspose.words.drawing.charts/ichartdatapoint/marker/) { get; } | Указывает маркер данных. Маркер создается автоматически по запросу. |
 
-### Примеры
+## Примеры
 
 Показывает, как работать с точками данных на линейной диаграмме.
 
@@ -86,5 +88,3 @@ private static void ApplyDataPoints(ChartSeries series, int dataPointsCount, Mar
 
 * пространство имен [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../)
-
-

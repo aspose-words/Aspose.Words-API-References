@@ -1,7 +1,9 @@
 ---
 title: MailMergeSettings.DataType
-second_title: Référence de l'API Aspose.Words pour .NET
-description: MailMergeSettings propriété. Spécifie le type de source de données de publipostage et la méthode daccès aux données. La valeur par défaut estDefault .
+linktitle: DataType
+articleTitle: DataType
+second_title: Aspose.Words pour .NET
+description: MailMergeSettings DataType propriété. Spécifie le type de source de données de publipostage et la méthode daccès aux données. La valeur par défaut estDefault  en C#.
 type: docs
 weight: 70
 url: /fr/net/aspose.words.settings/mailmergesettings/datatype/
@@ -14,7 +16,7 @@ Spécifie le type de source de données de publipostage et la méthode d'accès 
 public MailMergeDataType DataType { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment exécuter un publipostage avec des données provenant d’un objet source de données Office.
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 
 * enum [MailMergeDataType](../../mailmergedatatype/)
 * class [MailMergeSettings](../)
-* espace de noms [Aspose.Words.Settings](../../mailmergesettings/)
+* espace de noms [Aspose.Words.Settings](../../../aspose.words.settings/)
 * Assemblée [Aspose.Words](../../../)
-
-

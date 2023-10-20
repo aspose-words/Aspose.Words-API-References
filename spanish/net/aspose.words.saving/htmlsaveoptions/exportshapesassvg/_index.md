@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ExportShapesAsSvg
-second_title: Referencia de API de Aspose.Words para .NET
-description: HtmlSaveOptions propiedad. Controla siShapeLos nodos se convierten a imágenes SVG al guardar en HTML MHTML EPUB o AZW3. El valor predeterminado esFALSO .
+linktitle: ExportShapesAsSvg
+articleTitle: ExportShapesAsSvg
+second_title: Aspose.Words para .NET
+description: HtmlSaveOptions ExportShapesAsSvg propiedad. Controla siShapeLos nodos se convierten a imágenes SVG al guardar en HTML MHTML EPUB o AZW3. El valor predeterminado esFALSO  en C#.
 type: docs
 weight: 250
 url: /es/net/aspose.words.saving/htmlsaveoptions/exportshapesassvg/
@@ -14,11 +16,11 @@ Controla si[`Shape`](../../../aspose.words.drawing/shape/)Los nodos se convierte
 public bool ExportShapesAsSvg { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 Si esta opción está configurada en`verdadero` ,[`Shape`](../../../aspose.words.drawing/shape/) los nodos se exportan como elementos &lt;svg&gt;. De lo contrario, se representan en mapas de bits y se exportan como elementos &lt;img&gt;.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo exportar formas como gráficos vectoriales escalables.
 
@@ -61,7 +63,5 @@ else
 ### Ver también
 
 * class [HtmlSaveOptions](../)
-* espacio de nombres [Aspose.Words.Saving](../../htmlsaveoptions/)
+* espacio de nombres [Aspose.Words.Saving](../../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../../)
-
-

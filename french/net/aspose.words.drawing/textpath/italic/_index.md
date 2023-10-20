@@ -1,7 +1,9 @@
 ---
 title: TextPath.Italic
-second_title: Référence de l'API Aspose.Words pour .NET
-description: TextPath propriété. True si la police est au format italique.
+linktitle: Italic
+articleTitle: Italic
+second_title: Aspose.Words pour .NET
+description: TextPath Italic propriété. True si la police est au format italique en C#.
 type: docs
 weight: 50
 url: /fr/net/aspose.words.drawing/textpath/italic/
@@ -14,11 +16,11 @@ True si la police est au format italique.
 public bool Italic { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 La valeur par défaut est`FAUX`.
 
-### Exemples
+## Exemples
 
 Montre comment travailler avec WordArt.
 
@@ -121,7 +123,5 @@ private static Shape AppendWordArt(Document doc, string text, string textFontFam
 ### Voir également
 
 * class [TextPath](../)
-* espace de noms [Aspose.Words.Drawing](../../textpath/)
+* espace de noms [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Assemblée [Aspose.Words](../../../)
-
-

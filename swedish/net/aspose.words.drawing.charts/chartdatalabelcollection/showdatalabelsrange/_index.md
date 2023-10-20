@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabelCollection.ShowDataLabelsRange
-second_title: Aspose.Words för .NET API Referens
-description: ChartDataLabelCollection fast egendom. Gör det möjligt att ange om värden från dataetikettintervallet ska visas i dataetiketterna för hela serien. Standardvärdet ärfalsk .
+linktitle: ShowDataLabelsRange
+articleTitle: ShowDataLabelsRange
+second_title: Aspose.Words för .NET
+description: ChartDataLabelCollection ShowDataLabelsRange fast egendom. Gör det möjligt att ange om värden från dataetikettintervallet ska visas i dataetiketterna för hela serien. Standardvärdet ärfalsk  i C#.
 type: docs
 weight: 90
 url: /sv/net/aspose.words.drawing.charts/chartdatalabelcollection/showdatalabelsrange/
@@ -14,14 +16,12 @@ Gör det möjligt att ange om värden från dataetikettintervallet ska visas i d
 public bool ShowDataLabelsRange { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Värdet som definierats för den här egenskapen kan åsidosättas för en individuell dataetikett med hjälp av [`ShowDataLabelsRange`](../../chartdatalabel/showdatalabelsrange/) egenskap.
 
 ### Se även
 
 * class [ChartDataLabelCollection](../)
-* namnutrymme [Aspose.Words.Drawing.Charts](../../chartdatalabelcollection/)
+* namnutrymme [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../../)
-
-

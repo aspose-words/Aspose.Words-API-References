@@ -1,9 +1,11 @@
 ---
 title: DocumentBuilder.InsertNode
-second_title: Aspose.Words für .NET-API-Referenz
-description: DocumentBuilder methode. Fügt einen Knoten vor dem Cursor ein.
+linktitle: InsertNode
+articleTitle: InsertNode
+second_title: Aspose.Words für .NET
+description: DocumentBuilder InsertNode methode. Fügt einen Knoten vor dem Cursor ein in C#.
 type: docs
-weight: 390
+weight: 380
 url: /de/net/aspose.words/documentbuilder/insertnode/
 ---
 ## DocumentBuilder.InsertNode method
@@ -14,7 +16,7 @@ Fügt einen Knoten vor dem Cursor ein.
 public void InsertNode(Node node)
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein verknüpftes Bild in ein Dokument eingefügt wird.
 
@@ -57,7 +59,5 @@ Assert.True(10000 > new FileInfo(ArtifactsDir + "Image.CreateLinkedImage.Linked.
 
 * class [Node](../../node/)
 * class [DocumentBuilder](../)
-* namensraum [Aspose.Words](../../documentbuilder/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

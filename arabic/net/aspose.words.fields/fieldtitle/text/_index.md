@@ -1,7 +1,9 @@
 ---
 title: FieldTitle.Text
-second_title: Aspose.Words لمراجع .NET API
-description: FieldTitle ملكية. الحصول على نص العنوان أو تعيينه.
+linktitle: Text
+articleTitle: Text
+second_title: Aspose.Words لـ .NET
+description: FieldTitle Text ملكية. الحصول على نص العنوان أو تعيينه في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.fields/fieldtitle/text/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldtitle/text/
 public string Text { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام حقل العنوان.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "Field.TITLE.docx");
 ### أنظر أيضا
 
 * class [FieldTitle](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldtitle/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: TxtListIndentation.Character
-second_title: Aspose.Words för .NET API Referens
-description: TxtListIndentation fast egendom. Hämtar eller ställer in vilket tecken som ska användas för indragningslistnivåer. Standardvärdet är 0 det betyder att det inte finns någon indrag.
+linktitle: Character
+articleTitle: Character
+second_title: Aspose.Words för .NET
+description: TxtListIndentation Character fast egendom. Hämtar eller ställer in vilket tecken som ska användas för indragningslistnivåer. Standardvärdet är 0 det betyder att det inte finns någon indrag i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.saving/txtlistindentation/character/
@@ -14,7 +16,7 @@ Hämtar eller ställer in vilket tecken som ska användas för indragningslistni
 public char Character { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du konfigurerar listindrag när du sparar ett dokument som klartext.
 
@@ -54,7 +56,5 @@ Assert.AreEqual("1. Item 1\r\n" +
 ### Se även
 
 * class [TxtListIndentation](../)
-* namnutrymme [Aspose.Words.Saving](../../txtlistindentation/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

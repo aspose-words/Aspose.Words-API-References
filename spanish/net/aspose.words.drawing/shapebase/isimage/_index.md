@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.IsImage
-second_title: Referencia de API de Aspose.Words para .NET
-description: ShapeBase propiedad. Devolucionesverdadero si esta forma es una forma de imagen.
+linktitle: IsImage
+articleTitle: IsImage
+second_title: Aspose.Words para .NET
+description: ShapeBase IsImage propiedad. Devolucionesverdadero si esta forma es una forma de imagen en C#.
 type: docs
 weight: 280
 url: /es/net/aspose.words.drawing/shapebase/isimage/
@@ -17,7 +19,5 @@ public bool IsImage { get; }
 ### Ver también
 
 * class [ShapeBase](../)
-* espacio de nombres [Aspose.Words.Drawing](../../shapebase/)
+* espacio de nombres [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * asamblea [Aspose.Words](../../../)
-
-

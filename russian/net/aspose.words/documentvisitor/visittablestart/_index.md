@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitTableStart
-second_title: Справочник по API Aspose.Words для .NET
-description: DocumentVisitor метод. Вызывается когда началось перечисление таблицы.
+linktitle: VisitTableStart
+articleTitle: VisitTableStart
+second_title: Aspose.Words для .NET
+description: DocumentVisitor VisitTableStart метод. Вызывается когда началось перечисление таблицы на С#.
 type: docs
 weight: 500
 url: /ru/net/aspose.words/documentvisitor/visittablestart/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitTableStart(Table table)
 
 А[`VisitorAction`](../../visitoraction/) значение, указывающее, как продолжить перечисление.
 
-### Примеры
+## Примеры
 
 Показывает, как распечатать структуру узлов каждой таблицы в документе.
 
@@ -187,7 +189,5 @@ public class TableStructurePrinter : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [Table](../../../aspose.words.tables/table/)
 * class [DocumentVisitor](../)
-* пространство имен [Aspose.Words](../../documentvisitor/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

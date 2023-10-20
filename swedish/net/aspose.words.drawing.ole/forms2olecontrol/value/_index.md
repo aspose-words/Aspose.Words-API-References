@@ -1,7 +1,9 @@
 ---
 title: Forms2OleControl.Value
-second_title: Aspose.Words för .NET API Referens
-description: Forms2OleControl fast egendom. Får underliggande värdeegenskap som ofta representerar kontrolltillstånd. Till exempel har markerad alternativknapp 1värde medan omarkerad har 0. Standardvärdet är en tom sträng.
+linktitle: Value
+articleTitle: Value
+second_title: Aspose.Words för .NET
+description: Forms2OleControl Value fast egendom. Får underliggande värdeegenskap som ofta representerar kontrolltillstånd. Till exempel har markerad alternativknapp 1värde medan omarkerad har 0. Standardvärdet är en tom sträng i C#.
 type: docs
 weight: 60
 url: /sv/net/aspose.words.drawing.ole/forms2olecontrol/value/
@@ -14,7 +16,7 @@ Får underliggande värdeegenskap som ofta representerar kontrolltillstånd. Til
 public string Value { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du verifierar egenskaperna för en ActiveX-kontroll.
 
@@ -44,7 +46,5 @@ if (oleControl.IsForms2OleControl)
 ### Se även
 
 * class [Forms2OleControl](../)
-* namnutrymme [Aspose.Words.Drawing.Ole](../../forms2olecontrol/)
+* namnutrymme [Aspose.Words.Drawing.Ole](../../../aspose.words.drawing.ole/)
 * hopsättning [Aspose.Words](../../../)
-
-

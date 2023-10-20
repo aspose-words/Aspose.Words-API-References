@@ -1,7 +1,9 @@
 ---
 title: FixedPageSaveOptions.NumeralFormat
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FixedPageSaveOptions propriété. Obtient ou définitNumeralFormat utilisé pour le rendu des chiffres. Les chiffres européens sont utilisés par défaut.
+linktitle: NumeralFormat
+articleTitle: NumeralFormat
+second_title: Aspose.Words pour .NET
+description: FixedPageSaveOptions NumeralFormat propriété. Obtient ou définitNumeralFormat utilisé pour le rendu des chiffres. Les chiffres européens sont utilisés par défaut en C#.
 type: docs
 weight: 40
 url: /fr/net/aspose.words.saving/fixedpagesaveoptions/numeralformat/
@@ -14,11 +16,11 @@ Obtient ou définit[`NumeralFormat`](../../numeralformat/) utilisé pour le rend
 public NumeralFormat NumeralFormat { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 Si la valeur de cette propriété est modifiée et que la mise en page est déjà créée, alors [`UpdatePageLayout`](../../../aspose.words/document/updatepagelayout/) est invoqué automatiquement pour mettre à jour les modifications.
 
-### Exemples
+## Exemples
 
 Montre comment définir le format numérique utilisé lors de l'enregistrement au format PDF.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.SetNumeralFormat.pdf", options);
 
 * enum [NumeralFormat](../../numeralformat/)
 * class [FixedPageSaveOptions](../)
-* espace de noms [Aspose.Words.Saving](../../fixedpagesaveoptions/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

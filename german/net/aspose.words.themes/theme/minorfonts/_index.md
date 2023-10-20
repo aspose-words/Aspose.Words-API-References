@@ -1,7 +1,9 @@
 ---
 title: Theme.MinorFonts
-second_title: Aspose.Words für .NET-API-Referenz
-description: Theme eigendom. Ermöglicht die Angabe des Satzes kleinerer Schriftarten für verschiedene Sprachen.
+linktitle: MinorFonts
+articleTitle: MinorFonts
+second_title: Aspose.Words für .NET
+description: Theme MinorFonts eigendom. Ermöglicht die Angabe des Satzes kleinerer Schriftarten für verschiedene Sprachen in C#.
 type: docs
 weight: 40
 url: /de/net/aspose.words.themes/theme/minorfonts/
@@ -14,7 +16,7 @@ Ermöglicht die Angabe des Satzes kleinerer Schriftarten für verschiedene Sprac
 public ThemeFonts MinorFonts { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie benutzerdefinierte Farben und Schriftarten für Designs festlegen.
 
@@ -63,7 +65,5 @@ doc.Save(ArtifactsDir + "Themes.CustomColorsAndFonts.docx");
 
 * class [ThemeFonts](../../themefonts/)
 * class [Theme](../)
-* namensraum [Aspose.Words.Themes](../../theme/)
+* namensraum [Aspose.Words.Themes](../../../aspose.words.themes/)
 * Montage [Aspose.Words](../../../)
-
-

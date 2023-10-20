@@ -1,7 +1,9 @@
 ---
 title: BaseWebExtensionCollection1.Count
-second_title: Aspose.Words for .NET API 参考
-description: BaseWebExtensionCollection 财产. 获取集合中包含的元素数量
+linktitle: Count
+articleTitle: Count
+second_title: 用于 .NET 的 Aspose.Words
+description: BaseWebExtensionCollection Count 财产. 获取集合中包含的元素数量 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.webextensions/basewebextensioncollection-1/count/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.webextensions/basewebextensioncollection-1/count/
 public int Count { get; }
 ```
 
-### 例子
+## 例子
 
 展示如何使用文档的 Web 扩展集合。
 
@@ -43,7 +45,5 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 ### 也可以看看
 
 * class [BaseWebExtensionCollection&lt;T&gt;](../)
-* 命名空间 [Aspose.Words.WebExtensions](../../basewebextensioncollection-1/)
+* 命名空间 [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FontFallbackSettings.LoadMsOfficeFallbackSettings
-second_title: Referencia de API de Aspose.Words para .NET
-description: FontFallbackSettings método. Carga configuraciones de respaldo predefinidas que imitan el respaldo de Microsoft Word y utilizan fuentes de Microsoft Office.
+linktitle: LoadMsOfficeFallbackSettings
+articleTitle: LoadMsOfficeFallbackSettings
+second_title: Aspose.Words para .NET
+description: FontFallbackSettings LoadMsOfficeFallbackSettings método. Carga configuraciones de respaldo predefinidas que imitan el respaldo de Microsoft Word y utilizan fuentes de Microsoft Office en C#.
 type: docs
 weight: 30
 url: /es/net/aspose.words.fonts/fontfallbacksettings/loadmsofficefallbacksettings/
@@ -14,7 +16,7 @@ Carga configuraciones de respaldo predefinidas que imitan el respaldo de Microso
 public void LoadMsOfficeFallbackSettings()
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo cargar configuraciones de fuentes alternativas predefinidas.
 
@@ -44,7 +46,5 @@ fontFallbackSettings.Save(ArtifactsDir + "FontSettings.FallbackSettings.LoadNoto
 ### Ver también
 
 * class [FontFallbackSettings](../)
-* espacio de nombres [Aspose.Words.Fonts](../../fontfallbacksettings/)
+* espacio de nombres [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * asamblea [Aspose.Words](../../../)
-
-

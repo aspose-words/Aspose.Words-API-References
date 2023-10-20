@@ -1,7 +1,9 @@
 ---
 title: MustacheTag.ReferenceRun
-second_title: Справочник по API Aspose.Words для .NET
-description: MustacheTag свойство. Получает серию содержащую начало тега.
+linktitle: ReferenceRun
+articleTitle: ReferenceRun
+second_title: Aspose.Words для .NET
+description: MustacheTag ReferenceRun свойство. Получает серию содержащую начало тега на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.mailmerging/mustachetag/referencerun/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.mailmerging/mustachetag/referencerun/
 public Run ReferenceRun { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как работать с тегами усов.
 
@@ -42,7 +44,5 @@ foreach (MailMergeRegionInfo region in hierarchy.Regions)
 
 * class [Run](../../../aspose.words/run/)
 * class [MustacheTag](../)
-* пространство имен [Aspose.Words.MailMerging](../../mustachetag/)
+* пространство имен [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * сборка [Aspose.Words](../../../)
-
-

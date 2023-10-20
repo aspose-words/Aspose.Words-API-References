@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTagRangeStart.XmlMapping
-second_title: Aspose.Words för .NET API Referens
-description: StructuredDocumentTagRangeStart fast egendom. Hämtar ett objekt som representerar mappningen av detta strukturerade dokumenttaggintervall till XML data i en anpassad XMLdel av det aktuella dokumentet.
+linktitle: XmlMapping
+articleTitle: XmlMapping
+second_title: Aspose.Words för .NET
+description: StructuredDocumentTagRangeStart XmlMapping fast egendom. Hämtar ett objekt som representerar mappningen av detta strukturerade dokumenttaggintervall till XML data i en anpassad XMLdel av det aktuella dokumentet i C#.
 type: docs
 weight: 180
 url: /sv/net/aspose.words.markup/structureddocumenttagrangestart/xmlmapping/
@@ -14,11 +16,11 @@ Hämtar ett objekt som representerar mappningen av detta strukturerade dokumentt
 public XmlMapping XmlMapping { get; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Du kan använda[`SetMapping`](../../xmlmapping/setmapping/) metod för detta objekt för att mappa ett strukturerat dokumenttaggområde till XML-data.
 
-### Exempel
+## Exempel
 
 Visar hur man ställer in XML-mappningar för intervallstarten för en strukturerad dokumenttagg.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.StructuredDocumentTagRangeStartXm
 
 * class [XmlMapping](../../xmlmapping/)
 * class [StructuredDocumentTagRangeStart](../)
-* namnutrymme [Aspose.Words.Markup](../../structureddocumenttagrangestart/)
+* namnutrymme [Aspose.Words.Markup](../../../aspose.words.markup/)
 * hopsättning [Aspose.Words](../../../)
-
-

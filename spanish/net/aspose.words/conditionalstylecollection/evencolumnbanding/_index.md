@@ -1,7 +1,9 @@
 ---
 title: ConditionalStyleCollection.EvenColumnBanding
-second_title: Referencia de API de Aspose.Words para .NET
-description: ConditionalStyleCollection propiedad. Obtiene el estilo de bandas de columnas pares.
+linktitle: EvenColumnBanding
+articleTitle: EvenColumnBanding
+second_title: Aspose.Words para .NET
+description: ConditionalStyleCollection EvenColumnBanding propiedad. Obtiene el estilo de bandas de columnas pares en C#.
 type: docs
 weight: 40
 url: /es/net/aspose.words/conditionalstylecollection/evencolumnbanding/
@@ -14,7 +16,7 @@ Obtiene el estilo de bandas de columnas pares.
 public ConditionalStyle EvenColumnBanding { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo trabajar con ciertos estilos de área de una tabla.
 
@@ -85,7 +87,5 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 
 * class [ConditionalStyle](../../conditionalstyle/)
 * class [ConditionalStyleCollection](../)
-* espacio de nombres [Aspose.Words](../../conditionalstylecollection/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

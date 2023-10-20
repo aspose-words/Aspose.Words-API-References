@@ -1,7 +1,9 @@
 ---
 title: Node.CustomNodeId
-second_title: Aspose.Words for .NET API 参考
-description: Node 财产. 指定自定义节点标识符
+linktitle: CustomNodeId
+articleTitle: CustomNodeId
+second_title: 用于 .NET 的 Aspose.Words
+description: Node CustomNodeId 财产. 指定自定义节点标识符 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words/node/customnodeid/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/node/customnodeid/
 public int CustomNodeId { get; set; }
 ```
 
-### 评论
+## 评论
 
 默认为零。
 
@@ -22,7 +24,7 @@ public int CustomNodeId { get; set; }
 
 重要提示，指定的值不会保存到输出文件中，并且仅在节点生命周期内存在。
 
-### 例子
+## 例子
 
 演示如何遍历复合节点的子节点集合。
 
@@ -67,7 +69,5 @@ foreach (Node child in children)
 ### 也可以看看
 
 * class [Node](../)
-* 命名空间 [Aspose.Words](../../node/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum LineStyle
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.LineStyle enumeración. Especifica el estilo de línea de unBorder .
+title: LineStyle Enum
+linktitle: LineStyle
+articleTitle: LineStyle
+second_title: Aspose.Words para .NET
+description: Aspose.Words.LineStyle enumeración. Especifica el estilo de línea de unBorder  en C#.
 type: docs
 weight: 3450
 url: /es/net/aspose.words/linestyle/
@@ -46,7 +48,7 @@ public enum LineStyle
 | Outset | `26` |  |
 | Inset | `27` |  |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo insertar una cadena rodeada por un borde en un documento.
 
@@ -67,5 +69,3 @@ doc.Save(ArtifactsDir + "Border.FontBorder.docx");
 
 * espacio de nombres [Aspose.Words](../../aspose.words/)
 * asamblea [Aspose.Words](../../)
-
-

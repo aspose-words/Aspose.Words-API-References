@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabelCollection.Font
-second_title: Aspose.Words for .NET API 参考
-description: ChartDataLabelCollection 财产. 提供对整个系列的数据标签的字体格式的访问
+linktitle: Font
+articleTitle: Font
+second_title: 用于 .NET 的 Aspose.Words
+description: ChartDataLabelCollection Font 财产. 提供对整个系列的数据标签的字体格式的访问 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.drawing.charts/chartdatalabelcollection/font/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.drawing.charts/chartdatalabelcollection/font/
 public Font Font { get; }
 ```
 
-### 评论
+## 评论
 
 可以使用 the 覆盖单个数据标签为此属性定义的值[`Font`](../../chartdatalabel/font/)属性.
 
-### 例子
+## 例子
 
 展示如何启用和配置图表系列的数据标签。
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "Charts.DataLabelNumberFormat.docx");
 
 * class [Font](../../../aspose.words/font/)
 * class [ChartDataLabelCollection](../)
-* 命名空间 [Aspose.Words.Drawing.Charts](../../chartdatalabelcollection/)
+* 命名空间 [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.Right
-second_title: Справочник по API Aspose.Words для .NET
-description: ShapeBase свойство. Получает позицию правого края содержащего блока фигуры.
+linktitle: Right
+articleTitle: Right
+second_title: Aspose.Words для .NET
+description: ShapeBase Right свойство. Получает позицию правого края содержащего блока фигуры на С#.
 type: docs
 weight: 460
 url: /ru/net/aspose.words.drawing/shapebase/right/
@@ -14,13 +16,13 @@ url: /ru/net/aspose.words.drawing/shapebase/right/
 public double Right { get; }
 ```
 
-### Примечания
+## Примечания
 
 Для фигуры верхнего уровня значение указывается в пунктах и относительно привязки формы.
 
 Для фигур в группе значение находится в координатном пространстве и единицах родительской группы.
 
-### Примеры
+## Примеры
 
 Показывает, как вставить плавающее изображение и указать его положение и размер.
 
@@ -57,7 +59,5 @@ doc.Save(ArtifactsDir + "Image.CreateFloatingPositionSize.docx");
 ### Смотрите также
 
 * class [ShapeBase](../)
-* пространство имен [Aspose.Words.Drawing](../../shapebase/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: TextPath.Kerning
-second_title: Aspose.Words per .NET API Reference
-description: TextPath proprietà. Determina se la crenatura è attivata.
+linktitle: Kerning
+articleTitle: Kerning
+second_title: Aspose.Words per .NET
+description: TextPath Kerning proprietà. Determina se la crenatura è attivata in C#.
 type: docs
 weight: 60
 url: /it/net/aspose.words.drawing/textpath/kerning/
@@ -14,11 +16,11 @@ Determina se la crenatura è attivata.
 public bool Kerning { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Il valore predefinito è`falso`.
 
-### Esempi
+## Esempi
 
 Mostra come lavorare con WordArt.
 
@@ -121,7 +123,5 @@ private static Shape AppendWordArt(Document doc, string text, string textFontFam
 ### Guarda anche
 
 * class [TextPath](../)
-* spazio dei nomi [Aspose.Words.Drawing](../../textpath/)
+* spazio dei nomi [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assemblea [Aspose.Words](../../../)
-
-

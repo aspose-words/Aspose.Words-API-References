@@ -1,7 +1,9 @@
 ---
 title: DocumentProperty.Type
-second_title: Aspose.Words per .NET API Reference
-description: DocumentProperty proprietà. Ottiene il tipo di dati della proprietà.
+linktitle: Type
+articleTitle: Type
+second_title: Aspose.Words per .NET
+description: DocumentProperty Type proprietà. Ottiene il tipo di dati della proprietà in C#.
 type: docs
 weight: 40
 url: /it/net/aspose.words.properties/documentproperty/type/
@@ -14,7 +16,7 @@ Ottiene il tipo di dati della proprietà.
 public PropertyType Type { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come lavorare con le proprietà del documento integrate.
 
@@ -104,7 +106,5 @@ Assert.AreEqual(0, properties.Count);
 
 * enum [PropertyType](../../propertytype/)
 * class [DocumentProperty](../)
-* spazio dei nomi [Aspose.Words.Properties](../../documentproperty/)
+* spazio dei nomi [Aspose.Words.Properties](../../../aspose.words.properties/)
 * assemblea [Aspose.Words](../../../)
-
-

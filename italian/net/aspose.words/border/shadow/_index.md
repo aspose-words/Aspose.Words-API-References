@@ -1,7 +1,9 @@
 ---
 title: Border.Shadow
-second_title: Aspose.Words per .NET API Reference
-description: Border proprietà. Ottiene o imposta un valore che indica se il bordo ha unombra.
+linktitle: Shadow
+articleTitle: Shadow
+second_title: Aspose.Words per .NET
+description: Border Shadow proprietà. Ottiene o imposta un valore che indica se il bordo ha unombra in C#.
 type: docs
 weight: 60
 url: /it/net/aspose.words/border/shadow/
@@ -14,11 +16,11 @@ Ottiene o imposta un valore che indica se il bordo ha un'ombra.
 public bool Shadow { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 In Microsoft Word, affinché un bordo abbia un'ombra, i bordi su tutti e quattro i lati (sinistro, superiore, destro e inferiore) dovrebbero essere dello stesso tipo, larghezza, colore e tutti dovrebbero avere la proprietà Ombra impostata su`VERO`.
 
-### Esempi
+## Esempi
 
 Mostra come creare un bordo verde ondulato della pagina con un'ombra.
 
@@ -38,7 +40,5 @@ doc.Save(ArtifactsDir + "PageSetup.PageBorders.docx");
 ### Guarda anche
 
 * class [Border](../)
-* spazio dei nomi [Aspose.Words](../../border/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

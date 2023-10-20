@@ -1,7 +1,9 @@
 ---
 title: RevisionCollection.AcceptAll
-second_title: Referencia de API de Aspose.Words para .NET
-description: RevisionCollection método. Acepta todas las revisiones de esta colección.
+linktitle: AcceptAll
+articleTitle: AcceptAll
+second_title: Aspose.Words para .NET
+description: RevisionCollection AcceptAll método. Acepta todas las revisiones de esta colección en C#.
 type: docs
 weight: 40
 url: /es/net/aspose.words/revisioncollection/acceptall/
@@ -14,7 +16,7 @@ Acepta todas las revisiones de esta colección.
 public void AcceptAll()
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo comparar documentos.
 
@@ -48,7 +50,5 @@ Assert.AreEqual(docOriginal.GetText(), docEdited.GetText());
 ### Ver también
 
 * class [RevisionCollection](../)
-* espacio de nombres [Aspose.Words](../../revisioncollection/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,9 +1,11 @@
 ---
 title: Table.SetBorders
-second_title: Aspose.Words per .NET API Reference
-description: Table metodo. Imposta tutti i bordi della tabella sullo stile di linea larghezza e colore specificati.
+linktitle: SetBorders
+articleTitle: SetBorders
+second_title: Aspose.Words per .NET
+description: Table SetBorders metodo. Imposta tutti i bordi della tabella sullo stile di linea larghezza e colore specificati in C#.
 type: docs
-weight: 440
+weight: 420
 url: /it/net/aspose.words.tables/table/setborders/
 ---
 ## Table.SetBorders method
@@ -20,7 +22,7 @@ public void SetBorders(LineStyle lineStyle, double lineWidth, Color color)
 | lineWidth | Double | Lo spessore della linea da impostare (in punti). |
 | color | Color | Il colore da utilizzare per il bordo. |
 
-### Esempi
+## Esempi
 
 Mostra come formattare tutti i bordi di una tabella contemporaneamente.
 
@@ -77,7 +79,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.TableBordersAndShading.docx");
 
 * enum [LineStyle](../../../aspose.words/linestyle/)
 * class [Table](../)
-* spazio dei nomi [Aspose.Words.Tables](../../table/)
+* spazio dei nomi [Aspose.Words.Tables](../../../aspose.words.tables/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Style.LinkedStyleName
-second_title: Aspose.Words for .NET API 参考
-description: Style 财产. 获取名称Style与此相关如果没有链接样式则返回空字符串
+linktitle: LinkedStyleName
+articleTitle: LinkedStyleName
+second_title: 用于 .NET 的 Aspose.Words
+description: Style LinkedStyleName 财产. 获取名称Style与此相关如果没有链接样式则返回空字符串 在 C#.
 type: docs
 weight: 90
 url: /zh/net/aspose.words/style/linkedstylename/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/style/linkedstylename/
 public string LinkedStyleName { get; }
 ```
 
-### 例子
+## 例子
 
 展示如何使用样式别名。
 
@@ -45,7 +47,5 @@ Assert.AreEqual(doc.FirstSection.Body.Paragraphs[0].ParagraphFormat.Style,
 ### 也可以看看
 
 * class [Style](../)
-* 命名空间 [Aspose.Words](../../style/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

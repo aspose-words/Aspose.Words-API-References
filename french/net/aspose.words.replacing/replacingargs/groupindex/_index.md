@@ -1,7 +1,9 @@
 ---
 title: ReplacingArgs.GroupIndex
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ReplacingArgs propriété. Identifie par index un groupe capturé dans leMatch qui doit être remplacé par leReplacement chaîne.
+linktitle: GroupIndex
+articleTitle: GroupIndex
+second_title: Aspose.Words pour .NET
+description: ReplacingArgs GroupIndex propriété. Identifie par index un groupe capturé dans leMatch qui doit être remplacé par leReplacement chaîne en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.replacing/replacingargs/groupindex/
@@ -14,13 +16,13 @@ Identifie, par index, un groupe capturé dans le[`Match`](../match/) qui doit ê
 public int GroupIndex { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 `GroupIndex`n'a d'effet que lorsque[`GroupName`](../groupname/) est`nul`.
 
 La valeur par défaut est zéro.
 
-### Exemples
+## Exemples
 
 Montre comment appliquer une police différente au nouveau contenu via FindReplaceOptions.
 
@@ -93,7 +95,5 @@ private class NumberHexer : IReplacingCallback
 ### Voir également
 
 * class [ReplacingArgs](../)
-* espace de noms [Aspose.Words.Replacing](../../replacingargs/)
+* espace de noms [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * Assemblée [Aspose.Words](../../../)
-
-

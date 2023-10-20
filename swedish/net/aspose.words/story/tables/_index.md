@@ -1,7 +1,9 @@
 ---
 title: Story.Tables
-second_title: Aspose.Words för .NET API Referens
-description: Story fast egendom. Får en samling tabeller som är omedelbara barn till berättelsen.
+linktitle: Tables
+articleTitle: Tables
+second_title: Aspose.Words för .NET
+description: Story Tables fast egendom. Får en samling tabeller som är omedelbara barn till berättelsen i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words/story/tables/
@@ -14,7 +16,7 @@ Får en samling tabeller som är omedelbara barn till berättelsen.
 public TableCollection Tables { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man tar bort den första och sista raden i alla tabeller i ett dokument.
 
@@ -40,7 +42,5 @@ Assert.AreEqual(2, tables[1].Rows.Count);
 
 * class [TableCollection](../../../aspose.words.tables/tablecollection/)
 * class [Story](../)
-* namnutrymme [Aspose.Words](../../story/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

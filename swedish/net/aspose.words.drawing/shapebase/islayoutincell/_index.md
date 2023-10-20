@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.IsLayoutInCell
-second_title: Aspose.Words för .NET API Referens
-description: ShapeBase fast egendom. Hämtar eller sätter en flagga som indikerar om formen visas inuti en tabell eller utanför den.
+linktitle: IsLayoutInCell
+articleTitle: IsLayoutInCell
+second_title: Aspose.Words för .NET
+description: ShapeBase IsLayoutInCell fast egendom. Hämtar eller sätter en flagga som indikerar om formen visas inuti en tabell eller utanför den i C#.
 type: docs
 weight: 310
 url: /sv/net/aspose.words.drawing/shapebase/islayoutincell/
@@ -14,13 +16,13 @@ Hämtar eller sätter en flagga som indikerar om formen visas inuti en tabell el
 public bool IsLayoutInCell { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Standardvärdet är`Sann`.
 
 Har effekt endast för toppnivåformer, egenskapen[`WrapType`](../wraptype/) varav är satt till värde annat än[`Inline`](../../../aspose.words/inline/).
 
-### Exempel
+## Exempel
 
 Visar hur man bestämmer hur en form ska visas i en tabellcell.
 
@@ -65,7 +67,5 @@ doc.Save(ArtifactsDir + "Shape.LayoutInTableCell.docx");
 ### Se även
 
 * class [ShapeBase](../)
-* namnutrymme [Aspose.Words.Drawing](../../shapebase/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

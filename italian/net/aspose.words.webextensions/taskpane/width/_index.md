@@ -1,7 +1,9 @@
 ---
 title: TaskPane.Width
-second_title: Aspose.Words per .NET API Reference
-description: TaskPane proprietà. Specifica il valore di larghezza predefinito per questa istanza del riquadro attività.
+linktitle: Width
+articleTitle: Width
+second_title: Aspose.Words per .NET
+description: TaskPane Width proprietà. Specifica il valore di larghezza predefinito per questa istanza del riquadro attività in C#.
 type: docs
 weight: 70
 url: /it/net/aspose.words.webextensions/taskpane/width/
@@ -14,7 +16,7 @@ Specifica il valore di larghezza predefinito per questa istanza del riquadro att
 public double Width { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come aggiungere un'estensione Web a un documento.
 
@@ -59,7 +61,5 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 ### Guarda anche
 
 * class [TaskPane](../)
-* spazio dei nomi [Aspose.Words.WebExtensions](../../taskpane/)
+* spazio dei nomi [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * assemblea [Aspose.Words](../../../)
-
-

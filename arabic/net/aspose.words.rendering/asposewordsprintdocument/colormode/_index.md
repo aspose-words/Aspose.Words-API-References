@@ -1,7 +1,9 @@
 ---
 title: AsposeWordsPrintDocument.ColorMode
-second_title: Aspose.Words لمراجع .NET API
-description: AsposeWordsPrintDocument ملكية. الحصول على أو تعيين كيفية طباعة الصفحات غير الملونة إذا كان الجهاز يدعم الطباعة الملونة.
+linktitle: ColorMode
+articleTitle: ColorMode
+second_title: Aspose.Words لـ .NET
+description: AsposeWordsPrintDocument ColorMode ملكية. الحصول على أو تعيين كيفية طباعة الصفحات غير الملونة إذا كان الجهاز يدعم الطباعة الملونة في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.rendering/asposewordsprintdocument/colormode/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.rendering/asposewordsprintdocument/colormode/
 public ColorPrintMode ColorMode { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 لا يؤثر على طباعة الكتيبات.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحديد نطاق صفحات وطابعة لطباعة المستند بها، ثم إظهار معاينة الطباعة.
 
@@ -68,7 +70,5 @@ Console.WriteLine($"The numer of pages printed in color are {awPrintDoc.ColorPag
 
 * enum [ColorPrintMode](../../colorprintmode/)
 * class [AsposeWordsPrintDocument](../)
-* مساحة الاسم [Aspose.Words.Rendering](../../asposewordsprintdocument/)
+* مساحة الاسم [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * المجسم [Aspose.Words](../../../)
-
-

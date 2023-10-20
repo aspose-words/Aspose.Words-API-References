@@ -1,26 +1,28 @@
 ---
 title: StructuredDocumentTag.FullDate
-second_title: Справочник по API Aspose.Words для .NET
-description: StructuredDocumentTag свойство. Указывает полную дату и время введенные в этот последний раз. СДТ .
+linktitle: FullDate
+articleTitle: FullDate
+second_title: Aspose.Words для .NET
+description: StructuredDocumentTag FullDate свойство. Указывает полную дату и время введенные в этот последний раз.СДТ  на С#.
 type: docs
 weight: 130
 url: /ru/net/aspose.words.markup/structureddocumenttag/fulldate/
 ---
 ## StructuredDocumentTag.FullDate property
 
-Указывает полную дату и время, введенные в этот последний раз. **СДТ** .
+Указывает полную дату и время, введенные в этот последний раз.**СДТ** .
 
 ```csharp
 public DateTime FullDate { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Доступ к этому ресурсу будет работать только дляDate Тип SDT.
 
 Для всех остальных типов SDT возникнет исключение.
 
-### Примеры
+## Примеры
 
 Показывает, как предложить пользователю ввести дату с помощью тега структурированного документа.
 
@@ -57,7 +59,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.Date.docx");
 ### Смотрите также
 
 * class [StructuredDocumentTag](../)
-* пространство имен [Aspose.Words.Markup](../../structureddocumenttag/)
+* пространство имен [Aspose.Words.Markup](../../../aspose.words.markup/)
 * сборка [Aspose.Words](../../../)
-
-

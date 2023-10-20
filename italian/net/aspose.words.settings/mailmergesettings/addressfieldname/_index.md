@@ -1,7 +1,9 @@
 ---
 title: MailMergeSettings.AddressFieldName
-second_title: Aspose.Words per .NET API Reference
-description: MailMergeSettings proprietà. Specifica la colonna allinterno dellorigine dati che contiene gli indirizzi di posta elettronica. Il valore predefinito è una stringa vuota.
+linktitle: AddressFieldName
+articleTitle: AddressFieldName
+second_title: Aspose.Words per .NET
+description: MailMergeSettings AddressFieldName proprietà. Specifica la colonna allinterno dellorigine dati che contiene gli indirizzi di posta elettronica. Il valore predefinito è una stringa vuota in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words.settings/mailmergesettings/addressfieldname/
@@ -14,7 +16,7 @@ Specifica la colonna all'interno dell'origine dati che contiene gli indirizzi di
 public string AddressFieldName { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come eseguire una stampa unione durante la connessione a un'origine dati esterna.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "MailMerge.OdsoEmail.docx");
 ### Guarda anche
 
 * class [MailMergeSettings](../)
-* spazio dei nomi [Aspose.Words.Settings](../../mailmergesettings/)
+* spazio dei nomi [Aspose.Words.Settings](../../../aspose.words.settings/)
 * assemblea [Aspose.Words](../../../)
-
-

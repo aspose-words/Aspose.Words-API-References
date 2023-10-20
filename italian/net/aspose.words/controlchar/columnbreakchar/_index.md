@@ -1,7 +1,9 @@
 ---
 title: ControlChar.ColumnBreakChar
-second_title: Aspose.Words per .NET API Reference
-description: ControlChar campo. Carattere di fine colonna char14.
+linktitle: ColumnBreakChar
+articleTitle: ColumnBreakChar
+second_title: Aspose.Words per .NET
+description: ControlChar ColumnBreakChar campo. Carattere di fine colonna char14 in C#.
 type: docs
 weight: 40
 url: /it/net/aspose.words/controlchar/columnbreakchar/
@@ -14,7 +16,7 @@ Carattere di fine colonna: (char)14.
 public const char ColumnBreakChar;
 ```
 
-### Esempi
+## Esempi
 
 Mostra come aggiungere vari caratteri di controllo a un documento.
 
@@ -86,7 +88,5 @@ Assert.AreEqual(Convert.ToChar(ControlChar.ColumnBreak), ControlChar.ColumnBreak
 ### Guarda anche
 
 * class [ControlChar](../)
-* spazio dei nomi [Aspose.Words](../../controlchar/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

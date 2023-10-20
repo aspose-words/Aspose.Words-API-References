@@ -1,7 +1,9 @@
 ---
 title: GradientStop.Transparency
-second_title: Aspose.Words per .NET API Reference
-description: GradientStop proprietà. Ottiene o imposta un valore che rappresenta la trasparenza del riempimento sfumato espresso come percentuale nellintervallo compreso tra 00 e 10.
+linktitle: Transparency
+articleTitle: Transparency
+second_title: Aspose.Words per .NET
+description: GradientStop Transparency proprietà. Ottiene o imposta un valore che rappresenta la trasparenza del riempimento sfumato espresso come percentuale nellintervallo compreso tra 00 e 10 in C#.
 type: docs
 weight: 50
 url: /it/net/aspose.words.drawing/gradientstop/transparency/
@@ -14,7 +16,7 @@ Ottiene o imposta un valore che rappresenta la trasparenza del riempimento sfuma
 public double Transparency { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come aggiungere interruzioni sfumatura al riempimento sfumatura.
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "Shape.GradientStops.docx", saveOptions);
 ### Guarda anche
 
 * class [GradientStop](../)
-* spazio dei nomi [Aspose.Words.Drawing](../../gradientstop/)
+* spazio dei nomi [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assemblea [Aspose.Words](../../../)
-
-

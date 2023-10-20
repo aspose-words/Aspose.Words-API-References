@@ -1,7 +1,9 @@
 ---
 title: Font.ClearFormatting
-second_title: Referencia de API de Aspose.Words para .NET
-description: Font método. Restablece el formato de fuente predeterminado.
+linktitle: ClearFormatting
+articleTitle: ClearFormatting
+second_title: Aspose.Words para .NET
+description: Font ClearFormatting método. Restablece el formato de fuente predeterminado en C#.
 type: docs
 weight: 550
 url: /es/net/aspose.words/font/clearformatting/
@@ -14,11 +16,11 @@ Restablece el formato de fuente predeterminado.
 public void ClearFormatting()
 ```
 
-### Observaciones
+## Observaciones
 
 Elimina todo el formato de fuente especificado explícitamente en el objeto del cual [`Font`](../) se obtuvo por lo que el formato de fuente se heredará de el padre apropiado.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo insertar un campo de hipervínculo.
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertHyperlink.docx");
 ### Ver también
 
 * class [Font](../)
-* espacio de nombres [Aspose.Words](../../font/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

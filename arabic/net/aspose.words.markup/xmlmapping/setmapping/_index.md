@@ -1,7 +1,9 @@
 ---
 title: XmlMapping.SetMapping
-second_title: Aspose.Words لمراجع .NET API
-description: XmlMapping طريقة. يعين تعيينًا بين علامة المستند الهيكلية الأصلية وعقدة XML لجزء بيانات XML مخصص.
+linktitle: SetMapping
+articleTitle: SetMapping
+second_title: Aspose.Words لـ .NET
+description: XmlMapping SetMapping طريقة. يعين تعيينًا بين علامة المستند الهيكلية الأصلية وعقدة XML لجزء بيانات XML مخصص في C#.
 type: docs
 weight: 70
 url: /ar/net/aspose.words.markup/xmlmapping/setmapping/
@@ -24,7 +26,7 @@ public bool SetMapping(CustomXmlPart customXmlPart, string xPath, string prefixM
 
 علامة تشير إلى ما إذا كان قد تم تعيين علامة المستند المنظمة الأصلية بنجاح إلى عقدة XML .
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء علامة مستند منظمة باستخدام بيانات XML المخصصة.
 
@@ -92,7 +94,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.CustomXml.docx");
 
 * class [CustomXmlPart](../../customxmlpart/)
 * class [XmlMapping](../)
-* مساحة الاسم [Aspose.Words.Markup](../../xmlmapping/)
+* مساحة الاسم [Aspose.Words.Markup](../../../aspose.words.markup/)
 * المجسم [Aspose.Words](../../../)
-
-

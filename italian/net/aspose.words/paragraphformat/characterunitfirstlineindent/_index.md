@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.CharacterUnitFirstLineIndent
-second_title: Aspose.Words per .NET API Reference
-description: ParagraphFormat proprietà. Ottiene o imposta il valore in caratteri per il rientro sporgente o della prima riga.
+linktitle: CharacterUnitFirstLineIndent
+articleTitle: CharacterUnitFirstLineIndent
+second_title: Aspose.Words per .NET
+description: ParagraphFormat CharacterUnitFirstLineIndent proprietà. Ottiene o imposta il valore in caratteri per il rientro sporgente o della prima riga in C#.
 type: docs
 weight: 70
 url: /it/net/aspose.words/paragraphformat/characterunitfirstlineindent/
@@ -16,7 +18,7 @@ Utilizza valori positivi per impostare il rientro della prima riga e valori nega
 public double CharacterUnitFirstLineIndent { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come modificare la spaziatura e i rientri dei paragrafi.
 
@@ -70,7 +72,5 @@ builder.Write("测试文档测试文档测试文档测试文档测试文档测�
 ### Guarda anche
 
 * class [ParagraphFormat](../)
-* spazio dei nomi [Aspose.Words](../../paragraphformat/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

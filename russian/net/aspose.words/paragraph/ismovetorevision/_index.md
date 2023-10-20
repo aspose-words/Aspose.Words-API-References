@@ -1,7 +1,9 @@
 ---
 title: Paragraph.IsMoveToRevision
-second_title: Справочник по API Aspose.Words для .NET
-description: Paragraph свойство. Возвращаетистинный если этот объект был перемещен вставлен в Microsoft Word при включенном отслеживании изменений.
+linktitle: IsMoveToRevision
+articleTitle: IsMoveToRevision
+second_title: Aspose.Words для .NET
+description: Paragraph IsMoveToRevision свойство. Возвращаетистинный если этот объект был перемещен вставлен в Microsoft Word при включенном отслеживании изменений на С#.
 type: docs
 weight: 140
 url: /ru/net/aspose.words/paragraph/ismovetorevision/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/paragraph/ismovetorevision/
 public bool IsMoveToRevision { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как проверить, является ли абзац измененной версией.
 
@@ -48,7 +50,5 @@ Assert.True(paragraphs[3].IsMoveToRevision);
 ### Смотрите также
 
 * class [Paragraph](../)
-* пространство имен [Aspose.Words](../../paragraph/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

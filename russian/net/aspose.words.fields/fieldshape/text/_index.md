@@ -1,7 +1,9 @@
 ---
 title: FieldShape.Text
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldShape свойство. Получает или задает извлекаемый текст.
+linktitle: Text
+articleTitle: Text
+second_title: Aspose.Words для .NET
+description: FieldShape Text свойство. Получает или задает извлекаемый текст на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.fields/fieldshape/text/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldshape/text/
 public string Text { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как создавать совместимые с языками списки с письмом справа налево с полями BIDIOUTLINE.
 
@@ -83,7 +85,5 @@ Assert.AreEqual(ShapeType.OleObject, shape.ShapeType);
 ### Смотрите также
 
 * class [FieldShape](../)
-* пространство имен [Aspose.Words.Fields](../../fieldshape/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

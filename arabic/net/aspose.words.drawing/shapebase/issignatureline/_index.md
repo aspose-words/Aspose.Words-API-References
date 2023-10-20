@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.IsSignatureLine
-second_title: Aspose.Words لمراجع .NET API
-description: ShapeBase ملكية. يشير إلى أن الشكل هو أSignatureLine .
+linktitle: IsSignatureLine
+articleTitle: IsSignatureLine
+second_title: Aspose.Words لـ .NET
+description: ShapeBase IsSignatureLine ملكية. يشير إلى أن الشكل هو أSignatureLine  في C#.
 type: docs
 weight: 340
 url: /ar/net/aspose.words.drawing/shapebase/issignatureline/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing/shapebase/issignatureline/
 public bool IsSignatureLine { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء سطر للتوقيع وإدراجه في مستند.
 
@@ -59,7 +61,5 @@ doc.Save(ArtifactsDir + "Shape.SignatureLine.docx");
 ### أنظر أيضا
 
 * class [ShapeBase](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../shapebase/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

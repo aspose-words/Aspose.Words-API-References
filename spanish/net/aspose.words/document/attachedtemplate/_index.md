@@ -1,7 +1,9 @@
 ---
 title: Document.AttachedTemplate
-second_title: Referencia de API de Aspose.Words para .NET
-description: Document propiedad. Obtiene o establece la ruta completa de la plantilla adjunta al documento.
+linktitle: AttachedTemplate
+articleTitle: AttachedTemplate
+second_title: Aspose.Words para .NET
+description: Document AttachedTemplate propiedad. Obtiene o establece la ruta completa de la plantilla adjunta al documento en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words/document/attachedtemplate/
@@ -20,11 +22,11 @@ public string AttachedTemplate { get; set; }
 | --- | --- |
 | ArgumentNullException | Se lanza si intenta establecer un`nulo` valor. |
 
-### Observaciones
+## Observaciones
 
 Cadena vacía significa que el documento está adjunto a la plantilla Normal.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo configurar una plantilla predeterminada para documentos que no tienen plantillas adjuntas.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "Document.DefaultTemplate.docx", options);
 ### Ver también
 
 * class [Document](../)
-* espacio de nombres [Aspose.Words](../../document/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

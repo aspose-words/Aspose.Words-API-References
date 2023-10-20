@@ -1,7 +1,9 @@
 ---
 title: MailMergeRegionInfo.ParentRegion
-second_title: Aspose.Words per .NET API Reference
-description: MailMergeRegionInfo proprietà. Restituisce le informazioni sulla regione principale null per la regione di primo livello.
+linktitle: ParentRegion
+articleTitle: ParentRegion
+second_title: Aspose.Words per .NET
+description: MailMergeRegionInfo ParentRegion proprietà. Restituisce le informazioni sulla regione principale null per la regione di primo livello in C#.
 type: docs
 weight: 70
 url: /it/net/aspose.words.mailmerging/mailmergeregioninfo/parentregion/
@@ -14,7 +16,7 @@ Restituisce le informazioni sulla regione principale (null per la regione di pri
 public MailMergeRegionInfo ParentRegion { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come creare, elencare e leggere le aree di stampa unione.
 
@@ -69,7 +71,5 @@ Assert.AreEqual("Column2", mergeFieldNames[0]);
 ### Guarda anche
 
 * class [MailMergeRegionInfo](../)
-* spazio dei nomi [Aspose.Words.MailMerging](../../mailmergeregioninfo/)
+* spazio dei nomi [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * assemblea [Aspose.Words](../../../)
-
-

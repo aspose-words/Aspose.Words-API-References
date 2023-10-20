@@ -1,7 +1,9 @@
 ---
 title: BorderCollection.Right
-second_title: Aspose.Words für .NET-API-Referenz
-description: BorderCollection eigendom. Ermittelt den richtigen Rand.
+linktitle: Right
+articleTitle: Right
+second_title: Aspose.Words für .NET
+description: BorderCollection Right eigendom. Ermittelt den richtigen Rand in C#.
 type: docs
 weight: 100
 url: /de/net/aspose.words/bordercollection/right/
@@ -14,7 +16,7 @@ Ermittelt den richtigen Rand.
 public Border Right { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie beim Erstellen einer Tabelle Rahmen- und Schattierungsfarben anwenden.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.TableBordersAndShading.docx");
 
 * class [Border](../../border/)
 * class [BorderCollection](../)
-* namensraum [Aspose.Words](../../bordercollection/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

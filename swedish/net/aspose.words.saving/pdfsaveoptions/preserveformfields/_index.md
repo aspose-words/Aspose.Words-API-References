@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.PreserveFormFields
-second_title: Aspose.Words för .NET API Referens
-description: PdfSaveOptions fast egendom. Anger om Microsoft Wordformulärfält ska bevaras som formulärfält i PDF eller konvertera dem till text. Standard ärfalsk .
+linktitle: PreserveFormFields
+articleTitle: PreserveFormFields
+second_title: Aspose.Words för .NET
+description: PdfSaveOptions PreserveFormFields fast egendom. Anger om Microsoft Wordformulärfält ska bevaras som formulärfält i PDF eller konvertera dem till text. Standard ärfalsk  i C#.
 type: docs
 weight: 270
 url: /sv/net/aspose.words.saving/pdfsaveoptions/preserveformfields/
@@ -14,7 +16,7 @@ Anger om Microsoft Word-formulärfält ska bevaras som formulärfält i PDF elle
 public bool PreserveFormFields { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Microsoft Word-formulärfält inkluderar textinmatning, rullgardinsmeny och kryssrutor.
 
@@ -28,7 +30,7 @@ Redigerbara formulär är förbjudna av PDF/A-kompatibilitet.`falsk` värde komm
 
 Formulärfält stöds inte när du sparar till PDF/UA.`falsk` värdet kommer att användas automatiskt.
 
-### Exempel
+## Exempel
 
 Visar hur man sparar ett dokument i PDF-format med hjälp av metoden Spara och klassen PdfSaveOptions.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.PreserveFormFields.pdf", pdfOptions);
 ### Se även
 
 * class [PdfSaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../pdfsaveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

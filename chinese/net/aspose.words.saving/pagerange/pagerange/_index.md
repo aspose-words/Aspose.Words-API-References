@@ -1,7 +1,9 @@
 ---
-title: PageRange.PageRange
-second_title: Aspose.Words for .NET API 参考
-description: PageRange 构造函数. 创建一个新的页面范围对象
+title: PageRange
+linktitle: PageRange
+articleTitle: PageRange
+second_title: 用于 .NET 的 Aspose.Words
+description: PageRange 构造函数. 创建一个新的页面范围对象 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.saving/pagerange/pagerange/
@@ -19,11 +21,11 @@ public PageRange(int from, int to)
 | from | Int32 | 起始页从零开始的索引。 |
 | to | Int32 | 结束页从零开始的索引。 如果它超出文档中最后一页的索引，则 将被截断以适合渲染时的文档。 |
 
-### 评论
+## 评论
 
 MaxValue表示文档中的最后一页。
 
-### 例子
+## 例子
 
 展示如何根据确切的页面范围提取页面。
 
@@ -41,7 +43,5 @@ doc.Save(ArtifactsDir + "ImageSaveOptions.ExportVariousPageRanges.tiff", imageOp
 ### 也可以看看
 
 * class [PageRange](../)
-* 命名空间 [Aspose.Words.Saving](../../pagerange/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

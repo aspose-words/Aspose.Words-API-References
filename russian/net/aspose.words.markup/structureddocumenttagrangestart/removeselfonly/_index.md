@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTagRangeStart.RemoveSelfOnly
-second_title: Справочник по API Aspose.Words для .NET
-description: StructuredDocumentTagRangeStart метод. Удаляет этот начальный и конечный узлы диапазона из тега структурированного документа  но сохраняет его содержимое внутри дерева документа.
+linktitle: RemoveSelfOnly
+articleTitle: RemoveSelfOnly
+second_title: Aspose.Words для .NET
+description: StructuredDocumentTagRangeStart RemoveSelfOnly метод. Удаляет этот начальный и конечный узлы диапазона из тега структурированного документа  но сохраняет его содержимое внутри дерева документа на С#.
 type: docs
 weight: 240
 url: /ru/net/aspose.words.markup/structureddocumenttagrangestart/removeselfonly/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.markup/structureddocumenttagrangestart/removeselfonly/
 public void RemoveSelfOnly()
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как создать/удалить тег структурированного документа и его содержимое.
 
@@ -66,7 +68,5 @@ public void InsertStructuredDocumentTagRanges(Document doc, out StructuredDocume
 ### Смотрите также
 
 * class [StructuredDocumentTagRangeStart](../)
-* пространство имен [Aspose.Words.Markup](../../structureddocumenttagrangestart/)
+* пространство имен [Aspose.Words.Markup](../../../aspose.words.markup/)
 * сборка [Aspose.Words](../../../)
-
-

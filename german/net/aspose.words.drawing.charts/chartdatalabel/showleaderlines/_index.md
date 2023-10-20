@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabel.ShowLeaderLines
-second_title: Aspose.Words für .NET-API-Referenz
-description: ChartDataLabel eigendom. Ermöglicht die Angabe ob Führungslinien für Datenbeschriftungen angezeigt werden müssen. Der Standardwert istFALSCH .
+linktitle: ShowLeaderLines
+articleTitle: ShowLeaderLines
+second_title: Aspose.Words für .NET
+description: ChartDataLabel ShowLeaderLines eigendom. Ermöglicht die Angabe ob Führungslinien für Datenbeschriftungen angezeigt werden müssen. Der Standardwert istFALSCH  in C#.
 type: docs
 weight: 110
 url: /de/net/aspose.words.drawing.charts/chartdatalabel/showleaderlines/
@@ -14,11 +16,11 @@ Ermöglicht die Angabe, ob Führungslinien für Datenbeschriftungen angezeigt we
 public bool ShowLeaderLines { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Gilt nur für Kreisdiagramme. Führungslinien stellen eine visuelle Verbindung zwischen einer Datenbeschriftung und dem entsprechenden Datenpunkt her.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Beschriftungen auf Datenpunkte in einem Liniendiagramm angewendet werden.
 
@@ -96,7 +98,5 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
 ### Siehe auch
 
 * class [ChartDataLabel](../)
-* namensraum [Aspose.Words.Drawing.Charts](../../chartdatalabel/)
+* namensraum [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../../)
-
-

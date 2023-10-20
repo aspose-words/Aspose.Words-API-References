@@ -1,7 +1,9 @@
 ---
-title: DocumentBuilder.DocumentBuilder
-second_title: Aspose.Words for .NET API 参考
-description: DocumentBuilder 构造函数. 初始化此类的新实例
+title: DocumentBuilder
+linktitle: DocumentBuilder
+articleTitle: DocumentBuilder
+second_title: 用于 .NET 的 Aspose.Words
+description: DocumentBuilder 构造函数. 初始化此类的新实例 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words/documentbuilder/documentbuilder/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words/documentbuilder/documentbuilder/
 public DocumentBuilder()
 ```
 
-### 评论
+## 评论
 
 创建一个新的[`DocumentBuilder`](../)对象并将其附加到新的[`Document`](../../document/)对象.
 
-### 例子
+## 例子
 
 演示如何使用 DocumentBuilder 插入格式化文本。
 
@@ -40,12 +42,12 @@ builder.Write("Hello world!");
 ### 也可以看看
 
 * class [DocumentBuilder](../)
-* 命名空间 [Aspose.Words](../../documentbuilder/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## DocumentBuilder(Document) {#constructor_1}
+## DocumentBuilder(*[Document](../../document/)*) {#constructor_1}
 
 初始化此类的新实例。
 
@@ -57,11 +59,11 @@ public DocumentBuilder(Document doc)
 | --- | --- | --- |
 | doc | Document | 这[`Document`](../../document/)要附加到的对象。 |
 
-### 评论
+## 评论
 
 创建一个新的[`DocumentBuilder`](../)对象，附加到指定的[`Document`](../../document/)object. 光标位于文档的开头。
 
-### 例子
+## 例子
 
 演示如何使用 DocumentBuilder 在文档中创建页眉和页脚。
 
@@ -142,7 +144,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertToc.docx");
 
 * class [Document](../../document/)
 * class [DocumentBuilder](../)
-* 命名空间 [Aspose.Words](../../documentbuilder/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum EmphasisMark
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.EmphasisMark énumération. Spécifie les types possibles de marque daccentuation.
+title: EmphasisMark Enum
+linktitle: EmphasisMark
+articleTitle: EmphasisMark
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.EmphasisMark énumération. Spécifie les types possibles de marque daccentuation en C#.
 type: docs
 weight: 1460
 url: /fr/net/aspose.words/emphasismark/
@@ -24,7 +26,7 @@ public enum EmphasisMark
 | OverWhiteCircle | `3` | La marque d'accentuation est un cercle blanc vide affiché au-dessus du texte. |
 | UnderSolidCircle | `4` | La marque d'accentuation est un cercle noir plein affiché sous le texte. |
 
-### Exemples
+## Exemples
 
 Montre comment ajouter un caractère supplémentaire rendu au-dessus/en dessous du caractère glyphe.
 
@@ -47,5 +49,3 @@ builder.Document.Save(ArtifactsDir + "Fonts.SetEmphasisMark.docx");
 
 * espace de noms [Aspose.Words](../../aspose.words/)
 * Assemblée [Aspose.Words](../../)
-
-

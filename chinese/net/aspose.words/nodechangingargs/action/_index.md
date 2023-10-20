@@ -1,7 +1,9 @@
 ---
 title: NodeChangingArgs.Action
-second_title: Aspose.Words for .NET API 参考
-description: NodeChangingArgs 财产. 获取一个值该值指示正在发生什么类型的节点更改事件
+linktitle: Action
+articleTitle: Action
+second_title: 用于 .NET 的 Aspose.Words
+description: NodeChangingArgs Action 财产. 获取一个值该值指示正在发生什么类型的节点更改事件 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words/nodechangingargs/action/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/nodechangingargs/action/
 public NodeChangingAction Action { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何在编辑文档树时使用 NodeChangingCallback 实时监视文档树的更改。
 
@@ -90,7 +92,5 @@ private class NodeChangingPrinter : INodeChangingCallback
 
 * enum [NodeChangingAction](../../nodechangingaction/)
 * class [NodeChangingArgs](../)
-* 命名空间 [Aspose.Words](../../nodechangingargs/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

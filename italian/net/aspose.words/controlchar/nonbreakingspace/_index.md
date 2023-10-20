@@ -1,7 +1,9 @@
 ---
 title: ControlChar.NonBreakingSpace
-second_title: Aspose.Words per .NET API Reference
-description: ControlChar campo. Spazio unificatore x00a0.
+linktitle: NonBreakingSpace
+articleTitle: NonBreakingSpace
+second_title: Aspose.Words per .NET
+description: ControlChar NonBreakingSpace campo. Spazio unificatore x00a0 in C#.
 type: docs
 weight: 170
 url: /it/net/aspose.words/controlchar/nonbreakingspace/
@@ -14,7 +16,7 @@ Spazio unificatore: "\x00a0".
 public static readonly string NonBreakingSpace;
 ```
 
-### Esempi
+## Esempi
 
 Mostra come aggiungere vari caratteri di controllo a un documento.
 
@@ -86,7 +88,5 @@ Assert.AreEqual(Convert.ToChar(ControlChar.ColumnBreak), ControlChar.ColumnBreak
 ### Guarda anche
 
 * class [ControlChar](../)
-* spazio dei nomi [Aspose.Words](../../controlchar/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

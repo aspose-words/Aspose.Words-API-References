@@ -1,7 +1,9 @@
 ---
 title: FontSavingArgs.KeepFontStreamOpen
-second_title: Aspose.Words för .NET API Referens
-description: FontSavingArgs fast egendom. Anger om Aspose.Words ska hålla strömmen öppen eller stänga den efter att ha sparat ett teckensnitt.
+linktitle: KeepFontStreamOpen
+articleTitle: KeepFontStreamOpen
+second_title: Aspose.Words för .NET
+description: FontSavingArgs KeepFontStreamOpen fast egendom. Anger om Aspose.Words ska hålla strömmen öppen eller stänga den efter att ha sparat ett teckensnitt i C#.
 type: docs
 weight: 90
 url: /sv/net/aspose.words.saving/fontsavingargs/keepfontstreamopen/
@@ -14,11 +16,11 @@ Anger om Aspose.Words ska hålla strömmen öppen eller stänga den efter att ha
 public bool KeepFontStreamOpen { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Standard är`falsk` och Aspose.Words kommer att stänga strömmen du angav i[`FontStream`](../fontstream/) egenskap efter att ha skrivit ett teckensnitt i den. Specificera`Sann` för att hålla strömmen öppen.
 
-### Exempel
+## Exempel
 
 Visar hur man definierar anpassad logik för att exportera teckensnitt när man sparar till HTML.
 
@@ -78,7 +80,5 @@ public class HandleFontSaving : IFontSavingCallback
 ### Se även
 
 * class [FontSavingArgs](../)
-* namnutrymme [Aspose.Words.Saving](../../fontsavingargs/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

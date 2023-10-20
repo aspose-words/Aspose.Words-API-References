@@ -1,7 +1,9 @@
 ---
-title: Class ImportFormatOptions
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.ImportFormatOptions clase. Permite especificar varias opciones de importación para formatear la salida.
+title: ImportFormatOptions Class
+linktitle: ImportFormatOptions
+articleTitle: ImportFormatOptions
+second_title: Aspose.Words para .NET
+description: Aspose.Words.ImportFormatOptions clase. Permite especificar varias opciones de importación para formatear la salida en C#.
 type: docs
 weight: 3240
 url: /es/net/aspose.words/importformatoptions/
@@ -34,7 +36,7 @@ public class ImportFormatOptions
 | [MergePastedLists](../../aspose.words/importformatoptions/mergepastedlists/) { get; set; } | Obtiene o establece un valor booleano que especifica si las listas pegadas se fusionarán con las listas circundantes. El valor predeterminado es`FALSO` . |
 | [SmartStyleBehavior](../../aspose.words/importformatoptions/smartstylebehavior/) { get; set; } | Obtiene o establece un valor booleano que especifica cómo se importarán los estilos cuando tienen nombres iguales en los documentos de origen y de destino. El valor predeterminado es`FALSO` . |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo resolver estilos duplicados al insertar documentos.
 
@@ -70,5 +72,3 @@ dstDoc.Save(ArtifactsDir + "DocumentBuilder.SmartStyleBehavior.docx");
 
 * espacio de nombres [Aspose.Words](../../aspose.words/)
 * asamblea [Aspose.Words](../../)
-
-

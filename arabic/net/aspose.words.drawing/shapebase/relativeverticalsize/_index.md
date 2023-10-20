@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.RelativeVerticalSize
-second_title: Aspose.Words لمراجع .NET API
-description: ShapeBase ملكية. الحصول على أو تعيين قيمة الحجم النسبي للشكل في الاتجاه الرأسي.
+linktitle: RelativeVerticalSize
+articleTitle: RelativeVerticalSize
+second_title: Aspose.Words لـ .NET
+description: ShapeBase RelativeVerticalSize ملكية. الحصول على أو تعيين قيمة الحجم النسبي للشكل في الاتجاه الرأسي في C#.
 type: docs
 weight: 450
 url: /ar/net/aspose.words.drawing/shapebase/relativeverticalsize/
@@ -14,13 +16,13 @@ url: /ar/net/aspose.words.drawing/shapebase/relativeverticalsize/
 public RelativeVerticalSize RelativeVerticalSize { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 القيمة الافتراضية هيMargin.
 
 ليس له تأثير إلا إذا[`HeightRelative`](../heightrelative/) تم تعيينه.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية ضبط الحجم والموضع النسبي.
 
@@ -76,7 +78,5 @@ doc.Save(ArtifactsDir + "Shape.RelativeSizeAndPosition.docx");
 
 * enum [RelativeVerticalSize](../../relativeverticalsize/)
 * class [ShapeBase](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../shapebase/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

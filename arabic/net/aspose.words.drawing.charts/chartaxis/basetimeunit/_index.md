@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.BaseTimeUnit
-second_title: Aspose.Words لمراجع .NET API
-description: ChartAxis ملكية. إرجاع أو تعيين أصغر وحدة زمنية ممثلة في محور الفئة الزمنية.
+linktitle: BaseTimeUnit
+articleTitle: BaseTimeUnit
+second_title: Aspose.Words لـ .NET
+description: ChartAxis BaseTimeUnit ملكية. إرجاع أو تعيين أصغر وحدة زمنية ممثلة في محور الفئة الزمنية في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.drawing.charts/chartaxis/basetimeunit/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.drawing.charts/chartaxis/basetimeunit/
 public AxisTimeUnit BaseTimeUnit { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 الخاصية لها تأثير فقط على محاور الفئات الزمنية.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج مخطط بقيم التاريخ/الوقت.
 
@@ -73,7 +75,5 @@ doc.Save(ArtifactsDir + "Charts.DateTimeValues.docx");
 
 * enum [AxisTimeUnit](../../axistimeunit/)
 * class [ChartAxis](../)
-* مساحة الاسم [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* مساحة الاسم [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../../)
-
-

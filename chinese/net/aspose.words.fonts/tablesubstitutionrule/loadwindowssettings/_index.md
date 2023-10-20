@@ -1,7 +1,9 @@
 ---
 title: TableSubstitutionRule.LoadWindowsSettings
-second_title: Aspose.Words for .NET API 参考
-description: TableSubstitutionRule 方法. 加载 Windows 平台的预定义表替换设置
+linktitle: LoadWindowsSettings
+articleTitle: LoadWindowsSettings
+second_title: 用于 .NET 的 Aspose.Words
+description: TableSubstitutionRule LoadWindowsSettings 方法. 加载 Windows 平台的预定义表替换设置 在 C#.
 type: docs
 weight: 60
 url: /zh/net/aspose.words.fonts/tablesubstitutionrule/loadwindowssettings/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fonts/tablesubstitutionrule/loadwindowssettings/
 public void LoadWindowsSettings()
 ```
 
-### 例子
+## 例子
 
 演示如何访问 Windows 和 Linux 的字体替换表。
 
@@ -53,7 +55,5 @@ using (FileStream fileStream = new FileStream(ArtifactsDir + "FontSettings.Table
 ### 也可以看看
 
 * class [TableSubstitutionRule](../)
-* 命名空间 [Aspose.Words.Fonts](../../tablesubstitutionrule/)
+* 命名空间 [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * 部件 [Aspose.Words](../../../)
-
-

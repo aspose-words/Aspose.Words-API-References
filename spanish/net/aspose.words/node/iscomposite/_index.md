@@ -1,7 +1,9 @@
 ---
 title: Node.IsComposite
-second_title: Referencia de API de Aspose.Words para .NET
-description: Node propiedad. Devolucionesverdadero si este nodo puede contener otros nodos.
+linktitle: IsComposite
+articleTitle: IsComposite
+second_title: Aspose.Words para .NET
+description: Node IsComposite propiedad. Devolucionesverdadero si este nodo puede contener otros nodos en C#.
 type: docs
 weight: 30
 url: /es/net/aspose.words/node/iscomposite/
@@ -18,7 +20,7 @@ public virtual bool IsComposite { get; }
 
 Este método regresa`FALSO` como[`Node`](../) no puede tener nodos secundarios.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo recorrer el árbol de nodos secundarios de un nodo compuesto.
 
@@ -65,7 +67,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 ### Ver también
 
 * class [Node](../)
-* espacio de nombres [Aspose.Words](../../node/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,9 +1,11 @@
 ---
 title: OfficeMath.GetMathRenderer
-second_title: Aspose.Words لمراجع .NET API
-description: OfficeMath طريقة. إنشاء وإرجاع كائن يمكن استخدامه لتحويل هذه المعادلة إلى صورة.
+linktitle: GetMathRenderer
+articleTitle: GetMathRenderer
+second_title: Aspose.Words لـ .NET
+description: OfficeMath GetMathRenderer طريقة. إنشاء وإرجاع كائن يمكن استخدامه لتحويل هذه المعادلة إلى صورة في C#.
 type: docs
-weight: 90
+weight: 70
 url: /ar/net/aspose.words.math/officemath/getmathrenderer/
 ---
 ## OfficeMath.GetMathRenderer method
@@ -18,11 +20,11 @@ public OfficeMathRenderer GetMathRenderer()
 
 كائن العارض لهذه المعادلة.
 
-### ملاحظات
+## ملاحظات
 
 هذه الطريقة تستدعي فقط[`OfficeMathRenderer`](../../../aspose.words.rendering/officemathrenderer/) منشئ ويمرر هذا الكائن كمعلمة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تقديم كائن Office Math إلى ملف صورة في نظام الملفات المحلي.
 
@@ -45,7 +47,5 @@ math.GetMathRenderer().Save(ArtifactsDir + "Shape.RenderOfficeMath.png", saveOpt
 
 * class [OfficeMathRenderer](../../../aspose.words.rendering/officemathrenderer/)
 * class [OfficeMath](../)
-* مساحة الاسم [Aspose.Words.Math](../../officemath/)
+* مساحة الاسم [Aspose.Words.Math](../../../aspose.words.math/)
 * المجسم [Aspose.Words](../../../)
-
-

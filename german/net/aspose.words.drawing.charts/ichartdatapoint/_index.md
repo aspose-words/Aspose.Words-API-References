@@ -1,7 +1,9 @@
 ---
-title: Interface IChartDataPoint
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Drawing.Charts.IChartDataPoint koppel. Enthält Eigenschaften eines einzelnen Datenpunkts im Diagramm.
+title: IChartDataPoint Interface
+linktitle: IChartDataPoint
+articleTitle: IChartDataPoint
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Drawing.Charts.IChartDataPoint koppel. Enthält Eigenschaften eines einzelnen Datenpunkts im Diagramm in C#.
 type: docs
 weight: 900
 url: /de/net/aspose.words.drawing.charts/ichartdatapoint/
@@ -23,7 +25,7 @@ public interface IChartDataPoint
 | [InvertIfNegative](../../aspose.words.drawing.charts/ichartdatapoint/invertifnegative/) { get; set; } | Gibt an, ob das übergeordnete Element seine Farben invertieren soll, wenn der Wert negativ ist. |
 | [Marker](../../aspose.words.drawing.charts/ichartdatapoint/marker/) { get; } | Gibt einen Datenmarker an. Marker wird bei Anforderung automatisch erstellt. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit Datenpunkten in einem Liniendiagramm gearbeitet wird.
 
@@ -86,5 +88,3 @@ private static void ApplyDataPoints(ChartSeries series, int dataPointsCount, Mar
 
 * namensraum [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../)
-
-

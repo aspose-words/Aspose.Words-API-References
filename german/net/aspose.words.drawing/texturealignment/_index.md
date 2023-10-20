@@ -1,7 +1,9 @@
 ---
-title: Enum TextureAlignment
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Drawing.TextureAlignment opsomming. Gibt die Ausrichtung für die Kachelung der Texturfüllung an.
+title: TextureAlignment Enum
+linktitle: TextureAlignment
+articleTitle: TextureAlignment
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Drawing.TextureAlignment opsomming. Gibt die Ausrichtung für die Kachelung der Texturfüllung an in C#.
 type: docs
 weight: 1370
 url: /de/net/aspose.words.drawing/texturealignment/
@@ -29,7 +31,7 @@ public enum TextureAlignment
 | BottomRight | `8` | Texturausrichtung unten rechts. |
 | None | `9` | Keine Texturausrichtung. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Textur innerhalb der Form gefüllt und gekachelt wird.
 
@@ -54,5 +56,3 @@ doc.Save(ArtifactsDir + "Shape.TextureFill.docx", saveOptions);
 
 * namensraum [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../)
-
-

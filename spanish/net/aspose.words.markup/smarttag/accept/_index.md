@@ -1,7 +1,9 @@
 ---
 title: SmartTag.Accept
-second_title: Referencia de API de Aspose.Words para .NET
-description: SmartTag método. Acepta un visitante.
+linktitle: Accept
+articleTitle: Accept
+second_title: Aspose.Words para .NET
+description: SmartTag Accept método. Acepta un visitante en C#.
 type: docs
 weight: 60
 url: /es/net/aspose.words.markup/smarttag/accept/
@@ -22,7 +24,7 @@ public override bool Accept(DocumentVisitor visitor)
 
 Verdadero si se visitaron todos los nodos; falso si[`DocumentVisitor`](../../../aspose.words/documentvisitor/) detuvo la operación antes de visitar todos los nodos.
 
-### Observaciones
+## Observaciones
 
 Enumera este nodo y todos sus hijos. Cada nodo llama a un método correspondiente en[`DocumentVisitor`](../../../aspose.words/documentvisitor/).
 
@@ -30,7 +32,7 @@ Para obtener más información, consulte el patrón de diseño Visitante.
 
 llamadas[`VisitSmartTagStart`](../../../aspose.words/documentvisitor/visitsmarttagstart/) , luego llama[`Accept`](../../../aspose.words/node/accept/) para todos los nodos secundarios de la etiqueta inteligente y las llamadas[`VisitSmartTagEnd`](../../../aspose.words/documentvisitor/visitsmarttagend/) al final.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear etiquetas inteligentes.
 
@@ -132,7 +134,5 @@ private class SmartTagPrinter : DocumentVisitor
 
 * class [DocumentVisitor](../../../aspose.words/documentvisitor/)
 * class [SmartTag](../)
-* espacio de nombres [Aspose.Words.Markup](../../smarttag/)
+* espacio de nombres [Aspose.Words.Markup](../../../aspose.words.markup/)
 * asamblea [Aspose.Words](../../../)
-
-

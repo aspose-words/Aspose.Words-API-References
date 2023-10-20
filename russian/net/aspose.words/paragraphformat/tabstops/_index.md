@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.TabStops
-second_title: Справочник по API Aspose.Words для .NET
-description: ParagraphFormat свойство. Получает коллекцию пользовательских позиций табуляции определенных для этого объекта.
+linktitle: TabStops
+articleTitle: TabStops
+second_title: Aspose.Words для .NET
+description: ParagraphFormat TabStops свойство. Получает коллекцию пользовательских позиций табуляции определенных для этого объекта на С#.
 type: docs
 weight: 390
 url: /ru/net/aspose.words/paragraphformat/tabstops/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/paragraphformat/tabstops/
 public TabStopCollection TabStops { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как изменить положение правой позиции табуляции в абзацах, связанных с содержанием.
 
@@ -41,7 +43,5 @@ doc.Save(ArtifactsDir + "Styles.ChangeTocsTabStops.docx");
 
 * class [TabStopCollection](../../tabstopcollection/)
 * class [ParagraphFormat](../)
-* пространство имен [Aspose.Words](../../paragraphformat/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

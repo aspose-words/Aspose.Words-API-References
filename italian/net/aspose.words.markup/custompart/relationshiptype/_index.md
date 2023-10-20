@@ -1,7 +1,9 @@
 ---
 title: CustomPart.RelationshipType
-second_title: Aspose.Words per .NET API Reference
-description: CustomPart proprietà. Ottiene o imposta il tipo di relazione dalla parte padre a questa parte personalizzata.
+linktitle: RelationshipType
+articleTitle: RelationshipType
+second_title: Aspose.Words per .NET
+description: CustomPart RelationshipType proprietà. Ottiene o imposta il tipo di relazione dalla parte padre a questa parte personalizzata in C#.
 type: docs
 weight: 60
 url: /it/net/aspose.words.markup/custompart/relationshiptype/
@@ -14,13 +16,13 @@ Ottiene o imposta il tipo di relazione dalla parte padre a questa parte personal
 public string RelationshipType { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Il tipo di relazione per una parte personalizzata deve essere "sconosciuto", ad esempio un tipo di relazione personalizzata, non uno dei tipi di relazione definiti in ISO/IEC 29500.
 
 Il valore predefinito è una stringa vuota. Un valore valido deve essere una stringa non vuota.
 
-### Esempi
+## Esempi
 
 Mostra come accedere alla raccolta di parti personalizzate arbitrarie di un documento.
 
@@ -64,7 +66,5 @@ Assert.AreEqual(0, doc.PackageCustomParts.Count);
 ### Guarda anche
 
 * class [CustomPart](../)
-* spazio dei nomi [Aspose.Words.Markup](../../custompart/)
+* spazio dei nomi [Aspose.Words.Markup](../../../aspose.words.markup/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Font.LineSpacing
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Font propriété. Renvoie lespacement des lignes de cette police en points.
+linktitle: LineSpacing
+articleTitle: LineSpacing
+second_title: Aspose.Words pour .NET
+description: Font LineSpacing propriété. Renvoie lespacement des lignes de cette police en points en C#.
 type: docs
 weight: 190
 url: /fr/net/aspose.words/font/linespacing/
@@ -14,7 +16,7 @@ Renvoie l'espacement des lignes de cette police (en points).
 public double LineSpacing { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment obtenir l’interligne d’une police, en points.
 
@@ -33,7 +35,5 @@ Assert.AreEqual(13.798828125d, builder.Font.LineSpacing);
 ### Voir également
 
 * class [Font](../)
-* espace de noms [Aspose.Words](../../font/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

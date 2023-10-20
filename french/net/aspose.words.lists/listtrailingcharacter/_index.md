@@ -1,7 +1,9 @@
 ---
-title: Enum ListTrailingCharacter
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Lists.ListTrailingCharacter énumération. Spécifie le caractère qui sépare létiquette de la liste du texte du paragraphe.
+title: ListTrailingCharacter Enum
+linktitle: ListTrailingCharacter
+articleTitle: ListTrailingCharacter
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Lists.ListTrailingCharacter énumération. Spécifie le caractère qui sépare létiquette de la liste du texte du paragraphe en C#.
 type: docs
 weight: 3540
 url: /fr/net/aspose.words.lists/listtrailingcharacter/
@@ -22,11 +24,11 @@ public enum ListTrailingCharacter
 | Space | `1` | Un caractère espace est placé entre le libellé de la liste et le texte du paragraphe. |
 | Nothing | `2` | Il n'y a pas de caractère séparateur entre le libellé de la liste et le texte du paragraphe. |
 
-### Remarques
+## Remarques
 
 Utilisé comme valeur pour le[`TrailingCharacter`](../listlevel/trailingcharacter/) propriété.
 
-### Exemples
+## Exemples
 
 Montre comment appliquer une mise en forme de liste personnalisée aux paragraphes lors de l’utilisation de DocumentBuilder.
 
@@ -86,5 +88,3 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateCustomList.docx");
 
 * espace de noms [Aspose.Words.Lists](../../aspose.words.lists/)
 * Assemblée [Aspose.Words](../../)
-
-

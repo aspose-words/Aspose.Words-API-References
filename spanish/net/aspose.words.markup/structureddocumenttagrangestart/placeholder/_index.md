@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTagRangeStart.Placeholder
-second_title: Referencia de API de Aspose.Words para .NET
-description: StructuredDocumentTagRangeStart propiedad. Obtiene elBuildingBlockque contiene texto de marcador de posición que debe mostrarse cuando el contenido de ejecución de esta etiqueta de documento estructurado está vacío el elemento XML asignado asociado está vacío como se especifica a través deXmlMapping elemento o elIsShowingPlaceholderText elemento esverdadero .
+linktitle: Placeholder
+articleTitle: Placeholder
+second_title: Aspose.Words para .NET
+description: StructuredDocumentTagRangeStart Placeholder propiedad. Obtiene elBuildingBlockque contiene texto de marcador de posición que debe mostrarse cuando el contenido de ejecución de esta etiqueta de documento estructurado está vacío el elemento XML asignado asociado está vacío como se especifica a través deXmlMapping elemento o elIsShowingPlaceholderText elemento esverdadero  en C#.
 type: docs
 weight: 110
 url: /es/net/aspose.words.markup/structureddocumenttagrangestart/placeholder/
@@ -14,7 +16,7 @@ Obtiene el[`BuildingBlock`](../../../aspose.words.buildingblocks/buildingblock/)
 public BuildingBlock Placeholder { get; }
 ```
 
-### Observaciones
+## Observaciones
 
 Puede ser`nulo`, lo que significa que el marcador de posición no es aplicable a esta etiqueta de documento estructurado.
 
@@ -22,7 +24,5 @@ Puede ser`nulo`, lo que significa que el marcador de posición no es aplicable a
 
 * class [BuildingBlock](../../../aspose.words.buildingblocks/buildingblock/)
 * class [StructuredDocumentTagRangeStart](../)
-* espacio de nombres [Aspose.Words.Markup](../../structureddocumenttagrangestart/)
+* espacio de nombres [Aspose.Words.Markup](../../../aspose.words.markup/)
 * asamblea [Aspose.Words](../../../)
-
-

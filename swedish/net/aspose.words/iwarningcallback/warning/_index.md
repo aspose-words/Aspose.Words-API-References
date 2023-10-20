@@ -1,7 +1,9 @@
 ---
 title: IWarningCallback.Warning
-second_title: Aspose.Words för .NET API Referens
-description: IWarningCallback metod. Aspose.Words åberopar den här metoden när det stöter på något problem under dokumentladdning eller lagring som kan resultera i förlust av formatering eller datatillförlitlighet.
+linktitle: Warning
+articleTitle: Warning
+second_title: Aspose.Words för .NET
+description: IWarningCallback Warning metod. Aspose.Words åberopar den här metoden när det stöter på något problem under dokumentladdning eller lagring som kan resultera i förlust av formatering eller datatillförlitlighet i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words/iwarningcallback/warning/
@@ -14,7 +16,7 @@ Aspose.Words åberopar den här metoden när det stöter på något problem unde
 public void Warning(WarningInfo info)
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du ställer in egenskapen för att hitta den närmaste matchningen för ett saknat teckensnitt från tillgängliga teckensnittskällor.
 
@@ -75,7 +77,5 @@ public class HandleDocumentSubstitutionWarnings : IWarningCallback
 
 * class [WarningInfo](../../warninginfo/)
 * interface [IWarningCallback](../)
-* namnutrymme [Aspose.Words](../../iwarningcallback/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

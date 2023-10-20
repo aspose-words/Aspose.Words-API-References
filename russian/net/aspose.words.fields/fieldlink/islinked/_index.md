@@ -1,7 +1,9 @@
 ---
 title: FieldLink.IsLinked
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldLink свойство. Получает или задает следует ли уменьшать размер файла не сохраняя графические данные вместе с документом.
+linktitle: IsLinked
+articleTitle: IsLinked
+second_title: Aspose.Words для .NET
+description: FieldLink IsLinked свойство. Получает или задает следует ли уменьшать размер файла не сохраняя графические данные вместе с документом на С#.
 type: docs
 weight: 100
 url: /ru/net/aspose.words.fields/fieldlink/islinked/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldlink/islinked/
 public bool IsLinked { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как использовать различные типы полей для связи с другими документами в локальной файловой системе и отображения их содержимого.
 
@@ -197,7 +199,5 @@ public enum InsertLinkedObjectAs
 ### Смотрите также
 
 * class [FieldLink](../)
-* пространство имен [Aspose.Words.Fields](../../fieldlink/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: HtmlFixedSaveOptions.ShowPageBorder
-second_title: Aspose.Words per .NET API Reference
-description: HtmlFixedSaveOptions proprietà. Specifica se deve essere mostrato il bordo attorno alle pagine. Limpostazione predefinita èVERO .
+linktitle: ShowPageBorder
+articleTitle: ShowPageBorder
+second_title: Aspose.Words per .NET
+description: HtmlFixedSaveOptions ShowPageBorder proprietà. Specifica se deve essere mostrato il bordo attorno alle pagine. Limpostazione predefinita èVERO  in C#.
 type: docs
 weight: 180
 url: /it/net/aspose.words.saving/htmlfixedsaveoptions/showpageborder/
@@ -14,7 +16,7 @@ Specifica se deve essere mostrato il bordo attorno alle pagine. L'impostazione p
 public bool ShowPageBorder { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come utilizzare un callback per stampare gli URI delle risorse esterne create durante la conversione di un documento in HTML.
 
@@ -93,7 +95,5 @@ private class ResourceUriPrinter : IResourceSavingCallback
 ### Guarda anche
 
 * class [HtmlFixedSaveOptions](../)
-* spazio dei nomi [Aspose.Words.Saving](../../htmlfixedsaveoptions/)
+* spazio dei nomi [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../../)
-
-

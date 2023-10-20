@@ -1,7 +1,9 @@
 ---
-title: FieldDisplayBarcode.FieldDisplayBarcode
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldDisplayBarcode constructeur. Default_Constructor
+title: FieldDisplayBarcode
+linktitle: FieldDisplayBarcode
+articleTitle: FieldDisplayBarcode
+second_title: Aspose.Words pour .NET
+description: FieldDisplayBarcode constructeur. Default_Constructor en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.fields/fielddisplaybarcode/fielddisplaybarcode/
@@ -17,7 +19,5 @@ public FieldDisplayBarcode()
 ### Voir également
 
 * class [FieldDisplayBarcode](../)
-* espace de noms [Aspose.Words.Fields](../../fielddisplaybarcode/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

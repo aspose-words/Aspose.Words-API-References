@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.ParentParagraph
-second_title: Aspose.Words für .NET-API-Referenz
-description: ShapeBase eigendom. Gibt den unmittelbar übergeordneten Absatz zurück.
+linktitle: ParentParagraph
+articleTitle: ParentParagraph
+second_title: Aspose.Words für .NET
+description: ShapeBase ParentParagraph eigendom. Gibt den unmittelbar übergeordneten Absatz zurück in C#.
 type: docs
 weight: 410
 url: /de/net/aspose.words.drawing/shapebase/parentparagraph/
@@ -14,11 +16,11 @@ Gibt den unmittelbar übergeordneten Absatz zurück.
 public Paragraph ParentParagraph { get; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Für untergeordnete Formen einer Gruppenform und untergeordnete Formen eines Office Math-Objekts wird immer zurückgegeben`Null`.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man ein Textfeld einfügt und die Schriftart seines Inhalts festlegt.
 
@@ -57,7 +59,5 @@ doc.Save(ArtifactsDir + "Shape.Font.docx");
 
 * class [Paragraph](../../../aspose.words/paragraph/)
 * class [ShapeBase](../)
-* namensraum [Aspose.Words.Drawing](../../shapebase/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

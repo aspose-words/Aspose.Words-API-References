@@ -1,7 +1,9 @@
 ---
 title: ChartSeries.Bubble3D
-second_title: Справочник по API Aspose.Words для .NET
-description: ChartSeries свойство. Указывает должен ли к пузырькам на пузырьковой диаграмме применяться трехмерный эффект.
+linktitle: Bubble3D
+articleTitle: Bubble3D
+second_title: Aspose.Words для .NET
+description: ChartSeries Bubble3D свойство. Указывает должен ли к пузырькам на пузырьковой диаграмме применяться трехмерный эффект на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.drawing.charts/chartseries/bubble3d/
@@ -17,7 +19,5 @@ public bool Bubble3D { get; set; }
 ### Смотрите также
 
 * class [ChartSeries](../)
-* пространство имен [Aspose.Words.Drawing.Charts](../../chartseries/)
+* пространство имен [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../../)
-
-

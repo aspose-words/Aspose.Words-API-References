@@ -1,7 +1,9 @@
 ---
 title: LayoutOptions.KeepOriginalFontMetrics
-second_title: Aspose.Words per .NET API Reference
-description: LayoutOptions proprietà. Ottiene o imposta unindicazione se la metrica del carattere originale deve essere utilizzata dopo la sostituzione del carattere. Limpostazione predefinita èVERO .
+linktitle: KeepOriginalFontMetrics
+articleTitle: KeepOriginalFontMetrics
+second_title: Aspose.Words per .NET
+description: LayoutOptions KeepOriginalFontMetrics proprietà. Ottiene o imposta unindicazione se la metrica del carattere originale deve essere utilizzata dopo la sostituzione del carattere. Limpostazione predefinita èVERO  in C#.
 type: docs
 weight: 60
 url: /it/net/aspose.words.layout/layoutoptions/keeporiginalfontmetrics/
@@ -14,7 +16,7 @@ Ottiene o imposta un'indicazione se la metrica del carattere originale deve esse
 public bool KeepOriginalFontMetrics { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come impostare la proprietà per trovare la corrispondenza più vicina per un carattere mancante tra le origini dei caratteri disponibili.
 
@@ -74,7 +76,5 @@ public class HandleDocumentSubstitutionWarnings : IWarningCallback
 ### Guarda anche
 
 * class [LayoutOptions](../)
-* spazio dei nomi [Aspose.Words.Layout](../../layoutoptions/)
+* spazio dei nomi [Aspose.Words.Layout](../../../aspose.words.layout/)
 * assemblea [Aspose.Words](../../../)
-
-

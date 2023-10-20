@@ -1,7 +1,9 @@
 ---
 title: Row.IsFirstRow
-second_title: Aspose.Words för .NET API Referens
-description: Row fast egendom. True om detta är den första raden i en tabell falskt annars.
+linktitle: IsFirstRow
+articleTitle: IsFirstRow
+second_title: Aspose.Words för .NET
+description: Row IsFirstRow fast egendom. True om detta är den första raden i en tabell falskt annars i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.tables/row/isfirstrow/
@@ -14,7 +16,7 @@ True om detta är den första raden i en tabell; falskt annars.
 public bool IsFirstRow { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man skriver ut nodstrukturen för varje tabell i ett dokument.
 
@@ -177,7 +179,5 @@ public class TableStructurePrinter : DocumentVisitor
 ### Se även
 
 * class [Row](../)
-* namnutrymme [Aspose.Words.Tables](../../row/)
+* namnutrymme [Aspose.Words.Tables](../../../aspose.words.tables/)
 * hopsättning [Aspose.Words](../../../)
-
-

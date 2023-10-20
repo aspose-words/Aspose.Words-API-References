@@ -1,12 +1,14 @@
 ---
 title: DocumentBuilder.MoveToBookmark
-second_title: Справочник по API Aspose.Words для .NET
-description: DocumentBuilder метод. Перемещает курсор на закладку.
+linktitle: MoveToBookmark
+articleTitle: MoveToBookmark
+second_title: Aspose.Words для .NET
+description: DocumentBuilder MoveToBookmark метод. Перемещает курсор на закладку на С#.
 type: docs
-weight: 500
+weight: 490
 url: /ru/net/aspose.words/documentbuilder/movetobookmark/
 ---
-## MoveToBookmark(string) {#movetobookmark}
+## MoveToBookmark(*string*) {#movetobookmark}
 
 Перемещает курсор на закладку.
 
@@ -22,7 +24,7 @@ public bool MoveToBookmark(string bookmarkName)
 
 `истинный` если закладка была найдена;`ЛОЖЬ` в противном случае.
 
-### Примечания
+## Примечания
 
 Перемещает курсор в позицию сразу после начала закладки с указанным именем .
 
@@ -32,7 +34,7 @@ public bool MoveToBookmark(string bookmarkName)
 
 Обратите внимание, что некоторые закладки в документе закреплены за полями формы. Переход к такой закладке и вставка туда текста вставляет текст в код поля формы . Хотя это не приведет к аннулированию поля формы, текст Insert не будет виден, поскольку он станет частью кода поля.
 
-### Примеры
+## Примеры
 
 Показывает, как перемещать курсор построителя документов в разные узлы документа.
 
@@ -86,12 +88,12 @@ Assert.IsTrue(builder.IsAtStartOfParagraph);
 ### Смотрите также
 
 * class [DocumentBuilder](../)
-* пространство имен [Aspose.Words](../../documentbuilder/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## MoveToBookmark(string, bool, bool) {#movetobookmark_1}
+## MoveToBookmark(*string, bool, bool*) {#movetobookmark_1}
 
 Перемещает курсор к закладке с большей точностью.
 
@@ -109,7 +111,7 @@ public bool MoveToBookmark(string bookmarkName, bool isStart, bool isAfter)
 
 `истинный` если закладка была найдена;`ЛОЖЬ` в противном случае.
 
-### Примечания
+## Примечания
 
 Перемещает курсор в позицию до или после начала или конца закладки.
 
@@ -117,7 +119,7 @@ public bool MoveToBookmark(string bookmarkName, bool isStart, bool isAfter)
 
 Сравнение не учитывает регистр. Если закладка не найдена,`ЛОЖЬ` is возвращается, а курсор не перемещается.
 
-### Примеры
+## Примеры
 
 Показывает, как переместить курсор точки вставки узла построителя документов на закладку.
 
@@ -166,7 +168,5 @@ Assert.AreEqual("1. 2. Hello world! 3. 4.", doc.GetText().Trim());
 ### Смотрите также
 
 * class [DocumentBuilder](../)
-* пространство имен [Aspose.Words](../../documentbuilder/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

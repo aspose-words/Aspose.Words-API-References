@@ -1,7 +1,9 @@
 ---
 title: Document.GlossaryDocument
-second_title: Aspose.Words for .NET API 参考
-description: Document 财产. 获取或设置此文档或模板中的术语表文档词汇表文档是文档中定义的自动图文集自动更正和构建块条目的存储 
+linktitle: GlossaryDocument
+articleTitle: GlossaryDocument
+second_title: 用于 .NET 的 Aspose.Words
+description: Document GlossaryDocument 财产. 获取或设置此文档或模板中的术语表文档词汇表文档是文档中定义的自动图文集自动更正和构建块条目的存储  在 C#.
 type: docs
 weight: 170
 url: /zh/net/aspose.words/document/glossarydocument/
@@ -14,13 +16,13 @@ url: /zh/net/aspose.words/document/glossarydocument/
 public GlossaryDocument GlossaryDocument { get; set; }
 ```
 
-### 评论
+## 评论
 
 该属性返回`无效的`如果文档没有术语表文档。
 
 您可以通过创建 a 将术语表文档添加到文档中[`GlossaryDocument`](../../../aspose.words.buildingblocks/glossarydocument/)对象并分配给该属性。
 
-### 例子
+## 例子
 
 演示如何将自定义构建块添加到文档中。
 
@@ -118,7 +120,5 @@ public class BuildingBlockVisitor : DocumentVisitor
 
 * class [GlossaryDocument](../../../aspose.words.buildingblocks/glossarydocument/)
 * class [Document](../)
-* 命名空间 [Aspose.Words](../../document/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

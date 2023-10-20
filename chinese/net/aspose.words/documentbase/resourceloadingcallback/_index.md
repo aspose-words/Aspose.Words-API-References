@@ -1,7 +1,9 @@
 ---
 title: DocumentBase.ResourceLoadingCallback
-second_title: Aspose.Words for .NET API 参考
-description: DocumentBase 财产. 允许控制如何加载外部资源
+linktitle: ResourceLoadingCallback
+articleTitle: ResourceLoadingCallback
+second_title: 用于 .NET 的 Aspose.Words
+description: DocumentBase ResourceLoadingCallback 财产. 允许控制如何加载外部资源 在 C#.
 type: docs
 weight: 70
 url: /zh/net/aspose.words/documentbase/resourceloadingcallback/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/documentbase/resourceloadingcallback/
 public IResourceLoadingCallback ResourceLoadingCallback { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何自定义将外部资源加载到文档中的过程。
 
@@ -78,7 +80,5 @@ private class ImageNameHandler : IResourceLoadingCallback
 
 * interface [IResourceLoadingCallback](../../../aspose.words.loading/iresourceloadingcallback/)
 * class [DocumentBase](../)
-* 命名空间 [Aspose.Words](../../documentbase/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

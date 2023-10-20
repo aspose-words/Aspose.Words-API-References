@@ -1,7 +1,9 @@
 ---
 title: Paragraph.IsEndOfSection
-second_title: Aspose.Words für .NET-API-Referenz
-description: Paragraph eigendom. True wenn dieser Absatz der letzte Absatz im istBody Haupttextgeschichte von aSection  sonst falsch.
+linktitle: IsEndOfSection
+articleTitle: IsEndOfSection
+second_title: Aspose.Words für .NET
+description: Paragraph IsEndOfSection eigendom. True wenn dieser Absatz der letzte Absatz im istBody Haupttextgeschichte von aSection  sonst falsch in C#.
 type: docs
 weight: 80
 url: /de/net/aspose.words/paragraph/isendofsection/
@@ -14,7 +16,7 @@ True, wenn dieser Absatz der letzte Absatz im ist[`Body`](../../body/) (Haupttex
 public bool IsEndOfSection { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie der Inhalt eines Dokuments in ein Lesezeichen in einem anderen Dokument eingefügt wird.
 
@@ -82,7 +84,5 @@ static void InsertDocument(Node insertionDestination, Document docToInsert)
 ### Siehe auch
 
 * class [Paragraph](../)
-* namensraum [Aspose.Words](../../paragraph/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

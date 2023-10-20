@@ -1,9 +1,11 @@
 ---
 title: CompositeNode.RemoveSmartTags
-second_title: Aspose.Words för .NET API Referens
-description: CompositeNode metod. Tar bort allaSmartTagunderliggande noder till den aktuella noden.
+linktitle: RemoveSmartTags
+articleTitle: RemoveSmartTags
+second_title: Aspose.Words för .NET
+description: CompositeNode RemoveSmartTags metod. Tar bort allaSmartTagunderliggande noder till den aktuella noden i C#.
 type: docs
-weight: 200
+weight: 180
 url: /sv/net/aspose.words/compositenode/removesmarttags/
 ---
 ## CompositeNode.RemoveSmartTags method
@@ -14,11 +16,11 @@ Tar bort alla[`SmartTag`](../../../aspose.words.markup/smarttag/)underliggande n
 public void RemoveSmartTags()
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Denna metod tar inte bort innehållet i de smarta taggarna.
 
-### Exempel
+## Exempel
 
 Tar bort alla smarta taggar från underliggande noder i en sammansatt nod.
 
@@ -131,7 +133,5 @@ private class SmartTagPrinter : DocumentVisitor
 ### Se även
 
 * class [CompositeNode](../)
-* namnutrymme [Aspose.Words](../../compositenode/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

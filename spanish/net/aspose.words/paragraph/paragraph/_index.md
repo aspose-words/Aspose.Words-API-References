@@ -1,7 +1,9 @@
 ---
-title: Paragraph.Paragraph
-second_title: Referencia de API de Aspose.Words para .NET
-description: Paragraph constructor. Inicializa una nueva instancia delParagraph clase.
+title: Paragraph
+linktitle: Paragraph
+articleTitle: Paragraph
+second_title: Aspose.Words para .NET
+description: Paragraph constructor. Inicializa una nueva instancia delParagraph clase en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words/paragraph/paragraph/
@@ -18,13 +20,13 @@ public Paragraph(DocumentBase doc)
 | --- | --- | --- |
 | doc | DocumentBase | El documento del propietario. |
 
-### Observaciones
+## Observaciones
 
 Cuando[`Paragraph`](../) se crea, pertenece al documento especificado, pero aún no es parte del documento y[`ParentNode`](../../node/parentnode/) es`nulo`.
 
-Para anexar[`Paragraph`](../) al uso del documentoNode) oNode) en la historia donde desea insertar el párrafo.
+Para anexar[`Paragraph`](../) al uso del documento[`InsertAfter`](../../compositenode/insertafter/) o[`InsertBefore`](../../compositenode/insertbefore/) en la historia donde desea insertar el párrafo.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo construir un documento Aspose.Words a mano.
 
@@ -75,7 +77,5 @@ doc.Save(ArtifactsDir + "Section.CreateManually.docx");
 
 * class [DocumentBase](../../documentbase/)
 * class [Paragraph](../)
-* espacio de nombres [Aspose.Words](../../paragraph/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

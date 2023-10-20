@@ -1,7 +1,9 @@
 ---
 title: Cell.FirstParagraph
-second_title: Aspose.Words för .NET API Referens
-description: Cell fast egendom. Får första stycket bland de närmaste barnen.
+linktitle: FirstParagraph
+articleTitle: FirstParagraph
+second_title: Aspose.Words för .NET
+description: Cell FirstParagraph fast egendom. Får första stycket bland de närmaste barnen i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.tables/cell/firstparagraph/
@@ -14,7 +16,7 @@ Får första stycket bland de närmaste barnen.
 public Paragraph FirstParagraph { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man skapar en kapslad tabell med hjälp av en dokumentbyggare.
 
@@ -95,7 +97,5 @@ private static Table CreateTable(Document doc, int rowCount, int cellCount, stri
 
 * class [Paragraph](../../../aspose.words/paragraph/)
 * class [Cell](../)
-* namnutrymme [Aspose.Words.Tables](../../cell/)
+* namnutrymme [Aspose.Words.Tables](../../../aspose.words.tables/)
 * hopsättning [Aspose.Words](../../../)
-
-

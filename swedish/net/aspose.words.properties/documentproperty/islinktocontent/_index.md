@@ -1,7 +1,9 @@
 ---
 title: DocumentProperty.IsLinkToContent
-second_title: Aspose.Words för .NET API Referens
-description: DocumentProperty fast egendom. Visar om den här egenskapen är länkad till innehåll eller inte.
+linktitle: IsLinkToContent
+articleTitle: IsLinkToContent
+second_title: Aspose.Words för .NET
+description: DocumentProperty IsLinkToContent fast egendom. Visar om den här egenskapen är länkad till innehåll eller inte i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.properties/documentproperty/islinktocontent/
@@ -14,7 +16,7 @@ Visar om den här egenskapen är länkad till innehåll eller inte.
 public bool IsLinkToContent { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man länkar en anpassad dokumentegenskap till ett bokmärke.
 
@@ -41,7 +43,5 @@ doc.Save(ArtifactsDir + "DocumentProperties.LinkCustomDocumentPropertiesToBookma
 ### Se även
 
 * class [DocumentProperty](../)
-* namnutrymme [Aspose.Words.Properties](../../documentproperty/)
+* namnutrymme [Aspose.Words.Properties](../../../aspose.words.properties/)
 * hopsättning [Aspose.Words](../../../)
-
-

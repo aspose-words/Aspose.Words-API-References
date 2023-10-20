@@ -1,20 +1,22 @@
 ---
 title: FieldCitation.SourceTag
-second_title: Aspose.Words لمراجع .NET API
-description: FieldCitation ملكية. الحصول على أو تعيين قيمة تطابق بطاقة شعار قيمة العنصر للمصدر المراد إدراجه.
+linktitle: SourceTag
+articleTitle: SourceTag
+second_title: Aspose.Words لـ .NET
+description: FieldCitation SourceTag ملكية. الحصول على أو تعيين قيمة تطابقبطاقة شعار قيمة العنصر للمصدر المراد إدراجه في C#.
 type: docs
 weight: 60
 url: /ar/net/aspose.words.fields/fieldcitation/sourcetag/
 ---
 ## FieldCitation.SourceTag property
 
-الحصول على أو تعيين قيمة تطابق **بطاقة شعار** قيمة العنصر للمصدر المراد إدراجه.
+الحصول على أو تعيين قيمة تطابق**بطاقة شعار** قيمة العنصر للمصدر المراد إدراجه.
 
 ```csharp
 public string SourceTag { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع حقول CITATION وBIBLIOGRAPHY.
 
@@ -68,7 +70,5 @@ doc.Save(ArtifactsDir + "Field.CITATION.docx");
 ### أنظر أيضا
 
 * class [FieldCitation](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldcitation/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

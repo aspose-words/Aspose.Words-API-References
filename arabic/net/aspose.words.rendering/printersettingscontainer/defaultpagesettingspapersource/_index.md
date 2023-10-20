@@ -1,7 +1,9 @@
 ---
 title: PrinterSettingsContainer.DefaultPageSettingsPaperSource
-second_title: Aspose.Words لمراجع .NET API
-description: PrinterSettingsContainer ملكية. انظرPaperSource لDefaultPageSettings .
+linktitle: DefaultPageSettingsPaperSource
+articleTitle: DefaultPageSettingsPaperSource
+second_title: Aspose.Words لـ .NET
+description: PrinterSettingsContainer DefaultPageSettingsPaperSource ملكية. انظرPaperSource لDefaultPageSettings  في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.rendering/printersettingscontainer/defaultpagesettingspapersource/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.rendering/printersettingscontainer/defaultpagesettings
 public PaperSource DefaultPageSettingsPaperSource { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الوصول إلى مصادر الورق وأحجامه وإدراجها في الطابعة.
 
@@ -47,7 +49,5 @@ foreach (System.Drawing.Printing.PaperSize paperSize in container.PaperSizes)
 ### أنظر أيضا
 
 * class [PrinterSettingsContainer](../)
-* مساحة الاسم [Aspose.Words.Rendering](../../printersettingscontainer/)
+* مساحة الاسم [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * المجسم [Aspose.Words](../../../)
-
-

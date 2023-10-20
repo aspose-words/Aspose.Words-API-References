@@ -1,7 +1,9 @@
 ---
 title: SignatureLineOptions.AllowComments
-second_title: Aspose.Words for .NET API 参考
-description: SignatureLineOptions 财产. 获取或设置一个值该值指示签名者可以在签名对话框中添加注释 此属性的默认值为错误的.
+linktitle: AllowComments
+articleTitle: AllowComments
+second_title: 用于 .NET 的 Aspose.Words
+description: SignatureLineOptions AllowComments 财产. 获取或设置一个值该值指示签名者可以在签名对话框中添加注释 此属性的默认值为错误的 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words/signaturelineoptions/allowcomments/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/signaturelineoptions/allowcomments/
 public bool AllowComments { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何使用个人证书和签名行签署文档。
 
@@ -67,7 +69,5 @@ Assert.True(signatureLine.IsValid);
 ### 也可以看看
 
 * class [SignatureLineOptions](../)
-* 命名空间 [Aspose.Words](../../signaturelineoptions/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

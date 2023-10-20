@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitStructuredDocumentTagStart
-second_title: Aspose.Words لمراجع .NET API
-description: DocumentVisitor طريقة. يتم استدعاؤه عند بدء تعداد علامة المستند المنظمة.
+linktitle: VisitStructuredDocumentTagStart
+articleTitle: VisitStructuredDocumentTagStart
+second_title: Aspose.Words لـ .NET
+description: DocumentVisitor VisitStructuredDocumentTagStart طريقة. يتم استدعاؤه عند بدء تعداد علامة المستند المنظمة في C#.
 type: docs
 weight: 470
 url: /ar/net/aspose.words/documentvisitor/visitstructureddocumenttagstart/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitStructuredDocumentTagStart(StructuredDocumentT
 
 أ[`VisitorAction`](../../visitoraction/) القيمة التي تحدد كيفية متابعة التعداد.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية طباعة بنية العقدة لكل علامة مستند منظمة في المستند.
 
@@ -114,7 +116,5 @@ public class StructuredDocumentTagNodePrinter : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [StructuredDocumentTag](../../../aspose.words.markup/structureddocumenttag/)
 * class [DocumentVisitor](../)
-* مساحة الاسم [Aspose.Words](../../documentvisitor/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

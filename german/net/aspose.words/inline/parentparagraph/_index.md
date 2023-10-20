@@ -1,7 +1,9 @@
 ---
 title: Inline.ParentParagraph
-second_title: Aspose.Words für .NET-API-Referenz
-description: Inline eigendom. Ruft das übergeordnete Element abParagraph dieses Knotens.
+linktitle: ParentParagraph
+articleTitle: ParentParagraph
+second_title: Aspose.Words für .NET
+description: Inline ParentParagraph eigendom. Ruft das übergeordnete Element abParagraph dieses Knotens in C#.
 type: docs
 weight: 70
 url: /de/net/aspose.words/inline/parentparagraph/
@@ -14,7 +16,7 @@ Ruft das übergeordnete Element ab[`Paragraph`](../../paragraph/) dieses Knotens
 public Paragraph ParentParagraph { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie der Revisionstyp eines Inline-Knotens ermittelt wird.
 
@@ -71,7 +73,5 @@ Assert.IsTrue(runs[5].IsDeleteRevision);
 
 * class [Paragraph](../../paragraph/)
 * class [Inline](../)
-* namensraum [Aspose.Words](../../inline/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

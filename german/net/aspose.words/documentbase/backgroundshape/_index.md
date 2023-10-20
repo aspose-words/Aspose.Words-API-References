@@ -1,7 +1,9 @@
 ---
 title: DocumentBase.BackgroundShape
-second_title: Aspose.Words für .NET-API-Referenz
-description: DocumentBase eigendom. Ruft die Hintergrundform des Dokuments ab oder legt diese fest. Kann seinNull .
+linktitle: BackgroundShape
+articleTitle: BackgroundShape
+second_title: Aspose.Words für .NET
+description: DocumentBase BackgroundShape eigendom. Ruft die Hintergrundform des Dokuments ab oder legt diese fest. Kann seinNull  in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words/documentbase/backgroundshape/
@@ -14,7 +16,7 @@ Ruft die Hintergrundform des Dokuments ab oder legt diese fest. Kann sein`Null` 
 public Shape BackgroundShape { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Microsoft Word erlaubt nur eine Form, die ihre eigenen hat[`ShapeType`](../../../aspose.words.drawing/shapebase/shapetype/) Eigenschaft equal toRectangle als Hintergrundform für ein Dokument verwendet werden.
 
@@ -22,7 +24,7 @@ Microsoft Word unterstützt nur die Fülleigenschaften einer Hintergrundform. Al
 
 Wenn Sie diese Eigenschaft auf einen Wert ungleich Null setzen, wird auch die festgelegt[`DisplayBackgroundShape`](../../../aspose.words.settings/viewoptions/displaybackgroundshape/) Zu`WAHR`.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man für jede Seite eines Dokuments eine Hintergrundform festlegt.
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "DocumentBase.BackgroundShape.Image.pdf", saveOptions);
 
 * class [Shape](../../../aspose.words.drawing/shape/)
 * class [DocumentBase](../)
-* namensraum [Aspose.Words](../../documentbase/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

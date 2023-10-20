@@ -1,7 +1,9 @@
 ---
 title: CompareOptions.IgnoreTextboxes
-second_title: Aspose.Words لمراجع .NET API
-description: CompareOptions ملكية. يحدد ما إذا كان سيتم مقارنة الاختلافات في البيانات الموجودة داخل مربعات النص. بشكل افتراضي لا يتم تجاهل مربعات النص.
+linktitle: IgnoreTextboxes
+articleTitle: IgnoreTextboxes
+second_title: Aspose.Words لـ .NET
+description: CompareOptions IgnoreTextboxes ملكية. يحدد ما إذا كان سيتم مقارنة الاختلافات في البيانات الموجودة داخل مربعات النص. بشكل افتراضي لا يتم تجاهل مربعات النص في C#.
 type: docs
 weight: 120
 url: /ar/net/aspose.words.comparing/compareoptions/ignoretextboxes/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.comparing/compareoptions/ignoretextboxes/
 public bool IgnoreTextboxes { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تصفية أنواع معينة من عناصر المستند عند إجراء المقارنة.
 
@@ -88,7 +90,5 @@ docOriginal.Save(ArtifactsDir + "Document.CompareOptions.docx");
 ### أنظر أيضا
 
 * class [CompareOptions](../)
-* مساحة الاسم [Aspose.Words.Comparing](../../compareoptions/)
+* مساحة الاسم [Aspose.Words.Comparing](../../../aspose.words.comparing/)
 * المجسم [Aspose.Words](../../../)
-
-

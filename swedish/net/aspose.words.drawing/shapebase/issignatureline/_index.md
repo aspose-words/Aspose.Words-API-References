@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.IsSignatureLine
-second_title: Aspose.Words för .NET API Referens
-description: ShapeBase fast egendom. Indikerar att formen är enSignatureLine .
+linktitle: IsSignatureLine
+articleTitle: IsSignatureLine
+second_title: Aspose.Words för .NET
+description: ShapeBase IsSignatureLine fast egendom. Indikerar att formen är enSignatureLine  i C#.
 type: docs
 weight: 340
 url: /sv/net/aspose.words.drawing/shapebase/issignatureline/
@@ -14,7 +16,7 @@ Indikerar att formen är en[`SignatureLine`](../../signatureline/) .
 public bool IsSignatureLine { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man skapar en rad för en signatur och infogar den i ett dokument.
 
@@ -59,7 +61,5 @@ doc.Save(ArtifactsDir + "Shape.SignatureLine.docx");
 ### Se även
 
 * class [ShapeBase](../)
-* namnutrymme [Aspose.Words.Drawing](../../shapebase/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

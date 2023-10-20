@@ -1,12 +1,14 @@
 ---
 title: ChartSeries.Add
-second_title: Справочник по API Aspose.Words для .NET
-description: ChartSeries метод. Добавляет указанное значение X в серию диаграмм. Если серия поддерживает значения Y и размеры пузырьков они будут пустыми для значения X.
+linktitle: Add
+articleTitle: Add
+second_title: Aspose.Words для .NET
+description: ChartSeries Add метод. Добавляет указанное значение X в серию диаграмм. Если серия поддерживает значения Y и размеры пузырьков они будут пустыми для значения X на С#.
 type: docs
 weight: 160
 url: /ru/net/aspose.words.drawing.charts/chartseries/add/
 ---
-## Add(ChartXValue) {#add}
+## Add(*[ChartXValue](../../chartxvalue/)*) {#add}
 
 Добавляет указанное значение X в серию диаграмм. Если серия поддерживает значения Y и размеры пузырьков, они будут пустыми для значения X.
 
@@ -18,12 +20,12 @@ public void Add(ChartXValue xValue)
 
 * class [ChartXValue](../../chartxvalue/)
 * class [ChartSeries](../)
-* пространство имен [Aspose.Words.Drawing.Charts](../../chartseries/)
+* пространство имен [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## Add(ChartXValue, ChartYValue) {#add_1}
+## Add(*[ChartXValue](../../chartxvalue/), [ChartYValue](../../chartyvalue/)*) {#add_1}
 
 Добавляет указанные значения X и Y в серию диаграмм.
 
@@ -31,7 +33,7 @@ public void Add(ChartXValue xValue)
 public void Add(ChartXValue xValue, ChartYValue yValue)
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как добавлять/удалять значения данных диаграммы.
 
@@ -94,12 +96,12 @@ doc.Save(ArtifactsDir + "Charts.PopulateChartWithData.docx");
 * class [ChartXValue](../../chartxvalue/)
 * class [ChartYValue](../../chartyvalue/)
 * class [ChartSeries](../)
-* пространство имен [Aspose.Words.Drawing.Charts](../../chartseries/)
+* пространство имен [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## Add(ChartXValue, ChartYValue, double) {#add_2}
+## Add(*[ChartXValue](../../chartxvalue/), [ChartYValue](../../chartyvalue/), double*) {#add_2}
 
 Добавляет указанное значение X, значение Y и размер пузырька в серию диаграмм.
 
@@ -112,7 +114,5 @@ public void Add(ChartXValue xValue, ChartYValue yValue, double bubbleSize)
 * class [ChartXValue](../../chartxvalue/)
 * class [ChartYValue](../../chartyvalue/)
 * class [ChartSeries](../)
-* пространство имен [Aspose.Words.Drawing.Charts](../../chartseries/)
+* пространство имен [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabelCollection.ShowCategoryName
-second_title: Aspose.Words für .NET-API-Referenz
-description: ChartDataLabelCollection eigendom. Ermöglicht die Angabe ob der Kategoriename für die Datenbeschriftungen der gesamten Serie angezeigt werden soll. Der Standardwert istFALSCH .
+linktitle: ShowCategoryName
+articleTitle: ShowCategoryName
+second_title: Aspose.Words für .NET
+description: ChartDataLabelCollection ShowCategoryName eigendom. Ermöglicht die Angabe ob der Kategoriename für die Datenbeschriftungen der gesamten Serie angezeigt werden soll. Der Standardwert istFALSCH  in C#.
 type: docs
 weight: 80
 url: /de/net/aspose.words.drawing.charts/chartdatalabelcollection/showcategoryname/
@@ -14,11 +16,11 @@ Ermöglicht die Angabe, ob der Kategoriename für die Datenbeschriftungen der ge
 public bool ShowCategoryName { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Der für diese Eigenschaft definierte Wert kann für eine einzelne Datenbeschriftung mithilfe von überschrieben werden.[`ShowCategoryName`](../../chartdatalabel/showcategoryname/) Eigenschaft.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit Datenbeschriftungen eines Blasendiagramms gearbeitet wird.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "Charts.DataLabelsBubbleChart.docx");
 ### Siehe auch
 
 * class [ChartDataLabelCollection](../)
-* namensraum [Aspose.Words.Drawing.Charts](../../chartdatalabelcollection/)
+* namensraum [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../../)
-
-

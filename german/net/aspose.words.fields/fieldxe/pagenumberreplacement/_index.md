@@ -1,7 +1,9 @@
 ---
 title: FieldXE.PageNumberReplacement
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldXE eigendom. Ruft Text ab der anstelle einer Seitenzahl verwendet wird oder legt diesen fest.
+linktitle: PageNumberReplacement
+articleTitle: PageNumberReplacement
+second_title: Aspose.Words für .NET
+description: FieldXE PageNumberReplacement eigendom. Ruft Text ab der anstelle einer Seitenzahl verwendet wird oder legt diesen fest in C#.
 type: docs
 weight: 50
 url: /de/net/aspose.words.fields/fieldxe/pagenumberreplacement/
@@ -14,7 +16,7 @@ Ruft Text ab, der anstelle einer Seitenzahl verwendet wird, oder legt diesen fes
 public string PageNumberReplacement { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Querverweise in einem INDEX-Feld definiert werden.
 
@@ -64,7 +66,5 @@ doc.Save(ArtifactsDir + "Field.INDEX.XE.CrossReferenceSeparator.docx");
 ### Siehe auch
 
 * class [FieldXE](../)
-* namensraum [Aspose.Words.Fields](../../fieldxe/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

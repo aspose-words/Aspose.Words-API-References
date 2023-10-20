@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.Type
-second_title: Referencia de API de Aspose.Words para .NET
-description: ChartAxis propiedad. Devuelve el tipo del eje.
+linktitle: Type
+articleTitle: Type
+second_title: Aspose.Words para .NET
+description: ChartAxis Type propiedad. Devuelve el tipo del eje en C#.
 type: docs
 weight: 290
 url: /es/net/aspose.words.drawing.charts/chartaxis/type/
@@ -14,7 +16,7 @@ Devuelve el tipo del eje.
 public ChartAxisType Type { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear un tipo apropiado de serie de gráficos para un tipo de gráfico.
 
@@ -104,7 +106,5 @@ private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, d
 
 * enum [ChartAxisType](../../chartaxistype/)
 * class [ChartAxis](../)
-* espacio de nombres [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* espacio de nombres [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * asamblea [Aspose.Words](../../../)
-
-

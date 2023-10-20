@@ -1,7 +1,9 @@
 ---
 title: Odso.Clone
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Odso méthode. Renvoie un clone profond de cet objet.
+linktitle: Clone
+articleTitle: Clone
+second_title: Aspose.Words pour .NET
+description: Odso Clone méthode. Renvoie un clone profond de cet objet en C#.
 type: docs
 weight: 100
 url: /fr/net/aspose.words.settings/odso/clone/
@@ -14,7 +16,7 @@ Renvoie un clone profond de cet objet.
 public Odso Clone()
 ```
 
-### Exemples
+## Exemples
 
 Montre comment exécuter un publipostage avec des données provenant d’un objet source de données Office.
 
@@ -66,7 +68,5 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ### Voir également
 
 * class [Odso](../)
-* espace de noms [Aspose.Words.Settings](../../odso/)
+* espace de noms [Aspose.Words.Settings](../../../aspose.words.settings/)
 * Assemblée [Aspose.Words](../../../)
-
-

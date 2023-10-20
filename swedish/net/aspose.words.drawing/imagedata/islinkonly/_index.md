@@ -1,7 +1,9 @@
 ---
 title: ImageData.IsLinkOnly
-second_title: Aspose.Words för .NET API Referens
-description: ImageData fast egendom. ReturnerarSann om bilden är länkad och inte lagrad i dokumentet.
+linktitle: IsLinkOnly
+articleTitle: IsLinkOnly
+second_title: Aspose.Words för .NET
+description: ImageData IsLinkOnly fast egendom. ReturnerarSann om bilden är länkad och inte lagrad i dokumentet i C#.
 type: docs
 weight: 160
 url: /sv/net/aspose.words.drawing/imagedata/islinkonly/
@@ -14,7 +16,7 @@ Returnerar`Sann` om bilden är länkad och inte lagrad i dokumentet.
 public bool IsLinkOnly { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man redigerar en forms bilddata.
 
@@ -77,7 +79,5 @@ dstDoc.Save(ArtifactsDir + "Drawing.ImageData.docx");
 ### Se även
 
 * class [ImageData](../)
-* namnutrymme [Aspose.Words.Drawing](../../imagedata/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

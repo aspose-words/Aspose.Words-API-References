@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitFieldEnd
-second_title: Aspose.Words لمراجع .NET API
-description: DocumentVisitor طريقة. يتم استدعاؤه عندما ينتهي الحقل في المستند.
+linktitle: VisitFieldEnd
+articleTitle: VisitFieldEnd
+second_title: Aspose.Words لـ .NET
+description: DocumentVisitor VisitFieldEnd طريقة. يتم استدعاؤه عندما ينتهي الحقل في المستند في C#.
 type: docs
 weight: 180
 url: /ar/net/aspose.words/documentvisitor/visitfieldend/
@@ -22,11 +24,11 @@ public virtual VisitorAction VisitFieldEnd(FieldEnd fieldEnd)
 
 أ[`VisitorAction`](../../visitoraction/) القيمة التي تحدد كيفية متابعة التعداد.
 
-### ملاحظات
+## ملاحظات
 
 لمزيد من المعلومات انظر[`VisitFieldStart`](../visitfieldstart/)
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية طباعة بنية العقدة لكل حقل في المستند.
 
@@ -131,7 +133,5 @@ public class FieldStructurePrinter : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [FieldEnd](../../../aspose.words.fields/fieldend/)
 * class [DocumentVisitor](../)
-* مساحة الاسم [Aspose.Words](../../documentvisitor/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

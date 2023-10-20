@@ -1,7 +1,9 @@
 ---
 title: FieldIndex.PageNumberSeparator
-second_title: Aspose.Words per .NET API Reference
-description: FieldIndex proprietà. Ottiene o imposta la sequenza di caratteri utilizzata per separare una voce di indice e il relativo numero di pagina.
+linktitle: PageNumberSeparator
+articleTitle: PageNumberSeparator
+second_title: Aspose.Words per .NET
+description: FieldIndex PageNumberSeparator proprietà. Ottiene o imposta la sequenza di caratteri utilizzata per separare una voce di indice e il relativo numero di pagina in C#.
 type: docs
 weight: 120
 url: /it/net/aspose.words.fields/fieldindex/pagenumberseparator/
@@ -14,7 +16,7 @@ Ottiene o imposta la sequenza di caratteri utilizzata per separare una voce di i
 public string PageNumberSeparator { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come modificare il separatore del numero di pagina in un campo INDICE.
 
@@ -61,7 +63,5 @@ doc.Save(ArtifactsDir + "Field.INDEX.XE.PageNumberList.docx");
 ### Guarda anche
 
 * class [FieldIndex](../)
-* spazio dei nomi [Aspose.Words.Fields](../../fieldindex/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

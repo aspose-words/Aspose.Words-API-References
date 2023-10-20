@@ -1,7 +1,9 @@
 ---
 title: FieldMergeBarcode.DisplayText
-second_title: Aspose.Words لمراجع .NET API
-description: FieldMergeBarcode ملكية. الحصول على أو تعيين ما إذا كان سيتم عرض بيانات الباركود النص مع الصورة.
+linktitle: DisplayText
+articleTitle: DisplayText
+second_title: Aspose.Words لـ .NET
+description: FieldMergeBarcode DisplayText ملكية. الحصول على أو تعيين ما إذا كان سيتم عرض بيانات الباركود النص مع الصورة في C#.
 type: docs
 weight: 70
 url: /ar/net/aspose.words.fields/fieldmergebarcode/displaytext/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldmergebarcode/displaytext/
 public bool DisplayText { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إجراء دمج البريد على الرموز الشريطية EAN13.
 
@@ -60,7 +62,5 @@ doc.Save(ArtifactsDir + "Field.MERGEBARCODE.EAN13.docx");
 ### أنظر أيضا
 
 * class [FieldMergeBarcode](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldmergebarcode/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

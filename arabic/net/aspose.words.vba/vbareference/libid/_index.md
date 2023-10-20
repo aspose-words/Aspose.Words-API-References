@@ -1,7 +1,9 @@
 ---
 title: VbaReference.LibId
-second_title: Aspose.Words لمراجع .NET API
-description: VbaReference ملكية. الحصول على قيمة سلسلة تحتوي على معرف مكتبة نوع التنفيذ التلقائي.
+linktitle: LibId
+articleTitle: LibId
+second_title: Aspose.Words لـ .NET
+description: VbaReference LibId ملكية. الحصول على قيمة سلسلة تحتوي على معرف مكتبة نوع التنفيذ التلقائي في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.vba/vbareference/libid/
@@ -14,14 +16,14 @@ url: /ar/net/aspose.words.vba/vbareference/libid/
 public abstract string LibId { get; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 اعتمادا على نوع المرجع، يمكن أن تكون قيمة هذه الخاصية:
 
 * LibidReference المحدد في 2.1.1.8 LibidReference لـ [MS-OVBA]: https://docs.microsoft.com/en-us/openspecs/office_file_formats/ms-ovba/3737ef6e-d819-4186-a5f2-6e258ddf66a5
 * مرجع المشروع المحدد في 2.1.1.12 مرجع المشروع لـ [MS-OVBA]: https://docs.microsoft.com/en-us/openspecs/office_file_formats/ms-ovba/9a45ac1a-f1ff-4ebd-958e-537701aa8131
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الحصول على/إزالة عنصر من المجموعة المرجعية لـ VBA.
 
@@ -95,7 +97,5 @@ private static string GetLibIdProjectPath(string libIdProject)
 ### أنظر أيضا
 
 * class [VbaReference](../)
-* مساحة الاسم [Aspose.Words.Vba](../../vbareference/)
+* مساحة الاسم [Aspose.Words.Vba](../../../aspose.words.vba/)
 * المجسم [Aspose.Words](../../../)
-
-

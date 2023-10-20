@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitSmartTagStart
-second_title: Aspose.Words for .NET API 参考
-description: DocumentVisitor 方法. 在开始枚举智能标记时调用
+linktitle: VisitSmartTagStart
+articleTitle: VisitSmartTagStart
+second_title: 用于 .NET 的 Aspose.Words
+description: DocumentVisitor VisitSmartTagStart 方法. 在开始枚举智能标记时调用 在 C#.
 type: docs
 weight: 420
 url: /zh/net/aspose.words/documentvisitor/visitsmarttagstart/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitSmartTagStart(SmartTag smartTag)
 
 A[`VisitorAction`](../../visitoraction/)指定如何继续枚举的值。
 
-### 例子
+## 例子
 
 演示如何打印文档中每个智能标记的节点结构。
 
@@ -116,7 +118,5 @@ public class SmartTagStructurePrinter : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [SmartTag](../../../aspose.words.markup/smarttag/)
 * class [DocumentVisitor](../)
-* 命名空间 [Aspose.Words](../../documentvisitor/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

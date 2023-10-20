@@ -1,7 +1,9 @@
 ---
 title: MailMergeSettings.Odso
-second_title: Referencia de API de Aspose.Words para .NET
-description: MailMergeSettings propiedad. Obtiene o establece el objeto que especifica la configuración del objeto de origen de datos de Office ODSO.
+linktitle: Odso
+articleTitle: Odso
+second_title: Aspose.Words para .NET
+description: MailMergeSettings Odso propiedad. Obtiene o establece el objeto que especifica la configuración del objeto de origen de datos de Office ODSO en C#.
 type: docs
 weight: 150
 url: /es/net/aspose.words.settings/mailmergesettings/odso/
@@ -14,11 +16,11 @@ Obtiene o establece el objeto que especifica la configuración del objeto de ori
 public Odso Odso { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 Este objeto nunca es`nulo`.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo ejecutar una combinación de correspondencia con datos de un objeto de origen de datos de Office.
 
@@ -71,7 +73,5 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 
 * class [Odso](../../odso/)
 * class [MailMergeSettings](../)
-* espacio de nombres [Aspose.Words.Settings](../../mailmergesettings/)
+* espacio de nombres [Aspose.Words.Settings](../../../aspose.words.settings/)
 * asamblea [Aspose.Words](../../../)
-
-

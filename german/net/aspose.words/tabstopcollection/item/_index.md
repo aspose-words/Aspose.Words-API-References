@@ -1,7 +1,9 @@
 ---
 title: TabStopCollection.Item
-second_title: Aspose.Words für .NET-API-Referenz
-description: TabStopCollection eigendom. Ruft einen Tabstopp am angegebenen Index ab.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words für .NET
+description: TabStopCollection Item eigendom. Ruft einen Tabstopp am angegebenen Index ab in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words/tabstopcollection/item/
@@ -18,7 +20,7 @@ public TabStop this[int index] { get; }
 | --- | --- |
 | index | Ein Index in der Sammlung von Tabstopps. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit der Sammlung von Tabstopps eines Dokuments gearbeitet wird.
 
@@ -63,7 +65,7 @@ doc.Save(ArtifactsDir + "TabStopCollection.TabStopCollection.docx");
 
 * class [TabStop](../../tabstop/)
 * class [TabStopCollection](../)
-* namensraum [Aspose.Words](../../tabstopcollection/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
 
 ---
@@ -80,11 +82,11 @@ public TabStop this[double position] { get; }
 | --- | --- |
 | position | Die Position (in Punkt) des Tabstopps. |
 
-### Bemerkungen
+## Bemerkungen
 
 Gibt zurück`Null` wenn an der angegebenen Position kein Tabstopp gefunden wird.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit der Sammlung von Tabstopps eines Dokuments gearbeitet wird.
 
@@ -129,7 +131,5 @@ doc.Save(ArtifactsDir + "TabStopCollection.TabStopCollection.docx");
 
 * class [TabStop](../../tabstop/)
 * class [TabStopCollection](../)
-* namensraum [Aspose.Words](../../tabstopcollection/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

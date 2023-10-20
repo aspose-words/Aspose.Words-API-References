@@ -1,12 +1,14 @@
 ---
 title: ConvertUtil.PixelToPoint
-second_title: Aspose.Words per .NET API Reference
-description: ConvertUtil metodo. Converte i pixel in punti a 96 dpi.
+linktitle: PixelToPoint
+articleTitle: PixelToPoint
+second_title: Aspose.Words per .NET
+description: ConvertUtil PixelToPoint metodo. Converte i pixel in punti a 96 dpi in C#.
 type: docs
 weight: 40
 url: /it/net/aspose.words/convertutil/pixeltopoint/
 ---
-## PixelToPoint(double) {#pixeltopoint}
+## PixelToPoint(*double*) {#pixeltopoint}
 
 Converte i pixel in punti a 96 dpi.
 
@@ -18,11 +20,11 @@ public static double PixelToPoint(double pixels)
 | --- | --- | --- |
 | pixels | Double | Il valore da convertire. |
 
-### Osservazioni
+## Osservazioni
 
 1 pollice equivale a 72 punti.
 
-### Esempi
+## Esempi
 
 Mostra come specificare le proprietà della pagina in pixel.
 
@@ -58,12 +60,12 @@ doc.Save(ArtifactsDir + "UtilityClasses.PointsAndPixels.docx");
 ### Guarda anche
 
 * class [ConvertUtil](../)
-* spazio dei nomi [Aspose.Words](../../convertutil/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
 
 ---
 
-## PixelToPoint(double, double) {#pixeltopoint_1}
+## PixelToPoint(*double, double*) {#pixeltopoint_1}
 
 Converte i pixel in punti alla risoluzione pixel specificata.
 
@@ -76,11 +78,11 @@ public static double PixelToPoint(double pixels, double resolution)
 | pixels | Double | Il valore da convertire. |
 | resolution | Double | La risoluzione dpi (punti per pollice). |
 
-### Osservazioni
+## Osservazioni
 
 1 pollice equivale a 72 punti.
 
-### Esempi
+## Esempi
 
 Mostra come utilizzare i punti di conversione in pixel con risoluzione predefinita e personalizzata.
 
@@ -116,7 +118,5 @@ doc.Save(ArtifactsDir + "UtilityClasses.PointsAndPixelsDpi.docx");
 ### Guarda anche
 
 * class [ConvertUtil](../)
-* spazio dei nomi [Aspose.Words](../../convertutil/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

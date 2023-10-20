@@ -1,7 +1,9 @@
 ---
 title: Aspose.Words.Themes
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Themes пространство имен предоставляет классы которые позволяют получать доступ к информации о теме в документах Microsoft Word.
+linktitle: Aspose.Words.Themes
+articleTitle: Aspose.Words.Themes
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Themes пространство имен предоставляет классы которые позволяют получать доступ к информации о теме в документах Microsoft Word на С#.
 type: docs
 weight: 270
 url: /ru/net/aspose.words.themes/
@@ -21,5 +23,3 @@ url: /ru/net/aspose.words.themes/
 | --- | --- |
 | [ThemeColor](./themecolor/) | Определяет цвета темы для тем документов. |
 | [ThemeFont](./themefont/) | Указывает типы названий шрифтов темы для тем документов. |
-
-

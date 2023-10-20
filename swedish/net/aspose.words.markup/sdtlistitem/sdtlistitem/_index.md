@@ -1,12 +1,14 @@
 ---
-title: SdtListItem.SdtListItem
-second_title: Aspose.Words för .NET API Referens
-description: SdtListItem byggare. Initierar en ny instans av den här klassen.
+title: SdtListItem
+linktitle: SdtListItem
+articleTitle: SdtListItem
+second_title: Aspose.Words för .NET
+description: SdtListItem byggare. Initierar en ny instans av den här klassen i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.markup/sdtlistitem/sdtlistitem/
 ---
-## SdtListItem(string, string) {#constructor_1}
+## SdtListItem(*string, string*) {#constructor_1}
 
 Initierar en ny instans av den här klassen.
 
@@ -14,7 +16,7 @@ Initierar en ny instans av den här klassen.
 public SdtListItem(string displayText, string value)
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med strukturerade dokumenttaggar i listrutan.
 
@@ -71,12 +73,12 @@ Assert.AreEqual(0, listItems.Count);
 ### Se även
 
 * class [SdtListItem](../)
-* namnutrymme [Aspose.Words.Markup](../../sdtlistitem/)
+* namnutrymme [Aspose.Words.Markup](../../../aspose.words.markup/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## SdtListItem(string) {#constructor}
+## SdtListItem(*string*) {#constructor}
 
 Initierar en ny instans av den här klassen.
 
@@ -84,7 +86,7 @@ Initierar en ny instans av den här klassen.
 public SdtListItem(string value)
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med strukturerade dokumenttaggar i listrutan.
 
@@ -141,7 +143,5 @@ Assert.AreEqual(0, listItems.Count);
 ### Se även
 
 * class [SdtListItem](../)
-* namnutrymme [Aspose.Words.Markup](../../sdtlistitem/)
+* namnutrymme [Aspose.Words.Markup](../../../aspose.words.markup/)
 * hopsättning [Aspose.Words](../../../)
-
-

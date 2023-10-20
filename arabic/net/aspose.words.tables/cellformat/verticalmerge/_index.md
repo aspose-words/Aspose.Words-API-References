@@ -1,9 +1,11 @@
 ---
 title: CellFormat.VerticalMerge
-second_title: Aspose.Words لمراجع .NET API
-description: CellFormat ملكية. يحدد كيفية دمج الخلية مع الخلايا الأخرى عموديًا.
+linktitle: VerticalMerge
+articleTitle: VerticalMerge
+second_title: Aspose.Words لـ .NET
+description: CellFormat VerticalMerge ملكية. يحدد كيفية دمج الخلية مع الخلايا الأخرى عموديًا في C#.
 type: docs
-weight: 130
+weight: 120
 url: /ar/net/aspose.words.tables/cellformat/verticalmerge/
 ---
 ## CellFormat.VerticalMerge property
@@ -14,13 +16,13 @@ url: /ar/net/aspose.words.tables/cellformat/verticalmerge/
 public CellMerge VerticalMerge { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 لا يمكن دمج الخلايا رأسيًا إلا إذا كانت حدودها اليمنى واليسرى متطابقة.
 
 عندما يتم دمج الخلايا رأسيًا، يتم دمج مساحات العرض للخلايا المدمجة. يتم استخدام المنطقة المدمجة لعرض محتويات الخلية المدمجة رأسيًا الأولى ويجب أن تكون كافة الخلايا الأخرى المدمجة رأسيًا فارغة.
 
-### أمثلة
+## أمثلة
 
 طباعة نوع الدمج الأفقي والرأسي للخلية.
 
@@ -89,7 +91,5 @@ doc.Save(ArtifactsDir + "CellFormat.VerticalMerge.docx");
 
 * enum [CellMerge](../../cellmerge/)
 * class [CellFormat](../)
-* مساحة الاسم [Aspose.Words.Tables](../../cellformat/)
+* مساحة الاسم [Aspose.Words.Tables](../../../aspose.words.tables/)
 * المجسم [Aspose.Words](../../../)
-
-

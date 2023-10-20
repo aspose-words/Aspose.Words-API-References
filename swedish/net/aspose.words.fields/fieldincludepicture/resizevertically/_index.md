@@ -1,7 +1,9 @@
 ---
 title: FieldIncludePicture.ResizeVertically
-second_title: Aspose.Words för .NET API Referens
-description: FieldIncludePicture fast egendom. Hämtar eller ställer in om bilden ska ändras vertikalt från källan.
+linktitle: ResizeVertically
+articleTitle: ResizeVertically
+second_title: Aspose.Words för .NET
+description: FieldIncludePicture ResizeVertically fast egendom. Hämtar eller ställer in om bilden ska ändras vertikalt från källan i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.fields/fieldincludepicture/resizevertically/
@@ -14,7 +16,7 @@ Hämtar eller ställer in om bilden ska ändras vertikalt från källan.
 public bool ResizeVertically { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man infogar bilder med hjälp av IMPORT- och INCLUDEPICTURE-fälten.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "Field.IMPORT.INCLUDEPICTURE.docx");
 ### Se även
 
 * class [FieldIncludePicture](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldincludepicture/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

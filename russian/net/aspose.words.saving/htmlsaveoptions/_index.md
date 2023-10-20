@@ -1,7 +1,9 @@
 ---
-title: Class HtmlSaveOptions
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Saving.HtmlSaveOptions сорт. Может использоваться для указания дополнительных параметров при сохранении документа в .Html Mhtml Epub  Azw3 илиMobi формат.
+title: HtmlSaveOptions Class
+linktitle: HtmlSaveOptions
+articleTitle: HtmlSaveOptions
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Saving.HtmlSaveOptions сорт. Может использоваться для указания дополнительных параметров при сохранении документа в .Html Mhtml Epub  Azw3 илиMobi формат на С#.
 type: docs
 weight: 5110
 url: /ru/net/aspose.words.saving/htmlsaveoptions/
@@ -21,7 +23,7 @@ public class HtmlSaveOptions : SaveOptions
 | Имя | Описание |
 | --- | --- |
 | [HtmlSaveOptions](htmlsaveoptions/#constructor)() | Инициализирует новый экземпляр этого класса, который можно использовать для сохранения документа document вHtml формат. |
-| [HtmlSaveOptions](htmlsaveoptions/#constructor_1)(SaveFormat) | Инициализирует новый экземпляр этого класса, который можно использовать для сохранения документа document вHtml ,Mhtml ,Epub , Azw3 илиMobi формат. |
+| [HtmlSaveOptions](htmlsaveoptions/#constructor_1)(*[SaveFormat](../../aspose.words/saveformat/)*) | Инициализирует новый экземпляр этого класса, который можно использовать для сохранения документа document вHtml ,Mhtml ,Epub , Azw3 илиMobi формат. |
 
 ## Характеристики
 
@@ -34,7 +36,7 @@ public class HtmlSaveOptions : SaveOptions
 | [CssStyleSheetFileName](../../aspose.words.saving/htmlsaveoptions/cssstylesheetfilename/) { get; set; } | Указывает путь и имя файла каскадной таблицы стилей (CSS), записываемого при экспорте документа в HTML. По умолчанию — пустая строка. |
 | [CssStyleSheetType](../../aspose.words.saving/htmlsaveoptions/cssstylesheettype/) { get; set; } | Указывает, как стили CSS (каскадная таблица стилей) экспортируются в HTML, MHTML или EPUB. Значение по умолчанию:Inline для HTML/MHTML и External для EPUB. |
 | [CustomTimeZoneInfo](../../aspose.words.saving/saveoptions/customtimezoneinfo/) { get; set; } | Получает или задает пользовательский часовой пояс, используемый для полей даты и времени. |
-| [DefaultTemplate](../../aspose.words.saving/saveoptions/defaulttemplate/) { get; set; } | Получает или задает путь к шаблону по умолчанию (включая имя файла). Значение по умолчанию для этого свойства: **пустая строка** (Empty). |
+| [DefaultTemplate](../../aspose.words.saving/saveoptions/defaulttemplate/) { get; set; } | Получает или задает путь к шаблону по умолчанию (включая имя файла). Значение по умолчанию для этого свойства:**пустая строка** (Empty). |
 | [Dml3DEffectsRenderingMode](../../aspose.words.saving/saveoptions/dml3deffectsrenderingmode/) { get; set; } | Получает или задает значение, определяющее способ визуализации 3D-эффектов. |
 | virtual [DmlEffectsRenderingMode](../../aspose.words.saving/saveoptions/dmleffectsrenderingmode/) { get; set; } | Получает или задает значение, определяющее способ визуализации эффектов DrawingML. |
 | [DmlRenderingMode](../../aspose.words.saving/saveoptions/dmlrenderingmode/) { get; set; } | Получает или задает значение, определяющее способ отрисовки фигур DrawingML. |
@@ -91,7 +93,7 @@ public class HtmlSaveOptions : SaveOptions
 | [UseAntiAliasing](../../aspose.words.saving/saveoptions/useantialiasing/) { get; set; } | Получает или задает значение, определяющее, использовать ли сглаживание для рендеринга. |
 | [UseHighQualityRendering](../../aspose.words.saving/saveoptions/usehighqualityrendering/) { get; set; } | Получает или задает значение, определяющее, следует ли использовать алгоритмы высококачественного (т. е. медленного) рендеринга. |
 
-### Примеры
+## Примеры
 
 Показывает, как указать папку для хранения связанных изображений после сохранения в .html.
 
@@ -254,5 +256,3 @@ public class SavedImageRename : IImageSavingCallback
 * class [SaveOptions](../saveoptions/)
 * пространство имен [Aspose.Words.Saving](../../aspose.words.saving/)
 * сборка [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: MailMergeSettings.Query
-second_title: Aspose.Words för .NET API Referens
-description: MailMergeSettings fast egendom. Innehåller Structured Query Languagesträngen som ska köras mot den angivna externa datakällan för att returnera den uppsättning poster som ska importeras till dokumentet när kopplingsoperationen utförs. Standardvärdet är en tom sträng.
+linktitle: Query
+articleTitle: Query
+second_title: Aspose.Words för .NET
+description: MailMergeSettings Query fast egendom. Innehåller Structured Query Languagesträngen som ska köras mot den angivna externa datakällan för att returnera den uppsättning poster som ska importeras till dokumentet när kopplingsoperationen utförs. Standardvärdet är en tom sträng i C#.
 type: docs
 weight: 160
 url: /sv/net/aspose.words.settings/mailmergesettings/query/
@@ -14,7 +16,7 @@ Innehåller Structured Query Language-strängen som ska köras mot den angivna e
 public string Query { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man kör en sammankoppling med data från ett Office-datakällobjekt.
 
@@ -66,7 +68,5 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ### Se även
 
 * class [MailMergeSettings](../)
-* namnutrymme [Aspose.Words.Settings](../../mailmergesettings/)
+* namnutrymme [Aspose.Words.Settings](../../../aspose.words.settings/)
 * hopsättning [Aspose.Words](../../../)
-
-

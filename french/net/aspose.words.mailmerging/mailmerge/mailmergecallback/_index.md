@@ -1,7 +1,9 @@
 ---
 title: MailMerge.MailMergeCallback
-second_title: Référence de l'API Aspose.Words pour .NET
-description: MailMerge propriété. Permet de gérer des événements particuliers lors du publipostage.
+linktitle: MailMergeCallback
+articleTitle: MailMergeCallback
+second_title: Aspose.Words pour .NET
+description: MailMerge MailMergeCallback propriété. Permet de gérer des événements particuliers lors du publipostage en C#.
 type: docs
 weight: 40
 url: /fr/net/aspose.words.mailmerging/mailmerge/mailmergecallback/
@@ -14,7 +16,7 @@ Permet de gérer des événements particuliers lors du publipostage.
 public IMailMergeCallback MailMergeCallback { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment définir une logique personnalisée pour gérer les événements lors du publipostage.
 
@@ -66,7 +68,5 @@ private class MailMergeTagReplacementCounter : IMailMergeCallback
 
 * interface [IMailMergeCallback](../../imailmergecallback/)
 * class [MailMerge](../)
-* espace de noms [Aspose.Words.MailMerging](../../mailmerge/)
+* espace de noms [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * Assemblée [Aspose.Words](../../../)
-
-

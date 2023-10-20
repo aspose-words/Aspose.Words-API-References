@@ -1,7 +1,9 @@
 ---
 title: FontInfo.Charset
-second_title: Referencia de API de Aspose.Words para .NET
-description: FontInfo propiedad. Obtiene o establece el juego de caracteres para la fuente.
+linktitle: Charset
+articleTitle: Charset
+second_title: Aspose.Words para .NET
+description: FontInfo Charset propiedad. Obtiene o establece el juego de caracteres para la fuente en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words.fonts/fontinfo/charset/
@@ -14,7 +16,7 @@ Obtiene o establece el juego de caracteres para la fuente.
 public int Charset { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo acceder e imprimir detalles de cada fuente en un documento.
 
@@ -53,7 +55,5 @@ while (fontCollectionEnumerator.MoveNext())
 ### Ver también
 
 * class [FontInfo](../)
-* espacio de nombres [Aspose.Words.Fonts](../../fontinfo/)
+* espacio de nombres [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * asamblea [Aspose.Words](../../../)
-
-

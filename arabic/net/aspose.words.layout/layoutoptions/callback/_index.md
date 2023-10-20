@@ -1,7 +1,9 @@
 ---
 title: LayoutOptions.Callback
-second_title: Aspose.Words لمراجع .NET API
-description: LayoutOptions ملكية. يحصل على أو مجموعاتIPageLayoutCallback التنفيذ المستخدم بواسطة نموذج تخطيط الصفحة.
+linktitle: Callback
+articleTitle: Callback
+second_title: Aspose.Words لـ .NET
+description: LayoutOptions Callback ملكية. يحصل على أو مجموعاتIPageLayoutCallback التنفيذ المستخدم بواسطة نموذج تخطيط الصفحة في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.layout/layoutoptions/callback/
@@ -18,7 +20,5 @@ public IPageLayoutCallback Callback { get; set; }
 
 * interface [IPageLayoutCallback](../../ipagelayoutcallback/)
 * class [LayoutOptions](../)
-* مساحة الاسم [Aspose.Words.Layout](../../layoutoptions/)
+* مساحة الاسم [Aspose.Words.Layout](../../../aspose.words.layout/)
 * المجسم [Aspose.Words](../../../)
-
-

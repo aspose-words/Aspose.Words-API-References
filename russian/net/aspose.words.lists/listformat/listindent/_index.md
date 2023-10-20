@@ -1,7 +1,9 @@
 ---
 title: ListFormat.ListIndent
-second_title: Справочник по API Aspose.Words для .NET
-description: ListFormat метод. Увеличивает уровень списка текущего абзаца на один уровень.
+linktitle: ListIndent
+articleTitle: ListIndent
+second_title: Aspose.Words для .NET
+description: ListFormat ListIndent метод. Увеличивает уровень списка текущего абзаца на один уровень на С#.
 type: docs
 weight: 70
 url: /ru/net/aspose.words.lists/listformat/listindent/
@@ -14,13 +16,13 @@ url: /ru/net/aspose.words.lists/listformat/listindent/
 public void ListIndent()
 ```
 
-### Примечания
+## Примечания
 
 Этот метод изменяет уровень списка и применяет свойства форматирования нового уровня.
 
 В документах Word списки могут состоять из девяти уровней. В списке formatting для каждого уровня указывается, какой маркер или номер используется, отступ слева, пробел между маркером и текстом и т. д.
 
-### Примеры
+## Примеры
 
 Показывает, как создавать маркированные и нумерованные списки.
 
@@ -105,7 +107,5 @@ doc.Save(ArtifactsDir + "Lists.ApplyDefaultBulletsAndNumbers.docx");
 ### Смотрите также
 
 * class [ListFormat](../)
-* пространство имен [Aspose.Words.Lists](../../listformat/)
+* пространство имен [Aspose.Words.Lists](../../../aspose.words.lists/)
 * сборка [Aspose.Words](../../../)
-
-

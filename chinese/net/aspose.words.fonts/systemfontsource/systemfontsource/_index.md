@@ -1,7 +1,9 @@
 ---
-title: SystemFontSource.SystemFontSource
-second_title: Aspose.Words for .NET API 参考
-description: SystemFontSource 构造函数. 向量.
+title: SystemFontSource
+linktitle: SystemFontSource
+articleTitle: SystemFontSource
+second_title: 用于 .NET 的 Aspose.Words
+description: SystemFontSource 构造函数. 向量 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.fonts/systemfontsource/systemfontsource/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fonts/systemfontsource/systemfontsource/
 public SystemFontSource()
 ```
 
-### 例子
+## 例子
 
 演示如何访问文档的系统字体源并设置字体替代品。
 
@@ -70,12 +72,12 @@ Assert.AreEqual(1,
 ### 也可以看看
 
 * class [SystemFontSource](../)
-* 命名空间 [Aspose.Words.Fonts](../../systemfontsource/)
+* 命名空间 [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## SystemFontSource(int) {#constructor_1}
+## SystemFontSource(*int*) {#constructor_1}
 
 向量.
 
@@ -87,7 +89,7 @@ public SystemFontSource(int priority)
 | --- | --- | --- |
 | priority | Int32 | 字体来源优先。请参阅[`Priority`](../../fontsourcebase/priority/)属性描述以获取更多信息。 |
 
-### 例子
+## 例子
 
 演示如何访问文档的系统字体源并设置字体替代品。
 
@@ -143,7 +145,5 @@ Assert.AreEqual(1,
 ### 也可以看看
 
 * class [SystemFontSource](../)
-* 命名空间 [Aspose.Words.Fonts](../../systemfontsource/)
+* 命名空间 [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * 部件 [Aspose.Words](../../../)
-
-

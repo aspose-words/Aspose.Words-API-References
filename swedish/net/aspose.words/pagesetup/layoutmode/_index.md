@@ -1,7 +1,9 @@
 ---
 title: PageSetup.LayoutMode
-second_title: Aspose.Words för .NET API Referens
-description: PageSetup fast egendom. Hämtar eller ställer in layoutläget för detta avsnitt.
+linktitle: LayoutMode
+articleTitle: LayoutMode
+second_title: Aspose.Words för .NET
+description: PageSetup LayoutMode fast egendom. Hämtar eller ställer in layoutläget för detta avsnitt i C#.
 type: docs
 weight: 190
 url: /sv/net/aspose.words/pagesetup/layoutmode/
@@ -14,7 +16,7 @@ Hämtar eller ställer in layoutläget för detta avsnitt.
 public SectionLayoutMode LayoutMode { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man anger a för antalet tecken som varje rad kan ha.
 
@@ -59,7 +61,5 @@ doc.Save(ArtifactsDir + "PageSetup.LinesPerPage.docx");
 
 * enum [SectionLayoutMode](../../sectionlayoutmode/)
 * class [PageSetup](../)
-* namnutrymme [Aspose.Words](../../pagesetup/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ResourceSavingArgs.KeepResourceStreamOpen
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ResourceSavingArgs propriété. Spécifie si Aspose.Words doit garder le flux ouvert ou le fermer après avoir enregistré une ressource.
+linktitle: KeepResourceStreamOpen
+articleTitle: KeepResourceStreamOpen
+second_title: Aspose.Words pour .NET
+description: ResourceSavingArgs KeepResourceStreamOpen propriété. Spécifie si Aspose.Words doit garder le flux ouvert ou le fermer après avoir enregistré une ressource en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.saving/resourcesavingargs/keepresourcestreamopen/
@@ -14,11 +16,11 @@ Spécifie si Aspose.Words doit garder le flux ouvert ou le fermer après avoir e
 public bool KeepResourceStreamOpen { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 La valeur par défaut est`FAUX` et Aspose.Words fermera le flux que vous avez fourni dans le[`ResourceStream`](../resourcestream/) propriété après y avoir écrit une ressource. Spécifiez`vrai` pour garder le flux ouvert.
 
-### Exemples
+## Exemples
 
 Montre comment utiliser un rappel pour imprimer les URI des ressources externes créées lors de la conversion d'un document en HTML.
 
@@ -97,7 +99,5 @@ private class ResourceUriPrinter : IResourceSavingCallback
 ### Voir également
 
 * class [ResourceSavingArgs](../)
-* espace de noms [Aspose.Words.Saving](../../resourcesavingargs/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: VbaProject.IsSigned
-second_title: Aspose.Words für .NET-API-Referenz
-description: VbaProject eigendom. Zeigt an ob dieVbaProject ist signiert oder nicht.
+linktitle: IsSigned
+articleTitle: IsSigned
+second_title: Aspose.Words für .NET
+description: VbaProject IsSigned eigendom. Zeigt an ob dieVbaProject ist signiert oder nicht in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.vba/vbaproject/issigned/
@@ -14,7 +16,7 @@ Zeigt an, ob die[`VbaProject`](../) ist signiert oder nicht.
 public bool IsSigned { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie auf die VBA-Projektinformationen eines Dokuments zugegriffen wird.
 
@@ -45,7 +47,5 @@ vbaModules.Remove(vbaModules[2]);
 ### Siehe auch
 
 * class [VbaProject](../)
-* namensraum [Aspose.Words.Vba](../../vbaproject/)
+* namensraum [Aspose.Words.Vba](../../../aspose.words.vba/)
 * Montage [Aspose.Words](../../../)
-
-

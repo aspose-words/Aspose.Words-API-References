@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.UseWord2002TableStyleRules
-second_title: Aspose.Words لمراجع .NET API
-description: CompatibilityOptions ملكية. محاكاة قواعد نمط جدول Word 2002.
+linktitle: UseWord2002TableStyleRules
+articleTitle: UseWord2002TableStyleRules
+second_title: Aspose.Words لـ .NET
+description: CompatibilityOptions UseWord2002TableStyleRules ملكية. محاكاة قواعد نمط جدول Word 2002 في C#.
 type: docs
 weight: 660
 url: /ar/net/aspose.words.settings/compatibilityoptions/useword2002tablestylerules/
@@ -17,7 +19,5 @@ public bool UseWord2002TableStyleRules { get; set; }
 ### أنظر أيضا
 
 * class [CompatibilityOptions](../)
-* مساحة الاسم [Aspose.Words.Settings](../../compatibilityoptions/)
+* مساحة الاسم [Aspose.Words.Settings](../../../aspose.words.settings/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,12 +1,14 @@
 ---
-title: ComparisonEvaluationResult.ComparisonEvaluationResult
-second_title: Aspose.Words لمراجع .NET API
-description: ComparisonEvaluationResult البناء. إنشاء نتيجة تقييم المقارنة.
+title: ComparisonEvaluationResult
+linktitle: ComparisonEvaluationResult
+articleTitle: ComparisonEvaluationResult
+second_title: Aspose.Words لـ .NET
+description: ComparisonEvaluationResult البناء. إنشاء نتيجة تقييم المقارنة في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fields/comparisonevaluationresult/comparisonevaluationresult/
 ---
-## ComparisonEvaluationResult(bool) {#constructor}
+## ComparisonEvaluationResult(*bool*) {#constructor}
 
 إنشاء نتيجة تقييم المقارنة.
 
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/comparisonevaluationresult/comparisonevaluation
 public ComparisonEvaluationResult(bool result)
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تنفيذ التقييم المخصص لحقول IF وCOMPARE.
 
@@ -98,12 +100,12 @@ private class ComparisonExpressionEvaluator : IComparisonExpressionEvaluator
 ### أنظر أيضا
 
 * class [ComparisonEvaluationResult](../)
-* مساحة الاسم [Aspose.Words.Fields](../../comparisonevaluationresult/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## ComparisonEvaluationResult(string) {#constructor_1}
+## ComparisonEvaluationResult(*string*) {#constructor_1}
 
 إنشاء نتيجة تقييم مقارنة فاشلة مع رسالة الخطأ المقابلة.
 
@@ -111,7 +113,7 @@ private class ComparisonExpressionEvaluator : IComparisonExpressionEvaluator
 public ComparisonEvaluationResult(string errorMessage)
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تنفيذ التقييم المخصص لحقول IF وCOMPARE.
 
@@ -195,7 +197,5 @@ private class ComparisonExpressionEvaluator : IComparisonExpressionEvaluator
 ### أنظر أيضا
 
 * class [ComparisonEvaluationResult](../)
-* مساحة الاسم [Aspose.Words.Fields](../../comparisonevaluationresult/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

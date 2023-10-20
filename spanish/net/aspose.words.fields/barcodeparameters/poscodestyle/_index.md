@@ -1,7 +1,9 @@
 ---
 title: BarcodeParameters.PosCodeStyle
-second_title: Referencia de API de Aspose.Words para .NET
-description: BarcodeParameters propiedad. Estilo de un código de barras de Punto de Venta tipos de códigos de barras UPCAUPCEEAN13EAN8. Los valores válidos sin distinguir entre mayúsculas y minúsculas son STDSUP2SUP5CASE.
+linktitle: PosCodeStyle
+articleTitle: PosCodeStyle
+second_title: Aspose.Words para .NET
+description: BarcodeParameters PosCodeStyle propiedad. Estilo de un código de barras de Punto de Venta tipos de códigos de barras UPCAUPCEEAN13EAN8. Los valores válidos sin distinguir entre mayúsculas y minúsculas son STDSUP2SUP5CASE en C#.
 type: docs
 weight: 140
 url: /es/net/aspose.words.fields/barcodeparameters/poscodestyle/
@@ -14,7 +16,7 @@ Estilo de un código de barras de Punto de Venta (tipos de códigos de barras UP
 public string PosCodeStyle { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo utilizar un generador de códigos de barras.
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.docx");
 ### Ver también
 
 * class [BarcodeParameters](../)
-* espacio de nombres [Aspose.Words.Fields](../../barcodeparameters/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

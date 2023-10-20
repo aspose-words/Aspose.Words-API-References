@@ -1,7 +1,9 @@
 ---
 title: PageSet.Odd
-second_title: Aspose.Words für .NET-API-Referenz
-description: PageSet eigendom. Ruft einen Satz mit allen ungeraden Seiten des Dokuments in ihrer ursprünglichen Reihenfolge ab.
+linktitle: Odd
+articleTitle: Odd
+second_title: Aspose.Words für .NET
+description: PageSet Odd eigendom. Ruft einen Satz mit allen ungeraden Seiten des Dokuments in ihrer ursprünglichen Reihenfolge ab in C#.
 type: docs
 weight: 40
 url: /de/net/aspose.words.saving/pageset/odd/
@@ -14,14 +16,12 @@ Ruft einen Satz mit allen ungeraden Seiten des Dokuments in ihrer ursprüngliche
 public static PageSet Odd { get; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Ungerade Seiten haben gerade Indizes, da Seitenindizes auf Null basieren.
 
 ### Siehe auch
 
 * class [PageSet](../)
-* namensraum [Aspose.Words.Saving](../../pageset/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

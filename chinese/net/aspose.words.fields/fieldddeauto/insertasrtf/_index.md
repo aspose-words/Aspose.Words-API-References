@@ -1,7 +1,9 @@
 ---
 title: FieldDdeAuto.InsertAsRtf
-second_title: Aspose.Words for .NET API 参考
-description: FieldDdeAuto 财产. 获取或设置是否以富文本格式 RTF 插入链接对象
+linktitle: InsertAsRtf
+articleTitle: InsertAsRtf
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldDdeAuto InsertAsRtf 财产. 获取或设置是否以富文本格式 RTF 插入链接对象 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words.fields/fieldddeauto/insertasrtf/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fieldddeauto/insertasrtf/
 public bool InsertAsRtf { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何使用各种字段类型链接到本地文件系统中的其他文档并显示其内容。
 
@@ -197,7 +199,5 @@ public enum InsertLinkedObjectAs
 ### 也可以看看
 
 * class [FieldDdeAuto](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldddeauto/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

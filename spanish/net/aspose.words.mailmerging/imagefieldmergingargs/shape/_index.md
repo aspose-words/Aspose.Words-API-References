@@ -1,7 +1,9 @@
 ---
 title: ImageFieldMergingArgs.Shape
-second_title: Referencia de API de Aspose.Words para .NET
-description: ImageFieldMergingArgs propiedad. Especifica la forma que el motor de combinación de correspondencia debe insertar en el documento.
+linktitle: Shape
+articleTitle: Shape
+second_title: Aspose.Words para .NET
+description: ImageFieldMergingArgs Shape propiedad. Especifica la forma que el motor de combinación de correspondencia debe insertar en el documento en C#.
 type: docs
 weight: 60
 url: /es/net/aspose.words.mailmerging/imagefieldmergingargs/shape/
@@ -14,7 +16,7 @@ Especifica la forma que el motor de combinación de correspondencia debe inserta
 public Shape Shape { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 Cuando se especifica esta propiedad, el motor de combinación de correspondencia ignora todas las demás propiedades como[`ImageFileName`](../imagefilename/) o[`ImageStream`](../imagestream/) y simplemente inserta la forma en el documento.
 
@@ -24,7 +26,5 @@ Utilice esta propiedad para controlar completamente el proceso de combinación d
 
 * class [Shape](../../../aspose.words.drawing/shape/)
 * class [ImageFieldMergingArgs](../)
-* espacio de nombres [Aspose.Words.MailMerging](../../imagefieldmergingargs/)
+* espacio de nombres [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * asamblea [Aspose.Words](../../../)
-
-

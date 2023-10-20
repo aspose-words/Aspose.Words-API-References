@@ -1,7 +1,9 @@
 ---
 title: Row.Cells
-second_title: Aspose.Words لمراجع .NET API
-description: Row ملكية. يوفر الوصول المكتوب إلىCell العقد الفرعية للصف.
+linktitle: Cells
+articleTitle: Cells
+second_title: Aspose.Words لـ .NET
+description: Row Cells ملكية. يوفر الوصول المكتوب إلىCell العقد الفرعية للصف في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.tables/row/cells/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.tables/row/cells/
 public CellCollection Cells { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التكرار عبر كافة الجداول في المستند وطباعة محتويات كل خلية.
 
@@ -61,7 +63,5 @@ for (int i = 0; i < tables.Count; i++)
 
 * class [CellCollection](../../cellcollection/)
 * class [Row](../)
-* مساحة الاسم [Aspose.Words.Tables](../../row/)
+* مساحة الاسم [Aspose.Words.Tables](../../../aspose.words.tables/)
 * المجسم [Aspose.Words](../../../)
-
-

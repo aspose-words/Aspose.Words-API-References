@@ -1,7 +1,9 @@
 ---
 title: FieldOptions.PreProcessCulture
-second_title: Aspose.Words for .NET API 参考
-description: FieldOptions 财产. 获取或设置区域性以预处理字段值
+linktitle: PreProcessCulture
+articleTitle: PreProcessCulture
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldOptions PreProcessCulture 财产. 获取或设置区域性以预处理字段值 在 C#.
 type: docs
 weight: 170
 url: /zh/net/aspose.words.fields/fieldoptions/preprocessculture/
@@ -14,13 +16,13 @@ url: /zh/net/aspose.words.fields/fieldoptions/preprocessculture/
 public CultureInfo PreProcessCulture { get; set; }
 ```
 
-### 评论
+## 评论
 
 目前该属性仅影响[`FieldDocProperty`](../../fielddocproperty/)场地。
 
 默认值为`无效的` 。当该属性设置为`无效的`， 这[`FieldDocProperty`](../../fielddocproperty/)字段的值是 preprocessed ，其区域性由[`FieldUpdateCultureSource`](../fieldupdateculturesource/)财产。
 
-### 例子
+## 例子
 
 演示如何设置预处理区域性。
 
@@ -47,7 +49,5 @@ Assert.IsTrue(Regex.Match(field.Result, @"\d{2}[/]\d{2}[/]\d{4} \d{2}[:]\d{2}").
 ### 也可以看看
 
 * class [FieldOptions](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldoptions/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class Paragraph
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Paragraph classe. Représente un paragraphe de texte.
+title: Paragraph Class
+linktitle: Paragraph
+articleTitle: Paragraph
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Paragraph classe. Représente un paragraphe de texte en C#.
 type: docs
 weight: 4390
 url: /fr/net/aspose.words/paragraph/
@@ -20,7 +22,7 @@ public class Paragraph : CompositeNode
 
 | Nom | La description |
 | --- | --- |
-| [Paragraph](paragraph/)(DocumentBase) | Initialise une nouvelle instance du`Paragraph` classe. |
+| [Paragraph](paragraph/)(*[DocumentBase](../documentbase/)*) | Initialise une nouvelle instance du`Paragraph` classe. |
 
 ## Propriétés
 
@@ -63,42 +65,40 @@ public class Paragraph : CompositeNode
 
 | Nom | La description |
 | --- | --- |
-| override [Accept](../../aspose.words/paragraph/accept/)(DocumentVisitor) | Accepte un visiteur. |
-| override [AcceptEnd](../../aspose.words/paragraph/acceptend/)(DocumentVisitor) |  |
-| override [AcceptStart](../../aspose.words/paragraph/acceptstart/)(DocumentVisitor) |  |
-| [AppendChild&lt;T&gt;](../../aspose.words/compositenode/appendchild/)(T) |  |
-| [AppendField](../../aspose.words/paragraph/appendfield/#appendfield_1)(string) | Ajoute un champ à ce paragraphe. |
-| [AppendField](../../aspose.words/paragraph/appendfield/#appendfield)(FieldType, bool) | Ajoute un champ à ce paragraphe. |
-| [AppendField](../../aspose.words/paragraph/appendfield/#appendfield_2)(string, string) | Ajoute un champ à ce paragraphe. |
-| [Clone](../../aspose.words/node/clone/)(bool) | Crée un duplicata du nœud. |
+| override [Accept](../../aspose.words/paragraph/accept/)(*[DocumentVisitor](../documentvisitor/)*) | Accepte un visiteur. |
+| [AppendChild](../../aspose.words/compositenode/appendchild/)(*[Node](../node/)*) | Ajoute le nœud spécifié à la fin de la liste des nœuds enfants pour ce nœud. |
+| [AppendField](../../aspose.words/paragraph/appendfield/#appendfield_1)(*string*) | Ajoute un champ à ce paragraphe. |
+| [AppendField](../../aspose.words/paragraph/appendfield/#appendfield)(*[FieldType](../../aspose.words.fields/fieldtype/), bool*) | Ajoute un champ à ce paragraphe. |
+| [AppendField](../../aspose.words/paragraph/appendfield/#appendfield_2)(*string, string*) | Ajoute un champ à ce paragraphe. |
+| [Clone](../../aspose.words/node/clone/)(*bool*) | Crée un duplicata du nœud. |
 | [CreateNavigator](../../aspose.words/compositenode/createnavigator/)() | Crée un navigateur qui peut être utilisé pour parcourir et lire des nœuds. |
-| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Obtient le premier ancêtre du spécifié[`NodeType`](../nodetype/) . |
-| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Obtient le premier ancêtre du type d'objet spécifié. |
-| [GetChild](../../aspose.words/compositenode/getchild/)(NodeType, int, bool) | Renvoie un Nième nœud enfant qui correspond au type spécifié. |
-| [GetChildNodes](../../aspose.words/compositenode/getchildnodes/)(NodeType, bool) | Renvoie une collection active de nœuds enfants qui correspondent au type spécifié. |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*[NodeType](../nodetype/)*) | Obtient le premier ancêtre du spécifié[`NodeType`](../nodetype/) . |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | Obtient le premier ancêtre du type d'objet spécifié. |
+| [GetChild](../../aspose.words/compositenode/getchild/)(*[NodeType](../nodetype/), int, bool*) | Renvoie un Nième nœud enfant qui correspond au type spécifié. |
+| [GetChildNodes](../../aspose.words/compositenode/getchildnodes/)(*[NodeType](../nodetype/), bool*) | Renvoie une collection active de nœuds enfants qui correspondent au type spécifié. |
 | [GetEffectiveTabStops](../../aspose.words/paragraph/geteffectivetabstops/)() | Renvoie un tableau de tous les taquets de tabulation appliqués à ce paragraphe, y compris ceux appliqués indirectement par les styles ou les listes. |
 | [GetEnumerator](../../aspose.words/compositenode/getenumerator/)() | Fournit la prise en charge de chaque itération de style sur les nœuds enfants de ce nœud. |
 | override [GetText](../../aspose.words/paragraph/gettext/)() | Obtient le texte de ce paragraphe, y compris le caractère de fin de paragraphe. |
-| [IndexOf](../../aspose.words/compositenode/indexof/)(Node) | Renvoie l'index du nœud enfant spécifié dans le tableau de nœuds enfants. |
-| [InsertAfter&lt;T&gt;](../../aspose.words/compositenode/insertafter/)(T, Node) |  |
-| [InsertBefore&lt;T&gt;](../../aspose.words/compositenode/insertbefore/)(T, Node) |  |
-| [InsertField](../../aspose.words/paragraph/insertfield/#insertfield_1)(string, Node, bool) | Insère un champ dans ce paragraphe. |
-| [InsertField](../../aspose.words/paragraph/insertfield/#insertfield)(FieldType, bool, Node, bool) | Insère un champ dans ce paragraphe. |
-| [InsertField](../../aspose.words/paragraph/insertfield/#insertfield_2)(string, string, Node, bool) | Insère un champ dans ce paragraphe. |
+| [IndexOf](../../aspose.words/compositenode/indexof/)(*[Node](../node/)*) | Renvoie l'index du nœud enfant spécifié dans le tableau de nœuds enfants. |
+| [InsertAfter](../../aspose.words/compositenode/insertafter/)(*[Node](../node/), [Node](../node/)*) | Insère le nœud spécifié immédiatement après le nœud de référence spécifié. |
+| [InsertBefore](../../aspose.words/compositenode/insertbefore/)(*[Node](../node/), [Node](../node/)*) | Insère le nœud spécifié immédiatement avant le nœud de référence spécifié. |
+| [InsertField](../../aspose.words/paragraph/insertfield/#insertfield_1)(*string, [Node](../node/), bool*) | Insère un champ dans ce paragraphe. |
+| [InsertField](../../aspose.words/paragraph/insertfield/#insertfield)(*[FieldType](../../aspose.words.fields/fieldtype/), bool, [Node](../node/), bool*) | Insère un champ dans ce paragraphe. |
+| [InsertField](../../aspose.words/paragraph/insertfield/#insertfield_2)(*string, string, [Node](../node/), bool*) | Insère un champ dans ce paragraphe. |
 | [JoinRunsWithSameFormatting](../../aspose.words/paragraph/joinrunswithsameformatting/)() | Les jointures s'exécutent avec le même formatage dans le paragraphe. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Obtient le nœud suivant selon l'algorithme de traversée de l'arbre de pré-commande. |
-| [PrependChild&lt;T&gt;](../../aspose.words/compositenode/prependchild/)(T) |  |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Obtient le nœud précédent selon l'algorithme de traversée d'arbre de pré-commande. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../node/)*) | Obtient le nœud suivant selon l'algorithme de traversée de l'arbre de pré-commande. |
+| [PrependChild](../../aspose.words/compositenode/prependchild/)(*[Node](../node/)*) | Ajoute le nœud spécifié au début de la liste des nœuds enfants pour ce nœud. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../node/)*) | Obtient le nœud précédent selon l'algorithme de traversée d'arbre de pré-commande. |
 | [Remove](../../aspose.words/node/remove/)() | Se supprime du parent. |
 | [RemoveAllChildren](../../aspose.words/compositenode/removeallchildren/)() | Supprime tous les nœuds enfants du nœud actuel. |
-| [RemoveChild&lt;T&gt;](../../aspose.words/compositenode/removechild/)(T) |  |
+| [RemoveChild](../../aspose.words/compositenode/removechild/)(*[Node](../node/)*) | Supprime le nœud enfant spécifié. |
 | [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags/)() | Supprime tout[`SmartTag`](../../aspose.words.markup/smarttag/)nœuds descendants du nœud actuel. |
-| [SelectNodes](../../aspose.words/compositenode/selectnodes/)(string) | Sélectionne une liste de nœuds correspondant à l'expression XPath. |
-| [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(string) | Sélectionne le premier[`Node`](../node/) qui correspond à l'expression XPath. |
-| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Exporte le contenu du nœud dans une chaîne au format spécifié. |
-| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | Exporte le contenu du nœud dans une chaîne à l'aide des options de sauvegarde spécifiées. |
+| [SelectNodes](../../aspose.words/compositenode/selectnodes/)(*string*) | Sélectionne une liste de nœuds correspondant à l'expression XPath. |
+| [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(*string*) | Sélectionne le premier[`Node`](../node/) qui correspond à l'expression XPath. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../saveformat/)*) | Exporte le contenu du nœud dans une chaîne au format spécifié. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | Exporte le contenu du nœud dans une chaîne à l'aide des options de sauvegarde spécifiées. |
 
-### Remarques
+## Remarques
 
 `Paragraph` est un nœud de niveau bloc et peut être un enfant de classes dérivées de [`Story`](../story/) ou[`InlineStory`](../inlinestory/).
 
@@ -110,7 +110,7 @@ Un paragraphe valide dans Microsoft Word se termine toujours par un caractère d
 
 N'incluez pas la fin du paragraphe[`ParagraphBreak`](../controlchar/paragraphbreak/) ou fin de cellule[`Cell`](../controlchar/cell/) caractères à l'intérieur du texte de le paragraphe car cela pourrait rendre le paragraphe invalide lorsque le document est ouvert dans Microsoft Word.
 
-### Exemples
+## Exemples
 
 Montre comment construire manuellement un document Aspose.Words.
 
@@ -162,5 +162,3 @@ doc.Save(ArtifactsDir + "Section.CreateManually.docx");
 * class [CompositeNode](../compositenode/)
 * espace de noms [Aspose.Words](../../aspose.words/)
 * Assemblée [Aspose.Words](../../)
-
-

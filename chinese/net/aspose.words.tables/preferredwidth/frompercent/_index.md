@@ -1,7 +1,9 @@
 ---
 title: PreferredWidth.FromPercent
-second_title: Aspose.Words for .NET API 参考
-description: PreferredWidth 方法. 一种创建方法返回一个新实例该实例表示指定为百分比的首选宽度
+linktitle: FromPercent
+articleTitle: FromPercent
+second_title: 用于 .NET 的 Aspose.Words
+description: PreferredWidth FromPercent 方法. 一种创建方法返回一个新实例该实例表示指定为百分比的首选宽度 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.tables/preferredwidth/frompercent/
@@ -18,7 +20,7 @@ public static PreferredWidth FromPercent(double percent)
 | --- | --- | --- |
 | percent | Double | 该值必须在 0 到 100 之间。 |
 
-### 例子
+## 例子
 
 演示如何将表格设置为自动适合页面宽度的 50%。
 
@@ -77,7 +79,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertCellsWithPreferredWidths.docx");
 ### 也可以看看
 
 * class [PreferredWidth](../)
-* 命名空间 [Aspose.Words.Tables](../../preferredwidth/)
+* 命名空间 [Aspose.Words.Tables](../../../aspose.words.tables/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class OoxmlSaveOptions
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Saving.OoxmlSaveOptions classe. Può essere utilizzato per specificare opzioni aggiuntive quando si salva un documento nel fileDocx  Docm Dotx Dotm oppure FlatOpc formato.
+title: OoxmlSaveOptions Class
+linktitle: OoxmlSaveOptions
+articleTitle: OoxmlSaveOptions
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Saving.OoxmlSaveOptions classe. Può essere utilizzato per specificare opzioni aggiuntive quando si salva un documento nel fileDocx  Docm Dotx Dotm oppure FlatOpc formato in C#.
 type: docs
 weight: 5350
 url: /it/net/aspose.words.saving/ooxmlsaveoptions/
@@ -21,7 +23,7 @@ public class OoxmlSaveOptions : SaveOptions
 | Nome | Descrizione |
 | --- | --- |
 | [OoxmlSaveOptions](ooxmlsaveoptions/#constructor)() | Inizializza una nuova istanza di questa classe che può essere utilizzata per salvare un documento nel fileDocx formato. |
-| [OoxmlSaveOptions](ooxmlsaveoptions/#constructor_1)(SaveFormat) | Inizializza una nuova istanza di questa classe che può essere utilizzata per salvare un documento nel fileDocx , Docm ,Dotx ,Dotm oppure FlatOpc formato. |
+| [OoxmlSaveOptions](ooxmlsaveoptions/#constructor_1)(*[SaveFormat](../../aspose.words/saveformat/)*) | Inizializza una nuova istanza di questa classe che può essere utilizzata per salvare un documento nel fileDocx , Docm ,Dotx ,Dotm oppure FlatOpc formato. |
 
 ## Proprietà
 
@@ -31,7 +33,7 @@ public class OoxmlSaveOptions : SaveOptions
 | [Compliance](../../aspose.words.saving/ooxmlsaveoptions/compliance/) { get; set; } | Specifica la versione OOXML per il documento di output. Il valore predefinito èEcma376_2006 . |
 | [CompressionLevel](../../aspose.words.saving/ooxmlsaveoptions/compressionlevel/) { get; set; } | Specifica il livello di compressione utilizzato per salvare il documento. Il valore predefinito èNormal . |
 | [CustomTimeZoneInfo](../../aspose.words.saving/saveoptions/customtimezoneinfo/) { get; set; } | Ottiene o imposta il fuso orario locale personalizzato utilizzato per i campi data/ora. |
-| [DefaultTemplate](../../aspose.words.saving/saveoptions/defaulttemplate/) { get; set; } | Ottiene o imposta il percorso del modello predefinito (incluso il nome file). Il valore predefinito per questa proprietà è **stringa vuota** (Empty). |
+| [DefaultTemplate](../../aspose.words.saving/saveoptions/defaulttemplate/) { get; set; } | Ottiene o imposta il percorso del modello predefinito (incluso il nome file). Il valore predefinito per questa proprietà è**stringa vuota** (Empty). |
 | [Dml3DEffectsRenderingMode](../../aspose.words.saving/saveoptions/dml3deffectsrenderingmode/) { get; set; } | Ottiene o imposta un valore che determina la modalità di rendering degli effetti 3D. |
 | virtual [DmlEffectsRenderingMode](../../aspose.words.saving/saveoptions/dmleffectsrenderingmode/) { get; set; } | Ottiene o imposta un valore che determina la modalità di rendering degli effetti DrawingML. |
 | [DmlRenderingMode](../../aspose.words.saving/saveoptions/dmlrenderingmode/) { get; set; } | Ottiene o imposta un valore che determina la modalità di rendering delle forme DrawingML. |
@@ -51,7 +53,7 @@ public class OoxmlSaveOptions : SaveOptions
 | [UseAntiAliasing](../../aspose.words.saving/saveoptions/useantialiasing/) { get; set; } | Ottiene o imposta un valore che determina se utilizzare o meno l'antialiasing per il rendering. |
 | [UseHighQualityRendering](../../aspose.words.saving/saveoptions/usehighqualityrendering/) { get; set; } | Ottiene o imposta un valore che determina se utilizzare o meno algoritmi di rendering di alta qualità (ovvero lenti). |
 
-### Esempi
+## Esempi
 
 Mostra come impostare una specifica di conformità OOXML a cui aderire un documento salvato.
 
@@ -88,5 +90,3 @@ Assert.AreEqual(ShapeMarkupLanguage.Dml, ((Shape)doc.GetChild(NodeType.Shape, 0,
 * class [SaveOptions](../saveoptions/)
 * spazio dei nomi [Aspose.Words.Saving](../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Section.ProtectedForForms
-second_title: Справочник по API Aspose.Words для .NET
-description: Section свойство. True если раздел защищен для форм. Если раздел защищен для форм пользователи могут выбирать и изменять текст только в полях формы в Microsoft Word.
+linktitle: ProtectedForForms
+articleTitle: ProtectedForForms
+second_title: Aspose.Words для .NET
+description: Section ProtectedForForms свойство. True если раздел защищен для форм. Если раздел защищен для форм пользователи могут выбирать и изменять текст только в полях формы в Microsoft Word на С#.
 type: docs
 weight: 60
 url: /ru/net/aspose.words/section/protectedforforms/
@@ -14,7 +16,7 @@ True, если раздел защищен для форм. Если разде�
 public bool ProtectedForForms { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как отключить защиту раздела.
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "Section.Protect.docx");
 ### Смотрите также
 
 * class [Section](../)
-* пространство имен [Aspose.Words](../../section/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

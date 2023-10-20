@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.IsGroup
-second_title: Aspose.Words for .NET API 参考
-description: ShapeBase 财产. 返回真的如果这是一个团体形状.
+linktitle: IsGroup
+articleTitle: IsGroup
+second_title: 用于 .NET 的 Aspose.Words
+description: ShapeBase IsGroup 财产. 返回真的如果这是一个团体形状 在 C#.
 type: docs
 weight: 260
 url: /zh/net/aspose.words.drawing/shapebase/isgroup/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.drawing/shapebase/isgroup/
 public bool IsGroup { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何创建一组形状，并使用文档访问者打印其内容。
 
@@ -105,7 +107,5 @@ public class ShapeGroupPrinter : DocumentVisitor
 ### 也可以看看
 
 * class [ShapeBase](../)
-* 命名空间 [Aspose.Words.Drawing](../../shapebase/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

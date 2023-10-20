@@ -1,7 +1,9 @@
 ---
 title: FontInfo.Family
-second_title: Aspose.Words per .NET API Reference
-description: FontInfo proprietà. Ottiene o imposta la famiglia di caratteri a cui appartiene questo carattere.
+linktitle: Family
+articleTitle: Family
+second_title: Aspose.Words per .NET
+description: FontInfo Family proprietà. Ottiene o imposta la famiglia di caratteri a cui appartiene questo carattere in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words.fonts/fontinfo/family/
@@ -14,7 +16,7 @@ Ottiene o imposta la famiglia di caratteri a cui appartiene questo carattere.
 public FontFamily Family { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come accedere e stampare i dettagli di ciascun carattere in un documento.
 
@@ -54,7 +56,5 @@ while (fontCollectionEnumerator.MoveNext())
 
 * enum [FontFamily](../../fontfamily/)
 * class [FontInfo](../)
-* spazio dei nomi [Aspose.Words.Fonts](../../fontinfo/)
+* spazio dei nomi [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * assemblea [Aspose.Words](../../../)
-
-

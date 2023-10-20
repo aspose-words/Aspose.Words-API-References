@@ -1,7 +1,9 @@
 ---
 title: ListLevel.GetEffectiveValue
-second_title: Aspose.Words per .NET API Reference
-description: ListLevel metodo. Riporta la rappresentazione in stringa del fileListLeveloggetto per lindice specificato dellelemento dellelenco. I parametri specificano ilNumberStyle e un formato opzionale string utilizzato quandoCustom è specificato.
+linktitle: GetEffectiveValue
+articleTitle: GetEffectiveValue
+second_title: Aspose.Words per .NET
+description: ListLevel GetEffectiveValue metodo. Riporta la rappresentazione in stringa del fileListLeveloggetto per lindice specificato dellelemento dellelenco. I parametri specificano ilNumberStyle e un formato opzionale string utilizzato quandoCustom è specificato in C#.
 type: docs
 weight: 190
 url: /it/net/aspose.words.lists/listlevel/geteffectivevalue/
@@ -32,7 +34,7 @@ La rappresentazione di stringa di[`ListLevel`](../) oggetto, descritto da*number
 | ArgumentException | *customNumberStyleFormat* È`nullo` o vuoto quando il*numberStyle* è personalizzato.-o- *customNumberStyleFormat* non è`nullo` o vuoto quando il*numberStyle* non è personalizzato.-o- *customNumberStyleFormat* non è valido. |
 | ArgumentOutOfRangeException | l'indice è fuori intervallo. |
 
-### Esempi
+## Esempi
 
 Mostra come ottenere il formato di un elenco con lo stile numero personalizzato.
 
@@ -57,7 +59,5 @@ Assert.AreEqual("005", ListLevel.GetEffectiveValue(5, NumberStyle.Custom, custom
 
 * enum [NumberStyle](../../../aspose.words/numberstyle/)
 * class [ListLevel](../)
-* spazio dei nomi [Aspose.Words.Lists](../../listlevel/)
+* spazio dei nomi [Aspose.Words.Lists](../../../aspose.words.lists/)
 * assemblea [Aspose.Words](../../../)
-
-

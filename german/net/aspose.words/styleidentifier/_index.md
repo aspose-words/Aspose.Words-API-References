@@ -1,7 +1,9 @@
 ---
-title: Enum StyleIdentifier
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.StyleIdentifier opsomming. Gebietsschemaunabhängige Stilkennung.
+title: StyleIdentifier Enum
+linktitle: StyleIdentifier
+articleTitle: StyleIdentifier
+second_title: Aspose.Words für .NET
+description: Aspose.Words.StyleIdentifier opsomming. Gebietsschemaunabhängige Stilkennung in C#.
 type: docs
 weight: 6150
 url: /de/net/aspose.words/styleidentifier/
@@ -397,13 +399,13 @@ public enum StyleIdentifier
 | User | `4094` | Ein benutzerdefinierter Stil. |
 | Nil | `12287` | Reserviert für den internen Gebrauch. |
 
-### Bemerkungen
+## Bemerkungen
 
 Die Namen der integrierten Stile in MS Word sind für verschiedene Sprachen lokalisiert. Mithilfe einer Stilkennung können Sie unabhängig von der Dokumentsprache den richtigen Stil finden.
 
 Allen benutzerdefinierten Stilen wird das zugewiesenUser Wert.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie der Stil von vorhandenem Text geändert wird.
 
@@ -438,5 +440,3 @@ doc.Save(ArtifactsDir + "Font.ChangeStyle.docx");
 
 * namensraum [Aspose.Words](../../aspose.words/)
 * Montage [Aspose.Words](../../)
-
-

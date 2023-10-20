@@ -1,9 +1,11 @@
 ---
 title: Document.Cleanup
-second_title: Справочник по API Aspose.Words для .NET
-description: Document метод. Удаляет неиспользуемые стили и списки из документа.
+linktitle: Cleanup
+articleTitle: Cleanup
+second_title: Aspose.Words для .NET
+description: Document Cleanup метод. Удаляет неиспользуемые стили и списки из документа на С#.
 type: docs
-weight: 560
+weight: 540
 url: /ru/net/aspose.words/document/cleanup/
 ---
 ## Cleanup() {#cleanup}
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/document/cleanup/
 public void Cleanup()
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как удалить неиспользуемые пользовательские стили из документа.
 
@@ -56,12 +58,12 @@ Assert.AreEqual(4, doc.Styles.Count);
 ### Смотрите также
 
 * class [Document](../)
-* пространство имен [Aspose.Words](../../document/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## Cleanup(CleanupOptions) {#cleanup_1}
+## Cleanup(*[CleanupOptions](../../cleanupoptions/)*) {#cleanup_1}
 
 Удаляет из документа неиспользуемые стили и списки в зависимости от заданных[`CleanupOptions`](../../cleanupoptions/) .
 
@@ -69,7 +71,7 @@ Assert.AreEqual(4, doc.Styles.Count);
 public void Cleanup(CleanupOptions options)
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как удалить из документа все неиспользуемые пользовательские стили.
 
@@ -119,7 +121,5 @@ Assert.AreEqual(2, doc.Styles.Count);
 
 * class [CleanupOptions](../../cleanupoptions/)
 * class [Document](../)
-* пространство имен [Aspose.Words](../../document/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

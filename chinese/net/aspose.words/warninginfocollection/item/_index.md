@@ -1,7 +1,9 @@
 ---
 title: WarningInfoCollection.Item
-second_title: Aspose.Words for .NET API 参考
-description: WarningInfoCollection 财产. 获取指定索引处的项目
+linktitle: Item
+articleTitle: Item
+second_title: 用于 .NET 的 Aspose.Words
+description: WarningInfoCollection Item 财产. 获取指定索引处的项目 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words/warninginfocollection/item/
@@ -22,7 +24,5 @@ public WarningInfo this[int index] { get; }
 
 * class [WarningInfo](../../warninginfo/)
 * class [WarningInfoCollection](../)
-* 命名空间 [Aspose.Words](../../warninginfocollection/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

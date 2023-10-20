@@ -1,7 +1,9 @@
 ---
 title: ControlChar.CrLf
-second_title: Aspose.Words for .NET API 参考
-description: ControlChar 场地. 回车符后跟换行符x000dx000a或rn 在 Microsoft Word 文档中不这样使用但通常在文本文件中用于分段符
+linktitle: CrLf
+articleTitle: CrLf
+second_title: 用于 .NET 的 Aspose.Words
+description: ControlChar CrLf 场地. 回车符后跟换行符x000dx000a或rn 在 Microsoft Word 文档中不这样使用但通常在文本文件中用于分段符 在 C#.
 type: docs
 weight: 60
 url: /zh/net/aspose.words/controlchar/crlf/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/controlchar/crlf/
 public static readonly string CrLf;
 ```
 
-### 例子
+## 例子
 
 演示如何向文档添加各种控制字符。
 
@@ -86,7 +88,5 @@ Assert.AreEqual(Convert.ToChar(ControlChar.ColumnBreak), ControlChar.ColumnBreak
 ### 也可以看看
 
 * class [ControlChar](../)
-* 命名空间 [Aspose.Words](../../controlchar/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,9 +1,11 @@
 ---
 title: Paragraph.GetText
-second_title: Справочник по API Aspose.Words для .NET
-description: Paragraph метод. Получает текст этого абзаца включая символ конца абзаца.
+linktitle: GetText
+articleTitle: GetText
+second_title: Aspose.Words для .NET
+description: Paragraph GetText метод. Получает текст этого абзаца включая символ конца абзаца на С#.
 type: docs
-weight: 280
+weight: 260
 url: /ru/net/aspose.words/paragraph/gettext/
 ---
 ## Paragraph.GetText method
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/paragraph/gettext/
 public override string GetText()
 ```
 
-### Примечания
+## Примечания
 
 Текст всех дочерних узлов объединяется, а символ конца абзаца добавляется следующим образом:
 
@@ -24,7 +26,7 @@ public override string GetText()
 
 Возвращенная строка включает все управляющие и специальные символы, как описано в разделе[`ControlChar`](../../controlchar/).
 
-### Примеры
+## Примеры
 
 Показывает, как добавлять, обновлять и удалять дочерние узлы в коллекции дочерних узлов CompositeNode.
 
@@ -77,7 +79,5 @@ Assert.AreEqual(3, paragraph.GetChildNodes(NodeType.Any, true).Count);
 ### Смотрите также
 
 * class [Paragraph](../)
-* пространство имен [Aspose.Words](../../paragraph/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FormFieldCollection.Item
-second_title: Aspose.Words per .NET API Reference
-description: FormFieldCollection proprietà. Restituisce un campo modulo allindice specificato.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words per .NET
+description: FormFieldCollection Item proprietà. Restituisce un campo modulo allindice specificato in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words.fields/formfieldcollection/item/
@@ -18,7 +20,7 @@ public FormField this[int index] { get; }
 | --- | --- |
 | index | Un indice nella raccolta. |
 
-### Osservazioni
+## Osservazioni
 
 L'indice è a base zero.
 
@@ -28,7 +30,7 @@ Se indice è maggiore o uguale al numero di elementi nell'elenco, restituisce un
 
 Se indice è negativo e il suo valore assoluto è maggiore del numero di elementi nell'elenco, restituisce un riferimento null.
 
-### Esempi
+## Esempi
 
 Mostra come inserire diversi tipi di campi modulo in un documento ed elaborarli utilizzando un'implementazione del visitatore del documento.
 
@@ -163,7 +165,7 @@ public class FormFieldVisitor : DocumentVisitor
 
 * class [FormField](../../formfield/)
 * class [FormFieldCollection](../)
-* spazio dei nomi [Aspose.Words.Fields](../../formfieldcollection/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
 
 ---
@@ -180,11 +182,11 @@ public FormField this[string bookmarkName] { get; }
 | --- | --- |
 | bookmarkName | Nome del segnalibro senza distinzione tra maiuscole e minuscole. |
 
-### Osservazioni
+## Osservazioni
 
 Restituisce`nullo` se non è possibile trovare il campo modulo con il nome del segnalibro specificato.
 
-### Esempi
+## Esempi
 
 Mostra come inserire diversi tipi di campi modulo in un documento ed elaborarli utilizzando un'implementazione del visitatore del documento.
 
@@ -319,7 +321,5 @@ public class FormFieldVisitor : DocumentVisitor
 
 * class [FormField](../../formfield/)
 * class [FormFieldCollection](../)
-* spazio dei nomi [Aspose.Words.Fields](../../formfieldcollection/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

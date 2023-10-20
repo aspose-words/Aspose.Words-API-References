@@ -1,24 +1,26 @@
 ---
 title: SignOptions.SignatureLineId
-second_title: Referencia de API de Aspose.Words para .NET
-description: SignOptions propiedad. Identificador de línea de firma. El valor predeterminado es Guía vacía todo ceros .
+linktitle: SignatureLineId
+articleTitle: SignatureLineId
+second_title: Aspose.Words para .NET
+description: SignOptions SignatureLineId propiedad. Identificador de línea de firma. El valor predeterminado esGuía vacía todo ceros  en C#.
 type: docs
 weight: 50
 url: /es/net/aspose.words.digitalsignatures/signoptions/signaturelineid/
 ---
 ## SignOptions.SignatureLineId property
 
-Identificador de línea de firma. El valor predeterminado es **Guía vacía (todo ceros)** .
+Identificador de línea de firma. El valor predeterminado es**Guía vacía (todo ceros)** .
 
 ```csharp
 public Guid SignatureLineId { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 Cuando se establece, asocia[`SignatureLine`](../../../aspose.words.drawing/signatureline/) con correspondiente[`DigitalSignature`](../../digitalsignature/) .
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo agregar una línea de firma a un documento y luego firmarlo usando un certificado digital.
 
@@ -134,7 +136,5 @@ Muestra cómo agregar una línea de firma a un documento y luego firmarlo usando
 ### Ver también
 
 * class [SignOptions](../)
-* espacio de nombres [Aspose.Words.DigitalSignatures](../../signoptions/)
+* espacio de nombres [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * asamblea [Aspose.Words](../../../)
-
-

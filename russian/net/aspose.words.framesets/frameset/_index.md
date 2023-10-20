@@ -1,7 +1,9 @@
 ---
-title: Class Frameset
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Framesets.Frameset сорт. Представляет страницу кадров или отдельный кадр на странице кадров.
+title: Frameset Class
+linktitle: Frameset
+articleTitle: Frameset
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Framesets.Frameset сорт. Представляет страницу кадров или отдельный кадр на странице кадров на С#.
 type: docs
 weight: 3080
 url: /ru/net/aspose.words.framesets/frameset/
@@ -30,11 +32,11 @@ public class Frameset
 | [FrameDefaultUrl](../../aspose.words.framesets/frameset/framedefaulturl/) { get; set; } | Получает или задает URL-адрес веб-страницы или имя файла документа для отображения в этом фрейме. |
 | [IsFrameLinkToFile](../../aspose.words.framesets/frameset/isframelinktofile/) { get; set; } | Получает или задает значение, указывающее, указано ли имя веб-страницы или файла документа, указанное в the .[`FrameDefaultUrl`](./framedefaulturl/) свойство — это внешний ресурс, с которым связан фрейм. |
 
-### Примечания
+## Примечания
 
 Если[`ChildFramesets`](./childframesets/) Свойство содержит элементы, этот экземпляр является страницей кадров, в противном случае это один кадр.
 
-### Примеры
+## Примеры
 
 Показывает, как получить доступ к фреймам на странице.
 
@@ -60,5 +62,3 @@ doc.Frameset.ChildFramesets[0].ChildFramesets[0].IsFrameLinkToFile = false;
 
 * пространство имен [Aspose.Words.Framesets](../../aspose.words.framesets/)
 * сборка [Aspose.Words](../../)
-
-

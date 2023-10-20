@@ -1,7 +1,9 @@
 ---
-title: Enum OdsoFieldMappingType
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Settings.OdsoFieldMappingType uppräkning. Anger möjliga typer som används för att indikera om ett givet kopplingsfält har mappats till en kolumn i den givna externa datakällan.
+title: OdsoFieldMappingType Enum
+linktitle: OdsoFieldMappingType
+articleTitle: OdsoFieldMappingType
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Settings.OdsoFieldMappingType uppräkning. Anger möjliga typer som används för att indikera om ett givet kopplingsfält har mappats till en kolumn i den givna externa datakällan i C#.
 type: docs
 weight: 5920
 url: /sv/net/aspose.words.settings/odsofieldmappingtype/
@@ -22,7 +24,7 @@ public enum OdsoFieldMappingType
 | Null | `1` | Anger att kopplingsfältet inte har mappats till en kolumn i den givna externa datakällan. |
 | Default | `1` | MotsvararNull . |
 
-### Exempel
+## Exempel
 
 Visar hur du får åtkomst till insamlingen av data som mappar datakällans kolumner för att slå samman fält.
 
@@ -67,5 +69,3 @@ Assert.AreEqual(0, dataCollection.Count);
 * property [Type](../odsofieldmapdata/type/)
 * namnutrymme [Aspose.Words.Settings](../../aspose.words.settings/)
 * hopsättning [Aspose.Words](../../)
-
-

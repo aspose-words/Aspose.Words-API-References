@@ -1,7 +1,9 @@
 ---
-title: Glyph.Glyph
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Glyph constructeur. Initialise une nouvelle instance de cette classe.
+title: Glyph
+linktitle: Glyph
+articleTitle: Glyph
+second_title: Aspose.Words pour .NET
+description: Glyph constructeur. Initialise une nouvelle instance de cette classe en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.shaping/glyph/glyph/
@@ -24,7 +26,5 @@ public Glyph(int glyphIndex, short advance, short advanceOffset, short ascenderO
 ### Voir également
 
 * class [Glyph](../)
-* espace de noms [Aspose.Words.Shaping](../../glyph/)
+* espace de noms [Aspose.Words.Shaping](../../../aspose.words.shaping/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ChartXValue.DoubleValue
-second_title: Справочник по API Aspose.Words для .NET
-description: ChartXValue свойство. Получает сохраненное числовое значение.
+linktitle: DoubleValue
+articleTitle: DoubleValue
+second_title: Aspose.Words для .NET
+description: ChartXValue DoubleValue свойство. Получает сохраненное числовое значение на С#.
 type: docs
 weight: 70
 url: /ru/net/aspose.words.drawing.charts/chartxvalue/doublevalue/
@@ -17,7 +19,5 @@ public double DoubleValue { get; }
 ### Смотрите также
 
 * class [ChartXValue](../)
-* пространство имен [Aspose.Words.Drawing.Charts](../../chartxvalue/)
+* пространство имен [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../../)
-
-

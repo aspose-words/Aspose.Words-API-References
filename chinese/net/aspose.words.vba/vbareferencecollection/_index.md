@@ -1,7 +1,9 @@
 ---
-title: Class VbaReferenceCollection
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Vba.VbaReferenceCollection 班级. 代表集合VbaReference对象.
+title: VbaReferenceCollection Class
+linktitle: VbaReferenceCollection
+articleTitle: VbaReferenceCollection
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Vba.VbaReferenceCollection 班级. 代表集合VbaReference对象 在 C#.
 type: docs
 weight: 6600
 url: /zh/net/aspose.words.vba/vbareferencecollection/
@@ -27,10 +29,10 @@ public sealed class VbaReferenceCollection : IEnumerable<VbaReference>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Remove](../../aspose.words.vba/vbareferencecollection/remove/)(VbaReference) | 删除第一次出现的指定[`VbaReference`](../vbareference/)集合中的项目。 |
-| [RemoveAt](../../aspose.words.vba/vbareferencecollection/removeat/)(int) | 删除[`VbaReference`](../vbareference/)集合中指定索引处的元素。 |
+| [Remove](../../aspose.words.vba/vbareferencecollection/remove/)(*[VbaReference](../vbareference/)*) | 删除第一次出现的指定[`VbaReference`](../vbareference/)集合中的项目。 |
+| [RemoveAt](../../aspose.words.vba/vbareferencecollection/removeat/)(*int*) | 删除[`VbaReference`](../vbareference/)集合中指定索引处的元素。 |
 
-### 例子
+## 例子
 
 演示如何从 VBA 参考集合中获取/删除元素。
 
@@ -106,5 +108,3 @@ private static string GetLibIdProjectPath(string libIdProject)
 * class [VbaReference](../vbareference/)
 * 命名空间 [Aspose.Words.Vba](../../aspose.words.vba/)
 * 部件 [Aspose.Words](../../)
-
-

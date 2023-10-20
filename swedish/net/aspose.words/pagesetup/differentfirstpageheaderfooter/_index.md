@@ -1,7 +1,9 @@
 ---
 title: PageSetup.DifferentFirstPageHeaderFooter
-second_title: Aspose.Words för .NET API Referens
-description: PageSetup fast egendom. Sant om en annan sidhuvud eller sidfot används på första sidan.
+linktitle: DifferentFirstPageHeaderFooter
+articleTitle: DifferentFirstPageHeaderFooter
+second_title: Aspose.Words för .NET
+description: PageSetup DifferentFirstPageHeaderFooter fast egendom. Sant om en annan sidhuvud eller sidfot används på första sidan i C#.
 type: docs
 weight: 110
 url: /sv/net/aspose.words/pagesetup/differentfirstpageheaderfooter/
@@ -14,7 +16,7 @@ Sant om en annan sidhuvud eller sidfot används på första sidan.
 public bool DifferentFirstPageHeaderFooter { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du skapar sidhuvuden och sidfötter i ett dokument med DocumentBuilder.
 
@@ -136,7 +138,5 @@ public void Order(bool differentFirstPageHeaderFooter)
 ### Se även
 
 * class [PageSetup](../)
-* namnutrymme [Aspose.Words](../../pagesetup/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

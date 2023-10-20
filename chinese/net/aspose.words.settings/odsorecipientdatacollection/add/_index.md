@@ -1,7 +1,9 @@
 ---
 title: OdsoRecipientDataCollection.Add
-second_title: Aspose.Words for .NET API 参考
-description: OdsoRecipientDataCollection 方法. 将一个对象添加到此集合的末尾
+linktitle: Add
+articleTitle: Add
+second_title: 用于 .NET 的 Aspose.Words
+description: OdsoRecipientDataCollection Add 方法. 将一个对象添加到此集合的末尾 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.settings/odsorecipientdatacollection/add/
@@ -18,7 +20,7 @@ public int Add(OdsoRecipientData value)
 | --- | --- | --- |
 | value | OdsoRecipientData | 要添加的对象。不可能是`无效的`。 |
 
-### 例子
+## 例子
 
 显示如何访问指定邮件合并将排除哪些合并数据源记录的数据集合。
 
@@ -59,7 +61,5 @@ Assert.AreEqual(0, dataCollection.Count);
 
 * class [OdsoRecipientData](../../odsorecipientdata/)
 * class [OdsoRecipientDataCollection](../)
-* 命名空间 [Aspose.Words.Settings](../../odsorecipientdatacollection/)
+* 命名空间 [Aspose.Words.Settings](../../../aspose.words.settings/)
 * 部件 [Aspose.Words](../../../)
-
-

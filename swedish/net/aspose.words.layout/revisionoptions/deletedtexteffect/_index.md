@@ -1,7 +1,9 @@
 ---
 title: RevisionOptions.DeletedTextEffect
-second_title: Aspose.Words för .NET API Referens
-description: RevisionOptions fast egendom. Tillåter att specificera effekten som ska tillämpas på det raderade innehålletDeletion . Standardvärdet ärStrikeThrough
+linktitle: DeletedTextEffect
+articleTitle: DeletedTextEffect
+second_title: Aspose.Words för .NET
+description: RevisionOptions DeletedTextEffect fast egendom. Tillåter att specificera effekten som ska tillämpas på det raderade innehålletDeletion . Standardvärdet ärStrikeThrough i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.layout/revisionoptions/deletedtexteffect/
@@ -14,7 +16,7 @@ Tillåter att specificera effekten som ska tillämpas på det raderade innehåll
 public RevisionTextEffect DeletedTextEffect { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man ändrar utseendet på revisioner.
 
@@ -66,7 +68,5 @@ doc.Save(ArtifactsDir + "Revision.RevisionOptions.pdf");
 
 * enum [RevisionTextEffect](../../revisiontexteffect/)
 * class [RevisionOptions](../)
-* namnutrymme [Aspose.Words.Layout](../../revisionoptions/)
+* namnutrymme [Aspose.Words.Layout](../../../aspose.words.layout/)
 * hopsättning [Aspose.Words](../../../)
-
-

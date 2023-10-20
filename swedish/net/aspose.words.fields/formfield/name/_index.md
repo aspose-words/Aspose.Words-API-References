@@ -1,7 +1,9 @@
 ---
 title: FormField.Name
-second_title: Aspose.Words för .NET API Referens
-description: FormField fast egendom. Hämtar eller ställer in formulärfältets namn.
+linktitle: Name
+articleTitle: Name
+second_title: Aspose.Words för .NET
+description: FormField Name fast egendom. Hämtar eller ställer in formulärfältets namn i C#.
 type: docs
 weight: 130
 url: /sv/net/aspose.words.fields/formfield/name/
@@ -14,11 +16,11 @@ Hämtar eller ställer in formulärfältets namn.
 public string Name { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Microsoft Word tillåter strängar med högst 20 tecken.
 
-### Exempel
+## Exempel
 
 Visar hur man infogar en kombinationsruta.
 
@@ -42,7 +44,5 @@ doc.Save(ArtifactsDir + "FormFields.Create.html");
 ### Se även
 
 * class [FormField](../)
-* namnutrymme [Aspose.Words.Fields](../../formfield/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

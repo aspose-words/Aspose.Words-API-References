@@ -1,7 +1,9 @@
 ---
 title: Shape.StoryType
-second_title: Aspose.Words för .NET API Referens
-description: Shape fast egendom. ReturnerarTextbox .
+linktitle: StoryType
+articleTitle: StoryType
+second_title: Aspose.Words för .NET
+description: Shape StoryType fast egendom. ReturnerarTextbox  i C#.
 type: docs
 weight: 170
 url: /sv/net/aspose.words.drawing/shape/storytype/
@@ -14,7 +16,7 @@ ReturnerarTextbox .
 public StoryType StoryType { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man itererar över alla former i ett dokument.
 
@@ -138,7 +140,5 @@ private class ShapeAppearancePrinter : DocumentVisitor
 
 * enum [StoryType](../../../aspose.words/storytype/)
 * class [Shape](../)
-* namnutrymme [Aspose.Words.Drawing](../../shape/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ExportTocPageNumbers
-second_title: Aspose.Words لمراجع .NET API
-description: HtmlSaveOptions ملكية. يحدد ما إذا كان سيتم كتابة أرقام الصفحات في جدول المحتويات عند حفظ HTML وMHTML وEPUB. القيمة الافتراضية هيخطأ شنيع .
+linktitle: ExportTocPageNumbers
+articleTitle: ExportTocPageNumbers
+second_title: Aspose.Words لـ .NET
+description: HtmlSaveOptions ExportTocPageNumbers ملكية. يحدد ما إذا كان سيتم كتابة أرقام الصفحات في جدول المحتويات عند حفظ HTML وMHTML وEPUB. القيمة الافتراضية هيخطأ شنيع  في C#.
 type: docs
 weight: 270
 url: /ar/net/aspose.words.saving/htmlsaveoptions/exporttocpagenumbers/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.saving/htmlsaveoptions/exporttocpagenumbers/
 public bool ExportTocPageNumbers { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية عرض أرقام الصفحات عند حفظ مستند يحتوي على جدول محتويات بتنسيق .html.
 
@@ -72,7 +74,5 @@ else
 ### أنظر أيضا
 
 * class [HtmlSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../htmlsaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

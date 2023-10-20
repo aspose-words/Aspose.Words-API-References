@@ -1,7 +1,9 @@
 ---
 title: PageSavingArgs.PageFileName
-second_title: Aspose.Words per .NET API Reference
-description: PageSavingArgs proprietà. Ottiene o imposta il nome del file in cui verrà salvata la pagina del documento.
+linktitle: PageFileName
+articleTitle: PageFileName
+second_title: Aspose.Words per .NET
+description: PageSavingArgs PageFileName proprietà. Ottiene o imposta il nome del file in cui verrà salvata la pagina del documento in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words.saving/pagesavingargs/pagefilename/
@@ -14,11 +16,11 @@ Ottiene o imposta il nome del file in cui verrà salvata la pagina del documento
 public string PageFileName { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Se non specificato, il nome e il percorso del file di paging verranno generati automaticamente utilizzando il nome del file originale.
 
-### Esempi
+## Esempi
 
 Mostra come utilizzare un callback per salvare un documento in HTML pagina per pagina.
 
@@ -75,7 +77,5 @@ private class CustomFileNamePageSavingCallback : IPageSavingCallback
 ### Guarda anche
 
 * class [PageSavingArgs](../)
-* spazio dei nomi [Aspose.Words.Saving](../../pagesavingargs/)
+* spazio dei nomi [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../../)
-
-

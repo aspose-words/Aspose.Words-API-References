@@ -1,7 +1,9 @@
 ---
 title: ConvertUtil.MillimeterToPoint
-second_title: Aspose.Words for .NET API 参考
-description: ConvertUtil 方法. 将毫米转换为点
+linktitle: MillimeterToPoint
+articleTitle: MillimeterToPoint
+second_title: 用于 .NET 的 Aspose.Words
+description: ConvertUtil MillimeterToPoint 方法. 将毫米转换为点 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words/convertutil/millimetertopoint/
@@ -18,11 +20,11 @@ public static double MillimeterToPoint(double millimeters)
 | --- | --- | --- |
 | millimeters | Double | 要转换的值。 |
 
-### 评论
+## 评论
 
 1 英寸等于 25.4 毫米。 1 英寸等于 72 点。
 
-### 例子
+## 例子
 
 显示如何以毫米为单位指定页面属性。
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "UtilityClasses.PointsAndMillimeters.docx");
 ### 也可以看看
 
 * class [ConvertUtil](../)
-* 命名空间 [Aspose.Words](../../convertutil/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,9 +1,11 @@
 ---
 title: Fill.Solid
-second_title: Aspose.Words for .NET API 参考
-description: Fill 方法. 将填充设置为统一颜色
+linktitle: Solid
+articleTitle: Solid
+second_title: 用于 .NET 的 Aspose.Words
+description: Fill Solid 方法. 将填充设置为统一颜色 在 C#.
 type: docs
-weight: 260
+weight: 250
 url: /zh/net/aspose.words.drawing/fill/solid/
 ---
 ## Solid() {#solid}
@@ -14,19 +16,19 @@ url: /zh/net/aspose.words.drawing/fill/solid/
 public void Solid()
 ```
 
-### 评论
+## 评论
 
 使用此方法将任何填充转换回实心填充。
 
 ### 也可以看看
 
 * class [Fill](../)
-* 命名空间 [Aspose.Words.Drawing](../../fill/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## Solid(Color) {#solid_1}
+## Solid(*Color*) {#solid_1}
 
 将填充设置为指定的统一颜色。
 
@@ -34,11 +36,11 @@ public void Solid()
 public void Solid(Color color)
 ```
 
-### 评论
+## 评论
 
 使用此方法将任何填充转换回实心填充。
 
-### 例子
+## 例子
 
 演示如何将任何填充转换回实体填充。
 
@@ -66,7 +68,5 @@ doc.Save(ArtifactsDir + "Drawing.FillSolid.docx");
 ### 也可以看看
 
 * class [Fill](../)
-* 命名空间 [Aspose.Words.Drawing](../../fill/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

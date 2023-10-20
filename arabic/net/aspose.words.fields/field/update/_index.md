@@ -1,7 +1,9 @@
 ---
 title: Field.Update
-second_title: Aspose.Words لمراجع .NET API
-description: Field طريقة. يقوم بإجراء التحديث الميداني. يتم الرمي إذا تم تحديث الحقل بالفعل.
+linktitle: Update
+articleTitle: Update
+second_title: Aspose.Words لـ .NET
+description: Field Update طريقة. يقوم بإجراء التحديث الميداني. يتم الرمي إذا تم تحديث الحقل بالفعل في C#.
 type: docs
 weight: 140
 url: /ar/net/aspose.words.fields/field/update/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/field/update/
 public void Update()
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج حقل في مستند باستخدام FieldType.
 
@@ -118,12 +120,12 @@ Assert.AreEqual(0, format.GeneralFormats.Count);
 ### أنظر أيضا
 
 * class [Field](../)
-* مساحة الاسم [Aspose.Words.Fields](../../field/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## Update(bool) {#update_1}
+## Update(*bool*) {#update_1}
 
 إجراء تحديث ميداني. يتم الرمي إذا تم تحديث الحقل بالفعل.
 
@@ -135,7 +137,7 @@ public void Update(bool ignoreMergeFormat)
 | --- | --- | --- |
 | ignoreMergeFormat | Boolean | إذا`حقيقي` ثم يتم التخلي عن التنسيق المباشر لنتيجة الحقل، بغض النظر عن رمز التبديل MERGEFORMAT، وإلا فسيتم إجراء التحديث العادي. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الحفاظ على حقول INCLUDEPICTURE أو تجاهلها عند تحميل مستند.
 
@@ -177,7 +179,5 @@ using (MemoryStream docStream = new MemoryStream())
 ### أنظر أيضا
 
 * class [Field](../)
-* مساحة الاسم [Aspose.Words.Fields](../../field/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

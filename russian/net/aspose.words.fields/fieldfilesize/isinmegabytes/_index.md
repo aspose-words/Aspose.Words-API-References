@@ -1,7 +1,9 @@
 ---
 title: FieldFileSize.IsInMegabytes
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldFileSize свойство. Получает или задает отображать ли размер файла в мегабайтах.
+linktitle: IsInMegabytes
+articleTitle: IsInMegabytes
+second_title: Aspose.Words для .NET
+description: FieldFileSize IsInMegabytes свойство. Получает или задает отображать ли размер файла в мегабайтах на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.fields/fieldfilesize/isinmegabytes/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldfilesize/isinmegabytes/
 public bool IsInMegabytes { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как отобразить размер файла документа с помощью поля FILESIZE.
 
@@ -62,7 +64,5 @@ doc.Save(ArtifactsDir + "Field.FILESIZE.docx");
 ### Смотрите также
 
 * class [FieldFileSize](../)
-* пространство имен [Aspose.Words.Fields](../../fieldfilesize/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

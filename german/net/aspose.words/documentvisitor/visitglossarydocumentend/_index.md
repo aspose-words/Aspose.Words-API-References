@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitGlossaryDocumentEnd
-second_title: Aspose.Words für .NET-API-Referenz
-description: DocumentVisitor methode. Wird aufgerufen wenn die Aufzählung eines Glossardokuments beendet wurde.
+linktitle: VisitGlossaryDocumentEnd
+articleTitle: VisitGlossaryDocumentEnd
+second_title: Aspose.Words für .NET
+description: DocumentVisitor VisitGlossaryDocumentEnd methode. Wird aufgerufen wenn die Aufzählung eines Glossardokuments beendet wurde in C#.
 type: docs
 weight: 240
 url: /de/net/aspose.words/documentvisitor/visitglossarydocumentend/
@@ -22,11 +24,11 @@ public virtual VisitorAction VisitGlossaryDocumentEnd(GlossaryDocument glossary)
 
 A[`VisitorAction`](../../visitoraction/) Wert, der angibt, wie die Enumeration fortgesetzt werden soll.
 
-### Bemerkungen
+## Bemerkungen
 
 Hinweis: Ein Glossardokumentknoten und seine untergeordneten Knoten werden nicht besucht, wenn Sie a Visitor über a ausführen[`Document`](../../document/) . Wenn Sie einen Besucher über ein Glossardokument ausführen möchten, müssen Sie aufrufen[`Accept`](../../../aspose.words.buildingblocks/glossarydocument/accept/) .
 
-### Beispiele
+## Beispiele
 
 Zeigt Möglichkeiten für den Zugriff auf Bausteine in einem Glossardokument.
 
@@ -132,7 +134,5 @@ public class GlossaryDocVisitor : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [GlossaryDocument](../../../aspose.words.buildingblocks/glossarydocument/)
 * class [DocumentVisitor](../)
-* namensraum [Aspose.Words](../../documentvisitor/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: EditableRange.EditableRangeEnd
-second_title: Aspose.Words لمراجع .NET API
-description: EditableRange ملكية. يحصل على العقدة التي تمثل نهاية النطاق القابل للتحرير.
+linktitle: EditableRangeEnd
+articleTitle: EditableRangeEnd
+second_title: Aspose.Words لـ .NET
+description: EditableRange EditableRangeEnd ملكية. يحصل على العقدة التي تمثل نهاية النطاق القابل للتحرير في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words/editablerange/editablerangeend/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/editablerange/editablerangeend/
 public EditableRangeEnd EditableRangeEnd { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع نطاق قابل للتحرير.
 
@@ -61,7 +63,5 @@ editableRange.Remove();
 
 * class [EditableRangeEnd](../../editablerangeend/)
 * class [EditableRange](../)
-* مساحة الاسم [Aspose.Words](../../editablerange/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

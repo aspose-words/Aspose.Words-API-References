@@ -1,9 +1,11 @@
 ---
 title: Document.Cleanup
-second_title: Aspose.Words لمراجع .NET API
-description: Document طريقة. ينظف الأنماط والقوائم غير المستخدمة من المستند.
+linktitle: Cleanup
+articleTitle: Cleanup
+second_title: Aspose.Words لـ .NET
+description: Document Cleanup طريقة. ينظف الأنماط والقوائم غير المستخدمة من المستند في C#.
 type: docs
-weight: 560
+weight: 540
 url: /ar/net/aspose.words/document/cleanup/
 ---
 ## Cleanup() {#cleanup}
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/document/cleanup/
 public void Cleanup()
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إزالة الأنماط المخصصة غير المستخدمة من المستند.
 
@@ -56,12 +58,12 @@ Assert.AreEqual(4, doc.Styles.Count);
 ### أنظر أيضا
 
 * class [Document](../)
-* مساحة الاسم [Aspose.Words](../../document/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## Cleanup(CleanupOptions) {#cleanup_1}
+## Cleanup(*[CleanupOptions](../../cleanupoptions/)*) {#cleanup_1}
 
 ينظف الأنماط والقوائم غير المستخدمة من المستند اعتمادًا على ما هو محدد[`CleanupOptions`](../../cleanupoptions/) .
 
@@ -69,7 +71,7 @@ Assert.AreEqual(4, doc.Styles.Count);
 public void Cleanup(CleanupOptions options)
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إزالة جميع الأنماط المخصصة غير المستخدمة من المستند.
 
@@ -119,7 +121,5 @@ Assert.AreEqual(2, doc.Styles.Count);
 
 * class [CleanupOptions](../../cleanupoptions/)
 * class [Document](../)
-* مساحة الاسم [Aspose.Words](../../document/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

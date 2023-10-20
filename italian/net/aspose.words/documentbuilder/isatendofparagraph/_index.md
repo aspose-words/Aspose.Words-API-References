@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.IsAtEndOfParagraph
-second_title: Aspose.Words per .NET API Reference
-description: DocumentBuilder proprietà. RestituisceVERO se il cursore è alla fine del paragrafo corrente.
+linktitle: IsAtEndOfParagraph
+articleTitle: IsAtEndOfParagraph
+second_title: Aspose.Words per .NET
+description: DocumentBuilder IsAtEndOfParagraph proprietà. RestituisceVERO se il cursore è alla fine del paragrafo corrente in C#.
 type: docs
 weight: 110
 url: /it/net/aspose.words/documentbuilder/isatendofparagraph/
@@ -14,7 +16,7 @@ Restituisce`VERO` se il cursore è alla fine del paragrafo corrente.
 public bool IsAtEndOfParagraph { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come spostare il cursore di un generatore di documenti su diversi nodi in un documento.
 
@@ -68,7 +70,5 @@ Assert.IsTrue(builder.IsAtStartOfParagraph);
 ### Guarda anche
 
 * class [DocumentBuilder](../)
-* spazio dei nomi [Aspose.Words](../../documentbuilder/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Run.IsPhoneticGuide
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Run propriété. Obtient une valeur booléenne indiquant que lexécution est un guide phonétique.
+linktitle: IsPhoneticGuide
+articleTitle: IsPhoneticGuide
+second_title: Aspose.Words pour .NET
+description: Run IsPhoneticGuide propriété. Obtient une valeur booléenne indiquant que lexécution est un guide phonétique en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words/run/isphoneticguide/
@@ -14,7 +16,7 @@ Obtient une valeur booléenne indiquant que l'exécution est un guide phonétiqu
 public bool IsPhoneticGuide { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment obtenir les propriétés du guide phonétique.
 
@@ -31,7 +33,5 @@ Assert.AreEqual("ruby", runs[0].PhoneticGuide.RubyText);
 ### Voir également
 
 * class [Run](../)
-* espace de noms [Aspose.Words](../../run/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class Style
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Style clase. Representa un único estilo integrado o definido por el usuario.
+title: Style Class
+linktitle: Style
+articleTitle: Style
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Style clase. Representa un único estilo integrado o definido por el usuario en C#.
 type: docs
 weight: 6130
 url: /es/net/aspose.words/style/
@@ -31,7 +33,6 @@ public class Style
 | [LinkedStyleName](../../aspose.words/style/linkedstylename/) { get; } | Obtiene el nombre del`Style` vinculado a éste. Devuelve una cadena vacía si no hay estilos vinculados. |
 | [List](../../aspose.words/style/list/) { get; } | Obtiene la lista que define el formato de este estilo de lista. |
 | [ListFormat](../../aspose.words/style/listformat/) { get; } | Proporciona acceso a las propiedades de formato de lista de un estilo de párrafo. |
-| [Locked](../../aspose.words/style/locked/) { get; set; } |  |
 | [Name](../../aspose.words/style/name/) { get; set; } | Obtiene o establece el nombre del estilo. |
 | [NextParagraphStyleName](../../aspose.words/style/nextparagraphstylename/) { get; set; } | Obtiene/establece el nombre del estilo que se aplicará automáticamente a un nuevo párrafo insertado después de un párrafo formateado con el estilo especificado. |
 | [ParagraphFormat](../../aspose.words/style/paragraphformat/) { get; } | Obtiene el formato de párrafo del estilo. |
@@ -43,10 +44,10 @@ public class Style
 
 | Nombre | Descripción |
 | --- | --- |
-| [Equals](../../aspose.words/style/equals/#equals)(Style) | Se compara con el estilo especificado. Los estilos Istd se comparan solo para los estilos integrados. Los estilos predeterminados no se incluyen en la comparación. El estilo base, el estilo vinculado y el estilo del siguiente párrafo se comparan recursivamente. |
+| [Equals](../../aspose.words/style/equals/#equals)(*Style*) | Se compara con el estilo especificado. Los estilos Istd se comparan solo para los estilos integrados. Los estilos predeterminados no se incluyen en la comparación. El estilo base, el estilo vinculado y el estilo del siguiente párrafo se comparan recursivamente. |
 | [Remove](../../aspose.words/style/remove/)() | Elimina el estilo especificado del documento. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear y utilizar un estilo de párrafo con formato de lista.
 
@@ -113,5 +114,3 @@ Assert.AreEqual(Color.Empty.ToArgb(), firstParagraphStyle.Font.Color.ToArgb());
 
 * espacio de nombres [Aspose.Words](../../aspose.words/)
 * asamblea [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FontFallbackSettings.LoadNotoFallbackSettings
-second_title: Aspose.Words per .NET API Reference
-description: FontFallbackSettings metodo. Carica le impostazioni di fallback predefinite che utilizzano i caratteri Google Noto.
+linktitle: LoadNotoFallbackSettings
+articleTitle: LoadNotoFallbackSettings
+second_title: Aspose.Words per .NET
+description: FontFallbackSettings LoadNotoFallbackSettings metodo. Carica le impostazioni di fallback predefinite che utilizzano i caratteri Google Noto in C#.
 type: docs
 weight: 40
 url: /it/net/aspose.words.fonts/fontfallbacksettings/loadnotofallbacksettings/
@@ -14,7 +16,7 @@ Carica le impostazioni di fallback predefinite che utilizzano i caratteri Google
 public void LoadNotoFallbackSettings()
 ```
 
-### Esempi
+## Esempi
 
 Mostra come aggiungere impostazioni di fallback dei caratteri predefinite per i caratteri di Google Noto.
 
@@ -65,7 +67,5 @@ fontFallbackSettings.Save(ArtifactsDir + "FontSettings.FallbackSettings.LoadNoto
 ### Guarda anche
 
 * class [FontFallbackSettings](../)
-* spazio dei nomi [Aspose.Words.Fonts](../../fontfallbacksettings/)
+* spazio dei nomi [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: HeaderFooter.ParentSection
-second_title: Referencia de API de Aspose.Words para .NET
-description: HeaderFooter propiedad. Obtiene la sección principal de esta historia.
+linktitle: ParentSection
+articleTitle: ParentSection
+second_title: Aspose.Words para .NET
+description: HeaderFooter ParentSection propiedad. Obtiene la sección principal de esta historia en C#.
 type: docs
 weight: 60
 url: /es/net/aspose.words/headerfooter/parentsection/
@@ -14,11 +16,11 @@ Obtiene la sección principal de esta historia.
 public Section ParentSection { get; }
 ```
 
-### Observaciones
+## Observaciones
 
 `ParentSection` es equivalente a[`ParentNode`](../../node/parentnode/) lanzado a[`Section`](../../section/).
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo vincular encabezados y pies de página entre secciones.
 
@@ -84,7 +86,5 @@ doc.Save(ArtifactsDir + "HeaderFooter.Link.docx");
 
 * class [Section](../../section/)
 * class [HeaderFooter](../)
-* espacio de nombres [Aspose.Words](../../headerfooter/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

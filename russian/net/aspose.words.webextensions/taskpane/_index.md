@@ -1,7 +1,9 @@
 ---
-title: Class TaskPane
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.WebExtensions.TaskPane сорт. Представляет объект области задач надстройки.
+title: TaskPane Class
+linktitle: TaskPane
+articleTitle: TaskPane
+second_title: Aspose.Words для .NET
+description: Aspose.Words.WebExtensions.TaskPane сорт. Представляет объект области задач надстройки на С#.
 type: docs
 weight: 6710
 url: /ru/net/aspose.words.webextensions/taskpane/
@@ -33,7 +35,7 @@ public class TaskPane
 | [WebExtension](../../aspose.words.webextensions/taskpane/webextension/) { get; } | Представляет объект веб-расширения. |
 | [Width](../../aspose.words.webextensions/taskpane/width/) { get; set; } | Указывает значение ширины по умолчанию для этого экземпляра области задач. |
 
-### Примеры
+## Примеры
 
 Показывает, как добавить веб-расширение в документ.
 
@@ -79,5 +81,3 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 
 * пространство имен [Aspose.Words.WebExtensions](../../aspose.words.webextensions/)
 * сборка [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum PdfCompliance
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Saving.PdfCompliance 枚举. 指定 PDF 标准合规级别
+title: PdfCompliance Enum
+linktitle: PdfCompliance
+articleTitle: PdfCompliance
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Saving.PdfCompliance 枚举. 指定 PDF 标准合规级别 在 C#.
 type: docs
 weight: 5410
 url: /zh/net/aspose.words.saving/pdfcompliance/
@@ -27,7 +29,7 @@ public enum PdfCompliance
 | PdfA4 | `6` | 输出文件将符合 PDF/A-4 (ISO 19005-4:2020) 标准。 PDF/A-4 的目标是随着时间的推移保留文档静态视觉外观，独立于用于创建的工具 和系统、存储或渲染文件。此外，文档 中包含的任何文本都可以可靠地提取为一系列 Unicode 代码点。 |
 | PdfUa1 | `7` | 输出文件将符合 PDF/UA-1 (ISO 14289-1) 标准。 PDF/UA 的主要目的是定义如何以 a 方式表示 PDF 格式的电子文档，从而允许文件可访问. |
 
-### 例子
+## 例子
 
 演示如何设置已保存 PDF 文档的 PDF 标准合规级别。
 
@@ -60,5 +62,3 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.Compliance.pdf", saveOptions);
 
 * 命名空间 [Aspose.Words.Saving](../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../)
-
-

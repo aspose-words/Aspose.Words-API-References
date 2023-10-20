@@ -1,7 +1,9 @@
 ---
-title: Class ComparisonEvaluationResult
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Fields.ComparisonEvaluationResult فصل. نتيجة تقييم المقارنة.
+title: ComparisonEvaluationResult Class
+linktitle: ComparisonEvaluationResult
+articleTitle: ComparisonEvaluationResult
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Fields.ComparisonEvaluationResult فصل. نتيجة تقييم المقارنة في C#.
 type: docs
 weight: 1480
 url: /ar/net/aspose.words.fields/comparisonevaluationresult/
@@ -20,8 +22,8 @@ public sealed class ComparisonEvaluationResult
 
 | اسم | وصف |
 | --- | --- |
-| [ComparisonEvaluationResult](comparisonevaluationresult/#constructor)(bool) | إنشاء نتيجة تقييم المقارنة. |
-| [ComparisonEvaluationResult](comparisonevaluationresult/#constructor_1)(string) | إنشاء نتيجة تقييم مقارنة فاشلة مع رسالة الخطأ المقابلة. |
+| [ComparisonEvaluationResult](comparisonevaluationresult/#constructor)(*bool*) | إنشاء نتيجة تقييم المقارنة. |
+| [ComparisonEvaluationResult](comparisonevaluationresult/#constructor_1)(*string*) | إنشاء نتيجة تقييم مقارنة فاشلة مع رسالة الخطأ المقابلة. |
 
 ## الخصائص
 
@@ -30,7 +32,7 @@ public sealed class ComparisonEvaluationResult
 | [ErrorMessage](../../aspose.words.fields/comparisonevaluationresult/errormessage/) { get; } | الحصول على رسالة خطأ نتيجة تقييم المقارنة الفاشلة. |
 | [Result](../../aspose.words.fields/comparisonevaluationresult/result/) { get; } | الحصول على نتيجة تقييم المقارنة. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تنفيذ التقييم المخصص لحقول IF وCOMPARE.
 
@@ -115,5 +117,3 @@ private class ComparisonExpressionEvaluator : IComparisonExpressionEvaluator
 
 * مساحة الاسم [Aspose.Words.Fields](../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../)
-
-

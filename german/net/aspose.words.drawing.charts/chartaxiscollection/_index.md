@@ -1,7 +1,9 @@
 ---
-title: Class ChartAxisCollection
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Drawing.Charts.ChartAxisCollection klas. Stellt eine Sammlung von Diagrammachsen dar.
+title: ChartAxisCollection Class
+linktitle: ChartAxisCollection
+articleTitle: ChartAxisCollection
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Drawing.Charts.ChartAxisCollection klas. Stellt eine Sammlung von Diagrammachsen dar in C#.
 type: docs
 weight: 640
 url: /de/net/aspose.words.drawing.charts/chartaxiscollection/
@@ -27,7 +29,7 @@ public class ChartAxisCollection : IEnumerable<ChartAxis>
 | --- | --- |
 | [GetEnumerator](../../aspose.words.drawing.charts/chartaxiscollection/getenumerator/)() | Gibt ein Enumeratorobjekt zurück. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man mit der Achsensammlung arbeitet.
 
@@ -53,5 +55,3 @@ doc.Save(ArtifactsDir + "Charts.AxisCollection.docx");
 * class [ChartAxis](../chartaxis/)
 * namensraum [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../)
-
-

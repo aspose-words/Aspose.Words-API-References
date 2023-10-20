@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.TickLabelPosition
-second_title: Aspose.Words für .NET-API-Referenz
-description: ChartAxis eigendom. Gibt die Position der Teilstrichbeschriftungen auf der Achse zurück oder legt sie fest.
+linktitle: TickLabelPosition
+articleTitle: TickLabelPosition
+second_title: Aspose.Words für .NET
+description: ChartAxis TickLabelPosition eigendom. Gibt die Position der Teilstrichbeschriftungen auf der Achse zurück oder legt sie fest in C#.
 type: docs
 weight: 240
 url: /de/net/aspose.words.drawing.charts/chartaxis/ticklabelposition/
@@ -14,11 +16,11 @@ Gibt die Position der Teilstrichbeschriftungen auf der Achse zurück oder legt s
 public AxisTickLabelPosition TickLabelPosition { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Die Eigenschaft wird von den neuen Diagrammen von MS Office 2016 nicht unterstützt.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man ein Diagramm einfügt und das Erscheinungsbild seiner Achsen ändert.
 
@@ -72,7 +74,5 @@ doc.Save(ArtifactsDir + "Charts.AxisProperties.docx");
 
 * enum [AxisTickLabelPosition](../../axisticklabelposition/)
 * class [ChartAxis](../)
-* namensraum [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* namensraum [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../../)
-
-

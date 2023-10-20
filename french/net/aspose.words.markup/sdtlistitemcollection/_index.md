@@ -1,7 +1,9 @@
 ---
-title: Class SdtListItemCollection
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Markup.SdtListItemCollection classe. Donne accès àSdtListItem éléments dune balise de document structuré.
+title: SdtListItemCollection Class
+linktitle: SdtListItemCollection
+articleTitle: SdtListItemCollection
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Markup.SdtListItemCollection classe. Donne accès àSdtListItem éléments dune balise de document structuré en C#.
 type: docs
 weight: 4030
 url: /fr/net/aspose.words.markup/sdtlistitemcollection/
@@ -28,12 +30,12 @@ public class SdtListItemCollection : IEnumerable<SdtListItem>
 
 | Nom | La description |
 | --- | --- |
-| [Add](../../aspose.words.markup/sdtlistitemcollection/add/)(SdtListItem) | Ajoute un élément à cette collection. |
+| [Add](../../aspose.words.markup/sdtlistitemcollection/add/)(*[SdtListItem](../sdtlistitem/)*) | Ajoute un élément à cette collection. |
 | [Clear](../../aspose.words.markup/sdtlistitemcollection/clear/)() | Efface tous les éléments de cette collection. |
 | [GetEnumerator](../../aspose.words.markup/sdtlistitemcollection/getenumerator/)() | Renvoie un objet énumérateur qui peut être utilisé pour parcourir tous les éléments de la collection. |
-| [RemoveAt](../../aspose.words.markup/sdtlistitemcollection/removeat/)(int) | Supprime un élément de liste à l'index spécifié. |
+| [RemoveAt](../../aspose.words.markup/sdtlistitemcollection/removeat/)(*int*) | Supprime un élément de liste à l'index spécifié. |
 
-### Exemples
+## Exemples
 
 Montre comment utiliser les balises de documents structurés à liste déroulante.
 
@@ -92,5 +94,3 @@ Assert.AreEqual(0, listItems.Count);
 * class [SdtListItem](../sdtlistitem/)
 * espace de noms [Aspose.Words.Markup](../../aspose.words.markup/)
 * Assemblée [Aspose.Words](../../)
-
-

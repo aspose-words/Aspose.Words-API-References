@@ -1,7 +1,9 @@
 ---
 title: SignOptions.SignatureLineImage
-second_title: Aspose.Words for .NET API 参考
-description: SignOptions 财产. 将在关联中显示的图像SignatureLine. 默认值为无效的
+linktitle: SignatureLineImage
+articleTitle: SignatureLineImage
+second_title: 用于 .NET 的 Aspose.Words
+description: SignOptions SignatureLineImage 财产. 将在关联中显示的图像SignatureLine. 默认值为无效的 在 C#.
 type: docs
 weight: 60
 url: /zh/net/aspose.words.digitalsignatures/signoptions/signaturelineimage/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.digitalsignatures/signoptions/signaturelineimage/
 public byte[] SignatureLineImage { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何向文档添加签名行，然后使用数字证书对其进行签名。
 
@@ -130,7 +132,5 @@ public byte[] SignatureLineImage { get; set; }
 ### 也可以看看
 
 * class [SignOptions](../)
-* 命名空间 [Aspose.Words.DigitalSignatures](../../signoptions/)
+* 命名空间 [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldIncludePicture.ResizeVertically
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldIncludePicture propriété. Obtient ou définit sil faut redimensionner limage verticalement à partir de la source.
+linktitle: ResizeVertically
+articleTitle: ResizeVertically
+second_title: Aspose.Words pour .NET
+description: FieldIncludePicture ResizeVertically propriété. Obtient ou définit sil faut redimensionner limage verticalement à partir de la source en C#.
 type: docs
 weight: 50
 url: /fr/net/aspose.words.fields/fieldincludepicture/resizevertically/
@@ -14,7 +16,7 @@ Obtient ou définit s'il faut redimensionner l'image verticalement à partir de 
 public bool ResizeVertically { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment insérer des images à l’aide des champs IMPORT et INCLUDEPICTURE.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "Field.IMPORT.INCLUDEPICTURE.docx");
 ### Voir également
 
 * class [FieldIncludePicture](../)
-* espace de noms [Aspose.Words.Fields](../../fieldincludepicture/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

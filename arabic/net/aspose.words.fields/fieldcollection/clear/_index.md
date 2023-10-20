@@ -1,7 +1,9 @@
 ---
 title: FieldCollection.Clear
-second_title: Aspose.Words لمراجع .NET API
-description: FieldCollection طريقة. إزالة كافة حقول هذه المجموعة من المستند ومن هذه المجموعة نفسها.
+linktitle: Clear
+articleTitle: Clear
+second_title: Aspose.Words لـ .NET
+description: FieldCollection Clear طريقة. إزالة كافة حقول هذه المجموعة من المستند ومن هذه المجموعة نفسها في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.fields/fieldcollection/clear/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldcollection/clear/
 public void Clear()
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إزالة الحقول من مجموعة الحقول.
 
@@ -56,7 +58,5 @@ Assert.AreEqual(0, fields.Count);
 ### أنظر أيضا
 
 * class [FieldCollection](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldcollection/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

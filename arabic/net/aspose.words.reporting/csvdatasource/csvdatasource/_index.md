@@ -1,12 +1,14 @@
 ---
-title: CsvDataSource.CsvDataSource
-second_title: Aspose.Words لمراجع .NET API
-description: CsvDataSource البناء. إنشاء مصدر بيانات جديد ببيانات من ملف CSV باستخدام الخيارات الافتراضية لتحليل بيانات CSV.
+title: CsvDataSource
+linktitle: CsvDataSource
+articleTitle: CsvDataSource
+second_title: Aspose.Words لـ .NET
+description: CsvDataSource البناء. إنشاء مصدر بيانات جديد ببيانات من ملف CSV باستخدام الخيارات الافتراضية لتحليل بيانات CSV في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.reporting/csvdatasource/csvdatasource/
 ---
-## CsvDataSource(string) {#constructor_2}
+## CsvDataSource(*string*) {#constructor_2}
 
 إنشاء مصدر بيانات جديد ببيانات من ملف CSV باستخدام الخيارات الافتراضية لتحليل بيانات CSV.
 
@@ -21,12 +23,12 @@ public CsvDataSource(string csvPath)
 ### أنظر أيضا
 
 * class [CsvDataSource](../)
-* مساحة الاسم [Aspose.Words.Reporting](../../csvdatasource/)
+* مساحة الاسم [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## CsvDataSource(string, CsvDataLoadOptions) {#constructor_3}
+## CsvDataSource(*string, [CsvDataLoadOptions](../../csvdataloadoptions/)*) {#constructor_3}
 
 إنشاء مصدر بيانات جديد ببيانات من ملف CSV باستخدام الخيارات المحددة لتحليل بيانات CSV.
 
@@ -43,12 +45,12 @@ public CsvDataSource(string csvPath, CsvDataLoadOptions options)
 
 * class [CsvDataLoadOptions](../../csvdataloadoptions/)
 * class [CsvDataSource](../)
-* مساحة الاسم [Aspose.Words.Reporting](../../csvdatasource/)
+* مساحة الاسم [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## CsvDataSource(Stream) {#constructor}
+## CsvDataSource(*Stream*) {#constructor}
 
 إنشاء مصدر بيانات جديد ببيانات من تدفق CSV باستخدام الخيارات الافتراضية لتحليل بيانات CSV.
 
@@ -63,12 +65,12 @@ public CsvDataSource(Stream csvStream)
 ### أنظر أيضا
 
 * class [CsvDataSource](../)
-* مساحة الاسم [Aspose.Words.Reporting](../../csvdatasource/)
+* مساحة الاسم [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## CsvDataSource(Stream, CsvDataLoadOptions) {#constructor_1}
+## CsvDataSource(*Stream, [CsvDataLoadOptions](../../csvdataloadoptions/)*) {#constructor_1}
 
 إنشاء مصدر بيانات جديد ببيانات من تدفق CSV باستخدام الخيارات المحددة لتحليل بيانات CSV.
 
@@ -85,7 +87,5 @@ public CsvDataSource(Stream csvStream, CsvDataLoadOptions options)
 
 * class [CsvDataLoadOptions](../../csvdataloadoptions/)
 * class [CsvDataSource](../)
-* مساحة الاسم [Aspose.Words.Reporting](../../csvdatasource/)
+* مساحة الاسم [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * المجسم [Aspose.Words](../../../)
-
-

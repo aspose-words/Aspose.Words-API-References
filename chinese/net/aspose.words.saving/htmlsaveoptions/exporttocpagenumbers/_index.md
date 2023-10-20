@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ExportTocPageNumbers
-second_title: Aspose.Words for .NET API 参考
-description: HtmlSaveOptions 财产. 指定保存 HTMLMHTML 和 EPUB 时是否将页码写入目录 默认值为错误的.
+linktitle: ExportTocPageNumbers
+articleTitle: ExportTocPageNumbers
+second_title: 用于 .NET 的 Aspose.Words
+description: HtmlSaveOptions ExportTocPageNumbers 财产. 指定保存 HTMLMHTML 和 EPUB 时是否将页码写入目录 默认值为错误的 在 C#.
 type: docs
 weight: 270
 url: /zh/net/aspose.words.saving/htmlsaveoptions/exporttocpagenumbers/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.saving/htmlsaveoptions/exporttocpagenumbers/
 public bool ExportTocPageNumbers { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示将带有目录的文档保存为 .html 时如何显示页码。
 
@@ -72,7 +74,5 @@ else
 ### 也可以看看
 
 * class [HtmlSaveOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../htmlsaveoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

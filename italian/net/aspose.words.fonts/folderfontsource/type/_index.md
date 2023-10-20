@@ -1,7 +1,9 @@
 ---
 title: FolderFontSource.Type
-second_title: Aspose.Words per .NET API Reference
-description: FolderFontSource proprietà. Restituisce il tipo di fonte del carattere.
+linktitle: Type
+articleTitle: Type
+second_title: Aspose.Words per .NET
+description: FolderFontSource Type proprietà. Restituisce il tipo di fonte del carattere in C#.
 type: docs
 weight: 40
 url: /it/net/aspose.words.fonts/folderfontsource/type/
@@ -14,7 +16,7 @@ Restituisce il tipo di fonte del carattere.
 public override FontSourceType Type { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come utilizzare una cartella di sistema locale che contiene i caratteri come origine dei caratteri.
 
@@ -36,7 +38,5 @@ Assert.AreEqual(1, folderFontSource.Priority);
 
 * enum [FontSourceType](../../fontsourcetype/)
 * class [FolderFontSource](../)
-* spazio dei nomi [Aspose.Words.Fonts](../../folderfontsource/)
+* spazio dei nomi [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,9 +1,11 @@
 ---
 title: ImageData.ToImage
-second_title: Aspose.Words لمراجع .NET API
-description: ImageData طريقة. يحصل على الصورة المخزنة بالشكل aImage الكائن.
+linktitle: ToImage
+articleTitle: ToImage
+second_title: Aspose.Words لـ .NET
+description: ImageData ToImage طريقة. يحصل على الصورة المخزنة بالشكل aImage الكائن في C#.
 type: docs
-weight: 230
+weight: 220
 url: /ar/net/aspose.words.drawing/imagedata/toimage/
 ---
 ## ImageData.ToImage method
@@ -14,13 +16,13 @@ url: /ar/net/aspose.words.drawing/imagedata/toimage/
 public Image ToImage()
 ```
 
-### ملاحظات
+## ملاحظات
 
 جديدImage يتم إنشاء الكائن في كل مرة يتم فيها استدعاء هذه الطريقة.
 
 تقع على عاتق المتصل مسؤولية التخلص من كائن الصورة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية حفظ جميع الصور من مستند إلى نظام الملفات.
 
@@ -53,7 +55,5 @@ using (IEnumerator<Shape> enumerator = shapesWithImages.GetEnumerator())
 ### أنظر أيضا
 
 * class [ImageData](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../imagedata/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

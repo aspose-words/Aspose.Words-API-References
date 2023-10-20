@@ -1,7 +1,9 @@
 ---
 title: CssSavingArgs.KeepCssStreamOpen
-second_title: Aspose.Words for .NET API 参考
-description: CssSavingArgs 财产. 指定 Aspose.Words 在保存 CSS 信息后是否应保持流打开或关闭它
+linktitle: KeepCssStreamOpen
+articleTitle: KeepCssStreamOpen
+second_title: 用于 .NET 的 Aspose.Words
+description: CssSavingArgs KeepCssStreamOpen 财产. 指定 Aspose.Words 在保存 CSS 信息后是否应保持流打开或关闭它 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.saving/csssavingargs/keepcssstreamopen/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.saving/csssavingargs/keepcssstreamopen/
 public bool KeepCssStreamOpen { get; set; }
 ```
 
-### 评论
+## 评论
 
 默认为`错误的` Aspose.Words 将关闭您提供的流 [`CssStream`](../cssstream/)写入CSS信息后的属性。 指定`真的`以保持流打开。
 
-### 例子
+## 例子
 
 演示如何使用 HTML 转换创建的 CSS 样式表。
 
@@ -79,7 +81,5 @@ private class CustomCssSavingCallback : ICssSavingCallback
 ### 也可以看看
 
 * class [CssSavingArgs](../)
-* 命名空间 [Aspose.Words.Saving](../../csssavingargs/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

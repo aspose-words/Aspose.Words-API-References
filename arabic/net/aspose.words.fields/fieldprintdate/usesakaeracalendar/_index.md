@@ -1,7 +1,9 @@
 ---
 title: FieldPrintDate.UseSakaEraCalendar
-second_title: Aspose.Words لمراجع .NET API
-description: FieldPrintDate ملكية. الحصول على أو تعيين ما إذا كان سيتم استخدام تقويم Saka Era.
+linktitle: UseSakaEraCalendar
+articleTitle: UseSakaEraCalendar
+second_title: Aspose.Words لـ .NET
+description: FieldPrintDate UseSakaEraCalendar ملكية. الحصول على أو تعيين ما إذا كان سيتم استخدام تقويم Saka Era في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.fields/fieldprintdate/usesakaeracalendar/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldprintdate/usesakaeracalendar/
 public bool UseSakaEraCalendar { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يظهر قراءة حقول PRINTDATE.
 
@@ -56,7 +58,5 @@ Assert.AreEqual(" PRINTDATE  \\s", field.GetFieldCode());
 ### أنظر أيضا
 
 * class [FieldPrintDate](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldprintdate/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

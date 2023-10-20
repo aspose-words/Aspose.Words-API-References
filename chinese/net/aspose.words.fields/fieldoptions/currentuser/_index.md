@@ -1,7 +1,9 @@
 ---
 title: FieldOptions.CurrentUser
-second_title: Aspose.Words for .NET API 参考
-description: FieldOptions 财产. 获取或设置当前用户信息
+linktitle: CurrentUser
+articleTitle: CurrentUser
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldOptions CurrentUser 财产. 获取或设置当前用户信息 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words.fields/fieldoptions/currentuser/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fieldoptions/currentuser/
 public UserInformation CurrentUser { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何设置用户详细信息并使用字段显示它们。
 
@@ -55,7 +57,5 @@ doc.Save(ArtifactsDir + "FieldOptions.CurrentUser.docx");
 
 * class [UserInformation](../../userinformation/)
 * class [FieldOptions](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldoptions/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

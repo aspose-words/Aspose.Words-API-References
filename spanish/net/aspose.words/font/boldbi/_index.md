@@ -1,7 +1,9 @@
 ---
 title: Font.BoldBi
-second_title: Referencia de API de Aspose.Words para .NET
-description: Font propiedad. Verdadero si el texto de derecha a izquierda tiene el formato negrita.
+linktitle: BoldBi
+articleTitle: BoldBi
+second_title: Aspose.Words para .NET
+description: Font BoldBi propiedad. Verdadero si el texto de derecha a izquierda tiene el formato negrita en C#.
 type: docs
 weight: 50
 url: /es/net/aspose.words/font/boldbi/
@@ -14,7 +16,7 @@ Verdadero si el texto de derecha a izquierda tiene el formato negrita.
 public bool BoldBi { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo definir conjuntos separados de configuraciones de fuente para texto de derecha a izquierda y de derecha a izquierda.
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "Font.Bidi.docx");
 ### Ver también
 
 * class [Font](../)
-* espacio de nombres [Aspose.Words](../../font/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

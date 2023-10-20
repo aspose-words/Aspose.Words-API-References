@@ -1,7 +1,9 @@
 ---
 title: BarcodeParameters.ForegroundColor
-second_title: Aspose.Words för .NET API Referens
-description: BarcodeParameters fast egendom. Streckkods förgrundsfärg 0x000000  0xFFFFFF
+linktitle: ForegroundColor
+articleTitle: ForegroundColor
+second_title: Aspose.Words för .NET
+description: BarcodeParameters ForegroundColor fast egendom. Streckkods förgrundsfärg 0x000000  0xFFFFFF i C#.
 type: docs
 weight: 110
 url: /sv/net/aspose.words.fields/barcodeparameters/foregroundcolor/
@@ -14,7 +16,7 @@ Streckkods förgrundsfärg (0x000000 - 0xFFFFFF)
 public string ForegroundColor { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man använder en streckkodsgenerator.
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.docx");
 ### Se även
 
 * class [BarcodeParameters](../)
-* namnutrymme [Aspose.Words.Fields](../../barcodeparameters/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

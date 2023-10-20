@@ -1,7 +1,9 @@
 ---
 title: FootnoteOptions.RestartRule
-second_title: Справочник по API Aspose.Words для .NET
-description: FootnoteOptions свойство. Определяет когда перезапускается автоматическая нумерация.
+linktitle: RestartRule
+articleTitle: RestartRule
+second_title: Aspose.Words для .NET
+description: FootnoteOptions RestartRule свойство. Определяет когда перезапускается автоматическая нумерация на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.notes/footnoteoptions/restartrule/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.notes/footnoteoptions/restartrule/
 public FootnoteNumberingRule RestartRule { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как перезапустить нумерацию сносок/концевых сносок в определенных местах документа.
 
@@ -70,7 +72,5 @@ doc.Save(ArtifactsDir + "InlineStory.NumberingRule.docx");
 
 * enum [FootnoteNumberingRule](../../footnotenumberingrule/)
 * class [FootnoteOptions](../)
-* пространство имен [Aspose.Words.Notes](../../footnoteoptions/)
+* пространство имен [Aspose.Words.Notes](../../../aspose.words.notes/)
 * сборка [Aspose.Words](../../../)
-
-

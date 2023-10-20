@@ -1,7 +1,9 @@
 ---
 title: Document.AutomaticallyUpdateStyles
-second_title: Справочник по API Aspose.Words для .NET
-description: Document свойство. Получает или задает флаг указывающий обновляются ли стили в документе в соответствии со стилями в прикрепленном шаблоне каждый раз когда документ открывается в MS Word.
+linktitle: AutomaticallyUpdateStyles
+articleTitle: AutomaticallyUpdateStyles
+second_title: Aspose.Words для .NET
+description: Document AutomaticallyUpdateStyles свойство. Получает или задает флаг указывающий обновляются ли стили в документе в соответствии со стилями в прикрепленном шаблоне каждый раз когда документ открывается в MS Word на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words/document/automaticallyupdatestyles/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/document/automaticallyupdatestyles/
 public bool AutomaticallyUpdateStyles { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как прикрепить шаблон к документу.
 
@@ -55,7 +57,5 @@ doc.Save(ArtifactsDir + "Document.DefaultTemplate.docx", options);
 ### Смотрите также
 
 * class [Document](../)
-* пространство имен [Aspose.Words](../../document/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

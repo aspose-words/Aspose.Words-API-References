@@ -1,7 +1,9 @@
 ---
-title: Class DocumentSavingArgs
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Saving.DocumentSavingArgs clase. Un argumento pasado aNotify .
+title: DocumentSavingArgs Class
+linktitle: DocumentSavingArgs
+articleTitle: DocumentSavingArgs
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Saving.DocumentSavingArgs clase. Un argumento pasado aNotify  en C#.
 type: docs
 weight: 4950
 url: /es/net/aspose.words.saving/documentsavingargs/
@@ -26,5 +28,3 @@ public sealed class DocumentSavingArgs
 
 * espacio de nombres [Aspose.Words.Saving](../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../)
-
-

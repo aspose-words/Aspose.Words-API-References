@@ -1,7 +1,9 @@
 ---
 title: CleanupOptions.UnusedStyles
-second_title: Aspose.Words für .NET-API-Referenz
-description: CleanupOptions eigendom. Gibt an ob nicht verwendete Stile aus dem Dokument entfernt werden sollen. Der Standardwert istWAHR .
+linktitle: UnusedStyles
+articleTitle: UnusedStyles
+second_title: Aspose.Words für .NET
+description: CleanupOptions UnusedStyles eigendom. Gibt an ob nicht verwendete Stile aus dem Dokument entfernt werden sollen. Der Standardwert istWAHR  in C#.
 type: docs
 weight: 50
 url: /de/net/aspose.words/cleanupoptions/unusedstyles/
@@ -14,7 +16,7 @@ Gibt an, ob nicht verwendete Stile aus dem Dokument entfernt werden sollen. Der 
 public bool UnusedStyles { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie alle nicht verwendeten benutzerdefinierten Stile aus einem Dokument entfernt werden.
 
@@ -63,7 +65,5 @@ Assert.AreEqual(2, doc.Styles.Count);
 ### Siehe auch
 
 * class [CleanupOptions](../)
-* namensraum [Aspose.Words](../../cleanupoptions/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

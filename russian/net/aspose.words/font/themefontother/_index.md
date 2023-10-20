@@ -1,7 +1,9 @@
 ---
 title: Font.ThemeFontOther
-second_title: Справочник по API Aspose.Words для .NET
-description: Font свойство. Получает или задает шрифт темы используемый для символов с кодами символов от 128 до 255 в применяемой схеме шрифтов связанной с этим.Font объект.
+linktitle: ThemeFontOther
+articleTitle: ThemeFontOther
+second_title: Aspose.Words для .NET
+description: Font ThemeFontOther свойство. Получает или задает шрифт темы используемый для символов с кодами символов от 128 до 255 в применяемой схеме шрифтов связанной с этим.Font объект на С#.
 type: docs
 weight: 510
 url: /ru/net/aspose.words/font/themefontother/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/font/themefontother/
 public ThemeFont ThemeFontOther { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как работать со шрифтами и цветами темы.
 
@@ -101,7 +103,5 @@ Assert.AreEqual(Color.Blue.ToArgb(), font.Color.ToArgb());
 
 * enum [ThemeFont](../../../aspose.words.themes/themefont/)
 * class [Font](../)
-* пространство имен [Aspose.Words](../../font/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

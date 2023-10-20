@@ -1,7 +1,9 @@
 ---
-title: Class CssSavingArgs
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Saving.CssSavingArgs сорт. Предоставляет данные дляCssSaving событие.
+title: CssSavingArgs Class
+linktitle: CssSavingArgs
+articleTitle: CssSavingArgs
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Saving.CssSavingArgs сорт. Предоставляет данные дляCssSaving событие на С#.
 type: docs
 weight: 4880
 url: /ru/net/aspose.words.saving/csssavingargs/
@@ -25,9 +27,9 @@ public class CssSavingArgs
 | [IsExportNeeded](../../aspose.words.saving/csssavingargs/isexportneeded/) { get; set; } | Позволяет указать, будет ли CSS экспортироваться в файл и внедряться в HTML-документ. По умолчанию`истинный` . Когда это свойство`ЛОЖЬ` , информация CSS не будет сохранена в файле CSS и не будет внедрена в документ HTML. |
 | [KeepCssStreamOpen](../../aspose.words.saving/csssavingargs/keepcssstreamopen/) { get; set; } | Указывает, должен ли Aspose.Words сохранять поток открытым или закрывать его после сохранения информации CSS. |
 
-### Примечания
+## Примечания
 
-По умолчанию, когда Aspose.Words сохраняет документ в HTML, он сохраняет информацию CSS inline (как значение параметра **стиль** атрибут каждого элемента).
+По умолчанию, когда Aspose.Words сохраняет документ в HTML, он сохраняет информацию CSS inline (как значение параметра**стиль** атрибут каждого элемента).
 
 `CssSavingArgs`позволяет сохранять информацию CSS в файл, предоставляя собственный объект потока.
 
@@ -35,7 +37,7 @@ public class CssSavingArgs
 
 Чтобы запретить сохранение CSS в файл и встраивание в HTML-документ, используйте команду[`IsExportNeeded`](./isexportneeded/) свойство.
 
-### Примеры
+## Примеры
 
 Показывает, как работать с таблицами стилей CSS, создаваемыми преобразованием HTML.
 
@@ -97,5 +99,3 @@ private class CustomCssSavingCallback : ICssSavingCallback
 
 * пространство имен [Aspose.Words.Saving](../../aspose.words.saving/)
 * сборка [Aspose.Words](../../)
-
-

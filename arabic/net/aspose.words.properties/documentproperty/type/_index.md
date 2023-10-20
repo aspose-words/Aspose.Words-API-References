@@ -1,7 +1,9 @@
 ---
 title: DocumentProperty.Type
-second_title: Aspose.Words لمراجع .NET API
-description: DocumentProperty ملكية. الحصول على نوع بيانات الخاصية.
+linktitle: Type
+articleTitle: Type
+second_title: Aspose.Words لـ .NET
+description: DocumentProperty Type ملكية. الحصول على نوع بيانات الخاصية في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.properties/documentproperty/type/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.properties/documentproperty/type/
 public PropertyType Type { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع خصائص المستند المضمنة.
 
@@ -104,7 +106,5 @@ Assert.AreEqual(0, properties.Count);
 
 * enum [PropertyType](../../propertytype/)
 * class [DocumentProperty](../)
-* مساحة الاسم [Aspose.Words.Properties](../../documentproperty/)
+* مساحة الاسم [Aspose.Words.Properties](../../../aspose.words.properties/)
 * المجسم [Aspose.Words](../../../)
-
-

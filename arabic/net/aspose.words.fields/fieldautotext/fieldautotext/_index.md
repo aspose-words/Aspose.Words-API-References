@@ -1,7 +1,9 @@
 ---
-title: FieldAutoText.FieldAutoText
-second_title: Aspose.Words لمراجع .NET API
-description: FieldAutoText البناء. Default_Constructor
+title: FieldAutoText
+linktitle: FieldAutoText
+articleTitle: FieldAutoText
+second_title: Aspose.Words لـ .NET
+description: FieldAutoText البناء. Default_Constructor في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fields/fieldautotext/fieldautotext/
@@ -17,7 +19,5 @@ public FieldAutoText()
 ### أنظر أيضا
 
 * class [FieldAutoText](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldautotext/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: SectionCollection.Item
-second_title: Aspose.Words für .NET-API-Referenz
-description: SectionCollection eigendom. Ruft einen Abschnitt am angegebenen Index ab.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words für .NET
+description: SectionCollection Item eigendom. Ruft einen Abschnitt am angegebenen Index ab in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words/sectioncollection/item/
@@ -18,7 +20,7 @@ public Section this[int index] { get; }
 | --- | --- |
 | index | Ein Index in der Liste der Abschnitte. |
 
-### Bemerkungen
+## Bemerkungen
 
 Der Index ist nullbasiert.
 
@@ -28,7 +30,7 @@ Wenn der Index größer oder gleich der Anzahl der Elemente in der Liste ist, wi
 
 Wenn der Index negativ ist und sein absoluter Wert größer als die Anzahl der Elemente in der Liste ist, wird ein Nullverweis zurückgegeben.
 
-### Beispiele
+## Beispiele
 
 Zeigt an, wann das Seitenlayout des Dokuments neu berechnet werden soll.
 
@@ -83,7 +85,5 @@ Assert.AreEqual("Hello world!", doc.GetText().Trim());
 
 * class [Section](../../section/)
 * class [SectionCollection](../)
-* namensraum [Aspose.Words](../../sectioncollection/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

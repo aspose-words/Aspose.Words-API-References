@@ -1,7 +1,9 @@
 ---
 title: OfficeMath.NodeType
-second_title: Aspose.Words für .NET-API-Referenz
-description: OfficeMath eigendom. Gibt zurückOfficeMath .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words für .NET
+description: OfficeMath NodeType eigendom. Gibt zurückOfficeMath  in C#.
 type: docs
 weight: 40
 url: /de/net/aspose.words.math/officemath/nodetype/
@@ -14,7 +16,7 @@ Gibt zurückOfficeMath .
 public override NodeType NodeType { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Anzeigeformatierung für Office-Mathematik festgelegt wird.
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "Shape.OfficeMath.docx");
 
 * enum [NodeType](../../../aspose.words/nodetype/)
 * class [OfficeMath](../)
-* namensraum [Aspose.Words.Math](../../officemath/)
+* namensraum [Aspose.Words.Math](../../../aspose.words.math/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class PdfLoadOptions
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Loading.PdfLoadOptions klass. Gör det möjligt att ange ytterligare alternativ när Pdfdokument laddas in i enDocument objekt.
+title: PdfLoadOptions Class
+linktitle: PdfLoadOptions
+articleTitle: PdfLoadOptions
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Loading.PdfLoadOptions klass. Gör det möjligt att ange ytterligare alternativ när Pdfdokument laddas in i enDocument objekt i C#.
 type: docs
 weight: 3670
 url: /sv/net/aspose.words.loading/pdfloadoptions/
@@ -50,12 +52,10 @@ public class PdfLoadOptions : LoadOptions
 
 | namn | Beskrivning |
 | --- | --- |
-| override [Equals](../../aspose.words.loading/loadoptions/equals/)(object) |  |
+| override [Equals](../../aspose.words.loading/loadoptions/equals/)(*object*) |  |
 
 ### Se även
 
 * class [LoadOptions](../loadoptions/)
 * namnutrymme [Aspose.Words.Loading](../../aspose.words.loading/)
 * hopsättning [Aspose.Words](../../)
-
-

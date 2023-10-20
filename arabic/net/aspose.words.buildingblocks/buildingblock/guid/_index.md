@@ -1,7 +1,9 @@
 ---
 title: BuildingBlock.Guid
-second_title: Aspose.Words لمراجع .NET API
-description: BuildingBlock ملكية. الحصول على معرف أو تعيينه معرف GUID 128 بت الذي يعرّف الكتلة البرمجية الإنشائية هذه بشكل فريد.
+linktitle: Guid
+articleTitle: Guid
+second_title: Aspose.Words لـ .NET
+description: BuildingBlock Guid ملكية. الحصول على معرف أو تعيينه معرف GUID 128 بت الذي يعرّف الكتلة البرمجية الإنشائية هذه بشكل فريد في C#.
 type: docs
 weight: 70
 url: /ar/net/aspose.words.buildingblocks/buildingblock/guid/
@@ -14,13 +16,13 @@ url: /ar/net/aspose.words.buildingblocks/buildingblock/guid/
 public Guid Guid { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 يمكن استخدامه بواسطة تطبيق للإشارة بشكل فريد إلى كتلة إنشاء بغض النظر عن تسمية مختلفة بسبب الترجمة.
 
-يتوافق مع **docPartPr.guid** العنصر في OOXML
+يتوافق مع**docPartPr.guid** العنصر في OOXML
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إضافة كتلة إنشاء مخصصة إلى مستند.
 
@@ -117,7 +119,5 @@ public class BuildingBlockVisitor : DocumentVisitor
 ### أنظر أيضا
 
 * class [BuildingBlock](../)
-* مساحة الاسم [Aspose.Words.BuildingBlocks](../../buildingblock/)
+* مساحة الاسم [Aspose.Words.BuildingBlocks](../../../aspose.words.buildingblocks/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: MailMerge.UseNonMergeFields
-second_title: Referencia de API de Aspose.Words para .NET
-description: MailMerge propiedad. cuandoverdadero  especifica que además de los campos MERGEFIELD la combinación de correspondencia se realiza en otros tipos de campos y también en las etiquetas fieldName.
+linktitle: UseNonMergeFields
+articleTitle: UseNonMergeFields
+second_title: Aspose.Words para .NET
+description: MailMerge UseNonMergeFields propiedad. cuandoverdadero  especifica que además de los campos MERGEFIELD la combinación de correspondencia se realiza en otros tipos de campos y también en las etiquetas fieldName en C#.
 type: docs
 weight: 150
 url: /es/net/aspose.words.mailmerging/mailmerge/usenonmergefields/
@@ -14,7 +16,7 @@ cuando`verdadero` , especifica que además de los campos MERGEFIELD, la combinac
 public bool UseNonMergeFields { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 Normalmente, la combinación de correspondencia solo se realiza en los campos MERGEFIELD, pero varios clientes crearon su reporting utilizando otros campos y muchos documentos se crearon de esta manera. Para simplificar la migración (y porque varios clientes utilizaron este enfoque de forma independiente) se introdujo la capacidad de combinar correspondencia en otros campos.
 
@@ -28,7 +30,7 @@ SI 0 = 0 "{Nombre del campo}" ""
 
 Además, cuando`UseNonMergeFields` se establece en`verdadero`, Aspose.Words combinará correspondencia en etiquetas de texto "{{fieldName}}". Estos no son campos, sino sólo etiquetas de texto.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo conservar la apariencia de etiquetas de combinación de correspondencia alternativas que no se utilizan durante una combinación de correspondencia.
 
@@ -92,7 +94,5 @@ private static DataTable CreateSourceTablePreserveUnusedTags()
 ### Ver también
 
 * class [MailMerge](../)
-* espacio de nombres [Aspose.Words.MailMerging](../../mailmerge/)
+* espacio de nombres [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * asamblea [Aspose.Words](../../../)
-
-

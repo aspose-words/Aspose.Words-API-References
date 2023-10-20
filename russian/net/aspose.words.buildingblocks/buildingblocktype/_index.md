@@ -1,7 +1,9 @@
 ---
-title: Enum BuildingBlockType
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.BuildingBlocks.BuildingBlockType перечисление. Указывает тип стандартного блока. Тип может повлиять на видимость и поведение стандартного блока в Microsoft Word. .
+title: BuildingBlockType Enum
+linktitle: BuildingBlockType
+articleTitle: BuildingBlockType
+second_title: Aspose.Words для .NET
+description: Aspose.Words.BuildingBlocks.BuildingBlockType перечисление. Указывает тип стандартного блока. Тип может повлиять на видимость и поведение стандартного блока в Microsoft Word.  на С#.
 type: docs
 weight: 170
 url: /ru/net/aspose.words.buildingblocks/buildingblocktype/
@@ -28,11 +30,11 @@ public enum BuildingBlockType
 | All | `7` | Строительный блок связан со всеми типами. |
 | Default | `0` | Сохранить какNone . |
 
-### Примечания
+## Примечания
 
-Соответствует **ST_DocPartType** введите OOXML.
+Соответствует**ST_DocPartType** введите OOXML.
 
-### Примеры
+## Примеры
 
 Показывает, как добавить в документ пользовательский стандартный блок.
 
@@ -130,5 +132,3 @@ public class BuildingBlockVisitor : DocumentVisitor
 
 * пространство имен [Aspose.Words.BuildingBlocks](../../aspose.words.buildingblocks/)
 * сборка [Aspose.Words](../../)
-
-

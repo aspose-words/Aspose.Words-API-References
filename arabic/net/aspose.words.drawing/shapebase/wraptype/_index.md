@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.WrapType
-second_title: Aspose.Words لمراجع .NET API
-description: ShapeBase ملكية. يحدد ما إذا كان الشكل سطريًا أم عائمًا. للأشكال العائمة يحدد وضع الالتفاف للنص حول الشكل.
+linktitle: WrapType
+articleTitle: WrapType
+second_title: Aspose.Words لـ .NET
+description: ShapeBase WrapType ملكية. يحدد ما إذا كان الشكل سطريًا أم عائمًا. للأشكال العائمة يحدد وضع الالتفاف للنص حول الشكل في C#.
 type: docs
 weight: 600
 url: /ar/net/aspose.words.drawing/shapebase/wraptype/
@@ -14,13 +16,13 @@ url: /ar/net/aspose.words.drawing/shapebase/wraptype/
 public WrapType WrapType { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 القيمة الافتراضية هيNone.
 
 له تأثير فقط على أشكال المستوى الأعلى.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج صورة عائمة في وسط الصفحة.
 
@@ -72,7 +74,5 @@ doc.Save(ArtifactsDir + "Shape.CreateTextBox.docx");
 
 * enum [WrapType](../../wraptype/)
 * class [ShapeBase](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../shapebase/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

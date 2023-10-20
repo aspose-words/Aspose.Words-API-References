@@ -1,7 +1,9 @@
 ---
 title: OdsoRecipientData.UniqueTag
-second_title: Referencia de API de Aspose.Words para .NET
-description: OdsoRecipientData propiedad. Especifica el contenido de un registro determinado en la columna que contiene datos únicos. El valor predeterminado esnulo .
+linktitle: UniqueTag
+articleTitle: UniqueTag
+second_title: Aspose.Words para .NET
+description: OdsoRecipientData UniqueTag propiedad. Especifica el contenido de un registro determinado en la columna que contiene datos únicos. El valor predeterminado esnulo  en C#.
 type: docs
 weight: 50
 url: /es/net/aspose.words.settings/odsorecipientdata/uniquetag/
@@ -14,7 +16,7 @@ Especifica el contenido de un registro determinado en la columna que contiene da
 public byte[] UniqueTag { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo acceder a la colección de datos que designa qué registros de origen de datos de combinación excluirá una combinación de correspondencia.
 
@@ -54,7 +56,5 @@ Assert.AreEqual(0, dataCollection.Count);
 ### Ver también
 
 * class [OdsoRecipientData](../)
-* espacio de nombres [Aspose.Words.Settings](../../odsorecipientdata/)
+* espacio de nombres [Aspose.Words.Settings](../../../aspose.words.settings/)
 * asamblea [Aspose.Words](../../../)
-
-

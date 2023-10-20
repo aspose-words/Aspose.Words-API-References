@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.StyleIdentifier
-second_title: Aspose.Words für .NET-API-Referenz
-description: ParagraphFormat eigendom. Ruft die vom Gebietsschema unabhängige Stilkennung des Absatzstils ab der auf diese Formatierung angewendet wird oder legt diesen fest.
+linktitle: StyleIdentifier
+articleTitle: StyleIdentifier
+second_title: Aspose.Words für .NET
+description: ParagraphFormat StyleIdentifier eigendom. Ruft die vom Gebietsschema unabhängige Stilkennung des Absatzstils ab der auf diese Formatierung angewendet wird oder legt diesen fest in C#.
 type: docs
 weight: 350
 url: /de/net/aspose.words/paragraphformat/styleidentifier/
@@ -14,7 +16,7 @@ Ruft die vom Gebietsschema unabhängige Stilkennung des Absatzstils ab, der auf 
 public StyleIdentifier StyleIdentifier { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man ein Inhaltsverzeichnis (TOC) in ein Dokument einfügt, indem man Überschriftenstile als Einträge verwendet.
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertToc.docx");
 
 * enum [StyleIdentifier](../../styleidentifier/)
 * class [ParagraphFormat](../)
-* namensraum [Aspose.Words](../../paragraphformat/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

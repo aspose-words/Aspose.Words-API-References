@@ -1,7 +1,9 @@
 ---
-title: OdsoFieldMapDataCollection.OdsoFieldMapDataCollection
-second_title: Référence de l'API Aspose.Words pour .NET
-description: OdsoFieldMapDataCollection constructeur. Default_Constructor
+title: OdsoFieldMapDataCollection
+linktitle: OdsoFieldMapDataCollection
+articleTitle: OdsoFieldMapDataCollection
+second_title: Aspose.Words pour .NET
+description: OdsoFieldMapDataCollection constructeur. Default_Constructor en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.settings/odsofieldmapdatacollection/odsofieldmapdatacollection/
@@ -17,7 +19,5 @@ public OdsoFieldMapDataCollection()
 ### Voir également
 
 * class [OdsoFieldMapDataCollection](../)
-* espace de noms [Aspose.Words.Settings](../../odsofieldmapdatacollection/)
+* espace de noms [Aspose.Words.Settings](../../../aspose.words.settings/)
 * Assemblée [Aspose.Words](../../../)
-
-

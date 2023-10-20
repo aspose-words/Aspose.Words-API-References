@@ -1,7 +1,9 @@
 ---
 title: Cluster.CodepointsLength
-second_title: Aspose.Words لمراجع .NET API
-description: Cluster ملكية. يحصل على العدد الإجمالي لنقاط الكود فيCluster .
+linktitle: CodepointsLength
+articleTitle: CodepointsLength
+second_title: Aspose.Words لـ .NET
+description: Cluster CodepointsLength ملكية. يحصل على العدد الإجمالي لنقاط الكود فيCluster  في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.shaping/cluster/codepointslength/
@@ -17,7 +19,5 @@ public int CodepointsLength { get; }
 ### أنظر أيضا
 
 * class [Cluster](../)
-* مساحة الاسم [Aspose.Words.Shaping](../../cluster/)
+* مساحة الاسم [Aspose.Words.Shaping](../../../aspose.words.shaping/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldSaveDate.UseUmAlQuraCalendar
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldSaveDate свойство. Получает или задает необходимость использования календаря УмальКура.
+linktitle: UseUmAlQuraCalendar
+articleTitle: UseUmAlQuraCalendar
+second_title: Aspose.Words для .NET
+description: FieldSaveDate UseUmAlQuraCalendar свойство. Получает или задает необходимость использования календаря УмальКура на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.fields/fieldsavedate/useumalquracalendar/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldsavedate/useumalquracalendar/
 public bool UseUmAlQuraCalendar { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как использовать поле SAVEDATE для отображения даты и времени последней операции сохранения документа, выполненной с помощью Microsoft Word.
 
@@ -60,7 +62,5 @@ doc.Save(ArtifactsDir + "Field.SAVEDATE.docx");
 ### Смотрите также
 
 * class [FieldSaveDate](../)
-* пространство имен [Aspose.Words.Fields](../../fieldsavedate/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

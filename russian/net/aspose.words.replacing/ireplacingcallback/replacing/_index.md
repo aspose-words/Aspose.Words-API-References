@@ -1,7 +1,9 @@
 ---
 title: IReplacingCallback.Replacing
-second_title: Справочник по API Aspose.Words для .NET
-description: IReplacingCallback метод. Определенный пользователем метод который вызывается во время операции замены для каждого совпадения найденного непосредственно перед выполнением замены.
+linktitle: Replacing
+articleTitle: Replacing
+second_title: Aspose.Words для .NET
+description: IReplacingCallback Replacing метод. Определенный пользователем метод который вызывается во время операции замены для каждого совпадения найденного непосредственно перед выполнением замены на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.replacing/ireplacingcallback/replacing/
@@ -18,7 +20,7 @@ public ReplaceAction Replacing(ReplacingArgs args)
 
 А[`ReplaceAction`](../../replaceaction/) значение, указывающее действие, которое необходимо предпринять для текущего совпадения.
 
-### Примеры
+## Примеры
 
 Показывает, как заменить все вхождения шаблона регулярного выражения другой строкой, отслеживая при этом все такие замены.
 
@@ -145,7 +147,5 @@ private static void InsertDocument(Node insertionDestination, Document docToInse
 * enum [ReplaceAction](../../replaceaction/)
 * class [ReplacingArgs](../../replacingargs/)
 * interface [IReplacingCallback](../)
-* пространство имен [Aspose.Words.Replacing](../../ireplacingcallback/)
+* пространство имен [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * сборка [Aspose.Words](../../../)
-
-

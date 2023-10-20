@@ -1,7 +1,9 @@
 ---
 title: Paragraph.Accept
-second_title: Aspose.Words for .NET API 参考
-description: Paragraph 方法. 接受访客
+linktitle: Accept
+articleTitle: Accept
+second_title: 用于 .NET 的 Aspose.Words
+description: Paragraph Accept 方法. 接受访客 在 C#.
 type: docs
 weight: 230
 url: /zh/net/aspose.words/paragraph/accept/
@@ -22,7 +24,7 @@ public override bool Accept(DocumentVisitor visitor)
 
 如果访问了所有节点，则为 True；假如果[`DocumentVisitor`](../../documentvisitor/)在访问所有节点之前停止操作。
 
-### 评论
+## 评论
 
 枚举该节点及其所有子节点。每个节点调用相应的方法[`DocumentVisitor`](../../documentvisitor/)。
 
@@ -30,7 +32,7 @@ public override bool Accept(DocumentVisitor visitor)
 
 通话[`VisitParagraphStart`](../../documentvisitor/visitparagraphstart/)，然后调用[`Accept`](../../node/accept/)对于该段落的所有子节点 并调用[`VisitParagraphEnd`](../../documentvisitor/visitparagraphend/)最后.
 
-### 例子
+## 例子
 
 演示如何使用 DocumentVisitor 实现从文档中删除所有隐藏内容。
 
@@ -227,7 +229,5 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
 
 * class [DocumentVisitor](../../documentvisitor/)
 * class [Paragraph](../)
-* 命名空间 [Aspose.Words](../../paragraph/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

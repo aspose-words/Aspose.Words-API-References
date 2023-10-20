@@ -1,7 +1,9 @@
 ---
-title: Enum Orientation
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Orientation enumeración. Especifica la orientación de la página.
+title: Orientation Enum
+linktitle: Orientation
+articleTitle: Orientation
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Orientation enumeración. Especifica la orientación de la página en C#.
 type: docs
 weight: 4320
 url: /es/net/aspose.words/orientation/
@@ -21,7 +23,7 @@ public enum Orientation
 | Portrait | `1` | Orientación de página vertical (estrecha y alta). |
 | Landscape | `2` | Orientación de página horizontal (ancha y corta). |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo aplicar y revertir la configuración de configuración de página a secciones de un documento.
 
@@ -56,5 +58,3 @@ doc.Save(ArtifactsDir + "PageSetup.ClearFormatting.docx");
 
 * espacio de nombres [Aspose.Words](../../aspose.words/)
 * asamblea [Aspose.Words](../../)
-
-

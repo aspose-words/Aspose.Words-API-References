@@ -1,7 +1,9 @@
 ---
 title: FieldAutoNumLgl.SeparatorCharacter
-second_title: Aspose.Words for .NET API 参考
-description: FieldAutoNumLgl 财产. 获取或设置要使用的分隔符
+linktitle: SeparatorCharacter
+articleTitle: SeparatorCharacter
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldAutoNumLgl SeparatorCharacter 财产. 获取或设置要使用的分隔符 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.fields/fieldautonumlgl/separatorcharacter/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fieldautonumlgl/separatorcharacter/
 public string SeparatorCharacter { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何使用 AUTONUMLGL 字段组织文档。
 
@@ -90,7 +92,5 @@ private static void InsertNumberedClause(DocumentBuilder builder, string heading
 ### 也可以看看
 
 * class [FieldAutoNumLgl](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldautonumlgl/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Revision.Author
-second_title: Aspose.Words for .NET API 参考
-description: Revision 财产. 获取或设置此修订版的作者不能为空字符串或无效的.
+linktitle: Author
+articleTitle: Author
+second_title: 用于 .NET 的 Aspose.Words
+description: Revision Author 财产. 获取或设置此修订版的作者不能为空字符串或无效的 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words/revision/author/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/revision/author/
 public string Author { get; set; }
 ```
 
-### 例子
+## 例子
 
 展示如何处理文档中的修订。
 
@@ -97,7 +99,5 @@ Assert.AreEqual("This is revision #1. \rThis is revision #2.", doc.GetText().Tri
 ### 也可以看看
 
 * class [Revision](../)
-* 命名空间 [Aspose.Words](../../revision/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

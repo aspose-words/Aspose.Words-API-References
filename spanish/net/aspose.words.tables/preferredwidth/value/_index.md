@@ -1,7 +1,9 @@
 ---
 title: PreferredWidth.Value
-second_title: Referencia de API de Aspose.Words para .NET
-description: PreferredWidth propiedad. Obtiene el valor de ancho preferido. La unidad de medida se especifica en elType propiedad.
+linktitle: Value
+articleTitle: Value
+second_title: Aspose.Words para .NET
+description: PreferredWidth Value propiedad. Obtiene el valor de ancho preferido. La unidad de medida se especifica en elType propiedad en C#.
 type: docs
 weight: 50
 url: /es/net/aspose.words.tables/preferredwidth/value/
@@ -14,7 +16,7 @@ Obtiene el valor de ancho preferido. La unidad de medida se especifica en el[`Ty
 public double Value { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo verificar el tipo de ancho preferido y el valor de una celda de una tabla.
 
@@ -31,7 +33,5 @@ Assert.AreEqual(11.16d, firstCell.CellFormat.PreferredWidth.Value);
 ### Ver también
 
 * class [PreferredWidth](../)
-* espacio de nombres [Aspose.Words.Tables](../../preferredwidth/)
+* espacio de nombres [Aspose.Words.Tables](../../../aspose.words.tables/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class MailMergeSettings
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Settings.MailMergeSettings klas. Gibt alle Serienbriefinformationen für ein Dokument an.
+title: MailMergeSettings Class
+linktitle: MailMergeSettings
+articleTitle: MailMergeSettings
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Settings.MailMergeSettings klas. Gibt alle Serienbriefinformationen für ein Dokument an in C#.
 type: docs
 weight: 5850
 url: /de/net/aspose.words.settings/mailmergesettings/
@@ -50,7 +52,7 @@ public class MailMergeSettings
 | [Clear](../../aspose.words.settings/mailmergesettings/clear/)() | Löscht die Serienbriefeinstellungen so, dass beim Speichern des Dokuments keine Serienbriefeinstellungen gespeichert werden und es zu einem normalen Dokument wird. |
 | [Clone](../../aspose.words.settings/mailmergesettings/clone/)() | Gibt einen tiefen Klon dieses Objekts zurück. |
 
-### Bemerkungen
+## Bemerkungen
 
 Sie können dieses Objekt verwenden, um eine Serienbrief-Datenquelle für ein Dokument anzugeben. Diese Informationen (zusammen mit den verfügbaren Datenfeldern) werden in Microsoft Word angezeigt, wenn der Benutzer dieses Dokument öffnet. Oder Sie können dieses Objekt verwenden, um Serienbriefeinstellungen abzufragen dass der Benutzer in Microsoft Word für dieses Dokument angegeben hat.
 
@@ -64,7 +66,7 @@ Der beste Weg, um zu lernen, wie man die Eigenschaften dieses Objekts verwendet,
 
 Aspose.Words behält die Serienbriefinformationen beim Laden, Speichern und Konvertieren von Dokumenten zwischen verschiedenen Formaten bei, verwendet diese Informationen jedoch nicht, wenn es seinen eigenen Serienbrief mit dem durchführt[`MailMerge`](../../aspose.words.mailmerging/mailmerge/) Objekt.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Serienbrief mit Daten aus einem Office-Datenquellenobjekt ausgeführt wird.
 
@@ -117,5 +119,3 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 
 * namensraum [Aspose.Words.Settings](../../aspose.words.settings/)
 * Montage [Aspose.Words](../../)
-
-

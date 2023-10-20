@@ -1,7 +1,9 @@
 ---
 title: CompareOptions.Target
-second_title: Aspose.Words för .NET API Referens
-description: CompareOptions fast egendom. Anger vilket dokument som ska användas som mål vid jämförelse.
+linktitle: Target
+articleTitle: Target
+second_title: Aspose.Words för .NET
+description: CompareOptions Target fast egendom. Anger vilket dokument som ska användas som mål vid jämförelse i C#.
 type: docs
 weight: 130
 url: /sv/net/aspose.words.comparing/compareoptions/target/
@@ -14,7 +16,7 @@ Anger vilket dokument som ska användas som mål vid jämförelse.
 public ComparisonTargetType Target { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man filtrerar specifika typer av dokumentelement när man gör en jämförelse.
 
@@ -89,7 +91,5 @@ docOriginal.Save(ArtifactsDir + "Document.CompareOptions.docx");
 
 * enum [ComparisonTargetType](../../comparisontargettype/)
 * class [CompareOptions](../)
-* namnutrymme [Aspose.Words.Comparing](../../compareoptions/)
+* namnutrymme [Aspose.Words.Comparing](../../../aspose.words.comparing/)
 * hopsättning [Aspose.Words](../../../)
-
-

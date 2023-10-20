@@ -1,7 +1,9 @@
 ---
 title: FieldMergeBarcode.SymbolRotation
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldMergeBarcode eigendom. Ruft die Drehung des Barcodesymbols ab oder legt diese fest. Gültige Werte sind 0 3
+linktitle: SymbolRotation
+articleTitle: SymbolRotation
+second_title: Aspose.Words für .NET
+description: FieldMergeBarcode SymbolRotation eigendom. Ruft die Drehung des Barcodesymbols ab oder legt diese fest. Gültige Werte sind 0 3 in C#.
 type: docs
 weight: 140
 url: /de/net/aspose.words.fields/fieldmergebarcode/symbolrotation/
@@ -14,7 +16,7 @@ Ruft die Drehung des Barcodesymbols ab oder legt diese fest. Gültige Werte sind
 public string SymbolRotation { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man einen Serienbrief für QR-Barcodes durchführt.
 
@@ -64,7 +66,5 @@ doc.Save(ArtifactsDir + "Field.MERGEBARCODE.QR.docx");
 ### Siehe auch
 
 * class [FieldMergeBarcode](../)
-* namensraum [Aspose.Words.Fields](../../fieldmergebarcode/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

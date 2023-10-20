@@ -1,7 +1,9 @@
 ---
 title: GeneralFormatCollection.RemoveAt
-second_title: Aspose.Words for .NET API 参考
-description: GeneralFormatCollection 方法. 删除指定索引处出现的通用格式
+linktitle: RemoveAt
+articleTitle: RemoveAt
+second_title: 用于 .NET 的 Aspose.Words
+description: GeneralFormatCollection RemoveAt 方法. 删除指定索引处出现的通用格式 在 C#.
 type: docs
 weight: 60
 url: /zh/net/aspose.words.fields/generalformatcollection/removeat/
@@ -18,7 +20,7 @@ public void RemoveAt(int index)
 | --- | --- | --- |
 | index | Int32 |  |
 
-### 例子
+## 例子
 
 展示如何设置字段结果的格式。
 
@@ -82,7 +84,5 @@ Assert.AreEqual(0, format.GeneralFormats.Count);
 ### 也可以看看
 
 * class [GeneralFormatCollection](../)
-* 命名空间 [Aspose.Words.Fields](../../generalformatcollection/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

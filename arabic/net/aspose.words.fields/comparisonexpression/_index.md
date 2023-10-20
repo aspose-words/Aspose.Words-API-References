@@ -1,7 +1,9 @@
 ---
-title: Class ComparisonExpression
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Fields.ComparisonExpression فصل. تعبير المقارنة.
+title: ComparisonExpression Class
+linktitle: ComparisonExpression
+articleTitle: ComparisonExpression
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Fields.ComparisonExpression فصل. تعبير المقارنة في C#.
 type: docs
 weight: 1490
 url: /ar/net/aspose.words.fields/comparisonexpression/
@@ -24,7 +26,7 @@ public sealed class ComparisonExpression
 | [LeftExpression](../../aspose.words.fields/comparisonexpression/leftexpression/) { get; } | يحصل على التعبير الأيسر. |
 | [RightExpression](../../aspose.words.fields/comparisonexpression/rightexpression/) { get; } | الحصول على التعبير الصحيح. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تنفيذ التقييم المخصص لحقول IF وCOMPARE.
 
@@ -109,5 +111,3 @@ private class ComparisonExpressionEvaluator : IComparisonExpressionEvaluator
 
 * مساحة الاسم [Aspose.Words.Fields](../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../)
-
-

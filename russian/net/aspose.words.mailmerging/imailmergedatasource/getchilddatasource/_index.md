@@ -1,7 +1,9 @@
 ---
 title: IMailMergeDataSource.GetChildDataSource
-second_title: Справочник по API Aspose.Words для .NET
-description: IMailMergeDataSource метод. Механизм слияния почты Aspose.Words вызывает этот метод когда обнаруживает начало вложенной области слияния почты.
+linktitle: GetChildDataSource
+articleTitle: GetChildDataSource
+second_title: Aspose.Words для .NET
+description: IMailMergeDataSource GetChildDataSource метод. Механизм слияния почты Aspose.Words вызывает этот метод когда обнаруживает начало вложенной области слияния почты на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.mailmerging/imailmergedatasource/getchilddatasource/
@@ -22,7 +24,7 @@ public IMailMergeDataSource GetChildDataSource(string tableName)
 
 Объект источника данных, который будет предоставлять доступ к записям данных указанной таблицы.
 
-### Примечания
+## Примечания
 
 Когда механизмы слияния почты Aspose.Words заполняют область слияния почты данными и обнаруживают начало области слияния вложенной почты в форме MERGEFIELD TableStart:TableName, он вызывает`GetChildDataSource` в объекте источника данных current . Ваша реализация должна вернуть новый объект источника данных, который обеспечит доступ к записям child текущей родительской записи. Aspose.Words будет использовать возвращенный источник данных для заполнения вложенной области слияния почты.
 
@@ -34,7 +36,7 @@ public IMailMergeDataSource GetChildDataSource(string tableName)
 
 Если таблица с указанным именем не существует, ваша реализация должна вернуть`нулевой` .
 
-### Примеры
+## Примеры
 
 Показывает, как выполнить слияние почты с источником данных в форме пользовательского объекта.
 
@@ -148,7 +150,5 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
 ### Смотрите также
 
 * interface [IMailMergeDataSource](../)
-* пространство имен [Aspose.Words.MailMerging](../../imailmergedatasource/)
+* пространство имен [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Table.Bidi
-second_title: Справочник по API Aspose.Words для .NET
-description: Table свойство. Получает или устанавливает является ли это таблица с письмом справа налево.
+linktitle: Bidi
+articleTitle: Bidi
+second_title: Aspose.Words для .NET
+description: Table Bidi свойство. Получает или устанавливает является ли это таблица с письмом справа налево на С#.
 type: docs
 weight: 80
 url: /ru/net/aspose.words.tables/table/bidi/
@@ -14,13 +16,13 @@ url: /ru/net/aspose.words.tables/table/bidi/
 public bool Bidi { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Когда`истинный`, ячейки в этой строке располагаются справа налево.
 
 Значение по умолчанию:`ЛОЖЬ`.
 
-### Примеры
+## Примеры
 
 Показывает, как создать пользовательские настройки стиля для таблицы.
 
@@ -64,7 +66,5 @@ doc.Save(ArtifactsDir + "Table.TableStyleCreation.docx");
 ### Смотрите также
 
 * class [Table](../)
-* пространство имен [Aspose.Words.Tables](../../table/)
+* пространство имен [Aspose.Words.Tables](../../../aspose.words.tables/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,20 +1,22 @@
 ---
 title: SignatureLineOptions.Signer
-second_title: Aspose.Words per .NET API Reference
-description: SignatureLineOptions proprietà. Ottiene o imposta il firmatario suggerito per la riga della firma. Il valore predefinito per questa proprietà è stringa vuota Empty.
+linktitle: Signer
+articleTitle: Signer
+second_title: Aspose.Words per .NET
+description: SignatureLineOptions Signer proprietà. Ottiene o imposta il firmatario suggerito per la riga della firma. Il valore predefinito per questa proprietà èstringa vuota Empty in C#.
 type: docs
 weight: 70
 url: /it/net/aspose.words/signaturelineoptions/signer/
 ---
 ## SignatureLineOptions.Signer property
 
-Ottiene o imposta il firmatario suggerito per la riga della firma. Il valore predefinito per questa proprietà è **stringa vuota** (Empty).
+Ottiene o imposta il firmatario suggerito per la riga della firma. Il valore predefinito per questa proprietà è**stringa vuota** (Empty).
 
 ```csharp
 public string Signer { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come aggiungere una riga per la firma a un documento e quindi firmarlo utilizzando un certificato digitale.
 
@@ -130,7 +132,5 @@ Mostra come aggiungere una riga per la firma a un documento e quindi firmarlo ut
 ### Guarda anche
 
 * class [SignatureLineOptions](../)
-* spazio dei nomi [Aspose.Words](../../signaturelineoptions/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

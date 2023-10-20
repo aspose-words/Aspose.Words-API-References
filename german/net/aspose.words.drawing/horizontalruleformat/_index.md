@@ -1,7 +1,9 @@
 ---
-title: Class HorizontalRuleFormat
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Drawing.HorizontalRuleFormat klas. Stellt die horizontale Regelformatierung dar.
+title: HorizontalRuleFormat Class
+linktitle: HorizontalRuleFormat
+articleTitle: HorizontalRuleFormat
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Drawing.HorizontalRuleFormat klas. Stellt die horizontale Regelformatierung dar in C#.
 type: docs
 weight: 1050
 url: /de/net/aspose.words.drawing/horizontalruleformat/
@@ -26,7 +28,7 @@ public class HorizontalRuleFormat
 | [NoShade](../../aspose.words.drawing/horizontalruleformat/noshade/) { get; set; } | Zeigt das Vorhandensein einer 3D-Schattierung für die horizontale Regel an. Wenn`WAHR` dann ist die horizontale Regel ohne 3D-Schattierung und es wird Volltonfarbe verwendet. |
 | [WidthPercent](../../aspose.words.drawing/horizontalruleformat/widthpercent/) { get; set; } | Ruft die Länge der angegebenen horizontalen Linie, ausgedrückt als Prozentsatz der Fensterbreite, ab oder legt diese fest. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man eine horizontale Regelform einfügt und deren Formatierung anpasst.
 
@@ -50,5 +52,3 @@ Assert.True(shape.HorizontalRuleFormat.NoShade);
 
 * namensraum [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../)
-
-

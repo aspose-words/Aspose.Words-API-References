@@ -1,7 +1,9 @@
 ---
 title: FieldPrint.PrinterInstructions
-second_title: Aspose.Words for .NET API 参考
-description: FieldPrint 财产. 获取或设置打印机特定的控制代码字符或 PostScript 指令
+linktitle: PrinterInstructions
+articleTitle: PrinterInstructions
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldPrint PrinterInstructions 财产. 获取或设置打印机特定的控制代码字符或 PostScript 指令 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.fields/fieldprint/printerinstructions/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fieldprint/printerinstructions/
 public string PrinterInstructions { get; set; }
 ```
 
-### 例子
+## 例子
 
 显示插入 PRINT 字段。
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "Field.PRINT.docx");
 ### 也可以看看
 
 * class [FieldPrint](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldprint/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

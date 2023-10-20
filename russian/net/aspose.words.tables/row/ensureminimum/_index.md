@@ -1,9 +1,11 @@
 ---
 title: Row.EnsureMinimum
-second_title: Справочник по API Aspose.Words для .NET
-description: Row метод. ЕслиRow не имеет ячеек создает и добавляет однуCell .
+linktitle: EnsureMinimum
+articleTitle: EnsureMinimum
+second_title: Aspose.Words для .NET
+description: Row EnsureMinimum метод. ЕслиRow не имеет ячеек создает и добавляет однуCell  на С#.
 type: docs
-weight: 150
+weight: 130
 url: /ru/net/aspose.words.tables/row/ensureminimum/
 ---
 ## Row.EnsureMinimum method
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.tables/row/ensureminimum/
 public void EnsureMinimum()
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как убедиться, что узел строки содержит узлы, которые нам нужны, чтобы начать добавлять к нему содержимое.
 
@@ -38,7 +40,5 @@ row.FirstCell.FirstParagraph.AppendChild(new Run(doc, "Hello world!"));
 ### Смотрите также
 
 * class [Row](../)
-* пространство имен [Aspose.Words.Tables](../../row/)
+* пространство имен [Aspose.Words.Tables](../../../aspose.words.tables/)
 * сборка [Aspose.Words](../../../)
-
-

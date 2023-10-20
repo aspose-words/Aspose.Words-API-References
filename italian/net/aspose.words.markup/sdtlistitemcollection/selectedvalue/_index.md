@@ -1,7 +1,9 @@
 ---
 title: SdtListItemCollection.SelectedValue
-second_title: Aspose.Words per .NET API Reference
-description: SdtListItemCollection proprietà. Specifica il valore attualmente selezionato in questo elenco. È consentito un valore nullo il che significa che nessuna voce attualmente selezionata è associata a questa raccolta di elementi dellelenco.
+linktitle: SelectedValue
+articleTitle: SelectedValue
+second_title: Aspose.Words per .NET
+description: SdtListItemCollection SelectedValue proprietà. Specifica il valore attualmente selezionato in questo elenco. È consentito un valore nullo il che significa che nessuna voce attualmente selezionata è associata a questa raccolta di elementi dellelenco in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words.markup/sdtlistitemcollection/selectedvalue/
@@ -14,7 +16,7 @@ Specifica il valore attualmente selezionato in questo elenco. È consentito un v
 public SdtListItem SelectedValue { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come lavorare con i tag dei documenti strutturati con elenco a discesa.
 
@@ -72,7 +74,5 @@ Assert.AreEqual(0, listItems.Count);
 
 * class [SdtListItem](../../sdtlistitem/)
 * class [SdtListItemCollection](../)
-* spazio dei nomi [Aspose.Words.Markup](../../sdtlistitemcollection/)
+* spazio dei nomi [Aspose.Words.Markup](../../../aspose.words.markup/)
 * assemblea [Aspose.Words](../../../)
-
-

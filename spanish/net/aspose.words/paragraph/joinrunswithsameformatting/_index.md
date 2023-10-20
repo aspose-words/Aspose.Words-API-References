@@ -1,9 +1,11 @@
 ---
 title: Paragraph.JoinRunsWithSameFormatting
-second_title: Referencia de API de Aspose.Words para .NET
-description: Paragraph método. Une ejecuciones con el mismo formato en el párrafo.
+linktitle: JoinRunsWithSameFormatting
+articleTitle: JoinRunsWithSameFormatting
+second_title: Aspose.Words para .NET
+description: Paragraph JoinRunsWithSameFormatting método. Une ejecuciones con el mismo formato en el párrafo en C#.
 type: docs
-weight: 300
+weight: 280
 url: /es/net/aspose.words/paragraph/joinrunswithsameformatting/
 ---
 ## Paragraph.JoinRunsWithSameFormatting method
@@ -16,9 +18,9 @@ public int JoinRunsWithSameFormatting()
 
 ### Valor_devuelto
 
-Número de uniones realizadas. Cuando **norte** se unen tramos adyacentes, cuentan como **norte-1** Uniones.
+Número de uniones realizadas. Cuando**norte** se unen tramos adyacentes, cuentan como**norte-1** Uniones.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo simplificar párrafos fusionando ejecuciones superfluas.
 
@@ -59,7 +61,5 @@ Assert.AreEqual("Run 4. ", para.Runs[1].Text);
 ### Ver también
 
 * class [Paragraph](../)
-* espacio de nombres [Aspose.Words](../../paragraph/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

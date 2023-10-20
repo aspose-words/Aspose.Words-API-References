@@ -1,7 +1,9 @@
 ---
 title: BuildingBlock.Accept
-second_title: Aspose.Words for .NET API 参考
-description: BuildingBlock 方法. 接受访客
+linktitle: Accept
+articleTitle: Accept
+second_title: 用于 .NET 的 Aspose.Words
+description: BuildingBlock Accept 方法. 接受访客 在 C#.
 type: docs
 weight: 130
 url: /zh/net/aspose.words.buildingblocks/buildingblock/accept/
@@ -22,7 +24,7 @@ public override bool Accept(DocumentVisitor visitor)
 
 如果访问了所有节点，则为 True；假如果[`DocumentVisitor`](../../../aspose.words/documentvisitor/)在访问所有节点之前停止操作。
 
-### 评论
+## 评论
 
 枚举该节点及其所有子节点。每个节点调用相应的方法[`DocumentVisitor`](../../../aspose.words/documentvisitor/)。
 
@@ -32,7 +34,7 @@ public override bool Accept(DocumentVisitor visitor)
 
 注意：当您在 a Visitor 上执行 a Visitor 时，不会访问构建块节点及其子节点。[`Document`](../../../aspose.words/document/) 。如果您想在 a 构建块上执行访问者，则需要在[`GlossaryDocument`](../../glossarydocument/)or 调用`Accept`.
 
-### 例子
+## 例子
 
 演示如何将自定义构建块添加到文档中。
 
@@ -130,7 +132,5 @@ public class BuildingBlockVisitor : DocumentVisitor
 
 * class [DocumentVisitor](../../../aspose.words/documentvisitor/)
 * class [BuildingBlock](../)
-* 命名空间 [Aspose.Words.BuildingBlocks](../../buildingblock/)
+* 命名空间 [Aspose.Words.BuildingBlocks](../../../aspose.words.buildingblocks/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: PageSetup.PageHeight
-second_title: Aspose.Words لمراجع .NET API
-description: PageSetup ملكية. إرجاع أو تعيين ارتفاع الصفحة بالنقاط.
+linktitle: PageHeight
+articleTitle: PageHeight
+second_title: Aspose.Words لـ .NET
+description: PageSetup PageHeight ملكية. إرجاع أو تعيين ارتفاع الصفحة بالنقاط في C#.
 type: docs
 weight: 310
 url: /ar/net/aspose.words/pagesetup/pageheight/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/pagesetup/pageheight/
 public double PageHeight { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج صورة واستخدامها كعلامة مائية.
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertWatermarkNetStandard2.docx");
 ### أنظر أيضا
 
 * class [PageSetup](../)
-* مساحة الاسم [Aspose.Words](../../pagesetup/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

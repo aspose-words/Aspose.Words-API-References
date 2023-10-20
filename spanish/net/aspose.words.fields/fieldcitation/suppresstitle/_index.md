@@ -1,7 +1,9 @@
 ---
 title: FieldCitation.SuppressTitle
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldCitation propiedad. Obtiene o establece si la información del título se suprime de la cita.
+linktitle: SuppressTitle
+articleTitle: SuppressTitle
+second_title: Aspose.Words para .NET
+description: FieldCitation SuppressTitle propiedad. Obtiene o establece si la información del título se suprime de la cita en C#.
 type: docs
 weight: 90
 url: /es/net/aspose.words.fields/fieldcitation/suppresstitle/
@@ -14,7 +16,7 @@ Obtiene o establece si la información del título se suprime de la cita.
 public bool SuppressTitle { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo trabajar con los campos CITACIÓN y BIBLIOGRAFÍA.
 
@@ -68,7 +70,5 @@ doc.Save(ArtifactsDir + "Field.CITATION.docx");
 ### Ver también
 
 * class [FieldCitation](../)
-* espacio de nombres [Aspose.Words.Fields](../../fieldcitation/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

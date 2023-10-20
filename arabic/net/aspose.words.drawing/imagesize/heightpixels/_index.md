@@ -1,7 +1,9 @@
 ---
 title: ImageSize.HeightPixels
-second_title: Aspose.Words لمراجع .NET API
-description: ImageSize ملكية. الحصول على ارتفاع الصورة بالبكسل.
+linktitle: HeightPixels
+articleTitle: HeightPixels
+second_title: Aspose.Words لـ .NET
+description: ImageSize HeightPixels ملكية. الحصول على ارتفاع الصورة بالبكسل في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.drawing/imagesize/heightpixels/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing/imagesize/heightpixels/
 public int HeightPixels { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية قراءة خصائص الصورة في الشكل.
 
@@ -47,7 +49,5 @@ doc.Save(ArtifactsDir + "Drawing.ImageSize.docx");
 ### أنظر أيضا
 
 * class [ImageSize](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../imagesize/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

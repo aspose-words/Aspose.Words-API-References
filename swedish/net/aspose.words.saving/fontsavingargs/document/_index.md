@@ -1,7 +1,9 @@
 ---
 title: FontSavingArgs.Document
-second_title: Aspose.Words för .NET API Referens
-description: FontSavingArgs fast egendom. Hämtar dokumentobjektet som sparas.
+linktitle: Document
+articleTitle: Document
+second_title: Aspose.Words för .NET
+description: FontSavingArgs Document fast egendom. Hämtar dokumentobjektet som sparas i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.saving/fontsavingargs/document/
@@ -14,7 +16,7 @@ Hämtar dokumentobjektet som sparas.
 public Document Document { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man definierar anpassad logik för att exportera teckensnitt när man sparar till HTML.
 
@@ -75,7 +77,5 @@ public class HandleFontSaving : IFontSavingCallback
 
 * class [Document](../../../aspose.words/document/)
 * class [FontSavingArgs](../)
-* namnutrymme [Aspose.Words.Saving](../../fontsavingargs/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ImageSaveOptions.ImageContrast
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ImageSaveOptions propriété. Obtient ou définit le contraste des images générées.
+linktitle: ImageContrast
+articleTitle: ImageContrast
+second_title: Aspose.Words pour .NET
+description: ImageSaveOptions ImageContrast propriété. Obtient ou définit le contraste des images générées en C#.
 type: docs
 weight: 60
 url: /fr/net/aspose.words.saving/imagesaveoptions/imagecontrast/
@@ -14,13 +16,13 @@ Obtient ou définit le contraste des images générées.
 public float ImageContrast { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 Cette propriété n'a d'effet que lors de l'enregistrement au format d'image raster.
 
 La valeur par défaut est 0,5. La valeur doit être comprise entre 0 et 1.
 
-### Exemples
+## Exemples
 
 Montre comment modifier l'image pendant qu'Aspose.Words convertit un document en un seul.
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "ImageSaveOptions.EditImage.png", options);
 ### Voir également
 
 * class [ImageSaveOptions](../)
-* espace de noms [Aspose.Words.Saving](../../imagesaveoptions/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTag.Placeholder
-second_title: Aspose.Words لمراجع .NET API
-description: StructuredDocumentTag ملكية. يحصل علىBuildingBlockيحتوي على نص عنصر نائب يجب عرضه عندما تكون محتويات تشغيل SDT فارغة عنصر XML المعين المرتبط فارغ كما هو محدد عبرXmlMapping element أوIsShowingPlaceholderText العنصر هوحقيقي .
+linktitle: Placeholder
+articleTitle: Placeholder
+second_title: Aspose.Words لـ .NET
+description: StructuredDocumentTag Placeholder ملكية. يحصل علىBuildingBlockيحتوي على نص عنصر نائب يجب عرضه عندما تكون محتويات تشغيل SDT فارغة عنصر XML المعين المرتبط فارغ كما هو محدد عبرXmlMapping element أوIsShowingPlaceholderText العنصر هوحقيقي  في C#.
 type: docs
 weight: 230
 url: /ar/net/aspose.words.markup/structureddocumenttag/placeholder/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.markup/structureddocumenttag/placeholder/
 public BuildingBlock Placeholder { get; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 يمكن ان يكون`باطل`، وهذا يعني أن العنصر النائب لا ينطبق على هذه المعاملة الخاصة والتفضيلية.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام محتويات الكتلة البرمجية الإنشائية كنص عنصر نائب مخصص لعلامة مستند منظمة.
 
@@ -66,7 +68,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.PlaceholderBuildingBlock.docx");
 
 * class [BuildingBlock](../../../aspose.words.buildingblocks/buildingblock/)
 * class [StructuredDocumentTag](../)
-* مساحة الاسم [Aspose.Words.Markup](../../structureddocumenttag/)
+* مساحة الاسم [Aspose.Words.Markup](../../../aspose.words.markup/)
 * المجسم [Aspose.Words](../../../)
-
-

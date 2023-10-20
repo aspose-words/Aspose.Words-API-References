@@ -1,7 +1,9 @@
 ---
 title: BookmarkStart.Accept
-second_title: Aspose.Words per .NET API Reference
-description: BookmarkStart metodo. Accetta un visitatore.
+linktitle: Accept
+articleTitle: Accept
+second_title: Aspose.Words per .NET
+description: BookmarkStart Accept metodo. Accetta un visitatore in C#.
 type: docs
 weight: 50
 url: /it/net/aspose.words/bookmarkstart/accept/
@@ -22,13 +24,13 @@ public override bool Accept(DocumentVisitor visitor)
 
 `falso` se il visitatore ha richiesto l'interruzione dell'enumerazione.
 
-### Osservazioni
+## Osservazioni
 
 Chiamate[`VisitBookmarkStart`](../../documentvisitor/visitbookmarkstart/).
 
 Per maggiori informazioni vedere il modello di progettazione Visitor.
 
-### Esempi
+## Esempi
 
 Mostra come aggiungere segnalibri e aggiornarne i contenuti.
 
@@ -118,7 +120,5 @@ public class BookmarkInfoPrinter : DocumentVisitor
 
 * class [DocumentVisitor](../../documentvisitor/)
 * class [BookmarkStart](../)
-* spazio dei nomi [Aspose.Words](../../bookmarkstart/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

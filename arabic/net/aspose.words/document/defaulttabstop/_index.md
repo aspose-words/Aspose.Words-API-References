@@ -1,7 +1,9 @@
 ---
 title: Document.DefaultTabStop
-second_title: Aspose.Words لمراجع .NET API
-description: Document ملكية. الحصول على الفاصل الزمني بالنقاط أو تعيينه بين علامات الجدولة الافتراضية.
+linktitle: DefaultTabStop
+articleTitle: DefaultTabStop
+second_title: Aspose.Words لـ .NET
+description: Document DefaultTabStop ملكية. الحصول على الفاصل الزمني بالنقاط أو تعيينه بين علامات الجدولة الافتراضية في C#.
 type: docs
 weight: 90
 url: /ar/net/aspose.words/document/defaulttabstop/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/document/defaulttabstop/
 public double DefaultTabStop { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين فاصل زمني مخصص لمواضع علامات الجدولة.
 
@@ -35,7 +37,5 @@ builder.Writeln("Hello" + ControlChar.TabChar + "World!");
 * class [TabStopCollection](../../tabstopcollection/)
 * class [TabStop](../../tabstop/)
 * class [Document](../)
-* مساحة الاسم [Aspose.Words](../../document/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

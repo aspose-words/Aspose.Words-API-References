@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.Style
-second_title: Aspose.Words for .NET API 参考
-description: ParagraphFormat 财产. 获取或设置应用于此格式的段落样式
+linktitle: Style
+articleTitle: Style
+second_title: 用于 .NET 的 Aspose.Words
+description: ParagraphFormat Style 财产. 获取或设置应用于此格式的段落样式 在 C#.
 type: docs
 weight: 340
 url: /zh/net/aspose.words/paragraphformat/style/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/paragraphformat/style/
 public Style Style { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何创建和使用具有列表格式的段落样式。
 
@@ -47,7 +49,5 @@ builder.Document.Save(ArtifactsDir + "Styles.ParagraphStyleBulletedList.docx");
 
 * class [Style](../../style/)
 * class [ParagraphFormat](../)
-* 命名空间 [Aspose.Words](../../paragraphformat/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class ChartFormat
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Drawing.Charts.ChartFormat 班级. 表示图表元素的格式
+title: ChartFormat Class
+linktitle: ChartFormat
+articleTitle: ChartFormat
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Drawing.Charts.ChartFormat 班级. 表示图表元素的格式 在 C#.
 type: docs
 weight: 710
 url: /zh/net/aspose.words.drawing.charts/chartformat/
@@ -21,19 +23,10 @@ public class ChartFormat
 | 姓名 | 描述 |
 | --- | --- |
 | [Fill](../../aspose.words.drawing.charts/chartformat/fill/) { get; } | 获取父图表元素的填充格式。 |
-| [IsDefined](../../aspose.words.drawing.charts/chartformat/isdefined/) { get; } |  |
 | [ShapeType](../../aspose.words.drawing.charts/chartformat/shapetype/) { get; set; } | 获取或设置父图表元素的形状类型。 |
 | [Stroke](../../aspose.words.drawing.charts/chartformat/stroke/) { get; } | 获取父图表元素的线条格式。 |
-
-## 方法
-
-| 姓名 | 描述 |
-| --- | --- |
-| [SetDefaultFill](../../aspose.words.drawing.charts/chartformat/setdefaultfill/)() |  |
 
 ### 也可以看看
 
 * 命名空间 [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * 部件 [Aspose.Words](../../)
-
-

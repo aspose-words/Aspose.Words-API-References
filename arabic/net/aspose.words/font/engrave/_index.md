@@ -1,7 +1,9 @@
 ---
 title: Font.Engrave
-second_title: Aspose.Words لمراجع .NET API
-description: Font ملكية. صحيح إذا تم تنسيق الخط على أنه منقوش.
+linktitle: Engrave
+articleTitle: Engrave
+second_title: Aspose.Words لـ .NET
+description: Font Engrave ملكية. صحيح إذا تم تنسيق الخط على أنه منقوش في C#.
 type: docs
 weight: 120
 url: /ar/net/aspose.words/font/engrave/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/font/engrave/
 public bool Engrave { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تطبيق تأثيرات النقش/النقش على النص.
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "Font.EngraveEmboss.docx");
 ### أنظر أيضا
 
 * class [Font](../)
-* مساحة الاسم [Aspose.Words](../../font/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

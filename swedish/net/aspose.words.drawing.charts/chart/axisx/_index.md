@@ -1,7 +1,9 @@
 ---
 title: Chart.AxisX
-second_title: Aspose.Words för .NET API Referens
-description: Chart fast egendom. Ger tillgång till egenskaperna för Xaxeln i diagrammet.
+linktitle: AxisX
+articleTitle: AxisX
+second_title: Aspose.Words för .NET
+description: Chart AxisX fast egendom. Ger tillgång till egenskaperna för Xaxeln i diagrammet i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.drawing.charts/chart/axisx/
@@ -14,7 +16,7 @@ Ger tillgång till egenskaperna för X-axeln i diagrammet.
 public ChartAxis AxisX { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man infogar ett diagram och ändrar utseendet på dess axlar.
 
@@ -68,7 +70,5 @@ doc.Save(ArtifactsDir + "Charts.AxisProperties.docx");
 
 * class [ChartAxis](../../chartaxis/)
 * class [Chart](../)
-* namnutrymme [Aspose.Words.Drawing.Charts](../../chart/)
+* namnutrymme [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../../)
-
-

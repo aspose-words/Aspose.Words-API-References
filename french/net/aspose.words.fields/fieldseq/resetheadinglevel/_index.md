@@ -1,7 +1,9 @@
 ---
 title: FieldSeq.ResetHeadingLevel
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldSeq propriété. Obtient ou définit un nombre entier représentant un niveau de titre auquel réinitialiser le numéro de séquence. Renvoie 1 si le nombre est absent.
+linktitle: ResetHeadingLevel
+articleTitle: ResetHeadingLevel
+second_title: Aspose.Words pour .NET
+description: FieldSeq ResetHeadingLevel propriété. Obtient ou définit un nombre entier représentant un niveau de titre auquel réinitialiser le numéro de séquence. Renvoie 1 si le nombre est absent en C#.
 type: docs
 weight: 40
 url: /fr/net/aspose.words.fields/fieldseq/resetheadinglevel/
@@ -14,7 +16,7 @@ Obtient ou définit un nombre entier représentant un niveau de titre auquel ré
 public string ResetHeadingLevel { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Affiche la création d'une numérotation à l'aide des champs SEQ.
 
@@ -78,7 +80,5 @@ doc.Save(ArtifactsDir + "Field.SEQ.ResetNumbering.docx");
 ### Voir également
 
 * class [FieldSeq](../)
-* espace de noms [Aspose.Words.Fields](../../fieldseq/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

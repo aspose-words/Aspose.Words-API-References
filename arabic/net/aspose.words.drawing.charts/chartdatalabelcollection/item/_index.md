@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabelCollection.Item
-second_title: Aspose.Words لمراجع .NET API
-description: ChartDataLabelCollection ملكية. إرجاعChartDataLabel للفهرس المحدد.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words لـ .NET
+description: ChartDataLabelCollection Item ملكية. إرجاعChartDataLabel للفهرس المحدد في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.drawing.charts/chartdatalabelcollection/item/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing.charts/chartdatalabelcollection/item/
 public ChartDataLabel this[int index] { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تطبيق التسميات على نقاط البيانات في مخطط خطي.
 
@@ -93,7 +95,5 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
 
 * class [ChartDataLabel](../../chartdatalabel/)
 * class [ChartDataLabelCollection](../)
-* مساحة الاسم [Aspose.Words.Drawing.Charts](../../chartdatalabelcollection/)
+* مساحة الاسم [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../../)
-
-

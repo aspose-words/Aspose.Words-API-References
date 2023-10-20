@@ -1,7 +1,9 @@
 ---
-title: Enum LineSpacingRule
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.LineSpacingRule enum. Specifica i valori di interlinea per un paragrafo.
+title: LineSpacingRule Enum
+linktitle: LineSpacingRule
+articleTitle: LineSpacingRule
+second_title: Aspose.Words per .NET
+description: Aspose.Words.LineSpacingRule enum. Specifica i valori di interlinea per un paragrafo in C#.
 type: docs
 weight: 3440
 url: /it/net/aspose.words/linespacingrule/
@@ -26,5 +28,3 @@ public enum LineSpacingRule
 
 * spazio dei nomi [Aspose.Words](../../aspose.words/)
 * assemblea [Aspose.Words](../../)
-
-

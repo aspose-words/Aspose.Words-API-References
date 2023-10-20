@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabel.Index
-second_title: Справочник по API Aspose.Words для .NET
-description: ChartDataLabel свойство. Указывает индекс содержащего элемента. Этот индекс определяет к какой из родительских дочерних коллекций относится этот элемент. Значение по умолчанию  0.
+linktitle: Index
+articleTitle: Index
+second_title: Aspose.Words для .NET
+description: ChartDataLabel Index свойство. Указывает индекс содержащего элемента. Этот индекс определяет к какой из родительских дочерних коллекций относится этот элемент. Значение по умолчанию  0 на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.drawing.charts/chartdatalabel/index/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.drawing.charts/chartdatalabel/index/
 public int Index { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как применять метки к точкам данных на линейной диаграмме.
 
@@ -92,7 +94,5 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
 ### Смотрите также
 
 * class [ChartDataLabel](../)
-* пространство имен [Aspose.Words.Drawing.Charts](../../chartdatalabel/)
+* пространство имен [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../../)
-
-

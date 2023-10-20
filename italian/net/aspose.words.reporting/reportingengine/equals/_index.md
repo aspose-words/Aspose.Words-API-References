@@ -1,7 +1,9 @@
 ---
 title: ReportingEngine.Equals
-second_title: Aspose.Words per .NET API Reference
-description: ReportingEngine metodo. Determina se loggetto specificato ha un valore uguale alloggetto corrente.
+linktitle: Equals
+articleTitle: Equals
+second_title: Aspose.Words per .NET
+description: ReportingEngine Equals metodo. Determina se loggetto specificato ha un valore uguale alloggetto corrente in C#.
 type: docs
 weight: 50
 url: /it/net/aspose.words.reporting/reportingengine/equals/
@@ -17,7 +19,5 @@ public bool Equals(object obj)
 ### Guarda anche
 
 * class [ReportingEngine](../)
-* spazio dei nomi [Aspose.Words.Reporting](../../reportingengine/)
+* spazio dei nomi [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * assemblea [Aspose.Words](../../../)
-
-

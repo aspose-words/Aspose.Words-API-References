@@ -1,7 +1,9 @@
 ---
-title: Metered.Metered
-second_title: Aspose.Words per .NET API Reference
-description: Metered costruttore. Inizializza una nuova istanza di questa classe.
+title: Metered
+linktitle: Metered
+articleTitle: Metered
+second_title: Aspose.Words per .NET
+description: Metered costruttore. Inizializza una nuova istanza di questa classe in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words/metered/metered/
@@ -14,7 +16,7 @@ Inizializza una nuova istanza di questa classe.
 public Metered()
 ```
 
-### Esempi
+## Esempi
 
 Mostra come attivare una licenza a consumo e tenere traccia del credito/consumo.
 
@@ -41,7 +43,5 @@ Console.WriteLine($"Consumption quantity after operation: {Metered.GetConsumptio
 ### Guarda anche
 
 * class [Metered](../)
-* spazio dei nomi [Aspose.Words](../../metered/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

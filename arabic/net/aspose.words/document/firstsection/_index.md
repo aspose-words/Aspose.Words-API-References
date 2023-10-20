@@ -1,7 +1,9 @@
 ---
 title: Document.FirstSection
-second_title: Aspose.Words لمراجع .NET API
-description: Document ملكية. للحصول على القسم الأول في المستند.
+linktitle: FirstSection
+articleTitle: FirstSection
+second_title: Aspose.Words لـ .NET
+description: Document FirstSection ملكية. للحصول على القسم الأول في المستند في C#.
 type: docs
 weight: 130
 url: /ar/net/aspose.words/document/firstsection/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words/document/firstsection/
 public Section FirstSection { get; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 إرجاع`باطل` إذا لم تكن هناك أقسام.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استبدال النص في تذييل المستند.
 
@@ -120,7 +122,5 @@ foreach (Node node in section)
 
 * class [Section](../../section/)
 * class [Document](../)
-* مساحة الاسم [Aspose.Words](../../document/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

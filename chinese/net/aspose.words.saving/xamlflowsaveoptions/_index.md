@@ -1,7 +1,9 @@
 ---
-title: Class XamlFlowSaveOptions
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Saving.XamlFlowSaveOptions 班级. 可用于在将文档保存到 时指定其他选项XamlFlow或者XamlFlowPack格式.
+title: XamlFlowSaveOptions Class
+linktitle: XamlFlowSaveOptions
+articleTitle: XamlFlowSaveOptions
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Saving.XamlFlowSaveOptions 班级. 可用于在将文档保存到 时指定其他选项XamlFlow或者XamlFlowPack格式 在 C#.
 type: docs
 weight: 5700
 url: /zh/net/aspose.words.saving/xamlflowsaveoptions/
@@ -21,7 +23,7 @@ public class XamlFlowSaveOptions : SaveOptions
 | 姓名 | 描述 |
 | --- | --- |
 | [XamlFlowSaveOptions](xamlflowsaveoptions/#constructor)() | 初始化此类的一个新实例，该实例可用于将文档保存在XamlFlow格式. |
-| [XamlFlowSaveOptions](xamlflowsaveoptions/#constructor_1)(SaveFormat) | 初始化此类的一个新实例，该实例可用于将文档保存在XamlFlow 或XamlFlowPack格式. |
+| [XamlFlowSaveOptions](xamlflowsaveoptions/#constructor_1)(*[SaveFormat](../../aspose.words/saveformat/)*) | 初始化此类的一个新实例，该实例可用于将文档保存在XamlFlow 或XamlFlowPack格式. |
 
 ## 特性
 
@@ -29,7 +31,7 @@ public class XamlFlowSaveOptions : SaveOptions
 | --- | --- |
 | [AllowEmbeddingPostScriptFonts](../../aspose.words.saving/saveoptions/allowembeddingpostscriptfonts/) { get; set; } | 获取或设置一个布尔值，指示在保存的文档中嵌入 TrueType 字体时是否允许使用 PostScript 轮廓嵌入字体。 默认值为`错误的`. |
 | [CustomTimeZoneInfo](../../aspose.words.saving/saveoptions/customtimezoneinfo/) { get; set; } | 获取或设置用于日期/时间字段的自定义本地时区。 |
-| [DefaultTemplate](../../aspose.words.saving/saveoptions/defaulttemplate/) { get; set; } | 获取或设置默认模板的路径（包括文件名）。 此属性的默认值为 **空字符串**（Empty). |
+| [DefaultTemplate](../../aspose.words.saving/saveoptions/defaulttemplate/) { get; set; } | 获取或设置默认模板的路径（包括文件名）。 此属性的默认值为**空字符串**（Empty). |
 | [Dml3DEffectsRenderingMode](../../aspose.words.saving/saveoptions/dml3deffectsrenderingmode/) { get; set; } | 获取或设置一个确定如何渲染 3D 效果的值。 |
 | virtual [DmlEffectsRenderingMode](../../aspose.words.saving/saveoptions/dmleffectsrenderingmode/) { get; set; } | 获取或设置一个值，确定如何呈现 DrawingML 效果。 |
 | [DmlRenderingMode](../../aspose.words.saving/saveoptions/dmlrenderingmode/) { get; set; } | 获取或设置一个值，确定如何呈现 DrawingML 形状。 |
@@ -50,7 +52,7 @@ public class XamlFlowSaveOptions : SaveOptions
 | [UseAntiAliasing](../../aspose.words.saving/saveoptions/useantialiasing/) { get; set; } | 获取或设置一个值，确定是否使用抗锯齿进行渲染。 |
 | [UseHighQualityRendering](../../aspose.words.saving/saveoptions/usehighqualityrendering/) { get; set; } | 获取或设置一个值，确定是否使用高质量（即慢速）渲染算法。 |
 
-### 例子
+## 例子
 
 演示如何打印在将文档转换为流格式 .xaml 时创建的链接图像的文件名。
 
@@ -118,5 +120,3 @@ private class ImageUriPrinter : IImageSavingCallback
 * class [SaveOptions](../saveoptions/)
 * 命名空间 [Aspose.Words.Saving](../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../)
-
-

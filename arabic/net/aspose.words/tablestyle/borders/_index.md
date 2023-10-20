@@ -1,7 +1,9 @@
 ---
 title: TableStyle.Borders
-second_title: Aspose.Words لمراجع .NET API
-description: TableStyle ملكية. الحصول على مجموعة حدود الخلايا الافتراضية للنمط.
+linktitle: Borders
+articleTitle: Borders
+second_title: Aspose.Words لـ .NET
+description: TableStyle Borders ملكية. الحصول على مجموعة حدود الخلايا الافتراضية للنمط في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words/tablestyle/borders/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/tablestyle/borders/
 public BorderCollection Borders { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء إعدادات نمط مخصصة للجدول.
 
@@ -59,7 +61,5 @@ doc.Save(ArtifactsDir + "Table.TableStyleCreation.docx");
 
 * class [BorderCollection](../../bordercollection/)
 * class [TableStyle](../)
-* مساحة الاسم [Aspose.Words](../../tablestyle/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

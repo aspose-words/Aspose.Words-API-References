@@ -1,7 +1,9 @@
 ---
-title: Class TextBox
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Drawing.TextBox klas. Definiert Attribute die angeben wie ein Text innerhalb einer Form angezeigt wird.
+title: TextBox Class
+linktitle: TextBox
+articleTitle: TextBox
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Drawing.TextBox klas. Definiert Attribute die angeben wie ein Text innerhalb einer Form angezeigt wird in C#.
 type: docs
 weight: 1320
 url: /de/net/aspose.words.drawing/textbox/
@@ -38,13 +40,13 @@ public class TextBox
 | Name | Beschreibung |
 | --- | --- |
 | [BreakForwardLink](../../aspose.words.drawing/textbox/breakforwardlink/)() | Unterbricht die Verbindung zum nächsten`TextBox` . |
-| [IsValidLinkTarget](../../aspose.words.drawing/textbox/isvalidlinktarget/)(TextBox) | Legt fest, ob dies der Fall ist`TextBox` kann mit dem Ziel verknüpft werden`TextBox` . |
+| [IsValidLinkTarget](../../aspose.words.drawing/textbox/isvalidlinktarget/)(*TextBox*) | Legt fest, ob dies der Fall ist`TextBox` kann mit dem Ziel verknüpft werden`TextBox` . |
 
-### Bemerkungen
+## Bemerkungen
 
 Benutzen Sie die[`TextBox`](../shape/textbox/) Eigenschaft, um auf Texteigenschaften einer Form zuzugreifen. Sie erstellen keine Instanzen davon`TextBox` Klasse direkt.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie interne Ränder für ein Textfeld festgelegt werden.
 
@@ -110,5 +112,3 @@ doc.Save(ArtifactsDir + "Shape.TextBoxFitShapeToText.docx");
 
 * namensraum [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../)
-
-

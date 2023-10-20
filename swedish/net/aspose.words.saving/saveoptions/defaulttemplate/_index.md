@@ -1,24 +1,26 @@
 ---
 title: SaveOptions.DefaultTemplate
-second_title: Aspose.Words för .NET API Referens
-description: SaveOptions fast egendom. Hämtar eller ställer in sökvägen till standardmall inklusive filnamn. Standardvärdet för den här egenskapen är tom sträng Empty.
+linktitle: DefaultTemplate
+articleTitle: DefaultTemplate
+second_title: Aspose.Words för .NET
+description: SaveOptions DefaultTemplate fast egendom. Hämtar eller ställer in sökvägen till standardmall inklusive filnamn. Standardvärdet för den här egenskapen ärtom sträng Empty i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.saving/saveoptions/defaulttemplate/
 ---
 ## SaveOptions.DefaultTemplate property
 
-Hämtar eller ställer in sökvägen till standardmall (inklusive filnamn). Standardvärdet för den här egenskapen är **tom sträng** (Empty).
+Hämtar eller ställer in sökvägen till standardmall (inklusive filnamn). Standardvärdet för den här egenskapen är**tom sträng** (Empty).
 
 ```csharp
 public string DefaultTemplate { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Om det anges används den här sökvägen för att ladda mallen när[`AutomaticallyUpdateStyles`](../../../aspose.words/document/automaticallyupdatestyles/) är`Sann` , men[`AttachedTemplate`](../../../aspose.words/document/attachedtemplate/) är tom.
 
-### Exempel
+## Exempel
 
 Visar hur man ställer in en standardmall för dokument som inte har bifogade mallar.
 
@@ -42,7 +44,5 @@ doc.Save(ArtifactsDir + "Document.DefaultTemplate.docx", options);
 ### Se även
 
 * class [SaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../saveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

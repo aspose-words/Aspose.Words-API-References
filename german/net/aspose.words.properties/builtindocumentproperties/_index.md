@@ -1,7 +1,9 @@
 ---
-title: Class BuiltInDocumentProperties
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Properties.BuiltInDocumentProperties klas. Eine Sammlung integrierter Dokumenteigenschaften.
+title: BuiltInDocumentProperties Class
+linktitle: BuiltInDocumentProperties
+articleTitle: BuiltInDocumentProperties
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Properties.BuiltInDocumentProperties klas. Eine Sammlung integrierter Dokumenteigenschaften in C#.
 type: docs
 weight: 4450
 url: /de/net/aspose.words.properties/builtindocumentproperties/
@@ -61,13 +63,13 @@ public class BuiltInDocumentProperties : DocumentPropertyCollection
 | Name | Beschreibung |
 | --- | --- |
 | [Clear](../../aspose.words.properties/documentpropertycollection/clear/)() | Entfernt alle Eigenschaften aus der Sammlung. |
-| [Contains](../../aspose.words.properties/documentpropertycollection/contains/)(string) | Gibt zurück`WAHR` wenn eine Eigenschaft mit dem angegebenen Namen in der Sammlung vorhanden ist. |
+| [Contains](../../aspose.words.properties/documentpropertycollection/contains/)(*string*) | Gibt zurück`WAHR` wenn eine Eigenschaft mit dem angegebenen Namen in der Sammlung vorhanden ist. |
 | [GetEnumerator](../../aspose.words.properties/documentpropertycollection/getenumerator/)() | Gibt ein Enumeratorobjekt zurück, das zum Durchlaufen aller Elemente in der Sammlung verwendet werden kann. |
-| [IndexOf](../../aspose.words.properties/documentpropertycollection/indexof/)(string) | Ruft den Index einer Eigenschaft nach Namen ab. |
-| [Remove](../../aspose.words.properties/documentpropertycollection/remove/)(string) | Entfernt eine Eigenschaft mit dem angegebenen Namen aus der Sammlung. |
-| [RemoveAt](../../aspose.words.properties/documentpropertycollection/removeat/)(int) | Entfernt eine Eigenschaft am angegebenen Index. |
+| [IndexOf](../../aspose.words.properties/documentpropertycollection/indexof/)(*string*) | Ruft den Index einer Eigenschaft nach Namen ab. |
+| [Remove](../../aspose.words.properties/documentpropertycollection/remove/)(*string*) | Entfernt eine Eigenschaft mit dem angegebenen Namen aus der Sammlung. |
+| [RemoveAt](../../aspose.words.properties/documentpropertycollection/removeat/)(*int*) | Entfernt eine Eigenschaft am angegebenen Index. |
 
-### Bemerkungen
+## Bemerkungen
 
 Bietet Zugriff auf[`DocumentProperty`](../documentproperty/) Objekte anhand ihres Namens (mithilfe eines Indexers) und über eine Reihe typisierter Eigenschaften, die Werte geeigneter Typen zurückgeben.
 
@@ -75,7 +77,7 @@ Bei den Namen der Eigenschaften wird die Groß-/Kleinschreibung nicht beachtet.
 
 Die Eigenschaften in der Sammlung werden alphabetisch nach Namen sortiert.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit integrierten Dokumenteigenschaften gearbeitet wird.
 
@@ -114,5 +116,3 @@ foreach (DocumentProperty docProperty in doc.BuiltInDocumentProperties)
 * class [DocumentPropertyCollection](../documentpropertycollection/)
 * namensraum [Aspose.Words.Properties](../../aspose.words.properties/)
 * Montage [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: PhysicalFontInfo.Version
-second_title: Aspose.Words for .NET API 参考
-description: PhysicalFontInfo 财产. 字体的版本字符串
+linktitle: Version
+articleTitle: Version
+second_title: 用于 .NET 的 Aspose.Words
+description: PhysicalFontInfo Version 财产. 字体的版本字符串 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.fonts/physicalfontinfo/version/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fonts/physicalfontinfo/version/
 public string Version { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何列出可用字体。
 
@@ -34,7 +36,5 @@ foreach (PhysicalFontInfo fontInfo in folderFontSource[0].GetAvailableFonts())
 ### 也可以看看
 
 * class [PhysicalFontInfo](../)
-* 命名空间 [Aspose.Words.Fonts](../../physicalfontinfo/)
+* 命名空间 [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * 部件 [Aspose.Words](../../../)
-
-

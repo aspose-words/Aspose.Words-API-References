@@ -1,7 +1,9 @@
 ---
 title: AxisBound.Equals
-second_title: Aspose.Words لمراجع .NET API
-description: AxisBound طريقة. تحديد ما إذا كان الكائن المحدد يساوي قيمة الكائن الحالي.
+linktitle: Equals
+articleTitle: Equals
+second_title: Aspose.Words لـ .NET
+description: AxisBound Equals طريقة. تحديد ما إذا كان الكائن المحدد يساوي قيمة الكائن الحالي في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.drawing.charts/axisbound/equals/
@@ -17,7 +19,5 @@ public override bool Equals(object obj)
 ### أنظر أيضا
 
 * class [AxisBound](../)
-* مساحة الاسم [Aspose.Words.Drawing.Charts](../../axisbound/)
+* مساحة الاسم [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../../)
-
-

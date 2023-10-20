@@ -1,7 +1,9 @@
 ---
 title: FieldMergeBarcode.PosCodeStyle
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldMergeBarcode eigendom. Ruft den Stil eines PointofSaleBarcodes ab BarcodeTypen UPCAUPCEEAN13EAN8 oder legt diesen fest. Die gültigen Werte ohne Berücksichtigung der Groß und Kleinschreibung sind STDSUP2SUP5CASE.
+linktitle: PosCodeStyle
+articleTitle: PosCodeStyle
+second_title: Aspose.Words für .NET
+description: FieldMergeBarcode PosCodeStyle eigendom. Ruft den Stil eines PointofSaleBarcodes ab BarcodeTypen UPCAUPCEEAN13EAN8 oder legt diesen fest. Die gültigen Werte ohne Berücksichtigung der Groß und Kleinschreibung sind STDSUP2SUP5CASE in C#.
 type: docs
 weight: 110
 url: /de/net/aspose.words.fields/fieldmergebarcode/poscodestyle/
@@ -14,7 +16,7 @@ Ruft den Stil eines Point-of-Sale-Barcodes ab (Barcode-Typen UPCA&#x7C;UPCE&#x7C
 public string PosCodeStyle { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Serienbrief für EAN13-Barcodes durchgeführt wird.
 
@@ -60,7 +62,5 @@ doc.Save(ArtifactsDir + "Field.MERGEBARCODE.EAN13.docx");
 ### Siehe auch
 
 * class [FieldMergeBarcode](../)
-* namensraum [Aspose.Words.Fields](../../fieldmergebarcode/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

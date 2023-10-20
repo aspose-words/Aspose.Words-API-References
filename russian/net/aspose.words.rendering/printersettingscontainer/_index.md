@@ -1,7 +1,9 @@
 ---
-title: Class PrinterSettingsContainer
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Rendering.PrinterSettingsContainer сорт. Представляет собой хранилище для некоторых параметровPrinterSettings объект.
+title: PrinterSettingsContainer Class
+linktitle: PrinterSettingsContainer
+articleTitle: PrinterSettingsContainer
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Rendering.PrinterSettingsContainer сорт. Представляет собой хранилище для некоторых параметровPrinterSettings объект на С#.
 type: docs
 weight: 4580
 url: /ru/net/aspose.words.rendering/printersettingscontainer/
@@ -20,7 +22,7 @@ public class PrinterSettingsContainer
 
 | Имя | Описание |
 | --- | --- |
-| [PrinterSettingsContainer](printersettingscontainer/)(PrinterSettings) | Создает контейнер дляPrinterSettings . |
+| [PrinterSettingsContainer](printersettingscontainer/)(*PrinterSettings*) | Создает контейнер дляPrinterSettings . |
 
 ## Характеристики
 
@@ -30,11 +32,11 @@ public class PrinterSettingsContainer
 | [PaperSizes](../../aspose.words.rendering/printersettingscontainer/papersizes/) { get; } | См.PaperSizes . |
 | [PaperSources](../../aspose.words.rendering/printersettingscontainer/papersources/) { get; } | См.PaperSources . |
 
-### Примечания
+## Примечания
 
 Доступ к даннымPrinterSettings занимает много времени. `PrinterSettingsContainer` кэширует параметры изPrinterSettings , , чтобы печать работала быстрее.
 
-### Примеры
+## Примеры
 
 Показывает, как получить доступ к источникам и форматам бумаги вашего принтера и составить их список.
 
@@ -68,5 +70,3 @@ foreach (System.Drawing.Printing.PaperSize paperSize in container.PaperSizes)
 
 * пространство имен [Aspose.Words.Rendering](../../aspose.words.rendering/)
 * сборка [Aspose.Words](../../)
-
-

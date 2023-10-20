@@ -1,14 +1,16 @@
 ---
-title: StructuredDocumentTag.StructuredDocumentTag
-second_title: Aspose.Words for .NET API 参考
-description: StructuredDocumentTag 构造函数. 初始化一个新实例 结构化文档标签类.
+title: StructuredDocumentTag
+linktitle: StructuredDocumentTag
+articleTitle: StructuredDocumentTag
+second_title: 用于 .NET 的 Aspose.Words
+description: StructuredDocumentTag 构造函数. 初始化一个新实例结构化文档标签类 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.markup/structureddocumenttag/structureddocumenttag/
 ---
 ## StructuredDocumentTag constructor
 
-初始化一个新实例 **结构化文档标签**类.
+初始化一个新实例**结构化文档标签**类.
 
 ```csharp
 public StructuredDocumentTag(DocumentBase doc, SdtType type, MarkupLevel level)
@@ -20,7 +22,7 @@ public StructuredDocumentTag(DocumentBase doc, SdtType type, MarkupLevel level)
 | type | SdtType | SDT 节点的类型。 |
 | level | MarkupLevel | 文档中 SDT 节点的级别。 |
 
-### 评论
+## 评论
 
 可以创建以下类型的 SDT：
 
@@ -34,7 +36,7 @@ public StructuredDocumentTag(DocumentBase doc, SdtType type, MarkupLevel level)
 * RichText
 * PlainText
 
-### 例子
+## 例子
 
 展示如何以复选框的形式创建结构化文档标签。
 
@@ -60,7 +62,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.CheckBox.docx");
 * enum [SdtType](../../sdttype/)
 * enum [MarkupLevel](../../markuplevel/)
 * class [StructuredDocumentTag](../)
-* 命名空间 [Aspose.Words.Markup](../../structureddocumenttag/)
+* 命名空间 [Aspose.Words.Markup](../../../aspose.words.markup/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Table.AbsoluteHorizontalDistance
-second_title: Справочник по API Aspose.Words для .NET
-description: Table свойство. Получает или задает абсолютное горизонтальное плавающее положение таблицы указанное в свойствах таблицы в точках. Значение по умолчанию  0.
+linktitle: AbsoluteHorizontalDistance
+articleTitle: AbsoluteHorizontalDistance
+second_title: Aspose.Words для .NET
+description: Table AbsoluteHorizontalDistance свойство. Получает или задает абсолютное горизонтальное плавающее положение таблицы указанное в свойствах таблицы в точках. Значение по умолчанию  0 на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.tables/table/absolutehorizontaldistance/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.tables/table/absolutehorizontaldistance/
 public double AbsoluteHorizontalDistance { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как задать расположение плавающих таблиц.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "Table.ChangeFloatingTableProperties.docx");
 ### Смотрите также
 
 * class [Table](../)
-* пространство имен [Aspose.Words.Tables](../../table/)
+* пространство имен [Aspose.Words.Tables](../../../aspose.words.tables/)
 * сборка [Aspose.Words](../../../)
-
-

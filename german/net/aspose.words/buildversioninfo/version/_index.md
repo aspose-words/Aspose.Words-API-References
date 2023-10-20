@@ -1,7 +1,9 @@
 ---
 title: BuildVersionInfo.Version
-second_title: Aspose.Words für .NET-API-Referenz
-description: BuildVersionInfo eigendom. Ruft die Produktversion ab.
+linktitle: Version
+articleTitle: Version
+second_title: Aspose.Words für .NET
+description: BuildVersionInfo Version eigendom. Ruft die Produktversion ab in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words/buildversioninfo/version/
@@ -14,11 +16,11 @@ Ruft die Produktversion ab.
 public static string Version { get; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Die Produktversion hat das Format „Major.Minor.Hotfix.0“.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie Informationen zu Ihrer installierten Version von Aspose.Words anzeigen.
 
@@ -29,7 +31,5 @@ Console.WriteLine($"I am currently using {BuildVersionInfo.Product}, version num
 ### Siehe auch
 
 * class [BuildVersionInfo](../)
-* namensraum [Aspose.Words](../../buildversioninfo/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ListLevel.CreatePictureBullet
-second_title: Aspose.Words för .NET API Referens
-description: ListLevel metod. Skapar bildpunktform för den aktuella listnivån.
+linktitle: CreatePictureBullet
+articleTitle: CreatePictureBullet
+second_title: Aspose.Words för .NET
+description: ListLevel CreatePictureBullet metod. Skapar bildpunktform för den aktuella listnivån i C#.
 type: docs
 weight: 150
 url: /sv/net/aspose.words.lists/listlevel/createpicturebullet/
@@ -14,11 +16,11 @@ Skapar bildpunktform för den aktuella listnivån.
 public void CreatePictureBullet()
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Vänligen notera,[`NumberStyle`](../numberstyle/) kommer att ställas in påBullet och [`NumberFormat`](../numberformat/) till "\xF0B7" för att korrekt visa bildpunkten. Röda korsbilden kommer att ställas in som punktbild vid skapande. För att ändra den, använd[`ImageData`](../imagedata/).
 
-### Exempel
+## Exempel
 
 Visar hur du ställer in en anpassad bildikon för listobjektetiketter.
 
@@ -50,7 +52,5 @@ Assert.IsNull(list.ListLevels[0].ImageData);
 ### Se även
 
 * class [ListLevel](../)
-* namnutrymme [Aspose.Words.Lists](../../listlevel/)
+* namnutrymme [Aspose.Words.Lists](../../../aspose.words.lists/)
 * hopsättning [Aspose.Words](../../../)
-
-

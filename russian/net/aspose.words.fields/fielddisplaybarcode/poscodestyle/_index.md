@@ -1,7 +1,9 @@
 ---
 title: FieldDisplayBarcode.PosCodeStyle
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldDisplayBarcode свойство. Получает или задает стиль штрихкода торговой точки типы штрихкодов UPCAUPCEEAN13EAN8. Допустимые значения без учета регистра STDSUP2SUP5CASE.
+linktitle: PosCodeStyle
+articleTitle: PosCodeStyle
+second_title: Aspose.Words для .NET
+description: FieldDisplayBarcode PosCodeStyle свойство. Получает или задает стиль штрихкода торговой точки типы штрихкодов UPCAUPCEEAN13EAN8. Допустимые значения без учета регистра STDSUP2SUP5CASE на С#.
 type: docs
 weight: 110
 url: /ru/net/aspose.words.fields/fielddisplaybarcode/poscodestyle/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fielddisplaybarcode/poscodestyle/
 public string PosCodeStyle { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как вставить поле DISPLAYBARCODE и установить его свойства.
 
@@ -72,7 +74,5 @@ doc.Save(ArtifactsDir + "Field.DISPLAYBARCODE.docx");
 ### Смотрите также
 
 * class [FieldDisplayBarcode](../)
-* пространство имен [Aspose.Words.Fields](../../fielddisplaybarcode/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

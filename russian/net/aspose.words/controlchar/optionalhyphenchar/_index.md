@@ -1,7 +1,9 @@
 ---
 title: ControlChar.OptionalHyphenChar
-second_title: Справочник по API Aspose.Words для .NET
-description: ControlChar поле. Необязательный дефис в Microsoft Word char31.
+linktitle: OptionalHyphenChar
+articleTitle: OptionalHyphenChar
+second_title: Aspose.Words для .NET
+description: ControlChar OptionalHyphenChar поле. Необязательный дефис в Microsoft Word char31 на С#.
 type: docs
 weight: 190
 url: /ru/net/aspose.words/controlchar/optionalhyphenchar/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words/controlchar/optionalhyphenchar/
 public const char OptionalHyphenChar;
 ```
 
-### Примечания
+## Примечания
 
 Необязательный дефис в Microsoft Word не соответствует символу Юникода U+00AD мягкий дефис. Вместо этого он вставляет внутреннюю информацию, сообщающую Word о возможной точке переноса.
 
-### Примеры
+## Примеры
 
 Показывает, как добавлять в документ различные управляющие символы.
 
@@ -90,7 +92,5 @@ Assert.AreEqual(Convert.ToChar(ControlChar.ColumnBreak), ControlChar.ColumnBreak
 ### Смотрите также
 
 * class [ControlChar](../)
-* пространство имен [Aspose.Words](../../controlchar/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

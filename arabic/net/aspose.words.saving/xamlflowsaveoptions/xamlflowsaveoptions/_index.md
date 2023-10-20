@@ -1,7 +1,9 @@
 ---
-title: XamlFlowSaveOptions.XamlFlowSaveOptions
-second_title: Aspose.Words لمراجع .NET API
-description: XamlFlowSaveOptions البناء. تهيئة مثيل جديد لهذه الفئة يمكن استخدامه لحفظ مستند في ملفXamlFlow التنسيق.
+title: XamlFlowSaveOptions
+linktitle: XamlFlowSaveOptions
+articleTitle: XamlFlowSaveOptions
+second_title: Aspose.Words لـ .NET
+description: XamlFlowSaveOptions البناء. تهيئة مثيل جديد لهذه الفئة يمكن استخدامه لحفظ مستند في ملفXamlFlow التنسيق في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.saving/xamlflowsaveoptions/xamlflowsaveoptions/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.saving/xamlflowsaveoptions/xamlflowsaveoptions/
 public XamlFlowSaveOptions()
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية طباعة أسماء ملفات الصور المرتبطة التي تم إنشاؤها أثناء تحويل مستند إلى شكل تدفق .xaml.
 
@@ -80,12 +82,12 @@ private class ImageUriPrinter : IImageSavingCallback
 ### أنظر أيضا
 
 * class [XamlFlowSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../xamlflowsaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## XamlFlowSaveOptions(SaveFormat) {#constructor_1}
+## XamlFlowSaveOptions(*[SaveFormat](../../../aspose.words/saveformat/)*) {#constructor_1}
 
 تهيئة مثيل جديد لهذه الفئة يمكن استخدامه لحفظ مستند في ملفXamlFlow أوXamlFlowPack التنسيق.
 
@@ -97,7 +99,7 @@ public XamlFlowSaveOptions(SaveFormat saveFormat)
 | --- | --- | --- |
 | saveFormat | SaveFormat | يمكن ان يكونXamlFlow أوXamlFlowPack. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية طباعة أسماء ملفات الصور المرتبطة التي تم إنشاؤها أثناء تحويل مستند إلى شكل تدفق .xaml.
 
@@ -164,7 +166,5 @@ private class ImageUriPrinter : IImageSavingCallback
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
 * class [XamlFlowSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../xamlflowsaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

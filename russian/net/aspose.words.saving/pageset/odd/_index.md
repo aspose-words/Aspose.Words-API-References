@@ -1,7 +1,9 @@
 ---
 title: PageSet.Odd
-second_title: Справочник по API Aspose.Words для .NET
-description: PageSet свойство. Получает набор со всеми нечетными страницами документа в исходном порядке.
+linktitle: Odd
+articleTitle: Odd
+second_title: Aspose.Words для .NET
+description: PageSet Odd свойство. Получает набор со всеми нечетными страницами документа в исходном порядке на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.saving/pageset/odd/
@@ -14,14 +16,12 @@ url: /ru/net/aspose.words.saving/pageset/odd/
 public static PageSet Odd { get; }
 ```
 
-### Примечания
+## Примечания
 
 Нечетные страницы имеют четные индексы, поскольку индексы страниц отсчитываются от нуля.
 
 ### Смотрите также
 
 * class [PageSet](../)
-* пространство имен [Aspose.Words.Saving](../../pageset/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

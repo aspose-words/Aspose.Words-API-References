@@ -1,7 +1,9 @@
 ---
 title: ControlChar.SpaceChar
-second_title: Referencia de API de Aspose.Words para .NET
-description: ControlChar campo. Carácter de espacio char32.
+linktitle: SpaceChar
+articleTitle: SpaceChar
+second_title: Aspose.Words para .NET
+description: ControlChar SpaceChar campo. Carácter de espacio char32 en C#.
 type: docs
 weight: 260
 url: /es/net/aspose.words/controlchar/spacechar/
@@ -14,7 +16,7 @@ Carácter de espacio: (char)32.
 public const char SpaceChar;
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo agregar varios caracteres de control a un documento.
 
@@ -86,7 +88,5 @@ Assert.AreEqual(Convert.ToChar(ControlChar.ColumnBreak), ControlChar.ColumnBreak
 ### Ver también
 
 * class [ControlChar](../)
-* espacio de nombres [Aspose.Words](../../controlchar/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

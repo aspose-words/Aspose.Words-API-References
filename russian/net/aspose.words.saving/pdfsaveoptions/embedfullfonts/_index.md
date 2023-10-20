@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.EmbedFullFonts
-second_title: Справочник по API Aspose.Words для .NET
-description: PdfSaveOptions свойство. Управляет тем как шрифты внедряются в результирующие PDFдокументы.
+linktitle: EmbedFullFonts
+articleTitle: EmbedFullFonts
+second_title: Aspose.Words для .NET
+description: PdfSaveOptions EmbedFullFonts свойство. Управляет тем как шрифты внедряются в результирующие PDFдокументы на С#.
 type: docs
 weight: 120
 url: /ru/net/aspose.words.saving/pdfsaveoptions/embedfullfonts/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.saving/pdfsaveoptions/embedfullfonts/
 public bool EmbedFullFonts { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Значение по умолчанию:`ЛОЖЬ`, что означает, что перед внедрением шрифты разделяются на поднаборы. Поднабор полезен, если вы хотите уменьшить размер выходного файла. Поднастройка удаляет из шрифта все неиспользуемые глифы .
 
@@ -22,7 +24,7 @@ public bool EmbedFullFonts { get; set; }
 
 Некоторые шрифты имеют большой размер (несколько мегабайт), и встраивание их без subsetting приведет к получению больших выходных документов.
 
-### Примеры
+## Примеры
 
 Показывает, как включить или отключить поднабор при встраивании шрифтов во время рендеринга документа в PDF.
 
@@ -70,7 +72,5 @@ FontSettings.DefaultInstance.SetFontsSources(originalFontsSources);
 ### Смотрите также
 
 * class [PdfSaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../pdfsaveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

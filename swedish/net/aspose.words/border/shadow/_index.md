@@ -1,7 +1,9 @@
 ---
 title: Border.Shadow
-second_title: Aspose.Words för .NET API Referens
-description: Border fast egendom. Hämtar eller ställer in ett värde som anger om gränsen har en skugga.
+linktitle: Shadow
+articleTitle: Shadow
+second_title: Aspose.Words för .NET
+description: Border Shadow fast egendom. Hämtar eller ställer in ett värde som anger om gränsen har en skugga i C#.
 type: docs
 weight: 60
 url: /sv/net/aspose.words/border/shadow/
@@ -14,11 +16,11 @@ Hämtar eller ställer in ett värde som anger om gränsen har en skugga.
 public bool Shadow { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Microsoft Word, för att en kantlinje ska ha en skugga, bör kanterna på alla fyra sidorna (vänster, topp, höger och botten) vara av samma typ, bredd, färg och alla ska ha egenskapen Shadow inställd på`Sann`.
 
-### Exempel
+## Exempel
 
 Visar hur man skapar grön vågig sidkant med en skugga.
 
@@ -38,7 +40,5 @@ doc.Save(ArtifactsDir + "PageSetup.PageBorders.docx");
 ### Se även
 
 * class [Border](../)
-* namnutrymme [Aspose.Words](../../border/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

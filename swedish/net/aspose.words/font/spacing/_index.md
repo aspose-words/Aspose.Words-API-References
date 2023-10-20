@@ -1,7 +1,9 @@
 ---
 title: Font.Spacing
-second_title: Aspose.Words för .NET API Referens
-description: Font fast egendom. Returnerar eller ställer in avståndet i punkter mellan tecknen .
+linktitle: Spacing
+articleTitle: Spacing
+second_title: Aspose.Words för .NET
+description: Font Spacing fast egendom. Returnerar eller ställer in avståndet i punkter mellan tecknen  i C#.
 type: docs
 weight: 380
 url: /sv/net/aspose.words/font/spacing/
@@ -14,7 +16,7 @@ Returnerar eller ställer in avståndet (i punkter) mellan tecknen .
 public double Spacing { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man ställer in horisontell skalning och avstånd för tecken.
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "Font.ScalingSpacing.docx");
 ### Se även
 
 * class [Font](../)
-* namnutrymme [Aspose.Words](../../font/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

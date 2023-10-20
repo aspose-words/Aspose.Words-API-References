@@ -1,7 +1,9 @@
 ---
 title: FontInfoCollection.Contains
-second_title: Aspose.Words för .NET API Referens
-description: FontInfoCollection metod. Bestämmer om samlingen innehåller ett teckensnitt med det angivna namnet.
+linktitle: Contains
+articleTitle: Contains
+second_title: Aspose.Words för .NET
+description: FontInfoCollection Contains metod. Bestämmer om samlingen innehåller ett teckensnitt med det angivna namnet i C#.
 type: docs
 weight: 60
 url: /sv/net/aspose.words.fonts/fontinfocollection/contains/
@@ -22,7 +24,7 @@ public bool Contains(string name)
 
 `Sann` om föremålet finns i samlingen; annat,`falsk`.
 
-### Exempel
+## Exempel
 
 Visar information om de typsnitt som finns i det tomma dokumentet.
 
@@ -43,7 +45,5 @@ Assert.True(doc.FontInfos.Contains("Arial"));
 ### Se även
 
 * class [FontInfoCollection](../)
-* namnutrymme [Aspose.Words.Fonts](../../fontinfocollection/)
+* namnutrymme [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * hopsättning [Aspose.Words](../../../)
-
-

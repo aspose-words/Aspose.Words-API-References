@@ -1,7 +1,9 @@
 ---
 title: OoxmlSaveOptions.SaveFormat
-second_title: Aspose.Words för .NET API Referens
-description: OoxmlSaveOptions fast egendom. Anger formatet som dokumentet kommer att sparas i om detta sparaalternativobjekt används. Kan varaDocx Docm  Dotx Dotm ellerFlatOpc .
+linktitle: SaveFormat
+articleTitle: SaveFormat
+second_title: Aspose.Words för .NET
+description: OoxmlSaveOptions SaveFormat fast egendom. Anger formatet som dokumentet kommer att sparas i om detta sparaalternativobjekt används. Kan varaDocx Docm  Dotx Dotm ellerFlatOpc  i C#.
 type: docs
 weight: 60
 url: /sv/net/aspose.words.saving/ooxmlsaveoptions/saveformat/
@@ -14,7 +16,7 @@ Anger formatet som dokumentet kommer att sparas i om detta sparaalternativ-objek
 public override SaveFormat SaveFormat { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man ställer in en OOXML-efterlevnadsspecifikation för ett sparat dokument att följa.
 
@@ -50,7 +52,5 @@ Assert.AreEqual(ShapeMarkupLanguage.Dml, ((Shape)doc.GetChild(NodeType.Shape, 0,
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
 * class [OoxmlSaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../ooxmlsaveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.RowFormat
-second_title: Aspose.Words für .NET-API-Referenz
-description: DocumentBuilder eigendom. Gibt ein Objekt zurück das die Formatierungseigenschaften der aktuellen Tabellenzeile darstellt.
+linktitle: RowFormat
+articleTitle: RowFormat
+second_title: Aspose.Words für .NET
+description: DocumentBuilder RowFormat eigendom. Gibt ein Objekt zurück das die Formatierungseigenschaften der aktuellen Tabellenzeile darstellt in C#.
 type: docs
 weight: 180
 url: /de/net/aspose.words/documentbuilder/rowformat/
@@ -14,7 +16,7 @@ Gibt ein Objekt zurück, das die Formatierungseigenschaften der aktuellen Tabell
 public RowFormat RowFormat { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Zeilen mit einem Document Builder formatiert werden.
 
@@ -154,7 +156,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
 
 * class [RowFormat](../../../aspose.words.tables/rowformat/)
 * class [DocumentBuilder](../)
-* namensraum [Aspose.Words](../../documentbuilder/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum ImlRenderingMode
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Saving.ImlRenderingMode перечисление. Указывает как объекты рукописного ввода InkML преобразуются в фиксированные форматы страниц.
+title: ImlRenderingMode Enum
+linktitle: ImlRenderingMode
+articleTitle: ImlRenderingMode
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Saving.ImlRenderingMode перечисление. Указывает как объекты рукописного ввода InkML преобразуются в фиксированные форматы страниц на С#.
 type: docs
 weight: 5250
 url: /ru/net/aspose.words.saving/imlrenderingmode/
@@ -21,7 +23,7 @@ public enum ImlRenderingMode
 | Fallback | `0` | Если для объекта рукописного ввода (InkML) доступна резервная форма, Aspose.Words отображает резервную форму вместо InkML. |
 | InkML | `1` | Aspose.Words игнорирует резервную форму объекта рукописного ввода (InkML) и отображает сам InkML. Это режим по умолчанию. |
 
-### Примеры
+## Примеры
 
 Показывает, как визуализировать объект Ink.
 
@@ -43,5 +45,3 @@ doc.Save(ArtifactsDir + "ImageSaveOptions.RenderInkObject.jpeg", saveOptions);
 
 * пространство имен [Aspose.Words.Saving](../../aspose.words.saving/)
 * сборка [Aspose.Words](../../)
-
-

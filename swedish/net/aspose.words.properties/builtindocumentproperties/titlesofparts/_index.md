@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.TitlesOfParts
-second_title: Aspose.Words för .NET API Referens
-description: BuiltInDocumentProperties fast egendom. Varje sträng i arrayen anger namnet på en del i dokumentet.
+linktitle: TitlesOfParts
+articleTitle: TitlesOfParts
+second_title: Aspose.Words för .NET
+description: BuiltInDocumentProperties TitlesOfParts fast egendom. Varje sträng i arrayen anger namnet på en del i dokumentet i C#.
 type: docs
 weight: 300
 url: /sv/net/aspose.words.properties/builtindocumentproperties/titlesofparts/
@@ -14,11 +16,11 @@ Varje sträng i arrayen anger namnet på en del i dokumentet.
 public string[] TitlesOfParts { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Aspose.Words uppdaterar inte den här egenskapen.
 
-### Exempel
+## Exempel
 
 Visar förhållandet mellan "HeadingPairs" och "TitlesOfParts" egenskaper.
 
@@ -49,7 +51,5 @@ while (headingPairsIndex < headingPairs.Length)
 ### Se även
 
 * class [BuiltInDocumentProperties](../)
-* namnutrymme [Aspose.Words.Properties](../../builtindocumentproperties/)
+* namnutrymme [Aspose.Words.Properties](../../../aspose.words.properties/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldIf.ComparisonOperator
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldIf свойство. Получает или задает оператор сравнения.
+linktitle: ComparisonOperator
+articleTitle: ComparisonOperator
+second_title: Aspose.Words для .NET
+description: FieldIf ComparisonOperator свойство. Получает или задает оператор сравнения на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.fields/fieldif/comparisonoperator/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldif/comparisonoperator/
 public string ComparisonOperator { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как вставить поле ЕСЛИ.
 
@@ -60,7 +62,5 @@ doc.Save(ArtifactsDir + "Field.IF.docx");
 ### Смотрите также
 
 * class [FieldIf](../)
-* пространство имен [Aspose.Words.Fields](../../fieldif/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

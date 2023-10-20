@@ -1,7 +1,9 @@
 ---
 title: FieldStyleRef.InsertRelativePosition
-second_title: Aspose.Words لمراجع .NET API
-description: FieldStyleRef ملكية. الحصول على أو تعيين ما إذا كان سيتم إدراج الموضع النسبي للفقرة المشار إليها.
+linktitle: InsertRelativePosition
+articleTitle: InsertRelativePosition
+second_title: Aspose.Words لـ .NET
+description: FieldStyleRef InsertRelativePosition ملكية. الحصول على أو تعيين ما إذا كان سيتم إدراج الموضع النسبي للفقرة المشار إليها في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.fields/fieldstyleref/insertrelativeposition/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldstyleref/insertrelativeposition/
 public bool InsertRelativePosition { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام حقول STYLEREF.
 
@@ -85,7 +87,5 @@ doc.Save(ArtifactsDir + "Field.STYLEREF.docx");
 ### أنظر أيضا
 
 * class [FieldStyleRef](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldstyleref/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

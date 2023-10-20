@@ -1,7 +1,9 @@
 ---
 title: PageSetup.RtlGutter
-second_title: Aspose.Words för .NET API Referens
-description: PageSetup fast egendom. Hämtar eller ställer in om Microsoft Word använder rännstenar för sektionen baserat på ett språk från höger till vänster eller ett språk från vänster till höger.
+linktitle: RtlGutter
+articleTitle: RtlGutter
+second_title: Aspose.Words för .NET
+description: PageSetup RtlGutter fast egendom. Hämtar eller ställer in om Microsoft Word använder rännstenar för sektionen baserat på ett språk från höger till vänster eller ett språk från vänster till höger i C#.
 type: docs
 weight: 380
 url: /sv/net/aspose.words/pagesetup/rtlgutter/
@@ -14,7 +16,7 @@ Hämtar eller ställer in om Microsoft Word använder rännstenar för sektionen
 public bool RtlGutter { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man ställer in rännmarginaler.
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "PageSetup.Gutter.docx");
 ### Se även
 
 * class [PageSetup](../)
-* namnutrymme [Aspose.Words](../../pagesetup/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

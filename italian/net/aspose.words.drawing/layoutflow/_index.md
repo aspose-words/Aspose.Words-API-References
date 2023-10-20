@@ -1,7 +1,9 @@
 ---
-title: Enum LayoutFlow
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Drawing.LayoutFlow enum. Determina il flusso del layout del testo in una casella di testo.
+title: LayoutFlow Enum
+linktitle: LayoutFlow
+articleTitle: LayoutFlow
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Drawing.LayoutFlow enum. Determina il flusso del layout del testo in una casella di testo in C#.
 type: docs
 weight: 1100
 url: /it/net/aspose.words.drawing/layoutflow/
@@ -25,7 +27,7 @@ public enum LayoutFlow
 | HorizontalIdeographic | `4` | Il testo ideografico viene visualizzato orizzontalmente. |
 | Vertical | `5` | Il testo viene visualizzato verticalmente. |
 
-### Esempi
+## Esempi
 
 Mostra come aggiungere testo a una casella di testo e modificarne l'orientamento
 
@@ -54,5 +56,3 @@ doc.Save(ArtifactsDir + "Drawing.TextBox.docx");
 * property [LayoutFlow](../textbox/layoutflow/)
 * spazio dei nomi [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * assemblea [Aspose.Words](../../)
-
-

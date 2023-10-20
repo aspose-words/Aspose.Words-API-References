@@ -1,7 +1,9 @@
 ---
 title: TextBox.TextBoxWrapMode
-second_title: Aspose.Words per .NET API Reference
-description: TextBox proprietà. Determina il modo in cui il testo va a capo allinterno di una forma.
+linktitle: TextBoxWrapMode
+articleTitle: TextBoxWrapMode
+second_title: Aspose.Words per .NET
+description: TextBox TextBoxWrapMode proprietà. Determina il modo in cui il testo va a capo allinterno di una forma in C#.
 type: docs
 weight: 110
 url: /it/net/aspose.words.drawing/textbox/textboxwrapmode/
@@ -14,11 +16,11 @@ Determina il modo in cui il testo va a capo all'interno di una forma.
 public TextBoxWrapMode TextBoxWrapMode { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Il valore predefinito èSquare.
 
-### Esempi
+## Esempi
 
 Mostra come impostare una modalità di disposizione per il contenuto di una casella di testo.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "Shape.TextBoxContentsWrapMode.docx");
 
 * enum [TextBoxWrapMode](../../textboxwrapmode/)
 * class [TextBox](../)
-* spazio dei nomi [Aspose.Words.Drawing](../../textbox/)
+* spazio dei nomi [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assemblea [Aspose.Words](../../../)
-
-

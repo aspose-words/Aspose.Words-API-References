@@ -1,7 +1,9 @@
 ---
 title: ImageSaveOptions.UseGdiEmfRenderer
-second_title: Aspose.Words لمراجع .NET API
-description: ImageSaveOptions ملكية. الحصول على قيمة أو تعيينها لتحديد ما إذا كان سيتم استخدام عارض ملف التعريف GDI أو Aspose.Words عند الحفظ في EMF.
+linktitle: UseGdiEmfRenderer
+articleTitle: UseGdiEmfRenderer
+second_title: Aspose.Words لـ .NET
+description: ImageSaveOptions UseGdiEmfRenderer ملكية. الحصول على قيمة أو تعيينها لتحديد ما إذا كان سيتم استخدام عارض ملف التعريف GDI أو Aspose.Words عند الحفظ في EMF في C#.
 type: docs
 weight: 190
 url: /ar/net/aspose.words.saving/imagesaveoptions/usegdiemfrenderer/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.saving/imagesaveoptions/usegdiemfrenderer/
 public bool UseGdiEmfRenderer { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 إذا تم تعيينه على`حقيقي` يتم استخدام عارض ملف التعريف GDI+. أي تتم كتابة المحتوى إلى كائن GDI+ graphics ويتم حفظه في ملف التعريف.
 
@@ -26,7 +28,7 @@ public bool UseGdiEmfRenderer { get; set; }
 
 القيمة الافتراضية هي`حقيقي`.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية اختيار العارض عند تحويل مستند إلى .emf.
 
@@ -60,7 +62,5 @@ Document doc = new Document();
 ### أنظر أيضا
 
 * class [ImageSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../imagesaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

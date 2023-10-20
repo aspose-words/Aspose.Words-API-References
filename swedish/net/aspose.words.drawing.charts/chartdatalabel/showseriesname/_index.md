@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabel.ShowSeriesName
-second_title: Aspose.Words för .NET API Referens
-description: ChartDataLabel fast egendom. Returnerar eller ställer in en boolesk för att indikera visningsbeteendet för serienamnet för dataetiketterna i ett diagram. Sann för att visa serienamnetfalsk att gömma. Som standardfalsk .
+linktitle: ShowSeriesName
+articleTitle: ShowSeriesName
+second_title: Aspose.Words för .NET
+description: ChartDataLabel ShowSeriesName fast egendom. Returnerar eller ställer in en boolesk för att indikera visningsbeteendet för serienamnet för dataetiketterna i ett diagram. Sann för att visa serienamnetfalsk att gömma. Som standardfalsk  i C#.
 type: docs
 weight: 140
 url: /sv/net/aspose.words.drawing.charts/chartdatalabel/showseriesname/
@@ -14,7 +16,7 @@ Returnerar eller ställer in en boolesk för att indikera visningsbeteendet för
 public bool ShowSeriesName { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man applicerar etiketter på datapunkter i ett linjediagram.
 
@@ -92,7 +94,5 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
 ### Se även
 
 * class [ChartDataLabel](../)
-* namnutrymme [Aspose.Words.Drawing.Charts](../../chartdatalabel/)
+* namnutrymme [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../../)
-
-

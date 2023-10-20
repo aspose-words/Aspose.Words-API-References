@@ -1,7 +1,9 @@
 ---
 title: VariableCollection.Clear
-second_title: Aspose.Words لمراجع .NET API
-description: VariableCollection طريقة. إزالة كافة العناصر من المجموعة.
+linktitle: Clear
+articleTitle: Clear
+second_title: Aspose.Words لـ .NET
+description: VariableCollection Clear طريقة. إزالة كافة العناصر من المجموعة في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words/variablecollection/clear/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/variablecollection/clear/
 public void Clear()
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع مجموعة متغيرات المستند.
 
@@ -81,7 +83,5 @@ Assert.That(variables, Is.Empty);
 ### أنظر أيضا
 
 * class [VariableCollection](../)
-* مساحة الاسم [Aspose.Words](../../variablecollection/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

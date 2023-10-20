@@ -1,7 +1,9 @@
 ---
 title: VbaProject.CodePage
-second_title: Aspose.Words for .NET API 参考
-description: VbaProject 财产. 获取或设置 VBA 项目的代码页
+linktitle: CodePage
+articleTitle: CodePage
+second_title: 用于 .NET 的 Aspose.Words
+description: VbaProject CodePage 财产. 获取或设置 VBA 项目的代码页 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.vba/vbaproject/codepage/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.vba/vbaproject/codepage/
 public int CodePage { get; set; }
 ```
 
-### 评论
+## 评论
 
 请注意，VBA 是 Unicode 之前的功能，您必须显式设置适当的代码页 以保留区域字符集。
 
-### 例子
+## 例子
 
 演示如何访问文档的 VBA 项目信息。
 
@@ -49,7 +51,5 @@ vbaModules.Remove(vbaModules[2]);
 ### 也可以看看
 
 * class [VbaProject](../)
-* 命名空间 [Aspose.Words.Vba](../../vbaproject/)
+* 命名空间 [Aspose.Words.Vba](../../../aspose.words.vba/)
 * 部件 [Aspose.Words](../../../)
-
-

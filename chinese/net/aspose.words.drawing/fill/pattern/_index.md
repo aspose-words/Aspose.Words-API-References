@@ -1,9 +1,11 @@
 ---
 title: Fill.Pattern
-second_title: Aspose.Words for .NET API 参考
-description: Fill 财产. 获得PatternType用于填充.
+linktitle: Pattern
+articleTitle: Pattern
+second_title: 用于 .NET 的 Aspose.Words
+description: Fill Pattern 财产. 获得PatternType用于填充 在 C#.
 type: docs
-weight: 160
+weight: 150
 url: /zh/net/aspose.words.drawing/fill/pattern/
 ---
 ## Fill.Pattern property
@@ -18,7 +20,5 @@ public PatternType Pattern { get; }
 
 * enum [PatternType](../../patterntype/)
 * class [Fill](../)
-* 命名空间 [Aspose.Words.Drawing](../../fill/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

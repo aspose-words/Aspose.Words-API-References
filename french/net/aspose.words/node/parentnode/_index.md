@@ -1,7 +1,9 @@
 ---
 title: Node.ParentNode
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Node propriété. Obtient le parent immédiat de ce nœud.
+linktitle: ParentNode
+articleTitle: ParentNode
+second_title: Aspose.Words pour .NET
+description: Node ParentNode propriété. Obtient le parent immédiat de ce nœud en C#.
 type: docs
 weight: 60
 url: /fr/net/aspose.words/node/parentnode/
@@ -14,11 +16,11 @@ Obtient le parent immédiat de ce nœud.
 public CompositeNode ParentNode { get; }
 ```
 
-### Remarques
+## Remarques
 
 Si un nœud vient d'être créé et n'est pas encore ajouté à l'arborescence, ou s'il a été supprimé de l'arborescence, le parent est`nul`.
 
-### Exemples
+## Exemples
 
 Montre comment accéder au nœud parent d'un nœud.
 
@@ -69,7 +71,5 @@ Assert.AreEqual("Hello world!", doc.GetText().Trim());
 
 * class [CompositeNode](../../compositenode/)
 * class [Node](../)
-* espace de noms [Aspose.Words](../../node/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTagRangeStart.SdtType
-second_title: Aspose.Words för .NET API Referens
-description: StructuredDocumentTagRangeStart fast egendom. Får typ av denna strukturerade dokumenttagg.
+linktitle: SdtType
+articleTitle: SdtType
+second_title: Aspose.Words för .NET
+description: StructuredDocumentTagRangeStart SdtType fast egendom. Får typ av denna strukturerade dokumenttagg i C#.
 type: docs
 weight: 140
 url: /sv/net/aspose.words.markup/structureddocumenttagrangestart/sdttype/
@@ -14,7 +16,7 @@ Får typ av denna strukturerade dokumenttagg.
 public SdtType SdtType { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du får egenskaperna för strukturerade dokumenttaggar med flera sektioner.
 
@@ -50,7 +52,5 @@ Console.WriteLine($"\t|NodeType: {rangeEndTag.NodeType}");
 
 * enum [SdtType](../../sdttype/)
 * class [StructuredDocumentTagRangeStart](../)
-* namnutrymme [Aspose.Words.Markup](../../structureddocumenttagrangestart/)
+* namnutrymme [Aspose.Words.Markup](../../../aspose.words.markup/)
 * hopsättning [Aspose.Words](../../../)
-
-

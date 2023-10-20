@@ -1,7 +1,9 @@
 ---
 title: FontSavingArgs.OriginalFileName
-second_title: Aspose.Words for .NET API 参考
-description: FontSavingArgs 财产. 获取带有扩展名的原始字体文件名
+linktitle: OriginalFileName
+articleTitle: OriginalFileName
+second_title: 用于 .NET 的 Aspose.Words
+description: FontSavingArgs OriginalFileName 财产. 获取带有扩展名的原始字体文件名 在 C#.
 type: docs
 weight: 100
 url: /zh/net/aspose.words.saving/fontsavingargs/originalfilename/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.saving/fontsavingargs/originalfilename/
 public string OriginalFileName { get; }
 ```
 
-### 评论
+## 评论
 
 该属性包含当前字体的原始文件名（如果已知）。否则它可以是空字符串。
 
-### 例子
+## 例子
 
 演示如何定义保存为 HTML 时导出字体的自定义逻辑。
 
@@ -78,7 +80,5 @@ public class HandleFontSaving : IFontSavingCallback
 ### 也可以看看
 
 * class [FontSavingArgs](../)
-* 命名空间 [Aspose.Words.Saving](../../fontsavingargs/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

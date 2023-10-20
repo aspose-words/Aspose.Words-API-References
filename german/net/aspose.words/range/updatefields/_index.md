@@ -1,7 +1,9 @@
 ---
 title: Range.UpdateFields
-second_title: Aspose.Words für .NET-API-Referenz
-description: Range methode. Aktualisiert die Werte von Dokumentfeldern in diesem Bereich.
+linktitle: UpdateFields
+articleTitle: UpdateFields
+second_title: Aspose.Words für .NET
+description: Range UpdateFields methode. Aktualisiert die Werte von Dokumentfeldern in diesem Bereich in C#.
 type: docs
 weight: 120
 url: /de/net/aspose.words/range/updatefields/
@@ -14,7 +16,7 @@ Aktualisiert die Werte von Dokumentfeldern in diesem Bereich.
 public void UpdateFields()
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Wenn Sie ein Dokument öffnen, ändern und dann speichern, aktualisiert Aspose.Words die Felder nicht automatisch, sondern behält sie intakt. Daher möchten Sie diese Methode normalerweise vor dem Speichern aufrufen, wenn Sie das Dokument programmgesteuert geändert haben und dies sicherstellen möchten Die richtigen (berechneten) Feldwerte werden im gespeicherten Dokument angezeigt.
 
@@ -26,7 +28,7 @@ Diese Methode aktualisiert keine Felder, die sich auf die Seitenlayout-Algorithm
 
 Um Felder im gesamten Dokument zu aktualisieren, verwenden Sie[`UpdateFields`](../../document/updatefields/).
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie alle Felder in einem Bereich aktualisiert werden.
 
@@ -55,7 +57,5 @@ Assert.AreEqual(string.Empty, doc.Range.Fields[1].Result);
 ### Siehe auch
 
 * class [Range](../)
-* namensraum [Aspose.Words](../../range/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

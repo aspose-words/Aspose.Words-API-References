@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.CurrentParagraph
-second_title: Referencia de API de Aspose.Words para .NET
-description: DocumentBuilder propiedad. Obtiene el párrafo actualmente seleccionado en esteDocumentBuilder .
+linktitle: CurrentParagraph
+articleTitle: CurrentParagraph
+second_title: Aspose.Words para .NET
+description: DocumentBuilder CurrentParagraph propiedad. Obtiene el párrafo actualmente seleccionado en esteDocumentBuilder  en C#.
 type: docs
 weight: 50
 url: /es/net/aspose.words/documentbuilder/currentparagraph/
@@ -14,11 +16,11 @@ Obtiene el párrafo actualmente seleccionado en este[`DocumentBuilder`](../) .
 public Paragraph CurrentParagraph { get; }
 ```
 
-### Observaciones
+## Observaciones
 
 [`CurrentNode`](../currentnode/)
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo mover el cursor de un generador de documentos a diferentes nodos de un documento.
 
@@ -73,7 +75,5 @@ Assert.IsTrue(builder.IsAtStartOfParagraph);
 
 * class [Paragraph](../../paragraph/)
 * class [DocumentBuilder](../)
-* espacio de nombres [Aspose.Words](../../documentbuilder/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class CleanupOptions
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.CleanupOptions сорт. Позволяет указать параметры очистки документа.
+title: CleanupOptions Class
+linktitle: CleanupOptions
+articleTitle: CleanupOptions
+second_title: Aspose.Words для .NET
+description: Aspose.Words.CleanupOptions сорт. Позволяет указать параметры очистки документа на С#.
 type: docs
 weight: 210
 url: /ru/net/aspose.words/cleanupoptions/
@@ -31,7 +33,7 @@ public class CleanupOptions
 | [UnusedLists](../../aspose.words/cleanupoptions/unusedlists/) { get; set; } | Указывает, следует ли удалять из документа неиспользуемый список и определения списков. Значение по умолчанию:`истинный` . |
 | [UnusedStyles](../../aspose.words/cleanupoptions/unusedstyles/) { get; set; } | Указывает, следует ли удалять неиспользуемые стили из документа. Значение по умолчанию:`истинный` . |
 
-### Примеры
+## Примеры
 
 Показывает, как удалить из документа все неиспользуемые пользовательские стили.
 
@@ -81,5 +83,3 @@ Assert.AreEqual(2, doc.Styles.Count);
 
 * пространство имен [Aspose.Words](../../aspose.words/)
 * сборка [Aspose.Words](../../)
-
-

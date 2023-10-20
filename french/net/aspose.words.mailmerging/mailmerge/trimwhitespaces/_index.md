@@ -1,7 +1,9 @@
 ---
 title: MailMerge.TrimWhitespaces
-second_title: Référence de l'API Aspose.Words pour .NET
-description: MailMerge propriété. Obtient ou définit une valeur indiquant si les espaces de fin et de début sont supprimés des valeurs de publipostage.
+linktitle: TrimWhitespaces
+articleTitle: TrimWhitespaces
+second_title: Aspose.Words pour .NET
+description: MailMerge TrimWhitespaces propriété. Obtient ou définit une valeur indiquant si les espaces de fin et de début sont supprimés des valeurs de publipostage en C#.
 type: docs
 weight: 130
 url: /fr/net/aspose.words.mailmerging/mailmerge/trimwhitespaces/
@@ -14,11 +16,11 @@ Obtient ou définit une valeur indiquant si les espaces de fin et de début sont
 public bool TrimWhitespaces { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 La valeur par défaut est`vrai` .
 
-### Exemples
+## Exemples
 
 Montre comment supprimer les espaces des valeurs d’une source de données lors de l’exécution d’un publipostage.
 
@@ -37,7 +39,5 @@ Assert.AreEqual(trimWhitespaces ? "hello world!\f" : "\t hello world! \f", doc.G
 ### Voir également
 
 * class [MailMerge](../)
-* espace de noms [Aspose.Words.MailMerging](../../mailmerge/)
+* espace de noms [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * Assemblée [Aspose.Words](../../../)
-
-

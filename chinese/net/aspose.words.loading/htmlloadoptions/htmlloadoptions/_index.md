@@ -1,7 +1,9 @@
 ---
-title: HtmlLoadOptions.HtmlLoadOptions
-second_title: Aspose.Words for .NET API 参考
-description: HtmlLoadOptions 构造函数. 使用默认值初始化此类的新实例
+title: HtmlLoadOptions
+linktitle: HtmlLoadOptions
+articleTitle: HtmlLoadOptions
+second_title: 用于 .NET 的 Aspose.Words
+description: HtmlLoadOptions 构造函数. 使用默认值初始化此类的新实例 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.loading/htmlloadoptions/htmlloadoptions/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.loading/htmlloadoptions/htmlloadoptions/
 public HtmlLoadOptions()
 ```
 
-### 例子
+## 例子
 
 演示如何在加载 HTML 文档时支持条件注释。
 
@@ -39,12 +41,12 @@ else
 ### 也可以看看
 
 * class [HtmlLoadOptions](../)
-* 命名空间 [Aspose.Words.Loading](../../htmlloadoptions/)
+* 命名空间 [Aspose.Words.Loading](../../../aspose.words.loading/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## HtmlLoadOptions(string) {#constructor_2}
+## HtmlLoadOptions(*string*) {#constructor_2}
 
 使用指定的密码初始化此类的新实例以加载加密文档的快捷方式。
 
@@ -56,7 +58,7 @@ public HtmlLoadOptions(string password)
 | --- | --- | --- |
 | password | String | 打开加密文档的密码。可`无效的`或空字符串。 |
 
-### 例子
+## 例子
 
 演示如何加密 Html 文档，然后使用密码打开它。
 
@@ -89,12 +91,12 @@ Assert.AreEqual("Test encrypted document.", doc.GetText().Trim());
 ### 也可以看看
 
 * class [HtmlLoadOptions](../)
-* 命名空间 [Aspose.Words.Loading](../../htmlloadoptions/)
+* 命名空间 [Aspose.Words.Loading](../../../aspose.words.loading/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## HtmlLoadOptions(LoadFormat, string, string) {#constructor_1}
+## HtmlLoadOptions(*[LoadFormat](../../../aspose.words/loadformat/), string, string*) {#constructor_1}
 
 初始化此类新实例并将属性设置为指定值的快捷方式。
 
@@ -108,7 +110,7 @@ public HtmlLoadOptions(LoadFormat loadFormat, string password, string baseUri)
 | password | String | 打开加密文档的密码。可`无效的`或空字符串。 |
 | baseUri | String | 将用于将相对 URI 解析为绝对 URI 的字符串。可`无效的`或空字符串。 |
 
-### 例子
+## 例子
 
 演示如何在打开 html 文档时指定基本 URI。
 
@@ -134,7 +136,5 @@ doc.Save(ArtifactsDir + "HtmlLoadOptions.BaseUri.docx");
 
 * enum [LoadFormat](../../../aspose.words/loadformat/)
 * class [HtmlLoadOptions](../)
-* 命名空间 [Aspose.Words.Loading](../../htmlloadoptions/)
+* 命名空间 [Aspose.Words.Loading](../../../aspose.words.loading/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FontInfoCollection.GetEnumerator
-second_title: Aspose.Words for .NET API 参考
-description: FontInfoCollection 方法. 返回一个枚举器对象可用于迭代集合中的所有项目
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: 用于 .NET 的 Aspose.Words
+description: FontInfoCollection GetEnumerator 方法. 返回一个枚举器对象可用于迭代集合中的所有项目 在 C#.
 type: docs
 weight: 70
 url: /zh/net/aspose.words.fonts/fontinfocollection/getenumerator/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fonts/fontinfocollection/getenumerator/
 public IEnumerator<FontInfo> GetEnumerator()
 ```
 
-### 例子
+## 例子
 
 演示如何访问和打印文档中每种字体的详细信息。
 
@@ -54,7 +56,5 @@ while (fontCollectionEnumerator.MoveNext())
 
 * class [FontInfo](../../fontinfo/)
 * class [FontInfoCollection](../)
-* 命名空间 [Aspose.Words.Fonts](../../fontinfocollection/)
+* 命名空间 [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldSkipIf.ComparisonOperator
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldSkipIf propiedad. Obtiene o establece el operador de comparación.
+linktitle: ComparisonOperator
+articleTitle: ComparisonOperator
+second_title: Aspose.Words para .NET
+description: FieldSkipIf ComparisonOperator propiedad. Obtiene o establece el operador de comparación en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words.fields/fieldskipif/comparisonoperator/
@@ -14,7 +16,7 @@ Obtiene o establece el operador de comparación.
 public string ComparisonOperator { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo omitir páginas en una combinación de correspondencia usando el campo SKIPIF.
 
@@ -107,7 +109,5 @@ doc.Save(ArtifactsDir + "Field.MERGEREC.MERGESEQ.docx");
 ### Ver también
 
 * class [FieldSkipIf](../)
-* espacio de nombres [Aspose.Words.Fields](../../fieldskipif/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

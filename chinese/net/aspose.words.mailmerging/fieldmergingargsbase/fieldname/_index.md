@@ -1,7 +1,9 @@
 ---
 title: FieldMergingArgsBase.FieldName
-second_title: Aspose.Words for .NET API 参考
-description: FieldMergingArgsBase 财产. 获取数据源中合并字段的名称
+linktitle: FieldName
+articleTitle: FieldName
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldMergingArgsBase FieldName 财产. 获取数据源中合并字段的名称 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.mailmerging/fieldmergingargsbase/fieldname/
@@ -14,13 +16,13 @@ url: /zh/net/aspose.words.mailmerging/fieldmergingargsbase/fieldname/
 public string FieldName { get; }
 ```
 
-### 评论
+## 评论
 
 如果您有从文档字段名称到不同数据源字段名称 的映射，那么这就是映射的字段名称。
 
 如果您指定了字段名称前缀，例如文档中的“Image:MyFieldName”， 那么`FieldName`返回不带前缀的字段名称，即“MyFieldName”。
 
-### 例子
+## 例子
 
 演示如何在邮件合并期间将复选框表单字段作为合并数据插入到 MERGEFIELD 中。
 
@@ -106,7 +108,5 @@ private static DataTable GetStudentCourseDataTable()
 ### 也可以看看
 
 * class [FieldMergingArgsBase](../)
-* 命名空间 [Aspose.Words.MailMerging](../../fieldmergingargsbase/)
+* 命名空间 [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * 部件 [Aspose.Words](../../../)
-
-

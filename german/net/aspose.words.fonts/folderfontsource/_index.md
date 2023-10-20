@@ -1,7 +1,9 @@
 ---
-title: Class FolderFontSource
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Fonts.FolderFontSource klas. Stellt den Ordner dar der TrueTypeSchriftartendateien enthält.
+title: FolderFontSource Class
+linktitle: FolderFontSource
+articleTitle: FolderFontSource
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Fonts.FolderFontSource klas. Stellt den Ordner dar der TrueTypeSchriftartendateien enthält in C#.
 type: docs
 weight: 2880
 url: /de/net/aspose.words.fonts/folderfontsource/
@@ -20,8 +22,8 @@ public class FolderFontSource : FontSourceBase
 
 | Name | Beschreibung |
 | --- | --- |
-| [FolderFontSource](folderfontsource/#constructor)(string, bool) | Ctor. |
-| [FolderFontSource](folderfontsource/#constructor_1)(string, bool, int) | Ctor. |
+| [FolderFontSource](folderfontsource/#constructor)(*string, bool*) | Ctor. |
+| [FolderFontSource](folderfontsource/#constructor_1)(*string, bool, int*) | Ctor. |
 
 ## Eigenschaften
 
@@ -39,7 +41,7 @@ public class FolderFontSource : FontSourceBase
 | --- | --- |
 | [GetAvailableFonts](../../aspose.words.fonts/fontsourcebase/getavailablefonts/)() | Gibt eine Liste der über diese Quelle verfügbaren Schriftarten zurück. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein lokaler Systemordner, der Schriftarten enthält, als Schriftartenquelle verwendet wird.
 
@@ -62,5 +64,3 @@ Assert.AreEqual(1, folderFontSource.Priority);
 * class [FontSourceBase](../fontsourcebase/)
 * namensraum [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * Montage [Aspose.Words](../../)
-
-

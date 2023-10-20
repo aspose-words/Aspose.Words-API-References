@@ -1,7 +1,9 @@
 ---
-title: Enum ConditionalStyleType
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.ConditionalStyleType перечисление. Представляет возможные области таблицы для которых в стиле таблицы может быть определено условное форматирование.
+title: ConditionalStyleType Enum
+linktitle: ConditionalStyleType
+articleTitle: ConditionalStyleType
+second_title: Aspose.Words для .NET
+description: Aspose.Words.ConditionalStyleType перечисление. Представляет возможные области таблицы для которых в стиле таблицы может быть определено условное форматирование на С#.
 type: docs
 weight: 330
 url: /ru/net/aspose.words/conditionalstyletype/
@@ -31,7 +33,7 @@ public enum ConditionalStyleType
 | BottomLeftCell | `10` | Определяет форматирование нижней левой ячейки таблицы. |
 | BottomRightCell | `11` | Определяет форматирование нижней правой ячейки таблицы. |
 
-### Примеры
+## Примеры
 
 Показывает, как работать с определенными стилями областей таблицы.
 
@@ -102,5 +104,3 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 
 * пространство имен [Aspose.Words](../../aspose.words/)
 * сборка [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: FieldMergeRec.FieldMergeRec
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldMergeRec строитель. Конструктор по умолчанию.
+title: FieldMergeRec
+linktitle: FieldMergeRec
+articleTitle: FieldMergeRec
+second_title: Aspose.Words для .NET
+description: FieldMergeRec строитель. Конструктор по умолчанию на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fields/fieldmergerec/fieldmergerec/
@@ -17,7 +19,5 @@ public FieldMergeRec()
 ### Смотрите также
 
 * class [FieldMergeRec](../)
-* пространство имен [Aspose.Words.Fields](../../fieldmergerec/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

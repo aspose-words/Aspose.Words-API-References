@@ -1,7 +1,9 @@
 ---
 title: TxtSaveOptions.SaveFormat
-second_title: Справочник по API Aspose.Words для .NET
-description: TxtSaveOptions свойство. Указывает формат в котором документ будет сохранен если используется этот объект параметров сохранения. Может быть толькоText .
+linktitle: SaveFormat
+articleTitle: SaveFormat
+second_title: Aspose.Words для .NET
+description: TxtSaveOptions SaveFormat свойство. Указывает формат в котором документ будет сохранен если используется этот объект параметров сохранения. Может быть толькоText  на С#.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.saving/txtsaveoptions/saveformat/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.saving/txtsaveoptions/saveformat/
 public override SaveFormat SaveFormat { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как сохранить документ .txt с настраиваемым разрывом абзаца.
 
@@ -48,7 +50,5 @@ Assert.AreEqual("Paragraph 1. End of paragraph.\n\n\t" +
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
 * class [TxtSaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../txtsaveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

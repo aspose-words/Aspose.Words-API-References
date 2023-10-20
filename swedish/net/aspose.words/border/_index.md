@@ -1,7 +1,9 @@
 ---
-title: Class Border
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Border klass. Representerar en kant av ett objekt.
+title: Border Class
+linktitle: Border
+articleTitle: Border
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Border klass. Representerar en kant av ett objekt i C#.
 type: docs
 weight: 80
 url: /sv/net/aspose.words/border/
@@ -34,15 +36,15 @@ public class Border : InternableComplexAttr
 | namn | Beskrivning |
 | --- | --- |
 | [ClearFormatting](../../aspose.words/border/clearformatting/)() | Återställer gränsegenskaper till standardvärden. |
-| [Equals](../../aspose.words/border/equals/#equals)(Border) | Bestämmer om den angivna gränsen är lika i värde med den aktuella gränsen. |
-| override [Equals](../../aspose.words/border/equals/#equals_1)(object) | Bestämmer om det angivna objektet har samma värde som det aktuella objektet. |
+| [Equals](../../aspose.words/border/equals/#equals)(*Border*) | Bestämmer om den angivna gränsen är lika i värde med den aktuella gränsen. |
+| override [Equals](../../aspose.words/border/equals/#equals_1)(*object*) | Bestämmer om det angivna objektet har samma värde som det aktuella objektet. |
 | override [GetHashCode](../../aspose.words/border/gethashcode/)() | Fungerar som en hashfunktion för denna typ. |
 
-### Anmärkningar
+## Anmärkningar
 
 Kanter kan appliceras på olika dokumentelement inklusive stycke, textkörning inuti ett stycke eller en tabellcell.
 
-### Exempel
+## Exempel
 
 Visar hur man infogar en sträng omgiven av en kant i ett dokument.
 
@@ -82,5 +84,3 @@ doc.Save(ArtifactsDir + "Border.ParagraphTopBorder.docx");
 * class [InternableComplexAttr](../internablecomplexattr/)
 * namnutrymme [Aspose.Words](../../aspose.words/)
 * hopsättning [Aspose.Words](../../)
-
-

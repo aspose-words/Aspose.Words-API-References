@@ -1,7 +1,9 @@
 ---
 title: Odso.FieldMapDatas
-second_title: Aspose.Words per .NET API Reference
-description: Odso proprietà. Ottiene o imposta una raccolta di oggetti che specificano il modo in cui le colonne dellorigine dati esterna vengono mappate ai nomi dei campi di unione predefiniti nel documento. Questo oggetto non viene mainullo .
+linktitle: FieldMapDatas
+articleTitle: FieldMapDatas
+second_title: Aspose.Words per .NET
+description: Odso FieldMapDatas proprietà. Ottiene o imposta una raccolta di oggetti che specificano il modo in cui le colonne dellorigine dati esterna vengono mappate ai nomi dei campi di unione predefiniti nel documento. Questo oggetto non viene mainullo  in C#.
 type: docs
 weight: 50
 url: /it/net/aspose.words.settings/odso/fieldmapdatas/
@@ -14,7 +16,7 @@ Ottiene o imposta una raccolta di oggetti che specificano il modo in cui le colo
 public OdsoFieldMapDataCollection FieldMapDatas { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come accedere alla raccolta di dati che mappa le colonne dell'origine dati per unire i campi.
 
@@ -58,7 +60,5 @@ Assert.AreEqual(0, dataCollection.Count);
 
 * class [OdsoFieldMapDataCollection](../../odsofieldmapdatacollection/)
 * class [Odso](../)
-* spazio dei nomi [Aspose.Words.Settings](../../odso/)
+* spazio dei nomi [Aspose.Words.Settings](../../../aspose.words.settings/)
 * assemblea [Aspose.Words](../../../)
-
-

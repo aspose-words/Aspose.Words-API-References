@@ -1,9 +1,11 @@
 ---
 title: Section.DeleteHeaderFooterShapes
-second_title: Aspose.Words für .NET-API-Referenz
-description: Section methode. Löscht alle Formen Zeichenobjekte aus den Kopf und Fußzeilen dieses Abschnitts.
+linktitle: DeleteHeaderFooterShapes
+articleTitle: DeleteHeaderFooterShapes
+second_title: Aspose.Words für .NET
+description: Section DeleteHeaderFooterShapes methode. Löscht alle Formen Zeichenobjekte aus den Kopf und Fußzeilen dieses Abschnitts in C#.
 type: docs
-weight: 140
+weight: 120
 url: /de/net/aspose.words/section/deleteheaderfootershapes/
 ---
 ## Section.DeleteHeaderFooterShapes method
@@ -14,7 +16,7 @@ Löscht alle Formen (Zeichenobjekte) aus den Kopf- und Fußzeilen dieses Abschni
 public void DeleteHeaderFooterShapes()
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie alle Formen aus allen Kopf- und Fußzeilen in einem Abschnitt entfernt werden.
 
@@ -43,7 +45,5 @@ Assert.AreEqual(0, doc.FirstSection.HeadersFooters[HeaderFooterType.FooterPrimar
 ### Siehe auch
 
 * class [Section](../)
-* namensraum [Aspose.Words](../../section/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

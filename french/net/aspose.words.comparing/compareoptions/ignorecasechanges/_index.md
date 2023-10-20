@@ -1,7 +1,9 @@
 ---
 title: CompareOptions.IgnoreCaseChanges
-second_title: Référence de l'API Aspose.Words pour .NET
-description: CompareOptions propriété. True indique que la comparaison des documents nest pas sensible à la casse. Par défaut la comparaison est sensible à la casse.
+linktitle: IgnoreCaseChanges
+articleTitle: IgnoreCaseChanges
+second_title: Aspose.Words pour .NET
+description: CompareOptions IgnoreCaseChanges propriété. True indique que la comparaison des documents nest pas sensible à la casse. Par défaut la comparaison est sensible à la casse en C#.
 type: docs
 weight: 40
 url: /fr/net/aspose.words.comparing/compareoptions/ignorecasechanges/
@@ -14,7 +16,7 @@ True indique que la comparaison des documents n'est pas sensible à la casse. Pa
 public bool IgnoreCaseChanges { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment filtrer des types spécifiques d’éléments de document lors d’une comparaison.
 
@@ -88,7 +90,5 @@ docOriginal.Save(ArtifactsDir + "Document.CompareOptions.docx");
 ### Voir également
 
 * class [CompareOptions](../)
-* espace de noms [Aspose.Words.Comparing](../../compareoptions/)
+* espace de noms [Aspose.Words.Comparing](../../../aspose.words.comparing/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.Template
-second_title: Aspose.Words for .NET API 参考
-description: BuiltInDocumentProperties 财产. 获取或设置文档模板的信息名称
+linktitle: Template
+articleTitle: Template
+second_title: 用于 .NET 的 Aspose.Words
+description: BuiltInDocumentProperties Template 财产. 获取或设置文档模板的信息名称 在 C#.
 type: docs
 weight: 270
 url: /zh/net/aspose.words.properties/builtindocumentproperties/template/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.properties/builtindocumentproperties/template/
 public string Template { get; set; }
 ```
 
-### 评论
+## 评论
 
 在 Microsoft Word 中，此属性仅供参考，并且 通常仅包含模板的文件名，不包含路径。
 
@@ -22,7 +24,7 @@ public string Template { get; set; }
 
 要获取或设置附加模板的实际名称，请使用 the [`AttachedTemplate`](../../../aspose.words/document/attachedtemplate/)财产。
 
-### 例子
+## 例子
 
 展示如何使用“来源”类别中的文档属性。
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "DocumentProperties.Origin.docx");
 ### 也可以看看
 
 * class [BuiltInDocumentProperties](../)
-* 命名空间 [Aspose.Words.Properties](../../builtindocumentproperties/)
+* 命名空间 [Aspose.Words.Properties](../../../aspose.words.properties/)
 * 部件 [Aspose.Words](../../../)
-
-

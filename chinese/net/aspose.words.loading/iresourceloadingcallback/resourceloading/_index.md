@@ -1,7 +1,9 @@
 ---
 title: IResourceLoadingCallback.ResourceLoading
-second_title: Aspose.Words for .NET API 参考
-description: IResourceLoadingCallback 方法. Aspose.Words 加载任何外部资源时调用
+linktitle: ResourceLoading
+articleTitle: ResourceLoading
+second_title: 用于 .NET 的 Aspose.Words
+description: IResourceLoadingCallback ResourceLoading 方法. Aspose.Words 加载任何外部资源时调用 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.loading/iresourceloadingcallback/resourceloading/
@@ -14,7 +16,7 @@ Aspose.Words 加载任何外部资源时调用。
 public ResourceLoadingAction ResourceLoading(ResourceLoadingArgs args)
 ```
 
-### 例子
+## 例子
 
 演示如何自定义将外部资源加载到文档中的过程。
 
@@ -79,7 +81,5 @@ private class ImageNameHandler : IResourceLoadingCallback
 * enum [ResourceLoadingAction](../../resourceloadingaction/)
 * class [ResourceLoadingArgs](../../resourceloadingargs/)
 * interface [IResourceLoadingCallback](../)
-* 命名空间 [Aspose.Words.Loading](../../iresourceloadingcallback/)
+* 命名空间 [Aspose.Words.Loading](../../../aspose.words.loading/)
 * 部件 [Aspose.Words](../../../)
-
-

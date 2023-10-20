@@ -1,7 +1,9 @@
 ---
-title: Enum ChartSeriesType
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Drawing.Charts.ChartSeriesType uppräkning. Anger en typ av en diagramserie.
+title: ChartSeriesType Enum
+linktitle: ChartSeriesType
+articleTitle: ChartSeriesType
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Drawing.Charts.ChartSeriesType uppräkning. Anger en typ av en diagramserie i C#.
 type: docs
 weight: 800
 url: /sv/net/aspose.words.drawing.charts/chartseriestype/
@@ -63,7 +65,7 @@ public enum ChartSeriesType
 | Funnel | `42` | Representerar en trattdiagramserie. |
 | RegionMap | `43` | Representerar en områdeskartserie. |
 
-### Exempel
+## Exempel
 
 Visar hur man
 
@@ -90,5 +92,3 @@ doc.Save(ArtifactsDir + "Charts.RemoveSpecificChartSeries.docx");
 
 * namnutrymme [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../)
-
-

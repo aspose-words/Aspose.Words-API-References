@@ -1,7 +1,9 @@
 ---
 title: Paragraph.ParagraphFormat
-second_title: Справочник по API Aspose.Words для .NET
-description: Paragraph свойство. Предоставляет доступ к свойствам форматирования абзаца.
+linktitle: ParagraphFormat
+articleTitle: ParagraphFormat
+second_title: Aspose.Words для .NET
+description: Paragraph ParagraphFormat свойство. Предоставляет доступ к свойствам форматирования абзаца на С#.
 type: docs
 weight: 190
 url: /ru/net/aspose.words/paragraph/paragraphformat/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/paragraph/paragraphformat/
 public ParagraphFormat ParagraphFormat { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как вручную создать документ Aspose.Words.
 
@@ -65,7 +67,5 @@ doc.Save(ArtifactsDir + "Section.CreateManually.docx");
 
 * class [ParagraphFormat](../../paragraphformat/)
 * class [Paragraph](../)
-* пространство имен [Aspose.Words](../../paragraph/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

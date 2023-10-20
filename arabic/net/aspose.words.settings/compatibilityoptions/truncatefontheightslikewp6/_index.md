@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.TruncateFontHeightsLikeWP6
-second_title: Aspose.Words لمراجع .NET API
-description: CompatibilityOptions ملكية. محاكاة حساب ارتفاع الخط في WordPerfect 6.x.
+linktitle: TruncateFontHeightsLikeWP6
+articleTitle: TruncateFontHeightsLikeWP6
+second_title: Aspose.Words لـ .NET
+description: CompatibilityOptions TruncateFontHeightsLikeWP6 ملكية. محاكاة حساب ارتفاع الخط في WordPerfect 6.x في C#.
 type: docs
 weight: 560
 url: /ar/net/aspose.words.settings/compatibilityoptions/truncatefontheightslikewp6/
@@ -17,7 +19,5 @@ public bool TruncateFontHeightsLikeWP6 { get; set; }
 ### أنظر أيضا
 
 * class [CompatibilityOptions](../)
-* مساحة الاسم [Aspose.Words.Settings](../../compatibilityoptions/)
+* مساحة الاسم [Aspose.Words.Settings](../../../aspose.words.settings/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: MailMergeSettings.DataSource
-second_title: Référence de l'API Aspose.Words pour .NET
-description: MailMergeSettings propriété. Spécifie le chemin daccès à la source de données de publipostage. La valeur par défaut est une chaîne vide.
+linktitle: DataSource
+articleTitle: DataSource
+second_title: Aspose.Words pour .NET
+description: MailMergeSettings DataSource propriété. Spécifie le chemin daccès à la source de données de publipostage. La valeur par défaut est une chaîne vide en C#.
 type: docs
 weight: 60
 url: /fr/net/aspose.words.settings/mailmergesettings/datasource/
@@ -14,7 +16,7 @@ Spécifie le chemin d'accès à la source de données de publipostage. La valeur
 public string DataSource { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment créer une source de données pour un publipostage à partir d’une source d’en-tête et d’une source de données.
 
@@ -79,7 +81,5 @@ doc.Save(ArtifactsDir + "MailMerge.MailingLabelMerge.docx");
 ### Voir également
 
 * class [MailMergeSettings](../)
-* espace de noms [Aspose.Words.Settings](../../mailmergesettings/)
+* espace de noms [Aspose.Words.Settings](../../../aspose.words.settings/)
 * Assemblée [Aspose.Words](../../../)
-
-

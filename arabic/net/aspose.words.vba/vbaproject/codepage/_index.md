@@ -1,7 +1,9 @@
 ---
 title: VbaProject.CodePage
-second_title: Aspose.Words لمراجع .NET API
-description: VbaProject ملكية. الحصول على أو تعيين صفحة التعليمات البرمجية لمشروع VBA.
+linktitle: CodePage
+articleTitle: CodePage
+second_title: Aspose.Words لـ .NET
+description: VbaProject CodePage ملكية. الحصول على أو تعيين صفحة التعليمات البرمجية لمشروع VBA في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.vba/vbaproject/codepage/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.vba/vbaproject/codepage/
 public int CodePage { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 يرجى ملاحظة أن VBA هو ميزة ما قبل Unicode ويجب عليك تعيين code page المناسب بشكل صريح للحفاظ على مجموعات الأحرف الإقليمية.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الوصول إلى معلومات مشروع VBA الخاص بالمستند.
 
@@ -49,7 +51,5 @@ vbaModules.Remove(vbaModules[2]);
 ### أنظر أيضا
 
 * class [VbaProject](../)
-* مساحة الاسم [Aspose.Words.Vba](../../vbaproject/)
+* مساحة الاسم [Aspose.Words.Vba](../../../aspose.words.vba/)
 * المجسم [Aspose.Words](../../../)
-
-

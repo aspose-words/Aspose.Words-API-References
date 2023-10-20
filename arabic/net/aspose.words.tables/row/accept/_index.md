@@ -1,7 +1,9 @@
 ---
 title: Row.Accept
-second_title: Aspose.Words لمراجع .NET API
-description: Row طريقة. يقبل الزائر.
+linktitle: Accept
+articleTitle: Accept
+second_title: Aspose.Words لـ .NET
+description: Row Accept طريقة. يقبل الزائر في C#.
 type: docs
 weight: 120
 url: /ar/net/aspose.words.tables/row/accept/
@@ -22,7 +24,7 @@ public override bool Accept(DocumentVisitor visitor)
 
 صحيح إذا تمت زيارة جميع العقد؛ كاذبة إذا[`DocumentVisitor`](../../../aspose.words/documentvisitor/) أوقفت العملية قبل زيارة كافة العقد.
 
-### ملاحظات
+## ملاحظات
 
 يعدد هذه العقدة وجميع أبنائها. تستدعي كل عقدة الطريقة المقابلة لها[`DocumentVisitor`](../../../aspose.words/documentvisitor/).
 
@@ -30,7 +32,7 @@ public override bool Accept(DocumentVisitor visitor)
 
 المكالمات[`VisitRowStart`](../../../aspose.words/documentvisitor/visitrowstart/) ، ثم يتصل[`Accept`](../../../aspose.words/node/accept/) لجميع العقد التابعة للقسم والمكالمات[`VisitRowEnd`](../../../aspose.words/documentvisitor/visitrowend/) في النهاية.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية طباعة بنية العقدة لكل جدول في المستند.
 
@@ -194,7 +196,5 @@ public class TableStructurePrinter : DocumentVisitor
 
 * class [DocumentVisitor](../../../aspose.words/documentvisitor/)
 * class [Row](../)
-* مساحة الاسم [Aspose.Words.Tables](../../row/)
+* مساحة الاسم [Aspose.Words.Tables](../../../aspose.words.tables/)
 * المجسم [Aspose.Words](../../../)
-
-

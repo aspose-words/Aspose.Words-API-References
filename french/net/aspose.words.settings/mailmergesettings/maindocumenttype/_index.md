@@ -1,7 +1,9 @@
 ---
 title: MailMergeSettings.MainDocumentType
-second_title: Référence de l'API Aspose.Words pour .NET
-description: MailMergeSettings propriété. Spécifie le type de document principal de publipostage. La valeur par défaut estDefault .
+linktitle: MainDocumentType
+articleTitle: MainDocumentType
+second_title: Aspose.Words pour .NET
+description: MailMergeSettings MainDocumentType propriété. Spécifie le type de document principal de publipostage. La valeur par défaut estDefault  en C#.
 type: docs
 weight: 140
 url: /fr/net/aspose.words.settings/mailmergesettings/maindocumenttype/
@@ -14,11 +16,11 @@ Spécifie le type de document principal de publipostage. La valeur par défaut e
 public MailMergeMainDocumentType MainDocumentType { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 Le document principal est le document qui contient des informations identiques pour chaque version du document fusionné.
 
-### Exemples
+## Exemples
 
 Montre comment exécuter un publipostage avec des données provenant d’un objet source de données Office.
 
@@ -71,7 +73,5 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 
 * enum [MailMergeMainDocumentType](../../mailmergemaindocumenttype/)
 * class [MailMergeSettings](../)
-* espace de noms [Aspose.Words.Settings](../../mailmergesettings/)
+* espace de noms [Aspose.Words.Settings](../../../aspose.words.settings/)
 * Assemblée [Aspose.Words](../../../)
-
-

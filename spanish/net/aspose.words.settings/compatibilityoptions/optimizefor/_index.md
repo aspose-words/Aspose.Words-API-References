@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.OptimizeFor
-second_title: Referencia de API de Aspose.Words para .NET
-description: CompatibilityOptions método. Permite optimizar el contenido del documento así como el comportamiento predeterminado de Aspose.Words para versiones particulares de MS Word.
+linktitle: OptimizeFor
+articleTitle: OptimizeFor
+second_title: Aspose.Words para .NET
+description: CompatibilityOptions OptimizeFor método. Permite optimizar el contenido del documento así como el comportamiento predeterminado de Aspose.Words para versiones particulares de MS Word en C#.
 type: docs
 weight: 720
 url: /es/net/aspose.words.settings/compatibilityoptions/optimizefor/
@@ -16,7 +18,7 @@ Utilice este método para evitar que MS Word muestre la cinta "Modo de compatibi
 public void OptimizeFor(MsWordVersion version)
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo alinear verticalmente el contenido de texto de un cuadro de texto.
 
@@ -130,7 +132,5 @@ private static void PrintCompatibilityOptions(CompatibilityOptions options)
 
 * enum [MsWordVersion](../../mswordversion/)
 * class [CompatibilityOptions](../)
-* espacio de nombres [Aspose.Words.Settings](../../compatibilityoptions/)
+* espacio de nombres [Aspose.Words.Settings](../../../aspose.words.settings/)
 * asamblea [Aspose.Words](../../../)
-
-

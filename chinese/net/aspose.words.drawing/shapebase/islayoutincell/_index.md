@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.IsLayoutInCell
-second_title: Aspose.Words for .NET API 参考
-description: ShapeBase 财产. 获取或设置一个标志指示形状是显示在表格内部还是表格外部
+linktitle: IsLayoutInCell
+articleTitle: IsLayoutInCell
+second_title: 用于 .NET 的 Aspose.Words
+description: ShapeBase IsLayoutInCell 财产. 获取或设置一个标志指示形状是显示在表格内部还是表格外部 在 C#.
 type: docs
 weight: 310
 url: /zh/net/aspose.words.drawing/shapebase/islayoutincell/
@@ -14,13 +16,13 @@ url: /zh/net/aspose.words.drawing/shapebase/islayoutincell/
 public bool IsLayoutInCell { get; set; }
 ```
 
-### 评论
+## 评论
 
 默认值为`真的`。
 
 仅对顶级形状有效，该属性[`WrapType`](../wraptype/)其中设置为 value 除了[`Inline`](../../../aspose.words/inline/)。
 
-### 例子
+## 例子
 
 演示如何确定如何在表格单元格中显示形状。
 
@@ -65,7 +67,5 @@ doc.Save(ArtifactsDir + "Shape.LayoutInTableCell.docx");
 ### 也可以看看
 
 * class [ShapeBase](../)
-* 命名空间 [Aspose.Words.Drawing](../../shapebase/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

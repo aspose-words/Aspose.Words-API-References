@@ -1,7 +1,9 @@
 ---
 title: PhoneticGuide.RubyText
-second_title: Aspose.Words لمراجع .NET API
-description: PhoneticGuide ملكية. الحصول على نص روبي من الدليل الصوتي.
+linktitle: RubyText
+articleTitle: RubyText
+second_title: Aspose.Words لـ .NET
+description: PhoneticGuide RubyText ملكية. الحصول على نص روبي من الدليل الصوتي في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words/phoneticguide/rubytext/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/phoneticguide/rubytext/
 public string RubyText { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يبين كيفية الحصول على خصائص الدليل الصوتي.
 
@@ -31,7 +33,5 @@ Assert.AreEqual("ruby", runs[0].PhoneticGuide.RubyText);
 ### أنظر أيضا
 
 * class [PhoneticGuide](../)
-* مساحة الاسم [Aspose.Words](../../phoneticguide/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

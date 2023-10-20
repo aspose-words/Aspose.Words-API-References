@@ -1,7 +1,9 @@
 ---
 title: StyleCollection.DefaultFont
-second_title: Aspose.Words für .NET-API-Referenz
-description: StyleCollection eigendom. Ruft die Standardtextformatierung des Dokuments ab.
+linktitle: DefaultFont
+articleTitle: DefaultFont
+second_title: Aspose.Words für .NET
+description: StyleCollection DefaultFont eigendom. Ruft die Standardtextformatierung des Dokuments ab in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words/stylecollection/defaultfont/
@@ -14,11 +16,11 @@ Ruft die Standardtextformatierung des Dokuments ab.
 public Font DefaultFont { get; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Beachten Sie, dass dokumentweite Standardeinstellungen in Microsoft Word 2007 eingeführt wurden und in OOXML-Formaten vollständig unterstützt werden (Docx) only. Frühere Dokumentformate unterstützen diese Funktion nur eingeschränkt und es können nur Schriftartnamen gespeichert werden.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man der Stilsammlung eines Dokuments einen Stil hinzufügt.
 
@@ -42,7 +44,5 @@ Assert.AreEqual(15.0, styles["MyStyle"].ParagraphFormat.FirstLineIndent);
 
 * class [Font](../../font/)
 * class [StyleCollection](../)
-* namensraum [Aspose.Words](../../stylecollection/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

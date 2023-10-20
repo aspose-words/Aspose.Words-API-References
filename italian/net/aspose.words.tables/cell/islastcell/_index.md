@@ -1,7 +1,9 @@
 ---
 title: Cell.IsLastCell
-second_title: Aspose.Words per .NET API Reference
-description: Cell proprietà. Vero se questa è lultima cella allinterno di una riga falso altrimenti.
+linktitle: IsLastCell
+articleTitle: IsLastCell
+second_title: Aspose.Words per .NET
+description: Cell IsLastCell proprietà. Vero se questa è lultima cella allinterno di una riga falso altrimenti in C#.
 type: docs
 weight: 50
 url: /it/net/aspose.words.tables/cell/islastcell/
@@ -14,7 +16,7 @@ Vero se questa è l'ultima cella all'interno di una riga; falso altrimenti.
 public bool IsLastCell { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come stampare la struttura dei nodi di ogni tabella in un documento.
 
@@ -177,7 +179,5 @@ public class TableStructurePrinter : DocumentVisitor
 ### Guarda anche
 
 * class [Cell](../)
-* spazio dei nomi [Aspose.Words.Tables](../../cell/)
+* spazio dei nomi [Aspose.Words.Tables](../../../aspose.words.tables/)
 * assemblea [Aspose.Words](../../../)
-
-

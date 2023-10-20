@@ -1,7 +1,9 @@
 ---
 title: PageSavingArgs.PageStream
-second_title: Aspose.Words لمراجع .NET API
-description: PageSavingArgs ملكية. يسمح بتحديد التدفق الذي سيتم حفظ صفحة المستند فيه.
+linktitle: PageStream
+articleTitle: PageStream
+second_title: Aspose.Words لـ .NET
+description: PageSavingArgs PageStream ملكية. يسمح بتحديد التدفق الذي سيتم حفظ صفحة المستند فيه في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.saving/pagesavingargs/pagestream/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.saving/pagesavingargs/pagestream/
 public Stream PageStream { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 تسمح لك هذه الخاصية بحفظ صفحات المستند في التدفقات بدلاً من الملفات.
 
@@ -22,7 +24,7 @@ public Stream PageStream { get; set; }
 
 إذا كان كل من`PageStream` و[`PageFileName`](../pagefilename/) تم تعيينها، ثم سيتم استخدام PageStream.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام رد الاتصال لحفظ مستند إلى HTML صفحة تلو الأخرى.
 
@@ -79,7 +81,5 @@ private class CustomFileNamePageSavingCallback : IPageSavingCallback
 ### أنظر أيضا
 
 * class [PageSavingArgs](../)
-* مساحة الاسم [Aspose.Words.Saving](../../pagesavingargs/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

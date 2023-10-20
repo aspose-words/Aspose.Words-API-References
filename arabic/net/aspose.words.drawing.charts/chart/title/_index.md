@@ -1,7 +1,9 @@
 ---
 title: Chart.Title
-second_title: Aspose.Words لمراجع .NET API
-description: Chart ملكية. يوفر الوصول إلى خصائص عنوان المخطط.
+linktitle: Title
+articleTitle: Title
+second_title: Aspose.Words لـ .NET
+description: Chart Title ملكية. يوفر الوصول إلى خصائص عنوان المخطط في C#.
 type: docs
 weight: 80
 url: /ar/net/aspose.words.drawing.charts/chart/title/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing.charts/chart/title/
 public ChartTitle Title { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج مخطط وتعيين عنوان.
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "Charts.ChartTitle.docx");
 
 * class [ChartTitle](../../charttitle/)
 * class [Chart](../)
-* مساحة الاسم [Aspose.Words.Drawing.Charts](../../chart/)
+* مساحة الاسم [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../../)
-
-

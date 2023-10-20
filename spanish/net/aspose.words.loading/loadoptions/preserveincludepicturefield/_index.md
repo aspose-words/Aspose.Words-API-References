@@ -1,7 +1,9 @@
 ---
 title: LoadOptions.PreserveIncludePictureField
-second_title: Referencia de API de Aspose.Words para .NET
-description: LoadOptions propiedad. Obtiene o establece si se conserva el campo INCLUDEPICTURE al leer formatos de Microsoft Word. El valor predeterminado esFALSO .
+linktitle: PreserveIncludePictureField
+articleTitle: PreserveIncludePictureField
+second_title: Aspose.Words para .NET
+description: LoadOptions PreserveIncludePictureField propiedad. Obtiene o establece si se conserva el campo INCLUDEPICTURE al leer formatos de Microsoft Word. El valor predeterminado esFALSO  en C#.
 type: docs
 weight: 120
 url: /es/net/aspose.words.loading/loadoptions/preserveincludepicturefield/
@@ -14,13 +16,13 @@ Obtiene o establece si se conserva el campo INCLUDEPICTURE al leer formatos de M
 public bool PreserveIncludePictureField { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 De forma predeterminada, el campo INCLUDEPICTURE se convierte en un objeto de forma. Puede anular eso si necesita que se conserve el campo, por ejemplo, si desea actualizarlo mediante programación. Sin embargo, tenga en cuenta que este enfoque no es común para Aspose.Words. Úselo bajo su propio riesgo.
 
 Uno de los posibles casos de uso puede ser utilizar MERGEFIELD como campo secundario para cambiar dinámicamente la ruta de origen de la imagen. En este caso es necesario que INCLUDEPICTURE se conserve en el modelo.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo conservar o descartar los campos INCLUDEPICTURE al cargar un documento.
 
@@ -62,7 +64,5 @@ using (MemoryStream docStream = new MemoryStream())
 ### Ver también
 
 * class [LoadOptions](../)
-* espacio de nombres [Aspose.Words.Loading](../../loadoptions/)
+* espacio de nombres [Aspose.Words.Loading](../../../aspose.words.loading/)
 * asamblea [Aspose.Words](../../../)
-
-

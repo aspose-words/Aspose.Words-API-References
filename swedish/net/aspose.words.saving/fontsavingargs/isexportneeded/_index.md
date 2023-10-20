@@ -1,7 +1,9 @@
 ---
 title: FontSavingArgs.IsExportNeeded
-second_title: Aspose.Words för .NET API Referens
-description: FontSavingArgs fast egendom. Tillåter att ange om det aktuella teckensnittet kommer att exporteras som en teckensnittsresurs. Standard ärSann .
+linktitle: IsExportNeeded
+articleTitle: IsExportNeeded
+second_title: Aspose.Words för .NET
+description: FontSavingArgs IsExportNeeded fast egendom. Tillåter att ange om det aktuella teckensnittet kommer att exporteras som en teckensnittsresurs. Standard ärSann  i C#.
 type: docs
 weight: 60
 url: /sv/net/aspose.words.saving/fontsavingargs/isexportneeded/
@@ -14,7 +16,7 @@ Tillåter att ange om det aktuella teckensnittet kommer att exporteras som en te
 public bool IsExportNeeded { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man definierar anpassad logik för att exportera teckensnitt när man sparar till HTML.
 
@@ -74,7 +76,5 @@ public class HandleFontSaving : IFontSavingCallback
 ### Se även
 
 * class [FontSavingArgs](../)
-* namnutrymme [Aspose.Words.Saving](../../fontsavingargs/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

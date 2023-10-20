@@ -1,7 +1,9 @@
 ---
 title: Table.AllowOverlap
-second_title: Aspose.Words لمراجع .NET API
-description: Table ملكية. يحصل على ما إذا كان الجدول العائم يسمح للكائنات العائمة الأخرى في المستند بتداخل نطاقاته عند عرضها. القيمة الافتراضية هيحقيقي .
+linktitle: AllowOverlap
+articleTitle: AllowOverlap
+second_title: Aspose.Words لـ .NET
+description: Table AllowOverlap ملكية. يحصل على ما إذا كان الجدول العائم يسمح للكائنات العائمة الأخرى في المستند بتداخل نطاقاته عند عرضها. القيمة الافتراضية هيحقيقي  في C#.
 type: docs
 weight: 70
 url: /ar/net/aspose.words.tables/table/allowoverlap/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.tables/table/allowoverlap/
 public bool AllowOverlap { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع خصائص الجداول العائمة.
 
@@ -42,7 +44,5 @@ if (table.TextWrapping == TextWrapping.Around)
 ### أنظر أيضا
 
 * class [Table](../)
-* مساحة الاسم [Aspose.Words.Tables](../../table/)
+* مساحة الاسم [Aspose.Words.Tables](../../../aspose.words.tables/)
 * المجسم [Aspose.Words](../../../)
-
-

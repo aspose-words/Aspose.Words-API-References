@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTagRangeStart.PlaceholderName
-second_title: Référence de l'API Aspose.Words pour .NET
-description: StructuredDocumentTagRangeStart propriété. Obtient ou définit le nom duBuildingBlock contenant du texte despace réservé.
+linktitle: PlaceholderName
+articleTitle: PlaceholderName
+second_title: Aspose.Words pour .NET
+description: StructuredDocumentTagRangeStart PlaceholderName propriété. Obtient ou définit le nom duBuildingBlock contenant du texte despace réservé en C#.
 type: docs
 weight: 120
 url: /fr/net/aspose.words.markup/structureddocumenttagrangestart/placeholdername/
@@ -16,7 +18,7 @@ Obtient ou définit le nom du[`BuildingBlock`](../../../aspose.words.buildingblo
 public string PlaceholderName { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment obtenir les propriétés des balises de documents structurés à plusieurs sections.
 
@@ -51,7 +53,5 @@ Console.WriteLine($"\t|NodeType: {rangeEndTag.NodeType}");
 ### Voir également
 
 * class [StructuredDocumentTagRangeStart](../)
-* espace de noms [Aspose.Words.Markup](../../structureddocumenttagrangestart/)
+* espace de noms [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,12 +1,14 @@
 ---
 title: Document.Save
-second_title: Aspose.Words for .NET API 参考
-description: Document 方法. 将文档保存到文件自动根据扩展名确定保存格式
+linktitle: Save
+articleTitle: Save
+second_title: 用于 .NET 的 Aspose.Words
+description: Document Save 方法. 将文档保存到文件自动根据扩展名确定保存格式 在 C#.
 type: docs
-weight: 720
+weight: 700
 url: /zh/net/aspose.words/document/save/
 ---
-## Save(string) {#save_2}
+## Save(*string*) {#save_2}
 
 将文档保存到文件。自动根据扩展名确定保存格式。
 
@@ -22,7 +24,7 @@ public SaveOutputParameters Save(string fileName)
 
 您可以选择使用的附加信息。
 
-### 例子
+## 例子
 
 演示如何打开文档并将其转换为 .PDF。
 
@@ -52,12 +54,12 @@ pdfDoc.Save(ArtifactsDir + "PDF2Word.ConvertPdfToDocx.docx");
 
 * class [SaveOutputParameters](../../../aspose.words.saving/saveoutputparameters/)
 * class [Document](../)
-* 命名空间 [Aspose.Words](../../document/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## Save(string, SaveFormat) {#save_3}
+## Save(*string, [SaveFormat](../../saveformat/)*) {#save_3}
 
 将文档保存到指定格式的文件中。
 
@@ -74,7 +76,7 @@ public SaveOutputParameters Save(string fileName, SaveFormat saveFormat)
 
 您可以选择使用的附加信息。
 
-### 例子
+## 例子
 
 演示如何从 DOCX 转换为 HTML 格式。
 
@@ -89,12 +91,12 @@ doc.Save(ArtifactsDir + "Document.ConvertToHtml.html", SaveFormat.Html);
 * class [SaveOutputParameters](../../../aspose.words.saving/saveoutputparameters/)
 * enum [SaveFormat](../../saveformat/)
 * class [Document](../)
-* 命名空间 [Aspose.Words](../../document/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## Save(string, SaveOptions) {#save_4}
+## Save(*string, [SaveOptions](../../../aspose.words.saving/saveoptions/)*) {#save_4}
 
 使用指定的保存选项将文档保存到文件。
 
@@ -111,7 +113,7 @@ public SaveOutputParameters Save(string fileName, SaveOptions saveOptions)
 
 您可以选择使用的附加信息。
 
-### 例子
+## 例子
 
 演示如何使用 SaveOptions 提高渲染文档的质量。
 
@@ -296,12 +298,12 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.ExpandedOutlineLevels.pdf", options);
 * class [SaveOutputParameters](../../../aspose.words.saving/saveoutputparameters/)
 * class [SaveOptions](../../../aspose.words.saving/saveoptions/)
 * class [Document](../)
-* 命名空间 [Aspose.Words](../../document/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## Save(Stream, SaveFormat) {#save}
+## Save(*Stream, [SaveFormat](../../saveformat/)*) {#save}
 
 使用指定格式将文档保存到流。
 
@@ -318,7 +320,7 @@ public SaveOutputParameters Save(Stream stream, SaveFormat saveFormat)
 
 您可以选择使用的附加信息。
 
-### 例子
+## 例子
 
 演示如何将文档保存到流。
 
@@ -388,12 +390,12 @@ Document doc = new Document();
 * class [SaveOutputParameters](../../../aspose.words.saving/saveoutputparameters/)
 * enum [SaveFormat](../../saveformat/)
 * class [Document](../)
-* 命名空间 [Aspose.Words](../../document/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## Save(Stream, SaveOptions) {#save_1}
+## Save(*Stream, [SaveOptions](../../../aspose.words.saving/saveoptions/)*) {#save_1}
 
 使用指定的保存选项将文档保存到流。
 
@@ -410,7 +412,7 @@ public SaveOutputParameters Save(Stream stream, SaveOptions saveOptions)
 
 您可以选择使用的附加信息。
 
-### 例子
+## 例子
 
 演示如何仅将文档中的部分页面转换为 PDF。
 
@@ -443,12 +445,12 @@ using (Stream stream = File.Create(ArtifactsDir + "PdfSaveOptions.OnePage.pdf"))
 * class [SaveOutputParameters](../../../aspose.words.saving/saveoutputparameters/)
 * class [SaveOptions](../../../aspose.words.saving/saveoptions/)
 * class [Document](../)
-* 命名空间 [Aspose.Words](../../document/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## Save(HttpResponse, string, ContentDisposition, SaveOptions) {#save_5}
+## Save(*HttpResponse, string, [ContentDisposition](../../contentdisposition/), [SaveOptions](../../../aspose.words.saving/saveoptions/)*) {#save_5}
 
 将文档发送到客户端浏览器。
 
@@ -468,11 +470,11 @@ public SaveOutputParameters Save(HttpResponse response, string fileName,
 
 您可以选择使用的附加信息。
 
-### 评论
+## 评论
 
 在内部，该方法首先保存到内存流，然后复制到响应stream ，因为响应流不支持seek。
 
-### 例子
+## 例子
 
 演示如何执行邮件合并，然后将文档保存到客户端浏览器。
 
@@ -505,7 +507,5 @@ Assert.That(() => response.End(), Throws.TypeOf<NullReferenceException>());
 * enum [ContentDisposition](../../contentdisposition/)
 * class [SaveOptions](../../../aspose.words.saving/saveoptions/)
 * class [Document](../)
-* 命名空间 [Aspose.Words](../../document/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

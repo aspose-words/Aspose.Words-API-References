@@ -1,7 +1,9 @@
 ---
 title: ThumbnailGeneratingOptions.GenerateFromFirstPage
-second_title: Справочник по API Aspose.Words для .NET
-description: ThumbnailGeneratingOptions свойство. Указывает создавать ли миниатюру из первой страницы документа или из первого изображения.
+linktitle: GenerateFromFirstPage
+articleTitle: GenerateFromFirstPage
+second_title: Aspose.Words для .NET
+description: ThumbnailGeneratingOptions GenerateFromFirstPage свойство. Указывает создавать ли миниатюру из первой страницы документа или из первого изображения на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.rendering/thumbnailgeneratingoptions/generatefromfirstpage/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.rendering/thumbnailgeneratingoptions/generatefromfirst
 public bool GenerateFromFirstPage { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 По умолчанию`истинный` , что означает, что миниатюра будет создана из первой страницы документа. Если значение равно`ЛОЖЬ` и в документе нет изображения, миниатюра будет создана из первой страницы документа.
 
-### Примеры
+## Примеры
 
 Показывает, как обновить миниатюру документа.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "Document.UpdateThumbnail.FirstImage.epub");
 ### Смотрите также
 
 * class [ThumbnailGeneratingOptions](../)
-* пространство имен [Aspose.Words.Rendering](../../thumbnailgeneratingoptions/)
+* пространство имен [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class CsvDataSource
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Reporting.CsvDataSource clase. Proporciona acceso a los datos de un archivo CSV o secuencia para utilizarlos en un informe.
+title: CsvDataSource Class
+linktitle: CsvDataSource
+articleTitle: CsvDataSource
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Reporting.CsvDataSource clase. Proporciona acceso a los datos de un archivo CSV o secuencia para utilizarlos en un informe en C#.
 type: docs
 weight: 4670
 url: /es/net/aspose.words.reporting/csvdatasource/
@@ -20,12 +22,12 @@ public class CsvDataSource
 
 | Nombre | Descripción |
 | --- | --- |
-| [CsvDataSource](csvdatasource/#constructor)(Stream) | Crea una nueva fuente de datos con datos de una secuencia CSV usando opciones predeterminadas para analizar datos CSV. |
-| [CsvDataSource](csvdatasource/#constructor_2)(string) | Crea una nueva fuente de datos con datos de un archivo CSV usando opciones predeterminadas para analizar datos CSV. |
-| [CsvDataSource](csvdatasource/#constructor_1)(Stream, CsvDataLoadOptions) | Crea una nueva fuente de datos con datos de una secuencia CSV utilizando las opciones especificadas para analizar datos CSV. |
-| [CsvDataSource](csvdatasource/#constructor_3)(string, CsvDataLoadOptions) | Crea una nueva fuente de datos con datos de un archivo CSV utilizando las opciones especificadas para analizar datos CSV. |
+| [CsvDataSource](csvdatasource/#constructor)(*Stream*) | Crea una nueva fuente de datos con datos de una secuencia CSV usando opciones predeterminadas para analizar datos CSV. |
+| [CsvDataSource](csvdatasource/#constructor_2)(*string*) | Crea una nueva fuente de datos con datos de un archivo CSV usando opciones predeterminadas para analizar datos CSV. |
+| [CsvDataSource](csvdatasource/#constructor_1)(*Stream, [CsvDataLoadOptions](../csvdataloadoptions/)*) | Crea una nueva fuente de datos con datos de una secuencia CSV utilizando las opciones especificadas para analizar datos CSV. |
+| [CsvDataSource](csvdatasource/#constructor_3)(*string, [CsvDataLoadOptions](../csvdataloadoptions/)*) | Crea una nueva fuente de datos con datos de un archivo CSV utilizando las opciones especificadas para analizar datos CSV. |
 
-### Observaciones
+## Observaciones
 
 Para acceder a los datos del archivo o flujo correspondiente mientras genera un informe, pase una instancia de esta clase como una fuente de datos a uno de[`ReportingEngine`](../reportingengine/) .BuildReport sobrecargas.
 
@@ -47,5 +49,3 @@ Para anular el comportamiento predeterminado de la carga de datos CSV, inicialic
 
 * espacio de nombres [Aspose.Words.Reporting](../../aspose.words.reporting/)
 * asamblea [Aspose.Words](../../)
-
-

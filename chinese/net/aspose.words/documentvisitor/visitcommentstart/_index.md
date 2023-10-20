@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitCommentStart
-second_title: Aspose.Words for .NET API 参考
-description: DocumentVisitor 方法. 开始枚举注释文本时调用
+linktitle: VisitCommentStart
+articleTitle: VisitCommentStart
+second_title: 用于 .NET 的 Aspose.Words
+description: DocumentVisitor VisitCommentStart 方法. 开始枚举注释文本时调用 在 C#.
 type: docs
 weight: 130
 url: /zh/net/aspose.words/documentvisitor/visitcommentstart/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitCommentStart(Comment comment)
 
 A[`VisitorAction`](../../visitoraction/)指定如何继续枚举的值。
 
-### 例子
+## 例子
 
 展示如何打印文档中每个注释和注释范围的节点结构。
 
@@ -334,7 +336,5 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [Comment](../../comment/)
 * class [DocumentVisitor](../)
-* 命名空间 [Aspose.Words](../../documentvisitor/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: CustomXmlSchemaCollection.IndexOf
-second_title: Référence de l'API Aspose.Words pour .NET
-description: CustomXmlSchemaCollection méthode. Renvoie lindex de base zéro de la valeur spécifiée dans la collection.
+linktitle: IndexOf
+articleTitle: IndexOf
+second_title: Aspose.Words pour .NET
+description: CustomXmlSchemaCollection IndexOf méthode. Renvoie lindex de base zéro de la valeur spécifiée dans la collection en C#.
 type: docs
 weight: 70
 url: /fr/net/aspose.words.markup/customxmlschemacollection/indexof/
@@ -22,7 +24,7 @@ public int IndexOf(string value)
 
 L'indice de base zéro. Valeur négative si introuvable.
 
-### Exemples
+## Exemples
 
 Montre comment utiliser une collection de schémas XML.
 
@@ -68,7 +70,5 @@ Assert.AreEqual(0, schemas.Count);
 ### Voir également
 
 * class [CustomXmlSchemaCollection](../)
-* espace de noms [Aspose.Words.Markup](../../customxmlschemacollection/)
+* espace de noms [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Assemblée [Aspose.Words](../../../)
-
-

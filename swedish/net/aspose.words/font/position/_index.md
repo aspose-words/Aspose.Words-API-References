@@ -1,7 +1,9 @@
 ---
 title: Font.Position
-second_title: Aspose.Words för .NET API Referens
-description: Font fast egendom. Hämtar eller ställer in textens position i punkter i förhållande till baslinjen. Ett positivt tal höjer texten och ett negativt tal sänker den.
+linktitle: Position
+articleTitle: Position
+second_title: Aspose.Words för .NET
+description: Font Position fast egendom. Hämtar eller ställer in textens position i punkter i förhållande till baslinjen. Ett positivt tal höjer texten och ett negativt tal sänker den i C#.
 type: docs
 weight: 300
 url: /sv/net/aspose.words/font/position/
@@ -14,7 +16,7 @@ Hämtar eller ställer in textens position (i punkter) i förhållande till basl
 public double Position { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man formaterar text för att förskjuta dess position.
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "Font.PositionSubscript.docx");
 ### Se även
 
 * class [Font](../)
-* namnutrymme [Aspose.Words](../../font/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

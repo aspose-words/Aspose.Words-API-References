@@ -1,7 +1,9 @@
 ---
-title: FieldEQ.FieldEQ
-second_title: Aspose.Words per .NET API Reference
-description: FieldEQ costruttore. Default_Costruttore
+title: FieldEQ
+linktitle: FieldEQ
+articleTitle: FieldEQ
+second_title: Aspose.Words per .NET
+description: FieldEQ costruttore. Default_Costruttore in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words.fields/fieldeq/fieldeq/
@@ -17,7 +19,5 @@ public FieldEQ()
 ### Guarda anche
 
 * class [FieldEQ](../)
-* spazio dei nomi [Aspose.Words.Fields](../../fieldeq/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

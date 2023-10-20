@@ -1,9 +1,11 @@
 ---
 title: Fill.PresetTexture
-second_title: Справочник по API Aspose.Words для .NET
-description: Fill свойство. ПолучаетPresetTexture для заливки.
+linktitle: PresetTexture
+articleTitle: PresetTexture
+second_title: Aspose.Words для .NET
+description: Fill PresetTexture свойство. ПолучаетPresetTexture для заливки на С#.
 type: docs
-weight: 170
+weight: 160
 url: /ru/net/aspose.words.drawing/fill/presettexture/
 ---
 ## Fill.PresetTexture property
@@ -18,7 +20,5 @@ public PresetTexture PresetTexture { get; }
 
 * enum [PresetTexture](../../presettexture/)
 * class [Fill](../)
-* пространство имен [Aspose.Words.Drawing](../../fill/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,12 +1,14 @@
 ---
 title: Cluster.GetString
-second_title: Aspose.Words for .NET API 参考
-description: Cluster 方法. 创建String使用指定簇中的代码点
+linktitle: GetString
+articleTitle: GetString
+second_title: 用于 .NET 的 Aspose.Words
+description: Cluster GetString 方法. 创建String使用指定簇中的代码点 在 C#.
 type: docs
 weight: 70
 url: /zh/net/aspose.words.shaping/cluster/getstring/
 ---
-## GetString(Cluster[])
+## GetString(*Cluster[]*)
 
 创建String使用指定簇中的代码点。
 
@@ -17,7 +19,7 @@ public static string GetString(Cluster[] clusters)
 ### 也可以看看
 
 * class [Cluster](../)
-* 命名空间 [Aspose.Words.Shaping](../../cluster/)
+* 命名空间 [Aspose.Words.Shaping](../../../aspose.words.shaping/)
 * 部件 [Aspose.Words](../../../)
 
 ---
@@ -33,7 +35,5 @@ public string GetString()
 ### 也可以看看
 
 * class [Cluster](../)
-* 命名空间 [Aspose.Words.Shaping](../../cluster/)
+* 命名空间 [Aspose.Words.Shaping](../../../aspose.words.shaping/)
 * 部件 [Aspose.Words](../../../)
-
-

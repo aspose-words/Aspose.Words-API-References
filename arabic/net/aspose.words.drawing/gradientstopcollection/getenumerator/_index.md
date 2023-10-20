@@ -1,7 +1,9 @@
 ---
 title: GradientStopCollection.GetEnumerator
-second_title: Aspose.Words لمراجع .NET API
-description: GradientStopCollection طريقة. يُرجع عدادًا يتكرر خلال المجموعة.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words لـ .NET
+description: GradientStopCollection GetEnumerator طريقة. يُرجع عدادًا يتكرر خلال المجموعة في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.drawing/gradientstopcollection/getenumerator/
@@ -18,7 +20,5 @@ public IEnumerator<GradientStop> GetEnumerator()
 
 * class [GradientStop](../../gradientstop/)
 * class [GradientStopCollection](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../gradientstopcollection/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

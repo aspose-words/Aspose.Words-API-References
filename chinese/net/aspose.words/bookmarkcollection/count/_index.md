@@ -1,7 +1,9 @@
 ---
 title: BookmarkCollection.Count
-second_title: Aspose.Words for .NET API 参考
-description: BookmarkCollection 财产. 返回集合中书签的数量
+linktitle: Count
+articleTitle: Count
+second_title: 用于 .NET 的 Aspose.Words
+description: BookmarkCollection Count 财产. 返回集合中书签的数量 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words/bookmarkcollection/count/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/bookmarkcollection/count/
 public int Count { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何从文档中删除书签。
 
@@ -75,7 +77,5 @@ Assert.AreEqual("Text inside MyBookmark_1.\r" +
 ### 也可以看看
 
 * class [BookmarkCollection](../)
-* 命名空间 [Aspose.Words](../../bookmarkcollection/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

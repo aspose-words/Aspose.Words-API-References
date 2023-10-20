@@ -1,7 +1,9 @@
 ---
-title: Class StreamFontSource
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Fonts.StreamFontSource clase. Clase base para fuente de fuente de secuencia definida por el usuario.
+title: StreamFontSource Class
+linktitle: StreamFontSource
+articleTitle: StreamFontSource
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Fonts.StreamFontSource clase. Clase base para fuente de fuente de secuencia definida por el usuario en C#.
 type: docs
 weight: 3040
 url: /es/net/aspose.words.fonts/streamfontsource/
@@ -32,7 +34,7 @@ public abstract class StreamFontSource : FontSourceBase
 | [GetAvailableFonts](../../aspose.words.fonts/fontsourcebase/getavailablefonts/)() | Devuelve una lista de fuentes disponibles a través de esta fuente. |
 | abstract [OpenFontDataStream](../../aspose.words.fonts/streamfontsource/openfontdatastream/)() | Este método debería abrir la secuencia con datos de fuente a pedido. |
 
-### Observaciones
+## Observaciones
 
 Para utilizar la fuente de fuente de flujo, debe crear una clase derivada del`StreamFontSource` y proporcionar la implementación del[`OpenFontDataStream`](./openfontdatastream/) método.
 
@@ -40,7 +42,7 @@ Para utilizar la fuente de fuente de flujo, debe crear una clase derivada del`St
 
 `StreamFontSource` puede ser útil porque permite cargar los datos de la fuente solo cuando se requiere y no almacenarlos en la memoria para el[`FontSettings`](../fontsettings/) toda la vida.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo cargar fuentes desde la secuencia.
 
@@ -76,5 +78,3 @@ private class StreamFontSourceFile : StreamFontSource
 * class [FontSourceBase](../fontsourcebase/)
 * espacio de nombres [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * asamblea [Aspose.Words](../../)
-
-

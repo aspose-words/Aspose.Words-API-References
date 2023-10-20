@@ -1,9 +1,11 @@
 ---
 title: DocumentBuilder.PushFont
-second_title: Aspose.Words per .NET API Reference
-description: DocumentBuilder metodo. Salva la formattazione corrente del carattere nello stack.
+linktitle: PushFont
+articleTitle: PushFont
+second_title: Aspose.Words per .NET
+description: DocumentBuilder PushFont metodo. Salva la formattazione corrente del carattere nello stack in C#.
 type: docs
-weight: 610
+weight: 600
 url: /it/net/aspose.words/documentbuilder/pushfont/
 ---
 ## DocumentBuilder.PushFont method
@@ -14,7 +16,7 @@ Salva la formattazione corrente del carattere nello stack.
 public void PushFont()
 ```
 
-### Esempi
+## Esempi
 
 Mostra come utilizzare lo stack di formattazione di un generatore di documenti.
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.PushPopFont.docx");
 * property [Font](../font/)
 * method [PopFont](../popfont/)
 * class [DocumentBuilder](../)
-* spazio dei nomi [Aspose.Words](../../documentbuilder/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

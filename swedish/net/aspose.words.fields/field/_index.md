@@ -1,7 +1,9 @@
 ---
-title: Class Field
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Fields.Field klass. Representerar ett Microsoft Worddokumentfält.
+title: Field Class
+linktitle: Field
+articleTitle: Field
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Fields.Field klass. Representerar ett Microsoft Worddokumentfält i C#.
 type: docs
 weight: 1510
 url: /sv/net/aspose.words.fields/field/
@@ -36,13 +38,13 @@ public class Field
 | namn | Beskrivning |
 | --- | --- |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/#getfieldcode)() | Returnerar text mellan fältstart och fältavgränsare (eller fältslut om det inte finns någon avgränsare). Både fältkod och fältresultat för underordnade fält ingår. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/#getfieldcode_1)(bool) | Returnerar text mellan fältstart och fältavgränsare (eller fältslut om det inte finns någon avgränsare). |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/#getfieldcode_1)(*bool*) | Returnerar text mellan fältstart och fältavgränsare (eller fältslut om det inte finns någon avgränsare). |
 | [Remove](../../aspose.words.fields/field/remove/)() | Tar bort fältet från dokumentet. Returnerar en nod direkt efter fältet. Om fältets slut är den sista child av dess överordnade nod, returnerar dess överordnade stycke. Om fältet redan är borttaget, returneras`null` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | Utför fältavlänkningen. |
 | [Update](../../aspose.words.fields/field/update/#update)() | Utför fältuppdateringen. Kastar om fältet redan uppdateras. |
-| [Update](../../aspose.words.fields/field/update/#update_1)(bool) | Utför en fältuppdatering. Kastar om fältet redan uppdateras. |
+| [Update](../../aspose.words.fields/field/update/#update_1)(*bool*) | Utför en fältuppdatering. Kastar om fältet redan uppdateras. |
 
-### Anmärkningar
+## Anmärkningar
 
 Ett fält i ett Word-dokument är en komplex struktur som består av flera noder som inkluderar fältstart, fältkod, fältseparator, fältresultat och fältslut. Fält kan kapslas, innehålla rikt innehåll och span flera stycken eller avsnitt i ett dokument. De`Field` class är ett "fasad"-objekt som ger egenskaper och metoder som gör det möjligt att arbeta med ett fält som ett enda objekt.
 
@@ -56,7 +58,7 @@ Du kan få en vanlig textversion av fältkoden med hjälp av[`GetFieldCode`](./g
 
 Du skapar inte instanser av`Field` class direct. För att skapa ett nytt fält använd[`InsertField`](../../aspose.words/documentbuilder/insertfield/) metod.
 
-### Exempel
+## Exempel
 
 Visar hur man infogar ett fält i ett dokument med hjälp av en fältkod.
 
@@ -77,5 +79,3 @@ Assert.That(DateTime.Parse(field.Result), Is.EqualTo(DateTime.Today).Within(1).D
 
 * namnutrymme [Aspose.Words.Fields](../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../)
-
-

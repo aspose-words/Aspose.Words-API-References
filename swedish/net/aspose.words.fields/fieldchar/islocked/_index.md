@@ -1,7 +1,9 @@
 ---
 title: FieldChar.IsLocked
-second_title: Aspose.Words för .NET API Referens
-description: FieldChar fast egendom. Hämtar eller ställer in om det överordnade fältet är låst ska inte räkna om resultatet.
+linktitle: IsLocked
+articleTitle: IsLocked
+second_title: Aspose.Words för .NET
+description: FieldChar IsLocked fast egendom. Hämtar eller ställer in om det överordnade fältet är låst ska inte räkna om resultatet i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.fields/fieldchar/islocked/
@@ -14,7 +16,7 @@ Hämtar eller ställer in om det överordnade fältet är låst (ska inte räkna
 public bool IsLocked { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med en FieldStart-nod.
 
@@ -45,7 +47,5 @@ field.Update();
 ### Se även
 
 * class [FieldChar](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldchar/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

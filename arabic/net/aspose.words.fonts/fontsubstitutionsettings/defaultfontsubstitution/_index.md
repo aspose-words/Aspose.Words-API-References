@@ -1,7 +1,9 @@
 ---
 title: FontSubstitutionSettings.DefaultFontSubstitution
-second_title: Aspose.Words لمراجع .NET API
-description: FontSubstitutionSettings ملكية. الإعدادات المتعلقة بقاعدة استبدال الخط الافتراضية.
+linktitle: DefaultFontSubstitution
+articleTitle: DefaultFontSubstitution
+second_title: Aspose.Words لـ .NET
+description: FontSubstitutionSettings DefaultFontSubstitution ملكية. الإعدادات المتعلقة بقاعدة استبدال الخط الافتراضية في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fonts/fontsubstitutionsettings/defaultfontsubstitution/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fonts/fontsubstitutionsettings/defaultfontsubstitution
 public DefaultFontSubstitutionRule DefaultFontSubstitution { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين قاعدة استبدال الخط الافتراضية.
 
@@ -47,7 +49,5 @@ doc.Save(ArtifactsDir + "FontSettings.DefaultFontSubstitutionRule.pdf");
 
 * class [DefaultFontSubstitutionRule](../../defaultfontsubstitutionrule/)
 * class [FontSubstitutionSettings](../)
-* مساحة الاسم [Aspose.Words.Fonts](../../fontsubstitutionsettings/)
+* مساحة الاسم [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * المجسم [Aspose.Words](../../../)
-
-

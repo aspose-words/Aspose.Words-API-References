@@ -1,12 +1,14 @@
 ---
 title: DocumentBuilder.Writeln
-second_title: Aspose.Words لمراجع .NET API
-description: DocumentBuilder طريقة. إدراج سلسلة وفاصل فقرة في المستند.
+linktitle: Writeln
+articleTitle: Writeln
+second_title: Aspose.Words لـ .NET
+description: DocumentBuilder Writeln طريقة. إدراج سلسلة وفاصل فقرة في المستند في C#.
 type: docs
-weight: 670
+weight: 660
 url: /ar/net/aspose.words/documentbuilder/writeln/
 ---
-## Writeln(string) {#writeln_1}
+## Writeln(*string*) {#writeln_1}
 
 إدراج سلسلة وفاصل فقرة في المستند.
 
@@ -18,11 +20,11 @@ public void Writeln(string text)
 | --- | --- | --- |
 | text | String | السلسلة المراد إدراجها في المستند. |
 
-### ملاحظات
+## ملاحظات
 
 تنسيق الخط والفقرة الحالي المحدد بواسطة[`Font`](../font/) و[`ParagraphFormat`](../paragraphformat/) يتم استخدام الخصائص.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء جدول منسق 2x2.
 
@@ -68,7 +70,7 @@ doc.Save(ArtifactsDir + "DocumentBuilder.BuildTable.docx");
 ### أنظر أيضا
 
 * class [DocumentBuilder](../)
-* مساحة الاسم [Aspose.Words](../../documentbuilder/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
 
 ---
@@ -81,11 +83,11 @@ doc.Save(ArtifactsDir + "DocumentBuilder.BuildTable.docx");
 public void Writeln()
 ```
 
-### ملاحظات
+## ملاحظات
 
 المكالمات[`InsertParagraph`](../insertparagraph/).
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء الرؤوس والتذييلات في مستند باستخدام DocumentBuilder.
 
@@ -118,7 +120,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.HeadersAndFooters.docx");
 ### أنظر أيضا
 
 * class [DocumentBuilder](../)
-* مساحة الاسم [Aspose.Words](../../documentbuilder/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

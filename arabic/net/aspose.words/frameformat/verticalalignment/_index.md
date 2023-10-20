@@ -1,7 +1,9 @@
 ---
 title: FrameFormat.VerticalAlignment
-second_title: Aspose.Words لمراجع .NET API
-description: FrameFormat ملكية. الحصول على المحاذاة الرأسية للإطار المحدد.
+linktitle: VerticalAlignment
+articleTitle: VerticalAlignment
+second_title: Aspose.Words لـ .NET
+description: FrameFormat VerticalAlignment ملكية. الحصول على المحاذاة الرأسية للإطار المحدد في C#.
 type: docs
 weight: 90
 url: /ar/net/aspose.words/frameformat/verticalalignment/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/frameformat/verticalalignment/
 public VerticalAlignment VerticalAlignment { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الحصول على معلومات حول خصائص تنسيق الفقرات التي تكون إطارات.
 
@@ -40,7 +42,5 @@ Assert.AreEqual(0.0d, paragraphFrame.FrameFormat.VerticalDistanceFromText);
 
 * enum [VerticalAlignment](../../../aspose.words.drawing/verticalalignment/)
 * class [FrameFormat](../)
-* مساحة الاسم [Aspose.Words](../../frameformat/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

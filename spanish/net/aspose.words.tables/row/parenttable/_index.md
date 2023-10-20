@@ -1,7 +1,9 @@
 ---
 title: Row.ParentTable
-second_title: Referencia de API de Aspose.Words para .NET
-description: Row propiedad. Devuelve la tabla principal inmediata de la fila.
+linktitle: ParentTable
+articleTitle: ParentTable
+second_title: Aspose.Words para .NET
+description: Row ParentTable propiedad. Devuelve la tabla principal inmediata de la fila en C#.
 type: docs
 weight: 90
 url: /es/net/aspose.words.tables/row/parenttable/
@@ -14,11 +16,11 @@ Devuelve la tabla principal inmediata de la fila.
 public Table ParentTable { get; }
 ```
 
-### Observaciones
+## Observaciones
 
 Equivalente aFirstNonMarkupParentNode lanzado a[`Table`](../../table/).
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo imprimir la estructura de nodos de cada tabla en un documento.
 
@@ -182,7 +184,5 @@ public class TableStructurePrinter : DocumentVisitor
 
 * class [Table](../../table/)
 * class [Row](../)
-* espacio de nombres [Aspose.Words.Tables](../../row/)
+* espacio de nombres [Aspose.Words.Tables](../../../aspose.words.tables/)
 * asamblea [Aspose.Words](../../../)
-
-

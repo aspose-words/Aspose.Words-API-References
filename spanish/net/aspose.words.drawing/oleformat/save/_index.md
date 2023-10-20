@@ -1,12 +1,14 @@
 ---
 title: OleFormat.Save
-second_title: Referencia de API de Aspose.Words para .NET
-description: OleFormat método. Guarda los datos del objeto incrustado en la secuencia especificada.
+linktitle: Save
+articleTitle: Save
+second_title: Aspose.Words para .NET
+description: OleFormat Save método. Guarda los datos del objeto incrustado en la secuencia especificada en C#.
 type: docs
 weight: 160
 url: /es/net/aspose.words.drawing/oleformat/save/
 ---
-## Save(Stream) {#save}
+## Save(*Stream*) {#save}
 
 Guarda los datos del objeto incrustado en la secuencia especificada.
 
@@ -24,11 +26,11 @@ public void Save(Stream stream)
 | --- | --- |
 | InvalidOperationException | Se lanza si intenta guardar un objeto vinculado. |
 
-### Observaciones
+## Observaciones
 
 Es responsabilidad de la persona que llama deshacerse de la transmisión.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo extraer objetos OLE incrustados en archivos.
 
@@ -63,12 +65,12 @@ oleFormat.Save(ArtifactsDir + "OLE spreadsheet saved directly" + oleFormat.Sugge
 ### Ver también
 
 * class [OleFormat](../)
-* espacio de nombres [Aspose.Words.Drawing](../../oleformat/)
+* espacio de nombres [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * asamblea [Aspose.Words](../../../)
 
 ---
 
-## Save(string) {#save_1}
+## Save(*string*) {#save_1}
 
 Guarda los datos del objeto incrustado en un archivo con el nombre especificado.
 
@@ -86,7 +88,7 @@ public void Save(string fileName)
 | --- | --- |
 | InvalidOperationException | Se lanza si intenta guardar un objeto vinculado. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo extraer objetos OLE incrustados en archivos.
 
@@ -121,7 +123,5 @@ oleFormat.Save(ArtifactsDir + "OLE spreadsheet saved directly" + oleFormat.Sugge
 ### Ver también
 
 * class [OleFormat](../)
-* espacio de nombres [Aspose.Words.Drawing](../../oleformat/)
+* espacio de nombres [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * asamblea [Aspose.Words](../../../)
-
-

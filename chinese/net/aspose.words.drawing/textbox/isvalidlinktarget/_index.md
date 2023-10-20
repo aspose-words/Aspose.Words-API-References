@@ -1,7 +1,9 @@
 ---
 title: TextBox.IsValidLinkTarget
-second_title: Aspose.Words for .NET API 参考
-description: TextBox 方法. 确定这是否TextBox可以链接到目标TextBox.
+linktitle: IsValidLinkTarget
+articleTitle: IsValidLinkTarget
+second_title: 用于 .NET 的 Aspose.Words
+description: TextBox IsValidLinkTarget 方法. 确定这是否TextBox可以链接到目标TextBox 在 C#.
 type: docs
 weight: 140
 url: /zh/net/aspose.words.drawing/textbox/isvalidlinktarget/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.drawing/textbox/isvalidlinktarget/
 public bool IsValidLinkTarget(TextBox target)
 ```
 
-### 例子
+## 例子
 
 展示如何链接文本框。
 
@@ -75,7 +77,5 @@ doc.Save(ArtifactsDir + "Shape.CreateLinkBetweenTextBoxes.docx");
 ### 也可以看看
 
 * class [TextBox](../)
-* 命名空间 [Aspose.Words.Drawing](../../textbox/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

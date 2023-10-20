@@ -1,7 +1,9 @@
 ---
 title: FieldAutoNum.SeparatorCharacter
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldAutoNum propriété. Obtient ou définit le caractère séparateur à utiliser.
+linktitle: SeparatorCharacter
+articleTitle: SeparatorCharacter
+second_title: Aspose.Words pour .NET
+description: FieldAutoNum SeparatorCharacter propriété. Obtient ou définit le caractère séparateur à utiliser en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.fields/fieldautonum/separatorcharacter/
@@ -14,7 +16,7 @@ Obtient ou définit le caractère séparateur à utiliser.
 public string SeparatorCharacter { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment numéroter les paragraphes à l’aide de champs autonum.
 
@@ -49,7 +51,5 @@ doc.Save(ArtifactsDir + "Field.AUTONUM.docx");
 ### Voir également
 
 * class [FieldAutoNum](../)
-* espace de noms [Aspose.Words.Fields](../../fieldautonum/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

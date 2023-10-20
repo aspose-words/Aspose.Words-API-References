@@ -1,9 +1,11 @@
 ---
 title: Fill.PresetTexture
-second_title: Aspose.Words لمراجع .NET API
-description: Fill ملكية. يحصل علىPresetTexture للتعبئة.
+linktitle: PresetTexture
+articleTitle: PresetTexture
+second_title: Aspose.Words لـ .NET
+description: Fill PresetTexture ملكية. يحصل علىPresetTexture للتعبئة في C#.
 type: docs
-weight: 170
+weight: 160
 url: /ar/net/aspose.words.drawing/fill/presettexture/
 ---
 ## Fill.PresetTexture property
@@ -18,7 +20,5 @@ public PresetTexture PresetTexture { get; }
 
 * enum [PresetTexture](../../presettexture/)
 * class [Fill](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../fill/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

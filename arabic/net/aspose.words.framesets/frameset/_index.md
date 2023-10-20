@@ -1,7 +1,9 @@
 ---
-title: Class Frameset
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Framesets.Frameset فصل. يمثل صفحة إطارات أو إطارًا واحدًا على صفحة إطارات.
+title: Frameset Class
+linktitle: Frameset
+articleTitle: Frameset
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Framesets.Frameset فصل. يمثل صفحة إطارات أو إطارًا واحدًا على صفحة إطارات في C#.
 type: docs
 weight: 3080
 url: /ar/net/aspose.words.framesets/frameset/
@@ -30,11 +32,11 @@ public class Frameset
 | [FrameDefaultUrl](../../aspose.words.framesets/frameset/framedefaulturl/) { get; set; } | الحصول على أو تعيين عنوان URL لصفحة الويب أو اسم ملف المستند لعرضه في هذا الإطار. |
 | [IsFrameLinkToFile](../../aspose.words.framesets/frameset/isframelinktofile/) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كانت صفحة الويب أو اسم ملف المستند محددًا في [`FrameDefaultUrl`](./framedefaulturl/) الخاصية هي مورد خارجي يرتبط به الإطار. |
 
-### ملاحظات
+## ملاحظات
 
 إذا[`ChildFramesets`](./childframesets/) تحتوي الخاصية على عناصر، وهذا المثيل عبارة عن صفحة إطارات، وإلا فهو إطار واحد.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الوصول إلى الإطارات الموجودة على الصفحة.
 
@@ -60,5 +62,3 @@ doc.Frameset.ChildFramesets[0].ChildFramesets[0].IsFrameLinkToFile = false;
 
 * مساحة الاسم [Aspose.Words.Framesets](../../aspose.words.framesets/)
 * المجسم [Aspose.Words](../../)
-
-

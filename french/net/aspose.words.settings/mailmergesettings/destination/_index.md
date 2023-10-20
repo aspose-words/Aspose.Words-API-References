@@ -1,7 +1,9 @@
 ---
 title: MailMergeSettings.Destination
-second_title: Référence de l'API Aspose.Words pour .NET
-description: MailMergeSettings propriété. Spécifie comment Microsoft Word affichera les résultats dun publipostage. La valeur par défaut estDefault .
+linktitle: Destination
+articleTitle: Destination
+second_title: Aspose.Words pour .NET
+description: MailMergeSettings Destination propriété. Spécifie comment Microsoft Word affichera les résultats dun publipostage. La valeur par défaut estDefault  en C#.
 type: docs
 weight: 80
 url: /fr/net/aspose.words.settings/mailmergesettings/destination/
@@ -14,7 +16,7 @@ Spécifie comment Microsoft Word affichera les résultats d'un publipostage. La 
 public MailMergeDestination Destination { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment exécuter un publipostage avec des données provenant d’un objet source de données Office.
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 
 * enum [MailMergeDestination](../../mailmergedestination/)
 * class [MailMergeSettings](../)
-* espace de noms [Aspose.Words.Settings](../../mailmergesettings/)
+* espace de noms [Aspose.Words.Settings](../../../aspose.words.settings/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: OutlineOptions.CreateOutlinesForHeadingsInTables
-second_title: Aspose.Words för .NET API Referens
-description: OutlineOptions fast egendom. Anger om konturer ska skapas för rubriker stycken formaterade med rubrikstilar i tabeller.
+linktitle: CreateOutlinesForHeadingsInTables
+articleTitle: CreateOutlinesForHeadingsInTables
+second_title: Aspose.Words för .NET
+description: OutlineOptions CreateOutlinesForHeadingsInTables fast egendom. Anger om konturer ska skapas för rubriker stycken formaterade med rubrikstilar i tabeller i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.saving/outlineoptions/createoutlinesforheadingsintables/
@@ -14,11 +16,11 @@ Anger om konturer ska skapas för rubriker (stycken formaterade med rubrikstilar
 public bool CreateOutlinesForHeadingsInTables { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Standardvärdet är`falsk`.
 
-### Exempel
+## Exempel
 
 Visar hur man skapar konturposter för PDF-dokument för rubriker i tabeller.
 
@@ -63,7 +65,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.TableHeadingOutlines.pdf", pdfSaveOption
 ### Se även
 
 * class [OutlineOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../outlineoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

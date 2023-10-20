@@ -1,20 +1,22 @@
 ---
 title: SignOptions.SignTime
-second_title: Справочник по API Aspose.Words для .NET
-description: SignOptions свойство. Дата подписания. Значение по умолчанию Текущее время Now.
+linktitle: SignTime
+articleTitle: SignTime
+second_title: Aspose.Words для .NET
+description: SignOptions SignTime свойство. Дата подписания. Значение по умолчаниюТекущее время Now на С#.
 type: docs
 weight: 70
 url: /ru/net/aspose.words.digitalsignatures/signoptions/signtime/
 ---
 ## SignOptions.SignTime property
 
-Дата подписания. Значение по умолчанию: **Текущее время** (Now).
+Дата подписания. Значение по умолчанию:**Текущее время** (Now).
 
 ```csharp
 public DateTime SignTime { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как подписывать документы цифровой подписью.
 
@@ -43,7 +45,5 @@ using (Stream streamIn = new FileStream(MyDir + "Document.docx", FileMode.Open))
 ### Смотрите также
 
 * class [SignOptions](../)
-* пространство имен [Aspose.Words.DigitalSignatures](../../signoptions/)
+* пространство имен [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ChartNumberFormat.IsLinkedToSource
-second_title: Aspose.Words for .NET API 参考
-description: ChartNumberFormat 财产. 指定格式代码是否链接到源单元格 默认值为 true
+linktitle: IsLinkedToSource
+articleTitle: IsLinkedToSource
+second_title: 用于 .NET 的 Aspose.Words
+description: ChartNumberFormat IsLinkedToSource 财产. 指定格式代码是否链接到源单元格 默认值为 true 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.drawing.charts/chartnumberformat/islinkedtosource/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.drawing.charts/chartnumberformat/islinkedtosource/
 public bool IsLinkedToSource { get; set; }
 ```
 
-### 评论
+## 评论
 
 如果格式代码链接到源，则 NumberFormat 将重置为常规。
 
-### 例子
+## 例子
 
 展示如何设置图表值的格式。
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "Charts.SetNumberFormatToChartAxis.docx");
 ### 也可以看看
 
 * class [ChartNumberFormat](../)
-* 命名空间 [Aspose.Words.Drawing.Charts](../../chartnumberformat/)
+* 命名空间 [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * 部件 [Aspose.Words](../../../)
-
-

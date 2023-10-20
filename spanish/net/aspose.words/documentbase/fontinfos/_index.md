@@ -1,7 +1,9 @@
 ---
 title: DocumentBase.FontInfos
-second_title: Referencia de API de Aspose.Words para .NET
-description: DocumentBase propiedad. Proporciona acceso a las propiedades de las fuentes utilizadas en este documento.
+linktitle: FontInfos
+articleTitle: FontInfos
+second_title: Aspose.Words para .NET
+description: DocumentBase FontInfos propiedad. Proporciona acceso a las propiedades de las fuentes utilizadas en este documento en C#.
 type: docs
 weight: 30
 url: /es/net/aspose.words/documentbase/fontinfos/
@@ -14,13 +16,13 @@ Proporciona acceso a las propiedades de las fuentes utilizadas en este documento
 public FontInfoCollection FontInfos { get; }
 ```
 
-### Observaciones
+## Observaciones
 
 Esta colección de definiciones de fuentes se carga tal cual desde el documento. Las definiciones de fuentes pueden ser opcionales, faltar o estar incompletas en algunos documentos.
 
 No confíe en esta colección para determinar si se utiliza una fuente concreta en el documento. Sólo debe utilizar esta colección para obtener información sobre las fuentes que podrían utilizarse en el documento.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo imprimir los detalles de las fuentes presentes en un documento.
 
@@ -59,7 +61,5 @@ else
 
 * class [FontInfoCollection](../../../aspose.words.fonts/fontinfocollection/)
 * class [DocumentBase](../)
-* espacio de nombres [Aspose.Words](../../documentbase/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

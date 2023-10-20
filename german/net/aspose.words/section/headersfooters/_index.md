@@ -1,7 +1,9 @@
 ---
 title: Section.HeadersFooters
-second_title: Aspose.Words für .NET-API-Referenz
-description: Section eigendom. Bietet Zugriff auf die Kopf und Fußzeilenknoten des Abschnitts.
+linktitle: HeadersFooters
+articleTitle: HeadersFooters
+second_title: Aspose.Words für .NET
+description: Section HeadersFooters eigendom. Bietet Zugriff auf die Kopf und Fußzeilenknoten des Abschnitts in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words/section/headersfooters/
@@ -14,7 +16,7 @@ Bietet Zugriff auf die Kopf- und Fußzeilenknoten des Abschnitts.
 public HeaderFooterCollection HeadersFooters { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Text in der Fußzeile eines Dokuments ersetzt wird.
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "HeaderFooter.RemoveFooters.docx");
 
 * class [HeaderFooterCollection](../../headerfootercollection/)
 * class [Section](../)
-* namensraum [Aspose.Words](../../section/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

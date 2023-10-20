@@ -1,7 +1,9 @@
 ---
-title: Enum FootnotePosition
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Notes.FootnotePosition перечисление. Определяет положение сноски.
+title: FootnotePosition Enum
+linktitle: FootnotePosition
+articleTitle: FootnotePosition
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Notes.FootnotePosition перечисление. Определяет положение сноски на С#.
 type: docs
 weight: 4290
 url: /ru/net/aspose.words.notes/footnoteposition/
@@ -21,7 +23,7 @@ public enum FootnotePosition
 | BottomOfPage | `1` | Сноски выводятся внизу каждой страницы. |
 | BeneathText | `2` | Сноски выводятся под текстом на каждой странице. |
 
-### Примеры
+## Примеры
 
 Показывает, как выбрать другое место, где документ будет собираться и отображать его сноски.
 
@@ -54,5 +56,3 @@ doc.Save(ArtifactsDir + "InlineStory.PositionFootnote.docx");
 * class [FootnoteOptions](../footnoteoptions/)
 * пространство имен [Aspose.Words.Notes](../../aspose.words.notes/)
 * сборка [Aspose.Words](../../)
-
-

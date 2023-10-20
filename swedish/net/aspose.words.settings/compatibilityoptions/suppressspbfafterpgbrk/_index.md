@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.SuppressSpBfAfterPgBrk
-second_title: Aspose.Words för .NET API Referens
-description: CompatibilityOptions fast egendom. Använd inte utrymme före på första raden efter ett sidavbrott.
+linktitle: SuppressSpBfAfterPgBrk
+articleTitle: SuppressSpBfAfterPgBrk
+second_title: Aspose.Words för .NET
+description: CompatibilityOptions SuppressSpBfAfterPgBrk fast egendom. Använd inte utrymme före på första raden efter ett sidavbrott i C#.
 type: docs
 weight: 500
 url: /sv/net/aspose.words.settings/compatibilityoptions/suppressspbfafterpgbrk/
@@ -17,7 +19,5 @@ public bool SuppressSpBfAfterPgBrk { get; set; }
 ### Se även
 
 * class [CompatibilityOptions](../)
-* namnutrymme [Aspose.Words.Settings](../../compatibilityoptions/)
+* namnutrymme [Aspose.Words.Settings](../../../aspose.words.settings/)
 * hopsättning [Aspose.Words](../../../)
-
-

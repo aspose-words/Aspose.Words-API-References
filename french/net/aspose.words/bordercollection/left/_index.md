@@ -1,7 +1,9 @@
 ---
 title: BorderCollection.Left
-second_title: Référence de l'API Aspose.Words pour .NET
-description: BorderCollection propriété. Obtient la bordure gauche.
+linktitle: Left
+articleTitle: Left
+second_title: Aspose.Words pour .NET
+description: BorderCollection Left propriété. Obtient la bordure gauche en C#.
 type: docs
 weight: 70
 url: /fr/net/aspose.words/bordercollection/left/
@@ -14,7 +16,7 @@ Obtient la bordure gauche.
 public Border Left { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment appliquer une couleur de bordure et d’ombrage lors de la création d’un tableau.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.TableBordersAndShading.docx");
 
 * class [Border](../../border/)
 * class [BorderCollection](../)
-* espace de noms [Aspose.Words](../../bordercollection/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

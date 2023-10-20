@@ -1,7 +1,9 @@
 ---
 title: ChartXValue.ValueType
-second_title: Aspose.Words لمراجع .NET API
-description: ChartXValue ملكية. الحصول على نوع قيمة X المخزنة في الكائن.
+linktitle: ValueType
+articleTitle: ValueType
+second_title: Aspose.Words لـ .NET
+description: ChartXValue ValueType ملكية. الحصول على نوع قيمة X المخزنة في الكائن في C#.
 type: docs
 weight: 110
 url: /ar/net/aspose.words.drawing.charts/chartxvalue/valuetype/
@@ -18,7 +20,5 @@ public ChartXValueType ValueType { get; }
 
 * enum [ChartXValueType](../../chartxvaluetype/)
 * class [ChartXValue](../)
-* مساحة الاسم [Aspose.Words.Drawing.Charts](../../chartxvalue/)
+* مساحة الاسم [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../../)
-
-

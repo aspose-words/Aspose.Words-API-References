@@ -1,7 +1,9 @@
 ---
 title: DocumentBase.FontInfos
-second_title: Aspose.Words per .NET API Reference
-description: DocumentBase proprietà. Fornisce laccesso alle proprietà dei caratteri utilizzati in questo documento.
+linktitle: FontInfos
+articleTitle: FontInfos
+second_title: Aspose.Words per .NET
+description: DocumentBase FontInfos proprietà. Fornisce laccesso alle proprietà dei caratteri utilizzati in questo documento in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words/documentbase/fontinfos/
@@ -14,13 +16,13 @@ Fornisce l'accesso alle proprietà dei caratteri utilizzati in questo documento.
 public FontInfoCollection FontInfos { get; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Questa raccolta di definizioni di caratteri viene caricata così com'è dal documento. Le definizioni di caratteri potrebbero essere facoltative, mancanti o incomplete in alcuni documenti.
 
 Non fare affidamento su questa raccolta per accertarti che un particolare carattere sia utilizzato nel documento. Dovresti utilizzare questa raccolta solo per ottenere informazioni sui caratteri che potrebbero essere utilizzati nel documento.
 
-### Esempi
+## Esempi
 
 Mostra come stampare i dettagli di quali caratteri sono presenti in un documento.
 
@@ -59,7 +61,5 @@ else
 
 * class [FontInfoCollection](../../../aspose.words.fonts/fontinfocollection/)
 * class [DocumentBase](../)
-* spazio dei nomi [Aspose.Words](../../documentbase/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

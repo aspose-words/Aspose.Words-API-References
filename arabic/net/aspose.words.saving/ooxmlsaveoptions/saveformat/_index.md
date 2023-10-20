@@ -1,7 +1,9 @@
 ---
 title: OoxmlSaveOptions.SaveFormat
-second_title: Aspose.Words لمراجع .NET API
-description: OoxmlSaveOptions ملكية. يحدد التنسيق الذي سيتم حفظ المستند به في حالة استخدام كائن خيارات الحفظ هذا. يمكن أن يكونDocx DocmDotx Dotm أوFlatOpc .
+linktitle: SaveFormat
+articleTitle: SaveFormat
+second_title: Aspose.Words لـ .NET
+description: OoxmlSaveOptions SaveFormat ملكية. يحدد التنسيق الذي سيتم حفظ المستند به في حالة استخدام كائن خيارات الحفظ هذا. يمكن أن يكونDocx DocmDotx Dotm أوFlatOpc  في C#.
 type: docs
 weight: 60
 url: /ar/net/aspose.words.saving/ooxmlsaveoptions/saveformat/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.saving/ooxmlsaveoptions/saveformat/
 public override SaveFormat SaveFormat { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين مواصفات توافق OOXML للمستند المحفوظ للالتزام به.
 
@@ -50,7 +52,5 @@ Assert.AreEqual(ShapeMarkupLanguage.Dml, ((Shape)doc.GetChild(NodeType.Shape, 0,
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
 * class [OoxmlSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../ooxmlsaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

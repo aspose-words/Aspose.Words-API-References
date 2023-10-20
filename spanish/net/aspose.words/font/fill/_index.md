@@ -1,7 +1,9 @@
 ---
 title: Font.Fill
-second_title: Referencia de API de Aspose.Words para .NET
-description: Font propiedad. Obtiene el formato de relleno para elFont .
+linktitle: Fill
+articleTitle: Fill
+second_title: Aspose.Words para .NET
+description: Font Fill propiedad. Obtiene el formato de relleno para elFont  en C#.
 type: docs
 weight: 130
 url: /es/net/aspose.words/font/fill/
@@ -18,7 +20,5 @@ public Fill Fill { get; }
 
 * class [Fill](../../../aspose.words.drawing/fill/)
 * class [Font](../)
-* espacio de nombres [Aspose.Words](../../font/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

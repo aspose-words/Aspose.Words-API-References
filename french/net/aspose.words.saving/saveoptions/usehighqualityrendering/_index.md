@@ -1,7 +1,9 @@
 ---
 title: SaveOptions.UseHighQualityRendering
-second_title: Référence de l'API Aspose.Words pour .NET
-description: SaveOptions propriété. Obtient ou définit une valeur déterminant sil faut ou non utiliser des algorithmes de rendu de haute qualité cestàdire lents.
+linktitle: UseHighQualityRendering
+articleTitle: UseHighQualityRendering
+second_title: Aspose.Words pour .NET
+description: SaveOptions UseHighQualityRendering propriété. Obtient ou définit une valeur déterminant sil faut ou non utiliser des algorithmes de rendu de haute qualité cestàdire lents en C#.
 type: docs
 weight: 200
 url: /fr/net/aspose.words.saving/saveoptions/usehighqualityrendering/
@@ -14,13 +16,13 @@ Obtient ou définit une valeur déterminant s'il faut ou non utiliser des algori
 public bool UseHighQualityRendering { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 La valeur par défaut est`FAUX` .
 
 Cette propriété est utilisée lorsque le document est exporté aux formats d'image : Tiff ,Png ,Bmp , Jpeg ,Emf.
 
-### Exemples
+## Exemples
 
 Montre comment améliorer la qualité d’un document rendu avec SaveOptions.
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "Document.ImageSaveOptions.HighQuality.jpg", options);
 ### Voir également
 
 * class [SaveOptions](../)
-* espace de noms [Aspose.Words.Saving](../../saveoptions/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Cell.IsLastCell
-second_title: Aspose.Words für .NET-API-Referenz
-description: Cell eigendom. True wenn dies die letzte Zelle innerhalb einer Zeile ist sonst falsch.
+linktitle: IsLastCell
+articleTitle: IsLastCell
+second_title: Aspose.Words für .NET
+description: Cell IsLastCell eigendom. True wenn dies die letzte Zelle innerhalb einer Zeile ist sonst falsch in C#.
 type: docs
 weight: 50
 url: /de/net/aspose.words.tables/cell/islastcell/
@@ -14,7 +16,7 @@ True, wenn dies die letzte Zelle innerhalb einer Zeile ist; sonst falsch.
 public bool IsLastCell { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Knotenstruktur jeder Tabelle in einem Dokument gedruckt wird.
 
@@ -177,7 +179,5 @@ public class TableStructurePrinter : DocumentVisitor
 ### Siehe auch
 
 * class [Cell](../)
-* namensraum [Aspose.Words.Tables](../../cell/)
+* namensraum [Aspose.Words.Tables](../../../aspose.words.tables/)
 * Montage [Aspose.Words](../../../)
-
-

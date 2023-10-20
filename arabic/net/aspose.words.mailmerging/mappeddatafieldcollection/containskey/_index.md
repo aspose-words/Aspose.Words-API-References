@@ -1,7 +1,9 @@
 ---
 title: MappedDataFieldCollection.ContainsKey
-second_title: Aspose.Words لمراجع .NET API
-description: MappedDataFieldCollection طريقة. تحديد ما إذا كان التعيين من الحقل المحدد في المستند موجودًا في المجموعة.
+linktitle: ContainsKey
+articleTitle: ContainsKey
+second_title: Aspose.Words لـ .NET
+description: MappedDataFieldCollection ContainsKey طريقة. تحديد ما إذا كان التعيين من الحقل المحدد في المستند موجودًا في المجموعة في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.mailmerging/mappeddatafieldcollection/containskey/
@@ -22,7 +24,7 @@ public bool ContainsKey(string documentFieldName)
 
 `حقيقي` إذا تم العثور على العنصر في المجموعة؛ خلاف ذلك،`خطأ شنيع`.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين أعمدة البيانات وMERGEFIELD بأسماء مختلفة بحيث يتم نقل البيانات فيما بينها أثناء عملية دمج البريد.
 
@@ -107,7 +109,5 @@ private static DataTable CreateSourceTableMappedDataFields()
 ### أنظر أيضا
 
 * class [MappedDataFieldCollection](../)
-* مساحة الاسم [Aspose.Words.MailMerging](../../mappeddatafieldcollection/)
+* مساحة الاسم [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * المجسم [Aspose.Words](../../../)
-
-

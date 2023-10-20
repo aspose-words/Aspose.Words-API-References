@@ -1,7 +1,9 @@
 ---
 title: SvgSaveOptions.ShowPageBorder
-second_title: Aspose.Words لمراجع .NET API
-description: SvgSaveOptions ملكية. يتحكم في إضافة حد إلى المخطط التفصيلي للصفحة. الإعداد الافتراضي هوحقيقي .
+linktitle: ShowPageBorder
+articleTitle: ShowPageBorder
+second_title: Aspose.Words لـ .NET
+description: SvgSaveOptions ShowPageBorder ملكية. يتحكم في إضافة حد إلى المخطط التفصيلي للصفحة. الإعداد الافتراضي هوحقيقي  في C#.
 type: docs
 weight: 80
 url: /ar/net/aspose.words.saving/svgsaveoptions/showpageborder/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.saving/svgsaveoptions/showpageborder/
 public bool ShowPageBorder { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية محاكاة خصائص الصور عند تحويل مستند .docx إلى .svg.
 
@@ -35,7 +37,5 @@ doc.Save(ArtifactsDir + "SvgSaveOptions.SaveLikeImage.svg", options);
 ### أنظر أيضا
 
 * class [SvgSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../svgsaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

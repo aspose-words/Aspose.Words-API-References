@@ -1,7 +1,9 @@
 ---
 title: ListLabel.LabelValue
-second_title: Aspose.Words for .NET API 参考
-description: ListLabel 财产. 获取此标签的数值
+linktitle: LabelValue
+articleTitle: LabelValue
+second_title: 用于 .NET 的 Aspose.Words
+description: ListLabel LabelValue 财产. 获取此标签的数值 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.lists/listlabel/labelvalue/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.lists/listlabel/labelvalue/
 public int LabelValue { get; }
 ```
 
-### 评论
+## 评论
 
 使用[`UpdateListLabels`](../../../aspose.words/document/updatelistlabels/)更新此属性值的方法。
 
-### 例子
+## 例子
 
 演示如何提取属于列表项的所有段落的列表标签。
 
@@ -53,7 +55,5 @@ foreach (Paragraph paragraph in paras.OfType<Paragraph>().Where(p => p.ListForma
 ### 也可以看看
 
 * class [ListLabel](../)
-* 命名空间 [Aspose.Words.Lists](../../listlabel/)
+* 命名空间 [Aspose.Words.Lists](../../../aspose.words.lists/)
 * 部件 [Aspose.Words](../../../)
-
-

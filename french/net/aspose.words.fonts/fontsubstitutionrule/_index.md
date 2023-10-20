@@ -1,7 +1,9 @@
 ---
-title: Class FontSubstitutionRule
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Fonts.FontSubstitutionRule classe. Il sagit dune classe de base abstraite pour la règle de substitution de police.
+title: FontSubstitutionRule Class
+linktitle: FontSubstitutionRule
+articleTitle: FontSubstitutionRule
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Fonts.FontSubstitutionRule classe. Il sagit dune classe de base abstraite pour la règle de substitution de police en C#.
 type: docs
 weight: 3000
 url: /fr/net/aspose.words.fonts/fontsubstitutionrule/
@@ -22,7 +24,7 @@ public abstract class FontSubstitutionRule
 | --- | --- |
 | virtual [Enabled](../../aspose.words.fonts/fontsubstitutionrule/enabled/) { get; set; } | Spécifie si la règle est activée ou non. |
 
-### Exemples
+## Exemples
 
 Affiche la substitution de configuration de police dépendante du système d'exploitation.
 
@@ -59,5 +61,3 @@ if (isLinuxOrMac)
 
 * espace de noms [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * Assemblée [Aspose.Words](../../)
-
-

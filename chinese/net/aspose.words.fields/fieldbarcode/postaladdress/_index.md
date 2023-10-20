@@ -1,7 +1,9 @@
 ---
 title: FieldBarcode.PostalAddress
-second_title: Aspose.Words for .NET API 参考
-description: FieldBarcode 财产. 获取或设置用于生成条形码的邮政地址或引用它的书签的名称
+linktitle: PostalAddress
+articleTitle: PostalAddress
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldBarcode PostalAddress 财产. 获取或设置用于生成条形码的邮政地址或引用它的书签的名称 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words.fields/fieldbarcode/postaladdress/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fieldbarcode/postaladdress/
 public string PostalAddress { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何使用“条形码”字段以条形码的形式显示美国邮政编码。
 
@@ -57,7 +59,5 @@ doc.Save(ArtifactsDir + "Field.BARCODE.docx");
 ### 也可以看看
 
 * class [FieldBarcode](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldbarcode/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

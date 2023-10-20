@@ -1,7 +1,9 @@
 ---
 title: ListLevel.CreatePictureBullet
-second_title: Справочник по API Aspose.Words для .NET
-description: ListLevel метод. Создает форму графического маркера для текущего уровня списка.
+linktitle: CreatePictureBullet
+articleTitle: CreatePictureBullet
+second_title: Aspose.Words для .NET
+description: ListLevel CreatePictureBullet метод. Создает форму графического маркера для текущего уровня списка на С#.
 type: docs
 weight: 150
 url: /ru/net/aspose.words.lists/listlevel/createpicturebullet/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.lists/listlevel/createpicturebullet/
 public void CreatePictureBullet()
 ```
 
-### Примечания
+## Примечания
 
 Пожалуйста, обрати внимание,[`NumberStyle`](../numberstyle/) будет установлено наBullet and [`NumberFormat`](../numberformat/) на "\xF0B7" для правильного отображения маркера. Изображение красного креста будет установлено в качестве изображения маркера при создании. Чтобы изменить его, используйте[`ImageData`](../imagedata/).
 
-### Примеры
+## Примеры
 
 Показывает, как установить собственный значок изображения для меток элементов списка.
 
@@ -50,7 +52,5 @@ Assert.IsNull(list.ListLevels[0].ImageData);
 ### Смотрите также
 
 * class [ListLevel](../)
-* пространство имен [Aspose.Words.Lists](../../listlevel/)
+* пространство имен [Aspose.Words.Lists](../../../aspose.words.lists/)
 * сборка [Aspose.Words](../../../)
-
-

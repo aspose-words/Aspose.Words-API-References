@@ -1,7 +1,9 @@
 ---
 title: UserInformation.Initials
-second_title: Aspose.Words per .NET API Reference
-description: UserInformation proprietà. Ottiene o imposta le iniziali dellutente.
+linktitle: Initials
+articleTitle: Initials
+second_title: Aspose.Words per .NET
+description: UserInformation Initials proprietà. Ottiene o imposta le iniziali dellutente in C#.
 type: docs
 weight: 40
 url: /it/net/aspose.words.fields/userinformation/initials/
@@ -14,7 +16,7 @@ Ottiene o imposta le iniziali dell'utente.
 public string Initials { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come impostare i dettagli dell'utente e visualizzarli utilizzando i campi.
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "FieldOptions.CurrentUser.docx");
 ### Guarda anche
 
 * class [UserInformation](../)
-* spazio dei nomi [Aspose.Words.Fields](../../userinformation/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: CompareOptions.IgnoreComments
-second_title: Référence de l'API Aspose.Words pour .NET
-description: CompareOptions propriété. Spécifie sil faut comparer les différences dans les commentaires. Par défaut les commentaires ne sont pas ignorés.
+linktitle: IgnoreComments
+articleTitle: IgnoreComments
+second_title: Aspose.Words pour .NET
+description: CompareOptions IgnoreComments propriété. Spécifie sil faut comparer les différences dans les commentaires. Par défaut les commentaires ne sont pas ignorés en C#.
 type: docs
 weight: 50
 url: /fr/net/aspose.words.comparing/compareoptions/ignorecomments/
@@ -14,7 +16,7 @@ Spécifie s'il faut comparer les différences dans les commentaires. Par défaut
 public bool IgnoreComments { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment filtrer des types spécifiques d’éléments de document lors d’une comparaison.
 
@@ -88,7 +90,5 @@ docOriginal.Save(ArtifactsDir + "Document.CompareOptions.docx");
 ### Voir également
 
 * class [CompareOptions](../)
-* espace de noms [Aspose.Words.Comparing](../../compareoptions/)
+* espace de noms [Aspose.Words.Comparing](../../../aspose.words.comparing/)
 * Assemblée [Aspose.Words](../../../)
-
-

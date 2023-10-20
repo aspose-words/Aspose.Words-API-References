@@ -1,12 +1,14 @@
 ---
 title: Document.Protect
-second_title: Aspose.Words per .NET API Reference
-description: Document metodo. Protegge il documento da modifiche senza cambiare la password esistente o assegna una password casuale.
+linktitle: Protect
+articleTitle: Protect
+second_title: Aspose.Words per .NET
+description: Document Protect metodo. Protegge il documento da modifiche senza cambiare la password esistente o assegna una password casuale in C#.
 type: docs
-weight: 670
+weight: 650
 url: /it/net/aspose.words/document/protect/
 ---
-## Protect(ProtectionType) {#protect}
+## Protect(*[ProtectionType](../../protectiontype/)*) {#protect}
 
 Protegge il documento da modifiche senza cambiare la password esistente o assegna una password casuale.
 
@@ -18,7 +20,7 @@ public void Protect(ProtectionType type)
 | --- | --- | --- |
 | type | ProtectionType | Specifica il tipo di protezione per il documento. |
 
-### Osservazioni
+## Osservazioni
 
 Quando un documento è protetto, l'utente può apportare solo modifiche limitate, come aggiungere annotazioni, apportare revisioni o completare un modulo.
 
@@ -26,7 +28,7 @@ Quando proteggi un documento e il documento ha già una password di protezione, 
 
 Quando proteggi un documento e il documento non ha una password di protezione, questo metodo assegna una password casuale che rende impossibile rimuovere la protezione del documento in Microsoft Word, ma puoi comunque rimuovere la protezione del documento in Aspose.Words poiché non richiedere una password quando si rimuove la protezione.
 
-### Esempi
+## Esempi
 
 Mostra come disattivare la protezione per una sezione.
 
@@ -56,12 +58,12 @@ doc.Save(ArtifactsDir + "Section.Protect.docx");
 
 * enum [ProtectionType](../../protectiontype/)
 * class [Document](../)
-* spazio dei nomi [Aspose.Words](../../document/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
 
 ---
 
-## Protect(ProtectionType, string) {#protect_1}
+## Protect(*[ProtectionType](../../protectiontype/), string*) {#protect_1}
 
 Protegge il documento dalle modifiche e facoltativamente imposta una password di protezione.
 
@@ -74,13 +76,13 @@ public void Protect(ProtectionType type, string password)
 | type | ProtectionType | Specifica il tipo di protezione per il documento. |
 | password | String | La password con cui proteggere il documento. Specificare`nullo`oppure una stringa vuota se si desidera proteggere il documento senza password. |
 
-### Osservazioni
+## Osservazioni
 
 Quando un documento è protetto, l'utente può apportare solo modifiche limitate, come aggiungere annotazioni, apportare revisioni o completare un modulo.
 
 Tieni presente che la protezione del documento è diversa dalla protezione da scrittura. La protezione da scrittura viene specificata utilizzando il file[`WriteProtection`](../writeprotection/).
 
-### Esempi
+## Esempi
 
 Mostra come proteggere e rimuovere la protezione di un documento.
 
@@ -126,7 +128,5 @@ Assert.AreEqual(ProtectionType.NoProtection, doc.ProtectionType);
 
 * enum [ProtectionType](../../protectiontype/)
 * class [Document](../)
-* spazio dei nomi [Aspose.Words](../../document/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

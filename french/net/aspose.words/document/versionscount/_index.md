@@ -1,7 +1,9 @@
 ---
 title: Document.VersionsCount
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Document propriété. Obtient le nombre de versions de document stockées dans le document DOC.
+linktitle: VersionsCount
+articleTitle: VersionsCount
+second_title: Aspose.Words pour .NET
+description: Document VersionsCount propriété. Obtient le nombre de versions de document stockées dans le document DOC en C#.
 type: docs
 weight: 460
 url: /fr/net/aspose.words/document/versionscount/
@@ -14,13 +16,13 @@ Obtient le nombre de versions de document stockées dans le document DOC.
 public int VersionsCount { get; }
 ```
 
-### Remarques
+## Remarques
 
 Les versions dans Microsoft Word sont accessibles via le menu Fichier/Versions. Microsoft Word prend en charge les versions uniquement pour les fichiers DOC.
 
 Cette propriété permet de détecter s'il y avait des versions de documents stockées dans ce document avant son ouverture dans Aspose.Words. Aspose.Words ne fournit aucune autre prise en charge pour les versions de document. Si vous enregistrez ce document à l'aide d'Aspose.Words, le document sera enregistré sans versions.
 
-### Exemples
+## Exemples
 
 Montre comment utiliser la fonctionnalité de décompte des versions des anciens documents Microsoft Word.
 
@@ -39,7 +41,5 @@ Assert.AreEqual(0, doc.VersionsCount);
 ### Voir également
 
 * class [Document](../)
-* espace de noms [Aspose.Words](../../document/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

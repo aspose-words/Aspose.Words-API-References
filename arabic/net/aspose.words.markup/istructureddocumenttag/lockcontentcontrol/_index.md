@@ -1,14 +1,16 @@
 ---
 title: IStructuredDocumentTag.LockContentControl
-second_title: Aspose.Words لمراجع .NET API
-description: IStructuredDocumentTag ملكية. عند التعيين على صحيح ستمنع هذه الخاصية المستخدم من حذفها المعاملة الخاصة والتفضيلية .
+linktitle: LockContentControl
+articleTitle: LockContentControl
+second_title: Aspose.Words لـ .NET
+description: IStructuredDocumentTag LockContentControl ملكية. عند التعيين على صحيح ستمنع هذه الخاصية المستخدم من حذفهاالمعاملة الخاصة والتفضيلية  في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.markup/istructureddocumenttag/lockcontentcontrol/
 ---
 ## IStructuredDocumentTag.LockContentControl property
 
-عند التعيين على "صحيح"، ستمنع هذه الخاصية المستخدم من حذفها **المعاملة الخاصة والتفضيلية** .
+عند التعيين على "صحيح"، ستمنع هذه الخاصية المستخدم من حذفها**المعاملة الخاصة والتفضيلية** .
 
 ```csharp
 public bool LockContentControl { get; set; }
@@ -17,7 +19,5 @@ public bool LockContentControl { get; set; }
 ### أنظر أيضا
 
 * interface [IStructuredDocumentTag](../)
-* مساحة الاسم [Aspose.Words.Markup](../../istructureddocumenttag/)
+* مساحة الاسم [Aspose.Words.Markup](../../../aspose.words.markup/)
 * المجسم [Aspose.Words](../../../)
-
-

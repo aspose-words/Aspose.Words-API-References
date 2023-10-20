@@ -1,7 +1,9 @@
 ---
 title: ConditionalStyle.BottomPadding
-second_title: Aspose.Words لمراجع .NET API
-description: ConditionalStyle ملكية. الحصول على أو تعيين مقدار المسافة بالنقاط لإضافتها أسفل محتويات خلايا الجدول.
+linktitle: BottomPadding
+articleTitle: BottomPadding
+second_title: Aspose.Words لـ .NET
+description: ConditionalStyle BottomPadding ملكية. الحصول على أو تعيين مقدار المسافة بالنقاط لإضافتها أسفل محتويات خلايا الجدول في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words/conditionalstyle/bottompadding/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/conditionalstyle/bottompadding/
 public double BottomPadding { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع أنماط مناطق معينة في الجدول.
 
@@ -84,7 +86,5 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 ### أنظر أيضا
 
 * class [ConditionalStyle](../)
-* مساحة الاسم [Aspose.Words](../../conditionalstyle/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

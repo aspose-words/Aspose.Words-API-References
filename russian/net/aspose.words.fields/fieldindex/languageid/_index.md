@@ -1,7 +1,9 @@
 ---
 title: FieldIndex.LanguageId
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldIndex свойство. Получает или задает идентификатор языка используемый для создания индекса.
+linktitle: LanguageId
+articleTitle: LanguageId
+second_title: Aspose.Words для .NET
+description: FieldIndex LanguageId свойство. Получает или задает идентификатор языка используемый для создания индекса на С#.
 type: docs
 weight: 80
 url: /ru/net/aspose.words.fields/fieldindex/languageid/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldindex/languageid/
 public string LanguageId { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как заполнить поле INDEX записями с использованием полей XE, а также изменить его внешний вид.
 
@@ -86,7 +88,5 @@ doc.Save(ArtifactsDir + "Field.INDEX.XE.Formatting.docx");
 ### Смотрите также
 
 * class [FieldIndex](../)
-* пространство имен [Aspose.Words.Fields](../../fieldindex/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

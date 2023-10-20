@@ -1,7 +1,9 @@
 ---
-title: Interface IBarcodeGenerator
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Fields.IBarcodeGenerator koppel. Öffentliche Schnittstelle für den benutzerdefinierten BarcodeGenerator. Die Implementierung sollte vom Benutzer bereitgestellt werden.
+title: IBarcodeGenerator Interface
+linktitle: IBarcodeGenerator
+articleTitle: IBarcodeGenerator
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Fields.IBarcodeGenerator koppel. Öffentliche Schnittstelle für den benutzerdefinierten BarcodeGenerator. Die Implementierung sollte vom Benutzer bereitgestellt werden in C#.
 type: docs
 weight: 2660
 url: /de/net/aspose.words.fields/ibarcodegenerator/
@@ -18,14 +20,14 @@ public interface IBarcodeGenerator
 
 | Name | Beschreibung |
 | --- | --- |
-| [GetBarcodeImage](../../aspose.words.fields/ibarcodegenerator/getbarcodeimage/)(BarcodeParameters) | Erzeugen Sie ein Barcode-Bild mithilfe des Parametersatzes (für das DisplayBarcode-Feld). |
-| [GetOldBarcodeImage](../../aspose.words.fields/ibarcodegenerator/getoldbarcodeimage/)(BarcodeParameters) | Erzeugen Sie ein Barcode-Bild mithilfe des Parametersatzes (für das altmodische Barcode-Feld). |
+| [GetBarcodeImage](../../aspose.words.fields/ibarcodegenerator/getbarcodeimage/)(*[BarcodeParameters](../barcodeparameters/)*) | Erzeugen Sie ein Barcode-Bild mithilfe des Parametersatzes (für das DisplayBarcode-Feld). |
+| [GetOldBarcodeImage](../../aspose.words.fields/ibarcodegenerator/getoldbarcodeimage/)(*[BarcodeParameters](../barcodeparameters/)*) | Erzeugen Sie ein Barcode-Bild mithilfe des Parametersatzes (für das altmodische Barcode-Feld). |
 
-### Bemerkungen
+## Bemerkungen
 
 Generatorinstanz sollte durch die geleitet werden[`BarcodeGenerator`](../fieldoptions/barcodegenerator/) Eigenschaft.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Barcode-Generator verwendet wird.
 
@@ -102,5 +104,3 @@ doc.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.docx");
 
 * namensraum [Aspose.Words.Fields](../../aspose.words.fields/)
 * Montage [Aspose.Words](../../)
-
-

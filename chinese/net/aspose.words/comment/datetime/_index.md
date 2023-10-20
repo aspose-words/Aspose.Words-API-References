@@ -1,7 +1,9 @@
 ---
 title: Comment.DateTime
-second_title: Aspose.Words for .NET API 参考
-description: Comment 财产. 获取发表评论的日期和时间
+linktitle: DateTime
+articleTitle: DateTime
+second_title: 用于 .NET 的 Aspose.Words
+description: Comment DateTime 财产. 获取发表评论的日期和时间 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words/comment/datetime/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words/comment/datetime/
 public DateTime DateTime { get; set; }
 ```
 
-### 评论
+## 评论
 
 默认为MinValue。
 
-### 例子
+## 例子
 
 展示如何使用文档访问者打印所有注释的内容及其注释范围。
 
@@ -179,7 +181,5 @@ public class CommentInfoPrinter : DocumentVisitor
 ### 也可以看看
 
 * class [Comment](../)
-* 命名空间 [Aspose.Words](../../comment/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

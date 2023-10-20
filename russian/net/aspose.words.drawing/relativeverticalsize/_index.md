@@ -1,7 +1,9 @@
 ---
-title: Enum RelativeVerticalSize
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Drawing.RelativeVerticalSize перечисление. Указывает относительно чего рассчитывается высота фигуры или текстового фрейма по вертикали.
+title: RelativeVerticalSize Enum
+linktitle: RelativeVerticalSize
+articleTitle: RelativeVerticalSize
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Drawing.RelativeVerticalSize перечисление. Указывает относительно чего рассчитывается высота фигуры или текстового фрейма по вертикали на С#.
 type: docs
 weight: 1220
 url: /ru/net/aspose.words.drawing/relativeverticalsize/
@@ -26,7 +28,7 @@ public enum RelativeVerticalSize
 | OuterMargin | `5` | Указывает, что высота рассчитывается относительно размера области внешнего поля, - размера области нижнего поля для нечетных страниц и размера области верхнего поля для четных страниц. |
 | Default | `1` | Значение по умолчанию:Margin . |
 
-### Примеры
+## Примеры
 
 Показывает, как установить относительный размер и положение.
 
@@ -83,5 +85,3 @@ doc.Save(ArtifactsDir + "Shape.RelativeSizeAndPosition.docx");
 * property [RelativeVerticalSize](../shapebase/relativeverticalsize/)
 * пространство имен [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../)
-
-

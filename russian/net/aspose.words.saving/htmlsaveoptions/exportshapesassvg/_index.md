@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ExportShapesAsSvg
-second_title: Справочник по API Aspose.Words для .NET
-description: HtmlSaveOptions свойство. КонтролируетShapeузлы преобразуются в изображения SVG при сохранении в HTML MHTML EPUB или AZW3. Значение по умолчаниюЛОЖЬ .
+linktitle: ExportShapesAsSvg
+articleTitle: ExportShapesAsSvg
+second_title: Aspose.Words для .NET
+description: HtmlSaveOptions ExportShapesAsSvg свойство. КонтролируетShapeузлы преобразуются в изображения SVG при сохранении в HTML MHTML EPUB или AZW3. Значение по умолчаниюЛОЖЬ  на С#.
 type: docs
 weight: 250
 url: /ru/net/aspose.words.saving/htmlsaveoptions/exportshapesassvg/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.saving/htmlsaveoptions/exportshapesassvg/
 public bool ExportShapesAsSvg { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Если для этой опции установлено значение`истинный` ,[`Shape`](../../../aspose.words.drawing/shape/) узлы экспортируются как элементы &lt;svg&gt;. В противном случае они преобразуются в растровые изображения и экспортируются как элементы &lt;img&gt;.
 
-### Примеры
+## Примеры
 
 Показывает, как экспортировать фигуру в виде масштабируемой векторной графики.
 
@@ -61,7 +63,5 @@ else
 ### Смотрите также
 
 * class [HtmlSaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../htmlsaveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

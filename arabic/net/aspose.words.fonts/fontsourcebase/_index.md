@@ -1,7 +1,9 @@
 ---
-title: Class FontSourceBase
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Fonts.FontSourceBase فصل. هذه فئة أساسية مجردة للفئات التي تسمح للمستخدم بتحديد مصادر الخطوط المختلفة.
+title: FontSourceBase Class
+linktitle: FontSourceBase
+articleTitle: FontSourceBase
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Fonts.FontSourceBase فصل. هذه فئة أساسية مجردة للفئات التي تسمح للمستخدم بتحديد مصادر الخطوط المختلفة في C#.
 type: docs
 weight: 2980
 url: /ar/net/aspose.words.fonts/fontsourcebase/
@@ -30,7 +32,7 @@ public abstract class FontSourceBase
 | --- | --- |
 | [GetAvailableFonts](../../aspose.words.fonts/fontsourcebase/getavailablefonts/)() | إرجاع قائمة الخطوط المتوفرة عبر هذا المصدر. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام ملف الخط في نظام الملفات المحلي كمصدر للخط.
 
@@ -50,5 +52,3 @@ Assert.AreEqual(0, fileFontSource.Priority);
 
 * مساحة الاسم [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * المجسم [Aspose.Words](../../)
-
-

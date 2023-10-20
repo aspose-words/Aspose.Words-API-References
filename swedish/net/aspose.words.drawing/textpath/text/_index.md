@@ -1,7 +1,9 @@
 ---
 title: TextPath.Text
-second_title: Aspose.Words för .NET API Referens
-description: TextPath fast egendom. Definierar texten i textvägen.
+linktitle: Text
+articleTitle: Text
+second_title: Aspose.Words för .NET
+description: TextPath Text fast egendom. Definierar texten i textvägen i C#.
 type: docs
 weight: 160
 url: /sv/net/aspose.words.drawing/textpath/text/
@@ -14,11 +16,11 @@ Definierar texten i textvägen.
 public string Text { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Standardvärdet är en tom sträng.
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med WordArt.
 
@@ -121,7 +123,5 @@ private static Shape AppendWordArt(Document doc, string text, string textFontFam
 ### Se även
 
 * class [TextPath](../)
-* namnutrymme [Aspose.Words.Drawing](../../textpath/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.Bidi
-second_title: Aspose.Words per .NET API Reference
-description: ParagraphFormat proprietà. Ottiene o imposta se si tratta di un paragrafo da destra a sinistra.
+linktitle: Bidi
+articleTitle: Bidi
+second_title: Aspose.Words per .NET
+description: ParagraphFormat Bidi proprietà. Ottiene o imposta se si tratta di un paragrafo da destra a sinistra in C#.
 type: docs
 weight: 50
 url: /it/net/aspose.words/paragraphformat/bidi/
@@ -14,11 +16,11 @@ Ottiene o imposta se si tratta di un paragrafo da destra a sinistra.
 public bool Bidi { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Quando`VERO`, le sequenze e gli altri oggetti in linea in questo paragrafo sono disposti da destra a sinistra.
 
-### Esempi
+## Esempi
 
 Mostra come rilevare la direzione del testo di un documento di testo normale.
 
@@ -77,7 +79,5 @@ doc.Save(ArtifactsDir + "Field.BIDIOUTLINE.docx");
 ### Guarda anche
 
 * class [ParagraphFormat](../)
-* spazio dei nomi [Aspose.Words](../../paragraphformat/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

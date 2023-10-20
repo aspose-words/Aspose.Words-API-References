@@ -1,7 +1,9 @@
 ---
 title: Border.TintAndShade
-second_title: Aspose.Words per .NET API Reference
-description: Border proprietà. Ottiene o imposta un valore double che schiarisce o scurisce un colore.
+linktitle: TintAndShade
+articleTitle: TintAndShade
+second_title: Aspose.Words per .NET
+description: Border TintAndShade proprietà. Ottiene o imposta un valore double che schiarisce o scurisce un colore in C#.
 type: docs
 weight: 80
 url: /it/net/aspose.words/border/tintandshade/
@@ -14,13 +16,13 @@ Ottiene o imposta un valore double che schiarisce o scurisce un colore.
 public double TintAndShade { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 I valori consentiti sono compresi nell'intervallo da -1 (il più scuro) a 1 (il più chiaro) per questa proprietà. Zero (0) è neutro. Il tentativo di impostare questa proprietà su un valore inferiore a -1 o superiore a 1 risulta inArgumentOutOfRangeException.
 
 L'impostazione di questa proprietà per l'oggetto Border con colori non tematici risulta in:InvalidOperationException.
 
-### Esempi
+## Esempi
 
 Mostra come inserire un paragrafo con un bordo superiore.
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "Border.ParagraphTopBorder.docx");
 ### Guarda anche
 
 * class [Border](../)
-* spazio dei nomi [Aspose.Words](../../border/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

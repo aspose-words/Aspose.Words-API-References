@@ -1,7 +1,9 @@
 ---
 title: FieldDatabaseDataRow.CreateFrom
-second_title: Aspose.Words för .NET API Referens
-description: FieldDatabaseDataRow metod. Initierar en ny instans avFieldDatabaseDataRow class frånDataRow instans.
+linktitle: CreateFrom
+articleTitle: CreateFrom
+second_title: Aspose.Words för .NET
+description: FieldDatabaseDataRow CreateFrom metod. Initierar en ny instans avFieldDatabaseDataRow class frånDataRow instans i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.fields/fielddatabasedatarow/createfrom/
@@ -17,7 +19,5 @@ public static FieldDatabaseDataRow CreateFrom(DataRow dataRow)
 ### Se även
 
 * class [FieldDatabaseDataRow](../)
-* namnutrymme [Aspose.Words.Fields](../../fielddatabasedatarow/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FileFormatUtil.ImageTypeToExtension
-second_title: Aspose.Words لمراجع .NET API
-description: FileFormatUtil طريقة. تحويل قيمة تعدادية لنوع صورة Aspose.Words إلى امتداد ملف. الامتداد الذي تم إرجاعه عبارة عن سلسلة صغيرة ذات نقطة بادئة.
+linktitle: ImageTypeToExtension
+articleTitle: ImageTypeToExtension
+second_title: Aspose.Words لـ .NET
+description: FileFormatUtil ImageTypeToExtension طريقة. تحويل قيمة تعدادية لنوع صورة Aspose.Words إلى امتداد ملف. الامتداد الذي تم إرجاعه عبارة عن سلسلة صغيرة ذات نقطة بادئة في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words/fileformatutil/imagetypetoextension/
@@ -20,7 +22,7 @@ public static string ImageTypeToExtension(ImageType imageType)
 | --- | --- |
 | ArgumentException | يرمي عندما لا يمكن تحويل. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخراج الصور من مستند وحفظها في نظام الملفات المحلي كملفات فردية.
 
@@ -52,7 +54,5 @@ foreach (Shape shape in shapes.OfType<Shape>())
 
 * enum [ImageType](../../../aspose.words.drawing/imagetype/)
 * class [FileFormatUtil](../)
-* مساحة الاسم [Aspose.Words](../../fileformatutil/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Cell.Paragraphs
-second_title: Aspose.Words لمراجع .NET API
-description: Cell ملكية. الحصول على مجموعة من الفقرات التي تعتبر فرعية مباشرة للخلية.
+linktitle: Paragraphs
+articleTitle: Paragraphs
+second_title: Aspose.Words لـ .NET
+description: Cell Paragraphs ملكية. الحصول على مجموعة من الفقرات التي تعتبر فرعية مباشرة للخلية في C#.
 type: docs
 weight: 90
 url: /ar/net/aspose.words.tables/cell/paragraphs/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.tables/cell/paragraphs/
 public ParagraphCollection Paragraphs { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إعداد جدول للبقاء معًا في نفس الصفحة.
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "Table.KeepTableTogether.docx");
 
 * class [ParagraphCollection](../../../aspose.words/paragraphcollection/)
 * class [Cell](../)
-* مساحة الاسم [Aspose.Words.Tables](../../cell/)
+* مساحة الاسم [Aspose.Words.Tables](../../../aspose.words.tables/)
 * المجسم [Aspose.Words](../../../)
-
-

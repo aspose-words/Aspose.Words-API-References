@@ -1,7 +1,9 @@
 ---
 title: NodeCollection.IndexOf
-second_title: Aspose.Words per .NET API Reference
-description: NodeCollection metodo. Restituisce lindice in base zero del nodo specificato.
+linktitle: IndexOf
+articleTitle: IndexOf
+second_title: Aspose.Words per .NET
+description: NodeCollection IndexOf metodo. Restituisce lindice in base zero del nodo specificato in C#.
 type: docs
 weight: 70
 url: /it/net/aspose.words/nodecollection/indexof/
@@ -22,11 +24,11 @@ public int IndexOf(Node node)
 
 L'indice in base zero del nodo all'interno della raccolta, se trovato; altrimenti, -1.
 
-### Osservazioni
+## Osservazioni
 
 Questo metodo esegue una ricerca lineare; pertanto, il tempo medio di esecuzione è proporzionale a[`Count`](../count/).
 
-### Esempi
+## Esempi
 
 Mostra come ottenere l'indice di un nodo in una raccolta.
 
@@ -51,7 +53,5 @@ Assert.AreEqual(4, row.IndexOf(cell));
 
 * class [Node](../../node/)
 * class [NodeCollection](../)
-* spazio dei nomi [Aspose.Words](../../nodecollection/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

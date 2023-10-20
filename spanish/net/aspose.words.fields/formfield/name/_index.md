@@ -1,7 +1,9 @@
 ---
 title: FormField.Name
-second_title: Referencia de API de Aspose.Words para .NET
-description: FormField propiedad. Obtiene o establece el nombre del campo del formulario.
+linktitle: Name
+articleTitle: Name
+second_title: Aspose.Words para .NET
+description: FormField Name propiedad. Obtiene o establece el nombre del campo del formulario en C#.
 type: docs
 weight: 130
 url: /es/net/aspose.words.fields/formfield/name/
@@ -14,11 +16,11 @@ Obtiene o establece el nombre del campo del formulario.
 public string Name { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 Microsoft Word permite cadenas con un máximo de 20 caracteres.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo insertar un cuadro combinado.
 
@@ -42,7 +44,5 @@ doc.Save(ArtifactsDir + "FormFields.Create.html");
 ### Ver también
 
 * class [FormField](../)
-* espacio de nombres [Aspose.Words.Fields](../../formfield/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

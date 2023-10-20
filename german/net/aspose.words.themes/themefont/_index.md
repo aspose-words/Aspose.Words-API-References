@@ -1,7 +1,9 @@
 ---
-title: Enum ThemeFont
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Themes.ThemeFont opsomming. Gibt die Arten von Designschriftartennamen für Dokumentdesigns an.
+title: ThemeFont Enum
+linktitle: ThemeFont
+articleTitle: ThemeFont
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Themes.ThemeFont opsomming. Gibt die Arten von Designschriftartennamen für Dokumentdesigns an in C#.
 type: docs
 weight: 6490
 url: /de/net/aspose.words.themes/themefont/
@@ -22,11 +24,11 @@ public enum ThemeFont
 | Major | `1` | Hauptthema-Schriftart. |
 | Minor | `2` | Nebenthema-Schriftart. |
 
-### Bemerkungen
+## Bemerkungen
 
 Gibt einen Design-Schriftarttyp an, der in den Eigenschaften des übergeordneten Objekts als Design-Schriftart referenziert werden kann. Diese Design-Schriftart ist eine Referenz auf eine der vordefinierten Design-Schriftarten, die sich im Design-Teil des Dokuments befindet und Schriftarteninformationen zulässt zentral im Dokument eingestellt werden.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Themenstil erstellt und verwendet wird.
 
@@ -131,5 +133,3 @@ Assert.AreEqual(Color.Blue.ToArgb(), font.Color.ToArgb());
 
 * namensraum [Aspose.Words.Themes](../../aspose.words.themes/)
 * Montage [Aspose.Words](../../)
-
-

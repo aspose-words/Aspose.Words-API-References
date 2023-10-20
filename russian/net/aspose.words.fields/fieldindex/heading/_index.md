@@ -1,7 +1,9 @@
 ---
 title: FieldIndex.Heading
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldIndex свойство. Получает или задает заголовок который появляется в начале каждого набора записей для любой заданной буквы.
+linktitle: Heading
+articleTitle: Heading
+second_title: Aspose.Words для .NET
+description: FieldIndex Heading свойство. Получает или задает заголовок который появляется в начале каждого набора записей для любой заданной буквы на С#.
 type: docs
 weight: 70
 url: /ru/net/aspose.words.fields/fieldindex/heading/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldindex/heading/
 public string Heading { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как заполнить поле INDEX записями с использованием полей XE, а также изменить его внешний вид.
 
@@ -86,7 +88,5 @@ doc.Save(ArtifactsDir + "Field.INDEX.XE.Formatting.docx");
 ### Смотрите также
 
 * class [FieldIndex](../)
-* пространство имен [Aspose.Words.Fields](../../fieldindex/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

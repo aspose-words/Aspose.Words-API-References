@@ -1,9 +1,11 @@
 ---
 title: Document.UpdateFields
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Document méthode. Met à jour les valeurs des champs dans tout le document.
+linktitle: UpdateFields
+articleTitle: UpdateFields
+second_title: Aspose.Words pour .NET
+description: Document UpdateFields méthode. Met à jour les valeurs des champs dans tout le document en C#.
 type: docs
-weight: 770
+weight: 750
 url: /fr/net/aspose.words/document/updatefields/
 ---
 ## Document.UpdateFields method
@@ -14,7 +16,7 @@ Met à jour les valeurs des champs dans tout le document.
 public void UpdateFields()
 ```
 
-### Remarques
+## Remarques
 
 Lorsque vous ouvrez, modifiez puis enregistrez un document, Aspose.Words ne met pas à jour les champs automatiquement, il les garde intacts. Par conséquent, vous souhaiterez généralement appeler cette méthode avant d'enregistrer si vous avez modifié le document par programme et souhaitez vous assurer les valeurs de champ appropriées (calculées) apparaissent dans le document enregistré.
 
@@ -28,7 +30,7 @@ Utilisez le[`NormalizeFieldTypes`](../normalizefieldtypes/) avant la mise à jou
 
 Pour mettre à jour les champs dans une partie spécifique du document, utilisez[`UpdateFields`](../../range/updatefields/).
 
-### Exemples
+## Exemples
 
 Indique comment utiliser le champ QUOTE.
 
@@ -146,7 +148,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertToc.docx");
 ### Voir également
 
 * class [Document](../)
-* espace de noms [Aspose.Words](../../document/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

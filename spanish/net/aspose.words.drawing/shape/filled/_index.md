@@ -1,7 +1,9 @@
 ---
 title: Shape.Filled
-second_title: Referencia de API de Aspose.Words para .NET
-description: Shape propiedad. Determina si se rellenará el camino cerrado de la forma.
+linktitle: Filled
+articleTitle: Filled
+second_title: Aspose.Words para .NET
+description: Shape Filled propiedad. Determina si se rellenará el camino cerrado de la forma en C#.
 type: docs
 weight: 50
 url: /es/net/aspose.words.drawing/shape/filled/
@@ -14,13 +16,13 @@ Determina si se rellenará el camino cerrado de la forma.
 public bool Filled { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 Este es un atajo hacia el[`Visible`](../../fill/visible/) propiedad.
 
 El valor predeterminado es`verdadero`.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo iterar sobre todas las formas de un documento.
 
@@ -143,7 +145,5 @@ private class ShapeAppearancePrinter : DocumentVisitor
 ### Ver también
 
 * class [Shape](../)
-* espacio de nombres [Aspose.Words.Drawing](../../shape/)
+* espacio de nombres [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * asamblea [Aspose.Words](../../../)
-
-

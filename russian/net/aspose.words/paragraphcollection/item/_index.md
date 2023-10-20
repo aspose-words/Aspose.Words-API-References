@@ -1,7 +1,9 @@
 ---
 title: ParagraphCollection.Item
-second_title: Справочник по API Aspose.Words для .NET
-description: ParagraphCollection свойство. ПолучаетParagraph по данному индексу.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words для .NET
+description: ParagraphCollection Item свойство. ПолучаетParagraph по данному индексу на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words/paragraphcollection/item/
@@ -18,7 +20,7 @@ public Paragraph this[int index] { get; }
 | --- | --- |
 | index | Индекс в коллекции. |
 
-### Примечания
+## Примечания
 
 Индекс отсчитывается от нуля.
 
@@ -28,7 +30,7 @@ public Paragraph this[int index] { get; }
 
 Если индекс отрицателен и его абсолютное значение превышает количество элементов в списке, возвращается нулевая ссылка.
 
-### Примеры
+## Примеры
 
 Показывает, как проверить, является ли абзац измененной версией.
 
@@ -63,7 +65,5 @@ Assert.True(paragraphs[3].IsMoveToRevision);
 
 * class [Paragraph](../../paragraph/)
 * class [ParagraphCollection](../)
-* пространство имен [Aspose.Words](../../paragraphcollection/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

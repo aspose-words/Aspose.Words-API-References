@@ -1,7 +1,9 @@
 ---
-title: Interface IDocumentSavingCallback
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Saving.IDocumentSavingCallback interface. Implémentez cette interface si vous souhaitez que votre propre méthode personnalisée soit appelée lors de lenregistrement dun document.
+title: IDocumentSavingCallback Interface
+linktitle: IDocumentSavingCallback
+articleTitle: IDocumentSavingCallback
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Saving.IDocumentSavingCallback interface. Implémentez cette interface si vous souhaitez que votre propre méthode personnalisée soit appelée lors de lenregistrement dun document en C#.
 type: docs
 weight: 5150
 url: /fr/net/aspose.words.saving/idocumentsavingcallback/
@@ -18,9 +20,9 @@ public interface IDocumentSavingCallback
 
 | Nom | La description |
 | --- | --- |
-| [Notify](../../aspose.words.saving/idocumentsavingcallback/notify/)(DocumentSavingArgs) | Ceci est appelé pour informer de la progression de l'enregistrement du document. |
+| [Notify](../../aspose.words.saving/idocumentsavingcallback/notify/)(*[DocumentSavingArgs](../documentsavingargs/)*) | Ceci est appelé pour informer de la progression de l'enregistrement du document. |
 
-### Exemples
+## Exemples
 
 Montre comment gérer un document tout en l'enregistrant au format HTML.
 
@@ -191,5 +193,3 @@ public class SavingProgressCallback : IDocumentSavingCallback
 
 * espace de noms [Aspose.Words.Saving](../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../)
-
-

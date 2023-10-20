@@ -1,7 +1,9 @@
 ---
 title: PageSetup.LineStartingNumber
-second_title: Справочник по API Aspose.Words для .NET
-description: PageSetup свойство. Получает или задает номер начальной строки.
+linktitle: LineStartingNumber
+articleTitle: LineStartingNumber
+second_title: Aspose.Words для .NET
+description: PageSetup LineStartingNumber свойство. Получает или задает номер начальной строки на С#.
 type: docs
 weight: 250
 url: /ru/net/aspose.words/pagesetup/linestartingnumber/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/pagesetup/linestartingnumber/
 public int LineStartingNumber { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как включить нумерацию строк для раздела.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "PageSetup.LineNumbers.docx");
 ### Смотрите также
 
 * class [PageSetup](../)
-* пространство имен [Aspose.Words](../../pagesetup/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

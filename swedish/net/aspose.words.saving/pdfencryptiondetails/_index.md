@@ -1,7 +1,9 @@
 ---
-title: Class PdfEncryptionDetails
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Saving.PdfEncryptionDetails klass. Innehåller detaljer för kryptering och åtkomstbehörigheter för ett PDFdokument.
+title: PdfEncryptionDetails Class
+linktitle: PdfEncryptionDetails
+articleTitle: PdfEncryptionDetails
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Saving.PdfEncryptionDetails klass. Innehåller detaljer för kryptering och åtkomstbehörigheter för ett PDFdokument i C#.
 type: docs
 weight: 5460
 url: /sv/net/aspose.words.saving/pdfencryptiondetails/
@@ -20,8 +22,8 @@ public class PdfEncryptionDetails
 
 | namn | Beskrivning |
 | --- | --- |
-| [PdfEncryptionDetails](pdfencryptiondetails/#constructor)(string, string) | Initierar en instans av denna klass. |
-| [PdfEncryptionDetails](pdfencryptiondetails/#constructor_1)(string, string, PdfPermissions) | Initierar en instans av denna klass. |
+| [PdfEncryptionDetails](pdfencryptiondetails/#constructor)(*string, string*) | Initierar en instans av denna klass. |
+| [PdfEncryptionDetails](pdfencryptiondetails/#constructor_1)(*string, string, [PdfPermissions](../pdfpermissions/)*) | Initierar en instans av denna klass. |
 
 ## Egenskaper
 
@@ -31,7 +33,7 @@ public class PdfEncryptionDetails
 | [Permissions](../../aspose.words.saving/pdfencryptiondetails/permissions/) { get; set; } | Anger de operationer som är tillåtna för en användare på ett krypterat PDF-dokument. Standardvärdet ärDisallowAll . |
 | [UserPassword](../../aspose.words.saving/pdfencryptiondetails/userpassword/) { get; set; } | Anger användarlösenordet som krävs för att öppna det krypterade PDF-dokumentet. |
 
-### Exempel
+## Exempel
 
 Visar hur man ställer in behörigheter för ett sparat PDF-dokument.
 
@@ -59,5 +61,3 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.EncryptionPermissions.pdf", saveOptions)
 
 * namnutrymme [Aspose.Words.Saving](../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../)
-
-

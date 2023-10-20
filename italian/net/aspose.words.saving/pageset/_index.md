@@ -1,7 +1,9 @@
 ---
-title: Class PageSet
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Saving.PageSet classe. Descrive un insieme casuale di pagine.
+title: PageSet Class
+linktitle: PageSet
+articleTitle: PageSet
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Saving.PageSet classe. Descrive un insieme casuale di pagine in C#.
 type: docs
 weight: 5390
 url: /it/net/aspose.words.saving/pageset/
@@ -20,9 +22,9 @@ public sealed class PageSet
 
 | Nome | Descrizione |
 | --- | --- |
-| [PageSet](pageset/#constructor_1)(int) | Crea un set di una pagina in base all'indice esatto della pagina. |
-| [PageSet](pageset/#constructor_2)(params int[]) | Crea un set di pagine in base agli indici di pagina esatti. |
-| [PageSet](pageset/#constructor)(params PageRange[]) | Crea un set di pagine in base agli intervalli. |
+| [PageSet](pageset/#constructor_1)(*int*) | Crea un set di una pagina in base all'indice esatto della pagina. |
+| [PageSet](pageset/#constructor_2)(*params int[]*) | Crea un set di pagine in base agli indici di pagina esatti. |
+| [PageSet](pageset/#constructor)(*params PageRange[]*) | Crea un set di pagine in base agli intervalli. |
 
 ## Proprietà
 
@@ -36,5 +38,3 @@ public sealed class PageSet
 
 * spazio dei nomi [Aspose.Words.Saving](../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../)
-
-

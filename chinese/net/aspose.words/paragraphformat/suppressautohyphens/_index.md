@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.SuppressAutoHyphens
-second_title: Aspose.Words for .NET API 参考
-description: ParagraphFormat 财产. 指定当前段落是否应免除在文档设置中应用的任何连字符 
+linktitle: SuppressAutoHyphens
+articleTitle: SuppressAutoHyphens
+second_title: 用于 .NET 的 Aspose.Words
+description: ParagraphFormat SuppressAutoHyphens 财产. 指定当前段落是否应免除在文档设置中应用的任何连字符  在 C#.
 type: docs
 weight: 370
 url: /zh/net/aspose.words/paragraphformat/suppressautohyphens/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/paragraphformat/suppressautohyphens/
 public bool SuppressAutoHyphens { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何取消段落的连字符。
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "ParagraphFormat.SuppressHyphens.pdf");
 ### 也可以看看
 
 * class [ParagraphFormat](../)
-* 命名空间 [Aspose.Words](../../paragraphformat/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

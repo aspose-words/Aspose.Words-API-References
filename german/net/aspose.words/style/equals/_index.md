@@ -1,9 +1,11 @@
 ---
 title: Style.Equals
-second_title: Aspose.Words für .NET-API-Referenz
-description: Style methode. Vergleicht mit dem angegebenen Stil. IstdsStile werden nur für integrierte Stile verglichen. Standardwerte für Stile werden nicht im Vergleich berücksichtigt. Basisstil verknüpfter Stil und Stil für den nächsten Absatz werden rekursiv verglichen.
+linktitle: Equals
+articleTitle: Equals
+second_title: Aspose.Words für .NET
+description: Style Equals methode. Vergleicht mit dem angegebenen Stil. IstdsStile werden nur für integrierte Stile verglichen. Standardwerte für Stile werden nicht im Vergleich berücksichtigt. Basisstil verknüpfter Stil und Stil für den nächsten Absatz werden rekursiv verglichen in C#.
 type: docs
-weight: 190
+weight: 180
 url: /de/net/aspose.words/style/equals/
 ---
 ## Style.Equals method
@@ -14,7 +16,7 @@ Vergleicht mit dem angegebenen Stil. Istds-Stile werden nur für integrierte Sti
 public bool Equals(Style style)
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Stilaliase verwendet werden.
 
@@ -45,7 +47,5 @@ Assert.AreEqual(doc.FirstSection.Body.Paragraphs[0].ParagraphFormat.Style,
 ### Siehe auch
 
 * class [Style](../)
-* namensraum [Aspose.Words](../../style/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

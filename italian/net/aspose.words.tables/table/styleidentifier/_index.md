@@ -1,7 +1,9 @@
 ---
 title: Table.StyleIdentifier
-second_title: Aspose.Words per .NET API Reference
-description: Table proprietà. Ottiene o imposta lidentificatore di stile indipendente dalle impostazioni locali dello stile di tabella applicato a questa tabella.
+linktitle: StyleIdentifier
+articleTitle: StyleIdentifier
+second_title: Aspose.Words per .NET
+description: Table StyleIdentifier proprietà. Ottiene o imposta lidentificatore di stile indipendente dalle impostazioni locali dello stile di tabella applicato a questa tabella in C#.
 type: docs
 weight: 280
 url: /it/net/aspose.words.tables/table/styleidentifier/
@@ -14,7 +16,7 @@ Ottiene o imposta l'identificatore di stile indipendente dalle impostazioni loca
 public StyleIdentifier StyleIdentifier { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come creare una nuova tabella durante l'applicazione di uno stile.
 
@@ -66,7 +68,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTableWithStyle.docx");
 
 * enum [StyleIdentifier](../../../aspose.words/styleidentifier/)
 * class [Table](../)
-* spazio dei nomi [Aspose.Words.Tables](../../table/)
+* spazio dei nomi [Aspose.Words.Tables](../../../aspose.words.tables/)
 * assemblea [Aspose.Words](../../../)
-
-

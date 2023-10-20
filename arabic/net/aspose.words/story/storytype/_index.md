@@ -1,7 +1,9 @@
 ---
 title: Story.StoryType
-second_title: Aspose.Words لمراجع .NET API
-description: Story ملكية. احصل على نوع هذه القصة.
+linktitle: StoryType
+articleTitle: StoryType
+second_title: Aspose.Words لـ .NET
+description: Story StoryType ملكية. احصل على نوع هذه القصة في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words/story/storytype/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/story/storytype/
 public StoryType StoryType { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إزالة كافة الأشكال من العقدة.
 
@@ -39,7 +41,5 @@ Assert.AreEqual(0, doc.GetChildNodes(NodeType.Shape, true).Count);
 
 * enum [StoryType](../../storytype/)
 * class [Story](../)
-* مساحة الاسم [Aspose.Words](../../story/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

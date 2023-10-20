@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.CurrentStory
-second_title: Aspose.Words لمراجع .NET API
-description: DocumentBuilder ملكية. يحصل على القصة المحددة حاليًا في هذاDocumentBuilder .
+linktitle: CurrentStory
+articleTitle: CurrentStory
+second_title: Aspose.Words لـ .NET
+description: DocumentBuilder CurrentStory ملكية. يحصل على القصة المحددة حاليًا في هذاDocumentBuilder  في C#.
 type: docs
 weight: 70
 url: /ar/net/aspose.words/documentbuilder/currentstory/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/documentbuilder/currentstory/
 public Story CurrentStory { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التعامل مع القصة الحالية لمنشئ المستندات.
 
@@ -44,7 +46,5 @@ Assert.IsTrue(builder.CurrentStory.Tables.Contains(table));
 
 * class [Story](../../story/)
 * class [DocumentBuilder](../)
-* مساحة الاسم [Aspose.Words](../../documentbuilder/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FileFormatUtil.ContentTypeToLoadFormat
-second_title: Aspose.Words per .NET API Reference
-description: FileFormatUtil metodo. Converte il tipo di contenuto IANA in un valore enumerato del formato di caricamento.
+linktitle: ContentTypeToLoadFormat
+articleTitle: ContentTypeToLoadFormat
+second_title: Aspose.Words per .NET
+description: FileFormatUtil ContentTypeToLoadFormat metodo. Converte il tipo di contenuto IANA in un valore enumerato del formato di caricamento in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words/fileformatutil/contenttypetoloadformat/
@@ -20,7 +22,7 @@ public static LoadFormat ContentTypeToLoadFormat(string contentType)
 | --- | --- |
 | ArgumentException | Lancia quando non è possibile convertire. |
 
-### Esempi
+## Esempi
 
 Mostra come trovare il formato di caricamento/salvataggio Aspose corrispondente da ciascuna stringa del tipo di supporto.
 
@@ -75,7 +77,5 @@ Assert.AreEqual(SaveFormat.Mhtml, FileFormatUtil.ContentTypeToSaveFormat("multip
 
 * enum [LoadFormat](../../loadformat/)
 * class [FileFormatUtil](../)
-* spazio dei nomi [Aspose.Words](../../fileformatutil/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

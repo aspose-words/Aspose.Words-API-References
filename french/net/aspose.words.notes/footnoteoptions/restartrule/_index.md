@@ -1,7 +1,9 @@
 ---
 title: FootnoteOptions.RestartRule
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FootnoteOptions propriété. Détermine quand la numérotation automatique redémarre.
+linktitle: RestartRule
+articleTitle: RestartRule
+second_title: Aspose.Words pour .NET
+description: FootnoteOptions RestartRule propriété. Détermine quand la numérotation automatique redémarre en C#.
 type: docs
 weight: 40
 url: /fr/net/aspose.words.notes/footnoteoptions/restartrule/
@@ -14,7 +16,7 @@ Détermine quand la numérotation automatique redémarre.
 public FootnoteNumberingRule RestartRule { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment redémarrer la numérotation des notes de bas de page/notes de fin à certains endroits du document.
 
@@ -70,7 +72,5 @@ doc.Save(ArtifactsDir + "InlineStory.NumberingRule.docx");
 
 * enum [FootnoteNumberingRule](../../footnotenumberingrule/)
 * class [FootnoteOptions](../)
-* espace de noms [Aspose.Words.Notes](../../footnoteoptions/)
+* espace de noms [Aspose.Words.Notes](../../../aspose.words.notes/)
 * Assemblée [Aspose.Words](../../../)
-
-

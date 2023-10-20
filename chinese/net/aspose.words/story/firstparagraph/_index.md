@@ -1,7 +1,9 @@
 ---
 title: Story.FirstParagraph
-second_title: Aspose.Words for .NET API 参考
-description: Story 财产. 获取故事中的第一段
+linktitle: FirstParagraph
+articleTitle: FirstParagraph
+second_title: 用于 .NET 的 Aspose.Words
+description: Story FirstParagraph 财产. 获取故事中的第一段 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words/story/firstparagraph/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/story/firstparagraph/
 public Paragraph FirstParagraph { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何使用其字体属性设置文本串的格式。
 
@@ -63,7 +65,5 @@ doc.Save(ArtifactsDir + "Shape.CreateTextBox.docx");
 
 * class [Paragraph](../../paragraph/)
 * class [Story](../)
-* 命名空间 [Aspose.Words](../../story/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldCreateDate.UseSakaEraCalendar
-second_title: Aspose.Words per .NET API Reference
-description: FieldCreateDate proprietà. Ottiene o imposta se utilizzare il calendario dellera Saka.
+linktitle: UseSakaEraCalendar
+articleTitle: UseSakaEraCalendar
+second_title: Aspose.Words per .NET
+description: FieldCreateDate UseSakaEraCalendar proprietà. Ottiene o imposta se utilizzare il calendario dellera Saka in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words.fields/fieldcreatedate/usesakaeracalendar/
@@ -14,7 +16,7 @@ Ottiene o imposta se utilizzare il calendario dell'era Saka.
 public bool UseSakaEraCalendar { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come utilizzare il campo CREATEDATE per visualizzare la data/ora di creazione del documento.
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "Field.CREATEDATE.docx");
 ### Guarda anche
 
 * class [FieldCreateDate](../)
-* spazio dei nomi [Aspose.Words.Fields](../../fieldcreatedate/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

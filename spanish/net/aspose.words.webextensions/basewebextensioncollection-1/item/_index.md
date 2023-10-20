@@ -1,7 +1,9 @@
 ---
 title: BaseWebExtensionCollection1.Item
-second_title: Referencia de API de Aspose.Words para .NET
-description: BaseWebExtensionCollection propiedad. Obtiene o establece un elemento en el índice especificado.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words para .NET
+description: BaseWebExtensionCollection Item propiedad. Obtiene o establece un elemento en el índice especificado en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words.webextensions/basewebextensioncollection-1/item/
@@ -18,7 +20,7 @@ public T this[int index] { get; set; }
 | --- | --- |
 | index | Índice de base cero del artículo. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo trabajar con la colección de extensiones web de un documento.
 
@@ -47,7 +49,5 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 ### Ver también
 
 * class [BaseWebExtensionCollection&lt;T&gt;](../)
-* espacio de nombres [Aspose.Words.WebExtensions](../../basewebextensioncollection-1/)
+* espacio de nombres [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * asamblea [Aspose.Words](../../../)
-
-

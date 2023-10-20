@@ -1,7 +1,9 @@
 ---
 title: MailMergeSettings.MailAsAttachment
-second_title: Aspose.Words für .NET-API-Referenz
-description: MailMergeSettings eigendom. Gibt an dass die während eines Seriendruckvorgangs erstellten Dokumente als Anhang und nicht als und nicht als Text der eigentlichen EMail per EMail gesendet werden sollen. Der Standardwert istFALSCH .
+linktitle: MailAsAttachment
+articleTitle: MailAsAttachment
+second_title: Aspose.Words für .NET
+description: MailMergeSettings MailAsAttachment eigendom. Gibt an dass die während eines Seriendruckvorgangs erstellten Dokumente als Anhang und nicht als und nicht als Text der eigentlichen EMail per EMail gesendet werden sollen. Der Standardwert istFALSCH  in C#.
 type: docs
 weight: 120
 url: /de/net/aspose.words.settings/mailmergesettings/mailasattachment/
@@ -14,7 +16,7 @@ Gibt an, dass die während eines Seriendruckvorgangs erstellten Dokumente als An
 public bool MailAsAttachment { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Serienbrief ausgeführt wird, während eine Verbindung zu einer externen Datenquelle hergestellt wird.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "MailMerge.OdsoEmail.docx");
 ### Siehe auch
 
 * class [MailMergeSettings](../)
-* namensraum [Aspose.Words.Settings](../../mailmergesettings/)
+* namensraum [Aspose.Words.Settings](../../../aspose.words.settings/)
 * Montage [Aspose.Words](../../../)
-
-

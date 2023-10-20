@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTagRangeStart.WordOpenXML
-second_title: Referencia de API de Aspose.Words para .NET
-description: StructuredDocumentTagRangeStart propiedad. Obtiene una cadena que representa el XML contenido dentro del nodo en elFlatOpc formato.
+linktitle: WordOpenXML
+articleTitle: WordOpenXML
+second_title: Aspose.Words para .NET
+description: StructuredDocumentTagRangeStart WordOpenXML propiedad. Obtiene una cadena que representa el XML contenido dentro del nodo en elFlatOpc formato en C#.
 type: docs
 weight: 170
 url: /es/net/aspose.words.markup/structureddocumenttagrangestart/wordopenxml/
@@ -14,7 +16,7 @@ Obtiene una cadena que representa el XML contenido dentro del nodo en elFlatOpc 
 public string WordOpenXML { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo obtener las propiedades de etiquetas de documentos estructurados de varias secciones.
 
@@ -49,7 +51,5 @@ Console.WriteLine($"\t|NodeType: {rangeEndTag.NodeType}");
 ### Ver también
 
 * class [StructuredDocumentTagRangeStart](../)
-* espacio de nombres [Aspose.Words.Markup](../../structureddocumenttagrangestart/)
+* espacio de nombres [Aspose.Words.Markup](../../../aspose.words.markup/)
 * asamblea [Aspose.Words](../../../)
-
-

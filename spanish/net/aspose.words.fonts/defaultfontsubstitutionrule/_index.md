@@ -1,7 +1,9 @@
 ---
-title: Class DefaultFontSubstitutionRule
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Fonts.DefaultFontSubstitutionRule clase. Regla de sustitución de fuentes predeterminada.
+title: DefaultFontSubstitutionRule Class
+linktitle: DefaultFontSubstitutionRule
+articleTitle: DefaultFontSubstitutionRule
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Fonts.DefaultFontSubstitutionRule clase. Regla de sustitución de fuentes predeterminada en C#.
 type: docs
 weight: 2840
 url: /es/net/aspose.words.fonts/defaultfontsubstitutionrule/
@@ -23,11 +25,11 @@ public class DefaultFontSubstitutionRule : FontSubstitutionRule
 | [DefaultFontName](../../aspose.words.fonts/defaultfontsubstitutionrule/defaultfontname/) { get; set; } | Obtiene o establece el nombre de fuente predeterminado. |
 | virtual [Enabled](../../aspose.words.fonts/fontsubstitutionrule/enabled/) { get; set; } | Especifica si la regla está habilitada o no. |
 
-### Observaciones
+## Observaciones
 
 Esta regla define un nombre de fuente predeterminado único que se utilizará para la sustitución si la fuente original no está disponible.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo configurar la regla de sustitución de fuentes predeterminada.
 
@@ -61,5 +63,3 @@ doc.Save(ArtifactsDir + "FontSettings.DefaultFontSubstitutionRule.pdf");
 * class [FontSubstitutionRule](../fontsubstitutionrule/)
 * espacio de nombres [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * asamblea [Aspose.Words](../../)
-
-

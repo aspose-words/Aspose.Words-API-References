@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTagCollection.Count
-second_title: Aspose.Words für .NET-API-Referenz
-description: StructuredDocumentTagCollection eigendom. Gibt die Anzahl der strukturierten DokumentTags in der Sammlung zurück.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words für .NET
+description: StructuredDocumentTagCollection Count eigendom. Gibt die Anzahl der strukturierten DokumentTags in der Sammlung zurück in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words.markup/structureddocumenttagcollection/count/
@@ -17,7 +19,5 @@ public int Count { get; }
 ### Siehe auch
 
 * class [StructuredDocumentTagCollection](../)
-* namensraum [Aspose.Words.Markup](../../structureddocumenttagcollection/)
+* namensraum [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Montage [Aspose.Words](../../../)
-
-

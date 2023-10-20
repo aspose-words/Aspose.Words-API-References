@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ResourceFolder
-second_title: Aspose.Words لمراجع .NET API
-description: HtmlSaveOptions ملكية. يحدد مجلدًا فعليًا حيث يتم حفظ جميع الموارد مثل الصور والخطوط وCSS الخارجية عند تصدير document إلى HTML. الافتراضي هو سلسلة فارغة.
+linktitle: ResourceFolder
+articleTitle: ResourceFolder
+second_title: Aspose.Words لـ .NET
+description: HtmlSaveOptions ResourceFolder ملكية. يحدد مجلدًا فعليًا حيث يتم حفظ جميع الموارد مثل الصور والخطوط وCSS الخارجية عند تصدير document إلى HTML. الافتراضي هو سلسلة فارغة في C#.
 type: docs
 weight: 420
 url: /ar/net/aspose.words.saving/htmlsaveoptions/resourcefolder/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.saving/htmlsaveoptions/resourcefolder/
 public string ResourceFolder { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 `ResourceFolder` هي أبسط طريقة لتحديد المجلد الذي يجب كتابة جميع الموارد فيه. هناك طريقة أخرى وهي استخدام الخصائص الفردية[`FontsFolder`](../fontsfolder/) ,[`ImagesFolder`](../imagesfolder/) و[`CssStyleSheetFileName`](../cssstylesheetfilename/).
 
@@ -22,7 +24,7 @@ public string ResourceFolder { get; set; }
 
 إذا كان المجلد المحدد بواسطة`ResourceFolder` غير موجود، سيتم إنشاؤه تلقائيًا.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين المجلدات والأسماء المستعارة للمجلدات للموارد المحفوظة خارجيًا والتي سيقوم Aspose.Words بإنشائها عند حفظ مستند إلى HTML.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "HtmlSaveOptions.FolderAlias.html", options);
 ### أنظر أيضا
 
 * class [HtmlSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../htmlsaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

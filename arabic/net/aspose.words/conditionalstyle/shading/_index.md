@@ -1,7 +1,9 @@
 ---
 title: ConditionalStyle.Shading
-second_title: Aspose.Words لمراجع .NET API
-description: ConditionalStyle ملكية. يحصل علىShading الكائن الذي يشير إلى تنسيق التظليل لهذا النمط الشرطي.
+linktitle: Shading
+articleTitle: Shading
+second_title: Aspose.Words لـ .NET
+description: ConditionalStyle Shading ملكية. يحصل علىShading الكائن الذي يشير إلى تنسيق التظليل لهذا النمط الشرطي في C#.
 type: docs
 weight: 70
 url: /ar/net/aspose.words/conditionalstyle/shading/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/conditionalstyle/shading/
 public Shading Shading { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع أنماط مناطق معينة في الجدول.
 
@@ -85,7 +87,5 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 
 * class [Shading](../../shading/)
 * class [ConditionalStyle](../)
-* مساحة الاسم [Aspose.Words](../../conditionalstyle/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

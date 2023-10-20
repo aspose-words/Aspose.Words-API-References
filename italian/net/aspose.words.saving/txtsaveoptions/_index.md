@@ -1,7 +1,9 @@
 ---
-title: Class TxtSaveOptions
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Saving.TxtSaveOptions classe. Può essere utilizzato per specificare opzioni aggiuntive quando si salva un documento nel fileText formato.
+title: TxtSaveOptions Class
+linktitle: TxtSaveOptions
+articleTitle: TxtSaveOptions
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Saving.TxtSaveOptions classe. Può essere utilizzato per specificare opzioni aggiuntive quando si salva un documento nel fileText formato in C#.
 type: docs
 weight: 5660
 url: /it/net/aspose.words.saving/txtsaveoptions/
@@ -29,11 +31,11 @@ public class TxtSaveOptions : TxtSaveOptionsBase
 | [AddBidiMarks](../../aspose.words.saving/txtsaveoptions/addbidimarks/) { get; set; } | Specifica se aggiungere indicatori bidirezionali prima di ogni esecuzione BiDi durante l'esportazione in formato testo normale. |
 | [AllowEmbeddingPostScriptFonts](../../aspose.words.saving/saveoptions/allowembeddingpostscriptfonts/) { get; set; } | Ottiene o imposta un valore booleano che indica se consentire l'incorporamento di caratteri con contorni PostScript quando si incorporano caratteri TrueType in un documento al momento del salvataggio. Il valore predefinito è`falso` . |
 | [CustomTimeZoneInfo](../../aspose.words.saving/saveoptions/customtimezoneinfo/) { get; set; } | Ottiene o imposta il fuso orario locale personalizzato utilizzato per i campi data/ora. |
-| [DefaultTemplate](../../aspose.words.saving/saveoptions/defaulttemplate/) { get; set; } | Ottiene o imposta il percorso del modello predefinito (incluso il nome file). Il valore predefinito per questa proprietà è **stringa vuota** (Empty). |
+| [DefaultTemplate](../../aspose.words.saving/saveoptions/defaulttemplate/) { get; set; } | Ottiene o imposta il percorso del modello predefinito (incluso il nome file). Il valore predefinito per questa proprietà è**stringa vuota** (Empty). |
 | [Dml3DEffectsRenderingMode](../../aspose.words.saving/saveoptions/dml3deffectsrenderingmode/) { get; set; } | Ottiene o imposta un valore che determina la modalità di rendering degli effetti 3D. |
 | virtual [DmlEffectsRenderingMode](../../aspose.words.saving/saveoptions/dmleffectsrenderingmode/) { get; set; } | Ottiene o imposta un valore che determina la modalità di rendering degli effetti DrawingML. |
 | [DmlRenderingMode](../../aspose.words.saving/saveoptions/dmlrenderingmode/) { get; set; } | Ottiene o imposta un valore che determina la modalità di rendering delle forme DrawingML. |
-| [Encoding](../../aspose.words.saving/txtsaveoptionsbase/encoding/) { get; set; } | Specifica la codifica da utilizzare durante l'esportazione in formati di testo. Il valore predefinito è **Codifica.UTF8** . |
+| [Encoding](../../aspose.words.saving/txtsaveoptionsbase/encoding/) { get; set; } | Specifica la codifica da utilizzare durante l'esportazione in formati di testo. Il valore predefinito è**Codifica.UTF8** . |
 | [ExportGeneratorName](../../aspose.words.saving/saveoptions/exportgeneratorname/) { get; set; } | Quando`VERO` , fa sì che il nome e la versione di Aspose.Words vengano incorporati nei file prodotti. Il valore predefinito è`VERO` . |
 | [ExportHeadersFootersMode](../../aspose.words.saving/txtsaveoptionsbase/exportheadersfootersmode/) { get; set; } | Specifica il modo in cui le intestazioni e i piè di pagina vengono esportati nei formati di testo. Il valore predefinito èPrimaryOnly . |
 | [ForcePageBreaks](../../aspose.words.saving/txtsaveoptionsbase/forcepagebreaks/) { get; set; } | Permette di specificare se le interruzioni di pagina devono essere preservate durante l'esportazione. |
@@ -55,7 +57,7 @@ public class TxtSaveOptions : TxtSaveOptionsBase
 | [UseAntiAliasing](../../aspose.words.saving/saveoptions/useantialiasing/) { get; set; } | Ottiene o imposta un valore che determina se utilizzare o meno l'antialiasing per il rendering. |
 | [UseHighQualityRendering](../../aspose.words.saving/saveoptions/usehighqualityrendering/) { get; set; } | Ottiene o imposta un valore che determina se utilizzare o meno algoritmi di rendering di alta qualità (ovvero lenti). |
 
-### Esempi
+## Esempi
 
 Mostra come salvare un documento .txt con un'interruzione di paragrafo personalizzata.
 
@@ -90,5 +92,3 @@ Assert.AreEqual("Paragraph 1. End of paragraph.\n\n\t" +
 * class [TxtSaveOptionsBase](../txtsaveoptionsbase/)
 * spazio dei nomi [Aspose.Words.Saving](../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../)
-
-

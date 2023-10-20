@@ -1,7 +1,9 @@
 ---
 title: FieldTC.Text
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldTC eigendom. Ruft den Text des Eintrags ab oder legt ihn fest.
+linktitle: Text
+articleTitle: Text
+second_title: Aspose.Words für .NET
+description: FieldTC Text eigendom. Ruft den Text des Eintrags ab oder legt ihn fest in C#.
 type: docs
 weight: 40
 url: /de/net/aspose.words.fields/fieldtc/text/
@@ -14,7 +16,7 @@ Ruft den Text des Eintrags ab oder legt ihn fest.
 public string Text { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man ein TOC-Feld einfügt und filtert, welche TC-Felder als Einträge enden.
 
@@ -66,7 +68,5 @@ public void InsertTocEntry(DocumentBuilder builder, string text, string typeIden
 ### Siehe auch
 
 * class [FieldTC](../)
-* namensraum [Aspose.Words.Fields](../../fieldtc/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

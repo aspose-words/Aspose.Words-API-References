@@ -1,7 +1,9 @@
 ---
 title: FormField.Type
-second_title: Aspose.Words för .NET API Referens
-description: FormField fast egendom. Returnerar formulärfältstypen.
+linktitle: Type
+articleTitle: Type
+second_title: Aspose.Words för .NET
+description: FormField Type fast egendom. Returnerar formulärfältstypen i C#.
 type: docs
 weight: 220
 url: /sv/net/aspose.words.fields/formfield/type/
@@ -14,7 +16,7 @@ Returnerar formulärfältstypen.
 public FieldType Type { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man infogar en kombinationsruta.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "FormFields.Create.html");
 
 * enum [FieldType](../../fieldtype/)
 * class [FormField](../)
-* namnutrymme [Aspose.Words.Fields](../../formfield/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

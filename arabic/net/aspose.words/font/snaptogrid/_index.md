@@ -1,7 +1,9 @@
 ---
 title: Font.SnapToGrid
-second_title: Aspose.Words لمراجع .NET API
-description: Font ملكية. يحدد ما إذا كان الخط الحالي يجب أن يستخدم أحرف شبكة المستند لكل إعدادات السطر عند التخطيط.
+linktitle: SnapToGrid
+articleTitle: SnapToGrid
+second_title: Aspose.Words لـ .NET
+description: Font SnapToGrid ملكية. يحدد ما إذا كان الخط الحالي يجب أن يستخدم أحرف شبكة المستند لكل إعدادات السطر عند التخطيط في C#.
 type: docs
 weight: 370
 url: /ar/net/aspose.words/font/snaptogrid/
@@ -17,7 +19,5 @@ public bool SnapToGrid { get; set; }
 ### أنظر أيضا
 
 * class [Font](../)
-* مساحة الاسم [Aspose.Words](../../font/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

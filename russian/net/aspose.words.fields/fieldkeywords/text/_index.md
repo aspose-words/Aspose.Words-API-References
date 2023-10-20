@@ -1,7 +1,9 @@
 ---
 title: FieldKeywords.Text
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldKeywords свойство. Получает или задает текст ключевых слов.
+linktitle: Text
+articleTitle: Text
+second_title: Aspose.Words для .NET
+description: FieldKeywords Text свойство. Получает или задает текст ключевых слов на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.fields/fieldkeywords/text/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldkeywords/text/
 public string Text { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, что нужно вставить поле КЛЮЧЕВЫЕ СЛОВА.
 
@@ -47,7 +49,5 @@ doc.Save(ArtifactsDir + "Field.KEYWORDS.docx");
 ### Смотрите также
 
 * class [FieldKeywords](../)
-* пространство имен [Aspose.Words.Fields](../../fieldkeywords/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

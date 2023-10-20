@@ -1,7 +1,9 @@
 ---
 title: ListLevel.TabPosition
-second_title: Aspose.Words för .NET API Referens
-description: ListLevel fast egendom. Returnerar eller ställer in tabbpositionen i punkter för listnivån.
+linktitle: TabPosition
+articleTitle: TabPosition
+second_title: Aspose.Words för .NET
+description: ListLevel TabPosition fast egendom. Returnerar eller ställer in tabbpositionen i punkter för listnivån i C#.
 type: docs
 weight: 120
 url: /sv/net/aspose.words.lists/listlevel/tabposition/
@@ -14,11 +16,11 @@ Returnerar eller ställer in tabbpositionen (i punkter) för listnivån.
 public double TabPosition { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Har effekt endast när[`TrailingCharacter`](../trailingcharacter/) är en flik.
 
-### Exempel
+## Exempel
 
 Visar hur du använder anpassad listformatering på stycken när du använder DocumentBuilder.
 
@@ -77,7 +79,5 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateCustomList.docx");
 ### Se även
 
 * class [ListLevel](../)
-* namnutrymme [Aspose.Words.Lists](../../listlevel/)
+* namnutrymme [Aspose.Words.Lists](../../../aspose.words.lists/)
 * hopsättning [Aspose.Words](../../../)
-
-

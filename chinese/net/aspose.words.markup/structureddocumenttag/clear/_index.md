@@ -1,9 +1,11 @@
 ---
 title: StructuredDocumentTag.Clear
-second_title: Aspose.Words for .NET API 参考
-description: StructuredDocumentTag 方法. 清除此结构化文档标记的内容并显示占位符如果已定义
+linktitle: Clear
+articleTitle: Clear
+second_title: 用于 .NET 的 Aspose.Words
+description: StructuredDocumentTag Clear 方法. 清除此结构化文档标记的内容并显示占位符如果已定义 在 C#.
 type: docs
-weight: 360
+weight: 340
 url: /zh/net/aspose.words.markup/structureddocumenttag/clear/
 ---
 ## StructuredDocumentTag.Clear method
@@ -14,13 +16,13 @@ url: /zh/net/aspose.words.markup/structureddocumenttag/clear/
 public void Clear()
 ```
 
-### 评论
+## 评论
 
 如果结构化文档标签有修订，则无法清除其内容。
 
 如果此结构化文档标签映射到自定义 XML（使用[`XmlMapping`](../xmlmapping/) 属性），引用的 XML 节点被清除。
 
-### 例子
+## 例子
 
 演示如何删除结构化文档标签元素的内容。
 
@@ -68,7 +70,5 @@ Assert.AreEqual("Custom placeholder text.", tag.GetText().Trim());
 ### 也可以看看
 
 * class [StructuredDocumentTag](../)
-* 命名空间 [Aspose.Words.Markup](../../structureddocumenttag/)
+* 命名空间 [Aspose.Words.Markup](../../../aspose.words.markup/)
 * 部件 [Aspose.Words](../../../)
-
-

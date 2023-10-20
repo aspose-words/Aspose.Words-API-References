@@ -1,7 +1,9 @@
 ---
 title: EditableRangeStart.NodeType
-second_title: Aspose.Words per .NET API Reference
-description: EditableRangeStart proprietà. RestituisceEditableRangeStart .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words per .NET
+description: EditableRangeStart NodeType proprietà. RestituisceEditableRangeStart  in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words/editablerangestart/nodetype/
@@ -14,7 +16,7 @@ RestituisceEditableRangeStart .
 public override NodeType NodeType { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come lavorare con un intervallo modificabile.
 
@@ -61,7 +63,5 @@ editableRange.Remove();
 
 * enum [NodeType](../../nodetype/)
 * class [EditableRangeStart](../)
-* spazio dei nomi [Aspose.Words](../../editablerangestart/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

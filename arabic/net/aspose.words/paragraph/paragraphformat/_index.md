@@ -1,7 +1,9 @@
 ---
 title: Paragraph.ParagraphFormat
-second_title: Aspose.Words لمراجع .NET API
-description: Paragraph ملكية. يوفر الوصول إلى خصائص تنسيق الفقرة.
+linktitle: ParagraphFormat
+articleTitle: ParagraphFormat
+second_title: Aspose.Words لـ .NET
+description: Paragraph ParagraphFormat ملكية. يوفر الوصول إلى خصائص تنسيق الفقرة في C#.
 type: docs
 weight: 190
 url: /ar/net/aspose.words/paragraph/paragraphformat/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/paragraph/paragraphformat/
 public ParagraphFormat ParagraphFormat { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء مستند Aspose.Words يدويًا.
 
@@ -65,7 +67,5 @@ doc.Save(ArtifactsDir + "Section.CreateManually.docx");
 
 * class [ParagraphFormat](../../paragraphformat/)
 * class [Paragraph](../)
-* مساحة الاسم [Aspose.Words](../../paragraph/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

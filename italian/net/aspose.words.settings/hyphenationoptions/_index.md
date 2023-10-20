@@ -1,7 +1,9 @@
 ---
-title: Class HyphenationOptions
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Settings.HyphenationOptions classe. Permette di configurare le opzioni di sillabazione del documento.
+title: HyphenationOptions Class
+linktitle: HyphenationOptions
+articleTitle: HyphenationOptions
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Settings.HyphenationOptions classe. Permette di configurare le opzioni di sillabazione del documento in C#.
 type: docs
 weight: 5790
 url: /it/net/aspose.words.settings/hyphenationoptions/
@@ -31,7 +33,7 @@ public class HyphenationOptions
 | [HyphenateCaps](../../aspose.words.settings/hyphenationoptions/hyphenatecaps/) { get; set; } | Ottiene o imposta un valore che determina se le parole scritte in maiuscolo sono sillabate. Il valore predefinito per questa proprietà è`VERO` . |
 | [HyphenationZone](../../aspose.words.settings/hyphenationoptions/hyphenationzone/) { get; set; } | Ottiene o imposta la distanza in 1/20 di punto dal margine destro entro il quale non si desidera sillabare le parole. Il valore predefinito per questa proprietà è 360 (0,25 pollici). |
 
-### Esempi
+## Esempi
 
 Mostra come configurare la sillabazione automatica.
 
@@ -55,5 +57,3 @@ doc.Save(ArtifactsDir + "Document.HyphenationOptions.docx");
 
 * spazio dei nomi [Aspose.Words.Settings](../../aspose.words.settings/)
 * assemblea [Aspose.Words](../../)
-
-

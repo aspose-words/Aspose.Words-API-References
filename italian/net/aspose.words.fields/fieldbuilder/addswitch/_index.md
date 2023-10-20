@@ -1,12 +1,14 @@
 ---
 title: FieldBuilder.AddSwitch
-second_title: Aspose.Words per .NET API Reference
-description: FieldBuilder metodo. Aggiunge unopzione di campo.
+linktitle: AddSwitch
+articleTitle: AddSwitch
+second_title: Aspose.Words per .NET
+description: FieldBuilder AddSwitch metodo. Aggiunge unopzione di campo in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words.fields/fieldbuilder/addswitch/
 ---
-## AddSwitch(string) {#addswitch}
+## AddSwitch(*string*) {#addswitch}
 
 Aggiunge un'opzione di campo.
 
@@ -18,11 +20,11 @@ public FieldBuilder AddSwitch(string switchName)
 | --- | --- | --- |
 | switchName | String | Il nome dell'interruttore. |
 
-### Osservazioni
+## Osservazioni
 
 Questo sovraccarico aggiunge un flag (passaggio senza argomento).
 
-### Esempi
+## Esempi
 
 Mostra come costruire campi utilizzando un generatore di campi e quindi inserirli nel documento.
 
@@ -105,12 +107,12 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 ### Guarda anche
 
 * class [FieldBuilder](../)
-* spazio dei nomi [Aspose.Words.Fields](../../fieldbuilder/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
 
 ---
 
-## AddSwitch(string, string) {#addswitch_3}
+## AddSwitch(*string, string*) {#addswitch_3}
 
 Aggiunge un'opzione di campo.
 
@@ -123,7 +125,7 @@ public FieldBuilder AddSwitch(string switchName, string switchArgument)
 | switchName | String | Il nome dell'interruttore. |
 | switchArgument | String | Il valore di commutazione. |
 
-### Esempi
+## Esempi
 
 Mostra come costruire campi utilizzando un generatore di campi e quindi inserirli nel documento.
 
@@ -206,12 +208,12 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 ### Guarda anche
 
 * class [FieldBuilder](../)
-* spazio dei nomi [Aspose.Words.Fields](../../fieldbuilder/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
 
 ---
 
-## AddSwitch(string, int) {#addswitch_2}
+## AddSwitch(*string, int*) {#addswitch_2}
 
 Aggiunge un'opzione di campo.
 
@@ -224,7 +226,7 @@ public FieldBuilder AddSwitch(string switchName, int switchArgument)
 | switchName | String | Il nome dell'interruttore. |
 | switchArgument | Int32 | Il valore di commutazione. |
 
-### Esempi
+## Esempi
 
 Mostra come costruire campi utilizzando un generatore di campi e quindi inserirli nel documento.
 
@@ -307,12 +309,12 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 ### Guarda anche
 
 * class [FieldBuilder](../)
-* spazio dei nomi [Aspose.Words.Fields](../../fieldbuilder/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
 
 ---
 
-## AddSwitch(string, double) {#addswitch_1}
+## AddSwitch(*string, double*) {#addswitch_1}
 
 Aggiunge un'opzione di campo.
 
@@ -325,7 +327,7 @@ public FieldBuilder AddSwitch(string switchName, double switchArgument)
 | switchName | String | Il nome dell'interruttore. |
 | switchArgument | Double | Il valore di commutazione. |
 
-### Esempi
+## Esempi
 
 Mostra come costruire campi utilizzando un generatore di campi e quindi inserirli nel documento.
 
@@ -408,7 +410,5 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 ### Guarda anche
 
 * class [FieldBuilder](../)
-* spazio dei nomi [Aspose.Words.Fields](../../fieldbuilder/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

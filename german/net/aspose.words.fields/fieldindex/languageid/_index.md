@@ -1,7 +1,9 @@
 ---
 title: FieldIndex.LanguageId
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldIndex eigendom. Ruft die SprachID ab die zum Generieren des Index verwendet wird oder legt diese fest.
+linktitle: LanguageId
+articleTitle: LanguageId
+second_title: Aspose.Words für .NET
+description: FieldIndex LanguageId eigendom. Ruft die SprachID ab die zum Generieren des Index verwendet wird oder legt diese fest in C#.
 type: docs
 weight: 80
 url: /de/net/aspose.words.fields/fieldindex/languageid/
@@ -14,7 +16,7 @@ Ruft die Sprach-ID ab, die zum Generieren des Index verwendet wird, oder legt di
 public string LanguageId { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man ein INDEX-Feld mithilfe von XE-Feldern mit Einträgen füllt und auch sein Erscheinungsbild ändert.
 
@@ -86,7 +88,5 @@ doc.Save(ArtifactsDir + "Field.INDEX.XE.Formatting.docx");
 ### Siehe auch
 
 * class [FieldIndex](../)
-* namensraum [Aspose.Words.Fields](../../fieldindex/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

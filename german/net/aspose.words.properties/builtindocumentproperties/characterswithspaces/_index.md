@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.CharactersWithSpaces
-second_title: Aspose.Words für .NET-API-Referenz
-description: BuiltInDocumentProperties eigendom. Stellt eine Schätzung der Anzahl der Zeichen einschließlich Leerzeichen im Dokument dar.
+linktitle: CharactersWithSpaces
+articleTitle: CharactersWithSpaces
+second_title: Aspose.Words für .NET
+description: BuiltInDocumentProperties CharactersWithSpaces eigendom. Stellt eine Schätzung der Anzahl der Zeichen einschließlich Leerzeichen im Dokument dar in C#.
 type: docs
 weight: 50
 url: /de/net/aspose.words.properties/builtindocumentproperties/characterswithspaces/
@@ -14,11 +16,11 @@ Stellt eine Schätzung der Anzahl der Zeichen (einschließlich Leerzeichen) im D
 public int CharactersWithSpaces { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Aspose.Words aktualisiert diese Eigenschaft, wenn Sie aufrufen[`UpdateWordCount`](../../../aspose.words/document/updatewordcount/).
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit Dokumenteigenschaften in der Kategorie „Inhalt“ gearbeitet wird.
 
@@ -128,7 +130,5 @@ private class LineCounter
 ### Siehe auch
 
 * class [BuiltInDocumentProperties](../)
-* namensraum [Aspose.Words.Properties](../../builtindocumentproperties/)
+* namensraum [Aspose.Words.Properties](../../../aspose.words.properties/)
 * Montage [Aspose.Words](../../../)
-
-

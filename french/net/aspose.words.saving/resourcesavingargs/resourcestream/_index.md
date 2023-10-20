@@ -1,7 +1,9 @@
 ---
 title: ResourceSavingArgs.ResourceStream
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ResourceSavingArgs propriété. Permet de spécifier le flux dans lequel la ressource sera enregistrée.
+linktitle: ResourceStream
+articleTitle: ResourceStream
+second_title: Aspose.Words pour .NET
+description: ResourceSavingArgs ResourceStream propriété. Permet de spécifier le flux dans lequel la ressource sera enregistrée en C#.
 type: docs
 weight: 50
 url: /fr/net/aspose.words.saving/resourcesavingargs/resourcestream/
@@ -14,7 +16,7 @@ Permet de spécifier le flux dans lequel la ressource sera enregistrée.
 public Stream ResourceStream { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 Cette propriété vous permet d'enregistrer les ressources dans des flux plutôt que dans des fichiers.
 
@@ -22,7 +24,7 @@ La valeur par défaut est`nul` . Lorsque cette propriété est`nul` , la ressour
 
 En utilisant[`IResourceSavingCallback`](../../iresourcesavingcallback/) vous ne pouvez pas remplacer une ressource par une autre. Il est destiné uniquement au contrôle de l'emplacement où économiser les ressources.
 
-### Exemples
+## Exemples
 
 Montre comment utiliser un rappel pour imprimer les URI des ressources externes créées lors de la conversion d'un document en HTML.
 
@@ -101,7 +103,5 @@ private class ResourceUriPrinter : IResourceSavingCallback
 ### Voir également
 
 * class [ResourceSavingArgs](../)
-* espace de noms [Aspose.Words.Saving](../../resourcesavingargs/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

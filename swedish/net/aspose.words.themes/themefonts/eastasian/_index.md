@@ -1,7 +1,9 @@
 ---
 title: ThemeFonts.EastAsian
-second_title: Aspose.Words för .NET API Referens
-description: ThemeFonts fast egendom. Anger teckensnittsnamn för östasiatiska tecken.
+linktitle: EastAsian
+articleTitle: EastAsian
+second_title: Aspose.Words för .NET
+description: ThemeFonts EastAsian fast egendom. Anger teckensnittsnamn för östasiatiska tecken i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.themes/themefonts/eastasian/
@@ -14,7 +16,7 @@ Anger teckensnittsnamn för östasiatiska tecken.
 public string EastAsian { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du ställer in anpassade färger och teckensnitt för teman.
 
@@ -62,7 +64,5 @@ doc.Save(ArtifactsDir + "Themes.CustomColorsAndFonts.docx");
 ### Se även
 
 * class [ThemeFonts](../)
-* namnutrymme [Aspose.Words.Themes](../../themefonts/)
+* namnutrymme [Aspose.Words.Themes](../../../aspose.words.themes/)
 * hopsättning [Aspose.Words](../../../)
-
-

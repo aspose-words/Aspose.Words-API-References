@@ -1,7 +1,9 @@
 ---
 title: NodeCollection.ToArray
-second_title: Aspose.Words för .NET API Referens
-description: NodeCollection metod. Kopierar alla noder från samlingen till en ny array av noder.
+linktitle: ToArray
+articleTitle: ToArray
+second_title: Aspose.Words för .NET
+description: NodeCollection ToArray metod. Kopierar alla noder från samlingen till en ny array av noder i C#.
 type: docs
 weight: 110
 url: /sv/net/aspose.words/nodecollection/toarray/
@@ -18,13 +20,13 @@ public Node[] ToArray()
 
 En rad noder.
 
-### Anmärkningar
+## Anmärkningar
 
 Du bör inte lägga till/ta bort noder medan du itererar över en samling av noder eftersom det ogiltigförklarar iteratorn och kräver uppdateringar för livesamlingar.
 
 För att kunna lägga till/ta bort noder under iteration, använd den här metoden för att kopiera noder till en array med fast storlek och sedan iterera över arrayen.
 
-### Exempel
+## Exempel
 
 Visar hur man ersätter alla textruteformer med bildformer.
 
@@ -70,7 +72,5 @@ doc.Save(ArtifactsDir + "Shape.ReplaceTextboxesWithImages.docx");
 
 * class [Node](../../node/)
 * class [NodeCollection](../)
-* namnutrymme [Aspose.Words](../../nodecollection/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

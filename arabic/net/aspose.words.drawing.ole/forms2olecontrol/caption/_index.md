@@ -1,7 +1,9 @@
 ---
 title: Forms2OleControl.Caption
-second_title: Aspose.Words لمراجع .NET API
-description: Forms2OleControl ملكية. يحصل على خاصية التسمية التوضيحية للتحكم. القيمة الافتراضية هي سلسلة فارغة.
+linktitle: Caption
+articleTitle: Caption
+second_title: Aspose.Words لـ .NET
+description: Forms2OleControl Caption ملكية. يحصل على خاصية التسمية التوضيحية للتحكم. القيمة الافتراضية هي سلسلة فارغة في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.drawing.ole/forms2olecontrol/caption/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing.ole/forms2olecontrol/caption/
 public string Caption { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التحقق من خصائص عنصر تحكم ActiveX.
 
@@ -44,7 +46,5 @@ if (oleControl.IsForms2OleControl)
 ### أنظر أيضا
 
 * class [Forms2OleControl](../)
-* مساحة الاسم [Aspose.Words.Drawing.Ole](../../forms2olecontrol/)
+* مساحة الاسم [Aspose.Words.Drawing.Ole](../../../aspose.words.drawing.ole/)
 * المجسم [Aspose.Words](../../../)
-
-

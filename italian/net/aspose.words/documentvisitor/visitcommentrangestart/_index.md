@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitCommentRangeStart
-second_title: Aspose.Words per .NET API Reference
-description: DocumentVisitor metodo. Chiamato quando viene incontrato linizio di un intervallo di testo commentato.
+linktitle: VisitCommentRangeStart
+articleTitle: VisitCommentRangeStart
+second_title: Aspose.Words per .NET
+description: DocumentVisitor VisitCommentRangeStart metodo. Chiamato quando viene incontrato linizio di un intervallo di testo commentato in C#.
 type: docs
 weight: 120
 url: /it/net/aspose.words/documentvisitor/visitcommentrangestart/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitCommentRangeStart(CommentRangeStart commentRan
 
 UN[`VisitorAction`](../../visitoraction/) valore che specifica come continuare l'enumerazione.
 
-### Esempi
+## Esempi
 
 Mostra come stampare la struttura dei nodi di ogni commento e intervallo di commenti in un documento.
 
@@ -143,7 +145,5 @@ public class CommentStructurePrinter : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [CommentRangeStart](../../commentrangestart/)
 * class [DocumentVisitor](../)
-* spazio dei nomi [Aspose.Words](../../documentvisitor/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

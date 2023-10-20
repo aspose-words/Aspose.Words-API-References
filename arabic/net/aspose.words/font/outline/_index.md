@@ -1,7 +1,9 @@
 ---
 title: Font.Outline
-second_title: Aspose.Words لمراجع .NET API
-description: Font ملكية. صحيح إذا تم تنسيق الخط كمخطط تفصيلي.
+linktitle: Outline
+articleTitle: Outline
+second_title: Aspose.Words لـ .NET
+description: Font Outline ملكية. صحيح إذا تم تنسيق الخط كمخطط تفصيلي في C#.
 type: docs
 weight: 290
 url: /ar/net/aspose.words/font/outline/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/font/outline/
 public bool Outline { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء مجموعة من النص المنسق كمخطط تفصيلي.
 
@@ -36,7 +38,5 @@ doc.Save(ArtifactsDir + "Font.Outline.docx");
 ### أنظر أيضا
 
 * class [Font](../)
-* مساحة الاسم [Aspose.Words](../../font/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

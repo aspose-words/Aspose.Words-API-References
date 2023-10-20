@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabelCollection.ShowSeriesName
-second_title: Aspose.Words für .NET-API-Referenz
-description: ChartDataLabelCollection eigendom. Gibt einen booleschen Wert zurück oder legt ihn fest um das Anzeigeverhalten des Seriennamens für die Datenbeschriftungen der gesamten Serie anzugeben. WAHR um den Seriennamen anzuzeigenFALSCH verstecken. StandardmäßigFALSCH .
+linktitle: ShowSeriesName
+articleTitle: ShowSeriesName
+second_title: Aspose.Words für .NET
+description: ChartDataLabelCollection ShowSeriesName eigendom. Gibt einen booleschen Wert zurück oder legt ihn fest um das Anzeigeverhalten des Seriennamens für die Datenbeschriftungen der gesamten Serie anzugeben. WAHR um den Seriennamen anzuzeigenFALSCH verstecken. StandardmäßigFALSCH  in C#.
 type: docs
 weight: 130
 url: /de/net/aspose.words.drawing.charts/chartdatalabelcollection/showseriesname/
@@ -14,11 +16,11 @@ Gibt einen booleschen Wert zurück oder legt ihn fest, um das Anzeigeverhalten d
 public bool ShowSeriesName { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Der für diese Eigenschaft definierte Wert kann für eine einzelne Datenbeschriftung mithilfe von überschrieben werden.[`ShowSeriesName`](../../chartdatalabel/showseriesname/) Eigenschaft.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit Datenbeschriftungen eines Blasendiagramms gearbeitet wird.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "Charts.DataLabelsBubbleChart.docx");
 ### Siehe auch
 
 * class [ChartDataLabelCollection](../)
-* namensraum [Aspose.Words.Drawing.Charts](../../chartdatalabelcollection/)
+* namensraum [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../../)
-
-

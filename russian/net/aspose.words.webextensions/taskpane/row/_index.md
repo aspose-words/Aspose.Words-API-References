@@ -1,7 +1,9 @@
 ---
 title: TaskPane.Row
-second_title: Справочник по API Aspose.Words для .NET
-description: TaskPane свойство. Указывает индекс этой панели задач перечисляемый снаружи внутрь среди других панелей задач persisted  закрепленных в том же месте по умолчанию.
+linktitle: Row
+articleTitle: Row
+second_title: Aspose.Words для .NET
+description: TaskPane Row свойство. Указывает индекс этой панели задач перечисляемый снаружи внутрь среди других панелей задач persisted  закрепленных в том же месте по умолчанию на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.webextensions/taskpane/row/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.webextensions/taskpane/row/
 public int Row { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как добавить веб-расширение в документ.
 
@@ -59,7 +61,5 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 ### Смотрите также
 
 * class [TaskPane](../)
-* пространство имен [Aspose.Words.WebExtensions](../../taskpane/)
+* пространство имен [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * сборка [Aspose.Words](../../../)
-
-

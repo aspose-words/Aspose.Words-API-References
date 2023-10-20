@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitCellEnd
-second_title: Aspose.Words für .NET-API-Referenz
-description: DocumentVisitor methode. Wird aufgerufen wenn die Aufzählung einer Tabellenzelle beendet wurde.
+linktitle: VisitCellEnd
+articleTitle: VisitCellEnd
+second_title: Aspose.Words für .NET
+description: DocumentVisitor VisitCellEnd methode. Wird aufgerufen wenn die Aufzählung einer Tabellenzelle beendet wurde in C#.
 type: docs
 weight: 80
 url: /de/net/aspose.words/documentvisitor/visitcellend/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitCellEnd(Cell cell)
 
 A[`VisitorAction`](../../visitoraction/) Wert, der angibt, wie die Enumeration fortgesetzt werden soll.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Knotenstruktur jeder Tabelle in einem Dokument gedruckt wird.
 
@@ -378,7 +380,5 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [Cell](../../../aspose.words.tables/cell/)
 * class [DocumentVisitor](../)
-* namensraum [Aspose.Words](../../documentvisitor/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

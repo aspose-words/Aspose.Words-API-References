@@ -1,7 +1,9 @@
 ---
 title: OleFormat.SourceFullName
-second_title: Aspose.Words för .NET API Referens
-description: OleFormat fast egendom. Hämtar eller ställer in sökvägen och namnet på källfilen för det länkade OLEobjektet.
+linktitle: SourceFullName
+articleTitle: SourceFullName
+second_title: Aspose.Words för .NET
+description: OleFormat SourceFullName fast egendom. Hämtar eller ställer in sökvägen och namnet på källfilen för det länkade OLEobjektet i C#.
 type: docs
 weight: 100
 url: /sv/net/aspose.words.drawing/oleformat/sourcefullname/
@@ -14,13 +16,13 @@ Hämtar eller ställer in sökvägen och namnet på källfilen för det länkade
 public string SourceFullName { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Standardvärdet är en tom sträng.
 
 Om`SourceFullName` är inte en tom sträng, är OLE-objektet länkat.
 
-### Exempel
+## Exempel
 
 Visar hur man infogar länkade och olänkade OLE-objekt.
 
@@ -70,7 +72,5 @@ using (MemoryStream stream = oleFormat.GetOleEntry("\x0001CompObj"))
 ### Se även
 
 * class [OleFormat](../)
-* namnutrymme [Aspose.Words.Drawing](../../oleformat/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

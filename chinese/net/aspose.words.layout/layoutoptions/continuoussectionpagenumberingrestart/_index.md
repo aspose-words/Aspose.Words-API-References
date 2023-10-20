@@ -1,7 +1,9 @@
 ---
 title: LayoutOptions.ContinuousSectionPageNumberingRestart
-second_title: Aspose.Words for .NET API 参考
-description: LayoutOptions 财产. 获取或设置当连续部分 重新启动页编号时计算页码的行为模式
+linktitle: ContinuousSectionPageNumberingRestart
+articleTitle: ContinuousSectionPageNumberingRestart
+second_title: 用于 .NET 的 Aspose.Words
+description: LayoutOptions ContinuousSectionPageNumberingRestart 财产. 获取或设置当连续部分 重新启动页编号时计算页码的行为模式 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.layout/layoutoptions/continuoussectionpagenumberingrestart/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.layout/layoutoptions/continuoussectionpagenumberingres
 public ContinuousSectionRestart ContinuousSectionPageNumberingRestart { get; set; }
 ```
 
-### 评论
+## 评论
 
 默认值为Always. 它与引入该选项时的最新版本 MS Word 2019 的行为相匹配。 MS Word 2016 演示的旧页码逻辑可通过此选项获得。 请[`ContinuousSectionRestart`](../../continuoussectionrestart/)对于行为描述。
 
-### 例子
+## 例子
 
 演示如何控制连续部分中的页码。
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "Layout.RestartPageNumberingInContinuousSection.pdf");
 
 * enum [ContinuousSectionRestart](../../continuoussectionrestart/)
 * class [LayoutOptions](../)
-* 命名空间 [Aspose.Words.Layout](../../layoutoptions/)
+* 命名空间 [Aspose.Words.Layout](../../../aspose.words.layout/)
 * 部件 [Aspose.Words](../../../)
-
-

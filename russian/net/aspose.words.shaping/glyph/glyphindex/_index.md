@@ -1,7 +1,9 @@
 ---
 title: Glyph.GlyphIndex
-second_title: Справочник по API Aspose.Words для .NET
-description: Glyph свойство. Индекс глифа GID в физическом шрифте.
+linktitle: GlyphIndex
+articleTitle: GlyphIndex
+second_title: Aspose.Words для .NET
+description: Glyph GlyphIndex свойство. Индекс глифа GID в физическом шрифте на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.shaping/glyph/glyphindex/
@@ -17,7 +19,5 @@ public int GlyphIndex { get; }
 ### Смотрите также
 
 * class [Glyph](../)
-* пространство имен [Aspose.Words.Shaping](../../glyph/)
+* пространство имен [Aspose.Words.Shaping](../../../aspose.words.shaping/)
 * сборка [Aspose.Words](../../../)
-
-

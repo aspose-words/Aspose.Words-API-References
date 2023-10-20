@@ -1,7 +1,9 @@
 ---
 title: LayoutEnumerator.MoveLastChild
-second_title: Aspose.Words لمراجع .NET API
-description: LayoutEnumerator طريقة. للانتقال إلى الكيان الفرعي الأخير.
+linktitle: MoveLastChild
+articleTitle: MoveLastChild
+second_title: Aspose.Words لـ .NET
+description: LayoutEnumerator MoveLastChild طريقة. للانتقال إلى الكيان الفرعي الأخير في C#.
 type: docs
 weight: 110
 url: /ar/net/aspose.words.layout/layoutenumerator/movelastchild/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.layout/layoutenumerator/movelastchild/
 public bool MoveLastChild()
 ```
 
-### أمثلة
+## أمثلة
 
 يُظهر طرق اجتياز كيانات تخطيط المستند.
 
@@ -159,7 +161,5 @@ private static void PrintCurrentEntity(LayoutEnumerator layoutEnumerator, int in
 ### أنظر أيضا
 
 * class [LayoutEnumerator](../)
-* مساحة الاسم [Aspose.Words.Layout](../../layoutenumerator/)
+* مساحة الاسم [Aspose.Words.Layout](../../../aspose.words.layout/)
 * المجسم [Aspose.Words](../../../)
-
-

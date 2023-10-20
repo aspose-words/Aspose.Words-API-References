@@ -1,7 +1,9 @@
 ---
 title: Table.LastRow
-second_title: Aspose.Words für .NET-API-Referenz
-description: Table eigendom. Gibt den letzten zurückRow Knoten in der Tabelle.
+linktitle: LastRow
+articleTitle: LastRow
+second_title: Aspose.Words für .NET
+description: Table LastRow eigendom. Gibt den letzten zurückRow Knoten in der Tabelle in C#.
 type: docs
 weight: 180
 url: /de/net/aspose.words.tables/table/lastrow/
@@ -14,7 +16,7 @@ Gibt den letzten zurück[`Row`](../../row/) Knoten in der Tabelle.
 public Row LastRow { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die ersten und letzten Zeilen aller Tabellen in einem Dokument entfernt werden.
 
@@ -40,7 +42,5 @@ Assert.AreEqual(2, tables[1].Rows.Count);
 
 * class [Row](../../row/)
 * class [Table](../)
-* namensraum [Aspose.Words.Tables](../../table/)
+* namensraum [Aspose.Words.Tables](../../../aspose.words.tables/)
 * Montage [Aspose.Words](../../../)
-
-

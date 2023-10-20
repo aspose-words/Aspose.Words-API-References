@@ -1,7 +1,9 @@
 ---
 title: Inline.IsMoveToRevision
-second_title: Aspose.Words for .NET API 参考
-description: Inline 财产. 返回真的如果在启用更改跟踪的情况下在 Microsoft Word 中移动插入此对象
+linktitle: IsMoveToRevision
+articleTitle: IsMoveToRevision
+second_title: 用于 .NET 的 Aspose.Words
+description: Inline IsMoveToRevision 财产. 返回真的如果在启用更改跟踪的情况下在 Microsoft Word 中移动插入此对象 在 C#.
 type: docs
 weight: 60
 url: /zh/net/aspose.words/inline/ismovetorevision/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/inline/ismovetorevision/
 public bool IsMoveToRevision { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何确定内联节点的修订类型。
 
@@ -70,7 +72,5 @@ Assert.IsTrue(runs[5].IsDeleteRevision);
 ### 也可以看看
 
 * class [Inline](../)
-* 命名空间 [Aspose.Words](../../inline/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

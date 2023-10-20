@@ -1,7 +1,9 @@
 ---
 title: FieldRef.SuppressNonDelimiters
-second_title: Aspose.Words per .NET API Reference
-description: FieldRef proprietà. Ottiene o imposta se eliminare i caratteri non delimitatori.
+linktitle: SuppressNonDelimiters
+articleTitle: SuppressNonDelimiters
+second_title: Aspose.Words per .NET
+description: FieldRef SuppressNonDelimiters proprietà. Ottiene o imposta se eliminare i caratteri non delimitatori in C#.
 type: docs
 weight: 100
 url: /it/net/aspose.words.fields/fieldref/suppressnondelimiters/
@@ -14,7 +16,7 @@ Ottiene o imposta se eliminare i caratteri non delimitatori.
 public bool SuppressNonDelimiters { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come inserire campi REF per fare riferimento ai segnalibri.
 
@@ -104,7 +106,5 @@ private static FieldRef InsertFieldRef(DocumentBuilder builder, string bookmarkN
 ### Guarda anche
 
 * class [FieldRef](../)
-* spazio dei nomi [Aspose.Words.Fields](../../fieldref/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

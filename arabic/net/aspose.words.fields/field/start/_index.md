@@ -1,7 +1,9 @@
 ---
 title: Field.Start
-second_title: Aspose.Words لمراجع .NET API
-description: Field ملكية. يحصل على العقدة التي تمثل بداية الحقل.
+linktitle: Start
+articleTitle: Start
+second_title: Aspose.Words لـ .NET
+description: Field Start ملكية. يحصل على العقدة التي تمثل بداية الحقل في C#.
 type: docs
 weight: 90
 url: /ar/net/aspose.words.fields/field/start/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/field/start/
 public FieldStart Start { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع مجموعة من الحقول.
 
@@ -118,7 +120,5 @@ public class FieldVisitor : DocumentVisitor
 
 * class [FieldStart](../../fieldstart/)
 * class [Field](../)
-* مساحة الاسم [Aspose.Words.Fields](../../field/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

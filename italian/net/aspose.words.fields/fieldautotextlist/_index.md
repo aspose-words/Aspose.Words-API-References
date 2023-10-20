@@ -1,7 +1,9 @@
 ---
-title: Class FieldAutoTextList
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Fields.FieldAutoTextList classe. Implementa il campo AUTOTEXTLIST.
+title: FieldAutoTextList Class
+linktitle: FieldAutoTextList
+articleTitle: FieldAutoTextList
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Fields.FieldAutoTextList classe. Implementa il campo AUTOTEXTLIST in C#.
 type: docs
 weight: 1620
 url: /it/net/aspose.words.fields/fieldautotextlist/
@@ -45,17 +47,17 @@ public class FieldAutoTextList : Field
 | Nome | Descrizione |
 | --- | --- |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Restituisce il testo compreso tra l'inizio del campo e il separatore di campo (o la fine del campo se non è presente alcun separatore). Sono inclusi sia il codice di campo che il risultato del campo dei campi secondari. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Restituisce il testo tra l'inizio del campo e il separatore di campo (o la fine del campo se non è presente alcun separatore). |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | Restituisce il testo tra l'inizio del campo e il separatore di campo (o la fine del campo se non è presente alcun separatore). |
 | [Remove](../../aspose.words.fields/field/remove/)() | Rimuove il campo dal documento. Restituisce un nodo subito dopo il campo. Se la fine del campo è l'ultimo figlio del suo nodo genitore, restituisce il paragrafo genitore. Se il campo è già stato rimosso, restituisce`nullo` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | Esegue lo scollegamento del campo. |
 | [Update](../../aspose.words.fields/field/update/)() | Esegue l'aggiornamento del campo. Genera un risultato se il campo è già in fase di aggiornamento. |
-| [Update](../../aspose.words.fields/field/update/)(bool) | Esegue un aggiornamento del campo. Genera un risultato se il campo è già in fase di aggiornamento. |
+| [Update](../../aspose.words.fields/field/update/)(*bool*) | Esegue un aggiornamento del campo. Genera un risultato se il campo è già in fase di aggiornamento. |
 
-### Osservazioni
+## Osservazioni
 
 Crea un menu di scelta rapida basato sulle voci di glossario nel modello attivo.
 
-### Esempi
+## Esempi
 
 Mostra come utilizzare un campo AUTOTEXTLIST per selezionare da un elenco di voci di glossario.
 
@@ -112,5 +114,3 @@ private static void AppendAutoTextEntry(GlossaryDocument glossaryDoc, string nam
 * class [Field](../field/)
 * spazio dei nomi [Aspose.Words.Fields](../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../)
-
-

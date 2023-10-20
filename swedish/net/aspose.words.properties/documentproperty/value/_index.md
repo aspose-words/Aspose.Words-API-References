@@ -1,7 +1,9 @@
 ---
 title: DocumentProperty.Value
-second_title: Aspose.Words för .NET API Referens
-description: DocumentProperty fast egendom. Hämtar eller ställer in värdet på egenskapen.
+linktitle: Value
+articleTitle: Value
+second_title: Aspose.Words för .NET
+description: DocumentProperty Value fast egendom. Hämtar eller ställer in värdet på egenskapen i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.properties/documentproperty/value/
@@ -14,11 +16,11 @@ Hämtar eller ställer in värdet på egenskapen.
 public object Value { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Kan inte vara`null`.
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med inbyggda dokumentegenskaper.
 
@@ -52,7 +54,5 @@ foreach (DocumentProperty docProperty in doc.BuiltInDocumentProperties)
 ### Se även
 
 * class [DocumentProperty](../)
-* namnutrymme [Aspose.Words.Properties](../../documentproperty/)
+* namnutrymme [Aspose.Words.Properties](../../../aspose.words.properties/)
 * hopsättning [Aspose.Words](../../../)
-
-

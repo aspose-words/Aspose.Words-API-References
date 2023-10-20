@@ -1,18 +1,20 @@
 ---
 title: Aspose.Words.Settings
-second_title: Aspose.Words per .NET API Reference
-description: IL Aspose.Words.Settings namespace contiene classi ed enumerazioni che vengono utilizzate quando si specificano varie impostazioni e opzioni archiviate in un documento. Si tratta di stampa unione protezione da scrittura compatibilità e altre impostazioni.
+linktitle: Aspose.Words.Settings
+articleTitle: Aspose.Words.Settings
+second_title: Aspose.Words per .NET
+description: ILAspose.Words.Settings namespace contiene classi ed enumerazioni che vengono utilizzate quando si specificano varie impostazioni e opzioni archiviate in un documento. Si tratta di stampa unione protezione da scrittura compatibilità e altre impostazioni in C#.
 type: docs
 weight: 240
 url: /it/net/aspose.words.settings/
 ---
-IL **Aspose.Words.Settings** namespace contiene classi ed enumerazioni che vengono utilizzate quando si specificano varie impostazioni e opzioni archiviate in un documento. Si tratta di stampa unione, protezione da scrittura, compatibilità e altre impostazioni.
+IL**Aspose.Words.Settings** namespace contiene classi ed enumerazioni che vengono utilizzate quando si specificano varie impostazioni e opzioni archiviate in un documento. Si tratta di stampa unione, protezione da scrittura, compatibilità e altre impostazioni.
 
 ## Classi
 
 | Classe | Descrizione |
 | --- | --- |
-| [CompatibilityOptions](./compatibilityoptions/) | Contiene le opzioni di compatibilità (ovvero le preferenze dell'utente immesse nel file **Compatibilità** scheda del **Opzioni** finestra di dialogo in Microsoft Word). |
+| [CompatibilityOptions](./compatibilityoptions/) | Contiene le opzioni di compatibilità (ovvero le preferenze dell'utente immesse nel file**Compatibilità** scheda del**Opzioni** finestra di dialogo in Microsoft Word). |
 | [HyphenationOptions](./hyphenationoptions/) | Permette di configurare le opzioni di sillabazione del documento. |
 | [MailMergeSettings](./mailmergesettings/) | Specifica tutte le informazioni sulla stampa unione per un documento. |
 | [Odso](./odso/) | Specifica le impostazioni ODSO (Office Data Source Object) per un'origine dati di stampa unione. |
@@ -38,5 +40,3 @@ IL **Aspose.Words.Settings** namespace contiene classi ed enumerazioni che vengo
 | [OdsoFieldMappingType](./odsofieldmappingtype/) | Specifica i possibili tipi utilizzati per indicare se un determinato campo di stampa unione è stato mappato a una colonna nell'origine dati esterna specificata. |
 | [ViewType](./viewtype/) | Valori possibili per la modalità di visualizzazione in Microsoft Word. |
 | [ZoomType](./zoomtype/) | Valori possibili per quanto grande o piccolo appare il documento sullo schermo in Microsoft Word. |
-
-

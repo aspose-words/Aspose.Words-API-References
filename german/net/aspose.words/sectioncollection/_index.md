@@ -1,7 +1,9 @@
 ---
-title: Class SectionCollection
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.SectionCollection klas. Eine Sammlung vonSection Objekte im Dokument.
+title: SectionCollection Class
+linktitle: SectionCollection
+articleTitle: SectionCollection
+second_title: Aspose.Words für .NET
+description: Aspose.Words.SectionCollection klas. Eine Sammlung vonSection Objekte im Dokument in C#.
 type: docs
 weight: 5740
 url: /de/net/aspose.words/sectioncollection/
@@ -27,23 +29,23 @@ public class SectionCollection : NodeCollection
 
 | Name | Beschreibung |
 | --- | --- |
-| [Add](../../aspose.words/nodecollection/add/)(Node) | Fügt einen Knoten am Ende der Sammlung hinzu. |
+| [Add](../../aspose.words/nodecollection/add/)(*[Node](../node/)*) | Fügt einen Knoten am Ende der Sammlung hinzu. |
 | [Clear](../../aspose.words/nodecollection/clear/)() | Entfernt alle Knoten aus dieser Sammlung und aus dem Dokument. |
-| [Contains](../../aspose.words/nodecollection/contains/)(Node) | Bestimmt, ob ein Knoten in der Sammlung ist. |
+| [Contains](../../aspose.words/nodecollection/contains/)(*[Node](../node/)*) | Bestimmt, ob ein Knoten in der Sammlung ist. |
 | [GetEnumerator](../../aspose.words/nodecollection/getenumerator/)() | Bietet eine einfache Iteration im „foreach“-Stil über die Sammlung von Knoten. |
-| [IndexOf](../../aspose.words/nodecollection/indexof/)(Node) | Gibt den nullbasierten Index des angegebenen Knotens zurück. |
-| [Insert](../../aspose.words/nodecollection/insert/)(int, Node) | Fügt am angegebenen Index einen Knoten in die Sammlung ein. |
-| [Remove](../../aspose.words/nodecollection/remove/)(Node) | Entfernt den Knoten aus der Sammlung und aus dem Dokument. |
-| [RemoveAt](../../aspose.words/nodecollection/removeat/)(int) | Entfernt den Knoten am angegebenen Index aus der Sammlung und aus dem Dokument. |
+| [IndexOf](../../aspose.words/nodecollection/indexof/)(*[Node](../node/)*) | Gibt den nullbasierten Index des angegebenen Knotens zurück. |
+| [Insert](../../aspose.words/nodecollection/insert/)(*int, [Node](../node/)*) | Fügt am angegebenen Index einen Knoten in die Sammlung ein. |
+| [Remove](../../aspose.words/nodecollection/remove/)(*[Node](../node/)*) | Entfernt den Knoten aus der Sammlung und aus dem Dokument. |
+| [RemoveAt](../../aspose.words/nodecollection/removeat/)(*int*) | Entfernt den Knoten am angegebenen Index aus der Sammlung und aus dem Dokument. |
 | [ToArray](../../aspose.words/sectioncollection/toarray/#toarray_1)() | Kopiert alle Abschnitte aus der Sammlung in ein neues Array von Abschnitten. (2 methods) |
 
-### Bemerkungen
+## Bemerkungen
 
 Ein Microsoft Word-Dokument kann mehrere Abschnitte enthalten. Um einen Abschnitt in einem Microsoft Word zu erstellen, wählen Sie den Befehl „Einfügen/Umbruch“ und wählen Sie einen Umbruchtyp aus. Der Bruch gibt an, ob der Abschnitt auf einer neuen Seite oder auf derselben Seite beginnt.
 
 Das programmgesteuerte Einfügen und Entfernen von Abschnitten kann verwendet werden, um während des Seriendrucks erstellte Dokumente anzupassen . Wenn ein Dokument abhängig von bestimmten Kriterien unterschiedliche Inhalte oder Teile davon haben muss, können Sie ein „Master“-Dokument erstellen, das mehrere Abschnitte enthält, und einige der Abschnitte vor oder nach dem Seriendruck löschen.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Abschnitte in einem Dokument hinzugefügt und entfernt werden.
 
@@ -75,5 +77,3 @@ Assert.AreEqual("Section 2\x000cSection 2", doc.GetText().Trim());
 * class [NodeCollection](../nodecollection/)
 * namensraum [Aspose.Words](../../aspose.words/)
 * Montage [Aspose.Words](../../)
-
-

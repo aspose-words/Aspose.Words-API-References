@@ -1,7 +1,9 @@
 ---
 title: PdfDigitalSignatureDetails.TimestampSettings
-second_title: Aspose.Words لمراجع .NET API
-description: PdfDigitalSignatureDetails ملكية. الحصول على إعدادات الطابع الزمني للتوقيع الرقمي أو تعيينها.
+linktitle: TimestampSettings
+articleTitle: TimestampSettings
+second_title: Aspose.Words لـ .NET
+description: PdfDigitalSignatureDetails TimestampSettings ملكية. الحصول على إعدادات الطابع الزمني للتوقيع الرقمي أو تعيينها في C#.
 type: docs
 weight: 70
 url: /ar/net/aspose.words.saving/pdfdigitalsignaturedetails/timestampsettings/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.saving/pdfdigitalsignaturedetails/timestampsettings/
 public PdfDigitalSignatureTimestampSettings TimestampSettings { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 القيمة الافتراضية هي`باطل` ولن يتم ختم التوقيع الرقمي بالوقت. عندما يتم تعيين هذه الخاصية على قيمة صالحة[`PdfDigitalSignatureTimestampSettings`](../../pdfdigitalsignaturetimestampsettings/) object, ثم سيتم ختم التوقيع الرقمي في مستند PDF بالوقت.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية توقيع مستند PDF محفوظ رقميًا ووضع طابع زمني عليه.
 
@@ -59,7 +61,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignatureTimestamp.pdf", optio
 
 * class [PdfDigitalSignatureTimestampSettings](../../pdfdigitalsignaturetimestampsettings/)
 * class [PdfDigitalSignatureDetails](../)
-* مساحة الاسم [Aspose.Words.Saving](../../pdfdigitalsignaturedetails/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: CustomXmlProperty.CustomXmlProperty
-second_title: Referencia de API de Aspose.Words para .NET
-description: CustomXmlProperty constructor. Inicializa una nueva instancia de esta clase.
+title: CustomXmlProperty
+linktitle: CustomXmlProperty
+articleTitle: CustomXmlProperty
+second_title: Aspose.Words para .NET
+description: CustomXmlProperty constructor. Inicializa una nueva instancia de esta clase en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words.markup/customxmlproperty/customxmlproperty/
@@ -20,7 +22,7 @@ public CustomXmlProperty(string name, string uri, string value)
 | uri | String | El URI del espacio de nombres de la propiedad. No puede ser`nulo`. |
 | value | String | El valor de la propiedad. No puede ser`nulo`. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear etiquetas inteligentes.
 
@@ -121,7 +123,5 @@ private class SmartTagPrinter : DocumentVisitor
 ### Ver también
 
 * class [CustomXmlProperty](../)
-* espacio de nombres [Aspose.Words.Markup](../../customxmlproperty/)
+* espacio de nombres [Aspose.Words.Markup](../../../aspose.words.markup/)
 * asamblea [Aspose.Words](../../../)
-
-

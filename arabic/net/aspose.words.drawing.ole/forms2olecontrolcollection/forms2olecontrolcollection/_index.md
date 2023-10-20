@@ -1,7 +1,9 @@
 ---
-title: Forms2OleControlCollection.Forms2OleControlCollection
-second_title: Aspose.Words لمراجع .NET API
-description: Forms2OleControlCollection البناء. Default_Constructor
+title: Forms2OleControlCollection
+linktitle: Forms2OleControlCollection
+articleTitle: Forms2OleControlCollection
+second_title: Aspose.Words لـ .NET
+description: Forms2OleControlCollection البناء. Default_Constructor في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.drawing.ole/forms2olecontrolcollection/forms2olecontrolcollection/
@@ -17,7 +19,5 @@ public Forms2OleControlCollection()
 ### أنظر أيضا
 
 * class [Forms2OleControlCollection](../)
-* مساحة الاسم [Aspose.Words.Drawing.Ole](../../forms2olecontrolcollection/)
+* مساحة الاسم [Aspose.Words.Drawing.Ole](../../../aspose.words.drawing.ole/)
 * المجسم [Aspose.Words](../../../)
-
-

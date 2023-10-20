@@ -1,7 +1,9 @@
 ---
 title: FindReplaceOptions.MatchCase
-second_title: Справочник по API Aspose.Words для .NET
-description: FindReplaceOptions свойство. True указывает на сравнение с учетом регистра false указывает на сравнение без учета регистра.
+linktitle: MatchCase
+articleTitle: MatchCase
+second_title: Aspose.Words для .NET
+description: FindReplaceOptions MatchCase свойство. True указывает на сравнение с учетом регистра false указывает на сравнение без учета регистра на С#.
 type: docs
 weight: 140
 url: /ru/net/aspose.words.replacing/findreplaceoptions/matchcase/
@@ -14,7 +16,7 @@ True указывает на сравнение с учетом регистра
 public bool MatchCase { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как переключить чувствительность к регистру при выполнении операции поиска и замены.
 
@@ -40,7 +42,5 @@ Assert.AreEqual(matchCase ? "Jade bought a ruby necklace." : "Jade bought a Jade
 ### Смотрите также
 
 * class [FindReplaceOptions](../)
-* пространство имен [Aspose.Words.Replacing](../../findreplaceoptions/)
+* пространство имен [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * сборка [Aspose.Words](../../../)
-
-

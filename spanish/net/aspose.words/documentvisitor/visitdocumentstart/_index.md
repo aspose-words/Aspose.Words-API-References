@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitDocumentStart
-second_title: Referencia de API de Aspose.Words para .NET
-description: DocumentVisitor método. Se llama cuando ha comenzado la enumeración del documento.
+linktitle: VisitDocumentStart
+articleTitle: VisitDocumentStart
+second_title: Aspose.Words para .NET
+description: DocumentVisitor VisitDocumentStart método. Se llama cuando ha comenzado la enumeración del documento en C#.
 type: docs
 weight: 150
 url: /es/net/aspose.words/documentvisitor/visitdocumentstart/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitDocumentStart(Document doc)
 
 A[`VisitorAction`](../../visitoraction/) valor que especifica cómo continuar la enumeración.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo utilizar un visitante de documentos para imprimir la estructura de nodos de un documento.
 
@@ -193,7 +195,5 @@ public class DocStructurePrinter : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [Document](../../document/)
 * class [DocumentVisitor](../)
-* espacio de nombres [Aspose.Words](../../documentvisitor/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

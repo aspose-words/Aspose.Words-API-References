@@ -1,7 +1,9 @@
 ---
 title: FontInfoCollection.Item
-second_title: Referencia de API de Aspose.Words para .NET
-description: FontInfoCollection propiedad. Obtiene una fuente con el nombre especificado.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words para .NET
+description: FontInfoCollection Item propiedad. Obtiene una fuente con el nombre especificado en C#.
 type: docs
 weight: 40
 url: /es/net/aspose.words.fonts/fontinfocollection/item/
@@ -18,7 +20,7 @@ public FontInfo this[string name] { get; }
 | --- | --- |
 | name | Nombre de la fuente que se va a localizar sin distinguir entre mayúsculas y minúsculas. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo extraer una fuente incrustada de un documento y guardarla en el sistema de archivos local.
 
@@ -46,7 +48,7 @@ File.WriteAllBytes(ArtifactsDir + "Alte DIN 1451 Mittelschrift.otf", embeddedFon
 
 * class [FontInfo](../../fontinfo/)
 * class [FontInfoCollection](../)
-* espacio de nombres [Aspose.Words.Fonts](../../fontinfocollection/)
+* espacio de nombres [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * asamblea [Aspose.Words](../../../)
 
 ---
@@ -63,7 +65,7 @@ public FontInfo this[int index] { get; }
 | --- | --- |
 | index | Índice de base cero de la fuente. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo extraer una fuente incrustada de un documento y guardarla en el sistema de archivos local.
 
@@ -91,7 +93,5 @@ File.WriteAllBytes(ArtifactsDir + "Alte DIN 1451 Mittelschrift.otf", embeddedFon
 
 * class [FontInfo](../../fontinfo/)
 * class [FontInfoCollection](../)
-* espacio de nombres [Aspose.Words.Fonts](../../fontinfocollection/)
+* espacio de nombres [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,9 +1,11 @@
 ---
 title: Table.ConvertToHorizontallyMergedCells
-second_title: Referencia de API de Aspose.Words para .NET
-description: Table método. Convierte celdas fusionadas horizontalmente por ancho en celdas fusionadas porHorizontalMerge .
+linktitle: ConvertToHorizontallyMergedCells
+articleTitle: ConvertToHorizontallyMergedCells
+second_title: Aspose.Words para .NET
+description: Table ConvertToHorizontallyMergedCells método. Convierte celdas fusionadas horizontalmente por ancho en celdas fusionadas porHorizontalMerge  en C#.
 type: docs
-weight: 410
+weight: 390
 url: /es/net/aspose.words.tables/table/converttohorizontallymergedcells/
 ---
 ## Table.ConvertToHorizontallyMergedCells method
@@ -14,7 +16,7 @@ Convierte celdas fusionadas horizontalmente por ancho en celdas fusionadas por[`
 public void ConvertToHorizontallyMergedCells()
 ```
 
-### Observaciones
+## Observaciones
 
 Las celdas de la tabla se pueden combinar horizontalmente usando indicadores de combinación[`HorizontalMerge`](../../cellformat/horizontalmerge/) o usando el ancho de celda[`Width`](../../cellformat/width/).
 
@@ -22,7 +24,7 @@ Cuando la celda de la tabla se combina con la propiedad de ancho[`HorizontalMerg
 
 Utilice este método para transformar celdas de tabla fusionadas horizontalmente por ancho en celdas fusionadas mediante indicadores de combinación.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo convertir celdas fusionadas horizontalmente por ancho en celdas fusionadas por CellFormat.HorizontalMerge.
 
@@ -58,7 +60,5 @@ Assert.AreEqual(CellMerge.None, row.Cells[6].CellFormat.HorizontalMerge);
 ### Ver también
 
 * class [Table](../)
-* espacio de nombres [Aspose.Words.Tables](../../table/)
+* espacio de nombres [Aspose.Words.Tables](../../../aspose.words.tables/)
 * asamblea [Aspose.Words](../../../)
-
-

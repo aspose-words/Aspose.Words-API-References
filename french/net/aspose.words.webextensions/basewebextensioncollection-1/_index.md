@@ -1,7 +1,9 @@
 ---
-title: Class BaseWebExtensionCollectionT
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.WebExtensions.BaseWebExtensionCollection1T classe. Classe de base pourTaskPaneCollection WebExtensionBindingCollection  WebExtensionPropertyCollection etWebExtensionReferenceCollection collections.
+title: BaseWebExtensionCollectionT Class
+linktitle: BaseWebExtensionCollectionT
+articleTitle: BaseWebExtensionCollectionT
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.WebExtensions.BaseWebExtensionCollection1T classe. Classe de base pourTaskPaneCollection WebExtensionBindingCollection  WebExtensionPropertyCollection etWebExtensionReferenceCollection collections en C#.
 type: docs
 weight: 6700
 url: /fr/net/aspose.words.webextensions/basewebextensioncollection-1/
@@ -32,12 +34,12 @@ public abstract class BaseWebExtensionCollection<T> : IEnumerable<T>
 
 | Nom | La description |
 | --- | --- |
-| [Add](../../aspose.words.webextensions/basewebextensioncollection-1/add/)(T) | Ajoute l'élément spécifié à la collection. |
+| [Add](../../aspose.words.webextensions/basewebextensioncollection-1/add/)(*T*) | Ajoute l'élément spécifié à la collection. |
 | [Clear](../../aspose.words.webextensions/basewebextensioncollection-1/clear/)() | Supprime tous les éléments de la collection. |
 | [GetEnumerator](../../aspose.words.webextensions/basewebextensioncollection-1/getenumerator/)() | Renvoie un énumérateur qui peut parcourir une collection. |
-| [Remove](../../aspose.words.webextensions/basewebextensioncollection-1/remove/)(int) | Supprime l'élément à l'index spécifié de la collection. |
+| [Remove](../../aspose.words.webextensions/basewebextensioncollection-1/remove/)(*int*) | Supprime l'élément à l'index spécifié de la collection. |
 
-### Exemples
+## Exemples
 
 Montre comment utiliser la collection d’extensions Web d’un document.
 
@@ -67,5 +69,3 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 
 * espace de noms [Aspose.Words.WebExtensions](../../aspose.words.webextensions/)
 * Assemblée [Aspose.Words](../../)
-
-

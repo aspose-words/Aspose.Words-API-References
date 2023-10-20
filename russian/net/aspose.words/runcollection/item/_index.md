@@ -1,7 +1,9 @@
 ---
 title: RunCollection.Item
-second_title: Справочник по API Aspose.Words для .NET
-description: RunCollection свойство. ПолучаетRun по данному индексу.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words для .NET
+description: RunCollection Item свойство. ПолучаетRun по данному индексу на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words/runcollection/item/
@@ -18,7 +20,7 @@ public Run this[int index] { get; }
 | --- | --- |
 | index | Индекс в коллекции. |
 
-### Примечания
+## Примечания
 
 Индекс отсчитывается от нуля.
 
@@ -28,7 +30,7 @@ public Run this[int index] { get; }
 
 Если индекс отрицателен и его абсолютное значение превышает количество элементов в списке, возвращается нулевая ссылка.
 
-### Примеры
+## Примеры
 
 Показывает, как определить тип редакции встроенного узла.
 
@@ -85,7 +87,5 @@ Assert.IsTrue(runs[5].IsDeleteRevision);
 
 * class [Run](../../run/)
 * class [RunCollection](../)
-* пространство имен [Aspose.Words](../../runcollection/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

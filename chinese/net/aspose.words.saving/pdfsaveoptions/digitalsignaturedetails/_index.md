@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.DigitalSignatureDetails
-second_title: Aspose.Words for .NET API 参考
-description: PdfSaveOptions 财产. 获取或设置用于签署输出 PDF 文档的详细信息
+linktitle: DigitalSignatureDetails
+articleTitle: DigitalSignatureDetails
+second_title: 用于 .NET 的 Aspose.Words
+description: PdfSaveOptions DigitalSignatureDetails 财产. 获取或设置用于签署输出 PDF 文档的详细信息 在 C#.
 type: docs
 weight: 70
 url: /zh/net/aspose.words.saving/pdfsaveoptions/digitalsignaturedetails/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.saving/pdfsaveoptions/digitalsignaturedetails/
 public PdfDigitalSignatureDetails DigitalSignatureDetails { get; set; }
 ```
 
-### 评论
+## 评论
 
 默认值为`无效的`并且输出文档将不会被签名。 当此属性设置为有效时[`PdfDigitalSignatureDetails`](../../pdfdigitalsignaturedetails/)object, 那么输出的 PDF 文档将被数字签名。
 
-### 例子
+## 例子
 
 演示如何签署生成的 PDF 文档。
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignature.pdf", options);
 
 * class [PdfDigitalSignatureDetails](../../pdfdigitalsignaturedetails/)
 * class [PdfSaveOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../pdfsaveoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

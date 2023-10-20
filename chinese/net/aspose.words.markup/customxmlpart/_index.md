@@ -1,7 +1,9 @@
 ---
-title: Class CustomXmlPart
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Markup.CustomXmlPart 班级. 表示自定义 XML 数据存储部分包内的自定义 XML 数据
+title: CustomXmlPart Class
+linktitle: CustomXmlPart
+articleTitle: CustomXmlPart
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Markup.CustomXmlPart 班级. 表示自定义 XML 数据存储部分包内的自定义 XML 数据 在 C#.
 type: docs
 weight: 3920
 url: /zh/net/aspose.words.markup/customxmlpart/
@@ -37,11 +39,11 @@ public class CustomXmlPart
 | --- | --- |
 | [Clone](../../aspose.words.markup/customxmlpart/clone/)() | 制作对象的“足够深”的副本。 不重复字节[`Data`](./data/)值. |
 
-### 评论
+## 评论
 
 DOCX 或 DOC 文档可以包含一个或多个自定义 XML 数据存储部分。 Aspose.Words 保留并 允许通过以下方式创建和提取自定义 XML 数据[`CustomXmlParts`](../../aspose.words/document/customxmlparts/)收藏。
 
-### 例子
+## 例子
 
 演示如何使用自定义 XML 数据创建结构化文档标签。
 
@@ -109,5 +111,3 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.CustomXml.docx");
 
 * 命名空间 [Aspose.Words.Markup](../../aspose.words.markup/)
 * 部件 [Aspose.Words](../../)
-
-

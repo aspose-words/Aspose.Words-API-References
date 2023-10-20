@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.EmbedAttachments
-second_title: Aspose.Words per .NET API Reference
-description: PdfSaveOptions proprietà. Ottiene o imposta un valore che determina se incorporare o meno gli allegati nel documento PDF.
+linktitle: EmbedAttachments
+articleTitle: EmbedAttachments
+second_title: Aspose.Words per .NET
+description: PdfSaveOptions EmbedAttachments proprietà. Ottiene o imposta un valore che determina se incorporare o meno gli allegati nel documento PDF in C#.
 type: docs
 weight: 110
 url: /it/net/aspose.words.saving/pdfsaveoptions/embedattachments/
@@ -14,7 +16,7 @@ Ottiene o imposta un valore che determina se incorporare o meno gli allegati nel
 public bool EmbedAttachments { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Il valore predefinito è`falso` gli allegati non sono incorporati.
 
@@ -24,7 +26,7 @@ L'incorporamento degli allegati non è supportato durante il salvataggio in conf
 
 L'incorporamento degli allegati non è supportato quando la crittografia è abilitata.`falso` value verrà utilizzato automaticamente.
 
-### Esempi
+## Esempi
 
 Mostra come aggiungere allegati incorporati al documento PDF.
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.PdfEmbedAttachments.pdf", options);
 ### Guarda anche
 
 * class [PdfSaveOptions](../)
-* spazio dei nomi [Aspose.Words.Saving](../../pdfsaveoptions/)
+* spazio dei nomi [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../../)
-
-

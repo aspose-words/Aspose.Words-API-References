@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabelCollection.Format
-second_title: Aspose.Words لمراجع .NET API
-description: ChartDataLabelCollection ملكية. يوفر إمكانية الوصول إلى تعبئة وتنسيق سطر تسميات البيانات.
+linktitle: Format
+articleTitle: Format
+second_title: Aspose.Words لـ .NET
+description: ChartDataLabelCollection Format ملكية. يوفر إمكانية الوصول إلى تعبئة وتنسيق سطر تسميات البيانات في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.drawing.charts/chartdatalabelcollection/format/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing.charts/chartdatalabelcollection/format/
 public ChartFormat Format { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين تنسيق التعبئة والحد ووسيلة الشرح لتسميات بيانات المخطط.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "Charts.FormatDataLables.docx");
 
 * class [ChartFormat](../../chartformat/)
 * class [ChartDataLabelCollection](../)
-* مساحة الاسم [Aspose.Words.Drawing.Charts](../../chartdatalabelcollection/)
+* مساحة الاسم [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../../)
-
-

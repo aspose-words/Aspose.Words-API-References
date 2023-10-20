@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ExportCidUrlsForMhtmlResources
-second_title: Справочник по API Aspose.Words для .NET
-description: HtmlSaveOptions свойство. Указывает следует ли использовать URLадреса CID ContentID для ссылки на ресурсы изображения шрифты CSS включенные в документы MHTML . Значение по умолчаниюЛОЖЬ .
+linktitle: ExportCidUrlsForMhtmlResources
+articleTitle: ExportCidUrlsForMhtmlResources
+second_title: Aspose.Words для .NET
+description: HtmlSaveOptions ExportCidUrlsForMhtmlResources свойство. Указывает следует ли использовать URLадреса CID ContentID для ссылки на ресурсы изображения шрифты CSS включенные в документы MHTML . Значение по умолчаниюЛОЖЬ  на С#.
 type: docs
 weight: 110
 url: /ru/net/aspose.words.saving/htmlsaveoptions/exportcidurlsformhtmlresources/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.saving/htmlsaveoptions/exportcidurlsformhtmlresources/
 public bool ExportCidUrlsForMhtmlResources { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Эта опция влияет только на документы, сохраняемые в MHTML.
 
@@ -24,7 +26,7 @@ public bool ExportCidUrlsForMhtmlResources { get; set; }
 
 Теоретически между этими двумя методами ссылок не должно быть никакой разницы, и любой из них должен нормально работать в любом браузере или почтовом агенте. Однако на практике некоторым агентам не удается получить ресурсы по имени файла. Если ваш браузер или почтовый агент отказывается загружать ресурсы, включенные в документ MTHML (не отображает изображения или не загружает стили CSS), попробуйте экспортировать документ с URL-адресами CID.
 
-### Примеры
+## Примеры
 
 Показывает, как включить идентификаторы контента для выходных документов MHTML.
 
@@ -64,7 +66,5 @@ else
 ### Смотрите также
 
 * class [HtmlSaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../htmlsaveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

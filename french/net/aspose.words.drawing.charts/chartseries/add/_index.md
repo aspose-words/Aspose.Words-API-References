@@ -1,12 +1,14 @@
 ---
 title: ChartSeries.Add
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ChartSeries méthode. Ajoute la valeur X spécifiée à la série de graphiques. Si la série prend en charge les valeurs Y et les tailles de bulles elles seront vides pour la valeur X.
+linktitle: Add
+articleTitle: Add
+second_title: Aspose.Words pour .NET
+description: ChartSeries Add méthode. Ajoute la valeur X spécifiée à la série de graphiques. Si la série prend en charge les valeurs Y et les tailles de bulles elles seront vides pour la valeur X en C#.
 type: docs
 weight: 160
 url: /fr/net/aspose.words.drawing.charts/chartseries/add/
 ---
-## Add(ChartXValue) {#add}
+## Add(*[ChartXValue](../../chartxvalue/)*) {#add}
 
 Ajoute la valeur X spécifiée à la série de graphiques. Si la série prend en charge les valeurs Y et les tailles de bulles, elles seront vides pour la valeur X.
 
@@ -18,12 +20,12 @@ public void Add(ChartXValue xValue)
 
 * class [ChartXValue](../../chartxvalue/)
 * class [ChartSeries](../)
-* espace de noms [Aspose.Words.Drawing.Charts](../../chartseries/)
+* espace de noms [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Assemblée [Aspose.Words](../../../)
 
 ---
 
-## Add(ChartXValue, ChartYValue) {#add_1}
+## Add(*[ChartXValue](../../chartxvalue/), [ChartYValue](../../chartyvalue/)*) {#add_1}
 
 Ajoute les valeurs X et Y spécifiées à la série de graphiques.
 
@@ -31,7 +33,7 @@ Ajoute les valeurs X et Y spécifiées à la série de graphiques.
 public void Add(ChartXValue xValue, ChartYValue yValue)
 ```
 
-### Exemples
+## Exemples
 
 Montre comment ajouter/supprimer des valeurs de données de graphique.
 
@@ -94,12 +96,12 @@ doc.Save(ArtifactsDir + "Charts.PopulateChartWithData.docx");
 * class [ChartXValue](../../chartxvalue/)
 * class [ChartYValue](../../chartyvalue/)
 * class [ChartSeries](../)
-* espace de noms [Aspose.Words.Drawing.Charts](../../chartseries/)
+* espace de noms [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Assemblée [Aspose.Words](../../../)
 
 ---
 
-## Add(ChartXValue, ChartYValue, double) {#add_2}
+## Add(*[ChartXValue](../../chartxvalue/), [ChartYValue](../../chartyvalue/), double*) {#add_2}
 
 Ajoute la valeur X, la valeur Y et la taille de bulle spécifiées à la série de graphiques.
 
@@ -112,7 +114,5 @@ public void Add(ChartXValue xValue, ChartYValue yValue, double bubbleSize)
 * class [ChartXValue](../../chartxvalue/)
 * class [ChartYValue](../../chartyvalue/)
 * class [ChartSeries](../)
-* espace de noms [Aspose.Words.Drawing.Charts](../../chartseries/)
+* espace de noms [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Assemblée [Aspose.Words](../../../)
-
-

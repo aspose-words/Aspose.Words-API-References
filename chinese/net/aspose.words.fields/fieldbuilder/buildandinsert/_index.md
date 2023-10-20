@@ -1,12 +1,14 @@
 ---
 title: FieldBuilder.BuildAndInsert
-second_title: Aspose.Words for .NET API 参考
-description: FieldBuilder 方法. 在文档中指定的内联节点之前构建并插入一个字段
+linktitle: BuildAndInsert
+articleTitle: BuildAndInsert
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldBuilder BuildAndInsert 方法. 在文档中指定的内联节点之前构建并插入一个字段 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.fields/fieldbuilder/buildandinsert/
 ---
-## BuildAndInsert(Inline) {#buildandinsert}
+## BuildAndInsert(*[Inline](../../../aspose.words/inline/)*) {#buildandinsert}
 
 在文档中指定的内联节点之前构建并插入一个字段。
 
@@ -18,7 +20,7 @@ public Field BuildAndInsert(Inline refNode)
 
 A[`Field`](../../field/)代表插入字段的对象。
 
-### 例子
+## 例子
 
 演示如何使用字段生成器创建和插入字段。
 
@@ -48,12 +50,12 @@ doc.Save(ArtifactsDir + "Field.CreateWithFieldBuilder.docx");
 * class [Field](../../field/)
 * class [Inline](../../../aspose.words/inline/)
 * class [FieldBuilder](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldbuilder/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## BuildAndInsert(Paragraph) {#buildandinsert_1}
+## BuildAndInsert(*[Paragraph](../../../aspose.words/paragraph/)*) {#buildandinsert_1}
 
 在文档中构建一个字段并将其插入到指定段落的末尾。
 
@@ -65,7 +67,7 @@ public Field BuildAndInsert(Paragraph refNode)
 
 A[`Field`](../../field/)代表插入字段的对象。
 
-### 例子
+## 例子
 
 演示如何使用字段生成器构造字段，然后将它们插入到文档中。
 
@@ -150,7 +152,5 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 * class [Field](../../field/)
 * class [Paragraph](../../../aspose.words/paragraph/)
 * class [FieldBuilder](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldbuilder/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

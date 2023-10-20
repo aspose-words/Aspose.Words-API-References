@@ -1,7 +1,9 @@
 ---
-title: Enum LegendPosition
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Drawing.Charts.LegendPosition uppräkning. Anger möjliga positioner för en diagramförklaring.
+title: LegendPosition Enum
+linktitle: LegendPosition
+articleTitle: LegendPosition
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Drawing.Charts.LegendPosition uppräkning. Anger möjliga positioner för en diagramförklaring i C#.
 type: docs
 weight: 910
 url: /sv/net/aspose.words.drawing.charts/legendposition/
@@ -25,7 +27,7 @@ public enum LegendPosition
 | Top | `4` | Anger att förklaringen ska ritas överst i diagrammet. |
 | TopRight | `5` | Anger att förklaringen ska ritas uppe till höger i diagrammet. |
 
-### Exempel
+## Exempel
 
 Visar hur man redigerar utseendet på ett diagrams förklaring.
 
@@ -55,5 +57,3 @@ doc.Save(ArtifactsDir + "Charts.ChartLegend.docx");
 
 * namnutrymme [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: OleFormat.GetRawData
-second_title: Aspose.Words für .NET-API-Referenz
-description: OleFormat methode. Ruft OLEObjektRohdaten ab.
+linktitle: GetRawData
+articleTitle: GetRawData
+second_title: Aspose.Words für .NET
+description: OleFormat GetRawData methode. Ruft OLEObjektRohdaten ab in C#.
 type: docs
 weight: 150
 url: /de/net/aspose.words.drawing/oleformat/getrawdata/
@@ -14,7 +16,7 @@ Ruft OLE-Objekt-Rohdaten ab.
 public byte[] GetRawData()
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie auf die Rohdaten eines eingebetteten OLE-Objekts zugegriffen wird.
 
@@ -37,7 +39,5 @@ foreach (Shape shape in doc.GetChildNodes(NodeType.Shape, true))
 ### Siehe auch
 
 * class [OleFormat](../)
-* namensraum [Aspose.Words.Drawing](../../oleformat/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

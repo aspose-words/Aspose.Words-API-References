@@ -1,7 +1,9 @@
 ---
 title: LayoutCollector.Document
-second_title: Справочник по API Aspose.Words для .NET
-description: LayoutCollector свойство. Получает или задает документ к которому прикреплен этот экземпляр сборщика.
+linktitle: Document
+articleTitle: Document
+second_title: Aspose.Words для .NET
+description: LayoutCollector Document свойство. Получает или задает документ к которому прикреплен этот экземпляр сборщика на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.layout/layoutcollector/document/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.layout/layoutcollector/document/
 public Document Document { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Если вам нужен доступ к индексам страниц узлов документа, вам необходимо установить это свойство, чтобы оно указывало на экземпляр документа, до того, как будет построен макет страницы документа. Лучше всего установить это свойство на`нулевой` после этого в противном случае сборщик продолжает накапливать информацию из последующих перестроек макета страницы документа.
 
-### Примеры
+## Примеры
 
 Показывает, как просмотреть диапазоны страниц, охватываемые узлом.
 
@@ -77,7 +79,5 @@ Assert.AreEqual("¶", layoutEnumerator.Text);
 
 * class [Document](../../../aspose.words/document/)
 * class [LayoutCollector](../)
-* пространство имен [Aspose.Words.Layout](../../layoutcollector/)
+* пространство имен [Aspose.Words.Layout](../../../aspose.words.layout/)
 * сборка [Aspose.Words](../../../)
-
-

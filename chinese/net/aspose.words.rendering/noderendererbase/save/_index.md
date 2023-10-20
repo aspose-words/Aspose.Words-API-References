@@ -1,12 +1,14 @@
 ---
 title: NodeRendererBase.Save
-second_title: Aspose.Words for .NET API 参考
-description: NodeRendererBase 方法. 将形状渲染为图像并保存到文件中
+linktitle: Save
+articleTitle: Save
+second_title: 用于 .NET 的 Aspose.Words
+description: NodeRendererBase Save 方法. 将形状渲染为图像并保存到文件中 在 C#.
 type: docs
 weight: 90
 url: /zh/net/aspose.words.rendering/noderendererbase/save/
 ---
-## Save(string, ImageSaveOptions) {#save_1}
+## Save(*string, [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/)*) {#save_1}
 
 将形状渲染为图像并保存到文件中。
 
@@ -19,7 +21,7 @@ public void Save(string fileName, ImageSaveOptions saveOptions)
 | fileName | String | 图像文件的名称。如果指定名称的文件已存在，则覆盖现有文件。 |
 | saveOptions | ImageSaveOptions | 指定控制如何渲染和保存形状的选项。可`无效的`。 |
 
-### 例子
+## 例子
 
 演示如何将 Office Math 对象呈现为本地文件系统中的图像文件。
 
@@ -42,12 +44,12 @@ math.GetMathRenderer().Save(ArtifactsDir + "Shape.RenderOfficeMath.png", saveOpt
 
 * class [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/)
 * class [NodeRendererBase](../)
-* 命名空间 [Aspose.Words.Rendering](../../noderendererbase/)
+* 命名空间 [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## Save(Stream, ImageSaveOptions) {#save}
+## Save(*Stream, [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/)*) {#save}
 
 将形状渲染为图像并保存到流中。
 
@@ -60,7 +62,7 @@ public void Save(Stream stream, ImageSaveOptions saveOptions)
 | stream | Stream | 保存形状图像的流。 |
 | saveOptions | ImageSaveOptions | 指定控制如何渲染和保存形状的选项。可`无效的` . 如果这是`无效的`，图像将以 PNG 格式保存。 |
 
-### 例子
+## 例子
 
 演示如何使用形状渲染器将形状导出到本地文件系统中的文件。
 
@@ -86,7 +88,5 @@ foreach (Shape shape in doc.GetChildNodes(NodeType.Shape, true).OfType<Shape>())
 
 * class [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/)
 * class [NodeRendererBase](../)
-* 命名空间 [Aspose.Words.Rendering](../../noderendererbase/)
+* 命名空间 [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * 部件 [Aspose.Words](../../../)
-
-

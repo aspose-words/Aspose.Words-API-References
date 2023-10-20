@@ -1,7 +1,9 @@
 ---
 title: TextBox.LayoutFlow
-second_title: Aspose.Words لمراجع .NET API
-description: TextBox ملكية. تحديد تدفق تخطيط النص في الشكل.
+linktitle: LayoutFlow
+articleTitle: LayoutFlow
+second_title: Aspose.Words لـ .NET
+description: TextBox LayoutFlow ملكية. تحديد تدفق تخطيط النص في الشكل في C#.
 type: docs
 weight: 60
 url: /ar/net/aspose.words.drawing/textbox/layoutflow/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.drawing/textbox/layoutflow/
 public LayoutFlow LayoutFlow { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 القيمة الافتراضية هيHorizontal.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية ضبط اتجاه النص داخل مربع النص.
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "Shape.TextBoxLayoutFlow.docx");
 
 * enum [LayoutFlow](../../layoutflow/)
 * class [TextBox](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../textbox/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

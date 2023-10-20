@@ -1,7 +1,9 @@
 ---
 title: NodeCollection.ToArray
-second_title: Aspose.Words لمراجع .NET API
-description: NodeCollection طريقة. نسخ كافة العقد من المجموعة إلى مجموعة جديدة من العقد.
+linktitle: ToArray
+articleTitle: ToArray
+second_title: Aspose.Words لـ .NET
+description: NodeCollection ToArray طريقة. نسخ كافة العقد من المجموعة إلى مجموعة جديدة من العقد في C#.
 type: docs
 weight: 110
 url: /ar/net/aspose.words/nodecollection/toarray/
@@ -18,13 +20,13 @@ public Node[] ToArray()
 
 مجموعة من العقد.
 
-### ملاحظات
+## ملاحظات
 
 يجب ألا تقوم بإضافة/إزالة العقد أثناء التكرار عبر مجموعة من العقد لأن ذلك يبطل المكرِّر ويتطلب تحديثات للمجموعات المباشرة.
 
 لتتمكن من إضافة/إزالة العقد أثناء التكرار، استخدم هذه الطريقة لنسخ العقد إلى مصفوفة ذات حجم ثابت ثم التكرار عبر المصفوفة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استبدال جميع أشكال مربعات النص بأشكال الصور.
 
@@ -70,7 +72,5 @@ doc.Save(ArtifactsDir + "Shape.ReplaceTextboxesWithImages.docx");
 
 * class [Node](../../node/)
 * class [NodeCollection](../)
-* مساحة الاسم [Aspose.Words](../../nodecollection/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

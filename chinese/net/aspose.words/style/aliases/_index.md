@@ -1,7 +1,9 @@
 ---
 title: Style.Aliases
-second_title: Aspose.Words for .NET API 参考
-description: Style 财产. 获取此样式的所有别名如果样式没有别名则返回空字符串数组
+linktitle: Aliases
+articleTitle: Aliases
+second_title: 用于 .NET 的 Aspose.Words
+description: Style Aliases 财产. 获取此样式的所有别名如果样式没有别名则返回空字符串数组 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words/style/aliases/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/style/aliases/
 public string[] Aliases { get; }
 ```
 
-### 例子
+## 例子
 
 展示如何使用样式别名。
 
@@ -45,7 +47,5 @@ Assert.AreEqual(doc.FirstSection.Body.Paragraphs[0].ParagraphFormat.Style,
 ### 也可以看看
 
 * class [Style](../)
-* 命名空间 [Aspose.Words](../../style/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: DocSaveOptions.DocSaveOptions
-second_title: Aspose.Words per .NET API Reference
-description: DocSaveOptions costruttore. Inizializza una nuova istanza di questa classe che può essere utilizzata per salvare un documento nel fileDoc formato.
+title: DocSaveOptions
+linktitle: DocSaveOptions
+articleTitle: DocSaveOptions
+second_title: Aspose.Words per .NET
+description: DocSaveOptions costruttore. Inizializza una nuova istanza di questa classe che può essere utilizzata per salvare un documento nel fileDoc formato in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words.saving/docsaveoptions/docsaveoptions/
@@ -14,7 +16,7 @@ Inizializza una nuova istanza di questa classe che può essere utilizzata per sa
 public DocSaveOptions()
 ```
 
-### Esempi
+## Esempi
 
 Mostra come impostare le opzioni di salvataggio per i formati Microsoft Word precedenti.
 
@@ -47,12 +49,12 @@ Assert.AreEqual("Hello world!", doc.GetText().Trim());
 ### Guarda anche
 
 * class [DocSaveOptions](../)
-* spazio dei nomi [Aspose.Words.Saving](../../docsaveoptions/)
+* spazio dei nomi [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../../)
 
 ---
 
-## DocSaveOptions(SaveFormat) {#constructor_1}
+## DocSaveOptions(*[SaveFormat](../../../aspose.words/saveformat/)*) {#constructor_1}
 
 Inizializza una nuova istanza di questa classe che può essere utilizzata per salvare un documento nel fileDoc oppure Dot formato.
 
@@ -64,7 +66,7 @@ public DocSaveOptions(SaveFormat saveFormat)
 | --- | --- | --- |
 | saveFormat | SaveFormat | Può essereDoc ODot. |
 
-### Esempi
+## Esempi
 
 Mostra come impostare le opzioni di salvataggio per i formati Microsoft Word precedenti.
 
@@ -98,7 +100,5 @@ Assert.AreEqual("Hello world!", doc.GetText().Trim());
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
 * class [DocSaveOptions](../)
-* spazio dei nomi [Aspose.Words.Saving](../../docsaveoptions/)
+* spazio dei nomi [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../../)
-
-

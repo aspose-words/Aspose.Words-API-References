@@ -1,7 +1,9 @@
 ---
 title: RevisionOptions.ShowRevisionMarks
-second_title: Aspose.Words for .NET API 参考
-description: RevisionOptions 财产. 允许指定是否应使用特殊格式标记来标记修订文本 默认值为真的.
+linktitle: ShowRevisionMarks
+articleTitle: ShowRevisionMarks
+second_title: 用于 .NET 的 Aspose.Words
+description: RevisionOptions ShowRevisionMarks 财产. 允许指定是否应使用特殊格式标记来标记修订文本 默认值为真的 在 C#.
 type: docs
 weight: 190
 url: /zh/net/aspose.words.layout/revisionoptions/showrevisionmarks/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.layout/revisionoptions/showrevisionmarks/
 public bool ShowRevisionMarks { get; set; }
 ```
 
-### 例子
+## 例子
 
 展示如何修改修订版本的外观。
 
@@ -65,7 +67,5 @@ doc.Save(ArtifactsDir + "Revision.RevisionOptions.pdf");
 ### 也可以看看
 
 * class [RevisionOptions](../)
-* 命名空间 [Aspose.Words.Layout](../../revisionoptions/)
+* 命名空间 [Aspose.Words.Layout](../../../aspose.words.layout/)
 * 部件 [Aspose.Words](../../../)
-
-

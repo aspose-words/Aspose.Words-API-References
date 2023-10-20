@@ -1,12 +1,14 @@
 ---
 title: Node.GetAncestor
-second_title: Referencia de API de Aspose.Words para .NET
-description: Node método. Obtiene el primer antepasado del tipo de objeto especificado.
+linktitle: GetAncestor
+articleTitle: GetAncestor
+second_title: Aspose.Words para .NET
+description: Node GetAncestor método. Obtiene el primer antepasado del tipo de objeto especificado en C#.
 type: docs
 weight: 110
 url: /es/net/aspose.words/node/getancestor/
 ---
-## GetAncestor(Type) {#getancestor_1}
+## GetAncestor(*Type*) {#getancestor_1}
 
 Obtiene el primer antepasado del tipo de objeto especificado.
 
@@ -22,11 +24,11 @@ public CompositeNode GetAncestor(Type ancestorType)
 
 El antepasado del tipo especificado o`nulo` si no se encontró ningún antepasado de este tipo.
 
-### Observaciones
+## Observaciones
 
 El tipo de antepasado coincide si es igual a*ancestorType* o derivado de*ancestorType*.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo saber si una tabla está anidada.
 
@@ -105,12 +107,12 @@ private static int GetChildTableCount(Table table)
 
 * class [CompositeNode](../../compositenode/)
 * class [Node](../)
-* espacio de nombres [Aspose.Words](../../node/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
 
 ---
 
-## GetAncestor(NodeType) {#getancestor}
+## GetAncestor(*[NodeType](../../nodetype/)*) {#getancestor}
 
 Obtiene el primer ancestro del especificado[`NodeType`](../../nodetype/) .
 
@@ -126,7 +128,7 @@ public CompositeNode GetAncestor(NodeType ancestorType)
 
 El antepasado del tipo especificado o`nulo` si no se encontró ningún antepasado de este tipo.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo saber si una tabla está anidada.
 
@@ -206,7 +208,5 @@ private static int GetChildTableCount(Table table)
 * class [CompositeNode](../../compositenode/)
 * enum [NodeType](../../nodetype/)
 * class [Node](../)
-* espacio de nombres [Aspose.Words](../../node/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

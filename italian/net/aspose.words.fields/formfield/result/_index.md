@@ -1,7 +1,9 @@
 ---
 title: FormField.Result
-second_title: Aspose.Words per .NET API Reference
-description: FormField proprietà. Ottiene o imposta una stringa che rappresenta il risultato di questo campo modulo.
+linktitle: Result
+articleTitle: Result
+second_title: Aspose.Words per .NET
+description: FormField Result proprietà. Ottiene o imposta una stringa che rappresenta il risultato di questo campo modulo in C#.
 type: docs
 weight: 170
 url: /it/net/aspose.words.fields/formfield/result/
@@ -14,7 +16,7 @@ Ottiene o imposta una stringa che rappresenta il risultato di questo campo modul
 public string Result { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Per un campo modulo di testo il risultato è il testo presente nel campo.
 
@@ -26,7 +28,7 @@ Collocamento`Result` per un campo modulo testo non si applica il testo format sp
 
 Per un campo modulo di testo il[`TextInputDefault`](../textinputdefault/) il valore viene applicato se*value* È`nullo`.
 
-### Esempi
+## Esempi
 
 Mostra come inserire una casella combinata.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "FormFields.Create.html");
 ### Guarda anche
 
 * class [FormField](../)
-* spazio dei nomi [Aspose.Words.Fields](../../formfield/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

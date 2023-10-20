@@ -1,7 +1,9 @@
 ---
 title: PageSetup.VerticalAlignment
-second_title: Aspose.Words för .NET API Referens
-description: PageSetup fast egendom. Returnerar eller ställer in den vertikala justeringen av text på varje sida i ett dokument eller avsnitt.
+linktitle: VerticalAlignment
+articleTitle: VerticalAlignment
+second_title: Aspose.Words för .NET
+description: PageSetup VerticalAlignment fast egendom. Returnerar eller ställer in den vertikala justeringen av text på varje sida i ett dokument eller avsnitt i C#.
 type: docs
 weight: 450
 url: /sv/net/aspose.words/pagesetup/verticalalignment/
@@ -14,7 +16,7 @@ Returnerar eller ställer in den vertikala justeringen av text på varje sida i 
 public PageVerticalAlignment VerticalAlignment { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man tillämpar och återställer sidinställningar till avsnitt i ett dokument.
 
@@ -49,7 +51,5 @@ doc.Save(ArtifactsDir + "PageSetup.ClearFormatting.docx");
 
 * enum [PageVerticalAlignment](../../pageverticalalignment/)
 * class [PageSetup](../)
-* namnutrymme [Aspose.Words](../../pagesetup/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

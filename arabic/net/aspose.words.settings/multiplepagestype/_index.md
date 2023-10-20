@@ -1,7 +1,9 @@
 ---
-title: Enum MultiplePagesType
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Settings.MultiplePagesType تعداد. يحدد كيفية طباعة المستند.
+title: MultiplePagesType Enum
+linktitle: MultiplePagesType
+articleTitle: MultiplePagesType
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Settings.MultiplePagesType تعداد. يحدد كيفية طباعة المستند في C#.
 type: docs
 weight: 5870
 url: /ar/net/aspose.words.settings/multiplepagestype/
@@ -29,5 +31,3 @@ public enum MultiplePagesType
 
 * مساحة الاسم [Aspose.Words.Settings](../../aspose.words.settings/)
 * المجسم [Aspose.Words](../../)
-
-

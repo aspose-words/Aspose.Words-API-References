@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.InsertComboBox
-second_title: Référence de l'API Aspose.Words pour .NET
-description: DocumentBuilder méthode. Insère un champ de formulaire combobox à la position actuelle.
+linktitle: InsertComboBox
+articleTitle: InsertComboBox
+second_title: Aspose.Words pour .NET
+description: DocumentBuilder InsertComboBox méthode. Insère un champ de formulaire combobox à la position actuelle en C#.
 type: docs
 weight: 300
 url: /fr/net/aspose.words/documentbuilder/insertcombobox/
@@ -24,11 +26,11 @@ public FormField InsertComboBox(string name, string[] items, int selectedIndex)
 
 Le nœud du champ de formulaire qui vient d’être inséré.
 
-### Remarques
+## Remarques
 
 Si vous spécifiez un nom pour le champ du formulaire, un signet est automatiquement créé avec le même nom.
 
-### Exemples
+## Exemples
 
 Montre comment insérer un champ de formulaire de zone de liste déroulante dans un document.
 
@@ -71,7 +73,5 @@ builder.Document.Save(ArtifactsDir + "DocumentBuilder.CreateForm.docx");
 
 * class [FormField](../../../aspose.words.fields/formfield/)
 * class [DocumentBuilder](../)
-* espace de noms [Aspose.Words](../../documentbuilder/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: PageInfo.GetDotNetPaperSize
-second_title: Aspose.Words for .NET API 参考
-description: PageInfo 方法. 获取PaperSize适合打印 由此表示的页面的对象PageInfo.
+linktitle: GetDotNetPaperSize
+articleTitle: GetDotNetPaperSize
+second_title: 用于 .NET 的 Aspose.Words
+description: PageInfo GetDotNetPaperSize 方法. 获取PaperSize适合打印 由此表示的页面的对象PageInfo 在 C#.
 type: docs
 weight: 80
 url: /zh/net/aspose.words.rendering/pageinfo/getdotnetpapersize/
@@ -22,7 +24,7 @@ public PaperSize GetDotNetPaperSize(PaperSizeCollection paperSizes)
 
 可以在 .NET 打印框架中使用的对象来指定纸张尺寸。
 
-### 例子
+## 例子
 
 演示如何自定义 Aspose.Words 文档的打印。
 
@@ -128,7 +130,5 @@ public class MyPrintDocument : PrintDocument
 ### 也可以看看
 
 * class [PageInfo](../)
-* 命名空间 [Aspose.Words.Rendering](../../pageinfo/)
+* 命名空间 [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * 部件 [Aspose.Words](../../../)
-
-

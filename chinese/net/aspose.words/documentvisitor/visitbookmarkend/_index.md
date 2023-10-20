@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitBookmarkEnd
-second_title: Aspose.Words for .NET API 参考
-description: DocumentVisitor 方法. 在文档中遇到书签末尾时调用
+linktitle: VisitBookmarkEnd
+articleTitle: VisitBookmarkEnd
+second_title: 用于 .NET 的 Aspose.Words
+description: DocumentVisitor VisitBookmarkEnd 方法. 在文档中遇到书签末尾时调用 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words/documentvisitor/visitbookmarkend/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitBookmarkEnd(BookmarkEnd bookmarkEnd)
 
 A[`VisitorAction`](../../visitoraction/)指定如何继续枚举的值。
 
-### 例子
+## 例子
 
 展示如何添加书签并更新其内容。
 
@@ -113,7 +115,5 @@ public class BookmarkInfoPrinter : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [BookmarkEnd](../../bookmarkend/)
 * class [DocumentVisitor](../)
-* 命名空间 [Aspose.Words](../../documentvisitor/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

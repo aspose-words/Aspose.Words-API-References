@@ -1,9 +1,11 @@
 ---
 title: CellFormat.TopPadding
-second_title: Справочник по API Aspose.Words для .NET
-description: CellFormat свойство. Возвращает или задает количество места в пунктах которое нужно добавить над содержимым ячейки.
+linktitle: TopPadding
+articleTitle: TopPadding
+second_title: Aspose.Words для .NET
+description: CellFormat TopPadding свойство. Возвращает или задает количество места в пунктах которое нужно добавить над содержимым ячейки на С#.
 type: docs
-weight: 110
+weight: 100
 url: /ru/net/aspose.words.tables/cellformat/toppadding/
 ---
 ## CellFormat.TopPadding property
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.tables/cellformat/toppadding/
 public double TopPadding { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как форматировать ячейки с помощью построителя документов.
 
@@ -61,7 +63,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.SetCellFormatting.docx");
 ### Смотрите также
 
 * class [CellFormat](../)
-* пространство имен [Aspose.Words.Tables](../../cellformat/)
+* пространство имен [Aspose.Words.Tables](../../../aspose.words.tables/)
 * сборка [Aspose.Words](../../../)
-
-

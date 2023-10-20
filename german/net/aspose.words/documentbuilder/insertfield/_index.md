@@ -1,12 +1,14 @@
 ---
 title: DocumentBuilder.InsertField
-second_title: Aspose.Words für .NET-API-Referenz
-description: DocumentBuilder methode. Fügt ein WordFeld in ein Dokument ein und aktualisiert optional das Feldergebnis.
+linktitle: InsertField
+articleTitle: InsertField
+second_title: Aspose.Words für .NET
+description: DocumentBuilder InsertField methode. Fügt ein WordFeld in ein Dokument ein und aktualisiert optional das Feldergebnis in C#.
 type: docs
-weight: 330
+weight: 320
 url: /de/net/aspose.words/documentbuilder/insertfield/
 ---
-## InsertField(FieldType, bool) {#insertfield}
+## InsertField(*[FieldType](../../../aspose.words.fields/fieldtype/), bool*) {#insertfield}
 
 Fügt ein Word-Feld in ein Dokument ein und aktualisiert optional das Feldergebnis.
 
@@ -23,11 +25,11 @@ public Field InsertField(FieldType fieldType, bool updateField)
 
 A[`Field`](../../../aspose.words.fields/field/) Objekt, das das eingefügte Feld darstellt.
 
-### Bemerkungen
+## Bemerkungen
 
 Diese Methode fügt ein Feld in ein Dokument ein. Aspose.Words kann Felder der meisten Typen aktualisieren, aber nicht alle. Weitere Einzelheiten finden Sie unter the `InsertField` Überlast.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man mithilfe von FieldType ein Feld in ein Dokument einfügt.
 
@@ -74,12 +76,12 @@ else
 * class [Field](../../../aspose.words.fields/field/)
 * enum [FieldType](../../../aspose.words.fields/fieldtype/)
 * class [DocumentBuilder](../)
-* namensraum [Aspose.Words](../../documentbuilder/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
 
 ---
 
-## InsertField(string) {#insertfield_1}
+## InsertField(*string*) {#insertfield_1}
 
 Fügt ein Word-Feld in ein Dokument ein und aktualisiert das Feldergebnis.
 
@@ -95,11 +97,11 @@ public Field InsertField(string fieldCode)
 
 A[`Field`](../../../aspose.words.fields/field/) Objekt, das das eingefügte Feld darstellt.
 
-### Bemerkungen
+## Bemerkungen
 
 Diese Methode fügt ein Feld in ein Dokument ein und aktualisiert das Feldergebnis sofort. Aspose.Words kann Felder der meisten Typen aktualisieren, aber nicht alle. Weitere Einzelheiten finden Sie unter the `InsertField` Überlast.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man mithilfe eines Feldcodes ein Feld in ein Dokument einfügt.
 
@@ -144,12 +146,12 @@ doc.Save(ArtifactsDir + "DocumentBuilder.MergeFields.docx");
 
 * class [Field](../../../aspose.words.fields/field/)
 * class [DocumentBuilder](../)
-* namensraum [Aspose.Words](../../documentbuilder/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
 
 ---
 
-## InsertField(string, string) {#insertfield_2}
+## InsertField(*string, string*) {#insertfield_2}
 
 Fügt ein Word-Feld in ein Dokument ein, ohne das Feldergebnis zu aktualisieren.
 
@@ -166,7 +168,7 @@ public Field InsertField(string fieldCode, string fieldValue)
 
 A[`Field`](../../../aspose.words.fields/field/) Objekt, das das eingefügte Feld darstellt.
 
-### Bemerkungen
+## Bemerkungen
 
 Felder in Microsoft Word-Dokumenten bestehen aus einem Feldcode und einem Feldergebnis. Der Feldcode ist wie eine Formel und das Feldergebnis ist wie der Wert, den die Formel erzeugt. Der Feldcode kann auch Feldswitches enthalten, die wie zusätzliche Anweisungen zum Ausführen einer bestimmten Aktion sind.
 
@@ -176,7 +178,7 @@ Um ein Feld zu erstellen, müssen Sie einen Feldtyp, einen Feldcode und einen �
 
 Aspose.Words kann Feldergebnisse für die meisten Feldtypen berechnen, aber diese Methode aktualisiert das Feldergebnis nicht automatisch. Da das Feldergebnis nicht automatisch berechnet wird, wird von Ihnen erwartet, dass Sie einen Zeichenfolgenwert (oder sogar eine leere Zeichenfolge) übergeben, der in das Feldergebnis eingefügt wird. Dieser Wert verbleibt als Platzhalter im Feldergebnis, bis das Feld berechnet wird aktualisiert. Um das Feldergebnis zu aktualisieren, können Sie aufrufen[`Update`](../../../aspose.words.fields/field/update/)auf dem Feldobjekt return an Sie oder[`UpdateFields`](../../document/updatefields/) um Felder im gesamten Dokument zu aktualisieren.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Seitennummerierung in einem Abschnitt eingerichtet wird.
 
@@ -234,7 +236,5 @@ doc.Save(ArtifactsDir + "PageSetup.PageNumbering.docx");
 
 * class [Field](../../../aspose.words.fields/field/)
 * class [DocumentBuilder](../)
-* namensraum [Aspose.Words](../../documentbuilder/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

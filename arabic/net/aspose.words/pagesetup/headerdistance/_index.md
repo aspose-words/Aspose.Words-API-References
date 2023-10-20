@@ -1,7 +1,9 @@
 ---
 title: PageSetup.HeaderDistance
-second_title: Aspose.Words لمراجع .NET API
-description: PageSetup ملكية. إرجاع أو تعيين المسافة بالنقاط بين الرأس وأعلى الصفحة.
+linktitle: HeaderDistance
+articleTitle: HeaderDistance
+second_title: Aspose.Words لـ .NET
+description: PageSetup HeaderDistance ملكية. إرجاع أو تعيين المسافة بالنقاط بين الرأس وأعلى الصفحة في C#.
 type: docs
 weight: 170
 url: /ar/net/aspose.words/pagesetup/headerdistance/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/pagesetup/headerdistance/
 public double HeaderDistance { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية ضبط حجم الورق واتجاهه والهوامش بالإضافة إلى الإعدادات الأخرى لقسم ما.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "PageSetup.PageMargins.docx");
 ### أنظر أيضا
 
 * class [PageSetup](../)
-* مساحة الاسم [Aspose.Words](../../pagesetup/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

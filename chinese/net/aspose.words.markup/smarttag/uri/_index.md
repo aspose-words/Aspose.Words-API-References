@@ -1,7 +1,9 @@
 ---
 title: SmartTag.Uri
-second_title: Aspose.Words for .NET API 参考
-description: SmartTag 财产. 指定智能标记的命名空间 URI
+linktitle: Uri
+articleTitle: Uri
+second_title: 用于 .NET 的 Aspose.Words
+description: SmartTag Uri 财产. 指定智能标记的命名空间 URI 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words.markup/smarttag/uri/
@@ -14,13 +16,13 @@ url: /zh/net/aspose.words.markup/smarttag/uri/
 public string Uri { get; set; }
 ```
 
-### 评论
+## 评论
 
 不可能是`无效的`。
 
 默认为空字符串。
 
-### 例子
+## 例子
 
 展示如何创建智能标签。
 
@@ -121,7 +123,5 @@ private class SmartTagPrinter : DocumentVisitor
 ### 也可以看看
 
 * class [SmartTag](../)
-* 命名空间 [Aspose.Words.Markup](../../smarttag/)
+* 命名空间 [Aspose.Words.Markup](../../../aspose.words.markup/)
 * 部件 [Aspose.Words](../../../)
-
-

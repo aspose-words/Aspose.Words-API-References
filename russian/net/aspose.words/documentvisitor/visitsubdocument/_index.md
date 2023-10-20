@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitSubDocument
-second_title: Справочник по API Aspose.Words для .NET
-description: DocumentVisitor метод. Вызывается при обнаружении вложенного документа.
+linktitle: VisitSubDocument
+articleTitle: VisitSubDocument
+second_title: Aspose.Words для .NET
+description: DocumentVisitor VisitSubDocument метод. Вызывается при обнаружении вложенного документа на С#.
 type: docs
 weight: 480
 url: /ru/net/aspose.words/documentvisitor/visitsubdocument/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitSubDocument(SubDocument subDocument)
 
 А[`VisitorAction`](../../visitoraction/) значение, указывающее, как продолжить перечисление.
 
-### Примеры
+## Примеры
 
 Показывает, как использовать посетитель документа для печати структуры узла документа.
 
@@ -193,7 +195,5 @@ public class DocStructurePrinter : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [SubDocument](../../subdocument/)
 * class [DocumentVisitor](../)
-* пространство имен [Aspose.Words](../../documentvisitor/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

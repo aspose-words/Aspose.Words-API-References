@@ -1,7 +1,9 @@
 ---
 title: ParagraphCollection.Item
-second_title: Aspose.Words für .NET-API-Referenz
-description: ParagraphCollection eigendom. Ruft a abParagraph am angegebenen Index.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words für .NET
+description: ParagraphCollection Item eigendom. Ruft a abParagraph am angegebenen Index in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words/paragraphcollection/item/
@@ -18,7 +20,7 @@ public Paragraph this[int index] { get; }
 | --- | --- |
 | index | Ein Index in die Sammlung. |
 
-### Bemerkungen
+## Bemerkungen
 
 Der Index ist nullbasiert.
 
@@ -28,7 +30,7 @@ Wenn der Index größer oder gleich der Anzahl der Elemente in der Liste ist, wi
 
 Wenn der Index negativ ist und sein absoluter Wert größer als die Anzahl der Elemente in der Liste ist, wird ein Nullverweis zurückgegeben.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie überprüft wird, ob es sich bei einem Absatz um eine Verschiebungsrevision handelt.
 
@@ -63,7 +65,5 @@ Assert.True(paragraphs[3].IsMoveToRevision);
 
 * class [Paragraph](../../paragraph/)
 * class [ParagraphCollection](../)
-* namensraum [Aspose.Words](../../paragraphcollection/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

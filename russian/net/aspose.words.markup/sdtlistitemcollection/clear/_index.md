@@ -1,7 +1,9 @@
 ---
 title: SdtListItemCollection.Clear
-second_title: Справочник по API Aspose.Words для .NET
-description: SdtListItemCollection метод. Удаляет все элементы из этой коллекции.
+linktitle: Clear
+articleTitle: Clear
+second_title: Aspose.Words для .NET
+description: SdtListItemCollection Clear метод. Удаляет все элементы из этой коллекции на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.markup/sdtlistitemcollection/clear/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.markup/sdtlistitemcollection/clear/
 public void Clear()
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как работать с тегами структурированных документов с раскрывающимся списком.
 
@@ -71,7 +73,5 @@ Assert.AreEqual(0, listItems.Count);
 ### Смотрите также
 
 * class [SdtListItemCollection](../)
-* пространство имен [Aspose.Words.Markup](../../sdtlistitemcollection/)
+* пространство имен [Aspose.Words.Markup](../../../aspose.words.markup/)
 * сборка [Aspose.Words](../../../)
-
-

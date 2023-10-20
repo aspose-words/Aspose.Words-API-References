@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.FontSavingCallback
-second_title: Справочник по API Aspose.Words для .NET
-description: HtmlSaveOptions свойство. Позволяет контролировать сохранение шрифтов при сохранении документа в формате HTML MHTML или EPUB.
+linktitle: FontSavingCallback
+articleTitle: FontSavingCallback
+second_title: Aspose.Words для .NET
+description: HtmlSaveOptions FontSavingCallback свойство. Позволяет контролировать сохранение шрифтов при сохранении документа в формате HTML MHTML или EPUB на С#.
 type: docs
 weight: 300
 url: /ru/net/aspose.words.saving/htmlsaveoptions/fontsavingcallback/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.saving/htmlsaveoptions/fontsavingcallback/
 public IFontSavingCallback FontSavingCallback { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как определить пользовательскую логику для экспорта шрифтов при сохранении в HTML.
 
@@ -75,7 +77,5 @@ public class HandleFontSaving : IFontSavingCallback
 
 * interface [IFontSavingCallback](../../ifontsavingcallback/)
 * class [HtmlSaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../htmlsaveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

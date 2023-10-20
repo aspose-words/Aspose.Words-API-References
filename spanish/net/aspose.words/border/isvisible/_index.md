@@ -1,7 +1,9 @@
 ---
 title: Border.IsVisible
-second_title: Referencia de API de Aspose.Words para .NET
-description: Border propiedad. Devolucionesverdadero Si elLineStyle no esNone .
+linktitle: IsVisible
+articleTitle: IsVisible
+second_title: Aspose.Words para .NET
+description: Border IsVisible propiedad. Devolucionesverdadero Si elLineStyle no esNone  en C#.
 type: docs
 weight: 30
 url: /es/net/aspose.words/border/isvisible/
@@ -14,7 +16,7 @@ Devoluciones`verdadero` Si el[`LineStyle`](../linestyle/) no esNone .
 public bool IsVisible { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo eliminar bordes de un párrafo.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "Border.ClearFormatting.docx");
 ### Ver también
 
 * class [Border](../)
-* espacio de nombres [Aspose.Words](../../border/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

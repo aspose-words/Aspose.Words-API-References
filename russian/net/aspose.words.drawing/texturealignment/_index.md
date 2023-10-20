@@ -1,7 +1,9 @@
 ---
-title: Enum TextureAlignment
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Drawing.TextureAlignment перечисление. Определяет выравнивание мозаики заливки текстуры.
+title: TextureAlignment Enum
+linktitle: TextureAlignment
+articleTitle: TextureAlignment
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Drawing.TextureAlignment перечисление. Определяет выравнивание мозаики заливки текстуры на С#.
 type: docs
 weight: 1370
 url: /ru/net/aspose.words.drawing/texturealignment/
@@ -29,7 +31,7 @@ public enum TextureAlignment
 | BottomRight | `8` | Выравнивание текстуры справа внизу. |
 | None | `9` | Нет выравнивания текстур. |
 
-### Примеры
+## Примеры
 
 Показывает, как заполнить и расположить текстуру внутри фигуры.
 
@@ -54,5 +56,3 @@ doc.Save(ArtifactsDir + "Shape.TextureFill.docx", saveOptions);
 
 * пространство имен [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../)
-
-

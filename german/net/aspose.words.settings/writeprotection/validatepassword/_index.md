@@ -1,7 +1,9 @@
 ---
 title: WriteProtection.ValidatePassword
-second_title: Aspose.Words für .NET-API-Referenz
-description: WriteProtection methode. Gibt zurückWAHR Wenn das angegebene Passwort mit dem Schreibschutzpasswort übereinstimmt mit dem das Dokument geschützt wurde. Wenn das Dokument nicht mit einem Passwort schreibgeschützt ist wird zurückgegebenFALSCH .
+linktitle: ValidatePassword
+articleTitle: ValidatePassword
+second_title: Aspose.Words für .NET
+description: WriteProtection ValidatePassword methode. Gibt zurückWAHR Wenn das angegebene Passwort mit dem Schreibschutzpasswort übereinstimmt mit dem das Dokument geschützt wurde. Wenn das Dokument nicht mit einem Passwort schreibgeschützt ist wird zurückgegebenFALSCH  in C#.
 type: docs
 weight: 40
 url: /de/net/aspose.words.settings/writeprotection/validatepassword/
@@ -14,7 +16,7 @@ Gibt zurück`WAHR` Wenn das angegebene Passwort mit dem Schreibschutzpasswort ü
 public bool ValidatePassword(string password)
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man ein Dokument mit einem Passwort schützt.
 
@@ -46,7 +48,5 @@ Assert.AreEqual("Hello world! This document is protected." +
 ### Siehe auch
 
 * class [WriteProtection](../)
-* namensraum [Aspose.Words.Settings](../../writeprotection/)
+* namensraum [Aspose.Words.Settings](../../../aspose.words.settings/)
 * Montage [Aspose.Words](../../../)
-
-

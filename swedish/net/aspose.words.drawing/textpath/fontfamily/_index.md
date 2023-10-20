@@ -1,7 +1,9 @@
 ---
 title: TextPath.FontFamily
-second_title: Aspose.Words för .NET API Referens
-description: TextPath fast egendom. Definierar familjen för textpathteckensnittet.
+linktitle: FontFamily
+articleTitle: FontFamily
+second_title: Aspose.Words för .NET
+description: TextPath FontFamily fast egendom. Definierar familjen för textpathteckensnittet i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.drawing/textpath/fontfamily/
@@ -14,11 +16,11 @@ Definierar familjen för textpath-teckensnittet.
 public string FontFamily { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Standardvärdet är Arial.
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med WordArt.
 
@@ -121,7 +123,5 @@ private static Shape AppendWordArt(Document doc, string text, string textFontFam
 ### Se även
 
 * class [TextPath](../)
-* namnutrymme [Aspose.Words.Drawing](../../textpath/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

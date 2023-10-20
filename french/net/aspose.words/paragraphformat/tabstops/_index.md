@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.TabStops
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ParagraphFormat propriété. Obtient la collection de taquets de tabulation personnalisés définis pour cet objet.
+linktitle: TabStops
+articleTitle: TabStops
+second_title: Aspose.Words pour .NET
+description: ParagraphFormat TabStops propriété. Obtient la collection de taquets de tabulation personnalisés définis pour cet objet en C#.
 type: docs
 weight: 390
 url: /fr/net/aspose.words/paragraphformat/tabstops/
@@ -14,7 +16,7 @@ Obtient la collection de taquets de tabulation personnalisés définis pour cet 
 public TabStopCollection TabStops { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment modifier la position du taquet de tabulation droit dans les paragraphes liés à la table des matières.
 
@@ -41,7 +43,5 @@ doc.Save(ArtifactsDir + "Styles.ChangeTocsTabStops.docx");
 
 * class [TabStopCollection](../../tabstopcollection/)
 * class [ParagraphFormat](../)
-* espace de noms [Aspose.Words](../../paragraphformat/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

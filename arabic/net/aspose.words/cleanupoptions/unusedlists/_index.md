@@ -1,7 +1,9 @@
 ---
 title: CleanupOptions.UnusedLists
-second_title: Aspose.Words لمراجع .NET API
-description: CleanupOptions ملكية. يحدد ما إذا كان يجب إزالة القائمة غير المستخدمة وتعريفات القائمة من المستند. القيمة الافتراضية هيحقيقي .
+linktitle: UnusedLists
+articleTitle: UnusedLists
+second_title: Aspose.Words لـ .NET
+description: CleanupOptions UnusedLists ملكية. يحدد ما إذا كان يجب إزالة القائمة غير المستخدمة وتعريفات القائمة من المستند. القيمة الافتراضية هيحقيقي  في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words/cleanupoptions/unusedlists/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/cleanupoptions/unusedlists/
 public bool UnusedLists { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إزالة جميع الأنماط المخصصة غير المستخدمة من المستند.
 
@@ -63,7 +65,5 @@ Assert.AreEqual(2, doc.Styles.Count);
 ### أنظر أيضا
 
 * class [CleanupOptions](../)
-* مساحة الاسم [Aspose.Words](../../cleanupoptions/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

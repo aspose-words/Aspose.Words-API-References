@@ -1,12 +1,14 @@
 ---
-title: TabStop.TabStop
-second_title: Referencia de API de Aspose.Words para .NET
-description: TabStop constructor. Inicializa una nueva instancia de esta clase.
+title: TabStop
+linktitle: TabStop
+articleTitle: TabStop
+second_title: Aspose.Words para .NET
+description: TabStop constructor. Inicializa una nueva instancia de esta clase en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words/tabstop/tabstop/
 ---
-## TabStop(double) {#constructor}
+## TabStop(*double*) {#constructor}
 
 Inicializa una nueva instancia de esta clase.
 
@@ -14,7 +16,7 @@ Inicializa una nueva instancia de esta clase.
 public TabStop(double position)
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo trabajar con la colección de tabulaciones de un documento.
 
@@ -58,12 +60,12 @@ doc.Save(ArtifactsDir + "TabStopCollection.TabStopCollection.docx");
 ### Ver también
 
 * class [TabStop](../)
-* espacio de nombres [Aspose.Words](../../tabstop/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
 
 ---
 
-## TabStop(double, TabAlignment, TabLeader) {#constructor_1}
+## TabStop(*double, [TabAlignment](../../tabalignment/), [TabLeader](../../tableader/)*) {#constructor_1}
 
 Inicializa una nueva instancia de esta clase.
 
@@ -77,7 +79,7 @@ public TabStop(double position, TabAlignment alignment, TabLeader leader)
 | alignment | TabAlignment | A[`TabAlignment`](../../tabalignment/) El valor that especifica la alineación del texto en esta tabulación. |
 | leader | TabLeader | A[`TabLeader`](../../tableader/) valor que especifica el tipo de línea guía que se muestra debajo del carácter de tabulación. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo trabajar con la colección de tabulaciones de un documento.
 
@@ -123,7 +125,5 @@ doc.Save(ArtifactsDir + "TabStopCollection.TabStopCollection.docx");
 * enum [TabAlignment](../../tabalignment/)
 * enum [TabLeader](../../tableader/)
 * class [TabStop](../)
-* espacio de nombres [Aspose.Words](../../tabstop/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

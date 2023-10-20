@@ -1,7 +1,9 @@
 ---
 title: Table.AbsoluteHorizontalDistance
-second_title: Aspose.Words per .NET API Reference
-description: Table proprietà. Ottiene o imposta la posizione assoluta della tabella mobile orizzontale specificata dalle proprietà della tabella in punti. Il valore predefinito è 0.
+linktitle: AbsoluteHorizontalDistance
+articleTitle: AbsoluteHorizontalDistance
+second_title: Aspose.Words per .NET
+description: Table AbsoluteHorizontalDistance proprietà. Ottiene o imposta la posizione assoluta della tabella mobile orizzontale specificata dalle proprietà della tabella in punti. Il valore predefinito è 0 in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words.tables/table/absolutehorizontaldistance/
@@ -14,7 +16,7 @@ Ottiene o imposta la posizione assoluta della tabella mobile orizzontale specifi
 public double AbsoluteHorizontalDistance { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come impostare la posizione delle tabelle mobili.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "Table.ChangeFloatingTableProperties.docx");
 ### Guarda anche
 
 * class [Table](../)
-* spazio dei nomi [Aspose.Words.Tables](../../table/)
+* spazio dei nomi [Aspose.Words.Tables](../../../aspose.words.tables/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: WebExtensionProperty.WebExtensionProperty
-second_title: Aspose.Words för .NET API Referens
-description: WebExtensionProperty byggare. Skapar anpassad egendom för webbtillägg med angivet namn och värde.
+title: WebExtensionProperty
+linktitle: WebExtensionProperty
+articleTitle: WebExtensionProperty
+second_title: Aspose.Words för .NET
+description: WebExtensionProperty byggare. Skapar anpassad egendom för webbtillägg med angivet namn och värde i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.webextensions/webextensionproperty/webextensionproperty/
@@ -19,7 +21,7 @@ public WebExtensionProperty(string name, string value)
 | name | String | Egendomsnamn. |
 | value | String | Fastighetsvärde. |
 
-### Exempel
+## Exempel
 
 Visar hur man lägger till ett webbtillägg till ett dokument.
 
@@ -64,7 +66,5 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 ### Se även
 
 * class [WebExtensionProperty](../)
-* namnutrymme [Aspose.Words.WebExtensions](../../webextensionproperty/)
+* namnutrymme [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * hopsättning [Aspose.Words](../../../)
-
-

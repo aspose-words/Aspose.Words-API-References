@@ -1,7 +1,9 @@
 ---
 title: SmartTag.NodeType
-second_title: Referencia de API de Aspose.Words para .NET
-description: SmartTag propiedad. DevolucionesSmartTag .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words para .NET
+description: SmartTag NodeType propiedad. DevolucionesSmartTag  en C#.
 type: docs
 weight: 30
 url: /es/net/aspose.words.markup/smarttag/nodetype/
@@ -14,7 +16,7 @@ DevolucionesSmartTag .
 public override NodeType NodeType { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo recorrer el árbol de nodos secundarios de un nodo compuesto.
 
@@ -62,7 +64,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 
 * enum [NodeType](../../../aspose.words/nodetype/)
 * class [SmartTag](../)
-* espacio de nombres [Aspose.Words.Markup](../../smarttag/)
+* espacio de nombres [Aspose.Words.Markup](../../../aspose.words.markup/)
 * asamblea [Aspose.Words](../../../)
-
-

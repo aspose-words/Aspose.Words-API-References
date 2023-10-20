@@ -1,7 +1,9 @@
 ---
 title: ITextShaper.ShapeText
-second_title: Aspose.Words för .NET API Referens
-description: ITextShaper metod. ReturnerarClusterobjekt genererade från en sekvens av textfragment. Längden på den returnerade arrayen är lika med längden påruns . Om körning på ett index har motsvarande kluster kommer resultatet på samma index att registreras.
+linktitle: ShapeText
+articleTitle: ShapeText
+second_title: Aspose.Words för .NET
+description: ITextShaper ShapeText metod. ReturnerarClusterobjekt genererade från en sekvens av textfragment. Längden på den returnerade arrayen är lika med längden påruns . Om körning på ett index har motsvarande kluster kommer resultatet på samma index att registreras i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.shaping/itextshaper/shapetext/
@@ -29,7 +31,5 @@ public Cluster[][] ShapeText(string[] runs, Direction direction, UnicodeScript s
 * enum [UnicodeScript](../../unicodescript/)
 * enum [FontFeature](../../fontfeature/)
 * interface [ITextShaper](../)
-* namnutrymme [Aspose.Words.Shaping](../../itextshaper/)
+* namnutrymme [Aspose.Words.Shaping](../../../aspose.words.shaping/)
 * hopsättning [Aspose.Words](../../../)
-
-

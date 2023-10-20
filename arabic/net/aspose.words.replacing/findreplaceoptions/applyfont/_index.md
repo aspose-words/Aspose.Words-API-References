@@ -1,7 +1,9 @@
 ---
 title: FindReplaceOptions.ApplyFont
-second_title: Aspose.Words لمراجع .NET API
-description: FindReplaceOptions ملكية. تطبيق تنسيق النص على المحتوى الجديد.
+linktitle: ApplyFont
+articleTitle: ApplyFont
+second_title: Aspose.Words لـ .NET
+description: FindReplaceOptions ApplyFont ملكية. تطبيق تنسيق النص على المحتوى الجديد في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.replacing/findreplaceoptions/applyfont/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.replacing/findreplaceoptions/applyfont/
 public Font ApplyFont { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تطبيق خط مختلف على المحتوى الجديد عبر FindReplaceOptions.
 
@@ -88,7 +90,5 @@ private class NumberHexer : IReplacingCallback
 
 * class [Font](../../../aspose.words/font/)
 * class [FindReplaceOptions](../)
-* مساحة الاسم [Aspose.Words.Replacing](../../findreplaceoptions/)
+* مساحة الاسم [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldMergeBarcode.DisplayText
-second_title: Aspose.Words för .NET API Referens
-description: FieldMergeBarcode fast egendom. Hämtar eller ställer in om streckkodsdata text ska visas tillsammans med bild.
+linktitle: DisplayText
+articleTitle: DisplayText
+second_title: Aspose.Words för .NET
+description: FieldMergeBarcode DisplayText fast egendom. Hämtar eller ställer in om streckkodsdata text ska visas tillsammans med bild i C#.
 type: docs
 weight: 70
 url: /sv/net/aspose.words.fields/fieldmergebarcode/displaytext/
@@ -14,7 +16,7 @@ Hämtar eller ställer in om streckkodsdata (text) ska visas tillsammans med bil
 public bool DisplayText { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man utför en brevkoppling på EAN13 streckkoder.
 
@@ -60,7 +62,5 @@ doc.Save(ArtifactsDir + "Field.MERGEBARCODE.EAN13.docx");
 ### Se även
 
 * class [FieldMergeBarcode](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldmergebarcode/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

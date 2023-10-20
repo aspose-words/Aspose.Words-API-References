@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitSectionStart
-second_title: Aspose.Words für .NET-API-Referenz
-description: DocumentVisitor methode. Wird aufgerufen wenn die Aufzählung eines Abschnitts begonnen hat.
+linktitle: VisitSectionStart
+articleTitle: VisitSectionStart
+second_title: Aspose.Words für .NET
+description: DocumentVisitor VisitSectionStart methode. Wird aufgerufen wenn die Aufzählung eines Abschnitts begonnen hat in C#.
 type: docs
 weight: 380
 url: /de/net/aspose.words/documentvisitor/visitsectionstart/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitSectionStart(Section section)
 
 A[`VisitorAction`](../../visitoraction/) Wert, der angibt, wie die Enumeration fortgesetzt werden soll.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Dokumentbesucher zum Drucken der Knotenstruktur eines Dokuments verwendet wird.
 
@@ -193,7 +195,5 @@ public class DocStructurePrinter : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [Section](../../section/)
 * class [DocumentVisitor](../)
-* namensraum [Aspose.Words](../../documentvisitor/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

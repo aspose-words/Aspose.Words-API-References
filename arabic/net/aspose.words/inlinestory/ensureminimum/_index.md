@@ -1,7 +1,9 @@
 ---
 title: InlineStory.EnsureMinimum
-second_title: Aspose.Words لمراجع .NET API
-description: InlineStory طريقة. إذا لم يكن العنصر الفرعي الأخير فقرة فسيتم إنشاء فقرة واحدة فارغة وإلحاقها.
+linktitle: EnsureMinimum
+articleTitle: EnsureMinimum
+second_title: Aspose.Words لـ .NET
+description: InlineStory EnsureMinimum طريقة. إذا لم يكن العنصر الفرعي الأخير فقرة فسيتم إنشاء فقرة واحدة فارغة وإلحاقها في C#.
 type: docs
 weight: 120
 url: /ar/net/aspose.words/inlinestory/ensureminimum/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/inlinestory/ensureminimum/
 public void EnsureMinimum()
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج عقد InlineStory.
 
@@ -73,7 +75,5 @@ doc.Save(ArtifactsDir + "InlineStory.InsertInlineStoryNodes.docx");
 ### أنظر أيضا
 
 * class [InlineStory](../)
-* مساحة الاسم [Aspose.Words](../../inlinestory/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

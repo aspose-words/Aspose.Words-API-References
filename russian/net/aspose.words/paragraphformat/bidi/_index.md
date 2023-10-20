@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.Bidi
-second_title: Справочник по API Aspose.Words для .NET
-description: ParagraphFormat свойство. Получает или задает является ли это абзацем с письмом справа налево.
+linktitle: Bidi
+articleTitle: Bidi
+second_title: Aspose.Words для .NET
+description: ParagraphFormat Bidi свойство. Получает или задает является ли это абзацем с письмом справа налево на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words/paragraphformat/bidi/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words/paragraphformat/bidi/
 public bool Bidi { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Когда`истинный`, прогоны и другие встроенные объекты в этом параграфе располагаются справа налево.
 
-### Примеры
+## Примеры
 
 Показывает, как определить направление текста документа в виде открытого текста.
 
@@ -77,7 +79,5 @@ doc.Save(ArtifactsDir + "Field.BIDIOUTLINE.docx");
 ### Смотрите также
 
 * class [ParagraphFormat](../)
-* пространство имен [Aspose.Words](../../paragraphformat/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

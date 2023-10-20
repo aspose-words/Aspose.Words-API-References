@@ -1,7 +1,9 @@
 ---
-title: Class ImageSavingArgs
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Saving.ImageSavingArgs сорт. Предоставляет данные дляImageSaving событие.
+title: ImageSavingArgs Class
+linktitle: ImageSavingArgs
+articleTitle: ImageSavingArgs
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Saving.ImageSavingArgs сорт. Предоставляет данные дляImageSaving событие на С#.
 type: docs
 weight: 5240
 url: /ru/net/aspose.words.saving/imagesavingargs/
@@ -27,7 +29,7 @@ public class ImageSavingArgs
 | [IsImageAvailable](../../aspose.words.saving/imagesavingargs/isimageavailable/) { get; } | Возвращает`истинный` если текущее изображение доступно для экспорта. |
 | [KeepImageStreamOpen](../../aspose.words.saving/imagesavingargs/keepimagestreamopen/) { get; set; } | Указывает, должен ли Aspose.Words сохранять поток открытым или закрывать его после сохранения изображения. |
 
-### Примечания
+## Примечания
 
 По умолчанию, когда Aspose.Words сохраняет документ в HTML, он сохраняет каждое изображение в в отдельный файл. Aspose.Words использует имя файла документа и уникальный номер для создания уникального имени файла для каждого изображения, найденного в документе.
 
@@ -37,7 +39,7 @@ public class ImageSavingArgs
 
 Чтобы сохранять изображения в потоки, а не в файлы, используйте команду[`ImageStream`](./imagestream/) свойство.
 
-### Примеры
+## Примеры
 
 Показывает, как разделить документ на части и сохранить их.
 
@@ -155,5 +157,3 @@ public class SavedImageRename : IImageSavingCallback
 
 * пространство имен [Aspose.Words.Saving](../../aspose.words.saving/)
 * сборка [Aspose.Words](../../)
-
-

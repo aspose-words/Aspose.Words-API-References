@@ -1,7 +1,9 @@
 ---
-title: Class VbaReferenceCollection
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Vba.VbaReferenceCollection فصل. يمثل مجموعة منVbaReference الكائنات.
+title: VbaReferenceCollection Class
+linktitle: VbaReferenceCollection
+articleTitle: VbaReferenceCollection
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Vba.VbaReferenceCollection فصل. يمثل مجموعة منVbaReference الكائنات في C#.
 type: docs
 weight: 6600
 url: /ar/net/aspose.words.vba/vbareferencecollection/
@@ -27,10 +29,10 @@ public sealed class VbaReferenceCollection : IEnumerable<VbaReference>
 
 | اسم | وصف |
 | --- | --- |
-| [Remove](../../aspose.words.vba/vbareferencecollection/remove/)(VbaReference) | إزالة التواجد الأول لعنصر محدد[`VbaReference`](../vbareference/) عنصر من المجموعة. |
-| [RemoveAt](../../aspose.words.vba/vbareferencecollection/removeat/)(int) | يزيل[`VbaReference`](../vbareference/) العنصر في الفهرس المحدد للمجموعة. |
+| [Remove](../../aspose.words.vba/vbareferencecollection/remove/)(*[VbaReference](../vbareference/)*) | إزالة التواجد الأول لعنصر محدد[`VbaReference`](../vbareference/) عنصر من المجموعة. |
+| [RemoveAt](../../aspose.words.vba/vbareferencecollection/removeat/)(*int*) | يزيل[`VbaReference`](../vbareference/) العنصر في الفهرس المحدد للمجموعة. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الحصول على/إزالة عنصر من المجموعة المرجعية لـ VBA.
 
@@ -106,5 +108,3 @@ private static string GetLibIdProjectPath(string libIdProject)
 * class [VbaReference](../vbareference/)
 * مساحة الاسم [Aspose.Words.Vba](../../aspose.words.vba/)
 * المجسم [Aspose.Words](../../)
-
-

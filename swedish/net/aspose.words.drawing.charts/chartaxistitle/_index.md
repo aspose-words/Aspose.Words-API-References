@@ -1,7 +1,9 @@
 ---
-title: Class ChartAxisTitle
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Drawing.Charts.ChartAxisTitle klass. Ger tillgång till egenskaperna för axeltiteln.
+title: ChartAxisTitle Class
+linktitle: ChartAxisTitle
+articleTitle: ChartAxisTitle
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Drawing.Charts.ChartAxisTitle klass. Ger tillgång till egenskaperna för axeltiteln i C#.
 type: docs
 weight: 650
 url: /sv/net/aspose.words.drawing.charts/chartaxistitle/
@@ -20,12 +22,11 @@ public class ChartAxisTitle
 
 | namn | Beskrivning |
 | --- | --- |
-| [Font](../../aspose.words.drawing.charts/chartaxistitle/font/) { get; } |  |
 | [Overlay](../../aspose.words.drawing.charts/chartaxistitle/overlay/) { get; set; } | Bestämmer om andra diagramelement ska tillåtas överlappa titeln. Standardvärdet är`falsk` . |
 | [Show](../../aspose.words.drawing.charts/chartaxistitle/show/) { get; set; } | Bestämmer om titeln ska visas för axeln. Standardvärdet är`falsk` . |
 | [Text](../../aspose.words.drawing.charts/chartaxistitle/text/) { get; set; } | Hämtar eller ställer in texten i axeltiteln. Om`null` eller tomt värde anges, kommer automatiskt genererad titel att visas. |
 
-### Exempel
+## Exempel
 
 Visar hur man ställer in diagramaxelns titel.
 
@@ -56,5 +57,3 @@ doc.Save(ArtifactsDir + "Charts.ChartAxisTitle.docx");
 
 * namnutrymme [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../)
-
-

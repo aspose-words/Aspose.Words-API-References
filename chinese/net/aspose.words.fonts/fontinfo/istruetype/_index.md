@@ -1,7 +1,9 @@
 ---
 title: FontInfo.IsTrueType
-second_title: Aspose.Words for .NET API 参考
-description: FontInfo 财产. 指示此字体是 TrueType 或 OpenType 字体而不是光栅或矢量字体 默认为真的.
+linktitle: IsTrueType
+articleTitle: IsTrueType
+second_title: 用于 .NET 的 Aspose.Words
+description: FontInfo IsTrueType 财产. 指示此字体是 TrueType 或 OpenType 字体而不是光栅或矢量字体 默认为真的 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.fonts/fontinfo/istruetype/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fonts/fontinfo/istruetype/
 public bool IsTrueType { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何打印文档中存在的字体的详细信息。
 
@@ -34,7 +36,5 @@ for (int i = 0; i < allFonts.Count; i++)
 ### 也可以看看
 
 * class [FontInfo](../)
-* 命名空间 [Aspose.Words.Fonts](../../fontinfo/)
+* 命名空间 [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * 部件 [Aspose.Words](../../../)
-
-

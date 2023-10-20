@@ -1,7 +1,9 @@
 ---
-title: Enum FillType
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Drawing.FillType uppräkning. Anger fyllningstyp för ett ifyllbart objekt.
+title: FillType Enum
+linktitle: FillType
+articleTitle: FillType
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Drawing.FillType uppräkning. Anger fyllningstyp för ett ifyllbart objekt i C#.
 type: docs
 weight: 960
 url: /sv/net/aspose.words.drawing/filltype/
@@ -29,5 +31,3 @@ public enum FillType
 
 * namnutrymme [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../)
-
-

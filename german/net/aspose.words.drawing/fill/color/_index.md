@@ -1,9 +1,11 @@
 ---
 title: Fill.Color
-second_title: Aspose.Words für .NET-API-Referenz
-description: Fill eigendom. Ruft ein ColorObjekt ab oder legt dieses fest das die Vordergrundfarbe für die Füllung darstellt.
+linktitle: Color
+articleTitle: Color
+second_title: Aspose.Words für .NET
+description: Fill Color eigendom. Ruft ein ColorObjekt ab oder legt dieses fest das die Vordergrundfarbe für die Füllung darstellt in C#.
 type: docs
-weight: 50
+weight: 40
 url: /de/net/aspose.words.drawing/fill/color/
 ---
 ## Fill.Color property
@@ -14,11 +16,11 @@ Ruft ein Color-Objekt ab oder legt dieses fest, das die Vordergrundfarbe für di
 public Color Color { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Diese Eigenschaft bewahrt die Alpha-Komponente vonColor , im Gegensatz zum[`ForeColor`](../forecolor/)Eigenschaft, die es auf eine vollständig undurchsichtige Farbe zurücksetzt.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie eine der Füllungen wieder in eine Vollfüllung umgewandelt wird.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "Drawing.FillSolid.docx");
 ### Siehe auch
 
 * class [Fill](../)
-* namensraum [Aspose.Words.Drawing](../../fill/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

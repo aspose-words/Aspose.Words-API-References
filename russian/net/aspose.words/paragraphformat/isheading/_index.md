@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.IsHeading
-second_title: Справочник по API Aspose.Words для .NET
-description: ParagraphFormat свойство. Истинно если стиль абзаца является одним из встроенных стилей заголовков.
+linktitle: IsHeading
+articleTitle: IsHeading
+second_title: Aspose.Words для .NET
+description: ParagraphFormat IsHeading свойство. Истинно если стиль абзаца является одним из встроенных стилей заголовков на С#.
 type: docs
 weight: 140
 url: /ru/net/aspose.words/paragraphformat/isheading/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/paragraphformat/isheading/
 public bool IsHeading { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как ограничить уровень заголовков, которые будут отображаться в структуре сохраненного PDF-документа.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.HeadingsOutlineLevels.pdf", saveOptions)
 ### Смотрите также
 
 * class [ParagraphFormat](../)
-* пространство имен [Aspose.Words](../../paragraphformat/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

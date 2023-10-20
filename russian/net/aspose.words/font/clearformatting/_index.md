@@ -1,7 +1,9 @@
 ---
 title: Font.ClearFormatting
-second_title: Справочник по API Aspose.Words для .NET
-description: Font метод. Сбрасывает формат шрифта по умолчанию.
+linktitle: ClearFormatting
+articleTitle: ClearFormatting
+second_title: Aspose.Words для .NET
+description: Font ClearFormatting метод. Сбрасывает формат шрифта по умолчанию на С#.
 type: docs
 weight: 550
 url: /ru/net/aspose.words/font/clearformatting/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words/font/clearformatting/
 public void ClearFormatting()
 ```
 
-### Примечания
+## Примечания
 
 Удаляет все форматирование шрифта, явно указанное для объекта, из которого [`Font`](../) был получен, поэтому форматирование шрифта будет унаследовано от соответствующего родительского элемента.
 
-### Примеры
+## Примеры
 
 Показывает, как вставить поле гиперссылки.
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertHyperlink.docx");
 ### Смотрите также
 
 * class [Font](../)
-* пространство имен [Aspose.Words](../../font/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

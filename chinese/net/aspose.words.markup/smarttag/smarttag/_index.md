@@ -1,7 +1,9 @@
 ---
-title: SmartTag.SmartTag
-second_title: Aspose.Words for .NET API 参考
-description: SmartTag 构造函数. 初始化一个新实例SmartTag类.
+title: SmartTag
+linktitle: SmartTag
+articleTitle: SmartTag
+second_title: 用于 .NET 的 Aspose.Words
+description: SmartTag 构造函数. 初始化一个新实例SmartTag类 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.markup/smarttag/smarttag/
@@ -18,13 +20,13 @@ public SmartTag(DocumentBase doc)
 | --- | --- | --- |
 | doc | DocumentBase | 所有者文件。 |
 
-### 评论
+## 评论
 
 创建新节点时，需要指定该节点所属的文档。 节点不能没有文档而存在，因为它依赖于文档范围的结构 ，例如列表和样式。尽管节点始终属于文档，但节点可能是也可能 不是文档树的一部分。
 
-当一个节点被创建时，它属于一个文档，但还不是文档tree 的一部分并且[`ParentNode`](../../../aspose.words/node/parentnode/)是`无效的`。要将节点插入到文档中，请使用 the Node)或者Node)父节点上的methods 。
+当一个节点被创建时，它属于一个文档，但还不是文档tree 的一部分并且[`ParentNode`](../../../aspose.words/node/parentnode/)是`无效的`。要将节点插入到文档中，请使用 the [`InsertAfter`](../../../aspose.words/compositenode/insertafter/)或者[`InsertBefore`](../../../aspose.words/compositenode/insertbefore/)父节点上的methods 。
 
-### 例子
+## 例子
 
 展示如何创建智能标签。
 
@@ -126,7 +128,5 @@ private class SmartTagPrinter : DocumentVisitor
 
 * class [DocumentBase](../../../aspose.words/documentbase/)
 * class [SmartTag](../)
-* 命名空间 [Aspose.Words.Markup](../../smarttag/)
+* 命名空间 [Aspose.Words.Markup](../../../aspose.words.markup/)
 * 部件 [Aspose.Words](../../../)
-
-

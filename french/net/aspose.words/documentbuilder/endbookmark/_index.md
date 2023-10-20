@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.EndBookmark
-second_title: Référence de l'API Aspose.Words pour .NET
-description: DocumentBuilder méthode. Marque la position actuelle dans le document comme fin de signet.
+linktitle: EndBookmark
+articleTitle: EndBookmark
+second_title: Aspose.Words pour .NET
+description: DocumentBuilder EndBookmark méthode. Marque la position actuelle dans le document comme fin de signet en C#.
 type: docs
 weight: 210
 url: /fr/net/aspose.words/documentbuilder/endbookmark/
@@ -22,13 +24,13 @@ public BookmarkEnd EndBookmark(string bookmarkName)
 
 Le nœud de fin du signet qui vient d'être créé.
 
-### Remarques
+## Remarques
 
 Les signets d’un document peuvent se chevaucher et s’étendre sur n’importe quelle plage. Pour créer un signet valide, vous devez appeler les deux[`StartBookmark`](../startbookmark/) et`EndBookmark` avec le même*bookmarkName* Paramètre .
 
 Les signets mal formés ou les signets avec des noms en double seront ignorés lors de l'enregistrement du document.
 
-### Exemples
+## Exemples
 
 Montre comment créer un signet.
 
@@ -71,7 +73,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertHyperlinkToLocalBookmark.docx");
 
 * class [BookmarkEnd](../../bookmarkend/)
 * class [DocumentBuilder](../)
-* espace de noms [Aspose.Words](../../documentbuilder/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

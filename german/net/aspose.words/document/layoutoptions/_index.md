@@ -1,7 +1,9 @@
 ---
 title: Document.LayoutOptions
-second_title: Aspose.Words für .NET-API-Referenz
-description: Document eigendom. Ruft a abLayoutOptions Objekt das Optionen zur Steuerung des Layoutprozesses dieses Dokuments darstellt.
+linktitle: LayoutOptions
+articleTitle: LayoutOptions
+second_title: Aspose.Words für .NET
+description: Document LayoutOptions eigendom. Ruft a abLayoutOptions Objekt das Optionen zur Steuerung des Layoutprozesses dieses Dokuments darstellt in C#.
 type: docs
 weight: 250
 url: /de/net/aspose.words/document/layoutoptions/
@@ -14,7 +16,7 @@ Ruft a ab[`LayoutOptions`](../../../aspose.words.layout/layoutoptions/) Objekt, 
 public LayoutOptions LayoutOptions { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Text in einem gerenderten Ausgabedokument ausgeblendet wird.
 
@@ -70,7 +72,5 @@ doc.Save(ArtifactsDir + "Document.LayoutOptionsRevisions.pdf");
 
 * class [LayoutOptions](../../../aspose.words.layout/layoutoptions/)
 * class [Document](../)
-* namensraum [Aspose.Words](../../document/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

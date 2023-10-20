@@ -1,7 +1,9 @@
 ---
 title: Table.AbsoluteVerticalDistance
-second_title: Aspose.Words for .NET API 参考
-description: Table 财产. 获取或设置由表属性指定的绝对垂直浮动表位置以点为单位 默认值为 0
+linktitle: AbsoluteVerticalDistance
+articleTitle: AbsoluteVerticalDistance
+second_title: 用于 .NET 的 Aspose.Words
+description: Table AbsoluteVerticalDistance 财产. 获取或设置由表属性指定的绝对垂直浮动表位置以点为单位 默认值为 0 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.tables/table/absoluteverticaldistance/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.tables/table/absoluteverticaldistance/
 public double AbsoluteVerticalDistance { get; set; }
 ```
 
-### 例子
+## 例子
 
 显示如何设置浮动表的位置。
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "Table.ChangeFloatingTableProperties.docx");
 ### 也可以看看
 
 * class [Table](../)
-* 命名空间 [Aspose.Words.Tables](../../table/)
+* 命名空间 [Aspose.Words.Tables](../../../aspose.words.tables/)
 * 部件 [Aspose.Words](../../../)
-
-

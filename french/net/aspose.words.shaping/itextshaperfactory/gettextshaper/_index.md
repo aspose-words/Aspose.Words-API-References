@@ -1,12 +1,14 @@
 ---
 title: ITextShaperFactory.GetTextShaper
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ITextShaperFactory méthode. Renvoie une nouvelle instance dun façonneur de texte pour la police spécifiée parfontPath etfaceIndex .
+linktitle: GetTextShaper
+articleTitle: GetTextShaper
+second_title: Aspose.Words pour .NET
+description: ITextShaperFactory GetTextShaper méthode. Renvoie une nouvelle instance dun façonneur de texte pour la police spécifiée parfontPath etfaceIndex  en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.shaping/itextshaperfactory/gettextshaper/
 ---
-## GetTextShaper(string, int) {#gettextshaper_1}
+## GetTextShaper(*string, int*) {#gettextshaper_1}
 
 Renvoie une nouvelle instance d'un façonneur de texte pour la police spécifiée par*fontPath* et*faceIndex* .
 
@@ -23,12 +25,12 @@ public ITextShaper GetTextShaper(string fontPath, int faceIndex)
 
 * interface [ITextShaper](../../itextshaper/)
 * interface [ITextShaperFactory](../)
-* espace de noms [Aspose.Words.Shaping](../../itextshaperfactory/)
+* espace de noms [Aspose.Words.Shaping](../../../aspose.words.shaping/)
 * Assemblée [Aspose.Words](../../../)
 
 ---
 
-## GetTextShaper(string, byte[], int) {#gettextshaper}
+## GetTextShaper(*string, byte[], int*) {#gettextshaper}
 
 Renvoie une nouvelle instance d'un façonneur de texte pour la police représentée par*fontBlob* et*faceIndex* .
 
@@ -46,7 +48,5 @@ public ITextShaper GetTextShaper(string fontId, byte[] fontBlob, int faceIndex)
 
 * interface [ITextShaper](../../itextshaper/)
 * interface [ITextShaperFactory](../)
-* espace de noms [Aspose.Words.Shaping](../../itextshaperfactory/)
+* espace de noms [Aspose.Words.Shaping](../../../aspose.words.shaping/)
 * Assemblée [Aspose.Words](../../../)
-
-

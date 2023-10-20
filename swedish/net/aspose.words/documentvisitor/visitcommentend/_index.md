@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitCommentEnd
-second_title: Aspose.Words för .NET API Referens
-description: DocumentVisitor metod. Anropas när uppräkningen av en kommentarstext har avslutats.
+linktitle: VisitCommentEnd
+articleTitle: VisitCommentEnd
+second_title: Aspose.Words för .NET
+description: DocumentVisitor VisitCommentEnd metod. Anropas när uppräkningen av en kommentarstext har avslutats i C#.
 type: docs
 weight: 100
 url: /sv/net/aspose.words/documentvisitor/visitcommentend/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitCommentEnd(Comment comment)
 
 A[`VisitorAction`](../../visitoraction/) värde som anger hur uppräkningen ska fortsätta.
 
-### Exempel
+## Exempel
 
 Visar hur du skriver ut nodstrukturen för varje kommentar och kommentarintervall i ett dokument.
 
@@ -143,7 +145,5 @@ public class CommentStructurePrinter : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [Comment](../../comment/)
 * class [DocumentVisitor](../)
-* namnutrymme [Aspose.Words](../../documentvisitor/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

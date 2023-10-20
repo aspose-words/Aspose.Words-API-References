@@ -1,7 +1,9 @@
 ---
 title: NodeList.Item
-second_title: Référence de l'API Aspose.Words pour .NET
-description: NodeList propriété. Récupère un nœud à lindex donné.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words pour .NET
+description: NodeList Item propriété. Récupère un nœud à lindex donné en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words/nodelist/item/
@@ -18,7 +20,7 @@ public Node this[int index] { get; }
 | --- | --- |
 | index | Un index dans la liste des nœuds. |
 
-### Remarques
+## Remarques
 
 L'indice est de base zéro.
 
@@ -28,7 +30,7 @@ Si l'index est supérieur ou égal au nombre d'éléments de la liste, cela renv
 
 Si l'index est négatif et que sa valeur absolue est supérieure au nombre d'éléments de la liste, cela renvoie une référence nulle.
 
-### Exemples
+## Exemples
 
 Montre comment utiliser XPaths pour parcourir une NodeList.
 
@@ -87,7 +89,5 @@ Assert.True(shape.HasImage);
 
 * class [Node](../../node/)
 * class [NodeList](../)
-* espace de noms [Aspose.Words](../../nodelist/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

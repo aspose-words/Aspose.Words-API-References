@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.DocumentSplitCriteria
-second_title: Справочник по API Aspose.Words для .NET
-description: HtmlSaveOptions свойство. Указывает как документ должен быть разделен при сохранении вHtml  Epub илиAzw3 формат. По умолчаниюNone для HTML и HeadingParagraph для EPUB и AZW3.
+linktitle: DocumentSplitCriteria
+articleTitle: DocumentSplitCriteria
+second_title: Aspose.Words для .NET
+description: HtmlSaveOptions DocumentSplitCriteria свойство. Указывает как документ должен быть разделен при сохранении вHtml  Epub илиAzw3 формат. По умолчаниюNone для HTML и HeadingParagraph для EPUB и AZW3 на С#.
 type: docs
 weight: 80
 url: /ru/net/aspose.words.saving/htmlsaveoptions/documentsplitcriteria/
@@ -14,13 +16,13 @@ url: /ru/net/aspose.words.saving/htmlsaveoptions/documentsplitcriteria/
 public DocumentSplitCriteria DocumentSplitCriteria { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Обычно вам нужно сохранить документ в HTML как один файл. Но в некоторых случаях предпочтительнее разделить вывод на несколько небольших HTML-страниц. При сохранении в формате HTML эти страницы будут выводиться в отдельные файлы или потоки. При сохранении в формате EPUB они будут включены в соответствующие пакеты.
 
 Документ невозможно разделить при сохранении в формате MHTML.
 
-### Примеры
+## Примеры
 
 Показывает, как использовать определенную кодировку при сохранении документа в формате .epub.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "HtmlSaveOptions.Doc2EpubSaveOptions.epub", saveOptions)
 
 * enum [DocumentSplitCriteria](../../documentsplitcriteria/)
 * class [HtmlSaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../htmlsaveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

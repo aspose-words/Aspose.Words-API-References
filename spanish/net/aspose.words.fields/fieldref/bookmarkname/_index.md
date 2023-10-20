@@ -1,7 +1,9 @@
 ---
 title: FieldRef.BookmarkName
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldRef propiedad. Obtiene o establece el nombre del marcador al que se hace referencia.
+linktitle: BookmarkName
+articleTitle: BookmarkName
+second_title: Aspose.Words para .NET
+description: FieldRef BookmarkName propiedad. Obtiene o establece el nombre del marcador al que se hace referencia en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words.fields/fieldref/bookmarkname/
@@ -14,7 +16,7 @@ Obtiene o establece el nombre del marcador al que se hace referencia.
 public string BookmarkName { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear texto marcado con un campo SET y luego mostrarlo en el documento usando un campo REF.
 
@@ -130,7 +132,5 @@ private static FieldRef InsertFieldRef(DocumentBuilder builder, string bookmarkN
 ### Ver también
 
 * class [FieldRef](../)
-* espacio de nombres [Aspose.Words.Fields](../../fieldref/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

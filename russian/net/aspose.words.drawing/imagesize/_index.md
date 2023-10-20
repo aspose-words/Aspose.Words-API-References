@@ -1,7 +1,9 @@
 ---
-title: Class ImageSize
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Drawing.ImageSize сорт. Содержит информацию о размере и разрешении изображения.
+title: ImageSize Class
+linktitle: ImageSize
+articleTitle: ImageSize
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Drawing.ImageSize сорт. Содержит информацию о размере и разрешении изображения на С#.
 type: docs
 weight: 1070
 url: /ru/net/aspose.words.drawing/imagesize/
@@ -20,8 +22,8 @@ public class ImageSize
 
 | Имя | Описание |
 | --- | --- |
-| [ImageSize](imagesize/#constructor)(int, int) | Инициализирует ширину и высоту заданными значениями в пикселях. Инициализирует разрешение 96 dpi. |
-| [ImageSize](imagesize/#constructor_1)(int, int, double, double) | Инициализирует ширину, высоту и разрешение заданными значениями. |
+| [ImageSize](imagesize/#constructor)(*int, int*) | Инициализирует ширину и высоту заданными значениями в пикселях. Инициализирует разрешение 96 dpi. |
+| [ImageSize](imagesize/#constructor_1)(*int, int, double, double*) | Инициализирует ширину, высоту и разрешение заданными значениями. |
 
 ## Характеристики
 
@@ -34,7 +36,7 @@ public class ImageSize
 | [WidthPixels](../../aspose.words.drawing/imagesize/widthpixels/) { get; } | Получает ширину изображения в пикселях. |
 | [WidthPoints](../../aspose.words.drawing/imagesize/widthpoints/) { get; } | Получает ширину изображения в пунктах. 1 балл равен 1/72 дюйма. |
 
-### Примеры
+## Примеры
 
 Показывает, как изменить размер фигуры с помощью изображения.
 
@@ -93,5 +95,3 @@ public class ImageSize
 * property [ImageSize](../imagedata/imagesize/)
 * пространство имен [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../)
-
-

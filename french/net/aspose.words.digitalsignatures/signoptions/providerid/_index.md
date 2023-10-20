@@ -1,20 +1,22 @@
 ---
 title: SignOptions.ProviderId
-second_title: Référence de l'API Aspose.Words pour .NET
-description: SignOptions propriété. Spécifie lID de classe du fournisseur de signature. La valeur par défaut est Guide vide tous les zéros .
+linktitle: ProviderId
+articleTitle: ProviderId
+second_title: Aspose.Words pour .NET
+description: SignOptions ProviderId propriété. Spécifie lID de classe du fournisseur de signature. La valeur par défaut estGuide vide tous les zéros  en C#.
 type: docs
 weight: 40
 url: /fr/net/aspose.words.digitalsignatures/signoptions/providerid/
 ---
 ## SignOptions.ProviderId property
 
-Spécifie l'ID de classe du fournisseur de signature. La valeur par défaut est **Guide vide (tous les zéros)** .
+Spécifie l'ID de classe du fournisseur de signature. La valeur par défaut est**Guide vide (tous les zéros)** .
 
 ```csharp
 public Guid ProviderId { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 Le fournisseur de services cryptographiques (CSP) est un module logiciel indépendant qui exécute réellement des algorithmes de cryptographie pour l'authentification, le codage et le cryptage. MS Office réserve la valeur de {00000000-0000-0000-0000-000000000000} pour son fournisseur de signature par défaut.
 
@@ -22,7 +24,7 @@ Le GUID du fournisseur supplémentaire installé doit être obtenu à partir de 
 
 De plus, tous les fournisseurs cryptographiques installés sont répertoriés dans le registre Windows. On le trouve dans le chemin suivant : HKLM\SOFTWARE\Microsoft\Cryptography\Defaults\Provider. Il existe un nom de clé « CP Service UUID » qui correspond à un GUID du fournisseur de signature.
 
-### Exemples
+## Exemples
 
 Montre comment signer un document avec un certificat personnel et une ligne de signature.
 
@@ -75,7 +77,5 @@ Assert.True(signatureLine.IsValid);
 ### Voir également
 
 * class [SignOptions](../)
-* espace de noms [Aspose.Words.DigitalSignatures](../../signoptions/)
+* espace de noms [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * Assemblée [Aspose.Words](../../../)
-
-

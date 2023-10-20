@@ -1,7 +1,9 @@
 ---
 title: ChartXValue.MultilevelValue
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ChartXValue propriété. Obtient la valeur multiniveau stockée.
+linktitle: MultilevelValue
+articleTitle: MultilevelValue
+second_title: Aspose.Words pour .NET
+description: ChartXValue MultilevelValue propriété. Obtient la valeur multiniveau stockée en C#.
 type: docs
 weight: 80
 url: /fr/net/aspose.words.drawing.charts/chartxvalue/multilevelvalue/
@@ -18,7 +20,5 @@ public ChartMultilevelValue MultilevelValue { get; }
 
 * class [ChartMultilevelValue](../../chartmultilevelvalue/)
 * class [ChartXValue](../)
-* espace de noms [Aspose.Words.Drawing.Charts](../../chartxvalue/)
+* espace de noms [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Assemblée [Aspose.Words](../../../)
-
-

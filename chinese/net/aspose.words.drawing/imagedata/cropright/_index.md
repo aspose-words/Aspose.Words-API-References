@@ -1,7 +1,9 @@
 ---
 title: ImageData.CropRight
-second_title: Aspose.Words for .NET API 参考
-description: ImageData 财产. 定义从右侧删除图片的比例
+linktitle: CropRight
+articleTitle: CropRight
+second_title: 用于 .NET 的 Aspose.Words
+description: ImageData CropRight 财产. 定义从右侧删除图片的比例 在 C#.
 type: docs
 weight: 80
 url: /zh/net/aspose.words.drawing/imagedata/cropright/
@@ -14,13 +16,13 @@ url: /zh/net/aspose.words.drawing/imagedata/cropright/
 public double CropRight { get; set; }
 ```
 
-### 评论
+## 评论
 
 裁剪量的范围可以是 -1.0 到 1.0。默认值为 0。请注意 ，值为 1 将根本不显示图片。负值将导致 图片从被裁剪的边缘向内挤压（图片和裁剪边缘之间的空白空间 将由 形状的填充颜色填充）。小于 1 的正值将导致剩余图片被 拉伸以适应形状。
 
 默认值为 0。
 
-### 例子
+## 例子
 
 演示如何编辑形状的图像数据。
 
@@ -83,7 +85,5 @@ dstDoc.Save(ArtifactsDir + "Drawing.ImageData.docx");
 ### 也可以看看
 
 * class [ImageData](../)
-* 命名空间 [Aspose.Words.Drawing](../../imagedata/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

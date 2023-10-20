@@ -1,7 +1,9 @@
 ---
 title: ImageData.Contrast
-second_title: Aspose.Words per .NET API Reference
-description: ImageData proprietà. Ottiene o imposta il contrasto per limmagine specificata. Il valore per questa proprietà deve essere un numero compreso tra 00 il contrasto minimo e 10 il contrasto maggiore.
+linktitle: Contrast
+articleTitle: Contrast
+second_title: Aspose.Words per .NET
+description: ImageData Contrast proprietà. Ottiene o imposta il contrasto per limmagine specificata. Il valore per questa proprietà deve essere un numero compreso tra 00 il contrasto minimo e 10 il contrasto maggiore in C#.
 type: docs
 weight: 50
 url: /it/net/aspose.words.drawing/imagedata/contrast/
@@ -14,11 +16,11 @@ Ottiene o imposta il contrasto per l'immagine specificata. Il valore per questa 
 public double Contrast { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Il valore predefinito è 0,5.
 
-### Esempi
+## Esempi
 
 Mostra come modificare i dati dell'immagine di una forma.
 
@@ -81,7 +83,5 @@ dstDoc.Save(ArtifactsDir + "Drawing.ImageData.docx");
 ### Guarda anche
 
 * class [ImageData](../)
-* spazio dei nomi [Aspose.Words.Drawing](../../imagedata/)
+* spazio dei nomi [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FileFormatInfo.LoadFormat
-second_title: Aspose.Words for .NET API 参考
-description: FileFormatInfo 财产. 获取检测到的文档格式
+linktitle: LoadFormat
+articleTitle: LoadFormat
+second_title: 用于 .NET 的 Aspose.Words
+description: FileFormatInfo LoadFormat 财产. 获取检测到的文档格式 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words/fileformatinfo/loadformat/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words/fileformatinfo/loadformat/
 public LoadFormat LoadFormat { get; }
 ```
 
-### 评论
+## 评论
 
 当 OOXML 文档加密时，如果不先解密，就无法确定它是否是 Excel、Word 或 PowerPoint 文档，因此对于加密的 OOXML 文档，此属性将始终返回Docx。
 
-### 例子
+## 例子
 
 演示如何使用 FileFormatUtil 类来检测文档格式和加密。
 
@@ -93,7 +95,5 @@ using (FileStream docStream = File.OpenRead(MyDir + "Word document with missing 
 
 * enum [LoadFormat](../../loadformat/)
 * class [FileFormatInfo](../)
-* 命名空间 [Aspose.Words](../../fileformatinfo/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

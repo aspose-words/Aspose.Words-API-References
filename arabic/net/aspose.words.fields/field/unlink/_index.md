@@ -1,7 +1,9 @@
 ---
 title: Field.Unlink
-second_title: Aspose.Words لمراجع .NET API
-description: Field طريقة. يقوم بإلغاء ربط الحقل.
+linktitle: Unlink
+articleTitle: Unlink
+second_title: Aspose.Words لـ .NET
+description: Field Unlink طريقة. يقوم بإلغاء ربط الحقل في C#.
 type: docs
 weight: 130
 url: /ar/net/aspose.words.fields/field/unlink/
@@ -18,13 +20,13 @@ public bool Unlink()
 
 `حقيقي` إذا تم إلغاء ربط الحقل، وإلا`خطأ شنيع` .
 
-### ملاحظات
+## ملاحظات
 
 يستبدل الحقل بنتيجةه الأحدث.
 
 لا يمكن إلغاء ربط بعض الحقول، مثل حقول XE (إدخال الفهرس) وحقول SEQ (التسلسل).
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إلغاء ربط الحقل.
 
@@ -36,7 +38,5 @@ doc.Range.Fields[1].Unlink();
 ### أنظر أيضا
 
 * class [Field](../)
-* مساحة الاسم [Aspose.Words.Fields](../../field/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ImageSaveOptions.HorizontalResolution
-second_title: Aspose.Words لمراجع .NET API
-description: ImageSaveOptions ملكية. الحصول على أو تعيين الدقة الأفقية للصور التي تم إنشاؤها بالنقاط في البوصة.
+linktitle: HorizontalResolution
+articleTitle: HorizontalResolution
+second_title: Aspose.Words لـ .NET
+description: ImageSaveOptions HorizontalResolution ملكية. الحصول على أو تعيين الدقة الأفقية للصور التي تم إنشاؤها بالنقاط في البوصة في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.saving/imagesaveoptions/horizontalresolution/
@@ -14,13 +16,13 @@ url: /ar/net/aspose.words.saving/imagesaveoptions/horizontalresolution/
 public float HorizontalResolution { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 تؤثر هذه الخاصية فقط عند الحفظ في تنسيقات الصور النقطية وتؤثر على حجم الإخراج بالبكسل.
 
 القيمة الافتراضية هي 96.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحرير الصورة بينما يقوم Aspose.Words بتحويل مستند إلى مستند.
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "ImageSaveOptions.EditImage.png", options);
 ### أنظر أيضا
 
 * class [ImageSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../imagesaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

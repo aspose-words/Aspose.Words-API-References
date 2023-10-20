@@ -1,7 +1,9 @@
 ---
 title: BorderCollection.Count
-second_title: Aspose.Words för .NET API Referens
-description: BorderCollection fast egendom. Hämtar antalet ramar i samlingen.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words för .NET
+description: BorderCollection Count fast egendom. Hämtar antalet ramar i samlingen i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words/bordercollection/count/
@@ -14,7 +16,7 @@ Hämtar antalet ramar i samlingen.
 public int Count { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur gränssamlingar kan dela element.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "Border.SharedElements.docx");
 ### Se även
 
 * class [BorderCollection](../)
-* namnutrymme [Aspose.Words](../../bordercollection/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

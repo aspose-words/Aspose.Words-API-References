@@ -1,7 +1,9 @@
 ---
 title: PdfDigitalSignatureDetails.CertificateHolder
-second_title: Referencia de API de Aspose.Words para .NET
-description: PdfDigitalSignatureDetails propiedad. Devuelve el objeto del titular del certificado que contiene el certificado que se utilizó para firmar el documento.
+linktitle: CertificateHolder
+articleTitle: CertificateHolder
+second_title: Aspose.Words para .NET
+description: PdfDigitalSignatureDetails CertificateHolder propiedad. Devuelve el objeto del titular del certificado que contiene el certificado que se utilizó para firmar el documento en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words.saving/pdfdigitalsignaturedetails/certificateholder/
@@ -18,7 +20,5 @@ public CertificateHolder CertificateHolder { get; set; }
 
 * class [CertificateHolder](../../../aspose.words.digitalsignatures/certificateholder/)
 * class [PdfDigitalSignatureDetails](../)
-* espacio de nombres [Aspose.Words.Saving](../../pdfdigitalsignaturedetails/)
+* espacio de nombres [Aspose.Words.Saving](../../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../../)
-
-

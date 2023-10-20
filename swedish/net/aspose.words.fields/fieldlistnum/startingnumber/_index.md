@@ -1,7 +1,9 @@
 ---
 title: FieldListNum.StartingNumber
-second_title: Aspose.Words för .NET API Referens
-description: FieldListNum fast egendom. Hämtar eller ställer in startvärdet för detta fält.
+linktitle: StartingNumber
+articleTitle: StartingNumber
+second_title: Aspose.Words för .NET
+description: FieldListNum StartingNumber fast egendom. Hämtar eller ställer in startvärdet för detta fält i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.fields/fieldlistnum/startingnumber/
@@ -14,7 +16,7 @@ Hämtar eller ställer in startvärdet för detta fält.
 public string StartingNumber { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man numrerar stycken med LISTNUM-fält.
 
@@ -84,7 +86,5 @@ doc.Save(ArtifactsDir + "Field.LISTNUM.docx");
 ### Se även
 
 * class [FieldListNum](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldlistnum/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

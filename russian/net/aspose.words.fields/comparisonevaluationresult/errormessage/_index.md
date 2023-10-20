@@ -1,7 +1,9 @@
 ---
 title: ComparisonEvaluationResult.ErrorMessage
-second_title: Справочник по API Aspose.Words для .NET
-description: ComparisonEvaluationResult свойство. Получает сообщение об ошибке результата неудачной оценки сравнения.
+linktitle: ErrorMessage
+articleTitle: ErrorMessage
+second_title: Aspose.Words для .NET
+description: ComparisonEvaluationResult ErrorMessage свойство. Получает сообщение об ошибке результата неудачной оценки сравнения на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.fields/comparisonevaluationresult/errormessage/
@@ -17,7 +19,5 @@ public string ErrorMessage { get; }
 ### Смотрите также
 
 * class [ComparisonEvaluationResult](../)
-* пространство имен [Aspose.Words.Fields](../../comparisonevaluationresult/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

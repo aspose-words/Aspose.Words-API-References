@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.ImageCompression
-second_title: Aspose.Words for .NET API 参考
-description: PdfSaveOptions 财产. 指定文档中所有图像要使用的压缩类型
+linktitle: ImageCompression
+articleTitle: ImageCompression
+second_title: 用于 .NET 的 Aspose.Words
+description: PdfSaveOptions ImageCompression 财产. 指定文档中所有图像要使用的压缩类型 在 C#.
 type: docs
 weight: 200
 url: /zh/net/aspose.words.saving/pdfsaveoptions/imagecompression/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.saving/pdfsaveoptions/imagecompression/
 public PdfImageCompression ImageCompression { get; set; }
 ```
 
-### 评论
+## 评论
 
 默认为Auto。
 
@@ -24,7 +26,7 @@ public PdfImageCompression ImageCompression { get; set; }
 
 使用Auto让我们通过以下方式控制输出文档中 Jpeg 的质量[`JpegQuality`](../jpegquality/)属性， 但对于其他格式，会提取原始像素数据并使用 Flate 压缩保存。 这种情况比 Jpeg 转换慢，但无损。
 
-### 例子
+## 例子
 
 演示如何为我们要转换为 PDF 的文档中的所有图像指定压缩类型。
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.ImageCompression.pdf", pdfSaveOptions);
 
 * enum [PdfImageCompression](../../pdfimagecompression/)
 * class [PdfSaveOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../pdfsaveoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ResourceLoadingArgs.Uri
-second_title: Aspose.Words for .NET API 参考
-description: ResourceLoadingArgs 财产. 用于下载的资源的 URI ifResourceLoading 返回Default
+linktitle: Uri
+articleTitle: Uri
+second_title: 用于 .NET 的 Aspose.Words
+description: ResourceLoadingArgs Uri 财产. 用于下载的资源的 URI ifResourceLoading 返回Default 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.loading/resourceloadingargs/uri/
@@ -19,7 +21,5 @@ public string Uri { get; set; }
 ### 也可以看看
 
 * class [ResourceLoadingArgs](../)
-* 命名空间 [Aspose.Words.Loading](../../resourceloadingargs/)
+* 命名空间 [Aspose.Words.Loading](../../../aspose.words.loading/)
 * 部件 [Aspose.Words](../../../)
-
-

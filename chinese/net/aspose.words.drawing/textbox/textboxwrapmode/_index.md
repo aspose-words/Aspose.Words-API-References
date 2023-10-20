@@ -1,7 +1,9 @@
 ---
 title: TextBox.TextBoxWrapMode
-second_title: Aspose.Words for .NET API 参考
-description: TextBox 财产. 确定文本如何在形状内换行
+linktitle: TextBoxWrapMode
+articleTitle: TextBoxWrapMode
+second_title: 用于 .NET 的 Aspose.Words
+description: TextBox TextBoxWrapMode 财产. 确定文本如何在形状内换行 在 C#.
 type: docs
 weight: 110
 url: /zh/net/aspose.words.drawing/textbox/textboxwrapmode/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.drawing/textbox/textboxwrapmode/
 public TextBoxWrapMode TextBoxWrapMode { get; set; }
 ```
 
-### 评论
+## 评论
 
 默认值为Square。
 
-### 例子
+## 例子
 
 演示如何设置文本框内容的换行模式。
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "Shape.TextBoxContentsWrapMode.docx");
 
 * enum [TextBoxWrapMode](../../textboxwrapmode/)
 * class [TextBox](../)
-* 命名空间 [Aspose.Words.Drawing](../../textbox/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

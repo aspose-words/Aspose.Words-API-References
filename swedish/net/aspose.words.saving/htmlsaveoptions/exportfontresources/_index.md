@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ExportFontResources
-second_title: Aspose.Words för .NET API Referens
-description: HtmlSaveOptions fast egendom. Anger om teckensnittsresurser ska exporteras till HTML MHTML eller EPUB. Standard ärfalsk .
+linktitle: ExportFontResources
+articleTitle: ExportFontResources
+second_title: Aspose.Words för .NET
+description: HtmlSaveOptions ExportFontResources fast egendom. Anger om teckensnittsresurser ska exporteras till HTML MHTML eller EPUB. Standard ärfalsk  i C#.
 type: docs
 weight: 140
 url: /sv/net/aspose.words.saving/htmlsaveoptions/exportfontresources/
@@ -14,17 +16,17 @@ Anger om teckensnittsresurser ska exporteras till HTML, MHTML eller EPUB. Standa
 public bool ExportFontResources { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Att exportera teckensnittsresurser möjliggör konsekvent dokumentåtergivning oberoende av de teckensnitt som är tillgängliga i en given användares miljö.
 
-Om`ExportFontResources` är satt till`Sann` , kommer huvud-HTML-dokumentet att referera till varje typsnitt via CSS 3 **@font-face** at-rule och typsnitt kommer att matas ut som separata filer. Vid export till IDPF EPUB- eller MHTML -format kommer teckensnitt att bäddas in i motsvarande paket tillsammans med andra underordnade filer.
+Om`ExportFontResources` är satt till`Sann` , kommer huvud-HTML-dokumentet att referera till varje typsnitt via CSS 3**@font-face** at-rule och typsnitt kommer att matas ut som separata filer. Vid export till IDPF EPUB- eller MHTML -format kommer teckensnitt att bäddas in i motsvarande paket tillsammans med andra underordnade filer.
 
-Om[`ExportFontsAsBase64`](../exportfontsasbase64/) är satt till`Sann` kommer teckensnitt inte att sparas i separata filer. Istället kommer de att bäddas in i **@font-face** at-regler i Base64-kodning.
+Om[`ExportFontsAsBase64`](../exportfontsasbase64/) är satt till`Sann` kommer teckensnitt inte att sparas i separata filer. Istället kommer de att bäddas in i**@font-face** at-regler i Base64-kodning.
 
-**Viktig!** När du exporterar teckensnittsresurser bör teckensnittslicensproblem övervägas. Författare som vill använda specifika typsnitt via en nedladdningsbar teckensnittsmekanism måste alltid noggrant verifiera att deras avsedda användning ligger inom ramen för teckensnittslicensen. Många kommersiella typsnitt tillåter för närvarande inte webbnedladdning av deras typsnitt i någon form. Licensavtal som täcker vissa typsnitt noterar specifikt att användning via **@font-face** rules i CSS-formatmallar är inte tillåtet. Teckensnittsunderinställningar kan också bryta mot licensvillkoren.
+**Viktig!** När du exporterar teckensnittsresurser bör teckensnittslicensproblem övervägas. Författare som vill använda specifika typsnitt via en nedladdningsbar teckensnittsmekanism måste alltid noggrant verifiera att deras avsedda användning ligger inom ramen för teckensnittslicensen. Många kommersiella typsnitt tillåter för närvarande inte webbnedladdning av deras typsnitt i någon form. Licensavtal som täcker vissa typsnitt noterar specifikt att användning via**@font-face** rules i CSS-formatmallar är inte tillåtet. Teckensnittsunderinställningar kan också bryta mot licensvillkoren.
 
-### Exempel
+## Exempel
 
 Visar hur man definierar anpassad logik för att exportera teckensnitt när man sparar till HTML.
 
@@ -84,7 +86,5 @@ public class HandleFontSaving : IFontSavingCallback
 ### Se även
 
 * class [HtmlSaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../htmlsaveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

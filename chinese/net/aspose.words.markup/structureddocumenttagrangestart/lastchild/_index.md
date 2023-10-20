@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTagRangeStart.LastChild
-second_title: Aspose.Words for .NET API 参考
-description: StructuredDocumentTagRangeStart 财产. 获取 stdContent 范围中的最后一个子项
+linktitle: LastChild
+articleTitle: LastChild
+second_title: 用于 .NET 的 Aspose.Words
+description: StructuredDocumentTagRangeStart LastChild 财产. 获取 stdContent 范围中的最后一个子项 在 C#.
 type: docs
 weight: 60
 url: /zh/net/aspose.words.markup/structureddocumenttagrangestart/lastchild/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.markup/structureddocumenttagrangestart/lastchild/
 public Node LastChild { get; }
 ```
 
-### 评论
+## 评论
 
 如果没有最后一个子节点，则`无效的`返回。
 
@@ -22,7 +24,5 @@ public Node LastChild { get; }
 
 * class [Node](../../../aspose.words/node/)
 * class [StructuredDocumentTagRangeStart](../)
-* 命名空间 [Aspose.Words.Markup](../../structureddocumenttagrangestart/)
+* 命名空间 [Aspose.Words.Markup](../../../aspose.words.markup/)
 * 部件 [Aspose.Words](../../../)
-
-

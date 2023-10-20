@@ -1,9 +1,11 @@
 ---
 title: Fill.Solid
-second_title: Referencia de API de Aspose.Words para .NET
-description: Fill método. Establece el relleno en un color uniforme.
+linktitle: Solid
+articleTitle: Solid
+second_title: Aspose.Words para .NET
+description: Fill Solid método. Establece el relleno en un color uniforme en C#.
 type: docs
-weight: 260
+weight: 250
 url: /es/net/aspose.words.drawing/fill/solid/
 ---
 ## Solid() {#solid}
@@ -14,19 +16,19 @@ Establece el relleno en un color uniforme.
 public void Solid()
 ```
 
-### Observaciones
+## Observaciones
 
 Utilice este método para convertir cualquiera de los rellenos a relleno sólido.
 
 ### Ver también
 
 * class [Fill](../)
-* espacio de nombres [Aspose.Words.Drawing](../../fill/)
+* espacio de nombres [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * asamblea [Aspose.Words](../../../)
 
 ---
 
-## Solid(Color) {#solid_1}
+## Solid(*Color*) {#solid_1}
 
 Establece el relleno en un color uniforme especificado.
 
@@ -34,11 +36,11 @@ Establece el relleno en un color uniforme especificado.
 public void Solid(Color color)
 ```
 
-### Observaciones
+## Observaciones
 
 Utilice este método para convertir cualquiera de los rellenos a relleno sólido.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo convertir cualquiera de los rellenos a relleno sólido.
 
@@ -66,7 +68,5 @@ doc.Save(ArtifactsDir + "Drawing.FillSolid.docx");
 ### Ver también
 
 * class [Fill](../)
-* espacio de nombres [Aspose.Words.Drawing](../../fill/)
+* espacio de nombres [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * asamblea [Aspose.Words](../../../)
-
-

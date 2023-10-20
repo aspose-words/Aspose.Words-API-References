@@ -1,7 +1,9 @@
 ---
 title: Font.ThemeFontFarEast
-second_title: Aspose.Words für .NET-API-Referenz
-description: Font eigendom. Ruft die ostasiatische Designschriftart im damit verbundenen angewendeten Schriftartenschema ab oder legt sie festFont Objekt.
+linktitle: ThemeFontFarEast
+articleTitle: ThemeFontFarEast
+second_title: Aspose.Words für .NET
+description: Font ThemeFontFarEast eigendom. Ruft die ostasiatische Designschriftart im damit verbundenen angewendeten Schriftartenschema ab oder legt sie festFont Objekt in C#.
 type: docs
 weight: 500
 url: /de/net/aspose.words/font/themefontfareast/
@@ -14,7 +16,7 @@ Ruft die ostasiatische Designschriftart im damit verbundenen angewendeten Schrif
 public ThemeFont ThemeFontFarEast { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit Designschriftarten und -farben gearbeitet wird.
 
@@ -101,7 +103,5 @@ Assert.AreEqual(Color.Blue.ToArgb(), font.Color.ToArgb());
 
 * enum [ThemeFont](../../../aspose.words.themes/themefont/)
 * class [Font](../)
-* namensraum [Aspose.Words](../../font/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

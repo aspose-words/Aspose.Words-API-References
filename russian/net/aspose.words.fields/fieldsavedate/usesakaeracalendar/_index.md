@@ -1,7 +1,9 @@
 ---
 title: FieldSaveDate.UseSakaEraCalendar
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldSaveDate свойство. Получает или задает следует ли использовать календарь эпохи Сака.
+linktitle: UseSakaEraCalendar
+articleTitle: UseSakaEraCalendar
+second_title: Aspose.Words для .NET
+description: FieldSaveDate UseSakaEraCalendar свойство. Получает или задает следует ли использовать календарь эпохи Сака на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.fields/fieldsavedate/usesakaeracalendar/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldsavedate/usesakaeracalendar/
 public bool UseSakaEraCalendar { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как использовать поле SAVEDATE для отображения даты и времени последней операции сохранения документа, выполненной с помощью Microsoft Word.
 
@@ -60,7 +62,5 @@ doc.Save(ArtifactsDir + "Field.SAVEDATE.docx");
 ### Смотрите также
 
 * class [FieldSaveDate](../)
-* пространство имен [Aspose.Words.Fields](../../fieldsavedate/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

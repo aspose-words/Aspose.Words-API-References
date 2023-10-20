@@ -1,7 +1,9 @@
 ---
 title: LoadOptions.FontSettings
-second_title: Referencia de API de Aspose.Words para .NET
-description: LoadOptions propiedad. Permite especificar la configuración de fuente del documento.
+linktitle: FontSettings
+articleTitle: FontSettings
+second_title: Aspose.Words para .NET
+description: LoadOptions FontSettings propiedad. Permite especificar la configuración de fuente del documento en C#.
 type: docs
 weight: 60
 url: /es/net/aspose.words.loading/loadoptions/fontsettings/
@@ -14,7 +16,7 @@ Permite especificar la configuración de fuente del documento.
 public FontSettings FontSettings { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 Al cargar algunos formatos, es posible que Aspose.Words requiera resolver las fuentes. Por ejemplo, al cargar documentos HTML, Aspose.Words puede resolver las fuentes para realizar la reserva de fuentes.
 
@@ -22,7 +24,7 @@ Si se establece en`nulo` , configuración de fuente estática predeterminada[`De
 
 El valor predeterminado es`nulo`.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo aplicar la configuración de sustitución de fuentes mientras se carga un documento.
 
@@ -69,7 +71,5 @@ doc.Save(ArtifactsDir + "FontSettings.ResolveFontsBeforeLoadingDocument.pdf");
 
 * class [FontSettings](../../../aspose.words.fonts/fontsettings/)
 * class [LoadOptions](../)
-* espacio de nombres [Aspose.Words.Loading](../../loadoptions/)
+* espacio de nombres [Aspose.Words.Loading](../../../aspose.words.loading/)
 * asamblea [Aspose.Words](../../../)
-
-

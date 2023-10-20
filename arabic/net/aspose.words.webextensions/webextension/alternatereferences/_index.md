@@ -1,7 +1,9 @@
 ---
 title: WebExtension.AlternateReferences
-second_title: Aspose.Words لمراجع .NET API
-description: WebExtension ملكية. يحدد مراجع بديلة لامتداد الويب.
+linktitle: AlternateReferences
+articleTitle: AlternateReferences
+second_title: Aspose.Words لـ .NET
+description: WebExtension AlternateReferences ملكية. يحدد مراجع بديلة لامتداد الويب في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.webextensions/webextension/alternatereferences/
@@ -18,7 +20,5 @@ public WebExtensionReferenceCollection AlternateReferences { get; }
 
 * class [WebExtensionReferenceCollection](../../webextensionreferencecollection/)
 * class [WebExtension](../)
-* مساحة الاسم [Aspose.Words.WebExtensions](../../webextension/)
+* مساحة الاسم [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * المجسم [Aspose.Words](../../../)
-
-

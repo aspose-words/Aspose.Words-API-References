@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabelCollection.ShowCategoryName
-second_title: Referencia de API de Aspose.Words para .NET
-description: ChartDataLabelCollection propiedad. Permite especificar si el nombre de la categoría se mostrará para las etiquetas de datos de toda la serie. El valor predeterminado esFALSO .
+linktitle: ShowCategoryName
+articleTitle: ShowCategoryName
+second_title: Aspose.Words para .NET
+description: ChartDataLabelCollection ShowCategoryName propiedad. Permite especificar si el nombre de la categoría se mostrará para las etiquetas de datos de toda la serie. El valor predeterminado esFALSO  en C#.
 type: docs
 weight: 80
 url: /es/net/aspose.words.drawing.charts/chartdatalabelcollection/showcategoryname/
@@ -14,11 +16,11 @@ Permite especificar si el nombre de la categoría se mostrará para las etiqueta
 public bool ShowCategoryName { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 El valor definido para esta propiedad se puede anular para una etiqueta de datos individual usando the [`ShowCategoryName`](../../chartdatalabel/showcategoryname/) propiedad.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo trabajar con etiquetas de datos de un gráfico de burbujas.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "Charts.DataLabelsBubbleChart.docx");
 ### Ver también
 
 * class [ChartDataLabelCollection](../)
-* espacio de nombres [Aspose.Words.Drawing.Charts](../../chartdatalabelcollection/)
+* espacio de nombres [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * asamblea [Aspose.Words](../../../)
-
-

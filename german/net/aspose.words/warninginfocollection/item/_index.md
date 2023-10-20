@@ -1,7 +1,9 @@
 ---
 title: WarningInfoCollection.Item
-second_title: Aspose.Words für .NET-API-Referenz
-description: WarningInfoCollection eigendom. Ruft ein Element am angegebenen Index ab.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words für .NET
+description: WarningInfoCollection Item eigendom. Ruft ein Element am angegebenen Index ab in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words/warninginfocollection/item/
@@ -22,7 +24,5 @@ public WarningInfo this[int index] { get; }
 
 * class [WarningInfo](../../warninginfo/)
 * class [WarningInfoCollection](../)
-* namensraum [Aspose.Words](../../warninginfocollection/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

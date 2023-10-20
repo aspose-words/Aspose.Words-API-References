@@ -1,7 +1,9 @@
 ---
 title: Story.Paragraphs
-second_title: Aspose.Words für .NET-API-Referenz
-description: Story eigendom. Ruft eine Sammlung von Absätzen ab die unmittelbar untergeordnete Elemente der Geschichte sind.
+linktitle: Paragraphs
+articleTitle: Paragraphs
+second_title: Aspose.Words für .NET
+description: Story Paragraphs eigendom. Ruft eine Sammlung von Absätzen ab die unmittelbar untergeordnete Elemente der Geschichte sind in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words/story/paragraphs/
@@ -14,7 +16,7 @@ Ruft eine Sammlung von Absätzen ab, die unmittelbar untergeordnete Elemente der
 public ParagraphCollection Paragraphs { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie überprüft wird, ob es sich bei einem Absatz um eine Verschiebungsrevision handelt.
 
@@ -49,7 +51,5 @@ Assert.True(paragraphs[3].IsMoveToRevision);
 
 * class [ParagraphCollection](../../paragraphcollection/)
 * class [Story](../)
-* namensraum [Aspose.Words](../../story/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

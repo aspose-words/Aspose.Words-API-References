@@ -1,24 +1,26 @@
 ---
 title: ChartLegendEntry.IsHidden
-second_title: Aspose.Words für .NET-API-Referenz
-description: ChartLegendEntry eigendom. Ruft einen Wert ab oder legt diesen fest der angibt ob dieser Eintrag in der Diagrammlegende ausgeblendet ist. Der Standardwert ist FALSCH .
+linktitle: IsHidden
+articleTitle: IsHidden
+second_title: Aspose.Words für .NET
+description: ChartLegendEntry IsHidden eigendom. Ruft einen Wert ab oder legt diesen fest der angibt ob dieser Eintrag in der Diagrammlegende ausgeblendet ist. Der Standardwert istFALSCH  in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.drawing.charts/chartlegendentry/ishidden/
 ---
 ## ChartLegendEntry.IsHidden property
 
-Ruft einen Wert ab oder legt diesen fest, der angibt, ob dieser Eintrag in der Diagrammlegende ausgeblendet ist. Der Standardwert ist **FALSCH** .
+Ruft einen Wert ab oder legt diesen fest, der angibt, ob dieser Eintrag in der Diagrammlegende ausgeblendet ist. Der Standardwert ist**FALSCH** .
 
 ```csharp
 public bool IsHidden { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Wenn ein Diagrammlegendeneintrag ausgeblendet ist, hat dies keine Auswirkungen auf die entsprechende Diagrammreihe oder Trendlinie, die weiterhin im Diagramm angezeigt wird.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit einem Legendeneintrag für Diagrammreihen gearbeitet wird.
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "Charts.LegendEntries.docx");
 ### Siehe auch
 
 * class [ChartLegendEntry](../)
-* namensraum [Aspose.Words.Drawing.Charts](../../chartlegendentry/)
+* namensraum [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,12 +1,14 @@
 ---
 title: DocumentBuilder.InsertChart
-second_title: Aspose.Words for .NET API 参考
-description: DocumentBuilder 方法. 将图表对象插入到文档中并将其缩放至指定大小
+linktitle: InsertChart
+articleTitle: InsertChart
+second_title: 用于 .NET 的 Aspose.Words
+description: DocumentBuilder InsertChart 方法. 将图表对象插入到文档中并将其缩放至指定大小 在 C#.
 type: docs
 weight: 280
 url: /zh/net/aspose.words/documentbuilder/insertchart/
 ---
-## InsertChart(ChartType, double, double) {#insertchart_1}
+## InsertChart(*[ChartType](../../../aspose.words.drawing.charts/charttype/), double, double*) {#insertchart_1}
 
 将图表对象插入到文档中并将其缩放至指定大小。
 
@@ -24,11 +26,11 @@ public Shape InsertChart(ChartType chartType, double width, double height)
 
 刚刚插入的图像节点。
 
-### 评论
+## 评论
 
 您可以使用 更改图像大小、位置、定位方法和其他设置[`Shape`](../../../aspose.words.drawing/shape/)该方法返回的对象。
 
-### 例子
+## 例子
 
 演示如何将饼图插入文档中。
 
@@ -51,12 +53,12 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertPieChart.docx");
 * class [Shape](../../../aspose.words.drawing/shape/)
 * enum [ChartType](../../../aspose.words.drawing.charts/charttype/)
 * class [DocumentBuilder](../)
-* 命名空间 [Aspose.Words](../../documentbuilder/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## InsertChart(ChartType, RelativeHorizontalPosition, double, RelativeVerticalPosition, double, double, double, WrapType) {#insertchart}
+## InsertChart(*[ChartType](../../../aspose.words.drawing.charts/charttype/), [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/), double, [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/), double, double, double, [WrapType](../../../aspose.words.drawing/wraptype/)*) {#insertchart}
 
 将图表对象插入到文档中并将其缩放至指定大小。
 
@@ -80,11 +82,11 @@ public Shape InsertChart(ChartType chartType, RelativeHorizontalPosition horzPos
 
 刚刚插入的图像节点。
 
-### 评论
+## 评论
 
 您可以使用 更改图像大小、位置、定位方法和其他设置[`Shape`](../../../aspose.words.drawing/shape/)该方法返回的对象。
 
-### 例子
+## 例子
 
 演示如何在插入图表时指定位置和换行。
 
@@ -106,7 +108,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertedChartRelativePosition.docx");
 * enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/)
 * enum [WrapType](../../../aspose.words.drawing/wraptype/)
 * class [DocumentBuilder](../)
-* 命名空间 [Aspose.Words](../../documentbuilder/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

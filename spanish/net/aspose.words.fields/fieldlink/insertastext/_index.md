@@ -1,7 +1,9 @@
 ---
 title: FieldLink.InsertAsText
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldLink propiedad. Obtiene o establece si se debe insertar el objeto vinculado en formato de solo texto.
+linktitle: InsertAsText
+articleTitle: InsertAsText
+second_title: Aspose.Words para .NET
+description: FieldLink InsertAsText propiedad. Obtiene o establece si se debe insertar el objeto vinculado en formato de solo texto en C#.
 type: docs
 weight: 80
 url: /es/net/aspose.words.fields/fieldlink/insertastext/
@@ -14,7 +16,7 @@ Obtiene o establece si se debe insertar el objeto vinculado en formato de solo t
 public bool InsertAsText { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo utilizar varios tipos de campos para vincular a otros documentos en el sistema de archivos local y mostrar su contenido.
 
@@ -197,7 +199,5 @@ public enum InsertLinkedObjectAs
 ### Ver también
 
 * class [FieldLink](../)
-* espacio de nombres [Aspose.Words.Fields](../../fieldlink/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

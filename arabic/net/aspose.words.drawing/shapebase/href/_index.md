@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.HRef
-second_title: Aspose.Words لمراجع .NET API
-description: ShapeBase ملكية. الحصول على عنوان الارتباط التشعبي الكامل للشكل أو تعيينه.
+linktitle: HRef
+articleTitle: HRef
+second_title: Aspose.Words لـ .NET
+description: ShapeBase HRef ملكية. الحصول على عنوان الارتباط التشعبي الكامل للشكل أو تعيينه في C#.
 type: docs
 weight: 230
 url: /ar/net/aspose.words.drawing/shapebase/href/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing/shapebase/href/
 public string HRef { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 القيمة الافتراضية هي سلسلة فارغة.
 
@@ -32,7 +34,7 @@ public string HRef { get; set; }
 
 الإشارة المرجعية داخل هذا المستند:`#BookmakName`.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج شكل يحتوي على صورة، ويكون أيضًا ارتباطًا تشعبيًا.
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "Image.InsertImageWithHyperlink.docx");
 ### أنظر أيضا
 
 * class [ShapeBase](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../shapebase/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

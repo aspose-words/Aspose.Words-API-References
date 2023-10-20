@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTagCollection.Remove
-second_title: Aspose.Words för .NET API Referens
-description: StructuredDocumentTagCollection metod. Tar bort den strukturerade dokumenttaggen med den angivna identifieraren.
+linktitle: Remove
+articleTitle: Remove
+second_title: Aspose.Words för .NET
+description: StructuredDocumentTagCollection Remove metod. Tar bort den strukturerade dokumenttaggen med den angivna identifieraren i C#.
 type: docs
 weight: 70
 url: /sv/net/aspose.words.markup/structureddocumenttagcollection/remove/
@@ -18,7 +20,7 @@ public void Remove(int id)
 | --- | --- | --- |
 | id | Int32 | Den strukturerade dokumenttaggens identifierare. |
 
-### Exempel
+## Exempel
 
 Visar hur man tar bort strukturerad dokumenttagg.
 
@@ -47,7 +49,5 @@ Assert.AreEqual(3, structuredDocumentTags.Count);
 ### Se även
 
 * class [StructuredDocumentTagCollection](../)
-* namnutrymme [Aspose.Words.Markup](../../structureddocumenttagcollection/)
+* namnutrymme [Aspose.Words.Markup](../../../aspose.words.markup/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: OleFormat.IsLink
-second_title: Aspose.Words for .NET API 参考
-description: OleFormat 财产. 返回真的如果 OLE 对象已链接当SourceFullName已指定.
+linktitle: IsLink
+articleTitle: IsLink
+second_title: 用于 .NET 的 Aspose.Words
+description: OleFormat IsLink 财产. 返回真的如果 OLE 对象已链接当SourceFullName已指定 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.drawing/oleformat/islink/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.drawing/oleformat/islink/
 public bool IsLink { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何插入链接和未链接的 OLE 对象。
 
@@ -64,7 +66,5 @@ using (MemoryStream stream = oleFormat.GetOleEntry("\x0001CompObj"))
 ### 也可以看看
 
 * class [OleFormat](../)
-* 命名空间 [Aspose.Words.Drawing](../../oleformat/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

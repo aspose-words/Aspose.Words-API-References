@@ -1,7 +1,9 @@
 ---
-title: Enum PatternType
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Drawing.PatternType enum. Specifica il motivo di riempimento da utilizzare per riempire una forma.
+title: PatternType Enum
+linktitle: PatternType
+articleTitle: PatternType
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Drawing.PatternType enum. Specifica il motivo di riempimento da utilizzare per riempire una forma in C#.
 type: docs
 weight: 1170
 url: /it/net/aspose.words.drawing/patterntype/
@@ -78,5 +80,3 @@ public enum PatternType
 
 * spazio dei nomi [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * assemblea [Aspose.Words](../../)
-
-

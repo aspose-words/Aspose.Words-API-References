@@ -1,7 +1,9 @@
 ---
-title: Class MarkdownSaveOptions
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Saving.MarkdownSaveOptions klas. Klasse zum Angeben zusätzlicher Optionen beim Speichern eines Dokuments imMarkdown format.
+title: MarkdownSaveOptions Class
+linktitle: MarkdownSaveOptions
+articleTitle: MarkdownSaveOptions
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Saving.MarkdownSaveOptions klas. Klasse zum Angeben zusätzlicher Optionen beim Speichern eines Dokuments imMarkdown format in C#.
 type: docs
 weight: 5280
 url: /de/net/aspose.words.saving/markdownsaveoptions/
@@ -28,11 +30,11 @@ public class MarkdownSaveOptions : TxtSaveOptionsBase
 | --- | --- |
 | [AllowEmbeddingPostScriptFonts](../../aspose.words.saving/saveoptions/allowembeddingpostscriptfonts/) { get; set; } | Ruft einen booleschen Wert ab oder legt diesen fest, der angibt, ob das Einbetten von Schriftarten mit PostScript-Umrissen zulässig ist , wenn TrueType-Schriftarten in ein Dokument eingebettet werden, sobald es gespeichert wird. Der Standardwert ist`FALSCH` . |
 | [CustomTimeZoneInfo](../../aspose.words.saving/saveoptions/customtimezoneinfo/) { get; set; } | Ruft die benutzerdefinierte lokale Zeitzone ab, die für Datums-/Uhrzeitfelder verwendet wird, oder legt diese fest. |
-| [DefaultTemplate](../../aspose.words.saving/saveoptions/defaulttemplate/) { get; set; } | Ruft den Pfad zur Standardvorlage (einschließlich Dateiname) ab oder legt diesen fest. Der Standardwert für diese Eigenschaft ist **leerer String** (Empty). |
+| [DefaultTemplate](../../aspose.words.saving/saveoptions/defaulttemplate/) { get; set; } | Ruft den Pfad zur Standardvorlage (einschließlich Dateiname) ab oder legt diesen fest. Der Standardwert für diese Eigenschaft ist**leerer String** (Empty). |
 | [Dml3DEffectsRenderingMode](../../aspose.words.saving/saveoptions/dml3deffectsrenderingmode/) { get; set; } | Ruft einen Wert ab oder legt diesen fest, der bestimmt, wie 3D-Effekte gerendert werden. |
 | virtual [DmlEffectsRenderingMode](../../aspose.words.saving/saveoptions/dmleffectsrenderingmode/) { get; set; } | Ruft einen Wert ab oder legt diesen fest, der bestimmt, wie DrawingML-Effekte gerendert werden. |
 | [DmlRenderingMode](../../aspose.words.saving/saveoptions/dmlrenderingmode/) { get; set; } | Ruft einen Wert ab oder legt diesen fest, der bestimmt, wie DrawingML-Formen gerendert werden. |
-| [Encoding](../../aspose.words.saving/txtsaveoptionsbase/encoding/) { get; set; } | Gibt die beim Exportieren in Textformate zu verwendende Kodierung an. Der Standardwert ist **Kodierung.UTF8** . |
+| [Encoding](../../aspose.words.saving/txtsaveoptionsbase/encoding/) { get; set; } | Gibt die beim Exportieren in Textformate zu verwendende Kodierung an. Der Standardwert ist**Kodierung.UTF8** . |
 | [ExportGeneratorName](../../aspose.words.saving/saveoptions/exportgeneratorname/) { get; set; } | Wann`WAHR` , bewirkt, dass der Name und die Version von Aspose.Words in erzeugte Dateien eingebettet werden. Der Standardwert ist`WAHR` . |
 | [ExportHeadersFootersMode](../../aspose.words.saving/txtsaveoptionsbase/exportheadersfootersmode/) { get; set; } | Gibt an, wie Kopf- und Fußzeilen in die Textformate exportiert werden. Der Standardwert istPrimaryOnly . |
 | [ExportImagesAsBase64](../../aspose.words.saving/markdownsaveoptions/exportimagesasbase64/) { get; set; } | Gibt an, ob Bilder im Base64-Format in der Ausgabedatei gespeichert werden. Der Standardwert ist`FALSCH` . |
@@ -61,5 +63,3 @@ public class MarkdownSaveOptions : TxtSaveOptionsBase
 * class [TxtSaveOptionsBase](../txtsaveoptionsbase/)
 * namensraum [Aspose.Words.Saving](../../aspose.words.saving/)
 * Montage [Aspose.Words](../../)
-
-

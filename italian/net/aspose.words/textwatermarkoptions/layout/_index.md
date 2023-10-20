@@ -1,7 +1,9 @@
 ---
 title: TextWatermarkOptions.Layout
-second_title: Aspose.Words per .NET API Reference
-description: TextWatermarkOptions proprietà. Ottiene o imposta il layout della filigrana. Il valore predefinito èDiagonal .
+linktitle: Layout
+articleTitle: Layout
+second_title: Aspose.Words per .NET
+description: TextWatermarkOptions Layout proprietà. Ottiene o imposta il layout della filigrana. Il valore predefinito èDiagonal  in C#.
 type: docs
 weight: 60
 url: /it/net/aspose.words/textwatermarkoptions/layout/
@@ -14,7 +16,7 @@ Ottiene o imposta il layout della filigrana. Il valore predefinito èDiagonal .
 public WatermarkLayout Layout { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come creare una filigrana di testo.
 
@@ -46,7 +48,5 @@ if (doc.Watermark.Type == WatermarkType.Text)
 
 * enum [WatermarkLayout](../../watermarklayout/)
 * class [TextWatermarkOptions](../)
-* spazio dei nomi [Aspose.Words](../../textwatermarkoptions/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

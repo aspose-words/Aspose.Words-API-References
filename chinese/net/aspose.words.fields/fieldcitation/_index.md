@@ -1,7 +1,9 @@
 ---
-title: Class FieldCitation
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Fields.FieldCitation 班级. 实现 CITATION 字段
+title: FieldCitation Class
+linktitle: FieldCitation
+articleTitle: FieldCitation
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Fields.FieldCitation 班级. 实现 CITATION 字段 在 C#.
 type: docs
 weight: 1680
 url: /zh/net/aspose.words.fields/fieldcitation/
@@ -26,7 +28,7 @@ public class FieldCitation : Field
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AnotherSourceTag](../../aspose.words.fields/fieldcitation/anothersourcetag/) { get; set; } | 获取或设置与 **标签**要包含在引文中的另一个来源的元素值。 |
+| [AnotherSourceTag](../../aspose.words.fields/fieldcitation/anothersourcetag/) { get; set; } | 获取或设置与**标签**要包含在引文中的另一个来源的元素值。 |
 | [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | 获取表示显示的字段结果的文本。 |
 | [End](../../aspose.words.fields/field/end/) { get; } | 获取表示字段结束的节点。 |
 | [Format](../../aspose.words.fields/field/format/) { get; } | 获得[`FieldFormat`](../fieldformat/)提供对字段格式的类型化访问的对象。 |
@@ -38,7 +40,7 @@ public class FieldCitation : Field
 | [Prefix](../../aspose.words.fields/fieldcitation/prefix/) { get; set; } | 获取或设置引文前面的前缀。 |
 | [Result](../../aspose.words.fields/field/result/) { get; set; } | 获取或设置字段分隔符和字段结束之间的文本。 |
 | [Separator](../../aspose.words.fields/field/separator/) { get; } | 获取表示字段分隔符的节点。可`无效的`. |
-| [SourceTag](../../aspose.words.fields/fieldcitation/sourcetag/) { get; set; } | 获取或设置与 **标签**要插入的源的元素值。 |
+| [SourceTag](../../aspose.words.fields/fieldcitation/sourcetag/) { get; set; } | 获取或设置与**标签**要插入的源的元素值。 |
 | [Start](../../aspose.words.fields/field/start/) { get; } | 获取表示字段开始的节点。 |
 | [Suffix](../../aspose.words.fields/fieldcitation/suffix/) { get; set; } | 获取或设置附加到引文的后缀。 |
 | [SuppressAuthor](../../aspose.words.fields/fieldcitation/suppressauthor/) { get; set; } | 获取或设置是否在引文中隐藏作者信息。 |
@@ -52,17 +54,17 @@ public class FieldCitation : Field
 | 姓名 | 描述 |
 | --- | --- |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | 返回字段开始和字段分隔符之间的文本（如果没有分隔符，则返回字段结束）。 包括子字段的字段代码和字段结果。 |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | 返回字段开始和字段分隔符之间的文本（如果没有分隔符，则返回字段结束）。 |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | 返回字段开始和字段分隔符之间的文本（如果没有分隔符，则返回字段结束）。 |
 | [Remove](../../aspose.words.fields/field/remove/)() | 从文档中删除该字段。返回字段后面的节点。如果字段的结尾是其父节点的最后一个 child ，则返回其父段落。如果该字段已被删除，则返回`无效的`. |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | 执行字段取消链接。 |
 | [Update](../../aspose.words.fields/field/update/)() | 执行字段更新。如果该字段已被更新，则抛出异常。 |
-| [Update](../../aspose.words.fields/field/update/)(bool) | 执行字段更新。如果该字段已被更新，则抛出异常。 |
+| [Update](../../aspose.words.fields/field/update/)(*bool*) | 执行字段更新。如果该字段已被更新，则抛出异常。 |
 
-### 评论
+## 评论
 
-插入内容 **来源**具有指定的元素 **标签**使用书目样式的元素.
+插入内容**来源**具有指定的元素**标签**使用书目样式的元素.
 
-### 例子
+## 例子
 
 展示如何使用 CITATION 和 BIBLIOGRAPHY 字段。
 
@@ -118,5 +120,3 @@ doc.Save(ArtifactsDir + "Field.CITATION.docx");
 * class [Field](../field/)
 * 命名空间 [Aspose.Words.Fields](../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../)
-
-

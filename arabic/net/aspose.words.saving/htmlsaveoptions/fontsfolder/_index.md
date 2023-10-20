@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.FontsFolder
-second_title: Aspose.Words لمراجع .NET API
-description: HtmlSaveOptions ملكية. يحدد المجلد الفعلي حيث يتم حفظ الخطوط عند تصدير مستند إلى HTML. الافتراضي هو سلسلة فارغة.
+linktitle: FontsFolder
+articleTitle: FontsFolder
+second_title: Aspose.Words لـ .NET
+description: HtmlSaveOptions FontsFolder ملكية. يحدد المجلد الفعلي حيث يتم حفظ الخطوط عند تصدير مستند إلى HTML. الافتراضي هو سلسلة فارغة في C#.
 type: docs
 weight: 310
 url: /ar/net/aspose.words.saving/htmlsaveoptions/fontsfolder/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.saving/htmlsaveoptions/fontsfolder/
 public string FontsFolder { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 عندما تقوم بحفظ أ[`Document`](../../../aspose.words/document/) بتنسيق HTML و[`ExportFontResources`](../exportfontresources/) تم ضبط على`حقيقي` ، يحتاج Aspose.Words إلى حفظ الخطوط المستخدمة في المستند كملفات مستقلة. `FontsFolder` يسمح لك بتحديد مكان حفظ الخطوط و [`FontsFolderAlias`](../fontsfolderalias/) يسمح بتحديد كيفية إنشاء عناوين URI للخط.
 
@@ -26,7 +28,7 @@ public string FontsFolder { get; set; }
 
 [`ResourceFolder`](../resourcefolder/) هي طريقة أخرى لتحديد المجلد الذي يجب حفظ الخطوط فيه.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين المجلدات والأسماء المستعارة للمجلدات للموارد المحفوظة خارجيًا والتي سيقوم Aspose.Words بإنشائها عند حفظ مستند إلى HTML.
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "HtmlSaveOptions.FolderAlias.html", options);
 ### أنظر أيضا
 
 * class [HtmlSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../htmlsaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Run.NodeType
-second_title: Referencia de API de Aspose.Words para .NET
-description: Run propiedad. DevolucionesRun .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words para .NET
+description: Run NodeType propiedad. DevolucionesRun  en C#.
 type: docs
 weight: 30
 url: /es/net/aspose.words/run/nodetype/
@@ -14,7 +16,7 @@ DevolucionesRun .
 public override NodeType NodeType { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo recorrer el árbol de nodos secundarios de un nodo compuesto.
 
@@ -62,7 +64,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 
 * enum [NodeType](../../nodetype/)
 * class [Run](../)
-* espacio de nombres [Aspose.Words](../../run/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

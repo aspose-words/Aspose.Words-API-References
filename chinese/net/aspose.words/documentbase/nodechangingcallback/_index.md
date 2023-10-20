@@ -1,7 +1,9 @@
 ---
 title: DocumentBase.NodeChangingCallback
-second_title: Aspose.Words for .NET API 参考
-description: DocumentBase 财产. 在文档中插入或删除节点时调用
+linktitle: NodeChangingCallback
+articleTitle: NodeChangingCallback
+second_title: 用于 .NET 的 Aspose.Words
+description: DocumentBase NodeChangingCallback 财产. 在文档中插入或删除节点时调用 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words/documentbase/nodechangingcallback/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/documentbase/nodechangingcallback/
 public INodeChangingCallback NodeChangingCallback { get; set; }
 ```
 
-### 例子
+## 例子
 
 展示如何通过回调自定义节点更改。
 
@@ -92,7 +94,5 @@ public class HandleNodeChangingFontChanger : INodeChangingCallback
 
 * interface [INodeChangingCallback](../../inodechangingcallback/)
 * class [DocumentBase](../)
-* 命名空间 [Aspose.Words](../../documentbase/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

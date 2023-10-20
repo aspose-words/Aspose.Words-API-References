@@ -1,7 +1,9 @@
 ---
 title: PhysicalFontInfo.FullFontName
-second_title: Aspose.Words för .NET API Referens
-description: PhysicalFontInfo fast egendom. Teckensnittets fullständiga namn.
+linktitle: FullFontName
+articleTitle: FullFontName
+second_title: Aspose.Words för .NET
+description: PhysicalFontInfo FullFontName fast egendom. Teckensnittets fullständiga namn i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.fonts/physicalfontinfo/fullfontname/
@@ -14,7 +16,7 @@ Teckensnittets fullständiga namn.
 public string FullFontName { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man listar tillgängliga teckensnitt.
 
@@ -34,7 +36,5 @@ foreach (PhysicalFontInfo fontInfo in folderFontSource[0].GetAvailableFonts())
 ### Se även
 
 * class [PhysicalFontInfo](../)
-* namnutrymme [Aspose.Words.Fonts](../../physicalfontinfo/)
+* namnutrymme [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * hopsättning [Aspose.Words](../../../)
-
-

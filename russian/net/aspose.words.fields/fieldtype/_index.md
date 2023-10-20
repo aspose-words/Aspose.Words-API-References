@@ -1,7 +1,9 @@
 ---
-title: Enum FieldType
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Fields.FieldType перечисление. Указывает типы полей Microsoft Word.
+title: FieldType Enum
+linktitle: FieldType
+articleTitle: FieldType
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Fields.FieldType перечисление. Указывает типы полей Microsoft Word на С#.
 type: docs
 weight: 2540
 url: /ru/net/aspose.words.fields/fieldtype/
@@ -116,7 +118,7 @@ public enum FieldType
 | FieldUserInitials | `61` | Указывает поле USERINITIALS. |
 | FieldUserName | `60` | Указывает поле USERNAME. |
 
-### Примеры
+## Примеры
 
 Показывает, как вставить поле в документ с помощью кода поля.
 
@@ -163,5 +165,3 @@ field.Update();
 
 * пространство имен [Aspose.Words.Fields](../../aspose.words.fields/)
 * сборка [Aspose.Words](../../)
-
-

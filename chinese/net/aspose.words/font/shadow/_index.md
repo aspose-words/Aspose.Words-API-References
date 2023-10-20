@@ -1,7 +1,9 @@
 ---
 title: Font.Shadow
-second_title: Aspose.Words for .NET API 参考
-description: Font 财产. 如果字体格式为阴影则为 True
+linktitle: Shadow
+articleTitle: Shadow
+second_title: 用于 .NET 的 Aspose.Words
+description: Font Shadow 财产. 如果字体格式为阴影则为 True 在 C#.
 type: docs
 weight: 330
 url: /zh/net/aspose.words/font/shadow/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/font/shadow/
 public bool Shadow { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何创建带有阴影格式的文本串。
 
@@ -35,7 +37,5 @@ doc.Save(ArtifactsDir + "Font.Shadow.docx");
 ### 也可以看看
 
 * class [Font](../)
-* 命名空间 [Aspose.Words](../../font/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

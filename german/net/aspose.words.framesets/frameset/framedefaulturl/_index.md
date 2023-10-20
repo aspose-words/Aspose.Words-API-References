@@ -1,7 +1,9 @@
 ---
 title: Frameset.FrameDefaultUrl
-second_title: Aspose.Words für .NET-API-Referenz
-description: Frameset eigendom. Ruft die URL der Webseite oder den Namen der Dokumentdatei ab die in diesem Frame angezeigt werden sollen oder legt diese fest.
+linktitle: FrameDefaultUrl
+articleTitle: FrameDefaultUrl
+second_title: Aspose.Words für .NET
+description: Frameset FrameDefaultUrl eigendom. Ruft die URL der Webseite oder den Namen der Dokumentdatei ab die in diesem Frame angezeigt werden sollen oder legt diese fest in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.framesets/frameset/framedefaulturl/
@@ -14,7 +16,7 @@ Ruft die URL der Webseite oder den Namen der Dokumentdatei ab, die in diesem Fra
 public string FrameDefaultUrl { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man auf Frames auf der Seite zugreift.
 
@@ -39,7 +41,5 @@ doc.Frameset.ChildFramesets[0].ChildFramesets[0].IsFrameLinkToFile = false;
 ### Siehe auch
 
 * class [Frameset](../)
-* namensraum [Aspose.Words.Framesets](../../frameset/)
+* namensraum [Aspose.Words.Framesets](../../../aspose.words.framesets/)
 * Montage [Aspose.Words](../../../)
-
-

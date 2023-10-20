@@ -1,9 +1,11 @@
 ---
 title: ChartDataPointCollection.GetEnumerator
-second_title: Aspose.Words for .NET API 参考
-description: ChartDataPointCollection 方法. 返回一个枚举器对象
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: 用于 .NET 的 Aspose.Words
+description: ChartDataPointCollection GetEnumerator 方法. 返回一个枚举器对象 在 C#.
 type: docs
-weight: 50
+weight: 40
 url: /zh/net/aspose.words.drawing.charts/chartdatapointcollection/getenumerator/
 ---
 ## ChartDataPointCollection.GetEnumerator method
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.drawing.charts/chartdatapointcollection/getenumerator/
 public IEnumerator<ChartDataPoint> GetEnumerator()
 ```
 
-### 例子
+## 例子
 
 展示如何使用折线图上的数据点。
 
@@ -77,7 +79,5 @@ private static void ApplyDataPoints(ChartSeries series, int dataPointsCount, Mar
 
 * class [ChartDataPoint](../../chartdatapoint/)
 * class [ChartDataPointCollection](../)
-* 命名空间 [Aspose.Words.Drawing.Charts](../../chartdatapointcollection/)
+* 命名空间 [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * 部件 [Aspose.Words](../../../)
-
-

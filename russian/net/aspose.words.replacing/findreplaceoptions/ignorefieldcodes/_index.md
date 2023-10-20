@@ -1,7 +1,9 @@
 ---
 title: FindReplaceOptions.IgnoreFieldCodes
-second_title: Справочник по API Aspose.Words для .NET
-description: FindReplaceOptions свойство. Получает или задает логическое значение указывающее следует ли игнорировать текст внутри кодов полей. Значение по умолчаниюЛОЖЬ .
+linktitle: IgnoreFieldCodes
+articleTitle: IgnoreFieldCodes
+second_title: Aspose.Words для .NET
+description: FindReplaceOptions IgnoreFieldCodes свойство. Получает или задает логическое значение указывающее следует ли игнорировать текст внутри кодов полей. Значение по умолчаниюЛОЖЬ  на С#.
 type: docs
 weight: 70
 url: /ru/net/aspose.words.replacing/findreplaceoptions/ignorefieldcodes/
@@ -14,13 +16,13 @@ url: /ru/net/aspose.words.replacing/findreplaceoptions/ignorefieldcodes/
 public bool IgnoreFieldCodes { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Эта опция влияет только на коды полей (она не игнорирует узлы между FieldSeparator иFieldEnd).
 
 Чтобы игнорировать все поле, используйте соответствующую опцию[`IgnoreFields`](../ignorefields/).
 
-### Примеры
+## Примеры
 
 Показывает, как игнорировать текст внутри кодов полей.
 
@@ -45,7 +47,5 @@ Assert.AreEqual(
 ### Смотрите также
 
 * class [FindReplaceOptions](../)
-* пространство имен [Aspose.Words.Replacing](../../findreplaceoptions/)
+* пространство имен [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class Font
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Font сорт. Содержит атрибуты шрифта имя шрифта размер шрифта цвет и т. д. для объекта.
+title: Font Class
+linktitle: Font
+articleTitle: Font
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Font сорт. Содержит атрибуты шрифта имя шрифта размер шрифта цвет и т. д. для объекта на С#.
 type: docs
 weight: 2830
 url: /ru/net/aspose.words/font/
@@ -80,13 +82,13 @@ public class Font
 | Имя | Описание |
 | --- | --- |
 | [ClearFormatting](../../aspose.words/font/clearformatting/)() | Сбрасывает формат шрифта по умолчанию. |
-| [HasDmlEffect](../../aspose.words/font/hasdmleffect/)(TextDmlEffect) | Проверяет, применен ли определенный текстовый эффект DrawingML. |
+| [HasDmlEffect](../../aspose.words/font/hasdmleffect/)(*[TextDmlEffect](../textdmleffect/)*) | Проверяет, применен ли определенный текстовый эффект DrawingML. |
 
-### Примечания
+## Примечания
 
 Вы не создаете экземпляры`Font`класс напрямую. Вы просто используете `Font` для доступа к свойствам шрифта различных объектов, таких как[`Run`](../run/) , [`Paragraph`](../paragraph/) ,[`Style`](../style/) ,[`DocumentBuilder`](../documentbuilder/).
 
-### Примеры
+## Примеры
 
 Показывает, как форматировать фрагмент текста, используя его свойство шрифта.
 
@@ -149,5 +151,3 @@ builder.Document.Save(ArtifactsDir + "Styles.ParagraphStyleBulletedList.docx");
 
 * пространство имен [Aspose.Words](../../aspose.words/)
 * сборка [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.Name
-second_title: Aspose.Words لمراجع .NET API
-description: ShapeBase ملكية. الحصول على اسم الشكل الاختياري أو تعيينه.
+linktitle: Name
+articleTitle: Name
+second_title: Aspose.Words لـ .NET
+description: ShapeBase Name ملكية. الحصول على اسم الشكل الاختياري أو تعيينه في C#.
 type: docs
 weight: 400
 url: /ar/net/aspose.words.drawing/shapebase/name/
@@ -14,13 +16,13 @@ url: /ar/net/aspose.words.drawing/shapebase/name/
 public string Name { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 الافتراضي هو سلسلة فارغة.
 
 لا يمكن`باطل`، ولكن يمكن أن تكون سلسلة فارغة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام النص البديل للشكل.
 
@@ -44,7 +46,5 @@ File.Delete(ArtifactsDir + "Shape.AltText.001.png");
 ### أنظر أيضا
 
 * class [ShapeBase](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../shapebase/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldFormat.GeneralFormats
-second_title: Aspose.Words för .NET API Referens
-description: FieldFormat fast egendom. Hämtar en samling allmänna format som tillämpas på ett numeriskt text eller valfritt fältresultat. Motsvarar omkopplarna.
+linktitle: GeneralFormats
+articleTitle: GeneralFormats
+second_title: Aspose.Words för .NET
+description: FieldFormat GeneralFormats fast egendom. Hämtar en samling allmänna format som tillämpas på ett numeriskt text eller valfritt fältresultat. Motsvarar omkopplarna i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.fields/fieldformat/generalformats/
@@ -14,7 +16,7 @@ Hämtar en samling allmänna format som tillämpas på ett numeriskt, text- elle
 public GeneralFormatCollection GeneralFormats { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man formaterar fältresultat.
 
@@ -79,7 +81,5 @@ Assert.AreEqual(0, format.GeneralFormats.Count);
 
 * class [GeneralFormatCollection](../../generalformatcollection/)
 * class [FieldFormat](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldformat/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: IStructuredDocumentTag.Placeholder
-second_title: Aspose.Words für .NET-API-Referenz
-description: IStructuredDocumentTag eigendom. Ruft die abBuildingBlockenthält Platzhaltertext der angezeigt werden soll wenn der Inhalt dieses SDTLaufs leer ist das zugehörige zugeordnete XMLElement ist leer wie über angegebenXmlMapping element oder dieIsShowingPlaceholderText Element ist wahr.
+linktitle: Placeholder
+articleTitle: Placeholder
+second_title: Aspose.Words für .NET
+description: IStructuredDocumentTag Placeholder eigendom. Ruft die abBuildingBlockenthält Platzhaltertext der angezeigt werden soll wenn der Inhalt dieses SDTLaufs leer ist das zugehörige zugeordnete XMLElement ist leer wie über angegebenXmlMapping element oder dieIsShowingPlaceholderText Element ist wahr in C#.
 type: docs
 weight: 70
 url: /de/net/aspose.words.markup/istructureddocumenttag/placeholder/
@@ -14,7 +16,7 @@ Ruft die ab[`BuildingBlock`](../../../aspose.words.buildingblocks/buildingblock/
 public BuildingBlock Placeholder { get; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Kann null sein, was bedeutet, dass der Platzhalter für diesen Sdt nicht anwendbar ist.
 
@@ -22,7 +24,5 @@ Kann null sein, was bedeutet, dass der Platzhalter für diesen Sdt nicht anwendb
 
 * class [BuildingBlock](../../../aspose.words.buildingblocks/buildingblock/)
 * interface [IStructuredDocumentTag](../)
-* namensraum [Aspose.Words.Markup](../../istructureddocumenttag/)
+* namensraum [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Montage [Aspose.Words](../../../)
-
-

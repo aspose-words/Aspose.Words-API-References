@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.CharacterUnitFirstLineIndent
-second_title: Referencia de API de Aspose.Words para .NET
-description: ParagraphFormat propiedad. Obtiene o establece el valor en caracteres para la primera línea o sangría francesa.
+linktitle: CharacterUnitFirstLineIndent
+articleTitle: CharacterUnitFirstLineIndent
+second_title: Aspose.Words para .NET
+description: ParagraphFormat CharacterUnitFirstLineIndent propiedad. Obtiene o establece el valor en caracteres para la primera línea o sangría francesa en C#.
 type: docs
 weight: 70
 url: /es/net/aspose.words/paragraphformat/characterunitfirstlineindent/
@@ -16,7 +18,7 @@ Utilice valores positivos para establecer la sangría de primera línea y valore
 public double CharacterUnitFirstLineIndent { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo cambiar el espaciado y la sangría de los párrafos.
 
@@ -70,7 +72,5 @@ builder.Write("测试文档测试文档测试文档测试文档测试文档测�
 ### Ver también
 
 * class [ParagraphFormat](../)
-* espacio de nombres [Aspose.Words](../../paragraphformat/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

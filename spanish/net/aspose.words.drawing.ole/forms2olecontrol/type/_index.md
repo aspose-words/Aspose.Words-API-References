@@ -1,7 +1,9 @@
 ---
 title: Forms2OleControl.Type
-second_title: Referencia de API de Aspose.Words para .NET
-description: Forms2OleControl propiedad. Obtiene el tipo de control de Forms 2.0.
+linktitle: Type
+articleTitle: Type
+second_title: Aspose.Words para .NET
+description: Forms2OleControl Type propiedad. Obtiene el tipo de control de Forms 2.0 en C#.
 type: docs
 weight: 50
 url: /es/net/aspose.words.drawing.ole/forms2olecontrol/type/
@@ -14,7 +16,7 @@ Obtiene el tipo de control de Forms 2.0.
 public abstract Forms2OleControlType Type { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo verificar las propiedades de un control ActiveX.
 
@@ -45,7 +47,5 @@ if (oleControl.IsForms2OleControl)
 
 * enum [Forms2OleControlType](../../forms2olecontroltype/)
 * class [Forms2OleControl](../)
-* espacio de nombres [Aspose.Words.Drawing.Ole](../../forms2olecontrol/)
+* espacio de nombres [Aspose.Words.Drawing.Ole](../../../aspose.words.drawing.ole/)
 * asamblea [Aspose.Words](../../../)
-
-

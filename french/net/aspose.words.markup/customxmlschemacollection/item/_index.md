@@ -1,7 +1,9 @@
 ---
 title: CustomXmlSchemaCollection.Item
-second_title: Référence de l'API Aspose.Words pour .NET
-description: CustomXmlSchemaCollection propriété. Obtient ou définit lélément à lindex spécifié.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words pour .NET
+description: CustomXmlSchemaCollection Item propriété. Obtient ou définit lélément à lindex spécifié en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.markup/customxmlschemacollection/item/
@@ -14,7 +16,7 @@ Obtient ou définit l'élément à l'index spécifié.
 public string this[int index] { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment utiliser une collection de schémas XML.
 
@@ -60,7 +62,5 @@ Assert.AreEqual(0, schemas.Count);
 ### Voir également
 
 * class [CustomXmlSchemaCollection](../)
-* espace de noms [Aspose.Words.Markup](../../customxmlschemacollection/)
+* espace de noms [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Assemblée [Aspose.Words](../../../)
-
-

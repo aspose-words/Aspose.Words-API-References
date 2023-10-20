@@ -1,7 +1,9 @@
 ---
 title: Table.VerticalAnchor
-second_title: Справочник по API Aspose.Words для .NET
-description: Table свойство. Получает базовый объект на основе которого должно рассчитываться вертикальное положение плавающей таблицы. Значение по умолчаниюMargin .
+linktitle: VerticalAnchor
+articleTitle: VerticalAnchor
+second_title: Aspose.Words для .NET
+description: Table VerticalAnchor свойство. Получает базовый объект на основе которого должно рассчитываться вертикальное положение плавающей таблицы. Значение по умолчаниюMargin  на С#.
 type: docs
 weight: 340
 url: /ru/net/aspose.words.tables/table/verticalanchor/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.tables/table/verticalanchor/
 public RelativeVerticalPosition VerticalAnchor { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как работать со свойствами плавающих таблиц.
 
@@ -43,7 +45,5 @@ if (table.TextWrapping == TextWrapping.Around)
 
 * enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/)
 * class [Table](../)
-* пространство имен [Aspose.Words.Tables](../../table/)
+* пространство имен [Aspose.Words.Tables](../../../aspose.words.tables/)
 * сборка [Aspose.Words](../../../)
-
-

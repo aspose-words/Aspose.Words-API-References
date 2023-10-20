@@ -1,7 +1,9 @@
 ---
 title: TableSubstitutionRule.SetSubstitutes
-second_title: Aspose.Words لمراجع .NET API
-description: TableSubstitutionRule طريقة. تجاوز أسماء الخطوط البديلة لاسم الخط الأصلي المحدد.
+linktitle: SetSubstitutes
+articleTitle: SetSubstitutes
+second_title: Aspose.Words لـ .NET
+description: TableSubstitutionRule SetSubstitutes طريقة. تجاوز أسماء الخطوط البديلة لاسم الخط الأصلي المحدد في C#.
 type: docs
 weight: 80
 url: /ar/net/aspose.words.fonts/tablesubstitutionrule/setsubstitutes/
@@ -19,7 +21,7 @@ public void SetSubstitutes(string originalFontName, params string[] substituteFo
 | originalFontName | String | اسم الخط الأصلي. |
 | substituteFontNames | String[] | قائمة أسماء الخطوط البديلة. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية ضبط قواعد استبدال الخط.
 
@@ -118,7 +120,5 @@ doc.Save(ArtifactsDir + "FontSettings.TableSubstitutionRule.Custom.pdf");
 ### أنظر أيضا
 
 * class [TableSubstitutionRule](../)
-* مساحة الاسم [Aspose.Words.Fonts](../../tablesubstitutionrule/)
+* مساحة الاسم [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * المجسم [Aspose.Words](../../../)
-
-

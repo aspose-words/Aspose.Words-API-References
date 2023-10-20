@@ -1,7 +1,9 @@
 ---
 title: FieldNoteRef.InsertReferenceMark
-second_title: Aspose.Words لمراجع .NET API
-description: FieldNoteRef ملكية. إدراج العلامة المرجعية بنفس تنسيق الأحرف مثل مرجع الحاشية السفلية أو نمط مرجع التعليقات الختامية.
+linktitle: InsertReferenceMark
+articleTitle: InsertReferenceMark
+second_title: Aspose.Words لـ .NET
+description: FieldNoteRef InsertReferenceMark ملكية. إدراج العلامة المرجعية بنفس تنسيق الأحرف مثل مرجع الحاشية السفلية أو نمط مرجع التعليقات الختامية في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.fields/fieldnoteref/insertreferencemark/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldnoteref/insertreferencemark/
 public bool InsertReferenceMark { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يظهر لإدراج حقول NOTREF، وتعديل مظهرها.
 
@@ -83,7 +85,5 @@ private static void InsertBookmarkWithFootnote(DocumentBuilder builder, string b
 ### أنظر أيضا
 
 * class [FieldNoteRef](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldnoteref/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldGreetingLine.GetFieldNames
-second_title: Aspose.Words for .NET API 参考
-description: FieldGreetingLine 方法. 返回字段使用的邮件合并字段名称的集合
+linktitle: GetFieldNames
+articleTitle: GetFieldNames
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldGreetingLine GetFieldNames 方法. 返回字段使用的邮件合并字段名称的集合 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words.fields/fieldgreetingline/getfieldnames/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fieldgreetingline/getfieldnames/
 public string[] GetFieldNames()
 ```
 
-### 例子
+## 例子
 
 演示如何插入 GREETINGLINE 字段。
 
@@ -74,7 +76,5 @@ Assert.AreEqual("Dear Mr. Doe,\r\r\tThis is your custom greeting, created progra
 ### 也可以看看
 
 * class [FieldGreetingLine](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldgreetingline/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

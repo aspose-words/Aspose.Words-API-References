@@ -1,7 +1,9 @@
 ---
 title: ListFormat.RemoveNumbers
-second_title: Aspose.Words für .NET-API-Referenz
-description: ListFormat methode. Entfernt Zahlen oder Aufzählungszeichen aus dem aktuellen Absatz und setzt die Listenebene auf Null.
+linktitle: RemoveNumbers
+articleTitle: RemoveNumbers
+second_title: Aspose.Words für .NET
+description: ListFormat RemoveNumbers methode. Entfernt Zahlen oder Aufzählungszeichen aus dem aktuellen Absatz und setzt die Listenebene auf Null in C#.
 type: docs
 weight: 90
 url: /de/net/aspose.words.lists/listformat/removenumbers/
@@ -14,11 +16,11 @@ Entfernt Zahlen oder Aufzählungszeichen aus dem aktuellen Absatz und setzt die 
 public void RemoveNumbers()
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Das Aufrufen dieser Methode entspricht dem Festlegen von[`List`](../list/) Eigentum zu`Null`.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Listenformatierungen aus allen Absätzen im Haupttext eines Abschnitts entfernt werden.
 
@@ -124,7 +126,5 @@ doc.Save(ArtifactsDir + "Lists.ApplyDefaultBulletsAndNumbers.docx");
 ### Siehe auch
 
 * class [ListFormat](../)
-* namensraum [Aspose.Words.Lists](../../listformat/)
+* namensraum [Aspose.Words.Lists](../../../aspose.words.lists/)
 * Montage [Aspose.Words](../../../)
-
-

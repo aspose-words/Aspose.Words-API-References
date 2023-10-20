@@ -1,7 +1,9 @@
 ---
 title: TextPath.TextPathAlignment
-second_title: Aspose.Words per .NET API Reference
-description: TextPath proprietà. Definisce lallineamento del testo.
+linktitle: TextPathAlignment
+articleTitle: TextPathAlignment
+second_title: Aspose.Words per .NET
+description: TextPath TextPathAlignment proprietà. Definisce lallineamento del testo in C#.
 type: docs
 weight: 170
 url: /it/net/aspose.words.drawing/textpath/textpathalignment/
@@ -14,11 +16,11 @@ Definisce l'allineamento del testo.
 public TextPathAlignment TextPathAlignment { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Il valore predefinito èCenter.
 
-### Esempi
+## Esempi
 
 Mostra come lavorare con WordArt.
 
@@ -122,7 +124,5 @@ private static Shape AppendWordArt(Document doc, string text, string textFontFam
 
 * enum [TextPathAlignment](../../textpathalignment/)
 * class [TextPath](../)
-* spazio dei nomi [Aspose.Words.Drawing](../../textpath/)
+* spazio dei nomi [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assemblea [Aspose.Words](../../../)
-
-

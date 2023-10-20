@@ -1,7 +1,9 @@
 ---
 title: Paragraph.IsEndOfHeaderFooter
-second_title: Aspose.Words لمراجع .NET API
-description: Paragraph ملكية. صحيح إذا كانت هذه الفقرة هي الفقرة الأخيرة فيHeaderFooter قصة النص الرئيسي من أSection  كاذبة خلاف ذلك.
+linktitle: IsEndOfHeaderFooter
+articleTitle: IsEndOfHeaderFooter
+second_title: Aspose.Words لـ .NET
+description: Paragraph IsEndOfHeaderFooter ملكية. صحيح إذا كانت هذه الفقرة هي الفقرة الأخيرة فيHeaderFooter قصة النص الرئيسي من أSection  كاذبة خلاف ذلك في C#.
 type: docs
 weight: 70
 url: /ar/net/aspose.words/paragraph/isendofheaderfooter/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/paragraph/isendofheaderfooter/
 public bool IsEndOfHeaderFooter { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء رأس وتذييل.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "HeaderFooter.Create.docx");
 ### أنظر أيضا
 
 * class [Paragraph](../)
-* مساحة الاسم [Aspose.Words](../../paragraph/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

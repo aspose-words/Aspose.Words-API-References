@@ -1,9 +1,11 @@
 ---
 title: Style.Remove
-second_title: Aspose.Words for .NET API 参考
-description: Style 方法. 从文档中删除指定的样式
+linktitle: Remove
+articleTitle: Remove
+second_title: 用于 .NET 的 Aspose.Words
+description: Style Remove 方法. 从文档中删除指定的样式 在 C#.
 type: docs
-weight: 200
+weight: 190
 url: /zh/net/aspose.words/style/remove/
 ---
 ## Style.Remove method
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/style/remove/
 public void Remove()
 ```
 
-### 评论
+## 评论
 
 样式删除对文档模型有以下影响：
 
@@ -22,7 +24,7 @@ public void Remove()
 * 如果删除基本样式，其格式将移至子样式。
 * 如果要删除的样式具有链接样式，则这两个样式都会被删除。
 
-### 例子
+## 例子
 
 展示如何创建和应用自定义样式。
 
@@ -61,7 +63,5 @@ Assert.AreEqual(Color.Empty.ToArgb(), firstParagraphStyle.Font.Color.ToArgb());
 ### 也可以看看
 
 * class [Style](../)
-* 命名空间 [Aspose.Words](../../style/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

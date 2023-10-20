@@ -1,7 +1,9 @@
 ---
 title: FieldTA.IsItalic
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldTA eigendom. Ruft ab oder legt fest ob eine kursive Formatierung auf die Seitenzahl für den Eintrag angewendet werden soll.
+linktitle: IsItalic
+articleTitle: IsItalic
+second_title: Aspose.Words für .NET
+description: FieldTA IsItalic eigendom. Ruft ab oder legt fest ob eine kursive Formatierung auf die Seitenzahl für den Eintrag angewendet werden soll in C#.
 type: docs
 weight: 40
 url: /de/net/aspose.words.fields/fieldta/isitalic/
@@ -14,7 +16,7 @@ Ruft ab oder legt fest, ob eine kursive Formatierung auf die Seitenzahl für den
 public bool IsItalic { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man mithilfe von TOA- und TA-Feldern ein Autoritätsverzeichnis erstellt und anpasst.
 
@@ -137,7 +139,5 @@ private static FieldTA InsertToaEntry(DocumentBuilder builder, string entryCateg
 ### Siehe auch
 
 * class [FieldTA](../)
-* namensraum [Aspose.Words.Fields](../../fieldta/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldStyleRef.SuppressNonDelimiters
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldStyleRef eigendom. Ruft ab oder legt fest ob Zeichen ohne Trennzeichen unterdrückt werden sollen.
+linktitle: SuppressNonDelimiters
+articleTitle: SuppressNonDelimiters
+second_title: Aspose.Words für .NET
+description: FieldStyleRef SuppressNonDelimiters eigendom. Ruft ab oder legt fest ob Zeichen ohne Trennzeichen unterdrückt werden sollen in C#.
 type: docs
 weight: 80
 url: /de/net/aspose.words.fields/fieldstyleref/suppressnondelimiters/
@@ -14,7 +16,7 @@ Ruft ab oder legt fest, ob Zeichen ohne Trennzeichen unterdrückt werden sollen.
 public bool SuppressNonDelimiters { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie STYLEREF-Felder verwendet werden.
 
@@ -85,7 +87,5 @@ doc.Save(ArtifactsDir + "Field.STYLEREF.docx");
 ### Siehe auch
 
 * class [FieldStyleRef](../)
-* namensraum [Aspose.Words.Fields](../../fieldstyleref/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

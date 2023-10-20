@@ -1,7 +1,9 @@
 ---
 title: IReplacingCallback.Replacing
-second_title: Aspose.Words for .NET API 参考
-description: IReplacingCallback 方法. 用户定义的方法在替换操作期间为替换之前找到的每个匹配项调用
+linktitle: Replacing
+articleTitle: Replacing
+second_title: 用于 .NET 的 Aspose.Words
+description: IReplacingCallback Replacing 方法. 用户定义的方法在替换操作期间为替换之前找到的每个匹配项调用 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.replacing/ireplacingcallback/replacing/
@@ -18,7 +20,7 @@ public ReplaceAction Replacing(ReplacingArgs args)
 
 A[`ReplaceAction`](../../replaceaction/)指定当前匹配要采取的操作的值。
 
-### 例子
+## 例子
 
 演示如何将所有出现的正则表达式模式替换为另一个字符串，同时跟踪所有此类替换。
 
@@ -145,7 +147,5 @@ private static void InsertDocument(Node insertionDestination, Document docToInse
 * enum [ReplaceAction](../../replaceaction/)
 * class [ReplacingArgs](../../replacingargs/)
 * interface [IReplacingCallback](../)
-* 命名空间 [Aspose.Words.Replacing](../../ireplacingcallback/)
+* 命名空间 [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * 部件 [Aspose.Words](../../../)
-
-

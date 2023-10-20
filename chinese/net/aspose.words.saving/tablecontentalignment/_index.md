@@ -1,7 +1,9 @@
 ---
-title: Enum TableContentAlignment
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Saving.TableContentAlignment 枚举. 允许指定导出为 Markdown 格式时要使用的表格内容的对齐方式
+title: TableContentAlignment Enum
+linktitle: TableContentAlignment
+articleTitle: TableContentAlignment
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Saving.TableContentAlignment 枚举. 允许指定导出为 Markdown 格式时要使用的表格内容的对齐方式 在 C#.
 type: docs
 weight: 5620
 url: /zh/net/aspose.words.saving/tablecontentalignment/
@@ -27,5 +29,3 @@ public enum TableContentAlignment
 
 * 命名空间 [Aspose.Words.Saving](../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../)
-
-

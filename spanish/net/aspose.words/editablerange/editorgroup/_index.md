@@ -1,7 +1,9 @@
 ---
 title: EditableRange.EditorGroup
-second_title: Referencia de API de Aspose.Words para .NET
-description: EditableRange propiedad. Devuelve o establece un alias o grupo de edición que se utilizará para determinar si el usuario actual podrá editar este rango editable.
+linktitle: EditorGroup
+articleTitle: EditorGroup
+second_title: Aspose.Words para .NET
+description: EditableRange EditorGroup propiedad. Devuelve o establece un alias o grupo de edición que se utilizará para determinar si el usuario actual podrá editar este rango editable en C#.
 type: docs
 weight: 30
 url: /es/net/aspose.words/editablerange/editorgroup/
@@ -14,11 +16,11 @@ Devuelve o establece un alias (o grupo de edición) que se utilizará para deter
 public EditorType EditorGroup { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 El usuario único y el grupo editor no se pueden configurar simultáneamente para el rango editable específico, si uno está configurado, el otro estará claro.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear rangos editables anidados.
 
@@ -166,7 +168,5 @@ public class EditableRangePrinter : DocumentVisitor
 
 * enum [EditorType](../../editortype/)
 * class [EditableRange](../)
-* espacio de nombres [Aspose.Words](../../editablerange/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

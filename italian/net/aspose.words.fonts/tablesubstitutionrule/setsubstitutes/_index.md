@@ -1,7 +1,9 @@
 ---
 title: TableSubstitutionRule.SetSubstitutes
-second_title: Aspose.Words per .NET API Reference
-description: TableSubstitutionRule metodo. Sostituisci i nomi dei caratteri sostitutivi per il nome del carattere originale specificato.
+linktitle: SetSubstitutes
+articleTitle: SetSubstitutes
+second_title: Aspose.Words per .NET
+description: TableSubstitutionRule SetSubstitutes metodo. Sostituisci i nomi dei caratteri sostitutivi per il nome del carattere originale specificato in C#.
 type: docs
 weight: 80
 url: /it/net/aspose.words.fonts/tablesubstitutionrule/setsubstitutes/
@@ -19,7 +21,7 @@ public void SetSubstitutes(string originalFontName, params string[] substituteFo
 | originalFontName | String | Nome del carattere originale. |
 | substituteFontNames | String[] | Elenco di nomi di caratteri alternativi. |
 
-### Esempi
+## Esempi
 
 Mostra come impostare le regole di sostituzione dei caratteri.
 
@@ -118,7 +120,5 @@ doc.Save(ArtifactsDir + "FontSettings.TableSubstitutionRule.Custom.pdf");
 ### Guarda anche
 
 * class [TableSubstitutionRule](../)
-* spazio dei nomi [Aspose.Words.Fonts](../../tablesubstitutionrule/)
+* spazio dei nomi [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * assemblea [Aspose.Words](../../../)
-
-

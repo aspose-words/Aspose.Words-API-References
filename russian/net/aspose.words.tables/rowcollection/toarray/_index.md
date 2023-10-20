@@ -1,7 +1,9 @@
 ---
 title: RowCollection.ToArray
-second_title: Справочник по API Aspose.Words для .NET
-description: RowCollection метод. Копирует все строки из коллекции в новый массив строк.
+linktitle: ToArray
+articleTitle: ToArray
+second_title: Aspose.Words для .NET
+description: RowCollection ToArray метод. Копирует все строки из коллекции в новый массив строк на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.tables/rowcollection/toarray/
@@ -18,7 +20,7 @@ public Row[] ToArray()
 
 Массив строк.
 
-### Примеры
+## Примеры
 
 Показывает, как перебрать все таблицы в документе и распечатать содержимое каждой ячейки.
 
@@ -65,7 +67,5 @@ for (int i = 0; i < tables.Count; i++)
 
 * class [Row](../../row/)
 * class [RowCollection](../)
-* пространство имен [Aspose.Words.Tables](../../rowcollection/)
+* пространство имен [Aspose.Words.Tables](../../../aspose.words.tables/)
 * сборка [Aspose.Words](../../../)
-
-

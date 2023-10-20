@@ -1,7 +1,9 @@
 ---
 title: GradientStopCollection.Item
-second_title: Référence de l'API Aspose.Words pour .NET
-description: GradientStopCollection propriété. Obtient ou définit unGradientStop objet dans la collection.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words pour .NET
+description: GradientStopCollection Item propriété. Obtient ou définit unGradientStop objet dans la collection en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.drawing/gradientstopcollection/item/
@@ -14,7 +16,7 @@ Obtient ou définit un[`GradientStop`](../../gradientstop/) objet dans la collec
 public GradientStop this[int index] { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment ajouter des points de dégradé au remplissage dégradé.
 
@@ -68,7 +70,5 @@ doc.Save(ArtifactsDir + "Shape.GradientStops.docx", saveOptions);
 
 * class [GradientStop](../../gradientstop/)
 * class [GradientStopCollection](../)
-* espace de noms [Aspose.Words.Drawing](../../gradientstopcollection/)
+* espace de noms [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Assemblée [Aspose.Words](../../../)
-
-

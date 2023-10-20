@@ -1,7 +1,9 @@
 ---
 title: BuildingBlock.NodeType
-second_title: Référence de l'API Aspose.Words pour .NET
-description: BuildingBlock propriété. Renvoie leBuildingBlock valeur.
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words pour .NET
+description: BuildingBlock NodeType propriété. Renvoie leBuildingBlock valeur en C#.
 type: docs
 weight: 100
 url: /fr/net/aspose.words.buildingblocks/buildingblock/nodetype/
@@ -14,7 +16,7 @@ Renvoie leBuildingBlock valeur.
 public override NodeType NodeType { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment parcourir l’arborescence des nœuds enfants d’un nœud composite.
 
@@ -62,7 +64,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 
 * enum [NodeType](../../../aspose.words/nodetype/)
 * class [BuildingBlock](../)
-* espace de noms [Aspose.Words.BuildingBlocks](../../buildingblock/)
+* espace de noms [Aspose.Words.BuildingBlocks](../../../aspose.words.buildingblocks/)
 * Assemblée [Aspose.Words](../../../)
-
-

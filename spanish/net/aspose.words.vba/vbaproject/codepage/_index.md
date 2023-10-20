@@ -1,7 +1,9 @@
 ---
 title: VbaProject.CodePage
-second_title: Referencia de API de Aspose.Words para .NET
-description: VbaProject propiedad. Obtiene o establece la página de códigos del proyecto VBA.
+linktitle: CodePage
+articleTitle: CodePage
+second_title: Aspose.Words para .NET
+description: VbaProject CodePage propiedad. Obtiene o establece la página de códigos del proyecto VBA en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words.vba/vbaproject/codepage/
@@ -14,11 +16,11 @@ Obtiene o establece la página de códigos del proyecto VBA.
 public int CodePage { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 Tenga en cuenta que VBA es una característica anterior a Unicode y debe establecer explícitamente la página de códigos apropiada para preservar los juegos de caracteres regionales.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo acceder a la información del proyecto VBA de un documento.
 
@@ -49,7 +51,5 @@ vbaModules.Remove(vbaModules[2]);
 ### Ver también
 
 * class [VbaProject](../)
-* espacio de nombres [Aspose.Words.Vba](../../vbaproject/)
+* espacio de nombres [Aspose.Words.Vba](../../../aspose.words.vba/)
 * asamblea [Aspose.Words](../../../)
-
-

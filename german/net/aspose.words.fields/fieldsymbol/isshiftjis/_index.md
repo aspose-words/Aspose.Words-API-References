@@ -1,7 +1,9 @@
 ---
 title: FieldSymbol.IsShiftJis
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldSymbol eigendom. Ruft ab oder legt fest ob der Zeichencode als Wert eines SHIFTJISZeichens interpretiert wird.
+linktitle: IsShiftJis
+articleTitle: IsShiftJis
+second_title: Aspose.Words für .NET
+description: FieldSymbol IsShiftJis eigendom. Ruft ab oder legt fest ob der Zeichencode als Wert eines SHIFTJISZeichens interpretiert wird in C#.
 type: docs
 weight: 70
 url: /de/net/aspose.words.fields/fieldsymbol/isshiftjis/
@@ -14,7 +16,7 @@ Ruft ab oder legt fest, ob der Zeichencode als Wert eines SHIFT-JIS-Zeichens int
 public bool IsShiftJis { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie das SYMBOL-Feld verwendet wird.
 
@@ -70,7 +72,5 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 ### Siehe auch
 
 * class [FieldSymbol](../)
-* namensraum [Aspose.Words.Fields](../../fieldsymbol/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

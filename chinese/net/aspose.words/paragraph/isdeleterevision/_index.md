@@ -1,7 +1,9 @@
 ---
 title: Paragraph.IsDeleteRevision
-second_title: Aspose.Words for .NET API 参考
-description: Paragraph 财产. 如果在启用更改跟踪时在 Microsoft Word 中删除了此对象则返回 true
+linktitle: IsDeleteRevision
+articleTitle: IsDeleteRevision
+second_title: 用于 .NET 的 Aspose.Words
+description: Paragraph IsDeleteRevision 财产. 如果在启用更改跟踪时在 Microsoft Word 中删除了此对象则返回 true 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words/paragraph/isdeleterevision/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/paragraph/isdeleterevision/
 public bool IsDeleteRevision { get; }
 ```
 
-### 例子
+## 例子
 
 展示如何使用修订段落。
 
@@ -63,7 +65,5 @@ Assert.AreEqual(
 ### 也可以看看
 
 * class [Paragraph](../)
-* 命名空间 [Aspose.Words](../../paragraph/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

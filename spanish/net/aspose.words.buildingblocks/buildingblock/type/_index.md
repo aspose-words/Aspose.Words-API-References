@@ -1,7 +1,9 @@
 ---
 title: BuildingBlock.Type
-second_title: Referencia de API de Aspose.Words para .NET
-description: BuildingBlock propiedad. Especifica el tipo de bloque de creación.
+linktitle: Type
+articleTitle: Type
+second_title: Aspose.Words para .NET
+description: BuildingBlock Type propiedad. Especifica el tipo de bloque de creación en C#.
 type: docs
 weight: 120
 url: /es/net/aspose.words.buildingblocks/buildingblock/type/
@@ -14,13 +16,13 @@ Especifica el tipo de bloque de creación.
 public BuildingBlockType Type { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 El tipo de bloque de creación puede influir en la visibilidad y el comportamiento del bloque de creación en Microsoft Word.
 
-Corresponde a la **docPartPr.tipos** elemento en OOXML.
+Corresponde a la**docPartPr.tipos** elemento en OOXML.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo agregar un bloque de creación personalizado a un documento.
 
@@ -118,7 +120,5 @@ public class BuildingBlockVisitor : DocumentVisitor
 
 * enum [BuildingBlockType](../../buildingblocktype/)
 * class [BuildingBlock](../)
-* espacio de nombres [Aspose.Words.BuildingBlocks](../../buildingblock/)
+* espacio de nombres [Aspose.Words.BuildingBlocks](../../../aspose.words.buildingblocks/)
 * asamblea [Aspose.Words](../../../)
-
-

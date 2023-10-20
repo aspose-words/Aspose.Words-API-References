@@ -1,9 +1,11 @@
 ---
 title: Fill.FillType
-second_title: Aspose.Words för .NET API Referens
-description: Fill fast egendom. Får en fyllningstyp.
+linktitle: FillType
+articleTitle: FillType
+second_title: Aspose.Words för .NET
+description: Fill FillType fast egendom. Får en fyllningstyp i C#.
 type: docs
-weight: 60
+weight: 50
 url: /sv/net/aspose.words.drawing/fill/filltype/
 ---
 ## Fill.FillType property
@@ -18,7 +20,5 @@ public FillType FillType { get; }
 
 * enum [FillType](../../filltype/)
 * class [Fill](../)
-* namnutrymme [Aspose.Words.Drawing](../../fill/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

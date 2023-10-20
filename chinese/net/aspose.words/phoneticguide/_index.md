@@ -1,7 +1,9 @@
 ---
-title: Class PhoneticGuide
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.PhoneticGuide 班级. 代表拼音指南
+title: PhoneticGuide Class
+linktitle: PhoneticGuide
+articleTitle: PhoneticGuide
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.PhoneticGuide 班级. 代表拼音指南 在 C#.
 type: docs
 weight: 4430
 url: /zh/net/aspose.words/phoneticguide/
@@ -25,5 +27,3 @@ public class PhoneticGuide
 
 * 命名空间 [Aspose.Words](../../aspose.words/)
 * 部件 [Aspose.Words](../../)
-
-

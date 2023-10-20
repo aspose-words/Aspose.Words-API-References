@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.CoordOrigin
-second_title: Справочник по API Aspose.Words для .NET
-description: ShapeBase свойство. Координаты в верхнем левом углу содержащего блока этой формы.
+linktitle: CoordOrigin
+articleTitle: CoordOrigin
+second_title: Aspose.Words для .NET
+description: ShapeBase CoordOrigin свойство. Координаты в верхнем левом углу содержащего блока этой формы на С#.
 type: docs
 weight: 110
 url: /ru/net/aspose.words.drawing/shapebase/coordorigin/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.drawing/shapebase/coordorigin/
 public Point CoordOrigin { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Значение по умолчанию — (0,0).
 
-### Примеры
+## Примеры
 
 Показывает, как преобразовать местоположение координат X и Y на координатной плоскости фигуры в местоположение на координатной плоскости родительской фигуры.
 
@@ -164,7 +166,5 @@ doc.Save(ArtifactsDir + "Shape.GroupShape.docx");
 ### Смотрите также
 
 * class [ShapeBase](../)
-* пространство имен [Aspose.Words.Drawing](../../shapebase/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

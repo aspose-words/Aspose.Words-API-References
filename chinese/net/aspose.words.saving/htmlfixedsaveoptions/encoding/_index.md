@@ -1,7 +1,9 @@
 ---
 title: HtmlFixedSaveOptions.Encoding
-second_title: Aspose.Words for .NET API 参考
-description: HtmlFixedSaveOptions 财产. 指定导出为 HTML 时使用的编码 默认值为新的UTF8编码真带 BOM 的 UTF8.
+linktitle: Encoding
+articleTitle: Encoding
+second_title: 用于 .NET 的 Aspose.Words
+description: HtmlFixedSaveOptions Encoding 财产. 指定导出为 HTML 时使用的编码 默认值为新的UTF8编码真带 BOM 的 UTF8 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.saving/htmlfixedsaveoptions/encoding/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.saving/htmlfixedsaveoptions/encoding/
 public Encoding Encoding { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何设置将文档导出为 HTML 时使用的编码。
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "HtmlFixedSaveOptions.UseEncoding.html", htmlFixedSaveOp
 ### 也可以看看
 
 * class [HtmlFixedSaveOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../htmlfixedsaveoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

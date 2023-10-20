@@ -1,7 +1,9 @@
 ---
 title: PageSetup.TopMargin
-second_title: Aspose.Words för .NET API Referens
-description: PageSetup fast egendom. Returnerar eller ställer in avståndet i poäng mellan sidans övre kant och den övre gränsen för brödtexten.
+linktitle: TopMargin
+articleTitle: TopMargin
+second_title: Aspose.Words för .NET
+description: PageSetup TopMargin fast egendom. Returnerar eller ställer in avståndet i poäng mellan sidans övre kant och den övre gränsen för brödtexten i C#.
 type: docs
 weight: 440
 url: /sv/net/aspose.words/pagesetup/topmargin/
@@ -14,7 +16,7 @@ Returnerar eller ställer in avståndet (i poäng) mellan sidans övre kant och 
 public double TopMargin { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du justerar pappersstorlek, orientering, marginaler, tillsammans med andra inställningar för ett avsnitt.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "PageSetup.PageMargins.docx");
 ### Se även
 
 * class [PageSetup](../)
-* namnutrymme [Aspose.Words](../../pagesetup/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

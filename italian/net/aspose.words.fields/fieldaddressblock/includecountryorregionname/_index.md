@@ -1,7 +1,9 @@
 ---
 title: FieldAddressBlock.IncludeCountryOrRegionName
-second_title: Aspose.Words per .NET API Reference
-description: FieldAddressBlock proprietà. Ottiene o imposta se includere il nome del paese/regione.
+linktitle: IncludeCountryOrRegionName
+articleTitle: IncludeCountryOrRegionName
+second_title: Aspose.Words per .NET
+description: FieldAddressBlock IncludeCountryOrRegionName proprietà. Ottiene o imposta se includere il nome del paese/regione in C#.
 type: docs
 weight: 40
 url: /it/net/aspose.words.fields/fieldaddressblock/includecountryorregionname/
@@ -14,7 +16,7 @@ Ottiene o imposta se includere il nome del paese/regione.
 public string IncludeCountryOrRegionName { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come inserire un campo ADDRESSBLOCK.
 
@@ -45,7 +47,5 @@ Assert.AreEqual(
 ### Guarda anche
 
 * class [FieldAddressBlock](../)
-* spazio dei nomi [Aspose.Words.Fields](../../fieldaddressblock/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: TextPath.TextPathAlignment
-second_title: Справочник по API Aspose.Words для .NET
-description: TextPath свойство. Определяет выравнивание текста.
+linktitle: TextPathAlignment
+articleTitle: TextPathAlignment
+second_title: Aspose.Words для .NET
+description: TextPath TextPathAlignment свойство. Определяет выравнивание текста на С#.
 type: docs
 weight: 170
 url: /ru/net/aspose.words.drawing/textpath/textpathalignment/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.drawing/textpath/textpathalignment/
 public TextPathAlignment TextPathAlignment { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Значение по умолчанию:Center.
 
-### Примеры
+## Примеры
 
 Показывает, как работать с WordArt.
 
@@ -122,7 +124,5 @@ private static Shape AppendWordArt(Document doc, string text, string textFontFam
 
 * enum [TextPathAlignment](../../textpathalignment/)
 * class [TextPath](../)
-* пространство имен [Aspose.Words.Drawing](../../textpath/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldSeq.InsertNextNumber
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldSeq свойство. Получает или задает следует ли вставлять следующий порядковый номер для указанного элемента.
+linktitle: InsertNextNumber
+articleTitle: InsertNextNumber
+second_title: Aspose.Words для .NET
+description: FieldSeq InsertNextNumber свойство. Получает или задает следует ли вставлять следующий порядковый номер для указанного элемента на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.fields/fieldseq/insertnextnumber/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldseq/insertnextnumber/
 public bool InsertNextNumber { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает создание нумерации с использованием полей SEQ.
 
@@ -78,7 +80,5 @@ doc.Save(ArtifactsDir + "Field.SEQ.ResetNumbering.docx");
 ### Смотрите также
 
 * class [FieldSeq](../)
-* пространство имен [Aspose.Words.Fields](../../fieldseq/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

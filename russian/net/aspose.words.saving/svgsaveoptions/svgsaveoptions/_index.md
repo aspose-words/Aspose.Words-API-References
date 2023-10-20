@@ -1,7 +1,9 @@
 ---
-title: SvgSaveOptions.SvgSaveOptions
-second_title: Справочник по API Aspose.Words для .NET
-description: SvgSaveOptions строитель. Конструктор по умолчанию.
+title: SvgSaveOptions
+linktitle: SvgSaveOptions
+articleTitle: SvgSaveOptions
+second_title: Aspose.Words для .NET
+description: SvgSaveOptions строитель. Конструктор по умолчанию на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.saving/svgsaveoptions/svgsaveoptions/
@@ -17,7 +19,5 @@ public SvgSaveOptions()
 ### Смотрите также
 
 * class [SvgSaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../svgsaveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

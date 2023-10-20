@@ -1,7 +1,9 @@
 ---
 title: PageLayoutCallbackArgs.Event
-second_title: Справочник по API Aspose.Words для .NET
-description: PageLayoutCallbackArgs свойство. Получает событие.
+linktitle: Event
+articleTitle: Event
+second_title: Aspose.Words для .NET
+description: PageLayoutCallbackArgs Event свойство. Получает событие на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.layout/pagelayoutcallbackargs/event/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.layout/pagelayoutcallbackargs/event/
 public PageLayoutEvent Event { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как отслеживать изменения макета с помощью обратного вызова макета.
 
@@ -81,7 +83,5 @@ private class RenderPageLayoutCallback : IPageLayoutCallback
 
 * enum [PageLayoutEvent](../../pagelayoutevent/)
 * class [PageLayoutCallbackArgs](../)
-* пространство имен [Aspose.Words.Layout](../../pagelayoutcallbackargs/)
+* пространство имен [Aspose.Words.Layout](../../../aspose.words.layout/)
 * сборка [Aspose.Words](../../../)
-
-

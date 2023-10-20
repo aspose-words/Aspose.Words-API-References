@@ -1,7 +1,9 @@
 ---
 title: FieldDate.UseSakaEraCalendar
-second_title: Aspose.Words لمراجع .NET API
-description: FieldDate ملكية. الحصول على أو تعيين ما إذا كان سيتم استخدام تقويم Saka Era.
+linktitle: UseSakaEraCalendar
+articleTitle: UseSakaEraCalendar
+second_title: Aspose.Words لـ .NET
+description: FieldDate UseSakaEraCalendar ملكية. الحصول على أو تعيين ما إذا كان سيتم استخدام تقويم Saka Era في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.fields/fielddate/usesakaeracalendar/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fielddate/usesakaeracalendar/
 public bool UseSakaEraCalendar { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام حقول التاريخ لعرض التواريخ وفقًا لأنواع مختلفة من التقويمات.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "Field.DATE.docx");
 ### أنظر أيضا
 
 * class [FieldDate](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fielddate/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

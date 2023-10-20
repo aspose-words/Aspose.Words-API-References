@@ -1,7 +1,9 @@
 ---
 title: Stroke.BackColor
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Stroke propriété. Obtient ou définit la couleur darrièreplan du trait.
+linktitle: BackColor
+articleTitle: BackColor
+second_title: Aspose.Words pour .NET
+description: Stroke BackColor propriété. Obtient ou définit la couleur darrièreplan du trait en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.drawing/stroke/backcolor/
@@ -14,11 +16,11 @@ Obtient ou définit la couleur d'arrière-plan du trait.
 public Color BackColor { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 La valeur par défaut d'un[`Shape`](../../shape/) est White.
 
-### Exemples
+## Exemples
 
 Montrez comment définir le formatage des marqueurs.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "Charts.MarkerFormatting.docx");
 ### Voir également
 
 * class [Stroke](../)
-* espace de noms [Aspose.Words.Drawing](../../stroke/)
+* espace de noms [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Assemblée [Aspose.Words](../../../)
-
-

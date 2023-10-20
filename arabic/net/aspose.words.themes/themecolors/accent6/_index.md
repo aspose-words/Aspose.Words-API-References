@@ -1,7 +1,9 @@
 ---
 title: ThemeColors.Accent6
-second_title: Aspose.Words لمراجع .NET API
-description: ThemeColors ملكية. يحدد لهجة اللون 6.
+linktitle: Accent6
+articleTitle: Accent6
+second_title: Aspose.Words لـ .NET
+description: ThemeColors Accent6 ملكية. يحدد لهجة اللون 6 في C#.
 type: docs
 weight: 60
 url: /ar/net/aspose.words.themes/themecolors/accent6/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.themes/themecolors/accent6/
 public Color Accent6 { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين الألوان والخطوط المخصصة للموضوعات.
 
@@ -62,7 +64,5 @@ doc.Save(ArtifactsDir + "Themes.CustomColorsAndFonts.docx");
 ### أنظر أيضا
 
 * class [ThemeColors](../)
-* مساحة الاسم [Aspose.Words.Themes](../../themecolors/)
+* مساحة الاسم [Aspose.Words.Themes](../../../aspose.words.themes/)
 * المجسم [Aspose.Words](../../../)
-
-

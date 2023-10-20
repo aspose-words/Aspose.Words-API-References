@@ -1,7 +1,9 @@
 ---
 title: SignatureLine.AllowComments
-second_title: Aspose.Words för .NET API Referens
-description: SignatureLine fast egendom. Hämtar eller ställer in ett värde som anger att undertecknaren kan lägga till kommentarer i dialogrutan Signera. Standardvärdet för den här egenskapen ärfalsk .
+linktitle: AllowComments
+articleTitle: AllowComments
+second_title: Aspose.Words för .NET
+description: SignatureLine AllowComments fast egendom. Hämtar eller ställer in ett värde som anger att undertecknaren kan lägga till kommentarer i dialogrutan Signera. Standardvärdet för den här egenskapen ärfalsk  i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.drawing/signatureline/allowcomments/
@@ -14,7 +16,7 @@ Hämtar eller ställer in ett värde som anger att undertecknaren kan lägga til
 public bool AllowComments { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man skapar en rad för en signatur och infogar den i ett dokument.
 
@@ -59,7 +61,5 @@ doc.Save(ArtifactsDir + "Shape.SignatureLine.docx");
 ### Se även
 
 * class [SignatureLine](../)
-* namnutrymme [Aspose.Words.Drawing](../../signatureline/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

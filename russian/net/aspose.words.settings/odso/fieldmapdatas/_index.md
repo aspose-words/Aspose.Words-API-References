@@ -1,7 +1,9 @@
 ---
 title: Odso.FieldMapDatas
-second_title: Справочник по API Aspose.Words для .NET
-description: Odso свойство. Получает или задает коллекцию объектов определяющих как столбцы из внешнего источника данных сопоставляются с предопределенными именами полей слияния в документе. Этот объект никогда ненулевой .
+linktitle: FieldMapDatas
+articleTitle: FieldMapDatas
+second_title: Aspose.Words для .NET
+description: Odso FieldMapDatas свойство. Получает или задает коллекцию объектов определяющих как столбцы из внешнего источника данных сопоставляются с предопределенными именами полей слияния в документе. Этот объект никогда ненулевой  на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.settings/odso/fieldmapdatas/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.settings/odso/fieldmapdatas/
 public OdsoFieldMapDataCollection FieldMapDatas { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как получить доступ к коллекции данных, которая сопоставляет столбцы источника данных с полями слияния.
 
@@ -58,7 +60,5 @@ Assert.AreEqual(0, dataCollection.Count);
 
 * class [OdsoFieldMapDataCollection](../../odsofieldmapdatacollection/)
 * class [Odso](../)
-* пространство имен [Aspose.Words.Settings](../../odso/)
+* пространство имен [Aspose.Words.Settings](../../../aspose.words.settings/)
 * сборка [Aspose.Words](../../../)
-
-

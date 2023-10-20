@@ -1,7 +1,9 @@
 ---
-title: Interface IWarningCallback
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.IWarningCallback gränssnitt. Implementera det här gränssnittet om du vill ha en egen anpassad metod som kallas för att fånga upp varningar för förlust av trohet som kan inträffa under dokumentladdning eller sparande.
+title: IWarningCallback Interface
+linktitle: IWarningCallback
+articleTitle: IWarningCallback
+second_title: Aspose.Words för .NET
+description: Aspose.Words.IWarningCallback gränssnitt. Implementera det här gränssnittet om du vill ha en egen anpassad metod som kallas för att fånga upp varningar för förlust av trohet som kan inträffa under dokumentladdning eller sparande i C#.
 type: docs
 weight: 3210
 url: /sv/net/aspose.words/iwarningcallback/
@@ -18,9 +20,9 @@ public interface IWarningCallback
 
 | namn | Beskrivning |
 | --- | --- |
-| [Warning](../../aspose.words/iwarningcallback/warning/)(WarningInfo) | Aspose.Words åberopar den här metoden när det stöter på något problem under dokumentladdning eller lagring som kan resultera i förlust av formatering eller datatillförlitlighet. |
+| [Warning](../../aspose.words/iwarningcallback/warning/)(*[WarningInfo](../warninginfo/)*) | Aspose.Words åberopar den här metoden när det stöter på något problem under dokumentladdning eller lagring som kan resultera i förlust av formatering eller datatillförlitlighet. |
 
-### Exempel
+## Exempel
 
 Visar hur man använder IWarningCallback-gränssnittet för att övervaka varningar för teckensnittsersättning.
 
@@ -179,5 +181,3 @@ public class HandleDocumentSubstitutionWarnings : IWarningCallback
 
 * namnutrymme [Aspose.Words](../../aspose.words/)
 * hopsättning [Aspose.Words](../../)
-
-

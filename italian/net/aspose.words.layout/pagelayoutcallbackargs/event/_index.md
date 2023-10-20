@@ -1,7 +1,9 @@
 ---
 title: PageLayoutCallbackArgs.Event
-second_title: Aspose.Words per .NET API Reference
-description: PageLayoutCallbackArgs proprietà. Ottiene levento.
+linktitle: Event
+articleTitle: Event
+second_title: Aspose.Words per .NET
+description: PageLayoutCallbackArgs Event proprietà. Ottiene levento in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words.layout/pagelayoutcallbackargs/event/
@@ -14,7 +16,7 @@ Ottiene l'evento.
 public PageLayoutEvent Event { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come tenere traccia delle modifiche al layout con un callback del layout.
 
@@ -81,7 +83,5 @@ private class RenderPageLayoutCallback : IPageLayoutCallback
 
 * enum [PageLayoutEvent](../../pagelayoutevent/)
 * class [PageLayoutCallbackArgs](../)
-* spazio dei nomi [Aspose.Words.Layout](../../pagelayoutcallbackargs/)
+* spazio dei nomi [Aspose.Words.Layout](../../../aspose.words.layout/)
 * assemblea [Aspose.Words](../../../)
-
-

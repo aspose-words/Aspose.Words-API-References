@@ -1,7 +1,9 @@
 ---
 title: IMailMergeDataSource.MoveNext
-second_title: Aspose.Words for .NET API 参考
-description: IMailMergeDataSource 方法. 前进到数据源中的下一条记录
+linktitle: MoveNext
+articleTitle: MoveNext
+second_title: 用于 .NET 的 Aspose.Words
+description: IMailMergeDataSource MoveNext 方法. 前进到数据源中的下一条记录 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.mailmerging/imailmergedatasource/movenext/
@@ -18,7 +20,7 @@ public bool MoveNext()
 
 `真的`如果成功移动到下一条记录；`错误的`如果到达数据源末尾。
 
-### 例子
+## 例子
 
 演示如何使用自定义对象形式的数据源执行邮件合并。
 
@@ -132,7 +134,5 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
 ### 也可以看看
 
 * interface [IMailMergeDataSource](../)
-* 命名空间 [Aspose.Words.MailMerging](../../imailmergedatasource/)
+* 命名空间 [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * 部件 [Aspose.Words](../../../)
-
-

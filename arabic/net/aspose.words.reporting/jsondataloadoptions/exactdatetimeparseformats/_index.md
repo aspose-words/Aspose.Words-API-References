@@ -1,7 +1,9 @@
 ---
 title: JsonDataLoadOptions.ExactDateTimeParseFormats
-second_title: Aspose.Words لمراجع .NET API
-description: JsonDataLoadOptions ملكية. الحصول على التنسيقات الدقيقة أو تعيينها لتحليل قيم وقت التاريخ JSON أثناء تحميل JSON. الافتراضي هوباطل .
+linktitle: ExactDateTimeParseFormats
+articleTitle: ExactDateTimeParseFormats
+second_title: Aspose.Words لـ .NET
+description: JsonDataLoadOptions ExactDateTimeParseFormats ملكية. الحصول على التنسيقات الدقيقة أو تعيينها لتحليل قيم وقت التاريخ JSON أثناء تحميل JSON. الافتراضي هوباطل  في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.reporting/jsondataloadoptions/exactdatetimeparseformats/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.reporting/jsondataloadoptions/exactdatetimeparseformat
 public IEnumerable<string> ExactDateTimeParseFormats { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 السلاسل المشفرة باستخدام تنسيق التاريخ والوقت Microsoft® JSON (على سبيل المثال، "/Date(1224043200000)/") يتم التعرف عليها دائمًا كقيم وقت وتاريخ بغض النظر عن قيمة هذه الخاصية. تحدد الخاصية تنسيقات إضافية لاستخدامها أثناء تحليل قيم التاريخ والوقت من السلاسل بالطريقة التالية:
 
@@ -25,7 +27,5 @@ public IEnumerable<string> ExactDateTimeParseFormats { get; set; }
 ### أنظر أيضا
 
 * class [JsonDataLoadOptions](../)
-* مساحة الاسم [Aspose.Words.Reporting](../../jsondataloadoptions/)
+* مساحة الاسم [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * المجسم [Aspose.Words](../../../)
-
-

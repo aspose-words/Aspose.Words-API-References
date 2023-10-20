@@ -1,7 +1,9 @@
 ---
 title: FieldIf.RightExpression
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldIf eigendom. Ruft den rechten Teil des Vergleichsausdrucks ab oder legt diesen fest.
+linktitle: RightExpression
+articleTitle: RightExpression
+second_title: Aspose.Words für .NET
+description: FieldIf RightExpression eigendom. Ruft den rechten Teil des Vergleichsausdrucks ab oder legt diesen fest in C#.
 type: docs
 weight: 50
 url: /de/net/aspose.words.fields/fieldif/rightexpression/
@@ -14,7 +16,7 @@ Ruft den rechten Teil des Vergleichsausdrucks ab oder legt diesen fest.
 public string RightExpression { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein IF-Feld eingefügt wird.
 
@@ -60,7 +62,5 @@ doc.Save(ArtifactsDir + "Field.IF.docx");
 ### Siehe auch
 
 * class [FieldIf](../)
-* namensraum [Aspose.Words.Fields](../../fieldif/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

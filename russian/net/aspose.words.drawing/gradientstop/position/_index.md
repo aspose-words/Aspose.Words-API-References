@@ -1,7 +1,9 @@
 ---
 title: GradientStop.Position
-second_title: Справочник по API Aspose.Words для .NET
-description: GradientStop свойство. Получает или задает значение представляющее положение остановки в градиенте  выраженное в процентах в диапазоне от 00 до 10. .
+linktitle: Position
+articleTitle: Position
+second_title: Aspose.Words для .NET
+description: GradientStop Position свойство. Получает или задает значение представляющее положение остановки в градиенте  выраженное в процентах в диапазоне от 00 до 10.  на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.drawing/gradientstop/position/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.drawing/gradientstop/position/
 public double Position { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как добавить остановки градиента к градиентной заливке.
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "Shape.GradientStops.docx", saveOptions);
 ### Смотрите также
 
 * class [GradientStop](../)
-* пространство имен [Aspose.Words.Drawing](../../gradientstop/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

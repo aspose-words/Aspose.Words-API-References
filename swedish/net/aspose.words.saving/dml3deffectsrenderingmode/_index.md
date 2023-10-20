@@ -1,7 +1,9 @@
 ---
-title: Enum Dml3DEffectsRenderingMode
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Saving.Dml3DEffectsRenderingMode uppräkning. Anger hur 3Dformeffekter renderas.
+title: Dml3DEffectsRenderingMode Enum
+linktitle: Dml3DEffectsRenderingMode
+articleTitle: Dml3DEffectsRenderingMode
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Saving.Dml3DEffectsRenderingMode uppräkning. Anger hur 3Dformeffekter renderas i C#.
 type: docs
 weight: 4900
 url: /sv/net/aspose.words.saving/dml3deffectsrenderingmode/
@@ -25,5 +27,3 @@ public enum Dml3DEffectsRenderingMode
 
 * namnutrymme [Aspose.Words.Saving](../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../)
-
-

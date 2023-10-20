@@ -1,7 +1,9 @@
 ---
 title: FieldMergeBarcode.PosCodeStyle
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldMergeBarcode propiedad. Obtiene o establece el estilo de un código de barras de Punto de Venta tipos de códigos de barras UPCAUPCEEAN13EAN8. Los valores válidos sin distinguir entre mayúsculas y minúsculas son STDSUP2SUP5CASE.
+linktitle: PosCodeStyle
+articleTitle: PosCodeStyle
+second_title: Aspose.Words para .NET
+description: FieldMergeBarcode PosCodeStyle propiedad. Obtiene o establece el estilo de un código de barras de Punto de Venta tipos de códigos de barras UPCAUPCEEAN13EAN8. Los valores válidos sin distinguir entre mayúsculas y minúsculas son STDSUP2SUP5CASE en C#.
 type: docs
 weight: 110
 url: /es/net/aspose.words.fields/fieldmergebarcode/poscodestyle/
@@ -14,7 +16,7 @@ Obtiene o establece el estilo de un código de barras de Punto de Venta (tipos d
 public string PosCodeStyle { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo realizar una combinación de correspondencia en códigos de barras EAN13.
 
@@ -60,7 +62,5 @@ doc.Save(ArtifactsDir + "Field.MERGEBARCODE.EAN13.docx");
 ### Ver también
 
 * class [FieldMergeBarcode](../)
-* espacio de nombres [Aspose.Words.Fields](../../fieldmergebarcode/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

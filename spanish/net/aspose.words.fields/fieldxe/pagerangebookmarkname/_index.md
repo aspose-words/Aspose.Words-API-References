@@ -1,7 +1,9 @@
 ---
 title: FieldXE.PageRangeBookmarkName
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldXE propiedad. Obtiene o establece el nombre del marcador que marca un rango de páginas que se inserta como número de página de la entrada.
+linktitle: PageRangeBookmarkName
+articleTitle: PageRangeBookmarkName
+second_title: Aspose.Words para .NET
+description: FieldXE PageRangeBookmarkName propiedad. Obtiene o establece el nombre del marcador que marca un rango de páginas que se inserta como número de página de la entrada en C#.
 type: docs
 weight: 60
 url: /es/net/aspose.words.fields/fieldxe/pagerangebookmarkname/
@@ -14,7 +16,7 @@ Obtiene o establece el nombre del marcador que marca un rango de páginas que se
 public string PageRangeBookmarkName { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo especificar las páginas distribuidas de un marcador como rango de páginas para una entrada de campo ÍNDICE.
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "Field.INDEX.XE.PageRangeBookmark.docx");
 ### Ver también
 
 * class [FieldXE](../)
-* espacio de nombres [Aspose.Words.Fields](../../fieldxe/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

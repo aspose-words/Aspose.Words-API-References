@@ -1,7 +1,9 @@
 ---
 title: OleControl.Name
-second_title: Aspose.Words för .NET API Referens
-description: OleControl fast egendom. Hämtar eller ställer in namnet på ActiveXkontrollen.
+linktitle: Name
+articleTitle: Name
+second_title: Aspose.Words för .NET
+description: OleControl Name fast egendom. Hämtar eller ställer in namnet på ActiveXkontrollen i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.drawing.ole/olecontrol/name/
@@ -14,7 +16,7 @@ Hämtar eller ställer in namnet på ActiveX-kontrollen.
 public string Name { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du verifierar egenskaperna för en ActiveX-kontroll.
 
@@ -44,7 +46,5 @@ if (oleControl.IsForms2OleControl)
 ### Se även
 
 * class [OleControl](../)
-* namnutrymme [Aspose.Words.Drawing.Ole](../../olecontrol/)
+* namnutrymme [Aspose.Words.Drawing.Ole](../../../aspose.words.drawing.ole/)
 * hopsättning [Aspose.Words](../../../)
-
-

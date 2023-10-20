@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.MajorUnitIsAuto
-second_title: Referencia de API de Aspose.Words para .NET
-description: ChartAxis propiedad. Obtiene o establece un indicador que indica si se debe utilizar la distancia predeterminada entre las marcas principales.
+linktitle: MajorUnitIsAuto
+articleTitle: MajorUnitIsAuto
+second_title: Aspose.Words para .NET
+description: ChartAxis MajorUnitIsAuto propiedad. Obtiene o establece un indicador que indica si se debe utilizar la distancia predeterminada entre las marcas principales en C#.
 type: docs
 weight: 130
 url: /es/net/aspose.words.drawing.charts/chartaxis/majorunitisauto/
@@ -14,11 +16,11 @@ Obtiene o establece un indicador que indica si se debe utilizar la distancia pre
 public bool MajorUnitIsAuto { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 La propiedad tiene efecto para la categoría de tiempo y los ejes de valor.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo manipular las marcas y los valores mostrados de un eje de gráfico.
 
@@ -76,7 +78,5 @@ doc.Save(ArtifactsDir + "Charts.AxisDisplayUnit.docx");
 ### Ver también
 
 * class [ChartAxis](../)
-* espacio de nombres [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* espacio de nombres [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * asamblea [Aspose.Words](../../../)
-
-

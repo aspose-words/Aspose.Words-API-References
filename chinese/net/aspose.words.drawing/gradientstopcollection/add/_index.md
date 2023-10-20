@@ -1,7 +1,9 @@
 ---
 title: GradientStopCollection.Add
-second_title: Aspose.Words for .NET API 参考
-description: GradientStopCollection 方法. 添加指定的GradientStop到梯度.
+linktitle: Add
+articleTitle: Add
+second_title: 用于 .NET 的 Aspose.Words
+description: GradientStopCollection Add 方法. 添加指定的GradientStop到梯度 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.drawing/gradientstopcollection/add/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.drawing/gradientstopcollection/add/
 public GradientStop Add(GradientStop gradientStop)
 ```
 
-### 例子
+## 例子
 
 演示如何向渐变填充添加渐变停止点。
 
@@ -68,7 +70,5 @@ doc.Save(ArtifactsDir + "Shape.GradientStops.docx", saveOptions);
 
 * class [GradientStop](../../gradientstop/)
 * class [GradientStopCollection](../)
-* 命名空间 [Aspose.Words.Drawing](../../gradientstopcollection/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

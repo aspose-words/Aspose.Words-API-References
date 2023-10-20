@@ -1,7 +1,9 @@
 ---
 title: FindReplaceOptions.IgnoreStructuredDocumentTags
-second_title: Aspose.Words för .NET API Referens
-description: FindReplaceOptions fast egendom. Hämtar eller ställer in ett booleskt värde som anger att innehållet ska ignorerasStructuredDocumentTag . Standardvärdet ärfalsk .
+linktitle: IgnoreStructuredDocumentTags
+articleTitle: IgnoreStructuredDocumentTags
+second_title: Aspose.Words för .NET
+description: FindReplaceOptions IgnoreStructuredDocumentTags fast egendom. Hämtar eller ställer in ett booleskt värde som anger att innehållet ska ignorerasStructuredDocumentTag . Standardvärdet ärfalsk  i C#.
 type: docs
 weight: 120
 url: /sv/net/aspose.words.replacing/findreplaceoptions/ignorestructureddocumenttags/
@@ -14,13 +16,13 @@ Hämtar eller ställer in ett booleskt värde som anger att innehållet ska igno
 public bool IgnoreStructuredDocumentTags { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 När det här alternativet är inställt på`Sann` , innehållet i[`StructuredDocumentTag`](../../../aspose.words.markup/structureddocumenttag/) kommer att behandlas som en enkel text.
 
 Annars,[`StructuredDocumentTag`](../../../aspose.words.markup/structureddocumenttag/) kommer att behandlas som fristående Story och ersättande mönster kommer att sökas separat för varje[`StructuredDocumentTag`](../../../aspose.words.markup/structureddocumenttag/), så att om mönstret korsar a[`StructuredDocumentTag`](../../../aspose.words.markup/structureddocumenttag/) , då kommer ersättning inte att utföras för ett sådant mönster.
 
-### Exempel
+## Exempel
 
 Visar hur man ignorerar innehållet i taggar från ersättning.
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.IgnoreStructuredDocumentTags.docx
 ### Se även
 
 * class [FindReplaceOptions](../)
-* namnutrymme [Aspose.Words.Replacing](../../findreplaceoptions/)
+* namnutrymme [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * hopsättning [Aspose.Words](../../../)
-
-

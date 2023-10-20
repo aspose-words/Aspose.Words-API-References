@@ -1,7 +1,9 @@
 ---
 title: FieldAdvance.UpOffset
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldAdvance propiedad. Obtiene o establece el número de puntos que debe moverse hacia arriba el texto que sigue al campo.
+linktitle: UpOffset
+articleTitle: UpOffset
+second_title: Aspose.Words para .NET
+description: FieldAdvance UpOffset propiedad. Obtiene o establece el número de puntos que debe moverse hacia arriba el texto que sigue al campo en C#.
 type: docs
 weight: 60
 url: /es/net/aspose.words.fields/fieldadvance/upoffset/
@@ -14,7 +16,7 @@ Obtiene o establece el número de puntos que debe moverse hacia arriba el texto 
 public string UpOffset { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo insertar un campo AVANZADO y editar sus propiedades.
 
@@ -59,7 +61,5 @@ doc.Save(ArtifactsDir + "Field.ADVANCE.docx");
 ### Ver también
 
 * class [FieldAdvance](../)
-* espacio de nombres [Aspose.Words.Fields](../../fieldadvance/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

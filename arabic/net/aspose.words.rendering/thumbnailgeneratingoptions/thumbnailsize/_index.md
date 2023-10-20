@@ -1,7 +1,9 @@
 ---
 title: ThumbnailGeneratingOptions.ThumbnailSize
-second_title: Aspose.Words لمراجع .NET API
-description: ThumbnailGeneratingOptions ملكية. حجم الصورة المصغرة التي تم إنشاؤها بالبكسل. الافتراضي هو 600x900.
+linktitle: ThumbnailSize
+articleTitle: ThumbnailSize
+second_title: Aspose.Words لـ .NET
+description: ThumbnailGeneratingOptions ThumbnailSize ملكية. حجم الصورة المصغرة التي تم إنشاؤها بالبكسل. الافتراضي هو 600x900 في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.rendering/thumbnailgeneratingoptions/thumbnailsize/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.rendering/thumbnailgeneratingoptions/thumbnailsize/
 public Size ThumbnailSize { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحديث الصورة المصغرة للمستند.
 
@@ -42,7 +44,5 @@ doc.Save(ArtifactsDir + "Document.UpdateThumbnail.FirstImage.epub");
 ### أنظر أيضا
 
 * class [ThumbnailGeneratingOptions](../)
-* مساحة الاسم [Aspose.Words.Rendering](../../thumbnailgeneratingoptions/)
+* مساحة الاسم [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * المجسم [Aspose.Words](../../../)
-
-

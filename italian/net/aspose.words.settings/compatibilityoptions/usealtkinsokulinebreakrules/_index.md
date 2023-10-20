@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.UseAltKinsokuLineBreakRules
-second_title: Aspose.Words per .NET API Reference
-description: CompatibilityOptions proprietà. Utilizza un insieme alternativo di regole di interruzione della linea dellAsia orientale.
+linktitle: UseAltKinsokuLineBreakRules
+articleTitle: UseAltKinsokuLineBreakRules
+second_title: Aspose.Words per .NET
+description: CompatibilityOptions UseAltKinsokuLineBreakRules proprietà. Utilizza un insieme alternativo di regole di interruzione della linea dellAsia orientale in C#.
 type: docs
 weight: 600
 url: /it/net/aspose.words.settings/compatibilityoptions/usealtkinsokulinebreakrules/
@@ -17,7 +19,5 @@ public bool UseAltKinsokuLineBreakRules { get; set; }
 ### Guarda anche
 
 * class [CompatibilityOptions](../)
-* spazio dei nomi [Aspose.Words.Settings](../../compatibilityoptions/)
+* spazio dei nomi [Aspose.Words.Settings](../../../aspose.words.settings/)
 * assemblea [Aspose.Words](../../../)
-
-

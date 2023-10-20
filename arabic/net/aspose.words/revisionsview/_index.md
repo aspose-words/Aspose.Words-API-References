@@ -1,7 +1,9 @@
 ---
-title: Enum RevisionsView
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.RevisionsView تعداد. يسمح بتحديد ما إذا كان سيتم العمل مع النسخة الأصلية أو المنقحة من المستند.
+title: RevisionsView Enum
+linktitle: RevisionsView
+articleTitle: RevisionsView
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.RevisionsView تعداد. يسمح بتحديد ما إذا كان سيتم العمل مع النسخة الأصلية أو المنقحة من المستند في C#.
 type: docs
 weight: 4810
 url: /ar/net/aspose.words/revisionsview/
@@ -21,7 +23,7 @@ public enum RevisionsView
 | Original | `0` | يحدد النسخة الأصلية للمستند. |
 | Final | `1` | يحدد النسخة المنقحة من المستند. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التبديل بين العرض الأصلي والمراجع للمستند.
 
@@ -46,5 +48,3 @@ Assert.AreEqual("a.", paragraphs[2].ListLabel.LabelString);
 
 * مساحة الاسم [Aspose.Words](../../aspose.words/)
 * المجسم [Aspose.Words](../../)
-
-

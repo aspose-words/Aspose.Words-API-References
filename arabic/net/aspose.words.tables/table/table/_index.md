@@ -1,7 +1,9 @@
 ---
-title: Table.Table
-second_title: Aspose.Words لمراجع .NET API
-description: Table البناء. تهيئة مثيل جديد لـTable فئة.
+title: Table
+linktitle: Table
+articleTitle: Table
+second_title: Aspose.Words لـ .NET
+description: Table البناء. تهيئة مثيل جديد لـTable فئة في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.tables/table/table/
@@ -18,13 +20,13 @@ public Table(DocumentBase doc)
 | --- | --- | --- |
 | doc | DocumentBase | وثيقة المالك. |
 
-### ملاحظات
+## ملاحظات
 
 متى[`Table`](../) تم إنشاؤه، فهو ينتمي إلى المستند المحدد، ولكنه ليس بعد جزءًا من المستند و[`ParentNode`](../../../aspose.words/node/parentnode/) يكون`باطل`.
 
-لإلحاق[`Table`](../) لاستخدام الوثيقةNode) أوNode) في القصة حيث تريد إدراج الجدول.
+لإلحاق[`Table`](../) لاستخدام الوثيقة[`InsertAfter`](../../../aspose.words/compositenode/insertafter/) أو[`InsertBefore`](../../../aspose.words/compositenode/insertbefore/) في القصة حيث تريد إدراج الجدول.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء جدول.
 
@@ -108,7 +110,5 @@ private static Table CreateTable(Document doc, int rowCount, int cellCount, stri
 
 * class [DocumentBase](../../../aspose.words/documentbase/)
 * class [Table](../)
-* مساحة الاسم [Aspose.Words.Tables](../../table/)
+* مساحة الاسم [Aspose.Words.Tables](../../../aspose.words.tables/)
 * المجسم [Aspose.Words](../../../)
-
-

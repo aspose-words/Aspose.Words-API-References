@@ -1,7 +1,9 @@
 ---
 title: Shape.HasSmartArt
-second_title: Aspose.Words for .NET API 参考
-description: Shape 财产. 返回真的如果这Shape有一个 SmartArt 对象
+linktitle: HasSmartArt
+articleTitle: HasSmartArt
+second_title: 用于 .NET 的 Aspose.Words
+description: Shape HasSmartArt 财产. 返回真的如果这Shape有一个 SmartArt 对象 在 C#.
 type: docs
 weight: 90
 url: /zh/net/aspose.words.drawing/shape/hassmartart/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.drawing/shape/hassmartart/
 public bool HasSmartArt { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何计算文档中包含 SmartArt 对象的形状数量。
 
@@ -29,7 +31,5 @@ Assert.AreEqual(2, numberOfSmartArtShapes);
 ### 也可以看看
 
 * class [Shape](../)
-* 命名空间 [Aspose.Words.Drawing](../../shape/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

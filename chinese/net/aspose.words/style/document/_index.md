@@ -1,7 +1,9 @@
 ---
 title: Style.Document
-second_title: Aspose.Words for .NET API 参考
-description: Style 财产. 获取所有者文档
+linktitle: Document
+articleTitle: Document
+second_title: 用于 .NET 的 Aspose.Words
+description: Style Document 财产. 获取所有者文档 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words/style/document/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/style/document/
 public DocumentBase Document { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何访问文档的样式集合。
 
@@ -43,7 +45,5 @@ using (IEnumerator<Style> stylesEnum = doc.Styles.GetEnumerator())
 
 * class [DocumentBase](../../documentbase/)
 * class [Style](../)
-* 命名空间 [Aspose.Words](../../style/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

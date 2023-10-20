@@ -1,7 +1,9 @@
 ---
 title: FieldOptions.FieldUpdateCultureSource
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldOptions propiedad. Especifica qué cultura usar para formatear el resultado del campo.
+linktitle: FieldUpdateCultureSource
+articleTitle: FieldUpdateCultureSource
+second_title: Aspose.Words para .NET
+description: FieldOptions FieldUpdateCultureSource propiedad. Especifica qué cultura usar para formatear el resultado del campo en C#.
 type: docs
 weight: 110
 url: /es/net/aspose.words.fields/fieldoptions/fieldupdateculturesource/
@@ -14,13 +16,13 @@ Especifica qué cultura usar para formatear el resultado del campo.
 public FieldUpdateCultureSource FieldUpdateCultureSource { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 De forma predeterminada, se utiliza la cultura del hilo actual.
 
 La configuración afecta solo a los campos de fecha/hora con el cambio de formato \\@.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo especificar el origen de la referencia cultural utilizada para el formato de fecha durante una actualización de campo o combinación de correspondencia.
 
@@ -56,7 +58,5 @@ Thread.CurrentThread.CurrentCulture = currentCulture;
 
 * enum [FieldUpdateCultureSource](../../fieldupdateculturesource/)
 * class [FieldOptions](../)
-* espacio de nombres [Aspose.Words.Fields](../../fieldoptions/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,9 +1,11 @@
 ---
 title: Section.AppendContent
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Section méthode. Insère une copie du contenu de la section source à la fin de cette section.
+linktitle: AppendContent
+articleTitle: AppendContent
+second_title: Aspose.Words pour .NET
+description: Section AppendContent méthode. Insère une copie du contenu de la section source à la fin de cette section en C#.
 type: docs
-weight: 100
+weight: 80
 url: /fr/net/aspose.words/section/appendcontent/
 ---
 ## Section.AppendContent method
@@ -18,7 +20,7 @@ public void AppendContent(Section sourceSection)
 | --- | --- | --- |
 | sourceSection | Section | Section à partir de laquelle copier le contenu. |
 
-### Remarques
+## Remarques
 
 Seul le contenu de[`Body`](../body/) de la section source est copiée, la mise en page, les en-têtes et pieds de page ne sont pas copiés.
 
@@ -26,7 +28,7 @@ Les nœuds sont automatiquement importés si la section source appartient à un 
 
 Aucune nouvelle section n'est créée dans le document de destination.
 
-### Exemples
+## Exemples
 
 Montre comment ajouter le contenu d’une section à une autre section.
 
@@ -62,7 +64,5 @@ Assert.AreEqual("Section 1" + ControlChar.ParagraphBreak +
 ### Voir également
 
 * class [Section](../)
-* espace de noms [Aspose.Words](../../section/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

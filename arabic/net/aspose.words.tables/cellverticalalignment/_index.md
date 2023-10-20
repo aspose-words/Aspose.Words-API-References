@@ -1,7 +1,9 @@
 ---
-title: Enum CellVerticalAlignment
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Tables.CellVerticalAlignment تعداد. يحدد الضبط الرأسي للنص داخل خلية الجدول.
+title: CellVerticalAlignment Enum
+linktitle: CellVerticalAlignment
+articleTitle: CellVerticalAlignment
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Tables.CellVerticalAlignment تعداد. يحدد الضبط الرأسي للنص داخل خلية الجدول في C#.
 type: docs
 weight: 6280
 url: /ar/net/aspose.words.tables/cellverticalalignment/
@@ -22,7 +24,7 @@ public enum CellVerticalAlignment
 | Center | `1` | تتم محاذاة النص في منتصف الخلية. |
 | Bottom | `2` | تتم محاذاة النص في أسفل الخلية. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء جدول منسق 2x2.
 
@@ -69,5 +71,3 @@ doc.Save(ArtifactsDir + "DocumentBuilder.BuildTable.docx");
 
 * مساحة الاسم [Aspose.Words.Tables](../../aspose.words.tables/)
 * المجسم [Aspose.Words](../../)
-
-

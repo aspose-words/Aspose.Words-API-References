@@ -1,7 +1,9 @@
 ---
-title: FieldNumChars.FieldNumChars
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldNumChars constructeur. Default_Constructor
+title: FieldNumChars
+linktitle: FieldNumChars
+articleTitle: FieldNumChars
+second_title: Aspose.Words pour .NET
+description: FieldNumChars constructeur. Default_Constructor en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.fields/fieldnumchars/fieldnumchars/
@@ -17,7 +19,5 @@ public FieldNumChars()
 ### Voir également
 
 * class [FieldNumChars](../)
-* espace de noms [Aspose.Words.Fields](../../fieldnumchars/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

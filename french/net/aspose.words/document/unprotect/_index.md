@@ -1,9 +1,11 @@
 ---
 title: Document.Unprotect
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Document méthode. Supprime la protection du document quel que soit le mot de passe.
+linktitle: Unprotect
+articleTitle: Unprotect
+second_title: Aspose.Words pour .NET
+description: Document Unprotect méthode. Supprime la protection du document quel que soit le mot de passe en C#.
 type: docs
-weight: 760
+weight: 740
 url: /fr/net/aspose.words/document/unprotect/
 ---
 ## Unprotect() {#unprotect_1}
@@ -14,13 +16,13 @@ Supprime la protection du document quel que soit le mot de passe.
 public void Unprotect()
 ```
 
-### Remarques
+## Remarques
 
 Cette méthode déprotège le document même s'il dispose d'un mot de passe de protection.
 
 Notez que la protection des documents est différente de la protection en écriture. La protection en écriture est spécifiée à l'aide du[`WriteProtection`](../writeprotection/).
 
-### Exemples
+## Exemples
 
 Montre comment protéger et déprotéger un document.
 
@@ -65,12 +67,12 @@ Assert.AreEqual(ProtectionType.NoProtection, doc.ProtectionType);
 ### Voir également
 
 * class [Document](../)
-* espace de noms [Aspose.Words](../../document/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
 
 ---
 
-## Unprotect(string) {#unprotect}
+## Unprotect(*string*) {#unprotect}
 
 Supprime la protection du document si un mot de passe correct est spécifié.
 
@@ -86,13 +88,13 @@ public bool Unprotect(string password)
 
 `vrai` si un mot de passe correct a été spécifié et que le document n'était pas protégé.
 
-### Remarques
+## Remarques
 
 Cette méthode déprotège le document uniquement si un mot de passe correct est spécifié.
 
 Notez que la protection des documents est différente de la protection en écriture. La protection en écriture est spécifiée à l'aide du[`WriteProtection`](../writeprotection/).
 
-### Exemples
+## Exemples
 
 Montre comment protéger et déprotéger un document.
 
@@ -137,7 +139,5 @@ Assert.AreEqual(ProtectionType.NoProtection, doc.ProtectionType);
 ### Voir également
 
 * class [Document](../)
-* espace de noms [Aspose.Words](../../document/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

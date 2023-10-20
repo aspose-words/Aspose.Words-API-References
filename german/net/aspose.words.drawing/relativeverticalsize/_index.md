@@ -1,7 +1,9 @@
 ---
-title: Enum RelativeVerticalSize
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Drawing.RelativeVerticalSize opsomming. Gibt relativ dazu an wie die Höhe einer Form oder eines Textrahmens vertikal berechnet wird.
+title: RelativeVerticalSize Enum
+linktitle: RelativeVerticalSize
+articleTitle: RelativeVerticalSize
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Drawing.RelativeVerticalSize opsomming. Gibt relativ dazu an wie die Höhe einer Form oder eines Textrahmens vertikal berechnet wird in C#.
 type: docs
 weight: 1220
 url: /de/net/aspose.words.drawing/relativeverticalsize/
@@ -26,7 +28,7 @@ public enum RelativeVerticalSize
 | OuterMargin | `5` | Gibt an, dass die Höhe relativ zur Größe des äußeren Randbereichs berechnet wird, zur Größe des unteren Randbereichs für ungerade Seiten und zur Größe des oberen Randbereichs für gerade Seiten. |
 | Default | `1` | Der Standardwert istMargin . |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die relative Größe und Position festgelegt wird.
 
@@ -83,5 +85,3 @@ doc.Save(ArtifactsDir + "Shape.RelativeSizeAndPosition.docx");
 * property [RelativeVerticalSize](../shapebase/relativeverticalsize/)
 * namensraum [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../)
-
-

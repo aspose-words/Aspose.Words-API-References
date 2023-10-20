@@ -1,7 +1,9 @@
 ---
 title: XpsSaveOptions.SaveFormat
-second_title: Справочник по API Aspose.Words для .NET
-description: XpsSaveOptions свойство. Указывает формат в котором документ будет сохранен если используется этот объект параметров сохранения. Может быть толькоXps .
+linktitle: SaveFormat
+articleTitle: SaveFormat
+second_title: Aspose.Words для .NET
+description: XpsSaveOptions SaveFormat свойство. Указывает формат в котором документ будет сохранен если используется этот объект параметров сохранения. Может быть толькоXps  на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.saving/xpssaveoptions/saveformat/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.saving/xpssaveoptions/saveformat/
 public override SaveFormat SaveFormat { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как ограничить уровень заголовков, которые будут отображаться в структуре сохраненного документа XPS.
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "XpsSaveOptions.OutlineLevels.xps", saveOptions);
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
 * class [XpsSaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../xpssaveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

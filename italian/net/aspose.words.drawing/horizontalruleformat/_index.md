@@ -1,7 +1,9 @@
 ---
-title: Class HorizontalRuleFormat
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Drawing.HorizontalRuleFormat classe. Rappresenta la formattazione della regola orizzontale.
+title: HorizontalRuleFormat Class
+linktitle: HorizontalRuleFormat
+articleTitle: HorizontalRuleFormat
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Drawing.HorizontalRuleFormat classe. Rappresenta la formattazione della regola orizzontale in C#.
 type: docs
 weight: 1050
 url: /it/net/aspose.words.drawing/horizontalruleformat/
@@ -26,7 +28,7 @@ public class HorizontalRuleFormat
 | [NoShade](../../aspose.words.drawing/horizontalruleformat/noshade/) { get; set; } | Indica la presenza di ombreggiatura 3D per il filetto orizzontale. Se`VERO` il filetto orizzontale è privo di ombreggiatura 3D e viene utilizzato il colore a tinta unita. |
 | [WidthPercent](../../aspose.words.drawing/horizontalruleformat/widthpercent/) { get; set; } | Ottiene o imposta la lunghezza della linea orizzontale specificata espressa come percentuale della larghezza della finestra. |
 
-### Esempi
+## Esempi
 
 Mostra come inserire una forma di filetto orizzontale e personalizzarne la formattazione.
 
@@ -50,5 +52,3 @@ Assert.True(shape.HorizontalRuleFormat.NoShade);
 
 * spazio dei nomi [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * assemblea [Aspose.Words](../../)
-
-

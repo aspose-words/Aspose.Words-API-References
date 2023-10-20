@@ -1,9 +1,11 @@
 ---
 title: DocumentBuilder.InsertHyperlink
-second_title: Aspose.Words for .NET API 参考
-description: DocumentBuilder 方法. 将超链接插入到文档中
+linktitle: InsertHyperlink
+articleTitle: InsertHyperlink
+second_title: 用于 .NET 的 Aspose.Words
+description: DocumentBuilder InsertHyperlink 方法. 将超链接插入到文档中 在 C#.
 type: docs
-weight: 370
+weight: 360
 url: /zh/net/aspose.words/documentbuilder/inserthyperlink/
 ---
 ## DocumentBuilder.InsertHyperlink method
@@ -24,13 +26,13 @@ public Field InsertHyperlink(string displayText, string urlOrBookmark, bool isBo
 
 A[`Field`](../../../aspose.words.fields/field/)代表插入字段的对象。
 
-### 评论
+## 评论
 
 请注意，您需要使用以下命令明确指定超链接显示文本的字体格式 [`Font`](../font/)财产。
 
 该方法内部调用[`InsertField`](../insertfield/)将 MS Word HYPERLINK field 插入文档中。
 
-### 例子
+## 例子
 
 演示如何插入引用本地书签的超链接。
 
@@ -108,7 +110,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.PushPopFont.docx");
 
 * class [Field](../../../aspose.words.fields/field/)
 * class [DocumentBuilder](../)
-* 命名空间 [Aspose.Words](../../documentbuilder/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

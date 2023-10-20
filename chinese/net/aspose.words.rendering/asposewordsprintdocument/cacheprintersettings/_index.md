@@ -1,7 +1,9 @@
 ---
 title: AsposeWordsPrintDocument.CachePrinterSettings
-second_title: Aspose.Words for .NET API 参考
-description: AsposeWordsPrintDocument 方法. 读取并缓存一些字段PrinterSettings 减少打印时间
+linktitle: CachePrinterSettings
+articleTitle: CachePrinterSettings
+second_title: 用于 .NET 的 Aspose.Words
+description: AsposeWordsPrintDocument CachePrinterSettings 方法. 读取并缓存一些字段PrinterSettings 减少打印时间 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.rendering/asposewordsprintdocument/cacheprintersettings/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.rendering/asposewordsprintdocument/cacheprintersetting
 public void CachePrinterSettings()
 ```
 
-### 评论
+## 评论
 
 如果之前没有执行过，则在打印开始之前调用此方法。
 
-### 例子
+## 例子
 
 演示如何选择页面范围和用于打印文档的打印机，然后显示打印预览。
 
@@ -67,7 +69,5 @@ Console.WriteLine($"The numer of pages printed in color are {awPrintDoc.ColorPag
 ### 也可以看看
 
 * class [AsposeWordsPrintDocument](../)
-* 命名空间 [Aspose.Words.Rendering](../../asposewordsprintdocument/)
+* 命名空间 [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * 部件 [Aspose.Words](../../../)
-
-

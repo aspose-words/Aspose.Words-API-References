@@ -1,7 +1,9 @@
 ---
 title: IFieldUpdatingCallback.FieldUpdating
-second_title: Referencia de API de Aspose.Words para .NET
-description: IFieldUpdatingCallback método. Un método definido por el usuario que se llama justo antes de que se actualice un campo.
+linktitle: FieldUpdating
+articleTitle: FieldUpdating
+second_title: Aspose.Words para .NET
+description: IFieldUpdatingCallback FieldUpdating método. Un método definido por el usuario que se llama justo antes de que se actualice un campo en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words.fields/ifieldupdatingcallback/fieldupdating/
@@ -14,7 +16,7 @@ Un método definido por el usuario que se llama justo antes de que se actualice 
 public void FieldUpdating(Field field)
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo utilizar métodos de devolución de llamada durante una actualización de campo.
 
@@ -83,7 +85,5 @@ public class FieldUpdatingCallback : IFieldUpdatingCallback, IFieldUpdatingProgr
 
 * class [Field](../../field/)
 * interface [IFieldUpdatingCallback](../)
-* espacio de nombres [Aspose.Words.Fields](../../ifieldupdatingcallback/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

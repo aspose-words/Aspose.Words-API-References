@@ -1,7 +1,9 @@
 ---
 title: Hyphenation.Callback
-second_title: Aspose.Words für .NET-API-Referenz
-description: Hyphenation eigendom. Ruft die Rückrufschnittstelle ab oder legt sie fest die zum Anfordern von Wörterbüchern verwendet wird wenn das Seitenlayout des Dokuments erstellt wird. Dies ermöglicht ein verzögertes Laden von Wörterbüchern was bei der Verarbeitung von Dokumenten in vielen Sprachen nützlich sein kann.
+linktitle: Callback
+articleTitle: Callback
+second_title: Aspose.Words für .NET
+description: Hyphenation Callback eigendom. Ruft die Rückrufschnittstelle ab oder legt sie fest die zum Anfordern von Wörterbüchern verwendet wird wenn das Seitenlayout des Dokuments erstellt wird. Dies ermöglicht ein verzögertes Laden von Wörterbüchern was bei der Verarbeitung von Dokumenten in vielen Sprachen nützlich sein kann in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words/hyphenation/callback/
@@ -14,7 +16,7 @@ Ruft die Rückrufschnittstelle ab oder legt sie fest, die zum Anfordern von Wör
 public static IHyphenationCallback Callback { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man ein Wörterbuch aus einer Datei öffnet und registriert.
 
@@ -91,7 +93,5 @@ private class CustomHyphenationDictionaryRegister : IHyphenationCallback
 
 * interface [IHyphenationCallback](../../ihyphenationcallback/)
 * class [Hyphenation](../)
-* namensraum [Aspose.Words](../../hyphenation/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

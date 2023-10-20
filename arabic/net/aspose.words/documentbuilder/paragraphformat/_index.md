@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.ParagraphFormat
-second_title: Aspose.Words لمراجع .NET API
-description: DocumentBuilder ملكية. إرجاع كائن يمثل خصائص تنسيق الفقرة الحالية.
+linktitle: ParagraphFormat
+articleTitle: ParagraphFormat
+second_title: Aspose.Words لـ .NET
+description: DocumentBuilder ParagraphFormat ملكية. إرجاع كائن يمثل خصائص تنسيق الفقرة الحالية في C#.
 type: docs
 weight: 170
 url: /ar/net/aspose.words/documentbuilder/paragraphformat/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/documentbuilder/paragraphformat/
 public ParagraphFormat ParagraphFormat { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء جدول منسق باستخدام DocumentBuilder.
 
@@ -78,7 +80,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.CreateFormattedTable.docx");
 
 * class [ParagraphFormat](../../paragraphformat/)
 * class [DocumentBuilder](../)
-* مساحة الاسم [Aspose.Words](../../documentbuilder/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

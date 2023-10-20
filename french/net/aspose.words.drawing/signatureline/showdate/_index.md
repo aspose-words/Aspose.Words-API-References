@@ -1,7 +1,9 @@
 ---
 title: SignatureLine.ShowDate
-second_title: Référence de l'API Aspose.Words pour .NET
-description: SignatureLine propriété. Obtient ou définit une valeur indiquant que la date de signature est affichée dans la ligne de signature. La valeur par défaut de cette propriété estvrai .
+linktitle: ShowDate
+articleTitle: ShowDate
+second_title: Aspose.Words pour .NET
+description: SignatureLine ShowDate propriété. Obtient ou définit une valeur indiquant que la date de signature est affichée dans la ligne de signature. La valeur par défaut de cette propriété estvrai  en C#.
 type: docs
 weight: 90
 url: /fr/net/aspose.words.drawing/signatureline/showdate/
@@ -14,7 +16,7 @@ Obtient ou définit une valeur indiquant que la date de signature est affichée 
 public bool ShowDate { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment créer une ligne pour une signature et l'insérer dans un document.
 
@@ -59,7 +61,5 @@ doc.Save(ArtifactsDir + "Shape.SignatureLine.docx");
 ### Voir également
 
 * class [SignatureLine](../)
-* espace de noms [Aspose.Words.Drawing](../../signatureline/)
+* espace de noms [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Assemblée [Aspose.Words](../../../)
-
-

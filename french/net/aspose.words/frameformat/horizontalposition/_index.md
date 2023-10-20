@@ -1,7 +1,9 @@
 ---
 title: FrameFormat.HorizontalPosition
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FrameFormat propriété. Obtient la distance horizontale entre le bord du cadre et lélément spécifié par leRelativeHorizontalPosition propriété.
+linktitle: HorizontalPosition
+articleTitle: HorizontalPosition
+second_title: Aspose.Words pour .NET
+description: FrameFormat HorizontalPosition propriété. Obtient la distance horizontale entre le bord du cadre et lélément spécifié par leRelativeHorizontalPosition propriété en C#.
 type: docs
 weight: 50
 url: /fr/net/aspose.words/frameformat/horizontalposition/
@@ -14,7 +16,7 @@ Obtient la distance horizontale entre le bord du cadre et l'élément spécifié
 public double HorizontalPosition { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment obtenir des informations sur les propriétés de mise en forme des paragraphes qui sont des cadres.
 
@@ -39,7 +41,5 @@ Assert.AreEqual(0.0d, paragraphFrame.FrameFormat.VerticalDistanceFromText);
 ### Voir également
 
 * class [FrameFormat](../)
-* espace de noms [Aspose.Words](../../frameformat/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

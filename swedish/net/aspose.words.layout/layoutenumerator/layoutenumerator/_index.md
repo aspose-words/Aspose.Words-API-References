@@ -1,7 +1,9 @@
 ---
-title: LayoutEnumerator.LayoutEnumerator
-second_title: Aspose.Words för .NET API Referens
-description: LayoutEnumerator byggare. Initierar ny instans av denna klass.
+title: LayoutEnumerator
+linktitle: LayoutEnumerator
+articleTitle: LayoutEnumerator
+second_title: Aspose.Words för .NET
+description: LayoutEnumerator byggare. Initierar ny instans av denna klass i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.layout/layoutenumerator/layoutenumerator/
@@ -18,13 +20,13 @@ public LayoutEnumerator(Document document)
 | --- | --- | --- |
 | document | Document | Ett dokument vars sidlayoutmodell att räkna upp. |
 
-### Anmärkningar
+## Anmärkningar
 
 Om sidlayoutmodellen för dokumentet inte har byggts anropar enumeratorn[`UpdatePageLayout`](../../../aspose.words/document/updatepagelayout/) att bygga den.
 
 Närhelst dokumentet uppdateras och en ny sidlayoutmodell skapas måste en ny uppräkning användas för att komma åt det.
 
-### Exempel
+## Exempel
 
 Visar sätt att gå igenom ett dokuments layoutenheter.
 
@@ -170,7 +172,5 @@ private static void PrintCurrentEntity(LayoutEnumerator layoutEnumerator, int in
 
 * class [Document](../../../aspose.words/document/)
 * class [LayoutEnumerator](../)
-* namnutrymme [Aspose.Words.Layout](../../layoutenumerator/)
+* namnutrymme [Aspose.Words.Layout](../../../aspose.words.layout/)
 * hopsättning [Aspose.Words](../../../)
-
-

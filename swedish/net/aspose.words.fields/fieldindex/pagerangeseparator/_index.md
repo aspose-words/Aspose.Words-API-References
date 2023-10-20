@@ -1,7 +1,9 @@
 ---
 title: FieldIndex.PageRangeSeparator
-second_title: Aspose.Words för .NET API Referens
-description: FieldIndex fast egendom. Hämtar eller ställer in teckensekvensen som används för att separera början och slutet av ett sidintervall.
+linktitle: PageRangeSeparator
+articleTitle: PageRangeSeparator
+second_title: Aspose.Words för .NET
+description: FieldIndex PageRangeSeparator fast egendom. Hämtar eller ställer in teckensekvensen som används för att separera början och slutet av ett sidintervall i C#.
 type: docs
 weight: 130
 url: /sv/net/aspose.words.fields/fieldindex/pagerangeseparator/
@@ -14,7 +16,7 @@ Hämtar eller ställer in teckensekvensen som används för att separera början
 public string PageRangeSeparator { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man anger ett bokmärkes spännade sidor som ett sidintervall för en INDEX-fältpost.
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "Field.INDEX.XE.PageRangeBookmark.docx");
 ### Se även
 
 * class [FieldIndex](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldindex/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

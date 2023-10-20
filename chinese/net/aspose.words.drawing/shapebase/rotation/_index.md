@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.Rotation
-second_title: Aspose.Words for .NET API 参考
-description: ShapeBase 财产. 定义形状旋转的角度以度为单位 正值对应于顺时针旋转角度
+linktitle: Rotation
+articleTitle: Rotation
+second_title: 用于 .NET 的 Aspose.Words
+description: ShapeBase Rotation 财产. 定义形状旋转的角度以度为单位 正值对应于顺时针旋转角度 在 C#.
 type: docs
 weight: 470
 url: /zh/net/aspose.words.drawing/shapebase/rotation/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.drawing/shapebase/rotation/
 public double Rotation { get; set; }
 ```
 
-### 评论
+## 评论
 
 默认值为 0。
 
-### 例子
+## 例子
 
 演示如何插入和旋转图像。
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "Shape.Rotate.docx");
 ### 也可以看看
 
 * class [ShapeBase](../)
-* 命名空间 [Aspose.Words.Drawing](../../shapebase/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

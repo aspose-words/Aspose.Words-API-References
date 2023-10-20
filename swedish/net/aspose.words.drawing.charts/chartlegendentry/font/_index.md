@@ -1,7 +1,9 @@
 ---
 title: ChartLegendEntry.Font
-second_title: Aspose.Words för .NET API Referens
-description: ChartLegendEntry fast egendom. Ger tillgång till teckensnittsformateringen för denna förklaringspost.
+linktitle: Font
+articleTitle: Font
+second_title: Aspose.Words för .NET
+description: ChartLegendEntry Font fast egendom. Ger tillgång till teckensnittsformateringen för denna förklaringspost i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.drawing.charts/chartlegendentry/font/
@@ -14,7 +16,7 @@ Ger tillgång till teckensnittsformateringen för denna förklaringspost.
 public Font Font { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med en förklaringspost för diagramserier.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "Charts.LegendEntries.docx");
 
 * class [Font](../../../aspose.words/font/)
 * class [ChartLegendEntry](../)
-* namnutrymme [Aspose.Words.Drawing.Charts](../../chartlegendentry/)
+* namnutrymme [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../../)
-
-

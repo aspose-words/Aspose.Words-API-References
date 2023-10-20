@@ -1,7 +1,9 @@
 ---
 title: MailMergeSettings.DataSource
-second_title: Aspose.Words for .NET API 参考
-description: MailMergeSettings 财产. 指定邮件合并数据源的路径默认值为空字符串
+linktitle: DataSource
+articleTitle: DataSource
+second_title: 用于 .NET 的 Aspose.Words
+description: MailMergeSettings DataSource 财产. 指定邮件合并数据源的路径默认值为空字符串 在 C#.
 type: docs
 weight: 60
 url: /zh/net/aspose.words.settings/mailmergesettings/datasource/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.settings/mailmergesettings/datasource/
 public string DataSource { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何从标头源和数据源构建邮件合并的数据源。
 
@@ -79,7 +81,5 @@ doc.Save(ArtifactsDir + "MailMerge.MailingLabelMerge.docx");
 ### 也可以看看
 
 * class [MailMergeSettings](../)
-* 命名空间 [Aspose.Words.Settings](../../mailmergesettings/)
+* 命名空间 [Aspose.Words.Settings](../../../aspose.words.settings/)
 * 部件 [Aspose.Words](../../../)
-
-

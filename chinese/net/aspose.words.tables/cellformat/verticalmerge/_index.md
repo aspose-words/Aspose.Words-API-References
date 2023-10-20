@@ -1,9 +1,11 @@
 ---
 title: CellFormat.VerticalMerge
-second_title: Aspose.Words for .NET API 参考
-description: CellFormat 财产. 指定单元格如何与其他单元格垂直合并
+linktitle: VerticalMerge
+articleTitle: VerticalMerge
+second_title: 用于 .NET 的 Aspose.Words
+description: CellFormat VerticalMerge 财产. 指定单元格如何与其他单元格垂直合并 在 C#.
 type: docs
-weight: 130
+weight: 120
 url: /zh/net/aspose.words.tables/cellformat/verticalmerge/
 ---
 ## CellFormat.VerticalMerge property
@@ -14,13 +16,13 @@ url: /zh/net/aspose.words.tables/cellformat/verticalmerge/
 public CellMerge VerticalMerge { get; set; }
 ```
 
-### 评论
+## 评论
 
 仅当单元格的左右边界相同时，才能垂直合并。
 
 垂直合并单元格时，合并单元格的显示区域将被合并。 合并区域用于显示第一个垂直合并单元格 的内容，所有其他垂直合并单元格必须为空。
 
-### 例子
+## 例子
 
 打印单元格的水平和垂直合并类型。
 
@@ -89,7 +91,5 @@ doc.Save(ArtifactsDir + "CellFormat.VerticalMerge.docx");
 
 * enum [CellMerge](../../cellmerge/)
 * class [CellFormat](../)
-* 命名空间 [Aspose.Words.Tables](../../cellformat/)
+* 命名空间 [Aspose.Words.Tables](../../../aspose.words.tables/)
 * 部件 [Aspose.Words](../../../)
-
-

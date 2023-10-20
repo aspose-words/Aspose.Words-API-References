@@ -1,7 +1,9 @@
 ---
 title: TextBox.InternalMarginRight
-second_title: Справочник по API Aspose.Words для .NET
-description: TextBox свойство. Определяет внутреннее правое поле фигуры в пунктах.
+linktitle: InternalMarginRight
+articleTitle: InternalMarginRight
+second_title: Aspose.Words для .NET
+description: TextBox InternalMarginRight свойство. Определяет внутреннее правое поле фигуры в пунктах на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.drawing/textbox/internalmarginright/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.drawing/textbox/internalmarginright/
 public double InternalMarginRight { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Значение по умолчанию — 1/10 дюйма.
 
-### Примеры
+## Примеры
 
 Показывает, как установить внутренние поля для текстового поля.
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "Shape.TextBoxMargins.docx");
 ### Смотрите также
 
 * class [TextBox](../)
-* пространство имен [Aspose.Words.Drawing](../../textbox/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

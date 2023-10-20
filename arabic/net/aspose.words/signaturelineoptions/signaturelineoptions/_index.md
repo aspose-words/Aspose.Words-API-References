@@ -1,7 +1,9 @@
 ---
-title: SignatureLineOptions.SignatureLineOptions
-second_title: Aspose.Words لمراجع .NET API
-description: SignatureLineOptions البناء. Default_Constructor
+title: SignatureLineOptions
+linktitle: SignatureLineOptions
+articleTitle: SignatureLineOptions
+second_title: Aspose.Words لـ .NET
+description: SignatureLineOptions البناء. Default_Constructor في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words/signaturelineoptions/signaturelineoptions/
@@ -17,7 +19,5 @@ public SignatureLineOptions()
 ### أنظر أيضا
 
 * class [SignatureLineOptions](../)
-* مساحة الاسم [Aspose.Words](../../signaturelineoptions/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

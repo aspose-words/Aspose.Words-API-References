@@ -1,7 +1,9 @@
 ---
 title: FieldAsk.PromptOnceOnMailMerge
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldAsk свойство. Получает или задает следует ли получать ответ пользователя один раз за операцию слияния почты.
+linktitle: PromptOnceOnMailMerge
+articleTitle: PromptOnceOnMailMerge
+second_title: Aspose.Words для .NET
+description: FieldAsk PromptOnceOnMailMerge свойство. Получает или задает следует ли получать ответ пользователя один раз за операцию слияния почты на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.fields/fieldask/promptonceonmailmerge/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldask/promptonceonmailmerge/
 public bool PromptOnceOnMailMerge { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как создать поле ASK и настроить его свойства.
 
@@ -76,7 +78,5 @@ private class MyPromptRespondent : IFieldUserPromptRespondent
 ### Смотрите также
 
 * class [FieldAsk](../)
-* пространство имен [Aspose.Words.Fields](../../fieldask/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

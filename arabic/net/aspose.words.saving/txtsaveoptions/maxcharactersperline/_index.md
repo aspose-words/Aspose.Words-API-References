@@ -1,7 +1,9 @@
 ---
 title: TxtSaveOptions.MaxCharactersPerLine
-second_title: Aspose.Words لمراجع .NET API
-description: TxtSaveOptions ملكية. الحصول على أو تعيين قيمة عددية تحدد الحد الأقصى لعدد الأحرف في سطر واحد. القيمة الافتراضية هي 0 وهذا يعني عدم وجود حد.
+linktitle: MaxCharactersPerLine
+articleTitle: MaxCharactersPerLine
+second_title: Aspose.Words لـ .NET
+description: TxtSaveOptions MaxCharactersPerLine ملكية. الحصول على أو تعيين قيمة عددية تحدد الحد الأقصى لعدد الأحرف في سطر واحد. القيمة الافتراضية هي 0 وهذا يعني عدم وجود حد في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.saving/txtsaveoptions/maxcharactersperline/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.saving/txtsaveoptions/maxcharactersperline/
 public int MaxCharactersPerLine { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين الحد الأقصى لعدد الأحرف في كل سطر.
 
@@ -34,7 +36,5 @@ doc.Save(ArtifactsDir + "TxtSaveOptions.MaxCharactersPerLine.txt", saveOptions);
 ### أنظر أيضا
 
 * class [TxtSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../txtsaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

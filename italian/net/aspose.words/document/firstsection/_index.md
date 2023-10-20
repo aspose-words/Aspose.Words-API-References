@@ -1,7 +1,9 @@
 ---
 title: Document.FirstSection
-second_title: Aspose.Words per .NET API Reference
-description: Document proprietà. Ottiene la prima sezione del documento.
+linktitle: FirstSection
+articleTitle: FirstSection
+second_title: Aspose.Words per .NET
+description: Document FirstSection proprietà. Ottiene la prima sezione del documento in C#.
 type: docs
 weight: 130
 url: /it/net/aspose.words/document/firstsection/
@@ -14,11 +16,11 @@ Ottiene la prima sezione del documento.
 public Section FirstSection { get; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Restituisce`nullo` se non ci sono sezioni.
 
-### Esempi
+## Esempi
 
 Mostra come sostituire il testo nel piè di pagina di un documento.
 
@@ -120,7 +122,5 @@ foreach (Node node in section)
 
 * class [Section](../../section/)
 * class [Document](../)
-* spazio dei nomi [Aspose.Words](../../document/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

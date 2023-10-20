@@ -1,7 +1,9 @@
 ---
-title: Enum AxisCategoryType
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Drawing.Charts.AxisCategoryType перечисление. Указывает тип оси категорий.
+title: AxisCategoryType Enum
+linktitle: AxisCategoryType
+articleTitle: AxisCategoryType
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Drawing.Charts.AxisCategoryType перечисление. Указывает тип оси категорий на С#.
 type: docs
 weight: 530
 url: /ru/net/aspose.words.drawing.charts/axiscategorytype/
@@ -22,7 +24,7 @@ public enum AxisCategoryType
 | Category | `1` | Указывает ось произвольного набора категорий. |
 | Time | `2` | Указывает ось категории времени. |
 
-### Примеры
+## Примеры
 
 Показывает, как вставить диаграмму и изменить внешний вид ее осей.
 
@@ -76,5 +78,3 @@ doc.Save(ArtifactsDir + "Charts.AxisProperties.docx");
 
 * пространство имен [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../)
-
-

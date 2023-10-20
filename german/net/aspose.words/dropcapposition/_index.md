@@ -1,7 +1,9 @@
 ---
-title: Enum DropCapPosition
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.DropCapPosition opsomming. Gibt die Position für einen Initialtext an.
+title: DropCapPosition Enum
+linktitle: DropCapPosition
+articleTitle: DropCapPosition
+second_title: Aspose.Words für .NET
+description: Aspose.Words.DropCapPosition opsomming. Gibt die Position für einen Initialtext an in C#.
 type: docs
 weight: 1410
 url: /de/net/aspose.words/dropcapposition/
@@ -22,7 +24,7 @@ public enum DropCapPosition
 | Normal | `1` | Die Initiale wird innerhalb des Textrandes des Ankerabsatzes positioniert. |
 | Margin | `2` | Die Initiale wird außerhalb des Textrandes im Ankerabsatz positioniert. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man eine Initiale erstellt.
 
@@ -57,5 +59,3 @@ doc.Save(ArtifactsDir + "ParagraphFormat.DropCap.docx");
 
 * namensraum [Aspose.Words](../../aspose.words/)
 * Montage [Aspose.Words](../../)
-
-

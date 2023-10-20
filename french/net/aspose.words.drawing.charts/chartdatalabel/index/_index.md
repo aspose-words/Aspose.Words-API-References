@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabel.Index
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ChartDataLabel propriété. Spécifie lindex de lélément conteneur. Cet index doit déterminer à quelle collection enfants du parent cet élément sapplique. La valeur par défaut est 0.
+linktitle: Index
+articleTitle: Index
+second_title: Aspose.Words pour .NET
+description: ChartDataLabel Index propriété. Spécifie lindex de lélément conteneur. Cet index doit déterminer à quelle collection enfants du parent cet élément sapplique. La valeur par défaut est 0 en C#.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.drawing.charts/chartdatalabel/index/
@@ -14,7 +16,7 @@ Spécifie l'index de l'élément conteneur. Cet index doit déterminer à quelle
 public int Index { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment appliquer des étiquettes aux points de données dans un graphique linéaire.
 
@@ -92,7 +94,5 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
 ### Voir également
 
 * class [ChartDataLabel](../)
-* espace de noms [Aspose.Words.Drawing.Charts](../../chartdatalabel/)
+* espace de noms [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Assemblée [Aspose.Words](../../../)
-
-

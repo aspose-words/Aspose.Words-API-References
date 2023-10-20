@@ -1,7 +1,9 @@
 ---
 title: ImageSaveOptions.ImageSize
-second_title: Aspose.Words for .NET API 参考
-description: ImageSaveOptions 财产. 获取或设置生成的图像的大小以像素为单位
+linktitle: ImageSize
+articleTitle: ImageSize
+second_title: 用于 .NET 的 Aspose.Words
+description: ImageSaveOptions ImageSize 财产. 获取或设置生成的图像的大小以像素为单位 在 C#.
 type: docs
 weight: 70
 url: /zh/net/aspose.words.saving/imagesaveoptions/imagesize/
@@ -14,13 +16,13 @@ url: /zh/net/aspose.words.saving/imagesaveoptions/imagesize/
 public Size ImageSize { get; set; }
 ```
 
-### 评论
+## 评论
 
 此属性仅在保存为光栅图像格式时有效。
 
 默认值为 (0 x 0)，这意味着生成的图像的大小将根据图像的大小（以点为单位）、指定的分辨率和比例来计算 。
 
-### 例子
+## 例子
 
 演示如何将文档的每一页渲染为单独的 TIFF 图像。
 
@@ -55,7 +57,5 @@ for (int i = 0; i < doc.PageCount; i++)
 ### 也可以看看
 
 * class [ImageSaveOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../imagesaveoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

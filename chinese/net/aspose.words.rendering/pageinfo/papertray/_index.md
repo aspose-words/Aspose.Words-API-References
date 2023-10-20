@@ -1,7 +1,9 @@
 ---
 title: PageInfo.PaperTray
-second_title: Aspose.Words for .NET API 参考
-description: PageInfo 财产. 获取文档中指定的该页的纸盘 bin 该值是特定于实现打印机的
+linktitle: PaperTray
+articleTitle: PaperTray
+second_title: 用于 .NET 的 Aspose.Words
+description: PageInfo PaperTray 财产. 获取文档中指定的该页的纸盘 bin 该值是特定于实现打印机的 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words.rendering/pageinfo/papertray/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.rendering/pageinfo/papertray/
 public int PaperTray { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何打印 Word 文档中每个页面的页面大小和方向信息。
 
@@ -56,7 +58,5 @@ for (int i = 0; i < doc.PageCount; i++)
 ### 也可以看看
 
 * class [PageInfo](../)
-* 命名空间 [Aspose.Words.Rendering](../../pageinfo/)
+* 命名空间 [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * 部件 [Aspose.Words](../../../)
-
-

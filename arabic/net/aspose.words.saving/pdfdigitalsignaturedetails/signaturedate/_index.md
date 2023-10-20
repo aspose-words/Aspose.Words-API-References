@@ -1,7 +1,9 @@
 ---
 title: PdfDigitalSignatureDetails.SignatureDate
-second_title: Aspose.Words لمراجع .NET API
-description: PdfDigitalSignatureDetails ملكية. الحصول على أو تحديد تاريخ التوقيع.
+linktitle: SignatureDate
+articleTitle: SignatureDate
+second_title: Aspose.Words لـ .NET
+description: PdfDigitalSignatureDetails SignatureDate ملكية. الحصول على أو تحديد تاريخ التوقيع في C#.
 type: docs
 weight: 60
 url: /ar/net/aspose.words.saving/pdfdigitalsignaturedetails/signaturedate/
@@ -14,13 +16,13 @@ url: /ar/net/aspose.words.saving/pdfdigitalsignaturedetails/signaturedate/
 public DateTime SignatureDate { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 القيمة الافتراضية هي الوقت الحالي.
 
 ستظهر هذه القيمة في التوقيع الرقمي كوقت كمبيوتر لم يتم التحقق منه.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التوقيع على مستند PDF تم إنشاؤه.
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignature.pdf", options);
 ### أنظر أيضا
 
 * class [PdfDigitalSignatureDetails](../)
-* مساحة الاسم [Aspose.Words.Saving](../../pdfdigitalsignaturedetails/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

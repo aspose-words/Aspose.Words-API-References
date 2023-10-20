@@ -1,7 +1,9 @@
 ---
 title: FontSettings.GetFontsSources
-second_title: Aspose.Words for .NET API 参考
-description: FontSettings 方法. 获取包含 Aspose.Words 查找 TrueType 字体的源列表的数组的副本
+linktitle: GetFontsSources
+articleTitle: GetFontsSources
+second_title: 用于 .NET 的 Aspose.Words
+description: FontSettings GetFontsSources 方法. 获取包含 Aspose.Words 查找 TrueType 字体的源列表的数组的副本 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words.fonts/fontsettings/getfontssources/
@@ -18,11 +20,11 @@ public FontSourceBase[] GetFontsSources()
 
 当前字体源的副本。
 
-### 评论
+## 评论
 
 返回的值是 Aspose.Words 使用的数据的副本。如果更改返回数组中的entries ，则不会对文档渲染产生影响。要指定新字体sources ，请使用[`SetFontsSources`](../setfontssources/)方法。
 
-### 例子
+## 例子
 
 展示如何将字体源添加到我们现有的字体源。
 
@@ -72,7 +74,5 @@ FontSettings.DefaultInstance.SetFontsSources(originalFontSources);
 
 * class [FontSourceBase](../../fontsourcebase/)
 * class [FontSettings](../)
-* 命名空间 [Aspose.Words.Fonts](../../fontsettings/)
+* 命名空间 [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * 部件 [Aspose.Words](../../../)
-
-

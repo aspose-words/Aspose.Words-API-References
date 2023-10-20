@@ -1,7 +1,9 @@
 ---
 title: LoadOptions.MswVersion
-second_title: Aspose.Words لمراجع .NET API
-description: LoadOptions ملكية. يسمح بتحديد أن عملية تحميل المستند يجب أن تتطابق مع إصدار معين من MS Word. القيمة الافتراضية هيWord2019
+linktitle: MswVersion
+articleTitle: MswVersion
+second_title: Aspose.Words لـ .NET
+description: LoadOptions MswVersion ملكية. يسمح بتحديد أن عملية تحميل المستند يجب أن تتطابق مع إصدار معين من MS Word. القيمة الافتراضية هيWord2019 في C#.
 type: docs
 weight: 100
 url: /ar/net/aspose.words.loading/loadoptions/mswversion/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.loading/loadoptions/mswversion/
 public MsWordVersion MswVersion { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 قد تتعامل إصدارات Word المختلفة مع جوانب معينة من محتوى المستند والتنسيق بشكل مختلف قليلاً أثناء عملية التحميل، مما قد يؤدي إلى اختلافات بسيطة في نموذج كائن المستند.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية محاكاة إجراء التحميل لإصدار معين من Microsoft Word أثناء تحميل المستند.
 
@@ -41,7 +43,5 @@ Assert.AreEqual(12.95d, doc.Styles.DefaultParagraphFormat.LineSpacing, 0.01d);
 
 * enum [MsWordVersion](../../../aspose.words.settings/mswordversion/)
 * class [LoadOptions](../)
-* مساحة الاسم [Aspose.Words.Loading](../../loadoptions/)
+* مساحة الاسم [Aspose.Words.Loading](../../../aspose.words.loading/)
 * المجسم [Aspose.Words](../../../)
-
-

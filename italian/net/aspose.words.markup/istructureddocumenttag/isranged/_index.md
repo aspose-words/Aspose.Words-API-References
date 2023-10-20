@@ -1,7 +1,9 @@
 ---
 title: IStructuredDocumentTag.IsRanged
-second_title: Aspose.Words per .NET API Reference
-description: IStructuredDocumentTag metodo. Restituisce true se questa istanza è un tag di documento strutturato con intervalli.
+linktitle: IsRanged
+articleTitle: IsRanged
+second_title: Aspose.Words per .NET
+description: IStructuredDocumentTag IsRanged metodo. Restituisce true se questa istanza è un tag di documento strutturato con intervalli in C#.
 type: docs
 weight: 140
 url: /it/net/aspose.words.markup/istructureddocumenttag/isranged/
@@ -14,7 +16,7 @@ Restituisce true se questa istanza è un tag di documento strutturato con interv
 public bool IsRanged()
 ```
 
-### Esempi
+## Esempi
 
 Mostra come ottenere il tag del documento strutturato.
 
@@ -34,7 +36,5 @@ Console.WriteLine(sdt.Id);
 ### Guarda anche
 
 * interface [IStructuredDocumentTag](../)
-* spazio dei nomi [Aspose.Words.Markup](../../istructureddocumenttag/)
+* spazio dei nomi [Aspose.Words.Markup](../../../aspose.words.markup/)
 * assemblea [Aspose.Words](../../../)
-
-

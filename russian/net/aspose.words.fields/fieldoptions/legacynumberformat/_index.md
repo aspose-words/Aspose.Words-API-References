@@ -1,7 +1,9 @@
 ---
 title: FieldOptions.LegacyNumberFormat
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldOptions свойство. Получает или задает значение указывающее включен или нет устаревший ранний чем AW 13.10 числовой формат для полей.
+linktitle: LegacyNumberFormat
+articleTitle: LegacyNumberFormat
+second_title: Aspose.Words для .NET
+description: FieldOptions LegacyNumberFormat свойство. Получает или задает значение указывающее включен или нет устаревший ранний чем AW 13.10 числовой формат для полей на С#.
 type: docs
 weight: 160
 url: /ru/net/aspose.words.fields/fieldoptions/legacynumberformat/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldoptions/legacynumberformat/
 public bool LegacyNumberFormat { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Когда для этого свойства установлено значение`истинный`, символ шаблона "#" работает как в .net: Заменяет знак решетки соответствующей цифрой, если она присутствует; в противном случае в строке результата не появятся никакие символы.
 
@@ -22,7 +24,7 @@ public bool LegacyNumberFormat { get; set; }
 
 Значение по умолчанию:`ЛОЖЬ`.
 
-### Примеры
+## Примеры
 
 Показывает, как включить устаревшее форматирование чисел для полей.
 
@@ -43,7 +45,5 @@ Assert.AreEqual("$5", field.Result);
 ### Смотрите также
 
 * class [FieldOptions](../)
-* пространство имен [Aspose.Words.Fields](../../fieldoptions/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

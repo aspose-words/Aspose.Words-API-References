@@ -1,7 +1,9 @@
 ---
 title: ListLevel.CustomNumberStyleFormat
-second_title: Справочник по API Aspose.Words для .NET
-description: ListLevel свойство. Получает пользовательский формат числового стиля для этого уровня списка. Например a ç ĝ ....
+linktitle: CustomNumberStyleFormat
+articleTitle: CustomNumberStyleFormat
+second_title: Aspose.Words для .NET
+description: ListLevel CustomNumberStyleFormat свойство. Получает пользовательский формат числового стиля для этого уровня списка. Например a ç ĝ  на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.lists/listlevel/customnumberstyleformat/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.lists/listlevel/customnumberstyleformat/
 public string CustomNumberStyleFormat { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как получить формат списка с пользовательским числовым стилем.
 
@@ -38,7 +40,5 @@ Assert.AreEqual("005", ListLevel.GetEffectiveValue(5, NumberStyle.Custom, custom
 ### Смотрите также
 
 * class [ListLevel](../)
-* пространство имен [Aspose.Words.Lists](../../listlevel/)
+* пространство имен [Aspose.Words.Lists](../../../aspose.words.lists/)
 * сборка [Aspose.Words](../../../)
-
-

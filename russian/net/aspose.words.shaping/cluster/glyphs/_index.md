@@ -1,7 +1,9 @@
 ---
 title: Cluster.Glyphs
-second_title: Справочник по API Aspose.Words для .NET
-description: Cluster свойство. Получает глифы кластера.
+linktitle: Glyphs
+articleTitle: Glyphs
+second_title: Aspose.Words для .NET
+description: Cluster Glyphs свойство. Получает глифы кластера на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.shaping/cluster/glyphs/
@@ -18,7 +20,5 @@ public Glyph[] Glyphs { get; }
 
 * class [Glyph](../../glyph/)
 * class [Cluster](../)
-* пространство имен [Aspose.Words.Shaping](../../cluster/)
+* пространство имен [Aspose.Words.Shaping](../../../aspose.words.shaping/)
 * сборка [Aspose.Words](../../../)
-
-

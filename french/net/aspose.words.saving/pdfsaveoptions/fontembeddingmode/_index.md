@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.FontEmbeddingMode
-second_title: Référence de l'API Aspose.Words pour .NET
-description: PdfSaveOptions propriété. Spécifie le mode dincorporation de police.
+linktitle: FontEmbeddingMode
+articleTitle: FontEmbeddingMode
+second_title: Aspose.Words pour .NET
+description: PdfSaveOptions FontEmbeddingMode propriété. Spécifie le mode dincorporation de police en C#.
 type: docs
 weight: 170
 url: /fr/net/aspose.words.saving/pdfsaveoptions/fontembeddingmode/
@@ -14,7 +16,7 @@ Spécifie le mode d'incorporation de police.
 public PdfFontEmbeddingMode FontEmbeddingMode { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 La valeur par défaut estEmbedAll.
 
@@ -22,7 +24,7 @@ Ce paramètre fonctionne uniquement pour le texte en codage ANSI (Windows-1252).
 
 La conformité PDF/A et PDF/UA nécessite que toutes les polices soient intégrées. EmbedAll La valeur sera utilisée automatiquement lors de l’enregistrement dans PDF/A et PDF/UA.
 
-### Exemples
+## Exemples
 
 Montre comment configurer Aspose.Words pour ignorer l’intégration des polices Arial et Times New Roman dans un document PDF.
 
@@ -68,7 +70,5 @@ switch (pdfFontEmbeddingMode)
 
 * enum [PdfFontEmbeddingMode](../../pdffontembeddingmode/)
 * class [PdfSaveOptions](../)
-* espace de noms [Aspose.Words.Saving](../../pdfsaveoptions/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

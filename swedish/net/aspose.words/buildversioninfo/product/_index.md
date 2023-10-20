@@ -1,7 +1,9 @@
 ---
 title: BuildVersionInfo.Product
-second_title: Aspose.Words för .NET API Referens
-description: BuildVersionInfo fast egendom. Får hela namnet på produkten.
+linktitle: Product
+articleTitle: Product
+second_title: Aspose.Words för .NET
+description: BuildVersionInfo Product fast egendom. Får hela namnet på produkten i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words/buildversioninfo/product/
@@ -14,7 +16,7 @@ Får hela namnet på produkten.
 public static string Product { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du visar information om din installerade version av Aspose.Words.
 
@@ -25,7 +27,5 @@ Console.WriteLine($"I am currently using {BuildVersionInfo.Product}, version num
 ### Se även
 
 * class [BuildVersionInfo](../)
-* namnutrymme [Aspose.Words](../../buildversioninfo/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

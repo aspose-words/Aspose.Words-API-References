@@ -1,12 +1,14 @@
 ---
 title: Aspose.Words.Drawing
-second_title: Aspose.Words for .NET API 参考
-description: 这 Aspose.Words.Drawing命名空间提供允许创建和修改绘图对象的类
+linktitle: Aspose.Words.Drawing
+articleTitle: Aspose.Words.Drawing
+second_title: 用于 .NET 的 Aspose.Words
+description: 这Aspose.Words.Drawing命名空间提供允许创建和修改绘图对象的类 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words.drawing/
 ---
-这 **Aspose.Words.Drawing**命名空间提供允许创建和修改绘图对象的类。
+这**Aspose.Words.Drawing**命名空间提供允许创建和修改绘图对象的类。
 
 ## 课程
 
@@ -63,5 +65,3 @@ url: /zh/net/aspose.words.drawing/
 | [VerticalAlignment](./verticalalignment/) | 指定浮动形状、文本框架或浮动表格的垂直对齐方式。 |
 | [WrapSide](./wrapside/) | 指定文本环绕形状或图片的哪一侧。 |
 | [WrapType](./wraptype/) | 指定文本如何环绕形状或图片。 |
-
-

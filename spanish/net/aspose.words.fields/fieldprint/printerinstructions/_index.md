@@ -1,7 +1,9 @@
 ---
 title: FieldPrint.PrinterInstructions
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldPrint propiedad. Obtiene o establece los caracteres del código de control específicos de la impresora o las instrucciones PostScript.
+linktitle: PrinterInstructions
+articleTitle: PrinterInstructions
+second_title: Aspose.Words para .NET
+description: FieldPrint PrinterInstructions propiedad. Obtiene o establece los caracteres del código de control específicos de la impresora o las instrucciones PostScript en C#.
 type: docs
 weight: 30
 url: /es/net/aspose.words.fields/fieldprint/printerinstructions/
@@ -14,7 +16,7 @@ Obtiene o establece los caracteres del código de control específicos de la imp
 public string PrinterInstructions { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra para insertar un campo PRINT.
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "Field.PRINT.docx");
 ### Ver también
 
 * class [FieldPrint](../)
-* espacio de nombres [Aspose.Words.Fields](../../fieldprint/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

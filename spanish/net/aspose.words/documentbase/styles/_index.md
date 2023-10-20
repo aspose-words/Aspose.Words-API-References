@@ -1,7 +1,9 @@
 ---
 title: DocumentBase.Styles
-second_title: Referencia de API de Aspose.Words para .NET
-description: DocumentBase propiedad. Devuelve una colección de estilos definidos en el documento.
+linktitle: Styles
+articleTitle: Styles
+second_title: Aspose.Words para .NET
+description: DocumentBase Styles propiedad. Devuelve una colección de estilos definidos en el documento en C#.
 type: docs
 weight: 80
 url: /es/net/aspose.words/documentbase/styles/
@@ -14,11 +16,11 @@ Devuelve una colección de estilos definidos en el documento.
 public StyleCollection Styles { get; }
 ```
 
-### Observaciones
+## Observaciones
 
 Para más información ver la descripción del[`StyleCollection`](../../stylecollection/) clase.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo acceder a la colección de estilos de un documento.
 
@@ -74,7 +76,5 @@ builder.Document.Save(ArtifactsDir + "Styles.ParagraphStyleBulletedList.docx");
 
 * class [StyleCollection](../../stylecollection/)
 * class [DocumentBase](../)
-* espacio de nombres [Aspose.Words](../../documentbase/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

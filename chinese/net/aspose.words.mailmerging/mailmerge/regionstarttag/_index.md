@@ -1,7 +1,9 @@
 ---
 title: MailMerge.RegionStartTag
-second_title: Aspose.Words for .NET API 参考
-description: MailMerge 财产. 获取或设置邮件合并区域开始标记
+linktitle: RegionStartTag
+articleTitle: RegionStartTag
+second_title: 用于 .NET 的 Aspose.Words
+description: MailMerge RegionStartTag 财产. 获取或设置邮件合并区域开始标记 在 C#.
 type: docs
 weight: 100
 url: /zh/net/aspose.words.mailmerging/mailmerge/regionstarttag/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.mailmerging/mailmerge/regionstarttag/
 public string RegionStartTag { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何创建、列出和读取邮件合并区域。
 
@@ -69,7 +71,5 @@ Assert.AreEqual("Column2", mergeFieldNames[0]);
 ### 也可以看看
 
 * class [MailMerge](../)
-* 命名空间 [Aspose.Words.MailMerging](../../mailmerge/)
+* 命名空间 [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * 部件 [Aspose.Words](../../../)
-
-

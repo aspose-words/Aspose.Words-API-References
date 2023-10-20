@@ -1,7 +1,9 @@
 ---
 title: Shape.Accept
-second_title: Aspose.Words för .NET API Referens
-description: Shape metod. Accepterar en besökare.
+linktitle: Accept
+articleTitle: Accept
+second_title: Aspose.Words för .NET
+description: Shape Accept metod. Accepterar en besökare i C#.
 type: docs
 weight: 240
 url: /sv/net/aspose.words.drawing/shape/accept/
@@ -22,7 +24,7 @@ public override bool Accept(DocumentVisitor visitor)
 
 Sant om alla noder besöktes; falskt om[`DocumentVisitor`](../../../aspose.words/documentvisitor/) stoppade operationen innan du besökte alla noder.
 
-### Anmärkningar
+## Anmärkningar
 
 Räknar upp denna nod och alla dess barn. Varje nod anropar en motsvarande metod[`DocumentVisitor`](../../../aspose.words/documentvisitor/).
 
@@ -30,7 +32,7 @@ För mer information se Visitor design mönster.
 
 Samtal[`VisitShapeStart`](../../../aspose.words/documentvisitor/visitshapestart/) , sedan ringer[`Accept`](../../../aspose.words/node/accept/) för alla underordnade noder av formen och anrop[`VisitShapeEnd`](../../../aspose.words/documentvisitor/visitshapeend/) i slutet.
 
-### Exempel
+## Exempel
 
 Visar hur man itererar över alla former i ett dokument.
 
@@ -154,7 +156,5 @@ private class ShapeAppearancePrinter : DocumentVisitor
 
 * class [DocumentVisitor](../../../aspose.words/documentvisitor/)
 * class [Shape](../)
-* namnutrymme [Aspose.Words.Drawing](../../shape/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

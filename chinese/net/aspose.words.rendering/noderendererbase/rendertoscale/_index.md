@@ -1,7 +1,9 @@
 ---
 title: NodeRendererBase.RenderToScale
-second_title: Aspose.Words for .NET API 参考
-description: NodeRendererBase 方法. 将形状渲染为Graphics 对象达到指定比例
+linktitle: RenderToScale
+articleTitle: RenderToScale
+second_title: 用于 .NET 的 Aspose.Words
+description: NodeRendererBase RenderToScale 方法. 将形状渲染为Graphics 对象达到指定比例 在 C#.
 type: docs
 weight: 70
 url: /zh/net/aspose.words.rendering/noderendererbase/rendertoscale/
@@ -25,7 +27,7 @@ public SizeF RenderToScale(Graphics graphics, float x, float y, float scale)
 
 渲染形状的宽度和高度（以世界单位表示）。
 
-### 例子
+## 例子
 
 演示如何使用 Graphics 对象渲染形状并使用 Windows 窗体显示它。
 
@@ -135,7 +137,5 @@ private class ShapeForm : Form
 ### 也可以看看
 
 * class [NodeRendererBase](../)
-* 命名空间 [Aspose.Words.Rendering](../../noderendererbase/)
+* 命名空间 [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * 部件 [Aspose.Words](../../../)
-
-

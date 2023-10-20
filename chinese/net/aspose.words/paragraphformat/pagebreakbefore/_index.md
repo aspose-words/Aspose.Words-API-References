@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.PageBreakBefore
-second_title: Aspose.Words for .NET API 参考
-description: ParagraphFormat 财产. 如果在段落之前强制分页则为 True
+linktitle: PageBreakBefore
+articleTitle: PageBreakBefore
+second_title: 用于 .NET 的 Aspose.Words
+description: ParagraphFormat PageBreakBefore 财产. 如果在段落之前强制分页则为 True 在 C#.
 type: docs
 weight: 260
 url: /zh/net/aspose.words/paragraphformat/pagebreakbefore/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/paragraphformat/pagebreakbefore/
 public bool PageBreakBefore { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何创建开头带有分页符的段落。
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "ParagraphFormat.PageBreakBefore.docx");
 ### 也可以看看
 
 * class [ParagraphFormat](../)
-* 命名空间 [Aspose.Words](../../paragraphformat/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

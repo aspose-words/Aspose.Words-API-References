@@ -1,7 +1,9 @@
 ---
 title: OutlineOptions.CreateMissingOutlineLevels
-second_title: Référence de l'API Aspose.Words pour .NET
-description: OutlineOptions propriété. Obtient ou définit une valeur déterminant sil faut ou non créer des niveaux hiérarchiques manquants lorsque le document est exporté.
+linktitle: CreateMissingOutlineLevels
+articleTitle: CreateMissingOutlineLevels
+second_title: Aspose.Words pour .NET
+description: OutlineOptions CreateMissingOutlineLevels propriété. Obtient ou définit une valeur déterminant sil faut ou non créer des niveaux hiérarchiques manquants lorsque le document est exporté en C#.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.saving/outlineoptions/createmissingoutlinelevels/
@@ -16,7 +18,7 @@ La valeur par défaut de cette propriété est`FAUX`.
 public bool CreateMissingOutlineLevels { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment travailler avec des niveaux hiérarchiques qui ne contiennent aucun titre correspondant lors de l'enregistrement d'un document PDF.
 
@@ -59,7 +61,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.CreateMissingOutlineLevels.pdf", saveOpt
 ### Voir également
 
 * class [OutlineOptions](../)
-* espace de noms [Aspose.Words.Saving](../../outlineoptions/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

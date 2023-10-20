@@ -1,7 +1,9 @@
 ---
 title: RevisionGroup.RevisionType
-second_title: Aspose.Words für .NET-API-Referenz
-description: RevisionGroup eigendom. Ruft den Typ der in dieser Gruppe enthaltenen Revisionen ab.
+linktitle: RevisionType
+articleTitle: RevisionType
+second_title: Aspose.Words für .NET
+description: RevisionGroup RevisionType eigendom. Ruft den Typ der in dieser Gruppe enthaltenen Revisionen ab in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words/revisiongroup/revisiontype/
@@ -14,7 +16,7 @@ Ruft den Typ der in dieser Gruppe enthaltenen Revisionen ab.
 public RevisionType RevisionType { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Informationen zu einer Gruppe von Revisionen in einem Dokument gedruckt werden.
 
@@ -34,7 +36,5 @@ foreach (RevisionGroup group in doc.Revisions.Groups)
 
 * enum [RevisionType](../../revisiontype/)
 * class [RevisionGroup](../)
-* namensraum [Aspose.Words](../../revisiongroup/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldHyperlink.Address
-second_title: Aspose.Words لمراجع .NET API
-description: FieldHyperlink ملكية. الحصول على الموقع الذي ينتقل إليه هذا الارتباط التشعبي أو تعيينه.
+linktitle: Address
+articleTitle: Address
+second_title: Aspose.Words لـ .NET
+description: FieldHyperlink Address ملكية. الحصول على الموقع الذي ينتقل إليه هذا الارتباط التشعبي أو تعيينه في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.fields/fieldhyperlink/address/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldhyperlink/address/
 public string Address { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام حقول HYPERLINK للارتباط بالمستندات الموجودة في نظام الملفات المحلي.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "Field.HYPERLINK.docx");
 ### أنظر أيضا
 
 * class [FieldHyperlink](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldhyperlink/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

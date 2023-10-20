@@ -1,7 +1,9 @@
 ---
 title: Style.List
-second_title: Aspose.Words per .NET API Reference
-description: Style proprietà. Ottiene lelenco che definisce la formattazione di questo stile di elenco.
+linktitle: List
+articleTitle: List
+second_title: Aspose.Words per .NET
+description: Style List proprietà. Ottiene lelenco che definisce la formattazione di questo stile di elenco in C#.
 type: docs
 weight: 100
 url: /it/net/aspose.words/style/list/
@@ -14,11 +16,11 @@ Ottiene l'elenco che definisce la formattazione di questo stile di elenco.
 public List List { get; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Questa proprietà è valida solo per gli stili di elenco. Per altri tipi di stile questa proprietà restituisce`nullo`.
 
-### Esempi
+## Esempi
 
 Mostra come creare uno stile di elenco e utilizzarlo in un documento.
 
@@ -80,7 +82,5 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateAndUseListStyle.docx");
 
 * class [List](../../../aspose.words.lists/list/)
 * class [Style](../)
-* spazio dei nomi [Aspose.Words](../../style/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

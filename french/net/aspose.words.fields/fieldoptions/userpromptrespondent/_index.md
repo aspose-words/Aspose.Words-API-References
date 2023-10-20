@@ -1,7 +1,9 @@
 ---
 title: FieldOptions.UserPromptRespondent
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldOptions propriété. Obtient ou définit le répondant sur les invites de lutilisateur lors de la mise à jour du champ.
+linktitle: UserPromptRespondent
+articleTitle: UserPromptRespondent
+second_title: Aspose.Words pour .NET
+description: FieldOptions UserPromptRespondent propriété. Obtient ou définit le répondant sur les invites de lutilisateur lors de la mise à jour du champ en C#.
 type: docs
 weight: 220
 url: /fr/net/aspose.words.fields/fieldoptions/userpromptrespondent/
@@ -14,13 +16,13 @@ Obtient ou définit le répondant sur les invites de l'utilisateur lors de la mi
 public IFieldUserPromptRespondent UserPromptRespondent { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 Si la valeur de cette propriété est définie sur`nul` , les champs qui nécessitent une réponse de l'utilisateur sur prompting (tels que[`FieldAsk`](../../fieldask/) ou[`FieldFillIn`](../../fieldfillin/)) ne sont pas mis à jour.
 
 La valeur par défaut est`nul`.
 
-### Exemples
+## Exemples
 
 Montre comment créer un champ ASK et définir ses propriétés.
 
@@ -83,7 +85,5 @@ private class MyPromptRespondent : IFieldUserPromptRespondent
 
 * interface [IFieldUserPromptRespondent](../../ifielduserpromptrespondent/)
 * class [FieldOptions](../)
-* espace de noms [Aspose.Words.Fields](../../fieldoptions/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

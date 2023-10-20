@@ -1,7 +1,9 @@
 ---
 title: FieldLink.InsertAsBitmap
-second_title: Aspose.Words for .NET API 参考
-description: FieldLink 财产. 获取或设置是否将链接对象作为位图插入
+linktitle: InsertAsBitmap
+articleTitle: InsertAsBitmap
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldLink InsertAsBitmap 财产. 获取或设置是否将链接对象作为位图插入 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.fields/fieldlink/insertasbitmap/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fieldlink/insertasbitmap/
 public bool InsertAsBitmap { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何使用各种字段类型链接到本地文件系统中的其他文档并显示其内容。
 
@@ -197,7 +199,5 @@ public enum InsertLinkedObjectAs
 ### 也可以看看
 
 * class [FieldLink](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldlink/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

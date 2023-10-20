@@ -1,7 +1,9 @@
 ---
 title: FieldRef.IncludeNoteOrComment
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldRef propriété. Obtient ou définit sil faut incrémenter les numéros de note de bas de page de fin et dannotation qui sont marqués par le signet et insérer le texte de note de bas de page de fin et de commentaire correspondant.
+linktitle: IncludeNoteOrComment
+articleTitle: IncludeNoteOrComment
+second_title: Aspose.Words pour .NET
+description: FieldRef IncludeNoteOrComment propriété. Obtient ou définit sil faut incrémenter les numéros de note de bas de page de fin et dannotation qui sont marqués par le signet et insérer le texte de note de bas de page de fin et de commentaire correspondant en C#.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.fields/fieldref/includenoteorcomment/
@@ -14,7 +16,7 @@ Obtient ou définit s'il faut incrémenter les numéros de note de bas de page, 
 public bool IncludeNoteOrComment { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment insérer des champs REF pour référencer des signets.
 
@@ -104,7 +106,5 @@ private static FieldRef InsertFieldRef(DocumentBuilder builder, string bookmarkN
 ### Voir également
 
 * class [FieldRef](../)
-* espace de noms [Aspose.Words.Fields](../../fieldref/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

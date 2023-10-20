@@ -1,7 +1,9 @@
 ---
 title: TextPath.Size
-second_title: Aspose.Words für .NET-API-Referenz
-description: TextPath eigendom. Definiert die Größe der Schriftart in Punkten.
+linktitle: Size
+articleTitle: Size
+second_title: Aspose.Words für .NET
+description: TextPath Size eigendom. Definiert die Größe der Schriftart in Punkten in C#.
 type: docs
 weight: 120
 url: /de/net/aspose.words.drawing/textpath/size/
@@ -14,14 +16,12 @@ Definiert die Größe der Schriftart in Punkten.
 public double Size { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Der Standardwert ist 36.
 
 ### Siehe auch
 
 * class [TextPath](../)
-* namensraum [Aspose.Words.Drawing](../../textpath/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

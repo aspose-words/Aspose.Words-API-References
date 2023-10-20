@@ -1,7 +1,9 @@
 ---
 title: FieldSeq.InsertNextNumber
-second_title: Aspose.Words för .NET API Referens
-description: FieldSeq fast egendom. Hämtar eller ställer in om nästa sekvensnummer för det angivna objektet ska infogas.
+linktitle: InsertNextNumber
+articleTitle: InsertNextNumber
+second_title: Aspose.Words för .NET
+description: FieldSeq InsertNextNumber fast egendom. Hämtar eller ställer in om nästa sekvensnummer för det angivna objektet ska infogas i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.fields/fieldseq/insertnextnumber/
@@ -14,7 +16,7 @@ Hämtar eller ställer in om nästa sekvensnummer för det angivna objektet ska 
 public bool InsertNextNumber { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar skapa numrering med SEQ-fält.
 
@@ -78,7 +80,5 @@ doc.Save(ArtifactsDir + "Field.SEQ.ResetNumbering.docx");
 ### Se även
 
 * class [FieldSeq](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldseq/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: GradientStop.Transparency
-second_title: Aspose.Words för .NET API Referens
-description: GradientStop fast egendom. Hämtar eller ställer in ett värde som representerar genomskinligheten för gradientfill uttryckt som en procent i intervallet 0.0 till 1.0.
+linktitle: Transparency
+articleTitle: Transparency
+second_title: Aspose.Words för .NET
+description: GradientStop Transparency fast egendom. Hämtar eller ställer in ett värde som representerar genomskinligheten för gradientfill uttryckt som en procent i intervallet 0.0 till 1.0 i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.drawing/gradientstop/transparency/
@@ -14,7 +16,7 @@ Hämtar eller ställer in ett värde som representerar genomskinligheten för gr
 public double Transparency { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man lägger till övertoningsstopp i övertoningsfyllningen.
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "Shape.GradientStops.docx", saveOptions);
 ### Se även
 
 * class [GradientStop](../)
-* namnutrymme [Aspose.Words.Drawing](../../gradientstop/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

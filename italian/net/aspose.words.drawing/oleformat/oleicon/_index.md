@@ -1,7 +1,9 @@
 ---
 title: OleFormat.OleIcon
-second_title: Aspose.Words per .NET API Reference
-description: OleFormat proprietà. Ottiene laspetto di disegno delloggetto OLE. QuandoVERO  loggetto OLE viene visualizzato come icona. Quandofalso  loggetto OLE viene visualizzato come content.
+linktitle: OleIcon
+articleTitle: OleIcon
+second_title: Aspose.Words per .NET
+description: OleFormat OleIcon proprietà. Ottiene laspetto di disegno delloggetto OLE. QuandoVERO  loggetto OLE viene visualizzato come icona. Quandofalso  loggetto OLE viene visualizzato come content in C#.
 type: docs
 weight: 70
 url: /it/net/aspose.words.drawing/oleformat/oleicon/
@@ -14,11 +16,11 @@ Ottiene l'aspetto di disegno dell'oggetto OLE. Quando`VERO` , l'oggetto OLE vien
 public bool OleIcon { get; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Aspose.Words non consente di impostare questa proprietà per evitare confusione. Se fossi in grado di cambiare l'aspetto di disegno in Aspose.Words, Microsoft Word visualizzerebbe comunque l'oggetto OLE nel suo aspetto di disegno originale finché non modifichi o aggiorni l'oggetto OLE in Microsoft Word.
 
-### Esempi
+## Esempi
 
 Mostra come inserire oggetti OLE collegati e scollegati.
 
@@ -68,7 +70,5 @@ using (MemoryStream stream = oleFormat.GetOleEntry("\x0001CompObj"))
 ### Guarda anche
 
 * class [OleFormat](../)
-* spazio dei nomi [Aspose.Words.Drawing](../../oleformat/)
+* spazio dei nomi [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assemblea [Aspose.Words](../../../)
-
-

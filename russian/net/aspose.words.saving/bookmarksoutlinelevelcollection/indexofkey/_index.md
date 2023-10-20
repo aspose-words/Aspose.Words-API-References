@@ -1,7 +1,9 @@
 ---
 title: BookmarksOutlineLevelCollection.IndexOfKey
-second_title: Справочник по API Aspose.Words для .NET
-description: BookmarksOutlineLevelCollection метод. Возвращает отсчитываемый от нуля индекс указанной закладки в коллекции.
+linktitle: IndexOfKey
+articleTitle: IndexOfKey
+second_title: Aspose.Words для .NET
+description: BookmarksOutlineLevelCollection IndexOfKey метод. Возвращает отсчитываемый от нуля индекс указанной закладки в коллекции на С#.
 type: docs
 weight: 80
 url: /ru/net/aspose.words.saving/bookmarksoutlinelevelcollection/indexofkey/
@@ -22,7 +24,7 @@ public int IndexOfKey(string name)
 
 Индекс, отсчитываемый от нуля. Отрицательное значение, если не обнаружено.
 
-### Примеры
+## Примеры
 
 Показывает, как установить уровни структуры для закладок.
 
@@ -80,7 +82,5 @@ outlineLevels.Clear();
 ### Смотрите также
 
 * class [BookmarksOutlineLevelCollection](../)
-* пространство имен [Aspose.Words.Saving](../../bookmarksoutlinelevelcollection/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ImageData.HasImage
-second_title: Справочник по API Aspose.Words для .NET
-description: ImageData свойство. Возвращаетистинный если фигура содержит байты изображения или связывает изображение.
+linktitle: HasImage
+articleTitle: HasImage
+second_title: Aspose.Words для .NET
+description: ImageData HasImage свойство. Возвращаетистинный если фигура содержит байты изображения или связывает изображение на С#.
 type: docs
 weight: 110
 url: /ru/net/aspose.words.drawing/imagedata/hasimage/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.drawing/imagedata/hasimage/
 public bool HasImage { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как сохранить все изображения из документа в файловую систему.
 
@@ -47,7 +49,5 @@ using (IEnumerator<Shape> enumerator = shapesWithImages.GetEnumerator())
 ### Смотрите также
 
 * class [ImageData](../)
-* пространство имен [Aspose.Words.Drawing](../../imagedata/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

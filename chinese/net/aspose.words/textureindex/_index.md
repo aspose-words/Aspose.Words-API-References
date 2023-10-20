@@ -1,7 +1,9 @@
 ---
-title: Enum TextureIndex
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.TextureIndex 枚举. 指定着色纹理
+title: TextureIndex Enum
+linktitle: TextureIndex
+articleTitle: TextureIndex
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.TextureIndex 枚举. 指定着色纹理 在 C#.
 type: docs
 weight: 6450
 url: /zh/net/aspose.words/textureindex/
@@ -73,7 +75,7 @@ public enum TextureIndex
 | TextureVertical | `21` |  |
 | TextureNil | `65535` | 指定当前阴影区域 上不应使用任何图案（即图案应完全填充背景颜色）。 |
 
-### 例子
+## 例子
 
 展示如何用边框和底纹装饰文本。
 
@@ -126,5 +128,3 @@ doc.Save(ArtifactsDir + "Table.SetOutlineBorders.docx");
 
 * 命名空间 [Aspose.Words](../../aspose.words/)
 * 部件 [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: CustomXmlSchemaCollection.Remove
-second_title: Aspose.Words för .NET API Referens
-description: CustomXmlSchemaCollection metod. Tar bort det angivna värdet från samlingen.
+linktitle: Remove
+articleTitle: Remove
+second_title: Aspose.Words för .NET
+description: CustomXmlSchemaCollection Remove metod. Tar bort det angivna värdet från samlingen i C#.
 type: docs
 weight: 80
 url: /sv/net/aspose.words.markup/customxmlschemacollection/remove/
@@ -18,7 +20,7 @@ public void Remove(string name)
 | --- | --- | --- |
 | name | String | Det skiftlägeskänsliga värdet som ska tas bort. |
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med en XML-schemasamling.
 
@@ -64,7 +66,5 @@ Assert.AreEqual(0, schemas.Count);
 ### Se även
 
 * class [CustomXmlSchemaCollection](../)
-* namnutrymme [Aspose.Words.Markup](../../customxmlschemacollection/)
+* namnutrymme [Aspose.Words.Markup](../../../aspose.words.markup/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ChartLegendEntryCollection.GetEnumerator
-second_title: Справочник по API Aspose.Words для .NET
-description: ChartLegendEntryCollection метод. Возвращает объект перечислителя.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words для .NET
+description: ChartLegendEntryCollection GetEnumerator метод. Возвращает объект перечислителя на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.drawing.charts/chartlegendentrycollection/getenumerator/
@@ -18,7 +20,5 @@ public IEnumerator<ChartLegendEntry> GetEnumerator()
 
 * class [ChartLegendEntry](../../chartlegendentry/)
 * class [ChartLegendEntryCollection](../)
-* пространство имен [Aspose.Words.Drawing.Charts](../../chartlegendentrycollection/)
+* пространство имен [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../../)
-
-

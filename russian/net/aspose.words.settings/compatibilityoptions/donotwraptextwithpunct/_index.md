@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.DoNotWrapTextWithPunct
-second_title: Справочник по API Aspose.Words для .NET
-description: CompatibilityOptions свойство. Не допускать висящих знаков препинания в сетке символов.
+linktitle: DoNotWrapTextWithPunct
+articleTitle: DoNotWrapTextWithPunct
+second_title: Aspose.Words для .NET
+description: CompatibilityOptions DoNotWrapTextWithPunct свойство. Не допускать висящих знаков препинания в сетке символов на С#.
 type: docs
 weight: 250
 url: /ru/net/aspose.words.settings/compatibilityoptions/donotwraptextwithpunct/
@@ -17,7 +19,5 @@ public bool DoNotWrapTextWithPunct { get; set; }
 ### Смотрите также
 
 * class [CompatibilityOptions](../)
-* пространство имен [Aspose.Words.Settings](../../compatibilityoptions/)
+* пространство имен [Aspose.Words.Settings](../../../aspose.words.settings/)
 * сборка [Aspose.Words](../../../)
-
-

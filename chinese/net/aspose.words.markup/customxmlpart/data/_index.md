@@ -1,7 +1,9 @@
 ---
 title: CustomXmlPart.Data
-second_title: Aspose.Words for .NET API 参考
-description: CustomXmlPart 财产. 获取或设置此自定义 XML 数据存储部分的 XML 内容
+linktitle: Data
+articleTitle: Data
+second_title: 用于 .NET 的 Aspose.Words
+description: CustomXmlPart Data 财产. 获取或设置此自定义 XML 数据存储部分的 XML 内容 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.markup/customxmlpart/data/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.markup/customxmlpart/data/
 public byte[] Data { get; set; }
 ```
 
-### 评论
+## 评论
 
 默认值为空字节数组。该值不能是`无效的`。
 
-### 例子
+## 例子
 
 演示如何使用自定义 XML 数据创建结构化文档标签。
 
@@ -85,7 +87,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.CustomXml.docx");
 ### 也可以看看
 
 * class [CustomXmlPart](../)
-* 命名空间 [Aspose.Words.Markup](../../customxmlpart/)
+* 命名空间 [Aspose.Words.Markup](../../../aspose.words.markup/)
 * 部件 [Aspose.Words](../../../)
-
-

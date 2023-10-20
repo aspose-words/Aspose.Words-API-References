@@ -1,7 +1,9 @@
 ---
 title: IDocumentConverterPlugin.Convert
-second_title: Aspose.Words för .NET API Referens
-description: IDocumentConverterPlugin metod. Konverterar dokument med hjälp av specificerade utdataströmmar och sparaalternativ.
+linktitle: Convert
+articleTitle: Convert
+second_title: Aspose.Words för .NET
+description: IDocumentConverterPlugin Convert metod. Konverterar dokument med hjälp av specificerade utdataströmmar och sparaalternativ i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words/idocumentconverterplugin/convert/
@@ -24,7 +26,5 @@ public void Convert(Stream inputStream, Stream outputStream, SaveOptions saveOpt
 
 * class [SaveOptions](../../../aspose.words.saving/saveoptions/)
 * interface [IDocumentConverterPlugin](../)
-* namnutrymme [Aspose.Words](../../idocumentconverterplugin/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

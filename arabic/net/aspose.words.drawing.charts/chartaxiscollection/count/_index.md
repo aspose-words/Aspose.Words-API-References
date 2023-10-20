@@ -1,7 +1,9 @@
 ---
 title: ChartAxisCollection.Count
-second_title: Aspose.Words لمراجع .NET API
-description: ChartAxisCollection ملكية. الحصول على عدد المحاور في هذه المجموعة.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words لـ .NET
+description: ChartAxisCollection Count ملكية. الحصول على عدد المحاور في هذه المجموعة في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.drawing.charts/chartaxiscollection/count/
@@ -17,7 +19,5 @@ public int Count { get; }
 ### أنظر أيضا
 
 * class [ChartAxisCollection](../)
-* مساحة الاسم [Aspose.Words.Drawing.Charts](../../chartaxiscollection/)
+* مساحة الاسم [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../../)
-
-

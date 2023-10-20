@@ -1,7 +1,9 @@
 ---
 title: Odso.DataSource
-second_title: Aspose.Words per .NET API Reference
-description: Odso proprietà. Specifica il percorso dellorigine dati esterna da connettere a un documento per eseguire la stampa unione. Il valore predefinito è una stringa vuota.
+linktitle: DataSource
+articleTitle: DataSource
+second_title: Aspose.Words per .NET
+description: Odso DataSource proprietà. Specifica il percorso dellorigine dati esterna da connettere a un documento per eseguire la stampa unione. Il valore predefinito è una stringa vuota in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words.settings/odso/datasource/
@@ -14,7 +16,7 @@ Specifica il percorso dell'origine dati esterna da connettere a un documento per
 public string DataSource { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come eseguire una stampa unione con i dati di un oggetto origine dati di Office.
 
@@ -66,7 +68,5 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ### Guarda anche
 
 * class [Odso](../)
-* spazio dei nomi [Aspose.Words.Settings](../../odso/)
+* spazio dei nomi [Aspose.Words.Settings](../../../aspose.words.settings/)
 * assemblea [Aspose.Words](../../../)
-
-

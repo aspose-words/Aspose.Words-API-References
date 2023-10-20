@@ -1,7 +1,9 @@
 ---
-title: Class Node
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Node clase. Clase base para todos los nodos de un documento de Word.
+title: Node Class
+linktitle: Node
+articleTitle: Node
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Node clase. Clase base para todos los nodos de un documento de Word en C#.
 type: docs
 weight: 4170
 url: /es/net/aspose.words/node/
@@ -33,19 +35,19 @@ public abstract class Node
 
 | Nombre | Descripción |
 | --- | --- |
-| abstract [Accept](../../aspose.words/node/accept/)(DocumentVisitor) | Acepta un visitante. |
-| [Clone](../../aspose.words/node/clone/)(bool) | Crea un duplicado del nodo. |
-| [GetAncestor](../../aspose.words/node/getancestor/#getancestor)(NodeType) | Obtiene el primer ancestro del especificado[`NodeType`](../nodetype/) . |
-| [GetAncestor](../../aspose.words/node/getancestor/#getancestor_1)(Type) | Obtiene el primer antepasado del tipo de objeto especificado. |
+| abstract [Accept](../../aspose.words/node/accept/)(*[DocumentVisitor](../documentvisitor/)*) | Acepta un visitante. |
+| [Clone](../../aspose.words/node/clone/)(*bool*) | Crea un duplicado del nodo. |
+| [GetAncestor](../../aspose.words/node/getancestor/#getancestor)(*[NodeType](../nodetype/)*) | Obtiene el primer ancestro del especificado[`NodeType`](../nodetype/) . |
+| [GetAncestor](../../aspose.words/node/getancestor/#getancestor_1)(*Type*) | Obtiene el primer antepasado del tipo de objeto especificado. |
 | virtual [GetText](../../aspose.words/node/gettext/)() | Obtiene el texto de este nodo y de todos sus hijos. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Obtiene el siguiente nodo según el algoritmo transversal del árbol de pedidos anticipados. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Obtiene el nodo anterior según el algoritmo transversal del árbol de pedidos anticipados. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*Node*) | Obtiene el siguiente nodo según el algoritmo transversal del árbol de pedidos anticipados. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*Node*) | Obtiene el nodo anterior según el algoritmo transversal del árbol de pedidos anticipados. |
 | [Remove](../../aspose.words/node/remove/)() | Se elimina del padre. |
-| [ToString](../../aspose.words/node/tostring/#tostring_1)(SaveFormat) | Exporta el contenido del nodo a una cadena en el formato especificado. |
-| [ToString](../../aspose.words/node/tostring/#tostring_2)(SaveOptions) | Exporta el contenido del nodo a una cadena usando las opciones de guardado especificadas. |
-| static [NodeTypeToString](../../aspose.words/node/nodetypetostring/)(NodeType) | Un método de utilidad que convierte un valor de enumeración de tipo de nodo en una cadena fácil de usar. |
+| [ToString](../../aspose.words/node/tostring/#tostring_1)(*[SaveFormat](../saveformat/)*) | Exporta el contenido del nodo a una cadena en el formato especificado. |
+| [ToString](../../aspose.words/node/tostring/#tostring_2)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | Exporta el contenido del nodo a una cadena usando las opciones de guardado especificadas. |
+| static [NodeTypeToString](../../aspose.words/node/nodetypetostring/)(*[NodeType](../nodetype/)*) | Un método de utilidad que convierte un valor de enumeración de tipo de nodo en una cadena fácil de usar. |
 
-### Observaciones
+## Observaciones
 
 Un documento se representa como un árbol de nodos, similar a DOM o XmlDocument.
 
@@ -59,7 +61,7 @@ El`Node` clase:
 * Implementa mecanismos de documentos de propietario y nodo principal.
 * Implementa el acceso a nodos hermanos.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo eliminar todos los nodos secundarios de un tipo específico de un nodo compuesto.
 
@@ -151,5 +153,3 @@ foreach (Node child in children)
 
 * espacio de nombres [Aspose.Words](../../aspose.words/)
 * asamblea [Aspose.Words](../../)
-
-

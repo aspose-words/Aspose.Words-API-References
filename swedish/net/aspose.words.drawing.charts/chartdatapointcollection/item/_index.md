@@ -1,7 +1,9 @@
 ---
 title: ChartDataPointCollection.Item
-second_title: Aspose.Words för .NET API Referens
-description: ChartDataPointCollection fast egendom. ReturnerarChartDataPoint för det angivna indexet.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words för .NET
+description: ChartDataPointCollection Item fast egendom. ReturnerarChartDataPoint för det angivna indexet i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.drawing.charts/chartdatapointcollection/item/
@@ -14,7 +16,7 @@ Returnerar[`ChartDataPoint`](../../chartdatapoint/) för det angivna indexet.
 public ChartDataPoint this[int index] { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med datapunkter på ett linjediagram.
 
@@ -77,7 +79,5 @@ private static void ApplyDataPoints(ChartSeries series, int dataPointsCount, Mar
 
 * class [ChartDataPoint](../../chartdatapoint/)
 * class [ChartDataPointCollection](../)
-* namnutrymme [Aspose.Words.Drawing.Charts](../../chartdatapointcollection/)
+* namnutrymme [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../../)
-
-

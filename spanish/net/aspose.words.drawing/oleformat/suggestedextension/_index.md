@@ -1,7 +1,9 @@
 ---
 title: OleFormat.SuggestedExtension
-second_title: Referencia de API de Aspose.Words para .NET
-description: OleFormat propiedad. Obtiene la extensión de archivo sugerida para el objeto incrustado actual si desea guardarlo en un archivo.
+linktitle: SuggestedExtension
+articleTitle: SuggestedExtension
+second_title: Aspose.Words para .NET
+description: OleFormat SuggestedExtension propiedad. Obtiene la extensión de archivo sugerida para el objeto incrustado actual si desea guardarlo en un archivo en C#.
 type: docs
 weight: 120
 url: /es/net/aspose.words.drawing/oleformat/suggestedextension/
@@ -14,7 +16,7 @@ Obtiene la extensión de archivo sugerida para el objeto incrustado actual si de
 public string SuggestedExtension { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo extraer objetos OLE incrustados en archivos.
 
@@ -49,7 +51,5 @@ oleFormat.Save(ArtifactsDir + "OLE spreadsheet saved directly" + oleFormat.Sugge
 ### Ver también
 
 * class [OleFormat](../)
-* espacio de nombres [Aspose.Words.Drawing](../../oleformat/)
+* espacio de nombres [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * asamblea [Aspose.Words](../../../)
-
-

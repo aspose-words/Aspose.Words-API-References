@@ -1,7 +1,9 @@
 ---
-title: Enum CalendarType
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.CalendarType перечисление. Указывает тип календаря.
+title: CalendarType Enum
+linktitle: CalendarType
+articleTitle: CalendarType
+second_title: Aspose.Words для .NET
+description: Aspose.Words.CalendarType перечисление. Указывает тип календаря на С#.
 type: docs
 weight: 190
 url: /ru/net/aspose.words/calendartype/
@@ -24,7 +26,7 @@ public enum CalendarType
 | SakaEra | `3` | Календарь эпохи саков. |
 | UmAlQura | `4` | Календарь Ум-аль-Кура. |
 
-### Примеры
+## Примеры
 
 Показывает, как автоматически применять пользовательский формат к результатам полей при обновлении полей.
 
@@ -162,5 +164,3 @@ private class FieldResultFormatter : IFieldResultFormatter
 
 * пространство имен [Aspose.Words](../../aspose.words/)
 * сборка [Aspose.Words](../../)
-
-

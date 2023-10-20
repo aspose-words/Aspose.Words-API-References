@@ -1,26 +1,28 @@
 ---
 title: StructuredDocumentTag.Checked
-second_title: Aspose.Words per .NET API Reference
-description: StructuredDocumentTag proprietà. Ottiene/imposta lo stato corrente della casella di controllo SDT . Il valore predefinito per questa proprietà èfalso .
+linktitle: Checked
+articleTitle: Checked
+second_title: Aspose.Words per .NET
+description: StructuredDocumentTag Checked proprietà. Ottiene/imposta lo stato corrente della casella di controlloSDT . Il valore predefinito per questa proprietà èfalso  in C#.
 type: docs
 weight: 60
 url: /it/net/aspose.words.markup/structureddocumenttag/checked/
 ---
 ## StructuredDocumentTag.Checked property
 
-Ottiene/imposta lo stato corrente della casella di controllo **SDT** . Il valore predefinito per questa proprietà è`falso` .
+Ottiene/imposta lo stato corrente della casella di controllo**SDT** . Il valore predefinito per questa proprietà è`falso` .
 
 ```csharp
 public bool Checked { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 L'accesso a questa proprietà funzionerà solo perCheckbox Tipi SDT.
 
 Per tutti gli altri tipi di SDT si verificherà un'eccezione.
 
-### Esempi
+## Esempi
 
 Mostra come creare un tag di documento strutturato sotto forma di casella di controllo.
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.CheckBox.docx");
 ### Guarda anche
 
 * class [StructuredDocumentTag](../)
-* spazio dei nomi [Aspose.Words.Markup](../../structureddocumenttag/)
+* spazio dei nomi [Aspose.Words.Markup](../../../aspose.words.markup/)
 * assemblea [Aspose.Words](../../../)
-
-

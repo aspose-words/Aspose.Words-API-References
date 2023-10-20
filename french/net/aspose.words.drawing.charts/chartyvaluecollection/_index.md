@@ -1,7 +1,9 @@
 ---
-title: Class ChartYValueCollection
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Drawing.Charts.ChartYValueCollection classe. Représente une collection de valeurs Y pour une série de graphiques.
+title: ChartYValueCollection Class
+linktitle: ChartYValueCollection
+articleTitle: ChartYValueCollection
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Drawing.Charts.ChartYValueCollection classe. Représente une collection de valeurs Y pour une série de graphiques en C#.
 type: docs
 weight: 880
 url: /fr/net/aspose.words.drawing.charts/chartyvaluecollection/
@@ -27,13 +29,13 @@ public class ChartYValueCollection : IEnumerable<ChartYValue>
 | --- | --- |
 | [GetEnumerator](../../aspose.words.drawing.charts/chartyvaluecollection/getenumerator/)() | Renvoie un objet énumérateur. |
 
-### Remarques
+## Remarques
 
-Tous les éléments de la collection autres que **nul** doit avoir le même[`ValueType`](../chartyvalue/valuetype/).
+Tous les éléments de la collection autres que**nul** doit avoir le même[`ValueType`](../chartyvalue/valuetype/).
 
 La collection permet uniquement de modifier les valeurs Y. Pour ajouter ou insérer de nouvelles valeurs à une série de graphiques, ou supprimer des valeurs, les méthodes appropriées du[`ChartSeries`](../chartseries/) la classe peut être utilisée.
 
-### Exemples
+## Exemples
 
 Montre comment obtenir des données de séries de graphiques.
 
@@ -91,5 +93,3 @@ doc.Save(ArtifactsDir + "Charts.GetChartSeriesData.docx");
 * class [ChartYValue](../chartyvalue/)
 * espace de noms [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * Assemblée [Aspose.Words](../../)
-
-

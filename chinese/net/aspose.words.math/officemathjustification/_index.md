@@ -1,7 +1,9 @@
 ---
-title: Enum OfficeMathJustification
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Math.OfficeMathJustification 枚举. 指定方程的合理性
+title: OfficeMathJustification Enum
+linktitle: OfficeMathJustification
+articleTitle: OfficeMathJustification
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Math.OfficeMathJustification 枚举. 指定方程的合理性 在 C#.
 type: docs
 weight: 4140
 url: /zh/net/aspose.words.math/officemathjustification/
@@ -25,7 +27,7 @@ public enum OfficeMathJustification
 | Inline | `7` | Math. 的内联位置 |
 | Default | `1` | 默认值CenterGroup. |
 
-### 例子
+## 例子
 
 演示如何设置 Office 数学显示格式。
 
@@ -51,5 +53,3 @@ doc.Save(ArtifactsDir + "Shape.OfficeMath.docx");
 
 * 命名空间 [Aspose.Words.Math](../../aspose.words.math/)
 * 部件 [Aspose.Words](../../)
-
-

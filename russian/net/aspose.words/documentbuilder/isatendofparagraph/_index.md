@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.IsAtEndOfParagraph
-second_title: Справочник по API Aspose.Words для .NET
-description: DocumentBuilder свойство. Возвращаетистинный если курсор находится в конце текущего абзаца.
+linktitle: IsAtEndOfParagraph
+articleTitle: IsAtEndOfParagraph
+second_title: Aspose.Words для .NET
+description: DocumentBuilder IsAtEndOfParagraph свойство. Возвращаетистинный если курсор находится в конце текущего абзаца на С#.
 type: docs
 weight: 110
 url: /ru/net/aspose.words/documentbuilder/isatendofparagraph/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/documentbuilder/isatendofparagraph/
 public bool IsAtEndOfParagraph { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как перемещать курсор построителя документов в разные узлы документа.
 
@@ -68,7 +70,5 @@ Assert.IsTrue(builder.IsAtStartOfParagraph);
 ### Смотрите также
 
 * class [DocumentBuilder](../)
-* пространство имен [Aspose.Words](../../documentbuilder/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

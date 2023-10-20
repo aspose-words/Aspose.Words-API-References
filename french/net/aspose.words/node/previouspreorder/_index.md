@@ -1,7 +1,9 @@
 ---
 title: Node.PreviousPreOrder
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Node méthode. Obtient le nœud précédent selon lalgorithme de traversée darbre de précommande.
+linktitle: PreviousPreOrder
+articleTitle: PreviousPreOrder
+second_title: Aspose.Words pour .NET
+description: Node PreviousPreOrder méthode. Obtient le nœud précédent selon lalgorithme de traversée darbre de précommande en C#.
 type: docs
 weight: 140
 url: /fr/net/aspose.words/node/previouspreorder/
@@ -22,7 +24,7 @@ public Node PreviousPreOrder(Node rootNode)
 
 Nœud précédent en précommande. Nul si atteint le*rootNode*.
 
-### Exemples
+## Exemples
 
 Montre comment parcourir l'arborescence des nœuds du document à l'aide de l'algorithme de parcours de pré-ordre et supprimer toute forme rencontrée avec une image.
 
@@ -53,7 +55,5 @@ Assert.AreEqual(0,
 ### Voir également
 
 * class [Node](../)
-* espace de noms [Aspose.Words](../../node/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

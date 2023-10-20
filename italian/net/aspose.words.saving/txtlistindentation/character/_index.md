@@ -1,7 +1,9 @@
 ---
 title: TxtListIndentation.Character
-second_title: Aspose.Words per .NET API Reference
-description: TxtListIndentation proprietà. Ottiene o imposta il carattere da utilizzare per il rientro dei livelli dellelenco. Il valore predefinito è 0 ciò significa che non cè rientro.
+linktitle: Character
+articleTitle: Character
+second_title: Aspose.Words per .NET
+description: TxtListIndentation Character proprietà. Ottiene o imposta il carattere da utilizzare per il rientro dei livelli dellelenco. Il valore predefinito è 0 ciò significa che non cè rientro in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words.saving/txtlistindentation/character/
@@ -14,7 +16,7 @@ Ottiene o imposta il carattere da utilizzare per il rientro dei livelli dell'ele
 public char Character { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come configurare il rientro dell'elenco quando si salva un documento in testo normale.
 
@@ -54,7 +56,5 @@ Assert.AreEqual("1. Item 1\r\n" +
 ### Guarda anche
 
 * class [TxtListIndentation](../)
-* spazio dei nomi [Aspose.Words.Saving](../../txtlistindentation/)
+* spazio dei nomi [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.CurrentParagraph
-second_title: Aspose.Words för .NET API Referens
-description: DocumentBuilder fast egendom. Hämtar stycket som för närvarande är valt i dettaDocumentBuilder .
+linktitle: CurrentParagraph
+articleTitle: CurrentParagraph
+second_title: Aspose.Words för .NET
+description: DocumentBuilder CurrentParagraph fast egendom. Hämtar stycket som för närvarande är valt i dettaDocumentBuilder  i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words/documentbuilder/currentparagraph/
@@ -14,11 +16,11 @@ Hämtar stycket som för närvarande är valt i detta[`DocumentBuilder`](../) .
 public Paragraph CurrentParagraph { get; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 [`CurrentNode`](../currentnode/)
 
-### Exempel
+## Exempel
 
 Visar hur man flyttar en dokumentbyggares markör till olika noder i ett dokument.
 
@@ -73,7 +75,5 @@ Assert.IsTrue(builder.IsAtStartOfParagraph);
 
 * class [Paragraph](../../paragraph/)
 * class [DocumentBuilder](../)
-* namnutrymme [Aspose.Words](../../documentbuilder/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

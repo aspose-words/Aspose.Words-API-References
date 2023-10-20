@@ -1,7 +1,9 @@
 ---
 title: FontInfo.Panose
-second_title: Aspose.Words für .NET-API-Referenz
-description: FontInfo eigendom. Ruft die Klassifizierungsnummer der PANOSESchriftart ab oder legt diese fest.
+linktitle: Panose
+articleTitle: Panose
+second_title: Aspose.Words für .NET
+description: FontInfo Panose eigendom. Ruft die Klassifizierungsnummer der PANOSESchriftart ab oder legt diese fest in C#.
 type: docs
 weight: 60
 url: /de/net/aspose.words.fonts/fontinfo/panose/
@@ -14,13 +16,13 @@ Ruft die Klassifizierungsnummer der PANOSE-Schriftart ab oder legt diese fest.
 public byte[] Panose { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 PANOSE ist eine kompakte 10-Byte-Beschreibung der kritischen visuellen Eigenschaften einer Schriftart, wie Kontrast, Stärke und Serifenstil. Die Ziffern repräsentieren Familienart, Serifenstil, -Stärke, Proportion, Kontrast, Strichvariation, Armstil, Buchstabenform, Mittellinie und X-Höhe.
 
 Kann sein`Null`.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie auf Details zu jeder Schriftart in einem Dokument zugreifen und diese drucken können.
 
@@ -59,7 +61,5 @@ while (fontCollectionEnumerator.MoveNext())
 ### Siehe auch
 
 * class [FontInfo](../)
-* namensraum [Aspose.Words.Fonts](../../fontinfo/)
+* namensraum [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * Montage [Aspose.Words](../../../)
-
-

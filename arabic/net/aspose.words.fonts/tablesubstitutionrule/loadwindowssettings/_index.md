@@ -1,7 +1,9 @@
 ---
 title: TableSubstitutionRule.LoadWindowsSettings
-second_title: Aspose.Words لمراجع .NET API
-description: TableSubstitutionRule طريقة. يقوم بتحميل إعدادات استبدال الجدول المحددة مسبقًا لنظام التشغيل Windows.
+linktitle: LoadWindowsSettings
+articleTitle: LoadWindowsSettings
+second_title: Aspose.Words لـ .NET
+description: TableSubstitutionRule LoadWindowsSettings طريقة. يقوم بتحميل إعدادات استبدال الجدول المحددة مسبقًا لنظام التشغيل Windows في C#.
 type: docs
 weight: 60
 url: /ar/net/aspose.words.fonts/tablesubstitutionrule/loadwindowssettings/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fonts/tablesubstitutionrule/loadwindowssettings/
 public void LoadWindowsSettings()
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الوصول إلى جداول استبدال الخطوط لنظامي التشغيل Windows وLinux.
 
@@ -53,7 +55,5 @@ using (FileStream fileStream = new FileStream(ArtifactsDir + "FontSettings.Table
 ### أنظر أيضا
 
 * class [TableSubstitutionRule](../)
-* مساحة الاسم [Aspose.Words.Fonts](../../tablesubstitutionrule/)
+* مساحة الاسم [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * المجسم [Aspose.Words](../../../)
-
-

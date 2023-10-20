@@ -1,7 +1,9 @@
 ---
 title: FieldIf.EvaluateCondition
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldIf метод. Оценивает условие.
+linktitle: EvaluateCondition
+articleTitle: EvaluateCondition
+second_title: Aspose.Words для .NET
+description: FieldIf EvaluateCondition метод. Оценивает условие на С#.
 type: docs
 weight: 70
 url: /ru/net/aspose.words.fields/fieldif/evaluatecondition/
@@ -18,7 +20,7 @@ public FieldIfComparisonResult EvaluateCondition()
 
 А[`FieldIfComparisonResult`](../../fieldifcomparisonresult/) значение, представляющее результат оценки условия.
 
-### Примеры
+## Примеры
 
 Показывает, как вставить поле ЕСЛИ.
 
@@ -65,7 +67,5 @@ doc.Save(ArtifactsDir + "Field.IF.docx");
 
 * enum [FieldIfComparisonResult](../../fieldifcomparisonresult/)
 * class [FieldIf](../)
-* пространство имен [Aspose.Words.Fields](../../fieldif/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

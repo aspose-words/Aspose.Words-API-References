@@ -1,9 +1,11 @@
 ---
 title: Cell.EnsureMinimum
-second_title: Aspose.Words لمراجع .NET API
-description: Cell طريقة. إذا لم يكن العنصر الفرعي الأخير فقرة فسيتم إنشاء فقرة واحدة فارغة وإلحاقها.
+linktitle: EnsureMinimum
+articleTitle: EnsureMinimum
+second_title: Aspose.Words لـ .NET
+description: Cell EnsureMinimum طريقة. إذا لم يكن العنصر الفرعي الأخير فقرة فسيتم إنشاء فقرة واحدة فارغة وإلحاقها في C#.
 type: docs
-weight: 160
+weight: 140
 url: /ar/net/aspose.words.tables/cell/ensureminimum/
 ---
 ## Cell.EnsureMinimum method
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.tables/cell/ensureminimum/
 public void EnsureMinimum()
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التأكد من أن عقدة الخلية تحتوي على العقد التي نحتاجها لبدء إضافة المحتوى إليها.
 
@@ -40,7 +42,5 @@ cell.FirstParagraph.AppendChild(new Run(doc, "Hello world!"));
 ### أنظر أيضا
 
 * class [Cell](../)
-* مساحة الاسم [Aspose.Words.Tables](../../cell/)
+* مساحة الاسم [Aspose.Words.Tables](../../../aspose.words.tables/)
 * المجسم [Aspose.Words](../../../)
-
-

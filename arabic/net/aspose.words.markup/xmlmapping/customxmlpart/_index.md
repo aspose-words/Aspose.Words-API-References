@@ -1,7 +1,9 @@
 ---
 title: XmlMapping.CustomXmlPart
-second_title: Aspose.Words لمراجع .NET API
-description: XmlMapping ملكية. إرجاع جزء بيانات XML المخصص الذي تم تعيين علامة المستند المنظمة الأصلية إليه.
+linktitle: CustomXmlPart
+articleTitle: CustomXmlPart
+second_title: Aspose.Words لـ .NET
+description: XmlMapping CustomXmlPart ملكية. إرجاع جزء بيانات XML المخصص الذي تم تعيين علامة المستند المنظمة الأصلية إليه في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.markup/xmlmapping/customxmlpart/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.markup/xmlmapping/customxmlpart/
 public CustomXmlPart CustomXmlPart { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين تعيينات XML لأجزاء XML المخصصة.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.XmlMapping.docx");
 
 * class [CustomXmlPart](../../customxmlpart/)
 * class [XmlMapping](../)
-* مساحة الاسم [Aspose.Words.Markup](../../xmlmapping/)
+* مساحة الاسم [Aspose.Words.Markup](../../../aspose.words.markup/)
 * المجسم [Aspose.Words](../../../)
-
-

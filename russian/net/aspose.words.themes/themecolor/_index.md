@@ -1,7 +1,9 @@
 ---
-title: Enum ThemeColor
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Themes.ThemeColor перечисление. Определяет цвета темы для тем документов.
+title: ThemeColor Enum
+linktitle: ThemeColor
+articleTitle: ThemeColor
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Themes.ThemeColor перечисление. Определяет цвета темы для тем документов на С#.
 type: docs
 weight: 6470
 url: /ru/net/aspose.words.themes/themecolor/
@@ -38,11 +40,11 @@ public enum ThemeColor
 | Background1 | `14` | Цвет фона 1. |
 | Background2 | `15` | Цвет фона 2. |
 
-### Примечания
+## Примечания
 
 Указанный цвет темы является ссылкой на один из предопределенных цветов темы, расположенный в разделе «Тема» документа the , что позволяет централизованно задавать информацию о цвете в документе.
 
-### Примеры
+## Примеры
 
 Показывает, как создавать и использовать тематический стиль.
 
@@ -147,5 +149,3 @@ Assert.AreEqual(Color.Blue.ToArgb(), font.Color.ToArgb());
 
 * пространство имен [Aspose.Words.Themes](../../aspose.words.themes/)
 * сборка [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: WebExtensionBinding.BindingType
-second_title: Справочник по API Aspose.Words для .NET
-description: WebExtensionBinding свойство. Указывает тип привязки.
+linktitle: BindingType
+articleTitle: BindingType
+second_title: Aspose.Words для .NET
+description: WebExtensionBinding BindingType свойство. Указывает тип привязки на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.webextensions/webextensionbinding/bindingtype/
@@ -18,7 +20,5 @@ public WebExtensionBindingType BindingType { get; set; }
 
 * enum [WebExtensionBindingType](../../webextensionbindingtype/)
 * class [WebExtensionBinding](../)
-* пространство имен [Aspose.Words.WebExtensions](../../webextensionbinding/)
+* пространство имен [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * сборка [Aspose.Words](../../../)
-
-

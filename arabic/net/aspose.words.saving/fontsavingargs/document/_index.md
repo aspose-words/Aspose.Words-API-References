@@ -1,7 +1,9 @@
 ---
 title: FontSavingArgs.Document
-second_title: Aspose.Words لمراجع .NET API
-description: FontSavingArgs ملكية. الحصول على كائن المستند الذي يتم حفظه.
+linktitle: Document
+articleTitle: Document
+second_title: Aspose.Words لـ .NET
+description: FontSavingArgs Document ملكية. الحصول على كائن المستند الذي يتم حفظه في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.saving/fontsavingargs/document/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.saving/fontsavingargs/document/
 public Document Document { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحديد المنطق المخصص لتصدير الخطوط عند الحفظ إلى HTML.
 
@@ -75,7 +77,5 @@ public class HandleFontSaving : IFontSavingCallback
 
 * class [Document](../../../aspose.words/document/)
 * class [FontSavingArgs](../)
-* مساحة الاسم [Aspose.Words.Saving](../../fontsavingargs/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

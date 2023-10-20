@@ -1,7 +1,9 @@
 ---
 title: Table.Accept
-second_title: Aspose.Words för .NET API Referens
-description: Table metod. Accepterar en besökare.
+linktitle: Accept
+articleTitle: Accept
+second_title: Aspose.Words för .NET
+description: Table Accept metod. Accepterar en besökare i C#.
 type: docs
 weight: 350
 url: /sv/net/aspose.words.tables/table/accept/
@@ -22,7 +24,7 @@ public override bool Accept(DocumentVisitor visitor)
 
 Sant om alla noder besöktes; falskt om[`DocumentVisitor`](../../../aspose.words/documentvisitor/) stoppade operationen innan du besökte alla noder.
 
-### Anmärkningar
+## Anmärkningar
 
 Räknar upp denna nod och alla dess barn. Varje nod anropar en motsvarande metod[`DocumentVisitor`](../../../aspose.words/documentvisitor/).
 
@@ -30,7 +32,7 @@ För mer information se Visitor design mönster.
 
 Samtal[`VisitTableStart`](../../../aspose.words/documentvisitor/visittablestart/) , sedan ringer[`Accept`](../../../aspose.words/node/accept/) för alla underordnade noder i avsnittet och anrop[`VisitTableEnd`](../../../aspose.words/documentvisitor/visittableend/) i slutet.
 
-### Exempel
+## Exempel
 
 Visar hur man använder en DocumentVisitor-implementering för att ta bort allt dolt innehåll från ett dokument.
 
@@ -227,7 +229,5 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
 
 * class [DocumentVisitor](../../../aspose.words/documentvisitor/)
 * class [Table](../)
-* namnutrymme [Aspose.Words.Tables](../../table/)
+* namnutrymme [Aspose.Words.Tables](../../../aspose.words.tables/)
 * hopsättning [Aspose.Words](../../../)
-
-

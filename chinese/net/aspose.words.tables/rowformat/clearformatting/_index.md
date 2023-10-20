@@ -1,7 +1,9 @@
 ---
 title: RowFormat.ClearFormatting
-second_title: Aspose.Words for .NET API 参考
-description: RowFormat 方法. 重置为默认行格式
+linktitle: ClearFormatting
+articleTitle: ClearFormatting
+second_title: 用于 .NET 的 Aspose.Words
+description: RowFormat ClearFormatting 方法. 重置为默认行格式 在 C#.
 type: docs
 weight: 60
 url: /zh/net/aspose.words.tables/rowformat/clearformatting/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.tables/rowformat/clearformatting/
 public void ClearFormatting()
 ```
 
-### 例子
+## 例子
 
 演示如何构建具有自定义边框的表格。
 
@@ -80,7 +82,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
 ### 也可以看看
 
 * class [RowFormat](../)
-* 命名空间 [Aspose.Words.Tables](../../rowformat/)
+* 命名空间 [Aspose.Words.Tables](../../../aspose.words.tables/)
 * 部件 [Aspose.Words](../../../)
-
-

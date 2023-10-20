@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ExportPageSetup
-second_title: Aspose.Words لمراجع .NET API
-description: HtmlSaveOptions ملكية. يحدد ما إذا كان سيتم تصدير إعداد الصفحة إلى HTML أو MHTML أو EPUB. الإعداد الافتراضي هوخطأ شنيع .
+linktitle: ExportPageSetup
+articleTitle: ExportPageSetup
+second_title: Aspose.Words لـ .NET
+description: HtmlSaveOptions ExportPageSetup ملكية. يحدد ما إذا كان سيتم تصدير إعداد الصفحة إلى HTML أو MHTML أو EPUB. الإعداد الافتراضي هوخطأ شنيع  في C#.
 type: docs
 weight: 220
 url: /ar/net/aspose.words.saving/htmlsaveoptions/exportpagesetup/
@@ -14,13 +16,13 @@ url: /ar/net/aspose.words.saving/htmlsaveoptions/exportpagesetup/
 public bool ExportPageSetup { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 كل[`Section`](../../../aspose.words/section/) في نموذج مستند Aspose.Words يوفر معلومات إعداد الصفحة عبر[`PageSetup`](../../../aspose.words/pagesetup/) فصل. عندما تقوم بتصدير مستند إلى تنسيق HTML، قد تحتاج إلى الاحتفاظ بهذه المعلومات لمزيد من الاستخدام. على وجه الخصوص، قد يكون إعداد الصفحة مهمًا للعرض على الوسائط المقسمة إلى صفحات (الطباعة) أو التحويل اللاحق إلى تنسيقات ملفات Microsoft Word الأصلية (DOCX، DOC، RTF، WML).
 
 في معظم الحالات، يكون HTML مخصصًا للعرض في المتصفحات التي لا يتم فيها تنفيذ ترقيم الصفحات. لذا فإن feature غير نشط بشكل افتراضي.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحديد ما إذا كان سيتم الاحتفاظ بمعلومات إعداد بنية القسم/الصفحة عند الحفظ في HTML.
 
@@ -80,7 +82,5 @@ else
 ### أنظر أيضا
 
 * class [HtmlSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../htmlsaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

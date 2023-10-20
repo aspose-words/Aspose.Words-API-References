@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ExportCidUrlsForMhtmlResources
-second_title: Aspose.Words لمراجع .NET API
-description: HtmlSaveOptions ملكية. يحدد ما إذا كان سيتم استخدام عناوين URL لـ CID معرف المحتوى للإشارة إلى الموارد الصور والخطوط وCSS المضمنة في مستندات MHTML . القيمة الافتراضية هيخطأ شنيع .
+linktitle: ExportCidUrlsForMhtmlResources
+articleTitle: ExportCidUrlsForMhtmlResources
+second_title: Aspose.Words لـ .NET
+description: HtmlSaveOptions ExportCidUrlsForMhtmlResources ملكية. يحدد ما إذا كان سيتم استخدام عناوين URL لـ CID معرف المحتوى للإشارة إلى الموارد الصور والخطوط وCSS المضمنة في مستندات MHTML . القيمة الافتراضية هيخطأ شنيع  في C#.
 type: docs
 weight: 110
 url: /ar/net/aspose.words.saving/htmlsaveoptions/exportcidurlsformhtmlresources/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.saving/htmlsaveoptions/exportcidurlsformhtmlresources/
 public bool ExportCidUrlsForMhtmlResources { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 يؤثر هذا الخيار فقط على المستندات التي يتم حفظها في MHTML.
 
@@ -24,7 +26,7 @@ public bool ExportCidUrlsForMhtmlResources { get; set; }
 
 من الناحية النظرية، يجب ألا يكون هناك فرق بين الطريقتين المرجعيتين ويجب أن تعمل أي منهما بشكل جيد في أي متصفح أو وكيل بريد. ومع ذلك، في الممارسة العملية، يفشل بعض الوكلاء في جلب الموارد حسب اسم الملف. إذا رفض متصفح أو وكيل البريد تحميل الموارد المضمنة في مستند MTHML (لا يعرض الصور أو لا يقوم بتحميل أنماط CSS)، فحاول تصدير المستند باستخدام عناوين URL الخاصة بـ CID.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تمكين معرفات المحتوى لمستندات MHTML الناتجة.
 
@@ -64,7 +66,5 @@ else
 ### أنظر أيضا
 
 * class [HtmlSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../htmlsaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

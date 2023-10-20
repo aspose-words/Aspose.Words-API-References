@@ -1,7 +1,9 @@
 ---
 title: OdsoRecipientDataCollection.Clear
-second_title: Référence de l'API Aspose.Words pour .NET
-description: OdsoRecipientDataCollection méthode. Supprime tous les éléments de cette collection.
+linktitle: Clear
+articleTitle: Clear
+second_title: Aspose.Words pour .NET
+description: OdsoRecipientDataCollection Clear méthode. Supprime tous les éléments de cette collection en C#.
 type: docs
 weight: 50
 url: /fr/net/aspose.words.settings/odsorecipientdatacollection/clear/
@@ -14,7 +16,7 @@ Supprime tous les éléments de cette collection.
 public void Clear()
 ```
 
-### Exemples
+## Exemples
 
 Montre comment accéder à la collection de données qui désigne les enregistrements de source de données de fusion qu'un publipostage exclura.
 
@@ -54,7 +56,5 @@ Assert.AreEqual(0, dataCollection.Count);
 ### Voir également
 
 * class [OdsoRecipientDataCollection](../)
-* espace de noms [Aspose.Words.Settings](../../odsorecipientdatacollection/)
+* espace de noms [Aspose.Words.Settings](../../../aspose.words.settings/)
 * Assemblée [Aspose.Words](../../../)
-
-

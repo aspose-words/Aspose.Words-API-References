@@ -1,7 +1,9 @@
 ---
-title: Interface IMailMergeCallback
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.MailMerging.IMailMergeCallback koppel. Implementieren Sie diese Schnittstelle wenn Sie Benachrichtigungen erhalten möchten während der Seriendruck durchgeführt wird.
+title: IMailMergeCallback Interface
+linktitle: IMailMergeCallback
+articleTitle: IMailMergeCallback
+second_title: Aspose.Words für .NET
+description: Aspose.Words.MailMerging.IMailMergeCallback koppel. Implementieren Sie diese Schnittstelle wenn Sie Benachrichtigungen erhalten möchten während der Seriendruck durchgeführt wird in C#.
 type: docs
 weight: 3800
 url: /de/net/aspose.words.mailmerging/imailmergecallback/
@@ -20,7 +22,7 @@ public interface IMailMergeCallback
 | --- | --- |
 | [TagsReplaced](../../aspose.words.mailmerging/imailmergecallback/tagsreplaced/)() | Wird aufgerufen, wenn „Mustache“-Text-Tags durch MERGEFIELD-Felder ersetzt werden. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie benutzerdefinierte Logik für die Verarbeitung von Ereignissen während des Seriendrucks definieren.
 
@@ -72,5 +74,3 @@ private class MailMergeTagReplacementCounter : IMailMergeCallback
 
 * namensraum [Aspose.Words.MailMerging](../../aspose.words.mailmerging/)
 * Montage [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class CustomDocumentProperties
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Properties.CustomDocumentProperties сорт. Коллекция пользовательских свойств документа.
+title: CustomDocumentProperties Class
+linktitle: CustomDocumentProperties
+articleTitle: CustomDocumentProperties
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Properties.CustomDocumentProperties сорт. Коллекция пользовательских свойств документа на С#.
 type: docs
 weight: 4460
 url: /ru/net/aspose.words.properties/customdocumentproperties/
@@ -28,20 +30,20 @@ public class CustomDocumentProperties : DocumentPropertyCollection
 
 | Имя | Описание |
 | --- | --- |
-| [Add](../../aspose.words.properties/customdocumentproperties/add/#add)(string, bool) | Создает новое пользовательское свойство документаBoolean тип данных. |
-| [Add](../../aspose.words.properties/customdocumentproperties/add/#add_3)(string, DateTime) | Создает новое пользовательское свойство документаDateTime тип данных. |
-| [Add](../../aspose.words.properties/customdocumentproperties/add/#add_1)(string, double) | Создает новое пользовательское свойство документаDouble тип данных. |
-| [Add](../../aspose.words.properties/customdocumentproperties/add/#add_2)(string, int) | Создает новое пользовательское свойство документаNumber тип данных. |
-| [Add](../../aspose.words.properties/customdocumentproperties/add/#add_4)(string, string) | Создает новое пользовательское свойство документаString тип данных. |
-| [AddLinkToContent](../../aspose.words.properties/customdocumentproperties/addlinktocontent/)(string, string) | Создает новое свойство пользовательского документа, связанное с содержимым. |
+| [Add](../../aspose.words.properties/customdocumentproperties/add/#add)(*string, bool*) | Создает новое пользовательское свойство документаBoolean тип данных. |
+| [Add](../../aspose.words.properties/customdocumentproperties/add/#add_3)(*string, DateTime*) | Создает новое пользовательское свойство документаDateTime тип данных. |
+| [Add](../../aspose.words.properties/customdocumentproperties/add/#add_1)(*string, double*) | Создает новое пользовательское свойство документаDouble тип данных. |
+| [Add](../../aspose.words.properties/customdocumentproperties/add/#add_2)(*string, int*) | Создает новое пользовательское свойство документаNumber тип данных. |
+| [Add](../../aspose.words.properties/customdocumentproperties/add/#add_4)(*string, string*) | Создает новое пользовательское свойство документаString тип данных. |
+| [AddLinkToContent](../../aspose.words.properties/customdocumentproperties/addlinktocontent/)(*string, string*) | Создает новое свойство пользовательского документа, связанное с содержимым. |
 | [Clear](../../aspose.words.properties/documentpropertycollection/clear/)() | Удаляет все свойства из коллекции. |
-| [Contains](../../aspose.words.properties/documentpropertycollection/contains/)(string) | Возвращает`истинный` если свойство с указанным именем существует в коллекции. |
+| [Contains](../../aspose.words.properties/documentpropertycollection/contains/)(*string*) | Возвращает`истинный` если свойство с указанным именем существует в коллекции. |
 | [GetEnumerator](../../aspose.words.properties/documentpropertycollection/getenumerator/)() | Возвращает объект перечислителя, который можно использовать для перебора всех элементов коллекции. |
-| [IndexOf](../../aspose.words.properties/documentpropertycollection/indexof/)(string) | Получает индекс свойства по имени. |
-| [Remove](../../aspose.words.properties/documentpropertycollection/remove/)(string) | Удаляет свойство с указанным именем из коллекции. |
-| [RemoveAt](../../aspose.words.properties/documentpropertycollection/removeat/)(int) | Удаляет свойство по указанному индексу. |
+| [IndexOf](../../aspose.words.properties/documentpropertycollection/indexof/)(*string*) | Получает индекс свойства по имени. |
+| [Remove](../../aspose.words.properties/documentpropertycollection/remove/)(*string*) | Удаляет свойство с указанным именем из коллекции. |
+| [RemoveAt](../../aspose.words.properties/documentpropertycollection/removeat/)(*int*) | Удаляет свойство по указанному индексу. |
 
-### Примечания
+## Примечания
 
 Каждый[`DocumentProperty`](../documentproperty/) объект представляет собой пользовательское свойство документа-контейнера.
 
@@ -49,7 +51,7 @@ public class CustomDocumentProperties : DocumentPropertyCollection
 
 Свойства в коллекции отсортированы в алфавитном порядке по имени.
 
-### Примеры
+## Примеры
 
 Показывает, как работать с настраиваемыми свойствами документа.
 
@@ -79,5 +81,3 @@ foreach (var customDocumentProperty in doc.CustomDocumentProperties)
 * class [DocumentPropertyCollection](../documentpropertycollection/)
 * пространство имен [Aspose.Words.Properties](../../aspose.words.properties/)
 * сборка [Aspose.Words](../../)
-
-

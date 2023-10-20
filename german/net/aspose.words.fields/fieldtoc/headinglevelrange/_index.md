@@ -1,7 +1,9 @@
 ---
 title: FieldToc.HeadingLevelRange
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldToc eigendom. Ruft einen Bereich von einzuschließenden Überschriftenebenen ab oder legt diesen fest.
+linktitle: HeadingLevelRange
+articleTitle: HeadingLevelRange
+second_title: Aspose.Words für .NET
+description: FieldToc HeadingLevelRange eigendom. Ruft einen Bereich von einzuschließenden Überschriftenebenen ab oder legt diesen fest in C#.
 type: docs
 weight: 80
 url: /de/net/aspose.words.fields/fieldtoc/headinglevelrange/
@@ -14,7 +16,7 @@ Ruft einen Bereich von einzuschließenden Überschriftenebenen ab oder legt dies
 public string HeadingLevelRange { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man ein Inhaltsverzeichnis einfügt und es mit Einträgen füllt, die auf Überschriftenstilen basieren.
 
@@ -99,7 +101,5 @@ public void InsertNewPageWithHeading(DocumentBuilder builder, string captionText
 ### Siehe auch
 
 * class [FieldToc](../)
-* namensraum [Aspose.Words.Fields](../../fieldtoc/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

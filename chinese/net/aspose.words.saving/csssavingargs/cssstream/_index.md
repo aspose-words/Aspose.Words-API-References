@@ -1,7 +1,9 @@
 ---
 title: CssSavingArgs.CssStream
-second_title: Aspose.Words for .NET API 参考
-description: CssSavingArgs 财产. 允许指定 CSS 信息将保存到的流
+linktitle: CssStream
+articleTitle: CssStream
+second_title: 用于 .NET 的 Aspose.Words
+description: CssSavingArgs CssStream 财产. 允许指定 CSS 信息将保存到的流 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.saving/csssavingargs/cssstream/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.saving/csssavingargs/cssstream/
 public Stream CssStream { get; set; }
 ```
 
-### 评论
+## 评论
 
 此属性允许您将 CSS 信息保存到流中。
 
@@ -22,7 +24,7 @@ public Stream CssStream { get; set; }
 
 使用[`ICssSavingCallback`](../../icsssavingcallback/)你不能用 另一个替代CSS。它仅用于将 CSS 保存到流中。
 
-### 例子
+## 例子
 
 演示如何使用 HTML 转换创建的 CSS 样式表。
 
@@ -83,7 +85,5 @@ private class CustomCssSavingCallback : ICssSavingCallback
 ### 也可以看看
 
 * class [CssSavingArgs](../)
-* 命名空间 [Aspose.Words.Saving](../../csssavingargs/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Row.ParentTable
-second_title: Aspose.Words لمراجع .NET API
-description: Row ملكية. إرجاع الجدول الأصلي المباشر للصف.
+linktitle: ParentTable
+articleTitle: ParentTable
+second_title: Aspose.Words لـ .NET
+description: Row ParentTable ملكية. إرجاع الجدول الأصلي المباشر للصف في C#.
 type: docs
 weight: 90
 url: /ar/net/aspose.words.tables/row/parenttable/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.tables/row/parenttable/
 public Table ParentTable { get; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 أي ما يعادلFirstNonMarkupParentNode يلقي ل[`Table`](../../table/).
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية طباعة بنية العقدة لكل جدول في المستند.
 
@@ -182,7 +184,5 @@ public class TableStructurePrinter : DocumentVisitor
 
 * class [Table](../../table/)
 * class [Row](../)
-* مساحة الاسم [Aspose.Words.Tables](../../row/)
+* مساحة الاسم [Aspose.Words.Tables](../../../aspose.words.tables/)
 * المجسم [Aspose.Words](../../../)
-
-

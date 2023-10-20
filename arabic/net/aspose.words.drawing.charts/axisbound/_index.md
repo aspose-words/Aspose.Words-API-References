@@ -1,7 +1,9 @@
 ---
-title: Class AxisBound
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Drawing.Charts.AxisBound فصل. يمثل الحد الأدنى أو الأقصى لقيم المحور.
+title: AxisBound Class
+linktitle: AxisBound
+articleTitle: AxisBound
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Drawing.Charts.AxisBound فصل. يمثل الحد الأدنى أو الأقصى لقيم المحور في C#.
 type: docs
 weight: 510
 url: /ar/net/aspose.words.drawing.charts/axisbound/
@@ -21,8 +23,8 @@ public sealed class AxisBound
 | اسم | وصف |
 | --- | --- |
 | [AxisBound](axisbound/#constructor)() | إنشاء مثيل جديد يشير إلى أنه يجب تحديد المحور المرتبط تلقائيًا بواسطة تطبيق معالجة الكلمات . |
-| [AxisBound](axisbound/#constructor_2)(DateTime) | ينشئ محورًا محددًا يتم تمثيله كقيمة تاريخ ووقت. |
-| [AxisBound](axisbound/#constructor_1)(double) | إنشاء محور محدد ممثلاً برقم. |
+| [AxisBound](axisbound/#constructor_2)(*DateTime*) | ينشئ محورًا محددًا يتم تمثيله كقيمة تاريخ ووقت. |
+| [AxisBound](axisbound/#constructor_1)(*double*) | إنشاء محور محدد ممثلاً برقم. |
 
 ## الخصائص
 
@@ -36,17 +38,17 @@ public sealed class AxisBound
 
 | اسم | وصف |
 | --- | --- |
-| override [Equals](../../aspose.words.drawing.charts/axisbound/equals/)(object) | تحديد ما إذا كان الكائن المحدد يساوي قيمة الكائن الحالي. |
+| override [Equals](../../aspose.words.drawing.charts/axisbound/equals/)(*object*) | تحديد ما إذا كان الكائن المحدد يساوي قيمة الكائن الحالي. |
 | override [GetHashCode](../../aspose.words.drawing.charts/axisbound/gethashcode/)() | بمثابة وظيفة تجزئة لهذا النوع. |
 | override [ToString](../../aspose.words.drawing.charts/axisbound/tostring/)() | تُرجع سلسلة سهلة الاستخدام تعرض قيمة هذا الكائن. |
 
-### ملاحظات
+## ملاحظات
 
 يمكن تحديد المنضم كقيمة رقمية أو تاريخ أو قيمة "تلقائية" خاصة.
 
 مثيلات هذه الفئة غير قابلة للتغيير.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج مخطط بقيم التاريخ/الوقت.
 
@@ -101,5 +103,3 @@ doc.Save(ArtifactsDir + "Charts.DateTimeValues.docx");
 
 * مساحة الاسم [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../)
-
-

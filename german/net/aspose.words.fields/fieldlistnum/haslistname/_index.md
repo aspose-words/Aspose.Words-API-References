@@ -1,7 +1,9 @@
 ---
 title: FieldListNum.HasListName
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldListNum eigendom. Gibt einen Wert zurück der angibt ob der Name einer abstrakten Nummerierungsdefinition durch den Feldcode bereitgestellt wird.
+linktitle: HasListName
+articleTitle: HasListName
+second_title: Aspose.Words für .NET
+description: FieldListNum HasListName eigendom. Gibt einen Wert zurück der angibt ob der Name einer abstrakten Nummerierungsdefinition durch den Feldcode bereitgestellt wird in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.fields/fieldlistnum/haslistname/
@@ -14,7 +16,7 @@ Gibt einen Wert zurück, der angibt, ob der Name einer abstrakten Nummerierungsd
 public bool HasListName { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Absätze mit LISTNUM-Feldern nummeriert werden.
 
@@ -84,7 +86,5 @@ doc.Save(ArtifactsDir + "Field.LISTNUM.docx");
 ### Siehe auch
 
 * class [FieldListNum](../)
-* namensraum [Aspose.Words.Fields](../../fieldlistnum/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

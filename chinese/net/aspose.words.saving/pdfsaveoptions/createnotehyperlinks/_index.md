@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.CreateNoteHyperlinks
-second_title: Aspose.Words for .NET API 参考
-description: PdfSaveOptions 财产. 指定是否将正文故事中的脚注/尾注引用转换为活动超链接 单击时超链接将指向相应的脚注/尾注 默认为错误的.
+linktitle: CreateNoteHyperlinks
+articleTitle: CreateNoteHyperlinks
+second_title: 用于 .NET 的 Aspose.Words
+description: PdfSaveOptions CreateNoteHyperlinks 财产. 指定是否将正文故事中的脚注/尾注引用转换为活动超链接 单击时超链接将指向相应的脚注/尾注 默认为错误的 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words.saving/pdfsaveoptions/createnotehyperlinks/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.saving/pdfsaveoptions/createnotehyperlinks/
 public bool CreateNoteHyperlinks { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何使脚注和尾注充当超链接。
 
@@ -36,7 +38,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.NoteHyperlinks.pdf", options);
 ### 也可以看看
 
 * class [PdfSaveOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../pdfsaveoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabel.NumberFormat
-second_title: Aspose.Words für .NET-API-Referenz
-description: ChartDataLabel eigendom. Gibt das Zahlenformat des übergeordneten Elements zurück.
+linktitle: NumberFormat
+articleTitle: NumberFormat
+second_title: Aspose.Words für .NET
+description: ChartDataLabel NumberFormat eigendom. Gibt das Zahlenformat des übergeordneten Elements zurück in C#.
 type: docs
 weight: 60
 url: /de/net/aspose.words.drawing.charts/chartdatalabel/numberformat/
@@ -14,7 +16,7 @@ Gibt das Zahlenformat des übergeordneten Elements zurück.
 public ChartNumberFormat NumberFormat { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Beschriftungen auf Datenpunkte in einem Liniendiagramm angewendet werden.
 
@@ -93,7 +95,5 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
 
 * class [ChartNumberFormat](../../chartnumberformat/)
 * class [ChartDataLabel](../)
-* namensraum [Aspose.Words.Drawing.Charts](../../chartdatalabel/)
+* namensraum [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: CustomXmlSchemaCollection.Remove
-second_title: Aspose.Words for .NET API 参考
-description: CustomXmlSchemaCollection 方法. 从集合中删除指定值
+linktitle: Remove
+articleTitle: Remove
+second_title: 用于 .NET 的 Aspose.Words
+description: CustomXmlSchemaCollection Remove 方法. 从集合中删除指定值 在 C#.
 type: docs
 weight: 80
 url: /zh/net/aspose.words.markup/customxmlschemacollection/remove/
@@ -18,7 +20,7 @@ public void Remove(string name)
 | --- | --- | --- |
 | name | String | 要删除的区分大小写的值。 |
 
-### 例子
+## 例子
 
 展示如何使用 XML 架构集合。
 
@@ -64,7 +66,5 @@ Assert.AreEqual(0, schemas.Count);
 ### 也可以看看
 
 * class [CustomXmlSchemaCollection](../)
-* 命名空间 [Aspose.Words.Markup](../../customxmlschemacollection/)
+* 命名空间 [Aspose.Words.Markup](../../../aspose.words.markup/)
 * 部件 [Aspose.Words](../../../)
-
-

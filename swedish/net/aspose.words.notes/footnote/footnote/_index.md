@@ -1,7 +1,9 @@
 ---
-title: Footnote.Footnote
-second_title: Aspose.Words för .NET API Referens
-description: Footnote byggare. Initierar en instans avFootnote class.
+title: Footnote
+linktitle: Footnote
+articleTitle: Footnote
+second_title: Aspose.Words för .NET
+description: Footnote byggare. Initierar en instans avFootnote class i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.notes/footnote/footnote/
@@ -19,13 +21,13 @@ public Footnote(DocumentBase doc, FootnoteType footnoteType)
 | doc | DocumentBase | Ägardokumentet. |
 | footnoteType | FootnoteType | A[`FootnoteType`](../footnotetype/) värde som anger om detta är en fotnot eller slutnot. |
 
-### Anmärkningar
+## Anmärkningar
 
 När[`Footnote`](../) skapas, det tillhör det angivna dokumentet, men är inte ännu en del av dokumentet och[`ParentNode`](../../../aspose.words/node/parentnode/) är`null`.
 
-Att lägga till[`Footnote`](../) till dokumentanvändningenNode) ellerNode) på stycket där du vill infoga fotnoten.
+Att lägga till[`Footnote`](../) till dokumentanvändningen[`InsertAfter`](../../../aspose.words/compositenode/insertafter/) eller[`InsertBefore`](../../../aspose.words/compositenode/insertbefore/) på stycket där du vill infoga fotnoten.
 
-### Exempel
+## Exempel
 
 Visar hur man infogar och anpassar fotnoter.
 
@@ -75,7 +77,5 @@ doc.Save(ArtifactsDir + "InlineStory.AddFootnote.docx");
 * class [DocumentBase](../../../aspose.words/documentbase/)
 * enum [FootnoteType](../../footnotetype/)
 * class [Footnote](../)
-* namnutrymme [Aspose.Words.Notes](../../footnote/)
+* namnutrymme [Aspose.Words.Notes](../../../aspose.words.notes/)
 * hopsättning [Aspose.Words](../../../)
-
-

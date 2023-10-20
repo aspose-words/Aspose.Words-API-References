@@ -1,7 +1,9 @@
 ---
-title: XpsSaveOptions.XpsSaveOptions
-second_title: Aspose.Words per .NET API Reference
-description: XpsSaveOptions costruttore. Inizializza una nuova istanza di questa classe che può essere utilizzata per salvare un documento nellaXps formato.
+title: XpsSaveOptions
+linktitle: XpsSaveOptions
+articleTitle: XpsSaveOptions
+second_title: Aspose.Words per .NET
+description: XpsSaveOptions costruttore. Inizializza una nuova istanza di questa classe che può essere utilizzata per salvare un documento nellaXps formato in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words.saving/xpssaveoptions/xpssaveoptions/
@@ -14,7 +16,7 @@ Inizializza una nuova istanza di questa classe che può essere utilizzata per sa
 public XpsSaveOptions()
 ```
 
-### Esempi
+## Esempi
 
 Mostra come limitare il livello delle intestazioni che appariranno nella struttura di un documento XPS salvato.
 
@@ -57,12 +59,12 @@ doc.Save(ArtifactsDir + "XpsSaveOptions.OutlineLevels.xps", saveOptions);
 ### Guarda anche
 
 * class [XpsSaveOptions](../)
-* spazio dei nomi [Aspose.Words.Saving](../../xpssaveoptions/)
+* spazio dei nomi [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../../)
 
 ---
 
-## XpsSaveOptions(SaveFormat) {#constructor_1}
+## XpsSaveOptions(*[SaveFormat](../../../aspose.words/saveformat/)*) {#constructor_1}
 
 Inizializza una nuova istanza di questa classe che può essere utilizzata per salvare un documento nellaXps OOpenXps formato.
 
@@ -70,7 +72,7 @@ Inizializza una nuova istanza di questa classe che può essere utilizzata per sa
 public XpsSaveOptions(SaveFormat saveFormat)
 ```
 
-### Esempi
+## Esempi
 
 Mostra come salvare un documento nel formato XPS sotto forma di piegatura di un libro.
 
@@ -103,7 +105,5 @@ doc.Save(ArtifactsDir + "XpsSaveOptions.BookFold.xps", xpsOptions);
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
 * class [XpsSaveOptions](../)
-* spazio dei nomi [Aspose.Words.Saving](../../xpssaveoptions/)
+* spazio dei nomi [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../../)
-
-

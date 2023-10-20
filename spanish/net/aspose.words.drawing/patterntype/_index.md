@@ -1,7 +1,9 @@
 ---
-title: Enum PatternType
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Drawing.PatternType enumeración. Especifica el patrón de relleno que se utilizará para rellenar una forma.
+title: PatternType Enum
+linktitle: PatternType
+articleTitle: PatternType
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Drawing.PatternType enumeración. Especifica el patrón de relleno que se utilizará para rellenar una forma en C#.
 type: docs
 weight: 1170
 url: /es/net/aspose.words.drawing/patterntype/
@@ -78,5 +80,3 @@ public enum PatternType
 
 * espacio de nombres [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * asamblea [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: CustomPartCollection.Add
-second_title: Справочник по API Aspose.Words для .NET
-description: CustomPartCollection метод. Добавляет элемент в коллекцию.
+linktitle: Add
+articleTitle: Add
+second_title: Aspose.Words для .NET
+description: CustomPartCollection Add метод. Добавляет элемент в коллекцию на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.markup/custompartcollection/add/
@@ -18,7 +20,7 @@ public void Add(CustomPart part)
 | --- | --- | --- |
 | part | CustomPart | Добавляемый элемент. |
 
-### Примеры
+## Примеры
 
 Показывает, как получить доступ к произвольной коллекции пользовательских частей документа.
 
@@ -63,7 +65,5 @@ Assert.AreEqual(0, doc.PackageCustomParts.Count);
 
 * class [CustomPart](../../custompart/)
 * class [CustomPartCollection](../)
-* пространство имен [Aspose.Words.Markup](../../custompartcollection/)
+* пространство имен [Aspose.Words.Markup](../../../aspose.words.markup/)
 * сборка [Aspose.Words](../../../)
-
-

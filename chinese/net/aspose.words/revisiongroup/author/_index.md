@@ -1,7 +1,9 @@
 ---
 title: RevisionGroup.Author
-second_title: Aspose.Words for .NET API 参考
-description: RevisionGroup 财产. 获取此修订组的作者
+linktitle: Author
+articleTitle: Author
+second_title: 用于 .NET 的 Aspose.Words
+description: RevisionGroup Author 财产. 获取此修订组的作者 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words/revisiongroup/author/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/revisiongroup/author/
 public string Author { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何打印有关文档中一组修订的信息。
 
@@ -33,7 +35,5 @@ foreach (RevisionGroup group in doc.Revisions.Groups)
 ### 也可以看看
 
 * class [RevisionGroup](../)
-* 命名空间 [Aspose.Words](../../revisiongroup/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

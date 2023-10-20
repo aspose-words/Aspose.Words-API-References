@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.EmbedAttachments
-second_title: Справочник по API Aspose.Words для .NET
-description: PdfSaveOptions свойство. Получает или задает значение определяющее следует ли встраивать вложения в PDFдокумент.
+linktitle: EmbedAttachments
+articleTitle: EmbedAttachments
+second_title: Aspose.Words для .NET
+description: PdfSaveOptions EmbedAttachments свойство. Получает или задает значение определяющее следует ли встраивать вложения в PDFдокумент на С#.
 type: docs
 weight: 110
 url: /ru/net/aspose.words.saving/pdfsaveoptions/embedattachments/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.saving/pdfsaveoptions/embedattachments/
 public bool EmbedAttachments { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Значение по умолчанию:`ЛОЖЬ`и вложения не встраиваются.
 
@@ -24,7 +26,7 @@ public bool EmbedAttachments { get; set; }
 
 Встраивание вложений не поддерживается, если включено шифрование.`ЛОЖЬ` value будет использоваться автоматически.
 
-### Примеры
+## Примеры
 
 Показывает, как добавлять вложения в PDF-документ.
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.PdfEmbedAttachments.pdf", options);
 ### Смотрите также
 
 * class [PdfSaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../pdfsaveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

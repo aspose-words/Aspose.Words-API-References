@@ -1,7 +1,9 @@
 ---
 title: FolderFontSource.ScanSubfolders
-second_title: Aspose.Words per .NET API Reference
-description: FolderFontSource proprietà. Determina se scansionare o meno le sottocartelle.
+linktitle: ScanSubfolders
+articleTitle: ScanSubfolders
+second_title: Aspose.Words per .NET
+description: FolderFontSource ScanSubfolders proprietà. Determina se scansionare o meno le sottocartelle in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words.fonts/folderfontsource/scansubfolders/
@@ -14,7 +16,7 @@ Determina se scansionare o meno le sottocartelle.
 public bool ScanSubfolders { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come utilizzare una cartella di sistema locale che contiene i caratteri come origine dei caratteri.
 
@@ -35,7 +37,5 @@ Assert.AreEqual(1, folderFontSource.Priority);
 ### Guarda anche
 
 * class [FolderFontSource](../)
-* spazio dei nomi [Aspose.Words.Fonts](../../folderfontsource/)
+* spazio dei nomi [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * assemblea [Aspose.Words](../../../)
-
-

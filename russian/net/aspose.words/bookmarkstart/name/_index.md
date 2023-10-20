@@ -1,7 +1,9 @@
 ---
 title: BookmarkStart.Name
-second_title: Справочник по API Aspose.Words для .NET
-description: BookmarkStart свойство. Получает или задает имя закладки.
+linktitle: Name
+articleTitle: Name
+second_title: Aspose.Words для .NET
+description: BookmarkStart Name свойство. Получает или задает имя закладки на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words/bookmarkstart/name/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words/bookmarkstart/name/
 public string Name { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Не может быть`нулевой`.
 
-### Примеры
+## Примеры
 
 Показывает, как добавлять закладки и обновлять их содержимое.
 
@@ -107,7 +109,5 @@ public class BookmarkInfoPrinter : DocumentVisitor
 ### Смотрите также
 
 * class [BookmarkStart](../)
-* пространство имен [Aspose.Words](../../bookmarkstart/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

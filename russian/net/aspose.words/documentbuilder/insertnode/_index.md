@@ -1,9 +1,11 @@
 ---
 title: DocumentBuilder.InsertNode
-second_title: Справочник по API Aspose.Words для .NET
-description: DocumentBuilder метод. Вставляет узел перед курсором.
+linktitle: InsertNode
+articleTitle: InsertNode
+second_title: Aspose.Words для .NET
+description: DocumentBuilder InsertNode метод. Вставляет узел перед курсором на С#.
 type: docs
-weight: 390
+weight: 380
 url: /ru/net/aspose.words/documentbuilder/insertnode/
 ---
 ## DocumentBuilder.InsertNode method
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/documentbuilder/insertnode/
 public void InsertNode(Node node)
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как вставить связанное изображение в документ.
 
@@ -57,7 +59,5 @@ Assert.True(10000 > new FileInfo(ArtifactsDir + "Image.CreateLinkedImage.Linked.
 
 * class [Node](../../node/)
 * class [DocumentBuilder](../)
-* пространство имен [Aspose.Words](../../documentbuilder/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

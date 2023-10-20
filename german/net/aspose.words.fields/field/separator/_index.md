@@ -1,7 +1,9 @@
 ---
 title: Field.Separator
-second_title: Aspose.Words für .NET-API-Referenz
-description: Field eigendom. Ruft den Knoten ab der das Feldtrennzeichen darstellt. Kann seinNull .
+linktitle: Separator
+articleTitle: Separator
+second_title: Aspose.Words für .NET
+description: Field Separator eigendom. Ruft den Knoten ab der das Feldtrennzeichen darstellt. Kann seinNull  in C#.
 type: docs
 weight: 80
 url: /de/net/aspose.words.fields/field/separator/
@@ -14,7 +16,7 @@ Ruft den Knoten ab, der das Feldtrennzeichen darstellt. Kann sein`Null` .
 public FieldSeparator Separator { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit einer Sammlung von Feldern gearbeitet wird.
 
@@ -118,7 +120,5 @@ public class FieldVisitor : DocumentVisitor
 
 * class [FieldSeparator](../../fieldseparator/)
 * class [Field](../)
-* namensraum [Aspose.Words.Fields](../../field/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

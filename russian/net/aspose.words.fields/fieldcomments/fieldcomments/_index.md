@@ -1,7 +1,9 @@
 ---
-title: FieldComments.FieldComments
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldComments строитель. Конструктор по умолчанию.
+title: FieldComments
+linktitle: FieldComments
+articleTitle: FieldComments
+second_title: Aspose.Words для .NET
+description: FieldComments строитель. Конструктор по умолчанию на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fields/fieldcomments/fieldcomments/
@@ -17,7 +19,5 @@ public FieldComments()
 ### Смотрите также
 
 * class [FieldComments](../)
-* пространство имен [Aspose.Words.Fields](../../fieldcomments/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

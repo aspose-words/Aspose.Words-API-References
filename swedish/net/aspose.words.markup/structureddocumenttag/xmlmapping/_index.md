@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTag.XmlMapping
-second_title: Aspose.Words för .NET API Referens
-description: StructuredDocumentTag fast egendom. Hämtar ett objekt som representerar mappningen av denna strukturerade dokumenttagg till XML data i en anpassad XMLdel av det aktuella dokumentet.
+linktitle: XmlMapping
+articleTitle: XmlMapping
+second_title: Aspose.Words för .NET
+description: StructuredDocumentTag XmlMapping fast egendom. Hämtar ett objekt som representerar mappningen av denna strukturerade dokumenttagg till XML data i en anpassad XMLdel av det aktuella dokumentet i C#.
 type: docs
 weight: 320
 url: /sv/net/aspose.words.markup/structureddocumenttag/xmlmapping/
@@ -14,11 +16,11 @@ Hämtar ett objekt som representerar mappningen av denna strukturerade dokumentt
 public XmlMapping XmlMapping { get; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Du kan använda[`SetMapping`](../../xmlmapping/setmapping/) metod för detta objekt för att mappa en strukturerad dokumenttagg till XML-data.
 
-### Exempel
+## Exempel
 
 Visar hur man skapar en strukturerad dokumenttagg med anpassade XML-data.
 
@@ -86,7 +88,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.CustomXml.docx");
 
 * class [XmlMapping](../../xmlmapping/)
 * class [StructuredDocumentTag](../)
-* namnutrymme [Aspose.Words.Markup](../../structureddocumenttag/)
+* namnutrymme [Aspose.Words.Markup](../../../aspose.words.markup/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum FontPitch
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Fonts.FontPitch énumération. Représente lespacement de la police.
+title: FontPitch Enum
+linktitle: FontPitch
+articleTitle: FontPitch
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Fonts.FontPitch énumération. Représente lespacement de la police en C#.
 type: docs
 weight: 2960
 url: /fr/net/aspose.words.fonts/fontpitch/
@@ -22,11 +24,11 @@ public enum FontPitch
 | Fixed | `1` | Spécifie qu'il s'agit d'une police à largeur fixe. |
 | Variable | `2` | Spécifie qu'il s'agit d'une police à largeur proportionnelle. |
 
-### Remarques
+## Remarques
 
 Le pas indique si la police est à pas fixe, espacée proportionnellement ou s'appuie sur un paramètre par défaut.
 
-### Exemples
+## Exemples
 
 Montre comment accéder et imprimer les détails de chaque police dans un document.
 
@@ -66,5 +68,3 @@ while (fontCollectionEnumerator.MoveNext())
 
 * espace de noms [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * Assemblée [Aspose.Words](../../)
-
-

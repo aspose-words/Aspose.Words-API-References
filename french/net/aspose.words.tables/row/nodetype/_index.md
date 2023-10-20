@@ -1,7 +1,9 @@
 ---
 title: Row.NodeType
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Row propriété. RetoursRow .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words pour .NET
+description: Row NodeType propriété. RetoursRow  en C#.
 type: docs
 weight: 80
 url: /fr/net/aspose.words.tables/row/nodetype/
@@ -14,7 +16,7 @@ RetoursRow .
 public override NodeType NodeType { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment parcourir l’arborescence des nœuds enfants d’un nœud composite.
 
@@ -62,7 +64,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 
 * enum [NodeType](../../../aspose.words/nodetype/)
 * class [Row](../)
-* espace de noms [Aspose.Words.Tables](../../row/)
+* espace de noms [Aspose.Words.Tables](../../../aspose.words.tables/)
 * Assemblée [Aspose.Words](../../../)
-
-

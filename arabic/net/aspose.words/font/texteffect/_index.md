@@ -1,7 +1,9 @@
 ---
 title: Font.TextEffect
-second_title: Aspose.Words لمراجع .NET API
-description: Font ملكية. الحصول على تأثير الخط المتحرك أو تعيينه.
+linktitle: TextEffect
+articleTitle: TextEffect
+second_title: Aspose.Words لـ .NET
+description: Font TextEffect ملكية. الحصول على تأثير الخط المتحرك أو تعيينه في C#.
 type: docs
 weight: 450
 url: /ar/net/aspose.words/font/texteffect/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/font/texteffect/
 public TextEffect TextEffect { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تطبيق تأثير مرئي على الجري.
 
@@ -35,7 +37,5 @@ doc.Save(ArtifactsDir + "Font.SparklingText.doc");
 
 * enum [TextEffect](../../texteffect/)
 * class [Font](../)
-* مساحة الاسم [Aspose.Words](../../font/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class CompareOptions
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Comparing.CompareOptions 班级. 允许选择文档比较操作的高级选项
+title: CompareOptions Class
+linktitle: CompareOptions
+articleTitle: CompareOptions
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Comparing.CompareOptions 班级. 允许选择文档比较操作的高级选项 在 C#.
 type: docs
 weight: 270
 url: /zh/net/aspose.words.comparing/compareoptions/
@@ -39,7 +41,7 @@ public class CompareOptions
 | [IgnoreTextboxes](../../aspose.words.comparing/compareoptions/ignoretextboxes/) { get; set; } | 指定是否比较文本框中包含的数据的差异。 默认情况下，不忽略文本框。 |
 | [Target](../../aspose.words.comparing/compareoptions/target/) { get; set; } | 指定比较期间应使用哪个文档作为目标。 |
 
-### 例子
+## 例子
 
 演示如何在进行比较时过滤特定类型的文档元素。
 
@@ -114,5 +116,3 @@ docOriginal.Save(ArtifactsDir + "Document.CompareOptions.docx");
 
 * 命名空间 [Aspose.Words.Comparing](../../aspose.words.comparing/)
 * 部件 [Aspose.Words](../../)
-
-

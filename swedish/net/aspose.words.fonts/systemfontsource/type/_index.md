@@ -1,7 +1,9 @@
 ---
 title: SystemFontSource.Type
-second_title: Aspose.Words för .NET API Referens
-description: SystemFontSource fast egendom. Returnerar typen av teckensnittskälla.
+linktitle: Type
+articleTitle: Type
+second_title: Aspose.Words för .NET
+description: SystemFontSource Type fast egendom. Returnerar typen av teckensnittskälla i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.fonts/systemfontsource/type/
@@ -14,7 +16,7 @@ Returnerar typen av teckensnittskälla.
 public override FontSourceType Type { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du kommer åt ett dokuments systemteckensnittskälla och ställer in teckensnittsersättningar.
 
@@ -71,7 +73,5 @@ Assert.AreEqual(1,
 
 * enum [FontSourceType](../../fontsourcetype/)
 * class [SystemFontSource](../)
-* namnutrymme [Aspose.Words.Fonts](../../systemfontsource/)
+* namnutrymme [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * hopsättning [Aspose.Words](../../../)
-
-

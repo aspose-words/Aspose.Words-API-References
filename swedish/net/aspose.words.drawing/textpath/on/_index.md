@@ -1,7 +1,9 @@
 ---
 title: TextPath.On
-second_title: Aspose.Words för .NET API Referens
-description: TextPath fast egendom. Definierar om texten ska visas.
+linktitle: On
+articleTitle: On
+second_title: Aspose.Words för .NET
+description: TextPath On fast egendom. Definierar om texten ska visas i C#.
 type: docs
 weight: 70
 url: /sv/net/aspose.words.drawing/textpath/on/
@@ -14,11 +16,11 @@ Definierar om texten ska visas.
 public bool On { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Standardvärdet är`falsk`.
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med WordArt.
 
@@ -121,7 +123,5 @@ private static Shape AppendWordArt(Document doc, string text, string textFontFam
 ### Se även
 
 * class [TextPath](../)
-* namnutrymme [Aspose.Words.Drawing](../../textpath/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ShadowFormat.Clear
-second_title: Aspose.Words لمراجع .NET API
-description: ShadowFormat طريقة. مسح تنسيق الظل.
+linktitle: Clear
+articleTitle: Clear
+second_title: Aspose.Words لـ .NET
+description: ShadowFormat Clear طريقة. مسح تنسيق الظل في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.drawing/shadowformat/clear/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing/shadowformat/clear/
 public void Clear()
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع تنسيق الظل للشكل.
 
@@ -32,7 +34,5 @@ if (shape.ShadowFormat.Type == ShadowType.ShadowMixed)
 ### أنظر أيضا
 
 * class [ShadowFormat](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../shadowformat/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class Range
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Range 班级. 表示文档中的连续区域
+title: Range Class
+linktitle: Range
+articleTitle: Range
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Range 班级. 表示文档中的连续区域 在 C#.
 type: docs
 weight: 4520
 url: /zh/net/aspose.words/range/
@@ -33,15 +35,15 @@ public class Range
 | --- | --- |
 | [Delete](../../aspose.words/range/delete/)() | 删除范围内的所有字符。 |
 | [NormalizeFieldTypes](../../aspose.words/range/normalizefieldtypes/)() | 更改字段类型值[`FieldType`](../../aspose.words.fields/fieldchar/fieldtype/)的[`FieldStart`](../../aspose.words.fields/fieldstart/),[`FieldSeparator`](../../aspose.words.fields/fieldseparator/),[`FieldEnd`](../../aspose.words.fields/fieldend/) 在此范围内，以便它们对应于字段代码中包含的字段类型。 |
-| [Replace](../../aspose.words/range/replace/#replace_2)(Regex, string) | 将正则表达式指定的所有出现的字符模式替换为另一个字符串。 |
-| [Replace](../../aspose.words/range/replace/#replace)(string, string) | 用替换字符串替换所有出现的指定字符串模式。 |
-| [Replace](../../aspose.words/range/replace/#replace_3)(Regex, string, FindReplaceOptions) | 将正则表达式指定的所有出现的字符模式替换为另一个字符串。 |
-| [Replace](../../aspose.words/range/replace/#replace_1)(string, string, FindReplaceOptions) | 用替换字符串替换所有出现的指定字符串模式。 |
+| [Replace](../../aspose.words/range/replace/#replace_2)(*Regex, string*) | 将正则表达式指定的所有出现的字符模式替换为另一个字符串。 |
+| [Replace](../../aspose.words/range/replace/#replace)(*string, string*) | 用替换字符串替换所有出现的指定字符串模式。 |
+| [Replace](../../aspose.words/range/replace/#replace_3)(*Regex, string, [FindReplaceOptions](../../aspose.words.replacing/findreplaceoptions/)*) | 将正则表达式指定的所有出现的字符模式替换为另一个字符串。 |
+| [Replace](../../aspose.words/range/replace/#replace_1)(*string, string, [FindReplaceOptions](../../aspose.words.replacing/findreplaceoptions/)*) | 用替换字符串替换所有出现的指定字符串模式。 |
 | [ToDocument](../../aspose.words/range/todocument/)() | 构造一个包含范围的新的完整文档。 |
 | [UnlinkFields](../../aspose.words/range/unlinkfields/)() | 取消链接此范围内的字段。 |
 | [UpdateFields](../../aspose.words/range/updatefields/)() | 更新此范围内文档字段的值。 |
 
-### 评论
+## 评论
 
 该文档由节点树表示，节点提供操作 来处理该树，但如果将文档 视为连续的文本序列，则某些操作会更容易执行。
 
@@ -49,7 +51,7 @@ public class Range
 
 `Range`不包含任何文本或节点，它只是文档片段上的视图或“窗口” 。
 
-### 例子
+## 例子
 
 展示如何获取范围覆盖的所有节点的文本内容。
 
@@ -66,5 +68,3 @@ Assert.AreEqual("Hello world!", doc.Range.Text.Trim());
 
 * 命名空间 [Aspose.Words](../../aspose.words/)
 * 部件 [Aspose.Words](../../)
-
-

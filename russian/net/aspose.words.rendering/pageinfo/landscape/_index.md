@@ -1,7 +1,9 @@
 ---
 title: PageInfo.Landscape
-second_title: Справочник по API Aspose.Words для .NET
-description: PageInfo свойство. Возвращаетистинный если в документе для этой страницы указана альбомная ориентация.
+linktitle: Landscape
+articleTitle: Landscape
+second_title: Aspose.Words для .NET
+description: PageInfo Landscape свойство. Возвращаетистинный если в документе для этой страницы указана альбомная ориентация на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.rendering/pageinfo/landscape/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.rendering/pageinfo/landscape/
 public bool Landscape { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как распечатать информацию о размере и ориентации страницы для каждой страницы документа Word.
 
@@ -157,7 +159,5 @@ public class MyPrintDocument : PrintDocument
 ### Смотрите также
 
 * class [PageInfo](../)
-* пространство имен [Aspose.Words.Rendering](../../pageinfo/)
+* пространство имен [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * сборка [Aspose.Words](../../../)
-
-

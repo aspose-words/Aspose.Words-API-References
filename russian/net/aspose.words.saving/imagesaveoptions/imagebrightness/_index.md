@@ -1,7 +1,9 @@
 ---
 title: ImageSaveOptions.ImageBrightness
-second_title: Справочник по API Aspose.Words для .NET
-description: ImageSaveOptions свойство. Получает или задает яркость сгенерированных изображений.
+linktitle: ImageBrightness
+articleTitle: ImageBrightness
+second_title: Aspose.Words для .NET
+description: ImageSaveOptions ImageBrightness свойство. Получает или задает яркость сгенерированных изображений на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.saving/imagesaveoptions/imagebrightness/
@@ -14,13 +16,13 @@ url: /ru/net/aspose.words.saving/imagesaveoptions/imagebrightness/
 public float ImageBrightness { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Это свойство действует только при сохранении в форматах растровых изображений.
 
 Значение по умолчанию — 0,5. Значение должно находиться в диапазоне от 0 до 1.
 
-### Примеры
+## Примеры
 
 Показывает, как редактировать изображение, пока Aspose.Words преобразует документ в него.
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "ImageSaveOptions.EditImage.png", options);
 ### Смотрите также
 
 * class [ImageSaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../imagesaveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

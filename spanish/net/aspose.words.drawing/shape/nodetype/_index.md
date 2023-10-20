@@ -1,7 +1,9 @@
 ---
 title: Shape.NodeType
-second_title: Referencia de API de Aspose.Words para .NET
-description: Shape propiedad. DevolucionesShape .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words para .NET
+description: Shape NodeType propiedad. DevolucionesShape  en C#.
 type: docs
 weight: 130
 url: /es/net/aspose.words.drawing/shape/nodetype/
@@ -14,7 +16,7 @@ DevolucionesShape .
 public override NodeType NodeType { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo recorrer el árbol de nodos secundarios de un nodo compuesto.
 
@@ -62,7 +64,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 
 * enum [NodeType](../../../aspose.words/nodetype/)
 * class [Shape](../)
-* espacio de nombres [Aspose.Words.Drawing](../../shape/)
+* espacio de nombres [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * asamblea [Aspose.Words](../../../)
-
-

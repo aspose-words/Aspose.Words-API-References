@@ -1,7 +1,9 @@
 ---
-title: Class XamlFixedSaveOptions
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Saving.XamlFixedSaveOptions сорт. Может использоваться для указания дополнительных параметров при сохранении документа вXamlFixed формат.
+title: XamlFixedSaveOptions Class
+linktitle: XamlFixedSaveOptions
+articleTitle: XamlFixedSaveOptions
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Saving.XamlFixedSaveOptions сорт. Может использоваться для указания дополнительных параметров при сохранении документа вXamlFixed формат на С#.
 type: docs
 weight: 5690
 url: /ru/net/aspose.words.saving/xamlfixedsaveoptions/
@@ -29,7 +31,7 @@ public class XamlFixedSaveOptions : FixedPageSaveOptions
 | [AllowEmbeddingPostScriptFonts](../../aspose.words.saving/saveoptions/allowembeddingpostscriptfonts/) { get; set; } | Получает или задает логическое значение, указывающее, разрешено ли встраивание шрифтов PostScript в контуры PostScript при встраивании шрифтов TrueType в документ после его сохранения. Значение по умолчанию:`ЛОЖЬ` . |
 | [ColorMode](../../aspose.words.saving/fixedpagesaveoptions/colormode/) { get; set; } | Получает или задает значение, определяющее способ отображения цветов. |
 | [CustomTimeZoneInfo](../../aspose.words.saving/saveoptions/customtimezoneinfo/) { get; set; } | Получает или задает пользовательский часовой пояс, используемый для полей даты и времени. |
-| [DefaultTemplate](../../aspose.words.saving/saveoptions/defaulttemplate/) { get; set; } | Получает или задает путь к шаблону по умолчанию (включая имя файла). Значение по умолчанию для этого свойства: **пустая строка** (Empty). |
+| [DefaultTemplate](../../aspose.words.saving/saveoptions/defaulttemplate/) { get; set; } | Получает или задает путь к шаблону по умолчанию (включая имя файла). Значение по умолчанию для этого свойства:**пустая строка** (Empty). |
 | [Dml3DEffectsRenderingMode](../../aspose.words.saving/saveoptions/dml3deffectsrenderingmode/) { get; set; } | Получает или задает значение, определяющее способ визуализации 3D-эффектов. |
 | virtual [DmlEffectsRenderingMode](../../aspose.words.saving/saveoptions/dmleffectsrenderingmode/) { get; set; } | Получает или задает значение, определяющее способ визуализации эффектов DrawingML. |
 | [DmlRenderingMode](../../aspose.words.saving/saveoptions/dmlrenderingmode/) { get; set; } | Получает или задает значение, определяющее способ отрисовки фигур DrawingML. |
@@ -60,9 +62,9 @@ public class XamlFixedSaveOptions : FixedPageSaveOptions
 
 | Имя | Описание |
 | --- | --- |
-| override [Equals](../../aspose.words.saving/fixedpagesaveoptions/equals/)(object) | Определяет, равен ли указанный объект по значению текущему объекту. |
+| override [Equals](../../aspose.words.saving/fixedpagesaveoptions/equals/)(*object*) | Определяет, равен ли указанный объект по значению текущему объекту. |
 
-### Примеры
+## Примеры
 
 Показывает, как распечатать URI связанных ресурсов, созданных при преобразовании документа в формат .xaml фиксированной формы.
 
@@ -127,5 +129,3 @@ private class ResourceUriPrinter : IResourceSavingCallback
 * class [FixedPageSaveOptions](../fixedpagesaveoptions/)
 * пространство имен [Aspose.Words.Saving](../../aspose.words.saving/)
 * сборка [Aspose.Words](../../)
-
-

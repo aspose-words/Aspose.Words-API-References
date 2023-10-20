@@ -1,7 +1,9 @@
 ---
 title: FieldDatabase.TableFormat
-second_title: Aspose.Words per .NET API Reference
-description: FieldDatabase proprietà. Ottiene o imposta il formato da applicare al risultato della query sul database.
+linktitle: TableFormat
+articleTitle: TableFormat
+second_title: Aspose.Words per .NET
+description: FieldDatabase TableFormat proprietà. Ottiene o imposta il formato da applicare al risultato della query sul database in C#.
 type: docs
 weight: 100
 url: /it/net/aspose.words.fields/fielddatabase/tableformat/
@@ -14,7 +16,7 @@ Ottiene o imposta il formato da applicare al risultato della query sul database.
 public string TableFormat { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come estrarre i dati da un database e inserirli come campo in un documento.
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "Field.DATABASE.docx");
 ### Guarda anche
 
 * class [FieldDatabase](../)
-* spazio dei nomi [Aspose.Words.Fields](../../fielddatabase/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

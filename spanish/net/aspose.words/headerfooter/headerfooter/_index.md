@@ -1,7 +1,9 @@
 ---
-title: HeaderFooter.HeaderFooter
-second_title: Referencia de API de Aspose.Words para .NET
-description: HeaderFooter constructor. Crea un nuevo encabezado o pie de página del tipo especificado.
+title: HeaderFooter
+linktitle: HeaderFooter
+articleTitle: HeaderFooter
+second_title: Aspose.Words para .NET
+description: HeaderFooter constructor. Crea un nuevo encabezado o pie de página del tipo especificado en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words/headerfooter/headerfooter/
@@ -19,13 +21,13 @@ public HeaderFooter(DocumentBase doc, HeaderFooterType headerFooterType)
 | doc | DocumentBase | El documento del propietario. |
 | headerFooterType | HeaderFooterType | A[`HeaderFooterType`](../headerfootertype/) value que especifica el tipo de encabezado o pie de página. |
 
-### Observaciones
+## Observaciones
 
 Cuando[`HeaderFooter`](../) se crea, pertenece al documento especificado, pero aún no es parte del documento y[`ParentNode`](../../node/parentnode/) es`nulo`.
 
-Para anexar[`HeaderFooter`](../) un[`Section`](../../section/) usarNode) ,Node) , o[`HeadersFooters`](../../section/headersfooters/) propiedades y métodos[`Add`](../../nodecollection/add/) ,[`Insert`](../../nodecollection/insert/).
+Para anexar[`HeaderFooter`](../) un[`Section`](../../section/) usar[`InsertAfter`](../../compositenode/insertafter/) ,[`InsertBefore`](../../compositenode/insertbefore/) , o[`HeadersFooters`](../../section/headersfooters/) propiedades y métodos[`Add`](../../nodecollection/add/) ,[`Insert`](../../nodecollection/insert/).
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear un encabezado y un pie de página.
 
@@ -64,7 +66,5 @@ doc.Save(ArtifactsDir + "HeaderFooter.Create.docx");
 * class [DocumentBase](../../documentbase/)
 * enum [HeaderFooterType](../../headerfootertype/)
 * class [HeaderFooter](../)
-* espacio de nombres [Aspose.Words](../../headerfooter/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

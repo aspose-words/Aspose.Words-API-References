@@ -1,7 +1,9 @@
 ---
-title: Class MergeFieldImageDimension
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Fields.MergeFieldImageDimension 班级. 表示邮件合并过程中使用的图像尺寸即宽度或高度
+title: MergeFieldImageDimension Class
+linktitle: MergeFieldImageDimension
+articleTitle: MergeFieldImageDimension
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Fields.MergeFieldImageDimension 班级. 表示邮件合并过程中使用的图像尺寸即宽度或高度 在 C#.
 type: docs
 weight: 2750
 url: /zh/net/aspose.words.fields/mergefieldimagedimension/
@@ -20,8 +22,8 @@ public class MergeFieldImageDimension
 
 | 姓名 | 描述 |
 | --- | --- |
-| [MergeFieldImageDimension](mergefieldimagedimension/#constructor)(double) | 使用给定的点值创建图像尺寸实例。 |
-| [MergeFieldImageDimension](mergefieldimagedimension/#constructor_1)(double, MergeFieldImageDimensionUnit) | 使用给定值和给定单位创建图像尺寸实例。 |
+| [MergeFieldImageDimension](mergefieldimagedimension/#constructor)(*double*) | 使用给定的点值创建图像尺寸实例。 |
+| [MergeFieldImageDimension](mergefieldimagedimension/#constructor_1)(*double, [MergeFieldImageDimensionUnit](../mergefieldimagedimensionunit/)*) | 使用给定值和给定单位创建图像尺寸实例。 |
 
 ## 特性
 
@@ -30,11 +32,11 @@ public class MergeFieldImageDimension
 | [Unit](../../aspose.words.fields/mergefieldimagedimension/unit/) { get; set; } | 单位. |
 | [Value](../../aspose.words.fields/mergefieldimagedimension/value/) { get; set; } | 值。 |
 
-### 评论
+## 评论
 
 要指示在邮件合并期间应以其原始尺寸插入图像， 您应该为[`Value`](./value/)属性.
 
-### 例子
+## 例子
 
 展示如何在 MERGEFIELDS 在邮件合并期间接受图像时设置图像尺寸。
 
@@ -105,5 +107,3 @@ private class MergedImageResizer : IFieldMergingCallback
 
 * 命名空间 [Aspose.Words.Fields](../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../)
-
-

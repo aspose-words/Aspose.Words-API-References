@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitBuildingBlockStart
-second_title: Aspose.Words för .NET API Referens
-description: DocumentVisitor metod. Anropas när uppräkningen av ett byggblock har påbörjats.
+linktitle: VisitBuildingBlockStart
+articleTitle: VisitBuildingBlockStart
+second_title: Aspose.Words för .NET
+description: DocumentVisitor VisitBuildingBlockStart metod. Anropas när uppräkningen av ett byggblock har påbörjats i C#.
 type: docs
 weight: 70
 url: /sv/net/aspose.words/documentvisitor/visitbuildingblockstart/
@@ -22,11 +24,11 @@ public virtual VisitorAction VisitBuildingBlockStart(BuildingBlock block)
 
 A[`VisitorAction`](../../visitoraction/) värde som anger hur uppräkningen ska fortsätta.
 
-### Anmärkningar
+## Anmärkningar
 
 Obs: En byggblocksnod och dess underordnade nod besöks inte när du kör en besökare över en[`Document`](../../document/) . Om du vill köra en besökare över a byggblock måste du köra besökaren över[`GlossaryDocument`](../../../aspose.words.buildingblocks/glossarydocument/) eller samtal[`Accept`](../../../aspose.words.buildingblocks/buildingblock/accept/) .
 
-### Exempel
+## Exempel
 
 Visar sätt att komma åt byggstenar i ett ordlistadokument.
 
@@ -132,7 +134,5 @@ public class GlossaryDocVisitor : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [BuildingBlock](../../../aspose.words.buildingblocks/buildingblock/)
 * class [DocumentVisitor](../)
-* namnutrymme [Aspose.Words](../../documentvisitor/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

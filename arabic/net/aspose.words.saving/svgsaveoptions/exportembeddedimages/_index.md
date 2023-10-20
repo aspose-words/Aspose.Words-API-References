@@ -1,7 +1,9 @@
 ---
 title: SvgSaveOptions.ExportEmbeddedImages
-second_title: Aspose.Words لمراجع .NET API
-description: SvgSaveOptions ملكية. تحديد ما إذا كان يجب تضمين الصور في مستند SVG كأساس 64. ملاحظة يمكن أن يؤدي تعيين هذه العلامة إلى زيادة حجم ملف SVG الناتج بشكل ملحوظ.
+linktitle: ExportEmbeddedImages
+articleTitle: ExportEmbeddedImages
+second_title: Aspose.Words لـ .NET
+description: SvgSaveOptions ExportEmbeddedImages ملكية. تحديد ما إذا كان يجب تضمين الصور في مستند SVG كأساس 64. ملاحظة يمكن أن يؤدي تعيين هذه العلامة إلى زيادة حجم ملف SVG الناتج بشكل ملحوظ في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.saving/svgsaveoptions/exportembeddedimages/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.saving/svgsaveoptions/exportembeddedimages/
 public bool ExportEmbeddedImages { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية معالجة وطباعة معرفات URI للموارد المرتبطة التي تم إنشاؤها أثناء تحويل مستند إلى .svg.
 
@@ -57,7 +59,5 @@ private class ResourceUriPrinter : IResourceSavingCallback
 ### أنظر أيضا
 
 * class [SvgSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../svgsaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

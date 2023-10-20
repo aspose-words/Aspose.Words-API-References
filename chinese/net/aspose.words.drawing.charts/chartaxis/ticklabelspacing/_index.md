@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.TickLabelSpacing
-second_title: Aspose.Words for .NET API 参考
-description: ChartAxis 财产. 获取或设置绘制刻度标签的时间间隔
+linktitle: TickLabelSpacing
+articleTitle: TickLabelSpacing
+second_title: 用于 .NET 的 Aspose.Words
+description: ChartAxis TickLabelSpacing 财产. 获取或设置绘制刻度标签的时间间隔 在 C#.
 type: docs
 weight: 250
 url: /zh/net/aspose.words.drawing.charts/chartaxis/ticklabelspacing/
@@ -14,13 +16,13 @@ url: /zh/net/aspose.words.drawing.charts/chartaxis/ticklabelspacing/
 public int TickLabelSpacing { get; set; }
 ```
 
-### 评论
+## 评论
 
 该属性对文本类别和系列轴有效。 MS Office 2016 新图表不支持它。值的有效范围大于或等于 1。
 
 设置此属性会设置[`TickLabelSpacingIsAuto`](../ticklabelspacingisauto/)财产给`错误的`。
 
-### 例子
+## 例子
 
 演示如何操作图表轴的刻度线和显示值。
 
@@ -78,7 +80,5 @@ doc.Save(ArtifactsDir + "Charts.AxisDisplayUnit.docx");
 ### 也可以看看
 
 * class [ChartAxis](../)
-* 命名空间 [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* 命名空间 [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * 部件 [Aspose.Words](../../../)
-
-

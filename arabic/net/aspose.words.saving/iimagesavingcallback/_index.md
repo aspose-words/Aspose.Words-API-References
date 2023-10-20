@@ -1,7 +1,9 @@
 ---
-title: Interface IImageSavingCallback
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Saving.IImageSavingCallback واجهه المستخدم. قم بتطبيق هذه الواجهة إذا كنت تريد التحكم في كيفية قيام Aspose.Words بحفظ الصور عند حفظ مستند إلى HTML. يمكن استخدامه بواسطة تنسيقات أخرى.
+title: IImageSavingCallback Interface
+linktitle: IImageSavingCallback
+articleTitle: IImageSavingCallback
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Saving.IImageSavingCallback واجهه المستخدم. قم بتطبيق هذه الواجهة إذا كنت تريد التحكم في كيفية قيام Aspose.Words بحفظ الصور عند حفظ مستند إلى HTML. يمكن استخدامه بواسطة تنسيقات أخرى في C#.
 type: docs
 weight: 5170
 url: /ar/net/aspose.words.saving/iimagesavingcallback/
@@ -18,9 +20,9 @@ public interface IImageSavingCallback
 
 | اسم | وصف |
 | --- | --- |
-| [ImageSaving](../../aspose.words.saving/iimagesavingcallback/imagesaving/)(ImageSavingArgs) | يتم استدعاؤه عندما يقوم Aspose.Words بحفظ صورة بتنسيق HTML. |
+| [ImageSaving](../../aspose.words.saving/iimagesavingcallback/imagesaving/)(*[ImageSavingArgs](../imagesavingargs/)*) | يتم استدعاؤه عندما يقوم Aspose.Words بحفظ صورة بتنسيق HTML. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إعادة تسمية اسم الصورة أثناء الحفظ في مستند Markdown.
 
@@ -192,5 +194,3 @@ public class SavedImageRename : IImageSavingCallback
 
 * مساحة الاسم [Aspose.Words.Saving](../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../)
-
-

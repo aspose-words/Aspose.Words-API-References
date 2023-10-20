@@ -1,7 +1,9 @@
 ---
-title: PageRange.PageRange
-second_title: Référence de l'API Aspose.Words pour .NET
-description: PageRange constructeur. Crée un nouvel objet de plage de pages.
+title: PageRange
+linktitle: PageRange
+articleTitle: PageRange
+second_title: Aspose.Words pour .NET
+description: PageRange constructeur. Crée un nouvel objet de plage de pages en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.saving/pagerange/pagerange/
@@ -19,11 +21,11 @@ public PageRange(int from, int to)
 | from | Int32 | L'index de base zéro de la page de démarrage. |
 | to | Int32 | L'index de base zéro de la page de fin. S'il dépasse l'index de la dernière page du document, il est tronqué pour tenir dans le document lors du rendu. |
 
-### Remarques
+## Remarques
 
 MaxValue signifie la dernière page du document.
 
-### Exemples
+## Exemples
 
 Montre comment extraire des pages en fonction de plages de pages exactes.
 
@@ -41,7 +43,5 @@ doc.Save(ArtifactsDir + "ImageSaveOptions.ExportVariousPageRanges.tiff", imageOp
 ### Voir également
 
 * class [PageRange](../)
-* espace de noms [Aspose.Words.Saving](../../pagerange/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

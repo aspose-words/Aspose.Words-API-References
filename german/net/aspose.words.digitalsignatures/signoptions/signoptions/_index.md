@@ -1,7 +1,9 @@
 ---
-title: SignOptions.SignOptions
-second_title: Aspose.Words für .NET-API-Referenz
-description: SignOptions constructeur. Default_Constructor
+title: SignOptions
+linktitle: SignOptions
+articleTitle: SignOptions
+second_title: Aspose.Words für .NET
+description: SignOptions constructeur. Default_Constructor in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words.digitalsignatures/signoptions/signoptions/
@@ -17,7 +19,5 @@ public SignOptions()
 ### Siehe auch
 
 * class [SignOptions](../)
-* namensraum [Aspose.Words.DigitalSignatures](../../signoptions/)
+* namensraum [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * Montage [Aspose.Words](../../../)
-
-

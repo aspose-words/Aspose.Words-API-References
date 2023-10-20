@@ -1,7 +1,9 @@
 ---
 title: FontSettings.FallbackSettings
-second_title: Aspose.Words für .NET-API-Referenz
-description: FontSettings eigendom. Einstellungen im Zusammenhang mit dem SchriftartFallbackMechanismus.
+linktitle: FallbackSettings
+articleTitle: FallbackSettings
+second_title: Aspose.Words für .NET
+description: FontSettings FallbackSettings eigendom. Einstellungen im Zusammenhang mit dem SchriftartFallbackMechanismus in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.fonts/fontsettings/fallbacksettings/
@@ -14,7 +16,7 @@ Einstellungen im Zusammenhang mit dem Schriftart-Fallback-Mechanismus.
 public FontFallbackSettings FallbackSettings { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Fallback-Schriftarten über Unicode-Zeichencodebereiche verteilt werden.
 
@@ -74,7 +76,5 @@ doc.Save(ArtifactsDir + "FontSettings.FallbackSettingsCustom.pdf");
 
 * class [FontFallbackSettings](../../fontfallbacksettings/)
 * class [FontSettings](../)
-* namensraum [Aspose.Words.Fonts](../../fontsettings/)
+* namensraum [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * Montage [Aspose.Words](../../../)
-
-

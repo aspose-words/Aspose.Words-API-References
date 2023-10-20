@@ -1,7 +1,9 @@
 ---
 title: WebExtension.Reference
-second_title: Aspose.Words for .NET API 参考
-description: WebExtension 财产. 指定对 Web 扩展的主要引用
+linktitle: Reference
+articleTitle: Reference
+second_title: 用于 .NET 的 Aspose.Words
+description: WebExtension Reference 财产. 指定对 Web 扩展的主要引用 在 C#.
 type: docs
 weight: 60
 url: /zh/net/aspose.words.webextensions/webextension/reference/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.webextensions/webextension/reference/
 public WebExtensionReference Reference { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何向文档添加 Web 扩展。
 
@@ -60,7 +62,5 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 
 * class [WebExtensionReference](../../webextensionreference/)
 * class [WebExtension](../)
-* 命名空间 [Aspose.Words.WebExtensions](../../webextension/)
+* 命名空间 [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * 部件 [Aspose.Words](../../../)
-
-

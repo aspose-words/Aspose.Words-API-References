@@ -1,7 +1,9 @@
 ---
-title: Interface ICssSavingCallback
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Saving.ICssSavingCallback интерфейс. Реализуйте этот интерфейс если хотите контролировать как Aspose.Words сохраняет CSS каскадную таблицу стилей при сохранении документа в HTML.
+title: ICssSavingCallback Interface
+linktitle: ICssSavingCallback
+articleTitle: ICssSavingCallback
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Saving.ICssSavingCallback интерфейс. Реализуйте этот интерфейс если хотите контролировать как Aspose.Words сохраняет CSS каскадную таблицу стилей при сохранении документа в HTML на С#.
 type: docs
 weight: 5130
 url: /ru/net/aspose.words.saving/icsssavingcallback/
@@ -18,9 +20,9 @@ public interface ICssSavingCallback
 
 | Имя | Описание |
 | --- | --- |
-| [CssSaving](../../aspose.words.saving/icsssavingcallback/csssaving/)(CssSavingArgs) | Вызывается, когда Aspose.Words сохраняет CSS (каскадную таблицу стилей). |
+| [CssSaving](../../aspose.words.saving/icsssavingcallback/csssaving/)(*[CssSavingArgs](../csssavingargs/)*) | Вызывается, когда Aspose.Words сохраняет CSS (каскадную таблицу стилей). |
 
-### Примеры
+## Примеры
 
 Показывает, как работать с таблицами стилей CSS, создаваемыми преобразованием HTML.
 
@@ -82,5 +84,3 @@ private class CustomCssSavingCallback : ICssSavingCallback
 
 * пространство имен [Aspose.Words.Saving](../../aspose.words.saving/)
 * сборка [Aspose.Words](../../)
-
-

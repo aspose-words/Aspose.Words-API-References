@@ -1,7 +1,9 @@
 ---
 title: ConditionalStyleCollection.FirstRow
-second_title: Aspose.Words لمراجع .NET API
-description: ConditionalStyleCollection ملكية. الحصول على نمط الصف الأول.
+linktitle: FirstRow
+articleTitle: FirstRow
+second_title: Aspose.Words لـ .NET
+description: ConditionalStyleCollection FirstRow ملكية. الحصول على نمط الصف الأول في C#.
 type: docs
 weight: 70
 url: /ar/net/aspose.words/conditionalstylecollection/firstrow/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/conditionalstylecollection/firstrow/
 public ConditionalStyle FirstRow { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع أنماط مناطق معينة في الجدول.
 
@@ -85,7 +87,5 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 
 * class [ConditionalStyle](../../conditionalstyle/)
 * class [ConditionalStyleCollection](../)
-* مساحة الاسم [Aspose.Words](../../conditionalstylecollection/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

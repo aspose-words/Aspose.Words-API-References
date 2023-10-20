@@ -1,12 +1,14 @@
 ---
 title: TableSubstitutionRule.Save
-second_title: Справочник по API Aspose.Words для .NET
-description: TableSubstitutionRule метод. Сохраняет текущие настройки подстановки таблицы в файл.
+linktitle: Save
+articleTitle: Save
+second_title: Aspose.Words для .NET
+description: TableSubstitutionRule Save метод. Сохраняет текущие настройки подстановки таблицы в файл на С#.
 type: docs
 weight: 70
 url: /ru/net/aspose.words.fonts/tablesubstitutionrule/save/
 ---
-## Save(string) {#save_1}
+## Save(*string*) {#save_1}
 
 Сохраняет текущие настройки подстановки таблицы в файл.
 
@@ -18,7 +20,7 @@ public void Save(string fileName)
 | --- | --- | --- |
 | fileName | String | Имя выходного файла. |
 
-### Примеры
+## Примеры
 
 Показывает, как получить доступ к таблицам замены шрифтов для Windows и Linux.
 
@@ -57,12 +59,12 @@ using (FileStream fileStream = new FileStream(ArtifactsDir + "FontSettings.Table
 ### Смотрите также
 
 * class [TableSubstitutionRule](../)
-* пространство имен [Aspose.Words.Fonts](../../tablesubstitutionrule/)
+* пространство имен [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## Save(Stream) {#save}
+## Save(*Stream*) {#save}
 
 Сохраняет текущие настройки замены таблицы в поток.
 
@@ -74,7 +76,7 @@ public void Save(Stream outputStream)
 | --- | --- | --- |
 | outputStream | Stream | Выходной поток. |
 
-### Примеры
+## Примеры
 
 Показывает, как получить доступ к таблицам замены шрифтов для Windows и Linux.
 
@@ -113,7 +115,5 @@ using (FileStream fileStream = new FileStream(ArtifactsDir + "FontSettings.Table
 ### Смотрите также
 
 * class [TableSubstitutionRule](../)
-* пространство имен [Aspose.Words.Fonts](../../tablesubstitutionrule/)
+* пространство имен [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * сборка [Aspose.Words](../../../)
-
-

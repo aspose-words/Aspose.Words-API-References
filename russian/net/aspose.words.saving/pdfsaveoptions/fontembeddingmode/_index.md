@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.FontEmbeddingMode
-second_title: Справочник по API Aspose.Words для .NET
-description: PdfSaveOptions свойство. Определяет режим внедрения шрифта.
+linktitle: FontEmbeddingMode
+articleTitle: FontEmbeddingMode
+second_title: Aspose.Words для .NET
+description: PdfSaveOptions FontEmbeddingMode свойство. Определяет режим внедрения шрифта на С#.
 type: docs
 weight: 170
 url: /ru/net/aspose.words.saving/pdfsaveoptions/fontembeddingmode/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.saving/pdfsaveoptions/fontembeddingmode/
 public PdfFontEmbeddingMode FontEmbeddingMode { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Значение по умолчанию:EmbedAll.
 
@@ -22,7 +24,7 @@ public PdfFontEmbeddingMode FontEmbeddingMode { get; set; }
 
 Для соответствия PDF/A и PDF/UA необходимо встроить все шрифты. EmbedAll значение будет использоваться автоматически при сохранении в PDF/A и PDF/UA.
 
-### Примеры
+## Примеры
 
 Показывает, как настроить Aspose.Words для пропуска встраивания шрифтов Arial и Times New Roman в PDF-документ.
 
@@ -68,7 +70,5 @@ switch (pdfFontEmbeddingMode)
 
 * enum [PdfFontEmbeddingMode](../../pdffontembeddingmode/)
 * class [PdfSaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../pdfsaveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

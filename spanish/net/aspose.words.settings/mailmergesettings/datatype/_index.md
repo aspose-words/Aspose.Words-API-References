@@ -1,7 +1,9 @@
 ---
 title: MailMergeSettings.DataType
-second_title: Referencia de API de Aspose.Words para .NET
-description: MailMergeSettings propiedad. Especifica el tipo de origen de datos de combinación de correspondencia y el método de acceso a los datos. El valor predeterminado esDefault .
+linktitle: DataType
+articleTitle: DataType
+second_title: Aspose.Words para .NET
+description: MailMergeSettings DataType propiedad. Especifica el tipo de origen de datos de combinación de correspondencia y el método de acceso a los datos. El valor predeterminado esDefault  en C#.
 type: docs
 weight: 70
 url: /es/net/aspose.words.settings/mailmergesettings/datatype/
@@ -14,7 +16,7 @@ Especifica el tipo de origen de datos de combinación de correspondencia y el m�
 public MailMergeDataType DataType { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo ejecutar una combinación de correspondencia con datos de un objeto de origen de datos de Office.
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 
 * enum [MailMergeDataType](../../mailmergedatatype/)
 * class [MailMergeSettings](../)
-* espacio de nombres [Aspose.Words.Settings](../../mailmergesettings/)
+* espacio de nombres [Aspose.Words.Settings](../../../aspose.words.settings/)
 * asamblea [Aspose.Words](../../../)
-
-

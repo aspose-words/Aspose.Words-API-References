@@ -1,7 +1,9 @@
 ---
 title: FieldToc.InsertHyperlinks
-second_title: Aspose.Words för .NET API Referens
-description: FieldToc fast egendom. Hämtar eller ställer in om innehållsförteckningsposterna ska vara hyperlänkar.
+linktitle: InsertHyperlinks
+articleTitle: InsertHyperlinks
+second_title: Aspose.Words för .NET
+description: FieldToc InsertHyperlinks fast egendom. Hämtar eller ställer in om innehållsförteckningsposterna ska vara hyperlänkar i C#.
 type: docs
 weight: 100
 url: /sv/net/aspose.words.fields/fieldtoc/inserthyperlinks/
@@ -14,7 +16,7 @@ Hämtar eller ställer in om innehållsförteckningsposterna ska vara hyperlänk
 public bool InsertHyperlinks { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man infogar en innehållsförteckning och fyller den med poster baserat på rubrikstilar.
 
@@ -99,7 +101,5 @@ public void InsertNewPageWithHeading(DocumentBuilder builder, string captionText
 ### Se även
 
 * class [FieldToc](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldtoc/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

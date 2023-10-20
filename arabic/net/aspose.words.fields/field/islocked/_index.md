@@ -1,7 +1,9 @@
 ---
 title: Field.IsLocked
-second_title: Aspose.Words لمراجع .NET API
-description: Field ملكية. الحصول على أو تعيين ما إذا كان الحقل مقفلاً لا ينبغي إعادة حساب النتيجة.
+linktitle: IsLocked
+articleTitle: IsLocked
+second_title: Aspose.Words لـ .NET
+description: Field IsLocked ملكية. الحصول على أو تعيين ما إذا كان الحقل مقفلاً لا ينبغي إعادة حساب النتيجة في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.fields/field/islocked/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/field/islocked/
 public bool IsLocked { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع عقدة FieldStart.
 
@@ -45,7 +47,5 @@ field.Update();
 ### أنظر أيضا
 
 * class [Field](../)
-* مساحة الاسم [Aspose.Words.Fields](../../field/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

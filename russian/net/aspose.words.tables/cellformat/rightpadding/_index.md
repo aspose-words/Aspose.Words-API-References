@@ -1,9 +1,11 @@
 ---
 title: CellFormat.RightPadding
-second_title: Справочник по API Aspose.Words для .NET
-description: CellFormat свойство. Возвращает или задает количество места в пунктах которое нужно добавить справа от содержимого ячейки.
+linktitle: RightPadding
+articleTitle: RightPadding
+second_title: Aspose.Words для .NET
+description: CellFormat RightPadding свойство. Возвращает или задает количество места в пунктах которое нужно добавить справа от содержимого ячейки на С#.
 type: docs
-weight: 90
+weight: 80
 url: /ru/net/aspose.words.tables/cellformat/rightpadding/
 ---
 ## CellFormat.RightPadding property
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.tables/cellformat/rightpadding/
 public double RightPadding { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как форматировать ячейки с помощью построителя документов.
 
@@ -61,7 +63,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.SetCellFormatting.docx");
 ### Смотрите также
 
 * class [CellFormat](../)
-* пространство имен [Aspose.Words.Tables](../../cellformat/)
+* пространство имен [Aspose.Words.Tables](../../../aspose.words.tables/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: VbaReferenceCollection.Remove
-second_title: Aspose.Words for .NET API 参考
-description: VbaReferenceCollection 方法. 删除第一次出现的指定VbaReference集合中的项目
+linktitle: Remove
+articleTitle: Remove
+second_title: 用于 .NET 的 Aspose.Words
+description: VbaReferenceCollection Remove 方法. 删除第一次出现的指定VbaReference集合中的项目 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.vba/vbareferencecollection/remove/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.vba/vbareferencecollection/remove/
 public void Remove(VbaReference item)
 ```
 
-### 例子
+## 例子
 
 演示如何从 VBA 参考集合中获取/删除元素。
 
@@ -89,7 +91,5 @@ private static string GetLibIdProjectPath(string libIdProject)
 
 * class [VbaReference](../../vbareference/)
 * class [VbaReferenceCollection](../)
-* 命名空间 [Aspose.Words.Vba](../../vbareferencecollection/)
+* 命名空间 [Aspose.Words.Vba](../../../aspose.words.vba/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ResourceLoadingArgs.SetData
-second_title: Aspose.Words för .NET API Referens
-description: ResourceLoadingArgs metod. Anger data från användaren för resursen som används omResourceLoading returnerarUserProvided .
+linktitle: SetData
+articleTitle: SetData
+second_title: Aspose.Words för .NET
+description: ResourceLoadingArgs SetData metod. Anger data från användaren för resursen som används omResourceLoading returnerarUserProvided  i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.loading/resourceloadingargs/setdata/
@@ -14,7 +16,7 @@ Anger data från användaren för resursen som används om[`ResourceLoading`](..
 public void SetData(byte[] data)
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man anpassar processen för att ladda externa resurser i ett dokument.
 
@@ -77,7 +79,5 @@ private class ImageNameHandler : IResourceLoadingCallback
 ### Se även
 
 * class [ResourceLoadingArgs](../)
-* namnutrymme [Aspose.Words.Loading](../../resourceloadingargs/)
+* namnutrymme [Aspose.Words.Loading](../../../aspose.words.loading/)
 * hopsättning [Aspose.Words](../../../)
-
-

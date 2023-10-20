@@ -1,7 +1,9 @@
 ---
 title: FindReplaceOptions.IgnoreStructuredDocumentTags
-second_title: Справочник по API Aspose.Words для .NET
-description: FindReplaceOptions свойство. Получает или задает логическое значение указывающее следует ли игнорировать содержимоеStructuredDocumentTag . Значение по умолчаниюЛОЖЬ .
+linktitle: IgnoreStructuredDocumentTags
+articleTitle: IgnoreStructuredDocumentTags
+second_title: Aspose.Words для .NET
+description: FindReplaceOptions IgnoreStructuredDocumentTags свойство. Получает или задает логическое значение указывающее следует ли игнорировать содержимоеStructuredDocumentTag . Значение по умолчаниюЛОЖЬ  на С#.
 type: docs
 weight: 120
 url: /ru/net/aspose.words.replacing/findreplaceoptions/ignorestructureddocumenttags/
@@ -14,13 +16,13 @@ url: /ru/net/aspose.words.replacing/findreplaceoptions/ignorestructureddocumentt
 public bool IgnoreStructuredDocumentTags { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Если для этой опции установлено значение`истинный` , содержание[`StructuredDocumentTag`](../../../aspose.words.markup/structureddocumenttag/) будет рассматриваться как простой текст.
 
 В противном случае[`StructuredDocumentTag`](../../../aspose.words.markup/structureddocumenttag/) будет обрабатываться как отдельный Story , а заменяющий шаблон будет искаться отдельно для каждого[`StructuredDocumentTag`](../../../aspose.words.markup/structureddocumenttag/), , чтобы, если шаблон пересекает[`StructuredDocumentTag`](../../../aspose.words.markup/structureddocumenttag/) , то для такого шаблона замена не будет выполняться.
 
-### Примеры
+## Примеры
 
 Показывает, как игнорировать содержимое тегов при замене.
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.IgnoreStructuredDocumentTags.docx
 ### Смотрите также
 
 * class [FindReplaceOptions](../)
-* пространство имен [Aspose.Words.Replacing](../../findreplaceoptions/)
+* пространство имен [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * сборка [Aspose.Words](../../../)
-
-

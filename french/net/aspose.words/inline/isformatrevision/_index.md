@@ -1,7 +1,9 @@
 ---
 title: Inline.IsFormatRevision
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Inline propriété. Renvoie vrai si le formatage de lobjet a été modifié dans Microsoft Word alors que le suivi des modifications était activé.
+linktitle: IsFormatRevision
+articleTitle: IsFormatRevision
+second_title: Aspose.Words pour .NET
+description: Inline IsFormatRevision propriété. Renvoie vrai si le formatage de lobjet a été modifié dans Microsoft Word alors que le suivi des modifications était activé en C#.
 type: docs
 weight: 30
 url: /fr/net/aspose.words/inline/isformatrevision/
@@ -14,7 +16,7 @@ Renvoie vrai si le formatage de l'objet a été modifié dans Microsoft Word alo
 public bool IsFormatRevision { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment déterminer le type de révision d’un nœud en ligne.
 
@@ -70,7 +72,5 @@ Assert.IsTrue(runs[5].IsDeleteRevision);
 ### Voir également
 
 * class [Inline](../)
-* espace de noms [Aspose.Words](../../inline/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

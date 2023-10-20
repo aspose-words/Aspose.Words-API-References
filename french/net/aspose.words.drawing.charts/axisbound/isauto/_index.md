@@ -1,7 +1,9 @@
 ---
 title: AxisBound.IsAuto
-second_title: Référence de l'API Aspose.Words pour .NET
-description: AxisBound propriété. Renvoie un indicateur indiquant que la limite de laxe doit être déterminée automatiquement.
+linktitle: IsAuto
+articleTitle: IsAuto
+second_title: Aspose.Words pour .NET
+description: AxisBound IsAuto propriété. Renvoie un indicateur indiquant que la limite de laxe doit être déterminée automatiquement en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.drawing.charts/axisbound/isauto/
@@ -14,7 +16,7 @@ Renvoie un indicateur indiquant que la limite de l'axe doit être déterminée a
 public bool IsAuto { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment définir les limites des axes personnalisés.
 
@@ -74,7 +76,5 @@ doc.Save(ArtifactsDir + "Charts.AxisBound.docx");
 ### Voir également
 
 * class [AxisBound](../)
-* espace de noms [Aspose.Words.Drawing.Charts](../../axisbound/)
+* espace de noms [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Assemblée [Aspose.Words](../../../)
-
-

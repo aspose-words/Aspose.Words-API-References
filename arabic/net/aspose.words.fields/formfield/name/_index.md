@@ -1,7 +1,9 @@
 ---
 title: FormField.Name
-second_title: Aspose.Words لمراجع .NET API
-description: FormField ملكية. الحصول على اسم حقل النموذج أو تعيينه.
+linktitle: Name
+articleTitle: Name
+second_title: Aspose.Words لـ .NET
+description: FormField Name ملكية. الحصول على اسم حقل النموذج أو تعيينه في C#.
 type: docs
 weight: 130
 url: /ar/net/aspose.words.fields/formfield/name/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.fields/formfield/name/
 public string Name { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 يسمح Microsoft Word بالسلاسل التي تحتوي على 20 حرفًا على الأكثر.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج مربع التحرير والسرد.
 
@@ -42,7 +44,5 @@ doc.Save(ArtifactsDir + "FormFields.Create.html");
 ### أنظر أيضا
 
 * class [FormField](../)
-* مساحة الاسم [Aspose.Words.Fields](../../formfield/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

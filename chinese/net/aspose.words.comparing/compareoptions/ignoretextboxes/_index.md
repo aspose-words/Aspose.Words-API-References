@@ -1,7 +1,9 @@
 ---
 title: CompareOptions.IgnoreTextboxes
-second_title: Aspose.Words for .NET API 参考
-description: CompareOptions 财产. 指定是否比较文本框中包含的数据的差异 默认情况下不忽略文本框
+linktitle: IgnoreTextboxes
+articleTitle: IgnoreTextboxes
+second_title: 用于 .NET 的 Aspose.Words
+description: CompareOptions IgnoreTextboxes 财产. 指定是否比较文本框中包含的数据的差异 默认情况下不忽略文本框 在 C#.
 type: docs
 weight: 120
 url: /zh/net/aspose.words.comparing/compareoptions/ignoretextboxes/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.comparing/compareoptions/ignoretextboxes/
 public bool IgnoreTextboxes { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何在进行比较时过滤特定类型的文档元素。
 
@@ -88,7 +90,5 @@ docOriginal.Save(ArtifactsDir + "Document.CompareOptions.docx");
 ### 也可以看看
 
 * class [CompareOptions](../)
-* 命名空间 [Aspose.Words.Comparing](../../compareoptions/)
+* 命名空间 [Aspose.Words.Comparing](../../../aspose.words.comparing/)
 * 部件 [Aspose.Words](../../../)
-
-

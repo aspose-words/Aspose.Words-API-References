@@ -1,9 +1,11 @@
 ---
 title: Style.ParagraphFormat
-second_title: Referencia de API de Aspose.Words para .NET
-description: Style propiedad. Obtiene el formato de párrafo del estilo.
+linktitle: ParagraphFormat
+articleTitle: ParagraphFormat
+second_title: Aspose.Words para .NET
+description: Style ParagraphFormat propiedad. Obtiene el formato de párrafo del estilo en C#.
 type: docs
-weight: 150
+weight: 140
 url: /es/net/aspose.words/style/paragraphformat/
 ---
 ## Style.ParagraphFormat property
@@ -14,11 +16,11 @@ Obtiene el formato de párrafo del estilo.
 public ParagraphFormat ParagraphFormat { get; }
 ```
 
-### Observaciones
+## Observaciones
 
 Para estilos de carácter y lista, esta propiedad devuelve`nulo`.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear y utilizar un estilo de párrafo con formato de lista.
 
@@ -51,7 +53,5 @@ builder.Document.Save(ArtifactsDir + "Styles.ParagraphStyleBulletedList.docx");
 
 * class [ParagraphFormat](../../paragraphformat/)
 * class [Style](../)
-* espacio de nombres [Aspose.Words](../../style/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: PageLayoutCallbackArgs.PageIndex
-second_title: Aspose.Words für .NET-API-Referenz
-description: PageLayoutCallbackArgs eigendom. Ruft den 0basierten Index der Seite im Dokument ab auf die sich dieses Ereignis bezieht. Gibt einen negativen Wert zurück wenn keine zugeordnete Seite vorhanden ist oder wenn die Seite während des Reflows entfernt wurde.
+linktitle: PageIndex
+articleTitle: PageIndex
+second_title: Aspose.Words für .NET
+description: PageLayoutCallbackArgs PageIndex eigendom. Ruft den 0basierten Index der Seite im Dokument ab auf die sich dieses Ereignis bezieht. Gibt einen negativen Wert zurück wenn keine zugeordnete Seite vorhanden ist oder wenn die Seite während des Reflows entfernt wurde in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.layout/pagelayoutcallbackargs/pageindex/
@@ -14,7 +16,7 @@ Ruft den 0-basierten Index der Seite im Dokument ab, auf die sich dieses Ereigni
 public int PageIndex { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Layoutänderungen mit einem Layout-Callback verfolgt werden.
 
@@ -80,7 +82,5 @@ private class RenderPageLayoutCallback : IPageLayoutCallback
 ### Siehe auch
 
 * class [PageLayoutCallbackArgs](../)
-* namensraum [Aspose.Words.Layout](../../pagelayoutcallbackargs/)
+* namensraum [Aspose.Words.Layout](../../../aspose.words.layout/)
 * Montage [Aspose.Words](../../../)
-
-

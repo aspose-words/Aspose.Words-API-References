@@ -1,7 +1,9 @@
 ---
 title: FieldChar.FieldType
-second_title: Aspose.Words för .NET API Referens
-description: FieldChar fast egendom. Returnerar fältets typ.
+linktitle: FieldType
+articleTitle: FieldType
+second_title: Aspose.Words för .NET
+description: FieldChar FieldType fast egendom. Returnerar fältets typ i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.fields/fieldchar/fieldtype/
@@ -14,7 +16,7 @@ Returnerar fältets typ.
 public FieldType FieldType { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med en FieldStart-nod.
 
@@ -46,7 +48,5 @@ field.Update();
 
 * enum [FieldType](../../fieldtype/)
 * class [FieldChar](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldchar/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

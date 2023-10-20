@@ -1,9 +1,11 @@
 ---
 title: Document.Cleanup
-second_title: Aspose.Words for .NET API 参考
-description: Document 方法. 从文档中清除未使用的样式和列表
+linktitle: Cleanup
+articleTitle: Cleanup
+second_title: 用于 .NET 的 Aspose.Words
+description: Document Cleanup 方法. 从文档中清除未使用的样式和列表 在 C#.
 type: docs
-weight: 560
+weight: 540
 url: /zh/net/aspose.words/document/cleanup/
 ---
 ## Cleanup() {#cleanup}
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/document/cleanup/
 public void Cleanup()
 ```
 
-### 例子
+## 例子
 
 演示如何从文档中删除未使用的自定义样式。
 
@@ -56,12 +58,12 @@ Assert.AreEqual(4, doc.Styles.Count);
 ### 也可以看看
 
 * class [Document](../)
-* 命名空间 [Aspose.Words](../../document/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## Cleanup(CleanupOptions) {#cleanup_1}
+## Cleanup(*[CleanupOptions](../../cleanupoptions/)*) {#cleanup_1}
 
 根据给定的条件从文档中清除未使用的样式和列表[`CleanupOptions`](../../cleanupoptions/).
 
@@ -69,7 +71,7 @@ Assert.AreEqual(4, doc.Styles.Count);
 public void Cleanup(CleanupOptions options)
 ```
 
-### 例子
+## 例子
 
 演示如何从文档中删除所有未使用的自定义样式。
 
@@ -119,7 +121,5 @@ Assert.AreEqual(2, doc.Styles.Count);
 
 * class [CleanupOptions](../../cleanupoptions/)
 * class [Document](../)
-* 命名空间 [Aspose.Words](../../document/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

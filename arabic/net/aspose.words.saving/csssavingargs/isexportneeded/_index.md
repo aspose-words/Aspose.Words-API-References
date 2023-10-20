@@ -1,7 +1,9 @@
 ---
 title: CssSavingArgs.IsExportNeeded
-second_title: Aspose.Words لمراجع .NET API
-description: CssSavingArgs ملكية. يسمح بتحديد ما إذا كان سيتم تصدير CSS إلى ملف ودمجه في مستند HTML. الافتراضي هوحقيقي . عندما تكون هذه الخاصيةخطأ شنيع  لن يتم حفظ معلومات CSS في ملف CSS ولن يتم تضمينها في مستند HTML.
+linktitle: IsExportNeeded
+articleTitle: IsExportNeeded
+second_title: Aspose.Words لـ .NET
+description: CssSavingArgs IsExportNeeded ملكية. يسمح بتحديد ما إذا كان سيتم تصدير CSS إلى ملف ودمجه في مستند HTML. الافتراضي هوحقيقي . عندما تكون هذه الخاصيةخطأ شنيع  لن يتم حفظ معلومات CSS في ملف CSS ولن يتم تضمينها في مستند HTML في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.saving/csssavingargs/isexportneeded/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.saving/csssavingargs/isexportneeded/
 public bool IsExportNeeded { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع أوراق أنماط CSS التي ينشئها تحويل HTML.
 
@@ -75,7 +77,5 @@ private class CustomCssSavingCallback : ICssSavingCallback
 ### أنظر أيضا
 
 * class [CssSavingArgs](../)
-* مساحة الاسم [Aspose.Words.Saving](../../csssavingargs/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

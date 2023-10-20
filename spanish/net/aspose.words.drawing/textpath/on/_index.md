@@ -1,7 +1,9 @@
 ---
 title: TextPath.On
-second_title: Referencia de API de Aspose.Words para .NET
-description: TextPath propiedad. Define si se muestra el texto.
+linktitle: On
+articleTitle: On
+second_title: Aspose.Words para .NET
+description: TextPath On propiedad. Define si se muestra el texto en C#.
 type: docs
 weight: 70
 url: /es/net/aspose.words.drawing/textpath/on/
@@ -14,11 +16,11 @@ Define si se muestra el texto.
 public bool On { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 El valor predeterminado es`FALSO`.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo trabajar con WordArt.
 
@@ -121,7 +123,5 @@ private static Shape AppendWordArt(Document doc, string text, string textFontFam
 ### Ver también
 
 * class [TextPath](../)
-* espacio de nombres [Aspose.Words.Drawing](../../textpath/)
+* espacio de nombres [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * asamblea [Aspose.Words](../../../)
-
-

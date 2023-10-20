@@ -1,7 +1,9 @@
 ---
 title: FieldGreetingLine.NameFormat
-second_title: Aspose.Words for .NET API 参考
-description: FieldGreetingLine 财产. 获取或设置字段中包含的名称的格式
+linktitle: NameFormat
+articleTitle: NameFormat
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldGreetingLine NameFormat 财产. 获取或设置字段中包含的名称的格式 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.fields/fieldgreetingline/nameformat/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fieldgreetingline/nameformat/
 public string NameFormat { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何插入 GREETINGLINE 字段。
 
@@ -74,7 +76,5 @@ Assert.AreEqual("Dear Mr. Doe,\r\r\tThis is your custom greeting, created progra
 ### 也可以看看
 
 * class [FieldGreetingLine](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldgreetingline/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

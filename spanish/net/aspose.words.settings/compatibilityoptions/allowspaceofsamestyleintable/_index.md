@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.AllowSpaceOfSameStyleInTable
-second_title: Referencia de API de Aspose.Words para .NET
-description: CompatibilityOptions propiedad. Permitir espaciado contextual de párrafos en tablas.
+linktitle: AllowSpaceOfSameStyleInTable
+articleTitle: AllowSpaceOfSameStyleInTable
+second_title: Aspose.Words para .NET
+description: CompatibilityOptions AllowSpaceOfSameStyleInTable propiedad. Permitir espaciado contextual de párrafos en tablas en C#.
 type: docs
 weight: 30
 url: /es/net/aspose.words.settings/compatibilityoptions/allowspaceofsamestyleintable/
@@ -17,7 +19,5 @@ public bool AllowSpaceOfSameStyleInTable { get; set; }
 ### Ver también
 
 * class [CompatibilityOptions](../)
-* espacio de nombres [Aspose.Words.Settings](../../compatibilityoptions/)
+* espacio de nombres [Aspose.Words.Settings](../../../aspose.words.settings/)
 * asamblea [Aspose.Words](../../../)
-
-

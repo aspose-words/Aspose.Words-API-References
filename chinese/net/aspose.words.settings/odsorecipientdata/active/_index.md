@@ -1,7 +1,9 @@
 ---
 title: OdsoRecipientData.Active
-second_title: Aspose.Words for .NET API 参考
-description: OdsoRecipientData 财产. 指定执行邮件合并时是否将数据源中的记录导入到文档中 默认值为真的.
+linktitle: Active
+articleTitle: Active
+second_title: 用于 .NET 的 Aspose.Words
+description: OdsoRecipientData Active 财产. 指定执行邮件合并时是否将数据源中的记录导入到文档中 默认值为真的 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.settings/odsorecipientdata/active/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.settings/odsorecipientdata/active/
 public bool Active { get; set; }
 ```
 
-### 例子
+## 例子
 
 显示如何访问指定邮件合并将排除哪些合并数据源记录的数据集合。
 
@@ -54,7 +56,5 @@ Assert.AreEqual(0, dataCollection.Count);
 ### 也可以看看
 
 * class [OdsoRecipientData](../)
-* 命名空间 [Aspose.Words.Settings](../../odsorecipientdata/)
+* 命名空间 [Aspose.Words.Settings](../../../aspose.words.settings/)
 * 部件 [Aspose.Words](../../../)
-
-

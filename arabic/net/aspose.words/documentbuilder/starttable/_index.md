@@ -1,9 +1,11 @@
 ---
 title: DocumentBuilder.StartTable
-second_title: Aspose.Words لمراجع .NET API
-description: DocumentBuilder طريقة. يبدأ جدول في المستند.
+linktitle: StartTable
+articleTitle: StartTable
+second_title: Aspose.Words لـ .NET
+description: DocumentBuilder StartTable طريقة. يبدأ جدول في المستند في C#.
 type: docs
-weight: 650
+weight: 640
 url: /ar/net/aspose.words/documentbuilder/starttable/
 ---
 ## DocumentBuilder.StartTable method
@@ -18,13 +20,13 @@ public Table StartTable()
 
 عقدة الجدول التي تم إنشاؤها للتو.
 
-### ملاحظات
+## ملاحظات
 
 الطريقة التالية للاتصال هي[`InsertCell`](../insertcell/).
 
 تبدأ هذه الطريقة جدولًا متداخلاً عند استدعائها داخل الخلية.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تنسيق الخلايا باستخدام أداة إنشاء المستندات.
 
@@ -174,7 +176,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
 
 * class [Table](../../../aspose.words.tables/table/)
 * class [DocumentBuilder](../)
-* مساحة الاسم [Aspose.Words](../../documentbuilder/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

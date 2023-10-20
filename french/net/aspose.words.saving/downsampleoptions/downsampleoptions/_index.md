@@ -1,7 +1,9 @@
 ---
-title: DownsampleOptions.DownsampleOptions
-second_title: Référence de l'API Aspose.Words pour .NET
-description: DownsampleOptions constructeur. Default_Constructor
+title: DownsampleOptions
+linktitle: DownsampleOptions
+articleTitle: DownsampleOptions
+second_title: Aspose.Words pour .NET
+description: DownsampleOptions constructeur. Default_Constructor en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.saving/downsampleoptions/downsampleoptions/
@@ -17,7 +19,5 @@ public DownsampleOptions()
 ### Voir également
 
 * class [DownsampleOptions](../)
-* espace de noms [Aspose.Words.Saving](../../downsampleoptions/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

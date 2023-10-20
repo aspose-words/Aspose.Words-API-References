@@ -1,7 +1,9 @@
 ---
-title: Class RowFormat
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Tables.RowFormat klas. Stellt alle Formatierungen für eine Tabellenzeile dar.
+title: RowFormat Class
+linktitle: RowFormat
+articleTitle: RowFormat
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Tables.RowFormat klas. Stellt alle Formatierungen für eine Tabellenzeile dar in C#.
 type: docs
 weight: 6330
 url: /de/net/aspose.words.tables/rowformat/
@@ -32,7 +34,7 @@ public class RowFormat
 | --- | --- |
 | [ClearFormatting](../../aspose.words.tables/rowformat/clearformatting/)() | Setzt die Standardzeilenformatierung zurück. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Formatierung einer Tabellenzeile geändert wird.
 
@@ -146,5 +148,3 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
 
 * namensraum [Aspose.Words.Tables](../../aspose.words.tables/)
 * Montage [Aspose.Words](../../)
-
-

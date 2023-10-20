@@ -1,7 +1,9 @@
 ---
 title: Shape.Filled
-second_title: Aspose.Words für .NET-API-Referenz
-description: Shape eigendom. Legt fest ob der geschlossene Pfad der Form gefüllt wird.
+linktitle: Filled
+articleTitle: Filled
+second_title: Aspose.Words für .NET
+description: Shape Filled eigendom. Legt fest ob der geschlossene Pfad der Form gefüllt wird in C#.
 type: docs
 weight: 50
 url: /de/net/aspose.words.drawing/shape/filled/
@@ -14,13 +16,13 @@ Legt fest, ob der geschlossene Pfad der Form gefüllt wird.
 public bool Filled { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Dies ist eine Verknüpfung zum[`Visible`](../../fill/visible/) Eigentum.
 
 Der Standardwert ist`WAHR`.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie alle Formen in einem Dokument durchlaufen werden.
 
@@ -143,7 +145,5 @@ private class ShapeAppearancePrinter : DocumentVisitor
 ### Siehe auch
 
 * class [Shape](../)
-* namensraum [Aspose.Words.Drawing](../../shape/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

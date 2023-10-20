@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.Borders
-second_title: Referencia de API de Aspose.Words para .NET
-description: ParagraphFormat propiedad. Obtiene la colección de bordes del párrafo.
+linktitle: Borders
+articleTitle: Borders
+second_title: Aspose.Words para .NET
+description: ParagraphFormat Borders propiedad. Obtiene la colección de bordes del párrafo en C#.
 type: docs
 weight: 60
 url: /es/net/aspose.words/paragraphformat/borders/
@@ -14,7 +16,7 @@ Obtiene la colección de bordes del párrafo.
 public BorderCollection Borders { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo insertar un párrafo con un borde superior.
 
@@ -38,7 +40,5 @@ doc.Save(ArtifactsDir + "Border.ParagraphTopBorder.docx");
 
 * class [BorderCollection](../../bordercollection/)
 * class [ParagraphFormat](../)
-* espacio de nombres [Aspose.Words](../../paragraphformat/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

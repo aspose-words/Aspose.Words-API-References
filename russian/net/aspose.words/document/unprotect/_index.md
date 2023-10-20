@@ -1,9 +1,11 @@
 ---
 title: Document.Unprotect
-second_title: Справочник по API Aspose.Words для .NET
-description: Document метод. Снимает защиту с документа независимо от пароля.
+linktitle: Unprotect
+articleTitle: Unprotect
+second_title: Aspose.Words для .NET
+description: Document Unprotect метод. Снимает защиту с документа независимо от пароля на С#.
 type: docs
-weight: 760
+weight: 740
 url: /ru/net/aspose.words/document/unprotect/
 ---
 ## Unprotect() {#unprotect_1}
@@ -14,13 +16,13 @@ url: /ru/net/aspose.words/document/unprotect/
 public void Unprotect()
 ```
 
-### Примечания
+## Примечания
 
 Этот метод снимает защиту с документа, даже если у него есть пароль защиты.
 
 Обратите внимание, что защита документа отличается от защиты от записи. Защита от записи задается с помощью[`WriteProtection`](../writeprotection/).
 
-### Примеры
+## Примеры
 
 Показывает, как защитить и снять защиту документа.
 
@@ -65,12 +67,12 @@ Assert.AreEqual(ProtectionType.NoProtection, doc.ProtectionType);
 ### Смотрите также
 
 * class [Document](../)
-* пространство имен [Aspose.Words](../../document/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## Unprotect(string) {#unprotect}
+## Unprotect(*string*) {#unprotect}
 
 Снимает защиту с документа, если указан правильный пароль.
 
@@ -86,13 +88,13 @@ public bool Unprotect(string password)
 
 `истинный` если был указан правильный пароль и документ был незащищен.
 
-### Примечания
+## Примечания
 
 Этот метод снимает защиту документа только в том случае, если указан правильный пароль.
 
 Обратите внимание, что защита документа отличается от защиты от записи. Защита от записи задается с помощью[`WriteProtection`](../writeprotection/).
 
-### Примеры
+## Примеры
 
 Показывает, как защитить и снять защиту документа.
 
@@ -137,7 +139,5 @@ Assert.AreEqual(ProtectionType.NoProtection, doc.ProtectionType);
 ### Смотрите также
 
 * class [Document](../)
-* пространство имен [Aspose.Words](../../document/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

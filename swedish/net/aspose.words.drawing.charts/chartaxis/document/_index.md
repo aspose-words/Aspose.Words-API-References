@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.Document
-second_title: Aspose.Words för .NET API Referens
-description: ChartAxis fast egendom. Returnerar det dokument som titelinnehavaren tillhör.
+linktitle: Document
+articleTitle: Document
+second_title: Aspose.Words för .NET
+description: ChartAxis Document fast egendom. Returnerar det dokument som titelinnehavaren tillhör i C#.
 type: docs
 weight: 70
 url: /sv/net/aspose.words.drawing.charts/chartaxis/document/
@@ -18,7 +20,5 @@ public DocumentBase Document { get; }
 
 * class [DocumentBase](../../../aspose.words/documentbase/)
 * class [ChartAxis](../)
-* namnutrymme [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* namnutrymme [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../../)
-
-

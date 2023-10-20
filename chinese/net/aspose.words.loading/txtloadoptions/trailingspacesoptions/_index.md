@@ -1,9 +1,11 @@
 ---
 title: TxtLoadOptions.TrailingSpacesOptions
-second_title: Aspose.Words for .NET API 参考
-description: TxtLoadOptions 财产. 获取或设置尾随空格处理的首选选项 默认值为Trim.
+linktitle: TrailingSpacesOptions
+articleTitle: TrailingSpacesOptions
+second_title: 用于 .NET 的 Aspose.Words
+description: TxtLoadOptions TrailingSpacesOptions 财产. 获取或设置尾随空格处理的首选选项 默认值为Trim 在 C#.
 type: docs
-weight: 70
+weight: 60
 url: /zh/net/aspose.words.loading/txtloadoptions/trailingspacesoptions/
 ---
 ## TxtLoadOptions.TrailingSpacesOptions property
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.loading/txtloadoptions/trailingspacesoptions/
 public TxtTrailingSpacesOptions TrailingSpacesOptions { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何在加载纯文本文档时修剪空白。
 
@@ -91,7 +93,5 @@ switch (txtTrailingSpacesOptions)
 
 * enum [TxtTrailingSpacesOptions](../../txttrailingspacesoptions/)
 * class [TxtLoadOptions](../)
-* 命名空间 [Aspose.Words.Loading](../../txtloadoptions/)
+* 命名空间 [Aspose.Words.Loading](../../../aspose.words.loading/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum RevisionTextEffect
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Layout.RevisionTextEffect opsomming. Ermöglicht die Festlegung eines Dekorationseffekts für Überarbeitungen des Dokumenttexts.
+title: RevisionTextEffect Enum
+linktitle: RevisionTextEffect
+articleTitle: RevisionTextEffect
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Layout.RevisionTextEffect opsomming. Ermöglicht die Festlegung eines Dekorationseffekts für Überarbeitungen des Dokumenttexts in C#.
 type: docs
 weight: 3400
 url: /de/net/aspose.words.layout/revisiontexteffect/
@@ -28,7 +30,7 @@ public enum RevisionTextEffect
 | DoubleStrikeThrough | `7` | Überarbeiteter Inhalt ist doppelt durchgestrichen und eingefärbt. |
 | Hidden | `8` | Überarbeiteter Inhalt ist ausgeblendet. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie das Erscheinungsbild von Revisionen geändert wird.
 
@@ -80,5 +82,3 @@ doc.Save(ArtifactsDir + "Revision.RevisionOptions.pdf");
 
 * namensraum [Aspose.Words.Layout](../../aspose.words.layout/)
 * Montage [Aspose.Words](../../)
-
-

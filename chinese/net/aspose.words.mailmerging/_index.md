@@ -1,18 +1,20 @@
 ---
 title: Aspose.Words.MailMerging
-second_title: Aspose.Words for .NET API 参考
-description: 这 Aspose.Words.MailMerging命名空间包含 原始邮件合并报告引擎的类
+linktitle: Aspose.Words.MailMerging
+articleTitle: Aspose.Words.MailMerging
+second_title: 用于 .NET 的 Aspose.Words
+description: 这Aspose.Words.MailMerging命名空间包含 原始邮件合并报告引擎的类 在 C#.
 type: docs
 weight: 150
 url: /zh/net/aspose.words.mailmerging/
 ---
-这 **Aspose.Words.MailMerging**命名空间包含 “原始”邮件合并报告引擎的类。
+这**Aspose.Words.MailMerging**命名空间包含 “原始”邮件合并报告引擎的类。
 
 ## 课程
 
 | 班级 | 描述 |
 | --- | --- |
-| [FieldMergingArgs](./fieldmergingargs/) | 提供数据 **合并字段**事件. |
+| [FieldMergingArgs](./fieldmergingargs/) | 提供数据**合并字段**事件. |
 | [FieldMergingArgsBase](./fieldmergingargsbase/) | 的基类[`FieldMergingArgs`](../aspose.words.mailmerging/fieldmergingargs/)和[`ImageFieldMergingArgs`](../aspose.words.mailmerging/imagefieldmergingargs/). |
 | [ImageFieldMergingArgs](./imagefieldmergingargs/) | 提供数据[`ImageFieldMerging`](../aspose.words.mailmerging/ifieldmergingcallback/imagefieldmerging/)事件. |
 | [MailMerge](./mailmerge/) | 代表邮件合并功能。 |
@@ -32,5 +34,3 @@ url: /zh/net/aspose.words.mailmerging/
 | 枚举 | 描述 |
 | --- | --- |
 | [MailMergeCleanupOptions](./mailmergecleanupoptions/) | 指定确定在邮件合并期间删除哪些项目的选项。 |
-
-

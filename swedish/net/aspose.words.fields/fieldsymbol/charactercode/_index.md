@@ -1,7 +1,9 @@
 ---
 title: FieldSymbol.CharacterCode
-second_title: Aspose.Words för .NET API Referens
-description: FieldSymbol fast egendom. Hämtar eller ställer in tecknets kodpunktsvärde i decimal eller hexadecimal.
+linktitle: CharacterCode
+articleTitle: CharacterCode
+second_title: Aspose.Words för .NET
+description: FieldSymbol CharacterCode fast egendom. Hämtar eller ställer in tecknets kodpunktsvärde i decimal eller hexadecimal i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.fields/fieldsymbol/charactercode/
@@ -14,7 +16,7 @@ Hämtar eller ställer in tecknets kodpunktsvärde i decimal eller hexadecimal.
 public string CharacterCode { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man använder SYMBOL-fältet.
 
@@ -70,7 +72,5 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 ### Se även
 
 * class [FieldSymbol](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldsymbol/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

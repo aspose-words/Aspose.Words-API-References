@@ -1,7 +1,9 @@
 ---
 title: CssSavingArgs.Document
-second_title: Справочник по API Aspose.Words для .NET
-description: CssSavingArgs свойство. Получает объект документа который в данный момент сохраняется.
+linktitle: Document
+articleTitle: Document
+second_title: Aspose.Words для .NET
+description: CssSavingArgs Document свойство. Получает объект документа который в данный момент сохраняется на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.saving/csssavingargs/document/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.saving/csssavingargs/document/
 public Document Document { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как работать с таблицами стилей CSS, создаваемыми преобразованием HTML.
 
@@ -76,7 +78,5 @@ private class CustomCssSavingCallback : ICssSavingCallback
 
 * class [Document](../../../aspose.words/document/)
 * class [CssSavingArgs](../)
-* пространство имен [Aspose.Words.Saving](../../csssavingargs/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: WarningInfo.WarningType
-second_title: Aspose.Words för .NET API Referens
-description: WarningInfo fast egendom. Returnerar typen av varning.
+linktitle: WarningType
+articleTitle: WarningType
+second_title: Aspose.Words för .NET
+description: WarningInfo WarningType fast egendom. Returnerar typen av varning i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words/warninginfo/warningtype/
@@ -14,7 +16,7 @@ Returnerar typen av varning.
 public WarningType WarningType { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du ställer in egenskapen för att hitta den närmaste matchningen för ett saknat teckensnitt från tillgängliga teckensnittskällor.
 
@@ -75,7 +77,5 @@ public class HandleDocumentSubstitutionWarnings : IWarningCallback
 
 * enum [WarningType](../../warningtype/)
 * class [WarningInfo](../)
-* namnutrymme [Aspose.Words](../../warninginfo/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

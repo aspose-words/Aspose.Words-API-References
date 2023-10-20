@@ -1,7 +1,9 @@
 ---
 title: IFontSavingCallback.FontSaving
-second_title: Справочник по API Aspose.Words для .NET
-description: IFontSavingCallback метод. Вызывается когда Aspose.Words собирается сохранить ресурс шрифта.
+linktitle: FontSaving
+articleTitle: FontSaving
+second_title: Aspose.Words для .NET
+description: IFontSavingCallback FontSaving метод. Вызывается когда Aspose.Words собирается сохранить ресурс шрифта на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.saving/ifontsavingcallback/fontsaving/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.saving/ifontsavingcallback/fontsaving/
 public void FontSaving(FontSavingArgs args)
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как определить пользовательскую логику для экспорта шрифтов при сохранении в HTML.
 
@@ -75,7 +77,5 @@ public class HandleFontSaving : IFontSavingCallback
 
 * class [FontSavingArgs](../../fontsavingargs/)
 * interface [IFontSavingCallback](../)
-* пространство имен [Aspose.Words.Saving](../../ifontsavingcallback/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

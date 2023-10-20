@@ -1,7 +1,9 @@
 ---
 title: SvgSaveOptions.ShowPageBorder
-second_title: Referencia de API de Aspose.Words para .NET
-description: SvgSaveOptions propiedad. Controla si se agrega un borde al contorno de la página. El valor predeterminado esverdadero .
+linktitle: ShowPageBorder
+articleTitle: ShowPageBorder
+second_title: Aspose.Words para .NET
+description: SvgSaveOptions ShowPageBorder propiedad. Controla si se agrega un borde al contorno de la página. El valor predeterminado esverdadero  en C#.
 type: docs
 weight: 80
 url: /es/net/aspose.words.saving/svgsaveoptions/showpageborder/
@@ -14,7 +16,7 @@ Controla si se agrega un borde al contorno de la página. El valor predeterminad
 public bool ShowPageBorder { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo imitar las propiedades de las imágenes al convertir un documento .docx a .svg.
 
@@ -35,7 +37,5 @@ doc.Save(ArtifactsDir + "SvgSaveOptions.SaveLikeImage.svg", options);
 ### Ver también
 
 * class [SvgSaveOptions](../)
-* espacio de nombres [Aspose.Words.Saving](../../svgsaveoptions/)
+* espacio de nombres [Aspose.Words.Saving](../../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: XamlFlowSaveOptions.ImageSavingCallback
-second_title: Référence de l'API Aspose.Words pour .NET
-description: XamlFlowSaveOptions propriété. Permet de contrôler la manière dont les images sont enregistrées lorsquun document est enregistré au format XAML.
+linktitle: ImageSavingCallback
+articleTitle: ImageSavingCallback
+second_title: Aspose.Words pour .NET
+description: XamlFlowSaveOptions ImageSavingCallback propriété. Permet de contrôler la manière dont les images sont enregistrées lorsquun document est enregistré au format XAML en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.saving/xamlflowsaveoptions/imagesavingcallback/
@@ -14,7 +16,7 @@ Permet de contrôler la manière dont les images sont enregistrées lorsqu'un do
 public IImageSavingCallback ImageSavingCallback { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment imprimer les noms de fichiers des images liées créées lors de la conversion d'un document en .xaml sous forme de flux.
 
@@ -81,7 +83,5 @@ private class ImageUriPrinter : IImageSavingCallback
 
 * interface [IImageSavingCallback](../../iimagesavingcallback/)
 * class [XamlFlowSaveOptions](../)
-* espace de noms [Aspose.Words.Saving](../../xamlflowsaveoptions/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

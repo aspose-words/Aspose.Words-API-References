@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.Keywords
-second_title: Aspose.Words per .NET API Reference
-description: BuiltInDocumentProperties proprietà. Ottiene o imposta le parole chiave del documento.
+linktitle: Keywords
+articleTitle: Keywords
+second_title: Aspose.Words per .NET
+description: BuiltInDocumentProperties Keywords proprietà. Ottiene o imposta le parole chiave del documento in C#.
 type: docs
 weight: 140
 url: /it/net/aspose.words.properties/builtindocumentproperties/keywords/
@@ -14,7 +16,7 @@ Ottiene o imposta le parole chiave del documento.
 public string Keywords { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come lavorare con le proprietà del documento integrate nella categoria "Descrizione".
 
@@ -59,7 +61,5 @@ doc.Save(ArtifactsDir + "DocumentProperties.Description.docx");
 ### Guarda anche
 
 * class [BuiltInDocumentProperties](../)
-* spazio dei nomi [Aspose.Words.Properties](../../builtindocumentproperties/)
+* spazio dei nomi [Aspose.Words.Properties](../../../aspose.words.properties/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldCitation.Prefix
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldCitation propriété. Obtient ou définit un préfixe ajouté à la citation.
+linktitle: Prefix
+articleTitle: Prefix
+second_title: Aspose.Words pour .NET
+description: FieldCitation Prefix propriété. Obtient ou définit un préfixe ajouté à la citation en C#.
 type: docs
 weight: 50
 url: /fr/net/aspose.words.fields/fieldcitation/prefix/
@@ -14,7 +16,7 @@ Obtient ou définit un préfixe ajouté à la citation.
 public string Prefix { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment travailler avec les champs CITATION et BIBLIOGRAPHIE.
 
@@ -68,7 +70,5 @@ doc.Save(ArtifactsDir + "Field.CITATION.docx");
 ### Voir également
 
 * class [FieldCitation](../)
-* espace de noms [Aspose.Words.Fields](../../fieldcitation/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

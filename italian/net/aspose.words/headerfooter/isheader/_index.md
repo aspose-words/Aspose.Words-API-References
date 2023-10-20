@@ -1,7 +1,9 @@
 ---
 title: HeaderFooter.IsHeader
-second_title: Aspose.Words per .NET API Reference
-description: HeaderFooter proprietà. Vero se questoHeaderFooter loggetto è unintestazione.
+linktitle: IsHeader
+articleTitle: IsHeader
+second_title: Aspose.Words per .NET
+description: HeaderFooter IsHeader proprietà. Vero se questoHeaderFooter loggetto è unintestazione in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words/headerfooter/isheader/
@@ -14,7 +16,7 @@ Vero se questo[`HeaderFooter`](../) l'oggetto è un'intestazione.
 public bool IsHeader { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come creare un'intestazione e un piè di pagina.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "HeaderFooter.Create.docx");
 ### Guarda anche
 
 * class [HeaderFooter](../)
-* spazio dei nomi [Aspose.Words](../../headerfooter/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

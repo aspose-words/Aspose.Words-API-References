@@ -1,7 +1,9 @@
 ---
-title: LayoutCollector.LayoutCollector
-second_title: Aspose.Words för .NET API Referens
-description: LayoutCollector byggare. Initierar en instans av denna klass.
+title: LayoutCollector
+linktitle: LayoutCollector
+articleTitle: LayoutCollector
+second_title: Aspose.Words för .NET
+description: LayoutCollector byggare. Initierar en instans av denna klass i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.layout/layoutcollector/layoutcollector/
@@ -18,7 +20,7 @@ public LayoutCollector(Document doc)
 | --- | --- | --- |
 | doc | Document | Dokumentet som denna samlarinstans kommer att bifogas till. |
 
-### Exempel
+## Exempel
 
 Visar hur man kan se sidorna som en nod sträcker sig över.
 
@@ -77,7 +79,5 @@ Assert.AreEqual("¶", layoutEnumerator.Text);
 
 * class [Document](../../../aspose.words/document/)
 * class [LayoutCollector](../)
-* namnutrymme [Aspose.Words.Layout](../../layoutcollector/)
+* namnutrymme [Aspose.Words.Layout](../../../aspose.words.layout/)
 * hopsättning [Aspose.Words](../../../)
-
-

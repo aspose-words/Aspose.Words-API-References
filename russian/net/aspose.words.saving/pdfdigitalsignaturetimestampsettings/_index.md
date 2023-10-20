@@ -1,7 +1,9 @@
 ---
-title: Class PdfDigitalSignatureTimestampSettings
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Saving.PdfDigitalSignatureTimestampSettings сорт. Содержит настройки временной метки цифровой подписи.
+title: PdfDigitalSignatureTimestampSettings Class
+linktitle: PdfDigitalSignatureTimestampSettings
+articleTitle: PdfDigitalSignatureTimestampSettings
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Saving.PdfDigitalSignatureTimestampSettings сорт. Содержит настройки временной метки цифровой подписи на С#.
 type: docs
 weight: 5450
 url: /ru/net/aspose.words.saving/pdfdigitalsignaturetimestampsettings/
@@ -21,8 +23,8 @@ public class PdfDigitalSignatureTimestampSettings
 | Имя | Описание |
 | --- | --- |
 | [PdfDigitalSignatureTimestampSettings](pdfdigitalsignaturetimestampsettings/#constructor)() | Инициализирует экземпляр этого класса. |
-| [PdfDigitalSignatureTimestampSettings](pdfdigitalsignaturetimestampsettings/#constructor_1)(string, string, string) | Инициализирует экземпляр этого класса. |
-| [PdfDigitalSignatureTimestampSettings](pdfdigitalsignaturetimestampsettings/#constructor_2)(string, string, string, TimeSpan) | Инициализирует экземпляр этого класса. |
+| [PdfDigitalSignatureTimestampSettings](pdfdigitalsignaturetimestampsettings/#constructor_1)(*string, string, string*) | Инициализирует экземпляр этого класса. |
+| [PdfDigitalSignatureTimestampSettings](pdfdigitalsignaturetimestampsettings/#constructor_2)(*string, string, string, TimeSpan*) | Инициализирует экземпляр этого класса. |
 
 ## Характеристики
 
@@ -33,7 +35,7 @@ public class PdfDigitalSignatureTimestampSettings
 | [Timeout](../../aspose.words.saving/pdfdigitalsignaturetimestampsettings/timeout/) { get; set; } | Значение тайм-аута для доступа к серверу меток времени. |
 | [UserName](../../aspose.words.saving/pdfdigitalsignaturetimestampsettings/username/) { get; set; } | Имя пользователя сервера меток времени. |
 
-### Примеры
+## Примеры
 
 Показывает, как подписать сохраненный PDF-документ цифровой подписью и поставить на нем метку времени.
 
@@ -74,5 +76,3 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignatureTimestamp.pdf", optio
 
 * пространство имен [Aspose.Words.Saving](../../aspose.words.saving/)
 * сборка [Aspose.Words](../../)
-
-

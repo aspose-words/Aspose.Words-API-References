@@ -1,7 +1,9 @@
 ---
 title: ChartDataPoint.Marker
-second_title: Справочник по API Aspose.Words для .NET
-description: ChartDataPoint свойство. Указывает маркер данных диаграммы.
+linktitle: Marker
+articleTitle: Marker
+second_title: Aspose.Words для .NET
+description: ChartDataPoint Marker свойство. Указывает маркер данных диаграммы на С#.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.drawing.charts/chartdatapoint/marker/
@@ -18,7 +20,5 @@ public ChartMarker Marker { get; }
 
 * class [ChartMarker](../../chartmarker/)
 * class [ChartDataPoint](../)
-* пространство имен [Aspose.Words.Drawing.Charts](../../chartdatapoint/)
+* пространство имен [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FontSettings.GetFontsSources
-second_title: Справочник по API Aspose.Words для .NET
-description: FontSettings метод. Получает копию массива содержащего список источников в которых Aspose.Words ищет шрифты TrueType.
+linktitle: GetFontsSources
+articleTitle: GetFontsSources
+second_title: Aspose.Words для .NET
+description: FontSettings GetFontsSources метод. Получает копию массива содержащего список источников в которых Aspose.Words ищет шрифты TrueType на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.fonts/fontsettings/getfontssources/
@@ -18,11 +20,11 @@ public FontSourceBase[] GetFontsSources()
 
 Копия текущих источников шрифтов.
 
-### Примечания
+## Примечания
 
 Возвращаемое значение является копией данных, которые использует Aspose.Words. Если вы измените elements в возвращаемом массиве, это не повлияет на рендеринг документа. Чтобы указать новый шрифт source , используйте команду[`SetFontsSources`](../setfontssources/) метод.
 
-### Примеры
+## Примеры
 
 Показывает, как добавить источник шрифта к существующим источникам шрифтов.
 
@@ -72,7 +74,5 @@ FontSettings.DefaultInstance.SetFontsSources(originalFontSources);
 
 * class [FontSourceBase](../../fontsourcebase/)
 * class [FontSettings](../)
-* пространство имен [Aspose.Words.Fonts](../../fontsettings/)
+* пространство имен [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * сборка [Aspose.Words](../../../)
-
-

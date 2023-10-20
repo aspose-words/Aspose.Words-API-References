@@ -1,7 +1,9 @@
 ---
 title: Font.LocaleIdBi
-second_title: Справочник по API Aspose.Words для .NET
-description: Font свойство. Получает или задает идентификатор локали языка для форматированных символов написанных справа налево.
+linktitle: LocaleIdBi
+articleTitle: LocaleIdBi
+second_title: Aspose.Words для .NET
+description: Font LocaleIdBi свойство. Получает или задает идентификатор локали языка для форматированных символов написанных справа налево на С#.
 type: docs
 weight: 210
 url: /ru/net/aspose.words/font/localeidbi/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words/font/localeidbi/
 public int LocaleIdBi { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Список идентификаторов локали см. на https://msdn.microsoft.com/en-us/library/cc233965.aspx .
 
-### Примеры
+## Примеры
 
 Показывает, как определить отдельные наборы настроек шрифта для текста, написанного справа налево и справа налево.
 
@@ -57,7 +59,5 @@ doc.Save(ArtifactsDir + "Font.Bidi.docx");
 ### Смотрите также
 
 * class [Font](../)
-* пространство имен [Aspose.Words](../../font/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

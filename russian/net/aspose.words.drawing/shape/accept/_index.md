@@ -1,7 +1,9 @@
 ---
 title: Shape.Accept
-second_title: Справочник по API Aspose.Words для .NET
-description: Shape метод. Принимает посетителя.
+linktitle: Accept
+articleTitle: Accept
+second_title: Aspose.Words для .NET
+description: Shape Accept метод. Принимает посетителя на С#.
 type: docs
 weight: 240
 url: /ru/net/aspose.words.drawing/shape/accept/
@@ -22,7 +24,7 @@ public override bool Accept(DocumentVisitor visitor)
 
 Истинно, если были посещены все узлы; ложь, если[`DocumentVisitor`](../../../aspose.words/documentvisitor/) остановил операцию перед посещением всех узлов.
 
-### Примечания
+## Примечания
 
 Перечисляет этот узел и все его дочерние элементы. Каждый узел вызывает соответствующий метод[`DocumentVisitor`](../../../aspose.words/documentvisitor/).
 
@@ -30,7 +32,7 @@ public override bool Accept(DocumentVisitor visitor)
 
 Звонки[`VisitShapeStart`](../../../aspose.words/documentvisitor/visitshapestart/) , затем звонит[`Accept`](../../../aspose.words/node/accept/) для всех дочерних узлов формы и вызовов[`VisitShapeEnd`](../../../aspose.words/documentvisitor/visitshapeend/) в конце.
 
-### Примеры
+## Примеры
 
 Показывает, как перебирать все фигуры в документе.
 
@@ -154,7 +156,5 @@ private class ShapeAppearancePrinter : DocumentVisitor
 
 * class [DocumentVisitor](../../../aspose.words/documentvisitor/)
 * class [Shape](../)
-* пространство имен [Aspose.Words.Drawing](../../shape/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

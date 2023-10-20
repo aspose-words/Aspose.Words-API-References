@@ -1,7 +1,9 @@
 ---
-title: Class Odso
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Settings.Odso classe. Specifica le impostazioni ODSO Office Data Source Object per unorigine dati di stampa unione.
+title: Odso Class
+linktitle: Odso
+articleTitle: Odso
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Settings.Odso classe. Specifica le impostazioni ODSO Office Data Source Object per unorigine dati di stampa unione in C#.
 type: docs
 weight: 5880
 url: /it/net/aspose.words.settings/odso/
@@ -41,7 +43,7 @@ public class Odso
 | --- | --- |
 | [Clone](../../aspose.words.settings/odso/clone/)() | Restituisce un clone profondo di questo oggetto. |
 
-### Osservazioni
+## Osservazioni
 
 ODSO sembra essere il "nuovo" modo in cui le versioni più recenti di Microsoft Word preferiscono utilizzare quando specificano determinati tipi di origini dati per un documento di stampa unione. ODSO probabilmente è apparso per la prima volta in Microsoft Word 2000.
 
@@ -49,7 +51,7 @@ L'uso di ODSO è scarsamente documentato e il modo migliore per imparare a utili
 
 Normalmente non è necessario creare direttamente gli oggetti di questa classe poiché le impostazioni ODSO sono sempre disponibili tramite[`Odso`](../mailmergesettings/odso/) proprietà.
 
-### Esempi
+## Esempi
 
 Mostra come eseguire una stampa unione con i dati di un oggetto origine dati di Office.
 
@@ -102,5 +104,3 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 
 * spazio dei nomi [Aspose.Words.Settings](../../aspose.words.settings/)
 * assemblea [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class ChartXValueCollection
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Drawing.Charts.ChartXValueCollection klass. Representerar en samling av Xvärden för en diagramserie.
+title: ChartXValueCollection Class
+linktitle: ChartXValueCollection
+articleTitle: ChartXValueCollection
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Drawing.Charts.ChartXValueCollection klass. Representerar en samling av Xvärden för en diagramserie i C#.
 type: docs
 weight: 850
 url: /sv/net/aspose.words.drawing.charts/chartxvaluecollection/
@@ -27,13 +29,13 @@ public class ChartXValueCollection : IEnumerable<ChartXValue>
 | --- | --- |
 | [GetEnumerator](../../aspose.words.drawing.charts/chartxvaluecollection/getenumerator/)() | Returnerar ett uppräkningsobjekt. |
 
-### Anmärkningar
+## Anmärkningar
 
-Alla föremål i samlingen förutom **null** måste ha samma[`ValueType`](../chartxvalue/valuetype/).
+Alla föremål i samlingen förutom**null** måste ha samma[`ValueType`](../chartxvalue/valuetype/).
 
 Samlingen tillåter endast att ändra X-värden. För att lägga till eller infoga nya värden i en diagramserie, eller ta bort värden, lämpliga metoder för[`ChartSeries`](../chartseries/) klass kan användas.
 
-### Exempel
+## Exempel
 
 Visar hur man får diagramseriedata.
 
@@ -89,5 +91,3 @@ doc.Save(ArtifactsDir + "Charts.GetChartSeriesData.docx");
 * class [ChartXValue](../chartxvalue/)
 * namnutrymme [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../)
-
-

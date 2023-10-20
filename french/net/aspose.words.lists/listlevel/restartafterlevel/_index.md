@@ -1,7 +1,9 @@
 ---
 title: ListLevel.RestartAfterLevel
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ListLevel propriété. Définit ou renvoie le niveau de liste qui doit apparaître avant que le niveau de liste spécifié ne redémarre la numérotation.
+linktitle: RestartAfterLevel
+articleTitle: RestartAfterLevel
+second_title: Aspose.Words pour .NET
+description: ListLevel RestartAfterLevel propriété. Définit ou renvoie le niveau de liste qui doit apparaître avant que le niveau de liste spécifié ne redémarre la numérotation en C#.
 type: docs
 weight: 100
 url: /fr/net/aspose.words.lists/listlevel/restartafterlevel/
@@ -14,11 +16,11 @@ Définit ou renvoie le niveau de liste qui doit apparaître avant que le niveau 
 public int RestartAfterLevel { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 La valeur -1 signifie que la numérotation continuera.
 
-### Exemples
+## Exemples
 
 Présente des méthodes avancées de personnalisation des étiquettes de liste.
 
@@ -79,7 +81,5 @@ doc.Save(ArtifactsDir + "Lists.CreateListRestartAfterHigher.docx");
 ### Voir également
 
 * class [ListLevel](../)
-* espace de noms [Aspose.Words.Lists](../../listlevel/)
+* espace de noms [Aspose.Words.Lists](../../../aspose.words.lists/)
 * Assemblée [Aspose.Words](../../../)
-
-

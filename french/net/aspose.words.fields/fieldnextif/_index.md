@@ -1,7 +1,9 @@
 ---
-title: Class FieldNextIf
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Fields.FieldNextIf classe. Implémente le champ NEXTIF.
+title: FieldNextIf Class
+linktitle: FieldNextIf
+articleTitle: FieldNextIf
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Fields.FieldNextIf classe. Implémente le champ NEXTIF en C#.
 type: docs
 weight: 2190
 url: /fr/net/aspose.words.fields/fieldnextif/
@@ -45,17 +47,17 @@ public class FieldNextIf : Field
 | Nom | La description |
 | --- | --- |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Renvoie le texte entre le début du champ et le séparateur de champ (ou la fin du champ s'il n'y a pas de séparateur). Le code de champ et le résultat du champ des champs enfants sont inclus. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Renvoie le texte entre le début du champ et le séparateur de champ (ou la fin du champ s'il n'y a pas de séparateur). |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | Renvoie le texte entre le début du champ et le séparateur de champ (ou la fin du champ s'il n'y a pas de séparateur). |
 | [Remove](../../aspose.words.fields/field/remove/)() | Supprime le champ du document. Renvoie un nœud juste après le champ. Si la fin du champ est le dernier child de son nœud parent, renvoie son paragraphe parent. Si le champ est déjà supprimé, renvoie`nul` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | Effectue la dissociation du champ. |
 | [Update](../../aspose.words.fields/field/update/)() | Effectue la mise à jour du champ. Lance si le champ est déjà mis à jour. |
-| [Update](../../aspose.words.fields/field/update/)(bool) | Effectue une mise à jour du champ. Lance si le champ est déjà mis à jour. |
+| [Update](../../aspose.words.fields/field/update/)(*bool*) | Effectue une mise à jour du champ. Lance si le champ est déjà mis à jour. |
 
-### Remarques
+## Remarques
 
 Compare les valeurs désignées par les expressions[`LeftExpression`](./leftexpression/) et[`RightExpression`](./rightexpression/) en comparaison en utilisant l'opérateur désigné par[`ComparisonOperator`](./comparisonoperator/) . Si la comparaison est vraie, l'enregistrement de données suivant est fusionné dans le document de fusion actuel. (Les champs de fusion qui suivent le NEXTIF dans le document main sont remplacés par les valeurs de l'enregistrement de données suivant plutôt que par l'enregistrement de données actuel.) Si la comparaison est fausse, l'enregistrement de données suivant est fusionné dans un nouveau document de fusion.
 
-### Exemples
+## Exemples
 
 Montre comment utiliser les champs NEXT/NEXTIF pour fusionner plusieurs lignes en une seule page lors d'un publipostage.
 
@@ -139,5 +141,3 @@ public void InsertMergeField(DocumentBuilder builder, string fieldName, string t
 * class [Field](../field/)
 * espace de noms [Aspose.Words.Fields](../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../)
-
-

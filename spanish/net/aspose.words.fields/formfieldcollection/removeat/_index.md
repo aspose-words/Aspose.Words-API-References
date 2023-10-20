@@ -1,7 +1,9 @@
 ---
 title: FormFieldCollection.RemoveAt
-second_title: Referencia de API de Aspose.Words para .NET
-description: FormFieldCollection método. Elimina un campo de formulario en el índice especificado.
+linktitle: RemoveAt
+articleTitle: RemoveAt
+second_title: Aspose.Words para .NET
+description: FormFieldCollection RemoveAt método. Elimina un campo de formulario en el índice especificado en C#.
 type: docs
 weight: 60
 url: /es/net/aspose.words.fields/formfieldcollection/removeat/
@@ -18,11 +20,11 @@ public void RemoveAt(int index)
 | --- | --- | --- |
 | index | Int32 | El índice de base cero del campo del formulario que se va a eliminar. |
 
-### Observaciones
+## Observaciones
 
 Si hay un marcador asociado con el campo del formulario, el marcador no se elimina.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo insertar diferentes tipos de campos de formulario en un documento y procesarlos mediante una implementación de visitante de documentos.
 
@@ -156,7 +158,5 @@ public class FormFieldVisitor : DocumentVisitor
 ### Ver también
 
 * class [FormFieldCollection](../)
-* espacio de nombres [Aspose.Words.Fields](../../formfieldcollection/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.IsInline
-second_title: Aspose.Words för .NET API Referens
-description: ShapeBase fast egendom. Ett snabbt sätt att avgöra om denna form är placerad i linje med text.
+linktitle: IsInline
+articleTitle: IsInline
+second_title: Aspose.Words för .NET
+description: ShapeBase IsInline fast egendom. Ett snabbt sätt att avgöra om denna form är placerad i linje med text i C#.
 type: docs
 weight: 290
 url: /sv/net/aspose.words.drawing/shapebase/isinline/
@@ -14,11 +16,11 @@ Ett snabbt sätt att avgöra om denna form är placerad i linje med text.
 public bool IsInline { get; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Har effekt endast för former på högsta nivå.
 
-### Exempel
+## Exempel
 
 Visar hur man avgör om en form är inline eller flytande.
 
@@ -59,7 +61,5 @@ doc.Save(ArtifactsDir + "Shape.IsInline.docx");
 ### Se även
 
 * class [ShapeBase](../)
-* namnutrymme [Aspose.Words.Drawing](../../shapebase/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

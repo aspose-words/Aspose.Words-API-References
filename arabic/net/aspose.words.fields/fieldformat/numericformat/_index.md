@@ -1,7 +1,9 @@
 ---
 title: FieldFormat.NumericFormat
-second_title: Aspose.Words لمراجع .NET API
-description: FieldFormat ملكية. الحصول على أو تعيين التنسيق الذي يتم تطبيقه على نتيجة الحقل الرقمي. يتوافق مع  التبديل.
+linktitle: NumericFormat
+articleTitle: NumericFormat
+second_title: Aspose.Words لـ .NET
+description: FieldFormat NumericFormat ملكية. الحصول على أو تعيين التنسيق الذي يتم تطبيقه على نتيجة الحقل الرقمي. يتوافق مع  التبديل في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.fields/fieldformat/numericformat/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldformat/numericformat/
 public string NumericFormat { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تنسيق النتائج الميدانية.
 
@@ -78,7 +80,5 @@ Assert.AreEqual(0, format.GeneralFormats.Count);
 ### أنظر أيضا
 
 * class [FieldFormat](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldformat/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

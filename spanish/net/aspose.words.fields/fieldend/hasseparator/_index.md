@@ -1,7 +1,9 @@
 ---
 title: FieldEnd.HasSeparator
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldEnd propiedad. Devolucionesverdaderosi este campo tiene un separador.
+linktitle: HasSeparator
+articleTitle: HasSeparator
+second_title: Aspose.Words para .NET
+description: FieldEnd HasSeparator propiedad. Devolucionesverdaderosi este campo tiene un separador en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words.fields/fieldend/hasseparator/
@@ -14,7 +16,7 @@ Devoluciones`verdadero`si este campo tiene un separador.
 public bool HasSeparator { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo trabajar con una colección de campos.
 
@@ -117,7 +119,5 @@ public class FieldVisitor : DocumentVisitor
 ### Ver también
 
 * class [FieldEnd](../)
-* espacio de nombres [Aspose.Words.Fields](../../fieldend/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

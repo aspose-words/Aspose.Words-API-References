@@ -1,7 +1,9 @@
 ---
 title: TextBox.VerticalAnchor
-second_title: Aspose.Words för .NET API Referens
-description: TextBox fast egendom. Anger den vertikala justeringen av texten inom en form.
+linktitle: VerticalAnchor
+articleTitle: VerticalAnchor
+second_title: Aspose.Words för .NET
+description: TextBox VerticalAnchor fast egendom. Anger den vertikala justeringen av texten inom en form i C#.
 type: docs
 weight: 120
 url: /sv/net/aspose.words.drawing/textbox/verticalanchor/
@@ -14,11 +16,11 @@ Anger den vertikala justeringen av texten inom en form.
 public TextBoxAnchor VerticalAnchor { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Standardvärdet ärTop.
 
-### Exempel
+## Exempel
 
 Visar hur man vertikalt justerar textinnehållet i en textruta.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "Shape.VerticalAnchor.docx");
 
 * enum [TextBoxAnchor](../../textboxanchor/)
 * class [TextBox](../)
-* namnutrymme [Aspose.Words.Drawing](../../textbox/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

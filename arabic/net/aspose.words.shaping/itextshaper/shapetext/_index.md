@@ -1,7 +1,9 @@
 ---
 title: ITextShaper.ShapeText
-second_title: Aspose.Words لمراجع .NET API
-description: ITextShaper طريقة. إرجاعClusterالكائنات التي تم إنشاؤها من تسلسل أجزاء النص. طول المصفوفة التي تم إرجاعها يساوي طولruns . إذا تم التشغيل على فهرس يحتوي على مجموعات مقابلة فسيتم تسجيل النتائج في نفس الفهرس.
+linktitle: ShapeText
+articleTitle: ShapeText
+second_title: Aspose.Words لـ .NET
+description: ITextShaper ShapeText طريقة. إرجاعClusterالكائنات التي تم إنشاؤها من تسلسل أجزاء النص. طول المصفوفة التي تم إرجاعها يساوي طولruns . إذا تم التشغيل على فهرس يحتوي على مجموعات مقابلة فسيتم تسجيل النتائج في نفس الفهرس في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.shaping/itextshaper/shapetext/
@@ -29,7 +31,5 @@ public Cluster[][] ShapeText(string[] runs, Direction direction, UnicodeScript s
 * enum [UnicodeScript](../../unicodescript/)
 * enum [FontFeature](../../fontfeature/)
 * interface [ITextShaper](../)
-* مساحة الاسم [Aspose.Words.Shaping](../../itextshaper/)
+* مساحة الاسم [Aspose.Words.Shaping](../../../aspose.words.shaping/)
 * المجسم [Aspose.Words](../../../)
-
-

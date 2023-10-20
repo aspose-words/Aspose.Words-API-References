@@ -1,7 +1,9 @@
 ---
 title: NodeCollection.Insert
-second_title: Aspose.Words per .NET API Reference
-description: NodeCollection metodo. Inserisce un nodo nella raccolta in corrispondenza dellindice specificato.
+linktitle: Insert
+articleTitle: Insert
+second_title: Aspose.Words per .NET
+description: NodeCollection Insert metodo. Inserisce un nodo nella raccolta in corrispondenza dellindice specificato in C#.
 type: docs
 weight: 80
 url: /it/net/aspose.words/nodecollection/insert/
@@ -25,7 +27,7 @@ public void Insert(int index, Node node)
 | --- | --- |
 | NotSupportedException | IL[`NodeCollection`](../) è una collezione "profonda". |
 
-### Osservazioni
+## Osservazioni
 
 Il nodo viene inserito come figlio nell'oggetto nodo da cui è stata creata la raccolta.
 
@@ -35,7 +37,7 @@ Se l'indice è negativo e il suo valore assoluto è maggiore di[`Count`](../coun
 
 Se il nodo da inserire è stato creato da un altro documento, dovresti usare [`ImportNode`](../../documentbase/importnode/) per importare il nodo nel documento corrente. Il nodo importato può quindi essere inserito nel documento corrente.
 
-### Esempi
+## Esempi
 
 Mostra come lavorare con una NodeCollection.
 
@@ -73,7 +75,5 @@ Assert.False(runs.Contains(run));
 
 * class [Node](../../node/)
 * class [NodeCollection](../)
-* spazio dei nomi [Aspose.Words](../../nodecollection/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

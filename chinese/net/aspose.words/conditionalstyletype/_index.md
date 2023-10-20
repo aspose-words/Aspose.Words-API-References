@@ -1,7 +1,9 @@
 ---
-title: Enum ConditionalStyleType
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.ConditionalStyleType 枚举. 表示可以在表格样式中定义条件格式的可能表格区域
+title: ConditionalStyleType Enum
+linktitle: ConditionalStyleType
+articleTitle: ConditionalStyleType
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.ConditionalStyleType 枚举. 表示可以在表格样式中定义条件格式的可能表格区域 在 C#.
 type: docs
 weight: 330
 url: /zh/net/aspose.words/conditionalstyletype/
@@ -31,7 +33,7 @@ public enum ConditionalStyleType
 | BottomLeftCell | `10` | 指定表格左下角单元格的格式。 |
 | BottomRightCell | `11` | 指定表格右下角单元格的格式。 |
 
-### 例子
+## 例子
 
 展示如何使用表格的某些区域样式。
 
@@ -102,5 +104,3 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 
 * 命名空间 [Aspose.Words](../../aspose.words/)
 * 部件 [Aspose.Words](../../)
-
-

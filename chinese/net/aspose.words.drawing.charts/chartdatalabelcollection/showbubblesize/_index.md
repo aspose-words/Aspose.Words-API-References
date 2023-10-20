@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabelCollection.ShowBubbleSize
-second_title: Aspose.Words for .NET API 参考
-description: ChartDataLabelCollection 财产. 允许指定是否为整个系列的数据标签显示气泡大小 仅适用于气泡图 默认值为错误的.
+linktitle: ShowBubbleSize
+articleTitle: ShowBubbleSize
+second_title: 用于 .NET 的 Aspose.Words
+description: ChartDataLabelCollection ShowBubbleSize 财产. 允许指定是否为整个系列的数据标签显示气泡大小 仅适用于气泡图 默认值为错误的 在 C#.
 type: docs
 weight: 70
 url: /zh/net/aspose.words.drawing.charts/chartdatalabelcollection/showbubblesize/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.drawing.charts/chartdatalabelcollection/showbubblesize
 public bool ShowBubbleSize { get; set; }
 ```
 
-### 评论
+## 评论
 
 可以使用 the 覆盖单个数据标签为此属性定义的值[`ShowBubbleSize`](../../chartdatalabel/showbubblesize/)属性.
 
-### 例子
+## 例子
 
 演示如何使用气泡图的数据标签。
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "Charts.DataLabelsBubbleChart.docx");
 ### 也可以看看
 
 * class [ChartDataLabelCollection](../)
-* 命名空间 [Aspose.Words.Drawing.Charts](../../chartdatalabelcollection/)
+* 命名空间 [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * 部件 [Aspose.Words](../../../)
-
-

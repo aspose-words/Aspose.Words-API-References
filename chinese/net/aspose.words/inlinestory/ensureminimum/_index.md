@@ -1,7 +1,9 @@
 ---
 title: InlineStory.EnsureMinimum
-second_title: Aspose.Words for .NET API 参考
-description: InlineStory 方法. 如果最后一个子级不是段落则创建并附加一个空段落
+linktitle: EnsureMinimum
+articleTitle: EnsureMinimum
+second_title: 用于 .NET 的 Aspose.Words
+description: InlineStory EnsureMinimum 方法. 如果最后一个子级不是段落则创建并附加一个空段落 在 C#.
 type: docs
 weight: 120
 url: /zh/net/aspose.words/inlinestory/ensureminimum/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/inlinestory/ensureminimum/
 public void EnsureMinimum()
 ```
 
-### 例子
+## 例子
 
 演示如何插入 InlineStory 节点。
 
@@ -73,7 +75,5 @@ doc.Save(ArtifactsDir + "InlineStory.InsertInlineStoryNodes.docx");
 ### 也可以看看
 
 * class [InlineStory](../)
-* 命名空间 [Aspose.Words](../../inlinestory/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.UseFELayout
-second_title: Référence de l'API Aspose.Words pour .NET
-description: CompatibilityOptions propriété. Ne pas contourner le code de mise en page des scripts dAsie de lEst/complexe.
+linktitle: UseFELayout
+articleTitle: UseFELayout
+second_title: Aspose.Words pour .NET
+description: CompatibilityOptions UseFELayout propriété. Ne pas contourner le code de mise en page des scripts dAsie de lEst/complexe en C#.
 type: docs
 weight: 620
 url: /fr/net/aspose.words.settings/compatibilityoptions/usefelayout/
@@ -17,7 +19,5 @@ public bool UseFELayout { get; set; }
 ### Voir également
 
 * class [CompatibilityOptions](../)
-* espace de noms [Aspose.Words.Settings](../../compatibilityoptions/)
+* espace de noms [Aspose.Words.Settings](../../../aspose.words.settings/)
 * Assemblée [Aspose.Words](../../../)
-
-

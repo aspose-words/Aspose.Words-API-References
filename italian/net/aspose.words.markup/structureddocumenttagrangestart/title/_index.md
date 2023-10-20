@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTagRangeStart.Title
-second_title: Aspose.Words per .NET API Reference
-description: StructuredDocumentTagRangeStart proprietà. Specifica il nome descrittivo associato a questo tag di documento strutturato. Non può esserenullo .
+linktitle: Title
+articleTitle: Title
+second_title: Aspose.Words per .NET
+description: StructuredDocumentTagRangeStart Title proprietà. Specifica il nome descrittivo associato a questo tag di documento strutturato. Non può esserenullo  in C#.
 type: docs
 weight: 160
 url: /it/net/aspose.words.markup/structureddocumenttagrangestart/title/
@@ -14,7 +16,7 @@ Specifica il nome descrittivo associato a questo tag di documento strutturato. N
 public string Title { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come ottenere le proprietà dei tag di documenti strutturati a più sezioni.
 
@@ -49,7 +51,5 @@ Console.WriteLine($"\t|NodeType: {rangeEndTag.NodeType}");
 ### Guarda anche
 
 * class [StructuredDocumentTagRangeStart](../)
-* spazio dei nomi [Aspose.Words.Markup](../../structureddocumenttagrangestart/)
+* spazio dei nomi [Aspose.Words.Markup](../../../aspose.words.markup/)
 * assemblea [Aspose.Words](../../../)
-
-

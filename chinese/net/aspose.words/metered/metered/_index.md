@@ -1,7 +1,9 @@
 ---
-title: Metered.Metered
-second_title: Aspose.Words for .NET API 参考
-description: Metered 构造函数. 初始化此类的新实例
+title: Metered
+linktitle: Metered
+articleTitle: Metered
+second_title: 用于 .NET 的 Aspose.Words
+description: Metered 构造函数. 初始化此类的新实例 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words/metered/metered/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/metered/metered/
 public Metered()
 ```
 
-### 例子
+## 例子
 
 展示如何激活计量许可证并跟踪信用/消耗。
 
@@ -41,7 +43,5 @@ Console.WriteLine($"Consumption quantity after operation: {Metered.GetConsumptio
 ### 也可以看看
 
 * class [Metered](../)
-* 命名空间 [Aspose.Words](../../metered/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

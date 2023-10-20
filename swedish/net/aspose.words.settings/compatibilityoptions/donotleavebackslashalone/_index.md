@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.DoNotLeaveBackslashAlone
-second_title: Aspose.Words för .NET API Referens
-description: CompatibilityOptions fast egendom. Konvertera omvänt snedstreck till Yentecken när det anges.
+linktitle: DoNotLeaveBackslashAlone
+articleTitle: DoNotLeaveBackslashAlone
+second_title: Aspose.Words för .NET
+description: CompatibilityOptions DoNotLeaveBackslashAlone fast egendom. Konvertera omvänt snedstreck till Yentecken när det anges i C#.
 type: docs
 weight: 160
 url: /sv/net/aspose.words.settings/compatibilityoptions/donotleavebackslashalone/
@@ -17,7 +19,5 @@ public bool DoNotLeaveBackslashAlone { get; set; }
 ### Se även
 
 * class [CompatibilityOptions](../)
-* namnutrymme [Aspose.Words.Settings](../../compatibilityoptions/)
+* namnutrymme [Aspose.Words.Settings](../../../aspose.words.settings/)
 * hopsättning [Aspose.Words](../../../)
-
-

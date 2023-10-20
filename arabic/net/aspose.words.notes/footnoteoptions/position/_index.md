@@ -1,7 +1,9 @@
 ---
 title: FootnoteOptions.Position
-second_title: Aspose.Words لمراجع .NET API
-description: FootnoteOptions ملكية. يحدد موضع الحواشي السفلية.
+linktitle: Position
+articleTitle: Position
+second_title: Aspose.Words لـ .NET
+description: FootnoteOptions Position ملكية. يحدد موضع الحواشي السفلية في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.notes/footnoteoptions/position/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.notes/footnoteoptions/position/
 public FootnotePosition Position { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحديد مكان مختلف حيث يتم تجميع المستند وعرض حواشيه السفلية.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "InlineStory.PositionFootnote.docx");
 
 * enum [FootnotePosition](../../footnoteposition/)
 * class [FootnoteOptions](../)
-* مساحة الاسم [Aspose.Words.Notes](../../footnoteoptions/)
+* مساحة الاسم [Aspose.Words.Notes](../../../aspose.words.notes/)
 * المجسم [Aspose.Words](../../../)
-
-

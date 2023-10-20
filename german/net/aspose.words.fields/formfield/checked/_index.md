@@ -1,7 +1,9 @@
 ---
 title: FormField.Checked
-second_title: Aspose.Words für .NET-API-Referenz
-description: FormField eigendom. Ruft den aktivierten Status des KontrollkästchenFormularfelds ab oder legt diesen fest. Der Standardwert für diese Eigenschaft istFALSCH .
+linktitle: Checked
+articleTitle: Checked
+second_title: Aspose.Words für .NET
+description: FormField Checked eigendom. Ruft den aktivierten Status des KontrollkästchenFormularfelds ab oder legt diesen fest. Der Standardwert für diese Eigenschaft istFALSCH  in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.fields/formfield/checked/
@@ -14,11 +16,11 @@ Ruft den aktivierten Status des Kontrollkästchen-Formularfelds ab oder legt die
 public bool Checked { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Gilt nur für ein Kontrollkästchen-Formularfeld.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie verschiedene Arten von Formularfeldern in ein Dokument eingefügt und mithilfe einer Dokumentbesucherimplementierung verarbeitet werden.
 
@@ -152,7 +154,5 @@ public class FormFieldVisitor : DocumentVisitor
 ### Siehe auch
 
 * class [FormField](../)
-* namensraum [Aspose.Words.Fields](../../formfield/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

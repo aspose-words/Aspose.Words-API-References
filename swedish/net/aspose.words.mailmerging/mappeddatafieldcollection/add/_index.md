@@ -1,7 +1,9 @@
 ---
 title: MappedDataFieldCollection.Add
-second_title: Aspose.Words för .NET API Referens
-description: MappedDataFieldCollection metod. Lägger till en ny fältmappning.
+linktitle: Add
+articleTitle: Add
+second_title: Aspose.Words för .NET
+description: MappedDataFieldCollection Add metod. Lägger till en ny fältmappning i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.mailmerging/mappeddatafieldcollection/add/
@@ -19,7 +21,7 @@ public void Add(string documentFieldName, string dataSourceFieldName)
 | documentFieldName | String | Skiftlägeskänsligt namn på kopplingsfältet i dokumentet. |
 | dataSourceFieldName | String | Skiftlägeskänsligt namn på fältet i datakällan. |
 
-### Exempel
+## Exempel
 
 Visar hur man mappar datakolumner och MERGEFIELDs med olika namn så att data överförs mellan dem under en sammankoppling.
 
@@ -104,7 +106,5 @@ private static DataTable CreateSourceTableMappedDataFields()
 ### Se även
 
 * class [MappedDataFieldCollection](../)
-* namnutrymme [Aspose.Words.MailMerging](../../mappeddatafieldcollection/)
+* namnutrymme [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * hopsättning [Aspose.Words](../../../)
-
-

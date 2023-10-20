@@ -1,7 +1,9 @@
 ---
 title: Document.ProtectionType
-second_title: Aspose.Words for .NET API 参考
-description: Document 财产. 获取当前活动的文档保护类型
+linktitle: ProtectionType
+articleTitle: ProtectionType
+second_title: 用于 .NET 的 Aspose.Words
+description: Document ProtectionType 财产. 获取当前活动的文档保护类型 在 C#.
 type: docs
 weight: 330
 url: /zh/net/aspose.words/document/protectiontype/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/document/protectiontype/
 public ProtectionType ProtectionType { get; }
 ```
 
-### 评论
+## 评论
 
 此属性允许检索当前设置的文档保护类型。 要更改文档保护类型，请使用[`Protect`](../protect/) 和[`Unprotect`](../unprotect/)方法。
 
@@ -22,7 +24,7 @@ public ProtectionType ProtectionType { get; }
 
 请注意，文档保护与写保护不同。 写保护是使用[`WriteProtection`](../writeprotection/)
 
-### 例子
+## 例子
 
 展示如何保护和取消保护文档。
 
@@ -68,7 +70,5 @@ Assert.AreEqual(ProtectionType.NoProtection, doc.ProtectionType);
 
 * enum [ProtectionType](../../protectiontype/)
 * class [Document](../)
-* 命名空间 [Aspose.Words](../../document/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

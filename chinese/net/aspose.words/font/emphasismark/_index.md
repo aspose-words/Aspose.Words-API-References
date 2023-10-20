@@ -1,7 +1,9 @@
 ---
 title: Font.EmphasisMark
-second_title: Aspose.Words for .NET API 参考
-description: Font 财产. 获取或设置应用于此格式的强调标记
+linktitle: EmphasisMark
+articleTitle: EmphasisMark
+second_title: 用于 .NET 的 Aspose.Words
+description: Font EmphasisMark 财产. 获取或设置应用于此格式的强调标记 在 C#.
 type: docs
 weight: 110
 url: /zh/net/aspose.words/font/emphasismark/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/font/emphasismark/
 public EmphasisMark EmphasisMark { get; set; }
 ```
 
-### 例子
+## 例子
 
 展示如何添加在字形字符上方/下方呈现的附加字符。
 
@@ -37,7 +39,5 @@ builder.Document.Save(ArtifactsDir + "Fonts.SetEmphasisMark.docx");
 
 * enum [EmphasisMark](../../emphasismark/)
 * class [Font](../)
-* 命名空间 [Aspose.Words](../../font/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

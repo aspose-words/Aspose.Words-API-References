@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ScaleImageToShapeSize
-second_title: Aspose.Words لمراجع .NET API
-description: HtmlSaveOptions ملكية. يحدد ما إذا كان سيتم تغيير حجم الصور بواسطة Aspose.Words إلى حجم الشكل المحيط عند التصدير إلى HTML أو MHTML أو EPUB. القيمة الافتراضية هيحقيقي .
+linktitle: ScaleImageToShapeSize
+articleTitle: ScaleImageToShapeSize
+second_title: Aspose.Words لـ .NET
+description: HtmlSaveOptions ScaleImageToShapeSize ملكية. يحدد ما إذا كان سيتم تغيير حجم الصور بواسطة Aspose.Words إلى حجم الشكل المحيط عند التصدير إلى HTML أو MHTML أو EPUB. القيمة الافتراضية هيحقيقي  في C#.
 type: docs
 weight: 450
 url: /ar/net/aspose.words.saving/htmlsaveoptions/scaleimagetoshapesize/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.saving/htmlsaveoptions/scaleimagetoshapesize/
 public bool ScaleImageToShapeSize { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 الصورة في مستند Microsoft Word هي شكل. الشكل له حجم وimage له حجمه الخاص. لا ترتبط الأحجام بشكل مباشر. على سبيل المثال، يمكن أن تكون الصورة 1024x786 بكسل، ولكن الشكل الذي يعرض هذه الصورة يمكن أن يكون 400x300 نقطة.
 
@@ -26,7 +28,7 @@ public bool ScaleImageToShapeSize { get; set; }
 
 بالإضافة إلى الأشكال التي تحتوي على صور نقطية فردية، يؤثر هذا الخيار أيضًا على أشكال المجموعة التي تتكون من من الصور النقطية. لو`ScaleImageToShapeSize` يكون`خطأ شنيع` ويحتوي شكل المجموعة على صور نقطية ذات دقة جوهرية أعلى من القيمة المحددة في[`ImageResolution`](../imageresolution/)، Aspose.Words سوف يزيد من دقة العرض لهذه المجموعة. يتيح ذلك الحفاظ بشكل أفضل على جودة الصور المجمعة ذات الدقة العالية عند الحفظ في HTML.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعطيل تغيير حجم الصور إلى أبعاد الشكل الأصلي الخاصة بها عند الحفظ في .html.
 
@@ -82,7 +84,5 @@ Document doc = new Document();
 
 * property [ImageResolution](../imageresolution/)
 * class [HtmlSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../htmlsaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

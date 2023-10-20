@@ -1,7 +1,9 @@
 ---
 title: Section.ProtectedForForms
-second_title: Aspose.Words لمراجع .NET API
-description: Section ملكية. صحيح إذا كان القسم محميًا للنماذج. عندما يكون القسم محميًا للنماذج يمكن للمستخدمين تحديد النص وتعديله فقط في حقول النموذج في Microsoft Word.
+linktitle: ProtectedForForms
+articleTitle: ProtectedForForms
+second_title: Aspose.Words لـ .NET
+description: Section ProtectedForForms ملكية. صحيح إذا كان القسم محميًا للنماذج. عندما يكون القسم محميًا للنماذج يمكن للمستخدمين تحديد النص وتعديله فقط في حقول النموذج في Microsoft Word في C#.
 type: docs
 weight: 60
 url: /ar/net/aspose.words/section/protectedforforms/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/section/protectedforforms/
 public bool ProtectedForForms { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إيقاف الحماية لقسم ما.
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "Section.Protect.docx");
 ### أنظر أيضا
 
 * class [Section](../)
-* مساحة الاسم [Aspose.Words](../../section/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

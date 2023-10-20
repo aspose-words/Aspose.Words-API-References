@@ -1,7 +1,9 @@
 ---
 title: FieldCitation.Suffix
-second_title: Aspose.Words för .NET API Referens
-description: FieldCitation fast egendom. Hämtar eller ställer in ett suffix som läggs till citatet.
+linktitle: Suffix
+articleTitle: Suffix
+second_title: Aspose.Words för .NET
+description: FieldCitation Suffix fast egendom. Hämtar eller ställer in ett suffix som läggs till citatet i C#.
 type: docs
 weight: 70
 url: /sv/net/aspose.words.fields/fieldcitation/suffix/
@@ -14,7 +16,7 @@ Hämtar eller ställer in ett suffix som läggs till citatet.
 public string Suffix { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med CITATION och BIBLIOGRAPHY-fält.
 
@@ -68,7 +70,5 @@ doc.Save(ArtifactsDir + "Field.CITATION.docx");
 ### Se även
 
 * class [FieldCitation](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldcitation/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

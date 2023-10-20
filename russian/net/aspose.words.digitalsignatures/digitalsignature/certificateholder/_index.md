@@ -1,7 +1,9 @@
 ---
 title: DigitalSignature.CertificateHolder
-second_title: Справочник по API Aspose.Words для .NET
-description: DigitalSignature свойство. Возвращает объект владельца сертификата содержащий сертификат использованный для подписи документа.
+linktitle: CertificateHolder
+articleTitle: CertificateHolder
+second_title: Aspose.Words для .NET
+description: DigitalSignature CertificateHolder свойство. Возвращает объект владельца сертификата содержащий сертификат использованный для подписи документа на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.digitalsignatures/digitalsignature/certificateholder/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.digitalsignatures/digitalsignature/certificateholder/
 public CertificateHolder CertificateHolder { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как подписывать документы с помощью сертификатов X.509.
 
@@ -58,7 +60,5 @@ Assert.AreEqual("CN=Morzal.Me", signedDoc.DigitalSignatures[0].SubjectName);
 
 * class [CertificateHolder](../../certificateholder/)
 * class [DigitalSignature](../)
-* пространство имен [Aspose.Words.DigitalSignatures](../../digitalsignature/)
+* пространство имен [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class SpecialChar
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.SpecialChar 班级. 文档中特殊字符的基类
+title: SpecialChar Class
+linktitle: SpecialChar
+articleTitle: SpecialChar
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.SpecialChar 班级. 文档中特殊字符的基类 在 C#.
 type: docs
 weight: 6100
 url: /zh/net/aspose.words/specialchar/
@@ -40,18 +42,18 @@ public class SpecialChar : Inline
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [Accept](../../aspose.words/specialchar/accept/)(DocumentVisitor) | 接受访客。 |
-| [Clone](../../aspose.words/node/clone/)(bool) | 创建节点的副本。 |
-| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | 获取指定的第一个祖先[`NodeType`](../nodetype/). |
-| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | 获取指定对象类型的第一个祖先。 |
+| override [Accept](../../aspose.words/specialchar/accept/)(*[DocumentVisitor](../documentvisitor/)*) | 接受访客。 |
+| [Clone](../../aspose.words/node/clone/)(*bool*) | 创建节点的副本。 |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*[NodeType](../nodetype/)*) | 获取指定的第一个祖先[`NodeType`](../nodetype/). |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | 获取指定对象类型的第一个祖先。 |
 | override [GetText](../../aspose.words/specialchar/gettext/)() | 获取该节点代表的特殊字符。 |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | 根据先序树遍历算法获取下一个节点。 |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | 根据先序树遍历算法获取前一个节点。 |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../node/)*) | 根据先序树遍历算法获取下一个节点。 |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../node/)*) | 根据先序树遍历算法获取前一个节点。 |
 | [Remove](../../aspose.words/node/remove/)() | 将自身从父级中删除。 |
-| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | 将节点的内容导出为指定格式的字符串。 |
-| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | 使用指定的保存选项将节点的内容导出到字符串中。 |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../saveformat/)*) | 将节点的内容导出为指定格式的字符串。 |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | 使用指定的保存选项将节点的内容导出到字符串中。 |
 
-### 评论
+## 评论
 
 Microsoft Word 文档可以包含许多特殊字符 ，它们表示字段、表单字段、形状、OLE 对象、脚注等。有关特殊字符的列表 ，请参阅[`ControlChar`](../controlchar/)。
 
@@ -59,7 +61,7 @@ Microsoft Word 文档可以包含许多特殊字符 ，它们表示字段、表�
 
 `SpecialChar`char 用作更具体的类 的基类，这些类表示 Aspose.Words 为其提供编程访问的特殊字符。 `SpecialChar`类本身也用于表示特殊字符 which Aspose.Words 不提供详细的编程访问。
 
-### 例子
+## 例子
 
 演示如何使用 DocumentVisitor 实现从文档中删除所有隐藏内容。
 
@@ -257,5 +259,3 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
 * class [Inline](../inline/)
 * 命名空间 [Aspose.Words](../../aspose.words/)
 * 部件 [Aspose.Words](../../)
-
-

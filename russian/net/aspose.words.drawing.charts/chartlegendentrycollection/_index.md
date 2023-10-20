@@ -1,7 +1,9 @@
 ---
-title: Class ChartLegendEntryCollection
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Drawing.Charts.ChartLegendEntryCollection сорт. Представляет коллекцию записей легенды диаграммы.
+title: ChartLegendEntryCollection Class
+linktitle: ChartLegendEntryCollection
+articleTitle: ChartLegendEntryCollection
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Drawing.Charts.ChartLegendEntryCollection сорт. Представляет коллекцию записей легенды диаграммы на С#.
 type: docs
 weight: 740
 url: /ru/net/aspose.words.drawing.charts/chartlegendentrycollection/
@@ -29,7 +31,7 @@ public class ChartLegendEntryCollection : IEnumerable<ChartLegendEntry>
 | --- | --- |
 | [GetEnumerator](../../aspose.words.drawing.charts/chartlegendentrycollection/getenumerator/)() | Возвращает объект перечислителя. |
 
-### Примеры
+## Примеры
 
 Показывает, как работать с записью легенды для серий диаграмм.
 
@@ -66,5 +68,3 @@ doc.Save(ArtifactsDir + "Charts.LegendEntries.docx");
 * class [ChartLegendEntry](../chartlegendentry/)
 * пространство имен [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../)
-
-

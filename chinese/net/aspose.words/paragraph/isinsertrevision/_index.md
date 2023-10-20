@@ -1,7 +1,9 @@
 ---
 title: Paragraph.IsInsertRevision
-second_title: Aspose.Words for .NET API 参考
-description: Paragraph 财产. 如果在启用更改跟踪的情况下将此对象插入到 Microsoft Word 中则返回 true
+linktitle: IsInsertRevision
+articleTitle: IsInsertRevision
+second_title: 用于 .NET 的 Aspose.Words
+description: Paragraph IsInsertRevision 财产. 如果在启用更改跟踪的情况下将此对象插入到 Microsoft Word 中则返回 true 在 C#.
 type: docs
 weight: 110
 url: /zh/net/aspose.words/paragraph/isinsertrevision/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/paragraph/isinsertrevision/
 public bool IsInsertRevision { get; }
 ```
 
-### 例子
+## 例子
 
 展示如何使用修订段落。
 
@@ -63,7 +65,5 @@ Assert.AreEqual(
 ### 也可以看看
 
 * class [Paragraph](../)
-* 命名空间 [Aspose.Words](../../paragraph/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

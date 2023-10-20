@@ -1,7 +1,9 @@
 ---
-title: Enum NumeralFormat
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Saving.NumeralFormat 枚举. 表示渲染为固定页面格式时用于表示数字 的符号集
+title: NumeralFormat Enum
+linktitle: NumeralFormat
+articleTitle: NumeralFormat
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Saving.NumeralFormat 枚举. 表示渲染为固定页面格式时用于表示数字 的符号集 在 C#.
 type: docs
 weight: 5310
 url: /zh/net/aspose.words.saving/numeralformat/
@@ -24,7 +26,7 @@ public enum NumeralFormat
 | Context | `3` | 符号集由上下文（语言环境和 RTL 属性）决定。 |
 | System | `4` | 不支持此选项。 符号集由区域设置决定。 |
 
-### 例子
+## 例子
 
 显示如何设置保存为 PDF 时使用的数字格式。
 
@@ -56,5 +58,3 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.SetNumeralFormat.pdf", options);
 
 * 命名空间 [Aspose.Words.Saving](../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: MappedDataFieldCollection.ContainsValue
-second_title: Aspose.Words for .NET API 参考
-description: MappedDataFieldCollection 方法. 确定集合中是否存在来自数据源中指定字段的映射
+linktitle: ContainsValue
+articleTitle: ContainsValue
+second_title: 用于 .NET 的 Aspose.Words
+description: MappedDataFieldCollection ContainsValue 方法. 确定集合中是否存在来自数据源中指定字段的映射 在 C#.
 type: docs
 weight: 60
 url: /zh/net/aspose.words.mailmerging/mappeddatafieldcollection/containsvalue/
@@ -22,7 +24,7 @@ public bool ContainsValue(string dataSourceFieldName)
 
 `真的`如果在集合中找到项目；否则，`错误的`。
 
-### 例子
+## 例子
 
 演示如何映射具有不同名称的数据列和 MERGEFIELD，以便在邮件合并期间在它们之间传输数据。
 
@@ -107,7 +109,5 @@ private static DataTable CreateSourceTableMappedDataFields()
 ### 也可以看看
 
 * class [MappedDataFieldCollection](../)
-* 命名空间 [Aspose.Words.MailMerging](../../mappeddatafieldcollection/)
+* 命名空间 [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * 部件 [Aspose.Words](../../../)
-
-

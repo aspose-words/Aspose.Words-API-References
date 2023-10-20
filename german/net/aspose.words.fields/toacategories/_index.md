@@ -1,7 +1,9 @@
 ---
-title: Class ToaCategories
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Fields.ToaCategories klas. Stellt eine Tabelle mit Behördenkategorien dar.
+title: ToaCategories Class
+linktitle: ToaCategories
+articleTitle: ToaCategories
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Fields.ToaCategories klas. Stellt eine Tabelle mit Behördenkategorien dar in C#.
 type: docs
 weight: 2780
 url: /de/net/aspose.words.fields/toacategories/
@@ -29,7 +31,7 @@ public class ToaCategories
 | static [DefaultCategories](../../aspose.words.fields/toacategories/defaultcategories/) { get; } | Ruft die Standardtabelle der Behördenkategorien ab. |
 | [Item](../../aspose.words.fields/toacategories/item/) { get; set; } | Ruft die Kategorieüberschrift nach Kategorienummer ab oder legt sie fest. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie eine Reihe von Kategorien für TOA-Felder angegeben werden.
 
@@ -78,5 +80,3 @@ doc.Save(ArtifactsDir + "FieldOptions.TOA.Categories.docx");
 
 * namensraum [Aspose.Words.Fields](../../aspose.words.fields/)
 * Montage [Aspose.Words](../../)
-
-

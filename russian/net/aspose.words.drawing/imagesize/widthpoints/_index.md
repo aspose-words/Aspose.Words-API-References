@@ -1,7 +1,9 @@
 ---
 title: ImageSize.WidthPoints
-second_title: Справочник по API Aspose.Words для .NET
-description: ImageSize свойство. Получает ширину изображения в пунктах. 1 балл равен 1/72 дюйма.
+linktitle: WidthPoints
+articleTitle: WidthPoints
+second_title: Aspose.Words для .NET
+description: ImageSize WidthPoints свойство. Получает ширину изображения в пунктах. 1 балл равен 1/72 дюйма на С#.
 type: docs
 weight: 70
 url: /ru/net/aspose.words.drawing/imagesize/widthpoints/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.drawing/imagesize/widthpoints/
 public double WidthPoints { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как изменить размер фигуры с помощью изображения.
 
@@ -71,7 +73,5 @@ public double WidthPoints { get; }
 ### Смотрите также
 
 * class [ImageSize](../)
-* пространство имен [Aspose.Words.Drawing](../../imagesize/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

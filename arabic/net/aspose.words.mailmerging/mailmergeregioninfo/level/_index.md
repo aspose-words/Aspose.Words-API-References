@@ -1,7 +1,9 @@
 ---
 title: MailMergeRegionInfo.Level
-second_title: Aspose.Words لمراجع .NET API
-description: MailMergeRegionInfo ملكية. إرجاع مستوى التداخل للمنطقة.
+linktitle: Level
+articleTitle: Level
+second_title: Aspose.Words لـ .NET
+description: MailMergeRegionInfo Level ملكية. إرجاع مستوى التداخل للمنطقة في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.mailmerging/mailmergeregioninfo/level/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.mailmerging/mailmergeregioninfo/level/
 public int Level { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التحقق من مناطق دمج البريد.
 
@@ -59,7 +61,5 @@ Assert.AreEqual("TableEnd:NestedRegion1", endFieldMergeField.FieldName);
 ### أنظر أيضا
 
 * class [MailMergeRegionInfo](../)
-* مساحة الاسم [Aspose.Words.MailMerging](../../mailmergeregioninfo/)
+* مساحة الاسم [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * المجسم [Aspose.Words](../../../)
-
-

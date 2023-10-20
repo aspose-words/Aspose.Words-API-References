@@ -1,7 +1,9 @@
 ---
 title: OutlineOptions.CreateMissingOutlineLevels
-second_title: Referencia de API de Aspose.Words para .NET
-description: OutlineOptions propiedad. Obtiene o establece un valor que determina si se crean o no niveles de esquema faltantes cuando el documento se exporta .
+linktitle: CreateMissingOutlineLevels
+articleTitle: CreateMissingOutlineLevels
+second_title: Aspose.Words para .NET
+description: OutlineOptions CreateMissingOutlineLevels propiedad. Obtiene o establece un valor que determina si se crean o no niveles de esquema faltantes cuando el documento se exporta  en C#.
 type: docs
 weight: 30
 url: /es/net/aspose.words.saving/outlineoptions/createmissingoutlinelevels/
@@ -16,7 +18,7 @@ El valor predeterminado para esta propiedad es`FALSO`.
 public bool CreateMissingOutlineLevels { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo trabajar con niveles de esquema que no contienen ningún encabezado correspondiente al guardar un documento PDF.
 
@@ -59,7 +61,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.CreateMissingOutlineLevels.pdf", saveOpt
 ### Ver también
 
 * class [OutlineOptions](../)
-* espacio de nombres [Aspose.Words.Saving](../../outlineoptions/)
+* espacio de nombres [Aspose.Words.Saving](../../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../../)
-
-

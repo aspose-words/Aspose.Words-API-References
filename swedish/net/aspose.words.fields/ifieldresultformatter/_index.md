@@ -1,7 +1,9 @@
 ---
-title: Interface IFieldResultFormatter
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Fields.IFieldResultFormatter gränssnitt. Implementera detta gränssnitt om du vill styra hur fältresultatet formateras.
+title: IFieldResultFormatter Interface
+linktitle: IFieldResultFormatter
+articleTitle: IFieldResultFormatter
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Fields.IFieldResultFormatter gränssnitt. Implementera detta gränssnitt om du vill styra hur fältresultatet formateras i C#.
 type: docs
 weight: 2700
 url: /sv/net/aspose.words.fields/ifieldresultformatter/
@@ -18,12 +20,12 @@ public interface IFieldResultFormatter
 
 | namn | Beskrivning |
 | --- | --- |
-| [Format](../../aspose.words.fields/ifieldresultformatter/format/#format)(double, GeneralFormat) | Anropas när Aspose.Words använder en sifferformatsväxling, dvs. \* Ordinal. |
-| [Format](../../aspose.words.fields/ifieldresultformatter/format/#format_1)(string, GeneralFormat) | Anropas när Aspose.Words använder en byte av versalformat, dvs. \* Upper. |
-| [FormatDateTime](../../aspose.words.fields/ifieldresultformatter/formatdatetime/)(DateTime, string, CalendarType) | Anropas när Aspose.Words använder en ändring av datum/tid-format, dvs. \@ "dd.MM.åååå". |
-| [FormatNumeric](../../aspose.words.fields/ifieldresultformatter/formatnumeric/)(double, string) | Anropas när Aspose.Words använder en numerisk formatväxling, dvs. \# "#.##". |
+| [Format](../../aspose.words.fields/ifieldresultformatter/format/#format)(*double, [GeneralFormat](../generalformat/)*) | Anropas när Aspose.Words använder en sifferformatsväxling, dvs. \* Ordinal. |
+| [Format](../../aspose.words.fields/ifieldresultformatter/format/#format_1)(*string, [GeneralFormat](../generalformat/)*) | Anropas när Aspose.Words använder en byte av versalformat, dvs. \* Upper. |
+| [FormatDateTime](../../aspose.words.fields/ifieldresultformatter/formatdatetime/)(*DateTime, string, [CalendarType](../../aspose.words/calendartype/)*) | Anropas när Aspose.Words använder en ändring av datum/tid-format, dvs. \@ "dd.MM.åååå". |
+| [FormatNumeric](../../aspose.words.fields/ifieldresultformatter/formatnumeric/)(*double, string*) | Anropas när Aspose.Words använder en numerisk formatväxling, dvs. \# "#.##". |
 
-### Exempel
+## Exempel
 
 Visar hur man automatiskt tillämpar ett anpassat format på fältresultat när fälten uppdateras.
 
@@ -161,5 +163,3 @@ private class FieldResultFormatter : IFieldResultFormatter
 
 * namnutrymme [Aspose.Words.Fields](../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../)
-
-

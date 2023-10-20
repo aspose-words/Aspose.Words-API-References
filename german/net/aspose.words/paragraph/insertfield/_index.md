@@ -1,12 +1,14 @@
 ---
 title: Paragraph.InsertField
-second_title: Aspose.Words für .NET-API-Referenz
-description: Paragraph methode. Fügt ein Feld in diesen Absatz ein.
+linktitle: InsertField
+articleTitle: InsertField
+second_title: Aspose.Words für .NET
+description: Paragraph InsertField methode. Fügt ein Feld in diesen Absatz ein in C#.
 type: docs
-weight: 290
+weight: 270
 url: /de/net/aspose.words/paragraph/insertfield/
 ---
-## InsertField(FieldType, bool, Node, bool) {#insertfield}
+## InsertField(*[FieldType](../../../aspose.words.fields/fieldtype/), bool, [Node](../../node/), bool*) {#insertfield}
 
 Fügt ein Feld in diesen Absatz ein.
 
@@ -25,7 +27,7 @@ public Field InsertField(FieldType fieldType, bool updateField, Node refNode, bo
 
 A[`Field`](../../../aspose.words.fields/field/) Objekt, das das eingefügte Feld darstellt.
 
-### Beispiele
+## Beispiele
 
 Zeigt verschiedene Möglichkeiten zum Hinzufügen von Feldern zu einem Absatz.
 
@@ -67,12 +69,12 @@ doc.Save(ArtifactsDir + "Paragraph.InsertField.docx");
 * enum [FieldType](../../../aspose.words.fields/fieldtype/)
 * class [Node](../../node/)
 * class [Paragraph](../)
-* namensraum [Aspose.Words](../../paragraph/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
 
 ---
 
-## InsertField(string, Node, bool) {#insertfield_1}
+## InsertField(*string, [Node](../../node/), bool*) {#insertfield_1}
 
 Fügt ein Feld in diesen Absatz ein.
 
@@ -90,7 +92,7 @@ public Field InsertField(string fieldCode, Node refNode, bool isAfter)
 
 A[`Field`](../../../aspose.words.fields/field/) Objekt, das das eingefügte Feld darstellt.
 
-### Beispiele
+## Beispiele
 
 Zeigt verschiedene Möglichkeiten zum Hinzufügen von Feldern zu einem Absatz.
 
@@ -131,12 +133,12 @@ doc.Save(ArtifactsDir + "Paragraph.InsertField.docx");
 * class [Field](../../../aspose.words.fields/field/)
 * class [Node](../../node/)
 * class [Paragraph](../)
-* namensraum [Aspose.Words](../../paragraph/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
 
 ---
 
-## InsertField(string, string, Node, bool) {#insertfield_2}
+## InsertField(*string, string, [Node](../../node/), bool*) {#insertfield_2}
 
 Fügt ein Feld in diesen Absatz ein.
 
@@ -155,7 +157,7 @@ public Field InsertField(string fieldCode, string fieldValue, Node refNode, bool
 
 A[`Field`](../../../aspose.words.fields/field/) Objekt, das das eingefügte Feld darstellt.
 
-### Beispiele
+## Beispiele
 
 Zeigt verschiedene Möglichkeiten zum Hinzufügen von Feldern zu einem Absatz.
 
@@ -196,7 +198,5 @@ doc.Save(ArtifactsDir + "Paragraph.InsertField.docx");
 * class [Field](../../../aspose.words.fields/field/)
 * class [Node](../../node/)
 * class [Paragraph](../)
-* namensraum [Aspose.Words](../../paragraph/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

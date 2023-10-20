@@ -1,7 +1,9 @@
 ---
 title: Cell.FirstParagraph
-second_title: Справочник по API Aspose.Words для .NET
-description: Cell свойство. Получает первый абзац среди ближайших дочерних элементов.
+linktitle: FirstParagraph
+articleTitle: FirstParagraph
+second_title: Aspose.Words для .NET
+description: Cell FirstParagraph свойство. Получает первый абзац среди ближайших дочерних элементов на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.tables/cell/firstparagraph/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.tables/cell/firstparagraph/
 public Paragraph FirstParagraph { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как создать вложенную таблицу с помощью построителя документов.
 
@@ -95,7 +97,5 @@ private static Table CreateTable(Document doc, int rowCount, int cellCount, stri
 
 * class [Paragraph](../../../aspose.words/paragraph/)
 * class [Cell](../)
-* пространство имен [Aspose.Words.Tables](../../cell/)
+* пространство имен [Aspose.Words.Tables](../../../aspose.words.tables/)
 * сборка [Aspose.Words](../../../)
-
-

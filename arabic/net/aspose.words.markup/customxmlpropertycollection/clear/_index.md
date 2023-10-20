@@ -1,7 +1,9 @@
 ---
 title: CustomXmlPropertyCollection.Clear
-second_title: Aspose.Words لمراجع .NET API
-description: CustomXmlPropertyCollection طريقة. إزالة كافة العناصر من المجموعة.
+linktitle: Clear
+articleTitle: Clear
+second_title: Aspose.Words لـ .NET
+description: CustomXmlPropertyCollection Clear طريقة. إزالة كافة العناصر من المجموعة في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.markup/customxmlpropertycollection/clear/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.markup/customxmlpropertycollection/clear/
 public void Clear()
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التعامل مع خصائص العلامات الذكية للحصول على معلومات متعمقة حول العلامات الذكية.
 
@@ -71,7 +73,5 @@ Assert.AreEqual(0, properties.Count);
 ### أنظر أيضا
 
 * class [CustomXmlPropertyCollection](../)
-* مساحة الاسم [Aspose.Words.Markup](../../customxmlpropertycollection/)
+* مساحة الاسم [Aspose.Words.Markup](../../../aspose.words.markup/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class OutlineOptions
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Saving.OutlineOptions classe. Permette di specificare le opzioni del contorno.
+title: OutlineOptions Class
+linktitle: OutlineOptions
+articleTitle: OutlineOptions
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Saving.OutlineOptions classe. Permette di specificare le opzioni del contorno in C#.
 type: docs
 weight: 5360
 url: /it/net/aspose.words.saving/outlineoptions/
@@ -33,7 +35,7 @@ public class OutlineOptions
 | [ExpandedOutlineLevels](../../aspose.words.saving/outlineoptions/expandedoutlinelevels/) { get; set; } | Specifica quanti livelli nella struttura del documento devono essere visualizzati espansi quando il file viene visualizzato. |
 | [HeadingsOutlineLevels](../../aspose.words.saving/outlineoptions/headingsoutlinelevels/) { get; set; } | Specifica quanti livelli di intestazioni (paragrafi formattati con gli stili di intestazione) includere nella struttura del documento . |
 
-### Esempi
+## Esempi
 
 Mostra per elaborare i segnalibri nelle intestazioni/piè di pagina in un documento che stiamo convertendo in PDF.
 
@@ -66,5 +68,3 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.HeaderFooterBookmarksExportMode.pdf", sa
 
 * spazio dei nomi [Aspose.Words.Saving](../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../)
-
-

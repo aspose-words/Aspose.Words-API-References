@@ -1,7 +1,9 @@
 ---
 title: Range.FormFields
-second_title: Aspose.Words für .NET-API-Referenz
-description: Range eigendom. Gibt a zurückFormFields Sammlung die alle Formularfelder im Bereich darstellt.
+linktitle: FormFields
+articleTitle: FormFields
+second_title: Aspose.Words für .NET
+description: Range FormFields eigendom. Gibt a zurückFormFields Sammlung die alle Formularfelder im Bereich darstellt in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words/range/formfields/
@@ -14,7 +16,7 @@ Gibt a zurück`FormFields` Sammlung, die alle Formularfelder im Bereich darstell
 public FormFieldCollection FormFields { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie verschiedene Arten von Formularfeldern in ein Dokument eingefügt und mithilfe einer Dokumentbesucherimplementierung verarbeitet werden.
 
@@ -149,7 +151,5 @@ public class FormFieldVisitor : DocumentVisitor
 
 * class [FormFieldCollection](../../../aspose.words.fields/formfieldcollection/)
 * class [Range](../)
-* namensraum [Aspose.Words](../../range/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: PageSetup.LineNumberDistanceFromText
-second_title: Référence de l'API Aspose.Words pour .NET
-description: PageSetup propriété. Obtient ou définit la distance entre le bord droit des numéros de ligne et le bord gauche du document.
+linktitle: LineNumberDistanceFromText
+articleTitle: LineNumberDistanceFromText
+second_title: Aspose.Words pour .NET
+description: PageSetup LineNumberDistanceFromText propriété. Obtient ou définit la distance entre le bord droit des numéros de ligne et le bord gauche du document en C#.
 type: docs
 weight: 220
 url: /fr/net/aspose.words/pagesetup/linenumberdistancefromtext/
@@ -14,11 +16,11 @@ Obtient ou définit la distance entre le bord droit des numéros de ligne et le 
 public double LineNumberDistanceFromText { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 Définissez cette propriété sur zéro pour la distance automatique entre les numéros de ligne et le texte du document.
 
-### Exemples
+## Exemples
 
 Montre comment activer la numérotation des lignes pour une section.
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "PageSetup.LineNumbers.docx");
 ### Voir également
 
 * class [PageSetup](../)
-* espace de noms [Aspose.Words](../../pagesetup/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

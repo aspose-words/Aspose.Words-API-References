@@ -1,7 +1,9 @@
 ---
-title: Class ChartXValueCollection
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Drawing.Charts.ChartXValueCollection сорт. Представляет коллекцию значений X для серии диаграмм.
+title: ChartXValueCollection Class
+linktitle: ChartXValueCollection
+articleTitle: ChartXValueCollection
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Drawing.Charts.ChartXValueCollection сорт. Представляет коллекцию значений X для серии диаграмм на С#.
 type: docs
 weight: 850
 url: /ru/net/aspose.words.drawing.charts/chartxvaluecollection/
@@ -27,13 +29,13 @@ public class ChartXValueCollection : IEnumerable<ChartXValue>
 | --- | --- |
 | [GetEnumerator](../../aspose.words.drawing.charts/chartxvaluecollection/getenumerator/)() | Возвращает объект перечислителя. |
 
-### Примечания
+## Примечания
 
-Все предметы коллекции, кроме **нулевой** должно быть то же самое[`ValueType`](../chartxvalue/valuetype/).
+Все предметы коллекции, кроме**нулевой** должно быть то же самое[`ValueType`](../chartxvalue/valuetype/).
 
 Коллекция позволяет изменять только значения X. Чтобы добавить или вставить новые значения в серию диаграмм или удалить значения, соответствующие методы[`ChartSeries`](../chartseries/) класс можно использовать.
 
-### Примеры
+## Примеры
 
 Показывает, как получить данные серии диаграмм.
 
@@ -89,5 +91,3 @@ doc.Save(ArtifactsDir + "Charts.GetChartSeriesData.docx");
 * class [ChartXValue](../chartxvalue/)
 * пространство имен [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../)
-
-

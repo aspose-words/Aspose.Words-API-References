@@ -1,7 +1,9 @@
 ---
-title: CommentRangeStart.CommentRangeStart
-second_title: Aspose.Words for .NET API 参考
-description: CommentRangeStart 构造函数. 初始化此类的新实例
+title: CommentRangeStart
+linktitle: CommentRangeStart
+articleTitle: CommentRangeStart
+second_title: 用于 .NET 的 Aspose.Words
+description: CommentRangeStart 构造函数. 初始化此类的新实例 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words/commentrangestart/commentrangestart/
@@ -19,13 +21,13 @@ public CommentRangeStart(DocumentBase doc, int id)
 | doc | DocumentBase | 所有者文件。 |
 | id | Int32 | 该对象链接到的注释标识符。 |
 
-### 评论
+## 评论
 
 什么时候[`CommentRangeStart`](../)创建后，它属于指定文档，但还不是 文档的一部分并且[`ParentNode`](../../node/parentnode/)是`无效的`。
 
 要附加一个[`CommentRangeStart`](../)在文档中要插入注释的段落上使用 InsertAfter 或 InsertBefore 。
 
-### 例子
+## 例子
 
 展示如何使用文档访问者打印所有注释的内容及其注释范围。
 
@@ -187,7 +189,5 @@ public class CommentInfoPrinter : DocumentVisitor
 
 * class [DocumentBase](../../documentbase/)
 * class [CommentRangeStart](../)
-* 命名空间 [Aspose.Words](../../commentrangestart/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

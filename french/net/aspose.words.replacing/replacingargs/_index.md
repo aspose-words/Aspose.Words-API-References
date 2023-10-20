@@ -1,7 +1,9 @@
 ---
-title: Class ReplacingArgs
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Replacing.ReplacingArgs classe. Fournit des données pour une opération de remplacement personnalisée.
+title: ReplacingArgs Class
+linktitle: ReplacingArgs
+articleTitle: ReplacingArgs
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Replacing.ReplacingArgs classe. Fournit des données pour une opération de remplacement personnalisée en C#.
 type: docs
 weight: 4650
 url: /fr/net/aspose.words.replacing/replacingargs/
@@ -22,12 +24,12 @@ public class ReplacingArgs
 | --- | --- |
 | [GroupIndex](../../aspose.words.replacing/replacingargs/groupindex/) { get; set; } | Identifie, par index, un groupe capturé dans le[`Match`](./match/) qui doit être remplacé par le[`Replacement`](./replacement/) chaîne. |
 | [GroupName](../../aspose.words.replacing/replacingargs/groupname/) { get; set; } | Identifie, par son nom, un groupe capturé dans le[`Match`](./match/) qui doit être remplacé par le[`Replacement`](./replacement/) chaîne. |
-| [Match](../../aspose.words.replacing/replacingargs/match/) { get; } | LeMatch résultant d'une seule correspondance d'expression régular au cours d'un **Remplacer** . |
+| [Match](../../aspose.words.replacing/replacingargs/match/) { get; } | LeMatch résultant d'une seule correspondance d'expression régular au cours d'un**Remplacer** . |
 | [MatchNode](../../aspose.words.replacing/replacingargs/matchnode/) { get; } | Obtient le nœud qui contient le début de la correspondance. |
 | [MatchOffset](../../aspose.words.replacing/replacingargs/matchoffset/) { get; } | Obtient la position de départ de base zéro de la correspondance à partir du début de le nœud qui contient le début de la correspondance. |
 | [Replacement](../../aspose.words.replacing/replacingargs/replacement/) { get; set; } | Obtient ou définit la chaîne de remplacement. |
 
-### Exemples
+## Exemples
 
 Montre comment remplacer toutes les occurrences d'un modèle d'expression régulière par une autre chaîne, tout en suivant tous ces remplacements.
 
@@ -156,5 +158,3 @@ private static void InsertDocument(Node insertionDestination, Document docToInse
 * method [Replace](../../aspose.words/range/replace/)
 * espace de noms [Aspose.Words.Replacing](../../aspose.words.replacing/)
 * Assemblée [Aspose.Words](../../)
-
-

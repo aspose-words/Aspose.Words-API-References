@@ -1,7 +1,9 @@
 ---
 title: Border.LineWidth
-second_title: Aspose.Words for .NET API 参考
-description: Border 财产. 获取或设置边框宽度以磅为单位
+linktitle: LineWidth
+articleTitle: LineWidth
+second_title: 用于 .NET 的 Aspose.Words
+description: Border LineWidth 财产. 获取或设置边框宽度以磅为单位 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words/border/linewidth/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words/border/linewidth/
 public double LineWidth { get; set; }
 ```
 
-### 评论
+## 评论
 
 当线型为无时，如果设置线宽大于零，则线型 is 自动更改为单线。
 
-### 例子
+## 例子
 
 演示如何将边框包围的字符串插入到文档中。
 
@@ -38,7 +40,5 @@ doc.Save(ArtifactsDir + "Border.FontBorder.docx");
 ### 也可以看看
 
 * class [Border](../)
-* 命名空间 [Aspose.Words](../../border/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

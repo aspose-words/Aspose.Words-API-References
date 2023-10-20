@@ -1,7 +1,9 @@
 ---
-title: Enum PreferredWidthType
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Tables.PreferredWidthType enumeración. Especifica la unidad de medida para el ancho preferido de una tabla o celda.
+title: PreferredWidthType Enum
+linktitle: PreferredWidthType
+articleTitle: PreferredWidthType
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Tables.PreferredWidthType enumeración. Especifica la unidad de medida para el ancho preferido de una tabla o celda en C#.
 type: docs
 weight: 6300
 url: /es/net/aspose.words.tables/preferredwidthtype/
@@ -22,7 +24,7 @@ public enum PreferredWidthType
 | Percent | `2` | Mide el ancho del elemento actual usando un porcentaje específico. |
 | Points | `3` | Mida el ancho del elemento actual utilizando un número específico de puntos (1/72 de pulgada). |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo verificar el tipo de ancho preferido y el valor de una celda de una tabla.
 
@@ -41,5 +43,3 @@ Assert.AreEqual(11.16d, firstCell.CellFormat.PreferredWidth.Value);
 * class [PreferredWidth](../preferredwidth/)
 * espacio de nombres [Aspose.Words.Tables](../../aspose.words.tables/)
 * asamblea [Aspose.Words](../../)
-
-

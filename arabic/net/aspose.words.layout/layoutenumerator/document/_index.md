@@ -1,7 +1,9 @@
 ---
 title: LayoutEnumerator.Document
-second_title: Aspose.Words لمراجع .NET API
-description: LayoutEnumerator ملكية. الحصول على المستند الذي تم تعداده في هذا المثيل.
+linktitle: Document
+articleTitle: Document
+second_title: Aspose.Words لـ .NET
+description: LayoutEnumerator Document ملكية. الحصول على المستند الذي تم تعداده في هذا المثيل في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.layout/layoutenumerator/document/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.layout/layoutenumerator/document/
 public Document Document { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يُظهر طرق اجتياز كيانات تخطيط المستند.
 
@@ -160,7 +162,5 @@ private static void PrintCurrentEntity(LayoutEnumerator layoutEnumerator, int in
 
 * class [Document](../../../aspose.words/document/)
 * class [LayoutEnumerator](../)
-* مساحة الاسم [Aspose.Words.Layout](../../layoutenumerator/)
+* مساحة الاسم [Aspose.Words.Layout](../../../aspose.words.layout/)
 * المجسم [Aspose.Words](../../../)
-
-

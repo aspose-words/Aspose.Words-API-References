@@ -1,26 +1,28 @@
 ---
 title: StructuredDocumentTag.Checked
-second_title: Referencia de API de Aspose.Words para .NET
-description: StructuredDocumentTag propiedad. Obtiene/establece el estado actual de la casilla de verificación TED . El valor predeterminado para esta propiedad esFALSO .
+linktitle: Checked
+articleTitle: Checked
+second_title: Aspose.Words para .NET
+description: StructuredDocumentTag Checked propiedad. Obtiene/establece el estado actual de la casilla de verificaciónTED . El valor predeterminado para esta propiedad esFALSO  en C#.
 type: docs
 weight: 60
 url: /es/net/aspose.words.markup/structureddocumenttag/checked/
 ---
 ## StructuredDocumentTag.Checked property
 
-Obtiene/establece el estado actual de la casilla de verificación **TED** . El valor predeterminado para esta propiedad es`FALSO` .
+Obtiene/establece el estado actual de la casilla de verificación**TED** . El valor predeterminado para esta propiedad es`FALSO` .
 
 ```csharp
 public bool Checked { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 Acceder a esta propiedad sólo funcionará paraCheckbox Tipos SDT.
 
 Para todos los demás tipos de SDT se producirá una excepción.
 
-### Ejemplos
+## Ejemplos
 
 Muestre cómo crear una etiqueta de documento estructurada en forma de casilla de verificación.
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.CheckBox.docx");
 ### Ver también
 
 * class [StructuredDocumentTag](../)
-* espacio de nombres [Aspose.Words.Markup](../../structureddocumenttag/)
+* espacio de nombres [Aspose.Words.Markup](../../../aspose.words.markup/)
 * asamblea [Aspose.Words](../../../)
-
-

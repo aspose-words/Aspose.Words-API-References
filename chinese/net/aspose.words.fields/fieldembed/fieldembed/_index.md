@@ -1,7 +1,9 @@
 ---
-title: FieldEmbed.FieldEmbed
-second_title: Aspose.Words for .NET API 参考
-description: FieldEmbed 构造函数. 默认构造函数
+title: FieldEmbed
+linktitle: FieldEmbed
+articleTitle: FieldEmbed
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldEmbed 构造函数. 默认构造函数 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.fields/fieldembed/fieldembed/
@@ -17,7 +19,5 @@ public FieldEmbed()
 ### 也可以看看
 
 * class [FieldEmbed](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldembed/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

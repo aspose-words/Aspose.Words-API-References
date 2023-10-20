@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.DigitalSignatureDetails
-second_title: Aspose.Words لمراجع .NET API
-description: PdfSaveOptions ملكية. الحصول على أو تعيين تفاصيل التوقيع على مستند PDF الناتج.
+linktitle: DigitalSignatureDetails
+articleTitle: DigitalSignatureDetails
+second_title: Aspose.Words لـ .NET
+description: PdfSaveOptions DigitalSignatureDetails ملكية. الحصول على أو تعيين تفاصيل التوقيع على مستند PDF الناتج في C#.
 type: docs
 weight: 70
 url: /ar/net/aspose.words.saving/pdfsaveoptions/digitalsignaturedetails/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.saving/pdfsaveoptions/digitalsignaturedetails/
 public PdfDigitalSignatureDetails DigitalSignatureDetails { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 القيمة الافتراضية هي`باطل`ولن يتم توقيع مستند الإخراج. عندما يتم تعيين هذه الخاصية إلى صالحة[`PdfDigitalSignatureDetails`](../../pdfdigitalsignaturedetails/) object, ثم سيتم توقيع مستند PDF الناتج رقميًا.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التوقيع على مستند PDF تم إنشاؤه.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignature.pdf", options);
 
 * class [PdfDigitalSignatureDetails](../../pdfdigitalsignaturedetails/)
 * class [PdfSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../pdfsaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

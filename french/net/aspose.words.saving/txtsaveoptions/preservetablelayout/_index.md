@@ -1,7 +1,9 @@
 ---
 title: TxtSaveOptions.PreserveTableLayout
-second_title: Référence de l'API Aspose.Words pour .NET
-description: TxtSaveOptions propriété. Spécifie si le programme doit tenter de conserver la disposition des tableaux lors de lenregistrement au format texte brut. La valeur par défaut estFAUX .
+linktitle: PreserveTableLayout
+articleTitle: PreserveTableLayout
+second_title: Aspose.Words pour .NET
+description: TxtSaveOptions PreserveTableLayout propriété. Spécifie si le programme doit tenter de conserver la disposition des tableaux lors de lenregistrement au format texte brut. La valeur par défaut estFAUX  en C#.
 type: docs
 weight: 50
 url: /fr/net/aspose.words.saving/txtsaveoptions/preservetablelayout/
@@ -14,7 +16,7 @@ Spécifie si le programme doit tenter de conserver la disposition des tableaux l
 public bool PreserveTableLayout { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment conserver la disposition des tableaux lors de la conversion en texte brut.
 
@@ -61,7 +63,5 @@ else
 ### Voir également
 
 * class [TxtSaveOptions](../)
-* espace de noms [Aspose.Words.Saving](../../txtsaveoptions/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,9 +1,11 @@
 ---
 title: ChartTitle.Text
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ChartTitle propriété. Obtient ou définit le texte du titre du graphique. Sinul ou une valeur vide est spécifiée le titre généré automatiquement sera affiché.
+linktitle: Text
+articleTitle: Text
+second_title: Aspose.Words pour .NET
+description: ChartTitle Text propriété. Obtient ou définit le texte du titre du graphique. Sinul ou une valeur vide est spécifiée le titre généré automatiquement sera affiché en C#.
 type: docs
-weight: 40
+weight: 30
 url: /fr/net/aspose.words.drawing.charts/charttitle/text/
 ---
 ## ChartTitle.Text property
@@ -14,11 +16,11 @@ Obtient ou définit le texte du titre du graphique. Si`nul` ou une valeur vide e
 public string Text { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 Utiliser[`Show`](../show/) option si vous devez masquer le titre.
 
-### Exemples
+## Exemples
 
 Montre comment insérer un graphique et définir un titre.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "Charts.ChartTitle.docx");
 ### Voir également
 
 * class [ChartTitle](../)
-* espace de noms [Aspose.Words.Drawing.Charts](../../charttitle/)
+* espace de noms [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Assemblée [Aspose.Words](../../../)
-
-

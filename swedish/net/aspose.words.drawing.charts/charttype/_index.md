@@ -1,7 +1,9 @@
 ---
-title: Enum ChartType
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Drawing.Charts.ChartType uppräkning. Anger typen av ett diagram.
+title: ChartType Enum
+linktitle: ChartType
+articleTitle: ChartType
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Drawing.Charts.ChartType uppräkning. Anger typen av ett diagram i C#.
 type: docs
 weight: 830
 url: /sv/net/aspose.words.drawing.charts/charttype/
@@ -54,7 +56,7 @@ public enum ChartType
 | Surface | `33` | Ytdiagram. |
 | Surface3D | `34` | 3D Ytdiagram. |
 
-### Exempel
+## Exempel
 
 Visar hur man skapar en lämplig typ av diagramserie för en graftyp.
 
@@ -144,5 +146,3 @@ private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, d
 
 * namnutrymme [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../)
-
-

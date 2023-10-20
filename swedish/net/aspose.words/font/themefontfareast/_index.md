@@ -1,7 +1,9 @@
 ---
 title: Font.ThemeFontFarEast
-second_title: Aspose.Words för .NET API Referens
-description: Font fast egendom. Hämtar eller ställer in det östasiatiska temafonten i det tillämpade teckensnittsschemat som är associerat med dettaFont objekt.
+linktitle: ThemeFontFarEast
+articleTitle: ThemeFontFarEast
+second_title: Aspose.Words för .NET
+description: Font ThemeFontFarEast fast egendom. Hämtar eller ställer in det östasiatiska temafonten i det tillämpade teckensnittsschemat som är associerat med dettaFont objekt i C#.
 type: docs
 weight: 500
 url: /sv/net/aspose.words/font/themefontfareast/
@@ -14,7 +16,7 @@ Hämtar eller ställer in det östasiatiska temafonten i det tillämpade teckens
 public ThemeFont ThemeFontFarEast { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med tematypsnitt och färger.
 
@@ -101,7 +103,5 @@ Assert.AreEqual(Color.Blue.ToArgb(), font.Color.ToArgb());
 
 * enum [ThemeFont](../../../aspose.words.themes/themefont/)
 * class [Font](../)
-* namnutrymme [Aspose.Words](../../font/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

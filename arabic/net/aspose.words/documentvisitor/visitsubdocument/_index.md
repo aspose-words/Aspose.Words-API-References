@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitSubDocument
-second_title: Aspose.Words لمراجع .NET API
-description: DocumentVisitor طريقة. يتم الاتصال به عند مواجهة مستند فرعي.
+linktitle: VisitSubDocument
+articleTitle: VisitSubDocument
+second_title: Aspose.Words لـ .NET
+description: DocumentVisitor VisitSubDocument طريقة. يتم الاتصال به عند مواجهة مستند فرعي في C#.
 type: docs
 weight: 480
 url: /ar/net/aspose.words/documentvisitor/visitsubdocument/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitSubDocument(SubDocument subDocument)
 
 أ[`VisitorAction`](../../visitoraction/) القيمة التي تحدد كيفية متابعة التعداد.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام زائر المستند لطباعة بنية عقدة المستند.
 
@@ -193,7 +195,5 @@ public class DocStructurePrinter : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [SubDocument](../../subdocument/)
 * class [DocumentVisitor](../)
-* مساحة الاسم [Aspose.Words](../../documentvisitor/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldRef.IncludeNoteOrComment
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldRef propiedad. Obtiene o establece si se incrementan los números de nota al pie nota al final y anotación que están marcados por el marcador e inserta el texto de nota al pie nota al final y comentario correspondiente.
+linktitle: IncludeNoteOrComment
+articleTitle: IncludeNoteOrComment
+second_title: Aspose.Words para .NET
+description: FieldRef IncludeNoteOrComment propiedad. Obtiene o establece si se incrementan los números de nota al pie nota al final y anotación que están marcados por el marcador e inserta el texto de nota al pie nota al final y comentario correspondiente en C#.
 type: docs
 weight: 30
 url: /es/net/aspose.words.fields/fieldref/includenoteorcomment/
@@ -14,7 +16,7 @@ Obtiene o establece si se incrementan los números de nota al pie, nota al final
 public bool IncludeNoteOrComment { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo insertar campos REF para hacer referencia a marcadores.
 
@@ -104,7 +106,5 @@ private static FieldRef InsertFieldRef(DocumentBuilder builder, string bookmarkN
 ### Ver también
 
 * class [FieldRef](../)
-* espacio de nombres [Aspose.Words.Fields](../../fieldref/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ListFormat.List
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ListFormat propriété. Obtient ou définit la liste dont ce paragraphe est membre.
+linktitle: List
+articleTitle: List
+second_title: Aspose.Words pour .NET
+description: ListFormat List propriété. Obtient ou définit la liste dont ce paragraphe est membre en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.lists/listformat/list/
@@ -14,7 +16,7 @@ Obtient ou définit la liste dont ce paragraphe est membre.
 public List List { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 La liste affectée à cette propriété doit appartenir au document actuel.
 
@@ -22,7 +24,7 @@ La liste affectée à cette propriété ne doit pas être une définition de sty
 
 Définir cette propriété sur`nul` supprime les puces et la numérotation du paragraphe et définit le numéro du niveau de liste sur zéro. Définir cette propriété sur`nul` est équivalent à l'appel[`RemoveNumbers`](../removenumbers/).
 
-### Exemples
+## Exemples
 
 Montre comment imbriquer une liste dans une autre liste.
 
@@ -125,7 +127,5 @@ doc.Save(ArtifactsDir + "Lists.SpecifyListLevel.docx");
 
 * class [List](../../list/)
 * class [ListFormat](../)
-* espace de noms [Aspose.Words.Lists](../../listformat/)
+* espace de noms [Aspose.Words.Lists](../../../aspose.words.lists/)
 * Assemblée [Aspose.Words](../../../)
-
-

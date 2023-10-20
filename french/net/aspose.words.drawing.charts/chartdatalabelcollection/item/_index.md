@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabelCollection.Item
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ChartDataLabelCollection propriété. RetoursChartDataLabel pour lindex spécifié.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words pour .NET
+description: ChartDataLabelCollection Item propriété. RetoursChartDataLabel pour lindex spécifié en C#.
 type: docs
 weight: 40
 url: /fr/net/aspose.words.drawing.charts/chartdatalabelcollection/item/
@@ -14,7 +16,7 @@ Retours[`ChartDataLabel`](../../chartdatalabel/) pour l'index spécifié.
 public ChartDataLabel this[int index] { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment appliquer des étiquettes aux points de données dans un graphique linéaire.
 
@@ -93,7 +95,5 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
 
 * class [ChartDataLabel](../../chartdatalabel/)
 * class [ChartDataLabelCollection](../)
-* espace de noms [Aspose.Words.Drawing.Charts](../../chartdatalabelcollection/)
+* espace de noms [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Assemblée [Aspose.Words](../../../)
-
-

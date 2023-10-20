@@ -1,7 +1,9 @@
 ---
-title: Enum ChartShapeType
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Drawing.Charts.ChartShapeType énumération. Spécifie le type de forme des éléments du graphique.
+title: ChartShapeType Enum
+linktitle: ChartShapeType
+articleTitle: ChartShapeType
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Drawing.Charts.ChartShapeType énumération. Spécifie le type de forme des éléments du graphique en C#.
 type: docs
 weight: 810
 url: /fr/net/aspose.words.drawing.charts/chartshapetype/
@@ -207,7 +209,7 @@ public enum ChartShapeType
 | ChartStar | `186` | Étoile du graphique. |
 | ChartX | `187` | Graphique X. |
 
-### Exemples
+## Exemples
 
 Montre comment définir le formatage du remplissage, du contour et des légendes pour les étiquettes de données de graphique.
 
@@ -250,5 +252,3 @@ doc.Save(ArtifactsDir + "Charts.FormatDataLables.docx");
 * property [ShapeType](../chartformat/shapetype/)
 * espace de noms [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * Assemblée [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.Subject
-second_title: Aspose.Words for .NET API 参考
-description: BuiltInDocumentProperties 财产. 获取或设置文档的主题
+linktitle: Subject
+articleTitle: Subject
+second_title: 用于 .NET 的 Aspose.Words
+description: BuiltInDocumentProperties Subject 财产. 获取或设置文档的主题 在 C#.
 type: docs
 weight: 260
 url: /zh/net/aspose.words.properties/builtindocumentproperties/subject/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.properties/builtindocumentproperties/subject/
 public string Subject { get; set; }
 ```
 
-### 例子
+## 例子
 
 展示如何使用“描述”类别中的内置文档属性。
 
@@ -59,7 +61,5 @@ doc.Save(ArtifactsDir + "DocumentProperties.Description.docx");
 ### 也可以看看
 
 * class [BuiltInDocumentProperties](../)
-* 命名空间 [Aspose.Words.Properties](../../builtindocumentproperties/)
+* 命名空间 [Aspose.Words.Properties](../../../aspose.words.properties/)
 * 部件 [Aspose.Words](../../../)
-
-

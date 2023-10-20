@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.HangingPunctuation
-second_title: Referencia de API de Aspose.Words para .NET
-description: ParagraphFormat propiedad. Obtiene o establece una marca que indica si la puntuación colgante está habilitada para el párrafo actual.
+linktitle: HangingPunctuation
+articleTitle: HangingPunctuation
+second_title: Aspose.Words para .NET
+description: ParagraphFormat HangingPunctuation propiedad. Obtiene o establece una marca que indica si la puntuación colgante está habilitada para el párrafo actual en C#.
 type: docs
 weight: 130
 url: /es/net/aspose.words/paragraphformat/hangingpunctuation/
@@ -14,7 +16,7 @@ Obtiene o establece una marca que indica si la puntuación colgante está habili
 public bool HangingPunctuation { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo establecer propiedades especiales para la tipografía asiática.
 
@@ -32,7 +34,5 @@ doc.Save(ArtifactsDir + "ParagraphFormat.AsianTypographyProperties.docx");
 ### Ver también
 
 * class [ParagraphFormat](../)
-* espacio de nombres [Aspose.Words](../../paragraphformat/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

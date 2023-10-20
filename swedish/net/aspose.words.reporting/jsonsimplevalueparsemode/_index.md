@@ -1,7 +1,9 @@
 ---
-title: Enum JsonSimpleValueParseMode
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Reporting.JsonSimpleValueParseMode uppräkning. Anger ett läge för att analysera JSON enkla värden null boolean nummer heltal och sträng när JSON laddas. Ett sådant läge påverkar inte analysen av datumtidvärden.
+title: JsonSimpleValueParseMode Enum
+linktitle: JsonSimpleValueParseMode
+articleTitle: JsonSimpleValueParseMode
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Reporting.JsonSimpleValueParseMode uppräkning. Anger ett läge för att analysera JSON enkla värden null boolean nummer heltal och sträng när JSON laddas. Ett sådant läge påverkar inte analysen av datumtidvärden i C#.
 type: docs
 weight: 4700
 url: /sv/net/aspose.words.reporting/jsonsimplevalueparsemode/
@@ -25,5 +27,3 @@ public enum JsonSimpleValueParseMode
 
 * namnutrymme [Aspose.Words.Reporting](../../aspose.words.reporting/)
 * hopsättning [Aspose.Words](../../)
-
-

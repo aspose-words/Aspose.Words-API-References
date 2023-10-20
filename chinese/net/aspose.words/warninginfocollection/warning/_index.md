@@ -1,7 +1,9 @@
 ---
 title: WarningInfoCollection.Warning
-second_title: Aspose.Words for .NET API 参考
-description: WarningInfoCollection 方法. 实现IWarningCallback界面向此集合添加警告
+linktitle: Warning
+articleTitle: Warning
+second_title: 用于 .NET 的 Aspose.Words
+description: WarningInfoCollection Warning 方法. 实现IWarningCallback界面向此集合添加警告 在 C#.
 type: docs
 weight: 60
 url: /zh/net/aspose.words/warninginfocollection/warning/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/warninginfocollection/warning/
 public void Warning(WarningInfo info)
 ```
 
-### 例子
+## 例子
 
 演示如何设置属性以从可用字体源中查找缺失字体的最接近匹配项。
 
@@ -75,7 +77,5 @@ public class HandleDocumentSubstitutionWarnings : IWarningCallback
 
 * class [WarningInfo](../../warninginfo/)
 * class [WarningInfoCollection](../)
-* 命名空间 [Aspose.Words](../../warninginfocollection/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

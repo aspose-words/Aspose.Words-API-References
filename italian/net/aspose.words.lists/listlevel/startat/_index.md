@@ -1,7 +1,9 @@
 ---
 title: ListLevel.StartAt
-second_title: Aspose.Words per .NET API Reference
-description: ListLevel proprietà. Restituisce o imposta il numero iniziale per questo livello di elenco.
+linktitle: StartAt
+articleTitle: StartAt
+second_title: Aspose.Words per .NET
+description: ListLevel StartAt proprietà. Restituisce o imposta il numero iniziale per questo livello di elenco in C#.
 type: docs
 weight: 110
 url: /it/net/aspose.words.lists/listlevel/startat/
@@ -14,11 +16,11 @@ Restituisce o imposta il numero iniziale per questo livello di elenco.
 public int StartAt { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Il valore predefinito è 1.
 
-### Esempi
+## Esempi
 
 Mostra come riavviare la numerazione in un elenco copiando un elenco.
 
@@ -116,7 +118,5 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateCustomList.docx");
 ### Guarda anche
 
 * class [ListLevel](../)
-* spazio dei nomi [Aspose.Words.Lists](../../listlevel/)
+* spazio dei nomi [Aspose.Words.Lists](../../../aspose.words.lists/)
 * assemblea [Aspose.Words](../../../)
-
-

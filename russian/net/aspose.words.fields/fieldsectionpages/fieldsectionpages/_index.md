@@ -1,7 +1,9 @@
 ---
-title: FieldSectionPages.FieldSectionPages
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldSectionPages строитель. Конструктор по умолчанию.
+title: FieldSectionPages
+linktitle: FieldSectionPages
+articleTitle: FieldSectionPages
+second_title: Aspose.Words для .NET
+description: FieldSectionPages строитель. Конструктор по умолчанию на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fields/fieldsectionpages/fieldsectionpages/
@@ -17,7 +19,5 @@ public FieldSectionPages()
 ### Смотрите также
 
 * class [FieldSectionPages](../)
-* пространство имен [Aspose.Words.Fields](../../fieldsectionpages/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Document.HasRevisions
-second_title: Aspose.Words لمراجع .NET API
-description: Document ملكية. إرجاعحقيقي إذا كان المستند يحتوي على أي تغييرات متعقبة.
+linktitle: HasRevisions
+articleTitle: HasRevisions
+second_title: Aspose.Words لـ .NET
+description: Document HasRevisions ملكية. إرجاعحقيقي إذا كان المستند يحتوي على أي تغييرات متعقبة في C#.
 type: docs
 weight: 200
 url: /ar/net/aspose.words/document/hasrevisions/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words/document/hasrevisions/
 public bool HasRevisions { get; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 هذه الخاصية هي اختصار للمقارنة[`Count`](../../revisioncollection/count/)إلى الصفر.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التعامل مع المراجعات في المستند.
 
@@ -101,7 +103,5 @@ Assert.AreEqual("This is revision #1. \rThis is revision #2.", doc.GetText().Tri
 ### أنظر أيضا
 
 * class [Document](../)
-* مساحة الاسم [Aspose.Words](../../document/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

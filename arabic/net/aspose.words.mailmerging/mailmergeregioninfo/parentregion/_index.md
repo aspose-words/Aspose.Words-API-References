@@ -1,7 +1,9 @@
 ---
 title: MailMergeRegionInfo.ParentRegion
-second_title: Aspose.Words لمراجع .NET API
-description: MailMergeRegionInfo ملكية. إرجاع معلومات المنطقة الأصلية خالية لمنطقة المستوى الأعلى.
+linktitle: ParentRegion
+articleTitle: ParentRegion
+second_title: Aspose.Words لـ .NET
+description: MailMergeRegionInfo ParentRegion ملكية. إرجاع معلومات المنطقة الأصلية خالية لمنطقة المستوى الأعلى في C#.
 type: docs
 weight: 70
 url: /ar/net/aspose.words.mailmerging/mailmergeregioninfo/parentregion/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.mailmerging/mailmergeregioninfo/parentregion/
 public MailMergeRegionInfo ParentRegion { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء مناطق دمج البريد وإدراجها وقراءتها.
 
@@ -69,7 +71,5 @@ Assert.AreEqual("Column2", mergeFieldNames[0]);
 ### أنظر أيضا
 
 * class [MailMergeRegionInfo](../)
-* مساحة الاسم [Aspose.Words.MailMerging](../../mailmergeregioninfo/)
+* مساحة الاسم [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * المجسم [Aspose.Words](../../../)
-
-

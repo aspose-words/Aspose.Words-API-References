@@ -1,7 +1,9 @@
 ---
 title: Table.HorizontalAnchor
-second_title: Справочник по API Aspose.Words для .NET
-description: Table свойство. Получает базовый объект на основе которого должно рассчитываться горизонтальное положение плавающей таблицы. Значение по умолчаниюColumn .
+linktitle: HorizontalAnchor
+articleTitle: HorizontalAnchor
+second_title: Aspose.Words для .NET
+description: Table HorizontalAnchor свойство. Получает базовый объект на основе которого должно рассчитываться горизонтальное положение плавающей таблицы. Значение по умолчаниюColumn  на С#.
 type: docs
 weight: 170
 url: /ru/net/aspose.words.tables/table/horizontalanchor/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.tables/table/horizontalanchor/
 public RelativeHorizontalPosition HorizontalAnchor { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как работать со свойствами плавающих таблиц.
 
@@ -43,7 +45,5 @@ if (table.TextWrapping == TextWrapping.Around)
 
 * enum [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/)
 * class [Table](../)
-* пространство имен [Aspose.Words.Tables](../../table/)
+* пространство имен [Aspose.Words.Tables](../../../aspose.words.tables/)
 * сборка [Aspose.Words](../../../)
-
-

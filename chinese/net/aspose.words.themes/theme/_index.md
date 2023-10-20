@@ -1,7 +1,9 @@
 ---
-title: Class Theme
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Themes.Theme 班级. 代表文档主题并提供对主要主题部分的访问包括MajorFontsMinorFonts和Colors
+title: Theme Class
+linktitle: Theme
+articleTitle: Theme
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Themes.Theme 班级. 代表文档主题并提供对主要主题部分的访问包括MajorFontsMinorFonts和Colors 在 C#.
 type: docs
 weight: 6460
 url: /zh/net/aspose.words.themes/theme/
@@ -30,7 +32,7 @@ public class Theme
 | [MajorFonts](../../aspose.words.themes/theme/majorfonts/) { get; } | 允许指定不同语言的主要字体集。 |
 | [MinorFonts](../../aspose.words.themes/theme/minorfonts/) { get; } | 允许为不同语言指定小字体集。 |
 
-### 例子
+## 例子
 
 展示如何设置主题的自定义颜色和字体。
 
@@ -79,5 +81,3 @@ doc.Save(ArtifactsDir + "Themes.CustomColorsAndFonts.docx");
 
 * 命名空间 [Aspose.Words.Themes](../../aspose.words.themes/)
 * 部件 [Aspose.Words](../../)
-
-

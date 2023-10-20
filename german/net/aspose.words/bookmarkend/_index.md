@@ -1,7 +1,9 @@
 ---
-title: Class BookmarkEnd
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.BookmarkEnd klas. Stellt das Ende eines Lesezeichens in einem WordDokument dar.
+title: BookmarkEnd Class
+linktitle: BookmarkEnd
+articleTitle: BookmarkEnd
+second_title: Aspose.Words für .NET
+description: Aspose.Words.BookmarkEnd klas. Stellt das Ende eines Lesezeichens in einem WordDokument dar in C#.
 type: docs
 weight: 60
 url: /de/net/aspose.words/bookmarkend/
@@ -20,7 +22,7 @@ public class BookmarkEnd : Node
 
 | Name | Beschreibung |
 | --- | --- |
-| [BookmarkEnd](bookmarkend/)(DocumentBase, string) | Initialisiert eine neue Instanz von`BookmarkEnd` Klasse. |
+| [BookmarkEnd](bookmarkend/)(*[DocumentBase](../documentbase/), string*) | Initialisiert eine neue Instanz von`BookmarkEnd` Klasse. |
 
 ## Eigenschaften
 
@@ -40,18 +42,18 @@ public class BookmarkEnd : Node
 
 | Name | Beschreibung |
 | --- | --- |
-| override [Accept](../../aspose.words/bookmarkend/accept/)(DocumentVisitor) | Akzeptiert einen Besucher. |
-| [Clone](../../aspose.words/node/clone/)(bool) | Erstellt ein Duplikat des Knotens. |
-| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Ruft den ersten Vorfahren des angegebenen ab[`NodeType`](../nodetype/) . |
-| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Ruft den ersten Vorfahren des angegebenen Objekttyps ab. |
+| override [Accept](../../aspose.words/bookmarkend/accept/)(*[DocumentVisitor](../documentvisitor/)*) | Akzeptiert einen Besucher. |
+| [Clone](../../aspose.words/node/clone/)(*bool*) | Erstellt ein Duplikat des Knotens. |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*[NodeType](../nodetype/)*) | Ruft den ersten Vorfahren des angegebenen ab[`NodeType`](../nodetype/) . |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | Ruft den ersten Vorfahren des angegebenen Objekttyps ab. |
 | virtual [GetText](../../aspose.words/node/gettext/)() | Ruft den Text dieses Knotens und aller seiner untergeordneten Knoten ab. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Ruft den nächsten Knoten gemäß dem Pre-Order-Tree-Traversal-Algorithmus ab. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Ruft den vorherigen Knoten gemäß dem Pre-Order-Tree-Traversal-Algorithmus ab. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../node/)*) | Ruft den nächsten Knoten gemäß dem Pre-Order-Tree-Traversal-Algorithmus ab. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../node/)*) | Ruft den vorherigen Knoten gemäß dem Pre-Order-Tree-Traversal-Algorithmus ab. |
 | [Remove](../../aspose.words/node/remove/)() | Entfernt sich selbst vom übergeordneten Element. |
-| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Exportiert den Inhalt des Knotens in einen String im angegebenen Format. |
-| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | Exportiert den Inhalt des Knotens mit den angegebenen Speicheroptionen in einen String. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../saveformat/)*) | Exportiert den Inhalt des Knotens in einen String im angegebenen Format. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | Exportiert den Inhalt des Knotens mit den angegebenen Speicheroptionen in einen String. |
 
-### Bemerkungen
+## Bemerkungen
 
 Ein vollständiges Lesezeichen in einem Word-Dokument besteht aus a[`BookmarkStart`](../bookmarkstart/) und ein Matching`BookmarkEnd` mit demselben Lesezeichennamen.
 
@@ -59,7 +61,7 @@ Ein vollständiges Lesezeichen in einem Word-Dokument besteht aus a[`BookmarkSta
 
 Benutzen Sie die[`Bookmark`](../bookmark/) Klasse als „Fassade“, um mit einem bookmark als einzelnes Objekt zu arbeiten.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie Lesezeichen hinzufügen und deren Inhalte aktualisieren.
 
@@ -150,5 +152,3 @@ public class BookmarkInfoPrinter : DocumentVisitor
 * class [Node](../node/)
 * namensraum [Aspose.Words](../../aspose.words/)
 * Montage [Aspose.Words](../../)
-
-

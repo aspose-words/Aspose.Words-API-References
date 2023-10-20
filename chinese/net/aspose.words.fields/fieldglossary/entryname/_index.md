@@ -1,7 +1,9 @@
 ---
 title: FieldGlossary.EntryName
-second_title: Aspose.Words for .NET API 参考
-description: FieldGlossary 财产. 获取或设置要插入的术语表条目的名称
+linktitle: EntryName
+articleTitle: EntryName
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldGlossary EntryName 财产. 获取或设置要插入的术语表条目的名称 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.fields/fieldglossary/entryname/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fieldglossary/entryname/
 public string EntryName { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何显示带有自动文本和词汇表字段的构建块。
 
@@ -64,7 +66,5 @@ doc.Save(ArtifactsDir + "Field.AUTOTEXT.GLOSSARY.dotx");
 ### 也可以看看
 
 * class [FieldGlossary](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldglossary/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: TableSubstitutionRule.AddSubstitutes
-second_title: Aspose.Words för .NET API Referens
-description: TableSubstitutionRule metod. Lägger till ersättande teckensnittsnamn för det ursprungliga teckensnittsnamnet.
+linktitle: AddSubstitutes
+articleTitle: AddSubstitutes
+second_title: Aspose.Words för .NET
+description: TableSubstitutionRule AddSubstitutes metod. Lägger till ersättande teckensnittsnamn för det ursprungliga teckensnittsnamnet i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.fonts/tablesubstitutionrule/addsubstitutes/
@@ -19,7 +21,7 @@ public void AddSubstitutes(string originalFontName, params string[] substituteFo
 | originalFontName | String | Ursprungligt teckensnittsnamn. |
 | substituteFontNames | String[] | Lista över alternativa teckensnittsnamn. |
 
-### Exempel
+## Exempel
 
 Visar hur du kommer åt ett dokuments systemteckensnittskälla och ställer in teckensnittsersättningar.
 
@@ -131,7 +133,5 @@ doc.Save(ArtifactsDir + "FontSettings.TableSubstitutionRule.Custom.pdf");
 ### Se även
 
 * class [TableSubstitutionRule](../)
-* namnutrymme [Aspose.Words.Fonts](../../tablesubstitutionrule/)
+* namnutrymme [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Document.CustomXmlParts
-second_title: Referencia de API de Aspose.Words para .NET
-description: Document propiedad. Obtiene o establece la colección de partes de almacenamiento de datos XML personalizadas.
+linktitle: CustomXmlParts
+articleTitle: CustomXmlParts
+second_title: Aspose.Words para .NET
+description: Document CustomXmlParts propiedad. Obtiene o establece la colección de partes de almacenamiento de datos XML personalizadas en C#.
 type: docs
 weight: 80
 url: /es/net/aspose.words/document/customxmlparts/
@@ -14,13 +16,13 @@ Obtiene o establece la colección de partes de almacenamiento de datos XML perso
 public CustomXmlPartCollection CustomXmlParts { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 Aspose.Words carga y guarda partes XML personalizadas solo en documentos OOXML y DOC.
 
 Esta propiedad no puede ser`nulo`.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear una etiqueta de documento estructurado con datos XML personalizados.
 
@@ -88,7 +90,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.CustomXml.docx");
 
 * class [CustomXmlPartCollection](../../../aspose.words.markup/customxmlpartcollection/)
 * class [Document](../)
-* espacio de nombres [Aspose.Words](../../document/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

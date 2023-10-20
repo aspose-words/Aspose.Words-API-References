@@ -1,7 +1,9 @@
 ---
-title: CustomXmlProperty.CustomXmlProperty
-second_title: Aspose.Words für .NET-API-Referenz
-description: CustomXmlProperty constructeur. Initialisiert eine neue Instanz dieser Klasse.
+title: CustomXmlProperty
+linktitle: CustomXmlProperty
+articleTitle: CustomXmlProperty
+second_title: Aspose.Words für .NET
+description: CustomXmlProperty constructeur. Initialisiert eine neue Instanz dieser Klasse in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words.markup/customxmlproperty/customxmlproperty/
@@ -20,7 +22,7 @@ public CustomXmlProperty(string name, string uri, string value)
 | uri | String | Der Namespace-URI der Eigenschaft. Kann nicht sein`Null`. |
 | value | String | Der Wert der Immobilie. Kann nicht sein`Null`. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man Smarttags erstellt.
 
@@ -121,7 +123,5 @@ private class SmartTagPrinter : DocumentVisitor
 ### Siehe auch
 
 * class [CustomXmlProperty](../)
-* namensraum [Aspose.Words.Markup](../../customxmlproperty/)
+* namensraum [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Montage [Aspose.Words](../../../)
-
-

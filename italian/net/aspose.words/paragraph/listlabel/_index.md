@@ -1,7 +1,9 @@
 ---
 title: Paragraph.ListLabel
-second_title: Aspose.Words per .NET API Reference
-description: Paragraph proprietà. Ottiene aListLabeloggetto che fornisce laccesso al valore di numerazione dellelenco e alla formattazione per questo paragrafo.
+linktitle: ListLabel
+articleTitle: ListLabel
+second_title: Aspose.Words per .NET
+description: Paragraph ListLabel proprietà. Ottiene aListLabeloggetto che fornisce laccesso al valore di numerazione dellelenco e alla formattazione per questo paragrafo in C#.
 type: docs
 weight: 160
 url: /it/net/aspose.words/paragraph/listlabel/
@@ -14,7 +16,7 @@ Ottiene a`ListLabel`oggetto che fornisce l'accesso al valore di numerazione dell
 public ListLabel ListLabel { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come estrarre le etichette dell'elenco di tutti i paragrafi che sono elementi dell'elenco.
 
@@ -50,7 +52,5 @@ foreach (Paragraph paragraph in paras.OfType<Paragraph>().Where(p => p.ListForma
 
 * class [ListLabel](../../../aspose.words.lists/listlabel/)
 * class [Paragraph](../)
-* spazio dei nomi [Aspose.Words](../../paragraph/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

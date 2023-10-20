@@ -1,7 +1,9 @@
 ---
-title: Enum CellVerticalAlignment
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Tables.CellVerticalAlignment перечисление. Задает вертикальное выравнивание текста внутри ячейки таблицы.
+title: CellVerticalAlignment Enum
+linktitle: CellVerticalAlignment
+articleTitle: CellVerticalAlignment
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Tables.CellVerticalAlignment перечисление. Задает вертикальное выравнивание текста внутри ячейки таблицы на С#.
 type: docs
 weight: 6280
 url: /ru/net/aspose.words.tables/cellverticalalignment/
@@ -22,7 +24,7 @@ public enum CellVerticalAlignment
 | Center | `1` | Текст выравнивается по середине ячейки. |
 | Bottom | `2` | Текст выравнивается по низу ячейки. |
 
-### Примеры
+## Примеры
 
 Показывает, как построить форматированную таблицу 2x2.
 
@@ -69,5 +71,3 @@ doc.Save(ArtifactsDir + "DocumentBuilder.BuildTable.docx");
 
 * пространство имен [Aspose.Words.Tables](../../aspose.words.tables/)
 * сборка [Aspose.Words](../../)
-
-

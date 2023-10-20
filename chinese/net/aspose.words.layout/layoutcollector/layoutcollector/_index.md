@@ -1,7 +1,9 @@
 ---
-title: LayoutCollector.LayoutCollector
-second_title: Aspose.Words for .NET API 参考
-description: LayoutCollector 构造函数. 初始化此类的实例
+title: LayoutCollector
+linktitle: LayoutCollector
+articleTitle: LayoutCollector
+second_title: 用于 .NET 的 Aspose.Words
+description: LayoutCollector 构造函数. 初始化此类的实例 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.layout/layoutcollector/layoutcollector/
@@ -18,7 +20,7 @@ public LayoutCollector(Document doc)
 | --- | --- | --- |
 | doc | Document | 此收集器实例将附加到的文档。 |
 
-### 例子
+## 例子
 
 演示如何查看节点跨越的页面范围。
 
@@ -77,7 +79,5 @@ Assert.AreEqual("¶", layoutEnumerator.Text);
 
 * class [Document](../../../aspose.words/document/)
 * class [LayoutCollector](../)
-* 命名空间 [Aspose.Words.Layout](../../layoutcollector/)
+* 命名空间 [Aspose.Words.Layout](../../../aspose.words.layout/)
 * 部件 [Aspose.Words](../../../)
-
-

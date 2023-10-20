@@ -1,7 +1,9 @@
 ---
-title: Class InternableComplexAttr
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.InternableComplexAttr 班级. 可内部复杂属性的基类 可内部复杂属性应在更改时通知父集合
+title: InternableComplexAttr Class
+linktitle: InternableComplexAttr
+articleTitle: InternableComplexAttr
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.InternableComplexAttr 班级. 可内部复杂属性的基类 可内部复杂属性应在更改时通知父集合 在 C#.
 type: docs
 weight: 3280
 url: /zh/net/aspose.words/internablecomplexattr/
@@ -20,5 +22,3 @@ public abstract class InternableComplexAttr
 
 * 命名空间 [Aspose.Words](../../aspose.words/)
 * 部件 [Aspose.Words](../../)
-
-

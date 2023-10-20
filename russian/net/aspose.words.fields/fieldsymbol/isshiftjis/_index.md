@@ -1,7 +1,9 @@
 ---
 title: FieldSymbol.IsShiftJis
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldSymbol свойство. Получает или задает значение интерпретируется ли код символа как значение символа SHIFTJIS.
+linktitle: IsShiftJis
+articleTitle: IsShiftJis
+second_title: Aspose.Words для .NET
+description: FieldSymbol IsShiftJis свойство. Получает или задает значение интерпретируется ли код символа как значение символа SHIFTJIS на С#.
 type: docs
 weight: 70
 url: /ru/net/aspose.words.fields/fieldsymbol/isshiftjis/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldsymbol/isshiftjis/
 public bool IsShiftJis { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как использовать поле СИМВОЛ.
 
@@ -70,7 +72,5 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 ### Смотрите также
 
 * class [FieldSymbol](../)
-* пространство имен [Aspose.Words.Fields](../../fieldsymbol/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: LayoutEnumerator.LayoutEnumerator
-second_title: Aspose.Words for .NET API 参考
-description: LayoutEnumerator 构造函数. 初始化此类的新实例
+title: LayoutEnumerator
+linktitle: LayoutEnumerator
+articleTitle: LayoutEnumerator
+second_title: 用于 .NET 的 Aspose.Words
+description: LayoutEnumerator 构造函数. 初始化此类的新实例 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.layout/layoutenumerator/layoutenumerator/
@@ -18,13 +20,13 @@ public LayoutEnumerator(Document document)
 | --- | --- | --- |
 | document | Document | 要枚举其页面布局模型的文档。 |
 
-### 评论
+## 评论
 
 如果文档的页面布局模型尚未构建，则枚举器调用[`UpdatePageLayout`](../../../aspose.words/document/updatepagelayout/)来建造它。
 
 每当更新文档并创建新的页面布局模型时，都必须使用新的枚举器来访问它。
 
-### 例子
+## 例子
 
 显示遍历文档布局实体的方法。
 
@@ -170,7 +172,5 @@ private static void PrintCurrentEntity(LayoutEnumerator layoutEnumerator, int in
 
 * class [Document](../../../aspose.words/document/)
 * class [LayoutEnumerator](../)
-* 命名空间 [Aspose.Words.Layout](../../layoutenumerator/)
+* 命名空间 [Aspose.Words.Layout](../../../aspose.words.layout/)
 * 部件 [Aspose.Words](../../../)
-
-

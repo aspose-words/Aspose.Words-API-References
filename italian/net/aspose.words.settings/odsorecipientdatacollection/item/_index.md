@@ -1,7 +1,9 @@
 ---
 title: OdsoRecipientDataCollection.Item
-second_title: Aspose.Words per .NET API Reference
-description: OdsoRecipientDataCollection proprietà. Ottiene o imposta un elemento in questa raccolta.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words per .NET
+description: OdsoRecipientDataCollection Item proprietà. Ottiene o imposta un elemento in questa raccolta in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words.settings/odsorecipientdatacollection/item/
@@ -14,7 +16,7 @@ Ottiene o imposta un elemento in questa raccolta.
 public OdsoRecipientData this[int index] { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come accedere alla raccolta di dati che indica quali record dell'origine dati di unione verranno esclusi da una stampa unione.
 
@@ -55,7 +57,5 @@ Assert.AreEqual(0, dataCollection.Count);
 
 * class [OdsoRecipientData](../../odsorecipientdata/)
 * class [OdsoRecipientDataCollection](../)
-* spazio dei nomi [Aspose.Words.Settings](../../odsorecipientdatacollection/)
+* spazio dei nomi [Aspose.Words.Settings](../../../aspose.words.settings/)
 * assemblea [Aspose.Words](../../../)
-
-

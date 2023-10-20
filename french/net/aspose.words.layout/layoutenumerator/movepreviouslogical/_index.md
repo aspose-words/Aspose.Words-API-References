@@ -1,7 +1,9 @@
 ---
 title: LayoutEnumerator.MovePreviousLogical
-second_title: Référence de l'API Aspose.Words pour .NET
-description: LayoutEnumerator méthode. Se déplace vers lentité sœur précédente dans un ordre logique. Lors de litération des lignes dun paragraphe réparties sur plusieurs pages cette méthode se déplacera vers la ligne précédente même si elle réside sur une autre page.
+linktitle: MovePreviousLogical
+articleTitle: MovePreviousLogical
+second_title: Aspose.Words pour .NET
+description: LayoutEnumerator MovePreviousLogical méthode. Se déplace vers lentité sœur précédente dans un ordre logique. Lors de litération des lignes dun paragraphe réparties sur plusieurs pages cette méthode se déplacera vers la ligne précédente même si elle réside sur une autre page en C#.
 type: docs
 weight: 160
 url: /fr/net/aspose.words.layout/layoutenumerator/movepreviouslogical/
@@ -14,11 +16,11 @@ Se déplace vers l'entité sœur précédente dans un ordre logique. Lors de l'i
 public bool MovePreviousLogical()
 ```
 
-### Remarques
+## Remarques
 
 Notez que toutSpan les entités sont liées entre elles ainsi si[`Current`](../current/) L'entité est un appel répété de cette méthode qui itérera l'histoire complète du document.
 
-### Exemples
+## Exemples
 
 Montre les moyens de parcourir les entités de mise en page d'un document.
 
@@ -163,7 +165,5 @@ private static void PrintCurrentEntity(LayoutEnumerator layoutEnumerator, int in
 ### Voir également
 
 * class [LayoutEnumerator](../)
-* espace de noms [Aspose.Words.Layout](../../layoutenumerator/)
+* espace de noms [Aspose.Words.Layout](../../../aspose.words.layout/)
 * Assemblée [Aspose.Words](../../../)
-
-

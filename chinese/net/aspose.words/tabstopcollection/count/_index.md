@@ -1,7 +1,9 @@
 ---
 title: TabStopCollection.Count
-second_title: Aspose.Words for .NET API 参考
-description: TabStopCollection 财产. 获取集合中制表位的数量
+linktitle: Count
+articleTitle: Count
+second_title: 用于 .NET 的 Aspose.Words
+description: TabStopCollection Count 财产. 获取集合中制表位的数量 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words/tabstopcollection/count/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/tabstopcollection/count/
 public int Count { get; }
 ```
 
-### 例子
+## 例子
 
 展示如何使用文档的制表位集合。
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "TabStopCollection.TabStopCollection.docx");
 ### 也可以看看
 
 * class [TabStopCollection](../)
-* 命名空间 [Aspose.Words](../../tabstopcollection/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

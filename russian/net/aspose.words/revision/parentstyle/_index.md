@@ -1,7 +1,9 @@
 ---
 title: Revision.ParentStyle
-second_title: Справочник по API Aspose.Words для .NET
-description: Revision свойство. Получает непосредственный родительский стиль владелец этой ревизии. Это свойство будет работать только дляStyleDefinitionChange тип редакции.
+linktitle: ParentStyle
+articleTitle: ParentStyle
+second_title: Aspose.Words для .NET
+description: Revision ParentStyle свойство. Получает непосредственный родительский стиль владелец этой ревизии. Это свойство будет работать только дляStyleDefinitionChange тип редакции на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words/revision/parentstyle/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words/revision/parentstyle/
 public Style ParentStyle { get; }
 ```
 
-### Примечания
+## Примечания
 
 Если эта редакция относится к изменениям в узлах документа, используйте[`ParentNode`](../parentnode/) вместо этого.
 
-### Примеры
+## Примеры
 
 Показывает, как работать с коллекцией редакций документа.
 
@@ -75,7 +77,5 @@ Assert.AreEqual(0, revisions.Count);
 
 * class [Style](../../style/)
 * class [Revision](../)
-* пространство имен [Aspose.Words](../../revision/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

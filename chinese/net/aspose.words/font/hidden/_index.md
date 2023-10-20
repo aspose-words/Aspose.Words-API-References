@@ -1,7 +1,9 @@
 ---
 title: Font.Hidden
-second_title: Aspose.Words for .NET API 参考
-description: Font 财产. 如果字体格式为隐藏文本则为 True
+linktitle: Hidden
+articleTitle: Hidden
+second_title: 用于 .NET 的 Aspose.Words
+description: Font Hidden 财产. 如果字体格式为隐藏文本则为 True 在 C#.
 type: docs
 weight: 140
 url: /zh/net/aspose.words/font/hidden/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/font/hidden/
 public bool Hidden { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何创建一系列隐藏文本。
 
@@ -229,7 +231,5 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
 ### 也可以看看
 
 * class [Font](../)
-* 命名空间 [Aspose.Words](../../font/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

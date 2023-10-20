@@ -1,7 +1,9 @@
 ---
-title: Enum GeneralFormat
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Fields.GeneralFormat enum. Specifica un formato generale applicato a un risultato numerico di testo o a qualsiasi campo. Un campo può avere una combinazione di formati generali.
+title: GeneralFormat Enum
+linktitle: GeneralFormat
+articleTitle: GeneralFormat
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Fields.GeneralFormat enum. Specifica un formato generale applicato a un risultato numerico di testo o a qualsiasi campo. Un campo può avere una combinazione di formati generali in C#.
 type: docs
 weight: 2640
 url: /it/net/aspose.words.fields/generalformat/
@@ -75,7 +77,7 @@ public enum GeneralFormat
 | MergeFormat | `54` | Formattazione dei risultati del campo. L'istruzione MERGEFORMAT. |
 | MergeFormatInet | `55` | Formattazione dei risultati del campo. L'istruzione MERGEFORMATINET. |
 
-### Esempi
+## Esempi
 
 Mostra come formattare i risultati dei campi.
 
@@ -140,5 +142,3 @@ Assert.AreEqual(0, format.GeneralFormats.Count);
 
 * spazio dei nomi [Aspose.Words.Fields](../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../)
-
-

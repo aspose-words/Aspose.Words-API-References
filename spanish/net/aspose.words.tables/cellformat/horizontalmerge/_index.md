@@ -1,9 +1,11 @@
 ---
 title: CellFormat.HorizontalMerge
-second_title: Referencia de API de Aspose.Words para .NET
-description: CellFormat propiedad. Especifica cómo se fusiona la celda horizontalmente con otras celdas de la fila.
+linktitle: HorizontalMerge
+articleTitle: HorizontalMerge
+second_title: Aspose.Words para .NET
+description: CellFormat HorizontalMerge propiedad. Especifica cómo se fusiona la celda horizontalmente con otras celdas de la fila en C#.
 type: docs
-weight: 50
+weight: 40
 url: /es/net/aspose.words.tables/cellformat/horizontalmerge/
 ---
 ## CellFormat.HorizontalMerge property
@@ -14,7 +16,7 @@ Especifica cómo se fusiona la celda horizontalmente con otras celdas de la fila
 public CellMerge HorizontalMerge { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo fusionar celdas de tablas horizontalmente.
 
@@ -80,7 +82,5 @@ public string PrintCellMergeType(Cell cell)
 * property [VerticalMerge](../verticalmerge/)
 * enum [CellMerge](../../cellmerge/)
 * class [CellFormat](../)
-* espacio de nombres [Aspose.Words.Tables](../../cellformat/)
+* espacio de nombres [Aspose.Words.Tables](../../../aspose.words.tables/)
 * asamblea [Aspose.Words](../../../)
-
-

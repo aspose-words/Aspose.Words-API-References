@@ -1,7 +1,9 @@
 ---
 title: Field.Separator
-second_title: Справочник по API Aspose.Words для .NET
-description: Field свойство. Получает узел представляющий разделитель полей. Возможнонулевой .
+linktitle: Separator
+articleTitle: Separator
+second_title: Aspose.Words для .NET
+description: Field Separator свойство. Получает узел представляющий разделитель полей. Возможнонулевой  на С#.
 type: docs
 weight: 80
 url: /ru/net/aspose.words.fields/field/separator/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/field/separator/
 public FieldSeparator Separator { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как работать с коллекцией полей.
 
@@ -118,7 +120,5 @@ public class FieldVisitor : DocumentVisitor
 
 * class [FieldSeparator](../../fieldseparator/)
 * class [Field](../)
-* пространство имен [Aspose.Words.Fields](../../field/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

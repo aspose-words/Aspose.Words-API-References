@@ -1,7 +1,9 @@
 ---
 title: ResourceLoadingArgs.ResourceType
-second_title: Aspose.Words för .NET API Referens
-description: ResourceLoadingArgs fast egendom. Typ av resurs.
+linktitle: ResourceType
+articleTitle: ResourceType
+second_title: Aspose.Words för .NET
+description: ResourceLoadingArgs ResourceType fast egendom. Typ av resurs i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.loading/resourceloadingargs/resourcetype/
@@ -14,7 +16,7 @@ Typ av resurs.
 public ResourceType ResourceType { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man anpassar processen för att ladda externa resurser i ett dokument.
 
@@ -78,7 +80,5 @@ private class ImageNameHandler : IResourceLoadingCallback
 
 * enum [ResourceType](../../resourcetype/)
 * class [ResourceLoadingArgs](../)
-* namnutrymme [Aspose.Words.Loading](../../resourceloadingargs/)
+* namnutrymme [Aspose.Words.Loading](../../../aspose.words.loading/)
 * hopsättning [Aspose.Words](../../../)
-
-

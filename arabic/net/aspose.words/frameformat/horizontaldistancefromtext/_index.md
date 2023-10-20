@@ -1,7 +1,9 @@
 ---
 title: FrameFormat.HorizontalDistanceFromText
-second_title: Aspose.Words لمراجع .NET API
-description: FrameFormat ملكية. يحصل على المسافة الأفقية بين الإطار والنص المحيط بالنقاط.
+linktitle: HorizontalDistanceFromText
+articleTitle: HorizontalDistanceFromText
+second_title: Aspose.Words لـ .NET
+description: FrameFormat HorizontalDistanceFromText ملكية. يحصل على المسافة الأفقية بين الإطار والنص المحيط بالنقاط في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words/frameformat/horizontaldistancefromtext/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/frameformat/horizontaldistancefromtext/
 public double HorizontalDistanceFromText { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الحصول على معلومات حول خصائص تنسيق الفقرات التي تكون إطارات.
 
@@ -39,7 +41,5 @@ Assert.AreEqual(0.0d, paragraphFrame.FrameFormat.VerticalDistanceFromText);
 ### أنظر أيضا
 
 * class [FrameFormat](../)
-* مساحة الاسم [Aspose.Words](../../frameformat/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

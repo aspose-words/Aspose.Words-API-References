@@ -1,7 +1,9 @@
 ---
-title: Footnote.Footnote
-second_title: Aspose.Words لمراجع .NET API
-description: Footnote البناء. تهيئة مثيل لـFootnote فئة.
+title: Footnote
+linktitle: Footnote
+articleTitle: Footnote
+second_title: Aspose.Words لـ .NET
+description: Footnote البناء. تهيئة مثيل لـFootnote فئة في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.notes/footnote/footnote/
@@ -19,13 +21,13 @@ public Footnote(DocumentBase doc, FootnoteType footnoteType)
 | doc | DocumentBase | وثيقة المالك. |
 | footnoteType | FootnoteType | أ[`FootnoteType`](../footnotetype/) value الذي يحدد ما إذا كانت هذه حاشية سفلية أو تعليق ختامي. |
 
-### ملاحظات
+## ملاحظات
 
 متى[`Footnote`](../) تم إنشاؤه، فهو ينتمي إلى المستند المحدد، ولكنه ليس بعد جزءًا من المستند و[`ParentNode`](../../../aspose.words/node/parentnode/) يكون`باطل`.
 
-لإلحاق[`Footnote`](../) لاستخدام الوثيقةNode) أوNode) في الفقرة التي تريد إدراج الحاشية السفلية فيها.
+لإلحاق[`Footnote`](../) لاستخدام الوثيقة[`InsertAfter`](../../../aspose.words/compositenode/insertafter/) أو[`InsertBefore`](../../../aspose.words/compositenode/insertbefore/) في الفقرة التي تريد إدراج الحاشية السفلية فيها.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج الحواشي السفلية وتخصيصها.
 
@@ -75,7 +77,5 @@ doc.Save(ArtifactsDir + "InlineStory.AddFootnote.docx");
 * class [DocumentBase](../../../aspose.words/documentbase/)
 * enum [FootnoteType](../../footnotetype/)
 * class [Footnote](../)
-* مساحة الاسم [Aspose.Words.Notes](../../footnote/)
+* مساحة الاسم [Aspose.Words.Notes](../../../aspose.words.notes/)
 * المجسم [Aspose.Words](../../../)
-
-

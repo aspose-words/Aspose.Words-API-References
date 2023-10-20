@@ -1,7 +1,9 @@
 ---
 title: Forms2OleControl.Type
-second_title: Aspose.Words für .NET-API-Referenz
-description: Forms2OleControl eigendom. Ruft den Typ des Forms 2.0Steuerelements ab.
+linktitle: Type
+articleTitle: Type
+second_title: Aspose.Words für .NET
+description: Forms2OleControl Type eigendom. Ruft den Typ des Forms 2.0Steuerelements ab in C#.
 type: docs
 weight: 50
 url: /de/net/aspose.words.drawing.ole/forms2olecontrol/type/
@@ -14,7 +16,7 @@ Ruft den Typ des Forms 2.0-Steuerelements ab.
 public abstract Forms2OleControlType Type { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Eigenschaften eines ActiveX-Steuerelements überprüft werden.
 
@@ -45,7 +47,5 @@ if (oleControl.IsForms2OleControl)
 
 * enum [Forms2OleControlType](../../forms2olecontroltype/)
 * class [Forms2OleControl](../)
-* namensraum [Aspose.Words.Drawing.Ole](../../forms2olecontrol/)
+* namensraum [Aspose.Words.Drawing.Ole](../../../aspose.words.drawing.ole/)
 * Montage [Aspose.Words](../../../)
-
-

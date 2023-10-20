@@ -1,7 +1,9 @@
 ---
 title: CssSavingArgs.CssStream
-second_title: Aspose.Words لمراجع .NET API
-description: CssSavingArgs ملكية. يسمح بتحديد الدفق الذي سيتم حفظ معلومات CSS فيه.
+linktitle: CssStream
+articleTitle: CssStream
+second_title: Aspose.Words لـ .NET
+description: CssSavingArgs CssStream ملكية. يسمح بتحديد الدفق الذي سيتم حفظ معلومات CSS فيه في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.saving/csssavingargs/cssstream/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.saving/csssavingargs/cssstream/
 public Stream CssStream { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 تسمح لك هذه الخاصية بحفظ معلومات CSS في التدفق.
 
@@ -22,7 +24,7 @@ public Stream CssStream { get; set; }
 
 استخدام[`ICssSavingCallback`](../../icsssavingcallback/) لا يمكنك استبدال CSS بـ آخر. الغرض منه هو حفظ CSS في الدفق فقط.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع أوراق أنماط CSS التي ينشئها تحويل HTML.
 
@@ -83,7 +85,5 @@ private class CustomCssSavingCallback : ICssSavingCallback
 ### أنظر أيضا
 
 * class [CssSavingArgs](../)
-* مساحة الاسم [Aspose.Words.Saving](../../csssavingargs/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

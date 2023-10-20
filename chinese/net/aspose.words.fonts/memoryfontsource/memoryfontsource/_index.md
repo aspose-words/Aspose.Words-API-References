@@ -1,12 +1,14 @@
 ---
-title: MemoryFontSource.MemoryFontSource
-second_title: Aspose.Words for .NET API 参考
-description: MemoryFontSource 构造函数. 向量.
+title: MemoryFontSource
+linktitle: MemoryFontSource
+articleTitle: MemoryFontSource
+second_title: 用于 .NET 的 Aspose.Words
+description: MemoryFontSource 构造函数. 向量 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.fonts/memoryfontsource/memoryfontsource/
 ---
-## MemoryFontSource(byte[]) {#constructor}
+## MemoryFontSource(*byte[]*) {#constructor}
 
 向量.
 
@@ -18,7 +20,7 @@ public MemoryFontSource(byte[] fontData)
 | --- | --- | --- |
 | fontData | Byte[] | 二进制字体数据。 |
 
-### 例子
+## 例子
 
 演示如何使用字节数组和字体文件中的数据作为字体源。
 
@@ -37,12 +39,12 @@ Assert.AreEqual(0, memoryFontSource.Priority);
 ### 也可以看看
 
 * class [MemoryFontSource](../)
-* 命名空间 [Aspose.Words.Fonts](../../memoryfontsource/)
+* 命名空间 [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## MemoryFontSource(byte[], int) {#constructor_1}
+## MemoryFontSource(*byte[], int*) {#constructor_1}
 
 向量.
 
@@ -55,7 +57,7 @@ public MemoryFontSource(byte[] fontData, int priority)
 | fontData | Byte[] | 二进制字体数据。 |
 | priority | Int32 | 字体来源优先。请参阅[`Priority`](../../fontsourcebase/priority/)属性描述以获取更多信息。 |
 
-### 例子
+## 例子
 
 演示如何使用字节数组和字体文件中的数据作为字体源。
 
@@ -74,12 +76,12 @@ Assert.AreEqual(0, memoryFontSource.Priority);
 ### 也可以看看
 
 * class [MemoryFontSource](../)
-* 命名空间 [Aspose.Words.Fonts](../../memoryfontsource/)
+* 命名空间 [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## MemoryFontSource(byte[], int, string) {#constructor_2}
+## MemoryFontSource(*byte[], int, string*) {#constructor_2}
 
 向量.
 
@@ -93,7 +95,7 @@ public MemoryFontSource(byte[] fontData, int priority, string cacheKey)
 | priority | Int32 | 字体来源优先。请参阅[`Priority`](../../fontsourcebase/priority/)属性描述以获取更多信息。 |
 | cacheKey | String | 缓存中该源的键。看[`CacheKey`](../cachekey/)属性描述以获取更多信息。 |
 
-### 例子
+## 例子
 
 展示如何加快字体缓存初始化过程。
 
@@ -144,7 +146,5 @@ private class SearchCacheStream : StreamFontSource
 ### 也可以看看
 
 * class [MemoryFontSource](../)
-* 命名空间 [Aspose.Words.Fonts](../../memoryfontsource/)
+* 命名空间 [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * 部件 [Aspose.Words](../../../)
-
-

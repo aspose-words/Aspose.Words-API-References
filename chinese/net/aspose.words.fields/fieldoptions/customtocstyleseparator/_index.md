@@ -1,7 +1,9 @@
 ---
 title: FieldOptions.CustomTocStyleSeparator
-second_title: Aspose.Words for .NET API 参考
-description: FieldOptions 财产. 获取或设置 t 开关的自定义样式分隔符FieldToc字段.
+linktitle: CustomTocStyleSeparator
+articleTitle: CustomTocStyleSeparator
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldOptions CustomTocStyleSeparator 财产. 获取或设置 t 开关的自定义样式分隔符FieldToc字段 在 C#.
 type: docs
 weight: 60
 url: /zh/net/aspose.words.fields/fieldoptions/customtocstyleseparator/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.fields/fieldoptions/customtocstyleseparator/
 public string CustomTocStyleSeparator { get; set; }
 ```
 
-### 评论
+## 评论
 
 默认情况下，由 \t 开关定义的自定义样式[`FieldToc`](../../fieldtoc/)字段由取自当前区域性的分隔符分隔。 此属性通过指定用户定义的分隔符来覆盖该行为。
 
-### 例子
+## 例子
 
 演示如何插入目录，并使用基于标题样式的条目填充它。
 
@@ -103,7 +105,5 @@ public void InsertNewPageWithHeading(DocumentBuilder builder, string captionText
 ### 也可以看看
 
 * class [FieldOptions](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldoptions/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

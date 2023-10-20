@@ -1,7 +1,9 @@
 ---
-title: Class OdsoFieldMapDataCollection
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Settings.OdsoFieldMapDataCollection فصل. مجموعة مكتوبة منOdsoFieldMapData الكائنات.
+title: OdsoFieldMapDataCollection Class
+linktitle: OdsoFieldMapDataCollection
+articleTitle: OdsoFieldMapDataCollection
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Settings.OdsoFieldMapDataCollection فصل. مجموعة مكتوبة منOdsoFieldMapData الكائنات في C#.
 type: docs
 weight: 5910
 url: /ar/net/aspose.words.settings/odsofieldmapdatacollection/
@@ -33,12 +35,12 @@ public class OdsoFieldMapDataCollection : IEnumerable<OdsoFieldMapData>
 
 | اسم | وصف |
 | --- | --- |
-| [Add](../../aspose.words.settings/odsofieldmapdatacollection/add/)(OdsoFieldMapData) | إضافة كائن إلى نهاية هذه المجموعة. |
+| [Add](../../aspose.words.settings/odsofieldmapdatacollection/add/)(*[OdsoFieldMapData](../odsofieldmapdata/)*) | إضافة كائن إلى نهاية هذه المجموعة. |
 | [Clear](../../aspose.words.settings/odsofieldmapdatacollection/clear/)() | إزالة كافة العناصر من هذه المجموعة. |
 | [GetEnumerator](../../aspose.words.settings/odsofieldmapdatacollection/getenumerator/)() | إرجاع كائن العداد الذي يمكن استخدامه للتكرار على كافة العناصر الموجودة في المجموعة. |
-| [RemoveAt](../../aspose.words.settings/odsofieldmapdatacollection/removeat/)(int) | إزالة العنصر الموجود في الفهرس المحدد. |
+| [RemoveAt](../../aspose.words.settings/odsofieldmapdatacollection/removeat/)(*int*) | إزالة العنصر الموجود في الفهرس المحدد. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الوصول إلى مجموعة البيانات التي تقوم بتعيين أعمدة مصدر البيانات لدمج الحقول.
 
@@ -84,5 +86,3 @@ Assert.AreEqual(0, dataCollection.Count);
 * property [FieldMapDatas](../odso/fieldmapdatas/)
 * مساحة الاسم [Aspose.Words.Settings](../../aspose.words.settings/)
 * المجسم [Aspose.Words](../../)
-
-

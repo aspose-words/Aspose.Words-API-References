@@ -1,7 +1,9 @@
 ---
 title: BookmarkCollection.Clear
-second_title: Aspose.Words for .NET API 参考
-description: BookmarkCollection 方法. 从此集合和文档中删除所有书签
+linktitle: Clear
+articleTitle: Clear
+second_title: 用于 .NET 的 Aspose.Words
+description: BookmarkCollection Clear 方法. 从此集合和文档中删除所有书签 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words/bookmarkcollection/clear/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/bookmarkcollection/clear/
 public void Clear()
 ```
 
-### 例子
+## 例子
 
 演示如何从文档中删除书签。
 
@@ -75,7 +77,5 @@ Assert.AreEqual("Text inside MyBookmark_1.\r" +
 ### 也可以看看
 
 * class [BookmarkCollection](../)
-* 命名空间 [Aspose.Words](../../bookmarkcollection/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

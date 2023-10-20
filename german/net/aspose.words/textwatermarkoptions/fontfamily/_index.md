@@ -1,7 +1,9 @@
 ---
 title: TextWatermarkOptions.FontFamily
-second_title: Aspose.Words für .NET-API-Referenz
-description: TextWatermarkOptions eigendom. Ruft den Namen der Schriftartfamilie ab oder legt diesen fest. Der Standardwert ist Calibri.
+linktitle: FontFamily
+articleTitle: FontFamily
+second_title: Aspose.Words für .NET
+description: TextWatermarkOptions FontFamily eigendom. Ruft den Namen der Schriftartfamilie ab oder legt diesen fest. Der Standardwert ist Calibri in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words/textwatermarkoptions/fontfamily/
@@ -14,7 +16,7 @@ Ruft den Namen der Schriftartfamilie ab oder legt diesen fest. Der Standardwert 
 public string FontFamily { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man ein Textwasserzeichen erstellt.
 
@@ -45,7 +47,5 @@ if (doc.Watermark.Type == WatermarkType.Text)
 ### Siehe auch
 
 * class [TextWatermarkOptions](../)
-* namensraum [Aspose.Words](../../textwatermarkoptions/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

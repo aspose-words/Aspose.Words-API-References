@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.WPJustification
-second_title: Справочник по API Aspose.Words для .NET
-description: CompatibilityOptions свойство. Эмуляция выравнивания абзаца WordPerfect 6.x.
+linktitle: WPJustification
+articleTitle: WPJustification
+second_title: Aspose.Words для .NET
+description: CompatibilityOptions WPJustification свойство. Эмуляция выравнивания абзаца WordPerfect 6.x на С#.
 type: docs
 weight: 690
 url: /ru/net/aspose.words.settings/compatibilityoptions/wpjustification/
@@ -17,7 +19,5 @@ public bool WPJustification { get; set; }
 ### Смотрите также
 
 * class [CompatibilityOptions](../)
-* пространство имен [Aspose.Words.Settings](../../compatibilityoptions/)
+* пространство имен [Aspose.Words.Settings](../../../aspose.words.settings/)
 * сборка [Aspose.Words](../../../)
-
-

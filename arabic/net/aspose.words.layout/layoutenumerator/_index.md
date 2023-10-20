@@ -1,7 +1,9 @@
 ---
-title: Class LayoutEnumerator
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Layout.LayoutEnumerator فصل. تعداد كيانات تخطيط الصفحة الخاصة بالمستند. يمكنك استخدام هذه الفئة للتجول في نموذج تخطيط الصفحة. الخصائص المتاحة هي النوع والهندسة والنص وفهرس الصفحة حيث يتم عرض الكيان بالإضافة إلى البنية والعلاقات العامة. استخدم مجموعة منGetEntity وCurrent انتقل إلى الكيان الذي يتوافق مع عقدة المستند.
+title: LayoutEnumerator Class
+linktitle: LayoutEnumerator
+articleTitle: LayoutEnumerator
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Layout.LayoutEnumerator فصل. تعداد كيانات تخطيط الصفحة الخاصة بالمستند. يمكنك استخدام هذه الفئة للتجول في نموذج تخطيط الصفحة. الخصائص المتاحة هي النوع والهندسة والنص وفهرس الصفحة حيث يتم عرض الكيان بالإضافة إلى البنية والعلاقات العامة. استخدم مجموعة منGetEntity وCurrent انتقل إلى الكيان الذي يتوافق مع عقدة المستند في C#.
 type: docs
 weight: 3340
 url: /ar/net/aspose.words.layout/layoutenumerator/
@@ -20,7 +22,7 @@ public class LayoutEnumerator
 
 | اسم | وصف |
 | --- | --- |
-| [LayoutEnumerator](layoutenumerator/)(Document) | تهيئة المثيل الجديد لهذه الفئة. |
+| [LayoutEnumerator](layoutenumerator/)(*[Document](../../aspose.words/document/)*) | تهيئة المثيل الجديد لهذه الفئة. |
 
 ## الخصائص
 
@@ -44,12 +46,12 @@ public class LayoutEnumerator
 | [MoveNext](../../aspose.words.layout/layoutenumerator/movenext/)() | ينتقل إلى الكيان الشقيق التالي بالترتيب المرئي. عند تكرار أسطر فقرة متقطعة عبر الصفحات، لن تنتقل هذه الطريقة إلى الصفحة التالية بل ستنتقل إلى الكيان التالي في نفس الصفحة. |
 | [MoveNextLogical](../../aspose.words.layout/layoutenumerator/movenextlogical/)() | ينتقل إلى الكيان الشقيق التالي بترتيب منطقي. عند تكرار أسطر فقرة متقطعة عبر الصفحات، ستنتقل هذه الطريقة إلى السطر التالي حتى لو كان موجودًا في صفحة أخرى. |
 | [MoveParent](../../aspose.words.layout/layoutenumerator/moveparent/#moveparent)() | ينتقل إلى الكيان الأصلي. |
-| [MoveParent](../../aspose.words.layout/layoutenumerator/moveparent/#moveparent_1)(LayoutEntityType) | للانتقال إلى الكيان الأصلي للنوع المحدد. |
+| [MoveParent](../../aspose.words.layout/layoutenumerator/moveparent/#moveparent_1)(*[LayoutEntityType](../layoutentitytype/)*) | للانتقال إلى الكيان الأصلي للنوع المحدد. |
 | [MovePrevious](../../aspose.words.layout/layoutenumerator/moveprevious/)() | ينتقل إلى الكيان الشقيق السابق. |
 | [MovePreviousLogical](../../aspose.words.layout/layoutenumerator/movepreviouslogical/)() | ينتقل إلى الكيان الشقيق السابق بترتيب منطقي. عند تكرار أسطر فقرة متقطعة عبر الصفحات، ستنتقل هذه الطريقة إلى السطر السابق حتى لو كان موجودًا في صفحة أخرى. |
 | [Reset](../../aspose.words.layout/layoutenumerator/reset/)() | ينقل العداد إلى الصفحة الأولى من المستند. |
 
-### أمثلة
+## أمثلة
 
 يُظهر طرق اجتياز كيانات تخطيط المستند.
 
@@ -195,5 +197,3 @@ private static void PrintCurrentEntity(LayoutEnumerator layoutEnumerator, int in
 
 * مساحة الاسم [Aspose.Words.Layout](../../aspose.words.layout/)
 * المجسم [Aspose.Words](../../)
-
-

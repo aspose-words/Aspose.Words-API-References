@@ -1,7 +1,9 @@
 ---
 title: CustomXmlSchemaCollection.IndexOf
-second_title: Aspose.Words per .NET API Reference
-description: CustomXmlSchemaCollection metodo. Restituisce lindice in base zero del valore specificato nella raccolta.
+linktitle: IndexOf
+articleTitle: IndexOf
+second_title: Aspose.Words per .NET
+description: CustomXmlSchemaCollection IndexOf metodo. Restituisce lindice in base zero del valore specificato nella raccolta in C#.
 type: docs
 weight: 70
 url: /it/net/aspose.words.markup/customxmlschemacollection/indexof/
@@ -22,7 +24,7 @@ public int IndexOf(string value)
 
 L'indice a base zero. Valore negativo se non trovato.
 
-### Esempi
+## Esempi
 
 Mostra come lavorare con una raccolta di schemi XML.
 
@@ -68,7 +70,5 @@ Assert.AreEqual(0, schemas.Count);
 ### Guarda anche
 
 * class [CustomXmlSchemaCollection](../)
-* spazio dei nomi [Aspose.Words.Markup](../../customxmlschemacollection/)
+* spazio dei nomi [Aspose.Words.Markup](../../../aspose.words.markup/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class Stroke
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Drawing.Stroke classe. Definisce un tratto per una forma.
+title: Stroke Class
+linktitle: Stroke
+articleTitle: Stroke
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Drawing.Stroke classe. Definisce un tratto per una forma in C#.
 type: docs
 weight: 1310
 url: /it/net/aspose.words.drawing/stroke/
@@ -21,7 +23,6 @@ public class Stroke
 | Nome | Descrizione |
 | --- | --- |
 | [BackColor](../../aspose.words.drawing/stroke/backcolor/) { get; set; } | Ottiene o imposta il colore di sfondo del tratto. |
-| [BaseForeColor](../../aspose.words.drawing/stroke/baseforecolor/) { get; } |  |
 | [Color](../../aspose.words.drawing/stroke/color/) { get; set; } | Definisce il colore di un tratto. |
 | [Color2](../../aspose.words.drawing/stroke/color2/) { get; set; } | Definisce un secondo colore per un tratto. |
 | [DashStyle](../../aspose.words.drawing/stroke/dashstyle/) { get; set; } | Specifica il motivo di punti e trattini per un tratto. |
@@ -43,11 +44,11 @@ public class Stroke
 | [Visible](../../aspose.words.drawing/stroke/visible/) { get; set; } | Ottiene o imposta un flag che indica se il tratto è visibile. |
 | [Weight](../../aspose.words.drawing/stroke/weight/) { get; set; } | Definisce lo spessore del pennello che traccia il percorso di una forma in punti. |
 
-### Osservazioni
+## Osservazioni
 
 Usa il[`Stroke`](../shape/stroke/) per accedere alle proprietà del tratto di una forma. Non crei istanze di`Stroke` classe direttamente.
 
-### Esempi
+## Esempi
 
 Mostra come modificare le proprietà del tratto.
 
@@ -81,5 +82,3 @@ doc.Save(ArtifactsDir + "Shape.Stroke.docx");
 
 * spazio dei nomi [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * assemblea [Aspose.Words](../../)
-
-

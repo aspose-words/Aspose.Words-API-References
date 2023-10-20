@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTagRangeStart.LastChild
-second_title: Aspose.Words لمراجع .NET API
-description: StructuredDocumentTagRangeStart ملكية. الحصول على الطفل الأخير في نطاق stdContent.
+linktitle: LastChild
+articleTitle: LastChild
+second_title: Aspose.Words لـ .NET
+description: StructuredDocumentTagRangeStart LastChild ملكية. الحصول على الطفل الأخير في نطاق stdContent في C#.
 type: docs
 weight: 60
 url: /ar/net/aspose.words.markup/structureddocumenttagrangestart/lastchild/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.markup/structureddocumenttagrangestart/lastchild/
 public Node LastChild { get; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 إذا لم تكن هناك عقدة تابعة أخيرة، أ`باطل` تم إرجاعها.
 
@@ -22,7 +24,5 @@ public Node LastChild { get; }
 
 * class [Node](../../../aspose.words/node/)
 * class [StructuredDocumentTagRangeStart](../)
-* مساحة الاسم [Aspose.Words.Markup](../../structureddocumenttagrangestart/)
+* مساحة الاسم [Aspose.Words.Markup](../../../aspose.words.markup/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Document.RemovePersonalInformation
-second_title: Aspose.Words for .NET API 参考
-description: Document 财产. 获取或设置一个标志指示 Microsoft Word 在保存文档时将从注释修订和 文档属性中删除所有用户信息
+linktitle: RemovePersonalInformation
+articleTitle: RemovePersonalInformation
+second_title: 用于 .NET 的 Aspose.Words
+description: Document RemovePersonalInformation 财产. 获取或设置一个标志指示 Microsoft Word 在保存文档时将从注释修订和 文档属性中删除所有用户信息 在 C#.
 type: docs
 weight: 340
 url: /zh/net/aspose.words/document/removepersonalinformation/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/document/removepersonalinformation/
 public bool RemovePersonalInformation { get; set; }
 ```
 
-### 例子
+## 例子
 
 展示如何在手动保存期间启用个人信息删除。
 
@@ -48,7 +50,5 @@ Assert.AreEqual("John Doe", doc.Revisions[0].Author);
 ### 也可以看看
 
 * class [Document](../)
-* 命名空间 [Aspose.Words](../../document/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: BaseWebExtensionCollection1.Count
-second_title: Aspose.Words per .NET API Reference
-description: BaseWebExtensionCollection proprietà. Ottiene il numero di elementi contenuti nella raccolta.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words per .NET
+description: BaseWebExtensionCollection Count proprietà. Ottiene il numero di elementi contenuti nella raccolta in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words.webextensions/basewebextensioncollection-1/count/
@@ -14,7 +16,7 @@ Ottiene il numero di elementi contenuti nella raccolta.
 public int Count { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come lavorare con la raccolta di estensioni web di un documento.
 
@@ -43,7 +45,5 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 ### Guarda anche
 
 * class [BaseWebExtensionCollection&lt;T&gt;](../)
-* spazio dei nomi [Aspose.Words.WebExtensions](../../basewebextensioncollection-1/)
+* spazio dei nomi [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * assemblea [Aspose.Words](../../../)
-
-

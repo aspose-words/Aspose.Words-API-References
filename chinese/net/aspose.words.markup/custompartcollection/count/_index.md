@@ -1,7 +1,9 @@
 ---
 title: CustomPartCollection.Count
-second_title: Aspose.Words for .NET API 参考
-description: CustomPartCollection 财产. 获取集合中包含的元素数量
+linktitle: Count
+articleTitle: Count
+second_title: 用于 .NET 的 Aspose.Words
+description: CustomPartCollection Count 财产. 获取集合中包含的元素数量 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.markup/custompartcollection/count/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.markup/custompartcollection/count/
 public int Count { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何访问文档的任意自定义部件集合。
 
@@ -58,7 +60,5 @@ Assert.AreEqual(0, doc.PackageCustomParts.Count);
 ### 也可以看看
 
 * class [CustomPartCollection](../)
-* 命名空间 [Aspose.Words.Markup](../../custompartcollection/)
+* 命名空间 [Aspose.Words.Markup](../../../aspose.words.markup/)
 * 部件 [Aspose.Words](../../../)
-
-

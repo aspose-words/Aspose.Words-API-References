@@ -1,7 +1,9 @@
 ---
 title: MailMergeSettings.LinkToQuery
-second_title: Aspose.Words لمراجع .NET API
-description: MailMergeSettings ملكية. لست متأكدًا من هذا. يشير مرجع Microsoft Word Automation إلى أن هذا يحدد تنفيذ الاستعلام في كل مرة يتم فيها فتح المستند في Microsoft Word. لكن مواصفات OOXML تشير إلى أن هذا يحدد أن الاستعلام يحتوي على مرجع لملف استعلام خارجي يحتوي على الاستعلام الفعلي. القيمة الافتراضية هيخطأ شنيع .
+linktitle: LinkToQuery
+articleTitle: LinkToQuery
+second_title: Aspose.Words لـ .NET
+description: MailMergeSettings LinkToQuery ملكية. لست متأكدًا من هذا. يشير مرجع Microsoft Word Automation إلى أن هذا يحدد تنفيذ الاستعلام في كل مرة يتم فيها فتح المستند في Microsoft Word. لكن مواصفات OOXML تشير إلى أن هذا يحدد أن الاستعلام يحتوي على مرجع لملف استعلام خارجي يحتوي على الاستعلام الفعلي. القيمة الافتراضية هيخطأ شنيع  في C#.
 type: docs
 weight: 110
 url: /ar/net/aspose.words.settings/mailmergesettings/linktoquery/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.settings/mailmergesettings/linktoquery/
 public bool LinkToQuery { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تنفيذ دمج البريد مع البيانات من كائن مصدر بيانات Office.
 
@@ -66,7 +68,5 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ### أنظر أيضا
 
 * class [MailMergeSettings](../)
-* مساحة الاسم [Aspose.Words.Settings](../../mailmergesettings/)
+* مساحة الاسم [Aspose.Words.Settings](../../../aspose.words.settings/)
 * المجسم [Aspose.Words](../../../)
-
-

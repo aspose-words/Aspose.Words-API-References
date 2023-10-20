@@ -1,7 +1,9 @@
 ---
 title: CustomXmlSchemaCollection.RemoveAt
-second_title: Справочник по API Aspose.Words для .NET
-description: CustomXmlSchemaCollection метод. Удаляет значение по указанному индексу.
+linktitle: RemoveAt
+articleTitle: RemoveAt
+second_title: Aspose.Words для .NET
+description: CustomXmlSchemaCollection RemoveAt метод. Удаляет значение по указанному индексу на С#.
 type: docs
 weight: 90
 url: /ru/net/aspose.words.markup/customxmlschemacollection/removeat/
@@ -18,7 +20,7 @@ public void RemoveAt(int index)
 | --- | --- | --- |
 | index | Int32 | Индекс, отсчитываемый от нуля. |
 
-### Примеры
+## Примеры
 
 Показывает, как работать с коллекцией схем XML.
 
@@ -64,7 +66,5 @@ Assert.AreEqual(0, schemas.Count);
 ### Смотрите также
 
 * class [CustomXmlSchemaCollection](../)
-* пространство имен [Aspose.Words.Markup](../../customxmlschemacollection/)
+* пространство имен [Aspose.Words.Markup](../../../aspose.words.markup/)
 * сборка [Aspose.Words](../../../)
-
-

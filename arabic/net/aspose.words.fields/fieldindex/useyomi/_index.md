@@ -1,7 +1,9 @@
 ---
 title: FieldIndex.UseYomi
-second_title: Aspose.Words لمراجع .NET API
-description: FieldIndex ملكية. الحصول على أو تعيين ما إذا كان سيتم تمكين استخدام نص yomi لإدخالات الفهرس.
+linktitle: UseYomi
+articleTitle: UseYomi
+second_title: Aspose.Words لـ .NET
+description: FieldIndex UseYomi ملكية. الحصول على أو تعيين ما إذا كان سيتم تمكين استخدام نص yomi لإدخالات الفهرس في C#.
 type: docs
 weight: 170
 url: /ar/net/aspose.words.fields/fieldindex/useyomi/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldindex/useyomi/
 public bool UseYomi { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية فرز إدخالات حقل INDEX صوتيًا.
 
@@ -73,7 +75,5 @@ doc.Save(ArtifactsDir + "Field.INDEX.XE.Yomi.docx");
 ### أنظر أيضا
 
 * class [FieldIndex](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldindex/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

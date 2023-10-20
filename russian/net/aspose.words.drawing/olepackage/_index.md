@@ -1,7 +1,9 @@
 ---
-title: Class OlePackage
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Drawing.OlePackage сорт. Разрешает доступ к свойствам пакета OLE.
+title: OlePackage Class
+linktitle: OlePackage
+articleTitle: OlePackage
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Drawing.OlePackage сорт. Разрешает доступ к свойствам пакета OLE на С#.
 type: docs
 weight: 1160
 url: /ru/net/aspose.words.drawing/olepackage/
@@ -23,11 +25,11 @@ public class OlePackage
 | [DisplayName](../../aspose.words.drawing/olepackage/displayname/) { get; set; } | Получает или задает отображаемое имя пакета OLE. |
 | [FileName](../../aspose.words.drawing/olepackage/filename/) { get; set; } | Получает или задает имя файла пакета OLE. |
 
-### Примечания
+## Примечания
 
 Пакет OLE — это устаревший и «недокументированный» способ хранения встроенного объекта, если обработчик OLE неизвестен. Ранние версии Windows, такие как Windows 3.1, 95 и 98, имели приложение Packager.exe, которое можно было использовать для встраивания данных любого типа в документ. . Теперь это приложение исключено из Windows, но MS Word и другие приложения по-прежнему используют его для встраивания данных, если обработчик OLE отсутствует или неизвестен.
 
-### Примеры
+## Примеры
 
 Показывает, как вставить объект OLE в документ.
 
@@ -55,5 +57,3 @@ doc.Save(ArtifactsDir + "Shape.InsertOlePackage.docx");
 
 * пространство имен [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../)
-
-

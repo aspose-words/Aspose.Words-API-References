@@ -1,7 +1,9 @@
 ---
 title: PhysicalFontInfo.Version
-second_title: Referencia de API de Aspose.Words para .NET
-description: PhysicalFontInfo propiedad. Cadena de versión de la fuente.
+linktitle: Version
+articleTitle: Version
+second_title: Aspose.Words para .NET
+description: PhysicalFontInfo Version propiedad. Cadena de versión de la fuente en C#.
 type: docs
 weight: 40
 url: /es/net/aspose.words.fonts/physicalfontinfo/version/
@@ -14,7 +16,7 @@ Cadena de versión de la fuente.
 public string Version { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo enumerar las fuentes disponibles.
 
@@ -34,7 +36,5 @@ foreach (PhysicalFontInfo fontInfo in folderFontSource[0].GetAvailableFonts())
 ### Ver también
 
 * class [PhysicalFontInfo](../)
-* espacio de nombres [Aspose.Words.Fonts](../../physicalfontinfo/)
+* espacio de nombres [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * asamblea [Aspose.Words](../../../)
-
-

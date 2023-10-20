@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.BalanceSingleByteDoubleByteWidth
-second_title: Aspose.Words per .NET API Reference
-description: CompatibilityOptions proprietà. Bilancia i caratteri a byte singolo e a byte doppio.
+linktitle: BalanceSingleByteDoubleByteWidth
+articleTitle: BalanceSingleByteDoubleByteWidth
+second_title: Aspose.Words per .NET
+description: CompatibilityOptions BalanceSingleByteDoubleByteWidth proprietà. Bilancia i caratteri a byte singolo e a byte doppio in C#.
 type: docs
 weight: 70
 url: /it/net/aspose.words.settings/compatibilityoptions/balancesinglebytedoublebytewidth/
@@ -17,7 +19,5 @@ public bool BalanceSingleByteDoubleByteWidth { get; set; }
 ### Guarda anche
 
 * class [CompatibilityOptions](../)
-* spazio dei nomi [Aspose.Words.Settings](../../compatibilityoptions/)
+* spazio dei nomi [Aspose.Words.Settings](../../../aspose.words.settings/)
 * assemblea [Aspose.Words](../../../)
-
-

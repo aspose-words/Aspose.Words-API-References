@@ -1,7 +1,9 @@
 ---
-title: Class HorizontalRuleFormat
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Drawing.HorizontalRuleFormat فصل. يمثل تنسيق القاعدة الأفقي.
+title: HorizontalRuleFormat Class
+linktitle: HorizontalRuleFormat
+articleTitle: HorizontalRuleFormat
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Drawing.HorizontalRuleFormat فصل. يمثل تنسيق القاعدة الأفقي في C#.
 type: docs
 weight: 1050
 url: /ar/net/aspose.words.drawing/horizontalruleformat/
@@ -26,7 +28,7 @@ public class HorizontalRuleFormat
 | [NoShade](../../aspose.words.drawing/horizontalruleformat/noshade/) { get; set; } | يشير إلى وجود تظليل ثلاثي الأبعاد للقاعدة الأفقية. إذا`حقيقي`، ثم تكون القاعدة الأفقية بدون تظليل ثلاثي الأبعاد ويتم استخدام اللون الصلب. |
 | [WidthPercent](../../aspose.words.drawing/horizontalruleformat/widthpercent/) { get; set; } | الحصول على أو تعيين طول القاعدة الأفقية المحددة معبرًا عنها كنسبة مئوية من عرض النافذة. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج شكل قاعدة أفقية، وتخصيص تنسيقه.
 
@@ -50,5 +52,3 @@ Assert.True(shape.HorizontalRuleFormat.NoShade);
 
 * مساحة الاسم [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class FrameFormat
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.FrameFormat 班级. 表示段落的框架相关格式
+title: FrameFormat Class
+linktitle: FrameFormat
+articleTitle: FrameFormat
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.FrameFormat 班级. 表示段落的框架相关格式 在 C#.
 type: docs
 weight: 3070
 url: /zh/net/aspose.words/frameformat/
@@ -31,13 +33,13 @@ public class FrameFormat
 | [VerticalPosition](../../aspose.words/frameformat/verticalposition/) { get; } | 获取框架边缘与指定项目之间的垂直距离[`RelativeVerticalPosition`](./relativeverticalposition/)属性. |
 | [Width](../../aspose.words/frameformat/width/) { get; } | 获取指定框架的宽度，以磅为单位。 |
 
-### 评论
+## 评论
 
 这个对象总是被创建的。如果段落是框架，则所有属性都将包含各自的值，否则 所有属性都将设置为其默认值。
 
 使用[`IsFrame`](./isframe/)检查段落是否为框架。
 
-### 例子
+## 例子
 
 演示如何获取有关框架段落的格式设置属性的信息。
 
@@ -63,5 +65,3 @@ Assert.AreEqual(0.0d, paragraphFrame.FrameFormat.VerticalDistanceFromText);
 
 * 命名空间 [Aspose.Words](../../aspose.words/)
 * 部件 [Aspose.Words](../../)
-
-

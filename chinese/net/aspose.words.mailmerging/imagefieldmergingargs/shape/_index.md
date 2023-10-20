@@ -1,7 +1,9 @@
 ---
 title: ImageFieldMergingArgs.Shape
-second_title: Aspose.Words for .NET API 参考
-description: ImageFieldMergingArgs 财产. 指定邮件合并引擎必须插入到文档中的形状
+linktitle: Shape
+articleTitle: Shape
+second_title: 用于 .NET 的 Aspose.Words
+description: ImageFieldMergingArgs Shape 财产. 指定邮件合并引擎必须插入到文档中的形状 在 C#.
 type: docs
 weight: 60
 url: /zh/net/aspose.words.mailmerging/imagefieldmergingargs/shape/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.mailmerging/imagefieldmergingargs/shape/
 public Shape Shape { get; set; }
 ```
 
-### 评论
+## 评论
 
 指定此属性后，邮件合并引擎将忽略所有其他属性，例如[`ImageFileName`](../imagefilename/)或者[`ImageStream`](../imagestream/) 并简单地将形状插入到文档中。
 
@@ -24,7 +26,5 @@ public Shape Shape { get; set; }
 
 * class [Shape](../../../aspose.words.drawing/shape/)
 * class [ImageFieldMergingArgs](../)
-* 命名空间 [Aspose.Words.MailMerging](../../imagefieldmergingargs/)
+* 命名空间 [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * 部件 [Aspose.Words](../../../)
-
-

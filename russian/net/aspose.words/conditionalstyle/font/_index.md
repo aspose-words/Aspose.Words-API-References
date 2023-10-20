@@ -1,7 +1,9 @@
 ---
 title: ConditionalStyle.Font
-second_title: Справочник по API Aspose.Words для .NET
-description: ConditionalStyle свойство. Получает форматирование символов условного стиля.
+linktitle: Font
+articleTitle: Font
+second_title: Aspose.Words для .NET
+description: ConditionalStyle Font свойство. Получает форматирование символов условного стиля на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words/conditionalstyle/font/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/conditionalstyle/font/
 public Font Font { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как работать с определенными стилями областей таблицы.
 
@@ -85,7 +87,5 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 
 * class [Font](../../font/)
 * class [ConditionalStyle](../)
-* пространство имен [Aspose.Words](../../conditionalstyle/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

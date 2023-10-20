@@ -1,7 +1,9 @@
 ---
 title: BuildingBlock.Guid
-second_title: Aspose.Words per .NET API Reference
-description: BuildingBlock proprietà. Ottiene o imposta un identificatore un GUID a 128 bit che identifica in modo univoco questo blocco predefinito.
+linktitle: Guid
+articleTitle: Guid
+second_title: Aspose.Words per .NET
+description: BuildingBlock Guid proprietà. Ottiene o imposta un identificatore un GUID a 128 bit che identifica in modo univoco questo blocco predefinito in C#.
 type: docs
 weight: 70
 url: /it/net/aspose.words.buildingblocks/buildingblock/guid/
@@ -14,13 +16,13 @@ Ottiene o imposta un identificatore (un GUID a 128 bit) che identifica in modo u
 public Guid Guid { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Può essere utilizzato da un'applicazione per fare riferimento in modo univoco a un blocco predefinito indipendentemente dalla denominazione diversa dovuta alla localizzazione.
 
-Corrisponde a **docPartPr.guid** elemento in OOXML.
+Corrisponde a**docPartPr.guid** elemento in OOXML.
 
-### Esempi
+## Esempi
 
 Mostra come aggiungere un blocco predefinito personalizzato a un documento.
 
@@ -117,7 +119,5 @@ public class BuildingBlockVisitor : DocumentVisitor
 ### Guarda anche
 
 * class [BuildingBlock](../)
-* spazio dei nomi [Aspose.Words.BuildingBlocks](../../buildingblock/)
+* spazio dei nomi [Aspose.Words.BuildingBlocks](../../../aspose.words.buildingblocks/)
 * assemblea [Aspose.Words](../../../)
-
-

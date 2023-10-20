@@ -1,7 +1,9 @@
 ---
 title: BasicTextShaperCache.Dispose
-second_title: Aspose.Words för .NET API Referens
-description: BasicTextShaperCache metod. Kastar cachadITextShaper instanser.
+linktitle: Dispose
+articleTitle: Dispose
+second_title: Aspose.Words för .NET
+description: BasicTextShaperCache Dispose metod. Kastar cachadITextShaper instanser i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.shaping/basictextshapercache/dispose/
@@ -17,7 +19,5 @@ public void Dispose()
 ### Se även
 
 * class [BasicTextShaperCache](../)
-* namnutrymme [Aspose.Words.Shaping](../../basictextshapercache/)
+* namnutrymme [Aspose.Words.Shaping](../../../aspose.words.shaping/)
 * hopsättning [Aspose.Words](../../../)
-
-

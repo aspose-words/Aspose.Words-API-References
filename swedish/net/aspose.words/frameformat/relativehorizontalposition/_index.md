@@ -1,7 +1,9 @@
 ---
 title: FrameFormat.RelativeHorizontalPosition
-second_title: Aspose.Words för .NET API Referens
-description: FrameFormat fast egendom. Får den relativa horisontella positionen för en ram.
+linktitle: RelativeHorizontalPosition
+articleTitle: RelativeHorizontalPosition
+second_title: Aspose.Words för .NET
+description: FrameFormat RelativeHorizontalPosition fast egendom. Får den relativa horisontella positionen för en ram i C#.
 type: docs
 weight: 70
 url: /sv/net/aspose.words/frameformat/relativehorizontalposition/
@@ -14,7 +16,7 @@ Får den relativa horisontella positionen för en ram.
 public RelativeHorizontalPosition RelativeHorizontalPosition { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man får information om formateringsegenskaper för stycken som är ramar.
 
@@ -40,7 +42,5 @@ Assert.AreEqual(0.0d, paragraphFrame.FrameFormat.VerticalDistanceFromText);
 
 * enum [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/)
 * class [FrameFormat](../)
-* namnutrymme [Aspose.Words](../../frameformat/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

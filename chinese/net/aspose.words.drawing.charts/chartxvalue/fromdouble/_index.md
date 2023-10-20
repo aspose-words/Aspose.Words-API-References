@@ -1,7 +1,9 @@
 ---
 title: ChartXValue.FromDouble
-second_title: Aspose.Words for .NET API 参考
-description: ChartXValue 方法. 创建一个ChartXValue的实例Double类型.
+linktitle: FromDouble
+articleTitle: FromDouble
+second_title: 用于 .NET 的 Aspose.Words
+description: ChartXValue FromDouble 方法. 创建一个ChartXValue的实例Double类型 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.drawing.charts/chartxvalue/fromdouble/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.drawing.charts/chartxvalue/fromdouble/
 public static ChartXValue FromDouble(double value)
 ```
 
-### 例子
+## 例子
 
 展示如何使用数据填充图表系列。
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "Charts.PopulateChartWithData.docx");
 ### 也可以看看
 
 * class [ChartXValue](../)
-* 命名空间 [Aspose.Words.Drawing.Charts](../../chartxvalue/)
+* 命名空间 [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * 部件 [Aspose.Words](../../../)
-
-

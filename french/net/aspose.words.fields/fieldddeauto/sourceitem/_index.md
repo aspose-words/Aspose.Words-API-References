@@ -1,7 +1,9 @@
 ---
 title: FieldDdeAuto.SourceItem
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldDdeAuto propriété. Obtient ou définit la partie du fichier source qui est liée.
+linktitle: SourceItem
+articleTitle: SourceItem
+second_title: Aspose.Words pour .NET
+description: FieldDdeAuto SourceItem propriété. Obtient ou définit la partie du fichier source qui est liée en C#.
 type: docs
 weight: 110
 url: /fr/net/aspose.words.fields/fieldddeauto/sourceitem/
@@ -14,7 +16,7 @@ Obtient ou définit la partie du fichier source qui est liée.
 public string SourceItem { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment utiliser différents types de champs pour créer des liens vers d’autres documents dans le système de fichiers local et afficher leur contenu.
 
@@ -197,7 +199,5 @@ public enum InsertLinkedObjectAs
 ### Voir également
 
 * class [FieldDdeAuto](../)
-* espace de noms [Aspose.Words.Fields](../../fieldddeauto/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

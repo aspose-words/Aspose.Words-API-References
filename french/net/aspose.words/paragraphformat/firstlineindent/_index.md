@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.FirstLineIndent
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ParagraphFormat propriété. Obtient ou définit la valeur en points dune première ligne ou dun retrait suspendu.
+linktitle: FirstLineIndent
+articleTitle: FirstLineIndent
+second_title: Aspose.Words pour .NET
+description: ParagraphFormat FirstLineIndent propriété. Obtient ou définit la valeur en points dune première ligne ou dun retrait suspendu en C#.
 type: docs
 weight: 120
 url: /fr/net/aspose.words/paragraphformat/firstlineindent/
@@ -16,7 +18,7 @@ Utilisez des valeurs positives pour définir le retrait de la première ligne et
 public double FirstLineIndent { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment insérer un paragraphe dans le document.
 
@@ -48,7 +50,5 @@ Assert.True(builder.CurrentParagraph.IsEndOfDocument);
 ### Voir également
 
 * class [ParagraphFormat](../)
-* espace de noms [Aspose.Words](../../paragraphformat/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

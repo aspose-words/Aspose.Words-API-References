@@ -1,7 +1,9 @@
 ---
-title: FieldFillIn.FieldFillIn
-second_title: Aspose.Words لمراجع .NET API
-description: FieldFillIn البناء. Default_Constructor
+title: FieldFillIn
+linktitle: FieldFillIn
+articleTitle: FieldFillIn
+second_title: Aspose.Words لـ .NET
+description: FieldFillIn البناء. Default_Constructor في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fields/fieldfillin/fieldfillin/
@@ -17,7 +19,5 @@ public FieldFillIn()
 ### أنظر أيضا
 
 * class [FieldFillIn](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldfillin/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: CustomXmlPartCollection.GetById
-second_title: Référence de l'API Aspose.Words pour .NET
-description: CustomXmlPartCollection méthode. Recherche et renvoie une partie XML personnalisée par son identifiant.
+linktitle: GetById
+articleTitle: GetById
+second_title: Aspose.Words pour .NET
+description: CustomXmlPartCollection GetById méthode. Recherche et renvoie une partie XML personnalisée par son identifiant en C#.
 type: docs
 weight: 70
 url: /fr/net/aspose.words.markup/customxmlpartcollection/getbyid/
@@ -22,7 +24,7 @@ public CustomXmlPart GetById(string id)
 
 Retour`nul` si une partie XML personnalisée avec l'identifiant spécifié n'est pas trouvée.
 
-### Exemples
+## Exemples
 
 Montre comment créer une balise de document structuré avec des données XML personnalisées.
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.CustomXml.docx");
 
 * class [CustomXmlPart](../../customxmlpart/)
 * class [CustomXmlPartCollection](../)
-* espace de noms [Aspose.Words.Markup](../../customxmlpartcollection/)
+* espace de noms [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Assemblée [Aspose.Words](../../../)
-
-

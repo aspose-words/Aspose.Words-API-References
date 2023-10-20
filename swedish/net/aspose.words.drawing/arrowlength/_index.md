@@ -1,7 +1,9 @@
 ---
-title: Enum ArrowLength
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Drawing.ArrowLength uppräkning. Längden på pilen i slutet av en rad.
+title: ArrowLength Enum
+linktitle: ArrowLength
+articleTitle: ArrowLength
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Drawing.ArrowLength uppräkning. Längden på pilen i slutet av en rad i C#.
 type: docs
 weight: 480
 url: /sv/net/aspose.words.drawing/arrowlength/
@@ -23,7 +25,7 @@ public enum ArrowLength
 | Long | `2` |  |
 | Default | `0` | Samma somShort . |
 
-### Exempel
+## Exempel
 
 Visar för att skapa en mängd olika former.
 
@@ -101,5 +103,3 @@ doc.Save(ArtifactsDir + "Drawing.VariousShapes.docx");
 * property [EndArrowLength](../stroke/endarrowlength/)
 * namnutrymme [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../)
-
-

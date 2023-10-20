@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitCommentEnd
-second_title: Aspose.Words for .NET API 参考
-description: DocumentVisitor 方法. 当注释文本枚举结束时调用
+linktitle: VisitCommentEnd
+articleTitle: VisitCommentEnd
+second_title: 用于 .NET 的 Aspose.Words
+description: DocumentVisitor VisitCommentEnd 方法. 当注释文本枚举结束时调用 在 C#.
 type: docs
 weight: 100
 url: /zh/net/aspose.words/documentvisitor/visitcommentend/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitCommentEnd(Comment comment)
 
 A[`VisitorAction`](../../visitoraction/)指定如何继续枚举的值。
 
-### 例子
+## 例子
 
 展示如何打印文档中每个注释和注释范围的节点结构。
 
@@ -143,7 +145,5 @@ public class CommentStructurePrinter : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [Comment](../../comment/)
 * class [DocumentVisitor](../)
-* 命名空间 [Aspose.Words](../../documentvisitor/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Cell.FirstParagraph
-second_title: Aspose.Words für .NET-API-Referenz
-description: Cell eigendom. Ruft den ersten Absatz unter den unmittelbar untergeordneten Elementen ab.
+linktitle: FirstParagraph
+articleTitle: FirstParagraph
+second_title: Aspose.Words für .NET
+description: Cell FirstParagraph eigendom. Ruft den ersten Absatz unter den unmittelbar untergeordneten Elementen ab in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.tables/cell/firstparagraph/
@@ -14,7 +16,7 @@ Ruft den ersten Absatz unter den unmittelbar untergeordneten Elementen ab.
 public Paragraph FirstParagraph { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man mit einem Document Builder eine verschachtelte Tabelle erstellt.
 
@@ -95,7 +97,5 @@ private static Table CreateTable(Document doc, int rowCount, int cellCount, stri
 
 * class [Paragraph](../../../aspose.words/paragraph/)
 * class [Cell](../)
-* namensraum [Aspose.Words.Tables](../../cell/)
+* namensraum [Aspose.Words.Tables](../../../aspose.words.tables/)
 * Montage [Aspose.Words](../../../)
-
-

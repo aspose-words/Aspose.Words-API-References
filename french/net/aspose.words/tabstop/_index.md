@@ -1,7 +1,9 @@
 ---
-title: Class TabStop
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.TabStop classe. Représente un seul taquet de tabulation personnalisé. LeTabStoplobjet est membre de the TabStopCollection collection.
+title: TabStop Class
+linktitle: TabStop
+articleTitle: TabStop
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.TabStop classe. Représente un seul taquet de tabulation personnalisé. LeTabStoplobjet est membre de the TabStopCollection collection en C#.
 type: docs
 weight: 6200
 url: /fr/net/aspose.words/tabstop/
@@ -20,8 +22,8 @@ public sealed class TabStop
 
 | Nom | La description |
 | --- | --- |
-| [TabStop](tabstop/#constructor)(double) | Initialise une nouvelle instance de cette classe. |
-| [TabStop](tabstop/#constructor_1)(double, TabAlignment, TabLeader) | Initialise une nouvelle instance de cette classe. |
+| [TabStop](tabstop/#constructor)(*double*) | Initialise une nouvelle instance de cette classe. |
+| [TabStop](tabstop/#constructor_1)(*double, [TabAlignment](../tabalignment/), [TabLeader](../tableader/)*) | Initialise une nouvelle instance de cette classe. |
 
 ## Propriétés
 
@@ -36,16 +38,16 @@ public sealed class TabStop
 
 | Nom | La description |
 | --- | --- |
-| [Equals](../../aspose.words/tabstop/equals/#equals)(TabStop) | Compare avec le spécifié`TabStop` . |
+| [Equals](../../aspose.words/tabstop/equals/#equals)(*TabStop*) | Compare avec le spécifié`TabStop` . |
 | override [GetHashCode](../../aspose.words/tabstop/gethashcode/)() | Calcule le code de hachage pour cet objet. |
 
-### Remarques
+## Remarques
 
 Normalement, un taquet de tabulation spécifie une position où un taquet de tabulation existe. Mais comme les taquets de tabulation peuvent être hérités des styles parents, il peut être nécessaire que l'objet enfant définisse explicitement qu'il n'y a pas de taquet de tabulation à une position donnée. Pour clear un taquet de tabulation hérité à une position donnée, créez un`TabStop` objet et set [`Alignment`](./alignment/) àClear.
 
 Pour plus d'informations, voir[`TabStopCollection`](../tabstopcollection/).
 
-### Exemples
+## Exemples
 
 Montre comment modifier la position du taquet de tabulation droit dans les paragraphes liés à la table des matières.
 
@@ -72,5 +74,3 @@ doc.Save(ArtifactsDir + "Styles.ChangeTocsTabStops.docx");
 
 * espace de noms [Aspose.Words](../../aspose.words/)
 * Assemblée [Aspose.Words](../../)
-
-

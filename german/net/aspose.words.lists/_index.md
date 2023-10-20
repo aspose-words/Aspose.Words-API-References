@@ -1,12 +1,14 @@
 ---
 title: Aspose.Words.Lists
-second_title: Aspose.Words für .NET-API-Referenz
-description: Der Aspose.Words.Lists Der Namespace enthält Klassen für working  mit Aufzählungs und nummerierten Listen die in einem Dokument definiert sind.
+linktitle: Aspose.Words.Lists
+articleTitle: Aspose.Words.Lists
+second_title: Aspose.Words für .NET
+description: DerAspose.Words.Lists Der Namespace enthält Klassen für working  mit Aufzählungs und nummerierten Listen die in einem Dokument definiert sind in C#.
 type: docs
 weight: 120
 url: /de/net/aspose.words.lists/
 ---
-Der **Aspose.Words.Lists** Der Namespace enthält Klassen für „working “ mit Aufzählungs- und nummerierten Listen, die in einem Dokument definiert sind.
+Der**Aspose.Words.Lists** Der Namespace enthält Klassen für „working “ mit Aufzählungs- und nummerierten Listen, die in einem Dokument definiert sind.
 
 ## Klassen
 
@@ -25,5 +27,3 @@ Der **Aspose.Words.Lists** Der Namespace enthält Klassen für „working “ mi
 | [ListLevelAlignment](./listlevelalignment/) | Gibt die Ausrichtung für die Listennummer oder das Aufzählungszeichen an. |
 | [ListTemplate](./listtemplate/) | Gibt eines der vordefinierten Listenformate an, die in Microsoft Word verfügbar sind. |
 | [ListTrailingCharacter](./listtrailingcharacter/) | Gibt das Zeichen an, das die Listenbezeichnung vom Text des Absatzes trennt. |
-
-

@@ -1,7 +1,9 @@
 ---
 title: Node.Remove
-second_title: Aspose.Words für .NET-API-Referenz
-description: Node methode. Entfernt sich selbst vom übergeordneten Element.
+linktitle: Remove
+articleTitle: Remove
+second_title: Aspose.Words für .NET
+description: Node Remove methode. Entfernt sich selbst vom übergeordneten Element in C#.
 type: docs
 weight: 150
 url: /de/net/aspose.words/node/remove/
@@ -14,7 +16,7 @@ Entfernt sich selbst vom übergeordneten Element.
 public void Remove()
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie alle Formen mit Bildern aus einem Dokument gelöscht werden.
 
@@ -59,7 +61,5 @@ Assert.AreEqual(0, doc.GetChildNodes(NodeType.Table, true).Count);
 ### Siehe auch
 
 * class [Node](../)
-* namensraum [Aspose.Words](../../node/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: BuildingBlock.Guid
-second_title: Aspose.Words für .NET-API-Referenz
-description: BuildingBlock eigendom. Ruft einen Bezeichner eine 128BitGUID ab oder legt ihn fest der diesen Baustein eindeutig identifiziert.
+linktitle: Guid
+articleTitle: Guid
+second_title: Aspose.Words für .NET
+description: BuildingBlock Guid eigendom. Ruft einen Bezeichner eine 128BitGUID ab oder legt ihn fest der diesen Baustein eindeutig identifiziert in C#.
 type: docs
 weight: 70
 url: /de/net/aspose.words.buildingblocks/buildingblock/guid/
@@ -14,13 +16,13 @@ Ruft einen Bezeichner (eine 128-Bit-GUID) ab oder legt ihn fest, der diesen Baus
 public Guid Guid { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Kann von einer Anwendung verwendet werden, um eindeutig auf einen Baustein zu verweisen, unabhängig davon, ob aufgrund der Lokalisierung eine andere Benennung erfolgt.
 
-Entspricht dem **docPartPr.guid** Element in OOXML.
+Entspricht dem**docPartPr.guid** Element in OOXML.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man einem Dokument einen benutzerdefinierten Baustein hinzufügt.
 
@@ -117,7 +119,5 @@ public class BuildingBlockVisitor : DocumentVisitor
 ### Siehe auch
 
 * class [BuildingBlock](../)
-* namensraum [Aspose.Words.BuildingBlocks](../../buildingblock/)
+* namensraum [Aspose.Words.BuildingBlocks](../../../aspose.words.buildingblocks/)
 * Montage [Aspose.Words](../../../)
-
-

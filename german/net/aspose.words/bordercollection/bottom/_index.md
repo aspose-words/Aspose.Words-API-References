@@ -1,7 +1,9 @@
 ---
 title: BorderCollection.Bottom
-second_title: Aspose.Words für .NET-API-Referenz
-description: BorderCollection eigendom. Ruft den unteren Rand ab.
+linktitle: Bottom
+articleTitle: Bottom
+second_title: Aspose.Words für .NET
+description: BorderCollection Bottom eigendom. Ruft den unteren Rand ab in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words/bordercollection/bottom/
@@ -14,7 +16,7 @@ Ruft den unteren Rand ab.
 public Border Bottom { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie beim Erstellen einer Tabelle Rahmen- und Schattierungsfarben anwenden.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.TableBordersAndShading.docx");
 
 * class [Border](../../border/)
 * class [BorderCollection](../)
-* namensraum [Aspose.Words](../../bordercollection/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

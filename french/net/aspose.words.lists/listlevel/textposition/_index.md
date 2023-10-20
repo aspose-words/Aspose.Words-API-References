@@ -1,7 +1,9 @@
 ---
 title: ListLevel.TextPosition
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ListLevel propriété. Renvoie ou définit la position en points de la deuxième ligne de texte dhabillage pour le niveau de liste.
+linktitle: TextPosition
+articleTitle: TextPosition
+second_title: Aspose.Words pour .NET
+description: ListLevel TextPosition propriété. Renvoie ou définit la position en points de la deuxième ligne de texte dhabillage pour le niveau de liste en C#.
 type: docs
 weight: 130
 url: /fr/net/aspose.words.lists/listlevel/textposition/
@@ -14,11 +16,11 @@ Renvoie ou définit la position (en points) de la deuxième ligne de texte d'hab
 public double TextPosition { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 `TextPosition` correspond au LeftIndent du paragraphe.
 
-### Exemples
+## Exemples
 
 Montre comment appliquer une mise en forme de liste personnalisée aux paragraphes lors de l’utilisation de DocumentBuilder.
 
@@ -77,7 +79,5 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateCustomList.docx");
 ### Voir également
 
 * class [ListLevel](../)
-* espace de noms [Aspose.Words.Lists](../../listlevel/)
+* espace de noms [Aspose.Words.Lists](../../../aspose.words.lists/)
 * Assemblée [Aspose.Words](../../../)
-
-

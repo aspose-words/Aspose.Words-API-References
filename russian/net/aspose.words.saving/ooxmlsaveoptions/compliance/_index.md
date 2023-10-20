@@ -1,7 +1,9 @@
 ---
 title: OoxmlSaveOptions.Compliance
-second_title: Справочник по API Aspose.Words для .NET
-description: OoxmlSaveOptions свойство. Указывает версию OOXML для выходного документа. Значение по умолчаниюEcma376_2006 .
+linktitle: Compliance
+articleTitle: Compliance
+second_title: Aspose.Words для .NET
+description: OoxmlSaveOptions Compliance свойство. Указывает версию OOXML для выходного документа. Значение по умолчаниюEcma376_2006  на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.saving/ooxmlsaveoptions/compliance/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.saving/ooxmlsaveoptions/compliance/
 public OoxmlCompliance Compliance { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как вставлять фигуры DML в документ.
 
@@ -106,7 +108,5 @@ Assert.AreEqual(ShapeMarkupLanguage.Dml, ((Shape)doc.GetChild(NodeType.Shape, 0,
 
 * enum [OoxmlCompliance](../../ooxmlcompliance/)
 * class [OoxmlSaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../ooxmlsaveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

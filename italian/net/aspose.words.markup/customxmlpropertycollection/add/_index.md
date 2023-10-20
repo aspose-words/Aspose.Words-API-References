@@ -1,7 +1,9 @@
 ---
 title: CustomXmlPropertyCollection.Add
-second_title: Aspose.Words per .NET API Reference
-description: CustomXmlPropertyCollection metodo. Aggiunge una proprietà alla raccolta.
+linktitle: Add
+articleTitle: Add
+second_title: Aspose.Words per .NET
+description: CustomXmlPropertyCollection Add metodo. Aggiunge una proprietà alla raccolta in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words.markup/customxmlpropertycollection/add/
@@ -18,7 +20,7 @@ public void Add(CustomXmlProperty property)
 | --- | --- | --- |
 | property | CustomXmlProperty | La proprietà da aggiungere. |
 
-### Esempi
+## Esempi
 
 Mostra come utilizzare le proprietà degli smart tag per ottenere informazioni approfondite sugli smart tag.
 
@@ -76,7 +78,5 @@ Assert.AreEqual(0, properties.Count);
 
 * class [CustomXmlProperty](../../customxmlproperty/)
 * class [CustomXmlPropertyCollection](../)
-* spazio dei nomi [Aspose.Words.Markup](../../customxmlpropertycollection/)
+* spazio dei nomi [Aspose.Words.Markup](../../../aspose.words.markup/)
 * assemblea [Aspose.Words](../../../)
-
-

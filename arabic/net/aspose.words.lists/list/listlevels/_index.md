@@ -1,7 +1,9 @@
 ---
 title: List.ListLevels
-second_title: Aspose.Words لمراجع .NET API
-description: List ملكية. الحصول على مجموعة مستويات القائمة لهذه القائمة.
+linktitle: ListLevels
+articleTitle: ListLevels
+second_title: Aspose.Words لـ .NET
+description: List ListLevels ملكية. الحصول على مجموعة مستويات القائمة لهذه القائمة في C#.
 type: docs
 weight: 70
 url: /ar/net/aspose.words.lists/list/listlevels/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.lists/list/listlevels/
 public ListLevelCollection ListLevels { get; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 استخدم هذه الخاصية للوصول إلى التنسيق الفردي وتعديله لكل مستوى من مستويات القائمة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تطبيق تنسيق القائمة المخصصة على الفقرات عند استخدام DocumentBuilder.
 
@@ -78,7 +80,5 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateCustomList.docx");
 
 * class [ListLevelCollection](../../listlevelcollection/)
 * class [List](../)
-* مساحة الاسم [Aspose.Words.Lists](../../list/)
+* مساحة الاسم [Aspose.Words.Lists](../../../aspose.words.lists/)
 * المجسم [Aspose.Words](../../../)
-
-

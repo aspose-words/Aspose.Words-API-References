@@ -1,7 +1,9 @@
 ---
 title: TextWatermarkOptions.FontSize
-second_title: Aspose.Words per .NET API Reference
-description: TextWatermarkOptions proprietà. Ottiene o imposta una dimensione del carattere. Il valore predefinito è 0  auto.
+linktitle: FontSize
+articleTitle: FontSize
+second_title: Aspose.Words per .NET
+description: TextWatermarkOptions FontSize proprietà. Ottiene o imposta una dimensione del carattere. Il valore predefinito è 0  auto in C#.
 type: docs
 weight: 40
 url: /it/net/aspose.words/textwatermarkoptions/fontsize/
@@ -20,13 +22,13 @@ public float FontSize { get; set; }
 | --- | --- |
 | ArgumentOutOfRangeException | Viene generato quando l'argomento non rientra nell'intervallo di valori validi. |
 
-### Osservazioni
+## Osservazioni
 
 I valori validi vanno da 0 a 65,5 inclusi.
 
 La dimensione automatica del carattere significa che la filigrana verrà ridimensionata alla larghezza massima e all'altezza massima rispetto a i margini della pagina.
 
-### Esempi
+## Esempi
 
 Mostra come creare una filigrana di testo.
 
@@ -57,7 +59,5 @@ if (doc.Watermark.Type == WatermarkType.Text)
 ### Guarda anche
 
 * class [TextWatermarkOptions](../)
-* spazio dei nomi [Aspose.Words](../../textwatermarkoptions/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

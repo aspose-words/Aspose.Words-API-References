@@ -1,7 +1,9 @@
 ---
 title: FieldAutoTextList.ScreenTip
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldAutoTextList propriété. Obtient ou définit le texte de linfobulle à afficher.
+linktitle: ScreenTip
+articleTitle: ScreenTip
+second_title: Aspose.Words pour .NET
+description: FieldAutoTextList ScreenTip propriété. Obtient ou définit le texte de linfobulle à afficher en C#.
 type: docs
 weight: 40
 url: /fr/net/aspose.words.fields/fieldautotextlist/screentip/
@@ -14,7 +16,7 @@ Obtient ou définit le texte de l'info-bulle à afficher.
 public string ScreenTip { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment utiliser un champ AUTOTEXTLIST pour effectuer une sélection dans une liste d’entrées d’insertion automatique.
 
@@ -69,7 +71,5 @@ private static void AppendAutoTextEntry(GlossaryDocument glossaryDoc, string nam
 ### Voir également
 
 * class [FieldAutoTextList](../)
-* espace de noms [Aspose.Words.Fields](../../fieldautotextlist/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

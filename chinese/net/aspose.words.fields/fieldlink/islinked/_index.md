@@ -1,7 +1,9 @@
 ---
 title: FieldLink.IsLinked
-second_title: Aspose.Words for .NET API 参考
-description: FieldLink 财产. 获取或设置是否通过不随文档存储图形数据来减小文件大小
+linktitle: IsLinked
+articleTitle: IsLinked
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldLink IsLinked 财产. 获取或设置是否通过不随文档存储图形数据来减小文件大小 在 C#.
 type: docs
 weight: 100
 url: /zh/net/aspose.words.fields/fieldlink/islinked/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fieldlink/islinked/
 public bool IsLinked { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何使用各种字段类型链接到本地文件系统中的其他文档并显示其内容。
 
@@ -197,7 +199,5 @@ public enum InsertLinkedObjectAs
 ### 也可以看看
 
 * class [FieldLink](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldlink/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

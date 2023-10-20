@@ -1,7 +1,9 @@
 ---
 title: FieldLink.SourceItem
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldLink propriété. Obtient ou définit la partie du fichier source qui est liée.
+linktitle: SourceItem
+articleTitle: SourceItem
+second_title: Aspose.Words pour .NET
+description: FieldLink SourceItem propriété. Obtient ou définit la partie du fichier source qui est liée en C#.
 type: docs
 weight: 130
 url: /fr/net/aspose.words.fields/fieldlink/sourceitem/
@@ -14,7 +16,7 @@ Obtient ou définit la partie du fichier source qui est liée.
 public string SourceItem { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment utiliser différents types de champs pour créer des liens vers d’autres documents dans le système de fichiers local et afficher leur contenu.
 
@@ -197,7 +199,5 @@ public enum InsertLinkedObjectAs
 ### Voir également
 
 * class [FieldLink](../)
-* espace de noms [Aspose.Words.Fields](../../fieldlink/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

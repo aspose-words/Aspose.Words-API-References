@@ -1,7 +1,9 @@
 ---
-title: Class RowFormat
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Tables.RowFormat classe. Rappresenta tutta la formattazione per una riga di tabella.
+title: RowFormat Class
+linktitle: RowFormat
+articleTitle: RowFormat
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Tables.RowFormat classe. Rappresenta tutta la formattazione per una riga di tabella in C#.
 type: docs
 weight: 6330
 url: /it/net/aspose.words.tables/rowformat/
@@ -32,7 +34,7 @@ public class RowFormat
 | --- | --- |
 | [ClearFormatting](../../aspose.words.tables/rowformat/clearformatting/)() | Ripristina la formattazione predefinita delle righe. |
 
-### Esempi
+## Esempi
 
 Mostra come modificare la formattazione di una riga della tabella.
 
@@ -146,5 +148,3 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
 
 * spazio dei nomi [Aspose.Words.Tables](../../aspose.words.tables/)
 * assemblea [Aspose.Words](../../)
-
-

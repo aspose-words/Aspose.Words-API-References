@@ -1,7 +1,9 @@
 ---
 title: WebExtension.Properties
-second_title: Référence de l'API Aspose.Words pour .NET
-description: WebExtension propriété. Représente un ensemble de propriétés personnalisées dextension Web.
+linktitle: Properties
+articleTitle: Properties
+second_title: Aspose.Words pour .NET
+description: WebExtension Properties propriété. Représente un ensemble de propriétés personnalisées dextension Web en C#.
 type: docs
 weight: 50
 url: /fr/net/aspose.words.webextensions/webextension/properties/
@@ -14,7 +16,7 @@ Représente un ensemble de propriétés personnalisées d'extension Web.
 public WebExtensionPropertyCollection Properties { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment ajouter une extension Web à un document.
 
@@ -60,7 +62,5 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 
 * class [WebExtensionPropertyCollection](../../webextensionpropertycollection/)
 * class [WebExtension](../)
-* espace de noms [Aspose.Words.WebExtensions](../../webextension/)
+* espace de noms [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * Assemblée [Aspose.Words](../../../)
-
-

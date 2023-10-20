@@ -1,9 +1,11 @@
 ---
 title: Stroke.Color
-second_title: Справочник по API Aspose.Words для .NET
-description: Stroke свойство. Определяет цвет обводки.
+linktitle: Color
+articleTitle: Color
+second_title: Aspose.Words для .NET
+description: Stroke Color свойство. Определяет цвет обводки на С#.
 type: docs
-weight: 30
+weight: 20
 url: /ru/net/aspose.words.drawing/stroke/color/
 ---
 ## Stroke.Color property
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.drawing/stroke/color/
 public Color Color { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Значение по умолчанию для[`Shape`](../../shape/) is Black.
 
-### Примеры
+## Примеры
 
 Показывает создание разнообразных фигур.
 
@@ -93,7 +95,5 @@ doc.Save(ArtifactsDir + "Drawing.VariousShapes.docx");
 ### Смотрите также
 
 * class [Stroke](../)
-* пространство имен [Aspose.Words.Drawing](../../stroke/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldTC.OmitPageNumber
-second_title: Aspose.Words for .NET API 参考
-description: FieldTC 财产. 获取或设置此字段是否应省略目录中的页码
+linktitle: OmitPageNumber
+articleTitle: OmitPageNumber
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldTC OmitPageNumber 财产. 获取或设置此字段是否应省略目录中的页码 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.fields/fieldtc/omitpagenumber/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fieldtc/omitpagenumber/
 public bool OmitPageNumber { get; set; }
 ```
 
-### 例子
+## 例子
 
 展示如何插入 TOC 字段，以及过滤哪些 TC 字段最终作为条目。
 
@@ -66,7 +68,5 @@ public void InsertTocEntry(DocumentBuilder builder, string text, string typeIden
 ### 也可以看看
 
 * class [FieldTC](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldtc/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

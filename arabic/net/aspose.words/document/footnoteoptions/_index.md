@@ -1,7 +1,9 @@
 ---
 title: Document.FootnoteOptions
-second_title: Aspose.Words لمراجع .NET API
-description: Document ملكية. يوفر خيارات تتحكم في ترقيم الحواشي السفلية وموضعها في هذا المستند.
+linktitle: FootnoteOptions
+articleTitle: FootnoteOptions
+second_title: Aspose.Words لـ .NET
+description: Document FootnoteOptions ملكية. يوفر خيارات تتحكم في ترقيم الحواشي السفلية وموضعها في هذا المستند في C#.
 type: docs
 weight: 150
 url: /ar/net/aspose.words/document/footnoteoptions/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/document/footnoteoptions/
 public FootnoteOptions FootnoteOptions { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحديد مكان مختلف حيث يتم تجميع المستند وعرض حواشيه السفلية.
 
@@ -186,7 +188,5 @@ doc.Save(ArtifactsDir + "InlineStory.NumberingRule.docx");
 
 * class [FootnoteOptions](../../../aspose.words.notes/footnoteoptions/)
 * class [Document](../)
-* مساحة الاسم [Aspose.Words](../../document/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

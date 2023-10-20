@@ -1,7 +1,9 @@
 ---
 title: TxtSaveOptionsBase.ForcePageBreaks
-second_title: Aspose.Words för .NET API Referens
-description: TxtSaveOptionsBase fast egendom. Tillåter att ange om sidbrytningarna ska bevaras under export.
+linktitle: ForcePageBreaks
+articleTitle: ForcePageBreaks
+second_title: Aspose.Words för .NET
+description: TxtSaveOptionsBase ForcePageBreaks fast egendom. Tillåter att ange om sidbrytningarna ska bevaras under export i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.saving/txtsaveoptionsbase/forcepagebreaks/
@@ -16,11 +18,11 @@ Standardvärdet är`falsk`.
 public bool ForcePageBreaks { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Egenskapen påverkar endast sidbrytningar som infogas uttryckligen i ett dokument. Det är inte relaterat till sidbrytningar som MS Word automatiskt infogar i slutet av varje sida.
 
-### Exempel
+## Exempel
 
 Visar hur man anger om sidbrytningar ska bevaras vid export av ett dokument till klartext.
 
@@ -56,7 +58,5 @@ Assert.AreEqual(forcePageBreaks ? 3 : 1, doc.PageCount);
 ### Se även
 
 * class [TxtSaveOptionsBase](../)
-* namnutrymme [Aspose.Words.Saving](../../txtsaveoptionsbase/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

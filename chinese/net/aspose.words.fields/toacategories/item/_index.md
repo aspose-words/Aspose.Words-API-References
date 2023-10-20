@@ -1,7 +1,9 @@
 ---
 title: ToaCategories.Item
-second_title: Aspose.Words for .NET API 参考
-description: ToaCategories 财产. 按类别编号获取或设置类别标题
+linktitle: Item
+articleTitle: Item
+second_title: 用于 .NET 的 Aspose.Words
+description: ToaCategories Item 财产. 按类别编号获取或设置类别标题 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.fields/toacategories/item/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/toacategories/item/
 public string this[int number] { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何为 TOA 字段指定一组类别。
 
@@ -62,7 +64,5 @@ doc.Save(ArtifactsDir + "FieldOptions.TOA.Categories.docx");
 ### 也可以看看
 
 * class [ToaCategories](../)
-* 命名空间 [Aspose.Words.Fields](../../toacategories/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

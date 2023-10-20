@@ -1,7 +1,9 @@
 ---
-title: Class FontInfo
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Fonts.FontInfo сорт. Указывает информацию о шрифте используемом в документе.
+title: FontInfo Class
+linktitle: FontInfo
+articleTitle: FontInfo
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Fonts.FontInfo сорт. Указывает информацию о шрифте используемом в документе на С#.
 type: docs
 weight: 2920
 url: /ru/net/aspose.words.fonts/fontinfo/
@@ -32,14 +34,14 @@ public class FontInfo
 
 | Имя | Описание |
 | --- | --- |
-| [GetEmbeddedFont](../../aspose.words.fonts/fontinfo/getembeddedfont/)(EmbeddedFontFormat, EmbeddedFontStyle) | Получает определенный файл встроенного шрифта. |
-| [GetEmbeddedFontAsOpenType](../../aspose.words.fonts/fontinfo/getembeddedfontasopentype/)(EmbeddedFontStyle) | Получает файл встроенного шрифта в формате OpenType. Шрифты в формате Embedded OpenType преобразуются в OpenType. . |
+| [GetEmbeddedFont](../../aspose.words.fonts/fontinfo/getembeddedfont/)(*[EmbeddedFontFormat](../embeddedfontformat/), [EmbeddedFontStyle](../embeddedfontstyle/)*) | Получает определенный файл встроенного шрифта. |
+| [GetEmbeddedFontAsOpenType](../../aspose.words.fonts/fontinfo/getembeddedfontasopentype/)(*[EmbeddedFontStyle](../embeddedfontstyle/)*) | Получает файл встроенного шрифта в формате OpenType. Шрифты в формате Embedded OpenType преобразуются в OpenType. . |
 
-### Примечания
+## Примечания
 
 Вы не создаете экземпляры этого класса напрямую. Используйте[`FontInfos`](../../aspose.words/documentbase/fontinfos/) свойство для доступа к коллекции шрифтов , определенной в документе.
 
-### Примеры
+## Примеры
 
 Показывает, как распечатать сведения о том, какие шрифты присутствуют в документе.
 
@@ -60,5 +62,3 @@ for (int i = 0; i < allFonts.Count; i++)
 
 * пространство имен [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * сборка [Aspose.Words](../../)
-
-

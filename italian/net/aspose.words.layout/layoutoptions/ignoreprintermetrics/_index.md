@@ -1,7 +1,9 @@
 ---
 title: LayoutOptions.IgnorePrinterMetrics
-second_title: Aspose.Words per .NET API Reference
-description: LayoutOptions proprietà. Ottiene o imposta lindicazione se lopzione di compatibilità Utilizza parametri stampante per impaginare il documento viene ignorata. Limpostazione predefinita èVERO .
+linktitle: IgnorePrinterMetrics
+articleTitle: IgnorePrinterMetrics
+second_title: Aspose.Words per .NET
+description: LayoutOptions IgnorePrinterMetrics proprietà. Ottiene o imposta lindicazione se lopzione di compatibilità Utilizza parametri stampante per impaginare il documento viene ignorata. Limpostazione predefinita èVERO  in C#.
 type: docs
 weight: 50
 url: /it/net/aspose.words.layout/layoutoptions/ignoreprintermetrics/
@@ -14,7 +16,7 @@ Ottiene o imposta l'indicazione se l'opzione di compatibilità "Utilizza paramet
 public bool IgnorePrinterMetrics { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come ignorare l'opzione "Utilizza parametri stampante per impaginare il documento".
 
@@ -29,7 +31,5 @@ doc.Save(ArtifactsDir + "Document.IgnorePrinterMetrics.docx");
 ### Guarda anche
 
 * class [LayoutOptions](../)
-* spazio dei nomi [Aspose.Words.Layout](../../layoutoptions/)
+* spazio dei nomi [Aspose.Words.Layout](../../../aspose.words.layout/)
 * assemblea [Aspose.Words](../../../)
-
-

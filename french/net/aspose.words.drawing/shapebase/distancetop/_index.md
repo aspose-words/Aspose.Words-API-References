@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.DistanceTop
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ShapeBase propriété. Renvoie ou définit la distance en points entre le texte du document et le bord supérieur de la forme.
+linktitle: DistanceTop
+articleTitle: DistanceTop
+second_title: Aspose.Words pour .NET
+description: ShapeBase DistanceTop propriété. Renvoie ou définit la distance en points entre le texte du document et le bord supérieur de la forme en C#.
 type: docs
 weight: 160
 url: /fr/net/aspose.words.drawing/shapebase/distancetop/
@@ -14,13 +16,13 @@ Renvoie ou définit la distance (en points) entre le texte du document et le bor
 public double DistanceTop { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 La valeur par défaut est 0.
 
 N'a d'effet que sur les formes de niveau supérieur.
 
-### Exemples
+## Exemples
 
 Montre comment définir la distance d’habillage d’un texte entourant une forme.
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "Shape.Coordinates.docx");
 ### Voir également
 
 * class [ShapeBase](../)
-* espace de noms [Aspose.Words.Drawing](../../shapebase/)
+* espace de noms [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Assemblée [Aspose.Words](../../../)
-
-

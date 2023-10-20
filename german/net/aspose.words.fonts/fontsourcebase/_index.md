@@ -1,7 +1,9 @@
 ---
-title: Class FontSourceBase
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Fonts.FontSourceBase klas. Dies ist eine abstrakte Basisklasse für die Klassen die es dem Benutzer ermöglichen verschiedene Schriftartquellen anzugeben.
+title: FontSourceBase Class
+linktitle: FontSourceBase
+articleTitle: FontSourceBase
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Fonts.FontSourceBase klas. Dies ist eine abstrakte Basisklasse für die Klassen die es dem Benutzer ermöglichen verschiedene Schriftartquellen anzugeben in C#.
 type: docs
 weight: 2980
 url: /de/net/aspose.words.fonts/fontsourcebase/
@@ -30,7 +32,7 @@ public abstract class FontSourceBase
 | --- | --- |
 | [GetAvailableFonts](../../aspose.words.fonts/fontsourcebase/getavailablefonts/)() | Gibt eine Liste der über diese Quelle verfügbaren Schriftarten zurück. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie eine Schriftartendatei im lokalen Dateisystem als Schriftartenquelle verwendet wird.
 
@@ -50,5 +52,3 @@ Assert.AreEqual(0, fileFontSource.Priority);
 
 * namensraum [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * Montage [Aspose.Words](../../)
-
-

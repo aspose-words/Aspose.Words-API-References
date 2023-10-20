@@ -1,7 +1,9 @@
 ---
 title: TextWatermarkOptions.Color
-second_title: Aspose.Words per .NET API Reference
-description: TextWatermarkOptions proprietà. Ottiene o imposta il colore del carattere. Il valore predefinito èSilver .
+linktitle: Color
+articleTitle: Color
+second_title: Aspose.Words per .NET
+description: TextWatermarkOptions Color proprietà. Ottiene o imposta il colore del carattere. Il valore predefinito èSilver  in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words/textwatermarkoptions/color/
@@ -14,7 +16,7 @@ Ottiene o imposta il colore del carattere. Il valore predefinito èSilver .
 public Color Color { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come creare una filigrana di testo.
 
@@ -45,7 +47,5 @@ if (doc.Watermark.Type == WatermarkType.Text)
 ### Guarda anche
 
 * class [TextWatermarkOptions](../)
-* spazio dei nomi [Aspose.Words](../../textwatermarkoptions/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

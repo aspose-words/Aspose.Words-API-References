@@ -1,7 +1,9 @@
 ---
 title: FieldMergeBarcode.ForegroundColor
-second_title: Aspose.Words per .NET API Reference
-description: FieldMergeBarcode proprietà. Ottiene o imposta il colore di primo piano del simbolo del codice a barre. I valori validi sono nellintervallo 0 0xFFFFFF
+linktitle: ForegroundColor
+articleTitle: ForegroundColor
+second_title: Aspose.Words per .NET
+description: FieldMergeBarcode ForegroundColor proprietà. Ottiene o imposta il colore di primo piano del simbolo del codice a barre. I valori validi sono nellintervallo 0 0xFFFFFF in C#.
 type: docs
 weight: 100
 url: /it/net/aspose.words.fields/fieldmergebarcode/foregroundcolor/
@@ -14,7 +16,7 @@ Ottiene o imposta il colore di primo piano del simbolo del codice a barre. I val
 public string ForegroundColor { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come eseguire una stampa unione sui codici a barre QR.
 
@@ -64,7 +66,5 @@ doc.Save(ArtifactsDir + "Field.MERGEBARCODE.QR.docx");
 ### Guarda anche
 
 * class [FieldMergeBarcode](../)
-* spazio dei nomi [Aspose.Words.Fields](../../fieldmergebarcode/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

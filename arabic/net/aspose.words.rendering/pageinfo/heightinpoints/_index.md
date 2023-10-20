@@ -1,7 +1,9 @@
 ---
 title: PageInfo.HeightInPoints
-second_title: Aspose.Words لمراجع .NET API
-description: PageInfo ملكية. الحصول على ارتفاع الصفحة بالنقاط.
+linktitle: HeightInPoints
+articleTitle: HeightInPoints
+second_title: Aspose.Words لـ .NET
+description: PageInfo HeightInPoints ملكية. الحصول على ارتفاع الصفحة بالنقاط في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.rendering/pageinfo/heightinpoints/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.rendering/pageinfo/heightinpoints/
 public float HeightInPoints { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية طباعة حجم الصفحة ومعلومات الاتجاه لكل صفحة في مستند Word.
 
@@ -56,7 +58,5 @@ for (int i = 0; i < doc.PageCount; i++)
 ### أنظر أيضا
 
 * class [PageInfo](../)
-* مساحة الاسم [Aspose.Words.Rendering](../../pageinfo/)
+* مساحة الاسم [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * المجسم [Aspose.Words](../../../)
-
-

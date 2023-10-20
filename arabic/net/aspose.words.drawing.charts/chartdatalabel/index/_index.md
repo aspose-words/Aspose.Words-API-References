@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabel.Index
-second_title: Aspose.Words لمراجع .NET API
-description: ChartDataLabel ملكية. يحدد فهرس العنصر الذي يحتوي عليه. سيحدد هذا الفهرس المجموعة الفرعية للأصل التي ينطبق عليها هذا العنصر. القيمة الافتراضية هي 0.
+linktitle: Index
+articleTitle: Index
+second_title: Aspose.Words لـ .NET
+description: ChartDataLabel Index ملكية. يحدد فهرس العنصر الذي يحتوي عليه. سيحدد هذا الفهرس المجموعة الفرعية للأصل التي ينطبق عليها هذا العنصر. القيمة الافتراضية هي 0 في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.drawing.charts/chartdatalabel/index/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing.charts/chartdatalabel/index/
 public int Index { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تطبيق التسميات على نقاط البيانات في مخطط خطي.
 
@@ -92,7 +94,5 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
 ### أنظر أيضا
 
 * class [ChartDataLabel](../)
-* مساحة الاسم [Aspose.Words.Drawing.Charts](../../chartdatalabel/)
+* مساحة الاسم [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../../)
-
-

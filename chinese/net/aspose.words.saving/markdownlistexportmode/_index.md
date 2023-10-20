@@ -1,7 +1,9 @@
 ---
-title: Enum MarkdownListExportMode
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Saving.MarkdownListExportMode 枚举. 指定如何将列表导出到 Markdown 中
+title: MarkdownListExportMode Enum
+linktitle: MarkdownListExportMode
+articleTitle: MarkdownListExportMode
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Saving.MarkdownListExportMode 枚举. 指定如何将列表导出到 Markdown 中 在 C#.
 type: docs
 weight: 5270
 url: /zh/net/aspose.words.saving/markdownlistexportmode/
@@ -25,5 +27,3 @@ public enum MarkdownListExportMode
 
 * 命名空间 [Aspose.Words.Saving](../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../)
-
-

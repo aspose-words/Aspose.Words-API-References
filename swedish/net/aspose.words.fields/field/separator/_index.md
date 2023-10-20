@@ -1,7 +1,9 @@
 ---
 title: Field.Separator
-second_title: Aspose.Words för .NET API Referens
-description: Field fast egendom. Hämtar noden som representerar fältseparatorn. Kan varanull .
+linktitle: Separator
+articleTitle: Separator
+second_title: Aspose.Words för .NET
+description: Field Separator fast egendom. Hämtar noden som representerar fältseparatorn. Kan varanull  i C#.
 type: docs
 weight: 80
 url: /sv/net/aspose.words.fields/field/separator/
@@ -14,7 +16,7 @@ Hämtar noden som representerar fältseparatorn. Kan vara`null` .
 public FieldSeparator Separator { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med en samling fält.
 
@@ -118,7 +120,5 @@ public class FieldVisitor : DocumentVisitor
 
 * class [FieldSeparator](../../fieldseparator/)
 * class [Field](../)
-* namnutrymme [Aspose.Words.Fields](../../field/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldToa.PageNumberListSeparator
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldToa propriété. Obtient ou définit la séquence de caractères utilisée pour séparer deux numéros de page dans une liste de numéros de page.
+linktitle: PageNumberListSeparator
+articleTitle: PageNumberListSeparator
+second_title: Aspose.Words pour .NET
+description: FieldToa PageNumberListSeparator propriété. Obtient ou définit la séquence de caractères utilisée pour séparer deux numéros de page dans une liste de numéros de page en C#.
 type: docs
 weight: 50
 url: /fr/net/aspose.words.fields/fieldtoa/pagenumberlistseparator/
@@ -14,7 +16,7 @@ Obtient ou définit la séquence de caractères utilisée pour séparer deux num
 public string PageNumberListSeparator { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment créer et personnaliser une table de autorités à l’aide des champs TOA et TA.
 
@@ -137,7 +139,5 @@ private static FieldTA InsertToaEntry(DocumentBuilder builder, string entryCateg
 ### Voir également
 
 * class [FieldToa](../)
-* espace de noms [Aspose.Words.Fields](../../fieldtoa/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

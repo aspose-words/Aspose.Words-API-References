@@ -1,7 +1,9 @@
 ---
 title: CustomPart.IsExternal
-second_title: Aspose.Words for .NET API 参考
-description: CustomPart 财产. 如果此自定义部分存储在 OOXML 包内则为 False如果此自定义部件是外部目标则为 True
+linktitle: IsExternal
+articleTitle: IsExternal
+second_title: 用于 .NET 的 Aspose.Words
+description: CustomPart IsExternal 财产. 如果此自定义部分存储在 OOXML 包内则为 False如果此自定义部件是外部目标则为 True 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.markup/custompart/isexternal/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.markup/custompart/isexternal/
 public bool IsExternal { get; set; }
 ```
 
-### 评论
+## 评论
 
 默认值为`错误的`。
 
-### 例子
+## 例子
 
 演示如何访问文档的任意自定义部件集合。
 
@@ -62,7 +64,5 @@ Assert.AreEqual(0, doc.PackageCustomParts.Count);
 ### 也可以看看
 
 * class [CustomPart](../)
-* 命名空间 [Aspose.Words.Markup](../../custompart/)
+* 命名空间 [Aspose.Words.Markup](../../../aspose.words.markup/)
 * 部件 [Aspose.Words](../../../)
-
-

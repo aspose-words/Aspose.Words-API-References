@@ -1,7 +1,9 @@
 ---
 title: Style.Aliases
-second_title: Referencia de API de Aspose.Words para .NET
-description: Style propiedad. Obtiene todos los alias de este estilo. Si el estilo no tiene alias se devuelve una matriz vacía de cadena.
+linktitle: Aliases
+articleTitle: Aliases
+second_title: Aspose.Words para .NET
+description: Style Aliases propiedad. Obtiene todos los alias de este estilo. Si el estilo no tiene alias se devuelve una matriz vacía de cadena en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words/style/aliases/
@@ -14,7 +16,7 @@ Obtiene todos los alias de este estilo. Si el estilo no tiene alias, se devuelve
 public string[] Aliases { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo utilizar alias de estilo.
 
@@ -45,7 +47,5 @@ Assert.AreEqual(doc.FirstSection.Body.Paragraphs[0].ParagraphFormat.Style,
 ### Ver también
 
 * class [Style](../)
-* espacio de nombres [Aspose.Words](../../style/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

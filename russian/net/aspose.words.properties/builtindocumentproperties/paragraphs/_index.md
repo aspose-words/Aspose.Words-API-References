@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.Paragraphs
-second_title: Справочник по API Aspose.Words для .NET
-description: BuiltInDocumentProperties свойство. Представляет оценку количества абзацев в документе.
+linktitle: Paragraphs
+articleTitle: Paragraphs
+second_title: Aspose.Words для .NET
+description: BuiltInDocumentProperties Paragraphs свойство. Представляет оценку количества абзацев в документе на С#.
 type: docs
 weight: 230
 url: /ru/net/aspose.words.properties/builtindocumentproperties/paragraphs/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.properties/builtindocumentproperties/paragraphs/
 public int Paragraphs { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Aspose.Words обновляет это свойство при вызове[`UpdateWordCount`](../../../aspose.words/document/updatewordcount/).
 
-### Примеры
+## Примеры
 
 Показывает, как обновить все метки списков в документе.
 
@@ -160,7 +162,5 @@ private class LineCounter
 ### Смотрите также
 
 * class [BuiltInDocumentProperties](../)
-* пространство имен [Aspose.Words.Properties](../../builtindocumentproperties/)
+* пространство имен [Aspose.Words.Properties](../../../aspose.words.properties/)
 * сборка [Aspose.Words](../../../)
-
-

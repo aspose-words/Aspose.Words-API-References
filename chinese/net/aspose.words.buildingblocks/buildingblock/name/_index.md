@@ -1,7 +1,9 @@
 ---
 title: BuildingBlock.Name
-second_title: Aspose.Words for .NET API 参考
-description: BuildingBlock 财产. 获取或设置此构建块的名称
+linktitle: Name
+articleTitle: Name
+second_title: 用于 .NET 的 Aspose.Words
+description: BuildingBlock Name 财产. 获取或设置此构建块的名称 在 C#.
 type: docs
 weight: 90
 url: /zh/net/aspose.words.buildingblocks/buildingblock/name/
@@ -14,15 +16,15 @@ url: /zh/net/aspose.words.buildingblocks/buildingblock/name/
 public string Name { get; set; }
 ```
 
-### 评论
+## 评论
 
 该名称可以包含任何字符串内容，通常是友好标识符。 多个构建块可以具有相同的名称。
 
 不可能是`无效的`并且不能为空字符串。
 
-对应于 **docPartPr.名称** OOXML 中的元素。
+对应于**docPartPr.名称** OOXML 中的元素。
 
-### 例子
+## 例子
 
 演示如何将自定义构建块添加到文档中。
 
@@ -119,7 +121,5 @@ public class BuildingBlockVisitor : DocumentVisitor
 ### 也可以看看
 
 * class [BuildingBlock](../)
-* 命名空间 [Aspose.Words.BuildingBlocks](../../buildingblock/)
+* 命名空间 [Aspose.Words.BuildingBlocks](../../../aspose.words.buildingblocks/)
 * 部件 [Aspose.Words](../../../)
-
-

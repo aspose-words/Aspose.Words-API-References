@@ -1,7 +1,9 @@
 ---
 title: Paragraph.IsEndOfCell
-second_title: Справочник по API Aspose.Words для .NET
-description: Paragraph свойство. True если этот абзац является последним абзацем вCell  ложь в противном случае.
+linktitle: IsEndOfCell
+articleTitle: IsEndOfCell
+second_title: Aspose.Words для .NET
+description: Paragraph IsEndOfCell свойство. True если этот абзац является последним абзацем вCell  ложь в противном случае на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words/paragraph/isendofcell/
@@ -14,7 +16,7 @@ True, если этот абзац является последним абза�
 public bool IsEndOfCell { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как настроить таблицу так, чтобы она оставалась вместе на одной странице.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "Table.KeepTableTogether.docx");
 ### Смотрите также
 
 * class [Paragraph](../)
-* пространство имен [Aspose.Words](../../paragraph/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class ChartAxis
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Drawing.Charts.ChartAxis 班级. 表示图表的轴选项
+title: ChartAxis Class
+linktitle: ChartAxis
+articleTitle: ChartAxis
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Drawing.Charts.ChartAxis 班级. 表示图表的轴选项 在 C#.
 type: docs
 weight: 630
 url: /zh/net/aspose.words.drawing.charts/chartaxis/
@@ -50,7 +52,7 @@ public class ChartAxis
 | [Title](../../aspose.words.drawing.charts/chartaxis/title/) { get; } | 提供对轴标题属性的访问。 |
 | [Type](../../aspose.words.drawing.charts/chartaxis/type/) { get; } | 返回轴的类型。 |
 
-### 例子
+## 例子
 
 演示如何插入图表并修改其轴的外观。
 
@@ -104,5 +106,3 @@ doc.Save(ArtifactsDir + "Charts.AxisProperties.docx");
 
 * 命名空间 [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * 部件 [Aspose.Words](../../)
-
-

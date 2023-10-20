@@ -1,12 +1,14 @@
 ---
 title: FileFormatUtil.DetectFileFormat
-second_title: Aspose.Words لمراجع .NET API
-description: FileFormatUtil طريقة. يكتشف ويعيد المعلومات المتعلقة بتنسيق مستند مخزن في ملف قرص.
+linktitle: DetectFileFormat
+articleTitle: DetectFileFormat
+second_title: Aspose.Words لـ .NET
+description: FileFormatUtil DetectFileFormat طريقة. يكتشف ويعيد المعلومات المتعلقة بتنسيق مستند مخزن في ملف قرص في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words/fileformatutil/detectfileformat/
 ---
-## DetectFileFormat(string) {#detectfileformat_1}
+## DetectFileFormat(*string*) {#detectfileformat_1}
 
 يكتشف ويعيد المعلومات المتعلقة بتنسيق مستند مخزن في ملف قرص.
 
@@ -22,13 +24,13 @@ public static FileFormatInfo DetectFileFormat(string fileName)
 
 أ[`FileFormatInfo`](../../fileformatinfo/) الكائن الذي يحتوي على المعلومات المكتشفة.
 
-### ملاحظات
+## ملاحظات
 
 حتى لو اكتشفت هذه الطريقة تنسيق المستند، فإنها لا تضمن أن المستند المحدد صالح. تكتشف هذه الطريقة تنسيق المستند فقط عن طريق قراءة البيانات الكافية للكشف . للتحقق بشكل كامل من صلاحية المستند ، يتعين عليك تحميل المستند في ملف[`Document`](../../document/) هدف.
 
 يلقي هذا الأسلوب[`FileCorruptedException`](../../filecorruptedexception/) عندما يتم التعرف على التنسيق ، ولكن لا يمكن إكمال الكشف بسبب الفساد.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام فئة FileFormatUtil للكشف عن تنسيق المستند وتشفيره.
 
@@ -75,12 +77,12 @@ Assert.AreEqual(1, DigitalSignatureUtil.LoadSignatures(ArtifactsDir + "File.Dete
 
 * class [FileFormatInfo](../../fileformatinfo/)
 * class [FileFormatUtil](../)
-* مساحة الاسم [Aspose.Words](../../fileformatutil/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## DetectFileFormat(Stream) {#detectfileformat}
+## DetectFileFormat(*Stream*) {#detectfileformat}
 
 يكتشف ويعيد المعلومات المتعلقة بتنسيق المستند المخزن في الدفق.
 
@@ -96,7 +98,7 @@ public static FileFormatInfo DetectFileFormat(Stream stream)
 
 أ[`FileFormatInfo`](../../fileformatinfo/) الكائن الذي يحتوي على المعلومات المكتشفة.
 
-### ملاحظات
+## ملاحظات
 
 يجب وضع الدفق في بداية المستند.
 
@@ -106,7 +108,7 @@ public static FileFormatInfo DetectFileFormat(Stream stream)
 
 يلقي هذا الأسلوب[`FileCorruptedException`](../../filecorruptedexception/) عندما يتم التعرف على التنسيق ، ولكن لا يمكن إكمال الكشف بسبب الفساد.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام أساليب FileFormatUtil للكشف عن تنسيق المستند.
 
@@ -140,7 +142,5 @@ using (FileStream docStream = File.OpenRead(MyDir + "Word document with missing 
 
 * class [FileFormatInfo](../../fileformatinfo/)
 * class [FileFormatUtil](../)
-* مساحة الاسم [Aspose.Words](../../fileformatutil/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

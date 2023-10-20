@@ -1,7 +1,9 @@
 ---
-title: Enum DropCapPosition
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.DropCapPosition перечисление. Определяет положение текста буквицы.
+title: DropCapPosition Enum
+linktitle: DropCapPosition
+articleTitle: DropCapPosition
+second_title: Aspose.Words для .NET
+description: Aspose.Words.DropCapPosition перечисление. Определяет положение текста буквицы на С#.
 type: docs
 weight: 1410
 url: /ru/net/aspose.words/dropcapposition/
@@ -22,7 +24,7 @@ public enum DropCapPosition
 | Normal | `1` | Буквица располагается внутри поля текста привязки абзаца. |
 | Margin | `2` | Буквица расположена за пределами поля текста в привязном абзаце. |
 
-### Примеры
+## Примеры
 
 Показывает, как создать буквицу.
 
@@ -57,5 +59,3 @@ doc.Save(ArtifactsDir + "ParagraphFormat.DropCap.docx");
 
 * пространство имен [Aspose.Words](../../aspose.words/)
 * сборка [Aspose.Words](../../)
-
-

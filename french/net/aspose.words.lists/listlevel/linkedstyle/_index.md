@@ -1,7 +1,9 @@
 ---
 title: ListLevel.LinkedStyle
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ListLevel propriété. Obtient ou définit le style de paragraphe lié à ce niveau de liste.
+linktitle: LinkedStyle
+articleTitle: LinkedStyle
+second_title: Aspose.Words pour .NET
+description: ListLevel LinkedStyle propriété. Obtient ou définit le style de paragraphe lié à ce niveau de liste en C#.
 type: docs
 weight: 60
 url: /fr/net/aspose.words.lists/listlevel/linkedstyle/
@@ -14,11 +16,11 @@ Obtient ou définit le style de paragraphe lié à ce niveau de liste.
 public Style LinkedStyle { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 Cette propriété est`nul` lorsque le niveau liste n'est pas lié à un style de paragraphe. Cette propriété peut être définie sur`nul`.
 
-### Exemples
+## Exemples
 
 Présente des méthodes avancées de personnalisation des étiquettes de liste.
 
@@ -80,7 +82,5 @@ doc.Save(ArtifactsDir + "Lists.CreateListRestartAfterHigher.docx");
 
 * class [Style](../../../aspose.words/style/)
 * class [ListLevel](../)
-* espace de noms [Aspose.Words.Lists](../../listlevel/)
+* espace de noms [Aspose.Words.Lists](../../../aspose.words.lists/)
 * Assemblée [Aspose.Words](../../../)
-
-

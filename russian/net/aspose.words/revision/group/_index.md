@@ -1,7 +1,9 @@
 ---
 title: Revision.Group
-second_title: Справочник по API Aspose.Words для .NET
-description: Revision свойство. Получает группу редакций. Возвратнулевой если ревизия не принадлежит ни одной группе.
+linktitle: Group
+articleTitle: Group
+second_title: Aspose.Words для .NET
+description: Revision Group свойство. Получает группу редакций. Возвратнулевой если ревизия не принадлежит ни одной группе на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words/revision/group/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words/revision/group/
 public RevisionGroup Group { get; }
 ```
 
-### Примечания
+## Примечания
 
 Ревизия не имеет группы, если тип ревизииStyleDefinitionChangeor , если редакция больше не существует в контексте документа (принята/отклонена).
 
-### Примеры
+## Примеры
 
 Показывает, как работать с изменениями в документе.
 
@@ -102,7 +104,5 @@ Assert.AreEqual("This is revision #1. \rThis is revision #2.", doc.GetText().Tri
 
 * class [RevisionGroup](../../revisiongroup/)
 * class [Revision](../)
-* пространство имен [Aspose.Words](../../revision/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,12 +1,14 @@
 ---
 title: Merger.Merge
-second_title: Aspose.Words für .NET-API-Referenz
-description: Merger methode. Führt die angegebenen Eingabedokumente unter Verwendung der angegebenen Eingabe und Ausgabedateinamen zu einem einzigen Ausgabedokument zusammen.
+linktitle: Merge
+articleTitle: Merge
+second_title: Aspose.Words für .NET
+description: Merger Merge methode. Führt die angegebenen Eingabedokumente unter Verwendung der angegebenen Eingabe und Ausgabedateinamen zu einem einzigen Ausgabedokument zusammen in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words.lowcode/merger/merge/
 ---
-## Merge(string, string[]) {#merge_4}
+## Merge(*string, string[]*) {#merge_4}
 
 Führt die angegebenen Eingabedokumente unter Verwendung der angegebenen Eingabe- und Ausgabedateinamen zu einem einzigen Ausgabedokument zusammen.
 
@@ -19,11 +21,11 @@ public static void Merge(string outputFile, string[] inputFiles)
 | outputFile | String | Der Name der Ausgabedatei. |
 | inputFiles | String[] | Die Namen der Eingabedateien. |
 
-### Bemerkungen
+## Bemerkungen
 
 StandardmäßigKeepSourceFormatting wird eingesetzt.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Dokumente zu einem einzigen Ausgabedokument zusammengeführt werden.
 
@@ -42,12 +44,12 @@ doc.Save(ArtifactsDir + "LowCode.MergeDocument.DocumentInstance.docx");
 ### Siehe auch
 
 * class [Merger](../)
-* namensraum [Aspose.Words.LowCode](../../merger/)
+* namensraum [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
 * Montage [Aspose.Words](../../../)
 
 ---
 
-## Merge(string, string[], SaveFormat, MergeFormatMode) {#merge_5}
+## Merge(*string, string[], [SaveFormat](../../../aspose.words/saveformat/), [MergeFormatMode](../../mergeformatmode/)*) {#merge_5}
 
 Führt die angegebenen Eingabedokumente unter Verwendung der angegebenen Eingabe-Ausgabedateinamen und des endgültigen Dokumentformats zu einem einzigen Ausgabedokument zusammen.
 
@@ -63,7 +65,7 @@ public static void Merge(string outputFile, string[] inputFiles, SaveFormat save
 | saveFormat | SaveFormat | Das Speicherformat. |
 | mergeFormatMode | MergeFormatMode | Gibt an, wie widersprüchliche Formatierungen zusammengeführt werden. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Dokumente zu einem einzigen Ausgabedokument zusammengeführt werden.
 
@@ -84,12 +86,12 @@ doc.Save(ArtifactsDir + "LowCode.MergeDocument.DocumentInstance.docx");
 * enum [SaveFormat](../../../aspose.words/saveformat/)
 * enum [MergeFormatMode](../../mergeformatmode/)
 * class [Merger](../)
-* namensraum [Aspose.Words.LowCode](../../merger/)
+* namensraum [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
 * Montage [Aspose.Words](../../../)
 
 ---
 
-## Merge(string, string[], SaveOptions, MergeFormatMode) {#merge_6}
+## Merge(*string, string[], [SaveOptions](../../../aspose.words.saving/saveoptions/), [MergeFormatMode](../../mergeformatmode/)*) {#merge_6}
 
 Führt die angegebenen Eingabedokumente unter Verwendung der angegebenen Eingabe-Ausgabedateinamen und Speicheroptionen zu einem einzigen Ausgabedokument zusammen.
 
@@ -105,7 +107,7 @@ public static void Merge(string outputFile, string[] inputFiles, SaveOptions sav
 | saveOptions | SaveOptions | Die Speicheroptionen. |
 | mergeFormatMode | MergeFormatMode | Gibt an, wie widersprüchliche Formatierungen zusammengeführt werden. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Dokumente zu einem einzigen Ausgabedokument zusammengeführt werden.
 
@@ -126,12 +128,12 @@ doc.Save(ArtifactsDir + "LowCode.MergeDocument.DocumentInstance.docx");
 * class [SaveOptions](../../../aspose.words.saving/saveoptions/)
 * enum [MergeFormatMode](../../mergeformatmode/)
 * class [Merger](../)
-* namensraum [Aspose.Words.LowCode](../../merger/)
+* namensraum [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
 * Montage [Aspose.Words](../../../)
 
 ---
 
-## Merge(string[], MergeFormatMode) {#merge_1}
+## Merge(*string[], [MergeFormatMode](../../mergeformatmode/)*) {#merge_1}
 
 Führt die angegebenen Eingabedokumente zu einem einzigen Dokument zusammen und gibt zurück[`Document`](../../../aspose.words/document/) Instanz des endgültigen Dokuments.
 
@@ -144,7 +146,7 @@ public static Document Merge(string[] inputFiles, MergeFormatMode mergeFormatMod
 | inputFiles | String[] | Die Namen der Eingabedateien. |
 | mergeFormatMode | MergeFormatMode | Gibt an, wie widersprüchliche Formatierungen zusammengeführt werden. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Dokumente zu einem einzigen Ausgabedokument zusammengeführt werden.
 
@@ -165,12 +167,12 @@ doc.Save(ArtifactsDir + "LowCode.MergeDocument.DocumentInstance.docx");
 * class [Document](../../../aspose.words/document/)
 * enum [MergeFormatMode](../../mergeformatmode/)
 * class [Merger](../)
-* namensraum [Aspose.Words.LowCode](../../merger/)
+* namensraum [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
 * Montage [Aspose.Words](../../../)
 
 ---
 
-## Merge(Stream, Stream[], SaveFormat) {#merge_2}
+## Merge(*Stream, Stream[], [SaveFormat](../../../aspose.words/saveformat/)*) {#merge_2}
 
 Führt die angegebenen Eingabedokumente unter Verwendung der angegebenen Eingabe-Ausgabe-Streams und des endgültigen Dokumentformats zu einem einzigen Ausgabedokument zusammen.
 
@@ -184,7 +186,7 @@ public static void Merge(Stream outputStream, Stream[] inputStreams, SaveFormat 
 | inputStreams | Stream[] | Die Eingabeströme. |
 | saveFormat | SaveFormat | Das Speicherformat. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Dokumente aus einem Stream in einem einzigen Ausgabedokument zusammengeführt werden.
 
@@ -210,12 +212,12 @@ using (FileStream firstStreamIn = new FileStream(MyDir + "Big document.docx", Fi
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
 * class [Merger](../)
-* namensraum [Aspose.Words.LowCode](../../merger/)
+* namensraum [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
 * Montage [Aspose.Words](../../../)
 
 ---
 
-## Merge(Stream, Stream[], SaveOptions, MergeFormatMode) {#merge_3}
+## Merge(*Stream, Stream[], [SaveOptions](../../../aspose.words.saving/saveoptions/), [MergeFormatMode](../../mergeformatmode/)*) {#merge_3}
 
 Führt die angegebenen Eingabedokumente unter Verwendung der angegebenen Eingabe-Ausgabe-Streams und Speicheroptionen zu einem einzigen Ausgabedokument zusammen.
 
@@ -231,7 +233,7 @@ public static void Merge(Stream outputStream, Stream[] inputStreams, SaveOptions
 | saveOptions | SaveOptions | Die Speicheroptionen. |
 | mergeFormatMode | MergeFormatMode | Gibt an, wie widersprüchliche Formatierungen zusammengeführt werden. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Dokumente aus einem Stream in einem einzigen Ausgabedokument zusammengeführt werden.
 
@@ -258,12 +260,12 @@ using (FileStream firstStreamIn = new FileStream(MyDir + "Big document.docx", Fi
 * class [SaveOptions](../../../aspose.words.saving/saveoptions/)
 * enum [MergeFormatMode](../../mergeformatmode/)
 * class [Merger](../)
-* namensraum [Aspose.Words.LowCode](../../merger/)
+* namensraum [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
 * Montage [Aspose.Words](../../../)
 
 ---
 
-## Merge(Stream[], MergeFormatMode) {#merge}
+## Merge(*Stream[], [MergeFormatMode](../../mergeformatmode/)*) {#merge}
 
 Führt die angegebenen Eingabedokumente zu einem einzigen Dokument zusammen und gibt zurück[`Document`](../../../aspose.words/document/) Instanz des endgültigen Dokuments.
 
@@ -276,7 +278,7 @@ public static Document Merge(Stream[] inputStreams, MergeFormatMode mergeFormatM
 | inputStreams | Stream[] | Die Eingabeströme. |
 | mergeFormatMode | MergeFormatMode | Gibt an, wie widersprüchliche Formatierungen zusammengeführt werden. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Dokumente aus einem Stream in einem einzigen Ausgabedokument zusammengeführt werden.
 
@@ -303,7 +305,5 @@ using (FileStream firstStreamIn = new FileStream(MyDir + "Big document.docx", Fi
 * class [Document](../../../aspose.words/document/)
 * enum [MergeFormatMode](../../mergeformatmode/)
 * class [Merger](../)
-* namensraum [Aspose.Words.LowCode](../../merger/)
+* namensraum [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
 * Montage [Aspose.Words](../../../)
-
-

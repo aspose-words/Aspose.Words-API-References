@@ -1,7 +1,9 @@
 ---
-title: Frameset.Frameset
-second_title: Aspose.Words لمراجع .NET API
-description: Frameset البناء. Default_Constructor
+title: Frameset
+linktitle: Frameset
+articleTitle: Frameset
+second_title: Aspose.Words لـ .NET
+description: Frameset البناء. Default_Constructor في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.framesets/frameset/frameset/
@@ -17,7 +19,5 @@ public Frameset()
 ### أنظر أيضا
 
 * class [Frameset](../)
-* مساحة الاسم [Aspose.Words.Framesets](../../frameset/)
+* مساحة الاسم [Aspose.Words.Framesets](../../../aspose.words.framesets/)
 * المجسم [Aspose.Words](../../../)
-
-

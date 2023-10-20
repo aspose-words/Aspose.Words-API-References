@@ -1,7 +1,9 @@
 ---
-title: Class LoadOptions
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Loading.LoadOptions classe. Permette di specificare opzioni aggiuntive come password o URI di base quando si carica un documento in unDocument oggetto.
+title: LoadOptions Class
+linktitle: LoadOptions
+articleTitle: LoadOptions
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Loading.LoadOptions classe. Permette di specificare opzioni aggiuntive come password o URI di base quando si carica un documento in unDocument oggetto in C#.
 type: docs
 weight: 3660
 url: /it/net/aspose.words.loading/loadoptions/
@@ -21,8 +23,8 @@ public class LoadOptions
 | Nome | Descrizione |
 | --- | --- |
 | [LoadOptions](loadoptions/#constructor)() | Inizializza una nuova istanza di questa classe con valori predefiniti. |
-| [LoadOptions](loadoptions/#constructor_2)(string) | Una scorciatoia per inizializzare una nuova istanza di questa classe con la password specificata per caricare un documento crittografato. |
-| [LoadOptions](loadoptions/#constructor_1)(LoadFormat, string, string) | Una scorciatoia per inizializzare una nuova istanza di questa classe con le proprietà impostate sui valori specificati. |
+| [LoadOptions](loadoptions/#constructor_2)(*string*) | Una scorciatoia per inizializzare una nuova istanza di questa classe con la password specificata per caricare un documento crittografato. |
+| [LoadOptions](loadoptions/#constructor_1)(*[LoadFormat](../../aspose.words/loadformat/), string, string*) | Una scorciatoia per inizializzare una nuova istanza di questa classe con le proprietà impostate sui valori specificati. |
 
 ## Proprietà
 
@@ -49,9 +51,9 @@ public class LoadOptions
 
 | Nome | Descrizione |
 | --- | --- |
-| override [Equals](../../aspose.words.loading/loadoptions/equals/)(object) |  |
+| override [Equals](../../aspose.words.loading/loadoptions/equals/)(*object*) |  |
 
-### Esempi
+## Esempi
 
 Mostra come caricare un documento Microsoft Word crittografato.
 
@@ -78,5 +80,3 @@ using (Stream stream = File.OpenRead(MyDir + "Encrypted.docx"))
 
 * spazio dei nomi [Aspose.Words.Loading](../../aspose.words.loading/)
 * assemblea [Aspose.Words](../../)
-
-

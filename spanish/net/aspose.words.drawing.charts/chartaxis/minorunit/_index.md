@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.MinorUnit
-second_title: Referencia de API de Aspose.Words para .NET
-description: ChartAxis propiedad. Devuelve o establece la distancia entre marcas menores.
+linktitle: MinorUnit
+articleTitle: MinorUnit
+second_title: Aspose.Words para .NET
+description: ChartAxis MinorUnit propiedad. Devuelve o establece la distancia entre marcas menores en C#.
 type: docs
 weight: 160
 url: /es/net/aspose.words.drawing.charts/chartaxis/minorunit/
@@ -14,13 +16,13 @@ Devuelve o establece la distancia entre marcas menores.
 public double MinorUnit { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 El rango válido de un valor es mayor que cero. La propiedad tiene efecto para la categoría de tiempo y los ejes de valor .
 
 Establecer esta propiedad establece el[`MinorUnitIsAuto`](../minorunitisauto/) propiedad a`FALSO`.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo insertar un gráfico y modificar la apariencia de sus ejes.
 
@@ -73,7 +75,5 @@ doc.Save(ArtifactsDir + "Charts.AxisProperties.docx");
 ### Ver también
 
 * class [ChartAxis](../)
-* espacio de nombres [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* espacio de nombres [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * asamblea [Aspose.Words](../../../)
-
-

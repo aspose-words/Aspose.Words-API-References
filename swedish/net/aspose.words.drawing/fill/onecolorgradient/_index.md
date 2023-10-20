@@ -1,12 +1,14 @@
 ---
 title: Fill.OneColorGradient
-second_title: Aspose.Words för .NET API Referens
-description: Fill metod. Ställer in den angivna fyllningen till en enfärgsgradient.
+linktitle: OneColorGradient
+articleTitle: OneColorGradient
+second_title: Aspose.Words för .NET
+description: Fill OneColorGradient metod. Ställer in den angivna fyllningen till en enfärgsgradient i C#.
 type: docs
-weight: 220
+weight: 210
 url: /sv/net/aspose.words.drawing/fill/onecolorgradient/
 ---
-## OneColorGradient(GradientStyle, GradientVariant, double) {#onecolorgradient}
+## OneColorGradient(*[GradientStyle](../../gradientstyle/), [GradientVariant](../../gradientvariant/), double*) {#onecolorgradient}
 
 Ställer in den angivna fyllningen till en enfärgsgradient.
 
@@ -20,7 +22,7 @@ public void OneColorGradient(GradientStyle style, GradientVariant variant, doubl
 | variant | GradientVariant | Gradientvarianten[`GradientVariant`](../../gradientvariant/) |
 | degree | Double | Gradientgraden. Kan vara ett värde från 0,0 (mörk) till 1,0 (ljus). |
 
-### Exempel
+## Exempel
 
 Visar hur man fyller en form med övertoningar.
 
@@ -63,12 +65,12 @@ doc.Save(ArtifactsDir + "Shape.GradientFill.docx", saveOptions);
 * enum [GradientStyle](../../gradientstyle/)
 * enum [GradientVariant](../../gradientvariant/)
 * class [Fill](../)
-* namnutrymme [Aspose.Words.Drawing](../../fill/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## OneColorGradient(Color, GradientStyle, GradientVariant, double) {#onecolorgradient_1}
+## OneColorGradient(*Color, [GradientStyle](../../gradientstyle/), [GradientVariant](../../gradientvariant/), double*) {#onecolorgradient_1}
 
 Ställer in den angivna fyllningen till en enfärgsgradient med den angivna färgen.
 
@@ -84,7 +86,7 @@ public void OneColorGradient(Color color, GradientStyle style, GradientVariant v
 | variant | GradientVariant | Gradientvarianten[`GradientVariant`](../../gradientvariant/) |
 | degree | Double | Gradientgraden. Kan vara ett värde från 0,0 (mörk) till 1,0 (ljus). |
 
-### Exempel
+## Exempel
 
 Visar hur man fyller en form med övertoningar.
 
@@ -127,7 +129,5 @@ doc.Save(ArtifactsDir + "Shape.GradientFill.docx", saveOptions);
 * enum [GradientStyle](../../gradientstyle/)
 * enum [GradientVariant](../../gradientvariant/)
 * class [Fill](../)
-* namnutrymme [Aspose.Words.Drawing](../../fill/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

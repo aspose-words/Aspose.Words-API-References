@@ -1,7 +1,9 @@
 ---
-title: Enum NumeralFormat
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Saving.NumeralFormat enum. Indica il set di simboli utilizzato per rappresentare i numeri durante il rendering in formati di pagina fissi.
+title: NumeralFormat Enum
+linktitle: NumeralFormat
+articleTitle: NumeralFormat
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Saving.NumeralFormat enum. Indica il set di simboli utilizzato per rappresentare i numeri durante il rendering in formati di pagina fissi in C#.
 type: docs
 weight: 5310
 url: /it/net/aspose.words.saving/numeralformat/
@@ -24,7 +26,7 @@ public enum NumeralFormat
 | Context | `3` | Il set di simboli viene deciso dal contesto (proprietà locale e RTL). |
 | System | `4` | QUESTA OPZIONE NON È SUPPORTATA. Il set di simboli viene deciso dalle impostazioni regionali. |
 
-### Esempi
+## Esempi
 
 Mostra come impostare il formato numerico utilizzato durante il salvataggio in PDF.
 
@@ -56,5 +58,3 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.SetNumeralFormat.pdf", options);
 
 * spazio dei nomi [Aspose.Words.Saving](../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../)
-
-

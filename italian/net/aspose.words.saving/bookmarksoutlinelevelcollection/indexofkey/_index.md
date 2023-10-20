@@ -1,7 +1,9 @@
 ---
 title: BookmarksOutlineLevelCollection.IndexOfKey
-second_title: Aspose.Words per .NET API Reference
-description: BookmarksOutlineLevelCollection metodo. Restituisce lindice in base zero del segnalibro specificato nella raccolta.
+linktitle: IndexOfKey
+articleTitle: IndexOfKey
+second_title: Aspose.Words per .NET
+description: BookmarksOutlineLevelCollection IndexOfKey metodo. Restituisce lindice in base zero del segnalibro specificato nella raccolta in C#.
 type: docs
 weight: 80
 url: /it/net/aspose.words.saving/bookmarksoutlinelevelcollection/indexofkey/
@@ -22,7 +24,7 @@ public int IndexOfKey(string name)
 
 L'indice a base zero. Valore negativo se non trovato.
 
-### Esempi
+## Esempi
 
 Mostra come impostare i livelli di struttura per i segnalibri.
 
@@ -80,7 +82,5 @@ outlineLevels.Clear();
 ### Guarda anche
 
 * class [BookmarksOutlineLevelCollection](../)
-* spazio dei nomi [Aspose.Words.Saving](../../bookmarksoutlinelevelcollection/)
+* spazio dei nomi [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../../)
-
-

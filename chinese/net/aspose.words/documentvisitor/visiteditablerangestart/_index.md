@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitEditableRangeStart
-second_title: Aspose.Words for .NET API 参考
-description: DocumentVisitor 方法. 在文档中遇到可编辑范围的开头时调用
+linktitle: VisitEditableRangeStart
+articleTitle: VisitEditableRangeStart
+second_title: 用于 .NET 的 Aspose.Words
+description: DocumentVisitor VisitEditableRangeStart 方法. 在文档中遇到可编辑范围的开头时调用 在 C#.
 type: docs
 weight: 170
 url: /zh/net/aspose.words/documentvisitor/visiteditablerangestart/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitEditableRangeStart(EditableRangeStart editable
 
 A[`VisitorAction`](../../visitoraction/)指定如何继续枚举的值。
 
-### 例子
+## 例子
 
 演示如何打印文档中每个可编辑范围的节点结构。
 
@@ -118,7 +120,5 @@ public class EditableRangeStructurePrinter : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [EditableRangeStart](../../editablerangestart/)
 * class [DocumentVisitor](../)
-* 命名空间 [Aspose.Words](../../documentvisitor/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

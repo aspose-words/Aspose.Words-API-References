@@ -1,7 +1,9 @@
 ---
-title: Class Chart
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Drawing.Charts.Chart 班级. 提供对图表形状属性的访问
+title: Chart Class
+linktitle: Chart
+articleTitle: Chart
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Drawing.Charts.Chart 班级. 提供对图表形状属性的访问 在 C#.
 type: docs
 weight: 620
 url: /zh/net/aspose.words.drawing.charts/chart/
@@ -29,7 +31,7 @@ public class Chart
 | [SourceFullName](../../aspose.words.drawing.charts/chart/sourcefullname/) { get; set; } | 获取此图表链接到的 xls/xlsx 文件的路径和名称。 |
 | [Title](../../aspose.words.drawing.charts/chart/title/) { get; } | 提供对图表标题属性的访问。 |
 
-### 例子
+## 例子
 
 演示如何插入图表并设置标题。
 
@@ -58,5 +60,3 @@ doc.Save(ArtifactsDir + "Charts.ChartTitle.docx");
 
 * 命名空间 [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * 部件 [Aspose.Words](../../)
-
-

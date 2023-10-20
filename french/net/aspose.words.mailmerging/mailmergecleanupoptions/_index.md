@@ -1,7 +1,9 @@
 ---
-title: Enum MailMergeCleanupOptions
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.MailMerging.MailMergeCleanupOptions énumération. Spécifie les options qui déterminent quels éléments sont supprimés lors du publipostage.
+title: MailMergeCleanupOptions Enum
+linktitle: MailMergeCleanupOptions
+articleTitle: MailMergeCleanupOptions
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.MailMerging.MailMergeCleanupOptions énumération. Spécifie les options qui déterminent quels éléments sont supprimés lors du publipostage en C#.
 type: docs
 weight: 3850
 url: /fr/net/aspose.words.mailmerging/mailmergecleanupoptions/
@@ -27,7 +29,7 @@ public enum MailMergeCleanupOptions
 | RemoveStaticFields | `10` | Spécifie si les champs statiques doivent être supprimés du document. Les champs statiques sont des champs dont les résultats which restent les mêmes lors de toute modification du document. Les champs, qui ne stockent pas leurs résultats dans un document et sont calculés à la volée (commeFieldListNum , FieldSymbol , etc.) ne sont pas considérés comme statiques. |
 | RemoveEmptyTableRows | `20` | Spécifie si les lignes vides contenant des régions de publipostage doivent être supprimées du document. |
 
-### Exemples
+## Exemples
 
 Montre comment supprimer les paragraphes vides qu’un publipostage peut créer à partir du document de sortie de la fusion.
 
@@ -100,5 +102,3 @@ else
 
 * espace de noms [Aspose.Words.MailMerging](../../aspose.words.mailmerging/)
 * Assemblée [Aspose.Words](../../)
-
-

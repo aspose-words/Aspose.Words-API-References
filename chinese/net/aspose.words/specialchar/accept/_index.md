@@ -1,7 +1,9 @@
 ---
 title: SpecialChar.Accept
-second_title: Aspose.Words for .NET API 参考
-description: SpecialChar 方法. 接受访客
+linktitle: Accept
+articleTitle: Accept
+second_title: 用于 .NET 的 Aspose.Words
+description: SpecialChar Accept 方法. 接受访客 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words/specialchar/accept/
@@ -22,7 +24,7 @@ public override bool Accept(DocumentVisitor visitor)
 
 `错误的`如果访问者请求停止枚举。
 
-### 评论
+## 评论
 
 通话[`VisitSpecialChar`](../../documentvisitor/visitspecialchar/)。
 
@@ -32,7 +34,5 @@ public override bool Accept(DocumentVisitor visitor)
 
 * class [DocumentVisitor](../../documentvisitor/)
 * class [SpecialChar](../)
-* 命名空间 [Aspose.Words](../../specialchar/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

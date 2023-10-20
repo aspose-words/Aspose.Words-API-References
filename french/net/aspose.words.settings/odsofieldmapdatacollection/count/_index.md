@@ -1,7 +1,9 @@
 ---
 title: OdsoFieldMapDataCollection.Count
-second_title: Référence de l'API Aspose.Words pour .NET
-description: OdsoFieldMapDataCollection propriété. Obtient le nombre déléments contenus dans la collection.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words pour .NET
+description: OdsoFieldMapDataCollection Count propriété. Obtient le nombre déléments contenus dans la collection en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.settings/odsofieldmapdatacollection/count/
@@ -14,7 +16,7 @@ Obtient le nombre d'éléments contenus dans la collection.
 public int Count { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment accéder à la collection de données qui mappe les colonnes de la source de données aux champs de fusion.
 
@@ -57,7 +59,5 @@ Assert.AreEqual(0, dataCollection.Count);
 ### Voir également
 
 * class [OdsoFieldMapDataCollection](../)
-* espace de noms [Aspose.Words.Settings](../../odsofieldmapdatacollection/)
+* espace de noms [Aspose.Words.Settings](../../../aspose.words.settings/)
 * Assemblée [Aspose.Words](../../../)
-
-

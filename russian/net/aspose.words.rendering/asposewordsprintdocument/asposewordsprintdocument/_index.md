@@ -1,7 +1,9 @@
 ---
-title: AsposeWordsPrintDocument.AsposeWordsPrintDocument
-second_title: Справочник по API Aspose.Words для .NET
-description: AsposeWordsPrintDocument строитель. Инициализирует новый экземпляр этого класса.
+title: AsposeWordsPrintDocument
+linktitle: AsposeWordsPrintDocument
+articleTitle: AsposeWordsPrintDocument
+second_title: Aspose.Words для .NET
+description: AsposeWordsPrintDocument строитель. Инициализирует новый экземпляр этого класса на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.rendering/asposewordsprintdocument/asposewordsprintdocument/
@@ -18,7 +20,7 @@ public AsposeWordsPrintDocument(Document document)
 | --- | --- | --- |
 | document | Document | Документ для печати. |
 
-### Примеры
+## Примеры
 
 Показывает, как выбрать диапазон страниц и принтер для печати документа, а затем вызвать предварительный просмотр печати.
 
@@ -68,7 +70,5 @@ Console.WriteLine($"The numer of pages printed in color are {awPrintDoc.ColorPag
 
 * class [Document](../../../aspose.words/document/)
 * class [AsposeWordsPrintDocument](../)
-* пространство имен [Aspose.Words.Rendering](../../asposewordsprintdocument/)
+* пространство имен [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * сборка [Aspose.Words](../../../)
-
-

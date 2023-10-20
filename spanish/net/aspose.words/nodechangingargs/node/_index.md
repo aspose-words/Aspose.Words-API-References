@@ -1,7 +1,9 @@
 ---
 title: NodeChangingArgs.Node
-second_title: Referencia de API de Aspose.Words para .NET
-description: NodeChangingArgs propiedad. Obtiene elNode que se está agregando o eliminando.
+linktitle: Node
+articleTitle: Node
+second_title: Aspose.Words para .NET
+description: NodeChangingArgs Node propiedad. Obtiene elNode que se está agregando o eliminando en C#.
 type: docs
 weight: 30
 url: /es/net/aspose.words/nodechangingargs/node/
@@ -14,7 +16,7 @@ Obtiene el`Node` que se está agregando o eliminando.
 public Node Node { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo personalizar el cambio de nodo con una devolución de llamada.
 
@@ -92,7 +94,5 @@ public class HandleNodeChangingFontChanger : INodeChangingCallback
 
 * class [Node](../../node/)
 * class [NodeChangingArgs](../)
-* espacio de nombres [Aspose.Words](../../nodechangingargs/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: EditableRange.EditableRangeEnd
-second_title: Référence de l'API Aspose.Words pour .NET
-description: EditableRange propriété. Obtient le nœud qui représente la fin de la plage modifiable.
+linktitle: EditableRangeEnd
+articleTitle: EditableRangeEnd
+second_title: Aspose.Words pour .NET
+description: EditableRange EditableRangeEnd propriété. Obtient le nœud qui représente la fin de la plage modifiable en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words/editablerange/editablerangeend/
@@ -14,7 +16,7 @@ Obtient le nœud qui représente la fin de la plage modifiable.
 public EditableRangeEnd EditableRangeEnd { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment travailler avec une plage modifiable.
 
@@ -61,7 +63,5 @@ editableRange.Remove();
 
 * class [EditableRangeEnd](../../editablerangeend/)
 * class [EditableRange](../)
-* espace de noms [Aspose.Words](../../editablerange/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

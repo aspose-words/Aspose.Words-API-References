@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.InterpolateImages
-second_title: Referencia de API de Aspose.Words para .NET
-description: PdfSaveOptions propiedad. Un indicador que indica si la interpolación de imágenes debe ser realizada por un lector conforme. CuandoFALSO se especifica la bandera no se escribe en el documento de salida y se utiliza en su lugar el comportamiento predeterminado del lector.
+linktitle: InterpolateImages
+articleTitle: InterpolateImages
+second_title: Aspose.Words para .NET
+description: PdfSaveOptions InterpolateImages propiedad. Un indicador que indica si la interpolación de imágenes debe ser realizada por un lector conforme. CuandoFALSO se especifica la bandera no se escribe en el documento de salida y se utiliza en su lugar el comportamiento predeterminado del lector en C#.
 type: docs
 weight: 210
 url: /es/net/aspose.words.saving/pdfsaveoptions/interpolateimages/
@@ -14,7 +16,7 @@ Un indicador que indica si la interpolación de imágenes debe ser realizada por
 public bool InterpolateImages { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 Cuando la resolución de una imagen de origen es significativamente menor que la del dispositivo de salida, cada muestra de origen cubre muchos píxeles del dispositivo. Como resultado, las imágenes pueden aparecer irregulares o en bloques. Estos artefactos visuales se pueden reducir aplicando un algoritmo de interpolación de imágenes durante la renderización. En lugar de pintar todos los píxeles cubiertos por una muestra de origen con el mismo color, image interpolation intenta producir una imagen suave. transición entre valores de muestra adyacentes.
 
@@ -24,7 +26,7 @@ El valor predeterminado es`FALSO`.
 
 El indicador de interpolación está prohibido por el cumplimiento de PDF/A.`FALSO` El valor se utilizará automáticamente al guardar en PDF/A.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo realizar interpolación en imágenes mientras se guarda un documento en PDF.
 
@@ -75,7 +77,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.InterpolateImagesNetStandard2.pdf", save
 ### Ver también
 
 * class [PdfSaveOptions](../)
-* espacio de nombres [Aspose.Words.Saving](../../pdfsaveoptions/)
+* espacio de nombres [Aspose.Words.Saving](../../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../../)
-
-

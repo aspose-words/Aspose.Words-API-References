@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.MinorUnitScale
-second_title: Aspose.Words für .NET-API-Referenz
-description: ChartAxis eigendom. Gibt den Skalenwert für kleine Teilstriche auf der Zeitkategorieachse zurück oder legt diesen fest.
+linktitle: MinorUnitScale
+articleTitle: MinorUnitScale
+second_title: Aspose.Words für .NET
+description: ChartAxis MinorUnitScale eigendom. Gibt den Skalenwert für kleine Teilstriche auf der Zeitkategorieachse zurück oder legt diesen fest in C#.
 type: docs
 weight: 180
 url: /de/net/aspose.words.drawing.charts/chartaxis/minorunitscale/
@@ -14,11 +16,11 @@ Gibt den Skalenwert für kleine Teilstriche auf der Zeitkategorieachse zurück o
 public AxisTimeUnit MinorUnitScale { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Die Eigenschaft hat nur Auswirkungen auf Zeitkategorieachsen.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Teilstriche und angezeigten Werte einer Diagrammachse manipuliert werden.
 
@@ -77,7 +79,5 @@ doc.Save(ArtifactsDir + "Charts.AxisDisplayUnit.docx");
 
 * enum [AxisTimeUnit](../../axistimeunit/)
 * class [ChartAxis](../)
-* namensraum [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* namensraum [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../../)
-
-

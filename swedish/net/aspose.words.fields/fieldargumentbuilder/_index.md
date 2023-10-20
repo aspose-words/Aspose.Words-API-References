@@ -1,7 +1,9 @@
 ---
-title: Class FieldArgumentBuilder
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Fields.FieldArgumentBuilder klass. Bygger ett komplext fältargument som består av fält noder och vanlig text.
+title: FieldArgumentBuilder Class
+linktitle: FieldArgumentBuilder
+articleTitle: FieldArgumentBuilder
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Fields.FieldArgumentBuilder klass. Bygger ett komplext fältargument som består av fält noder och vanlig text i C#.
 type: docs
 weight: 1550
 url: /sv/net/aspose.words.fields/fieldargumentbuilder/
@@ -26,11 +28,11 @@ public class FieldArgumentBuilder
 
 | namn | Beskrivning |
 | --- | --- |
-| [AddField](../../aspose.words.fields/fieldargumentbuilder/addfield/)(FieldBuilder) | Lägger till ett fält som representeras av en[`FieldBuilder`](../fieldbuilder/) till argumentet. |
-| [AddNode](../../aspose.words.fields/fieldargumentbuilder/addnode/)(Inline) | Lägger till en nod till argumentet. |
-| [AddText](../../aspose.words.fields/fieldargumentbuilder/addtext/)(string) | Lägger till en vanlig text till argumentet. |
+| [AddField](../../aspose.words.fields/fieldargumentbuilder/addfield/)(*[FieldBuilder](../fieldbuilder/)*) | Lägger till ett fält som representeras av en[`FieldBuilder`](../fieldbuilder/) till argumentet. |
+| [AddNode](../../aspose.words.fields/fieldargumentbuilder/addnode/)(*[Inline](../../aspose.words/inline/)*) | Lägger till en nod till argumentet. |
+| [AddText](../../aspose.words.fields/fieldargumentbuilder/addtext/)(*string*) | Lägger till en vanlig text till argumentet. |
 
-### Exempel
+## Exempel
 
 Visar hur man konstruerar fält med en fältbyggare och sedan infogar dem i dokumentet.
 
@@ -114,5 +116,3 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 
 * namnutrymme [Aspose.Words.Fields](../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../)
-
-

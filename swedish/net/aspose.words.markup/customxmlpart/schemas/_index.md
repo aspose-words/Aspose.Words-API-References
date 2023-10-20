@@ -1,7 +1,9 @@
 ---
 title: CustomXmlPart.Schemas
-second_title: Aspose.Words för .NET API Referens
-description: CustomXmlPart fast egendom. Anger uppsättningen XMLscheman som är associerade med den här anpassade XMLdelen.
+linktitle: Schemas
+articleTitle: Schemas
+second_title: Aspose.Words för .NET
+description: CustomXmlPart Schemas fast egendom. Anger uppsättningen XMLscheman som är associerade med den här anpassade XMLdelen i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.markup/customxmlpart/schemas/
@@ -14,7 +16,7 @@ Anger uppsättningen XML-scheman som är associerade med den här anpassade XML-
 public CustomXmlSchemaCollection Schemas { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man skapar en strukturerad dokumenttagg med anpassade XML-data.
 
@@ -82,7 +84,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.CustomXml.docx");
 
 * class [CustomXmlSchemaCollection](../../customxmlschemacollection/)
 * class [CustomXmlPart](../)
-* namnutrymme [Aspose.Words.Markup](../../customxmlpart/)
+* namnutrymme [Aspose.Words.Markup](../../../aspose.words.markup/)
 * hopsättning [Aspose.Words](../../../)
-
-

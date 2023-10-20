@@ -1,7 +1,9 @@
 ---
 title: DocumentPropertyCollection.Contains
-second_title: Aspose.Words for .NET API 参考
-description: DocumentPropertyCollection 方法. 返回真的如果集合中存在具有指定名称的属性
+linktitle: Contains
+articleTitle: Contains
+second_title: 用于 .NET 的 Aspose.Words
+description: DocumentPropertyCollection Contains 方法. 返回真的如果集合中存在具有指定名称的属性 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.properties/documentpropertycollection/contains/
@@ -22,7 +24,7 @@ public bool Contains(string name)
 
 `真的`如果该属性存在于集合中；`错误的`否则。
 
-### 例子
+## 例子
 
 展示如何使用文档的自定义属性。
 
@@ -82,7 +84,5 @@ Assert.AreEqual(0, properties.Count);
 ### 也可以看看
 
 * class [DocumentPropertyCollection](../)
-* 命名空间 [Aspose.Words.Properties](../../documentpropertycollection/)
+* 命名空间 [Aspose.Words.Properties](../../../aspose.words.properties/)
 * 部件 [Aspose.Words](../../../)
-
-

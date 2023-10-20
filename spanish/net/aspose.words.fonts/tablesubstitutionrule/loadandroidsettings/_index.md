@@ -1,7 +1,9 @@
 ---
 title: TableSubstitutionRule.LoadAndroidSettings
-second_title: Referencia de API de Aspose.Words para .NET
-description: TableSubstitutionRule método. Carga la configuración de sustitución de tablas predefinida para la plataforma Android.
+linktitle: LoadAndroidSettings
+articleTitle: LoadAndroidSettings
+second_title: Aspose.Words para .NET
+description: TableSubstitutionRule LoadAndroidSettings método. Carga la configuración de sustitución de tablas predefinida para la plataforma Android en C#.
 type: docs
 weight: 40
 url: /es/net/aspose.words.fonts/tablesubstitutionrule/loadandroidsettings/
@@ -17,7 +19,5 @@ public void LoadAndroidSettings()
 ### Ver también
 
 * class [TableSubstitutionRule](../)
-* espacio de nombres [Aspose.Words.Fonts](../../tablesubstitutionrule/)
+* espacio de nombres [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * asamblea [Aspose.Words](../../../)
-
-

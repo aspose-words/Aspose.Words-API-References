@@ -1,7 +1,9 @@
 ---
 title: Document.Theme
-second_title: Referencia de API de Aspose.Words para .NET
-description: Document propiedad. Obtiene elTheme objeto para este documento.
+linktitle: Theme
+articleTitle: Theme
+second_title: Aspose.Words para .NET
+description: Document Theme propiedad. Obtiene elTheme objeto para este documento en C#.
 type: docs
 weight: 420
 url: /es/net/aspose.words/document/theme/
@@ -14,7 +16,7 @@ Obtiene el`Theme` objeto para este documento.
 public Theme Theme { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo configurar colores y fuentes personalizados para temas.
 
@@ -63,7 +65,5 @@ doc.Save(ArtifactsDir + "Themes.CustomColorsAndFonts.docx");
 
 * class [Theme](../../../aspose.words.themes/theme/)
 * class [Document](../)
-* espacio de nombres [Aspose.Words](../../document/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FontSubstitutionSettings.TableSubstitution
-second_title: Aspose.Words für .NET-API-Referenz
-description: FontSubstitutionSettings eigendom. Einstellungen im Zusammenhang mit der Tabellenersetzungsregel.
+linktitle: TableSubstitution
+articleTitle: TableSubstitution
+second_title: Aspose.Words für .NET
+description: FontSubstitutionSettings TableSubstitution eigendom. Einstellungen im Zusammenhang mit der Tabellenersetzungsregel in C#.
 type: docs
 weight: 50
 url: /de/net/aspose.words.fonts/fontsubstitutionsettings/tablesubstitution/
@@ -14,7 +16,7 @@ Einstellungen im Zusammenhang mit der Tabellenersetzungsregel.
 public TableSubstitutionRule TableSubstitution { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit benutzerdefinierten Schriftartersetzungstabellen gearbeitet wird.
 
@@ -76,7 +78,5 @@ doc.Save(ArtifactsDir + "FontSettings.TableSubstitutionRule.Custom.pdf");
 
 * class [TableSubstitutionRule](../../tablesubstitutionrule/)
 * class [FontSubstitutionSettings](../)
-* namensraum [Aspose.Words.Fonts](../../fontsubstitutionsettings/)
+* namensraum [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * Montage [Aspose.Words](../../../)
-
-

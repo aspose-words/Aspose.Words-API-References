@@ -1,7 +1,9 @@
 ---
 title: Field.Format
-second_title: Aspose.Words per .NET API Reference
-description: Field proprietà. Ottiene aFieldFormat oggetto che fornisce accesso digitato alla formattazione del campo.
+linktitle: Format
+articleTitle: Format
+second_title: Aspose.Words per .NET
+description: Field Format proprietà. Ottiene aFieldFormat oggetto che fornisce accesso digitato alla formattazione del campo in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words.fields/field/format/
@@ -14,7 +16,7 @@ Ottiene a[`FieldFormat`](../../fieldformat/) oggetto che fornisce accesso digita
 public FieldFormat Format { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come formattare i risultati dei campi.
 
@@ -79,7 +81,5 @@ Assert.AreEqual(0, format.GeneralFormats.Count);
 
 * class [FieldFormat](../../fieldformat/)
 * class [Field](../)
-* spazio dei nomi [Aspose.Words.Fields](../../field/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

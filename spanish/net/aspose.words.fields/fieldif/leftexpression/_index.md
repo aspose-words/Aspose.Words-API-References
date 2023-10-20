@@ -1,7 +1,9 @@
 ---
 title: FieldIf.LeftExpression
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldIf propiedad. Obtiene o establece la parte izquierda de la expresión de comparación.
+linktitle: LeftExpression
+articleTitle: LeftExpression
+second_title: Aspose.Words para .NET
+description: FieldIf LeftExpression propiedad. Obtiene o establece la parte izquierda de la expresión de comparación en C#.
 type: docs
 weight: 40
 url: /es/net/aspose.words.fields/fieldif/leftexpression/
@@ -14,7 +16,7 @@ Obtiene o establece la parte izquierda de la expresión de comparación.
 public string LeftExpression { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo insertar un campo IF.
 
@@ -60,7 +62,5 @@ doc.Save(ArtifactsDir + "Field.IF.docx");
 ### Ver también
 
 * class [FieldIf](../)
-* espacio de nombres [Aspose.Words.Fields](../../fieldif/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldDate.UseUmAlQuraCalendar
-second_title: Aspose.Words لمراجع .NET API
-description: FieldDate ملكية. الحصول على أو تحديد ما إذا كان سيتم استخدام تقويم أم القرى.
+linktitle: UseUmAlQuraCalendar
+articleTitle: UseUmAlQuraCalendar
+second_title: Aspose.Words لـ .NET
+description: FieldDate UseUmAlQuraCalendar ملكية. الحصول على أو تحديد ما إذا كان سيتم استخدام تقويم أم القرى في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.fields/fielddate/useumalquracalendar/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fielddate/useumalquracalendar/
 public bool UseUmAlQuraCalendar { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام حقول التاريخ لعرض التواريخ وفقًا لأنواع مختلفة من التقويمات.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "Field.DATE.docx");
 ### أنظر أيضا
 
 * class [FieldDate](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fielddate/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

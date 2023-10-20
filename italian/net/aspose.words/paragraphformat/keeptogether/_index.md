@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.KeepTogether
-second_title: Aspose.Words per .NET API Reference
-description: ParagraphFormat proprietà. Vero se tutte le righe del paragrafo devono rimanere sulla stessa pagina.
+linktitle: KeepTogether
+articleTitle: KeepTogether
+second_title: Aspose.Words per .NET
+description: ParagraphFormat KeepTogether proprietà. Vero se tutte le righe del paragrafo devono rimanere sulla stessa pagina in C#.
 type: docs
 weight: 160
 url: /it/net/aspose.words/paragraphformat/keeptogether/
@@ -14,7 +16,7 @@ Vero se tutte le righe del paragrafo devono rimanere sulla stessa pagina.
 public bool KeepTogether { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come inserire un paragrafo nel documento.
 
@@ -46,7 +48,5 @@ Assert.True(builder.CurrentParagraph.IsEndOfDocument);
 ### Guarda anche
 
 * class [ParagraphFormat](../)
-* spazio dei nomi [Aspose.Words](../../paragraphformat/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

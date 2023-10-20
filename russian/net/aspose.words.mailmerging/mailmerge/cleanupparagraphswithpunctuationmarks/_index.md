@@ -1,7 +1,9 @@
 ---
 title: MailMerge.CleanupParagraphsWithPunctuationMarks
-second_title: Справочник по API Aspose.Words для .NET
-description: MailMerge свойство. Получает или задает значение указывающее считаются ли абзацы со знаками препинания пустыми и должны ли они быть удалены еслиRemoveEmptyParagraphs указана опция.
+linktitle: CleanupParagraphsWithPunctuationMarks
+articleTitle: CleanupParagraphsWithPunctuationMarks
+second_title: Aspose.Words для .NET
+description: MailMerge CleanupParagraphsWithPunctuationMarks свойство. Получает или задает значение указывающее считаются ли абзацы со знаками препинания пустыми и должны ли они быть удалены еслиRemoveEmptyParagraphs указана опция на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.mailmerging/mailmerge/cleanupparagraphswithpunctuationmarks/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.mailmerging/mailmerge/cleanupparagraphswithpunctuation
 public bool CleanupParagraphsWithPunctuationMarks { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Значение по умолчанию:`истинный` .
 
@@ -29,7 +31,7 @@ public bool CleanupParagraphsWithPunctuationMarks { get; set; }
 * ¡
 * ¿
 
-### Примеры
+## Примеры
 
 Показывает, как удалить абзацы со знаками препинания после операции слияния писем.
 
@@ -63,7 +65,5 @@ doc.Save(ArtifactsDir + "MailMerge.RemoveColonBetweenEmptyMergeFields.docx");
 ### Смотрите также
 
 * class [MailMerge](../)
-* пространство имен [Aspose.Words.MailMerging](../../mailmerge/)
+* пространство имен [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * сборка [Aspose.Words](../../../)
-
-

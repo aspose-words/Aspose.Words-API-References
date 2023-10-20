@@ -1,7 +1,9 @@
 ---
 title: Row.FirstCell
-second_title: Справочник по API Aspose.Words для .NET
-description: Row свойство. Возвращает первыйCell в строке.
+linktitle: FirstCell
+articleTitle: FirstCell
+second_title: Aspose.Words для .NET
+description: Row FirstCell свойство. Возвращает первыйCell в строке на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.tables/row/firstcell/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.tables/row/firstcell/
 public Cell FirstCell { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как распечатать структуру узлов каждой таблицы в документе.
 
@@ -178,7 +180,5 @@ public class TableStructurePrinter : DocumentVisitor
 
 * class [Cell](../../cell/)
 * class [Row](../)
-* пространство имен [Aspose.Words.Tables](../../row/)
+* пространство имен [Aspose.Words.Tables](../../../aspose.words.tables/)
 * сборка [Aspose.Words](../../../)
-
-

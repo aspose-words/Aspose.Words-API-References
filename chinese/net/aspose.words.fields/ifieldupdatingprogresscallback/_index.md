@@ -1,7 +1,9 @@
 ---
-title: Interface IFieldUpdatingProgressCallback
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Fields.IFieldUpdatingProgressCallback 界面. 如果您想跟踪字段更新进度请实现此接口
+title: IFieldUpdatingProgressCallback Interface
+linktitle: IFieldUpdatingProgressCallback
+articleTitle: IFieldUpdatingProgressCallback
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Fields.IFieldUpdatingProgressCallback 界面. 如果您想跟踪字段更新进度请实现此接口 在 C#.
 type: docs
 weight: 2730
 url: /zh/net/aspose.words.fields/ifieldupdatingprogresscallback/
@@ -18,9 +20,9 @@ public interface IFieldUpdatingProgressCallback
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Notify](../../aspose.words.fields/ifieldupdatingprogresscallback/notify/)(FieldUpdatingProgressArgs) | 更新进度更改时调用的用户定义方法。 |
+| [Notify](../../aspose.words.fields/ifieldupdatingprogresscallback/notify/)(*[FieldUpdatingProgressArgs](../fieldupdatingprogressargs/)*) | 更新进度更改时调用的用户定义方法。 |
 
-### 例子
+## 例子
 
 演示如何在字段更新期间使用回调方法。
 
@@ -89,5 +91,3 @@ public class FieldUpdatingCallback : IFieldUpdatingCallback, IFieldUpdatingProgr
 
 * 命名空间 [Aspose.Words.Fields](../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../)
-
-

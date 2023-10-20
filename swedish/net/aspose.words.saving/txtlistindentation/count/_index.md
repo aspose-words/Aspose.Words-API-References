@@ -1,7 +1,9 @@
 ---
 title: TxtListIndentation.Count
-second_title: Aspose.Words för .NET API Referens
-description: TxtListIndentation fast egendom. Hämtar eller ställer in hur mångaCharacter att använda som indrag per en listnivå. Standardvärdet är 0 det betyder ingen indrag.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words för .NET
+description: TxtListIndentation Count fast egendom. Hämtar eller ställer in hur mångaCharacter att använda som indrag per en listnivå. Standardvärdet är 0 det betyder ingen indrag i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.saving/txtlistindentation/count/
@@ -14,7 +16,7 @@ Hämtar eller ställer in hur många[`Character`](../character/) att använda so
 public int Count { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du konfigurerar listindrag när du sparar ett dokument som klartext.
 
@@ -54,7 +56,5 @@ Assert.AreEqual("1. Item 1\r\n" +
 ### Se även
 
 * class [TxtListIndentation](../)
-* namnutrymme [Aspose.Words.Saving](../../txtlistindentation/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

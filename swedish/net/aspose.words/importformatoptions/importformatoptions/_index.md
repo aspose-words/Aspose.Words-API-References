@@ -1,7 +1,9 @@
 ---
-title: ImportFormatOptions.ImportFormatOptions
-second_title: Aspose.Words för .NET API Referens
-description: ImportFormatOptions byggare. Default_Constructor
+title: ImportFormatOptions
+linktitle: ImportFormatOptions
+articleTitle: ImportFormatOptions
+second_title: Aspose.Words för .NET
+description: ImportFormatOptions byggare. Default_Constructor i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words/importformatoptions/importformatoptions/
@@ -17,7 +19,5 @@ public ImportFormatOptions()
 ### Se även
 
 * class [ImportFormatOptions](../)
-* namnutrymme [Aspose.Words](../../importformatoptions/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

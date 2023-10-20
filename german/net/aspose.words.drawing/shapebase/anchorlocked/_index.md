@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.AnchorLocked
-second_title: Aspose.Words für .NET-API-Referenz
-description: ShapeBase eigendom. Gibt an ob der Anker der Form gesperrt ist.
+linktitle: AnchorLocked
+articleTitle: AnchorLocked
+second_title: Aspose.Words für .NET
+description: ShapeBase AnchorLocked eigendom. Gibt an ob der Anker der Form gesperrt ist in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.drawing/shapebase/anchorlocked/
@@ -14,7 +16,7 @@ Gibt an, ob der Anker der Form gesperrt ist.
 public bool AnchorLocked { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Der Standardwert ist`FALSCH`.
 
@@ -22,7 +24,7 @@ Hat nur Auswirkungen auf Formen der obersten Ebene.
 
 Diese Eigenschaft beeinflusst das Verhalten des Ankers der Form in Microsoft Word. Wenn der Anker nicht gesperrt ist, kann das Verschieben der Form in Microsoft Word auch den Anker der Form verschieben .
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie der Absatzanker einer Form gesperrt oder entsperrt wird.
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "Shape.AnchorLocked.docx");
 ### Siehe auch
 
 * class [ShapeBase](../)
-* namensraum [Aspose.Words.Drawing](../../shapebase/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

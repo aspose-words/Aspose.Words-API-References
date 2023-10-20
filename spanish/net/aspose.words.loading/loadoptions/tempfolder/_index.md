@@ -1,7 +1,9 @@
 ---
 title: LoadOptions.TempFolder
-second_title: Referencia de API de Aspose.Words para .NET
-description: LoadOptions propiedad. Permite utilizar archivos temporales al leer el documento. Por defecto esta propiedad esnulo y no se utilizan archivos temporales.
+linktitle: TempFolder
+articleTitle: TempFolder
+second_title: Aspose.Words para .NET
+description: LoadOptions TempFolder propiedad. Permite utilizar archivos temporales al leer el documento. Por defecto esta propiedad esnulo y no se utilizan archivos temporales en C#.
 type: docs
 weight: 150
 url: /es/net/aspose.words.loading/loadoptions/tempfolder/
@@ -14,13 +16,13 @@ Permite utilizar archivos temporales al leer el documento. Por defecto esta prop
 public string TempFolder { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 La carpeta debe existir y poder escribirse; de lo contrario, se generará una excepción.
 
 Aspose.Words elimina automáticamente todos los archivos temporales cuando se completa la lectura.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo cargar un documento usando archivos temporales.
 
@@ -56,7 +58,5 @@ Assert.That(Directory.GetFiles(options.TempFolder), Is.Empty);
 ### Ver también
 
 * class [LoadOptions](../)
-* espacio de nombres [Aspose.Words.Loading](../../loadoptions/)
+* espacio de nombres [Aspose.Words.Loading](../../../aspose.words.loading/)
 * asamblea [Aspose.Words](../../../)
-
-

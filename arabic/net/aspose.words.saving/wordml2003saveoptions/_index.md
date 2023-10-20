@@ -1,7 +1,9 @@
 ---
-title: Class WordML2003SaveOptions
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Saving.WordML2003SaveOptions فصل. يمكن استخدامه لتحديد خيارات إضافية عند حفظ مستند في ملفWordML التنسيق.
+title: WordML2003SaveOptions Class
+linktitle: WordML2003SaveOptions
+articleTitle: WordML2003SaveOptions
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Saving.WordML2003SaveOptions فصل. يمكن استخدامه لتحديد خيارات إضافية عند حفظ مستند في ملفWordML التنسيق في C#.
 type: docs
 weight: 5680
 url: /ar/net/aspose.words.saving/wordml2003saveoptions/
@@ -28,7 +30,7 @@ public class WordML2003SaveOptions : SaveOptions
 | --- | --- |
 | [AllowEmbeddingPostScriptFonts](../../aspose.words.saving/saveoptions/allowembeddingpostscriptfonts/) { get; set; } | الحصول على قيمة منطقية أو تعيينها تشير إلى ما إذا كان سيتم السماح بدمج الخطوط باستخدام مخططات PostScript عند حفظ تضمين خطوط TrueType في مستند. القيمة الافتراضية هي`خطأ شنيع` . |
 | [CustomTimeZoneInfo](../../aspose.words.saving/saveoptions/customtimezoneinfo/) { get; set; } | الحصول على أو تعيين المنطقة الزمنية المحلية المخصصة المستخدمة لحقول التاريخ/الوقت. |
-| [DefaultTemplate](../../aspose.words.saving/saveoptions/defaulttemplate/) { get; set; } | الحصول على أو تعيين المسار إلى القالب الافتراضي (بما في ذلك اسم الملف). القيمة الافتراضية لهذه الخاصية هي **سلسلة فارغة** (Empty). |
+| [DefaultTemplate](../../aspose.words.saving/saveoptions/defaulttemplate/) { get; set; } | الحصول على أو تعيين المسار إلى القالب الافتراضي (بما في ذلك اسم الملف). القيمة الافتراضية لهذه الخاصية هي**سلسلة فارغة** (Empty). |
 | [Dml3DEffectsRenderingMode](../../aspose.words.saving/saveoptions/dml3deffectsrenderingmode/) { get; set; } | الحصول على قيمة أو تعيينها لتحديد كيفية عرض التأثيرات ثلاثية الأبعاد. |
 | virtual [DmlEffectsRenderingMode](../../aspose.words.saving/saveoptions/dmleffectsrenderingmode/) { get; set; } | الحصول على قيمة أو تعيينها لتحديد كيفية عرض تأثيرات DrawML. |
 | [DmlRenderingMode](../../aspose.words.saving/saveoptions/dmlrenderingmode/) { get; set; } | الحصول على قيمة أو تعيينها لتحديد كيفية عرض أشكال DrawML. |
@@ -46,11 +48,11 @@ public class WordML2003SaveOptions : SaveOptions
 | [UseAntiAliasing](../../aspose.words.saving/saveoptions/useantialiasing/) { get; set; } | الحصول على قيمة أو تعيينها لتحديد ما إذا كان سيتم استخدام الصقل للعرض أم لا. |
 | [UseHighQualityRendering](../../aspose.words.saving/saveoptions/usehighqualityrendering/) { get; set; } | الحصول على قيمة أو تعيينها لتحديد ما إذا كان سيتم استخدام خوارزميات عرض عالية الجودة (أي بطيئة) أم لا. |
 
-### ملاحظات
+## ملاحظات
 
 في هذه اللحظة يوفر فقط[`SaveFormat`](./saveformat/)الملكية، ولكن في المستقبل قد يكون هناك خيارات أخرى مضافة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدارة تحسين الذاكرة.
 
@@ -118,5 +120,3 @@ else
 * class [SaveOptions](../saveoptions/)
 * مساحة الاسم [Aspose.Words.Saving](../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../)
-
-

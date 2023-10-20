@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ScaleImageToShapeSize
-second_title: Referencia de API de Aspose.Words para .NET
-description: HtmlSaveOptions propiedad. Especifica si Aspose.Words escala las imágenes al tamaño de la forma delimitadora al exportar a HTML MHTML o EPUB. El valor predeterminado esverdadero .
+linktitle: ScaleImageToShapeSize
+articleTitle: ScaleImageToShapeSize
+second_title: Aspose.Words para .NET
+description: HtmlSaveOptions ScaleImageToShapeSize propiedad. Especifica si Aspose.Words escala las imágenes al tamaño de la forma delimitadora al exportar a HTML MHTML o EPUB. El valor predeterminado esverdadero  en C#.
 type: docs
 weight: 450
 url: /es/net/aspose.words.saving/htmlsaveoptions/scaleimagetoshapesize/
@@ -14,7 +16,7 @@ Especifica si Aspose.Words escala las imágenes al tamaño de la forma delimitad
 public bool ScaleImageToShapeSize { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 Una imagen en un documento de Microsoft Word es una forma. La forma tiene un tamaño y la imagen tiene su propio tamaño. Los tamaños no están directamente relacionados. Por ejemplo, la imagen puede tener 1024x786 píxeles, pero la forma que muestra esta imagen puede tener 400x300 puntos.
 
@@ -26,7 +28,7 @@ En general, los navegadores realizan un escalado rápido y de mala calidad. Como
 
 Además de las formas que contienen imágenes rasterizadas individuales, esta opción también afecta a las formas grupales que consisten de imágenes rasterizadas. Si`ScaleImageToShapeSize` es`FALSO` y una forma de grupo contiene imágenes rasterizadas cuya resolución intrínseca es mayor que el valor especificado en[`ImageResolution`](../imageresolution/), Aspose.Words aumentará la resolución de renderizado para ese grupo. Esto permite preservar mejor la calidad de las imágenes agrupadas de alta resolución al guardarlas en HTML.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo deshabilitar la escala de imágenes a sus dimensiones de forma principal al guardarlas en .html.
 
@@ -82,7 +84,5 @@ Document doc = new Document();
 
 * property [ImageResolution](../imageresolution/)
 * class [HtmlSaveOptions](../)
-* espacio de nombres [Aspose.Words.Saving](../../htmlsaveoptions/)
+* espacio de nombres [Aspose.Words.Saving](../../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../../)
-
-

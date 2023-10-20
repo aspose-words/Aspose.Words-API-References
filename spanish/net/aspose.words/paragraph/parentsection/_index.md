@@ -1,7 +1,9 @@
 ---
 title: Paragraph.ParentSection
-second_title: Referencia de API de Aspose.Words para .NET
-description: Paragraph propiedad. Recupera el padreSection del párrafo.
+linktitle: ParentSection
+articleTitle: ParentSection
+second_title: Aspose.Words para .NET
+description: Paragraph ParentSection propiedad. Recupera el padreSection del párrafo en C#.
 type: docs
 weight: 200
 url: /es/net/aspose.words/paragraph/parentsection/
@@ -14,7 +16,7 @@ Recupera el padre[`Section`](../../section/) del párrafo.
 public Section ParentSection { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear un encabezado y un pie de página.
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "HeaderFooter.Create.docx");
 
 * class [Section](../../section/)
 * class [Paragraph](../)
-* espacio de nombres [Aspose.Words](../../paragraph/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

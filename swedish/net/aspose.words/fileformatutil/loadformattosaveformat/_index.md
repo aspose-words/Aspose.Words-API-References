@@ -1,7 +1,9 @@
 ---
 title: FileFormatUtil.LoadFormatToSaveFormat
-second_title: Aspose.Words för .NET API Referens
-description: FileFormatUtil metod. Konverterar enLoadFormat värde till aSaveFormat värde om möjligt.
+linktitle: LoadFormatToSaveFormat
+articleTitle: LoadFormatToSaveFormat
+second_title: Aspose.Words för .NET
+description: FileFormatUtil LoadFormatToSaveFormat metod. Konverterar enLoadFormat värde till aSaveFormat värde om möjligt i C#.
 type: docs
 weight: 70
 url: /sv/net/aspose.words/fileformatutil/loadformattosaveformat/
@@ -20,7 +22,7 @@ public static SaveFormat LoadFormatToSaveFormat(LoadFormat loadFormat)
 | --- | --- |
 | ArgumentException | Kastar när det inte går att konvertera. |
 
-### Exempel
+## Exempel
 
 Visar hur du använder FileFormatUtil-metoderna för att upptäcka formatet på ett dokument.
 
@@ -55,7 +57,5 @@ using (FileStream docStream = File.OpenRead(MyDir + "Word document with missing 
 * enum [SaveFormat](../../saveformat/)
 * enum [LoadFormat](../../loadformat/)
 * class [FileFormatUtil](../)
-* namnutrymme [Aspose.Words](../../fileformatutil/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,12 +1,14 @@
 ---
 title: Aspose.Words.Drawing
-second_title: Referencia de API de Aspose.Words para .NET
-description: El Aspose.Palabras.Dibujo El espacio de nombres proporciona clases que permiten crear y modificar objetos de dibujo.
+linktitle: Aspose.Words.Drawing
+articleTitle: Aspose.Words.Drawing
+second_title: Aspose.Words para .NET
+description: ElAspose.Palabras.Dibujo El espacio de nombres proporciona clases que permiten crear y modificar objetos de dibujo en C#.
 type: docs
 weight: 50
 url: /es/net/aspose.words.drawing/
 ---
-El **Aspose.Palabras.Dibujo** El espacio de nombres proporciona clases que permiten crear y modificar objetos de dibujo.
+El**Aspose.Palabras.Dibujo** El espacio de nombres proporciona clases que permiten crear y modificar objetos de dibujo.
 
 ## Clases
 
@@ -63,5 +65,3 @@ El **Aspose.Palabras.Dibujo** El espacio de nombres proporciona clases que permi
 | [VerticalAlignment](./verticalalignment/) | Especifica la alineación vertical de una forma flotante, un marco de texto o una tabla flotante. |
 | [WrapSide](./wrapside/) | Especifica qué lado(s) de la forma o imagen rodea el texto. |
 | [WrapType](./wraptype/) | Especifica cómo se ajusta el texto alrededor de una forma o imagen. |
-
-

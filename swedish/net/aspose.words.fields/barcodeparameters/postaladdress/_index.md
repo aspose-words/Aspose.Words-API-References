@@ -1,7 +1,9 @@
 ---
 title: BarcodeParameters.PostalAddress
-second_title: Aspose.Words för .NET API Referens
-description: BarcodeParameters fast egendom. Streckkod postadress.
+linktitle: PostalAddress
+articleTitle: PostalAddress
+second_title: Aspose.Words för .NET
+description: BarcodeParameters PostalAddress fast egendom. Streckkod postadress i C#.
 type: docs
 weight: 150
 url: /sv/net/aspose.words.fields/barcodeparameters/postaladdress/
@@ -14,7 +16,7 @@ Streckkod postadress.
 public string PostalAddress { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man använder en streckkodsgenerator.
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.docx");
 ### Se även
 
 * class [BarcodeParameters](../)
-* namnutrymme [Aspose.Words.Fields](../../barcodeparameters/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

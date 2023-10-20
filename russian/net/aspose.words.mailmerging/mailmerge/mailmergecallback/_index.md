@@ -1,7 +1,9 @@
 ---
 title: MailMerge.MailMergeCallback
-second_title: Справочник по API Aspose.Words для .NET
-description: MailMerge свойство. Позволяет обрабатывать определенные события во время слияния почты.
+linktitle: MailMergeCallback
+articleTitle: MailMergeCallback
+second_title: Aspose.Words для .NET
+description: MailMerge MailMergeCallback свойство. Позволяет обрабатывать определенные события во время слияния почты на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.mailmerging/mailmerge/mailmergecallback/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.mailmerging/mailmerge/mailmergecallback/
 public IMailMergeCallback MailMergeCallback { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как определить пользовательскую логику для обработки событий во время слияния почты.
 
@@ -66,7 +68,5 @@ private class MailMergeTagReplacementCounter : IMailMergeCallback
 
 * interface [IMailMergeCallback](../../imailmergecallback/)
 * class [MailMerge](../)
-* пространство имен [Aspose.Words.MailMerging](../../mailmerge/)
+* пространство имен [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * сборка [Aspose.Words](../../../)
-
-

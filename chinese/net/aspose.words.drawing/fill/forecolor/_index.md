@@ -1,9 +1,11 @@
 ---
 title: Fill.ForeColor
-second_title: Aspose.Words for .NET API 参考
-description: Fill 财产. 获取或设置一个 Color 对象该对象表示填充的前景色
+linktitle: ForeColor
+articleTitle: ForeColor
+second_title: 用于 .NET 的 Aspose.Words
+description: Fill ForeColor 财产. 获取或设置一个 Color 对象该对象表示填充的前景色 在 C#.
 type: docs
-weight: 70
+weight: 60
 url: /zh/net/aspose.words.drawing/fill/forecolor/
 ---
 ## Fill.ForeColor property
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.drawing/fill/forecolor/
 public Color ForeColor { get; set; }
 ```
 
-### 评论
+## 评论
 
 该属性重置 alpha 分量Color与完全不透明的颜色不同[`Color`](../color/)财产，从而保护它。
 
-### 例子
+## 例子
 
 展示创造出各种形状。
 
@@ -93,7 +95,5 @@ doc.Save(ArtifactsDir + "Drawing.VariousShapes.docx");
 ### 也可以看看
 
 * class [Fill](../)
-* 命名空间 [Aspose.Words.Drawing](../../fill/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

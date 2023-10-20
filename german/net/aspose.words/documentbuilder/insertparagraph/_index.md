@@ -1,9 +1,11 @@
 ---
 title: DocumentBuilder.InsertParagraph
-second_title: Aspose.Words für .NET-API-Referenz
-description: DocumentBuilder methode. Fügt einen Absatzumbruch in das Dokument ein.
+linktitle: InsertParagraph
+articleTitle: InsertParagraph
+second_title: Aspose.Words für .NET
+description: DocumentBuilder InsertParagraph methode. Fügt einen Absatzumbruch in das Dokument ein in C#.
 type: docs
-weight: 430
+weight: 420
 url: /de/net/aspose.words/documentbuilder/insertparagraph/
 ---
 ## DocumentBuilder.InsertParagraph method
@@ -18,7 +20,7 @@ public Paragraph InsertParagraph()
 
 Der gerade eingefügte Absatzknoten. Es ist derselbe Knoten wie[`CurrentParagraph`](../currentparagraph/).
 
-### Bemerkungen
+## Bemerkungen
 
 Aktuelle Absatzformatierung, die durch angegeben wird[`ParagraphFormat`](../paragraphformat/) Eigentum genutzt wird.
 
@@ -26,7 +28,7 @@ Teilt den aktuellen Absatz in zwei Teile. Nach dem Einfügen des Absatzes wird d
 
 Wenn es nicht möglich ist, an der aktuellen Cursorposition einen Absatzumbruch einzufügen, wird eine Ausnahme ausgelöst.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Absatz in das Dokument eingefügt wird.
 
@@ -59,7 +61,5 @@ Assert.True(builder.CurrentParagraph.IsEndOfDocument);
 
 * class [Paragraph](../../paragraph/)
 * class [DocumentBuilder](../)
-* namensraum [Aspose.Words](../../documentbuilder/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

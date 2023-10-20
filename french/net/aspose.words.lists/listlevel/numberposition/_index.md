@@ -1,7 +1,9 @@
 ---
 title: ListLevel.NumberPosition
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ListLevel propriété. Renvoie ou définit la position en points du numéro ou de la puce pour le niveau de liste.
+linktitle: NumberPosition
+articleTitle: NumberPosition
+second_title: Aspose.Words pour .NET
+description: ListLevel NumberPosition propriété. Renvoie ou définit la position en points du numéro ou de la puce pour le niveau de liste en C#.
 type: docs
 weight: 80
 url: /fr/net/aspose.words.lists/listlevel/numberposition/
@@ -14,11 +16,11 @@ Renvoie ou définit la position (en points) du numéro ou de la puce pour le niv
 public double NumberPosition { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 `NumberPosition` correspond à LeftIndent plus FirstLineIndent du paragraphe.
 
-### Exemples
+## Exemples
 
 Montre comment appliquer une mise en forme de liste personnalisée aux paragraphes lors de l’utilisation de DocumentBuilder.
 
@@ -77,7 +79,5 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateCustomList.docx");
 ### Voir également
 
 * class [ListLevel](../)
-* espace de noms [Aspose.Words.Lists](../../listlevel/)
+* espace de noms [Aspose.Words.Lists](../../../aspose.words.lists/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class NodeImporter
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.NodeImporter 班级. 允许高效地将节点从一个文档重复导入到另一个文档
+title: NodeImporter Class
+linktitle: NodeImporter
+articleTitle: NodeImporter
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.NodeImporter 班级. 允许高效地将节点从一个文档重复导入到另一个文档 在 C#.
 type: docs
 weight: 4210
 url: /zh/net/aspose.words/nodeimporter/
@@ -20,16 +22,16 @@ public class NodeImporter
 
 | 姓名 | 描述 |
 | --- | --- |
-| [NodeImporter](nodeimporter/#constructor)(DocumentBase, DocumentBase, ImportFormatMode) | 初始化一个新实例`NodeImporter`类. |
-| [NodeImporter](nodeimporter/#constructor_1)(DocumentBase, DocumentBase, ImportFormatMode, ImportFormatOptions) | 初始化一个新实例`NodeImporter`类. |
+| [NodeImporter](nodeimporter/#constructor)(*[DocumentBase](../documentbase/), [DocumentBase](../documentbase/), [ImportFormatMode](../importformatmode/)*) | 初始化一个新实例`NodeImporter`类. |
+| [NodeImporter](nodeimporter/#constructor_1)(*[DocumentBase](../documentbase/), [DocumentBase](../documentbase/), [ImportFormatMode](../importformatmode/), [ImportFormatOptions](../importformatoptions/)*) | 初始化一个新实例`NodeImporter`类. |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ImportNode](../../aspose.words/nodeimporter/importnode/)(Node, bool) | 将一个节点从一个文档导入到另一个文档中。 |
+| [ImportNode](../../aspose.words/nodeimporter/importnode/)(*[Node](../node/), bool*) | 将一个节点从一个文档导入到另一个文档中。 |
 
-### 评论
+## 评论
 
 Aspose.Words 提供了在 Microsoft Word 文档之间轻松复制和移动fragments 的功能。这称为“导入节点”。 在将一个文档的片段插入另一个文档之前，您需要“导入”它。 导入会创建原始节点的深度克隆，准备插入到 目标文档中。
 
@@ -43,7 +45,7 @@ Aspose.Words 提供了在 Microsoft Word 文档之间轻松复制和移动fragme
 
 这`NodeImporter`类就像一个上下文，在导入期间保存“翻译表” 。它可以正确地在源文档和 目标文档中的样式和列表之间进行转换。
 
-### 例子
+## 例子
 
 演示如何将一个文档的内容插入到另一文档的书签中。
 
@@ -112,5 +114,3 @@ static void InsertDocument(Node insertionDestination, Document docToInsert)
 
 * 命名空间 [Aspose.Words](../../aspose.words/)
 * 部件 [Aspose.Words](../../)
-
-

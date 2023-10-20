@@ -1,7 +1,9 @@
 ---
 title: BorderCollection.Left
-second_title: Aspose.Words for .NET API 参考
-description: BorderCollection 财产. 获取左边框
+linktitle: Left
+articleTitle: Left
+second_title: 用于 .NET 的 Aspose.Words
+description: BorderCollection Left 财产. 获取左边框 在 C#.
 type: docs
 weight: 70
 url: /zh/net/aspose.words/bordercollection/left/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/bordercollection/left/
 public Border Left { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何在构建表格时应用边框和底纹颜色。
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.TableBordersAndShading.docx");
 
 * class [Border](../../border/)
 * class [BorderCollection](../)
-* 命名空间 [Aspose.Words](../../bordercollection/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

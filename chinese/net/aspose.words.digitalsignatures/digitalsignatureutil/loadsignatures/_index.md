@@ -1,12 +1,14 @@
 ---
 title: DigitalSignatureUtil.LoadSignatures
-second_title: Aspose.Words for .NET API 参考
-description: DigitalSignatureUtil 方法. 从文档加载数字签名
+linktitle: LoadSignatures
+articleTitle: LoadSignatures
+second_title: 用于 .NET 的 Aspose.Words
+description: DigitalSignatureUtil LoadSignatures 方法. 从文档加载数字签名 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.digitalsignatures/digitalsignatureutil/loadsignatures/
 ---
-## LoadSignatures(string) {#loadsignatures_1}
+## LoadSignatures(*string*) {#loadsignatures_1}
 
 从文档加载数字签名。
 
@@ -22,7 +24,7 @@ public static DigitalSignatureCollection LoadSignatures(string fileName)
 
 数字签名的集合。如果文件未签名，则返回空集合。
 
-### 例子
+## 例子
 
 演示如何从数字签名文档加载签名。
 
@@ -70,12 +72,12 @@ Assert.That(DigitalSignatureUtil.LoadSignatures(ArtifactsDir + "DigitalSignature
 
 * class [DigitalSignatureCollection](../../digitalsignaturecollection/)
 * class [DigitalSignatureUtil](../)
-* 命名空间 [Aspose.Words.DigitalSignatures](../../digitalsignatureutil/)
+* 命名空间 [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## LoadSignatures(Stream) {#loadsignatures}
+## LoadSignatures(*Stream*) {#loadsignatures}
 
 使用流从文档加载数字签名。
 
@@ -91,7 +93,7 @@ public static DigitalSignatureCollection LoadSignatures(Stream stream)
 
 数字签名的集合。如果文件未签名，则返回空集合。
 
-### 例子
+## 例子
 
 演示如何从数字签名文档加载签名。
 
@@ -116,7 +118,5 @@ using (Stream stream = new FileStream(MyDir + "Digitally signed.docx", FileMode.
 
 * class [DigitalSignatureCollection](../../digitalsignaturecollection/)
 * class [DigitalSignatureUtil](../)
-* 命名空间 [Aspose.Words.DigitalSignatures](../../digitalsignatureutil/)
+* 命名空间 [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * 部件 [Aspose.Words](../../../)
-
-

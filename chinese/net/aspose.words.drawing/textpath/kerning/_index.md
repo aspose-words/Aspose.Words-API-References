@@ -1,7 +1,9 @@
 ---
 title: TextPath.Kerning
-second_title: Aspose.Words for .NET API 参考
-description: TextPath 财产. 确定是否打开字距调整
+linktitle: Kerning
+articleTitle: Kerning
+second_title: 用于 .NET 的 Aspose.Words
+description: TextPath Kerning 财产. 确定是否打开字距调整 在 C#.
 type: docs
 weight: 60
 url: /zh/net/aspose.words.drawing/textpath/kerning/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.drawing/textpath/kerning/
 public bool Kerning { get; set; }
 ```
 
-### 评论
+## 评论
 
 默认值为`错误的`。
 
-### 例子
+## 例子
 
 演示如何使用艺术字。
 
@@ -121,7 +123,5 @@ private static Shape AppendWordArt(Document doc, string text, string textFontFam
 ### 也可以看看
 
 * class [TextPath](../)
-* 命名空间 [Aspose.Words.Drawing](../../textpath/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: VariableCollection.Remove
-second_title: Справочник по API Aspose.Words для .NET
-description: VariableCollection метод. Удаляет переменную документа с указанным именем из коллекции.
+linktitle: Remove
+articleTitle: Remove
+second_title: Aspose.Words для .NET
+description: VariableCollection Remove метод. Удаляет переменную документа с указанным именем из коллекции на С#.
 type: docs
 weight: 80
 url: /ru/net/aspose.words/variablecollection/remove/
@@ -18,7 +20,7 @@ public void Remove(string name)
 | --- | --- | --- |
 | name | String | Имя переменной без учета регистра. |
 
-### Примеры
+## Примеры
 
 Показывает, как работать с коллекцией переменных документа.
 
@@ -85,7 +87,5 @@ Assert.That(variables, Is.Empty);
 ### Смотрите также
 
 * class [VariableCollection](../)
-* пространство имен [Aspose.Words](../../variablecollection/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

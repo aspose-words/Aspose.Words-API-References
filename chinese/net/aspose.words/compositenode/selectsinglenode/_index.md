@@ -1,9 +1,11 @@
 ---
 title: CompositeNode.SelectSingleNode
-second_title: Aspose.Words for .NET API 参考
-description: CompositeNode 方法. 选择第一个Node与 XPath 表达式匹配
+linktitle: SelectSingleNode
+articleTitle: SelectSingleNode
+second_title: 用于 .NET 的 Aspose.Words
+description: CompositeNode SelectSingleNode 方法. 选择第一个Node与 XPath 表达式匹配 在 C#.
 type: docs
-weight: 220
+weight: 200
 url: /zh/net/aspose.words/compositenode/selectsinglenode/
 ---
 ## CompositeNode.SelectSingleNode method
@@ -22,11 +24,11 @@ public Node SelectSingleNode(string xpath)
 
 首先[`Node`](../../node/)匹配 XPath 查询或`无效的`如果没有找到匹配的节点。
 
-### 评论
+## 评论
 
 目前仅支持带有元素名称的表达式。不支持使用属性名称的表达式 。
 
-### 例子
+## 例子
 
 演示如何使用 XPath 表达式选择某些节点。
 
@@ -60,7 +62,5 @@ Assert.AreEqual(typeof(Paragraph), node.GetType());
 
 * class [Node](../../node/)
 * class [CompositeNode](../)
-* 命名空间 [Aspose.Words](../../compositenode/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

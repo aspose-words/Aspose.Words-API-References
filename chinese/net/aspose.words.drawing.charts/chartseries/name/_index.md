@@ -1,7 +1,9 @@
 ---
 title: ChartSeries.Name
-second_title: Aspose.Words for .NET API 参考
-description: ChartSeries 财产. 获取或设置系列的名称如果未显式设置名称则使用索引生成 默认情况下返回系列加一的索引
+linktitle: Name
+articleTitle: Name
+second_title: 用于 .NET 的 Aspose.Words
+description: ChartSeries Name 财产. 获取或设置系列的名称如果未显式设置名称则使用索引生成 默认情况下返回系列加一的索引 在 C#.
 type: docs
 weight: 110
 url: /zh/net/aspose.words.drawing.charts/chartseries/name/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.drawing.charts/chartseries/name/
 public string Name { get; set; }
 ```
 
-### 例子
+## 例子
 
 展示如何将标签应用到折线图中的数据点。
 
@@ -92,7 +94,5 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
 ### 也可以看看
 
 * class [ChartSeries](../)
-* 命名空间 [Aspose.Words.Drawing.Charts](../../chartseries/)
+* 命名空间 [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldTC.OmitPageNumber
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldTC свойство. Получает или задает следует ли опускать номер страницы в оглавлении для этого поля.
+linktitle: OmitPageNumber
+articleTitle: OmitPageNumber
+second_title: Aspose.Words для .NET
+description: FieldTC OmitPageNumber свойство. Получает или задает следует ли опускать номер страницы в оглавлении для этого поля на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.fields/fieldtc/omitpagenumber/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldtc/omitpagenumber/
 public bool OmitPageNumber { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как вставить поле TOC и отфильтровать поля TC, которые в конечном итоге станут записями.
 
@@ -66,7 +68,5 @@ public void InsertTocEntry(DocumentBuilder builder, string text, string typeIden
 ### Смотрите также
 
 * class [FieldTC](../)
-* пространство имен [Aspose.Words.Fields](../../fieldtc/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

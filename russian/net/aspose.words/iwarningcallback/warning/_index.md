@@ -1,7 +1,9 @@
 ---
 title: IWarningCallback.Warning
-second_title: Справочник по API Aspose.Words для .NET
-description: IWarningCallback метод. Aspose.Words вызывает этот метод когда сталкивается с какойлибо проблемой во время загрузки или сохранения документа  которая может привести к потере форматирования или точности данных.
+linktitle: Warning
+articleTitle: Warning
+second_title: Aspose.Words для .NET
+description: IWarningCallback Warning метод. Aspose.Words вызывает этот метод когда сталкивается с какойлибо проблемой во время загрузки или сохранения документа  которая может привести к потере форматирования или точности данных на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words/iwarningcallback/warning/
@@ -14,7 +16,7 @@ Aspose.Words вызывает этот метод, когда сталкивае
 public void Warning(WarningInfo info)
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как настроить свойство для поиска ближайшего соответствия отсутствующему шрифту из доступных источников шрифтов.
 
@@ -75,7 +77,5 @@ public class HandleDocumentSubstitutionWarnings : IWarningCallback
 
 * class [WarningInfo](../../warninginfo/)
 * interface [IWarningCallback](../)
-* пространство имен [Aspose.Words](../../iwarningcallback/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: HtmlLoadOptions.WebRequestTimeout
-second_title: Aspose.Words for .NET API 参考
-description: HtmlLoadOptions 财产. Web 请求超时之前等待的毫秒数默认值为 100000 毫秒 100 秒.
+linktitle: WebRequestTimeout
+articleTitle: WebRequestTimeout
+second_title: 用于 .NET 的 Aspose.Words
+description: HtmlLoadOptions WebRequestTimeout 财产. Web 请求超时之前等待的毫秒数默认值为 100000 毫秒 100 秒 在 C#.
 type: docs
 weight: 70
 url: /zh/net/aspose.words.loading/htmlloadoptions/webrequesttimeout/
@@ -14,11 +16,11 @@ Web 请求超时之前等待的毫秒数。默认值为 100000 毫秒 （100 秒
 public int WebRequestTimeout { get; set; }
 ```
 
-### 评论
+## 评论
 
 加载 HTML 和 MHTML 文档中链接的外部资源（图像、style 工作表）时，Aspose.Words 等待响应的毫秒数。
 
-### 例子
+## 例子
 
 演示如何在加载具有通过 URL 链接的外部资源的文档时设置 Web 请求的时间限制。
 
@@ -87,7 +89,5 @@ private class ListDocumentWarnings : IWarningCallback
 ### 也可以看看
 
 * class [HtmlLoadOptions](../)
-* 命名空间 [Aspose.Words.Loading](../../htmlloadoptions/)
+* 命名空间 [Aspose.Words.Loading](../../../aspose.words.loading/)
 * 部件 [Aspose.Words](../../../)
-
-

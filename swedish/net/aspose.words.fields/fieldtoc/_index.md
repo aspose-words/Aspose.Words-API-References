@@ -1,7 +1,9 @@
 ---
-title: Class FieldToc
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Fields.FieldToc klass. Implementerar TOCfältet.
+title: FieldToc Class
+linktitle: FieldToc
+articleTitle: FieldToc
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Fields.FieldToc klass. Implementerar TOCfältet i C#.
 type: docs
 weight: 2530
 url: /sv/net/aspose.words.fields/fieldtoc/
@@ -58,18 +60,18 @@ public class FieldToc : Field
 | namn | Beskrivning |
 | --- | --- |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Returnerar text mellan fältstart och fältavgränsare (eller fältslut om det inte finns någon avgränsare). Både fältkod och fältresultat för underordnade fält ingår. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Returnerar text mellan fältstart och fältavgränsare (eller fältslut om det inte finns någon avgränsare). |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | Returnerar text mellan fältstart och fältavgränsare (eller fältslut om det inte finns någon avgränsare). |
 | [Remove](../../aspose.words.fields/field/remove/)() | Tar bort fältet från dokumentet. Returnerar en nod direkt efter fältet. Om fältets slut är den sista child av dess överordnade nod, returnerar dess överordnade stycke. Om fältet redan är borttaget, returneras`null` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | Utför fältavlänkningen. |
 | [Update](../../aspose.words.fields/field/update/)() | Utför fältuppdateringen. Kastar om fältet redan uppdateras. |
-| [Update](../../aspose.words.fields/field/update/)(bool) | Utför en fältuppdatering. Kastar om fältet redan uppdateras. |
+| [Update](../../aspose.words.fields/field/update/)(*bool*) | Utför en fältuppdatering. Kastar om fältet redan uppdateras. |
 | [UpdatePageNumbers](../../aspose.words.fields/fieldtoc/updatepagenumbers/)() | Uppdaterar sidnumren för objekt i den här innehållsförteckningen. |
 
-### Anmärkningar
+## Anmärkningar
 
 Bygger en innehållsförteckning (som också kan vara en figurförteckning) med hjälp av de poster som anges av TC-fält, deras rubriknivåer och specificerade stilar, och infogar den tabellen på denna plats i dokumentet.
 
-### Exempel
+## Exempel
 
 Visar hur man infogar en innehållsförteckning och fyller den med poster baserat på rubrikstilar.
 
@@ -227,5 +229,3 @@ doc.Save(ArtifactsDir + "Field.TOC.SEQ.docx");
 * class [Field](../field/)
 * namnutrymme [Aspose.Words.Fields](../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../)
-
-

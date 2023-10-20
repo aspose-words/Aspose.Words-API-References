@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ExportRelativeFontSize
-second_title: Aspose.Words für .NET-API-Referenz
-description: HtmlSaveOptions eigendom. Gibt an ob Schriftgrößen beim Speichern in HTML MHTML oder EPUB in relativen Einheiten ausgegeben werden sollen. Standard istFALSCH .
+linktitle: ExportRelativeFontSize
+articleTitle: ExportRelativeFontSize
+second_title: Aspose.Words für .NET
+description: HtmlSaveOptions ExportRelativeFontSize eigendom. Gibt an ob Schriftgrößen beim Speichern in HTML MHTML oder EPUB in relativen Einheiten ausgegeben werden sollen. Standard istFALSCH  in C#.
 type: docs
 weight: 230
 url: /de/net/aspose.words.saving/htmlsaveoptions/exportrelativefontsize/
@@ -14,15 +16,15 @@ Gibt an, ob Schriftgrößen beim Speichern in HTML, MHTML oder EPUB in relativen
 public bool ExportRelativeFontSize { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 In vielen vorhandenen Dokumenten (HTML, IDPF EPUB) werden Schriftgrößen in relativen Einheiten angegeben. Dadurch können -Anwendungen die Textgröße beim Anzeigen/Verarbeiten von Dokumenten anpassen. Beispielsweise verfügt Microsoft Internet Explorer über das Untermenü „Ansicht-&gt;Textgröße“, Adobe Digital Editions verfügt über zwei Schaltflächen: Textgröße erhöhen/verringern. Wenn Sie erwarten, dass diese Funktionalität funktioniert, stellen Sie sie ein`ExportRelativeFontSize` Eigentum zu`WAHR` .
 
-Das Aspose Words-Dokumentmodell enthält und arbeitet nur mit absoluten Schriftgrößeneinheiten. Relative Einheiten benötigen zusätzliche Logik, um ausgehend von einer anfänglichen (Standard-)Größe neu berechnet zu werden. Schriftgröße von **Normal** Als Standard wird der Dokumentstil verwendet. Zum Beispiel, wenn **Normal** hat eine Schriftart von 12pt und ein Teil des Textes ist 18pt, dann wird er als ausgegeben **1,5em.** zum HTML.
+Das Aspose Words-Dokumentmodell enthält und arbeitet nur mit absoluten Schriftgrößeneinheiten. Relative Einheiten benötigen zusätzliche Logik, um ausgehend von einer anfänglichen (Standard-)Größe neu berechnet zu werden. Schriftgröße von**Normal** Als Standard wird der Dokumentstil verwendet. Zum Beispiel, wenn**Normal** hat eine Schriftart von 12pt und ein Teil des Textes ist 18pt, dann wird er als ausgegeben**1,5em.** zum HTML.
 
 Wenn diese Option aktiviert ist, haben andere Dokumentelemente als Text weiterhin absolute Größen. Auch einige textbezogene Attribute können absolut ausgedrückt werden. Insbesondere der mit der „exactly“-Regel angegebene Zeilenabstand kann beim Skalieren von Text zu unerwünschten Ergebnissen führen. Daher sollten die Quelldokumente beim Exportieren ordnungsgemäß entworfen und getestet werden`ExportRelativeFontSize` einstellen`WAHR`.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie relative Schriftgrößen beim Speichern in .html verwendet werden.
 
@@ -87,7 +89,5 @@ else
 ### Siehe auch
 
 * class [HtmlSaveOptions](../)
-* namensraum [Aspose.Words.Saving](../../htmlsaveoptions/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

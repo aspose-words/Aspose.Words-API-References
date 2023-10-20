@@ -1,7 +1,9 @@
 ---
 title: FieldRef.SuppressNonDelimiters
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldRef свойство. Получает или задает необходимость подавления символов не являющихся разделителями.
+linktitle: SuppressNonDelimiters
+articleTitle: SuppressNonDelimiters
+second_title: Aspose.Words для .NET
+description: FieldRef SuppressNonDelimiters свойство. Получает или задает необходимость подавления символов не являющихся разделителями на С#.
 type: docs
 weight: 100
 url: /ru/net/aspose.words.fields/fieldref/suppressnondelimiters/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldref/suppressnondelimiters/
 public bool SuppressNonDelimiters { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как вставлять поля REF в ссылочные закладки.
 
@@ -104,7 +106,5 @@ private static FieldRef InsertFieldRef(DocumentBuilder builder, string bookmarkN
 ### Смотрите также
 
 * class [FieldRef](../)
-* пространство имен [Aspose.Words.Fields](../../fieldref/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Interface IDocumentPartSavingCallback
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Saving.IDocumentPartSavingCallback интерфейс. Реализуйте этот интерфейс если хотите получать уведомления и контролировать как Aspose.Words сохраняет части документа при экспорте документа вHtml илиEpub формат.
+title: IDocumentPartSavingCallback Interface
+linktitle: IDocumentPartSavingCallback
+articleTitle: IDocumentPartSavingCallback
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Saving.IDocumentPartSavingCallback интерфейс. Реализуйте этот интерфейс если хотите получать уведомления и контролировать как Aspose.Words сохраняет части документа при экспорте документа вHtml илиEpub формат на С#.
 type: docs
 weight: 5140
 url: /ru/net/aspose.words.saving/idocumentpartsavingcallback/
@@ -18,9 +20,9 @@ public interface IDocumentPartSavingCallback
 
 | Имя | Описание |
 | --- | --- |
-| [DocumentPartSaving](../../aspose.words.saving/idocumentpartsavingcallback/documentpartsaving/)(DocumentPartSavingArgs) | Вызывается, когда Aspose.Words собирается сохранить часть документа. |
+| [DocumentPartSaving](../../aspose.words.saving/idocumentpartsavingcallback/documentpartsaving/)(*[DocumentPartSavingArgs](../documentpartsavingargs/)*) | Вызывается, когда Aspose.Words собирается сохранить часть документа. |
 
-### Примеры
+## Примеры
 
 Показывает, как разделить документ на части и сохранить их.
 
@@ -138,5 +140,3 @@ public class SavedImageRename : IImageSavingCallback
 
 * пространство имен [Aspose.Words.Saving](../../aspose.words.saving/)
 * сборка [Aspose.Words](../../)
-
-

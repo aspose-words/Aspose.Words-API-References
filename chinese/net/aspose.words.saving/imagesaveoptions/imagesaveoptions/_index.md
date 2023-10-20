@@ -1,7 +1,9 @@
 ---
-title: ImageSaveOptions.ImageSaveOptions
-second_title: Aspose.Words for .NET API 参考
-description: ImageSaveOptions 构造函数. 初始化此类的一个新实例可用于将渲染图像保存在 中TiffPngBmp JpegEmfEps 或Svg格式.
+title: ImageSaveOptions
+linktitle: ImageSaveOptions
+articleTitle: ImageSaveOptions
+second_title: 用于 .NET 的 Aspose.Words
+description: ImageSaveOptions 构造函数. 初始化此类的一个新实例可用于将渲染图像保存在 中TiffPngBmp JpegEmfEps 或Svg格式 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.saving/imagesaveoptions/imagesaveoptions/
@@ -18,7 +20,7 @@ public ImageSaveOptions(SaveFormat saveFormat)
 | --- | --- | --- |
 | saveFormat | SaveFormat | 可以是 Tiff,Png,Bmp, Jpeg,Emf,Eps 或Svg格式. |
 
-### 例子
+## 例子
 
 演示如何在将文档另存为 JPEG 时配置压缩。
 
@@ -52,7 +54,5 @@ Assert.That(60000, Is.LessThan(new FileInfo(ArtifactsDir + "ImageSaveOptions.Jpe
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
 * class [ImageSaveOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../imagesaveoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

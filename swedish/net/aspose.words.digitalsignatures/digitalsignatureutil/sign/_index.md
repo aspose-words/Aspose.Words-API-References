@@ -1,12 +1,14 @@
 ---
 title: DigitalSignatureUtil.Sign
-second_title: Aspose.Words för .NET API Referens
-description: DigitalSignatureUtil metod. Signerar källdokument med givenCertificateHolder ochSignOptions med digital signatur och skriver signerat dokument till destinationsströmmen.
+linktitle: Sign
+articleTitle: Sign
+second_title: Aspose.Words för .NET
+description: DigitalSignatureUtil Sign metod. Signerar källdokument med givenCertificateHolder ochSignOptions med digital signatur och skriver signerat dokument till destinationsströmmen i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.digitalsignatures/digitalsignatureutil/sign/
 ---
-## Sign(Stream, Stream, CertificateHolder, SignOptions) {#sign_1}
+## Sign(*Stream, Stream, [CertificateHolder](../../certificateholder/), [SignOptions](../../signoptions/)*) {#sign_1}
 
 Signerar källdokument med given[`CertificateHolder`](../../certificateholder/) och[`SignOptions`](../../signoptions/) med digital signatur och skriver signerat dokument till destinationsströmmen.
 
@@ -26,7 +28,7 @@ public static void Sign(Stream srcStream, Stream dstStream, CertificateHolder ce
 | certHolder | CertificateHolder | [`CertificateHolder`](../../certificateholder/) objekt med certifikat som användes för att signera filen. Certifikatet i innehavaren MÅSTE innehålla privata nycklar och ha flaggan X509KeyStorageFlags.Exportable inställd. |
 | signOptions | SignOptions | [`SignOptions`](../../signoptions/) objekt med olika signeringsalternativ. |
 
-### Exempel
+## Exempel
 
 Visar hur man digitalt signerar dokument.
 
@@ -57,12 +59,12 @@ using (Stream streamIn = new FileStream(MyDir + "Document.docx", FileMode.Open))
 * class [CertificateHolder](../../certificateholder/)
 * class [SignOptions](../../signoptions/)
 * class [DigitalSignatureUtil](../)
-* namnutrymme [Aspose.Words.DigitalSignatures](../../digitalsignatureutil/)
+* namnutrymme [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## Sign(string, string, CertificateHolder, SignOptions) {#sign_3}
+## Sign(*string, string, [CertificateHolder](../../certificateholder/), [SignOptions](../../signoptions/)*) {#sign_3}
 
 Signerar källdokument med given[`CertificateHolder`](../../certificateholder/) och[`SignOptions`](../../signoptions/) med digital signatur och skriver signerat dokument till destinationsfilen.
 
@@ -80,7 +82,7 @@ public static void Sign(string srcFileName, string dstFileName, CertificateHolde
 | certHolder | CertificateHolder | [`CertificateHolder`](../../certificateholder/) objekt med certifikat som användes för att signera filen. Certifikatet i innehavaren MÅSTE innehålla privata nycklar och ha flaggan X509KeyStorageFlags.Exportable inställd. |
 | signOptions | SignOptions | [`SignOptions`](../../signoptions/) objekt med olika signeringsalternativ. |
 
-### Exempel
+## Exempel
 
 Visar hur man lägger till en signaturrad i ett dokument och sedan signerar den med ett digitalt certifikat.
 
@@ -198,12 +200,12 @@ Visar hur man lägger till en signaturrad i ett dokument och sedan signerar den 
 * class [CertificateHolder](../../certificateholder/)
 * class [SignOptions](../../signoptions/)
 * class [DigitalSignatureUtil](../)
-* namnutrymme [Aspose.Words.DigitalSignatures](../../digitalsignatureutil/)
+* namnutrymme [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## Sign(Stream, Stream, CertificateHolder) {#sign}
+## Sign(*Stream, Stream, [CertificateHolder](../../certificateholder/)*) {#sign}
 
 Signerar källdokument med given[`CertificateHolder`](../../certificateholder/)med digital signatur och skriver signerat dokument till destinationsströmmen.
 
@@ -221,7 +223,7 @@ public static void Sign(Stream srcStream, Stream dstStream, CertificateHolder ce
 | dstStream | Stream | Streamen som det signerade dokumentet kommer att skrivas till. |
 | certHolder | CertificateHolder | [`CertificateHolder`](../../certificateholder/) objekt med certifikat som användes för att signera filen. Certifikatet i innehavaren MÅSTE innehålla privata nycklar och ha flaggan X509KeyStorageFlags.Exportable inställd. |
 
-### Exempel
+## Exempel
 
 Visar hur man signerar dokument med X.509-certifikat.
 
@@ -265,12 +267,12 @@ Assert.AreEqual("CN=Morzal.Me", signedDoc.DigitalSignatures[0].SubjectName);
 
 * class [CertificateHolder](../../certificateholder/)
 * class [DigitalSignatureUtil](../)
-* namnutrymme [Aspose.Words.DigitalSignatures](../../digitalsignatureutil/)
+* namnutrymme [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## Sign(string, string, CertificateHolder) {#sign_2}
+## Sign(*string, string, [CertificateHolder](../../certificateholder/)*) {#sign_2}
 
 Signerar källdokument med given[`CertificateHolder`](../../certificateholder/) med digital signatur och skriver signerat dokument till destinationsfilen.
 
@@ -286,7 +288,7 @@ public static void Sign(string srcFileName, string dstFileName, CertificateHolde
 | dstFileName | String | Filnamnet på det signerade dokumentutmatningen. |
 | certHolder | CertificateHolder | [`CertificateHolder`](../../certificateholder/) objekt med certifikat som användes för att signera filen. Certifikatet i innehavaren MÅSTE innehålla privata nycklar och ha flaggan X509KeyStorageFlags.Exportable inställd. |
 
-### Exempel
+## Exempel
 
 Visar hur man signerar dokument med X.509-certifikat.
 
@@ -330,7 +332,5 @@ Assert.AreEqual("CN=Morzal.Me", signedDoc.DigitalSignatures[0].SubjectName);
 
 * class [CertificateHolder](../../certificateholder/)
 * class [DigitalSignatureUtil](../)
-* namnutrymme [Aspose.Words.DigitalSignatures](../../digitalsignatureutil/)
+* namnutrymme [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * hopsättning [Aspose.Words](../../../)
-
-

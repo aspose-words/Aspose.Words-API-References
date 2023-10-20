@@ -1,7 +1,9 @@
 ---
 title: ImageData.ImageSize
-second_title: Aspose.Words für .NET-API-Referenz
-description: ImageData eigendom. Ruft Informationen zur Bildgröße und Auflösung ab.
+linktitle: ImageSize
+articleTitle: ImageSize
+second_title: Aspose.Words für .NET
+description: ImageData ImageSize eigendom. Ruft Informationen zur Bildgröße und Auflösung ab in C#.
 type: docs
 weight: 130
 url: /de/net/aspose.words.drawing/imagedata/imagesize/
@@ -14,11 +16,11 @@ Ruft Informationen zur Bildgröße und Auflösung ab.
 public ImageSize ImageSize { get; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Wenn das Bild nur verknüpft und nicht im Dokument gespeichert ist, wird die Größe Null zurückgegeben.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Größe einer Form mit einem Bild geändert wird.
 
@@ -76,7 +78,5 @@ Zeigt, wie die Größe einer Form mit einem Bild geändert wird.
 
 * class [ImageSize](../../imagesize/)
 * class [ImageData](../)
-* namensraum [Aspose.Words.Drawing](../../imagedata/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

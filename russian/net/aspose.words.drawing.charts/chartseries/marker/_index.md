@@ -1,7 +1,9 @@
 ---
 title: ChartSeries.Marker
-second_title: Справочник по API Aspose.Words для .NET
-description: ChartSeries свойство. Указывает маркер данных. Маркер создается автоматически по запросу.
+linktitle: Marker
+articleTitle: Marker
+second_title: Aspose.Words для .NET
+description: ChartSeries Marker свойство. Указывает маркер данных. Маркер создается автоматически по запросу на С#.
 type: docs
 weight: 100
 url: /ru/net/aspose.words.drawing.charts/chartseries/marker/
@@ -18,7 +20,5 @@ public ChartMarker Marker { get; }
 
 * class [ChartMarker](../../chartmarker/)
 * class [ChartSeries](../)
-* пространство имен [Aspose.Words.Drawing.Charts](../../chartseries/)
+* пространство имен [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../../)
-
-

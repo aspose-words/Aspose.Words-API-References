@@ -1,7 +1,9 @@
 ---
-title: Enum LineNumberRestartMode
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.LineNumberRestartMode 枚举. 确定自动行编号何时重新启动
+title: LineNumberRestartMode Enum
+linktitle: LineNumberRestartMode
+articleTitle: LineNumberRestartMode
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.LineNumberRestartMode 枚举. 确定自动行编号何时重新启动 在 C#.
 type: docs
 weight: 3430
 url: /zh/net/aspose.words/linenumberrestartmode/
@@ -22,7 +24,7 @@ public enum LineNumberRestartMode
 | RestartSection | `1` | 行编号在节开始处重新开始。 |
 | Continuous | `2` | 与上一节连续的行编号。 |
 
-### 例子
+## 例子
 
 展示如何为节启用行编号。
 
@@ -59,5 +61,3 @@ doc.Save(ArtifactsDir + "PageSetup.LineNumbers.docx");
 * property [LineNumberRestartMode](../pagesetup/linenumberrestartmode/)
 * 命名空间 [Aspose.Words](../../aspose.words/)
 * 部件 [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.Fill
-second_title: Referencia de API de Aspose.Words para .NET
-description: ShapeBase propiedad. Obtiene el formato de relleno para la forma.
+linktitle: Fill
+articleTitle: Fill
+second_title: Aspose.Words para .NET
+description: ShapeBase Fill propiedad. Obtiene el formato de relleno para la forma en C#.
 type: docs
 weight: 170
 url: /es/net/aspose.words.drawing/shapebase/fill/
@@ -14,7 +16,7 @@ Obtiene el formato de relleno para la forma.
 public Fill Fill { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo rellenar una forma con un color sólido.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "Shape.Fill.docx");
 
 * class [Fill](../../fill/)
 * class [ShapeBase](../)
-* espacio de nombres [Aspose.Words.Drawing](../../shapebase/)
+* espacio de nombres [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * asamblea [Aspose.Words](../../../)
-
-

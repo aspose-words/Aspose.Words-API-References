@@ -1,7 +1,9 @@
 ---
-title: FieldHyperlink.FieldHyperlink
-second_title: Aspose.Words för .NET API Referens
-description: FieldHyperlink byggare. Default_Constructor
+title: FieldHyperlink
+linktitle: FieldHyperlink
+articleTitle: FieldHyperlink
+second_title: Aspose.Words för .NET
+description: FieldHyperlink byggare. Default_Constructor i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.fields/fieldhyperlink/fieldhyperlink/
@@ -17,7 +19,5 @@ public FieldHyperlink()
 ### Se även
 
 * class [FieldHyperlink](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldhyperlink/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

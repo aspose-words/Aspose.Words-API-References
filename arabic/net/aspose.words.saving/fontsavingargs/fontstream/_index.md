@@ -1,7 +1,9 @@
 ---
 title: FontSavingArgs.FontStream
-second_title: Aspose.Words لمراجع .NET API
-description: FontSavingArgs ملكية. يسمح بتحديد التدفق الذي سيتم حفظ الخط فيه.
+linktitle: FontStream
+articleTitle: FontStream
+second_title: Aspose.Words لـ .NET
+description: FontSavingArgs FontStream ملكية. يسمح بتحديد التدفق الذي سيتم حفظ الخط فيه في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.saving/fontsavingargs/fontstream/
@@ -14,13 +16,13 @@ url: /ar/net/aspose.words.saving/fontsavingargs/fontstream/
 public Stream FontStream { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 تسمح لك هذه الخاصية بحفظ الخطوط في التدفقات بدلاً من الملفات أثناء تصدير HTML.
 
 القيمة الافتراضية هي`باطل` . عندما تكون هذه الخاصية`باطل` سيتم حفظ الخط في ملف محدد في ملف[`FontFileName`](../fontfilename/) ملكية.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحديد المنطق المخصص لتصدير الخطوط عند الحفظ إلى HTML.
 
@@ -80,7 +82,5 @@ public class HandleFontSaving : IFontSavingCallback
 ### أنظر أيضا
 
 * class [FontSavingArgs](../)
-* مساحة الاسم [Aspose.Words.Saving](../../fontsavingargs/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

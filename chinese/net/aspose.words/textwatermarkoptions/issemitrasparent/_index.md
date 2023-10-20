@@ -1,7 +1,9 @@
 ---
 title: TextWatermarkOptions.IsSemitrasparent
-second_title: Aspose.Words for .NET API 参考
-description: TextWatermarkOptions 财产. 获取或设置一个布尔值该值负责水印的不透明度 默认值为真的.
+linktitle: IsSemitrasparent
+articleTitle: IsSemitrasparent
+second_title: 用于 .NET 的 Aspose.Words
+description: TextWatermarkOptions IsSemitrasparent 财产. 获取或设置一个布尔值该值负责水印的不透明度 默认值为真的 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words/textwatermarkoptions/issemitrasparent/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/textwatermarkoptions/issemitrasparent/
 public bool IsSemitrasparent { get; set; }
 ```
 
-### 例子
+## 例子
 
 展示如何创建文本水印。
 
@@ -45,7 +47,5 @@ if (doc.Watermark.Type == WatermarkType.Text)
 ### 也可以看看
 
 * class [TextWatermarkOptions](../)
-* 命名空间 [Aspose.Words](../../textwatermarkoptions/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

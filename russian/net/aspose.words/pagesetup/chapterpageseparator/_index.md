@@ -1,7 +1,9 @@
 ---
 title: PageSetup.ChapterPageSeparator
-second_title: Справочник по API Aspose.Words для .NET
-description: PageSetup свойство. Получает или задает символразделитель который появляется между номером главы и номером страницы.
+linktitle: ChapterPageSeparator
+articleTitle: ChapterPageSeparator
+second_title: Aspose.Words для .NET
+description: PageSetup ChapterPageSeparator свойство. Получает или задает символразделитель который появляется между номером главы и номером страницы на С#.
 type: docs
 weight: 90
 url: /ru/net/aspose.words/pagesetup/chapterpageseparator/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words/pagesetup/chapterpageseparator/
 public ChapterPageSeparator ChapterPageSeparator { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Прежде чем вы сможете создавать номера страниц, включающие номера глав, к заголовкам документов необходимо применить нумерованный структурный формат.
 
-### Примеры
+## Примеры
 
 Показывает, как работать с главами страниц.
 
@@ -36,7 +38,5 @@ pageSetup.HeadingLevelForChapter = 1;
 
 * enum [ChapterPageSeparator](../../chapterpageseparator/)
 * class [PageSetup](../)
-* пространство имен [Aspose.Words](../../pagesetup/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

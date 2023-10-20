@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.DropCapPosition
-second_title: Aspose.Words per .NET API Reference
-description: ParagraphFormat proprietà. Ottiene o imposta la posizione del testo del capolettera.
+linktitle: DropCapPosition
+articleTitle: DropCapPosition
+second_title: Aspose.Words per .NET
+description: ParagraphFormat DropCapPosition proprietà. Ottiene o imposta la posizione del testo del capolettera in C#.
 type: docs
 weight: 100
 url: /it/net/aspose.words/paragraphformat/dropcapposition/
@@ -14,7 +16,7 @@ Ottiene o imposta la posizione del testo del capolettera.
 public DropCapPosition DropCapPosition { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come nidificare un elenco all'interno di un altro elenco.
 
@@ -69,7 +71,5 @@ builder.Document.Save(ArtifactsDir + "Lists.NestedLists.docx");
 
 * enum [DropCapPosition](../../dropcapposition/)
 * class [ParagraphFormat](../)
-* spazio dei nomi [Aspose.Words](../../paragraphformat/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

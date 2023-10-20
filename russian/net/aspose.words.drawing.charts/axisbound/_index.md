@@ -1,7 +1,9 @@
 ---
-title: Class AxisBound
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Drawing.Charts.AxisBound сорт. Представляет минимальную или максимальную границу значений оси.
+title: AxisBound Class
+linktitle: AxisBound
+articleTitle: AxisBound
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Drawing.Charts.AxisBound сорт. Представляет минимальную или максимальную границу значений оси на С#.
 type: docs
 weight: 510
 url: /ru/net/aspose.words.drawing.charts/axisbound/
@@ -21,8 +23,8 @@ public sealed class AxisBound
 | Имя | Описание |
 | --- | --- |
 | [AxisBound](axisbound/#constructor)() | Создает новый экземпляр, указывающий, что граница оси должна определяться автоматически текстовым приложением . |
-| [AxisBound](axisbound/#constructor_2)(DateTime) | Создает границу оси, представленную как значение даты и времени. |
-| [AxisBound](axisbound/#constructor_1)(double) | Создает границу оси, представленную в виде числа. |
+| [AxisBound](axisbound/#constructor_2)(*DateTime*) | Создает границу оси, представленную как значение даты и времени. |
+| [AxisBound](axisbound/#constructor_1)(*double*) | Создает границу оси, представленную в виде числа. |
 
 ## Характеристики
 
@@ -36,17 +38,17 @@ public sealed class AxisBound
 
 | Имя | Описание |
 | --- | --- |
-| override [Equals](../../aspose.words.drawing.charts/axisbound/equals/)(object) | Определяет, равен ли указанный объект по значению текущему объекту. |
+| override [Equals](../../aspose.words.drawing.charts/axisbound/equals/)(*object*) | Определяет, равен ли указанный объект по значению текущему объекту. |
 | override [GetHashCode](../../aspose.words.drawing.charts/axisbound/gethashcode/)() | Служит хеш-функцией для этого типа. |
 | override [ToString](../../aspose.words.drawing.charts/axisbound/tostring/)() | Возвращает удобную для пользователя строку, отображающую значение этого объекта. |
 
-### Примечания
+## Примечания
 
 Привязка может быть указана как числовое значение, значение даты и времени или специальное «автоматическое» значение.
 
 Экземпляры этого класса неизменяемы.
 
-### Примеры
+## Примеры
 
 Показывает, как вставить диаграмму со значениями даты и времени.
 
@@ -101,5 +103,3 @@ doc.Save(ArtifactsDir + "Charts.DateTimeValues.docx");
 
 * пространство имен [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../)
-
-

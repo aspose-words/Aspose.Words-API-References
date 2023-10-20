@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.TickLabelOffset
-second_title: Aspose.Words لمراجع .NET API
-description: ChartAxis ملكية. الحصول على أو تعيين مسافة التسميات من المحور.
+linktitle: TickLabelOffset
+articleTitle: TickLabelOffset
+second_title: Aspose.Words لـ .NET
+description: ChartAxis TickLabelOffset ملكية. الحصول على أو تعيين مسافة التسميات من المحور في C#.
 type: docs
 weight: 230
 url: /ar/net/aspose.words.drawing.charts/chartaxis/ticklabeloffset/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing.charts/chartaxis/ticklabeloffset/
 public int TickLabelOffset { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 تمثل الخاصية نسبة مئوية من إزاحة التسمية الافتراضية.
 
@@ -22,7 +24,7 @@ public int TickLabelOffset { get; set; }
 
 الخاصية لها تأثير فقط على محاور الفئة. وهو غير مدعوم بالمخططات الجديدة لـ MS Office 2016.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج مخطط وتعديل مظهر محاوره.
 
@@ -75,7 +77,5 @@ doc.Save(ArtifactsDir + "Charts.AxisProperties.docx");
 ### أنظر أيضا
 
 * class [ChartAxis](../)
-* مساحة الاسم [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* مساحة الاسم [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../../)
-
-

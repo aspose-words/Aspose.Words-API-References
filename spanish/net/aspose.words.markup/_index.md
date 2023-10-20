@@ -1,12 +1,14 @@
 ---
 title: Aspose.Words.Markup
-second_title: Referencia de API de Aspose.Words para .NET
-description: El Aspose.Palabras.Marcado El espacio de nombres contiene clases que representan la semántica definida por el cliente en un documento etiquetas inteligentes XML personalizado y etiquetas de documentos estructurados controles de contenido.
+linktitle: Aspose.Words.Markup
+articleTitle: Aspose.Words.Markup
+second_title: Aspose.Words para .NET
+description: ElAspose.Palabras.Marcado El espacio de nombres contiene clases que representan la semántica definida por el cliente en un documento etiquetas inteligentes XML personalizado y etiquetas de documentos estructurados controles de contenido en C#.
 type: docs
 weight: 160
 url: /es/net/aspose.words.markup/
 ---
-El **Aspose.Palabras.Marcado** El espacio de nombres contiene clases que representan la semántica definida por el cliente en un documento: etiquetas inteligentes, XML personalizado y etiquetas de documentos estructurados (controles de contenido).
+El**Aspose.Palabras.Marcado** El espacio de nombres contiene clases que representan la semántica definida por el cliente en un documento: etiquetas inteligentes, XML personalizado y etiquetas de documentos estructurados (controles de contenido).
 
 ## Clases
 
@@ -24,8 +26,8 @@ El **Aspose.Palabras.Marcado** El espacio de nombres contiene clases que represe
 | [SmartTag](./smarttag/) | Este elemento especifica la presencia de una etiqueta inteligente alrededor de una o más estructuras en línea (ejecuciones, imágenes, campos, etc.) dentro de un párrafo. |
 | [StructuredDocumentTag](./structureddocumenttag/) | Representa una etiqueta de documento estructurado (SDT o control de contenido) en un documento. |
 | [StructuredDocumentTagCollection](./structureddocumenttagcollection/) | Una colección de[`IStructuredDocumentTag`](../aspose.words.markup/istructureddocumenttag/) instancias que representan las etiquetas de documentos estructurados en el rango especificado. |
-| [StructuredDocumentTagRangeEnd](./structureddocumenttagrangeend/) | Representa el final de **a distancia** etiqueta de documento estructurado que acepta contenido de varias secciones. Véase también[`StructuredDocumentTagRangeStart`](../aspose.words.markup/structureddocumenttagrangestart/) nodo. |
-| [StructuredDocumentTagRangeStart](./structureddocumenttagrangestart/) | Representa un inicio de **a distancia** etiqueta de documento estructurado que acepta contenido de varias secciones. Véase también[`StructuredDocumentTagRangeEnd`](../aspose.words.markup/structureddocumenttagrangeend/) . |
+| [StructuredDocumentTagRangeEnd](./structureddocumenttagrangeend/) | Representa el final de**a distancia** etiqueta de documento estructurado que acepta contenido de varias secciones. Véase también[`StructuredDocumentTagRangeStart`](../aspose.words.markup/structureddocumenttagrangestart/) nodo. |
+| [StructuredDocumentTagRangeStart](./structureddocumenttagrangestart/) | Representa un inicio de**a distancia** etiqueta de documento estructurado que acepta contenido de varias secciones. Véase también[`StructuredDocumentTagRangeEnd`](../aspose.words.markup/structureddocumenttagrangeend/) . |
 | [XmlMapping](./xmlmapping/) | Especifica la información que se utiliza para establecer una asignación entre la etiqueta del documento estructurado parent y un elemento XML almacenado dentro de una parte de datos XML personalizada en el documento. |
 ## Interfaces
 
@@ -41,5 +43,3 @@ El **Aspose.Palabras.Marcado** El espacio de nombres contiene clases que represe
 | [SdtCalendarType](./sdtcalendartype/) | Especifica los posibles tipos de calendarios que se pueden utilizar para especificar[`CalendarType`](../aspose.words.markup/structureddocumenttag/calendartype/) en un documento XML abierto de Office. |
 | [SdtDateStorageFormat](./sdtdatestorageformat/) | Especifica cómo se almacena/recupera la fecha de un SDT de fecha cuando el SDT está vinculado a un nodo XML en el almacén de datos del documento. |
 | [SdtType](./sdttype/) | Especifica el tipo de nodo de etiqueta de documento estructurado (SDT). |
-
-

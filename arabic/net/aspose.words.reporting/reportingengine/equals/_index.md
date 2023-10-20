@@ -1,7 +1,9 @@
 ---
 title: ReportingEngine.Equals
-second_title: Aspose.Words لمراجع .NET API
-description: ReportingEngine طريقة. تحديد ما إذا كان الكائن المحدد يساوي قيمة الكائن الحالي.
+linktitle: Equals
+articleTitle: Equals
+second_title: Aspose.Words لـ .NET
+description: ReportingEngine Equals طريقة. تحديد ما إذا كان الكائن المحدد يساوي قيمة الكائن الحالي في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.reporting/reportingengine/equals/
@@ -17,7 +19,5 @@ public bool Equals(object obj)
 ### أنظر أيضا
 
 * class [ReportingEngine](../)
-* مساحة الاسم [Aspose.Words.Reporting](../../reportingengine/)
+* مساحة الاسم [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * المجسم [Aspose.Words](../../../)
-
-

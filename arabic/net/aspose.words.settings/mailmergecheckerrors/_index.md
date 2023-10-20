@@ -1,7 +1,9 @@
 ---
-title: Enum MailMergeCheckErrors
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Settings.MailMergeCheckErrors تعداد. يحدد كيفية قيام Microsoft Word بالإبلاغ عن الأخطاء المكتشفة أثناء دمج البريد.
+title: MailMergeCheckErrors Enum
+linktitle: MailMergeCheckErrors
+articleTitle: MailMergeCheckErrors
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Settings.MailMergeCheckErrors تعداد. يحدد كيفية قيام Microsoft Word بالإبلاغ عن الأخطاء المكتشفة أثناء دمج البريد في C#.
 type: docs
 weight: 5810
 url: /ar/net/aspose.words.settings/mailmergecheckerrors/
@@ -23,7 +25,7 @@ public enum MailMergeCheckErrors
 | CollectErrors | `3` | أكمل عملية الدمج والإبلاغ عن الأخطاء في مستند جديد. |
 | Default | `2` | يساويPauseOnError القيمة. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تنفيذ دمج البريد مع البيانات من كائن مصدر بيانات Office.
 
@@ -77,5 +79,3 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 * property [CheckErrors](../mailmergesettings/checkerrors/)
 * مساحة الاسم [Aspose.Words.Settings](../../aspose.words.settings/)
 * المجسم [Aspose.Words](../../)
-
-

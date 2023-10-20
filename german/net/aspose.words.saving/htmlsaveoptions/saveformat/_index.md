@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.SaveFormat
-second_title: Aspose.Words für .NET-API-Referenz
-description: HtmlSaveOptions eigendom. Gibt das Format an in dem das Dokument gespeichert wird wenn dieses Speicheroptionsobjekt verwendet wird. Kann seinHtml Mhtml Epub  Azw3 oderMobi .
+linktitle: SaveFormat
+articleTitle: SaveFormat
+second_title: Aspose.Words für .NET
+description: HtmlSaveOptions SaveFormat eigendom. Gibt das Format an in dem das Dokument gespeichert wird wenn dieses Speicheroptionsobjekt verwendet wird. Kann seinHtml Mhtml Epub  Azw3 oderMobi  in C#.
 type: docs
 weight: 440
 url: /de/net/aspose.words.saving/htmlsaveoptions/saveformat/
@@ -14,7 +16,7 @@ Gibt das Format an, in dem das Dokument gespeichert wird, wenn dieses Speicherop
 public override SaveFormat SaveFormat { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie beim Speichern eines Dokuments im .epub-Format eine bestimmte Kodierung verwendet wird.
 
@@ -42,7 +44,5 @@ doc.Save(ArtifactsDir + "HtmlSaveOptions.Doc2EpubSaveOptions.epub", saveOptions)
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
 * class [HtmlSaveOptions](../)
-* namensraum [Aspose.Words.Saving](../../htmlsaveoptions/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

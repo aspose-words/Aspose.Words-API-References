@@ -1,7 +1,9 @@
 ---
 title: FieldToc.PageNumberOmittingLevelRange
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldToc propiedad. Obtiene o establece un rango de niveles de las entradas de la tabla de contenido de las cuales se omiten los números de página.
+linktitle: PageNumberOmittingLevelRange
+articleTitle: PageNumberOmittingLevelRange
+second_title: Aspose.Words para .NET
+description: FieldToc PageNumberOmittingLevelRange propiedad. Obtiene o establece un rango de niveles de las entradas de la tabla de contenido de las cuales se omiten los números de página en C#.
 type: docs
 weight: 110
 url: /es/net/aspose.words.fields/fieldtoc/pagenumberomittinglevelrange/
@@ -14,7 +16,7 @@ Obtiene o establece un rango de niveles de las entradas de la tabla de contenido
 public string PageNumberOmittingLevelRange { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo insertar una tabla de contenido y completarla con entradas basadas en estilos de título.
 
@@ -99,7 +101,5 @@ public void InsertNewPageWithHeading(DocumentBuilder builder, string captionText
 ### Ver también
 
 * class [FieldToc](../)
-* espacio de nombres [Aspose.Words.Fields](../../fieldtoc/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

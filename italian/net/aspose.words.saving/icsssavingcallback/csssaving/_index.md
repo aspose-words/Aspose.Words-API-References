@@ -1,7 +1,9 @@
 ---
 title: ICssSavingCallback.CssSaving
-second_title: Aspose.Words per .NET API Reference
-description: ICssSavingCallback metodo. Chiamato quando Aspose.Words salva un CSS Cascading Style Sheet.
+linktitle: CssSaving
+articleTitle: CssSaving
+second_title: Aspose.Words per .NET
+description: ICssSavingCallback CssSaving metodo. Chiamato quando Aspose.Words salva un CSS Cascading Style Sheet in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words.saving/icsssavingcallback/csssaving/
@@ -14,7 +16,7 @@ Chiamato quando Aspose.Words salva un CSS (Cascading Style Sheet).
 public void CssSaving(CssSavingArgs args)
 ```
 
-### Esempi
+## Esempi
 
 Mostra come lavorare con i fogli di stile CSS creati da una conversione HTML.
 
@@ -76,7 +78,5 @@ private class CustomCssSavingCallback : ICssSavingCallback
 
 * class [CssSavingArgs](../../csssavingargs/)
 * interface [ICssSavingCallback](../)
-* spazio dei nomi [Aspose.Words.Saving](../../icsssavingcallback/)
+* spazio dei nomi [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../../)
-
-

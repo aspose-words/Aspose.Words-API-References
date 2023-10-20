@@ -1,7 +1,9 @@
 ---
 title: ChartLegend.LegendEntries
-second_title: Referencia de API de Aspose.Words para .NET
-description: ChartLegend propiedad. Devuelve una colección de entradas de leyenda para todas las series y líneas de tendencia del gráfico principal.
+linktitle: LegendEntries
+articleTitle: LegendEntries
+second_title: Aspose.Words para .NET
+description: ChartLegend LegendEntries propiedad. Devuelve una colección de entradas de leyenda para todas las series y líneas de tendencia del gráfico principal en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words.drawing.charts/chartlegend/legendentries/
@@ -14,7 +16,7 @@ Devuelve una colección de entradas de leyenda para todas las series y líneas d
 public ChartLegendEntryCollection LegendEntries { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo trabajar con una entrada de leyenda para series de gráficos.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "Charts.LegendEntries.docx");
 
 * class [ChartLegendEntryCollection](../../chartlegendentrycollection/)
 * class [ChartLegend](../)
-* espacio de nombres [Aspose.Words.Drawing.Charts](../../chartlegend/)
+* espacio de nombres [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * asamblea [Aspose.Words](../../../)
-
-

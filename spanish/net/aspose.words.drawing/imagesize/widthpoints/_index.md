@@ -1,7 +1,9 @@
 ---
 title: ImageSize.WidthPoints
-second_title: Referencia de API de Aspose.Words para .NET
-description: ImageSize propiedad. Obtiene el ancho de la imagen en puntos. 1 punto es 1/72 de pulgada.
+linktitle: WidthPoints
+articleTitle: WidthPoints
+second_title: Aspose.Words para .NET
+description: ImageSize WidthPoints propiedad. Obtiene el ancho de la imagen en puntos. 1 punto es 1/72 de pulgada en C#.
 type: docs
 weight: 70
 url: /es/net/aspose.words.drawing/imagesize/widthpoints/
@@ -14,7 +16,7 @@ Obtiene el ancho de la imagen en puntos. 1 punto es 1/72 de pulgada.
 public double WidthPoints { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo cambiar el tamaño de una forma con una imagen.
 
@@ -71,7 +73,5 @@ Muestra cómo cambiar el tamaño de una forma con una imagen.
 ### Ver también
 
 * class [ImageSize](../)
-* espacio de nombres [Aspose.Words.Drawing](../../imagesize/)
+* espacio de nombres [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * asamblea [Aspose.Words](../../../)
-
-

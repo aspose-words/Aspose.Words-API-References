@@ -1,7 +1,9 @@
 ---
-title: Enum RelativeHorizontalPosition
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Drawing.RelativeHorizontalPosition énumération. Spécifie à quoi est relative la position horizontale dune forme ou dun cadre de texte.
+title: RelativeHorizontalPosition Enum
+linktitle: RelativeHorizontalPosition
+articleTitle: RelativeHorizontalPosition
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Drawing.RelativeHorizontalPosition énumération. Spécifie à quoi est relative la position horizontale dune forme ou dun cadre de texte en C#.
 type: docs
 weight: 1190
 url: /fr/net/aspose.words.drawing/relativehorizontalposition/
@@ -28,7 +30,7 @@ public enum RelativeHorizontalPosition
 | OutsideMargin | `7` | Spécifie que le positionnement horizontal doit être relatif à la marge extérieure de la page actuelle (la marge droite sur les pages impaires, gauche sur les pages paires). |
 | Default | `2` | La valeur par défaut estColumn . |
 
-### Exemples
+## Exemples
 
 Montre comment insérer une image flottante au centre d’une page.
 
@@ -101,5 +103,3 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertWatermarkNetStandard2.docx");
 * property [RelativeHorizontalPosition](../shapebase/relativehorizontalposition/)
 * espace de noms [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * Assemblée [Aspose.Words](../../)
-
-

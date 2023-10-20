@@ -1,7 +1,9 @@
 ---
 title: FootnoteOptions.Position
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FootnoteOptions propriété. Spécifie la position des notes de bas de page.
+linktitle: Position
+articleTitle: Position
+second_title: Aspose.Words pour .NET
+description: FootnoteOptions Position propriété. Spécifie la position des notes de bas de page en C#.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.notes/footnoteoptions/position/
@@ -14,7 +16,7 @@ Spécifie la position des notes de bas de page.
 public FootnotePosition Position { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment sélectionner un emplacement différent où le document collecte et affiche ses notes de bas de page.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "InlineStory.PositionFootnote.docx");
 
 * enum [FootnotePosition](../../footnoteposition/)
 * class [FootnoteOptions](../)
-* espace de noms [Aspose.Words.Notes](../../footnoteoptions/)
+* espace de noms [Aspose.Words.Notes](../../../aspose.words.notes/)
 * Assemblée [Aspose.Words](../../../)
-
-

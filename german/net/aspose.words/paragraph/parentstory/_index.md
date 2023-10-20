@@ -1,7 +1,9 @@
 ---
 title: Paragraph.ParentStory
-second_title: Aspose.Words für .NET-API-Referenz
-description: Paragraph eigendom. Ruft die übergeordnete Story auf Abschnittsebene ab die sein kannBody oderHeaderFooter .
+linktitle: ParentStory
+articleTitle: ParentStory
+second_title: Aspose.Words für .NET
+description: Paragraph ParentStory eigendom. Ruft die übergeordnete Story auf Abschnittsebene ab die sein kannBody oderHeaderFooter  in C#.
 type: docs
 weight: 210
 url: /de/net/aspose.words/paragraph/parentstory/
@@ -14,7 +16,7 @@ Ruft die übergeordnete Story auf Abschnittsebene ab, die sein kann[`Body`](../.
 public Story ParentStory { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie eine Kopf- und Fußzeile erstellt wird.
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "HeaderFooter.Create.docx");
 
 * class [Story](../../story/)
 * class [Paragraph](../)
-* namensraum [Aspose.Words](../../paragraph/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Font.Fill
-second_title: Aspose.Words لمراجع .NET API
-description: Font ملكية. يحصل على تنسيق التعبئة لـFont .
+linktitle: Fill
+articleTitle: Fill
+second_title: Aspose.Words لـ .NET
+description: Font Fill ملكية. يحصل على تنسيق التعبئة لـFont  في C#.
 type: docs
 weight: 130
 url: /ar/net/aspose.words/font/fill/
@@ -18,7 +20,5 @@ public Fill Fill { get; }
 
 * class [Fill](../../../aspose.words.drawing/fill/)
 * class [Font](../)
-* مساحة الاسم [Aspose.Words](../../font/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

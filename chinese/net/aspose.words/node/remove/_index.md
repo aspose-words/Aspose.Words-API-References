@@ -1,7 +1,9 @@
 ---
 title: Node.Remove
-second_title: Aspose.Words for .NET API 参考
-description: Node 方法. 将自身从父级中删除
+linktitle: Remove
+articleTitle: Remove
+second_title: 用于 .NET 的 Aspose.Words
+description: Node Remove 方法. 将自身从父级中删除 在 C#.
 type: docs
 weight: 150
 url: /zh/net/aspose.words/node/remove/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/node/remove/
 public void Remove()
 ```
 
-### 例子
+## 例子
 
 演示如何从文档中删除所有带有图像的形状。
 
@@ -59,7 +61,5 @@ Assert.AreEqual(0, doc.GetChildNodes(NodeType.Table, true).Count);
 ### 也可以看看
 
 * class [Node](../)
-* 命名空间 [Aspose.Words](../../node/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

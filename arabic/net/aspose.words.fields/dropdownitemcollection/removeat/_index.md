@@ -1,7 +1,9 @@
 ---
 title: DropDownItemCollection.RemoveAt
-second_title: Aspose.Words لمراجع .NET API
-description: DropDownItemCollection طريقة. إزالة قيمة في الفهرس المحدد.
+linktitle: RemoveAt
+articleTitle: RemoveAt
+second_title: Aspose.Words لـ .NET
+description: DropDownItemCollection RemoveAt طريقة. إزالة قيمة في الفهرس المحدد في C#.
 type: docs
 weight: 100
 url: /ar/net/aspose.words.fields/dropdownitemcollection/removeat/
@@ -18,7 +20,7 @@ public void RemoveAt(int index)
 | --- | --- | --- |
 | index | Int32 | المؤشر القائم على الصفر. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج حقل مربع التحرير والسرد، وتحرير العناصر الموجودة في مجموعة العناصر الخاصة به.
 
@@ -72,7 +74,5 @@ dropDownItems.Clear();
 ### أنظر أيضا
 
 * class [DropDownItemCollection](../)
-* مساحة الاسم [Aspose.Words.Fields](../../dropdownitemcollection/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Comment.Done
-second_title: Referencia de API de Aspose.Words para .NET
-description: Comment propiedad. Obtiene o establece un indicador que indica que el comentario se ha marcado como realizado.
+linktitle: Done
+articleTitle: Done
+second_title: Aspose.Words para .NET
+description: Comment Done propiedad. Obtiene o establece un indicador que indica que el comentario se ha marcado como realizado en C#.
 type: docs
 weight: 50
 url: /es/net/aspose.words/comment/done/
@@ -14,7 +16,7 @@ Obtiene o establece un indicador que indica que el comentario se ha marcado como
 public bool Done { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo marcar un comentario como "hecho".
 
@@ -204,7 +206,5 @@ public class CommentInfoPrinter : DocumentVisitor
 ### Ver también
 
 * class [Comment](../)
-* espacio de nombres [Aspose.Words](../../comment/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

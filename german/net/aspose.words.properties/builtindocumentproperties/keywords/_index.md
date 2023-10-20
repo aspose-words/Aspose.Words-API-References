@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.Keywords
-second_title: Aspose.Words für .NET-API-Referenz
-description: BuiltInDocumentProperties eigendom. Ruft die Schlüsselwörter des Dokuments ab oder legt diese fest.
+linktitle: Keywords
+articleTitle: Keywords
+second_title: Aspose.Words für .NET
+description: BuiltInDocumentProperties Keywords eigendom. Ruft die Schlüsselwörter des Dokuments ab oder legt diese fest in C#.
 type: docs
 weight: 140
 url: /de/net/aspose.words.properties/builtindocumentproperties/keywords/
@@ -14,7 +16,7 @@ Ruft die Schlüsselwörter des Dokuments ab oder legt diese fest.
 public string Keywords { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit integrierten Dokumenteigenschaften in der Kategorie „Beschreibung“ gearbeitet wird.
 
@@ -59,7 +61,5 @@ doc.Save(ArtifactsDir + "DocumentProperties.Description.docx");
 ### Siehe auch
 
 * class [BuiltInDocumentProperties](../)
-* namensraum [Aspose.Words.Properties](../../builtindocumentproperties/)
+* namensraum [Aspose.Words.Properties](../../../aspose.words.properties/)
 * Montage [Aspose.Words](../../../)
-
-

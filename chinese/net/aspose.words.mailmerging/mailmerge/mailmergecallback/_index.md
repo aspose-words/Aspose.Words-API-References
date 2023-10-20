@@ -1,7 +1,9 @@
 ---
 title: MailMerge.MailMergeCallback
-second_title: Aspose.Words for .NET API 参考
-description: MailMerge 财产. 允许在邮件合并期间处理特定事件
+linktitle: MailMergeCallback
+articleTitle: MailMergeCallback
+second_title: 用于 .NET 的 Aspose.Words
+description: MailMerge MailMergeCallback 财产. 允许在邮件合并期间处理特定事件 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.mailmerging/mailmerge/mailmergecallback/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.mailmerging/mailmerge/mailmergecallback/
 public IMailMergeCallback MailMergeCallback { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何定义用于在邮件合并期间处理事件的自定义逻辑。
 
@@ -66,7 +68,5 @@ private class MailMergeTagReplacementCounter : IMailMergeCallback
 
 * interface [IMailMergeCallback](../../imailmergecallback/)
 * class [MailMerge](../)
-* 命名空间 [Aspose.Words.MailMerging](../../mailmerge/)
+* 命名空间 [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * 部件 [Aspose.Words](../../../)
-
-

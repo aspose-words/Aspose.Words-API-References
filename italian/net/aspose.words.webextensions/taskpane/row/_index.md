@@ -1,7 +1,9 @@
 ---
 title: TaskPane.Row
-second_title: Aspose.Words per .NET API Reference
-description: TaskPane proprietà. Specifica lindice enumerato dallesterno verso linterno di questo riquadro attività tra gli altri riquadri attività persistented ancorati nella stessa posizione predefinita.
+linktitle: Row
+articleTitle: Row
+second_title: Aspose.Words per .NET
+description: TaskPane Row proprietà. Specifica lindice enumerato dallesterno verso linterno di questo riquadro attività tra gli altri riquadri attività persistented ancorati nella stessa posizione predefinita in C#.
 type: docs
 weight: 50
 url: /it/net/aspose.words.webextensions/taskpane/row/
@@ -14,7 +16,7 @@ Specifica l'indice, enumerato dall'esterno verso l'interno, di questo riquadro a
 public int Row { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come aggiungere un'estensione Web a un documento.
 
@@ -59,7 +61,5 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 ### Guarda anche
 
 * class [TaskPane](../)
-* spazio dei nomi [Aspose.Words.WebExtensions](../../taskpane/)
+* spazio dei nomi [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * assemblea [Aspose.Words](../../../)
-
-

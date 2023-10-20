@@ -1,7 +1,9 @@
 ---
 title: BuildingBlockCollection.ToArray
-second_title: Aspose.Words لمراجع .NET API
-description: BuildingBlockCollection طريقة. نسخ كافة الكتل البرمجية الإنشائية من المجموعة إلى مجموعة جديدة من الكتل البرمجية الإنشائية.
+linktitle: ToArray
+articleTitle: ToArray
+second_title: Aspose.Words لـ .NET
+description: BuildingBlockCollection ToArray طريقة. نسخ كافة الكتل البرمجية الإنشائية من المجموعة إلى مجموعة جديدة من الكتل البرمجية الإنشائية في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.buildingblocks/buildingblockcollection/toarray/
@@ -18,7 +20,7 @@ public BuildingBlock[] ToArray()
 
 مجموعة من اللبنات الأساسية.
 
-### أمثلة
+## أمثلة
 
 يعرض طرق الوصول إلى الكتل البرمجية الإنشائية في مستند المسرد.
 
@@ -123,7 +125,5 @@ public class GlossaryDocVisitor : DocumentVisitor
 
 * class [BuildingBlock](../../buildingblock/)
 * class [BuildingBlockCollection](../)
-* مساحة الاسم [Aspose.Words.BuildingBlocks](../../buildingblockcollection/)
+* مساحة الاسم [Aspose.Words.BuildingBlocks](../../../aspose.words.buildingblocks/)
 * المجسم [Aspose.Words](../../../)
-
-

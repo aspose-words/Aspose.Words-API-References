@@ -1,7 +1,9 @@
 ---
 title: ComHelper.OpenIStream
-second_title: Aspose.Words لمراجع .NET API
-description: ComHelper طريقة. يسمح لتطبيق COM بتحميل ملفDocument من كائن IStream.
+linktitle: OpenIStream
+articleTitle: OpenIStream
+second_title: Aspose.Words لـ .NET
+description: ComHelper OpenIStream طريقة. يسمح لتطبيق COM بتحميل ملفDocument من كائن IStream في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words/comhelper/openistream/
@@ -26,7 +28,5 @@ public Document OpenIStream(IStream stream)
 
 * class [Document](../../document/)
 * class [ComHelper](../)
-* مساحة الاسم [Aspose.Words](../../comhelper/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabelCollection.Count
-second_title: Aspose.Words لمراجع .NET API
-description: ChartDataLabelCollection ملكية. إرجاع عددChartDataLabel في هذه المجموعة.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words لـ .NET
+description: ChartDataLabelCollection Count ملكية. إرجاع عددChartDataLabel في هذه المجموعة في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.drawing.charts/chartdatalabelcollection/count/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing.charts/chartdatalabelcollection/count/
 public int Count { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تطبيق التسميات على نقاط البيانات في مخطط خطي.
 
@@ -92,7 +94,5 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
 ### أنظر أيضا
 
 * class [ChartDataLabelCollection](../)
-* مساحة الاسم [Aspose.Words.Drawing.Charts](../../chartdatalabelcollection/)
+* مساحة الاسم [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../../)
-
-

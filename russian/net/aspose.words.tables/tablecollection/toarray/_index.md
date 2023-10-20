@@ -1,7 +1,9 @@
 ---
 title: TableCollection.ToArray
-second_title: Справочник по API Aspose.Words для .NET
-description: TableCollection метод. Копирует все таблицы из коллекции в новый массив таблиц.
+linktitle: ToArray
+articleTitle: ToArray
+second_title: Aspose.Words для .NET
+description: TableCollection ToArray метод. Копирует все таблицы из коллекции в новый массив таблиц на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.tables/tablecollection/toarray/
@@ -18,7 +20,7 @@ public Table[] ToArray()
 
 Массив таблиц.
 
-### Примеры
+## Примеры
 
 Показывает, как перебрать все таблицы в документе и распечатать содержимое каждой ячейки.
 
@@ -65,7 +67,5 @@ for (int i = 0; i < tables.Count; i++)
 
 * class [Table](../../table/)
 * class [TableCollection](../)
-* пространство имен [Aspose.Words.Tables](../../tablecollection/)
+* пространство имен [Aspose.Words.Tables](../../../aspose.words.tables/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Odso.FieldMapDatas
-second_title: Referencia de API de Aspose.Words para .NET
-description: Odso propiedad. Obtiene o establece una colección de objetos que especifican cómo se asignan las columnas de la fuente de datos externa a los nombres de campos de combinación predefinidos en el documento. Este objeto nunca senulo .
+linktitle: FieldMapDatas
+articleTitle: FieldMapDatas
+second_title: Aspose.Words para .NET
+description: Odso FieldMapDatas propiedad. Obtiene o establece una colección de objetos que especifican cómo se asignan las columnas de la fuente de datos externa a los nombres de campos de combinación predefinidos en el documento. Este objeto nunca senulo  en C#.
 type: docs
 weight: 50
 url: /es/net/aspose.words.settings/odso/fieldmapdatas/
@@ -14,7 +16,7 @@ Obtiene o establece una colección de objetos que especifican cómo se asignan l
 public OdsoFieldMapDataCollection FieldMapDatas { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo acceder a la colección de datos que asigna columnas de origen de datos para fusionar campos.
 
@@ -58,7 +60,5 @@ Assert.AreEqual(0, dataCollection.Count);
 
 * class [OdsoFieldMapDataCollection](../../odsofieldmapdatacollection/)
 * class [Odso](../)
-* espacio de nombres [Aspose.Words.Settings](../../odso/)
+* espacio de nombres [Aspose.Words.Settings](../../../aspose.words.settings/)
 * asamblea [Aspose.Words](../../../)
-
-

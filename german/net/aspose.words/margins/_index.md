@@ -1,7 +1,9 @@
 ---
-title: Enum Margins
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Margins opsomming. Gibt voreingestellte Ränder an.
+title: Margins Enum
+linktitle: Margins
+articleTitle: Margins
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Margins opsomming. Gibt voreingestellte Ränder an in C#.
 type: docs
 weight: 3890
 url: /de/net/aspose.words/margins/
@@ -29,5 +31,3 @@ public enum Margins
 
 * namensraum [Aspose.Words](../../aspose.words/)
 * Montage [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldMergeField.Type
-second_title: Aspose.Words för .NET API Referens
-description: FieldMergeField fast egendom. Hämtar fälttypen Microsoft Word.
+linktitle: Type
+articleTitle: Type
+second_title: Aspose.Words för .NET
+description: FieldMergeField Type fast egendom. Hämtar fälttypen Microsoft Word i C#.
 type: docs
 weight: 70
 url: /sv/net/aspose.words.fields/fieldmergefield/type/
@@ -18,7 +20,5 @@ public override FieldType Type { get; }
 
 * enum [FieldType](../../fieldtype/)
 * class [FieldMergeField](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldmergefield/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

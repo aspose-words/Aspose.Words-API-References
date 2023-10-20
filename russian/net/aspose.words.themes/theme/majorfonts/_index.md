@@ -1,7 +1,9 @@
 ---
 title: Theme.MajorFonts
-second_title: Справочник по API Aspose.Words для .NET
-description: Theme свойство. Позволяет указать набор основных шрифтов для разных языков.
+linktitle: MajorFonts
+articleTitle: MajorFonts
+second_title: Aspose.Words для .NET
+description: Theme MajorFonts свойство. Позволяет указать набор основных шрифтов для разных языков на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.themes/theme/majorfonts/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.themes/theme/majorfonts/
 public ThemeFonts MajorFonts { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как устанавливать собственные цвета и шрифты для тем.
 
@@ -63,7 +65,5 @@ doc.Save(ArtifactsDir + "Themes.CustomColorsAndFonts.docx");
 
 * class [ThemeFonts](../../themefonts/)
 * class [Theme](../)
-* пространство имен [Aspose.Words.Themes](../../theme/)
+* пространство имен [Aspose.Words.Themes](../../../aspose.words.themes/)
 * сборка [Aspose.Words](../../../)
-
-

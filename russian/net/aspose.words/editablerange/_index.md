@@ -1,7 +1,9 @@
 ---
-title: Class EditableRange
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.EditableRange сорт. Представляет один редактируемый диапазон.
+title: EditableRange Class
+linktitle: EditableRange
+articleTitle: EditableRange
+second_title: Aspose.Words для .NET
+description: Aspose.Words.EditableRange сорт. Представляет один редактируемый диапазон на С#.
 type: docs
 weight: 1420
 url: /ru/net/aspose.words/editablerange/
@@ -32,11 +34,11 @@ public class EditableRange
 | --- | --- |
 | [Remove](../../aspose.words/editablerange/remove/)() | Удаляет редактируемый диапазон из документа. Не удаляет содержимое внутри редактируемого диапазона. |
 
-### Примечания
+## Примечания
 
 `EditableRange` это объект «фасада», который инкапсулирует два узла[`EditableRangeStart`](./editablerangestart/) и[`EditableRangeEnd`](./editablerangeend/) в дереве документа и позволяет работать с редактируемым диапазоном как с единым объектом.
 
-### Примеры
+## Примеры
 
 Показывает, как работать с редактируемым диапазоном.
 
@@ -189,5 +191,3 @@ public class EditableRangePrinter : DocumentVisitor
 
 * пространство имен [Aspose.Words](../../aspose.words/)
 * сборка [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Chart.Legend
-second_title: Referencia de API de Aspose.Words para .NET
-description: Chart propiedad. Proporciona acceso a las propiedades de la leyenda del gráfico.
+linktitle: Legend
+articleTitle: Legend
+second_title: Aspose.Words para .NET
+description: Chart Legend propiedad. Proporciona acceso a las propiedades de la leyenda del gráfico en C#.
 type: docs
 weight: 50
 url: /es/net/aspose.words.drawing.charts/chart/legend/
@@ -14,7 +16,7 @@ Proporciona acceso a las propiedades de la leyenda del gráfico.
 public ChartLegend Legend { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo editar la apariencia de la leyenda de un gráfico.
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "Charts.ChartLegend.docx");
 
 * class [ChartLegend](../../chartlegend/)
 * class [Chart](../)
-* espacio de nombres [Aspose.Words.Drawing.Charts](../../chart/)
+* espacio de nombres [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * asamblea [Aspose.Words](../../../)
-
-

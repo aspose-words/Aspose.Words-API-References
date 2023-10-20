@@ -1,7 +1,9 @@
 ---
 title: Font.Bidi
-second_title: Aspose.Words für .NET-API-Referenz
-description: Font eigendom. Gibt an ob der Inhalt dieses Laufs RechtsnachLinksEigenschaften haben soll.
+linktitle: Bidi
+articleTitle: Bidi
+second_title: Aspose.Words für .NET
+description: Font Bidi eigendom. Gibt an ob der Inhalt dieses Laufs RechtsnachLinksEigenschaften haben soll in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words/font/bidi/
@@ -14,7 +16,7 @@ Gibt an, ob der Inhalt dieses Laufs Rechts-nach-Links-Eigenschaften haben soll.
 public bool Bidi { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Wenn diese Eigenschaft aktiviert ist, darf sie nicht für stark von links nach rechts verlaufenden Text verwendet werden. Jegliches Verhalten unter dieser Bedingung ist nicht spezifiziert. Wenn diese Eigenschaft deaktiviert ist, darf sie nicht mit starkem Rechts-nach-Links-Text verwendet werden. Jegliches Verhalten unter dieser Bedingung ist nicht spezifiziert.
 
@@ -22,7 +24,7 @@ Wenn der Inhalt dieses Laufs angezeigt wird, werden alle Zeichen zu Formatierung
 
 Wenn der Inhalt dieses Laufs angezeigt wird, fungiert diese Eigenschaft außerdem als Überschreibung von rechts nach links für Zeichen , die als „schwache Typen“ und „neutrale Typen“ klassifiziert sind.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie separate Sätze von Schriftarteinstellungen für Text mit der Schreibrichtung von rechts nach links und von rechts nach links definiert werden.
 
@@ -61,7 +63,5 @@ doc.Save(ArtifactsDir + "Font.Bidi.docx");
 ### Siehe auch
 
 * class [Font](../)
-* namensraum [Aspose.Words](../../font/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

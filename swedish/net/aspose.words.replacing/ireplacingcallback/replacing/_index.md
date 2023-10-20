@@ -1,7 +1,9 @@
 ---
 title: IReplacingCallback.Replacing
-second_title: Aspose.Words för .NET API Referens
-description: IReplacingCallback metod. En användardefinierad metod som anropas under en ersättningsoperation för varje matchning som hittas precis innan en ersättning görs.
+linktitle: Replacing
+articleTitle: Replacing
+second_title: Aspose.Words för .NET
+description: IReplacingCallback Replacing metod. En användardefinierad metod som anropas under en ersättningsoperation för varje matchning som hittas precis innan en ersättning görs i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.replacing/ireplacingcallback/replacing/
@@ -18,7 +20,7 @@ public ReplaceAction Replacing(ReplacingArgs args)
 
 A[`ReplaceAction`](../../replaceaction/) värde som anger vilken åtgärd som ska vidtas för den aktuella matchningen.
 
-### Exempel
+## Exempel
 
 Visar hur man ersätter alla förekomster av ett reguljärt uttrycksmönster med en annan sträng, samtidigt som alla sådana ersättningar spåras.
 
@@ -145,7 +147,5 @@ private static void InsertDocument(Node insertionDestination, Document docToInse
 * enum [ReplaceAction](../../replaceaction/)
 * class [ReplacingArgs](../../replacingargs/)
 * interface [IReplacingCallback](../)
-* namnutrymme [Aspose.Words.Replacing](../../ireplacingcallback/)
+* namnutrymme [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * hopsättning [Aspose.Words](../../../)
-
-

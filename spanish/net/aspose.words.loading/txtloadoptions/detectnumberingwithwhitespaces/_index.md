@@ -1,9 +1,11 @@
 ---
 title: TxtLoadOptions.DetectNumberingWithWhitespaces
-second_title: Referencia de API de Aspose.Words para .NET
-description: TxtLoadOptions propiedad. Permite especificar cómo se reconocen los elementos de la lista numerados cuando el documento se importa desde formato de texto sin formato. El valor predeterminado esverdadero.
+linktitle: DetectNumberingWithWhitespaces
+articleTitle: DetectNumberingWithWhitespaces
+second_title: Aspose.Words para .NET
+description: TxtLoadOptions DetectNumberingWithWhitespaces propiedad. Permite especificar cómo se reconocen los elementos de la lista numerados cuando el documento se importa desde formato de texto sin formato. El valor predeterminado esverdadero en C#.
 type: docs
-weight: 40
+weight: 30
 url: /es/net/aspose.words.loading/txtloadoptions/detectnumberingwithwhitespaces/
 ---
 ## TxtLoadOptions.DetectNumberingWithWhitespaces property
@@ -14,13 +16,13 @@ Permite especificar cómo se reconocen los elementos de la lista numerados cuand
 public bool DetectNumberingWithWhitespaces { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 Si esta opción está configurada en`FALSO`, el algoritmo de reconocimiento de listas detecta párrafos de listas, cuando los números de la lista terminan con ya sea un punto, un corchete derecho o un símbolo de viñeta (como "•", "*", "-" u "o").
 
 Si esta opción está configurada en`verdadero`los espacios en blanco también se utilizan como delimitadores de números de lista: el algoritmo de reconocimiento de listas para numeración de estilo árabe (1., 1.1.2.) utiliza espacios en blanco y símbolos de punto (".").
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo detectar listas al cargar documentos de texto sin formato.
 
@@ -74,7 +76,5 @@ else
 ### Ver también
 
 * class [TxtLoadOptions](../)
-* espacio de nombres [Aspose.Words.Loading](../../txtloadoptions/)
+* espacio de nombres [Aspose.Words.Loading](../../../aspose.words.loading/)
 * asamblea [Aspose.Words](../../../)
-
-

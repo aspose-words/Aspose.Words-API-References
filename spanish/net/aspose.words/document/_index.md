@@ -1,7 +1,9 @@
 ---
-title: Class Document
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Document clase. Representa un documento de Word.
+title: Document Class
+linktitle: Document
+articleTitle: Document
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Document clase. Representa un documento de Word en C#.
 type: docs
 weight: 430
 url: /es/net/aspose.words/document/
@@ -21,10 +23,10 @@ public class Document : DocumentBase
 | Nombre | Descripción |
 | --- | --- |
 | [Document](document/#constructor)() | Crea un documento de Word en blanco. |
-| [Document](document/#constructor_1)(Stream) | Abre un documento existente desde una secuencia. Detecta automáticamente el formato del archivo. |
-| [Document](document/#constructor_3)(string) | Abre un documento existente desde un archivo. Detecta automáticamente el formato del archivo. |
-| [Document](document/#constructor_2)(Stream, LoadOptions) | Abre un documento existente desde una secuencia. Permite especificar opciones adicionales como una contraseña de cifrado. |
-| [Document](document/#constructor_4)(string, LoadOptions) | Abre un documento existente desde un archivo. Permite especificar opciones adicionales como una contraseña de cifrado. |
+| [Document](document/#constructor_1)(*Stream*) | Abre un documento existente desde una secuencia. Detecta automáticamente el formato del archivo. |
+| [Document](document/#constructor_3)(*string*) | Abre un documento existente desde un archivo. Detecta automáticamente el formato del archivo. |
+| [Document](document/#constructor_2)(*Stream, [LoadOptions](../../aspose.words.loading/loadoptions/)*) | Abre un documento existente desde una secuencia. Permite especificar opciones adicionales como una contraseña de cifrado. |
+| [Document](document/#constructor_4)(*string, [LoadOptions](../../aspose.words.loading/loadoptions/)*) | Abre un documento existente desde un archivo. Permite especificar opciones adicionales como una contraseña de cifrado. |
 
 ## Propiedades
 
@@ -34,7 +36,7 @@ public class Document : DocumentBase
 | [AutomaticallyUpdateStyles](../../aspose.words/document/automaticallyupdatestyles/) { get; set; } | Obtiene o establece una marca que indica si los estilos del documento se actualizan para coincidir con los estilos de la plantilla adjunta cada vez que se abre el documento en MS Word. |
 | [BackgroundShape](../../aspose.words/documentbase/backgroundshape/) { get; set; } | Obtiene o establece la forma del fondo del documento. Puede ser`nulo` . |
 | [BuiltInDocumentProperties](../../aspose.words/document/builtindocumentproperties/) { get; } | Devuelve una colección que representa todas las propiedades integradas del documento. |
-| [CompatibilityOptions](../../aspose.words/document/compatibilityoptions/) { get; } | Proporciona acceso a las opciones de compatibilidad de documentos (es decir, las preferencias de usuario ingresadas en el **Compatibilidad** pestaña del **Opciones** cuadro de diálogo en Word). |
+| [CompatibilityOptions](../../aspose.words/document/compatibilityoptions/) { get; } | Proporciona acceso a las opciones de compatibilidad de documentos (es decir, las preferencias de usuario ingresadas en el**Compatibilidad** pestaña del**Opciones** cuadro de diálogo en Word). |
 | [Compliance](../../aspose.words/document/compliance/) { get; } | Obtiene la versión de cumplimiento de OOXML determinada a partir del contenido del documento cargado. Tiene sentido sólo para documentos OOXML. |
 | [Count](../../aspose.words/compositenode/count/) { get; } | Obtiene el número de hijos inmediatos de este nodo. |
 | [CustomDocumentProperties](../../aspose.words/document/customdocumentproperties/) { get; } | Devuelve una colección que representa todas las propiedades personalizadas del documento. |
@@ -103,81 +105,79 @@ public class Document : DocumentBase
 
 | Nombre | Descripción |
 | --- | --- |
-| override [Accept](../../aspose.words/document/accept/)(DocumentVisitor) | Acepta un visitante. |
+| override [Accept](../../aspose.words/document/accept/)(*[DocumentVisitor](../documentvisitor/)*) | Acepta un visitante. |
 | [AcceptAllRevisions](../../aspose.words/document/acceptallrevisions/)() | Acepta todos los cambios rastreados en el documento. |
-| override [AcceptEnd](../../aspose.words/document/acceptend/)(DocumentVisitor) |  |
-| override [AcceptStart](../../aspose.words/document/acceptstart/)(DocumentVisitor) |  |
-| [AppendChild&lt;T&gt;](../../aspose.words/compositenode/appendchild/)(T) |  |
-| [AppendDocument](../../aspose.words/document/appenddocument/#appenddocument)(Document, ImportFormatMode) | Agrega el documento especificado al final de este documento. |
-| [AppendDocument](../../aspose.words/document/appenddocument/#appenddocument_1)(Document, ImportFormatMode, ImportFormatOptions) | Agrega el documento especificado al final de este documento. |
+| [AppendChild](../../aspose.words/compositenode/appendchild/)(*[Node](../node/)*) | Agrega el nodo especificado al final de la lista de nodos secundarios para este nodo. |
+| [AppendDocument](../../aspose.words/document/appenddocument/#appenddocument)(*Document, [ImportFormatMode](../importformatmode/)*) | Agrega el documento especificado al final de este documento. |
+| [AppendDocument](../../aspose.words/document/appenddocument/#appenddocument_1)(*Document, [ImportFormatMode](../importformatmode/), [ImportFormatOptions](../importformatoptions/)*) | Agrega el documento especificado al final de este documento. |
 | [Cleanup](../../aspose.words/document/cleanup/#cleanup)() | Limpia estilos y listas no utilizados del documento. |
-| [Cleanup](../../aspose.words/document/cleanup/#cleanup_1)(CleanupOptions) | Limpia estilos y listas no utilizados del documento según lo dado[`CleanupOptions`](../cleanupoptions/) . |
+| [Cleanup](../../aspose.words/document/cleanup/#cleanup_1)(*[CleanupOptions](../cleanupoptions/)*) | Limpia estilos y listas no utilizados del documento según lo dado[`CleanupOptions`](../cleanupoptions/) . |
 | [Clone](../../aspose.words/document/clone/#clone)() | Realiza una copia profunda del`Document` . |
-| [Clone](../../aspose.words/node/clone/)(bool) | Crea un duplicado del nodo. |
-| [Compare](../../aspose.words/document/compare/#compare)(Document, string, DateTime) | Compara este documento con otro documento que produce cambios como número de ediciones y revisiones de formato.[`Revision`](../revision/) . |
-| [Compare](../../aspose.words/document/compare/#compare_1)(Document, string, DateTime, CompareOptions) | Compara este documento con otro documento que produce cambios como una serie de revisiones de edición y formato.[`Revision`](../revision/) . Permite especificar opciones de comparación usando[`CompareOptions`](../../aspose.words.comparing/compareoptions/) . |
-| [CopyStylesFromTemplate](../../aspose.words/document/copystylesfromtemplate/#copystylesfromtemplate)(Document) | Copia estilos de la plantilla especificada a un documento. |
-| [CopyStylesFromTemplate](../../aspose.words/document/copystylesfromtemplate/#copystylesfromtemplate_1)(string) | Copia estilos de la plantilla especificada a un documento. |
+| [Clone](../../aspose.words/node/clone/)(*bool*) | Crea un duplicado del nodo. |
+| [Compare](../../aspose.words/document/compare/#compare)(*Document, string, DateTime*) | Compara este documento con otro documento que produce cambios como número de ediciones y revisiones de formato.[`Revision`](../revision/) . |
+| [Compare](../../aspose.words/document/compare/#compare_1)(*Document, string, DateTime, [CompareOptions](../../aspose.words.comparing/compareoptions/)*) | Compara este documento con otro documento que produce cambios como una serie de revisiones de edición y formato.[`Revision`](../revision/) . Permite especificar opciones de comparación usando[`CompareOptions`](../../aspose.words.comparing/compareoptions/) . |
+| [CopyStylesFromTemplate](../../aspose.words/document/copystylesfromtemplate/#copystylesfromtemplate)(*Document*) | Copia estilos de la plantilla especificada a un documento. |
+| [CopyStylesFromTemplate](../../aspose.words/document/copystylesfromtemplate/#copystylesfromtemplate_1)(*string*) | Copia estilos de la plantilla especificada a un documento. |
 | [CreateNavigator](../../aspose.words/compositenode/createnavigator/)() | Crea un navegador que se puede utilizar para atravesar y leer nodos. |
 | [EnsureMinimum](../../aspose.words/document/ensureminimum/)() | Si el documento no contiene secciones, crea una sección con un párrafo. |
 | [ExpandTableStylesToDirectFormatting](../../aspose.words/document/expandtablestylestodirectformatting/)() | Convierte el formato especificado en los estilos de tabla en formato directo en las tablas del documento. |
-| [ExtractPages](../../aspose.words/document/extractpages/)(int, int) | Devuelve el`Document` objeto que representa un rango específico de páginas. |
-| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Obtiene el primer ancestro del especificado[`NodeType`](../nodetype/) . |
-| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Obtiene el primer antepasado del tipo de objeto especificado. |
-| [GetChild](../../aspose.words/compositenode/getchild/)(NodeType, int, bool) | Devuelve un enésimo nodo secundario que coincide con el tipo especificado. |
-| [GetChildNodes](../../aspose.words/compositenode/getchildnodes/)(NodeType, bool) | Devuelve una colección activa de nodos secundarios que coinciden con el tipo especificado. |
+| [ExtractPages](../../aspose.words/document/extractpages/)(*int, int*) | Devuelve el`Document` objeto que representa un rango específico de páginas. |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*[NodeType](../nodetype/)*) | Obtiene el primer ancestro del especificado[`NodeType`](../nodetype/) . |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | Obtiene el primer antepasado del tipo de objeto especificado. |
+| [GetChild](../../aspose.words/compositenode/getchild/)(*[NodeType](../nodetype/), int, bool*) | Devuelve un enésimo nodo secundario que coincide con el tipo especificado. |
+| [GetChildNodes](../../aspose.words/compositenode/getchildnodes/)(*[NodeType](../nodetype/), bool*) | Devuelve una colección activa de nodos secundarios que coinciden con el tipo especificado. |
 | [GetEnumerator](../../aspose.words/compositenode/getenumerator/)() | Proporciona soporte para cada iteración de estilo sobre los nodos secundarios de este nodo. |
-| [GetPageInfo](../../aspose.words/document/getpageinfo/)(int) | Obtiene el tamaño de la página, la orientación y otra información sobre una página que podría ser útil para imprimir o renderizar. |
+| [GetPageInfo](../../aspose.words/document/getpageinfo/)(*int*) | Obtiene el tamaño de la página, la orientación y otra información sobre una página que podría ser útil para imprimir o renderizar. |
 | override [GetText](../../aspose.words/compositenode/gettext/)() | Obtiene el texto de este nodo y de todos sus hijos. |
-| [ImportNode](../../aspose.words/documentbase/importnode/)(Node, bool) | Importa un nodo de otro documento al documento actual. |
-| [ImportNode](../../aspose.words/documentbase/importnode/)(Node, bool, ImportFormatMode) | Importa un nodo de otro documento al documento actual con una opción para controlar el formato. |
-| [IndexOf](../../aspose.words/compositenode/indexof/)(Node) | Devuelve el índice del nodo secundario especificado en la matriz de nodos secundarios. |
-| [InsertAfter&lt;T&gt;](../../aspose.words/compositenode/insertafter/)(T, Node) |  |
-| [InsertBefore&lt;T&gt;](../../aspose.words/compositenode/insertbefore/)(T, Node) |  |
+| [ImportNode](../../aspose.words/documentbase/importnode/)(*[Node](../node/), bool*) | Importa un nodo de otro documento al documento actual. |
+| [ImportNode](../../aspose.words/documentbase/importnode/)(*[Node](../node/), bool, [ImportFormatMode](../importformatmode/)*) | Importa un nodo de otro documento al documento actual con una opción para controlar el formato. |
+| [IndexOf](../../aspose.words/compositenode/indexof/)(*[Node](../node/)*) | Devuelve el índice del nodo secundario especificado en la matriz de nodos secundarios. |
+| [InsertAfter](../../aspose.words/compositenode/insertafter/)(*[Node](../node/), [Node](../node/)*) | Inserta el nodo especificado inmediatamente después del nodo de referencia especificado. |
+| [InsertBefore](../../aspose.words/compositenode/insertbefore/)(*[Node](../node/), [Node](../node/)*) | Inserta el nodo especificado inmediatamente antes del nodo de referencia especificado. |
 | [JoinRunsWithSameFormatting](../../aspose.words/document/joinrunswithsameformatting/)() | Las uniones se ejecutan con el mismo formato en todos los párrafos del documento. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Obtiene el siguiente nodo según el algoritmo transversal del árbol de pedidos anticipados. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../node/)*) | Obtiene el siguiente nodo según el algoritmo transversal del árbol de pedidos anticipados. |
 | [NormalizeFieldTypes](../../aspose.words/document/normalizefieldtypes/)() | Cambia los valores del tipo de campo[`FieldType`](../../aspose.words.fields/fieldchar/fieldtype/) de[`FieldStart`](../../aspose.words.fields/fieldstart/) ,[`FieldSeparator`](../../aspose.words.fields/fieldseparator/) ,[`FieldEnd`](../../aspose.words.fields/fieldend/) en todo el documento para que correspondan a los tipos de campo contenidos en los códigos de campo. |
-| [PrependChild&lt;T&gt;](../../aspose.words/compositenode/prependchild/)(T) |  |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Obtiene el nodo anterior según el algoritmo transversal del árbol de pedidos anticipados. |
+| [PrependChild](../../aspose.words/compositenode/prependchild/)(*[Node](../node/)*) | Agrega el nodo especificado al principio de la lista de nodos secundarios para este nodo. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../node/)*) | Obtiene el nodo anterior según el algoritmo transversal del árbol de pedidos anticipados. |
 | [Print](../../aspose.words/document/print/#print)() | Imprime todo el documento en la impresora predeterminada. |
-| [Print](../../aspose.words/document/print/#print_1)(PrinterSettings) | Imprime el documento según la configuración de impresora especificada, utilizando el controlador de impresión estándar (sin interfaz de usuario). |
-| [Print](../../aspose.words/document/print/#print_3)(string) | Imprima todo el documento en la impresora especificada, utilizando el controlador de impresión estándar (sin interfaz de usuario). |
-| [Print](../../aspose.words/document/print/#print_2)(PrinterSettings, string) | Imprime el documento según la configuración de impresora especificada, utilizando el controlador de impresión estándar (sin interfaz de usuario) y un nombre de documento. |
-| [Protect](../../aspose.words/document/protect/#protect)(ProtectionType) | Protege el documento de cambios sin cambiar la contraseña existente o asigna una contraseña aleatoria. |
-| [Protect](../../aspose.words/document/protect/#protect_1)(ProtectionType, string) | Protege el documento de cambios y opcionalmente establece una contraseña de protección. |
+| [Print](../../aspose.words/document/print/#print_1)(*PrinterSettings*) | Imprime el documento según la configuración de impresora especificada, utilizando el controlador de impresión estándar (sin interfaz de usuario). |
+| [Print](../../aspose.words/document/print/#print_3)(*string*) | Imprima todo el documento en la impresora especificada, utilizando el controlador de impresión estándar (sin interfaz de usuario). |
+| [Print](../../aspose.words/document/print/#print_2)(*PrinterSettings, string*) | Imprime el documento según la configuración de impresora especificada, utilizando el controlador de impresión estándar (sin interfaz de usuario) y un nombre de documento. |
+| [Protect](../../aspose.words/document/protect/#protect)(*[ProtectionType](../protectiontype/)*) | Protege el documento de cambios sin cambiar la contraseña existente o asigna una contraseña aleatoria. |
+| [Protect](../../aspose.words/document/protect/#protect_1)(*[ProtectionType](../protectiontype/), string*) | Protege el documento de cambios y opcionalmente establece una contraseña de protección. |
 | [Remove](../../aspose.words/node/remove/)() | Se elimina del padre. |
 | [RemoveAllChildren](../../aspose.words/compositenode/removeallchildren/)() | Elimina todos los nodos secundarios del nodo actual. |
-| [RemoveChild&lt;T&gt;](../../aspose.words/compositenode/removechild/)(T) |  |
+| [RemoveChild](../../aspose.words/compositenode/removechild/)(*[Node](../node/)*) | Elimina el nodo secundario especificado. |
 | [RemoveExternalSchemaReferences](../../aspose.words/document/removeexternalschemareferences/)() | Elimina las referencias de esquemas XML externos de este documento. |
 | [RemoveMacros](../../aspose.words/document/removemacros/)() | Elimina todas las macros (el proyecto VBA), así como las barras de herramientas y las personalizaciones de comandos del documento. |
 | [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags/)() | Elimina todo[`SmartTag`](../../aspose.words.markup/smarttag/)nodos descendientes del nodo actual. |
-| [RenderToScale](../../aspose.words/document/rendertoscale/)(int, Graphics, float, float, float) | Representa una página de documento en unGraphics objeto a una escala especificada. |
-| [RenderToSize](../../aspose.words/document/rendertosize/)(int, Graphics, float, float, float, float) | Representa una página de documento en unGraphics objeto a un tamaño específico. |
-| [Save](../../aspose.words/document/save/#save_2)(string) | Guarda el documento en un archivo. Determina automáticamente el formato de guardado de la extensión. |
-| [Save](../../aspose.words/document/save/#save)(Stream, SaveFormat) | Guarda el documento en una secuencia usando el formato especificado. |
-| [Save](../../aspose.words/document/save/#save_1)(Stream, SaveOptions) | Guarda el documento en una secuencia utilizando las opciones de guardado especificadas. |
-| [Save](../../aspose.words/document/save/#save_3)(string, SaveFormat) | Guarda el documento en un archivo en el formato especificado. |
-| [Save](../../aspose.words/document/save/#save_4)(string, SaveOptions) | Guarda el documento en un archivo usando las opciones de guardado especificadas. |
-| [Save](../../aspose.words/document/save/#save_5)(HttpResponse, string, ContentDisposition, SaveOptions) | Envía el documento al navegador del cliente. |
-| [SelectNodes](../../aspose.words/compositenode/selectnodes/)(string) | Selecciona una lista de nodos que coinciden con la expresión XPath. |
-| [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(string) | Selecciona el primero[`Node`](../node/) que coincide con la expresión XPath. |
-| [StartTrackRevisions](../../aspose.words/document/starttrackrevisions/#starttrackrevisions)(string) | Comienza a marcar automáticamente todos los cambios adicionales que realice en el documento mediante programación como cambios de revisión. |
-| [StartTrackRevisions](../../aspose.words/document/starttrackrevisions/#starttrackrevisions_1)(string, DateTime) | Comienza a marcar automáticamente todos los cambios adicionales que realice en el documento mediante programación como cambios de revisión. |
+| [RenderToScale](../../aspose.words/document/rendertoscale/)(*int, Graphics, float, float, float*) | Representa una página de documento en unGraphics objeto a una escala especificada. |
+| [RenderToSize](../../aspose.words/document/rendertosize/)(*int, Graphics, float, float, float, float*) | Representa una página de documento en unGraphics objeto a un tamaño específico. |
+| [Save](../../aspose.words/document/save/#save_2)(*string*) | Guarda el documento en un archivo. Determina automáticamente el formato de guardado de la extensión. |
+| [Save](../../aspose.words/document/save/#save)(*Stream, [SaveFormat](../saveformat/)*) | Guarda el documento en una secuencia usando el formato especificado. |
+| [Save](../../aspose.words/document/save/#save_1)(*Stream, [SaveOptions](../../aspose.words.saving/saveoptions/)*) | Guarda el documento en una secuencia utilizando las opciones de guardado especificadas. |
+| [Save](../../aspose.words/document/save/#save_3)(*string, [SaveFormat](../saveformat/)*) | Guarda el documento en un archivo en el formato especificado. |
+| [Save](../../aspose.words/document/save/#save_4)(*string, [SaveOptions](../../aspose.words.saving/saveoptions/)*) | Guarda el documento en un archivo usando las opciones de guardado especificadas. |
+| [Save](../../aspose.words/document/save/#save_5)(*HttpResponse, string, [ContentDisposition](../contentdisposition/), [SaveOptions](../../aspose.words.saving/saveoptions/)*) | Envía el documento al navegador del cliente. |
+| [SelectNodes](../../aspose.words/compositenode/selectnodes/)(*string*) | Selecciona una lista de nodos que coinciden con la expresión XPath. |
+| [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(*string*) | Selecciona el primero[`Node`](../node/) que coincide con la expresión XPath. |
+| [StartTrackRevisions](../../aspose.words/document/starttrackrevisions/#starttrackrevisions)(*string*) | Comienza a marcar automáticamente todos los cambios adicionales que realice en el documento mediante programación como cambios de revisión. |
+| [StartTrackRevisions](../../aspose.words/document/starttrackrevisions/#starttrackrevisions_1)(*string, DateTime*) | Comienza a marcar automáticamente todos los cambios adicionales que realice en el documento mediante programación como cambios de revisión. |
 | [StopTrackRevisions](../../aspose.words/document/stoptrackrevisions/)() | Detiene el marcado automático de los cambios del documento como revisiones. |
-| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Exporta el contenido del nodo a una cadena en el formato especificado. |
-| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | Exporta el contenido del nodo a una cadena usando las opciones de guardado especificadas. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../saveformat/)*) | Exporta el contenido del nodo a una cadena en el formato especificado. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | Exporta el contenido del nodo a una cadena usando las opciones de guardado especificadas. |
 | [UnlinkFields](../../aspose.words/document/unlinkfields/)() | Desvincula campos en todo el documento. |
 | [Unprotect](../../aspose.words/document/unprotect/#unprotect_1)() | Elimina la protección del documento independientemente de la contraseña. |
-| [Unprotect](../../aspose.words/document/unprotect/#unprotect)(string) | Elimina la protección del documento si se especifica una contraseña correcta. |
+| [Unprotect](../../aspose.words/document/unprotect/#unprotect)(*string*) | Elimina la protección del documento si se especifica una contraseña correcta. |
 | [UpdateFields](../../aspose.words/document/updatefields/)() | Actualiza los valores de los campos en todo el documento. |
 | [UpdateListLabels](../../aspose.words/document/updatelistlabels/)() | Actualiza las etiquetas de la lista para todos los elementos de la lista en el documento. |
 | [UpdatePageLayout](../../aspose.words/document/updatepagelayout/)() | Reconstruye el diseño de página del documento. |
 | [UpdateThumbnail](../../aspose.words/document/updatethumbnail/#updatethumbnail)() | Actualizaciones[`Thumbnail`](../../aspose.words.properties/builtindocumentproperties/thumbnail/) del documento usando las opciones predeterminadas. |
-| [UpdateThumbnail](../../aspose.words/document/updatethumbnail/#updatethumbnail_1)(ThumbnailGeneratingOptions) | Actualizaciones[`Thumbnail`](../../aspose.words.properties/builtindocumentproperties/thumbnail/) del documento según las opciones especificadas. |
+| [UpdateThumbnail](../../aspose.words/document/updatethumbnail/#updatethumbnail_1)(*[ThumbnailGeneratingOptions](../../aspose.words.rendering/thumbnailgeneratingoptions/)*) | Actualizaciones[`Thumbnail`](../../aspose.words.properties/builtindocumentproperties/thumbnail/) del documento según las opciones especificadas. |
 | [UpdateWordCount](../../aspose.words/document/updatewordcount/#updatewordcount)() | Actualiza las propiedades de recuento de palabras del documento. |
-| [UpdateWordCount](../../aspose.words/document/updatewordcount/#updatewordcount_1)(bool) | Actualiza las propiedades de recuento de palabras del documento y, opcionalmente, actualiza[`Lines`](../../aspose.words.properties/builtindocumentproperties/lines/) propiedad. |
+| [UpdateWordCount](../../aspose.words/document/updatewordcount/#updatewordcount_1)(*bool*) | Actualiza las propiedades de recuento de palabras del documento y, opcionalmente, actualiza[`Lines`](../../aspose.words.properties/builtindocumentproperties/lines/) propiedad. |
 
-### Observaciones
+## Observaciones
 
 El`Document` es un objeto central en la biblioteca Aspose.Words.
 
@@ -185,11 +185,11 @@ Para cargar un documento existente en cualquiera de los[`LoadFormat`](../loadfor
 
 Utilice una de las sobrecargas del método Guardar para guardar el documento en cualquiera de los [`SaveFormat`](../saveformat/) formatos.
 
-Para dibujar páginas de un documento directamente en un **Gráficos** uso del objeto [`RenderToScale`](./rendertoscale/) o[`RenderToSize`](./rendertosize/) método.
+Para dibujar páginas de un documento directamente en un**Gráficos** uso del objeto [`RenderToScale`](./rendertoscale/) o[`RenderToSize`](./rendertosize/) método.
 
 Para imprimir el documento, utilice uno de los[`Print`](./print/) métodos.
 
-[`MailMerge`](./mailmerge/) es el motor de informes de Aspose.Words que permite completar informes diseñados en Microsoft Word con datos de varias fuentes de datos de forma rápida y sencilla. Los datos pueden ser de un DataSet, DataTable, DataView, IDataReader o una matriz de valores.  **Unificación de correo** Revisará los registros encontrados en la fuente de datos y los insertará en los campos de combinación de correspondencia del documento, haciéndolo crecer según sea necesario.
+[`MailMerge`](./mailmerge/) es el motor de informes de Aspose.Words que permite completar informes diseñados en Microsoft Word con datos de varias fuentes de datos de forma rápida y sencilla. Los datos pueden ser de un DataSet, DataTable, DataView, IDataReader o una matriz de valores. **Unificación de correo** Revisará los registros encontrados en la fuente de datos y los insertará en los campos de combinación de correspondencia del documento, haciéndolo crecer según sea necesario.
 
 `Document` almacena información de todo el documento, como[`Styles`](../documentbase/styles/) , [`BuiltInDocumentProperties`](./builtindocumentproperties/) ,[`CustomDocumentProperties`](./customdocumentproperties/) listas y macros. Se puede acceder a la mayoría de estos objetos a través de las propiedades correspondientes del`Document`.
 
@@ -197,7 +197,7 @@ El`Document` es un nodo raíz de un árbol que contiene todos los demás nodos d
 
 * Se puede acceder a los nodos del documento a través de colecciones escritas, por ejemplo[`Sections`](./sections/) , [`ParagraphCollection`](../paragraphcollection/) etc.
 * Los nodos del documento se pueden seleccionar por su tipo de nodo usando [`GetChildNodes`](../compositenode/getchildnodes/) o usando una consulta XPath con[`SelectNodes`](../compositenode/selectnodes/) o[`SelectSingleNode`](../compositenode/selectsinglenode/).
-* Los nodos de contenido se pueden agregar o eliminar desde cualquier parte del documento usando Node) ,Node) , Node) y otros métodos proporcionados por la clase base[`CompositeNode`](../compositenode/).
+* Los nodos de contenido se pueden agregar o eliminar desde cualquier parte del documento usando [`InsertBefore`](../compositenode/insertbefore/) ,[`InsertAfter`](../compositenode/insertafter/) , [`RemoveChild`](../compositenode/removechild/) y otros métodos proporcionados por la clase base[`CompositeNode`](../compositenode/).
 * Los atributos de formato de cada nodo se pueden cambiar a través de las propiedades de ese nodo.
 
 Considere usar[`DocumentBuilder`](../documentbuilder/)eso simplifica la tarea de crear mediante programación o completar el árbol de documentos.
@@ -206,7 +206,7 @@ El`Document` puede contener sólo[`Section`](../section/) objetos.
 
 En Microsoft Word, un documento válido debe tener al menos una sección.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo ejecutar una combinación de correspondencia con datos de un DataTable.
 
@@ -256,5 +256,3 @@ private static Document CreateSourceDocExecuteDataTable()
 * class [DocumentBase](../documentbase/)
 * espacio de nombres [Aspose.Words](../../aspose.words/)
 * asamblea [Aspose.Words](../../)
-
-

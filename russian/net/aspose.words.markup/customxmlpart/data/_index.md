@@ -1,7 +1,9 @@
 ---
 title: CustomXmlPart.Data
-second_title: Справочник по API Aspose.Words для .NET
-description: CustomXmlPart свойство. Получает или задает XMLсодержимое этой пользовательской части хранилища XMLданных.
+linktitle: Data
+articleTitle: Data
+second_title: Aspose.Words для .NET
+description: CustomXmlPart Data свойство. Получает или задает XMLсодержимое этой пользовательской части хранилища XMLданных на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.markup/customxmlpart/data/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.markup/customxmlpart/data/
 public byte[] Data { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Значением по умолчанию является пустой массив байтов. Значение не может быть`нулевой`.
 
-### Примеры
+## Примеры
 
 Показывает, как создать тег структурированного документа с пользовательскими данными XML.
 
@@ -85,7 +87,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.CustomXml.docx");
 ### Смотрите также
 
 * class [CustomXmlPart](../)
-* пространство имен [Aspose.Words.Markup](../../customxmlpart/)
+* пространство имен [Aspose.Words.Markup](../../../aspose.words.markup/)
 * сборка [Aspose.Words](../../../)
-
-

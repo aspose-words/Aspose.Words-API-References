@@ -1,7 +1,9 @@
 ---
-title: Class FieldBuilder
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Fields.FieldBuilder 班级. 从字段代码标记参数和开关构建字段
+title: FieldBuilder Class
+linktitle: FieldBuilder
+articleTitle: FieldBuilder
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Fields.FieldBuilder 班级. 从字段代码标记参数和开关构建字段 在 C#.
 type: docs
 weight: 1660
 url: /zh/net/aspose.words.fields/fieldbuilder/
@@ -20,25 +22,25 @@ public class FieldBuilder
 
 | 姓名 | 描述 |
 | --- | --- |
-| [FieldBuilder](fieldbuilder/)(FieldType) | 初始化一个实例`FieldBuilder`类. |
+| [FieldBuilder](fieldbuilder/)(*[FieldType](../fieldtype/)*) | 初始化一个实例`FieldBuilder`类. |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AddArgument](../../aspose.words.fields/fieldbuilder/addargument/#addargument_2)(double) | 添加字段的参数。 |
-| [AddArgument](../../aspose.words.fields/fieldbuilder/addargument/#addargument)(FieldArgumentBuilder) | 添加由以下表示的字段参数[`FieldArgumentBuilder`](../fieldargumentbuilder/)字段代码. |
-| [AddArgument](../../aspose.words.fields/fieldbuilder/addargument/#addargument_1)(FieldBuilder) | 添加由另一个子字段表示的子字段`FieldBuilder`字段代码. |
-| [AddArgument](../../aspose.words.fields/fieldbuilder/addargument/#addargument_3)(int) | 添加字段的参数。 |
-| [AddArgument](../../aspose.words.fields/fieldbuilder/addargument/#addargument_4)(string) | 添加字段的参数。 |
-| [AddSwitch](../../aspose.words.fields/fieldbuilder/addswitch/#addswitch)(string) | 添加字段的开关。 |
-| [AddSwitch](../../aspose.words.fields/fieldbuilder/addswitch/#addswitch_1)(string, double) | 添加字段的开关。 |
-| [AddSwitch](../../aspose.words.fields/fieldbuilder/addswitch/#addswitch_2)(string, int) | 添加字段的开关。 |
-| [AddSwitch](../../aspose.words.fields/fieldbuilder/addswitch/#addswitch_3)(string, string) | 添加字段的开关。 |
-| [BuildAndInsert](../../aspose.words.fields/fieldbuilder/buildandinsert/#buildandinsert)(Inline) | 在文档中指定的内联节点之前构建并插入一个字段。 |
-| [BuildAndInsert](../../aspose.words.fields/fieldbuilder/buildandinsert/#buildandinsert_1)(Paragraph) | 在文档中构建一个字段并将其插入到指定段落的末尾。 |
+| [AddArgument](../../aspose.words.fields/fieldbuilder/addargument/#addargument_2)(*double*) | 添加字段的参数。 |
+| [AddArgument](../../aspose.words.fields/fieldbuilder/addargument/#addargument)(*[FieldArgumentBuilder](../fieldargumentbuilder/)*) | 添加由以下表示的字段参数[`FieldArgumentBuilder`](../fieldargumentbuilder/)字段代码. |
+| [AddArgument](../../aspose.words.fields/fieldbuilder/addargument/#addargument_1)(*FieldBuilder*) | 添加由另一个子字段表示的子字段`FieldBuilder`字段代码. |
+| [AddArgument](../../aspose.words.fields/fieldbuilder/addargument/#addargument_3)(*int*) | 添加字段的参数。 |
+| [AddArgument](../../aspose.words.fields/fieldbuilder/addargument/#addargument_4)(*string*) | 添加字段的参数。 |
+| [AddSwitch](../../aspose.words.fields/fieldbuilder/addswitch/#addswitch)(*string*) | 添加字段的开关。 |
+| [AddSwitch](../../aspose.words.fields/fieldbuilder/addswitch/#addswitch_1)(*string, double*) | 添加字段的开关。 |
+| [AddSwitch](../../aspose.words.fields/fieldbuilder/addswitch/#addswitch_2)(*string, int*) | 添加字段的开关。 |
+| [AddSwitch](../../aspose.words.fields/fieldbuilder/addswitch/#addswitch_3)(*string, string*) | 添加字段的开关。 |
+| [BuildAndInsert](../../aspose.words.fields/fieldbuilder/buildandinsert/#buildandinsert)(*[Inline](../../aspose.words/inline/)*) | 在文档中指定的内联节点之前构建并插入一个字段。 |
+| [BuildAndInsert](../../aspose.words.fields/fieldbuilder/buildandinsert/#buildandinsert_1)(*[Paragraph](../../aspose.words/paragraph/)*) | 在文档中构建一个字段并将其插入到指定段落的末尾。 |
 
-### 例子
+## 例子
 
 演示如何使用字段生成器构造字段，然后将它们插入到文档中。
 
@@ -122,5 +124,3 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 
 * 命名空间 [Aspose.Words.Fields](../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../)
-
-

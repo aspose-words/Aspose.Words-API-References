@@ -1,7 +1,9 @@
 ---
 title: UserInformation.Initials
-second_title: Référence de l'API Aspose.Words pour .NET
-description: UserInformation propriété. Obtient ou définit les initiales de lutilisateur.
+linktitle: Initials
+articleTitle: Initials
+second_title: Aspose.Words pour .NET
+description: UserInformation Initials propriété. Obtient ou définit les initiales de lutilisateur en C#.
 type: docs
 weight: 40
 url: /fr/net/aspose.words.fields/userinformation/initials/
@@ -14,7 +16,7 @@ Obtient ou définit les initiales de l'utilisateur.
 public string Initials { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment définir les détails de l'utilisateur et les afficher à l'aide de champs.
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "FieldOptions.CurrentUser.docx");
 ### Voir également
 
 * class [UserInformation](../)
-* espace de noms [Aspose.Words.Fields](../../userinformation/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

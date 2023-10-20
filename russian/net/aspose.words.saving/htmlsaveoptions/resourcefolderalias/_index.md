@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ResourceFolderAlias
-second_title: Справочник по API Aspose.Words для .NET
-description: HtmlSaveOptions свойство. Указывает имя папки используемой для создания URI всех ресурсов записанных в HTMLдокумент. Значение по умолчанию  пустая строка.
+linktitle: ResourceFolderAlias
+articleTitle: ResourceFolderAlias
+second_title: Aspose.Words для .NET
+description: HtmlSaveOptions ResourceFolderAlias свойство. Указывает имя папки используемой для создания URI всех ресурсов записанных в HTMLдокумент. Значение по умолчанию  пустая строка на С#.
 type: docs
 weight: 430
 url: /ru/net/aspose.words.saving/htmlsaveoptions/resourcefolderalias/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.saving/htmlsaveoptions/resourcefolderalias/
 public string ResourceFolderAlias { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 `ResourceFolderAlias` это самый простой способ указать, как должны быть созданы URI для всех файлов ресурсов. Эту же информацию можно указать для изображений и шрифтов отдельно через[`ImagesFolderAlias`](../imagesfolderalias/) и[`FontsFolderAlias`](../fontsfolderalias/) свойства соответственно. Однако для CSS. нет отдельного свойства.
 
@@ -24,7 +26,7 @@ public string ResourceFolderAlias { get; set; }
 
 Если`ResourceFolderAlias` установлено значение '.' (точка), URI ресурсов будут содержать только имена файлов без какого-либо пути.
 
-### Примеры
+## Примеры
 
 Показывает, как установить папки и псевдонимы папок для внешне сохраненных ресурсов, которые Aspose.Words создаст при сохранении документа в HTML.
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "HtmlSaveOptions.FolderAlias.html", options);
 ### Смотрите также
 
 * class [HtmlSaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../htmlsaveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

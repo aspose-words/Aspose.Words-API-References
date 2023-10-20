@@ -1,7 +1,9 @@
 ---
 title: Font.NameAscii
-second_title: Aspose.Words for .NET API 参考
-description: Font 财产. 返回或设置用于拉丁文本的字体字符代码从 0零到 127 的字符
+linktitle: NameAscii
+articleTitle: NameAscii
+second_title: 用于 .NET 的 Aspose.Words
+description: Font NameAscii 财产. 返回或设置用于拉丁文本的字体字符代码从 0零到 127 的字符 在 C#.
 type: docs
 weight: 240
 url: /zh/net/aspose.words/font/nameascii/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/font/nameascii/
 public string NameAscii { get; set; }
 ```
 
-### 例子
+## 例子
 
 展示 Microsoft Word 如何在一次运行中组合两种不同的字体。
 
@@ -45,7 +47,5 @@ doc.Save(ArtifactsDir + "Font.NameAscii.docx");
 
 * property [Name](../name/)
 * class [Font](../)
-* 命名空间 [Aspose.Words](../../font/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

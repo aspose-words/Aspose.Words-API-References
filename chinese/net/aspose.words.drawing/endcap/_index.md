@@ -1,7 +1,9 @@
 ---
-title: Enum EndCap
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Drawing.EndCap 枚举. 指定线帽样式
+title: EndCap Enum
+linktitle: EndCap
+articleTitle: EndCap
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Drawing.EndCap 枚举. 指定线帽样式 在 C#.
 type: docs
 weight: 940
 url: /zh/net/aspose.words.drawing/endcap/
@@ -23,7 +25,7 @@ public enum EndCap
 | Flat | `2` | 线在终点结束。 |
 | Default | `2` | 默认值为Flat. |
 
-### 例子
+## 例子
 
 展示创造出各种形状。
 
@@ -100,5 +102,3 @@ doc.Save(ArtifactsDir + "Drawing.VariousShapes.docx");
 * property [EndCap](../stroke/endcap/)
 * 命名空间 [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../)
-
-

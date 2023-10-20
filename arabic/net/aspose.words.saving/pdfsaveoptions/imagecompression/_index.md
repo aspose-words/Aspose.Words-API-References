@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.ImageCompression
-second_title: Aspose.Words لمراجع .NET API
-description: PdfSaveOptions ملكية. يحدد نوع الضغط الذي سيتم استخدامه لجميع الصور في المستند.
+linktitle: ImageCompression
+articleTitle: ImageCompression
+second_title: Aspose.Words لـ .NET
+description: PdfSaveOptions ImageCompression ملكية. يحدد نوع الضغط الذي سيتم استخدامه لجميع الصور في المستند في C#.
 type: docs
 weight: 200
 url: /ar/net/aspose.words.saving/pdfsaveoptions/imagecompression/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.saving/pdfsaveoptions/imagecompression/
 public PdfImageCompression ImageCompression { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 الافتراضي هوAuto.
 
@@ -24,7 +26,7 @@ public PdfImageCompression ImageCompression { get; set; }
 
 استخدامAuto يتيح لك التحكم في جودة ملف Jpeg في مستند الإخراج من خلال ملف[`JpegQuality`](../jpegquality/)الخاصية، ولكن بالنسبة للتنسيقات الأخرى، يتم استخراج بيانات البكسل الأولية وحفظها باستخدام ضغط Flate. هذه الحالة أبطأ من تحويل Jpeg ولكنها لا تفقد البيانات.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحديد نوع الضغط لجميع الصور في المستند الذي نقوم بتحويله إلى PDF.
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.ImageCompression.pdf", pdfSaveOptions);
 
 * enum [PdfImageCompression](../../pdfimagecompression/)
 * class [PdfSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../pdfsaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

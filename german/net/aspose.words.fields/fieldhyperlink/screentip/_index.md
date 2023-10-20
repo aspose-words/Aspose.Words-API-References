@@ -1,7 +1,9 @@
 ---
 title: FieldHyperlink.ScreenTip
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldHyperlink eigendom. Ruft den QuickInfoText für den Hyperlink ab oder legt diesen fest.
+linktitle: ScreenTip
+articleTitle: ScreenTip
+second_title: Aspose.Words für .NET
+description: FieldHyperlink ScreenTip eigendom. Ruft den QuickInfoText für den Hyperlink ab oder legt diesen fest in C#.
 type: docs
 weight: 50
 url: /de/net/aspose.words.fields/fieldhyperlink/screentip/
@@ -14,7 +16,7 @@ Ruft den QuickInfo-Text für den Hyperlink ab oder legt diesen fest.
 public string ScreenTip { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie HYPERLINK-Felder zum Verknüpfen mit Dokumenten im lokalen Dateisystem verwendet werden.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "Field.HYPERLINK.docx");
 ### Siehe auch
 
 * class [FieldHyperlink](../)
-* namensraum [Aspose.Words.Fields](../../fieldhyperlink/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

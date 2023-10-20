@@ -1,7 +1,9 @@
 ---
-title: Enum FlipOrientation
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Drawing.FlipOrientation enumeración. Valores posibles para la orientación de una forma.
+title: FlipOrientation Enum
+linktitle: FlipOrientation
+articleTitle: FlipOrientation
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Drawing.FlipOrientation enumeración. Valores posibles para la orientación de una forma en C#.
 type: docs
 weight: 970
 url: /es/net/aspose.words.drawing/fliporientation/
@@ -24,7 +26,7 @@ public enum FlipOrientation
 | Vertical | `2` | Voltear a lo largo del eje x, invirtiendo las coordenadas y. |
 | Both | `3` | Voltear a lo largo de los ejes y y x. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo voltear una forma sobre un eje.
 
@@ -71,5 +73,3 @@ doc.Save(ArtifactsDir + "Shape.FlipShapeOrientation.docx");
 * property [FlipOrientation](../shapebase/fliporientation/)
 * espacio de nombres [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * asamblea [Aspose.Words](../../)
-
-

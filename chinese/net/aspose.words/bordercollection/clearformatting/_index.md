@@ -1,7 +1,9 @@
 ---
 title: BorderCollection.ClearFormatting
-second_title: Aspose.Words for .NET API 参考
-description: BorderCollection 方法. 删除对象的所有边框
+linktitle: ClearFormatting
+articleTitle: ClearFormatting
+second_title: 用于 .NET 的 Aspose.Words
+description: BorderCollection ClearFormatting 方法. 删除对象的所有边框 在 C#.
 type: docs
 weight: 140
 url: /zh/net/aspose.words/bordercollection/clearformatting/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/bordercollection/clearformatting/
 public void ClearFormatting()
 ```
 
-### 例子
+## 例子
 
 演示如何删除文档中所有段落的所有边框。
 
@@ -47,7 +49,5 @@ doc.Save(ArtifactsDir + "BorderCollection.RemoveAllBorders.docx");
 ### 也可以看看
 
 * class [BorderCollection](../)
-* 命名空间 [Aspose.Words](../../bordercollection/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

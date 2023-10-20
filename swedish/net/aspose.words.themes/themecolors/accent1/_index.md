@@ -1,7 +1,9 @@
 ---
 title: ThemeColors.Accent1
-second_title: Aspose.Words för .NET API Referens
-description: ThemeColors fast egendom. Anger färg Accent 1.
+linktitle: Accent1
+articleTitle: Accent1
+second_title: Aspose.Words för .NET
+description: ThemeColors Accent1 fast egendom. Anger färg Accent 1 i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.themes/themecolors/accent1/
@@ -14,7 +16,7 @@ Anger färg Accent 1.
 public Color Accent1 { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du ställer in anpassade färger och teckensnitt för teman.
 
@@ -62,7 +64,5 @@ doc.Save(ArtifactsDir + "Themes.CustomColorsAndFonts.docx");
 ### Se även
 
 * class [ThemeColors](../)
-* namnutrymme [Aspose.Words.Themes](../../themecolors/)
+* namnutrymme [Aspose.Words.Themes](../../../aspose.words.themes/)
 * hopsättning [Aspose.Words](../../../)
-
-

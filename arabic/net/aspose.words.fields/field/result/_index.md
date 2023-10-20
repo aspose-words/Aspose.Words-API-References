@@ -1,7 +1,9 @@
 ---
 title: Field.Result
-second_title: Aspose.Words لمراجع .NET API
-description: Field ملكية. الحصول على أو تعيين النص الموجود بين فاصل الحقل ونهاية الحقل.
+linktitle: Result
+articleTitle: Result
+second_title: Aspose.Words لـ .NET
+description: Field Result ملكية. الحصول على أو تعيين النص الموجود بين فاصل الحقل ونهاية الحقل في C#.
 type: docs
 weight: 70
 url: /ar/net/aspose.words.fields/field/result/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/field/result/
 public string Result { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج حقل في مستند باستخدام رمز الحقل.
 
@@ -34,7 +36,5 @@ Assert.That(DateTime.Parse(field.Result), Is.EqualTo(DateTime.Today).Within(1).D
 ### أنظر أيضا
 
 * class [Field](../)
-* مساحة الاسم [Aspose.Words.Fields](../../field/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Table.Table
-second_title: Aspose.Words für .NET-API-Referenz
-description: Table constructeur. Initialisiert eine neue Instanz vonTable Klasse.
+title: Table
+linktitle: Table
+articleTitle: Table
+second_title: Aspose.Words für .NET
+description: Table constructeur. Initialisiert eine neue Instanz vonTable Klasse in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words.tables/table/table/
@@ -18,13 +20,13 @@ public Table(DocumentBase doc)
 | --- | --- | --- |
 | doc | DocumentBase | Das Eigentümerdokument. |
 
-### Bemerkungen
+## Bemerkungen
 
 Wann[`Table`](../) erstellt wird, gehört es zum angegebenen Dokument, ist aber noch nicht Teil des Dokuments und[`ParentNode`](../../../aspose.words/node/parentnode/) Ist`Null`.
 
-Anhängen[`Table`](../) zur DokumentenverwendungNode) oderNode) in der Story, in der die Tabelle eingefügt werden soll.
+Anhängen[`Table`](../) zur Dokumentenverwendung[`InsertAfter`](../../../aspose.words/compositenode/insertafter/) oder[`InsertBefore`](../../../aspose.words/compositenode/insertbefore/) in der Story, in der die Tabelle eingefügt werden soll.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie eine Tabelle erstellt wird.
 
@@ -108,7 +110,5 @@ private static Table CreateTable(Document doc, int rowCount, int cellCount, stri
 
 * class [DocumentBase](../../../aspose.words/documentbase/)
 * class [Table](../)
-* namensraum [Aspose.Words.Tables](../../table/)
+* namensraum [Aspose.Words.Tables](../../../aspose.words.tables/)
 * Montage [Aspose.Words](../../../)
-
-

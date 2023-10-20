@@ -1,7 +1,9 @@
 ---
 title: FieldMergeBarcode.BarcodeType
-second_title: Aspose.Words for .NET API 参考
-description: FieldMergeBarcode 财产. 获取或设置条形码类型QR等
+linktitle: BarcodeType
+articleTitle: BarcodeType
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldMergeBarcode BarcodeType 财产. 获取或设置条形码类型QR等 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.fields/fieldmergebarcode/barcodetype/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fieldmergebarcode/barcodetype/
 public string BarcodeType { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何对 ITF14 条形码执行邮件合并。
 
@@ -180,7 +182,5 @@ doc.Save(ArtifactsDir + "Field.MERGEBARCODE.QR.docx");
 ### 也可以看看
 
 * class [FieldMergeBarcode](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldmergebarcode/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

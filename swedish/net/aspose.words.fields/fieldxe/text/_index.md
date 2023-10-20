@@ -1,7 +1,9 @@
 ---
 title: FieldXE.Text
-second_title: Aspose.Words för .NET API Referens
-description: FieldXE fast egendom. Hämtar eller ställer in texten i posten.
+linktitle: Text
+articleTitle: Text
+second_title: Aspose.Words för .NET
+description: FieldXE Text fast egendom. Hämtar eller ställer in texten i posten i C#.
 type: docs
 weight: 70
 url: /sv/net/aspose.words.fields/fieldxe/text/
@@ -14,7 +16,7 @@ Hämtar eller ställer in texten i posten.
 public string Text { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man skapar ett INDEX-fält och sedan använder XE-fält för att fylla i det med poster.
 
@@ -140,7 +142,5 @@ doc.Save(ArtifactsDir + "Field.INDEX.XE.Formatting.docx");
 ### Se även
 
 * class [FieldXE](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldxe/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

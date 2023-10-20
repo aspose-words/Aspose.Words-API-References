@@ -1,7 +1,9 @@
 ---
 title: TableCollection.ToArray
-second_title: Aspose.Words لمراجع .NET API
-description: TableCollection طريقة. نسخ كافة الجداول من المجموعة إلى مجموعة جديدة من الجداول.
+linktitle: ToArray
+articleTitle: ToArray
+second_title: Aspose.Words لـ .NET
+description: TableCollection ToArray طريقة. نسخ كافة الجداول من المجموعة إلى مجموعة جديدة من الجداول في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.tables/tablecollection/toarray/
@@ -18,7 +20,7 @@ public Table[] ToArray()
 
 مجموعة من الجداول.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التكرار عبر كافة الجداول في المستند وطباعة محتويات كل خلية.
 
@@ -65,7 +67,5 @@ for (int i = 0; i < tables.Count; i++)
 
 * class [Table](../../table/)
 * class [TableCollection](../)
-* مساحة الاسم [Aspose.Words.Tables](../../tablecollection/)
+* مساحة الاسم [Aspose.Words.Tables](../../../aspose.words.tables/)
 * المجسم [Aspose.Words](../../../)
-
-

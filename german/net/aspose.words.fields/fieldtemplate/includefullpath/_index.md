@@ -1,7 +1,9 @@
 ---
 title: FieldTemplate.IncludeFullPath
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldTemplate eigendom. Ruft ab oder legt fest ob der vollständige Dateipfadname einbezogen werden soll.
+linktitle: IncludeFullPath
+articleTitle: IncludeFullPath
+second_title: Aspose.Words für .NET
+description: FieldTemplate IncludeFullPath eigendom. Ruft ab oder legt fest ob der vollständige Dateipfadname einbezogen werden soll in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.fields/fieldtemplate/includefullpath/
@@ -14,7 +16,7 @@ Ruft ab oder legt fest, ob der vollständige Dateipfadname einbezogen werden sol
 public bool IncludeFullPath { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein TEMPLATE-Feld verwendet wird, um den lokalen Dateisystemspeicherort der Vorlage eines Dokuments anzuzeigen.
 
@@ -42,7 +44,5 @@ doc.Save(ArtifactsDir + "Field.TEMPLATE.docx");
 ### Siehe auch
 
 * class [FieldTemplate](../)
-* namensraum [Aspose.Words.Fields](../../fieldtemplate/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

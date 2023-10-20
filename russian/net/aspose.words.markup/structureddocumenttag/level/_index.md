@@ -1,20 +1,22 @@
 ---
 title: StructuredDocumentTag.Level
-second_title: Справочник по API Aspose.Words для .NET
-description: StructuredDocumentTag свойство. Получает уровень на котором это СДТ встречается в дереве документа.
+linktitle: Level
+articleTitle: Level
+second_title: Aspose.Words для .NET
+description: StructuredDocumentTag Level свойство. Получает уровень на котором этоСДТ встречается в дереве документа на С#.
 type: docs
 weight: 170
 url: /ru/net/aspose.words.markup/structureddocumenttag/level/
 ---
 ## StructuredDocumentTag.Level property
 
-Получает уровень, на котором это **СДТ** встречается в дереве документа.
+Получает уровень, на котором это**СДТ** встречается в дереве документа.
 
 ```csharp
 public MarkupLevel Level { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как создать тег структурированного документа в текстовом поле и изменить его внешний вид.
 
@@ -72,7 +74,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.PlainText.docx");
 
 * enum [MarkupLevel](../../markuplevel/)
 * class [StructuredDocumentTag](../)
-* пространство имен [Aspose.Words.Markup](../../structureddocumenttag/)
+* пространство имен [Aspose.Words.Markup](../../../aspose.words.markup/)
 * сборка [Aspose.Words](../../../)
-
-

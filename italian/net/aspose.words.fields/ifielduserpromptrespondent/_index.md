@@ -1,7 +1,9 @@
 ---
-title: Interface IFieldUserPromptRespondent
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Fields.IFieldUserPromptRespondent interfaccia. Rappresenta lintervistato alle richieste dellutente durante laggiornamento del campo.
+title: IFieldUserPromptRespondent Interface
+linktitle: IFieldUserPromptRespondent
+articleTitle: IFieldUserPromptRespondent
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Fields.IFieldUserPromptRespondent interfaccia. Rappresenta lintervistato alle richieste dellutente durante laggiornamento del campo in C#.
 type: docs
 weight: 2740
 url: /it/net/aspose.words.fields/ifielduserpromptrespondent/
@@ -18,13 +20,13 @@ public interface IFieldUserPromptRespondent
 
 | Nome | Descrizione |
 | --- | --- |
-| [Respond](../../aspose.words.fields/ifielduserpromptrespondent/respond/)(string, string) | Una volta implementato, restituisce una risposta dall'utente al prompt. La tua implementazione dovrebbe restituire`nullo` per indicare che l'utente non ha risposto al prompt (ovvero l'utente ha premuto il pulsante Annulla nella finestra del prompt). |
+| [Respond](../../aspose.words.fields/ifielduserpromptrespondent/respond/)(*string, string*) | Una volta implementato, restituisce una risposta dall'utente al prompt. La tua implementazione dovrebbe restituire`nullo` per indicare che l'utente non ha risposto al prompt (ovvero l'utente ha premuto il pulsante Annulla nella finestra del prompt). |
 
-### Osservazioni
+## Osservazioni
 
 I campi ASK e FILLIN sono esempi di campi che richiedono all'utente una risposta. Implementa questa interfaccia e assegnala a[`UserPromptRespondent`](../fieldoptions/userpromptrespondent/) proprietà per stabilire l'interazione tra il campo update e l'utente.
 
-### Esempi
+## Esempi
 
 Mostra come creare un campo ASK e impostarne le proprietà.
 
@@ -87,5 +89,3 @@ private class MyPromptRespondent : IFieldUserPromptRespondent
 
 * spazio dei nomi [Aspose.Words.Fields](../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../)
-
-

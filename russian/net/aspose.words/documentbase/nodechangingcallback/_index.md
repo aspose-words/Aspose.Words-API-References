@@ -1,7 +1,9 @@
 ---
 title: DocumentBase.NodeChangingCallback
-second_title: Справочник по API Aspose.Words для .NET
-description: DocumentBase свойство. Вызывается когда узел вставляется или удаляется в документе.
+linktitle: NodeChangingCallback
+articleTitle: NodeChangingCallback
+second_title: Aspose.Words для .NET
+description: DocumentBase NodeChangingCallback свойство. Вызывается когда узел вставляется или удаляется в документе на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words/documentbase/nodechangingcallback/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/documentbase/nodechangingcallback/
 public INodeChangingCallback NodeChangingCallback { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как настроить изменение узла с помощью обратного вызова.
 
@@ -92,7 +94,5 @@ public class HandleNodeChangingFontChanger : INodeChangingCallback
 
 * interface [INodeChangingCallback](../../inodechangingcallback/)
 * class [DocumentBase](../)
-* пространство имен [Aspose.Words](../../documentbase/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

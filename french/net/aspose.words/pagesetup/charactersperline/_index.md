@@ -1,7 +1,9 @@
 ---
 title: PageSetup.CharactersPerLine
-second_title: Référence de l'API Aspose.Words pour .NET
-description: PageSetup propriété. Obtient ou définit le nombre de caractères par ligne dans la grille du document.
+linktitle: CharactersPerLine
+articleTitle: CharactersPerLine
+second_title: Aspose.Words pour .NET
+description: PageSetup CharactersPerLine propriété. Obtient ou définit le nombre de caractères par ligne dans la grille du document en C#.
 type: docs
 weight: 100
 url: /fr/net/aspose.words/pagesetup/charactersperline/
@@ -14,13 +16,13 @@ Obtient ou définit le nombre de caractères par ligne dans la grille du documen
 public int CharactersPerLine { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 La valeur minimale de la propriété est 1. La valeur maximale dépend de la largeur de la page et de la taille de la police du style Normal . L'espacement minimum des caractères est de 90 pour cent de la taille de la police. Par exemple, le nombre maximum de caractères par ligne d'une page Lettre avec des marges d'un pouce est de 43.
 
 Par défaut, la propriété a une valeur sur laquelle le pas des caractères est égal à la taille de la police du style Normal .
 
-### Exemples
+## Exemples
 
 Montre comment spécifier a pour le nombre de caractères que chaque ligne peut contenir.
 
@@ -45,7 +47,5 @@ doc.Save(ArtifactsDir + "PageSetup.CharactersPerLine.docx");
 ### Voir également
 
 * class [PageSetup](../)
-* espace de noms [Aspose.Words](../../pagesetup/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

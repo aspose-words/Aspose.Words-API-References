@@ -1,7 +1,9 @@
 ---
-title: Class ImageFieldMergingArgs
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.MailMerging.ImageFieldMergingArgs 班级. 提供数据ImageFieldMerging事件.
+title: ImageFieldMergingArgs Class
+linktitle: ImageFieldMergingArgs
+articleTitle: ImageFieldMergingArgs
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.MailMerging.ImageFieldMergingArgs 班级. 提供数据ImageFieldMerging事件 在 C#.
 type: docs
 weight: 3830
 url: /zh/net/aspose.words.mailmerging/imagefieldmergingargs/
@@ -34,7 +36,7 @@ public class ImageFieldMergingArgs : FieldMergingArgsBase
 | [Shape](../../aspose.words.mailmerging/imagefieldmergingargs/shape/) { get; set; } | 指定邮件合并引擎必须插入到文档中的形状。 |
 | [TableName](../../aspose.words.mailmerging/fieldmergingargsbase/tablename/) { get; } | 获取当前合并操作的数据表的名称，如果名称不可用，则获取空字符串。 |
 
-### 评论
+## 评论
 
 当文档中遇到图像邮件 merge 字段时，在邮件合并期间会发生此事件。您可以响应此事件以返回 a 文件名、流或Image对象到邮件 merge 引擎，以便将其插入到文档中。
 
@@ -42,7 +44,7 @@ public class ImageFieldMergingArgs : FieldMergingArgsBase
 
 要将图像邮件合并字段插入到 Word 文档中，请选择“插入/字段”命令 ，然后选择“合并字段”并键入“Image:MyFieldName”。
 
-### 例子
+## 例子
 
 演示如何将存储在数据库 BLOB 字段中的图像插入到报表中。
 
@@ -158,5 +160,3 @@ private class MergedImageResizer : IFieldMergingCallback
 * class [FieldMergingArgsBase](../fieldmergingargsbase/)
 * 命名空间 [Aspose.Words.MailMerging](../../aspose.words.mailmerging/)
 * 部件 [Aspose.Words](../../)
-
-

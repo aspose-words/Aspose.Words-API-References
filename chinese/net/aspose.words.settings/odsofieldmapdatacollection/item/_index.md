@@ -1,7 +1,9 @@
 ---
 title: OdsoFieldMapDataCollection.Item
-second_title: Aspose.Words for .NET API 参考
-description: OdsoFieldMapDataCollection 财产. 获取或设置此集合中的项目
+linktitle: Item
+articleTitle: Item
+second_title: 用于 .NET 的 Aspose.Words
+description: OdsoFieldMapDataCollection Item 财产. 获取或设置此集合中的项目 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.settings/odsofieldmapdatacollection/item/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.settings/odsofieldmapdatacollection/item/
 public OdsoFieldMapData this[int index] { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何访问将数据源列映射到合并字段的数据集合。
 
@@ -58,7 +60,5 @@ Assert.AreEqual(0, dataCollection.Count);
 
 * class [OdsoFieldMapData](../../odsofieldmapdata/)
 * class [OdsoFieldMapDataCollection](../)
-* 命名空间 [Aspose.Words.Settings](../../odsofieldmapdatacollection/)
+* 命名空间 [Aspose.Words.Settings](../../../aspose.words.settings/)
 * 部件 [Aspose.Words](../../../)
-
-

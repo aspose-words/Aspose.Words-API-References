@@ -1,9 +1,11 @@
 ---
 title: Style.Equals
-second_title: Referencia de API de Aspose.Words para .NET
-description: Style método. Se compara con el estilo especificado. Los estilos Istd se comparan solo para los estilos integrados. Los estilos predeterminados no se incluyen en la comparación. El estilo base el estilo vinculado y el estilo del siguiente párrafo se comparan recursivamente.
+linktitle: Equals
+articleTitle: Equals
+second_title: Aspose.Words para .NET
+description: Style Equals método. Se compara con el estilo especificado. Los estilos Istd se comparan solo para los estilos integrados. Los estilos predeterminados no se incluyen en la comparación. El estilo base el estilo vinculado y el estilo del siguiente párrafo se comparan recursivamente en C#.
 type: docs
-weight: 190
+weight: 180
 url: /es/net/aspose.words/style/equals/
 ---
 ## Style.Equals method
@@ -14,7 +16,7 @@ Se compara con el estilo especificado. Los estilos Istd se comparan solo para lo
 public bool Equals(Style style)
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo utilizar alias de estilo.
 
@@ -45,7 +47,5 @@ Assert.AreEqual(doc.FirstSection.Body.Paragraphs[0].ParagraphFormat.Style,
 ### Ver también
 
 * class [Style](../)
-* espacio de nombres [Aspose.Words](../../style/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

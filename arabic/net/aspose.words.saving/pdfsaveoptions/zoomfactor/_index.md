@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.ZoomFactor
-second_title: Aspose.Words لمراجع .NET API
-description: PdfSaveOptions ملكية. الحصول على أو تعيين قيمة تحدد عامل التكبير بالنسبة المئوية للمستند.
+linktitle: ZoomFactor
+articleTitle: ZoomFactor
+second_title: Aspose.Words لـ .NET
+description: PdfSaveOptions ZoomFactor ملكية. الحصول على أو تعيين قيمة تحدد عامل التكبير بالنسبة المئوية للمستند في C#.
 type: docs
 weight: 330
 url: /ar/net/aspose.words.saving/pdfsaveoptions/zoomfactor/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.saving/pdfsaveoptions/zoomfactor/
 public int ZoomFactor { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 يتم استخدام هذه القيمة فقط إذا[`ZoomBehavior`](../zoombehavior/) تم ضبطه علىZoomFactor .
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية ضبط التكبير/التصغير الافتراضي الذي يطبقه القارئ عند فتح مستند PDF معروض.
 
@@ -45,7 +47,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.ZoomBehaviour.pdf", options);
 ### أنظر أيضا
 
 * class [PdfSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../pdfsaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

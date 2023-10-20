@@ -1,7 +1,9 @@
 ---
 title: FieldOptions.BibliographyStylesProvider
-second_title: Aspose.Words لمراجع .NET API
-description: FieldOptions ملكية. الحصول على أو تعيين موفر يُرجع نمط المراجع لـ FieldBibliography وFieldCitation الحقول.
+linktitle: BibliographyStylesProvider
+articleTitle: BibliographyStylesProvider
+second_title: Aspose.Words لـ .NET
+description: FieldOptions BibliographyStylesProvider ملكية. الحصول على أو تعيين موفر يُرجع نمط المراجع لـ FieldBibliography وFieldCitation الحقول في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.fields/fieldoptions/bibliographystylesprovider/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldoptions/bibliographystylesprovider/
 public IBibliographyStylesProvider BibliographyStylesProvider { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تجاوز الأنماط المضمنة أو توفير أنماط مخصصة.
 
@@ -42,7 +44,5 @@ public class BibliographyStylesProvider : IBibliographyStylesProvider
 
 * interface [IBibliographyStylesProvider](../../ibibliographystylesprovider/)
 * class [FieldOptions](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldoptions/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

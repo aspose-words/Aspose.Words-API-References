@@ -1,7 +1,9 @@
 ---
 title: OleFormat.IsLocked
-second_title: Aspose.Words für .NET-API-Referenz
-description: OleFormat eigendom. Gibt an ob der Link zum OLEObjekt für Aktualisierungen gesperrt ist.
+linktitle: IsLocked
+articleTitle: IsLocked
+second_title: Aspose.Words für .NET
+description: OleFormat IsLocked eigendom. Gibt an ob der Link zum OLEObjekt für Aktualisierungen gesperrt ist in C#.
 type: docs
 weight: 50
 url: /de/net/aspose.words.drawing/oleformat/islocked/
@@ -14,11 +16,11 @@ Gibt an, ob der Link zum OLE-Objekt für Aktualisierungen gesperrt ist.
 public bool IsLocked { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Der Standardwert ist`FALSCH`.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie eingebettete OLE-Objekte in Dateien extrahiert werden.
 
@@ -53,7 +55,5 @@ oleFormat.Save(ArtifactsDir + "OLE spreadsheet saved directly" + oleFormat.Sugge
 ### Siehe auch
 
 * class [OleFormat](../)
-* namensraum [Aspose.Words.Drawing](../../oleformat/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class ChartAxisCollection
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Drawing.Charts.ChartAxisCollection فصل. يمثل مجموعة من محاور المخطط.
+title: ChartAxisCollection Class
+linktitle: ChartAxisCollection
+articleTitle: ChartAxisCollection
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Drawing.Charts.ChartAxisCollection فصل. يمثل مجموعة من محاور المخطط في C#.
 type: docs
 weight: 640
 url: /ar/net/aspose.words.drawing.charts/chartaxiscollection/
@@ -27,7 +29,7 @@ public class ChartAxisCollection : IEnumerable<ChartAxis>
 | --- | --- |
 | [GetEnumerator](../../aspose.words.drawing.charts/chartaxiscollection/getenumerator/)() | يُرجع كائن العداد. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع مجموعة المحاور.
 
@@ -53,5 +55,3 @@ doc.Save(ArtifactsDir + "Charts.AxisCollection.docx");
 * class [ChartAxis](../chartaxis/)
 * مساحة الاسم [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../)
-
-

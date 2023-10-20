@@ -1,9 +1,11 @@
 ---
 title: Section.ClearContent
-second_title: Справочник по API Aspose.Words для .NET
-description: Section метод. Очищает раздел.
+linktitle: ClearContent
+articleTitle: ClearContent
+second_title: Aspose.Words для .NET
+description: Section ClearContent метод. Очищает раздел на С#.
 type: docs
-weight: 110
+weight: 90
 url: /ru/net/aspose.words/section/clearcontent/
 ---
 ## Section.ClearContent method
@@ -14,13 +16,13 @@ url: /ru/net/aspose.words/section/clearcontent/
 public void ClearContent()
 ```
 
-### Примечания
+## Примечания
 
 Текст[`Body`](../body/) очищается, остается только один пустой абзац, обозначающий разрыв раздела.
 
 Текст всех верхних и нижних колонтитулов очищается, но[`HeaderFooter`](../../headerfooter/) сами объекты не удаляются.
 
-### Примеры
+## Примеры
 
 Показывает, как очистить содержимое раздела.
 
@@ -44,7 +46,5 @@ Assert.AreEqual(1, doc.FirstSection.Body.Paragraphs.Count);
 ### Смотрите также
 
 * class [Section](../)
-* пространство имен [Aspose.Words](../../section/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

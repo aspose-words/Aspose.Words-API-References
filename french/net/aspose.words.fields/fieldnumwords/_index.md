@@ -1,7 +1,9 @@
 ---
-title: Class FieldNumWords
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Fields.FieldNumWords classe. Implémente le champ NUMWORDS.
+title: FieldNumWords Class
+linktitle: FieldNumWords
+articleTitle: FieldNumWords
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Fields.FieldNumWords classe. Implémente le champ NUMWORDS en C#.
 type: docs
 weight: 2230
 url: /fr/net/aspose.words.fields/fieldnumwords/
@@ -42,17 +44,17 @@ public class FieldNumWords : Field
 | Nom | La description |
 | --- | --- |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Renvoie le texte entre le début du champ et le séparateur de champ (ou la fin du champ s'il n'y a pas de séparateur). Le code de champ et le résultat du champ des champs enfants sont inclus. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Renvoie le texte entre le début du champ et le séparateur de champ (ou la fin du champ s'il n'y a pas de séparateur). |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | Renvoie le texte entre le début du champ et le séparateur de champ (ou la fin du champ s'il n'y a pas de séparateur). |
 | [Remove](../../aspose.words.fields/field/remove/)() | Supprime le champ du document. Renvoie un nœud juste après le champ. Si la fin du champ est le dernier child de son nœud parent, renvoie son paragraphe parent. Si le champ est déjà supprimé, renvoie`nul` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | Effectue la dissociation du champ. |
 | [Update](../../aspose.words.fields/field/update/)() | Effectue la mise à jour du champ. Lance si le champ est déjà mis à jour. |
-| [Update](../../aspose.words.fields/field/update/)(bool) | Effectue une mise à jour du champ. Lance si le champ est déjà mis à jour. |
+| [Update](../../aspose.words.fields/field/update/)(*bool*) | Effectue une mise à jour du champ. Lance si le champ est déjà mis à jour. |
 
-### Remarques
+## Remarques
 
-Récupère le nombre de mots dans le document actuel, tel qu'enregistré dans le **Mots** propriété des propriétés du document intégré .
+Récupère le nombre de mots dans le document actuel, tel qu'enregistré dans le**Mots** propriété des propriétés du document intégré .
 
-### Exemples
+## Exemples
 
 Montre comment utiliser les champs NUMCHARS, NUMWORDS, NUMPAGES et PAGE pour suivre la taille de nos documents.
 
@@ -97,5 +99,3 @@ doc.Save(ArtifactsDir + "Field.NUMCHARS.NUMWORDS.NUMPAGES.PAGE.docx");
 * class [Field](../field/)
 * espace de noms [Aspose.Words.Fields](../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: OdsoRecipientData.Column
-second_title: Aspose.Words för .NET API Referens
-description: OdsoRecipientData fast egendom. Anger kolumnen i datakällan som innehåller unika data för den aktuella posten. Standardvärdet är 0.
+linktitle: Column
+articleTitle: Column
+second_title: Aspose.Words för .NET
+description: OdsoRecipientData Column fast egendom. Anger kolumnen i datakällan som innehåller unika data för den aktuella posten. Standardvärdet är 0 i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.settings/odsorecipientdata/column/
@@ -14,7 +16,7 @@ Anger kolumnen i datakällan som innehåller unika data för den aktuella posten
 public int Column { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man får åtkomst till insamlingen av data som anger vilka sammanslagningsdatakällaposter en sammanslagning kommer att utesluta.
 
@@ -54,7 +56,5 @@ Assert.AreEqual(0, dataCollection.Count);
 ### Se även
 
 * class [OdsoRecipientData](../)
-* namnutrymme [Aspose.Words.Settings](../../odsorecipientdata/)
+* namnutrymme [Aspose.Words.Settings](../../../aspose.words.settings/)
 * hopsättning [Aspose.Words](../../../)
-
-

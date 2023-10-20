@@ -1,7 +1,9 @@
 ---
 title: FieldDisplayBarcode.FixCheckDigit
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldDisplayBarcode eigendom. Ruft ab oder legt fest ob die Prüfziffer korrigiert werden soll wenn sie ungültig ist.
+linktitle: FixCheckDigit
+articleTitle: FixCheckDigit
+second_title: Aspose.Words für .NET
+description: FieldDisplayBarcode FixCheckDigit eigendom. Ruft ab oder legt fest ob die Prüfziffer korrigiert werden soll wenn sie ungültig ist in C#.
 type: docs
 weight: 90
 url: /de/net/aspose.words.fields/fielddisplaybarcode/fixcheckdigit/
@@ -14,7 +16,7 @@ Ruft ab oder legt fest, ob die Prüfziffer korrigiert werden soll, wenn sie ung�
 public bool FixCheckDigit { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein DISPLAYBARCODE-Feld eingefügt und seine Eigenschaften festgelegt werden.
 
@@ -72,7 +74,5 @@ doc.Save(ArtifactsDir + "Field.DISPLAYBARCODE.docx");
 ### Siehe auch
 
 * class [FieldDisplayBarcode](../)
-* namensraum [Aspose.Words.Fields](../../fielddisplaybarcode/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

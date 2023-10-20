@@ -1,7 +1,9 @@
 ---
 title: BookmarkEnd.NodeType
-second_title: Referencia de API de Aspose.Words para .NET
-description: BookmarkEnd propiedad. DevolucionesBookmarkEnd .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words para .NET
+description: BookmarkEnd NodeType propiedad. DevolucionesBookmarkEnd  en C#.
 type: docs
 weight: 30
 url: /es/net/aspose.words/bookmarkend/nodetype/
@@ -14,7 +16,7 @@ DevolucionesBookmarkEnd .
 public override NodeType NodeType { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo recorrer el árbol de nodos secundarios de un nodo compuesto.
 
@@ -62,7 +64,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 
 * enum [NodeType](../../nodetype/)
 * class [BookmarkEnd](../)
-* espacio de nombres [Aspose.Words](../../bookmarkend/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

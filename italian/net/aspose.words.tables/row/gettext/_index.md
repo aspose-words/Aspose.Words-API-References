@@ -1,9 +1,11 @@
 ---
 title: Row.GetText
-second_title: Aspose.Words per .NET API Reference
-description: Row metodo. Ottiene il testo di tutte le celle in questa riga incluso il carattere di fine riga.
+linktitle: GetText
+articleTitle: GetText
+second_title: Aspose.Words per .NET
+description: Row GetText metodo. Ottiene il testo di tutte le celle in questa riga incluso il carattere di fine riga in C#.
 type: docs
-weight: 160
+weight: 140
 url: /it/net/aspose.words.tables/row/gettext/
 ---
 ## Row.GetText method
@@ -14,13 +16,13 @@ Ottiene il testo di tutte le celle in questa riga incluso il carattere di fine r
 public override string GetText()
 ```
 
-### Osservazioni
+## Osservazioni
 
 Restituisce il testo concatenato di tutti i nodi figlio con la fine della riga carattere [`Cell`](../../../aspose.words/controlchar/cell/) aggiunto alla fine.
 
 La stringa restituita include tutti i caratteri di controllo e speciali come descritto in[`ControlChar`](../../../aspose.words/controlchar/).
 
-### Esempi
+## Esempi
 
 Mostra come stampare la struttura dei nodi di ogni tabella in un documento.
 
@@ -183,7 +185,5 @@ public class TableStructurePrinter : DocumentVisitor
 ### Guarda anche
 
 * class [Row](../)
-* spazio dei nomi [Aspose.Words.Tables](../../row/)
+* spazio dei nomi [Aspose.Words.Tables](../../../aspose.words.tables/)
 * assemblea [Aspose.Words](../../../)
-
-

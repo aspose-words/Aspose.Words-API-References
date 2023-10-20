@@ -1,7 +1,9 @@
 ---
-title: Class WarningInfo
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.WarningInfo сорт. Содержит информацию о предупреждении которое Aspose.Words выдал во время загрузки или сохранения документа.
+title: WarningInfo Class
+linktitle: WarningInfo
+articleTitle: WarningInfo
+second_title: Aspose.Words для .NET
+description: Aspose.Words.WarningInfo сорт. Содержит информацию о предупреждении которое Aspose.Words выдал во время загрузки или сохранения документа на С#.
 type: docs
 weight: 6630
 url: /ru/net/aspose.words/warninginfo/
@@ -24,11 +26,11 @@ public class WarningInfo
 | [Source](../../aspose.words/warninginfo/source/) { get; } | Возвращает источник предупреждения. |
 | [WarningType](../../aspose.words/warninginfo/warningtype/) { get; } | Возвращает тип предупреждения. |
 
-### Примечания
+## Примечания
 
 Вы не создаете экземпляры этого класса. Объекты этого класса создаются и передаются Aspose.Words в[`Warning`](../iwarningcallback/warning/) метод.
 
-### Примеры
+## Примеры
 
 Показывает, как настроить свойство для поиска ближайшего соответствия отсутствующему шрифту из доступных источников шрифтов.
 
@@ -89,5 +91,3 @@ public class HandleDocumentSubstitutionWarnings : IWarningCallback
 
 * пространство имен [Aspose.Words](../../aspose.words/)
 * сборка [Aspose.Words](../../)
-
-

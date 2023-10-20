@@ -1,7 +1,9 @@
 ---
-title: Class CustomXmlSchemaCollection
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Markup.CustomXmlSchemaCollection сорт. Коллекция строк представляющих схемы XML связанные с пользовательской частью XML.
+title: CustomXmlSchemaCollection Class
+linktitle: CustomXmlSchemaCollection
+articleTitle: CustomXmlSchemaCollection
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Markup.CustomXmlSchemaCollection сорт. Коллекция строк представляющих схемы XML связанные с пользовательской частью XML на С#.
 type: docs
 weight: 3960
 url: /ru/net/aspose.words.markup/customxmlschemacollection/
@@ -27,19 +29,19 @@ public class CustomXmlSchemaCollection : IEnumerable<string>
 
 | Имя | Описание |
 | --- | --- |
-| [Add](../../aspose.words.markup/customxmlschemacollection/add/)(string) | Добавляет элемент в коллекцию. |
+| [Add](../../aspose.words.markup/customxmlschemacollection/add/)(*string*) | Добавляет элемент в коллекцию. |
 | [Clear](../../aspose.words.markup/customxmlschemacollection/clear/)() | Удаляет все элементы из коллекции. |
 | [Clone](../../aspose.words.markup/customxmlschemacollection/clone/)() | Делает глубокую копию этого объекта. |
 | [GetEnumerator](../../aspose.words.markup/customxmlschemacollection/getenumerator/)() | Возвращает объект перечислителя, который можно использовать для перебора всех элементов коллекции. |
-| [IndexOf](../../aspose.words.markup/customxmlschemacollection/indexof/)(string) | Возвращает отсчитываемый от нуля индекс указанного значения в коллекции. |
-| [Remove](../../aspose.words.markup/customxmlschemacollection/remove/)(string) | Удаляет указанное значение из коллекции. |
-| [RemoveAt](../../aspose.words.markup/customxmlschemacollection/removeat/)(int) | Удаляет значение по указанному индексу. |
+| [IndexOf](../../aspose.words.markup/customxmlschemacollection/indexof/)(*string*) | Возвращает отсчитываемый от нуля индекс указанного значения в коллекции. |
+| [Remove](../../aspose.words.markup/customxmlschemacollection/remove/)(*string*) | Удаляет указанное значение из коллекции. |
+| [RemoveAt](../../aspose.words.markup/customxmlschemacollection/removeat/)(*int*) | Удаляет значение по указанному индексу. |
 
-### Примечания
+## Примечания
 
 Вы не создаете экземпляры этого класса. Вы получаете доступ к коллекции схем XML пользовательского XML part через[`Schemas`](../customxmlpart/schemas/) свойство.
 
-### Примеры
+## Примеры
 
 Показывает, как работать с коллекцией схем XML.
 
@@ -86,5 +88,3 @@ Assert.AreEqual(0, schemas.Count);
 
 * пространство имен [Aspose.Words.Markup](../../aspose.words.markup/)
 * сборка [Aspose.Words](../../)
-
-

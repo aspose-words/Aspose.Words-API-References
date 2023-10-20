@@ -1,7 +1,9 @@
 ---
-title: Class ChartDataPointCollection
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Drawing.Charts.ChartDataPointCollection classe. Rappresenta la raccolta di aChartDataPoint .
+title: ChartDataPointCollection Class
+linktitle: ChartDataPointCollection
+articleTitle: ChartDataPointCollection
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Drawing.Charts.ChartDataPointCollection classe. Rappresenta la raccolta di aChartDataPoint  in C#.
 type: docs
 weight: 700
 url: /it/net/aspose.words.drawing.charts/chartdatapointcollection/
@@ -28,11 +30,9 @@ public class ChartDataPointCollection : IEnumerable<ChartDataPoint>
 | Nome | Descrizione |
 | --- | --- |
 | [ClearFormat](../../aspose.words.drawing.charts/chartdatapointcollection/clearformat/)() | Cancella tutto il formato[`ChartDataPoint`](../chartdatapoint/) in questa raccolta. |
-| [CopyFormat](../../aspose.words.drawing.charts/chartdatapointcollection/copyformat/)(int, int) |  |
 | [GetEnumerator](../../aspose.words.drawing.charts/chartdatapointcollection/getenumerator/)() | Restituisce un oggetto enumeratore. |
-| [HasDefaultFormat](../../aspose.words.drawing.charts/chartdatapointcollection/hasdefaultformat/)(int) |  |
 
-### Esempi
+## Esempi
 
 Mostra come utilizzare i punti dati su un grafico a linee.
 
@@ -96,5 +96,3 @@ private static void ApplyDataPoints(ChartSeries series, int dataPointsCount, Mar
 * class [ChartDataPoint](../chartdatapoint/)
 * spazio dei nomi [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * assemblea [Aspose.Words](../../)
-
-

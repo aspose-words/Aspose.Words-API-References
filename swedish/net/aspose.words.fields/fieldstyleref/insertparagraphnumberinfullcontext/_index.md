@@ -1,7 +1,9 @@
 ---
 title: FieldStyleRef.InsertParagraphNumberInFullContext
-second_title: Aspose.Words för .NET API Referens
-description: FieldStyleRef fast egendom. Hämtar eller ställer in om styckenumret för det refererade stycket ska infogas i hela sammanhanget.
+linktitle: InsertParagraphNumberInFullContext
+articleTitle: InsertParagraphNumberInFullContext
+second_title: Aspose.Words för .NET
+description: FieldStyleRef InsertParagraphNumberInFullContext fast egendom. Hämtar eller ställer in om styckenumret för det refererade stycket ska infogas i hela sammanhanget i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.fields/fieldstyleref/insertparagraphnumberinfullcontext/
@@ -14,7 +16,7 @@ Hämtar eller ställer in om styckenumret för det refererade stycket ska infoga
 public bool InsertParagraphNumberInFullContext { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man använder STYLEREF-fält.
 
@@ -85,7 +87,5 @@ doc.Save(ArtifactsDir + "Field.STYLEREF.docx");
 ### Se även
 
 * class [FieldStyleRef](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldstyleref/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

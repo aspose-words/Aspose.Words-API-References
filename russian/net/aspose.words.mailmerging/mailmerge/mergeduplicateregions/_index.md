@@ -1,7 +1,9 @@
 ---
 title: MailMerge.MergeDuplicateRegions
-second_title: Справочник по API Aspose.Words для .NET
-description: MailMerge свойство. Получает или задает значение указывающее должны ли быть объединены все регионы слияния почты документа с именем источника данных при выполнении слияния почты с регионами с источником данных или только первый.
+linktitle: MergeDuplicateRegions
+articleTitle: MergeDuplicateRegions
+second_title: Aspose.Words для .NET
+description: MailMerge MergeDuplicateRegions свойство. Получает или задает значение указывающее должны ли быть объединены все регионы слияния почты документа с именем источника данных при выполнении слияния почты с регионами с источником данных или только первый на С#.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.mailmerging/mailmerge/mergeduplicateregions/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.mailmerging/mailmerge/mergeduplicateregions/
 public bool MergeDuplicateRegions { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Значение по умолчанию:`ЛОЖЬ` .
 
-### Примеры
+## Примеры
 
 Показывает, как работать с повторяющимися регионами слияния почты.
 
@@ -76,7 +78,5 @@ private static DataTable CreateSourceTableMergeDuplicateRegions()
 ### Смотрите также
 
 * class [MailMerge](../)
-* пространство имен [Aspose.Words.MailMerging](../../mailmerge/)
+* пространство имен [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * сборка [Aspose.Words](../../../)
-
-

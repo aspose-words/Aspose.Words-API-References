@@ -1,7 +1,9 @@
 ---
-title: Class DocumentVisitor
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.DocumentVisitor klass. Basklass för anpassade dokumentbesökare.
+title: DocumentVisitor Class
+linktitle: DocumentVisitor
+articleTitle: DocumentVisitor
+second_title: Aspose.Words för .NET
+description: Aspose.Words.DocumentVisitor klass. Basklass för anpassade dokumentbesökare i C#.
 type: docs
 weight: 470
 url: /sv/net/aspose.words/documentvisitor/
@@ -20,58 +22,58 @@ public abstract class DocumentVisitor
 
 | namn | Beskrivning |
 | --- | --- |
-| virtual [VisitAbsolutePositionTab](../../aspose.words/documentvisitor/visitabsolutepositiontab/)(AbsolutePositionTab) | Ringde när en[`AbsolutePositionTab`](../absolutepositiontab/) nod påträffas i dokumentet. |
-| virtual [VisitBodyEnd](../../aspose.words/documentvisitor/visitbodyend/)(Body) | Anropas när uppräkningen av huvudtextberättelsen i ett avsnitt har avslutats. |
-| virtual [VisitBodyStart](../../aspose.words/documentvisitor/visitbodystart/)(Body) | Anropas när uppräkningen av huvudtextberättelsen i ett avsnitt har börjat. |
-| virtual [VisitBookmarkEnd](../../aspose.words/documentvisitor/visitbookmarkend/)(BookmarkEnd) | Anropas när slutet av ett bokmärke påträffas i dokumentet. |
-| virtual [VisitBookmarkStart](../../aspose.words/documentvisitor/visitbookmarkstart/)(BookmarkStart) | Anropas när en början av ett bokmärke påträffas i dokumentet. |
-| virtual [VisitBuildingBlockEnd](../../aspose.words/documentvisitor/visitbuildingblockend/)(BuildingBlock) | Anropas när uppräkningen av ett byggblock har avslutats. |
-| virtual [VisitBuildingBlockStart](../../aspose.words/documentvisitor/visitbuildingblockstart/)(BuildingBlock) | Anropas när uppräkningen av ett byggblock har påbörjats. |
-| virtual [VisitCellEnd](../../aspose.words/documentvisitor/visitcellend/)(Cell) | Anropas när uppräkningen av en tabellcell har avslutats. |
-| virtual [VisitCellStart](../../aspose.words/documentvisitor/visitcellstart/)(Cell) | Anropas när uppräkningen av en tabellcell har startat. |
-| virtual [VisitCommentEnd](../../aspose.words/documentvisitor/visitcommentend/)(Comment) | Anropas när uppräkningen av en kommentarstext har avslutats. |
-| virtual [VisitCommentRangeEnd](../../aspose.words/documentvisitor/visitcommentrangeend/)(CommentRangeEnd) | Anropas när slutet av ett kommenterat textintervall påträffas. |
-| virtual [VisitCommentRangeStart](../../aspose.words/documentvisitor/visitcommentrangestart/)(CommentRangeStart) | Anropas när början av ett kommenterat textintervall påträffas. |
-| virtual [VisitCommentStart](../../aspose.words/documentvisitor/visitcommentstart/)(Comment) | Anropas när uppräkningen av en kommentarstext har börjat. |
-| virtual [VisitDocumentEnd](../../aspose.words/documentvisitor/visitdocumentend/)(Document) | Anropas när uppräkningen av dokumentet är klar. |
-| virtual [VisitDocumentStart](../../aspose.words/documentvisitor/visitdocumentstart/)(Document) | Anropas när uppräkningen av dokumentet har påbörjats. |
-| virtual [VisitEditableRangeEnd](../../aspose.words/documentvisitor/visiteditablerangeend/)(EditableRangeEnd) | Anropas när ett slut på ett redigerbart område påträffas i dokumentet. |
-| virtual [VisitEditableRangeStart](../../aspose.words/documentvisitor/visiteditablerangestart/)(EditableRangeStart) | Anropas när en början av ett redigerbart område påträffas i dokumentet. |
-| virtual [VisitFieldEnd](../../aspose.words/documentvisitor/visitfieldend/)(FieldEnd) | Anropas när ett fält slutar i dokumentet. |
-| virtual [VisitFieldSeparator](../../aspose.words/documentvisitor/visitfieldseparator/)(FieldSeparator) | Anropas när en fältavgränsare påträffas i dokumentet. |
-| virtual [VisitFieldStart](../../aspose.words/documentvisitor/visitfieldstart/)(FieldStart) | Anropas när ett fält startar i dokumentet. |
-| virtual [VisitFootnoteEnd](../../aspose.words/documentvisitor/visitfootnoteend/)(Footnote) | Anropas när uppräkningen av en fotnot eller slutnotstext har avslutats. |
-| virtual [VisitFootnoteStart](../../aspose.words/documentvisitor/visitfootnotestart/)(Footnote) | Anropas när uppräkningen av en fotnot eller slutnotstext har börjat. |
-| virtual [VisitFormField](../../aspose.words/documentvisitor/visitformfield/)(FormField) | Anropas när ett formulärfält påträffas i dokumentet. |
-| virtual [VisitGlossaryDocumentEnd](../../aspose.words/documentvisitor/visitglossarydocumentend/)(GlossaryDocument) | Anropas när uppräkningen av ett ordlistadokument har avslutats. |
-| virtual [VisitGlossaryDocumentStart](../../aspose.words/documentvisitor/visitglossarydocumentstart/)(GlossaryDocument) | Anropas när uppräkning av ett ordlistadokument har påbörjats. |
-| virtual [VisitGroupShapeEnd](../../aspose.words/documentvisitor/visitgroupshapeend/)(GroupShape) | Anropas när uppräkningen av en gruppform har avslutats. |
-| virtual [VisitGroupShapeStart](../../aspose.words/documentvisitor/visitgroupshapestart/)(GroupShape) | Anropas när uppräkningen av en gruppform har börjat. |
-| virtual [VisitHeaderFooterEnd](../../aspose.words/documentvisitor/visitheaderfooterend/)(HeaderFooter) | Anropas när uppräkningen av en sidhuvud eller sidfot i ett avsnitt har avslutats. |
-| virtual [VisitHeaderFooterStart](../../aspose.words/documentvisitor/visitheaderfooterstart/)(HeaderFooter) | Anropas när uppräkningen av en sidhuvud eller sidfot i ett avsnitt har börjat. |
-| virtual [VisitOfficeMathEnd](../../aspose.words/documentvisitor/visitofficemathend/)(OfficeMath) | Anropas när uppräkningen av ett Office Math-objekt har avslutats. |
-| virtual [VisitOfficeMathStart](../../aspose.words/documentvisitor/visitofficemathstart/)(OfficeMath) | Anropas när uppräkningen av ett Office Math-objekt har startat. |
-| virtual [VisitParagraphEnd](../../aspose.words/documentvisitor/visitparagraphend/)(Paragraph) | Anropas när uppräkningen av ett stycke har avslutats. |
-| virtual [VisitParagraphStart](../../aspose.words/documentvisitor/visitparagraphstart/)(Paragraph) | Anropas när uppräkningen av ett stycke har börjat. |
-| virtual [VisitRowEnd](../../aspose.words/documentvisitor/visitrowend/)(Row) | Anropas när uppräkningen av en tabellrad har avslutats. |
-| virtual [VisitRowStart](../../aspose.words/documentvisitor/visitrowstart/)(Row) | Anropas när uppräkningen av en tabellrad har påbörjats. |
-| virtual [VisitRun](../../aspose.words/documentvisitor/visitrun/)(Run) | Anropas när en körning av text i den påträffas. |
-| virtual [VisitSectionEnd](../../aspose.words/documentvisitor/visitsectionend/)(Section) | Anropas när uppräkningen av ett avsnitt har avslutats. |
-| virtual [VisitSectionStart](../../aspose.words/documentvisitor/visitsectionstart/)(Section) | Anropas när uppräkningen av ett avsnitt har börjat. |
-| virtual [VisitShapeEnd](../../aspose.words/documentvisitor/visitshapeend/)(Shape) | Anropas när uppräkningen av en form har avslutats. |
-| virtual [VisitShapeStart](../../aspose.words/documentvisitor/visitshapestart/)(Shape) | Anropas när uppräkningen av en form har börjat. |
-| virtual [VisitSmartTagEnd](../../aspose.words/documentvisitor/visitsmarttagend/)(SmartTag) | Anropas när uppräkningen av en smart tagg har avslutats. |
-| virtual [VisitSmartTagStart](../../aspose.words/documentvisitor/visitsmarttagstart/)(SmartTag) | Anropas när uppräkningen av en smart tagg har börjat. |
-| virtual [VisitSpecialChar](../../aspose.words/documentvisitor/visitspecialchar/)(SpecialChar) | Ringde när en[`SpecialChar`](../specialchar/) nod påträffas i dokumentet. |
-| virtual [VisitStructuredDocumentTagEnd](../../aspose.words/documentvisitor/visitstructureddocumenttagend/)(StructuredDocumentTag) | Anropas när uppräkningen av en strukturerad dokumenttagg har avslutats. |
-| virtual [VisitStructuredDocumentTagRangeEnd](../../aspose.words/documentvisitor/visitstructureddocumenttagrangeend/)(StructuredDocumentTagRangeEnd) | Anropas när ett StructuredDocumentTagRangeEnd påträffas. |
-| virtual [VisitStructuredDocumentTagRangeStart](../../aspose.words/documentvisitor/visitstructureddocumenttagrangestart/)(StructuredDocumentTagRangeStart) | Anropas när en StructuredDocumentTagRangeStart påträffas. |
-| virtual [VisitStructuredDocumentTagStart](../../aspose.words/documentvisitor/visitstructureddocumenttagstart/)(StructuredDocumentTag) | Anropas när uppräkningen av en strukturerad dokumenttagg har startat. |
-| virtual [VisitSubDocument](../../aspose.words/documentvisitor/visitsubdocument/)(SubDocument) | Anropas när ett underdokument påträffas. |
-| virtual [VisitTableEnd](../../aspose.words/documentvisitor/visittableend/)(Table) | Anropas när uppräkningen av en tabell är avslutad. |
-| virtual [VisitTableStart](../../aspose.words/documentvisitor/visittablestart/)(Table) | Anropas när uppräkningen av en tabell har påbörjats. |
+| virtual [VisitAbsolutePositionTab](../../aspose.words/documentvisitor/visitabsolutepositiontab/)(*[AbsolutePositionTab](../absolutepositiontab/)*) | Ringde när en[`AbsolutePositionTab`](../absolutepositiontab/) nod påträffas i dokumentet. |
+| virtual [VisitBodyEnd](../../aspose.words/documentvisitor/visitbodyend/)(*[Body](../body/)*) | Anropas när uppräkningen av huvudtextberättelsen i ett avsnitt har avslutats. |
+| virtual [VisitBodyStart](../../aspose.words/documentvisitor/visitbodystart/)(*[Body](../body/)*) | Anropas när uppräkningen av huvudtextberättelsen i ett avsnitt har börjat. |
+| virtual [VisitBookmarkEnd](../../aspose.words/documentvisitor/visitbookmarkend/)(*[BookmarkEnd](../bookmarkend/)*) | Anropas när slutet av ett bokmärke påträffas i dokumentet. |
+| virtual [VisitBookmarkStart](../../aspose.words/documentvisitor/visitbookmarkstart/)(*[BookmarkStart](../bookmarkstart/)*) | Anropas när en början av ett bokmärke påträffas i dokumentet. |
+| virtual [VisitBuildingBlockEnd](../../aspose.words/documentvisitor/visitbuildingblockend/)(*[BuildingBlock](../../aspose.words.buildingblocks/buildingblock/)*) | Anropas när uppräkningen av ett byggblock har avslutats. |
+| virtual [VisitBuildingBlockStart](../../aspose.words/documentvisitor/visitbuildingblockstart/)(*[BuildingBlock](../../aspose.words.buildingblocks/buildingblock/)*) | Anropas när uppräkningen av ett byggblock har påbörjats. |
+| virtual [VisitCellEnd](../../aspose.words/documentvisitor/visitcellend/)(*[Cell](../../aspose.words.tables/cell/)*) | Anropas när uppräkningen av en tabellcell har avslutats. |
+| virtual [VisitCellStart](../../aspose.words/documentvisitor/visitcellstart/)(*[Cell](../../aspose.words.tables/cell/)*) | Anropas när uppräkningen av en tabellcell har startat. |
+| virtual [VisitCommentEnd](../../aspose.words/documentvisitor/visitcommentend/)(*[Comment](../comment/)*) | Anropas när uppräkningen av en kommentarstext har avslutats. |
+| virtual [VisitCommentRangeEnd](../../aspose.words/documentvisitor/visitcommentrangeend/)(*[CommentRangeEnd](../commentrangeend/)*) | Anropas när slutet av ett kommenterat textintervall påträffas. |
+| virtual [VisitCommentRangeStart](../../aspose.words/documentvisitor/visitcommentrangestart/)(*[CommentRangeStart](../commentrangestart/)*) | Anropas när början av ett kommenterat textintervall påträffas. |
+| virtual [VisitCommentStart](../../aspose.words/documentvisitor/visitcommentstart/)(*[Comment](../comment/)*) | Anropas när uppräkningen av en kommentarstext har börjat. |
+| virtual [VisitDocumentEnd](../../aspose.words/documentvisitor/visitdocumentend/)(*[Document](../document/)*) | Anropas när uppräkningen av dokumentet är klar. |
+| virtual [VisitDocumentStart](../../aspose.words/documentvisitor/visitdocumentstart/)(*[Document](../document/)*) | Anropas när uppräkningen av dokumentet har påbörjats. |
+| virtual [VisitEditableRangeEnd](../../aspose.words/documentvisitor/visiteditablerangeend/)(*[EditableRangeEnd](../editablerangeend/)*) | Anropas när ett slut på ett redigerbart område påträffas i dokumentet. |
+| virtual [VisitEditableRangeStart](../../aspose.words/documentvisitor/visiteditablerangestart/)(*[EditableRangeStart](../editablerangestart/)*) | Anropas när en början av ett redigerbart område påträffas i dokumentet. |
+| virtual [VisitFieldEnd](../../aspose.words/documentvisitor/visitfieldend/)(*[FieldEnd](../../aspose.words.fields/fieldend/)*) | Anropas när ett fält slutar i dokumentet. |
+| virtual [VisitFieldSeparator](../../aspose.words/documentvisitor/visitfieldseparator/)(*[FieldSeparator](../../aspose.words.fields/fieldseparator/)*) | Anropas när en fältavgränsare påträffas i dokumentet. |
+| virtual [VisitFieldStart](../../aspose.words/documentvisitor/visitfieldstart/)(*[FieldStart](../../aspose.words.fields/fieldstart/)*) | Anropas när ett fält startar i dokumentet. |
+| virtual [VisitFootnoteEnd](../../aspose.words/documentvisitor/visitfootnoteend/)(*[Footnote](../../aspose.words.notes/footnote/)*) | Anropas när uppräkningen av en fotnot eller slutnotstext har avslutats. |
+| virtual [VisitFootnoteStart](../../aspose.words/documentvisitor/visitfootnotestart/)(*[Footnote](../../aspose.words.notes/footnote/)*) | Anropas när uppräkningen av en fotnot eller slutnotstext har börjat. |
+| virtual [VisitFormField](../../aspose.words/documentvisitor/visitformfield/)(*[FormField](../../aspose.words.fields/formfield/)*) | Anropas när ett formulärfält påträffas i dokumentet. |
+| virtual [VisitGlossaryDocumentEnd](../../aspose.words/documentvisitor/visitglossarydocumentend/)(*[GlossaryDocument](../../aspose.words.buildingblocks/glossarydocument/)*) | Anropas när uppräkningen av ett ordlistadokument har avslutats. |
+| virtual [VisitGlossaryDocumentStart](../../aspose.words/documentvisitor/visitglossarydocumentstart/)(*[GlossaryDocument](../../aspose.words.buildingblocks/glossarydocument/)*) | Anropas när uppräkning av ett ordlistadokument har påbörjats. |
+| virtual [VisitGroupShapeEnd](../../aspose.words/documentvisitor/visitgroupshapeend/)(*[GroupShape](../../aspose.words.drawing/groupshape/)*) | Anropas när uppräkningen av en gruppform har avslutats. |
+| virtual [VisitGroupShapeStart](../../aspose.words/documentvisitor/visitgroupshapestart/)(*[GroupShape](../../aspose.words.drawing/groupshape/)*) | Anropas när uppräkningen av en gruppform har börjat. |
+| virtual [VisitHeaderFooterEnd](../../aspose.words/documentvisitor/visitheaderfooterend/)(*[HeaderFooter](../headerfooter/)*) | Anropas när uppräkningen av en sidhuvud eller sidfot i ett avsnitt har avslutats. |
+| virtual [VisitHeaderFooterStart](../../aspose.words/documentvisitor/visitheaderfooterstart/)(*[HeaderFooter](../headerfooter/)*) | Anropas när uppräkningen av en sidhuvud eller sidfot i ett avsnitt har börjat. |
+| virtual [VisitOfficeMathEnd](../../aspose.words/documentvisitor/visitofficemathend/)(*[OfficeMath](../../aspose.words.math/officemath/)*) | Anropas när uppräkningen av ett Office Math-objekt har avslutats. |
+| virtual [VisitOfficeMathStart](../../aspose.words/documentvisitor/visitofficemathstart/)(*[OfficeMath](../../aspose.words.math/officemath/)*) | Anropas när uppräkningen av ett Office Math-objekt har startat. |
+| virtual [VisitParagraphEnd](../../aspose.words/documentvisitor/visitparagraphend/)(*[Paragraph](../paragraph/)*) | Anropas när uppräkningen av ett stycke har avslutats. |
+| virtual [VisitParagraphStart](../../aspose.words/documentvisitor/visitparagraphstart/)(*[Paragraph](../paragraph/)*) | Anropas när uppräkningen av ett stycke har börjat. |
+| virtual [VisitRowEnd](../../aspose.words/documentvisitor/visitrowend/)(*[Row](../../aspose.words.tables/row/)*) | Anropas när uppräkningen av en tabellrad har avslutats. |
+| virtual [VisitRowStart](../../aspose.words/documentvisitor/visitrowstart/)(*[Row](../../aspose.words.tables/row/)*) | Anropas när uppräkningen av en tabellrad har påbörjats. |
+| virtual [VisitRun](../../aspose.words/documentvisitor/visitrun/)(*[Run](../run/)*) | Anropas när en körning av text i den påträffas. |
+| virtual [VisitSectionEnd](../../aspose.words/documentvisitor/visitsectionend/)(*[Section](../section/)*) | Anropas när uppräkningen av ett avsnitt har avslutats. |
+| virtual [VisitSectionStart](../../aspose.words/documentvisitor/visitsectionstart/)(*[Section](../section/)*) | Anropas när uppräkningen av ett avsnitt har börjat. |
+| virtual [VisitShapeEnd](../../aspose.words/documentvisitor/visitshapeend/)(*[Shape](../../aspose.words.drawing/shape/)*) | Anropas när uppräkningen av en form har avslutats. |
+| virtual [VisitShapeStart](../../aspose.words/documentvisitor/visitshapestart/)(*[Shape](../../aspose.words.drawing/shape/)*) | Anropas när uppräkningen av en form har börjat. |
+| virtual [VisitSmartTagEnd](../../aspose.words/documentvisitor/visitsmarttagend/)(*[SmartTag](../../aspose.words.markup/smarttag/)*) | Anropas när uppräkningen av en smart tagg har avslutats. |
+| virtual [VisitSmartTagStart](../../aspose.words/documentvisitor/visitsmarttagstart/)(*[SmartTag](../../aspose.words.markup/smarttag/)*) | Anropas när uppräkningen av en smart tagg har börjat. |
+| virtual [VisitSpecialChar](../../aspose.words/documentvisitor/visitspecialchar/)(*[SpecialChar](../specialchar/)*) | Ringde när en[`SpecialChar`](../specialchar/) nod påträffas i dokumentet. |
+| virtual [VisitStructuredDocumentTagEnd](../../aspose.words/documentvisitor/visitstructureddocumenttagend/)(*[StructuredDocumentTag](../../aspose.words.markup/structureddocumenttag/)*) | Anropas när uppräkningen av en strukturerad dokumenttagg har avslutats. |
+| virtual [VisitStructuredDocumentTagRangeEnd](../../aspose.words/documentvisitor/visitstructureddocumenttagrangeend/)(*[StructuredDocumentTagRangeEnd](../../aspose.words.markup/structureddocumenttagrangeend/)*) | Anropas när ett StructuredDocumentTagRangeEnd påträffas. |
+| virtual [VisitStructuredDocumentTagRangeStart](../../aspose.words/documentvisitor/visitstructureddocumenttagrangestart/)(*[StructuredDocumentTagRangeStart](../../aspose.words.markup/structureddocumenttagrangestart/)*) | Anropas när en StructuredDocumentTagRangeStart påträffas. |
+| virtual [VisitStructuredDocumentTagStart](../../aspose.words/documentvisitor/visitstructureddocumenttagstart/)(*[StructuredDocumentTag](../../aspose.words.markup/structureddocumenttag/)*) | Anropas när uppräkningen av en strukturerad dokumenttagg har startat. |
+| virtual [VisitSubDocument](../../aspose.words/documentvisitor/visitsubdocument/)(*[SubDocument](../subdocument/)*) | Anropas när ett underdokument påträffas. |
+| virtual [VisitTableEnd](../../aspose.words/documentvisitor/visittableend/)(*[Table](../../aspose.words.tables/table/)*) | Anropas när uppräkningen av en tabell är avslutad. |
+| virtual [VisitTableStart](../../aspose.words/documentvisitor/visittablestart/)(*[Table](../../aspose.words.tables/table/)*) | Anropas när uppräkningen av en tabell har påbörjats. |
 
-### Anmärkningar
+## Anmärkningar
 
 Med`DocumentVisitor` du kan definiera och köra anpassade operationer som kräver uppräkning över dokumentträdet.
 
@@ -87,7 +89,7 @@ Att använda`DocumentVisitor`:
 
 För mer information se Visitor design mönster.
 
-### Exempel
+## Exempel
 
 Visar hur man använder en dokumentbesökare för att skriva ut ett dokuments nodstruktur.
 
@@ -257,5 +259,3 @@ public class DocStructurePrinter : DocumentVisitor
 
 * namnutrymme [Aspose.Words](../../aspose.words/)
 * hopsättning [Aspose.Words](../../)
-
-

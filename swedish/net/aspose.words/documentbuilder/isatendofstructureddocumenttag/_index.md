@@ -1,20 +1,22 @@
 ---
 title: DocumentBuilder.IsAtEndOfStructuredDocumentTag
-second_title: Aspose.Words för .NET API Referens
-description: DocumentBuilder fast egendom. Returnerar Sann om markören är i slutet av en strukturerad dokumenttagg.
+linktitle: IsAtEndOfStructuredDocumentTag
+articleTitle: IsAtEndOfStructuredDocumentTag
+second_title: Aspose.Words för .NET
+description: DocumentBuilder IsAtEndOfStructuredDocumentTag fast egendom. ReturnerarSann om markören är i slutet av en strukturerad dokumenttagg i C#.
 type: docs
 weight: 120
 url: /sv/net/aspose.words/documentbuilder/isatendofstructureddocumenttag/
 ---
 ## DocumentBuilder.IsAtEndOfStructuredDocumentTag property
 
-Returnerar **Sann** om markören är i slutet av en strukturerad dokumenttagg.
+Returnerar**Sann** om markören är i slutet av en strukturerad dokumenttagg.
 
 ```csharp
 public bool IsAtEndOfStructuredDocumentTag { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man flyttar markören för DocumentBuilder inuti en strukturerad dokumenttagg.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "Document.MoveToStructuredDocumentTag.docx");
 ### Se även
 
 * class [DocumentBuilder](../)
-* namnutrymme [Aspose.Words](../../documentbuilder/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

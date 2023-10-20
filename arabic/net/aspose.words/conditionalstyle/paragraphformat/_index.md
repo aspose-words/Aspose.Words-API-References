@@ -1,7 +1,9 @@
 ---
 title: ConditionalStyle.ParagraphFormat
-second_title: Aspose.Words لمراجع .NET API
-description: ConditionalStyle ملكية. الحصول على تنسيق الفقرة بالنمط الشرطي.
+linktitle: ParagraphFormat
+articleTitle: ParagraphFormat
+second_title: Aspose.Words لـ .NET
+description: ConditionalStyle ParagraphFormat ملكية. الحصول على تنسيق الفقرة بالنمط الشرطي في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words/conditionalstyle/paragraphformat/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/conditionalstyle/paragraphformat/
 public ParagraphFormat ParagraphFormat { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع أنماط مناطق معينة في الجدول.
 
@@ -85,7 +87,5 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 
 * class [ParagraphFormat](../../paragraphformat/)
 * class [ConditionalStyle](../)
-* مساحة الاسم [Aspose.Words](../../conditionalstyle/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

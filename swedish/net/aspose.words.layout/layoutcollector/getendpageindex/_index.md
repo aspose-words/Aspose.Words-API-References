@@ -1,7 +1,9 @@
 ---
 title: LayoutCollector.GetEndPageIndex
-second_title: Aspose.Words för .NET API Referens
-description: LayoutCollector metod. Hämtar 1baserat index på sidan där noden slutar. Returnerar 0 om noden inte kan mappas till en sida.
+linktitle: GetEndPageIndex
+articleTitle: GetEndPageIndex
+second_title: Aspose.Words för .NET
+description: LayoutCollector GetEndPageIndex metod. Hämtar 1baserat index på sidan där noden slutar. Returnerar 0 om noden inte kan mappas till en sida i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.layout/layoutcollector/getendpageindex/
@@ -14,7 +16,7 @@ Hämtar 1-baserat index på sidan där noden slutar. Returnerar 0 om noden inte 
 public int GetEndPageIndex(Node node)
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man kan se sidorna som en nod sträcker sig över.
 
@@ -73,7 +75,5 @@ Assert.AreEqual("¶", layoutEnumerator.Text);
 
 * class [Node](../../../aspose.words/node/)
 * class [LayoutCollector](../)
-* namnutrymme [Aspose.Words.Layout](../../layoutcollector/)
+* namnutrymme [Aspose.Words.Layout](../../../aspose.words.layout/)
 * hopsättning [Aspose.Words](../../../)
-
-

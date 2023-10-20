@@ -1,7 +1,9 @@
 ---
 title: InlineStory.IsMoveFromRevision
-second_title: Référence de l'API Aspose.Words pour .NET
-description: InlineStory propriété. Retoursvrai si cet objet a été déplacé supprimé dans Microsoft Word alors que le suivi des modifications était activé.
+linktitle: IsMoveFromRevision
+articleTitle: IsMoveFromRevision
+second_title: Aspose.Words pour .NET
+description: InlineStory IsMoveFromRevision propriété. Retoursvrai si cet objet a été déplacé supprimé dans Microsoft Word alors que le suivi des modifications était activé en C#.
 type: docs
 weight: 50
 url: /fr/net/aspose.words/inlinestory/ismovefromrevision/
@@ -14,7 +16,7 @@ Retours`vrai` si cet objet a été déplacé (supprimé) dans Microsoft Word alo
 public bool IsMoveFromRevision { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment afficher les propriétés liées aux révisions des nœuds InlineStory.
 
@@ -62,7 +64,5 @@ Assert.IsTrue(footnotes[3].IsDeleteRevision);
 ### Voir également
 
 * class [InlineStory](../)
-* espace de noms [Aspose.Words](../../inlinestory/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

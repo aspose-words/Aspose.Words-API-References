@@ -1,7 +1,9 @@
 ---
 title: ListLevel.NumberFormat
-second_title: Aspose.Words für .NET-API-Referenz
-description: ListLevel eigendom. Gibt das Zahlenformat für die Listenebene zurück oder legt es fest.
+linktitle: NumberFormat
+articleTitle: NumberFormat
+second_title: Aspose.Words für .NET
+description: ListLevel NumberFormat eigendom. Gibt das Zahlenformat für die Listenebene zurück oder legt es fest in C#.
 type: docs
 weight: 70
 url: /de/net/aspose.words.lists/listlevel/numberformat/
@@ -14,7 +16,7 @@ Gibt das Zahlenformat für die Listenebene zurück oder legt es fest.
 public string NumberFormat { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Neben normalen Textzeichen kann die Zeichenfolge Platzhalterzeichen \x0000 bis \x0008 enthalten, die die Zahlen aus den entsprechenden Listenebenen darstellen.
 
@@ -22,7 +24,7 @@ Beispielsweise generiert die Zeichenfolge „\x0000.\x0001)“ eine Liste label 
 
 Null ist nicht zulässig, aber eine leere Zeichenfolge, d. h. keine Zahl, ist gültig.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie bei Verwendung von DocumentBuilder eine benutzerdefinierte Listenformatierung auf Absätze anwenden.
 
@@ -137,7 +139,5 @@ doc.Save(ArtifactsDir + "Lists.CreateListRestartAfterHigher.docx");
 ### Siehe auch
 
 * class [ListLevel](../)
-* namensraum [Aspose.Words.Lists](../../listlevel/)
+* namensraum [Aspose.Words.Lists](../../../aspose.words.lists/)
 * Montage [Aspose.Words](../../../)
-
-

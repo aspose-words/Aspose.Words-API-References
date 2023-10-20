@@ -1,7 +1,9 @@
 ---
-title: Class DefaultFontSubstitutionRule
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Fonts.DefaultFontSubstitutionRule فصل. قاعدة استبدال الخط الافتراضية.
+title: DefaultFontSubstitutionRule Class
+linktitle: DefaultFontSubstitutionRule
+articleTitle: DefaultFontSubstitutionRule
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Fonts.DefaultFontSubstitutionRule فصل. قاعدة استبدال الخط الافتراضية في C#.
 type: docs
 weight: 2840
 url: /ar/net/aspose.words.fonts/defaultfontsubstitutionrule/
@@ -23,11 +25,11 @@ public class DefaultFontSubstitutionRule : FontSubstitutionRule
 | [DefaultFontName](../../aspose.words.fonts/defaultfontsubstitutionrule/defaultfontname/) { get; set; } | الحصول على اسم الخط الافتراضي أو تعيينه. |
 | virtual [Enabled](../../aspose.words.fonts/fontsubstitutionrule/enabled/) { get; set; } | يحدد ما إذا كانت القاعدة مفعلة أم لا. |
 
-### ملاحظات
+## ملاحظات
 
 تحدد هذه القاعدة اسم خط افتراضي واحد ليتم استخدامه للاستبدال في حالة عدم توفر الخط الأصلي.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين قاعدة استبدال الخط الافتراضية.
 
@@ -61,5 +63,3 @@ doc.Save(ArtifactsDir + "FontSettings.DefaultFontSubstitutionRule.pdf");
 * class [FontSubstitutionRule](../fontsubstitutionrule/)
 * مساحة الاسم [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * المجسم [Aspose.Words](../../)
-
-

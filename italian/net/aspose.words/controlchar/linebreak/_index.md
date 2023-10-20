@@ -1,7 +1,9 @@
 ---
 title: ControlChar.LineBreak
-second_title: Aspose.Words per .NET API Reference
-description: ControlChar campo. Carattere di interruzione di riga x000b o v.
+linktitle: LineBreak
+articleTitle: LineBreak
+second_title: Aspose.Words per .NET
+description: ControlChar LineBreak campo. Carattere di interruzione di riga x000b o v in C#.
 type: docs
 weight: 120
 url: /it/net/aspose.words/controlchar/linebreak/
@@ -14,7 +16,7 @@ Carattere di interruzione di riga: "\x000b" o "\v".
 public static readonly string LineBreak;
 ```
 
-### Esempi
+## Esempi
 
 Mostra come aggiungere vari caratteri di controllo a un documento.
 
@@ -86,7 +88,5 @@ Assert.AreEqual(Convert.ToChar(ControlChar.ColumnBreak), ControlChar.ColumnBreak
 ### Guarda anche
 
 * class [ControlChar](../)
-* spazio dei nomi [Aspose.Words](../../controlchar/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

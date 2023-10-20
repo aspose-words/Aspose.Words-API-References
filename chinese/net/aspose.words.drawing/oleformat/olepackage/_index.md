@@ -1,7 +1,9 @@
 ---
 title: OleFormat.OlePackage
-second_title: Aspose.Words for .NET API 参考
-description: OleFormat 财产. 提供对OlePackage如果 OLE 对象是 OLE 包 返回无效的否则.
+linktitle: OlePackage
+articleTitle: OlePackage
+second_title: 用于 .NET 的 Aspose.Words
+description: OleFormat OlePackage 财产. 提供对OlePackage如果 OLE 对象是 OLE 包 返回无效的否则 在 C#.
 type: docs
 weight: 80
 url: /zh/net/aspose.words.drawing/oleformat/olepackage/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.drawing/oleformat/olepackage/
 public OlePackage OlePackage { get; }
 ```
 
-### 评论
+## 评论
 
 OLE 包是一项传统技术，允许将 Windows 系统的 OLE 注册表中不存在的任何文件格式包装到通用包中，从而允许将几乎所有内容嵌入到文档中。 请参阅[`OlePackage`](../../olepackage/)输入以获取更多信息。
 
-### 例子
+## 例子
 
 显示如何将 OLE 对象插入到文档中。
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "Shape.InsertOlePackage.docx");
 
 * class [OlePackage](../../olepackage/)
 * class [OleFormat](../)
-* 命名空间 [Aspose.Words.Drawing](../../oleformat/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

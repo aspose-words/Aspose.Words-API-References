@@ -1,7 +1,9 @@
 ---
 title: FieldOptions.BibliographyStylesProvider
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldOptions eigendom. Ruft einen Anbieter ab oder legt ihn fest der einen Bibliografiestil für zurückgibtFieldBibliography UndFieldCitation Felder.
+linktitle: BibliographyStylesProvider
+articleTitle: BibliographyStylesProvider
+second_title: Aspose.Words für .NET
+description: FieldOptions BibliographyStylesProvider eigendom. Ruft einen Anbieter ab oder legt ihn fest der einen Bibliografiestil für zurückgibtFieldBibliography UndFieldCitation Felder in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.fields/fieldoptions/bibliographystylesprovider/
@@ -14,7 +16,7 @@ Ruft einen Anbieter ab oder legt ihn fest, der einen Bibliografiestil für zurü
 public IBibliographyStylesProvider BibliographyStylesProvider { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie integrierte Stile überschrieben oder benutzerdefinierte Stile bereitgestellt werden.
 
@@ -42,7 +44,5 @@ public class BibliographyStylesProvider : IBibliographyStylesProvider
 
 * interface [IBibliographyStylesProvider](../../ibibliographystylesprovider/)
 * class [FieldOptions](../)
-* namensraum [Aspose.Words.Fields](../../fieldoptions/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

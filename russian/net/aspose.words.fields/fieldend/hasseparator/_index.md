@@ -1,7 +1,9 @@
 ---
 title: FieldEnd.HasSeparator
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldEnd свойство. Возвращаетистинныйесли в этом поле есть разделитель.
+linktitle: HasSeparator
+articleTitle: HasSeparator
+second_title: Aspose.Words для .NET
+description: FieldEnd HasSeparator свойство. Возвращаетистинныйесли в этом поле есть разделитель на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fields/fieldend/hasseparator/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldend/hasseparator/
 public bool HasSeparator { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как работать с коллекцией полей.
 
@@ -117,7 +119,5 @@ public class FieldVisitor : DocumentVisitor
 ### Смотрите также
 
 * class [FieldEnd](../)
-* пространство имен [Aspose.Words.Fields](../../fieldend/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

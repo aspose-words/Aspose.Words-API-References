@@ -1,7 +1,9 @@
 ---
 title: FieldXE.Yomi
-second_title: Aspose.Words for .NET API 参考
-description: FieldXE 财产. 获取或设置索引条目的 yomi用于排序索引的第一个拼音字符
+linktitle: Yomi
+articleTitle: Yomi
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldXE Yomi 财产. 获取或设置索引条目的 yomi用于排序索引的第一个拼音字符 在 C#.
 type: docs
 weight: 80
 url: /zh/net/aspose.words.fields/fieldxe/yomi/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fieldxe/yomi/
 public string Yomi { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何按语音对 INDEX 字段条目进行排序。
 
@@ -73,7 +75,5 @@ doc.Save(ArtifactsDir + "Field.INDEX.XE.Yomi.docx");
 ### 也可以看看
 
 * class [FieldXE](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldxe/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

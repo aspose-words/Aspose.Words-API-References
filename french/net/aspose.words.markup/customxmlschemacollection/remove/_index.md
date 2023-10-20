@@ -1,7 +1,9 @@
 ---
 title: CustomXmlSchemaCollection.Remove
-second_title: Référence de l'API Aspose.Words pour .NET
-description: CustomXmlSchemaCollection méthode. Supprime la valeur spécifiée de la collection.
+linktitle: Remove
+articleTitle: Remove
+second_title: Aspose.Words pour .NET
+description: CustomXmlSchemaCollection Remove méthode. Supprime la valeur spécifiée de la collection en C#.
 type: docs
 weight: 80
 url: /fr/net/aspose.words.markup/customxmlschemacollection/remove/
@@ -18,7 +20,7 @@ public void Remove(string name)
 | --- | --- | --- |
 | name | String | La valeur sensible à la casse à supprimer. |
 
-### Exemples
+## Exemples
 
 Montre comment utiliser une collection de schémas XML.
 
@@ -64,7 +66,5 @@ Assert.AreEqual(0, schemas.Count);
 ### Voir également
 
 * class [CustomXmlSchemaCollection](../)
-* espace de noms [Aspose.Words.Markup](../../customxmlschemacollection/)
+* espace de noms [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Assemblée [Aspose.Words](../../../)
-
-

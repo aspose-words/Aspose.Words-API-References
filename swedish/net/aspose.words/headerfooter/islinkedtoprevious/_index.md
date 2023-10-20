@@ -1,7 +1,9 @@
 ---
 title: HeaderFooter.IsLinkedToPrevious
-second_title: Aspose.Words för .NET API Referens
-description: HeaderFooter fast egendom. Sant om denna sidhuvud eller sidfot är länkad till motsvarande sidhuvud eller sidfot i föregående avsnitt.
+linktitle: IsLinkedToPrevious
+articleTitle: IsLinkedToPrevious
+second_title: Aspose.Words för .NET
+description: HeaderFooter IsLinkedToPrevious fast egendom. Sant om denna sidhuvud eller sidfot är länkad till motsvarande sidhuvud eller sidfot i föregående avsnitt i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words/headerfooter/islinkedtoprevious/
@@ -14,13 +16,13 @@ Sant om denna sidhuvud eller sidfot är länkad till motsvarande sidhuvud eller 
 public bool IsLinkedToPrevious { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Standard är`Sann`.
 
 Observera att när du länkar en sidhuvud eller sidfot rensas dess innehåll.
 
-### Exempel
+## Exempel
 
 Visar hur du länkar sidhuvuden och sidfötter mellan avsnitt.
 
@@ -85,7 +87,5 @@ doc.Save(ArtifactsDir + "HeaderFooter.Link.docx");
 ### Se även
 
 * class [HeaderFooter](../)
-* namnutrymme [Aspose.Words](../../headerfooter/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

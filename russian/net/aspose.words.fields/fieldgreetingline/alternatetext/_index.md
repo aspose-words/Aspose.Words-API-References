@@ -1,7 +1,9 @@
 ---
 title: FieldGreetingLine.AlternateText
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldGreetingLine свойство. Получает или задает текст включаемый в поле если имя пустое.
+linktitle: AlternateText
+articleTitle: AlternateText
+second_title: Aspose.Words для .NET
+description: FieldGreetingLine AlternateText свойство. Получает или задает текст включаемый в поле если имя пустое на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.fields/fieldgreetingline/alternatetext/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldgreetingline/alternatetext/
 public string AlternateText { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как вставить поле GREETINGLINE.
 
@@ -74,7 +76,5 @@ Assert.AreEqual("Dear Mr. Doe,\r\r\tThis is your custom greeting, created progra
 ### Смотрите также
 
 * class [FieldGreetingLine](../)
-* пространство имен [Aspose.Words.Fields](../../fieldgreetingline/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

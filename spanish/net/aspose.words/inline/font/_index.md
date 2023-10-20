@@ -1,7 +1,9 @@
 ---
 title: Inline.Font
-second_title: Referencia de API de Aspose.Words para .NET
-description: Inline propiedad. Proporciona acceso al formato de fuente de este objeto.
+linktitle: Font
+articleTitle: Font
+second_title: Aspose.Words para .NET
+description: Inline Font propiedad. Proporciona acceso al formato de fuente de este objeto en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words/inline/font/
@@ -14,7 +16,7 @@ Proporciona acceso al formato de fuente de este objeto.
 public Font Font { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo construir un documento Aspose.Words a mano.
 
@@ -65,7 +67,5 @@ doc.Save(ArtifactsDir + "Section.CreateManually.docx");
 
 * class [Font](../../font/)
 * class [Inline](../)
-* espacio de nombres [Aspose.Words](../../inline/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

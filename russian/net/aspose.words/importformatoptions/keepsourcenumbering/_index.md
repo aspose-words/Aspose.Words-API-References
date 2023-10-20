@@ -1,7 +1,9 @@
 ---
 title: ImportFormatOptions.KeepSourceNumbering
-second_title: Справочник по API Aspose.Words для .NET
-description: ImportFormatOptions свойство. Получает или задает логическое значение определяющее как будет импортироваться нумерация если она конфликтует в исходном и целевом документах. Значение по умолчаниюЛОЖЬ .
+linktitle: KeepSourceNumbering
+articleTitle: KeepSourceNumbering
+second_title: Aspose.Words для .NET
+description: ImportFormatOptions KeepSourceNumbering свойство. Получает или задает логическое значение определяющее как будет импортироваться нумерация если она конфликтует в исходном и целевом документах. Значение по умолчаниюЛОЖЬ  на С#.
 type: docs
 weight: 60
 url: /ru/net/aspose.words/importformatoptions/keepsourcenumbering/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/importformatoptions/keepsourcenumbering/
 public bool KeepSourceNumbering { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как разрешить конфликт при импорте документов, имеющих списки с одинаковым идентификатором определения списка.
 
@@ -108,7 +110,5 @@ else
 ### Смотрите также
 
 * class [ImportFormatOptions](../)
-* пространство имен [Aspose.Words](../../importformatoptions/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

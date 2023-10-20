@@ -1,7 +1,9 @@
 ---
-title: Class ImportFormatOptions
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.ImportFormatOptions 班级. 允许指定各种导入选项来格式化输出
+title: ImportFormatOptions Class
+linktitle: ImportFormatOptions
+articleTitle: ImportFormatOptions
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.ImportFormatOptions 班级. 允许指定各种导入选项来格式化输出 在 C#.
 type: docs
 weight: 3240
 url: /zh/net/aspose.words/importformatoptions/
@@ -34,7 +36,7 @@ public class ImportFormatOptions
 | [MergePastedLists](../../aspose.words/importformatoptions/mergepastedlists/) { get; set; } | 获取或设置一个布尔值，指定粘贴的列表是否与周围的列表合并。 默认值为`错误的`. |
 | [SmartStyleBehavior](../../aspose.words/importformatoptions/smartstylebehavior/) { get; set; } | 获取或设置一个布尔值，该值指定当样式在源文档和目标文档中具有相同名称时如何导入样式。 默认值为`错误的`. |
 
-### 例子
+## 例子
 
 演示如何在插入文档时解决重复样式。
 
@@ -70,5 +72,3 @@ dstDoc.Save(ArtifactsDir + "DocumentBuilder.SmartStyleBehavior.docx");
 
 * 命名空间 [Aspose.Words](../../aspose.words/)
 * 部件 [Aspose.Words](../../)
-
-

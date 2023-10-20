@@ -1,7 +1,9 @@
 ---
-title: Enum PdfPageMode
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Saving.PdfPageMode enum. Specifica come deve essere visualizzato il documento PDF quando viene aperto nel lettore PDF.
+title: PdfPageMode Enum
+linktitle: PdfPageMode
+articleTitle: PdfPageMode
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Saving.PdfPageMode enum. Specifica come deve essere visualizzato il documento PDF quando viene aperto nel lettore PDF in C#.
 type: docs
 weight: 5500
 url: /it/net/aspose.words.saving/pdfpagemode/
@@ -25,7 +27,7 @@ public enum PdfPageMode
 | UseOC | `4` | Il pannello del gruppo di contenuti opzionale è visibile. |
 | UseAttachments | `5` | Il pannello degli allegati è visibile. |
 
-### Esempi
+## Esempi
 
 Mostra come impostare le istruzioni da seguire per alcuni lettori PDF quando si apre un documento di output.
 
@@ -84,5 +86,3 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.HeaderFooterBookmarksExportMode.pdf", sa
 
 * spazio dei nomi [Aspose.Words.Saving](../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../)
-
-

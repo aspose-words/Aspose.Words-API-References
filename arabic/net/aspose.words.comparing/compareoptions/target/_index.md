@@ -1,7 +1,9 @@
 ---
 title: CompareOptions.Target
-second_title: Aspose.Words لمراجع .NET API
-description: CompareOptions ملكية. يحدد الوثيقة التي سيتم استخدامها كهدف أثناء المقارنة.
+linktitle: Target
+articleTitle: Target
+second_title: Aspose.Words لـ .NET
+description: CompareOptions Target ملكية. يحدد الوثيقة التي سيتم استخدامها كهدف أثناء المقارنة في C#.
 type: docs
 weight: 130
 url: /ar/net/aspose.words.comparing/compareoptions/target/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.comparing/compareoptions/target/
 public ComparisonTargetType Target { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تصفية أنواع معينة من عناصر المستند عند إجراء المقارنة.
 
@@ -89,7 +91,5 @@ docOriginal.Save(ArtifactsDir + "Document.CompareOptions.docx");
 
 * enum [ComparisonTargetType](../../comparisontargettype/)
 * class [CompareOptions](../)
-* مساحة الاسم [Aspose.Words.Comparing](../../compareoptions/)
+* مساحة الاسم [Aspose.Words.Comparing](../../../aspose.words.comparing/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: PageSetup.ClearFormatting
-second_title: Aspose.Words für .NET-API-Referenz
-description: PageSetup methode. Setzt die Seiteneinrichtung auf die Standardpapiergröße ränder und ausrichtung zurück.
+linktitle: ClearFormatting
+articleTitle: ClearFormatting
+second_title: Aspose.Words für .NET
+description: PageSetup ClearFormatting methode. Setzt die Seiteneinrichtung auf die Standardpapiergröße ränder und ausrichtung zurück in C#.
 type: docs
 weight: 460
 url: /de/net/aspose.words/pagesetup/clearformatting/
@@ -14,7 +16,7 @@ Setzt die Seiteneinrichtung auf die Standardpapiergröße, -ränder und -ausrich
 public void ClearFormatting()
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Seiteneinrichtungseinstellungen auf Abschnitte in einem Dokument angewendet und wiederhergestellt werden.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "PageSetup.ClearFormatting.docx");
 ### Siehe auch
 
 * class [PageSetup](../)
-* namensraum [Aspose.Words](../../pagesetup/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

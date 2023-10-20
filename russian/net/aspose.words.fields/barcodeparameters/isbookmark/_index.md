@@ -1,7 +1,9 @@
 ---
 title: BarcodeParameters.IsBookmark
-second_title: Справочник по API Aspose.Words для .NET
-description: BarcodeParameters свойство. ЛиPostalAddress это имя закладки.
+linktitle: IsBookmark
+articleTitle: IsBookmark
+second_title: Aspose.Words для .NET
+description: BarcodeParameters IsBookmark свойство. ЛиPostalAddress это имя закладки на С#.
 type: docs
 weight: 120
 url: /ru/net/aspose.words.fields/barcodeparameters/isbookmark/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/barcodeparameters/isbookmark/
 public bool IsBookmark { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как использовать генератор штрих-кода.
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.docx");
 ### Смотрите также
 
 * class [BarcodeParameters](../)
-* пространство имен [Aspose.Words.Fields](../../barcodeparameters/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

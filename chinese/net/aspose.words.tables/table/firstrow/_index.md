@@ -1,7 +1,9 @@
 ---
 title: Table.FirstRow
-second_title: Aspose.Words for .NET API 参考
-description: Table 财产. 返回第一个Row表中的节点.
+linktitle: FirstRow
+articleTitle: FirstRow
+second_title: 用于 .NET 的 Aspose.Words
+description: Table FirstRow 财产. 返回第一个Row表中的节点 在 C#.
 type: docs
 weight: 160
 url: /zh/net/aspose.words.tables/table/firstrow/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.tables/table/firstrow/
 public Row FirstRow { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何删除文档中所有表格的第一行和最后一行。
 
@@ -62,7 +64,5 @@ doc.Save(ArtifactsDir + "Table.CombineTables.docx");
 
 * class [Row](../../row/)
 * class [Table](../)
-* 命名空间 [Aspose.Words.Tables](../../table/)
+* 命名空间 [Aspose.Words.Tables](../../../aspose.words.tables/)
 * 部件 [Aspose.Words](../../../)
-
-

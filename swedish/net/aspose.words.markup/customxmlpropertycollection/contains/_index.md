@@ -1,7 +1,9 @@
 ---
 title: CustomXmlPropertyCollection.Contains
-second_title: Aspose.Words för .NET API Referens
-description: CustomXmlPropertyCollection metod. Bestämmer om samlingen innehåller en egenskap med det angivna namnet.
+linktitle: Contains
+articleTitle: Contains
+second_title: Aspose.Words för .NET
+description: CustomXmlPropertyCollection Contains metod. Bestämmer om samlingen innehåller en egenskap med det angivna namnet i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.markup/customxmlpropertycollection/contains/
@@ -22,7 +24,7 @@ public bool Contains(string name)
 
 `Sann` om föremålet finns i samlingen; annat,`falsk`.
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med smarta taggars egenskaper för att få djupgående information om smarta taggar.
 
@@ -79,7 +81,5 @@ Assert.AreEqual(0, properties.Count);
 ### Se även
 
 * class [CustomXmlPropertyCollection](../)
-* namnutrymme [Aspose.Words.Markup](../../customxmlpropertycollection/)
+* namnutrymme [Aspose.Words.Markup](../../../aspose.words.markup/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,9 +1,11 @@
 ---
 title: Document.GetPageInfo
-second_title: Aspose.Words for .NET API 参考
-description: Document 方法. 获取可能对打印或渲染有用的页面大小方向和其他信息
+linktitle: GetPageInfo
+articleTitle: GetPageInfo
+second_title: 用于 .NET 的 Aspose.Words
+description: Document GetPageInfo 方法. 获取可能对打印或渲染有用的页面大小方向和其他信息 在 C#.
 type: docs
-weight: 630
+weight: 610
 url: /zh/net/aspose.words/document/getpageinfo/
 ---
 ## Document.GetPageInfo method
@@ -22,7 +24,5 @@ public PageInfo GetPageInfo(int pageIndex)
 
 * class [PageInfo](../../../aspose.words.rendering/pageinfo/)
 * class [Document](../)
-* 命名空间 [Aspose.Words](../../document/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

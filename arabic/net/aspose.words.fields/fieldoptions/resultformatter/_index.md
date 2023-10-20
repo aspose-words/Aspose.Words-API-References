@@ -1,7 +1,9 @@
 ---
 title: FieldOptions.ResultFormatter
-second_title: Aspose.Words لمراجع .NET API
-description: FieldOptions ملكية. يسمح بالتحكم في كيفية تنسيق نتيجة الحقل.
+linktitle: ResultFormatter
+articleTitle: ResultFormatter
+second_title: Aspose.Words لـ .NET
+description: FieldOptions ResultFormatter ملكية. يسمح بالتحكم في كيفية تنسيق نتيجة الحقل في C#.
 type: docs
 weight: 180
 url: /ar/net/aspose.words.fields/fieldoptions/resultformatter/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldoptions/resultformatter/
 public IFieldResultFormatter ResultFormatter { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تطبيق تنسيق مخصص تلقائيًا على نتائج الحقول عندما يتم تحديث الحقول.
 
@@ -152,7 +154,5 @@ private class FieldResultFormatter : IFieldResultFormatter
 
 * interface [IFieldResultFormatter](../../ifieldresultformatter/)
 * class [FieldOptions](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldoptions/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: HtmlFixedSaveOptions.OptimizeOutput
-second_title: Referencia de API de Aspose.Words para .NET
-description: HtmlFixedSaveOptions propiedad. El indicador indica si es necesario optimizar la salida. Si este indicador está configurado se eliminan los lienzos anidados redundantes y los lienzos vacíos también se concatenan los glifos vecinos con el mismo formato. Nota La precisión de la visualización del contenido puede verse afectada si esta propiedad está establecida enverdadero . El valor predeterminado esverdadero .
+linktitle: OptimizeOutput
+articleTitle: OptimizeOutput
+second_title: Aspose.Words para .NET
+description: HtmlFixedSaveOptions OptimizeOutput propiedad. El indicador indica si es necesario optimizar la salida. Si este indicador está configurado se eliminan los lienzos anidados redundantes y los lienzos vacíos también se concatenan los glifos vecinos con el mismo formato. Nota La precisión de la visualización del contenido puede verse afectada si esta propiedad está establecida enverdadero . El valor predeterminado esverdadero  en C#.
 type: docs
 weight: 100
 url: /es/net/aspose.words.saving/htmlfixedsaveoptions/optimizeoutput/
@@ -14,7 +16,7 @@ El indicador indica si es necesario optimizar la salida. Si este indicador está
 public override bool OptimizeOutput { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo simplificar un documento al guardarlo en HTML eliminando varios objetos redundantes.
 
@@ -33,7 +35,5 @@ Assert.AreEqual(optimizeOutput ? 62521 : 191770,
 ### Ver también
 
 * class [HtmlFixedSaveOptions](../)
-* espacio de nombres [Aspose.Words.Saving](../../htmlfixedsaveoptions/)
+* espacio de nombres [Aspose.Words.Saving](../../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../../)
-
-

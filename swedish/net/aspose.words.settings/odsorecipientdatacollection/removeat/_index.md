@@ -1,7 +1,9 @@
 ---
 title: OdsoRecipientDataCollection.RemoveAt
-second_title: Aspose.Words för .NET API Referens
-description: OdsoRecipientDataCollection metod. Tar bort elementet vid det angivna indexet.
+linktitle: RemoveAt
+articleTitle: RemoveAt
+second_title: Aspose.Words för .NET
+description: OdsoRecipientDataCollection RemoveAt metod. Tar bort elementet vid det angivna indexet i C#.
 type: docs
 weight: 70
 url: /sv/net/aspose.words.settings/odsorecipientdatacollection/removeat/
@@ -18,7 +20,7 @@ public void RemoveAt(int index)
 | --- | --- | --- |
 | index | Int32 | Elementets nollbaserade index. |
 
-### Exempel
+## Exempel
 
 Visar hur man får åtkomst till insamlingen av data som anger vilka sammanslagningsdatakällaposter en sammanslagning kommer att utesluta.
 
@@ -58,7 +60,5 @@ Assert.AreEqual(0, dataCollection.Count);
 ### Se även
 
 * class [OdsoRecipientDataCollection](../)
-* namnutrymme [Aspose.Words.Settings](../../odsorecipientdatacollection/)
+* namnutrymme [Aspose.Words.Settings](../../../aspose.words.settings/)
 * hopsättning [Aspose.Words](../../../)
-
-

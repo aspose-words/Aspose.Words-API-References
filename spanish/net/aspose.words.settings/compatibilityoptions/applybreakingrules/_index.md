@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.ApplyBreakingRules
-second_title: Referencia de API de Aspose.Words para .NET
-description: CompatibilityOptions propiedad. Utilice reglas heredadas de ruptura de líneas etíopes y amáricas.
+linktitle: ApplyBreakingRules
+articleTitle: ApplyBreakingRules
+second_title: Aspose.Words para .NET
+description: CompatibilityOptions ApplyBreakingRules propiedad. Utilice reglas heredadas de ruptura de líneas etíopes y amáricas en C#.
 type: docs
 weight: 40
 url: /es/net/aspose.words.settings/compatibilityoptions/applybreakingrules/
@@ -17,7 +19,5 @@ public bool ApplyBreakingRules { get; set; }
 ### Ver también
 
 * class [CompatibilityOptions](../)
-* espacio de nombres [Aspose.Words.Settings](../../compatibilityoptions/)
+* espacio de nombres [Aspose.Words.Settings](../../../aspose.words.settings/)
 * asamblea [Aspose.Words](../../../)
-
-

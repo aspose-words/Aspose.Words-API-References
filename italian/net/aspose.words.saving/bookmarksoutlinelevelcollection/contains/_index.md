@@ -1,7 +1,9 @@
 ---
 title: BookmarksOutlineLevelCollection.Contains
-second_title: Aspose.Words per .NET API Reference
-description: BookmarksOutlineLevelCollection metodo. Determina se la raccolta contiene un segnalibro con il nome specificato.
+linktitle: Contains
+articleTitle: Contains
+second_title: Aspose.Words per .NET
+description: BookmarksOutlineLevelCollection Contains metodo. Determina se la raccolta contiene un segnalibro con il nome specificato in C#.
 type: docs
 weight: 60
 url: /it/net/aspose.words.saving/bookmarksoutlinelevelcollection/contains/
@@ -22,7 +24,7 @@ public bool Contains(string name)
 
 `VERO` se l'articolo si trova nella raccolta; Altrimenti,`falso`.
 
-### Esempi
+## Esempi
 
 Mostra come impostare i livelli di struttura per i segnalibri.
 
@@ -80,7 +82,5 @@ outlineLevels.Clear();
 ### Guarda anche
 
 * class [BookmarksOutlineLevelCollection](../)
-* spazio dei nomi [Aspose.Words.Saving](../../bookmarksoutlinelevelcollection/)
+* spazio dei nomi [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../../)
-
-

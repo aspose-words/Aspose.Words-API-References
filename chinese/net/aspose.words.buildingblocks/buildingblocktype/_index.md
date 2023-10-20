@@ -1,7 +1,9 @@
 ---
-title: Enum BuildingBlockType
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.BuildingBlocks.BuildingBlockType 枚举. 指定构建块类型该类型可能会影响 Microsoft Word 中构建块 的可见性和行为
+title: BuildingBlockType Enum
+linktitle: BuildingBlockType
+articleTitle: BuildingBlockType
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.BuildingBlocks.BuildingBlockType 枚举. 指定构建块类型该类型可能会影响 Microsoft Word 中构建块 的可见性和行为 在 C#.
 type: docs
 weight: 170
 url: /zh/net/aspose.words.buildingblocks/buildingblocktype/
@@ -28,11 +30,11 @@ public enum BuildingBlockType
 | All | `7` | 构建块与所有类型相关联。 |
 | Default | `0` | 另存为None. |
 
-### 评论
+## 评论
 
-对应于 **ST_DocPart类型**输入 OOXML。
+对应于**ST_DocPart类型**输入 OOXML。
 
-### 例子
+## 例子
 
 演示如何将自定义构建块添加到文档中。
 
@@ -130,5 +132,3 @@ public class BuildingBlockVisitor : DocumentVisitor
 
 * 命名空间 [Aspose.Words.BuildingBlocks](../../aspose.words.buildingblocks/)
 * 部件 [Aspose.Words](../../)
-
-

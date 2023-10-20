@@ -1,7 +1,9 @@
 ---
 title: TableStyle.RightPadding
-second_title: Aspose.Words لمراجع .NET API
-description: TableStyle ملكية. الحصول على أو تعيين مقدار المسافة بالنقاط المراد إضافتها إلى يمين محتويات خلايا الجدول.
+linktitle: RightPadding
+articleTitle: RightPadding
+second_title: Aspose.Words لـ .NET
+description: TableStyle RightPadding ملكية. الحصول على أو تعيين مقدار المسافة بالنقاط المراد إضافتها إلى يمين محتويات خلايا الجدول في C#.
 type: docs
 weight: 110
 url: /ar/net/aspose.words/tablestyle/rightpadding/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/tablestyle/rightpadding/
 public double RightPadding { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء إعدادات نمط مخصصة للجدول.
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "Table.TableStyleCreation.docx");
 ### أنظر أيضا
 
 * class [TableStyle](../)
-* مساحة الاسم [Aspose.Words](../../tablestyle/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

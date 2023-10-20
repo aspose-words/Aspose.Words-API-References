@@ -1,7 +1,9 @@
 ---
 title: ListLabel.LabelValue
-second_title: Aspose.Words för .NET API Referens
-description: ListLabel fast egendom. Får ett numeriskt värde för denna etikett.
+linktitle: LabelValue
+articleTitle: LabelValue
+second_title: Aspose.Words för .NET
+description: ListLabel LabelValue fast egendom. Får ett numeriskt värde för denna etikett i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.lists/listlabel/labelvalue/
@@ -14,11 +16,11 @@ Får ett numeriskt värde för denna etikett.
 public int LabelValue { get; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Använd[`UpdateListLabels`](../../../aspose.words/document/updatelistlabels/) metod för att uppdatera värdet på den här egenskapen.
 
-### Exempel
+## Exempel
 
 Visar hur man extraherar listetiketterna för alla stycken som är listobjekt.
 
@@ -53,7 +55,5 @@ foreach (Paragraph paragraph in paras.OfType<Paragraph>().Where(p => p.ListForma
 ### Se även
 
 * class [ListLabel](../)
-* namnutrymme [Aspose.Words.Lists](../../listlabel/)
+* namnutrymme [Aspose.Words.Lists](../../../aspose.words.lists/)
 * hopsättning [Aspose.Words](../../../)
-
-

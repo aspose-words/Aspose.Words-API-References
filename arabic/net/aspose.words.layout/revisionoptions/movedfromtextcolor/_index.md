@@ -1,7 +1,9 @@
 ---
 title: RevisionOptions.MovedFromTextColor
-second_title: Aspose.Words لمراجع .NET API
-description: RevisionOptions ملكية. يسمح بتحديد اللون الذي سيتم استخدامه للمناطق التي تم نقل المحتوى منهاMoving . القيمة الافتراضية هيByAuthor .
+linktitle: MovedFromTextColor
+articleTitle: MovedFromTextColor
+second_title: Aspose.Words لـ .NET
+description: RevisionOptions MovedFromTextColor ملكية. يسمح بتحديد اللون الذي سيتم استخدامه للمناطق التي تم نقل المحتوى منهاMoving . القيمة الافتراضية هيByAuthor  في C#.
 type: docs
 weight: 70
 url: /ar/net/aspose.words.layout/revisionoptions/movedfromtextcolor/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.layout/revisionoptions/movedfromtextcolor/
 public RevisionColor MovedFromTextColor { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعديل مظهر المراجعات.
 
@@ -66,7 +68,5 @@ doc.Save(ArtifactsDir + "Revision.RevisionOptions.pdf");
 
 * enum [RevisionColor](../../revisioncolor/)
 * class [RevisionOptions](../)
-* مساحة الاسم [Aspose.Words.Layout](../../revisionoptions/)
+* مساحة الاسم [Aspose.Words.Layout](../../../aspose.words.layout/)
 * المجسم [Aspose.Words](../../../)
-
-

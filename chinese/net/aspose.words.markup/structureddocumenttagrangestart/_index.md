@@ -1,14 +1,16 @@
 ---
-title: Class StructuredDocumentTagRangeStart
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Markup.StructuredDocumentTagRangeStart 班级. 代表开始 远程接受多部分内容的结构化文档标签 另请参阅StructuredDocumentTagRangeEnd.
+title: StructuredDocumentTagRangeStart Class
+linktitle: StructuredDocumentTagRangeStart
+articleTitle: StructuredDocumentTagRangeStart
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Markup.StructuredDocumentTagRangeStart 班级. 代表开始远程接受多部分内容的结构化文档标签 另请参阅StructuredDocumentTagRangeEnd 在 C#.
 type: docs
 weight: 4090
 url: /zh/net/aspose.words.markup/structureddocumenttagrangestart/
 ---
 ## StructuredDocumentTagRangeStart class
 
-代表开始 **远程**接受多部分内容的结构化文档标签。 另请参阅[`StructuredDocumentTagRangeEnd`](../structureddocumenttagrangeend/).
+代表开始**远程**接受多部分内容的结构化文档标签。 另请参阅[`StructuredDocumentTagRangeEnd`](../structureddocumenttagrangeend/).
 
 要了解更多信息，请访问[结构化文档标签或内容控制](https://docs.aspose.com/words/net/working-with-content-control-sdt/)文档文章。
 
@@ -20,7 +22,7 @@ public class StructuredDocumentTagRangeStart : Node, IEnumerable<Node>, IStructu
 
 | 姓名 | 描述 |
 | --- | --- |
-| [StructuredDocumentTagRangeStart](structureddocumenttagrangestart/)(DocumentBase, SdtType) | 初始化一个新实例 **结构化文档标记范围开始**类. |
+| [StructuredDocumentTagRangeStart](structureddocumenttagrangestart/)(*[DocumentBase](../../aspose.words/documentbase/), [SdtType](../sdttype/)*) | 初始化一个新实例**结构化文档标记范围开始**类. |
 
 ## 特性
 
@@ -55,27 +57,27 @@ public class StructuredDocumentTagRangeStart : Node, IEnumerable<Node>, IStructu
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [Accept](../../aspose.words.markup/structureddocumenttagrangestart/accept/)(DocumentVisitor) | 接受访客。 |
-| [AppendChild](../../aspose.words.markup/structureddocumenttagrangestart/appendchild/)(Node) | 将指定节点添加到 stdContent 范围的末尾。 |
-| [Clone](../../aspose.words/node/clone/)(bool) | 创建节点的副本。 |
-| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | 获取指定的第一个祖先[`NodeType`](../../aspose.words/nodetype/). |
-| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | 获取指定对象类型的第一个祖先。 |
-| [GetChildNodes](../../aspose.words.markup/structureddocumenttagrangestart/getchildnodes/)(NodeType, bool) | 返回与指定类型匹配的子节点的实时集合。 |
+| override [Accept](../../aspose.words.markup/structureddocumenttagrangestart/accept/)(*[DocumentVisitor](../../aspose.words/documentvisitor/)*) | 接受访客。 |
+| [AppendChild](../../aspose.words.markup/structureddocumenttagrangestart/appendchild/)(*[Node](../../aspose.words/node/)*) | 将指定节点添加到 stdContent 范围的末尾。 |
+| [Clone](../../aspose.words/node/clone/)(*bool*) | 创建节点的副本。 |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*[NodeType](../../aspose.words/nodetype/)*) | 获取指定的第一个祖先[`NodeType`](../../aspose.words/nodetype/). |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | 获取指定对象类型的第一个祖先。 |
+| [GetChildNodes](../../aspose.words.markup/structureddocumenttagrangestart/getchildnodes/)(*[NodeType](../../aspose.words/nodetype/), bool*) | 返回与指定类型匹配的子节点的实时集合。 |
 | [GetEnumerator](../../aspose.words.markup/structureddocumenttagrangestart/getenumerator/)() | 为该节点的子节点上的每个样式迭代提供支持。 |
 | virtual [GetText](../../aspose.words/node/gettext/)() | 获取此节点及其所有子节点的文本。 |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | 根据先序树遍历算法获取下一个节点。 |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | 根据先序树遍历算法获取前一个节点。 |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../../aspose.words/node/)*) | 根据先序树遍历算法获取下一个节点。 |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../../aspose.words/node/)*) | 根据先序树遍历算法获取前一个节点。 |
 | [Remove](../../aspose.words/node/remove/)() | 将自身从父级中删除。 |
 | [RemoveAllChildren](../../aspose.words.markup/structureddocumenttagrangestart/removeallchildren/)() | 删除该范围起始节点和范围结束节点之间的所有节点。 |
 | [RemoveSelfOnly](../../aspose.words.markup/structureddocumenttagrangestart/removeselfonly/)() | 删除结构化文档标记的此范围起始节点和适当的范围结束节点， 但将其内容保留在文档树内。 |
-| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | 将节点的内容导出为指定格式的字符串。 |
-| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | 使用指定的保存选项将节点的内容导出到字符串中。 |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../../aspose.words/saveformat/)*) | 将节点的内容导出为指定格式的字符串。 |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | 使用指定的保存选项将节点的内容导出到字符串中。 |
 
-### 评论
+## 评论
 
-可以是以下的直接子代[`Body`](../../aspose.words/body/)节点 **仅有的**.
+可以是以下的直接子代[`Body`](../../aspose.words/body/)节点**仅有的**.
 
-### 例子
+## 例子
 
 演示如何获取多节结构化文档标签的属性。
 
@@ -113,5 +115,3 @@ Console.WriteLine($"\t|NodeType: {rangeEndTag.NodeType}");
 * interface [IStructuredDocumentTag](../istructureddocumenttag/)
 * 命名空间 [Aspose.Words.Markup](../../aspose.words.markup/)
 * 部件 [Aspose.Words](../../)
-
-

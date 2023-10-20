@@ -1,7 +1,9 @@
 ---
 title: FieldChar.IsDirty
-second_title: Aspose.Words för .NET API Referens
-description: FieldChar fast egendom. Hämtar eller ställer in om det aktuella resultatet av fältet inte längre är korrekt inaktuellt på grund av andra modifieringar som gjorts i dokumentet.
+linktitle: IsDirty
+articleTitle: IsDirty
+second_title: Aspose.Words för .NET
+description: FieldChar IsDirty fast egendom. Hämtar eller ställer in om det aktuella resultatet av fältet inte längre är korrekt inaktuellt på grund av andra modifieringar som gjorts i dokumentet i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.fields/fieldchar/isdirty/
@@ -14,7 +16,7 @@ Hämtar eller ställer in om det aktuella resultatet av fältet inte längre är
 public bool IsDirty { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med en FieldStart-nod.
 
@@ -45,7 +47,5 @@ field.Update();
 ### Se även
 
 * class [FieldChar](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldchar/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

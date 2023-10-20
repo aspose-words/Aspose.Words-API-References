@@ -1,7 +1,9 @@
 ---
 title: FormFieldCollection.RemoveAt
-second_title: Aspose.Words لمراجع .NET API
-description: FormFieldCollection طريقة. إزالة حقل نموذج في الفهرس المحدد.
+linktitle: RemoveAt
+articleTitle: RemoveAt
+second_title: Aspose.Words لـ .NET
+description: FormFieldCollection RemoveAt طريقة. إزالة حقل نموذج في الفهرس المحدد في C#.
 type: docs
 weight: 60
 url: /ar/net/aspose.words.fields/formfieldcollection/removeat/
@@ -18,11 +20,11 @@ public void RemoveAt(int index)
 | --- | --- | --- |
 | index | Int32 | الفهرس الصفري لحقل النموذج المطلوب إزالته. |
 
-### ملاحظات
+## ملاحظات
 
 إذا كانت هناك إشارة مرجعية مرتبطة بحقل النموذج، فلن تتم إزالة الإشارة المرجعية.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج أنواع مختلفة من حقول النموذج في المستند ومعالجتها باستخدام تطبيق زائر المستند.
 
@@ -156,7 +158,5 @@ public class FormFieldVisitor : DocumentVisitor
 ### أنظر أيضا
 
 * class [FormFieldCollection](../)
-* مساحة الاسم [Aspose.Words.Fields](../../formfieldcollection/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

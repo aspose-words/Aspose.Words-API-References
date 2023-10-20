@@ -1,7 +1,9 @@
 ---
 title: IBarcodeGenerator.GetBarcodeImage
-second_title: Aspose.Words för .NET API Referens
-description: IBarcodeGenerator metod. Generera streckkodsbild med hjälp av uppsättningen parametrar för fältet DisplayBarcode.
+linktitle: GetBarcodeImage
+articleTitle: GetBarcodeImage
+second_title: Aspose.Words för .NET
+description: IBarcodeGenerator GetBarcodeImage metod. Generera streckkodsbild med hjälp av uppsättningen parametrar för fältet DisplayBarcode i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.fields/ibarcodegenerator/getbarcodeimage/
@@ -22,7 +24,7 @@ public Image GetBarcodeImage(BarcodeParameters parameters)
 
 Bild som representerar genererad streckkod.
 
-### Exempel
+## Exempel
 
 Visar hur man använder en streckkodsgenerator.
 
@@ -99,7 +101,5 @@ doc.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.docx");
 
 * class [BarcodeParameters](../../barcodeparameters/)
 * interface [IBarcodeGenerator](../)
-* namnutrymme [Aspose.Words.Fields](../../ibarcodegenerator/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

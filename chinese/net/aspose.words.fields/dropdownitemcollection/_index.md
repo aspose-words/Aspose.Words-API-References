@@ -1,7 +1,9 @@
 ---
-title: Class DropDownItemCollection
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Fields.DropDownItemCollection 班级. 表示下拉表单字段中所有项目的字符串集合
+title: DropDownItemCollection Class
+linktitle: DropDownItemCollection
+articleTitle: DropDownItemCollection
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Fields.DropDownItemCollection 班级. 表示下拉表单字段中所有项目的字符串集合 在 C#.
 type: docs
 weight: 1500
 url: /zh/net/aspose.words.fields/dropdownitemcollection/
@@ -27,16 +29,16 @@ public class DropDownItemCollection : IEnumerable<string>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Add](../../aspose.words.fields/dropdownitemcollection/add/)(string) | 将字符串添加到集合的末尾。 |
+| [Add](../../aspose.words.fields/dropdownitemcollection/add/)(*string*) | 将字符串添加到集合的末尾。 |
 | [Clear](../../aspose.words.fields/dropdownitemcollection/clear/)() | 从集合中删除所有元素。 |
-| [Contains](../../aspose.words.fields/dropdownitemcollection/contains/)(string) | 确定集合中是否包含指定值。 |
+| [Contains](../../aspose.words.fields/dropdownitemcollection/contains/)(*string*) | 确定集合中是否包含指定值。 |
 | [GetEnumerator](../../aspose.words.fields/dropdownitemcollection/getenumerator/)() | 返回一个枚举器对象，可用于迭代集合中的所有项目。 |
-| [IndexOf](../../aspose.words.fields/dropdownitemcollection/indexof/)(string) | 返回集合中指定值的从零开始的索引。 |
-| [Insert](../../aspose.words.fields/dropdownitemcollection/insert/)(int, string) | 将字符串插入集合中指定索引处。 |
-| [Remove](../../aspose.words.fields/dropdownitemcollection/remove/)(string) | 从集合中删除指定值。 |
-| [RemoveAt](../../aspose.words.fields/dropdownitemcollection/removeat/)(int) | 删除指定索引处的值。 |
+| [IndexOf](../../aspose.words.fields/dropdownitemcollection/indexof/)(*string*) | 返回集合中指定值的从零开始的索引。 |
+| [Insert](../../aspose.words.fields/dropdownitemcollection/insert/)(*int, string*) | 将字符串插入集合中指定索引处。 |
+| [Remove](../../aspose.words.fields/dropdownitemcollection/remove/)(*string*) | 从集合中删除指定值。 |
+| [RemoveAt](../../aspose.words.fields/dropdownitemcollection/removeat/)(*int*) | 删除指定索引处的值。 |
 
-### 例子
+## 例子
 
 演示如何插入组合框字段以及编辑其项目集合中的元素。
 
@@ -93,5 +95,3 @@ dropDownItems.Clear();
 * property [DropDownItems](../formfield/dropdownitems/)
 * 命名空间 [Aspose.Words.Fields](../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../)
-
-

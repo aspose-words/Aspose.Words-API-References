@@ -1,7 +1,9 @@
 ---
 title: PclSaveOptions.SaveFormat
-second_title: Aspose.Words für .NET-API-Referenz
-description: PclSaveOptions eigendom. Gibt das Format an in dem das Dokument gespeichert wird wenn dieses Speicheroptionsobjekt verwendet wird. Kann nur seinPcl .
+linktitle: SaveFormat
+articleTitle: SaveFormat
+second_title: Aspose.Words für .NET
+description: PclSaveOptions SaveFormat eigendom. Gibt das Format an in dem das Dokument gespeichert wird wenn dieses Speicheroptionsobjekt verwendet wird. Kann nur seinPcl  in C#.
 type: docs
 weight: 40
 url: /de/net/aspose.words.saving/pclsaveoptions/saveformat/
@@ -14,7 +16,7 @@ Gibt das Format an, in dem das Dokument gespeichert wird, wenn dieses Speicherop
 public override SaveFormat SaveFormat { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man komplexe Elemente rastern kann, während man ein Dokument in PCL speichert.
 
@@ -34,7 +36,5 @@ doc.Save(ArtifactsDir + "PclSaveOptions.RasterizeElements.pcl", saveOptions);
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
 * class [PclSaveOptions](../)
-* namensraum [Aspose.Words.Saving](../../pclsaveoptions/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

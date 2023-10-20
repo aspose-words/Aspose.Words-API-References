@@ -1,9 +1,11 @@
 ---
 title: Document.StopTrackRevisions
-second_title: Aspose.Words för .NET API Referens
-description: Document metod. Stoppar automatisk markering av dokumentändringar som revisioner.
+linktitle: StopTrackRevisions
+articleTitle: StopTrackRevisions
+second_title: Aspose.Words för .NET
+description: Document StopTrackRevisions metod. Stoppar automatisk markering av dokumentändringar som revisioner i C#.
 type: docs
-weight: 740
+weight: 720
 url: /sv/net/aspose.words/document/stoptrackrevisions/
 ---
 ## Document.StopTrackRevisions method
@@ -14,7 +16,7 @@ Stoppar automatisk markering av dokumentändringar som revisioner.
 public void StopTrackRevisions()
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man spårar revisioner medan man redigerar ett dokument.
 
@@ -63,7 +65,5 @@ doc.Save(ArtifactsDir + "Document.StartTrackRevisions.docx");
 
 * method [StartTrackRevisions](../starttrackrevisions/)
 * class [Document](../)
-* namnutrymme [Aspose.Words](../../document/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

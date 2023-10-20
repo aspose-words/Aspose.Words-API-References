@@ -1,7 +1,9 @@
 ---
-title: Enum Compatibility
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Settings.Compatibility 枚举. 指定兼容性选项的名称
+title: Compatibility Enum
+linktitle: Compatibility
+articleTitle: Compatibility
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Settings.Compatibility 枚举. 指定兼容性选项的名称 在 C#.
 type: docs
 weight: 5770
 url: /zh/net/aspose.words.settings/compatibility/
@@ -90,7 +92,7 @@ public enum Compatibility
 | SwapInsideAndOutsideForMirrorIndentsAndRelativePositioning | `69` |  |
 | UseWord2010TableStyleRules | `70` |  |
 
-### 例子
+## 例子
 
 演示如何针对不同版本的 Microsoft Word 优化文档。
 
@@ -150,5 +152,3 @@ private static void PrintCompatibilityOptions(CompatibilityOptions options)
 
 * 命名空间 [Aspose.Words.Settings](../../aspose.words.settings/)
 * 部件 [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum Underline
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Underline enum. Indica il tipo di sottolineatura applicata a un font.
+title: Underline Enum
+linktitle: Underline
+articleTitle: Underline
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Underline enum. Indica il tipo di sottolineatura applicata a un font in C#.
 type: docs
 weight: 6510
 url: /it/net/aspose.words/underline/
@@ -37,7 +39,7 @@ public enum Underline
 | WavyHeavy | `27` |  |
 | WavyDouble | `43` |  |
 
-### Esempi
+## Esempi
 
 Mostra come inserire un campo di collegamento ipertestuale.
 
@@ -63,5 +65,3 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertHyperlink.docx");
 
 * spazio dei nomi [Aspose.Words](../../aspose.words/)
 * assemblea [Aspose.Words](../../)
-
-

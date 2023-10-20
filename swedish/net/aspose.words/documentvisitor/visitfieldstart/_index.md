@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitFieldStart
-second_title: Aspose.Words för .NET API Referens
-description: DocumentVisitor metod. Anropas när ett fält startar i dokumentet.
+linktitle: VisitFieldStart
+articleTitle: VisitFieldStart
+second_title: Aspose.Words för .NET
+description: DocumentVisitor VisitFieldStart metod. Anropas när ett fält startar i dokumentet i C#.
 type: docs
 weight: 200
 url: /sv/net/aspose.words/documentvisitor/visitfieldstart/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitFieldStart(FieldStart fieldStart)
 
 A[`VisitorAction`](../../visitoraction/) värde som anger hur uppräkningen ska fortsätta.
 
-### Anmärkningar
+## Anmärkningar
 
 Ett fält i ett Word-dokument består av en fältkod och ett fältvärde.
 
@@ -34,7 +36,7 @@ Fältavgränsaren separerar fältkoden från fältvärdet i dokumentet. Observer
 
 Fält kan kapslas.
 
-### Exempel
+## Exempel
 
 Visar hur man skriver ut nodstrukturen för varje fält i ett dokument.
 
@@ -139,7 +141,5 @@ public class FieldStructurePrinter : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [FieldStart](../../../aspose.words.fields/fieldstart/)
 * class [DocumentVisitor](../)
-* namnutrymme [Aspose.Words](../../documentvisitor/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

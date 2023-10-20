@@ -1,7 +1,9 @@
 ---
 title: ICssSavingCallback.CssSaving
-second_title: Aspose.Words لمراجع .NET API
-description: ICssSavingCallback طريقة. يتم استدعاؤه عندما يقوم Aspose.Words بحفظ ملف CSS ورقة الأنماط المتتالية.
+linktitle: CssSaving
+articleTitle: CssSaving
+second_title: Aspose.Words لـ .NET
+description: ICssSavingCallback CssSaving طريقة. يتم استدعاؤه عندما يقوم Aspose.Words بحفظ ملف CSS ورقة الأنماط المتتالية في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.saving/icsssavingcallback/csssaving/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.saving/icsssavingcallback/csssaving/
 public void CssSaving(CssSavingArgs args)
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع أوراق أنماط CSS التي ينشئها تحويل HTML.
 
@@ -76,7 +78,5 @@ private class CustomCssSavingCallback : ICssSavingCallback
 
 * class [CssSavingArgs](../../csssavingargs/)
 * interface [ICssSavingCallback](../)
-* مساحة الاسم [Aspose.Words.Saving](../../icsssavingcallback/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

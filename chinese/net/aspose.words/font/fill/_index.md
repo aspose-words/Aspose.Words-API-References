@@ -1,7 +1,9 @@
 ---
 title: Font.Fill
-second_title: Aspose.Words for .NET API 参考
-description: Font 财产. 获取填充格式Font.
+linktitle: Fill
+articleTitle: Fill
+second_title: 用于 .NET 的 Aspose.Words
+description: Font Fill 财产. 获取填充格式Font 在 C#.
 type: docs
 weight: 130
 url: /zh/net/aspose.words/font/fill/
@@ -18,7 +20,5 @@ public Fill Fill { get; }
 
 * class [Fill](../../../aspose.words.drawing/fill/)
 * class [Font](../)
-* 命名空间 [Aspose.Words](../../font/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

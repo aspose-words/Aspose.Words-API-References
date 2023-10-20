@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitRowStart
-second_title: Справочник по API Aspose.Words для .NET
-description: DocumentVisitor метод. Вызывается когда начинается перечисление строки таблицы.
+linktitle: VisitRowStart
+articleTitle: VisitRowStart
+second_title: Aspose.Words для .NET
+description: DocumentVisitor VisitRowStart метод. Вызывается когда начинается перечисление строки таблицы на С#.
 type: docs
 weight: 350
 url: /ru/net/aspose.words/documentvisitor/visitrowstart/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitRowStart(Row row)
 
 А[`VisitorAction`](../../visitoraction/) значение, указывающее, как продолжить перечисление.
 
-### Примеры
+## Примеры
 
 Показывает, как распечатать структуру узлов каждой таблицы в документе.
 
@@ -187,7 +189,5 @@ public class TableStructurePrinter : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [Row](../../../aspose.words.tables/row/)
 * class [DocumentVisitor](../)
-* пространство имен [Aspose.Words](../../documentvisitor/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

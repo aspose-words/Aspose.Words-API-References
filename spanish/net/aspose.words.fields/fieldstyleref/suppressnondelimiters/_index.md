@@ -1,7 +1,9 @@
 ---
 title: FieldStyleRef.SuppressNonDelimiters
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldStyleRef propiedad. Obtiene o establece si se deben suprimir los caracteres no delimitadores.
+linktitle: SuppressNonDelimiters
+articleTitle: SuppressNonDelimiters
+second_title: Aspose.Words para .NET
+description: FieldStyleRef SuppressNonDelimiters propiedad. Obtiene o establece si se deben suprimir los caracteres no delimitadores en C#.
 type: docs
 weight: 80
 url: /es/net/aspose.words.fields/fieldstyleref/suppressnondelimiters/
@@ -14,7 +16,7 @@ Obtiene o establece si se deben suprimir los caracteres no delimitadores.
 public bool SuppressNonDelimiters { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo utilizar los campos STYLEREF.
 
@@ -85,7 +87,5 @@ doc.Save(ArtifactsDir + "Field.STYLEREF.docx");
 ### Ver también
 
 * class [FieldStyleRef](../)
-* espacio de nombres [Aspose.Words.Fields](../../fieldstyleref/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

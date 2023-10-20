@@ -1,7 +1,9 @@
 ---
-title: Enum RelativeVerticalSize
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Drawing.RelativeVerticalSize 枚举. 指定相对于垂直计算的形状或文本框架的高度
+title: RelativeVerticalSize Enum
+linktitle: RelativeVerticalSize
+articleTitle: RelativeVerticalSize
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Drawing.RelativeVerticalSize 枚举. 指定相对于垂直计算的形状或文本框架的高度 在 C#.
 type: docs
 weight: 1220
 url: /zh/net/aspose.words.drawing/relativeverticalsize/
@@ -26,7 +28,7 @@ public enum RelativeVerticalSize
 | OuterMargin | `5` | 指定高度是相对于外部页边距区域大小计算的， 是奇数页的底部页边距区域大小和偶数页的顶部页边距区域大小。 |
 | Default | `1` | 默认值为Margin. |
 
-### 例子
+## 例子
 
 展示如何设置相对大小和位置。
 
@@ -83,5 +85,3 @@ doc.Save(ArtifactsDir + "Shape.RelativeSizeAndPosition.docx");
 * property [RelativeVerticalSize](../shapebase/relativeverticalsize/)
 * 命名空间 [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: TableStyle.LeftIndent
-second_title: Aspose.Words for .NET API 参考
-description: TableStyle 财产. 获取或设置表示表格左缩进的值
+linktitle: LeftIndent
+articleTitle: LeftIndent
+second_title: 用于 .NET 的 Aspose.Words
+description: TableStyle LeftIndent 财产. 获取或设置表示表格左缩进的值 在 C#.
 type: docs
 weight: 90
 url: /zh/net/aspose.words/tablestyle/leftindent/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/tablestyle/leftindent/
 public double LeftIndent { get; set; }
 ```
 
-### 例子
+## 例子
 
 展示如何设置表格的位置。
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "Table.SetTableAlignment.docx");
 ### 也可以看看
 
 * class [TableStyle](../)
-* 命名空间 [Aspose.Words](../../tablestyle/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

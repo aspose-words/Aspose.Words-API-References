@@ -1,7 +1,9 @@
 ---
-title: Enum ParagraphAlignment
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.ParagraphAlignment перечисление. Задает выравнивание текста в абзаце.
+title: ParagraphAlignment Enum
+linktitle: ParagraphAlignment
+articleTitle: ParagraphAlignment
+second_title: Aspose.Words для .NET
+description: Aspose.Words.ParagraphAlignment перечисление. Задает выравнивание текста в абзаце на С#.
 type: docs
 weight: 4400
 url: /ru/net/aspose.words/paragraphalignment/
@@ -29,7 +31,7 @@ public enum ParagraphAlignment
 | ThaiDistributed | `9` | Только тайский. Текст выровнен по ширине с оптимизацией для тайского языка. |
 | MathElementCenterAsGroup | `10` | Единственный математический элемент в строке, выровненный по принципу «Центрировано как группа». |
 
-### Примеры
+## Примеры
 
 Показывает, как вручную создать документ Aspose.Words.
 
@@ -80,5 +82,3 @@ doc.Save(ArtifactsDir + "Section.CreateManually.docx");
 
 * пространство имен [Aspose.Words](../../aspose.words/)
 * сборка [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldToc.UseParagraphOutlineLevel
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldToc eigendom. Ruft ab oder legt fest ob die angewendete Absatzgliederungsebene verwendet werden soll.
+linktitle: UseParagraphOutlineLevel
+articleTitle: UseParagraphOutlineLevel
+second_title: Aspose.Words für .NET
+description: FieldToc UseParagraphOutlineLevel eigendom. Ruft ab oder legt fest ob die angewendete Absatzgliederungsebene verwendet werden soll in C#.
 type: docs
 weight: 170
 url: /de/net/aspose.words.fields/fieldtoc/useparagraphoutlinelevel/
@@ -14,7 +16,7 @@ Ruft ab oder legt fest, ob die angewendete Absatzgliederungsebene verwendet werd
 public bool UseParagraphOutlineLevel { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man ein Inhaltsverzeichnis einfügt und es mit Einträgen füllt, die auf Überschriftenstilen basieren.
 
@@ -99,7 +101,5 @@ public void InsertNewPageWithHeading(DocumentBuilder builder, string captionText
 ### Siehe auch
 
 * class [FieldToc](../)
-* namensraum [Aspose.Words.Fields](../../fieldtoc/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

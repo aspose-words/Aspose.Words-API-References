@@ -1,7 +1,9 @@
 ---
 title: PdfDigitalSignatureTimestampSettings.Timeout
-second_title: Справочник по API Aspose.Words для .NET
-description: PdfDigitalSignatureTimestampSettings свойство. Значение таймаута для доступа к серверу меток времени.
+linktitle: Timeout
+articleTitle: Timeout
+second_title: Aspose.Words для .NET
+description: PdfDigitalSignatureTimestampSettings Timeout свойство. Значение таймаута для доступа к серверу меток времени на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.saving/pdfdigitalsignaturetimestampsettings/timeout/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.saving/pdfdigitalsignaturetimestampsettings/timeout/
 public TimeSpan Timeout { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Значение по умолчанию — 100 секунд.
 
-### Примеры
+## Примеры
 
 Показывает, как подписать сохраненный PDF-документ цифровой подписью и поставить на нем метку времени.
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignatureTimestamp.pdf", optio
 ### Смотрите также
 
 * class [PdfDigitalSignatureTimestampSettings](../)
-* пространство имен [Aspose.Words.Saving](../../pdfdigitalsignaturetimestampsettings/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

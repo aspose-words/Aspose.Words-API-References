@@ -1,7 +1,9 @@
 ---
-title: Enum ImageColorMode
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Saving.ImageColorMode تعداد. يحدد وضع الألوان للصور التي تم إنشاؤها لصفحات المستند.
+title: ImageColorMode Enum
+linktitle: ImageColorMode
+articleTitle: ImageColorMode
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Saving.ImageColorMode تعداد. يحدد وضع الألوان للصور التي تم إنشاؤها لصفحات المستند في C#.
 type: docs
 weight: 5210
 url: /ar/net/aspose.words.saving/imagecolormode/
@@ -22,7 +24,7 @@ public enum ImageColorMode
 | Grayscale | `1` | سيتم عرض صفحات المستند كصور ذات تدرج رمادي. |
 | BlackAndWhite | `2` | سيتم عرض صفحات المستند كصور بالأبيض والأسود. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية ضبط وضع الألوان عند عرض المستندات.
 
@@ -82,5 +84,3 @@ Document doc = new Document();
 
 * مساحة الاسم [Aspose.Words.Saving](../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../)
-
-

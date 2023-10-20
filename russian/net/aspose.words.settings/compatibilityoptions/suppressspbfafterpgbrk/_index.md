@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.SuppressSpBfAfterPgBrk
-second_title: Справочник по API Aspose.Words для .NET
-description: CompatibilityOptions свойство. Не использовать пробел перед первой строкой после разрыва страницы.
+linktitle: SuppressSpBfAfterPgBrk
+articleTitle: SuppressSpBfAfterPgBrk
+second_title: Aspose.Words для .NET
+description: CompatibilityOptions SuppressSpBfAfterPgBrk свойство. Не использовать пробел перед первой строкой после разрыва страницы на С#.
 type: docs
 weight: 500
 url: /ru/net/aspose.words.settings/compatibilityoptions/suppressspbfafterpgbrk/
@@ -17,7 +19,5 @@ public bool SuppressSpBfAfterPgBrk { get; set; }
 ### Смотрите также
 
 * class [CompatibilityOptions](../)
-* пространство имен [Aspose.Words.Settings](../../compatibilityoptions/)
+* пространство имен [Aspose.Words.Settings](../../../aspose.words.settings/)
 * сборка [Aspose.Words](../../../)
-
-

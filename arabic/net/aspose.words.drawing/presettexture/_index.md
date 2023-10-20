@@ -1,7 +1,9 @@
 ---
-title: Enum PresetTexture
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Drawing.PresetTexture تعداد. يحدد المادة التي سيتم استخدامها لملء الشكل.
+title: PresetTexture Enum
+linktitle: PresetTexture
+articleTitle: PresetTexture
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Drawing.PresetTexture تعداد. يحدد المادة التي سيتم استخدامها لملء الشكل في C#.
 type: docs
 weight: 1180
 url: /ar/net/aspose.words.drawing/presettexture/
@@ -48,5 +50,3 @@ public enum PresetTexture
 
 * مساحة الاسم [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../)
-
-

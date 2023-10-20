@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.NoLeading
-second_title: Aspose.Words für .NET-API-Referenz
-description: CompatibilityOptions eigendom. Fügen Sie keinen Zeilenabstand zwischen Textzeilen ein.
+linktitle: NoLeading
+articleTitle: NoLeading
+second_title: Aspose.Words für .NET
+description: CompatibilityOptions NoLeading eigendom. Fügen Sie keinen Zeilenabstand zwischen Textzeilen ein in C#.
 type: docs
 weight: 350
 url: /de/net/aspose.words.settings/compatibilityoptions/noleading/
@@ -17,7 +19,5 @@ public bool NoLeading { get; set; }
 ### Siehe auch
 
 * class [CompatibilityOptions](../)
-* namensraum [Aspose.Words.Settings](../../compatibilityoptions/)
+* namensraum [Aspose.Words.Settings](../../../aspose.words.settings/)
 * Montage [Aspose.Words](../../../)
-
-

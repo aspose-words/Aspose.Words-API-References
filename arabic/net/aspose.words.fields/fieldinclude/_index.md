@@ -1,7 +1,9 @@
 ---
-title: Class FieldInclude
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Fields.FieldInclude فصل. ينفذ الحقل INCLUDE.
+title: FieldInclude Class
+linktitle: FieldInclude
+articleTitle: FieldInclude
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Fields.FieldInclude فصل. ينفذ الحقل INCLUDE في C#.
 type: docs
 weight: 2030
 url: /ar/net/aspose.words.fields/fieldinclude/
@@ -46,17 +48,17 @@ public class FieldInclude : Field
 | اسم | وصف |
 | --- | --- |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | إرجاع النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل). يتم تضمين كل من رمز الحقل ونتيجة الحقل للحقول الفرعية. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | إرجاع النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل). |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | إرجاع النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل). |
 | [Remove](../../aspose.words.fields/field/remove/)() | إزالة الحقل من المستند. إرجاع عقدة مباشرة بعد الحقل. إذا كانت نهاية الحقل هي الطفل الأخير للعقدة الأصلية، فسيتم إرجاع الفقرة الأصلية الخاصة به. إذا تمت إزالة الحقل بالفعل، فسيتم إرجاعه`باطل` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | يقوم بإلغاء ربط الحقل. |
 | [Update](../../aspose.words.fields/field/update/)() | يقوم بإجراء التحديث الميداني. يتم الرمي إذا تم تحديث الحقل بالفعل. |
-| [Update](../../aspose.words.fields/field/update/)(bool) | إجراء تحديث ميداني. يتم الرمي إذا تم تحديث الحقل بالفعل. |
+| [Update](../../aspose.words.fields/field/update/)(*bool*) | إجراء تحديث ميداني. يتم الرمي إذا تم تحديث الحقل بالفعل. |
 
-### ملاحظات
+## ملاحظات
 
 إدراج كل أو جزء من النص والرسومات الموجودة في مستند آخر.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء حقل INCLUDE وتعيين خصائصه.
 
@@ -83,5 +85,3 @@ doc.Save(ArtifactsDir + "Field.INCLUDE.docx");
 * class [Field](../field/)
 * مساحة الاسم [Aspose.Words.Fields](../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../)
-
-

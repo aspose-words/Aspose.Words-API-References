@@ -1,7 +1,9 @@
 ---
 title: FieldOptions.FieldUpdateCultureProvider
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldOptions propriété. Obtient ou définit un fournisseur qui renvoie un objet de culture spécifique à chaque champ particulier.
+linktitle: FieldUpdateCultureProvider
+articleTitle: FieldUpdateCultureProvider
+second_title: Aspose.Words pour .NET
+description: FieldOptions FieldUpdateCultureProvider propriété. Obtient ou définit un fournisseur qui renvoie un objet de culture spécifique à chaque champ particulier en C#.
 type: docs
 weight: 100
 url: /fr/net/aspose.words.fields/fieldoptions/fieldupdatecultureprovider/
@@ -14,13 +16,13 @@ Obtient ou définit un fournisseur qui renvoie un objet de culture spécifique �
 public IFieldUpdateCultureProvider FieldUpdateCultureProvider { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 Le fournisseur est sollicité lorsque la valeur de[`FieldUpdateCultureSource`](../fieldupdateculturesource/) estFieldCode.
 
 Si le fournisseur est présent, alors l'objet culture qu'il renvoie est utilisé pour la mise à jour du champ. Sinon, une culture système est utilisée.
 
-### Exemples
+## Exemples
 
 Montre comment spécifier une culture qui analyse le formatage date/heure pour chaque champ.
 
@@ -92,7 +94,5 @@ private class FieldUpdateCultureProvider : IFieldUpdateCultureProvider
 
 * interface [IFieldUpdateCultureProvider](../../ifieldupdatecultureprovider/)
 * class [FieldOptions](../)
-* espace de noms [Aspose.Words.Fields](../../fieldoptions/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

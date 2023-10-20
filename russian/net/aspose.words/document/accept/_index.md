@@ -1,7 +1,9 @@
 ---
 title: Document.Accept
-second_title: Справочник по API Aspose.Words для .NET
-description: Document метод. Принимает посетителя.
+linktitle: Accept
+articleTitle: Accept
+second_title: Aspose.Words для .NET
+description: Document Accept метод. Принимает посетителя на С#.
 type: docs
 weight: 510
 url: /ru/net/aspose.words/document/accept/
@@ -22,7 +24,7 @@ public override bool Accept(DocumentVisitor visitor)
 
 Истинно, если были посещены все узлы; ложь, если[`DocumentVisitor`](../../documentvisitor/) остановил операцию перед посещением всех узлов.
 
-### Примечания
+## Примечания
 
 Перечисляет этот узел и все его дочерние элементы. Каждый узел вызывает соответствующий метод[`DocumentVisitor`](../../documentvisitor/).
 
@@ -30,7 +32,7 @@ public override bool Accept(DocumentVisitor visitor)
 
 Звонки[`VisitDocumentStart`](../../documentvisitor/visitdocumentstart/) , затем звонит[`Accept`](../../node/accept/) для всех дочерних узлов document и вызовов[`VisitDocumentEnd`](../../documentvisitor/visitdocumentend/) в конце.
 
-### Примеры
+## Примеры
 
 Показывает, как использовать посетитель документа для печати структуры узла документа.
 
@@ -200,7 +202,5 @@ public class DocStructurePrinter : DocumentVisitor
 
 * class [DocumentVisitor](../../documentvisitor/)
 * class [Document](../)
-* пространство имен [Aspose.Words](../../document/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

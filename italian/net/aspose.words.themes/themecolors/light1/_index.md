@@ -1,7 +1,9 @@
 ---
 title: ThemeColors.Light1
-second_title: Aspose.Words per .NET API Reference
-description: ThemeColors proprietà. Specifica il colore della luce 1.
+linktitle: Light1
+articleTitle: Light1
+second_title: Aspose.Words per .NET
+description: ThemeColors Light1 proprietà. Specifica il colore della luce 1 in C#.
 type: docs
 weight: 110
 url: /it/net/aspose.words.themes/themecolors/light1/
@@ -14,7 +16,7 @@ Specifica il colore della luce 1.
 public Color Light1 { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come impostare colori e caratteri personalizzati per i temi.
 
@@ -62,7 +64,5 @@ doc.Save(ArtifactsDir + "Themes.CustomColorsAndFonts.docx");
 ### Guarda anche
 
 * class [ThemeColors](../)
-* spazio dei nomi [Aspose.Words.Themes](../../themecolors/)
+* spazio dei nomi [Aspose.Words.Themes](../../../aspose.words.themes/)
 * assemblea [Aspose.Words](../../../)
-
-

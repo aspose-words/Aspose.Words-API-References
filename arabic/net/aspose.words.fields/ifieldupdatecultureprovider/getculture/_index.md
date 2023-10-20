@@ -1,7 +1,9 @@
 ---
 title: IFieldUpdateCultureProvider.GetCulture
-second_title: Aspose.Words لمراجع .NET API
-description: IFieldUpdateCultureProvider طريقة. إرجاع أCultureInfoالكائن الذي سيتم استخدامه أثناء تحديث الحقل.
+linktitle: GetCulture
+articleTitle: GetCulture
+second_title: Aspose.Words لـ .NET
+description: IFieldUpdateCultureProvider GetCulture طريقة. إرجاع أCultureInfoالكائن الذي سيتم استخدامه أثناء تحديث الحقل في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fields/ifieldupdatecultureprovider/getculture/
@@ -23,7 +25,7 @@ public CultureInfo GetCulture(string culture, Field field)
 
 كائن الثقافة الذي يجب استخدامه لتحديث الحقل.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحديد ثقافة تقوم بتوزيع تنسيق التاريخ/الوقت لكل حقل.
 
@@ -95,7 +97,5 @@ private class FieldUpdateCultureProvider : IFieldUpdateCultureProvider
 
 * class [Field](../../field/)
 * interface [IFieldUpdateCultureProvider](../)
-* مساحة الاسم [Aspose.Words.Fields](../../ifieldupdatecultureprovider/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

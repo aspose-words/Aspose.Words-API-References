@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.SuppressTopSpacing
-second_title: Aspose.Words för .NET API Referens
-description: CompatibilityOptions fast egendom. Ignorera minsta och exakta linjehöjd för första raden på sidan.
+linktitle: SuppressTopSpacing
+articleTitle: SuppressTopSpacing
+second_title: Aspose.Words för .NET
+description: CompatibilityOptions SuppressTopSpacing fast egendom. Ignorera minsta och exakta linjehöjd för första raden på sidan i C#.
 type: docs
 weight: 510
 url: /sv/net/aspose.words.settings/compatibilityoptions/suppresstopspacing/
@@ -17,7 +19,5 @@ public bool SuppressTopSpacing { get; set; }
 ### Se även
 
 * class [CompatibilityOptions](../)
-* namnutrymme [Aspose.Words.Settings](../../compatibilityoptions/)
+* namnutrymme [Aspose.Words.Settings](../../../aspose.words.settings/)
 * hopsättning [Aspose.Words](../../../)
-
-

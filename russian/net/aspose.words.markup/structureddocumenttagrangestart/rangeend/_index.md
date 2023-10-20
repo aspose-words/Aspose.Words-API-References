@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTagRangeStart.RangeEnd
-second_title: Справочник по API Aspose.Words для .NET
-description: StructuredDocumentTagRangeStart свойство. Указывает конец диапазона еслиStructuredDocumentTag  это структурированный тег документа с ранжированием. В противном случае возвращаетсянулевой .
+linktitle: RangeEnd
+articleTitle: RangeEnd
+second_title: Aspose.Words для .NET
+description: StructuredDocumentTagRangeStart RangeEnd свойство. Указывает конец диапазона еслиStructuredDocumentTag  это структурированный тег документа с ранжированием. В противном случае возвращаетсянулевой  на С#.
 type: docs
 weight: 130
 url: /ru/net/aspose.words.markup/structureddocumenttagrangestart/rangeend/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.markup/structureddocumenttagrangestart/rangeend/
 public StructuredDocumentTagRangeEnd RangeEnd { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как получить свойства тегов многосекционного структурированного документа.
 
@@ -50,7 +52,5 @@ Console.WriteLine($"\t|NodeType: {rangeEndTag.NodeType}");
 
 * class [StructuredDocumentTagRangeEnd](../../structureddocumenttagrangeend/)
 * class [StructuredDocumentTagRangeStart](../)
-* пространство имен [Aspose.Words.Markup](../../structureddocumenttagrangestart/)
+* пространство имен [Aspose.Words.Markup](../../../aspose.words.markup/)
 * сборка [Aspose.Words](../../../)
-
-

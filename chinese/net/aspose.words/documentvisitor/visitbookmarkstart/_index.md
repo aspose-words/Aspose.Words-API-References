@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitBookmarkStart
-second_title: Aspose.Words for .NET API 参考
-description: DocumentVisitor 方法. 在文档中遇到书签的开头时调用
+linktitle: VisitBookmarkStart
+articleTitle: VisitBookmarkStart
+second_title: 用于 .NET 的 Aspose.Words
+description: DocumentVisitor VisitBookmarkStart 方法. 在文档中遇到书签的开头时调用 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words/documentvisitor/visitbookmarkstart/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitBookmarkStart(BookmarkStart bookmarkStart)
 
 A[`VisitorAction`](../../visitoraction/)指定如何继续枚举的值。
 
-### 例子
+## 例子
 
 展示如何添加书签并更新其内容。
 
@@ -113,7 +115,5 @@ public class BookmarkInfoPrinter : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [BookmarkStart](../../bookmarkstart/)
 * class [DocumentVisitor](../)
-* 命名空间 [Aspose.Words](../../documentvisitor/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ControlChar.NonBreakingHyphenChar
-second_title: Aspose.Words per .NET API Reference
-description: ControlChar campo. Il trattino unificatore in Microsoft Word è char30.
+linktitle: NonBreakingHyphenChar
+articleTitle: NonBreakingHyphenChar
+second_title: Aspose.Words per .NET
+description: ControlChar NonBreakingHyphenChar campo. Il trattino unificatore in Microsoft Word è char30 in C#.
 type: docs
 weight: 160
 url: /it/net/aspose.words/controlchar/nonbreakinghyphenchar/
@@ -14,13 +16,13 @@ Il trattino unificatore in Microsoft Word è (char)30.
 public const char NonBreakingHyphenChar;
 ```
 
-### Osservazioni
+## Osservazioni
 
 Il trattino unificatore in Microsoft Word non corrisponde al trattino unificatore carattere Unicode U+2011 ma rappresenta invece un'informazione interna che indica a Microsoft Word di visualizzare un trattino e di non interrompere una riga.
 
 Informazioni utili: http://www.cs.tut.fi/~jkorpela/dashes.html#linebreaks.
 
-### Esempi
+## Esempi
 
 Mostra come aggiungere vari caratteri di controllo a un documento.
 
@@ -92,7 +94,5 @@ Assert.AreEqual(Convert.ToChar(ControlChar.ColumnBreak), ControlChar.ColumnBreak
 ### Guarda anche
 
 * class [ControlChar](../)
-* spazio dei nomi [Aspose.Words](../../controlchar/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

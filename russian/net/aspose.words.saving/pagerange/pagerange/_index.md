@@ -1,7 +1,9 @@
 ---
-title: PageRange.PageRange
-second_title: Справочник по API Aspose.Words для .NET
-description: PageRange строитель. Создает новый объект диапазона страниц.
+title: PageRange
+linktitle: PageRange
+articleTitle: PageRange
+second_title: Aspose.Words для .NET
+description: PageRange строитель. Создает новый объект диапазона страниц на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.saving/pagerange/pagerange/
@@ -19,11 +21,11 @@ public PageRange(int from, int to)
 | from | Int32 | Индекс начальной страницы, отсчитываемый от нуля. |
 | to | Int32 | Индекс конечной страницы, отсчитываемый от нуля. Если он превышает индекс последней страницы документа, он усекается, чтобы поместиться в документе при рендеринге. |
 
-### Примечания
+## Примечания
 
 MaxValue означает последнюю страницу документа.
 
-### Примеры
+## Примеры
 
 Показывает, как извлекать страницы на основе точных диапазонов страниц.
 
@@ -41,7 +43,5 @@ doc.Save(ArtifactsDir + "ImageSaveOptions.ExportVariousPageRanges.tiff", imageOp
 ### Смотрите также
 
 * class [PageRange](../)
-* пространство имен [Aspose.Words.Saving](../../pagerange/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

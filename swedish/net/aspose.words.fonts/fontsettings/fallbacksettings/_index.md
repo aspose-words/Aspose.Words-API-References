@@ -1,7 +1,9 @@
 ---
 title: FontSettings.FallbackSettings
-second_title: Aspose.Words för .NET API Referens
-description: FontSettings fast egendom. Inställningar relaterade till reservmekanism för teckensnitt.
+linktitle: FallbackSettings
+articleTitle: FallbackSettings
+second_title: Aspose.Words för .NET
+description: FontSettings FallbackSettings fast egendom. Inställningar relaterade till reservmekanism för teckensnitt i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.fonts/fontsettings/fallbacksettings/
@@ -14,7 +16,7 @@ Inställningar relaterade till reservmekanism för teckensnitt.
 public FontFallbackSettings FallbackSettings { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man distribuerar reservteckensnitt över Unicode-teckenkodintervall.
 
@@ -74,7 +76,5 @@ doc.Save(ArtifactsDir + "FontSettings.FallbackSettingsCustom.pdf");
 
 * class [FontFallbackSettings](../../fontfallbacksettings/)
 * class [FontSettings](../)
-* namnutrymme [Aspose.Words.Fonts](../../fontsettings/)
+* namnutrymme [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * hopsättning [Aspose.Words](../../../)
-
-

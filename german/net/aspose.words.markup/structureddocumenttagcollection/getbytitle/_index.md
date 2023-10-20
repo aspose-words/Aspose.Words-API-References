@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTagCollection.GetByTitle
-second_title: Aspose.Words für .NET-API-Referenz
-description: StructuredDocumentTagCollection methode. Gibt das erste strukturierte DokumentTag zurück das in der Sammlung mit dem angegebenen Titel gefunden wird.
+linktitle: GetByTitle
+articleTitle: GetByTitle
+second_title: Aspose.Words für .NET
+description: StructuredDocumentTagCollection GetByTitle methode. Gibt das erste strukturierte DokumentTag zurück das in der Sammlung mit dem angegebenen Titel gefunden wird in C#.
 type: docs
 weight: 50
 url: /de/net/aspose.words.markup/structureddocumenttagcollection/getbytitle/
@@ -18,11 +20,11 @@ public IStructuredDocumentTag GetByTitle(string title)
 | --- | --- | --- |
 | title | String | Der Titel des strukturierten Dokument-Tags. |
 
-### Bemerkungen
+## Bemerkungen
 
 Gibt null zurück, wenn das strukturierte Dokument-Tag mit dem angegebenen Titel nicht gefunden werden kann.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man ein strukturiertes Dokument-Tag erhält.
 
@@ -43,7 +45,5 @@ Console.WriteLine(sdt.Id);
 
 * interface [IStructuredDocumentTag](../../istructureddocumenttag/)
 * class [StructuredDocumentTagCollection](../)
-* namensraum [Aspose.Words.Markup](../../structureddocumenttagcollection/)
+* namensraum [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Montage [Aspose.Words](../../../)
-
-

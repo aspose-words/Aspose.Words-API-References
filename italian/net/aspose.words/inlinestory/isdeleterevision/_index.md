@@ -1,7 +1,9 @@
 ---
 title: InlineStory.IsDeleteRevision
-second_title: Aspose.Words per .NET API Reference
-description: InlineStory proprietà. Restituisce vero se questo oggetto è stato eliminato in Microsoft Word mentre era abilitato il rilevamento delle modifiche.
+linktitle: IsDeleteRevision
+articleTitle: IsDeleteRevision
+second_title: Aspose.Words per .NET
+description: InlineStory IsDeleteRevision proprietà. Restituisce vero se questo oggetto è stato eliminato in Microsoft Word mentre era abilitato il rilevamento delle modifiche in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words/inlinestory/isdeleterevision/
@@ -14,7 +16,7 @@ Restituisce vero se questo oggetto è stato eliminato in Microsoft Word mentre e
 public bool IsDeleteRevision { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come visualizzare le proprietà relative alla revisione dei nodi InlineStory.
 
@@ -62,7 +64,5 @@ Assert.IsTrue(footnotes[3].IsDeleteRevision);
 ### Guarda anche
 
 * class [InlineStory](../)
-* spazio dei nomi [Aspose.Words](../../inlinestory/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

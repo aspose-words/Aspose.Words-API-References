@@ -1,7 +1,9 @@
 ---
 title: ThemeColors.Light2
-second_title: Aspose.Words für .NET-API-Referenz
-description: ThemeColors eigendom. Gibt die Farbe Licht an. 2.
+linktitle: Light2
+articleTitle: Light2
+second_title: Aspose.Words für .NET
+description: ThemeColors Light2 eigendom. Gibt die Farbe Licht an. 2 in C#.
 type: docs
 weight: 120
 url: /de/net/aspose.words.themes/themecolors/light2/
@@ -14,7 +16,7 @@ Gibt die Farbe Licht an. 2.
 public Color Light2 { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie benutzerdefinierte Farben und Schriftarten für Designs festlegen.
 
@@ -62,7 +64,5 @@ doc.Save(ArtifactsDir + "Themes.CustomColorsAndFonts.docx");
 ### Siehe auch
 
 * class [ThemeColors](../)
-* namensraum [Aspose.Words.Themes](../../themecolors/)
+* namensraum [Aspose.Words.Themes](../../../aspose.words.themes/)
 * Montage [Aspose.Words](../../../)
-
-

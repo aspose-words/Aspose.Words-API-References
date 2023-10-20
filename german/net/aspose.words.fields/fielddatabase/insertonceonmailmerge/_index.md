@@ -1,7 +1,9 @@
 ---
 title: FieldDatabase.InsertOnceOnMailMerge
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldDatabase eigendom. Ruft ab oder legt fest ob Daten zu Beginn einer Zusammenführung eingefügt werden sollen.
+linktitle: InsertOnceOnMailMerge
+articleTitle: InsertOnceOnMailMerge
+second_title: Aspose.Words für .NET
+description: FieldDatabase InsertOnceOnMailMerge eigendom. Ruft ab oder legt fest ob Daten zu Beginn einer Zusammenführung eingefügt werden sollen in C#.
 type: docs
 weight: 70
 url: /de/net/aspose.words.fields/fielddatabase/insertonceonmailmerge/
@@ -14,7 +16,7 @@ Ruft ab oder legt fest, ob Daten zu Beginn einer Zusammenführung eingefügt wer
 public bool InsertOnceOnMailMerge { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man Daten aus einer Datenbank extrahiert und als Feld in ein Dokument einfügt.
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "Field.DATABASE.docx");
 ### Siehe auch
 
 * class [FieldDatabase](../)
-* namensraum [Aspose.Words.Fields](../../fielddatabase/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,9 +1,11 @@
 ---
 title: Paragraph.GetEffectiveTabStops
-second_title: Referencia de API de Aspose.Words para .NET
-description: Paragraph método. Devuelve una matriz de todas las tabulaciones aplicadas a este párrafo incluidas las aplicadas indirectamente mediante estilos o listas.
+linktitle: GetEffectiveTabStops
+articleTitle: GetEffectiveTabStops
+second_title: Aspose.Words para .NET
+description: Paragraph GetEffectiveTabStops método. Devuelve una matriz de todas las tabulaciones aplicadas a este párrafo incluidas las aplicadas indirectamente mediante estilos o listas en C#.
 type: docs
-weight: 270
+weight: 250
 url: /es/net/aspose.words/paragraph/geteffectivetabstops/
 ---
 ## Paragraph.GetEffectiveTabStops method
@@ -14,7 +16,7 @@ Devuelve una matriz de todas las tabulaciones aplicadas a este párrafo, incluid
 public TabStop[] GetEffectiveTabStops()
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo configurar tabulaciones personalizadas para un párrafo.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "Paragraph.TabStops.docx");
 
 * class [TabStop](../../tabstop/)
 * class [Paragraph](../)
-* espacio de nombres [Aspose.Words](../../paragraph/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

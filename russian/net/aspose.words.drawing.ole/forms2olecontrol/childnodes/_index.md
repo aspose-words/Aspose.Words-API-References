@@ -1,7 +1,9 @@
 ---
 title: Forms2OleControl.ChildNodes
-second_title: Справочник по API Aspose.Words для .NET
-description: Forms2OleControl свойство. Получает коллекцию непосредственных дочерних элементов управления.
+linktitle: ChildNodes
+articleTitle: ChildNodes
+second_title: Aspose.Words для .NET
+description: Forms2OleControl ChildNodes свойство. Получает коллекцию непосредственных дочерних элементов управления на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.drawing.ole/forms2olecontrol/childnodes/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.drawing.ole/forms2olecontrol/childnodes/
 public virtual Forms2OleControlCollection ChildNodes { get; }
 ```
 
-### Примечания
+## Примечания
 
 Возврат`нулевой` если этот контроль не может иметь детей.
 
-### Примеры
+## Примеры
 
 Показывает, как проверить свойства элемента управления ActiveX.
 
@@ -49,7 +51,5 @@ if (oleControl.IsForms2OleControl)
 
 * class [Forms2OleControlCollection](../../forms2olecontrolcollection/)
 * class [Forms2OleControl](../)
-* пространство имен [Aspose.Words.Drawing.Ole](../../forms2olecontrol/)
+* пространство имен [Aspose.Words.Drawing.Ole](../../../aspose.words.drawing.ole/)
 * сборка [Aspose.Words](../../../)
-
-

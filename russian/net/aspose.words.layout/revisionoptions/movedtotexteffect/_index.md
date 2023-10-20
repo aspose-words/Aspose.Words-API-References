@@ -1,7 +1,9 @@
 ---
 title: RevisionOptions.MovedToTextEffect
-second_title: Справочник по API Aspose.Words для .NET
-description: RevisionOptions свойство. Позволяет указать эффект который будет применяться к областям куда был перемещен контент.Moving . Значение по умолчаниюDoubleUnderline
+linktitle: MovedToTextEffect
+articleTitle: MovedToTextEffect
+second_title: Aspose.Words для .NET
+description: RevisionOptions MovedToTextEffect свойство. Позволяет указать эффект который будет применяться к областям куда был перемещен контент.Moving . Значение по умолчаниюDoubleUnderline на С#.
 type: docs
 weight: 100
 url: /ru/net/aspose.words.layout/revisionoptions/movedtotexteffect/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.layout/revisionoptions/movedtotexteffect/
 public RevisionTextEffect MovedToTextEffect { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 ЦенностиHidden иDoubleStrikeThrough не разрешены и приведут кArgumentOutOfRangeException.
 
-### Примеры
+## Примеры
 
 Показывает, как изменить внешний вид редакций.
 
@@ -70,7 +72,5 @@ doc.Save(ArtifactsDir + "Revision.RevisionOptions.pdf");
 
 * enum [RevisionTextEffect](../../revisiontexteffect/)
 * class [RevisionOptions](../)
-* пространство имен [Aspose.Words.Layout](../../revisionoptions/)
+* пространство имен [Aspose.Words.Layout](../../../aspose.words.layout/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: OdsoRecipientData.Column
-second_title: Aspose.Words für .NET-API-Referenz
-description: OdsoRecipientData eigendom. Gibt die Spalte innerhalb der Datenquelle an die eindeutige Daten für den aktuellen Datensatz enthält. Der Standardwert ist 0.
+linktitle: Column
+articleTitle: Column
+second_title: Aspose.Words für .NET
+description: OdsoRecipientData Column eigendom. Gibt die Spalte innerhalb der Datenquelle an die eindeutige Daten für den aktuellen Datensatz enthält. Der Standardwert ist 0 in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.settings/odsorecipientdata/column/
@@ -14,7 +16,7 @@ Gibt die Spalte innerhalb der Datenquelle an, die eindeutige Daten für den aktu
 public int Column { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie auf die Datensammlung zugegriffen wird, die angibt, welche Zusammenführungsdatenquellendatensätze von einem Serienbrief ausgeschlossen werden.
 
@@ -54,7 +56,5 @@ Assert.AreEqual(0, dataCollection.Count);
 ### Siehe auch
 
 * class [OdsoRecipientData](../)
-* namensraum [Aspose.Words.Settings](../../odsorecipientdata/)
+* namensraum [Aspose.Words.Settings](../../../aspose.words.settings/)
 * Montage [Aspose.Words](../../../)
-
-

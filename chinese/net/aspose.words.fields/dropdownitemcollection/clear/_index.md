@@ -1,7 +1,9 @@
 ---
 title: DropDownItemCollection.Clear
-second_title: Aspose.Words for .NET API 参考
-description: DropDownItemCollection 方法. 从集合中删除所有元素
+linktitle: Clear
+articleTitle: Clear
+second_title: 用于 .NET 的 Aspose.Words
+description: DropDownItemCollection Clear 方法. 从集合中删除所有元素 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.fields/dropdownitemcollection/clear/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/dropdownitemcollection/clear/
 public void Clear()
 ```
 
-### 例子
+## 例子
 
 演示如何插入组合框字段以及编辑其项目集合中的元素。
 
@@ -68,7 +70,5 @@ dropDownItems.Clear();
 ### 也可以看看
 
 * class [DropDownItemCollection](../)
-* 命名空间 [Aspose.Words.Fields](../../dropdownitemcollection/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

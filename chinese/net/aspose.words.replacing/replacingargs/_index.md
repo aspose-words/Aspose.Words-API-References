@@ -1,7 +1,9 @@
 ---
-title: Class ReplacingArgs
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Replacing.ReplacingArgs 班级. 为自定义替换操作提供数据
+title: ReplacingArgs Class
+linktitle: ReplacingArgs
+articleTitle: ReplacingArgs
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Replacing.ReplacingArgs 班级. 为自定义替换操作提供数据 在 C#.
 type: docs
 weight: 4650
 url: /zh/net/aspose.words.replacing/replacingargs/
@@ -22,12 +24,12 @@ public class ReplacingArgs
 | --- | --- |
 | [GroupIndex](../../aspose.words.replacing/replacingargs/groupindex/) { get; set; } | 通过索引标识捕获组[`Match`](./match/) 将替换为[`Replacement`](./replacement/)字符串. |
 | [GroupName](../../aspose.words.replacing/replacingargs/groupname/) { get; set; } | 按名称标识捕获组[`Match`](./match/) 将替换为[`Replacement`](./replacement/)字符串. |
-| [Match](../../aspose.words.replacing/replacingargs/match/) { get; } | 的Match由单个regular 表达式匹配产生 **代替**. |
+| [Match](../../aspose.words.replacing/replacingargs/match/) { get; } | 的Match由单个regular 表达式匹配产生**代替**. |
 | [MatchNode](../../aspose.words.replacing/replacingargs/matchnode/) { get; } | 获取包含匹配开始的节点。 |
 | [MatchOffset](../../aspose.words.replacing/replacingargs/matchoffset/) { get; } | 从包含匹配开始的节点的 开始处获取匹配的从零开始的起始位置。 |
 | [Replacement](../../aspose.words.replacing/replacingargs/replacement/) { get; set; } | 获取或设置替换字符串。 |
 
-### 例子
+## 例子
 
 演示如何将所有出现的正则表达式模式替换为另一个字符串，同时跟踪所有此类替换。
 
@@ -156,5 +158,3 @@ private static void InsertDocument(Node insertionDestination, Document docToInse
 * method [Replace](../../aspose.words/range/replace/)
 * 命名空间 [Aspose.Words.Replacing](../../aspose.words.replacing/)
 * 部件 [Aspose.Words](../../)
-
-

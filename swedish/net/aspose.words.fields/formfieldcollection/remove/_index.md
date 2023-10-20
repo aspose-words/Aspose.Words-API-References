@@ -1,7 +1,9 @@
 ---
 title: FormFieldCollection.Remove
-second_title: Aspose.Words för .NET API Referens
-description: FormFieldCollection metod. Tar bort ett formulärfält med det angivna namnet.
+linktitle: Remove
+articleTitle: Remove
+second_title: Aspose.Words för .NET
+description: FormFieldCollection Remove metod. Tar bort ett formulärfält med det angivna namnet i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.fields/formfieldcollection/remove/
@@ -18,11 +20,11 @@ public void Remove(string formField)
 | --- | --- | --- |
 | formField | String | Det skiftlägesokänsliga namnet på formulärfältet som ska tas bort. |
 
-### Anmärkningar
+## Anmärkningar
 
 Om det finns ett bokmärke kopplat till formulärfältet tas bokmärket inte bort.
 
-### Exempel
+## Exempel
 
 Visar hur man infogar olika typer av formulärfält i ett dokument och bearbetar dem med hjälp av en dokumentbesökarimplementering.
 
@@ -156,7 +158,5 @@ public class FormFieldVisitor : DocumentVisitor
 ### Se även
 
 * class [FormFieldCollection](../)
-* namnutrymme [Aspose.Words.Fields](../../formfieldcollection/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

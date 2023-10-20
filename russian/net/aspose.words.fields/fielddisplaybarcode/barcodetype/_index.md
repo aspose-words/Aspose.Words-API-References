@@ -1,7 +1,9 @@
 ---
 title: FieldDisplayBarcode.BarcodeType
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldDisplayBarcode свойство. Получает или задает тип штрихкода QR и т. д.
+linktitle: BarcodeType
+articleTitle: BarcodeType
+second_title: Aspose.Words для .NET
+description: FieldDisplayBarcode BarcodeType свойство. Получает или задает тип штрихкода QR и т. д на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.fields/fielddisplaybarcode/barcodetype/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fielddisplaybarcode/barcodetype/
 public string BarcodeType { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как вставить поле DISPLAYBARCODE и установить его свойства.
 
@@ -72,7 +74,5 @@ doc.Save(ArtifactsDir + "Field.DISPLAYBARCODE.docx");
 ### Смотрите также
 
 * class [FieldDisplayBarcode](../)
-* пространство имен [Aspose.Words.Fields](../../fielddisplaybarcode/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ChartSeries.Marker
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ChartSeries propriété. Spécifie un marqueur de données. Le marqueur est automatiquement créé sur demande.
+linktitle: Marker
+articleTitle: Marker
+second_title: Aspose.Words pour .NET
+description: ChartSeries Marker propriété. Spécifie un marqueur de données. Le marqueur est automatiquement créé sur demande en C#.
 type: docs
 weight: 100
 url: /fr/net/aspose.words.drawing.charts/chartseries/marker/
@@ -18,7 +20,5 @@ public ChartMarker Marker { get; }
 
 * class [ChartMarker](../../chartmarker/)
 * class [ChartSeries](../)
-* espace de noms [Aspose.Words.Drawing.Charts](../../chartseries/)
+* espace de noms [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Assemblée [Aspose.Words](../../../)
-
-

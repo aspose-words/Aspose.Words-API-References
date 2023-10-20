@@ -1,7 +1,9 @@
 ---
-title: Class Bookmark
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Bookmark сорт. Представляет одну закладку.
+title: Bookmark Class
+linktitle: Bookmark
+articleTitle: Bookmark
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Bookmark сорт. Представляет одну закладку на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words/bookmark/
@@ -34,11 +36,11 @@ public class Bookmark
 | --- | --- |
 | [Remove](../../aspose.words/bookmark/remove/)() | Удаляет закладку из документа. Не удаляет текст внутри закладки. |
 
-### Примечания
+## Примечания
 
 `Bookmark` это объект «фасада», который инкапсулирует два узла[`BookmarkStart`](./bookmarkstart/) и[`BookmarkEnd`](./bookmarkend/) в дереве документа и позволяет работать с закладкой как с единым объектом.
 
-### Примеры
+## Примеры
 
 Показывает, как добавлять закладки и обновлять их содержимое.
 
@@ -128,5 +130,3 @@ public class BookmarkInfoPrinter : DocumentVisitor
 
 * пространство имен [Aspose.Words](../../aspose.words/)
 * сборка [Aspose.Words](../../)
-
-

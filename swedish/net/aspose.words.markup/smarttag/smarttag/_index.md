@@ -1,7 +1,9 @@
 ---
-title: SmartTag.SmartTag
-second_title: Aspose.Words för .NET API Referens
-description: SmartTag byggare. Initierar en ny instans avSmartTag class.
+title: SmartTag
+linktitle: SmartTag
+articleTitle: SmartTag
+second_title: Aspose.Words för .NET
+description: SmartTag byggare. Initierar en ny instans avSmartTag class i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.markup/smarttag/smarttag/
@@ -18,13 +20,13 @@ public SmartTag(DocumentBase doc)
 | --- | --- | --- |
 | doc | DocumentBase | Ägardokumentet. |
 
-### Anmärkningar
+## Anmärkningar
 
 När du skapar en ny nod måste du ange ett dokument som noden tillhör. En nod kan inte existera utan ett dokument eftersom det beror på dokumentomfattande strukturer såsom listor och stilar. Även om en nod alltid tillhör ett dokument, kanske en nod inte är en del av dokumentträdet.
 
-När en nod skapas tillhör den ett dokument, men är ännu inte en del av dokumentträdet och[`ParentNode`](../../../aspose.words/node/parentnode/) är`null` . För att infoga en nod i dokumentet, använd Node) ellerNode) methods på den överordnade noden.
+När en nod skapas tillhör den ett dokument, men är ännu inte en del av dokumentträdet och[`ParentNode`](../../../aspose.words/node/parentnode/) är`null` . För att infoga en nod i dokumentet, använd [`InsertAfter`](../../../aspose.words/compositenode/insertafter/) eller[`InsertBefore`](../../../aspose.words/compositenode/insertbefore/) methods på den överordnade noden.
 
-### Exempel
+## Exempel
 
 Visar hur man skapar smarta taggar.
 
@@ -126,7 +128,5 @@ private class SmartTagPrinter : DocumentVisitor
 
 * class [DocumentBase](../../../aspose.words/documentbase/)
 * class [SmartTag](../)
-* namnutrymme [Aspose.Words.Markup](../../smarttag/)
+* namnutrymme [Aspose.Words.Markup](../../../aspose.words.markup/)
 * hopsättning [Aspose.Words](../../../)
-
-

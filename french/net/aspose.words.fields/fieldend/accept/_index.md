@@ -1,7 +1,9 @@
 ---
 title: FieldEnd.Accept
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldEnd méthode. Accepte un visiteur.
+linktitle: Accept
+articleTitle: Accept
+second_title: Aspose.Words pour .NET
+description: FieldEnd Accept méthode. Accepte un visiteur en C#.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.fields/fieldend/accept/
@@ -22,13 +24,13 @@ public override bool Accept(DocumentVisitor visitor)
 
 **FAUX** si le visiteur a demandé l'arrêt de l'énumération.
 
-### Remarques
+## Remarques
 
 Appels[`VisitFieldEnd`](../../../aspose.words/documentvisitor/visitfieldend/).
 
 Pour plus d’informations, consultez le modèle de conception Visiteur.
 
-### Exemples
+## Exemples
 
 Montre comment travailler avec une collection de champs.
 
@@ -132,7 +134,5 @@ public class FieldVisitor : DocumentVisitor
 
 * class [DocumentVisitor](../../../aspose.words/documentvisitor/)
 * class [FieldEnd](../)
-* espace de noms [Aspose.Words.Fields](../../fieldend/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldPageRef.BookmarkName
-second_title: Aspose.Words per .NET API Reference
-description: FieldPageRef proprietà. Ottiene o imposta il nome del segnalibro.
+linktitle: BookmarkName
+articleTitle: BookmarkName
+second_title: Aspose.Words per .NET
+description: FieldPageRef BookmarkName proprietà. Ottiene o imposta il nome del segnalibro in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words.fields/fieldpageref/bookmarkname/
@@ -14,7 +16,7 @@ Ottiene o imposta il nome del segnalibro.
 public string BookmarkName { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra per inserire i campi PAGEREF per visualizzare la posizione relativa dei segnalibri.
 
@@ -84,7 +86,5 @@ private static void InsertAndNameBookmark(DocumentBuilder builder, string bookma
 ### Guarda anche
 
 * class [FieldPageRef](../)
-* spazio dei nomi [Aspose.Words.Fields](../../fieldpageref/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

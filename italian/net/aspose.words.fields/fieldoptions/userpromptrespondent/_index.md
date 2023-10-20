@@ -1,7 +1,9 @@
 ---
 title: FieldOptions.UserPromptRespondent
-second_title: Aspose.Words per .NET API Reference
-description: FieldOptions proprietà. Ottiene o imposta lintervistato per le richieste dellutente durante laggiornamento del campo.
+linktitle: UserPromptRespondent
+articleTitle: UserPromptRespondent
+second_title: Aspose.Words per .NET
+description: FieldOptions UserPromptRespondent proprietà. Ottiene o imposta lintervistato per le richieste dellutente durante laggiornamento del campo in C#.
 type: docs
 weight: 220
 url: /it/net/aspose.words.fields/fieldoptions/userpromptrespondent/
@@ -14,13 +16,13 @@ Ottiene o imposta l'intervistato per le richieste dell'utente durante l'aggiorna
 public IFieldUserPromptRespondent UserPromptRespondent { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Se il valore di questa proprietà è impostato su`nullo` , i campi che richiedono la risposta dell'utente al prompting (come[`FieldAsk`](../../fieldask/) O[`FieldFillIn`](../../fieldfillin/)) non sono aggiornati.
 
 Il valore predefinito è`nullo`.
 
-### Esempi
+## Esempi
 
 Mostra come creare un campo ASK e impostarne le proprietà.
 
@@ -83,7 +85,5 @@ private class MyPromptRespondent : IFieldUserPromptRespondent
 
 * interface [IFieldUserPromptRespondent](../../ifielduserpromptrespondent/)
 * class [FieldOptions](../)
-* spazio dei nomi [Aspose.Words.Fields](../../fieldoptions/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

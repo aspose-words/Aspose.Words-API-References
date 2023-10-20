@@ -1,7 +1,9 @@
 ---
 title: Style.BaseStyleName
-second_title: Referencia de API de Aspose.Words para .NET
-description: Style propiedad. Obtiene/establece el nombre del estilo en el que se basa este estilo.
+linktitle: BaseStyleName
+articleTitle: BaseStyleName
+second_title: Aspose.Words para .NET
+description: Style BaseStyleName propiedad. Obtiene/establece el nombre del estilo en el que se basa este estilo en C#.
 type: docs
 weight: 30
 url: /es/net/aspose.words/style/basestylename/
@@ -14,11 +16,11 @@ Obtiene/establece el nombre del estilo en el que se basa este estilo.
 public string BaseStyleName { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 Esta será una cadena vacía si el estilo no se basa en ningún otro estilo y se puede configurar como una cadena vacía.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo utilizar alias de estilo.
 
@@ -49,7 +51,5 @@ Assert.AreEqual(doc.FirstSection.Body.Paragraphs[0].ParagraphFormat.Style,
 ### Ver también
 
 * class [Style](../)
-* espacio de nombres [Aspose.Words](../../style/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

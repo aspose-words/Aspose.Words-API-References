@@ -1,7 +1,9 @@
 ---
 title: FieldCitation.PageNumber
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldCitation свойство. Получает или задает номер страницы связанной с цитатой.
+linktitle: PageNumber
+articleTitle: PageNumber
+second_title: Aspose.Words для .NET
+description: FieldCitation PageNumber свойство. Получает или задает номер страницы связанной с цитатой на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.fields/fieldcitation/pagenumber/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldcitation/pagenumber/
 public string PageNumber { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как работать с полями ЦИТАТА и БИБЛИОГРАФИЯ.
 
@@ -68,7 +70,5 @@ doc.Save(ArtifactsDir + "Field.CITATION.docx");
 ### Смотрите также
 
 * class [FieldCitation](../)
-* пространство имен [Aspose.Words.Fields](../../fieldcitation/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

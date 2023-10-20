@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabel.ShowLeaderLines
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ChartDataLabel propriété. Permet de spécifier si les lignes de repère des étiquettes de données doivent être affichées. La valeur par défaut estFAUX .
+linktitle: ShowLeaderLines
+articleTitle: ShowLeaderLines
+second_title: Aspose.Words pour .NET
+description: ChartDataLabel ShowLeaderLines propriété. Permet de spécifier si les lignes de repère des étiquettes de données doivent être affichées. La valeur par défaut estFAUX  en C#.
 type: docs
 weight: 110
 url: /fr/net/aspose.words.drawing.charts/chartdatalabel/showleaderlines/
@@ -14,11 +16,11 @@ Permet de spécifier si les lignes de repère des étiquettes de données doiven
 public bool ShowLeaderLines { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 S'applique uniquement aux diagrammes circulaires. Les lignes de repère créent une connexion visuelle entre une étiquette de données et son point de données correspondant.
 
-### Exemples
+## Exemples
 
 Montre comment appliquer des étiquettes aux points de données dans un graphique linéaire.
 
@@ -96,7 +98,5 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
 ### Voir également
 
 * class [ChartDataLabel](../)
-* espace de noms [Aspose.Words.Drawing.Charts](../../chartdatalabel/)
+* espace de noms [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Assemblée [Aspose.Words](../../../)
-
-

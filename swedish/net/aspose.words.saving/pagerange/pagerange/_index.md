@@ -1,7 +1,9 @@
 ---
-title: PageRange.PageRange
-second_title: Aspose.Words för .NET API Referens
-description: PageRange byggare. Skapar ett nytt sidintervallsobjekt.
+title: PageRange
+linktitle: PageRange
+articleTitle: PageRange
+second_title: Aspose.Words för .NET
+description: PageRange byggare. Skapar ett nytt sidintervallsobjekt i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.saving/pagerange/pagerange/
@@ -19,11 +21,11 @@ public PageRange(int from, int to)
 | from | Int32 | Startsidan nollbaserat index. |
 | to | Int32 | Slutsidans nollbaserat index. Om det överskrider indexet för den sista sidan i dokumentet, trunkeras det för att passa in i dokumentet vid rendering. |
 
-### Anmärkningar
+## Anmärkningar
 
 MaxValue betyder den sista sidan i dokumentet.
 
-### Exempel
+## Exempel
 
 Visar hur man extraherar sidor baserat på exakta sidintervall.
 
@@ -41,7 +43,5 @@ doc.Save(ArtifactsDir + "ImageSaveOptions.ExportVariousPageRanges.tiff", imageOp
 ### Se även
 
 * class [PageRange](../)
-* namnutrymme [Aspose.Words.Saving](../../pagerange/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

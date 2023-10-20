@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.EndBookmark
-second_title: Справочник по API Aspose.Words для .NET
-description: DocumentBuilder метод. Отмечает текущую позицию в документе как конец закладки.
+linktitle: EndBookmark
+articleTitle: EndBookmark
+second_title: Aspose.Words для .NET
+description: DocumentBuilder EndBookmark метод. Отмечает текущую позицию в документе как конец закладки на С#.
 type: docs
 weight: 210
 url: /ru/net/aspose.words/documentbuilder/endbookmark/
@@ -22,13 +24,13 @@ public BookmarkEnd EndBookmark(string bookmarkName)
 
 Конечный узел закладки, который был только что создан.
 
-### Примечания
+## Примечания
 
 Закладки в документе могут перекрываться и охватывать любой диапазон. Чтобы создать действительную закладку, вам нужно вызвать оба[`StartBookmark`](../startbookmark/) и`EndBookmark` с тем же самым*bookmarkName* параметр .
 
 Закладки неправильного формата или закладки с повторяющимися именами будут игнорироваться при сохранении документа.
 
-### Примеры
+## Примеры
 
 Показывает, как создать закладку.
 
@@ -71,7 +73,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertHyperlinkToLocalBookmark.docx");
 
 * class [BookmarkEnd](../../bookmarkend/)
 * class [DocumentBuilder](../)
-* пространство имен [Aspose.Words](../../documentbuilder/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: BorderCollection.GetEnumerator
-second_title: Aspose.Words لمراجع .NET API
-description: BorderCollection طريقة. يُرجع كائن العداد الذي يمكن استخدامه للتكرار عبر كافة الحدود في المجموعة.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words لـ .NET
+description: BorderCollection GetEnumerator طريقة. يُرجع كائن العداد الذي يمكن استخدامه للتكرار عبر كافة الحدود في المجموعة في C#.
 type: docs
 weight: 160
 url: /ar/net/aspose.words/bordercollection/getenumerator/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/bordercollection/getenumerator/
 public IEnumerator<Border> GetEnumerator()
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التكرار وتحرير كل الحدود في كائن تنسيق الفقرة.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "BorderCollection.GetBordersEnumerator.docx");
 
 * class [Border](../../border/)
 * class [BorderCollection](../)
-* مساحة الاسم [Aspose.Words](../../bordercollection/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

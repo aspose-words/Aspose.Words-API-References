@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.DoNotVertAlignCellWithSp
-second_title: Referencia de API de Aspose.Words para .NET
-description: CompatibilityOptions propiedad. No alinear verticalmente celdas que contengan objetos flotantes.
+linktitle: DoNotVertAlignCellWithSp
+articleTitle: DoNotVertAlignCellWithSp
+second_title: Aspose.Words para .NET
+description: CompatibilityOptions DoNotVertAlignCellWithSp propiedad. No alinear verticalmente celdas que contengan objetos flotantes en C#.
 type: docs
 weight: 230
 url: /es/net/aspose.words.settings/compatibilityoptions/donotvertaligncellwithsp/
@@ -17,7 +19,5 @@ public bool DoNotVertAlignCellWithSp { get; set; }
 ### Ver también
 
 * class [CompatibilityOptions](../)
-* espacio de nombres [Aspose.Words.Settings](../../compatibilityoptions/)
+* espacio de nombres [Aspose.Words.Settings](../../../aspose.words.settings/)
 * asamblea [Aspose.Words](../../../)
-
-

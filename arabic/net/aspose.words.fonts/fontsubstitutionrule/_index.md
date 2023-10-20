@@ -1,7 +1,9 @@
 ---
-title: Class FontSubstitutionRule
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Fonts.FontSubstitutionRule فصل. هذه فئة أساسية مجردة لقاعدة استبدال الخط.
+title: FontSubstitutionRule Class
+linktitle: FontSubstitutionRule
+articleTitle: FontSubstitutionRule
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Fonts.FontSubstitutionRule فصل. هذه فئة أساسية مجردة لقاعدة استبدال الخط في C#.
 type: docs
 weight: 3000
 url: /ar/net/aspose.words.fonts/fontsubstitutionrule/
@@ -22,7 +24,7 @@ public abstract class FontSubstitutionRule
 | --- | --- |
 | virtual [Enabled](../../aspose.words.fonts/fontsubstitutionrule/enabled/) { get; set; } | يحدد ما إذا كانت القاعدة مفعلة أم لا. |
 
-### أمثلة
+## أمثلة
 
 يعرض استبدال تكوين الخط المعتمد على نظام التشغيل.
 
@@ -59,5 +61,3 @@ if (isLinuxOrMac)
 
 * مساحة الاسم [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * المجسم [Aspose.Words](../../)
-
-

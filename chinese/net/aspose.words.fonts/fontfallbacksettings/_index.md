@@ -1,7 +1,9 @@
 ---
-title: Class FontFallbackSettings
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Fonts.FontFallbackSettings 班级. 指定字体后备机制设置
+title: FontFallbackSettings Class
+linktitle: FontFallbackSettings
+articleTitle: FontFallbackSettings
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Fonts.FontFallbackSettings 班级. 指定字体后备机制设置 在 C#.
 type: docs
 weight: 2900
 url: /zh/net/aspose.words.fonts/fontfallbacksettings/
@@ -21,18 +23,18 @@ public class FontFallbackSettings
 | 姓名 | 描述 |
 | --- | --- |
 | [BuildAutomatic](../../aspose.words.fonts/fontfallbacksettings/buildautomatic/)() | 通过扫描可用字体自动构建后备设置。 |
-| [Load](../../aspose.words.fonts/fontfallbacksettings/load/#load)(Stream) | 从 XML 流加载后备设置。 |
-| [Load](../../aspose.words.fonts/fontfallbacksettings/load/#load_1)(string) | 从 XML 文件加载字体后备设置。 |
+| [Load](../../aspose.words.fonts/fontfallbacksettings/load/#load)(*Stream*) | 从 XML 流加载后备设置。 |
+| [Load](../../aspose.words.fonts/fontfallbacksettings/load/#load_1)(*string*) | 从 XML 文件加载字体后备设置。 |
 | [LoadMsOfficeFallbackSettings](../../aspose.words.fonts/fontfallbacksettings/loadmsofficefallbacksettings/)() | 加载预定义的后备设置，该设置模仿 Microsoft Word 后备并使用 Microsoft Office 字体。 |
 | [LoadNotoFallbackSettings](../../aspose.words.fonts/fontfallbacksettings/loadnotofallbacksettings/)() | 加载使用 Google Noto 字体的预定义后备设置。 |
-| [Save](../../aspose.words.fonts/fontfallbacksettings/save/#save)(Stream) | 将当前后备设置保存到流中。 |
-| [Save](../../aspose.words.fonts/fontfallbacksettings/save/#save_1)(string) | 将当前后备设置保存到文件。 |
+| [Save](../../aspose.words.fonts/fontfallbacksettings/save/#save)(*Stream*) | 将当前后备设置保存到流中。 |
+| [Save](../../aspose.words.fonts/fontfallbacksettings/save/#save_1)(*string*) | 将当前后备设置保存到文件。 |
 
-### 评论
+## 评论
 
 默认情况下，后备设置是使用模仿 Microsoft Word 后备的预定义设置进行初始化的。
 
-### 例子
+## 例子
 
 演示如何跨 Unicode 字符代码范围分发后备字体。
 
@@ -92,5 +94,3 @@ doc.Save(ArtifactsDir + "FontSettings.FallbackSettingsCustom.pdf");
 
 * 命名空间 [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * 部件 [Aspose.Words](../../)
-
-

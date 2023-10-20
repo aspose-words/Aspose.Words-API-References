@@ -1,7 +1,9 @@
 ---
 title: ViewOptions.FormsDesign
-second_title: Aspose.Words لمراجع .NET API
-description: ViewOptions ملكية. يحدد ما إذا كانت الوثيقة في وضع تصميم النماذج.
+linktitle: FormsDesign
+articleTitle: FormsDesign
+second_title: Aspose.Words لـ .NET
+description: ViewOptions FormsDesign ملكية. يحدد ما إذا كانت الوثيقة في وضع تصميم النماذج في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.settings/viewoptions/formsdesign/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.settings/viewoptions/formsdesign/
 public bool FormsDesign { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 يعمل حاليًا فقط مع المستندات بتنسيق WordML.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تمكين/تعطيل وضع تصميم النماذج.
 
@@ -40,7 +42,5 @@ Assert.AreEqual(useFormsDesign,
 ### أنظر أيضا
 
 * class [ViewOptions](../)
-* مساحة الاسم [Aspose.Words.Settings](../../viewoptions/)
+* مساحة الاسم [Aspose.Words.Settings](../../../aspose.words.settings/)
 * المجسم [Aspose.Words](../../../)
-
-

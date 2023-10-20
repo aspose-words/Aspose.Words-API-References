@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.Pages
-second_title: Aspose.Words per .NET API Reference
-description: BuiltInDocumentProperties proprietà. Rappresenta una stima del numero di pagine del documento.
+linktitle: Pages
+articleTitle: Pages
+second_title: Aspose.Words per .NET
+description: BuiltInDocumentProperties Pages proprietà. Rappresenta una stima del numero di pagine del documento in C#.
 type: docs
 weight: 220
 url: /it/net/aspose.words.properties/builtindocumentproperties/pages/
@@ -14,11 +16,11 @@ Rappresenta una stima del numero di pagine del documento.
 public int Pages { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Aspose.Words aggiorna questa proprietà quando chiami[`UpdatePageLayout`](../../../aspose.words/document/updatepagelayout/).
 
-### Esempi
+## Esempi
 
 Mostra come lavorare con le proprietà del documento nella categoria "Contenuto".
 
@@ -128,7 +130,5 @@ private class LineCounter
 ### Guarda anche
 
 * class [BuiltInDocumentProperties](../)
-* spazio dei nomi [Aspose.Words.Properties](../../builtindocumentproperties/)
+* spazio dei nomi [Aspose.Words.Properties](../../../aspose.words.properties/)
 * assemblea [Aspose.Words](../../../)
-
-

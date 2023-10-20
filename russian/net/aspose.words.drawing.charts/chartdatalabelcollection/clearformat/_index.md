@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabelCollection.ClearFormat
-second_title: Справочник по API Aspose.Words для .NET
-description: ChartDataLabelCollection метод. Очищает формат всехChartDataLabel в этой коллекции.
+linktitle: ClearFormat
+articleTitle: ClearFormat
+second_title: Aspose.Words для .NET
+description: ChartDataLabelCollection ClearFormat метод. Очищает формат всехChartDataLabel в этой коллекции на С#.
 type: docs
 weight: 150
 url: /ru/net/aspose.words.drawing.charts/chartdatalabelcollection/clearformat/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.drawing.charts/chartdatalabelcollection/clearformat/
 public void ClearFormat()
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как применять метки к точкам данных на линейной диаграмме.
 
@@ -92,7 +94,5 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
 ### Смотрите также
 
 * class [ChartDataLabelCollection](../)
-* пространство имен [Aspose.Words.Drawing.Charts](../../chartdatalabelcollection/)
+* пространство имен [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../../)
-
-

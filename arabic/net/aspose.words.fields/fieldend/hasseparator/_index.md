@@ -1,7 +1,9 @@
 ---
 title: FieldEnd.HasSeparator
-second_title: Aspose.Words لمراجع .NET API
-description: FieldEnd ملكية. إرجاعحقيقيإذا كان هذا الحقل يحتوي على فاصل.
+linktitle: HasSeparator
+articleTitle: HasSeparator
+second_title: Aspose.Words لـ .NET
+description: FieldEnd HasSeparator ملكية. إرجاعحقيقيإذا كان هذا الحقل يحتوي على فاصل في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fields/fieldend/hasseparator/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldend/hasseparator/
 public bool HasSeparator { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع مجموعة من الحقول.
 
@@ -117,7 +119,5 @@ public class FieldVisitor : DocumentVisitor
 ### أنظر أيضا
 
 * class [FieldEnd](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldend/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

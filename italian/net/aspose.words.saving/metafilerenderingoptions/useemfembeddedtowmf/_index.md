@@ -1,7 +1,9 @@
 ---
 title: MetafileRenderingOptions.UseEmfEmbeddedToWmf
-second_title: Aspose.Words per .NET API Reference
-description: MetafileRenderingOptions proprietà. Ottiene o imposta un valore che determina la modalità di rendering dei metafile WMF con metafile EMF incorporati.
+linktitle: UseEmfEmbeddedToWmf
+articleTitle: UseEmfEmbeddedToWmf
+second_title: Aspose.Words per .NET
+description: MetafileRenderingOptions UseEmfEmbeddedToWmf proprietà. Ottiene o imposta un valore che determina la modalità di rendering dei metafile WMF con metafile EMF incorporati in C#.
 type: docs
 weight: 70
 url: /it/net/aspose.words.saving/metafilerenderingoptions/useemfembeddedtowmf/
@@ -14,7 +16,7 @@ Ottiene o imposta un valore che determina la modalità di rendering dei metafile
 public bool UseEmfEmbeddedToWmf { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 I metafile WMF potrebbero contenere dati EMF incorporati. MS Word nella maggior parte dei casi utilizza dati EMF incorporati. GDI+ utilizza sempre dati WMF.
 
@@ -26,7 +28,7 @@ Questa opzione viene utilizzata solo quando il metafile viene visualizzato come 
 
 Il valore predefinito è`VERO`.
 
-### Esempi
+## Esempi
 
 Mostra come configurare le opzioni di rendering relative a Enhanced Windows Metafile durante il salvataggio in PDF.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.RenderMetafile.pdf", saveOptions);
 ### Guarda anche
 
 * class [MetafileRenderingOptions](../)
-* spazio dei nomi [Aspose.Words.Saving](../../metafilerenderingoptions/)
+* spazio dei nomi [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../../)
-
-

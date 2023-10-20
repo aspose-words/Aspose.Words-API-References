@@ -1,7 +1,9 @@
 ---
 title: FieldToa.SequenceName
-second_title: Aspose.Words for .NET API 参考
-description: FieldToa 财产. 获取或设置页码中包含编号的序列名称
+linktitle: SequenceName
+articleTitle: SequenceName
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldToa SequenceName 财产. 获取或设置页码中包含编号的序列名称 在 C#.
 type: docs
 weight: 80
 url: /zh/net/aspose.words.fields/fieldtoa/sequencename/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fieldtoa/sequencename/
 public string SequenceName { get; set; }
 ```
 
-### 例子
+## 例子
 
 展示如何使用 TOA 和 TA 字段构建和自定义权限表。
 
@@ -137,7 +139,5 @@ private static FieldTA InsertToaEntry(DocumentBuilder builder, string entryCateg
 ### 也可以看看
 
 * class [FieldToa](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldtoa/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

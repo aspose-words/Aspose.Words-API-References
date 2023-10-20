@@ -1,7 +1,9 @@
 ---
 title: FontSettings.ResetFontSources
-second_title: Aspose.Words for .NET API 参考
-description: FontSettings 方法. 将字体源重置为系统默认值
+linktitle: ResetFontSources
+articleTitle: ResetFontSources
+second_title: 用于 .NET 的 Aspose.Words
+description: FontSettings ResetFontSources 方法. 将字体源重置为系统默认值 在 C#.
 type: docs
 weight: 60
 url: /zh/net/aspose.words.fonts/fontsettings/resetfontsources/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fonts/fontsettings/resetfontsources/
 public void ResetFontSources()
 ```
 
-### 例子
+## 例子
 
 演示如何访问文档的系统字体源并设置字体替代品。
 
@@ -70,7 +72,5 @@ Assert.AreEqual(1,
 ### 也可以看看
 
 * class [FontSettings](../)
-* 命名空间 [Aspose.Words.Fonts](../../fontsettings/)
+* 命名空间 [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * 部件 [Aspose.Words](../../../)
-
-

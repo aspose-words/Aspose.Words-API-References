@@ -1,12 +1,14 @@
 ---
 title: Node.GetAncestor
-second_title: Aspose.Words per .NET API Reference
-description: Node metodo. Ottiene il primo antenato del tipo di oggetto specificato.
+linktitle: GetAncestor
+articleTitle: GetAncestor
+second_title: Aspose.Words per .NET
+description: Node GetAncestor metodo. Ottiene il primo antenato del tipo di oggetto specificato in C#.
 type: docs
 weight: 110
 url: /it/net/aspose.words/node/getancestor/
 ---
-## GetAncestor(Type) {#getancestor_1}
+## GetAncestor(*Type*) {#getancestor_1}
 
 Ottiene il primo antenato del tipo di oggetto specificato.
 
@@ -22,11 +24,11 @@ public CompositeNode GetAncestor(Type ancestorType)
 
 L'antenato del tipo specificato o`nullo` se non è stato trovato alcun antenato di questo tipo.
 
-### Osservazioni
+## Osservazioni
 
 Il tipo antenato corrisponde se è uguale a*ancestorType* o derivato da*ancestorType*.
 
-### Esempi
+## Esempi
 
 Mostra come scoprire se le tabelle sono nidificate.
 
@@ -105,12 +107,12 @@ private static int GetChildTableCount(Table table)
 
 * class [CompositeNode](../../compositenode/)
 * class [Node](../)
-* spazio dei nomi [Aspose.Words](../../node/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
 
 ---
 
-## GetAncestor(NodeType) {#getancestor}
+## GetAncestor(*[NodeType](../../nodetype/)*) {#getancestor}
 
 Ottiene il primo antenato dell'oggetto specificato[`NodeType`](../../nodetype/) .
 
@@ -126,7 +128,7 @@ public CompositeNode GetAncestor(NodeType ancestorType)
 
 L'antenato del tipo specificato o`nullo` se non è stato trovato alcun antenato di questo tipo.
 
-### Esempi
+## Esempi
 
 Mostra come scoprire se le tabelle sono nidificate.
 
@@ -206,7 +208,5 @@ private static int GetChildTableCount(Table table)
 * class [CompositeNode](../../compositenode/)
 * enum [NodeType](../../nodetype/)
 * class [Node](../)
-* spazio dei nomi [Aspose.Words](../../node/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

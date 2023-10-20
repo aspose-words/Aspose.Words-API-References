@@ -1,7 +1,9 @@
 ---
 title: PageSetup.FirstPageTray
-second_title: Referencia de API de Aspose.Words para .NET
-description: PageSetup propiedad. Obtiene o establece la bandeja de papel bandeja que se utilizará para la primera página de una sección. El valor es específico de la implementación impresora.
+linktitle: FirstPageTray
+articleTitle: FirstPageTray
+second_title: Aspose.Words para .NET
+description: PageSetup FirstPageTray propiedad. Obtiene o establece la bandeja de papel bandeja que se utilizará para la primera página de una sección. El valor es específico de la implementación impresora en C#.
 type: docs
 weight: 130
 url: /es/net/aspose.words/pagesetup/firstpagetray/
@@ -14,7 +16,7 @@ Obtiene o establece la bandeja de papel (bandeja) que se utilizará para la prim
 public int FirstPageTray { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo hacer que todas las secciones de un documento utilicen la bandeja de papel predeterminada de la impresora seleccionada.
 
@@ -70,7 +72,5 @@ foreach (Section section in doc.Sections.OfType<Section>())
 ### Ver también
 
 * class [PageSetup](../)
-* espacio de nombres [Aspose.Words](../../pagesetup/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

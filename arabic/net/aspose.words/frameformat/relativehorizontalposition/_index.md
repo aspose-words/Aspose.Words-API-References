@@ -1,7 +1,9 @@
 ---
 title: FrameFormat.RelativeHorizontalPosition
-second_title: Aspose.Words لمراجع .NET API
-description: FrameFormat ملكية. يحصل على الموضع الأفقي النسبي للإطار.
+linktitle: RelativeHorizontalPosition
+articleTitle: RelativeHorizontalPosition
+second_title: Aspose.Words لـ .NET
+description: FrameFormat RelativeHorizontalPosition ملكية. يحصل على الموضع الأفقي النسبي للإطار في C#.
 type: docs
 weight: 70
 url: /ar/net/aspose.words/frameformat/relativehorizontalposition/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/frameformat/relativehorizontalposition/
 public RelativeHorizontalPosition RelativeHorizontalPosition { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الحصول على معلومات حول خصائص تنسيق الفقرات التي تكون إطارات.
 
@@ -40,7 +42,5 @@ Assert.AreEqual(0.0d, paragraphFrame.FrameFormat.VerticalDistanceFromText);
 
 * enum [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/)
 * class [FrameFormat](../)
-* مساحة الاسم [Aspose.Words](../../frameformat/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

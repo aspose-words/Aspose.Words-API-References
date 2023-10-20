@@ -1,7 +1,9 @@
 ---
 title: OdsoFieldMapDataCollection.Count
-second_title: Aspose.Words für .NET-API-Referenz
-description: OdsoFieldMapDataCollection eigendom. Ruft die Anzahl der in der Sammlung enthaltenen Elemente ab.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words für .NET
+description: OdsoFieldMapDataCollection Count eigendom. Ruft die Anzahl der in der Sammlung enthaltenen Elemente ab in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.settings/odsofieldmapdatacollection/count/
@@ -14,7 +16,7 @@ Ruft die Anzahl der in der Sammlung enthaltenen Elemente ab.
 public int Count { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie auf die Datensammlung zugegriffen wird, die Datenquellenspalten Briefvorlagenfeldern zuordnet.
 
@@ -57,7 +59,5 @@ Assert.AreEqual(0, dataCollection.Count);
 ### Siehe auch
 
 * class [OdsoFieldMapDataCollection](../)
-* namensraum [Aspose.Words.Settings](../../odsofieldmapdatacollection/)
+* namensraum [Aspose.Words.Settings](../../../aspose.words.settings/)
 * Montage [Aspose.Words](../../../)
-
-

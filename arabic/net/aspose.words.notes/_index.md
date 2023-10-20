@@ -1,12 +1,14 @@
 ---
 title: Aspose.Words.Notes
-second_title: Aspose.Words لمراجع .NET API
-description: ال Aspose.Words.Notesتوفر مساحة الاسم فئات للعمل مع الحواشي الختامية والحواشي السفلية في Microsoft Word.
+linktitle: Aspose.Words.Notes
+articleTitle: Aspose.Words.Notes
+second_title: Aspose.Words لـ .NET
+description: الAspose.Words.Notesتوفر مساحة الاسم فئات للعمل مع الحواشي الختامية والحواشي السفلية في Microsoft Word في C#.
 type: docs
 weight: 180
 url: /ar/net/aspose.words.notes/
 ---
-ال **Aspose.Words.Notes**توفر مساحة الاسم فئات للعمل مع الحواشي الختامية والحواشي السفلية في Microsoft Word.
+ال**Aspose.Words.Notes**توفر مساحة الاسم فئات للعمل مع الحواشي الختامية والحواشي السفلية في Microsoft Word.
 
 ## الطبقات
 
@@ -23,5 +25,3 @@ url: /ar/net/aspose.words.notes/
 | [FootnoteNumberingRule](./footnotenumberingrule/) | تحديد متى يتم إعادة تشغيل ترقيم الحواشي السفلية أو التعليقات الختامية تلقائيًا. |
 | [FootnotePosition](./footnoteposition/) | يحدد موضع الحاشية السفلية. |
 | [FootnoteType](./footnotetype/) | يحدد ما إذا كانت هذه حاشية سفلية أم تعليق ختامي. |
-
-

@@ -1,7 +1,9 @@
 ---
 title: CleanupOptions.UnusedBuiltinStyles
-second_title: Aspose.Words för .NET API Referens
-description: CleanupOptions fast egendom. Anger att oanvändBuiltIn stilar bör tas bort från document.
+linktitle: UnusedBuiltinStyles
+articleTitle: UnusedBuiltinStyles
+second_title: Aspose.Words för .NET
+description: CleanupOptions UnusedBuiltinStyles fast egendom. Anger att oanvändBuiltIn stilar bör tas bort från document i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words/cleanupoptions/unusedbuiltinstyles/
@@ -14,7 +16,7 @@ Anger att oanvänd[`BuiltIn`](../../style/builtin/) stilar bör tas bort från d
 public bool UnusedBuiltinStyles { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man tar bort alla oanvända anpassade stilar från ett dokument.
 
@@ -63,7 +65,5 @@ Assert.AreEqual(2, doc.Styles.Count);
 ### Se även
 
 * class [CleanupOptions](../)
-* namnutrymme [Aspose.Words](../../cleanupoptions/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

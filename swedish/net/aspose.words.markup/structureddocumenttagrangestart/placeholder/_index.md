@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTagRangeStart.Placeholder
-second_title: Aspose.Words för .NET API Referens
-description: StructuredDocumentTagRangeStart fast egendom. FårBuildingBlocksom innehåller platshållartext som ska visas när denna strukturerade dokumenttaggkörningsinnehåll är tomt är det associerade mappade XMLelementet tomt som specificerat viaXmlMapping element ellerIsShowingPlaceholderText element ärSann .
+linktitle: Placeholder
+articleTitle: Placeholder
+second_title: Aspose.Words för .NET
+description: StructuredDocumentTagRangeStart Placeholder fast egendom. FårBuildingBlocksom innehåller platshållartext som ska visas när denna strukturerade dokumenttaggkörningsinnehåll är tomt är det associerade mappade XMLelementet tomt som specificerat viaXmlMapping element ellerIsShowingPlaceholderText element ärSann  i C#.
 type: docs
 weight: 110
 url: /sv/net/aspose.words.markup/structureddocumenttagrangestart/placeholder/
@@ -14,7 +16,7 @@ Får[`BuildingBlock`](../../../aspose.words.buildingblocks/buildingblock/)som in
 public BuildingBlock Placeholder { get; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Kan vara`null`, vilket betyder att platshållaren inte är tillämplig för denna strukturerade dokumenttagg.
 
@@ -22,7 +24,5 @@ Kan vara`null`, vilket betyder att platshållaren inte är tillämplig för denn
 
 * class [BuildingBlock](../../../aspose.words.buildingblocks/buildingblock/)
 * class [StructuredDocumentTagRangeStart](../)
-* namnutrymme [Aspose.Words.Markup](../../structureddocumenttagrangestart/)
+* namnutrymme [Aspose.Words.Markup](../../../aspose.words.markup/)
 * hopsättning [Aspose.Words](../../../)
-
-

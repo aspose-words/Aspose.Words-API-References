@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.Alignment
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ParagraphFormat propriété. Obtient ou définit lalignement du texte pour le paragraphe.
+linktitle: Alignment
+articleTitle: Alignment
+second_title: Aspose.Words pour .NET
+description: ParagraphFormat Alignment propriété. Obtient ou définit lalignement du texte pour le paragraphe en C#.
 type: docs
 weight: 30
 url: /fr/net/aspose.words/paragraphformat/alignment/
@@ -14,7 +16,7 @@ Obtient ou définit l'alignement du texte pour le paragraphe.
 public ParagraphAlignment Alignment { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment insérer un paragraphe dans le document.
 
@@ -92,7 +94,5 @@ doc.Save(ArtifactsDir + "Section.CreateManually.docx");
 
 * enum [ParagraphAlignment](../../paragraphalignment/)
 * class [ParagraphFormat](../)
-* espace de noms [Aspose.Words](../../paragraphformat/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

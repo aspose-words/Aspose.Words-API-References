@@ -1,12 +1,14 @@
 ---
 title: DocumentBase.ImportNode
-second_title: Aspose.Words för .NET API Referens
-description: DocumentBase metod. Importerar en nod från ett annat dokument till det aktuella dokumentet.
+linktitle: ImportNode
+articleTitle: ImportNode
+second_title: Aspose.Words för .NET
+description: DocumentBase ImportNode metod. Importerar en nod från ett annat dokument till det aktuella dokumentet i C#.
 type: docs
 weight: 100
 url: /sv/net/aspose.words/documentbase/importnode/
 ---
-## ImportNode(Node, bool) {#importnode}
+## ImportNode(*[Node](../../node/), bool*) {#importnode}
 
 Importerar en nod från ett annat dokument till det aktuella dokumentet.
 
@@ -23,17 +25,17 @@ public Node ImportNode(Node srcNode, bool isImportChildren)
 
 Den klonade noden som tillhör det aktuella dokumentet.
 
-### Anmärkningar
+## Anmärkningar
 
 Denna metod använderUseDestinationStyles alternativ för att lösa formatering.
 
 Genom att importera en nod skapas en kopia av källnoden som tillhör det importerande dokumentet. Den returnerade noden har ingen förälder. Källnoden ändras eller tas inte bort från originaldokumentet.
 
-Innan en nod från ett annat dokument kan infogas i detta dokument måste den importeras. Under import översätts dokumentspecifika egenskaper såsom referenser till stilar och listor från originalet till det importerande dokumentet. Efter att noden har importerats kan den infogas på lämplig plats i dokumentet medNode) eller Node).
+Innan en nod från ett annat dokument kan infogas i detta dokument måste den importeras. Under import översätts dokumentspecifika egenskaper såsom referenser till stilar och listor från originalet till det importerande dokumentet. Efter att noden har importerats kan den infogas på lämplig plats i dokumentet med[`InsertBefore`](../../compositenode/insertbefore/) eller [`InsertAfter`](../../compositenode/insertafter/).
 
 Om källnoden redan tillhör måldokumentet skapas helt enkelt en djup klon av källnoden.
 
-### Exempel
+## Exempel
 
 Visar hur man importerar en nod från ett dokument till ett annat.
 
@@ -68,12 +70,12 @@ Assert.AreEqual("Destination document first paragraph text.\r\nSource document f
 
 * class [Node](../../node/)
 * class [DocumentBase](../)
-* namnutrymme [Aspose.Words](../../documentbase/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## ImportNode(Node, bool, ImportFormatMode) {#importnode_1}
+## ImportNode(*[Node](../../node/), bool, [ImportFormatMode](../../importformatmode/)*) {#importnode_1}
 
 Importerar en nod från ett annat dokument till det aktuella dokumentet med ett alternativ för att styra formateringen.
 
@@ -91,17 +93,17 @@ public Node ImportNode(Node srcNode, bool isImportChildren, ImportFormatMode imp
 
 Den klonade, importerade noden. Noden tillhör måldokumentet, men har ingen förälder.
 
-### Anmärkningar
+## Anmärkningar
 
 Denna överbelastning är användbar för att styra hur stilar och listformatering importeras.
 
 Genom att importera en nod skapas en kopia av källnoden som tillhör det importerande dokumentet. Den returnerade noden har ingen förälder. Källnoden ändras eller tas inte bort från originaldokumentet.
 
-Innan en nod från ett annat dokument kan infogas i detta dokument måste den importeras. Under import översätts dokumentspecifika egenskaper såsom referenser till stilar och listor från originalet till det importerande dokumentet. Efter att noden har importerats kan den infogas på lämplig plats i dokumentet medNode) eller Node).
+Innan en nod från ett annat dokument kan infogas i detta dokument måste den importeras. Under import översätts dokumentspecifika egenskaper såsom referenser till stilar och listor från originalet till det importerande dokumentet. Efter att noden har importerats kan den infogas på lämplig plats i dokumentet med[`InsertBefore`](../../compositenode/insertbefore/) eller [`InsertAfter`](../../compositenode/insertafter/).
 
 Om källnoden redan tillhör måldokumentet skapas helt enkelt en djup klon av källnoden.
 
-### Exempel
+## Exempel
 
 Visar hur man importerar nod från källdokument till måldokument med specifika alternativ.
 
@@ -141,7 +143,5 @@ Assert.AreEqual(srcStyle.Font.Name, dstDoc.Styles["My style_0"].Font.Name);
 * class [Node](../../node/)
 * enum [ImportFormatMode](../../importformatmode/)
 * class [DocumentBase](../)
-* namnutrymme [Aspose.Words](../../documentbase/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

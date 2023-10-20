@@ -1,7 +1,9 @@
 ---
 title: IMailMergeDataSource.MoveNext
-second_title: Aspose.Words för .NET API Referens
-description: IMailMergeDataSource metod. Avancerar till nästa post i datakällan.
+linktitle: MoveNext
+articleTitle: MoveNext
+second_title: Aspose.Words för .NET
+description: IMailMergeDataSource MoveNext metod. Avancerar till nästa post i datakällan i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.mailmerging/imailmergedatasource/movenext/
@@ -18,7 +20,7 @@ public bool MoveNext()
 
 `Sann` om flyttas till nästa post framgångsrikt;`falsk` om du har nått slutet av datakällan.
 
-### Exempel
+## Exempel
 
 Visar hur man kör en sammankoppling med en datakälla i form av ett anpassat objekt.
 
@@ -132,7 +134,5 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
 ### Se även
 
 * interface [IMailMergeDataSource](../)
-* namnutrymme [Aspose.Words.MailMerging](../../imailmergedatasource/)
+* namnutrymme [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * hopsättning [Aspose.Words](../../../)
-
-

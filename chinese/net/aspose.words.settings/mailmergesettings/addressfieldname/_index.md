@@ -1,7 +1,9 @@
 ---
 title: MailMergeSettings.AddressFieldName
-second_title: Aspose.Words for .NET API 参考
-description: MailMergeSettings 财产. 指定数据源中包含电子邮件地址的列默认值为空字符串
+linktitle: AddressFieldName
+articleTitle: AddressFieldName
+second_title: 用于 .NET 的 Aspose.Words
+description: MailMergeSettings AddressFieldName 财产. 指定数据源中包含电子邮件地址的列默认值为空字符串 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.settings/mailmergesettings/addressfieldname/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.settings/mailmergesettings/addressfieldname/
 public string AddressFieldName { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何在连接到外部数据源时执行邮件合并。
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "MailMerge.OdsoEmail.docx");
 ### 也可以看看
 
 * class [MailMergeSettings](../)
-* 命名空间 [Aspose.Words.Settings](../../mailmergesettings/)
+* 命名空间 [Aspose.Words.Settings](../../../aspose.words.settings/)
 * 部件 [Aspose.Words](../../../)
-
-

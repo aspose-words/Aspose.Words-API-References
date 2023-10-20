@@ -1,7 +1,9 @@
 ---
 title: FieldSeq.ResetHeadingLevel
-second_title: Aspose.Words لمراجع .NET API
-description: FieldSeq ملكية. الحصول على رقم صحيح يمثل مستوى العنوان أو تعيينه لإعادة تعيين الرقم التسلسلي إليه. إرجاع 1 إذا كان الرقم غائبًا.
+linktitle: ResetHeadingLevel
+articleTitle: ResetHeadingLevel
+second_title: Aspose.Words لـ .NET
+description: FieldSeq ResetHeadingLevel ملكية. الحصول على رقم صحيح يمثل مستوى العنوان أو تعيينه لإعادة تعيين الرقم التسلسلي إليه. إرجاع 1 إذا كان الرقم غائبًا في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.fields/fieldseq/resetheadinglevel/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldseq/resetheadinglevel/
 public string ResetHeadingLevel { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يظهر إنشاء الترقيم باستخدام حقول SEQ.
 
@@ -78,7 +80,5 @@ doc.Save(ArtifactsDir + "Field.SEQ.ResetNumbering.docx");
 ### أنظر أيضا
 
 * class [FieldSeq](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldseq/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

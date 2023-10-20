@@ -1,7 +1,9 @@
 ---
 title: MarkdownSaveOptions.ImagesFolderAlias
-second_title: Справочник по API Aspose.Words для .NET
-description: MarkdownSaveOptions свойство. Указывает имя папки используемой для создания URI изображений записываемых в документ. По умолчанию  пустая строка.
+linktitle: ImagesFolderAlias
+articleTitle: ImagesFolderAlias
+second_title: Aspose.Words для .NET
+description: MarkdownSaveOptions ImagesFolderAlias свойство. Указывает имя папки используемой для создания URI изображений записываемых в документ. По умолчанию  пустая строка на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.saving/markdownsaveoptions/imagesfolderalias/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.saving/markdownsaveoptions/imagesfolderalias/
 public string ImagesFolderAlias { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Когда вы сохраняете[`Document`](../../../aspose.words/document/) вMarkdown format, Aspose.Words необходимо сохранить все изображения, встроенные в документ, как отдельные файлы. [`ImagesFolder`](../imagesfolder/) позволяет указать, где будут сохраняться изображения and `ImagesFolderAlias` позволяет указать, как будут создаваться URI изображения.
 
@@ -24,7 +26,7 @@ public string ImagesFolderAlias { get; set; }
 
 Если`ImagesFolderAlias`установлено значение '.' (точка), то файл изображения name будет записан в Markdown без пути независимо от других параметров.
 
-### Примеры
+## Примеры
 
 Показывает, как указать имя папки, используемой для создания URI изображений.
 
@@ -69,7 +71,5 @@ builder.Document.Save(ArtifactsDir + "MarkdownSaveOptions.ImagesFolder.md", save
 ### Смотрите также
 
 * class [MarkdownSaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../markdownsaveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class DigitalSignatureCollection
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.DigitalSignatures.DigitalSignatureCollection فصل. يوفر مجموعة للقراءة فقط من التوقيعات الرقمية المرفقة بالمستند.
+title: DigitalSignatureCollection Class
+linktitle: DigitalSignatureCollection
+articleTitle: DigitalSignatureCollection
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.DigitalSignatures.DigitalSignatureCollection فصل. يوفر مجموعة للقراءة فقط من التوقيعات الرقمية المرفقة بالمستند في C#.
 type: docs
 weight: 390
 url: /ar/net/aspose.words.digitalsignatures/digitalsignaturecollection/
@@ -36,11 +38,11 @@ public class DigitalSignatureCollection : IEnumerable<DigitalSignature>
 | --- | --- |
 | [GetEnumerator](../../aspose.words.digitalsignatures/digitalsignaturecollection/getenumerator/)() | يُرجع كائن عداد القاموس الذي يمكن استخدامه للتكرار على كافة العناصر الموجودة في المجموعة. |
 
-### ملاحظات
+## ملاحظات
 
 [`DigitalSignatures`](../../aspose.words/document/digitalsignatures/)
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التحقق من صحة وعرض المعلومات حول كل توقيع في المستند.
 
@@ -102,5 +104,3 @@ Assert.AreEqual("CN=Morzal.Me", signedDoc.DigitalSignatures[0].SubjectName);
 * class [DigitalSignature](../digitalsignature/)
 * مساحة الاسم [Aspose.Words.DigitalSignatures](../../aspose.words.digitalsignatures/)
 * المجسم [Aspose.Words](../../)
-
-

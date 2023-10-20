@@ -1,7 +1,9 @@
 ---
 title: KnownTypeSet.Count
-second_title: Aspose.Words for .NET API 参考
-description: KnownTypeSet 财产. 获取集合中的项目数
+linktitle: Count
+articleTitle: Count
+second_title: 用于 .NET 的 Aspose.Words
+description: KnownTypeSet Count 财产. 获取集合中的项目数 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.reporting/knowntypeset/count/
@@ -17,7 +19,5 @@ public int Count { get; }
 ### 也可以看看
 
 * class [KnownTypeSet](../)
-* 命名空间 [Aspose.Words.Reporting](../../knowntypeset/)
+* 命名空间 [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * 部件 [Aspose.Words](../../../)
-
-

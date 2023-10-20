@@ -1,7 +1,9 @@
 ---
 title: Revision.Reject
-second_title: Aspose.Words för .NET API Referens
-description: Revision metod. Avvisa denna version.
+linktitle: Reject
+articleTitle: Reject
+second_title: Aspose.Words för .NET
+description: Revision Reject metod. Avvisa denna version i C#.
 type: docs
 weight: 80
 url: /sv/net/aspose.words/revision/reject/
@@ -14,7 +16,7 @@ Avvisa denna version.
 public void Reject()
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med revisioner i ett dokument.
 
@@ -97,7 +99,5 @@ Assert.AreEqual("This is revision #1. \rThis is revision #2.", doc.GetText().Tri
 ### Se även
 
 * class [Revision](../)
-* namnutrymme [Aspose.Words](../../revision/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

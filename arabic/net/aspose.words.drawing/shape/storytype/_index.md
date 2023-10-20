@@ -1,7 +1,9 @@
 ---
 title: Shape.StoryType
-second_title: Aspose.Words لمراجع .NET API
-description: Shape ملكية. إرجاعTextbox .
+linktitle: StoryType
+articleTitle: StoryType
+second_title: Aspose.Words لـ .NET
+description: Shape StoryType ملكية. إرجاعTextbox  في C#.
 type: docs
 weight: 170
 url: /ar/net/aspose.words.drawing/shape/storytype/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing/shape/storytype/
 public StoryType StoryType { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التكرار على كافة الأشكال في المستند.
 
@@ -138,7 +140,5 @@ private class ShapeAppearancePrinter : DocumentVisitor
 
 * enum [StoryType](../../../aspose.words/storytype/)
 * class [Shape](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../shape/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

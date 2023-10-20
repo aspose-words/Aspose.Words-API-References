@@ -1,7 +1,9 @@
 ---
 title: Node.CustomNodeId
-second_title: Aspose.Words för .NET API Referens
-description: Node fast egendom. Anger anpassad nodidentifierare.
+linktitle: CustomNodeId
+articleTitle: CustomNodeId
+second_title: Aspose.Words för .NET
+description: Node CustomNodeId fast egendom. Anger anpassad nodidentifierare i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words/node/customnodeid/
@@ -14,7 +16,7 @@ Anger anpassad nodidentifierare.
 public int CustomNodeId { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Standard är noll.
 
@@ -22,7 +24,7 @@ Denna identifierare kan ställas in och användas godtyckligt. Till exempel som 
 
 Viktig notering, specificerat värde sparas inte i en utdatafil och existerar endast under nodens livslängd.
 
-### Exempel
+## Exempel
 
 Visar hur man går igenom en sammansatt nods samling av undernoder.
 
@@ -67,7 +69,5 @@ foreach (Node child in children)
 ### Se även
 
 * class [Node](../)
-* namnutrymme [Aspose.Words](../../node/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

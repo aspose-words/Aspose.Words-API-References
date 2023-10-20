@@ -1,9 +1,11 @@
 ---
 title: Stroke.Color
-second_title: Aspose.Words لمراجع .NET API
-description: Stroke ملكية. يحدد لون الحد.
+linktitle: Color
+articleTitle: Color
+second_title: Aspose.Words لـ .NET
+description: Stroke Color ملكية. يحدد لون الحد في C#.
 type: docs
-weight: 30
+weight: 20
 url: /ar/net/aspose.words.drawing/stroke/color/
 ---
 ## Stroke.Color property
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.drawing/stroke/color/
 public Color Color { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 القيمة الافتراضية ل[`Shape`](../../shape/) is Black.
 
-### أمثلة
+## أمثلة
 
 يظهر لإنشاء مجموعة متنوعة من الأشكال.
 
@@ -93,7 +95,5 @@ doc.Save(ArtifactsDir + "Drawing.VariousShapes.docx");
 ### أنظر أيضا
 
 * class [Stroke](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../stroke/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

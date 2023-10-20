@@ -1,7 +1,9 @@
 ---
 title: PhysicalFontInfo.Version
-second_title: Aspose.Words per .NET API Reference
-description: PhysicalFontInfo proprietà. Stringa della versione del carattere.
+linktitle: Version
+articleTitle: Version
+second_title: Aspose.Words per .NET
+description: PhysicalFontInfo Version proprietà. Stringa della versione del carattere in C#.
 type: docs
 weight: 40
 url: /it/net/aspose.words.fonts/physicalfontinfo/version/
@@ -14,7 +16,7 @@ Stringa della versione del carattere.
 public string Version { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come elencare i caratteri disponibili.
 
@@ -34,7 +36,5 @@ foreach (PhysicalFontInfo fontInfo in folderFontSource[0].GetAvailableFonts())
 ### Guarda anche
 
 * class [PhysicalFontInfo](../)
-* spazio dei nomi [Aspose.Words.Fonts](../../physicalfontinfo/)
+* spazio dei nomi [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class OleFormat
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Drawing.OleFormat classe. Permet daccéder aux données dun objet OLE ou dun contrôle ActiveX.
+title: OleFormat Class
+linktitle: OleFormat
+articleTitle: OleFormat
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Drawing.OleFormat classe. Permet daccéder aux données dun objet OLE ou dun contrôle ActiveX en C#.
 type: docs
 weight: 1150
 url: /fr/net/aspose.words.drawing/oleformat/
@@ -38,16 +40,16 @@ public class OleFormat
 
 | Nom | La description |
 | --- | --- |
-| [GetOleEntry](../../aspose.words.drawing/oleformat/getoleentry/)(string) | Obtient la saisie des données de l'objet OLE. |
+| [GetOleEntry](../../aspose.words.drawing/oleformat/getoleentry/)(*string*) | Obtient la saisie des données de l'objet OLE. |
 | [GetRawData](../../aspose.words.drawing/oleformat/getrawdata/)() | Obtient les données brutes de l'objet OLE. |
-| [Save](../../aspose.words.drawing/oleformat/save/#save)(Stream) | Enregistre les données de l'objet incorporé dans le flux spécifié. |
-| [Save](../../aspose.words.drawing/oleformat/save/#save_1)(string) | Enregistre les données de l'objet incorporé dans un fichier portant le nom spécifié. |
+| [Save](../../aspose.words.drawing/oleformat/save/#save)(*Stream*) | Enregistre les données de l'objet incorporé dans le flux spécifié. |
+| [Save](../../aspose.words.drawing/oleformat/save/#save_1)(*string*) | Enregistre les données de l'objet incorporé dans un fichier portant le nom spécifié. |
 
-### Remarques
+## Remarques
 
 Utilisez le[`OleFormat`](../shape/oleformat/)propriété pour accéder aux données d'un objet OLE. Vous ne créez pas d'instances du`OleFormat` classe directement.
 
-### Exemples
+## Exemples
 
 Montre comment extraire des objets OLE incorporés dans des fichiers.
 
@@ -83,5 +85,3 @@ oleFormat.Save(ArtifactsDir + "OLE spreadsheet saved directly" + oleFormat.Sugge
 
 * espace de noms [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * Assemblée [Aspose.Words](../../)
-
-

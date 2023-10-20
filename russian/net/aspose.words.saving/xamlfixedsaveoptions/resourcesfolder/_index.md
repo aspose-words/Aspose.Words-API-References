@@ -1,7 +1,9 @@
 ---
 title: XamlFixedSaveOptions.ResourcesFolder
-second_title: Справочник по API Aspose.Words для .NET
-description: XamlFixedSaveOptions свойство. Указывает физическую папку в которой сохраняются ресурсы изображения и шрифты при экспорте документа в формат Xaml с фиксированной страницей. Значение по умолчанию нулевой .
+linktitle: ResourcesFolder
+articleTitle: ResourcesFolder
+second_title: Aspose.Words для .NET
+description: XamlFixedSaveOptions ResourcesFolder свойство. Указывает физическую папку в которой сохраняются ресурсы изображения и шрифты при экспорте документа в формат Xaml с фиксированной страницей. Значение по умолчанию нулевой  на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.saving/xamlfixedsaveoptions/resourcesfolder/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.saving/xamlfixedsaveoptions/resourcesfolder/
 public string ResourcesFolder { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Когда вы сохраняете[`Document`](../../../aspose.words/document/) В формате Xaml с фиксированной страницей Aspose.Words необходимо сохранить изображения all , встроенные в документ, как отдельные файлы.`ResourcesFolder` позволяет указать, где будут сохраняться изображения и[`ResourcesFolderAlias`](../resourcesfolderalias/) позволяет указать, как будут создаваться URI изображения.
 
@@ -22,7 +24,7 @@ public string ResourcesFolder { get; set; }
 
 Если вы сохраняете документ в поток, Aspose.Words не имеет папки для сохранения изображений, , но все равно необходимо где-то сохранять изображения. В этом случае вам необходимо указать доступную папку с помощью`ResourcesFolder` свойство
 
-### Примеры
+## Примеры
 
 Показывает, как распечатать URI связанных ресурсов, созданных при преобразовании документа в формат .xaml фиксированной формы.
 
@@ -85,7 +87,5 @@ private class ResourceUriPrinter : IResourceSavingCallback
 ### Смотрите также
 
 * class [XamlFixedSaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../xamlfixedsaveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

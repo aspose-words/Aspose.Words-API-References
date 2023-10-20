@@ -1,9 +1,11 @@
 ---
 title: Fill.Opacity
-second_title: Aspose.Words لمراجع .NET API
-description: Fill ملكية. الحصول على أو تعيين درجة عتامة التعبئة المحددة كقيمة تتراوح بين 0.0 واضح و1.0 معتم.
+linktitle: Opacity
+articleTitle: Opacity
+second_title: Aspose.Words لـ .NET
+description: Fill Opacity ملكية. الحصول على أو تعيين درجة عتامة التعبئة المحددة كقيمة تتراوح بين 0.0 واضح و1.0 معتم في C#.
 type: docs
-weight: 150
+weight: 140
 url: /ar/net/aspose.words.drawing/fill/opacity/
 ---
 ## Fill.Opacity property
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.drawing/fill/opacity/
 public double Opacity { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 هذه الخاصية هي عكس الملكية[`Transparency`](../transparency/).
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعبئة الشكل بلون خالص.
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "Shape.Fill.docx");
 ### أنظر أيضا
 
 * class [Fill](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../fill/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

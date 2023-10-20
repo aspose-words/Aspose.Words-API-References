@@ -1,7 +1,9 @@
 ---
 title: ControlChar.LineBreakChar
-second_title: Aspose.Words für .NET-API-Referenz
-description: ControlChar veld. Zeilenumbruchzeichen char11 oder v.
+linktitle: LineBreakChar
+articleTitle: LineBreakChar
+second_title: Aspose.Words für .NET
+description: ControlChar LineBreakChar veld. Zeilenumbruchzeichen char11 oder v in C#.
 type: docs
 weight: 130
 url: /de/net/aspose.words/controlchar/linebreakchar/
@@ -14,7 +16,7 @@ Zeilenumbruchzeichen: (char)11 oder „\v“.
 public const char LineBreakChar;
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man einem Dokument verschiedene Steuerzeichen hinzufügt.
 
@@ -86,7 +88,5 @@ Assert.AreEqual(Convert.ToChar(ControlChar.ColumnBreak), ControlChar.ColumnBreak
 ### Siehe auch
 
 * class [ControlChar](../)
-* namensraum [Aspose.Words](../../controlchar/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,9 +1,11 @@
 ---
 title: CompositeNode.SelectNodes
-second_title: Aspose.Words for .NET API 参考
-description: CompositeNode 方法. 选择与 XPath 表达式匹配的节点列表
+linktitle: SelectNodes
+articleTitle: SelectNodes
+second_title: 用于 .NET 的 Aspose.Words
+description: CompositeNode SelectNodes 方法. 选择与 XPath 表达式匹配的节点列表 在 C#.
 type: docs
-weight: 210
+weight: 190
 url: /zh/net/aspose.words/compositenode/selectnodes/
 ---
 ## CompositeNode.SelectNodes method
@@ -22,11 +24,11 @@ public NodeList SelectNodes(string xpath)
 
 与 XPath 查询匹配的节点列表。
 
-### 评论
+## 评论
 
 目前仅支持带有元素名称的表达式。不支持使用属性名称的表达式 。
 
-### 例子
+## 例子
 
 演示如何使用 XPath 表达式来测试节点是否位于字段内。
 
@@ -75,7 +77,5 @@ Assert.AreEqual(typeof(Paragraph), node.GetType());
 
 * class [NodeList](../../nodelist/)
 * class [CompositeNode](../)
-* 命名空间 [Aspose.Words](../../compositenode/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

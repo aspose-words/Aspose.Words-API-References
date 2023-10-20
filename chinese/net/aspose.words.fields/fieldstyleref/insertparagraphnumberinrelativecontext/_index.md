@@ -1,7 +1,9 @@
 ---
 title: FieldStyleRef.InsertParagraphNumberInRelativeContext
-second_title: Aspose.Words for .NET API 参考
-description: FieldStyleRef 财产. 获取或设置是否在相对上下文中插入引用段落的段落编号
+linktitle: InsertParagraphNumberInRelativeContext
+articleTitle: InsertParagraphNumberInRelativeContext
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldStyleRef InsertParagraphNumberInRelativeContext 财产. 获取或设置是否在相对上下文中插入引用段落的段落编号 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.fields/fieldstyleref/insertparagraphnumberinrelativecontext/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fieldstyleref/insertparagraphnumberinrelativeco
 public bool InsertParagraphNumberInRelativeContext { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何使用 STYLEREF 字段。
 
@@ -85,7 +87,5 @@ doc.Save(ArtifactsDir + "Field.STYLEREF.docx");
 ### 也可以看看
 
 * class [FieldStyleRef](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldstyleref/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

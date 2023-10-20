@@ -1,7 +1,9 @@
 ---
-title: Class DigitalSignatureUtil
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.DigitalSignatures.DigitalSignatureUtil فصل. يوفر طرقًا لتوقيع المستند.
+title: DigitalSignatureUtil Class
+linktitle: DigitalSignatureUtil
+articleTitle: DigitalSignatureUtil
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.DigitalSignatures.DigitalSignatureUtil فصل. يوفر طرقًا لتوقيع المستند في C#.
 type: docs
 weight: 410
 url: /ar/net/aspose.words.digitalsignatures/digitalsignatureutil/
@@ -20,22 +22,22 @@ public static class DigitalSignatureUtil
 
 | اسم | وصف |
 | --- | --- |
-| static [LoadSignatures](../../aspose.words.digitalsignatures/digitalsignatureutil/loadsignatures/#loadsignatures)(Stream) | تحميل التوقيعات الرقمية من المستند باستخدام الدفق. |
-| static [LoadSignatures](../../aspose.words.digitalsignatures/digitalsignatureutil/loadsignatures/#loadsignatures_1)(string) | تحميل التوقيعات الرقمية من المستند. |
-| static [RemoveAllSignatures](../../aspose.words.digitalsignatures/digitalsignatureutil/removeallsignatures/#removeallsignatures)(Stream, Stream) | إزالة كافة التوقيعات الرقمية من المستند في التدفق المصدر وكتابة المستند غير الموقع إلى التدفق الوجهة. |
-| static [RemoveAllSignatures](../../aspose.words.digitalsignatures/digitalsignatureutil/removeallsignatures/#removeallsignatures_1)(string, string) | إزالة كافة التوقيعات الرقمية من الملف المصدر وكتابة الملف غير الموقع إلى الملف الوجهة. |
-| static [Sign](../../aspose.words.digitalsignatures/digitalsignatureutil/sign/#sign)(Stream, Stream, CertificateHolder) | يوقع المستند المصدر باستخدام المحدد[`CertificateHolder`](../certificateholder/)باستخدام التوقيع الرقمي ويكتب المستند الموقع إلى التدفق الوجهة. |
-| static [Sign](../../aspose.words.digitalsignatures/digitalsignatureutil/sign/#sign_2)(string, string, CertificateHolder) | يوقع المستند المصدر باستخدام المحدد[`CertificateHolder`](../certificateholder/) باستخدام التوقيع الرقمي ويكتب المستند الموقع إلى الملف الوجهة. |
-| static [Sign](../../aspose.words.digitalsignatures/digitalsignatureutil/sign/#sign_1)(Stream, Stream, CertificateHolder, SignOptions) | يوقع المستند المصدر باستخدام المحدد[`CertificateHolder`](../certificateholder/) و[`SignOptions`](../signoptions/) مع التوقيع الرقمي ويكتب المستند الموقع إلى التدفق الوجهة. |
-| static [Sign](../../aspose.words.digitalsignatures/digitalsignatureutil/sign/#sign_3)(string, string, CertificateHolder, SignOptions) | يوقع المستند المصدر باستخدام المحدد[`CertificateHolder`](../certificateholder/) و[`SignOptions`](../signoptions/) مع التوقيع الرقمي ويكتب المستند الموقع إلى الملف الوجهة. |
+| static [LoadSignatures](../../aspose.words.digitalsignatures/digitalsignatureutil/loadsignatures/#loadsignatures)(*Stream*) | تحميل التوقيعات الرقمية من المستند باستخدام الدفق. |
+| static [LoadSignatures](../../aspose.words.digitalsignatures/digitalsignatureutil/loadsignatures/#loadsignatures_1)(*string*) | تحميل التوقيعات الرقمية من المستند. |
+| static [RemoveAllSignatures](../../aspose.words.digitalsignatures/digitalsignatureutil/removeallsignatures/#removeallsignatures)(*Stream, Stream*) | إزالة كافة التوقيعات الرقمية من المستند في التدفق المصدر وكتابة المستند غير الموقع إلى التدفق الوجهة. |
+| static [RemoveAllSignatures](../../aspose.words.digitalsignatures/digitalsignatureutil/removeallsignatures/#removeallsignatures_1)(*string, string*) | إزالة كافة التوقيعات الرقمية من الملف المصدر وكتابة الملف غير الموقع إلى الملف الوجهة. |
+| static [Sign](../../aspose.words.digitalsignatures/digitalsignatureutil/sign/#sign)(*Stream, Stream, [CertificateHolder](../certificateholder/)*) | يوقع المستند المصدر باستخدام المحدد[`CertificateHolder`](../certificateholder/)باستخدام التوقيع الرقمي ويكتب المستند الموقع إلى التدفق الوجهة. |
+| static [Sign](../../aspose.words.digitalsignatures/digitalsignatureutil/sign/#sign_2)(*string, string, [CertificateHolder](../certificateholder/)*) | يوقع المستند المصدر باستخدام المحدد[`CertificateHolder`](../certificateholder/) باستخدام التوقيع الرقمي ويكتب المستند الموقع إلى الملف الوجهة. |
+| static [Sign](../../aspose.words.digitalsignatures/digitalsignatureutil/sign/#sign_1)(*Stream, Stream, [CertificateHolder](../certificateholder/), [SignOptions](../signoptions/)*) | يوقع المستند المصدر باستخدام المحدد[`CertificateHolder`](../certificateholder/) و[`SignOptions`](../signoptions/) مع التوقيع الرقمي ويكتب المستند الموقع إلى التدفق الوجهة. |
+| static [Sign](../../aspose.words.digitalsignatures/digitalsignatureutil/sign/#sign_3)(*string, string, [CertificateHolder](../certificateholder/), [SignOptions](../signoptions/)*) | يوقع المستند المصدر باستخدام المحدد[`CertificateHolder`](../certificateholder/) و[`SignOptions`](../signoptions/) مع التوقيع الرقمي ويكتب المستند الموقع إلى الملف الوجهة. |
 
-### ملاحظات
+## ملاحظات
 
 وبما أن التوقيع الرقمي يعمل مع محتوى الملف بدلاً من نموذج كائن المستند، فقد تم وضع هذه الأساليب في فئة منفصلة.
 
 التنسيقات المدعومة هيDoc وDocx.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحميل التوقيعات من مستند موقع رقميًا.
 
@@ -83,5 +85,3 @@ Assert.That(DigitalSignatureUtil.LoadSignatures(ArtifactsDir + "DigitalSignature
 
 * مساحة الاسم [Aspose.Words.DigitalSignatures](../../aspose.words.digitalsignatures/)
 * المجسم [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: PclSaveOptions.FallbackFontName
-second_title: Aspose.Words per .NET API Reference
-description: PclSaveOptions proprietà. Nome del carattere che verrà utilizzato se non viene trovato alcun carattere previsto nelle raccolte di caratteri della stampante e incorporati.
+linktitle: FallbackFontName
+articleTitle: FallbackFontName
+second_title: Aspose.Words per .NET
+description: PclSaveOptions FallbackFontName proprietà. Nome del carattere che verrà utilizzato se non viene trovato alcun carattere previsto nelle raccolte di caratteri della stampante e incorporati in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words.saving/pclsaveoptions/fallbackfontname/
@@ -14,11 +16,11 @@ Nome del carattere che verrà utilizzato se non viene trovato alcun carattere pr
 public string FallbackFontName { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Se non viene trovato alcun fallback, viene generato un avviso e viene utilizzato il carattere "Arial".
 
-### Esempi
+## Esempi
 
 Mostra come dichiarare un carattere che una stampante applicherà al testo stampato come sostituto qualora il carattere originale non fosse disponibile.
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "PclSaveOptions.SetPrinterFont.pcl", saveOptions);
 ### Guarda anche
 
 * class [PclSaveOptions](../)
-* spazio dei nomi [Aspose.Words.Saving](../../pclsaveoptions/)
+* spazio dei nomi [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../../)
-
-

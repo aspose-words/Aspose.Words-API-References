@@ -1,7 +1,9 @@
 ---
 title: PclSaveOptions.FallbackFontName
-second_title: Aspose.Words لمراجع .NET API
-description: PclSaveOptions ملكية. اسم الخط الذي سيتم استخدامه إذا لم يتم العثور على خط متوقع في الطابعة ومجموعات الخطوط المضمنة.
+linktitle: FallbackFontName
+articleTitle: FallbackFontName
+second_title: Aspose.Words لـ .NET
+description: PclSaveOptions FallbackFontName ملكية. اسم الخط الذي سيتم استخدامه إذا لم يتم العثور على خط متوقع في الطابعة ومجموعات الخطوط المضمنة في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.saving/pclsaveoptions/fallbackfontname/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.saving/pclsaveoptions/fallbackfontname/
 public string FallbackFontName { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 إذا لم يتم العثور على أي بديل، فسيتم إنشاء تحذير ويتم استخدام الخط "Arial".
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الإعلان عن الخط الذي ستطبقه الطابعة على النص المطبوع كبديل في حالة عدم توفر الخط الأصلي.
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "PclSaveOptions.SetPrinterFont.pcl", saveOptions);
 ### أنظر أيضا
 
 * class [PclSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../pclsaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

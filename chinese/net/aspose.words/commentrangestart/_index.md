@@ -1,7 +1,9 @@
 ---
-title: Class CommentRangeStart
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.CommentRangeStart 班级. 表示具有关联注释的文本区域的开头
+title: CommentRangeStart Class
+linktitle: CommentRangeStart
+articleTitle: CommentRangeStart
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.CommentRangeStart 班级. 表示具有关联注释的文本区域的开头 在 C#.
 type: docs
 weight: 260
 url: /zh/net/aspose.words/commentrangestart/
@@ -20,7 +22,7 @@ public sealed class CommentRangeStart : Node
 
 | 姓名 | 描述 |
 | --- | --- |
-| [CommentRangeStart](commentrangestart/)(DocumentBase, int) | 初始化此类的新实例。 |
+| [CommentRangeStart](commentrangestart/)(*[DocumentBase](../documentbase/), int*) | 初始化此类的新实例。 |
 
 ## 特性
 
@@ -40,24 +42,24 @@ public sealed class CommentRangeStart : Node
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [Accept](../../aspose.words/commentrangestart/accept/)(DocumentVisitor) | 接受访客。 |
-| [Clone](../../aspose.words/node/clone/)(bool) | 创建节点的副本。 |
-| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | 获取指定的第一个祖先[`NodeType`](../nodetype/). |
-| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | 获取指定对象类型的第一个祖先。 |
+| override [Accept](../../aspose.words/commentrangestart/accept/)(*[DocumentVisitor](../documentvisitor/)*) | 接受访客。 |
+| [Clone](../../aspose.words/node/clone/)(*bool*) | 创建节点的副本。 |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*[NodeType](../nodetype/)*) | 获取指定的第一个祖先[`NodeType`](../nodetype/). |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | 获取指定对象类型的第一个祖先。 |
 | virtual [GetText](../../aspose.words/node/gettext/)() | 获取此节点及其所有子节点的文本。 |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | 根据先序树遍历算法获取下一个节点。 |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | 根据先序树遍历算法获取前一个节点。 |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../node/)*) | 根据先序树遍历算法获取下一个节点。 |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../node/)*) | 根据先序树遍历算法获取前一个节点。 |
 | [Remove](../../aspose.words/node/remove/)() | 将自身从父级中删除。 |
-| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | 将节点的内容导出为指定格式的字符串。 |
-| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | 使用指定的保存选项将节点的内容导出到字符串中。 |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../saveformat/)*) | 将节点的内容导出为指定格式的字符串。 |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | 使用指定的保存选项将节点的内容导出到字符串中。 |
 
-### 评论
+## 评论
 
 要创建锚定到文本区域的注释，您需要创建一个[`Comment`](../comment/)and 然后创建`CommentRangeStart`和[`CommentRangeEnd`](../commentrangeend/)并将它们的标识符 设置为相同[`Id`](../comment/id/)价值。
 
 `CommentRangeStart`是一个内联级节点并且只能是[`Paragraph`](../paragraph/)。
 
-### 例子
+## 例子
 
 展示如何使用文档访问者打印所有注释的内容及其注释范围。
 
@@ -220,5 +222,3 @@ public class CommentInfoPrinter : DocumentVisitor
 * class [Node](../node/)
 * 命名空间 [Aspose.Words](../../aspose.words/)
 * 部件 [Aspose.Words](../../)
-
-

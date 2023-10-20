@@ -1,7 +1,9 @@
 ---
 title: FontSavingArgs.OriginalFileSize
-second_title: Aspose.Words for .NET API 参考
-description: FontSavingArgs 财产. 获取原始字体文件大小
+linktitle: OriginalFileSize
+articleTitle: OriginalFileSize
+second_title: 用于 .NET 的 Aspose.Words
+description: FontSavingArgs OriginalFileSize 财产. 获取原始字体文件大小 在 C#.
 type: docs
 weight: 110
 url: /zh/net/aspose.words.saving/fontsavingargs/originalfilesize/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.saving/fontsavingargs/originalfilesize/
 public int OriginalFileSize { get; }
 ```
 
-### 评论
+## 评论
 
 该属性包含当前字体的原始文件大小（如果已知）。否则它可能为零。
 
-### 例子
+## 例子
 
 演示如何定义保存为 HTML 时导出字体的自定义逻辑。
 
@@ -78,7 +80,5 @@ public class HandleFontSaving : IFontSavingCallback
 ### 也可以看看
 
 * class [FontSavingArgs](../)
-* 命名空间 [Aspose.Words.Saving](../../fontsavingargs/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

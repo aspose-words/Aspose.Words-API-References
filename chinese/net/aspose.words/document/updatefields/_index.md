@@ -1,9 +1,11 @@
 ---
 title: Document.UpdateFields
-second_title: Aspose.Words for .NET API 参考
-description: Document 方法. 更新整个文档中的字段值
+linktitle: UpdateFields
+articleTitle: UpdateFields
+second_title: 用于 .NET 的 Aspose.Words
+description: Document UpdateFields 方法. 更新整个文档中的字段值 在 C#.
 type: docs
-weight: 770
+weight: 750
 url: /zh/net/aspose.words/document/updatefields/
 ---
 ## Document.UpdateFields method
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/document/updatefields/
 public void UpdateFields()
 ```
 
-### 评论
+## 评论
 
 当您打开、修改然后保存文档时，Aspose.Words 不会自动更新字段，而是保持它们不变。 因此，如果您以编程方式修改了文档 并希望确保在保存之前调用此方法，则通常需要调用此方法正确的（计算出的）字段值出现在保存的文档中。
 
@@ -28,7 +30,7 @@ public void UpdateFields()
 
 要更新文档特定部分中的字段，请使用[`UpdateFields`](../../range/updatefields/)。
 
-### 例子
+## 例子
 
 显示使用 QUOTE 字段。
 
@@ -146,7 +148,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertToc.docx");
 ### 也可以看看
 
 * class [Document](../)
-* 命名空间 [Aspose.Words](../../document/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

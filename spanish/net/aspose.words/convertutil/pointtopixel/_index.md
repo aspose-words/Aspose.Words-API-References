@@ -1,12 +1,14 @@
 ---
 title: ConvertUtil.PointToPixel
-second_title: Referencia de API de Aspose.Words para .NET
-description: ConvertUtil método. Convierte puntos a píxeles a 96 ppp.
+linktitle: PointToPixel
+articleTitle: PointToPixel
+second_title: Aspose.Words para .NET
+description: ConvertUtil PointToPixel método. Convierte puntos a píxeles a 96 ppp en C#.
 type: docs
 weight: 60
 url: /es/net/aspose.words/convertutil/pointtopixel/
 ---
-## PointToPixel(double) {#pointtopixel}
+## PointToPixel(*double*) {#pointtopixel}
 
 Convierte puntos a píxeles a 96 ppp.
 
@@ -18,11 +20,11 @@ public static double PointToPixel(double points)
 | --- | --- | --- |
 | points | Double | El valor a convertir. |
 
-### Observaciones
+## Observaciones
 
 1 pulgada equivale a 72 puntos.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo especificar propiedades de página en píxeles.
 
@@ -58,12 +60,12 @@ doc.Save(ArtifactsDir + "UtilityClasses.PointsAndPixels.docx");
 ### Ver también
 
 * class [ConvertUtil](../)
-* espacio de nombres [Aspose.Words](../../convertutil/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
 
 ---
 
-## PointToPixel(double, double) {#pointtopixel_1}
+## PointToPixel(*double, double*) {#pointtopixel_1}
 
 Convierte puntos a píxeles con la resolución de píxeles especificada.
 
@@ -76,11 +78,11 @@ public static double PointToPixel(double points, double resolution)
 | points | Double | El valor a convertir. |
 | resolution | Double | La resolución de ppp (puntos por pulgada). |
 
-### Observaciones
+## Observaciones
 
 1 pulgada equivale a 72 puntos.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo utilizar la conversión de puntos a píxeles con resolución predeterminada y personalizada.
 
@@ -116,7 +118,5 @@ doc.Save(ArtifactsDir + "UtilityClasses.PointsAndPixelsDpi.docx");
 ### Ver también
 
 * class [ConvertUtil](../)
-* espacio de nombres [Aspose.Words](../../convertutil/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

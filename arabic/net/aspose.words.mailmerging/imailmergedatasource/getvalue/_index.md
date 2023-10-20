@@ -1,7 +1,9 @@
 ---
 title: IMailMergeDataSource.GetValue
-second_title: Aspose.Words لمراجع .NET API
-description: IMailMergeDataSource طريقة. إرجاع قيمة لاسم الحقل المحدد أوخطأ شنيع إذا لم يتم العثور على الحقل.
+linktitle: GetValue
+articleTitle: GetValue
+second_title: Aspose.Words لـ .NET
+description: IMailMergeDataSource GetValue طريقة. إرجاع قيمة لاسم الحقل المحدد أوخطأ شنيع إذا لم يتم العثور على الحقل في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.mailmerging/imailmergedatasource/getvalue/
@@ -23,7 +25,7 @@ public bool GetValue(string fieldName, out object fieldValue)
 
 `حقيقي` إذا تم العثور على القيمة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تنفيذ دمج البريد مع مصدر بيانات في شكل كائن مخصص.
 
@@ -137,7 +139,5 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
 ### أنظر أيضا
 
 * interface [IMailMergeDataSource](../)
-* مساحة الاسم [Aspose.Words.MailMerging](../../imailmergedatasource/)
+* مساحة الاسم [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * المجسم [Aspose.Words](../../../)
-
-

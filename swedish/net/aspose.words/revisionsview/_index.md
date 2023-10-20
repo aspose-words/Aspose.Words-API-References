@@ -1,7 +1,9 @@
 ---
-title: Enum RevisionsView
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.RevisionsView uppräkning. Låter dig ange om du vill arbeta med den ursprungliga eller reviderade versionen av ett dokument.
+title: RevisionsView Enum
+linktitle: RevisionsView
+articleTitle: RevisionsView
+second_title: Aspose.Words för .NET
+description: Aspose.Words.RevisionsView uppräkning. Låter dig ange om du vill arbeta med den ursprungliga eller reviderade versionen av ett dokument i C#.
 type: docs
 weight: 4810
 url: /sv/net/aspose.words/revisionsview/
@@ -21,7 +23,7 @@ public enum RevisionsView
 | Original | `0` | Anger originalversionen av ett dokument. |
 | Final | `1` | Anger reviderad version av ett dokument. |
 
-### Exempel
+## Exempel
 
 Visar hur du växlar mellan den reviderade och den ursprungliga vyn av ett dokument.
 
@@ -46,5 +48,3 @@ Assert.AreEqual("a.", paragraphs[2].ListLabel.LabelString);
 
 * namnutrymme [Aspose.Words](../../aspose.words/)
 * hopsättning [Aspose.Words](../../)
-
-

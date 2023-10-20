@@ -1,7 +1,9 @@
 ---
 title: MappedDataFieldCollection.ContainsKey
-second_title: Aspose.Words för .NET API Referens
-description: MappedDataFieldCollection metod. Bestämmer om en mappning från det angivna fältet i dokumentet finns i samlingen.
+linktitle: ContainsKey
+articleTitle: ContainsKey
+second_title: Aspose.Words för .NET
+description: MappedDataFieldCollection ContainsKey metod. Bestämmer om en mappning från det angivna fältet i dokumentet finns i samlingen i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.mailmerging/mappeddatafieldcollection/containskey/
@@ -22,7 +24,7 @@ public bool ContainsKey(string documentFieldName)
 
 `Sann` om föremål finns i samlingen; annat,`falsk`.
 
-### Exempel
+## Exempel
 
 Visar hur man mappar datakolumner och MERGEFIELDs med olika namn så att data överförs mellan dem under en sammankoppling.
 
@@ -107,7 +109,5 @@ private static DataTable CreateSourceTableMappedDataFields()
 ### Se även
 
 * class [MappedDataFieldCollection](../)
-* namnutrymme [Aspose.Words.MailMerging](../../mappeddatafieldcollection/)
+* namnutrymme [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * hopsättning [Aspose.Words](../../../)
-
-

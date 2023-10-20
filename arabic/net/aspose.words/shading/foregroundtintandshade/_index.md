@@ -1,7 +1,9 @@
 ---
 title: Shading.ForegroundTintAndShade
-second_title: Aspose.Words لمراجع .NET API
-description: Shading ملكية. الحصول على أو تعيين قيمة مزدوجة تعمل على تفتيح أو تغميق لون المظهر الأمامي.
+linktitle: ForegroundTintAndShade
+articleTitle: ForegroundTintAndShade
+second_title: Aspose.Words لـ .NET
+description: Shading ForegroundTintAndShade ملكية. الحصول على أو تعيين قيمة مزدوجة تعمل على تفتيح أو تغميق لون المظهر الأمامي في C#.
 type: docs
 weight: 60
 url: /ar/net/aspose.words/shading/foregroundtintandshade/
@@ -14,13 +16,13 @@ url: /ar/net/aspose.words/shading/foregroundtintandshade/
 public double ForegroundTintAndShade { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 تتراوح القيم المسموح بها من -1 (الأغمق) إلى 1 (الأفتح) لهذه الخاصية. الصفر (0) محايد. محاولة تعيين هذه الخاصية إلى قيمة أقل من -1 أو أكثر من 1 تؤدي إلىArgumentOutOfRangeException.
 
 يؤدي تعيين هذه الخاصية لكائن التظليل بألوان غير متعلقة بالموضوع إلى ظهورInvalidOperationException.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين الألوان الأمامية والخلفية لتظليل الملمس.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "Font.ForegroundAndBackground.docx");
 ### أنظر أيضا
 
 * class [Shading](../)
-* مساحة الاسم [Aspose.Words](../../shading/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

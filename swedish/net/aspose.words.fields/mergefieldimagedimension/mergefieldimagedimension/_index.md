@@ -1,12 +1,14 @@
 ---
-title: MergeFieldImageDimension.MergeFieldImageDimension
-second_title: Aspose.Words för .NET API Referens
-description: MergeFieldImageDimension byggare. Skapar en bilddimensionsinstans med det angivna värdet i poäng.
+title: MergeFieldImageDimension
+linktitle: MergeFieldImageDimension
+articleTitle: MergeFieldImageDimension
+second_title: Aspose.Words för .NET
+description: MergeFieldImageDimension byggare. Skapar en bilddimensionsinstans med det angivna värdet i poäng i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.fields/mergefieldimagedimension/mergefieldimagedimension/
 ---
-## MergeFieldImageDimension(double) {#constructor}
+## MergeFieldImageDimension(*double*) {#constructor}
 
 Skapar en bilddimensionsinstans med det angivna värdet i poäng.
 
@@ -18,11 +20,11 @@ public MergeFieldImageDimension(double value)
 | --- | --- | --- |
 | value | Double | Värdet. |
 
-### Anmärkningar
+## Anmärkningar
 
 Du bör använda ett negativt värde för att indikera att det ursprungliga värdet för motsvarande bilddimension ska tillämpas.
 
-### Exempel
+## Exempel
 
 Visar hur du ställer in dimensionerna för bilder när MERGEFIELDS accepterar dem under en sammanfogning.
 
@@ -92,12 +94,12 @@ private class MergedImageResizer : IFieldMergingCallback
 ### Se även
 
 * class [MergeFieldImageDimension](../)
-* namnutrymme [Aspose.Words.Fields](../../mergefieldimagedimension/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## MergeFieldImageDimension(double, MergeFieldImageDimensionUnit) {#constructor_1}
+## MergeFieldImageDimension(*double, [MergeFieldImageDimensionUnit](../../mergefieldimagedimensionunit/)*) {#constructor_1}
 
 Skapar en bilddimensionsinstans med det givna värdet och den givna enheten.
 
@@ -110,11 +112,11 @@ public MergeFieldImageDimension(double value, MergeFieldImageDimensionUnit unit)
 | value | Double | Värdet. |
 | unit | MergeFieldImageDimensionUnit | Enheten. |
 
-### Anmärkningar
+## Anmärkningar
 
 Du bör använda ett negativt värde för att indikera att det ursprungliga värdet för motsvarande bilddimension ska tillämpas.
 
-### Exempel
+## Exempel
 
 Visar hur du ställer in dimensionerna för bilder när MERGEFIELDS accepterar dem under en sammanfogning.
 
@@ -185,7 +187,5 @@ private class MergedImageResizer : IFieldMergingCallback
 
 * enum [MergeFieldImageDimensionUnit](../../mergefieldimagedimensionunit/)
 * class [MergeFieldImageDimension](../)
-* namnutrymme [Aspose.Words.Fields](../../mergefieldimagedimension/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

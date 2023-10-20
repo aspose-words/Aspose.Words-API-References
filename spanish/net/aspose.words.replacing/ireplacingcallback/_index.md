@@ -1,7 +1,9 @@
 ---
-title: Interface IReplacingCallback
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Replacing.IReplacingCallback interfaz. Implemente esta interfaz si desea que se llame a su propio método personalizado durante una operación de búsqueda y reemplazo.
+title: IReplacingCallback Interface
+linktitle: IReplacingCallback
+articleTitle: IReplacingCallback
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Replacing.IReplacingCallback interfaz. Implemente esta interfaz si desea que se llame a su propio método personalizado durante una operación de búsqueda y reemplazo en C#.
 type: docs
 weight: 4630
 url: /es/net/aspose.words.replacing/ireplacingcallback/
@@ -18,9 +20,9 @@ public interface IReplacingCallback
 
 | Nombre | Descripción |
 | --- | --- |
-| [Replacing](../../aspose.words.replacing/ireplacingcallback/replacing/)(ReplacingArgs) | Un método definido por el usuario que se llama durante una operación de reemplazo para cada coincidencia encontrada justo antes de realizar un reemplazo. |
+| [Replacing](../../aspose.words.replacing/ireplacingcallback/replacing/)(*[ReplacingArgs](../replacingargs/)*) | Un método definido por el usuario que se llama durante una operación de reemplazo para cada coincidencia encontrada justo antes de realizar un reemplazo. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo reemplazar todas las apariciones de un patrón de expresión regular con otra cadena, mientras realiza un seguimiento de todos esos reemplazos.
 
@@ -196,5 +198,3 @@ private static void InsertDocument(Node insertionDestination, Document docToInse
 
 * espacio de nombres [Aspose.Words.Replacing](../../aspose.words.replacing/)
 * asamblea [Aspose.Words](../../)
-
-

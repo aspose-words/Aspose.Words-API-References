@@ -1,7 +1,9 @@
 ---
 title: InlineStory.StoryType
-second_title: Справочник по API Aspose.Words для .NET
-description: InlineStory свойство. Возвращает тип истории.
+linktitle: StoryType
+articleTitle: StoryType
+second_title: Aspose.Words для .NET
+description: InlineStory StoryType свойство. Возвращает тип истории на С#.
 type: docs
 weight: 100
 url: /ru/net/aspose.words/inlinestory/storytype/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/inlinestory/storytype/
 public abstract StoryType StoryType { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как вставлять узлы InlineStory.
 
@@ -74,7 +76,5 @@ doc.Save(ArtifactsDir + "InlineStory.InsertInlineStoryNodes.docx");
 
 * enum [StoryType](../../storytype/)
 * class [InlineStory](../)
-* пространство имен [Aspose.Words](../../inlinestory/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

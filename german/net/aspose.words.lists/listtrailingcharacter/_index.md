@@ -1,7 +1,9 @@
 ---
-title: Enum ListTrailingCharacter
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Lists.ListTrailingCharacter opsomming. Gibt das Zeichen an das die Listenbezeichnung vom Text des Absatzes trennt.
+title: ListTrailingCharacter Enum
+linktitle: ListTrailingCharacter
+articleTitle: ListTrailingCharacter
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Lists.ListTrailingCharacter opsomming. Gibt das Zeichen an das die Listenbezeichnung vom Text des Absatzes trennt in C#.
 type: docs
 weight: 3540
 url: /de/net/aspose.words.lists/listtrailingcharacter/
@@ -22,11 +24,11 @@ public enum ListTrailingCharacter
 | Space | `1` | Zwischen der Listenbeschriftung und dem Text des Absatzes wird ein Leerzeichen eingefügt. |
 | Nothing | `2` | Es gibt kein Trennzeichen zwischen der Listenbeschriftung und dem Text des Absatzes. |
 
-### Bemerkungen
+## Bemerkungen
 
 Wird als Wert für verwendet[`TrailingCharacter`](../listlevel/trailingcharacter/) Eigentum.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie bei Verwendung von DocumentBuilder eine benutzerdefinierte Listenformatierung auf Absätze anwenden.
 
@@ -86,5 +88,3 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateCustomList.docx");
 
 * namensraum [Aspose.Words.Lists](../../aspose.words.lists/)
 * Montage [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.ZOrder
-second_title: Aspose.Words für .NET-API-Referenz
-description: ShapeBase eigendom. Bestimmt die Anzeigereihenfolge überlappender Formen.
+linktitle: ZOrder
+articleTitle: ZOrder
+second_title: Aspose.Words für .NET
+description: ShapeBase ZOrder eigendom. Bestimmt die Anzeigereihenfolge überlappender Formen in C#.
 type: docs
 weight: 610
 url: /de/net/aspose.words.drawing/shapebase/zorder/
@@ -14,7 +16,7 @@ Bestimmt die Anzeigereihenfolge überlappender Formen.
 public int ZOrder { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Hat nur Auswirkungen auf Formen der obersten Ebene.
 
@@ -26,7 +28,7 @@ Die Reihenfolge überlappender Formen ist für Formen in der Kopfzeile und im Ha
 
 Die Anzeigereihenfolge untergeordneter Formen in einer Gruppenform wird durch ihre Reihenfolge innerhalb der Gruppenform bestimmt.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Reihenfolge von Formen manipuliert wird.
 
@@ -68,7 +70,5 @@ doc.Save(ArtifactsDir + "Shape.ZOrder.docx");
 ### Siehe auch
 
 * class [ShapeBase](../)
-* namensraum [Aspose.Words.Drawing](../../shapebase/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

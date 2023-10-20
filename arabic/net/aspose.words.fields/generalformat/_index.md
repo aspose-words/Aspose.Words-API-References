@@ -1,7 +1,9 @@
 ---
-title: Enum GeneralFormat
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Fields.GeneralFormat تعداد. يحدد تنسيقًا عامًا يتم تطبيقه على نتيجة رقمية أو نصية أو أي حقل. قد يحتوي الحقل على مجموعة من التنسيقات العامة.
+title: GeneralFormat Enum
+linktitle: GeneralFormat
+articleTitle: GeneralFormat
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Fields.GeneralFormat تعداد. يحدد تنسيقًا عامًا يتم تطبيقه على نتيجة رقمية أو نصية أو أي حقل. قد يحتوي الحقل على مجموعة من التنسيقات العامة في C#.
 type: docs
 weight: 2640
 url: /ar/net/aspose.words.fields/generalformat/
@@ -75,7 +77,7 @@ public enum GeneralFormat
 | MergeFormat | `54` | تنسيق نتيجة الحقل. تعليمات MERGEFORMAT. |
 | MergeFormatInet | `55` | تنسيق نتيجة الحقل. تعليمات MERGEFORMATINET. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تنسيق النتائج الميدانية.
 
@@ -140,5 +142,3 @@ Assert.AreEqual(0, format.GeneralFormats.Count);
 
 * مساحة الاسم [Aspose.Words.Fields](../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: MailMergeSettings.Clear
-second_title: Aspose.Words لمراجع .NET API
-description: MailMergeSettings طريقة. مسح إعدادات دمج البريد بحيث أنه عند حفظ المستند لن يتم حفظ أي إعدادات لدمج البريد وسيصبح مستندًا عاديًا.
+linktitle: Clear
+articleTitle: Clear
+second_title: Aspose.Words لـ .NET
+description: MailMergeSettings Clear طريقة. مسح إعدادات دمج البريد بحيث أنه عند حفظ المستند لن يتم حفظ أي إعدادات لدمج البريد وسيصبح مستندًا عاديًا في C#.
 type: docs
 weight: 180
 url: /ar/net/aspose.words.settings/mailmergesettings/clear/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.settings/mailmergesettings/clear/
 public void Clear()
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تنفيذ عملية دمج البريد أثناء الاتصال بمصدر بيانات خارجي.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "MailMerge.OdsoEmail.docx");
 ### أنظر أيضا
 
 * class [MailMergeSettings](../)
-* مساحة الاسم [Aspose.Words.Settings](../../mailmergesettings/)
+* مساحة الاسم [Aspose.Words.Settings](../../../aspose.words.settings/)
 * المجسم [Aspose.Words](../../../)
-
-

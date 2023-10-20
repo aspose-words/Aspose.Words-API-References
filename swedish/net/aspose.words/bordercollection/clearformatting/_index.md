@@ -1,7 +1,9 @@
 ---
 title: BorderCollection.ClearFormatting
-second_title: Aspose.Words för .NET API Referens
-description: BorderCollection metod. Tar bort alla kanter för ett objekt.
+linktitle: ClearFormatting
+articleTitle: ClearFormatting
+second_title: Aspose.Words för .NET
+description: BorderCollection ClearFormatting metod. Tar bort alla kanter för ett objekt i C#.
 type: docs
 weight: 140
 url: /sv/net/aspose.words/bordercollection/clearformatting/
@@ -14,7 +16,7 @@ Tar bort alla kanter för ett objekt.
 public void ClearFormatting()
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man tar bort alla ramar från alla stycken i ett dokument.
 
@@ -47,7 +49,5 @@ doc.Save(ArtifactsDir + "BorderCollection.RemoveAllBorders.docx");
 ### Se även
 
 * class [BorderCollection](../)
-* namnutrymme [Aspose.Words](../../bordercollection/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

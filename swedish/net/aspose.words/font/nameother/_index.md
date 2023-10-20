@@ -1,7 +1,9 @@
 ---
 title: Font.NameOther
-second_title: Aspose.Words för .NET API Referens
-description: Font fast egendom. Returnerar eller ställer in teckensnittet som används för tecken med teckenkoder från 128 till 255.
+linktitle: NameOther
+articleTitle: NameOther
+second_title: Aspose.Words för .NET
+description: Font NameOther fast egendom. Returnerar eller ställer in teckensnittet som används för tecken med teckenkoder från 128 till 255 i C#.
 type: docs
 weight: 270
 url: /sv/net/aspose.words/font/nameother/
@@ -14,7 +16,7 @@ Returnerar eller ställer in teckensnittet som används för tecken med teckenko
 public string NameOther { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur Microsoft Word kan kombinera två olika typsnitt i en körning.
 
@@ -45,7 +47,5 @@ doc.Save(ArtifactsDir + "Font.NameAscii.docx");
 
 * property [Name](../name/)
 * class [Font](../)
-* namnutrymme [Aspose.Words](../../font/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,9 +1,11 @@
 ---
 title: DocumentBuilder.StartEditableRange
-second_title: Aspose.Words لمراجع .NET API
-description: DocumentBuilder طريقة. يحدد الموضع الحالي في المستند كبداية نطاق قابل للتحرير.
+linktitle: StartEditableRange
+articleTitle: StartEditableRange
+second_title: Aspose.Words لـ .NET
+description: DocumentBuilder StartEditableRange طريقة. يحدد الموضع الحالي في المستند كبداية نطاق قابل للتحرير في C#.
 type: docs
-weight: 640
+weight: 630
 url: /ar/net/aspose.words/documentbuilder/starteditablerange/
 ---
 ## DocumentBuilder.StartEditableRange method
@@ -18,13 +20,13 @@ public EditableRangeStart StartEditableRange()
 
 عقدة بداية النطاق القابل للتحرير التي تم إنشاؤها للتو.
 
-### ملاحظات
+## ملاحظات
 
 يمكن أن يتداخل النطاق القابل للتحرير في المستند ويمتد إلى أي نطاق. لإنشاء نطاق صالح قابل للتحرير، يلزمك الاتصال بكليهما`StartEditableRange` و[`EndEditableRange`](../endeditablerange/) أو[`EndEditableRange`](../endeditablerange/) طُرق.
 
 سيتم تجاهل النطاق القابل للتحرير الذي تم تكوينه بشكل سيئ عند حفظ المستند.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء نطاقات متداخلة قابلة للتحرير.
 
@@ -107,7 +109,5 @@ editableRange.Remove();
 
 * class [EditableRangeStart](../../editablerangestart/)
 * class [DocumentBuilder](../)
-* مساحة الاسم [Aspose.Words](../../documentbuilder/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: MailMerge.TrimWhitespaces
-second_title: Aspose.Words لمراجع .NET API
-description: MailMerge ملكية. الحصول على قيمة أو تعيينها تشير إلى ما إذا كان سيتم اقتطاع المسافات البيضاء الزائدة والبادئة من قيم دمج المراسلات.
+linktitle: TrimWhitespaces
+articleTitle: TrimWhitespaces
+second_title: Aspose.Words لـ .NET
+description: MailMerge TrimWhitespaces ملكية. الحصول على قيمة أو تعيينها تشير إلى ما إذا كان سيتم اقتطاع المسافات البيضاء الزائدة والبادئة من قيم دمج المراسلات في C#.
 type: docs
 weight: 130
 url: /ar/net/aspose.words.mailmerging/mailmerge/trimwhitespaces/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.mailmerging/mailmerge/trimwhitespaces/
 public bool TrimWhitespaces { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 القيمة الافتراضية هي`حقيقي` .
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية اقتطاع المسافات البيضاء من قيم مصدر البيانات أثناء تنفيذ عملية دمج البريد.
 
@@ -37,7 +39,5 @@ Assert.AreEqual(trimWhitespaces ? "hello world!\f" : "\t hello world! \f", doc.G
 ### أنظر أيضا
 
 * class [MailMerge](../)
-* مساحة الاسم [Aspose.Words.MailMerging](../../mailmerge/)
+* مساحة الاسم [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: OdsoRecipientData.Hash
-second_title: Aspose.Words for .NET API 参考
-description: OdsoRecipientData 财产. 表示该记录的哈希码 有时 Microsoft Word 使用Hash整个记录而不是UniqueTag值. 默认值为 0.
+linktitle: Hash
+articleTitle: Hash
+second_title: 用于 .NET 的 Aspose.Words
+description: OdsoRecipientData Hash 财产. 表示该记录的哈希码 有时 Microsoft Word 使用Hash整个记录而不是UniqueTag值. 默认值为 0 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.settings/odsorecipientdata/hash/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.settings/odsorecipientdata/hash/
 public int Hash { get; set; }
 ```
 
-### 例子
+## 例子
 
 显示如何访问指定邮件合并将排除哪些合并数据源记录的数据集合。
 
@@ -54,7 +56,5 @@ Assert.AreEqual(0, dataCollection.Count);
 ### 也可以看看
 
 * class [OdsoRecipientData](../)
-* 命名空间 [Aspose.Words.Settings](../../odsorecipientdata/)
+* 命名空间 [Aspose.Words.Settings](../../../aspose.words.settings/)
 * 部件 [Aspose.Words](../../../)
-
-

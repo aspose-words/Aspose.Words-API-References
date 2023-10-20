@@ -1,7 +1,9 @@
 ---
 title: EditableRange.SingleUser
-second_title: Referencia de API de Aspose.Words para .NET
-description: EditableRange propiedad. Devuelve o establece el usuario único para el rango editable.
+linktitle: SingleUser
+articleTitle: SingleUser
+second_title: Aspose.Words para .NET
+description: EditableRange SingleUser propiedad. Devuelve o establece el usuario único para el rango editable en C#.
 type: docs
 weight: 50
 url: /es/net/aspose.words/editablerange/singleuser/
@@ -14,7 +16,7 @@ Devuelve o establece el usuario único para el rango editable.
 public string SingleUser { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 Este editor se puede almacenar en una de las siguientes formas:
 
@@ -26,7 +28,7 @@ usuario: para usuarios cuyo acceso se autenticará utilizando las credenciales d
 
 No se puede configurar un usuario único y un grupo de editor simultáneamente para el rango editable específico, si uno está configurado, el otro estará claro.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo limitar los derechos de edición de rangos editables a un grupo/usuario específico.
 
@@ -137,7 +139,5 @@ public class EditableRangePrinter : DocumentVisitor
 ### Ver también
 
 * class [EditableRange](../)
-* espacio de nombres [Aspose.Words](../../editablerange/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

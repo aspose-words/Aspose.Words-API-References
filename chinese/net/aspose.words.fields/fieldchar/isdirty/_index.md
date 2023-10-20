@@ -1,7 +1,9 @@
 ---
 title: FieldChar.IsDirty
-second_title: Aspose.Words for .NET API 参考
-description: FieldChar 财产. 获取或设置字段的当前结果是否由于对文档进行的其他修改 而不再正确陈旧
+linktitle: IsDirty
+articleTitle: IsDirty
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldChar IsDirty 财产. 获取或设置字段的当前结果是否由于对文档进行的其他修改 而不再正确陈旧 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.fields/fieldchar/isdirty/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fieldchar/isdirty/
 public bool IsDirty { get; set; }
 ```
 
-### 例子
+## 例子
 
 展示如何使用 FieldStart 节点。
 
@@ -45,7 +47,5 @@ field.Update();
 ### 也可以看看
 
 * class [FieldChar](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldchar/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

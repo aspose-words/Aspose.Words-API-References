@@ -1,7 +1,9 @@
 ---
 title: Paragraph.IsInCell
-second_title: Aspose.Words för .NET API Referens
-description: Paragraph fast egendom. Sant om det här stycket är ett omedelbart barn tillCell  falskt annars.
+linktitle: IsInCell
+articleTitle: IsInCell
+second_title: Aspose.Words för .NET
+description: Paragraph IsInCell fast egendom. Sant om det här stycket är ett omedelbart barn tillCell  falskt annars i C#.
 type: docs
 weight: 100
 url: /sv/net/aspose.words/paragraph/isincell/
@@ -14,7 +16,7 @@ Sant om det här stycket är ett omedelbart barn till[`Cell`](../../../aspose.wo
 public bool IsInCell { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man ställer in ett bord för att hålla ihop på samma sida.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "Table.KeepTableTogether.docx");
 ### Se även
 
 * class [Paragraph](../)
-* namnutrymme [Aspose.Words](../../paragraph/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum AxisTickLabelPosition
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Drawing.Charts.AxisTickLabelPosition opsomming. Gibt die möglichen Positionen für Teilstrichbeschriftungen an.
+title: AxisTickLabelPosition Enum
+linktitle: AxisTickLabelPosition
+articleTitle: AxisTickLabelPosition
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Drawing.Charts.AxisTickLabelPosition opsomming. Gibt die möglichen Positionen für Teilstrichbeschriftungen an in C#.
 type: docs
 weight: 580
 url: /de/net/aspose.words.drawing.charts/axisticklabelposition/
@@ -24,7 +26,7 @@ public enum AxisTickLabelPosition
 | None | `3` | Gibt an, dass die Achsenbeschriftungen nicht gezeichnet werden. |
 | Default | `2` | Gibt den Standardwert der Position der Teilstrichbeschriftungen an. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Diagramm mit Datums-/Uhrzeitwerten eingefügt wird.
 
@@ -79,5 +81,3 @@ doc.Save(ArtifactsDir + "Charts.DateTimeValues.docx");
 
 * namensraum [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../)
-
-

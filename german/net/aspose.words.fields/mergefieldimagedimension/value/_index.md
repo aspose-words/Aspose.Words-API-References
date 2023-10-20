@@ -1,7 +1,9 @@
 ---
 title: MergeFieldImageDimension.Value
-second_title: Aspose.Words für .NET-API-Referenz
-description: MergeFieldImageDimension eigendom. Der Wert.
+linktitle: Value
+articleTitle: Value
+second_title: Aspose.Words für .NET
+description: MergeFieldImageDimension Value eigendom. Der Wert in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.fields/mergefieldimagedimension/value/
@@ -14,11 +16,11 @@ Der Wert.
 public double Value { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Sie sollten einen negativen Wert verwenden, um anzugeben, dass der Originalwert der entsprechenden Bilddimension angewendet werden soll.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Abmessungen von Bildern festgelegt werden, wenn MERGEFIELDS sie während eines Seriendrucks akzeptiert.
 
@@ -88,7 +90,5 @@ private class MergedImageResizer : IFieldMergingCallback
 ### Siehe auch
 
 * class [MergeFieldImageDimension](../)
-* namensraum [Aspose.Words.Fields](../../mergefieldimagedimension/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

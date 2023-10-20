@@ -1,7 +1,9 @@
 ---
 title: Paragraph.IsEndOfDocument
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Paragraph propriété. Vrai si ce paragraphe est le dernier paragraphe de la dernière section du document.
+linktitle: IsEndOfDocument
+articleTitle: IsEndOfDocument
+second_title: Aspose.Words pour .NET
+description: Paragraph IsEndOfDocument propriété. Vrai si ce paragraphe est le dernier paragraphe de la dernière section du document en C#.
 type: docs
 weight: 60
 url: /fr/net/aspose.words/paragraph/isendofdocument/
@@ -14,7 +16,7 @@ Vrai si ce paragraphe est le dernier paragraphe de la dernière section du docum
 public bool IsEndOfDocument { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment insérer un paragraphe dans le document.
 
@@ -46,7 +48,5 @@ Assert.True(builder.CurrentParagraph.IsEndOfDocument);
 ### Voir également
 
 * class [Paragraph](../)
-* espace de noms [Aspose.Words](../../paragraph/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

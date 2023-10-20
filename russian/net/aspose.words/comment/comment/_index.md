@@ -1,12 +1,14 @@
 ---
-title: Comment.Comment
-second_title: Справочник по API Aspose.Words для .NET
-description: Comment строитель. Инициализирует новый экземплярComment класс.
+title: Comment
+linktitle: Comment
+articleTitle: Comment
+second_title: Aspose.Words для .NET
+description: Comment строитель. Инициализирует новый экземплярComment класс на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words/comment/comment/
 ---
-## Comment(DocumentBase) {#constructor}
+## Comment(*[DocumentBase](../../documentbase/)*) {#constructor}
 
 Инициализирует новый экземпляр[`Comment`](../) класс.
 
@@ -18,15 +20,15 @@ public Comment(DocumentBase doc)
 | --- | --- | --- |
 | doc | DocumentBase | Документ владельца. |
 
-### Примечания
+## Примечания
 
 Когда[`Comment`](../) создан, он принадлежит указанному документу, но еще не является частью документа и[`ParentNode`](../../node/parentnode/) является`нулевой`.
 
-Чтобы добавить[`Comment`](../) к использованию документаNode) илиNode) в абзаце, в который вы хотите вставить комментарий.
+Чтобы добавить[`Comment`](../) к использованию документа[`InsertAfter`](../../compositenode/insertafter/) или[`InsertBefore`](../../compositenode/insertbefore/) в абзаце, в который вы хотите вставить комментарий.
 
 После создания комментария не забудьте установить его[`Author`](../author/) , [`Initial`](../initial/) и[`DateTime`](../datetime/) характеристики.
 
-### Примеры
+## Примеры
 
 Показывает, как распечатать содержимое всех комментариев и их диапазоны комментариев с помощью посетителя документов.
 
@@ -188,12 +190,12 @@ public class CommentInfoPrinter : DocumentVisitor
 
 * class [DocumentBase](../../documentbase/)
 * class [Comment](../)
-* пространство имен [Aspose.Words](../../comment/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## Comment(DocumentBase, string, string, DateTime) {#constructor_1}
+## Comment(*[DocumentBase](../../documentbase/), string, string, DateTime*) {#constructor_1}
 
 Инициализирует новый экземпляр[`Comment`](../) класс.
 
@@ -208,7 +210,7 @@ public Comment(DocumentBase doc, string author, string initial, DateTime dateTim
 | initial | String | Инициалы автора комментария. Не может быть`нулевой`. |
 | dateTime | DateTime | Дата и время комментария. |
 
-### Примеры
+## Примеры
 
 Показывает, как добавить комментарий к абзацу.
 
@@ -232,7 +234,5 @@ doc.Save(ArtifactsDir + "InlineStory.AddComment.docx");
 
 * class [DocumentBase](../../documentbase/)
 * class [Comment](../)
-* пространство имен [Aspose.Words](../../comment/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

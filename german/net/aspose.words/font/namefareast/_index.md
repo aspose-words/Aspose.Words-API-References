@@ -1,7 +1,9 @@
 ---
 title: Font.NameFarEast
-second_title: Aspose.Words für .NET-API-Referenz
-description: Font eigendom. Gibt einen ostasiatischen Schriftartnamen zurück oder legt diesen fest.
+linktitle: NameFarEast
+articleTitle: NameFarEast
+second_title: Aspose.Words für .NET
+description: Font NameFarEast eigendom. Gibt einen ostasiatischen Schriftartnamen zurück oder legt diesen fest in C#.
 type: docs
 weight: 260
 url: /de/net/aspose.words/font/namefareast/
@@ -14,7 +16,7 @@ Gibt einen ostasiatischen Schriftartnamen zurück oder legt diesen fest.
 public string NameFarEast { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man Text in einer fernöstlichen Sprache einfügt und formatiert.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "Font.FarEast.docx");
 
 * property [Name](../name/)
 * class [Font](../)
-* namensraum [Aspose.Words](../../font/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

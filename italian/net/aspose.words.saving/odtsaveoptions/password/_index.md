@@ -1,7 +1,9 @@
 ---
 title: OdtSaveOptions.Password
-second_title: Aspose.Words per .NET API Reference
-description: OdtSaveOptions proprietà. Ottiene o imposta una password per crittografare il documento.
+linktitle: Password
+articleTitle: Password
+second_title: Aspose.Words per .NET
+description: OdtSaveOptions Password proprietà. Ottiene o imposta una password per crittografare il documento in C#.
 type: docs
 weight: 40
 url: /it/net/aspose.words.saving/odtsaveoptions/password/
@@ -14,11 +16,11 @@ Ottiene o imposta una password per crittografare il documento.
 public string Password { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Per salvare il documento senza crittografia, questa proprietà dovrebbe essere`nullo` o stringa vuota.
 
-### Esempi
+## Esempi
 
 Mostra come crittografare un documento ODT/OTT salvato con una password e quindi caricarlo utilizzando Aspose.Words.
 
@@ -53,7 +55,5 @@ Assert.AreEqual("Hello world!", doc.GetText().Trim());
 ### Guarda anche
 
 * class [OdtSaveOptions](../)
-* spazio dei nomi [Aspose.Words.Saving](../../odtsaveoptions/)
+* spazio dei nomi [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../../)
-
-

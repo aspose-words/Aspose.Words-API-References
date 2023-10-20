@@ -1,7 +1,9 @@
 ---
 title: ImageFieldMergingArgs.Shape
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ImageFieldMergingArgs propriété. Spécifie la forme que le moteur de publipostage doit insérer dans le document.
+linktitle: Shape
+articleTitle: Shape
+second_title: Aspose.Words pour .NET
+description: ImageFieldMergingArgs Shape propriété. Spécifie la forme que le moteur de publipostage doit insérer dans le document en C#.
 type: docs
 weight: 60
 url: /fr/net/aspose.words.mailmerging/imagefieldmergingargs/shape/
@@ -14,7 +16,7 @@ Spécifie la forme que le moteur de publipostage doit insérer dans le document.
 public Shape Shape { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 Lorsque cette propriété est spécifiée, le moteur de publipostage ignore toutes les autres propriétés telles que[`ImageFileName`](../imagefilename/) ou[`ImageStream`](../imagestream/) et insère simplement la forme dans le document.
 
@@ -24,7 +26,5 @@ Utilisez cette propriété pour contrôler entièrement le processus de fusion d
 
 * class [Shape](../../../aspose.words.drawing/shape/)
 * class [ImageFieldMergingArgs](../)
-* espace de noms [Aspose.Words.MailMerging](../../imagefieldmergingargs/)
+* espace de noms [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * Assemblée [Aspose.Words](../../../)
-
-

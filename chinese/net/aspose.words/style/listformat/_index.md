@@ -1,7 +1,9 @@
 ---
 title: Style.ListFormat
-second_title: Aspose.Words for .NET API 参考
-description: Style 财产. 提供对段落样式的列表格式属性的访问
+linktitle: ListFormat
+articleTitle: ListFormat
+second_title: 用于 .NET 的 Aspose.Words
+description: Style ListFormat 财产. 提供对段落样式的列表格式属性的访问 在 C#.
 type: docs
 weight: 110
 url: /zh/net/aspose.words/style/listformat/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words/style/listformat/
 public ListFormat ListFormat { get; }
 ```
 
-### 评论
+## 评论
 
 此属性仅对段落样式有效。 对于此属性返回的其他样式类型`无效的`。
 
-### 例子
+## 例子
 
 演示如何创建和使用具有列表格式的段落样式。
 
@@ -51,7 +53,5 @@ builder.Document.Save(ArtifactsDir + "Styles.ParagraphStyleBulletedList.docx");
 
 * class [ListFormat](../../../aspose.words.lists/listformat/)
 * class [Style](../)
-* 命名空间 [Aspose.Words](../../style/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

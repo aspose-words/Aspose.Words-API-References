@@ -1,7 +1,9 @@
 ---
 title: Font.Underline
-second_title: Aspose.Words per .NET API Reference
-description: Font proprietà. Ottiene o imposta il tipo di sottolineatura applicata al carattere.
+linktitle: Underline
+articleTitle: Underline
+second_title: Aspose.Words per .NET
+description: Font Underline proprietà. Ottiene o imposta il tipo di sottolineatura applicata al carattere in C#.
 type: docs
 weight: 530
 url: /it/net/aspose.words/font/underline/
@@ -14,7 +16,7 @@ Ottiene o imposta il tipo di sottolineatura applicata al carattere.
 public Underline Underline { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come configurare lo stile e il colore della sottolineatura del testo.
 
@@ -71,7 +73,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertHyperlink.docx");
 
 * enum [Underline](../../underline/)
 * class [Font](../)
-* spazio dei nomi [Aspose.Words](../../font/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

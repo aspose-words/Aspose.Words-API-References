@@ -1,7 +1,9 @@
 ---
 title: Font.Position
-second_title: Справочник по API Aspose.Words для .NET
-description: Font свойство. Получает или задает положение текста в пунктах относительно базовой линии. Положительное число поднимает текст а отрицательное число опускает его.
+linktitle: Position
+articleTitle: Position
+second_title: Aspose.Words для .NET
+description: Font Position свойство. Получает или задает положение текста в пунктах относительно базовой линии. Положительное число поднимает текст а отрицательное число опускает его на С#.
 type: docs
 weight: 300
 url: /ru/net/aspose.words/font/position/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/font/position/
 public double Position { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как форматировать текст, чтобы сместить его положение.
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "Font.PositionSubscript.docx");
 ### Смотрите также
 
 * class [Font](../)
-* пространство имен [Aspose.Words](../../font/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

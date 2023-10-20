@@ -1,7 +1,9 @@
 ---
 title: MetafileRenderingOptions.EmulateRasterOperations
-second_title: Referencia de API de Aspose.Words para .NET
-description: MetafileRenderingOptions propiedad. Obtiene o establece un valor que determina si se deben emular o no las operaciones ráster.
+linktitle: EmulateRasterOperations
+articleTitle: EmulateRasterOperations
+second_title: Aspose.Words para .NET
+description: MetafileRenderingOptions EmulateRasterOperations propiedad. Obtiene o establece un valor que determina si se deben emular o no las operaciones ráster en C#.
 type: docs
 weight: 30
 url: /es/net/aspose.words.saving/metafilerenderingoptions/emulaterasteroperations/
@@ -14,7 +16,7 @@ Obtiene o establece un valor que determina si se deben emular o no las operacion
 public bool EmulateRasterOperations { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 Se podrían utilizar operaciones ráster específicas en metarchivos. No se pueden representar directamente en gráficos vectoriales. La emulación de operaciones ráster requiere una rasterización parcial de los gráficos vectoriales resultantes, lo que puede afectar el rendimiento de procesamiento del metarchivo .
 
@@ -26,7 +28,7 @@ Esta opción se utiliza sólo cuando el metarchivo se representa como gráficos 
 
 El valor predeterminado es`verdadero`.
 
-### Ejemplos
+## Ejemplos
 
 Los programas agregaron un respaldo a la representación de mapas de bits y cambiaron el tipo de advertencias sobre registros de metarchivos no compatibles.
 
@@ -81,7 +83,5 @@ public class HandleDocumentWarnings : IWarningCallback
 ### Ver también
 
 * class [MetafileRenderingOptions](../)
-* espacio de nombres [Aspose.Words.Saving](../../metafilerenderingoptions/)
+* espacio de nombres [Aspose.Words.Saving](../../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../../)
-
-

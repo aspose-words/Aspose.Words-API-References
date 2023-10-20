@@ -1,7 +1,9 @@
 ---
-title: Enum SectionLayoutMode
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.SectionLayoutMode enum. Specifica la modalità di layout per una sezione consentendo di definire il comportamento della griglia del documento.
+title: SectionLayoutMode Enum
+linktitle: SectionLayoutMode
+articleTitle: SectionLayoutMode
+second_title: Aspose.Words per .NET
+description: Aspose.Words.SectionLayoutMode enum. Specifica la modalità di layout per una sezione consentendo di definire il comportamento della griglia del documento in C#.
 type: docs
 weight: 5750
 url: /it/net/aspose.words/sectionlayoutmode/
@@ -23,7 +25,7 @@ public enum SectionLayoutMode
 | LineGrid | `2` | Specifica che la sezione corrispondente avrà un passo di riga aggiuntivo aggiunto a ciascuna riga al suo interno per mantenere il numero specificato di righe per pagina. |
 | SnapToChars | `3` | Specifica che la sezione corrispondente dovrà avere sia il passo di riga aggiuntivo che il passo di carattere aggiunti a ciascuna riga e carattere al suo interno per mantenere un numero specifico di righe per pagina e caratteri per riga. I caratteri verranno allineati automaticamente alla griglia durante la digitazione. |
 
-### Esempi
+## Esempi
 
 Mostra come specificare a per il numero di caratteri che ciascuna riga può contenere.
 
@@ -68,5 +70,3 @@ doc.Save(ArtifactsDir + "PageSetup.LinesPerPage.docx");
 
 * spazio dei nomi [Aspose.Words](../../aspose.words/)
 * assemblea [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: IChartDataPoint.Explosion
-second_title: Aspose.Words per .NET API Reference
-description: IChartDataPoint proprietà. Specifica di quanto il punto dati deve essere spostato dal centro della torta. Può essere negativo negativo significa che la proprietà non è impostata e non deve essere applicata alcuna esplosione. Si applica solo ai grafici a torta.
+linktitle: Explosion
+articleTitle: Explosion
+second_title: Aspose.Words per .NET
+description: IChartDataPoint Explosion proprietà. Specifica di quanto il punto dati deve essere spostato dal centro della torta. Può essere negativo negativo significa che la proprietà non è impostata e non deve essere applicata alcuna esplosione. Si applica solo ai grafici a torta in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words.drawing.charts/ichartdatapoint/explosion/
@@ -14,7 +16,7 @@ Specifica di quanto il punto dati deve essere spostato dal centro della torta. P
 public int Explosion { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come allontanare le sezioni di un grafico a torta dal centro.
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "Charts.PieChartExplosion.docx");
 ### Guarda anche
 
 * interface [IChartDataPoint](../)
-* spazio dei nomi [Aspose.Words.Drawing.Charts](../../ichartdatapoint/)
+* spazio dei nomi [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * assemblea [Aspose.Words](../../../)
-
-

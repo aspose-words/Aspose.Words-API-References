@@ -1,7 +1,9 @@
 ---
 title: FieldPageRef.BookmarkName
-second_title: Aspose.Words för .NET API Referens
-description: FieldPageRef fast egendom. Hämtar eller ställer in namnet på bokmärket.
+linktitle: BookmarkName
+articleTitle: BookmarkName
+second_title: Aspose.Words för .NET
+description: FieldPageRef BookmarkName fast egendom. Hämtar eller ställer in namnet på bokmärket i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.fields/fieldpageref/bookmarkname/
@@ -14,7 +16,7 @@ Hämtar eller ställer in namnet på bokmärket.
 public string BookmarkName { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar för att infoga PAGEREF-fält för att visa den relativa platsen för bokmärken.
 
@@ -84,7 +86,5 @@ private static void InsertAndNameBookmark(DocumentBuilder builder, string bookma
 ### Se även
 
 * class [FieldPageRef](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldpageref/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: MailMerge.CleanupOptions
-second_title: Aspose.Words för .NET API Referens
-description: MailMerge fast egendom. Hämtar eller ställer in en uppsättning flaggor som anger vilka objekt som ska tas bort under kopplingen.
+linktitle: CleanupOptions
+articleTitle: CleanupOptions
+second_title: Aspose.Words för .NET
+description: MailMerge CleanupOptions fast egendom. Hämtar eller ställer in en uppsättning flaggor som anger vilka objekt som ska tas bort under kopplingen i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.mailmerging/mailmerge/cleanupoptions/
@@ -14,7 +16,7 @@ Hämtar eller ställer in en uppsättning flaggor som anger vilka objekt som ska
 public MailMergeCleanupOptions CleanupOptions { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man tar bort tomma stycken som en sammankoppling kan skapa från sammanslagningsutdatadokumentet.
 
@@ -87,7 +89,5 @@ else
 
 * enum [MailMergeCleanupOptions](../../mailmergecleanupoptions/)
 * class [MailMerge](../)
-* namnutrymme [Aspose.Words.MailMerging](../../mailmerge/)
+* namnutrymme [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * hopsättning [Aspose.Words](../../../)
-
-

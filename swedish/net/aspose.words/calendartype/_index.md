@@ -1,7 +1,9 @@
 ---
-title: Enum CalendarType
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.CalendarType uppräkning. Anger typen av en kalender.
+title: CalendarType Enum
+linktitle: CalendarType
+articleTitle: CalendarType
+second_title: Aspose.Words för .NET
+description: Aspose.Words.CalendarType uppräkning. Anger typen av en kalender i C#.
 type: docs
 weight: 190
 url: /sv/net/aspose.words/calendartype/
@@ -24,7 +26,7 @@ public enum CalendarType
 | SakaEra | `3` | Saka Era-kalendern. |
 | UmAlQura | `4` | Um-al-Qura-kalendern. |
 
-### Exempel
+## Exempel
 
 Visar hur man automatiskt tillämpar ett anpassat format på fältresultat när fälten uppdateras.
 
@@ -162,5 +164,3 @@ private class FieldResultFormatter : IFieldResultFormatter
 
 * namnutrymme [Aspose.Words](../../aspose.words/)
 * hopsättning [Aspose.Words](../../)
-
-

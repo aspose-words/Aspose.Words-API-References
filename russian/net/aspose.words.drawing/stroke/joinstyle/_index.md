@@ -1,9 +1,11 @@
 ---
 title: Stroke.JoinStyle
-second_title: Справочник по API Aspose.Words для .NET
-description: Stroke свойство. Определяет стиль соединения полилинии.
+linktitle: JoinStyle
+articleTitle: JoinStyle
+second_title: Aspose.Words для .NET
+description: Stroke JoinStyle свойство. Определяет стиль соединения полилинии на С#.
 type: docs
-weight: 130
+weight: 120
 url: /ru/net/aspose.words.drawing/stroke/joinstyle/
 ---
 ## Stroke.JoinStyle property
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.drawing/stroke/joinstyle/
 public JoinStyle JoinStyle { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Значение по умолчанию:Round.
 
-### Примеры
+## Примеры
 
 Показывает, как изменить свойства обводки.
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "Shape.Stroke.docx");
 
 * enum [JoinStyle](../../joinstyle/)
 * class [Stroke](../)
-* пространство имен [Aspose.Words.Drawing](../../stroke/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

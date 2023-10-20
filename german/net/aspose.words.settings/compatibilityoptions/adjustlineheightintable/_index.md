@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.AdjustLineHeightInTable
-second_title: Aspose.Words für .NET-API-Referenz
-description: CompatibilityOptions eigendom. Rasterlinienabstand des Dokuments zu Zeilen in Tabellenzellen hinzufügen.
+linktitle: AdjustLineHeightInTable
+articleTitle: AdjustLineHeightInTable
+second_title: Aspose.Words für .NET
+description: CompatibilityOptions AdjustLineHeightInTable eigendom. Rasterlinienabstand des Dokuments zu Zeilen in Tabellenzellen hinzufügen in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words.settings/compatibilityoptions/adjustlineheightintable/
@@ -17,7 +19,5 @@ public bool AdjustLineHeightInTable { get; set; }
 ### Siehe auch
 
 * class [CompatibilityOptions](../)
-* namensraum [Aspose.Words.Settings](../../compatibilityoptions/)
+* namensraum [Aspose.Words.Settings](../../../aspose.words.settings/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: MetafileRenderingOptions.EmulateRenderingToSizeOnPage
-second_title: Aspose.Words for .NET API 参考
-description: MetafileRenderingOptions 财产. 获取或设置一个值该值确定图元文件渲染是根据页面 上的大小模拟图元文件的显示还是以其默认大小显示图元文件
+linktitle: EmulateRenderingToSizeOnPage
+articleTitle: EmulateRenderingToSizeOnPage
+second_title: 用于 .NET 的 Aspose.Words
+description: MetafileRenderingOptions EmulateRenderingToSizeOnPage 财产. 获取或设置一个值该值确定图元文件渲染是根据页面 上的大小模拟图元文件的显示还是以其默认大小显示图元文件 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.saving/metafilerenderingoptions/emulaterenderingtosizeonpage/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.saving/metafilerenderingoptions/emulaterenderingtosize
 public bool EmulateRenderingToSizeOnPage { get; set; }
 ```
 
-### 评论
+## 评论
 
 当图元文件在 MS Word 中显示时，某些图形可能会根据实际图元文件大小（以像素为单位）进行缩放。 即，即使缩放也可能会影响图元文件的显示。
 
@@ -26,7 +28,7 @@ public bool EmulateRenderingToSizeOnPage { get; set; }
 
 默认值为`真的`。
 
-### 例子
+## 例子
 
 展示如何根据页面大小显示图元文件。
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.EmulateRenderingToSizeOnPage.pdf", saveO
 ### 也可以看看
 
 * class [MetafileRenderingOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../metafilerenderingoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

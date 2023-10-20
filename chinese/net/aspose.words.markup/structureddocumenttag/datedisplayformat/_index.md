@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTag.DateDisplayFormat
-second_title: Aspose.Words for .NET API 参考
-description: StructuredDocumentTag 财产. 表示日期显示格式的字符串 不能无效的. 英语美国的日期为mm/dd/yyyy
+linktitle: DateDisplayFormat
+articleTitle: DateDisplayFormat
+second_title: 用于 .NET 的 Aspose.Words
+description: StructuredDocumentTag DateDisplayFormat 财产. 表示日期显示格式的字符串 不能无效的. 英语美国的日期为mm/dd/yyyy 在 C#.
 type: docs
 weight: 90
 url: /zh/net/aspose.words.markup/structureddocumenttag/datedisplayformat/
@@ -14,13 +16,13 @@ url: /zh/net/aspose.words.markup/structureddocumenttag/datedisplayformat/
 public string DateDisplayFormat { get; set; }
 ```
 
-### 评论
+## 评论
 
 访问该属性仅适用于Date SDT 类型.
 
 对于所有其他 SDT 类型，都会发生异常。
 
-### 例子
+## 例子
 
 演示如何提示用户输入带有结构化文档标记的日期。
 
@@ -57,7 +59,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.Date.docx");
 ### 也可以看看
 
 * class [StructuredDocumentTag](../)
-* 命名空间 [Aspose.Words.Markup](../../structureddocumenttag/)
+* 命名空间 [Aspose.Words.Markup](../../../aspose.words.markup/)
 * 部件 [Aspose.Words](../../../)
-
-

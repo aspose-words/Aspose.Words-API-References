@@ -1,7 +1,9 @@
 ---
 title: Font.BoldBi
-second_title: Aspose.Words لمراجع .NET API
-description: Font ملكية. صحيح إذا كان النص من اليمين إلى اليسار منسقاً بالخط الغامق.
+linktitle: BoldBi
+articleTitle: BoldBi
+second_title: Aspose.Words لـ .NET
+description: Font BoldBi ملكية. صحيح إذا كان النص من اليمين إلى اليسار منسقاً بالخط الغامق في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words/font/boldbi/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/font/boldbi/
 public bool BoldBi { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحديد مجموعات منفصلة من إعدادات الخط للنص من اليمين إلى اليسار، ومن اليمين إلى اليسار.
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "Font.Bidi.docx");
 ### أنظر أيضا
 
 * class [Font](../)
-* مساحة الاسم [Aspose.Words](../../font/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

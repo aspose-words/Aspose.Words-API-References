@@ -1,7 +1,9 @@
 ---
 title: FindReplaceOptions.UseLegacyOrder
-second_title: Referencia de API de Aspose.Words para .NET
-description: FindReplaceOptions propiedad. Verdadero indica que una búsqueda de texto se realiza secuencialmente de arriba a abajo considerando los cuadros de texto. El valor predeterminado esFALSO .
+linktitle: UseLegacyOrder
+articleTitle: UseLegacyOrder
+second_title: Aspose.Words para .NET
+description: FindReplaceOptions UseLegacyOrder propiedad. Verdadero indica que una búsqueda de texto se realiza secuencialmente de arriba a abajo considerando los cuadros de texto. El valor predeterminado esFALSO  en C#.
 type: docs
 weight: 170
 url: /es/net/aspose.words.replacing/findreplaceoptions/uselegacyorder/
@@ -14,7 +16,7 @@ Verdadero indica que una búsqueda de texto se realiza secuencialmente de arriba
 public bool UseLegacyOrder { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo cambiar el orden de búsqueda de los nodos al realizar una operación de buscar y reemplazar texto.
 
@@ -71,7 +73,5 @@ private class TextReplacementTracker : IReplacingCallback
 ### Ver también
 
 * class [FindReplaceOptions](../)
-* espacio de nombres [Aspose.Words.Replacing](../../findreplaceoptions/)
+* espacio de nombres [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * asamblea [Aspose.Words](../../../)
-
-

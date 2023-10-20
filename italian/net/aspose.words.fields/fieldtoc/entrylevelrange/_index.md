@@ -1,7 +1,9 @@
 ---
 title: FieldToc.EntryLevelRange
-second_title: Aspose.Words per .NET API Reference
-description: FieldToc proprietà. Ottiene o imposta un intervallo di livelli delle voci del sommario da includere.
+linktitle: EntryLevelRange
+articleTitle: EntryLevelRange
+second_title: Aspose.Words per .NET
+description: FieldToc EntryLevelRange proprietà. Ottiene o imposta un intervallo di livelli delle voci del sommario da includere in C#.
 type: docs
 weight: 60
 url: /it/net/aspose.words.fields/fieldtoc/entrylevelrange/
@@ -14,7 +16,7 @@ Ottiene o imposta un intervallo di livelli delle voci del sommario da includere.
 public string EntryLevelRange { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come inserire un campo TOC e filtrare quali campi TC finiscono come voci.
 
@@ -66,7 +68,5 @@ public void InsertTocEntry(DocumentBuilder builder, string text, string typeIden
 ### Guarda anche
 
 * class [FieldToc](../)
-* spazio dei nomi [Aspose.Words.Fields](../../fieldtoc/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

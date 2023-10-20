@@ -1,7 +1,9 @@
 ---
 title: XmlMapping.XPath
-second_title: Aspose.Words for .NET API 参考
-description: XmlMapping 财产. 返回 XPath 表达式对该表达式进行求值以查找映射到父结构化文档标记的自定义 XML 节点 
+linktitle: XPath
+articleTitle: XPath
+second_title: 用于 .NET 的 Aspose.Words
+description: XmlMapping XPath 财产. 返回 XPath 表达式对该表达式进行求值以查找映射到父结构化文档标记的自定义 XML 节点  在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words.markup/xmlmapping/xpath/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.markup/xmlmapping/xpath/
 public string XPath { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何为自定义 XML 部件设置 XML 映射。
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.XmlMapping.docx");
 ### 也可以看看
 
 * class [XmlMapping](../)
-* 命名空间 [Aspose.Words.Markup](../../xmlmapping/)
+* 命名空间 [Aspose.Words.Markup](../../../aspose.words.markup/)
 * 部件 [Aspose.Words](../../../)
-
-

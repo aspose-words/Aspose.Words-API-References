@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.UnderlineTabInNumList
-second_title: Référence de l'API Aspose.Words pour .NET
-description: CompatibilityOptions propriété. Souligner le caractère suivant la numérotation.
+linktitle: UnderlineTabInNumList
+articleTitle: UnderlineTabInNumList
+second_title: Aspose.Words pour .NET
+description: CompatibilityOptions UnderlineTabInNumList propriété. Souligner le caractère suivant la numérotation en C#.
 type: docs
 weight: 590
 url: /fr/net/aspose.words.settings/compatibilityoptions/underlinetabinnumlist/
@@ -17,7 +19,5 @@ public bool UnderlineTabInNumList { get; set; }
 ### Voir également
 
 * class [CompatibilityOptions](../)
-* espace de noms [Aspose.Words.Settings](../../compatibilityoptions/)
+* espace de noms [Aspose.Words.Settings](../../../aspose.words.settings/)
 * Assemblée [Aspose.Words](../../../)
-
-

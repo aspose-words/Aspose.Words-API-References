@@ -1,7 +1,9 @@
 ---
 title: SignatureLine.DefaultInstructions
-second_title: Aspose.Words per .NET API Reference
-description: SignatureLine proprietà. Ottiene o imposta un valore che indica che le istruzioni predefinite vengono visualizzate nella finestra di dialogo Firma. Il valore predefinito per questa proprietà èVERO .
+linktitle: DefaultInstructions
+articleTitle: DefaultInstructions
+second_title: Aspose.Words per .NET
+description: SignatureLine DefaultInstructions proprietà. Ottiene o imposta un valore che indica che le istruzioni predefinite vengono visualizzate nella finestra di dialogo Firma. Il valore predefinito per questa proprietà èVERO  in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words.drawing/signatureline/defaultinstructions/
@@ -14,7 +16,7 @@ Ottiene o imposta un valore che indica che le istruzioni predefinite vengono vis
 public bool DefaultInstructions { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come creare una riga per una firma e inserirla in un documento.
 
@@ -59,7 +61,5 @@ doc.Save(ArtifactsDir + "Shape.SignatureLine.docx");
 ### Guarda anche
 
 * class [SignatureLine](../)
-* spazio dei nomi [Aspose.Words.Drawing](../../signatureline/)
+* spazio dei nomi [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assemblea [Aspose.Words](../../../)
-
-

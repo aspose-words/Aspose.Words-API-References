@@ -1,7 +1,9 @@
 ---
 title: BuildingBlock.Behavior
-second_title: Aspose.Words for .NET API 参考
-description: BuildingBlock 财产. 指定将构建块 的内容插入主文档时应应用的行为
+linktitle: Behavior
+articleTitle: Behavior
+second_title: 用于 .NET 的 Aspose.Words
+description: BuildingBlock Behavior 财产. 指定将构建块 的内容插入主文档时应应用的行为 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.buildingblocks/buildingblock/behavior/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.buildingblocks/buildingblock/behavior/
 public BuildingBlockBehavior Behavior { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何将自定义构建块添加到文档中。
 
@@ -112,7 +114,5 @@ public class BuildingBlockVisitor : DocumentVisitor
 
 * enum [BuildingBlockBehavior](../../buildingblockbehavior/)
 * class [BuildingBlock](../)
-* 命名空间 [Aspose.Words.BuildingBlocks](../../buildingblock/)
+* 命名空间 [Aspose.Words.BuildingBlocks](../../../aspose.words.buildingblocks/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: BookmarkCollection.Item
-second_title: Aspose.Words för .NET API Referens
-description: BookmarkCollection fast egendom. Returnerar ett bokmärke vid det angivna indexet.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words för .NET
+description: BookmarkCollection Item fast egendom. Returnerar ett bokmärke vid det angivna indexet i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words/bookmarkcollection/item/
@@ -18,7 +20,7 @@ public Bookmark this[int index] { get; }
 | --- | --- |
 | index | Ett index i samlingen. |
 
-### Anmärkningar
+## Anmärkningar
 
 Indexet är nollbaserat.
 
@@ -28,7 +30,7 @@ Om index är större än eller lika med antalet objekt i listan, returnerar dett
 
 Om index är negativt och dess absoluta värde är större än antalet objekt i listan, returnerar detta en nollreferens.
 
-### Exempel
+## Exempel
 
 Visar hur du lägger till bokmärken och uppdaterar deras innehåll.
 
@@ -118,7 +120,7 @@ public class BookmarkInfoPrinter : DocumentVisitor
 
 * class [Bookmark](../../bookmark/)
 * class [BookmarkCollection](../)
-* namnutrymme [Aspose.Words](../../bookmarkcollection/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
@@ -135,11 +137,11 @@ public Bookmark this[string bookmarkName] { get; }
 | --- | --- |
 | bookmarkName | Bokmärkets namn är skiftlägeskänsligt. |
 
-### Anmärkningar
+## Anmärkningar
 
 Returnerar`null`om bokmärket med det angivna namnet inte kan hittas.
 
-### Exempel
+## Exempel
 
 Visar hur du lägger till bokmärken och uppdaterar deras innehåll.
 
@@ -229,7 +231,5 @@ public class BookmarkInfoPrinter : DocumentVisitor
 
 * class [Bookmark](../../bookmark/)
 * class [BookmarkCollection](../)
-* namnutrymme [Aspose.Words](../../bookmarkcollection/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

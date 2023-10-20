@@ -1,7 +1,9 @@
 ---
 title: Document.FontSettings
-second_title: Aspose.Words لمراجع .NET API
-description: Document ملكية. الحصول على إعدادات خط المستند أو تعيينها.
+linktitle: FontSettings
+articleTitle: FontSettings
+second_title: Aspose.Words لـ .NET
+description: Document FontSettings ملكية. الحصول على إعدادات خط المستند أو تعيينها في C#.
 type: docs
 weight: 140
 url: /ar/net/aspose.words/document/fontsettings/
@@ -14,13 +16,13 @@ url: /ar/net/aspose.words/document/fontsettings/
 public FontSettings FontSettings { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 تسمح هذه الخاصية بتحديد إعدادات الخط لكل مستند. إذا تم تعيينه على`باطل` إعدادات الخط الثابت الافتراضي [`DefaultInstance`](../../../aspose.words.fonts/fontsettings/defaultinstance/) سوف يستخدم.
 
 القيمة الافتراضية هي`باطل`.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية ضبط قواعد استبدال الخط.
 
@@ -64,7 +66,5 @@ doc.Save(ArtifactsDir + "FontSettings.TableSubstitution.pdf");
 
 * class [FontSettings](../../../aspose.words.fonts/fontsettings/)
 * class [Document](../)
-* مساحة الاسم [Aspose.Words](../../document/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

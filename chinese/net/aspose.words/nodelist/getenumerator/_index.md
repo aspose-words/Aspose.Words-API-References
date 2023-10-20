@@ -1,7 +1,9 @@
 ---
 title: NodeList.GetEnumerator
-second_title: Aspose.Words for .NET API 参考
-description: NodeList 方法. 在节点集合上提供简单的foreach样式迭代
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: 用于 .NET 的 Aspose.Words
+description: NodeList GetEnumerator 方法. 在节点集合上提供简单的foreach样式迭代 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words/nodelist/getenumerator/
@@ -18,7 +20,7 @@ public IEnumerator<Node> GetEnumerator()
 
 一个 IEnumerator。
 
-### 例子
+## 例子
 
 演示如何使用 XPath 表达式选择某些节点。
 
@@ -52,7 +54,5 @@ Assert.AreEqual(typeof(Paragraph), node.GetType());
 
 * class [Node](../../node/)
 * class [NodeList](../)
-* 命名空间 [Aspose.Words](../../nodelist/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

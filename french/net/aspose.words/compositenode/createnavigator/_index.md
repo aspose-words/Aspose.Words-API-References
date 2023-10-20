@@ -1,9 +1,11 @@
 ---
 title: CompositeNode.CreateNavigator
-second_title: Référence de l'API Aspose.Words pour .NET
-description: CompositeNode méthode. Crée un navigateur qui peut être utilisé pour parcourir et lire des nœuds.
+linktitle: CreateNavigator
+articleTitle: CreateNavigator
+second_title: Aspose.Words pour .NET
+description: CompositeNode CreateNavigator méthode. Crée un navigateur qui peut être utilisé pour parcourir et lire des nœuds en C#.
 type: docs
-weight: 90
+weight: 70
 url: /fr/net/aspose.words/compositenode/createnavigator/
 ---
 ## CompositeNode.CreateNavigator method
@@ -15,7 +17,7 @@ Crée un navigateur qui peut être utilisé pour parcourir et lire des nœuds.
 public XPathNavigator CreateNavigator()
 ```
 
-### Exemples
+## Exemples
 
 Montre comment créer un XPathNavigator, puis l'utiliser pour parcourir et lire des nœuds.
 
@@ -81,7 +83,5 @@ private static void MapDocument(XPathNavigator navigator, StringBuilder stringBu
 ### Voir également
 
 * class [CompositeNode](../)
-* espace de noms [Aspose.Words](../../compositenode/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

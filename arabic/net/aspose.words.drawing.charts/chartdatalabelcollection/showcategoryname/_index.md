@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabelCollection.ShowCategoryName
-second_title: Aspose.Words لمراجع .NET API
-description: ChartDataLabelCollection ملكية. يسمح بتحديد ما إذا كان سيتم عرض اسم الفئة لتسميات البيانات الخاصة بالسلسلة بأكملها. القيمة الافتراضية هيخطأ شنيع .
+linktitle: ShowCategoryName
+articleTitle: ShowCategoryName
+second_title: Aspose.Words لـ .NET
+description: ChartDataLabelCollection ShowCategoryName ملكية. يسمح بتحديد ما إذا كان سيتم عرض اسم الفئة لتسميات البيانات الخاصة بالسلسلة بأكملها. القيمة الافتراضية هيخطأ شنيع  في C#.
 type: docs
 weight: 80
 url: /ar/net/aspose.words.drawing.charts/chartdatalabelcollection/showcategoryname/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.drawing.charts/chartdatalabelcollection/showcategoryna
 public bool ShowCategoryName { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 يمكن تجاوز القيمة المحددة لهذه الخاصية لتسمية بيانات فردية باستخدام [`ShowCategoryName`](../../chartdatalabel/showcategoryname/) الملكية.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التعامل مع تسميات البيانات الخاصة بالمخطط الفقاعي.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "Charts.DataLabelsBubbleChart.docx");
 ### أنظر أيضا
 
 * class [ChartDataLabelCollection](../)
-* مساحة الاسم [Aspose.Words.Drawing.Charts](../../chartdatalabelcollection/)
+* مساحة الاسم [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../../)
-
-

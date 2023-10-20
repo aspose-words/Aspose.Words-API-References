@@ -1,7 +1,9 @@
 ---
 title: MailMergeSettings.Query
-second_title: Aspose.Words für .NET-API-Referenz
-description: MailMergeSettings eigendom. Enthält die Zeichenfolge der Structured Query Language die für die angegebene externe Datenquelle ausgeführt werden soll um den Satz von Datensätzen zurückzugeben die in das Dokument importiert werden sollen wenn der Serienbriefvorgang ausgeführt wird. Der Standardwert ist eine leere Zeichenfolge.
+linktitle: Query
+articleTitle: Query
+second_title: Aspose.Words für .NET
+description: MailMergeSettings Query eigendom. Enthält die Zeichenfolge der Structured Query Language die für die angegebene externe Datenquelle ausgeführt werden soll um den Satz von Datensätzen zurückzugeben die in das Dokument importiert werden sollen wenn der Serienbriefvorgang ausgeführt wird. Der Standardwert ist eine leere Zeichenfolge in C#.
 type: docs
 weight: 160
 url: /de/net/aspose.words.settings/mailmergesettings/query/
@@ -14,7 +16,7 @@ Enthält die Zeichenfolge der Structured Query Language, die für die angegebene
 public string Query { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Serienbrief mit Daten aus einem Office-Datenquellenobjekt ausgeführt wird.
 
@@ -66,7 +68,5 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ### Siehe auch
 
 * class [MailMergeSettings](../)
-* namensraum [Aspose.Words.Settings](../../mailmergesettings/)
+* namensraum [Aspose.Words.Settings](../../../aspose.words.settings/)
 * Montage [Aspose.Words](../../../)
-
-

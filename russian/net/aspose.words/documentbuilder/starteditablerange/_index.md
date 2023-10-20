@@ -1,9 +1,11 @@
 ---
 title: DocumentBuilder.StartEditableRange
-second_title: Справочник по API Aspose.Words для .NET
-description: DocumentBuilder метод. Отмечает текущую позицию в документе как начало редактируемого диапазона.
+linktitle: StartEditableRange
+articleTitle: StartEditableRange
+second_title: Aspose.Words для .NET
+description: DocumentBuilder StartEditableRange метод. Отмечает текущую позицию в документе как начало редактируемого диапазона на С#.
 type: docs
-weight: 640
+weight: 630
 url: /ru/net/aspose.words/documentbuilder/starteditablerange/
 ---
 ## DocumentBuilder.StartEditableRange method
@@ -18,13 +20,13 @@ public EditableRangeStart StartEditableRange()
 
 Только что созданный начальный узел редактируемого диапазона.
 
-### Примечания
+## Примечания
 
 Редактируемый диапазон в документе может перекрываться и охватывать любой диапазон. Чтобы создать действительный редактируемый диапазон, вам нужно вызвать оба`StartEditableRange` и[`EndEditableRange`](../endeditablerange/) или[`EndEditableRange`](../endeditablerange/) методы.
 
 Плохо сформированный редактируемый диапазон будет игнорироваться при сохранении документа.
 
-### Примеры
+## Примеры
 
 Показывает, как создавать вложенные редактируемые диапазоны.
 
@@ -107,7 +109,5 @@ editableRange.Remove();
 
 * class [EditableRangeStart](../../editablerangestart/)
 * class [DocumentBuilder](../)
-* пространство имен [Aspose.Words](../../documentbuilder/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

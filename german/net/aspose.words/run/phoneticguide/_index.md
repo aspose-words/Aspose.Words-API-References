@@ -1,7 +1,9 @@
 ---
 title: Run.PhoneticGuide
-second_title: Aspose.Words für .NET-API-Referenz
-description: Run eigendom. Ruft a abPhoneticGuide Objekt.
+linktitle: PhoneticGuide
+articleTitle: PhoneticGuide
+second_title: Aspose.Words für .NET
+description: Run PhoneticGuide eigendom. Ruft a abPhoneticGuide Objekt in C#.
 type: docs
 weight: 40
 url: /de/net/aspose.words/run/phoneticguide/
@@ -14,7 +16,7 @@ Ruft a ab`PhoneticGuide` Objekt.
 public PhoneticGuide PhoneticGuide { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man Eigenschaften des phonetischen Führers erhält.
 
@@ -32,7 +34,5 @@ Assert.AreEqual("ruby", runs[0].PhoneticGuide.RubyText);
 
 * class [PhoneticGuide](../../phoneticguide/)
 * class [Run](../)
-* namensraum [Aspose.Words](../../run/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

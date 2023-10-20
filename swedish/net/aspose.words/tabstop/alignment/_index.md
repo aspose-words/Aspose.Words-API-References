@@ -1,7 +1,9 @@
 ---
 title: TabStop.Alignment
-second_title: Aspose.Words för .NET API Referens
-description: TabStop fast egendom. Hämtar eller ställer in justeringen av text vid detta tabbstopp.
+linktitle: Alignment
+articleTitle: Alignment
+second_title: Aspose.Words för .NET
+description: TabStop Alignment fast egendom. Hämtar eller ställer in justeringen av text vid detta tabbstopp i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words/tabstop/alignment/
@@ -14,7 +16,7 @@ Hämtar eller ställer in justeringen av text vid detta tabbstopp.
 public TabAlignment Alignment { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man ändrar positionen för höger tabbstopp i innehållsförteckningsrelaterade stycken.
 
@@ -41,7 +43,5 @@ doc.Save(ArtifactsDir + "Styles.ChangeTocsTabStops.docx");
 
 * enum [TabAlignment](../../tabalignment/)
 * class [TabStop](../)
-* namnutrymme [Aspose.Words](../../tabstop/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

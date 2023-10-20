@@ -1,7 +1,9 @@
 ---
 title: Node.CustomNodeId
-second_title: Справочник по API Aspose.Words для .NET
-description: Node свойство. Указывает пользовательский идентификатор узла.
+linktitle: CustomNodeId
+articleTitle: CustomNodeId
+second_title: Aspose.Words для .NET
+description: Node CustomNodeId свойство. Указывает пользовательский идентификатор узла на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words/node/customnodeid/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/node/customnodeid/
 public int CustomNodeId { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 По умолчанию — ноль.
 
@@ -22,7 +24,7 @@ public int CustomNodeId { get; set; }
 
 Важное примечание: указанное значение не сохраняется в выходной файл и существует только в течение срока службы узла.
 
-### Примеры
+## Примеры
 
 Показывает, как перемещаться по коллекции дочерних узлов составного узла.
 
@@ -67,7 +69,5 @@ foreach (Node child in children)
 ### Смотрите также
 
 * class [Node](../)
-* пространство имен [Aspose.Words](../../node/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

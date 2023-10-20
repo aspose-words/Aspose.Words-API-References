@@ -1,7 +1,9 @@
 ---
 title: BaseWebExtensionCollection1.Remove
-second_title: Aspose.Words per .NET API Reference
-description: BaseWebExtensionCollection metodo. Rimuove dalla raccolta lelemento allindice specificato.
+linktitle: Remove
+articleTitle: Remove
+second_title: Aspose.Words per .NET
+description: BaseWebExtensionCollection Remove metodo. Rimuove dalla raccolta lelemento allindice specificato in C#.
 type: docs
 weight: 60
 url: /it/net/aspose.words.webextensions/basewebextensioncollection-1/remove/
@@ -18,7 +20,7 @@ public void Remove(int index)
 | --- | --- | --- |
 | index | Int32 | L'indice in base zero dell'elemento della raccolta. |
 
-### Esempi
+## Esempi
 
 Mostra come lavorare con la raccolta di estensioni web di un documento.
 
@@ -47,7 +49,5 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 ### Guarda anche
 
 * class [BaseWebExtensionCollection&lt;T&gt;](../)
-* spazio dei nomi [Aspose.Words.WebExtensions](../../basewebextensioncollection-1/)
+* spazio dei nomi [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * assemblea [Aspose.Words](../../../)
-
-

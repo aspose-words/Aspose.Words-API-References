@@ -1,7 +1,9 @@
 ---
 title: FieldToa.UseHeading
-second_title: Aspose.Words för .NET API Referens
-description: FieldToa fast egendom. Hämtar eller ställer in om kategorirubriken för posterna ska inkluderas i en auktoritetstabell.
+linktitle: UseHeading
+articleTitle: UseHeading
+second_title: Aspose.Words för .NET
+description: FieldToa UseHeading fast egendom. Hämtar eller ställer in om kategorirubriken för posterna ska inkluderas i en auktoritetstabell i C#.
 type: docs
 weight: 100
 url: /sv/net/aspose.words.fields/fieldtoa/useheading/
@@ -14,7 +16,7 @@ Hämtar eller ställer in om kategorirubriken för posterna ska inkluderas i en 
 public bool UseHeading { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man bygger och anpassar en tabell över myndigheter med hjälp av TOA- och TA-fält.
 
@@ -137,7 +139,5 @@ private static FieldTA InsertToaEntry(DocumentBuilder builder, string entryCateg
 ### Se även
 
 * class [FieldToa](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldtoa/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

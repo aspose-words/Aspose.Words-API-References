@@ -1,7 +1,9 @@
 ---
 title: FindReplaceOptions.LegacyMode
-second_title: Справочник по API Aspose.Words для .NET
-description: FindReplaceOptions свойство. Получает или задает логическое значение указывающее что используется старый алгоритм поиска/замены.
+linktitle: LegacyMode
+articleTitle: LegacyMode
+second_title: Aspose.Words для .NET
+description: FindReplaceOptions LegacyMode свойство. Получает или задает логическое значение указывающее что используется старый алгоритм поиска/замены на С#.
 type: docs
 weight: 130
 url: /ru/net/aspose.words.replacing/findreplaceoptions/legacymode/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.replacing/findreplaceoptions/legacymode/
 public bool LegacyMode { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Используйте этот флаг, если вам нужно точно такое же поведение, как и до введения расширенной функции поиска/замены. Обратите внимание, что старый алгоритм не поддерживает расширенные функции, такие как замена разрывами, применение форматирования и т. д.
 
-### Примеры
+## Примеры
 
 Показывает, как распознавать и использовать замены в шаблонах замены.
 
@@ -44,7 +46,5 @@ Assert.AreEqual(doc.GetText(), "Paul took money from Jason.\f");
 ### Смотрите также
 
 * class [FindReplaceOptions](../)
-* пространство имен [Aspose.Words.Replacing](../../findreplaceoptions/)
+* пространство имен [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * сборка [Aspose.Words](../../../)
-
-

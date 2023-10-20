@@ -1,7 +1,9 @@
 ---
-title: Enum HorizontalAlignment
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Drawing.HorizontalAlignment énumération. Spécifie lalignement horizontal dune forme flottante dun cadre de texte ou dun tableau flottant.
+title: HorizontalAlignment Enum
+linktitle: HorizontalAlignment
+articleTitle: HorizontalAlignment
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Drawing.HorizontalAlignment énumération. Spécifie lalignement horizontal dune forme flottante dun cadre de texte ou dun tableau flottant en C#.
 type: docs
 weight: 1030
 url: /fr/net/aspose.words.drawing/horizontalalignment/
@@ -18,7 +20,7 @@ public enum HorizontalAlignment
 
 | Nom | Évaluer | La description |
 | --- | --- | --- |
-| None | `0` | L'objet est positionné explicitement, généralement à l'aide de son **Gauche** propriété. |
+| None | `0` | L'objet est positionné explicitement, généralement à l'aide de son**Gauche** propriété. |
 | Default | `0` | Identique àNone . |
 | Left | `1` | Spécifie que l'objet doit être aligné à gauche sur la base d'alignement horizontal. |
 | Center | `2` | Spécifie que l'objet doit être centré par rapport à la base d'alignement horizontal. |
@@ -26,7 +28,7 @@ public enum HorizontalAlignment
 | Inside | `4` | Spécifie que l'objet doit être à l'intérieur de la base d'alignement horizontal. |
 | Outside | `5` | Spécifie que l'objet doit être en dehors de la base d'alignement horizontal. |
 
-### Exemples
+## Exemples
 
 Montre comment insérer une image flottante au centre d’une page.
 
@@ -51,5 +53,3 @@ doc.Save(ArtifactsDir + "Image.CreateFloatingPageCenter.docx");
 * property [HorizontalAlignment](../shapebase/horizontalalignment/)
 * espace de noms [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * Assemblée [Aspose.Words](../../)
-
-

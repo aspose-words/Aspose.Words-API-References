@@ -1,7 +1,9 @@
 ---
 title: DocumentBase.FontInfos
-second_title: Aspose.Words für .NET-API-Referenz
-description: DocumentBase eigendom. Bietet Zugriff auf die Eigenschaften der in diesem Dokument verwendeten Schriftarten.
+linktitle: FontInfos
+articleTitle: FontInfos
+second_title: Aspose.Words für .NET
+description: DocumentBase FontInfos eigendom. Bietet Zugriff auf die Eigenschaften der in diesem Dokument verwendeten Schriftarten in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words/documentbase/fontinfos/
@@ -14,13 +16,13 @@ Bietet Zugriff auf die Eigenschaften der in diesem Dokument verwendeten Schrifta
 public FontInfoCollection FontInfos { get; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Diese Sammlung von Schriftartdefinitionen wird unverändert aus dem Dokument geladen. Schriftartdefinitionen sind in einigen Dokumenten möglicherweise optional, fehlen oder sind unvollständig.
 
 Verlassen Sie sich nicht auf diese Sammlung, um sicherzustellen, dass eine bestimmte Schriftart im Dokument verwendet wird. Sie sollten diese Sammlung nur verwenden, um Informationen über Schriftarten zu erhalten, die möglicherweise im Dokument verwendet werden.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Details zu den in einem Dokument vorhandenen Schriftarten gedruckt werden.
 
@@ -59,7 +61,5 @@ else
 
 * class [FontInfoCollection](../../../aspose.words.fonts/fontinfocollection/)
 * class [DocumentBase](../)
-* namensraum [Aspose.Words](../../documentbase/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

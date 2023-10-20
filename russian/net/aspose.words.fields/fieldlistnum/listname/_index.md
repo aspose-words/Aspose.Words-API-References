@@ -1,7 +1,9 @@
 ---
 title: FieldListNum.ListName
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldListNum свойство. Получает или задает имя абстрактного определения нумерации используемого для нумерации.
+linktitle: ListName
+articleTitle: ListName
+second_title: Aspose.Words для .NET
+description: FieldListNum ListName свойство. Получает или задает имя абстрактного определения нумерации используемого для нумерации на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.fields/fieldlistnum/listname/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldlistnum/listname/
 public string ListName { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как нумеровать абзацы с помощью полей LISTNUM.
 
@@ -84,7 +86,5 @@ doc.Save(ArtifactsDir + "Field.LISTNUM.docx");
 ### Смотрите также
 
 * class [FieldListNum](../)
-* пространство имен [Aspose.Words.Fields](../../fieldlistnum/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum DmlRenderingMode
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Saving.DmlRenderingMode uppräkning. Anger hur DrawingMLformer renderas till fasta sidformat.
+title: DmlRenderingMode Enum
+linktitle: DmlRenderingMode
+articleTitle: DmlRenderingMode
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Saving.DmlRenderingMode uppräkning. Anger hur DrawingMLformer renderas till fasta sidformat i C#.
 type: docs
 weight: 4920
 url: /sv/net/aspose.words.saving/dmlrenderingmode/
@@ -21,7 +23,7 @@ public enum DmlRenderingMode
 | Fallback | `0` | Om reservform är tillgänglig för DrawingML, återger Aspose.Words reservform istället för DrawingML. |
 | DrawingML | `1` | Aspose.Words ignorerar fall-back formen av DrawingML och återger själva DrawingML. Detta är standardläget. |
 
-### Exempel
+## Exempel
 
 Visar hur man renderar reservformer när man sparar till PDF.
 
@@ -66,5 +68,3 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.DrawingMLEffects.pdf", options);
 
 * namnutrymme [Aspose.Words.Saving](../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../)
-
-

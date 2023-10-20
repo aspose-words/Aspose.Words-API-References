@@ -1,7 +1,9 @@
 ---
-title: Class FontConfigSubstitutionRule
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Fonts.FontConfigSubstitutionRule فصل. قاعدة استبدال تكوين الخط.
+title: FontConfigSubstitutionRule Class
+linktitle: FontConfigSubstitutionRule
+articleTitle: FontConfigSubstitutionRule
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Fonts.FontConfigSubstitutionRule فصل. قاعدة استبدال تكوين الخط في C#.
 type: docs
 weight: 2890
 url: /ar/net/aspose.words.fonts/fontconfigsubstitutionrule/
@@ -29,13 +31,13 @@ public class FontConfigSubstitutionRule : FontSubstitutionRule
 | [IsFontConfigAvailable](../../aspose.words.fonts/fontconfigsubstitutionrule/isfontconfigavailable/)() | تحقق مما إذا كانت الأداة المساعدة لتكوين الخطوط متاحة أم لا. |
 | [ResetCache](../../aspose.words.fonts/fontconfigsubstitutionrule/resetcache/)() | إعادة تعيين ذاكرة التخزين المؤقت لنتائج استدعاء Fontconfig. |
 
-### ملاحظات
+## ملاحظات
 
 تستخدم هذه القاعدة الأداة المساعدة Fontconfig على أنظمة Linux (والأنظمة الأخرى المشابهة لـ Unix) للحصول على البديل إذا لم يكن الخط الأصلي متاحًا.
 
 إذا لم تكن الأداة المساعدة لتكوين الخطوط متاحة، فسيتم تجاهل هذه القاعدة.
 
-### أمثلة
+## أمثلة
 
 يعرض استبدال تكوين الخط المعتمد على نظام التشغيل.
 
@@ -73,5 +75,3 @@ if (isLinuxOrMac)
 * class [FontSubstitutionRule](../fontsubstitutionrule/)
 * مساحة الاسم [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * المجسم [Aspose.Words](../../)
-
-

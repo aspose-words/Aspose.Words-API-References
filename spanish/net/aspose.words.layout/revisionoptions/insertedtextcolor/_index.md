@@ -1,7 +1,9 @@
 ---
 title: RevisionOptions.InsertedTextColor
-second_title: Referencia de API de Aspose.Words para .NET
-description: RevisionOptions propiedad. Permite especificar el color que se utilizará para el contenido insertado.Insertion . El valor predeterminado esByAuthor .
+linktitle: InsertedTextColor
+articleTitle: InsertedTextColor
+second_title: Aspose.Words para .NET
+description: RevisionOptions InsertedTextColor propiedad. Permite especificar el color que se utilizará para el contenido insertado.Insertion . El valor predeterminado esByAuthor  en C#.
 type: docs
 weight: 40
 url: /es/net/aspose.words.layout/revisionoptions/insertedtextcolor/
@@ -14,7 +16,7 @@ Permite especificar el color que se utilizará para el contenido insertado.Inser
 public RevisionColor InsertedTextColor { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo alterar la apariencia de las revisiones en un documento de salida renderizado.
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "Document.LayoutOptionsRevisions.pdf");
 
 * enum [RevisionColor](../../revisioncolor/)
 * class [RevisionOptions](../)
-* espacio de nombres [Aspose.Words.Layout](../../revisionoptions/)
+* espacio de nombres [Aspose.Words.Layout](../../../aspose.words.layout/)
 * asamblea [Aspose.Words](../../../)
-
-

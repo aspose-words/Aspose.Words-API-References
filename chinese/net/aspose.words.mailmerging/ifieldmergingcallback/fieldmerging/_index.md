@@ -1,7 +1,9 @@
 ---
 title: IFieldMergingCallback.FieldMerging
-second_title: Aspose.Words for .NET API 参考
-description: IFieldMergingCallback 方法. 当 Aspose.Words 邮件合并引擎即将将数据插入文档中的合并字段时调用
+linktitle: FieldMerging
+articleTitle: FieldMerging
+second_title: 用于 .NET 的 Aspose.Words
+description: IFieldMergingCallback FieldMerging 方法. 当 Aspose.Words 邮件合并引擎即将将数据插入文档中的合并字段时调用 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.mailmerging/ifieldmergingcallback/fieldmerging/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.mailmerging/ifieldmergingcallback/fieldmerging/
 public void FieldMerging(FieldMergingArgs args)
 ```
 
-### 例子
+## 例子
 
 演示如何将存储在数据库 BLOB 字段中的图像插入到报表中。
 
@@ -127,7 +129,5 @@ private class HandleMergeFieldInsertHtml : IFieldMergingCallback
 
 * class [FieldMergingArgs](../../fieldmergingargs/)
 * interface [IFieldMergingCallback](../)
-* 命名空间 [Aspose.Words.MailMerging](../../ifieldmergingcallback/)
+* 命名空间 [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * 部件 [Aspose.Words](../../../)
-
-

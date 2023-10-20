@@ -1,7 +1,9 @@
 ---
 title: ControlChar.NonBreakingSpace
-second_title: Справочник по API Aspose.Words для .NET
-description: ControlChar поле. Неразрывный пробел x00a0.
+linktitle: NonBreakingSpace
+articleTitle: NonBreakingSpace
+second_title: Aspose.Words для .NET
+description: ControlChar NonBreakingSpace поле. Неразрывный пробел x00a0 на С#.
 type: docs
 weight: 170
 url: /ru/net/aspose.words/controlchar/nonbreakingspace/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/controlchar/nonbreakingspace/
 public static readonly string NonBreakingSpace;
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как добавлять в документ различные управляющие символы.
 
@@ -86,7 +88,5 @@ Assert.AreEqual(Convert.ToChar(ControlChar.ColumnBreak), ControlChar.ColumnBreak
 ### Смотрите также
 
 * class [ControlChar](../)
-* пространство имен [Aspose.Words](../../controlchar/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

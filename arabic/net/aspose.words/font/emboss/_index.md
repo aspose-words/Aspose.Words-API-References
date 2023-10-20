@@ -1,7 +1,9 @@
 ---
 title: Font.Emboss
-second_title: Aspose.Words لمراجع .NET API
-description: Font ملكية. صحيح إذا كان الخط منسقًا بشكل منقوش.
+linktitle: Emboss
+articleTitle: Emboss
+second_title: Aspose.Words لـ .NET
+description: Font Emboss ملكية. صحيح إذا كان الخط منسقًا بشكل منقوش في C#.
 type: docs
 weight: 100
 url: /ar/net/aspose.words/font/emboss/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/font/emboss/
 public bool Emboss { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تطبيق تأثيرات النقش/النقش على النص.
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "Font.EngraveEmboss.docx");
 ### أنظر أيضا
 
 * class [Font](../)
-* مساحة الاسم [Aspose.Words](../../font/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

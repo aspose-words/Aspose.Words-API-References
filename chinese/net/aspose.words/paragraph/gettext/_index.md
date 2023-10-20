@@ -1,9 +1,11 @@
 ---
 title: Paragraph.GetText
-second_title: Aspose.Words for .NET API 参考
-description: Paragraph 方法. 获取该段落的文本包括段落结尾字符
+linktitle: GetText
+articleTitle: GetText
+second_title: 用于 .NET 的 Aspose.Words
+description: Paragraph GetText 方法. 获取该段落的文本包括段落结尾字符 在 C#.
 type: docs
-weight: 280
+weight: 260
 url: /zh/net/aspose.words/paragraph/gettext/
 ---
 ## Paragraph.GetText method
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/paragraph/gettext/
 public override string GetText()
 ```
 
-### 评论
+## 评论
 
 所有子节点的文本都连接起来，并附加段落结尾字符，如下所示：
 
@@ -24,7 +26,7 @@ public override string GetText()
 
 返回的字符串包括所有控制字符和特殊字符，如中所述[`ControlChar`](../../controlchar/)。
 
-### 例子
+## 例子
 
 演示如何在 CompositeNode 的子节点集合中添加、更新和删除子节点。
 
@@ -77,7 +79,5 @@ Assert.AreEqual(3, paragraph.GetChildNodes(NodeType.Any, true).Count);
 ### 也可以看看
 
 * class [Paragraph](../)
-* 命名空间 [Aspose.Words](../../paragraph/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

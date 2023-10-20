@@ -1,7 +1,9 @@
 ---
-title: FieldStyleRef.FieldStyleRef
-second_title: Aspose.Words for .NET API 参考
-description: FieldStyleRef 构造函数. 默认构造函数
+title: FieldStyleRef
+linktitle: FieldStyleRef
+articleTitle: FieldStyleRef
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldStyleRef 构造函数. 默认构造函数 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.fields/fieldstyleref/fieldstyleref/
@@ -17,7 +19,5 @@ public FieldStyleRef()
 ### 也可以看看
 
 * class [FieldStyleRef](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldstyleref/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

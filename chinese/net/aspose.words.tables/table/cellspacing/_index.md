@@ -1,7 +1,9 @@
 ---
 title: Table.CellSpacing
-second_title: Aspose.Words for .NET API 参考
-description: Table 财产. 获取或设置单元格之间的空间量以磅为单位
+linktitle: CellSpacing
+articleTitle: CellSpacing
+second_title: 用于 .NET 的 Aspose.Words
+description: Table CellSpacing 财产. 获取或设置单元格之间的空间量以磅为单位 在 C#.
 type: docs
 weight: 100
 url: /zh/net/aspose.words.tables/table/cellspacing/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.tables/table/cellspacing/
 public double CellSpacing { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何启用表格中各个单元格之间的间距。
 
@@ -92,7 +94,5 @@ doc.Save(ArtifactsDir + "Table.TableStyleCreation.docx");
 ### 也可以看看
 
 * class [Table](../)
-* 命名空间 [Aspose.Words.Tables](../../table/)
+* 命名空间 [Aspose.Words.Tables](../../../aspose.words.tables/)
 * 部件 [Aspose.Words](../../../)
-
-

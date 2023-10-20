@@ -1,7 +1,9 @@
 ---
 title: TxtSaveOptions.AddBidiMarks
-second_title: Aspose.Words per .NET API Reference
-description: TxtSaveOptions proprietà. Specifica se aggiungere indicatori bidirezionali prima di ogni esecuzione BiDi durante lesportazione in formato testo normale.
+linktitle: AddBidiMarks
+articleTitle: AddBidiMarks
+second_title: Aspose.Words per .NET
+description: TxtSaveOptions AddBidiMarks proprietà. Specifica se aggiungere indicatori bidirezionali prima di ogni esecuzione BiDi durante lesportazione in formato testo normale in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words.saving/txtsaveoptions/addbidimarks/
@@ -16,7 +18,7 @@ Il valore predefinito è`falso`.
 public bool AddBidiMarks { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come inserire il carattere Unicode 'SEGNO DA DESTRA A SINISTRA' (U+200F) prima di ogni sequenza bidirezionale nel testo.
 
@@ -58,7 +60,5 @@ else
 ### Guarda anche
 
 * class [TxtSaveOptions](../)
-* spazio dei nomi [Aspose.Words.Saving](../../txtsaveoptions/)
+* spazio dei nomi [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../../)
-
-

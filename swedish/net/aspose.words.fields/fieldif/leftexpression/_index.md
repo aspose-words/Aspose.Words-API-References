@@ -1,7 +1,9 @@
 ---
 title: FieldIf.LeftExpression
-second_title: Aspose.Words för .NET API Referens
-description: FieldIf fast egendom. Hämtar eller ställer in den vänstra delen av jämförelseuttrycket.
+linktitle: LeftExpression
+articleTitle: LeftExpression
+second_title: Aspose.Words för .NET
+description: FieldIf LeftExpression fast egendom. Hämtar eller ställer in den vänstra delen av jämförelseuttrycket i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.fields/fieldif/leftexpression/
@@ -14,7 +16,7 @@ Hämtar eller ställer in den vänstra delen av jämförelseuttrycket.
 public string LeftExpression { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man infogar ett IF-fält.
 
@@ -60,7 +62,5 @@ doc.Save(ArtifactsDir + "Field.IF.docx");
 ### Se även
 
 * class [FieldIf](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldif/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

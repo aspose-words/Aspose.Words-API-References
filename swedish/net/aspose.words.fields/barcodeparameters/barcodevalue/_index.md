@@ -1,7 +1,9 @@
 ---
 title: BarcodeParameters.BarcodeValue
-second_title: Aspose.Words för .NET API Referens
-description: BarcodeParameters fast egendom. Data som ska kodas.
+linktitle: BarcodeValue
+articleTitle: BarcodeValue
+second_title: Aspose.Words för .NET
+description: BarcodeParameters BarcodeValue fast egendom. Data som ska kodas i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.fields/barcodeparameters/barcodevalue/
@@ -14,7 +16,7 @@ Data som ska kodas.
 public string BarcodeValue { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man använder en streckkodsgenerator.
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.docx");
 ### Se även
 
 * class [BarcodeParameters](../)
-* namnutrymme [Aspose.Words.Fields](../../barcodeparameters/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

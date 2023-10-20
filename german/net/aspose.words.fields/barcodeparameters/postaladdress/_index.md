@@ -1,7 +1,9 @@
 ---
 title: BarcodeParameters.PostalAddress
-second_title: Aspose.Words für .NET-API-Referenz
-description: BarcodeParameters eigendom. BarcodePostanschrift.
+linktitle: PostalAddress
+articleTitle: PostalAddress
+second_title: Aspose.Words für .NET
+description: BarcodeParameters PostalAddress eigendom. BarcodePostanschrift in C#.
 type: docs
 weight: 150
 url: /de/net/aspose.words.fields/barcodeparameters/postaladdress/
@@ -14,7 +16,7 @@ Barcode-Postanschrift.
 public string PostalAddress { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Barcode-Generator verwendet wird.
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.docx");
 ### Siehe auch
 
 * class [BarcodeParameters](../)
-* namensraum [Aspose.Words.Fields](../../barcodeparameters/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

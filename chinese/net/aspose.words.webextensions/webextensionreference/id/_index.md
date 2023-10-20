@@ -1,7 +1,9 @@
 ---
 title: WebExtensionReference.Id
-second_title: Aspose.Words for .NET API 参考
-description: WebExtensionReference 财产. 与目录提供程序中的 Web 扩展关联的标识符
+linktitle: Id
+articleTitle: Id
+second_title: 用于 .NET 的 Aspose.Words
+description: WebExtensionReference Id 财产. 与目录提供程序中的 Web 扩展关联的标识符 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.webextensions/webextensionreference/id/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.webextensions/webextensionreference/id/
 public string Id { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何向文档添加 Web 扩展。
 
@@ -59,7 +61,5 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 ### 也可以看看
 
 * class [WebExtensionReference](../)
-* 命名空间 [Aspose.Words.WebExtensions](../../webextensionreference/)
+* 命名空间 [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * 部件 [Aspose.Words](../../../)
-
-

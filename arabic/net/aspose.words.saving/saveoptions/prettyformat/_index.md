@@ -1,7 +1,9 @@
 ---
 title: SaveOptions.PrettyFormat
-second_title: Aspose.Words لمراجع .NET API
-description: SaveOptions ملكية. متىحقيقي إخراج تنسيقات جميلة حيثما ينطبق ذلك. القيمة الافتراضية هيخطأ شنيع .
+linktitle: PrettyFormat
+articleTitle: PrettyFormat
+second_title: Aspose.Words لـ .NET
+description: SaveOptions PrettyFormat ملكية. متىحقيقي إخراج تنسيقات جميلة حيثما ينطبق ذلك. القيمة الافتراضية هيخطأ شنيع  في C#.
 type: docs
 weight: 110
 url: /ar/net/aspose.words.saving/saveoptions/prettyformat/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.saving/saveoptions/prettyformat/
 public bool PrettyFormat { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 ضبط ل`حقيقي` لجعل مخرجات HTML وMHTML وEPUB وWordML وRTF وDOCX وODT قابلة للقراءة البشرية. مفيد للاختبار أو تصحيح الأخطاء.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحسين إمكانية قراءة التعليمات البرمجية الأولية لمستند html محفوظ.
 
@@ -69,7 +71,5 @@ else
 ### أنظر أيضا
 
 * class [SaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../saveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

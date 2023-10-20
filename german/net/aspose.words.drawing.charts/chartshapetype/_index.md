@@ -1,7 +1,9 @@
 ---
-title: Enum ChartShapeType
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Drawing.Charts.ChartShapeType opsomming. Gibt den Formtyp von Diagrammelementen an.
+title: ChartShapeType Enum
+linktitle: ChartShapeType
+articleTitle: ChartShapeType
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Drawing.Charts.ChartShapeType opsomming. Gibt den Formtyp von Diagrammelementen an in C#.
 type: docs
 weight: 810
 url: /de/net/aspose.words.drawing.charts/chartshapetype/
@@ -207,7 +209,7 @@ public enum ChartShapeType
 | ChartStar | `186` | Kartenstern. |
 | ChartX | `187` | Diagramm X. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Füll-, Strich- und Beschriftungsformatierungen für Diagrammdatenbeschriftungen festgelegt werden.
 
@@ -250,5 +252,3 @@ doc.Save(ArtifactsDir + "Charts.FormatDataLables.docx");
 * property [ShapeType](../chartformat/shapetype/)
 * namensraum [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldToa.RemoveEntryFormatting
-second_title: Aspose.Words لمراجع .NET API
-description: FieldToa ملكية. الحصول على أو تعيين ما إذا كان سيتم إزالة تنسيق نص الإدخال في المستند من الإدخال في جدول المراجع المصدقة.
+linktitle: RemoveEntryFormatting
+articleTitle: RemoveEntryFormatting
+second_title: Aspose.Words لـ .NET
+description: FieldToa RemoveEntryFormatting ملكية. الحصول على أو تعيين ما إذا كان سيتم إزالة تنسيق نص الإدخال في المستند من الإدخال في جدول المراجع المصدقة في C#.
 type: docs
 weight: 70
 url: /ar/net/aspose.words.fields/fieldtoa/removeentryformatting/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldtoa/removeentryformatting/
 public bool RemoveEntryFormatting { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء جدول المراجع المصدقة وتخصيصه باستخدام حقلي TOA وTA.
 
@@ -137,7 +139,5 @@ private static FieldTA InsertToaEntry(DocumentBuilder builder, string entryCateg
 ### أنظر أيضا
 
 * class [FieldToa](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldtoa/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

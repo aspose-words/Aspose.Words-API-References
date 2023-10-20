@@ -1,7 +1,9 @@
 ---
 title: ImageSize.HeightPixels
-second_title: Aspose.Words for .NET API 参考
-description: ImageSize 财产. 获取图像的高度以像素为单位
+linktitle: HeightPixels
+articleTitle: HeightPixels
+second_title: 用于 .NET 的 Aspose.Words
+description: ImageSize HeightPixels 财产. 获取图像的高度以像素为单位 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.drawing/imagesize/heightpixels/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.drawing/imagesize/heightpixels/
 public int HeightPixels { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何读取形状中图像的属性。
 
@@ -47,7 +49,5 @@ doc.Save(ArtifactsDir + "Drawing.ImageSize.docx");
 ### 也可以看看
 
 * class [ImageSize](../)
-* 命名空间 [Aspose.Words.Drawing](../../imagesize/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

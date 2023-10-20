@@ -1,7 +1,9 @@
 ---
 title: FieldAddressBlock.NameAndAddressFormat
-second_title: Aspose.Words per .NET API Reference
-description: FieldAddressBlock proprietà. Ottiene o imposta il formato del nome e dellindirizzo.
+linktitle: NameAndAddressFormat
+articleTitle: NameAndAddressFormat
+second_title: Aspose.Words per .NET
+description: FieldAddressBlock NameAndAddressFormat proprietà. Ottiene o imposta il formato del nome e dellindirizzo in C#.
 type: docs
 weight: 60
 url: /it/net/aspose.words.fields/fieldaddressblock/nameandaddressformat/
@@ -14,7 +16,7 @@ Ottiene o imposta il formato del nome e dell'indirizzo.
 public string NameAndAddressFormat { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come inserire un campo ADDRESSBLOCK.
 
@@ -45,7 +47,5 @@ Assert.AreEqual(
 ### Guarda anche
 
 * class [FieldAddressBlock](../)
-* spazio dei nomi [Aspose.Words.Fields](../../fieldaddressblock/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

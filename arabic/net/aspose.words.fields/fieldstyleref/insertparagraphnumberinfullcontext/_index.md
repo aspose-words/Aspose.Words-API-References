@@ -1,7 +1,9 @@
 ---
 title: FieldStyleRef.InsertParagraphNumberInFullContext
-second_title: Aspose.Words لمراجع .NET API
-description: FieldStyleRef ملكية. الحصول على أو تعيين ما إذا كان سيتم إدراج رقم الفقرة للفقرة المشار إليها في السياق الكامل.
+linktitle: InsertParagraphNumberInFullContext
+articleTitle: InsertParagraphNumberInFullContext
+second_title: Aspose.Words لـ .NET
+description: FieldStyleRef InsertParagraphNumberInFullContext ملكية. الحصول على أو تعيين ما إذا كان سيتم إدراج رقم الفقرة للفقرة المشار إليها في السياق الكامل في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.fields/fieldstyleref/insertparagraphnumberinfullcontext/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldstyleref/insertparagraphnumberinfullcontex
 public bool InsertParagraphNumberInFullContext { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام حقول STYLEREF.
 
@@ -85,7 +87,5 @@ doc.Save(ArtifactsDir + "Field.STYLEREF.docx");
 ### أنظر أيضا
 
 * class [FieldStyleRef](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldstyleref/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

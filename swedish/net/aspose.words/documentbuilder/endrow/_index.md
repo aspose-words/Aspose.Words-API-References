@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.EndRow
-second_title: Aspose.Words för .NET API Referens
-description: DocumentBuilder metod. Avslutar en tabellrad i dokumentet.
+linktitle: EndRow
+articleTitle: EndRow
+second_title: Aspose.Words för .NET
+description: DocumentBuilder EndRow metod. Avslutar en tabellrad i dokumentet i C#.
 type: docs
 weight: 240
 url: /sv/net/aspose.words/documentbuilder/endrow/
@@ -18,13 +20,13 @@ public Row EndRow()
 
 Radnoden som precis var klar.
 
-### Anmärkningar
+## Anmärkningar
 
 Ring upp`EndRow` för att avsluta en tabellrad. Om du ringer[`InsertCell`](../insertcell/) omedelbart efter det, sedan fortsätter tabellen på en ny rad.
 
 Använd[`RowFormat`](../rowformat/) egenskap för att ange radformatering.
 
-### Exempel
+## Exempel
 
 Visar hur man slår samman tabellceller vertikalt.
 
@@ -166,7 +168,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
 
 * class [Row](../../../aspose.words.tables/row/)
 * class [DocumentBuilder](../)
-* namnutrymme [Aspose.Words](../../documentbuilder/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

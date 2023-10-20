@@ -1,7 +1,9 @@
 ---
 title: ChartDataPointCollection.Item
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ChartDataPointCollection propriété. RetoursChartDataPoint pour lindex spécifié.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words pour .NET
+description: ChartDataPointCollection Item propriété. RetoursChartDataPoint pour lindex spécifié en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.drawing.charts/chartdatapointcollection/item/
@@ -14,7 +16,7 @@ Retours[`ChartDataPoint`](../../chartdatapoint/) pour l'index spécifié.
 public ChartDataPoint this[int index] { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment utiliser des points de données sur un graphique linéaire.
 
@@ -77,7 +79,5 @@ private static void ApplyDataPoints(ChartSeries series, int dataPointsCount, Mar
 
 * class [ChartDataPoint](../../chartdatapoint/)
 * class [ChartDataPointCollection](../)
-* espace de noms [Aspose.Words.Drawing.Charts](../../chartdatapointcollection/)
+* espace de noms [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: MailMergeRegionInfo.Regions
-second_title: Aspose.Words für .NET-API-Referenz
-description: MailMergeRegionInfo eigendom. Gibt eine Liste der untergeordneten Regionen zurück.
+linktitle: Regions
+articleTitle: Regions
+second_title: Aspose.Words für .NET
+description: MailMergeRegionInfo Regions eigendom. Gibt eine Liste der untergeordneten Regionen zurück in C#.
 type: docs
 weight: 80
 url: /de/net/aspose.words.mailmerging/mailmergeregioninfo/regions/
@@ -14,7 +16,7 @@ Gibt eine Liste der untergeordneten Regionen zurück.
 public IList<MailMergeRegionInfo> Regions { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Seriendruckbereiche überprüft werden.
 
@@ -59,7 +61,5 @@ Assert.AreEqual("TableEnd:NestedRegion1", endFieldMergeField.FieldName);
 ### Siehe auch
 
 * class [MailMergeRegionInfo](../)
-* namensraum [Aspose.Words.MailMerging](../../mailmergeregioninfo/)
+* namensraum [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * Montage [Aspose.Words](../../../)
-
-

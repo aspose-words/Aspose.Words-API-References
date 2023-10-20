@@ -1,7 +1,9 @@
 ---
 title: FieldToa.EntryCategory
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldToa propriété. Obtient ou définit la catégorie intégrale pour les entrées incluses dans la table.
+linktitle: EntryCategory
+articleTitle: EntryCategory
+second_title: Aspose.Words pour .NET
+description: FieldToa EntryCategory propriété. Obtient ou définit la catégorie intégrale pour les entrées incluses dans la table en C#.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.fields/fieldtoa/entrycategory/
@@ -14,7 +16,7 @@ Obtient ou définit la catégorie intégrale pour les entrées incluses dans la 
 public string EntryCategory { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment créer et personnaliser une table de autorités à l’aide des champs TOA et TA.
 
@@ -137,7 +139,5 @@ private static FieldTA InsertToaEntry(DocumentBuilder builder, string entryCateg
 ### Voir également
 
 * class [FieldToa](../)
-* espace de noms [Aspose.Words.Fields](../../fieldtoa/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

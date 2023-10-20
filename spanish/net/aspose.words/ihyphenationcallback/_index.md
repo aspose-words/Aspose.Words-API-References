@@ -1,7 +1,9 @@
 ---
-title: Interface IHyphenationCallback
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.IHyphenationCallback interfaz. Implementado por clases que pueden registrar diccionarios de separación de palabras.
+title: IHyphenationCallback Interface
+linktitle: IHyphenationCallback
+articleTitle: IHyphenationCallback
+second_title: Aspose.Words para .NET
+description: Aspose.Words.IHyphenationCallback interfaz. Implementado por clases que pueden registrar diccionarios de separación de palabras en C#.
 type: docs
 weight: 3190
 url: /es/net/aspose.words/ihyphenationcallback/
@@ -18,9 +20,9 @@ public interface IHyphenationCallback
 
 | Nombre | Descripción |
 | --- | --- |
-| [RequestDictionary](../../aspose.words/ihyphenationcallback/requestdictionary/)(string) | Notifica a la aplicación que no se encontró el diccionario de separación de palabras para el idioma especificado y que es posible que sea necesario registrarlo. |
+| [RequestDictionary](../../aspose.words/ihyphenationcallback/requestdictionary/)(*string*) | Notifica a la aplicación que no se encontró el diccionario de separación de palabras para el idioma especificado y que es posible que sea necesario registrarlo. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo abrir y registrar un diccionario desde un archivo.
 
@@ -97,5 +99,3 @@ private class CustomHyphenationDictionaryRegister : IHyphenationCallback
 
 * espacio de nombres [Aspose.Words](../../aspose.words/)
 * asamblea [Aspose.Words](../../)
-
-

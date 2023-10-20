@@ -1,7 +1,9 @@
 ---
-title: Enum TextDmlEffect
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.TextDmlEffect перечисление. Текстовый эффект Dml для текстовых прогонов.
+title: TextDmlEffect Enum
+linktitle: TextDmlEffect
+articleTitle: TextDmlEffect
+second_title: Aspose.Words для .NET
+description: Aspose.Words.TextDmlEffect перечисление. Текстовый эффект Dml для текстовых прогонов на С#.
 type: docs
 weight: 6410
 url: /ru/net/aspose.words/textdmleffect/
@@ -29,5 +31,3 @@ public enum TextDmlEffect
 
 * пространство имен [Aspose.Words](../../aspose.words/)
 * сборка [Aspose.Words](../../)
-
-

@@ -1,12 +1,14 @@
 ---
 title: FileFormatUtil.DetectFileFormat
-second_title: Aspose.Words for .NET API 参考
-description: FileFormatUtil 方法. 检测并返回有关存储在磁盘文件中的文档格式的信息
+linktitle: DetectFileFormat
+articleTitle: DetectFileFormat
+second_title: 用于 .NET 的 Aspose.Words
+description: FileFormatUtil DetectFileFormat 方法. 检测并返回有关存储在磁盘文件中的文档格式的信息 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words/fileformatutil/detectfileformat/
 ---
-## DetectFileFormat(string) {#detectfileformat_1}
+## DetectFileFormat(*string*) {#detectfileformat_1}
 
 检测并返回有关存储在磁盘文件中的文档格式的信息。
 
@@ -22,13 +24,13 @@ public static FileFormatInfo DetectFileFormat(string fileName)
 
 A[`FileFormatInfo`](../../fileformatinfo/)包含检测到的信息的对象。
 
-### 评论
+## 评论
 
 即使此方法检测到文档格式，也不能保证 指定的文档有效。此方法仅通过 读取足以检测的数据来检测文档格式。要完全验证文档是否有效 ，您需要将文档加载到[`Document`](../../document/)目的。
 
 这个方法抛出[`FileCorruptedException`](../../filecorruptedexception/)当格式被 识别时，但由于损坏而无法完成检测。
 
-### 例子
+## 例子
 
 演示如何使用 FileFormatUtil 类来检测文档格式和加密。
 
@@ -75,12 +77,12 @@ Assert.AreEqual(1, DigitalSignatureUtil.LoadSignatures(ArtifactsDir + "File.Dete
 
 * class [FileFormatInfo](../../fileformatinfo/)
 * class [FileFormatUtil](../)
-* 命名空间 [Aspose.Words](../../fileformatutil/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## DetectFileFormat(Stream) {#detectfileformat}
+## DetectFileFormat(*Stream*) {#detectfileformat}
 
 检测并返回有关存储在流中的文档格式的信息。
 
@@ -96,7 +98,7 @@ public static FileFormatInfo DetectFileFormat(Stream stream)
 
 A[`FileFormatInfo`](../../fileformatinfo/)包含检测到的信息的对象。
 
-### 评论
+## 评论
 
 该流必须位于文档的开头。
 
@@ -106,7 +108,7 @@ A[`FileFormatInfo`](../../fileformatinfo/)包含检测到的信息的对象。
 
 这个方法抛出[`FileCorruptedException`](../../filecorruptedexception/)当格式被 识别时，但由于损坏而无法完成检测。
 
-### 例子
+## 例子
 
 演示如何使用 FileFormatUtil 方法来检测文档的格式。
 
@@ -140,7 +142,5 @@ using (FileStream docStream = File.OpenRead(MyDir + "Word document with missing 
 
 * class [FileFormatInfo](../../fileformatinfo/)
 * class [FileFormatUtil](../)
-* 命名空间 [Aspose.Words](../../fileformatutil/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.LinksUpToDate
-second_title: Aspose.Words für .NET-API-Referenz
-description: BuiltInDocumentProperties eigendom. Gibt an ob Hyperlinks in einem Dokument aktuell sind.
+linktitle: LinksUpToDate
+articleTitle: LinksUpToDate
+second_title: Aspose.Words für .NET
+description: BuiltInDocumentProperties LinksUpToDate eigendom. Gibt an ob Hyperlinks in einem Dokument aktuell sind in C#.
 type: docs
 weight: 190
 url: /de/net/aspose.words.properties/builtindocumentproperties/linksuptodate/
@@ -14,11 +16,11 @@ Gibt an, ob Hyperlinks in einem Dokument aktuell sind.
 public bool LinksUpToDate { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Aspose.Words aktualisiert diese Eigenschaft nicht.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit Dokumenteigenschaften in der Kategorie „Inhalt“ gearbeitet wird.
 
@@ -128,7 +130,5 @@ private class LineCounter
 ### Siehe auch
 
 * class [BuiltInDocumentProperties](../)
-* namensraum [Aspose.Words.Properties](../../builtindocumentproperties/)
+* namensraum [Aspose.Words.Properties](../../../aspose.words.properties/)
 * Montage [Aspose.Words](../../../)
-
-

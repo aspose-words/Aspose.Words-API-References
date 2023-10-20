@@ -1,7 +1,9 @@
 ---
 title: FieldAutoText.EntryName
-second_title: Aspose.Words لمراجع .NET API
-description: FieldAutoText ملكية. الحصول على اسم إدخال النص التلقائي أو تعيينه.
+linktitle: EntryName
+articleTitle: EntryName
+second_title: Aspose.Words لـ .NET
+description: FieldAutoText EntryName ملكية. الحصول على اسم إدخال النص التلقائي أو تعيينه في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.fields/fieldautotext/entryname/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldautotext/entryname/
 public string EntryName { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية عرض الكتلة البرمجية الإنشائية باستخدام حقلي النص التلقائي والمسرد.
 
@@ -64,7 +66,5 @@ doc.Save(ArtifactsDir + "Field.AUTOTEXT.GLOSSARY.dotx");
 ### أنظر أيضا
 
 * class [FieldAutoText](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldautotext/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

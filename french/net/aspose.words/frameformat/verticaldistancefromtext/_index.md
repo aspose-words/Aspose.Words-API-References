@@ -1,7 +1,9 @@
 ---
 title: FrameFormat.VerticalDistanceFromText
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FrameFormat propriété. Spécifie la distance verticale en points entre un cadre et le texte environnant.
+linktitle: VerticalDistanceFromText
+articleTitle: VerticalDistanceFromText
+second_title: Aspose.Words pour .NET
+description: FrameFormat VerticalDistanceFromText propriété. Spécifie la distance verticale en points entre un cadre et le texte environnant en C#.
 type: docs
 weight: 100
 url: /fr/net/aspose.words/frameformat/verticaldistancefromtext/
@@ -14,7 +16,7 @@ Spécifie la distance verticale (en points) entre un cadre et le texte environna
 public double VerticalDistanceFromText { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment obtenir des informations sur les propriétés de mise en forme des paragraphes qui sont des cadres.
 
@@ -39,7 +41,5 @@ Assert.AreEqual(0.0d, paragraphFrame.FrameFormat.VerticalDistanceFromText);
 ### Voir également
 
 * class [FrameFormat](../)
-* espace de noms [Aspose.Words](../../frameformat/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

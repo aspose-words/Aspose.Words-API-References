@@ -1,7 +1,9 @@
 ---
-title: OdtSaveOptions.OdtSaveOptions
-second_title: Справочник по API Aspose.Words для .NET
-description: OdtSaveOptions строитель. Инициализирует новый экземпляр этого класса который можно использовать для сохранения документа вOdt формат.
+title: OdtSaveOptions
+linktitle: OdtSaveOptions
+articleTitle: OdtSaveOptions
+second_title: Aspose.Words для .NET
+description: OdtSaveOptions строитель. Инициализирует новый экземпляр этого класса который можно использовать для сохранения документа вOdt формат на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.saving/odtsaveoptions/odtsaveoptions/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.saving/odtsaveoptions/odtsaveoptions/
 public OdtSaveOptions()
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как привести сохраненный документ в соответствие со старой схемой ODT.
 
@@ -33,12 +35,12 @@ doc.Save(ArtifactsDir + "OdtSaveOptions.Odt11Schema.odt", saveOptions);
 ### Смотрите также
 
 * class [OdtSaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../odtsaveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## OdtSaveOptions(string) {#constructor_2}
+## OdtSaveOptions(*string*) {#constructor_2}
 
 Инициализирует новый экземпляр этого класса, который можно использовать для сохранения документа вOdt format зашифрован паролем.
 
@@ -49,12 +51,12 @@ public OdtSaveOptions(string password)
 ### Смотрите также
 
 * class [OdtSaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../odtsaveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## OdtSaveOptions(SaveFormat) {#constructor_1}
+## OdtSaveOptions(*[SaveFormat](../../../aspose.words/saveformat/)*) {#constructor_1}
 
 Инициализирует новый экземпляр этого класса, который можно использовать для сохранения документа вOdt или Ott формат.
 
@@ -66,7 +68,7 @@ public OdtSaveOptions(SaveFormat saveFormat)
 | --- | --- | --- |
 | saveFormat | SaveFormat | ВозможноOdt илиOtt. |
 
-### Примеры
+## Примеры
 
 Показывает, как зашифровать сохраненный документ ODT/OTT с помощью пароля, а затем загрузить его с помощью Aspose.Words.
 
@@ -102,7 +104,5 @@ Assert.AreEqual("Hello world!", doc.GetText().Trim());
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
 * class [OdtSaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../odtsaveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

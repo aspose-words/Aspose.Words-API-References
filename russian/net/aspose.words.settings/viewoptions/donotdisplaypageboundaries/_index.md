@@ -1,7 +1,9 @@
 ---
 title: ViewOptions.DoNotDisplayPageBoundaries
-second_title: Справочник по API Aspose.Words для .NET
-description: ViewOptions свойство. Отключает отображение пространства между верхней частью текста и верхним краем страницы.
+linktitle: DoNotDisplayPageBoundaries
+articleTitle: DoNotDisplayPageBoundaries
+second_title: Aspose.Words для .NET
+description: ViewOptions DoNotDisplayPageBoundaries свойство. Отключает отображение пространства между верхней частью текста и верхним краем страницы на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.settings/viewoptions/donotdisplaypageboundaries/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.settings/viewoptions/donotdisplaypageboundaries/
 public bool DoNotDisplayPageBoundaries { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как скрыть вертикальные пробелы и верхние/нижние колонтитулы в параметрах просмотра.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "ViewOptions.DisplayPageBoundaries.doc");
 ### Смотрите также
 
 * class [ViewOptions](../)
-* пространство имен [Aspose.Words.Settings](../../viewoptions/)
+* пространство имен [Aspose.Words.Settings](../../../aspose.words.settings/)
 * сборка [Aspose.Words](../../../)
-
-

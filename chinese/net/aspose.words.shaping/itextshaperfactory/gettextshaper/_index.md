@@ -1,12 +1,14 @@
 ---
 title: ITextShaperFactory.GetTextShaper
-second_title: Aspose.Words for .NET API 参考
-description: ITextShaperFactory 方法. 返回指定字体的文本整形器的新实例fontPath和faceIndex.
+linktitle: GetTextShaper
+articleTitle: GetTextShaper
+second_title: 用于 .NET 的 Aspose.Words
+description: ITextShaperFactory GetTextShaper 方法. 返回指定字体的文本整形器的新实例fontPath和faceIndex 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.shaping/itextshaperfactory/gettextshaper/
 ---
-## GetTextShaper(string, int) {#gettextshaper_1}
+## GetTextShaper(*string, int*) {#gettextshaper_1}
 
 返回指定字体的文本整形器的新实例*fontPath*和*faceIndex*.
 
@@ -23,12 +25,12 @@ public ITextShaper GetTextShaper(string fontPath, int faceIndex)
 
 * interface [ITextShaper](../../itextshaper/)
 * interface [ITextShaperFactory](../)
-* 命名空间 [Aspose.Words.Shaping](../../itextshaperfactory/)
+* 命名空间 [Aspose.Words.Shaping](../../../aspose.words.shaping/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## GetTextShaper(string, byte[], int) {#gettextshaper}
+## GetTextShaper(*string, byte[], int*) {#gettextshaper}
 
 返回由 表示的字体的文本整形器的新实例*fontBlob*和*faceIndex*.
 
@@ -46,7 +48,5 @@ public ITextShaper GetTextShaper(string fontId, byte[] fontBlob, int faceIndex)
 
 * interface [ITextShaper](../../itextshaper/)
 * interface [ITextShaperFactory](../)
-* 命名空间 [Aspose.Words.Shaping](../../itextshaperfactory/)
+* 命名空间 [Aspose.Words.Shaping](../../../aspose.words.shaping/)
 * 部件 [Aspose.Words](../../../)
-
-

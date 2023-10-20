@@ -1,7 +1,9 @@
 ---
 title: BookmarksOutlineLevelCollection.Item
-second_title: Aspose.Words per .NET API Reference
-description: BookmarksOutlineLevelCollection proprietà. Ottiene o imposta un livello di struttura del segnalibro in base al nome del segnalibro.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words per .NET
+description: BookmarksOutlineLevelCollection Item proprietà. Ottiene o imposta un livello di struttura del segnalibro in base al nome del segnalibro in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words.saving/bookmarksoutlinelevelcollection/item/
@@ -22,7 +24,7 @@ public int this[string name] { get; set; }
 
 Il livello di struttura del segnalibro. L'intervallo valido è compreso tra 0 e 9.
 
-### Esempi
+## Esempi
 
 Mostra come impostare i livelli di struttura per i segnalibri.
 
@@ -80,7 +82,7 @@ outlineLevels.Clear();
 ### Guarda anche
 
 * class [BookmarksOutlineLevelCollection](../)
-* spazio dei nomi [Aspose.Words.Saving](../../bookmarksoutlinelevelcollection/)
+* spazio dei nomi [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../../)
 
 ---
@@ -101,7 +103,7 @@ public int this[int index] { get; set; }
 
 Il livello di struttura del segnalibro. L'intervallo valido è compreso tra 0 e 9.
 
-### Esempi
+## Esempi
 
 Mostra come impostare i livelli di struttura per i segnalibri.
 
@@ -159,7 +161,5 @@ outlineLevels.Clear();
 ### Guarda anche
 
 * class [BookmarksOutlineLevelCollection](../)
-* spazio dei nomi [Aspose.Words.Saving](../../bookmarksoutlinelevelcollection/)
+* spazio dei nomi [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../../)
-
-

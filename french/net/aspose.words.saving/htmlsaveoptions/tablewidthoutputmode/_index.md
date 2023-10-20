@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.TableWidthOutputMode
-second_title: Référence de l'API Aspose.Words pour .NET
-description: HtmlSaveOptions propriété. Contrôle la façon dont les largeurs des tableaux des lignes et des cellules sont exportées au format HTML MHTML ou EPUB. La valeur par défaut estAll .
+linktitle: TableWidthOutputMode
+articleTitle: TableWidthOutputMode
+second_title: Aspose.Words pour .NET
+description: HtmlSaveOptions TableWidthOutputMode propriété. Contrôle la façon dont les largeurs des tableaux des lignes et des cellules sont exportées au format HTML MHTML ou EPUB. La valeur par défaut estAll  en C#.
 type: docs
 weight: 460
 url: /fr/net/aspose.words.saving/htmlsaveoptions/tablewidthoutputmode/
@@ -14,15 +16,15 @@ Contrôle la façon dont les largeurs des tableaux, des lignes et des cellules s
 public HtmlElementSizeOutputMode TableWidthOutputMode { get; set; }
 ```
 
-### Remarques
+## Remarques
 
-Au format HTML, les éléments de tableau, de ligne et de cellule ( **&lt;tableau&gt;** , **&lt;tr&gt;** , **&lt;th&gt;** , **&lt;td&gt;**) peuvent avoir leurs largeurs spécifiées soit en unités relatives (pourcentage) soit en unités absolues. Dans un document dans Aspose.Words, les tableaux, les lignes et les cellules peuvent avoir leurs largeurs spécifiées en utilisant également des unités relatives ou absolues.
+Au format HTML, les éléments de tableau, de ligne et de cellule (**&lt;tableau&gt;** ,**&lt;tr&gt;** ,**&lt;th&gt;** ,**&lt;td&gt;**) peuvent avoir leurs largeurs spécifiées soit en unités relatives (pourcentage) soit en unités absolues. Dans un document dans Aspose.Words, les tableaux, les lignes et les cellules peuvent avoir leurs largeurs spécifiées en utilisant également des unités relatives ou absolues.
 
 Lorsque vous convertissez un document en HTML à l'aide d'Aspose.Words, vous souhaiterez peut-être contrôler la façon dont les largeurs de table, de ligne et de cellule sont exportées pour affecter la façon dont le document résultant est affiché dans l'agent visuel (par exemple, un navigateur ou une visionneuse).
 
 Utilisez cette propriété comme filtre pour spécifier quelles valeurs de largeur de tableau sont exportées dans le document de destination. Par exemple, si vous convertissez un document au format EPUB et avez l'intention de visualiser le document sur un appareil de lecture mobile, alors vous voudrez probablement éviter exporter des valeurs de largeur absolues. Pour ce faire, vous devez spécifier le mode de sortieRelativeOnly ouNone afin que le spectateur sur l'appareil mobile puisse disposer le tableau pour l'adapter au mieux à la largeur de l'écran.
 
-### Exemples
+## Exemples
 
 Montre comment conserver les retraits négatifs dans le fichier .html de sortie.
 
@@ -85,7 +87,5 @@ else
 
 * enum [HtmlElementSizeOutputMode](../../htmlelementsizeoutputmode/)
 * class [HtmlSaveOptions](../)
-* espace de noms [Aspose.Words.Saving](../../htmlsaveoptions/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: FieldMacroButton.FieldMacroButton
-second_title: Aspose.Words för .NET API Referens
-description: FieldMacroButton byggare. Default_Constructor
+title: FieldMacroButton
+linktitle: FieldMacroButton
+articleTitle: FieldMacroButton
+second_title: Aspose.Words för .NET
+description: FieldMacroButton byggare. Default_Constructor i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.fields/fieldmacrobutton/fieldmacrobutton/
@@ -17,7 +19,5 @@ public FieldMacroButton()
 ### Se även
 
 * class [FieldMacroButton](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldmacrobutton/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

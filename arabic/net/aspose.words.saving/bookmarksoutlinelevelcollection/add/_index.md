@@ -1,7 +1,9 @@
 ---
 title: BookmarksOutlineLevelCollection.Add
-second_title: Aspose.Words لمراجع .NET API
-description: BookmarksOutlineLevelCollection طريقة. إضافة إشارة مرجعية إلى المجموعة.
+linktitle: Add
+articleTitle: Add
+second_title: Aspose.Words لـ .NET
+description: BookmarksOutlineLevelCollection Add طريقة. إضافة إشارة مرجعية إلى المجموعة في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.saving/bookmarksoutlinelevelcollection/add/
@@ -19,7 +21,7 @@ public void Add(string name, int outlineLevel)
 | name | String | الاسم غير الحساس لحالة الأحرف للإشارة المرجعية المطلوب إضافتها. |
 | outlineLevel | Int32 | مستوى المخطط التفصيلي للإشارة المرجعية. النطاق الصالح هو 0 إلى 9. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين مستويات المخطط التفصيلي للإشارات المرجعية.
 
@@ -77,7 +79,5 @@ outlineLevels.Clear();
 ### أنظر أيضا
 
 * class [BookmarksOutlineLevelCollection](../)
-* مساحة الاسم [Aspose.Words.Saving](../../bookmarksoutlinelevelcollection/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

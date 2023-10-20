@@ -1,7 +1,9 @@
 ---
 title: DropDownItemCollection.Item
-second_title: Referencia de API de Aspose.Words para .NET
-description: DropDownItemCollection propiedad. Obtiene o establece el elemento en el índice especificado.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words para .NET
+description: DropDownItemCollection Item propiedad. Obtiene o establece el elemento en el índice especificado en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words.fields/dropdownitemcollection/item/
@@ -14,7 +16,7 @@ Obtiene o establece el elemento en el índice especificado.
 public string this[int index] { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo insertar un campo de cuadro combinado y editar los elementos de su colección de elementos.
 
@@ -68,7 +70,5 @@ dropDownItems.Clear();
 ### Ver también
 
 * class [DropDownItemCollection](../)
-* espacio de nombres [Aspose.Words.Fields](../../dropdownitemcollection/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

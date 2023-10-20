@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.HasMajorGridlines
-second_title: Aspose.Words لمراجع .NET API
-description: ChartAxis ملكية. الحصول على أو تعيين علامة تشير إلى ما إذا كان المحور يحتوي على خطوط شبكة رئيسية.
+linktitle: HasMajorGridlines
+articleTitle: HasMajorGridlines
+second_title: Aspose.Words لـ .NET
+description: ChartAxis HasMajorGridlines ملكية. الحصول على أو تعيين علامة تشير إلى ما إذا كان المحور يحتوي على خطوط شبكة رئيسية في C#.
 type: docs
 weight: 80
 url: /ar/net/aspose.words.drawing.charts/chartaxis/hasmajorgridlines/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing.charts/chartaxis/hasmajorgridlines/
 public bool HasMajorGridlines { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج مخطط بقيم التاريخ/الوقت.
 
@@ -68,7 +70,5 @@ doc.Save(ArtifactsDir + "Charts.DateTimeValues.docx");
 ### أنظر أيضا
 
 * class [ChartAxis](../)
-* مساحة الاسم [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* مساحة الاسم [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ChartXValue.FromDouble
-second_title: Aspose.Words per .NET API Reference
-description: ChartXValue metodo. Crea unChartXValue istanza delDouble tipo.
+linktitle: FromDouble
+articleTitle: FromDouble
+second_title: Aspose.Words per .NET
+description: ChartXValue FromDouble metodo. Crea unChartXValue istanza delDouble tipo in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words.drawing.charts/chartxvalue/fromdouble/
@@ -14,7 +16,7 @@ Crea un[`ChartXValue`](../) istanza delDouble tipo.
 public static ChartXValue FromDouble(double value)
 ```
 
-### Esempi
+## Esempi
 
 Mostra come popolare le serie di grafici con i dati.
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "Charts.PopulateChartWithData.docx");
 ### Guarda anche
 
 * class [ChartXValue](../)
-* spazio dei nomi [Aspose.Words.Drawing.Charts](../../chartxvalue/)
+* spazio dei nomi [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * assemblea [Aspose.Words](../../../)
-
-

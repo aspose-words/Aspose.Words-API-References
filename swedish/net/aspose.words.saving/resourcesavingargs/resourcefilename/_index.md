@@ -1,7 +1,9 @@
 ---
 title: ResourceSavingArgs.ResourceFileName
-second_title: Aspose.Words för .NET API Referens
-description: ResourceSavingArgs fast egendom. Hämtar eller ställer in filnamnet utan sökväg där resursen ska sparas.
+linktitle: ResourceFileName
+articleTitle: ResourceFileName
+second_title: Aspose.Words för .NET
+description: ResourceSavingArgs ResourceFileName fast egendom. Hämtar eller ställer in filnamnet utan sökväg där resursen ska sparas i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.saving/resourcesavingargs/resourcefilename/
@@ -14,7 +16,7 @@ Hämtar eller ställer in filnamnet (utan sökväg) där resursen ska sparas.
 public string ResourceFileName { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Den här egenskapen låter dig omdefiniera hur resursfilnamnen genereras under export till fixerad HTML eller SVG.
 
@@ -30,7 +32,7 @@ När du sparar ett dokument i en ström ser det genererade resursfilnamnet ut so
 
 [`ResourcesFolder`](../../htmlfixedsaveoptions/resourcesfolder/)[`ResourcesFolder`](../../svgsaveoptions/resourcesfolder/)[`ResourcesFolderAlias`](../../htmlfixedsaveoptions/resourcesfolderalias/)[`ResourcesFolderAlias`](../../svgsaveoptions/resourcesfolderalias/)
 
-### Exempel
+## Exempel
 
 Visar hur man använder en återuppringning för att spåra externa resurser som skapas när ett dokument konverteras till HTML.
 
@@ -75,7 +77,5 @@ private class FontSavingCallback : IResourceSavingCallback
 ### Se även
 
 * class [ResourceSavingArgs](../)
-* namnutrymme [Aspose.Words.Saving](../../resourcesavingargs/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

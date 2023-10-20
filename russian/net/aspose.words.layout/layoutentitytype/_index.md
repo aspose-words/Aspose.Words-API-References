@@ -1,7 +1,9 @@
 ---
-title: Enum LayoutEntityType
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Layout.LayoutEntityType перечисление. Типы объектов макета.
+title: LayoutEntityType Enum
+linktitle: LayoutEntityType
+articleTitle: LayoutEntityType
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Layout.LayoutEntityType перечисление. Типы объектов макета на С#.
 type: docs
 weight: 3330
 url: /ru/net/aspose.words.layout/layoutentitytype/
@@ -34,7 +36,7 @@ public enum LayoutEntityType
 | Comment | `1000` | Представляет заполнитель для содержимого комментария. Комментарий может иметьLine иRow дочерние объекты. |
 | NoteSeparator | `2000` | Представляет разделитель сносок/концевых сносок. NoteSeparator может иметьLine иRow дочерние объекты. |
 
-### Примеры
+## Примеры
 
 Показывает способы перемещения по объектам макета документа.
 
@@ -180,5 +182,3 @@ private static void PrintCurrentEntity(LayoutEnumerator layoutEnumerator, int in
 
 * пространство имен [Aspose.Words.Layout](../../aspose.words.layout/)
 * сборка [Aspose.Words](../../)
-
-

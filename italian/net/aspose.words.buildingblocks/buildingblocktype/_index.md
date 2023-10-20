@@ -1,7 +1,9 @@
 ---
-title: Enum BuildingBlockType
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.BuildingBlocks.BuildingBlockType enum. Specifica un tipo di blocco predefinito. Il tipo potrebbe influire sulla visibilità e sul comportamento del blocco predefinito in Microsoft Word.
+title: BuildingBlockType Enum
+linktitle: BuildingBlockType
+articleTitle: BuildingBlockType
+second_title: Aspose.Words per .NET
+description: Aspose.Words.BuildingBlocks.BuildingBlockType enum. Specifica un tipo di blocco predefinito. Il tipo potrebbe influire sulla visibilità e sul comportamento del blocco predefinito in Microsoft Word in C#.
 type: docs
 weight: 170
 url: /it/net/aspose.words.buildingblocks/buildingblocktype/
@@ -28,11 +30,11 @@ public enum BuildingBlockType
 | All | `7` | Il blocco predefinito è associato a tutti i tipi. |
 | Default | `0` | Salva con nomeNone . |
 
-### Osservazioni
+## Osservazioni
 
-Corrisponde a **ST_DocPartType** digitare OOXML.
+Corrisponde a**ST_DocPartType** digitare OOXML.
 
-### Esempi
+## Esempi
 
 Mostra come aggiungere un blocco predefinito personalizzato a un documento.
 
@@ -130,5 +132,3 @@ public class BuildingBlockVisitor : DocumentVisitor
 
 * spazio dei nomi [Aspose.Words.BuildingBlocks](../../aspose.words.buildingblocks/)
 * assemblea [Aspose.Words](../../)
-
-

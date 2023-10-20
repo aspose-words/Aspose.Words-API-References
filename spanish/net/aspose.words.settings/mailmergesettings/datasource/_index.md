@@ -1,7 +1,9 @@
 ---
 title: MailMergeSettings.DataSource
-second_title: Referencia de API de Aspose.Words para .NET
-description: MailMergeSettings propiedad. Especifica la ruta al origen de datos de combinación de correspondencia. El valor predeterminado es una cadena vacía.
+linktitle: DataSource
+articleTitle: DataSource
+second_title: Aspose.Words para .NET
+description: MailMergeSettings DataSource propiedad. Especifica la ruta al origen de datos de combinación de correspondencia. El valor predeterminado es una cadena vacía en C#.
 type: docs
 weight: 60
 url: /es/net/aspose.words.settings/mailmergesettings/datasource/
@@ -14,7 +16,7 @@ Especifica la ruta al origen de datos de combinación de correspondencia. El val
 public string DataSource { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo construir una fuente de datos para una combinación de correspondencia a partir de una fuente de encabezado y una fuente de datos.
 
@@ -79,7 +81,5 @@ doc.Save(ArtifactsDir + "MailMerge.MailingLabelMerge.docx");
 ### Ver también
 
 * class [MailMergeSettings](../)
-* espacio de nombres [Aspose.Words.Settings](../../mailmergesettings/)
+* espacio de nombres [Aspose.Words.Settings](../../../aspose.words.settings/)
 * asamblea [Aspose.Words](../../../)
-
-

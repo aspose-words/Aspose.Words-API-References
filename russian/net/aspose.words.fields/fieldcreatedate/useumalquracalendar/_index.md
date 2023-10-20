@@ -1,7 +1,9 @@
 ---
 title: FieldCreateDate.UseUmAlQuraCalendar
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldCreateDate свойство. Получает или задает необходимость использования календаря УмальКура.
+linktitle: UseUmAlQuraCalendar
+articleTitle: UseUmAlQuraCalendar
+second_title: Aspose.Words для .NET
+description: FieldCreateDate UseUmAlQuraCalendar свойство. Получает или задает необходимость использования календаря УмальКура на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.fields/fieldcreatedate/useumalquracalendar/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldcreatedate/useumalquracalendar/
 public bool UseUmAlQuraCalendar { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как использовать поле CREATEDATE для отображения даты/времени создания документа.
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "Field.CREATEDATE.docx");
 ### Смотрите также
 
 * class [FieldCreateDate](../)
-* пространство имен [Aspose.Words.Fields](../../fieldcreatedate/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

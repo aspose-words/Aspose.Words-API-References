@@ -1,9 +1,11 @@
 ---
 title: DocumentBuilder.InsertTableOfContents
-second_title: Справочник по API Aspose.Words для .NET
-description: DocumentBuilder метод. Вставляет поле TOC оглавление в документ.
+linktitle: InsertTableOfContents
+articleTitle: InsertTableOfContents
+second_title: Aspose.Words для .NET
+description: DocumentBuilder InsertTableOfContents метод. Вставляет поле TOC оглавление в документ на С#.
 type: docs
-weight: 470
+weight: 460
 url: /ru/net/aspose.words/documentbuilder/inserttableofcontents/
 ---
 ## DocumentBuilder.InsertTableOfContents method
@@ -18,7 +20,7 @@ public Field InsertTableOfContents(string switches)
 | --- | --- | --- |
 | switches | String | Поле TOC переключается. |
 
-### Примечания
+## Примечания
 
 Этот метод вставляет поле TOC (оглавление) в документ в текущей позиции.
 
@@ -26,7 +28,7 @@ public Field InsertTableOfContents(string switches)
 
 Самый простой способ указать переключатели — вставить и настроить таблицу содержимого в документ Word с помощью меню «Вставка-&gt;Ссылка-&gt;Указатель и таблицы», , а затем включить отображение кодов полей, чтобы увидеть переключатели. Вы можете нажать Alt+F9 in Microsoft Word, чтобы включить или выключить отображение кодов полей.
 
-Например, после создания оглавления в документ вставляется следующее поле : **{ TOC \o "1-3" \h \z \u }** . Вы можете скопировать **\o "1-3" \h \z \u** и используйте его в качестве параметра переключателей.
+Например, после создания оглавления в документ вставляется следующее поле :**{ TOC \o "1-3" \h \z \u }** . Вы можете скопировать**\o "1-3" \h \z \u** и используйте его в качестве параметра переключателей.
 
 Обратите внимание, что`InsertTableOfContents` вставит только поле оглавления, но фактически не построит оглавление. Оглавление создается с помощью Microsoft Word при обновлении поля.
 
@@ -34,7 +36,7 @@ public Field InsertTableOfContents(string switches)
 
 В Microsoft Word поля не обновляются автоматически при открытии документа, , но вы можете обновить поля в документе в любое время, нажав F9.
 
-### Примеры
+## Примеры
 
 Показывает, как вставить оглавление (TOC) в документ, используя стили заголовков в качестве записей.
 
@@ -87,7 +89,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertToc.docx");
 
 * class [Field](../../../aspose.words.fields/field/)
 * class [DocumentBuilder](../)
-* пространство имен [Aspose.Words](../../documentbuilder/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

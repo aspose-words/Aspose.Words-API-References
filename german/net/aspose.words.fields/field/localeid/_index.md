@@ -1,7 +1,9 @@
 ---
 title: Field.LocaleId
-second_title: Aspose.Words für .NET-API-Referenz
-description: Field eigendom. Ruft die LCID des Felds ab oder legt sie fest.
+linktitle: LocaleId
+articleTitle: LocaleId
+second_title: Aspose.Words für .NET
+description: Field LocaleId eigendom. Ruft die LCID des Felds ab oder legt sie fest in C#.
 type: docs
 weight: 60
 url: /de/net/aspose.words.fields/field/localeid/
@@ -14,7 +16,7 @@ Ruft die LCID des Felds ab oder legt sie fest.
 public int LocaleId { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man ein Feld einfügt und mit seinem Gebietsschema arbeitet.
 
@@ -42,7 +44,5 @@ Console.WriteLine($"Today's date, as displayed according to the \"{CultureInfo.G
 ### Siehe auch
 
 * class [Field](../)
-* namensraum [Aspose.Words.Fields](../../field/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

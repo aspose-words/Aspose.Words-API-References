@@ -1,7 +1,9 @@
 ---
 title: OdtSaveOptions.Password
-second_title: Référence de l'API Aspose.Words pour .NET
-description: OdtSaveOptions propriété. Obtient ou définit un mot de passe pour chiffrer le document.
+linktitle: Password
+articleTitle: Password
+second_title: Aspose.Words pour .NET
+description: OdtSaveOptions Password propriété. Obtient ou définit un mot de passe pour chiffrer le document en C#.
 type: docs
 weight: 40
 url: /fr/net/aspose.words.saving/odtsaveoptions/password/
@@ -14,11 +16,11 @@ Obtient ou définit un mot de passe pour chiffrer le document.
 public string Password { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 Afin d'enregistrer le document sans cryptage, cette propriété doit être`nul` ou une chaîne vide.
 
-### Exemples
+## Exemples
 
 Montre comment chiffrer un document ODT/OTT enregistré avec un mot de passe, puis le charger à l'aide d'Aspose.Words.
 
@@ -53,7 +55,5 @@ Assert.AreEqual("Hello world!", doc.GetText().Trim());
 ### Voir également
 
 * class [OdtSaveOptions](../)
-* espace de noms [Aspose.Words.Saving](../../odtsaveoptions/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

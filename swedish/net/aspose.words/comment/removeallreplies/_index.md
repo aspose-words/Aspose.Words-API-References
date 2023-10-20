@@ -1,9 +1,11 @@
 ---
 title: Comment.RemoveAllReplies
-second_title: Aspose.Words för .NET API Referens
-description: Comment metod. Tar bort alla svar på den här kommentaren.
+linktitle: RemoveAllReplies
+articleTitle: RemoveAllReplies
+second_title: Aspose.Words för .NET
+description: Comment RemoveAllReplies metod. Tar bort alla svar på den här kommentaren i C#.
 type: docs
-weight: 160
+weight: 130
 url: /sv/net/aspose.words/comment/removeallreplies/
 ---
 ## Comment.RemoveAllReplies method
@@ -14,11 +16,11 @@ Tar bort alla svar på den här kommentaren.
 public void RemoveAllReplies()
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Alla ingående noder i svaren kommer att raderas från dokumentet.
 
-### Exempel
+## Exempel
 
 Visar hur man tar bort kommentarsvar.
 
@@ -50,7 +52,5 @@ Assert.AreEqual(0, comment.Replies.Count());
 ### Se även
 
 * class [Comment](../)
-* namnutrymme [Aspose.Words](../../comment/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

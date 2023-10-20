@@ -1,7 +1,9 @@
 ---
-title: Class WebExtension
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.WebExtensions.WebExtension classe. Représente un objet dextension Web.
+title: WebExtension Class
+linktitle: WebExtension
+articleTitle: WebExtension
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.WebExtensions.WebExtension classe. Représente un objet dextension Web en C#.
 type: docs
 weight: 6740
 url: /fr/net/aspose.words.webextensions/webextension/
@@ -27,7 +29,7 @@ public class WebExtension
 | [Properties](../../aspose.words.webextensions/webextension/properties/) { get; } | Représente un ensemble de propriétés personnalisées d'extension Web. |
 | [Reference](../../aspose.words.webextensions/webextension/reference/) { get; } | Spécifie la référence principale à une extension Web. |
 
-### Exemples
+## Exemples
 
 Montre comment ajouter une extension Web à un document.
 
@@ -73,5 +75,3 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 
 * espace de noms [Aspose.Words.WebExtensions](../../aspose.words.webextensions/)
 * Assemblée [Aspose.Words](../../)
-
-

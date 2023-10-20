@@ -1,7 +1,9 @@
 ---
 title: Font.Border
-second_title: Справочник по API Aspose.Words для .NET
-description: Font свойство. ВозвращаетBorder объект задающий границу шрифта.
+linktitle: Border
+articleTitle: Border
+second_title: Aspose.Words для .NET
+description: Font Border свойство. ВозвращаетBorder объект задающий границу шрифта на С#.
 type: docs
 weight: 60
 url: /ru/net/aspose.words/font/border/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/font/border/
 public Border Border { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как вставить в документ строку, окруженную рамкой.
 
@@ -35,7 +37,5 @@ doc.Save(ArtifactsDir + "Border.FontBorder.docx");
 
 * class [Border](../../border/)
 * class [Font](../)
-* пространство имен [Aspose.Words](../../font/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

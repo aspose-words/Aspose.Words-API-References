@@ -1,7 +1,9 @@
 ---
 title: OutlineOptions.ExpandedOutlineLevels
-second_title: Aspose.Words for .NET API 参考
-description: OutlineOptions 财产. 指定查看文件时文档大纲中要显示展开的层数
+linktitle: ExpandedOutlineLevels
+articleTitle: ExpandedOutlineLevels
+second_title: 用于 .NET 的 Aspose.Words
+description: OutlineOptions ExpandedOutlineLevels 财产. 指定查看文件时文档大纲中要显示展开的层数 在 C#.
 type: docs
 weight: 60
 url: /zh/net/aspose.words.saving/outlineoptions/expandedoutlinelevels/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.saving/outlineoptions/expandedoutlinelevels/
 public int ExpandedOutlineLevels { get; set; }
 ```
 
-### 评论
+## 评论
 
 请注意，保存到 XPS 时此选项将不起作用。
 
@@ -22,7 +24,7 @@ public int ExpandedOutlineLevels { get; set; }
 
 默认值为 0。有效范围为 0 到 9。
 
-### 例子
+## 例子
 
 演示如何将整个文档转换为具有文档大纲三个级别的 PDF。
 
@@ -81,7 +83,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.ExpandedOutlineLevels.pdf", options);
 ### 也可以看看
 
 * class [OutlineOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../outlineoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

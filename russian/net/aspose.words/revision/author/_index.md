@@ -1,7 +1,9 @@
 ---
 title: Revision.Author
-second_title: Справочник по API Aspose.Words для .NET
-description: Revision свойство. Получает или задает автора этой редакции. Не может быть пустой строкой илинулевой .
+linktitle: Author
+articleTitle: Author
+second_title: Aspose.Words для .NET
+description: Revision Author свойство. Получает или задает автора этой редакции. Не может быть пустой строкой илинулевой  на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words/revision/author/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/revision/author/
 public string Author { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как работать с изменениями в документе.
 
@@ -97,7 +99,5 @@ Assert.AreEqual("This is revision #1. \rThis is revision #2.", doc.GetText().Tri
 ### Смотрите также
 
 * class [Revision](../)
-* пространство имен [Aspose.Words](../../revision/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

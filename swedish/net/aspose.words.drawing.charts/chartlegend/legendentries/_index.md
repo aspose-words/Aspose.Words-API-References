@@ -1,7 +1,9 @@
 ---
 title: ChartLegend.LegendEntries
-second_title: Aspose.Words för .NET API Referens
-description: ChartLegend fast egendom. Returnerar en samling förklaringsposter för alla serier och trendlinjer i det överordnade diagrammet.
+linktitle: LegendEntries
+articleTitle: LegendEntries
+second_title: Aspose.Words för .NET
+description: ChartLegend LegendEntries fast egendom. Returnerar en samling förklaringsposter för alla serier och trendlinjer i det överordnade diagrammet i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.drawing.charts/chartlegend/legendentries/
@@ -14,7 +16,7 @@ Returnerar en samling förklaringsposter för alla serier och trendlinjer i det 
 public ChartLegendEntryCollection LegendEntries { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med en förklaringspost för diagramserier.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "Charts.LegendEntries.docx");
 
 * class [ChartLegendEntryCollection](../../chartlegendentrycollection/)
 * class [ChartLegend](../)
-* namnutrymme [Aspose.Words.Drawing.Charts](../../chartlegend/)
+* namnutrymme [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class Border
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Border clase. Representa el borde de un objeto.
+title: Border Class
+linktitle: Border
+articleTitle: Border
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Border clase. Representa el borde de un objeto en C#.
 type: docs
 weight: 80
 url: /es/net/aspose.words/border/
@@ -34,15 +36,15 @@ public class Border : InternableComplexAttr
 | Nombre | Descripción |
 | --- | --- |
 | [ClearFormatting](../../aspose.words/border/clearformatting/)() | Restablece las propiedades del borde a los valores predeterminados. |
-| [Equals](../../aspose.words/border/equals/#equals)(Border) | Determina si el borde especificado tiene el mismo valor que el borde actual. |
-| override [Equals](../../aspose.words/border/equals/#equals_1)(object) | Determina si el objeto especificado tiene el mismo valor que el objeto actual. |
+| [Equals](../../aspose.words/border/equals/#equals)(*Border*) | Determina si el borde especificado tiene el mismo valor que el borde actual. |
+| override [Equals](../../aspose.words/border/equals/#equals_1)(*object*) | Determina si el objeto especificado tiene el mismo valor que el objeto actual. |
 | override [GetHashCode](../../aspose.words/border/gethashcode/)() | Sirve como función hash para este tipo. |
 
-### Observaciones
+## Observaciones
 
 Los bordes se pueden aplicar a varios elementos del documento, incluido el párrafo, corrida de texto dentro de un párrafo o una celda de una tabla.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo insertar una cadena rodeada por un borde en un documento.
 
@@ -82,5 +84,3 @@ doc.Save(ArtifactsDir + "Border.ParagraphTopBorder.docx");
 * class [InternableComplexAttr](../internablecomplexattr/)
 * espacio de nombres [Aspose.Words](../../aspose.words/)
 * asamblea [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum GradientVariant
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Drawing.GradientVariant enumeración. Especifica la variante para un relleno degradado.
+title: GradientVariant Enum
+linktitle: GradientVariant
+articleTitle: GradientVariant
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Drawing.GradientVariant enumeración. Especifica la variante para un relleno degradado en C#.
 type: docs
 weight: 1010
 url: /es/net/aspose.words.drawing/gradientvariant/
@@ -24,11 +26,11 @@ public enum GradientVariant
 | Variant3 | `3` | Variante de gradiente 3. |
 | Variant4 | `4` | Variante de degradado 4. |
 
-### Observaciones
+## Observaciones
 
 Corresponde a las cuatro variantes de la pestaña Degradado del cuadro de diálogo Efectos de relleno en Word.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo rellenar una forma con degradados.
 
@@ -70,5 +72,3 @@ doc.Save(ArtifactsDir + "Shape.GradientFill.docx", saveOptions);
 
 * espacio de nombres [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * asamblea [Aspose.Words](../../)
-
-

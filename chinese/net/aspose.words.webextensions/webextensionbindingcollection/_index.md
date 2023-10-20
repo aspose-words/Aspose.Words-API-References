@@ -1,7 +1,9 @@
 ---
-title: Class WebExtensionBindingCollection
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.WebExtensions.WebExtensionBindingCollection 班级. 指定 Web 扩展绑定列表
+title: WebExtensionBindingCollection Class
+linktitle: WebExtensionBindingCollection
+articleTitle: WebExtensionBindingCollection
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.WebExtensions.WebExtensionBindingCollection 班级. 指定 Web 扩展绑定列表 在 C#.
 type: docs
 weight: 6760
 url: /zh/net/aspose.words.webextensions/webextensionbindingcollection/
@@ -27,12 +29,12 @@ public class WebExtensionBindingCollection : BaseWebExtensionCollection<WebExten
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Add](../../aspose.words.webextensions/basewebextensioncollection-1/add/)(WebExtensionBinding) |  |
+| [Add](../../aspose.words.webextensions/basewebextensioncollection-1/add/)(*[WebExtensionBinding](../webextensionbinding/)*) |  |
 | [Clear](../../aspose.words.webextensions/basewebextensioncollection-1/clear/)() |  |
 | [GetEnumerator](../../aspose.words.webextensions/basewebextensioncollection-1/getenumerator/)() |  |
-| [Remove](../../aspose.words.webextensions/basewebextensioncollection-1/remove/)(int) |  |
+| [Remove](../../aspose.words.webextensions/basewebextensioncollection-1/remove/)(*int*) |  |
 
-### 例子
+## 例子
 
 演示如何向文档添加 Web 扩展。
 
@@ -80,5 +82,3 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 * class [WebExtensionBinding](../webextensionbinding/)
 * 命名空间 [Aspose.Words.WebExtensions](../../aspose.words.webextensions/)
 * 部件 [Aspose.Words](../../)
-
-

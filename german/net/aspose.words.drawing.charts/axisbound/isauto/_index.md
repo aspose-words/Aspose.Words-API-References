@@ -1,7 +1,9 @@
 ---
 title: AxisBound.IsAuto
-second_title: Aspose.Words für .NET-API-Referenz
-description: AxisBound eigendom. Gibt ein Flag zurück das angibt dass die Achsengrenze automatisch bestimmt werden soll.
+linktitle: IsAuto
+articleTitle: IsAuto
+second_title: Aspose.Words für .NET
+description: AxisBound IsAuto eigendom. Gibt ein Flag zurück das angibt dass die Achsengrenze automatisch bestimmt werden soll in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.drawing.charts/axisbound/isauto/
@@ -14,7 +16,7 @@ Gibt ein Flag zurück, das angibt, dass die Achsengrenze automatisch bestimmt we
 public bool IsAuto { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie benutzerdefinierte Achsengrenzen festgelegt werden.
 
@@ -74,7 +76,5 @@ doc.Save(ArtifactsDir + "Charts.AxisBound.docx");
 ### Siehe auch
 
 * class [AxisBound](../)
-* namensraum [Aspose.Words.Drawing.Charts](../../axisbound/)
+* namensraum [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../../)
-
-

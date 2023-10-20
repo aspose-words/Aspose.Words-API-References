@@ -1,7 +1,9 @@
 ---
-title: Class ChartYValueCollection
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Drawing.Charts.ChartYValueCollection 班级. 表示图表系列的 Y 值集合
+title: ChartYValueCollection Class
+linktitle: ChartYValueCollection
+articleTitle: ChartYValueCollection
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Drawing.Charts.ChartYValueCollection 班级. 表示图表系列的 Y 值集合 在 C#.
 type: docs
 weight: 880
 url: /zh/net/aspose.words.drawing.charts/chartyvaluecollection/
@@ -27,13 +29,13 @@ public class ChartYValueCollection : IEnumerable<ChartYValue>
 | --- | --- |
 | [GetEnumerator](../../aspose.words.drawing.charts/chartyvaluecollection/getenumerator/)() | 返回一个枚举器对象。 |
 
-### 评论
+## 评论
 
-除以下以外的所有收藏品 **无效的**必须有相同的[`ValueType`](../chartyvalue/valuetype/)。
+除以下以外的所有收藏品**无效的**必须有相同的[`ValueType`](../chartyvalue/valuetype/)。
 
 该集合仅允许更改 Y 值。要向图表系列添加或插入新值，或删除值， 的相应方法[`ChartSeries`](../chartseries/)可以使用类。
 
-### 例子
+## 例子
 
 展示如何获取图表系列数据。
 
@@ -91,5 +93,3 @@ doc.Save(ArtifactsDir + "Charts.GetChartSeriesData.docx");
 * class [ChartYValue](../chartyvalue/)
 * 命名空间 [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * 部件 [Aspose.Words](../../)
-
-

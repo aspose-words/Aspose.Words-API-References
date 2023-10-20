@@ -1,7 +1,9 @@
 ---
 title: Document.CustomDocumentProperties
-second_title: Aspose.Words لمراجع .NET API
-description: Document ملكية. إرجاع مجموعة تمثل كافة خصائص المستند المخصصة للمستند.
+linktitle: CustomDocumentProperties
+articleTitle: CustomDocumentProperties
+second_title: Aspose.Words لـ .NET
+description: Document CustomDocumentProperties ملكية. إرجاع مجموعة تمثل كافة خصائص المستند المخصصة للمستند في C#.
 type: docs
 weight: 70
 url: /ar/net/aspose.words/document/customdocumentproperties/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/document/customdocumentproperties/
 public CustomDocumentProperties CustomDocumentProperties { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع خصائص المستند المضمنة.
 
@@ -49,7 +51,5 @@ foreach (DocumentProperty docProperty in doc.BuiltInDocumentProperties)
 
 * class [CustomDocumentProperties](../../../aspose.words.properties/customdocumentproperties/)
 * class [Document](../)
-* مساحة الاسم [Aspose.Words](../../document/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

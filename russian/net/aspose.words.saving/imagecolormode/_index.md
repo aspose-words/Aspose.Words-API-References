@@ -1,7 +1,9 @@
 ---
-title: Enum ImageColorMode
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Saving.ImageColorMode перечисление. Определяет цветовой режим для создаваемых изображений страниц документа.
+title: ImageColorMode Enum
+linktitle: ImageColorMode
+articleTitle: ImageColorMode
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Saving.ImageColorMode перечисление. Определяет цветовой режим для создаваемых изображений страниц документа на С#.
 type: docs
 weight: 5210
 url: /ru/net/aspose.words.saving/imagecolormode/
@@ -22,7 +24,7 @@ public enum ImageColorMode
 | Grayscale | `1` | Страницы документа будут отображаться как изображения в оттенках серого. |
 | BlackAndWhite | `2` | Страницы документа будут отображаться как черно-белые изображения. |
 
-### Примеры
+## Примеры
 
 Показывает, как установить цветовой режим при рендеринге документов.
 
@@ -82,5 +84,3 @@ Document doc = new Document();
 
 * пространство имен [Aspose.Words.Saving](../../aspose.words.saving/)
 * сборка [Aspose.Words](../../)
-
-

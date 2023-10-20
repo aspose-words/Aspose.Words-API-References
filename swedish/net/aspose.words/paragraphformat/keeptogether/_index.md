@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.KeepTogether
-second_title: Aspose.Words för .NET API Referens
-description: ParagraphFormat fast egendom. Sant om alla rader i stycket ska förbli på samma sida.
+linktitle: KeepTogether
+articleTitle: KeepTogether
+second_title: Aspose.Words för .NET
+description: ParagraphFormat KeepTogether fast egendom. Sant om alla rader i stycket ska förbli på samma sida i C#.
 type: docs
 weight: 160
 url: /sv/net/aspose.words/paragraphformat/keeptogether/
@@ -14,7 +16,7 @@ Sant om alla rader i stycket ska förbli på samma sida.
 public bool KeepTogether { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man infogar ett stycke i dokumentet.
 
@@ -46,7 +48,5 @@ Assert.True(builder.CurrentParagraph.IsEndOfDocument);
 ### Se även
 
 * class [ParagraphFormat](../)
-* namnutrymme [Aspose.Words](../../paragraphformat/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

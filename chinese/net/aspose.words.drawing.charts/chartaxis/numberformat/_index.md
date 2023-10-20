@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.NumberFormat
-second_title: Aspose.Words for .NET API 参考
-description: ChartAxis 财产. 返回一个ChartNumberFormat允许定义轴数字格式的对象
+linktitle: NumberFormat
+articleTitle: NumberFormat
+second_title: 用于 .NET 的 Aspose.Words
+description: ChartAxis NumberFormat 财产. 返回一个ChartNumberFormat允许定义轴数字格式的对象 在 C#.
 type: docs
 weight: 190
 url: /zh/net/aspose.words.drawing.charts/chartaxis/numberformat/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.drawing.charts/chartaxis/numberformat/
 public ChartNumberFormat NumberFormat { get; }
 ```
 
-### 例子
+## 例子
 
 展示如何设置图表值的格式。
 
@@ -47,7 +49,5 @@ doc.Save(ArtifactsDir + "Charts.SetNumberFormatToChartAxis.docx");
 
 * class [ChartNumberFormat](../../chartnumberformat/)
 * class [ChartAxis](../)
-* 命名空间 [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* 命名空间 [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * 部件 [Aspose.Words](../../../)
-
-

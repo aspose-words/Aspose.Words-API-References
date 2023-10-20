@@ -1,7 +1,9 @@
 ---
 title: FieldDatabase.InsertHeadings
-second_title: Aspose.Words för .NET API Referens
-description: FieldDatabase fast egendom. Hämtar eller ställer in om fältnamnen från databasen ska infogas som kolumnrubriker i den resulterande tabellen.
+linktitle: InsertHeadings
+articleTitle: InsertHeadings
+second_title: Aspose.Words för .NET
+description: FieldDatabase InsertHeadings fast egendom. Hämtar eller ställer in om fältnamnen från databasen ska infogas som kolumnrubriker i den resulterande tabellen i C#.
 type: docs
 weight: 60
 url: /sv/net/aspose.words.fields/fielddatabase/insertheadings/
@@ -14,7 +16,7 @@ Hämtar eller ställer in om fältnamnen från databasen ska infogas som kolumnr
 public bool InsertHeadings { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man extraherar data från en databas och infogar den som ett fält i ett dokument.
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "Field.DATABASE.docx");
 ### Se även
 
 * class [FieldDatabase](../)
-* namnutrymme [Aspose.Words.Fields](../../fielddatabase/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

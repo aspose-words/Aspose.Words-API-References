@@ -1,7 +1,9 @@
 ---
 title: Theme.MinorFonts
-second_title: Справочник по API Aspose.Words для .NET
-description: Theme свойство. Позволяет указать набор второстепенных шрифтов для разных языков.
+linktitle: MinorFonts
+articleTitle: MinorFonts
+second_title: Aspose.Words для .NET
+description: Theme MinorFonts свойство. Позволяет указать набор второстепенных шрифтов для разных языков на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.themes/theme/minorfonts/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.themes/theme/minorfonts/
 public ThemeFonts MinorFonts { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как устанавливать собственные цвета и шрифты для тем.
 
@@ -63,7 +65,5 @@ doc.Save(ArtifactsDir + "Themes.CustomColorsAndFonts.docx");
 
 * class [ThemeFonts](../../themefonts/)
 * class [Theme](../)
-* пространство имен [Aspose.Words.Themes](../../theme/)
+* пространство имен [Aspose.Words.Themes](../../../aspose.words.themes/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,14 +1,16 @@
 ---
-title: Class FieldMergingArgs
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.MailMerging.FieldMergingArgs فصل. يوفر بيانات لـ مجال مدمج حدث.
+title: FieldMergingArgs Class
+linktitle: FieldMergingArgs
+articleTitle: FieldMergingArgs
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.MailMerging.FieldMergingArgs فصل. يوفر بيانات لـمجال مدمج حدث في C#.
 type: docs
 weight: 3770
 url: /ar/net/aspose.words.mailmerging/fieldmergingargs/
 ---
 ## FieldMergingArgs class
 
-يوفر بيانات لـ **مجال مدمج** حدث.
+يوفر بيانات لـ**مجال مدمج** حدث.
 
 لمعرفة المزيد، قم بزيارة[دمج البريد وإعداد التقارير](https://docs.aspose.com/words/net/mail-merge-and-reporting/) مقالة توثيقية.
 
@@ -29,11 +31,11 @@ public class FieldMergingArgs : FieldMergingArgsBase
 | [TableName](../../aspose.words.mailmerging/fieldmergingargsbase/tablename/) { get; } | يحصل على اسم جدول البيانات لعملية الدمج الحالية أو سلسلة فارغة إذا كان الاسم غير متاح. |
 | [Text](../../aspose.words.mailmerging/fieldmergingargs/text/) { get; set; } | الحصول على أو تعيين النص الذي سيتم إدراجه في المستند لحقل الدمج الحالي. |
 
-### ملاحظات
+## ملاحظات
 
-ال **مجال مدمج** يحدث هذا الحدث أثناء دمج البريد عند مواجهة حقل merge بسيط للبريد في المستند. يمكنك الرد على هذا الحدث بإرسال نص return لمحرك دمج المراسلات لإدراجه في المستند.
+ال**مجال مدمج** يحدث هذا الحدث أثناء دمج البريد عند مواجهة حقل merge بسيط للبريد في المستند. يمكنك الرد على هذا الحدث بإرسال نص return لمحرك دمج المراسلات لإدراجه في المستند.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تنفيذ عملية دمج البريد باستخدام رد اتصال مخصص يتعامل مع بيانات الدمج في شكل مستندات HTML.
 
@@ -103,5 +105,3 @@ private class HandleMergeFieldInsertHtml : IFieldMergingCallback
 * class [FieldMergingArgsBase](../fieldmergingargsbase/)
 * مساحة الاسم [Aspose.Words.MailMerging](../../aspose.words.mailmerging/)
 * المجسم [Aspose.Words](../../)
-
-

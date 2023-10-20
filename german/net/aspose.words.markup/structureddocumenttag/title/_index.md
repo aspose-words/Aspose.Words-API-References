@@ -1,20 +1,22 @@
 ---
 title: StructuredDocumentTag.Title
-second_title: Aspose.Words für .NET-API-Referenz
-description: StructuredDocumentTag eigendom. Gibt den damit verbundenen Anzeigenamen an SDT . Kann nicht seinNull .
+linktitle: Title
+articleTitle: Title
+second_title: Aspose.Words für .NET
+description: StructuredDocumentTag Title eigendom. Gibt den damit verbundenen Anzeigenamen anSDT . Kann nicht seinNull  in C#.
 type: docs
 weight: 290
 url: /de/net/aspose.words.markup/structureddocumenttag/title/
 ---
 ## StructuredDocumentTag.Title property
 
-Gibt den damit verbundenen Anzeigenamen an **SDT** . Kann nicht sein`Null` .
+Gibt den damit verbundenen Anzeigenamen an**SDT** . Kann nicht sein`Null` .
 
 ```csharp
 public string Title { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man ein strukturiertes Dokument-Tag in einem Nur-Text-Feld erstellt und sein Erscheinungsbild ändert.
 
@@ -71,7 +73,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.PlainText.docx");
 ### Siehe auch
 
 * class [StructuredDocumentTag](../)
-* namensraum [Aspose.Words.Markup](../../structureddocumenttag/)
+* namensraum [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Montage [Aspose.Words](../../../)
-
-

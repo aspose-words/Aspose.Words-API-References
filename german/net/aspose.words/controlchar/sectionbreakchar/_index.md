@@ -1,7 +1,9 @@
 ---
 title: ControlChar.SectionBreakChar
-second_title: Aspose.Words für .NET-API-Referenz
-description: ControlChar veld. Abschnittsendezeichen char12 oder f.
+linktitle: SectionBreakChar
+articleTitle: SectionBreakChar
+second_title: Aspose.Words für .NET
+description: ControlChar SectionBreakChar veld. Abschnittsendezeichen char12 oder f in C#.
 type: docs
 weight: 250
 url: /de/net/aspose.words/controlchar/sectionbreakchar/
@@ -14,7 +16,7 @@ Abschnittsendezeichen: (char)12 oder „\f“.
 public const char SectionBreakChar;
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man einem Dokument verschiedene Steuerzeichen hinzufügt.
 
@@ -86,7 +88,5 @@ Assert.AreEqual(Convert.ToChar(ControlChar.ColumnBreak), ControlChar.ColumnBreak
 ### Siehe auch
 
 * class [ControlChar](../)
-* namensraum [Aspose.Words](../../controlchar/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

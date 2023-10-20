@@ -1,7 +1,9 @@
 ---
 title: Node.NodeTypeToString
-second_title: Справочник по API Aspose.Words для .NET
-description: Node метод. Служебный метод который преобразует значение перечисления типа узла в удобную для пользователя строку.
+linktitle: NodeTypeToString
+articleTitle: NodeTypeToString
+second_title: Aspose.Words для .NET
+description: Node NodeTypeToString метод. Служебный метод который преобразует значение перечисления типа узла в удобную для пользователя строку на С#.
 type: docs
 weight: 170
 url: /ru/net/aspose.words/node/nodetypetostring/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/node/nodetypetostring/
 public static string NodeTypeToString(NodeType nodeType)
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как использовать свойство NextSibling узла для перечисления его непосредственных дочерних элементов.
 
@@ -77,7 +79,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 
 * enum [NodeType](../../nodetype/)
 * class [Node](../)
-* пространство имен [Aspose.Words](../../node/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

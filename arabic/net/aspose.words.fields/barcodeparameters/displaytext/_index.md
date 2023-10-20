@@ -1,7 +1,9 @@
 ---
 title: BarcodeParameters.DisplayText
-second_title: Aspose.Words لمراجع .NET API
-description: BarcodeParameters ملكية. ما إذا كان سيتم عرض بيانات الباركود النص مع الصورة.
+linktitle: DisplayText
+articleTitle: DisplayText
+second_title: Aspose.Words لـ .NET
+description: BarcodeParameters DisplayText ملكية. ما إذا كان سيتم عرض بيانات الباركود النص مع الصورة في C#.
 type: docs
 weight: 70
 url: /ar/net/aspose.words.fields/barcodeparameters/displaytext/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/barcodeparameters/displaytext/
 public bool DisplayText { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام مولد الباركود.
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.docx");
 ### أنظر أيضا
 
 * class [BarcodeParameters](../)
-* مساحة الاسم [Aspose.Words.Fields](../../barcodeparameters/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

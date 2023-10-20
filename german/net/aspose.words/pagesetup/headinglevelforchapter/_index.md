@@ -1,7 +1,9 @@
 ---
 title: PageSetup.HeadingLevelForChapter
-second_title: Aspose.Words für .NET-API-Referenz
-description: PageSetup eigendom. Ruft den Stil der Überschriftenebene ab der auf die Kapiteltitel im Dokument angewendet wird oder legt diesen fest.
+linktitle: HeadingLevelForChapter
+articleTitle: HeadingLevelForChapter
+second_title: Aspose.Words für .NET
+description: PageSetup HeadingLevelForChapter eigendom. Ruft den Stil der Überschriftenebene ab der auf die Kapiteltitel im Dokument angewendet wird oder legt diesen fest in C#.
 type: docs
 weight: 180
 url: /de/net/aspose.words/pagesetup/headinglevelforchapter/
@@ -14,13 +16,13 @@ Ruft den Stil der Überschriftenebene ab, der auf die Kapiteltitel im Dokument a
 public int HeadingLevelForChapter { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Kann eine Zahl von 0 bis 9 sein. 0 bedeutet keine Kapitelnummer, wenn es auf die Seitennummer angewendet wird.
 
 Bevor Sie Seitenzahlen erstellen können, die Kapitelnummern enthalten, muss auf die Dokumentüberschriften ein nummeriertes Gliederungsformat angewendet werden.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit Seitenkapiteln gearbeitet wird.
 
@@ -37,7 +39,5 @@ pageSetup.HeadingLevelForChapter = 1;
 ### Siehe auch
 
 * class [PageSetup](../)
-* namensraum [Aspose.Words](../../pagesetup/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

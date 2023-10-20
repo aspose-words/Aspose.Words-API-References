@@ -1,7 +1,9 @@
 ---
 title: ListFormat.ApplyNumberDefault
-second_title: Aspose.Words für .NET-API-Referenz
-description: ListFormat methode. Startet eine neue standardmäßige nummerierte Liste und wendet sie auf den Absatz an.
+linktitle: ApplyNumberDefault
+articleTitle: ApplyNumberDefault
+second_title: Aspose.Words für .NET
+description: ListFormat ApplyNumberDefault methode. Startet eine neue standardmäßige nummerierte Liste und wendet sie auf den Absatz an in C#.
 type: docs
 weight: 60
 url: /de/net/aspose.words.lists/listformat/applynumberdefault/
@@ -14,11 +16,11 @@ Startet eine neue standardmäßige nummerierte Liste und wendet sie auf den Absa
 public void ApplyNumberDefault()
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Hierbei handelt es sich um eine Verknüpfungsmethode, die mithilfe der Standardvorlage „numbered “ eine neue Liste erstellt, diese auf den Absatz anwendet und die 1. Listenebene auswählt.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Aufzählungslisten und nummerierte Listen erstellt werden.
 
@@ -103,7 +105,5 @@ doc.Save(ArtifactsDir + "Lists.ApplyDefaultBulletsAndNumbers.docx");
 ### Siehe auch
 
 * class [ListFormat](../)
-* namensraum [Aspose.Words.Lists](../../listformat/)
+* namensraum [Aspose.Words.Lists](../../../aspose.words.lists/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.TitlesOfParts
-second_title: Aspose.Words für .NET-API-Referenz
-description: BuiltInDocumentProperties eigendom. Jede Zeichenfolge im Array gibt den Namen eines Teils im Dokument an.
+linktitle: TitlesOfParts
+articleTitle: TitlesOfParts
+second_title: Aspose.Words für .NET
+description: BuiltInDocumentProperties TitlesOfParts eigendom. Jede Zeichenfolge im Array gibt den Namen eines Teils im Dokument an in C#.
 type: docs
 weight: 300
 url: /de/net/aspose.words.properties/builtindocumentproperties/titlesofparts/
@@ -14,11 +16,11 @@ Jede Zeichenfolge im Array gibt den Namen eines Teils im Dokument an.
 public string[] TitlesOfParts { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Aspose.Words aktualisiert diese Eigenschaft nicht.
 
-### Beispiele
+## Beispiele
 
 Zeigt die Beziehung zwischen den Eigenschaften „HeadingPairs“ und „TitlesOfParts“.
 
@@ -49,7 +51,5 @@ while (headingPairsIndex < headingPairs.Length)
 ### Siehe auch
 
 * class [BuiltInDocumentProperties](../)
-* namensraum [Aspose.Words.Properties](../../builtindocumentproperties/)
+* namensraum [Aspose.Words.Properties](../../../aspose.words.properties/)
 * Montage [Aspose.Words](../../../)
-
-

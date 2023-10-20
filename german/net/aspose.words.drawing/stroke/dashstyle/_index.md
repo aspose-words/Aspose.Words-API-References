@@ -1,9 +1,11 @@
 ---
 title: Stroke.DashStyle
-second_title: Aspose.Words für .NET-API-Referenz
-description: Stroke eigendom. Gibt das Punkt und Strichmuster für einen Strich an.
+linktitle: DashStyle
+articleTitle: DashStyle
+second_title: Aspose.Words für .NET
+description: Stroke DashStyle eigendom. Gibt das Punkt und Strichmuster für einen Strich an in C#.
 type: docs
-weight: 50
+weight: 40
 url: /de/net/aspose.words.drawing/stroke/dashstyle/
 ---
 ## Stroke.DashStyle property
@@ -14,11 +16,11 @@ Gibt das Punkt- und Strichmuster für einen Strich an.
 public DashStyle DashStyle { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Der Standardwert istSolid.
 
-### Beispiele
+## Beispiele
 
 Zeigt, um eine Vielzahl von Formen zu erstellen.
 
@@ -94,7 +96,5 @@ doc.Save(ArtifactsDir + "Drawing.VariousShapes.docx");
 
 * enum [DashStyle](../../dashstyle/)
 * class [Stroke](../)
-* namensraum [Aspose.Words.Drawing](../../stroke/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

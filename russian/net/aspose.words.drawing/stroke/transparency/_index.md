@@ -1,9 +1,11 @@
 ---
 title: Stroke.Transparency
-second_title: Справочник по API Aspose.Words для .NET
-description: Stroke свойство. Получает или задает значение от 00 непрозрачный до 10 прозрачный представляющее степень прозрачности обводки.
+linktitle: Transparency
+articleTitle: Transparency
+second_title: Aspose.Words для .NET
+description: Stroke Transparency свойство. Получает или задает значение от 00 непрозрачный до 10 прозрачный представляющее степень прозрачности обводки на С#.
 type: docs
-weight: 200
+weight: 190
 url: /ru/net/aspose.words.drawing/stroke/transparency/
 ---
 ## Stroke.Transparency property
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.drawing/stroke/transparency/
 public double Transparency { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Значение по умолчанию — 0. .
 
-### Примеры
+## Примеры
 
 Покажите, как установить форматирование маркера.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "Charts.MarkerFormatting.docx");
 ### Смотрите также
 
 * class [Stroke](../)
-* пространство имен [Aspose.Words.Drawing](../../stroke/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

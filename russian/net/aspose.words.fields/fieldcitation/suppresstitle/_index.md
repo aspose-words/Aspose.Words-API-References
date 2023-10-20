@@ -1,7 +1,9 @@
 ---
 title: FieldCitation.SuppressTitle
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldCitation свойство. Получает или задает подавляется ли информация о заголовке из цитаты.
+linktitle: SuppressTitle
+articleTitle: SuppressTitle
+second_title: Aspose.Words для .NET
+description: FieldCitation SuppressTitle свойство. Получает или задает подавляется ли информация о заголовке из цитаты на С#.
 type: docs
 weight: 90
 url: /ru/net/aspose.words.fields/fieldcitation/suppresstitle/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldcitation/suppresstitle/
 public bool SuppressTitle { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как работать с полями ЦИТАТА и БИБЛИОГРАФИЯ.
 
@@ -68,7 +70,5 @@ doc.Save(ArtifactsDir + "Field.CITATION.docx");
 ### Смотрите также
 
 * class [FieldCitation](../)
-* пространство имен [Aspose.Words.Fields](../../fieldcitation/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

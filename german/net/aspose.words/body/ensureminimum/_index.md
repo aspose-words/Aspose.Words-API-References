@@ -1,9 +1,11 @@
 ---
 title: Body.EnsureMinimum
-second_title: Aspose.Words für .NET-API-Referenz
-description: Body methode. Wenn das letzte untergeordnete Element kein Absatz ist wird ein leerer Absatz erstellt und angehängt.
+linktitle: EnsureMinimum
+articleTitle: EnsureMinimum
+second_title: Aspose.Words für .NET
+description: Body EnsureMinimum methode. Wenn das letzte untergeordnete Element kein Absatz ist wird ein leerer Absatz erstellt und angehängt in C#.
 type: docs
-weight: 70
+weight: 50
 url: /de/net/aspose.words/body/ensureminimum/
 ---
 ## Body.EnsureMinimum method
@@ -14,7 +16,7 @@ Wenn das letzte untergeordnete Element kein Absatz ist, wird ein leerer Absatz e
 public void EnsureMinimum()
 ```
 
-### Beispiele
+## Beispiele
 
 Löscht den Haupttext aus allen Abschnitten des Dokuments, wobei die Abschnitte selbst übrig bleiben.
 
@@ -52,7 +54,5 @@ Assert.AreEqual("Hello world!", doc.GetText().Trim());
 ### Siehe auch
 
 * class [Body](../)
-* namensraum [Aspose.Words](../../body/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

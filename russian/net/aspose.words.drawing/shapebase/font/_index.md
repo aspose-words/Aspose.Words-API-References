@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.Font
-second_title: Справочник по API Aspose.Words для .NET
-description: ShapeBase свойство. Предоставляет доступ к форматированию шрифта этого объекта.
+linktitle: Font
+articleTitle: Font
+second_title: Aspose.Words для .NET
+description: ShapeBase Font свойство. Предоставляет доступ к форматированию шрифта этого объекта на С#.
 type: docs
 weight: 190
 url: /ru/net/aspose.words.drawing/shapebase/font/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.drawing/shapebase/font/
 public Font Font { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как вставить текстовое поле и установить шрифт его содержимого.
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "Shape.Font.docx");
 
 * class [Font](../../../aspose.words/font/)
 * class [ShapeBase](../)
-* пространство имен [Aspose.Words.Drawing](../../shapebase/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

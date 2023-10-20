@@ -1,7 +1,9 @@
 ---
 title: Range.Fields
-second_title: Aspose.Words für .NET-API-Referenz
-description: Range eigendom. Gibt a zurückFields Sammlung die alle Felder im Bereich darstellt.
+linktitle: Fields
+articleTitle: Fields
+second_title: Aspose.Words für .NET
+description: Range Fields eigendom. Gibt a zurückFields Sammlung die alle Felder im Bereich darstellt in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words/range/fields/
@@ -18,7 +20,5 @@ public FieldCollection Fields { get; }
 
 * class [FieldCollection](../../../aspose.words.fields/fieldcollection/)
 * class [Range](../)
-* namensraum [Aspose.Words](../../range/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

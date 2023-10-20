@@ -1,7 +1,9 @@
 ---
 title: FieldDdeAuto.InsertAsHtml
-second_title: Aspose.Words för .NET API Referens
-description: FieldDdeAuto fast egendom. Hämtar eller ställer in om det länkade objektet ska infogas som HTMLformattext.
+linktitle: InsertAsHtml
+articleTitle: InsertAsHtml
+second_title: Aspose.Words för .NET
+description: FieldDdeAuto InsertAsHtml fast egendom. Hämtar eller ställer in om det länkade objektet ska infogas som HTMLformattext i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.fields/fieldddeauto/insertashtml/
@@ -14,7 +16,7 @@ Hämtar eller ställer in om det länkade objektet ska infogas som HTML-formatte
 public bool InsertAsHtml { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man använder olika fälttyper för att länka till andra dokument i det lokala filsystemet och visa deras innehåll.
 
@@ -197,7 +199,5 @@ public enum InsertLinkedObjectAs
 ### Se även
 
 * class [FieldDdeAuto](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldddeauto/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

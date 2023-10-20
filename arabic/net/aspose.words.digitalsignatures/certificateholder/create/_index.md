@@ -1,12 +1,14 @@
 ---
 title: CertificateHolder.Create
-second_title: Aspose.Words لمراجع .NET API
-description: CertificateHolder طريقة. ينشئCertificateHolder كائن يستخدم مصفوفة بايت من متجر PKCS12 وكلمة المرور الخاصة به.
+linktitle: Create
+articleTitle: Create
+second_title: Aspose.Words لـ .NET
+description: CertificateHolder Create طريقة. ينشئCertificateHolder كائن يستخدم مصفوفة بايت من متجر PKCS12 وكلمة المرور الخاصة به في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.digitalsignatures/certificateholder/create/
 ---
-## Create(byte[], SecureString) {#create}
+## Create(*byte[], SecureString*) {#create}
 
 ينشئ[`CertificateHolder`](../) كائن يستخدم مصفوفة بايت من متجر PKCS12 وكلمة المرور الخاصة به.
 
@@ -32,7 +34,7 @@ public static CertificateHolder Create(byte[] certBytes, SecureString password)
 | SecurityException | يتم طرحه إذا كان متجر PKCS12 لا يحتوي على أسماء مستعارة |
 | IOException | يتم طرحها إذا كانت هناك كلمة مرور خاطئة أو ملف تالف. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء كائنات حامل الشهادات.
 
@@ -77,12 +79,12 @@ CertificateHolder.Create(MyDir + "morzal.pfx", "aw", null);
 ### أنظر أيضا
 
 * class [CertificateHolder](../)
-* مساحة الاسم [Aspose.Words.DigitalSignatures](../../certificateholder/)
+* مساحة الاسم [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## Create(byte[], string) {#create_1}
+## Create(*byte[], string*) {#create_1}
 
 ينشئ[`CertificateHolder`](../) كائن يستخدم مصفوفة بايت من متجر PKCS12 وكلمة المرور الخاصة به.
 
@@ -108,7 +110,7 @@ public static CertificateHolder Create(byte[] certBytes, string password)
 | SecurityException | يتم طرحه إذا كان متجر PKCS12 لا يحتوي على أسماء مستعارة |
 | IOException | يتم طرحها إذا كانت هناك كلمة مرور خاطئة أو ملف تالف. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء كائنات حامل الشهادات.
 
@@ -153,12 +155,12 @@ CertificateHolder.Create(MyDir + "morzal.pfx", "aw", null);
 ### أنظر أيضا
 
 * class [CertificateHolder](../)
-* مساحة الاسم [Aspose.Words.DigitalSignatures](../../certificateholder/)
+* مساحة الاسم [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## Create(string, string) {#create_2}
+## Create(*string, string*) {#create_2}
 
 ينشئ[`CertificateHolder`](../) كائن يستخدم المسار إلى متجر PKCS12 وكلمة المرور الخاصة به.
 
@@ -184,7 +186,7 @@ public static CertificateHolder Create(string fileName, string password)
 | SecurityException | يتم طرحه إذا كان متجر PKCS12 لا يحتوي على أسماء مستعارة |
 | IOException | يتم طرحها إذا كانت هناك كلمة مرور خاطئة أو ملف تالف. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية توقيع المستندات رقميًا.
 
@@ -213,12 +215,12 @@ using (Stream streamIn = new FileStream(MyDir + "Document.docx", FileMode.Open))
 ### أنظر أيضا
 
 * class [CertificateHolder](../)
-* مساحة الاسم [Aspose.Words.DigitalSignatures](../../certificateholder/)
+* مساحة الاسم [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## Create(string, string, string) {#create_3}
+## Create(*string, string, string*) {#create_3}
 
 ينشئ[`CertificateHolder`](../) كائن يستخدم المسار إلى متجر PKCS12 وكلمة المرور الخاصة به والاسم المستعار باستخدام المفتاح الخاص والشهادة التي سيتم العثور عليها.
 
@@ -246,7 +248,7 @@ public static CertificateHolder Create(string fileName, string password, string 
 | IOException | يتم طرحها إذا كانت هناك كلمة مرور خاطئة أو ملف تالف. |
 | SecurityException | يتم طرحه إذا لم يكن هناك مفتاح خاص بالاسم المستعار المحدد |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء كائنات حامل الشهادات.
 
@@ -291,7 +293,5 @@ CertificateHolder.Create(MyDir + "morzal.pfx", "aw", null);
 ### أنظر أيضا
 
 * class [CertificateHolder](../)
-* مساحة الاسم [Aspose.Words.DigitalSignatures](../../certificateholder/)
+* مساحة الاسم [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * المجسم [Aspose.Words](../../../)
-
-

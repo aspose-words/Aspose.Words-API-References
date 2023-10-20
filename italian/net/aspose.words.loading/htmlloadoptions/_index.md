@@ -1,7 +1,9 @@
 ---
-title: Class HtmlLoadOptions
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Loading.HtmlLoadOptions classe. Permette di specificare opzioni aggiuntive durante il caricamento del documento HTML in un fileDocument oggetto.
+title: HtmlLoadOptions Class
+linktitle: HtmlLoadOptions
+articleTitle: HtmlLoadOptions
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Loading.HtmlLoadOptions classe. Permette di specificare opzioni aggiuntive durante il caricamento del documento HTML in un fileDocument oggetto in C#.
 type: docs
 weight: 3620
 url: /it/net/aspose.words.loading/htmlloadoptions/
@@ -21,8 +23,8 @@ public class HtmlLoadOptions : LoadOptions
 | Nome | Descrizione |
 | --- | --- |
 | [HtmlLoadOptions](htmlloadoptions/#constructor)() | Inizializza una nuova istanza di questa classe con valori predefiniti. |
-| [HtmlLoadOptions](htmlloadoptions/#constructor_2)(string) | Una scorciatoia per inizializzare una nuova istanza di questa classe con la password specificata per caricare un documento crittografato. |
-| [HtmlLoadOptions](htmlloadoptions/#constructor_1)(LoadFormat, string, string) | Una scorciatoia per inizializzare una nuova istanza di questa classe con le proprietà impostate sui valori specificati. |
+| [HtmlLoadOptions](htmlloadoptions/#constructor_2)(*string*) | Una scorciatoia per inizializzare una nuova istanza di questa classe con la password specificata per caricare un documento crittografato. |
+| [HtmlLoadOptions](htmlloadoptions/#constructor_1)(*[LoadFormat](../../aspose.words/loadformat/), string, string*) | Una scorciatoia per inizializzare una nuova istanza di questa classe con le proprietà impostate sui valori specificati. |
 
 ## Proprietà
 
@@ -55,12 +57,10 @@ public class HtmlLoadOptions : LoadOptions
 
 | Nome | Descrizione |
 | --- | --- |
-| override [Equals](../../aspose.words.loading/loadoptions/equals/)(object) |  |
+| override [Equals](../../aspose.words.loading/loadoptions/equals/)(*object*) |  |
 
 ### Guarda anche
 
 * class [LoadOptions](../loadoptions/)
 * spazio dei nomi [Aspose.Words.Loading](../../aspose.words.loading/)
 * assemblea [Aspose.Words](../../)
-
-

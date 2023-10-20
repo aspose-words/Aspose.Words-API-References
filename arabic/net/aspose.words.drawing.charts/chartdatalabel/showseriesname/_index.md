@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabel.ShowSeriesName
-second_title: Aspose.Words لمراجع .NET API
-description: ChartDataLabel ملكية. إرجاع قيمة منطقية أو تعيينها للإشارة إلى سلوك عرض اسم السلسلة لتسميات البيانات في المخطط. حقيقي لإظهار اسم المسلسلخطأ شنيع لإخفاء. بشكل افتراضيخطأ شنيع .
+linktitle: ShowSeriesName
+articleTitle: ShowSeriesName
+second_title: Aspose.Words لـ .NET
+description: ChartDataLabel ShowSeriesName ملكية. إرجاع قيمة منطقية أو تعيينها للإشارة إلى سلوك عرض اسم السلسلة لتسميات البيانات في المخطط. حقيقي لإظهار اسم المسلسلخطأ شنيع لإخفاء. بشكل افتراضيخطأ شنيع  في C#.
 type: docs
 weight: 140
 url: /ar/net/aspose.words.drawing.charts/chartdatalabel/showseriesname/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing.charts/chartdatalabel/showseriesname/
 public bool ShowSeriesName { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تطبيق التسميات على نقاط البيانات في مخطط خطي.
 
@@ -92,7 +94,5 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
 ### أنظر أيضا
 
 * class [ChartDataLabel](../)
-* مساحة الاسم [Aspose.Words.Drawing.Charts](../../chartdatalabel/)
+* مساحة الاسم [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: List.IsMultiLevel
-second_title: Aspose.Words for .NET API 参考
-description: List 财产. 返回真的当列表包含 9 级时错误的当 1 级时.
+linktitle: IsMultiLevel
+articleTitle: IsMultiLevel
+second_title: 用于 .NET 的 Aspose.Words
+description: List IsMultiLevel 财产. 返回真的当列表包含 9 级时错误的当 1 级时 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.lists/list/ismultilevel/
@@ -14,13 +16,13 @@ url: /zh/net/aspose.words.lists/list/ismultilevel/
 public bool IsMultiLevel { get; }
 ```
 
-### 评论
+## 评论
 
 您使用 Aspose.Words 创建的列表始终是多级列表，包含 9 个级别。
 
 Microsoft Word 2003 及更高版本始终创建具有 9 个级别的多级列表。 但在使用早期版本的 Microsoft Word 创建的某些文档中，您可能会遇到 仅具有 1 个级别的列表。
 
-### 例子
+## 例子
 
 演示如何创建列表样式并在文档中使用它。
 
@@ -81,7 +83,5 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateAndUseListStyle.docx");
 ### 也可以看看
 
 * class [List](../)
-* 命名空间 [Aspose.Words.Lists](../../list/)
+* 命名空间 [Aspose.Words.Lists](../../../aspose.words.lists/)
 * 部件 [Aspose.Words](../../../)
-
-

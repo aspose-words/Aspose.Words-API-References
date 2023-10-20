@@ -1,12 +1,14 @@
 ---
 title: DocumentBuilder.InsertDocument
-second_title: Aspose.Words för .NET API Referens
-description: DocumentBuilder metod. Infogar ett dokument vid markörens position.
+linktitle: InsertDocument
+articleTitle: InsertDocument
+second_title: Aspose.Words för .NET
+description: DocumentBuilder InsertDocument metod. Infogar ett dokument vid markörens position i C#.
 type: docs
 weight: 310
 url: /sv/net/aspose.words/documentbuilder/insertdocument/
 ---
-## InsertDocument(Document, ImportFormatMode) {#insertdocument}
+## InsertDocument(*[Document](../../document/), [ImportFormatMode](../../importformatmode/)*) {#insertdocument}
 
 Infogar ett dokument vid markörens position.
 
@@ -23,11 +25,11 @@ public Node InsertDocument(Document srcDoc, ImportFormatMode importFormatMode)
 
 Första noden av det infogade innehållet.
 
-### Anmärkningar
+## Anmärkningar
 
 Den här metoden efterliknar MS Word-beteendet, som om CTRL+'A' (välj allt innehåll) trycktes, sedan CTRL+'C' (kopiera vald i bufferten) i ett document och sedan CTRL+'V' (infoga innehåll från buffert) inuti ett annat dokument.
 
-### Exempel
+## Exempel
 
 Visar hur man infogar ett dokument i ett annat dokument.
 
@@ -50,12 +52,12 @@ builder.Document.Save(ArtifactsDir + "DocumentBuilder.InsertDocument.docx");
 * class [Document](../../document/)
 * enum [ImportFormatMode](../../importformatmode/)
 * class [DocumentBuilder](../)
-* namnutrymme [Aspose.Words](../../documentbuilder/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## InsertDocument(Document, ImportFormatMode, ImportFormatOptions) {#insertdocument_1}
+## InsertDocument(*[Document](../../document/), [ImportFormatMode](../../importformatmode/), [ImportFormatOptions](../../importformatoptions/)*) {#insertdocument_1}
 
 Infogar ett dokument vid markörens position.
 
@@ -74,11 +76,11 @@ public Node InsertDocument(Document srcDoc, ImportFormatMode importFormatMode,
 
 Första noden av det infogade innehållet.
 
-### Anmärkningar
+## Anmärkningar
 
 Den här metoden efterliknar MS Word-beteendet, som om CTRL+'A' (välj allt innehåll) trycktes, sedan CTRL+'C' (kopiera vald i bufferten) i ett document och sedan CTRL+'V' (infoga innehåll från buffert) inuti ett annat dokument.
 
-### Exempel
+## Exempel
 
 Visar hur du löser dubbletter av stilar när du infogar dokument.
 
@@ -117,7 +119,5 @@ dstDoc.Save(ArtifactsDir + "DocumentBuilder.SmartStyleBehavior.docx");
 * enum [ImportFormatMode](../../importformatmode/)
 * class [ImportFormatOptions](../../importformatoptions/)
 * class [DocumentBuilder](../)
-* namnutrymme [Aspose.Words](../../documentbuilder/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

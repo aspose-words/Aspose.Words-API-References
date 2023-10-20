@@ -1,7 +1,9 @@
 ---
-title: FieldDate.FieldDate
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldDate строитель. Конструктор по умолчанию.
+title: FieldDate
+linktitle: FieldDate
+articleTitle: FieldDate
+second_title: Aspose.Words для .NET
+description: FieldDate строитель. Конструктор по умолчанию на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fields/fielddate/fielddate/
@@ -17,7 +19,5 @@ public FieldDate()
 ### Смотрите также
 
 * class [FieldDate](../)
-* пространство имен [Aspose.Words.Fields](../../fielddate/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

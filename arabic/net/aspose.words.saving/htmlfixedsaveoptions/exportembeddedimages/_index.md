@@ -1,7 +1,9 @@
 ---
 title: HtmlFixedSaveOptions.ExportEmbeddedImages
-second_title: Aspose.Words لمراجع .NET API
-description: HtmlFixedSaveOptions ملكية. يحدد ما إذا كان يجب تضمين الصور في مستند Html بتنسيق Base64. ملاحظة يمكن أن يؤدي تعيين هذه العلامة إلى زيادة حجم ملف Html الناتج بشكل ملحوظ.
+linktitle: ExportEmbeddedImages
+articleTitle: ExportEmbeddedImages
+second_title: Aspose.Words لـ .NET
+description: HtmlFixedSaveOptions ExportEmbeddedImages ملكية. يحدد ما إذا كان يجب تضمين الصور في مستند Html بتنسيق Base64. ملاحظة يمكن أن يؤدي تعيين هذه العلامة إلى زيادة حجم ملف Html الناتج بشكل ملحوظ في C#.
 type: docs
 weight: 60
 url: /ar/net/aspose.words.saving/htmlfixedsaveoptions/exportembeddedimages/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.saving/htmlfixedsaveoptions/exportembeddedimages/
 public bool ExportEmbeddedImages { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحديد مكان تخزين الصور عند تصدير مستند إلى Html.
 
@@ -54,7 +56,5 @@ else
 ### أنظر أيضا
 
 * class [HtmlFixedSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../htmlfixedsaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Chart.Series
-second_title: Aspose.Words لمراجع .NET API
-description: Chart ملكية. يوفر الوصول إلى مجموعة السلسلة.
+linktitle: Series
+articleTitle: Series
+second_title: Aspose.Words لـ .NET
+description: Chart Series ملكية. يوفر الوصول إلى مجموعة السلسلة في C#.
 type: docs
 weight: 60
 url: /ar/net/aspose.words.drawing.charts/chart/series/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing.charts/chart/series/
 public ChartSeriesCollection Series { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء نوع مناسب من سلسلة المخططات لنوع الرسم البياني.
 
@@ -104,7 +106,5 @@ private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, d
 
 * class [ChartSeriesCollection](../../chartseriescollection/)
 * class [Chart](../)
-* مساحة الاسم [Aspose.Words.Drawing.Charts](../../chart/)
+* مساحة الاسم [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../../)
-
-

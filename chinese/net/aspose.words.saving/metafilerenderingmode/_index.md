@@ -1,7 +1,9 @@
 ---
-title: Enum MetafileRenderingMode
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Saving.MetafileRenderingMode 枚举. 指定 Aspose.Words 应如何渲染 WMF 和 EMF 图元文件
+title: MetafileRenderingMode Enum
+linktitle: MetafileRenderingMode
+articleTitle: MetafileRenderingMode
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Saving.MetafileRenderingMode 枚举. 指定 Aspose.Words 应如何渲染 WMF 和 EMF 图元文件 在 C#.
 type: docs
 weight: 5290
 url: /zh/net/aspose.words.saving/metafilerenderingmode/
@@ -22,7 +24,7 @@ public enum MetafileRenderingMode
 | Vector | `1` | Aspose.Words 将图元文件渲染为矢量图形。 |
 | Bitmap | `2` | Aspose.Words 调用 GDI+ 将图元文件渲染为位图，然后将位图保存到输出文档。 |
 
-### 例子
+## 例子
 
 显示添加了位图渲染的回退和更改有关不支持的图元文件记录的警告类型。
 
@@ -78,5 +80,3 @@ public class HandleDocumentWarnings : IWarningCallback
 
 * 命名空间 [Aspose.Words.Saving](../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: AsposeWordsPrintDocument.CachePrinterSettings
-second_title: Справочник по API Aspose.Words для .NET
-description: AsposeWordsPrintDocument метод. Считывает и кэширует некоторые поляPrinterSettings для сокращения времени печати.
+linktitle: CachePrinterSettings
+articleTitle: CachePrinterSettings
+second_title: Aspose.Words для .NET
+description: AsposeWordsPrintDocument CachePrinterSettings метод. Считывает и кэширует некоторые поляPrinterSettings для сокращения времени печати на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.rendering/asposewordsprintdocument/cacheprintersettings/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.rendering/asposewordsprintdocument/cacheprintersetting
 public void CachePrinterSettings()
 ```
 
-### Примечания
+## Примечания
 
 Этот метод вызывается перед началом печати, если он не выполнялся ранее.
 
-### Примеры
+## Примеры
 
 Показывает, как выбрать диапазон страниц и принтер для печати документа, а затем вызвать предварительный просмотр печати.
 
@@ -67,7 +69,5 @@ Console.WriteLine($"The numer of pages printed in color are {awPrintDoc.ColorPag
 ### Смотрите также
 
 * class [AsposeWordsPrintDocument](../)
-* пространство имен [Aspose.Words.Rendering](../../asposewordsprintdocument/)
+* пространство имен [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * сборка [Aspose.Words](../../../)
-
-

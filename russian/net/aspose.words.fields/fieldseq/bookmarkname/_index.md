@@ -1,7 +1,9 @@
 ---
 title: FieldSeq.BookmarkName
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldSeq свойство. Получает или задает имя закладки которое ссылается на элемент в другом месте документа а не на текущее местоположение.
+linktitle: BookmarkName
+articleTitle: BookmarkName
+second_title: Aspose.Words для .NET
+description: FieldSeq BookmarkName свойство. Получает или задает имя закладки которое ссылается на элемент в другом месте документа а не на текущее местоположение на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.fields/fieldseq/bookmarkname/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldseq/bookmarkname/
 public string BookmarkName { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как объединить поля содержания и последовательности.
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "Field.SEQ.Bookmark.docx");
 ### Смотрите также
 
 * class [FieldSeq](../)
-* пространство имен [Aspose.Words.Fields](../../fieldseq/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

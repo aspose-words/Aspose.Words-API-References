@@ -1,7 +1,9 @@
 ---
 title: FieldToc.PageNumberOmittingLevelRange
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldToc eigendom. Ruft einen Bereich von Ebenen der Inhaltsverzeichniseinträge ab in denen Seitenzahlen weggelassen werden sollen oder legt diesen fest.
+linktitle: PageNumberOmittingLevelRange
+articleTitle: PageNumberOmittingLevelRange
+second_title: Aspose.Words für .NET
+description: FieldToc PageNumberOmittingLevelRange eigendom. Ruft einen Bereich von Ebenen der Inhaltsverzeichniseinträge ab in denen Seitenzahlen weggelassen werden sollen oder legt diesen fest in C#.
 type: docs
 weight: 110
 url: /de/net/aspose.words.fields/fieldtoc/pagenumberomittinglevelrange/
@@ -14,7 +16,7 @@ Ruft einen Bereich von Ebenen der Inhaltsverzeichniseinträge ab, in denen Seite
 public string PageNumberOmittingLevelRange { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man ein Inhaltsverzeichnis einfügt und es mit Einträgen füllt, die auf Überschriftenstilen basieren.
 
@@ -99,7 +101,5 @@ public void InsertNewPageWithHeading(DocumentBuilder builder, string captionText
 ### Siehe auch
 
 * class [FieldToc](../)
-* namensraum [Aspose.Words.Fields](../../fieldtoc/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

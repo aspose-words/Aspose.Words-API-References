@@ -1,7 +1,9 @@
 ---
 title: ControlChar.LineFeedChar
-second_title: Aspose.Words لمراجع .NET API
-description: ControlChar مجال. حرف تغذية السطر char10 أو n.
+linktitle: LineFeedChar
+articleTitle: LineFeedChar
+second_title: Aspose.Words لـ .NET
+description: ControlChar LineFeedChar مجال. حرف تغذية السطر char10 أو n في C#.
 type: docs
 weight: 150
 url: /ar/net/aspose.words/controlchar/linefeedchar/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/controlchar/linefeedchar/
 public const char LineFeedChar;
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إضافة أحرف تحكم مختلفة إلى مستند.
 
@@ -86,7 +88,5 @@ Assert.AreEqual(Convert.ToChar(ControlChar.ColumnBreak), ControlChar.ColumnBreak
 ### أنظر أيضا
 
 * class [ControlChar](../)
-* مساحة الاسم [Aspose.Words](../../controlchar/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,12 +1,14 @@
 ---
 title: DocumentBuilder.InsertSignatureLine
-second_title: Aspose.Words för .NET API Referens
-description: DocumentBuilder metod. Infogar en signaturrad vid den aktuella positionen.
+linktitle: InsertSignatureLine
+articleTitle: InsertSignatureLine
+second_title: Aspose.Words för .NET
+description: DocumentBuilder InsertSignatureLine metod. Infogar en signaturrad vid den aktuella positionen i C#.
 type: docs
-weight: 450
+weight: 440
 url: /sv/net/aspose.words/documentbuilder/insertsignatureline/
 ---
-## InsertSignatureLine(SignatureLineOptions) {#insertsignatureline}
+## InsertSignatureLine(*[SignatureLineOptions](../../signaturelineoptions/)*) {#insertsignatureline}
 
 Infogar en signaturrad vid den aktuella positionen.
 
@@ -22,7 +24,7 @@ public Shape InsertSignatureLine(SignatureLineOptions signatureLineOptions)
 
 Signaturlinjenoden som precis infogades.
 
-### Exempel
+## Exempel
 
 Visar hur man signerar ett dokument med ett personligt certifikat och en signaturrad.
 
@@ -77,12 +79,12 @@ Assert.True(signatureLine.IsValid);
 * class [Shape](../../../aspose.words.drawing/shape/)
 * class [SignatureLineOptions](../../signaturelineoptions/)
 * class [DocumentBuilder](../)
-* namnutrymme [Aspose.Words](../../documentbuilder/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## InsertSignatureLine(SignatureLineOptions, RelativeHorizontalPosition, double, RelativeVerticalPosition, double, WrapType) {#insertsignatureline_1}
+## InsertSignatureLine(*[SignatureLineOptions](../../signaturelineoptions/), [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/), double, [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/), double, [WrapType](../../../aspose.words.drawing/wraptype/)*) {#insertsignatureline_1}
 
 Infogar en signaturrad vid den angivna positionen.
 
@@ -105,11 +107,11 @@ public Shape InsertSignatureLine(SignatureLineOptions signatureLineOptions,
 
 Signaturlinjenoden som precis infogades.
 
-### Anmärkningar
+## Anmärkningar
 
 Du kan ändra bildstorlek, plats, positioneringsmetod och andra inställningar med hjälp av [`Shape`](../../../aspose.words.drawing/shape/) objekt som returneras med denna metod.
 
-### Exempel
+## Exempel
 
 Visar hur man infogar en inline signaturrad i ett dokument.
 
@@ -143,7 +145,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.SignatureLineInline.docx");
 * enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/)
 * enum [WrapType](../../../aspose.words.drawing/wraptype/)
 * class [DocumentBuilder](../)
-* namnutrymme [Aspose.Words](../../documentbuilder/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

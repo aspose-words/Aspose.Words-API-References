@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTag.Tag
-second_title: Aspose.Words for .NET API 参考
-description: StructuredDocumentTag 财产. 指定与当前 SDT 节点关联的标记 不能无效的.
+linktitle: Tag
+articleTitle: Tag
+second_title: 用于 .NET 的 Aspose.Words
+description: StructuredDocumentTag Tag 财产. 指定与当前 SDT 节点关联的标记 不能无效的 在 C#.
 type: docs
 weight: 280
 url: /zh/net/aspose.words.markup/structureddocumenttag/tag/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.markup/structureddocumenttag/tag/
 public string Tag { get; set; }
 ```
 
-### 评论
+## 评论
 
 标签是一个任意字符串，应用程序可以将其与 SDT 关联，以便在不提供可见的友好名称的情况下识别它。
 
-### 例子
+## 例子
 
 演示如何在纯文本框中创建结构化文档标签并修改其外观。
 
@@ -75,7 +77,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.PlainText.docx");
 ### 也可以看看
 
 * class [StructuredDocumentTag](../)
-* 命名空间 [Aspose.Words.Markup](../../structureddocumenttag/)
+* 命名空间 [Aspose.Words.Markup](../../../aspose.words.markup/)
 * 部件 [Aspose.Words](../../../)
-
-

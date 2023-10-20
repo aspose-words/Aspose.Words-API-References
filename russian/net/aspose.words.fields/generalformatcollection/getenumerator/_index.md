@@ -1,7 +1,9 @@
 ---
 title: GeneralFormatCollection.GetEnumerator
-second_title: Справочник по API Aspose.Words для .NET
-description: GeneralFormatCollection метод. Возвращает объект перечислителя.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words для .NET
+description: GeneralFormatCollection GetEnumerator метод. Возвращает объект перечислителя на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.fields/generalformatcollection/getenumerator/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/generalformatcollection/getenumerator/
 public IEnumerator<GeneralFormat> GetEnumerator()
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как форматировать результаты полей.
 
@@ -79,7 +81,5 @@ Assert.AreEqual(0, format.GeneralFormats.Count);
 
 * enum [GeneralFormat](../../generalformat/)
 * class [GeneralFormatCollection](../)
-* пространство имен [Aspose.Words.Fields](../../generalformatcollection/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum BuildingBlockBehavior
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.BuildingBlocks.BuildingBlockBehavior enumeración. Especifica el comportamiento que se aplicará al contenido del bloque de creación cuando se inserte en el documento principal.
+title: BuildingBlockBehavior Enum
+linktitle: BuildingBlockBehavior
+articleTitle: BuildingBlockBehavior
+second_title: Aspose.Words para .NET
+description: Aspose.Words.BuildingBlocks.BuildingBlockBehavior enumeración. Especifica el comportamiento que se aplicará al contenido del bloque de creación cuando se inserte en el documento principal en C#.
 type: docs
 weight: 140
 url: /es/net/aspose.words.buildingblocks/buildingblockbehavior/
@@ -23,11 +25,11 @@ public enum BuildingBlockBehavior
 | Page | `2` | Especifica que el bloque de creación se agregará a su propia página. |
 | Default | `0` | Igual queContent . |
 
-### Observaciones
+## Observaciones
 
-Corresponde a la **ST_DocPartBehavior** escriba OOXML.
+Corresponde a la**ST_DocPartBehavior** escriba OOXML.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo agregar un bloque de creación personalizado a un documento.
 
@@ -125,5 +127,3 @@ public class BuildingBlockVisitor : DocumentVisitor
 
 * espacio de nombres [Aspose.Words.BuildingBlocks](../../aspose.words.buildingblocks/)
 * asamblea [Aspose.Words](../../)
-
-

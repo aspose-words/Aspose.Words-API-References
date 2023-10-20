@@ -1,7 +1,9 @@
 ---
 title: Cell.Tables
-second_title: Aspose.Words för .NET API Referens
-description: Cell fast egendom. Hämtar en samling tabeller som är omedelbart underordnade cellen.
+linktitle: Tables
+articleTitle: Tables
+second_title: Aspose.Words för .NET
+description: Cell Tables fast egendom. Hämtar en samling tabeller som är omedelbart underordnade cellen i C#.
 type: docs
 weight: 120
 url: /sv/net/aspose.words.tables/cell/tables/
@@ -14,7 +16,7 @@ Hämtar en samling tabeller som är omedelbart underordnade cellen.
 public TableCollection Tables { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man tar reda på om en tabell är kapslad.
 
@@ -93,7 +95,5 @@ private static int GetChildTableCount(Table table)
 
 * class [TableCollection](../../tablecollection/)
 * class [Cell](../)
-* namnutrymme [Aspose.Words.Tables](../../cell/)
+* namnutrymme [Aspose.Words.Tables](../../../aspose.words.tables/)
 * hopsättning [Aspose.Words](../../../)
-
-

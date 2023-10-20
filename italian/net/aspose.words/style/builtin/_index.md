@@ -1,7 +1,9 @@
 ---
 title: Style.BuiltIn
-second_title: Aspose.Words per .NET API Reference
-description: Style proprietà. Vero se questo stile è uno degli stili incorporati in MS Word.
+linktitle: BuiltIn
+articleTitle: BuiltIn
+second_title: Aspose.Words per .NET
+description: Style BuiltIn proprietà. Vero se questo stile è uno degli stili incorporati in MS Word in C#.
 type: docs
 weight: 40
 url: /it/net/aspose.words/style/builtin/
@@ -14,7 +16,7 @@ Vero se questo stile è uno degli stili incorporati in MS Word.
 public bool BuiltIn { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come differenziare gli stili personalizzati dagli stili incorporati.
 
@@ -41,7 +43,5 @@ Assert.False(style.BuiltIn);
 ### Guarda anche
 
 * class [Style](../)
-* spazio dei nomi [Aspose.Words](../../style/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

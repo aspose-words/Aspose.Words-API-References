@@ -1,7 +1,9 @@
 ---
 title: EditableRangeStart.EditableRange
-second_title: Aspose.Words per .NET API Reference
-description: EditableRangeStart proprietà. Ottiene loggetto facciata che incapsula questo intervallo modificabile di inizio e fine.
+linktitle: EditableRange
+articleTitle: EditableRange
+second_title: Aspose.Words per .NET
+description: EditableRangeStart EditableRange proprietà. Ottiene loggetto facciata che incapsula questo intervallo modificabile di inizio e fine in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words/editablerangestart/editablerange/
@@ -14,7 +16,7 @@ Ottiene l'oggetto facciata che incapsula questo intervallo modificabile di inizi
 public EditableRange EditableRange { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come lavorare con un intervallo modificabile.
 
@@ -61,7 +63,5 @@ editableRange.Remove();
 
 * class [EditableRange](../../editablerange/)
 * class [EditableRangeStart](../)
-* spazio dei nomi [Aspose.Words](../../editablerangestart/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

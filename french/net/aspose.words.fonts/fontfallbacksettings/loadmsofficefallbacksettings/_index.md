@@ -1,7 +1,9 @@
 ---
 title: FontFallbackSettings.LoadMsOfficeFallbackSettings
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FontFallbackSettings méthode. Charge les paramètres de secours prédéfinis qui imitent la solution de secours de Microsoft Word et utilisent les polices Microsoft Office.
+linktitle: LoadMsOfficeFallbackSettings
+articleTitle: LoadMsOfficeFallbackSettings
+second_title: Aspose.Words pour .NET
+description: FontFallbackSettings LoadMsOfficeFallbackSettings méthode. Charge les paramètres de secours prédéfinis qui imitent la solution de secours de Microsoft Word et utilisent les polices Microsoft Office en C#.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.fonts/fontfallbacksettings/loadmsofficefallbacksettings/
@@ -14,7 +16,7 @@ Charge les paramètres de secours prédéfinis qui imitent la solution de secour
 public void LoadMsOfficeFallbackSettings()
 ```
 
-### Exemples
+## Exemples
 
 Montre comment charger les paramètres de police de secours prédéfinis.
 
@@ -44,7 +46,5 @@ fontFallbackSettings.Save(ArtifactsDir + "FontSettings.FallbackSettings.LoadNoto
 ### Voir également
 
 * class [FontFallbackSettings](../)
-* espace de noms [Aspose.Words.Fonts](../../fontfallbacksettings/)
+* espace de noms [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * Assemblée [Aspose.Words](../../../)
-
-

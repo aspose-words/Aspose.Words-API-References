@@ -1,7 +1,9 @@
 ---
 title: FontSourceBase.WarningCallback
-second_title: Aspose.Words for .NET API 参考
-description: FontSourceBase 财产. 在处理字体源期间检测到可能导致格式保真度损失的问题时调用
+linktitle: WarningCallback
+articleTitle: WarningCallback
+second_title: 用于 .NET 的 Aspose.Words
+description: FontSourceBase WarningCallback 财产. 在处理字体源期间检测到可能导致格式保真度损失的问题时调用 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.fonts/fontsourcebase/warningcallback/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fonts/fontsourcebase/warningcallback/
 public IWarningCallback WarningCallback { get; set; }
 ```
 
-### 例子
+## 例子
 
 展示了当字体源工作时如何调用警告回调。
 
@@ -53,7 +55,5 @@ private class FontSourceWarningCollector : IWarningCallback
 
 * interface [IWarningCallback](../../../aspose.words/iwarningcallback/)
 * class [FontSourceBase](../)
-* 命名空间 [Aspose.Words.Fonts](../../fontsourcebase/)
+* 命名空间 [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * 部件 [Aspose.Words](../../../)
-
-

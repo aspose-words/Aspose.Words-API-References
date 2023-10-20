@@ -1,7 +1,9 @@
 ---
 title: KnownTypeSet.Remove
-second_title: Aspose.Words für .NET-API-Referenz
-description: KnownTypeSet methode. Entfernt das angegebeneTypeObjekt aus der Menge. WürfeArgumentException if type IstNull .
+linktitle: Remove
+articleTitle: Remove
+second_title: Aspose.Words für .NET
+description: KnownTypeSet Remove methode. Entfernt das angegebeneTypeObjekt aus der Menge. WürfeArgumentException if type IstNull  in C#.
 type: docs
 weight: 50
 url: /de/net/aspose.words.reporting/knowntypeset/remove/
@@ -21,7 +23,5 @@ public void Remove(Type type)
 ### Siehe auch
 
 * class [KnownTypeSet](../)
-* namensraum [Aspose.Words.Reporting](../../knowntypeset/)
+* namensraum [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * Montage [Aspose.Words](../../../)
-
-

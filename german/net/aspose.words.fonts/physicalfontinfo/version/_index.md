@@ -1,7 +1,9 @@
 ---
 title: PhysicalFontInfo.Version
-second_title: Aspose.Words für .NET-API-Referenz
-description: PhysicalFontInfo eigendom. Versionszeichenfolge der Schriftart.
+linktitle: Version
+articleTitle: Version
+second_title: Aspose.Words für .NET
+description: PhysicalFontInfo Version eigendom. Versionszeichenfolge der Schriftart in C#.
 type: docs
 weight: 40
 url: /de/net/aspose.words.fonts/physicalfontinfo/version/
@@ -14,7 +16,7 @@ Versionszeichenfolge der Schriftart.
 public string Version { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie verfügbare Schriftarten aufgelistet werden.
 
@@ -34,7 +36,5 @@ foreach (PhysicalFontInfo fontInfo in folderFontSource[0].GetAvailableFonts())
 ### Siehe auch
 
 * class [PhysicalFontInfo](../)
-* namensraum [Aspose.Words.Fonts](../../physicalfontinfo/)
+* namensraum [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * Montage [Aspose.Words](../../../)
-
-

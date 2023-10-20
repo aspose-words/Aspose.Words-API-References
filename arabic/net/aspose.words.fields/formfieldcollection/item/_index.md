@@ -1,7 +1,9 @@
 ---
 title: FormFieldCollection.Item
-second_title: Aspose.Words لمراجع .NET API
-description: FormFieldCollection ملكية. إرجاع حقل نموذج في الفهرس المحدد.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words لـ .NET
+description: FormFieldCollection Item ملكية. إرجاع حقل نموذج في الفهرس المحدد في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.fields/formfieldcollection/item/
@@ -18,7 +20,7 @@ public FormField this[int index] { get; }
 | --- | --- |
 | index | فهرس في المجموعة. |
 
-### ملاحظات
+## ملاحظات
 
 المؤشر قائم على الصفر.
 
@@ -28,7 +30,7 @@ public FormField this[int index] { get; }
 
 إذا كان الفهرس سالبًا وقيمته المطلقة أكبر من عدد العناصر الموجودة في القائمة، فسيُرجع هذا مرجعًا فارغًا.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج أنواع مختلفة من حقول النموذج في المستند ومعالجتها باستخدام تطبيق زائر المستند.
 
@@ -163,7 +165,7 @@ public class FormFieldVisitor : DocumentVisitor
 
 * class [FormField](../../formfield/)
 * class [FormFieldCollection](../)
-* مساحة الاسم [Aspose.Words.Fields](../../formfieldcollection/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
 
 ---
@@ -180,11 +182,11 @@ public FormField this[string bookmarkName] { get; }
 | --- | --- |
 | bookmarkName | اسم الإشارة المرجعية غير حساس لحالة الأحرف. |
 
-### ملاحظات
+## ملاحظات
 
 إرجاع`باطل` إذا تعذر العثور على حقل النموذج الذي يحمل اسم الإشارة المرجعية المحدد.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج أنواع مختلفة من حقول النموذج في المستند ومعالجتها باستخدام تطبيق زائر المستند.
 
@@ -319,7 +321,5 @@ public class FormFieldVisitor : DocumentVisitor
 
 * class [FormField](../../formfield/)
 * class [FormFieldCollection](../)
-* مساحة الاسم [Aspose.Words.Fields](../../formfieldcollection/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

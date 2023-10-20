@@ -1,7 +1,9 @@
 ---
 title: CompareOptions.IgnoreFields
-second_title: Aspose.Words for .NET API 参考
-description: CompareOptions 财产. 指定是否比较字段中的差异 默认情况下不忽略字段
+linktitle: IgnoreFields
+articleTitle: IgnoreFields
+second_title: 用于 .NET 的 Aspose.Words
+description: CompareOptions IgnoreFields 财产. 指定是否比较字段中的差异 默认情况下不忽略字段 在 C#.
 type: docs
 weight: 70
 url: /zh/net/aspose.words.comparing/compareoptions/ignorefields/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.comparing/compareoptions/ignorefields/
 public bool IgnoreFields { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何在进行比较时过滤特定类型的文档元素。
 
@@ -88,7 +90,5 @@ docOriginal.Save(ArtifactsDir + "Document.CompareOptions.docx");
 ### 也可以看看
 
 * class [CompareOptions](../)
-* 命名空间 [Aspose.Words.Comparing](../../compareoptions/)
+* 命名空间 [Aspose.Words.Comparing](../../../aspose.words.comparing/)
 * 部件 [Aspose.Words](../../../)
-
-

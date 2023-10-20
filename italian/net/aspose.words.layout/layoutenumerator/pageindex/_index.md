@@ -1,7 +1,9 @@
 ---
 title: LayoutEnumerator.PageIndex
-second_title: Aspose.Words per .NET API Reference
-description: LayoutEnumerator proprietà. Ottiene lindice in base 1 di una pagina che contiene lentità corrente.
+linktitle: PageIndex
+articleTitle: PageIndex
+second_title: Aspose.Words per .NET
+description: LayoutEnumerator PageIndex proprietà. Ottiene lindice in base 1 di una pagina che contiene lentità corrente in C#.
 type: docs
 weight: 60
 url: /it/net/aspose.words.layout/layoutenumerator/pageindex/
@@ -14,7 +16,7 @@ Ottiene l'indice in base 1 di una pagina che contiene l'entità corrente.
 public int PageIndex { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra le modalità per attraversare le entità di layout di un documento.
 
@@ -159,7 +161,5 @@ private static void PrintCurrentEntity(LayoutEnumerator layoutEnumerator, int in
 ### Guarda anche
 
 * class [LayoutEnumerator](../)
-* spazio dei nomi [Aspose.Words.Layout](../../layoutenumerator/)
+* spazio dei nomi [Aspose.Words.Layout](../../../aspose.words.layout/)
 * assemblea [Aspose.Words](../../../)
-
-

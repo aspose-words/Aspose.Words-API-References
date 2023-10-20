@@ -1,7 +1,9 @@
 ---
 title: GraphicsQualityOptions.CompositingMode
-second_title: Aspose.Words für .NET-API-Referenz
-description: GraphicsQualityOptions eigendom. Ruft einen Wert ab oder legt diesen fest der angibt wie zusammengesetzte Bilder in diese Grafik gezeichnet werden.
+linktitle: CompositingMode
+articleTitle: CompositingMode
+second_title: Aspose.Words für .NET
+description: GraphicsQualityOptions CompositingMode eigendom. Ruft einen Wert ab oder legt diesen fest der angibt wie zusammengesetzte Bilder in diese Grafik gezeichnet werden in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.saving/graphicsqualityoptions/compositingmode/
@@ -14,7 +16,7 @@ Ruft einen Wert ab oder legt diesen fest, der angibt, wie zusammengesetzte Bilde
 public CompositingMode? CompositingMode { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Renderqualitätsoptionen beim Konvertieren von Dokumenten in Bildformate festgelegt werden.
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "ImageSaveOptions.GraphicsQuality.jpg", saveOptions);
 ### Siehe auch
 
 * class [GraphicsQualityOptions](../)
-* namensraum [Aspose.Words.Saving](../../graphicsqualityoptions/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

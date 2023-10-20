@@ -1,7 +1,9 @@
 ---
-title: FieldIndex.FieldIndex
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldIndex constructor. Constructor predeterminado
+title: FieldIndex
+linktitle: FieldIndex
+articleTitle: FieldIndex
+second_title: Aspose.Words para .NET
+description: FieldIndex constructor. Constructor predeterminado en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words.fields/fieldindex/fieldindex/
@@ -17,7 +19,5 @@ public FieldIndex()
 ### Ver también
 
 * class [FieldIndex](../)
-* espacio de nombres [Aspose.Words.Fields](../../fieldindex/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

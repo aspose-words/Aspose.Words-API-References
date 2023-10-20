@@ -1,7 +1,9 @@
 ---
 title: OfficeMath.DisplayType
-second_title: Aspose.Words for .NET API 参考
-description: OfficeMath 财产. 获取/设置 Office Math 显示格式类型该类型表示方程是与文本 内联显示还是在其自己的行上显示
+linktitle: DisplayType
+articleTitle: DisplayType
+second_title: 用于 .NET 的 Aspose.Words
+description: OfficeMath DisplayType 财产. 获取/设置 Office Math 显示格式类型该类型表示方程是与文本 内联显示还是在其自己的行上显示 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.math/officemath/displaytype/
@@ -14,13 +16,13 @@ url: /zh/net/aspose.words.math/officemath/displaytype/
 public OfficeMathDisplayType DisplayType { get; set; }
 ```
 
-### 评论
+## 评论
 
 显示格式类型仅对顶级 Office Math 有效。
 
 返回的显示格式类型始终是Inline用于嵌套 Office Math。
 
-### 例子
+## 例子
 
 演示如何设置 Office 数学显示格式。
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "Shape.OfficeMath.docx");
 
 * enum [OfficeMathDisplayType](../../officemathdisplaytype/)
 * class [OfficeMath](../)
-* 命名空间 [Aspose.Words.Math](../../officemath/)
+* 命名空间 [Aspose.Words.Math](../../../aspose.words.math/)
 * 部件 [Aspose.Words](../../../)
-
-

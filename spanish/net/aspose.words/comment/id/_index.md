@@ -1,7 +1,9 @@
 ---
 title: Comment.Id
-second_title: Referencia de API de Aspose.Words para .NET
-description: Comment propiedad. Obtiene el identificador del comentario.
+linktitle: Id
+articleTitle: Id
+second_title: Aspose.Words para .NET
+description: Comment Id propiedad. Obtiene el identificador del comentario en C#.
 type: docs
 weight: 60
 url: /es/net/aspose.words/comment/id/
@@ -11,10 +13,10 @@ url: /es/net/aspose.words/comment/id/
 Obtiene el identificador del comentario.
 
 ```csharp
-public int Id { get; set; }
+public int Id { get; }
 ```
 
-### Observaciones
+## Observaciones
 
 El identificador de comentario permite anclar un comentario a una región de texto en el documento. La región debe demarcarse usando el[`CommentRangeStart`](../../commentrangestart/) y[`CommentRangeEnd`](../../commentrangeend/) objeto que comparte el mismo valor de identificador que el[`Comment`](../) objeto.
 
@@ -22,7 +24,7 @@ Utilizaría este valor cuando busque el[`CommentRangeStart`](../../commentranges
 
 Se supone que los identificadores de comentarios son únicos en un documento y Aspose.Words automáticamente mantiene identificadores de comentarios al cargar, guardar y combinar documentos.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo imprimir el contenido de todos los comentarios y sus rangos de comentarios utilizando un visitante de documentos.
 
@@ -183,7 +185,5 @@ public class CommentInfoPrinter : DocumentVisitor
 ### Ver también
 
 * class [Comment](../)
-* espacio de nombres [Aspose.Words](../../comment/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

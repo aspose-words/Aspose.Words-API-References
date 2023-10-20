@@ -1,7 +1,9 @@
 ---
 title: Shape.NodeType
-second_title: Aspose.Words لمراجع .NET API
-description: Shape ملكية. إرجاعShape .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words لـ .NET
+description: Shape NodeType ملكية. إرجاعShape  في C#.
 type: docs
 weight: 130
 url: /ar/net/aspose.words.drawing/shape/nodetype/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing/shape/nodetype/
 public override NodeType NodeType { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية اجتياز شجرة العقدة المركبة من العقد الفرعية.
 
@@ -62,7 +64,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 
 * enum [NodeType](../../../aspose.words/nodetype/)
 * class [Shape](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../shape/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

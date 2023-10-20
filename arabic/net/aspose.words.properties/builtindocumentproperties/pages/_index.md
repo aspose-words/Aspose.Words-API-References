@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.Pages
-second_title: Aspose.Words لمراجع .NET API
-description: BuiltInDocumentProperties ملكية. يمثل تقديرًا لعدد الصفحات في المستند.
+linktitle: Pages
+articleTitle: Pages
+second_title: Aspose.Words لـ .NET
+description: BuiltInDocumentProperties Pages ملكية. يمثل تقديرًا لعدد الصفحات في المستند في C#.
 type: docs
 weight: 220
 url: /ar/net/aspose.words.properties/builtindocumentproperties/pages/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.properties/builtindocumentproperties/pages/
 public int Pages { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 يقوم Aspose.Words بتحديث هذه الخاصية عند الاتصال[`UpdatePageLayout`](../../../aspose.words/document/updatepagelayout/).
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع خصائص المستند في فئة "المحتوى".
 
@@ -128,7 +130,5 @@ private class LineCounter
 ### أنظر أيضا
 
 * class [BuiltInDocumentProperties](../)
-* مساحة الاسم [Aspose.Words.Properties](../../builtindocumentproperties/)
+* مساحة الاسم [Aspose.Words.Properties](../../../aspose.words.properties/)
 * المجسم [Aspose.Words](../../../)
-
-

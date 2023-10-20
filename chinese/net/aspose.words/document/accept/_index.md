@@ -1,7 +1,9 @@
 ---
 title: Document.Accept
-second_title: Aspose.Words for .NET API 参考
-description: Document 方法. 接受访客
+linktitle: Accept
+articleTitle: Accept
+second_title: 用于 .NET 的 Aspose.Words
+description: Document Accept 方法. 接受访客 在 C#.
 type: docs
 weight: 510
 url: /zh/net/aspose.words/document/accept/
@@ -22,7 +24,7 @@ public override bool Accept(DocumentVisitor visitor)
 
 如果访问了所有节点，则为 True；假如果[`DocumentVisitor`](../../documentvisitor/)在访问所有节点之前停止操作。
 
-### 评论
+## 评论
 
 枚举该节点及其所有子节点。每个节点调用相应的方法[`DocumentVisitor`](../../documentvisitor/)。
 
@@ -30,7 +32,7 @@ public override bool Accept(DocumentVisitor visitor)
 
 通话[`VisitDocumentStart`](../../documentvisitor/visitdocumentstart/)，然后调用[`Accept`](../../node/accept/)对于 document 的所有子节点并调用[`VisitDocumentEnd`](../../documentvisitor/visitdocumentend/)最后.
 
-### 例子
+## 例子
 
 演示如何使用文档访问者打印文档的节点结构。
 
@@ -200,7 +202,5 @@ public class DocStructurePrinter : DocumentVisitor
 
 * class [DocumentVisitor](../../documentvisitor/)
 * class [Document](../)
-* 命名空间 [Aspose.Words](../../document/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

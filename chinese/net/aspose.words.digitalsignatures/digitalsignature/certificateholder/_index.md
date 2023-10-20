@@ -1,7 +1,9 @@
 ---
 title: DigitalSignature.CertificateHolder
-second_title: Aspose.Words for .NET API 参考
-description: DigitalSignature 财产. 返回包含用于签署文档的证书的证书持有者对象
+linktitle: CertificateHolder
+articleTitle: CertificateHolder
+second_title: 用于 .NET 的 Aspose.Words
+description: DigitalSignature CertificateHolder 财产. 返回包含用于签署文档的证书的证书持有者对象 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.digitalsignatures/digitalsignature/certificateholder/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.digitalsignatures/digitalsignature/certificateholder/
 public CertificateHolder CertificateHolder { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何使用 X.509 证书签署文档。
 
@@ -58,7 +60,5 @@ Assert.AreEqual("CN=Morzal.Me", signedDoc.DigitalSignatures[0].SubjectName);
 
 * class [CertificateHolder](../../certificateholder/)
 * class [DigitalSignature](../)
-* 命名空间 [Aspose.Words.DigitalSignatures](../../digitalsignature/)
+* 命名空间 [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * 部件 [Aspose.Words](../../../)
-
-

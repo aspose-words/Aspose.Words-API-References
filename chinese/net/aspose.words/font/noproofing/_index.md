@@ -1,7 +1,9 @@
 ---
 title: Font.NoProofing
-second_title: Aspose.Words for .NET API 参考
-description: Font 财产. 当不对格式化字符进行拼写检查时为真
+linktitle: NoProofing
+articleTitle: NoProofing
+second_title: 用于 .NET 的 Aspose.Words
+description: Font NoProofing 财产. 当不对格式化字符进行拼写检查时为真 在 C#.
 type: docs
 weight: 280
 url: /zh/net/aspose.words/font/noproofing/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/font/noproofing/
 public bool NoProofing { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何防止 Microsoft Word 对文本进行拼写检查。
 
@@ -35,7 +37,5 @@ doc.Save(ArtifactsDir + "Font.NoProofing.docx");
 ### 也可以看看
 
 * class [Font](../)
-* 命名空间 [Aspose.Words](../../font/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

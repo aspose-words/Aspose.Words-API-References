@@ -1,7 +1,9 @@
 ---
-title: Enum FieldIfComparisonResult
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Fields.FieldIfComparisonResult énumération. Spécifie le résultat de lévaluation de la condition du champ IF.
+title: FieldIfComparisonResult Enum
+linktitle: FieldIfComparisonResult
+articleTitle: FieldIfComparisonResult
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Fields.FieldIfComparisonResult énumération. Spécifie le résultat de lévaluation de la condition du champ IF en C#.
 type: docs
 weight: 2010
 url: /fr/net/aspose.words.fields/fieldifcomparisonresult/
@@ -22,7 +24,7 @@ public enum FieldIfComparisonResult
 | True | `1` | La condition est`vrai` . |
 | False | `2` | La condition est`FAUX` . |
 
-### Exemples
+## Exemples
 
 Montre comment insérer un champ IF.
 
@@ -69,5 +71,3 @@ doc.Save(ArtifactsDir + "Field.IF.docx");
 
 * espace de noms [Aspose.Words.Fields](../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../)
-
-

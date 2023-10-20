@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.Bounds
-second_title: Aspose.Words für .NET-API-Referenz
-description: ShapeBase eigendom. Ruft die Position und Größe des enthaltenden Blocks der Form ab oder legt diese fest.
+linktitle: Bounds
+articleTitle: Bounds
+second_title: Aspose.Words für .NET
+description: ShapeBase Bounds eigendom. Ruft die Position und Größe des enthaltenden Blocks der Form ab oder legt diese fest in C#.
 type: docs
 weight: 70
 url: /de/net/aspose.words.drawing/shapebase/bounds/
@@ -14,7 +16,7 @@ Ruft die Position und Größe des enthaltenden Blocks der Form ab oder legt dies
 public RectangleF Bounds { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Ignoriert die Sperre des Seitenverhältnisses bei der Einstellung.
 
@@ -22,7 +24,7 @@ Für eine Form der obersten Ebene wird der Wert in Punkten und relativ zum Forma
 
 Für Formen in einer Gruppe liegt der Wert im Koordinatenraum und in den Einheiten der übergeordneten Gruppe.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie eine Form überprüft wird, die Blockgrenzen enthält.
 
@@ -179,7 +181,5 @@ doc.Save(ArtifactsDir + "Shape.GroupShape.docx");
 ### Siehe auch
 
 * class [ShapeBase](../)
-* namensraum [Aspose.Words.Drawing](../../shapebase/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

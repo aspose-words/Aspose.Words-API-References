@@ -1,7 +1,9 @@
 ---
 title: CleanupOptions.DuplicateStyle
-second_title: Aspose.Words for .NET API 参考
-description: CleanupOptions 财产. 获取/设置一个标志指示是否应从文档中删除重复样式 默认值为错误的.
+linktitle: DuplicateStyle
+articleTitle: DuplicateStyle
+second_title: 用于 .NET 的 Aspose.Words
+description: CleanupOptions DuplicateStyle 财产. 获取/设置一个标志指示是否应从文档中删除重复样式 默认值为错误的 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words/cleanupoptions/duplicatestyle/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/cleanupoptions/duplicatestyle/
 public bool DuplicateStyle { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何从文档中删除重复的样式。
 
@@ -62,7 +64,5 @@ Assert.AreEqual(myStyle, paragraphs[1].ParagraphFormat.Style);
 ### 也可以看看
 
 * class [CleanupOptions](../)
-* 命名空间 [Aspose.Words](../../cleanupoptions/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

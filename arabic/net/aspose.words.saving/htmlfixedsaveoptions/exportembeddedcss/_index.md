@@ -1,7 +1,9 @@
 ---
 title: HtmlFixedSaveOptions.ExportEmbeddedCss
-second_title: Aspose.Words لمراجع .NET API
-description: HtmlFixedSaveOptions ملكية. يحدد ما إذا كان يجب تضمين CSS ورقة الأنماط المتتالية في مستند Html.
+linktitle: ExportEmbeddedCss
+articleTitle: ExportEmbeddedCss
+second_title: Aspose.Words لـ .NET
+description: HtmlFixedSaveOptions ExportEmbeddedCss ملكية. يحدد ما إذا كان يجب تضمين CSS ورقة الأنماط المتتالية في مستند Html في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.saving/htmlfixedsaveoptions/exportembeddedcss/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.saving/htmlfixedsaveoptions/exportembeddedcss/
 public bool ExportEmbeddedCss { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحديد مكان تخزين أوراق أنماط CSS عند تصدير مستند إلى Html.
 
@@ -51,7 +53,5 @@ else
 ### أنظر أيضا
 
 * class [HtmlFixedSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../htmlfixedsaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

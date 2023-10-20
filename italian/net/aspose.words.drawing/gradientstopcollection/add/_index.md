@@ -1,7 +1,9 @@
 ---
 title: GradientStopCollection.Add
-second_title: Aspose.Words per .NET API Reference
-description: GradientStopCollection metodo. Aggiunge un valore specificatoGradientStop a un gradiente.
+linktitle: Add
+articleTitle: Add
+second_title: Aspose.Words per .NET
+description: GradientStopCollection Add metodo. Aggiunge un valore specificatoGradientStop a un gradiente in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words.drawing/gradientstopcollection/add/
@@ -14,7 +16,7 @@ Aggiunge un valore specificato[`GradientStop`](../../gradientstop/) a un gradien
 public GradientStop Add(GradientStop gradientStop)
 ```
 
-### Esempi
+## Esempi
 
 Mostra come aggiungere interruzioni sfumatura al riempimento sfumatura.
 
@@ -68,7 +70,5 @@ doc.Save(ArtifactsDir + "Shape.GradientStops.docx", saveOptions);
 
 * class [GradientStop](../../gradientstop/)
 * class [GradientStopCollection](../)
-* spazio dei nomi [Aspose.Words.Drawing](../../gradientstopcollection/)
+* spazio dei nomi [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assemblea [Aspose.Words](../../../)
-
-

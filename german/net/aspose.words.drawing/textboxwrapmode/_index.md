@@ -1,7 +1,9 @@
 ---
-title: Enum TextBoxWrapMode
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Drawing.TextBoxWrapMode opsomming. Gibt an wie Text innerhalb einer Form umbrochen wird.
+title: TextBoxWrapMode Enum
+linktitle: TextBoxWrapMode
+articleTitle: TextBoxWrapMode
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Drawing.TextBoxWrapMode opsomming. Gibt an wie Text innerhalb einer Form umbrochen wird in C#.
 type: docs
 weight: 1340
 url: /de/net/aspose.words.drawing/textboxwrapmode/
@@ -21,7 +23,7 @@ public enum TextBoxWrapMode
 | Square | `0` | Text wird innerhalb einer Form umbrochen. |
 | None | `2` | Text wird nicht in eine Form umbrochen. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Umbruchmodus für den Inhalt eines Textfelds festgelegt wird.
 
@@ -49,5 +51,3 @@ doc.Save(ArtifactsDir + "Shape.TextBoxContentsWrapMode.docx");
 
 * namensraum [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../)
-
-

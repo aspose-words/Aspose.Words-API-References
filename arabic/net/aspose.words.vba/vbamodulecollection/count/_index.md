@@ -1,7 +1,9 @@
 ---
 title: VbaModuleCollection.Count
-second_title: Aspose.Words لمراجع .NET API
-description: VbaModuleCollection ملكية. إرجاع عدد وحدات VBA في المجموعة.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words لـ .NET
+description: VbaModuleCollection Count ملكية. إرجاع عدد وحدات VBA في المجموعة في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.vba/vbamodulecollection/count/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.vba/vbamodulecollection/count/
 public int Count { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الوصول إلى معلومات مشروع VBA الخاص بالمستند.
 
@@ -45,7 +47,5 @@ vbaModules.Remove(vbaModules[2]);
 ### أنظر أيضا
 
 * class [VbaModuleCollection](../)
-* مساحة الاسم [Aspose.Words.Vba](../../vbamodulecollection/)
+* مساحة الاسم [Aspose.Words.Vba](../../../aspose.words.vba/)
 * المجسم [Aspose.Words](../../../)
-
-

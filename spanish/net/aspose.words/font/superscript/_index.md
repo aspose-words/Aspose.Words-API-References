@@ -1,7 +1,9 @@
 ---
 title: Font.Superscript
-second_title: Referencia de API de Aspose.Words para .NET
-description: Font propiedad. Verdadero si la fuente tiene el formato de superíndice.
+linktitle: Superscript
+articleTitle: Superscript
+second_title: Aspose.Words para .NET
+description: Font Superscript propiedad. Verdadero si la fuente tiene el formato de superíndice en C#.
 type: docs
 weight: 440
 url: /es/net/aspose.words/font/superscript/
@@ -14,7 +16,7 @@ Verdadero si la fuente tiene el formato de superíndice.
 public bool Superscript { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo dar formato al texto para compensar su posición.
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "Font.PositionSubscript.docx");
 ### Ver también
 
 * class [Font](../)
-* espacio de nombres [Aspose.Words](../../font/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

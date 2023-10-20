@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.WidowControl
-second_title: Aspose.Words für .NET-API-Referenz
-description: ParagraphFormat eigendom. True wenn die erste und letzte Zeile des Absatzes auf derselben Seite wie der Rest des Absatzes bleiben sollen.
+linktitle: WidowControl
+articleTitle: WidowControl
+second_title: Aspose.Words für .NET
+description: ParagraphFormat WidowControl eigendom. True wenn die erste und letzte Zeile des Absatzes auf derselben Seite wie der Rest des Absatzes bleiben sollen in C#.
 type: docs
 weight: 400
 url: /de/net/aspose.words/paragraphformat/widowcontrol/
@@ -14,7 +16,7 @@ True, wenn die erste und letzte Zeile des Absatzes auf derselben Seite wie der R
 public bool WidowControl { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Witwen-/Waisenkontrolle für einen Absatz aktiviert wird.
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "ParagraphFormat.WidowControl.docx");
 ### Siehe auch
 
 * class [ParagraphFormat](../)
-* namensraum [Aspose.Words](../../paragraphformat/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

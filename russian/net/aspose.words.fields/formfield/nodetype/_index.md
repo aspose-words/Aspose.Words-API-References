@@ -1,7 +1,9 @@
 ---
 title: FormField.NodeType
-second_title: Справочник по API Aspose.Words для .NET
-description: FormField свойство. ВозвращаетFormField .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words для .NET
+description: FormField NodeType свойство. ВозвращаетFormField  на С#.
 type: docs
 weight: 140
 url: /ru/net/aspose.words.fields/formfield/nodetype/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/formfield/nodetype/
 public override NodeType NodeType { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как перемещаться по дереву дочерних узлов составного узла.
 
@@ -62,7 +64,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 
 * enum [NodeType](../../../aspose.words/nodetype/)
 * class [FormField](../)
-* пространство имен [Aspose.Words.Fields](../../formfield/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

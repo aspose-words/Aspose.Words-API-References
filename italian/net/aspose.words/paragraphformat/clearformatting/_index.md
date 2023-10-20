@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.ClearFormatting
-second_title: Aspose.Words per .NET API Reference
-description: ParagraphFormat metodo. Ripristina la formattazione del paragrafo predefinita.
+linktitle: ClearFormatting
+articleTitle: ClearFormatting
+second_title: Aspose.Words per .NET
+description: ParagraphFormat ClearFormatting metodo. Ripristina la formattazione del paragrafo predefinita in C#.
 type: docs
 weight: 420
 url: /it/net/aspose.words/paragraphformat/clearformatting/
@@ -14,11 +16,11 @@ Ripristina la formattazione del paragrafo predefinita.
 public void ClearFormatting()
 ```
 
-### Osservazioni
+## Osservazioni
 
 La formattazione predefinita del paragrafo è lo stile Normale, allineato a sinistra, senza rientro, senza spaziatura, senza bordi e senza ombreggiatura.
 
-### Esempi
+## Esempi
 
 Mostra come nidificare un elenco all'interno di un altro elenco.
 
@@ -72,7 +74,5 @@ builder.Document.Save(ArtifactsDir + "Lists.NestedLists.docx");
 ### Guarda anche
 
 * class [ParagraphFormat](../)
-* spazio dei nomi [Aspose.Words](../../paragraphformat/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

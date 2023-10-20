@@ -1,7 +1,9 @@
 ---
 title: Font.SmallCaps
-second_title: Aspose.Words per .NET API Reference
-description: Font proprietà. Vero se il carattere è formattato come lettere maiuscole.
+linktitle: SmallCaps
+articleTitle: SmallCaps
+second_title: Aspose.Words per .NET
+description: Font SmallCaps proprietà. Vero se il carattere è formattato come lettere maiuscole in C#.
 type: docs
 weight: 360
 url: /it/net/aspose.words/font/smallcaps/
@@ -14,7 +16,7 @@ Vero se il carattere è formattato come lettere maiuscole.
 public bool SmallCaps { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come formattare un'esecuzione per visualizzarne il contenuto in maiuscolo.
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "Font.Caps.docx");
 ### Guarda anche
 
 * class [Font](../)
-* spazio dei nomi [Aspose.Words](../../font/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

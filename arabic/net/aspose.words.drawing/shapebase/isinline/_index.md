@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.IsInline
-second_title: Aspose.Words لمراجع .NET API
-description: ShapeBase ملكية. طريقة سريعة لتحديد ما إذا كان هذا الشكل تم وضعه سطريًا مع النص.
+linktitle: IsInline
+articleTitle: IsInline
+second_title: Aspose.Words لـ .NET
+description: ShapeBase IsInline ملكية. طريقة سريعة لتحديد ما إذا كان هذا الشكل تم وضعه سطريًا مع النص في C#.
 type: docs
 weight: 290
 url: /ar/net/aspose.words.drawing/shapebase/isinline/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.drawing/shapebase/isinline/
 public bool IsInline { get; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 له تأثير فقط على أشكال المستوى الأعلى.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحديد ما إذا كان الشكل سطريًا أم عائمًا.
 
@@ -59,7 +61,5 @@ doc.Save(ArtifactsDir + "Shape.IsInline.docx");
 ### أنظر أيضا
 
 * class [ShapeBase](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../shapebase/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

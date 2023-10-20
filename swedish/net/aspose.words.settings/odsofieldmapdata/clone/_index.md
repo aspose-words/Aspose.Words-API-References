@@ -1,7 +1,9 @@
 ---
 title: OdsoFieldMapData.Clone
-second_title: Aspose.Words för .NET API Referens
-description: OdsoFieldMapData metod. Returnerar en djup klon av detta objekt.
+linktitle: Clone
+articleTitle: Clone
+second_title: Aspose.Words för .NET
+description: OdsoFieldMapData Clone metod. Returnerar en djup klon av detta objekt i C#.
 type: docs
 weight: 60
 url: /sv/net/aspose.words.settings/odsofieldmapdata/clone/
@@ -14,7 +16,7 @@ Returnerar en djup klon av detta objekt.
 public OdsoFieldMapData Clone()
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du får åtkomst till insamlingen av data som mappar datakällans kolumner för att slå samman fält.
 
@@ -57,7 +59,5 @@ Assert.AreEqual(0, dataCollection.Count);
 ### Se även
 
 * class [OdsoFieldMapData](../)
-* namnutrymme [Aspose.Words.Settings](../../odsofieldmapdata/)
+* namnutrymme [Aspose.Words.Settings](../../../aspose.words.settings/)
 * hopsättning [Aspose.Words](../../../)
-
-

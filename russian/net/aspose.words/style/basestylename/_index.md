@@ -1,7 +1,9 @@
 ---
 title: Style.BaseStyleName
-second_title: Справочник по API Aspose.Words для .NET
-description: Style свойство. Получает/устанавливает имя стиля на котором основан этот стиль.
+linktitle: BaseStyleName
+articleTitle: BaseStyleName
+second_title: Aspose.Words для .NET
+description: Style BaseStyleName свойство. Получает/устанавливает имя стиля на котором основан этот стиль на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words/style/basestylename/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words/style/basestylename/
 public string BaseStyleName { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Это будет пустая строка, если стиль не основан на каком-либо другом стиле и для него можно установить пустую строку.
 
-### Примеры
+## Примеры
 
 Показывает, как использовать псевдонимы стилей.
 
@@ -49,7 +51,5 @@ Assert.AreEqual(doc.FirstSection.Body.Paragraphs[0].ParagraphFormat.Style,
 ### Смотрите также
 
 * class [Style](../)
-* пространство имен [Aspose.Words](../../style/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

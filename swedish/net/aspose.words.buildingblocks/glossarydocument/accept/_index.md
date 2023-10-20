@@ -1,7 +1,9 @@
 ---
 title: GlossaryDocument.Accept
-second_title: Aspose.Words för .NET API Referens
-description: GlossaryDocument metod. Accepterar en besökare.
+linktitle: Accept
+articleTitle: Accept
+second_title: Aspose.Words för .NET
+description: GlossaryDocument Accept metod. Accepterar en besökare i C#.
 type: docs
 weight: 60
 url: /sv/net/aspose.words.buildingblocks/glossarydocument/accept/
@@ -22,7 +24,7 @@ public override bool Accept(DocumentVisitor visitor)
 
 Sant om alla noder besöktes; falskt om[`DocumentVisitor`](../../../aspose.words/documentvisitor/) stoppade operationen innan du besökte alla noder.
 
-### Anmärkningar
+## Anmärkningar
 
 Räknar upp denna nod och alla dess barn. Varje nod anropar en motsvarande metod[`DocumentVisitor`](../../../aspose.words/documentvisitor/).
 
@@ -32,7 +34,7 @@ Samtal[`VisitGlossaryDocumentStart`](../../../aspose.words/documentvisitor/visit
 
 Obs: En ordlista dokumentnod och dess underordnade besöks inte när du kör en besökare över en[`Document`](../../../aspose.words/document/) . Om du vill köra ett Besökare över ett ordlistadokument måste du ringa`Accept` .
 
-### Exempel
+## Exempel
 
 Visar sätt att komma åt byggstenar i ett ordlistadokument.
 
@@ -137,7 +139,5 @@ public class GlossaryDocVisitor : DocumentVisitor
 
 * class [DocumentVisitor](../../../aspose.words/documentvisitor/)
 * class [GlossaryDocument](../)
-* namnutrymme [Aspose.Words.BuildingBlocks](../../glossarydocument/)
+* namnutrymme [Aspose.Words.BuildingBlocks](../../../aspose.words.buildingblocks/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: BookmarkStart.Accept
-second_title: Aspose.Words لمراجع .NET API
-description: BookmarkStart طريقة. يقبل الزائر.
+linktitle: Accept
+articleTitle: Accept
+second_title: Aspose.Words لـ .NET
+description: BookmarkStart Accept طريقة. يقبل الزائر في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words/bookmarkstart/accept/
@@ -22,13 +24,13 @@ public override bool Accept(DocumentVisitor visitor)
 
 `خطأ شنيع` إذا طلب الزائر إيقاف التعداد.
 
-### ملاحظات
+## ملاحظات
 
 المكالمات[`VisitBookmarkStart`](../../documentvisitor/visitbookmarkstart/).
 
 لمزيد من المعلومات، راجع نمط تصميم الزائر.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إضافة الإشارات المرجعية وتحديث محتوياتها.
 
@@ -118,7 +120,5 @@ public class BookmarkInfoPrinter : DocumentVisitor
 
 * class [DocumentVisitor](../../documentvisitor/)
 * class [BookmarkStart](../)
-* مساحة الاسم [Aspose.Words](../../bookmarkstart/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

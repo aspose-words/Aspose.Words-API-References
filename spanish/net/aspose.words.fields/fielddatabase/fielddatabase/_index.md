@@ -1,7 +1,9 @@
 ---
-title: FieldDatabase.FieldDatabase
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldDatabase constructor. Constructor predeterminado
+title: FieldDatabase
+linktitle: FieldDatabase
+articleTitle: FieldDatabase
+second_title: Aspose.Words para .NET
+description: FieldDatabase constructor. Constructor predeterminado en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words.fields/fielddatabase/fielddatabase/
@@ -17,7 +19,5 @@ public FieldDatabase()
 ### Ver también
 
 * class [FieldDatabase](../)
-* espacio de nombres [Aspose.Words.Fields](../../fielddatabase/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

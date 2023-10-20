@@ -1,14 +1,16 @@
 ---
-title: StructuredDocumentTagRangeStart.StructuredDocumentTagRangeStart
-second_title: Aspose.Words för .NET API Referens
-description: StructuredDocumentTagRangeStart byggare. Initierar en ny instans av Structured document tag range start class.
+title: StructuredDocumentTagRangeStart
+linktitle: StructuredDocumentTagRangeStart
+articleTitle: StructuredDocumentTagRangeStart
+second_title: Aspose.Words för .NET
+description: StructuredDocumentTagRangeStart byggare. Initierar en ny instans avStructured document tag range start class i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.markup/structureddocumenttagrangestart/structureddocumenttagrangestart/
 ---
 ## StructuredDocumentTagRangeStart constructor
 
-Initierar en ny instans av **Structured document tag range start** class.
+Initierar en ny instans av**Structured document tag range start** class.
 
 ```csharp
 public StructuredDocumentTagRangeStart(DocumentBase doc, SdtType type)
@@ -19,7 +21,7 @@ public StructuredDocumentTagRangeStart(DocumentBase doc, SdtType type)
 | doc | DocumentBase | Ägardokumentet. |
 | type | SdtType | Typ av SDT-nod. |
 
-### Anmärkningar
+## Anmärkningar
 
 Följande typer av SDT kan skapas:
 
@@ -33,7 +35,7 @@ Följande typer av SDT kan skapas:
 * RichText
 * PlainText
 
-### Exempel
+## Exempel
 
 Visar hur man skapar/tar bort strukturerad dokumenttagg och dess innehåll.
 
@@ -87,7 +89,5 @@ public void InsertStructuredDocumentTagRanges(Document doc, out StructuredDocume
 * class [DocumentBase](../../../aspose.words/documentbase/)
 * enum [SdtType](../../sdttype/)
 * class [StructuredDocumentTagRangeStart](../)
-* namnutrymme [Aspose.Words.Markup](../../structureddocumenttagrangestart/)
+* namnutrymme [Aspose.Words.Markup](../../../aspose.words.markup/)
 * hopsättning [Aspose.Words](../../../)
-
-

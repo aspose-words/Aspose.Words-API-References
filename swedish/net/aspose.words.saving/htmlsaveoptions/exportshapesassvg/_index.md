@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ExportShapesAsSvg
-second_title: Aspose.Words för .NET API Referens
-description: HtmlSaveOptions fast egendom. Styr omShapenoder konverteras till SVGbilder när save till HTML MHTML EPUB eller AZW3. Standardvärdet ärfalsk .
+linktitle: ExportShapesAsSvg
+articleTitle: ExportShapesAsSvg
+second_title: Aspose.Words för .NET
+description: HtmlSaveOptions ExportShapesAsSvg fast egendom. Styr omShapenoder konverteras till SVGbilder när save till HTML MHTML EPUB eller AZW3. Standardvärdet ärfalsk  i C#.
 type: docs
 weight: 250
 url: /sv/net/aspose.words.saving/htmlsaveoptions/exportshapesassvg/
@@ -14,11 +16,11 @@ Styr om[`Shape`](../../../aspose.words.drawing/shape/)noder konverteras till SVG
 public bool ExportShapesAsSvg { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Om det här alternativet är inställt på`Sann` ,[`Shape`](../../../aspose.words.drawing/shape/) noder exporteras som &lt;svg&gt;-element. Annars renderas de till bitmappar och exporteras som &lt;img&gt;-element.
 
-### Exempel
+## Exempel
 
 Visar hur man exporterar form som skalbar vektorgrafik.
 
@@ -61,7 +63,5 @@ else
 ### Se även
 
 * class [HtmlSaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../htmlsaveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

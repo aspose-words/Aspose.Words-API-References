@@ -1,7 +1,9 @@
 ---
 title: Glyph.AdvanceOffset
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Glyph propriété. Décalage horizontal x par rapport à la position du glyphe. Principalement utilisé pour attacher des marques comme des signes diacritiques aux caractères de base.
+linktitle: AdvanceOffset
+articleTitle: AdvanceOffset
+second_title: Aspose.Words pour .NET
+description: Glyph AdvanceOffset propriété. Décalage horizontal x par rapport à la position du glyphe. Principalement utilisé pour attacher des marques comme des signes diacritiques aux caractères de base en C#.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.shaping/glyph/advanceoffset/
@@ -17,7 +19,5 @@ public short AdvanceOffset { get; }
 ### Voir également
 
 * class [Glyph](../)
-* espace de noms [Aspose.Words.Shaping](../../glyph/)
+* espace de noms [Aspose.Words.Shaping](../../../aspose.words.shaping/)
 * Assemblée [Aspose.Words](../../../)
-
-

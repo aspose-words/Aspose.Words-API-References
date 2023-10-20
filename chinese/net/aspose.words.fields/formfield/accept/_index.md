@@ -1,7 +1,9 @@
 ---
 title: FormField.Accept
-second_title: Aspose.Words for .NET API 参考
-description: FormField 方法. 接受访客
+linktitle: Accept
+articleTitle: Accept
+second_title: 用于 .NET 的 Aspose.Words
+description: FormField Accept 方法. 接受访客 在 C#.
 type: docs
 weight: 230
 url: /zh/net/aspose.words.fields/formfield/accept/
@@ -22,13 +24,13 @@ public override bool Accept(DocumentVisitor visitor)
 
 `错误的`如果访问者请求停止枚举。
 
-### 评论
+## 评论
 
 通话[`VisitFormField`](../../../aspose.words/documentvisitor/visitformfield/)。
 
 有关更多信息，请参阅访客设计模式。
 
-### 例子
+## 例子
 
 展示如何将不同类型的表单字段插入到文档中，并使用文档访问者实现来处理它们。
 
@@ -163,7 +165,5 @@ public class FormFieldVisitor : DocumentVisitor
 
 * class [DocumentVisitor](../../../aspose.words/documentvisitor/)
 * class [FormField](../)
-* 命名空间 [Aspose.Words.Fields](../../formfield/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

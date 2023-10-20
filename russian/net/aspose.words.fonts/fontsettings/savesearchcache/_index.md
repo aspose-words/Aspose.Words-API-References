@@ -1,7 +1,9 @@
 ---
 title: FontSettings.SaveSearchCache
-second_title: Справочник по API Aspose.Words для .NET
-description: FontSettings метод. Сохраняет кеш поиска шрифтов в поток.
+linktitle: SaveSearchCache
+articleTitle: SaveSearchCache
+second_title: Aspose.Words для .NET
+description: FontSettings SaveSearchCache метод. Сохраняет кеш поиска шрифтов в поток на С#.
 type: docs
 weight: 70
 url: /ru/net/aspose.words.fonts/fontsettings/savesearchcache/
@@ -18,11 +20,11 @@ public void SaveSearchCache(Stream outputStream)
 | --- | --- | --- |
 | outputStream | Stream | Выходной поток. |
 
-### Примечания
+## Примечания
 
 Видеть[`SetFontsSources`](../setfontssources/) описание метода для получения дополнительной информации.
 
-### Примеры
+## Примеры
 
 Показывает, как ускорить процесс инициализации кэша шрифтов.
 
@@ -73,7 +75,5 @@ private class SearchCacheStream : StreamFontSource
 ### Смотрите также
 
 * class [FontSettings](../)
-* пространство имен [Aspose.Words.Fonts](../../fontsettings/)
+* пространство имен [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * сборка [Aspose.Words](../../../)
-
-

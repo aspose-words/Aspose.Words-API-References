@@ -1,7 +1,9 @@
 ---
 title: Bookmark.IsColumn
-second_title: Referencia de API de Aspose.Words para .NET
-description: Bookmark propiedad. Devolucionesverdadero si este marcador es un marcador de columna de tabla.
+linktitle: IsColumn
+articleTitle: IsColumn
+second_title: Aspose.Words para .NET
+description: Bookmark IsColumn propiedad. Devolucionesverdadero si este marcador es un marcador de columna de tabla en C#.
 type: docs
 weight: 40
 url: /es/net/aspose.words/bookmark/iscolumn/
@@ -14,7 +16,7 @@ Devoluciones`verdadero` si este marcador es un marcador de columna de tabla.
 public bool IsColumn { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo obtener información sobre los marcadores de columnas de la tabla.
 
@@ -41,7 +43,5 @@ foreach (Bookmark bookmark in doc.Range.Bookmarks)
 ### Ver también
 
 * class [Bookmark](../)
-* espacio de nombres [Aspose.Words](../../bookmark/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

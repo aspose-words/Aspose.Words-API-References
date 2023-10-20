@@ -1,7 +1,9 @@
 ---
-title: Class XmlMapping
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Markup.XmlMapping فصل. يحدد المعلومات المستخدمة لتأسيس تعيين بين علامة المستند الهيكليةparent وعنصر XML المخزن داخل جزء بيانات XML مخصص في المستند.
+title: XmlMapping Class
+linktitle: XmlMapping
+articleTitle: XmlMapping
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Markup.XmlMapping فصل. يحدد المعلومات المستخدمة لتأسيس تعيين بين علامة المستند الهيكليةparent وعنصر XML المخزن داخل جزء بيانات XML مخصص في المستند في C#.
 type: docs
 weight: 4100
 url: /ar/net/aspose.words.markup/xmlmapping/
@@ -31,9 +33,9 @@ public class XmlMapping
 | اسم | وصف |
 | --- | --- |
 | [Delete](../../aspose.words.markup/xmlmapping/delete/)() | حذف تعيين المستند المنظم الأصلي إلى بيانات XML. |
-| [SetMapping](../../aspose.words.markup/xmlmapping/setmapping/)(CustomXmlPart, string, string) | يعين تعيينًا بين علامة المستند الهيكلية الأصلية وعقدة XML لجزء بيانات XML مخصص. |
+| [SetMapping](../../aspose.words.markup/xmlmapping/setmapping/)(*[CustomXmlPart](../customxmlpart/), string, string*) | يعين تعيينًا بين علامة المستند الهيكلية الأصلية وعقدة XML لجزء بيانات XML مخصص. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين تعيينات XML لأجزاء XML المخصصة.
 
@@ -70,5 +72,3 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.XmlMapping.docx");
 
 * مساحة الاسم [Aspose.Words.Markup](../../aspose.words.markup/)
 * المجسم [Aspose.Words](../../)
-
-

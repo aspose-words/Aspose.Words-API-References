@@ -1,7 +1,9 @@
 ---
 title: FieldCollection.Count
-second_title: Aspose.Words for .NET API 参考
-description: FieldCollection 财产. 返回集合中字段的数量
+linktitle: Count
+articleTitle: Count
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldCollection Count 财产. 返回集合中字段的数量 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.fields/fieldcollection/count/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fieldcollection/count/
 public int Count { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何从字段集合中删除字段。
 
@@ -154,7 +156,5 @@ public class FieldVisitor : DocumentVisitor
 ### 也可以看看
 
 * class [FieldCollection](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldcollection/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: PsSaveOptions.SaveFormat
-second_title: Aspose.Words for .NET API 参考
-description: PsSaveOptions 财产. 指定使用此保存选项对象时保存文档的格式 只能是Ps.
+linktitle: SaveFormat
+articleTitle: SaveFormat
+second_title: 用于 .NET 的 Aspose.Words
+description: PsSaveOptions SaveFormat 财产. 指定使用此保存选项对象时保存文档的格式 只能是Ps 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.saving/pssaveoptions/saveformat/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.saving/pssaveoptions/saveformat/
 public override SaveFormat SaveFormat { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何以书籍折叠的形式将文档保存为 Postscript 格式。
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "PsSaveOptions.UseBookFoldPrintingSettings.ps", saveOpti
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
 * class [PsSaveOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../pssaveoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

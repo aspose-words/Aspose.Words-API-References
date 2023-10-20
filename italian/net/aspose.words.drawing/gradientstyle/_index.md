@@ -1,7 +1,9 @@
 ---
-title: Enum GradientStyle
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Drawing.GradientStyle enum. Specifica lo stile per un riempimento sfumato.
+title: GradientStyle Enum
+linktitle: GradientStyle
+articleTitle: GradientStyle
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Drawing.GradientStyle enum. Specifica lo stile per un riempimento sfumato in C#.
 type: docs
 weight: 1000
 url: /it/net/aspose.words.drawing/gradientstyle/
@@ -26,7 +28,7 @@ public enum GradientStyle
 | FromCorner | `5` | Gradiente che va da un angolo agli altri tre angoli. |
 | FromCenter | `6` | Gradiente che va dal centro verso gli angoli. |
 
-### Esempi
+## Esempi
 
 Mostra come riempire una forma con sfumature.
 
@@ -68,5 +70,3 @@ doc.Save(ArtifactsDir + "Shape.GradientFill.docx", saveOptions);
 
 * spazio dei nomi [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * assemblea [Aspose.Words](../../)
-
-

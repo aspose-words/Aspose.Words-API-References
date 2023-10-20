@@ -1,7 +1,9 @@
 ---
 title: OleFormat.SourceItem
-second_title: Aspose.Words für .NET-API-Referenz
-description: OleFormat eigendom. Ruft eine Zeichenfolge ab oder legt diese fest die zur Identifizierung des Teils der Quelldatei verwendet wird der verknüpft wird.
+linktitle: SourceItem
+articleTitle: SourceItem
+second_title: Aspose.Words für .NET
+description: OleFormat SourceItem eigendom. Ruft eine Zeichenfolge ab oder legt diese fest die zur Identifizierung des Teils der Quelldatei verwendet wird der verknüpft wird in C#.
 type: docs
 weight: 110
 url: /de/net/aspose.words.drawing/oleformat/sourceitem/
@@ -14,13 +16,13 @@ Ruft eine Zeichenfolge ab oder legt diese fest, die zur Identifizierung des Teil
 public string SourceItem { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Der Standardwert ist eine leere Zeichenfolge.
 
 Wenn es sich bei der Quelldatei beispielsweise um eine Microsoft Excel-Arbeitsmappe handelt, wird die`SourceItem` Die Eigenschaft gibt möglicherweise „Workbook1!R3C1:R4C2“ zurück, wenn das OLE-Objekt nur wenige Zellen aus dem Arbeitsblatt enthält.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie verknüpfte und nicht verknüpfte OLE-Objekte eingefügt werden.
 
@@ -70,7 +72,5 @@ using (MemoryStream stream = oleFormat.GetOleEntry("\x0001CompObj"))
 ### Siehe auch
 
 * class [OleFormat](../)
-* namensraum [Aspose.Words.Drawing](../../oleformat/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

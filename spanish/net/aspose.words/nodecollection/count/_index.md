@@ -1,7 +1,9 @@
 ---
 title: NodeCollection.Count
-second_title: Referencia de API de Aspose.Words para .NET
-description: NodeCollection propiedad. Obtiene el número de nodos de la colección.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words para .NET
+description: NodeCollection Count propiedad. Obtiene el número de nodos de la colección en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words/nodecollection/count/
@@ -14,7 +16,7 @@ Obtiene el número de nodos de la colección.
 public int Count { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo recorrer la colección de nodos secundarios de un nodo compuesto.
 
@@ -132,7 +134,5 @@ private static int GetChildTableCount(Table table)
 ### Ver también
 
 * class [NodeCollection](../)
-* espacio de nombres [Aspose.Words](../../nodecollection/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

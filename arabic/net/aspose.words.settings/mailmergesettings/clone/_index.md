@@ -1,7 +1,9 @@
 ---
 title: MailMergeSettings.Clone
-second_title: Aspose.Words لمراجع .NET API
-description: MailMergeSettings طريقة. يُرجع نسخة عميقة من هذا الكائن.
+linktitle: Clone
+articleTitle: Clone
+second_title: Aspose.Words لـ .NET
+description: MailMergeSettings Clone طريقة. يُرجع نسخة عميقة من هذا الكائن في C#.
 type: docs
 weight: 190
 url: /ar/net/aspose.words.settings/mailmergesettings/clone/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.settings/mailmergesettings/clone/
 public MailMergeSettings Clone()
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تنفيذ دمج البريد مع البيانات من كائن مصدر بيانات Office.
 
@@ -66,7 +68,5 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ### أنظر أيضا
 
 * class [MailMergeSettings](../)
-* مساحة الاسم [Aspose.Words.Settings](../../mailmergesettings/)
+* مساحة الاسم [Aspose.Words.Settings](../../../aspose.words.settings/)
 * المجسم [Aspose.Words](../../../)
-
-

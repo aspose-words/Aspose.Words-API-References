@@ -1,7 +1,9 @@
 ---
 title: FieldGreetingLine.LanguageId
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldGreetingLine propiedad. Obtiene o establece la identificación del idioma utilizado para formatear el nombre.
+linktitle: LanguageId
+articleTitle: LanguageId
+second_title: Aspose.Words para .NET
+description: FieldGreetingLine LanguageId propiedad. Obtiene o establece la identificación del idioma utilizado para formatear el nombre en C#.
 type: docs
 weight: 30
 url: /es/net/aspose.words.fields/fieldgreetingline/languageid/
@@ -14,7 +16,7 @@ Obtiene o establece la identificación del idioma utilizado para formatear el no
 public string LanguageId { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo insertar un campo GREETINGLINE.
 
@@ -74,7 +76,5 @@ Assert.AreEqual("Dear Mr. Doe,\r\r\tThis is your custom greeting, created progra
 ### Ver también
 
 * class [FieldGreetingLine](../)
-* espacio de nombres [Aspose.Words.Fields](../../fieldgreetingline/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

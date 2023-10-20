@@ -1,7 +1,9 @@
 ---
-title: Class ChmLoadOptions
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Loading.ChmLoadOptions 班级. 允许在将 CHM 文档加载到Document对象.
+title: ChmLoadOptions Class
+linktitle: ChmLoadOptions
+articleTitle: ChmLoadOptions
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Loading.ChmLoadOptions 班级. 允许在将 CHM 文档加载到Document对象 在 C#.
 type: docs
 weight: 3570
 url: /zh/net/aspose.words.loading/chmloadoptions/
@@ -48,12 +50,10 @@ public class ChmLoadOptions : LoadOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [Equals](../../aspose.words.loading/loadoptions/equals/)(object) |  |
+| override [Equals](../../aspose.words.loading/loadoptions/equals/)(*object*) |  |
 
 ### 也可以看看
 
 * class [LoadOptions](../loadoptions/)
 * 命名空间 [Aspose.Words.Loading](../../aspose.words.loading/)
 * 部件 [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.WordWrap
-second_title: Aspose.Words för .NET API Referens
-description: ParagraphFormat fast egendom. Om den här egenskapen ärfalsk  latinsk text i mitten av ett ord kan lindas för det aktuella stycket. Annars är latinsk text omsluten av hela ord.
+linktitle: WordWrap
+articleTitle: WordWrap
+second_title: Aspose.Words för .NET
+description: ParagraphFormat WordWrap fast egendom. Om den här egenskapen ärfalsk  latinsk text i mitten av ett ord kan lindas för det aktuella stycket. Annars är latinsk text omsluten av hela ord i C#.
 type: docs
 weight: 410
 url: /sv/net/aspose.words/paragraphformat/wordwrap/
@@ -14,7 +16,7 @@ Om den här egenskapen är`falsk` , latinsk text i mitten av ett ord kan lindas 
 public bool WordWrap { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du ställer in speciella egenskaper för asiatisk typografi.
 
@@ -32,7 +34,5 @@ doc.Save(ArtifactsDir + "ParagraphFormat.AsianTypographyProperties.docx");
 ### Se även
 
 * class [ParagraphFormat](../)
-* namnutrymme [Aspose.Words](../../paragraphformat/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

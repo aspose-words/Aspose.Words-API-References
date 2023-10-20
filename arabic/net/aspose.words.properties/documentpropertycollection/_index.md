@@ -1,7 +1,9 @@
 ---
-title: Class DocumentPropertyCollection
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Properties.DocumentPropertyCollection فصل. الفئة الأساسية لـBuiltInDocumentProperties وCustomDocumentProperties المجموعات.
+title: DocumentPropertyCollection Class
+linktitle: DocumentPropertyCollection
+articleTitle: DocumentPropertyCollection
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Properties.DocumentPropertyCollection فصل. الفئة الأساسية لـBuiltInDocumentProperties وCustomDocumentProperties المجموعات في C#.
 type: docs
 weight: 4480
 url: /ar/net/aspose.words.properties/documentpropertycollection/
@@ -29,19 +31,19 @@ public abstract class DocumentPropertyCollection : IEnumerable<DocumentProperty>
 | اسم | وصف |
 | --- | --- |
 | [Clear](../../aspose.words.properties/documentpropertycollection/clear/)() | إزالة كافة الخصائص من المجموعة. |
-| [Contains](../../aspose.words.properties/documentpropertycollection/contains/)(string) | إرجاع`حقيقي` في حالة وجود خاصية بالاسم المحدد في المجموعة. |
+| [Contains](../../aspose.words.properties/documentpropertycollection/contains/)(*string*) | إرجاع`حقيقي` في حالة وجود خاصية بالاسم المحدد في المجموعة. |
 | [GetEnumerator](../../aspose.words.properties/documentpropertycollection/getenumerator/)() | إرجاع كائن العداد الذي يمكن استخدامه للتكرار على كافة العناصر الموجودة في المجموعة. |
-| [IndexOf](../../aspose.words.properties/documentpropertycollection/indexof/)(string) | الحصول على فهرس الخاصية بالاسم. |
-| [Remove](../../aspose.words.properties/documentpropertycollection/remove/)(string) | إزالة خاصية بالاسم المحدد من المجموعة. |
-| [RemoveAt](../../aspose.words.properties/documentpropertycollection/removeat/)(int) | إزالة خاصية في الفهرس المحدد. |
+| [IndexOf](../../aspose.words.properties/documentpropertycollection/indexof/)(*string*) | الحصول على فهرس الخاصية بالاسم. |
+| [Remove](../../aspose.words.properties/documentpropertycollection/remove/)(*string*) | إزالة خاصية بالاسم المحدد من المجموعة. |
+| [RemoveAt](../../aspose.words.properties/documentpropertycollection/removeat/)(*int*) | إزالة خاصية في الفهرس المحدد. |
 
-### ملاحظات
+## ملاحظات
 
 أسماء الخصائص غير حساسة لحالة الأحرف.
 
 يتم فرز الخصائص الموجودة في المجموعة أبجديًا حسب الاسم.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التعامل مع الخصائص المخصصة للمستند.
 
@@ -105,5 +107,3 @@ Assert.AreEqual(0, properties.Count);
 * class [DocumentProperty](../documentproperty/)
 * مساحة الاسم [Aspose.Words.Properties](../../aspose.words.properties/)
 * المجسم [Aspose.Words](../../)
-
-

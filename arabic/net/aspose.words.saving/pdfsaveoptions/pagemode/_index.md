@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.PageMode
-second_title: Aspose.Words لمراجع .NET API
-description: PdfSaveOptions ملكية. يحدد كيفية عرض مستند PDF عند فتحه في قارئ PDF.
+linktitle: PageMode
+articleTitle: PageMode
+second_title: Aspose.Words لـ .NET
+description: PdfSaveOptions PageMode ملكية. يحدد كيفية عرض مستند PDF عند فتحه في قارئ PDF في C#.
 type: docs
 weight: 250
 url: /ar/net/aspose.words.saving/pdfsaveoptions/pagemode/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.saving/pdfsaveoptions/pagemode/
 public PdfPageMode PageMode { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 القيمة الافتراضية هيUseOutlines .
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين الإرشادات التي يجب على بعض برامج قراءة PDF اتباعها عند فتح مستند الإخراج.
 
@@ -77,7 +79,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.HeaderFooterBookmarksExportMode.pdf", sa
 
 * enum [PdfPageMode](../../pdfpagemode/)
 * class [PdfSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../pdfsaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

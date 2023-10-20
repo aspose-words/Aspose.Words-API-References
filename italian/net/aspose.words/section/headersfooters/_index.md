@@ -1,7 +1,9 @@
 ---
 title: Section.HeadersFooters
-second_title: Aspose.Words per .NET API Reference
-description: Section proprietà. Fornisce laccesso ai nodi intestazioni e piè di pagina della sezione.
+linktitle: HeadersFooters
+articleTitle: HeadersFooters
+second_title: Aspose.Words per .NET
+description: Section HeadersFooters proprietà. Fornisce laccesso ai nodi intestazioni e piè di pagina della sezione in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words/section/headersfooters/
@@ -14,7 +16,7 @@ Fornisce l'accesso ai nodi intestazioni e piè di pagina della sezione.
 public HeaderFooterCollection HeadersFooters { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come sostituire il testo nel piè di pagina di un documento.
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "HeaderFooter.RemoveFooters.docx");
 
 * class [HeaderFooterCollection](../../headerfootercollection/)
 * class [Section](../)
-* spazio dei nomi [Aspose.Words](../../section/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

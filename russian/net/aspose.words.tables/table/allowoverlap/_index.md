@@ -1,7 +1,9 @@
 ---
 title: Table.AllowOverlap
-second_title: Справочник по API Aspose.Words для .NET
-description: Table свойство. Определяет должна ли плавающая таблица позволять другим плавающим объектам в документе перекрывать ее экстенты при отображении. Значение по умолчаниюистинный .
+linktitle: AllowOverlap
+articleTitle: AllowOverlap
+second_title: Aspose.Words для .NET
+description: Table AllowOverlap свойство. Определяет должна ли плавающая таблица позволять другим плавающим объектам в документе перекрывать ее экстенты при отображении. Значение по умолчаниюистинный  на С#.
 type: docs
 weight: 70
 url: /ru/net/aspose.words.tables/table/allowoverlap/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.tables/table/allowoverlap/
 public bool AllowOverlap { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как работать со свойствами плавающих таблиц.
 
@@ -42,7 +44,5 @@ if (table.TextWrapping == TextWrapping.Around)
 ### Смотрите также
 
 * class [Table](../)
-* пространство имен [Aspose.Words.Tables](../../table/)
+* пространство имен [Aspose.Words.Tables](../../../aspose.words.tables/)
 * сборка [Aspose.Words](../../../)
-
-

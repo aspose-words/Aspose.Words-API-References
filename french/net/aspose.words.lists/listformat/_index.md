@@ -1,7 +1,9 @@
 ---
-title: Class ListFormat
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Lists.ListFormat classe. Permet de contrôler quel formatage de liste est appliqué à un paragraphe.
+title: ListFormat Class
+linktitle: ListFormat
+articleTitle: ListFormat
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Lists.ListFormat classe. Permet de contrôler quel formatage de liste est appliqué à un paragraphe en C#.
 type: docs
 weight: 3480
 url: /fr/net/aspose.words.lists/listformat/
@@ -35,7 +37,7 @@ public class ListFormat
 | [ListOutdent](../../aspose.words.lists/listformat/listoutdent/)() | Diminue le niveau de liste du paragraphe actuel d'un niveau. |
 | [RemoveNumbers](../../aspose.words.lists/listformat/removenumbers/)() | Supprime les chiffres ou les puces du paragraphe actuel et définit le niveau de liste sur zéro. |
 
-### Remarques
+## Remarques
 
 Un paragraphe dans un document Microsoft Word peut être à puces ou numéroté. Lorsqu'un paragraphe est à puces ou numéroté, on dit que le formatage de liste est appliqué au paragraphe.
 
@@ -51,7 +53,7 @@ Le formatage de la liste lui-même est stocké dans un[`List`](../list/) Objet q
 
 Les paragraphes n'appartiennent pas physiquement à une liste. Les paragraphes just font référence à un objet de liste particulier via le[`List`](./list/) property et un niveau particulier dans la liste via le[`ListLevelNumber`](./listlevelnumber/) property. En définissant ces deux propriétés, vous contrôlez quelles puces et quelle numérotation sont appliquées à un paragraphe.
 
-### Exemples
+## Exemples
 
 Montre comment utiliser les niveaux de liste.
 
@@ -105,5 +107,3 @@ doc.Save(ArtifactsDir + "Lists.SpecifyListLevel.docx");
 
 * espace de noms [Aspose.Words.Lists](../../aspose.words.lists/)
 * Assemblée [Aspose.Words](../../)
-
-

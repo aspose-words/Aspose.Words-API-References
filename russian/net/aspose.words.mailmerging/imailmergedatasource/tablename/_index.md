@@ -1,7 +1,9 @@
 ---
 title: IMailMergeDataSource.TableName
-second_title: Справочник по API Aspose.Words для .NET
-description: IMailMergeDataSource свойство. Возвращает имя источника данных.
+linktitle: TableName
+articleTitle: TableName
+second_title: Aspose.Words для .NET
+description: IMailMergeDataSource TableName свойство. Возвращает имя источника данных на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.mailmerging/imailmergedatasource/tablename/
@@ -18,13 +20,13 @@ public string TableName { get; }
 
 Имя источника данных. Пустая строка, если источник данных не имеет имени.
 
-### Примечания
+## Примечания
 
 Если вы реализуете[`IMailMergeDataSource`](../), верните имя источника data из этого свойства.
 
 Aspose.Words использует это имя для сопоставления с именем региона слияния почты, указанным в документе шаблона. При сравнении имени источника данных и имени региона слияния почты регистр не учитывается.
 
-### Примеры
+## Примеры
 
 Показывает, как выполнить слияние почты с источником данных в форме пользовательского объекта.
 
@@ -138,7 +140,5 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
 ### Смотрите также
 
 * interface [IMailMergeDataSource](../)
-* пространство имен [Aspose.Words.MailMerging](../../imailmergedatasource/)
+* пространство имен [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * сборка [Aspose.Words](../../../)
-
-

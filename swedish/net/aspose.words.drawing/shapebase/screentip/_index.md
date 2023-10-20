@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.ScreenTip
-second_title: Aspose.Words för .NET API Referens
-description: ShapeBase fast egendom. Definierar texten som visas när muspekaren rör sig över formen.
+linktitle: ScreenTip
+articleTitle: ScreenTip
+second_title: Aspose.Words för .NET
+description: ShapeBase ScreenTip fast egendom. Definierar texten som visas när muspekaren rör sig över formen i C#.
 type: docs
 weight: 480
 url: /sv/net/aspose.words.drawing/shapebase/screentip/
@@ -14,11 +16,11 @@ Definierar texten som visas när muspekaren rör sig över formen.
 public string ScreenTip { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Standardvärdet är en tom sträng.
 
-### Exempel
+## Exempel
 
 Visar hur man infogar en form som innehåller en bild och är också en hyperlänk.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "Image.InsertImageWithHyperlink.docx");
 ### Se även
 
 * class [ShapeBase](../)
-* namnutrymme [Aspose.Words.Drawing](../../shapebase/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

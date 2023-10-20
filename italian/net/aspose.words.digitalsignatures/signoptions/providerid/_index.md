@@ -1,20 +1,22 @@
 ---
 title: SignOptions.ProviderId
-second_title: Aspose.Words per .NET API Reference
-description: SignOptions proprietà. Specifica lID classe del provider della firma. Il valore predefinito è Guida vuota tutti zeri. .
+linktitle: ProviderId
+articleTitle: ProviderId
+second_title: Aspose.Words per .NET
+description: SignOptions ProviderId proprietà. Specifica lID classe del provider della firma. Il valore predefinito èGuida vuota tutti zeri.  in C#.
 type: docs
 weight: 40
 url: /it/net/aspose.words.digitalsignatures/signoptions/providerid/
 ---
 ## SignOptions.ProviderId property
 
-Specifica l'ID classe del provider della firma. Il valore predefinito è **Guida vuota (tutti zeri).** .
+Specifica l'ID classe del provider della firma. Il valore predefinito è**Guida vuota (tutti zeri).** .
 
 ```csharp
 public Guid ProviderId { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Il fornitore di servizi di crittografia (CSP) è un modulo software indipendente che esegue effettivamente algoritmi di crittografia x000d per l'autenticazione, la codifica e la crittografia. MS Office riserva il valore di {00000000-0000-0000-0000-000000000000} per il suo fornitore di firma predefinito.
 
@@ -22,7 +24,7 @@ Il GUID del provider installato in aggiunta deve essere ottenuto dalla documenta
 
 Inoltre, tutti i provider di crittografia installati sono enumerati nel registro di Windows. Può essere trovato nel seguente percorso: HKLM\SOFTWARE\Microsoft\Cryptography\Defaults\Provider. Esiste un nome chiave "CP Service UUID" che corrisponde a un GUID del provider della firma.
 
-### Esempi
+## Esempi
 
 Mostra come firmare un documento con un certificato personale e una riga per la firma.
 
@@ -75,7 +77,5 @@ Assert.True(signatureLine.IsValid);
 ### Guarda anche
 
 * class [SignOptions](../)
-* spazio dei nomi [Aspose.Words.DigitalSignatures](../../signoptions/)
+* spazio dei nomi [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * assemblea [Aspose.Words](../../../)
-
-

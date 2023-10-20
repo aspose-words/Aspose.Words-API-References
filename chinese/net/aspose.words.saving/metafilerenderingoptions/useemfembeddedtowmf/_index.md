@@ -1,7 +1,9 @@
 ---
 title: MetafileRenderingOptions.UseEmfEmbeddedToWmf
-second_title: Aspose.Words for .NET API 参考
-description: MetafileRenderingOptions 财产. 获取或设置一个值确定如何呈现嵌入 EMF 图元文件的 WMF 图元文件
+linktitle: UseEmfEmbeddedToWmf
+articleTitle: UseEmfEmbeddedToWmf
+second_title: 用于 .NET 的 Aspose.Words
+description: MetafileRenderingOptions UseEmfEmbeddedToWmf 财产. 获取或设置一个值确定如何呈现嵌入 EMF 图元文件的 WMF 图元文件 在 C#.
 type: docs
 weight: 70
 url: /zh/net/aspose.words.saving/metafilerenderingoptions/useemfembeddedtowmf/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.saving/metafilerenderingoptions/useemfembeddedtowmf/
 public bool UseEmfEmbeddedToWmf { get; set; }
 ```
 
-### 评论
+## 评论
 
 WMF 图元文件可以包含嵌入的 EMF 数据。大多数情况下，MS Word 使用嵌入的 EMF 数据。 GDI+ 始终使用 WMF 数据。
 
@@ -26,7 +28,7 @@ WMF 图元文件可以包含嵌入的 EMF 数据。大多数情况下，MS Word 
 
 默认值为`真的`。
 
-### 例子
+## 例子
 
 演示如何在保存为 PDF 时配置增强型 Windows 图元文件相关的渲染选项。
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.RenderMetafile.pdf", saveOptions);
 ### 也可以看看
 
 * class [MetafileRenderingOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../metafilerenderingoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

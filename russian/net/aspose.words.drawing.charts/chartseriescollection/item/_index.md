@@ -1,7 +1,9 @@
 ---
 title: ChartSeriesCollection.Item
-second_title: Справочник по API Aspose.Words для .NET
-description: ChartSeriesCollection свойство. ВозвращаетChartSeries по указанному индексу.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words для .NET
+description: ChartSeriesCollection Item свойство. ВозвращаетChartSeries по указанному индексу на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.drawing.charts/chartseriescollection/item/
@@ -18,7 +20,7 @@ public ChartSeries this[int index] { get; }
 | --- | --- |
 | index | Индекс в коллекции. |
 
-### Примечания
+## Примечания
 
 Индекс отсчитывается от нуля.
 
@@ -28,7 +30,7 @@ public ChartSeries this[int index] { get; }
 
 Если индекс отрицателен и его абсолютное значение превышает количество элементов в списке, возвращается нулевая ссылка.
 
-### Примеры
+## Примеры
 
 Показывает, как добавлять и удалять данные рядов на диаграмме.
 
@@ -76,7 +78,5 @@ chartData.Clear();
 
 * class [ChartSeries](../../chartseries/)
 * class [ChartSeriesCollection](../)
-* пространство имен [Aspose.Words.Drawing.Charts](../../chartseriescollection/)
+* пространство имен [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../../)
-
-

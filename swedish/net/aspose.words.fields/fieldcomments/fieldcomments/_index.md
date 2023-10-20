@@ -1,7 +1,9 @@
 ---
-title: FieldComments.FieldComments
-second_title: Aspose.Words för .NET API Referens
-description: FieldComments byggare. Default_Constructor
+title: FieldComments
+linktitle: FieldComments
+articleTitle: FieldComments
+second_title: Aspose.Words för .NET
+description: FieldComments byggare. Default_Constructor i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.fields/fieldcomments/fieldcomments/
@@ -17,7 +19,5 @@ public FieldComments()
 ### Se även
 
 * class [FieldComments](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldcomments/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

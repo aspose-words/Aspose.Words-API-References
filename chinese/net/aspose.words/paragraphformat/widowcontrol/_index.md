@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.WidowControl
-second_title: Aspose.Words for .NET API 参考
-description: ParagraphFormat 财产. 如果段落中的第一行和最后一行与段落的其余部分保留在同一页上则为 True
+linktitle: WidowControl
+articleTitle: WidowControl
+second_title: 用于 .NET 的 Aspose.Words
+description: ParagraphFormat WidowControl 财产. 如果段落中的第一行和最后一行与段落的其余部分保留在同一页上则为 True 在 C#.
 type: docs
 weight: 400
 url: /zh/net/aspose.words/paragraphformat/widowcontrol/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/paragraphformat/widowcontrol/
 public bool WidowControl { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何启用段落的寡妇/孤儿控制。
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "ParagraphFormat.WidowControl.docx");
 ### 也可以看看
 
 * class [ParagraphFormat](../)
-* 命名空间 [Aspose.Words](../../paragraphformat/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

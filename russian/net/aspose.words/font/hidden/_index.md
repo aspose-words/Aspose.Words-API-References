@@ -1,7 +1,9 @@
 ---
 title: Font.Hidden
-second_title: Справочник по API Aspose.Words для .NET
-description: Font свойство. True если шрифт отформатирован как скрытый текст.
+linktitle: Hidden
+articleTitle: Hidden
+second_title: Aspose.Words для .NET
+description: Font Hidden свойство. True если шрифт отформатирован как скрытый текст на С#.
 type: docs
 weight: 140
 url: /ru/net/aspose.words/font/hidden/
@@ -14,7 +16,7 @@ True, если шрифт отформатирован как скрытый т�
 public bool Hidden { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как создать ряд скрытого текста.
 
@@ -229,7 +231,5 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
 ### Смотрите также
 
 * class [Font](../)
-* пространство имен [Aspose.Words](../../font/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

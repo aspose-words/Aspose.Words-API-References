@@ -1,7 +1,9 @@
 ---
 title: Aspose.Words.Notes
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Notesпространство имен предоставляет классы для работы с концевыми и сносками Microsoft Word.
+linktitle: Aspose.Words.Notes
+articleTitle: Aspose.Words.Notes
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Notesпространство имен предоставляет классы для работы с концевыми и сносками Microsoft Word на С#.
 type: docs
 weight: 180
 url: /ru/net/aspose.words.notes/
@@ -23,5 +25,3 @@ url: /ru/net/aspose.words.notes/
 | [FootnoteNumberingRule](./footnotenumberingrule/) | Определяет, когда перезапускается автоматическая нумерация сносок или концевых сносок. |
 | [FootnotePosition](./footnoteposition/) | Определяет положение сноски. |
 | [FootnoteType](./footnotetype/) | Указывает, является ли это сноской или концевой сноской. |
-
-

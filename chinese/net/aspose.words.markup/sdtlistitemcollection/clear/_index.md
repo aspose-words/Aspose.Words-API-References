@@ -1,7 +1,9 @@
 ---
 title: SdtListItemCollection.Clear
-second_title: Aspose.Words for .NET API 参考
-description: SdtListItemCollection 方法. 清除此集合中的所有项目
+linktitle: Clear
+articleTitle: Clear
+second_title: 用于 .NET 的 Aspose.Words
+description: SdtListItemCollection Clear 方法. 清除此集合中的所有项目 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words.markup/sdtlistitemcollection/clear/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.markup/sdtlistitemcollection/clear/
 public void Clear()
 ```
 
-### 例子
+## 例子
 
 展示如何使用下拉列表结构化文档标签。
 
@@ -71,7 +73,5 @@ Assert.AreEqual(0, listItems.Count);
 ### 也可以看看
 
 * class [SdtListItemCollection](../)
-* 命名空间 [Aspose.Words.Markup](../../sdtlistitemcollection/)
+* 命名空间 [Aspose.Words.Markup](../../../aspose.words.markup/)
 * 部件 [Aspose.Words](../../../)
-
-

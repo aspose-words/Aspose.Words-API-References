@@ -1,7 +1,9 @@
 ---
 title: TxtSaveOptions.PreserveTableLayout
-second_title: Aspose.Words for .NET API 参考
-description: TxtSaveOptions 财产. 指定程序在以纯文本格式保存时是否应尝试保留表的布局 默认值为错误的.
+linktitle: PreserveTableLayout
+articleTitle: PreserveTableLayout
+second_title: 用于 .NET 的 Aspose.Words
+description: TxtSaveOptions PreserveTableLayout 财产. 指定程序在以纯文本格式保存时是否应尝试保留表的布局 默认值为错误的 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words.saving/txtsaveoptions/preservetablelayout/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.saving/txtsaveoptions/preservetablelayout/
 public bool PreserveTableLayout { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何在转换为纯文本时保留表的布局。
 
@@ -61,7 +63,5 @@ else
 ### 也可以看看
 
 * class [TxtSaveOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../txtsaveoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

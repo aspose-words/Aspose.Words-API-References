@@ -1,7 +1,9 @@
 ---
 title: SdtListItemCollection.SelectedValue
-second_title: Aspose.Words for .NET API 参考
-description: SdtListItemCollection 财产. 指定此列表中当前选定的值 允许空值这意味着当前选定的条目没有与此列表项集合关联
+linktitle: SelectedValue
+articleTitle: SelectedValue
+second_title: 用于 .NET 的 Aspose.Words
+description: SdtListItemCollection SelectedValue 财产. 指定此列表中当前选定的值 允许空值这意味着当前选定的条目没有与此列表项集合关联 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.markup/sdtlistitemcollection/selectedvalue/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.markup/sdtlistitemcollection/selectedvalue/
 public SdtListItem SelectedValue { get; set; }
 ```
 
-### 例子
+## 例子
 
 展示如何使用下拉列表结构化文档标签。
 
@@ -72,7 +74,5 @@ Assert.AreEqual(0, listItems.Count);
 
 * class [SdtListItem](../../sdtlistitem/)
 * class [SdtListItemCollection](../)
-* 命名空间 [Aspose.Words.Markup](../../sdtlistitemcollection/)
+* 命名空间 [Aspose.Words.Markup](../../../aspose.words.markup/)
 * 部件 [Aspose.Words](../../../)
-
-

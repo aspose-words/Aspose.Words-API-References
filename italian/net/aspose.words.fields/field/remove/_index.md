@@ -1,7 +1,9 @@
 ---
 title: Field.Remove
-second_title: Aspose.Words per .NET API Reference
-description: Field metodo. Rimuove il campo dal documento. Restituisce un nodo subito dopo il campo. Se la fine del campo è lultimo figlio del suo nodo genitore restituisce il paragrafo genitore. Se il campo è già stato rimosso restituiscenullo .
+linktitle: Remove
+articleTitle: Remove
+second_title: Aspose.Words per .NET
+description: Field Remove metodo. Rimuove il campo dal documento. Restituisce un nodo subito dopo il campo. Se la fine del campo è lultimo figlio del suo nodo genitore restituisce il paragrafo genitore. Se il campo è già stato rimosso restituiscenullo  in C#.
 type: docs
 weight: 120
 url: /it/net/aspose.words.fields/field/remove/
@@ -14,7 +16,7 @@ Rimuove il campo dal documento. Restituisce un nodo subito dopo il campo. Se la 
 public Node Remove()
 ```
 
-### Esempi
+## Esempi
 
 Mostra come rimuovere i campi da una raccolta di campi.
 
@@ -123,7 +125,5 @@ public class FieldPrivateRemover : DocumentVisitor
 
 * class [Node](../../../aspose.words/node/)
 * class [Field](../)
-* spazio dei nomi [Aspose.Words.Fields](../../field/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

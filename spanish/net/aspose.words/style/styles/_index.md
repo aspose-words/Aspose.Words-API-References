@@ -1,9 +1,11 @@
 ---
 title: Style.Styles
-second_title: Referencia de API de Aspose.Words para .NET
-description: Style propiedad. Obtiene la colección de estilos a la que pertenece este estilo.
+linktitle: Styles
+articleTitle: Styles
+second_title: Aspose.Words para .NET
+description: Style Styles propiedad. Obtiene la colección de estilos a la que pertenece este estilo en C#.
 type: docs
-weight: 170
+weight: 160
 url: /es/net/aspose.words/style/styles/
 ---
 ## Style.Styles property
@@ -14,7 +16,7 @@ Obtiene la colección de estilos a la que pertenece este estilo.
 public StyleCollection Styles { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo acceder a la colección de estilos de un documento.
 
@@ -43,7 +45,5 @@ using (IEnumerator<Style> stylesEnum = doc.Styles.GetEnumerator())
 
 * class [StyleCollection](../../stylecollection/)
 * class [Style](../)
-* espacio de nombres [Aspose.Words](../../style/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

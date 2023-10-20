@@ -1,7 +1,9 @@
 ---
 title: FieldHyperlink.Target
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldHyperlink eigendom. Ruft das Ziel ab zu dem der Link umgeleitet werden soll oder legt dieses fest.
+linktitle: Target
+articleTitle: Target
+second_title: Aspose.Words für .NET
+description: FieldHyperlink Target eigendom. Ruft das Ziel ab zu dem der Link umgeleitet werden soll oder legt dieses fest in C#.
 type: docs
 weight: 70
 url: /de/net/aspose.words.fields/fieldhyperlink/target/
@@ -14,7 +16,7 @@ Ruft das Ziel ab, zu dem der Link umgeleitet werden soll, oder legt dieses fest.
 public string Target { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie HYPERLINK-Felder zum Verknüpfen mit Dokumenten im lokalen Dateisystem verwendet werden.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "Field.HYPERLINK.docx");
 ### Siehe auch
 
 * class [FieldHyperlink](../)
-* namensraum [Aspose.Words.Fields](../../fieldhyperlink/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

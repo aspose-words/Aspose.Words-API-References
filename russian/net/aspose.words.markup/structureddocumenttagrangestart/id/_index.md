@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTagRangeStart.Id
-second_title: Справочник по API Aspose.Words для .NET
-description: StructuredDocumentTagRangeStart свойство. Указывает уникальный постоянный числовой идентификатор доступный только для чтения для этого тега структурированного документа.
+linktitle: Id
+articleTitle: Id
+second_title: Aspose.Words для .NET
+description: StructuredDocumentTagRangeStart Id свойство. Указывает уникальный постоянный числовой идентификатор доступный только для чтения для этого тега структурированного документа на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.markup/structureddocumenttagrangestart/id/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.markup/structureddocumenttagrangestart/id/
 public int Id { get; }
 ```
 
-### Примечания
+## Примечания
 
 Атрибут Id должен соответствовать следующим правилам:
 
@@ -24,7 +26,7 @@ public int Id { get; }
 * Во время тега автономного структурированного документаINodeCloningListener)для узла тега клонированного структурированного документа будет сгенерирован новый уникальный идентификатор .
 * Если идентификатор не указан в исходном документе, то узлу тега структурированного документа должен быть присвоен новый уникальный идентификатор при загрузке документа.
 
-### Примеры
+## Примеры
 
 Показывает, как получить свойства тегов многосекционного структурированного документа.
 
@@ -59,7 +61,5 @@ Console.WriteLine($"\t|NodeType: {rangeEndTag.NodeType}");
 ### Смотрите также
 
 * class [StructuredDocumentTagRangeStart](../)
-* пространство имен [Aspose.Words.Markup](../../structureddocumenttagrangestart/)
+* пространство имен [Aspose.Words.Markup](../../../aspose.words.markup/)
 * сборка [Aspose.Words](../../../)
-
-

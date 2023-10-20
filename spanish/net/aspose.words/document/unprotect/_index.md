@@ -1,9 +1,11 @@
 ---
 title: Document.Unprotect
-second_title: Referencia de API de Aspose.Words para .NET
-description: Document método. Elimina la protección del documento independientemente de la contraseña.
+linktitle: Unprotect
+articleTitle: Unprotect
+second_title: Aspose.Words para .NET
+description: Document Unprotect método. Elimina la protección del documento independientemente de la contraseña en C#.
 type: docs
-weight: 760
+weight: 740
 url: /es/net/aspose.words/document/unprotect/
 ---
 ## Unprotect() {#unprotect_1}
@@ -14,13 +16,13 @@ Elimina la protección del documento independientemente de la contraseña.
 public void Unprotect()
 ```
 
-### Observaciones
+## Observaciones
 
 Este método desprotege el documento incluso si tiene una contraseña de protección.
 
 Tenga en cuenta que la protección de documentos es diferente de la protección contra escritura. La protección contra escritura se especifica mediante el[`WriteProtection`](../writeprotection/).
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo proteger y desproteger un documento.
 
@@ -65,12 +67,12 @@ Assert.AreEqual(ProtectionType.NoProtection, doc.ProtectionType);
 ### Ver también
 
 * class [Document](../)
-* espacio de nombres [Aspose.Words](../../document/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
 
 ---
 
-## Unprotect(string) {#unprotect}
+## Unprotect(*string*) {#unprotect}
 
 Elimina la protección del documento si se especifica una contraseña correcta.
 
@@ -86,13 +88,13 @@ public bool Unprotect(string password)
 
 `verdadero` si se especificó una contraseña correcta y el documento estaba desprotegido.
 
-### Observaciones
+## Observaciones
 
 Este método desprotege el documento sólo si se especifica una contraseña correcta.
 
 Tenga en cuenta que la protección de documentos es diferente de la protección contra escritura. La protección contra escritura se especifica mediante el[`WriteProtection`](../writeprotection/).
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo proteger y desproteger un documento.
 
@@ -137,7 +139,5 @@ Assert.AreEqual(ProtectionType.NoProtection, doc.ProtectionType);
 ### Ver también
 
 * class [Document](../)
-* espacio de nombres [Aspose.Words](../../document/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum MarkupLevel
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Markup.MarkupLevel enumeración. Especifica el nivel en el árbol del documento donde seStructuredDocumentTag puede ocurrir.
+title: MarkupLevel Enum
+linktitle: MarkupLevel
+articleTitle: MarkupLevel
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Markup.MarkupLevel enumeración. Especifica el nivel en el árbol del documento donde seStructuredDocumentTag puede ocurrir en C#.
 type: docs
 weight: 3980
 url: /es/net/aspose.words.markup/markuplevel/
@@ -24,7 +26,7 @@ public enum MarkupLevel
 | Row | `3` | El elemento aparece entre filas de una tabla. |
 | Cell | `4` | El elemento aparece entre celdas de una fila. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo trabajar con estilos para elementos de control de contenido.
 
@@ -64,5 +66,3 @@ foreach (Node node in tags)
 
 * espacio de nombres [Aspose.Words.Markup](../../aspose.words.markup/)
 * asamblea [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.GetDirectShapeAttr
-second_title: Справочник по API Aspose.Words для .NET
-description: ShapeBase метод. Зарезервировано для использования системой. IShapeAttrSource.
+linktitle: GetDirectShapeAttr
+articleTitle: GetDirectShapeAttr
+second_title: Aspose.Words для .NET
+description: ShapeBase GetDirectShapeAttr метод. Зарезервировано для использования системой. IShapeAttrSource на С#.
 type: docs
 weight: 650
 url: /ru/net/aspose.words.drawing/shapebase/getdirectshapeattr/
@@ -18,7 +20,5 @@ public object GetDirectShapeAttr(int key)
 ### Смотрите также
 
 * class [ShapeBase](../)
-* пространство имен [Aspose.Words.Drawing](../../shapebase/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

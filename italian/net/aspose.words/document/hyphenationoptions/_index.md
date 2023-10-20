@@ -1,7 +1,9 @@
 ---
 title: Document.HyphenationOptions
-second_title: Aspose.Words per .NET API Reference
-description: Document proprietà. Fornisce laccesso alle opzioni di sillabazione del documento.
+linktitle: HyphenationOptions
+articleTitle: HyphenationOptions
+second_title: Aspose.Words per .NET
+description: Document HyphenationOptions proprietà. Fornisce laccesso alle opzioni di sillabazione del documento in C#.
 type: docs
 weight: 210
 url: /it/net/aspose.words/document/hyphenationoptions/
@@ -14,7 +16,7 @@ Fornisce l'accesso alle opzioni di sillabazione del documento.
 public HyphenationOptions HyphenationOptions { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come configurare la sillabazione automatica.
 
@@ -38,7 +40,5 @@ doc.Save(ArtifactsDir + "Document.HyphenationOptions.docx");
 
 * class [HyphenationOptions](../../../aspose.words.settings/hyphenationoptions/)
 * class [Document](../)
-* spazio dei nomi [Aspose.Words](../../document/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

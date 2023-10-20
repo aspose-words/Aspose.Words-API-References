@@ -1,7 +1,9 @@
 ---
 title: Section.PageSetup
-second_title: Aspose.Words لمراجع .NET API
-description: Section ملكية. إرجاع كائن يمثل إعداد الصفحة وخصائص القسم.
+linktitle: PageSetup
+articleTitle: PageSetup
+second_title: Aspose.Words لـ .NET
+description: Section PageSetup ملكية. إرجاع كائن يمثل إعداد الصفحة وخصائص القسم في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words/section/pagesetup/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/section/pagesetup/
 public PageSetup PageSetup { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء حد شريطي أزرق عريض في أعلى الصفحة الأولى.
 
@@ -84,7 +86,5 @@ doc.Save(ArtifactsDir + "Section.CreateManually.docx");
 
 * class [PageSetup](../../pagesetup/)
 * class [Section](../)
-* مساحة الاسم [Aspose.Words](../../section/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

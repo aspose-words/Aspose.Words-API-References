@@ -1,7 +1,9 @@
 ---
 title: NodeCollection.Item
-second_title: Aspose.Words لمراجع .NET API
-description: NodeCollection ملكية. يسترد عقدة في الفهرس المحدد.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words لـ .NET
+description: NodeCollection Item ملكية. يسترد عقدة في الفهرس المحدد في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words/nodecollection/item/
@@ -18,7 +20,7 @@ public Node this[int index] { get; }
 | --- | --- |
 | index | فهرس في مجموعة العقد. |
 
-### ملاحظات
+## ملاحظات
 
 المؤشر قائم على الصفر.
 
@@ -28,7 +30,7 @@ public Node this[int index] { get; }
 
 إذا كان الفهرس سالبًا وقيمته المطلقة أكبر من عدد العناصر الموجودة في القائمة، فسيُرجع هذا مرجعًا فارغًا.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية اجتياز مجموعة العقد الفرعية للعقدة المركبة.
 
@@ -74,7 +76,5 @@ foreach (Node child in children)
 
 * class [Node](../../node/)
 * class [NodeCollection](../)
-* مساحة الاسم [Aspose.Words](../../nodecollection/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

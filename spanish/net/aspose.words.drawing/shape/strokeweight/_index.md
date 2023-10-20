@@ -1,7 +1,9 @@
 ---
 title: Shape.StrokeWeight
-second_title: Referencia de API de Aspose.Words para .NET
-description: Shape propiedad. Define el grosor del pincel que traza el trazado de una forma en puntos.
+linktitle: StrokeWeight
+articleTitle: StrokeWeight
+second_title: Aspose.Words para .NET
+description: Shape StrokeWeight propiedad. Define el grosor del pincel que traza el trazado de una forma en puntos en C#.
 type: docs
 weight: 210
 url: /es/net/aspose.words.drawing/shape/strokeweight/
@@ -14,13 +16,13 @@ Define el grosor del pincel que traza el trazado de una forma en puntos.
 public double StrokeWeight { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 Este es un atajo hacia el[`Weight`](../../stroke/weight/) propiedad.
 
 El valor predeterminado es 0,75.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo iterar sobre todas las formas de un documento.
 
@@ -143,7 +145,5 @@ private class ShapeAppearancePrinter : DocumentVisitor
 ### Ver también
 
 * class [Shape](../)
-* espacio de nombres [Aspose.Words.Drawing](../../shape/)
+* espacio de nombres [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * asamblea [Aspose.Words](../../../)
-
-

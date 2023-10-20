@@ -1,7 +1,9 @@
 ---
 title: PageSetup.HeadingLevelForChapter
-second_title: Aspose.Words لمراجع .NET API
-description: PageSetup ملكية. الحصول على أو تعيين نمط مستوى العنوان الذي يتم تطبيقه على عناوين الفصول في المستند.
+linktitle: HeadingLevelForChapter
+articleTitle: HeadingLevelForChapter
+second_title: Aspose.Words لـ .NET
+description: PageSetup HeadingLevelForChapter ملكية. الحصول على أو تعيين نمط مستوى العنوان الذي يتم تطبيقه على عناوين الفصول في المستند في C#.
 type: docs
 weight: 180
 url: /ar/net/aspose.words/pagesetup/headinglevelforchapter/
@@ -14,13 +16,13 @@ url: /ar/net/aspose.words/pagesetup/headinglevelforchapter/
 public int HeadingLevelForChapter { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 يمكن أن يكون رقمًا من 0 إلى 9. 0 يعني عدم وجود رقم الفصل إذا تم تطبيقه على رقم الصفحة.
 
 قبل أن تتمكن من إنشاء أرقام الصفحات التي تتضمن أرقام الفصول، يجب أن يكون لعناوين المستند تنسيق مخطط تفصيلي مرقّم مطبق.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع فصول الصفحة.
 
@@ -37,7 +39,5 @@ pageSetup.HeadingLevelForChapter = 1;
 ### أنظر أيضا
 
 * class [PageSetup](../)
-* مساحة الاسم [Aspose.Words](../../pagesetup/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

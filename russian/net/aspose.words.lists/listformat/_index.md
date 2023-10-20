@@ -1,7 +1,9 @@
 ---
-title: Class ListFormat
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Lists.ListFormat сорт. Позволяет контролировать какое форматирование списка применяется к абзацу.
+title: ListFormat Class
+linktitle: ListFormat
+articleTitle: ListFormat
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Lists.ListFormat сорт. Позволяет контролировать какое форматирование списка применяется к абзацу на С#.
 type: docs
 weight: 3480
 url: /ru/net/aspose.words.lists/listformat/
@@ -35,7 +37,7 @@ public class ListFormat
 | [ListOutdent](../../aspose.words.lists/listformat/listoutdent/)() | Уменьшает уровень списка текущего абзаца на один уровень. |
 | [RemoveNumbers](../../aspose.words.lists/listformat/removenumbers/)() | Удаляет номера или маркеры из текущего абзаца и устанавливает нулевой уровень списка. |
 
-### Примечания
+## Примечания
 
 Абзац в документе Microsoft Word может быть маркирован или пронумерован. Когда абзац маркирован или пронумерован, говорят, что к абзацу применяется форматирование списка .
 
@@ -51,7 +53,7 @@ public class ListFormat
 
 Абзацы физически не принадлежат списку. Абзацы just ссылаются на конкретный объект списка через[`List`](./list/) property и определенный уровень в списке через[`ListLevelNumber`](./listlevelnumber/) property. Установив эти два свойства, вы управляете тем, какие маркеры и нумерация is применяются к абзацу.
 
-### Примеры
+## Примеры
 
 Показывает, как работать с уровнями списка.
 
@@ -105,5 +107,3 @@ doc.Save(ArtifactsDir + "Lists.SpecifyListLevel.docx");
 
 * пространство имен [Aspose.Words.Lists](../../aspose.words.lists/)
 * сборка [Aspose.Words](../../)
-
-

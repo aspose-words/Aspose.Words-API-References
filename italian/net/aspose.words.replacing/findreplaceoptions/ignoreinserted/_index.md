@@ -1,7 +1,9 @@
 ---
 title: FindReplaceOptions.IgnoreInserted
-second_title: Aspose.Words per .NET API Reference
-description: FindReplaceOptions proprietà. Ottiene o imposta un valore booleano che indica di ignorare il testo allinterno delle revisioni di inserimento. Il valore predefinito èfalso .
+linktitle: IgnoreInserted
+articleTitle: IgnoreInserted
+second_title: Aspose.Words per .NET
+description: FindReplaceOptions IgnoreInserted proprietà. Ottiene o imposta un valore booleano che indica di ignorare il testo allinterno delle revisioni di inserimento. Il valore predefinito èfalso  in C#.
 type: docs
 weight: 100
 url: /it/net/aspose.words.replacing/findreplaceoptions/ignoreinserted/
@@ -14,7 +16,7 @@ Ottiene o imposta un valore booleano che indica di ignorare il testo all'interno
 public bool IgnoreInserted { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come includere o ignorare il testo all'interno delle revisioni di inserimento durante un'operazione di ricerca e sostituzione.
 
@@ -51,7 +53,5 @@ Assert.AreEqual(
 ### Guarda anche
 
 * class [FindReplaceOptions](../)
-* spazio dei nomi [Aspose.Words.Replacing](../../findreplaceoptions/)
+* spazio dei nomi [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,12 +1,14 @@
 ---
 title: Aspose.Words.BuildingBlocks
-second_title: Aspose.Words for .NET API 参考
-description: 这 Aspose.Words.BuildingBlocks命名空间提供允许访问 并使用文档中的自动图文集自动更正条目和构建块的类
+linktitle: Aspose.Words.BuildingBlocks
+articleTitle: Aspose.Words.BuildingBlocks
+second_title: 用于 .NET 的 Aspose.Words
+description: 这Aspose.Words.BuildingBlocks命名空间提供允许访问 并使用文档中的自动图文集自动更正条目和构建块的类 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.buildingblocks/
 ---
-这 **Aspose.Words.BuildingBlocks**命名空间提供允许访问 并使用文档中的自动图文集、自动更正条目和构建块的类。
+这**Aspose.Words.BuildingBlocks**命名空间提供允许访问 并使用文档中的自动图文集、自动更正条目和构建块的类。
 
 ## 课程
 
@@ -22,5 +24,3 @@ url: /zh/net/aspose.words.buildingblocks/
 | [BuildingBlockBehavior](./buildingblockbehavior/) | 指定将构建块 插入到主文档中时应用于其内容的行为。 |
 | [BuildingBlockGallery](./buildingblockgallery/) | 指定构建块分类到的预定义库。 |
 | [BuildingBlockType](./buildingblocktype/) | 指定构建块类型。该类型可能会影响 Microsoft Word 中构建块 的可见性和行为。 |
-
-

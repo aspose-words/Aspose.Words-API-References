@@ -1,7 +1,9 @@
 ---
 title: AxisScaling.Type
-second_title: Aspose.Words for .NET API 参考
-description: AxisScaling 财产. 获取或设置轴的缩放类型
+linktitle: Type
+articleTitle: Type
+second_title: 用于 .NET 的 Aspose.Words
+description: AxisScaling Type 财产. 获取或设置轴的缩放类型 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words.drawing.charts/axisscaling/type/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.drawing.charts/axisscaling/type/
 public AxisScaleType Type { get; set; }
 ```
 
-### 评论
+## 评论
 
 的Linear该值是 MS Office 2016 新图表中允许的唯一值。
 
-### 例子
+## 例子
 
 展示如何将对数缩放应用于图表轴。
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "Charts.AxisScaling.docx");
 
 * enum [AxisScaleType](../../axisscaletype/)
 * class [AxisScaling](../)
-* 命名空间 [Aspose.Words.Drawing.Charts](../../axisscaling/)
+* 命名空间 [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * 部件 [Aspose.Words](../../../)
-
-

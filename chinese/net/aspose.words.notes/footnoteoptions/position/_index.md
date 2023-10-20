@@ -1,7 +1,9 @@
 ---
 title: FootnoteOptions.Position
-second_title: Aspose.Words for .NET API 参考
-description: FootnoteOptions 财产. 指定脚注位置
+linktitle: Position
+articleTitle: Position
+second_title: 用于 .NET 的 Aspose.Words
+description: FootnoteOptions Position 财产. 指定脚注位置 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.notes/footnoteoptions/position/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.notes/footnoteoptions/position/
 public FootnotePosition Position { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何选择文档收集和显示脚注的不同位置。
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "InlineStory.PositionFootnote.docx");
 
 * enum [FootnotePosition](../../footnoteposition/)
 * class [FootnoteOptions](../)
-* 命名空间 [Aspose.Words.Notes](../../footnoteoptions/)
+* 命名空间 [Aspose.Words.Notes](../../../aspose.words.notes/)
 * 部件 [Aspose.Words](../../../)
-
-

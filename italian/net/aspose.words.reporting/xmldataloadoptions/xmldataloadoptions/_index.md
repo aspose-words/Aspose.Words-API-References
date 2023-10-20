@@ -1,7 +1,9 @@
 ---
-title: XmlDataLoadOptions.XmlDataLoadOptions
-second_title: Aspose.Words per .NET API Reference
-description: XmlDataLoadOptions costruttore. Inizializza una nuova istanza di questa classe con le opzioni predefinite.
+title: XmlDataLoadOptions
+linktitle: XmlDataLoadOptions
+articleTitle: XmlDataLoadOptions
+second_title: Aspose.Words per .NET
+description: XmlDataLoadOptions costruttore. Inizializza una nuova istanza di questa classe con le opzioni predefinite in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words.reporting/xmldataloadoptions/xmldataloadoptions/
@@ -17,7 +19,5 @@ public XmlDataLoadOptions()
 ### Guarda anche
 
 * class [XmlDataLoadOptions](../)
-* spazio dei nomi [Aspose.Words.Reporting](../../xmldataloadoptions/)
+* spazio dei nomi [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * assemblea [Aspose.Words](../../../)
-
-

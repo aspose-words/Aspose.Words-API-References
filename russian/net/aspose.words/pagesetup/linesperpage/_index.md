@@ -1,7 +1,9 @@
 ---
 title: PageSetup.LinesPerPage
-second_title: Справочник по API Aspose.Words для .NET
-description: PageSetup свойство. Получает или задает количество строк на странице в сетке документа.
+linktitle: LinesPerPage
+articleTitle: LinesPerPage
+second_title: Aspose.Words для .NET
+description: PageSetup LinesPerPage свойство. Получает или задает количество строк на странице в сетке документа на С#.
 type: docs
 weight: 240
 url: /ru/net/aspose.words/pagesetup/linesperpage/
@@ -14,13 +16,13 @@ url: /ru/net/aspose.words/pagesetup/linesperpage/
 public int LinesPerPage { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Минимальное значение свойства — 1. Максимальное значение зависит от высоты страницы и размера шрифта стиля Normal . Минимальный шаг строки составляет 136 процентов от размера шрифта. Например, максимальное количество строк на странице страницы Letter с полями в один дюйм составляет 39.
 
 По умолчанию свойство имеет значение, при котором шаг строки в 1,5 раза превышает размер шрифта стиля Обычный.
 
-### Примеры
+## Примеры
 
 Показывает, как указать ограничение на количество строк, которое может иметь каждая страница.
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "PageSetup.LinesPerPage.docx");
 ### Смотрите также
 
 * class [PageSetup](../)
-* пространство имен [Aspose.Words](../../pagesetup/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

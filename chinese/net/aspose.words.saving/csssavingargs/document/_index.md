@@ -1,7 +1,9 @@
 ---
 title: CssSavingArgs.Document
-second_title: Aspose.Words for .NET API 参考
-description: CssSavingArgs 财产. 获取当前正在保存的文档对象
+linktitle: Document
+articleTitle: Document
+second_title: 用于 .NET 的 Aspose.Words
+description: CssSavingArgs Document 财产. 获取当前正在保存的文档对象 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.saving/csssavingargs/document/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.saving/csssavingargs/document/
 public Document Document { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何使用 HTML 转换创建的 CSS 样式表。
 
@@ -76,7 +78,5 @@ private class CustomCssSavingCallback : ICssSavingCallback
 
 * class [Document](../../../aspose.words/document/)
 * class [CssSavingArgs](../)
-* 命名空间 [Aspose.Words.Saving](../../csssavingargs/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

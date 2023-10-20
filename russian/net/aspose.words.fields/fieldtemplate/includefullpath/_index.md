@@ -1,7 +1,9 @@
 ---
 title: FieldTemplate.IncludeFullPath
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldTemplate свойство. Получает или задает необходимость включения полного пути к файлу.
+linktitle: IncludeFullPath
+articleTitle: IncludeFullPath
+second_title: Aspose.Words для .NET
+description: FieldTemplate IncludeFullPath свойство. Получает или задает необходимость включения полного пути к файлу на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.fields/fieldtemplate/includefullpath/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldtemplate/includefullpath/
 public bool IncludeFullPath { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как использовать поле ШАБЛОН для отображения местоположения шаблона документа в локальной файловой системе.
 
@@ -42,7 +44,5 @@ doc.Save(ArtifactsDir + "Field.TEMPLATE.docx");
 ### Смотрите также
 
 * class [FieldTemplate](../)
-* пространство имен [Aspose.Words.Fields](../../fieldtemplate/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

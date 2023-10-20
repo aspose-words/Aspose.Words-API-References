@@ -1,7 +1,9 @@
 ---
 title: ControlChar.CellChar
-second_title: Referencia de API de Aspose.Words para .NET
-description: ControlChar campo. Fin de una celda de la tabla o carácter de fin de una fila de la tabla char7 o a.
+linktitle: CellChar
+articleTitle: CellChar
+second_title: Aspose.Words para .NET
+description: ControlChar CellChar campo. Fin de una celda de la tabla o carácter de fin de una fila de la tabla char7 o a en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words/controlchar/cellchar/
@@ -14,7 +16,7 @@ Fin de una celda de la tabla o carácter de fin de una fila de la tabla: (char)7
 public const char CellChar;
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo agregar varios caracteres de control a un documento.
 
@@ -86,7 +88,5 @@ Assert.AreEqual(Convert.ToChar(ControlChar.ColumnBreak), ControlChar.ColumnBreak
 ### Ver también
 
 * class [ControlChar](../)
-* espacio de nombres [Aspose.Words](../../controlchar/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

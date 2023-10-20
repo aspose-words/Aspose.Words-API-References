@@ -1,7 +1,9 @@
 ---
-title: Enum ArrowLength
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Drawing.ArrowLength تعداد. طول السهم في نهاية السطر.
+title: ArrowLength Enum
+linktitle: ArrowLength
+articleTitle: ArrowLength
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Drawing.ArrowLength تعداد. طول السهم في نهاية السطر في C#.
 type: docs
 weight: 480
 url: /ar/net/aspose.words.drawing/arrowlength/
@@ -23,7 +25,7 @@ public enum ArrowLength
 | Long | `2` |  |
 | Default | `0` | نفسShort . |
 
-### أمثلة
+## أمثلة
 
 يظهر لإنشاء مجموعة متنوعة من الأشكال.
 
@@ -101,5 +103,3 @@ doc.Save(ArtifactsDir + "Drawing.VariousShapes.docx");
 * property [EndArrowLength](../stroke/endarrowlength/)
 * مساحة الاسم [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../)
-
-

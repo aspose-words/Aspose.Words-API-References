@@ -1,7 +1,9 @@
 ---
 title: ListLabel.LabelValue
-second_title: Aspose.Words لمراجع .NET API
-description: ListLabel ملكية. الحصول على قيمة رقمية لهذه التسمية.
+linktitle: LabelValue
+articleTitle: LabelValue
+second_title: Aspose.Words لـ .NET
+description: ListLabel LabelValue ملكية. الحصول على قيمة رقمية لهذه التسمية في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.lists/listlabel/labelvalue/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.lists/listlabel/labelvalue/
 public int LabelValue { get; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 استخدم[`UpdateListLabels`](../../../aspose.words/document/updatelistlabels/) طريقة لتحديث قيمة هذه الخاصية.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخراج تسميات القائمة لجميع الفقرات التي تمثل عناصر قائمة.
 
@@ -53,7 +55,5 @@ foreach (Paragraph paragraph in paras.OfType<Paragraph>().Where(p => p.ListForma
 ### أنظر أيضا
 
 * class [ListLabel](../)
-* مساحة الاسم [Aspose.Words.Lists](../../listlabel/)
+* مساحة الاسم [Aspose.Words.Lists](../../../aspose.words.lists/)
 * المجسم [Aspose.Words](../../../)
-
-

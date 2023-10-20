@@ -1,7 +1,9 @@
 ---
 title: GradientStop.Transparency
-second_title: Aspose.Words for .NET API 参考
-description: GradientStop 财产. 获取或设置一个表示渐变 fill 透明度的值以 0.0 到 1.0 范围内的百分比表示
+linktitle: Transparency
+articleTitle: Transparency
+second_title: 用于 .NET 的 Aspose.Words
+description: GradientStop Transparency 财产. 获取或设置一个表示渐变 fill 透明度的值以 0.0 到 1.0 范围内的百分比表示 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words.drawing/gradientstop/transparency/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.drawing/gradientstop/transparency/
 public double Transparency { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何向渐变填充添加渐变停止点。
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "Shape.GradientStops.docx", saveOptions);
 ### 也可以看看
 
 * class [GradientStop](../)
-* 命名空间 [Aspose.Words.Drawing](../../gradientstop/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

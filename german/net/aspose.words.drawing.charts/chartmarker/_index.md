@@ -1,7 +1,9 @@
 ---
-title: Class ChartMarker
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Drawing.Charts.ChartMarker klas. Stellt eine Diagrammdatenmarkierung dar.
+title: ChartMarker Class
+linktitle: ChartMarker
+articleTitle: ChartMarker
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Drawing.Charts.ChartMarker klas. Stellt eine Diagrammdatenmarkierung dar in C#.
 type: docs
 weight: 750
 url: /de/net/aspose.words.drawing.charts/chartmarker/
@@ -24,7 +26,7 @@ public class ChartMarker
 | [Size](../../aspose.words.drawing.charts/chartmarker/size/) { get; set; } | Ruft die Größe der Diagrammmarkierung ab oder legt sie fest. Der Standardwert ist 7. |
 | [Symbol](../../aspose.words.drawing.charts/chartmarker/symbol/) { get; set; } | Ruft das Diagrammmarkierungssymbol ab oder legt es fest. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit Datenpunkten in einem Liniendiagramm gearbeitet wird.
 
@@ -87,5 +89,3 @@ private static void ApplyDataPoints(ChartSeries series, int dataPointsCount, Mar
 
 * namensraum [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../)
-
-

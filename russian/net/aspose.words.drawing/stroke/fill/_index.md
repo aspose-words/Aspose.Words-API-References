@@ -1,9 +1,11 @@
 ---
 title: Stroke.Fill
-second_title: Справочник по API Aspose.Words для .NET
-description: Stroke свойство. Получает форматирование заливки дляStroke .
+linktitle: Fill
+articleTitle: Fill
+second_title: Aspose.Words для .NET
+description: Stroke Fill свойство. Получает форматирование заливки дляStroke  на С#.
 type: docs
-weight: 100
+weight: 90
 url: /ru/net/aspose.words.drawing/stroke/fill/
 ---
 ## Stroke.Fill property
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.drawing/stroke/fill/
 public Fill Fill { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как изменить свойства обводки.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "Shape.Stroke.docx");
 
 * class [Fill](../../fill/)
 * class [Stroke](../)
-* пространство имен [Aspose.Words.Drawing](../../stroke/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

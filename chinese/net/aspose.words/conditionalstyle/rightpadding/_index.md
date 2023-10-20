@@ -1,7 +1,9 @@
 ---
 title: ConditionalStyle.RightPadding
-second_title: Aspose.Words for .NET API 参考
-description: ConditionalStyle 财产. 获取或设置要添加到表格单元格内容右侧的空间量以磅为单位
+linktitle: RightPadding
+articleTitle: RightPadding
+second_title: 用于 .NET 的 Aspose.Words
+description: ConditionalStyle RightPadding 财产. 获取或设置要添加到表格单元格内容右侧的空间量以磅为单位 在 C#.
 type: docs
 weight: 60
 url: /zh/net/aspose.words/conditionalstyle/rightpadding/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/conditionalstyle/rightpadding/
 public double RightPadding { get; set; }
 ```
 
-### 例子
+## 例子
 
 展示如何使用表格的某些区域样式。
 
@@ -84,7 +86,5 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 ### 也可以看看
 
 * class [ConditionalStyle](../)
-* 命名空间 [Aspose.Words](../../conditionalstyle/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

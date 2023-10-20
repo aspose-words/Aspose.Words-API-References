@@ -1,7 +1,9 @@
 ---
-title: Class Field
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Fields.Field 班级. 代表 Microsoft Word 文档字段
+title: Field Class
+linktitle: Field
+articleTitle: Field
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Fields.Field 班级. 代表 Microsoft Word 文档字段 在 C#.
 type: docs
 weight: 1510
 url: /zh/net/aspose.words.fields/field/
@@ -36,13 +38,13 @@ public class Field
 | 姓名 | 描述 |
 | --- | --- |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/#getfieldcode)() | 返回字段开始和字段分隔符之间的文本（如果没有分隔符，则返回字段结束）。 包括子字段的字段代码和字段结果。 |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/#getfieldcode_1)(bool) | 返回字段开始和字段分隔符之间的文本（如果没有分隔符，则返回字段结束）。 |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/#getfieldcode_1)(*bool*) | 返回字段开始和字段分隔符之间的文本（如果没有分隔符，则返回字段结束）。 |
 | [Remove](../../aspose.words.fields/field/remove/)() | 从文档中删除该字段。返回字段后面的节点。如果字段的结尾是其父节点的最后一个 child ，则返回其父段落。如果该字段已被删除，则返回`无效的`. |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | 执行字段取消链接。 |
 | [Update](../../aspose.words.fields/field/update/#update)() | 执行字段更新。如果该字段已被更新，则抛出异常。 |
-| [Update](../../aspose.words.fields/field/update/#update_1)(bool) | 执行字段更新。如果该字段已被更新，则抛出异常。 |
+| [Update](../../aspose.words.fields/field/update/#update_1)(*bool*) | 执行字段更新。如果该字段已被更新，则抛出异常。 |
 
-### 评论
+## 评论
 
 Word文档中的字段是一个由多个节点组成的复杂结构，包括字段开始、 字段代码、字段分隔符、字段结果和字段结束。字段可以嵌套，包含丰富的内容，并且可以跨 文档中的多个段落或部分。这`Field`类是一个“外观”对象，它提供 属性和方法，允许将字段作为单个对象使用。
 
@@ -56,7 +58,7 @@ Word文档中的字段是一个由多个节点组成的复杂结构，包括字�
 
 您不创建实例`Field`直接类。 要创建新字段，请使用[`InsertField`](../../aspose.words/documentbuilder/insertfield/)方法。
 
-### 例子
+## 例子
 
 演示如何使用域代码将域插入到文档中。
 
@@ -77,5 +79,3 @@ Assert.That(DateTime.Parse(field.Result), Is.EqualTo(DateTime.Today).Within(1).D
 
 * 命名空间 [Aspose.Words.Fields](../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../)
-
-

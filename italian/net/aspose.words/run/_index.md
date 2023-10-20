@@ -1,7 +1,9 @@
 ---
-title: Class Run
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Run classe. Rappresenta una serie di caratteri con la stessa formattazione del carattere.
+title: Run Class
+linktitle: Run
+articleTitle: Run
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Run classe. Rappresenta una serie di caratteri con la stessa formattazione del carattere in C#.
 type: docs
 weight: 4820
 url: /it/net/aspose.words/run/
@@ -20,8 +22,8 @@ public class Run : Inline
 
 | Nome | Descrizione |
 | --- | --- |
-| [Run](run/#constructor)(DocumentBase) | Inizializza una nuova istanza di`Run` classe. |
-| [Run](run/#constructor_1)(DocumentBase, string) | Inizializza una nuova istanza di **Correre** classe. |
+| [Run](run/#constructor)(*[DocumentBase](../documentbase/)*) | Inizializza una nuova istanza di`Run` classe. |
+| [Run](run/#constructor_1)(*[DocumentBase](../documentbase/), string*) | Inizializza una nuova istanza di**Correre** classe. |
 
 ## Proprietà
 
@@ -50,24 +52,24 @@ public class Run : Inline
 
 | Nome | Descrizione |
 | --- | --- |
-| override [Accept](../../aspose.words/run/accept/)(DocumentVisitor) | Accetta un visitatore. |
-| [Clone](../../aspose.words/node/clone/)(bool) | Crea un duplicato del nodo. |
-| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Ottiene il primo antenato dell'oggetto specificato[`NodeType`](../nodetype/) . |
-| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Ottiene il primo antenato del tipo di oggetto specificato. |
+| override [Accept](../../aspose.words/run/accept/)(*[DocumentVisitor](../documentvisitor/)*) | Accetta un visitatore. |
+| [Clone](../../aspose.words/node/clone/)(*bool*) | Crea un duplicato del nodo. |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*[NodeType](../nodetype/)*) | Ottiene il primo antenato dell'oggetto specificato[`NodeType`](../nodetype/) . |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | Ottiene il primo antenato del tipo di oggetto specificato. |
 | override [GetText](../../aspose.words/run/gettext/)() | Ottiene il testo dell'esecuzione. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Ottiene il nodo successivo in base all'algoritmo di attraversamento dell'albero di preordine. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Ottiene il nodo precedente in base all'algoritmo di attraversamento dell'albero di preordine. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../node/)*) | Ottiene il nodo successivo in base all'algoritmo di attraversamento dell'albero di preordine. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../node/)*) | Ottiene il nodo precedente in base all'algoritmo di attraversamento dell'albero di preordine. |
 | [Remove](../../aspose.words/node/remove/)() | Si rimuove dal genitore. |
-| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Esporta il contenuto del nodo in una stringa nel formato specificato. |
-| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | Esporta il contenuto del nodo in una stringa utilizzando le opzioni di salvataggio specificate. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../saveformat/)*) | Esporta il contenuto del nodo in una stringa nel formato specificato. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | Esporta il contenuto del nodo in una stringa utilizzando le opzioni di salvataggio specificate. |
 
-### Osservazioni
+## Osservazioni
 
 Tutto il testo del documento viene archiviato in sequenze di testo.
 
 `Run` può essere solo un figlio di[`Paragraph`](../paragraph/) o in linea[`StructuredDocumentTag`](../../aspose.words.markup/structureddocumenttag/).
 
-### Esempi
+## Esempi
 
 Mostra come formattare una sequenza di testo utilizzando la relativa proprietà font.
 
@@ -182,5 +184,3 @@ Assert.AreEqual(3, paragraph.GetChildNodes(NodeType.Any, true).Count);
 * class [Inline](../inline/)
 * spazio dei nomi [Aspose.Words](../../aspose.words/)
 * assemblea [Aspose.Words](../../)
-
-

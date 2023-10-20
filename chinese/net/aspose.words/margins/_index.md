@@ -1,7 +1,9 @@
 ---
-title: Enum Margins
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Margins 枚举. 指定预设边距
+title: Margins Enum
+linktitle: Margins
+articleTitle: Margins
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Margins 枚举. 指定预设边距 在 C#.
 type: docs
 weight: 3890
 url: /zh/net/aspose.words/margins/
@@ -29,5 +31,3 @@ public enum Margins
 
 * 命名空间 [Aspose.Words](../../aspose.words/)
 * 部件 [Aspose.Words](../../)
-
-

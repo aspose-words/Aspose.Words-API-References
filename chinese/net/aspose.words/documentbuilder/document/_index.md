@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.Document
-second_title: Aspose.Words for .NET API 参考
-description: DocumentBuilder 财产. 获取或设置Document该对象附加到的对象
+linktitle: Document
+articleTitle: Document
+second_title: 用于 .NET 的 Aspose.Words
+description: DocumentBuilder Document 财产. 获取或设置Document该对象附加到的对象 在 C#.
 type: docs
 weight: 90
 url: /zh/net/aspose.words/documentbuilder/document/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/documentbuilder/document/
 public Document Document { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何将页面设置设置应用和恢复到文档中的各个部分。
 
@@ -49,7 +51,5 @@ doc.Save(ArtifactsDir + "PageSetup.ClearFormatting.docx");
 
 * class [Document](../../document/)
 * class [DocumentBuilder](../)
-* 命名空间 [Aspose.Words](../../documentbuilder/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

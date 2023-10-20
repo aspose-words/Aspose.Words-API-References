@@ -1,7 +1,9 @@
 ---
-title: Enum RelativeHorizontalSize
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Drawing.RelativeHorizontalSize 枚举. 指定相对于形状或文本框架的水平计算宽度
+title: RelativeHorizontalSize Enum
+linktitle: RelativeHorizontalSize
+articleTitle: RelativeHorizontalSize
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Drawing.RelativeHorizontalSize 枚举. 指定相对于形状或文本框架的水平计算宽度 在 C#.
 type: docs
 weight: 1200
 url: /zh/net/aspose.words.drawing/relativehorizontalsize/
@@ -26,7 +28,7 @@ public enum RelativeHorizontalSize
 | OuterMargin | `5` | 指定宽度是相对于外边距区域大小计算的， 是奇数页的右边距区域大小，偶数页的左边距区域大小。 |
 | Default | `1` | 默认值为Margin. |
 
-### 例子
+## 例子
 
 展示如何设置相对大小和位置。
 
@@ -83,5 +85,3 @@ doc.Save(ArtifactsDir + "Shape.RelativeSizeAndPosition.docx");
 * property [RelativeHorizontalSize](../shapebase/relativehorizontalsize/)
 * 命名空间 [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: SaveOptions.PrettyFormat
-second_title: Référence de l'API Aspose.Words pour .NET
-description: SaveOptions propriété. Quandvrai jolis formats de sortie le cas échéant. La valeur par défaut estFAUX .
+linktitle: PrettyFormat
+articleTitle: PrettyFormat
+second_title: Aspose.Words pour .NET
+description: SaveOptions PrettyFormat propriété. Quandvrai jolis formats de sortie le cas échéant. La valeur par défaut estFAUX  en C#.
 type: docs
 weight: 110
 url: /fr/net/aspose.words.saving/saveoptions/prettyformat/
@@ -14,11 +16,11 @@ Quand`vrai` jolis formats de sortie le cas échéant. La valeur par défaut est`
 public bool PrettyFormat { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 Mis à`vrai` pour rendre les sorties HTML, MHTML, EPUB, WordML, RTF, DOCX et ODT lisibles par l'homme. Utile pour les tests ou le débogage.
 
-### Exemples
+## Exemples
 
 Montre comment améliorer la lisibilité du code brut d’un document .html enregistré.
 
@@ -69,7 +71,5 @@ else
 ### Voir également
 
 * class [SaveOptions](../)
-* espace de noms [Aspose.Words.Saving](../../saveoptions/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

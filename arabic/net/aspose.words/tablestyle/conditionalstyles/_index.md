@@ -1,7 +1,9 @@
 ---
 title: TableStyle.ConditionalStyles
-second_title: Aspose.Words لمراجع .NET API
-description: TableStyle ملكية. مجموعة من الأنماط الشرطية التي يمكن تعريفها لنمط الجدول هذا.
+linktitle: ConditionalStyles
+articleTitle: ConditionalStyles
+second_title: Aspose.Words لـ .NET
+description: TableStyle ConditionalStyles ملكية. مجموعة من الأنماط الشرطية التي يمكن تعريفها لنمط الجدول هذا في C#.
 type: docs
 weight: 80
 url: /ar/net/aspose.words/tablestyle/conditionalstyles/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/tablestyle/conditionalstyles/
 public ConditionalStyleCollection ConditionalStyles { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع أنماط مناطق معينة في الجدول.
 
@@ -85,7 +87,5 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 
 * class [ConditionalStyleCollection](../../conditionalstylecollection/)
 * class [TableStyle](../)
-* مساحة الاسم [Aspose.Words](../../tablestyle/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldEnd.NodeType
-second_title: Aspose.Words för .NET API Referens
-description: FieldEnd fast egendom. ReturnerarFieldEnd .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words för .NET
+description: FieldEnd NodeType fast egendom. ReturnerarFieldEnd  i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.fields/fieldend/nodetype/
@@ -14,7 +16,7 @@ ReturnerarFieldEnd .
 public override NodeType NodeType { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man korsar en sammansatt nods träd med undernoder.
 
@@ -62,7 +64,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 
 * enum [NodeType](../../../aspose.words/nodetype/)
 * class [FieldEnd](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldend/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

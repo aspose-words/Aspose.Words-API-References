@@ -1,7 +1,9 @@
 ---
 title: ImageSavingArgs.KeepImageStreamOpen
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ImageSavingArgs propriété. Spécifie si Aspose.Words doit garder le flux ouvert ou le fermer après avoir enregistré une image.
+linktitle: KeepImageStreamOpen
+articleTitle: KeepImageStreamOpen
+second_title: Aspose.Words pour .NET
+description: ImageSavingArgs KeepImageStreamOpen propriété. Spécifie si Aspose.Words doit garder le flux ouvert ou le fermer après avoir enregistré une image en C#.
 type: docs
 weight: 60
 url: /fr/net/aspose.words.saving/imagesavingargs/keepimagestreamopen/
@@ -14,11 +16,11 @@ Spécifie si Aspose.Words doit garder le flux ouvert ou le fermer après avoir e
 public bool KeepImageStreamOpen { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 La valeur par défaut est`FAUX` et Aspose.Words fermera le flux que vous avez fourni dans le[`ImageStream`](../imagestream/) propriété après y avoir écrit une image. Spécifiez`vrai` pour garder le flux ouvert.
 
-### Exemples
+## Exemples
 
 Montre comment impliquer un rappel d’enregistrement d’image dans un processus de conversion HTML.
 
@@ -64,7 +66,5 @@ private class ImageShapePrinter : IImageSavingCallback
 ### Voir également
 
 * class [ImageSavingArgs](../)
-* espace de noms [Aspose.Words.Saving](../../imagesavingargs/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

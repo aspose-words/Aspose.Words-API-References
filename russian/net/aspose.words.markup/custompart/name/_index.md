@@ -1,7 +1,9 @@
 ---
 title: CustomPart.Name
-second_title: Справочник по API Aspose.Words для .NET
-description: CustomPart свойство. Получает или задает абсолютное имя этой части в пакете OOXML или целевой URLадрес.
+linktitle: Name
+articleTitle: Name
+second_title: Aspose.Words для .NET
+description: CustomPart Name свойство. Получает или задает абсолютное имя этой части в пакете OOXML или целевой URLадрес на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.markup/custompart/name/
@@ -14,13 +16,13 @@ url: /ru/net/aspose.words.markup/custompart/name/
 public string Name { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Если цель связи является внутренней, то это свойство является абсолютным именем части в пакете. Если цель связи является внешней, то это свойство является целевым URL-адресом.
 
 Значение по умолчанию — пустая строка. Допустимое значение должно быть непустой строкой.
 
-### Примеры
+## Примеры
 
 Показывает, как получить доступ к произвольной коллекции пользовательских частей документа.
 
@@ -64,7 +66,5 @@ Assert.AreEqual(0, doc.PackageCustomParts.Count);
 ### Смотрите также
 
 * class [CustomPart](../)
-* пространство имен [Aspose.Words.Markup](../../custompart/)
+* пространство имен [Aspose.Words.Markup](../../../aspose.words.markup/)
 * сборка [Aspose.Words](../../../)
-
-

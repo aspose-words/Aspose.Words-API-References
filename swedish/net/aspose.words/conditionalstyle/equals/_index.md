@@ -1,7 +1,9 @@
 ---
 title: ConditionalStyle.Equals
-second_title: Aspose.Words för .NET API Referens
-description: ConditionalStyle metod. Jämför denna villkorliga stil med det angivna objektet.
+linktitle: Equals
+articleTitle: Equals
+second_title: Aspose.Words för .NET
+description: ConditionalStyle Equals metod. Jämför denna villkorliga stil med det angivna objektet i C#.
 type: docs
 weight: 110
 url: /sv/net/aspose.words/conditionalstyle/equals/
@@ -17,7 +19,5 @@ public override bool Equals(object obj)
 ### Se även
 
 * class [ConditionalStyle](../)
-* namnutrymme [Aspose.Words](../../conditionalstyle/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

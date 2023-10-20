@@ -1,7 +1,9 @@
 ---
 title: FramesetCollection.Item
-second_title: Aspose.Words för .NET API Referens
-description: FramesetCollection fast egendom. Hämtar en ram eller ramsida vid angivet index.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words för .NET
+description: FramesetCollection Item fast egendom. Hämtar en ram eller ramsida vid angivet index i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.framesets/framesetcollection/item/
@@ -18,7 +20,5 @@ public Frameset this[int index] { get; }
 
 * class [Frameset](../../frameset/)
 * class [FramesetCollection](../)
-* namnutrymme [Aspose.Words.Framesets](../../framesetcollection/)
+* namnutrymme [Aspose.Words.Framesets](../../../aspose.words.framesets/)
 * hopsättning [Aspose.Words](../../../)
-
-

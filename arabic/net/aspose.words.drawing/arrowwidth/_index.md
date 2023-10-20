@@ -1,7 +1,9 @@
 ---
-title: Enum ArrowWidth
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Drawing.ArrowWidth تعداد. عرض السهم في نهاية السطر.
+title: ArrowWidth Enum
+linktitle: ArrowWidth
+articleTitle: ArrowWidth
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Drawing.ArrowWidth تعداد. عرض السهم في نهاية السطر في C#.
 type: docs
 weight: 500
 url: /ar/net/aspose.words.drawing/arrowwidth/
@@ -23,7 +25,7 @@ public enum ArrowWidth
 | Wide | `2` |  |
 | Default | `0` | نفسNarrow . |
 
-### أمثلة
+## أمثلة
 
 يظهر لإنشاء مجموعة متنوعة من الأشكال.
 
@@ -101,5 +103,3 @@ doc.Save(ArtifactsDir + "Drawing.VariousShapes.docx");
 * property [EndArrowWidth](../stroke/endarrowwidth/)
 * مساحة الاسم [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.MinorTickMark
-second_title: Aspose.Words per .NET API Reference
-description: ChartAxis proprietà. Restituisce o imposta i segni di graduazione minori per lasse.
+linktitle: MinorTickMark
+articleTitle: MinorTickMark
+second_title: Aspose.Words per .NET
+description: ChartAxis MinorTickMark proprietà. Restituisce o imposta i segni di graduazione minori per lasse in C#.
 type: docs
 weight: 150
 url: /it/net/aspose.words.drawing.charts/chartaxis/minortickmark/
@@ -14,7 +16,7 @@ Restituisce o imposta i segni di graduazione minori per l'asse.
 public AxisTickMark MinorTickMark { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come inserire un grafico e modificare l'aspetto dei suoi assi.
 
@@ -68,7 +70,5 @@ doc.Save(ArtifactsDir + "Charts.AxisProperties.docx");
 
 * enum [AxisTickMark](../../axistickmark/)
 * class [ChartAxis](../)
-* spazio dei nomi [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* spazio dei nomi [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * assemblea [Aspose.Words](../../../)
-
-

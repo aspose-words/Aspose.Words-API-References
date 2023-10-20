@@ -1,12 +1,14 @@
 ---
 title: Document.CopyStylesFromTemplate
-second_title: Справочник по API Aspose.Words для .NET
-description: Document метод. Копирует стили из указанного шаблона в документ.
+linktitle: CopyStylesFromTemplate
+articleTitle: CopyStylesFromTemplate
+second_title: Aspose.Words для .NET
+description: Document CopyStylesFromTemplate метод. Копирует стили из указанного шаблона в документ на С#.
 type: docs
-weight: 590
+weight: 570
 url: /ru/net/aspose.words/document/copystylesfromtemplate/
 ---
-## CopyStylesFromTemplate(string) {#copystylesfromtemplate_1}
+## CopyStylesFromTemplate(*string*) {#copystylesfromtemplate_1}
 
 Копирует стили из указанного шаблона в документ.
 
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words/document/copystylesfromtemplate/
 public void CopyStylesFromTemplate(string template)
 ```
 
-### Примечания
+## Примечания
 
 Когда стили копируются из шаблона в документ, стили с одинаковыми именами в документе переопределяются в соответствии с описаниями стилей в шаблоне. Уникальные стили из шаблона копируются в документ. Уникальные стили в документе остаются неизменными.
 
-### Примеры
+## Примеры
 
 Показывает, как копировать стили из одного документа в другой.
 
@@ -70,12 +72,12 @@ Assert.AreEqual(21, target.Styles.Count);
 ### Смотрите также
 
 * class [Document](../)
-* пространство имен [Aspose.Words](../../document/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## CopyStylesFromTemplate(Document) {#copystylesfromtemplate}
+## CopyStylesFromTemplate(*[Document](../)*) {#copystylesfromtemplate}
 
 Копирует стили из указанного шаблона в документ.
 
@@ -83,11 +85,11 @@ Assert.AreEqual(21, target.Styles.Count);
 public void CopyStylesFromTemplate(Document template)
 ```
 
-### Примечания
+## Примечания
 
 Когда стили копируются из шаблона в документ, стили с одинаковыми именами в документе переопределяются в соответствии с описаниями стилей в шаблоне. Уникальные стили из шаблона копируются в документ. Уникальные стили в документе остаются неизменными.
 
-### Примеры
+## Примеры
 
 Показывает, как копировать стили из шаблона в документ с помощью Document.
 
@@ -148,7 +150,5 @@ Assert.AreEqual(21, target.Styles.Count);
 ### Смотрите также
 
 * class [Document](../)
-* пространство имен [Aspose.Words](../../document/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

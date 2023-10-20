@@ -1,7 +1,9 @@
 ---
 title: ConditionalStyleCollection.BottomRightCell
-second_title: Aspose.Words per .NET API Reference
-description: ConditionalStyleCollection proprietà. Ottiene lo stile della cella in basso a destra.
+linktitle: BottomRightCell
+articleTitle: BottomRightCell
+second_title: Aspose.Words per .NET
+description: ConditionalStyleCollection BottomRightCell proprietà. Ottiene lo stile della cella in basso a destra in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words/conditionalstylecollection/bottomrightcell/
@@ -14,7 +16,7 @@ Ottiene lo stile della cella in basso a destra.
 public ConditionalStyle BottomRightCell { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come lavorare con determinati stili di area di una tabella.
 
@@ -85,7 +87,5 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 
 * class [ConditionalStyle](../../conditionalstyle/)
 * class [ConditionalStyleCollection](../)
-* spazio dei nomi [Aspose.Words](../../conditionalstylecollection/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

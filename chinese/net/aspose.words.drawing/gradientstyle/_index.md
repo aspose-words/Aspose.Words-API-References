@@ -1,7 +1,9 @@
 ---
-title: Enum GradientStyle
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Drawing.GradientStyle 枚举. 指定渐变填充的样式
+title: GradientStyle Enum
+linktitle: GradientStyle
+articleTitle: GradientStyle
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Drawing.GradientStyle 枚举. 指定渐变填充的样式 在 C#.
 type: docs
 weight: 1000
 url: /zh/net/aspose.words.drawing/gradientstyle/
@@ -26,7 +28,7 @@ public enum GradientStyle
 | FromCorner | `5` | 从一个角到其他三个角的渐变。 |
 | FromCenter | `6` | 从中心向外到角落的渐变。 |
 
-### 例子
+## 例子
 
 演示如何使用渐变填充形状。
 
@@ -68,5 +70,3 @@ doc.Save(ArtifactsDir + "Shape.GradientFill.docx", saveOptions);
 
 * 命名空间 [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../)
-
-

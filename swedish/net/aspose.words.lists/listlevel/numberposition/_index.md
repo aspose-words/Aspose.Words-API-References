@@ -1,7 +1,9 @@
 ---
 title: ListLevel.NumberPosition
-second_title: Aspose.Words för .NET API Referens
-description: ListLevel fast egendom. Returnerar eller ställer in positionen i poäng för siffran eller kulan för listnivån.
+linktitle: NumberPosition
+articleTitle: NumberPosition
+second_title: Aspose.Words för .NET
+description: ListLevel NumberPosition fast egendom. Returnerar eller ställer in positionen i poäng för siffran eller kulan för listnivån i C#.
 type: docs
 weight: 80
 url: /sv/net/aspose.words.lists/listlevel/numberposition/
@@ -14,11 +16,11 @@ Returnerar eller ställer in positionen (i poäng) för siffran eller kulan för
 public double NumberPosition { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 `NumberPosition` motsvarar LeftIndent plus FirstLineIndent i stycket.
 
-### Exempel
+## Exempel
 
 Visar hur du använder anpassad listformatering på stycken när du använder DocumentBuilder.
 
@@ -77,7 +79,5 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateCustomList.docx");
 ### Se även
 
 * class [ListLevel](../)
-* namnutrymme [Aspose.Words.Lists](../../listlevel/)
+* namnutrymme [Aspose.Words.Lists](../../../aspose.words.lists/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.AspectRatioLocked
-second_title: Aspose.Words لمراجع .NET API
-description: ShapeBase ملكية. يحدد ما إذا كانت نسبة العرض إلى الارتفاع للشكل مقفلة أم لا.
+linktitle: AspectRatioLocked
+articleTitle: AspectRatioLocked
+second_title: Aspose.Words لـ .NET
+description: ShapeBase AspectRatioLocked ملكية. يحدد ما إذا كانت نسبة العرض إلى الارتفاع للشكل مقفلة أم لا في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.drawing/shapebase/aspectratiolocked/
@@ -14,13 +16,13 @@ url: /ar/net/aspose.words.drawing/shapebase/aspectratiolocked/
 public bool AspectRatioLocked { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 القيمة الافتراضية تعتمد على[`ShapeType`](../../shapetype/) ، لImage إنها`حقيقي` ولكن بالنسبة لأنواع الأشكال الأخرى فهو كذلك`خطأ شنيع`.
 
 له تأثير على أشكال المستوى الأعلى فقط.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية قفل/إلغاء قفل نسبة العرض إلى الارتفاع للشكل.
 
@@ -45,7 +47,5 @@ doc.Save(ArtifactsDir + "Shape.AspectRatio.docx");
 ### أنظر أيضا
 
 * class [ShapeBase](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../shapebase/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

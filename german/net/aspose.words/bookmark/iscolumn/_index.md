@@ -1,7 +1,9 @@
 ---
 title: Bookmark.IsColumn
-second_title: Aspose.Words für .NET-API-Referenz
-description: Bookmark eigendom. Gibt zurückWAHR wenn dieses Lesezeichen ein TabellenspaltenLesezeichen ist.
+linktitle: IsColumn
+articleTitle: IsColumn
+second_title: Aspose.Words für .NET
+description: Bookmark IsColumn eigendom. Gibt zurückWAHR wenn dieses Lesezeichen ein TabellenspaltenLesezeichen ist in C#.
 type: docs
 weight: 40
 url: /de/net/aspose.words/bookmark/iscolumn/
@@ -14,7 +16,7 @@ Gibt zurück`WAHR` wenn dieses Lesezeichen ein Tabellenspalten-Lesezeichen ist.
 public bool IsColumn { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie Informationen zu Tabellenspalten-Lesezeichen erhalten.
 
@@ -41,7 +43,5 @@ foreach (Bookmark bookmark in doc.Range.Bookmarks)
 ### Siehe auch
 
 * class [Bookmark](../)
-* namensraum [Aspose.Words](../../bookmark/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

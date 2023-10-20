@@ -1,7 +1,9 @@
 ---
 title: IFieldMergingCallback.FieldMerging
-second_title: Referencia de API de Aspose.Words para .NET
-description: IFieldMergingCallback método. Se llama cuando el motor de combinación de correspondencia Aspose.Words está a punto de insertar datos en un campo de combinación en el documento.
+linktitle: FieldMerging
+articleTitle: FieldMerging
+second_title: Aspose.Words para .NET
+description: IFieldMergingCallback FieldMerging método. Se llama cuando el motor de combinación de correspondencia Aspose.Words está a punto de insertar datos en un campo de combinación en el documento en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words.mailmerging/ifieldmergingcallback/fieldmerging/
@@ -14,7 +16,7 @@ Se llama cuando el motor de combinación de correspondencia Aspose.Words está a
 public void FieldMerging(FieldMergingArgs args)
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo insertar imágenes almacenadas en un campo BLOB de la base de datos en un informe.
 
@@ -127,7 +129,5 @@ private class HandleMergeFieldInsertHtml : IFieldMergingCallback
 
 * class [FieldMergingArgs](../../fieldmergingargs/)
 * interface [IFieldMergingCallback](../)
-* espacio de nombres [Aspose.Words.MailMerging](../../ifieldmergingcallback/)
+* espacio de nombres [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldDatabase.TableFormat
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldDatabase eigendom. Ruft das Format ab das auf das Ergebnis der Datenbankabfrage angewendet werden soll oder legt dieses fest.
+linktitle: TableFormat
+articleTitle: TableFormat
+second_title: Aspose.Words für .NET
+description: FieldDatabase TableFormat eigendom. Ruft das Format ab das auf das Ergebnis der Datenbankabfrage angewendet werden soll oder legt dieses fest in C#.
 type: docs
 weight: 100
 url: /de/net/aspose.words.fields/fielddatabase/tableformat/
@@ -14,7 +16,7 @@ Ruft das Format ab, das auf das Ergebnis der Datenbankabfrage angewendet werden 
 public string TableFormat { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man Daten aus einer Datenbank extrahiert und als Feld in ein Dokument einfügt.
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "Field.DATABASE.docx");
 ### Siehe auch
 
 * class [FieldDatabase](../)
-* namensraum [Aspose.Words.Fields](../../fielddatabase/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

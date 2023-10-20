@@ -1,7 +1,9 @@
 ---
 title: ListLevel.CreatePictureBullet
-second_title: Aspose.Words für .NET-API-Referenz
-description: ListLevel methode. Erstellt eine Bildaufzählungsform für die aktuelle Listenebene.
+linktitle: CreatePictureBullet
+articleTitle: CreatePictureBullet
+second_title: Aspose.Words für .NET
+description: ListLevel CreatePictureBullet methode. Erstellt eine Bildaufzählungsform für die aktuelle Listenebene in C#.
 type: docs
 weight: 150
 url: /de/net/aspose.words.lists/listlevel/createpicturebullet/
@@ -14,11 +16,11 @@ Erstellt eine Bildaufzählungsform für die aktuelle Listenebene.
 public void CreatePictureBullet()
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Bitte beachten Sie,[`NumberStyle`](../numberstyle/) wird eingestelltBullet and [`NumberFormat`](../numberformat/) auf „\xF0B7“, um Bildaufzählungszeichen richtig anzuzeigen. Das Bild mit dem roten Kreuz wird beim Erstellen als Bildaufzählungsbild festgelegt. Um es zu ändern, verwenden Sie bitte[`ImageData`](../imagedata/).
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man ein benutzerdefiniertes Bildsymbol für Listenelementbezeichnungen festlegt.
 
@@ -50,7 +52,5 @@ Assert.IsNull(list.ListLevels[0].ImageData);
 ### Siehe auch
 
 * class [ListLevel](../)
-* namensraum [Aspose.Words.Lists](../../listlevel/)
+* namensraum [Aspose.Words.Lists](../../../aspose.words.lists/)
 * Montage [Aspose.Words](../../../)
-
-

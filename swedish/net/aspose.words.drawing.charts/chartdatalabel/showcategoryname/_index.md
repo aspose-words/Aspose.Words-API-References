@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabel.ShowCategoryName
-second_title: Aspose.Words för .NET API Referens
-description: ChartDataLabel fast egendom. Gör det möjligt att ange om kategorinamnet ska visas för dataetiketterna på ett diagram. Standardvärdet ärfalsk .
+linktitle: ShowCategoryName
+articleTitle: ShowCategoryName
+second_title: Aspose.Words för .NET
+description: ChartDataLabel ShowCategoryName fast egendom. Gör det möjligt att ange om kategorinamnet ska visas för dataetiketterna på ett diagram. Standardvärdet ärfalsk  i C#.
 type: docs
 weight: 90
 url: /sv/net/aspose.words.drawing.charts/chartdatalabel/showcategoryname/
@@ -14,7 +16,7 @@ Gör det möjligt att ange om kategorinamnet ska visas för dataetiketterna på 
 public bool ShowCategoryName { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man applicerar etiketter på datapunkter i ett linjediagram.
 
@@ -92,7 +94,5 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
 ### Se även
 
 * class [ChartDataLabel](../)
-* namnutrymme [Aspose.Words.Drawing.Charts](../../chartdatalabel/)
+* namnutrymme [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../../)
-
-

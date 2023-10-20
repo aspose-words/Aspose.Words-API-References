@@ -1,7 +1,9 @@
 ---
 title: ImageSaveOptions.PageSet
-second_title: Справочник по API Aspose.Words для .NET
-description: ImageSaveOptions свойство. Получает или задает страницы для рендеринга. По умолчанию  все страницы в документе.
+linktitle: PageSet
+articleTitle: PageSet
+second_title: Aspose.Words для .NET
+description: ImageSaveOptions PageSet свойство. Получает или задает страницы для рендеринга. По умолчанию  все страницы в документе на С#.
 type: docs
 weight: 100
 url: /ru/net/aspose.words.saving/imagesaveoptions/pageset/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.saving/imagesaveoptions/pageset/
 public PageSet PageSet { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Это свойство действует только при отрисовке страниц документа. Это свойство игнорируется при рендеринге фигур в изображения.
 
-### Примеры
+## Примеры
 
 Показывает, как извлекать страницы на основе точных диапазонов страниц.
 
@@ -122,7 +124,5 @@ doc.Save(ArtifactsDir + "ImageSaveOptions.OnePage.jpg", options);
 
 * class [PageSet](../../pageset/)
 * class [ImageSaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../imagesaveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

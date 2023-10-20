@@ -1,7 +1,9 @@
 ---
 title: NodeList.GetEnumerator
-second_title: Référence de l'API Aspose.Words pour .NET
-description: NodeList méthode. Fournit une simple itération de style foreach sur la collection de nœuds.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words pour .NET
+description: NodeList GetEnumerator méthode. Fournit une simple itération de style foreach sur la collection de nœuds en C#.
 type: docs
 weight: 30
 url: /fr/net/aspose.words/nodelist/getenumerator/
@@ -18,7 +20,7 @@ public IEnumerator<Node> GetEnumerator()
 
 Un IEnumérateur.
 
-### Exemples
+## Exemples
 
 Montre comment sélectionner certains nœuds à l’aide d’une expression XPath.
 
@@ -52,7 +54,5 @@ Assert.AreEqual(typeof(Paragraph), node.GetType());
 
 * class [Node](../../node/)
 * class [NodeList](../)
-* espace de noms [Aspose.Words](../../nodelist/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

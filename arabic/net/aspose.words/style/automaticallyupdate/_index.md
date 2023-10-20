@@ -1,7 +1,9 @@
 ---
 title: Style.AutomaticallyUpdate
-second_title: Aspose.Words لمراجع .NET API
-description: Style ملكية. يحدد ما إذا كان سيتم إعادة تعريف هذا النمط تلقائيًا بناءً على القيمة المناسبة.
+linktitle: AutomaticallyUpdate
+articleTitle: AutomaticallyUpdate
+second_title: Aspose.Words لـ .NET
+description: Style AutomaticallyUpdate ملكية. يحدد ما إذا كان سيتم إعادة تعريف هذا النمط تلقائيًا بناءً على القيمة المناسبة في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words/style/automaticallyupdate/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/style/automaticallyupdate/
 public bool AutomaticallyUpdate { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 إذا تم تعيين قيمة الخاصية على true، فسيقوم برنامج MS Word تلقائيًا بإعادة تعريف النمط الحالي عندما يتم تغيير تنسيق الفقرة المناسب.
 
@@ -22,7 +24,7 @@ public bool AutomaticallyUpdate { get; set; }
 
 القيمة الافتراضية هي`خطأ شنيع`.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء نمط مخصص وتطبيقه.
 
@@ -61,7 +63,5 @@ Assert.AreEqual(Color.Empty.ToArgb(), firstParagraphStyle.Font.Color.ToArgb());
 ### أنظر أيضا
 
 * class [Style](../)
-* مساحة الاسم [Aspose.Words](../../style/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Comment.NodeType
-second_title: Aspose.Words لمراجع .NET API
-description: Comment ملكية. إرجاعComment .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words لـ .NET
+description: Comment NodeType ملكية. إرجاعComment  في C#.
 type: docs
 weight: 80
 url: /ar/net/aspose.words/comment/nodetype/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/comment/nodetype/
 public override NodeType NodeType { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية اجتياز شجرة العقدة المركبة من العقد الفرعية.
 
@@ -62,7 +64,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 
 * enum [NodeType](../../nodetype/)
 * class [Comment](../)
-* مساحة الاسم [Aspose.Words](../../comment/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

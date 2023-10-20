@@ -1,7 +1,9 @@
 ---
 title: SignatureLineOptions.DefaultInstructions
-second_title: Referencia de API de Aspose.Words para .NET
-description: SignatureLineOptions propiedad. Obtiene o establece un valor que indica que las instrucciones predeterminadas se muestran en el cuadro de diálogo Firmar. El valor predeterminado para esta propiedad esverdadero .
+linktitle: DefaultInstructions
+articleTitle: DefaultInstructions
+second_title: Aspose.Words para .NET
+description: SignatureLineOptions DefaultInstructions propiedad. Obtiene o establece un valor que indica que las instrucciones predeterminadas se muestran en el cuadro de diálogo Firmar. El valor predeterminado para esta propiedad esverdadero  en C#.
 type: docs
 weight: 30
 url: /es/net/aspose.words/signaturelineoptions/defaultinstructions/
@@ -14,7 +16,7 @@ Obtiene o establece un valor que indica que las instrucciones predeterminadas se
 public bool DefaultInstructions { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo firmar un documento con un certificado personal y una línea de firma.
 
@@ -67,7 +69,5 @@ Assert.True(signatureLine.IsValid);
 ### Ver también
 
 * class [SignatureLineOptions](../)
-* espacio de nombres [Aspose.Words](../../signaturelineoptions/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

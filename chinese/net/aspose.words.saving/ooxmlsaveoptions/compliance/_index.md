@@ -1,7 +1,9 @@
 ---
 title: OoxmlSaveOptions.Compliance
-second_title: Aspose.Words for .NET API 参考
-description: OoxmlSaveOptions 财产. 指定输出文档的 OOXML 版本 默认值为Ecma376_2006.
+linktitle: Compliance
+articleTitle: Compliance
+second_title: 用于 .NET 的 Aspose.Words
+description: OoxmlSaveOptions Compliance 财产. 指定输出文档的 OOXML 版本 默认值为Ecma376_2006 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.saving/ooxmlsaveoptions/compliance/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.saving/ooxmlsaveoptions/compliance/
 public OoxmlCompliance Compliance { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何将 DML 形状插入到文档中。
 
@@ -106,7 +108,5 @@ Assert.AreEqual(ShapeMarkupLanguage.Dml, ((Shape)doc.GetChild(NodeType.Shape, 0,
 
 * enum [OoxmlCompliance](../../ooxmlcompliance/)
 * class [OoxmlSaveOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../ooxmlsaveoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

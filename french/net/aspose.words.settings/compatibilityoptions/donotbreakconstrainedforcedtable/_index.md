@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.DoNotBreakConstrainedForcedTable
-second_title: Référence de l'API Aspose.Words pour .NET
-description: CompatibilityOptions propriété. Ne coupez pas les lignes du tableau autour des tables flottantes.
+linktitle: DoNotBreakConstrainedForcedTable
+articleTitle: DoNotBreakConstrainedForcedTable
+second_title: Aspose.Words pour .NET
+description: CompatibilityOptions DoNotBreakConstrainedForcedTable propriété. Ne coupez pas les lignes du tableau autour des tables flottantes en C#.
 type: docs
 weight: 130
 url: /fr/net/aspose.words.settings/compatibilityoptions/donotbreakconstrainedforcedtable/
@@ -17,7 +19,5 @@ public bool DoNotBreakConstrainedForcedTable { get; set; }
 ### Voir également
 
 * class [CompatibilityOptions](../)
-* espace de noms [Aspose.Words.Settings](../../compatibilityoptions/)
+* espace de noms [Aspose.Words.Settings](../../../aspose.words.settings/)
 * Assemblée [Aspose.Words](../../../)
-
-

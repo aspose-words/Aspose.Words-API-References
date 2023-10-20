@@ -1,7 +1,9 @@
 ---
 title: Document.OriginalLoadFormat
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Document propriété. Obtient le format du document original chargé dans cet objet.
+linktitle: OriginalLoadFormat
+articleTitle: OriginalLoadFormat
+second_title: Aspose.Words pour .NET
+description: Document OriginalLoadFormat propriété. Obtient le format du document original chargé dans cet objet en C#.
 type: docs
 weight: 300
 url: /fr/net/aspose.words/document/originalloadformat/
@@ -14,11 +16,11 @@ Obtient le format du document original chargé dans cet objet.
 public LoadFormat OriginalLoadFormat { get; }
 ```
 
-### Remarques
+## Remarques
 
 Si vous avez créé un nouveau document vierge, renvoie leDoc valeur.
 
-### Exemples
+## Exemples
 
 Montre comment récupérer les détails de l’opération de chargement d’un document.
 
@@ -33,7 +35,5 @@ Assert.AreEqual(LoadFormat.Docx, doc.OriginalLoadFormat);
 
 * enum [LoadFormat](../../loadformat/)
 * class [Document](../)
-* espace de noms [Aspose.Words](../../document/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

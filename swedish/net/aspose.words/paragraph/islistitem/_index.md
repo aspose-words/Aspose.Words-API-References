@@ -1,7 +1,9 @@
 ---
 title: Paragraph.IsListItem
-second_title: Aspose.Words för .NET API Referens
-description: Paragraph fast egendom. Sant när stycket är ett objekt i en punktlista eller numrerad lista i originalversionen.
+linktitle: IsListItem
+articleTitle: IsListItem
+second_title: Aspose.Words för .NET
+description: Paragraph IsListItem fast egendom. Sant när stycket är ett objekt i en punktlista eller numrerad lista i originalversionen i C#.
 type: docs
 weight: 120
 url: /sv/net/aspose.words/paragraph/islistitem/
@@ -14,7 +16,7 @@ Sant när stycket är ett objekt i en punktlista eller numrerad lista i original
 public bool IsListItem { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man kapslar en lista i en annan lista.
 
@@ -68,7 +70,5 @@ builder.Document.Save(ArtifactsDir + "Lists.NestedLists.docx");
 ### Se även
 
 * class [Paragraph](../)
-* namnutrymme [Aspose.Words](../../paragraph/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

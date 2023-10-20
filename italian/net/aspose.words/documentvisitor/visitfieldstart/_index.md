@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitFieldStart
-second_title: Aspose.Words per .NET API Reference
-description: DocumentVisitor metodo. Chiamato quando inizia un campo nel documento.
+linktitle: VisitFieldStart
+articleTitle: VisitFieldStart
+second_title: Aspose.Words per .NET
+description: DocumentVisitor VisitFieldStart metodo. Chiamato quando inizia un campo nel documento in C#.
 type: docs
 weight: 200
 url: /it/net/aspose.words/documentvisitor/visitfieldstart/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitFieldStart(FieldStart fieldStart)
 
 UN[`VisitorAction`](../../visitoraction/) valore che specifica come continuare l'enumerazione.
 
-### Osservazioni
+## Osservazioni
 
 Un campo in un documento di Word è costituito da un codice di campo e da un valore di campo.
 
@@ -34,7 +36,7 @@ Il separatore di campo separa il codice di campo dal valore di campo nel documen
 
 I campi possono essere nidificati.
 
-### Esempi
+## Esempi
 
 Mostra come stampare la struttura dei nodi di ogni campo in un documento.
 
@@ -139,7 +141,5 @@ public class FieldStructurePrinter : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [FieldStart](../../../aspose.words.fields/fieldstart/)
 * class [DocumentVisitor](../)
-* spazio dei nomi [Aspose.Words](../../documentvisitor/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

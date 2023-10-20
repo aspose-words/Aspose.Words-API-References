@@ -1,7 +1,9 @@
 ---
 title: IChartDataPoint.Explosion
-second_title: Aspose.Words لمراجع .NET API
-description: IChartDataPoint ملكية. يحدد مقدار نقل نقطة البيانات من مركز الدائرة. يمكن أن يكون سالبًا ويعني السالب أنه لم يتم تعيين الخاصية ولا ينبغي تطبيق أي انفجار. ينطبق فقط على المخططات الدائرية.
+linktitle: Explosion
+articleTitle: Explosion
+second_title: Aspose.Words لـ .NET
+description: IChartDataPoint Explosion ملكية. يحدد مقدار نقل نقطة البيانات من مركز الدائرة. يمكن أن يكون سالبًا ويعني السالب أنه لم يتم تعيين الخاصية ولا ينبغي تطبيق أي انفجار. ينطبق فقط على المخططات الدائرية في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.drawing.charts/ichartdatapoint/explosion/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing.charts/ichartdatapoint/explosion/
 public int Explosion { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية نقل شرائح المخطط الدائري بعيدًا عن المركز.
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "Charts.PieChartExplosion.docx");
 ### أنظر أيضا
 
 * interface [IChartDataPoint](../)
-* مساحة الاسم [Aspose.Words.Drawing.Charts](../../ichartdatapoint/)
+* مساحة الاسم [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../../)
-
-

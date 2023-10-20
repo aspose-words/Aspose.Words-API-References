@@ -1,7 +1,9 @@
 ---
 title: Document.PageCount
-second_title: Aspose.Words for .NET API 参考
-description: Document 财产. 获取通过最近的页面布局操作计算得出的文档中的页数
+linktitle: PageCount
+articleTitle: PageCount
+second_title: 用于 .NET 的 Aspose.Words
+description: Document PageCount 财产. 获取通过最近的页面布局操作计算得出的文档中的页数 在 C#.
 type: docs
 weight: 320
 url: /zh/net/aspose.words/document/pagecount/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/document/pagecount/
 public int PageCount { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何计算文档中的页数。
 
@@ -41,7 +43,5 @@ doc.Save(ArtifactsDir + "Document.GetPageCount.pdf");
 
 * method [UpdatePageLayout](../updatepagelayout/)
 * class [Document](../)
-* 命名空间 [Aspose.Words](../../document/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

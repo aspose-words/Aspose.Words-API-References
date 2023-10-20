@@ -1,7 +1,9 @@
 ---
-title: Enum ImageBinarizationMethod
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Saving.ImageBinarizationMethod تعداد. يحدد الطريقة المستخدمة لتحويل الصورة إلى ثنائي.
+title: ImageBinarizationMethod Enum
+linktitle: ImageBinarizationMethod
+articleTitle: ImageBinarizationMethod
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Saving.ImageBinarizationMethod تعداد. يحدد الطريقة المستخدمة لتحويل الصورة إلى ثنائي في C#.
 type: docs
 weight: 5200
 url: /ar/net/aspose.words.saving/imagebinarizationmethod/
@@ -21,7 +23,7 @@ public enum ImageBinarizationMethod
 | Threshold | `0` | يحدد طريقة العتبة. |
 | FloydSteinbergDithering | `1` | يحدد ثبات الألوان باستخدام طريقة Floyd-Steinberg لتوزيع الأخطاء. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين حد خطأ التنسيق الثنائي TIFF عند استخدام طريقة Floyd-Steinberg لعرض صورة TIFF.
 
@@ -51,5 +53,3 @@ doc.Save(ArtifactsDir + "ImageSaveOptions.FloydSteinbergDithering.tiff", options
 
 * مساحة الاسم [Aspose.Words.Saving](../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../)
-
-

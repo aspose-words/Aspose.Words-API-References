@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.CoordOrigin
-second_title: Aspose.Words för .NET API Referens
-description: ShapeBase fast egendom. Koordinaterna i det övre vänstra hörnet av det innehållande blocket med denna form.
+linktitle: CoordOrigin
+articleTitle: CoordOrigin
+second_title: Aspose.Words för .NET
+description: ShapeBase CoordOrigin fast egendom. Koordinaterna i det övre vänstra hörnet av det innehållande blocket med denna form i C#.
 type: docs
 weight: 110
 url: /sv/net/aspose.words.drawing/shapebase/coordorigin/
@@ -14,11 +16,11 @@ Koordinaterna i det övre vänstra hörnet av det innehållande blocket med denn
 public Point CoordOrigin { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Standardvärdet är (0,0).
 
-### Exempel
+## Exempel
 
 Visar hur man översätter x- och y-koordinatpositionen på en forms koordinatplan till en plats på den överordnade formens koordinatplan.
 
@@ -164,7 +166,5 @@ doc.Save(ArtifactsDir + "Shape.GroupShape.docx");
 ### Se även
 
 * class [ShapeBase](../)
-* namnutrymme [Aspose.Words.Drawing](../../shapebase/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

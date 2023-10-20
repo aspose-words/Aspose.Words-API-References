@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTagCollection.Count
-second_title: Aspose.Words för .NET API Referens
-description: StructuredDocumentTagCollection fast egendom. Returnerar antalet strukturerade dokumenttaggar i samlingen.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words för .NET
+description: StructuredDocumentTagCollection Count fast egendom. Returnerar antalet strukturerade dokumenttaggar i samlingen i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.markup/structureddocumenttagcollection/count/
@@ -17,7 +19,5 @@ public int Count { get; }
 ### Se även
 
 * class [StructuredDocumentTagCollection](../)
-* namnutrymme [Aspose.Words.Markup](../../structureddocumenttagcollection/)
+* namnutrymme [Aspose.Words.Markup](../../../aspose.words.markup/)
 * hopsättning [Aspose.Words](../../../)
-
-

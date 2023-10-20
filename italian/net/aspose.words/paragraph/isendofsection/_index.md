@@ -1,7 +1,9 @@
 ---
 title: Paragraph.IsEndOfSection
-second_title: Aspose.Words per .NET API Reference
-description: Paragraph proprietà. Vero se questo paragrafo è lultimo paragrafo delBody storia del testo principale di aSection  falso altrimenti.
+linktitle: IsEndOfSection
+articleTitle: IsEndOfSection
+second_title: Aspose.Words per .NET
+description: Paragraph IsEndOfSection proprietà. Vero se questo paragrafo è lultimo paragrafo delBody storia del testo principale di aSection  falso altrimenti in C#.
 type: docs
 weight: 80
 url: /it/net/aspose.words/paragraph/isendofsection/
@@ -14,7 +16,7 @@ Vero se questo paragrafo è l'ultimo paragrafo del[`Body`](../../body/) (storia 
 public bool IsEndOfSection { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come inserire il contenuto di un documento in un segnalibro in un altro documento.
 
@@ -82,7 +84,5 @@ static void InsertDocument(Node insertionDestination, Document docToInsert)
 ### Guarda anche
 
 * class [Paragraph](../)
-* spazio dei nomi [Aspose.Words](../../paragraph/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

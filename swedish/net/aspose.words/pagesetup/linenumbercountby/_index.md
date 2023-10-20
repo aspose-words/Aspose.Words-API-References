@@ -1,7 +1,9 @@
 ---
 title: PageSetup.LineNumberCountBy
-second_title: Aspose.Words för .NET API Referens
-description: PageSetup fast egendom. Returnerar eller ställer in det numeriska steget för radnummer.
+linktitle: LineNumberCountBy
+articleTitle: LineNumberCountBy
+second_title: Aspose.Words för .NET
+description: PageSetup LineNumberCountBy fast egendom. Returnerar eller ställer in det numeriska steget för radnummer i C#.
 type: docs
 weight: 210
 url: /sv/net/aspose.words/pagesetup/linenumbercountby/
@@ -14,7 +16,7 @@ Returnerar eller ställer in det numeriska steget för radnummer.
 public int LineNumberCountBy { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man aktiverar radnumrering för en sektion.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "PageSetup.LineNumbers.docx");
 ### Se även
 
 * class [PageSetup](../)
-* namnutrymme [Aspose.Words](../../pagesetup/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

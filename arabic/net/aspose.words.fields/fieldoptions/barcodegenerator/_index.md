@@ -1,7 +1,9 @@
 ---
 title: FieldOptions.BarcodeGenerator
-second_title: Aspose.Words لمراجع .NET API
-description: FieldOptions ملكية. الحصول على أو تعيين مولد باركود مخصص.
+linktitle: BarcodeGenerator
+articleTitle: BarcodeGenerator
+second_title: Aspose.Words لـ .NET
+description: FieldOptions BarcodeGenerator ملكية. الحصول على أو تعيين مولد باركود مخصص في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fields/fieldoptions/barcodegenerator/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.fields/fieldoptions/barcodegenerator/
 public IBarcodeGenerator BarcodeGenerator { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 يجب أن يقوم منشئ الباركود المخصص بتنفيذ الواجهة العامة[`IBarcodeGenerator`](../../ibarcodegenerator/) .
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام مولد الباركود.
 
@@ -95,7 +97,5 @@ doc.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.docx");
 
 * interface [IBarcodeGenerator](../../ibarcodegenerator/)
 * class [FieldOptions](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldoptions/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

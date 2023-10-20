@@ -1,7 +1,9 @@
 ---
 title: ListLabel.Font
-second_title: Aspose.Words för .NET API Referens
-description: ListLabel fast egendom. Hämtar listetikettens teckensnitt.
+linktitle: Font
+articleTitle: Font
+second_title: Aspose.Words för .NET
+description: ListLabel Font fast egendom. Hämtar listetikettens teckensnitt i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.lists/listlabel/font/
@@ -18,7 +20,5 @@ public Font Font { get; }
 
 * class [Font](../../../aspose.words/font/)
 * class [ListLabel](../)
-* namnutrymme [Aspose.Words.Lists](../../listlabel/)
+* namnutrymme [Aspose.Words.Lists](../../../aspose.words.lists/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,24 +1,26 @@
 ---
 title: SignOptions.SignatureLineId
-second_title: Aspose.Words för .NET API Referens
-description: SignOptions fast egendom. Signature line identifier. Standardvärdet är Tom alla nollor Guid .
+linktitle: SignatureLineId
+articleTitle: SignatureLineId
+second_title: Aspose.Words för .NET
+description: SignOptions SignatureLineId fast egendom. Signature line identifier. Standardvärdet ärTom alla nollor Guid  i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.digitalsignatures/signoptions/signaturelineid/
 ---
 ## SignOptions.SignatureLineId property
 
-Signature line identifier. Standardvärdet är **Tom (alla nollor) Guid** .
+Signature line identifier. Standardvärdet är**Tom (alla nollor) Guid** .
 
 ```csharp
 public Guid SignatureLineId { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 När den är inställd associeras den[`SignatureLine`](../../../aspose.words.drawing/signatureline/) med motsvarande[`DigitalSignature`](../../digitalsignature/) .
 
-### Exempel
+## Exempel
 
 Visar hur man lägger till en signaturrad i ett dokument och sedan signerar den med ett digitalt certifikat.
 
@@ -134,7 +136,5 @@ Visar hur man lägger till en signaturrad i ett dokument och sedan signerar den 
 ### Se även
 
 * class [SignOptions](../)
-* namnutrymme [Aspose.Words.DigitalSignatures](../../signoptions/)
+* namnutrymme [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * hopsättning [Aspose.Words](../../../)
-
-

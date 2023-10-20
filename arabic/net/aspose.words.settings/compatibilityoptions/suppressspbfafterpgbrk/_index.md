@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.SuppressSpBfAfterPgBrk
-second_title: Aspose.Words لمراجع .NET API
-description: CompatibilityOptions ملكية. لا تستخدم المسافة قبل السطر الأول بعد فاصل الصفحات.
+linktitle: SuppressSpBfAfterPgBrk
+articleTitle: SuppressSpBfAfterPgBrk
+second_title: Aspose.Words لـ .NET
+description: CompatibilityOptions SuppressSpBfAfterPgBrk ملكية. لا تستخدم المسافة قبل السطر الأول بعد فاصل الصفحات في C#.
 type: docs
 weight: 500
 url: /ar/net/aspose.words.settings/compatibilityoptions/suppressspbfafterpgbrk/
@@ -17,7 +19,5 @@ public bool SuppressSpBfAfterPgBrk { get; set; }
 ### أنظر أيضا
 
 * class [CompatibilityOptions](../)
-* مساحة الاسم [Aspose.Words.Settings](../../compatibilityoptions/)
+* مساحة الاسم [Aspose.Words.Settings](../../../aspose.words.settings/)
 * المجسم [Aspose.Words](../../../)
-
-

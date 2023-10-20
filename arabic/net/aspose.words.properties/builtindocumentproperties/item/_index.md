@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.Item
-second_title: Aspose.Words لمراجع .NET API
-description: BuiltInDocumentProperties ملكية. إرجاع أDocumentProperty كائن باسم الخاصية.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words لـ .NET
+description: BuiltInDocumentProperties Item ملكية. إرجاع أDocumentProperty كائن باسم الخاصية في C#.
 type: docs
 weight: 130
 url: /ar/net/aspose.words.properties/builtindocumentproperties/item/
@@ -18,7 +20,7 @@ public override DocumentProperty this[string name] { get; }
 | --- | --- |
 | name | اسم الخاصية غير حساس لحالة الأحرف المراد استرداده. |
 
-### ملاحظات
+## ملاحظات
 
 تتوافق أسماء سلسلة الخصائص مع أسماء الخصائص typed المتوفرة منها[`BuiltInDocumentProperties`](../).
 
@@ -26,7 +28,7 @@ public override DocumentProperty this[string name] { get; }
 
 إذا طلبت خاصية غير موجودة في المستند ولم يتم التعرف على name كاسم مضمن،`باطل` يتم إرجاع.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع خصائص المستند المخصصة.
 
@@ -52,7 +54,5 @@ foreach (var customDocumentProperty in doc.CustomDocumentProperties)
 
 * class [DocumentProperty](../../documentproperty/)
 * class [BuiltInDocumentProperties](../)
-* مساحة الاسم [Aspose.Words.Properties](../../builtindocumentproperties/)
+* مساحة الاسم [Aspose.Words.Properties](../../../aspose.words.properties/)
 * المجسم [Aspose.Words](../../../)
-
-

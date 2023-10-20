@@ -1,12 +1,14 @@
 ---
 title: ReportingEngine.BuildReport
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ReportingEngine méthode. Remplit le document modèle spécifié avec les données de la source spécifiée ce qui en fait un rapport prêt.
+linktitle: BuildReport
+articleTitle: BuildReport
+second_title: Aspose.Words pour .NET
+description: ReportingEngine BuildReport méthode. Remplit le document modèle spécifié avec les données de la source spécifiée ce qui en fait un rapport prêt en C#.
 type: docs
 weight: 40
 url: /fr/net/aspose.words.reporting/reportingengine/buildreport/
 ---
-## BuildReport(Document, object) {#buildreport}
+## BuildReport(*[Document](../../../aspose.words/document/), object*) {#buildreport}
 
 Remplit le document modèle spécifié avec les données de la source spécifiée, ce qui en fait un rapport prêt.
 
@@ -23,7 +25,7 @@ public bool BuildReport(Document document, object dataSource)
 
 Un indicateur indiquant si l'analyse du document modèle a réussi. L'indicateur renvoyé n'a de sens que si une valeur de[`Options`](../options/)la propriété inclut leInlineErrorMessages option.
 
-### Remarques
+## Remarques
 
 En utilisant cette surcharge, vous pouvez référencer les membres de la source de données dans le document modèle, mais vous ne pouvez pas référencer l'objet de la source de données lui-même. Vous devriez utiliser le`BuildReport` surcharge pour y parvenir.
 
@@ -47,12 +49,12 @@ Pour plus d'informations sur l'utilisation de sources de données de différents
 
 * class [Document](../../../aspose.words/document/)
 * class [ReportingEngine](../)
-* espace de noms [Aspose.Words.Reporting](../../reportingengine/)
+* espace de noms [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * Assemblée [Aspose.Words](../../../)
 
 ---
 
-## BuildReport(Document, object, string) {#buildreport_1}
+## BuildReport(*[Document](../../../aspose.words/document/), object, string*) {#buildreport_1}
 
 Remplit le document modèle spécifié avec les données de la source spécifiée, ce qui en fait un rapport prêt.
 
@@ -70,7 +72,7 @@ public bool BuildReport(Document document, object dataSource, string dataSourceN
 
 Un indicateur indiquant si l'analyse du document modèle a réussi. L'indicateur renvoyé n'a de sens que si une valeur de[`Options`](../options/)la propriété inclut leInlineErrorMessages option.
 
-### Remarques
+## Remarques
 
 En utilisant cette surcharge, vous pouvez référencer les membres de la source de données et l'objet de la source de données lui-même dans le modèle. Si vous ne faites pas référence à l'objet source de données lui-même, vous pouvez omettre*dataSourceName* passant`nul` ou utilisez le`BuildReport` surcharge.
 
@@ -94,12 +96,12 @@ Pour plus d'informations sur l'utilisation de sources de données de différents
 
 * class [Document](../../../aspose.words/document/)
 * class [ReportingEngine](../)
-* espace de noms [Aspose.Words.Reporting](../../reportingengine/)
+* espace de noms [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * Assemblée [Aspose.Words](../../../)
 
 ---
 
-## BuildReport(Document, object[], string[]) {#buildreport_2}
+## BuildReport(*[Document](../../../aspose.words/document/), object[], string[]*) {#buildreport_2}
 
 Remplit le document modèle spécifié avec les données des sources spécifiées, ce qui en fait un rapport prêt.
 
@@ -117,7 +119,7 @@ public bool BuildReport(Document document, object[] dataSources, string[] dataSo
 
 Un indicateur indiquant si l'analyse du document modèle a réussi. L'indicateur renvoyé n'a de sens que si une valeur de[`Options`](../options/)la propriété inclut leInlineErrorMessages option.
 
-### Remarques
+## Remarques
 
 En utilisant cette surcharge, vous pouvez référencer plusieurs objets de source de données et leurs membres dans le modèle. Le nom de la première source de données peut être omis (c'est-à-dire être une chaîne vide ou`nul` si vous souhaitez référencer les membres de la source de données mais pas l'objet de la source de données lui-même. Les noms des autres sources de données doivent être précisés et uniques.
 
@@ -143,7 +145,5 @@ Pour plus d'informations sur l'utilisation de sources de données de différents
 
 * class [Document](../../../aspose.words/document/)
 * class [ReportingEngine](../)
-* espace de noms [Aspose.Words.Reporting](../../reportingengine/)
+* espace de noms [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * Assemblée [Aspose.Words](../../../)
-
-

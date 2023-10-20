@@ -1,7 +1,9 @@
 ---
-title: Class OutlineOptions
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Saving.OutlineOptions 班级. 允许指定轮廓选项
+title: OutlineOptions Class
+linktitle: OutlineOptions
+articleTitle: OutlineOptions
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Saving.OutlineOptions 班级. 允许指定轮廓选项 在 C#.
 type: docs
 weight: 5360
 url: /zh/net/aspose.words.saving/outlineoptions/
@@ -33,7 +35,7 @@ public class OutlineOptions
 | [ExpandedOutlineLevels](../../aspose.words.saving/outlineoptions/expandedoutlinelevels/) { get; set; } | 指定查看文件时文档大纲中要显示展开的层数。 |
 | [HeadingsOutlineLevels](../../aspose.words.saving/outlineoptions/headingsoutlinelevels/) { get; set; } | 指定要包含在 文档大纲中的标题级别（使用标题样式格式化的段落）。 |
 
-### 例子
+## 例子
 
 演示如何处理我们正在渲染为 PDF 的文档中页眉/页脚中的书签。
 
@@ -66,5 +68,3 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.HeaderFooterBookmarksExportMode.pdf", sa
 
 * 命名空间 [Aspose.Words.Saving](../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../)
-
-

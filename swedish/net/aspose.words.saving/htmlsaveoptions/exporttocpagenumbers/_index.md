@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ExportTocPageNumbers
-second_title: Aspose.Words för .NET API Referens
-description: HtmlSaveOptions fast egendom. Anger om sidnummer ska skrivas till innehållsförteckningen när HTML MHTML och EPUB sparas. Standardvärdet ärfalsk .
+linktitle: ExportTocPageNumbers
+articleTitle: ExportTocPageNumbers
+second_title: Aspose.Words för .NET
+description: HtmlSaveOptions ExportTocPageNumbers fast egendom. Anger om sidnummer ska skrivas till innehållsförteckningen när HTML MHTML och EPUB sparas. Standardvärdet ärfalsk  i C#.
 type: docs
 weight: 270
 url: /sv/net/aspose.words.saving/htmlsaveoptions/exporttocpagenumbers/
@@ -14,7 +16,7 @@ Anger om sidnummer ska skrivas till innehållsförteckningen när HTML, MHTML oc
 public bool ExportTocPageNumbers { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man visar sidnummer när man sparar ett dokument med en innehållsförteckning till .html.
 
@@ -72,7 +74,5 @@ else
 ### Se även
 
 * class [HtmlSaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../htmlsaveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

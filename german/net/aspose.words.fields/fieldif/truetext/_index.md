@@ -1,7 +1,9 @@
 ---
 title: FieldIf.TrueText
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldIf eigendom. Ruft den angezeigten Text ab oder legt diesen fest wenn der Vergleichsausdruck wahr ist.
+linktitle: TrueText
+articleTitle: TrueText
+second_title: Aspose.Words für .NET
+description: FieldIf TrueText eigendom. Ruft den angezeigten Text ab oder legt diesen fest wenn der Vergleichsausdruck wahr ist in C#.
 type: docs
 weight: 60
 url: /de/net/aspose.words.fields/fieldif/truetext/
@@ -14,7 +16,7 @@ Ruft den angezeigten Text ab oder legt diesen fest, wenn der Vergleichsausdruck 
 public string TrueText { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein IF-Feld eingefügt wird.
 
@@ -60,7 +62,5 @@ doc.Save(ArtifactsDir + "Field.IF.docx");
 ### Siehe auch
 
 * class [FieldIf](../)
-* namensraum [Aspose.Words.Fields](../../fieldif/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

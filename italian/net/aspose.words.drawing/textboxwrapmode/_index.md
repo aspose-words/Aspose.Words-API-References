@@ -1,7 +1,9 @@
 ---
-title: Enum TextBoxWrapMode
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Drawing.TextBoxWrapMode enum. Specifica il modo in cui il testo va a capo allinterno di una forma.
+title: TextBoxWrapMode Enum
+linktitle: TextBoxWrapMode
+articleTitle: TextBoxWrapMode
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Drawing.TextBoxWrapMode enum. Specifica il modo in cui il testo va a capo allinterno di una forma in C#.
 type: docs
 weight: 1340
 url: /it/net/aspose.words.drawing/textboxwrapmode/
@@ -21,7 +23,7 @@ public enum TextBoxWrapMode
 | Square | `0` | Il testo va a capo all'interno di una forma. |
 | None | `2` | Il testo non va a capo all'interno di una forma. |
 
-### Esempi
+## Esempi
 
 Mostra come impostare una modalità di disposizione per il contenuto di una casella di testo.
 
@@ -49,5 +51,3 @@ doc.Save(ArtifactsDir + "Shape.TextBoxContentsWrapMode.docx");
 
 * spazio dei nomi [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * assemblea [Aspose.Words](../../)
-
-

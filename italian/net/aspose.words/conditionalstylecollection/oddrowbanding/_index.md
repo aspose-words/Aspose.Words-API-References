@@ -1,7 +1,9 @@
 ---
 title: ConditionalStyleCollection.OddRowBanding
-second_title: Aspose.Words per .NET API Reference
-description: ConditionalStyleCollection proprietà. Ottiene lo stile di raggruppamento delle righe dispari.
+linktitle: OddRowBanding
+articleTitle: OddRowBanding
+second_title: Aspose.Words per .NET
+description: ConditionalStyleCollection OddRowBanding proprietà. Ottiene lo stile di raggruppamento delle righe dispari in C#.
 type: docs
 weight: 120
 url: /it/net/aspose.words/conditionalstylecollection/oddrowbanding/
@@ -14,7 +16,7 @@ Ottiene lo stile di raggruppamento delle righe dispari.
 public ConditionalStyle OddRowBanding { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come lavorare con determinati stili di area di una tabella.
 
@@ -85,7 +87,5 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 
 * class [ConditionalStyle](../../conditionalstyle/)
 * class [ConditionalStyleCollection](../)
-* spazio dei nomi [Aspose.Words](../../conditionalstylecollection/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

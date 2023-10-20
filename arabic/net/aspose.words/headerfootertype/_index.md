@@ -1,7 +1,9 @@
 ---
-title: Enum HeaderFooterType
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.HeaderFooterType تعداد. يحدد نوع الرأس أو التذييل الموجود في ملف Word.
+title: HeaderFooterType Enum
+linktitle: HeaderFooterType
+articleTitle: HeaderFooterType
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.HeaderFooterType تعداد. يحدد نوع الرأس أو التذييل الموجود في ملف Word في C#.
 type: docs
 weight: 3120
 url: /ar/net/aspose.words/headerfootertype/
@@ -25,7 +27,7 @@ public enum HeaderFooterType
 | HeaderFirst | `4` | رأس الصفحة الأولى من القسم. |
 | FooterFirst | `5` | تذييل الصفحة الأولى من القسم. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء الرؤوس والتذييلات في مستند باستخدام DocumentBuilder.
 
@@ -59,5 +61,3 @@ doc.Save(ArtifactsDir + "DocumentBuilder.HeadersAndFooters.docx");
 
 * مساحة الاسم [Aspose.Words](../../aspose.words/)
 * المجسم [Aspose.Words](../../)
-
-

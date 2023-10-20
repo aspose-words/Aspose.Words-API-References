@@ -1,7 +1,9 @@
 ---
 title: BookmarksOutlineLevelCollection.Remove
-second_title: Aspose.Words per .NET API Reference
-description: BookmarksOutlineLevelCollection metodo. Rimuove un segnalibro con il nome specificato dalla raccolta.
+linktitle: Remove
+articleTitle: Remove
+second_title: Aspose.Words per .NET
+description: BookmarksOutlineLevelCollection Remove metodo. Rimuove un segnalibro con il nome specificato dalla raccolta in C#.
 type: docs
 weight: 90
 url: /it/net/aspose.words.saving/bookmarksoutlinelevelcollection/remove/
@@ -18,7 +20,7 @@ public void Remove(string name)
 | --- | --- | --- |
 | name | String | Il nome del segnalibro senza distinzione tra maiuscole e minuscole. |
 
-### Esempi
+## Esempi
 
 Mostra come impostare i livelli di struttura per i segnalibri.
 
@@ -76,7 +78,5 @@ outlineLevels.Clear();
 ### Guarda anche
 
 * class [BookmarksOutlineLevelCollection](../)
-* spazio dei nomi [Aspose.Words.Saving](../../bookmarksoutlinelevelcollection/)
+* spazio dei nomi [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../../)
-
-

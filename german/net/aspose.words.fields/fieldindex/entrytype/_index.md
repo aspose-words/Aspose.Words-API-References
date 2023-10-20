@@ -1,7 +1,9 @@
 ---
 title: FieldIndex.EntryType
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldIndex eigendom. Ruft einen Indexeintragstyp ab der zum Erstellen des Index verwendet wird oder legt diesen fest.
+linktitle: EntryType
+articleTitle: EntryType
+second_title: Aspose.Words für .NET
+description: FieldIndex EntryType eigendom. Ruft einen Indexeintragstyp ab der zum Erstellen des Index verwendet wird oder legt diesen fest in C#.
 type: docs
 weight: 40
 url: /de/net/aspose.words.fields/fieldindex/entrytype/
@@ -14,7 +16,7 @@ Ruft einen Indexeintragstyp ab, der zum Erstellen des Index verwendet wird, oder
 public string EntryType { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie ein INDEX-Feld erstellen und es dann mithilfe von XE-Feldern mit Einträgen füllen.
 
@@ -73,7 +75,5 @@ doc.Save(ArtifactsDir + "Field.INDEX.XE.Filtering.docx");
 ### Siehe auch
 
 * class [FieldIndex](../)
-* namensraum [Aspose.Words.Fields](../../fieldindex/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

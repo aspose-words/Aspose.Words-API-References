@@ -1,7 +1,9 @@
 ---
 title: IMailMergeDataSourceRoot.GetDataSource
-second_title: Referencia de API de Aspose.Words para .NET
-description: IMailMergeDataSourceRoot método. El motor de combinación de correspondencia Aspose.Words invoca este método cuando encuentra el comienzo de una región de combinación de correspondencia de nivel superior.
+linktitle: GetDataSource
+articleTitle: GetDataSource
+second_title: Aspose.Words para .NET
+description: IMailMergeDataSourceRoot GetDataSource método. El motor de combinación de correspondencia Aspose.Words invoca este método cuando encuentra el comienzo de una región de combinación de correspondencia de nivel superior en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words.mailmerging/imailmergedatasourceroot/getdatasource/
@@ -22,13 +24,13 @@ public IMailMergeDataSource GetDataSource(string tableName)
 
 Un objeto de fuente de datos que proporcionará acceso a los registros de datos de la tabla especificada.
 
-### Observaciones
+## Observaciones
 
 Cuando los motores de combinación de correspondencia de Aspose.Words completan un documento con datos y encuentran MERGEFIELD TableStart:TableName, , invoca`GetDataSource` sobre este objeto. Su implementación debe devolver un nuevo objeto de fuente de datos. Aspose.Words utilizará la fuente de datos devuelta para completar la región de combinación de correspondencia.
 
 Si una fuente de datos (tabla) con el nombre especificado no existe, su implementación debería devolver`nulo` .
 
-### Ejemplos
+## Ejemplos
 
 Realiza una combinación de correspondencia desde una fuente de datos personalizada con datos maestros-detalles.
 
@@ -212,7 +214,5 @@ private class EmployeeListMailMergeSource : IMailMergeDataSource
 
 * interface [IMailMergeDataSource](../../imailmergedatasource/)
 * interface [IMailMergeDataSourceRoot](../)
-* espacio de nombres [Aspose.Words.MailMerging](../../imailmergedatasourceroot/)
+* espacio de nombres [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * asamblea [Aspose.Words](../../../)
-
-

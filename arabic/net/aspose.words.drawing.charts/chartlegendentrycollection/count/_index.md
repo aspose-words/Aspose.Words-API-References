@@ -1,7 +1,9 @@
 ---
 title: ChartLegendEntryCollection.Count
-second_title: Aspose.Words لمراجع .NET API
-description: ChartLegendEntryCollection ملكية. إرجاع عددChartLegendEntry في هذه المجموعة.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words لـ .NET
+description: ChartLegendEntryCollection Count ملكية. إرجاع عددChartLegendEntry في هذه المجموعة في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.drawing.charts/chartlegendentrycollection/count/
@@ -17,7 +19,5 @@ public int Count { get; }
 ### أنظر أيضا
 
 * class [ChartLegendEntryCollection](../)
-* مساحة الاسم [Aspose.Words.Drawing.Charts](../../chartlegendentrycollection/)
+* مساحة الاسم [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../../)
-
-

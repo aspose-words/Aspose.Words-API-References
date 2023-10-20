@@ -1,7 +1,9 @@
 ---
 title: RevisionCollection.Item
-second_title: Aspose.Words for .NET API 参考
-description: RevisionCollection 财产. 返回一个Revision在指定的索引处
+linktitle: Item
+articleTitle: Item
+second_title: 用于 .NET 的 Aspose.Words
+description: RevisionCollection Item 财产. 返回一个Revision在指定的索引处 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words/revisioncollection/item/
@@ -18,7 +20,7 @@ public Revision this[int index] { get; }
 | --- | --- |
 | index | 集合的索引。 |
 
-### 评论
+## 评论
 
 该索引是从零开始的。
 
@@ -28,7 +30,7 @@ public Revision this[int index] { get; }
 
 如果索引为负并且其绝对值大于列表中的项目数，则返回空引用。
 
-### 例子
+## 例子
 
 展示如何处理文档中的修订。
 
@@ -112,7 +114,5 @@ Assert.AreEqual("This is revision #1. \rThis is revision #2.", doc.GetText().Tri
 
 * class [Revision](../../revision/)
 * class [RevisionCollection](../)
-* 命名空间 [Aspose.Words](../../revisioncollection/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

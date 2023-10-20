@@ -1,12 +1,14 @@
 ---
 title: Aspose.Words.Saving
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Le Aspose.Words.Saving lespace de noms fournit des classes et des énumérations qui permettent de spécifier des options supplémentaires pour enregistrer ou convertir des documents.
+linktitle: Aspose.Words.Saving
+articleTitle: Aspose.Words.Saving
+second_title: Aspose.Words pour .NET
+description: LeAspose.Words.Saving lespace de noms fournit des classes et des énumérations qui permettent de spécifier des options supplémentaires pour enregistrer ou convertir des documents en C#.
 type: docs
 weight: 230
 url: /fr/net/aspose.words.saving/
 ---
-Le **Aspose.Words.Saving** l'espace de noms fournit des classes et des énumérations qui permettent de spécifier des options supplémentaires pour enregistrer ou convertir des documents.
+Le**Aspose.Words.Saving** l'espace de noms fournit des classes et des énumérations qui permettent de spécifier des options supplémentaires pour enregistrer ou convertir des documents.
 
 ## Des classes
 
@@ -108,5 +110,3 @@ Le **Aspose.Words.Saving** l'espace de noms fournit des classes et des énuméra
 | [TableContentAlignment](./tablecontentalignment/) | Permet de préciser l'alignement du contenu du tableau à utiliser lors de l'export au format Markdown. |
 | [TiffCompression](./tiffcompression/) | Spécifie le type de compression à appliquer lors de l'enregistrement des images de page dans un fichier TIFF. |
 | [TxtExportHeadersFootersMode](./txtexportheadersfootersmode/) | Spécifie la manière dont les en-têtes et les pieds de page sont exportés au format texte brut. |
-
-

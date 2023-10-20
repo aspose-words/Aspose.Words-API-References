@@ -1,7 +1,9 @@
 ---
 title: ChartXValue.FromString
-second_title: Aspose.Words för .NET API Referens
-description: ChartXValue metod. Skapar enChartXValue instans avString typ.
+linktitle: FromString
+articleTitle: FromString
+second_title: Aspose.Words för .NET
+description: ChartXValue FromString metod. Skapar enChartXValue instans avString typ i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.drawing.charts/chartxvalue/fromstring/
@@ -14,7 +16,7 @@ Skapar en[`ChartXValue`](../) instans avString typ.
 public static ChartXValue FromString(string value)
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man lägger till/tar bort diagramdatavärden.
 
@@ -42,7 +44,5 @@ doc.Save(ArtifactsDir + "Charts.ChartDataValues.docx");
 ### Se även
 
 * class [ChartXValue](../)
-* namnutrymme [Aspose.Words.Drawing.Charts](../../chartxvalue/)
+* namnutrymme [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../../)
-
-

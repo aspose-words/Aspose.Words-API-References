@@ -1,7 +1,9 @@
 ---
 title: ChartMultilevelValue.Equals
-second_title: Aspose.Words för .NET API Referens
-description: ChartMultilevelValue metod. Får en flagga som indikerar om det angivna objektet är lika med det aktuella flernivådataobjektet.
+linktitle: Equals
+articleTitle: Equals
+second_title: Aspose.Words för .NET
+description: ChartMultilevelValue Equals metod. Får en flagga som indikerar om det angivna objektet är lika med det aktuella flernivådataobjektet i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.drawing.charts/chartmultilevelvalue/equals/
@@ -17,7 +19,5 @@ public override bool Equals(object obj)
 ### Se även
 
 * class [ChartMultilevelValue](../)
-* namnutrymme [Aspose.Words.Drawing.Charts](../../chartmultilevelvalue/)
+* namnutrymme [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../../)
-
-

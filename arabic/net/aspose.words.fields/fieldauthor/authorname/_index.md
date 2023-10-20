@@ -1,7 +1,9 @@
 ---
 title: FieldAuthor.AuthorName
-second_title: Aspose.Words لمراجع .NET API
-description: FieldAuthor ملكية. الحصول على اسم مؤلف المستند أو تعيينه.
+linktitle: AuthorName
+articleTitle: AuthorName
+second_title: Aspose.Words لـ .NET
+description: FieldAuthor AuthorName ملكية. الحصول على اسم مؤلف المستند أو تعيينه في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.fields/fieldauthor/authorname/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldauthor/authorname/
 public string AuthorName { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام حقل المؤلف لعرض اسم منشئ المستند.
 
@@ -69,7 +71,5 @@ doc.Save(ArtifactsDir + "Field.AUTHOR.docx");
 ### أنظر أيضا
 
 * class [FieldAuthor](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldauthor/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: FieldOcx.FieldOcx
-second_title: Aspose.Words per .NET API Reference
-description: FieldOcx costruttore. Default_Costruttore
+title: FieldOcx
+linktitle: FieldOcx
+articleTitle: FieldOcx
+second_title: Aspose.Words per .NET
+description: FieldOcx costruttore. Default_Costruttore in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words.fields/fieldocx/fieldocx/
@@ -17,7 +19,5 @@ public FieldOcx()
 ### Guarda anche
 
 * class [FieldOcx](../)
-* spazio dei nomi [Aspose.Words.Fields](../../fieldocx/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

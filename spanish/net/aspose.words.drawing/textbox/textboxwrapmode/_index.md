@@ -1,7 +1,9 @@
 ---
 title: TextBox.TextBoxWrapMode
-second_title: Referencia de API de Aspose.Words para .NET
-description: TextBox propiedad. Determina cómo se ajusta el texto dentro de una forma.
+linktitle: TextBoxWrapMode
+articleTitle: TextBoxWrapMode
+second_title: Aspose.Words para .NET
+description: TextBox TextBoxWrapMode propiedad. Determina cómo se ajusta el texto dentro de una forma en C#.
 type: docs
 weight: 110
 url: /es/net/aspose.words.drawing/textbox/textboxwrapmode/
@@ -14,11 +16,11 @@ Determina cómo se ajusta el texto dentro de una forma.
 public TextBoxWrapMode TextBoxWrapMode { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 El valor predeterminado esSquare.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo configurar un modo de ajuste para el contenido de un cuadro de texto.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "Shape.TextBoxContentsWrapMode.docx");
 
 * enum [TextBoxWrapMode](../../textboxwrapmode/)
 * class [TextBox](../)
-* espacio de nombres [Aspose.Words.Drawing](../../textbox/)
+* espacio de nombres [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * asamblea [Aspose.Words](../../../)
-
-

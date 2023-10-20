@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.OutlineLevel
-second_title: Aspose.Words per .NET API Reference
-description: ParagraphFormat proprietà. Specifica il livello di struttura del paragrafo nel documento.
+linktitle: OutlineLevel
+articleTitle: OutlineLevel
+second_title: Aspose.Words per .NET
+description: ParagraphFormat OutlineLevel proprietà. Specifica il livello di struttura del paragrafo nel documento in C#.
 type: docs
 weight: 250
 url: /it/net/aspose.words/paragraphformat/outlinelevel/
@@ -14,7 +16,7 @@ Specifica il livello di struttura del paragrafo nel documento.
 public OutlineLevel OutlineLevel { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come configurare i livelli della struttura del paragrafo per creare testo comprimibile.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "ParagraphFormat.ParagraphOutlineLevel.docx");
 
 * enum [OutlineLevel](../../outlinelevel/)
 * class [ParagraphFormat](../)
-* spazio dei nomi [Aspose.Words](../../paragraphformat/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.InsertComboBox
-second_title: Referencia de API de Aspose.Words para .NET
-description: DocumentBuilder método. Inserta un campo de formulario de cuadro combinado en la posición actual.
+linktitle: InsertComboBox
+articleTitle: InsertComboBox
+second_title: Aspose.Words para .NET
+description: DocumentBuilder InsertComboBox método. Inserta un campo de formulario de cuadro combinado en la posición actual en C#.
 type: docs
 weight: 300
 url: /es/net/aspose.words/documentbuilder/insertcombobox/
@@ -24,11 +26,11 @@ public FormField InsertComboBox(string name, string[] items, int selectedIndex)
 
 El nodo del campo de formulario que se acaba de insertar.
 
-### Observaciones
+## Observaciones
 
 Si especifica un nombre para el campo del formulario, se crea automáticamente un marcador con el mismo nombre.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo insertar un campo de formulario de cuadro combinado en un documento.
 
@@ -71,7 +73,5 @@ builder.Document.Save(ArtifactsDir + "DocumentBuilder.CreateForm.docx");
 
 * class [FormField](../../../aspose.words.fields/formfield/)
 * class [DocumentBuilder](../)
-* espacio de nombres [Aspose.Words](../../documentbuilder/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

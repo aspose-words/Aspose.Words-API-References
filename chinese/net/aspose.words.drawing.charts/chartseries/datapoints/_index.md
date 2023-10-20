@@ -1,7 +1,9 @@
 ---
 title: ChartSeries.DataPoints
-second_title: Aspose.Words for .NET API 参考
-description: ChartSeries 财产. 返回该系列中所有数据点的格式化对象的集合
+linktitle: DataPoints
+articleTitle: DataPoints
+second_title: 用于 .NET 的 Aspose.Words
+description: ChartSeries DataPoints 财产. 返回该系列中所有数据点的格式化对象的集合 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.drawing.charts/chartseries/datapoints/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.drawing.charts/chartseries/datapoints/
 public ChartDataPointCollection DataPoints { get; }
 ```
 
-### 例子
+## 例子
 
 展示如何将标签应用到折线图中的数据点。
 
@@ -93,7 +95,5 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
 
 * class [ChartDataPointCollection](../../chartdatapointcollection/)
 * class [ChartSeries](../)
-* 命名空间 [Aspose.Words.Drawing.Charts](../../chartseries/)
+* 命名空间 [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * 部件 [Aspose.Words](../../../)
-
-

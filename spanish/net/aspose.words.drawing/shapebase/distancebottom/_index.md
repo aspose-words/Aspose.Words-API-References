@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.DistanceBottom
-second_title: Referencia de API de Aspose.Words para .NET
-description: ShapeBase propiedad. Devuelve o establece la distancia en puntos entre el texto del documento y el borde inferior de la forma.
+linktitle: DistanceBottom
+articleTitle: DistanceBottom
+second_title: Aspose.Words para .NET
+description: ShapeBase DistanceBottom propiedad. Devuelve o establece la distancia en puntos entre el texto del documento y el borde inferior de la forma en C#.
 type: docs
 weight: 130
 url: /es/net/aspose.words.drawing/shapebase/distancebottom/
@@ -14,13 +16,13 @@ Devuelve o establece la distancia (en puntos) entre el texto del documento y el 
 public double DistanceBottom { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 El valor predeterminado es 0.
 
 Tiene efecto sólo para formas de nivel superior.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo establecer la distancia de ajuste para un texto que rodea una forma.
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "Shape.Coordinates.docx");
 ### Ver también
 
 * class [ShapeBase](../)
-* espacio de nombres [Aspose.Words.Drawing](../../shapebase/)
+* espacio de nombres [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * asamblea [Aspose.Words](../../../)
-
-

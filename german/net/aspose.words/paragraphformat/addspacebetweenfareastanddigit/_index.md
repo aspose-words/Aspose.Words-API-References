@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.AddSpaceBetweenFarEastAndDigit
-second_title: Aspose.Words für .NET-API-Referenz
-description: ParagraphFormat eigendom. Ruft ein Flag ab oder legt es fest das angibt ob der Zeichenabstand zwischen Regionen von Zahlen und Regionen ostasiatischen Texts im aktuellen Absatz automatisch angepasst wird.
+linktitle: AddSpaceBetweenFarEastAndDigit
+articleTitle: AddSpaceBetweenFarEastAndDigit
+second_title: Aspose.Words für .NET
+description: ParagraphFormat AddSpaceBetweenFarEastAndDigit eigendom. Ruft ein Flag ab oder legt es fest das angibt ob der Zeichenabstand zwischen Regionen von Zahlen und Regionen ostasiatischen Texts im aktuellen Absatz automatisch angepasst wird in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words/paragraphformat/addspacebetweenfareastanddigit/
@@ -14,7 +16,7 @@ Ruft ein Flag ab oder legt es fest, das angibt, ob der Zeichenabstand zwischen R
 public bool AddSpaceBetweenFarEastAndDigit { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Absatz in das Dokument eingefügt wird.
 
@@ -46,7 +48,5 @@ Assert.True(builder.CurrentParagraph.IsEndOfDocument);
 ### Siehe auch
 
 * class [ParagraphFormat](../)
-* namensraum [Aspose.Words](../../paragraphformat/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

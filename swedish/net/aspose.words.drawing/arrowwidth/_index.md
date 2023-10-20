@@ -1,7 +1,9 @@
 ---
-title: Enum ArrowWidth
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Drawing.ArrowWidth uppräkning. Bredd på pilen i slutet av en linje.
+title: ArrowWidth Enum
+linktitle: ArrowWidth
+articleTitle: ArrowWidth
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Drawing.ArrowWidth uppräkning. Bredd på pilen i slutet av en linje i C#.
 type: docs
 weight: 500
 url: /sv/net/aspose.words.drawing/arrowwidth/
@@ -23,7 +25,7 @@ public enum ArrowWidth
 | Wide | `2` |  |
 | Default | `0` | Samma somNarrow . |
 
-### Exempel
+## Exempel
 
 Visar för att skapa en mängd olika former.
 
@@ -101,5 +103,3 @@ doc.Save(ArtifactsDir + "Drawing.VariousShapes.docx");
 * property [EndArrowWidth](../stroke/endarrowwidth/)
 * namnutrymme [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../)
-
-

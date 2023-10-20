@@ -1,7 +1,9 @@
 ---
 title: Document.MailMergeSettings
-second_title: Aspose.Words per .NET API Reference
-description: Document proprietà. Ottiene o imposta loggetto che contiene tutte le informazioni sulla stampa unione per un documento.
+linktitle: MailMergeSettings
+articleTitle: MailMergeSettings
+second_title: Aspose.Words per .NET
+description: Document MailMergeSettings proprietà. Ottiene o imposta loggetto che contiene tutte le informazioni sulla stampa unione per un documento in C#.
 type: docs
 weight: 270
 url: /it/net/aspose.words/document/mailmergesettings/
@@ -14,13 +16,13 @@ Ottiene o imposta l'oggetto che contiene tutte le informazioni sulla stampa unio
 public MailMergeSettings MailMergeSettings { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 È possibile utilizzare questo oggetto per specificare un'origine dati di stampa unione per un documento e queste informazioni (insieme ai campi dati disponibili) verranno visualizzate in Microsoft Word quando l'utente apre questo documento. Oppure è possibile utilizzare questo oggetto per eseguire query sulle impostazioni di stampa unione che l'utente ha specificato in Microsoft Word per questo documento.
 
 Questo oggetto non lo è mai`nullo`.
 
-### Esempi
+## Esempi
 
 Mostra come eseguire una stampa unione con i dati di un oggetto origine dati di Office.
 
@@ -73,7 +75,5 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 
 * class [MailMergeSettings](../../../aspose.words.settings/mailmergesettings/)
 * class [Document](../)
-* spazio dei nomi [Aspose.Words](../../document/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

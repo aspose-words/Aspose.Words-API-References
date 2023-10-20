@@ -1,7 +1,9 @@
 ---
 title: OoxmlSaveOptions.CompressionLevel
-second_title: Aspose.Words for .NET API 参考
-description: OoxmlSaveOptions 财产. 指定用于保存文档的压缩级别 默认值为Normal.
+linktitle: CompressionLevel
+articleTitle: CompressionLevel
+second_title: 用于 .NET 的 Aspose.Words
+description: OoxmlSaveOptions CompressionLevel 财产. 指定用于保存文档的压缩级别 默认值为Normal 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.saving/ooxmlsaveoptions/compressionlevel/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.saving/ooxmlsaveoptions/compressionlevel/
 public CompressionLevel CompressionLevel { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何指定保存 OOXML 文档时要使用的压缩级别。
 
@@ -47,7 +49,5 @@ Console.WriteLine($"\tFile Size:\t{fileInfo.Length} bytes");
 
 * enum [CompressionLevel](../../compressionlevel/)
 * class [OoxmlSaveOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../ooxmlsaveoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.ParentParagraph
-second_title: Aspose.Words per .NET API Reference
-description: ShapeBase proprietà. Restituisce il paragrafo principale immediato.
+linktitle: ParentParagraph
+articleTitle: ParentParagraph
+second_title: Aspose.Words per .NET
+description: ShapeBase ParentParagraph proprietà. Restituisce il paragrafo principale immediato in C#.
 type: docs
 weight: 410
 url: /it/net/aspose.words.drawing/shapebase/parentparagraph/
@@ -14,11 +16,11 @@ Restituisce il paragrafo principale immediato.
 public Paragraph ParentParagraph { get; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Per le forme secondarie di una forma di gruppo e le forme secondarie di un oggetto Office Math restituisce sempre`nullo`.
 
-### Esempi
+## Esempi
 
 Mostra come inserire una casella di testo e impostare il carattere del suo contenuto.
 
@@ -57,7 +59,5 @@ doc.Save(ArtifactsDir + "Shape.Font.docx");
 
 * class [Paragraph](../../../aspose.words/paragraph/)
 * class [ShapeBase](../)
-* spazio dei nomi [Aspose.Words.Drawing](../../shapebase/)
+* spazio dei nomi [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assemblea [Aspose.Words](../../../)
-
-

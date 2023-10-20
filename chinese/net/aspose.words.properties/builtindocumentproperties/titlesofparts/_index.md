@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.TitlesOfParts
-second_title: Aspose.Words for .NET API 参考
-description: BuiltInDocumentProperties 财产. 数组中的每个字符串指定文档中某个部分的名称
+linktitle: TitlesOfParts
+articleTitle: TitlesOfParts
+second_title: 用于 .NET 的 Aspose.Words
+description: BuiltInDocumentProperties TitlesOfParts 财产. 数组中的每个字符串指定文档中某个部分的名称 在 C#.
 type: docs
 weight: 300
 url: /zh/net/aspose.words.properties/builtindocumentproperties/titlesofparts/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.properties/builtindocumentproperties/titlesofparts/
 public string[] TitlesOfParts { get; set; }
 ```
 
-### 评论
+## 评论
 
 Aspose.Words 不会更新此属性。
 
-### 例子
+## 例子
 
 显示“HeadingPairs”和“TitlesOfParts”属性之间的关系。
 
@@ -49,7 +51,5 @@ while (headingPairsIndex < headingPairs.Length)
 ### 也可以看看
 
 * class [BuiltInDocumentProperties](../)
-* 命名空间 [Aspose.Words.Properties](../../builtindocumentproperties/)
+* 命名空间 [Aspose.Words.Properties](../../../aspose.words.properties/)
 * 部件 [Aspose.Words](../../../)
-
-

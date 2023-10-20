@@ -1,7 +1,9 @@
 ---
-title: Enum ListLevelAlignment
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Lists.ListLevelAlignment uppräkning. Anger justering för listnumret eller punkten.
+title: ListLevelAlignment Enum
+linktitle: ListLevelAlignment
+articleTitle: ListLevelAlignment
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Lists.ListLevelAlignment uppräkning. Anger justering för listnumret eller punkten i C#.
 type: docs
 weight: 3510
 url: /sv/net/aspose.words.lists/listlevelalignment/
@@ -22,11 +24,11 @@ public enum ListLevelAlignment
 | Center | `1` | Listetiketten är centrerad vid nummerpositionen. |
 | Right | `2` | Denna listetikett är justerad till höger om nummerpositionen. |
 
-### Anmärkningar
+## Anmärkningar
 
 Används som ett värde för[`Alignment`](../listlevel/alignment/) fast egendom.
 
-### Exempel
+## Exempel
 
 Visar hur du använder anpassad listformatering på stycken när du använder DocumentBuilder.
 
@@ -86,5 +88,3 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateCustomList.docx");
 
 * namnutrymme [Aspose.Words.Lists](../../aspose.words.lists/)
 * hopsättning [Aspose.Words](../../)
-
-

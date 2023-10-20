@@ -1,7 +1,9 @@
 ---
 title: MailMerge.UnconditionalMergeFieldsAndRegions
-second_title: Aspose.Words för .NET API Referens
-description: MailMerge fast egendom. Hämtar eller ställer in ett värde som anger om sammanslagningsfält och sammanslagningsregioner slås samman oavsett det överordnade IFfältets tillstånd.
+linktitle: UnconditionalMergeFieldsAndRegions
+articleTitle: UnconditionalMergeFieldsAndRegions
+second_title: Aspose.Words för .NET
+description: MailMerge UnconditionalMergeFieldsAndRegions fast egendom. Hämtar eller ställer in ett värde som anger om sammanslagningsfält och sammanslagningsregioner slås samman oavsett det överordnade IFfältets tillstånd i C#.
 type: docs
 weight: 140
 url: /sv/net/aspose.words.mailmerging/mailmerge/unconditionalmergefieldsandregions/
@@ -14,11 +16,11 @@ Hämtar eller ställer in ett värde som anger om sammanslagningsfält och samma
 public bool UnconditionalMergeFieldsAndRegions { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Standardvärdet är`falsk` .
 
-### Exempel
+## Exempel
 
 Visar hur man slår samman fält eller regioner oavsett det överordnade IF-fältets tillstånd.
 
@@ -57,7 +59,5 @@ Assert.AreEqual(
 ### Se även
 
 * class [MailMerge](../)
-* namnutrymme [Aspose.Words.MailMerging](../../mailmerge/)
+* namnutrymme [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * hopsättning [Aspose.Words](../../../)
-
-

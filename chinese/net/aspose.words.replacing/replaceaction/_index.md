@@ -1,7 +1,9 @@
 ---
-title: Enum ReplaceAction
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Replacing.ReplaceAction 枚举. 允许用户指定在替换操作期间当前匹配会发生什么情况
+title: ReplaceAction Enum
+linktitle: ReplaceAction
+articleTitle: ReplaceAction
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Replacing.ReplaceAction 枚举. 允许用户指定在替换操作期间当前匹配会发生什么情况 在 C#.
 type: docs
 weight: 4640
 url: /zh/net/aspose.words.replacing/replaceaction/
@@ -22,7 +24,7 @@ public enum ReplaceAction
 | Skip | `1` | 跳过当前匹配。 |
 | Stop | `2` | 终止替换操作。 |
 
-### 例子
+## 例子
 
 演示如何在查找和替换操作中插入整个文档的内容作为匹配项的替换。
 
@@ -100,5 +102,3 @@ private static void InsertDocument(Node insertionDestination, Document docToInse
 * method [Replace](../../aspose.words/range/replace/)
 * 命名空间 [Aspose.Words.Replacing](../../aspose.words.replacing/)
 * 部件 [Aspose.Words](../../)
-
-

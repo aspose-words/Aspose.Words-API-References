@@ -1,7 +1,9 @@
 ---
 title: UserInformation.Address
-second_title: Référence de l'API Aspose.Words pour .NET
-description: UserInformation propriété. Obtient ou définit ladresse postale de lutilisateur.
+linktitle: Address
+articleTitle: Address
+second_title: Aspose.Words pour .NET
+description: UserInformation Address propriété. Obtient ou définit ladresse postale de lutilisateur en C#.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.fields/userinformation/address/
@@ -14,7 +16,7 @@ Obtient ou définit l'adresse postale de l'utilisateur.
 public string Address { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment définir les détails de l'utilisateur et les afficher à l'aide de champs.
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "FieldOptions.CurrentUser.docx");
 ### Voir également
 
 * class [UserInformation](../)
-* espace de noms [Aspose.Words.Fields](../../userinformation/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,9 +1,11 @@
 ---
 title: CellFormat.VerticalAlignment
-second_title: Referencia de API de Aspose.Words para .NET
-description: CellFormat propiedad. Devuelve o establece la alineación vertical del texto en la celda.
+linktitle: VerticalAlignment
+articleTitle: VerticalAlignment
+second_title: Aspose.Words para .NET
+description: CellFormat VerticalAlignment propiedad. Devuelve o establece la alineación vertical del texto en la celda en C#.
 type: docs
-weight: 120
+weight: 110
 url: /es/net/aspose.words.tables/cellformat/verticalalignment/
 ---
 ## CellFormat.VerticalAlignment property
@@ -14,7 +16,7 @@ Devuelve o establece la alineación vertical del texto en la celda.
 public CellVerticalAlignment VerticalAlignment { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear una tabla con bordes personalizados.
 
@@ -81,7 +83,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
 
 * enum [CellVerticalAlignment](../../cellverticalalignment/)
 * class [CellFormat](../)
-* espacio de nombres [Aspose.Words.Tables](../../cellformat/)
+* espacio de nombres [Aspose.Words.Tables](../../../aspose.words.tables/)
 * asamblea [Aspose.Words](../../../)
-
-

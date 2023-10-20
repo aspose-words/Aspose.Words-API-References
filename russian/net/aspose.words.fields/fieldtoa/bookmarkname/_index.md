@@ -1,7 +1,9 @@
 ---
 title: FieldToa.BookmarkName
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldToa свойство. Получает или задает имя закладки которая отмечает часть документа использованную для построения таблицы.
+linktitle: BookmarkName
+articleTitle: BookmarkName
+second_title: Aspose.Words для .NET
+description: FieldToa BookmarkName свойство. Получает или задает имя закладки которая отмечает часть документа использованную для построения таблицы на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.fields/fieldtoa/bookmarkname/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldtoa/bookmarkname/
 public string BookmarkName { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как построить и настроить таблицу авторитетов, используя поля TOA и TA.
 
@@ -137,7 +139,5 @@ private static FieldTA InsertToaEntry(DocumentBuilder builder, string entryCateg
 ### Смотрите также
 
 * class [FieldToa](../)
-* пространство имен [Aspose.Words.Fields](../../fieldtoa/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

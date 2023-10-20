@@ -1,7 +1,9 @@
 ---
-title: Class ChartLegendEntryCollection
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Drawing.Charts.ChartLegendEntryCollection klass. Representerar en samling av diagramförklaringsposter.
+title: ChartLegendEntryCollection Class
+linktitle: ChartLegendEntryCollection
+articleTitle: ChartLegendEntryCollection
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Drawing.Charts.ChartLegendEntryCollection klass. Representerar en samling av diagramförklaringsposter i C#.
 type: docs
 weight: 740
 url: /sv/net/aspose.words.drawing.charts/chartlegendentrycollection/
@@ -29,7 +31,7 @@ public class ChartLegendEntryCollection : IEnumerable<ChartLegendEntry>
 | --- | --- |
 | [GetEnumerator](../../aspose.words.drawing.charts/chartlegendentrycollection/getenumerator/)() | Returnerar ett uppräkningsobjekt. |
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med en förklaringspost för diagramserier.
 
@@ -66,5 +68,3 @@ doc.Save(ArtifactsDir + "Charts.LegendEntries.docx");
 * class [ChartLegendEntry](../chartlegendentry/)
 * namnutrymme [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../)
-
-

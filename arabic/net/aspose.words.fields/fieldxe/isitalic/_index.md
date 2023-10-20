@@ -1,7 +1,9 @@
 ---
 title: FieldXE.IsItalic
-second_title: Aspose.Words لمراجع .NET API
-description: FieldXE ملكية. الحصول على أو تعيين ما إذا كان سيتم تطبيق التنسيق المائل على رقم صفحة الإدخال.
+linktitle: IsItalic
+articleTitle: IsItalic
+second_title: Aspose.Words لـ .NET
+description: FieldXE IsItalic ملكية. الحصول على أو تعيين ما إذا كان سيتم تطبيق التنسيق المائل على رقم صفحة الإدخال في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.fields/fieldxe/isitalic/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldxe/isitalic/
 public bool IsItalic { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعبئة حقل INDEX بالإدخالات باستخدام حقول XE، وكذلك تعديل مظهره.
 
@@ -86,7 +88,5 @@ doc.Save(ArtifactsDir + "Field.INDEX.XE.Formatting.docx");
 ### أنظر أيضا
 
 * class [FieldXE](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldxe/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

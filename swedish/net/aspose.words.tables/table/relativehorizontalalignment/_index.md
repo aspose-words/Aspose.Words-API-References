@@ -1,7 +1,9 @@
 ---
 title: Table.RelativeHorizontalAlignment
-second_title: Aspose.Words för .NET API Referens
-description: Table fast egendom. Hämtar eller ställer in flytande tabell relativ horisontell justering.
+linktitle: RelativeHorizontalAlignment
+articleTitle: RelativeHorizontalAlignment
+second_title: Aspose.Words för .NET
+description: Table RelativeHorizontalAlignment fast egendom. Hämtar eller ställer in flytande tabell relativ horisontell justering i C#.
 type: docs
 weight: 230
 url: /sv/net/aspose.words.tables/table/relativehorizontalalignment/
@@ -14,7 +16,7 @@ Hämtar eller ställer in flytande tabell relativ horisontell justering.
 public HorizontalAlignment RelativeHorizontalAlignment { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man ställer in placeringen av flytande bord.
 
@@ -49,7 +51,5 @@ doc.Save(ArtifactsDir + "Table.ChangeFloatingTableProperties.docx");
 
 * enum [HorizontalAlignment](../../../aspose.words.drawing/horizontalalignment/)
 * class [Table](../)
-* namnutrymme [Aspose.Words.Tables](../../table/)
+* namnutrymme [Aspose.Words.Tables](../../../aspose.words.tables/)
 * hopsättning [Aspose.Words](../../../)
-
-

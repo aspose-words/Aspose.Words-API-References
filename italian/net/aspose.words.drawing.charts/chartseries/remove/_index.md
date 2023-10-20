@@ -1,9 +1,11 @@
 ---
 title: ChartSeries.Remove
-second_title: Aspose.Words per .NET API Reference
-description: ChartSeries metodo. Rimuove il valore X il valore Y e la dimensione della bolla se supportati dalle serie di grafici allindice specificato. Vengono rimossi anche il punto dati e letichetta dati corrispondenti.
+linktitle: Remove
+articleTitle: Remove
+second_title: Aspose.Words per .NET
+description: ChartSeries Remove metodo. Rimuove il valore X il valore Y e la dimensione della bolla se supportati dalle serie di grafici allindice specificato. Vengono rimossi anche il punto dati e letichetta dati corrispondenti in C#.
 type: docs
-weight: 210
+weight: 200
 url: /it/net/aspose.words.drawing.charts/chartseries/remove/
 ---
 ## ChartSeries.Remove method
@@ -14,7 +16,7 @@ Rimuove il valore X, il valore Y e la dimensione della bolla, se supportati, dal
 public void Remove(int index)
 ```
 
-### Esempi
+## Esempi
 
 Mostra come aggiungere/rimuovere i valori dei dati del grafico.
 
@@ -42,7 +44,5 @@ doc.Save(ArtifactsDir + "Charts.ChartDataValues.docx");
 ### Guarda anche
 
 * class [ChartSeries](../)
-* spazio dei nomi [Aspose.Words.Drawing.Charts](../../chartseries/)
+* spazio dei nomi [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * assemblea [Aspose.Words](../../../)
-
-

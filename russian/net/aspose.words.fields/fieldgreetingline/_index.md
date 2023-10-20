@@ -1,7 +1,9 @@
 ---
-title: Class FieldGreetingLine
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Fields.FieldGreetingLine сорт. Реализует поле GREETINGLINE.
+title: FieldGreetingLine Class
+linktitle: FieldGreetingLine
+articleTitle: FieldGreetingLine
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Fields.FieldGreetingLine сорт. Реализует поле GREETINGLINE на С#.
 type: docs
 weight: 1980
 url: /ru/net/aspose.words.fields/fieldgreetingline/
@@ -45,18 +47,18 @@ public class FieldGreetingLine : Field
 | Имя | Описание |
 | --- | --- |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Возвращает текст между началом поля и разделителем поля (или концом поля, если разделителя нет). Включены как код поля, так и результат поля дочерних полей. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Возвращает текст между началом поля и разделителем полей (или концом поля, если разделителя нет). |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | Возвращает текст между началом поля и разделителем полей (или концом поля, если разделителя нет). |
 | [GetFieldNames](../../aspose.words.fields/fieldgreetingline/getfieldnames/)() | Возвращает коллекцию имен полей слияния почты, используемых этим полем. |
 | [Remove](../../aspose.words.fields/field/remove/)() | Удаляет поле из документа. Возвращает узел сразу после поля. Если конец поля является последним дочерним его родительского узла, возвращает его родительский абзац. Если поле уже удалено, возвращается`нулевой` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | Выполняет отсоединение поля. |
 | [Update](../../aspose.words.fields/field/update/)() | Выполняет обновление поля. Выдает, если поле уже обновляется. |
-| [Update](../../aspose.words.fields/field/update/)(bool) | Выполняет обновление поля. Выдает, если поле уже обновляется. |
+| [Update](../../aspose.words.fields/field/update/)(*bool*) | Выполняет обновление поля. Выдает, если поле уже обновляется. |
 
-### Примечания
+## Примечания
 
 Вставляет строку приветствия слияния почты.
 
-### Примеры
+## Примеры
 
 Показывает, как вставить поле GREETINGLINE.
 
@@ -118,5 +120,3 @@ Assert.AreEqual("Dear Mr. Doe,\r\r\tThis is your custom greeting, created progra
 * class [Field](../field/)
 * пространство имен [Aspose.Words.Fields](../../aspose.words.fields/)
 * сборка [Aspose.Words](../../)
-
-

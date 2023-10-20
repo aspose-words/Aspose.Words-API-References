@@ -1,7 +1,9 @@
 ---
 title: PsSaveOptions.UseBookFoldPrintingSettings
-second_title: Référence de l'API Aspose.Words pour .NET
-description: PsSaveOptions propriété. Obtient ou définit une valeur booléenne indiquant si le document doit être enregistré à laide dune mise en page dimpression en livret sil est spécifié viaMultiplePages .
+linktitle: UseBookFoldPrintingSettings
+articleTitle: UseBookFoldPrintingSettings
+second_title: Aspose.Words pour .NET
+description: PsSaveOptions UseBookFoldPrintingSettings propriété. Obtient ou définit une valeur booléenne indiquant si le document doit être enregistré à laide dune mise en page dimpression en livret sil est spécifié viaMultiplePages  en C#.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.saving/pssaveoptions/usebookfoldprintingsettings/
@@ -14,11 +16,11 @@ Obtient ou définit une valeur booléenne indiquant si le document doit être en
 public bool UseBookFoldPrintingSettings { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 Si cette option est spécifiée,[`PageSet`](../../fixedpagesaveoptions/pageset/) est ignoré lors de l'enregistrement. Ce comportement correspond à MS Word. Si les paramètres d'impression du pli du livre ne sont pas spécifiés dans la mise en page, cette option n'aura aucun effet.
 
-### Exemples
+## Exemples
 
 Montre comment enregistrer un document au format Postscript sous la forme d'un pli de livre.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "PsSaveOptions.UseBookFoldPrintingSettings.ps", saveOpti
 ### Voir également
 
 * class [PsSaveOptions](../)
-* espace de noms [Aspose.Words.Saving](../../pssaveoptions/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

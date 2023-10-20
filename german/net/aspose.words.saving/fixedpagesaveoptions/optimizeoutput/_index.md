@@ -1,7 +1,9 @@
 ---
 title: FixedPageSaveOptions.OptimizeOutput
-second_title: Aspose.Words für .NET-API-Referenz
-description: FixedPageSaveOptions eigendom. Flag gibt an ob es zur Optimierung der Ausgabe erforderlich ist. Wenn dieses Flag gesetzt ist werden redundante verschachtelte Leinwände und leere Leinwände entfernt auch benachbarte Glyphen mit derselben Formatierung werden verkettet. Hinweis Die Genauigkeit der Inhaltsanzeige kann beeinträchtigt werden wenn Diese Eigenschaft ist auf festgelegtWAHR . Standard istFALSCH .
+linktitle: OptimizeOutput
+articleTitle: OptimizeOutput
+second_title: Aspose.Words für .NET
+description: FixedPageSaveOptions OptimizeOutput eigendom. Flag gibt an ob es zur Optimierung der Ausgabe erforderlich ist. Wenn dieses Flag gesetzt ist werden redundante verschachtelte Leinwände und leere Leinwände entfernt auch benachbarte Glyphen mit derselben Formatierung werden verkettet. Hinweis Die Genauigkeit der Inhaltsanzeige kann beeinträchtigt werden wenn Diese Eigenschaft ist auf festgelegtWAHR . Standard istFALSCH  in C#.
 type: docs
 weight: 50
 url: /de/net/aspose.words.saving/fixedpagesaveoptions/optimizeoutput/
@@ -14,7 +16,7 @@ Flag gibt an, ob es zur Optimierung der Ausgabe erforderlich ist. Wenn dieses Fl
 public virtual bool OptimizeOutput { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Dokumentobjekte beim Speichern im XPS optimiert werden.
 
@@ -37,7 +39,5 @@ doc.Save(ArtifactsDir + "XpsSaveOptions.OptimizeOutput.xps", saveOptions);
 ### Siehe auch
 
 * class [FixedPageSaveOptions](../)
-* namensraum [Aspose.Words.Saving](../../fixedpagesaveoptions/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: List.ListId
-second_title: Aspose.Words لمراجع .NET API
-description: List ملكية. الحصول على المعرف الفريد للقائمة.
+linktitle: ListId
+articleTitle: ListId
+second_title: Aspose.Words لـ .NET
+description: List ListId ملكية. الحصول على المعرف الفريد للقائمة في C#.
 type: docs
 weight: 60
 url: /ar/net/aspose.words.lists/list/listid/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.lists/list/listid/
 public int ListId { get; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 لا تحتاج عادةً إلى استخدام هذه الخاصية. ولكن إذا كنت تستخدمه، فإنك عادةً ما تفعل ذلك بالتزامن مع[`GetListByListId`](../../listcollection/getlistbylistid/) طريقة للعثور على قائمة a بواسطة معرفها.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التحقق من خصائص مستند المالك للقوائم.
 
@@ -67,7 +69,5 @@ foreach (Paragraph para in paras.OfType<Paragraph>().Where(p => p.ListFormat.IsL
 ### أنظر أيضا
 
 * class [List](../)
-* مساحة الاسم [Aspose.Words.Lists](../../list/)
+* مساحة الاسم [Aspose.Words.Lists](../../../aspose.words.lists/)
 * المجسم [Aspose.Words](../../../)
-
-

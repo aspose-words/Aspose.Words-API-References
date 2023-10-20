@@ -1,7 +1,9 @@
 ---
 title: Shape.LastParagraph
-second_title: Aspose.Words för .NET API Referens
-description: Shape fast egendom. Får det sista stycket i formen.
+linktitle: LastParagraph
+articleTitle: LastParagraph
+second_title: Aspose.Words för .NET
+description: Shape LastParagraph fast egendom. Får det sista stycket i formen i C#.
 type: docs
 weight: 120
 url: /sv/net/aspose.words.drawing/shape/lastparagraph/
@@ -14,7 +16,7 @@ Får det sista stycket i formen.
 public Paragraph LastParagraph { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man ställer in orienteringen för text inuti en textruta.
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "Shape.TextBoxLayoutFlow.docx");
 
 * class [Paragraph](../../../aspose.words/paragraph/)
 * class [Shape](../)
-* namnutrymme [Aspose.Words.Drawing](../../shape/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

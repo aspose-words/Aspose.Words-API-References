@@ -1,7 +1,9 @@
 ---
 title: TaskPane.IsLocked
-second_title: Aspose.Words لمراجع .NET API
-description: TaskPane ملكية. يحدد ما إذا كان جزء المهام مقفلاً على المستند في واجهة المستخدم ولا يمكن للمستخدم إغلاقه.
+linktitle: IsLocked
+articleTitle: IsLocked
+second_title: Aspose.Words لـ .NET
+description: TaskPane IsLocked ملكية. يحدد ما إذا كان جزء المهام مقفلاً على المستند في واجهة المستخدم ولا يمكن للمستخدم إغلاقه في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.webextensions/taskpane/islocked/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.webextensions/taskpane/islocked/
 public bool IsLocked { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إضافة ملحق ويب إلى مستند.
 
@@ -59,7 +61,5 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 ### أنظر أيضا
 
 * class [TaskPane](../)
-* مساحة الاسم [Aspose.Words.WebExtensions](../../taskpane/)
+* مساحة الاسم [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * المجسم [Aspose.Words](../../../)
-
-

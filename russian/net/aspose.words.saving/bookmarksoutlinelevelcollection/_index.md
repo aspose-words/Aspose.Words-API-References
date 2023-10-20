@@ -1,7 +1,9 @@
 ---
-title: Class BookmarksOutlineLevelCollection
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Saving.BookmarksOutlineLevelCollection сорт. Коллекция отдельных уровней структуры закладок.
+title: BookmarksOutlineLevelCollection Class
+linktitle: BookmarksOutlineLevelCollection
+articleTitle: BookmarksOutlineLevelCollection
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Saving.BookmarksOutlineLevelCollection сорт. Коллекция отдельных уровней структуры закладок на С#.
 type: docs
 weight: 4850
 url: /ru/net/aspose.words.saving/bookmarksoutlinelevelcollection/
@@ -33,21 +35,21 @@ public class BookmarksOutlineLevelCollection : IEnumerable<KeyValuePair<string, 
 
 | Имя | Описание |
 | --- | --- |
-| [Add](../../aspose.words.saving/bookmarksoutlinelevelcollection/add/)(string, int) | Добавляет закладку в коллекцию. |
+| [Add](../../aspose.words.saving/bookmarksoutlinelevelcollection/add/)(*string, int*) | Добавляет закладку в коллекцию. |
 | [Clear](../../aspose.words.saving/bookmarksoutlinelevelcollection/clear/)() | Удаляет все элементы из коллекции. |
-| [Contains](../../aspose.words.saving/bookmarksoutlinelevelcollection/contains/)(string) | Определяет, содержит ли коллекция закладку с заданным именем. |
+| [Contains](../../aspose.words.saving/bookmarksoutlinelevelcollection/contains/)(*string*) | Определяет, содержит ли коллекция закладку с заданным именем. |
 | [GetEnumerator](../../aspose.words.saving/bookmarksoutlinelevelcollection/getenumerator/)() | Возвращает объект перечислителя, который можно использовать для перебора всех элементов коллекции. |
-| [IndexOfKey](../../aspose.words.saving/bookmarksoutlinelevelcollection/indexofkey/)(string) | Возвращает отсчитываемый от нуля индекс указанной закладки в коллекции. |
-| [Remove](../../aspose.words.saving/bookmarksoutlinelevelcollection/remove/)(string) | Удаляет закладку с указанным именем из коллекции. |
-| [RemoveAt](../../aspose.words.saving/bookmarksoutlinelevelcollection/removeat/)(int) | Удаляет закладку по указанному индексу. |
+| [IndexOfKey](../../aspose.words.saving/bookmarksoutlinelevelcollection/indexofkey/)(*string*) | Возвращает отсчитываемый от нуля индекс указанной закладки в коллекции. |
+| [Remove](../../aspose.words.saving/bookmarksoutlinelevelcollection/remove/)(*string*) | Удаляет закладку с указанным именем из коллекции. |
+| [RemoveAt](../../aspose.words.saving/bookmarksoutlinelevelcollection/removeat/)(*int*) | Удаляет закладку по указанному индексу. |
 
-### Примечания
+## Примечания
 
 Ключ — это строковое имя закладки, не учитывающее регистр. Значение — это уровень структуры закладки int.
 
 Уровень структуры закладки может иметь значение от 0 до 9. Укажите 0, и закладка Word не будет отображаться в структуре документа. Укажите 1, и закладка Word будет отображаться в структуре документа на уровне 1; 2 для уровня 2 и так далее.
 
-### Примеры
+## Примеры
 
 Показывает, как установить уровни структуры для закладок.
 
@@ -106,5 +108,3 @@ outlineLevels.Clear();
 
 * пространство имен [Aspose.Words.Saving](../../aspose.words.saving/)
 * сборка [Aspose.Words](../../)
-
-

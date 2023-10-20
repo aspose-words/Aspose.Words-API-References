@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.DisplayUnit
-second_title: Справочник по API Aspose.Words для .NET
-description: ChartAxis свойство. Определяет значение масштабирования единиц отображения для оси значений.
+linktitle: DisplayUnit
+articleTitle: DisplayUnit
+second_title: Aspose.Words для .NET
+description: ChartAxis DisplayUnit свойство. Определяет значение масштабирования единиц отображения для оси значений на С#.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.drawing.charts/chartaxis/displayunit/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.drawing.charts/chartaxis/displayunit/
 public AxisDisplayUnit DisplayUnit { get; }
 ```
 
-### Примечания
+## Примечания
 
 Свойство действует только для осей значений.
 
-### Примеры
+## Примеры
 
 Показывает, как манипулировать делениями и отображаемыми значениями оси диаграммы.
 
@@ -77,7 +79,5 @@ doc.Save(ArtifactsDir + "Charts.AxisDisplayUnit.docx");
 
 * class [AxisDisplayUnit](../../axisdisplayunit/)
 * class [ChartAxis](../)
-* пространство имен [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* пространство имен [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../../)
-
-

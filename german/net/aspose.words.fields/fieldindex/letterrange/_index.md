@@ -1,7 +1,9 @@
 ---
 title: FieldIndex.LetterRange
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldIndex eigendom. Ruft einen Buchstabenbereich ab auf den der Index beschränkt wird oder legt diesen fest.
+linktitle: LetterRange
+articleTitle: LetterRange
+second_title: Aspose.Words für .NET
+description: FieldIndex LetterRange eigendom. Ruft einen Buchstabenbereich ab auf den der Index beschränkt wird oder legt diesen fest in C#.
 type: docs
 weight: 90
 url: /de/net/aspose.words.fields/fieldindex/letterrange/
@@ -14,7 +16,7 @@ Ruft einen Buchstabenbereich ab, auf den der Index beschränkt wird, oder legt d
 public string LetterRange { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man ein INDEX-Feld mithilfe von XE-Feldern mit Einträgen füllt und auch sein Erscheinungsbild ändert.
 
@@ -86,7 +88,5 @@ doc.Save(ArtifactsDir + "Field.INDEX.XE.Formatting.docx");
 ### Siehe auch
 
 * class [FieldIndex](../)
-* namensraum [Aspose.Words.Fields](../../fieldindex/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

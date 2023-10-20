@@ -1,7 +1,9 @@
 ---
 title: RevisionOptions.RevisionBarsPosition
-second_title: Référence de l'API Aspose.Words pour .NET
-description: RevisionOptions propriété. Obtient ou définit la position de rendu des barres de révision. La valeur par défaut estOutside .
+linktitle: RevisionBarsPosition
+articleTitle: RevisionBarsPosition
+second_title: Aspose.Words pour .NET
+description: RevisionOptions RevisionBarsPosition propriété. Obtient ou définit la position de rendu des barres de révision. La valeur par défaut estOutside  en C#.
 type: docs
 weight: 140
 url: /fr/net/aspose.words.layout/revisionoptions/revisionbarsposition/
@@ -14,7 +16,7 @@ Obtient ou définit la position de rendu des barres de révision. La valeur par 
 public HorizontalAlignment RevisionBarsPosition { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 Valeurs deCenter etInside ne sont pas autorisés et entraînerontArgumentOutOfRangeException.
 
@@ -22,7 +24,5 @@ Valeurs deCenter etInside ne sont pas autorisés et entraînerontArgumentOutOfRa
 
 * enum [HorizontalAlignment](../../../aspose.words.drawing/horizontalalignment/)
 * class [RevisionOptions](../)
-* espace de noms [Aspose.Words.Layout](../../revisionoptions/)
+* espace de noms [Aspose.Words.Layout](../../../aspose.words.layout/)
 * Assemblée [Aspose.Words](../../../)
-
-

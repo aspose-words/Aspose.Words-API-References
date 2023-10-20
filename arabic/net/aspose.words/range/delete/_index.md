@@ -1,7 +1,9 @@
 ---
 title: Range.Delete
-second_title: Aspose.Words لمراجع .NET API
-description: Range طريقة. حذف كافة أحرف النطاق.
+linktitle: Delete
+articleTitle: Delete
+second_title: Aspose.Words لـ .NET
+description: Range Delete طريقة. حذف كافة أحرف النطاق في C#.
 type: docs
 weight: 70
 url: /ar/net/aspose.words/range/delete/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/range/delete/
 public void Delete()
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية حذف جميع العقد من النطاق.
 
@@ -40,7 +42,5 @@ Assert.AreEqual("Section 2.", doc.GetText().Trim());
 ### أنظر أيضا
 
 * class [Range](../)
-* مساحة الاسم [Aspose.Words](../../range/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

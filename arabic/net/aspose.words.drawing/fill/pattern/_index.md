@@ -1,9 +1,11 @@
 ---
 title: Fill.Pattern
-second_title: Aspose.Words لمراجع .NET API
-description: Fill ملكية. يحصل علىPatternType للتعبئة.
+linktitle: Pattern
+articleTitle: Pattern
+second_title: Aspose.Words لـ .NET
+description: Fill Pattern ملكية. يحصل علىPatternType للتعبئة في C#.
 type: docs
-weight: 160
+weight: 150
 url: /ar/net/aspose.words.drawing/fill/pattern/
 ---
 ## Fill.Pattern property
@@ -18,7 +20,5 @@ public PatternType Pattern { get; }
 
 * enum [PatternType](../../patterntype/)
 * class [Fill](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../fill/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

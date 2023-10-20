@@ -1,7 +1,9 @@
 ---
-title: CompareOptions.CompareOptions
-second_title: Référence de l'API Aspose.Words pour .NET
-description: CompareOptions constructeur. Default_Constructor
+title: CompareOptions
+linktitle: CompareOptions
+articleTitle: CompareOptions
+second_title: Aspose.Words pour .NET
+description: CompareOptions constructeur. Default_Constructor en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.comparing/compareoptions/compareoptions/
@@ -17,7 +19,5 @@ public CompareOptions()
 ### Voir également
 
 * class [CompareOptions](../)
-* espace de noms [Aspose.Words.Comparing](../../compareoptions/)
+* espace de noms [Aspose.Words.Comparing](../../../aspose.words.comparing/)
 * Assemblée [Aspose.Words](../../../)
-
-

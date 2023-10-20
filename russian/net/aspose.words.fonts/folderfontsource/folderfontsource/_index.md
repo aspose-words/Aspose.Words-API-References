@@ -1,12 +1,14 @@
 ---
-title: FolderFontSource.FolderFontSource
-second_title: Справочник по API Aspose.Words для .NET
-description: FolderFontSource строитель. Cтор.
+title: FolderFontSource
+linktitle: FolderFontSource
+articleTitle: FolderFontSource
+second_title: Aspose.Words для .NET
+description: FolderFontSource строитель. Cтор на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fonts/folderfontsource/folderfontsource/
 ---
-## FolderFontSource(string, bool) {#constructor}
+## FolderFontSource(*string, bool*) {#constructor}
 
 Cтор.
 
@@ -19,7 +21,7 @@ public FolderFontSource(string folderPath, bool scanSubfolders)
 | folderPath | String | Путь к папке. |
 | scanSubfolders | Boolean | Определяет, сканировать ли подпапки. |
 
-### Примеры
+## Примеры
 
 Показывает, как использовать локальную системную папку, содержащую шрифты, в качестве источника шрифтов.
 
@@ -40,12 +42,12 @@ Assert.AreEqual(1, folderFontSource.Priority);
 ### Смотрите также
 
 * class [FolderFontSource](../)
-* пространство имен [Aspose.Words.Fonts](../../folderfontsource/)
+* пространство имен [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## FolderFontSource(string, bool, int) {#constructor_1}
+## FolderFontSource(*string, bool, int*) {#constructor_1}
 
 Cтор.
 
@@ -59,7 +61,7 @@ public FolderFontSource(string folderPath, bool scanSubfolders, int priority)
 | scanSubfolders | Boolean | Определяет, сканировать ли подпапки. |
 | priority | Int32 | Приоритет источника шрифта. См.[`Priority`](../../fontsourcebase/priority/) описание недвижимости для получения дополнительной информации. |
 
-### Примеры
+## Примеры
 
 Показывает, как использовать локальную системную папку, содержащую шрифты, в качестве источника шрифтов.
 
@@ -80,7 +82,5 @@ Assert.AreEqual(1, folderFontSource.Priority);
 ### Смотрите также
 
 * class [FolderFontSource](../)
-* пространство имен [Aspose.Words.Fonts](../../folderfontsource/)
+* пространство имен [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * сборка [Aspose.Words](../../../)
-
-

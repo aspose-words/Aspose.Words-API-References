@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.Manager
-second_title: Référence de l'API Aspose.Words pour .NET
-description: BuiltInDocumentProperties propriété. Obtient ou définit la propriété du gestionnaire.
+linktitle: Manager
+articleTitle: Manager
+second_title: Aspose.Words pour .NET
+description: BuiltInDocumentProperties Manager propriété. Obtient ou définit la propriété du gestionnaire en C#.
 type: docs
 weight: 200
 url: /fr/net/aspose.words.properties/builtindocumentproperties/manager/
@@ -14,7 +16,7 @@ Obtient ou définit la propriété du gestionnaire.
 public string Manager { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment utiliser les propriétés du document dans la catégorie « Origine ».
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "DocumentProperties.Origin.docx");
 ### Voir également
 
 * class [BuiltInDocumentProperties](../)
-* espace de noms [Aspose.Words.Properties](../../builtindocumentproperties/)
+* espace de noms [Aspose.Words.Properties](../../../aspose.words.properties/)
 * Assemblée [Aspose.Words](../../../)
-
-

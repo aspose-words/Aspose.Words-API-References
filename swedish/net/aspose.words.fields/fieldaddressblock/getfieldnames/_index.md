@@ -1,7 +1,9 @@
 ---
 title: FieldAddressBlock.GetFieldNames
-second_title: Aspose.Words för .NET API Referens
-description: FieldAddressBlock metod. Returnerar en samling av kopplingsfältnamn som används av fältet.
+linktitle: GetFieldNames
+articleTitle: GetFieldNames
+second_title: Aspose.Words för .NET
+description: FieldAddressBlock GetFieldNames metod. Returnerar en samling av kopplingsfältnamn som används av fältet i C#.
 type: docs
 weight: 70
 url: /sv/net/aspose.words.fields/fieldaddressblock/getfieldnames/
@@ -14,7 +16,7 @@ Returnerar en samling av kopplingsfältnamn som används av fältet.
 public string[] GetFieldNames()
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man får kopplingsfältnamn som används av ett fält.
 
@@ -34,7 +36,5 @@ string[] addressBlockFieldNames = addressBlockField.GetFieldNames();
 ### Se även
 
 * class [FieldAddressBlock](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldaddressblock/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

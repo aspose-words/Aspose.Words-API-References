@@ -1,7 +1,9 @@
 ---
-title: Interface IPageLayoutCallback
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Layout.IPageLayoutCallback koppel. Implementieren Sie diese Schnittstelle wenn Sie Ihre eigene benutzerdefinierte Methode beim Erstellen und Rendern des Seitenlayoutmodells aufrufen möchten.
+title: IPageLayoutCallback Interface
+linktitle: IPageLayoutCallback
+articleTitle: IPageLayoutCallback
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Layout.IPageLayoutCallback koppel. Implementieren Sie diese Schnittstelle wenn Sie Ihre eigene benutzerdefinierte Methode beim Erstellen und Rendern des Seitenlayoutmodells aufrufen möchten in C#.
 type: docs
 weight: 3310
 url: /de/net/aspose.words.layout/ipagelayoutcallback/
@@ -18,9 +20,9 @@ public interface IPageLayoutCallback
 
 | Name | Beschreibung |
 | --- | --- |
-| [Notify](../../aspose.words.layout/ipagelayoutcallback/notify/)(PageLayoutCallbackArgs) | Dies wird aufgerufen, um über den Fortschritt der Layouterstellung und des Renderings zu informieren. |
+| [Notify](../../aspose.words.layout/ipagelayoutcallback/notify/)(*[PageLayoutCallbackArgs](../pagelayoutcallbackargs/)*) | Dies wird aufgerufen, um über den Fortschritt der Layouterstellung und des Renderings zu informieren. |
 
-### Bemerkungen
+## Bemerkungen
 
 Der Hauptzweck dieser Schnittstelle besteht darin, dem Anwendungscode das Abbrechen des Build-Prozesses zu ermöglichen.
 
@@ -30,7 +32,7 @@ Beachten Sie jedoch, dass die Rendering-Ergebnisse möglicherweise nicht mit den
 
 Diese Technik funktioniert möglicherweise nicht für jedes Dokument oder schlägt vollständig fehl.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Layoutänderungen mit einem Layout-Callback verfolgt werden.
 
@@ -98,5 +100,3 @@ private class RenderPageLayoutCallback : IPageLayoutCallback
 * property [Callback](../layoutoptions/callback/)
 * namensraum [Aspose.Words.Layout](../../aspose.words.layout/)
 * Montage [Aspose.Words](../../)
-
-

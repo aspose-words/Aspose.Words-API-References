@@ -1,7 +1,9 @@
 ---
 title: Section.NodeType
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Section propriété. RetoursSection .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words pour .NET
+description: Section NodeType propriété. RetoursSection  en C#.
 type: docs
 weight: 40
 url: /fr/net/aspose.words/section/nodetype/
@@ -14,7 +16,7 @@ RetoursSection .
 public override NodeType NodeType { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment parcourir l’arborescence des nœuds enfants d’un nœud composite.
 
@@ -62,7 +64,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 
 * enum [NodeType](../../nodetype/)
 * class [Section](../)
-* espace de noms [Aspose.Words](../../section/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

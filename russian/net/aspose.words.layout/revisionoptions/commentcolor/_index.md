@@ -1,7 +1,9 @@
 ---
 title: RevisionOptions.CommentColor
-second_title: Справочник по API Aspose.Words для .NET
-description: RevisionOptions свойство. Позволяет указать цвет комментариев. Значение по умолчаниюRed .
+linktitle: CommentColor
+articleTitle: CommentColor
+second_title: Aspose.Words для .NET
+description: RevisionOptions CommentColor свойство. Позволяет указать цвет комментариев. Значение по умолчаниюRed  на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.layout/revisionoptions/commentcolor/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.layout/revisionoptions/commentcolor/
 public RevisionColor CommentColor { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Если для этого свойства установлено значениеByAuthor илиNoHighlight значения, в результате для этого свойства будет установлен цвет по умолчанию.
 
-### Примеры
+## Примеры
 
 Показывает, как изменить внешний вид редакций.
 
@@ -70,7 +72,5 @@ doc.Save(ArtifactsDir + "Revision.RevisionOptions.pdf");
 
 * enum [RevisionColor](../../revisioncolor/)
 * class [RevisionOptions](../)
-* пространство имен [Aspose.Words.Layout](../../revisionoptions/)
+* пространство имен [Aspose.Words.Layout](../../../aspose.words.layout/)
 * сборка [Aspose.Words](../../../)
-
-

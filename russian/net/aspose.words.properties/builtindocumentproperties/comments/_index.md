@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.Comments
-second_title: Справочник по API Aspose.Words для .NET
-description: BuiltInDocumentProperties свойство. Получает или задает комментарии к документу.
+linktitle: Comments
+articleTitle: Comments
+second_title: Aspose.Words для .NET
+description: BuiltInDocumentProperties Comments свойство. Получает или задает комментарии к документу на С#.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.properties/builtindocumentproperties/comments/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.properties/builtindocumentproperties/comments/
 public string Comments { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как работать со встроенными свойствами документа в категории «Описание».
 
@@ -59,7 +61,5 @@ doc.Save(ArtifactsDir + "DocumentProperties.Description.docx");
 ### Смотрите также
 
 * class [BuiltInDocumentProperties](../)
-* пространство имен [Aspose.Words.Properties](../../builtindocumentproperties/)
+* пространство имен [Aspose.Words.Properties](../../../aspose.words.properties/)
 * сборка [Aspose.Words](../../../)
-
-

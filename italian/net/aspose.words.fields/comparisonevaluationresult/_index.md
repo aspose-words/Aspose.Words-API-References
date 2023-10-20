@@ -1,7 +1,9 @@
 ---
-title: Class ComparisonEvaluationResult
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Fields.ComparisonEvaluationResult classe. Il risultato della valutazione comparativa.
+title: ComparisonEvaluationResult Class
+linktitle: ComparisonEvaluationResult
+articleTitle: ComparisonEvaluationResult
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Fields.ComparisonEvaluationResult classe. Il risultato della valutazione comparativa in C#.
 type: docs
 weight: 1480
 url: /it/net/aspose.words.fields/comparisonevaluationresult/
@@ -20,8 +22,8 @@ public sealed class ComparisonEvaluationResult
 
 | Nome | Descrizione |
 | --- | --- |
-| [ComparisonEvaluationResult](comparisonevaluationresult/#constructor)(bool) | Crea un risultato di valutazione comparativa. |
-| [ComparisonEvaluationResult](comparisonevaluationresult/#constructor_1)(string) | Crea un risultato di valutazione del confronto non riuscito con il messaggio di errore corrispondente. |
+| [ComparisonEvaluationResult](comparisonevaluationresult/#constructor)(*bool*) | Crea un risultato di valutazione comparativa. |
+| [ComparisonEvaluationResult](comparisonevaluationresult/#constructor_1)(*string*) | Crea un risultato di valutazione del confronto non riuscito con il messaggio di errore corrispondente. |
 
 ## Proprietà
 
@@ -30,7 +32,7 @@ public sealed class ComparisonEvaluationResult
 | [ErrorMessage](../../aspose.words.fields/comparisonevaluationresult/errormessage/) { get; } | Ottiene il messaggio di errore del risultato della valutazione del confronto non riuscito. |
 | [Result](../../aspose.words.fields/comparisonevaluationresult/result/) { get; } | Ottiene il risultato della valutazione del confronto. |
 
-### Esempi
+## Esempi
 
 Mostra come implementare la valutazione personalizzata per i campi IF e COMPARE.
 
@@ -115,5 +117,3 @@ private class ComparisonExpressionEvaluator : IComparisonExpressionEvaluator
 
 * spazio dei nomi [Aspose.Words.Fields](../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../)
-
-

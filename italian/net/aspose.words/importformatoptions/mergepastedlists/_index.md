@@ -1,7 +1,9 @@
 ---
 title: ImportFormatOptions.MergePastedLists
-second_title: Aspose.Words per .NET API Reference
-description: ImportFormatOptions proprietà. Ottiene o imposta un valore booleano che specifica se gli elenchi incollati verranno uniti con gli elenchi circostanti. Il valore predefinito èfalso .
+linktitle: MergePastedLists
+articleTitle: MergePastedLists
+second_title: Aspose.Words per .NET
+description: ImportFormatOptions MergePastedLists proprietà. Ottiene o imposta un valore booleano che specifica se gli elenchi incollati verranno uniti con gli elenchi circostanti. Il valore predefinito èfalso  in C#.
 type: docs
 weight: 70
 url: /it/net/aspose.words/importformatoptions/mergepastedlists/
@@ -14,7 +16,7 @@ Ottiene o imposta un valore booleano che specifica se gli elenchi incollati verr
 public bool MergePastedLists { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come unire elenchi da documenti.
 
@@ -33,7 +35,5 @@ dstDoc.Save(ArtifactsDir + "Document.MergePastedLists.docx");
 ### Guarda anche
 
 * class [ImportFormatOptions](../)
-* spazio dei nomi [Aspose.Words](../../importformatoptions/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

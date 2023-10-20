@@ -1,7 +1,9 @@
 ---
 title: SdtListItem.Value
-second_title: Referencia de API de Aspose.Words para .NET
-description: SdtListItem propiedad. Obtiene el valor de este elemento de la lista.
+linktitle: Value
+articleTitle: Value
+second_title: Aspose.Words para .NET
+description: SdtListItem Value propiedad. Obtiene el valor de este elemento de la lista en C#.
 type: docs
 weight: 30
 url: /es/net/aspose.words.markup/sdtlistitem/value/
@@ -14,11 +16,11 @@ Obtiene el valor de este elemento de la lista.
 public string Value { get; }
 ```
 
-### Observaciones
+## Observaciones
 
 No puede ser`nulo` y no puede ser una cadena vacía.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo trabajar con etiquetas de documentos estructurados de lista desplegable.
 
@@ -75,7 +77,5 @@ Assert.AreEqual(0, listItems.Count);
 ### Ver también
 
 * class [SdtListItem](../)
-* espacio de nombres [Aspose.Words.Markup](../../sdtlistitem/)
+* espacio de nombres [Aspose.Words.Markup](../../../aspose.words.markup/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Paragraph.ParagraphFormat
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Paragraph propriété. Donne accès aux propriétés de formatage du paragraphe.
+linktitle: ParagraphFormat
+articleTitle: ParagraphFormat
+second_title: Aspose.Words pour .NET
+description: Paragraph ParagraphFormat propriété. Donne accès aux propriétés de formatage du paragraphe en C#.
 type: docs
 weight: 190
 url: /fr/net/aspose.words/paragraph/paragraphformat/
@@ -14,7 +16,7 @@ Donne accès aux propriétés de formatage du paragraphe.
 public ParagraphFormat ParagraphFormat { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment construire manuellement un document Aspose.Words.
 
@@ -65,7 +67,5 @@ doc.Save(ArtifactsDir + "Section.CreateManually.docx");
 
 * class [ParagraphFormat](../../paragraphformat/)
 * class [Paragraph](../)
-* espace de noms [Aspose.Words](../../paragraph/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

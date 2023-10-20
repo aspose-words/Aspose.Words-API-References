@@ -1,7 +1,9 @@
 ---
 title: Font.LocaleIdBi
-second_title: Aspose.Words für .NET-API-Referenz
-description: Font eigendom. Ruft die Gebietsschemakennung Sprache der formatierten Zeichen von rechts nach links ab oder legt diese fest.
+linktitle: LocaleIdBi
+articleTitle: LocaleIdBi
+second_title: Aspose.Words für .NET
+description: Font LocaleIdBi eigendom. Ruft die Gebietsschemakennung Sprache der formatierten Zeichen von rechts nach links ab oder legt diese fest in C#.
 type: docs
 weight: 210
 url: /de/net/aspose.words/font/localeidbi/
@@ -14,11 +16,11 @@ Ruft die Gebietsschemakennung (Sprache) der formatierten Zeichen von rechts nach
 public int LocaleIdBi { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Die Liste der Gebietsschema-IDs finden Sie unter https://msdn.microsoft.com/en-us/library/cc233965.aspx
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie separate Sätze von Schriftarteinstellungen für Text mit der Schreibrichtung von rechts nach links und von rechts nach links definiert werden.
 
@@ -57,7 +59,5 @@ doc.Save(ArtifactsDir + "Font.Bidi.docx");
 ### Siehe auch
 
 * class [Font](../)
-* namensraum [Aspose.Words](../../font/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

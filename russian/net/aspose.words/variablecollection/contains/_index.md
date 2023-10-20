@@ -1,7 +1,9 @@
 ---
 title: VariableCollection.Contains
-second_title: Справочник по API Aspose.Words для .NET
-description: VariableCollection метод. Определяет содержит ли коллекция переменную документа с заданным именем.
+linktitle: Contains
+articleTitle: Contains
+second_title: Aspose.Words для .NET
+description: VariableCollection Contains метод. Определяет содержит ли коллекция переменную документа с заданным именем на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words/variablecollection/contains/
@@ -22,7 +24,7 @@ public bool Contains(string name)
 
 `истинный` если элемент найден в коллекции; в противном случае,`ЛОЖЬ`.
 
-### Примеры
+## Примеры
 
 Показывает, как работать с коллекцией переменных документа.
 
@@ -89,7 +91,5 @@ Assert.That(variables, Is.Empty);
 ### Смотрите также
 
 * class [VariableCollection](../)
-* пространство имен [Aspose.Words](../../variablecollection/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

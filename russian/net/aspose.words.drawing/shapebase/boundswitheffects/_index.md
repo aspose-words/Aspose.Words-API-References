@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.BoundsWithEffects
-second_title: Справочник по API Aspose.Words для .NET
-description: ShapeBase свойство. Получает окончательный размер объектафигуры после применения эффектов рисования. Значение измеряется в пунктах.
+linktitle: BoundsWithEffects
+articleTitle: BoundsWithEffects
+second_title: Aspose.Words для .NET
+description: ShapeBase BoundsWithEffects свойство. Получает окончательный размер объектафигуры после применения эффектов рисования. Значение измеряется в пунктах на С#.
 type: docs
 weight: 90
 url: /ru/net/aspose.words.drawing/shapebase/boundswitheffects/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.drawing/shapebase/boundswitheffects/
 public RectangleF BoundsWithEffects { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как проверить, как эффекты формы влияют на границы фигуры.
 
@@ -83,7 +85,5 @@ Assert.AreEqual(279, shape.BoundsWithEffects.Height);
 ### Смотрите также
 
 * class [ShapeBase](../)
-* пространство имен [Aspose.Words.Drawing](../../shapebase/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

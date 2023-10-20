@@ -1,7 +1,9 @@
 ---
 title: KnownTypeSet.GetEnumerator
-second_title: Aspose.Words for .NET API 参考
-description: KnownTypeSet 方法. 返回一个IEnumerator用于迭代集合中的项目的对象
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: 用于 .NET 的 Aspose.Words
+description: KnownTypeSet GetEnumerator 方法. 返回一个IEnumerator用于迭代集合中的项目的对象 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.reporting/knowntypeset/getenumerator/
@@ -21,7 +23,5 @@ public IEnumerator<Type> GetEnumerator()
 ### 也可以看看
 
 * class [KnownTypeSet](../)
-* 命名空间 [Aspose.Words.Reporting](../../knowntypeset/)
+* 命名空间 [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * 部件 [Aspose.Words](../../../)
-
-

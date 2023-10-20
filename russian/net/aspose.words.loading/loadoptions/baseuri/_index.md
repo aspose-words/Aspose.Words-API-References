@@ -1,7 +1,9 @@
 ---
 title: LoadOptions.BaseUri
-second_title: Справочник по API Aspose.Words для .NET
-description: LoadOptions свойство. Получает или задает строку которая будет использоваться для преобразования относительных URI найденных в документе в абсолютные URI когда это необходимо. Может бытьнулевой или пустая строка. По умолчаниюнулевой .
+linktitle: BaseUri
+articleTitle: BaseUri
+second_title: Aspose.Words для .NET
+description: LoadOptions BaseUri свойство. Получает или задает строку которая будет использоваться для преобразования относительных URI найденных в документе в абсолютные URI когда это необходимо. Может бытьнулевой или пустая строка. По умолчаниюнулевой  на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.loading/loadoptions/baseuri/
@@ -14,14 +16,14 @@ url: /ru/net/aspose.words.loading/loadoptions/baseuri/
 public string BaseUri { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Это свойство используется для преобразования относительных URI в абсолютные в следующих случаях:
 
 1. При загрузке HTML-документа из потока документ содержит изображения с относительными URI и не имеет базового URI, указанного в элементе BASE HTML.
 2. При сохранении документа в PDF и других форматах для извлечения изображений, связанных с использованием относительных URI , чтобы изображения можно было сохранить в выходной документ.
 
-### Примеры
+## Примеры
 
 Показывает, как открыть документ HTML с изображениями из потока, используя базовый URI.
 
@@ -48,7 +50,5 @@ using (Stream stream = File.OpenRead(MyDir + "Document.html"))
 ### Смотрите также
 
 * class [LoadOptions](../)
-* пространство имен [Aspose.Words.Loading](../../loadoptions/)
+* пространство имен [Aspose.Words.Loading](../../../aspose.words.loading/)
 * сборка [Aspose.Words](../../../)
-
-

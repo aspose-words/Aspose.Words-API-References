@@ -1,7 +1,9 @@
 ---
-title: Enum PdfTextCompression
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Saving.PdfTextCompression opsomming. Gibt einen Komprimierungstyp an der auf alle Inhalte in der PDFDatei außer Bildern angewendet wird.
+title: PdfTextCompression Enum
+linktitle: PdfTextCompression
+articleTitle: PdfTextCompression
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Saving.PdfTextCompression opsomming. Gibt einen Komprimierungstyp an der auf alle Inhalte in der PDFDatei außer Bildern angewendet wird in C#.
 type: docs
 weight: 5530
 url: /de/net/aspose.words.saving/pdftextcompression/
@@ -21,7 +23,7 @@ public enum PdfTextCompression
 | None | `0` | Keine Komprimierung. |
 | Flate | `1` | Flate (ZIP)-Komprimierung. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie beim Speichern eines Dokuments als PDF eine Textkomprimierung anwenden.
 
@@ -50,5 +52,3 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.TextCompression.pdf", options);
 
 * namensraum [Aspose.Words.Saving](../../aspose.words.saving/)
 * Montage [Aspose.Words](../../)
-
-

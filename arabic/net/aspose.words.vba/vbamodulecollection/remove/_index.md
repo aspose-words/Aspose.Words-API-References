@@ -1,7 +1,9 @@
 ---
 title: VbaModuleCollection.Remove
-second_title: Aspose.Words لمراجع .NET API
-description: VbaModuleCollection طريقة. إزالة الوحدة المحددة من المجموعة.
+linktitle: Remove
+articleTitle: Remove
+second_title: Aspose.Words لـ .NET
+description: VbaModuleCollection Remove طريقة. إزالة الوحدة المحددة من المجموعة في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.vba/vbamodulecollection/remove/
@@ -18,7 +20,7 @@ public void Remove(VbaModule module)
 | --- | --- | --- |
 | module | VbaModule | الوحدة المراد إزالتها. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الوصول إلى معلومات مشروع VBA الخاص بالمستند.
 
@@ -50,7 +52,5 @@ vbaModules.Remove(vbaModules[2]);
 
 * class [VbaModule](../../vbamodule/)
 * class [VbaModuleCollection](../)
-* مساحة الاسم [Aspose.Words.Vba](../../vbamodulecollection/)
+* مساحة الاسم [Aspose.Words.Vba](../../../aspose.words.vba/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class LayoutEnumerator
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Layout.LayoutEnumerator 班级. 枚举文档的页面布局实体 您可以使用此类来遍历页面布局模型可用属性包括类型几何形状文本和呈现实体的页面索引 以及整体结构和关系 使用以下组合GetEntity和Current移动到对应于文档节点的实体
+title: LayoutEnumerator Class
+linktitle: LayoutEnumerator
+articleTitle: LayoutEnumerator
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Layout.LayoutEnumerator 班级. 枚举文档的页面布局实体 您可以使用此类来遍历页面布局模型可用属性包括类型几何形状文本和呈现实体的页面索引 以及整体结构和关系 使用以下组合GetEntity和Current移动到对应于文档节点的实体 在 C#.
 type: docs
 weight: 3340
 url: /zh/net/aspose.words.layout/layoutenumerator/
@@ -20,7 +22,7 @@ public class LayoutEnumerator
 
 | 姓名 | 描述 |
 | --- | --- |
-| [LayoutEnumerator](layoutenumerator/)(Document) | 初始化此类的新实例。 |
+| [LayoutEnumerator](layoutenumerator/)(*[Document](../../aspose.words/document/)*) | 初始化此类的新实例。 |
 
 ## 特性
 
@@ -44,12 +46,12 @@ public class LayoutEnumerator
 | [MoveNext](../../aspose.words.layout/layoutenumerator/movenext/)() | 按视觉顺序移动到下一个同级实体。 当迭代跨页的段落行时，此方法 不会移动到下一页，而是移动到同一页面上的下一个实体。 |
 | [MoveNextLogical](../../aspose.words.layout/layoutenumerator/movenextlogical/)() | 按逻辑顺序移动到下一个同级实体。 当迭代跨页的段落行时，此方法 将移动到下一行，即使它驻留在另一页上。 |
 | [MoveParent](../../aspose.words.layout/layoutenumerator/moveparent/#moveparent)() | 移动到父实体。 |
-| [MoveParent](../../aspose.words.layout/layoutenumerator/moveparent/#moveparent_1)(LayoutEntityType) | 移动到指定类型的父实体。 |
+| [MoveParent](../../aspose.words.layout/layoutenumerator/moveparent/#moveparent_1)(*[LayoutEntityType](../layoutentitytype/)*) | 移动到指定类型的父实体。 |
 | [MovePrevious](../../aspose.words.layout/layoutenumerator/moveprevious/)() | 移动到上一个同级实体。 |
 | [MovePreviousLogical](../../aspose.words.layout/layoutenumerator/movepreviouslogical/)() | 按逻辑顺序移动到上一个同级实体。 当迭代跨页的段落行时，此方法 将移动到上一行，即使它驻留在另一页上。 |
 | [Reset](../../aspose.words.layout/layoutenumerator/reset/)() | 将枚举器移至文档的第一页。 |
 
-### 例子
+## 例子
 
 显示遍历文档布局实体的方法。
 
@@ -195,5 +197,3 @@ private static void PrintCurrentEntity(LayoutEnumerator layoutEnumerator, int in
 
 * 命名空间 [Aspose.Words.Layout](../../aspose.words.layout/)
 * 部件 [Aspose.Words](../../)
-
-

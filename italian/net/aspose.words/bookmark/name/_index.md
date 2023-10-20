@@ -1,7 +1,9 @@
 ---
 title: Bookmark.Name
-second_title: Aspose.Words per .NET API Reference
-description: Bookmark proprietà. Ottiene o imposta il nome del segnalibro.
+linktitle: Name
+articleTitle: Name
+second_title: Aspose.Words per .NET
+description: Bookmark Name proprietà. Ottiene o imposta il nome del segnalibro in C#.
 type: docs
 weight: 60
 url: /it/net/aspose.words/bookmark/name/
@@ -14,11 +16,11 @@ Ottiene o imposta il nome del segnalibro.
 public string Name { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Tieni presente che se modifichi il nome di un segnalibro con un nome già esistente nel documento, non verrà restituito alcun errore e solo il primo segnalibro verrà memorizzato quando salvi il documento.
 
-### Esempi
+## Esempi
 
 Mostra come inserire un segnalibro.
 
@@ -127,7 +129,5 @@ public class BookmarkInfoPrinter : DocumentVisitor
 ### Guarda anche
 
 * class [Bookmark](../)
-* spazio dei nomi [Aspose.Words](../../bookmark/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

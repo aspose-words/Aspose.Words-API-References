@@ -1,7 +1,9 @@
 ---
 title: LayoutCollector.GetEntity
-second_title: Aspose.Words لمراجع .NET API
-description: LayoutCollector طريقة. إرجاع موضع معتم للملفLayoutEnumerator الذي يتوافق مع العقدة المحددة. يمكنك استخدام القيمة التي تم إرجاعها كوسيطة لCurrent نظرًا لأن الوثيقة التي تم تعدادها ووثيقة العقدة هي نفسها.
+linktitle: GetEntity
+articleTitle: GetEntity
+second_title: Aspose.Words لـ .NET
+description: LayoutCollector GetEntity طريقة. إرجاع موضع معتم للملفLayoutEnumerator الذي يتوافق مع العقدة المحددة. يمكنك استخدام القيمة التي تم إرجاعها كوسيطة لCurrent نظرًا لأن الوثيقة التي تم تعدادها ووثيقة العقدة هي نفسها في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.layout/layoutcollector/getentity/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.layout/layoutcollector/getentity/
 public object GetEntity(Node node)
 ```
 
-### ملاحظات
+## ملاحظات
 
 هذه الطريقة تعمل فقط[`Paragraph`](../../../aspose.words/paragraph/) العقد، وكذلك العقد المضمنة غير القابلة للتجزئة، على سبيل المثال[`BookmarkStart`](../../../aspose.words/bookmarkstart/) أو[`Shape`](../../../aspose.words.drawing/shape/) . لا يعمل من أجل[`Run`](../../../aspose.words/run/) ,[`Cell`](../../../aspose.words.tables/cell/)[`Row`](../../../aspose.words.tables/row/) أو[`Table`](../../../aspose.words.tables/table/) العقد والعقد داخل الرأس/التذييل.
 
@@ -24,7 +26,7 @@ public object GetEntity(Node node)
 
 إذا كنت بحاجة إلى الانتقال إلى أ[`Cell`](../../../aspose.words.tables/cell/) عقدة ثم يمكنك الانتقال إلى[`Paragraph`](../../../aspose.words/paragraph/)عقدة في هذه الخلية ثم اصعد إلى الكيان الأصلي. يمكن استخدام نفس النهج ل[`Row`](../../../aspose.words.tables/row/) و[`Table`](../../../aspose.words.tables/table/) العقد.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية رؤية نطاقات الصفحات التي تمتد عليها العقدة.
 
@@ -83,7 +85,5 @@ Assert.AreEqual("¶", layoutEnumerator.Text);
 
 * class [Node](../../../aspose.words/node/)
 * class [LayoutCollector](../)
-* مساحة الاسم [Aspose.Words.Layout](../../layoutcollector/)
+* مساحة الاسم [Aspose.Words.Layout](../../../aspose.words.layout/)
 * المجسم [Aspose.Words](../../../)
-
-

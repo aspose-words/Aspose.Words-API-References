@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.UlTrailSpace
-second_title: Aspose.Words för .NET API Referens
-description: CompatibilityOptions fast egendom. Stryk under alla efterföljande blanksteg.
+linktitle: UlTrailSpace
+articleTitle: UlTrailSpace
+second_title: Aspose.Words för .NET
+description: CompatibilityOptions UlTrailSpace fast egendom. Stryk under alla efterföljande blanksteg i C#.
 type: docs
 weight: 580
 url: /sv/net/aspose.words.settings/compatibilityoptions/ultrailspace/
@@ -17,7 +19,5 @@ public bool UlTrailSpace { get; set; }
 ### Se även
 
 * class [CompatibilityOptions](../)
-* namnutrymme [Aspose.Words.Settings](../../compatibilityoptions/)
+* namnutrymme [Aspose.Words.Settings](../../../aspose.words.settings/)
 * hopsättning [Aspose.Words](../../../)
-
-

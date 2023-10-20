@@ -1,7 +1,9 @@
 ---
-title: Enum FlipOrientation
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Drawing.FlipOrientation opsomming. Mögliche Werte für die Ausrichtung einer Form.
+title: FlipOrientation Enum
+linktitle: FlipOrientation
+articleTitle: FlipOrientation
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Drawing.FlipOrientation opsomming. Mögliche Werte für die Ausrichtung einer Form in C#.
 type: docs
 weight: 970
 url: /de/net/aspose.words.drawing/fliporientation/
@@ -24,7 +26,7 @@ public enum FlipOrientation
 | Vertical | `2` | Entlang der x-Achse spiegeln und die y-Koordinaten umkehren. |
 | Both | `3` | Spiegeln Sie entlang der y- und x-Achse. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie eine Form auf einer Achse gespiegelt wird.
 
@@ -71,5 +73,3 @@ doc.Save(ArtifactsDir + "Shape.FlipShapeOrientation.docx");
 * property [FlipOrientation](../shapebase/fliporientation/)
 * namensraum [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../)
-
-

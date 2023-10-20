@@ -1,7 +1,9 @@
 ---
-title: Class PdfDigitalSignatureDetails
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Saving.PdfDigitalSignatureDetails فصل. يحتوي على تفاصيل توقيع مستند PDF بتوقيع رقمي.
+title: PdfDigitalSignatureDetails Class
+linktitle: PdfDigitalSignatureDetails
+articleTitle: PdfDigitalSignatureDetails
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Saving.PdfDigitalSignatureDetails فصل. يحتوي على تفاصيل توقيع مستند PDF بتوقيع رقمي في C#.
 type: docs
 weight: 5430
 url: /ar/net/aspose.words.saving/pdfdigitalsignaturedetails/
@@ -19,7 +21,7 @@ public class PdfDigitalSignatureDetails
 | اسم | وصف |
 | --- | --- |
 | [PdfDigitalSignatureDetails](pdfdigitalsignaturedetails/#constructor)() | تهيئة مثيل لهذه الفئة. |
-| [PdfDigitalSignatureDetails](pdfdigitalsignaturedetails/#constructor_1)(CertificateHolder, string, string, DateTime) | تهيئة مثيل لهذه الفئة. |
+| [PdfDigitalSignatureDetails](pdfdigitalsignaturedetails/#constructor_1)(*[CertificateHolder](../../aspose.words.digitalsignatures/certificateholder/), string, string, DateTime*) | تهيئة مثيل لهذه الفئة. |
 
 ## الخصائص
 
@@ -32,7 +34,7 @@ public class PdfDigitalSignatureDetails
 | [SignatureDate](../../aspose.words.saving/pdfdigitalsignaturedetails/signaturedate/) { get; set; } | الحصول على أو تحديد تاريخ التوقيع. |
 | [TimestampSettings](../../aspose.words.saving/pdfdigitalsignaturedetails/timestampsettings/) { get; set; } | الحصول على إعدادات الطابع الزمني للتوقيع الرقمي أو تعيينها. |
 
-### ملاحظات
+## ملاحظات
 
 في الوقت الحالي، يتوفر التوقيع الرقمي لمستندات PDF فقط على .NET 2.0 أو أعلى.
 
@@ -40,7 +42,7 @@ public class PdfDigitalSignatureDetails
 
 يقوم Aspose.Words بإنشاء توقيع PKCS#7 على مستند PDF بالكامل ويستخدم مرشح "Adobe.PPKMS" ومرشح "adbe.pkcs7.sha1" عند إنشاء توقيع رقمي.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التوقيع على مستند PDF تم إنشاؤه.
 
@@ -73,5 +75,3 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignature.pdf", options);
 
 * مساحة الاسم [Aspose.Words.Saving](../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: NodeList.Count
-second_title: Aspose.Words per .NET API Reference
-description: NodeList proprietà. Ottiene il numero di nodi nellelenco.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words per .NET
+description: NodeList Count proprietà. Ottiene il numero di nodi nellelenco in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words/nodelist/count/
@@ -14,7 +16,7 @@ Ottiene il numero di nodi nell'elenco.
 public int Count { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come utilizzare XPath per navigare in un NodeList.
 
@@ -72,7 +74,5 @@ Assert.True(shape.HasImage);
 ### Guarda anche
 
 * class [NodeList](../)
-* spazio dei nomi [Aspose.Words](../../nodelist/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

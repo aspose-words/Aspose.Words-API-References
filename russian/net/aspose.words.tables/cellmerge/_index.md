@@ -1,7 +1,9 @@
 ---
-title: Enum CellMerge
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Tables.CellMerge перечисление. Указывает как ячейка таблицы объединяется с другими ячейками.
+title: CellMerge Enum
+linktitle: CellMerge
+articleTitle: CellMerge
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Tables.CellMerge перечисление. Указывает как ячейка таблицы объединяется с другими ячейками на С#.
 type: docs
 weight: 6270
 url: /ru/net/aspose.words.tables/cellmerge/
@@ -22,7 +24,7 @@ public enum CellMerge
 | First | `1` | Ячейка является первой ячейкой в диапазоне объединенных ячеек. |
 | Previous | `2` | Ячейка объединяется с предыдущей ячейкой по горизонтали или вертикали. |
 
-### Примеры
+## Примеры
 
 Показывает, как объединить ячейки таблицы по горизонтали.
 
@@ -121,5 +123,3 @@ doc.Save(ArtifactsDir + "CellFormat.VerticalMerge.docx");
 
 * пространство имен [Aspose.Words.Tables](../../aspose.words.tables/)
 * сборка [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: LanguagePreferences.AddEditingLanguage
-second_title: Справочник по API Aspose.Words для .NET
-description: LanguagePreferences метод. Добавляет дополнительный язык редактирования.
+linktitle: AddEditingLanguage
+articleTitle: AddEditingLanguage
+second_title: Aspose.Words для .NET
+description: LanguagePreferences AddEditingLanguage метод. Добавляет дополнительный язык редактирования на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.loading/languagepreferences/addeditinglanguage/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.loading/languagepreferences/addeditinglanguage/
 public void AddEditingLanguage(EditingLanguage language)
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как применить языковые настройки при загрузке документа.
 
@@ -34,7 +36,5 @@ Console.WriteLine(localeIdFarEast == (int)EditingLanguage.Japanese
 
 * enum [EditingLanguage](../../editinglanguage/)
 * class [LanguagePreferences](../)
-* пространство имен [Aspose.Words.Loading](../../languagepreferences/)
+* пространство имен [Aspose.Words.Loading](../../../aspose.words.loading/)
 * сборка [Aspose.Words](../../../)
-
-

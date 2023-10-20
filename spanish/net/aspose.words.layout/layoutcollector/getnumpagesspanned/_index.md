@@ -1,7 +1,9 @@
 ---
 title: LayoutCollector.GetNumPagesSpanned
-second_title: Referencia de API de Aspose.Words para .NET
-description: LayoutCollector método. Obtiene el número de páginas que abarca el nodo especificado. 0 si el nodo está dentro de una sola página. Esto es lo mismo queGetEndPageIndex GetStartPageIndex .
+linktitle: GetNumPagesSpanned
+articleTitle: GetNumPagesSpanned
+second_title: Aspose.Words para .NET
+description: LayoutCollector GetNumPagesSpanned método. Obtiene el número de páginas que abarca el nodo especificado. 0 si el nodo está dentro de una sola página. Esto es lo mismo queGetEndPageIndex GetStartPageIndex  en C#.
 type: docs
 weight: 60
 url: /es/net/aspose.words.layout/layoutcollector/getnumpagesspanned/
@@ -14,7 +16,7 @@ Obtiene el número de páginas que abarca el nodo especificado. 0 si el nodo est
 public int GetNumPagesSpanned(Node node)
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo ver los rangos de páginas que abarca un nodo.
 
@@ -73,7 +75,5 @@ Assert.AreEqual("¶", layoutEnumerator.Text);
 
 * class [Node](../../../aspose.words/node/)
 * class [LayoutCollector](../)
-* espacio de nombres [Aspose.Words.Layout](../../layoutcollector/)
+* espacio de nombres [Aspose.Words.Layout](../../../aspose.words.layout/)
 * asamblea [Aspose.Words](../../../)
-
-

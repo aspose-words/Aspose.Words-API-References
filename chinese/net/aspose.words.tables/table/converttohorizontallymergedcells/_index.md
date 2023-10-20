@@ -1,9 +1,11 @@
 ---
 title: Table.ConvertToHorizontallyMergedCells
-second_title: Aspose.Words for .NET API 参考
-description: Table 方法. 将按宽度水平合并的单元格转换为按HorizontalMerge.
+linktitle: ConvertToHorizontallyMergedCells
+articleTitle: ConvertToHorizontallyMergedCells
+second_title: 用于 .NET 的 Aspose.Words
+description: Table ConvertToHorizontallyMergedCells 方法. 将按宽度水平合并的单元格转换为按HorizontalMerge 在 C#.
 type: docs
-weight: 410
+weight: 390
 url: /zh/net/aspose.words.tables/table/converttohorizontallymergedcells/
 ---
 ## Table.ConvertToHorizontallyMergedCells method
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.tables/table/converttohorizontallymergedcells/
 public void ConvertToHorizontallyMergedCells()
 ```
 
-### 评论
+## 评论
 
 可以使用合并标志水平合并表格单元格[`HorizontalMerge`](../../cellformat/horizontalmerge/)或使用单元格宽度[`Width`](../../cellformat/width/)。
 
@@ -22,7 +24,7 @@ public void ConvertToHorizontallyMergedCells()
 
 使用此方法可将按宽度水平合并的表格单元格转换为按合并标志合并的单元格。
 
-### 例子
+## 例子
 
 演示如何将按宽度水平合并的单元格转换为按 CellFormat.HorizontalMerge 合并的单元格。
 
@@ -58,7 +60,5 @@ Assert.AreEqual(CellMerge.None, row.Cells[6].CellFormat.HorizontalMerge);
 ### 也可以看看
 
 * class [Table](../)
-* 命名空间 [Aspose.Words.Tables](../../table/)
+* 命名空间 [Aspose.Words.Tables](../../../aspose.words.tables/)
 * 部件 [Aspose.Words](../../../)
-
-

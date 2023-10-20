@@ -1,7 +1,9 @@
 ---
 title: TaskPane.Row
-second_title: Aspose.Words for .NET API 参考
-description: TaskPane 财产. 指定此任务窗格在停靠在同一默认位置的其他 persisted 任务窗格中的索引从外到内枚举
+linktitle: Row
+articleTitle: Row
+second_title: 用于 .NET 的 Aspose.Words
+description: TaskPane Row 财产. 指定此任务窗格在停靠在同一默认位置的其他 persisted 任务窗格中的索引从外到内枚举 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words.webextensions/taskpane/row/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.webextensions/taskpane/row/
 public int Row { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何向文档添加 Web 扩展。
 
@@ -59,7 +61,5 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 ### 也可以看看
 
 * class [TaskPane](../)
-* 命名空间 [Aspose.Words.WebExtensions](../../taskpane/)
+* 命名空间 [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * 部件 [Aspose.Words](../../../)
-
-

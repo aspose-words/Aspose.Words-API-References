@@ -1,7 +1,9 @@
 ---
-title: Class ChartNumberFormat
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Drawing.Charts.ChartNumberFormat 班级. 表示父元素的数字格式
+title: ChartNumberFormat Class
+linktitle: ChartNumberFormat
+articleTitle: ChartNumberFormat
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Drawing.Charts.ChartNumberFormat 班级. 表示父元素的数字格式 在 C#.
 type: docs
 weight: 770
 url: /zh/net/aspose.words.drawing.charts/chartnumberformat/
@@ -23,7 +25,7 @@ public class ChartNumberFormat
 | [FormatCode](../../aspose.words.drawing.charts/chartnumberformat/formatcode/) { get; set; } | 获取或设置应用于数据标签的格式代码。 |
 | [IsLinkedToSource](../../aspose.words.drawing.charts/chartnumberformat/islinkedtosource/) { get; set; } | 指定格式代码是否链接到源单元格。 默认值为 true。 |
 
-### 例子
+## 例子
 
 展示如何设置图表值的格式。
 
@@ -56,5 +58,3 @@ doc.Save(ArtifactsDir + "Charts.SetNumberFormatToChartAxis.docx");
 
 * 命名空间 [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * 部件 [Aspose.Words](../../)
-
-

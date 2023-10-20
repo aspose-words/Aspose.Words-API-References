@@ -1,7 +1,9 @@
 ---
 title: DocumentPropertyCollection.Clear
-second_title: Aspose.Words für .NET-API-Referenz
-description: DocumentPropertyCollection methode. Entfernt alle Eigenschaften aus der Sammlung.
+linktitle: Clear
+articleTitle: Clear
+second_title: Aspose.Words für .NET
+description: DocumentPropertyCollection Clear methode. Entfernt alle Eigenschaften aus der Sammlung in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.properties/documentpropertycollection/clear/
@@ -14,7 +16,7 @@ Entfernt alle Eigenschaften aus der Sammlung.
 public void Clear()
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit den benutzerdefinierten Eigenschaften eines Dokuments gearbeitet wird.
 
@@ -74,7 +76,5 @@ Assert.AreEqual(0, properties.Count);
 ### Siehe auch
 
 * class [DocumentPropertyCollection](../)
-* namensraum [Aspose.Words.Properties](../../documentpropertycollection/)
+* namensraum [Aspose.Words.Properties](../../../aspose.words.properties/)
 * Montage [Aspose.Words](../../../)
-
-

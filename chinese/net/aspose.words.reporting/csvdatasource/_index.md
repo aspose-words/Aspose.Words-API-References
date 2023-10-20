@@ -1,7 +1,9 @@
 ---
-title: Class CsvDataSource
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Reporting.CsvDataSource 班级. 提供对要在报告中使用的 CSV 文件或流的数据的访问
+title: CsvDataSource Class
+linktitle: CsvDataSource
+articleTitle: CsvDataSource
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Reporting.CsvDataSource 班级. 提供对要在报告中使用的 CSV 文件或流的数据的访问 在 C#.
 type: docs
 weight: 4670
 url: /zh/net/aspose.words.reporting/csvdatasource/
@@ -20,12 +22,12 @@ public class CsvDataSource
 
 | 姓名 | 描述 |
 | --- | --- |
-| [CsvDataSource](csvdatasource/#constructor)(Stream) | 使用解析 CSV 数据的默认选项，使用来自 CSV 流的数据创建新数据源。 |
-| [CsvDataSource](csvdatasource/#constructor_2)(string) | 使用解析 CSV 数据的默认选项，使用 CSV 文件中的数据创建新数据源。 |
-| [CsvDataSource](csvdatasource/#constructor_1)(Stream, CsvDataLoadOptions) | 使用解析 CSV 数据的指定选项，使用 CSV 流中的数据创建新数据源。 |
-| [CsvDataSource](csvdatasource/#constructor_3)(string, CsvDataLoadOptions) | 使用用于解析 CSV 数据的指定选项，使用 CSV 文件中的数据创建新数据源。 |
+| [CsvDataSource](csvdatasource/#constructor)(*Stream*) | 使用解析 CSV 数据的默认选项，使用来自 CSV 流的数据创建新数据源。 |
+| [CsvDataSource](csvdatasource/#constructor_2)(*string*) | 使用解析 CSV 数据的默认选项，使用 CSV 文件中的数据创建新数据源。 |
+| [CsvDataSource](csvdatasource/#constructor_1)(*Stream, [CsvDataLoadOptions](../csvdataloadoptions/)*) | 使用解析 CSV 数据的指定选项，使用 CSV 流中的数据创建新数据源。 |
+| [CsvDataSource](csvdatasource/#constructor_3)(*string, [CsvDataLoadOptions](../csvdataloadoptions/)*) | 使用用于解析 CSV 数据的指定选项，使用 CSV 文件中的数据创建新数据源。 |
 
-### 评论
+## 评论
 
 要在生成报告时访问相应文件或流的数据，请将此类的实例作为 数据源传递给以下之一：[`ReportingEngine`](../reportingengine/) .BuildReport 重载.
 
@@ -47,5 +49,3 @@ public class CsvDataSource
 
 * 命名空间 [Aspose.Words.Reporting](../../aspose.words.reporting/)
 * 部件 [Aspose.Words](../../)
-
-

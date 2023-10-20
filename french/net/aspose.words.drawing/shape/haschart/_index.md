@@ -1,7 +1,9 @@
 ---
 title: Shape.HasChart
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Shape propriété. Retoursvrai si ceShape a unChart .
+linktitle: HasChart
+articleTitle: HasChart
+second_title: Aspose.Words pour .NET
+description: Shape HasChart propriété. Retoursvrai si ceShape a unChart  en C#.
 type: docs
 weight: 70
 url: /fr/net/aspose.words.drawing/shape/haschart/
@@ -14,7 +16,7 @@ Retours`vrai` si ce[`Shape`](../) a un[`Chart`](../../../aspose.words.drawing.ch
 public bool HasChart { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment parcourir toutes les formes d’un document.
 
@@ -137,7 +139,5 @@ private class ShapeAppearancePrinter : DocumentVisitor
 ### Voir également
 
 * class [Shape](../)
-* espace de noms [Aspose.Words.Drawing](../../shape/)
+* espace de noms [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Assemblée [Aspose.Words](../../../)
-
-

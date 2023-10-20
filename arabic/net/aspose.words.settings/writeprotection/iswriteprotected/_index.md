@@ -1,7 +1,9 @@
 ---
 title: WriteProtection.IsWriteProtected
-second_title: Aspose.Words لمراجع .NET API
-description: WriteProtection ملكية. إرجاعحقيقي عندما يتم تعيين كلمة مرور الحماية ضد الكتابة.
+linktitle: IsWriteProtected
+articleTitle: IsWriteProtected
+second_title: Aspose.Words لـ .NET
+description: WriteProtection IsWriteProtected ملكية. إرجاعحقيقي عندما يتم تعيين كلمة مرور الحماية ضد الكتابة في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.settings/writeprotection/iswriteprotected/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.settings/writeprotection/iswriteprotected/
 public bool IsWriteProtected { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية حماية مستند بكلمة مرور.
 
@@ -46,7 +48,5 @@ Assert.AreEqual("Hello world! This document is protected." +
 ### أنظر أيضا
 
 * class [WriteProtection](../)
-* مساحة الاسم [Aspose.Words.Settings](../../writeprotection/)
+* مساحة الاسم [Aspose.Words.Settings](../../../aspose.words.settings/)
 * المجسم [Aspose.Words](../../../)
-
-

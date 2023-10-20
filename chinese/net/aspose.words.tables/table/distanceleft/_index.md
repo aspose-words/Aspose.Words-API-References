@@ -1,7 +1,9 @@
 ---
 title: Table.DistanceLeft
-second_title: Aspose.Words for .NET API 参考
-description: Table 财产. 获取或设置表格左侧与周围文本之间的距离以磅为单位
+linktitle: DistanceLeft
+articleTitle: DistanceLeft
+second_title: 用于 .NET 的 Aspose.Words
+description: Table DistanceLeft 财产. 获取或设置表格左侧与周围文本之间的距离以磅为单位 在 C#.
 type: docs
 weight: 130
 url: /zh/net/aspose.words.tables/table/distanceleft/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.tables/table/distanceleft/
 public double DistanceLeft { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何设置表格边界和文本之间的距离。
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "Table.DistanceBetweenTableAndText.docx");
 ### 也可以看看
 
 * class [Table](../)
-* 命名空间 [Aspose.Words.Tables](../../table/)
+* 命名空间 [Aspose.Words.Tables](../../../aspose.words.tables/)
 * 部件 [Aspose.Words](../../../)
-
-

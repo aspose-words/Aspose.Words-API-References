@@ -1,7 +1,9 @@
 ---
 title: IStructuredDocumentTag.Placeholder
-second_title: Справочник по API Aspose.Words для .NET
-description: IStructuredDocumentTag свойство. ПолучаетBuildingBlockсодержащий текстзаполнитель который должен отображаться когда содержимое этого запуска SDT пусто связанный сопоставленный XMLэлемент пуст как указано черезXmlMapping element илиIsShowingPlaceholderText элемент верен.
+linktitle: Placeholder
+articleTitle: Placeholder
+second_title: Aspose.Words для .NET
+description: IStructuredDocumentTag Placeholder свойство. ПолучаетBuildingBlockсодержащий текстзаполнитель который должен отображаться когда содержимое этого запуска SDT пусто связанный сопоставленный XMLэлемент пуст как указано черезXmlMapping element илиIsShowingPlaceholderText элемент верен на С#.
 type: docs
 weight: 70
 url: /ru/net/aspose.words.markup/istructureddocumenttag/placeholder/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.markup/istructureddocumenttag/placeholder/
 public BuildingBlock Placeholder { get; }
 ```
 
-### Примечания
+## Примечания
 
 Может иметь значение null, что означает, что заполнитель неприменим для этого Sdt.
 
@@ -22,7 +24,5 @@ public BuildingBlock Placeholder { get; }
 
 * class [BuildingBlock](../../../aspose.words.buildingblocks/buildingblock/)
 * interface [IStructuredDocumentTag](../)
-* пространство имен [Aspose.Words.Markup](../../istructureddocumenttag/)
+* пространство имен [Aspose.Words.Markup](../../../aspose.words.markup/)
 * сборка [Aspose.Words](../../../)
-
-

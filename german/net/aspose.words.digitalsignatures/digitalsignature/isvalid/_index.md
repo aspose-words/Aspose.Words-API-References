@@ -1,7 +1,9 @@
 ---
 title: DigitalSignature.IsValid
-second_title: Aspose.Words für .NET-API-Referenz
-description: DigitalSignature eigendom. Gibt zurückWAHR wenn diese digitale Signatur gültig ist und das Dokument nicht manipuliert wurde.
+linktitle: IsValid
+articleTitle: IsValid
+second_title: Aspose.Words für .NET
+description: DigitalSignature IsValid eigendom. Gibt zurückWAHR wenn diese digitale Signatur gültig ist und das Dokument nicht manipuliert wurde in C#.
 type: docs
 weight: 40
 url: /de/net/aspose.words.digitalsignatures/digitalsignature/isvalid/
@@ -14,7 +16,7 @@ Gibt zurück`WAHR` wenn diese digitale Signatur gültig ist und das Dokument nic
 public bool IsValid { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Informationen zu jeder Signatur in einem Dokument validiert und angezeigt werden.
 
@@ -36,7 +38,5 @@ foreach (DigitalSignature signature in doc.DigitalSignatures)
 ### Siehe auch
 
 * class [DigitalSignature](../)
-* namensraum [Aspose.Words.DigitalSignatures](../../digitalsignature/)
+* namensraum [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * Montage [Aspose.Words](../../../)
-
-

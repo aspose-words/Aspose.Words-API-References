@@ -1,7 +1,9 @@
 ---
 title: LayoutCollector.Document
-second_title: Aspose.Words for .NET API 参考
-description: LayoutCollector 财产. 获取或设置此收集器实例附加到的文档
+linktitle: Document
+articleTitle: Document
+second_title: 用于 .NET 的 Aspose.Words
+description: LayoutCollector Document 财产. 获取或设置此收集器实例附加到的文档 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.layout/layoutcollector/document/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.layout/layoutcollector/document/
 public Document Document { get; set; }
 ```
 
-### 评论
+## 评论
 
 如果需要访问文档节点的页面索引，则需要在构建文档的页面布局之前设置此属性以指向文档实例 。最好将此属性设置为`无效的`之后， 否则收集器将继续从文档页面布局的后续重建中积累信息。
 
-### 例子
+## 例子
 
 演示如何查看节点跨越的页面范围。
 
@@ -77,7 +79,5 @@ Assert.AreEqual("¶", layoutEnumerator.Text);
 
 * class [Document](../../../aspose.words/document/)
 * class [LayoutCollector](../)
-* 命名空间 [Aspose.Words.Layout](../../layoutcollector/)
+* 命名空间 [Aspose.Words.Layout](../../../aspose.words.layout/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum Orientation
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Orientation перечисление. Определяет ориентацию страницы.
+title: Orientation Enum
+linktitle: Orientation
+articleTitle: Orientation
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Orientation перечисление. Определяет ориентацию страницы на С#.
 type: docs
 weight: 4320
 url: /ru/net/aspose.words/orientation/
@@ -21,7 +23,7 @@ public enum Orientation
 | Portrait | `1` | Книжная ориентация страницы (узкая и высокая). |
 | Landscape | `2` | Альбомная ориентация страницы (широкая и короткая). |
 
-### Примеры
+## Примеры
 
 Показывает, как применить и вернуть параметры настройки страницы к разделам документа.
 
@@ -56,5 +58,3 @@ doc.Save(ArtifactsDir + "PageSetup.ClearFormatting.docx");
 
 * пространство имен [Aspose.Words](../../aspose.words/)
 * сборка [Aspose.Words](../../)
-
-

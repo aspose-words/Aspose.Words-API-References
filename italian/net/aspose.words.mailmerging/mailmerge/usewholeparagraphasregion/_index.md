@@ -1,24 +1,26 @@
 ---
 title: MailMerge.UseWholeParagraphAsRegion
-second_title: Aspose.Words per .NET API Reference
-description: MailMerge proprietà. Ottiene o imposta un valore che indica se è presente lintero paragrafo Inizio tabella O Fine tabella field o un intervallo particolare compreso tra Inizio tabella E Fine tabella i campi devono essere inclusi nella regione della stampa unione.
+linktitle: UseWholeParagraphAsRegion
+articleTitle: UseWholeParagraphAsRegion
+second_title: Aspose.Words per .NET
+description: MailMerge UseWholeParagraphAsRegion proprietà. Ottiene o imposta un valore che indica se è presente lintero paragrafoInizio tabella OFine tabella field o un intervallo particolare compreso traInizio tabella EFine tabella i campi devono essere inclusi nella regione della stampa unione in C#.
 type: docs
 weight: 160
 url: /it/net/aspose.words.mailmerging/mailmerge/usewholeparagraphasregion/
 ---
 ## MailMerge.UseWholeParagraphAsRegion property
 
-Ottiene o imposta un valore che indica se è presente l'intero paragrafo **Inizio tabella** O **Fine tabella** field o un intervallo particolare compreso tra **Inizio tabella** E **Fine tabella** i campi devono essere inclusi nella regione della stampa unione.
+Ottiene o imposta un valore che indica se è presente l'intero paragrafo**Inizio tabella** O**Fine tabella** field o un intervallo particolare compreso tra**Inizio tabella** E**Fine tabella** i campi devono essere inclusi nella regione della stampa unione.
 
 ```csharp
 public bool UseWholeParagraphAsRegion { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Il valore predefinito è`VERO` .
 
-### Esempi
+## Esempi
 
 Mostra la relazione tra aree di stampa unione e paragrafi.
 
@@ -85,7 +87,5 @@ private static DataTable CreateSourceTableDataTableForOneRegion()
 ### Guarda anche
 
 * class [MailMerge](../)
-* spazio dei nomi [Aspose.Words.MailMerging](../../mailmerge/)
+* spazio dei nomi [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * assemblea [Aspose.Words](../../../)
-
-

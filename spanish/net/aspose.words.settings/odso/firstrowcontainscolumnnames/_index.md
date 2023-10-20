@@ -1,7 +1,9 @@
 ---
 title: Odso.FirstRowContainsColumnNames
-second_title: Referencia de API de Aspose.Words para .NET
-description: Odso propiedad. Especifica que una aplicación de alojamiento tratará la primera fila de datos en el origen de datos externo especificado como una fila de encabezado que contiene los nombres de cada columna en el origen de datos. El valor predeterminado esFALSO .
+linktitle: FirstRowContainsColumnNames
+articleTitle: FirstRowContainsColumnNames
+second_title: Aspose.Words para .NET
+description: Odso FirstRowContainsColumnNames propiedad. Especifica que una aplicación de alojamiento tratará la primera fila de datos en el origen de datos externo especificado como una fila de encabezado que contiene los nombres de cada columna en el origen de datos. El valor predeterminado esFALSO  en C#.
 type: docs
 weight: 60
 url: /es/net/aspose.words.settings/odso/firstrowcontainscolumnnames/
@@ -14,11 +16,11 @@ Especifica que una aplicación de alojamiento tratará la primera fila de datos 
 public bool FirstRowContainsColumnNames { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 RK Nunca he visto esto en uso.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo ejecutar una combinación de correspondencia con datos de un objeto de origen de datos de Office.
 
@@ -70,7 +72,5 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ### Ver también
 
 * class [Odso](../)
-* espacio de nombres [Aspose.Words.Settings](../../odso/)
+* espacio de nombres [Aspose.Words.Settings](../../../aspose.words.settings/)
 * asamblea [Aspose.Words](../../../)
-
-

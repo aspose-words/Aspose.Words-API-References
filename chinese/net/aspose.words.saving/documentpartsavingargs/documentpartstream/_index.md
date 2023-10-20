@@ -1,7 +1,9 @@
 ---
 title: DocumentPartSavingArgs.DocumentPartStream
-second_title: Aspose.Words for .NET API 参考
-description: DocumentPartSavingArgs 财产. 允许指定文档部分将保存到的流
+linktitle: DocumentPartStream
+articleTitle: DocumentPartStream
+second_title: 用于 .NET 的 Aspose.Words
+description: DocumentPartSavingArgs DocumentPartStream 财产. 允许指定文档部分将保存到的流 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.saving/documentpartsavingargs/documentpartstream/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.saving/documentpartsavingargs/documentpartstream/
 public Stream DocumentPartStream { get; set; }
 ```
 
-### 评论
+## 评论
 
 此属性允许您在 HTML 导出期间将文档部分保存到流而不是文件。
 
@@ -24,7 +26,7 @@ public Stream DocumentPartStream { get; set; }
 
 当保存为基于 HTML 的容器格式 EPUB 格式时，`DocumentPartStream`无法指定 ，因为所有附属部分将被封装到单个输出包中。
 
-### 例子
+## 例子
 
 演示如何将文档拆分为多个部分并保存它们。
 
@@ -141,7 +143,5 @@ public class SavedImageRename : IImageSavingCallback
 ### 也可以看看
 
 * class [DocumentPartSavingArgs](../)
-* 命名空间 [Aspose.Words.Saving](../../documentpartsavingargs/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

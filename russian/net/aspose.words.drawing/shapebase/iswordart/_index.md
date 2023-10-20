@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.IsWordArt
-second_title: Справочник по API Aspose.Words для .NET
-description: ShapeBase свойство. Возвращаетистинный если эта фигура является объектом WordArt.
+linktitle: IsWordArt
+articleTitle: IsWordArt
+second_title: Aspose.Words для .NET
+description: ShapeBase IsWordArt свойство. Возвращаетистинный если эта фигура является объектом WordArt на С#.
 type: docs
 weight: 360
 url: /ru/net/aspose.words.drawing/shapebase/iswordart/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.drawing/shapebase/iswordart/
 public bool IsWordArt { get; }
 ```
 
-### Примечания
+## Примечания
 
 Работает до режима совместимости 2007. В режиме совместимости 2010 и более поздних версий WordArt представляет собой просто текстовое поле с необычными шрифтами.
 
-### Примеры
+## Примеры
 
 Показывает, как работать с WordArt.
 
@@ -121,7 +123,5 @@ private static Shape AppendWordArt(Document doc, string text, string textFontFam
 ### Смотрите также
 
 * class [ShapeBase](../)
-* пространство имен [Aspose.Words.Drawing](../../shapebase/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

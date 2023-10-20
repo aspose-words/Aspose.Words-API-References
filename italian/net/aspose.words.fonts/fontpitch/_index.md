@@ -1,7 +1,9 @@
 ---
-title: Enum FontPitch
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Fonts.FontPitch enum. Rappresenta la spaziatura del carattere.
+title: FontPitch Enum
+linktitle: FontPitch
+articleTitle: FontPitch
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Fonts.FontPitch enum. Rappresenta la spaziatura del carattere in C#.
 type: docs
 weight: 2960
 url: /it/net/aspose.words.fonts/fontpitch/
@@ -22,11 +24,11 @@ public enum FontPitch
 | Fixed | `1` | Specifica che si tratta di un font a larghezza fissa. |
 | Variable | `2` | Specifica che si tratta di un carattere a larghezza proporzionale. |
 
-### Osservazioni
+## Osservazioni
 
 Il passo indica se il carattere ha passo fisso, spaziatura proporzionale o si basa su un'impostazione predefinita.
 
-### Esempi
+## Esempi
 
 Mostra come accedere e stampare i dettagli di ciascun carattere in un documento.
 
@@ -66,5 +68,3 @@ while (fontCollectionEnumerator.MoveNext())
 
 * spazio dei nomi [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * assemblea [Aspose.Words](../../)
-
-

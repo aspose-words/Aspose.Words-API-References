@@ -1,7 +1,9 @@
 ---
 title: SdtListItem.DisplayText
-second_title: Aspose.Words für .NET-API-Referenz
-description: SdtListItem eigendom. Ruft den Text ab der im Ausführungsinhalt anstelle von angezeigt werden sollValue Attributinhalte für dieses Listenelement.
+linktitle: DisplayText
+articleTitle: DisplayText
+second_title: Aspose.Words für .NET
+description: SdtListItem DisplayText eigendom. Ruft den Text ab der im Ausführungsinhalt anstelle von angezeigt werden sollValue Attributinhalte für dieses Listenelement in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.markup/sdtlistitem/displaytext/
@@ -14,11 +16,11 @@ Ruft den Text ab, der im Ausführungsinhalt anstelle von angezeigt werden soll[`
 public string DisplayText { get; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Kann nicht sein`Null` und darf keine leere Zeichenfolge sein.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit strukturierten Dropdown-Dokument-Tags gearbeitet wird.
 
@@ -75,7 +77,5 @@ Assert.AreEqual(0, listItems.Count);
 ### Siehe auch
 
 * class [SdtListItem](../)
-* namensraum [Aspose.Words.Markup](../../sdtlistitem/)
+* namensraum [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: PageLayoutCallbackArgs.Event
-second_title: Aspose.Words för .NET API Referens
-description: PageLayoutCallbackArgs fast egendom. Får händelse.
+linktitle: Event
+articleTitle: Event
+second_title: Aspose.Words för .NET
+description: PageLayoutCallbackArgs Event fast egendom. Får händelse i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.layout/pagelayoutcallbackargs/event/
@@ -14,7 +16,7 @@ Får händelse.
 public PageLayoutEvent Event { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man spårar layoutändringar med en layoutåteruppringning.
 
@@ -81,7 +83,5 @@ private class RenderPageLayoutCallback : IPageLayoutCallback
 
 * enum [PageLayoutEvent](../../pagelayoutevent/)
 * class [PageLayoutCallbackArgs](../)
-* namnutrymme [Aspose.Words.Layout](../../pagelayoutcallbackargs/)
+* namnutrymme [Aspose.Words.Layout](../../../aspose.words.layout/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: EditableRange.EditableRangeStart
-second_title: Aspose.Words för .NET API Referens
-description: EditableRange fast egendom. Hämtar noden som representerar början av det redigerbara området.
+linktitle: EditableRangeStart
+articleTitle: EditableRangeStart
+second_title: Aspose.Words för .NET
+description: EditableRange EditableRangeStart fast egendom. Hämtar noden som representerar början av det redigerbara området i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words/editablerange/editablerangestart/
@@ -14,7 +16,7 @@ Hämtar noden som representerar början av det redigerbara området.
 public EditableRangeStart EditableRangeStart { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med ett redigerbart område.
 
@@ -61,7 +63,5 @@ editableRange.Remove();
 
 * class [EditableRangeStart](../../editablerangestart/)
 * class [EditableRange](../)
-* namnutrymme [Aspose.Words](../../editablerange/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum JoinStyle
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Drawing.JoinStyle enumeración. Estilo de unión de línea.
+title: JoinStyle Enum
+linktitle: JoinStyle
+articleTitle: JoinStyle
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Drawing.JoinStyle enumeración. Estilo de unión de línea en C#.
 type: docs
 weight: 1090
 url: /es/net/aspose.words.drawing/joinstyle/
@@ -22,7 +24,7 @@ public enum JoinStyle
 | Miter | `1` | Extender los bordes hasta que se unan. |
 | Round | `2` | Dibuja un arco entre los dos bordes. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra para crear una variedad de formas.
 
@@ -99,5 +101,3 @@ doc.Save(ArtifactsDir + "Drawing.VariousShapes.docx");
 * property [JoinStyle](../stroke/joinstyle/)
 * espacio de nombres [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * asamblea [Aspose.Words](../../)
-
-

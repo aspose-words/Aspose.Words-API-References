@@ -1,7 +1,9 @@
 ---
 title: ImageSize.WidthPixels
-second_title: Aspose.Words لمراجع .NET API
-description: ImageSize ملكية. الحصول على عرض الصورة بالبكسل.
+linktitle: WidthPixels
+articleTitle: WidthPixels
+second_title: Aspose.Words لـ .NET
+description: ImageSize WidthPixels ملكية. الحصول على عرض الصورة بالبكسل في C#.
 type: docs
 weight: 60
 url: /ar/net/aspose.words.drawing/imagesize/widthpixels/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing/imagesize/widthpixels/
 public int WidthPixels { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية قراءة خصائص الصورة في الشكل.
 
@@ -47,7 +49,5 @@ doc.Save(ArtifactsDir + "Drawing.ImageSize.docx");
 ### أنظر أيضا
 
 * class [ImageSize](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../imagesize/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

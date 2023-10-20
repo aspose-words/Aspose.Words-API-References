@@ -1,7 +1,9 @@
 ---
-title: Enum LegendPosition
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Drawing.Charts.LegendPosition 枚举. 指定图表图例的可能位置
+title: LegendPosition Enum
+linktitle: LegendPosition
+articleTitle: LegendPosition
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Drawing.Charts.LegendPosition 枚举. 指定图表图例的可能位置 在 C#.
 type: docs
 weight: 910
 url: /zh/net/aspose.words.drawing.charts/legendposition/
@@ -25,7 +27,7 @@ public enum LegendPosition
 | Top | `4` | 指定图例应绘制在图表顶部。 |
 | TopRight | `5` | 指定图例应绘制在图表的右上角。 |
 
-### 例子
+## 例子
 
 演示如何编辑图表图例的外观。
 
@@ -55,5 +57,3 @@ doc.Save(ArtifactsDir + "Charts.ChartLegend.docx");
 
 * 命名空间 [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * 部件 [Aspose.Words](../../)
-
-

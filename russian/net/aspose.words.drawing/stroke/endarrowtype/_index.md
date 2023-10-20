@@ -1,9 +1,11 @@
 ---
 title: Stroke.EndArrowType
-second_title: Справочник по API Aspose.Words для .NET
-description: Stroke свойство. Определяет стрелку конца штриха.
+linktitle: EndArrowType
+articleTitle: EndArrowType
+second_title: Aspose.Words для .NET
+description: Stroke EndArrowType свойство. Определяет стрелку конца штриха на С#.
 type: docs
-weight: 70
+weight: 60
 url: /ru/net/aspose.words.drawing/stroke/endarrowtype/
 ---
 ## Stroke.EndArrowType property
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.drawing/stroke/endarrowtype/
 public ArrowType EndArrowType { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Значение по умолчанию:None.
 
-### Примеры
+## Примеры
 
 Показывает создание разнообразных фигур.
 
@@ -94,7 +96,5 @@ doc.Save(ArtifactsDir + "Drawing.VariousShapes.docx");
 
 * enum [ArrowType](../../arrowtype/)
 * class [Stroke](../)
-* пространство имен [Aspose.Words.Drawing](../../stroke/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

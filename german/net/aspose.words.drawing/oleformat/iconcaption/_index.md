@@ -1,7 +1,9 @@
 ---
 title: OleFormat.IconCaption
-second_title: Aspose.Words für .NET-API-Referenz
-description: OleFormat eigendom. Ruft die Symbolbeschriftung des OLEObjekts ab.
+linktitle: IconCaption
+articleTitle: IconCaption
+second_title: Aspose.Words für .NET
+description: OleFormat IconCaption eigendom. Ruft die Symbolbeschriftung des OLEObjekts ab in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.drawing/oleformat/iconcaption/
@@ -16,7 +18,7 @@ Wenn das OLE-Objekt nicht eingebettet ist, da das Symbol oder die Beschriftung n
 public string IconCaption { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie verknüpfte und nicht verknüpfte OLE-Objekte eingefügt werden.
 
@@ -66,7 +68,5 @@ using (MemoryStream stream = oleFormat.GetOleEntry("\x0001CompObj"))
 ### Siehe auch
 
 * class [OleFormat](../)
-* namensraum [Aspose.Words.Drawing](../../oleformat/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

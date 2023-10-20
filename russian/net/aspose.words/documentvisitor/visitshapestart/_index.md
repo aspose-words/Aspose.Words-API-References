@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitShapeStart
-second_title: Справочник по API Aspose.Words для .NET
-description: DocumentVisitor метод. Вызывается когда начинается перечисление фигуры.
+linktitle: VisitShapeStart
+articleTitle: VisitShapeStart
+second_title: Aspose.Words для .NET
+description: DocumentVisitor VisitShapeStart метод. Вызывается когда начинается перечисление фигуры на С#.
 type: docs
 weight: 400
 url: /ru/net/aspose.words/documentvisitor/visitshapestart/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitShapeStart(Shape shape)
 
 А[`VisitorAction`](../../visitoraction/) значение, указывающее, как продолжить перечисление.
 
-### Примеры
+## Примеры
 
 Показывает, как создать группу фигур и распечатать ее содержимое с помощью посетителя документа.
 
@@ -306,7 +308,5 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [Shape](../../../aspose.words.drawing/shape/)
 * class [DocumentVisitor](../)
-* пространство имен [Aspose.Words](../../documentvisitor/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

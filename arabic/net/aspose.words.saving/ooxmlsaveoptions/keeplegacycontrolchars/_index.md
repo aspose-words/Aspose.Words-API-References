@@ -1,7 +1,9 @@
 ---
 title: OoxmlSaveOptions.KeepLegacyControlChars
-second_title: Aspose.Words لمراجع .NET API
-description: OoxmlSaveOptions ملكية. يحتفظ بالتمثيل الأصلي لأحرف التحكم القديمة.
+linktitle: KeepLegacyControlChars
+articleTitle: KeepLegacyControlChars
+second_title: Aspose.Words لـ .NET
+description: OoxmlSaveOptions KeepLegacyControlChars ملكية. يحتفظ بالتمثيل الأصلي لأحرف التحكم القديمة في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.saving/ooxmlsaveoptions/keeplegacycontrolchars/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.saving/ooxmlsaveoptions/keeplegacycontrolchars/
 public bool KeepLegacyControlChars { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية دعم أحرف التحكم القديمة عند التحويل إلى .docx.
 
@@ -41,7 +43,5 @@ Assert.AreEqual(keepLegacyControlChars ? "\u0013date \\@ \"MM/dd/yyyy\"\u0014\u0
 ### أنظر أيضا
 
 * class [OoxmlSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../ooxmlsaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

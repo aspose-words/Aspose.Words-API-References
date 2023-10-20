@@ -1,7 +1,9 @@
 ---
 title: BorderCollection.GetEnumerator
-second_title: Aspose.Words für .NET-API-Referenz
-description: BorderCollection methode. Gibt ein Enumeratorobjekt zurück das zum Durchlaufen aller Grenzen in der Sammlung verwendet werden kann.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words für .NET
+description: BorderCollection GetEnumerator methode. Gibt ein Enumeratorobjekt zurück das zum Durchlaufen aller Grenzen in der Sammlung verwendet werden kann in C#.
 type: docs
 weight: 160
 url: /de/net/aspose.words/bordercollection/getenumerator/
@@ -14,7 +16,7 @@ Gibt ein Enumeratorobjekt zurück, das zum Durchlaufen aller Grenzen in der Samm
 public IEnumerator<Border> GetEnumerator()
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie alle Rahmen in einem Absatzformatobjekt durchlaufen und bearbeitet werden.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "BorderCollection.GetBordersEnumerator.docx");
 
 * class [Border](../../border/)
 * class [BorderCollection](../)
-* namensraum [Aspose.Words](../../bordercollection/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

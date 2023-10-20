@@ -1,7 +1,9 @@
 ---
 title: AbsolutePositionTab.Accept
-second_title: Справочник по API Aspose.Words для .NET
-description: AbsolutePositionTab метод. Принимает посетителя.
+linktitle: Accept
+articleTitle: Accept
+second_title: Aspose.Words для .NET
+description: AbsolutePositionTab Accept метод. Принимает посетителя на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words/absolutepositiontab/accept/
@@ -22,13 +24,13 @@ public override bool Accept(DocumentVisitor visitor)
 
 `ЛОЖЬ` если посетитель запросил остановку перечисления.
 
-### Примечания
+## Примечания
 
 Звонки[`VisitAbsolutePositionTab`](../../documentvisitor/visitabsolutepositiontab/).
 
 Дополнительные сведения см. в шаблоне проектирования «Посетитель».
 
-### Примеры
+## Примеры
 
 Показывает, как обрабатывать символы табуляции абсолютного положения с помощью посетителя документа.
 
@@ -105,7 +107,5 @@ public class DocTextExtractor : DocumentVisitor
 
 * class [DocumentVisitor](../../documentvisitor/)
 * class [AbsolutePositionTab](../)
-* пространство имен [Aspose.Words](../../absolutepositiontab/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class Bookmark
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Bookmark classe. Représente un seul signet.
+title: Bookmark Class
+linktitle: Bookmark
+articleTitle: Bookmark
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Bookmark classe. Représente un seul signet en C#.
 type: docs
 weight: 40
 url: /fr/net/aspose.words/bookmark/
@@ -34,11 +36,11 @@ public class Bookmark
 | --- | --- |
 | [Remove](../../aspose.words/bookmark/remove/)() | Supprime le signet du document. Ne supprime pas le texte à l'intérieur du signet. |
 
-### Remarques
+## Remarques
 
 `Bookmark` est un objet "façade" qui encapsule deux nœuds[`BookmarkStart`](./bookmarkstart/) et[`BookmarkEnd`](./bookmarkend/) dans une arborescence de documents et permet de travailler avec un signet comme un objet unique.
 
-### Exemples
+## Exemples
 
 Montre comment ajouter des signets et mettre à jour leur contenu.
 
@@ -128,5 +130,3 @@ public class BookmarkInfoPrinter : DocumentVisitor
 
 * espace de noms [Aspose.Words](../../aspose.words/)
 * Assemblée [Aspose.Words](../../)
-
-

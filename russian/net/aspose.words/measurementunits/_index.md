@@ -1,7 +1,9 @@
 ---
-title: Enum MeasurementUnits
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.MeasurementUnits перечисление. Указывает единицу измерения.
+title: MeasurementUnits Enum
+linktitle: MeasurementUnits
+articleTitle: MeasurementUnits
+second_title: Aspose.Words для .NET
+description: Aspose.Words.MeasurementUnits перечисление. Указывает единицу измерения на С#.
 type: docs
 weight: 4150
 url: /ru/net/aspose.words/measurementunits/
@@ -28,5 +30,3 @@ public enum MeasurementUnits
 
 * пространство имен [Aspose.Words](../../aspose.words/)
 * сборка [Aspose.Words](../../)
-
-

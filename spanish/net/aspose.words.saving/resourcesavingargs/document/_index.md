@@ -1,7 +1,9 @@
 ---
 title: ResourceSavingArgs.Document
-second_title: Referencia de API de Aspose.Words para .NET
-description: ResourceSavingArgs propiedad. Obtiene el objeto del documento que se está guardando actualmente.
+linktitle: Document
+articleTitle: Document
+second_title: Aspose.Words para .NET
+description: ResourceSavingArgs Document propiedad. Obtiene el objeto del documento que se está guardando actualmente en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words.saving/resourcesavingargs/document/
@@ -14,7 +16,7 @@ Obtiene el objeto del documento que se está guardando actualmente.
 public Document Document { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo utilizar una devolución de llamada para realizar un seguimiento de los recursos externos creados al convertir un documento a HTML.
 
@@ -60,7 +62,5 @@ private class FontSavingCallback : IResourceSavingCallback
 
 * class [Document](../../../aspose.words/document/)
 * class [ResourceSavingArgs](../)
-* espacio de nombres [Aspose.Words.Saving](../../resourcesavingargs/)
+* espacio de nombres [Aspose.Words.Saving](../../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../../)
-
-

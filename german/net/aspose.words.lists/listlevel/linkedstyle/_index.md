@@ -1,7 +1,9 @@
 ---
 title: ListLevel.LinkedStyle
-second_title: Aspose.Words für .NET-API-Referenz
-description: ListLevel eigendom. Ruft den Absatzstil ab der mit dieser Listenebene verknüpft ist oder legt diesen fest.
+linktitle: LinkedStyle
+articleTitle: LinkedStyle
+second_title: Aspose.Words für .NET
+description: ListLevel LinkedStyle eigendom. Ruft den Absatzstil ab der mit dieser Listenebene verknüpft ist oder legt diesen fest in C#.
 type: docs
 weight: 60
 url: /de/net/aspose.words.lists/listlevel/linkedstyle/
@@ -14,11 +16,11 @@ Ruft den Absatzstil ab, der mit dieser Listenebene verknüpft ist, oder legt die
 public Style LinkedStyle { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Diese Eigenschaft ist`Null` wenn die Listenebene nicht mit einem Absatzstil verknüpft ist. Diese Eigenschaft kann auf gesetzt werden`Null`.
 
-### Beispiele
+## Beispiele
 
 Zeigt erweiterte Möglichkeiten zum Anpassen von Listenbeschriftungen.
 
@@ -80,7 +82,5 @@ doc.Save(ArtifactsDir + "Lists.CreateListRestartAfterHigher.docx");
 
 * class [Style](../../../aspose.words/style/)
 * class [ListLevel](../)
-* namensraum [Aspose.Words.Lists](../../listlevel/)
+* namensraum [Aspose.Words.Lists](../../../aspose.words.lists/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: VbaModuleCollection.Remove
-second_title: Aspose.Words for .NET API 参考
-description: VbaModuleCollection 方法. 从集合中删除指定的模块
+linktitle: Remove
+articleTitle: Remove
+second_title: 用于 .NET 的 Aspose.Words
+description: VbaModuleCollection Remove 方法. 从集合中删除指定的模块 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.vba/vbamodulecollection/remove/
@@ -18,7 +20,7 @@ public void Remove(VbaModule module)
 | --- | --- | --- |
 | module | VbaModule | 要删除的模块。 |
 
-### 例子
+## 例子
 
 演示如何访问文档的 VBA 项目信息。
 
@@ -50,7 +52,5 @@ vbaModules.Remove(vbaModules[2]);
 
 * class [VbaModule](../../vbamodule/)
 * class [VbaModuleCollection](../)
-* 命名空间 [Aspose.Words.Vba](../../vbamodulecollection/)
+* 命名空间 [Aspose.Words.Vba](../../../aspose.words.vba/)
 * 部件 [Aspose.Words](../../../)
-
-

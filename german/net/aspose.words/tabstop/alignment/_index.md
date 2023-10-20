@@ -1,7 +1,9 @@
 ---
 title: TabStop.Alignment
-second_title: Aspose.Words für .NET-API-Referenz
-description: TabStop eigendom. Ruft die Textausrichtung an diesem Tabstopp ab oder legt diese fest.
+linktitle: Alignment
+articleTitle: Alignment
+second_title: Aspose.Words für .NET
+description: TabStop Alignment eigendom. Ruft die Textausrichtung an diesem Tabstopp ab oder legt diese fest in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words/tabstop/alignment/
@@ -14,7 +16,7 @@ Ruft die Textausrichtung an diesem Tabstopp ab oder legt diese fest.
 public TabAlignment Alignment { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Position des rechten Tabstopps in Inhaltsverzeichnis-bezogenen Absätzen geändert wird.
 
@@ -41,7 +43,5 @@ doc.Save(ArtifactsDir + "Styles.ChangeTocsTabStops.docx");
 
 * enum [TabAlignment](../../tabalignment/)
 * class [TabStop](../)
-* namensraum [Aspose.Words](../../tabstop/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

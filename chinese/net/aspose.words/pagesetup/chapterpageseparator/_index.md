@@ -1,7 +1,9 @@
 ---
 title: PageSetup.ChapterPageSeparator
-second_title: Aspose.Words for .NET API 参考
-description: PageSetup 财产. 获取或设置出现在章节号和页码之间的分隔符
+linktitle: ChapterPageSeparator
+articleTitle: ChapterPageSeparator
+second_title: 用于 .NET 的 Aspose.Words
+description: PageSetup ChapterPageSeparator 财产. 获取或设置出现在章节号和页码之间的分隔符 在 C#.
 type: docs
 weight: 90
 url: /zh/net/aspose.words/pagesetup/chapterpageseparator/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words/pagesetup/chapterpageseparator/
 public ChapterPageSeparator ChapterPageSeparator { get; set; }
 ```
 
-### 评论
+## 评论
 
 在创建包含章节编号的页码之前，文档标题必须应用编号大纲格式。
 
-### 例子
+## 例子
 
 展示如何使用页面章节。
 
@@ -36,7 +38,5 @@ pageSetup.HeadingLevelForChapter = 1;
 
 * enum [ChapterPageSeparator](../../chapterpageseparator/)
 * class [PageSetup](../)
-* 命名空间 [Aspose.Words](../../pagesetup/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

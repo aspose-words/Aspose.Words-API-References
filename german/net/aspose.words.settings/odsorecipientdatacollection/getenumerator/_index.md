@@ -1,7 +1,9 @@
 ---
 title: OdsoRecipientDataCollection.GetEnumerator
-second_title: Aspose.Words für .NET-API-Referenz
-description: OdsoRecipientDataCollection methode. Gibt ein Enumeratorobjekt zurück das zum Durchlaufen aller Elemente in der Sammlung verwendet werden kann.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words für .NET
+description: OdsoRecipientDataCollection GetEnumerator methode. Gibt ein Enumeratorobjekt zurück das zum Durchlaufen aller Elemente in der Sammlung verwendet werden kann in C#.
 type: docs
 weight: 60
 url: /de/net/aspose.words.settings/odsorecipientdatacollection/getenumerator/
@@ -14,7 +16,7 @@ Gibt ein Enumeratorobjekt zurück, das zum Durchlaufen aller Elemente in der Sam
 public IEnumerator<OdsoRecipientData> GetEnumerator()
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie auf die Datensammlung zugegriffen wird, die angibt, welche Zusammenführungsdatenquellendatensätze von einem Serienbrief ausgeschlossen werden.
 
@@ -55,7 +57,5 @@ Assert.AreEqual(0, dataCollection.Count);
 
 * class [OdsoRecipientData](../../odsorecipientdata/)
 * class [OdsoRecipientDataCollection](../)
-* namensraum [Aspose.Words.Settings](../../odsorecipientdatacollection/)
+* namensraum [Aspose.Words.Settings](../../../aspose.words.settings/)
 * Montage [Aspose.Words](../../../)
-
-

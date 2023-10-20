@@ -1,7 +1,9 @@
 ---
 title: WarningInfo.Source
-second_title: Aspose.Words för .NET API Referens
-description: WarningInfo fast egendom. Returnerar källan till varningen.
+linktitle: Source
+articleTitle: Source
+second_title: Aspose.Words för .NET
+description: WarningInfo Source fast egendom. Returnerar källan till varningen i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words/warninginfo/source/
@@ -18,7 +20,5 @@ public WarningSource Source { get; }
 
 * enum [WarningSource](../../warningsource/)
 * class [WarningInfo](../)
-* namnutrymme [Aspose.Words](../../warninginfo/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

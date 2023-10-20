@@ -1,7 +1,9 @@
 ---
 title: Font.HasDmlEffect
-second_title: Aspose.Words لمراجع .NET API
-description: Font طريقة. للتحقق من تطبيق تأثير نص معين لـ DrawML.
+linktitle: HasDmlEffect
+articleTitle: HasDmlEffect
+second_title: Aspose.Words لـ .NET
+description: Font HasDmlEffect طريقة. للتحقق من تطبيق تأثير نص معين لـ DrawML في C#.
 type: docs
 weight: 560
 url: /ar/net/aspose.words/font/hasdmleffect/
@@ -22,7 +24,7 @@ public bool HasDmlEffect(TextDmlEffect dmlEffectType)
 
 `حقيقي` إذا تم تطبيق تأثير نص معين لـ DrawML.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التحقق مما إذا كان التشغيل يعرض تأثير نص DrawML.
 
@@ -42,7 +44,5 @@ Assert.True(runs[4].Font.HasDmlEffect(TextDmlEffect.Fill));
 
 * enum [TextDmlEffect](../../textdmleffect/)
 * class [Font](../)
-* مساحة الاسم [Aspose.Words](../../font/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

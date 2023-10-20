@@ -1,7 +1,9 @@
 ---
-title: Class OutlineOptions
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Saving.OutlineOptions klass. Gör det möjligt att ange konturalternativ.
+title: OutlineOptions Class
+linktitle: OutlineOptions
+articleTitle: OutlineOptions
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Saving.OutlineOptions klass. Gör det möjligt att ange konturalternativ i C#.
 type: docs
 weight: 5360
 url: /sv/net/aspose.words.saving/outlineoptions/
@@ -33,7 +35,7 @@ public class OutlineOptions
 | [ExpandedOutlineLevels](../../aspose.words.saving/outlineoptions/expandedoutlinelevels/) { get; set; } | Anger hur många nivåer i dokumentkonturen som ska visas utökad när filen visas. |
 | [HeadingsOutlineLevels](../../aspose.words.saving/outlineoptions/headingsoutlinelevels/) { get; set; } | Anger hur många nivåer av rubriker (stycken formaterade med rubrikstilar) som ska inkluderas i dokumentkonturen. |
 
-### Exempel
+## Exempel
 
 Visar att bearbeta bokmärken i sidhuvuden/sidfötter i ett dokument som vi renderar till PDF.
 
@@ -66,5 +68,3 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.HeaderFooterBookmarksExportMode.pdf", sa
 
 * namnutrymme [Aspose.Words.Saving](../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../)
-
-

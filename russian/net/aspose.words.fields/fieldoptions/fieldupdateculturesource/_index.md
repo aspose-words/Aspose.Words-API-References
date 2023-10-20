@@ -1,7 +1,9 @@
 ---
 title: FieldOptions.FieldUpdateCultureSource
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldOptions свойство. Указывает какой язык и региональные параметры использовать для форматирования результата поля.
+linktitle: FieldUpdateCultureSource
+articleTitle: FieldUpdateCultureSource
+second_title: Aspose.Words для .NET
+description: FieldOptions FieldUpdateCultureSource свойство. Указывает какой язык и региональные параметры использовать для форматирования результата поля на С#.
 type: docs
 weight: 110
 url: /ru/net/aspose.words.fields/fieldoptions/fieldupdateculturesource/
@@ -14,13 +16,13 @@ url: /ru/net/aspose.words.fields/fieldoptions/fieldupdateculturesource/
 public FieldUpdateCultureSource FieldUpdateCultureSource { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 По умолчанию используется культура текущего потока.
 
 Этот параметр влияет только на поля даты/времени с переключателем формата \\@.
 
-### Примеры
+## Примеры
 
 Показывает, как указать источник языка и региональных параметров, используемый для форматирования даты во время обновления поля или слияния почты.
 
@@ -56,7 +58,5 @@ Thread.CurrentThread.CurrentCulture = currentCulture;
 
 * enum [FieldUpdateCultureSource](../../fieldupdateculturesource/)
 * class [FieldOptions](../)
-* пространство имен [Aspose.Words.Fields](../../fieldoptions/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class FieldDatabaseDataRow
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Fields.FieldDatabaseDataRow сорт. Предоставляет данные дляFieldDatabase результат поля. Пожалуйста посмотриDataRow экземпляр.
+title: FieldDatabaseDataRow Class
+linktitle: FieldDatabaseDataRow
+articleTitle: FieldDatabaseDataRow
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Fields.FieldDatabaseDataRow сорт. Предоставляет данные дляFieldDatabase результат поля. Пожалуйста посмотриDataRow экземпляр на С#.
 type: docs
 weight: 1750
 url: /ru/net/aspose.words.fields/fielddatabasedatarow/
@@ -20,7 +22,7 @@ public class FieldDatabaseDataRow
 
 | Имя | Описание |
 | --- | --- |
-| [FieldDatabaseDataRow](fielddatabasedatarow/)(params string[]) | Инициализирует новый экземпляр`FieldDatabaseDataRow` класс. |
+| [FieldDatabaseDataRow](fielddatabasedatarow/)(*params string[]*) | Инициализирует новый экземпляр`FieldDatabaseDataRow` класс. |
 
 ## Характеристики
 
@@ -32,11 +34,9 @@ public class FieldDatabaseDataRow
 
 | Имя | Описание |
 | --- | --- |
-| static [CreateFrom](../../aspose.words.fields/fielddatabasedatarow/createfrom/)(DataRow) | Инициализирует новый экземпляр`FieldDatabaseDataRow` class изDataRow экземпляр. |
+| static [CreateFrom](../../aspose.words.fields/fielddatabasedatarow/createfrom/)(*DataRow*) | Инициализирует новый экземпляр`FieldDatabaseDataRow` class изDataRow экземпляр. |
 
 ### Смотрите также
 
 * пространство имен [Aspose.Words.Fields](../../aspose.words.fields/)
 * сборка [Aspose.Words](../../)
-
-

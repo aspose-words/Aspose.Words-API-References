@@ -1,7 +1,9 @@
 ---
 title: FieldMergingArgsBase.FieldName
-second_title: Aspose.Words för .NET API Referens
-description: FieldMergingArgsBase fast egendom. Hämtar namnet på sammanslagningsfältet i datakällan.
+linktitle: FieldName
+articleTitle: FieldName
+second_title: Aspose.Words för .NET
+description: FieldMergingArgsBase FieldName fast egendom. Hämtar namnet på sammanslagningsfältet i datakällan i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.mailmerging/fieldmergingargsbase/fieldname/
@@ -14,13 +16,13 @@ Hämtar namnet på sammanslagningsfältet i datakällan.
 public string FieldName { get; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Om du har en mappning från ett dokumentfältnamn till en annan datakällas fältnamn, är detta det mappade fältnamnet.
 
 Om du angav ett fältnamnsprefix, till exempel "Image:MyFieldName" i dokumentet, `FieldName` returnerar fältnamnet utan prefixet, det vill säga "MyFieldName".
 
-### Exempel
+## Exempel
 
 Visar hur man infogar kryssrutaformulär i MERGEFIELDs som sammanfogningsdata under sammanfogning.
 
@@ -106,7 +108,5 @@ private static DataTable GetStudentCourseDataTable()
 ### Se även
 
 * class [FieldMergingArgsBase](../)
-* namnutrymme [Aspose.Words.MailMerging](../../fieldmergingargsbase/)
+* namnutrymme [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * hopsättning [Aspose.Words](../../../)
-
-

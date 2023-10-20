@@ -1,7 +1,9 @@
 ---
-title: Shape.Shape
-second_title: Справочник по API Aspose.Words для .NET
-description: Shape строитель. Создает новый объект формы.
+title: Shape
+linktitle: Shape
+articleTitle: Shape
+second_title: Aspose.Words для .NET
+description: Shape строитель. Создает новый объект формы на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.drawing/shape/shape/
@@ -19,11 +21,11 @@ public Shape(DocumentBase doc, ShapeType shapeType)
 | doc | DocumentBase | Документ владельца. |
 | shapeType | ShapeType | Тип создаваемой фигуры. |
 
-### Примечания
+## Примечания
 
 Вам следует указать желаемые свойства фигуры после ее создания.
 
-### Примеры
+## Примеры
 
 Показывает, как вставить в документ фигуру с изображением из локальной файловой системы.
 
@@ -77,7 +79,5 @@ doc.Save(ArtifactsDir + "Shape.CreateTextBox.docx");
 * class [DocumentBase](../../../aspose.words/documentbase/)
 * enum [ShapeType](../../shapetype/)
 * class [Shape](../)
-* пространство имен [Aspose.Words.Drawing](../../shape/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

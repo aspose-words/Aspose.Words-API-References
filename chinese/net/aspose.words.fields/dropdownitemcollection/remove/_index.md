@@ -1,7 +1,9 @@
 ---
 title: DropDownItemCollection.Remove
-second_title: Aspose.Words for .NET API 参考
-description: DropDownItemCollection 方法. 从集合中删除指定值
+linktitle: Remove
+articleTitle: Remove
+second_title: 用于 .NET 的 Aspose.Words
+description: DropDownItemCollection Remove 方法. 从集合中删除指定值 在 C#.
 type: docs
 weight: 90
 url: /zh/net/aspose.words.fields/dropdownitemcollection/remove/
@@ -18,7 +20,7 @@ public void Remove(string name)
 | --- | --- | --- |
 | name | String | 要删除的区分大小写的值。 |
 
-### 例子
+## 例子
 
 演示如何插入组合框字段以及编辑其项目集合中的元素。
 
@@ -72,7 +74,5 @@ dropDownItems.Clear();
 ### 也可以看看
 
 * class [DropDownItemCollection](../)
-* 命名空间 [Aspose.Words.Fields](../../dropdownitemcollection/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

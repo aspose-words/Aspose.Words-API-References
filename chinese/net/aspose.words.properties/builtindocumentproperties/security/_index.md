@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.Security
-second_title: Aspose.Words for .NET API 参考
-description: BuiltInDocumentProperties 财产. 将文档的安全级别指定为数值
+linktitle: Security
+articleTitle: Security
+second_title: 用于 .NET 的 Aspose.Words
+description: BuiltInDocumentProperties Security 财产. 将文档的安全级别指定为数值 在 C#.
 type: docs
 weight: 250
 url: /zh/net/aspose.words.properties/builtindocumentproperties/security/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.properties/builtindocumentproperties/security/
 public DocumentSecurity Security { get; set; }
 ```
 
-### 评论
+## 评论
 
 此属性仅供参考，因为 Microsoft Word 并不总是 设置此属性。此属性仅在 DOC 和 OOXML 文档中可用。
 
@@ -22,7 +24,7 @@ public DocumentSecurity Security { get; set; }
 
 Aspose.Words 在保存文档之前将此属性更新为正确的值。
 
-### 例子
+## 例子
 
 演示如何使用文档属性来显示文档的安全级别。
 
@@ -68,7 +70,5 @@ Assert.AreEqual(DocumentSecurity.ReadOnlyExceptAnnotations,
 
 * enum [DocumentSecurity](../../documentsecurity/)
 * class [BuiltInDocumentProperties](../)
-* 命名空间 [Aspose.Words.Properties](../../builtindocumentproperties/)
+* 命名空间 [Aspose.Words.Properties](../../../aspose.words.properties/)
 * 部件 [Aspose.Words](../../../)
-
-

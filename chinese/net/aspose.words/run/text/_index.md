@@ -1,7 +1,9 @@
 ---
 title: Run.Text
-second_title: Aspose.Words for .NET API 参考
-description: Run 财产. 获取或设置运行文本
+linktitle: Text
+articleTitle: Text
+second_title: 用于 .NET 的 Aspose.Words
+description: Run Text 财产. 获取或设置运行文本 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words/run/text/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/run/text/
 public string Text { get; set; }
 ```
 
-### 例子
+## 例子
 
 展示如何手动构建 Aspose.Words 文档。
 
@@ -64,7 +66,5 @@ doc.Save(ArtifactsDir + "Section.CreateManually.docx");
 ### 也可以看看
 
 * class [Run](../)
-* 命名空间 [Aspose.Words](../../run/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

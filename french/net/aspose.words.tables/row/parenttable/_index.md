@@ -1,7 +1,9 @@
 ---
 title: Row.ParentTable
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Row propriété. Renvoie la table parent immédiate de la ligne.
+linktitle: ParentTable
+articleTitle: ParentTable
+second_title: Aspose.Words pour .NET
+description: Row ParentTable propriété. Renvoie la table parent immédiate de la ligne en C#.
 type: docs
 weight: 90
 url: /fr/net/aspose.words.tables/row/parenttable/
@@ -14,11 +16,11 @@ Renvoie la table parent immédiate de la ligne.
 public Table ParentTable { get; }
 ```
 
-### Remarques
+## Remarques
 
 Équivalent àFirstNonMarkupParentNode jeté à[`Table`](../../table/).
 
-### Exemples
+## Exemples
 
 Montre comment imprimer la structure des nœuds de chaque table d'un document.
 
@@ -182,7 +184,5 @@ public class TableStructurePrinter : DocumentVisitor
 
 * class [Table](../../table/)
 * class [Row](../)
-* espace de noms [Aspose.Words.Tables](../../row/)
+* espace de noms [Aspose.Words.Tables](../../../aspose.words.tables/)
 * Assemblée [Aspose.Words](../../../)
-
-

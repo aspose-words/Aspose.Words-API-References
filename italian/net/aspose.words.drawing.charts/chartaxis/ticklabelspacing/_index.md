@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.TickLabelSpacing
-second_title: Aspose.Words per .NET API Reference
-description: ChartAxis proprietà. Ottiene o imposta lintervallo in cui vengono disegnate le etichette dei segni di spunta.
+linktitle: TickLabelSpacing
+articleTitle: TickLabelSpacing
+second_title: Aspose.Words per .NET
+description: ChartAxis TickLabelSpacing proprietà. Ottiene o imposta lintervallo in cui vengono disegnate le etichette dei segni di spunta in C#.
 type: docs
 weight: 250
 url: /it/net/aspose.words.drawing.charts/chartaxis/ticklabelspacing/
@@ -14,13 +16,13 @@ Ottiene o imposta l'intervallo in cui vengono disegnate le etichette dei segni d
 public int TickLabelSpacing { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 La proprietà ha effetto sulle categorie di testo e sugli assi delle serie. Non è supportato dai nuovi grafici di MS Office 2016 . L'intervallo valido di un valore è maggiore o uguale a 1.
 
 L'impostazione di questa proprietà imposta il file[`TickLabelSpacingIsAuto`](../ticklabelspacingisauto/) proprietà a`falso`.
 
-### Esempi
+## Esempi
 
 Mostra come manipolare i segni di graduazione e i valori visualizzati di un asse del grafico.
 
@@ -78,7 +80,5 @@ doc.Save(ArtifactsDir + "Charts.AxisDisplayUnit.docx");
 ### Guarda anche
 
 * class [ChartAxis](../)
-* spazio dei nomi [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* spazio dei nomi [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * assemblea [Aspose.Words](../../../)
-
-

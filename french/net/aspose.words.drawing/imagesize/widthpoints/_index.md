@@ -1,7 +1,9 @@
 ---
 title: ImageSize.WidthPoints
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ImageSize propriété. Obtient la largeur de limage en points. 1 point équivaut à 1/72 de pouce.
+linktitle: WidthPoints
+articleTitle: WidthPoints
+second_title: Aspose.Words pour .NET
+description: ImageSize WidthPoints propriété. Obtient la largeur de limage en points. 1 point équivaut à 1/72 de pouce en C#.
 type: docs
 weight: 70
 url: /fr/net/aspose.words.drawing/imagesize/widthpoints/
@@ -14,7 +16,7 @@ Obtient la largeur de l'image en points. 1 point équivaut à 1/72 de pouce.
 public double WidthPoints { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment redimensionner une forme avec une image.
 
@@ -71,7 +73,5 @@ Montre comment redimensionner une forme avec une image.
 ### Voir également
 
 * class [ImageSize](../)
-* espace de noms [Aspose.Words.Drawing](../../imagesize/)
+* espace de noms [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Assemblée [Aspose.Words](../../../)
-
-

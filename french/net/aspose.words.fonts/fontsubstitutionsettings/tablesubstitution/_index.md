@@ -1,7 +1,9 @@
 ---
 title: FontSubstitutionSettings.TableSubstitution
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FontSubstitutionSettings propriété. Paramètres liés à la règle de substitution de table.
+linktitle: TableSubstitution
+articleTitle: TableSubstitution
+second_title: Aspose.Words pour .NET
+description: FontSubstitutionSettings TableSubstitution propriété. Paramètres liés à la règle de substitution de table en C#.
 type: docs
 weight: 50
 url: /fr/net/aspose.words.fonts/fontsubstitutionsettings/tablesubstitution/
@@ -14,7 +16,7 @@ Paramètres liés à la règle de substitution de table.
 public TableSubstitutionRule TableSubstitution { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment utiliser des tables de substitution de polices personnalisées.
 
@@ -76,7 +78,5 @@ doc.Save(ArtifactsDir + "FontSettings.TableSubstitutionRule.Custom.pdf");
 
 * class [TableSubstitutionRule](../../tablesubstitutionrule/)
 * class [FontSubstitutionSettings](../)
-* espace de noms [Aspose.Words.Fonts](../../fontsubstitutionsettings/)
+* espace de noms [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * Assemblée [Aspose.Words](../../../)
-
-

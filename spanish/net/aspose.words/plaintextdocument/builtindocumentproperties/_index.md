@@ -1,7 +1,9 @@
 ---
 title: PlainTextDocument.BuiltInDocumentProperties
-second_title: Referencia de API de Aspose.Words para .NET
-description: PlainTextDocument propiedad. ObtieneBuiltInDocumentProperties del documento.
+linktitle: BuiltInDocumentProperties
+articleTitle: BuiltInDocumentProperties
+second_title: Aspose.Words para .NET
+description: PlainTextDocument BuiltInDocumentProperties propiedad. ObtieneBuiltInDocumentProperties del documento en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words/plaintextdocument/builtindocumentproperties/
@@ -14,7 +16,7 @@ Obtiene`BuiltInDocumentProperties` del documento.
 public BuiltInDocumentProperties BuiltInDocumentProperties { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo cargar el contenido de un documento de Microsoft Word en texto sin formato y luego acceder a las propiedades integradas del documento original.
 
@@ -37,7 +39,5 @@ Assert.AreEqual("John Doe", plaintext.BuiltInDocumentProperties.Author);
 
 * class [BuiltInDocumentProperties](../../../aspose.words.properties/builtindocumentproperties/)
 * class [PlainTextDocument](../)
-* espacio de nombres [Aspose.Words](../../plaintextdocument/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

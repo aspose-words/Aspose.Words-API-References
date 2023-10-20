@@ -1,7 +1,9 @@
 ---
 title: List.HasSameTemplate
-second_title: Referencia de API de Aspose.Words para .NET
-description: List método. Devuelve verdadero si la lista actual y la lista proporcionada se crean a partir de la misma plantilla.
+linktitle: HasSameTemplate
+articleTitle: HasSameTemplate
+second_title: Aspose.Words para .NET
+description: List HasSameTemplate método. Devuelve verdadero si la lista actual y la lista proporcionada se crean a partir de la misma plantilla en C#.
 type: docs
 weight: 120
 url: /es/net/aspose.words.lists/list/hassametemplate/
@@ -14,7 +16,7 @@ Devuelve verdadero si la lista actual y la lista proporcionada se crean a partir
 public bool HasSameTemplate(List other)
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo definir listas con el mismo ListDefId.
 
@@ -28,7 +30,5 @@ Assert.False(doc.Lists[1].HasSameTemplate(doc.Lists[2]));
 ### Ver también
 
 * class [List](../)
-* espacio de nombres [Aspose.Words.Lists](../../list/)
+* espacio de nombres [Aspose.Words.Lists](../../../aspose.words.lists/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Document.MailMergeSettings
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Document propriété. Obtient ou définit lobjet qui contient toutes les informations de publipostage pour un document.
+linktitle: MailMergeSettings
+articleTitle: MailMergeSettings
+second_title: Aspose.Words pour .NET
+description: Document MailMergeSettings propriété. Obtient ou définit lobjet qui contient toutes les informations de publipostage pour un document en C#.
 type: docs
 weight: 270
 url: /fr/net/aspose.words/document/mailmergesettings/
@@ -14,13 +16,13 @@ Obtient ou définit l'objet qui contient toutes les informations de publipostage
 public MailMergeSettings MailMergeSettings { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 Vous pouvez utiliser cet objet pour spécifier une source de données de publipostage pour un document et ces informations (ainsi que les champs de données disponibles) apparaîtront dans Microsoft Word lorsque l'utilisateur ouvrira ce document. Ou vous pouvez utiliser cet objet pour interroger les paramètres de fusion et de publipostage. que l'utilisateur a spécifié dans Microsoft Word pour ce document.
 
 Cet objet n'est jamais`nul`.
 
-### Exemples
+## Exemples
 
 Montre comment exécuter un publipostage avec des données provenant d’un objet source de données Office.
 
@@ -73,7 +75,5 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 
 * class [MailMergeSettings](../../../aspose.words.settings/mailmergesettings/)
 * class [Document](../)
-* espace de noms [Aspose.Words](../../document/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

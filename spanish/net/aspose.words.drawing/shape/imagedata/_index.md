@@ -1,7 +1,9 @@
 ---
 title: Shape.ImageData
-second_title: Referencia de API de Aspose.Words para .NET
-description: Shape propiedad. Proporciona acceso a la imagen de la forma. Devuelvenulo si la forma no puede tener una imagen.
+linktitle: ImageData
+articleTitle: ImageData
+second_title: Aspose.Words para .NET
+description: Shape ImageData propiedad. Proporciona acceso a la imagen de la forma. Devuelvenulo si la forma no puede tener una imagen en C#.
 type: docs
 weight: 110
 url: /es/net/aspose.words.drawing/shape/imagedata/
@@ -14,7 +16,7 @@ Proporciona acceso a la imagen de la forma. Devuelve`nulo` si la forma no puede 
 public ImageData ImageData { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo extraer imágenes de un documento y guardarlas en el sistema de archivos local como archivos individuales.
 
@@ -83,7 +85,5 @@ Assert.True(10000 > new FileInfo(ArtifactsDir + "Image.CreateLinkedImage.Linked.
 
 * class [ImageData](../../imagedata/)
 * class [Shape](../)
-* espacio de nombres [Aspose.Words.Drawing](../../shape/)
+* espacio de nombres [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * asamblea [Aspose.Words](../../../)
-
-

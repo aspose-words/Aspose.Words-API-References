@@ -1,7 +1,9 @@
 ---
-title: Class FontSubstitutionRule
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Fonts.FontSubstitutionRule klass. Detta är en abstrakt basklass för teckensnittsersättningsregeln.
+title: FontSubstitutionRule Class
+linktitle: FontSubstitutionRule
+articleTitle: FontSubstitutionRule
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Fonts.FontSubstitutionRule klass. Detta är en abstrakt basklass för teckensnittsersättningsregeln i C#.
 type: docs
 weight: 3000
 url: /sv/net/aspose.words.fonts/fontsubstitutionrule/
@@ -22,7 +24,7 @@ public abstract class FontSubstitutionRule
 | --- | --- |
 | virtual [Enabled](../../aspose.words.fonts/fontsubstitutionrule/enabled/) { get; set; } | Anger om regeln är aktiverad eller inte. |
 
-### Exempel
+## Exempel
 
 Visar operativsystemberoende teckensnittskonfigurationsersättning.
 
@@ -59,5 +61,3 @@ if (isLinuxOrMac)
 
 * namnutrymme [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * hopsättning [Aspose.Words](../../)
-
-

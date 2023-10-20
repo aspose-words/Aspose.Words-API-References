@@ -1,7 +1,9 @@
 ---
 title: Odso.Clone
-second_title: Aspose.Words per .NET API Reference
-description: Odso metodo. Restituisce un clone profondo di questo oggetto.
+linktitle: Clone
+articleTitle: Clone
+second_title: Aspose.Words per .NET
+description: Odso Clone metodo. Restituisce un clone profondo di questo oggetto in C#.
 type: docs
 weight: 100
 url: /it/net/aspose.words.settings/odso/clone/
@@ -14,7 +16,7 @@ Restituisce un clone profondo di questo oggetto.
 public Odso Clone()
 ```
 
-### Esempi
+## Esempi
 
 Mostra come eseguire una stampa unione con i dati di un oggetto origine dati di Office.
 
@@ -66,7 +68,5 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ### Guarda anche
 
 * class [Odso](../)
-* spazio dei nomi [Aspose.Words.Settings](../../odso/)
+* spazio dei nomi [Aspose.Words.Settings](../../../aspose.words.settings/)
 * assemblea [Aspose.Words](../../../)
-
-

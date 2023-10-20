@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitBodyStart
-second_title: Aspose.Words für .NET-API-Referenz
-description: DocumentVisitor methode. Wird aufgerufen wenn die Aufzählung der Haupttextgeschichte in einem Abschnitt begonnen hat.
+linktitle: VisitBodyStart
+articleTitle: VisitBodyStart
+second_title: Aspose.Words für .NET
+description: DocumentVisitor VisitBodyStart methode. Wird aufgerufen wenn die Aufzählung der Haupttextgeschichte in einem Abschnitt begonnen hat in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words/documentvisitor/visitbodystart/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitBodyStart(Body body)
 
 A[`VisitorAction`](../../visitoraction/) Wert, der angibt, wie die Enumeration fortgesetzt werden soll.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Dokumentbesucher zum Drucken der Knotenstruktur eines Dokuments verwendet wird.
 
@@ -193,7 +195,5 @@ public class DocStructurePrinter : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [Body](../../body/)
 * class [DocumentVisitor](../)
-* namensraum [Aspose.Words](../../documentvisitor/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

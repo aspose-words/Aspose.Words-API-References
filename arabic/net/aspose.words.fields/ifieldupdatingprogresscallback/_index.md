@@ -1,7 +1,9 @@
 ---
-title: Interface IFieldUpdatingProgressCallback
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Fields.IFieldUpdatingProgressCallback واجهه المستخدم. قم بتنفيذ هذه الواجهة إذا كنت تريد تتبع تقدم التحديث الميداني.
+title: IFieldUpdatingProgressCallback Interface
+linktitle: IFieldUpdatingProgressCallback
+articleTitle: IFieldUpdatingProgressCallback
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Fields.IFieldUpdatingProgressCallback واجهه المستخدم. قم بتنفيذ هذه الواجهة إذا كنت تريد تتبع تقدم التحديث الميداني في C#.
 type: docs
 weight: 2730
 url: /ar/net/aspose.words.fields/ifieldupdatingprogresscallback/
@@ -18,9 +20,9 @@ public interface IFieldUpdatingProgressCallback
 
 | اسم | وصف |
 | --- | --- |
-| [Notify](../../aspose.words.fields/ifieldupdatingprogresscallback/notify/)(FieldUpdatingProgressArgs) | طريقة يحددها المستخدم يتم استدعاؤها عند تغيير تقدم التحديث. |
+| [Notify](../../aspose.words.fields/ifieldupdatingprogresscallback/notify/)(*[FieldUpdatingProgressArgs](../fieldupdatingprogressargs/)*) | طريقة يحددها المستخدم يتم استدعاؤها عند تغيير تقدم التحديث. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام طرق رد الاتصال أثناء التحديث الميداني.
 
@@ -89,5 +91,3 @@ public class FieldUpdatingCallback : IFieldUpdatingCallback, IFieldUpdatingProgr
 
 * مساحة الاسم [Aspose.Words.Fields](../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../)
-
-

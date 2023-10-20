@@ -1,7 +1,9 @@
 ---
 title: ControlChar.Lf
-second_title: Referencia de API de Aspose.Words para .NET
-description: ControlChar campo. Carácter de avance de línea x000a o n. Igual queLineFeed .
+linktitle: Lf
+articleTitle: Lf
+second_title: Aspose.Words para .NET
+description: ControlChar Lf campo. Carácter de avance de línea x000a o n. Igual queLineFeed  en C#.
 type: docs
 weight: 110
 url: /es/net/aspose.words/controlchar/lf/
@@ -14,7 +16,7 @@ Carácter de avance de línea: "\x000a" o "\n". Igual que[`LineFeed`](../linefee
 public static readonly string Lf;
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo agregar varios caracteres de control a un documento.
 
@@ -86,7 +88,5 @@ Assert.AreEqual(Convert.ToChar(ControlChar.ColumnBreak), ControlChar.ColumnBreak
 ### Ver también
 
 * class [ControlChar](../)
-* espacio de nombres [Aspose.Words](../../controlchar/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

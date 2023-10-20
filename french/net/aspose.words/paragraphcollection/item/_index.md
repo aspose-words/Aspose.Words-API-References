@@ -1,7 +1,9 @@
 ---
 title: ParagraphCollection.Item
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ParagraphCollection propriété. Récupère unParagraph à lindex donné.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words pour .NET
+description: ParagraphCollection Item propriété. Récupère unParagraph à lindex donné en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words/paragraphcollection/item/
@@ -18,7 +20,7 @@ public Paragraph this[int index] { get; }
 | --- | --- |
 | index | Un index dans la collection. |
 
-### Remarques
+## Remarques
 
 L'indice est de base zéro.
 
@@ -28,7 +30,7 @@ Si l'index est supérieur ou égal au nombre d'éléments de la liste, cela renv
 
 Si l'index est négatif et que sa valeur absolue est supérieure au nombre d'éléments de la liste, cela renvoie une référence nulle.
 
-### Exemples
+## Exemples
 
 Montre comment vérifier si un paragraphe est une révision de déplacement.
 
@@ -63,7 +65,5 @@ Assert.True(paragraphs[3].IsMoveToRevision);
 
 * class [Paragraph](../../paragraph/)
 * class [ParagraphCollection](../)
-* espace de noms [Aspose.Words](../../paragraphcollection/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

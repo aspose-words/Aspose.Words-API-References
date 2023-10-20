@@ -1,7 +1,9 @@
 ---
 title: Shape.Stroked
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Shape propriété. Définit si le chemin sera tracé.
+linktitle: Stroked
+articleTitle: Stroked
+second_title: Aspose.Words pour .NET
+description: Shape Stroked propriété. Définit si le chemin sera tracé en C#.
 type: docs
 weight: 200
 url: /fr/net/aspose.words.drawing/shape/stroked/
@@ -14,13 +16,13 @@ Définit si le chemin sera tracé.
 public bool Stroked { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 Il s'agit d'un raccourci vers le[`On`](../../stroke/on/) propriété.
 
 La valeur par défaut est`vrai`.
 
-### Exemples
+## Exemples
 
 Montre comment parcourir toutes les formes d’un document.
 
@@ -143,7 +145,5 @@ private class ShapeAppearancePrinter : DocumentVisitor
 ### Voir également
 
 * class [Shape](../)
-* espace de noms [Aspose.Words.Drawing](../../shape/)
+* espace de noms [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: CustomXmlPropertyCollection.IndexOfKey
-second_title: Aspose.Words för .NET API Referens
-description: CustomXmlPropertyCollection metod. Returnerar det nollbaserade indexet för den angivna egenskapen i samlingen.
+linktitle: IndexOfKey
+articleTitle: IndexOfKey
+second_title: Aspose.Words för .NET
+description: CustomXmlPropertyCollection IndexOfKey metod. Returnerar det nollbaserade indexet för den angivna egenskapen i samlingen i C#.
 type: docs
 weight: 70
 url: /sv/net/aspose.words.markup/customxmlpropertycollection/indexofkey/
@@ -22,7 +24,7 @@ public int IndexOfKey(string name)
 
 Det nollbaserade indexet. Negativt värde om det inte hittas.
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med smarta taggars egenskaper för att få djupgående information om smarta taggar.
 
@@ -79,7 +81,5 @@ Assert.AreEqual(0, properties.Count);
 ### Se även
 
 * class [CustomXmlPropertyCollection](../)
-* namnutrymme [Aspose.Words.Markup](../../customxmlpropertycollection/)
+* namnutrymme [Aspose.Words.Markup](../../../aspose.words.markup/)
 * hopsättning [Aspose.Words](../../../)
-
-

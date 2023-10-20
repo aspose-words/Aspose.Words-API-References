@@ -1,7 +1,9 @@
 ---
 title: MailMerge.UnconditionalMergeFieldsAndRegions
-second_title: Aspose.Words for .NET API 参考
-description: MailMerge 财产. 获取或设置一个值该值指示合并字段和合并区域是否合并无论父 IF 字段的条件如何
+linktitle: UnconditionalMergeFieldsAndRegions
+articleTitle: UnconditionalMergeFieldsAndRegions
+second_title: 用于 .NET 的 Aspose.Words
+description: MailMerge UnconditionalMergeFieldsAndRegions 财产. 获取或设置一个值该值指示合并字段和合并区域是否合并无论父 IF 字段的条件如何 在 C#.
 type: docs
 weight: 140
 url: /zh/net/aspose.words.mailmerging/mailmerge/unconditionalmergefieldsandregions/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.mailmerging/mailmerge/unconditionalmergefieldsandregio
 public bool UnconditionalMergeFieldsAndRegions { get; set; }
 ```
 
-### 评论
+## 评论
 
 默认值为`错误的`.
 
-### 例子
+## 例子
 
 显示如何合并字段或区域，而不管父 IF 字段的条件如何。
 
@@ -57,7 +59,5 @@ Assert.AreEqual(
 ### 也可以看看
 
 * class [MailMerge](../)
-* 命名空间 [Aspose.Words.MailMerging](../../mailmerge/)
+* 命名空间 [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * 部件 [Aspose.Words](../../../)
-
-

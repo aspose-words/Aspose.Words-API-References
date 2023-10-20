@@ -1,12 +1,14 @@
 ---
 title: DocumentBuilder.InsertShape
-second_title: Aspose.Words per .NET API Reference
-description: DocumentBuilder metodo. Inserisce una forma in linea con tipo e dimensione specificati.
+linktitle: InsertShape
+articleTitle: InsertShape
+second_title: Aspose.Words per .NET
+description: DocumentBuilder InsertShape metodo. Inserisce una forma in linea con tipo e dimensione specificati in C#.
 type: docs
-weight: 440
+weight: 430
 url: /it/net/aspose.words/documentbuilder/insertshape/
 ---
-## InsertShape(ShapeType, double, double) {#insertshape_1}
+## InsertShape(*[ShapeType](../../../aspose.words.drawing/shapetype/), double, double*) {#insertshape_1}
 
 Inserisce una forma in linea con tipo e dimensione specificati.
 
@@ -24,7 +26,7 @@ public Shape InsertShape(ShapeType shapeType, double width, double height)
 
 Il nodo della forma che è stato inserito.
 
-### Esempi
+## Esempi
 
 Mostra come inserire forme DML in un documento.
 
@@ -54,12 +56,12 @@ doc.Save(ArtifactsDir + "Shape.ShapeInsertion.docx", saveOptions);
 * class [Shape](../../../aspose.words.drawing/shape/)
 * enum [ShapeType](../../../aspose.words.drawing/shapetype/)
 * class [DocumentBuilder](../)
-* spazio dei nomi [Aspose.Words](../../documentbuilder/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
 
 ---
 
-## InsertShape(ShapeType, RelativeHorizontalPosition, double, RelativeVerticalPosition, double, double, double, WrapType) {#insertshape}
+## InsertShape(*[ShapeType](../../../aspose.words.drawing/shapetype/), [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/), double, [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/), double, double, double, [WrapType](../../../aspose.words.drawing/wraptype/)*) {#insertshape}
 
 Inserisce una forma mobile con posizione, dimensione e tipo di testo a capo specificati.
 
@@ -83,7 +85,7 @@ public Shape InsertShape(ShapeType shapeType, RelativeHorizontalPosition horzPos
 
 Il nodo della forma che è stato inserito.
 
-### Esempi
+## Esempi
 
 Mostra come inserire forme DML in un documento.
 
@@ -116,7 +118,5 @@ doc.Save(ArtifactsDir + "Shape.ShapeInsertion.docx", saveOptions);
 * enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/)
 * enum [WrapType](../../../aspose.words.drawing/wraptype/)
 * class [DocumentBuilder](../)
-* spazio dei nomi [Aspose.Words](../../documentbuilder/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Font.Engrave
-second_title: Aspose.Words per .NET API Reference
-description: Font proprietà. Vero se il carattere è formattato come inciso.
+linktitle: Engrave
+articleTitle: Engrave
+second_title: Aspose.Words per .NET
+description: Font Engrave proprietà. Vero se il carattere è formattato come inciso in C#.
 type: docs
 weight: 120
 url: /it/net/aspose.words/font/engrave/
@@ -14,7 +16,7 @@ Vero se il carattere è formattato come inciso.
 public bool Engrave { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come applicare effetti di incisione/rilievo al testo.
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "Font.EngraveEmboss.docx");
 ### Guarda anche
 
 * class [Font](../)
-* spazio dei nomi [Aspose.Words](../../font/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldAutoTextList.ListStyle
-second_title: Aspose.Words for .NET API 参考
-description: FieldAutoTextList 财产. 获取或设置包含条目的列表所基于的样式名称
+linktitle: ListStyle
+articleTitle: ListStyle
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldAutoTextList ListStyle 财产. 获取或设置包含条目的列表所基于的样式名称 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.fields/fieldautotextlist/liststyle/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fieldautotextlist/liststyle/
 public string ListStyle { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何使用 AUTOTEXTLIST 字段从自动图文集条目列表中进行选择。
 
@@ -69,7 +71,5 @@ private static void AppendAutoTextEntry(GlossaryDocument glossaryDoc, string nam
 ### 也可以看看
 
 * class [FieldAutoTextList](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldautotextlist/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

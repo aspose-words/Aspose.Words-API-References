@@ -1,7 +1,9 @@
 ---
-title: Enum MailMergeMainDocumentType
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Settings.MailMergeMainDocumentType 枚举. 指定邮件合并源文档的可能类型
+title: MailMergeMainDocumentType Enum
+linktitle: MailMergeMainDocumentType
+articleTitle: MailMergeMainDocumentType
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Settings.MailMergeMainDocumentType 枚举. 指定邮件合并源文档的可能类型 在 C#.
 type: docs
 weight: 5840
 url: /zh/net/aspose.words.settings/mailmergemaindocumenttype/
@@ -27,7 +29,7 @@ public enum MailMergeMainDocumentType
 | Fax | `32` | 指定邮件合并源文档为传真类型。 |
 | Default | `0` | 等于NotAMergeDocument |
 
-### 例子
+## 例子
 
 演示如何使用 Office 数据源对象中的数据执行邮件合并。
 
@@ -81,5 +83,3 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 * property [MainDocumentType](../mailmergesettings/maindocumenttype/)
 * 命名空间 [Aspose.Words.Settings](../../aspose.words.settings/)
 * 部件 [Aspose.Words](../../)
-
-

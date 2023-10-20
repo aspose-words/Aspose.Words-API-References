@@ -1,7 +1,9 @@
 ---
 title: Inline.IsMoveFromRevision
-second_title: Aspose.Words لمراجع .NET API
-description: Inline ملكية. إرجاعحقيقي إذا تم نقل هذا الكائن حذفه في Microsoft Word أثناء تمكين تعقب التغييرات.
+linktitle: IsMoveFromRevision
+articleTitle: IsMoveFromRevision
+second_title: Aspose.Words لـ .NET
+description: Inline IsMoveFromRevision ملكية. إرجاعحقيقي إذا تم نقل هذا الكائن حذفه في Microsoft Word أثناء تمكين تعقب التغييرات في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words/inline/ismovefromrevision/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/inline/ismovefromrevision/
 public bool IsMoveFromRevision { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحديد نوع المراجعة للعقدة المضمنة.
 
@@ -70,7 +72,5 @@ Assert.IsTrue(runs[5].IsDeleteRevision);
 ### أنظر أيضا
 
 * class [Inline](../)
-* مساحة الاسم [Aspose.Words](../../inline/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

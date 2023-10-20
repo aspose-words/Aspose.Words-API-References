@@ -1,7 +1,9 @@
 ---
 title: MetafileRenderingOptions.RenderingMode
-second_title: Aspose.Words for .NET API 参考
-description: MetafileRenderingOptions 财产. 获取或设置一个值确定图元文件图像应如何呈现
+linktitle: RenderingMode
+articleTitle: RenderingMode
+second_title: 用于 .NET 的 Aspose.Words
+description: MetafileRenderingOptions RenderingMode 财产. 获取或设置一个值确定图元文件图像应如何呈现 在 C#.
 type: docs
 weight: 60
 url: /zh/net/aspose.words.saving/metafilerenderingoptions/renderingmode/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.saving/metafilerenderingoptions/renderingmode/
 public MetafileRenderingMode RenderingMode { get; set; }
 ```
 
-### 评论
+## 评论
 
 默认值取决于保存格式。对于图像来说是Bitmap. 对于其他格式是VectorWithFallback。
 
-### 例子
+## 例子
 
 显示添加了位图渲染的回退和更改有关不支持的图元文件记录的警告类型。
 
@@ -74,7 +76,5 @@ public class HandleDocumentWarnings : IWarningCallback
 
 * enum [MetafileRenderingMode](../../metafilerenderingmode/)
 * class [MetafileRenderingOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../metafilerenderingoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

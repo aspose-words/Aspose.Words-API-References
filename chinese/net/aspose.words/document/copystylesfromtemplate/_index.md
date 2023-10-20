@@ -1,12 +1,14 @@
 ---
 title: Document.CopyStylesFromTemplate
-second_title: Aspose.Words for .NET API 参考
-description: Document 方法. 将样式从指定模板复制到文档
+linktitle: CopyStylesFromTemplate
+articleTitle: CopyStylesFromTemplate
+second_title: 用于 .NET 的 Aspose.Words
+description: Document CopyStylesFromTemplate 方法. 将样式从指定模板复制到文档 在 C#.
 type: docs
-weight: 590
+weight: 570
 url: /zh/net/aspose.words/document/copystylesfromtemplate/
 ---
-## CopyStylesFromTemplate(string) {#copystylesfromtemplate_1}
+## CopyStylesFromTemplate(*string*) {#copystylesfromtemplate_1}
 
 将样式从指定模板复制到文档。
 
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words/document/copystylesfromtemplate/
 public void CopyStylesFromTemplate(string template)
 ```
 
-### 评论
+## 评论
 
 将样式从模板复制到文档时， 文档中的类似命名样式将被重新定义，以匹配模板中的样式描述。 模板中的唯一样式将复制到文档中。文档中的独特样式保持不变。
 
-### 例子
+## 例子
 
 演示如何将样式从一个文档复制到另一文档。
 
@@ -70,12 +72,12 @@ Assert.AreEqual(21, target.Styles.Count);
 ### 也可以看看
 
 * class [Document](../)
-* 命名空间 [Aspose.Words](../../document/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## CopyStylesFromTemplate(Document) {#copystylesfromtemplate}
+## CopyStylesFromTemplate(*[Document](../)*) {#copystylesfromtemplate}
 
 将样式从指定模板复制到文档。
 
@@ -83,11 +85,11 @@ Assert.AreEqual(21, target.Styles.Count);
 public void CopyStylesFromTemplate(Document template)
 ```
 
-### 评论
+## 评论
 
 将样式从模板复制到文档时， 文档中的类似命名样式将被重新定义，以匹配模板中的样式描述。 模板中的唯一样式将复制到文档中。文档中的独特样式保持不变。
 
-### 例子
+## 例子
 
 演示如何通过文档将样式从模板复制到文档。
 
@@ -148,7 +150,5 @@ Assert.AreEqual(21, target.Styles.Count);
 ### 也可以看看
 
 * class [Document](../)
-* 命名空间 [Aspose.Words](../../document/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

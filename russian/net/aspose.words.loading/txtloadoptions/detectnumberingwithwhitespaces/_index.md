@@ -1,9 +1,11 @@
 ---
 title: TxtLoadOptions.DetectNumberingWithWhitespaces
-second_title: Справочник по API Aspose.Words для .NET
-description: TxtLoadOptions свойство. Позволяет указать как распознаются нумерованные элементы списка когда документ импортируется из обычного текстового формата. Значение по умолчаниюистинный.
+linktitle: DetectNumberingWithWhitespaces
+articleTitle: DetectNumberingWithWhitespaces
+second_title: Aspose.Words для .NET
+description: TxtLoadOptions DetectNumberingWithWhitespaces свойство. Позволяет указать как распознаются нумерованные элементы списка когда документ импортируется из обычного текстового формата. Значение по умолчаниюистинный на С#.
 type: docs
-weight: 40
+weight: 30
 url: /ru/net/aspose.words.loading/txtloadoptions/detectnumberingwithwhitespaces/
 ---
 ## TxtLoadOptions.DetectNumberingWithWhitespaces property
@@ -14,13 +16,13 @@ url: /ru/net/aspose.words.loading/txtloadoptions/detectnumberingwithwhitespaces/
 public bool DetectNumberingWithWhitespaces { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Если для этой опции установлено значение`ЛОЖЬ`, алгоритм распознавания списков обнаруживает абзацы списка, когда номера списка заканчиваются на либо точкой, правой скобкой, либо символами маркера (например, «•», «*», «-» или «o»).
 
 Если для этой опции установлено значение`истинный`пробелы также используются в качестве разделителей номеров списков: Алгоритм распознавания списков для нумерации в арабском стиле (1., 1.1.2.) использует как пробелы, так и символы точки ("".").
 
-### Примеры
+## Примеры
 
 Показывает, как обнаружить списки при загрузке документов в виде открытого текста.
 
@@ -74,7 +76,5 @@ else
 ### Смотрите также
 
 * class [TxtLoadOptions](../)
-* пространство имен [Aspose.Words.Loading](../../txtloadoptions/)
+* пространство имен [Aspose.Words.Loading](../../../aspose.words.loading/)
 * сборка [Aspose.Words](../../../)
-
-

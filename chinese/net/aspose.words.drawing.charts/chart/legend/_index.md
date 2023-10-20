@@ -1,7 +1,9 @@
 ---
 title: Chart.Legend
-second_title: Aspose.Words for .NET API 参考
-description: Chart 财产. 提供对图表图例属性的访问
+linktitle: Legend
+articleTitle: Legend
+second_title: 用于 .NET 的 Aspose.Words
+description: Chart Legend 财产. 提供对图表图例属性的访问 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words.drawing.charts/chart/legend/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.drawing.charts/chart/legend/
 public ChartLegend Legend { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何编辑图表图例的外观。
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "Charts.ChartLegend.docx");
 
 * class [ChartLegend](../../chartlegend/)
 * class [Chart](../)
-* 命名空间 [Aspose.Words.Drawing.Charts](../../chart/)
+* 命名空间 [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * 部件 [Aspose.Words](../../../)
-
-

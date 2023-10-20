@@ -1,7 +1,9 @@
 ---
-title: Enum TiffCompression
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Saving.TiffCompression énumération. Spécifie le type de compression à appliquer lors de lenregistrement des images de page dans un fichier TIFF.
+title: TiffCompression Enum
+linktitle: TiffCompression
+articleTitle: TiffCompression
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Saving.TiffCompression énumération. Spécifie le type de compression à appliquer lors de lenregistrement des images de page dans un fichier TIFF en C#.
 type: docs
 weight: 5630
 url: /fr/net/aspose.words.saving/tiffcompression/
@@ -24,7 +26,7 @@ public enum TiffCompression
 | Ccitt3 | `3` | Spécifie le schéma de compression CCITT3. |
 | Ccitt4 | `4` | Spécifie le schéma de compression CCITT4. |
 
-### Exemples
+## Exemples
 
 Montre comment sélectionner le schéma de compression à appliquer à un document que nous convertissons en image TIFF.
 
@@ -76,5 +78,3 @@ Document doc = new Document();
 
 * espace de noms [Aspose.Words.Saving](../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../)
-
-

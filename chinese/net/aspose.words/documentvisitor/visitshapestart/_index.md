@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitShapeStart
-second_title: Aspose.Words for .NET API 参考
-description: DocumentVisitor 方法. 当开始枚举形状时调用
+linktitle: VisitShapeStart
+articleTitle: VisitShapeStart
+second_title: 用于 .NET 的 Aspose.Words
+description: DocumentVisitor VisitShapeStart 方法. 当开始枚举形状时调用 在 C#.
 type: docs
 weight: 400
 url: /zh/net/aspose.words/documentvisitor/visitshapestart/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitShapeStart(Shape shape)
 
 A[`VisitorAction`](../../visitoraction/)指定如何继续枚举的值。
 
-### 例子
+## 例子
 
 演示如何创建一组形状，并使用文档访问者打印其内容。
 
@@ -306,7 +308,5 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [Shape](../../../aspose.words.drawing/shape/)
 * class [DocumentVisitor](../)
-* 命名空间 [Aspose.Words](../../documentvisitor/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

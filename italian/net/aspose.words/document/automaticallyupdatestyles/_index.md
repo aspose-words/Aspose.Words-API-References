@@ -1,7 +1,9 @@
 ---
 title: Document.AutomaticallyUpdateStyles
-second_title: Aspose.Words per .NET API Reference
-description: Document proprietà. Ottiene o imposta un flag che indica se gli stili nel documento vengono aggiornati per corrispondere agli stili nel modello allegato ogni volta che il documento viene aperto in MS Word.
+linktitle: AutomaticallyUpdateStyles
+articleTitle: AutomaticallyUpdateStyles
+second_title: Aspose.Words per .NET
+description: Document AutomaticallyUpdateStyles proprietà. Ottiene o imposta un flag che indica se gli stili nel documento vengono aggiornati per corrispondere agli stili nel modello allegato ogni volta che il documento viene aperto in MS Word in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words/document/automaticallyupdatestyles/
@@ -14,7 +16,7 @@ Ottiene o imposta un flag che indica se gli stili nel documento vengono aggiorna
 public bool AutomaticallyUpdateStyles { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come allegare un modello a un documento.
 
@@ -55,7 +57,5 @@ doc.Save(ArtifactsDir + "Document.DefaultTemplate.docx", options);
 ### Guarda anche
 
 * class [Document](../)
-* spazio dei nomi [Aspose.Words](../../document/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: WebExtension.Reference
-second_title: Aspose.Words für .NET-API-Referenz
-description: WebExtension eigendom. Gibt den primären Verweis auf eine Weberweiterung an.
+linktitle: Reference
+articleTitle: Reference
+second_title: Aspose.Words für .NET
+description: WebExtension Reference eigendom. Gibt den primären Verweis auf eine Weberweiterung an in C#.
 type: docs
 weight: 60
 url: /de/net/aspose.words.webextensions/webextension/reference/
@@ -14,7 +16,7 @@ Gibt den primären Verweis auf eine Weberweiterung an.
 public WebExtensionReference Reference { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man einem Dokument eine Weberweiterung hinzufügt.
 
@@ -60,7 +62,5 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 
 * class [WebExtensionReference](../../webextensionreference/)
 * class [WebExtension](../)
-* namensraum [Aspose.Words.WebExtensions](../../webextension/)
+* namensraum [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * Montage [Aspose.Words](../../../)
-
-

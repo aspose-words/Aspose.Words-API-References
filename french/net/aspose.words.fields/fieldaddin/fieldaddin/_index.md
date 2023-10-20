@@ -1,7 +1,9 @@
 ---
-title: FieldAddIn.FieldAddIn
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldAddIn constructeur. Default_Constructor
+title: FieldAddIn
+linktitle: FieldAddIn
+articleTitle: FieldAddIn
+second_title: Aspose.Words pour .NET
+description: FieldAddIn constructeur. Default_Constructor en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.fields/fieldaddin/fieldaddin/
@@ -17,7 +19,5 @@ public FieldAddIn()
 ### Voir également
 
 * class [FieldAddIn](../)
-* espace de noms [Aspose.Words.Fields](../../fieldaddin/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

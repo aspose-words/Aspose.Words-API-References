@@ -1,7 +1,9 @@
 ---
-title: Class ImageWatermarkOptions
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.ImageWatermarkOptions فصل. يحتوي على خيارات يمكن تحديدها عند إضافة علامة مائية مع الصورة.
+title: ImageWatermarkOptions Class
+linktitle: ImageWatermarkOptions
+articleTitle: ImageWatermarkOptions
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.ImageWatermarkOptions فصل. يحتوي على خيارات يمكن تحديدها عند إضافة علامة مائية مع الصورة في C#.
 type: docs
 weight: 3220
 url: /ar/net/aspose.words/imagewatermarkoptions/
@@ -33,5 +35,3 @@ public class ImageWatermarkOptions
 
 * مساحة الاسم [Aspose.Words](../../aspose.words/)
 * المجسم [Aspose.Words](../../)
-
-

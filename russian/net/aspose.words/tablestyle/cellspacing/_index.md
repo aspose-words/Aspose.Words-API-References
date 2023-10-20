@@ -1,7 +1,9 @@
 ---
 title: TableStyle.CellSpacing
-second_title: Справочник по API Aspose.Words для .NET
-description: TableStyle свойство. Получает или задает расстояние в пунктах между ячейками.
+linktitle: CellSpacing
+articleTitle: CellSpacing
+second_title: Aspose.Words для .NET
+description: TableStyle CellSpacing свойство. Получает или задает расстояние в пунктах между ячейками на С#.
 type: docs
 weight: 60
 url: /ru/net/aspose.words/tablestyle/cellspacing/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/tablestyle/cellspacing/
 public double CellSpacing { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как создать пользовательские настройки стиля для таблицы.
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "Table.TableStyleCreation.docx");
 ### Смотрите также
 
 * class [TableStyle](../)
-* пространство имен [Aspose.Words](../../tablestyle/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

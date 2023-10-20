@@ -1,7 +1,9 @@
 ---
 title: SdtListItemCollection.GetEnumerator
-second_title: Aspose.Words för .NET API Referens
-description: SdtListItemCollection metod. Returnerar ett uppräkningsobjekt som kan användas för att iterera över alla objekt i samlingen.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words för .NET
+description: SdtListItemCollection GetEnumerator metod. Returnerar ett uppräkningsobjekt som kan användas för att iterera över alla objekt i samlingen i C#.
 type: docs
 weight: 60
 url: /sv/net/aspose.words.markup/sdtlistitemcollection/getenumerator/
@@ -14,7 +16,7 @@ Returnerar ett uppräkningsobjekt som kan användas för att iterera över alla 
 public IEnumerator<SdtListItem> GetEnumerator()
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med strukturerade dokumenttaggar i listrutan.
 
@@ -72,7 +74,5 @@ Assert.AreEqual(0, listItems.Count);
 
 * class [SdtListItem](../../sdtlistitem/)
 * class [SdtListItemCollection](../)
-* namnutrymme [Aspose.Words.Markup](../../sdtlistitemcollection/)
+* namnutrymme [Aspose.Words.Markup](../../../aspose.words.markup/)
 * hopsättning [Aspose.Words](../../../)
-
-

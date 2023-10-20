@@ -1,7 +1,9 @@
 ---
 title: Comment.Ancestor
-second_title: Aspose.Words för .NET API Referens
-description: Comment fast egendom. Returnerar den överordnadeComment objekt. Returnerarnull för kommentarer på toppnivå.
+linktitle: Ancestor
+articleTitle: Ancestor
+second_title: Aspose.Words för .NET
+description: Comment Ancestor fast egendom. Returnerar den överordnadeComment objekt. Returnerarnull för kommentarer på toppnivå i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words/comment/ancestor/
@@ -14,7 +16,7 @@ Returnerar den överordnade[`Comment`](../) objekt. Returnerar`null` för kommen
 public Comment Ancestor { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du skriver ut alla kommentarer i ett dokument och deras svar.
 
@@ -40,7 +42,5 @@ foreach (Comment comment in comments.OfType<Comment>().Where(c => c.Ancestor == 
 ### Se även
 
 * class [Comment](../)
-* namnutrymme [Aspose.Words](../../comment/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

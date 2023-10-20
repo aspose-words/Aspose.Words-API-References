@@ -1,7 +1,9 @@
 ---
 title: Chart.Series
-second_title: Справочник по API Aspose.Words для .NET
-description: Chart свойство. Предоставляет доступ к коллекции серий.
+linktitle: Series
+articleTitle: Series
+second_title: Aspose.Words для .NET
+description: Chart Series свойство. Предоставляет доступ к коллекции серий на С#.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.drawing.charts/chart/series/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.drawing.charts/chart/series/
 public ChartSeriesCollection Series { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как создать серию диаграмм, соответствующую типу диаграммы.
 
@@ -104,7 +106,5 @@ private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, d
 
 * class [ChartSeriesCollection](../../chartseriescollection/)
 * class [Chart](../)
-* пространство имен [Aspose.Words.Drawing.Charts](../../chart/)
+* пространство имен [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../../)
-
-

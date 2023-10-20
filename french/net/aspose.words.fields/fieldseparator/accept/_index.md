@@ -1,7 +1,9 @@
 ---
 title: FieldSeparator.Accept
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldSeparator méthode. Accepte un visiteur.
+linktitle: Accept
+articleTitle: Accept
+second_title: Aspose.Words pour .NET
+description: FieldSeparator Accept méthode. Accepte un visiteur en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.fields/fieldseparator/accept/
@@ -22,13 +24,13 @@ public override bool Accept(DocumentVisitor visitor)
 
 **FAUX** si le visiteur a demandé l'arrêt de l'énumération.
 
-### Remarques
+## Remarques
 
 Appels[`VisitFieldSeparator`](../../../aspose.words/documentvisitor/visitfieldseparator/).
 
 Pour plus d’informations, consultez le modèle de conception Visiteur.
 
-### Exemples
+## Exemples
 
 Montre comment travailler avec une collection de champs.
 
@@ -132,7 +134,5 @@ public class FieldVisitor : DocumentVisitor
 
 * class [DocumentVisitor](../../../aspose.words/documentvisitor/)
 * class [FieldSeparator](../)
-* espace de noms [Aspose.Words.Fields](../../fieldseparator/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

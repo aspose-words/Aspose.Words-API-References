@@ -1,7 +1,9 @@
 ---
 title: FieldInfo.InfoType
-second_title: Aspose.Words لمراجع .NET API
-description: FieldInfo ملكية. الحصول على أو تعيين نوع خاصية المستند المراد إدراجه.
+linktitle: InfoType
+articleTitle: InfoType
+second_title: Aspose.Words لـ .NET
+description: FieldInfo InfoType ملكية. الحصول على أو تعيين نوع خاصية المستند المراد إدراجه في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.fields/fieldinfo/infotype/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldinfo/infotype/
 public string InfoType { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع حقول INFO.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "Field.INFO.docx");
 ### أنظر أيضا
 
 * class [FieldInfo](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldinfo/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

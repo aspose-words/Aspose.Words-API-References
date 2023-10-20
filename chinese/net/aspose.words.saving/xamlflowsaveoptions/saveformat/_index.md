@@ -1,7 +1,9 @@
 ---
 title: XamlFlowSaveOptions.SaveFormat
-second_title: Aspose.Words for .NET API 参考
-description: XamlFlowSaveOptions 财产. 指定使用此保存选项对象时保存文档的格式 只能是XamlFlow.
+linktitle: SaveFormat
+articleTitle: SaveFormat
+second_title: 用于 .NET 的 Aspose.Words
+description: XamlFlowSaveOptions SaveFormat 财产. 指定使用此保存选项对象时保存文档的格式 只能是XamlFlow 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words.saving/xamlflowsaveoptions/saveformat/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.saving/xamlflowsaveoptions/saveformat/
 public override SaveFormat SaveFormat { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何打印在将文档转换为流格式 .xaml 时创建的链接图像的文件名。
 
@@ -81,7 +83,5 @@ private class ImageUriPrinter : IImageSavingCallback
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
 * class [XamlFlowSaveOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../xamlflowsaveoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

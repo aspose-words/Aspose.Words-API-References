@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabel.ShowSeriesName
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ChartDataLabel propriété. Renvoie ou définit un booléen pour indiquer le comportement daffichage du nom de série pour les étiquettes de données sur un graphique. vrai pour afficher le nom de la série FAUX cacher. Par défautFAUX .
+linktitle: ShowSeriesName
+articleTitle: ShowSeriesName
+second_title: Aspose.Words pour .NET
+description: ChartDataLabel ShowSeriesName propriété. Renvoie ou définit un booléen pour indiquer le comportement daffichage du nom de série pour les étiquettes de données sur un graphique. vrai pour afficher le nom de la série FAUX cacher. Par défautFAUX  en C#.
 type: docs
 weight: 140
 url: /fr/net/aspose.words.drawing.charts/chartdatalabel/showseriesname/
@@ -14,7 +16,7 @@ Renvoie ou définit un booléen pour indiquer le comportement d'affichage du nom
 public bool ShowSeriesName { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment appliquer des étiquettes aux points de données dans un graphique linéaire.
 
@@ -92,7 +94,5 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
 ### Voir également
 
 * class [ChartDataLabel](../)
-* espace de noms [Aspose.Words.Drawing.Charts](../../chartdatalabel/)
+* espace de noms [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: OleFormat.GetRawData
-second_title: Справочник по API Aspose.Words для .NET
-description: OleFormat метод. Получает необработанные данные объекта OLE.
+linktitle: GetRawData
+articleTitle: GetRawData
+second_title: Aspose.Words для .NET
+description: OleFormat GetRawData метод. Получает необработанные данные объекта OLE на С#.
 type: docs
 weight: 150
 url: /ru/net/aspose.words.drawing/oleformat/getrawdata/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.drawing/oleformat/getrawdata/
 public byte[] GetRawData()
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как получить доступ к необработанным данным встроенного объекта OLE.
 
@@ -37,7 +39,5 @@ foreach (Shape shape in doc.GetChildNodes(NodeType.Shape, true))
 ### Смотрите также
 
 * class [OleFormat](../)
-* пространство имен [Aspose.Words.Drawing](../../oleformat/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

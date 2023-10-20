@@ -1,7 +1,9 @@
 ---
 title: ReportingEngine.Options
-second_title: Aspose.Words för .NET API Referens
-description: ReportingEngine fast egendom. Hämtar eller ställer in en uppsättning flaggor som styr beteendet för dettaReportingEngine instans medan du bygger en rapport.
+linktitle: Options
+articleTitle: Options
+second_title: Aspose.Words för .NET
+description: ReportingEngine Options fast egendom. Hämtar eller ställer in en uppsättning flaggor som styr beteendet för dettaReportingEngine instans medan du bygger en rapport i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.reporting/reportingengine/options/
@@ -18,7 +20,5 @@ public ReportBuildOptions Options { get; set; }
 
 * enum [ReportBuildOptions](../../reportbuildoptions/)
 * class [ReportingEngine](../)
-* namnutrymme [Aspose.Words.Reporting](../../reportingengine/)
+* namnutrymme [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * hopsättning [Aspose.Words](../../../)
-
-

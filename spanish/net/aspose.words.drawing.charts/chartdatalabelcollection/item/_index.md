@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabelCollection.Item
-second_title: Referencia de API de Aspose.Words para .NET
-description: ChartDataLabelCollection propiedad. DevolucionesChartDataLabel para el índice especificado.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words para .NET
+description: ChartDataLabelCollection Item propiedad. DevolucionesChartDataLabel para el índice especificado en C#.
 type: docs
 weight: 40
 url: /es/net/aspose.words.drawing.charts/chartdatalabelcollection/item/
@@ -14,7 +16,7 @@ Devoluciones[`ChartDataLabel`](../../chartdatalabel/) para el índice especifica
 public ChartDataLabel this[int index] { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo aplicar etiquetas a puntos de datos en un gráfico de líneas.
 
@@ -93,7 +95,5 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
 
 * class [ChartDataLabel](../../chartdatalabel/)
 * class [ChartDataLabelCollection](../)
-* espacio de nombres [Aspose.Words.Drawing.Charts](../../chartdatalabelcollection/)
+* espacio de nombres [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * asamblea [Aspose.Words](../../../)
-
-

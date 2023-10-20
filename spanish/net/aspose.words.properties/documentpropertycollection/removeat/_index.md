@@ -1,7 +1,9 @@
 ---
 title: DocumentPropertyCollection.RemoveAt
-second_title: Referencia de API de Aspose.Words para .NET
-description: DocumentPropertyCollection método. Elimina una propiedad en el índice especificado.
+linktitle: RemoveAt
+articleTitle: RemoveAt
+second_title: Aspose.Words para .NET
+description: DocumentPropertyCollection RemoveAt método. Elimina una propiedad en el índice especificado en C#.
 type: docs
 weight: 80
 url: /es/net/aspose.words.properties/documentpropertycollection/removeat/
@@ -18,7 +20,7 @@ public void RemoveAt(int index)
 | --- | --- | --- |
 | index | Int32 | El índice de base cero. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo trabajar con las propiedades personalizadas de un documento.
 
@@ -78,7 +80,5 @@ Assert.AreEqual(0, properties.Count);
 ### Ver también
 
 * class [DocumentPropertyCollection](../)
-* espacio de nombres [Aspose.Words.Properties](../../documentpropertycollection/)
+* espacio de nombres [Aspose.Words.Properties](../../../aspose.words.properties/)
 * asamblea [Aspose.Words](../../../)
-
-

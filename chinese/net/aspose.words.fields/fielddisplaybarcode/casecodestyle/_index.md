@@ -1,7 +1,9 @@
 ---
 title: FieldDisplayBarcode.CaseCodeStyle
-second_title: Aspose.Words for .NET API 参考
-description: FieldDisplayBarcode 财产. 获取或设置条形码类型 ITF14 的 Case Code 样式有效值为 STDEXTADD
+linktitle: CaseCodeStyle
+articleTitle: CaseCodeStyle
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldDisplayBarcode CaseCodeStyle 财产. 获取或设置条形码类型 ITF14 的 Case Code 样式有效值为 STDEXTADD 在 C#.
 type: docs
 weight: 60
 url: /zh/net/aspose.words.fields/fielddisplaybarcode/casecodestyle/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fielddisplaybarcode/casecodestyle/
 public string CaseCodeStyle { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何插入 DISPLAYBARCODE 字段并设置其属性。
 
@@ -72,7 +74,5 @@ doc.Save(ArtifactsDir + "Field.DISPLAYBARCODE.docx");
 ### 也可以看看
 
 * class [FieldDisplayBarcode](../)
-* 命名空间 [Aspose.Words.Fields](../../fielddisplaybarcode/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

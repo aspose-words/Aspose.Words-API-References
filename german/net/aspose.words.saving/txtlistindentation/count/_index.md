@@ -1,7 +1,9 @@
 ---
 title: TxtListIndentation.Count
-second_title: Aspose.Words für .NET-API-Referenz
-description: TxtListIndentation eigendom. Ruft ab oder legt fest wie vieleCharacter als Einrückung pro Listenebene zu verwenden. Der Standardwert ist 0 das bedeutet keine Einrückung.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words für .NET
+description: TxtListIndentation Count eigendom. Ruft ab oder legt fest wie vieleCharacter als Einrückung pro Listenebene zu verwenden. Der Standardwert ist 0 das bedeutet keine Einrückung in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.saving/txtlistindentation/count/
@@ -14,7 +16,7 @@ Ruft ab oder legt fest, wie viele[`Character`](../character/) als Einrückung pr
 public int Count { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Listeneinrückung beim Speichern eines Dokuments im Klartext konfiguriert wird.
 
@@ -54,7 +56,5 @@ Assert.AreEqual("1. Item 1\r\n" +
 ### Siehe auch
 
 * class [TxtListIndentation](../)
-* namensraum [Aspose.Words.Saving](../../txtlistindentation/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

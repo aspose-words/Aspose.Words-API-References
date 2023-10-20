@@ -1,7 +1,9 @@
 ---
 title: PageSetup.OddAndEvenPagesHeaderFooter
-second_title: Aspose.Words لمراجع .NET API
-description: PageSetup ملكية. صحيح إذا كان المستند يحتوي على رؤوس وتذييلات مختلفة للصفحات ذات الأرقام الفردية والزوجية.
+linktitle: OddAndEvenPagesHeaderFooter
+articleTitle: OddAndEvenPagesHeaderFooter
+second_title: Aspose.Words لـ .NET
+description: PageSetup OddAndEvenPagesHeaderFooter ملكية. صحيح إذا كان المستند يحتوي على رؤوس وتذييلات مختلفة للصفحات ذات الأرقام الفردية والزوجية في C#.
 type: docs
 weight: 280
 url: /ar/net/aspose.words/pagesetup/oddandevenpagesheaderfooter/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words/pagesetup/oddandevenpagesheaderfooter/
 public bool OddAndEvenPagesHeaderFooter { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 لاحظ أن تغيير هذه الخاصية يؤثر على كافة الأقسام في المستند.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء الرؤوس والتذييلات في مستند باستخدام DocumentBuilder.
 
@@ -91,7 +93,5 @@ doc.Save(ArtifactsDir + "PageSetup.OddAndEvenPagesHeaderFooter.docx");
 ### أنظر أيضا
 
 * class [PageSetup](../)
-* مساحة الاسم [Aspose.Words](../../pagesetup/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

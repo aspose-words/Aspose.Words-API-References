@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.HangingPunctuation
-second_title: Aspose.Words لمراجع .NET API
-description: ParagraphFormat ملكية. الحصول على علامة تشير إلى ما إذا كانت علامات الترقيم المعلقة ممكّنة للفقرة الحالية أو تعيينها.
+linktitle: HangingPunctuation
+articleTitle: HangingPunctuation
+second_title: Aspose.Words لـ .NET
+description: ParagraphFormat HangingPunctuation ملكية. الحصول على علامة تشير إلى ما إذا كانت علامات الترقيم المعلقة ممكّنة للفقرة الحالية أو تعيينها في C#.
 type: docs
 weight: 130
 url: /ar/net/aspose.words/paragraphformat/hangingpunctuation/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/paragraphformat/hangingpunctuation/
 public bool HangingPunctuation { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين خصائص خاصة للطباعة الآسيوية.
 
@@ -32,7 +34,5 @@ doc.Save(ArtifactsDir + "ParagraphFormat.AsianTypographyProperties.docx");
 ### أنظر أيضا
 
 * class [ParagraphFormat](../)
-* مساحة الاسم [Aspose.Words](../../paragraphformat/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

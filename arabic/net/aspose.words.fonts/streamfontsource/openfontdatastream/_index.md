@@ -1,7 +1,9 @@
 ---
 title: StreamFontSource.OpenFontDataStream
-second_title: Aspose.Words لمراجع .NET API
-description: StreamFontSource طريقة. يجب أن تفتح هذه الطريقة الدفق ببيانات الخط حسب الطلب.
+linktitle: OpenFontDataStream
+articleTitle: OpenFontDataStream
+second_title: Aspose.Words لـ .NET
+description: StreamFontSource OpenFontDataStream طريقة. يجب أن تفتح هذه الطريقة الدفق ببيانات الخط حسب الطلب في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.fonts/streamfontsource/openfontdatastream/
@@ -18,11 +20,11 @@ public abstract Stream OpenFontDataStream()
 
 دفق بيانات الخط.
 
-### ملاحظات
+## ملاحظات
 
 سيتم إغلاق الدفق بعد القراءة. ليست هناك حاجة لإغلاقه بشكل صريح.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحميل الخطوط من الدفق.
 
@@ -56,7 +58,5 @@ private class StreamFontSourceFile : StreamFontSource
 ### أنظر أيضا
 
 * class [StreamFontSource](../)
-* مساحة الاسم [Aspose.Words.Fonts](../../streamfontsource/)
+* مساحة الاسم [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * المجسم [Aspose.Words](../../../)
-
-

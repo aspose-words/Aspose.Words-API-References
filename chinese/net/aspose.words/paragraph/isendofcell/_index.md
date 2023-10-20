@@ -1,7 +1,9 @@
 ---
 title: Paragraph.IsEndOfCell
-second_title: Aspose.Words for .NET API 参考
-description: Paragraph 财产. 如果该段落是最后一段则为 TrueCell否则为假
+linktitle: IsEndOfCell
+articleTitle: IsEndOfCell
+second_title: 用于 .NET 的 Aspose.Words
+description: Paragraph IsEndOfCell 财产. 如果该段落是最后一段则为 TrueCell否则为假 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words/paragraph/isendofcell/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/paragraph/isendofcell/
 public bool IsEndOfCell { get; }
 ```
 
-### 例子
+## 例子
 
 展示如何将表格设置为在同一页面上保持在一起。
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "Table.KeepTableTogether.docx");
 ### 也可以看看
 
 * class [Paragraph](../)
-* 命名空间 [Aspose.Words](../../paragraph/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

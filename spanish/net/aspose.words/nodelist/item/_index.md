@@ -1,7 +1,9 @@
 ---
 title: NodeList.Item
-second_title: Referencia de API de Aspose.Words para .NET
-description: NodeList propiedad. Recupera un nodo en el índice dado.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words para .NET
+description: NodeList Item propiedad. Recupera un nodo en el índice dado en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words/nodelist/item/
@@ -18,7 +20,7 @@ public Node this[int index] { get; }
 | --- | --- |
 | index | Un índice en la lista de nodos. |
 
-### Observaciones
+## Observaciones
 
 El índice tiene base cero.
 
@@ -28,7 +30,7 @@ Si el índice es mayor o igual que el número de elementos de la lista, esto dev
 
 Si el índice es negativo y su valor absoluto es mayor que el número de elementos de la lista, esto devuelve una referencia nula.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo utilizar XPaths para navegar en una NodeList.
 
@@ -87,7 +89,5 @@ Assert.True(shape.HasImage);
 
 * class [Node](../../node/)
 * class [NodeList](../)
-* espacio de nombres [Aspose.Words](../../nodelist/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

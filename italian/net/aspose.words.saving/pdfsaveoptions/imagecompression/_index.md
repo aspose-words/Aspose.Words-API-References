@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.ImageCompression
-second_title: Aspose.Words per .NET API Reference
-description: PdfSaveOptions proprietà. Specifica il tipo di compressione da utilizzare per tutte le immagini nel documento.
+linktitle: ImageCompression
+articleTitle: ImageCompression
+second_title: Aspose.Words per .NET
+description: PdfSaveOptions ImageCompression proprietà. Specifica il tipo di compressione da utilizzare per tutte le immagini nel documento in C#.
 type: docs
 weight: 200
 url: /it/net/aspose.words.saving/pdfsaveoptions/imagecompression/
@@ -14,7 +16,7 @@ Specifica il tipo di compressione da utilizzare per tutte le immagini nel docume
 public PdfImageCompression ImageCompression { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 L'impostazione predefinita èAuto.
 
@@ -24,7 +26,7 @@ UtilizzandoJpeg fornisce la velocità di conversione più elevata rispetto alle 
 
 UtilizzandoAuto consente di controllare la qualità di Jpeg nel documento di output tramite il file[`JpegQuality`](../jpegquality/)property, ma per altri formati, i dati pixel grezzi vengono estratti e salvati con la compressione Flate. Questo caso è più lento della conversione Jpeg ma senza perdite.
 
-### Esempi
+## Esempi
 
 Mostra come specificare un tipo di compressione per tutte le immagini in un documento che stiamo convertendo in PDF.
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.ImageCompression.pdf", pdfSaveOptions);
 
 * enum [PdfImageCompression](../../pdfimagecompression/)
 * class [PdfSaveOptions](../)
-* spazio dei nomi [Aspose.Words.Saving](../../pdfsaveoptions/)
+* spazio dei nomi [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Aspose.Words.Drawing.Ole
-second_title: Aspose.Words för .NET API Referens
-description: Innehåller klasser för att arbeta med OLE / ActiveXkontroller och formulär i Microsoft Worddokument.
+linktitle: Aspose.Words.Drawing.Ole
+articleTitle: Aspose.Words.Drawing.Ole
+second_title: Aspose.Words för .NET
+description: Innehåller klasser för att arbeta med OLE / ActiveXkontroller och formulär i Microsoft Worddokument i C#.
 type: docs
 weight: 70
 url: /sv/net/aspose.words.drawing.ole/
@@ -20,5 +22,3 @@ Innehåller klasser för att arbeta med OLE / ActiveX-kontroller och formulär i
 | Uppräkning | Beskrivning |
 | --- | --- |
 | [Forms2OleControlType](./forms2olecontroltype/) | Räknar upp typer av Forms 2.0-kontroller. |
-
-

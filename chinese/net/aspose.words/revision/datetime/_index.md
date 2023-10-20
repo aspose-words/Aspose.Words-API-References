@@ -1,7 +1,9 @@
 ---
 title: Revision.DateTime
-second_title: Aspose.Words for .NET API 参考
-description: Revision 财产. 获取或设置此修订的日期/时间
+linktitle: DateTime
+articleTitle: DateTime
+second_title: 用于 .NET 的 Aspose.Words
+description: Revision DateTime 财产. 获取或设置此修订的日期/时间 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words/revision/datetime/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/revision/datetime/
 public DateTime DateTime { get; set; }
 ```
 
-### 例子
+## 例子
 
 展示如何处理文档中的修订。
 
@@ -97,7 +99,5 @@ Assert.AreEqual("This is revision #1. \rThis is revision #2.", doc.GetText().Tri
 ### 也可以看看
 
 * class [Revision](../)
-* 命名空间 [Aspose.Words](../../revision/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

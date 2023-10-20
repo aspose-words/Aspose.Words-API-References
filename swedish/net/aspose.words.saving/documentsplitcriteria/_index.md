@@ -1,7 +1,9 @@
 ---
-title: Enum DocumentSplitCriteria
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Saving.DocumentSplitCriteria uppräkning. Anger hur dokumentet delas upp i delar när det sparas tillHtml  Epub ellerAzw3 format.
+title: DocumentSplitCriteria Enum
+linktitle: DocumentSplitCriteria
+articleTitle: DocumentSplitCriteria
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Saving.DocumentSplitCriteria uppräkning. Anger hur dokumentet delas upp i delar när det sparas tillHtml  Epub ellerAzw3 format i C#.
 type: docs
 weight: 4960
 url: /sv/net/aspose.words.saving/documentsplitcriteria/
@@ -23,15 +25,15 @@ public enum DocumentSplitCriteria
 | PageBreak | `1` | Dokumentet delas upp i delar vid explicita sidbrytningar. En sidbrytning kan anges av en[`PageBreak`](../../aspose.words/controlchar/pagebreak/) tecken, en avsnittsbrytning som anger början av ett nytt avsnitt på en ny sida, eller ett stycke som har sin[`PageBreakBefore`](../../aspose.words/paragraphformat/pagebreakbefore/) egenskapen inställd på`Sann` . |
 | ColumnBreak | `2` | Dokumentet delas upp i delar vid kolumnbrytningar. En kolumnbrytning kan anges av en[`ColumnBreak`](../../aspose.words/controlchar/columnbreak/) tecken or en sektionsbrytning som anger början av ett nytt avsnitt i en ny kolumn. |
 | SectionBreak | `4` | Dokumentet delas upp i delar vid en sektionsbrytning av vilken typ som helst. |
-| HeadingParagraph | `8` | Dokumentet delas upp i delar i ett stycke formaterat med en rubrikstil **Rubrik 1** , **Rubrik 2** etc. Använd tillsammans med[`DocumentSplitHeadingLevel`](../htmlsaveoptions/documentsplitheadinglevel/) för att ange rubriknivåerna (från 1 till den angivna nivån) som ska delas upp. |
+| HeadingParagraph | `8` | Dokumentet delas upp i delar i ett stycke formaterat med en rubrikstil**Rubrik 1** ,**Rubrik 2** etc. Använd tillsammans med[`DocumentSplitHeadingLevel`](../htmlsaveoptions/documentsplitheadinglevel/) för att ange rubriknivåerna (från 1 till den angivna nivån) som ska delas upp. |
 
-### Anmärkningar
+## Anmärkningar
 
 `DocumentSplitCriteria`är en uppsättning flaggor som kan kombineras. Du kan till exempel dela upp document vid sidbrytningar och rubrikstycken i samma exportoperation.
 
-Olika kriterier kan delvis överlappa varandra. Till exempel, **Rubrik 1** stil ges ofta [`PageBreakBefore`](../../aspose.words/paragraphformat/pagebreakbefore/) egendom så den faller under två kriterier:PageBreak och HeadingParagraph. Vissa avsnittsbrytningar kan orsaka sidbrytningar och så vidare. I typiska fall är det mest praktiska alternativet att specificera endast en flagga.
+Olika kriterier kan delvis överlappa varandra. Till exempel,**Rubrik 1** stil ges ofta [`PageBreakBefore`](../../aspose.words/paragraphformat/pagebreakbefore/) egendom så den faller under två kriterier:PageBreak och HeadingParagraph. Vissa avsnittsbrytningar kan orsaka sidbrytningar och så vidare. I typiska fall är det mest praktiska alternativet att specificera endast en flagga.
 
-### Exempel
+## Exempel
 
 Visar hur du använder en specifik kodning när du sparar ett dokument i .epub.
 
@@ -59,5 +61,3 @@ doc.Save(ArtifactsDir + "HtmlSaveOptions.Doc2EpubSaveOptions.epub", saveOptions)
 
 * namnutrymme [Aspose.Words.Saving](../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../)
-
-

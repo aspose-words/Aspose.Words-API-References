@@ -1,7 +1,9 @@
 ---
 title: HorizontalRuleFormat.Alignment
-second_title: Aspose.Words لمراجع .NET API
-description: HorizontalRuleFormat ملكية. الحصول على أو تعيين محاذاة القاعدة الأفقية.
+linktitle: Alignment
+articleTitle: Alignment
+second_title: Aspose.Words لـ .NET
+description: HorizontalRuleFormat Alignment ملكية. الحصول على أو تعيين محاذاة القاعدة الأفقية في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.drawing/horizontalruleformat/alignment/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.drawing/horizontalruleformat/alignment/
 public HorizontalRuleAlignment Alignment { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 القيمة الافتراضية هيLeft.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج شكل قاعدة أفقية، وتخصيص تنسيقه.
 
@@ -42,7 +44,5 @@ Assert.True(shape.HorizontalRuleFormat.NoShade);
 
 * enum [HorizontalRuleAlignment](../../horizontalrulealignment/)
 * class [HorizontalRuleFormat](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../horizontalruleformat/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

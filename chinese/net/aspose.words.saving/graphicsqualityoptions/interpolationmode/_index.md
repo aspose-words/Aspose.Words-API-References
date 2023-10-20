@@ -1,7 +1,9 @@
 ---
 title: GraphicsQualityOptions.InterpolationMode
-second_title: Aspose.Words for .NET API 参考
-description: GraphicsQualityOptions 财产. 获取或设置与此 Graphics 关联的插值模式
+linktitle: InterpolationMode
+articleTitle: InterpolationMode
+second_title: 用于 .NET 的 Aspose.Words
+description: GraphicsQualityOptions InterpolationMode 财产. 获取或设置与此 Graphics 关联的插值模式 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.saving/graphicsqualityoptions/interpolationmode/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.saving/graphicsqualityoptions/interpolationmode/
 public InterpolationMode? InterpolationMode { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何在将文档转换为图像格式时设置渲染质量选项。
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "ImageSaveOptions.GraphicsQuality.jpg", saveOptions);
 ### 也可以看看
 
 * class [GraphicsQualityOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../graphicsqualityoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

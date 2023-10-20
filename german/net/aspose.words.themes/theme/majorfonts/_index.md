@@ -1,7 +1,9 @@
 ---
 title: Theme.MajorFonts
-second_title: Aspose.Words für .NET-API-Referenz
-description: Theme eigendom. Ermöglicht die Angabe des Satzes wichtiger Schriftarten für verschiedene Sprachen.
+linktitle: MajorFonts
+articleTitle: MajorFonts
+second_title: Aspose.Words für .NET
+description: Theme MajorFonts eigendom. Ermöglicht die Angabe des Satzes wichtiger Schriftarten für verschiedene Sprachen in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.themes/theme/majorfonts/
@@ -14,7 +16,7 @@ Ermöglicht die Angabe des Satzes wichtiger Schriftarten für verschiedene Sprac
 public ThemeFonts MajorFonts { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie benutzerdefinierte Farben und Schriftarten für Designs festlegen.
 
@@ -63,7 +65,5 @@ doc.Save(ArtifactsDir + "Themes.CustomColorsAndFonts.docx");
 
 * class [ThemeFonts](../../themefonts/)
 * class [Theme](../)
-* namensraum [Aspose.Words.Themes](../../theme/)
+* namensraum [Aspose.Words.Themes](../../../aspose.words.themes/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Range.UnlinkFields
-second_title: Справочник по API Aspose.Words для .NET
-description: Range метод. Отменяет связь полей в этом диапазоне.
+linktitle: UnlinkFields
+articleTitle: UnlinkFields
+second_title: Aspose.Words для .NET
+description: Range UnlinkFields метод. Отменяет связь полей в этом диапазоне на С#.
 type: docs
 weight: 110
 url: /ru/net/aspose.words/range/unlinkfields/
@@ -14,13 +16,13 @@ url: /ru/net/aspose.words/range/unlinkfields/
 public void UnlinkFields()
 ```
 
-### Примечания
+## Примечания
 
 Заменяет все поля в этом диапазоне самыми последними результатами.
 
 Чтобы отменить связь полей во всем документе, используйте`UnlinkFields`.
 
-### Примеры
+## Примеры
 
 Показывает, как отменить связь всех полей в диапазоне.
 
@@ -36,7 +38,5 @@ doc.Sections[1].Range.UnlinkFields();
 ### Смотрите также
 
 * class [Range](../)
-* пространство имен [Aspose.Words](../../range/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

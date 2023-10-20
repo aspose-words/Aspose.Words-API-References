@@ -1,7 +1,9 @@
 ---
-title: Class Node
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Node 班级. Word 文档所有节点的基类
+title: Node Class
+linktitle: Node
+articleTitle: Node
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Node 班级. Word 文档所有节点的基类 在 C#.
 type: docs
 weight: 4170
 url: /zh/net/aspose.words/node/
@@ -33,19 +35,19 @@ public abstract class Node
 
 | 姓名 | 描述 |
 | --- | --- |
-| abstract [Accept](../../aspose.words/node/accept/)(DocumentVisitor) | 接受访客。 |
-| [Clone](../../aspose.words/node/clone/)(bool) | 创建节点的副本。 |
-| [GetAncestor](../../aspose.words/node/getancestor/#getancestor)(NodeType) | 获取指定的第一个祖先[`NodeType`](../nodetype/). |
-| [GetAncestor](../../aspose.words/node/getancestor/#getancestor_1)(Type) | 获取指定对象类型的第一个祖先。 |
+| abstract [Accept](../../aspose.words/node/accept/)(*[DocumentVisitor](../documentvisitor/)*) | 接受访客。 |
+| [Clone](../../aspose.words/node/clone/)(*bool*) | 创建节点的副本。 |
+| [GetAncestor](../../aspose.words/node/getancestor/#getancestor)(*[NodeType](../nodetype/)*) | 获取指定的第一个祖先[`NodeType`](../nodetype/). |
+| [GetAncestor](../../aspose.words/node/getancestor/#getancestor_1)(*Type*) | 获取指定对象类型的第一个祖先。 |
 | virtual [GetText](../../aspose.words/node/gettext/)() | 获取此节点及其所有子节点的文本。 |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | 根据先序树遍历算法获取下一个节点。 |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | 根据先序树遍历算法获取前一个节点。 |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*Node*) | 根据先序树遍历算法获取下一个节点。 |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*Node*) | 根据先序树遍历算法获取前一个节点。 |
 | [Remove](../../aspose.words/node/remove/)() | 将自身从父级中删除。 |
-| [ToString](../../aspose.words/node/tostring/#tostring_1)(SaveFormat) | 将节点的内容导出为指定格式的字符串。 |
-| [ToString](../../aspose.words/node/tostring/#tostring_2)(SaveOptions) | 使用指定的保存选项将节点的内容导出到字符串中。 |
-| static [NodeTypeToString](../../aspose.words/node/nodetypetostring/)(NodeType) | 将节点类型枚举值转换为用户友好字符串的实用方法。 |
+| [ToString](../../aspose.words/node/tostring/#tostring_1)(*[SaveFormat](../saveformat/)*) | 将节点的内容导出为指定格式的字符串。 |
+| [ToString](../../aspose.words/node/tostring/#tostring_2)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | 使用指定的保存选项将节点的内容导出到字符串中。 |
+| static [NodeTypeToString](../../aspose.words/node/nodetypetostring/)(*[NodeType](../nodetype/)*) | 将节点类型枚举值转换为用户友好字符串的实用方法。 |
 
-### 评论
+## 评论
 
 文档表示为节点树，类似于 DOM 或 XmlDocument。
 
@@ -59,7 +61,7 @@ public abstract class Node
 * 实现父节点和所有者文档机制。
 * 实现对兄弟节点的访问。
 
-### 例子
+## 例子
 
 演示如何从复合节点中删除特定类型的所有子节点。
 
@@ -151,5 +153,3 @@ foreach (Node child in children)
 
 * 命名空间 [Aspose.Words](../../aspose.words/)
 * 部件 [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Shape.Stroked
-second_title: Aspose.Words لمراجع .NET API
-description: Shape ملكية. يحدد ما إذا كان سيتم تحديد المسار أم لا.
+linktitle: Stroked
+articleTitle: Stroked
+second_title: Aspose.Words لـ .NET
+description: Shape Stroked ملكية. يحدد ما إذا كان سيتم تحديد المسار أم لا في C#.
 type: docs
 weight: 200
 url: /ar/net/aspose.words.drawing/shape/stroked/
@@ -14,13 +16,13 @@ url: /ar/net/aspose.words.drawing/shape/stroked/
 public bool Stroked { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 هذا اختصار لل[`On`](../../stroke/on/) ملكية.
 
 القيمة الافتراضية هي`حقيقي`.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التكرار على كافة الأشكال في المستند.
 
@@ -143,7 +145,5 @@ private class ShapeAppearancePrinter : DocumentVisitor
 ### أنظر أيضا
 
 * class [Shape](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../shape/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

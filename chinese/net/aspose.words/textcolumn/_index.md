@@ -1,7 +1,9 @@
 ---
-title: Class TextColumn
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.TextColumn 班级. 表示单个文本列TextColumn是的成员TextColumnCollection集合. TextColumn集合包含文档某个部分中的所有列
+title: TextColumn Class
+linktitle: TextColumn
+articleTitle: TextColumn
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.TextColumn 班级. 表示单个文本列TextColumn是的成员TextColumnCollection集合. TextColumn集合包含文档某个部分中的所有列 在 C#.
 type: docs
 weight: 6390
 url: /zh/net/aspose.words/textcolumn/
@@ -23,13 +25,13 @@ public class TextColumn
 | [SpaceAfter](../../aspose.words/textcolumn/spaceafter/) { get; set; } | 获取或设置此列与下一列之间的间距（以磅为单位）。最后一列不需要。 |
 | [Width](../../aspose.words/textcolumn/width/) { get; set; } | 获取或设置文本列的宽度（以磅为单位）。 |
 
-### 评论
+## 评论
 
 `TextColumn`对象仅用于指定具有自定义宽度和间距的列。如果您希望文档中的列宽度相等，请设置 TextColumns。[`EvenlySpaced`](../textcolumncollection/evenlyspaced/)到`真的`。
 
 当一个新的`TextColumn`创建后，其宽度和间距设置为零。
 
-### 例子
+## 例子
 
 展示如何创建间隔不均匀的列。
 
@@ -67,5 +69,3 @@ doc.Save(ArtifactsDir + "PageSetup.CustomColumnWidth.docx");
 
 * 命名空间 [Aspose.Words](../../aspose.words/)
 * 部件 [Aspose.Words](../../)
-
-

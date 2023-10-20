@@ -1,7 +1,9 @@
 ---
 title: GraphicsQualityOptions.TextRenderingHint
-second_title: Aspose.Words för .NET API Referens
-description: GraphicsQualityOptions fast egendom. Hämtar eller ställer in renderingsläget för text som är associerad med denna grafik.
+linktitle: TextRenderingHint
+articleTitle: TextRenderingHint
+second_title: Aspose.Words för .NET
+description: GraphicsQualityOptions TextRenderingHint fast egendom. Hämtar eller ställer in renderingsläget för text som är associerad med denna grafik i C#.
 type: docs
 weight: 70
 url: /sv/net/aspose.words.saving/graphicsqualityoptions/textrenderinghint/
@@ -14,7 +16,7 @@ Hämtar eller ställer in renderingsläget för text som är associerad med denn
 public TextRenderingHint? TextRenderingHint { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du ställer in alternativ för återgivningskvalitet när du konverterar dokument till bildformat.
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "ImageSaveOptions.GraphicsQuality.jpg", saveOptions);
 ### Se även
 
 * class [GraphicsQualityOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../graphicsqualityoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

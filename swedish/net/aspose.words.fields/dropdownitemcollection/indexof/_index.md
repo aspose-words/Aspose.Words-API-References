@@ -1,7 +1,9 @@
 ---
 title: DropDownItemCollection.IndexOf
-second_title: Aspose.Words för .NET API Referens
-description: DropDownItemCollection metod. Returnerar det nollbaserade indexet för det angivna värdet i samlingen.
+linktitle: IndexOf
+articleTitle: IndexOf
+second_title: Aspose.Words för .NET
+description: DropDownItemCollection IndexOf metod. Returnerar det nollbaserade indexet för det angivna värdet i samlingen i C#.
 type: docs
 weight: 70
 url: /sv/net/aspose.words.fields/dropdownitemcollection/indexof/
@@ -22,7 +24,7 @@ public int IndexOf(string value)
 
 Det nollbaserade indexet. Negativt värde om det inte hittas.
 
-### Exempel
+## Exempel
 
 Visar hur man infogar ett kombinationsrutafält och redigerar elementen i dess objektsamling.
 
@@ -76,7 +78,5 @@ dropDownItems.Clear();
 ### Se även
 
 * class [DropDownItemCollection](../)
-* namnutrymme [Aspose.Words.Fields](../../dropdownitemcollection/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

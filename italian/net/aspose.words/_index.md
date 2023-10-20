@@ -1,12 +1,14 @@
 ---
 title: Aspose.Words
-second_title: Aspose.Words per .NET API Reference
-description: IL Aspose.Parole namespace fornisce classi per generare convertire modificare eseguire il rendering e stampare documenti Microsoft Word senza utilizzare Microsoft Word.
+linktitle: Aspose.Words
+articleTitle: Aspose.Words
+second_title: Aspose.Words per .NET
+description: ILAspose.Parole namespace fornisce classi per generare convertire modificare eseguire il rendering e stampare documenti Microsoft Word senza utilizzare Microsoft Word in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words/
 ---
-IL **Aspose.Parole** namespace fornisce classi per generare, convertire, modificare, eseguire il rendering e stampare documenti Microsoft Word senza utilizzare Microsoft Word.
+IL**Aspose.Parole** namespace fornisce classi per generare, convertire, modificare, eseguire il rendering e stampare documenti Microsoft Word senza utilizzare Microsoft Word.
 
 ## Classi
 
@@ -82,7 +84,7 @@ IL **Aspose.Parole** namespace fornisce classi per generare, convertire, modific
 | [Story](./story/) | Classe base per elementi che contengono nodi a livello di blocco[`Paragraph`](../aspose.words/paragraph/) E[`Table`](../aspose.words.tables/table/) . |
 | [Style](./style/) | Rappresenta un singolo stile integrato o definito dall'utente. |
 | [StyleCollection](./stylecollection/) | Una raccolta di[`Style`](../aspose.words/style/) oggetti che rappresentano sia gli stili incorporati che quelli definiti dall'utente in un documento. |
-| [SubDocument](./subdocument/) | Rappresenta a **Sottodocumento** - che è un riferimento a un documento archiviato esternamente. |
+| [SubDocument](./subdocument/) | Rappresenta a**Sottodocumento** - che è un riferimento a un documento archiviato esternamente. |
 | [TableStyle](./tablestyle/) | Rappresenta uno stile di tabella. |
 | [TabStop](./tabstop/) | Rappresenta una singola tabulazione personalizzata. IL[`TabStop`](../aspose.words/tabstop/)l'oggetto è un membro di the [`TabStopCollection`](../aspose.words/tabstopcollection/) collezione. |
 | [TabStopCollection](./tabstopcollection/) | Una raccolta di[`TabStop`](../aspose.words/tabstop/) oggetti che rappresentano schede personalizzate per un paragrafo o uno stile. |
@@ -159,5 +161,3 @@ IL **Aspose.Parole** namespace fornisce classi per generare, convertire, modific
 | [WarningType](./warningtype/) | Specifica il tipo di avviso emesso da Aspose.Words durante il caricamento o il salvataggio del documento. |
 | [WatermarkLayout](./watermarklayout/) | Definisce il layout della filigrana rispetto al centro della filigrana. |
 | [WatermarkType](./watermarktype/) | Specifica il tipo di filigrana. |
-
-

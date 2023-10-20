@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitCommentRangeEnd
-second_title: Referencia de API de Aspose.Words para .NET
-description: DocumentVisitor método. Se llama cuando se encuentra el final de un rango de texto comentado.
+linktitle: VisitCommentRangeEnd
+articleTitle: VisitCommentRangeEnd
+second_title: Aspose.Words para .NET
+description: DocumentVisitor VisitCommentRangeEnd método. Se llama cuando se encuentra el final de un rango de texto comentado en C#.
 type: docs
 weight: 110
 url: /es/net/aspose.words/documentvisitor/visitcommentrangeend/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitCommentRangeEnd(CommentRangeEnd commentRangeEn
 
 A[`VisitorAction`](../../visitoraction/) valor que especifica cómo continuar la enumeración.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo imprimir la estructura de nodos de cada comentario y rango de comentarios en un documento.
 
@@ -143,7 +145,5 @@ public class CommentStructurePrinter : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [CommentRangeEnd](../../commentrangeend/)
 * class [DocumentVisitor](../)
-* espacio de nombres [Aspose.Words](../../documentvisitor/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

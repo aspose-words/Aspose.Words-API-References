@@ -1,7 +1,9 @@
 ---
-title: Class FieldSkipIf
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Fields.FieldSkipIf clase. Implementa el campo SKIPIF.
+title: FieldSkipIf Class
+linktitle: FieldSkipIf
+articleTitle: FieldSkipIf
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Fields.FieldSkipIf clase. Implementa el campo SKIPIF en C#.
 type: docs
 weight: 2420
 url: /es/net/aspose.words.fields/fieldskipif/
@@ -45,17 +47,17 @@ public class FieldSkipIf : Field
 | Nombre | Descripción |
 | --- | --- |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Devuelve texto entre el inicio del campo y el separador de campo (o el final del campo si no hay separador). Se incluyen tanto el código de campo como el resultado del campo de los campos secundarios. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Devuelve texto entre el inicio del campo y el separador de campo (o el final del campo si no hay separador). |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | Devuelve texto entre el inicio del campo y el separador de campo (o el final del campo si no hay separador). |
 | [Remove](../../aspose.words.fields/field/remove/)() | Elimina el campo del documento. Devuelve un nodo justo después del campo. Si el final del campo es el último hijo de su nodo principal, devuelve su párrafo principal. Si el campo ya está eliminado, devuelve`nulo` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | Realiza la desvinculación del campo. |
 | [Update](../../aspose.words.fields/field/update/)() | Realiza la actualización del campo. Se produce si el campo ya se está actualizando. |
-| [Update](../../aspose.words.fields/field/update/)(bool) | Realiza una actualización de campo. Se produce si el campo ya se está actualizando. |
+| [Update](../../aspose.words.fields/field/update/)(*bool*) | Realiza una actualización de campo. Se produce si el campo ya se está actualizando. |
 
-### Observaciones
+## Observaciones
 
 Compara los valores designados por las expresiones.[`LeftExpression`](./leftexpression/) y[`RightExpression`](./rightexpression/) en comparación utilizando el operador designado por[`ComparisonOperator`](./comparisonoperator/) . Si la comparación es verdadera, SKIPIF cancela el documento de combinación actual, pasa al siguiente registro de datos en la fuente de datos e inicia un nuevo documento de combinación. Si la comparación es falsa, el documento de combinación actual continúa.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo omitir páginas en una combinación de correspondencia usando el campo SKIPIF.
 
@@ -150,5 +152,3 @@ doc.Save(ArtifactsDir + "Field.MERGEREC.MERGESEQ.docx");
 * class [Field](../field/)
 * espacio de nombres [Aspose.Words.Fields](../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../)
-
-

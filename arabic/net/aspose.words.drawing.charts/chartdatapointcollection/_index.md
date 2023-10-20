@@ -1,7 +1,9 @@
 ---
-title: Class ChartDataPointCollection
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Drawing.Charts.ChartDataPointCollection فصل. يمثل مجموعة منChartDataPoint .
+title: ChartDataPointCollection Class
+linktitle: ChartDataPointCollection
+articleTitle: ChartDataPointCollection
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Drawing.Charts.ChartDataPointCollection فصل. يمثل مجموعة منChartDataPoint  في C#.
 type: docs
 weight: 700
 url: /ar/net/aspose.words.drawing.charts/chartdatapointcollection/
@@ -28,11 +30,9 @@ public class ChartDataPointCollection : IEnumerable<ChartDataPoint>
 | اسم | وصف |
 | --- | --- |
 | [ClearFormat](../../aspose.words.drawing.charts/chartdatapointcollection/clearformat/)() | مسح التنسيق للجميع[`ChartDataPoint`](../chartdatapoint/) في هذه المجموعة. |
-| [CopyFormat](../../aspose.words.drawing.charts/chartdatapointcollection/copyformat/)(int, int) |  |
 | [GetEnumerator](../../aspose.words.drawing.charts/chartdatapointcollection/getenumerator/)() | يُرجع كائن العداد. |
-| [HasDefaultFormat](../../aspose.words.drawing.charts/chartdatapointcollection/hasdefaultformat/)(int) |  |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التعامل مع نقاط البيانات على مخطط خطي.
 
@@ -96,5 +96,3 @@ private static void ApplyDataPoints(ChartSeries series, int dataPointsCount, Mar
 * class [ChartDataPoint](../chartdatapoint/)
 * مساحة الاسم [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../)
-
-

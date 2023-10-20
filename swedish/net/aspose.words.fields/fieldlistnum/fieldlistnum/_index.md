@@ -1,7 +1,9 @@
 ---
-title: FieldListNum.FieldListNum
-second_title: Aspose.Words för .NET API Referens
-description: FieldListNum byggare. Default_Constructor
+title: FieldListNum
+linktitle: FieldListNum
+articleTitle: FieldListNum
+second_title: Aspose.Words för .NET
+description: FieldListNum byggare. Default_Constructor i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.fields/fieldlistnum/fieldlistnum/
@@ -17,7 +19,5 @@ public FieldListNum()
 ### Se även
 
 * class [FieldListNum](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldlistnum/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

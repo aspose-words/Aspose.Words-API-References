@@ -1,7 +1,9 @@
 ---
 title: Style.IsHeading
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Style propriété. Vrai lorsque le style est lun des styles de titre intégrés.
+linktitle: IsHeading
+articleTitle: IsHeading
+second_title: Aspose.Words pour .NET
+description: Style IsHeading propriété. Vrai lorsque le style est lun des styles de titre intégrés en C#.
 type: docs
 weight: 70
 url: /fr/net/aspose.words/style/isheading/
@@ -14,7 +16,7 @@ Vrai lorsque le style est l'un des styles de titre intégrés.
 public bool IsHeading { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment accéder à la collection de styles d’un document.
 
@@ -42,7 +44,5 @@ using (IEnumerator<Style> stylesEnum = doc.Styles.GetEnumerator())
 ### Voir également
 
 * class [Style](../)
-* espace de noms [Aspose.Words](../../style/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

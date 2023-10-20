@@ -1,7 +1,9 @@
 ---
 title: Document.AttachedTemplate
-second_title: Справочник по API Aspose.Words для .NET
-description: Document свойство. Получает или задает полный путь к шаблону прикрепленному к документу.
+linktitle: AttachedTemplate
+articleTitle: AttachedTemplate
+second_title: Aspose.Words для .NET
+description: Document AttachedTemplate свойство. Получает или задает полный путь к шаблону прикрепленному к документу на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words/document/attachedtemplate/
@@ -20,11 +22,11 @@ public string AttachedTemplate { get; set; }
 | --- | --- |
 | ArgumentNullException | Выдает, если вы пытаетесь установить`нулевой` ценить. |
 
-### Примечания
+## Примечания
 
 Пустая строка означает, что документ прикреплен к обычному шаблону.
 
-### Примеры
+## Примеры
 
 Показывает, как установить шаблон по умолчанию для документов, к которым не прикреплены шаблоны.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "Document.DefaultTemplate.docx", options);
 ### Смотрите также
 
 * class [Document](../)
-* пространство имен [Aspose.Words](../../document/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

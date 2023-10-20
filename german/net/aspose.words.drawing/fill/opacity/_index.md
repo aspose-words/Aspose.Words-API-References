@@ -1,9 +1,11 @@
 ---
 title: Fill.Opacity
-second_title: Aspose.Words für .NET-API-Referenz
-description: Fill eigendom. Ruft den Grad der Deckkraft der angegebenen Füllung ab oder legt diesen als Wert zwischen 00 klar und 10 undurchsichtig fest.
+linktitle: Opacity
+articleTitle: Opacity
+second_title: Aspose.Words für .NET
+description: Fill Opacity eigendom. Ruft den Grad der Deckkraft der angegebenen Füllung ab oder legt diesen als Wert zwischen 00 klar und 10 undurchsichtig fest in C#.
 type: docs
-weight: 150
+weight: 140
 url: /de/net/aspose.words.drawing/fill/opacity/
 ---
 ## Fill.Opacity property
@@ -14,11 +16,11 @@ Ruft den Grad der Deckkraft der angegebenen Füllung ab oder legt diesen als Wer
 public double Opacity { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Diese Eigenschaft ist das Gegenteil von Eigentum[`Transparency`](../transparency/).
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie eine Form mit einer Volltonfarbe gefüllt wird.
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "Shape.Fill.docx");
 ### Siehe auch
 
 * class [Fill](../)
-* namensraum [Aspose.Words.Drawing](../../fill/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: SaveOutputParameters.ContentType
-second_title: Aspose.Words für .NET-API-Referenz
-description: SaveOutputParameters eigendom. Gibt die ContentTypeZeichenfolge Internet Media Type zurück die den Typ des gespeicherten Dokuments identifiziert.
+linktitle: ContentType
+articleTitle: ContentType
+second_title: Aspose.Words für .NET
+description: SaveOutputParameters ContentType eigendom. Gibt die ContentTypeZeichenfolge Internet Media Type zurück die den Typ des gespeicherten Dokuments identifiziert in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words.saving/saveoutputparameters/contenttype/
@@ -14,7 +16,7 @@ Gibt die Content-Type-Zeichenfolge (Internet Media Type) zurück, die den Typ de
 public string ContentType { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie auf Ausgabeparameter des Speichervorgangs eines Dokuments zugegriffen wird.
 
@@ -37,7 +39,5 @@ Assert.AreEqual("application/pdf", parameters.ContentType);
 ### Siehe auch
 
 * class [SaveOutputParameters](../)
-* namensraum [Aspose.Words.Saving](../../saveoutputparameters/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

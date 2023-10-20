@@ -1,7 +1,9 @@
 ---
 title: HeaderFooter.HeaderFooterType
-second_title: Aspose.Words per .NET API Reference
-description: HeaderFooter proprietà. Ottiene il tipo di questa intestazione/piè di pagina.
+linktitle: HeaderFooterType
+articleTitle: HeaderFooterType
+second_title: Aspose.Words per .NET
+description: HeaderFooter HeaderFooterType proprietà. Ottiene il tipo di questa intestazione/piè di pagina in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words/headerfooter/headerfootertype/
@@ -14,7 +16,7 @@ Ottiene il tipo di questa intestazione/piè di pagina.
 public HeaderFooterType HeaderFooterType { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come creare un'intestazione e un piè di pagina.
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "HeaderFooter.Create.docx");
 
 * enum [HeaderFooterType](../../headerfootertype/)
 * class [HeaderFooter](../)
-* spazio dei nomi [Aspose.Words](../../headerfooter/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

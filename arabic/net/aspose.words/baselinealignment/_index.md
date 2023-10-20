@@ -1,7 +1,9 @@
 ---
-title: Enum BaselineAlignment
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.BaselineAlignment تعداد. يحدد الموضع الرأسي للخطوط على السطر.
+title: BaselineAlignment Enum
+linktitle: BaselineAlignment
+articleTitle: BaselineAlignment
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.BaselineAlignment تعداد. يحدد الموضع الرأسي للخطوط على السطر في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words/baselinealignment/
@@ -24,7 +26,7 @@ public enum BaselineAlignment
 | Bottom | `3` | محاذاة إلى أسفل كل خط. |
 | Auto | `4` | يتم ضبط خط الأساس تلقائيًا. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية ضبط الوضع الرأسي للخطوط على السطر.
 
@@ -44,5 +46,3 @@ doc.Save(ArtifactsDir + "ParagraphFormat.ParagraphBaselineAlignment.docx");
 
 * مساحة الاسم [Aspose.Words](../../aspose.words/)
 * المجسم [Aspose.Words](../../)
-
-

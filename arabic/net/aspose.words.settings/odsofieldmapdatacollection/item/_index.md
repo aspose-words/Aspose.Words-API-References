@@ -1,7 +1,9 @@
 ---
 title: OdsoFieldMapDataCollection.Item
-second_title: Aspose.Words لمراجع .NET API
-description: OdsoFieldMapDataCollection ملكية. الحصول على أو تعيين عنصر في هذه المجموعة.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words لـ .NET
+description: OdsoFieldMapDataCollection Item ملكية. الحصول على أو تعيين عنصر في هذه المجموعة في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.settings/odsofieldmapdatacollection/item/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.settings/odsofieldmapdatacollection/item/
 public OdsoFieldMapData this[int index] { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الوصول إلى مجموعة البيانات التي تقوم بتعيين أعمدة مصدر البيانات لدمج الحقول.
 
@@ -58,7 +60,5 @@ Assert.AreEqual(0, dataCollection.Count);
 
 * class [OdsoFieldMapData](../../odsofieldmapdata/)
 * class [OdsoFieldMapDataCollection](../)
-* مساحة الاسم [Aspose.Words.Settings](../../odsofieldmapdatacollection/)
+* مساحة الاسم [Aspose.Words.Settings](../../../aspose.words.settings/)
 * المجسم [Aspose.Words](../../../)
-
-

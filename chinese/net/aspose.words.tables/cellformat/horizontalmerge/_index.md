@@ -1,9 +1,11 @@
 ---
 title: CellFormat.HorizontalMerge
-second_title: Aspose.Words for .NET API 参考
-description: CellFormat 财产. 指定单元格如何与行中的其他单元格水平合并
+linktitle: HorizontalMerge
+articleTitle: HorizontalMerge
+second_title: 用于 .NET 的 Aspose.Words
+description: CellFormat HorizontalMerge 财产. 指定单元格如何与行中的其他单元格水平合并 在 C#.
 type: docs
-weight: 50
+weight: 40
 url: /zh/net/aspose.words.tables/cellformat/horizontalmerge/
 ---
 ## CellFormat.HorizontalMerge property
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.tables/cellformat/horizontalmerge/
 public CellMerge HorizontalMerge { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何水平合并表格单元格。
 
@@ -80,7 +82,5 @@ public string PrintCellMergeType(Cell cell)
 * property [VerticalMerge](../verticalmerge/)
 * enum [CellMerge](../../cellmerge/)
 * class [CellFormat](../)
-* 命名空间 [Aspose.Words.Tables](../../cellformat/)
+* 命名空间 [Aspose.Words.Tables](../../../aspose.words.tables/)
 * 部件 [Aspose.Words](../../../)
-
-

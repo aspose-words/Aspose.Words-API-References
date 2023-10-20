@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.CurrentNode
-second_title: Aspose.Words for .NET API 参考
-description: DocumentBuilder 财产. 获取当前在此 DocumentBuilder 中选择的节点
+linktitle: CurrentNode
+articleTitle: CurrentNode
+second_title: 用于 .NET 的 Aspose.Words
+description: DocumentBuilder CurrentNode 财产. 获取当前在此 DocumentBuilder 中选择的节点 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words/documentbuilder/currentnode/
@@ -14,13 +16,13 @@ url: /zh/net/aspose.words/documentbuilder/currentnode/
 public Node CurrentNode { get; }
 ```
 
-### 评论
+## 评论
 
 `CurrentNode`是一个游标[`DocumentBuilder`](../)并指向一个[`Node`](../../node/) 是 a 的直接子代[`Paragraph`](../../paragraph/)。您使用 执行的任何插入操作[`DocumentBuilder`](../)将在之前插入`CurrentNode`。
 
 当当前段落为空或光标位于段落或结构化文档标记末尾之前 时，`CurrentNode`回报`无效的`。
 
-### 例子
+## 例子
 
 演示如何将文档生成器的光标移动到文档中的不同节点。
 
@@ -75,7 +77,5 @@ Assert.IsTrue(builder.IsAtStartOfParagraph);
 
 * class [Node](../../node/)
 * class [DocumentBuilder](../)
-* 命名空间 [Aspose.Words](../../documentbuilder/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

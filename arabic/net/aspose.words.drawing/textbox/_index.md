@@ -1,7 +1,9 @@
 ---
-title: Class TextBox
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Drawing.TextBox فصل. يحدد السمات التي تحدد كيفية عرض النص داخل الشكل.
+title: TextBox Class
+linktitle: TextBox
+articleTitle: TextBox
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Drawing.TextBox فصل. يحدد السمات التي تحدد كيفية عرض النص داخل الشكل في C#.
 type: docs
 weight: 1320
 url: /ar/net/aspose.words.drawing/textbox/
@@ -38,13 +40,13 @@ public class TextBox
 | اسم | وصف |
 | --- | --- |
 | [BreakForwardLink](../../aspose.words.drawing/textbox/breakforwardlink/)() | يقطع الرابط إلى التالي`TextBox` . |
-| [IsValidLinkTarget](../../aspose.words.drawing/textbox/isvalidlinktarget/)(TextBox) | يحدد ما إذا كان هذا`TextBox` يمكن ربطها بالهدف`TextBox` . |
+| [IsValidLinkTarget](../../aspose.words.drawing/textbox/isvalidlinktarget/)(*TextBox*) | يحدد ما إذا كان هذا`TextBox` يمكن ربطها بالهدف`TextBox` . |
 
-### ملاحظات
+## ملاحظات
 
 استخدم ال[`TextBox`](../shape/textbox/) الخاصية للوصول إلى خصائص النص الخاصة بالشكل. لا تقم بإنشاء مثيلات للشكل`TextBox` الصف مباشرة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين الهوامش الداخلية لمربع النص.
 
@@ -110,5 +112,3 @@ doc.Save(ArtifactsDir + "Shape.TextBoxFitShapeToText.docx");
 
 * مساحة الاسم [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../)
-
-

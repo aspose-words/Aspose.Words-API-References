@@ -1,7 +1,9 @@
 ---
 title: HyphenationOptions.ConsecutiveHyphenLimit
-second_title: Справочник по API Aspose.Words для .NET
-description: HyphenationOptions свойство. Получает или задает максимальное количество последовательных строк которые могут заканчиваться дефисами. Значение по умолчанию для этого свойства  0.
+linktitle: ConsecutiveHyphenLimit
+articleTitle: ConsecutiveHyphenLimit
+second_title: Aspose.Words для .NET
+description: HyphenationOptions ConsecutiveHyphenLimit свойство. Получает или задает максимальное количество последовательных строк которые могут заканчиваться дефисами. Значение по умолчанию для этого свойства  0 на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.settings/hyphenationoptions/consecutivehyphenlimit/
@@ -14,13 +16,13 @@ url: /ru/net/aspose.words.settings/hyphenationoptions/consecutivehyphenlimit/
 public int ConsecutiveHyphenLimit { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Если значение этого свойства установлено равным 0, любое количество последовательных строк может заканчиваться дефисом.
 
 Это свойство не действует при сохранении в фиксированных форматах страниц, например PDF.
 
-### Примеры
+## Примеры
 
 Показывает, как настроить автоматическую расстановку переносов.
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "Document.HyphenationOptions.docx");
 ### Смотрите также
 
 * class [HyphenationOptions](../)
-* пространство имен [Aspose.Words.Settings](../../hyphenationoptions/)
+* пространство имен [Aspose.Words.Settings](../../../aspose.words.settings/)
 * сборка [Aspose.Words](../../../)
-
-

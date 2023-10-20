@@ -1,7 +1,9 @@
 ---
 title: ControlChar.DefaultTextInputChar
-second_title: Справочник по API Aspose.Words для .NET
-description: ControlChar поле. Это символ о используемый в качестве значения по умолчанию в полях формы ввода текста.
+linktitle: DefaultTextInputChar
+articleTitle: DefaultTextInputChar
+second_title: Aspose.Words для .NET
+description: ControlChar DefaultTextInputChar поле. Это символ о используемый в качестве значения по умолчанию в полях формы ввода текста на С#.
 type: docs
 weight: 70
 url: /ru/net/aspose.words/controlchar/defaulttextinputchar/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/controlchar/defaulttextinputchar/
 public const char DefaultTextInputChar;
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как добавлять в документ различные управляющие символы.
 
@@ -86,7 +88,5 @@ Assert.AreEqual(Convert.ToChar(ControlChar.ColumnBreak), ControlChar.ColumnBreak
 ### Смотрите также
 
 * class [ControlChar](../)
-* пространство имен [Aspose.Words](../../controlchar/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

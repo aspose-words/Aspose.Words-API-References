@@ -1,7 +1,9 @@
 ---
 title: Document.HasRevisions
-second_title: Aspose.Words for .NET API 参考
-description: Document 财产. 返回真的文档是否有任何跟踪更改
+linktitle: HasRevisions
+articleTitle: HasRevisions
+second_title: 用于 .NET 的 Aspose.Words
+description: Document HasRevisions 财产. 返回真的文档是否有任何跟踪更改 在 C#.
 type: docs
 weight: 200
 url: /zh/net/aspose.words/document/hasrevisions/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words/document/hasrevisions/
 public bool HasRevisions { get; }
 ```
 
-### 评论
+## 评论
 
 该属性是比较的快捷方式[`Count`](../../revisioncollection/count/)为零。
 
-### 例子
+## 例子
 
 展示如何处理文档中的修订。
 
@@ -101,7 +103,5 @@ Assert.AreEqual("This is revision #1. \rThis is revision #2.", doc.GetText().Tri
 ### 也可以看看
 
 * class [Document](../)
-* 命名空间 [Aspose.Words](../../document/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

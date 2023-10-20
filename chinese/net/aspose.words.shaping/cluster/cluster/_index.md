@@ -1,7 +1,9 @@
 ---
-title: Cluster.Cluster
-second_title: Aspose.Words for .NET API 参考
-description: Cluster 构造函数. 初始化此类的新实例
+title: Cluster
+linktitle: Cluster
+articleTitle: Cluster
+second_title: 用于 .NET 的 Aspose.Words
+description: Cluster 构造函数. 初始化此类的新实例 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.shaping/cluster/cluster/
@@ -23,7 +25,5 @@ public Cluster(int[] codepoints, Glyph[] glyphs)
 
 * class [Glyph](../../glyph/)
 * class [Cluster](../)
-* 命名空间 [Aspose.Words.Shaping](../../cluster/)
+* 命名空间 [Aspose.Words.Shaping](../../../aspose.words.shaping/)
 * 部件 [Aspose.Words](../../../)
-
-

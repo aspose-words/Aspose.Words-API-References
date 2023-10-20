@@ -1,7 +1,9 @@
 ---
 title: ChartSeries.Name
-second_title: Aspose.Words per .NET API Reference
-description: ChartSeries proprietà. Ottiene o imposta il nome della serie se il nome non è impostato esplicitamente viene generato utilizzando indice. Per impostazione predefinita restituisce Serie più un indice basato.
+linktitle: Name
+articleTitle: Name
+second_title: Aspose.Words per .NET
+description: ChartSeries Name proprietà. Ottiene o imposta il nome della serie se il nome non è impostato esplicitamente viene generato utilizzando indice. Per impostazione predefinita restituisce Serie più un indice basato in C#.
 type: docs
 weight: 110
 url: /it/net/aspose.words.drawing.charts/chartseries/name/
@@ -14,7 +16,7 @@ Ottiene o imposta il nome della serie, se il nome non è impostato esplicitament
 public string Name { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come applicare etichette ai punti dati in un grafico a linee.
 
@@ -92,7 +94,5 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
 ### Guarda anche
 
 * class [ChartSeries](../)
-* spazio dei nomi [Aspose.Words.Drawing.Charts](../../chartseries/)
+* spazio dei nomi [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * assemblea [Aspose.Words](../../../)
-
-

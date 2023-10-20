@@ -1,7 +1,9 @@
 ---
 title: AxisScaling.Maximum
-second_title: Référence de l'API Aspose.Words pour .NET
-description: AxisScaling propriété. Obtient ou définit la valeur maximale de laxe.
+linktitle: Maximum
+articleTitle: Maximum
+second_title: Aspose.Words pour .NET
+description: AxisScaling Maximum propriété. Obtient ou définit la valeur maximale de laxe en C#.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.drawing.charts/axisscaling/maximum/
@@ -14,11 +16,11 @@ Obtient ou définit la valeur maximale de l'axe.
 public AxisBound Maximum { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 La valeur par défaut est "auto".
 
-### Exemples
+## Exemples
 
 Montre comment insérer un graphique avec des valeurs de date/heure.
 
@@ -73,7 +75,5 @@ doc.Save(ArtifactsDir + "Charts.DateTimeValues.docx");
 
 * class [AxisBound](../../axisbound/)
 * class [AxisScaling](../)
-* espace de noms [Aspose.Words.Drawing.Charts](../../axisscaling/)
+* espace de noms [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Assemblée [Aspose.Words](../../../)
-
-

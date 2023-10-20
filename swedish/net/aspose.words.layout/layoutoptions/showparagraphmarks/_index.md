@@ -1,7 +1,9 @@
 ---
 title: LayoutOptions.ShowParagraphMarks
-second_title: Aspose.Words för .NET API Referens
-description: LayoutOptions fast egendom. Hämtar eller ställer in en indikation på om stycketecken återges. Standard ärfalsk .
+linktitle: ShowParagraphMarks
+articleTitle: ShowParagraphMarks
+second_title: Aspose.Words för .NET
+description: LayoutOptions ShowParagraphMarks fast egendom. Hämtar eller ställer in en indikation på om stycketecken återges. Standard ärfalsk  i C#.
 type: docs
 weight: 90
 url: /sv/net/aspose.words.layout/layoutoptions/showparagraphmarks/
@@ -14,7 +16,7 @@ Hämtar eller ställer in en indikation på om stycketecken återges. Standard �
 public bool ShowParagraphMarks { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man visar styckemärken i ett renderat utdatadokument.
 
@@ -34,7 +36,5 @@ doc.Save(ArtifactsDir + "Document.LayoutOptionsParagraphMarks.pdf");
 ### Se även
 
 * class [LayoutOptions](../)
-* namnutrymme [Aspose.Words.Layout](../../layoutoptions/)
+* namnutrymme [Aspose.Words.Layout](../../../aspose.words.layout/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: MailMerge.DeleteFields
-second_title: Aspose.Words für .NET-API-Referenz
-description: MailMerge methode. Entfernt Serienbrieffelder aus dem Dokument.
+linktitle: DeleteFields
+articleTitle: DeleteFields
+second_title: Aspose.Words für .NET
+description: MailMerge DeleteFields methode. Entfernt Serienbrieffelder aus dem Dokument in C#.
 type: docs
 weight: 170
 url: /de/net/aspose.words.mailmerging/mailmerge/deletefields/
@@ -14,13 +16,13 @@ Entfernt Serienbrieffelder aus dem Dokument.
 public void DeleteFields()
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Diese Methode entfernt die Felder MERGEFIELD und NEXT aus dem Dokument.
 
 Diese Methode kann nützlich sein, wenn Ihr Serienbriefvorgang nicht immer benötigt, um alle Felder im Dokument auszufüllen. Verwenden Sie diese Methode, um alle verbleibenden -Serienbrieffelder zu entfernen.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie alle MERGEFIELDs aus einem Dokument gelöscht werden.
 
@@ -47,7 +49,5 @@ Assert.AreEqual("Dear  ,\rGreetings!", doc.GetText().Trim());
 ### Siehe auch
 
 * class [MailMerge](../)
-* namensraum [Aspose.Words.MailMerging](../../mailmerge/)
+* namensraum [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * Montage [Aspose.Words](../../../)
-
-

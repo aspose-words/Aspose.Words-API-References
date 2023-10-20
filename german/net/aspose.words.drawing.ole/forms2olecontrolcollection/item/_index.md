@@ -1,7 +1,9 @@
 ---
 title: Forms2OleControlCollection.Item
-second_title: Aspose.Words für .NET-API-Referenz
-description: Forms2OleControlCollection eigendom. Ruft abForms2OleControl Objekt an einem angegebenen Index.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words für .NET
+description: Forms2OleControlCollection Item eigendom. Ruft abForms2OleControl Objekt an einem angegebenen Index in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.drawing.ole/forms2olecontrolcollection/item/
@@ -14,7 +16,7 @@ Ruft ab[`Forms2OleControl`](../../forms2olecontrol/) Objekt an einem angegebenen
 public Forms2OleControl this[int index] { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie auf ein in ein Dokument eingebettetes OLE-Steuerelement und seine untergeordneten Steuerelemente zugegriffen wird.
 
@@ -47,7 +49,5 @@ Assert.AreEqual("0", oleControlCollection[2].Value);
 
 * class [Forms2OleControl](../../forms2olecontrol/)
 * class [Forms2OleControlCollection](../)
-* namensraum [Aspose.Words.Drawing.Ole](../../forms2olecontrolcollection/)
+* namensraum [Aspose.Words.Drawing.Ole](../../../aspose.words.drawing.ole/)
 * Montage [Aspose.Words](../../../)
-
-

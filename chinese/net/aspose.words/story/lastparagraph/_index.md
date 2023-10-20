@@ -1,7 +1,9 @@
 ---
 title: Story.LastParagraph
-second_title: Aspose.Words for .NET API 参考
-description: Story 财产. 获取故事的最后一段
+linktitle: LastParagraph
+articleTitle: LastParagraph
+second_title: 用于 .NET 的 Aspose.Words
+description: Story LastParagraph 财产. 获取故事的最后一段 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words/story/lastparagraph/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/story/lastparagraph/
 public Paragraph LastParagraph { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何将 DocumentBuilder 的光标位置移动到指定节点。
 
@@ -47,7 +49,5 @@ Assert.AreEqual("Run 2. \rRun 1. \rRun 3.", doc.GetText().Trim());
 
 * class [Paragraph](../../paragraph/)
 * class [Story](../)
-* 命名空间 [Aspose.Words](../../story/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

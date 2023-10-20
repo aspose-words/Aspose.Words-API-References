@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.SnapToGrid
-second_title: Aspose.Words per .NET API Reference
-description: ParagraphFormat proprietà. Specifica se il paragrafo corrente deve utilizzare le linee della griglia del documento per le impostazioni di pagina quando si dispongono i contenuti nel paragrafo.
+linktitle: SnapToGrid
+articleTitle: SnapToGrid
+second_title: Aspose.Words per .NET
+description: ParagraphFormat SnapToGrid proprietà. Specifica se il paragrafo corrente deve utilizzare le linee della griglia del documento per le impostazioni di pagina quando si dispongono i contenuti nel paragrafo in C#.
 type: docs
 weight: 290
 url: /it/net/aspose.words/paragraphformat/snaptogrid/
@@ -14,7 +16,7 @@ Specifica se il paragrafo corrente deve utilizzare le linee della griglia del do
 public bool SnapToGrid { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come specificare un limite per il numero di righe che ogni pagina può avere.
 
@@ -38,7 +40,5 @@ doc.Save(ArtifactsDir + "PageSetup.LinesPerPage.docx");
 ### Guarda anche
 
 * class [ParagraphFormat](../)
-* spazio dei nomi [Aspose.Words](../../paragraphformat/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

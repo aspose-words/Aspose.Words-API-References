@@ -1,12 +1,14 @@
 ---
-title: XmlDataSource.XmlDataSource
-second_title: Aspose.Words for .NET API 参考
-description: XmlDataSource 构造函数. 使用 XML 数据加载的默认选项使用 XML 文件中的数据创建新数据源
+title: XmlDataSource
+linktitle: XmlDataSource
+articleTitle: XmlDataSource
+second_title: 用于 .NET 的 Aspose.Words
+description: XmlDataSource 构造函数. 使用 XML 数据加载的默认选项使用 XML 文件中的数据创建新数据源 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.reporting/xmldatasource/xmldatasource/
 ---
-## XmlDataSource(string) {#constructor_4}
+## XmlDataSource(*string*) {#constructor_4}
 
 使用 XML 数据加载的默认选项，使用 XML 文件中的数据创建新数据源。
 
@@ -21,12 +23,12 @@ public XmlDataSource(string xmlPath)
 ### 也可以看看
 
 * class [XmlDataSource](../)
-* 命名空间 [Aspose.Words.Reporting](../../xmldatasource/)
+* 命名空间 [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## XmlDataSource(Stream) {#constructor}
+## XmlDataSource(*Stream*) {#constructor}
 
 使用 XML 数据加载的默认选项，使用来自 XML 流的数据创建新数据源。
 
@@ -41,12 +43,12 @@ public XmlDataSource(Stream xmlStream)
 ### 也可以看看
 
 * class [XmlDataSource](../)
-* 命名空间 [Aspose.Words.Reporting](../../xmldatasource/)
+* 命名空间 [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## XmlDataSource(string, string) {#constructor_6}
+## XmlDataSource(*string, string*) {#constructor_6}
 
 使用 XML 架构定义文件使用 XML 文件中的数据创建新数据源。默认选项 用于XML数据加载。
 
@@ -62,12 +64,12 @@ public XmlDataSource(string xmlPath, string xmlSchemaPath)
 ### 也可以看看
 
 * class [XmlDataSource](../)
-* 命名空间 [Aspose.Words.Reporting](../../xmldatasource/)
+* 命名空间 [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## XmlDataSource(Stream, Stream) {#constructor_2}
+## XmlDataSource(*Stream, Stream*) {#constructor_2}
 
 使用 XML 架构定义流，使用 XML 流中的数据创建新数据源。默认选项 用于XML数据加载。
 
@@ -83,12 +85,12 @@ public XmlDataSource(Stream xmlStream, Stream xmlSchemaStream)
 ### 也可以看看
 
 * class [XmlDataSource](../)
-* 命名空间 [Aspose.Words.Reporting](../../xmldatasource/)
+* 命名空间 [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## XmlDataSource(string, XmlDataLoadOptions) {#constructor_5}
+## XmlDataSource(*string, [XmlDataLoadOptions](../../xmldataloadoptions/)*) {#constructor_5}
 
 使用 XML 数据加载的指定选项，使用 XML 文件中的数据创建新数据源。
 
@@ -105,12 +107,12 @@ public XmlDataSource(string xmlPath, XmlDataLoadOptions options)
 
 * class [XmlDataLoadOptions](../../xmldataloadoptions/)
 * class [XmlDataSource](../)
-* 命名空间 [Aspose.Words.Reporting](../../xmldatasource/)
+* 命名空间 [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## XmlDataSource(Stream, XmlDataLoadOptions) {#constructor_1}
+## XmlDataSource(*Stream, [XmlDataLoadOptions](../../xmldataloadoptions/)*) {#constructor_1}
 
 使用指定的 XML 数据加载选项，使用 XML 流中的数据创建新数据源。
 
@@ -127,12 +129,12 @@ public XmlDataSource(Stream xmlStream, XmlDataLoadOptions options)
 
 * class [XmlDataLoadOptions](../../xmldataloadoptions/)
 * class [XmlDataSource](../)
-* 命名空间 [Aspose.Words.Reporting](../../xmldatasource/)
+* 命名空间 [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## XmlDataSource(string, string, XmlDataLoadOptions) {#constructor_7}
+## XmlDataSource(*string, string, [XmlDataLoadOptions](../../xmldataloadoptions/)*) {#constructor_7}
 
 使用 XML 架构定义文件使用 XML 文件中的数据创建新数据源。指定的 选项用于XML数据加载。
 
@@ -150,12 +152,12 @@ public XmlDataSource(string xmlPath, string xmlSchemaPath, XmlDataLoadOptions op
 
 * class [XmlDataLoadOptions](../../xmldataloadoptions/)
 * class [XmlDataSource](../)
-* 命名空间 [Aspose.Words.Reporting](../../xmldatasource/)
+* 命名空间 [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## XmlDataSource(Stream, Stream, XmlDataLoadOptions) {#constructor_3}
+## XmlDataSource(*Stream, Stream, [XmlDataLoadOptions](../../xmldataloadoptions/)*) {#constructor_3}
 
 使用 XML 架构定义流，使用来自 XML 流的数据创建新数据源。指定的 选项用于XML数据加载。
 
@@ -173,7 +175,5 @@ public XmlDataSource(Stream xmlStream, Stream xmlSchemaStream, XmlDataLoadOption
 
 * class [XmlDataLoadOptions](../../xmldataloadoptions/)
 * class [XmlDataSource](../)
-* 命名空间 [Aspose.Words.Reporting](../../xmldatasource/)
+* 命名空间 [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Row.Cells
-second_title: Aspose.Words per .NET API Reference
-description: Row proprietà. Fornisce laccesso digitato aCell nodi figlio della riga.
+linktitle: Cells
+articleTitle: Cells
+second_title: Aspose.Words per .NET
+description: Row Cells proprietà. Fornisce laccesso digitato aCell nodi figlio della riga in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words.tables/row/cells/
@@ -14,7 +16,7 @@ Fornisce l'accesso digitato a[`Cell`](../../cell/) nodi figlio della riga.
 public CellCollection Cells { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come scorrere tutte le tabelle del documento e stampare il contenuto di ciascuna cella.
 
@@ -61,7 +63,5 @@ for (int i = 0; i < tables.Count; i++)
 
 * class [CellCollection](../../cellcollection/)
 * class [Row](../)
-* spazio dei nomi [Aspose.Words.Tables](../../row/)
+* spazio dei nomi [Aspose.Words.Tables](../../../aspose.words.tables/)
 * assemblea [Aspose.Words](../../../)
-
-

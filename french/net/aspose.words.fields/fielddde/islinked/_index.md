@@ -1,7 +1,9 @@
 ---
 title: FieldDde.IsLinked
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldDde propriété. Obtient ou définit sil faut réduire la taille du fichier en ne stockant pas les données graphiques avec le document.
+linktitle: IsLinked
+articleTitle: IsLinked
+second_title: Aspose.Words pour .NET
+description: FieldDde IsLinked propriété. Obtient ou définit sil faut réduire la taille du fichier en ne stockant pas les données graphiques avec le document en C#.
 type: docs
 weight: 90
 url: /fr/net/aspose.words.fields/fielddde/islinked/
@@ -14,7 +16,7 @@ Obtient ou définit s'il faut réduire la taille du fichier en ne stockant pas l
 public bool IsLinked { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment utiliser différents types de champs pour créer des liens vers d’autres documents dans le système de fichiers local et afficher leur contenu.
 
@@ -197,7 +199,5 @@ public enum InsertLinkedObjectAs
 ### Voir également
 
 * class [FieldDde](../)
-* espace de noms [Aspose.Words.Fields](../../fielddde/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

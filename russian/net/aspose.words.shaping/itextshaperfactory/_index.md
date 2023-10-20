@@ -1,7 +1,9 @@
 ---
-title: Interface ITextShaperFactory
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Shaping.ITextShaperFactory интерфейс. Интерфейс фабрики для построенияITextShaper реализации.
+title: ITextShaperFactory Interface
+linktitle: ITextShaperFactory
+articleTitle: ITextShaperFactory
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Shaping.ITextShaperFactory интерфейс. Интерфейс фабрики для построенияITextShaper реализации на С#.
 type: docs
 weight: 6060
 url: /ru/net/aspose.words.shaping/itextshaperfactory/
@@ -18,12 +20,10 @@ public interface ITextShaperFactory
 
 | Имя | Описание |
 | --- | --- |
-| [GetTextShaper](../../aspose.words.shaping/itextshaperfactory/gettextshaper/#gettextshaper_1)(string, int) | Возвращает новый экземпляр формирователя текста для шрифта, указанного*fontPath* и*faceIndex* . |
-| [GetTextShaper](../../aspose.words.shaping/itextshaperfactory/gettextshaper/#gettextshaper)(string, byte[], int) | Возвращает новый экземпляр формирователя текста для шрифта, представленного*fontBlob* и*faceIndex* . |
+| [GetTextShaper](../../aspose.words.shaping/itextshaperfactory/gettextshaper/#gettextshaper_1)(*string, int*) | Возвращает новый экземпляр формирователя текста для шрифта, указанного*fontPath* и*faceIndex* . |
+| [GetTextShaper](../../aspose.words.shaping/itextshaperfactory/gettextshaper/#gettextshaper)(*string, byte[], int*) | Возвращает новый экземпляр формирователя текста для шрифта, представленного*fontBlob* и*faceIndex* . |
 
 ### Смотрите также
 
 * пространство имен [Aspose.Words.Shaping](../../aspose.words.shaping/)
 * сборка [Aspose.Words](../../)
-
-

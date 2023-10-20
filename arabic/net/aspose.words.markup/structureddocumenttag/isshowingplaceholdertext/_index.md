@@ -1,14 +1,16 @@
 ---
 title: StructuredDocumentTag.IsShowingPlaceholderText
-second_title: Aspose.Words لمراجع .NET API
-description: StructuredDocumentTag ملكية. يحدد ما إذا كان محتوى هذا المعاملة الخاصة والتفضيليةيجب تفسيره على أنه يحتوي على العنصر النائب text على عكس محتويات النص العادي ضمن المعاملة الخاصة والتفضيلية.
+linktitle: IsShowingPlaceholderText
+articleTitle: IsShowingPlaceholderText
+second_title: Aspose.Words لـ .NET
+description: StructuredDocumentTag IsShowingPlaceholderText ملكية. يحدد ما إذا كان محتوى هذاالمعاملة الخاصة والتفضيليةيجب تفسيره على أنه يحتوي على العنصر النائب text على عكس محتويات النص العادي ضمن المعاملة الخاصة والتفضيلية في C#.
 type: docs
 weight: 150
 url: /ar/net/aspose.words.markup/structureddocumenttag/isshowingplaceholdertext/
 ---
 ## StructuredDocumentTag.IsShowingPlaceholderText property
 
-يحدد ما إذا كان محتوى هذا **المعاملة الخاصة والتفضيلية**يجب تفسيره على أنه يحتوي على العنصر النائب text (على عكس محتويات النص العادي ضمن المعاملة الخاصة والتفضيلية).
+يحدد ما إذا كان محتوى هذا**المعاملة الخاصة والتفضيلية**يجب تفسيره على أنه يحتوي على العنصر النائب text (على عكس محتويات النص العادي ضمن المعاملة الخاصة والتفضيلية).
 
 إذا تم ضبطه على`حقيقي` ، سيتم استئناف هذه الحالة (إظهار نص العنصر النائب) عند فتح هذا المستند.
 
@@ -16,7 +18,7 @@ url: /ar/net/aspose.words.markup/structureddocumenttag/isshowingplaceholdertext/
 public bool IsShowingPlaceholderText { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام محتويات الكتلة البرمجية الإنشائية كنص عنصر نائب مخصص لعلامة مستند منظمة.
 
@@ -63,7 +65,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.PlaceholderBuildingBlock.docx");
 ### أنظر أيضا
 
 * class [StructuredDocumentTag](../)
-* مساحة الاسم [Aspose.Words.Markup](../../structureddocumenttag/)
+* مساحة الاسم [Aspose.Words.Markup](../../../aspose.words.markup/)
 * المجسم [Aspose.Words](../../../)
-
-

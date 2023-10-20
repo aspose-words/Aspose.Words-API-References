@@ -1,7 +1,9 @@
 ---
 title: SmartTag.NodeType
-second_title: Aspose.Words für .NET-API-Referenz
-description: SmartTag eigendom. Gibt zurückSmartTag .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words für .NET
+description: SmartTag NodeType eigendom. Gibt zurückSmartTag  in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.markup/smarttag/nodetype/
@@ -14,7 +16,7 @@ Gibt zurückSmartTag .
 public override NodeType NodeType { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie der Baum der untergeordneten Knoten eines zusammengesetzten Knotens durchlaufen wird.
 
@@ -62,7 +64,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 
 * enum [NodeType](../../../aspose.words/nodetype/)
 * class [SmartTag](../)
-* namensraum [Aspose.Words.Markup](../../smarttag/)
+* namensraum [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: CustomXmlPropertyCollection.Remove
-second_title: Aspose.Words för .NET API Referens
-description: CustomXmlPropertyCollection metod. Tar bort en egenskap med det angivna namnet från samlingen.
+linktitle: Remove
+articleTitle: Remove
+second_title: Aspose.Words för .NET
+description: CustomXmlPropertyCollection Remove metod. Tar bort en egenskap med det angivna namnet från samlingen i C#.
 type: docs
 weight: 80
 url: /sv/net/aspose.words.markup/customxmlpropertycollection/remove/
@@ -18,7 +20,7 @@ public void Remove(string name)
 | --- | --- | --- |
 | name | String | Egendomens skiftlägeskänsliga namn. |
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med smarta taggars egenskaper för att få djupgående information om smarta taggar.
 
@@ -75,7 +77,5 @@ Assert.AreEqual(0, properties.Count);
 ### Se även
 
 * class [CustomXmlPropertyCollection](../)
-* namnutrymme [Aspose.Words.Markup](../../customxmlpropertycollection/)
+* namnutrymme [Aspose.Words.Markup](../../../aspose.words.markup/)
 * hopsättning [Aspose.Words](../../../)
-
-

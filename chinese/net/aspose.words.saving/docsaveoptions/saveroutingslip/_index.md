@@ -1,7 +1,9 @@
 ---
 title: DocSaveOptions.SaveRoutingSlip
-second_title: Aspose.Words for .NET API 参考
-description: DocSaveOptions 财产. 当错误的 RoutingSlip 数据不保存到输出文档 默认值为真的.
+linktitle: SaveRoutingSlip
+articleTitle: SaveRoutingSlip
+second_title: 用于 .NET 的 Aspose.Words
+description: DocSaveOptions SaveRoutingSlip 财产. 当错误的 RoutingSlip 数据不保存到输出文档 默认值为真的 在 C#.
 type: docs
 weight: 60
 url: /zh/net/aspose.words.saving/docsaveoptions/saveroutingslip/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.saving/docsaveoptions/saveroutingslip/
 public bool SaveRoutingSlip { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何为旧版 Microsoft Word 格式设置保存选项。
 
@@ -47,7 +49,5 @@ Assert.AreEqual("Hello world!", doc.GetText().Trim());
 ### 也可以看看
 
 * class [DocSaveOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../docsaveoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

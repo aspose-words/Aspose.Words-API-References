@@ -1,7 +1,9 @@
 ---
 title: ChartDataPoint.Index
-second_title: Aspose.Words für .NET-API-Referenz
-description: ChartDataPoint eigendom. Index des Datenpunkts auf den dieses Objekt die Formatierung anwendet.
+linktitle: Index
+articleTitle: Index
+second_title: Aspose.Words für .NET
+description: ChartDataPoint Index eigendom. Index des Datenpunkts auf den dieses Objekt die Formatierung anwendet in C#.
 type: docs
 weight: 40
 url: /de/net/aspose.words.drawing.charts/chartdatapoint/index/
@@ -14,7 +16,7 @@ Index des Datenpunkts, auf den dieses Objekt die Formatierung anwendet.
 public int Index { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit Datenpunkten in einem Liniendiagramm gearbeitet wird.
 
@@ -76,7 +78,5 @@ private static void ApplyDataPoints(ChartSeries series, int dataPointsCount, Mar
 ### Siehe auch
 
 * class [ChartDataPoint](../)
-* namensraum [Aspose.Words.Drawing.Charts](../../chartdatapoint/)
+* namensraum [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../../)
-
-

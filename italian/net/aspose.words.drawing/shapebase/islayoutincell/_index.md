@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.IsLayoutInCell
-second_title: Aspose.Words per .NET API Reference
-description: ShapeBase proprietà. Ottiene o imposta un flag che indica se la forma viene visualizzata allinterno o allesterno di una tabella.
+linktitle: IsLayoutInCell
+articleTitle: IsLayoutInCell
+second_title: Aspose.Words per .NET
+description: ShapeBase IsLayoutInCell proprietà. Ottiene o imposta un flag che indica se la forma viene visualizzata allinterno o allesterno di una tabella in C#.
 type: docs
 weight: 310
 url: /it/net/aspose.words.drawing/shapebase/islayoutincell/
@@ -14,13 +16,13 @@ Ottiene o imposta un flag che indica se la forma viene visualizzata all'interno 
 public bool IsLayoutInCell { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Il valore predefinito è`VERO`.
 
 Ha effetto solo per le forme di livello superiore, la proprietà[`WrapType`](../wraptype/) di cui è impostato su value diverso da[`Inline`](../../../aspose.words/inline/).
 
-### Esempi
+## Esempi
 
 Mostra come determinare come visualizzare una forma in una cella di tabella.
 
@@ -65,7 +67,5 @@ doc.Save(ArtifactsDir + "Shape.LayoutInTableCell.docx");
 ### Guarda anche
 
 * class [ShapeBase](../)
-* spazio dei nomi [Aspose.Words.Drawing](../../shapebase/)
+* spazio dei nomi [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assemblea [Aspose.Words](../../../)
-
-

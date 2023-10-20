@@ -1,7 +1,9 @@
 ---
 title: CommentRangeEnd.Accept
-second_title: Aspose.Words for .NET API 参考
-description: CommentRangeEnd 方法. 接受访客
+linktitle: Accept
+articleTitle: Accept
+second_title: 用于 .NET 的 Aspose.Words
+description: CommentRangeEnd Accept 方法. 接受访客 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words/commentrangeend/accept/
@@ -22,13 +24,13 @@ public override bool Accept(DocumentVisitor visitor)
 
 `错误的`如果访问者请求停止枚举。
 
-### 评论
+## 评论
 
 通话[`VisitCommentRangeEnd`](../../documentvisitor/visitcommentrangeend/)。
 
 有关更多信息，请参阅访客设计模式。
 
-### 例子
+## 例子
 
 展示如何使用文档访问者打印所有注释的内容及其注释范围。
 
@@ -190,7 +192,5 @@ public class CommentInfoPrinter : DocumentVisitor
 
 * class [DocumentVisitor](../../documentvisitor/)
 * class [CommentRangeEnd](../)
-* 命名空间 [Aspose.Words](../../commentrangeend/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

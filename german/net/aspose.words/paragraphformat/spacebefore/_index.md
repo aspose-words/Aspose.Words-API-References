@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.SpaceBefore
-second_title: Aspose.Words für .NET-API-Referenz
-description: ParagraphFormat eigendom. Ruft den Abstand in Punkt vor dem Absatz ab oder legt diesen fest.
+linktitle: SpaceBefore
+articleTitle: SpaceBefore
+second_title: Aspose.Words für .NET
+description: ParagraphFormat SpaceBefore eigendom. Ruft den Abstand in Punkt vor dem Absatz ab oder legt diesen fest in C#.
 type: docs
 weight: 320
 url: /de/net/aspose.words/paragraphformat/spacebefore/
@@ -20,13 +22,13 @@ public double SpaceBefore { get; set; }
 | --- | --- |
 | ArgumentOutOfRangeException | Wird ausgelöst, wenn das Argument außerhalb des gültigen Wertebereichs lag. |
 
-### Bemerkungen
+## Bemerkungen
 
 Hat keine Auswirkung, wenn[`SpaceBeforeAuto`](../spacebeforeauto/) Ist`WAHR`.
 
 Gültige Werte reichen von 0 bis einschließlich 1584.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie der automatische Absatzabstand eingestellt wird.
 
@@ -84,7 +86,5 @@ doc.Save(ArtifactsDir + "ParagraphFormat.ParagraphSpacingSameStyle.docx");
 ### Siehe auch
 
 * class [ParagraphFormat](../)
-* namensraum [Aspose.Words](../../paragraphformat/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

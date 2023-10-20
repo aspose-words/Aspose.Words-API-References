@@ -1,7 +1,9 @@
 ---
-title: Class ListCollection
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Lists.ListCollection klass. Lagrar och hanterar formatering av punktlistor och numrerade listor som används i ett dokument.
+title: ListCollection Class
+linktitle: ListCollection
+articleTitle: ListCollection
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Lists.ListCollection klass. Lagrar och hanterar formatering av punktlistor och numrerade listor som används i ett dokument i C#.
 type: docs
 weight: 3470
 url: /sv/net/aspose.words.lists/listcollection/
@@ -28,13 +30,13 @@ public class ListCollection : IEnumerable<List>
 
 | namn | Beskrivning |
 | --- | --- |
-| [Add](../../aspose.words.lists/listcollection/add/#add)(ListTemplate) | Skapar en ny lista baserad på en fördefinierad mall och lägger till den i samlingen av listor i dokumentet. |
-| [Add](../../aspose.words.lists/listcollection/add/#add_1)(Style) | Skapar en ny lista som refererar till en liststil och lägger till den i samlingen av listor i dokumentet. |
-| [AddCopy](../../aspose.words.lists/listcollection/addcopy/)(List) | Skapar en ny lista genom att kopiera den angivna listan och lägga till den i samlingen av listor i dokumentet. |
+| [Add](../../aspose.words.lists/listcollection/add/#add)(*[ListTemplate](../listtemplate/)*) | Skapar en ny lista baserad på en fördefinierad mall och lägger till den i samlingen av listor i dokumentet. |
+| [Add](../../aspose.words.lists/listcollection/add/#add_1)(*[Style](../../aspose.words/style/)*) | Skapar en ny lista som refererar till en liststil och lägger till den i samlingen av listor i dokumentet. |
+| [AddCopy](../../aspose.words.lists/listcollection/addcopy/)(*[List](../list/)*) | Skapar en ny lista genom att kopiera den angivna listan och lägga till den i samlingen av listor i dokumentet. |
 | [GetEnumerator](../../aspose.words.lists/listcollection/getenumerator/)() | Hämtar uppräkningsobjektet som kommer att räkna upp listor i dokumentet. |
-| [GetListByListId](../../aspose.words.lists/listcollection/getlistbylistid/)(int) | Hämtar en lista med en listidentifierare. |
+| [GetListByListId](../../aspose.words.lists/listcollection/getlistbylistid/)(*int*) | Hämtar en lista med en listidentifierare. |
 
-### Anmärkningar
+## Anmärkningar
 
 En lista i ett Microsoft Word-dokument är en uppsättning listformateringsegenskaper. Formateringen av listorna lagras i`ListCollection` samling separat från textstyckena.
 
@@ -54,7 +56,7 @@ För att förenkla programmeringsmodellen döljer Aspose.Words skillnaden mellan
 
 Det är inte möjligt att ta bort listor när de väl har skapats i den aktuella versionen av Aspose.Words. Detta liknar Microsoft Word där användaren inte har explicit kontroll över listdefinitioner.
 
-### Exempel
+## Exempel
 
 Visar hur man skapar ett dokument med ett exempel på alla listor från ett annat dokument.
 
@@ -182,5 +184,3 @@ doc.Save(ArtifactsDir + "Lists.SpecifyListLevel.docx");
 * class [List](../list/)
 * namnutrymme [Aspose.Words.Lists](../../aspose.words.lists/)
 * hopsättning [Aspose.Words](../../)
-
-

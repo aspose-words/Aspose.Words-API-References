@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTagRangeStart.RangeEnd
-second_title: Référence de l'API Aspose.Words pour .NET
-description: StructuredDocumentTagRangeStart propriété. Spécifie la fin de la plage si leStructuredDocumentTag est une balise de document structuré à distance. Sinon renvoienul .
+linktitle: RangeEnd
+articleTitle: RangeEnd
+second_title: Aspose.Words pour .NET
+description: StructuredDocumentTagRangeStart RangeEnd propriété. Spécifie la fin de la plage si leStructuredDocumentTag est une balise de document structuré à distance. Sinon renvoienul  en C#.
 type: docs
 weight: 130
 url: /fr/net/aspose.words.markup/structureddocumenttagrangestart/rangeend/
@@ -14,7 +16,7 @@ Spécifie la fin de la plage si le[`StructuredDocumentTag`](../../structureddocu
 public StructuredDocumentTagRangeEnd RangeEnd { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment obtenir les propriétés des balises de documents structurés à plusieurs sections.
 
@@ -50,7 +52,5 @@ Console.WriteLine($"\t|NodeType: {rangeEndTag.NodeType}");
 
 * class [StructuredDocumentTagRangeEnd](../../structureddocumenttagrangeend/)
 * class [StructuredDocumentTagRangeStart](../)
-* espace de noms [Aspose.Words.Markup](../../structureddocumenttagrangestart/)
+* espace de noms [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Assemblée [Aspose.Words](../../../)
-
-

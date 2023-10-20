@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.GrowAutofit
-second_title: Aspose.Words per .NET API Reference
-description: CompatibilityOptions proprietà. Consenti ladattamento automatico delle tabelle ai margini della pagina.
+linktitle: GrowAutofit
+articleTitle: GrowAutofit
+second_title: Aspose.Words per .NET
+description: CompatibilityOptions GrowAutofit proprietà. Consenti ladattamento automatico delle tabelle ai margini della pagina in C#.
 type: docs
 weight: 280
 url: /it/net/aspose.words.settings/compatibilityoptions/growautofit/
@@ -17,7 +19,5 @@ public bool GrowAutofit { get; set; }
 ### Guarda anche
 
 * class [CompatibilityOptions](../)
-* spazio dei nomi [Aspose.Words.Settings](../../compatibilityoptions/)
+* spazio dei nomi [Aspose.Words.Settings](../../../aspose.words.settings/)
 * assemblea [Aspose.Words](../../../)
-
-

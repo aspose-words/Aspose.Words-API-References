@@ -1,7 +1,9 @@
 ---
 title: LoadOptions.Encoding
-second_title: Aspose.Words per .NET API Reference
-description: LoadOptions proprietà. Ottiene o imposta la codifica che verrà utilizzata per caricare un documento HTML TXT o CHM se la codifica non è specificata allinterno del documento. Può esserenullo . Limpostazione predefinita ènullo .
+linktitle: Encoding
+articleTitle: Encoding
+second_title: Aspose.Words per .NET
+description: LoadOptions Encoding proprietà. Ottiene o imposta la codifica che verrà utilizzata per caricare un documento HTML TXT o CHM se la codifica non è specificata allinterno del documento. Può esserenullo . Limpostazione predefinita ènullo  in C#.
 type: docs
 weight: 50
 url: /it/net/aspose.words.loading/loadoptions/encoding/
@@ -14,13 +16,13 @@ Ottiene o imposta la codifica che verrà utilizzata per caricare un documento HT
 public Encoding Encoding { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Questa proprietà viene utilizzata solo durante il caricamento di documenti HTML, TXT o CHM.
 
 Se la codifica non è specificata all'interno del documento e questa proprietà lo è`nullo`il sistema proverà a rilevare automaticamente la codifica.
 
-### Esempi
+## Esempi
 
 Mostra come impostare la codifica con cui aprire un documento.
 
@@ -39,7 +41,5 @@ Assert.True(doc.ToString(SaveFormat.Text).Contains("This is a sample text in Eng
 ### Guarda anche
 
 * class [LoadOptions](../)
-* spazio dei nomi [Aspose.Words.Loading](../../loadoptions/)
+* spazio dei nomi [Aspose.Words.Loading](../../../aspose.words.loading/)
 * assemblea [Aspose.Words](../../../)
-
-

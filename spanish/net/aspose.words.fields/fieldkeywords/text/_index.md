@@ -1,7 +1,9 @@
 ---
 title: FieldKeywords.Text
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldKeywords propiedad. Obtiene o establece el texto de las palabras clave.
+linktitle: Text
+articleTitle: Text
+second_title: Aspose.Words para .NET
+description: FieldKeywords Text propiedad. Obtiene o establece el texto de las palabras clave en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words.fields/fieldkeywords/text/
@@ -14,7 +16,7 @@ Obtiene o establece el texto de las palabras clave.
 public string Text { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra para insertar un campo PALABRAS CLAVE.
 
@@ -47,7 +49,5 @@ doc.Save(ArtifactsDir + "Field.KEYWORDS.docx");
 ### Ver también
 
 * class [FieldKeywords](../)
-* espacio de nombres [Aspose.Words.Fields](../../fieldkeywords/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldTA.EntryCategory
-second_title: Aspose.Words för .NET API Referens
-description: FieldTA fast egendom. Hämtar eller ställer in den integrerade postkategorin vilket är ett tal som motsvarar ordningen av kategorier.
+linktitle: EntryCategory
+articleTitle: EntryCategory
+second_title: Aspose.Words för .NET
+description: FieldTA EntryCategory fast egendom. Hämtar eller ställer in den integrerade postkategorin vilket är ett tal som motsvarar ordningen av kategorier i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.fields/fieldta/entrycategory/
@@ -14,7 +16,7 @@ Hämtar eller ställer in den integrerade postkategorin, vilket är ett tal som 
 public string EntryCategory { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man bygger och anpassar en tabell över myndigheter med hjälp av TOA- och TA-fält.
 
@@ -137,7 +139,5 @@ private static FieldTA InsertToaEntry(DocumentBuilder builder, string entryCateg
 ### Se även
 
 * class [FieldTA](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldta/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum HtmlControlType
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Loading.HtmlControlType تعداد. نوع عقد الوثيقة التي تمثل عناصر input وselect المستوردة من HTML.
+title: HtmlControlType Enum
+linktitle: HtmlControlType
+articleTitle: HtmlControlType
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Loading.HtmlControlType تعداد. نوع عقد الوثيقة التي تمثل عناصر input وselect المستوردة من HTML في C#.
 type: docs
 weight: 3610
 url: /ar/net/aspose.words.loading/htmlcontroltype/
@@ -25,5 +27,3 @@ public enum HtmlControlType
 
 * مساحة الاسم [Aspose.Words.Loading](../../aspose.words.loading/)
 * المجسم [Aspose.Words](../../)
-
-

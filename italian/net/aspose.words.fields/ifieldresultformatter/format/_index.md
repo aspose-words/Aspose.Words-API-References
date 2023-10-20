@@ -1,12 +1,14 @@
 ---
 title: IFieldResultFormatter.Format
-second_title: Aspose.Words per .NET API Reference
-description: IFieldResultFormatter metodo. Chiamato quando Aspose.Words applica un cambio di formato delle maiuscole ovvero  Upper.
+linktitle: Format
+articleTitle: Format
+second_title: Aspose.Words per .NET
+description: IFieldResultFormatter Format metodo. Chiamato quando Aspose.Words applica un cambio di formato delle maiuscole ovvero  Upper in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words.fields/ifieldresultformatter/format/
 ---
-## Format(string, GeneralFormat) {#format_1}
+## Format(*string, [GeneralFormat](../../generalformat/)*) {#format_1}
 
 Chiamato quando Aspose.Words applica un cambio di formato delle maiuscole, ovvero \* Upper.
 
@@ -14,11 +16,11 @@ Chiamato quando Aspose.Words applica un cambio di formato delle maiuscole, ovver
 public string Format(string value, GeneralFormat format)
 ```
 
-### Osservazioni
+## Osservazioni
 
 L'implementazione dovrebbe tornare`nullo` per indicare che deve essere applicata la formattazione predefinita.
 
-### Esempi
+## Esempi
 
 Mostra come applicare automaticamente un formato personalizzato ai risultati dei campi man mano che i campi vengono aggiornati.
 
@@ -156,12 +158,12 @@ private class FieldResultFormatter : IFieldResultFormatter
 
 * enum [GeneralFormat](../../generalformat/)
 * interface [IFieldResultFormatter](../)
-* spazio dei nomi [Aspose.Words.Fields](../../ifieldresultformatter/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
 
 ---
 
-## Format(double, GeneralFormat) {#format}
+## Format(*double, [GeneralFormat](../../generalformat/)*) {#format}
 
 Chiamato quando Aspose.Words applica un cambio di formato numero, ovvero \* Ordinal.
 
@@ -169,11 +171,11 @@ Chiamato quando Aspose.Words applica un cambio di formato numero, ovvero \* Ordi
 public string Format(double value, GeneralFormat format)
 ```
 
-### Osservazioni
+## Osservazioni
 
 L'implementazione dovrebbe tornare`nullo` per indicare che deve essere applicata la formattazione predefinita.
 
-### Esempi
+## Esempi
 
 Mostra come applicare automaticamente un formato personalizzato ai risultati dei campi man mano che i campi vengono aggiornati.
 
@@ -311,7 +313,5 @@ private class FieldResultFormatter : IFieldResultFormatter
 
 * enum [GeneralFormat](../../generalformat/)
 * interface [IFieldResultFormatter](../)
-* spazio dei nomi [Aspose.Words.Fields](../../ifieldresultformatter/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

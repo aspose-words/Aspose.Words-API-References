@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitSpecialChar
-second_title: Справочник по API Aspose.Words для .NET
-description: DocumentVisitor метод. Вызывается когдаSpecialChar в документе встречается узел.
+linktitle: VisitSpecialChar
+articleTitle: VisitSpecialChar
+second_title: Aspose.Words для .NET
+description: DocumentVisitor VisitSpecialChar метод. Вызывается когдаSpecialChar в документе встречается узел на С#.
 type: docs
 weight: 430
 url: /ru/net/aspose.words/documentvisitor/visitspecialchar/
@@ -22,11 +24,11 @@ public virtual VisitorAction VisitSpecialChar(SpecialChar specialChar)
 
 А[`VisitorAction`](../../visitoraction/) значение, указывающее, как продолжить перечисление.
 
-### Примечания
+## Примечания
 
 Этот метод не вызывается для общих управляющих символов (см.[`ControlChar`](../../controlchar/) ), который может присутствовать в документе.
 
-### Примеры
+## Примеры
 
 Показывает, как использовать реализацию DocumentVisitor для удаления всего скрытого содержимого из документа.
 
@@ -224,7 +226,5 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [SpecialChar](../../specialchar/)
 * class [DocumentVisitor](../)
-* пространство имен [Aspose.Words](../../documentvisitor/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

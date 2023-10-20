@@ -1,7 +1,9 @@
 ---
 title: ParagraphCollection.ToArray
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ParagraphCollection méthode. Copie tous les paragraphes de la collection dans un nouveau tableau de paragraphes.
+linktitle: ToArray
+articleTitle: ToArray
+second_title: Aspose.Words pour .NET
+description: ParagraphCollection ToArray méthode. Copie tous les paragraphes de la collection dans un nouveau tableau de paragraphes en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words/paragraphcollection/toarray/
@@ -18,7 +20,7 @@ public Paragraph[] ToArray()
 
 Un tableau de paragraphes.
 
-### Exemples
+## Exemples
 
 Montre comment créer un tableau à partir d'un NodeCollection.
 
@@ -53,7 +55,5 @@ Assert.False(doc.GetText().Contains("The third paragraph"));
 
 * class [Paragraph](../../paragraph/)
 * class [ParagraphCollection](../)
-* espace de noms [Aspose.Words](../../paragraphcollection/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

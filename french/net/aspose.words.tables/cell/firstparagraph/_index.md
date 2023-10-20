@@ -1,7 +1,9 @@
 ---
 title: Cell.FirstParagraph
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Cell propriété. Obtient le premier paragraphe parmi les enfants immédiats.
+linktitle: FirstParagraph
+articleTitle: FirstParagraph
+second_title: Aspose.Words pour .NET
+description: Cell FirstParagraph propriété. Obtient le premier paragraphe parmi les enfants immédiats en C#.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.tables/cell/firstparagraph/
@@ -14,7 +16,7 @@ Obtient le premier paragraphe parmi les enfants immédiats.
 public Paragraph FirstParagraph { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment créer un tableau imbriqué à l’aide d’un générateur de documents.
 
@@ -95,7 +97,5 @@ private static Table CreateTable(Document doc, int rowCount, int cellCount, stri
 
 * class [Paragraph](../../../aspose.words/paragraph/)
 * class [Cell](../)
-* espace de noms [Aspose.Words.Tables](../../cell/)
+* espace de noms [Aspose.Words.Tables](../../../aspose.words.tables/)
 * Assemblée [Aspose.Words](../../../)
-
-

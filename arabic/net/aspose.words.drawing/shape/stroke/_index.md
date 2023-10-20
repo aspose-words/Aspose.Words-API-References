@@ -1,7 +1,9 @@
 ---
 title: Shape.Stroke
-second_title: Aspose.Words لمراجع .NET API
-description: Shape ملكية. يحدد حد الشكل.
+linktitle: Stroke
+articleTitle: Stroke
+second_title: Aspose.Words لـ .NET
+description: Shape Stroke ملكية. يحدد حد الشكل في C#.
 type: docs
 weight: 180
 url: /ar/net/aspose.words.drawing/shape/stroke/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing/shape/stroke/
 public Stroke Stroke { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يظهر لإنشاء مجموعة متنوعة من الأشكال.
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "Drawing.VariousShapes.docx");
 
 * class [Stroke](../../stroke/)
 * class [Shape](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../shape/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

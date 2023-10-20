@@ -1,7 +1,9 @@
 ---
 title: Shading.ClearFormatting
-second_title: Aspose.Words für .NET-API-Referenz
-description: Shading methode. Entfernt die Schattierung vom Objekt.
+linktitle: ClearFormatting
+articleTitle: ClearFormatting
+second_title: Aspose.Words für .NET
+description: Shading ClearFormatting methode. Entfernt die Schattierung vom Objekt in C#.
 type: docs
 weight: 80
 url: /de/net/aspose.words/shading/clearformatting/
@@ -14,7 +16,7 @@ Entfernt die Schattierung vom Objekt.
 public void ClearFormatting()
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man eine Tabelle mit benutzerdefinierten Rändern erstellt.
 
@@ -80,7 +82,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
 ### Siehe auch
 
 * class [Shading](../)
-* namensraum [Aspose.Words](../../shading/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

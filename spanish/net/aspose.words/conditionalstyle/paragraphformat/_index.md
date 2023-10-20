@@ -1,7 +1,9 @@
 ---
 title: ConditionalStyle.ParagraphFormat
-second_title: Referencia de API de Aspose.Words para .NET
-description: ConditionalStyle propiedad. Obtiene el formato de párrafo del estilo condicional.
+linktitle: ParagraphFormat
+articleTitle: ParagraphFormat
+second_title: Aspose.Words para .NET
+description: ConditionalStyle ParagraphFormat propiedad. Obtiene el formato de párrafo del estilo condicional en C#.
 type: docs
 weight: 50
 url: /es/net/aspose.words/conditionalstyle/paragraphformat/
@@ -14,7 +16,7 @@ Obtiene el formato de párrafo del estilo condicional.
 public ParagraphFormat ParagraphFormat { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo trabajar con ciertos estilos de área de una tabla.
 
@@ -85,7 +87,5 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 
 * class [ParagraphFormat](../../paragraphformat/)
 * class [ConditionalStyle](../)
-* espacio de nombres [Aspose.Words](../../conditionalstyle/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

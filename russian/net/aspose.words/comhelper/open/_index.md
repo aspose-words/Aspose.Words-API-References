@@ -1,12 +1,14 @@
 ---
 title: ComHelper.Open
-second_title: Справочник по API Aspose.Words для .NET
-description: ComHelper метод. Позволяет COMприложению загружатьDocument из файла.
+linktitle: Open
+articleTitle: Open
+second_title: Aspose.Words для .NET
+description: ComHelper Open метод. Позволяет COMприложению загружатьDocument из файла на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words/comhelper/open/
 ---
-## Open(string) {#open_1}
+## Open(*string*) {#open_1}
 
 Позволяет COM-приложению загружать[`Document`](../../document/) из файла.
 
@@ -22,11 +24,11 @@ public Document Open(string fileName)
 
 А[`Document`](../../document/)объект, представляющий документ Word.
 
-### Примечания
+## Примечания
 
 Этот метод аналогичен вызову[`Document`](../../document/) конструктор с параметром имени файла.
 
-### Примеры
+## Примеры
 
 ```csharp
 [VBScript]
@@ -62,12 +64,12 @@ using (FileStream stream = new FileStream(MyDir + "Document.docx", FileMode.Open
 
 * class [Document](../../document/)
 * class [ComHelper](../)
-* пространство имен [Aspose.Words](../../comhelper/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## Open(Stream) {#open}
+## Open(*Stream*) {#open}
 
 Разрешает загрузку COM-приложения.[`Document`](../../document/) из потока.
 
@@ -83,11 +85,11 @@ public Document Open(Stream stream)
 
 А[`Document`](../../document/)объект, представляющий документ Word.
 
-### Примечания
+## Примечания
 
 Этот метод аналогичен вызову[`Document`](../../document/) конструктор с параметром потока.
 
-### Примеры
+## Примеры
 
 Показывает, как открывать документы с помощью класса ComHelper.
 
@@ -113,7 +115,5 @@ using (FileStream stream = new FileStream(MyDir + "Document.docx", FileMode.Open
 
 * class [Document](../../document/)
 * class [ComHelper](../)
-* пространство имен [Aspose.Words](../../comhelper/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

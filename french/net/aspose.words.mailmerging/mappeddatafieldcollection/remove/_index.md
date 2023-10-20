@@ -1,7 +1,9 @@
 ---
 title: MappedDataFieldCollection.Remove
-second_title: Référence de l'API Aspose.Words pour .NET
-description: MappedDataFieldCollection méthode. Supprime un mappage de champ.
+linktitle: Remove
+articleTitle: Remove
+second_title: Aspose.Words pour .NET
+description: MappedDataFieldCollection Remove méthode. Supprime un mappage de champ en C#.
 type: docs
 weight: 80
 url: /fr/net/aspose.words.mailmerging/mappeddatafieldcollection/remove/
@@ -18,7 +20,7 @@ public void Remove(string documentFieldName)
 | --- | --- | --- |
 | documentFieldName | String | Nom sensible à la casse du champ de publipostage dans le document. |
 
-### Exemples
+## Exemples
 
 Montre comment mapper des colonnes de données et des MERGEFIELD avec des noms différents afin que les données soient transférées entre elles lors d'un publipostage.
 
@@ -103,7 +105,5 @@ private static DataTable CreateSourceTableMappedDataFields()
 ### Voir également
 
 * class [MappedDataFieldCollection](../)
-* espace de noms [Aspose.Words.MailMerging](../../mappeddatafieldcollection/)
+* espace de noms [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * Assemblée [Aspose.Words](../../../)
-
-

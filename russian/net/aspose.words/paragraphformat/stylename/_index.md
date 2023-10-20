@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.StyleName
-second_title: Справочник по API Aspose.Words для .NET
-description: ParagraphFormat свойство. Получает или задает имя стиля абзаца примененного к этому форматированию.
+linktitle: StyleName
+articleTitle: StyleName
+second_title: Aspose.Words для .NET
+description: ParagraphFormat StyleName свойство. Получает или задает имя стиля абзаца примененного к этому форматированию на С#.
 type: docs
 weight: 360
 url: /ru/net/aspose.words/paragraphformat/stylename/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/paragraphformat/stylename/
 public string StyleName { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как вручную создать документ Aspose.Words.
 
@@ -64,7 +66,5 @@ doc.Save(ArtifactsDir + "Section.CreateManually.docx");
 ### Смотрите также
 
 * class [ParagraphFormat](../)
-* пространство имен [Aspose.Words](../../paragraphformat/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

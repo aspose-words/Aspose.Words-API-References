@@ -1,7 +1,9 @@
 ---
-title: Class CellFormat
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Tables.CellFormat klass. Representerar all formatering för en tabellcell.
+title: CellFormat Class
+linktitle: CellFormat
+articleTitle: CellFormat
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Tables.CellFormat klass. Representerar all formatering för en tabellcell i C#.
 type: docs
 weight: 6260
 url: /sv/net/aspose.words.tables/cellformat/
@@ -23,7 +25,6 @@ public class CellFormat
 | [Borders](../../aspose.words.tables/cellformat/borders/) { get; } | Får samling av cellens kanter. |
 | [BottomPadding](../../aspose.words.tables/cellformat/bottompadding/) { get; set; } | Returnerar eller ställer in mängden utrymme (i poäng) som ska läggas till under innehållet i cellen. |
 | [FitText](../../aspose.words.tables/cellformat/fittext/) { get; set; } | Om`Sann` , passar text i cellen, komprimerar varje stycke till cellens bredd. |
-| [HideMark](../../aspose.words.tables/cellformat/hidemark/) { get; set; } |  |
 | [HorizontalMerge](../../aspose.words.tables/cellformat/horizontalmerge/) { get; set; } | Anger hur cellen sammanfogas horisontellt med andra celler i raden. |
 | [LeftPadding](../../aspose.words.tables/cellformat/leftpadding/) { get; set; } | Returnerar eller ställer in mängden utrymme (i poäng) som ska läggas till till vänster om innehållet i cellen. |
 | [Orientation](../../aspose.words.tables/cellformat/orientation/) { get; set; } | Returnerar eller ställer in orienteringen för text i en tabellcell. |
@@ -41,9 +42,9 @@ public class CellFormat
 | namn | Beskrivning |
 | --- | --- |
 | [ClearFormatting](../../aspose.words.tables/cellformat/clearformatting/)() | Återställer till standardcellformatering. Ändrar inte cellens bredd. |
-| [SetPaddings](../../aspose.words.tables/cellformat/setpaddings/)(double, double, double, double) | Ställer in mängden utrymme (i poäng) som ska läggas till till vänster/överst/höger/botten av innehållet i cellen. |
+| [SetPaddings](../../aspose.words.tables/cellformat/setpaddings/)(*double, double, double, double*) | Ställer in mängden utrymme (i poäng) som ska läggas till till vänster/överst/höger/botten av innehållet i cellen. |
 
-### Exempel
+## Exempel
 
 Visar hur man ändrar formateringen av en tabellcell.
 
@@ -157,5 +158,3 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
 
 * namnutrymme [Aspose.Words.Tables](../../aspose.words.tables/)
 * hopsättning [Aspose.Words](../../)
-
-

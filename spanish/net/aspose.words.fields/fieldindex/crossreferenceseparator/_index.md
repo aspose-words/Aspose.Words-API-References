@@ -1,7 +1,9 @@
 ---
 title: FieldIndex.CrossReferenceSeparator
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldIndex propiedad. Obtiene o establece la secuencia de caracteres que se utiliza para separar referencias cruzadas y otras entradas.
+linktitle: CrossReferenceSeparator
+articleTitle: CrossReferenceSeparator
+second_title: Aspose.Words para .NET
+description: FieldIndex CrossReferenceSeparator propiedad. Obtiene o establece la secuencia de caracteres que se utiliza para separar referencias cruzadas y otras entradas en C#.
 type: docs
 weight: 30
 url: /es/net/aspose.words.fields/fieldindex/crossreferenceseparator/
@@ -14,7 +16,7 @@ Obtiene o establece la secuencia de caracteres que se utiliza para separar refer
 public string CrossReferenceSeparator { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo definir referencias cruzadas en un campo ÍNDICE.
 
@@ -64,7 +66,5 @@ doc.Save(ArtifactsDir + "Field.INDEX.XE.CrossReferenceSeparator.docx");
 ### Ver también
 
 * class [FieldIndex](../)
-* espacio de nombres [Aspose.Words.Fields](../../fieldindex/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

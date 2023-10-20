@@ -1,7 +1,9 @@
 ---
-title: Enum MailMergeCleanupOptions
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.MailMerging.MailMergeCleanupOptions enumeración. Especifica opciones que determinan qué elementos se eliminan durante la combinación de correspondencia.
+title: MailMergeCleanupOptions Enum
+linktitle: MailMergeCleanupOptions
+articleTitle: MailMergeCleanupOptions
+second_title: Aspose.Words para .NET
+description: Aspose.Words.MailMerging.MailMergeCleanupOptions enumeración. Especifica opciones que determinan qué elementos se eliminan durante la combinación de correspondencia en C#.
 type: docs
 weight: 3850
 url: /es/net/aspose.words.mailmerging/mailmergecleanupoptions/
@@ -27,7 +29,7 @@ public enum MailMergeCleanupOptions
 | RemoveStaticFields | `10` | Especifica si los campos estáticos deben eliminarse del documento. Los campos estáticos son campos cuyos resultados siguen siendo los mismos ante cualquier cambio en el documento. Campos que no almacenan sus resultados en un documento y se calculan sobre la marcha (comoFieldListNum , FieldSymbol , etc.) no se consideran estáticos. |
 | RemoveEmptyTableRows | `20` | Especifica si las filas vacías que contienen regiones de combinación de correspondencia deben eliminarse del documento. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo eliminar párrafos vacíos que una combinación de correspondencia puede crear desde el documento de salida de la combinación.
 
@@ -100,5 +102,3 @@ else
 
 * espacio de nombres [Aspose.Words.MailMerging](../../aspose.words.mailmerging/)
 * asamblea [Aspose.Words](../../)
-
-

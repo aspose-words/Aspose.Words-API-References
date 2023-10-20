@@ -1,7 +1,9 @@
 ---
 title: DropDownItemCollection.Insert
-second_title: Aspose.Words for .NET API 参考
-description: DropDownItemCollection 方法. 将字符串插入集合中指定索引处
+linktitle: Insert
+articleTitle: Insert
+second_title: 用于 .NET 的 Aspose.Words
+description: DropDownItemCollection Insert 方法. 将字符串插入集合中指定索引处 在 C#.
 type: docs
 weight: 80
 url: /zh/net/aspose.words.fields/dropdownitemcollection/insert/
@@ -19,7 +21,7 @@ public void Insert(int index, string value)
 | index | Int32 | 插入值的从零开始的索引。 |
 | value | String | 要插入的字符串。 |
 
-### 例子
+## 例子
 
 演示如何插入组合框字段以及编辑其项目集合中的元素。
 
@@ -73,7 +75,5 @@ dropDownItems.Clear();
 ### 也可以看看
 
 * class [DropDownItemCollection](../)
-* 命名空间 [Aspose.Words.Fields](../../dropdownitemcollection/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

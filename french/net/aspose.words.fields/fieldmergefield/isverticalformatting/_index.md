@@ -1,7 +1,9 @@
 ---
 title: FieldMergeField.IsVerticalFormatting
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldMergeField propriété. Obtient ou définit sil faut activer la conversion de caractères pour le formatage vertical.
+linktitle: IsVerticalFormatting
+articleTitle: IsVerticalFormatting
+second_title: Aspose.Words pour .NET
+description: FieldMergeField IsVerticalFormatting propriété. Obtient ou définit sil faut activer la conversion de caractères pour le formatage vertical en C#.
 type: docs
 weight: 40
 url: /fr/net/aspose.words.fields/fieldmergefield/isverticalformatting/
@@ -14,7 +16,7 @@ Obtient ou définit s'il faut activer la conversion de caractères pour le forma
 public bool IsVerticalFormatting { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment utiliser les champs MERGEFIELD pour effectuer un publipostage.
 
@@ -56,7 +58,5 @@ Assert.AreEqual("Dear Mr. Doe:\u000cDear Mrs. Cardholder:", doc.GetText().Trim()
 ### Voir également
 
 * class [FieldMergeField](../)
-* espace de noms [Aspose.Words.Fields](../../fieldmergefield/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

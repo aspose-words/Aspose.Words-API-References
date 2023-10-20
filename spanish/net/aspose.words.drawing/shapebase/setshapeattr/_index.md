@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.SetShapeAttr
-second_title: Referencia de API de Aspose.Words para .NET
-description: ShapeBase método. Reservado para uso del sistema. IShapeAttrSource.
+linktitle: SetShapeAttr
+articleTitle: SetShapeAttr
+second_title: Aspose.Words para .NET
+description: ShapeBase SetShapeAttr método. Reservado para uso del sistema. IShapeAttrSource en C#.
 type: docs
 weight: 690
 url: /es/net/aspose.words.drawing/shapebase/setshapeattr/
@@ -18,7 +20,5 @@ public void SetShapeAttr(int key, object value)
 ### Ver también
 
 * class [ShapeBase](../)
-* espacio de nombres [Aspose.Words.Drawing](../../shapebase/)
+* espacio de nombres [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * asamblea [Aspose.Words](../../../)
-
-

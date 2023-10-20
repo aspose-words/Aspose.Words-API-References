@@ -1,7 +1,9 @@
 ---
 title: TextPath.FontFamily
-second_title: Referencia de API de Aspose.Words para .NET
-description: TextPath propiedad. Define la familia de la fuente de la ruta de texto.
+linktitle: FontFamily
+articleTitle: FontFamily
+second_title: Aspose.Words para .NET
+description: TextPath FontFamily propiedad. Define la familia de la fuente de la ruta de texto en C#.
 type: docs
 weight: 40
 url: /es/net/aspose.words.drawing/textpath/fontfamily/
@@ -14,11 +16,11 @@ Define la familia de la fuente de la ruta de texto.
 public string FontFamily { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 El valor predeterminado es Arial.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo trabajar con WordArt.
 
@@ -121,7 +123,5 @@ private static Shape AppendWordArt(Document doc, string text, string textFontFam
 ### Ver también
 
 * class [TextPath](../)
-* espacio de nombres [Aspose.Words.Drawing](../../textpath/)
+* espacio de nombres [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,26 +1,28 @@
 ---
 title: StructuredDocumentTag.Checked
-second_title: Справочник по API Aspose.Words для .NET
-description: StructuredDocumentTag свойство. Получает/устанавливает текущее состояние флажка. СДТ . Значение по умолчанию для этого свойстваЛОЖЬ .
+linktitle: Checked
+articleTitle: Checked
+second_title: Aspose.Words для .NET
+description: StructuredDocumentTag Checked свойство. Получает/устанавливает текущее состояние флажка.СДТ . Значение по умолчанию для этого свойстваЛОЖЬ  на С#.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.markup/structureddocumenttag/checked/
 ---
 ## StructuredDocumentTag.Checked property
 
-Получает/устанавливает текущее состояние флажка. **СДТ** . Значение по умолчанию для этого свойства:`ЛОЖЬ` .
+Получает/устанавливает текущее состояние флажка.**СДТ** . Значение по умолчанию для этого свойства:`ЛОЖЬ` .
 
 ```csharp
 public bool Checked { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Доступ к этому ресурсу будет работать только дляCheckbox Типы SDT.
 
 Для всех остальных типов SDT возникнет исключение.
 
-### Примеры
+## Примеры
 
 Покажите, как создать структурированный тег документа в виде флажка.
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.CheckBox.docx");
 ### Смотрите также
 
 * class [StructuredDocumentTag](../)
-* пространство имен [Aspose.Words.Markup](../../structureddocumenttag/)
+* пространство имен [Aspose.Words.Markup](../../../aspose.words.markup/)
 * сборка [Aspose.Words](../../../)
-
-

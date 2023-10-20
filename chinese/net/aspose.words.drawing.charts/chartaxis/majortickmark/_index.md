@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.MajorTickMark
-second_title: Aspose.Words for .NET API 参考
-description: ChartAxis 财产. 返回或设置主刻度线
+linktitle: MajorTickMark
+articleTitle: MajorTickMark
+second_title: 用于 .NET 的 Aspose.Words
+description: ChartAxis MajorTickMark 财产. 返回或设置主刻度线 在 C#.
 type: docs
 weight: 110
 url: /zh/net/aspose.words.drawing.charts/chartaxis/majortickmark/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.drawing.charts/chartaxis/majortickmark/
 public AxisTickMark MajorTickMark { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何插入图表并修改其轴的外观。
 
@@ -68,7 +70,5 @@ doc.Save(ArtifactsDir + "Charts.AxisProperties.docx");
 
 * enum [AxisTickMark](../../axistickmark/)
 * class [ChartAxis](../)
-* 命名空间 [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* 命名空间 [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * 部件 [Aspose.Words](../../../)
-
-

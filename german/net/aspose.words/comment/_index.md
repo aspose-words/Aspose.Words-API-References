@@ -1,7 +1,9 @@
 ---
-title: Class Comment
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Comment klas. Stellt einen Container für den Text eines Kommentars dar.
+title: Comment Class
+linktitle: Comment
+articleTitle: Comment
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Comment klas. Stellt einen Container für den Text eines Kommentars dar in C#.
 type: docs
 weight: 230
 url: /de/net/aspose.words/comment/
@@ -20,8 +22,8 @@ public sealed class Comment : InlineStory
 
 | Name | Beschreibung |
 | --- | --- |
-| [Comment](comment/#constructor)(DocumentBase) | Initialisiert eine neue Instanz von`Comment` Klasse. |
-| [Comment](comment/#constructor_1)(DocumentBase, string, string, DateTime) | Initialisiert eine neue Instanz von`Comment` Klasse. |
+| [Comment](comment/#constructor)(*[DocumentBase](../documentbase/)*) | Initialisiert eine neue Instanz von`Comment` Klasse. |
+| [Comment](comment/#constructor_1)(*[DocumentBase](../documentbase/), string, string, DateTime*) | Initialisiert eine neue Instanz von`Comment` Klasse. |
 
 ## Eigenschaften
 
@@ -38,7 +40,7 @@ public sealed class Comment : InlineStory
 | [FirstParagraph](../../aspose.words/inlinestory/firstparagraph/) { get; } | Ruft den ersten Absatz in der Geschichte ab. |
 | [Font](../../aspose.words/inlinestory/font/) { get; } | Bietet Zugriff auf die Schriftartformatierung des Ankerzeichens dieses Objekts. |
 | [HasChildNodes](../../aspose.words/compositenode/haschildnodes/) { get; } | Gibt zurück`WAHR` wenn dieser Knoten untergeordnete Knoten hat. |
-| [Id](../../aspose.words/comment/id/) { get; set; } | Ruft die Kommentar-ID ab. |
+| [Id](../../aspose.words/comment/id/) { get; } | Ruft die Kommentar-ID ab. |
 | [Initial](../../aspose.words/comment/initial/) { get; set; } | Gibt die Initialen des Benutzers zurück, der einem bestimmten Kommentar zugeordnet ist, oder legt sie fest. |
 | override [IsComposite](../../aspose.words/compositenode/iscomposite/) { get; } | Gibt zurück`WAHR` da dieser Knoten untergeordnete Knoten haben kann. |
 | [IsDeleteRevision](../../aspose.words/inlinestory/isdeleterevision/) { get; } | Gibt „true“ zurück, wenn dieses Objekt in Microsoft Word gelöscht wurde, während die Änderungsverfolgung aktiviert war. |
@@ -50,7 +52,6 @@ public sealed class Comment : InlineStory
 | [NextSibling](../../aspose.words/node/nextsibling/) { get; } | Ruft den Knoten ab, der diesem Knoten unmittelbar folgt. |
 | override [NodeType](../../aspose.words/comment/nodetype/) { get; } | Gibt zurückComment . |
 | [Paragraphs](../../aspose.words/inlinestory/paragraphs/) { get; } | Ruft eine Sammlung von Absätzen ab, die unmittelbar untergeordnete Elemente der Geschichte sind. |
-| [ParentId](../../aspose.words/comment/parentid/) { get; set; } |  |
 | [ParentNode](../../aspose.words/node/parentnode/) { get; } | Ruft das unmittelbare übergeordnete Element dieses Knotens ab. |
 | [ParentParagraph](../../aspose.words/inlinestory/parentparagraph/) { get; } | Ruft das übergeordnete Element ab[`Paragraph`](../paragraph/) dieses Knotens. |
 | [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Ruft den Knoten ab, der diesem Knoten unmittelbar vorangeht. |
@@ -63,39 +64,37 @@ public sealed class Comment : InlineStory
 
 | Name | Beschreibung |
 | --- | --- |
-| override [Accept](../../aspose.words/comment/accept/)(DocumentVisitor) | Akzeptiert einen Besucher. |
-| override [AcceptEnd](../../aspose.words/comment/acceptend/)(DocumentVisitor) |  |
-| override [AcceptStart](../../aspose.words/comment/acceptstart/)(DocumentVisitor) |  |
-| [AddReply](../../aspose.words/comment/addreply/)(string, string, DateTime, string) | Fügt eine Antwort zu diesem Kommentar hinzu. |
-| [AppendChild&lt;T&gt;](../../aspose.words/compositenode/appendchild/)(T) |  |
-| [Clone](../../aspose.words/node/clone/)(bool) | Erstellt ein Duplikat des Knotens. |
+| override [Accept](../../aspose.words/comment/accept/)(*[DocumentVisitor](../documentvisitor/)*) | Akzeptiert einen Besucher. |
+| [AddReply](../../aspose.words/comment/addreply/)(*string, string, DateTime, string*) | Fügt eine Antwort zu diesem Kommentar hinzu. |
+| [AppendChild](../../aspose.words/compositenode/appendchild/)(*[Node](../node/)*) | Fügt den angegebenen Knoten am Ende der Liste der untergeordneten Knoten für diesen Knoten hinzu. |
+| [Clone](../../aspose.words/node/clone/)(*bool*) | Erstellt ein Duplikat des Knotens. |
 | [CreateNavigator](../../aspose.words/compositenode/createnavigator/)() | Erstellt einen Navigator, der zum Durchlaufen und Lesen von Knoten verwendet werden kann. |
 | [EnsureMinimum](../../aspose.words/inlinestory/ensureminimum/)() | Wenn das letzte untergeordnete Element kein Absatz ist, wird ein leerer Absatz erstellt und angehängt. |
-| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Ruft den ersten Vorfahren des angegebenen ab[`NodeType`](../nodetype/) . |
-| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Ruft den ersten Vorfahren des angegebenen Objekttyps ab. |
-| [GetChild](../../aspose.words/compositenode/getchild/)(NodeType, int, bool) | Gibt einen N-ten untergeordneten Knoten zurück, der dem angegebenen Typ entspricht. |
-| [GetChildNodes](../../aspose.words/compositenode/getchildnodes/)(NodeType, bool) | Gibt eine Live-Sammlung untergeordneter Knoten zurück, die dem angegebenen Typ entsprechen. |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*[NodeType](../nodetype/)*) | Ruft den ersten Vorfahren des angegebenen ab[`NodeType`](../nodetype/) . |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | Ruft den ersten Vorfahren des angegebenen Objekttyps ab. |
+| [GetChild](../../aspose.words/compositenode/getchild/)(*[NodeType](../nodetype/), int, bool*) | Gibt einen N-ten untergeordneten Knoten zurück, der dem angegebenen Typ entspricht. |
+| [GetChildNodes](../../aspose.words/compositenode/getchildnodes/)(*[NodeType](../nodetype/), bool*) | Gibt eine Live-Sammlung untergeordneter Knoten zurück, die dem angegebenen Typ entsprechen. |
 | [GetEnumerator](../../aspose.words/compositenode/getenumerator/)() | Bietet Unterstützung für die Iteration jedes Stils über die untergeordneten Knoten dieses Knotens. |
 | override [GetText](../../aspose.words/compositenode/gettext/)() | Ruft den Text dieses Knotens und aller seiner untergeordneten Knoten ab. |
-| [IndexOf](../../aspose.words/compositenode/indexof/)(Node) | Gibt den Index des angegebenen untergeordneten Knotens im untergeordneten Knoten-Array zurück. |
-| [InsertAfter&lt;T&gt;](../../aspose.words/compositenode/insertafter/)(T, Node) |  |
-| [InsertBefore&lt;T&gt;](../../aspose.words/compositenode/insertbefore/)(T, Node) |  |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Ruft den nächsten Knoten gemäß dem Pre-Order-Tree-Traversal-Algorithmus ab. |
-| [PrependChild&lt;T&gt;](../../aspose.words/compositenode/prependchild/)(T) |  |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Ruft den vorherigen Knoten gemäß dem Pre-Order-Tree-Traversal-Algorithmus ab. |
+| [IndexOf](../../aspose.words/compositenode/indexof/)(*[Node](../node/)*) | Gibt den Index des angegebenen untergeordneten Knotens im untergeordneten Knoten-Array zurück. |
+| [InsertAfter](../../aspose.words/compositenode/insertafter/)(*[Node](../node/), [Node](../node/)*) | Fügt den angegebenen Knoten unmittelbar nach dem angegebenen Referenzknoten ein. |
+| [InsertBefore](../../aspose.words/compositenode/insertbefore/)(*[Node](../node/), [Node](../node/)*) | Fügt den angegebenen Knoten unmittelbar vor dem angegebenen Referenzknoten ein. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../node/)*) | Ruft den nächsten Knoten gemäß dem Pre-Order-Tree-Traversal-Algorithmus ab. |
+| [PrependChild](../../aspose.words/compositenode/prependchild/)(*[Node](../node/)*) | Fügt den angegebenen Knoten am Anfang der Liste der untergeordneten Knoten für diesen Knoten hinzu. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../node/)*) | Ruft den vorherigen Knoten gemäß dem Pre-Order-Tree-Traversal-Algorithmus ab. |
 | [Remove](../../aspose.words/node/remove/)() | Entfernt sich selbst vom übergeordneten Element. |
 | [RemoveAllChildren](../../aspose.words/compositenode/removeallchildren/)() | Entfernt alle untergeordneten Knoten des aktuellen Knotens. |
 | [RemoveAllReplies](../../aspose.words/comment/removeallreplies/)() | Entfernt alle Antworten auf diesen Kommentar. |
-| [RemoveChild&lt;T&gt;](../../aspose.words/compositenode/removechild/)(T) |  |
-| [RemoveReply](../../aspose.words/comment/removereply/)(Comment) | Entfernt die angegebene Antwort auf diesen Kommentar. |
+| [RemoveChild](../../aspose.words/compositenode/removechild/)(*[Node](../node/)*) | Entfernt den angegebenen untergeordneten Knoten. |
+| [RemoveReply](../../aspose.words/comment/removereply/)(*Comment*) | Entfernt die angegebene Antwort auf diesen Kommentar. |
 | [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags/)() | Entfernt alle[`SmartTag`](../../aspose.words.markup/smarttag/)Nachkommenknoten des aktuellen Knotens. |
-| [SelectNodes](../../aspose.words/compositenode/selectnodes/)(string) | Wählt eine Liste von Knoten aus, die dem XPath-Ausdruck entsprechen. |
-| [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(string) | Wählt den ersten aus[`Node`](../node/) das entspricht dem XPath-Ausdruck. |
-| [SetText](../../aspose.words/comment/settext/)(string) | Dies ist eine praktische Methode, die es ermöglicht, den Text des Kommentars einfach festzulegen. |
-| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Exportiert den Inhalt des Knotens in einen String im angegebenen Format. |
-| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | Exportiert den Inhalt des Knotens mit den angegebenen Speicheroptionen in einen String. |
+| [SelectNodes](../../aspose.words/compositenode/selectnodes/)(*string*) | Wählt eine Liste von Knoten aus, die dem XPath-Ausdruck entsprechen. |
+| [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(*string*) | Wählt den ersten aus[`Node`](../node/) das entspricht dem XPath-Ausdruck. |
+| [SetText](../../aspose.words/comment/settext/)(*string*) | Dies ist eine praktische Methode, die es ermöglicht, den Text des Kommentars einfach festzulegen. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../saveformat/)*) | Exportiert den Inhalt des Knotens in einen String im angegebenen Format. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | Exportiert den Inhalt des Knotens mit den angegebenen Speicheroptionen in einen String. |
 
-### Bemerkungen
+## Bemerkungen
 
 Ein Kommentar ist eine Anmerkung, die an einem Textbereich oder an einer Position im Text verankert ist. Ein Kommentar kann eine beliebige Menge an Inhalten auf Blockebene enthalten.
 
@@ -107,7 +106,7 @@ Um einen Kommentar in einem Textbereich zu verankern, sind drei Objekte erforder
 
 `Comment` enthalten kann[`Paragraph`](../paragraph/) Und[`Table`](../../aspose.words.tables/table/) untergeordnete Knoten.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man einem Absatz einen Kommentar hinzufügt.
 
@@ -161,5 +160,3 @@ doc.Save(ArtifactsDir + "Comment.AddCommentWithReply.docx");
 * class [InlineStory](../inlinestory/)
 * namensraum [Aspose.Words](../../aspose.words/)
 * Montage [Aspose.Words](../../)
-
-

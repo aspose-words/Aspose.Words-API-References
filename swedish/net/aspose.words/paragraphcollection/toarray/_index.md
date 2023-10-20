@@ -1,7 +1,9 @@
 ---
 title: ParagraphCollection.ToArray
-second_title: Aspose.Words för .NET API Referens
-description: ParagraphCollection metod. Kopierar alla stycken från samlingen till en ny uppsättning stycken.
+linktitle: ToArray
+articleTitle: ToArray
+second_title: Aspose.Words för .NET
+description: ParagraphCollection ToArray metod. Kopierar alla stycken från samlingen till en ny uppsättning stycken i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words/paragraphcollection/toarray/
@@ -18,7 +20,7 @@ public Paragraph[] ToArray()
 
 En rad stycken.
 
-### Exempel
+## Exempel
 
 Visar hur man skapar en array från en NodeCollection.
 
@@ -53,7 +55,5 @@ Assert.False(doc.GetText().Contains("The third paragraph"));
 
 * class [Paragraph](../../paragraph/)
 * class [ParagraphCollection](../)
-* namnutrymme [Aspose.Words](../../paragraphcollection/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

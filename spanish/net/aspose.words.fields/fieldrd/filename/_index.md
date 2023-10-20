@@ -1,7 +1,9 @@
 ---
 title: FieldRD.FileName
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldRD propiedad. Obtiene o establece el nombre del archivo que se incluirá al generar una tabla de contenido una tabla de autoridades o un índice.
+linktitle: FileName
+articleTitle: FileName
+second_title: Aspose.Words para .NET
+description: FieldRD FileName propiedad. Obtiene o establece el nombre del archivo que se incluirá al generar una tabla de contenido una tabla de autoridades o un índice en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words.fields/fieldrd/filename/
@@ -14,7 +16,7 @@ Obtiene o establece el nombre del archivo que se incluirá al generar una tabla 
 public string FileName { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo utilizar el campo RD para crear una tabla de contenido a partir de encabezados de otros documentos.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "Field.RD.docx");
 ### Ver también
 
 * class [FieldRD](../)
-* espacio de nombres [Aspose.Words.Fields](../../fieldrd/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

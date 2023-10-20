@@ -1,7 +1,9 @@
 ---
-title: Class FieldArgumentBuilder
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Fields.FieldArgumentBuilder 班级. 构建由字段节点和纯文本组成的复杂字段参数
+title: FieldArgumentBuilder Class
+linktitle: FieldArgumentBuilder
+articleTitle: FieldArgumentBuilder
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Fields.FieldArgumentBuilder 班级. 构建由字段节点和纯文本组成的复杂字段参数 在 C#.
 type: docs
 weight: 1550
 url: /zh/net/aspose.words.fields/fieldargumentbuilder/
@@ -26,11 +28,11 @@ public class FieldArgumentBuilder
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AddField](../../aspose.words.fields/fieldargumentbuilder/addfield/)(FieldBuilder) | 添加一个由 a 表示的字段[`FieldBuilder`](../fieldbuilder/)到论点. |
-| [AddNode](../../aspose.words.fields/fieldargumentbuilder/addnode/)(Inline) | 将节点添加到参数。 |
-| [AddText](../../aspose.words.fields/fieldargumentbuilder/addtext/)(string) | 将纯文本添加到参数中。 |
+| [AddField](../../aspose.words.fields/fieldargumentbuilder/addfield/)(*[FieldBuilder](../fieldbuilder/)*) | 添加一个由 a 表示的字段[`FieldBuilder`](../fieldbuilder/)到论点. |
+| [AddNode](../../aspose.words.fields/fieldargumentbuilder/addnode/)(*[Inline](../../aspose.words/inline/)*) | 将节点添加到参数。 |
+| [AddText](../../aspose.words.fields/fieldargumentbuilder/addtext/)(*string*) | 将纯文本添加到参数中。 |
 
-### 例子
+## 例子
 
 演示如何使用字段生成器构造字段，然后将它们插入到文档中。
 
@@ -114,5 +116,3 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 
 * 命名空间 [Aspose.Words.Fields](../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../)
-
-

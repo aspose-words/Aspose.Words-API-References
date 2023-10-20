@@ -1,7 +1,9 @@
 ---
 title: List.IsListStyleDefinition
-second_title: Aspose.Words för .NET API Referens
-description: List fast egendom. ReturnerarSann om den här listan är en definition av en liststil.
+linktitle: IsListStyleDefinition
+articleTitle: IsListStyleDefinition
+second_title: Aspose.Words för .NET
+description: List IsListStyleDefinition fast egendom. ReturnerarSann om den här listan är en definition av en liststil i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.lists/list/isliststyledefinition/
@@ -14,7 +16,7 @@ Returnerar`Sann` om den här listan är en definition av en liststil.
 public bool IsListStyleDefinition { get; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 När denna fastighet är`Sann` , den[`Style`](../style/) egenskapen returnerar liststilen som denna lista definierar.
 
@@ -22,7 +24,7 @@ Genom att ändra egenskaperna för en lista som definierar en liststil, ändrar 
 
 En lista som är en definition av en liststil kan inte tillämpas direkt på stycken för att göra dem numrerade.
 
-### Exempel
+## Exempel
 
 Visar hur du skapar en liststil och använder den i ett dokument.
 
@@ -83,7 +85,5 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateAndUseListStyle.docx");
 ### Se även
 
 * class [List](../)
-* namnutrymme [Aspose.Words.Lists](../../list/)
+* namnutrymme [Aspose.Words.Lists](../../../aspose.words.lists/)
 * hopsättning [Aspose.Words](../../../)
-
-

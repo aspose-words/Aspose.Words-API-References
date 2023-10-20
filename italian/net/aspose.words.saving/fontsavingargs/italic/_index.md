@@ -1,7 +1,9 @@
 ---
 title: FontSavingArgs.Italic
-second_title: Aspose.Words per .NET API Reference
-description: FontSavingArgs proprietà. Indica se il carattere corrente è corsivo.
+linktitle: Italic
+articleTitle: Italic
+second_title: Aspose.Words per .NET
+description: FontSavingArgs Italic proprietà. Indica se il carattere corrente è corsivo in C#.
 type: docs
 weight: 80
 url: /it/net/aspose.words.saving/fontsavingargs/italic/
@@ -14,7 +16,7 @@ Indica se il carattere corrente è corsivo.
 public bool Italic { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come definire la logica personalizzata per l'esportazione dei caratteri durante il salvataggio in HTML.
 
@@ -74,7 +76,5 @@ public class HandleFontSaving : IFontSavingCallback
 ### Guarda anche
 
 * class [FontSavingArgs](../)
-* spazio dei nomi [Aspose.Words.Saving](../../fontsavingargs/)
+* spazio dei nomi [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../../)
-
-

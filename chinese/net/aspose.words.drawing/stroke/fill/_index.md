@@ -1,9 +1,11 @@
 ---
 title: Stroke.Fill
-second_title: Aspose.Words for .NET API 参考
-description: Stroke 财产. 获取填充格式Stroke.
+linktitle: Fill
+articleTitle: Fill
+second_title: 用于 .NET 的 Aspose.Words
+description: Stroke Fill 财产. 获取填充格式Stroke 在 C#.
 type: docs
-weight: 100
+weight: 90
 url: /zh/net/aspose.words.drawing/stroke/fill/
 ---
 ## Stroke.Fill property
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.drawing/stroke/fill/
 public Fill Fill { get; }
 ```
 
-### 例子
+## 例子
 
 显示如何更改笔划属性。
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "Shape.Stroke.docx");
 
 * class [Fill](../../fill/)
 * class [Stroke](../)
-* 命名空间 [Aspose.Words.Drawing](../../stroke/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

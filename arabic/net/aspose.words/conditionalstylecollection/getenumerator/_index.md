@@ -1,7 +1,9 @@
 ---
 title: ConditionalStyleCollection.GetEnumerator
-second_title: Aspose.Words لمراجع .NET API
-description: ConditionalStyleCollection طريقة. يُرجع كائن العداد الذي يمكن استخدامه للتكرار على جميع الأنماط الشرطية في المجموعة.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words لـ .NET
+description: ConditionalStyleCollection GetEnumerator طريقة. يُرجع كائن العداد الذي يمكن استخدامه للتكرار على جميع الأنماط الشرطية في المجموعة في C#.
 type: docs
 weight: 160
 url: /ar/net/aspose.words/conditionalstylecollection/getenumerator/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/conditionalstylecollection/getenumerator/
 public IEnumerator<ConditionalStyle> GetEnumerator()
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع أنماط مناطق معينة في الجدول.
 
@@ -85,7 +87,5 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 
 * class [ConditionalStyle](../../conditionalstyle/)
 * class [ConditionalStyleCollection](../)
-* مساحة الاسم [Aspose.Words](../../conditionalstylecollection/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

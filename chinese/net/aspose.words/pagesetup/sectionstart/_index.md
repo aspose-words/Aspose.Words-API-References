@@ -1,7 +1,9 @@
 ---
 title: PageSetup.SectionStart
-second_title: Aspose.Words for .NET API 参考
-description: PageSetup 财产. 返回或设置指定对象的分节符类型
+linktitle: SectionStart
+articleTitle: SectionStart
+second_title: 用于 .NET 的 Aspose.Words
+description: PageSetup SectionStart 财产. 返回或设置指定对象的分节符类型 在 C#.
 type: docs
 weight: 390
 url: /zh/net/aspose.words/pagesetup/sectionstart/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/pagesetup/sectionstart/
 public SectionStart SectionStart { get; set; }
 ```
 
-### 例子
+## 例子
 
 展示如何手动构建 Aspose.Words 文档。
 
@@ -110,7 +112,5 @@ doc.Save(ArtifactsDir + "PageSetup.SetSectionStart.docx");
 
 * enum [SectionStart](../../sectionstart/)
 * class [PageSetup](../)
-* 命名空间 [Aspose.Words](../../pagesetup/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

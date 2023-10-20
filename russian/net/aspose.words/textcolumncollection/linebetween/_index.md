@@ -1,7 +1,9 @@
 ---
 title: TextColumnCollection.LineBetween
-second_title: Справочник по API Aspose.Words для .NET
-description: TextColumnCollection свойство. Когдаистинный добавляет вертикальную линию между столбцами.
+linktitle: LineBetween
+articleTitle: LineBetween
+second_title: Aspose.Words для .NET
+description: TextColumnCollection LineBetween свойство. Когдаистинный добавляет вертикальную линию между столбцами на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words/textcolumncollection/linebetween/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/textcolumncollection/linebetween/
 public bool LineBetween { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как разделить столбцы вертикальной линией.
 
@@ -41,7 +43,5 @@ doc.Save(ArtifactsDir + "PageSetup.VerticalLineBetweenColumns.docx");
 ### Смотрите также
 
 * class [TextColumnCollection](../)
-* пространство имен [Aspose.Words](../../textcolumncollection/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

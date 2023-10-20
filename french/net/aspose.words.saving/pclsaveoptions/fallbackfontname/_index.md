@@ -1,7 +1,9 @@
 ---
 title: PclSaveOptions.FallbackFontName
-second_title: Référence de l'API Aspose.Words pour .NET
-description: PclSaveOptions propriété. Nom de la police qui sera utilisée si aucune police attendue nest trouvée dans les collections de polices dimprimante et intégrées.
+linktitle: FallbackFontName
+articleTitle: FallbackFontName
+second_title: Aspose.Words pour .NET
+description: PclSaveOptions FallbackFontName propriété. Nom de la police qui sera utilisée si aucune police attendue nest trouvée dans les collections de polices dimprimante et intégrées en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.saving/pclsaveoptions/fallbackfontname/
@@ -14,11 +16,11 @@ Nom de la police qui sera utilisée si aucune police attendue n'est trouvée dan
 public string FallbackFontName { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 Si aucune solution de secours n'est trouvée, un avertissement est généré et la police "Arial" est utilisée.
 
-### Exemples
+## Exemples
 
 Montre comment déclarer une police qu'une imprimante appliquera au texte imprimé en remplacement si sa police d'origine n'est pas disponible.
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "PclSaveOptions.SetPrinterFont.pcl", saveOptions);
 ### Voir également
 
 * class [PclSaveOptions](../)
-* espace de noms [Aspose.Words.Saving](../../pclsaveoptions/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

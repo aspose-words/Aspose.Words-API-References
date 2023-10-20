@@ -1,7 +1,9 @@
 ---
-title: Class ChartMarker
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Drawing.Charts.ChartMarker فصل. يمثل علامة بيانات المخطط.
+title: ChartMarker Class
+linktitle: ChartMarker
+articleTitle: ChartMarker
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Drawing.Charts.ChartMarker فصل. يمثل علامة بيانات المخطط في C#.
 type: docs
 weight: 750
 url: /ar/net/aspose.words.drawing.charts/chartmarker/
@@ -24,7 +26,7 @@ public class ChartMarker
 | [Size](../../aspose.words.drawing.charts/chartmarker/size/) { get; set; } | الحصول على حجم علامة المخطط أو تعيينه. القيمة الافتراضية هي 7. |
 | [Symbol](../../aspose.words.drawing.charts/chartmarker/symbol/) { get; set; } | الحصول على رمز علامة المخطط أو تعيينه. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التعامل مع نقاط البيانات على مخطط خطي.
 
@@ -87,5 +89,3 @@ private static void ApplyDataPoints(ChartSeries series, int dataPointsCount, Mar
 
 * مساحة الاسم [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../)
-
-

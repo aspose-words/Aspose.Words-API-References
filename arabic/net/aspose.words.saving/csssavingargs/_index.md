@@ -1,7 +1,9 @@
 ---
-title: Class CssSavingArgs
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Saving.CssSavingArgs فصل. يوفر بيانات لـCssSaving حدث.
+title: CssSavingArgs Class
+linktitle: CssSavingArgs
+articleTitle: CssSavingArgs
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Saving.CssSavingArgs فصل. يوفر بيانات لـCssSaving حدث في C#.
 type: docs
 weight: 4880
 url: /ar/net/aspose.words.saving/csssavingargs/
@@ -25,9 +27,9 @@ public class CssSavingArgs
 | [IsExportNeeded](../../aspose.words.saving/csssavingargs/isexportneeded/) { get; set; } | يسمح بتحديد ما إذا كان سيتم تصدير CSS إلى ملف ودمجه في مستند HTML. الافتراضي هو`حقيقي` . عندما تكون هذه الخاصية`خطأ شنيع` ، لن يتم حفظ معلومات CSS في ملف CSS ولن يتم تضمينها في مستند HTML. |
 | [KeepCssStreamOpen](../../aspose.words.saving/csssavingargs/keepcssstreamopen/) { get; set; } | يحدد ما إذا كان يجب على Aspose.Words إبقاء الدفق مفتوحًا أو إغلاقه بعد حفظ معلومات CSS. |
 
-### ملاحظات
+## ملاحظات
 
-افتراضيًا، عندما يقوم Aspose.Words بحفظ مستند إلى HTML، فإنه يحفظ معلومات CSS inline (كقيمة **أسلوب** سمة على كل عنصر).
+افتراضيًا، عندما يقوم Aspose.Words بحفظ مستند إلى HTML، فإنه يحفظ معلومات CSS inline (كقيمة**أسلوب** سمة على كل عنصر).
 
 `CssSavingArgs`يسمح بحفظ معلومات CSS في ملف عن طريق توفير كائن الدفق الخاص بك.
 
@@ -35,7 +37,7 @@ public class CssSavingArgs
 
 لمنع حفظ CSS في ملف والتضمين في مستند HTML، استخدم[`IsExportNeeded`](./isexportneeded/) ملكية.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع أوراق أنماط CSS التي ينشئها تحويل HTML.
 
@@ -97,5 +99,3 @@ private class CustomCssSavingCallback : ICssSavingCallback
 
 * مساحة الاسم [Aspose.Words.Saving](../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../)
-
-

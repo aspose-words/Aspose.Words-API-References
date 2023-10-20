@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.DocumentSplitHeadingLevel
-second_title: Aspose.Words für .NET-API-Referenz
-description: HtmlSaveOptions eigendom. Gibt die maximale Überschriftenebene an auf der das Dokument geteilt werden soll. Der Standardwert ist2 .
+linktitle: DocumentSplitHeadingLevel
+articleTitle: DocumentSplitHeadingLevel
+second_title: Aspose.Words für .NET
+description: HtmlSaveOptions DocumentSplitHeadingLevel eigendom. Gibt die maximale Überschriftenebene an auf der das Dokument geteilt werden soll. Der Standardwert ist2  in C#.
 type: docs
 weight: 90
 url: /de/net/aspose.words.saving/htmlsaveoptions/documentsplitheadinglevel/
@@ -14,13 +16,13 @@ Gibt die maximale Überschriftenebene an, auf der das Dokument geteilt werden so
 public int DocumentSplitHeadingLevel { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
-Wann[`DocumentSplitCriteria`](../documentsplitcriteria/) beinhaltetHeadingParagraph und diese Eigenschaft auf einen Wert von 1 bis 9 eingestellt ist, wird das Dokument an Absätzen geteilt, die mit formatiert sind. **Überschrift 1** , **Überschrift 2** , **Überschrift 3**usw. Stile bis zur angegebenen Überschriftenebene.
+Wann[`DocumentSplitCriteria`](../documentsplitcriteria/) beinhaltetHeadingParagraph und diese Eigenschaft auf einen Wert von 1 bis 9 eingestellt ist, wird das Dokument an Absätzen geteilt, die mit formatiert sind.**Überschrift 1** ,**Überschrift 2** ,**Überschrift 3**usw. Stile bis zur angegebenen Überschriftenebene.
 
-Nur standardmäßig **Überschrift 1** Und **Überschrift 2** Absätze führen dazu, dass das Dokument geteilt wird. Wenn diese Eigenschaft auf Null gesetzt wird, wird das Dokument an Überschriftenabsätzen überhaupt nicht geteilt.
+Nur standardmäßig**Überschrift 1** Und**Überschrift 2** Absätze führen dazu, dass das Dokument geteilt wird. Wenn diese Eigenschaft auf Null gesetzt wird, wird das Dokument an Überschriftenabsätzen überhaupt nicht geteilt.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein ausgegebenes HTML-Dokument anhand von Überschriften in mehrere Teile aufgeteilt wird.
 
@@ -82,7 +84,5 @@ Assert.AreEqual("Heading #5\r" +
 ### Siehe auch
 
 * class [HtmlSaveOptions](../)
-* namensraum [Aspose.Words.Saving](../../htmlsaveoptions/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: PclSaveOptions.FallbackFontName
-second_title: Справочник по API Aspose.Words для .NET
-description: PclSaveOptions свойство. Имя шрифта который будет использоваться  если ожидаемый шрифт не найден в коллекциях принтера и встроенных шрифтов.
+linktitle: FallbackFontName
+articleTitle: FallbackFontName
+second_title: Aspose.Words для .NET
+description: PclSaveOptions FallbackFontName свойство. Имя шрифта который будет использоваться  если ожидаемый шрифт не найден в коллекциях принтера и встроенных шрифтов на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.saving/pclsaveoptions/fallbackfontname/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.saving/pclsaveoptions/fallbackfontname/
 public string FallbackFontName { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Если резервный вариант не найден, генерируется предупреждение и используется шрифт «Arial».
 
-### Примеры
+## Примеры
 
 Показывает, как объявить шрифт, который принтер будет применять к печатному тексту в качестве замены, если исходный шрифт будет недоступен.
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "PclSaveOptions.SetPrinterFont.pcl", saveOptions);
 ### Смотрите также
 
 * class [PclSaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../pclsaveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

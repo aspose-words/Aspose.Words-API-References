@@ -1,7 +1,9 @@
 ---
 title: WebExtension.Properties
-second_title: Справочник по API Aspose.Words для .NET
-description: WebExtension свойство. Представляет набор пользовательских свойств вебрасширения.
+linktitle: Properties
+articleTitle: Properties
+second_title: Aspose.Words для .NET
+description: WebExtension Properties свойство. Представляет набор пользовательских свойств вебрасширения на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.webextensions/webextension/properties/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.webextensions/webextension/properties/
 public WebExtensionPropertyCollection Properties { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как добавить веб-расширение в документ.
 
@@ -60,7 +62,5 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 
 * class [WebExtensionPropertyCollection](../../webextensionpropertycollection/)
 * class [WebExtension](../)
-* пространство имен [Aspose.Words.WebExtensions](../../webextension/)
+* пространство имен [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * сборка [Aspose.Words](../../../)
-
-

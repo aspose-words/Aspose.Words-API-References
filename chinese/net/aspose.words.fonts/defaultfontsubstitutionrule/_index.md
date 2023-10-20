@@ -1,7 +1,9 @@
 ---
-title: Class DefaultFontSubstitutionRule
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Fonts.DefaultFontSubstitutionRule 班级. 默认字体替换规则
+title: DefaultFontSubstitutionRule Class
+linktitle: DefaultFontSubstitutionRule
+articleTitle: DefaultFontSubstitutionRule
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Fonts.DefaultFontSubstitutionRule 班级. 默认字体替换规则 在 C#.
 type: docs
 weight: 2840
 url: /zh/net/aspose.words.fonts/defaultfontsubstitutionrule/
@@ -23,11 +25,11 @@ public class DefaultFontSubstitutionRule : FontSubstitutionRule
 | [DefaultFontName](../../aspose.words.fonts/defaultfontsubstitutionrule/defaultfontname/) { get; set; } | 获取或设置默认字体名称。 |
 | virtual [Enabled](../../aspose.words.fonts/fontsubstitutionrule/enabled/) { get; set; } | 指定是否启用规则。 |
 
-### 评论
+## 评论
 
 此规则定义单个默认字体名称，用于在原始字体不可用时进行替换。
 
-### 例子
+## 例子
 
 演示如何设置默认字体替换规则。
 
@@ -61,5 +63,3 @@ doc.Save(ArtifactsDir + "FontSettings.DefaultFontSubstitutionRule.pdf");
 * class [FontSubstitutionRule](../fontsubstitutionrule/)
 * 命名空间 [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * 部件 [Aspose.Words](../../)
-
-

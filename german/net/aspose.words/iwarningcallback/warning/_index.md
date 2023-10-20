@@ -1,7 +1,9 @@
 ---
 title: IWarningCallback.Warning
-second_title: Aspose.Words für .NET-API-Referenz
-description: IWarningCallback methode. Aspose.Words ruft diese Methode auf wenn beim Laden oder Speichern des Dokuments ein Problem auftritt das zu einem Verlust der Formatierung oder Datentreue führen kann.
+linktitle: Warning
+articleTitle: Warning
+second_title: Aspose.Words für .NET
+description: IWarningCallback Warning methode. Aspose.Words ruft diese Methode auf wenn beim Laden oder Speichern des Dokuments ein Problem auftritt das zu einem Verlust der Formatierung oder Datentreue führen kann in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words/iwarningcallback/warning/
@@ -14,7 +16,7 @@ Aspose.Words ruft diese Methode auf, wenn beim Laden oder Speichern des Dokument
 public void Warning(WarningInfo info)
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Eigenschaft festgelegt wird, um die beste Übereinstimmung für eine fehlende Schriftart aus den verfügbaren Schriftartquellen zu finden.
 
@@ -75,7 +77,5 @@ public class HandleDocumentSubstitutionWarnings : IWarningCallback
 
 * class [WarningInfo](../../warninginfo/)
 * interface [IWarningCallback](../)
-* namensraum [Aspose.Words](../../iwarningcallback/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

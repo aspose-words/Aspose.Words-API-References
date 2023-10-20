@@ -1,7 +1,9 @@
 ---
 title: FormField.IsCheckBoxExactSize
-second_title: Aspose.Words för .NET API Referens
-description: FormField fast egendom. Hämtar eller ställer in det booleska värdet som indikerar om storleken på textrutan är automatisk eller specificerad explicit.
+linktitle: IsCheckBoxExactSize
+articleTitle: IsCheckBoxExactSize
+second_title: Aspose.Words för .NET
+description: FormField IsCheckBoxExactSize fast egendom. Hämtar eller ställer in det booleska värdet som indikerar om storleken på textrutan är automatisk eller specificerad explicit i C#.
 type: docs
 weight: 110
 url: /sv/net/aspose.words.fields/formfield/ischeckboxexactsize/
@@ -14,11 +16,11 @@ Hämtar eller ställer in det booleska värdet som indikerar om storleken på te
 public bool IsCheckBoxExactSize { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Tillämpligt endast för ett kryssrutaformulär.
 
-### Exempel
+## Exempel
 
 Visar hur man infogar olika typer av formulärfält i ett dokument och bearbetar dem med hjälp av en dokumentbesökarimplementering.
 
@@ -152,7 +154,5 @@ public class FormFieldVisitor : DocumentVisitor
 ### Se även
 
 * class [FormField](../)
-* namnutrymme [Aspose.Words.Fields](../../formfield/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

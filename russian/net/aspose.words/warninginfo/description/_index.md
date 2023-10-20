@@ -1,7 +1,9 @@
 ---
 title: WarningInfo.Description
-second_title: Справочник по API Aspose.Words для .NET
-description: WarningInfo свойство. Возвращает описание предупреждения.
+linktitle: Description
+articleTitle: Description
+second_title: Aspose.Words для .NET
+description: WarningInfo Description свойство. Возвращает описание предупреждения на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words/warninginfo/description/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/warninginfo/description/
 public string Description { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как настроить свойство для поиска ближайшего соответствия отсутствующему шрифту из доступных источников шрифтов.
 
@@ -74,7 +76,5 @@ public class HandleDocumentSubstitutionWarnings : IWarningCallback
 ### Смотрите также
 
 * class [WarningInfo](../)
-* пространство имен [Aspose.Words](../../warninginfo/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

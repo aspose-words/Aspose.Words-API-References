@@ -1,7 +1,9 @@
 ---
 title: ChartLegendEntryCollection.GetEnumerator
-second_title: Aspose.Words for .NET API 参考
-description: ChartLegendEntryCollection 方法. 返回一个枚举器对象
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: 用于 .NET 的 Aspose.Words
+description: ChartLegendEntryCollection GetEnumerator 方法. 返回一个枚举器对象 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.drawing.charts/chartlegendentrycollection/getenumerator/
@@ -18,7 +20,5 @@ public IEnumerator<ChartLegendEntry> GetEnumerator()
 
 * class [ChartLegendEntry](../../chartlegendentry/)
 * class [ChartLegendEntryCollection](../)
-* 命名空间 [Aspose.Words.Drawing.Charts](../../chartlegendentrycollection/)
+* 命名空间 [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * 部件 [Aspose.Words](../../../)
-
-

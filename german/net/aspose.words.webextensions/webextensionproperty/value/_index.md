@@ -1,7 +1,9 @@
 ---
 title: WebExtensionProperty.Value
-second_title: Aspose.Words für .NET-API-Referenz
-description: WebExtensionProperty eigendom. Gibt einen benutzerdefinierten Eigenschaftswert an.
+linktitle: Value
+articleTitle: Value
+second_title: Aspose.Words für .NET
+description: WebExtensionProperty Value eigendom. Gibt einen benutzerdefinierten Eigenschaftswert an in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.webextensions/webextensionproperty/value/
@@ -17,7 +19,5 @@ public string Value { get; set; }
 ### Siehe auch
 
 * class [WebExtensionProperty](../)
-* namensraum [Aspose.Words.WebExtensions](../../webextensionproperty/)
+* namensraum [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * Montage [Aspose.Words](../../../)
-
-

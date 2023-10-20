@@ -1,7 +1,9 @@
 ---
 title: Node.ParentNode
-second_title: Справочник по API Aspose.Words для .NET
-description: Node свойство. Получает непосредственного родителя этого узла.
+linktitle: ParentNode
+articleTitle: ParentNode
+second_title: Aspose.Words для .NET
+description: Node ParentNode свойство. Получает непосредственного родителя этого узла на С#.
 type: docs
 weight: 60
 url: /ru/net/aspose.words/node/parentnode/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words/node/parentnode/
 public CompositeNode ParentNode { get; }
 ```
 
-### Примечания
+## Примечания
 
 Если узел только что был создан и еще не добавлен в дерево, , или если он был удален из дерева, родительским элементом является`нулевой`.
 
-### Примеры
+## Примеры
 
 Показывает, как получить доступ к родительскому узлу узла.
 
@@ -69,7 +71,5 @@ Assert.AreEqual("Hello world!", doc.GetText().Trim());
 
 * class [CompositeNode](../../compositenode/)
 * class [Node](../)
-* пространство имен [Aspose.Words](../../node/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

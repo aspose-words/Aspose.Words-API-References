@@ -1,7 +1,9 @@
 ---
 title: ConditionalStyle.Type
-second_title: Aspose.Words لمراجع .NET API
-description: ConditionalStyle ملكية. الحصول على مساحة الجدول التي يرتبط بها هذا النمط الشرطي.
+linktitle: Type
+articleTitle: Type
+second_title: Aspose.Words لـ .NET
+description: ConditionalStyle Type ملكية. الحصول على مساحة الجدول التي يرتبط بها هذا النمط الشرطي في C#.
 type: docs
 weight: 90
 url: /ar/net/aspose.words/conditionalstyle/type/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/conditionalstyle/type/
 public ConditionalStyleType Type { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع أنماط مناطق معينة في الجدول.
 
@@ -85,7 +87,5 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 
 * enum [ConditionalStyleType](../../conditionalstyletype/)
 * class [ConditionalStyle](../)
-* مساحة الاسم [Aspose.Words](../../conditionalstyle/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum Margins
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Margins تعداد. يحدد الهوامش المعدة مسبقًا.
+title: Margins Enum
+linktitle: Margins
+articleTitle: Margins
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Margins تعداد. يحدد الهوامش المعدة مسبقًا في C#.
 type: docs
 weight: 3890
 url: /ar/net/aspose.words/margins/
@@ -29,5 +31,3 @@ public enum Margins
 
 * مساحة الاسم [Aspose.Words](../../aspose.words/)
 * المجسم [Aspose.Words](../../)
-
-

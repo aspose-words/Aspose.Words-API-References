@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.HorizontalAlignment
-second_title: Aspose.Words لمراجع .NET API
-description: ShapeBase ملكية. يحدد كيفية وضع الشكل أفقيًا.
+linktitle: HorizontalAlignment
+articleTitle: HorizontalAlignment
+second_title: Aspose.Words لـ .NET
+description: ShapeBase HorizontalAlignment ملكية. يحدد كيفية وضع الشكل أفقيًا في C#.
 type: docs
 weight: 220
 url: /ar/net/aspose.words.drawing/shapebase/horizontalalignment/
@@ -14,13 +16,13 @@ url: /ar/net/aspose.words.drawing/shapebase/horizontalalignment/
 public HorizontalAlignment HorizontalAlignment { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 القيمة الافتراضية هيNone.
 
 له تأثير فقط على الأشكال العائمة ذات المستوى الأعلى.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج صورة عائمة في وسط الصفحة.
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "Image.CreateFloatingPageCenter.docx");
 
 * enum [HorizontalAlignment](../../horizontalalignment/)
 * class [ShapeBase](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../shapebase/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

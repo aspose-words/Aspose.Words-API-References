@@ -1,7 +1,9 @@
 ---
 title: CompareOptions.IgnoreCaseChanges
-second_title: Referencia de API de Aspose.Words para .NET
-description: CompareOptions propiedad. Verdadero indica que la comparación de documentos no distingue entre mayúsculas y minúsculas. De forma predeterminada la comparación distingue entre mayúsculas y minúsculas.
+linktitle: IgnoreCaseChanges
+articleTitle: IgnoreCaseChanges
+second_title: Aspose.Words para .NET
+description: CompareOptions IgnoreCaseChanges propiedad. Verdadero indica que la comparación de documentos no distingue entre mayúsculas y minúsculas. De forma predeterminada la comparación distingue entre mayúsculas y minúsculas en C#.
 type: docs
 weight: 40
 url: /es/net/aspose.words.comparing/compareoptions/ignorecasechanges/
@@ -14,7 +16,7 @@ Verdadero indica que la comparación de documentos no distingue entre mayúscula
 public bool IgnoreCaseChanges { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo filtrar tipos específicos de elementos del documento al realizar una comparación.
 
@@ -88,7 +90,5 @@ docOriginal.Save(ArtifactsDir + "Document.CompareOptions.docx");
 ### Ver también
 
 * class [CompareOptions](../)
-* espacio de nombres [Aspose.Words.Comparing](../../compareoptions/)
+* espacio de nombres [Aspose.Words.Comparing](../../../aspose.words.comparing/)
 * asamblea [Aspose.Words](../../../)
-
-

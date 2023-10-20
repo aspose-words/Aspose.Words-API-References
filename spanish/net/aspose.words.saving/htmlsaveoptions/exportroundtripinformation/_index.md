@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ExportRoundtripInformation
-second_title: Referencia de API de Aspose.Words para .NET
-description: HtmlSaveOptions propiedad. Especifica si se escribe la información de ida y vuelta al guardar en HTML MHTML o EPUB. El valor predeterminado esverdadero para HTML yFALSO para MHTML y EPUB.
+linktitle: ExportRoundtripInformation
+articleTitle: ExportRoundtripInformation
+second_title: Aspose.Words para .NET
+description: HtmlSaveOptions ExportRoundtripInformation propiedad. Especifica si se escribe la información de ida y vuelta al guardar en HTML MHTML o EPUB. El valor predeterminado esverdadero para HTML yFALSO para MHTML y EPUB en C#.
 type: docs
 weight: 240
 url: /es/net/aspose.words.saving/htmlsaveoptions/exportroundtripinformation/
@@ -14,7 +16,7 @@ Especifica si se escribe la información de ida y vuelta al guardar en HTML, MHT
 public bool ExportRoundtripInformation { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 Guardar la información de ida y vuelta permite restaurar propiedades del documento, como tabulaciones, comentarios , encabezados y pies de página durante la carga de documentos HTML nuevamente en un[`Document`](../../../aspose.words/document/) objeto.
 
@@ -22,7 +24,7 @@ Cuando`verdadero`, la información de ida y vuelta se exporta como -aw-* CSS pro
 
 Cuando`FALSO`, hace que no se envíe información de ida y vuelta a los archivos producidos.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo conservar elementos ocultos al convertir a .html.
 
@@ -99,7 +101,5 @@ else
 ### Ver también
 
 * class [HtmlSaveOptions](../)
-* espacio de nombres [Aspose.Words.Saving](../../htmlsaveoptions/)
+* espacio de nombres [Aspose.Words.Saving](../../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: BookmarkStart.Bookmark
-second_title: Aspose.Words für .NET-API-Referenz
-description: BookmarkStart eigendom. Ruft das Fassadenobjekt ab das den Anfang und das Ende dieses Lesezeichens kapselt.
+linktitle: Bookmark
+articleTitle: Bookmark
+second_title: Aspose.Words für .NET
+description: BookmarkStart Bookmark eigendom. Ruft das Fassadenobjekt ab das den Anfang und das Ende dieses Lesezeichens kapselt in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words/bookmarkstart/bookmark/
@@ -14,7 +16,7 @@ Ruft das Fassadenobjekt ab, das den Anfang und das Ende dieses Lesezeichens kaps
 public Bookmark Bookmark { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie Lesezeichen hinzufügen und deren Inhalte aktualisieren.
 
@@ -104,7 +106,5 @@ public class BookmarkInfoPrinter : DocumentVisitor
 
 * class [Bookmark](../../bookmark/)
 * class [BookmarkStart](../)
-* namensraum [Aspose.Words](../../bookmarkstart/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

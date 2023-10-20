@@ -1,7 +1,9 @@
 ---
 title: FieldToc.BookmarkName
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldToc propriété. Obtient ou définit le nom du signet qui marque la partie du document utilisée pour créer le tableau.
+linktitle: BookmarkName
+articleTitle: BookmarkName
+second_title: Aspose.Words pour .NET
+description: FieldToc BookmarkName propriété. Obtient ou définit le nom du signet qui marque la partie du document utilisée pour créer le tableau en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.fields/fieldtoc/bookmarkname/
@@ -14,7 +16,7 @@ Obtient ou définit le nom du signet qui marque la partie du document utilisée 
 public string BookmarkName { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment insérer une table des matières et la remplir avec des entrées basées sur les styles de titre.
 
@@ -99,7 +101,5 @@ public void InsertNewPageWithHeading(DocumentBuilder builder, string captionText
 ### Voir également
 
 * class [FieldToc](../)
-* espace de noms [Aspose.Words.Fields](../../fieldtoc/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

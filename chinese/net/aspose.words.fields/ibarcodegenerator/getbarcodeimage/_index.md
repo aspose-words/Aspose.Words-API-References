@@ -1,7 +1,9 @@
 ---
 title: IBarcodeGenerator.GetBarcodeImage
-second_title: Aspose.Words for .NET API 参考
-description: IBarcodeGenerator 方法. 使用参数集生成条形码图像对于 DisplayBarcode 字段
+linktitle: GetBarcodeImage
+articleTitle: GetBarcodeImage
+second_title: 用于 .NET 的 Aspose.Words
+description: IBarcodeGenerator GetBarcodeImage 方法. 使用参数集生成条形码图像对于 DisplayBarcode 字段 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.fields/ibarcodegenerator/getbarcodeimage/
@@ -22,7 +24,7 @@ public Image GetBarcodeImage(BarcodeParameters parameters)
 
 表示生成的条形码的图像。
 
-### 例子
+## 例子
 
 展示如何使用条形码生成器。
 
@@ -99,7 +101,5 @@ doc.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.docx");
 
 * class [BarcodeParameters](../../barcodeparameters/)
 * interface [IBarcodeGenerator](../)
-* 命名空间 [Aspose.Words.Fields](../../ibarcodegenerator/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

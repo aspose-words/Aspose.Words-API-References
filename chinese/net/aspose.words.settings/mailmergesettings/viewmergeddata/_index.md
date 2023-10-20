@@ -1,7 +1,9 @@
 ---
 title: MailMergeSettings.ViewMergedData
-second_title: Aspose.Words for .NET API 参考
-description: MailMergeSettings 财产. 指定Microsoft Word 应显示来自已插入合并字段 的指定外部数据源的数据例如预览合并数据默认值为错误的.
+linktitle: ViewMergedData
+articleTitle: ViewMergedData
+second_title: 用于 .NET 的 Aspose.Words
+description: MailMergeSettings ViewMergedData 财产. 指定Microsoft Word 应显示来自已插入合并字段 的指定外部数据源的数据例如预览合并数据默认值为错误的 在 C#.
 type: docs
 weight: 170
 url: /zh/net/aspose.words.settings/mailmergesettings/viewmergeddata/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.settings/mailmergesettings/viewmergeddata/
 public bool ViewMergedData { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何使用 Office 数据源对象中的数据执行邮件合并。
 
@@ -66,7 +68,5 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ### 也可以看看
 
 * class [MailMergeSettings](../)
-* 命名空间 [Aspose.Words.Settings](../../mailmergesettings/)
+* 命名空间 [Aspose.Words.Settings](../../../aspose.words.settings/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum AxisScaleType
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Drawing.Charts.AxisScaleType تعداد. يحدد أنواع المقياس الممكنة للمحور.
+title: AxisScaleType Enum
+linktitle: AxisScaleType
+articleTitle: AxisScaleType
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Drawing.Charts.AxisScaleType تعداد. يحدد أنواع المقياس الممكنة للمحور في C#.
 type: docs
 weight: 560
 url: /ar/net/aspose.words.drawing.charts/axisscaletype/
@@ -21,7 +23,7 @@ public enum AxisScaleType
 | Linear | `0` | القياس الخطي. |
 | Logarithmic | `1` | القياس اللوغاريتمي. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تطبيق القياس اللوغاريتمي على محور المخطط.
 
@@ -56,5 +58,3 @@ doc.Save(ArtifactsDir + "Charts.AxisScaling.docx");
 
 * مساحة الاسم [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../)
-
-

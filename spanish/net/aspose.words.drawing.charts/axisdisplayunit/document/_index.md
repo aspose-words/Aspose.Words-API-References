@@ -1,7 +1,9 @@
 ---
 title: AxisDisplayUnit.Document
-second_title: Referencia de API de Aspose.Words para .NET
-description: AxisDisplayUnit propiedad. Devuelve el Documento al que pertenece el titular.
+linktitle: Document
+articleTitle: Document
+second_title: Aspose.Words para .NET
+description: AxisDisplayUnit Document propiedad. Devuelve el Documento al que pertenece el titular en C#.
 type: docs
 weight: 30
 url: /es/net/aspose.words.drawing.charts/axisdisplayunit/document/
@@ -18,7 +20,5 @@ public DocumentBase Document { get; }
 
 * class [DocumentBase](../../../aspose.words/documentbase/)
 * class [AxisDisplayUnit](../)
-* espacio de nombres [Aspose.Words.Drawing.Charts](../../axisdisplayunit/)
+* espacio de nombres [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * asamblea [Aspose.Words](../../../)
-
-

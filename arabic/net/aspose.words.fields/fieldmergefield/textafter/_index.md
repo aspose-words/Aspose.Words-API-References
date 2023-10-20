@@ -1,7 +1,9 @@
 ---
 title: FieldMergeField.TextAfter
-second_title: Aspose.Words لمراجع .NET API
-description: FieldMergeField ملكية. الحصول على النص الذي سيتم إدراجه بعد الحقل أو تعيينه إذا لم يكن الحقل فارغًا.
+linktitle: TextAfter
+articleTitle: TextAfter
+second_title: Aspose.Words لـ .NET
+description: FieldMergeField TextAfter ملكية. الحصول على النص الذي سيتم إدراجه بعد الحقل أو تعيينه إذا لم يكن الحقل فارغًا في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.fields/fieldmergefield/textafter/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldmergefield/textafter/
 public string TextAfter { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام حقول MERGEFIELD لإجراء عملية دمج البريد.
 
@@ -56,7 +58,5 @@ Assert.AreEqual("Dear Mr. Doe:\u000cDear Mrs. Cardholder:", doc.GetText().Trim()
 ### أنظر أيضا
 
 * class [FieldMergeField](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldmergefield/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

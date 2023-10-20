@@ -1,9 +1,11 @@
 ---
 title: CellFormat.Width
-second_title: Aspose.Words لمراجع .NET API
-description: CellFormat ملكية. الحصول على عرض الخلية بالنقاط.
+linktitle: Width
+articleTitle: Width
+second_title: Aspose.Words لـ .NET
+description: CellFormat Width ملكية. الحصول على عرض الخلية بالنقاط في C#.
 type: docs
-weight: 140
+weight: 130
 url: /ar/net/aspose.words.tables/cellformat/width/
 ---
 ## CellFormat.Width property
@@ -14,13 +16,13 @@ url: /ar/net/aspose.words.tables/cellformat/width/
 public double Width { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 يتم حساب العرض بواسطة Aspose.Words عند تحميل المستندات وحفظها. حاليًا، لا يتم دعم كل مجموعة من خصائص الجدول والخلية والمستند. قد لا تكون القيمة التي تم إرجاعها دقيقة لبعض المستندات. قد لا تتطابق تمامًا مع عرض الخلية كما تم حسابه بواسطة MS Word عند فتح المستند في MS Word.
 
 لا يوصى بتعيين هذه الخاصية. ليس هناك ما يضمن أن الخلية سيكون لها بالفعل العرض المحدد. قد يتم ضبط العرض لاستيعاب محتويات الخلية في تخطيط جدول الاحتواء التلقائي. قد يكون للخلايا الموجودة في الصفوف الأخرى عرض متعارض settings. قد يتم تغيير حجم الجدول ليناسب الحاوية أو ليتوافق مع إعدادات عرض الجدول. فكر في استخدام[`PreferredWidth`](../preferredwidth/) لتعيين عرض الخلية. تحديد مجموعات الخصائص هذه[`PreferredWidth`](../preferredwidth/)ضمنيًا منذ الإصدار 15.8.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تنسيق الخلايا باستخدام أداة إنشاء المستندات.
 
@@ -128,7 +130,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
 ### أنظر أيضا
 
 * class [CellFormat](../)
-* مساحة الاسم [Aspose.Words.Tables](../../cellformat/)
+* مساحة الاسم [Aspose.Words.Tables](../../../aspose.words.tables/)
 * المجسم [Aspose.Words](../../../)
-
-

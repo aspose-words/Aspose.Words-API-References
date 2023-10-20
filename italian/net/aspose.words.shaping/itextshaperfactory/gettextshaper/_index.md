@@ -1,12 +1,14 @@
 ---
 title: ITextShaperFactory.GetTextShaper
-second_title: Aspose.Words per .NET API Reference
-description: ITextShaperFactory metodo. Restituisce una nuova istanza di un modellatore di testo per il carattere specificato dafontPath EfaceIndex .
+linktitle: GetTextShaper
+articleTitle: GetTextShaper
+second_title: Aspose.Words per .NET
+description: ITextShaperFactory GetTextShaper metodo. Restituisce una nuova istanza di un modellatore di testo per il carattere specificato dafontPath EfaceIndex  in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words.shaping/itextshaperfactory/gettextshaper/
 ---
-## GetTextShaper(string, int) {#gettextshaper_1}
+## GetTextShaper(*string, int*) {#gettextshaper_1}
 
 Restituisce una nuova istanza di un modellatore di testo per il carattere specificato da*fontPath* E*faceIndex* .
 
@@ -23,12 +25,12 @@ public ITextShaper GetTextShaper(string fontPath, int faceIndex)
 
 * interface [ITextShaper](../../itextshaper/)
 * interface [ITextShaperFactory](../)
-* spazio dei nomi [Aspose.Words.Shaping](../../itextshaperfactory/)
+* spazio dei nomi [Aspose.Words.Shaping](../../../aspose.words.shaping/)
 * assemblea [Aspose.Words](../../../)
 
 ---
 
-## GetTextShaper(string, byte[], int) {#gettextshaper}
+## GetTextShaper(*string, byte[], int*) {#gettextshaper}
 
 Restituisce una nuova istanza di un modellatore di testo per il carattere rappresentato da*fontBlob* E*faceIndex* .
 
@@ -46,7 +48,5 @@ public ITextShaper GetTextShaper(string fontId, byte[] fontBlob, int faceIndex)
 
 * interface [ITextShaper](../../itextshaper/)
 * interface [ITextShaperFactory](../)
-* spazio dei nomi [Aspose.Words.Shaping](../../itextshaperfactory/)
+* spazio dei nomi [Aspose.Words.Shaping](../../../aspose.words.shaping/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: BookmarksOutlineLevelCollection.Contains
-second_title: Referencia de API de Aspose.Words para .NET
-description: BookmarksOutlineLevelCollection método. Determina si la colección contiene un marcador con el nombre de pila.
+linktitle: Contains
+articleTitle: Contains
+second_title: Aspose.Words para .NET
+description: BookmarksOutlineLevelCollection Contains método. Determina si la colección contiene un marcador con el nombre de pila en C#.
 type: docs
 weight: 60
 url: /es/net/aspose.words.saving/bookmarksoutlinelevelcollection/contains/
@@ -22,7 +24,7 @@ public bool Contains(string name)
 
 `verdadero` si el artículo se encuentra en la colección; de lo contrario,`FALSO`.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo establecer niveles de contorno para marcadores.
 
@@ -80,7 +82,5 @@ outlineLevels.Clear();
 ### Ver también
 
 * class [BookmarksOutlineLevelCollection](../)
-* espacio de nombres [Aspose.Words.Saving](../../bookmarksoutlinelevelcollection/)
+* espacio de nombres [Aspose.Words.Saving](../../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../../)
-
-

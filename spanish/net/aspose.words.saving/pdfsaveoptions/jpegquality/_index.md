@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.JpegQuality
-second_title: Referencia de API de Aspose.Words para .NET
-description: PdfSaveOptions propiedad. Obtiene o establece un valor que determina la calidad de las imágenes JPEG dentro del documento PDF.
+linktitle: JpegQuality
+articleTitle: JpegQuality
+second_title: Aspose.Words para .NET
+description: PdfSaveOptions JpegQuality propiedad. Obtiene o establece un valor que determina la calidad de las imágenes JPEG dentro del documento PDF en C#.
 type: docs
 weight: 220
 url: /es/net/aspose.words.saving/pdfsaveoptions/jpegquality/
@@ -14,7 +16,7 @@ Obtiene o establece un valor que determina la calidad de las imágenes JPEG dent
 public int JpegQuality { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 El valor predeterminado es 100.
 
@@ -24,7 +26,7 @@ Tiene efecto sólo cuando un documento contiene imágenes JPEG.
 
 Utilice esta propiedad para obtener o establecer la calidad de las imágenes dentro de un documento al guardarlo en formato PDF. El valor puede variar de 0 a 100, donde 0 significa peor calidad pero compresión máxima y 100 significa mejor calidad pero compresión mínima. Si es calidad es 100 y la imagen de origen es JPEG, significa que no hay compresión; se guardarán los bytes originales.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo especificar un tipo de compresión para todas las imágenes de un documento que estamos convirtiendo a PDF.
 
@@ -57,7 +59,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.ImageCompression.pdf", pdfSaveOptions);
 ### Ver también
 
 * class [PdfSaveOptions](../)
-* espacio de nombres [Aspose.Words.Saving](../../pdfsaveoptions/)
+* espacio de nombres [Aspose.Words.Saving](../../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../../)
-
-

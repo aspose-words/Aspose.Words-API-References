@@ -1,12 +1,14 @@
 ---
 title: DocumentBase.ImportNode
-second_title: Referencia de API de Aspose.Words para .NET
-description: DocumentBase método. Importa un nodo de otro documento al documento actual.
+linktitle: ImportNode
+articleTitle: ImportNode
+second_title: Aspose.Words para .NET
+description: DocumentBase ImportNode método. Importa un nodo de otro documento al documento actual en C#.
 type: docs
 weight: 100
 url: /es/net/aspose.words/documentbase/importnode/
 ---
-## ImportNode(Node, bool) {#importnode}
+## ImportNode(*[Node](../../node/), bool*) {#importnode}
 
 Importa un nodo de otro documento al documento actual.
 
@@ -23,17 +25,17 @@ public Node ImportNode(Node srcNode, bool isImportChildren)
 
 El nodo clonado que pertenece al documento actual.
 
-### Observaciones
+## Observaciones
 
 Este método utiliza elUseDestinationStyles opción para resolver el formato.
 
 La importación de un nodo crea una copia del nodo de origen que pertenece al documento de importación. El nodo devuelto no tiene padre. El nodo de origen no se modifica ni se elimina del documento original.
 
-Antes de poder insertar un nodo de otro documento en este documento, se debe importar. Durante la importación, las propiedades específicas del documento, como las referencias a estilos y listas, se traducen del original al documento de importación. Después de importar el nodo, se puede insertar en el lugar apropiado del documento usandoNode) o Node).
+Antes de poder insertar un nodo de otro documento en este documento, se debe importar. Durante la importación, las propiedades específicas del documento, como las referencias a estilos y listas, se traducen del original al documento de importación. Después de importar el nodo, se puede insertar en el lugar apropiado del documento usando[`InsertBefore`](../../compositenode/insertbefore/) o [`InsertAfter`](../../compositenode/insertafter/).
 
 Si el nodo de origen ya pertenece al documento de destino, simplemente se crea un clone profundo del nodo de origen.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo importar un nodo de un documento a otro.
 
@@ -68,12 +70,12 @@ Assert.AreEqual("Destination document first paragraph text.\r\nSource document f
 
 * class [Node](../../node/)
 * class [DocumentBase](../)
-* espacio de nombres [Aspose.Words](../../documentbase/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
 
 ---
 
-## ImportNode(Node, bool, ImportFormatMode) {#importnode_1}
+## ImportNode(*[Node](../../node/), bool, [ImportFormatMode](../../importformatmode/)*) {#importnode_1}
 
 Importa un nodo de otro documento al documento actual con una opción para controlar el formato.
 
@@ -91,17 +93,17 @@ public Node ImportNode(Node srcNode, bool isImportChildren, ImportFormatMode imp
 
 El nodo clonado e importado. El nodo pertenece al documento de destino, pero no tiene padre.
 
-### Observaciones
+## Observaciones
 
 Esta sobrecarga es útil para controlar cómo se importan los estilos y el formato de lista.
 
 La importación de un nodo crea una copia del nodo de origen que pertenece al documento de importación. El nodo devuelto no tiene padre. El nodo de origen no se modifica ni se elimina del documento original.
 
-Antes de poder insertar un nodo de otro documento en este documento, se debe importar. Durante la importación, las propiedades específicas del documento, como las referencias a estilos y listas, se traducen del original al documento de importación. Después de importar el nodo, se puede insertar en el lugar apropiado del documento usandoNode) o Node).
+Antes de poder insertar un nodo de otro documento en este documento, se debe importar. Durante la importación, las propiedades específicas del documento, como las referencias a estilos y listas, se traducen del original al documento de importación. Después de importar el nodo, se puede insertar en el lugar apropiado del documento usando[`InsertBefore`](../../compositenode/insertbefore/) o [`InsertAfter`](../../compositenode/insertafter/).
 
 Si el nodo de origen ya pertenece al documento de destino, simplemente se crea un clone profundo del nodo de origen.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo importar nodos desde el documento de origen al documento de destino con opciones específicas.
 
@@ -141,7 +143,5 @@ Assert.AreEqual(srcStyle.Font.Name, dstDoc.Styles["My style_0"].Font.Name);
 * class [Node](../../node/)
 * enum [ImportFormatMode](../../importformatmode/)
 * class [DocumentBase](../)
-* espacio de nombres [Aspose.Words](../../documentbase/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

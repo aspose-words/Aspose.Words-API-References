@@ -1,7 +1,9 @@
 ---
-title: Enum SdtDateStorageFormat
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Markup.SdtDateStorageFormat 枚举. 指定当 SDT 绑定到文档数据存储中的 XML 节点时如何存储/检索日期 SDT 的日期
+title: SdtDateStorageFormat Enum
+linktitle: SdtDateStorageFormat
+articleTitle: SdtDateStorageFormat
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Markup.SdtDateStorageFormat 枚举. 指定当 SDT 绑定到文档数据存储中的 XML 节点时如何存储/检索日期 SDT 的日期 在 C#.
 type: docs
 weight: 4010
 url: /zh/net/aspose.words.markup/sdtdatestorageformat/
@@ -27,5 +29,3 @@ public enum SdtDateStorageFormat
 
 * 命名空间 [Aspose.Words.Markup](../../aspose.words.markup/)
 * 部件 [Aspose.Words](../../)
-
-

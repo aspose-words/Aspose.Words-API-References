@@ -1,7 +1,9 @@
 ---
 title: ImageSize.VerticalResolution
-second_title: Aspose.Words für .NET-API-Referenz
-description: ImageSize eigendom. Ruft die vertikale Auflösung in DPI ab.
+linktitle: VerticalResolution
+articleTitle: VerticalResolution
+second_title: Aspose.Words für .NET
+description: ImageSize VerticalResolution eigendom. Ruft die vertikale Auflösung in DPI ab in C#.
 type: docs
 weight: 50
 url: /de/net/aspose.words.drawing/imagesize/verticalresolution/
@@ -14,7 +16,7 @@ Ruft die vertikale Auflösung in DPI ab.
 public double VerticalResolution { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Eigenschaften eines Bildes in einer Form gelesen werden.
 
@@ -47,7 +49,5 @@ doc.Save(ArtifactsDir + "Drawing.ImageSize.docx");
 ### Siehe auch
 
 * class [ImageSize](../)
-* namensraum [Aspose.Words.Drawing](../../imagesize/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

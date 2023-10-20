@@ -1,7 +1,9 @@
 ---
-title: Enum EditorType
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.EditorType enumeración. Especifica el conjunto de posibles alias o grupos de edición que se pueden utilizar como alias para determinar si el usuario actual podrá editar un único rango definido por un rango editable dentro de un documento.
+title: EditorType Enum
+linktitle: EditorType
+articleTitle: EditorType
+second_title: Aspose.Words para .NET
+description: Aspose.Words.EditorType enumeración. Especifica el conjunto de posibles alias o grupos de edición que se pueden utilizar como alias para determinar si el usuario actual podrá editar un único rango definido por un rango editable dentro de un documento en C#.
 type: docs
 weight: 1450
 url: /es/net/aspose.words/editortype/
@@ -28,7 +30,7 @@ public enum EditorType
 | Owners | `7` | Especifica que los usuarios asociados con el grupo Propietarios podrán editar rangos editables utilizando este tipo de edición cuando la protección del documento esté habilitada. |
 | Default | `0` | Igual queUnspecified . |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo limitar los derechos de edición de rangos editables a un grupo/usuario específico.
 
@@ -140,5 +142,3 @@ public class EditableRangePrinter : DocumentVisitor
 
 * espacio de nombres [Aspose.Words](../../aspose.words/)
 * asamblea [Aspose.Words](../../)
-
-

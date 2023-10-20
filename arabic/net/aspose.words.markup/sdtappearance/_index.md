@@ -1,7 +1,9 @@
 ---
-title: Enum SdtAppearance
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Markup.SdtAppearance تعداد. يحدد مظهر علامة المستند المنظمة.
+title: SdtAppearance Enum
+linktitle: SdtAppearance
+articleTitle: SdtAppearance
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Markup.SdtAppearance تعداد. يحدد مظهر علامة المستند المنظمة في C#.
 type: docs
 weight: 3990
 url: /ar/net/aspose.words.markup/sdtappearance/
@@ -27,5 +29,3 @@ public enum SdtAppearance
 
 * مساحة الاسم [Aspose.Words.Markup](../../aspose.words.markup/)
 * المجسم [Aspose.Words](../../)
-
-

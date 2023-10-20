@@ -1,7 +1,9 @@
 ---
 title: Paragraph.IsMoveFromRevision
-second_title: Aspose.Words für .NET-API-Referenz
-description: Paragraph eigendom. Gibt zurückWAHR wenn dieses Objekt in Microsoft Word verschoben gelöscht wurde während die Änderungsverfolgung aktiviert war.
+linktitle: IsMoveFromRevision
+articleTitle: IsMoveFromRevision
+second_title: Aspose.Words für .NET
+description: Paragraph IsMoveFromRevision eigendom. Gibt zurückWAHR wenn dieses Objekt in Microsoft Word verschoben gelöscht wurde während die Änderungsverfolgung aktiviert war in C#.
 type: docs
 weight: 130
 url: /de/net/aspose.words/paragraph/ismovefromrevision/
@@ -14,7 +16,7 @@ Gibt zurück`WAHR` wenn dieses Objekt in Microsoft Word verschoben (gelöscht) w
 public bool IsMoveFromRevision { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie überprüft wird, ob es sich bei einem Absatz um eine Verschiebungsrevision handelt.
 
@@ -48,7 +50,5 @@ Assert.True(paragraphs[3].IsMoveToRevision);
 ### Siehe auch
 
 * class [Paragraph](../)
-* namensraum [Aspose.Words](../../paragraph/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

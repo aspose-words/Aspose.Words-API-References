@@ -1,7 +1,9 @@
 ---
 title: ChartYValueCollection.Count
-second_title: Aspose.Words per .NET API Reference
-description: ChartYValueCollection proprietà. Ottiene il numero di elementi in questa raccolta.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words per .NET
+description: ChartYValueCollection Count proprietà. Ottiene il numero di elementi in questa raccolta in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words.drawing.charts/chartyvaluecollection/count/
@@ -17,7 +19,5 @@ public int Count { get; }
 ### Guarda anche
 
 * class [ChartYValueCollection](../)
-* spazio dei nomi [Aspose.Words.Drawing.Charts](../../chartyvaluecollection/)
+* spazio dei nomi [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * assemblea [Aspose.Words](../../../)
-
-

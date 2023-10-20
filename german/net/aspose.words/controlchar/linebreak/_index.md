@@ -1,7 +1,9 @@
 ---
 title: ControlChar.LineBreak
-second_title: Aspose.Words für .NET-API-Referenz
-description: ControlChar veld. Zeilenumbruchzeichen x000b oder v.
+linktitle: LineBreak
+articleTitle: LineBreak
+second_title: Aspose.Words für .NET
+description: ControlChar LineBreak veld. Zeilenumbruchzeichen x000b oder v in C#.
 type: docs
 weight: 120
 url: /de/net/aspose.words/controlchar/linebreak/
@@ -14,7 +16,7 @@ Zeilenumbruchzeichen: „\x000b“ oder „\v“.
 public static readonly string LineBreak;
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man einem Dokument verschiedene Steuerzeichen hinzufügt.
 
@@ -86,7 +88,5 @@ Assert.AreEqual(Convert.ToChar(ControlChar.ColumnBreak), ControlChar.ColumnBreak
 ### Siehe auch
 
 * class [ControlChar](../)
-* namensraum [Aspose.Words](../../controlchar/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

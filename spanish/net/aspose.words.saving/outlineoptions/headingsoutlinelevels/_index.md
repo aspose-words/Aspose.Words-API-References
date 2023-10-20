@@ -1,7 +1,9 @@
 ---
 title: OutlineOptions.HeadingsOutlineLevels
-second_title: Referencia de API de Aspose.Words para .NET
-description: OutlineOptions propiedad. Especifica cuántos niveles de encabezados párrafos formateados con los estilos de encabezado se incluirán en el esquema del documento .
+linktitle: HeadingsOutlineLevels
+articleTitle: HeadingsOutlineLevels
+second_title: Aspose.Words para .NET
+description: OutlineOptions HeadingsOutlineLevels propiedad. Especifica cuántos niveles de encabezados párrafos formateados con los estilos de encabezado se incluirán en el esquema del documento  en C#.
 type: docs
 weight: 70
 url: /es/net/aspose.words.saving/outlineoptions/headingsoutlinelevels/
@@ -14,13 +16,13 @@ Especifica cuántos niveles de encabezados (párrafos formateados con los estilo
 public int HeadingsOutlineLevels { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 Especifique 0 si no hay títulos en el esquema; especifique 1 para un nivel de títulos en el esquema y así sucesivamente.
 
 El valor predeterminado es 0. El rango válido es de 0 a 9.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo convertir un documento completo a PDF con tres niveles en el esquema del documento.
 
@@ -79,7 +81,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.ExpandedOutlineLevels.pdf", options);
 ### Ver también
 
 * class [OutlineOptions](../)
-* espacio de nombres [Aspose.Words.Saving](../../outlineoptions/)
+* espacio de nombres [Aspose.Words.Saving](../../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../../)
-
-

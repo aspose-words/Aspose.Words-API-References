@@ -1,12 +1,14 @@
 ---
 title: DocumentBuilder.InsertDocument
-second_title: Aspose.Words for .NET API 参考
-description: DocumentBuilder 方法. 在光标位置插入文档
+linktitle: InsertDocument
+articleTitle: InsertDocument
+second_title: 用于 .NET 的 Aspose.Words
+description: DocumentBuilder InsertDocument 方法. 在光标位置插入文档 在 C#.
 type: docs
 weight: 310
 url: /zh/net/aspose.words/documentbuilder/insertdocument/
 ---
-## InsertDocument(Document, ImportFormatMode) {#insertdocument}
+## InsertDocument(*[Document](../../document/), [ImportFormatMode](../../importformatmode/)*) {#insertdocument}
 
 在光标位置插入文档。
 
@@ -23,11 +25,11 @@ public Node InsertDocument(Document srcDoc, ImportFormatMode importFormatMode)
 
 插入内容的第一个节点。
 
-### 评论
+## 评论
 
 此方法模仿 MS Word 行为，就好像按下了 CTRL+'A'（选择所有内容）， 然后在一个文档内按 CTRL+'C'（将所选内容复制到缓冲区中） ，然后按 CTRL+'V'（从文档中插入内容）缓冲区）在另一个文档中。
 
-### 例子
+## 例子
 
 演示如何将一个文档插入到另一个文档中。
 
@@ -50,12 +52,12 @@ builder.Document.Save(ArtifactsDir + "DocumentBuilder.InsertDocument.docx");
 * class [Document](../../document/)
 * enum [ImportFormatMode](../../importformatmode/)
 * class [DocumentBuilder](../)
-* 命名空间 [Aspose.Words](../../documentbuilder/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## InsertDocument(Document, ImportFormatMode, ImportFormatOptions) {#insertdocument_1}
+## InsertDocument(*[Document](../../document/), [ImportFormatMode](../../importformatmode/), [ImportFormatOptions](../../importformatoptions/)*) {#insertdocument_1}
 
 在光标位置插入文档。
 
@@ -74,11 +76,11 @@ public Node InsertDocument(Document srcDoc, ImportFormatMode importFormatMode,
 
 插入内容的第一个节点。
 
-### 评论
+## 评论
 
 此方法模仿 MS Word 行为，就好像按下了 CTRL+'A'（选择所有内容）， 然后在一个文档内按 CTRL+'C'（将所选内容复制到缓冲区中） ，然后按 CTRL+'V'（从文档中插入内容）缓冲区）在另一个文档中。
 
-### 例子
+## 例子
 
 演示如何在插入文档时解决重复样式。
 
@@ -117,7 +119,5 @@ dstDoc.Save(ArtifactsDir + "DocumentBuilder.SmartStyleBehavior.docx");
 * enum [ImportFormatMode](../../importformatmode/)
 * class [ImportFormatOptions](../../importformatoptions/)
 * class [DocumentBuilder](../)
-* 命名空间 [Aspose.Words](../../documentbuilder/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

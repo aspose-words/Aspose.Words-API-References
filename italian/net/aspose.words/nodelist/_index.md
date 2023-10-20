@@ -1,7 +1,9 @@
 ---
-title: Class NodeList
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.NodeList classe. Rappresenta una raccolta di nodi che corrispondono a una query XPath eseguita utilizzando ilSelectNodes metodo.
+title: NodeList Class
+linktitle: NodeList
+articleTitle: NodeList
+second_title: Aspose.Words per .NET
+description: Aspose.Words.NodeList classe. Rappresenta una raccolta di nodi che corrispondono a una query XPath eseguita utilizzando ilSelectNodes metodo in C#.
 type: docs
 weight: 4220
 url: /it/net/aspose.words/nodelist/
@@ -30,7 +32,7 @@ public class NodeList : IEnumerable<Node>
 | [GetEnumerator](../../aspose.words/nodelist/getenumerator/)() | Fornisce una semplice iterazione di stile "foreach" sulla raccolta di nodi. |
 | [ToArray](../../aspose.words/nodelist/toarray/)() | Copia tutti i nodi dalla raccolta in un nuovo array di nodi. |
 
-### Osservazioni
+## Osservazioni
 
 `NodeList` viene restituito da[`SelectNodes`](../compositenode/selectnodes/) e contiene una raccolta di nodi che corrispondono alla query XPath.
 
@@ -38,7 +40,7 @@ public class NodeList : IEnumerable<Node>
 
 Trattare il`NodeList` raccolta come raccolta "istantanea".`NodeList`inizia come raccolta "live" perché i nodi non vengono effettivamente recuperati quando viene eseguita la query XPath. I nodi vengono recuperati solo al momento dell'accesso e in questo momento il nodo e tutti i nodi che lo precedono vengono memorizzati nella cache formando una raccolta "istantanea".
 
-### Esempi
+## Esempi
 
 Mostra come trovare tutti i collegamenti ipertestuali in un documento di Word e quindi modificarne gli URL e i nomi visualizzati.
 
@@ -257,5 +259,3 @@ namespace ApiExamples
 * class [Node](../node/)
 * spazio dei nomi [Aspose.Words](../../aspose.words/)
 * assemblea [Aspose.Words](../../)
-
-

@@ -1,12 +1,14 @@
 ---
 title: DocumentBuilder.InsertChart
-second_title: Aspose.Words für .NET-API-Referenz
-description: DocumentBuilder methode. Fügt ein Diagrammobjekt in das Dokument ein und skaliert es auf die angegebene Größe.
+linktitle: InsertChart
+articleTitle: InsertChart
+second_title: Aspose.Words für .NET
+description: DocumentBuilder InsertChart methode. Fügt ein Diagrammobjekt in das Dokument ein und skaliert es auf die angegebene Größe in C#.
 type: docs
 weight: 280
 url: /de/net/aspose.words/documentbuilder/insertchart/
 ---
-## InsertChart(ChartType, double, double) {#insertchart_1}
+## InsertChart(*[ChartType](../../../aspose.words.drawing.charts/charttype/), double, double*) {#insertchart_1}
 
 Fügt ein Diagrammobjekt in das Dokument ein und skaliert es auf die angegebene Größe.
 
@@ -24,11 +26,11 @@ public Shape InsertChart(ChartType chartType, double width, double height)
 
 Der Bildknoten, der gerade eingefügt wurde.
 
-### Bemerkungen
+## Bemerkungen
 
 Sie können die Bildgröße, Position, Positionierungsmethode und andere Einstellungen mit dem ändern[`Shape`](../../../aspose.words.drawing/shape/) Von dieser Methode zurückgegebenes Objekt.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man ein Kreisdiagramm in ein Dokument einfügt.
 
@@ -51,12 +53,12 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertPieChart.docx");
 * class [Shape](../../../aspose.words.drawing/shape/)
 * enum [ChartType](../../../aspose.words.drawing.charts/charttype/)
 * class [DocumentBuilder](../)
-* namensraum [Aspose.Words](../../documentbuilder/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
 
 ---
 
-## InsertChart(ChartType, RelativeHorizontalPosition, double, RelativeVerticalPosition, double, double, double, WrapType) {#insertchart}
+## InsertChart(*[ChartType](../../../aspose.words.drawing.charts/charttype/), [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/), double, [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/), double, double, double, [WrapType](../../../aspose.words.drawing/wraptype/)*) {#insertchart}
 
 Fügt ein Diagrammobjekt in das Dokument ein und skaliert es auf die angegebene Größe.
 
@@ -80,11 +82,11 @@ public Shape InsertChart(ChartType chartType, RelativeHorizontalPosition horzPos
 
 Der Bildknoten, der gerade eingefügt wurde.
 
-### Bemerkungen
+## Bemerkungen
 
 Sie können die Bildgröße, Position, Positionierungsmethode und andere Einstellungen mit dem ändern[`Shape`](../../../aspose.words.drawing/shape/) Von dieser Methode zurückgegebenes Objekt.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man beim Einfügen eines Diagramms Position und Umbruch angibt.
 
@@ -106,7 +108,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertedChartRelativePosition.docx");
 * enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/)
 * enum [WrapType](../../../aspose.words.drawing/wraptype/)
 * class [DocumentBuilder](../)
-* namensraum [Aspose.Words](../../documentbuilder/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

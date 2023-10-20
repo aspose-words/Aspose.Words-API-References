@@ -1,7 +1,9 @@
 ---
 title: BookmarkCollection.RemoveAt
-second_title: Aspose.Words for .NET API 参考
-description: BookmarkCollection 方法. 删除指定索引处的书签
+linktitle: RemoveAt
+articleTitle: RemoveAt
+second_title: 用于 .NET 的 Aspose.Words
+description: BookmarkCollection RemoveAt 方法. 删除指定索引处的书签 在 C#.
 type: docs
 weight: 60
 url: /zh/net/aspose.words/bookmarkcollection/removeat/
@@ -18,7 +20,7 @@ public void RemoveAt(int index)
 | --- | --- | --- |
 | index | Int32 | 要删除的书签的从零开始的索引。 |
 
-### 例子
+## 例子
 
 演示如何从文档中删除书签。
 
@@ -79,7 +81,5 @@ Assert.AreEqual("Text inside MyBookmark_1.\r" +
 ### 也可以看看
 
 * class [BookmarkCollection](../)
-* 命名空间 [Aspose.Words](../../bookmarkcollection/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

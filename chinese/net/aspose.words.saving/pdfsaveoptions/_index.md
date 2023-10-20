@@ -1,7 +1,9 @@
 ---
-title: Class PdfSaveOptions
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Saving.PdfSaveOptions 班级. 可用于在将文档保存到Pdf格式.
+title: PdfSaveOptions Class
+linktitle: PdfSaveOptions
+articleTitle: PdfSaveOptions
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Saving.PdfSaveOptions 班级. 可用于在将文档保存到Pdf格式 在 C#.
 type: docs
 weight: 5520
 url: /zh/net/aspose.words.saving/pdfsaveoptions/
@@ -34,7 +36,7 @@ public class PdfSaveOptions : FixedPageSaveOptions
 | [CreateNoteHyperlinks](../../aspose.words.saving/pdfsaveoptions/createnotehyperlinks/) { get; set; } | 指定是否将正文故事中的脚注/尾注引用转换为活动超链接。 单击时，超链接将指向相应的脚注/尾注。 默认为`错误的`. |
 | [CustomPropertiesExport](../../aspose.words.saving/pdfsaveoptions/custompropertiesexport/) { get; set; } | 获取或设置确定方式的值[`CustomDocumentProperties`](../../aspose.words/document/customdocumentproperties/)导出为 PDF 文件。 |
 | [CustomTimeZoneInfo](../../aspose.words.saving/saveoptions/customtimezoneinfo/) { get; set; } | 获取或设置用于日期/时间字段的自定义本地时区。 |
-| [DefaultTemplate](../../aspose.words.saving/saveoptions/defaulttemplate/) { get; set; } | 获取或设置默认模板的路径（包括文件名）。 此属性的默认值为 **空字符串**（Empty). |
+| [DefaultTemplate](../../aspose.words.saving/saveoptions/defaulttemplate/) { get; set; } | 获取或设置默认模板的路径（包括文件名）。 此属性的默认值为**空字符串**（Empty). |
 | [DigitalSignatureDetails](../../aspose.words.saving/pdfsaveoptions/digitalsignaturedetails/) { get; set; } | 获取或设置用于签署输出 PDF 文档的详细信息。 |
 | [DisplayDocTitle](../../aspose.words.saving/pdfsaveoptions/displaydoctitle/) { get; set; } | 一个标志，指定窗口的标题栏是否应显示取自 文档信息字典的标题条目的文档标题。 |
 | [Dml3DEffectsRenderingMode](../../aspose.words.saving/saveoptions/dml3deffectsrenderingmode/) { get; set; } | 获取或设置一个确定如何渲染 3D 效果的值。 |
@@ -87,9 +89,9 @@ public class PdfSaveOptions : FixedPageSaveOptions
 | 姓名 | 描述 |
 | --- | --- |
 | [Clone](../../aspose.words.saving/pdfsaveoptions/clone/)() | 创建此对象的深度克隆。 |
-| override [Equals](../../aspose.words.saving/fixedpagesaveoptions/equals/)(object) | 确定指定对象的值是否等于当前对象。 |
+| override [Equals](../../aspose.words.saving/fixedpagesaveoptions/equals/)(*object*) | 确定指定对象的值是否等于当前对象。 |
 
-### 例子
+## 例子
 
 演示如何使用保存选项属性更改图像颜色。
 
@@ -188,5 +190,3 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.ExpandedOutlineLevels.pdf", options);
 * class [FixedPageSaveOptions](../fixedpagesaveoptions/)
 * 命名空间 [Aspose.Words.Saving](../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../)
-
-

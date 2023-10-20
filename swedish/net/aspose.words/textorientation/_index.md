@@ -1,7 +1,9 @@
 ---
-title: Enum TextOrientation
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.TextOrientation uppräkning. Anger orientering av text på en sida i en tabellcell eller en textram.
+title: TextOrientation Enum
+linktitle: TextOrientation
+articleTitle: TextOrientation
+second_title: Aspose.Words för .NET
+description: Aspose.Words.TextOrientation uppräkning. Anger orientering av text på en sida i en tabellcell eller en textram i C#.
 type: docs
 weight: 6430
 url: /sv/net/aspose.words/textorientation/
@@ -25,7 +27,7 @@ public enum TextOrientation
 | VerticalFarEast | `5` | Fjärran Östern-tecken visas vertikala, annan text roteras 90 grader till höger för att visas uppifrån och ned (tb-rl-v). |
 | VerticalRotatedFarEast | `7` | Fjärran Östern-tecken visas vertikala, annan text roteras 90 grader åt höger för att visas uppifrån och ned vertikalt, sedan från vänster till höger horisontellt (tb-lr-v). |
 
-### Exempel
+## Exempel
 
 Visar hur man bygger en formaterad 2x2-tabell.
 
@@ -72,5 +74,3 @@ doc.Save(ArtifactsDir + "DocumentBuilder.BuildTable.docx");
 
 * namnutrymme [Aspose.Words](../../aspose.words/)
 * hopsättning [Aspose.Words](../../)
-
-

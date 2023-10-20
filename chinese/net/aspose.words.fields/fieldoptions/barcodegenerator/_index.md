@@ -1,7 +1,9 @@
 ---
 title: FieldOptions.BarcodeGenerator
-second_title: Aspose.Words for .NET API 参考
-description: FieldOptions 财产. 获取或设置自定义条形码生成器
+linktitle: BarcodeGenerator
+articleTitle: BarcodeGenerator
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldOptions BarcodeGenerator 财产. 获取或设置自定义条形码生成器 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.fields/fieldoptions/barcodegenerator/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.fields/fieldoptions/barcodegenerator/
 public IBarcodeGenerator BarcodeGenerator { get; set; }
 ```
 
-### 评论
+## 评论
 
 自定义条形码生成器应实现公共接口[`IBarcodeGenerator`](../../ibarcodegenerator/).
 
-### 例子
+## 例子
 
 展示如何使用条形码生成器。
 
@@ -95,7 +97,5 @@ doc.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.docx");
 
 * interface [IBarcodeGenerator](../../ibarcodegenerator/)
 * class [FieldOptions](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldoptions/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

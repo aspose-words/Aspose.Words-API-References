@@ -1,7 +1,9 @@
 ---
 title: InlineStory.LastParagraph
-second_title: Aspose.Words för .NET API Referens
-description: InlineStory fast egendom. Hämtar det sista stycket i berättelsen.
+linktitle: LastParagraph
+articleTitle: LastParagraph
+second_title: Aspose.Words för .NET
+description: InlineStory LastParagraph fast egendom. Hämtar det sista stycket i berättelsen i C#.
 type: docs
 weight: 70
 url: /sv/net/aspose.words/inlinestory/lastparagraph/
@@ -14,7 +16,7 @@ Hämtar det sista stycket i berättelsen.
 public Paragraph LastParagraph { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man infogar InlineStory-noder.
 
@@ -74,7 +76,5 @@ doc.Save(ArtifactsDir + "InlineStory.InsertInlineStoryNodes.docx");
 
 * class [Paragraph](../../paragraph/)
 * class [InlineStory](../)
-* namnutrymme [Aspose.Words](../../inlinestory/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

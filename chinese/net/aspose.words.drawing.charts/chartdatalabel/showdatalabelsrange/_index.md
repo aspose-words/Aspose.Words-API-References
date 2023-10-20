@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabel.ShowDataLabelsRange
-second_title: Aspose.Words for .NET API 参考
-description: ChartDataLabel 财产. 允许指定数据标签范围内的值是否显示在数据标签中 默认值为错误的.
+linktitle: ShowDataLabelsRange
+articleTitle: ShowDataLabelsRange
+second_title: 用于 .NET 的 Aspose.Words
+description: ChartDataLabel ShowDataLabelsRange 财产. 允许指定数据标签范围内的值是否显示在数据标签中 默认值为错误的 在 C#.
 type: docs
 weight: 100
 url: /zh/net/aspose.words.drawing.charts/chartdatalabel/showdatalabelsrange/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.drawing.charts/chartdatalabel/showdatalabelsrange/
 public bool ShowDataLabelsRange { get; set; }
 ```
 
-### 例子
+## 例子
 
 展示如何将标签应用到折线图中的数据点。
 
@@ -92,7 +94,5 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
 ### 也可以看看
 
 * class [ChartDataLabel](../)
-* 命名空间 [Aspose.Words.Drawing.Charts](../../chartdatalabel/)
+* 命名空间 [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * 部件 [Aspose.Words](../../../)
-
-

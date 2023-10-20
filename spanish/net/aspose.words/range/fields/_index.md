@@ -1,7 +1,9 @@
 ---
 title: Range.Fields
-second_title: Referencia de API de Aspose.Words para .NET
-description: Range propiedad. Devuelve unFields colección que representa todos los campos del rango.
+linktitle: Fields
+articleTitle: Fields
+second_title: Aspose.Words para .NET
+description: Range Fields propiedad. Devuelve unFields colección que representa todos los campos del rango en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words/range/fields/
@@ -18,7 +20,5 @@ public FieldCollection Fields { get; }
 
 * class [FieldCollection](../../../aspose.words.fields/fieldcollection/)
 * class [Range](../)
-* espacio de nombres [Aspose.Words](../../range/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

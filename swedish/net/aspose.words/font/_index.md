@@ -1,7 +1,9 @@
 ---
-title: Class Font
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Font klass. Innehåller teckensnittsattribut teckensnittsnamn teckenstorlek färg och så vidare för ett objekt.
+title: Font Class
+linktitle: Font
+articleTitle: Font
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Font klass. Innehåller teckensnittsattribut teckensnittsnamn teckenstorlek färg och så vidare för ett objekt i C#.
 type: docs
 weight: 2830
 url: /sv/net/aspose.words/font/
@@ -80,13 +82,13 @@ public class Font
 | namn | Beskrivning |
 | --- | --- |
 | [ClearFormatting](../../aspose.words/font/clearformatting/)() | Återställer till standardtypsnittsformatering. |
-| [HasDmlEffect](../../aspose.words/font/hasdmleffect/)(TextDmlEffect) | Kontrollerar om en viss DrawingML-texteffekt tillämpas. |
+| [HasDmlEffect](../../aspose.words/font/hasdmleffect/)(*[TextDmlEffect](../textdmleffect/)*) | Kontrollerar om en viss DrawingML-texteffekt tillämpas. |
 
-### Anmärkningar
+## Anmärkningar
 
 Du skapar inte instanser av`Font`klass direkt. Du använder bara `Font` för att komma åt teckensnittsegenskaperna för de olika objekten som t.ex[`Run`](../run/) , [`Paragraph`](../paragraph/) ,[`Style`](../style/) ,[`DocumentBuilder`](../documentbuilder/).
 
-### Exempel
+## Exempel
 
 Visar hur man formaterar en serie text med dess teckensnittsegenskap.
 
@@ -149,5 +151,3 @@ builder.Document.Save(ArtifactsDir + "Styles.ParagraphStyleBulletedList.docx");
 
 * namnutrymme [Aspose.Words](../../aspose.words/)
 * hopsättning [Aspose.Words](../../)
-
-

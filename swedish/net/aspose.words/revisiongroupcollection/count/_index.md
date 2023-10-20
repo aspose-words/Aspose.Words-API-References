@@ -1,7 +1,9 @@
 ---
 title: RevisionGroupCollection.Count
-second_title: Aspose.Words för .NET API Referens
-description: RevisionGroupCollection fast egendom. Returnerar antalet revisionsgrupper i samlingen.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words för .NET
+description: RevisionGroupCollection Count fast egendom. Returnerar antalet revisionsgrupper i samlingen i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words/revisiongroupcollection/count/
@@ -14,7 +16,7 @@ Returnerar antalet revisionsgrupper i samlingen.
 public int Count { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man skriver ut information om en grupp revisioner i ett dokument.
 
@@ -33,7 +35,5 @@ foreach (RevisionGroup group in doc.Revisions.Groups)
 ### Se även
 
 * class [RevisionGroupCollection](../)
-* namnutrymme [Aspose.Words](../../revisiongroupcollection/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

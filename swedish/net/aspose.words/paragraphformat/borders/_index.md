@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.Borders
-second_title: Aspose.Words för .NET API Referens
-description: ParagraphFormat fast egendom. Hämtar samling av kanter för stycket.
+linktitle: Borders
+articleTitle: Borders
+second_title: Aspose.Words för .NET
+description: ParagraphFormat Borders fast egendom. Hämtar samling av kanter för stycket i C#.
 type: docs
 weight: 60
 url: /sv/net/aspose.words/paragraphformat/borders/
@@ -14,7 +16,7 @@ Hämtar samling av kanter för stycket.
 public BorderCollection Borders { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man infogar ett stycke med en övre kant.
 
@@ -38,7 +40,5 @@ doc.Save(ArtifactsDir + "Border.ParagraphTopBorder.docx");
 
 * class [BorderCollection](../../bordercollection/)
 * class [ParagraphFormat](../)
-* namnutrymme [Aspose.Words](../../paragraphformat/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

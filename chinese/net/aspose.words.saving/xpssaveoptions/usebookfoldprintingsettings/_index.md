@@ -1,7 +1,9 @@
 ---
 title: XpsSaveOptions.UseBookFoldPrintingSettings
-second_title: Aspose.Words for .NET API 参考
-description: XpsSaveOptions 财产. 获取或设置一个布尔值指示是否应使用小册子打印布局保存文档 如果通过指定MultiplePages.
+linktitle: UseBookFoldPrintingSettings
+articleTitle: UseBookFoldPrintingSettings
+second_title: 用于 .NET 的 Aspose.Words
+description: XpsSaveOptions UseBookFoldPrintingSettings 财产. 获取或设置一个布尔值指示是否应使用小册子打印布局保存文档 如果通过指定MultiplePages 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.saving/xpssaveoptions/usebookfoldprintingsettings/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.saving/xpssaveoptions/usebookfoldprintingsettings/
 public bool UseBookFoldPrintingSettings { get; set; }
 ```
 
-### 评论
+## 评论
 
 如果指定此选项，[`PageSet`](../../fixedpagesaveoptions/pageset/)保存时被忽略。 此行为与 MS Word 匹配。 如果页面设置中未指定书籍折叠打印设置，则此选项将不起作用。
 
-### 例子
+## 例子
 
 演示如何以书本折叠的形式将文档保存为 XPS 格式。
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "XpsSaveOptions.BookFold.xps", xpsOptions);
 ### 也可以看看
 
 * class [XpsSaveOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../xpssaveoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

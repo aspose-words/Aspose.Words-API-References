@@ -1,7 +1,9 @@
 ---
 title: Node.Accept
-second_title: Справочник по API Aspose.Words для .NET
-description: Node метод. Принимает посетителя.
+linktitle: Accept
+articleTitle: Accept
+second_title: Aspose.Words для .NET
+description: Node Accept метод. Принимает посетителя на С#.
 type: docs
 weight: 90
 url: /ru/net/aspose.words/node/accept/
@@ -22,13 +24,13 @@ public abstract bool Accept(DocumentVisitor visitor)
 
 Истинно, если были посещены все узлы; ложь, если[`DocumentVisitor`](../../documentvisitor/) остановил операцию перед посещением всех узлов.
 
-### Примечания
+## Примечания
 
 Перечисляет этот узел и все его дочерние элементы. Каждый узел вызывает соответствующий метод[`DocumentVisitor`](../../documentvisitor/).
 
 Дополнительные сведения см. в шаблоне проектирования «Посетитель».
 
-### Примеры
+## Примеры
 
 Показывает, как использовать реализацию DocumentVisitor для удаления всего скрытого содержимого из документа.
 
@@ -225,7 +227,5 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
 
 * class [DocumentVisitor](../../documentvisitor/)
 * class [Node](../)
-* пространство имен [Aspose.Words](../../node/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

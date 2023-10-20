@@ -1,7 +1,9 @@
 ---
-title: Class Font
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Font 班级. 包含对象的字体属性字体名称字体大小颜色等
+title: Font Class
+linktitle: Font
+articleTitle: Font
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Font 班级. 包含对象的字体属性字体名称字体大小颜色等 在 C#.
 type: docs
 weight: 2830
 url: /zh/net/aspose.words/font/
@@ -80,13 +82,13 @@ public class Font
 | 姓名 | 描述 |
 | --- | --- |
 | [ClearFormatting](../../aspose.words/font/clearformatting/)() | 重置为默认字体格式。 |
-| [HasDmlEffect](../../aspose.words/font/hasdmleffect/)(TextDmlEffect) | 检查是否应用了特定的 DrawingML 文本效果。 |
+| [HasDmlEffect](../../aspose.words/font/hasdmleffect/)(*[TextDmlEffect](../textdmleffect/)*) | 检查是否应用了特定的 DrawingML 文本效果。 |
 
-### 评论
+## 评论
 
 您不创建实例`Font`直接上课。你只需使用 `Font`访问各种对象的字体属性，例如[`Run`](../run/), [`Paragraph`](../paragraph/),[`Style`](../style/),[`DocumentBuilder`](../documentbuilder/)。
 
-### 例子
+## 例子
 
 演示如何使用其字体属性设置文本串的格式。
 
@@ -149,5 +151,3 @@ builder.Document.Save(ArtifactsDir + "Styles.ParagraphStyleBulletedList.docx");
 
 * 命名空间 [Aspose.Words](../../aspose.words/)
 * 部件 [Aspose.Words](../../)
-
-

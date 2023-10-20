@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.ShapeType
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ShapeBase propriété. Obtient le type de forme.
+linktitle: ShapeType
+articleTitle: ShapeType
+second_title: Aspose.Words pour .NET
+description: ShapeBase ShapeType propriété. Obtient le type de forme en C#.
 type: docs
 weight: 500
 url: /fr/net/aspose.words.drawing/shapebase/shapetype/
@@ -14,7 +16,7 @@ Obtient le type de forme.
 public ShapeType ShapeType { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment créer un groupe de formes et imprimer son contenu à l’aide d’un visiteur de document.
 
@@ -106,7 +108,5 @@ public class ShapeGroupPrinter : DocumentVisitor
 
 * enum [ShapeType](../../shapetype/)
 * class [ShapeBase](../)
-* espace de noms [Aspose.Words.Drawing](../../shapebase/)
+* espace de noms [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.HangingPunctuation
-second_title: Справочник по API Aspose.Words для .NET
-description: ParagraphFormat свойство. Получает или задает флаг указывающий включена ли висячая пунктуация для текущего абзаца.
+linktitle: HangingPunctuation
+articleTitle: HangingPunctuation
+second_title: Aspose.Words для .NET
+description: ParagraphFormat HangingPunctuation свойство. Получает или задает флаг указывающий включена ли висячая пунктуация для текущего абзаца на С#.
 type: docs
 weight: 130
 url: /ru/net/aspose.words/paragraphformat/hangingpunctuation/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/paragraphformat/hangingpunctuation/
 public bool HangingPunctuation { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как установить специальные свойства для азиатской типографики.
 
@@ -32,7 +34,5 @@ doc.Save(ArtifactsDir + "ParagraphFormat.AsianTypographyProperties.docx");
 ### Смотрите также
 
 * class [ParagraphFormat](../)
-* пространство имен [Aspose.Words](../../paragraphformat/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

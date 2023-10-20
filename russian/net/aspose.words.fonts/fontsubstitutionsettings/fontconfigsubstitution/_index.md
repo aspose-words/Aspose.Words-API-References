@@ -1,7 +1,9 @@
 ---
 title: FontSubstitutionSettings.FontConfigSubstitution
-second_title: Справочник по API Aspose.Words для .NET
-description: FontSubstitutionSettings свойство. Настройки связанные с правилом замены конфигурации шрифта.
+linktitle: FontConfigSubstitution
+articleTitle: FontConfigSubstitution
+second_title: Aspose.Words для .NET
+description: FontSubstitutionSettings FontConfigSubstitution свойство. Настройки связанные с правилом замены конфигурации шрифта на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.fonts/fontsubstitutionsettings/fontconfigsubstitution/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fonts/fontsubstitutionsettings/fontconfigsubstitution/
 public FontConfigSubstitutionRule FontConfigSubstitution { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает замену конфигурации шрифтов в зависимости от операционной системы.
 
@@ -51,7 +53,5 @@ if (isLinuxOrMac)
 
 * class [FontConfigSubstitutionRule](../../fontconfigsubstitutionrule/)
 * class [FontSubstitutionSettings](../)
-* пространство имен [Aspose.Words.Fonts](../../fontsubstitutionsettings/)
+* пространство имен [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * сборка [Aspose.Words](../../../)
-
-

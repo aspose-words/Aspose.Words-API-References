@@ -1,7 +1,9 @@
 ---
 title: MailMergeRegionInfo.StartField
-second_title: Referencia de API de Aspose.Words para .NET
-description: MailMergeRegionInfo propiedad. Devuelve un campo inicial para la región.
+linktitle: StartField
+articleTitle: StartField
+second_title: Aspose.Words para .NET
+description: MailMergeRegionInfo StartField propiedad. Devuelve un campo inicial para la región en C#.
 type: docs
 weight: 90
 url: /es/net/aspose.words.mailmerging/mailmergeregioninfo/startfield/
@@ -14,7 +16,7 @@ Devuelve un campo inicial para la región.
 public FieldMergeField StartField { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo verificar regiones de combinación de correspondencia.
 
@@ -60,7 +62,5 @@ Assert.AreEqual("TableEnd:NestedRegion1", endFieldMergeField.FieldName);
 
 * class [FieldMergeField](../../../aspose.words.fields/fieldmergefield/)
 * class [MailMergeRegionInfo](../)
-* espacio de nombres [Aspose.Words.MailMerging](../../mailmergeregioninfo/)
+* espacio de nombres [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * asamblea [Aspose.Words](../../../)
-
-

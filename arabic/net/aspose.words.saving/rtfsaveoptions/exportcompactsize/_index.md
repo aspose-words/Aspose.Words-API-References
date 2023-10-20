@@ -1,7 +1,9 @@
 ---
 title: RtfSaveOptions.ExportCompactSize
-second_title: Aspose.Words لمراجع .NET API
-description: RtfSaveOptions ملكية. يسمح بتصغير حجم مستندات RTF الناتجة ولكن إذا كانت تحتوي على نص RTL من اليمين إلى اليسار فلن يتم عرضه بشكل صحيح. القيمة الافتراضية هيخطأ شنيع .
+linktitle: ExportCompactSize
+articleTitle: ExportCompactSize
+second_title: Aspose.Words لـ .NET
+description: RtfSaveOptions ExportCompactSize ملكية. يسمح بتصغير حجم مستندات RTF الناتجة ولكن إذا كانت تحتوي على نص RTL من اليمين إلى اليسار فلن يتم عرضه بشكل صحيح. القيمة الافتراضية هيخطأ شنيع  في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.saving/rtfsaveoptions/exportcompactsize/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.saving/rtfsaveoptions/exportcompactsize/
 public bool ExportCompactSize { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 إذا كانت الوثيقة التي تريد تحويلها إلى RTF باستخدام Aspose.Words لا تحتوي على نص من اليمين إلى اليسار بلغات مثل العربية، فيمكنك ضبط هذا الخيار على`حقيقي` لتقليل حجم RTF الناتج.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية حفظ مستند إلى .rtf مع خيارات مخصصة.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "RtfSaveOptions.ExportImages.rtf", options);
 ### أنظر أيضا
 
 * class [RtfSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../rtfsaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

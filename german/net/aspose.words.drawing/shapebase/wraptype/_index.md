@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.WrapType
-second_title: Aspose.Words für .NET-API-Referenz
-description: ShapeBase eigendom. Definiert ob die Form inline oder schwebend ist. Für schwebende Formen definiert den Umbruchmodus für Text um die Form.
+linktitle: WrapType
+articleTitle: WrapType
+second_title: Aspose.Words für .NET
+description: ShapeBase WrapType eigendom. Definiert ob die Form inline oder schwebend ist. Für schwebende Formen definiert den Umbruchmodus für Text um die Form in C#.
 type: docs
 weight: 600
 url: /de/net/aspose.words.drawing/shapebase/wraptype/
@@ -14,13 +16,13 @@ Definiert, ob die Form inline oder schwebend ist. Für schwebende Formen definie
 public WrapType WrapType { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Der Standardwert istNone.
 
 Hat nur Auswirkungen auf Formen der obersten Ebene.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man ein schwebendes Bild in der Mitte einer Seite einfügt.
 
@@ -72,7 +74,5 @@ doc.Save(ArtifactsDir + "Shape.CreateTextBox.docx");
 
 * enum [WrapType](../../wraptype/)
 * class [ShapeBase](../)
-* namensraum [Aspose.Words.Drawing](../../shapebase/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

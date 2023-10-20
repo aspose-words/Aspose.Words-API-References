@@ -1,7 +1,9 @@
 ---
 title: FieldAdvance.VerticalPosition
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldAdvance propiedad. Obtiene o establece el número de puntos en los que el texto que sigue al campo debe moverse verticalmente desde el borde superior de la página.
+linktitle: VerticalPosition
+articleTitle: VerticalPosition
+second_title: Aspose.Words para .NET
+description: FieldAdvance VerticalPosition propiedad. Obtiene o establece el número de puntos en los que el texto que sigue al campo debe moverse verticalmente desde el borde superior de la página en C#.
 type: docs
 weight: 70
 url: /es/net/aspose.words.fields/fieldadvance/verticalposition/
@@ -14,7 +16,7 @@ Obtiene o establece el número de puntos en los que el texto que sigue al campo 
 public string VerticalPosition { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo insertar un campo AVANZADO y editar sus propiedades.
 
@@ -59,7 +61,5 @@ doc.Save(ArtifactsDir + "Field.ADVANCE.docx");
 ### Ver también
 
 * class [FieldAdvance](../)
-* espacio de nombres [Aspose.Words.Fields](../../fieldadvance/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,9 +1,11 @@
 ---
 title: Style.Styles
-second_title: Aspose.Words لمراجع .NET API
-description: Style ملكية. الحصول على مجموعة الأنماط التي ينتمي إليها هذا النمط.
+linktitle: Styles
+articleTitle: Styles
+second_title: Aspose.Words لـ .NET
+description: Style Styles ملكية. الحصول على مجموعة الأنماط التي ينتمي إليها هذا النمط في C#.
 type: docs
-weight: 170
+weight: 160
 url: /ar/net/aspose.words/style/styles/
 ---
 ## Style.Styles property
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/style/styles/
 public StyleCollection Styles { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الوصول إلى مجموعة أنماط المستند.
 
@@ -43,7 +45,5 @@ using (IEnumerator<Style> stylesEnum = doc.Styles.GetEnumerator())
 
 * class [StyleCollection](../../stylecollection/)
 * class [Style](../)
-* مساحة الاسم [Aspose.Words](../../style/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

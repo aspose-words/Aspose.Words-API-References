@@ -1,7 +1,9 @@
 ---
 title: LayoutOptions.ShowParagraphMarks
-second_title: Aspose.Words für .NET-API-Referenz
-description: LayoutOptions eigendom. Ruft den Hinweis ab ob Absatzmarken gerendert werden oder legt diesen fest. Der Standardwert istFALSCH .
+linktitle: ShowParagraphMarks
+articleTitle: ShowParagraphMarks
+second_title: Aspose.Words für .NET
+description: LayoutOptions ShowParagraphMarks eigendom. Ruft den Hinweis ab ob Absatzmarken gerendert werden oder legt diesen fest. Der Standardwert istFALSCH  in C#.
 type: docs
 weight: 90
 url: /de/net/aspose.words.layout/layoutoptions/showparagraphmarks/
@@ -14,7 +16,7 @@ Ruft den Hinweis ab, ob Absatzmarken gerendert werden, oder legt diesen fest. De
 public bool ShowParagraphMarks { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Absatzmarken in einem gerenderten Ausgabedokument angezeigt werden.
 
@@ -34,7 +36,5 @@ doc.Save(ArtifactsDir + "Document.LayoutOptionsParagraphMarks.pdf");
 ### Siehe auch
 
 * class [LayoutOptions](../)
-* namensraum [Aspose.Words.Layout](../../layoutoptions/)
+* namensraum [Aspose.Words.Layout](../../../aspose.words.layout/)
 * Montage [Aspose.Words](../../../)
-
-

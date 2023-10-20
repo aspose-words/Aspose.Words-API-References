@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.FontsFolderAlias
-second_title: Référence de l'API Aspose.Words pour .NET
-description: HtmlSaveOptions propriété. Spécifie le nom du dossier utilisé pour construire les URI de police écrits dans un document HTML. La valeur par défaut est une chaîne vide.
+linktitle: FontsFolderAlias
+articleTitle: FontsFolderAlias
+second_title: Aspose.Words pour .NET
+description: HtmlSaveOptions FontsFolderAlias propriété. Spécifie le nom du dossier utilisé pour construire les URI de police écrits dans un document HTML. La valeur par défaut est une chaîne vide en C#.
 type: docs
 weight: 320
 url: /fr/net/aspose.words.saving/htmlsaveoptions/fontsfolderalias/
@@ -14,7 +16,7 @@ Spécifie le nom du dossier utilisé pour construire les URI de police écrits d
 public string FontsFolderAlias { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 Lorsque vous enregistrez un[`Document`](../../../aspose.words/document/) au format HTML et[`ExportFontResources`](../exportfontresources/) est défini sur`vrai` , Aspose.Words doit enregistrer les polices utilisées dans le document en tant que fichiers autonomes. [`FontsFolder`](../fontsfolder/) permet de préciser où seront enregistrées les polices et `FontsFolderAlias` permet de spécifier comment les URI de police seront construits.
 
@@ -26,7 +28,7 @@ Si`FontsFolderAlias`est réglé sur '.' (point), alors le nom du fichier de poli
 
 Une autre façon de spécifier le nom du dossier pour construire la police URIs consiste à utiliser[`ResourceFolderAlias`](../resourcefolderalias/).
 
-### Exemples
+## Exemples
 
 Montre comment définir des dossiers et des alias de dossier pour les ressources enregistrées en externe qu'Aspose.Words créera lors de l'enregistrement d'un document au format HTML.
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "HtmlSaveOptions.FolderAlias.html", options);
 ### Voir également
 
 * class [HtmlSaveOptions](../)
-* espace de noms [Aspose.Words.Saving](../../htmlsaveoptions/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

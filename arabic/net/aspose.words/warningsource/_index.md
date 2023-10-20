@@ -1,7 +1,9 @@
 ---
-title: Enum WarningSource
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.WarningSource تعداد. يحدد الوحدة النمطية التي تنتج تحذيرًا أثناء تحميل المستند أو حفظه.
+title: WarningSource Enum
+linktitle: WarningSource
+articleTitle: WarningSource
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.WarningSource تعداد. يحدد الوحدة النمطية التي تنتج تحذيرًا أثناء تحميل المستند أو حفظه في C#.
 type: docs
 weight: 6650
 url: /ar/net/aspose.words/warningsource/
@@ -51,5 +53,3 @@ public enum WarningSource
 
 * مساحة الاسم [Aspose.Words](../../aspose.words/)
 * المجسم [Aspose.Words](../../)
-
-

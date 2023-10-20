@@ -1,7 +1,9 @@
 ---
 title: ImageFieldMergingArgs.ImageFileName
-second_title: Aspose.Words for .NET API 参考
-description: ImageFieldMergingArgs 财产. 设置邮件合并引擎必须插入到文档中的图像的文件名
+linktitle: ImageFileName
+articleTitle: ImageFileName
+second_title: 用于 .NET 的 Aspose.Words
+description: ImageFieldMergingArgs ImageFileName 财产. 设置邮件合并引擎必须插入到文档中的图像的文件名 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.mailmerging/imagefieldmergingargs/imagefilename/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.mailmerging/imagefieldmergingargs/imagefilename/
 public string ImageFileName { get; set; }
 ```
 
-### 例子
+## 例子
 
 展示如何在 MERGEFIELDS 在邮件合并期间接受图像时设置图像尺寸。
 
@@ -84,7 +86,5 @@ private class MergedImageResizer : IFieldMergingCallback
 ### 也可以看看
 
 * class [ImageFieldMergingArgs](../)
-* 命名空间 [Aspose.Words.MailMerging](../../imagefieldmergingargs/)
+* 命名空间 [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * 部件 [Aspose.Words](../../../)
-
-

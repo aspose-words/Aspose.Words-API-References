@@ -1,7 +1,9 @@
 ---
 title: FieldDatabase.Connection
-second_title: Aspose.Words for .NET API 参考
-description: FieldDatabase 财产. 获取或设置与数据的连接
+linktitle: Connection
+articleTitle: Connection
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldDatabase Connection 财产. 获取或设置与数据的连接 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.fields/fielddatabase/connection/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fielddatabase/connection/
 public string Connection { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何从数据库中提取数据并将其作为字段插入到文档中。
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "Field.DATABASE.docx");
 ### 也可以看看
 
 * class [FieldDatabase](../)
-* 命名空间 [Aspose.Words.Fields](../../fielddatabase/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: AxisDisplayUnit.Unit
-second_title: Référence de l'API Aspose.Words pour .NET
-description: AxisDisplayUnit propriété. Obtient ou définit la valeur de mise à léchelle des unités daffichage comme lune des valeurs prédéfinies.
+linktitle: Unit
+articleTitle: Unit
+second_title: Aspose.Words pour .NET
+description: AxisDisplayUnit Unit propriété. Obtient ou définit la valeur de mise à léchelle des unités daffichage comme lune des valeurs prédéfinies en C#.
 type: docs
 weight: 40
 url: /fr/net/aspose.words.drawing.charts/axisdisplayunit/unit/
@@ -14,11 +16,11 @@ Obtient ou définit la valeur de mise à l'échelle des unités d'affichage comm
 public AxisBuiltInUnit Unit { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 La valeur par défaut estNone . LeCustom et Percentage les valeurs ne sont pas disponibles dans certains types de graphiques ; voir [`AxisBuiltInUnit`](../../axisbuiltinunit/) pour plus d'informations.
 
-### Exemples
+## Exemples
 
 Montre comment manipuler les graduations et les valeurs affichées d’un axe de graphique.
 
@@ -77,7 +79,5 @@ doc.Save(ArtifactsDir + "Charts.AxisDisplayUnit.docx");
 
 * enum [AxisBuiltInUnit](../../axisbuiltinunit/)
 * class [AxisDisplayUnit](../)
-* espace de noms [Aspose.Words.Drawing.Charts](../../axisdisplayunit/)
+* espace de noms [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Assemblée [Aspose.Words](../../../)
-
-

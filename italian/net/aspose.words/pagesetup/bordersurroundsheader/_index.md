@@ -1,7 +1,9 @@
 ---
 title: PageSetup.BorderSurroundsHeader
-second_title: Aspose.Words per .NET API Reference
-description: PageSetup proprietà. Specifica se il bordo della pagina include o esclude lintestazione.
+linktitle: BorderSurroundsHeader
+articleTitle: BorderSurroundsHeader
+second_title: Aspose.Words per .NET
+description: PageSetup BorderSurroundsHeader proprietà. Specifica se il bordo della pagina include o esclude lintestazione in C#.
 type: docs
 weight: 70
 url: /it/net/aspose.words/pagesetup/bordersurroundsheader/
@@ -14,11 +16,11 @@ Specifica se il bordo della pagina include o esclude l'intestazione.
 public bool BorderSurroundsHeader { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Nota: la modifica di questa proprietà influisce su tutte le sezioni del documento.
 
-### Esempi
+## Esempi
 
 Mostra come applicare un bordo alla pagina e all'intestazione/piè di pagina.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "PageSetup.PageBorder.docx");
 ### Guarda anche
 
 * class [PageSetup](../)
-* spazio dei nomi [Aspose.Words](../../pagesetup/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: HyphenationOptions.AutoHyphenation
-second_title: Aspose.Words per .NET API Reference
-description: HyphenationOptions proprietà. Ottiene o imposta un valore che determina se la sillabazione automatica è attivata per il documento. Il valore predefinito per questa proprietà èfalso .
+linktitle: AutoHyphenation
+articleTitle: AutoHyphenation
+second_title: Aspose.Words per .NET
+description: HyphenationOptions AutoHyphenation proprietà. Ottiene o imposta un valore che determina se la sillabazione automatica è attivata per il documento. Il valore predefinito per questa proprietà èfalso  in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words.settings/hyphenationoptions/autohyphenation/
@@ -14,7 +16,7 @@ Ottiene o imposta un valore che determina se la sillabazione automatica è attiv
 public bool AutoHyphenation { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come configurare la sillabazione automatica.
 
@@ -37,7 +39,5 @@ doc.Save(ArtifactsDir + "Document.HyphenationOptions.docx");
 ### Guarda anche
 
 * class [HyphenationOptions](../)
-* spazio dei nomi [Aspose.Words.Settings](../../hyphenationoptions/)
+* spazio dei nomi [Aspose.Words.Settings](../../../aspose.words.settings/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: NodeCollection.Remove
-second_title: Aspose.Words لمراجع .NET API
-description: NodeCollection طريقة. إزالة العقدة من المجموعة ومن المستند.
+linktitle: Remove
+articleTitle: Remove
+second_title: Aspose.Words لـ .NET
+description: NodeCollection Remove طريقة. إزالة العقدة من المجموعة ومن المستند في C#.
 type: docs
 weight: 90
 url: /ar/net/aspose.words/nodecollection/remove/
@@ -18,7 +20,7 @@ public void Remove(Node node)
 | --- | --- | --- |
 | node | Node | العقدة المراد إزالتها. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع NodeCollection.
 
@@ -56,7 +58,5 @@ Assert.False(runs.Contains(run));
 
 * class [Node](../../node/)
 * class [NodeCollection](../)
-* مساحة الاسم [Aspose.Words](../../nodecollection/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

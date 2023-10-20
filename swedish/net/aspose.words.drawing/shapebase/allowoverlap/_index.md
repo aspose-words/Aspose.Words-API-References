@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.AllowOverlap
-second_title: Aspose.Words för .NET API Referens
-description: ShapeBase fast egendom. Hämtar eller ställer in ett värde som anger om denna form kan överlappa andra former.
+linktitle: AllowOverlap
+articleTitle: AllowOverlap
+second_title: Aspose.Words för .NET
+description: ShapeBase AllowOverlap fast egendom. Hämtar eller ställer in ett värde som anger om denna form kan överlappa andra former i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.drawing/shapebase/allowoverlap/
@@ -14,7 +16,7 @@ Hämtar eller ställer in ett värde som anger om denna form kan överlappa andr
 public bool AllowOverlap { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Den här egenskapen påverkar beteendet hos formen i Microsoft Word. Aspose.Words ignorerar värdet på den här egenskapen.
 
@@ -22,7 +24,7 @@ Den här egenskapen är endast tillämplig på former på toppnivå.
 
 Standardvärdet är`Sann`.
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med egenskaper för flytande tabeller.
 
@@ -50,7 +52,5 @@ if (table.TextWrapping == TextWrapping.Around)
 ### Se även
 
 * class [ShapeBase](../)
-* namnutrymme [Aspose.Words.Drawing](../../shapebase/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

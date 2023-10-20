@@ -1,7 +1,9 @@
 ---
 title: VbaReferenceCollection.Count
-second_title: Aspose.Words för .NET API Referens
-description: VbaReferenceCollection fast egendom. Returnerar antalet VBAreferenser i samlingen.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words för .NET
+description: VbaReferenceCollection Count fast egendom. Returnerar antalet VBAreferenser i samlingen i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.vba/vbareferencecollection/count/
@@ -14,7 +16,7 @@ Returnerar antalet VBA-referenser i samlingen.
 public int Count { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man hämtar/tar bort ett element från VBA-referenssamlingen.
 
@@ -88,7 +90,5 @@ private static string GetLibIdProjectPath(string libIdProject)
 ### Se även
 
 * class [VbaReferenceCollection](../)
-* namnutrymme [Aspose.Words.Vba](../../vbareferencecollection/)
+* namnutrymme [Aspose.Words.Vba](../../../aspose.words.vba/)
 * hopsättning [Aspose.Words](../../../)
-
-

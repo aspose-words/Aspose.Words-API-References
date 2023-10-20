@@ -1,7 +1,9 @@
 ---
-title: Class FontInfo
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Fonts.FontInfo classe. Specifica le informazioni su un carattere utilizzato nel documento.
+title: FontInfo Class
+linktitle: FontInfo
+articleTitle: FontInfo
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Fonts.FontInfo classe. Specifica le informazioni su un carattere utilizzato nel documento in C#.
 type: docs
 weight: 2920
 url: /it/net/aspose.words.fonts/fontinfo/
@@ -32,14 +34,14 @@ public class FontInfo
 
 | Nome | Descrizione |
 | --- | --- |
-| [GetEmbeddedFont](../../aspose.words.fonts/fontinfo/getembeddedfont/)(EmbeddedFontFormat, EmbeddedFontStyle) | Ottiene un file di caratteri incorporato specifico. |
-| [GetEmbeddedFontAsOpenType](../../aspose.words.fonts/fontinfo/getembeddedfontasopentype/)(EmbeddedFontStyle) | Ottiene un file di caratteri incorporato in formato OpenType. I caratteri nel formato Embedded OpenType vengono convertiti in OpenType. |
+| [GetEmbeddedFont](../../aspose.words.fonts/fontinfo/getembeddedfont/)(*[EmbeddedFontFormat](../embeddedfontformat/), [EmbeddedFontStyle](../embeddedfontstyle/)*) | Ottiene un file di caratteri incorporato specifico. |
+| [GetEmbeddedFontAsOpenType](../../aspose.words.fonts/fontinfo/getembeddedfontasopentype/)(*[EmbeddedFontStyle](../embeddedfontstyle/)*) | Ottiene un file di caratteri incorporato in formato OpenType. I caratteri nel formato Embedded OpenType vengono convertiti in OpenType. |
 
-### Osservazioni
+## Osservazioni
 
 Non crei direttamente istanze di questa classe. Usa il[`FontInfos`](../../aspose.words/documentbase/fontinfos/) proprietà per accedere alla raccolta di caratteri definiti in un documento.
 
-### Esempi
+## Esempi
 
 Mostra come stampare i dettagli di quali caratteri sono presenti in un documento.
 
@@ -60,5 +62,3 @@ for (int i = 0; i < allFonts.Count; i++)
 
 * spazio dei nomi [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * assemblea [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitCommentRangeEnd
-second_title: Aspose.Words لمراجع .NET API
-description: DocumentVisitor طريقة. يتم استدعاؤه عند مواجهة نهاية نطاق النص الذي تم التعليق عليه.
+linktitle: VisitCommentRangeEnd
+articleTitle: VisitCommentRangeEnd
+second_title: Aspose.Words لـ .NET
+description: DocumentVisitor VisitCommentRangeEnd طريقة. يتم استدعاؤه عند مواجهة نهاية نطاق النص الذي تم التعليق عليه في C#.
 type: docs
 weight: 110
 url: /ar/net/aspose.words/documentvisitor/visitcommentrangeend/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitCommentRangeEnd(CommentRangeEnd commentRangeEn
 
 أ[`VisitorAction`](../../visitoraction/) القيمة التي تحدد كيفية متابعة التعداد.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية طباعة بنية العقدة لكل تعليق ونطاق التعليقات في المستند.
 
@@ -143,7 +145,5 @@ public class CommentStructurePrinter : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [CommentRangeEnd](../../commentrangeend/)
 * class [DocumentVisitor](../)
-* مساحة الاسم [Aspose.Words](../../documentvisitor/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

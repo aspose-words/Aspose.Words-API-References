@@ -1,7 +1,9 @@
 ---
 title: XmlMapping.PrefixMappings
-second_title: Aspose.Words für .NET-API-Referenz
-description: XmlMapping eigendom. Gibt XMLNamespacePräfixzuordnungen zur Auswertung zurückXPath .
+linktitle: PrefixMappings
+articleTitle: PrefixMappings
+second_title: Aspose.Words für .NET
+description: XmlMapping PrefixMappings eigendom. Gibt XMLNamespacePräfixzuordnungen zur Auswertung zurückXPath  in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.markup/xmlmapping/prefixmappings/
@@ -14,11 +16,11 @@ Gibt XML-Namespace-Präfixzuordnungen zur Auswertung zurück[`XPath`](../xpath/)
 public string PrefixMappings { get; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Gibt den Satz von Präfixzuordnungen an, die zur Interpretation des XPath-Ausdrucks verwendet werden sollen, wenn der XPath-Ausdruck anhand der benutzerdefinierten XML-Datenteile im Dokument ausgewertet wird.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie XML-Zuordnungen für benutzerdefinierte XML-Teile festgelegt werden.
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.XmlMapping.docx");
 ### Siehe auch
 
 * class [XmlMapping](../)
-* namensraum [Aspose.Words.Markup](../../xmlmapping/)
+* namensraum [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Montage [Aspose.Words](../../../)
-
-

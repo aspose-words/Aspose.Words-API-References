@@ -1,7 +1,9 @@
 ---
-title: Interface INodeChangingCallback
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.INodeChangingCallback gränssnitt. Implementera detta gränssnitt om du vill få meddelanden när noder infogas eller tas bort i dokumentet.
+title: INodeChangingCallback Interface
+linktitle: INodeChangingCallback
+articleTitle: INodeChangingCallback
+second_title: Aspose.Words för .NET
+description: Aspose.Words.INodeChangingCallback gränssnitt. Implementera detta gränssnitt om du vill få meddelanden när noder infogas eller tas bort i dokumentet i C#.
 type: docs
 weight: 3200
 url: /sv/net/aspose.words/inodechangingcallback/
@@ -18,12 +20,12 @@ public interface INodeChangingCallback
 
 | namn | Beskrivning |
 | --- | --- |
-| [NodeInserted](../../aspose.words/inodechangingcallback/nodeinserted/)(NodeChangingArgs) | Anropas när en nod som tillhör detta dokument har infogats i en annan nod. |
-| [NodeInserting](../../aspose.words/inodechangingcallback/nodeinserting/)(NodeChangingArgs) | Anropas precis innan en nod som tillhör detta dokument är på väg att infogas i en annan nod. |
-| [NodeRemoved](../../aspose.words/inodechangingcallback/noderemoved/)(NodeChangingArgs) | Anropas när en nod som tillhör detta dokument har tagits bort från sin överordnade. |
-| [NodeRemoving](../../aspose.words/inodechangingcallback/noderemoving/)(NodeChangingArgs) | Anropas precis innan en nod som tillhör detta dokument är på väg att tas bort från dokumentet. |
+| [NodeInserted](../../aspose.words/inodechangingcallback/nodeinserted/)(*[NodeChangingArgs](../nodechangingargs/)*) | Anropas när en nod som tillhör detta dokument har infogats i en annan nod. |
+| [NodeInserting](../../aspose.words/inodechangingcallback/nodeinserting/)(*[NodeChangingArgs](../nodechangingargs/)*) | Anropas precis innan en nod som tillhör detta dokument är på väg att infogas i en annan nod. |
+| [NodeRemoved](../../aspose.words/inodechangingcallback/noderemoved/)(*[NodeChangingArgs](../nodechangingargs/)*) | Anropas när en nod som tillhör detta dokument har tagits bort från sin överordnade. |
+| [NodeRemoving](../../aspose.words/inodechangingcallback/noderemoving/)(*[NodeChangingArgs](../nodechangingargs/)*) | Anropas precis innan en nod som tillhör detta dokument är på väg att tas bort från dokumentet. |
 
-### Exempel
+## Exempel
 
 Visar hur du anpassar nodbyte med en återuppringning.
 
@@ -101,5 +103,3 @@ public class HandleNodeChangingFontChanger : INodeChangingCallback
 
 * namnutrymme [Aspose.Words](../../aspose.words/)
 * hopsättning [Aspose.Words](../../)
-
-

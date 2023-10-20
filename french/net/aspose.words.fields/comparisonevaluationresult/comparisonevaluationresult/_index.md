@@ -1,12 +1,14 @@
 ---
-title: ComparisonEvaluationResult.ComparisonEvaluationResult
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ComparisonEvaluationResult constructeur. Crée un résultat dévaluation de comparaison.
+title: ComparisonEvaluationResult
+linktitle: ComparisonEvaluationResult
+articleTitle: ComparisonEvaluationResult
+second_title: Aspose.Words pour .NET
+description: ComparisonEvaluationResult constructeur. Crée un résultat dévaluation de comparaison en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.fields/comparisonevaluationresult/comparisonevaluationresult/
 ---
-## ComparisonEvaluationResult(bool) {#constructor}
+## ComparisonEvaluationResult(*bool*) {#constructor}
 
 Crée un résultat d'évaluation de comparaison.
 
@@ -14,7 +16,7 @@ Crée un résultat d'évaluation de comparaison.
 public ComparisonEvaluationResult(bool result)
 ```
 
-### Exemples
+## Exemples
 
 Montre comment implémenter une évaluation personnalisée pour les champs IF et COMPARE.
 
@@ -98,12 +100,12 @@ private class ComparisonExpressionEvaluator : IComparisonExpressionEvaluator
 ### Voir également
 
 * class [ComparisonEvaluationResult](../)
-* espace de noms [Aspose.Words.Fields](../../comparisonevaluationresult/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
 
 ---
 
-## ComparisonEvaluationResult(string) {#constructor_1}
+## ComparisonEvaluationResult(*string*) {#constructor_1}
 
 Crée un résultat d'évaluation de comparaison ayant échoué avec le message d'erreur correspondant.
 
@@ -111,7 +113,7 @@ Crée un résultat d'évaluation de comparaison ayant échoué avec le message d
 public ComparisonEvaluationResult(string errorMessage)
 ```
 
-### Exemples
+## Exemples
 
 Montre comment implémenter une évaluation personnalisée pour les champs IF et COMPARE.
 
@@ -195,7 +197,5 @@ private class ComparisonExpressionEvaluator : IComparisonExpressionEvaluator
 ### Voir également
 
 * class [ComparisonEvaluationResult](../)
-* espace de noms [Aspose.Words.Fields](../../comparisonevaluationresult/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

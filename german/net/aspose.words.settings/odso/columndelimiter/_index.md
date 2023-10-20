@@ -1,7 +1,9 @@
 ---
 title: Odso.ColumnDelimiter
-second_title: Aspose.Words für .NET-API-Referenz
-description: Odso eigendom. Gibt das Zeichen an das als Spaltentrennzeichen interpretiert werden soll das zum Trennen von Spalten in externen Datenquellen verwendet wird. Der Standardwert ist 0 was bedeutet dass kein Spaltentrennzeichen definiert ist.
+linktitle: ColumnDelimiter
+articleTitle: ColumnDelimiter
+second_title: Aspose.Words für .NET
+description: Odso ColumnDelimiter eigendom. Gibt das Zeichen an das als Spaltentrennzeichen interpretiert werden soll das zum Trennen von Spalten in externen Datenquellen verwendet wird. Der Standardwert ist 0 was bedeutet dass kein Spaltentrennzeichen definiert ist in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.settings/odso/columndelimiter/
@@ -14,11 +16,11 @@ Gibt das Zeichen an, das als Spaltentrennzeichen interpretiert werden soll, das 
 public char ColumnDelimiter { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 RK Ich habe das noch nie im Einsatz gesehen.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Serienbrief mit Daten aus einem Office-Datenquellenobjekt ausgeführt wird.
 
@@ -70,7 +72,5 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ### Siehe auch
 
 * class [Odso](../)
-* namensraum [Aspose.Words.Settings](../../odso/)
+* namensraum [Aspose.Words.Settings](../../../aspose.words.settings/)
 * Montage [Aspose.Words](../../../)
-
-

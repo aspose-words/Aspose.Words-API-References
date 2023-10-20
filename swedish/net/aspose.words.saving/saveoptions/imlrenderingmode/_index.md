@@ -1,7 +1,9 @@
 ---
 title: SaveOptions.ImlRenderingMode
-second_title: Aspose.Words för .NET API Referens
-description: SaveOptions fast egendom. Hämtar eller ställer in ett värde som bestämmer hur bläckobjekt InkML renderas.
+linktitle: ImlRenderingMode
+articleTitle: ImlRenderingMode
+second_title: Aspose.Words för .NET
+description: SaveOptions ImlRenderingMode fast egendom. Hämtar eller ställer in ett värde som bestämmer hur bläckobjekt InkML renderas i C#.
 type: docs
 weight: 90
 url: /sv/net/aspose.words.saving/saveoptions/imlrenderingmode/
@@ -14,13 +16,13 @@ Hämtar eller ställer in ett värde som bestämmer hur bläckobjekt (InkML) ren
 public ImlRenderingMode ImlRenderingMode { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Standardvärdet ärInkML .
 
 Den här egenskapen används när dokumentet exporteras till fasta sidformat.
 
-### Exempel
+## Exempel
 
 Visar hur man renderar Ink-objekt.
 
@@ -42,7 +44,5 @@ doc.Save(ArtifactsDir + "ImageSaveOptions.RenderInkObject.jpeg", saveOptions);
 
 * enum [ImlRenderingMode](../../imlrenderingmode/)
 * class [SaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../saveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

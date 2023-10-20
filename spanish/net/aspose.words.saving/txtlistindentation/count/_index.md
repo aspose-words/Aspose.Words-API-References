@@ -1,7 +1,9 @@
 ---
 title: TxtListIndentation.Count
-second_title: Referencia de API de Aspose.Words para .NET
-description: TxtListIndentation propiedad. Obtiene o establece cuántosCharacter para usar como sangría por nivel de lista. El valor predeterminado es 0 eso significa que no hay sangría.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words para .NET
+description: TxtListIndentation Count propiedad. Obtiene o establece cuántosCharacter para usar como sangría por nivel de lista. El valor predeterminado es 0 eso significa que no hay sangría en C#.
 type: docs
 weight: 30
 url: /es/net/aspose.words.saving/txtlistindentation/count/
@@ -14,7 +16,7 @@ Obtiene o establece cuántos[`Character`](../character/) para usar como sangría
 public int Count { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo configurar la sangría de lista al guardar un documento en texto sin formato.
 
@@ -54,7 +56,5 @@ Assert.AreEqual("1. Item 1\r\n" +
 ### Ver también
 
 * class [TxtListIndentation](../)
-* espacio de nombres [Aspose.Words.Saving](../../txtlistindentation/)
+* espacio de nombres [Aspose.Words.Saving](../../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../../)
-
-

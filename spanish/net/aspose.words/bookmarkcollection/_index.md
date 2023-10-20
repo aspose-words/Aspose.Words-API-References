@@ -1,7 +1,9 @@
 ---
-title: Class BookmarkCollection
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.BookmarkCollection clase. Una colección deBookmark objetos que representan los marcadores en el rango especificado.
+title: BookmarkCollection Class
+linktitle: BookmarkCollection
+articleTitle: BookmarkCollection
+second_title: Aspose.Words para .NET
+description: Aspose.Words.BookmarkCollection clase. Una colección deBookmark objetos que representan los marcadores en el rango especificado en C#.
 type: docs
 weight: 50
 url: /es/net/aspose.words/bookmarkcollection/
@@ -29,11 +31,11 @@ public class BookmarkCollection : IEnumerable<Bookmark>
 | --- | --- |
 | [Clear](../../aspose.words/bookmarkcollection/clear/)() | Elimina todos los marcadores de esta colección y del documento. |
 | [GetEnumerator](../../aspose.words/bookmarkcollection/getenumerator/)() | Devuelve un objeto enumerador. |
-| [Remove](../../aspose.words/bookmarkcollection/remove/#remove)(Bookmark) | Elimina el marcador especificado del documento. |
-| [Remove](../../aspose.words/bookmarkcollection/remove/#remove_1)(string) | Elimina un marcador con el nombre especificado. |
-| [RemoveAt](../../aspose.words/bookmarkcollection/removeat/)(int) | Elimina un marcador en el índice especificado. |
+| [Remove](../../aspose.words/bookmarkcollection/remove/#remove)(*[Bookmark](../bookmark/)*) | Elimina el marcador especificado del documento. |
+| [Remove](../../aspose.words/bookmarkcollection/remove/#remove_1)(*string*) | Elimina un marcador con el nombre especificado. |
+| [RemoveAt](../../aspose.words/bookmarkcollection/removeat/)(*int*) | Elimina un marcador en el índice especificado. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo agregar marcadores y actualizar su contenido.
 
@@ -124,5 +126,3 @@ public class BookmarkInfoPrinter : DocumentVisitor
 * class [Bookmark](../bookmark/)
 * espacio de nombres [Aspose.Words](../../aspose.words/)
 * asamblea [Aspose.Words](../../)
-
-

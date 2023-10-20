@@ -1,9 +1,11 @@
 ---
 title: Document.UpdateListLabels
-second_title: Aspose.Words för .NET API Referens
-description: Document metod. Uppdaterar listetiketter för alla listobjekt i dokumentet.
+linktitle: UpdateListLabels
+articleTitle: UpdateListLabels
+second_title: Aspose.Words för .NET
+description: Document UpdateListLabels metod. Uppdaterar listetiketter för alla listobjekt i dokumentet i C#.
 type: docs
-weight: 780
+weight: 760
 url: /sv/net/aspose.words/document/updatelistlabels/
 ---
 ## Document.UpdateListLabels method
@@ -14,13 +16,13 @@ Uppdaterar listetiketter för alla listobjekt i dokumentet.
 public void UpdateListLabels()
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Denna metod uppdaterar listetikettegenskaper som t.ex[`LabelValue`](../../../aspose.words.lists/listlabel/labelvalue/) och [`LabelString`](../../../aspose.words.lists/listlabel/labelstring/) för varje[`ListLabel`](../../paragraph/listlabel/)objekt i dokumentet.
 
 Även denna metod kallas ibland implicit när fält i dokumentet uppdateras. Detta är required eftersom vissa fält som kan referera till listnummer (som TOC eller REF) behöver dem vara uppdaterade.
 
-### Exempel
+## Exempel
 
 Visar hur man extraherar listetiketterna för alla stycken som är listobjekt.
 
@@ -55,7 +57,5 @@ foreach (Paragraph paragraph in paras.OfType<Paragraph>().Where(p => p.ListForma
 ### Se även
 
 * class [Document](../)
-* namnutrymme [Aspose.Words](../../document/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.InsertBreak
-second_title: Aspose.Words per .NET API Reference
-description: DocumentBuilder metodo. Inserisce uninterruzione del tipo specificato nel documento.
+linktitle: InsertBreak
+articleTitle: InsertBreak
+second_title: Aspose.Words per .NET
+description: DocumentBuilder InsertBreak metodo. Inserisce uninterruzione del tipo specificato nel documento in C#.
 type: docs
 weight: 260
 url: /it/net/aspose.words/documentbuilder/insertbreak/
@@ -18,11 +20,11 @@ public void InsertBreak(BreakType breakType)
 | --- | --- | --- |
 | breakType | BreakType | Specifica il tipo di interruzione da inserire. |
 
-### Osservazioni
+## Osservazioni
 
 Utilizza questo metodo per inserire un paragrafo, una pagina, una colonna, una sezione o un'interruzione di riga nel documento.
 
-### Esempi
+## Esempi
 
 Mostra come creare intestazioni e piè di pagina in un documento utilizzando DocumentBuilder.
 
@@ -132,7 +134,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertToc.docx");
 
 * enum [BreakType](../../breaktype/)
 * class [DocumentBuilder](../)
-* spazio dei nomi [Aspose.Words](../../documentbuilder/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class FontConfigSubstitutionRule
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Fonts.FontConfigSubstitutionRule clase. Regla de sustitución de configuración de fuente.
+title: FontConfigSubstitutionRule Class
+linktitle: FontConfigSubstitutionRule
+articleTitle: FontConfigSubstitutionRule
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Fonts.FontConfigSubstitutionRule clase. Regla de sustitución de configuración de fuente en C#.
 type: docs
 weight: 2890
 url: /es/net/aspose.words.fonts/fontconfigsubstitutionrule/
@@ -29,13 +31,13 @@ public class FontConfigSubstitutionRule : FontSubstitutionRule
 | [IsFontConfigAvailable](../../aspose.words.fonts/fontconfigsubstitutionrule/isfontconfigavailable/)() | Compruebe si la utilidad fontconfig está disponible o no. |
 | [ResetCache](../../aspose.words.fonts/fontconfigsubstitutionrule/resetcache/)() | Restablece el caché de los resultados de llamadas de fontconfig. |
 
-### Observaciones
+## Observaciones
 
 Esta regla utiliza la utilidad fontconfig en Linux (y otras plataformas similares a Unix) para obtener la sustitución si la fuente original no está disponible.
 
 Si la utilidad fontconfig no está disponible, esta regla se ignorará.
 
-### Ejemplos
+## Ejemplos
 
 Muestra la sustitución de configuración de fuentes dependiente del sistema operativo.
 
@@ -73,5 +75,3 @@ if (isLinuxOrMac)
 * class [FontSubstitutionRule](../fontsubstitutionrule/)
 * espacio de nombres [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * asamblea [Aspose.Words](../../)
-
-

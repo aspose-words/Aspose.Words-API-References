@@ -1,7 +1,9 @@
 ---
 title: Table.HorizontalAnchor
-second_title: Aspose.Words لمراجع .NET API
-description: Table ملكية. يحصل على الكائن الأساسي الذي يجب حساب الموضع الأفقي للجدول العائم منه. القيمة الافتراضية هيColumn .
+linktitle: HorizontalAnchor
+articleTitle: HorizontalAnchor
+second_title: Aspose.Words لـ .NET
+description: Table HorizontalAnchor ملكية. يحصل على الكائن الأساسي الذي يجب حساب الموضع الأفقي للجدول العائم منه. القيمة الافتراضية هيColumn  في C#.
 type: docs
 weight: 170
 url: /ar/net/aspose.words.tables/table/horizontalanchor/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.tables/table/horizontalanchor/
 public RelativeHorizontalPosition HorizontalAnchor { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع خصائص الجداول العائمة.
 
@@ -43,7 +45,5 @@ if (table.TextWrapping == TextWrapping.Around)
 
 * enum [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/)
 * class [Table](../)
-* مساحة الاسم [Aspose.Words.Tables](../../table/)
+* مساحة الاسم [Aspose.Words.Tables](../../../aspose.words.tables/)
 * المجسم [Aspose.Words](../../../)
-
-

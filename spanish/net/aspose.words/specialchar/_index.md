@@ -1,7 +1,9 @@
 ---
-title: Class SpecialChar
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.SpecialChar clase. Clase base para caracteres especiales en el documento.
+title: SpecialChar Class
+linktitle: SpecialChar
+articleTitle: SpecialChar
+second_title: Aspose.Words para .NET
+description: Aspose.Words.SpecialChar clase. Clase base para caracteres especiales en el documento en C#.
 type: docs
 weight: 6100
 url: /es/net/aspose.words/specialchar/
@@ -40,18 +42,18 @@ public class SpecialChar : Inline
 
 | Nombre | Descripción |
 | --- | --- |
-| override [Accept](../../aspose.words/specialchar/accept/)(DocumentVisitor) | Acepta un visitante. |
-| [Clone](../../aspose.words/node/clone/)(bool) | Crea un duplicado del nodo. |
-| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Obtiene el primer ancestro del especificado[`NodeType`](../nodetype/) . |
-| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Obtiene el primer antepasado del tipo de objeto especificado. |
+| override [Accept](../../aspose.words/specialchar/accept/)(*[DocumentVisitor](../documentvisitor/)*) | Acepta un visitante. |
+| [Clone](../../aspose.words/node/clone/)(*bool*) | Crea un duplicado del nodo. |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*[NodeType](../nodetype/)*) | Obtiene el primer ancestro del especificado[`NodeType`](../nodetype/) . |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | Obtiene el primer antepasado del tipo de objeto especificado. |
 | override [GetText](../../aspose.words/specialchar/gettext/)() | Obtiene el carácter especial que representa este nodo. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Obtiene el siguiente nodo según el algoritmo transversal del árbol de pedidos anticipados. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Obtiene el nodo anterior según el algoritmo transversal del árbol de pedidos anticipados. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../node/)*) | Obtiene el siguiente nodo según el algoritmo transversal del árbol de pedidos anticipados. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../node/)*) | Obtiene el nodo anterior según el algoritmo transversal del árbol de pedidos anticipados. |
 | [Remove](../../aspose.words/node/remove/)() | Se elimina del padre. |
-| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Exporta el contenido del nodo a una cadena en el formato especificado. |
-| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | Exporta el contenido del nodo a una cadena usando las opciones de guardado especificadas. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../saveformat/)*) | Exporta el contenido del nodo a una cadena en el formato especificado. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | Exporta el contenido del nodo a una cadena usando las opciones de guardado especificadas. |
 
-### Observaciones
+## Observaciones
 
 Un documento de Microsoft Word puede incluir una cantidad de caracteres especiales que representan campos, campos de formulario, formas, objetos OLE, notas al pie, etc. Para obtener la lista de caracteres especiales, consulte[`ControlChar`](../controlchar/).
 
@@ -59,7 +61,7 @@ Un documento de Microsoft Word puede incluir una cantidad de caracteres especial
 
 `SpecialChar` char se utiliza como clase base para clases más específicas que representan caracteres especiales para los que Aspose.Words proporciona acceso programático. El`SpecialChar` La clase también se utiliza para representar un carácter especial para el cual Aspose.Words no proporciona acceso programático detallado.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo utilizar una implementación de DocumentVisitor para eliminar todo el contenido oculto de un documento.
 
@@ -257,5 +259,3 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
 * class [Inline](../inline/)
 * espacio de nombres [Aspose.Words](../../aspose.words/)
 * asamblea [Aspose.Words](../../)
-
-

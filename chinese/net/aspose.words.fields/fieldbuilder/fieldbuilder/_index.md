@@ -1,7 +1,9 @@
 ---
-title: FieldBuilder.FieldBuilder
-second_title: Aspose.Words for .NET API 参考
-description: FieldBuilder 构造函数. 初始化一个实例FieldBuilder类.
+title: FieldBuilder
+linktitle: FieldBuilder
+articleTitle: FieldBuilder
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldBuilder 构造函数. 初始化一个实例FieldBuilder类 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.fields/fieldbuilder/fieldbuilder/
@@ -18,7 +20,7 @@ public FieldBuilder(FieldType fieldType)
 | --- | --- | --- |
 | fieldType | FieldType | 要构建的字段的类型。 |
 
-### 例子
+## 例子
 
 演示如何使用字段生成器创建和插入字段。
 
@@ -47,7 +49,5 @@ doc.Save(ArtifactsDir + "Field.CreateWithFieldBuilder.docx");
 
 * enum [FieldType](../../fieldtype/)
 * class [FieldBuilder](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldbuilder/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

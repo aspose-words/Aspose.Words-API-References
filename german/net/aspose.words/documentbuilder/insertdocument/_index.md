@@ -1,12 +1,14 @@
 ---
 title: DocumentBuilder.InsertDocument
-second_title: Aspose.Words für .NET-API-Referenz
-description: DocumentBuilder methode. Fügt ein Dokument an der Cursorposition ein.
+linktitle: InsertDocument
+articleTitle: InsertDocument
+second_title: Aspose.Words für .NET
+description: DocumentBuilder InsertDocument methode. Fügt ein Dokument an der Cursorposition ein in C#.
 type: docs
 weight: 310
 url: /de/net/aspose.words/documentbuilder/insertdocument/
 ---
-## InsertDocument(Document, ImportFormatMode) {#insertdocument}
+## InsertDocument(*[Document](../../document/), [ImportFormatMode](../../importformatmode/)*) {#insertdocument}
 
 Fügt ein Dokument an der Cursorposition ein.
 
@@ -23,11 +25,11 @@ public Node InsertDocument(Document srcDoc, ImportFormatMode importFormatMode)
 
 Erster Knoten des eingefügten Inhalts.
 
-### Bemerkungen
+## Bemerkungen
 
 Diese Methode ahmt das Verhalten von MS Word nach, als ob STRG+'A' (alle Inhalte auswählen) gedrückt würde, dann STRG+'C' (Ausgewählte in den Puffer kopieren) innerhalb eines Dokuments und dann STRG+'V' (Inhalt aus dem einfügen). Puffer) in einem anderen Dokument.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Dokument in ein anderes Dokument eingefügt wird.
 
@@ -50,12 +52,12 @@ builder.Document.Save(ArtifactsDir + "DocumentBuilder.InsertDocument.docx");
 * class [Document](../../document/)
 * enum [ImportFormatMode](../../importformatmode/)
 * class [DocumentBuilder](../)
-* namensraum [Aspose.Words](../../documentbuilder/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
 
 ---
 
-## InsertDocument(Document, ImportFormatMode, ImportFormatOptions) {#insertdocument_1}
+## InsertDocument(*[Document](../../document/), [ImportFormatMode](../../importformatmode/), [ImportFormatOptions](../../importformatoptions/)*) {#insertdocument_1}
 
 Fügt ein Dokument an der Cursorposition ein.
 
@@ -74,11 +76,11 @@ public Node InsertDocument(Document srcDoc, ImportFormatMode importFormatMode,
 
 Erster Knoten des eingefügten Inhalts.
 
-### Bemerkungen
+## Bemerkungen
 
 Diese Methode ahmt das Verhalten von MS Word nach, als ob STRG+'A' (alle Inhalte auswählen) gedrückt würde, dann STRG+'C' (Ausgewählte in den Puffer kopieren) innerhalb eines Dokuments und dann STRG+'V' (Inhalt aus dem einfügen). Puffer) in einem anderen Dokument.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie du doppelte Stile beim Einfügen von Dokumenten auflöst.
 
@@ -117,7 +119,5 @@ dstDoc.Save(ArtifactsDir + "DocumentBuilder.SmartStyleBehavior.docx");
 * enum [ImportFormatMode](../../importformatmode/)
 * class [ImportFormatOptions](../../importformatoptions/)
 * class [DocumentBuilder](../)
-* namensraum [Aspose.Words](../../documentbuilder/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ChartDataPointCollection.Count
-second_title: Aspose.Words för .NET API Referens
-description: ChartDataPointCollection fast egendom. Returnerar antaletChartDataPoint i den här samlingen.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words för .NET
+description: ChartDataPointCollection Count fast egendom. Returnerar antaletChartDataPoint i den här samlingen i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.drawing.charts/chartdatapointcollection/count/
@@ -14,7 +16,7 @@ Returnerar antalet[`ChartDataPoint`](../../chartdatapoint/) i den här samlingen
 public int Count { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med datapunkter på ett linjediagram.
 
@@ -76,7 +78,5 @@ private static void ApplyDataPoints(ChartSeries series, int dataPointsCount, Mar
 ### Se även
 
 * class [ChartDataPointCollection](../)
-* namnutrymme [Aspose.Words.Drawing.Charts](../../chartdatapointcollection/)
+* namnutrymme [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../../)
-
-

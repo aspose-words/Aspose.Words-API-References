@@ -1,7 +1,9 @@
 ---
 title: FieldTC.EntryLevel
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldTC свойство. Получает или задает уровень записи.
+linktitle: EntryLevel
+articleTitle: EntryLevel
+second_title: Aspose.Words для .NET
+description: FieldTC EntryLevel свойство. Получает или задает уровень записи на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.fields/fieldtc/entrylevel/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldtc/entrylevel/
 public string EntryLevel { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как вставить поле TOC и отфильтровать поля TC, которые в конечном итоге станут записями.
 
@@ -66,7 +68,5 @@ public void InsertTocEntry(DocumentBuilder builder, string text, string typeIden
 ### Смотрите также
 
 * class [FieldTC](../)
-* пространство имен [Aspose.Words.Fields](../../fieldtc/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

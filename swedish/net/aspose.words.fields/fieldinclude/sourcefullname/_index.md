@@ -1,7 +1,9 @@
 ---
 title: FieldInclude.SourceFullName
-second_title: Aspose.Words för .NET API Referens
-description: FieldInclude fast egendom. Hämtar eller ställer in platsen för dokumentet.
+linktitle: SourceFullName
+articleTitle: SourceFullName
+second_title: Aspose.Words för .NET
+description: FieldInclude SourceFullName fast egendom. Hämtar eller ställer in platsen för dokumentet i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.fields/fieldinclude/sourcefullname/
@@ -14,7 +16,7 @@ Hämtar eller ställer in platsen för dokumentet.
 public string SourceFullName { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man skapar ett INKLUDERA-fält och ställer in dess egenskaper.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "Field.INCLUDE.docx");
 ### Se även
 
 * class [FieldInclude](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldinclude/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

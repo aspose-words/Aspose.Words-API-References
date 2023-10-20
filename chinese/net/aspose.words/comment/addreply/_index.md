@@ -1,9 +1,11 @@
 ---
 title: Comment.AddReply
-second_title: Aspose.Words for .NET API 参考
-description: Comment 方法. 添加对此评论的回复
+linktitle: AddReply
+articleTitle: AddReply
+second_title: 用于 .NET 的 Aspose.Words
+description: Comment AddReply 方法. 添加对此评论的回复 在 C#.
 type: docs
-weight: 150
+weight: 120
 url: /zh/net/aspose.words/comment/addreply/
 ---
 ## Comment.AddReply method
@@ -25,11 +27,11 @@ public Comment AddReply(string author, string initial, DateTime dateTime, string
 
 所创建的[`Comment`](../)用于回复的节点。
 
-### 评论
+## 评论
 
 由于现有的 MS Office 限制，文档中仅允许 1 级回复。 类型例外InvalidOperationException如果在现有回复评论上 调用此方法，则会引发该问题。
 
-### 例子
+## 例子
 
 演示如何向文档添加评论，然后回复它。
 
@@ -63,7 +65,5 @@ doc.Save(ArtifactsDir + "Comment.AddCommentWithReply.docx");
 ### 也可以看看
 
 * class [Comment](../)
-* 命名空间 [Aspose.Words](../../comment/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,20 +1,22 @@
 ---
 title: IStructuredDocumentTag.Title
-second_title: Aspose.Words för .NET API Referens
-description: IStructuredDocumentTag fast egendom. Anger det vänliga namnet som är associerat med detta SDT . Kan inte vara null.
+linktitle: Title
+articleTitle: Title
+second_title: Aspose.Words för .NET
+description: IStructuredDocumentTag Title fast egendom. Anger det vänliga namnet som är associerat med dettaSDT . Kan inte vara null i C#.
 type: docs
 weight: 110
 url: /sv/net/aspose.words.markup/istructureddocumenttag/title/
 ---
 ## IStructuredDocumentTag.Title property
 
-Anger det vänliga namnet som är associerat med detta **SDT** . Kan inte vara null.
+Anger det vänliga namnet som är associerat med detta**SDT** . Kan inte vara null.
 
 ```csharp
 public string Title { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man får strukturerad dokumenttagg.
 
@@ -34,7 +36,5 @@ Console.WriteLine(sdt.Id);
 ### Se även
 
 * interface [IStructuredDocumentTag](../)
-* namnutrymme [Aspose.Words.Markup](../../istructureddocumenttag/)
+* namnutrymme [Aspose.Words.Markup](../../../aspose.words.markup/)
 * hopsättning [Aspose.Words](../../../)
-
-

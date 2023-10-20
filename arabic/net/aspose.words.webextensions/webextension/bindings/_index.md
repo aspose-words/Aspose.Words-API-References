@@ -1,7 +1,9 @@
 ---
 title: WebExtension.Bindings
-second_title: Aspose.Words لمراجع .NET API
-description: WebExtension ملكية. يحدد قائمة روابط امتدادات الويب.
+linktitle: Bindings
+articleTitle: Bindings
+second_title: Aspose.Words لـ .NET
+description: WebExtension Bindings ملكية. يحدد قائمة روابط امتدادات الويب في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.webextensions/webextension/bindings/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.webextensions/webextension/bindings/
 public WebExtensionBindingCollection Bindings { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إضافة ملحق ويب إلى مستند.
 
@@ -60,7 +62,5 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 
 * class [WebExtensionBindingCollection](../../webextensionbindingcollection/)
 * class [WebExtension](../)
-* مساحة الاسم [Aspose.Words.WebExtensions](../../webextension/)
+* مساحة الاسم [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * المجسم [Aspose.Words](../../../)
-
-

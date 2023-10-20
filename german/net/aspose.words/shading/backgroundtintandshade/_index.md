@@ -1,7 +1,9 @@
 ---
 title: Shading.BackgroundTintAndShade
-second_title: Aspose.Words für .NET-API-Referenz
-description: Shading eigendom. Ruft einen DoubleWert ab oder legt diesen fest der die Hintergrundfarbe eines Themas aufhellt oder abdunkelt.
+linktitle: BackgroundTintAndShade
+articleTitle: BackgroundTintAndShade
+second_title: Aspose.Words für .NET
+description: Shading BackgroundTintAndShade eigendom. Ruft einen DoubleWert ab oder legt diesen fest der die Hintergrundfarbe eines Themas aufhellt oder abdunkelt in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words/shading/backgroundtintandshade/
@@ -14,13 +16,13 @@ Ruft einen Double-Wert ab oder legt diesen fest, der die Hintergrundfarbe eines 
 public double BackgroundTintAndShade { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Die zulässigen Werte für diese Eigenschaft liegen im Bereich von -1 (am dunkelsten) bis 1 (am hellsten). Null (0) ist neutral. Der Versuch, diese Eigenschaft auf einen Wert kleiner als -1 oder mehr als 1 festzulegen, führt zuArgumentOutOfRangeException.
 
 Das Festlegen dieser Eigenschaft für ein Schattierungsobjekt mit Nicht-Theme-Farben führt zuInvalidOperationException.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man Vordergrund- und Hintergrundfarben für die Schattierungstextur festlegt.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "Font.ForegroundAndBackground.docx");
 ### Siehe auch
 
 * class [Shading](../)
-* namensraum [Aspose.Words](../../shading/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

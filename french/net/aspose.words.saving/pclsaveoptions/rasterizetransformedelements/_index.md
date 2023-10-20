@@ -1,7 +1,9 @@
 ---
 title: PclSaveOptions.RasterizeTransformedElements
-second_title: Référence de l'API Aspose.Words pour .NET
-description: PclSaveOptions propriété. Obtient ou définit une valeur déterminant si les éléments transformés complexes doivent être rastérisés avant dêtre enregistrés dans un document PCL. La valeur par défaut estvrai .
+linktitle: RasterizeTransformedElements
+articleTitle: RasterizeTransformedElements
+second_title: Aspose.Words pour .NET
+description: PclSaveOptions RasterizeTransformedElements propriété. Obtient ou définit une valeur déterminant si les éléments transformés complexes doivent être rastérisés avant dêtre enregistrés dans un document PCL. La valeur par défaut estvrai  en C#.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.saving/pclsaveoptions/rasterizetransformedelements/
@@ -14,11 +16,11 @@ Obtient ou définit une valeur déterminant si les éléments transformés compl
 public bool RasterizeTransformedElements { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 PCL ne prend pas en charge certains types de transformations utilisées par Aspose Words. Par exemple, les images pivotées et inclinées et les pinceaux de texture. Pour rendre correctement ces éléments, le processus de rastérisation est utilisé, c'est-à-dire l'enregistrement dans l'image et le découpage. Ce processus peut prendre du temps et de la mémoire supplémentaires. Si l'indicateur est défini sur`FAUX` , certains contenus de la sortie peuvent être différents par rapport au document source.
 
-### Exemples
+## Exemples
 
 Montre comment rastériser des éléments complexes lors de l’enregistrement d’un document au format PCL.
 
@@ -37,7 +39,5 @@ doc.Save(ArtifactsDir + "PclSaveOptions.RasterizeElements.pcl", saveOptions);
 ### Voir également
 
 * class [PclSaveOptions](../)
-* espace de noms [Aspose.Words.Saving](../../pclsaveoptions/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

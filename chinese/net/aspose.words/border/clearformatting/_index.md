@@ -1,7 +1,9 @@
 ---
 title: Border.ClearFormatting
-second_title: Aspose.Words for .NET API 参考
-description: Border 方法. 将边框属性重置为默认值
+linktitle: ClearFormatting
+articleTitle: ClearFormatting
+second_title: 用于 .NET 的 Aspose.Words
+description: Border ClearFormatting 方法. 将边框属性重置为默认值 在 C#.
 type: docs
 weight: 90
 url: /zh/net/aspose.words/border/clearformatting/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words/border/clearformatting/
 public void ClearFormatting()
 ```
 
-### 评论
+## 评论
 
 当边框属性重置为默认值时，边框不可见。
 
-### 例子
+## 例子
 
 演示如何删除段落边框。
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "Border.ClearFormatting.docx");
 ### 也可以看看
 
 * class [Border](../)
-* 命名空间 [Aspose.Words](../../border/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

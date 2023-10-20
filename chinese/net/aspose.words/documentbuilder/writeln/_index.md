@@ -1,12 +1,14 @@
 ---
 title: DocumentBuilder.Writeln
-second_title: Aspose.Words for .NET API 参考
-description: DocumentBuilder 方法. 将字符串和分段符插入到文档中
+linktitle: Writeln
+articleTitle: Writeln
+second_title: 用于 .NET 的 Aspose.Words
+description: DocumentBuilder Writeln 方法. 将字符串和分段符插入到文档中 在 C#.
 type: docs
-weight: 670
+weight: 660
 url: /zh/net/aspose.words/documentbuilder/writeln/
 ---
-## Writeln(string) {#writeln_1}
+## Writeln(*string*) {#writeln_1}
 
 将字符串和分段符插入到文档中。
 
@@ -18,11 +20,11 @@ public void Writeln(string text)
 | --- | --- | --- |
 | text | String | 要插入到文档中的字符串。 |
 
-### 评论
+## 评论
 
 由指定的当前字体和段落格式[`Font`](../font/)和[`ParagraphFormat`](../paragraphformat/)使用属性。
 
-### 例子
+## 例子
 
 演示如何构建格式化的 2x2 表。
 
@@ -68,7 +70,7 @@ doc.Save(ArtifactsDir + "DocumentBuilder.BuildTable.docx");
 ### 也可以看看
 
 * class [DocumentBuilder](../)
-* 命名空间 [Aspose.Words](../../documentbuilder/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
 
 ---
@@ -81,11 +83,11 @@ doc.Save(ArtifactsDir + "DocumentBuilder.BuildTable.docx");
 public void Writeln()
 ```
 
-### 评论
+## 评论
 
 通话[`InsertParagraph`](../insertparagraph/)。
 
-### 例子
+## 例子
 
 演示如何使用 DocumentBuilder 在文档中创建页眉和页脚。
 
@@ -118,7 +120,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.HeadersAndFooters.docx");
 ### 也可以看看
 
 * class [DocumentBuilder](../)
-* 命名空间 [Aspose.Words](../../documentbuilder/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

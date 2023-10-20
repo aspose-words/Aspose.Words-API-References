@@ -1,7 +1,9 @@
 ---
 title: FormField.DropDownSelectedIndex
-second_title: Aspose.Words för .NET API Referens
-description: FormField fast egendom. Hämtar eller ställer in indexet som anger det för närvarande valda objektet i ett rullgardinsfält.
+linktitle: DropDownSelectedIndex
+articleTitle: DropDownSelectedIndex
+second_title: Aspose.Words för .NET
+description: FormField DropDownSelectedIndex fast egendom. Hämtar eller ställer in indexet som anger det för närvarande valda objektet i ett rullgardinsfält i C#.
 type: docs
 weight: 60
 url: /sv/net/aspose.words.fields/formfield/dropdownselectedindex/
@@ -14,7 +16,7 @@ Hämtar eller ställer in indexet som anger det för närvarande valda objektet 
 public int DropDownSelectedIndex { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man infogar olika typer av formulärfält i ett dokument och bearbetar dem med hjälp av en dokumentbesökarimplementering.
 
@@ -148,7 +150,5 @@ public class FormFieldVisitor : DocumentVisitor
 ### Se även
 
 * class [FormField](../)
-* namnutrymme [Aspose.Words.Fields](../../formfield/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

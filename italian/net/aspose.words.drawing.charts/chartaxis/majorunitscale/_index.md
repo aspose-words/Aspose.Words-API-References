@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.MajorUnitScale
-second_title: Aspose.Words per .NET API Reference
-description: ChartAxis proprietà. Restituisce o imposta il valore di scala per i segni di graduazione principali sullasse delle categorie temporali.
+linktitle: MajorUnitScale
+articleTitle: MajorUnitScale
+second_title: Aspose.Words per .NET
+description: ChartAxis MajorUnitScale proprietà. Restituisce o imposta il valore di scala per i segni di graduazione principali sullasse delle categorie temporali in C#.
 type: docs
 weight: 140
 url: /it/net/aspose.words.drawing.charts/chartaxis/majorunitscale/
@@ -14,11 +16,11 @@ Restituisce o imposta il valore di scala per i segni di graduazione principali s
 public AxisTimeUnit MajorUnitScale { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 La proprietà ha effetto solo per gli assi delle categorie temporali.
 
-### Esempi
+## Esempi
 
 Mostra come manipolare i segni di graduazione e i valori visualizzati di un asse del grafico.
 
@@ -77,7 +79,5 @@ doc.Save(ArtifactsDir + "Charts.AxisDisplayUnit.docx");
 
 * enum [AxisTimeUnit](../../axistimeunit/)
 * class [ChartAxis](../)
-* spazio dei nomi [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* spazio dei nomi [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * assemblea [Aspose.Words](../../../)
-
-

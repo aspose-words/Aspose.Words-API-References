@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.LinksUpToDate
-second_title: Aspose.Words لمراجع .NET API
-description: BuiltInDocumentProperties ملكية. يشير إلى ما إذا كانت الارتباطات التشعبية الموجودة في المستند محدثة أم لا.
+linktitle: LinksUpToDate
+articleTitle: LinksUpToDate
+second_title: Aspose.Words لـ .NET
+description: BuiltInDocumentProperties LinksUpToDate ملكية. يشير إلى ما إذا كانت الارتباطات التشعبية الموجودة في المستند محدثة أم لا في C#.
 type: docs
 weight: 190
 url: /ar/net/aspose.words.properties/builtindocumentproperties/linksuptodate/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.properties/builtindocumentproperties/linksuptodate/
 public bool LinksUpToDate { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 لا يقوم Aspose.Words بتحديث هذه الخاصية.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع خصائص المستند في فئة "المحتوى".
 
@@ -128,7 +130,5 @@ private class LineCounter
 ### أنظر أيضا
 
 * class [BuiltInDocumentProperties](../)
-* مساحة الاسم [Aspose.Words.Properties](../../builtindocumentproperties/)
+* مساحة الاسم [Aspose.Words.Properties](../../../aspose.words.properties/)
 * المجسم [Aspose.Words](../../../)
-
-

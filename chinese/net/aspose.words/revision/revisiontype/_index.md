@@ -1,7 +1,9 @@
 ---
 title: Revision.RevisionType
-second_title: Aspose.Words for .NET API 参考
-description: Revision 财产. 获取此修订版本的类型
+linktitle: RevisionType
+articleTitle: RevisionType
+second_title: 用于 .NET 的 Aspose.Words
+description: Revision RevisionType 财产. 获取此修订版本的类型 在 C#.
 type: docs
 weight: 60
 url: /zh/net/aspose.words/revision/revisiontype/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/revision/revisiontype/
 public RevisionType RevisionType { get; }
 ```
 
-### 例子
+## 例子
 
 展示如何处理文档中的修订。
 
@@ -98,7 +100,5 @@ Assert.AreEqual("This is revision #1. \rThis is revision #2.", doc.GetText().Tri
 
 * enum [RevisionType](../../revisiontype/)
 * class [Revision](../)
-* 命名空间 [Aspose.Words](../../revision/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

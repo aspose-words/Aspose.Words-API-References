@@ -1,7 +1,9 @@
 ---
 title: FindReplaceOptions.Direction
-second_title: Справочник по API Aspose.Words для .NET
-description: FindReplaceOptions свойство. Выбирает направление замены. Значение по умолчаниюForward .
+linktitle: Direction
+articleTitle: Direction
+second_title: Aspose.Words для .NET
+description: FindReplaceOptions Direction свойство. Выбирает направление замены. Значение по умолчаниюForward  на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.replacing/findreplaceoptions/direction/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.replacing/findreplaceoptions/direction/
 public FindReplaceDirection Direction { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как определить, в каком направлении проходит операция поиска и замены по документу.
 
@@ -81,7 +83,5 @@ private class TextReplacementRecorder : IReplacingCallback
 
 * enum [FindReplaceDirection](../../findreplacedirection/)
 * class [FindReplaceOptions](../)
-* пространство имен [Aspose.Words.Replacing](../../findreplaceoptions/)
+* пространство имен [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: PageSetup.TextOrientation
-second_title: Aspose.Words for .NET API 参考
-description: PageSetup 财产. 允许指定TextOrientation整个页面 默认值为Horizontal
+linktitle: TextOrientation
+articleTitle: TextOrientation
+second_title: 用于 .NET 的 Aspose.Words
+description: PageSetup TextOrientation 财产. 允许指定TextOrientation整个页面 默认值为Horizontal 在 C#.
 type: docs
 weight: 430
 url: /zh/net/aspose.words/pagesetup/textorientation/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words/pagesetup/textorientation/
 public TextOrientation TextOrientation { get; set; }
 ```
 
-### 评论
+## 评论
 
 仅 MS Word 本机格式 DOCX、WML、RTF 和 DOC 支持此属性。
 
-### 例子
+## 例子
 
 展示如何设置文本方向。
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "PageSetup.SetTextOrientation.docx");
 
 * enum [TextOrientation](../../textorientation/)
 * class [PageSetup](../)
-* 命名空间 [Aspose.Words](../../pagesetup/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

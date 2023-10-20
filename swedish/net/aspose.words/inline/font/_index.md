@@ -1,7 +1,9 @@
 ---
 title: Inline.Font
-second_title: Aspose.Words för .NET API Referens
-description: Inline fast egendom. Ger tillgång till teckensnittsformateringen för detta objekt.
+linktitle: Font
+articleTitle: Font
+second_title: Aspose.Words för .NET
+description: Inline Font fast egendom. Ger tillgång till teckensnittsformateringen för detta objekt i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words/inline/font/
@@ -14,7 +16,7 @@ Ger tillgång till teckensnittsformateringen för detta objekt.
 public Font Font { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man konstruerar ett Aspose.Words-dokument för hand.
 
@@ -65,7 +67,5 @@ doc.Save(ArtifactsDir + "Section.CreateManually.docx");
 
 * class [Font](../../font/)
 * class [Inline](../)
-* namnutrymme [Aspose.Words](../../inline/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

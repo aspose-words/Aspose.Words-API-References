@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitHeaderFooterStart
-second_title: Référence de l'API Aspose.Words pour .NET
-description: DocumentVisitor méthode. Appelé lorsque lénumération dun entête ou dun pied de page dans une section a commencé.
+linktitle: VisitHeaderFooterStart
+articleTitle: VisitHeaderFooterStart
+second_title: Aspose.Words pour .NET
+description: DocumentVisitor VisitHeaderFooterStart méthode. Appelé lorsque lénumération dun entête ou dun pied de page dans une section a commencé en C#.
 type: docs
 weight: 290
 url: /fr/net/aspose.words/documentvisitor/visitheaderfooterstart/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitHeaderFooterStart(HeaderFooter headerFooter)
 
 UN[`VisitorAction`](../../visitoraction/) valeur qui spécifie comment continuer l’énumération.
 
-### Exemples
+## Exemples
 
 Montre comment imprimer la structure des nœuds de chaque en-tête et pied de page d'un document.
 
@@ -117,7 +119,5 @@ public class HeaderFooterStructurePrinter : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [HeaderFooter](../../headerfooter/)
 * class [DocumentVisitor](../)
-* espace de noms [Aspose.Words](../../documentvisitor/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

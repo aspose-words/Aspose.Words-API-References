@@ -1,7 +1,9 @@
 ---
 title: FieldLink.InsertAsRtf
-second_title: Aspose.Words لمراجع .NET API
-description: FieldLink ملكية. الحصول على أو تعيين ما إذا كان سيتم إدراج الكائن المرتبط بتنسيق نص منسق RTF.
+linktitle: InsertAsRtf
+articleTitle: InsertAsRtf
+second_title: Aspose.Words لـ .NET
+description: FieldLink InsertAsRtf ملكية. الحصول على أو تعيين ما إذا كان سيتم إدراج الكائن المرتبط بتنسيق نص منسق RTF في C#.
 type: docs
 weight: 70
 url: /ar/net/aspose.words.fields/fieldlink/insertasrtf/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldlink/insertasrtf/
 public bool InsertAsRtf { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام أنواع الحقول المختلفة للارتباط بالمستندات الأخرى في نظام الملفات المحلي وعرض محتوياتها.
 
@@ -197,7 +199,5 @@ public enum InsertLinkedObjectAs
 ### أنظر أيضا
 
 * class [FieldLink](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldlink/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: PreferredWidth.Value
-second_title: Справочник по API Aspose.Words для .NET
-description: PreferredWidth свойство. Получает предпочтительное значение ширины. Единица измерения указана в п.Type свойство.
+linktitle: Value
+articleTitle: Value
+second_title: Aspose.Words для .NET
+description: PreferredWidth Value свойство. Получает предпочтительное значение ширины. Единица измерения указана в п.Type свойство на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.tables/preferredwidth/value/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.tables/preferredwidth/value/
 public double Value { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как проверить предпочтительный тип ширины и значение ячейки таблицы.
 
@@ -31,7 +33,5 @@ Assert.AreEqual(11.16d, firstCell.CellFormat.PreferredWidth.Value);
 ### Смотрите также
 
 * class [PreferredWidth](../)
-* пространство имен [Aspose.Words.Tables](../../preferredwidth/)
+* пространство имен [Aspose.Words.Tables](../../../aspose.words.tables/)
 * сборка [Aspose.Words](../../../)
-
-

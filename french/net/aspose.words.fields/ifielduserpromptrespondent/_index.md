@@ -1,7 +1,9 @@
 ---
-title: Interface IFieldUserPromptRespondent
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Fields.IFieldUserPromptRespondent interface. Représente le répondant aux invites de lutilisateur lors de la mise à jour du champ.
+title: IFieldUserPromptRespondent Interface
+linktitle: IFieldUserPromptRespondent
+articleTitle: IFieldUserPromptRespondent
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Fields.IFieldUserPromptRespondent interface. Représente le répondant aux invites de lutilisateur lors de la mise à jour du champ en C#.
 type: docs
 weight: 2740
 url: /fr/net/aspose.words.fields/ifielduserpromptrespondent/
@@ -18,13 +20,13 @@ public interface IFieldUserPromptRespondent
 
 | Nom | La description |
 | --- | --- |
-| [Respond](../../aspose.words.fields/ifielduserpromptrespondent/respond/)(string, string) | Une fois implémenté, renvoie une réponse de l'utilisateur à l'invite. Votre implémentation devrait renvoyer`nul` pour indiquer que l'utilisateur n'a pas répondu à l'invite (c'est-à-dire que l'utilisateur a appuyé sur le bouton Annuler dans la fenêtre d'invite). |
+| [Respond](../../aspose.words.fields/ifielduserpromptrespondent/respond/)(*string, string*) | Une fois implémenté, renvoie une réponse de l'utilisateur à l'invite. Votre implémentation devrait renvoyer`nul` pour indiquer que l'utilisateur n'a pas répondu à l'invite (c'est-à-dire que l'utilisateur a appuyé sur le bouton Annuler dans la fenêtre d'invite). |
 
-### Remarques
+## Remarques
 
 Les champs ASK et FILLIN sont des exemples de champs qui invitent l'utilisateur à fournir une réponse. Implémentez cette interface et attribuez-la au[`UserPromptRespondent`](../fieldoptions/userpromptrespondent/) propriété pour établir une interaction entre le champ update et l'utilisateur.
 
-### Exemples
+## Exemples
 
 Montre comment créer un champ ASK et définir ses propriétés.
 
@@ -87,5 +89,3 @@ private class MyPromptRespondent : IFieldUserPromptRespondent
 
 * espace de noms [Aspose.Words.Fields](../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../)
-
-

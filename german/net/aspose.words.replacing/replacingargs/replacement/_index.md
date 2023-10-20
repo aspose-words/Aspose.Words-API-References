@@ -1,7 +1,9 @@
 ---
 title: ReplacingArgs.Replacement
-second_title: Aspose.Words für .NET-API-Referenz
-description: ReplacingArgs eigendom. Ruft die Ersatzzeichenfolge ab oder legt sie fest.
+linktitle: Replacement
+articleTitle: Replacement
+second_title: Aspose.Words für .NET
+description: ReplacingArgs Replacement eigendom. Ruft die Ersatzzeichenfolge ab oder legt sie fest in C#.
 type: docs
 weight: 60
 url: /de/net/aspose.words.replacing/replacingargs/replacement/
@@ -14,7 +16,7 @@ Ruft die Ersatzzeichenfolge ab oder legt sie fest.
 public string Replacement { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie alle Vorkommen eines regulären Ausdrucksmusters durch eine andere Zeichenfolge ersetzt werden, während alle Ersetzungen verfolgt werden.
 
@@ -70,7 +72,5 @@ private class TextFindAndReplacementLogger : IReplacingCallback
 ### Siehe auch
 
 * class [ReplacingArgs](../)
-* namensraum [Aspose.Words.Replacing](../../replacingargs/)
+* namensraum [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * Montage [Aspose.Words](../../../)
-
-

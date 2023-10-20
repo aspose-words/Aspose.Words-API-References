@@ -1,7 +1,9 @@
 ---
-title: Class GradientStopCollection
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Drawing.GradientStopCollection сорт. Содержит коллекциюGradientStop объекты.
+title: GradientStopCollection Class
+linktitle: GradientStopCollection
+articleTitle: GradientStopCollection
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Drawing.GradientStopCollection сорт. Содержит коллекциюGradientStop объекты на С#.
 type: docs
 weight: 990
 url: /ru/net/aspose.words.drawing/gradientstopcollection/
@@ -27,17 +29,17 @@ public class GradientStopCollection : IEnumerable<GradientStop>
 
 | Имя | Описание |
 | --- | --- |
-| [Add](../../aspose.words.drawing/gradientstopcollection/add/)(GradientStop) | Добавляет указанный[`GradientStop`](../gradientstop/) к градиенту. |
+| [Add](../../aspose.words.drawing/gradientstopcollection/add/)(*[GradientStop](../gradientstop/)*) | Добавляет указанный[`GradientStop`](../gradientstop/) к градиенту. |
 | [GetEnumerator](../../aspose.words.drawing/gradientstopcollection/getenumerator/)() | Возвращает перечислитель, который перебирает коллекцию. |
-| [Insert](../../aspose.words.drawing/gradientstopcollection/insert/)(int, GradientStop) | Вставляет[`GradientStop`](../gradientstop/) в коллекцию по указанному индексу. |
-| [Remove](../../aspose.words.drawing/gradientstopcollection/remove/)(GradientStop) | Удаляет указанный[`GradientStop`](../gradientstop/) из коллекции. |
-| [RemoveAt](../../aspose.words.drawing/gradientstopcollection/removeat/)(int) | Удаляет[`GradientStop`](../gradientstop/) из коллекции по указанному индексу. |
+| [Insert](../../aspose.words.drawing/gradientstopcollection/insert/)(*int, [GradientStop](../gradientstop/)*) | Вставляет[`GradientStop`](../gradientstop/) в коллекцию по указанному индексу. |
+| [Remove](../../aspose.words.drawing/gradientstopcollection/remove/)(*[GradientStop](../gradientstop/)*) | Удаляет указанный[`GradientStop`](../gradientstop/) из коллекции. |
+| [RemoveAt](../../aspose.words.drawing/gradientstopcollection/removeat/)(*int*) | Удаляет[`GradientStop`](../gradientstop/) из коллекции по указанному индексу. |
 
-### Примечания
+## Примечания
 
 Вы не создаете экземпляры этого класса напрямую. Используйте[`GradientStops`](../fill/gradientstops/)свойство для доступа к остановкам градиента объектов заливки.
 
-### Примеры
+## Примеры
 
 Показывает, как добавить остановки градиента к градиентной заливке.
 
@@ -92,5 +94,3 @@ doc.Save(ArtifactsDir + "Shape.GradientStops.docx", saveOptions);
 * class [GradientStop](../gradientstop/)
 * пространство имен [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../)
-
-

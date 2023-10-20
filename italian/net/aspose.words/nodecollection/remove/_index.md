@@ -1,7 +1,9 @@
 ---
 title: NodeCollection.Remove
-second_title: Aspose.Words per .NET API Reference
-description: NodeCollection metodo. Rimuove il nodo dalla raccolta e dal documento.
+linktitle: Remove
+articleTitle: Remove
+second_title: Aspose.Words per .NET
+description: NodeCollection Remove metodo. Rimuove il nodo dalla raccolta e dal documento in C#.
 type: docs
 weight: 90
 url: /it/net/aspose.words/nodecollection/remove/
@@ -18,7 +20,7 @@ public void Remove(Node node)
 | --- | --- | --- |
 | node | Node | Il nodo da rimuovere. |
 
-### Esempi
+## Esempi
 
 Mostra come lavorare con una NodeCollection.
 
@@ -56,7 +58,5 @@ Assert.False(runs.Contains(run));
 
 * class [Node](../../node/)
 * class [NodeCollection](../)
-* spazio dei nomi [Aspose.Words](../../nodecollection/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

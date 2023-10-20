@@ -1,7 +1,9 @@
 ---
 title: FontConfigSubstitutionRule.IsFontConfigAvailable
-second_title: Aspose.Words for .NET API 参考
-description: FontConfigSubstitutionRule 方法. 检查 fontconfig 实用程序是否可用
+linktitle: IsFontConfigAvailable
+articleTitle: IsFontConfigAvailable
+second_title: 用于 .NET 的 Aspose.Words
+description: FontConfigSubstitutionRule IsFontConfigAvailable 方法. 检查 fontconfig 实用程序是否可用 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.fonts/fontconfigsubstitutionrule/isfontconfigavailable/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fonts/fontconfigsubstitutionrule/isfontconfigavailable
 public bool IsFontConfigAvailable()
 ```
 
-### 例子
+## 例子
 
 显示与操作系统相关的字体配置替换。
 
@@ -50,7 +52,5 @@ if (isLinuxOrMac)
 ### 也可以看看
 
 * class [FontConfigSubstitutionRule](../)
-* 命名空间 [Aspose.Words.Fonts](../../fontconfigsubstitutionrule/)
+* 命名空间 [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * 部件 [Aspose.Words](../../../)
-
-

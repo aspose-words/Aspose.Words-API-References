@@ -1,7 +1,9 @@
 ---
 title: Paragraph.IsEndOfCell
-second_title: Referencia de API de Aspose.Words para .NET
-description: Paragraph propiedad. Verdadero si este párrafo es el último párrafo de unCell  falso en caso contrario.
+linktitle: IsEndOfCell
+articleTitle: IsEndOfCell
+second_title: Aspose.Words para .NET
+description: Paragraph IsEndOfCell propiedad. Verdadero si este párrafo es el último párrafo de unCell  falso en caso contrario en C#.
 type: docs
 weight: 50
 url: /es/net/aspose.words/paragraph/isendofcell/
@@ -14,7 +16,7 @@ Verdadero si este párrafo es el último párrafo de un[`Cell`](../../../aspose.
 public bool IsEndOfCell { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo configurar una mesa para que permanezcan juntas en la misma página.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "Table.KeepTableTogether.docx");
 ### Ver también
 
 * class [Paragraph](../)
-* espacio de nombres [Aspose.Words](../../paragraph/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: XmlMapping.StoreItemId
-second_title: Aspose.Words för .NET API Referens
-description: XmlMapping fast egendom. Anger den anpassade XMLdataidentifieraren för den anpassade XMLdatadelen som ska användas för att utvärderaXPath expression.
+linktitle: StoreItemId
+articleTitle: StoreItemId
+second_title: Aspose.Words för .NET
+description: XmlMapping StoreItemId fast egendom. Anger den anpassade XMLdataidentifieraren för den anpassade XMLdatadelen som ska användas för att utvärderaXPath expression i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.markup/xmlmapping/storeitemid/
@@ -14,7 +16,7 @@ Anger den anpassade XML-dataidentifieraren för den anpassade XML-datadelen som 
 public string StoreItemId { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man får den anpassade XML-dataidentifieraren för en XML-del.
 
@@ -30,7 +32,5 @@ Assert.AreEqual("{F3029283-4FF8-4DD2-9F31-395F19ACEE85}", tag.XmlMapping.StoreIt
 ### Se även
 
 * class [XmlMapping](../)
-* namnutrymme [Aspose.Words.Markup](../../xmlmapping/)
+* namnutrymme [Aspose.Words.Markup](../../../aspose.words.markup/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Font.ClearFormatting
-second_title: Aspose.Words for .NET API 参考
-description: Font 方法. 重置为默认字体格式
+linktitle: ClearFormatting
+articleTitle: ClearFormatting
+second_title: 用于 .NET 的 Aspose.Words
+description: Font ClearFormatting 方法. 重置为默认字体格式 在 C#.
 type: docs
 weight: 550
 url: /zh/net/aspose.words/font/clearformatting/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words/font/clearformatting/
 public void ClearFormatting()
 ```
 
-### 评论
+## 评论
 
 删除在which 对象上显式指定的所有字体格式[`Font`](../)已获得，因此字体格式将从 适当的父级继承。
 
-### 例子
+## 例子
 
 演示如何插入超链接字段。
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertHyperlink.docx");
 ### 也可以看看
 
 * class [Font](../)
-* 命名空间 [Aspose.Words](../../font/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

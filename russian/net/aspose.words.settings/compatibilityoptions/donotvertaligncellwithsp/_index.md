@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.DoNotVertAlignCellWithSp
-second_title: Справочник по API Aspose.Words для .NET
-description: CompatibilityOptions свойство. Не выравнивать по вертикали ячейки содержащие плавающие объекты.
+linktitle: DoNotVertAlignCellWithSp
+articleTitle: DoNotVertAlignCellWithSp
+second_title: Aspose.Words для .NET
+description: CompatibilityOptions DoNotVertAlignCellWithSp свойство. Не выравнивать по вертикали ячейки содержащие плавающие объекты на С#.
 type: docs
 weight: 230
 url: /ru/net/aspose.words.settings/compatibilityoptions/donotvertaligncellwithsp/
@@ -17,7 +19,5 @@ public bool DoNotVertAlignCellWithSp { get; set; }
 ### Смотрите также
 
 * class [CompatibilityOptions](../)
-* пространство имен [Aspose.Words.Settings](../../compatibilityoptions/)
+* пространство имен [Aspose.Words.Settings](../../../aspose.words.settings/)
 * сборка [Aspose.Words](../../../)
-
-

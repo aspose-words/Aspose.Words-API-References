@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.DownsampleOptions
-second_title: Aspose.Words for .NET API 参考
-description: PdfSaveOptions 财产. 允许指定下采样选项
+linktitle: DownsampleOptions
+articleTitle: DownsampleOptions
+second_title: 用于 .NET 的 Aspose.Words
+description: PdfSaveOptions DownsampleOptions 财产. 允许指定下采样选项 在 C#.
 type: docs
 weight: 100
 url: /zh/net/aspose.words.saving/pdfsaveoptions/downsampleoptions/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.saving/pdfsaveoptions/downsampleoptions/
 public DownsampleOptions DownsampleOptions { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何更改 PDF 文档中图像的分辨率。
 
@@ -47,7 +49,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.DownsampleOptions.LowerResolution.pdf", 
 
 * class [DownsampleOptions](../../downsampleoptions/)
 * class [PdfSaveOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../pdfsaveoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

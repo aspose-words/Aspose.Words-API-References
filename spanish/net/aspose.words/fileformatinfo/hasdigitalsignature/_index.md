@@ -1,7 +1,9 @@
 ---
 title: FileFormatInfo.HasDigitalSignature
-second_title: Referencia de API de Aspose.Words para .NET
-description: FileFormatInfo propiedad. Devolucionesverdaderosi este documento contiene firma digital. Esta propiedad simplemente informa que hay una firma digital presente en un documento pero no especifica si la firma es válida o no.
+linktitle: HasDigitalSignature
+articleTitle: HasDigitalSignature
+second_title: Aspose.Words para .NET
+description: FileFormatInfo HasDigitalSignature propiedad. Devolucionesverdaderosi este documento contiene firma digital. Esta propiedad simplemente informa que hay una firma digital presente en un documento pero no especifica si la firma es válida o no en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words/fileformatinfo/hasdigitalsignature/
@@ -14,11 +16,11 @@ Devoluciones`verdadero`si este documento contiene firma digital. Esta propiedad 
 public bool HasDigitalSignature { get; }
 ```
 
-### Observaciones
+## Observaciones
 
 Esta propiedad existe para ayudarle a clasificar los documentos que están firmados digitalmente de los que no. Si utiliza Aspose.Words para modificar y guardar un documento que está firmado digitalmente, entonces la firma digital se perderá. Esto se debe a su diseño porque existe una firma digital para proteger la autenticidad de un documento. Con esta propiedad puede detectar documentos firmados digitalmente antes de procesarlos de la misma manera que los documentos normales y tomar alguna medida para evitar la pérdida de la firma digital, por ejemplo, notificar al usuario.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo utilizar la clase FileFormatUtil para detectar el formato del documento y la presencia de firmas digitales.
 
@@ -45,7 +47,5 @@ Assert.AreEqual(1, DigitalSignatureUtil.LoadSignatures(ArtifactsDir + "File.Dete
 ### Ver también
 
 * class [FileFormatInfo](../)
-* espacio de nombres [Aspose.Words](../../fileformatinfo/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

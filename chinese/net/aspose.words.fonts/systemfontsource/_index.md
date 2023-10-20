@@ -1,7 +1,9 @@
 ---
-title: Class SystemFontSource
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Fonts.SystemFontSource 班级. 表示系统中安装的所有 TrueType 字体
+title: SystemFontSource Class
+linktitle: SystemFontSource
+articleTitle: SystemFontSource
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Fonts.SystemFontSource 班级. 表示系统中安装的所有 TrueType 字体 在 C#.
 type: docs
 weight: 3050
 url: /zh/net/aspose.words.fonts/systemfontsource/
@@ -21,7 +23,7 @@ public class SystemFontSource : FontSourceBase
 | 姓名 | 描述 |
 | --- | --- |
 | [SystemFontSource](systemfontsource/#constructor)() | 向量. |
-| [SystemFontSource](systemfontsource/#constructor_1)(int) | 向量. |
+| [SystemFontSource](systemfontsource/#constructor_1)(*int*) | 向量. |
 
 ## 特性
 
@@ -38,7 +40,7 @@ public class SystemFontSource : FontSourceBase
 | [GetAvailableFonts](../../aspose.words.fonts/fontsourcebase/getavailablefonts/)() | 返回通过此源可用的字体列表。 |
 | static [GetSystemFontFolders](../../aspose.words.fonts/systemfontsource/getsystemfontfolders/)() | 返回系统字体文件夹或空数组（如果文件夹不可访问）。 |
 
-### 例子
+## 例子
 
 演示如何访问文档的系统字体源并设置字体替代品。
 
@@ -96,5 +98,3 @@ Assert.AreEqual(1,
 * class [FontSourceBase](../fontsourcebase/)
 * 命名空间 [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * 部件 [Aspose.Words](../../)
-
-

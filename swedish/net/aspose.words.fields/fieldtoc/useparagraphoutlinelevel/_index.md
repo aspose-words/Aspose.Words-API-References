@@ -1,7 +1,9 @@
 ---
 title: FieldToc.UseParagraphOutlineLevel
-second_title: Aspose.Words för .NET API Referens
-description: FieldToc fast egendom. Hämtar eller ställer in om den tillämpade styckekonturnivån ska användas.
+linktitle: UseParagraphOutlineLevel
+articleTitle: UseParagraphOutlineLevel
+second_title: Aspose.Words för .NET
+description: FieldToc UseParagraphOutlineLevel fast egendom. Hämtar eller ställer in om den tillämpade styckekonturnivån ska användas i C#.
 type: docs
 weight: 170
 url: /sv/net/aspose.words.fields/fieldtoc/useparagraphoutlinelevel/
@@ -14,7 +16,7 @@ Hämtar eller ställer in om den tillämpade styckekonturnivån ska användas.
 public bool UseParagraphOutlineLevel { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man infogar en innehållsförteckning och fyller den med poster baserat på rubrikstilar.
 
@@ -99,7 +101,5 @@ public void InsertNewPageWithHeading(DocumentBuilder builder, string captionText
 ### Se även
 
 * class [FieldToc](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldtoc/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

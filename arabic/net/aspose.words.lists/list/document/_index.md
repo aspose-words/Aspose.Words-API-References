@@ -1,7 +1,9 @@
 ---
 title: List.Document
-second_title: Aspose.Words لمراجع .NET API
-description: List ملكية. الحصول على مستند المالك.
+linktitle: Document
+articleTitle: Document
+second_title: Aspose.Words لـ .NET
+description: List Document ملكية. الحصول على مستند المالك في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.lists/list/document/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.lists/list/document/
 public DocumentBase Document { get; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 تحتوي القائمة دائمًا على مستند أصلي وتكون صالحة فقط في سياق هذا المستند.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التحقق من خصائص مستند المالك للقوائم.
 
@@ -41,7 +43,5 @@ Console.WriteLine("List is the same by ListId: " + (lists.GetListByListId(1).Equ
 
 * class [DocumentBase](../../../aspose.words/documentbase/)
 * class [List](../)
-* مساحة الاسم [Aspose.Words.Lists](../../list/)
+* مساحة الاسم [Aspose.Words.Lists](../../../aspose.words.lists/)
 * المجسم [Aspose.Words](../../../)
-
-

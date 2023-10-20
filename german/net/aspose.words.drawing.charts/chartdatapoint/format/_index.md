@@ -1,7 +1,9 @@
 ---
 title: ChartDataPoint.Format
-second_title: Aspose.Words für .NET-API-Referenz
-description: ChartDataPoint eigendom. Bietet Zugriff auf die Füll und Zeilenformatierung dieses Datenpunkts.
+linktitle: Format
+articleTitle: Format
+second_title: Aspose.Words für .NET
+description: ChartDataPoint Format eigendom. Bietet Zugriff auf die Füll und Zeilenformatierung dieses Datenpunkts in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.drawing.charts/chartdatapoint/format/
@@ -14,7 +16,7 @@ Bietet Zugriff auf die Füll- und Zeilenformatierung dieses Datenpunkts.
 public ChartFormat Format { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie individuelle Formatierungen für Kategorien eines Säulendiagramms festgelegt werden.
 
@@ -47,7 +49,5 @@ doc.Save(ArtifactsDir + "Charts.DataPointsFormatting.docx");
 
 * class [ChartFormat](../../chartformat/)
 * class [ChartDataPoint](../)
-* namensraum [Aspose.Words.Drawing.Charts](../../chartdatapoint/)
+* namensraum [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,9 +1,11 @@
 ---
 title: Comment.Accept
-second_title: Aspose.Words for .NET API 参考
-description: Comment 方法. 接受访客
+linktitle: Accept
+articleTitle: Accept
+second_title: 用于 .NET 的 Aspose.Words
+description: Comment Accept 方法. 接受访客 在 C#.
 type: docs
-weight: 120
+weight: 110
 url: /zh/net/aspose.words/comment/accept/
 ---
 ## Comment.Accept method
@@ -22,7 +24,7 @@ public override bool Accept(DocumentVisitor visitor)
 
 如果访问了所有节点，则为 True；假如果[`DocumentVisitor`](../../documentvisitor/)在访问所有节点之前停止操作。
 
-### 评论
+## 评论
 
 枚举该节点及其所有子节点。每个节点调用相应的方法[`DocumentVisitor`](../../documentvisitor/)。
 
@@ -30,7 +32,7 @@ public override bool Accept(DocumentVisitor visitor)
 
 通话[`VisitCommentStart`](../../documentvisitor/visitcommentstart/)，然后调用[`Accept`](../../node/accept/)对于注释和调用的 all 子节点[`VisitCommentEnd`](../../documentvisitor/visitcommentend/)最后.
 
-### 例子
+## 例子
 
 展示如何使用文档访问者打印所有注释的内容及其注释范围。
 
@@ -192,7 +194,5 @@ public class CommentInfoPrinter : DocumentVisitor
 
 * class [DocumentVisitor](../../documentvisitor/)
 * class [Comment](../)
-* 命名空间 [Aspose.Words](../../comment/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum RevisionsView
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.RevisionsView 枚举. 允许指定是使用文档的原始版本还是修订版本
+title: RevisionsView Enum
+linktitle: RevisionsView
+articleTitle: RevisionsView
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.RevisionsView 枚举. 允许指定是使用文档的原始版本还是修订版本 在 C#.
 type: docs
 weight: 4810
 url: /zh/net/aspose.words/revisionsview/
@@ -21,7 +23,7 @@ public enum RevisionsView
 | Original | `0` | 指定文档的原始版本。 |
 | Final | `1` | 指定文档的修订版本。 |
 
-### 例子
+## 例子
 
 演示如何在文档的修订视图和原始视图之间切换。
 
@@ -46,5 +48,3 @@ Assert.AreEqual("a.", paragraphs[2].ListLabel.LabelString);
 
 * 命名空间 [Aspose.Words](../../aspose.words/)
 * 部件 [Aspose.Words](../../)
-
-

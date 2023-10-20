@@ -1,14 +1,16 @@
 ---
 title: StructuredDocumentTag.IsShowingPlaceholderText
-second_title: Aspose.Words för .NET API Referens
-description: StructuredDocumentTag fast egendom. Anger om innehållet i detta SDTska tolkas att innehålla platshållare text i motsats till vanligt textinnehåll inom SDT.
+linktitle: IsShowingPlaceholderText
+articleTitle: IsShowingPlaceholderText
+second_title: Aspose.Words för .NET
+description: StructuredDocumentTag IsShowingPlaceholderText fast egendom. Anger om innehållet i dettaSDTska tolkas att innehålla platshållare text i motsats till vanligt textinnehåll inom SDT i C#.
 type: docs
 weight: 150
 url: /sv/net/aspose.words.markup/structureddocumenttag/isshowingplaceholdertext/
 ---
 ## StructuredDocumentTag.IsShowingPlaceholderText property
 
-Anger om innehållet i detta **SDT**ska tolkas att innehålla platshållare text (i motsats till vanligt textinnehåll inom SDT).
+Anger om innehållet i detta**SDT**ska tolkas att innehålla platshållare text (i motsats till vanligt textinnehåll inom SDT).
 
 om satt till`Sann` , ska detta tillstånd återupptas (visar platshållartext) när det här dokumentet öppnas.
 
@@ -16,7 +18,7 @@ om satt till`Sann` , ska detta tillstånd återupptas (visar platshållartext) n
 public bool IsShowingPlaceholderText { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man använder ett byggblocks innehåll som en anpassad platshållartext för en strukturerad dokumenttagg.
 
@@ -63,7 +65,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.PlaceholderBuildingBlock.docx");
 ### Se även
 
 * class [StructuredDocumentTag](../)
-* namnutrymme [Aspose.Words.Markup](../../structureddocumenttag/)
+* namnutrymme [Aspose.Words.Markup](../../../aspose.words.markup/)
 * hopsättning [Aspose.Words](../../../)
-
-

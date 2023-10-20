@@ -1,7 +1,9 @@
 ---
 title: FieldIncludeText.SourceFullName
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldIncludeText свойство. Получает или задает расположение документа с помощью IRI.
+linktitle: SourceFullName
+articleTitle: SourceFullName
+second_title: Aspose.Words для .NET
+description: FieldIncludeText SourceFullName свойство. Получает или задает расположение документа с помощью IRI на С#.
 type: docs
 weight: 70
 url: /ru/net/aspose.words.fields/fieldincludetext/sourcefullname/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldincludetext/sourcefullname/
 public string SourceFullName { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как создать поле INCLUDETEXT и установить его свойства.
 
@@ -59,7 +61,5 @@ public FieldIncludeText CreateFieldIncludeText(DocumentBuilder builder, string s
 ### Смотрите также
 
 * class [FieldIncludeText](../)
-* пространство имен [Aspose.Words.Fields](../../fieldincludetext/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

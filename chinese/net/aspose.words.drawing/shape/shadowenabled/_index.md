@@ -1,7 +1,9 @@
 ---
 title: Shape.ShadowEnabled
-second_title: Aspose.Words for .NET API 参考
-description: Shape 财产. 返回真的如果启用阴影效果.
+linktitle: ShadowEnabled
+articleTitle: ShadowEnabled
+second_title: 用于 .NET 的 Aspose.Words
+description: Shape ShadowEnabled 财产. 返回真的如果启用阴影效果 在 C#.
 type: docs
 weight: 150
 url: /zh/net/aspose.words.drawing/shape/shadowenabled/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.drawing/shape/shadowenabled/
 public bool ShadowEnabled { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何迭代文档中的所有形状。
 
@@ -137,7 +139,5 @@ private class ShapeAppearancePrinter : DocumentVisitor
 ### 也可以看看
 
 * class [Shape](../)
-* 命名空间 [Aspose.Words.Drawing](../../shape/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

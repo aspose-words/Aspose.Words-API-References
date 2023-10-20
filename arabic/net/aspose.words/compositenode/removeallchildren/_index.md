@@ -1,9 +1,11 @@
 ---
 title: CompositeNode.RemoveAllChildren
-second_title: Aspose.Words لمراجع .NET API
-description: CompositeNode طريقة. إزالة جميع العقد الفرعية للعقدة الحالية.
+linktitle: RemoveAllChildren
+articleTitle: RemoveAllChildren
+second_title: Aspose.Words لـ .NET
+description: CompositeNode RemoveAllChildren طريقة. إزالة جميع العقد الفرعية للعقدة الحالية في C#.
 type: docs
-weight: 180
+weight: 160
 url: /ar/net/aspose.words/compositenode/removeallchildren/
 ---
 ## CompositeNode.RemoveAllChildren method
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/compositenode/removeallchildren/
 public void RemoveAllChildren()
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء مستند Aspose.Words يدويًا.
 
@@ -64,7 +66,5 @@ doc.Save(ArtifactsDir + "Section.CreateManually.docx");
 ### أنظر أيضا
 
 * class [CompositeNode](../)
-* مساحة الاسم [Aspose.Words](../../compositenode/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

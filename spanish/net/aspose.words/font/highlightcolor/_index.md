@@ -1,7 +1,9 @@
 ---
 title: Font.HighlightColor
-second_title: Referencia de API de Aspose.Words para .NET
-description: Font propiedad. Obtiene o establece el color de resaltado marcador.
+linktitle: HighlightColor
+articleTitle: HighlightColor
+second_title: Aspose.Words para .NET
+description: Font HighlightColor propiedad. Obtiene o establece el color de resaltado marcador en C#.
 type: docs
 weight: 150
 url: /es/net/aspose.words/font/highlightcolor/
@@ -14,7 +16,7 @@ Obtiene o establece el color de resaltado (marcador).
 public Color HighlightColor { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo dar formato a una serie de texto usando su propiedad de fuente.
 
@@ -34,7 +36,5 @@ doc.Save(ArtifactsDir + "Font.CreateFormattedRun.docx");
 ### Ver también
 
 * class [Font](../)
-* espacio de nombres [Aspose.Words](../../font/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

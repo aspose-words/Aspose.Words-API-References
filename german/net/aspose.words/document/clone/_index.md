@@ -1,9 +1,11 @@
 ---
 title: Document.Clone
-second_title: Aspose.Words für .NET-API-Referenz
-description: Document methode. Führt eine tiefe Kopie des ausDocument .
+linktitle: Clone
+articleTitle: Clone
+second_title: Aspose.Words für .NET
+description: Document Clone methode. Führt eine tiefe Kopie des ausDocument  in C#.
 type: docs
-weight: 570
+weight: 550
 url: /de/net/aspose.words/document/clone/
 ---
 ## Document.Clone method
@@ -18,7 +20,7 @@ public Document Clone()
 
 Das geklonte Dokument.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Dokument tief geklont wird.
 
@@ -41,7 +43,5 @@ Assert.AreNotEqual(doc.FirstSection.Body.FirstParagraph.Runs[0].GetHashCode(),
 ### Siehe auch
 
 * class [Document](../)
-* namensraum [Aspose.Words](../../document/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

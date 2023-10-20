@@ -1,7 +1,9 @@
 ---
-title: Section.Section
-second_title: Aspose.Words for .NET API 参考
-description: Section 构造函数. 初始化Section 类的新实例
+title: Section
+linktitle: Section
+articleTitle: Section
+second_title: 用于 .NET 的 Aspose.Words
+description: Section 构造函数. 初始化Section 类的新实例 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words/section/section/
@@ -18,13 +20,13 @@ public Section(DocumentBase doc)
 | --- | --- | --- |
 | doc | DocumentBase | 所有者文件。 |
 
-### 评论
+## 评论
 
 当创建该节时，它属于指定文档，但还不是 文档的一部分并且[`ParentNode`](../../node/parentnode/)是`无效的`。
 
-包括[`Section`](../)进入文档使用Node)和 Node)的方法[`Document`](../../document/)或 [`Add`](../../nodecollection/add/)和[`Insert`](../../nodecollection/insert/)的方法[`Sections`](../../document/sections/)财产。
+包括[`Section`](../)进入文档使用[`InsertAfter`](../../compositenode/insertafter/)和 [`InsertBefore`](../../compositenode/insertbefore/)的方法[`Document`](../../document/)或 [`Add`](../../nodecollection/add/)和[`Insert`](../../nodecollection/insert/)的方法[`Sections`](../../document/sections/)财产。
 
-### 例子
+## 例子
 
 展示如何手动构建 Aspose.Words 文档。
 
@@ -75,7 +77,5 @@ doc.Save(ArtifactsDir + "Section.CreateManually.docx");
 
 * class [DocumentBase](../../documentbase/)
 * class [Section](../)
-* 命名空间 [Aspose.Words](../../section/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

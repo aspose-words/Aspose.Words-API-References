@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTagRangeEnd.Accept
-second_title: Aspose.Words för .NET API Referens
-description: StructuredDocumentTagRangeEnd metod. Accepterar en besökare.
+linktitle: Accept
+articleTitle: Accept
+second_title: Aspose.Words för .NET
+description: StructuredDocumentTagRangeEnd Accept metod. Accepterar en besökare i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.markup/structureddocumenttagrangeend/accept/
@@ -22,7 +24,7 @@ public override bool Accept(DocumentVisitor visitor)
 
 Sant om alla noder besöktes; falskt om[`DocumentVisitor`](../../../aspose.words/documentvisitor/) stoppade operationen innan du besökte alla noder.
 
-### Anmärkningar
+## Anmärkningar
 
 Räknar upp denna nod och alla dess barn. Varje nod anropar en motsvarande metod[`DocumentVisitor`](../../../aspose.words/documentvisitor/).
 
@@ -32,7 +34,5 @@ För mer information se Visitor design mönster.
 
 * class [DocumentVisitor](../../../aspose.words/documentvisitor/)
 * class [StructuredDocumentTagRangeEnd](../)
-* namnutrymme [Aspose.Words.Markup](../../structureddocumenttagrangeend/)
+* namnutrymme [Aspose.Words.Markup](../../../aspose.words.markup/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum FontFamily
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Fonts.FontFamily تعداد. يمثل عائلة الخطوط.
+title: FontFamily Enum
+linktitle: FontFamily
+articleTitle: FontFamily
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Fonts.FontFamily تعداد. يمثل عائلة الخطوط في C#.
 type: docs
 weight: 2910
 url: /ar/net/aspose.words.fonts/fontfamily/
@@ -25,11 +27,11 @@ public enum FontFamily
 | Script | `4` | يحدد الخط المصمم ليبدو مثل الكتابة اليدوية؛ تتضمن الأمثلة البرنامج النصي والمخطوطة. |
 | Decorative | `5` | يحدد خطًا جديدًا. مثال على ذلك هو اللغة الإنجليزية القديمة. |
 
-### ملاحظات
+## ملاحظات
 
 عائلة الخطوط عبارة عن مجموعة من الخطوط ذات عرض حد مشترك وخصائص serif.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الوصول إلى تفاصيل كل خط في المستند وطباعتها.
 
@@ -69,5 +71,3 @@ while (fontCollectionEnumerator.MoveNext())
 
 * مساحة الاسم [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * المجسم [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: RevisionGroup.Author
-second_title: Aspose.Words för .NET API Referens
-description: RevisionGroup fast egendom. Hämtar författaren till denna versionsgrupp.
+linktitle: Author
+articleTitle: Author
+second_title: Aspose.Words för .NET
+description: RevisionGroup Author fast egendom. Hämtar författaren till denna versionsgrupp i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words/revisiongroup/author/
@@ -14,7 +16,7 @@ Hämtar författaren till denna versionsgrupp.
 public string Author { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man skriver ut information om en grupp revisioner i ett dokument.
 
@@ -33,7 +35,5 @@ foreach (RevisionGroup group in doc.Revisions.Groups)
 ### Se även
 
 * class [RevisionGroup](../)
-* namnutrymme [Aspose.Words](../../revisiongroup/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

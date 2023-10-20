@@ -1,7 +1,9 @@
 ---
 title: ImageFieldMergingArgs.Shape
-second_title: Справочник по API Aspose.Words для .NET
-description: ImageFieldMergingArgs свойство. Указывает форму которую механизм слияния почты должен вставить в документ.
+linktitle: Shape
+articleTitle: Shape
+second_title: Aspose.Words для .NET
+description: ImageFieldMergingArgs Shape свойство. Указывает форму которую механизм слияния почты должен вставить в документ на С#.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.mailmerging/imagefieldmergingargs/shape/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.mailmerging/imagefieldmergingargs/shape/
 public Shape Shape { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Если указано это свойство, механизм слияния почты игнорирует все другие свойства, такие как[`ImageFileName`](../imagefilename/) или[`ImageStream`](../imagestream/) и просто вставляет фигуру в документ.
 
@@ -24,7 +26,5 @@ public Shape Shape { get; set; }
 
 * class [Shape](../../../aspose.words.drawing/shape/)
 * class [ImageFieldMergingArgs](../)
-* пространство имен [Aspose.Words.MailMerging](../../imagefieldmergingargs/)
+* пространство имен [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * сборка [Aspose.Words](../../../)
-
-

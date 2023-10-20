@@ -1,7 +1,9 @@
 ---
-title: Interface IMailMergeDataSourceRoot
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.MailMerging.IMailMergeDataSourceRoot interface. Implémentez cette interface pour permettre le publipostage à partir dune source de données personnalisée avec des données maîtredétails.
+title: IMailMergeDataSourceRoot Interface
+linktitle: IMailMergeDataSourceRoot
+articleTitle: IMailMergeDataSourceRoot
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.MailMerging.IMailMergeDataSourceRoot interface. Implémentez cette interface pour permettre le publipostage à partir dune source de données personnalisée avec des données maîtredétails en C#.
 type: docs
 weight: 3820
 url: /fr/net/aspose.words.mailmerging/imailmergedatasourceroot/
@@ -18,9 +20,9 @@ public interface IMailMergeDataSourceRoot
 
 | Nom | La description |
 | --- | --- |
-| [GetDataSource](../../aspose.words.mailmerging/imailmergedatasourceroot/getdatasource/)(string) | Le moteur de publipostage Aspose.Words appelle cette méthode lorsqu'il rencontre le début d'une région de publipostage de niveau supérieur. |
+| [GetDataSource](../../aspose.words.mailmerging/imailmergedatasourceroot/getdatasource/)(*string*) | Le moteur de publipostage Aspose.Words appelle cette méthode lorsqu'il rencontre le début d'une région de publipostage de niveau supérieur. |
 
-### Exemples
+## Exemples
 
 Effectue un publipostage à partir d'une source de données personnalisée avec des données maître-détails.
 
@@ -204,5 +206,3 @@ private class EmployeeListMailMergeSource : IMailMergeDataSource
 
 * espace de noms [Aspose.Words.MailMerging](../../aspose.words.mailmerging/)
 * Assemblée [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: LoadOptions.FontSettings
-second_title: Aspose.Words for .NET API 参考
-description: LoadOptions 财产. 允许指定文档字体设置
+linktitle: FontSettings
+articleTitle: FontSettings
+second_title: 用于 .NET 的 Aspose.Words
+description: LoadOptions FontSettings 财产. 允许指定文档字体设置 在 C#.
 type: docs
 weight: 60
 url: /zh/net/aspose.words.loading/loadoptions/fontsettings/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.loading/loadoptions/fontsettings/
 public FontSettings FontSettings { get; set; }
 ```
 
-### 评论
+## 评论
 
 加载某些格式时，Aspose.Words 可能需要解析字体。例如，加载 HTML 文档时，Aspose.Words 可能会解析字体以执行字体后备。
 
@@ -22,7 +24,7 @@ public FontSettings FontSettings { get; set; }
 
 默认值为`无效的`。
 
-### 例子
+## 例子
 
 演示如何在加载文档时应用字体替换设置。
 
@@ -69,7 +71,5 @@ doc.Save(ArtifactsDir + "FontSettings.ResolveFontsBeforeLoadingDocument.pdf");
 
 * class [FontSettings](../../../aspose.words.fonts/fontsettings/)
 * class [LoadOptions](../)
-* 命名空间 [Aspose.Words.Loading](../../loadoptions/)
+* 命名空间 [Aspose.Words.Loading](../../../aspose.words.loading/)
 * 部件 [Aspose.Words](../../../)
-
-

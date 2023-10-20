@@ -1,7 +1,9 @@
 ---
 title: FieldIndex.HasPageNumberSeparator
-second_title: Aspose.Words per .NET API Reference
-description: FieldIndex proprietà. Ottiene un valore che indica se un separatore del numero di pagina viene sovrascritto tramite il codice del campo.
+linktitle: HasPageNumberSeparator
+articleTitle: HasPageNumberSeparator
+second_title: Aspose.Words per .NET
+description: FieldIndex HasPageNumberSeparator proprietà. Ottiene un valore che indica se un separatore del numero di pagina viene sovrascritto tramite il codice del campo in C#.
 type: docs
 weight: 50
 url: /it/net/aspose.words.fields/fieldindex/haspagenumberseparator/
@@ -14,7 +16,7 @@ Ottiene un valore che indica se un separatore del numero di pagina viene sovrasc
 public bool HasPageNumberSeparator { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come modificare il separatore del numero di pagina in un campo INDICE.
 
@@ -61,7 +63,5 @@ doc.Save(ArtifactsDir + "Field.INDEX.XE.PageNumberList.docx");
 ### Guarda anche
 
 * class [FieldIndex](../)
-* spazio dei nomi [Aspose.Words.Fields](../../fieldindex/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

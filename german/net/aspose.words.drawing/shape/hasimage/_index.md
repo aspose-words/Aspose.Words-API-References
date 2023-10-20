@@ -1,7 +1,9 @@
 ---
 title: Shape.HasImage
-second_title: Aspose.Words für .NET-API-Referenz
-description: Shape eigendom. Gibt zurückWAHR wenn die Form Bildbytes hat oder ein Bild verknüpft.
+linktitle: HasImage
+articleTitle: HasImage
+second_title: Aspose.Words für .NET
+description: Shape HasImage eigendom. Gibt zurückWAHR wenn die Form Bildbytes hat oder ein Bild verknüpft in C#.
 type: docs
 weight: 80
 url: /de/net/aspose.words.drawing/shape/hasimage/
@@ -14,7 +16,7 @@ Gibt zurück`WAHR` wenn die Form Bildbytes hat oder ein Bild verknüpft.
 public bool HasImage { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie alle Formen mit Bildern aus einem Dokument gelöscht werden.
 
@@ -60,7 +62,5 @@ foreach (Shape shape in shapes.OfType<Shape>())
 ### Siehe auch
 
 * class [Shape](../)
-* namensraum [Aspose.Words.Drawing](../../shape/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

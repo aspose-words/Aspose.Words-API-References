@@ -1,7 +1,9 @@
 ---
 title: FixedPageSaveOptions.PageSet
-second_title: Aspose.Words لمراجع .NET API
-description: FixedPageSaveOptions ملكية. الحصول على الصفحات المراد عرضها أو تعيينها. الافتراضي هو كافة الصفحات الموجودة في المستند.
+linktitle: PageSet
+articleTitle: PageSet
+second_title: Aspose.Words لـ .NET
+description: FixedPageSaveOptions PageSet ملكية. الحصول على الصفحات المراد عرضها أو تعيينها. الافتراضي هو كافة الصفحات الموجودة في المستند في C#.
 type: docs
 weight: 70
 url: /ar/net/aspose.words.saving/fixedpagesaveoptions/pageset/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.saving/fixedpagesaveoptions/pageset/
 public PageSet PageSet { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخراج الصفحات بناءً على فهارس الصفحات الدقيقة.
 
@@ -105,7 +107,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.ExportPageSet.All.pdf", options);
 
 * class [PageSet](../../pageset/)
 * class [FixedPageSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../fixedpagesaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

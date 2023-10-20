@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.CurrentSection
-second_title: Référence de l'API Aspose.Words pour .NET
-description: DocumentBuilder propriété. Obtient la section actuellement sélectionnée dans ceDocumentBuilder .
+linktitle: CurrentSection
+articleTitle: CurrentSection
+second_title: Aspose.Words pour .NET
+description: DocumentBuilder CurrentSection propriété. Obtient la section actuellement sélectionnée dans ceDocumentBuilder  en C#.
 type: docs
 weight: 60
 url: /fr/net/aspose.words/documentbuilder/currentsection/
@@ -14,7 +16,7 @@ Obtient la section actuellement sélectionnée dans ce[`DocumentBuilder`](../) .
 public Section CurrentSection { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment insérer une image flottante et spécifier sa position et sa taille.
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "Image.CreateFloatingPositionSize.docx");
 
 * class [Section](../../section/)
 * class [DocumentBuilder](../)
-* espace de noms [Aspose.Words](../../documentbuilder/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

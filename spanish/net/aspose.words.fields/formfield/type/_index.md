@@ -1,7 +1,9 @@
 ---
 title: FormField.Type
-second_title: Referencia de API de Aspose.Words para .NET
-description: FormField propiedad. Devuelve el tipo de campo del formulario.
+linktitle: Type
+articleTitle: Type
+second_title: Aspose.Words para .NET
+description: FormField Type propiedad. Devuelve el tipo de campo del formulario en C#.
 type: docs
 weight: 220
 url: /es/net/aspose.words.fields/formfield/type/
@@ -14,7 +16,7 @@ Devuelve el tipo de campo del formulario.
 public FieldType Type { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo insertar un cuadro combinado.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "FormFields.Create.html");
 
 * enum [FieldType](../../fieldtype/)
 * class [FormField](../)
-* espacio de nombres [Aspose.Words.Fields](../../formfield/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

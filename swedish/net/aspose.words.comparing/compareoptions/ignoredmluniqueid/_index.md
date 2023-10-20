@@ -1,7 +1,9 @@
 ---
 title: CompareOptions.IgnoreDmlUniqueId
-second_title: Aspose.Words för .NET API Referens
-description: CompareOptions fast egendom. Anger om skillnaden i DrawingML unika Id. ska ignoreras. Standardvärdet ärfalsk .
+linktitle: IgnoreDmlUniqueId
+articleTitle: IgnoreDmlUniqueId
+second_title: Aspose.Words för .NET
+description: CompareOptions IgnoreDmlUniqueId fast egendom. Anger om skillnaden i DrawingML unika Id. ska ignoreras. Standardvärdet ärfalsk  i C#.
 type: docs
 weight: 60
 url: /sv/net/aspose.words.comparing/compareoptions/ignoredmluniqueid/
@@ -14,7 +16,7 @@ Anger om skillnaden i DrawingML unika Id. ska ignoreras. Standardvärdet är`fal
 public bool IgnoreDmlUniqueId { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man jämför dokument som ignorerar DML unika ID.
 
@@ -35,7 +37,5 @@ Assert.AreEqual(isIgnoreDmlUniqueId ? 0 : 2, docA.Revisions.Count);
 ### Se även
 
 * class [CompareOptions](../)
-* namnutrymme [Aspose.Words.Comparing](../../compareoptions/)
+* namnutrymme [Aspose.Words.Comparing](../../../aspose.words.comparing/)
 * hopsättning [Aspose.Words](../../../)
-
-

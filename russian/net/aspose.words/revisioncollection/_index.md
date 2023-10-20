@@ -1,7 +1,9 @@
 ---
-title: Class RevisionCollection
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.RevisionCollection сорт. КоллекцияRevision объекты представляющие изменения в документе.
+title: RevisionCollection Class
+linktitle: RevisionCollection
+articleTitle: RevisionCollection
+second_title: Aspose.Words для .NET
+description: Aspose.Words.RevisionCollection сорт. КоллекцияRevision объекты представляющие изменения в документе на С#.
 type: docs
 weight: 4770
 url: /ru/net/aspose.words/revisioncollection/
@@ -32,11 +34,11 @@ public class RevisionCollection : IEnumerable<Revision>
 | [GetEnumerator](../../aspose.words/revisioncollection/getenumerator/)() | Возвращает объект перечислителя. |
 | [RejectAll](../../aspose.words/revisioncollection/rejectall/)() | Отклоняет все изменения в этой коллекции. |
 
-### Примечания
+## Примечания
 
 Вы не создаете экземпляры этого класса напрямую. Использовать[`Revisions`](../document/revisions/) свойство для получения изменений, присутствующих в документе.
 
-### Примеры
+## Примеры
 
 Показывает, как работать с изменениями в документе.
 
@@ -121,5 +123,3 @@ Assert.AreEqual("This is revision #1. \rThis is revision #2.", doc.GetText().Tri
 * class [Revision](../revision/)
 * пространство имен [Aspose.Words](../../aspose.words/)
 * сборка [Aspose.Words](../../)
-
-

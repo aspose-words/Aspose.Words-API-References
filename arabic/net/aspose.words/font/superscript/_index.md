@@ -1,7 +1,9 @@
 ---
 title: Font.Superscript
-second_title: Aspose.Words لمراجع .NET API
-description: Font ملكية. صحيح إذا تم تنسيق الخط كخط مرتفع.
+linktitle: Superscript
+articleTitle: Superscript
+second_title: Aspose.Words لـ .NET
+description: Font Superscript ملكية. صحيح إذا تم تنسيق الخط كخط مرتفع في C#.
 type: docs
 weight: 440
 url: /ar/net/aspose.words/font/superscript/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/font/superscript/
 public bool Superscript { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تنسيق النص لتعويض موضعه.
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "Font.PositionSubscript.docx");
 ### أنظر أيضا
 
 * class [Font](../)
-* مساحة الاسم [Aspose.Words](../../font/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

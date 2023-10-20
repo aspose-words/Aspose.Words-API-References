@@ -1,7 +1,9 @@
 ---
-title: Class SignatureLine
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Drawing.SignatureLine сорт. Обеспечивает доступ к свойствам строки подписи.
+title: SignatureLine Class
+linktitle: SignatureLine
+articleTitle: SignatureLine
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Drawing.SignatureLine сорт. Обеспечивает доступ к свойствам строки подписи на С#.
 type: docs
 weight: 1300
 url: /ru/net/aspose.words.drawing/signatureline/
@@ -22,17 +24,17 @@ public class SignatureLine
 | --- | --- |
 | [AllowComments](../../aspose.words.drawing/signatureline/allowcomments/) { get; set; } | Получает или задает значение, указывающее, что подписывающая сторона может добавлять комментарии в диалоговом окне «Подпись». Значение по умолчанию для этого свойства:`ЛОЖЬ` . |
 | [DefaultInstructions](../../aspose.words.drawing/signatureline/defaultinstructions/) { get; set; } | Получает или задает значение, указывающее, что инструкции по умолчанию отображаются в диалоговом окне «Подпись». Значение по умолчанию для этого свойства:`истинный` . |
-| [Email](../../aspose.words.drawing/signatureline/email/) { get; set; } | Получает или задает предлагаемый адрес электронной почты подписывающего лица. Значение по умолчанию для этого свойства: **пустая строка** (Empty). |
+| [Email](../../aspose.words.drawing/signatureline/email/) { get; set; } | Получает или задает предлагаемый адрес электронной почты подписывающего лица. Значение по умолчанию для этого свойства:**пустая строка** (Empty). |
 | [Id](../../aspose.words.drawing/signatureline/id/) { get; set; } | Получает или задает идентификатор для этой строки подписи. |
-| [Instructions](../../aspose.words.drawing/signatureline/instructions/) { get; set; } | Получает или задает инструкции для подписывающего лица, которые отображаются при подписании строки подписи. Это свойство игнорируется, если[`DefaultInstructions`](./defaultinstructions/)установлено. Значение по умолчанию для этого свойства: **пустая строка** (Empty). |
+| [Instructions](../../aspose.words.drawing/signatureline/instructions/) { get; set; } | Получает или задает инструкции для подписывающего лица, которые отображаются при подписании строки подписи. Это свойство игнорируется, если[`DefaultInstructions`](./defaultinstructions/)установлено. Значение по умолчанию для этого свойства:**пустая строка** (Empty). |
 | [IsSigned](../../aspose.words.drawing/signatureline/issigned/) { get; } | Указывает, что строка подписи подписана цифровой подписью. |
 | [IsValid](../../aspose.words.drawing/signatureline/isvalid/) { get; } | Указывает, что строка подписи подписана цифровой подписью и эта цифровая подпись действительна. |
 | [ProviderId](../../aspose.words.drawing/signatureline/providerid/) { get; set; } | Получает или задает идентификатор поставщика подписи для этой строки подписи. Значение по умолчанию: «{00000000-0000-0000-0000-000000000000}». |
 | [ShowDate](../../aspose.words.drawing/signatureline/showdate/) { get; set; } | Получает или задает значение, указывающее, что дата подписания отображается в строке подписи. Значение по умолчанию для этого свойства:`истинный` . |
-| [Signer](../../aspose.words.drawing/signatureline/signer/) { get; set; } | Получает или задает предполагаемого подписывающего лица в строке подписи. Значение по умолчанию для этого свойства: **пустая строка** (Empty). |
-| [SignerTitle](../../aspose.words.drawing/signatureline/signertitle/) { get; set; } | Получает или задает предлагаемую должность подписывающего лица (например, Менеджер). Значение по умолчанию для этого свойства: **пустая строка** (Empty). |
+| [Signer](../../aspose.words.drawing/signatureline/signer/) { get; set; } | Получает или задает предполагаемого подписывающего лица в строке подписи. Значение по умолчанию для этого свойства:**пустая строка** (Empty). |
+| [SignerTitle](../../aspose.words.drawing/signatureline/signertitle/) { get; set; } | Получает или задает предлагаемую должность подписывающего лица (например, Менеджер). Значение по умолчанию для этого свойства:**пустая строка** (Empty). |
 
-### Примеры
+## Примеры
 
 Показывает, как создать строку для подписи и вставить ее в документ.
 
@@ -78,5 +80,3 @@ doc.Save(ArtifactsDir + "Shape.SignatureLine.docx");
 
 * пространство имен [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../)
-
-

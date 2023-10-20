@@ -1,7 +1,9 @@
 ---
-title: Class PdfEncryptionDetails
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Saving.PdfEncryptionDetails 班级. 包含 PDF 文档的加密和访问权限的详细信息
+title: PdfEncryptionDetails Class
+linktitle: PdfEncryptionDetails
+articleTitle: PdfEncryptionDetails
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Saving.PdfEncryptionDetails 班级. 包含 PDF 文档的加密和访问权限的详细信息 在 C#.
 type: docs
 weight: 5460
 url: /zh/net/aspose.words.saving/pdfencryptiondetails/
@@ -20,8 +22,8 @@ public class PdfEncryptionDetails
 
 | 姓名 | 描述 |
 | --- | --- |
-| [PdfEncryptionDetails](pdfencryptiondetails/#constructor)(string, string) | 初始化此类的实例。 |
-| [PdfEncryptionDetails](pdfencryptiondetails/#constructor_1)(string, string, PdfPermissions) | 初始化此类的实例。 |
+| [PdfEncryptionDetails](pdfencryptiondetails/#constructor)(*string, string*) | 初始化此类的实例。 |
+| [PdfEncryptionDetails](pdfencryptiondetails/#constructor_1)(*string, string, [PdfPermissions](../pdfpermissions/)*) | 初始化此类的实例。 |
 
 ## 特性
 
@@ -31,7 +33,7 @@ public class PdfEncryptionDetails
 | [Permissions](../../aspose.words.saving/pdfencryptiondetails/permissions/) { get; set; } | 指定允许用户对加密 PDF 文档进行的操作。 默认值为DisallowAll. |
 | [UserPassword](../../aspose.words.saving/pdfencryptiondetails/userpassword/) { get; set; } | 指定打开加密 PDF 文档所需的用户密码。 |
 
-### 例子
+## 例子
 
 演示如何设置已保存 PDF 文档的权限。
 
@@ -59,5 +61,3 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.EncryptionPermissions.pdf", saveOptions)
 
 * 命名空间 [Aspose.Words.Saving](../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../)
-
-

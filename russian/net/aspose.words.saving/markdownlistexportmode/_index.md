@@ -1,7 +1,9 @@
 ---
-title: Enum MarkdownListExportMode
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Saving.MarkdownListExportMode перечисление. Указывает как списки экспортируются в Markdown.
+title: MarkdownListExportMode Enum
+linktitle: MarkdownListExportMode
+articleTitle: MarkdownListExportMode
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Saving.MarkdownListExportMode перечисление. Указывает как списки экспортируются в Markdown на С#.
 type: docs
 weight: 5270
 url: /ru/net/aspose.words.saving/markdownlistexportmode/
@@ -25,5 +27,3 @@ public enum MarkdownListExportMode
 
 * пространство имен [Aspose.Words.Saving](../../aspose.words.saving/)
 * сборка [Aspose.Words](../../)
-
-

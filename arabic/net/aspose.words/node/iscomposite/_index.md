@@ -1,7 +1,9 @@
 ---
 title: Node.IsComposite
-second_title: Aspose.Words لمراجع .NET API
-description: Node ملكية. إرجاعحقيقي إذا كانت هذه العقدة يمكن أن تحتوي على عقد أخرى.
+linktitle: IsComposite
+articleTitle: IsComposite
+second_title: Aspose.Words لـ .NET
+description: Node IsComposite ملكية. إرجاعحقيقي إذا كانت هذه العقدة يمكن أن تحتوي على عقد أخرى في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words/node/iscomposite/
@@ -18,7 +20,7 @@ public virtual bool IsComposite { get; }
 
 تعود هذه الطريقة`خطأ شنيع` مثل[`Node`](../) لا يمكن أن تحتوي على عقد فرعية.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية اجتياز شجرة العقدة المركبة من العقد الفرعية.
 
@@ -65,7 +67,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 ### أنظر أيضا
 
 * class [Node](../)
-* مساحة الاسم [Aspose.Words](../../node/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

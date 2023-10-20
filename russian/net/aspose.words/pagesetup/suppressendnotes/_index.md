@@ -1,7 +1,9 @@
 ---
 title: PageSetup.SuppressEndnotes
-second_title: Справочник по API Aspose.Words для .NET
-description: PageSetup свойство. True если концевые сноски печатаются в конце следующего раздела который не подавляет концевые сноски. Подавленные концевые сноски печатаются перед концевыми сносками в этом разделе.
+linktitle: SuppressEndnotes
+articleTitle: SuppressEndnotes
+second_title: Aspose.Words для .NET
+description: PageSetup SuppressEndnotes свойство. True если концевые сноски печатаются в конце следующего раздела который не подавляет концевые сноски. Подавленные концевые сноски печатаются перед концевыми сносками в этом разделе на С#.
 type: docs
 weight: 410
 url: /ru/net/aspose.words/pagesetup/suppressendnotes/
@@ -14,7 +16,7 @@ True, если концевые сноски печатаются в конце 
 public bool SuppressEndnotes { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как сохранять концевые сноски в конце каждого раздела и изменять их положение.
 
@@ -73,7 +75,5 @@ private static void InsertSectionWithEndnote(Document doc, string sectionBodyTex
 ### Смотрите также
 
 * class [PageSetup](../)
-* пространство имен [Aspose.Words](../../pagesetup/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

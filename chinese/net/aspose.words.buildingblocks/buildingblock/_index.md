@@ -1,7 +1,9 @@
 ---
-title: Class BuildingBlock
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.BuildingBlocks.BuildingBlock 班级. 表示词汇表文档条目例如 Building Block自动图文集或自动更正条目
+title: BuildingBlock Class
+linktitle: BuildingBlock
+articleTitle: BuildingBlock
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.BuildingBlocks.BuildingBlock 班级. 表示词汇表文档条目例如 Building Block自动图文集或自动更正条目 在 C#.
 type: docs
 weight: 130
 url: /zh/net/aspose.words.buildingblocks/buildingblock/
@@ -20,7 +22,7 @@ public class BuildingBlock : CompositeNode
 
 | 姓名 | 描述 |
 | --- | --- |
-| [BuildingBlock](buildingblock/)(GlossaryDocument) | 初始化此类的新实例。 |
+| [BuildingBlock](buildingblock/)(*[GlossaryDocument](../glossarydocument/)*) | 初始化此类的新实例。 |
 
 ## 特性
 
@@ -53,34 +55,32 @@ public class BuildingBlock : CompositeNode
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [Accept](../../aspose.words.buildingblocks/buildingblock/accept/)(DocumentVisitor) | 接受访客。 |
-| override [AcceptEnd](../../aspose.words.buildingblocks/buildingblock/acceptend/)(DocumentVisitor) |  |
-| override [AcceptStart](../../aspose.words.buildingblocks/buildingblock/acceptstart/)(DocumentVisitor) |  |
-| [AppendChild&lt;T&gt;](../../aspose.words/compositenode/appendchild/)(T) |  |
-| [Clone](../../aspose.words/node/clone/)(bool) | 创建节点的副本。 |
+| override [Accept](../../aspose.words.buildingblocks/buildingblock/accept/)(*[DocumentVisitor](../../aspose.words/documentvisitor/)*) | 接受访客。 |
+| [AppendChild](../../aspose.words/compositenode/appendchild/)(*[Node](../../aspose.words/node/)*) | 将指定节点添加到该节点的子节点列表的末尾。 |
+| [Clone](../../aspose.words/node/clone/)(*bool*) | 创建节点的副本。 |
 | [CreateNavigator](../../aspose.words/compositenode/createnavigator/)() | 创建可用于遍历和读取节点的导航器。 |
-| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | 获取指定的第一个祖先[`NodeType`](../../aspose.words/nodetype/). |
-| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | 获取指定对象类型的第一个祖先。 |
-| [GetChild](../../aspose.words/compositenode/getchild/)(NodeType, int, bool) | 返回与指定类型匹配的第 N 个子节点。 |
-| [GetChildNodes](../../aspose.words/compositenode/getchildnodes/)(NodeType, bool) | 返回与指定类型匹配的子节点的实时集合。 |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*[NodeType](../../aspose.words/nodetype/)*) | 获取指定的第一个祖先[`NodeType`](../../aspose.words/nodetype/). |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | 获取指定对象类型的第一个祖先。 |
+| [GetChild](../../aspose.words/compositenode/getchild/)(*[NodeType](../../aspose.words/nodetype/), int, bool*) | 返回与指定类型匹配的第 N 个子节点。 |
+| [GetChildNodes](../../aspose.words/compositenode/getchildnodes/)(*[NodeType](../../aspose.words/nodetype/), bool*) | 返回与指定类型匹配的子节点的实时集合。 |
 | [GetEnumerator](../../aspose.words/compositenode/getenumerator/)() | 为该节点的子节点上的每个样式迭代提供支持。 |
 | override [GetText](../../aspose.words/compositenode/gettext/)() | 获取此节点及其所有子节点的文本。 |
-| [IndexOf](../../aspose.words/compositenode/indexof/)(Node) | 返回子节点数组中指定子节点的索引。 |
-| [InsertAfter&lt;T&gt;](../../aspose.words/compositenode/insertafter/)(T, Node) |  |
-| [InsertBefore&lt;T&gt;](../../aspose.words/compositenode/insertbefore/)(T, Node) |  |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | 根据先序树遍历算法获取下一个节点。 |
-| [PrependChild&lt;T&gt;](../../aspose.words/compositenode/prependchild/)(T) |  |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | 根据先序树遍历算法获取前一个节点。 |
+| [IndexOf](../../aspose.words/compositenode/indexof/)(*[Node](../../aspose.words/node/)*) | 返回子节点数组中指定子节点的索引。 |
+| [InsertAfter](../../aspose.words/compositenode/insertafter/)(*[Node](../../aspose.words/node/), [Node](../../aspose.words/node/)*) | 在指定的引用节点之后立即插入指定的节点。 |
+| [InsertBefore](../../aspose.words/compositenode/insertbefore/)(*[Node](../../aspose.words/node/), [Node](../../aspose.words/node/)*) | 在指定的引用节点之前插入指定的节点。 |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../../aspose.words/node/)*) | 根据先序树遍历算法获取下一个节点。 |
+| [PrependChild](../../aspose.words/compositenode/prependchild/)(*[Node](../../aspose.words/node/)*) | 将指定节点添加到该节点的子节点列表的开头。 |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../../aspose.words/node/)*) | 根据先序树遍历算法获取前一个节点。 |
 | [Remove](../../aspose.words/node/remove/)() | 将自身从父级中删除。 |
 | [RemoveAllChildren](../../aspose.words/compositenode/removeallchildren/)() | 删除当前节点的所有子节点。 |
-| [RemoveChild&lt;T&gt;](../../aspose.words/compositenode/removechild/)(T) |  |
+| [RemoveChild](../../aspose.words/compositenode/removechild/)(*[Node](../../aspose.words/node/)*) | 删除指定的子节点。 |
 | [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags/)() | 删除所有[`SmartTag`](../../aspose.words.markup/smarttag/)当前节点的后代节点. |
-| [SelectNodes](../../aspose.words/compositenode/selectnodes/)(string) | 选择与 XPath 表达式匹配的节点列表。 |
-| [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(string) | 选择第一个[`Node`](../../aspose.words/node/)与 XPath 表达式匹配。 |
-| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | 将节点的内容导出为指定格式的字符串。 |
-| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | 使用指定的保存选项将节点的内容导出到字符串中。 |
+| [SelectNodes](../../aspose.words/compositenode/selectnodes/)(*string*) | 选择与 XPath 表达式匹配的节点列表。 |
+| [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(*string*) | 选择第一个[`Node`](../../aspose.words/node/)与 XPath 表达式匹配。 |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../../aspose.words/saveformat/)*) | 将节点的内容导出为指定格式的字符串。 |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | 使用指定的保存选项将节点的内容导出到字符串中。 |
 
-### 评论
+## 评论
 
 `BuildingBlock`只能包含[`Section`](../../aspose.words/section/)节点。
 
@@ -88,9 +88,9 @@ public class BuildingBlock : CompositeNode
 
 您可以创建新的构建基块并将其插入术语表文档中。 您可以修改或删除现有的构建基块。您可以在文档之间复制或移动构建块 。您可以将构建块的内容插入到文档中。
 
-对应于 **文档部分**, **文档部分Pr**和 **文档部分正文**OOXML 中的元素。
+对应于**文档部分**,**文档部分Pr**和**文档部分正文**OOXML 中的元素。
 
-### 例子
+## 例子
 
 演示如何将自定义构建块添加到文档中。
 
@@ -189,5 +189,3 @@ public class BuildingBlockVisitor : DocumentVisitor
 * class [CompositeNode](../../aspose.words/compositenode/)
 * 命名空间 [Aspose.Words.BuildingBlocks](../../aspose.words.buildingblocks/)
 * 部件 [Aspose.Words](../../)
-
-

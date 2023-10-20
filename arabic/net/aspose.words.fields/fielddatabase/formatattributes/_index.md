@@ -1,7 +1,9 @@
 ---
 title: FieldDatabase.FormatAttributes
-second_title: Aspose.Words لمراجع .NET API
-description: FieldDatabase ملكية. الحصول على أو تعيين سمات التنسيق التي سيتم تطبيقها على الجدول.
+linktitle: FormatAttributes
+articleTitle: FormatAttributes
+second_title: Aspose.Words لـ .NET
+description: FieldDatabase FormatAttributes ملكية. الحصول على أو تعيين سمات التنسيق التي سيتم تطبيقها على الجدول في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.fields/fielddatabase/formatattributes/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fielddatabase/formatattributes/
 public string FormatAttributes { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخراج البيانات من قاعدة البيانات وإدراجها كحقل في المستند.
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "Field.DATABASE.docx");
 ### أنظر أيضا
 
 * class [FieldDatabase](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fielddatabase/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

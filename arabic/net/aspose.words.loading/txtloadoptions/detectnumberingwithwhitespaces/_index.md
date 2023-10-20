@@ -1,9 +1,11 @@
 ---
 title: TxtLoadOptions.DetectNumberingWithWhitespaces
-second_title: Aspose.Words لمراجع .NET API
-description: TxtLoadOptions ملكية. يسمح بتحديد كيفية التعرف على عناصر القائمة المرقمة عند استيراد المستند من تنسيق نص عادي. القيمة الافتراضية هيحقيقي.
+linktitle: DetectNumberingWithWhitespaces
+articleTitle: DetectNumberingWithWhitespaces
+second_title: Aspose.Words لـ .NET
+description: TxtLoadOptions DetectNumberingWithWhitespaces ملكية. يسمح بتحديد كيفية التعرف على عناصر القائمة المرقمة عند استيراد المستند من تنسيق نص عادي. القيمة الافتراضية هيحقيقي في C#.
 type: docs
-weight: 40
+weight: 30
 url: /ar/net/aspose.words.loading/txtloadoptions/detectnumberingwithwhitespaces/
 ---
 ## TxtLoadOptions.DetectNumberingWithWhitespaces property
@@ -14,13 +16,13 @@ url: /ar/net/aspose.words.loading/txtloadoptions/detectnumberingwithwhitespaces/
 public bool DetectNumberingWithWhitespaces { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 إذا تم ضبط هذا الخيار على`خطأ شنيع`، تكتشف خوارزمية التعرف على القوائم فقرات القائمة، عندما تنتهي أرقام القائمة بـ إما نقطة أو قوس أيمن أو رموز نقطية (مثل "•" أو "*" أو "-" أو "o").
 
 إذا تم ضبط هذا الخيار على`حقيقي`، يتم استخدام المسافات البيضاء أيضًا كمحددات لأرقام القائمة: خوارزمية التعرف على القائمة لترقيم النمط العربي (1.، 1.1.2.) تستخدم كلاً من المسافات البيضاء ورموز النقطة (".).
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية اكتشاف القوائم عند تحميل مستندات النص العادي.
 
@@ -74,7 +76,5 @@ else
 ### أنظر أيضا
 
 * class [TxtLoadOptions](../)
-* مساحة الاسم [Aspose.Words.Loading](../../txtloadoptions/)
+* مساحة الاسم [Aspose.Words.Loading](../../../aspose.words.loading/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class FieldFileName
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Fields.FieldFileName فصل. ينفذ حقل FILENAME.
+title: FieldFileName Class
+linktitle: FieldFileName
+articleTitle: FieldFileName
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Fields.FieldFileName فصل. ينفذ حقل FILENAME في C#.
 type: docs
 weight: 1870
 url: /ar/net/aspose.words.fields/fieldfilename/
@@ -43,19 +45,19 @@ public class FieldFileName : Field
 | اسم | وصف |
 | --- | --- |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | إرجاع النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل). يتم تضمين كل من رمز الحقل ونتيجة الحقل للحقول الفرعية. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | إرجاع النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل). |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | إرجاع النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل). |
 | [Remove](../../aspose.words.fields/field/remove/)() | إزالة الحقل من المستند. إرجاع عقدة مباشرة بعد الحقل. إذا كانت نهاية الحقل هي الطفل الأخير للعقدة الأصلية، فسيتم إرجاع الفقرة الأصلية الخاصة به. إذا تمت إزالة الحقل بالفعل، فسيتم إرجاعه`باطل` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | يقوم بإلغاء ربط الحقل. |
 | [Update](../../aspose.words.fields/field/update/)() | يقوم بإجراء التحديث الميداني. يتم الرمي إذا تم تحديث الحقل بالفعل. |
-| [Update](../../aspose.words.fields/field/update/)(bool) | إجراء تحديث ميداني. يتم الرمي إذا تم تحديث الحقل بالفعل. |
+| [Update](../../aspose.words.fields/field/update/)(*bool*) | إجراء تحديث ميداني. يتم الرمي إذا تم تحديث الحقل بالفعل. |
 
-### ملاحظات
+## ملاحظات
 
 يسترد اسم المستند الحالي من موقع التخزين الخاص به.
 
 في التنفيذ الحالي، يستخدم[`OriginalFileName`](../../aspose.words/document/originalfilename/) الخاصية لاسترداد اسم الملف. إذا تم تحميل المستند من دفق أو تم إنشاؤه فارغًا، فسيتم استخدام اسم الملف الذي يتم حفظه فيه (إذا كان معروفًا).
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام FieldOptions لتجاوز القيمة الافتراضية لحقل FILENAME.
 
@@ -100,5 +102,3 @@ doc.Save(ArtifactsDir + doc.FieldOptions.FileName);
 * class [Field](../field/)
 * مساحة الاسم [Aspose.Words.Fields](../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../)
-
-

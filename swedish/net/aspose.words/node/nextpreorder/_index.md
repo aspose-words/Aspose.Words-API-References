@@ -1,7 +1,9 @@
 ---
 title: Node.NextPreOrder
-second_title: Aspose.Words för .NET API Referens
-description: Node metod. Hämtar nästa nod enligt algoritmen för förbeställningsträdet.
+linktitle: NextPreOrder
+articleTitle: NextPreOrder
+second_title: Aspose.Words för .NET
+description: Node NextPreOrder metod. Hämtar nästa nod enligt algoritmen för förbeställningsträdet i C#.
 type: docs
 weight: 130
 url: /sv/net/aspose.words/node/nextpreorder/
@@ -22,7 +24,7 @@ public Node NextPreOrder(Node rootNode)
 
 Nästa nod i förbeställning. Null om nått*rootNode*.
 
-### Exempel
+## Exempel
 
 Visar hur man går igenom dokumentets nodträd med förbeställnings-genomgångsalgoritmen och tar bort alla former som påträffas med en bild.
 
@@ -53,7 +55,5 @@ Assert.AreEqual(0,
 ### Se även
 
 * class [Node](../)
-* namnutrymme [Aspose.Words](../../node/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

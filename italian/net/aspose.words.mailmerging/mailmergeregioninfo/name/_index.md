@@ -1,7 +1,9 @@
 ---
 title: MailMergeRegionInfo.Name
-second_title: Aspose.Words per .NET API Reference
-description: MailMergeRegionInfo proprietà. Restituisce il nome della regione.
+linktitle: Name
+articleTitle: Name
+second_title: Aspose.Words per .NET
+description: MailMergeRegionInfo Name proprietà. Restituisce il nome della regione in C#.
 type: docs
 weight: 60
 url: /it/net/aspose.words.mailmerging/mailmergeregioninfo/name/
@@ -14,7 +16,7 @@ Restituisce il nome della regione.
 public string Name { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come verificare le regioni di stampa unione.
 
@@ -59,7 +61,5 @@ Assert.AreEqual("TableEnd:NestedRegion1", endFieldMergeField.FieldName);
 ### Guarda anche
 
 * class [MailMergeRegionInfo](../)
-* spazio dei nomi [Aspose.Words.MailMerging](../../mailmergeregioninfo/)
+* spazio dei nomi [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: BookmarkStart.GetText
-second_title: Aspose.Words per .NET API Reference
-description: BookmarkStart metodo. Restituisce una stringa vuota.
+linktitle: GetText
+articleTitle: GetText
+second_title: Aspose.Words per .NET
+description: BookmarkStart GetText metodo. Restituisce una stringa vuota in C#.
 type: docs
 weight: 60
 url: /it/net/aspose.words/bookmarkstart/gettext/
@@ -18,7 +20,7 @@ public override string GetText()
 
 Una stringa vuota.
 
-### Esempi
+## Esempi
 
 Mostra come aggiungere segnalibri e aggiornarne i contenuti.
 
@@ -107,7 +109,5 @@ public class BookmarkInfoPrinter : DocumentVisitor
 ### Guarda anche
 
 * class [BookmarkStart](../)
-* spazio dei nomi [Aspose.Words](../../bookmarkstart/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

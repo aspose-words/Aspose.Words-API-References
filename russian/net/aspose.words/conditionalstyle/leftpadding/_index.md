@@ -1,7 +1,9 @@
 ---
 title: ConditionalStyle.LeftPadding
-second_title: Справочник по API Aspose.Words для .NET
-description: ConditionalStyle свойство. Получает или задает объем места в пунктах добавляемый слева от содержимого ячеек таблицы.
+linktitle: LeftPadding
+articleTitle: LeftPadding
+second_title: Aspose.Words для .NET
+description: ConditionalStyle LeftPadding свойство. Получает или задает объем места в пунктах добавляемый слева от содержимого ячеек таблицы на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words/conditionalstyle/leftpadding/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/conditionalstyle/leftpadding/
 public double LeftPadding { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как работать с определенными стилями областей таблицы.
 
@@ -84,7 +86,5 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 ### Смотрите также
 
 * class [ConditionalStyle](../)
-* пространство имен [Aspose.Words](../../conditionalstyle/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

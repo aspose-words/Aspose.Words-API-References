@@ -1,12 +1,14 @@
 ---
 title: NodeRendererBase.GetBoundsInPixels
-second_title: Aspose.Words لمراجع .NET API
-description: NodeRendererBase طريقة. حساب حدود الشكل بالبكسل لعامل تكبير ودقة محددين.
+linktitle: GetBoundsInPixels
+articleTitle: GetBoundsInPixels
+second_title: Aspose.Words لـ .NET
+description: NodeRendererBase GetBoundsInPixels طريقة. حساب حدود الشكل بالبكسل لعامل تكبير ودقة محددين في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.rendering/noderendererbase/getboundsinpixels/
 ---
-## GetBoundsInPixels(float, float) {#getboundsinpixels}
+## GetBoundsInPixels(*float, float*) {#getboundsinpixels}
 
 حساب حدود الشكل بالبكسل لعامل تكبير ودقة محددين.
 
@@ -23,11 +25,11 @@ public Rectangle GetBoundsInPixels(float scale, float dpi)
 
 المربع المحيط الفعلي (كما هو معروض على الصفحة) للشكل بالبكسل.
 
-### ملاحظات
+## ملاحظات
 
 هذه الطريقة تحول[`BoundsInPoints`](../boundsinpoints/)إلى مستطيل بالبكسل.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية قياس الأشكال وحجمها.
 
@@ -74,12 +76,12 @@ Assert.AreEqual(30, bounds.Height);
 ### أنظر أيضا
 
 * class [NodeRendererBase](../)
-* مساحة الاسم [Aspose.Words.Rendering](../../noderendererbase/)
+* مساحة الاسم [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## GetBoundsInPixels(float, float, float) {#getboundsinpixels_1}
+## GetBoundsInPixels(*float, float, float*) {#getboundsinpixels_1}
 
 حساب حدود الشكل بالبكسل لعامل تكبير ودقة محددين.
 
@@ -97,11 +99,11 @@ public Rectangle GetBoundsInPixels(float scale, float horizontalDpi, float verti
 
 المربع المحيط الفعلي (كما هو معروض على الصفحة) للشكل بالبكسل.
 
-### ملاحظات
+## ملاحظات
 
 هذه الطريقة تحول[`BoundsInPoints`](../boundsinpoints/)إلى مستطيل بالبكسل.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية قياس الأشكال وحجمها.
 
@@ -148,7 +150,5 @@ Assert.AreEqual(30, bounds.Height);
 ### أنظر أيضا
 
 * class [NodeRendererBase](../)
-* مساحة الاسم [Aspose.Words.Rendering](../../noderendererbase/)
+* مساحة الاسم [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * المجسم [Aspose.Words](../../../)
-
-

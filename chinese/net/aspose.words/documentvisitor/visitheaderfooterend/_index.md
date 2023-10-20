@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitHeaderFooterEnd
-second_title: Aspose.Words for .NET API 参考
-description: DocumentVisitor 方法. 当节中页眉或页脚的枚举结束时调用
+linktitle: VisitHeaderFooterEnd
+articleTitle: VisitHeaderFooterEnd
+second_title: 用于 .NET 的 Aspose.Words
+description: DocumentVisitor VisitHeaderFooterEnd 方法. 当节中页眉或页脚的枚举结束时调用 在 C#.
 type: docs
 weight: 280
 url: /zh/net/aspose.words/documentvisitor/visitheaderfooterend/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitHeaderFooterEnd(HeaderFooter headerFooter)
 
 A[`VisitorAction`](../../visitoraction/)指定如何继续枚举的值。
 
-### 例子
+## 例子
 
 演示如何打印文档中每个页眉和页脚的节点结构。
 
@@ -117,7 +119,5 @@ public class HeaderFooterStructurePrinter : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [HeaderFooter](../../headerfooter/)
 * class [DocumentVisitor](../)
-* 命名空间 [Aspose.Words](../../documentvisitor/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

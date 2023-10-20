@@ -1,7 +1,9 @@
 ---
-title: Class HeaderFooterCollection
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.HeaderFooterCollection فصل. يوفر الوصول المكتوب إلىHeaderFooter العقد أSection .
+title: HeaderFooterCollection Class
+linktitle: HeaderFooterCollection
+articleTitle: HeaderFooterCollection
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.HeaderFooterCollection فصل. يوفر الوصول المكتوب إلىHeaderFooter العقد أSection  في C#.
 type: docs
 weight: 3110
 url: /ar/net/aspose.words/headerfootercollection/
@@ -27,19 +29,19 @@ public class HeaderFooterCollection : NodeCollection
 
 | اسم | وصف |
 | --- | --- |
-| [Add](../../aspose.words/nodecollection/add/)(Node) | إضافة عقدة إلى نهاية المجموعة. |
+| [Add](../../aspose.words/nodecollection/add/)(*[Node](../node/)*) | إضافة عقدة إلى نهاية المجموعة. |
 | [Clear](../../aspose.words/nodecollection/clear/)() | إزالة كافة العقد من هذه المجموعة ومن المستند. |
-| [Contains](../../aspose.words/nodecollection/contains/)(Node) | تحديد ما إذا كانت العقدة موجودة في المجموعة. |
+| [Contains](../../aspose.words/nodecollection/contains/)(*[Node](../node/)*) | تحديد ما إذا كانت العقدة موجودة في المجموعة. |
 | [GetEnumerator](../../aspose.words/nodecollection/getenumerator/)() | يوفر تكرارًا بسيطًا لنمط "foreach" عبر مجموعة العقد. |
-| [IndexOf](../../aspose.words/nodecollection/indexof/)(Node) | إرجاع الفهرس الصفري للعقدة المحددة. |
-| [Insert](../../aspose.words/nodecollection/insert/)(int, Node) | إدراج عقدة في المجموعة في الفهرس المحدد. |
-| [LinkToPrevious](../../aspose.words/headerfootercollection/linktoprevious/#linktoprevious_1)(bool) | ربط أو إلغاء ربط جميع الرؤوس والتذييلات بالرؤوس والتذييلات المقابلة لها في القسم السابق. |
-| [LinkToPrevious](../../aspose.words/headerfootercollection/linktoprevious/#linktoprevious)(HeaderFooterType, bool) | ربط أو إلغاء ربط الرأس أو التذييل المحدد بالرأس أو التذييل المقابل في القسم السابق. |
-| [Remove](../../aspose.words/nodecollection/remove/)(Node) | إزالة العقدة من المجموعة ومن المستند. |
-| [RemoveAt](../../aspose.words/nodecollection/removeat/)(int) | إزالة العقدة الموجودة في الفهرس المحدد من المجموعة ومن المستند. |
+| [IndexOf](../../aspose.words/nodecollection/indexof/)(*[Node](../node/)*) | إرجاع الفهرس الصفري للعقدة المحددة. |
+| [Insert](../../aspose.words/nodecollection/insert/)(*int, [Node](../node/)*) | إدراج عقدة في المجموعة في الفهرس المحدد. |
+| [LinkToPrevious](../../aspose.words/headerfootercollection/linktoprevious/#linktoprevious_1)(*bool*) | ربط أو إلغاء ربط جميع الرؤوس والتذييلات بالرؤوس والتذييلات المقابلة لها في القسم السابق. |
+| [LinkToPrevious](../../aspose.words/headerfootercollection/linktoprevious/#linktoprevious)(*[HeaderFooterType](../headerfootertype/), bool*) | ربط أو إلغاء ربط الرأس أو التذييل المحدد بالرأس أو التذييل المقابل في القسم السابق. |
+| [Remove](../../aspose.words/nodecollection/remove/)(*[Node](../node/)*) | إزالة العقدة من المجموعة ومن المستند. |
+| [RemoveAt](../../aspose.words/nodecollection/removeat/)(*int*) | إزالة العقدة الموجودة في الفهرس المحدد من المجموعة ومن المستند. |
 | [ToArray](../../aspose.words/headerfootercollection/toarray/#toarray)() | نسخ الكل`HeaderForter` من المجموعة إلى مجموعة جديدة من`HeaderForter` ق. (2 methods) |
 
-### ملاحظات
+## ملاحظات
 
 يمكن أن يكون هناك حد أقصى واحد[`HeaderFooter`](../headerfooter/)
 
@@ -47,7 +49,7 @@ public class HeaderFooterCollection : NodeCollection
 
 [`HeaderFooter`](../headerfooter/) يمكن أن تظهر الكائنات بأي ترتيب في المجموعة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية حذف جميع التذييلات من المستند.
 
@@ -113,5 +115,3 @@ doc.Save(ArtifactsDir + "HeaderFooter.Create.docx");
 * class [NodeCollection](../nodecollection/)
 * مساحة الاسم [Aspose.Words](../../aspose.words/)
 * المجسم [Aspose.Words](../../)
-
-

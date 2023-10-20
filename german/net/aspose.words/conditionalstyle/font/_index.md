@@ -1,7 +1,9 @@
 ---
 title: ConditionalStyle.Font
-second_title: Aspose.Words für .NET-API-Referenz
-description: ConditionalStyle eigendom. Ruft die Zeichenformatierung des bedingten Stils ab.
+linktitle: Font
+articleTitle: Font
+second_title: Aspose.Words für .NET
+description: ConditionalStyle Font eigendom. Ruft die Zeichenformatierung des bedingten Stils ab in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words/conditionalstyle/font/
@@ -14,7 +16,7 @@ Ruft die Zeichenformatierung des bedingten Stils ab.
 public Font Font { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit bestimmten Bereichsstilen einer Tabelle gearbeitet wird.
 
@@ -85,7 +87,5 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 
 * class [Font](../../font/)
 * class [ConditionalStyle](../)
-* namensraum [Aspose.Words](../../conditionalstyle/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

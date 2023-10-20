@@ -1,7 +1,9 @@
 ---
 title: ConditionalStyle.Borders
-second_title: Справочник по API Aspose.Words для .NET
-description: ConditionalStyle свойство. Получает коллекцию границ ячеек по умолчанию для условного стиля.
+linktitle: Borders
+articleTitle: Borders
+second_title: Aspose.Words для .NET
+description: ConditionalStyle Borders свойство. Получает коллекцию границ ячеек по умолчанию для условного стиля на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words/conditionalstyle/borders/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/conditionalstyle/borders/
 public BorderCollection Borders { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как работать с определенными стилями областей таблицы.
 
@@ -85,7 +87,5 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 
 * class [BorderCollection](../../bordercollection/)
 * class [ConditionalStyle](../)
-* пространство имен [Aspose.Words](../../conditionalstyle/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

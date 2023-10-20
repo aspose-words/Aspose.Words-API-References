@@ -1,7 +1,9 @@
 ---
-title: OoxmlSaveOptions.OoxmlSaveOptions
-second_title: Aspose.Words for .NET API 参考
-description: OoxmlSaveOptions 构造函数. 初始化此类的一个新实例该实例可用于将文档保存在Docx格式.
+title: OoxmlSaveOptions
+linktitle: OoxmlSaveOptions
+articleTitle: OoxmlSaveOptions
+second_title: 用于 .NET 的 Aspose.Words
+description: OoxmlSaveOptions 构造函数. 初始化此类的一个新实例该实例可用于将文档保存在Docx格式 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.saving/ooxmlsaveoptions/ooxmlsaveoptions/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.saving/ooxmlsaveoptions/ooxmlsaveoptions/
 public OoxmlSaveOptions()
 ```
 
-### 例子
+## 例子
 
 演示如何为保存的文档设置要遵守的 OOXML 合规性规范。
 
@@ -49,12 +51,12 @@ Assert.AreEqual(ShapeMarkupLanguage.Dml, ((Shape)doc.GetChild(NodeType.Shape, 0,
 ### 也可以看看
 
 * class [OoxmlSaveOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../ooxmlsaveoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## OoxmlSaveOptions(SaveFormat) {#constructor_1}
+## OoxmlSaveOptions(*[SaveFormat](../../../aspose.words/saveformat/)*) {#constructor_1}
 
 初始化此类的一个新实例，该实例可用于将文档保存在Docx, Docm,Dotx,Dotm或 FlatOpc格式.
 
@@ -66,7 +68,7 @@ public OoxmlSaveOptions(SaveFormat saveFormat)
 | --- | --- | --- |
 | saveFormat | SaveFormat | 可Docx,Docm, Dotx,Dotm或者FlatOpc. |
 
-### 例子
+## 例子
 
 演示如何在转换为 .docx 时支持旧控制字符。
 
@@ -94,7 +96,5 @@ Assert.AreEqual(keepLegacyControlChars ? "\u0013date \\@ \"MM/dd/yyyy\"\u0014\u0
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
 * class [OoxmlSaveOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../ooxmlsaveoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

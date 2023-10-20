@@ -1,7 +1,9 @@
 ---
-title: Class ChartXValue
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Drawing.Charts.ChartXValue klass. Representerar ett Xvärde för en diagramserie.
+title: ChartXValue Class
+linktitle: ChartXValue
+articleTitle: ChartXValue
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Drawing.Charts.ChartXValue klass. Representerar ett Xvärde för en diagramserie i C#.
 type: docs
 weight: 840
 url: /sv/net/aspose.words.drawing.charts/chartxvalue/
@@ -29,15 +31,15 @@ public class ChartXValue
 
 | namn | Beskrivning |
 | --- | --- |
-| static [FromDateTime](../../aspose.words.drawing.charts/chartxvalue/fromdatetime/)(DateTime) | Skapar en`ChartXValue` instans avDateTime typ. |
-| static [FromDouble](../../aspose.words.drawing.charts/chartxvalue/fromdouble/)(double) | Skapar en`ChartXValue` instans avDouble typ. |
-| static [FromMultilevelValue](../../aspose.words.drawing.charts/chartxvalue/frommultilevelvalue/)(ChartMultilevelValue) | Skapar en`ChartXValue` instans avMultilevel typ. |
-| static [FromString](../../aspose.words.drawing.charts/chartxvalue/fromstring/)(string) | Skapar en`ChartXValue` instans avString typ. |
-| static [FromTimeSpan](../../aspose.words.drawing.charts/chartxvalue/fromtimespan/)(TimeSpan) | Skapar en`ChartXValue` instans avTime typ. |
-| override [Equals](../../aspose.words.drawing.charts/chartxvalue/equals/)(object) | Får en flagga som indikerar om det angivna objektet är lika med det aktuella X-värdeobjektet. |
+| static [FromDateTime](../../aspose.words.drawing.charts/chartxvalue/fromdatetime/)(*DateTime*) | Skapar en`ChartXValue` instans avDateTime typ. |
+| static [FromDouble](../../aspose.words.drawing.charts/chartxvalue/fromdouble/)(*double*) | Skapar en`ChartXValue` instans avDouble typ. |
+| static [FromMultilevelValue](../../aspose.words.drawing.charts/chartxvalue/frommultilevelvalue/)(*[ChartMultilevelValue](../chartmultilevelvalue/)*) | Skapar en`ChartXValue` instans avMultilevel typ. |
+| static [FromString](../../aspose.words.drawing.charts/chartxvalue/fromstring/)(*string*) | Skapar en`ChartXValue` instans avString typ. |
+| static [FromTimeSpan](../../aspose.words.drawing.charts/chartxvalue/fromtimespan/)(*TimeSpan*) | Skapar en`ChartXValue` instans avTime typ. |
+| override [Equals](../../aspose.words.drawing.charts/chartxvalue/equals/)(*object*) | Får en flagga som indikerar om det angivna objektet är lika med det aktuella X-värdeobjektet. |
 | override [GetHashCode](../../aspose.words.drawing.charts/chartxvalue/gethashcode/)() | Hämtar en hashkod för det aktuella X-värdeobjektet. |
 
-### Anmärkningar
+## Anmärkningar
 
 Den här klassen innehåller ett antal statiska metoder för att skapa ett X-värde av en viss typ. The [`ValueType`](./valuetype/) egenskap låter dig bestämma typen av ett befintligt X-värde.
 
@@ -47,5 +49,3 @@ Alla X-värden som inte är noll i en diagramserie måste vara av samma[`ChartXV
 
 * namnutrymme [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../)
-
-

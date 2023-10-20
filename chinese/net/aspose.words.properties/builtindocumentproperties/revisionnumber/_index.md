@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.RevisionNumber
-second_title: Aspose.Words for .NET API 参考
-description: BuiltInDocumentProperties 财产. 获取或设置文档修订号
+linktitle: RevisionNumber
+articleTitle: RevisionNumber
+second_title: 用于 .NET 的 Aspose.Words
+description: BuiltInDocumentProperties RevisionNumber 财产. 获取或设置文档修订号 在 C#.
 type: docs
 weight: 240
 url: /zh/net/aspose.words.properties/builtindocumentproperties/revisionnumber/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.properties/builtindocumentproperties/revisionnumber/
 public int RevisionNumber { get; set; }
 ```
 
-### 评论
+## 评论
 
 Aspose.Words 不会更新此属性。
 
-### 例子
+## 例子
 
 展示如何使用 REVNUM 字段。
 
@@ -78,7 +80,5 @@ doc.Save(ArtifactsDir + "DocumentProperties.Origin.docx");
 ### 也可以看看
 
 * class [BuiltInDocumentProperties](../)
-* 命名空间 [Aspose.Words.Properties](../../builtindocumentproperties/)
+* 命名空间 [Aspose.Words.Properties](../../../aspose.words.properties/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: CustomPartCollection.RemoveAt
-second_title: Referencia de API de Aspose.Words para .NET
-description: CustomPartCollection método. Elimina un elemento en el índice especificado.
+linktitle: RemoveAt
+articleTitle: RemoveAt
+second_title: Aspose.Words para .NET
+description: CustomPartCollection RemoveAt método. Elimina un elemento en el índice especificado en C#.
 type: docs
 weight: 80
 url: /es/net/aspose.words.markup/custompartcollection/removeat/
@@ -18,7 +20,7 @@ public void RemoveAt(int index)
 | --- | --- | --- |
 | index | Int32 | El índice de base cero. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo acceder a la colección de piezas personalizadas arbitrarias de un documento.
 
@@ -62,7 +64,5 @@ Assert.AreEqual(0, doc.PackageCustomParts.Count);
 ### Ver también
 
 * class [CustomPartCollection](../)
-* espacio de nombres [Aspose.Words.Markup](../../custompartcollection/)
+* espacio de nombres [Aspose.Words.Markup](../../../aspose.words.markup/)
 * asamblea [Aspose.Words](../../../)
-
-

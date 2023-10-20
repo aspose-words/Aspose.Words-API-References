@@ -1,7 +1,9 @@
 ---
 title: DropDownItemCollection.Contains
-second_title: Aspose.Words för .NET API Referens
-description: DropDownItemCollection metod. Bestämmer om samlingen innehåller det angivna värdet.
+linktitle: Contains
+articleTitle: Contains
+second_title: Aspose.Words för .NET
+description: DropDownItemCollection Contains metod. Bestämmer om samlingen innehåller det angivna värdet i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.fields/dropdownitemcollection/contains/
@@ -22,7 +24,7 @@ public bool Contains(string value)
 
 `Sann` om föremålet finns i samlingen; annat,`falsk`.
 
-### Exempel
+## Exempel
 
 Visar hur man infogar ett kombinationsrutafält och redigerar elementen i dess objektsamling.
 
@@ -76,7 +78,5 @@ dropDownItems.Clear();
 ### Se även
 
 * class [DropDownItemCollection](../)
-* namnutrymme [Aspose.Words.Fields](../../dropdownitemcollection/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

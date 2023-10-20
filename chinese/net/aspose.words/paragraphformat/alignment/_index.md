@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.Alignment
-second_title: Aspose.Words for .NET API 参考
-description: ParagraphFormat 财产. 获取或设置段落的文本对齐方式
+linktitle: Alignment
+articleTitle: Alignment
+second_title: 用于 .NET 的 Aspose.Words
+description: ParagraphFormat Alignment 财产. 获取或设置段落的文本对齐方式 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words/paragraphformat/alignment/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/paragraphformat/alignment/
 public ParagraphAlignment Alignment { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何在文档中插入段落。
 
@@ -92,7 +94,5 @@ doc.Save(ArtifactsDir + "Section.CreateManually.docx");
 
 * enum [ParagraphAlignment](../../paragraphalignment/)
 * class [ParagraphFormat](../)
-* 命名空间 [Aspose.Words](../../paragraphformat/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

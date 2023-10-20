@@ -1,20 +1,22 @@
 ---
 title: StructuredDocumentTag.EndCharacterFont
-second_title: Справочник по API Aspose.Words для .NET
-description: StructuredDocumentTag свойство. Форматирование шрифта которое будет применяться к последнему символу введенного текста. СДТ .
+linktitle: EndCharacterFont
+articleTitle: EndCharacterFont
+second_title: Aspose.Words для .NET
+description: StructuredDocumentTag EndCharacterFont свойство. Форматирование шрифта которое будет применяться к последнему символу введенного текста.СДТ  на С#.
 type: docs
 weight: 120
 url: /ru/net/aspose.words.markup/structureddocumenttag/endcharacterfont/
 ---
 ## StructuredDocumentTag.EndCharacterFont property
 
-Форматирование шрифта, которое будет применяться к последнему символу введенного текста. **СДТ** .
+Форматирование шрифта, которое будет применяться к последнему символу введенного текста.**СДТ** .
 
 ```csharp
 public Font EndCharacterFont { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как создать тег структурированного документа в текстовом поле и изменить его внешний вид.
 
@@ -72,7 +74,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.PlainText.docx");
 
 * class [Font](../../../aspose.words/font/)
 * class [StructuredDocumentTag](../)
-* пространство имен [Aspose.Words.Markup](../../structureddocumenttag/)
+* пространство имен [Aspose.Words.Markup](../../../aspose.words.markup/)
 * сборка [Aspose.Words](../../../)
-
-

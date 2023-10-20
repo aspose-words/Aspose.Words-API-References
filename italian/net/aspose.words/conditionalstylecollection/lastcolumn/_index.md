@@ -1,7 +1,9 @@
 ---
 title: ConditionalStyleCollection.LastColumn
-second_title: Aspose.Words per .NET API Reference
-description: ConditionalStyleCollection proprietà. Ottiene lultimo stile di colonna.
+linktitle: LastColumn
+articleTitle: LastColumn
+second_title: Aspose.Words per .NET
+description: ConditionalStyleCollection LastColumn proprietà. Ottiene lultimo stile di colonna in C#.
 type: docs
 weight: 90
 url: /it/net/aspose.words/conditionalstylecollection/lastcolumn/
@@ -14,7 +16,7 @@ Ottiene l'ultimo stile di colonna.
 public ConditionalStyle LastColumn { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come lavorare con determinati stili di area di una tabella.
 
@@ -85,7 +87,5 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 
 * class [ConditionalStyle](../../conditionalstyle/)
 * class [ConditionalStyleCollection](../)
-* spazio dei nomi [Aspose.Words](../../conditionalstylecollection/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: CompositeNode.HasChildNodes
-second_title: Aspose.Words for .NET API 参考
-description: CompositeNode 财产. 返回真的如果该节点有任何子节点.
+linktitle: HasChildNodes
+articleTitle: HasChildNodes
+second_title: 用于 .NET 的 Aspose.Words
+description: CompositeNode HasChildNodes 财产. 返回真的如果该节点有任何子节点 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words/compositenode/haschildnodes/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/compositenode/haschildnodes/
 public bool HasChildNodes { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何将两个表中的行合并为一个表。
 
@@ -41,7 +43,5 @@ doc.Save(ArtifactsDir + "Table.CombineTables.docx");
 ### 也可以看看
 
 * class [CompositeNode](../)
-* 命名空间 [Aspose.Words](../../compositenode/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

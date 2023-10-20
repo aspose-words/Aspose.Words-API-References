@@ -1,20 +1,22 @@
 ---
 title: SignatureLineOptions.Instructions
-second_title: Справочник по API Aspose.Words для .NET
-description: SignatureLineOptions свойство. Получает или задает инструкции для подписывающего лица которые отображаются при подписании строки подписи. Значение по умолчанию для этого свойства пустая строка Empty.
+linktitle: Instructions
+articleTitle: Instructions
+second_title: Aspose.Words для .NET
+description: SignatureLineOptions Instructions свойство. Получает или задает инструкции для подписывающего лица которые отображаются при подписании строки подписи. Значение по умолчанию для этого свойствапустая строка Empty на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words/signaturelineoptions/instructions/
 ---
 ## SignatureLineOptions.Instructions property
 
-Получает или задает инструкции для подписывающего лица, которые отображаются при подписании строки подписи. Значение по умолчанию для этого свойства: **пустая строка** (Empty).
+Получает или задает инструкции для подписывающего лица, которые отображаются при подписании строки подписи. Значение по умолчанию для этого свойства:**пустая строка** (Empty).
 
 ```csharp
 public string Instructions { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как подписать документ личным удостоверением и строкой подписи.
 
@@ -67,7 +69,5 @@ Assert.True(signatureLine.IsValid);
 ### Смотрите также
 
 * class [SignatureLineOptions](../)
-* пространство имен [Aspose.Words](../../signaturelineoptions/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: CustomPart.Data
-second_title: Referencia de API de Aspose.Words para .NET
-description: CustomPart propiedad. Contiene los datos de esta pieza personalizada.
+linktitle: Data
+articleTitle: Data
+second_title: Aspose.Words para .NET
+description: CustomPart Data propiedad. Contiene los datos de esta pieza personalizada en C#.
 type: docs
 weight: 30
 url: /es/net/aspose.words.markup/custompart/data/
@@ -14,13 +16,13 @@ Contiene los datos de esta pieza personalizada.
 public byte[] Data { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 Esta propiedad es aplicable sólo cuando[`IsExternal`](../isexternal/) es`FALSO`.
 
 El valor predeterminado es una matriz de bytes vacía. El valor no puede ser`nulo`.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo acceder a la colección de piezas personalizadas arbitrarias de un documento.
 
@@ -64,7 +66,5 @@ Assert.AreEqual(0, doc.PackageCustomParts.Count);
 ### Ver también
 
 * class [CustomPart](../)
-* espacio de nombres [Aspose.Words.Markup](../../custompart/)
+* espacio de nombres [Aspose.Words.Markup](../../../aspose.words.markup/)
 * asamblea [Aspose.Words](../../../)
-
-

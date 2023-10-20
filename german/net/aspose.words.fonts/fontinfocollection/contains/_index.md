@@ -1,7 +1,9 @@
 ---
 title: FontInfoCollection.Contains
-second_title: Aspose.Words für .NET-API-Referenz
-description: FontInfoCollection methode. Ermittelt ob die Sammlung eine Schriftart mit dem angegebenen Namen enthält.
+linktitle: Contains
+articleTitle: Contains
+second_title: Aspose.Words für .NET
+description: FontInfoCollection Contains methode. Ermittelt ob die Sammlung eine Schriftart mit dem angegebenen Namen enthält in C#.
 type: docs
 weight: 60
 url: /de/net/aspose.words.fonts/fontinfocollection/contains/
@@ -22,7 +24,7 @@ public bool Contains(string name)
 
 `WAHR` wenn der Artikel in der Sammlung gefunden wird; ansonsten,`FALSCH`.
 
-### Beispiele
+## Beispiele
 
 Zeigt Informationen zu den Schriftarten an, die im leeren Dokument vorhanden sind.
 
@@ -43,7 +45,5 @@ Assert.True(doc.FontInfos.Contains("Arial"));
 ### Siehe auch
 
 * class [FontInfoCollection](../)
-* namensraum [Aspose.Words.Fonts](../../fontinfocollection/)
+* namensraum [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,12 +1,14 @@
 ---
 title: DocumentBuilder.InsertFootnote
-second_title: Aspose.Words لمراجع .NET API
-description: DocumentBuilder طريقة. إدراج حاشية سفلية أو تعليق ختامي في المستند.
+linktitle: InsertFootnote
+articleTitle: InsertFootnote
+second_title: Aspose.Words لـ .NET
+description: DocumentBuilder InsertFootnote طريقة. إدراج حاشية سفلية أو تعليق ختامي في المستند في C#.
 type: docs
-weight: 340
+weight: 330
 url: /ar/net/aspose.words/documentbuilder/insertfootnote/
 ---
-## InsertFootnote(FootnoteType, string) {#insertfootnote}
+## InsertFootnote(*[FootnoteType](../../../aspose.words.notes/footnotetype/), string*) {#insertfootnote}
 
 إدراج حاشية سفلية أو تعليق ختامي في المستند.
 
@@ -23,7 +25,7 @@ public Footnote InsertFootnote(FootnoteType footnoteType, string footnoteText)
 
 إرجاع كائن الحاشية السفلية الذي تم إنشاؤه للتو.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الإشارة إلى النص باستخدام حاشية سفلية وتعليق ختامي.
 
@@ -56,12 +58,12 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertFootnote.docx");
 * class [Footnote](../../../aspose.words.notes/footnote/)
 * enum [FootnoteType](../../../aspose.words.notes/footnotetype/)
 * class [DocumentBuilder](../)
-* مساحة الاسم [Aspose.Words](../../documentbuilder/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## InsertFootnote(FootnoteType, string, string) {#insertfootnote_1}
+## InsertFootnote(*[FootnoteType](../../../aspose.words.notes/footnotetype/), string, string*) {#insertfootnote_1}
 
 إدراج حاشية سفلية أو تعليق ختامي في المستند.
 
@@ -79,7 +81,7 @@ public Footnote InsertFootnote(FootnoteType footnoteType, string footnoteText, s
 
 إرجاع كائن الحاشية السفلية الذي تم إنشاؤه للتو.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الإشارة إلى النص باستخدام حاشية سفلية وتعليق ختامي.
 
@@ -112,7 +114,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertFootnote.docx");
 * class [Footnote](../../../aspose.words.notes/footnote/)
 * enum [FootnoteType](../../../aspose.words.notes/footnotetype/)
 * class [DocumentBuilder](../)
-* مساحة الاسم [Aspose.Words](../../documentbuilder/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitFieldEnd
-second_title: Aspose.Words for .NET API 参考
-description: DocumentVisitor 方法. 当文档中的字段结束时调用
+linktitle: VisitFieldEnd
+articleTitle: VisitFieldEnd
+second_title: 用于 .NET 的 Aspose.Words
+description: DocumentVisitor VisitFieldEnd 方法. 当文档中的字段结束时调用 在 C#.
 type: docs
 weight: 180
 url: /zh/net/aspose.words/documentvisitor/visitfieldend/
@@ -22,11 +24,11 @@ public virtual VisitorAction VisitFieldEnd(FieldEnd fieldEnd)
 
 A[`VisitorAction`](../../visitoraction/)指定如何继续枚举的值。
 
-### 评论
+## 评论
 
 欲了解更多信息，请参阅[`VisitFieldStart`](../visitfieldstart/)
 
-### 例子
+## 例子
 
 演示如何打印文档中每个字段的节点结构。
 
@@ -131,7 +133,5 @@ public class FieldStructurePrinter : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [FieldEnd](../../../aspose.words.fields/fieldend/)
 * class [DocumentVisitor](../)
-* 命名空间 [Aspose.Words](../../documentvisitor/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

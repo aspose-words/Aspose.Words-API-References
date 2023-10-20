@@ -1,7 +1,9 @@
 ---
 title: BorderCollection.Equals
-second_title: Aspose.Words لمراجع .NET API
-description: BorderCollection طريقة. مقارنة مجموعات الحدود.
+linktitle: Equals
+articleTitle: Equals
+second_title: Aspose.Words لـ .NET
+description: BorderCollection Equals طريقة. مقارنة مجموعات الحدود في C#.
 type: docs
 weight: 150
 url: /ar/net/aspose.words/bordercollection/equals/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/bordercollection/equals/
 public bool Equals(BorderCollection brColl)
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيف يمكن لمجموعات الحدود مشاركة العناصر.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "Border.SharedElements.docx");
 ### أنظر أيضا
 
 * class [BorderCollection](../)
-* مساحة الاسم [Aspose.Words](../../bordercollection/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

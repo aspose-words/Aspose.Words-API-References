@@ -1,7 +1,9 @@
 ---
-title: Class HtmlLoadOptions
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Loading.HtmlLoadOptions clase. Permite especificar opciones adicionales al cargar un documento HTML en unDocument objeto.
+title: HtmlLoadOptions Class
+linktitle: HtmlLoadOptions
+articleTitle: HtmlLoadOptions
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Loading.HtmlLoadOptions clase. Permite especificar opciones adicionales al cargar un documento HTML en unDocument objeto en C#.
 type: docs
 weight: 3620
 url: /es/net/aspose.words.loading/htmlloadoptions/
@@ -21,8 +23,8 @@ public class HtmlLoadOptions : LoadOptions
 | Nombre | Descripción |
 | --- | --- |
 | [HtmlLoadOptions](htmlloadoptions/#constructor)() | Inicializa una nueva instancia de esta clase con valores predeterminados. |
-| [HtmlLoadOptions](htmlloadoptions/#constructor_2)(string) | Un acceso directo para inicializar una nueva instancia de esta clase con la contraseña especificada para cargar un documento cifrado. |
-| [HtmlLoadOptions](htmlloadoptions/#constructor_1)(LoadFormat, string, string) | Un acceso directo para inicializar una nueva instancia de esta clase con propiedades establecidas en los valores especificados. |
+| [HtmlLoadOptions](htmlloadoptions/#constructor_2)(*string*) | Un acceso directo para inicializar una nueva instancia de esta clase con la contraseña especificada para cargar un documento cifrado. |
+| [HtmlLoadOptions](htmlloadoptions/#constructor_1)(*[LoadFormat](../../aspose.words/loadformat/), string, string*) | Un acceso directo para inicializar una nueva instancia de esta clase con propiedades establecidas en los valores especificados. |
 
 ## Propiedades
 
@@ -55,12 +57,10 @@ public class HtmlLoadOptions : LoadOptions
 
 | Nombre | Descripción |
 | --- | --- |
-| override [Equals](../../aspose.words.loading/loadoptions/equals/)(object) |  |
+| override [Equals](../../aspose.words.loading/loadoptions/equals/)(*object*) |  |
 
 ### Ver también
 
 * class [LoadOptions](../loadoptions/)
 * espacio de nombres [Aspose.Words.Loading](../../aspose.words.loading/)
 * asamblea [Aspose.Words](../../)
-
-

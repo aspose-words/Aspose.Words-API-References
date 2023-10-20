@@ -1,7 +1,9 @@
 ---
 title: ChartXValue.FromString
-second_title: Справочник по API Aspose.Words для .NET
-description: ChartXValue метод. СоздаетChartXValue экземплярString тип.
+linktitle: FromString
+articleTitle: FromString
+second_title: Aspose.Words для .NET
+description: ChartXValue FromString метод. СоздаетChartXValue экземплярString тип на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.drawing.charts/chartxvalue/fromstring/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.drawing.charts/chartxvalue/fromstring/
 public static ChartXValue FromString(string value)
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как добавлять/удалять значения данных диаграммы.
 
@@ -42,7 +44,5 @@ doc.Save(ArtifactsDir + "Charts.ChartDataValues.docx");
 ### Смотрите также
 
 * class [ChartXValue](../)
-* пространство имен [Aspose.Words.Drawing.Charts](../../chartxvalue/)
+* пространство имен [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../../)
-
-

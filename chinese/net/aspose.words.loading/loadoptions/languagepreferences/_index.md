@@ -1,7 +1,9 @@
 ---
 title: LoadOptions.LanguagePreferences
-second_title: Aspose.Words for .NET API 参考
-description: LoadOptions 财产. 获取加载文档时将使用的语言首选项
+linktitle: LanguagePreferences
+articleTitle: LanguagePreferences
+second_title: 用于 .NET 的 Aspose.Words
+description: LoadOptions LanguagePreferences 财产. 获取加载文档时将使用的语言首选项 在 C#.
 type: docs
 weight: 80
 url: /zh/net/aspose.words.loading/loadoptions/languagepreferences/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.loading/loadoptions/languagepreferences/
 public LanguagePreferences LanguagePreferences { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何在加载文档时应用语言首选项。
 
@@ -34,7 +36,5 @@ Console.WriteLine(localeIdFarEast == (int)EditingLanguage.Japanese
 
 * class [LanguagePreferences](../../languagepreferences/)
 * class [LoadOptions](../)
-* 命名空间 [Aspose.Words.Loading](../../loadoptions/)
+* 命名空间 [Aspose.Words.Loading](../../../aspose.words.loading/)
 * 部件 [Aspose.Words](../../../)
-
-

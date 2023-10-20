@@ -1,7 +1,9 @@
 ---
 title: ControlChar.SectionBreak
-second_title: Aspose.Words für .NET-API-Referenz
-description: ControlChar veld. Abschnittsendezeichen x000c oder f. Beachten Sie dass es den gleichen Wert hat wiePageBreak .
+linktitle: SectionBreak
+articleTitle: SectionBreak
+second_title: Aspose.Words für .NET
+description: ControlChar SectionBreak veld. Abschnittsendezeichen x000c oder f. Beachten Sie dass es den gleichen Wert hat wiePageBreak  in C#.
 type: docs
 weight: 240
 url: /de/net/aspose.words/controlchar/sectionbreak/
@@ -14,7 +16,7 @@ Abschnittsendezeichen: „\x000c“ oder „\f“. Beachten Sie, dass es den gle
 public static readonly string SectionBreak;
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man einem Dokument verschiedene Steuerzeichen hinzufügt.
 
@@ -86,7 +88,5 @@ Assert.AreEqual(Convert.ToChar(ControlChar.ColumnBreak), ControlChar.ColumnBreak
 ### Siehe auch
 
 * class [ControlChar](../)
-* namensraum [Aspose.Words](../../controlchar/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

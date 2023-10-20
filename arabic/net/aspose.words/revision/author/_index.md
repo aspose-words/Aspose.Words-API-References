@@ -1,7 +1,9 @@
 ---
 title: Revision.Author
-second_title: Aspose.Words لمراجع .NET API
-description: Revision ملكية. الحصول على مؤلف هذه المراجعة أو تعيينه. لا يمكن أن تكون سلسلة فارغة أوباطل .
+linktitle: Author
+articleTitle: Author
+second_title: Aspose.Words لـ .NET
+description: Revision Author ملكية. الحصول على مؤلف هذه المراجعة أو تعيينه. لا يمكن أن تكون سلسلة فارغة أوباطل  في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words/revision/author/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/revision/author/
 public string Author { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التعامل مع المراجعات في المستند.
 
@@ -97,7 +99,5 @@ Assert.AreEqual("This is revision #1. \rThis is revision #2.", doc.GetText().Tri
 ### أنظر أيضا
 
 * class [Revision](../)
-* مساحة الاسم [Aspose.Words](../../revision/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

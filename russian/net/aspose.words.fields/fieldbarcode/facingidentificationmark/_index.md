@@ -1,7 +1,9 @@
 ---
 title: FieldBarcode.FacingIdentificationMark
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldBarcode свойство. Получает или задает тип вставляемого идентификационного знака облицовки FIM.
+linktitle: FacingIdentificationMark
+articleTitle: FacingIdentificationMark
+second_title: Aspose.Words для .NET
+description: FieldBarcode FacingIdentificationMark свойство. Получает или задает тип вставляемого идентификационного знака облицовки FIM на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.fields/fieldbarcode/facingidentificationmark/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldbarcode/facingidentificationmark/
 public string FacingIdentificationMark { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как использовать поле ШТРИХ-КОД для отображения почтовых индексов США в виде штрих-кода.
 
@@ -57,7 +59,5 @@ doc.Save(ArtifactsDir + "Field.BARCODE.docx");
 ### Смотрите также
 
 * class [FieldBarcode](../)
-* пространство имен [Aspose.Words.Fields](../../fieldbarcode/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

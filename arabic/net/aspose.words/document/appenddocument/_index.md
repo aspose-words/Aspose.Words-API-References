@@ -1,12 +1,14 @@
 ---
 title: Document.AppendDocument
-second_title: Aspose.Words لمراجع .NET API
-description: Document طريقة. إلحاق المستند المحدد بنهاية هذا المستند.
+linktitle: AppendDocument
+articleTitle: AppendDocument
+second_title: Aspose.Words لـ .NET
+description: Document AppendDocument طريقة. إلحاق المستند المحدد بنهاية هذا المستند في C#.
 type: docs
-weight: 550
+weight: 530
 url: /ar/net/aspose.words/document/appenddocument/
 ---
-## AppendDocument(Document, ImportFormatMode) {#appenddocument}
+## AppendDocument(*[Document](../), [ImportFormatMode](../../importformatmode/)*) {#appenddocument}
 
 إلحاق المستند المحدد بنهاية هذا المستند.
 
@@ -19,7 +21,7 @@ public void AppendDocument(Document srcDoc, ImportFormatMode importFormatMode)
 | srcDoc | Document | الوثيقة المراد إلحاقها. |
 | importFormatMode | ImportFormatMode | يحدد كيفية دمج تنسيقات النمط التي تتعارض. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إلحاق مستند بنهاية مستند آخر.
 
@@ -66,12 +68,12 @@ dstDoc.Save(ArtifactsDir + "Document.AppendAllDocumentsInFolder.doc");
 
 * enum [ImportFormatMode](../../importformatmode/)
 * class [Document](../)
-* مساحة الاسم [Aspose.Words](../../document/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## AppendDocument(Document, ImportFormatMode, ImportFormatOptions) {#appenddocument_1}
+## AppendDocument(*[Document](../), [ImportFormatMode](../../importformatmode/), [ImportFormatOptions](../../importformatoptions/)*) {#appenddocument_1}
 
 إلحاق المستند المحدد بنهاية هذا المستند.
 
@@ -86,7 +88,7 @@ public void AppendDocument(Document srcDoc, ImportFormatMode importFormatMode,
 | importFormatMode | ImportFormatMode | يحدد كيفية دمج تنسيقات النمط التي تتعارض. |
 | importFormatOptions | ImportFormatOptions | يسمح بتحديد الخيارات التي تؤثر على تنسيق مستند النتيجة. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدارة تضارب أنماط القائمة أثناء إلحاق نسخة من المستند بنفسها.
 
@@ -170,7 +172,5 @@ dstDoc.Save(ArtifactsDir + "DocumentBuilder.AppendDocumentAndResolveStyles.docx"
 * enum [ImportFormatMode](../../importformatmode/)
 * class [ImportFormatOptions](../../importformatoptions/)
 * class [Document](../)
-* مساحة الاسم [Aspose.Words](../../document/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

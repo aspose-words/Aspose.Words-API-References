@@ -1,7 +1,9 @@
 ---
-title: Interface IMailMergeCallback
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.MailMerging.IMailMergeCallback واجهه المستخدم. قم بتطبيق هذه الواجهة إذا كنت تريد تلقي إشعارات أثناء إجراء دمج البريد.
+title: IMailMergeCallback Interface
+linktitle: IMailMergeCallback
+articleTitle: IMailMergeCallback
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.MailMerging.IMailMergeCallback واجهه المستخدم. قم بتطبيق هذه الواجهة إذا كنت تريد تلقي إشعارات أثناء إجراء دمج البريد في C#.
 type: docs
 weight: 3800
 url: /ar/net/aspose.words.mailmerging/imailmergecallback/
@@ -20,7 +22,7 @@ public interface IMailMergeCallback
 | --- | --- |
 | [TagsReplaced](../../aspose.words.mailmerging/imailmergecallback/tagsreplaced/)() | يتم الاتصال به عند استبدال العلامات النصية "الشارب" بحقول MERGEFIELD. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحديد المنطق المخصص للتعامل مع الأحداث أثناء دمج البريد.
 
@@ -72,5 +74,3 @@ private class MailMergeTagReplacementCounter : IMailMergeCallback
 
 * مساحة الاسم [Aspose.Words.MailMerging](../../aspose.words.mailmerging/)
 * المجسم [Aspose.Words](../../)
-
-

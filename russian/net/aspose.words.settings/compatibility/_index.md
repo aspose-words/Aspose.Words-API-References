@@ -1,7 +1,9 @@
 ---
-title: Enum Compatibility
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Settings.Compatibility перечисление. Указывает имена параметров совместимости.
+title: Compatibility Enum
+linktitle: Compatibility
+articleTitle: Compatibility
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Settings.Compatibility перечисление. Указывает имена параметров совместимости на С#.
 type: docs
 weight: 5770
 url: /ru/net/aspose.words.settings/compatibility/
@@ -90,7 +92,7 @@ public enum Compatibility
 | SwapInsideAndOutsideForMirrorIndentsAndRelativePositioning | `69` |  |
 | UseWord2010TableStyleRules | `70` |  |
 
-### Примеры
+## Примеры
 
 Показывает, как оптимизировать документ для разных версий Microsoft Word.
 
@@ -150,5 +152,3 @@ private static void PrintCompatibilityOptions(CompatibilityOptions options)
 
 * пространство имен [Aspose.Words.Settings](../../aspose.words.settings/)
 * сборка [Aspose.Words](../../)
-
-

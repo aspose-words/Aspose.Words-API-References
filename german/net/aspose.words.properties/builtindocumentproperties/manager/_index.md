@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.Manager
-second_title: Aspose.Words für .NET-API-Referenz
-description: BuiltInDocumentProperties eigendom. Ruft die Managereigenschaft ab oder legt sie fest.
+linktitle: Manager
+articleTitle: Manager
+second_title: Aspose.Words für .NET
+description: BuiltInDocumentProperties Manager eigendom. Ruft die Managereigenschaft ab oder legt sie fest in C#.
 type: docs
 weight: 200
 url: /de/net/aspose.words.properties/builtindocumentproperties/manager/
@@ -14,7 +16,7 @@ Ruft die Managereigenschaft ab oder legt sie fest.
 public string Manager { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit Dokumenteigenschaften in der Kategorie „Ursprung“ gearbeitet wird.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "DocumentProperties.Origin.docx");
 ### Siehe auch
 
 * class [BuiltInDocumentProperties](../)
-* namensraum [Aspose.Words.Properties](../../builtindocumentproperties/)
+* namensraum [Aspose.Words.Properties](../../../aspose.words.properties/)
 * Montage [Aspose.Words](../../../)
-
-

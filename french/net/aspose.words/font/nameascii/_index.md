@@ -1,7 +1,9 @@
 ---
 title: Font.NameAscii
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Font propriété. Renvoie ou définit la police utilisée pour le texte latin caractères avec des codes de caractères compris entre 0 zéro et 127.
+linktitle: NameAscii
+articleTitle: NameAscii
+second_title: Aspose.Words pour .NET
+description: Font NameAscii propriété. Renvoie ou définit la police utilisée pour le texte latin caractères avec des codes de caractères compris entre 0 zéro et 127 en C#.
 type: docs
 weight: 240
 url: /fr/net/aspose.words/font/nameascii/
@@ -14,7 +16,7 @@ Renvoie ou définit la police utilisée pour le texte latin (caractères avec de
 public string NameAscii { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment Microsoft Word peut combiner deux polices différentes en une seule fois.
 
@@ -45,7 +47,5 @@ doc.Save(ArtifactsDir + "Font.NameAscii.docx");
 
 * property [Name](../name/)
 * class [Font](../)
-* espace de noms [Aspose.Words](../../font/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

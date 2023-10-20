@@ -1,7 +1,9 @@
 ---
-title: Document.Document
-second_title: Aspose.Words för .NET API Referens
-description: Document byggare. Skapar ett tomt Worddokument.
+title: Document
+linktitle: Document
+articleTitle: Document
+second_title: Aspose.Words för .NET
+description: Document byggare. Skapar ett tomt Worddokument i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words/document/document/
@@ -14,13 +16,13 @@ Skapar ett tomt Word-dokument.
 public Document()
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Dokumentets pappersstorlek är Letter som standard. Om du vill ändra sidinställningar, använd [`PageSetup`](../../section/pagesetup/).
 
 Efter skapandet kan du använda[`DocumentBuilder`](../../documentbuilder/) för att enkelt lägga till dokumentinnehåll.
 
-### Exempel
+## Exempel
 
 Visar hur man formaterar en serie text med dess teckensnittsegenskap.
 
@@ -64,12 +66,12 @@ Assert.AreEqual("Test encrypted document.", doc.FirstSection.Body.FirstParagraph
 ### Se även
 
 * class [Document](../)
-* namnutrymme [Aspose.Words](../../document/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## Document(string) {#constructor_3}
+## Document(*string*) {#constructor_3}
 
 Öppnar ett befintligt dokument från en fil. Upptäcker automatiskt filformatet.
 
@@ -92,7 +94,7 @@ public Document(string fileName)
 | [IncorrectPasswordException](../../incorrectpasswordexception/) | Dokumentet är krypterat och kräver ett lösenord för att öppnas, men du har angett ett felaktigt lösenord. |
 | ArgumentException | Namnet på filen får inte vara null eller tom sträng. |
 
-### Exempel
+## Exempel
 
 Visar hur man öppnar ett dokument och konverterar det till .PDF.
 
@@ -146,12 +148,12 @@ Assert.AreEqual("Hello world!", textFragmentAbsorber.Text.Trim());
 ### Se även
 
 * class [Document](../)
-* namnutrymme [Aspose.Words](../../document/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## Document(string, LoadOptions) {#constructor_4}
+## Document(*string, [LoadOptions](../../../aspose.words.loading/loadoptions/)*) {#constructor_4}
 
 Öppnar ett befintligt dokument från en fil. Tillåter att ange ytterligare alternativ såsom ett krypteringslösenord.
 
@@ -175,7 +177,7 @@ public Document(string fileName, LoadOptions loadOptions)
 | [IncorrectPasswordException](../../incorrectpasswordexception/) | Dokumentet är krypterat och kräver ett lösenord för att öppnas, men du har angett ett felaktigt lösenord. |
 | ArgumentException | Namnet på filen får inte vara null eller tom sträng. |
 
-### Exempel
+## Exempel
 
 Visar hur man laddar ett krypterat Microsoft Word-dokument.
 
@@ -226,12 +228,12 @@ Assert.AreEqual("Test encrypted document.", doc.FirstSection.Body.FirstParagraph
 
 * class [LoadOptions](../../../aspose.words.loading/loadoptions/)
 * class [Document](../)
-* namnutrymme [Aspose.Words](../../document/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## Document(Stream) {#constructor_1}
+## Document(*Stream*) {#constructor_1}
 
 Öppnar ett befintligt dokument från en ström. Upptäcker automatiskt filformatet.
 
@@ -256,11 +258,11 @@ public Document(Stream stream)
 | NotSupportedException | Strömmen stöder inte läsning eller sökning. |
 | ObjectDisposedException | Strömmen är ett kasserat föremål. |
 
-### Anmärkningar
+## Anmärkningar
 
 Dokumentet måste lagras i början av streamen. Strömmen måste stödja slumpmässig positionering.
 
-### Exempel
+## Exempel
 
 Visar hur man laddar ett dokument med en ström.
 
@@ -302,12 +304,12 @@ using (HttpClient webClient = new HttpClient())
 ### Se även
 
 * class [Document](../)
-* namnutrymme [Aspose.Words](../../document/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## Document(Stream, LoadOptions) {#constructor_2}
+## Document(*Stream, [LoadOptions](../../../aspose.words.loading/loadoptions/)*) {#constructor_2}
 
 Öppnar ett befintligt dokument från en ström. Tillåter att ange ytterligare alternativ såsom ett krypteringslösenord.
 
@@ -333,11 +335,11 @@ public Document(Stream stream, LoadOptions loadOptions)
 | NotSupportedException | Strömmen stöder inte läsning eller sökning. |
 | ObjectDisposedException | Strömmen är ett kasserat föremål. |
 
-### Anmärkningar
+## Anmärkningar
 
 Dokumentet måste lagras i början av streamen. Strömmen måste stödja slumpmässig positionering.
 
-### Exempel
+## Exempel
 
 Visar hur man öppnar ett HTML-dokument med bilder från en ström med en bas-URI.
 
@@ -408,7 +410,5 @@ using (Stream stream = File.OpenRead(MyDir + "Encrypted.docx"))
 
 * class [LoadOptions](../../../aspose.words.loading/loadoptions/)
 * class [Document](../)
-* namnutrymme [Aspose.Words](../../document/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

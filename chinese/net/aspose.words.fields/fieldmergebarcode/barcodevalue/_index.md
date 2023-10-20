@@ -1,7 +1,9 @@
 ---
 title: FieldMergeBarcode.BarcodeValue
-second_title: Aspose.Words for .NET API 参考
-description: FieldMergeBarcode 财产. 获取或设置条形码值
+linktitle: BarcodeValue
+articleTitle: BarcodeValue
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldMergeBarcode BarcodeValue 财产. 获取或设置条形码值 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words.fields/fieldmergebarcode/barcodevalue/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fieldmergebarcode/barcodevalue/
 public string BarcodeValue { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何对 EAN13 条形码执行邮件合并。
 
@@ -105,7 +107,5 @@ doc.Save(ArtifactsDir + "Field.MERGEBARCODE.QR.docx");
 ### 也可以看看
 
 * class [FieldMergeBarcode](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldmergebarcode/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,9 +1,11 @@
 ---
 title: Stroke.EndCap
-second_title: Aspose.Words لمراجع .NET API
-description: Stroke ملكية. يحدد نمط الغطاء لنهاية الخط.
+linktitle: EndCap
+articleTitle: EndCap
+second_title: Aspose.Words لـ .NET
+description: Stroke EndCap ملكية. يحدد نمط الغطاء لنهاية الخط في C#.
 type: docs
-weight: 90
+weight: 80
 url: /ar/net/aspose.words.drawing/stroke/endcap/
 ---
 ## Stroke.EndCap property
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.drawing/stroke/endcap/
 public EndCap EndCap { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 القيمة الافتراضية هيFlat.
 
-### أمثلة
+## أمثلة
 
 يظهر لإنشاء مجموعة متنوعة من الأشكال.
 
@@ -94,7 +96,5 @@ doc.Save(ArtifactsDir + "Drawing.VariousShapes.docx");
 
 * enum [EndCap](../../endcap/)
 * class [Stroke](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../stroke/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

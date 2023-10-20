@@ -1,12 +1,14 @@
 ---
 title: OleFormat.Save
-second_title: Aspose.Words for .NET API 参考
-description: OleFormat 方法. 将嵌入对象的数据保存到指定的流中
+linktitle: Save
+articleTitle: Save
+second_title: 用于 .NET 的 Aspose.Words
+description: OleFormat Save 方法. 将嵌入对象的数据保存到指定的流中 在 C#.
 type: docs
 weight: 160
 url: /zh/net/aspose.words.drawing/oleformat/save/
 ---
-## Save(Stream) {#save}
+## Save(*Stream*) {#save}
 
 将嵌入对象的数据保存到指定的流中。
 
@@ -24,11 +26,11 @@ public void Save(Stream stream)
 | --- | --- |
 | InvalidOperationException | 如果您尝试保存链接对象，则抛出该异常。 |
 
-### 评论
+## 评论
 
 调用者有责任处理该流。
 
-### 例子
+## 例子
 
 演示如何将嵌入的 OLE 对象提取到文件中。
 
@@ -63,12 +65,12 @@ oleFormat.Save(ArtifactsDir + "OLE spreadsheet saved directly" + oleFormat.Sugge
 ### 也可以看看
 
 * class [OleFormat](../)
-* 命名空间 [Aspose.Words.Drawing](../../oleformat/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## Save(string) {#save_1}
+## Save(*string*) {#save_1}
 
 将嵌入对象的数据保存到指定名称的文件中。
 
@@ -86,7 +88,7 @@ public void Save(string fileName)
 | --- | --- |
 | InvalidOperationException | 如果您尝试保存链接对象，则抛出该异常。 |
 
-### 例子
+## 例子
 
 演示如何将嵌入的 OLE 对象提取到文件中。
 
@@ -121,7 +123,5 @@ oleFormat.Save(ArtifactsDir + "OLE spreadsheet saved directly" + oleFormat.Sugge
 ### 也可以看看
 
 * class [OleFormat](../)
-* 命名空间 [Aspose.Words.Drawing](../../oleformat/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

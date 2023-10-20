@@ -1,7 +1,9 @@
 ---
 title: ChartMultilevelValue.Level1
-second_title: Aspose.Words für .NET-API-Referenz
-description: ChartMultilevelValue eigendom. Ruft den Namen der obersten Diagrammebene ab auf die sich dieser Wert bezieht.
+linktitle: Level1
+articleTitle: Level1
+second_title: Aspose.Words für .NET
+description: ChartMultilevelValue Level1 eigendom. Ruft den Namen der obersten Diagrammebene ab auf die sich dieser Wert bezieht in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.drawing.charts/chartmultilevelvalue/level1/
@@ -17,7 +19,5 @@ public string Level1 { get; }
 ### Siehe auch
 
 * class [ChartMultilevelValue](../)
-* namensraum [Aspose.Words.Drawing.Charts](../../chartmultilevelvalue/)
+* namensraum [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../../)
-
-

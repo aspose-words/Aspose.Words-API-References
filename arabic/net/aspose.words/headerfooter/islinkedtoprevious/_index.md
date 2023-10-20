@@ -1,7 +1,9 @@
 ---
 title: HeaderFooter.IsLinkedToPrevious
-second_title: Aspose.Words لمراجع .NET API
-description: HeaderFooter ملكية. صحيح إذا كان هذا الرأس أو التذييل مرتبطًا بالرأس أو التذييل المقابل في القسم السابق.
+linktitle: IsLinkedToPrevious
+articleTitle: IsLinkedToPrevious
+second_title: Aspose.Words لـ .NET
+description: HeaderFooter IsLinkedToPrevious ملكية. صحيح إذا كان هذا الرأس أو التذييل مرتبطًا بالرأس أو التذييل المقابل في القسم السابق في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words/headerfooter/islinkedtoprevious/
@@ -14,13 +16,13 @@ url: /ar/net/aspose.words/headerfooter/islinkedtoprevious/
 public bool IsLinkedToPrevious { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 الافتراضي هو`حقيقي`.
 
 لاحظ أنه عندما يكون الرابط الخاص بك عبارة عن رأس أو تذييل، يتم مسح محتوياته.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية ربط الرؤوس والتذييلات بين الأقسام.
 
@@ -85,7 +87,5 @@ doc.Save(ArtifactsDir + "HeaderFooter.Link.docx");
 ### أنظر أيضا
 
 * class [HeaderFooter](../)
-* مساحة الاسم [Aspose.Words](../../headerfooter/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

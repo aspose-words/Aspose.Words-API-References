@@ -1,7 +1,9 @@
 ---
 title: DropDownItemCollection.RemoveAt
-second_title: Aspose.Words per .NET API Reference
-description: DropDownItemCollection metodo. Rimuove un valore nellindice specificato.
+linktitle: RemoveAt
+articleTitle: RemoveAt
+second_title: Aspose.Words per .NET
+description: DropDownItemCollection RemoveAt metodo. Rimuove un valore nellindice specificato in C#.
 type: docs
 weight: 100
 url: /it/net/aspose.words.fields/dropdownitemcollection/removeat/
@@ -18,7 +20,7 @@ public void RemoveAt(int index)
 | --- | --- | --- |
 | index | Int32 | L'indice a base zero. |
 
-### Esempi
+## Esempi
 
 Mostra come inserire un campo casella combinata e modificare gli elementi nella relativa raccolta di elementi.
 
@@ -72,7 +74,5 @@ dropDownItems.Clear();
 ### Guarda anche
 
 * class [DropDownItemCollection](../)
-* spazio dei nomi [Aspose.Words.Fields](../../dropdownitemcollection/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

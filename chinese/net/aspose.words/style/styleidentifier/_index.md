@@ -1,9 +1,11 @@
 ---
 title: Style.StyleIdentifier
-second_title: Aspose.Words for .NET API 参考
-description: Style 财产. 获取内置样式的独立于区域设置的样式标识符
+linktitle: StyleIdentifier
+articleTitle: StyleIdentifier
+second_title: 用于 .NET 的 Aspose.Words
+description: Style StyleIdentifier 财产. 获取内置样式的独立于区域设置的样式标识符 在 C#.
 type: docs
-weight: 160
+weight: 150
 url: /zh/net/aspose.words/style/styleidentifier/
 ---
 ## Style.StyleIdentifier property
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words/style/styleidentifier/
 public StyleIdentifier StyleIdentifier { get; }
 ```
 
-### 评论
+## 评论
 
 对于用户定义的（自定义）样式，此属性返回User。
 
-### 例子
+## 例子
 
 演示如何修改目录相关段落中右侧制表位的位置。
 
@@ -45,7 +47,5 @@ doc.Save(ArtifactsDir + "Styles.ChangeTocsTabStops.docx");
 
 * enum [StyleIdentifier](../../styleidentifier/)
 * class [Style](../)
-* 命名空间 [Aspose.Words](../../style/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

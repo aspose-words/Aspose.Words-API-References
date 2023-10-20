@@ -1,12 +1,14 @@
 ---
 title: Document.StartTrackRevisions
-second_title: Aspose.Words für .NET-API-Referenz
-description: Document methode. Beginnt automatisch mit der Markierung aller weiteren Änderungen die Sie programmgesteuert am Dokument vornehmen als Revisionsänderungen.
+linktitle: StartTrackRevisions
+articleTitle: StartTrackRevisions
+second_title: Aspose.Words für .NET
+description: Document StartTrackRevisions methode. Beginnt automatisch mit der Markierung aller weiteren Änderungen die Sie programmgesteuert am Dokument vornehmen als Revisionsänderungen in C#.
 type: docs
-weight: 730
+weight: 710
 url: /de/net/aspose.words/document/starttrackrevisions/
 ---
-## StartTrackRevisions(string, DateTime) {#starttrackrevisions_1}
+## StartTrackRevisions(*string, DateTime*) {#starttrackrevisions_1}
 
 Beginnt automatisch mit der Markierung aller weiteren Änderungen, die Sie programmgesteuert am Dokument vornehmen, als Revisionsänderungen.
 
@@ -19,7 +21,7 @@ public void StartTrackRevisions(string author, DateTime dateTime)
 | author | String | Initialen des Autors zur Verwendung bei Überarbeitungen. |
 | dateTime | DateTime | Das für Überarbeitungen zu verwendende Datum und die Uhrzeit. |
 
-### Bemerkungen
+## Bemerkungen
 
 Wenn Sie diese Methode aufrufen und dann programmgesteuert einige Änderungen am Dokument vornehmen, das Dokument speichern und später in MS Word öffnen, werden diese Änderungen als Überarbeitungen angezeigt.
 
@@ -29,7 +31,7 @@ Die automatische Nachverfolgung von Änderungen wird sowohl beim Ändern dieses 
 
 Diese Methode ändert nichts an der[`TrackRevisions`](../trackrevisions/) Option und verwendet ihren Wert nicht zum Zweck der Revisionsverfolgung.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie Revisionen beim Bearbeiten eines Dokuments verfolgen.
 
@@ -78,12 +80,12 @@ doc.Save(ArtifactsDir + "Document.StartTrackRevisions.docx");
 
 * method [StopTrackRevisions](../stoptrackrevisions/)
 * class [Document](../)
-* namensraum [Aspose.Words](../../document/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
 
 ---
 
-## StartTrackRevisions(string) {#starttrackrevisions}
+## StartTrackRevisions(*string*) {#starttrackrevisions}
 
 Beginnt automatisch mit der Markierung aller weiteren Änderungen, die Sie programmgesteuert am Dokument vornehmen, als Revisionsänderungen.
 
@@ -95,7 +97,7 @@ public void StartTrackRevisions(string author)
 | --- | --- | --- |
 | author | String | Initialen des Autors zur Verwendung bei Überarbeitungen. |
 
-### Bemerkungen
+## Bemerkungen
 
 Wenn Sie diese Methode aufrufen und dann programmgesteuert einige Änderungen am Dokument vornehmen, das Dokument speichern und später in MS Word öffnen, werden diese Änderungen als Überarbeitungen angezeigt.
 
@@ -105,7 +107,7 @@ Die automatische Nachverfolgung von Änderungen wird sowohl beim Ändern dieses 
 
 Diese Methode ändert nichts an der[`TrackRevisions`](../trackrevisions/) Option und verwendet ihren Wert nicht zum Zweck der Revisionsverfolgung.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie Revisionen beim Bearbeiten eines Dokuments verfolgen.
 
@@ -154,7 +156,5 @@ doc.Save(ArtifactsDir + "Document.StartTrackRevisions.docx");
 
 * method [StopTrackRevisions](../stoptrackrevisions/)
 * class [Document](../)
-* namensraum [Aspose.Words](../../document/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

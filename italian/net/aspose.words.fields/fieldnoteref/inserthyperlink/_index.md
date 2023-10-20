@@ -1,7 +1,9 @@
 ---
 title: FieldNoteRef.InsertHyperlink
-second_title: Aspose.Words per .NET API Reference
-description: FieldNoteRef proprietà. Ottiene o imposta se inserire un collegamento ipertestuale al paragrafo con segnalibro.
+linktitle: InsertHyperlink
+articleTitle: InsertHyperlink
+second_title: Aspose.Words per .NET
+description: FieldNoteRef InsertHyperlink proprietà. Ottiene o imposta se inserire un collegamento ipertestuale al paragrafo con segnalibro in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words.fields/fieldnoteref/inserthyperlink/
@@ -14,7 +16,7 @@ Ottiene o imposta se inserire un collegamento ipertestuale al paragrafo con segn
 public bool InsertHyperlink { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra per inserire campi NOTEREF e modificarne l'aspetto.
 
@@ -83,7 +85,5 @@ private static void InsertBookmarkWithFootnote(DocumentBuilder builder, string b
 ### Guarda anche
 
 * class [FieldNoteRef](../)
-* spazio dei nomi [Aspose.Words.Fields](../../fieldnoteref/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

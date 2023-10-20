@@ -1,7 +1,9 @@
 ---
 title: Table.RelativeVerticalAlignment
-second_title: Справочник по API Aspose.Words для .NET
-description: Table свойство. Получает или задает относительное вертикальное выравнивание плавающей таблицы.
+linktitle: RelativeVerticalAlignment
+articleTitle: RelativeVerticalAlignment
+second_title: Aspose.Words для .NET
+description: Table RelativeVerticalAlignment свойство. Получает или задает относительное вертикальное выравнивание плавающей таблицы на С#.
 type: docs
 weight: 240
 url: /ru/net/aspose.words.tables/table/relativeverticalalignment/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.tables/table/relativeverticalalignment/
 public VerticalAlignment RelativeVerticalAlignment { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как задать расположение плавающих таблиц.
 
@@ -49,7 +51,5 @@ doc.Save(ArtifactsDir + "Table.ChangeFloatingTableProperties.docx");
 
 * enum [VerticalAlignment](../../../aspose.words.drawing/verticalalignment/)
 * class [Table](../)
-* пространство имен [Aspose.Words.Tables](../../table/)
+* пространство имен [Aspose.Words.Tables](../../../aspose.words.tables/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Table.PreferredWidth
-second_title: Referencia de API de Aspose.Words para .NET
-description: Table propiedad. Obtiene o establece el ancho preferido de la tabla.
+linktitle: PreferredWidth
+articleTitle: PreferredWidth
+second_title: Aspose.Words para .NET
+description: Table PreferredWidth propiedad. Obtiene o establece el ancho preferido de la tabla en C#.
 type: docs
 weight: 220
 url: /es/net/aspose.words.tables/table/preferredwidth/
@@ -14,11 +16,11 @@ Obtiene o establece el ancho preferido de la tabla.
 public PreferredWidth PreferredWidth { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 El valor predeterminado es[`Auto`](../../preferredwidth/auto/).
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo configurar una tabla para que se ajuste automáticamente al 50% del ancho de la página.
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTableWithPreferredWidth.docx");
 
 * class [PreferredWidth](../../preferredwidth/)
 * class [Table](../)
-* espacio de nombres [Aspose.Words.Tables](../../table/)
+* espacio de nombres [Aspose.Words.Tables](../../../aspose.words.tables/)
 * asamblea [Aspose.Words](../../../)
-
-

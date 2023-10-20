@@ -1,7 +1,9 @@
 ---
 title: PhoneticGuide.RubyText
-second_title: Aspose.Words for .NET API 参考
-description: PhoneticGuide 财产. 获取拼音指南的拼音文本
+linktitle: RubyText
+articleTitle: RubyText
+second_title: 用于 .NET 的 Aspose.Words
+description: PhoneticGuide RubyText 财产. 获取拼音指南的拼音文本 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words/phoneticguide/rubytext/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/phoneticguide/rubytext/
 public string RubyText { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何获取拼音指南的属性。
 
@@ -31,7 +33,5 @@ Assert.AreEqual("ruby", runs[0].PhoneticGuide.RubyText);
 ### 也可以看看
 
 * class [PhoneticGuide](../)
-* 命名空间 [Aspose.Words](../../phoneticguide/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

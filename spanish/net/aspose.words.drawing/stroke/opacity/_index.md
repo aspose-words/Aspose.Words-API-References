@@ -1,9 +1,11 @@
 ---
 title: Stroke.Opacity
-second_title: Referencia de API de Aspose.Words para .NET
-description: Stroke propiedad. Define la cantidad de transparencia de un trazo. El rango válido es de 0 a 1.
+linktitle: Opacity
+articleTitle: Opacity
+second_title: Aspose.Words para .NET
+description: Stroke Opacity propiedad. Define la cantidad de transparencia de un trazo. El rango válido es de 0 a 1 en C#.
 type: docs
-weight: 160
+weight: 150
 url: /es/net/aspose.words.drawing/stroke/opacity/
 ---
 ## Stroke.Opacity property
@@ -14,11 +16,11 @@ Define la cantidad de transparencia de un trazo. El rango válido es de 0 a 1.
 public double Opacity { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 El valor predeterminado es 1.
 
-### Ejemplos
+## Ejemplos
 
 Muestra para crear una variedad de formas.
 
@@ -93,7 +95,5 @@ doc.Save(ArtifactsDir + "Drawing.VariousShapes.docx");
 ### Ver también
 
 * class [Stroke](../)
-* espacio de nombres [Aspose.Words.Drawing](../../stroke/)
+* espacio de nombres [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * asamblea [Aspose.Words](../../../)
-
-

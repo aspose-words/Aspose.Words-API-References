@@ -1,7 +1,9 @@
 ---
 title: RowFormat.AllowBreakAcrossPages
-second_title: Aspose.Words für .NET-API-Referenz
-description: RowFormat eigendom. True wenn der Text in einer Tabellenzeile über einen Seitenumbruch geteilt werden darf.
+linktitle: AllowBreakAcrossPages
+articleTitle: AllowBreakAcrossPages
+second_title: Aspose.Words für .NET
+description: RowFormat AllowBreakAcrossPages eigendom. True wenn der Text in einer Tabellenzeile über einen Seitenumbruch geteilt werden darf in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words.tables/rowformat/allowbreakacrosspages/
@@ -14,7 +16,7 @@ True, wenn der Text in einer Tabellenzeile über einen Seitenumbruch geteilt wer
 public bool AllowBreakAcrossPages { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie der seitenübergreifende Zeilenumbruch für jede Zeile in einer Tabelle deaktiviert wird.
 
@@ -35,7 +37,5 @@ doc.Save(ArtifactsDir + "Table.AllowBreakAcrossPages.docx");
 ### Siehe auch
 
 * class [RowFormat](../)
-* namensraum [Aspose.Words.Tables](../../rowformat/)
+* namensraum [Aspose.Words.Tables](../../../aspose.words.tables/)
 * Montage [Aspose.Words](../../../)
-
-

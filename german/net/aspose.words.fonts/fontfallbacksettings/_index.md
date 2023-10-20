@@ -1,7 +1,9 @@
 ---
-title: Class FontFallbackSettings
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Fonts.FontFallbackSettings klas. Gibt die Einstellungen für den SchriftartFallbackMechanismus an.
+title: FontFallbackSettings Class
+linktitle: FontFallbackSettings
+articleTitle: FontFallbackSettings
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Fonts.FontFallbackSettings klas. Gibt die Einstellungen für den SchriftartFallbackMechanismus an in C#.
 type: docs
 weight: 2900
 url: /de/net/aspose.words.fonts/fontfallbacksettings/
@@ -21,18 +23,18 @@ public class FontFallbackSettings
 | Name | Beschreibung |
 | --- | --- |
 | [BuildAutomatic](../../aspose.words.fonts/fontfallbacksettings/buildautomatic/)() | Erstellt automatisch die Fallback-Einstellungen durch Scannen verfügbarer Schriftarten. |
-| [Load](../../aspose.words.fonts/fontfallbacksettings/load/#load)(Stream) | Lädt Fallback-Einstellungen aus dem XML-Stream. |
-| [Load](../../aspose.words.fonts/fontfallbacksettings/load/#load_1)(string) | Lädt Schriftart-Fallback-Einstellungen aus der XML-Datei. |
+| [Load](../../aspose.words.fonts/fontfallbacksettings/load/#load)(*Stream*) | Lädt Fallback-Einstellungen aus dem XML-Stream. |
+| [Load](../../aspose.words.fonts/fontfallbacksettings/load/#load_1)(*string*) | Lädt Schriftart-Fallback-Einstellungen aus der XML-Datei. |
 | [LoadMsOfficeFallbackSettings](../../aspose.words.fonts/fontfallbacksettings/loadmsofficefallbacksettings/)() | Lädt vordefinierte Fallback-Einstellungen, die den Microsoft Word-Fallback imitieren und Microsoft Office-Schriftarten verwenden. |
 | [LoadNotoFallbackSettings](../../aspose.words.fonts/fontfallbacksettings/loadnotofallbacksettings/)() | Lädt vordefinierte Fallback-Einstellungen, die Google Noto-Schriftarten verwenden. |
-| [Save](../../aspose.words.fonts/fontfallbacksettings/save/#save)(Stream) | Speichert die aktuellen Fallback-Einstellungen im Stream. |
-| [Save](../../aspose.words.fonts/fontfallbacksettings/save/#save_1)(string) | Speichert die aktuellen Fallback-Einstellungen in der Datei. |
+| [Save](../../aspose.words.fonts/fontfallbacksettings/save/#save)(*Stream*) | Speichert die aktuellen Fallback-Einstellungen im Stream. |
+| [Save](../../aspose.words.fonts/fontfallbacksettings/save/#save_1)(*string*) | Speichert die aktuellen Fallback-Einstellungen in der Datei. |
 
-### Bemerkungen
+## Bemerkungen
 
 Standardmäßig werden Fallback-Einstellungen mit vordefinierten Einstellungen initialisiert, die den Microsoft Word-Fallback nachahmen.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Fallback-Schriftarten über Unicode-Zeichencodebereiche verteilt werden.
 
@@ -92,5 +94,3 @@ doc.Save(ArtifactsDir + "FontSettings.FallbackSettingsCustom.pdf");
 
 * namensraum [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * Montage [Aspose.Words](../../)
-
-

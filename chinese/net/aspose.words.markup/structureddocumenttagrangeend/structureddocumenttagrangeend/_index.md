@@ -1,14 +1,16 @@
 ---
-title: StructuredDocumentTagRangeEnd.StructuredDocumentTagRangeEnd
-second_title: Aspose.Words for .NET API 参考
-description: StructuredDocumentTagRangeEnd 构造函数. 初始化一个新实例 结构化文档标签范围结束类.
+title: StructuredDocumentTagRangeEnd
+linktitle: StructuredDocumentTagRangeEnd
+articleTitle: StructuredDocumentTagRangeEnd
+second_title: 用于 .NET 的 Aspose.Words
+description: StructuredDocumentTagRangeEnd 构造函数. 初始化一个新实例结构化文档标签范围结束类 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.markup/structureddocumenttagrangeend/structureddocumenttagrangeend/
 ---
 ## StructuredDocumentTagRangeEnd constructor
 
-初始化一个新实例 **结构化文档标签范围结束**类.
+初始化一个新实例**结构化文档标签范围结束**类.
 
 ```csharp
 public StructuredDocumentTagRangeEnd(DocumentBase doc, int id)
@@ -19,7 +21,7 @@ public StructuredDocumentTagRangeEnd(DocumentBase doc, int id)
 | doc | DocumentBase | 所有者文件。 |
 | id | Int32 | 相应结构化文档标记范围开始的标识符。 |
 
-### 例子
+## 例子
 
 展示如何创建/删除结构化文档标签及其内容。
 
@@ -72,7 +74,5 @@ public void InsertStructuredDocumentTagRanges(Document doc, out StructuredDocume
 
 * class [DocumentBase](../../../aspose.words/documentbase/)
 * class [StructuredDocumentTagRangeEnd](../)
-* 命名空间 [Aspose.Words.Markup](../../structureddocumenttagrangeend/)
+* 命名空间 [Aspose.Words.Markup](../../../aspose.words.markup/)
 * 部件 [Aspose.Words](../../../)
-
-

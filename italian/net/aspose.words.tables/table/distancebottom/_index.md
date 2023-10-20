@@ -1,7 +1,9 @@
 ---
 title: Table.DistanceBottom
-second_title: Aspose.Words per .NET API Reference
-description: Table proprietà. Ottiene o imposta la distanza tra il fondo della tabella e il testo circostante in punti.
+linktitle: DistanceBottom
+articleTitle: DistanceBottom
+second_title: Aspose.Words per .NET
+description: Table DistanceBottom proprietà. Ottiene o imposta la distanza tra il fondo della tabella e il testo circostante in punti in C#.
 type: docs
 weight: 120
 url: /it/net/aspose.words.tables/table/distancebottom/
@@ -14,7 +16,7 @@ Ottiene o imposta la distanza tra il fondo della tabella e il testo circostante,
 public double DistanceBottom { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come impostare la distanza tra i bordi della tabella e il testo.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "Table.DistanceBetweenTableAndText.docx");
 ### Guarda anche
 
 * class [Table](../)
-* spazio dei nomi [Aspose.Words.Tables](../../table/)
+* spazio dei nomi [Aspose.Words.Tables](../../../aspose.words.tables/)
 * assemblea [Aspose.Words](../../../)
-
-

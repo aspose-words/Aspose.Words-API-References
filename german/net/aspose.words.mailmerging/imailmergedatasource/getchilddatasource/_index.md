@@ -1,7 +1,9 @@
 ---
 title: IMailMergeDataSource.GetChildDataSource
-second_title: Aspose.Words für .NET-API-Referenz
-description: IMailMergeDataSource methode. Die MailMergeEngine von Aspose.Words ruft diese Methode auf wenn sie auf den Anfang eines verschachtelten MailMergeBereichs stößt.
+linktitle: GetChildDataSource
+articleTitle: GetChildDataSource
+second_title: Aspose.Words für .NET
+description: IMailMergeDataSource GetChildDataSource methode. Die MailMergeEngine von Aspose.Words ruft diese Methode auf wenn sie auf den Anfang eines verschachtelten MailMergeBereichs stößt in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.mailmerging/imailmergedatasource/getchilddatasource/
@@ -22,7 +24,7 @@ public IMailMergeDataSource GetChildDataSource(string tableName)
 
 Ein Datenquellenobjekt, das Zugriff auf die Datensätze der angegebenen Tabelle ermöglicht.
 
-### Bemerkungen
+## Bemerkungen
 
 Wenn die Mail-Merge-Engines von Aspose.Words einen Mail-Merge-Bereich mit Daten füllen und auf den Anfang eines verschachtelten Mail-Merge-Bereichs in der Form MERGEFIELD TableStart:TableName stoßen, wird dieser aufgerufen`GetChildDataSource` auf dem Datenquellenobjekt current . Ihre Implementierung muss ein neues Datenquellenobjekt zurückgeben, das Zugriff auf die child -Datensätze des aktuellen übergeordneten Datensatzes ermöglicht. Aspose.Words verwendet die zurückgegebene Datenquelle, um den verschachtelten Seriendruckbereich zu füllen.
 
@@ -34,7 +36,7 @@ Wenn dieses Datenquellenobjekt keine Beziehung zur Tabelle mit dem angegebenen N
 
 Wenn eine Tabelle mit dem angegebenen Namen nicht existiert, sollte Ihre Implementierung zurückkehren`Null` .
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Serienbrief mit einer Datenquelle in Form eines benutzerdefinierten Objekts ausgeführt wird.
 
@@ -148,7 +150,5 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
 ### Siehe auch
 
 * interface [IMailMergeDataSource](../)
-* namensraum [Aspose.Words.MailMerging](../../imailmergedatasource/)
+* namensraum [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * Montage [Aspose.Words](../../../)
-
-

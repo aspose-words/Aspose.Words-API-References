@@ -1,7 +1,9 @@
 ---
 title: Document.LastSection
-second_title: Aspose.Words für .NET-API-Referenz
-description: Document eigendom. Ruft den letzten Abschnitt im Dokument ab.
+linktitle: LastSection
+articleTitle: LastSection
+second_title: Aspose.Words für .NET
+description: Document LastSection eigendom. Ruft den letzten Abschnitt im Dokument ab in C#.
 type: docs
 weight: 240
 url: /de/net/aspose.words/document/lastsection/
@@ -14,11 +16,11 @@ Ruft den letzten Abschnitt im Dokument ab.
 public Section LastSection { get; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Gibt zurück`Null` wenn keine Abschnitte vorhanden sind.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man mit einem Document Builder einen neuen Abschnitt erstellt.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "Section.Create.docx");
 
 * class [Section](../../section/)
 * class [Document](../)
-* namensraum [Aspose.Words](../../document/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

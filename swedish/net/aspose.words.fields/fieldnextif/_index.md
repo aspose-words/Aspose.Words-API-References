@@ -1,7 +1,9 @@
 ---
-title: Class FieldNextIf
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Fields.FieldNextIf klass. Implementerar NEXTIFfältet.
+title: FieldNextIf Class
+linktitle: FieldNextIf
+articleTitle: FieldNextIf
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Fields.FieldNextIf klass. Implementerar NEXTIFfältet i C#.
 type: docs
 weight: 2190
 url: /sv/net/aspose.words.fields/fieldnextif/
@@ -45,17 +47,17 @@ public class FieldNextIf : Field
 | namn | Beskrivning |
 | --- | --- |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Returnerar text mellan fältstart och fältavgränsare (eller fältslut om det inte finns någon avgränsare). Både fältkod och fältresultat för underordnade fält ingår. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Returnerar text mellan fältstart och fältavgränsare (eller fältslut om det inte finns någon avgränsare). |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | Returnerar text mellan fältstart och fältavgränsare (eller fältslut om det inte finns någon avgränsare). |
 | [Remove](../../aspose.words.fields/field/remove/)() | Tar bort fältet från dokumentet. Returnerar en nod direkt efter fältet. Om fältets slut är den sista child av dess överordnade nod, returnerar dess överordnade stycke. Om fältet redan är borttaget, returneras`null` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | Utför fältavlänkningen. |
 | [Update](../../aspose.words.fields/field/update/)() | Utför fältuppdateringen. Kastar om fältet redan uppdateras. |
-| [Update](../../aspose.words.fields/field/update/)(bool) | Utför en fältuppdatering. Kastar om fältet redan uppdateras. |
+| [Update](../../aspose.words.fields/field/update/)(*bool*) | Utför en fältuppdatering. Kastar om fältet redan uppdateras. |
 
-### Anmärkningar
+## Anmärkningar
 
 Jämför värdena som anges av uttrycken[`LeftExpression`](./leftexpression/) och[`RightExpression`](./rightexpression/) i jämförelse med den operatör som anges av[`ComparisonOperator`](./comparisonoperator/) . Om jämförelsen är sann, slås nästa datapost samman med det aktuella sammanslagningsdokumentet. (Sammanfoga fält som följer NEXTIF i main dokumentet ersätts av värden från nästa datapost snarare än den aktuella dataposten.) Om jämförelsen är falsk, slås nästa datapost samman till ett nytt sammanfogningsdokument.
 
-### Exempel
+## Exempel
 
 Visar hur du använder NEXT/NEXTIF-fält för att slå samman flera rader till en sida under en e-postkoppling.
 
@@ -139,5 +141,3 @@ public void InsertMergeField(DocumentBuilder builder, string fieldName, string t
 * class [Field](../field/)
 * namnutrymme [Aspose.Words.Fields](../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../)
-
-

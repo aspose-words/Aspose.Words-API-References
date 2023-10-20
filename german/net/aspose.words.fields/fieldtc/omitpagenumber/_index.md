@@ -1,7 +1,9 @@
 ---
 title: FieldTC.OmitPageNumber
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldTC eigendom. Ruft ab oder legt fest ob die Seitenzahl im Inhaltsverzeichnis für dieses Feld weggelassen werden soll.
+linktitle: OmitPageNumber
+articleTitle: OmitPageNumber
+second_title: Aspose.Words für .NET
+description: FieldTC OmitPageNumber eigendom. Ruft ab oder legt fest ob die Seitenzahl im Inhaltsverzeichnis für dieses Feld weggelassen werden soll in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.fields/fieldtc/omitpagenumber/
@@ -14,7 +16,7 @@ Ruft ab oder legt fest, ob die Seitenzahl im Inhaltsverzeichnis für dieses Feld
 public bool OmitPageNumber { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man ein TOC-Feld einfügt und filtert, welche TC-Felder als Einträge enden.
 
@@ -66,7 +68,5 @@ public void InsertTocEntry(DocumentBuilder builder, string text, string typeIden
 ### Siehe auch
 
 * class [FieldTC](../)
-* namensraum [Aspose.Words.Fields](../../fieldtc/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

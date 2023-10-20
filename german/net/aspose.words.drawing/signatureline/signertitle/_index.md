@@ -1,20 +1,22 @@
 ---
 title: SignatureLine.SignerTitle
-second_title: Aspose.Words für .NET-API-Referenz
-description: SignatureLine eigendom. Ruft den vorgeschlagenen Titel des Unterzeichners ab oder legt ihn fest z. B. Manager. Der Standardwert für diese Eigenschaft ist leerer String Empty.
+linktitle: SignerTitle
+articleTitle: SignerTitle
+second_title: Aspose.Words für .NET
+description: SignatureLine SignerTitle eigendom. Ruft den vorgeschlagenen Titel des Unterzeichners ab oder legt ihn fest z. B. Manager. Der Standardwert für diese Eigenschaft istleerer String Empty in C#.
 type: docs
 weight: 110
 url: /de/net/aspose.words.drawing/signatureline/signertitle/
 ---
 ## SignatureLine.SignerTitle property
 
-Ruft den vorgeschlagenen Titel des Unterzeichners ab oder legt ihn fest (z. B. Manager). Der Standardwert für diese Eigenschaft ist **leerer String** (Empty).
+Ruft den vorgeschlagenen Titel des Unterzeichners ab oder legt ihn fest (z. B. Manager). Der Standardwert für diese Eigenschaft ist**leerer String** (Empty).
 
 ```csharp
 public string SignerTitle { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie eine Zeile für eine Signatur erstellt und in ein Dokument eingefügt wird.
 
@@ -59,7 +61,5 @@ doc.Save(ArtifactsDir + "Shape.SignatureLine.docx");
 ### Siehe auch
 
 * class [SignatureLine](../)
-* namensraum [Aspose.Words.Drawing](../../signatureline/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

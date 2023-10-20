@@ -1,7 +1,9 @@
 ---
 title: Odso.ColumnDelimiter
-second_title: Aspose.Words لمراجع .NET API
-description: Odso ملكية. يحدد الحرف الذي سيتم تفسيره على أنه محدد العمود المستخدم لفصل الأعمدة ضمن مصادر البيانات الخارجية. القيمة الافتراضية هي 0 مما يعني عدم وجود محدد عمود محدد.
+linktitle: ColumnDelimiter
+articleTitle: ColumnDelimiter
+second_title: Aspose.Words لـ .NET
+description: Odso ColumnDelimiter ملكية. يحدد الحرف الذي سيتم تفسيره على أنه محدد العمود المستخدم لفصل الأعمدة ضمن مصادر البيانات الخارجية. القيمة الافتراضية هي 0 مما يعني عدم وجود محدد عمود محدد في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.settings/odso/columndelimiter/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.settings/odso/columndelimiter/
 public char ColumnDelimiter { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 RK لم أر هذا قيد الاستخدام من قبل.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تنفيذ دمج البريد مع البيانات من كائن مصدر بيانات Office.
 
@@ -70,7 +72,5 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ### أنظر أيضا
 
 * class [Odso](../)
-* مساحة الاسم [Aspose.Words.Settings](../../odso/)
+* مساحة الاسم [Aspose.Words.Settings](../../../aspose.words.settings/)
 * المجسم [Aspose.Words](../../../)
-
-

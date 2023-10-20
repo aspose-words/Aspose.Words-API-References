@@ -1,7 +1,9 @@
 ---
 title: Document.MailMergeSettings
-second_title: Aspose.Words for .NET API 参考
-description: Document 财产. 获取或设置包含文档的所有邮件合并信息的对象
+linktitle: MailMergeSettings
+articleTitle: MailMergeSettings
+second_title: 用于 .NET 的 Aspose.Words
+description: Document MailMergeSettings 财产. 获取或设置包含文档的所有邮件合并信息的对象 在 C#.
 type: docs
 weight: 270
 url: /zh/net/aspose.words/document/mailmergesettings/
@@ -14,13 +16,13 @@ url: /zh/net/aspose.words/document/mailmergesettings/
 public MailMergeSettings MailMergeSettings { get; set; }
 ```
 
-### 评论
+## 评论
 
 您可以使用此对象指定文档的邮件合并数据源，当用户打开此文档时，此信息 （以及可用数据字段）将出现在 Microsoft Word 中。 或者您可以使用此对象来查询邮件合并设置用户已在 Microsoft Word 中为此文档指定。
 
 这个物体从来都不是`无效的`。
 
-### 例子
+## 例子
 
 演示如何使用 Office 数据源对象中的数据执行邮件合并。
 
@@ -73,7 +75,5 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 
 * class [MailMergeSettings](../../../aspose.words.settings/mailmergesettings/)
 * class [Document](../)
-* 命名空间 [Aspose.Words](../../document/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

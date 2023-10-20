@@ -1,7 +1,9 @@
 ---
 title: PageSetup.BorderSurroundsHeader
-second_title: Referencia de API de Aspose.Words para .NET
-description: PageSetup propiedad. Especifica si el borde de la página incluye o excluye el encabezado.
+linktitle: BorderSurroundsHeader
+articleTitle: BorderSurroundsHeader
+second_title: Aspose.Words para .NET
+description: PageSetup BorderSurroundsHeader propiedad. Especifica si el borde de la página incluye o excluye el encabezado en C#.
 type: docs
 weight: 70
 url: /es/net/aspose.words/pagesetup/bordersurroundsheader/
@@ -14,11 +16,11 @@ Especifica si el borde de la página incluye o excluye el encabezado.
 public bool BorderSurroundsHeader { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 Nota: cambiar esta propiedad afecta a todas las secciones del documento.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo aplicar un borde a la página y al encabezado/pie de página.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "PageSetup.PageBorder.docx");
 ### Ver también
 
 * class [PageSetup](../)
-* espacio de nombres [Aspose.Words](../../pagesetup/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: BookmarksOutlineLevelCollection.IndexOfKey
-second_title: Aspose.Words for .NET API 参考
-description: BookmarksOutlineLevelCollection 方法. 返回集合中指定书签的从零开始的索引
+linktitle: IndexOfKey
+articleTitle: IndexOfKey
+second_title: 用于 .NET 的 Aspose.Words
+description: BookmarksOutlineLevelCollection IndexOfKey 方法. 返回集合中指定书签的从零开始的索引 在 C#.
 type: docs
 weight: 80
 url: /zh/net/aspose.words.saving/bookmarksoutlinelevelcollection/indexofkey/
@@ -22,7 +24,7 @@ public int IndexOfKey(string name)
 
 从零开始的索引。如果没有找到则为负值。
 
-### 例子
+## 例子
 
 演示如何设置书签的大纲级别。
 
@@ -80,7 +82,5 @@ outlineLevels.Clear();
 ### 也可以看看
 
 * class [BookmarksOutlineLevelCollection](../)
-* 命名空间 [Aspose.Words.Saving](../../bookmarksoutlinelevelcollection/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

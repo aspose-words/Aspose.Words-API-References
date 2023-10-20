@@ -1,7 +1,9 @@
 ---
 title: Font.ThemeFontOther
-second_title: Aspose.Words for .NET API 参考
-description: Font 财产. 获取或设置与此关联的应用字体方案中字符代码从 128 到 255 的字符所使用的主题字体Font对象.
+linktitle: ThemeFontOther
+articleTitle: ThemeFontOther
+second_title: 用于 .NET 的 Aspose.Words
+description: Font ThemeFontOther 财产. 获取或设置与此关联的应用字体方案中字符代码从 128 到 255 的字符所使用的主题字体Font对象 在 C#.
 type: docs
 weight: 510
 url: /zh/net/aspose.words/font/themefontother/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/font/themefontother/
 public ThemeFont ThemeFontOther { get; set; }
 ```
 
-### 例子
+## 例子
 
 展示如何使用主题字体和颜色。
 
@@ -101,7 +103,5 @@ Assert.AreEqual(Color.Blue.ToArgb(), font.Color.ToArgb());
 
 * enum [ThemeFont](../../../aspose.words.themes/themefont/)
 * class [Font](../)
-* 命名空间 [Aspose.Words](../../font/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

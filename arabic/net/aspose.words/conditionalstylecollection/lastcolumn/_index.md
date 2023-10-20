@@ -1,7 +1,9 @@
 ---
 title: ConditionalStyleCollection.LastColumn
-second_title: Aspose.Words لمراجع .NET API
-description: ConditionalStyleCollection ملكية. الحصول على نمط العمود الأخير.
+linktitle: LastColumn
+articleTitle: LastColumn
+second_title: Aspose.Words لـ .NET
+description: ConditionalStyleCollection LastColumn ملكية. الحصول على نمط العمود الأخير في C#.
 type: docs
 weight: 90
 url: /ar/net/aspose.words/conditionalstylecollection/lastcolumn/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/conditionalstylecollection/lastcolumn/
 public ConditionalStyle LastColumn { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع أنماط مناطق معينة في الجدول.
 
@@ -85,7 +87,5 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 
 * class [ConditionalStyle](../../conditionalstyle/)
 * class [ConditionalStyleCollection](../)
-* مساحة الاسم [Aspose.Words](../../conditionalstylecollection/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

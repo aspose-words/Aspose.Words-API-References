@@ -1,7 +1,9 @@
 ---
-title: Class ComparisonExpression
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Fields.ComparisonExpression klas. Der Vergleichsausdruck.
+title: ComparisonExpression Class
+linktitle: ComparisonExpression
+articleTitle: ComparisonExpression
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Fields.ComparisonExpression klas. Der Vergleichsausdruck in C#.
 type: docs
 weight: 1490
 url: /de/net/aspose.words.fields/comparisonexpression/
@@ -24,7 +26,7 @@ public sealed class ComparisonExpression
 | [LeftExpression](../../aspose.words.fields/comparisonexpression/leftexpression/) { get; } | Ruft den linken Ausdruck ab. |
 | [RightExpression](../../aspose.words.fields/comparisonexpression/rightexpression/) { get; } | Erhält den richtigen Ausdruck. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie eine benutzerdefinierte Auswertung für die Felder IF und COMPARE implementiert wird.
 
@@ -109,5 +111,3 @@ private class ComparisonExpressionEvaluator : IComparisonExpressionEvaluator
 
 * namensraum [Aspose.Words.Fields](../../aspose.words.fields/)
 * Montage [Aspose.Words](../../)
-
-

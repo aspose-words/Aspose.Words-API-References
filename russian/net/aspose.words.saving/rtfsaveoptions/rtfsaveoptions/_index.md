@@ -1,7 +1,9 @@
 ---
-title: RtfSaveOptions.RtfSaveOptions
-second_title: Справочник по API Aspose.Words для .NET
-description: RtfSaveOptions строитель. Конструктор по умолчанию.
+title: RtfSaveOptions
+linktitle: RtfSaveOptions
+articleTitle: RtfSaveOptions
+second_title: Aspose.Words для .NET
+description: RtfSaveOptions строитель. Конструктор по умолчанию на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.saving/rtfsaveoptions/rtfsaveoptions/
@@ -17,7 +19,5 @@ public RtfSaveOptions()
 ### Смотрите также
 
 * class [RtfSaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../rtfsaveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

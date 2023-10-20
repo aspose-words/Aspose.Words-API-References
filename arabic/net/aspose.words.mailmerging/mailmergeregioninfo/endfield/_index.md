@@ -1,7 +1,9 @@
 ---
 title: MailMergeRegionInfo.EndField
-second_title: Aspose.Words لمراجع .NET API
-description: MailMergeRegionInfo ملكية. إرجاع حقل النهاية للمنطقة.
+linktitle: EndField
+articleTitle: EndField
+second_title: Aspose.Words لـ .NET
+description: MailMergeRegionInfo EndField ملكية. إرجاع حقل النهاية للمنطقة في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.mailmerging/mailmergeregioninfo/endfield/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.mailmerging/mailmergeregioninfo/endfield/
 public FieldMergeField EndField { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التحقق من مناطق دمج البريد.
 
@@ -60,7 +62,5 @@ Assert.AreEqual("TableEnd:NestedRegion1", endFieldMergeField.FieldName);
 
 * class [FieldMergeField](../../../aspose.words.fields/fieldmergefield/)
 * class [MailMergeRegionInfo](../)
-* مساحة الاسم [Aspose.Words.MailMerging](../../mailmergeregioninfo/)
+* مساحة الاسم [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * المجسم [Aspose.Words](../../../)
-
-

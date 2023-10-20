@@ -1,7 +1,9 @@
 ---
 title: FieldIncludePicture.IsLinked
-second_title: Aspose.Words for .NET API 参考
-description: FieldIncludePicture 财产. 获取或设置是否通过不随文档存储图形数据来减小文件大小
+linktitle: IsLinked
+articleTitle: IsLinked
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldIncludePicture IsLinked 财产. 获取或设置是否通过不随文档存储图形数据来减小文件大小 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.fields/fieldincludepicture/islinked/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fieldincludepicture/islinked/
 public bool IsLinked { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何使用 IMPORT 和 INCLUDEPICTURE 字段插入图像。
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "Field.IMPORT.INCLUDEPICTURE.docx");
 ### 也可以看看
 
 * class [FieldIncludePicture](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldincludepicture/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

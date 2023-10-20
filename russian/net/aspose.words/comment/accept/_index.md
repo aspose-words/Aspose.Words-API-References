@@ -1,9 +1,11 @@
 ---
 title: Comment.Accept
-second_title: Справочник по API Aspose.Words для .NET
-description: Comment метод. Принимает посетителя.
+linktitle: Accept
+articleTitle: Accept
+second_title: Aspose.Words для .NET
+description: Comment Accept метод. Принимает посетителя на С#.
 type: docs
-weight: 120
+weight: 110
 url: /ru/net/aspose.words/comment/accept/
 ---
 ## Comment.Accept method
@@ -22,7 +24,7 @@ public override bool Accept(DocumentVisitor visitor)
 
 Истинно, если были посещены все узлы; ложь, если[`DocumentVisitor`](../../documentvisitor/) остановил операцию перед посещением всех узлов.
 
-### Примечания
+## Примечания
 
 Перечисляет этот узел и все его дочерние элементы. Каждый узел вызывает соответствующий метод[`DocumentVisitor`](../../documentvisitor/).
 
@@ -30,7 +32,7 @@ public override bool Accept(DocumentVisitor visitor)
 
 Звонки[`VisitCommentStart`](../../documentvisitor/visitcommentstart/) , затем звонит[`Accept`](../../node/accept/) для all дочерних узлов комментария и вызовов[`VisitCommentEnd`](../../documentvisitor/visitcommentend/) в конце.
 
-### Примеры
+## Примеры
 
 Показывает, как распечатать содержимое всех комментариев и их диапазоны комментариев с помощью посетителя документов.
 
@@ -192,7 +194,5 @@ public class CommentInfoPrinter : DocumentVisitor
 
 * class [DocumentVisitor](../../documentvisitor/)
 * class [Comment](../)
-* пространство имен [Aspose.Words](../../comment/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

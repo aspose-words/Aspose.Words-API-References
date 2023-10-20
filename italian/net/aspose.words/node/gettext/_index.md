@@ -1,7 +1,9 @@
 ---
 title: Node.GetText
-second_title: Aspose.Words per .NET API Reference
-description: Node metodo. Ottiene il testo di questo nodo e di tutti i suoi figli.
+linktitle: GetText
+articleTitle: GetText
+second_title: Aspose.Words per .NET
+description: Node GetText metodo. Ottiene il testo di questo nodo e di tutti i suoi figli in C#.
 type: docs
 weight: 120
 url: /it/net/aspose.words/node/gettext/
@@ -14,11 +16,11 @@ Ottiene il testo di questo nodo e di tutti i suoi figli.
 public virtual string GetText()
 ```
 
-### Osservazioni
+## Osservazioni
 
 La stringa restituita include tutti i caratteri di controllo e speciali come descritto in[`ControlChar`](../../controlchar/).
 
-### Esempi
+## Esempi
 
 Mostra come utilizzare i caratteri di controllo.
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "Section.CreateManually.docx");
 ### Guarda anche
 
 * class [Node](../)
-* spazio dei nomi [Aspose.Words](../../node/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

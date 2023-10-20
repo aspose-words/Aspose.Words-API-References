@@ -1,7 +1,9 @@
 ---
 title: Footnote.IsAuto
-second_title: Aspose.Words per .NET API Reference
-description: Footnote proprietà. Contiene un valore che specifica se si tratta di una nota a piè di pagina con numerazione automatica o di una nota a piè di pagina con segno di riferimento personalizzato definito dallutente.
+linktitle: IsAuto
+articleTitle: IsAuto
+second_title: Aspose.Words per .NET
+description: Footnote IsAuto proprietà. Contiene un valore che specifica se si tratta di una nota a piè di pagina con numerazione automatica o di una nota a piè di pagina con segno di riferimento personalizzato definito dallutente in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words.notes/footnote/isauto/
@@ -14,11 +16,11 @@ Contiene un valore che specifica se si tratta di una nota a piè di pagina con n
 public bool IsAuto { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 [`ReferenceMark`](../referencemark/)inizializzato con una stringa vuota se`IsAuto` impostato`falso` .
 
-### Esempi
+## Esempi
 
 Mostra come inserire e personalizzare le note a piè di pagina.
 
@@ -66,7 +68,5 @@ doc.Save(ArtifactsDir + "InlineStory.AddFootnote.docx");
 ### Guarda anche
 
 * class [Footnote](../)
-* spazio dei nomi [Aspose.Words.Notes](../../footnote/)
+* spazio dei nomi [Aspose.Words.Notes](../../../aspose.words.notes/)
 * assemblea [Aspose.Words](../../../)
-
-

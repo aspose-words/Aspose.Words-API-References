@@ -1,7 +1,9 @@
 ---
-title: Enum TextureIndex
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.TextureIndex перечисление. Определяет текстуру затенения.
+title: TextureIndex Enum
+linktitle: TextureIndex
+articleTitle: TextureIndex
+second_title: Aspose.Words для .NET
+description: Aspose.Words.TextureIndex перечисление. Определяет текстуру затенения на С#.
 type: docs
 weight: 6450
 url: /ru/net/aspose.words/textureindex/
@@ -73,7 +75,7 @@ public enum TextureIndex
 | TextureVertical | `21` |  |
 | TextureNil | `65535` | Указывает, что в текущей затененной области не должен использоваться узор (т. е. узор должен представлять собой полную заливку цветом фона). |
 
-### Примеры
+## Примеры
 
 Показывает, как украшать текст границами и заливкой.
 
@@ -126,5 +128,3 @@ doc.Save(ArtifactsDir + "Table.SetOutlineBorders.docx");
 
 * пространство имен [Aspose.Words](../../aspose.words/)
 * сборка [Aspose.Words](../../)
-
-

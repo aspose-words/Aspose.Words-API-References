@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitCommentStart
-second_title: Справочник по API Aspose.Words для .NET
-description: DocumentVisitor метод. Вызывается когда начинается перечисление текста комментария.
+linktitle: VisitCommentStart
+articleTitle: VisitCommentStart
+second_title: Aspose.Words для .NET
+description: DocumentVisitor VisitCommentStart метод. Вызывается когда начинается перечисление текста комментария на С#.
 type: docs
 weight: 130
 url: /ru/net/aspose.words/documentvisitor/visitcommentstart/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitCommentStart(Comment comment)
 
 А[`VisitorAction`](../../visitoraction/) значение, указывающее, как продолжить перечисление.
 
-### Примеры
+## Примеры
 
 Показывает, как распечатать структуру узлов каждого комментария и диапазона комментариев в документе.
 
@@ -334,7 +336,5 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [Comment](../../comment/)
 * class [DocumentVisitor](../)
-* пространство имен [Aspose.Words](../../documentvisitor/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

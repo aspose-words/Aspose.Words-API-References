@@ -1,7 +1,9 @@
 ---
 title: XmlMapping.IsMapped
-second_title: Aspose.Words لمراجع .NET API
-description: XmlMapping ملكية. إرجاعحقيقي إذا تم تعيين علامة المستند المنظمة الأصلية بنجاح إلى بيانات XML.
+linktitle: IsMapped
+articleTitle: IsMapped
+second_title: Aspose.Words لـ .NET
+description: XmlMapping IsMapped ملكية. إرجاعحقيقي إذا تم تعيين علامة المستند المنظمة الأصلية بنجاح إلى بيانات XML في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.markup/xmlmapping/ismapped/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.markup/xmlmapping/ismapped/
 public bool IsMapped { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين تعيينات XML لأجزاء XML المخصصة.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.XmlMapping.docx");
 ### أنظر أيضا
 
 * class [XmlMapping](../)
-* مساحة الاسم [Aspose.Words.Markup](../../xmlmapping/)
+* مساحة الاسم [Aspose.Words.Markup](../../../aspose.words.markup/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum ChartAxisType
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Drawing.Charts.ChartAxisType перечисление. Указывает тип оси диаграммы.
+title: ChartAxisType Enum
+linktitle: ChartAxisType
+articleTitle: ChartAxisType
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Drawing.Charts.ChartAxisType перечисление. Указывает тип оси диаграммы на С#.
 type: docs
 weight: 660
 url: /ru/net/aspose.words.drawing.charts/chartaxistype/
@@ -22,7 +24,7 @@ public enum ChartAxisType
 | Series | `1` | Ось серии диаграммы. |
 | Value | `2` | Ось значений диаграммы. |
 
-### Примеры
+## Примеры
 
 Показывает, как создать серию диаграмм, соответствующую типу диаграммы.
 
@@ -112,5 +114,3 @@ private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, d
 
 * пространство имен [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../)
-
-

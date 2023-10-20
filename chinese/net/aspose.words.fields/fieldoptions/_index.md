@@ -1,7 +1,9 @@
 ---
-title: Class FieldOptions
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Fields.FieldOptions 班级. 表示控制文档中字段处理的选项
+title: FieldOptions Class
+linktitle: FieldOptions
+articleTitle: FieldOptions
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Fields.FieldOptions 班级. 表示控制文档中字段处理的选项 在 C#.
 type: docs
 weight: 2250
 url: /zh/net/aspose.words.fields/fieldoptions/
@@ -43,7 +45,7 @@ public sealed class FieldOptions
 | [UseInvariantCultureNumberFormat](../../aspose.words.fields/fieldoptions/useinvariantculturenumberformat/) { get; set; } | 获取或设置指示使用不变区域性解析数字格式的值或 not |
 | [UserPromptRespondent](../../aspose.words.fields/fieldoptions/userpromptrespondent/) { get; set; } | 获取或设置字段更新期间用户提示的受访者。 |
 
-### 例子
+## 例子
 
 演示如何在字段更新或邮件合并期间指定用于日期格式设置的区域性来源。
 
@@ -79,5 +81,3 @@ Thread.CurrentThread.CurrentCulture = currentCulture;
 
 * 命名空间 [Aspose.Words.Fields](../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../)
-
-

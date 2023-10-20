@@ -1,7 +1,9 @@
 ---
-title: Class CustomXmlPart
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Markup.CustomXmlPart klass. Representerar en anpassad XMLdatalagringsdel anpassad XMLdata i ett paket.
+title: CustomXmlPart Class
+linktitle: CustomXmlPart
+articleTitle: CustomXmlPart
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Markup.CustomXmlPart klass. Representerar en anpassad XMLdatalagringsdel anpassad XMLdata i ett paket i C#.
 type: docs
 weight: 3920
 url: /sv/net/aspose.words.markup/customxmlpart/
@@ -37,11 +39,11 @@ public class CustomXmlPart
 | --- | --- |
 | [Clone](../../aspose.words.markup/customxmlpart/clone/)() | Gör en "tillräckligt djup" kopia av objektet. Duplicerar inte byten för[`Data`](./data/) värde. |
 
-### Anmärkningar
+## Anmärkningar
 
 Ett DOCX- eller DOC-dokument kan innehålla en eller flera Custom XML Data Storage-delar. Aspose.Words bevarar och gör det möjligt att skapa och extrahera anpassade XML-data via[`CustomXmlParts`](../../aspose.words/document/customxmlparts/) samling.
 
-### Exempel
+## Exempel
 
 Visar hur man skapar en strukturerad dokumenttagg med anpassade XML-data.
 
@@ -109,5 +111,3 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.CustomXml.docx");
 
 * namnutrymme [Aspose.Words.Markup](../../aspose.words.markup/)
 * hopsättning [Aspose.Words](../../)
-
-

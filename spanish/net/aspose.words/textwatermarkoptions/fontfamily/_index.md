@@ -1,7 +1,9 @@
 ---
 title: TextWatermarkOptions.FontFamily
-second_title: Referencia de API de Aspose.Words para .NET
-description: TextWatermarkOptions propiedad. Obtiene o establece el nombre de la familia de fuentes. El valor predeterminado es Calibri.
+linktitle: FontFamily
+articleTitle: FontFamily
+second_title: Aspose.Words para .NET
+description: TextWatermarkOptions FontFamily propiedad. Obtiene o establece el nombre de la familia de fuentes. El valor predeterminado es Calibri en C#.
 type: docs
 weight: 30
 url: /es/net/aspose.words/textwatermarkoptions/fontfamily/
@@ -14,7 +16,7 @@ Obtiene o establece el nombre de la familia de fuentes. El valor predeterminado 
 public string FontFamily { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear una marca de agua de texto.
 
@@ -45,7 +47,5 @@ if (doc.Watermark.Type == WatermarkType.Text)
 ### Ver también
 
 * class [TextWatermarkOptions](../)
-* espacio de nombres [Aspose.Words](../../textwatermarkoptions/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

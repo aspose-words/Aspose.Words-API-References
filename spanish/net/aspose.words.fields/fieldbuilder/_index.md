@@ -1,7 +1,9 @@
 ---
-title: Class FieldBuilder
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Fields.FieldBuilder clase. Crea un campo a partir de tokens de código de campo argumentos y modificadores.
+title: FieldBuilder Class
+linktitle: FieldBuilder
+articleTitle: FieldBuilder
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Fields.FieldBuilder clase. Crea un campo a partir de tokens de código de campo argumentos y modificadores en C#.
 type: docs
 weight: 1660
 url: /es/net/aspose.words.fields/fieldbuilder/
@@ -20,25 +22,25 @@ public class FieldBuilder
 
 | Nombre | Descripción |
 | --- | --- |
-| [FieldBuilder](fieldbuilder/)(FieldType) | Inicializa una instancia del`FieldBuilder` clase. |
+| [FieldBuilder](fieldbuilder/)(*[FieldType](../fieldtype/)*) | Inicializa una instancia del`FieldBuilder` clase. |
 
 ## Métodos
 
 | Nombre | Descripción |
 | --- | --- |
-| [AddArgument](../../aspose.words.fields/fieldbuilder/addargument/#addargument_2)(double) | Agrega el argumento de un campo. |
-| [AddArgument](../../aspose.words.fields/fieldbuilder/addargument/#addargument)(FieldArgumentBuilder) | Agrega el argumento de un campo representado por[`FieldArgumentBuilder`](../fieldargumentbuilder/) al código del campo. |
-| [AddArgument](../../aspose.words.fields/fieldbuilder/addargument/#addargument_1)(FieldBuilder) | Agrega un campo secundario representado por otro`FieldBuilder` al código del campo. |
-| [AddArgument](../../aspose.words.fields/fieldbuilder/addargument/#addargument_3)(int) | Agrega el argumento de un campo. |
-| [AddArgument](../../aspose.words.fields/fieldbuilder/addargument/#addargument_4)(string) | Agrega el argumento de un campo. |
-| [AddSwitch](../../aspose.words.fields/fieldbuilder/addswitch/#addswitch)(string) | Agrega un modificador de campo. |
-| [AddSwitch](../../aspose.words.fields/fieldbuilder/addswitch/#addswitch_1)(string, double) | Agrega un modificador de campo. |
-| [AddSwitch](../../aspose.words.fields/fieldbuilder/addswitch/#addswitch_2)(string, int) | Agrega un modificador de campo. |
-| [AddSwitch](../../aspose.words.fields/fieldbuilder/addswitch/#addswitch_3)(string, string) | Agrega un modificador de campo. |
-| [BuildAndInsert](../../aspose.words.fields/fieldbuilder/buildandinsert/#buildandinsert)(Inline) | Crea e inserta un campo en el documento antes del nodo en línea especificado. |
-| [BuildAndInsert](../../aspose.words.fields/fieldbuilder/buildandinsert/#buildandinsert_1)(Paragraph) | Crea e inserta un campo en el documento hasta el final del párrafo especificado. |
+| [AddArgument](../../aspose.words.fields/fieldbuilder/addargument/#addargument_2)(*double*) | Agrega el argumento de un campo. |
+| [AddArgument](../../aspose.words.fields/fieldbuilder/addargument/#addargument)(*[FieldArgumentBuilder](../fieldargumentbuilder/)*) | Agrega el argumento de un campo representado por[`FieldArgumentBuilder`](../fieldargumentbuilder/) al código del campo. |
+| [AddArgument](../../aspose.words.fields/fieldbuilder/addargument/#addargument_1)(*FieldBuilder*) | Agrega un campo secundario representado por otro`FieldBuilder` al código del campo. |
+| [AddArgument](../../aspose.words.fields/fieldbuilder/addargument/#addargument_3)(*int*) | Agrega el argumento de un campo. |
+| [AddArgument](../../aspose.words.fields/fieldbuilder/addargument/#addargument_4)(*string*) | Agrega el argumento de un campo. |
+| [AddSwitch](../../aspose.words.fields/fieldbuilder/addswitch/#addswitch)(*string*) | Agrega un modificador de campo. |
+| [AddSwitch](../../aspose.words.fields/fieldbuilder/addswitch/#addswitch_1)(*string, double*) | Agrega un modificador de campo. |
+| [AddSwitch](../../aspose.words.fields/fieldbuilder/addswitch/#addswitch_2)(*string, int*) | Agrega un modificador de campo. |
+| [AddSwitch](../../aspose.words.fields/fieldbuilder/addswitch/#addswitch_3)(*string, string*) | Agrega un modificador de campo. |
+| [BuildAndInsert](../../aspose.words.fields/fieldbuilder/buildandinsert/#buildandinsert)(*[Inline](../../aspose.words/inline/)*) | Crea e inserta un campo en el documento antes del nodo en línea especificado. |
+| [BuildAndInsert](../../aspose.words.fields/fieldbuilder/buildandinsert/#buildandinsert_1)(*[Paragraph](../../aspose.words/paragraph/)*) | Crea e inserta un campo en el documento hasta el final del párrafo especificado. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo construir campos usando un generador de campos y luego insertarlos en el documento.
 
@@ -122,5 +124,3 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 
 * espacio de nombres [Aspose.Words.Fields](../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../)
-
-

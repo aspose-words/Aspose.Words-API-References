@@ -1,7 +1,9 @@
 ---
 title: GeneralFormatCollection.Count
-second_title: Aspose.Words لمراجع .NET API
-description: GeneralFormatCollection ملكية. الحصول على العدد الإجمالي للعناصر الموجودة في المجموعة.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words لـ .NET
+description: GeneralFormatCollection Count ملكية. الحصول على العدد الإجمالي للعناصر الموجودة في المجموعة في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fields/generalformatcollection/count/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/generalformatcollection/count/
 public int Count { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تنسيق النتائج الميدانية.
 
@@ -78,7 +80,5 @@ Assert.AreEqual(0, format.GeneralFormats.Count);
 ### أنظر أيضا
 
 * class [GeneralFormatCollection](../)
-* مساحة الاسم [Aspose.Words.Fields](../../generalformatcollection/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

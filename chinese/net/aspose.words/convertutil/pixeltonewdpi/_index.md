@@ -1,7 +1,9 @@
 ---
 title: ConvertUtil.PixelToNewDpi
-second_title: Aspose.Words for .NET API 参考
-description: ConvertUtil 方法. 将像素从一种分辨率转换为另一种分辨率
+linktitle: PixelToNewDpi
+articleTitle: PixelToNewDpi
+second_title: 用于 .NET 的 Aspose.Words
+description: ConvertUtil PixelToNewDpi 方法. 将像素从一种分辨率转换为另一种分辨率 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words/convertutil/pixeltonewdpi/
@@ -20,7 +22,7 @@ public static int PixelToNewDpi(double pixels, double oldDpi, double newDpi)
 | oldDpi | Double | 当前 dpi（每英寸点数）分辨率。 |
 | newDpi | Double | 新的 dpi（每英寸点数）分辨率。 |
 
-### 例子
+## 例子
 
 演示如何使用默认和自定义分辨率将点转换为像素。
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "UtilityClasses.PointsAndPixelsDpi.docx");
 ### 也可以看看
 
 * class [ConvertUtil](../)
-* 命名空间 [Aspose.Words](../../convertutil/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

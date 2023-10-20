@@ -1,7 +1,9 @@
 ---
 title: CustomXmlPartCollection.Clear
-second_title: Referencia de API de Aspose.Words para .NET
-description: CustomXmlPartCollection método. Elimina todos los elementos de la colección.
+linktitle: Clear
+articleTitle: Clear
+second_title: Aspose.Words para .NET
+description: CustomXmlPartCollection Clear método. Elimina todos los elementos de la colección en C#.
 type: docs
 weight: 50
 url: /es/net/aspose.words.markup/customxmlpartcollection/clear/
@@ -14,7 +16,7 @@ Elimina todos los elementos de la colección.
 public void Clear()
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear una etiqueta de documento estructurado con datos XML personalizados.
 
@@ -81,7 +83,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.CustomXml.docx");
 ### Ver también
 
 * class [CustomXmlPartCollection](../)
-* espacio de nombres [Aspose.Words.Markup](../../customxmlpartcollection/)
+* espacio de nombres [Aspose.Words.Markup](../../../aspose.words.markup/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTagRangeStart.IsShowingPlaceholderText
-second_title: Aspose.Words for .NET API 参考
-description: StructuredDocumentTagRangeStart 财产. 指定是否应将此结构化文档标记的内容解释为包含 占位符文本与结构化文档标记内的常规文本内容相反
+linktitle: IsShowingPlaceholderText
+articleTitle: IsShowingPlaceholderText
+second_title: 用于 .NET 的 Aspose.Words
+description: StructuredDocumentTagRangeStart IsShowingPlaceholderText 财产. 指定是否应将此结构化文档标记的内容解释为包含 占位符文本与结构化文档标记内的常规文本内容相反 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words.markup/structureddocumenttagrangestart/isshowingplaceholdertext/
@@ -16,7 +18,7 @@ url: /zh/net/aspose.words.markup/structureddocumenttagrangestart/isshowingplaceh
 public bool IsShowingPlaceholderText { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何获取多节结构化文档标签的属性。
 
@@ -51,7 +53,5 @@ Console.WriteLine($"\t|NodeType: {rangeEndTag.NodeType}");
 ### 也可以看看
 
 * class [StructuredDocumentTagRangeStart](../)
-* 命名空间 [Aspose.Words.Markup](../../structureddocumenttagrangestart/)
+* 命名空间 [Aspose.Words.Markup](../../../aspose.words.markup/)
 * 部件 [Aspose.Words](../../../)
-
-

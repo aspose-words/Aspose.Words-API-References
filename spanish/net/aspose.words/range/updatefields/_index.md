@@ -1,7 +1,9 @@
 ---
 title: Range.UpdateFields
-second_title: Referencia de API de Aspose.Words para .NET
-description: Range método. Actualiza los valores de los campos del documento en este rango.
+linktitle: UpdateFields
+articleTitle: UpdateFields
+second_title: Aspose.Words para .NET
+description: Range UpdateFields método. Actualiza los valores de los campos del documento en este rango en C#.
 type: docs
 weight: 120
 url: /es/net/aspose.words/range/updatefields/
@@ -14,7 +16,7 @@ Actualiza los valores de los campos del documento en este rango.
 public void UpdateFields()
 ```
 
-### Observaciones
+## Observaciones
 
 Cuando abre, modifica y luego guarda un documento, Aspose.Words no actualiza los campos automáticamente, los mantiene intactos. Por lo tanto, normalmente querrá llamar a este método antes de guardar si ha modificado el documento mediante programación y desea asegurarse los valores de campo adecuados (calculados) aparecen en el documento guardado.
 
@@ -26,7 +28,7 @@ Este método no actualiza los campos relacionados con los algoritmos de diseño 
 
 Para actualizar campos en todo el documento utilice[`UpdateFields`](../../document/updatefields/).
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo actualizar todos los campos de un rango.
 
@@ -55,7 +57,5 @@ Assert.AreEqual(string.Empty, doc.Range.Fields[1].Result);
 ### Ver también
 
 * class [Range](../)
-* espacio de nombres [Aspose.Words](../../range/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

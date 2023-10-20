@@ -1,7 +1,9 @@
 ---
-title: Class Metered
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Metered klass. Tillhandahåller metoder för att ställa in mätnyckel.
+title: Metered Class
+linktitle: Metered
+articleTitle: Metered
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Metered klass. Tillhandahåller metoder för att ställa in mätnyckel i C#.
 type: docs
 weight: 4160
 url: /sv/net/aspose.words/metered/
@@ -26,11 +28,11 @@ public class Metered
 
 | namn | Beskrivning |
 | --- | --- |
-| [SetMeteredKey](../../aspose.words/metered/setmeteredkey/)(string, string) | Ställer in mätt offentlig och privat nyckel. Om du köper mätlicens, när du startar applikationen, bör detta API anropas, normalt räcker detta. Men om alltid misslyckas med att ladda upp förbrukningsdata och överskrider 24 timmar, kommer licensen att ställas in på utvärderingsstatus, för att undvika sådana fall bör du regelbundet kontrollera licensstatusen, om det är utvärderingsstatus, ring detta API igen. |
+| [SetMeteredKey](../../aspose.words/metered/setmeteredkey/)(*string, string*) | Ställer in mätt offentlig och privat nyckel. Om du köper mätlicens, när du startar applikationen, bör detta API anropas, normalt räcker detta. Men om alltid misslyckas med att ladda upp förbrukningsdata och överskrider 24 timmar, kommer licensen att ställas in på utvärderingsstatus, för att undvika sådana fall bör du regelbundet kontrollera licensstatusen, om det är utvärderingsstatus, ring detta API igen. |
 | static [GetConsumptionCredit](../../aspose.words/metered/getconsumptioncredit/)() | Får konsumtionskredit |
 | static [GetConsumptionQuantity](../../aspose.words/metered/getconsumptionquantity/)() | Får förbrukningsfilstorlek |
 
-### Exempel
+## Exempel
 
 I det här exemplet kommer ett försök att göras att ställa in mätt offentlig och privat nyckel
 
@@ -73,5 +75,3 @@ Console.WriteLine($"Consumption quantity after operation: {Metered.GetConsumptio
 
 * namnutrymme [Aspose.Words](../../aspose.words/)
 * hopsättning [Aspose.Words](../../)
-
-

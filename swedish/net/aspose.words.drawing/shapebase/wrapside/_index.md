@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.WrapSide
-second_title: Aspose.Words för .NET API Referens
-description: ShapeBase fast egendom. Anger hur texten lindas runt formen.
+linktitle: WrapSide
+articleTitle: WrapSide
+second_title: Aspose.Words för .NET
+description: ShapeBase WrapSide fast egendom. Anger hur texten lindas runt formen i C#.
 type: docs
 weight: 590
 url: /sv/net/aspose.words.drawing/shapebase/wrapside/
@@ -14,13 +16,13 @@ Anger hur texten lindas runt formen.
 public WrapSide WrapSide { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Standardvärdet ärBoth.
 
 Har effekt endast för former på högsta nivå.
 
-### Exempel
+## Exempel
 
 Visar hur man ersätter alla textruteformer med bildformer.
 
@@ -66,7 +68,5 @@ doc.Save(ArtifactsDir + "Shape.ReplaceTextboxesWithImages.docx");
 
 * enum [WrapSide](../../wrapside/)
 * class [ShapeBase](../)
-* namnutrymme [Aspose.Words.Drawing](../../shapebase/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

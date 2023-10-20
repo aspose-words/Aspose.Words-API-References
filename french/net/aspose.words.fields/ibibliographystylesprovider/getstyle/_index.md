@@ -1,7 +1,9 @@
 ---
 title: IBibliographyStylesProvider.GetStyle
-second_title: Référence de l'API Aspose.Words pour .NET
-description: IBibliographyStylesProvider méthode. Renvoie le style de bibliographie.
+linktitle: GetStyle
+articleTitle: GetStyle
+second_title: Aspose.Words pour .NET
+description: IBibliographyStylesProvider GetStyle méthode. Renvoie le style de bibliographie en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.fields/ibibliographystylesprovider/getstyle/
@@ -22,14 +24,12 @@ public Stream GetStyle(string styleFileName)
 
 LeStream avec feuille de style XSLT de style bibliographique.
 
-### Remarques
+## Remarques
 
 L'implémentation devrait renvoyer`nul` pour indiquer que la version MS Word du style spécifié doit être utilisée.
 
 ### Voir également
 
 * interface [IBibliographyStylesProvider](../)
-* espace de noms [Aspose.Words.Fields](../../ibibliographystylesprovider/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: CustomXmlPropertyCollection.Remove
-second_title: Справочник по API Aspose.Words для .NET
-description: CustomXmlPropertyCollection метод. Удаляет свойство с указанным именем из коллекции.
+linktitle: Remove
+articleTitle: Remove
+second_title: Aspose.Words для .NET
+description: CustomXmlPropertyCollection Remove метод. Удаляет свойство с указанным именем из коллекции на С#.
 type: docs
 weight: 80
 url: /ru/net/aspose.words.markup/customxmlpropertycollection/remove/
@@ -18,7 +20,7 @@ public void Remove(string name)
 | --- | --- | --- |
 | name | String | Имя свойства с учетом регистра. |
 
-### Примеры
+## Примеры
 
 Показывает, как работать со свойствами смарт-тегов, чтобы получить подробную информацию о смарт-тегах.
 
@@ -75,7 +77,5 @@ Assert.AreEqual(0, properties.Count);
 ### Смотрите также
 
 * class [CustomXmlPropertyCollection](../)
-* пространство имен [Aspose.Words.Markup](../../customxmlpropertycollection/)
+* пространство имен [Aspose.Words.Markup](../../../aspose.words.markup/)
 * сборка [Aspose.Words](../../../)
-
-

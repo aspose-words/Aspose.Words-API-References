@@ -1,7 +1,9 @@
 ---
 title: BarcodeParameters.BarcodeValue
-second_title: Aspose.Words for .NET API 参考
-description: BarcodeParameters 财产. 要编码的数据
+linktitle: BarcodeValue
+articleTitle: BarcodeValue
+second_title: 用于 .NET 的 Aspose.Words
+description: BarcodeParameters BarcodeValue 财产. 要编码的数据 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words.fields/barcodeparameters/barcodevalue/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/barcodeparameters/barcodevalue/
 public string BarcodeValue { get; set; }
 ```
 
-### 例子
+## 例子
 
 展示如何使用条形码生成器。
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.docx");
 ### 也可以看看
 
 * class [BarcodeParameters](../)
-* 命名空间 [Aspose.Words.Fields](../../barcodeparameters/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

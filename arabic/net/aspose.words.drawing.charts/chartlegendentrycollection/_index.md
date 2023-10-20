@@ -1,7 +1,9 @@
 ---
-title: Class ChartLegendEntryCollection
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Drawing.Charts.ChartLegendEntryCollection فصل. يمثل مجموعة من إدخالات وسيلة إيضاح المخطط.
+title: ChartLegendEntryCollection Class
+linktitle: ChartLegendEntryCollection
+articleTitle: ChartLegendEntryCollection
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Drawing.Charts.ChartLegendEntryCollection فصل. يمثل مجموعة من إدخالات وسيلة إيضاح المخطط في C#.
 type: docs
 weight: 740
 url: /ar/net/aspose.words.drawing.charts/chartlegendentrycollection/
@@ -29,7 +31,7 @@ public class ChartLegendEntryCollection : IEnumerable<ChartLegendEntry>
 | --- | --- |
 | [GetEnumerator](../../aspose.words.drawing.charts/chartlegendentrycollection/getenumerator/)() | يُرجع كائن العداد. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع إدخال وسيلة الإيضاح لسلسلة المخططات.
 
@@ -66,5 +68,3 @@ doc.Save(ArtifactsDir + "Charts.LegendEntries.docx");
 * class [ChartLegendEntry](../chartlegendentry/)
 * مساحة الاسم [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../)
-
-

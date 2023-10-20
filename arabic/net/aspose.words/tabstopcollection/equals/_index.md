@@ -1,12 +1,14 @@
 ---
 title: TabStopCollection.Equals
-second_title: Aspose.Words لمراجع .NET API
-description: TabStopCollection طريقة. تحديد ما إذا كان المحددTabStopCollection يساوي القيمة الحاليةTabStopCollection .
+linktitle: Equals
+articleTitle: Equals
+second_title: Aspose.Words لـ .NET
+description: TabStopCollection Equals طريقة. تحديد ما إذا كان المحددTabStopCollection يساوي القيمة الحاليةTabStopCollection  في C#.
 type: docs
 weight: 70
 url: /ar/net/aspose.words/tabstopcollection/equals/
 ---
-## Equals(TabStopCollection) {#equals}
+## Equals(*[TabStopCollection](../)*) {#equals}
 
 تحديد ما إذا كان المحدد[`TabStopCollection`](../) يساوي القيمة الحالية[`TabStopCollection`](../) .
 
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/tabstopcollection/equals/
 public bool Equals(TabStopCollection rhs)
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التعامل مع مجموعة علامات الجدولة الخاصة بالمستند.
 
@@ -58,12 +60,12 @@ doc.Save(ArtifactsDir + "TabStopCollection.TabStopCollection.docx");
 ### أنظر أيضا
 
 * class [TabStopCollection](../)
-* مساحة الاسم [Aspose.Words](../../tabstopcollection/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## Equals(object) {#equals_1}
+## Equals(*object*) {#equals_1}
 
 تحديد ما إذا كان الكائن المحدد يساوي قيمة الكائن الحالي.
 
@@ -71,7 +73,7 @@ doc.Save(ArtifactsDir + "TabStopCollection.TabStopCollection.docx");
 public override bool Equals(object obj)
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التعامل مع مجموعة علامات الجدولة الخاصة بالمستند.
 
@@ -115,7 +117,5 @@ doc.Save(ArtifactsDir + "TabStopCollection.TabStopCollection.docx");
 ### أنظر أيضا
 
 * class [TabStopCollection](../)
-* مساحة الاسم [Aspose.Words](../../tabstopcollection/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

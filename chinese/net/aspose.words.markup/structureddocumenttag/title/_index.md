@@ -1,20 +1,22 @@
 ---
 title: StructuredDocumentTag.Title
-second_title: Aspose.Words for .NET API 参考
-description: StructuredDocumentTag 财产. 指定与此关联的友好名称 特殊测试. 不能无效的.
+linktitle: Title
+articleTitle: Title
+second_title: 用于 .NET 的 Aspose.Words
+description: StructuredDocumentTag Title 财产. 指定与此关联的友好名称特殊测试. 不能无效的 在 C#.
 type: docs
 weight: 290
 url: /zh/net/aspose.words.markup/structureddocumenttag/title/
 ---
 ## StructuredDocumentTag.Title property
 
-指定与此关联的友好名称 **特殊测试**. 不能`无效的`.
+指定与此关联的友好名称**特殊测试**. 不能`无效的`.
 
 ```csharp
 public string Title { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何在纯文本框中创建结构化文档标签并修改其外观。
 
@@ -71,7 +73,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.PlainText.docx");
 ### 也可以看看
 
 * class [StructuredDocumentTag](../)
-* 命名空间 [Aspose.Words.Markup](../../structureddocumenttag/)
+* 命名空间 [Aspose.Words.Markup](../../../aspose.words.markup/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldSeq.SequenceIdentifier
-second_title: Aspose.Words per .NET API Reference
-description: FieldSeq proprietà. Ottiene o imposta il nome assegnato alla serie di elementi da numerare.
+linktitle: SequenceIdentifier
+articleTitle: SequenceIdentifier
+second_title: Aspose.Words per .NET
+description: FieldSeq SequenceIdentifier proprietà. Ottiene o imposta il nome assegnato alla serie di elementi da numerare in C#.
 type: docs
 weight: 60
 url: /it/net/aspose.words.fields/fieldseq/sequenceidentifier/
@@ -14,7 +16,7 @@ Ottiene o imposta il nome assegnato alla serie di elementi da numerare.
 public string SequenceIdentifier { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra la creazione della numerazione utilizzando i campi SEQ.
 
@@ -149,7 +151,5 @@ doc.Save(ArtifactsDir + "Field.TOC.SEQ.docx");
 ### Guarda anche
 
 * class [FieldSeq](../)
-* spazio dei nomi [Aspose.Words.Fields](../../fieldseq/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Body.ParentSection
-second_title: Aspose.Words för .NET API Referens
-description: Body fast egendom. Hämtar den överordnade delen av denna berättelse.
+linktitle: ParentSection
+articleTitle: ParentSection
+second_title: Aspose.Words för .NET
+description: Body ParentSection fast egendom. Hämtar den överordnade delen av denna berättelse i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words/body/parentsection/
@@ -14,11 +16,11 @@ Hämtar den överordnade delen av denna berättelse.
 public Section ParentSection { get; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 `ParentSection` är ekvivalent med[`ParentNode`](../../node/parentnode/) gjutna till[`Section`](../../section/).
 
-### Exempel
+## Exempel
 
 Visar hur man lagrar slutnoter i slutet av varje avsnitt och ändrar deras positioner.
 
@@ -78,7 +80,5 @@ private static void InsertSectionWithEndnote(Document doc, string sectionBodyTex
 
 * class [Section](../../section/)
 * class [Body](../)
-* namnutrymme [Aspose.Words](../../body/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

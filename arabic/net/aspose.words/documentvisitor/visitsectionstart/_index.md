@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitSectionStart
-second_title: Aspose.Words لمراجع .NET API
-description: DocumentVisitor طريقة. يتم استدعاؤه عند بدء تعداد القسم.
+linktitle: VisitSectionStart
+articleTitle: VisitSectionStart
+second_title: Aspose.Words لـ .NET
+description: DocumentVisitor VisitSectionStart طريقة. يتم استدعاؤه عند بدء تعداد القسم في C#.
 type: docs
 weight: 380
 url: /ar/net/aspose.words/documentvisitor/visitsectionstart/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitSectionStart(Section section)
 
 أ[`VisitorAction`](../../visitoraction/) القيمة التي تحدد كيفية متابعة التعداد.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام زائر المستند لطباعة بنية عقدة المستند.
 
@@ -193,7 +195,5 @@ public class DocStructurePrinter : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [Section](../../section/)
 * class [DocumentVisitor](../)
-* مساحة الاسم [Aspose.Words](../../documentvisitor/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

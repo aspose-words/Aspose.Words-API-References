@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.KeepTogether
-second_title: Aspose.Words für .NET-API-Referenz
-description: ParagraphFormat eigendom. True wenn alle Zeilen im Absatz auf derselben Seite bleiben sollen.
+linktitle: KeepTogether
+articleTitle: KeepTogether
+second_title: Aspose.Words für .NET
+description: ParagraphFormat KeepTogether eigendom. True wenn alle Zeilen im Absatz auf derselben Seite bleiben sollen in C#.
 type: docs
 weight: 160
 url: /de/net/aspose.words/paragraphformat/keeptogether/
@@ -14,7 +16,7 @@ True, wenn alle Zeilen im Absatz auf derselben Seite bleiben sollen.
 public bool KeepTogether { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Absatz in das Dokument eingefügt wird.
 
@@ -46,7 +48,5 @@ Assert.True(builder.CurrentParagraph.IsEndOfDocument);
 ### Siehe auch
 
 * class [ParagraphFormat](../)
-* namensraum [Aspose.Words](../../paragraphformat/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

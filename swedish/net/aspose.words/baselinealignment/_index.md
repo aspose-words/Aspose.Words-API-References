@@ -1,7 +1,9 @@
 ---
-title: Enum BaselineAlignment
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.BaselineAlignment uppräkning. Anger teckensnittens vertikala position på en linje.
+title: BaselineAlignment Enum
+linktitle: BaselineAlignment
+articleTitle: BaselineAlignment
+second_title: Aspose.Words för .NET
+description: Aspose.Words.BaselineAlignment uppräkning. Anger teckensnittens vertikala position på en linje i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words/baselinealignment/
@@ -24,7 +26,7 @@ public enum BaselineAlignment
 | Bottom | `3` | Justeras till botten av varje teckensnitt. |
 | Auto | `4` | Baslinjen justeras automatiskt. |
 
-### Exempel
+## Exempel
 
 Visar hur du ställer in teckensnitt vertikalt på en linje.
 
@@ -44,5 +46,3 @@ doc.Save(ArtifactsDir + "ParagraphFormat.ParagraphBaselineAlignment.docx");
 
 * namnutrymme [Aspose.Words](../../aspose.words/)
 * hopsättning [Aspose.Words](../../)
-
-

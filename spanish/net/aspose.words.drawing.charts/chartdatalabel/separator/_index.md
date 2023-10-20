@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabel.Separator
-second_title: Referencia de API de Aspose.Words para .NET
-description: ChartDataLabel propiedad. Obtiene o establece el separador de cadena utilizado para las etiquetas de datos en un gráfico. El valor predeterminado es una coma excepto en los gráficos circulares que muestran solo el nombre de la categoría y el porcentaje cuando en su lugar se utilizará un salto de línea .
+linktitle: Separator
+articleTitle: Separator
+second_title: Aspose.Words para .NET
+description: ChartDataLabel Separator propiedad. Obtiene o establece el separador de cadena utilizado para las etiquetas de datos en un gráfico. El valor predeterminado es una coma excepto en los gráficos circulares que muestran solo el nombre de la categoría y el porcentaje cuando en su lugar se utilizará un salto de línea  en C#.
 type: docs
 weight: 70
 url: /es/net/aspose.words.drawing.charts/chartdatalabel/separator/
@@ -14,7 +16,7 @@ Obtiene o establece el separador de cadena utilizado para las etiquetas de datos
 public string Separator { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo aplicar etiquetas a puntos de datos en un gráfico de líneas.
 
@@ -92,7 +94,5 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
 ### Ver también
 
 * class [ChartDataLabel](../)
-* espacio de nombres [Aspose.Words.Drawing.Charts](../../chartdatalabel/)
+* espacio de nombres [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * asamblea [Aspose.Words](../../../)
-
-

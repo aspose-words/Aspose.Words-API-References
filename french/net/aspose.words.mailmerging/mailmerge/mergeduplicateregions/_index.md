@@ -1,7 +1,9 @@
 ---
 title: MailMerge.MergeDuplicateRegions
-second_title: Référence de l'API Aspose.Words pour .NET
-description: MailMerge propriété. Obtient ou définit une valeur indiquant si toutes les régions de publipostage de documents portant le nom dune source de données doivent être fusionnées lors de lexécution dun publipostage avec des régions par rapport à la source de données ou uniquement la première.
+linktitle: MergeDuplicateRegions
+articleTitle: MergeDuplicateRegions
+second_title: Aspose.Words pour .NET
+description: MailMerge MergeDuplicateRegions propriété. Obtient ou définit une valeur indiquant si toutes les régions de publipostage de documents portant le nom dune source de données doivent être fusionnées lors de lexécution dun publipostage avec des régions par rapport à la source de données ou uniquement la première en C#.
 type: docs
 weight: 60
 url: /fr/net/aspose.words.mailmerging/mailmerge/mergeduplicateregions/
@@ -14,11 +16,11 @@ Obtient ou définit une valeur indiquant si toutes les régions de publipostage 
 public bool MergeDuplicateRegions { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 La valeur par défaut est`FAUX` .
 
-### Exemples
+## Exemples
 
 Montre comment travailler avec des régions de publipostage en double.
 
@@ -76,7 +78,5 @@ private static DataTable CreateSourceTableMergeDuplicateRegions()
 ### Voir également
 
 * class [MailMerge](../)
-* espace de noms [Aspose.Words.MailMerging](../../mailmerge/)
+* espace de noms [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * Assemblée [Aspose.Words](../../../)
-
-

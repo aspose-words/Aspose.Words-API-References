@@ -1,7 +1,9 @@
 ---
-title: Class PageSetup
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.PageSetup فصل. يمثل خصائص إعداد الصفحة لقسم ما.
+title: PageSetup Class
+linktitle: PageSetup
+articleTitle: PageSetup
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.PageSetup فصل. يمثل خصائص إعداد الصفحة لقسم ما في C#.
 type: docs
 weight: 4360
 url: /ar/net/aspose.words/pagesetup/
@@ -72,11 +74,11 @@ public class PageSetup
 | --- | --- |
 | [ClearFormatting](../../aspose.words/pagesetup/clearformatting/)() | إعادة ضبط إعداد الصفحة على حجم الورق والهوامش والاتجاه الافتراضي. |
 
-### ملاحظات
+## ملاحظات
 
 `PageSetup` يحتوي الكائن على كافة سمات إعداد الصفحة الخاصة بـ section (الهامش الأيسر، والهامش السفلي، وحجم الورق، وما إلى ذلك) كخصائص.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تطبيق إعدادات إعداد الصفحة وإعادتها إلى الأقسام الموجودة في المستند.
 
@@ -111,5 +113,3 @@ doc.Save(ArtifactsDir + "PageSetup.ClearFormatting.docx");
 
 * مساحة الاسم [Aspose.Words](../../aspose.words/)
 * المجسم [Aspose.Words](../../)
-
-

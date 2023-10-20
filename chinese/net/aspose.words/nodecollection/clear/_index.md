@@ -1,7 +1,9 @@
 ---
 title: NodeCollection.Clear
-second_title: Aspose.Words for .NET API 参考
-description: NodeCollection 方法. 从此集合和文档中删除所有节点
+linktitle: Clear
+articleTitle: Clear
+second_title: 用于 .NET 的 Aspose.Words
+description: NodeCollection Clear 方法. 从此集合和文档中删除所有节点 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words/nodecollection/clear/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/nodecollection/clear/
 public void Clear()
 ```
 
-### 例子
+## 例子
 
 演示如何从文档中删除所有部分。
 
@@ -36,7 +38,5 @@ Assert.AreEqual(string.Empty, doc.GetText().Trim());
 ### 也可以看看
 
 * class [NodeCollection](../)
-* 命名空间 [Aspose.Words](../../nodecollection/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

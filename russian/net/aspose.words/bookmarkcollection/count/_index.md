@@ -1,7 +1,9 @@
 ---
 title: BookmarkCollection.Count
-second_title: Справочник по API Aspose.Words для .NET
-description: BookmarkCollection свойство. Возвращает количество закладок в коллекции.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words для .NET
+description: BookmarkCollection Count свойство. Возвращает количество закладок в коллекции на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words/bookmarkcollection/count/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/bookmarkcollection/count/
 public int Count { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как удалить закладки из документа.
 
@@ -75,7 +77,5 @@ Assert.AreEqual("Text inside MyBookmark_1.\r" +
 ### Смотрите также
 
 * class [BookmarkCollection](../)
-* пространство имен [Aspose.Words](../../bookmarkcollection/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

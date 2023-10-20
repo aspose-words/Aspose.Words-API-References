@@ -1,7 +1,9 @@
 ---
 title: LayoutOptions.RevisionOptions
-second_title: Aspose.Words لمراجع .NET API
-description: LayoutOptions ملكية. الحصول على خيارات المراجعة.
+linktitle: RevisionOptions
+articleTitle: RevisionOptions
+second_title: Aspose.Words لـ .NET
+description: LayoutOptions RevisionOptions ملكية. الحصول على خيارات المراجعة في C#.
 type: docs
 weight: 70
 url: /ar/net/aspose.words.layout/layoutoptions/revisionoptions/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.layout/layoutoptions/revisionoptions/
 public RevisionOptions RevisionOptions { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تغيير مظهر المراجعات في مستند الإخراج المقدم.
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "Document.LayoutOptionsRevisions.pdf");
 
 * class [RevisionOptions](../../revisionoptions/)
 * class [LayoutOptions](../)
-* مساحة الاسم [Aspose.Words.Layout](../../layoutoptions/)
+* مساحة الاسم [Aspose.Words.Layout](../../../aspose.words.layout/)
 * المجسم [Aspose.Words](../../../)
-
-

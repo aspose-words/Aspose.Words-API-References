@@ -1,7 +1,9 @@
 ---
 title: BaseWebExtensionCollection1.Count
-second_title: Aspose.Words لمراجع .NET API
-description: BaseWebExtensionCollection ملكية. الحصول على عدد العناصر الموجودة في المجموعة.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words لـ .NET
+description: BaseWebExtensionCollection Count ملكية. الحصول على عدد العناصر الموجودة في المجموعة في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.webextensions/basewebextensioncollection-1/count/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.webextensions/basewebextensioncollection-1/count/
 public int Count { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع مجموعة ملحقات الويب الخاصة بالمستند.
 
@@ -43,7 +45,5 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 ### أنظر أيضا
 
 * class [BaseWebExtensionCollection&lt;T&gt;](../)
-* مساحة الاسم [Aspose.Words.WebExtensions](../../basewebextensioncollection-1/)
+* مساحة الاسم [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * المجسم [Aspose.Words](../../../)
-
-

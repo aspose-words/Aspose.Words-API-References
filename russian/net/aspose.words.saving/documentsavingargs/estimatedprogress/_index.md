@@ -1,7 +1,9 @@
 ---
 title: DocumentSavingArgs.EstimatedProgress
-second_title: Справочник по API Aspose.Words для .NET
-description: DocumentSavingArgs свойство. Общий расчетный процент прогресса.
+linktitle: EstimatedProgress
+articleTitle: EstimatedProgress
+second_title: Aspose.Words для .NET
+description: DocumentSavingArgs EstimatedProgress свойство. Общий расчетный процент прогресса на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.saving/documentsavingargs/estimatedprogress/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.saving/documentsavingargs/estimatedprogress/
 public double EstimatedProgress { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как управлять документом при сохранении в HTML.
 
@@ -184,7 +186,5 @@ public class SavingProgressCallback : IDocumentSavingCallback
 ### Смотрите также
 
 * class [DocumentSavingArgs](../)
-* пространство имен [Aspose.Words.Saving](../../documentsavingargs/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

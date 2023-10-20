@@ -1,7 +1,9 @@
 ---
 title: Shape.StrokeColor
-second_title: Aspose.Words for .NET API 参考
-description: Shape 财产. 定义描边的颜色
+linktitle: StrokeColor
+articleTitle: StrokeColor
+second_title: 用于 .NET 的 Aspose.Words
+description: Shape StrokeColor 财产. 定义描边的颜色 在 C#.
 type: docs
 weight: 190
 url: /zh/net/aspose.words.drawing/shape/strokecolor/
@@ -14,13 +16,13 @@ url: /zh/net/aspose.words.drawing/shape/strokecolor/
 public Color StrokeColor { get; set; }
 ```
 
-### 评论
+## 评论
 
 这是一个快捷方式[`Color`](../../stroke/color/)财产。
 
 默认值为 Black。
 
-### 例子
+## 例子
 
 演示如何用纯色填充形状。
 
@@ -173,7 +175,5 @@ private class ShapeAppearancePrinter : DocumentVisitor
 ### 也可以看看
 
 * class [Shape](../)
-* 命名空间 [Aspose.Words.Drawing](../../shape/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: TabStop.IsClear
-second_title: Aspose.Words för .NET API Referens
-description: TabStop fast egendom. ReturnerarSann om detta tabbstopp rensar alla befintliga tabbstopp i denna position.
+linktitle: IsClear
+articleTitle: IsClear
+second_title: Aspose.Words för .NET
+description: TabStop IsClear fast egendom. ReturnerarSann om detta tabbstopp rensar alla befintliga tabbstopp i denna position i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words/tabstop/isclear/
@@ -14,7 +16,7 @@ Returnerar`Sann` om detta tabbstopp rensar alla befintliga tabbstopp i denna pos
 public bool IsClear { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med ett dokuments samling av tabbstopp.
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "TabStopCollection.TabStopCollection.docx");
 ### Se även
 
 * class [TabStop](../)
-* namnutrymme [Aspose.Words](../../tabstop/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

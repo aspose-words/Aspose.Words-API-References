@@ -1,7 +1,9 @@
 ---
 title: FontSettings.SaveSearchCache
-second_title: Aspose.Words for .NET API 参考
-description: FontSettings 方法. 将字体搜索缓存保存到流中
+linktitle: SaveSearchCache
+articleTitle: SaveSearchCache
+second_title: 用于 .NET 的 Aspose.Words
+description: FontSettings SaveSearchCache 方法. 将字体搜索缓存保存到流中 在 C#.
 type: docs
 weight: 70
 url: /zh/net/aspose.words.fonts/fontsettings/savesearchcache/
@@ -18,11 +20,11 @@ public void SaveSearchCache(Stream outputStream)
 | --- | --- | --- |
 | outputStream | Stream | 输出流。 |
 
-### 评论
+## 评论
 
 看[`SetFontsSources`](../setfontssources/)方法描述以获取更多信息。
 
-### 例子
+## 例子
 
 展示如何加快字体缓存初始化过程。
 
@@ -73,7 +75,5 @@ private class SearchCacheStream : StreamFontSource
 ### 也可以看看
 
 * class [FontSettings](../)
-* 命名空间 [Aspose.Words.Fonts](../../fontsettings/)
+* 命名空间 [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * 部件 [Aspose.Words](../../../)
-
-

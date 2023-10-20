@@ -1,7 +1,9 @@
 ---
 title: SaveOptions.UseAntiAliasing
-second_title: Aspose.Words لمراجع .NET API
-description: SaveOptions ملكية. الحصول على قيمة أو تعيينها لتحديد ما إذا كان سيتم استخدام الصقل للعرض أم لا.
+linktitle: UseAntiAliasing
+articleTitle: UseAntiAliasing
+second_title: Aspose.Words لـ .NET
+description: SaveOptions UseAntiAliasing ملكية. الحصول على قيمة أو تعيينها لتحديد ما إذا كان سيتم استخدام الصقل للعرض أم لا في C#.
 type: docs
 weight: 190
 url: /ar/net/aspose.words.saving/saveoptions/useantialiasing/
@@ -14,13 +16,13 @@ url: /ar/net/aspose.words.saving/saveoptions/useantialiasing/
 public bool UseAntiAliasing { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 القيمة الافتراضية هي`خطأ شنيع` . عندما يتم ضبط هذه القيمة على`حقيقي` يتم استخدام الصقل للعرض.
 
 يتم استخدام هذه الخاصية عند تصدير المستند إلى التنسيقات التالية: Tiff ,Png ,BmpJpeg ,Emf . عندما يتم تصدير المستند إلى the Html ,MhtmlEpub ,Azw3 أوMobi التنسيقات يستخدم هذا الخيار للصور النقطية.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحسين جودة المستند المعروض باستخدام SaveOptions.
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "Document.ImageSaveOptions.HighQuality.jpg", options);
 ### أنظر أيضا
 
 * class [SaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../saveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

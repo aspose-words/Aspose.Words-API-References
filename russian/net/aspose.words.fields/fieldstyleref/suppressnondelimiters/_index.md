@@ -1,7 +1,9 @@
 ---
 title: FieldStyleRef.SuppressNonDelimiters
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldStyleRef свойство. Получает или задает необходимость подавления символов не являющихся разделителями.
+linktitle: SuppressNonDelimiters
+articleTitle: SuppressNonDelimiters
+second_title: Aspose.Words для .NET
+description: FieldStyleRef SuppressNonDelimiters свойство. Получает или задает необходимость подавления символов не являющихся разделителями на С#.
 type: docs
 weight: 80
 url: /ru/net/aspose.words.fields/fieldstyleref/suppressnondelimiters/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldstyleref/suppressnondelimiters/
 public bool SuppressNonDelimiters { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как использовать поля STYLEREF.
 
@@ -85,7 +87,5 @@ doc.Save(ArtifactsDir + "Field.STYLEREF.docx");
 ### Смотрите также
 
 * class [FieldStyleRef](../)
-* пространство имен [Aspose.Words.Fields](../../fieldstyleref/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

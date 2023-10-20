@@ -1,7 +1,9 @@
 ---
 title: Revision.ParentNode
-second_title: Aspose.Words for .NET API 参考
-description: Revision 财产. 获取此修订版的直接父节点所有者 此属性适用于除StyleDefinitionChange.
+linktitle: ParentNode
+articleTitle: ParentNode
+second_title: 用于 .NET 的 Aspose.Words
+description: Revision ParentNode 财产. 获取此修订版的直接父节点所有者 此属性适用于除StyleDefinitionChange 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words/revision/parentnode/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words/revision/parentnode/
 public Node ParentNode { get; }
 ```
 
-### 评论
+## 评论
 
 如果此修订涉及样式格式的更改，请使用[`ParentStyle`](../parentstyle/)相反.
 
-### 例子
+## 例子
 
 演示如何确定内联节点的修订类型。
 
@@ -75,7 +77,5 @@ Assert.IsTrue(runs[5].IsDeleteRevision);
 
 * class [Node](../../node/)
 * class [Revision](../)
-* 命名空间 [Aspose.Words](../../revision/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

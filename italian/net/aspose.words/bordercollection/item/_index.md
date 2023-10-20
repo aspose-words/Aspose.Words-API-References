@@ -1,7 +1,9 @@
 ---
 title: BorderCollection.Item
-second_title: Aspose.Words per .NET API Reference
-description: BorderCollection proprietà. Recupera aBorder oggetto per tipo di bordo.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words per .NET
+description: BorderCollection Item proprietà. Recupera aBorder oggetto per tipo di bordo in C#.
 type: docs
 weight: 60
 url: /it/net/aspose.words/bordercollection/item/
@@ -18,11 +20,11 @@ public Border this[BorderType borderType] { get; }
 | --- | --- |
 | borderType | UN[`BorderType`](../../bordertype/) value che specifica il tipo di bordo da recuperare. |
 
-### Osservazioni
+## Osservazioni
 
 Tieni presente che non tutti i bordi sono presenti per i diversi elementi del documento. Questo metodo genera un'eccezione se richiedi un bordo non applicabile all'oggetto corrente.
 
-### Esempi
+## Esempi
 
 Mostra come decorare il testo con bordi e ombreggiature.
 
@@ -51,7 +53,7 @@ doc.Save(ArtifactsDir + "DocumentBuilder.ApplyBordersAndShading.docx");
 * class [Border](../../border/)
 * enum [BorderType](../../bordertype/)
 * class [BorderCollection](../)
-* spazio dei nomi [Aspose.Words](../../bordercollection/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
 
 ---
@@ -68,7 +70,7 @@ public Border this[int index] { get; }
 | --- | --- |
 | index | Indice in base zero del confine da recuperare. |
 
-### Esempi
+## Esempi
 
 Mostra come le raccolte di bordi possono condividere elementi.
 
@@ -111,7 +113,5 @@ doc.Save(ArtifactsDir + "Border.SharedElements.docx");
 
 * class [Border](../../border/)
 * class [BorderCollection](../)
-* spazio dei nomi [Aspose.Words](../../bordercollection/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

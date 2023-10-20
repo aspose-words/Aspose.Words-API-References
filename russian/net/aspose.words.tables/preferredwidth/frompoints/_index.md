@@ -1,7 +1,9 @@
 ---
 title: PreferredWidth.FromPoints
-second_title: Справочник по API Aspose.Words для .NET
-description: PreferredWidth метод. Метод создания который возвращает новый экземпляр представляющий предпочтительную ширину указанную с использованием количества точек.
+linktitle: FromPoints
+articleTitle: FromPoints
+second_title: Aspose.Words для .NET
+description: PreferredWidth FromPoints метод. Метод создания который возвращает новый экземпляр представляющий предпочтительную ширину указанную с использованием количества точек на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.tables/preferredwidth/frompoints/
@@ -18,7 +20,7 @@ public static PreferredWidth FromPoints(double points)
 | --- | --- | --- |
 | points | Double | Значение должно быть от 0 до 22 дюймов (22 * 72 пункта). |
 
-### Примеры
+## Примеры
 
 Показывает, как использовать инструменты преобразования единиц измерения при указании предпочтительной ширины ячейки.
 
@@ -71,7 +73,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertCellsWithPreferredWidths.docx");
 ### Смотрите также
 
 * class [PreferredWidth](../)
-* пространство имен [Aspose.Words.Tables](../../preferredwidth/)
+* пространство имен [Aspose.Words.Tables](../../../aspose.words.tables/)
 * сборка [Aspose.Words](../../../)
-
-

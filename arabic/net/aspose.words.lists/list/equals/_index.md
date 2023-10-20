@@ -1,12 +1,14 @@
 ---
 title: List.Equals
-second_title: Aspose.Words لمراجع .NET API
-description: List طريقة. يقارن بالقائمة المحددة.
+linktitle: Equals
+articleTitle: Equals
+second_title: Aspose.Words لـ .NET
+description: List Equals طريقة. يقارن بالقائمة المحددة في C#.
 type: docs
 weight: 100
 url: /ar/net/aspose.words.lists/list/equals/
 ---
-## Equals(List) {#equals}
+## Equals(*[List](../)*) {#equals}
 
 يقارن بالقائمة المحددة.
 
@@ -17,12 +19,12 @@ public bool Equals(List list)
 ### أنظر أيضا
 
 * class [List](../)
-* مساحة الاسم [Aspose.Words.Lists](../../list/)
+* مساحة الاسم [Aspose.Words.Lists](../../../aspose.words.lists/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## Equals(object) {#equals_1}
+## Equals(*object*) {#equals_1}
 
 تحديد ما إذا كان الكائن المحدد يساوي قيمة الكائن الحالي.
 
@@ -33,7 +35,5 @@ public override bool Equals(object obj)
 ### أنظر أيضا
 
 * class [List](../)
-* مساحة الاسم [Aspose.Words.Lists](../../list/)
+* مساحة الاسم [Aspose.Words.Lists](../../../aspose.words.lists/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldArgumentBuilder.AddNode
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldArgumentBuilder methode. Fügt dem Argument einen Knoten hinzu.
+linktitle: AddNode
+articleTitle: AddNode
+second_title: Aspose.Words für .NET
+description: FieldArgumentBuilder AddNode methode. Fügt dem Argument einen Knoten hinzu in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.fields/fieldargumentbuilder/addnode/
@@ -14,11 +16,11 @@ Fügt dem Argument einen Knoten hinzu.
 public FieldArgumentBuilder AddNode(Inline node)
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Derzeit werden nur Knoten auf Textebene unterstützt.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Felder mit einem Feld-Builder erstellt und dann in das Dokument eingefügt werden.
 
@@ -102,7 +104,5 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 
 * class [Inline](../../../aspose.words/inline/)
 * class [FieldArgumentBuilder](../)
-* namensraum [Aspose.Words.Fields](../../fieldargumentbuilder/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

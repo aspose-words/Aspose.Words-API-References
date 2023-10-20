@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.Lines
-second_title: Справочник по API Aspose.Words для .NET
-description: BuiltInDocumentProperties свойство. Представляет оценку количества строк в документе.
+linktitle: Lines
+articleTitle: Lines
+second_title: Aspose.Words для .NET
+description: BuiltInDocumentProperties Lines свойство. Представляет оценку количества строк в документе на С#.
 type: docs
 weight: 180
 url: /ru/net/aspose.words.properties/builtindocumentproperties/lines/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.properties/builtindocumentproperties/lines/
 public int Lines { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Aspose.Words обновляет это свойство при вызове[`UpdateWordCount`](../../../aspose.words/document/updatewordcount/).
 
-### Примеры
+## Примеры
 
 Показывает, как обновить все метки списков в документе.
 
@@ -160,7 +162,5 @@ private class LineCounter
 ### Смотрите также
 
 * class [BuiltInDocumentProperties](../)
-* пространство имен [Aspose.Words.Properties](../../builtindocumentproperties/)
+* пространство имен [Aspose.Words.Properties](../../../aspose.words.properties/)
 * сборка [Aspose.Words](../../../)
-
-

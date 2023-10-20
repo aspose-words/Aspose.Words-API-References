@@ -1,7 +1,9 @@
 ---
 title: FieldToa.UseHeading
-second_title: Aspose.Words per .NET API Reference
-description: FieldToa proprietà. Ottiene o imposta se includere lintestazione di categoria per le voci in una tabella di autorità.
+linktitle: UseHeading
+articleTitle: UseHeading
+second_title: Aspose.Words per .NET
+description: FieldToa UseHeading proprietà. Ottiene o imposta se includere lintestazione di categoria per le voci in una tabella di autorità in C#.
 type: docs
 weight: 100
 url: /it/net/aspose.words.fields/fieldtoa/useheading/
@@ -14,7 +16,7 @@ Ottiene o imposta se includere l'intestazione di categoria per le voci in una ta
 public bool UseHeading { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come creare e personalizzare una tabella di autorità utilizzando i campi TOA e TA.
 
@@ -137,7 +139,5 @@ private static FieldTA InsertToaEntry(DocumentBuilder builder, string entryCateg
 ### Guarda anche
 
 * class [FieldToa](../)
-* spazio dei nomi [Aspose.Words.Fields](../../fieldtoa/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

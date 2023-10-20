@@ -1,7 +1,9 @@
 ---
 title: BookmarkCollection.Item
-second_title: Aspose.Words لمراجع .NET API
-description: BookmarkCollection ملكية. إرجاع إشارة مرجعية في الفهرس المحدد.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words لـ .NET
+description: BookmarkCollection Item ملكية. إرجاع إشارة مرجعية في الفهرس المحدد في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words/bookmarkcollection/item/
@@ -18,7 +20,7 @@ public Bookmark this[int index] { get; }
 | --- | --- |
 | index | فهرس في المجموعة. |
 
-### ملاحظات
+## ملاحظات
 
 المؤشر قائم على الصفر.
 
@@ -28,7 +30,7 @@ public Bookmark this[int index] { get; }
 
 إذا كان الفهرس سالبًا وقيمته المطلقة أكبر من عدد العناصر الموجودة في القائمة، فسيُرجع هذا مرجعًا فارغًا.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إضافة الإشارات المرجعية وتحديث محتوياتها.
 
@@ -118,7 +120,7 @@ public class BookmarkInfoPrinter : DocumentVisitor
 
 * class [Bookmark](../../bookmark/)
 * class [BookmarkCollection](../)
-* مساحة الاسم [Aspose.Words](../../bookmarkcollection/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
 
 ---
@@ -135,11 +137,11 @@ public Bookmark this[string bookmarkName] { get; }
 | --- | --- |
 | bookmarkName | اسم الإشارة المرجعية غير حساس لحالة الأحرف. |
 
-### ملاحظات
+## ملاحظات
 
 عائدات`باطل`إذا تعذر العثور على الإشارة المرجعية بالاسم المحدد.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إضافة الإشارات المرجعية وتحديث محتوياتها.
 
@@ -229,7 +231,5 @@ public class BookmarkInfoPrinter : DocumentVisitor
 
 * class [Bookmark](../../bookmark/)
 * class [BookmarkCollection](../)
-* مساحة الاسم [Aspose.Words](../../bookmarkcollection/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

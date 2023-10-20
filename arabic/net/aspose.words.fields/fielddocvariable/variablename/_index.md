@@ -1,7 +1,9 @@
 ---
 title: FieldDocVariable.VariableName
-second_title: Aspose.Words لمراجع .NET API
-description: FieldDocVariable ملكية. الحصول على أو تعيين اسم متغير المستند المراد استرداده.
+linktitle: VariableName
+articleTitle: VariableName
+second_title: Aspose.Words لـ .NET
+description: FieldDocVariable VariableName ملكية. الحصول على أو تعيين اسم متغير المستند المراد استرداده في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.fields/fielddocvariable/variablename/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fielddocvariable/variablename/
 public string VariableName { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام حقول DOCPROPERTY لعرض خصائص الوثيقة ومتغيراتها.
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "Field.DOCPROPERTY.DOCVARIABLE.docx");
 ### أنظر أيضا
 
 * class [FieldDocVariable](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fielddocvariable/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

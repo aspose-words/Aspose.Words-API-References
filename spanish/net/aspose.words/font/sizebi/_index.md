@@ -1,7 +1,9 @@
 ---
 title: Font.SizeBi
-second_title: Referencia de API de Aspose.Words para .NET
-description: Font propiedad. Obtiene o establece el tamaño de fuente en puntos utilizados en un documento de derecha a izquierda.
+linktitle: SizeBi
+articleTitle: SizeBi
+second_title: Aspose.Words para .NET
+description: Font SizeBi propiedad. Obtiene o establece el tamaño de fuente en puntos utilizados en un documento de derecha a izquierda en C#.
 type: docs
 weight: 350
 url: /es/net/aspose.words/font/sizebi/
@@ -14,7 +16,7 @@ Obtiene o establece el tamaño de fuente en puntos utilizados en un documento de
 public double SizeBi { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo definir conjuntos separados de configuraciones de fuente para texto de derecha a izquierda y de derecha a izquierda.
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "Font.Bidi.docx");
 ### Ver también
 
 * class [Font](../)
-* espacio de nombres [Aspose.Words](../../font/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

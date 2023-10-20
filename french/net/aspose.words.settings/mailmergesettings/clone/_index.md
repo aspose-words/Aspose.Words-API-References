@@ -1,7 +1,9 @@
 ---
 title: MailMergeSettings.Clone
-second_title: Référence de l'API Aspose.Words pour .NET
-description: MailMergeSettings méthode. Renvoie un clone profond de cet objet.
+linktitle: Clone
+articleTitle: Clone
+second_title: Aspose.Words pour .NET
+description: MailMergeSettings Clone méthode. Renvoie un clone profond de cet objet en C#.
 type: docs
 weight: 190
 url: /fr/net/aspose.words.settings/mailmergesettings/clone/
@@ -14,7 +16,7 @@ Renvoie un clone profond de cet objet.
 public MailMergeSettings Clone()
 ```
 
-### Exemples
+## Exemples
 
 Montre comment exécuter un publipostage avec des données provenant d’un objet source de données Office.
 
@@ -66,7 +68,5 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ### Voir également
 
 * class [MailMergeSettings](../)
-* espace de noms [Aspose.Words.Settings](../../mailmergesettings/)
+* espace de noms [Aspose.Words.Settings](../../../aspose.words.settings/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.UseWord2010TableStyleRules
-second_title: Aspose.Words لمراجع .NET API
-description: CompatibilityOptions ملكية. يحدد استخدام قواعد نمط جدول Word2010.
+linktitle: UseWord2010TableStyleRules
+articleTitle: UseWord2010TableStyleRules
+second_title: Aspose.Words لـ .NET
+description: CompatibilityOptions UseWord2010TableStyleRules ملكية. يحدد استخدام قواعد نمط جدول Word2010 في C#.
 type: docs
 weight: 670
 url: /ar/net/aspose.words.settings/compatibilityoptions/useword2010tablestylerules/
@@ -17,7 +19,5 @@ public bool UseWord2010TableStyleRules { get; set; }
 ### أنظر أيضا
 
 * class [CompatibilityOptions](../)
-* مساحة الاسم [Aspose.Words.Settings](../../compatibilityoptions/)
+* مساحة الاسم [Aspose.Words.Settings](../../../aspose.words.settings/)
 * المجسم [Aspose.Words](../../../)
-
-

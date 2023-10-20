@@ -1,7 +1,9 @@
 ---
 title: FieldMacroButton.DisplayText
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldMacroButton свойство. Получает или задает текст который будет отображаться в качестве кнопки выбранной для запуска макроса или команды.
+linktitle: DisplayText
+articleTitle: DisplayText
+second_title: Aspose.Words для .NET
+description: FieldMacroButton DisplayText свойство. Получает или задает текст который будет отображаться в качестве кнопки выбранной для запуска макроса или команды на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.fields/fieldmacrobutton/displaytext/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldmacrobutton/displaytext/
 public string DisplayText { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как использовать поля MACROBUTTON, чтобы можно было запускать макросы документа щелчком мыши.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "Field.MACROBUTTON.docm");
 ### Смотрите также
 
 * class [FieldMacroButton](../)
-* пространство имен [Aspose.Words.Fields](../../fieldmacrobutton/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

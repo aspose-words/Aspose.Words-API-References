@@ -1,7 +1,9 @@
 ---
 title: DocumentPropertyCollection.Remove
-second_title: Справочник по API Aspose.Words для .NET
-description: DocumentPropertyCollection метод. Удаляет свойство с указанным именем из коллекции.
+linktitle: Remove
+articleTitle: Remove
+second_title: Aspose.Words для .NET
+description: DocumentPropertyCollection Remove метод. Удаляет свойство с указанным именем из коллекции на С#.
 type: docs
 weight: 70
 url: /ru/net/aspose.words.properties/documentpropertycollection/remove/
@@ -18,7 +20,7 @@ public void Remove(string name)
 | --- | --- | --- |
 | name | String | Имя свойства без учета регистра. |
 
-### Примеры
+## Примеры
 
 Показывает, как работать с настраиваемыми свойствами документа.
 
@@ -78,7 +80,5 @@ Assert.AreEqual(0, properties.Count);
 ### Смотрите также
 
 * class [DocumentPropertyCollection](../)
-* пространство имен [Aspose.Words.Properties](../../documentpropertycollection/)
+* пространство имен [Aspose.Words.Properties](../../../aspose.words.properties/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ConditionalStyle.Borders
-second_title: Aspose.Words för .NET API Referens
-description: ConditionalStyle fast egendom. Hämtar samlingen av standardcellkanter för den villkorliga stilen.
+linktitle: Borders
+articleTitle: Borders
+second_title: Aspose.Words för .NET
+description: ConditionalStyle Borders fast egendom. Hämtar samlingen av standardcellkanter för den villkorliga stilen i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words/conditionalstyle/borders/
@@ -14,7 +16,7 @@ Hämtar samlingen av standardcellkanter för den villkorliga stilen.
 public BorderCollection Borders { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med vissa områdesstilar i en tabell.
 
@@ -85,7 +87,5 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 
 * class [BorderCollection](../../bordercollection/)
 * class [ConditionalStyle](../)
-* namnutrymme [Aspose.Words](../../conditionalstyle/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

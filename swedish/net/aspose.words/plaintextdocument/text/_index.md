@@ -1,7 +1,9 @@
 ---
 title: PlainTextDocument.Text
-second_title: Aspose.Words för .NET API Referens
-description: PlainTextDocument fast egendom. Får textinnehållet i dokumentet sammanfogat som en sträng.
+linktitle: Text
+articleTitle: Text
+second_title: Aspose.Words för .NET
+description: PlainTextDocument Text fast egendom. Får textinnehållet i dokumentet sammanfogat som en sträng i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words/plaintextdocument/text/
@@ -14,7 +16,7 @@ Får textinnehållet i dokumentet sammanfogat som en sträng.
 public string Text { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man laddar innehållet i ett Microsoft Word-dokument i klartext.
 
@@ -33,7 +35,5 @@ Assert.AreEqual("Hello world!", plaintext.Text.Trim());
 ### Se även
 
 * class [PlainTextDocument](../)
-* namnutrymme [Aspose.Words](../../plaintextdocument/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

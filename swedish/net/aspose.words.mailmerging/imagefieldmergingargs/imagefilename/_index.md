@@ -1,7 +1,9 @@
 ---
 title: ImageFieldMergingArgs.ImageFileName
-second_title: Aspose.Words för .NET API Referens
-description: ImageFieldMergingArgs fast egendom. Anger filnamnet på bilden som kopplingsmotorn måste infoga i dokumentet.
+linktitle: ImageFileName
+articleTitle: ImageFileName
+second_title: Aspose.Words för .NET
+description: ImageFieldMergingArgs ImageFileName fast egendom. Anger filnamnet på bilden som kopplingsmotorn måste infoga i dokumentet i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.mailmerging/imagefieldmergingargs/imagefilename/
@@ -14,7 +16,7 @@ Anger filnamnet på bilden som kopplingsmotorn måste infoga i dokumentet.
 public string ImageFileName { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du ställer in dimensionerna för bilder när MERGEFIELDS accepterar dem under en sammanfogning.
 
@@ -84,7 +86,5 @@ private class MergedImageResizer : IFieldMergingCallback
 ### Se även
 
 * class [ImageFieldMergingArgs](../)
-* namnutrymme [Aspose.Words.MailMerging](../../imagefieldmergingargs/)
+* namnutrymme [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * hopsättning [Aspose.Words](../../../)
-
-

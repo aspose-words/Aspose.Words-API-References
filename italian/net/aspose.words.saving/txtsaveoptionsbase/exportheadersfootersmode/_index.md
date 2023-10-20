@@ -1,7 +1,9 @@
 ---
 title: TxtSaveOptionsBase.ExportHeadersFootersMode
-second_title: Aspose.Words per .NET API Reference
-description: TxtSaveOptionsBase proprietà. Specifica il modo in cui le intestazioni e i piè di pagina vengono esportati nei formati di testo. Il valore predefinito èPrimaryOnly .
+linktitle: ExportHeadersFootersMode
+articleTitle: ExportHeadersFootersMode
+second_title: Aspose.Words per .NET
+description: TxtSaveOptionsBase ExportHeadersFootersMode proprietà. Specifica il modo in cui le intestazioni e i piè di pagina vengono esportati nei formati di testo. Il valore predefinito èPrimaryOnly  in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words.saving/txtsaveoptionsbase/exportheadersfootersmode/
@@ -14,7 +16,7 @@ Specifica il modo in cui le intestazioni e i piè di pagina vengono esportati ne
 public TxtExportHeadersFootersMode ExportHeadersFootersMode { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come specificare come esportare intestazioni e piè di pagina in formato testo normale.
 
@@ -86,7 +88,5 @@ switch (txtExportHeadersFootersMode)
 
 * enum [TxtExportHeadersFootersMode](../../txtexportheadersfootersmode/)
 * class [TxtSaveOptionsBase](../)
-* spazio dei nomi [Aspose.Words.Saving](../../txtsaveoptionsbase/)
+* spazio dei nomi [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../../)
-
-

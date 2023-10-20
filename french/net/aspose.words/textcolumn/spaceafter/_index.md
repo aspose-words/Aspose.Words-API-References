@@ -1,7 +1,9 @@
 ---
 title: TextColumn.SpaceAfter
-second_title: Référence de l'API Aspose.Words pour .NET
-description: TextColumn propriété. Obtient ou définit lespace entre cette colonne et la colonne suivante en points. Non requis pour la dernière colonne.
+linktitle: SpaceAfter
+articleTitle: SpaceAfter
+second_title: Aspose.Words pour .NET
+description: TextColumn SpaceAfter propriété. Obtient ou définit lespace entre cette colonne et la colonne suivante en points. Non requis pour la dernière colonne en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words/textcolumn/spaceafter/
@@ -14,7 +16,7 @@ Obtient ou définit l'espace entre cette colonne et la colonne suivante en point
 public double SpaceAfter { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment créer des colonnes inégalement espacées.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "PageSetup.CustomColumnWidth.docx");
 ### Voir également
 
 * class [TextColumn](../)
-* espace de noms [Aspose.Words](../../textcolumn/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

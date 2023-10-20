@@ -1,7 +1,9 @@
 ---
-title: Section.Section
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Section constructeur. Initialise une nouvelle instance de la classe Section.
+title: Section
+linktitle: Section
+articleTitle: Section
+second_title: Aspose.Words pour .NET
+description: Section constructeur. Initialise une nouvelle instance de la classe Section en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words/section/section/
@@ -18,13 +20,13 @@ public Section(DocumentBase doc)
 | --- | --- | --- |
 | doc | DocumentBase | Le document du propriétaire. |
 
-### Remarques
+## Remarques
 
 Lorsque la section est créée, elle appartient au document spécifié, mais ne fait pas encore partie du document et[`ParentNode`](../../node/parentnode/) est`nul`.
 
-Inclure[`Section`](../) dans une utilisation de documentNode) et Node) méthodes du[`Document`](../../document/) OU [`Add`](../../nodecollection/add/) et[`Insert`](../../nodecollection/insert/) méthodes du[`Sections`](../../document/sections/) propriété.
+Inclure[`Section`](../) dans une utilisation de document[`InsertAfter`](../../compositenode/insertafter/) et [`InsertBefore`](../../compositenode/insertbefore/) méthodes du[`Document`](../../document/) OU [`Add`](../../nodecollection/add/) et[`Insert`](../../nodecollection/insert/) méthodes du[`Sections`](../../document/sections/) propriété.
 
-### Exemples
+## Exemples
 
 Montre comment construire manuellement un document Aspose.Words.
 
@@ -75,7 +77,5 @@ doc.Save(ArtifactsDir + "Section.CreateManually.docx");
 
 * class [DocumentBase](../../documentbase/)
 * class [Section](../)
-* espace de noms [Aspose.Words](../../section/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

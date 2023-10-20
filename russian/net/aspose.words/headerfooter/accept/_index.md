@@ -1,7 +1,9 @@
 ---
 title: HeaderFooter.Accept
-second_title: Справочник по API Aspose.Words для .NET
-description: HeaderFooter метод. Принимает посетителя.
+linktitle: Accept
+articleTitle: Accept
+second_title: Aspose.Words для .NET
+description: HeaderFooter Accept метод. Принимает посетителя на С#.
 type: docs
 weight: 70
 url: /ru/net/aspose.words/headerfooter/accept/
@@ -22,7 +24,7 @@ public override bool Accept(DocumentVisitor visitor)
 
 Истинно, если были посещены все узлы; ложь, если[`DocumentVisitor`](../../documentvisitor/) остановил операцию перед посещением всех узлов.
 
-### Примечания
+## Примечания
 
 Перечисляет этот узел и все его дочерние элементы. Каждый узел вызывает соответствующий метод[`DocumentVisitor`](../../documentvisitor/).
 
@@ -30,7 +32,7 @@ public override bool Accept(DocumentVisitor visitor)
 
 Звонки[`VisitHeaderFooterStart`](../../documentvisitor/visitheaderfooterstart/) , затем звонит[`Accept`](../../node/accept/) для всех дочерних узловsection и вызовов[`VisitHeaderFooterEnd`](../../documentvisitor/visitheaderfooterend/) в конце.
 
-### Примеры
+## Примеры
 
 Показывает, как распечатать структуру узлов каждого верхнего и нижнего колонтитула в документе.
 
@@ -124,7 +126,5 @@ public class HeaderFooterStructurePrinter : DocumentVisitor
 
 * class [DocumentVisitor](../../documentvisitor/)
 * class [HeaderFooter](../)
-* пространство имен [Aspose.Words](../../headerfooter/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

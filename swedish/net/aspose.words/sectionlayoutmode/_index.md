@@ -1,7 +1,9 @@
 ---
-title: Enum SectionLayoutMode
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.SectionLayoutMode uppräkning. Anger layoutläget för en sektion som gör det möjligt att definiera dokumentrutnätets beteende.
+title: SectionLayoutMode Enum
+linktitle: SectionLayoutMode
+articleTitle: SectionLayoutMode
+second_title: Aspose.Words för .NET
+description: Aspose.Words.SectionLayoutMode uppräkning. Anger layoutläget för en sektion som gör det möjligt att definiera dokumentrutnätets beteende i C#.
 type: docs
 weight: 5750
 url: /sv/net/aspose.words/sectionlayoutmode/
@@ -23,7 +25,7 @@ public enum SectionLayoutMode
 | LineGrid | `2` | Anger att motsvarande sektion ska ha ytterligare radbredd lagt till varje rad inom it för att behålla det angivna antalet rader per sida. |
 | SnapToChars | `3` | Anger att motsvarande sektion ska ha både den extra radstigningen och tecknet pitch till varje rad och tecken i den för att bibehålla ett specifikt antal rader per sida och tecken per rad. Tecken kommer automatiskt att justeras med rutnät när du skriver. |
 
-### Exempel
+## Exempel
 
 Visar hur man anger a för antalet tecken som varje rad kan ha.
 
@@ -68,5 +70,3 @@ doc.Save(ArtifactsDir + "PageSetup.LinesPerPage.docx");
 
 * namnutrymme [Aspose.Words](../../aspose.words/)
 * hopsättning [Aspose.Words](../../)
-
-

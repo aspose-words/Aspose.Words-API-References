@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.MajorTickMark
-second_title: Aspose.Words för .NET API Referens
-description: ChartAxis fast egendom. Returnerar eller sätter de viktigaste bockarna.
+linktitle: MajorTickMark
+articleTitle: MajorTickMark
+second_title: Aspose.Words för .NET
+description: ChartAxis MajorTickMark fast egendom. Returnerar eller sätter de viktigaste bockarna i C#.
 type: docs
 weight: 110
 url: /sv/net/aspose.words.drawing.charts/chartaxis/majortickmark/
@@ -14,7 +16,7 @@ Returnerar eller sätter de viktigaste bockarna.
 public AxisTickMark MajorTickMark { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man infogar ett diagram och ändrar utseendet på dess axlar.
 
@@ -68,7 +70,5 @@ doc.Save(ArtifactsDir + "Charts.AxisProperties.docx");
 
 * enum [AxisTickMark](../../axistickmark/)
 * class [ChartAxis](../)
-* namnutrymme [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* namnutrymme [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../../)
-
-

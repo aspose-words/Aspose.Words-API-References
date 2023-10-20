@@ -1,7 +1,9 @@
 ---
 title: FontSubstitutionRule.Enabled
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FontSubstitutionRule propriété. Spécifie si la règle est activée ou non.
+linktitle: Enabled
+articleTitle: Enabled
+second_title: Aspose.Words pour .NET
+description: FontSubstitutionRule Enabled propriété. Spécifie si la règle est activée ou non en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.fonts/fontsubstitutionrule/enabled/
@@ -14,7 +16,7 @@ Spécifie si la règle est activée ou non.
 public virtual bool Enabled { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Affiche la substitution de configuration de police dépendante du système d'exploitation.
 
@@ -101,7 +103,5 @@ Assert.AreEqual(1,
 ### Voir également
 
 * class [FontSubstitutionRule](../)
-* espace de noms [Aspose.Words.Fonts](../../fontsubstitutionrule/)
+* espace de noms [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * Assemblée [Aspose.Words](../../../)
-
-

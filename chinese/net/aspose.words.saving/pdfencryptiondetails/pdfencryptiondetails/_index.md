@@ -1,12 +1,14 @@
 ---
-title: PdfEncryptionDetails.PdfEncryptionDetails
-second_title: Aspose.Words for .NET API 参考
-description: PdfEncryptionDetails 构造函数. 初始化此类的实例
+title: PdfEncryptionDetails
+linktitle: PdfEncryptionDetails
+articleTitle: PdfEncryptionDetails
+second_title: 用于 .NET 的 Aspose.Words
+description: PdfEncryptionDetails 构造函数. 初始化此类的实例 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.saving/pdfencryptiondetails/pdfencryptiondetails/
 ---
-## PdfEncryptionDetails(string, string) {#constructor}
+## PdfEncryptionDetails(*string, string*) {#constructor}
 
 初始化此类的实例。
 
@@ -17,12 +19,12 @@ public PdfEncryptionDetails(string userPassword, string ownerPassword)
 ### 也可以看看
 
 * class [PdfEncryptionDetails](../)
-* 命名空间 [Aspose.Words.Saving](../../pdfencryptiondetails/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## PdfEncryptionDetails(string, string, PdfPermissions) {#constructor_1}
+## PdfEncryptionDetails(*string, string, [PdfPermissions](../../pdfpermissions/)*) {#constructor_1}
 
 初始化此类的实例。
 
@@ -30,7 +32,7 @@ public PdfEncryptionDetails(string userPassword, string ownerPassword)
 public PdfEncryptionDetails(string userPassword, string ownerPassword, PdfPermissions permissions)
 ```
 
-### 例子
+## 例子
 
 演示如何设置已保存 PDF 文档的权限。
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.EncryptionPermissions.pdf", saveOptions)
 
 * enum [PdfPermissions](../../pdfpermissions/)
 * class [PdfEncryptionDetails](../)
-* 命名空间 [Aspose.Words.Saving](../../pdfencryptiondetails/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

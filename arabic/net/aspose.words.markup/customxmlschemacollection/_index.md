@@ -1,7 +1,9 @@
 ---
-title: Class CustomXmlSchemaCollection
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Markup.CustomXmlSchemaCollection فصل. مجموعة من السلاسل التي تمثل مخططات XML المرتبطة بجزء XML مخصص.
+title: CustomXmlSchemaCollection Class
+linktitle: CustomXmlSchemaCollection
+articleTitle: CustomXmlSchemaCollection
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Markup.CustomXmlSchemaCollection فصل. مجموعة من السلاسل التي تمثل مخططات XML المرتبطة بجزء XML مخصص في C#.
 type: docs
 weight: 3960
 url: /ar/net/aspose.words.markup/customxmlschemacollection/
@@ -27,19 +29,19 @@ public class CustomXmlSchemaCollection : IEnumerable<string>
 
 | اسم | وصف |
 | --- | --- |
-| [Add](../../aspose.words.markup/customxmlschemacollection/add/)(string) | إضافة عنصر إلى المجموعة. |
+| [Add](../../aspose.words.markup/customxmlschemacollection/add/)(*string*) | إضافة عنصر إلى المجموعة. |
 | [Clear](../../aspose.words.markup/customxmlschemacollection/clear/)() | إزالة كافة العناصر من المجموعة. |
 | [Clone](../../aspose.words.markup/customxmlschemacollection/clone/)() | إجراء استنساخ عميق لهذا الكائن. |
 | [GetEnumerator](../../aspose.words.markup/customxmlschemacollection/getenumerator/)() | إرجاع كائن العداد الذي يمكن استخدامه للتكرار على كافة العناصر الموجودة في المجموعة. |
-| [IndexOf](../../aspose.words.markup/customxmlschemacollection/indexof/)(string) | إرجاع الفهرس الصفري للقيمة المحددة في المجموعة. |
-| [Remove](../../aspose.words.markup/customxmlschemacollection/remove/)(string) | إزالة القيمة المحددة من المجموعة. |
-| [RemoveAt](../../aspose.words.markup/customxmlschemacollection/removeat/)(int) | إزالة قيمة في الفهرس المحدد. |
+| [IndexOf](../../aspose.words.markup/customxmlschemacollection/indexof/)(*string*) | إرجاع الفهرس الصفري للقيمة المحددة في المجموعة. |
+| [Remove](../../aspose.words.markup/customxmlschemacollection/remove/)(*string*) | إزالة القيمة المحددة من المجموعة. |
+| [RemoveAt](../../aspose.words.markup/customxmlschemacollection/removeat/)(*int*) | إزالة قيمة في الفهرس المحدد. |
 
-### ملاحظات
+## ملاحظات
 
 لا تقم بإنشاء مثيلات هذه الفئة. يمكنك الوصول إلى مجموعة مخططات XML الخاصة بـ XML Part عبر ملف[`Schemas`](../customxmlpart/schemas/) ملكية.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع مجموعة مخططات XML.
 
@@ -86,5 +88,3 @@ Assert.AreEqual(0, schemas.Count);
 
 * مساحة الاسم [Aspose.Words.Markup](../../aspose.words.markup/)
 * المجسم [Aspose.Words](../../)
-
-

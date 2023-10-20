@@ -1,7 +1,9 @@
 ---
 title: HtmlFixedSaveOptions.CssClassNamesPrefix
-second_title: Aspose.Words för .NET API Referens
-description: HtmlFixedSaveOptions fast egendom. Anger prefix som läggs till i alla klassnamn i filen style.css. Standardvärdet äråh .
+linktitle: CssClassNamesPrefix
+articleTitle: CssClassNamesPrefix
+second_title: Aspose.Words för .NET
+description: HtmlFixedSaveOptions CssClassNamesPrefix fast egendom. Anger prefix som läggs till i alla klassnamn i filen style.css. Standardvärdet äråh  i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.saving/htmlfixedsaveoptions/cssclassnamesprefix/
@@ -14,7 +16,7 @@ Anger prefix som läggs till i alla klassnamn i filen style.css. Standardvärdet
 public string CssClassNamesPrefix { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man placerar CSS i en separat fil och lägger till ett prefix till alla dess CSS-klassnamn.
 
@@ -46,7 +48,5 @@ Assert.True(Regex.Match(outDocContents,
 ### Se även
 
 * class [HtmlFixedSaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../htmlfixedsaveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

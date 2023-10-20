@@ -1,7 +1,9 @@
 ---
 title: FieldCollection.Count
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldCollection свойство. Возвращает количество полей в коллекции.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words для .NET
+description: FieldCollection Count свойство. Возвращает количество полей в коллекции на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fields/fieldcollection/count/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldcollection/count/
 public int Count { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как удалить поля из коллекции полей.
 
@@ -154,7 +156,5 @@ public class FieldVisitor : DocumentVisitor
 ### Смотрите также
 
 * class [FieldCollection](../)
-* пространство имен [Aspose.Words.Fields](../../fieldcollection/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: PageSetup.PaperSize
-second_title: Referencia de API de Aspose.Words para .NET
-description: PageSetup propiedad. Devuelve o establece el tamaño del papel.
+linktitle: PaperSize
+articleTitle: PaperSize
+second_title: Aspose.Words para .NET
+description: PageSetup PaperSize propiedad. Devuelve o establece el tamaño del papel en C#.
 type: docs
 weight: 350
 url: /es/net/aspose.words/pagesetup/papersize/
@@ -14,11 +16,11 @@ Devuelve o establece el tamaño del papel.
 public PaperSize PaperSize { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 Establecer actualizaciones de esta propiedad[`PageWidth`](../pagewidth/) y[`PageHeight`](../pageheight/) value. Establecer este valor enCustom no cambia los valores existentes.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo ajustar el tamaño del papel, la orientación, los márgenes y otras configuraciones para una sección.
 
@@ -129,7 +131,5 @@ doc.Save(ArtifactsDir + "Section.CreateManually.docx");
 
 * enum [PaperSize](../../papersize/)
 * class [PageSetup](../)
-* espacio de nombres [Aspose.Words](../../pagesetup/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

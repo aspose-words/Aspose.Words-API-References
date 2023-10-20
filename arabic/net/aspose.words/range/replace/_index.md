@@ -1,12 +1,14 @@
 ---
 title: Range.Replace
-second_title: Aspose.Words لمراجع .NET API
-description: Range طريقة. يستبدل كافة تكرارات نمط سلسلة الأحرف المحددة بسلسلة بديلة.
+linktitle: Replace
+articleTitle: Replace
+second_title: Aspose.Words لـ .NET
+description: Range Replace طريقة. يستبدل كافة تكرارات نمط سلسلة الأحرف المحددة بسلسلة بديلة في C#.
 type: docs
 weight: 90
 url: /ar/net/aspose.words/range/replace/
 ---
-## Replace(string, string) {#replace}
+## Replace(*string, string*) {#replace}
 
 يستبدل كافة تكرارات نمط سلسلة الأحرف المحددة بسلسلة بديلة.
 
@@ -23,7 +25,7 @@ public int Replace(string pattern, string replacement)
 
 عدد البدائل التي تم إجراؤها.
 
-### ملاحظات
+## ملاحظات
 
 لن يتم استخدام النمط كتعبير عادي. يرجى استخدامه`Replace`إذا كنت بحاجة إلى تعبيرات عادية.
 
@@ -40,7 +42,7 @@ public int Replace(string pattern, string replacement)
 
 طريقة الاستخدام`Replace` للحصول على تخصيص أكثر مرونة.
 
-### أمثلة
+## أمثلة
 
 ```csharp
 Document doc = new Document();
@@ -104,12 +106,12 @@ Assert.AreEqual("Every paragraph that ends with a full stop like this one will b
 ### أنظر أيضا
 
 * class [Range](../)
-* مساحة الاسم [Aspose.Words](../../range/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## Replace(Regex, string) {#replace_2}
+## Replace(*Regex, string*) {#replace_2}
 
 يستبدل كافة تكرارات نمط الأحرف المحدد بواسطة تعبير عادي بسلسلة أخرى.
 
@@ -126,7 +128,7 @@ public int Replace(Regex pattern, string replacement)
 
 عدد البدائل التي تم إجراؤها.
 
-### ملاحظات
+## ملاحظات
 
 يستبدل المطابقة بأكملها التي تم التقاطها بواسطة التعبير العادي.
 
@@ -141,7 +143,7 @@ public int Replace(Regex pattern, string replacement)
 
 طريقة الاستخدام`Replace` للحصول على تخصيص أكثر مرونة.
 
-### أمثلة
+## أمثلة
 
 ```csharp
 Document doc = new Document();
@@ -168,12 +170,12 @@ Assert.AreEqual("I decided to get the curtains in lavender, ideal for the lavend
 ### أنظر أيضا
 
 * class [Range](../)
-* مساحة الاسم [Aspose.Words](../../range/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## Replace(string, string, FindReplaceOptions) {#replace_1}
+## Replace(*string, string, [FindReplaceOptions](../../../aspose.words.replacing/findreplaceoptions/)*) {#replace_1}
 
 يستبدل كافة تكرارات نمط سلسلة الأحرف المحددة بسلسلة بديلة.
 
@@ -191,7 +193,7 @@ public int Replace(string pattern, string replacement, FindReplaceOptions option
 
 عدد البدائل التي تم إجراؤها.
 
-### ملاحظات
+## ملاحظات
 
 لن يتم استخدام النمط كتعبير عادي. يرجى استخدامه`Replace`إذا كنت بحاجة إلى تعبيرات عادية.
 
@@ -205,7 +207,7 @@ public int Replace(string pattern, string replacement, FindReplaceOptions option
 * **&amp; ل** - فاصل الأسطر اليدوي
 * **&amp;&amp;** - &amp; شخصية
 
-### أمثلة
+## أمثلة
 
 ```csharp
 Document doc = new Document();
@@ -315,12 +317,12 @@ Assert.AreEqual("Eggs\a50\a\a" +
 
 * class [FindReplaceOptions](../../../aspose.words.replacing/findreplaceoptions/)
 * class [Range](../)
-* مساحة الاسم [Aspose.Words](../../range/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## Replace(Regex, string, FindReplaceOptions) {#replace_3}
+## Replace(*Regex, string, [FindReplaceOptions](../../../aspose.words.replacing/findreplaceoptions/)*) {#replace_3}
 
 يستبدل كافة تكرارات نمط الأحرف المحدد بواسطة تعبير عادي بسلسلة أخرى.
 
@@ -338,7 +340,7 @@ public int Replace(Regex pattern, string replacement, FindReplaceOptions options
 
 عدد البدائل التي تم إجراؤها.
 
-### ملاحظات
+## ملاحظات
 
 يستبدل المطابقة بأكملها التي تم التقاطها بواسطة التعبير العادي.
 
@@ -352,7 +354,7 @@ public int Replace(Regex pattern, string replacement, FindReplaceOptions options
 * **&amp; ل** - فاصل الأسطر اليدوي
 * **&amp;&amp;** - &amp; شخصية
 
-### أمثلة
+## أمثلة
 
 ```csharp
 Document doc = new Document();
@@ -487,7 +489,5 @@ private static void InsertDocument(Node insertionDestination, Document docToInse
 
 * class [FindReplaceOptions](../../../aspose.words.replacing/findreplaceoptions/)
 * class [Range](../)
-* مساحة الاسم [Aspose.Words](../../range/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

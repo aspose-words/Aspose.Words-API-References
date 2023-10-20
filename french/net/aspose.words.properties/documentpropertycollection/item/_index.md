@@ -1,7 +1,9 @@
 ---
 title: DocumentPropertyCollection.Item
-second_title: Référence de l'API Aspose.Words pour .NET
-description: DocumentPropertyCollection propriété. Renvoie unDocumentProperty objet par le nom de la propriété.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words pour .NET
+description: DocumentPropertyCollection Item propriété. Renvoie unDocumentProperty objet par le nom de la propriété en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.properties/documentpropertycollection/item/
@@ -18,11 +20,11 @@ public virtual DocumentProperty this[string name] { get; }
 | --- | --- |
 | name | Le nom insensible à la casse de la propriété à récupérer. |
 
-### Remarques
+## Remarques
 
 Retour`nul` si une propriété portant le nom spécifié n'est pas trouvée.
 
-### Exemples
+## Exemples
 
 Montre comment créer une propriété de document personnalisée contenant une date et une heure.
 
@@ -38,7 +40,7 @@ Console.WriteLine($"Document authorized on {doc.CustomDocumentProperties["Author
 
 * class [DocumentProperty](../../documentproperty/)
 * class [DocumentPropertyCollection](../)
-* espace de noms [Aspose.Words.Properties](../../documentpropertycollection/)
+* espace de noms [Aspose.Words.Properties](../../../aspose.words.properties/)
 * Assemblée [Aspose.Words](../../../)
 
 ---
@@ -55,7 +57,7 @@ public DocumentProperty this[int index] { get; }
 | --- | --- |
 | index | Indice de base zéro du[`DocumentProperty`](../../documentproperty/) à récupérer. |
 
-### Exemples
+## Exemples
 
 Montre comment utiliser les propriétés de document personnalisées.
 
@@ -81,7 +83,5 @@ foreach (var customDocumentProperty in doc.CustomDocumentProperties)
 
 * class [DocumentProperty](../../documentproperty/)
 * class [DocumentPropertyCollection](../)
-* espace de noms [Aspose.Words.Properties](../../documentpropertycollection/)
+* espace de noms [Aspose.Words.Properties](../../../aspose.words.properties/)
 * Assemblée [Aspose.Words](../../../)
-
-

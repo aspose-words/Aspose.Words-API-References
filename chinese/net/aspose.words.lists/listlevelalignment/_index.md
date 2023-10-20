@@ -1,7 +1,9 @@
 ---
-title: Enum ListLevelAlignment
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Lists.ListLevelAlignment 枚举. 指定列表编号或项目符号的对齐方式
+title: ListLevelAlignment Enum
+linktitle: ListLevelAlignment
+articleTitle: ListLevelAlignment
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Lists.ListLevelAlignment 枚举. 指定列表编号或项目符号的对齐方式 在 C#.
 type: docs
 weight: 3510
 url: /zh/net/aspose.words.lists/listlevelalignment/
@@ -22,11 +24,11 @@ public enum ListLevelAlignment
 | Center | `1` | 列表标签以数字位置为中心。 |
 | Right | `2` | 该列表标签与数字位置右侧对齐。 |
 
-### 评论
+## 评论
 
 用作值[`Alignment`](../listlevel/alignment/)财产。
 
-### 例子
+## 例子
 
 演示如何在使用 DocumentBuilder 时将自定义列表格式应用于段落。
 
@@ -86,5 +88,3 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateCustomList.docx");
 
 * 命名空间 [Aspose.Words.Lists](../../aspose.words.lists/)
 * 部件 [Aspose.Words](../../)
-
-

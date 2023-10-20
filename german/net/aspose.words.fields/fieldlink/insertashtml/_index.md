@@ -1,7 +1,9 @@
 ---
 title: FieldLink.InsertAsHtml
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldLink eigendom. Ruft ab oder legt fest ob das verknüpfte Objekt als Text im HTMLFormat eingefügt werden soll.
+linktitle: InsertAsHtml
+articleTitle: InsertAsHtml
+second_title: Aspose.Words für .NET
+description: FieldLink InsertAsHtml eigendom. Ruft ab oder legt fest ob das verknüpfte Objekt als Text im HTMLFormat eingefügt werden soll in C#.
 type: docs
 weight: 50
 url: /de/net/aspose.words.fields/fieldlink/insertashtml/
@@ -14,7 +16,7 @@ Ruft ab oder legt fest, ob das verknüpfte Objekt als Text im HTML-Format eingef
 public bool InsertAsHtml { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie verschiedene Feldtypen verwenden, um eine Verknüpfung zu anderen Dokumenten im lokalen Dateisystem herzustellen und deren Inhalte anzuzeigen.
 
@@ -197,7 +199,5 @@ public enum InsertLinkedObjectAs
 ### Siehe auch
 
 * class [FieldLink](../)
-* namensraum [Aspose.Words.Fields](../../fieldlink/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

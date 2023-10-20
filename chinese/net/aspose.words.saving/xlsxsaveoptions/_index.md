@@ -1,7 +1,9 @@
 ---
-title: Class XlsxSaveOptions
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Saving.XlsxSaveOptions 班级. 可用于在将文档保存到Xlsx 格式.
+title: XlsxSaveOptions Class
+linktitle: XlsxSaveOptions
+articleTitle: XlsxSaveOptions
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Saving.XlsxSaveOptions 班级. 可用于在将文档保存到Xlsx 格式 在 C#.
 type: docs
 weight: 5710
 url: /zh/net/aspose.words.saving/xlsxsaveoptions/
@@ -29,7 +31,7 @@ public class XlsxSaveOptions : SaveOptions
 | [AllowEmbeddingPostScriptFonts](../../aspose.words.saving/saveoptions/allowembeddingpostscriptfonts/) { get; set; } | 获取或设置一个布尔值，指示在保存的文档中嵌入 TrueType 字体时是否允许使用 PostScript 轮廓嵌入字体。 默认值为`错误的`. |
 | [CompressionLevel](../../aspose.words.saving/xlsxsaveoptions/compressionlevel/) { get; set; } | 指定用于保存文档的压缩级别。 默认值为Normal. |
 | [CustomTimeZoneInfo](../../aspose.words.saving/saveoptions/customtimezoneinfo/) { get; set; } | 获取或设置用于日期/时间字段的自定义本地时区。 |
-| [DefaultTemplate](../../aspose.words.saving/saveoptions/defaulttemplate/) { get; set; } | 获取或设置默认模板的路径（包括文件名）。 此属性的默认值为 **空字符串**（Empty). |
+| [DefaultTemplate](../../aspose.words.saving/saveoptions/defaulttemplate/) { get; set; } | 获取或设置默认模板的路径（包括文件名）。 此属性的默认值为**空字符串**（Empty). |
 | [Dml3DEffectsRenderingMode](../../aspose.words.saving/saveoptions/dml3deffectsrenderingmode/) { get; set; } | 获取或设置一个确定如何渲染 3D 效果的值。 |
 | virtual [DmlEffectsRenderingMode](../../aspose.words.saving/saveoptions/dmleffectsrenderingmode/) { get; set; } | 获取或设置一个值，确定如何呈现 DrawingML 效果。 |
 | [DmlRenderingMode](../../aspose.words.saving/saveoptions/dmlrenderingmode/) { get; set; } | 获取或设置一个值，确定如何呈现 DrawingML 形状。 |
@@ -52,5 +54,3 @@ public class XlsxSaveOptions : SaveOptions
 * class [SaveOptions](../saveoptions/)
 * 命名空间 [Aspose.Words.Saving](../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../)
-
-

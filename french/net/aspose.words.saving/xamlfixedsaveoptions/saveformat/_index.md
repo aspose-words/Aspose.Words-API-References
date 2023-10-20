@@ -1,7 +1,9 @@
 ---
 title: XamlFixedSaveOptions.SaveFormat
-second_title: Référence de l'API Aspose.Words pour .NET
-description: XamlFixedSaveOptions propriété. Spécifie le format dans lequel le document sera enregistré si cet objet doptions de sauvegarde est utilisé. Ne peut êtreXamlFixed .
+linktitle: SaveFormat
+articleTitle: SaveFormat
+second_title: Aspose.Words pour .NET
+description: XamlFixedSaveOptions SaveFormat propriété. Spécifie le format dans lequel le document sera enregistré si cet objet doptions de sauvegarde est utilisé. Ne peut êtreXamlFixed  en C#.
 type: docs
 weight: 50
 url: /fr/net/aspose.words.saving/xamlfixedsaveoptions/saveformat/
@@ -14,7 +16,7 @@ Spécifie le format dans lequel le document sera enregistré si cet objet d'opti
 public override SaveFormat SaveFormat { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment imprimer les URI des ressources liées créées lors de la conversion d'un document en .xaml de forme fixe.
 
@@ -78,7 +80,5 @@ private class ResourceUriPrinter : IResourceSavingCallback
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
 * class [XamlFixedSaveOptions](../)
-* espace de noms [Aspose.Words.Saving](../../xamlfixedsaveoptions/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

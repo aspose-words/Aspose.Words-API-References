@@ -1,7 +1,9 @@
 ---
-title: Enum AxisTimeUnit
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Drawing.Charts.AxisTimeUnit 枚举. 指定轴的时间单位
+title: AxisTimeUnit Enum
+linktitle: AxisTimeUnit
+articleTitle: AxisTimeUnit
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Drawing.Charts.AxisTimeUnit 枚举. 指定轴的时间单位 在 C#.
 type: docs
 weight: 600
 url: /zh/net/aspose.words.drawing.charts/axistimeunit/
@@ -23,7 +25,7 @@ public enum AxisTimeUnit
 | Months | `2` | 指定图表数据应以月为单位显示。 |
 | Years | `3` | 指定图表数据应以年为单位显示。 |
 
-### 例子
+## 例子
 
 演示如何插入带有日期/时间值的图表。
 
@@ -78,5 +80,3 @@ doc.Save(ArtifactsDir + "Charts.DateTimeValues.docx");
 
 * 命名空间 [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * 部件 [Aspose.Words](../../)
-
-

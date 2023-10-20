@@ -1,7 +1,9 @@
 ---
 title: WarningInfo.Source
-second_title: Aspose.Words for .NET API 参考
-description: WarningInfo 财产. 返回警告的来源
+linktitle: Source
+articleTitle: Source
+second_title: 用于 .NET 的 Aspose.Words
+description: WarningInfo Source 财产. 返回警告的来源 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words/warninginfo/source/
@@ -18,7 +20,5 @@ public WarningSource Source { get; }
 
 * enum [WarningSource](../../warningsource/)
 * class [WarningInfo](../)
-* 命名空间 [Aspose.Words](../../warninginfo/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

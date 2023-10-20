@@ -1,7 +1,9 @@
 ---
 title: CleanupOptions.UnusedStyles
-second_title: Справочник по API Aspose.Words для .NET
-description: CleanupOptions свойство. Указывает следует ли удалять неиспользуемые стили из документа. Значение по умолчаниюистинный .
+linktitle: UnusedStyles
+articleTitle: UnusedStyles
+second_title: Aspose.Words для .NET
+description: CleanupOptions UnusedStyles свойство. Указывает следует ли удалять неиспользуемые стили из документа. Значение по умолчаниюистинный  на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words/cleanupoptions/unusedstyles/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/cleanupoptions/unusedstyles/
 public bool UnusedStyles { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как удалить из документа все неиспользуемые пользовательские стили.
 
@@ -63,7 +65,5 @@ Assert.AreEqual(2, doc.Styles.Count);
 ### Смотрите также
 
 * class [CleanupOptions](../)
-* пространство имен [Aspose.Words](../../cleanupoptions/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

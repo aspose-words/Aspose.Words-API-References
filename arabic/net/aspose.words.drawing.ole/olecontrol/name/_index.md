@@ -1,7 +1,9 @@
 ---
 title: OleControl.Name
-second_title: Aspose.Words لمراجع .NET API
-description: OleControl ملكية. الحصول على اسم عنصر تحكم ActiveX أو تعيينه.
+linktitle: Name
+articleTitle: Name
+second_title: Aspose.Words لـ .NET
+description: OleControl Name ملكية. الحصول على اسم عنصر تحكم ActiveX أو تعيينه في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.drawing.ole/olecontrol/name/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing.ole/olecontrol/name/
 public string Name { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التحقق من خصائص عنصر تحكم ActiveX.
 
@@ -44,7 +46,5 @@ if (oleControl.IsForms2OleControl)
 ### أنظر أيضا
 
 * class [OleControl](../)
-* مساحة الاسم [Aspose.Words.Drawing.Ole](../../olecontrol/)
+* مساحة الاسم [Aspose.Words.Drawing.Ole](../../../aspose.words.drawing.ole/)
 * المجسم [Aspose.Words](../../../)
-
-

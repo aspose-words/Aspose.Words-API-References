@@ -1,7 +1,9 @@
 ---
-title: Interface IReplacingCallback
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Replacing.IReplacingCallback واجهه المستخدم. قم بتنفيذ هذه الواجهة إذا كنت تريد أن يكون لديك طريقتك المخصصة التي يتم استدعاؤها أثناء عملية البحث والاستبدال.
+title: IReplacingCallback Interface
+linktitle: IReplacingCallback
+articleTitle: IReplacingCallback
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Replacing.IReplacingCallback واجهه المستخدم. قم بتنفيذ هذه الواجهة إذا كنت تريد أن يكون لديك طريقتك المخصصة التي يتم استدعاؤها أثناء عملية البحث والاستبدال في C#.
 type: docs
 weight: 4630
 url: /ar/net/aspose.words.replacing/ireplacingcallback/
@@ -18,9 +20,9 @@ public interface IReplacingCallback
 
 | اسم | وصف |
 | --- | --- |
-| [Replacing](../../aspose.words.replacing/ireplacingcallback/replacing/)(ReplacingArgs) | طريقة يحددها المستخدم يتم استدعاؤها أثناء عملية الاستبدال لكل تطابق تم العثور عليه قبل إجراء الاستبدال مباشرةً. |
+| [Replacing](../../aspose.words.replacing/ireplacingcallback/replacing/)(*[ReplacingArgs](../replacingargs/)*) | طريقة يحددها المستخدم يتم استدعاؤها أثناء عملية الاستبدال لكل تطابق تم العثور عليه قبل إجراء الاستبدال مباشرةً. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استبدال كافة تكرارات نمط التعبير العادي بسلسلة أخرى، مع تتبع كل هذه الاستبدالات.
 
@@ -196,5 +198,3 @@ private static void InsertDocument(Node insertionDestination, Document docToInse
 
 * مساحة الاسم [Aspose.Words.Replacing](../../aspose.words.replacing/)
 * المجسم [Aspose.Words](../../)
-
-

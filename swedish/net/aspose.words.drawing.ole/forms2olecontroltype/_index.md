@@ -1,7 +1,9 @@
 ---
-title: Enum Forms2OleControlType
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Drawing.Ole.Forms2OleControlType uppräkning. Räknar upp typer av Forms 2.0kontroller.
+title: Forms2OleControlType Enum
+linktitle: Forms2OleControlType
+articleTitle: Forms2OleControlType
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Drawing.Ole.Forms2OleControlType uppräkning. Räknar upp typer av Forms 2.0kontroller i C#.
 type: docs
 weight: 1130
 url: /sv/net/aspose.words.drawing.ole/forms2olecontroltype/
@@ -38,5 +40,3 @@ public enum Forms2OleControlType
 
 * namnutrymme [Aspose.Words.Drawing.Ole](../../aspose.words.drawing.ole/)
 * hopsättning [Aspose.Words](../../)
-
-

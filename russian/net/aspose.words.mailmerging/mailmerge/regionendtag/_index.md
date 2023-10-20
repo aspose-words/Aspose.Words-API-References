@@ -1,7 +1,9 @@
 ---
 title: MailMerge.RegionEndTag
-second_title: Справочник по API Aspose.Words для .NET
-description: MailMerge свойство. Получает или задает закрывающий тег региона слияния почты.
+linktitle: RegionEndTag
+articleTitle: RegionEndTag
+second_title: Aspose.Words для .NET
+description: MailMerge RegionEndTag свойство. Получает или задает закрывающий тег региона слияния почты на С#.
 type: docs
 weight: 90
 url: /ru/net/aspose.words.mailmerging/mailmerge/regionendtag/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.mailmerging/mailmerge/regionendtag/
 public string RegionEndTag { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как создавать, составлять список и читать регионы слияния почты.
 
@@ -69,7 +71,5 @@ Assert.AreEqual("Column2", mergeFieldNames[0]);
 ### Смотрите также
 
 * class [MailMerge](../)
-* пространство имен [Aspose.Words.MailMerging](../../mailmerge/)
+* пространство имен [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * сборка [Aspose.Words](../../../)
-
-

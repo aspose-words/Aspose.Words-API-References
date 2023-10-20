@@ -1,7 +1,9 @@
 ---
 title: Font.LocaleIdFarEast
-second_title: Aspose.Words für .NET-API-Referenz
-description: Font eigendom. Ruft die Gebietsschemakennung Sprache der formatierten asiatischen Zeichen ab oder legt diese fest.
+linktitle: LocaleIdFarEast
+articleTitle: LocaleIdFarEast
+second_title: Aspose.Words für .NET
+description: Font LocaleIdFarEast eigendom. Ruft die Gebietsschemakennung Sprache der formatierten asiatischen Zeichen ab oder legt diese fest in C#.
 type: docs
 weight: 220
 url: /de/net/aspose.words/font/localeidfareast/
@@ -14,11 +16,11 @@ Ruft die Gebietsschemakennung (Sprache) der formatierten asiatischen Zeichen ab 
 public int LocaleIdFarEast { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Die Liste der Gebietsschema-IDs finden Sie unter https://msdn.microsoft.com/en-us/library/cc233965.aspx
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man Text in einer fernöstlichen Sprache einfügt und formatiert.
 
@@ -49,7 +51,5 @@ doc.Save(ArtifactsDir + "Font.FarEast.docx");
 ### Siehe auch
 
 * class [Font](../)
-* namensraum [Aspose.Words](../../font/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

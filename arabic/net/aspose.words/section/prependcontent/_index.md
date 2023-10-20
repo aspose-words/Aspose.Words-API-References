@@ -1,9 +1,11 @@
 ---
 title: Section.PrependContent
-second_title: Aspose.Words لمراجع .NET API
-description: Section طريقة. إدراج نسخة من محتوى القسم المصدر في بداية هذا القسم.
+linktitle: PrependContent
+articleTitle: PrependContent
+second_title: Aspose.Words لـ .NET
+description: Section PrependContent طريقة. إدراج نسخة من محتوى القسم المصدر في بداية هذا القسم في C#.
 type: docs
-weight: 160
+weight: 140
 url: /ar/net/aspose.words/section/prependcontent/
 ---
 ## Section.PrependContent method
@@ -18,7 +20,7 @@ public void PrependContent(Section sourceSection)
 | --- | --- | --- |
 | sourceSection | Section | القسم المراد نسخ المحتوى منه. |
 
-### ملاحظات
+## ملاحظات
 
 محتوى فقط[`Body`](../body/) تم نسخ القسم المصدر، ولم يتم نسخ إعداد الصفحة، الرؤوس والتذييلات.
 
@@ -26,7 +28,7 @@ public void PrependContent(Section sourceSection)
 
 لم يتم إنشاء أي قسم جديد في المستند الوجهة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إلحاق محتويات قسم بقسم آخر.
 
@@ -62,7 +64,5 @@ Assert.AreEqual("Section 1" + ControlChar.ParagraphBreak +
 ### أنظر أيضا
 
 * class [Section](../)
-* مساحة الاسم [Aspose.Words](../../section/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

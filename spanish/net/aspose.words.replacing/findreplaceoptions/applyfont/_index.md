@@ -1,7 +1,9 @@
 ---
 title: FindReplaceOptions.ApplyFont
-second_title: Referencia de API de Aspose.Words para .NET
-description: FindReplaceOptions propiedad. Formato de texto aplicado al contenido nuevo.
+linktitle: ApplyFont
+articleTitle: ApplyFont
+second_title: Aspose.Words para .NET
+description: FindReplaceOptions ApplyFont propiedad. Formato de texto aplicado al contenido nuevo en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words.replacing/findreplaceoptions/applyfont/
@@ -14,7 +16,7 @@ Formato de texto aplicado al contenido nuevo.
 public Font ApplyFont { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo aplicar una fuente diferente a contenido nuevo a través de FindReplaceOptions.
 
@@ -88,7 +90,5 @@ private class NumberHexer : IReplacingCallback
 
 * class [Font](../../../aspose.words/font/)
 * class [FindReplaceOptions](../)
-* espacio de nombres [Aspose.Words.Replacing](../../findreplaceoptions/)
+* espacio de nombres [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,9 +1,11 @@
 ---
 title: Paragraph.JoinRunsWithSameFormatting
-second_title: Aspose.Words for .NET API 参考
-description: Paragraph 方法. 连接段落中具有相同格式的运行
+linktitle: JoinRunsWithSameFormatting
+articleTitle: JoinRunsWithSameFormatting
+second_title: 用于 .NET 的 Aspose.Words
+description: Paragraph JoinRunsWithSameFormatting 方法. 连接段落中具有相同格式的运行 在 C#.
 type: docs
-weight: 300
+weight: 280
 url: /zh/net/aspose.words/paragraph/joinrunswithsameformatting/
 ---
 ## Paragraph.JoinRunsWithSameFormatting method
@@ -16,9 +18,9 @@ public int JoinRunsWithSameFormatting()
 
 ### 返回值
 
-执行的连接数。什么时候 **氮**相邻的运行被连接起来，它们算作 **N-1**加入。
+执行的连接数。什么时候**氮**相邻的运行被连接起来，它们算作**N-1**加入。
 
-### 例子
+## 例子
 
 展示如何通过合并多余的段落来简化段落。
 
@@ -59,7 +61,5 @@ Assert.AreEqual("Run 4. ", para.Runs[1].Text);
 ### 也可以看看
 
 * class [Paragraph](../)
-* 命名空间 [Aspose.Words](../../paragraph/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

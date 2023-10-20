@@ -1,7 +1,9 @@
 ---
 title: FramesetCollection.GetEnumerator
-second_title: Справочник по API Aspose.Words для .NET
-description: FramesetCollection метод. Возвращает перечислитель который перебирает коллекцию.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words для .NET
+description: FramesetCollection GetEnumerator метод. Возвращает перечислитель который перебирает коллекцию на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.framesets/framesetcollection/getenumerator/
@@ -18,7 +20,5 @@ public IEnumerator<Frameset> GetEnumerator()
 
 * class [Frameset](../../frameset/)
 * class [FramesetCollection](../)
-* пространство имен [Aspose.Words.Framesets](../../framesetcollection/)
+* пространство имен [Aspose.Words.Framesets](../../../aspose.words.framesets/)
 * сборка [Aspose.Words](../../../)
-
-

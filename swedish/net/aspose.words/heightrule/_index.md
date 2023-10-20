@@ -1,7 +1,9 @@
 ---
-title: Enum HeightRule
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.HeightRule uppräkning. Anger regeln för att bestämma höjden på ett objekt.
+title: HeightRule Enum
+linktitle: HeightRule
+articleTitle: HeightRule
+second_title: Aspose.Words för .NET
+description: Aspose.Words.HeightRule uppräkning. Anger regeln för att bestämma höjden på ett objekt i C#.
 type: docs
 weight: 3130
 url: /sv/net/aspose.words/heightrule/
@@ -22,7 +24,7 @@ public enum HeightRule
 | Exactly | `1` | Höjden anges exakt i punkter. Observera att om texten inte kan passa inuti objektet med denna höjd, kommer den att se trunkerad ut. |
 | Auto | `2` | Höjden växer automatiskt för att rymma all text inuti ett objekt. |
 
-### Exempel
+## Exempel
 
 Visar hur man formaterar rader med en dokumentbyggare.
 
@@ -60,5 +62,3 @@ doc.Save(ArtifactsDir + "DocumentBuilder.SetRowFormatting.docx");
 
 * namnutrymme [Aspose.Words](../../aspose.words/)
 * hopsättning [Aspose.Words](../../)
-
-

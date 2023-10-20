@@ -1,7 +1,9 @@
 ---
 title: GraphicsQualityOptions.CompositingMode
-second_title: Aspose.Words لمراجع .NET API
-description: GraphicsQualityOptions ملكية. الحصول على أو تعيين قيمة تحدد كيفية رسم الصور المركبة على هذه الرسومات.
+linktitle: CompositingMode
+articleTitle: CompositingMode
+second_title: Aspose.Words لـ .NET
+description: GraphicsQualityOptions CompositingMode ملكية. الحصول على أو تعيين قيمة تحدد كيفية رسم الصور المركبة على هذه الرسومات في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.saving/graphicsqualityoptions/compositingmode/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.saving/graphicsqualityoptions/compositingmode/
 public CompositingMode? CompositingMode { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين خيارات جودة العرض أثناء تحويل المستندات إلى تنسيقات الصور.
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "ImageSaveOptions.GraphicsQuality.jpg", saveOptions);
 ### أنظر أيضا
 
 * class [GraphicsQualityOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../graphicsqualityoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

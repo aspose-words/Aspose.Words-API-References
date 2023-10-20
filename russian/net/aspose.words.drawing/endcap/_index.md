@@ -1,7 +1,9 @@
 ---
-title: Enum EndCap
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Drawing.EndCap перечисление. Определяет стиль окончания линии.
+title: EndCap Enum
+linktitle: EndCap
+articleTitle: EndCap
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Drawing.EndCap перечисление. Определяет стиль окончания линии на С#.
 type: docs
 weight: 940
 url: /ru/net/aspose.words.drawing/endcap/
@@ -23,7 +25,7 @@ public enum EndCap
 | Flat | `2` | Линия заканчивается в конечной точке. |
 | Default | `2` | Значение по умолчанию:Flat . |
 
-### Примеры
+## Примеры
 
 Показывает создание разнообразных фигур.
 
@@ -100,5 +102,3 @@ doc.Save(ArtifactsDir + "Drawing.VariousShapes.docx");
 * property [EndCap](../stroke/endcap/)
 * пространство имен [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../)
-
-

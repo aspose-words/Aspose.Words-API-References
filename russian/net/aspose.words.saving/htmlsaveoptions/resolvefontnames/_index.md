@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ResolveFontNames
-second_title: Справочник по API Aspose.Words для .NET
-description: HtmlSaveOptions свойство. Указывает разрешаются ли и заменяются ли имена семейств шрифтов используемые в документе в соответствии с .FontSettings при записи в форматы на основе HTML.
+linktitle: ResolveFontNames
+articleTitle: ResolveFontNames
+second_title: Aspose.Words для .NET
+description: HtmlSaveOptions ResolveFontNames свойство. Указывает разрешаются ли и заменяются ли имена семейств шрифтов используемые в документе в соответствии с .FontSettings при записи в форматы на основе HTML на С#.
 type: docs
 weight: 410
 url: /ru/net/aspose.words.saving/htmlsaveoptions/resolvefontnames/
@@ -14,13 +16,13 @@ url: /ru/net/aspose.words.saving/htmlsaveoptions/resolvefontnames/
 public bool ResolveFontNames { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 По умолчанию для этой опции установлено значение`ЛОЖЬ` а имена семейств шрифтов записываются в HTML как указано в исходных документах. То есть,[`FontSettings`](../../../aspose.words/document/fontsettings/) игнорируются, и никакое разрешение или замена имен семейств шрифтов не выполняется.
 
 Если для этой опции установлено значение`истинный` , Aspose.Words использует[`FontSettings`](../../../aspose.words/document/fontsettings/) разрешить каждое имя семейства шрифтов, указанное в исходном документе, в имя доступного семейства шрифтов, выполняя при необходимости замену шрифта .
 
-### Примеры
+## Примеры
 
 Показывает, как разрешить все имена шрифтов перед их записью в HTML.
 
@@ -64,7 +66,5 @@ Assert.True(resolveFontNames
 ### Смотрите также
 
 * class [HtmlSaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../htmlsaveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

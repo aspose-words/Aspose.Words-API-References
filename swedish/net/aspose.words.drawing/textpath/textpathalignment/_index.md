@@ -1,7 +1,9 @@
 ---
 title: TextPath.TextPathAlignment
-second_title: Aspose.Words för .NET API Referens
-description: TextPath fast egendom. Definierar justeringen av text.
+linktitle: TextPathAlignment
+articleTitle: TextPathAlignment
+second_title: Aspose.Words för .NET
+description: TextPath TextPathAlignment fast egendom. Definierar justeringen av text i C#.
 type: docs
 weight: 170
 url: /sv/net/aspose.words.drawing/textpath/textpathalignment/
@@ -14,11 +16,11 @@ Definierar justeringen av text.
 public TextPathAlignment TextPathAlignment { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Standardvärdet ärCenter.
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med WordArt.
 
@@ -122,7 +124,5 @@ private static Shape AppendWordArt(Document doc, string text, string textFontFam
 
 * enum [TextPathAlignment](../../textpathalignment/)
 * class [TextPath](../)
-* namnutrymme [Aspose.Words.Drawing](../../textpath/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

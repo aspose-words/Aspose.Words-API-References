@@ -1,26 +1,28 @@
 ---
 title: Footnote.ReferenceMark
-second_title: Aspose.Words per .NET API Reference
-description: Footnote proprietà. Ottiene/imposta un segno di riferimento personalizzato da utilizzare per questa nota a piè di pagina. Il valore predefinito è stringa vuota Empty  il che significa che vengono utilizzate le note a piè di pagina con numerazione automatica.
+linktitle: ReferenceMark
+articleTitle: ReferenceMark
+second_title: Aspose.Words per .NET
+description: Footnote ReferenceMark proprietà. Ottiene/imposta un segno di riferimento personalizzato da utilizzare per questa nota a piè di pagina. Il valore predefinito èstringa vuota Empty  il che significa che vengono utilizzate le note a piè di pagina con numerazione automatica in C#.
 type: docs
 weight: 50
 url: /it/net/aspose.words.notes/footnote/referencemark/
 ---
 ## Footnote.ReferenceMark property
 
-Ottiene/imposta un segno di riferimento personalizzato da utilizzare per questa nota a piè di pagina. Il valore predefinito è **stringa vuota** (Empty ), il che significa che vengono utilizzate le note a piè di pagina con numerazione automatica.
+Ottiene/imposta un segno di riferimento personalizzato da utilizzare per questa nota a piè di pagina. Il valore predefinito è**stringa vuota** (Empty ), il che significa che vengono utilizzate le note a piè di pagina con numerazione automatica.
 
 ```csharp
 public string ReferenceMark { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
-Se questa proprietà è impostata su **stringa vuota** (Empty ) O`nullo` , Poi[`IsAuto`](../isauto/) la proprietà verrà automaticamente impostata su`VERO` , se impostato su qualsiasi altra cosa allora[`IsAuto`](../isauto/) sarà impostato su`falso` .
+Se questa proprietà è impostata su**stringa vuota** (Empty ) O`nullo` , Poi[`IsAuto`](../isauto/) la proprietà verrà automaticamente impostata su`VERO` , se impostato su qualsiasi altra cosa allora[`IsAuto`](../isauto/) sarà impostato su`falso` .
 
 Il formato RTF può memorizzare solo 1 simbolo come segno di riferimento personalizzato, quindi al momento dell'esportazione verrà scritto solo il primo simbolo, gli altri verranno scartati.
 
-### Esempi
+## Esempi
 
 Mostra come inserire e personalizzare le note a piè di pagina.
 
@@ -68,7 +70,5 @@ doc.Save(ArtifactsDir + "InlineStory.AddFootnote.docx");
 ### Guarda anche
 
 * class [Footnote](../)
-* spazio dei nomi [Aspose.Words.Notes](../../footnote/)
+* spazio dei nomi [Aspose.Words.Notes](../../../aspose.words.notes/)
 * assemblea [Aspose.Words](../../../)
-
-

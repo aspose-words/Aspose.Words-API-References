@@ -1,7 +1,9 @@
 ---
 title: FieldIncludePicture.IsLinked
-second_title: Aspose.Words per .NET API Reference
-description: FieldIncludePicture proprietà. Ottiene o imposta se ridurre la dimensione del file non memorizzando i dati grafici con il documento.
+linktitle: IsLinked
+articleTitle: IsLinked
+second_title: Aspose.Words per .NET
+description: FieldIncludePicture IsLinked proprietà. Ottiene o imposta se ridurre la dimensione del file non memorizzando i dati grafici con il documento in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words.fields/fieldincludepicture/islinked/
@@ -14,7 +16,7 @@ Ottiene o imposta se ridurre la dimensione del file non memorizzando i dati graf
 public bool IsLinked { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come inserire immagini utilizzando i campi IMPORT e INCLUDEPICTURE.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "Field.IMPORT.INCLUDEPICTURE.docx");
 ### Guarda anche
 
 * class [FieldIncludePicture](../)
-* spazio dei nomi [Aspose.Words.Fields](../../fieldincludepicture/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

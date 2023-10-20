@@ -1,7 +1,9 @@
 ---
 title: Document.Sections
-second_title: Справочник по API Aspose.Words для .NET
-description: Document свойство. Возвращает коллекцию представляющую все разделы документа.
+linktitle: Sections
+articleTitle: Sections
+second_title: Aspose.Words для .NET
+description: Document Sections свойство. Возвращает коллекцию представляющую все разделы документа на С#.
 type: docs
 weight: 370
 url: /ru/net/aspose.words/document/sections/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/document/sections/
 public SectionCollection Sections { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как добавлять и удалять разделы в документе.
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "PageSetup.SetSectionStart.docx");
 
 * class [SectionCollection](../../sectioncollection/)
 * class [Document](../)
-* пространство имен [Aspose.Words](../../document/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

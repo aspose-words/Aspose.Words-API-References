@@ -1,7 +1,9 @@
 ---
 title: ControlChar.FieldSeparatorChar
-second_title: Aspose.Words for .NET API 参考
-description: ControlChar 场地. 字段分隔符将字段代码与字段值分隔开某些字段可选值字符20.
+linktitle: FieldSeparatorChar
+articleTitle: FieldSeparatorChar
+second_title: 用于 .NET 的 Aspose.Words
+description: ControlChar FieldSeparatorChar 场地. 字段分隔符将字段代码与字段值分隔开某些字段可选值字符20 在 C#.
 type: docs
 weight: 90
 url: /zh/net/aspose.words/controlchar/fieldseparatorchar/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/controlchar/fieldseparatorchar/
 public const char FieldSeparatorChar;
 ```
 
-### 例子
+## 例子
 
 演示如何向文档添加各种控制字符。
 
@@ -86,7 +88,5 @@ Assert.AreEqual(Convert.ToChar(ControlChar.ColumnBreak), ControlChar.ColumnBreak
 ### 也可以看看
 
 * class [ControlChar](../)
-* 命名空间 [Aspose.Words](../../controlchar/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

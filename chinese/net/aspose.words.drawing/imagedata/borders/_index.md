@@ -1,7 +1,9 @@
 ---
 title: ImageData.Borders
-second_title: Aspose.Words for .NET API 参考
-description: ImageData 财产. 获取图像边框的集合边框仅对内嵌图像有效
+linktitle: Borders
+articleTitle: Borders
+second_title: 用于 .NET 的 Aspose.Words
+description: ImageData Borders 财产. 获取图像边框的集合边框仅对内嵌图像有效 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.drawing/imagedata/borders/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.drawing/imagedata/borders/
 public BorderCollection Borders { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何编辑形状的图像数据。
 
@@ -78,7 +80,5 @@ dstDoc.Save(ArtifactsDir + "Drawing.ImageData.docx");
 
 * class [BorderCollection](../../../aspose.words/bordercollection/)
 * class [ImageData](../)
-* 命名空间 [Aspose.Words.Drawing](../../imagedata/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

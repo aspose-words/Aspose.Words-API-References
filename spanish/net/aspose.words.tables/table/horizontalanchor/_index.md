@@ -1,7 +1,9 @@
 ---
 title: Table.HorizontalAnchor
-second_title: Referencia de API de Aspose.Words para .NET
-description: Table propiedad. Obtiene el objeto base a partir del cual se debe calcular la posición horizontal de la tabla flotante. El valor predeterminado esColumn .
+linktitle: HorizontalAnchor
+articleTitle: HorizontalAnchor
+second_title: Aspose.Words para .NET
+description: Table HorizontalAnchor propiedad. Obtiene el objeto base a partir del cual se debe calcular la posición horizontal de la tabla flotante. El valor predeterminado esColumn  en C#.
 type: docs
 weight: 170
 url: /es/net/aspose.words.tables/table/horizontalanchor/
@@ -14,7 +16,7 @@ Obtiene el objeto base a partir del cual se debe calcular la posición horizonta
 public RelativeHorizontalPosition HorizontalAnchor { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo trabajar con propiedades de tablas flotantes.
 
@@ -43,7 +45,5 @@ if (table.TextWrapping == TextWrapping.Around)
 
 * enum [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/)
 * class [Table](../)
-* espacio de nombres [Aspose.Words.Tables](../../table/)
+* espacio de nombres [Aspose.Words.Tables](../../../aspose.words.tables/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ConditionalStyleCollection.GetEnumerator
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ConditionalStyleCollection méthode. Renvoie un objet énumérateur qui peut être utilisé pour parcourir tous les styles conditionnels de la collection.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words pour .NET
+description: ConditionalStyleCollection GetEnumerator méthode. Renvoie un objet énumérateur qui peut être utilisé pour parcourir tous les styles conditionnels de la collection en C#.
 type: docs
 weight: 160
 url: /fr/net/aspose.words/conditionalstylecollection/getenumerator/
@@ -14,7 +16,7 @@ Renvoie un objet énumérateur qui peut être utilisé pour parcourir tous les s
 public IEnumerator<ConditionalStyle> GetEnumerator()
 ```
 
-### Exemples
+## Exemples
 
 Montre comment travailler avec certains styles de zones d'un tableau.
 
@@ -85,7 +87,5 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 
 * class [ConditionalStyle](../../conditionalstyle/)
 * class [ConditionalStyleCollection](../)
-* espace de noms [Aspose.Words](../../conditionalstylecollection/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

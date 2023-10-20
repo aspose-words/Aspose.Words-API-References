@@ -1,7 +1,9 @@
 ---
 title: Bookmark.Text
-second_title: Aspose.Words per .NET API Reference
-description: Bookmark proprietà. Ottiene o imposta il testo racchiuso nel segnalibro.
+linktitle: Text
+articleTitle: Text
+second_title: Aspose.Words per .NET
+description: Bookmark Text proprietà. Ottiene o imposta il testo racchiuso nel segnalibro in C#.
 type: docs
 weight: 70
 url: /it/net/aspose.words/bookmark/text/
@@ -14,7 +16,7 @@ Ottiene o imposta il testo racchiuso nel segnalibro.
 public string Text { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come aggiungere segnalibri e aggiornarne i contenuti.
 
@@ -103,7 +105,5 @@ public class BookmarkInfoPrinter : DocumentVisitor
 ### Guarda anche
 
 * class [Bookmark](../)
-* spazio dei nomi [Aspose.Words](../../bookmark/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

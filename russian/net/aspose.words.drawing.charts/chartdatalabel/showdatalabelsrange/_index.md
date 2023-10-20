@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabel.ShowDataLabelsRange
-second_title: Справочник по API Aspose.Words для .NET
-description: ChartDataLabel свойство. Позволяет указать будут ли значения из диапазона меток данных отображаться в метках данных. Значение по умолчаниюЛОЖЬ .
+linktitle: ShowDataLabelsRange
+articleTitle: ShowDataLabelsRange
+second_title: Aspose.Words для .NET
+description: ChartDataLabel ShowDataLabelsRange свойство. Позволяет указать будут ли значения из диапазона меток данных отображаться в метках данных. Значение по умолчаниюЛОЖЬ  на С#.
 type: docs
 weight: 100
 url: /ru/net/aspose.words.drawing.charts/chartdatalabel/showdatalabelsrange/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.drawing.charts/chartdatalabel/showdatalabelsrange/
 public bool ShowDataLabelsRange { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как применять метки к точкам данных на линейной диаграмме.
 
@@ -92,7 +94,5 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
 ### Смотрите также
 
 * class [ChartDataLabel](../)
-* пространство имен [Aspose.Words.Drawing.Charts](../../chartdatalabel/)
+* пространство имен [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../../)
-
-

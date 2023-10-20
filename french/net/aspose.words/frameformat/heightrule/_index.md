@@ -1,7 +1,9 @@
 ---
 title: FrameFormat.HeightRule
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FrameFormat propriété. Obtient la règle pour déterminer la hauteur du cadre spécifié.
+linktitle: HeightRule
+articleTitle: HeightRule
+second_title: Aspose.Words pour .NET
+description: FrameFormat HeightRule propriété. Obtient la règle pour déterminer la hauteur du cadre spécifié en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words/frameformat/heightrule/
@@ -14,7 +16,7 @@ Obtient la règle pour déterminer la hauteur du cadre spécifié.
 public HeightRule HeightRule { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment obtenir des informations sur les propriétés de mise en forme des paragraphes qui sont des cadres.
 
@@ -40,7 +42,5 @@ Assert.AreEqual(0.0d, paragraphFrame.FrameFormat.VerticalDistanceFromText);
 
 * enum [HeightRule](../../heightrule/)
 * class [FrameFormat](../)
-* espace de noms [Aspose.Words](../../frameformat/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

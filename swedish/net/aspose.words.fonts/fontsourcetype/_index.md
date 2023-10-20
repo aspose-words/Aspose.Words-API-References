@@ -1,7 +1,9 @@
 ---
-title: Enum FontSourceType
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Fonts.FontSourceType uppräkning. Anger typen av en teckensnittskälla.
+title: FontSourceType Enum
+linktitle: FontSourceType
+articleTitle: FontSourceType
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Fonts.FontSourceType uppräkning. Anger typen av en teckensnittskälla i C#.
 type: docs
 weight: 2990
 url: /sv/net/aspose.words.fonts/fontsourcetype/
@@ -24,7 +26,7 @@ public enum FontSourceType
 | SystemFonts | `3` | A[`SystemFontSource`](../systemfontsource/) objekt som representerar alla teckensnitt som är installerade i systemet. |
 | FontStream | `4` | A[`StreamFontSource`](../streamfontsource/) objekt som representerar en ström med teckensnittsdata. |
 
-### Exempel
+## Exempel
 
 Visar hur man använder en teckensnittsfil i det lokala filsystemet som en teckensnittskälla.
 
@@ -44,5 +46,3 @@ Assert.AreEqual(0, fileFontSource.Priority);
 
 * namnutrymme [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * hopsättning [Aspose.Words](../../)
-
-

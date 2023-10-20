@@ -1,12 +1,14 @@
 ---
 title: FontSettings.SetFontsSources
-second_title: Справочник по API Aspose.Words для .NET
-description: FontSettings метод. Устанавливает источники в которых Aspose.Words ищет шрифты TrueType при рендеринге документов или встраивании шрифтов.
+linktitle: SetFontsSources
+articleTitle: SetFontsSources
+second_title: Aspose.Words для .NET
+description: FontSettings SetFontsSources метод. Устанавливает источники в которых Aspose.Words ищет шрифты TrueType при рендеринге документов или встраивании шрифтов на С#.
 type: docs
 weight: 100
 url: /ru/net/aspose.words.fonts/fontsettings/setfontssources/
 ---
-## SetFontsSources(FontSourceBase[]) {#setfontssources}
+## SetFontsSources(*FontSourceBase[]*) {#setfontssources}
 
 Устанавливает источники, в которых Aspose.Words ищет шрифты TrueType при рендеринге документов или встраивании шрифтов.
 
@@ -18,13 +20,13 @@ public void SetFontsSources(FontSourceBase[] sources)
 | --- | --- | --- |
 | sources | FontSourceBase[] | Массив источников, содержащих шрифты TrueType. |
 
-### Примечания
+## Примечания
 
 По умолчанию Aspose.Words ищет шрифты, установленные в системе.
 
 Установка этого свойства сбрасывает кеш всех ранее загруженных шрифтов.
 
-### Примеры
+## Примеры
 
 Показывает, как добавить источник шрифта к существующим источникам шрифтов.
 
@@ -74,12 +76,12 @@ FontSettings.DefaultInstance.SetFontsSources(originalFontSources);
 
 * class [FontSourceBase](../../fontsourcebase/)
 * class [FontSettings](../)
-* пространство имен [Aspose.Words.Fonts](../../fontsettings/)
+* пространство имен [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## SetFontsSources(FontSourceBase[], Stream) {#setfontssources_1}
+## SetFontsSources(*FontSourceBase[], Stream*) {#setfontssources_1}
 
 Устанавливает источники, в которых Aspose.Words ищет шрифты TrueType и дополнительно загружает ранее сохраненный кеш поиска шрифтов.
 
@@ -92,7 +94,7 @@ public void SetFontsSources(FontSourceBase[] sources, Stream cacheInputStream)
 | sources | FontSourceBase[] | Массив источников, содержащих шрифты TrueType. |
 | cacheInputStream | Stream | Входной поток с сохраненным кешем поиска шрифтов. |
 
-### Примечания
+## Примечания
 
 Загрузка ранее сохраненного кэша поиска шрифтов ускорит процесс инициализации кэша шрифтов. Это особенно полезно, когда доступ к источникам шрифтов затруднен (например, когда шрифты загружаются через сеть).
 
@@ -100,7 +102,7 @@ public void SetFontsSources(FontSourceBase[] sources, Stream cacheInputStream)
 
 Настоятельно рекомендуется указывать те же источники шрифтов при загрузке кеша, что и на момент сохранения кеша. Любые изменения в источниках шрифтов (например, добавление новых шрифтов, перемещение файлов шрифтов или изменение ключа кэша) могут привести к тому, что будет неточным шрифтом. разрешение с помощью Aspose.Words.
 
-### Примеры
+## Примеры
 
 Показывает, как ускорить процесс инициализации кэша шрифтов.
 
@@ -152,7 +154,5 @@ private class SearchCacheStream : StreamFontSource
 
 * class [FontSourceBase](../../fontsourcebase/)
 * class [FontSettings](../)
-* пространство имен [Aspose.Words.Fonts](../../fontsettings/)
+* пространство имен [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * сборка [Aspose.Words](../../../)
-
-

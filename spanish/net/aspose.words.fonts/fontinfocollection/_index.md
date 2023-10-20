@@ -1,7 +1,9 @@
 ---
-title: Class FontInfoCollection
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Fonts.FontInfoCollection clase. Representa una colección de fuentes utilizadas en un documento.
+title: FontInfoCollection Class
+linktitle: FontInfoCollection
+articleTitle: FontInfoCollection
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Fonts.FontInfoCollection clase. Representa una colección de fuentes utilizadas en un documento en C#.
 type: docs
 weight: 2930
 url: /es/net/aspose.words.fonts/fontinfocollection/
@@ -30,16 +32,16 @@ public class FontInfoCollection : IEnumerable<FontInfo>
 
 | Nombre | Descripción |
 | --- | --- |
-| [Contains](../../aspose.words.fonts/fontinfocollection/contains/)(string) | Determina si la colección contiene una fuente con el nombre de pila. |
+| [Contains](../../aspose.words.fonts/fontinfocollection/contains/)(*string*) | Determina si la colección contiene una fuente con el nombre de pila. |
 | [GetEnumerator](../../aspose.words.fonts/fontinfocollection/getenumerator/)() | Devuelve un objeto enumerador que se puede utilizar para iterar sobre todos los elementos de la colección. |
 
-### Observaciones
+## Observaciones
 
 Los artículos son[`FontInfo`](../fontinfo/) objetos.
 
 No crea instancias de esta clase directamente. Utilice el[`FontInfos`](../../aspose.words/documentbase/fontinfos/) propiedad para acceder a la colección de fuentes definidas en el documento.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo imprimir los detalles de las fuentes presentes en un documento.
 
@@ -79,5 +81,3 @@ else
 * class [FontInfo](../fontinfo/)
 * espacio de nombres [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * asamblea [Aspose.Words](../../)
-
-

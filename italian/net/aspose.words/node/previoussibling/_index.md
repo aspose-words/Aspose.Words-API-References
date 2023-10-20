@@ -1,7 +1,9 @@
 ---
 title: Node.PreviousSibling
-second_title: Aspose.Words per .NET API Reference
-description: Node proprietà. Ottiene il nodo immediatamente precedente questo nodo.
+linktitle: PreviousSibling
+articleTitle: PreviousSibling
+second_title: Aspose.Words per .NET
+description: Node PreviousSibling proprietà. Ottiene il nodo immediatamente precedente questo nodo in C#.
 type: docs
 weight: 70
 url: /it/net/aspose.words/node/previoussibling/
@@ -14,11 +16,11 @@ Ottiene il nodo immediatamente precedente questo nodo.
 public Node PreviousSibling { get; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Se non è presente alcun nodo precedente, a`nullo` viene restituito.
 
-### Esempi
+## Esempi
 
 Mostra come utilizzare i metodi Node e CompositeNode per rimuovere una sezione prima dell'ultima sezione nel documento.
 
@@ -45,7 +47,5 @@ Assert.AreEqual("Section 2 text.", doc.GetText().Trim());
 ### Guarda anche
 
 * class [Node](../)
-* spazio dei nomi [Aspose.Words](../../node/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

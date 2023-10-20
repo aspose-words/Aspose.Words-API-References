@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.FontEmbeddingMode
-second_title: Aspose.Words لمراجع .NET API
-description: PdfSaveOptions ملكية. يحدد وضع تضمين الخط.
+linktitle: FontEmbeddingMode
+articleTitle: FontEmbeddingMode
+second_title: Aspose.Words لـ .NET
+description: PdfSaveOptions FontEmbeddingMode ملكية. يحدد وضع تضمين الخط في C#.
 type: docs
 weight: 170
 url: /ar/net/aspose.words.saving/pdfsaveoptions/fontembeddingmode/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.saving/pdfsaveoptions/fontembeddingmode/
 public PdfFontEmbeddingMode FontEmbeddingMode { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 القيمة الافتراضية هيEmbedAll.
 
@@ -22,7 +24,7 @@ public PdfFontEmbeddingMode FontEmbeddingMode { get; set; }
 
 يتطلب التوافق مع PDF/A وPDF/UA تضمين جميع الخطوط. EmbedAll سيتم استخدام القيمة تلقائيًا عند الحفظ في PDF/A وPDF/UA.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية ضبط Aspose.Words لتخطي تضمين خطوط Arial وTimes New Roman في مستند PDF.
 
@@ -68,7 +70,5 @@ switch (pdfFontEmbeddingMode)
 
 * enum [PdfFontEmbeddingMode](../../pdffontembeddingmode/)
 * class [PdfSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../pdfsaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

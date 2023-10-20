@@ -1,7 +1,9 @@
 ---
 title: TableSubstitutionRule.LoadWindowsSettings
-second_title: Aspose.Words för .NET API Referens
-description: TableSubstitutionRule metod. Laddar fördefinierade tabellersättningsinställningar för Windowsplattformen.
+linktitle: LoadWindowsSettings
+articleTitle: LoadWindowsSettings
+second_title: Aspose.Words för .NET
+description: TableSubstitutionRule LoadWindowsSettings metod. Laddar fördefinierade tabellersättningsinställningar för Windowsplattformen i C#.
 type: docs
 weight: 60
 url: /sv/net/aspose.words.fonts/tablesubstitutionrule/loadwindowssettings/
@@ -14,7 +16,7 @@ Laddar fördefinierade tabellersättningsinställningar för Windows-plattformen
 public void LoadWindowsSettings()
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du får åtkomst till teckensnittsersättningstabeller för Windows och Linux.
 
@@ -53,7 +55,5 @@ using (FileStream fileStream = new FileStream(ArtifactsDir + "FontSettings.Table
 ### Se även
 
 * class [TableSubstitutionRule](../)
-* namnutrymme [Aspose.Words.Fonts](../../tablesubstitutionrule/)
+* namnutrymme [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * hopsättning [Aspose.Words](../../../)
-
-

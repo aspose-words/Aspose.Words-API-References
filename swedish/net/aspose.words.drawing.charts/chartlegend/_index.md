@@ -1,7 +1,9 @@
 ---
-title: Class ChartLegend
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Drawing.Charts.ChartLegend klass. Representerar diagramförklaringsegenskaper.
+title: ChartLegend Class
+linktitle: ChartLegend
+articleTitle: ChartLegend
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Drawing.Charts.ChartLegend klass. Representerar diagramförklaringsegenskaper i C#.
 type: docs
 weight: 720
 url: /sv/net/aspose.words.drawing.charts/chartlegend/
@@ -24,7 +26,7 @@ public class ChartLegend
 | [Overlay](../../aspose.words.drawing.charts/chartlegend/overlay/) { get; set; } | Bestämmer om andra diagramelement ska tillåtas att överlappa förklaringen. Standardvärdet är`falsk` . |
 | [Position](../../aspose.words.drawing.charts/chartlegend/position/) { get; set; } | Anger positionen för förklaringen på ett diagram. Standardvärdet ärRight . |
 
-### Exempel
+## Exempel
 
 Visar hur man redigerar utseendet på ett diagrams förklaring.
 
@@ -54,5 +56,3 @@ doc.Save(ArtifactsDir + "Charts.ChartLegend.docx");
 
 * namnutrymme [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../)
-
-

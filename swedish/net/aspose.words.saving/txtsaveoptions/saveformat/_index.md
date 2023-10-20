@@ -1,7 +1,9 @@
 ---
 title: TxtSaveOptions.SaveFormat
-second_title: Aspose.Words för .NET API Referens
-description: TxtSaveOptions fast egendom. Anger formatet som dokumentet kommer att sparas i om detta sparaalternativobjekt används. Kan endastText .
+linktitle: SaveFormat
+articleTitle: SaveFormat
+second_title: Aspose.Words för .NET
+description: TxtSaveOptions SaveFormat fast egendom. Anger formatet som dokumentet kommer att sparas i om detta sparaalternativobjekt används. Kan endastText  i C#.
 type: docs
 weight: 60
 url: /sv/net/aspose.words.saving/txtsaveoptions/saveformat/
@@ -14,7 +16,7 @@ Anger formatet som dokumentet kommer att sparas i om detta sparaalternativ-objek
 public override SaveFormat SaveFormat { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man sparar ett .txt-dokument med en anpassad styckebrytning.
 
@@ -48,7 +50,5 @@ Assert.AreEqual("Paragraph 1. End of paragraph.\n\n\t" +
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
 * class [TxtSaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../txtsaveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

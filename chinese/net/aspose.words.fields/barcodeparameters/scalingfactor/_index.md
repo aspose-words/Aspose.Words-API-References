@@ -1,7 +1,9 @@
 ---
 title: BarcodeParameters.ScalingFactor
-second_title: Aspose.Words for .NET API 参考
-description: BarcodeParameters 财产. 符号的缩放因子该值以整数百分比表示有效值为 10 1000.
+linktitle: ScalingFactor
+articleTitle: ScalingFactor
+second_title: 用于 .NET 的 Aspose.Words
+description: BarcodeParameters ScalingFactor 财产. 符号的缩放因子该值以整数百分比表示有效值为 10 1000 在 C#.
 type: docs
 weight: 160
 url: /zh/net/aspose.words.fields/barcodeparameters/scalingfactor/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/barcodeparameters/scalingfactor/
 public string ScalingFactor { get; set; }
 ```
 
-### 例子
+## 例子
 
 展示如何使用条形码生成器。
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.docx");
 ### 也可以看看
 
 * class [BarcodeParameters](../)
-* 命名空间 [Aspose.Words.Fields](../../barcodeparameters/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

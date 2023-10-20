@@ -1,7 +1,9 @@
 ---
 title: MailMergeSettings.CheckErrors
-second_title: Справочник по API Aspose.Words для .NET
-description: MailMergeSettings свойство. Указывает тип отчета об ошибках который будет формироваться Microsoft Word при выполнении слияния почты. Значение по умолчаниюDefault .
+linktitle: CheckErrors
+articleTitle: CheckErrors
+second_title: Aspose.Words для .NET
+description: MailMergeSettings CheckErrors свойство. Указывает тип отчета об ошибках который будет формироваться Microsoft Word при выполнении слияния почты. Значение по умолчаниюDefault  на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.settings/mailmergesettings/checkerrors/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.settings/mailmergesettings/checkerrors/
 public MailMergeCheckErrors CheckErrors { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как выполнить слияние почты с данными из объекта источника данных Office.
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 
 * enum [MailMergeCheckErrors](../../mailmergecheckerrors/)
 * class [MailMergeSettings](../)
-* пространство имен [Aspose.Words.Settings](../../mailmergesettings/)
+* пространство имен [Aspose.Words.Settings](../../../aspose.words.settings/)
 * сборка [Aspose.Words](../../../)
-
-

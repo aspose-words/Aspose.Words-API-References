@@ -1,7 +1,9 @@
 ---
 title: OdsoFieldMapData.Name
-second_title: Référence de l'API Aspose.Words pour .NET
-description: OdsoFieldMapData propriété. Spécifie le nom de colonne dans une source de données externe pour la colonne dont lindex est spécifié par leColumnproperty. La valeur par défaut est une chaîne vide.
+linktitle: Name
+articleTitle: Name
+second_title: Aspose.Words pour .NET
+description: OdsoFieldMapData Name propriété. Spécifie le nom de colonne dans une source de données externe pour la colonne dont lindex est spécifié par leColumnproperty. La valeur par défaut est une chaîne vide en C#.
 type: docs
 weight: 40
 url: /fr/net/aspose.words.settings/odsofieldmapdata/name/
@@ -14,7 +16,7 @@ Spécifie le nom de colonne dans une source de données externe pour la colonne 
 public string Name { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment accéder à la collection de données qui mappe les colonnes de la source de données aux champs de fusion.
 
@@ -57,7 +59,5 @@ Assert.AreEqual(0, dataCollection.Count);
 ### Voir également
 
 * class [OdsoFieldMapData](../)
-* espace de noms [Aspose.Words.Settings](../../odsofieldmapdata/)
+* espace de noms [Aspose.Words.Settings](../../../aspose.words.settings/)
 * Assemblée [Aspose.Words](../../../)
-
-

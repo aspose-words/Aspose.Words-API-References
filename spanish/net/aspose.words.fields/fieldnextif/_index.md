@@ -1,7 +1,9 @@
 ---
-title: Class FieldNextIf
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Fields.FieldNextIf clase. Implementa el campo NEXTIF.
+title: FieldNextIf Class
+linktitle: FieldNextIf
+articleTitle: FieldNextIf
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Fields.FieldNextIf clase. Implementa el campo NEXTIF en C#.
 type: docs
 weight: 2190
 url: /es/net/aspose.words.fields/fieldnextif/
@@ -45,17 +47,17 @@ public class FieldNextIf : Field
 | Nombre | Descripción |
 | --- | --- |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Devuelve texto entre el inicio del campo y el separador de campo (o el final del campo si no hay separador). Se incluyen tanto el código de campo como el resultado del campo de los campos secundarios. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Devuelve texto entre el inicio del campo y el separador de campo (o el final del campo si no hay separador). |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | Devuelve texto entre el inicio del campo y el separador de campo (o el final del campo si no hay separador). |
 | [Remove](../../aspose.words.fields/field/remove/)() | Elimina el campo del documento. Devuelve un nodo justo después del campo. Si el final del campo es el último hijo de su nodo principal, devuelve su párrafo principal. Si el campo ya está eliminado, devuelve`nulo` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | Realiza la desvinculación del campo. |
 | [Update](../../aspose.words.fields/field/update/)() | Realiza la actualización del campo. Se produce si el campo ya se está actualizando. |
-| [Update](../../aspose.words.fields/field/update/)(bool) | Realiza una actualización de campo. Se produce si el campo ya se está actualizando. |
+| [Update](../../aspose.words.fields/field/update/)(*bool*) | Realiza una actualización de campo. Se produce si el campo ya se está actualizando. |
 
-### Observaciones
+## Observaciones
 
 Compara los valores designados por las expresiones.[`LeftExpression`](./leftexpression/) y[`RightExpression`](./rightexpression/) en comparación utilizando el operador designado por[`ComparisonOperator`](./comparisonoperator/) . Si la comparación es verdadera, el siguiente registro de datos se fusiona con el documento de combinación actual. (Los campos de combinación que siguen a NEXTIF en el documento main se reemplazan por valores del siguiente registro de datos en lugar del registro de datos actual). Si la comparación es falsa, el siguiente registro de datos se combina en un nuevo documento de combinación.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo utilizar los campos SIGUIENTE/SIGUIENTEIF para combinar varias filas en una página durante una combinación de correspondencia.
 
@@ -139,5 +141,3 @@ public void InsertMergeField(DocumentBuilder builder, string fieldName, string t
 * class [Field](../field/)
 * espacio de nombres [Aspose.Words.Fields](../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../)
-
-

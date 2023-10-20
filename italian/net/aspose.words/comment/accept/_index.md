@@ -1,9 +1,11 @@
 ---
 title: Comment.Accept
-second_title: Aspose.Words per .NET API Reference
-description: Comment metodo. Accetta un visitatore.
+linktitle: Accept
+articleTitle: Accept
+second_title: Aspose.Words per .NET
+description: Comment Accept metodo. Accetta un visitatore in C#.
 type: docs
-weight: 120
+weight: 110
 url: /it/net/aspose.words/comment/accept/
 ---
 ## Comment.Accept method
@@ -22,7 +24,7 @@ public override bool Accept(DocumentVisitor visitor)
 
 Vero se tutti i nodi sono stati visitati; falso se[`DocumentVisitor`](../../documentvisitor/) ha interrotto l'operazione prima di visitare tutti i nodi.
 
-### Osservazioni
+## Osservazioni
 
 Enumera questo nodo e tutti i relativi figli. Ogni nodo chiama un metodo corrispondente[`DocumentVisitor`](../../documentvisitor/).
 
@@ -30,7 +32,7 @@ Per maggiori informazioni vedere il modello di progettazione Visitor.
 
 Chiamate[`VisitCommentStart`](../../documentvisitor/visitcommentstart/) , poi chiama[`Accept`](../../node/accept/) per all nodi figlio del commento e delle chiamate[`VisitCommentEnd`](../../documentvisitor/visitcommentend/) alla fine.
 
-### Esempi
+## Esempi
 
 Mostra come stampare il contenuto di tutti i commenti e i relativi intervalli di commenti utilizzando un visitatore del documento.
 
@@ -192,7 +194,5 @@ public class CommentInfoPrinter : DocumentVisitor
 
 * class [DocumentVisitor](../../documentvisitor/)
 * class [Comment](../)
-* spazio dei nomi [Aspose.Words](../../comment/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

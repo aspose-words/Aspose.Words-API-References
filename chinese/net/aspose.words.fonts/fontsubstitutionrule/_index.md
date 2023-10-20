@@ -1,7 +1,9 @@
 ---
-title: Class FontSubstitutionRule
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Fonts.FontSubstitutionRule 班级. 这是字体替换规则的抽象基类
+title: FontSubstitutionRule Class
+linktitle: FontSubstitutionRule
+articleTitle: FontSubstitutionRule
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Fonts.FontSubstitutionRule 班级. 这是字体替换规则的抽象基类 在 C#.
 type: docs
 weight: 3000
 url: /zh/net/aspose.words.fonts/fontsubstitutionrule/
@@ -22,7 +24,7 @@ public abstract class FontSubstitutionRule
 | --- | --- |
 | virtual [Enabled](../../aspose.words.fonts/fontsubstitutionrule/enabled/) { get; set; } | 指定是否启用规则。 |
 
-### 例子
+## 例子
 
 显示与操作系统相关的字体配置替换。
 
@@ -59,5 +61,3 @@ if (isLinuxOrMac)
 
 * 命名空间 [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * 部件 [Aspose.Words](../../)
-
-

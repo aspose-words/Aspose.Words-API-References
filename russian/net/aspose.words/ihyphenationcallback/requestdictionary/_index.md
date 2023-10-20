@@ -1,7 +1,9 @@
 ---
 title: IHyphenationCallback.RequestDictionary
-second_title: Справочник по API Aspose.Words для .NET
-description: IHyphenationCallback метод. Уведомляет приложение о том что словарь расстановки переносов для указанного языка не найден и возможно его необходимо зарегистрировать.
+linktitle: RequestDictionary
+articleTitle: RequestDictionary
+second_title: Aspose.Words для .NET
+description: IHyphenationCallback RequestDictionary метод. Уведомляет приложение о том что словарь расстановки переносов для указанного языка не найден и возможно его необходимо зарегистрировать на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words/ihyphenationcallback/requestdictionary/
@@ -22,11 +24,11 @@ public void RequestDictionary(string language)
 | --- | --- | --- |
 | language | String | Название языка, например «en-US». Подробности см. в документации .NET для «имени культуры» и RFC 4646. |
 
-### Примечания
+## Примечания
 
 Исключения, создаваемые этим методом, прерывают выполнение процесса макета страницы.
 
-### Примеры
+## Примеры
 
 Показывает, как открыть и зарегистрировать словарь из файла.
 
@@ -102,7 +104,5 @@ private class CustomHyphenationDictionaryRegister : IHyphenationCallback
 ### Смотрите также
 
 * interface [IHyphenationCallback](../)
-* пространство имен [Aspose.Words](../../ihyphenationcallback/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

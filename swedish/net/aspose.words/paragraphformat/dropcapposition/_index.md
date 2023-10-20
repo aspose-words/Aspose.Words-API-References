@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.DropCapPosition
-second_title: Aspose.Words för .NET API Referens
-description: ParagraphFormat fast egendom. Hämtar eller ställer in positionen för en drop captext.
+linktitle: DropCapPosition
+articleTitle: DropCapPosition
+second_title: Aspose.Words för .NET
+description: ParagraphFormat DropCapPosition fast egendom. Hämtar eller ställer in positionen för en drop captext i C#.
 type: docs
 weight: 100
 url: /sv/net/aspose.words/paragraphformat/dropcapposition/
@@ -14,7 +16,7 @@ Hämtar eller ställer in positionen för en drop cap-text.
 public DropCapPosition DropCapPosition { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man kapslar en lista i en annan lista.
 
@@ -69,7 +71,5 @@ builder.Document.Save(ArtifactsDir + "Lists.NestedLists.docx");
 
 * enum [DropCapPosition](../../dropcapposition/)
 * class [ParagraphFormat](../)
-* namnutrymme [Aspose.Words](../../paragraphformat/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

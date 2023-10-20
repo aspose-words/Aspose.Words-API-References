@@ -1,7 +1,9 @@
 ---
 title: Font.Name
-second_title: Aspose.Words für .NET-API-Referenz
-description: Font eigendom. Ruft den Namen der Schriftart ab oder legt diesen fest.
+linktitle: Name
+articleTitle: Name
+second_title: Aspose.Words für .NET
+description: Font Name eigendom. Ruft den Namen der Schriftart ab oder legt diesen fest in C#.
 type: docs
 weight: 230
 url: /de/net/aspose.words/font/name/
@@ -14,13 +16,13 @@ Ruft den Namen der Schriftart ab oder legt diesen fest.
 public string Name { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Wenn es kommt, kehrt es zurück[`NameAscii`](../nameascii/).
 
 Beim Einstellen wird eingestellt[`NameAscii`](../nameascii/) ,[`NameBi`](../namebi/) ,[`NameFarEast`](../namefareast/) und[`NameOther`](../nameother/) auf den angegebenen Wert.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie eine Textzeile mithilfe ihrer Schriftarteigenschaft formatiert wird.
 
@@ -57,7 +59,5 @@ builder.Write("Hello world!");
 ### Siehe auch
 
 * class [Font](../)
-* namensraum [Aspose.Words](../../font/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

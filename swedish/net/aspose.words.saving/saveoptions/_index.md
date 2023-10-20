@@ -1,7 +1,9 @@
 ---
-title: Class SaveOptions
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Saving.SaveOptions klass. Detta är en abstrakt basklass för klasser som låter användaren ange ytterligare alternativ när ett dokument sparas i ett visst format.
+title: SaveOptions Class
+linktitle: SaveOptions
+articleTitle: SaveOptions
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Saving.SaveOptions klass. Detta är en abstrakt basklass för klasser som låter användaren ange ytterligare alternativ när ett dokument sparas i ett visst format i C#.
 type: docs
 weight: 5580
 url: /sv/net/aspose.words.saving/saveoptions/
@@ -22,7 +24,7 @@ public abstract class SaveOptions
 | --- | --- |
 | [AllowEmbeddingPostScriptFonts](../../aspose.words.saving/saveoptions/allowembeddingpostscriptfonts/) { get; set; } | Hämtar eller ställer in ett booleskt värde som indikerar om man ska tillåta inbäddning av teckensnitt med PostScript outlines när inbäddning av TrueType-teckensnitt i ett dokument på det sparas. Standardvärdet är`falsk` . |
 | [CustomTimeZoneInfo](../../aspose.words.saving/saveoptions/customtimezoneinfo/) { get; set; } | Hämtar eller ställer in anpassad lokal tidszon som används för datum-/tidsfält. |
-| [DefaultTemplate](../../aspose.words.saving/saveoptions/defaulttemplate/) { get; set; } | Hämtar eller ställer in sökvägen till standardmall (inklusive filnamn). Standardvärdet för den här egenskapen är **tom sträng** (Empty). |
+| [DefaultTemplate](../../aspose.words.saving/saveoptions/defaulttemplate/) { get; set; } | Hämtar eller ställer in sökvägen till standardmall (inklusive filnamn). Standardvärdet för den här egenskapen är**tom sträng** (Empty). |
 | [Dml3DEffectsRenderingMode](../../aspose.words.saving/saveoptions/dml3deffectsrenderingmode/) { get; set; } | Hämtar eller ställer in ett värde som bestämmer hur 3D-effekter renderas. |
 | virtual [DmlEffectsRenderingMode](../../aspose.words.saving/saveoptions/dmleffectsrenderingmode/) { get; set; } | Hämtar eller ställer in ett värde som bestämmer hur DrawingML-effekter renderas. |
 | [DmlRenderingMode](../../aspose.words.saving/saveoptions/dmlrenderingmode/) { get; set; } | Hämtar eller ställer in ett värde som bestämmer hur DrawingML-former renderas. |
@@ -44,14 +46,14 @@ public abstract class SaveOptions
 
 | namn | Beskrivning |
 | --- | --- |
-| static [CreateSaveOptions](../../aspose.words.saving/saveoptions/createsaveoptions/#createsaveoptions)(SaveFormat) | Skapar ett sparalternativobjekt av en klass som är lämplig för det angivna lagringsformatet. |
-| static [CreateSaveOptions](../../aspose.words.saving/saveoptions/createsaveoptions/#createsaveoptions_1)(string) | Skapar ett sparaalternativobjekt av en klass som är lämplig för filtillägget som anges i det angivna filnamnet. |
+| static [CreateSaveOptions](../../aspose.words.saving/saveoptions/createsaveoptions/#createsaveoptions)(*[SaveFormat](../../aspose.words/saveformat/)*) | Skapar ett sparalternativobjekt av en klass som är lämplig för det angivna lagringsformatet. |
+| static [CreateSaveOptions](../../aspose.words.saving/saveoptions/createsaveoptions/#createsaveoptions_1)(*string*) | Skapar ett sparaalternativobjekt av en klass som är lämplig för filtillägget som anges i det angivna filnamnet. |
 
-### Anmärkningar
+## Anmärkningar
 
 En instans av`SaveOptions` klass eller någon härledd klass skickas till strömmen[`Save`](../../aspose.words/document/save/) eller sträng[`Save`](../../aspose.words/document/save/) överbelastning för användaren att definiera anpassade alternativ när ett dokument sparas.
 
-### Exempel
+## Exempel
 
 Visar hur du använder en specifik kodning när du sparar ett dokument i .epub.
 
@@ -79,5 +81,3 @@ doc.Save(ArtifactsDir + "HtmlSaveOptions.Doc2EpubSaveOptions.epub", saveOptions)
 
 * namnutrymme [Aspose.Words.Saving](../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../)
-
-

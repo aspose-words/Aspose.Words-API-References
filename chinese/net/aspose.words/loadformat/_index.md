@@ -1,7 +1,9 @@
 ---
-title: Enum LoadFormat
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.LoadFormat 枚举. 表示要加载的文档的格式
+title: LoadFormat Enum
+linktitle: LoadFormat
+articleTitle: LoadFormat
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.LoadFormat 枚举. 表示要加载的文档的格式 在 C#.
 type: docs
 weight: 3550
 url: /zh/net/aspose.words/loadformat/
@@ -46,7 +48,7 @@ public enum LoadFormat
 | Xml | `65` | XML 文档。 |
 | Unknown | `255` | 无法识别的格式，无法由 Aspose.Words 加载。 |
 
-### 例子
+## 例子
 
 演示如何将网页另存为 .docx 文件。
 
@@ -122,5 +124,3 @@ using (FileStream docStream = File.OpenRead(MyDir + "Word document with missing 
 
 * 命名空间 [Aspose.Words](../../aspose.words/)
 * 部件 [Aspose.Words](../../)
-
-

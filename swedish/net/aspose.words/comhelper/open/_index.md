@@ -1,12 +1,14 @@
 ---
 title: ComHelper.Open
-second_title: Aspose.Words för .NET API Referens
-description: ComHelper metod. Tillåter en COMapplikation att ladda enDocument från en fil.
+linktitle: Open
+articleTitle: Open
+second_title: Aspose.Words för .NET
+description: ComHelper Open metod. Tillåter en COMapplikation att ladda enDocument från en fil i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words/comhelper/open/
 ---
-## Open(string) {#open_1}
+## Open(*string*) {#open_1}
 
 Tillåter en COM-applikation att ladda en[`Document`](../../document/) från en fil.
 
@@ -22,11 +24,11 @@ public Document Open(string fileName)
 
 A[`Document`](../../document/)objekt som representerar ett Word-dokument.
 
-### Anmärkningar
+## Anmärkningar
 
 Denna metod är samma som att anropa[`Document`](../../document/) konstruktor med en filnamnsparameter.
 
-### Exempel
+## Exempel
 
 ```csharp
 [VBScript]
@@ -62,12 +64,12 @@ using (FileStream stream = new FileStream(MyDir + "Document.docx", FileMode.Open
 
 * class [Document](../../document/)
 * class [ComHelper](../)
-* namnutrymme [Aspose.Words](../../comhelper/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## Open(Stream) {#open}
+## Open(*Stream*) {#open}
 
 Tillåter att en COM-applikation laddas[`Document`](../../document/) från en ström.
 
@@ -83,11 +85,11 @@ public Document Open(Stream stream)
 
 A[`Document`](../../document/)objekt som representerar ett Word-dokument.
 
-### Anmärkningar
+## Anmärkningar
 
 Denna metod är samma som att anropa[`Document`](../../document/) konstruktör med en strömparameter.
 
-### Exempel
+## Exempel
 
 Visar hur man öppnar dokument med ComHelper-klassen.
 
@@ -113,7 +115,5 @@ using (FileStream stream = new FileStream(MyDir + "Document.docx", FileMode.Open
 
 * class [Document](../../document/)
 * class [ComHelper](../)
-* namnutrymme [Aspose.Words](../../comhelper/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

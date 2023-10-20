@@ -1,7 +1,9 @@
 ---
-title: Enum CellMerge
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Tables.CellMerge enum. Specifica il modo in cui una cella in una tabella viene unita ad altre celle.
+title: CellMerge Enum
+linktitle: CellMerge
+articleTitle: CellMerge
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Tables.CellMerge enum. Specifica il modo in cui una cella in una tabella viene unita ad altre celle in C#.
 type: docs
 weight: 6270
 url: /it/net/aspose.words.tables/cellmerge/
@@ -22,7 +24,7 @@ public enum CellMerge
 | First | `1` | La cella è la prima cella in un intervallo di celle unite. |
 | Previous | `2` | La cella viene unita alla cella precedente orizzontalmente o verticalmente. |
 
-### Esempi
+## Esempi
 
 Mostra come unire le celle della tabella orizzontalmente.
 
@@ -121,5 +123,3 @@ doc.Save(ArtifactsDir + "CellFormat.VerticalMerge.docx");
 
 * spazio dei nomi [Aspose.Words.Tables](../../aspose.words.tables/)
 * assemblea [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class Bookmark
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Bookmark فصل. يمثل إشارة مرجعية واحدة.
+title: Bookmark Class
+linktitle: Bookmark
+articleTitle: Bookmark
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Bookmark فصل. يمثل إشارة مرجعية واحدة في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words/bookmark/
@@ -34,11 +36,11 @@ public class Bookmark
 | --- | --- |
 | [Remove](../../aspose.words/bookmark/remove/)() | إزالة الإشارة المرجعية من المستند. لا يزيل النص الموجود داخل الإشارة المرجعية. |
 
-### ملاحظات
+## ملاحظات
 
 `Bookmark` هو كائن "واجهة" يحتوي على عقدتين[`BookmarkStart`](./bookmarkstart/) و[`BookmarkEnd`](./bookmarkend/) في شجرة المستندات ويسمح بالعمل مع الإشارة المرجعية ككائن واحد.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إضافة الإشارات المرجعية وتحديث محتوياتها.
 
@@ -128,5 +130,3 @@ public class BookmarkInfoPrinter : DocumentVisitor
 
 * مساحة الاسم [Aspose.Words](../../aspose.words/)
 * المجسم [Aspose.Words](../../)
-
-

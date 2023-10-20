@@ -1,7 +1,9 @@
 ---
 title: Odso.RecipientDatas
-second_title: Aspose.Words per .NET API Reference
-description: Odso proprietà. Ottiene o imposta una raccolta di oggetti che specificano linclusione/esclusione di singoli record nella stampa unione. Questo oggetto non viene mainullo .
+linktitle: RecipientDatas
+articleTitle: RecipientDatas
+second_title: Aspose.Words per .NET
+description: Odso RecipientDatas proprietà. Ottiene o imposta una raccolta di oggetti che specificano linclusione/esclusione di singoli record nella stampa unione. Questo oggetto non viene mainullo  in C#.
 type: docs
 weight: 70
 url: /it/net/aspose.words.settings/odso/recipientdatas/
@@ -14,7 +16,7 @@ Ottiene o imposta una raccolta di oggetti che specificano l'inclusione/esclusion
 public OdsoRecipientDataCollection RecipientDatas { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come accedere alla raccolta di dati che indica quali record dell'origine dati di unione verranno esclusi da una stampa unione.
 
@@ -55,7 +57,5 @@ Assert.AreEqual(0, dataCollection.Count);
 
 * class [OdsoRecipientDataCollection](../../odsorecipientdatacollection/)
 * class [Odso](../)
-* spazio dei nomi [Aspose.Words.Settings](../../odso/)
+* spazio dei nomi [Aspose.Words.Settings](../../../aspose.words.settings/)
 * assemblea [Aspose.Words](../../../)
-
-

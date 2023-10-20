@@ -1,7 +1,9 @@
 ---
 title: FontSavingArgs.FontFamilyName
-second_title: Aspose.Words per .NET API Reference
-description: FontSavingArgs proprietà. Indica il nome della famiglia di caratteri corrente.
+linktitle: FontFamilyName
+articleTitle: FontFamilyName
+second_title: Aspose.Words per .NET
+description: FontSavingArgs FontFamilyName proprietà. Indica il nome della famiglia di caratteri corrente in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words.saving/fontsavingargs/fontfamilyname/
@@ -14,7 +16,7 @@ Indica il nome della famiglia di caratteri corrente.
 public string FontFamilyName { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come definire la logica personalizzata per l'esportazione dei caratteri durante il salvataggio in HTML.
 
@@ -74,7 +76,5 @@ public class HandleFontSaving : IFontSavingCallback
 ### Guarda anche
 
 * class [FontSavingArgs](../)
-* spazio dei nomi [Aspose.Words.Saving](../../fontsavingargs/)
+* spazio dei nomi [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../../)
-
-

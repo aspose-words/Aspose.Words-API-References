@@ -1,7 +1,9 @@
 ---
 title: PageSetup.FootnoteOptions
-second_title: Referencia de API de Aspose.Words para .NET
-description: PageSetup propiedad. Proporciona opciones que controlan la numeración y la posición de las notas al pie en esta sección.
+linktitle: FootnoteOptions
+articleTitle: FootnoteOptions
+second_title: Aspose.Words para .NET
+description: PageSetup FootnoteOptions propiedad. Proporciona opciones que controlan la numeración y la posición de las notas al pie en esta sección en C#.
 type: docs
 weight: 150
 url: /es/net/aspose.words/pagesetup/footnoteoptions/
@@ -14,7 +16,7 @@ Proporciona opciones que controlan la numeración y la posición de las notas al
 public FootnoteOptions FootnoteOptions { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo configurar opciones que afectan las notas al pie/notas finales en una sección.
 
@@ -49,7 +51,5 @@ doc.Save(ArtifactsDir + "PageSetup.FootnoteOptions.docx");
 
 * class [FootnoteOptions](../../../aspose.words.notes/footnoteoptions/)
 * class [PageSetup](../)
-* espacio de nombres [Aspose.Words](../../pagesetup/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

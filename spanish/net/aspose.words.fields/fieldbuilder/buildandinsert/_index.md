@@ -1,12 +1,14 @@
 ---
 title: FieldBuilder.BuildAndInsert
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldBuilder método. Crea e inserta un campo en el documento antes del nodo en línea especificado.
+linktitle: BuildAndInsert
+articleTitle: BuildAndInsert
+second_title: Aspose.Words para .NET
+description: FieldBuilder BuildAndInsert método. Crea e inserta un campo en el documento antes del nodo en línea especificado en C#.
 type: docs
 weight: 40
 url: /es/net/aspose.words.fields/fieldbuilder/buildandinsert/
 ---
-## BuildAndInsert(Inline) {#buildandinsert}
+## BuildAndInsert(*[Inline](../../../aspose.words/inline/)*) {#buildandinsert}
 
 Crea e inserta un campo en el documento antes del nodo en línea especificado.
 
@@ -18,7 +20,7 @@ public Field BuildAndInsert(Inline refNode)
 
 A[`Field`](../../field/) objeto que representa el campo insertado.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear e insertar un campo usando un generador de campos.
 
@@ -48,12 +50,12 @@ doc.Save(ArtifactsDir + "Field.CreateWithFieldBuilder.docx");
 * class [Field](../../field/)
 * class [Inline](../../../aspose.words/inline/)
 * class [FieldBuilder](../)
-* espacio de nombres [Aspose.Words.Fields](../../fieldbuilder/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
 
 ---
 
-## BuildAndInsert(Paragraph) {#buildandinsert_1}
+## BuildAndInsert(*[Paragraph](../../../aspose.words/paragraph/)*) {#buildandinsert_1}
 
 Crea e inserta un campo en el documento hasta el final del párrafo especificado.
 
@@ -65,7 +67,7 @@ public Field BuildAndInsert(Paragraph refNode)
 
 A[`Field`](../../field/) objeto que representa el campo insertado.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo construir campos usando un generador de campos y luego insertarlos en el documento.
 
@@ -150,7 +152,5 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 * class [Field](../../field/)
 * class [Paragraph](../../../aspose.words/paragraph/)
 * class [FieldBuilder](../)
-* espacio de nombres [Aspose.Words.Fields](../../fieldbuilder/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

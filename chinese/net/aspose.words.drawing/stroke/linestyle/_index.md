@@ -1,9 +1,11 @@
 ---
 title: Stroke.LineStyle
-second_title: Aspose.Words for .NET API 参考
-description: Stroke 财产. 定义笔画的线条样式
+linktitle: LineStyle
+articleTitle: LineStyle
+second_title: 用于 .NET 的 Aspose.Words
+description: Stroke LineStyle 财产. 定义笔画的线条样式 在 C#.
 type: docs
-weight: 140
+weight: 130
 url: /zh/net/aspose.words.drawing/stroke/linestyle/
 ---
 ## Stroke.LineStyle property
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.drawing/stroke/linestyle/
 public ShapeLineStyle LineStyle { get; set; }
 ```
 
-### 评论
+## 评论
 
 默认值为Single。
 
-### 例子
+## 例子
 
 显示如何更改笔划属性。
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "Shape.Stroke.docx");
 
 * enum [ShapeLineStyle](../../shapelinestyle/)
 * class [Stroke](../)
-* 命名空间 [Aspose.Words.Drawing](../../stroke/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

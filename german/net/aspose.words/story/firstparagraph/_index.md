@@ -1,7 +1,9 @@
 ---
 title: Story.FirstParagraph
-second_title: Aspose.Words für .NET-API-Referenz
-description: Story eigendom. Ruft den ersten Absatz in der Geschichte ab.
+linktitle: FirstParagraph
+articleTitle: FirstParagraph
+second_title: Aspose.Words für .NET
+description: Story FirstParagraph eigendom. Ruft den ersten Absatz in der Geschichte ab in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words/story/firstparagraph/
@@ -14,7 +16,7 @@ Ruft den ersten Absatz in der Geschichte ab.
 public Paragraph FirstParagraph { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie eine Textzeile mithilfe ihrer Schriftarteigenschaft formatiert wird.
 
@@ -63,7 +65,5 @@ doc.Save(ArtifactsDir + "Shape.CreateTextBox.docx");
 
 * class [Paragraph](../../paragraph/)
 * class [Story](../)
-* namensraum [Aspose.Words](../../story/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

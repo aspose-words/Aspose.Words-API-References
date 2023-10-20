@@ -1,26 +1,28 @@
 ---
 title: StructuredDocumentTag.Multiline
-second_title: Справочник по API Aspose.Words для .NET
-description: StructuredDocumentTag свойство. Указывает является ли это СДТ позволяет использовать несколько строк текста.
+linktitle: Multiline
+articleTitle: Multiline
+second_title: Aspose.Words для .NET
+description: StructuredDocumentTag Multiline свойство. Указывает является ли этоСДТ позволяет использовать несколько строк текста на С#.
 type: docs
 weight: 210
 url: /ru/net/aspose.words.markup/structureddocumenttag/multiline/
 ---
 ## StructuredDocumentTag.Multiline property
 
-Указывает, является ли это **СДТ** позволяет использовать несколько строк текста.
+Указывает, является ли это**СДТ** позволяет использовать несколько строк текста.
 
 ```csharp
 public bool Multiline { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Доступ к этому ресурсу будет работать только дляRichText иPlainText Тип SDT.
 
 Для всех остальных типов SDT возникнет исключение.
 
-### Примеры
+## Примеры
 
 Показывает, как создать тег структурированного документа в текстовом поле и изменить его внешний вид.
 
@@ -77,7 +79,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.PlainText.docx");
 ### Смотрите также
 
 * class [StructuredDocumentTag](../)
-* пространство имен [Aspose.Words.Markup](../../structureddocumenttag/)
+* пространство имен [Aspose.Words.Markup](../../../aspose.words.markup/)
 * сборка [Aspose.Words](../../../)
-
-

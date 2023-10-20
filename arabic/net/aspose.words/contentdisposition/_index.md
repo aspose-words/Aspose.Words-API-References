@@ -1,7 +1,9 @@
 ---
-title: Enum ContentDisposition
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.ContentDisposition تعداد. تعداد الطرق المختلفة لعرض المستند في متصفح العميل.
+title: ContentDisposition Enum
+linktitle: ContentDisposition
+articleTitle: ContentDisposition
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.ContentDisposition تعداد. تعداد الطرق المختلفة لعرض المستند في متصفح العميل في C#.
 type: docs
 weight: 340
 url: /ar/net/aspose.words/contentdisposition/
@@ -21,11 +23,11 @@ public enum ContentDisposition
 | Attachment | `0` | أرسل المستند إلى المتصفح وقدم خيارًا لحفظ المستند على القرص أو فتحه في التطبيق المرتبط بامتداد المستند. |
 | Inline | `1` | أرسل المستند إلى المتصفح ويقدم خيار حفظ المستند على القرص أو فتحه داخل المتصفح. |
 
-### ملاحظات
+## ملاحظات
 
 لاحظ أن السلوك الفعلي في متصفح العميل قد يتأثر بتكوين أمان المتصفح.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إجراء دمج البريد، ثم حفظ المستند في مستعرض العميل.
 
@@ -56,5 +58,3 @@ Assert.That(() => response.End(), Throws.TypeOf<NullReferenceException>());
 
 * مساحة الاسم [Aspose.Words](../../aspose.words/)
 * المجسم [Aspose.Words](../../)
-
-

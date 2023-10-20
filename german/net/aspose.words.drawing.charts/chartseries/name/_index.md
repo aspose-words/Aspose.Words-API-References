@@ -1,7 +1,9 @@
 ---
 title: ChartSeries.Name
-second_title: Aspose.Words für .NET-API-Referenz
-description: ChartSeries eigendom. Ruft den Namen der Serie ab oder legt ihn fest. Wenn der Name nicht explizit festgelegt wird wird er mithilfe von index. generiert. Standardmäßig wird Series plus eins basierend auf index. zurückgegeben.
+linktitle: Name
+articleTitle: Name
+second_title: Aspose.Words für .NET
+description: ChartSeries Name eigendom. Ruft den Namen der Serie ab oder legt ihn fest. Wenn der Name nicht explizit festgelegt wird wird er mithilfe von index. generiert. Standardmäßig wird Series plus eins basierend auf index. zurückgegeben in C#.
 type: docs
 weight: 110
 url: /de/net/aspose.words.drawing.charts/chartseries/name/
@@ -14,7 +16,7 @@ Ruft den Namen der Serie ab oder legt ihn fest. Wenn der Name nicht explizit fes
 public string Name { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Beschriftungen auf Datenpunkte in einem Liniendiagramm angewendet werden.
 
@@ -92,7 +94,5 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
 ### Siehe auch
 
 * class [ChartSeries](../)
-* namensraum [Aspose.Words.Drawing.Charts](../../chartseries/)
+* namensraum [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Section.Body
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Section propriété. Renvoie leBody nœud enfant de la section.
+linktitle: Body
+articleTitle: Body
+second_title: Aspose.Words pour .NET
+description: Section Body propriété. Renvoie leBody nœud enfant de la section en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words/section/body/
@@ -14,13 +16,13 @@ Renvoie le[`Body`](../../body/) nœud enfant de la section.
 public Body Body { get; }
 ```
 
-### Remarques
+## Remarques
 
 [`Body`](../../body/) contient le texte principal de la section.
 
 Retour`nul` si la section n'a pas de[`Body`](../../body/) nœud parmi ses enfants.
 
-### Exemples
+## Exemples
 
 Efface le texte principal de toutes les sections du document en laissant les sections elles-mêmes.
 
@@ -59,7 +61,5 @@ Assert.AreEqual("Hello world!", doc.GetText().Trim());
 
 * class [Body](../../body/)
 * class [Section](../)
-* espace de noms [Aspose.Words](../../section/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

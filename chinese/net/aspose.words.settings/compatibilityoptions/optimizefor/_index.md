@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.OptimizeFor
-second_title: Aspose.Words for .NET API 参考
-description: CompatibilityOptions 方法. 允许优化文档内容以及针对特定版本的 MS Word 的默认 Aspose.Words 行为
+linktitle: OptimizeFor
+articleTitle: OptimizeFor
+second_title: 用于 .NET 的 Aspose.Words
+description: CompatibilityOptions OptimizeFor 方法. 允许优化文档内容以及针对特定版本的 MS Word 的默认 Aspose.Words 行为 在 C#.
 type: docs
 weight: 720
 url: /zh/net/aspose.words.settings/compatibilityoptions/optimizefor/
@@ -16,7 +18,7 @@ url: /zh/net/aspose.words.settings/compatibilityoptions/optimizefor/
 public void OptimizeFor(MsWordVersion version)
 ```
 
-### 例子
+## 例子
 
 演示如何垂直对齐文本框的文本内容。
 
@@ -130,7 +132,5 @@ private static void PrintCompatibilityOptions(CompatibilityOptions options)
 
 * enum [MsWordVersion](../../mswordversion/)
 * class [CompatibilityOptions](../)
-* 命名空间 [Aspose.Words.Settings](../../compatibilityoptions/)
+* 命名空间 [Aspose.Words.Settings](../../../aspose.words.settings/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Document.Compliance
-second_title: Aspose.Words لمراجع .NET API
-description: Document ملكية. الحصول على إصدار توافق OOXML المحدد من محتوى المستند الذي تم تحميله. هذا منطقي فقط لمستندات OOXML.
+linktitle: Compliance
+articleTitle: Compliance
+second_title: Aspose.Words لـ .NET
+description: Document Compliance ملكية. الحصول على إصدار توافق OOXML المحدد من محتوى المستند الذي تم تحميله. هذا منطقي فقط لمستندات OOXML في C#.
 type: docs
 weight: 60
 url: /ar/net/aspose.words/document/compliance/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words/document/compliance/
 public OoxmlCompliance Compliance { get; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 إذا قمت بإنشاء مستند فارغ جديد أو قمت بتحميل مستند غير OOXML، فسيتم إرجاع ملف document Ecma376_2006 قيمة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية قراءة إصدار توافق Open Office XML الخاص بالمستند الذي تم تحميله.
 
@@ -37,7 +39,5 @@ Assert.AreEqual(doc.Compliance, OoxmlCompliance.Iso29500_2008_Transitional);
 
 * enum [OoxmlCompliance](../../../aspose.words.saving/ooxmlcompliance/)
 * class [Document](../)
-* مساحة الاسم [Aspose.Words](../../document/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: HeaderFooter.IsLinkedToPrevious
-second_title: Aspose.Words für .NET-API-Referenz
-description: HeaderFooter eigendom. True wenn diese Kopf oder Fußzeile mit der entsprechenden Kopf oder Fußzeile im vorherigen Abschnitt verknüpft ist.
+linktitle: IsLinkedToPrevious
+articleTitle: IsLinkedToPrevious
+second_title: Aspose.Words für .NET
+description: HeaderFooter IsLinkedToPrevious eigendom. True wenn diese Kopf oder Fußzeile mit der entsprechenden Kopf oder Fußzeile im vorherigen Abschnitt verknüpft ist in C#.
 type: docs
 weight: 40
 url: /de/net/aspose.words/headerfooter/islinkedtoprevious/
@@ -14,13 +16,13 @@ True, wenn diese Kopf- oder Fußzeile mit der entsprechenden Kopf- oder Fußzeil
 public bool IsLinkedToPrevious { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Standard ist`WAHR`.
 
 Beachten Sie, dass der Inhalt gelöscht wird, wenn Sie eine Kopf- oder Fußzeile verlinken.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Kopf- und Fußzeilen zwischen Abschnitten verknüpft werden.
 
@@ -85,7 +87,5 @@ doc.Save(ArtifactsDir + "HeaderFooter.Link.docx");
 ### Siehe auch
 
 * class [HeaderFooter](../)
-* namensraum [Aspose.Words](../../headerfooter/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

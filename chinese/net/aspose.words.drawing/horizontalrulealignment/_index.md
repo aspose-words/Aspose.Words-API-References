@@ -1,7 +1,9 @@
 ---
-title: Enum HorizontalRuleAlignment
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Drawing.HorizontalRuleAlignment 枚举. 表示指定水平线的对齐方式
+title: HorizontalRuleAlignment Enum
+linktitle: HorizontalRuleAlignment
+articleTitle: HorizontalRuleAlignment
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Drawing.HorizontalRuleAlignment 枚举. 表示指定水平线的对齐方式 在 C#.
 type: docs
 weight: 1040
 url: /zh/net/aspose.words.drawing/horizontalrulealignment/
@@ -26,5 +28,3 @@ public enum HorizontalRuleAlignment
 
 * 命名空间 [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../)
-
-

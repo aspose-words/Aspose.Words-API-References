@@ -1,7 +1,9 @@
 ---
 title: ListFormat.ListIndent
-second_title: Aspose.Words per .NET API Reference
-description: ListFormat metodo. Aumenta di un livello il livello dellelenco del paragrafo corrente.
+linktitle: ListIndent
+articleTitle: ListIndent
+second_title: Aspose.Words per .NET
+description: ListFormat ListIndent metodo. Aumenta di un livello il livello dellelenco del paragrafo corrente in C#.
 type: docs
 weight: 70
 url: /it/net/aspose.words.lists/listformat/listindent/
@@ -14,13 +16,13 @@ Aumenta di un livello il livello dell'elenco del paragrafo corrente.
 public void ListIndent()
 ```
 
-### Osservazioni
+## Osservazioni
 
 Questo metodo modifica il livello dell'elenco e applica le proprietà di formattazione del nuovo livello.
 
 Nei documenti Word gli elenchi possono essere costituiti da un massimo di nove livelli. La formattazione dell'elenco per ogni livello specifica quale punto elenco o numero viene utilizzato, rientro a sinistra, spazio tra il punto elenco e il testo, ecc.
 
-### Esempi
+## Esempi
 
 Mostra come creare elenchi puntati e numerati.
 
@@ -105,7 +107,5 @@ doc.Save(ArtifactsDir + "Lists.ApplyDefaultBulletsAndNumbers.docx");
 ### Guarda anche
 
 * class [ListFormat](../)
-* spazio dei nomi [Aspose.Words.Lists](../../listformat/)
+* spazio dei nomi [Aspose.Words.Lists](../../../aspose.words.lists/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: SignatureLine.DefaultInstructions
-second_title: Aspose.Words لمراجع .NET API
-description: SignatureLine ملكية. الحصول على قيمة أو تعيينها تشير إلى أن التعليمات الافتراضية تظهر في مربع حوار التوقيع. القيمة الافتراضية لهذه الخاصية هيحقيقي .
+linktitle: DefaultInstructions
+articleTitle: DefaultInstructions
+second_title: Aspose.Words لـ .NET
+description: SignatureLine DefaultInstructions ملكية. الحصول على قيمة أو تعيينها تشير إلى أن التعليمات الافتراضية تظهر في مربع حوار التوقيع. القيمة الافتراضية لهذه الخاصية هيحقيقي  في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.drawing/signatureline/defaultinstructions/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing/signatureline/defaultinstructions/
 public bool DefaultInstructions { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء سطر للتوقيع وإدراجه في مستند.
 
@@ -59,7 +61,5 @@ doc.Save(ArtifactsDir + "Shape.SignatureLine.docx");
 ### أنظر أيضا
 
 * class [SignatureLine](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../signatureline/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

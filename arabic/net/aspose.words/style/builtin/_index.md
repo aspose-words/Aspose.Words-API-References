@@ -1,7 +1,9 @@
 ---
 title: Style.BuiltIn
-second_title: Aspose.Words لمراجع .NET API
-description: Style ملكية. صحيح إذا كان هذا النمط أحد الأنماط المضمنة في برنامج MS Word.
+linktitle: BuiltIn
+articleTitle: BuiltIn
+second_title: Aspose.Words لـ .NET
+description: Style BuiltIn ملكية. صحيح إذا كان هذا النمط أحد الأنماط المضمنة في برنامج MS Word في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words/style/builtin/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/style/builtin/
 public bool BuiltIn { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التمييز بين الأنماط المخصصة والأنماط المضمنة.
 
@@ -41,7 +43,5 @@ Assert.False(style.BuiltIn);
 ### أنظر أيضا
 
 * class [Style](../)
-* مساحة الاسم [Aspose.Words](../../style/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

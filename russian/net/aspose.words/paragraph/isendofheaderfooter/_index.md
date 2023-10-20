@@ -1,7 +1,9 @@
 ---
 title: Paragraph.IsEndOfHeaderFooter
-second_title: Справочник по API Aspose.Words для .NET
-description: Paragraph свойство. True если этот абзац является последним абзацем вHeaderFooter основной текстовый рассказSection  ложь в противном случае.
+linktitle: IsEndOfHeaderFooter
+articleTitle: IsEndOfHeaderFooter
+second_title: Aspose.Words для .NET
+description: Paragraph IsEndOfHeaderFooter свойство. True если этот абзац является последним абзацем вHeaderFooter основной текстовый рассказSection  ложь в противном случае на С#.
 type: docs
 weight: 70
 url: /ru/net/aspose.words/paragraph/isendofheaderfooter/
@@ -14,7 +16,7 @@ True, если этот абзац является последним абза�
 public bool IsEndOfHeaderFooter { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как создать верхний и нижний колонтитулы.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "HeaderFooter.Create.docx");
 ### Смотрите также
 
 * class [Paragraph](../)
-* пространство имен [Aspose.Words](../../paragraph/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

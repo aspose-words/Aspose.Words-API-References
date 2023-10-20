@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.LineUnitAfter
-second_title: Aspose.Words für .NET-API-Referenz
-description: ParagraphFormat eigendom. Ruft den Abstand in Gitterlinien nach den Absätzen ab oder legt diesen fest.
+linktitle: LineUnitAfter
+articleTitle: LineUnitAfter
+second_title: Aspose.Words für .NET
+description: ParagraphFormat LineUnitAfter eigendom. Ruft den Abstand in Gitterlinien nach den Absätzen ab oder legt diesen fest in C#.
 type: docs
 weight: 220
 url: /de/net/aspose.words/paragraphformat/lineunitafter/
@@ -14,7 +16,7 @@ Ruft den Abstand (in Gitterlinien) nach den Absätzen ab oder legt diesen fest.
 public double LineUnitAfter { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Absatzabstände und Einzüge geändert werden.
 
@@ -68,7 +70,5 @@ builder.Write("测试文档测试文档测试文档测试文档测试文档测�
 ### Siehe auch
 
 * class [ParagraphFormat](../)
-* namensraum [Aspose.Words](../../paragraphformat/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

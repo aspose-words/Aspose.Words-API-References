@@ -1,7 +1,9 @@
 ---
-title: Interface IPageLayoutCallback
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Layout.IPageLayoutCallback interfaccia. Implementa questa interfaccia se desideri che il tuo metodo personalizzato venga chiamato durante la creazione e il rendering del modello di layout della pagina.
+title: IPageLayoutCallback Interface
+linktitle: IPageLayoutCallback
+articleTitle: IPageLayoutCallback
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Layout.IPageLayoutCallback interfaccia. Implementa questa interfaccia se desideri che il tuo metodo personalizzato venga chiamato durante la creazione e il rendering del modello di layout della pagina in C#.
 type: docs
 weight: 3310
 url: /it/net/aspose.words.layout/ipagelayoutcallback/
@@ -18,9 +20,9 @@ public interface IPageLayoutCallback
 
 | Nome | Descrizione |
 | --- | --- |
-| [Notify](../../aspose.words.layout/ipagelayoutcallback/notify/)(PageLayoutCallbackArgs) | Viene richiamato per notificare la creazione del layout e l'avanzamento del rendering. |
+| [Notify](../../aspose.words.layout/ipagelayoutcallback/notify/)(*[PageLayoutCallbackArgs](../pagelayoutcallbackargs/)*) | Viene richiamato per notificare la creazione del layout e l'avanzamento del rendering. |
 
-### Osservazioni
+## Osservazioni
 
 L'utilizzo principale di questa interfaccia è consentire al codice dell'applicazione di interrompere il processo di compilazione.
 
@@ -30,7 +32,7 @@ Tieni presente, tuttavia, che i risultati del rendering potrebbero non corrispon
 
 Questa tecnica potrebbe non funzionare per tutti i documenti o potrebbe fallire completamente.
 
-### Esempi
+## Esempi
 
 Mostra come tenere traccia delle modifiche al layout con un callback del layout.
 
@@ -98,5 +100,3 @@ private class RenderPageLayoutCallback : IPageLayoutCallback
 * property [Callback](../layoutoptions/callback/)
 * spazio dei nomi [Aspose.Words.Layout](../../aspose.words.layout/)
 * assemblea [Aspose.Words](../../)
-
-

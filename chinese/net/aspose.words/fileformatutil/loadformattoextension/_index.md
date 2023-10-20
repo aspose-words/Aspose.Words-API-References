@@ -1,7 +1,9 @@
 ---
 title: FileFormatUtil.LoadFormatToExtension
-second_title: Aspose.Words for .NET API 参考
-description: FileFormatUtil 方法. 将加载格式枚举值转换为文件扩展名返回的扩展名是带有前导点的小写字符串
+linktitle: LoadFormatToExtension
+articleTitle: LoadFormatToExtension
+second_title: 用于 .NET 的 Aspose.Words
+description: FileFormatUtil LoadFormatToExtension 方法. 将加载格式枚举值转换为文件扩展名返回的扩展名是带有前导点的小写字符串 在 C#.
 type: docs
 weight: 60
 url: /zh/net/aspose.words/fileformatutil/loadformattoextension/
@@ -20,11 +22,11 @@ public static string LoadFormatToExtension(LoadFormat loadFormat)
 | --- | --- |
 | ArgumentException | 无法转换时抛出。 |
 
-### 评论
+## 评论
 
 这WordML值转换为“.wml”。
 
-### 例子
+## 例子
 
 演示如何使用 FileFormatUtil 方法来检测文档的格式。
 
@@ -58,7 +60,5 @@ using (FileStream docStream = File.OpenRead(MyDir + "Word document with missing 
 
 * enum [LoadFormat](../../loadformat/)
 * class [FileFormatUtil](../)
-* 命名空间 [Aspose.Words](../../fileformatutil/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

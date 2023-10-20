@@ -1,7 +1,9 @@
 ---
 title: CompareOptions.IgnoreFootnotes
-second_title: Aspose.Words لمراجع .NET API
-description: CompareOptions ملكية. يحدد ما إذا كان سيتم مقارنة الاختلافات في الحواشي السفلية والتعليقات الختامية. بشكل افتراضي لا يتم تجاهل الحواشي السفلية.
+linktitle: IgnoreFootnotes
+articleTitle: IgnoreFootnotes
+second_title: Aspose.Words لـ .NET
+description: CompareOptions IgnoreFootnotes ملكية. يحدد ما إذا كان سيتم مقارنة الاختلافات في الحواشي السفلية والتعليقات الختامية. بشكل افتراضي لا يتم تجاهل الحواشي السفلية في C#.
 type: docs
 weight: 80
 url: /ar/net/aspose.words.comparing/compareoptions/ignorefootnotes/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.comparing/compareoptions/ignorefootnotes/
 public bool IgnoreFootnotes { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تصفية أنواع معينة من عناصر المستند عند إجراء المقارنة.
 
@@ -88,7 +90,5 @@ docOriginal.Save(ArtifactsDir + "Document.CompareOptions.docx");
 ### أنظر أيضا
 
 * class [CompareOptions](../)
-* مساحة الاسم [Aspose.Words.Comparing](../../compareoptions/)
+* مساحة الاسم [Aspose.Words.Comparing](../../../aspose.words.comparing/)
 * المجسم [Aspose.Words](../../../)
-
-

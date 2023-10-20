@@ -1,7 +1,9 @@
 ---
-title: Enum RevisionTextEffect
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Layout.RevisionTextEffect 枚举. 允许指定文档文本修订的装饰效果
+title: RevisionTextEffect Enum
+linktitle: RevisionTextEffect
+articleTitle: RevisionTextEffect
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Layout.RevisionTextEffect 枚举. 允许指定文档文本修订的装饰效果 在 C#.
 type: docs
 weight: 3400
 url: /zh/net/aspose.words.layout/revisiontexteffect/
@@ -28,7 +30,7 @@ public enum RevisionTextEffect
 | DoubleStrikeThrough | `7` | 修订内容采用双描边并着色。 |
 | Hidden | `8` | 修改后的内容已隐藏。 |
 
-### 例子
+## 例子
 
 展示如何修改修订版本的外观。
 
@@ -80,5 +82,3 @@ doc.Save(ArtifactsDir + "Revision.RevisionOptions.pdf");
 
 * 命名空间 [Aspose.Words.Layout](../../aspose.words.layout/)
 * 部件 [Aspose.Words](../../)
-
-

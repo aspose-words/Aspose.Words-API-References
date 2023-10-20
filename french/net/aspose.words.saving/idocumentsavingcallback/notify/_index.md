@@ -1,7 +1,9 @@
 ---
 title: IDocumentSavingCallback.Notify
-second_title: Référence de l'API Aspose.Words pour .NET
-description: IDocumentSavingCallback méthode. Ceci est appelé pour informer de la progression de lenregistrement du document.
+linktitle: Notify
+articleTitle: Notify
+second_title: Aspose.Words pour .NET
+description: IDocumentSavingCallback Notify méthode. Ceci est appelé pour informer de la progression de lenregistrement du document en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.saving/idocumentsavingcallback/notify/
@@ -18,13 +20,13 @@ public void Notify(DocumentSavingArgs args)
 | --- | --- | --- |
 | args | DocumentSavingArgs | Un argument de l'événement. |
 
-### Remarques
+## Remarques
 
 Les principales utilisations de cette interface sont de permettre au code d'application d'obtenir l'état de progression et d'abandonner le processus de sauvegarde.
 
 Une exception doit être levée à partir du rappel de progression pour l'avortement et elle doit être interceptée dans le code du consommateur.
 
-### Exemples
+## Exemples
 
 Montre comment gérer un document tout en l'enregistrant au format HTML.
 
@@ -195,7 +197,5 @@ public class SavingProgressCallback : IDocumentSavingCallback
 
 * class [DocumentSavingArgs](../../documentsavingargs/)
 * interface [IDocumentSavingCallback](../)
-* espace de noms [Aspose.Words.Saving](../../idocumentsavingcallback/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

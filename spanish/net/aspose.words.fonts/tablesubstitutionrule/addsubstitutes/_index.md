@@ -1,7 +1,9 @@
 ---
 title: TableSubstitutionRule.AddSubstitutes
-second_title: Referencia de API de Aspose.Words para .NET
-description: TableSubstitutionRule método. Agrega nombres de fuentes sustitutos para el nombre de fuente original dado.
+linktitle: AddSubstitutes
+articleTitle: AddSubstitutes
+second_title: Aspose.Words para .NET
+description: TableSubstitutionRule AddSubstitutes método. Agrega nombres de fuentes sustitutos para el nombre de fuente original dado en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words.fonts/tablesubstitutionrule/addsubstitutes/
@@ -19,7 +21,7 @@ public void AddSubstitutes(string originalFontName, params string[] substituteFo
 | originalFontName | String | Nombre de fuente original. |
 | substituteFontNames | String[] | Lista de nombres de fuentes alternativas. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo acceder a la fuente de fuentes del sistema de un documento y configurar fuentes sustitutas.
 
@@ -131,7 +133,5 @@ doc.Save(ArtifactsDir + "FontSettings.TableSubstitutionRule.Custom.pdf");
 ### Ver también
 
 * class [TableSubstitutionRule](../)
-* espacio de nombres [Aspose.Words.Fonts](../../tablesubstitutionrule/)
+* espacio de nombres [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * asamblea [Aspose.Words](../../../)
-
-

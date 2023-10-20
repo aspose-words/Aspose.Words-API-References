@@ -1,7 +1,9 @@
 ---
 title: MustacheTag.ReferenceRun
-second_title: Référence de l'API Aspose.Words pour .NET
-description: MustacheTag propriété. Obtient lexécution qui contient le début de la balise.
+linktitle: ReferenceRun
+articleTitle: ReferenceRun
+second_title: Aspose.Words pour .NET
+description: MustacheTag ReferenceRun propriété. Obtient lexécution qui contient le début de la balise en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.mailmerging/mustachetag/referencerun/
@@ -14,7 +16,7 @@ Obtient l'exécution qui contient le début de la balise.
 public Run ReferenceRun { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment utiliser les balises de moustache.
 
@@ -42,7 +44,5 @@ foreach (MailMergeRegionInfo region in hierarchy.Regions)
 
 * class [Run](../../../aspose.words/run/)
 * class [MustacheTag](../)
-* espace de noms [Aspose.Words.MailMerging](../../mustachetag/)
+* espace de noms [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * Assemblée [Aspose.Words](../../../)
-
-

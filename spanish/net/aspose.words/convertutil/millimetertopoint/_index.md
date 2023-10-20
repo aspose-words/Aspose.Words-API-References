@@ -1,7 +1,9 @@
 ---
 title: ConvertUtil.MillimeterToPoint
-second_title: Referencia de API de Aspose.Words para .NET
-description: ConvertUtil método. Convierte milímetros a puntos.
+linktitle: MillimeterToPoint
+articleTitle: MillimeterToPoint
+second_title: Aspose.Words para .NET
+description: ConvertUtil MillimeterToPoint método. Convierte milímetros a puntos en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words/convertutil/millimetertopoint/
@@ -18,11 +20,11 @@ public static double MillimeterToPoint(double millimeters)
 | --- | --- | --- |
 | millimeters | Double | El valor a convertir. |
 
-### Observaciones
+## Observaciones
 
 1 pulgada equivale a 25,4 milímetros. 1 pulgada equivale a 72 puntos.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo especificar propiedades de página en milímetros.
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "UtilityClasses.PointsAndMillimeters.docx");
 ### Ver también
 
 * class [ConvertUtil](../)
-* espacio de nombres [Aspose.Words](../../convertutil/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: SaveOptions.ExportGeneratorName
-second_title: Aspose.Words لمراجع .NET API
-description: SaveOptions ملكية. متىحقيقي  يؤدي إلى تضمين اسم وإصدار Aspose.Words في الملفات المنتجة. القيمة الافتراضية هيحقيقي .
+linktitle: ExportGeneratorName
+articleTitle: ExportGeneratorName
+second_title: Aspose.Words لـ .NET
+description: SaveOptions ExportGeneratorName ملكية. متىحقيقي  يؤدي إلى تضمين اسم وإصدار Aspose.Words في الملفات المنتجة. القيمة الافتراضية هيحقيقي  في C#.
 type: docs
 weight: 80
 url: /ar/net/aspose.words.saving/saveoptions/exportgeneratorname/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.saving/saveoptions/exportgeneratorname/
 public bool ExportGeneratorName { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعطيل إضافة اسم وإصدار Aspose.Words إلى الملفات المنتجة.
 
@@ -30,7 +32,5 @@ doc.Save(ArtifactsDir + "OoxmlSaveOptions.ExportGeneratorName.docx", saveOptions
 ### أنظر أيضا
 
 * class [SaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../saveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class RevisionOptions
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Layout.RevisionOptions сорт. Позволяет контролировать обработку изменений документа в процессе макетирования.
+title: RevisionOptions Class
+linktitle: RevisionOptions
+articleTitle: RevisionOptions
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Layout.RevisionOptions сорт. Позволяет контролировать обработку изменений документа в процессе макетирования на С#.
 type: docs
 weight: 3390
 url: /ru/net/aspose.words.layout/revisionoptions/
@@ -40,7 +42,7 @@ public class RevisionOptions
 | [ShowRevisionBars](../../aspose.words.layout/revisionoptions/showrevisionbars/) { get; set; } | Позволяет указать, должны ли полосы изменений отображаться рядом со строками, содержащими измененный контент. Значение по умолчанию:`истинный` . |
 | [ShowRevisionMarks](../../aspose.words.layout/revisionoptions/showrevisionmarks/) { get; set; } | Позволяет указать, следует ли помечать текст редакции специальной разметкой форматирования. Значение по умолчанию:`истинный` . |
 
-### Примеры
+## Примеры
 
 Показывает, как изменить внешний вид редакций в готовом к просмотру выходном документе.
 
@@ -66,5 +68,3 @@ doc.Save(ArtifactsDir + "Document.LayoutOptionsRevisions.pdf");
 
 * пространство имен [Aspose.Words.Layout](../../aspose.words.layout/)
 * сборка [Aspose.Words](../../)
-
-

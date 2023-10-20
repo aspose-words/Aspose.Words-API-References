@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitCellStart
-second_title: Справочник по API Aspose.Words для .NET
-description: DocumentVisitor метод. Вызывается когда началось перечисление ячейки таблицы.
+linktitle: VisitCellStart
+articleTitle: VisitCellStart
+second_title: Aspose.Words для .NET
+description: DocumentVisitor VisitCellStart метод. Вызывается когда началось перечисление ячейки таблицы на С#.
 type: docs
 weight: 90
 url: /ru/net/aspose.words/documentvisitor/visitcellstart/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitCellStart(Cell cell)
 
 А[`VisitorAction`](../../visitoraction/) значение, указывающее, как продолжить перечисление.
 
-### Примеры
+## Примеры
 
 Показывает, как распечатать структуру узлов каждой таблицы в документе.
 
@@ -187,7 +189,5 @@ public class TableStructurePrinter : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [Cell](../../../aspose.words.tables/cell/)
 * class [DocumentVisitor](../)
-* пространство имен [Aspose.Words](../../documentvisitor/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Watermark.Remove
-second_title: Справочник по API Aspose.Words для .NET
-description: Watermark метод. Удаляет водяной знак.
+linktitle: Remove
+articleTitle: Remove
+second_title: Aspose.Words для .NET
+description: Watermark Remove метод. Удаляет водяной знак на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words/watermark/remove/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/watermark/remove/
 public void Remove()
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как создать текстовый водяной знак.
 
@@ -45,7 +47,5 @@ if (doc.Watermark.Type == WatermarkType.Text)
 ### Смотрите также
 
 * class [Watermark](../)
-* пространство имен [Aspose.Words](../../watermark/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

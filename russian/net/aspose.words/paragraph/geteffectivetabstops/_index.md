@@ -1,9 +1,11 @@
 ---
 title: Paragraph.GetEffectiveTabStops
-second_title: Справочник по API Aspose.Words для .NET
-description: Paragraph метод. Возвращает массив всех позиций табуляции примененных к этому абзацу в том числе примененных косвенно с помощью стилей или списков.
+linktitle: GetEffectiveTabStops
+articleTitle: GetEffectiveTabStops
+second_title: Aspose.Words для .NET
+description: Paragraph GetEffectiveTabStops метод. Возвращает массив всех позиций табуляции примененных к этому абзацу в том числе примененных косвенно с помощью стилей или списков на С#.
 type: docs
-weight: 270
+weight: 250
 url: /ru/net/aspose.words/paragraph/geteffectivetabstops/
 ---
 ## Paragraph.GetEffectiveTabStops method
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/paragraph/geteffectivetabstops/
 public TabStop[] GetEffectiveTabStops()
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как установить пользовательские позиции табуляции для абзаца.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "Paragraph.TabStops.docx");
 
 * class [TabStop](../../tabstop/)
 * class [Paragraph](../)
-* пространство имен [Aspose.Words](../../paragraph/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

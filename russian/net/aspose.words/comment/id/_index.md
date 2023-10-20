@@ -1,7 +1,9 @@
 ---
 title: Comment.Id
-second_title: Справочник по API Aspose.Words для .NET
-description: Comment свойство. Получает идентификатор комментария.
+linktitle: Id
+articleTitle: Id
+second_title: Aspose.Words для .NET
+description: Comment Id свойство. Получает идентификатор комментария на С#.
 type: docs
 weight: 60
 url: /ru/net/aspose.words/comment/id/
@@ -11,10 +13,10 @@ url: /ru/net/aspose.words/comment/id/
 Получает идентификатор комментария.
 
 ```csharp
-public int Id { get; set; }
+public int Id { get; }
 ```
 
-### Примечания
+## Примечания
 
 Идентификатор комментария позволяет привязать комментарий к области текста в документе. Область должна быть разграничена с помощью[`CommentRangeStart`](../../commentrangestart/) и[`CommentRangeEnd`](../../commentrangeend/) Объект имеет то же значение идентификатора, что и объект[`Comment`](../) объект.
 
@@ -22,7 +24,7 @@ public int Id { get; set; }
 
 Идентификаторы комментариев должны быть уникальными в пределах документа, и Aspose.Words автоматически поддерживает идентификаторы комментариев при загрузке, сохранении и объединении документов.
 
-### Примеры
+## Примеры
 
 Показывает, как распечатать содержимое всех комментариев и их диапазоны комментариев с помощью посетителя документов.
 
@@ -183,7 +185,5 @@ public class CommentInfoPrinter : DocumentVisitor
 ### Смотрите также
 
 * class [Comment](../)
-* пространство имен [Aspose.Words](../../comment/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

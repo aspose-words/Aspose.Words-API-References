@@ -1,7 +1,9 @@
 ---
-title: Class ThemeFonts
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Themes.ThemeFonts klass. Representerar en samling teckensnitt i teckensnittsschemat vilket gör det möjligt att ange olika teckensnitt för olika språkLatin EastAsian ochComplexScript .
+title: ThemeFonts Class
+linktitle: ThemeFonts
+articleTitle: ThemeFonts
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Themes.ThemeFonts klass. Representerar en samling teckensnitt i teckensnittsschemat vilket gör det möjligt att ange olika teckensnitt för olika språkLatin EastAsian ochComplexScript  i C#.
 type: docs
 weight: 6500
 url: /sv/net/aspose.words.themes/themefonts/
@@ -24,7 +26,7 @@ public class ThemeFonts
 | [EastAsian](../../aspose.words.themes/themefonts/eastasian/) { get; set; } | Anger teckensnittsnamn för östasiatiska tecken. |
 | [Latin](../../aspose.words.themes/themefonts/latin/) { get; set; } | Anger teckensnittsnamn för latinska tecken. |
 
-### Exempel
+## Exempel
 
 Visar hur du ställer in anpassade färger och teckensnitt för teman.
 
@@ -73,5 +75,3 @@ doc.Save(ArtifactsDir + "Themes.CustomColorsAndFonts.docx");
 
 * namnutrymme [Aspose.Words.Themes](../../aspose.words.themes/)
 * hopsättning [Aspose.Words](../../)
-
-

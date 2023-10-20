@@ -1,7 +1,9 @@
 ---
 title: FieldRef.SuppressNonDelimiters
-second_title: Aspose.Words for .NET API 参考
-description: FieldRef 财产. 获取或设置是否隐藏非分隔符
+linktitle: SuppressNonDelimiters
+articleTitle: SuppressNonDelimiters
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldRef SuppressNonDelimiters 财产. 获取或设置是否隐藏非分隔符 在 C#.
 type: docs
 weight: 100
 url: /zh/net/aspose.words.fields/fieldref/suppressnondelimiters/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fieldref/suppressnondelimiters/
 public bool SuppressNonDelimiters { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何将 REF 字段插入到参考书签。
 
@@ -104,7 +106,5 @@ private static FieldRef InsertFieldRef(DocumentBuilder builder, string bookmarkN
 ### 也可以看看
 
 * class [FieldRef](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldref/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

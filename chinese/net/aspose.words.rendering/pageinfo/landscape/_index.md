@@ -1,7 +1,9 @@
 ---
 title: PageInfo.Landscape
-second_title: Aspose.Words for .NET API 参考
-description: PageInfo 财产. 返回真的如果文档中为此页面指定的页面方向是横向
+linktitle: Landscape
+articleTitle: Landscape
+second_title: 用于 .NET 的 Aspose.Words
+description: PageInfo Landscape 财产. 返回真的如果文档中为此页面指定的页面方向是横向 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.rendering/pageinfo/landscape/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.rendering/pageinfo/landscape/
 public bool Landscape { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何打印 Word 文档中每个页面的页面大小和方向信息。
 
@@ -157,7 +159,5 @@ public class MyPrintDocument : PrintDocument
 ### 也可以看看
 
 * class [PageInfo](../)
-* 命名空间 [Aspose.Words.Rendering](../../pageinfo/)
+* 命名空间 [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * 部件 [Aspose.Words](../../../)
-
-

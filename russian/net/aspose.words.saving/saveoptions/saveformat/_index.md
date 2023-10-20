@@ -1,7 +1,9 @@
 ---
 title: SaveOptions.SaveFormat
-second_title: Справочник по API Aspose.Words для .NET
-description: SaveOptions свойство. Указывает формат в котором документ будет сохранен если используется этот объект параметров сохранения.
+linktitle: SaveFormat
+articleTitle: SaveFormat
+second_title: Aspose.Words для .NET
+description: SaveOptions SaveFormat свойство. Указывает формат в котором документ будет сохранен если используется этот объект параметров сохранения на С#.
 type: docs
 weight: 130
 url: /ru/net/aspose.words.saving/saveoptions/saveformat/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.saving/saveoptions/saveformat/
 public abstract SaveFormat SaveFormat { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как использовать определенную кодировку при сохранении документа в формате .epub.
 
@@ -42,7 +44,5 @@ doc.Save(ArtifactsDir + "HtmlSaveOptions.Doc2EpubSaveOptions.epub", saveOptions)
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
 * class [SaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../saveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

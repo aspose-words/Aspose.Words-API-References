@@ -1,7 +1,9 @@
 ---
-title: Class Bookmark
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Bookmark klass. Representerar ett enda bokmärke.
+title: Bookmark Class
+linktitle: Bookmark
+articleTitle: Bookmark
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Bookmark klass. Representerar ett enda bokmärke i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words/bookmark/
@@ -34,11 +36,11 @@ public class Bookmark
 | --- | --- |
 | [Remove](../../aspose.words/bookmark/remove/)() | Tar bort bokmärket från dokumentet. Tar inte bort text inuti bokmärket. |
 
-### Anmärkningar
+## Anmärkningar
 
 `Bookmark` är ett "fasad"-objekt som kapslar in två noder[`BookmarkStart`](./bookmarkstart/) och[`BookmarkEnd`](./bookmarkend/) i ett dokumentträd och gör det möjligt att arbeta med ett bokmärke som ett enda objekt.
 
-### Exempel
+## Exempel
 
 Visar hur du lägger till bokmärken och uppdaterar deras innehåll.
 
@@ -128,5 +130,3 @@ public class BookmarkInfoPrinter : DocumentVisitor
 
 * namnutrymme [Aspose.Words](../../aspose.words/)
 * hopsättning [Aspose.Words](../../)
-
-

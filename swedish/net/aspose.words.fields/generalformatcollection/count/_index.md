@@ -1,7 +1,9 @@
 ---
 title: GeneralFormatCollection.Count
-second_title: Aspose.Words för .NET API Referens
-description: GeneralFormatCollection fast egendom. Får det totala antalet föremål i samlingen.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words för .NET
+description: GeneralFormatCollection Count fast egendom. Får det totala antalet föremål i samlingen i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.fields/generalformatcollection/count/
@@ -14,7 +16,7 @@ Får det totala antalet föremål i samlingen.
 public int Count { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man formaterar fältresultat.
 
@@ -78,7 +80,5 @@ Assert.AreEqual(0, format.GeneralFormats.Count);
 ### Se även
 
 * class [GeneralFormatCollection](../)
-* namnutrymme [Aspose.Words.Fields](../../generalformatcollection/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

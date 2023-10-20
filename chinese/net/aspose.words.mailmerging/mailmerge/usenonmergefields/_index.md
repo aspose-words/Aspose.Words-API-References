@@ -1,7 +1,9 @@
 ---
 title: MailMerge.UseNonMergeFields
-second_title: Aspose.Words for .NET API 参考
-description: MailMerge 财产. 当真的指定除了 MERGEFIELD 字段之外还会将邮件合并到其他一些类型的字段中并且 还执行到fieldName标签中
+linktitle: UseNonMergeFields
+articleTitle: UseNonMergeFields
+second_title: 用于 .NET 的 Aspose.Words
+description: MailMerge UseNonMergeFields 财产. 当真的指定除了 MERGEFIELD 字段之外还会将邮件合并到其他一些类型的字段中并且 还执行到fieldName标签中 在 C#.
 type: docs
 weight: 150
 url: /zh/net/aspose.words.mailmerging/mailmerge/usenonmergefields/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.mailmerging/mailmerge/usenonmergefields/
 public bool UseNonMergeFields { get; set; }
 ```
 
-### 评论
+## 评论
 
 通常，邮件合并仅在 MERGEFIELD 字段中执行，但一些客户使用其他字段构建了 reporting ，并以这种方式创建了许多文档。为了简化迁移（并且因为 this 方法被多个客户独立使用），引入了将邮件合并到其他字段的功能。
 
@@ -28,7 +30,7 @@ MACROBUTTON NOMACRO 字段名称
 
 另外，当`UseNonMergeFields`被设定为`真的`，Aspose.Words 将执行邮件合并为文本tags “{{fieldName}}”。这些不是字段，而只是文本标签。
 
-### 例子
+## 例子
 
 演示如何保留在邮件合并期间未使用的备用邮件合并标记的外观。
 
@@ -92,7 +94,5 @@ private static DataTable CreateSourceTablePreserveUnusedTags()
 ### 也可以看看
 
 * class [MailMerge](../)
-* 命名空间 [Aspose.Words.MailMerging](../../mailmerge/)
+* 命名空间 [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * 部件 [Aspose.Words](../../../)
-
-

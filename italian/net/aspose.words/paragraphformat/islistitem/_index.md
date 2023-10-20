@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.IsListItem
-second_title: Aspose.Words per .NET API Reference
-description: ParagraphFormat proprietà. Vero quando il paragrafo è un elemento in un elenco puntato o numerato.
+linktitle: IsListItem
+articleTitle: IsListItem
+second_title: Aspose.Words per .NET
+description: ParagraphFormat IsListItem proprietà. Vero quando il paragrafo è un elemento in un elenco puntato o numerato in C#.
 type: docs
 weight: 150
 url: /it/net/aspose.words/paragraphformat/islistitem/
@@ -14,7 +16,7 @@ Vero quando il paragrafo è un elemento in un elenco puntato o numerato.
 public bool IsListItem { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come nidificare un elenco all'interno di un altro elenco.
 
@@ -68,7 +70,5 @@ builder.Document.Save(ArtifactsDir + "Lists.NestedLists.docx");
 ### Guarda anche
 
 * class [ParagraphFormat](../)
-* spazio dei nomi [Aspose.Words](../../paragraphformat/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

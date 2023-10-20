@@ -1,7 +1,9 @@
 ---
 title: BorderCollection.Item
-second_title: Aspose.Words for .NET API 参考
-description: BorderCollection 财产. 检索Border按边框类型划分的对象
+linktitle: Item
+articleTitle: Item
+second_title: 用于 .NET 的 Aspose.Words
+description: BorderCollection Item 财产. 检索Border按边框类型划分的对象 在 C#.
 type: docs
 weight: 60
 url: /zh/net/aspose.words/bordercollection/item/
@@ -18,11 +20,11 @@ public Border this[BorderType borderType] { get; }
 | --- | --- |
 | borderType | A[`BorderType`](../../bordertype/) value 指定要检索的边框的类型。 |
 
-### 评论
+## 评论
 
 请注意，并非所有边框都适用于不同的文档元素。 如果您请求不适用于当前对象的边框，此方法将引发异常。
 
-### 例子
+## 例子
 
 展示如何用边框和底纹装饰文本。
 
@@ -51,7 +53,7 @@ doc.Save(ArtifactsDir + "DocumentBuilder.ApplyBordersAndShading.docx");
 * class [Border](../../border/)
 * enum [BorderType](../../bordertype/)
 * class [BorderCollection](../)
-* 命名空间 [Aspose.Words](../../bordercollection/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
 
 ---
@@ -68,7 +70,7 @@ public Border this[int index] { get; }
 | --- | --- |
 | index | 要检索的边界的从零开始的索引。 |
 
-### 例子
+## 例子
 
 展示边框集合如何共享元素。
 
@@ -111,7 +113,5 @@ doc.Save(ArtifactsDir + "Border.SharedElements.docx");
 
 * class [Border](../../border/)
 * class [BorderCollection](../)
-* 命名空间 [Aspose.Words](../../bordercollection/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum ColorMode
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Saving.ColorMode تعداد. يحدد كيفية عرض الألوان.
+title: ColorMode Enum
+linktitle: ColorMode
+articleTitle: ColorMode
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Saving.ColorMode تعداد. يحدد كيفية عرض الألوان في C#.
 type: docs
 weight: 4860
 url: /ar/net/aspose.words.saving/colormode/
@@ -21,7 +23,7 @@ public enum ColorMode
 | Normal | `0` | العرض بألوان غير معدلة. |
 | Grayscale | `1` | تقديم الألوان في مجموعة من الظلال الرمادية من الأبيض إلى الأسود. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تغيير لون الصورة مع خاصية خيارات الحفظ.
 
@@ -42,5 +44,3 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.ColorRendering.pdf", pdfSaveOptions);
 
 * مساحة الاسم [Aspose.Words.Saving](../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../)
-
-

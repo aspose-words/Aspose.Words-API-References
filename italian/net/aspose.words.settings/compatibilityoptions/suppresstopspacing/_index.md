@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.SuppressTopSpacing
-second_title: Aspose.Words per .NET API Reference
-description: CompatibilityOptions proprietà. Ignora laltezza minima ed esatta della riga per la prima riga nella pagina.
+linktitle: SuppressTopSpacing
+articleTitle: SuppressTopSpacing
+second_title: Aspose.Words per .NET
+description: CompatibilityOptions SuppressTopSpacing proprietà. Ignora laltezza minima ed esatta della riga per la prima riga nella pagina in C#.
 type: docs
 weight: 510
 url: /it/net/aspose.words.settings/compatibilityoptions/suppresstopspacing/
@@ -17,7 +19,5 @@ public bool SuppressTopSpacing { get; set; }
 ### Guarda anche
 
 * class [CompatibilityOptions](../)
-* spazio dei nomi [Aspose.Words.Settings](../../compatibilityoptions/)
+* spazio dei nomi [Aspose.Words.Settings](../../../aspose.words.settings/)
 * assemblea [Aspose.Words](../../../)
-
-

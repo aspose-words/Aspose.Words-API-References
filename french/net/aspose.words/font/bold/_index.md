@@ -1,7 +1,9 @@
 ---
 title: Font.Bold
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Font propriété. True si la police est formatée en gras.
+linktitle: Bold
+articleTitle: Bold
+second_title: Aspose.Words pour .NET
+description: Font Bold propriété. True si la police est formatée en gras en C#.
 type: docs
 weight: 40
 url: /fr/net/aspose.words/font/bold/
@@ -14,7 +16,7 @@ True si la police est formatée en gras.
 public bool Bold { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment insérer du texte formaté à l’aide de DocumentBuilder.
 
@@ -36,7 +38,5 @@ builder.Write("Hello world!");
 ### Voir également
 
 * class [Font](../)
-* espace de noms [Aspose.Words](../../font/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

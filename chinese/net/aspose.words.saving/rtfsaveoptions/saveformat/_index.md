@@ -1,7 +1,9 @@
 ---
 title: RtfSaveOptions.SaveFormat
-second_title: Aspose.Words for .NET API 参考
-description: RtfSaveOptions 财产. 指定使用此保存选项对象时保存文档的格式 只能是Rtf.
+linktitle: SaveFormat
+articleTitle: SaveFormat
+second_title: 用于 .NET 的 Aspose.Words
+description: RtfSaveOptions SaveFormat 财产. 指定使用此保存选项对象时保存文档的格式 只能是Rtf 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.saving/rtfsaveoptions/saveformat/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.saving/rtfsaveoptions/saveformat/
 public override SaveFormat SaveFormat { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何使用自定义选项将文档保存为 .rtf。
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "RtfSaveOptions.ExportImages.rtf", options);
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
 * class [RtfSaveOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../rtfsaveoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: CommentRangeStart.CommentRangeStart
-second_title: Aspose.Words لمراجع .NET API
-description: CommentRangeStart البناء. تهيئة مثيل جديد لهذه الفئة.
+title: CommentRangeStart
+linktitle: CommentRangeStart
+articleTitle: CommentRangeStart
+second_title: Aspose.Words لـ .NET
+description: CommentRangeStart البناء. تهيئة مثيل جديد لهذه الفئة في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words/commentrangestart/commentrangestart/
@@ -19,13 +21,13 @@ public CommentRangeStart(DocumentBase doc, int id)
 | doc | DocumentBase | وثيقة المالك. |
 | id | Int32 | معرف التعليق الذي يرتبط به هذا الكائن. |
 
-### ملاحظات
+## ملاحظات
 
 متى[`CommentRangeStart`](../) تم إنشاؤه، فهو ينتمي إلى المستند المحدد، ولكنه ليس بعد جزءًا من المستند و[`ParentNode`](../../node/parentnode/) يكون`باطل`.
 
 لإلحاق أ[`CommentRangeStart`](../) في المستند، استخدم InsertAfter أو InsertBefore في الفقرة التي تريد إدراج التعليق فيها.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية طباعة محتويات جميع التعليقات ونطاقات التعليقات الخاصة بها باستخدام زائر المستند.
 
@@ -187,7 +189,5 @@ public class CommentInfoPrinter : DocumentVisitor
 
 * class [DocumentBase](../../documentbase/)
 * class [CommentRangeStart](../)
-* مساحة الاسم [Aspose.Words](../../commentrangestart/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

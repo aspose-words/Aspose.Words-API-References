@@ -1,7 +1,9 @@
 ---
 title: OfficeMath.Accept
-second_title: Справочник по API Aspose.Words для .NET
-description: OfficeMath метод. Принимает посетителя.
+linktitle: Accept
+articleTitle: Accept
+second_title: Aspose.Words для .NET
+description: OfficeMath Accept метод. Принимает посетителя на С#.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.math/officemath/accept/
@@ -22,7 +24,7 @@ public override bool Accept(DocumentVisitor visitor)
 
 Истинно, если были посещены все узлы; ложь, если[`DocumentVisitor`](../../../aspose.words/documentvisitor/) остановил операцию перед посещением всех узлов.
 
-### Примечания
+## Примечания
 
 Перечисляет этот узел и все его дочерние элементы. Каждый узел вызывает соответствующий метод[`DocumentVisitor`](../../../aspose.words/documentvisitor/).
 
@@ -30,7 +32,7 @@ public override bool Accept(DocumentVisitor visitor)
 
 Звонки[`VisitOfficeMathStart`](../../../aspose.words/documentvisitor/visitofficemathstart/) , затем звонит[`Accept`](../../../aspose.words/node/accept/) для all дочерних узлов Office Math и вызовов[`VisitOfficeMathEnd`](../../../aspose.words/documentvisitor/visitofficemathend/) в конце.
 
-### Примеры
+## Примеры
 
 Показывает, как распечатать структуру каждого узла офисной математики в документе.
 
@@ -123,7 +125,5 @@ public class OfficeMathStructurePrinter : DocumentVisitor
 
 * class [DocumentVisitor](../../../aspose.words/documentvisitor/)
 * class [OfficeMath](../)
-* пространство имен [Aspose.Words.Math](../../officemath/)
+* пространство имен [Aspose.Words.Math](../../../aspose.words.math/)
 * сборка [Aspose.Words](../../../)
-
-

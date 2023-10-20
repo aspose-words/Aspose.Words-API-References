@@ -1,7 +1,9 @@
 ---
 title: FieldOptions.FieldUpdateCultureSource
-second_title: Aspose.Words för .NET API Referens
-description: FieldOptions fast egendom. Anger vilken kultur som ska användas för att formatera fältresultatet.
+linktitle: FieldUpdateCultureSource
+articleTitle: FieldUpdateCultureSource
+second_title: Aspose.Words för .NET
+description: FieldOptions FieldUpdateCultureSource fast egendom. Anger vilken kultur som ska användas för att formatera fältresultatet i C#.
 type: docs
 weight: 110
 url: /sv/net/aspose.words.fields/fieldoptions/fieldupdateculturesource/
@@ -14,13 +16,13 @@ Anger vilken kultur som ska användas för att formatera fältresultatet.
 public FieldUpdateCultureSource FieldUpdateCultureSource { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Som standard används kulturen för den aktuella tråden.
 
 Inställningen påverkar endast datum/tidsfält med \\@ formatomkopplare.
 
-### Exempel
+## Exempel
 
 Visar hur man anger källan till kulturen som används för datumformatering under en fältuppdatering eller e-postsammanfogning.
 
@@ -56,7 +58,5 @@ Thread.CurrentThread.CurrentCulture = currentCulture;
 
 * enum [FieldUpdateCultureSource](../../fieldupdateculturesource/)
 * class [FieldOptions](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldoptions/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: MailMergeRegionInfo.Regions
-second_title: Aspose.Words لمراجع .NET API
-description: MailMergeRegionInfo ملكية. إرجاع قائمة بالمناطق الفرعية.
+linktitle: Regions
+articleTitle: Regions
+second_title: Aspose.Words لـ .NET
+description: MailMergeRegionInfo Regions ملكية. إرجاع قائمة بالمناطق الفرعية في C#.
 type: docs
 weight: 80
 url: /ar/net/aspose.words.mailmerging/mailmergeregioninfo/regions/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.mailmerging/mailmergeregioninfo/regions/
 public IList<MailMergeRegionInfo> Regions { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التحقق من مناطق دمج البريد.
 
@@ -59,7 +61,5 @@ Assert.AreEqual("TableEnd:NestedRegion1", endFieldMergeField.FieldName);
 ### أنظر أيضا
 
 * class [MailMergeRegionInfo](../)
-* مساحة الاسم [Aspose.Words.MailMerging](../../mailmergeregioninfo/)
+* مساحة الاسم [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum DmlRenderingMode
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Saving.DmlRenderingMode opsomming. Gibt an wie DrawingMLFormen in feste Seitenformate gerendert werden.
+title: DmlRenderingMode Enum
+linktitle: DmlRenderingMode
+articleTitle: DmlRenderingMode
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Saving.DmlRenderingMode opsomming. Gibt an wie DrawingMLFormen in feste Seitenformate gerendert werden in C#.
 type: docs
 weight: 4920
 url: /de/net/aspose.words.saving/dmlrenderingmode/
@@ -21,7 +23,7 @@ public enum DmlRenderingMode
 | Fallback | `0` | Wenn eine Fallback-Form für DrawingML verfügbar ist, rendert Aspose.Words eine Fallback-Form anstelle von DrawingML. |
 | DrawingML | `1` | Aspose.Words ignoriert die Fallback-Form von DrawingML und rendert DrawingML selbst. Dies ist der Standardmodus. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Fallback-Formen beim Speichern als PDF gerendert werden.
 
@@ -66,5 +68,3 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.DrawingMLEffects.pdf", options);
 
 * namensraum [Aspose.Words.Saving](../../aspose.words.saving/)
 * Montage [Aspose.Words](../../)
-
-

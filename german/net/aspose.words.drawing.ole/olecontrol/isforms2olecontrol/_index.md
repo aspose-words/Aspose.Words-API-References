@@ -1,7 +1,9 @@
 ---
 title: OleControl.IsForms2OleControl
-second_title: Aspose.Words für .NET-API-Referenz
-description: OleControl eigendom. Gibt zurückWAHR wenn die Kontrolle a istForms2OleControl .
+linktitle: IsForms2OleControl
+articleTitle: IsForms2OleControl
+second_title: Aspose.Words für .NET
+description: OleControl IsForms2OleControl eigendom. Gibt zurückWAHR wenn die Kontrolle a istForms2OleControl  in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words.drawing.ole/olecontrol/isforms2olecontrol/
@@ -14,7 +16,7 @@ Gibt zurück`WAHR` wenn die Kontrolle a ist[`Forms2OleControl`](../../forms2olec
 public bool IsForms2OleControl { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Eigenschaften eines ActiveX-Steuerelements überprüft werden.
 
@@ -44,7 +46,5 @@ if (oleControl.IsForms2OleControl)
 ### Siehe auch
 
 * class [OleControl](../)
-* namensraum [Aspose.Words.Drawing.Ole](../../olecontrol/)
+* namensraum [Aspose.Words.Drawing.Ole](../../../aspose.words.drawing.ole/)
 * Montage [Aspose.Words](../../../)
-
-

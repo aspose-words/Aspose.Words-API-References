@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitTableStart
-second_title: Aspose.Words för .NET API Referens
-description: DocumentVisitor metod. Anropas när uppräkningen av en tabell har påbörjats.
+linktitle: VisitTableStart
+articleTitle: VisitTableStart
+second_title: Aspose.Words för .NET
+description: DocumentVisitor VisitTableStart metod. Anropas när uppräkningen av en tabell har påbörjats i C#.
 type: docs
 weight: 500
 url: /sv/net/aspose.words/documentvisitor/visittablestart/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitTableStart(Table table)
 
 A[`VisitorAction`](../../visitoraction/) värde som anger hur uppräkningen ska fortsätta.
 
-### Exempel
+## Exempel
 
 Visar hur man skriver ut nodstrukturen för varje tabell i ett dokument.
 
@@ -187,7 +189,5 @@ public class TableStructurePrinter : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [Table](../../../aspose.words.tables/table/)
 * class [DocumentVisitor](../)
-* namnutrymme [Aspose.Words](../../documentvisitor/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

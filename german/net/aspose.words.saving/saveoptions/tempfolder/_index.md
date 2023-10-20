@@ -1,7 +1,9 @@
 ---
 title: SaveOptions.TempFolder
-second_title: Aspose.Words für .NET-API-Referenz
-description: SaveOptions eigendom. Gibt den Ordner für temporäre Dateien an die beim Speichern in einer DOC oder DOCXDatei verwendet werden. Standardmäßig ist diese EigenschaftNull und es werden keine temporären Dateien verwendet.
+linktitle: TempFolder
+articleTitle: TempFolder
+second_title: Aspose.Words für .NET
+description: SaveOptions TempFolder eigendom. Gibt den Ordner für temporäre Dateien an die beim Speichern in einer DOC oder DOCXDatei verwendet werden. Standardmäßig ist diese EigenschaftNull und es werden keine temporären Dateien verwendet in C#.
 type: docs
 weight: 140
 url: /de/net/aspose.words.saving/saveoptions/tempfolder/
@@ -14,7 +16,7 @@ Gibt den Ordner für temporäre Dateien an, die beim Speichern in einer DOC- ode
 public string TempFolder { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Wenn Aspose.Words ein Dokument speichert, müssen temporäre interne Strukturen erstellt werden. Standardmäßig werden diese internen Strukturen im Speicher erstellt und die Speichernutzung steigt kurzzeitig an, während das Dokument gespeichert wird. Wenn der Speichervorgang abgeschlossen ist, wird der Speicher freigegeben und vom Garbage Collector zurückgefordert.
 
@@ -24,7 +26,7 @@ Der Ordner muss vorhanden und beschreibbar sein, andernfalls wird eine Ausnahme 
 
 Aspose.Words löscht automatisch alle temporären Dateien, wenn der Speichervorgang abgeschlossen ist.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie beim Speichern eines Dokuments die Festplatte anstelle des Speichers verwenden.
 
@@ -49,7 +51,5 @@ Assert.That(Directory.GetFiles(options.TempFolder), Is.Empty);
 ### Siehe auch
 
 * class [SaveOptions](../)
-* namensraum [Aspose.Words.Saving](../../saveoptions/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

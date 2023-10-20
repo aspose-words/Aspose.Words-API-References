@@ -1,7 +1,9 @@
 ---
-title: Class LayoutCollector
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Layout.LayoutCollector klas. Mit dieser Klasse können Seitenzahlen von Dokumentknoten berechnet werden.
+title: LayoutCollector Class
+linktitle: LayoutCollector
+articleTitle: LayoutCollector
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Layout.LayoutCollector klas. Mit dieser Klasse können Seitenzahlen von Dokumentknoten berechnet werden in C#.
 type: docs
 weight: 3320
 url: /de/net/aspose.words.layout/layoutcollector/
@@ -20,7 +22,7 @@ public class LayoutCollector
 
 | Name | Beschreibung |
 | --- | --- |
-| [LayoutCollector](layoutcollector/)(Document) | Initialisiert eine Instanz dieser Klasse. |
+| [LayoutCollector](layoutcollector/)(*[Document](../../aspose.words/document/)*) | Initialisiert eine Instanz dieser Klasse. |
 
 ## Eigenschaften
 
@@ -33,12 +35,12 @@ public class LayoutCollector
 | Name | Beschreibung |
 | --- | --- |
 | [Clear](../../aspose.words.layout/layoutcollector/clear/)() | Löscht alle gesammelten Layoutdaten. Rufen Sie diese Methode auf, nachdem das Dokument manuell aktualisiert oder das Layout neu erstellt wurde. |
-| [GetEndPageIndex](../../aspose.words.layout/layoutcollector/getendpageindex/)(Node) | Ruft den 1-basierten Index der Seite ab, auf der der Knoten endet. Gibt 0 zurück, wenn der Knoten keiner Seite zugeordnet werden kann. |
-| [GetEntity](../../aspose.words.layout/layoutcollector/getentity/)(Node) | Gibt eine undurchsichtige Position des zurück[`LayoutEnumerator`](../layoutenumerator/) was dem angegebenen Knoten entspricht. Sie können den zurückgegebenen Wert als Argument für verwenden[`Current`](../layoutenumerator/current/) vorausgesetzt, dass das Dokument, das aufgezählt wird, und das Dokument des Knotens gleich sind. |
-| [GetNumPagesSpanned](../../aspose.words.layout/layoutcollector/getnumpagesspanned/)(Node) | Ruft die Anzahl der Seiten ab, die der angegebene Knoten umfasst. 0, wenn sich der Knoten innerhalb einer einzelnen Seite befindet. Dies ist dasselbe wie[`GetEndPageIndex`](./getendpageindex/) -[`GetStartPageIndex`](./getstartpageindex/) . |
-| [GetStartPageIndex](../../aspose.words.layout/layoutcollector/getstartpageindex/)(Node) | Ruft den 1-basierten Index der Seite ab, auf der der Knoten beginnt. Gibt 0 zurück, wenn der Knoten keiner Seite zugeordnet werden kann. |
+| [GetEndPageIndex](../../aspose.words.layout/layoutcollector/getendpageindex/)(*[Node](../../aspose.words/node/)*) | Ruft den 1-basierten Index der Seite ab, auf der der Knoten endet. Gibt 0 zurück, wenn der Knoten keiner Seite zugeordnet werden kann. |
+| [GetEntity](../../aspose.words.layout/layoutcollector/getentity/)(*[Node](../../aspose.words/node/)*) | Gibt eine undurchsichtige Position des zurück[`LayoutEnumerator`](../layoutenumerator/) was dem angegebenen Knoten entspricht. Sie können den zurückgegebenen Wert als Argument für verwenden[`Current`](../layoutenumerator/current/) vorausgesetzt, dass das Dokument, das aufgezählt wird, und das Dokument des Knotens gleich sind. |
+| [GetNumPagesSpanned](../../aspose.words.layout/layoutcollector/getnumpagesspanned/)(*[Node](../../aspose.words/node/)*) | Ruft die Anzahl der Seiten ab, die der angegebene Knoten umfasst. 0, wenn sich der Knoten innerhalb einer einzelnen Seite befindet. Dies ist dasselbe wie[`GetEndPageIndex`](./getendpageindex/) -[`GetStartPageIndex`](./getstartpageindex/) . |
+| [GetStartPageIndex](../../aspose.words.layout/layoutcollector/getstartpageindex/)(*[Node](../../aspose.words/node/)*) | Ruft den 1-basierten Index der Seite ab, auf der der Knoten beginnt. Gibt 0 zurück, wenn der Knoten keiner Seite zugeordnet werden kann. |
 
-### Bemerkungen
+## Bemerkungen
 
 Wenn Sie eine erstellen`LayoutCollector` und geben Sie a an[`Document`](../../aspose.words/document/) Dokumentobjekt, an das angehängt werden soll. Der Collector zeichnet die Zuordnung von Dokumentknoten zu Layoutobjekten auf, wenn das Dokument in Seiten formatiert wird.
 
@@ -46,7 +48,7 @@ Mit dem können Sie herausfinden, auf welcher Seite sich ein bestimmter Dokument
 
 Wenn Sie keine Layoutinformationen mehr sammeln müssen, legen Sie am besten die fest[`Document`](./document/) Eigentum zu`Null` , um eine unnötige Sammlung weiterer Layoutzuordnungen zu vermeiden.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Seitenbereiche angezeigt werden, die ein Knoten umfasst.
 
@@ -105,5 +107,3 @@ Assert.AreEqual("¶", layoutEnumerator.Text);
 
 * namensraum [Aspose.Words.Layout](../../aspose.words.layout/)
 * Montage [Aspose.Words](../../)
-
-

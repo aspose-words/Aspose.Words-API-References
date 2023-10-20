@@ -1,7 +1,9 @@
 ---
 title: MailMergeRegionInfo.StartField
-second_title: Aspose.Words für .NET-API-Referenz
-description: MailMergeRegionInfo eigendom. Gibt ein Startfeld für die Region zurück.
+linktitle: StartField
+articleTitle: StartField
+second_title: Aspose.Words für .NET
+description: MailMergeRegionInfo StartField eigendom. Gibt ein Startfeld für die Region zurück in C#.
 type: docs
 weight: 90
 url: /de/net/aspose.words.mailmerging/mailmergeregioninfo/startfield/
@@ -14,7 +16,7 @@ Gibt ein Startfeld für die Region zurück.
 public FieldMergeField StartField { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Seriendruckbereiche überprüft werden.
 
@@ -60,7 +62,5 @@ Assert.AreEqual("TableEnd:NestedRegion1", endFieldMergeField.FieldName);
 
 * class [FieldMergeField](../../../aspose.words.fields/fieldmergefield/)
 * class [MailMergeRegionInfo](../)
-* namensraum [Aspose.Words.MailMerging](../../mailmergeregioninfo/)
+* namensraum [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * Montage [Aspose.Words](../../../)
-
-

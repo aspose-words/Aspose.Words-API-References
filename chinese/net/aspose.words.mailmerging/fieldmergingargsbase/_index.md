@@ -1,7 +1,9 @@
 ---
-title: Class FieldMergingArgsBase
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.MailMerging.FieldMergingArgsBase 班级. 的基类FieldMergingArgs和ImageFieldMergingArgs.
+title: FieldMergingArgsBase Class
+linktitle: FieldMergingArgsBase
+articleTitle: FieldMergingArgsBase
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.MailMerging.FieldMergingArgsBase 班级. 的基类FieldMergingArgs和ImageFieldMergingArgs 在 C#.
 type: docs
 weight: 3780
 url: /zh/net/aspose.words.mailmerging/fieldmergingargsbase/
@@ -28,7 +30,7 @@ public abstract class FieldMergingArgsBase
 | [RecordIndex](../../aspose.words.mailmerging/fieldmergingargsbase/recordindex/) { get; } | 获取正在合并的记录的从零开始的索引。 |
 | [TableName](../../aspose.words.mailmerging/fieldmergingargsbase/tablename/) { get; } | 获取当前合并操作的数据表的名称，如果名称不可用，则获取空字符串。 |
 
-### 例子
+## 例子
 
 演示如何使用自定义回调执行邮件合并，该回调处理 HTML 文档形式的合并数据。
 
@@ -97,5 +99,3 @@ private class HandleMergeFieldInsertHtml : IFieldMergingCallback
 
 * 命名空间 [Aspose.Words.MailMerging](../../aspose.words.mailmerging/)
 * 部件 [Aspose.Words](../../)
-
-

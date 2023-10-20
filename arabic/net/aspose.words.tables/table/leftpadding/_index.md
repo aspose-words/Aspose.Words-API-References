@@ -1,7 +1,9 @@
 ---
 title: Table.LeftPadding
-second_title: Aspose.Words لمراجع .NET API
-description: Table ملكية. الحصول على أو تعيين مقدار المسافة بالنقاط المراد إضافتها إلى يسار محتويات الخلايا.
+linktitle: LeftPadding
+articleTitle: LeftPadding
+second_title: Aspose.Words لـ .NET
+description: Table LeftPadding ملكية. الحصول على أو تعيين مقدار المسافة بالنقاط المراد إضافتها إلى يسار محتويات الخلايا في C#.
 type: docs
 weight: 200
 url: /ar/net/aspose.words.tables/table/leftpadding/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.tables/table/leftpadding/
 public double LeftPadding { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تكوين حشوة المحتوى في الجدول.
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.SetRowFormatting.docx");
 ### أنظر أيضا
 
 * class [Table](../)
-* مساحة الاسم [Aspose.Words.Tables](../../table/)
+* مساحة الاسم [Aspose.Words.Tables](../../../aspose.words.tables/)
 * المجسم [Aspose.Words](../../../)
-
-

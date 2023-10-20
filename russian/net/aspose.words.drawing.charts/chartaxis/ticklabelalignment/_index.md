@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.TickLabelAlignment
-second_title: Справочник по API Aspose.Words для .NET
-description: ChartAxis свойство. Получает или задает выравнивание текста меток деления оси.
+linktitle: TickLabelAlignment
+articleTitle: TickLabelAlignment
+second_title: Aspose.Words для .NET
+description: ChartAxis TickLabelAlignment свойство. Получает или задает выравнивание текста меток деления оси на С#.
 type: docs
 weight: 220
 url: /ru/net/aspose.words.drawing.charts/chartaxis/ticklabelalignment/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.drawing.charts/chartaxis/ticklabelalignment/
 public ParagraphAlignment TickLabelAlignment { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Это свойство действует только для многострочных меток.
 
@@ -22,7 +24,7 @@ public ParagraphAlignment TickLabelAlignment { get; set; }
 
 .
 
-### Примеры
+## Примеры
 
 Показывает, как манипулировать делениями и отображаемыми значениями оси диаграммы.
 
@@ -81,7 +83,5 @@ doc.Save(ArtifactsDir + "Charts.AxisDisplayUnit.docx");
 
 * enum [ParagraphAlignment](../../../aspose.words/paragraphalignment/)
 * class [ChartAxis](../)
-* пространство имен [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* пространство имен [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../../)
-
-

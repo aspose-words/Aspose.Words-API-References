@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabel.Separator
-second_title: Aspose.Words لمراجع .NET API
-description: ChartDataLabel ملكية. الحصول على أو تعيين فاصل السلسلة المستخدم لتسميات البيانات في المخطط. الإعداد الافتراضي هو فاصلة باستثناء المخططات الدائرية التي تعرض اسم الفئة والنسبة المئوية فقط عند استخدام فاصل الأسطر بدلاً من ذلك.
+linktitle: Separator
+articleTitle: Separator
+second_title: Aspose.Words لـ .NET
+description: ChartDataLabel Separator ملكية. الحصول على أو تعيين فاصل السلسلة المستخدم لتسميات البيانات في المخطط. الإعداد الافتراضي هو فاصلة باستثناء المخططات الدائرية التي تعرض اسم الفئة والنسبة المئوية فقط عند استخدام فاصل الأسطر بدلاً من ذلك في C#.
 type: docs
 weight: 70
 url: /ar/net/aspose.words.drawing.charts/chartdatalabel/separator/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing.charts/chartdatalabel/separator/
 public string Separator { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تطبيق التسميات على نقاط البيانات في مخطط خطي.
 
@@ -92,7 +94,5 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
 ### أنظر أيضا
 
 * class [ChartDataLabel](../)
-* مساحة الاسم [Aspose.Words.Drawing.Charts](../../chartdatalabel/)
+* مساحة الاسم [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: BuildingBlock.Category
-second_title: Aspose.Words for .NET API 参考
-description: BuildingBlock 财产. 指定构建块的二级分类
+linktitle: Category
+articleTitle: Category
+second_title: 用于 .NET 的 Aspose.Words
+description: BuildingBlock Category 财产. 指定构建块的二级分类 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.buildingblocks/buildingblock/category/
@@ -14,15 +16,15 @@ url: /zh/net/aspose.words.buildingblocks/buildingblock/category/
 public string Category { get; set; }
 ```
 
-### 评论
+## 评论
 
 Microsoft Word 用户界面中的构建块被排列为 到图库中。每个[`Gallery`](../gallery/)可以有多个类别。 a 内的每个块`Category`有一个[`Name`](../name/)。
 
 不可能是`无效的`并且不能为空字符串。
 
-对应于 **docPartPr.类别.名称** OOXML 中的元素。
+对应于**docPartPr.类别.名称** OOXML 中的元素。
 
-### 例子
+## 例子
 
 演示如何将自定义构建块添加到文档中。
 
@@ -119,7 +121,5 @@ public class BuildingBlockVisitor : DocumentVisitor
 ### 也可以看看
 
 * class [BuildingBlock](../)
-* 命名空间 [Aspose.Words.BuildingBlocks](../../buildingblock/)
+* 命名空间 [Aspose.Words.BuildingBlocks](../../../aspose.words.buildingblocks/)
 * 部件 [Aspose.Words](../../../)
-
-

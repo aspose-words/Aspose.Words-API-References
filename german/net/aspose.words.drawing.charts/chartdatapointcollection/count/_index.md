@@ -1,7 +1,9 @@
 ---
 title: ChartDataPointCollection.Count
-second_title: Aspose.Words für .NET-API-Referenz
-description: ChartDataPointCollection eigendom. Gibt die Anzahl zurückChartDataPoint in dieser Sammlung.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words für .NET
+description: ChartDataPointCollection Count eigendom. Gibt die Anzahl zurückChartDataPoint in dieser Sammlung in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words.drawing.charts/chartdatapointcollection/count/
@@ -14,7 +16,7 @@ Gibt die Anzahl zurück[`ChartDataPoint`](../../chartdatapoint/) in dieser Samml
 public int Count { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit Datenpunkten in einem Liniendiagramm gearbeitet wird.
 
@@ -76,7 +78,5 @@ private static void ApplyDataPoints(ChartSeries series, int dataPointsCount, Mar
 ### Siehe auch
 
 * class [ChartDataPointCollection](../)
-* namensraum [Aspose.Words.Drawing.Charts](../../chartdatapointcollection/)
+* namensraum [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../../)
-
-

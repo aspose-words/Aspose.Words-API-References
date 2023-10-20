@@ -1,7 +1,9 @@
 ---
 title: FieldToc.CustomStyles
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldToc eigendom. Ruft eine Liste mit anderen Stilen als den integrierten Überschriftenstilen ab oder legt diese fest um sie in das Inhaltsverzeichnis aufzunehmen.
+linktitle: CustomStyles
+articleTitle: CustomStyles
+second_title: Aspose.Words für .NET
+description: FieldToc CustomStyles eigendom. Ruft eine Liste mit anderen Stilen als den integrierten Überschriftenstilen ab oder legt diese fest um sie in das Inhaltsverzeichnis aufzunehmen in C#.
 type: docs
 weight: 40
 url: /de/net/aspose.words.fields/fieldtoc/customstyles/
@@ -14,7 +16,7 @@ Ruft eine Liste mit anderen Stilen als den integrierten Überschriftenstilen ab 
 public string CustomStyles { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man ein Inhaltsverzeichnis einfügt und es mit Einträgen füllt, die auf Überschriftenstilen basieren.
 
@@ -99,7 +101,5 @@ public void InsertNewPageWithHeading(DocumentBuilder builder, string captionText
 ### Siehe auch
 
 * class [FieldToc](../)
-* namensraum [Aspose.Words.Fields](../../fieldtoc/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

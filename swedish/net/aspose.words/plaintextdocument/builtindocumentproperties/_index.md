@@ -1,7 +1,9 @@
 ---
 title: PlainTextDocument.BuiltInDocumentProperties
-second_title: Aspose.Words för .NET API Referens
-description: PlainTextDocument fast egendom. BlirBuiltInDocumentProperties av dokumentet.
+linktitle: BuiltInDocumentProperties
+articleTitle: BuiltInDocumentProperties
+second_title: Aspose.Words för .NET
+description: PlainTextDocument BuiltInDocumentProperties fast egendom. BlirBuiltInDocumentProperties av dokumentet i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words/plaintextdocument/builtindocumentproperties/
@@ -14,7 +16,7 @@ Blir`BuiltInDocumentProperties` av dokumentet.
 public BuiltInDocumentProperties BuiltInDocumentProperties { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man laddar innehållet i ett Microsoft Word-dokument i klartext och sedan kommer åt originaldokumentets inbyggda egenskaper.
 
@@ -37,7 +39,5 @@ Assert.AreEqual("John Doe", plaintext.BuiltInDocumentProperties.Author);
 
 * class [BuiltInDocumentProperties](../../../aspose.words.properties/builtindocumentproperties/)
 * class [PlainTextDocument](../)
-* namnutrymme [Aspose.Words](../../plaintextdocument/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

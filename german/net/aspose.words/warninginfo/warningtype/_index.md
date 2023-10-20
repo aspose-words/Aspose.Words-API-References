@@ -1,7 +1,9 @@
 ---
 title: WarningInfo.WarningType
-second_title: Aspose.Words für .NET-API-Referenz
-description: WarningInfo eigendom. Gibt den Typ der Warnung zurück.
+linktitle: WarningType
+articleTitle: WarningType
+second_title: Aspose.Words für .NET
+description: WarningInfo WarningType eigendom. Gibt den Typ der Warnung zurück in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words/warninginfo/warningtype/
@@ -14,7 +16,7 @@ Gibt den Typ der Warnung zurück.
 public WarningType WarningType { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Eigenschaft festgelegt wird, um die beste Übereinstimmung für eine fehlende Schriftart aus den verfügbaren Schriftartquellen zu finden.
 
@@ -75,7 +77,5 @@ public class HandleDocumentSubstitutionWarnings : IWarningCallback
 
 * enum [WarningType](../../warningtype/)
 * class [WarningInfo](../)
-* namensraum [Aspose.Words](../../warninginfo/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

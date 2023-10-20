@@ -1,7 +1,9 @@
 ---
-title: Enum VbaModuleType
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Vba.VbaModuleType перечисление. Указывает тип модели в проекте VBA.
+title: VbaModuleType Enum
+linktitle: VbaModuleType
+articleTitle: VbaModuleType
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Vba.VbaModuleType перечисление. Указывает тип модели в проекте VBA на С#.
 type: docs
 weight: 6570
 url: /ru/net/aspose.words.vba/vbamoduletype/
@@ -23,7 +25,7 @@ public enum VbaModuleType
 | ClassModule | `2` | Модуль, содержащий определение нового объекта. Каждый экземпляр класса создает новый объект , а процедуры, определенные в модуле, становятся свойствами и методами объекта. |
 | DesignerModule | `3` | Модуль VBA, расширяющий методы и свойства элемента управления ActiveX, зарегистрированного в проекте. |
 
-### Примеры
+## Примеры
 
 Показывает, как создать проект VBA с помощью макросов.
 
@@ -51,5 +53,3 @@ doc.Save(ArtifactsDir + "VbaProject.CreateVBAMacros.docm");
 
 * пространство имен [Aspose.Words.Vba](../../aspose.words.vba/)
 * сборка [Aspose.Words](../../)
-
-

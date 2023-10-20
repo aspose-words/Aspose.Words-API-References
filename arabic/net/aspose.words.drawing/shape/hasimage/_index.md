@@ -1,7 +1,9 @@
 ---
 title: Shape.HasImage
-second_title: Aspose.Words لمراجع .NET API
-description: Shape ملكية. إرجاعحقيقي إذا كان الشكل يحتوي على بايتات صورة أو يربط صورة.
+linktitle: HasImage
+articleTitle: HasImage
+second_title: Aspose.Words لـ .NET
+description: Shape HasImage ملكية. إرجاعحقيقي إذا كان الشكل يحتوي على بايتات صورة أو يربط صورة في C#.
 type: docs
 weight: 80
 url: /ar/net/aspose.words.drawing/shape/hasimage/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing/shape/hasimage/
 public bool HasImage { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية حذف جميع الأشكال التي تحتوي على صور من مستند.
 
@@ -60,7 +62,5 @@ foreach (Shape shape in shapes.OfType<Shape>())
 ### أنظر أيضا
 
 * class [Shape](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../shape/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

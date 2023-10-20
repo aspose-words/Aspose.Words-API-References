@@ -1,7 +1,9 @@
 ---
 title: DocumentBase.WarningCallback
-second_title: Aspose.Words لمراجع .NET API
-description: DocumentBase ملكية. يتم استدعاؤه أثناء إجراءات معالجة المستندات المختلفة عند اكتشاف مشكلة قد تؤدي إلى فقدان دقة البيانات أو التنسيق.
+linktitle: WarningCallback
+articleTitle: WarningCallback
+second_title: Aspose.Words لـ .NET
+description: DocumentBase WarningCallback ملكية. يتم استدعاؤه أثناء إجراءات معالجة المستندات المختلفة عند اكتشاف مشكلة قد تؤدي إلى فقدان دقة البيانات أو التنسيق في C#.
 type: docs
 weight: 90
 url: /ar/net/aspose.words/documentbase/warningcallback/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words/documentbase/warningcallback/
 public IWarningCallback WarningCallback { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 قد يُنشئ المستند تحذيرات في أي مرحلة من وجوده، لذلك من المهم إعداد رد الاتصال التحذيري as في وقت مبكر قدر الإمكان لتجنب فقدان التحذيرات. على سبيل المثال خصائص مثل[`PageCount`](../../document/pagecount/) يقوم فعليًا بإنشاء تخطيط المستند الذي يتم استخدامه لاحقًا للعرض، وقد يتم فقدان تحذيرات التخطيط إذا تم تحديد رد الاتصال التحذيري فقط لاستدعاءات العرض لاحقًا.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام واجهة IWarningCallback لمراقبة تحذيرات استبدال الخط.
 
@@ -127,7 +129,5 @@ public class HandleDocumentSubstitutionWarnings : IWarningCallback
 
 * interface [IWarningCallback](../../iwarningcallback/)
 * class [DocumentBase](../)
-* مساحة الاسم [Aspose.Words](../../documentbase/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ListFormat.IsListItem
-second_title: Aspose.Words for .NET API 参考
-description: ListFormat 财产. 当段落应用了项目符号或编号格式时为真
+linktitle: IsListItem
+articleTitle: IsListItem
+second_title: 用于 .NET 的 Aspose.Words
+description: ListFormat IsListItem 财产. 当段落应用了项目符号或编号格式时为真 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.lists/listformat/islistitem/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.lists/listformat/islistitem/
 public bool IsListItem { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何输出文档中作为列表项的所有段落。
 
@@ -94,7 +96,5 @@ doc.Save(ArtifactsDir + "Lists.SpecifyListLevel.docx");
 ### 也可以看看
 
 * class [ListFormat](../)
-* 命名空间 [Aspose.Words.Lists](../../listformat/)
+* 命名空间 [Aspose.Words.Lists](../../../aspose.words.lists/)
 * 部件 [Aspose.Words](../../../)
-
-

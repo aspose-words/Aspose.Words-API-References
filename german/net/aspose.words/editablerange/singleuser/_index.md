@@ -1,7 +1,9 @@
 ---
 title: EditableRange.SingleUser
-second_title: Aspose.Words für .NET-API-Referenz
-description: EditableRange eigendom. Gibt den einzelnen Benutzer für den bearbeitbaren Bereich zurück oder legt ihn fest.
+linktitle: SingleUser
+articleTitle: SingleUser
+second_title: Aspose.Words für .NET
+description: EditableRange SingleUser eigendom. Gibt den einzelnen Benutzer für den bearbeitbaren Bereich zurück oder legt ihn fest in C#.
 type: docs
 weight: 50
 url: /de/net/aspose.words/editablerange/singleuser/
@@ -14,7 +16,7 @@ Gibt den einzelnen Benutzer für den bearbeitbaren Bereich zurück oder legt ihn
 public string SingleUser { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Dieser Editor kann in einer der folgenden Formen gespeichert werden:
 
@@ -26,7 +28,7 @@ Benutzer – für Benutzer, deren Zugriff mithilfe der Computeranmeldeinformatio
 
 Ein einzelner Benutzer und eine Editorgruppe können nicht gleichzeitig für den spezifischen bearbeitbaren Bereich festgelegt werden. wenn das eine festgelegt ist, ist das andere gelöscht.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man die Bearbeitungsrechte bearbeitbarer Bereiche auf eine bestimmte Gruppe/einen bestimmten Benutzer beschränkt.
 
@@ -137,7 +139,5 @@ public class EditableRangePrinter : DocumentVisitor
 ### Siehe auch
 
 * class [EditableRange](../)
-* namensraum [Aspose.Words](../../editablerange/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

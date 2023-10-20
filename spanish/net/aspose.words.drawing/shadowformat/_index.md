@@ -1,7 +1,9 @@
 ---
-title: Class ShadowFormat
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Drawing.ShadowFormat clase. Representa el formato de sombra para un objeto.
+title: ShadowFormat Class
+linktitle: ShadowFormat
+articleTitle: ShadowFormat
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Drawing.ShadowFormat clase. Representa el formato de sombra para un objeto en C#.
 type: docs
 weight: 1230
 url: /es/net/aspose.words.drawing/shadowformat/
@@ -33,5 +35,3 @@ public class ShadowFormat
 
 * espacio de nombres [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * asamblea [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: PageInfo.Landscape
-second_title: Référence de l'API Aspose.Words pour .NET
-description: PageInfo propriété. Retoursvrai si lorientation de la page spécifiée dans le document pour cette page est paysage.
+linktitle: Landscape
+articleTitle: Landscape
+second_title: Aspose.Words pour .NET
+description: PageInfo Landscape propriété. Retoursvrai si lorientation de la page spécifiée dans le document pour cette page est paysage en C#.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.rendering/pageinfo/landscape/
@@ -14,7 +16,7 @@ Retours`vrai` si l'orientation de la page spécifiée dans le document pour cett
 public bool Landscape { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment imprimer les informations sur la taille et l’orientation de chaque page d’un document Word.
 
@@ -157,7 +159,5 @@ public class MyPrintDocument : PrintDocument
 ### Voir également
 
 * class [PageInfo](../)
-* espace de noms [Aspose.Words.Rendering](../../pageinfo/)
+* espace de noms [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.DisplayDocTitle
-second_title: Справочник по API Aspose.Words для .NET
-description: PdfSaveOptions свойство. Флаг указывающий должен ли заголовок окна отображать заголовок документа взятый из записи заголовка словаря информации о документе.
+linktitle: DisplayDocTitle
+articleTitle: DisplayDocTitle
+second_title: Aspose.Words для .NET
+description: PdfSaveOptions DisplayDocTitle свойство. Флаг указывающий должен ли заголовок окна отображать заголовок документа взятый из записи заголовка словаря информации о документе на С#.
 type: docs
 weight: 80
 url: /ru/net/aspose.words.saving/pdfsaveoptions/displaydoctitle/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.saving/pdfsaveoptions/displaydoctitle/
 public bool DisplayDocTitle { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Если`ЛОЖЬ`, в строке заголовка вместо этого должно отображаться имя PDF-файла, содержащего документ.
 
@@ -22,7 +24,7 @@ public bool DisplayDocTitle { get; set; }
 
 Значение по умолчанию:`ЛОЖЬ`.
 
-### Примеры
+## Примеры
 
 Показывает, как отобразить заголовок документа в строке заголовка.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.DocTitle.pdf", pdfSaveOptions);
 ### Смотрите также
 
 * class [PdfSaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../pdfsaveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

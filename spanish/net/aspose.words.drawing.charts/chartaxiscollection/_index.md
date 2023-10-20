@@ -1,7 +1,9 @@
 ---
-title: Class ChartAxisCollection
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Drawing.Charts.ChartAxisCollection clase. Representa una colección de ejes del gráfico.
+title: ChartAxisCollection Class
+linktitle: ChartAxisCollection
+articleTitle: ChartAxisCollection
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Drawing.Charts.ChartAxisCollection clase. Representa una colección de ejes del gráfico en C#.
 type: docs
 weight: 640
 url: /es/net/aspose.words.drawing.charts/chartaxiscollection/
@@ -27,7 +29,7 @@ public class ChartAxisCollection : IEnumerable<ChartAxis>
 | --- | --- |
 | [GetEnumerator](../../aspose.words.drawing.charts/chartaxiscollection/getenumerator/)() | Devuelve un objeto enumerador. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo trabajar con la colección de ejes.
 
@@ -53,5 +55,3 @@ doc.Save(ArtifactsDir + "Charts.AxisCollection.docx");
 * class [ChartAxis](../chartaxis/)
 * espacio de nombres [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * asamblea [Aspose.Words](../../)
-
-

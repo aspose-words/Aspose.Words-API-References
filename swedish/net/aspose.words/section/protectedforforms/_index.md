@@ -1,7 +1,9 @@
 ---
 title: Section.ProtectedForForms
-second_title: Aspose.Words för .NET API Referens
-description: Section fast egendom. Sant om avsnittet är skyddat för formulär. När en sektion är skyddad för formulär kan användare välja och ändra text endast i formulärfält i Microsoft Word.
+linktitle: ProtectedForForms
+articleTitle: ProtectedForForms
+second_title: Aspose.Words för .NET
+description: Section ProtectedForForms fast egendom. Sant om avsnittet är skyddat för formulär. När en sektion är skyddad för formulär kan användare välja och ändra text endast i formulärfält i Microsoft Word i C#.
 type: docs
 weight: 60
 url: /sv/net/aspose.words/section/protectedforforms/
@@ -14,7 +16,7 @@ Sant om avsnittet är skyddat för formulär. När en sektion är skyddad för f
 public bool ProtectedForForms { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man stänger av skyddet för en sektion.
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "Section.Protect.docx");
 ### Se även
 
 * class [Section](../)
-* namnutrymme [Aspose.Words](../../section/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

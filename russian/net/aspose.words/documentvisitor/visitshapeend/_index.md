@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitShapeEnd
-second_title: Справочник по API Aspose.Words для .NET
-description: DocumentVisitor метод. Вызывается когда перечисление фигуры завершено.
+linktitle: VisitShapeEnd
+articleTitle: VisitShapeEnd
+second_title: Aspose.Words для .NET
+description: DocumentVisitor VisitShapeEnd метод. Вызывается когда перечисление фигуры завершено на С#.
 type: docs
 weight: 390
 url: /ru/net/aspose.words/documentvisitor/visitshapeend/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitShapeEnd(Shape shape)
 
 А[`VisitorAction`](../../visitoraction/) значение, указывающее, как продолжить перечисление.
 
-### Примеры
+## Примеры
 
 Показывает, как создать группу фигур и распечатать ее содержимое с помощью посетителя документа.
 
@@ -115,7 +117,5 @@ public class ShapeGroupPrinter : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [Shape](../../../aspose.words.drawing/shape/)
 * class [DocumentVisitor](../)
-* пространство имен [Aspose.Words](../../documentvisitor/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

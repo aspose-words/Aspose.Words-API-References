@@ -1,7 +1,9 @@
 ---
 title: FieldIncludeText.MimeType
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldIncludeText свойство. Получает или задает тип MIME указанного файла.
+linktitle: MimeType
+articleTitle: MimeType
+second_title: Aspose.Words для .NET
+description: FieldIncludeText MimeType свойство. Получает или задает тип MIME указанного файла на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.fields/fieldincludetext/mimetype/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldincludetext/mimetype/
 public string MimeType { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как создать поле INCLUDETEXT и установить его свойства.
 
@@ -59,7 +61,5 @@ public FieldIncludeText CreateFieldIncludeText(DocumentBuilder builder, string s
 ### Смотрите также
 
 * class [FieldIncludeText](../)
-* пространство имен [Aspose.Words.Fields](../../fieldincludetext/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: LayoutOptions.TextShaperFactory
-second_title: Aspose.Words for .NET API 参考
-description: LayoutOptions 财产. 获取或设置ITextShaperFactory用于高级版式渲染功能的实现
+linktitle: TextShaperFactory
+articleTitle: TextShaperFactory
+second_title: 用于 .NET 的 Aspose.Words
+description: LayoutOptions TextShaperFactory 财产. 获取或设置ITextShaperFactory用于高级版式渲染功能的实现 在 C#.
 type: docs
 weight: 100
 url: /zh/net/aspose.words.layout/layoutoptions/textshaperfactory/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.layout/layoutoptions/textshaperfactory/
 public ITextShaperFactory TextShaperFactory { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何使用 HarfBuzz 文本整形引擎支持 OpenType 功能。
 
@@ -36,7 +38,5 @@ doc.Save(ArtifactsDir + "Document.OpenType.pdf");
 
 * interface [ITextShaperFactory](../../../aspose.words.shaping/itextshaperfactory/)
 * class [LayoutOptions](../)
-* 命名空间 [Aspose.Words.Layout](../../layoutoptions/)
+* 命名空间 [Aspose.Words.Layout](../../../aspose.words.layout/)
 * 部件 [Aspose.Words](../../../)
-
-

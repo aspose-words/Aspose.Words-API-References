@@ -1,7 +1,9 @@
 ---
 title: Cell.Accept
-second_title: Aspose.Words per .NET API Reference
-description: Cell metodo. Accetta un visitatore.
+linktitle: Accept
+articleTitle: Accept
+second_title: Aspose.Words per .NET
+description: Cell Accept metodo. Accetta un visitatore in C#.
 type: docs
 weight: 130
 url: /it/net/aspose.words.tables/cell/accept/
@@ -22,7 +24,7 @@ public override bool Accept(DocumentVisitor visitor)
 
 Vero se tutti i nodi sono stati visitati; falso se[`DocumentVisitor`](../../../aspose.words/documentvisitor/) ha interrotto l'operazione prima di visitare tutti i nodi.
 
-### Osservazioni
+## Osservazioni
 
 Enumera questo nodo e tutti i relativi figli. Ogni nodo chiama un metodo corrispondente[`DocumentVisitor`](../../../aspose.words/documentvisitor/).
 
@@ -30,7 +32,7 @@ Per maggiori informazioni vedere il modello di progettazione Visitor.
 
 Chiamate[`VisitCellStart`](../../../aspose.words/documentvisitor/visitcellstart/) , poi chiama[`Accept`](../../../aspose.words/node/accept/) per tutti i nodi figlio della sezione e chiamate[`VisitCellEnd`](../../../aspose.words/documentvisitor/visitcellend/) alla fine.
 
-### Esempi
+## Esempi
 
 Mostra come stampare la struttura dei nodi di ogni tabella in un documento.
 
@@ -194,7 +196,5 @@ public class TableStructurePrinter : DocumentVisitor
 
 * class [DocumentVisitor](../../../aspose.words/documentvisitor/)
 * class [Cell](../)
-* spazio dei nomi [Aspose.Words.Tables](../../cell/)
+* spazio dei nomi [Aspose.Words.Tables](../../../aspose.words.tables/)
 * assemblea [Aspose.Words](../../../)
-
-

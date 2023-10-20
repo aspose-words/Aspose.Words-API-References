@@ -1,7 +1,9 @@
 ---
 title: OleFormat.OleControl
-second_title: Aspose.Words für .NET-API-Referenz
-description: OleFormat eigendom. Ruft abOleControl Objekte wenn dieses OLEObjekt ein ActiveXSteuerelement ist. Andernfalls ist diese Eigenschaft null.
+linktitle: OleControl
+articleTitle: OleControl
+second_title: Aspose.Words für .NET
+description: OleFormat OleControl eigendom. Ruft abOleControl Objekte wenn dieses OLEObjekt ein ActiveXSteuerelement ist. Andernfalls ist diese Eigenschaft null in C#.
 type: docs
 weight: 60
 url: /de/net/aspose.words.drawing/oleformat/olecontrol/
@@ -14,7 +16,7 @@ Ruft ab`OleControl` Objekte, wenn dieses OLE-Objekt ein ActiveX-Steuerelement is
 public OleControl OleControl { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Eigenschaften eines ActiveX-Steuerelements überprüft werden.
 
@@ -45,7 +47,5 @@ if (oleControl.IsForms2OleControl)
 
 * class [OleControl](../../../aspose.words.drawing.ole/olecontrol/)
 * class [OleFormat](../)
-* namensraum [Aspose.Words.Drawing](../../oleformat/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

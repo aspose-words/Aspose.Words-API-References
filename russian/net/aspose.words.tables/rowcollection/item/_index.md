@@ -1,7 +1,9 @@
 ---
 title: RowCollection.Item
-second_title: Справочник по API Aspose.Words для .NET
-description: RowCollection свойство. ПолучаетRow по данному индексу.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words для .NET
+description: RowCollection Item свойство. ПолучаетRow по данному индексу на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.tables/rowcollection/item/
@@ -18,7 +20,7 @@ public Row this[int index] { get; }
 | --- | --- |
 | index | Индекс в коллекции. |
 
-### Примечания
+## Примечания
 
 Индекс отсчитывается от нуля.
 
@@ -28,7 +30,7 @@ public Row this[int index] { get; }
 
 Если индекс отрицателен и его абсолютное значение превышает количество элементов в списке, возвращается нулевая ссылка.
 
-### Примеры
+## Примеры
 
 Показывает, как перебрать все таблицы в документе и распечатать содержимое каждой ячейки.
 
@@ -75,7 +77,5 @@ for (int i = 0; i < tables.Count; i++)
 
 * class [Row](../../row/)
 * class [RowCollection](../)
-* пространство имен [Aspose.Words.Tables](../../rowcollection/)
+* пространство имен [Aspose.Words.Tables](../../../aspose.words.tables/)
 * сборка [Aspose.Words](../../../)
-
-

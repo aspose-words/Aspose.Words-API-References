@@ -1,7 +1,9 @@
 ---
-title: Enum ImagePixelFormat
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Saving.ImagePixelFormat enumeración. Especifica el formato de píxeles para las imágenes generadas de las páginas del documento.
+title: ImagePixelFormat Enum
+linktitle: ImagePixelFormat
+articleTitle: ImagePixelFormat
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Saving.ImagePixelFormat enumeración. Especifica el formato de píxeles para las imágenes generadas de las páginas del documento en C#.
 type: docs
 weight: 5220
 url: /es/net/aspose.words.saving/imagepixelformat/
@@ -30,7 +32,7 @@ public enum ImagePixelFormat
 | Format64BppPArgb | `9` | 64 bits por píxel, ARGB, alfa premultiplicado. |
 | Format1bppIndexed | `10` | 1 bit por píxel, indexado. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo seleccionar una velocidad de bits por píxel con la que representar un documento en una imagen.
 
@@ -96,5 +98,3 @@ Document doc = new Document();
 
 * espacio de nombres [Aspose.Words.Saving](../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../)
-
-

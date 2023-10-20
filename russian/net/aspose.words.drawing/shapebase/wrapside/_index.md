@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.WrapSide
-second_title: Справочник по API Aspose.Words для .NET
-description: ShapeBase свойство. Указывает как текст обтекает фигуру.
+linktitle: WrapSide
+articleTitle: WrapSide
+second_title: Aspose.Words для .NET
+description: ShapeBase WrapSide свойство. Указывает как текст обтекает фигуру на С#.
 type: docs
 weight: 590
 url: /ru/net/aspose.words.drawing/shapebase/wrapside/
@@ -14,13 +16,13 @@ url: /ru/net/aspose.words.drawing/shapebase/wrapside/
 public WrapSide WrapSide { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Значение по умолчанию:Both.
 
 Имеет эффект только для фигур верхнего уровня.
 
-### Примеры
+## Примеры
 
 Показывает, как заменить все фигуры текстовых полей фигурами изображений.
 
@@ -66,7 +68,5 @@ doc.Save(ArtifactsDir + "Shape.ReplaceTextboxesWithImages.docx");
 
 * enum [WrapSide](../../wrapside/)
 * class [ShapeBase](../)
-* пространство имен [Aspose.Words.Drawing](../../shapebase/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

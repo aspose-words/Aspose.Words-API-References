@@ -1,7 +1,9 @@
 ---
 title: Font.Shading
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Font propriété. Renvoie unShading objet qui fait référence au formatage dombrage de la police.
+linktitle: Shading
+articleTitle: Shading
+second_title: Aspose.Words pour .NET
+description: Font Shading propriété. Renvoie unShading objet qui fait référence au formatage dombrage de la police en C#.
 type: docs
 weight: 320
 url: /fr/net/aspose.words/font/shading/
@@ -14,7 +16,7 @@ Renvoie un[`Shading`](../../shading/) objet qui fait référence au formatage d'
 public Shading Shading { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment appliquer un ombrage au texte créé par un générateur de documents.
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "Font.Shading.docx");
 
 * class [Shading](../../shading/)
 * class [Font](../)
-* espace de noms [Aspose.Words](../../font/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

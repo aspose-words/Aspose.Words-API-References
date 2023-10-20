@@ -1,7 +1,9 @@
 ---
 title: HtmlFixedSaveOptions.SaveFontFaceCssSeparately
-second_title: Aspose.Words for .NET API 参考
-description: HtmlFixedSaveOptions 财产. 标志指示当使用外部样式表保存文档时即当ExportEmbeddedCss 是错误的. 默认值为错误的所有 CSS 规则都写入单个文件styles.css.
+linktitle: SaveFontFaceCssSeparately
+articleTitle: SaveFontFaceCssSeparately
+second_title: 用于 .NET 的 Aspose.Words
+description: HtmlFixedSaveOptions SaveFontFaceCssSeparately 财产. 标志指示当使用外部样式表保存文档时即当ExportEmbeddedCss 是错误的. 默认值为错误的所有 CSS 规则都写入单个文件styles.css 在 C#.
 type: docs
 weight: 160
 url: /zh/net/aspose.words.saving/htmlfixedsaveoptions/savefontfacecssseparately/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.saving/htmlfixedsaveoptions/savefontfacecssseparately/
 public bool SaveFontFaceCssSeparately { get; set; }
 ```
 
-### 评论
+## 评论
 
 将此属性设置为`真的`恢复旧行为（单独的文件）以与旧代码兼容。
 
-### 例子
+## 例子
 
 演示如何将 CSS 放入单独的文件中并为其所有 CSS 类名称添加前缀。
 
@@ -50,7 +52,5 @@ Assert.True(Regex.Match(outDocContents,
 ### 也可以看看
 
 * class [HtmlFixedSaveOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../htmlfixedsaveoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

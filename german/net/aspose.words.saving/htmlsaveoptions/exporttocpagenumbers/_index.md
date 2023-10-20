@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ExportTocPageNumbers
-second_title: Aspose.Words für .NET-API-Referenz
-description: HtmlSaveOptions eigendom. Gibt an ob beim Speichern von HTML MHTML und EPUB Seitenzahlen in das Inhaltsverzeichnis geschrieben werden sollen. Der Standardwert istFALSCH .
+linktitle: ExportTocPageNumbers
+articleTitle: ExportTocPageNumbers
+second_title: Aspose.Words für .NET
+description: HtmlSaveOptions ExportTocPageNumbers eigendom. Gibt an ob beim Speichern von HTML MHTML und EPUB Seitenzahlen in das Inhaltsverzeichnis geschrieben werden sollen. Der Standardwert istFALSCH  in C#.
 type: docs
 weight: 270
 url: /de/net/aspose.words.saving/htmlsaveoptions/exporttocpagenumbers/
@@ -14,7 +16,7 @@ Gibt an, ob beim Speichern von HTML, MHTML und EPUB Seitenzahlen in das Inhaltsv
 public bool ExportTocPageNumbers { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Seitenzahlen angezeigt werden, wenn ein Dokument mit einem Inhaltsverzeichnis im .html-Format gespeichert wird.
 
@@ -72,7 +74,5 @@ else
 ### Siehe auch
 
 * class [HtmlSaveOptions](../)
-* namensraum [Aspose.Words.Saving](../../htmlsaveoptions/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

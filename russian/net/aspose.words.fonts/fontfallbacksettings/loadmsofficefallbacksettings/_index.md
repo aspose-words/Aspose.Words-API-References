@@ -1,7 +1,9 @@
 ---
 title: FontFallbackSettings.LoadMsOfficeFallbackSettings
-second_title: Справочник по API Aspose.Words для .NET
-description: FontFallbackSettings метод. Загружает предопределенные резервные настройки которые имитируют резервный вариант Microsoft Word и используют шрифты Microsoft Office.
+linktitle: LoadMsOfficeFallbackSettings
+articleTitle: LoadMsOfficeFallbackSettings
+second_title: Aspose.Words для .NET
+description: FontFallbackSettings LoadMsOfficeFallbackSettings метод. Загружает предопределенные резервные настройки которые имитируют резервный вариант Microsoft Word и используют шрифты Microsoft Office на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.fonts/fontfallbacksettings/loadmsofficefallbacksettings/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fonts/fontfallbacksettings/loadmsofficefallbacksetting
 public void LoadMsOfficeFallbackSettings()
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как загрузить предварительно определенные настройки резервного шрифта.
 
@@ -44,7 +46,5 @@ fontFallbackSettings.Save(ArtifactsDir + "FontSettings.FallbackSettings.LoadNoto
 ### Смотрите также
 
 * class [FontFallbackSettings](../)
-* пространство имен [Aspose.Words.Fonts](../../fontfallbacksettings/)
+* пространство имен [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * сборка [Aspose.Words](../../../)
-
-

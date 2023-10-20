@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.ReverseOrder
-second_title: Справочник по API Aspose.Words для .NET
-description: ChartAxis свойство. Возвращает или устанавливает флаг указывающий должны ли значения оси отображаться в обратном порядке т.е. от максимума до минимума.
+linktitle: ReverseOrder
+articleTitle: ReverseOrder
+second_title: Aspose.Words для .NET
+description: ChartAxis ReverseOrder свойство. Возвращает или устанавливает флаг указывающий должны ли значения оси отображаться в обратном порядке т.е. от максимума до минимума на С#.
 type: docs
 weight: 200
 url: /ru/net/aspose.words.drawing.charts/chartaxis/reverseorder/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.drawing.charts/chartaxis/reverseorder/
 public bool ReverseOrder { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Это свойство не поддерживается новыми диаграммами MS Office 2016. Значение по умолчанию:`ЛОЖЬ` .
 
-### Примеры
+## Примеры
 
 Показывает, как вставить диаграмму и изменить внешний вид ее осей.
 
@@ -71,7 +73,5 @@ doc.Save(ArtifactsDir + "Charts.AxisProperties.docx");
 ### Смотрите также
 
 * class [ChartAxis](../)
-* пространство имен [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* пространство имен [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../../)
-
-

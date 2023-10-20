@@ -1,7 +1,9 @@
 ---
 title: ConditionalStyle.Type
-second_title: Aspose.Words för .NET API Referens
-description: ConditionalStyle fast egendom. Hämtar tabellområde som denna villkorliga stil relaterar till.
+linktitle: Type
+articleTitle: Type
+second_title: Aspose.Words för .NET
+description: ConditionalStyle Type fast egendom. Hämtar tabellområde som denna villkorliga stil relaterar till i C#.
 type: docs
 weight: 90
 url: /sv/net/aspose.words/conditionalstyle/type/
@@ -14,7 +16,7 @@ Hämtar tabellområde som denna villkorliga stil relaterar till.
 public ConditionalStyleType Type { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med vissa områdesstilar i en tabell.
 
@@ -85,7 +87,5 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 
 * enum [ConditionalStyleType](../../conditionalstyletype/)
 * class [ConditionalStyle](../)
-* namnutrymme [Aspose.Words](../../conditionalstyle/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

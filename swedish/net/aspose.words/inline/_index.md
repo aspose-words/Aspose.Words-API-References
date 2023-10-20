@@ -1,7 +1,9 @@
 ---
-title: Class Inline
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Inline klass. Basklass för noder på inlinenivå som kan ha teckenformatering associerad med dem men som inte kan ha egna underordnade noder.
+title: Inline Class
+linktitle: Inline
+articleTitle: Inline
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Inline klass. Basklass för noder på inlinenivå som kan ha teckenformatering associerad med dem men som inte kan ha egna underordnade noder i C#.
 type: docs
 weight: 3260
 url: /sv/net/aspose.words/inline/
@@ -40,22 +42,22 @@ public abstract class Inline : Node
 
 | namn | Beskrivning |
 | --- | --- |
-| abstract [Accept](../../aspose.words/node/accept/)(DocumentVisitor) | Accepterar en besökare. |
-| [Clone](../../aspose.words/node/clone/)(bool) | Skapar en dubblett av noden. |
-| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Hämtar den första förfadern till den angivna[`NodeType`](../nodetype/) . |
-| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Hämtar den första förfadern till den angivna objekttypen. |
+| abstract [Accept](../../aspose.words/node/accept/)(*[DocumentVisitor](../documentvisitor/)*) | Accepterar en besökare. |
+| [Clone](../../aspose.words/node/clone/)(*bool*) | Skapar en dubblett av noden. |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*[NodeType](../nodetype/)*) | Hämtar den första förfadern till den angivna[`NodeType`](../nodetype/) . |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | Hämtar den första förfadern till den angivna objekttypen. |
 | virtual [GetText](../../aspose.words/node/gettext/)() | Hämtar texten för denna nod och alla dess underordnade. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Hämtar nästa nod enligt algoritmen för förbeställningsträdet. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Hämtar föregående nod enligt algoritmen för förbeställningsträdet. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../node/)*) | Hämtar nästa nod enligt algoritmen för förbeställningsträdet. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../node/)*) | Hämtar föregående nod enligt algoritmen för förbeställningsträdet. |
 | [Remove](../../aspose.words/node/remove/)() | Tar bort sig själv från föräldern. |
-| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Exporterar innehållet i noden till en sträng i angivet format. |
-| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | Exporterar innehållet i noden till en sträng med de angivna sparalternativen. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../saveformat/)*) | Exporterar innehållet i noden till en sträng i angivet format. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | Exporterar innehållet i noden till en sträng med de angivna sparalternativen. |
 
-### Anmärkningar
+## Anmärkningar
 
 En klass som härrör från`Inline` kan vara ett barn till[`Paragraph`](../paragraph/).
 
-### Exempel
+## Exempel
 
 Visar hur man bestämmer revisionstypen för en inline-nod.
 
@@ -113,5 +115,3 @@ Assert.IsTrue(runs[5].IsDeleteRevision);
 * class [Node](../node/)
 * namnutrymme [Aspose.Words](../../aspose.words/)
 * hopsättning [Aspose.Words](../../)
-
-

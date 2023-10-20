@@ -1,7 +1,9 @@
 ---
-title: Class PageSetup
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.PageSetup klass. Representerar sidinställningarna för ett avsnitt.
+title: PageSetup Class
+linktitle: PageSetup
+articleTitle: PageSetup
+second_title: Aspose.Words för .NET
+description: Aspose.Words.PageSetup klass. Representerar sidinställningarna för ett avsnitt i C#.
 type: docs
 weight: 4360
 url: /sv/net/aspose.words/pagesetup/
@@ -72,11 +74,11 @@ public class PageSetup
 | --- | --- |
 | [ClearFormatting](../../aspose.words/pagesetup/clearformatting/)() | Återställer sidinställningarna till standardpappersstorlek, marginaler och orientering. |
 
-### Anmärkningar
+## Anmärkningar
 
 `PageSetup` objektet innehåller alla sidinställningar för en section (vänstermarginal, bottenmarginal, pappersstorlek och så vidare) som egenskaper.
 
-### Exempel
+## Exempel
 
 Visar hur man tillämpar och återställer sidinställningar till avsnitt i ett dokument.
 
@@ -111,5 +113,3 @@ doc.Save(ArtifactsDir + "PageSetup.ClearFormatting.docx");
 
 * namnutrymme [Aspose.Words](../../aspose.words/)
 * hopsättning [Aspose.Words](../../)
-
-

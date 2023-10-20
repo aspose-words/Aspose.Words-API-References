@@ -1,12 +1,14 @@
 ---
 title: ImageData.SetImage
-second_title: Aspose.Words for .NET API 参考
-description: ImageData 方法. 设置形状显示的图像
+linktitle: SetImage
+articleTitle: SetImage
+second_title: 用于 .NET 的 Aspose.Words
+description: ImageData SetImage 方法. 设置形状显示的图像 在 C#.
 type: docs
-weight: 210
+weight: 200
 url: /zh/net/aspose.words.drawing/imagedata/setimage/
 ---
-## SetImage(Image) {#setimage}
+## SetImage(*Image*) {#setimage}
 
 设置形状显示的图像。
 
@@ -18,7 +20,7 @@ public void SetImage(Image image)
 | --- | --- | --- |
 | image | Image | 图像对象。 |
 
-### 例子
+## 例子
 
 演示如何在文档中显示本地文件系统中的图像。
 
@@ -53,12 +55,12 @@ doc.Save(ArtifactsDir + "Drawing.ImportImage.docx");
 ### 也可以看看
 
 * class [ImageData](../)
-* 命名空间 [Aspose.Words.Drawing](../../imagedata/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## SetImage(Stream) {#setimage_1}
+## SetImage(*Stream*) {#setimage_1}
 
 设置形状显示的图像。
 
@@ -70,7 +72,7 @@ public void SetImage(Stream stream)
 | --- | --- | --- |
 | stream | Stream | 包含图像的流。 |
 
-### 例子
+## 例子
 
 演示如何在文档中显示本地文件系统中的图像。
 
@@ -105,12 +107,12 @@ doc.Save(ArtifactsDir + "Drawing.ImportImage.docx");
 ### 也可以看看
 
 * class [ImageData](../)
-* 命名空间 [Aspose.Words.Drawing](../../imagedata/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## SetImage(string) {#setimage_2}
+## SetImage(*string*) {#setimage_2}
 
 设置形状显示的图像。
 
@@ -122,7 +124,7 @@ public void SetImage(string fileName)
 | --- | --- | --- |
 | fileName | String | 图像文件。可以是文件名或 URL。 |
 
-### 例子
+## 例子
 
 演示如何将链接图像插入到文档中。
 
@@ -164,7 +166,5 @@ Assert.True(10000 > new FileInfo(ArtifactsDir + "Image.CreateLinkedImage.Linked.
 ### 也可以看看
 
 * class [ImageData](../)
-* 命名空间 [Aspose.Words.Drawing](../../imagedata/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

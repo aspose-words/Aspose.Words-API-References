@@ -1,7 +1,9 @@
 ---
 title: FontSavingArgs.Document
-second_title: Справочник по API Aspose.Words для .NET
-description: FontSavingArgs свойство. Получает сохраняемый объект документа.
+linktitle: Document
+articleTitle: Document
+second_title: Aspose.Words для .NET
+description: FontSavingArgs Document свойство. Получает сохраняемый объект документа на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.saving/fontsavingargs/document/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.saving/fontsavingargs/document/
 public Document Document { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как определить пользовательскую логику для экспорта шрифтов при сохранении в HTML.
 
@@ -75,7 +77,5 @@ public class HandleFontSaving : IFontSavingCallback
 
 * class [Document](../../../aspose.words/document/)
 * class [FontSavingArgs](../)
-* пространство имен [Aspose.Words.Saving](../../fontsavingargs/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

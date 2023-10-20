@@ -1,7 +1,9 @@
 ---
 title: List.Style
-second_title: Aspose.Words for .NET API 参考
-description: List 财产. 获取此列表引用或定义的列表样式
+linktitle: Style
+articleTitle: Style
+second_title: 用于 .NET 的 Aspose.Words
+description: List Style 财产. 获取此列表引用或定义的列表样式 在 C#.
 type: docs
 weight: 80
 url: /zh/net/aspose.words.lists/list/style/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.lists/list/style/
 public Style Style { get; }
 ```
 
-### 评论
+## 评论
 
 如果此列表未与列表样式关联，则该属性将返回`无效的`。
 
@@ -22,7 +24,7 @@ public Style Style { get; }
 
 在本例中，列表可以是列表样式的定义[`IsListStyleDefinition`](../isliststyledefinition/) 将是`真的`。这样的列表不能直接应用于文档中的段落。
 
-### 例子
+## 例子
 
 演示如何创建列表样式并在文档中使用它。
 
@@ -84,7 +86,5 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateAndUseListStyle.docx");
 
 * class [Style](../../../aspose.words/style/)
 * class [List](../)
-* 命名空间 [Aspose.Words.Lists](../../list/)
+* 命名空间 [Aspose.Words.Lists](../../../aspose.words.lists/)
 * 部件 [Aspose.Words](../../../)
-
-

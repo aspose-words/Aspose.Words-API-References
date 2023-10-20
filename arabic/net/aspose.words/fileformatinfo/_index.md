@@ -1,7 +1,9 @@
 ---
-title: Class FileFormatInfo
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.FileFormatInfo فصل. يحتوي على البيانات التي تم إرجاعها بواسطةFileFormatUtil طرق الكشف عن تنسيق المستند.
+title: FileFormatInfo Class
+linktitle: FileFormatInfo
+articleTitle: FileFormatInfo
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.FileFormatInfo فصل. يحتوي على البيانات التي تم إرجاعها بواسطةFileFormatUtil طرق الكشف عن تنسيق المستند في C#.
 type: docs
 weight: 2810
 url: /ar/net/aspose.words/fileformatinfo/
@@ -25,11 +27,11 @@ public class FileFormatInfo
 | [IsEncrypted](../../aspose.words/fileformatinfo/isencrypted/) { get; } | إرجاع`حقيقي` إذا كان المستند مشفرًا ويتطلب كلمة مرور لفتحه. |
 | [LoadFormat](../../aspose.words/fileformatinfo/loadformat/) { get; } | الحصول على تنسيق المستند الذي تم اكتشافه. |
 
-### ملاحظات
+## ملاحظات
 
 لا تقم بإنشاء مثيلات هذه الفئة مباشرة. يتم إرجاع كائنات هذه الفئة بواسطة [`DetectFileFormat`](../fileformatutil/detectfileformat/) طُرق.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام فئة FileFormatUtil للكشف عن تنسيق المستند وتشفيره.
 
@@ -76,5 +78,3 @@ Assert.AreEqual(1, DigitalSignatureUtil.LoadSignatures(ArtifactsDir + "File.Dete
 
 * مساحة الاسم [Aspose.Words](../../aspose.words/)
 * المجسم [Aspose.Words](../../)
-
-

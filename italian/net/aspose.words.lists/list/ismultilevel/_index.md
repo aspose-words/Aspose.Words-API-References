@@ -1,7 +1,9 @@
 ---
 title: List.IsMultiLevel
-second_title: Aspose.Words per .NET API Reference
-description: List proprietà. RestituisceVERO quando lelenco contiene 9 livellifalso quando 1 livello.
+linktitle: IsMultiLevel
+articleTitle: IsMultiLevel
+second_title: Aspose.Words per .NET
+description: List IsMultiLevel proprietà. RestituisceVERO quando lelenco contiene 9 livellifalso quando 1 livello in C#.
 type: docs
 weight: 40
 url: /it/net/aspose.words.lists/list/ismultilevel/
@@ -14,13 +16,13 @@ Restituisce`VERO` quando l'elenco contiene 9 livelli;`falso` quando 1 livello.
 public bool IsMultiLevel { get; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Gli elenchi creati con Aspose.Words sono sempre elenchi multi-livello e contengono 9 livelli.
 
 Microsoft Word 2003 e versioni successive creano sempre elenchi multilivello con 9 livelli. Ma in alcuni documenti creati con versioni precedenti di Microsoft Word potresti incontrare elenchi che hanno solo 1 livello.
 
-### Esempi
+## Esempi
 
 Mostra come creare uno stile di elenco e utilizzarlo in un documento.
 
@@ -81,7 +83,5 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateAndUseListStyle.docx");
 ### Guarda anche
 
 * class [List](../)
-* spazio dei nomi [Aspose.Words.Lists](../../list/)
+* spazio dei nomi [Aspose.Words.Lists](../../../aspose.words.lists/)
 * assemblea [Aspose.Words](../../../)
-
-

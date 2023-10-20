@@ -1,7 +1,9 @@
 ---
 title: Frameset.ChildFramesets
-second_title: Aspose.Words for .NET API 参考
-description: Frameset 财产. 获取子框架和框架页面的集合
+linktitle: ChildFramesets
+articleTitle: ChildFramesets
+second_title: 用于 .NET 的 Aspose.Words
+description: Frameset ChildFramesets 财产. 获取子框架和框架页面的集合 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.framesets/frameset/childframesets/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.framesets/frameset/childframesets/
 public FramesetCollection ChildFramesets { get; }
 ```
 
-### 例子
+## 例子
 
 展示如何访问页面上的框架。
 
@@ -40,7 +42,5 @@ doc.Frameset.ChildFramesets[0].ChildFramesets[0].IsFrameLinkToFile = false;
 
 * class [FramesetCollection](../../framesetcollection/)
 * class [Frameset](../)
-* 命名空间 [Aspose.Words.Framesets](../../frameset/)
+* 命名空间 [Aspose.Words.Framesets](../../../aspose.words.framesets/)
 * 部件 [Aspose.Words](../../../)
-
-

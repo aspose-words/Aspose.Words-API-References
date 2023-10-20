@@ -1,7 +1,9 @@
 ---
-title: Class ImageFieldMergingArgs
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.MailMerging.ImageFieldMergingArgs klass. Tillhandahåller data förImageFieldMerging händelse.
+title: ImageFieldMergingArgs Class
+linktitle: ImageFieldMergingArgs
+articleTitle: ImageFieldMergingArgs
+second_title: Aspose.Words för .NET
+description: Aspose.Words.MailMerging.ImageFieldMergingArgs klass. Tillhandahåller data förImageFieldMerging händelse i C#.
 type: docs
 weight: 3830
 url: /sv/net/aspose.words.mailmerging/imagefieldmergingargs/
@@ -34,7 +36,7 @@ public class ImageFieldMergingArgs : FieldMergingArgsBase
 | [Shape](../../aspose.words.mailmerging/imagefieldmergingargs/shape/) { get; set; } | Anger formen som kopplingsmotorn måste infoga i dokumentet. |
 | [TableName](../../aspose.words.mailmerging/fieldmergingargsbase/tablename/) { get; } | Hämtar namnet på datatabellen för den aktuella sammanslagningsoperationen eller tom sträng om namnet inte är tillgängligt. |
 
-### Anmärkningar
+## Anmärkningar
 
 Den här händelsen inträffar under sammankoppling när ett bildutskick -fält påträffas i dokumentet. Du kan svara på denna händelse för att returnera a filnamn, ström eller enImage objekt mot mail merge -motorn så att den infogas i dokumentet.
 
@@ -42,7 +44,7 @@ Det finns tre fastigheter tillgängliga[`ImageFileName`](./imagefilename/) , [`I
 
 För att infoga ett bildutskickningsfält i ett dokument i Word, välj kommandot Infoga/Fält, , välj sedan MergeField och skriv Image:MyFieldName.
 
-### Exempel
+## Exempel
 
 Visar hur man infogar bilder lagrade i ett databas BLOB-fält i en rapport.
 
@@ -158,5 +160,3 @@ private class MergedImageResizer : IFieldMergingCallback
 * class [FieldMergingArgsBase](../fieldmergingargsbase/)
 * namnutrymme [Aspose.Words.MailMerging](../../aspose.words.mailmerging/)
 * hopsättning [Aspose.Words](../../)
-
-

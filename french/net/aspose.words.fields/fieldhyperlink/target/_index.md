@@ -1,7 +1,9 @@
 ---
 title: FieldHyperlink.Target
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldHyperlink propriété. Obtient ou définit la cible vers laquelle le lien doit être redirigé.
+linktitle: Target
+articleTitle: Target
+second_title: Aspose.Words pour .NET
+description: FieldHyperlink Target propriété. Obtient ou définit la cible vers laquelle le lien doit être redirigé en C#.
 type: docs
 weight: 70
 url: /fr/net/aspose.words.fields/fieldhyperlink/target/
@@ -14,7 +16,7 @@ Obtient ou définit la cible vers laquelle le lien doit être redirigé.
 public string Target { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment utiliser les champs HYPERLINK pour créer des liens vers des documents dans le système de fichiers local.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "Field.HYPERLINK.docx");
 ### Voir également
 
 * class [FieldHyperlink](../)
-* espace de noms [Aspose.Words.Fields](../../fieldhyperlink/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

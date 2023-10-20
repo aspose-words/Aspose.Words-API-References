@@ -1,7 +1,9 @@
 ---
 title: OleFormat.IconCaption
-second_title: Aspose.Words för .NET API Referens
-description: OleFormat fast egendom. Får ikontext för OLEobjekt.
+linktitle: IconCaption
+articleTitle: IconCaption
+second_title: Aspose.Words för .NET
+description: OleFormat IconCaption fast egendom. Får ikontext för OLEobjekt i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.drawing/oleformat/iconcaption/
@@ -16,7 +18,7 @@ Om OLE-objekt inte är inbäddat eftersom ikon eller bildtext inte kunde hämtas
 public string IconCaption { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man infogar länkade och olänkade OLE-objekt.
 
@@ -66,7 +68,5 @@ using (MemoryStream stream = oleFormat.GetOleEntry("\x0001CompObj"))
 ### Se även
 
 * class [OleFormat](../)
-* namnutrymme [Aspose.Words.Drawing](../../oleformat/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,14 +1,16 @@
 ---
-title: Class StructuredDocumentTagRangeStart
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Markup.StructuredDocumentTagRangeStart сорт. Обозначает начало дальнего боя тег структурированного документа который принимает содержимое из нескольких разделов. См. такжеStructuredDocumentTagRangeEnd .
+title: StructuredDocumentTagRangeStart Class
+linktitle: StructuredDocumentTagRangeStart
+articleTitle: StructuredDocumentTagRangeStart
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Markup.StructuredDocumentTagRangeStart сорт. Обозначает началодальнего боя тег структурированного документа который принимает содержимое из нескольких разделов. См. такжеStructuredDocumentTagRangeEnd  на С#.
 type: docs
 weight: 4090
 url: /ru/net/aspose.words.markup/structureddocumenttagrangestart/
 ---
 ## StructuredDocumentTagRangeStart class
 
-Обозначает начало **дальнего боя** тег структурированного документа, который принимает содержимое из нескольких разделов. См. также[`StructuredDocumentTagRangeEnd`](../structureddocumenttagrangeend/) .
+Обозначает начало**дальнего боя** тег структурированного документа, который принимает содержимое из нескольких разделов. См. также[`StructuredDocumentTagRangeEnd`](../structureddocumenttagrangeend/) .
 
 Чтобы узнать больше, посетите[Структурированные теги документа или контроль содержимого](https://docs.aspose.com/words/net/working-with-content-control-sdt/) статья документации.
 
@@ -20,7 +22,7 @@ public class StructuredDocumentTagRangeStart : Node, IEnumerable<Node>, IStructu
 
 | Имя | Описание |
 | --- | --- |
-| [StructuredDocumentTagRangeStart](structureddocumenttagrangestart/)(DocumentBase, SdtType) | Инициализирует новый экземпляр **Начало диапазона тегов структурированного документа** класс. |
+| [StructuredDocumentTagRangeStart](structureddocumenttagrangestart/)(*[DocumentBase](../../aspose.words/documentbase/), [SdtType](../sdttype/)*) | Инициализирует новый экземпляр**Начало диапазона тегов структурированного документа** класс. |
 
 ## Характеристики
 
@@ -55,27 +57,27 @@ public class StructuredDocumentTagRangeStart : Node, IEnumerable<Node>, IStructu
 
 | Имя | Описание |
 | --- | --- |
-| override [Accept](../../aspose.words.markup/structureddocumenttagrangestart/accept/)(DocumentVisitor) | Принимает посетителя. |
-| [AppendChild](../../aspose.words.markup/structureddocumenttagrangestart/appendchild/)(Node) | Добавляет указанный узел в конец диапазона stdContent. |
-| [Clone](../../aspose.words/node/clone/)(bool) | Создает дубликат узла. |
-| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Получает первого предка указанного[`NodeType`](../../aspose.words/nodetype/) . |
-| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Получает первого предка указанного типа объекта. |
-| [GetChildNodes](../../aspose.words.markup/structureddocumenttagrangestart/getchildnodes/)(NodeType, bool) | Возвращает живую коллекцию дочерних узлов, соответствующих указанным типам. |
+| override [Accept](../../aspose.words.markup/structureddocumenttagrangestart/accept/)(*[DocumentVisitor](../../aspose.words/documentvisitor/)*) | Принимает посетителя. |
+| [AppendChild](../../aspose.words.markup/structureddocumenttagrangestart/appendchild/)(*[Node](../../aspose.words/node/)*) | Добавляет указанный узел в конец диапазона stdContent. |
+| [Clone](../../aspose.words/node/clone/)(*bool*) | Создает дубликат узла. |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*[NodeType](../../aspose.words/nodetype/)*) | Получает первого предка указанного[`NodeType`](../../aspose.words/nodetype/) . |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | Получает первого предка указанного типа объекта. |
+| [GetChildNodes](../../aspose.words.markup/structureddocumenttagrangestart/getchildnodes/)(*[NodeType](../../aspose.words/nodetype/), bool*) | Возвращает живую коллекцию дочерних узлов, соответствующих указанным типам. |
 | [GetEnumerator](../../aspose.words.markup/structureddocumenttagrangestart/getenumerator/)() | Обеспечивает поддержку для каждой итерации стиля над дочерними узлами этого узла. |
 | virtual [GetText](../../aspose.words/node/gettext/)() | Получает текст этого узла и всех его дочерних элементов. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Получает следующий узел в соответствии с алгоритмом обхода дерева предварительного заказа. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Получает предыдущий узел в соответствии с алгоритмом обхода дерева предварительного заказа. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../../aspose.words/node/)*) | Получает следующий узел в соответствии с алгоритмом обхода дерева предварительного заказа. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../../aspose.words/node/)*) | Получает предыдущий узел в соответствии с алгоритмом обхода дерева предварительного заказа. |
 | [Remove](../../aspose.words/node/remove/)() | Удаляет себя от родителя. |
 | [RemoveAllChildren](../../aspose.words.markup/structureddocumenttagrangestart/removeallchildren/)() | Удаляет все узлы между этим начальным узлом диапазона и конечным узлом диапазона. |
 | [RemoveSelfOnly](../../aspose.words.markup/structureddocumenttagrangestart/removeselfonly/)() | Удаляет этот начальный и конечный узлы диапазона из тега структурированного документа, , но сохраняет его содержимое внутри дерева документа. |
-| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Экспортирует содержимое узла в строку указанного формата. |
-| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | Экспортирует содержимое узла в строку, используя указанные параметры сохранения. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../../aspose.words/saveformat/)*) | Экспортирует содержимое узла в строку указанного формата. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | Экспортирует содержимое узла в строку, используя указанные параметры сохранения. |
 
-### Примечания
+## Примечания
 
-Может быть непосредственным дочерним элементом[`Body`](../../aspose.words/body/) узел **только** .
+Может быть непосредственным дочерним элементом[`Body`](../../aspose.words/body/) узел**только** .
 
-### Примеры
+## Примеры
 
 Показывает, как получить свойства тегов многосекционного структурированного документа.
 
@@ -113,5 +115,3 @@ Console.WriteLine($"\t|NodeType: {rangeEndTag.NodeType}");
 * interface [IStructuredDocumentTag](../istructureddocumenttag/)
 * пространство имен [Aspose.Words.Markup](../../aspose.words.markup/)
 * сборка [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTagRangeStart.RemoveSelfOnly
-second_title: Aspose.Words لمراجع .NET API
-description: StructuredDocumentTagRangeStart طريقة. يزيل هذا النطاق بداية وعقد نهاية النطاق المناسبة لعلامة المستند المنظمة ولكنه يحتفظ بمحتواه داخل شجرة المستند.
+linktitle: RemoveSelfOnly
+articleTitle: RemoveSelfOnly
+second_title: Aspose.Words لـ .NET
+description: StructuredDocumentTagRangeStart RemoveSelfOnly طريقة. يزيل هذا النطاق بداية وعقد نهاية النطاق المناسبة لعلامة المستند المنظمة ولكنه يحتفظ بمحتواه داخل شجرة المستند في C#.
 type: docs
 weight: 240
 url: /ar/net/aspose.words.markup/structureddocumenttagrangestart/removeselfonly/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.markup/structureddocumenttagrangestart/removeselfonly/
 public void RemoveSelfOnly()
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء/إزالة علامة المستند المنظمة ومحتواها.
 
@@ -66,7 +68,5 @@ public void InsertStructuredDocumentTagRanges(Document doc, out StructuredDocume
 ### أنظر أيضا
 
 * class [StructuredDocumentTagRangeStart](../)
-* مساحة الاسم [Aspose.Words.Markup](../../structureddocumenttagrangestart/)
+* مساحة الاسم [Aspose.Words.Markup](../../../aspose.words.markup/)
 * المجسم [Aspose.Words](../../../)
-
-

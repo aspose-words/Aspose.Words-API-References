@@ -1,7 +1,9 @@
 ---
-title: Class LoadOptions
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Loading.LoadOptions klass. Gör det möjligt att ange ytterligare alternativ som lösenord eller basURI när laddar ett dokument i enDocument objekt.
+title: LoadOptions Class
+linktitle: LoadOptions
+articleTitle: LoadOptions
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Loading.LoadOptions klass. Gör det möjligt att ange ytterligare alternativ som lösenord eller basURI när laddar ett dokument i enDocument objekt i C#.
 type: docs
 weight: 3660
 url: /sv/net/aspose.words.loading/loadoptions/
@@ -21,8 +23,8 @@ public class LoadOptions
 | namn | Beskrivning |
 | --- | --- |
 | [LoadOptions](loadoptions/#constructor)() | Initierar en ny instans av denna klass med standardvärden. |
-| [LoadOptions](loadoptions/#constructor_2)(string) | En genväg för att initiera en ny instans av denna klass med det angivna lösenordet för att ladda ett krypterat dokument. |
-| [LoadOptions](loadoptions/#constructor_1)(LoadFormat, string, string) | En genväg för att initiera en ny instans av denna klass med egenskaper inställda på de angivna värdena. |
+| [LoadOptions](loadoptions/#constructor_2)(*string*) | En genväg för att initiera en ny instans av denna klass med det angivna lösenordet för att ladda ett krypterat dokument. |
+| [LoadOptions](loadoptions/#constructor_1)(*[LoadFormat](../../aspose.words/loadformat/), string, string*) | En genväg för att initiera en ny instans av denna klass med egenskaper inställda på de angivna värdena. |
 
 ## Egenskaper
 
@@ -49,9 +51,9 @@ public class LoadOptions
 
 | namn | Beskrivning |
 | --- | --- |
-| override [Equals](../../aspose.words.loading/loadoptions/equals/)(object) |  |
+| override [Equals](../../aspose.words.loading/loadoptions/equals/)(*object*) |  |
 
-### Exempel
+## Exempel
 
 Visar hur man laddar ett krypterat Microsoft Word-dokument.
 
@@ -78,5 +80,3 @@ using (Stream stream = File.OpenRead(MyDir + "Encrypted.docx"))
 
 * namnutrymme [Aspose.Words.Loading](../../aspose.words.loading/)
 * hopsättning [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: DocumentPartSavingArgs.DocumentPartFileName
-second_title: Referencia de API de Aspose.Words para .NET
-description: DocumentPartSavingArgs propiedad. Obtiene o establece el nombre del archivo sin ruta donde se guardará la parte del documento.
+linktitle: DocumentPartFileName
+articleTitle: DocumentPartFileName
+second_title: Aspose.Words para .NET
+description: DocumentPartSavingArgs DocumentPartFileName propiedad. Obtiene o establece el nombre del archivo sin ruta donde se guardará la parte del documento en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words.saving/documentpartsavingargs/documentpartfilename/
@@ -14,7 +16,7 @@ Obtiene o establece el nombre del archivo (sin ruta) donde se guardará la parte
 public string DocumentPartFileName { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 Esta propiedad le permite redefinir cómo se generan los nombres de los archivos de partes del documento durante la exportación a HTML o EPUB.
 
@@ -22,7 +24,7 @@ Cuando se invoca la devolución de llamada, esta propiedad contiene el nombre de
 
 `DocumentPartFileName` debe contener sólo el nombre del archivo sin la ruta. Aspose.Words determina la ruta para guardar utilizando el nombre del archivo del documento. Si no se especificó el nombre del archivo del documento de salida , por ejemplo, al guardarlo en una secuencia, este nombre de archivo se usa solo para hacer referencia a partes del documento. Lo mismo ocurre al guardar en formato EPUB.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo dividir un documento en partes y guardarlas.
 
@@ -139,7 +141,5 @@ public class SavedImageRename : IImageSavingCallback
 ### Ver también
 
 * class [DocumentPartSavingArgs](../)
-* espacio de nombres [Aspose.Words.Saving](../../documentpartsavingargs/)
+* espacio de nombres [Aspose.Words.Saving](../../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../../)
-
-

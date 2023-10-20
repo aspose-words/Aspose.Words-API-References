@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.BaseTimeUnit
-second_title: Aspose.Words för .NET API Referens
-description: ChartAxis fast egendom. Returnerar eller ställer in den minsta tidsenheten som är representerad på tidskategoriaxeln.
+linktitle: BaseTimeUnit
+articleTitle: BaseTimeUnit
+second_title: Aspose.Words för .NET
+description: ChartAxis BaseTimeUnit fast egendom. Returnerar eller ställer in den minsta tidsenheten som är representerad på tidskategoriaxeln i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.drawing.charts/chartaxis/basetimeunit/
@@ -14,11 +16,11 @@ Returnerar eller ställer in den minsta tidsenheten som är representerad på ti
 public AxisTimeUnit BaseTimeUnit { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Egenskapen har endast effekt för tidskategoriaxlar.
 
-### Exempel
+## Exempel
 
 Visar hur man infogar diagram med datum/tidsvärden.
 
@@ -73,7 +75,5 @@ doc.Save(ArtifactsDir + "Charts.DateTimeValues.docx");
 
 * enum [AxisTimeUnit](../../axistimeunit/)
 * class [ChartAxis](../)
-* namnutrymme [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* namnutrymme [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../../)
-
-

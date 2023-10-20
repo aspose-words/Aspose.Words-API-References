@@ -1,7 +1,9 @@
 ---
 title: FontInfoCollection.EmbedSystemFonts
-second_title: Aspose.Words لمراجع .NET API
-description: FontInfoCollection ملكية. يحدد ما إذا كان سيتم تضمين خطوط النظام في المستند أم لا. القيمة الافتراضية لهذه الخاصية هيخطأ شنيع.
+linktitle: EmbedSystemFonts
+articleTitle: EmbedSystemFonts
+second_title: Aspose.Words لـ .NET
+description: FontInfoCollection EmbedSystemFonts ملكية. يحدد ما إذا كان سيتم تضمين خطوط النظام في المستند أم لا. القيمة الافتراضية لهذه الخاصية هيخطأ شنيع في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.fonts/fontinfocollection/embedsystemfonts/
@@ -16,13 +18,13 @@ url: /ar/net/aspose.words.fonts/fontinfocollection/embedsystemfonts/
 public bool EmbedSystemFonts { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 تعيين هذه الخاصية على`حقيقي`يكون مفيدًا إذا كان المستخدم يستخدم نظامًا شرق آسيويًا ويريد إنشاء مستند يمكن قراءته بواسطة الآخرين الذين ليس لديهم خطوط لهذه اللغة على نظامهم. على سبيل المثال، يمكن لمستخدم النظام الياباني اختيار تضمين الخطوط في مستند بحيث يكون المستند الياباني قابلاً للقراءة على جميع الأنظمة.
 
 يعمل هذا الخيار مع تنسيقات DOC وDOCX وRTF فقط.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية حفظ مستند باستخدام خطوط TrueType المضمنة.
 
@@ -45,7 +47,5 @@ else
 ### أنظر أيضا
 
 * class [FontInfoCollection](../)
-* مساحة الاسم [Aspose.Words.Fonts](../../fontinfocollection/)
+* مساحة الاسم [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * المجسم [Aspose.Words](../../../)
-
-

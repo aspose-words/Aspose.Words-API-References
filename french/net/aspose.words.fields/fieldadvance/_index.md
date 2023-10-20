@@ -1,7 +1,9 @@
 ---
-title: Class FieldAdvance
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Fields.FieldAdvance classe. Implémente le champ ADVANCE.
+title: FieldAdvance Class
+linktitle: FieldAdvance
+articleTitle: FieldAdvance
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Fields.FieldAdvance classe. Implémente le champ ADVANCE en C#.
 type: docs
 weight: 1540
 url: /fr/net/aspose.words.fields/fieldadvance/
@@ -48,17 +50,17 @@ public class FieldAdvance : Field
 | Nom | La description |
 | --- | --- |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Renvoie le texte entre le début du champ et le séparateur de champ (ou la fin du champ s'il n'y a pas de séparateur). Le code de champ et le résultat du champ des champs enfants sont inclus. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Renvoie le texte entre le début du champ et le séparateur de champ (ou la fin du champ s'il n'y a pas de séparateur). |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | Renvoie le texte entre le début du champ et le séparateur de champ (ou la fin du champ s'il n'y a pas de séparateur). |
 | [Remove](../../aspose.words.fields/field/remove/)() | Supprime le champ du document. Renvoie un nœud juste après le champ. Si la fin du champ est le dernier child de son nœud parent, renvoie son paragraphe parent. Si le champ est déjà supprimé, renvoie`nul` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | Effectue la dissociation du champ. |
 | [Update](../../aspose.words.fields/field/update/)() | Effectue la mise à jour du champ. Lance si le champ est déjà mis à jour. |
-| [Update](../../aspose.words.fields/field/update/)(bool) | Effectue une mise à jour du champ. Lance si le champ est déjà mis à jour. |
+| [Update](../../aspose.words.fields/field/update/)(*bool*) | Effectue une mise à jour du champ. Lance si le champ est déjà mis à jour. |
 
-### Remarques
+## Remarques
 
 Déplace le point de départ auquel le texte qui suit lexicalement le champ est affiché vers la droite ou la gauche, vers le haut ou vers le bas, ou vers une position horizontale ou verticale spécifique.
 
-### Exemples
+## Exemples
 
 Montre comment insérer un champ ADVANCE et modifier ses propriétés.
 
@@ -105,5 +107,3 @@ doc.Save(ArtifactsDir + "Field.ADVANCE.docx");
 * class [Field](../field/)
 * espace de noms [Aspose.Words.Fields](../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../)
-
-

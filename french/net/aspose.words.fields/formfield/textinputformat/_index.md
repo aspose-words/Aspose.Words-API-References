@@ -1,7 +1,9 @@
 ---
 title: FormField.TextInputFormat
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FormField propriété. Renvoie ou définit la mise en forme du texte pour un champ de formulaire de texte.
+linktitle: TextInputFormat
+articleTitle: TextInputFormat
+second_title: Aspose.Words pour .NET
+description: FormField TextInputFormat propriété. Renvoie ou définit la mise en forme du texte pour un champ de formulaire de texte en C#.
 type: docs
 weight: 200
 url: /fr/net/aspose.words.fields/formfield/textinputformat/
@@ -14,7 +16,7 @@ Renvoie ou définit la mise en forme du texte pour un champ de formulaire de tex
 public string TextInputFormat { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 Si le champ du formulaire de texte contient du texte normal, les chaînes de format valides sont "", "UPPERCASE", "LOWERCASE", "FIRST CAPITAL" et "TITLE CASE". Les strings ne sont pas sensibles à la casse.
 
@@ -22,7 +24,7 @@ Si le champ du formulaire de texte contient un nombre ou une valeur de date/heur
 
 Microsoft Word autorise les chaînes comportant au maximum 64 caractères.
 
-### Exemples
+## Exemples
 
 Montre comment insérer différents types de champs de formulaire dans un document et les traiter à l'aide d'une implémentation de visiteur de document.
 
@@ -156,7 +158,5 @@ public class FormFieldVisitor : DocumentVisitor
 ### Voir également
 
 * class [FormField](../)
-* espace de noms [Aspose.Words.Fields](../../formfield/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

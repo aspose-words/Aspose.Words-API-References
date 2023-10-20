@@ -1,9 +1,11 @@
 ---
 title: Style.ParagraphFormat
-second_title: Aspose.Words für .NET-API-Referenz
-description: Style eigendom. Ruft die Absatzformatierung des Stils ab.
+linktitle: ParagraphFormat
+articleTitle: ParagraphFormat
+second_title: Aspose.Words für .NET
+description: Style ParagraphFormat eigendom. Ruft die Absatzformatierung des Stils ab in C#.
 type: docs
-weight: 150
+weight: 140
 url: /de/net/aspose.words/style/paragraphformat/
 ---
 ## Style.ParagraphFormat property
@@ -14,11 +16,11 @@ Ruft die Absatzformatierung des Stils ab.
 public ParagraphFormat ParagraphFormat { get; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Für Zeichen- und Listenstile gibt diese Eigenschaft zurück`Null`.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Absatzstil mit Listenformatierung erstellt und verwendet wird.
 
@@ -51,7 +53,5 @@ builder.Document.Save(ArtifactsDir + "Styles.ParagraphStyleBulletedList.docx");
 
 * class [ParagraphFormat](../../paragraphformat/)
 * class [Style](../)
-* namensraum [Aspose.Words](../../style/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

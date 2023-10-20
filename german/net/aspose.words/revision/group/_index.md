@@ -1,7 +1,9 @@
 ---
 title: Revision.Group
-second_title: Aspose.Words für .NET-API-Referenz
-description: Revision eigendom. Ruft die Revisionsgruppe ab. Kehrt zurückNull wenn die Revision zu keiner Gruppe gehört.
+linktitle: Group
+articleTitle: Group
+second_title: Aspose.Words für .NET
+description: Revision Group eigendom. Ruft die Revisionsgruppe ab. Kehrt zurückNull wenn die Revision zu keiner Gruppe gehört in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words/revision/group/
@@ -14,11 +16,11 @@ Ruft die Revisionsgruppe ab. Kehrt zurück`Null` wenn die Revision zu keiner Gru
 public RevisionGroup Group { get; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Revision hat keine Gruppe, wenn Revisionstyp istStyleDefinitionChangeoder wenn die Revision nicht mehr im Dokumentkontext vorhanden ist (akzeptiert/abgelehnt).
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit Revisionen in einem Dokument gearbeitet wird.
 
@@ -102,7 +104,5 @@ Assert.AreEqual("This is revision #1. \rThis is revision #2.", doc.GetText().Tri
 
 * class [RevisionGroup](../../revisiongroup/)
 * class [Revision](../)
-* namensraum [Aspose.Words](../../revision/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

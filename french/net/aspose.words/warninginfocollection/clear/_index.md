@@ -1,7 +1,9 @@
 ---
 title: WarningInfoCollection.Clear
-second_title: Référence de l'API Aspose.Words pour .NET
-description: WarningInfoCollection méthode. Supprime tous les éléments de la collection.
+linktitle: Clear
+articleTitle: Clear
+second_title: Aspose.Words pour .NET
+description: WarningInfoCollection Clear méthode. Supprime tous les éléments de la collection en C#.
 type: docs
 weight: 40
 url: /fr/net/aspose.words/warninginfocollection/clear/
@@ -14,7 +16,7 @@ Supprime tous les éléments de la collection.
 public void Clear()
 ```
 
-### Exemples
+## Exemples
 
 Montre comment définir la propriété permettant de trouver la correspondance la plus proche pour une police manquante à partir des sources de polices disponibles.
 
@@ -74,7 +76,5 @@ public class HandleDocumentSubstitutionWarnings : IWarningCallback
 ### Voir également
 
 * class [WarningInfoCollection](../)
-* espace de noms [Aspose.Words](../../warninginfocollection/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

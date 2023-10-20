@@ -1,7 +1,9 @@
 ---
-title: Enum RelativeHorizontalSize
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Drawing.RelativeHorizontalSize opsomming. Gibt relativ dazu an wie die Breite einer Form oder eines Textrahmens horizontal berechnet wird.
+title: RelativeHorizontalSize Enum
+linktitle: RelativeHorizontalSize
+articleTitle: RelativeHorizontalSize
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Drawing.RelativeHorizontalSize opsomming. Gibt relativ dazu an wie die Breite einer Form oder eines Textrahmens horizontal berechnet wird in C#.
 type: docs
 weight: 1200
 url: /de/net/aspose.words.drawing/relativehorizontalsize/
@@ -26,7 +28,7 @@ public enum RelativeHorizontalSize
 | OuterMargin | `5` | Gibt an, dass die Breite relativ zur Größe des äußeren Randbereichs berechnet wird, zur Größe des rechten Randbereichs für ungerade Seiten und zur Größe des linken Randbereichs für gerade Seiten. |
 | Default | `1` | Der Standardwert istMargin . |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die relative Größe und Position festgelegt wird.
 
@@ -83,5 +85,3 @@ doc.Save(ArtifactsDir + "Shape.RelativeSizeAndPosition.docx");
 * property [RelativeHorizontalSize](../shapebase/relativehorizontalsize/)
 * namensraum [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../)
-
-

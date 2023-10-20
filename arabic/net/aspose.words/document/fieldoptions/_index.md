@@ -1,7 +1,9 @@
 ---
 title: Document.FieldOptions
-second_title: Aspose.Words لمراجع .NET API
-description: Document ملكية. يحصل علىFieldOptions الكائن الذي يمثل خيارات التحكم في معالجة الحقل في المستند.
+linktitle: FieldOptions
+articleTitle: FieldOptions
+second_title: Aspose.Words لـ .NET
+description: Document FieldOptions ملكية. يحصل علىFieldOptions الكائن الذي يمثل خيارات التحكم في معالجة الحقل في المستند في C#.
 type: docs
 weight: 120
 url: /ar/net/aspose.words/document/fieldoptions/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/document/fieldoptions/
 public FieldOptions FieldOptions { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحديد مصدر الثقافة المستخدمة لتنسيق التاريخ أثناء تحديث الحقل أو دمج المراسلات.
 
@@ -50,7 +52,5 @@ Thread.CurrentThread.CurrentCulture = currentCulture;
 
 * class [FieldOptions](../../../aspose.words.fields/fieldoptions/)
 * class [Document](../)
-* مساحة الاسم [Aspose.Words](../../document/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

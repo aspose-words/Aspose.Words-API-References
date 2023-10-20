@@ -1,7 +1,9 @@
 ---
 title: MailMerge.CleanupOptions
-second_title: Aspose.Words für .NET-API-Referenz
-description: MailMerge eigendom. Ruft eine Reihe von Flags ab die angeben welche Elemente beim Seriendruck entfernt werden sollen oder legt diese fest.
+linktitle: CleanupOptions
+articleTitle: CleanupOptions
+second_title: Aspose.Words für .NET
+description: MailMerge CleanupOptions eigendom. Ruft eine Reihe von Flags ab die angeben welche Elemente beim Seriendruck entfernt werden sollen oder legt diese fest in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words.mailmerging/mailmerge/cleanupoptions/
@@ -14,7 +16,7 @@ Ruft eine Reihe von Flags ab, die angeben, welche Elemente beim Seriendruck entf
 public MailMergeCleanupOptions CleanupOptions { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie leere Absätze, die bei einem Seriendruck entstehen könnten, aus dem Seriendruck-Ausgabedokument entfernt werden.
 
@@ -87,7 +89,5 @@ else
 
 * enum [MailMergeCleanupOptions](../../mailmergecleanupoptions/)
 * class [MailMerge](../)
-* namensraum [Aspose.Words.MailMerging](../../mailmerge/)
+* namensraum [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: CleanupOptions.UnusedStyles
-second_title: Aspose.Words for .NET API 参考
-description: CleanupOptions 财产. 指定是否应从文档中删除未使用的样式 默认值为真的.
+linktitle: UnusedStyles
+articleTitle: UnusedStyles
+second_title: 用于 .NET 的 Aspose.Words
+description: CleanupOptions UnusedStyles 财产. 指定是否应从文档中删除未使用的样式 默认值为真的 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words/cleanupoptions/unusedstyles/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/cleanupoptions/unusedstyles/
 public bool UnusedStyles { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何从文档中删除所有未使用的自定义样式。
 
@@ -63,7 +65,5 @@ Assert.AreEqual(2, doc.Styles.Count);
 ### 也可以看看
 
 * class [CleanupOptions](../)
-* 命名空间 [Aspose.Words](../../cleanupoptions/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,9 +1,11 @@
 ---
 title: CompositeNode.GetChildNodes
-second_title: Aspose.Words لمراجع .NET API
-description: CompositeNode طريقة. إرجاع مجموعة مباشرة من العقد الفرعية التي تطابق النوع المحدد.
+linktitle: GetChildNodes
+articleTitle: GetChildNodes
+second_title: Aspose.Words لـ .NET
+description: CompositeNode GetChildNodes طريقة. إرجاع مجموعة مباشرة من العقد الفرعية التي تطابق النوع المحدد في C#.
 type: docs
-weight: 110
+weight: 90
 url: /ar/net/aspose.words/compositenode/getchildnodes/
 ---
 ## CompositeNode.GetChildNodes method
@@ -23,13 +25,13 @@ public NodeCollection GetChildNodes(NodeType nodeType, bool isDeep)
 
 مجموعة حية من العقد الفرعية من النوع المحدد.
 
-### ملاحظات
+## ملاحظات
 
 مجموعة العقد التي يتم إرجاعها بهذه الطريقة تكون دائمًا حية.
 
 تكون المجموعة المباشرة متزامنة دائمًا مع المستند. على سبيل المثال، إذا قمت بتحديد كافة الأقسام في مستند وقمت بالتعداد من خلال المجموعة وحذف الأقسام، تتم إزالة القسم من المجموعة فورًا عند إزالته من المستند.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية طباعة كافة تعليقات المستند والردود عليها.
 
@@ -171,7 +173,5 @@ Assert.AreEqual(3, paragraph.GetChildNodes(NodeType.Any, true).Count);
 * class [NodeCollection](../../nodecollection/)
 * enum [NodeType](../../nodetype/)
 * class [CompositeNode](../)
-* مساحة الاسم [Aspose.Words](../../compositenode/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

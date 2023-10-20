@@ -1,7 +1,9 @@
 ---
 title: TxtListIndentation.Count
-second_title: Aspose.Words for .NET API 参考
-description: TxtListIndentation 财产. 获取或设置多少Character用作每一级列表的缩进 默认值为 0这意味着没有缩进
+linktitle: Count
+articleTitle: Count
+second_title: 用于 .NET 的 Aspose.Words
+description: TxtListIndentation Count 财产. 获取或设置多少Character用作每一级列表的缩进 默认值为 0这意味着没有缩进 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.saving/txtlistindentation/count/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.saving/txtlistindentation/count/
 public int Count { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何在将文档保存为纯文本时配置列表缩进。
 
@@ -54,7 +56,5 @@ Assert.AreEqual("1. Item 1\r\n" +
 ### 也可以看看
 
 * class [TxtListIndentation](../)
-* 命名空间 [Aspose.Words.Saving](../../txtlistindentation/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

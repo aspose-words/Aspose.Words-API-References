@@ -1,7 +1,9 @@
 ---
-title: Class VbaModule
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Vba.VbaModule 班级. 提供对 VBA 项目模块的访问
+title: VbaModule Class
+linktitle: VbaModule
+articleTitle: VbaModule
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Vba.VbaModule 班级. 提供对 VBA 项目模块的访问 在 C#.
 type: docs
 weight: 6550
 url: /zh/net/aspose.words.vba/vbamodule/
@@ -36,7 +38,7 @@ public class VbaModule
 | --- | --- |
 | [Clone](../../aspose.words.vba/vbamodule/clone/)() | 执行复制`VbaModule`. |
 
-### 例子
+## 例子
 
 演示如何访问文档的 VBA 项目信息。
 
@@ -68,5 +70,3 @@ vbaModules.Remove(vbaModules[2]);
 
 * 命名空间 [Aspose.Words.Vba](../../aspose.words.vba/)
 * 部件 [Aspose.Words](../../)
-
-

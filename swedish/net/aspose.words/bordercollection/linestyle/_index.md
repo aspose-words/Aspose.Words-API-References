@@ -1,7 +1,9 @@
 ---
 title: BorderCollection.LineStyle
-second_title: Aspose.Words för .NET API Referens
-description: BorderCollection fast egendom. Hämtar eller ställer in kantstilen.
+linktitle: LineStyle
+articleTitle: LineStyle
+second_title: Aspose.Words för .NET
+description: BorderCollection LineStyle fast egendom. Hämtar eller ställer in kantstilen i C#.
 type: docs
 weight: 80
 url: /sv/net/aspose.words/bordercollection/linestyle/
@@ -14,13 +16,13 @@ Hämtar eller ställer in kantstilen.
 public LineStyle LineStyle { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Returnerar stilen för den första kanten i samlingen.
 
 Ställer in stilen för alla kanter i samlingen exklusive diagonala kanter.
 
-### Exempel
+## Exempel
 
 Visar hur man skapar grön vågig sidkant med en skugga.
 
@@ -41,7 +43,5 @@ doc.Save(ArtifactsDir + "PageSetup.PageBorders.docx");
 
 * enum [LineStyle](../../linestyle/)
 * class [BorderCollection](../)
-* namnutrymme [Aspose.Words](../../bordercollection/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

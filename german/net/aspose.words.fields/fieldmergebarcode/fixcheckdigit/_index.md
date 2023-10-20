@@ -1,7 +1,9 @@
 ---
 title: FieldMergeBarcode.FixCheckDigit
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldMergeBarcode eigendom. Ruft ab oder legt fest ob die Prüfziffer korrigiert werden soll wenn sie ungültig ist.
+linktitle: FixCheckDigit
+articleTitle: FixCheckDigit
+second_title: Aspose.Words für .NET
+description: FieldMergeBarcode FixCheckDigit eigendom. Ruft ab oder legt fest ob die Prüfziffer korrigiert werden soll wenn sie ungültig ist in C#.
 type: docs
 weight: 90
 url: /de/net/aspose.words.fields/fieldmergebarcode/fixcheckdigit/
@@ -14,7 +16,7 @@ Ruft ab oder legt fest, ob die Prüfziffer korrigiert werden soll, wenn sie ung�
 public bool FixCheckDigit { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Serienbrief für EAN13-Barcodes durchgeführt wird.
 
@@ -60,7 +62,5 @@ doc.Save(ArtifactsDir + "Field.MERGEBARCODE.EAN13.docx");
 ### Siehe auch
 
 * class [FieldMergeBarcode](../)
-* namensraum [Aspose.Words.Fields](../../fieldmergebarcode/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

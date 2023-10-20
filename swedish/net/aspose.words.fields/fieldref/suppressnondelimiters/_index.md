@@ -1,7 +1,9 @@
 ---
 title: FieldRef.SuppressNonDelimiters
-second_title: Aspose.Words för .NET API Referens
-description: FieldRef fast egendom. Hämtar eller ställer in om ickeavgränsande tecken ska undertryckas.
+linktitle: SuppressNonDelimiters
+articleTitle: SuppressNonDelimiters
+second_title: Aspose.Words för .NET
+description: FieldRef SuppressNonDelimiters fast egendom. Hämtar eller ställer in om ickeavgränsande tecken ska undertryckas i C#.
 type: docs
 weight: 100
 url: /sv/net/aspose.words.fields/fieldref/suppressnondelimiters/
@@ -14,7 +16,7 @@ Hämtar eller ställer in om icke-avgränsande tecken ska undertryckas.
 public bool SuppressNonDelimiters { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man infogar REF-fält för att referera till bokmärken.
 
@@ -104,7 +106,5 @@ private static FieldRef InsertFieldRef(DocumentBuilder builder, string bookmarkN
 ### Se även
 
 * class [FieldRef](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldref/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

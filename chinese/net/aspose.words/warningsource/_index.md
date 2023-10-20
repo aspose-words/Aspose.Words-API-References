@@ -1,7 +1,9 @@
 ---
-title: Enum WarningSource
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.WarningSource 枚举. 指定在文档加载或保存期间产生警告的模块
+title: WarningSource Enum
+linktitle: WarningSource
+articleTitle: WarningSource
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.WarningSource 枚举. 指定在文档加载或保存期间产生警告的模块 在 C#.
 type: docs
 weight: 6650
 url: /zh/net/aspose.words/warningsource/
@@ -51,5 +53,3 @@ public enum WarningSource
 
 * 命名空间 [Aspose.Words](../../aspose.words/)
 * 部件 [Aspose.Words](../../)
-
-

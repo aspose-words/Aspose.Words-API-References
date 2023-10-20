@@ -1,7 +1,9 @@
 ---
 title: MailMerge.FieldMergingCallback
-second_title: Aspose.Words för .NET API Referens
-description: MailMerge fast egendom. Förekommer under sammankoppling när ett sammanslagningsfält påträffas i dokumentet.
+linktitle: FieldMergingCallback
+articleTitle: FieldMergingCallback
+second_title: Aspose.Words för .NET
+description: MailMerge FieldMergingCallback fast egendom. Förekommer under sammankoppling när ett sammanslagningsfält påträffas i dokumentet i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.mailmerging/mailmerge/fieldmergingcallback/
@@ -14,7 +16,7 @@ Förekommer under sammankoppling när ett sammanslagningsfält påträffas i dok
 public IFieldMergingCallback FieldMergingCallback { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man infogar bilder lagrade i ett databas BLOB-fält i en rapport.
 
@@ -127,7 +129,5 @@ private class HandleMergeFieldInsertHtml : IFieldMergingCallback
 
 * interface [IFieldMergingCallback](../../ifieldmergingcallback/)
 * class [MailMerge](../)
-* namnutrymme [Aspose.Words.MailMerging](../../mailmerge/)
+* namnutrymme [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Odso.DataSourceType
-second_title: Referencia de API de Aspose.Words para .NET
-description: Odso propiedad. Especifica el tipo de origen de datos externo al que se conectará como parte de la información de conexión ODSO para esta combinación de correspondencia. El valor predeterminado esDefault .
+linktitle: DataSourceType
+articleTitle: DataSourceType
+second_title: Aspose.Words para .NET
+description: Odso DataSourceType propiedad. Especifica el tipo de origen de datos externo al que se conectará como parte de la información de conexión ODSO para esta combinación de correspondencia. El valor predeterminado esDefault  en C#.
 type: docs
 weight: 40
 url: /es/net/aspose.words.settings/odso/datasourcetype/
@@ -14,11 +16,11 @@ Especifica el tipo de origen de datos externo al que se conectará como parte de
 public OdsoDataSourceType DataSourceType { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 Esta configuración es puramente una sugerencia del tipo de fuente de datos que se utiliza para esta combinación de correspondencia.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo ejecutar una combinación de correspondencia con datos de un objeto de origen de datos de Office.
 
@@ -71,7 +73,5 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 
 * enum [OdsoDataSourceType](../../odsodatasourcetype/)
 * class [Odso](../)
-* espacio de nombres [Aspose.Words.Settings](../../odso/)
+* espacio de nombres [Aspose.Words.Settings](../../../aspose.words.settings/)
 * asamblea [Aspose.Words](../../../)
-
-

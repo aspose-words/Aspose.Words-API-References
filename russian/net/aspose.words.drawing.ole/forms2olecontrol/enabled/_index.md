@@ -1,7 +1,9 @@
 ---
 title: Forms2OleControl.Enabled
-second_title: Справочник по API Aspose.Words для .NET
-description: Forms2OleControl свойство. Возвращаетистинный если управление находится во включенном состоянии.
+linktitle: Enabled
+articleTitle: Enabled
+second_title: Aspose.Words для .NET
+description: Forms2OleControl Enabled свойство. Возвращаетистинный если управление находится во включенном состоянии на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.drawing.ole/forms2olecontrol/enabled/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.drawing.ole/forms2olecontrol/enabled/
 public bool Enabled { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как проверить свойства элемента управления ActiveX.
 
@@ -44,7 +46,5 @@ if (oleControl.IsForms2OleControl)
 ### Смотрите также
 
 * class [Forms2OleControl](../)
-* пространство имен [Aspose.Words.Drawing.Ole](../../forms2olecontrol/)
+* пространство имен [Aspose.Words.Drawing.Ole](../../../aspose.words.drawing.ole/)
 * сборка [Aspose.Words](../../../)
-
-

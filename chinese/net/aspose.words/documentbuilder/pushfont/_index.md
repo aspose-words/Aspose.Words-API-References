@@ -1,9 +1,11 @@
 ---
 title: DocumentBuilder.PushFont
-second_title: Aspose.Words for .NET API 参考
-description: DocumentBuilder 方法. 将当前字符格式保存到堆栈上
+linktitle: PushFont
+articleTitle: PushFont
+second_title: 用于 .NET 的 Aspose.Words
+description: DocumentBuilder PushFont 方法. 将当前字符格式保存到堆栈上 在 C#.
 type: docs
-weight: 610
+weight: 600
 url: /zh/net/aspose.words/documentbuilder/pushfont/
 ---
 ## DocumentBuilder.PushFont method
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/documentbuilder/pushfont/
 public void PushFont()
 ```
 
-### 例子
+## 例子
 
 演示如何使用文档生成器的格式堆栈。
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.PushPopFont.docx");
 * property [Font](../font/)
 * method [PopFont](../popfont/)
 * class [DocumentBuilder](../)
-* 命名空间 [Aspose.Words](../../documentbuilder/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

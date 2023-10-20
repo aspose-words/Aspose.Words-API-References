@@ -1,7 +1,9 @@
 ---
-title: Class BookmarkEnd
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.BookmarkEnd classe. Rappresenta la fine di un segnalibro in un documento Word.
+title: BookmarkEnd Class
+linktitle: BookmarkEnd
+articleTitle: BookmarkEnd
+second_title: Aspose.Words per .NET
+description: Aspose.Words.BookmarkEnd classe. Rappresenta la fine di un segnalibro in un documento Word in C#.
 type: docs
 weight: 60
 url: /it/net/aspose.words/bookmarkend/
@@ -20,7 +22,7 @@ public class BookmarkEnd : Node
 
 | Nome | Descrizione |
 | --- | --- |
-| [BookmarkEnd](bookmarkend/)(DocumentBase, string) | Inizializza una nuova istanza di`BookmarkEnd` classe. |
+| [BookmarkEnd](bookmarkend/)(*[DocumentBase](../documentbase/), string*) | Inizializza una nuova istanza di`BookmarkEnd` classe. |
 
 ## Proprietà
 
@@ -40,18 +42,18 @@ public class BookmarkEnd : Node
 
 | Nome | Descrizione |
 | --- | --- |
-| override [Accept](../../aspose.words/bookmarkend/accept/)(DocumentVisitor) | Accetta un visitatore. |
-| [Clone](../../aspose.words/node/clone/)(bool) | Crea un duplicato del nodo. |
-| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Ottiene il primo antenato dell'oggetto specificato[`NodeType`](../nodetype/) . |
-| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Ottiene il primo antenato del tipo di oggetto specificato. |
+| override [Accept](../../aspose.words/bookmarkend/accept/)(*[DocumentVisitor](../documentvisitor/)*) | Accetta un visitatore. |
+| [Clone](../../aspose.words/node/clone/)(*bool*) | Crea un duplicato del nodo. |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*[NodeType](../nodetype/)*) | Ottiene il primo antenato dell'oggetto specificato[`NodeType`](../nodetype/) . |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | Ottiene il primo antenato del tipo di oggetto specificato. |
 | virtual [GetText](../../aspose.words/node/gettext/)() | Ottiene il testo di questo nodo e di tutti i suoi figli. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Ottiene il nodo successivo in base all'algoritmo di attraversamento dell'albero di preordine. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Ottiene il nodo precedente in base all'algoritmo di attraversamento dell'albero di preordine. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../node/)*) | Ottiene il nodo successivo in base all'algoritmo di attraversamento dell'albero di preordine. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../node/)*) | Ottiene il nodo precedente in base all'algoritmo di attraversamento dell'albero di preordine. |
 | [Remove](../../aspose.words/node/remove/)() | Si rimuove dal genitore. |
-| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Esporta il contenuto del nodo in una stringa nel formato specificato. |
-| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | Esporta il contenuto del nodo in una stringa utilizzando le opzioni di salvataggio specificate. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../saveformat/)*) | Esporta il contenuto del nodo in una stringa nel formato specificato. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | Esporta il contenuto del nodo in una stringa utilizzando le opzioni di salvataggio specificate. |
 
-### Osservazioni
+## Osservazioni
 
 Un segnalibro completo in un documento Word è costituito da a[`BookmarkStart`](../bookmarkstart/) e una corrispondenza`BookmarkEnd` con lo stesso nome del segnalibro.
 
@@ -59,7 +61,7 @@ Un segnalibro completo in un documento Word è costituito da a[`BookmarkStart`](
 
 Usa il[`Bookmark`](../bookmark/) class come "facciata" per lavorare con un bookmark come un singolo oggetto.
 
-### Esempi
+## Esempi
 
 Mostra come aggiungere segnalibri e aggiornarne i contenuti.
 
@@ -150,5 +152,3 @@ public class BookmarkInfoPrinter : DocumentVisitor
 * class [Node](../node/)
 * spazio dei nomi [Aspose.Words](../../aspose.words/)
 * assemblea [Aspose.Words](../../)
-
-

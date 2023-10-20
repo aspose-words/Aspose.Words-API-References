@@ -1,7 +1,9 @@
 ---
 title: CustomXmlPropertyCollection.Item
-second_title: Référence de l'API Aspose.Words pour .NET
-description: CustomXmlPropertyCollection propriété. Obtient une propriété avec le nom spécifié.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words pour .NET
+description: CustomXmlPropertyCollection Item propriété. Obtient une propriété avec le nom spécifié en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.markup/customxmlpropertycollection/item/
@@ -18,7 +20,7 @@ public CustomXmlProperty this[string name] { get; }
 | --- | --- |
 | name | Nom sensible à la casse de la propriété à localiser. |
 
-### Exemples
+## Exemples
 
 Montre comment utiliser les propriétés des balises actives pour obtenir des informations détaillées sur les balises actives.
 
@@ -76,7 +78,7 @@ Assert.AreEqual(0, properties.Count);
 
 * class [CustomXmlProperty](../../customxmlproperty/)
 * class [CustomXmlPropertyCollection](../)
-* espace de noms [Aspose.Words.Markup](../../customxmlpropertycollection/)
+* espace de noms [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Assemblée [Aspose.Words](../../../)
 
 ---
@@ -93,7 +95,7 @@ public CustomXmlProperty this[int index] { get; }
 | --- | --- |
 | index | Index de base zéro de la propriété. |
 
-### Exemples
+## Exemples
 
 Montre comment utiliser les propriétés des balises actives pour obtenir des informations détaillées sur les balises actives.
 
@@ -151,7 +153,5 @@ Assert.AreEqual(0, properties.Count);
 
 * class [CustomXmlProperty](../../customxmlproperty/)
 * class [CustomXmlPropertyCollection](../)
-* espace de noms [Aspose.Words.Markup](../../customxmlpropertycollection/)
+* espace de noms [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: CustomPart.IsExternal
-second_title: Aspose.Words für .NET-API-Referenz
-description: CustomPart eigendom. False wenn dieser benutzerdefinierte Teil im OOXMLPaket gespeichert ist. True wenn dieses benutzerdefinierte Teil ein externes Ziel ist.
+linktitle: IsExternal
+articleTitle: IsExternal
+second_title: Aspose.Words für .NET
+description: CustomPart IsExternal eigendom. False wenn dieser benutzerdefinierte Teil im OOXMLPaket gespeichert ist. True wenn dieses benutzerdefinierte Teil ein externes Ziel ist in C#.
 type: docs
 weight: 40
 url: /de/net/aspose.words.markup/custompart/isexternal/
@@ -14,11 +16,11 @@ False, wenn dieser benutzerdefinierte Teil im OOXML-Paket gespeichert ist. True,
 public bool IsExternal { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Der Standardwert ist`FALSCH`.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie auf die beliebige benutzerdefinierte Teilesammlung eines Dokuments zugegriffen wird.
 
@@ -62,7 +64,5 @@ Assert.AreEqual(0, doc.PackageCustomParts.Count);
 ### Siehe auch
 
 * class [CustomPart](../)
-* namensraum [Aspose.Words.Markup](../../custompart/)
+* namensraum [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Montage [Aspose.Words](../../../)
-
-

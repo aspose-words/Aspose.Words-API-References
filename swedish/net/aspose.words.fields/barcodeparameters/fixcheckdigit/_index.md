@@ -1,7 +1,9 @@
 ---
 title: BarcodeParameters.FixCheckDigit
-second_title: Aspose.Words för .NET API Referens
-description: BarcodeParameters fast egendom. Om kontrollsiffran ska åtgärdas om den är ogiltig.
+linktitle: FixCheckDigit
+articleTitle: FixCheckDigit
+second_title: Aspose.Words för .NET
+description: BarcodeParameters FixCheckDigit fast egendom. Om kontrollsiffran ska åtgärdas om den är ogiltig i C#.
 type: docs
 weight: 100
 url: /sv/net/aspose.words.fields/barcodeparameters/fixcheckdigit/
@@ -14,7 +16,7 @@ Om kontrollsiffran ska åtgärdas om den är ogiltig.
 public bool FixCheckDigit { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man använder en streckkodsgenerator.
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.docx");
 ### Se även
 
 * class [BarcodeParameters](../)
-* namnutrymme [Aspose.Words.Fields](../../barcodeparameters/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

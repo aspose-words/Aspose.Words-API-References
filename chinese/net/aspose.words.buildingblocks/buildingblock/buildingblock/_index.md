@@ -1,7 +1,9 @@
 ---
-title: BuildingBlock.BuildingBlock
-second_title: Aspose.Words for .NET API 参考
-description: BuildingBlock 构造函数. 初始化此类的新实例
+title: BuildingBlock
+linktitle: BuildingBlock
+articleTitle: BuildingBlock
+second_title: 用于 .NET 的 Aspose.Words
+description: BuildingBlock 构造函数. 初始化此类的新实例 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.buildingblocks/buildingblock/buildingblock/
@@ -18,13 +20,13 @@ public BuildingBlock(GlossaryDocument glossaryDoc)
 | --- | --- | --- |
 | glossaryDoc | GlossaryDocument | 所有者文件。 |
 
-### 评论
+## 评论
 
 什么时候[`BuildingBlock`](../)创建后，它属于指定的术语表文档 但尚未属于术语表文档，并且[`ParentNode`](../../../aspose.words/node/parentnode/)是`无效的`。
 
-追加[`BuildingBlock`](../)到一个[`GlossaryDocument`](../../glossarydocument/)使用 Node)。
+追加[`BuildingBlock`](../)到一个[`GlossaryDocument`](../../glossarydocument/)使用 [`AppendChild`](../../../aspose.words/compositenode/appendchild/)。
 
-### 例子
+## 例子
 
 演示如何将自定义构建块添加到文档中。
 
@@ -122,7 +124,5 @@ public class BuildingBlockVisitor : DocumentVisitor
 
 * class [GlossaryDocument](../../glossarydocument/)
 * class [BuildingBlock](../)
-* 命名空间 [Aspose.Words.BuildingBlocks](../../buildingblock/)
+* 命名空间 [Aspose.Words.BuildingBlocks](../../../aspose.words.buildingblocks/)
 * 部件 [Aspose.Words](../../../)
-
-

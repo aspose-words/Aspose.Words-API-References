@@ -1,7 +1,9 @@
 ---
 title: FieldToc.HeadingLevelRange
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldToc свойство. Получает или задает диапазон уровней заголовков которые необходимо включить.
+linktitle: HeadingLevelRange
+articleTitle: HeadingLevelRange
+second_title: Aspose.Words для .NET
+description: FieldToc HeadingLevelRange свойство. Получает или задает диапазон уровней заголовков которые необходимо включить на С#.
 type: docs
 weight: 80
 url: /ru/net/aspose.words.fields/fieldtoc/headinglevelrange/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldtoc/headinglevelrange/
 public string HeadingLevelRange { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как вставить оглавление и заполнить его записями на основе стилей заголовков.
 
@@ -99,7 +101,5 @@ public void InsertNewPageWithHeading(DocumentBuilder builder, string captionText
 ### Смотрите также
 
 * class [FieldToc](../)
-* пространство имен [Aspose.Words.Fields](../../fieldtoc/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

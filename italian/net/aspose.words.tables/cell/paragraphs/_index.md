@@ -1,7 +1,9 @@
 ---
 title: Cell.Paragraphs
-second_title: Aspose.Words per .NET API Reference
-description: Cell proprietà. Ottiene una raccolta di paragrafi che sono figli immediati della cella.
+linktitle: Paragraphs
+articleTitle: Paragraphs
+second_title: Aspose.Words per .NET
+description: Cell Paragraphs proprietà. Ottiene una raccolta di paragrafi che sono figli immediati della cella in C#.
 type: docs
 weight: 90
 url: /it/net/aspose.words.tables/cell/paragraphs/
@@ -14,7 +16,7 @@ Ottiene una raccolta di paragrafi che sono figli immediati della cella.
 public ParagraphCollection Paragraphs { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come apparecchiare una tavola per stare insieme sulla stessa pagina.
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "Table.KeepTableTogether.docx");
 
 * class [ParagraphCollection](../../../aspose.words/paragraphcollection/)
 * class [Cell](../)
-* spazio dei nomi [Aspose.Words.Tables](../../cell/)
+* spazio dei nomi [Aspose.Words.Tables](../../../aspose.words.tables/)
 * assemblea [Aspose.Words](../../../)
-
-

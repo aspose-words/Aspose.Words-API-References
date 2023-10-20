@@ -1,7 +1,9 @@
 ---
 title: BookmarkEnd.NodeType
-second_title: Aspose.Words لمراجع .NET API
-description: BookmarkEnd ملكية. إرجاعBookmarkEnd .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words لـ .NET
+description: BookmarkEnd NodeType ملكية. إرجاعBookmarkEnd  في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words/bookmarkend/nodetype/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/bookmarkend/nodetype/
 public override NodeType NodeType { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية اجتياز شجرة العقدة المركبة من العقد الفرعية.
 
@@ -62,7 +64,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 
 * enum [NodeType](../../nodetype/)
 * class [BookmarkEnd](../)
-* مساحة الاسم [Aspose.Words](../../bookmarkend/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

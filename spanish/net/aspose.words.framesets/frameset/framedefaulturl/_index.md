@@ -1,7 +1,9 @@
 ---
 title: Frameset.FrameDefaultUrl
-second_title: Referencia de API de Aspose.Words para .NET
-description: Frameset propiedad. Obtiene o establece la URL de la página web o el nombre del archivo del documento para mostrar en este marco.
+linktitle: FrameDefaultUrl
+articleTitle: FrameDefaultUrl
+second_title: Aspose.Words para .NET
+description: Frameset FrameDefaultUrl propiedad. Obtiene o establece la URL de la página web o el nombre del archivo del documento para mostrar en este marco en C#.
 type: docs
 weight: 30
 url: /es/net/aspose.words.framesets/frameset/framedefaulturl/
@@ -14,7 +16,7 @@ Obtiene o establece la URL de la página web o el nombre del archivo del documen
 public string FrameDefaultUrl { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo acceder a los marcos en la página.
 
@@ -39,7 +41,5 @@ doc.Frameset.ChildFramesets[0].ChildFramesets[0].IsFrameLinkToFile = false;
 ### Ver también
 
 * class [Frameset](../)
-* espacio de nombres [Aspose.Words.Framesets](../../frameset/)
+* espacio de nombres [Aspose.Words.Framesets](../../../aspose.words.framesets/)
 * asamblea [Aspose.Words](../../../)
-
-

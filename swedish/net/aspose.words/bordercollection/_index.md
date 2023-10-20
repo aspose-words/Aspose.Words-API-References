@@ -1,7 +1,9 @@
 ---
-title: Class BorderCollection
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.BorderCollection klass. En samling avBorder objekt.
+title: BorderCollection Class
+linktitle: BorderCollection
+articleTitle: BorderCollection
+second_title: Aspose.Words för .NET
+description: Aspose.Words.BorderCollection klass. En samling avBorder objekt i C#.
 type: docs
 weight: 90
 url: /sv/net/aspose.words/bordercollection/
@@ -39,14 +41,14 @@ public sealed class BorderCollection : IEnumerable<Border>
 | namn | Beskrivning |
 | --- | --- |
 | [ClearFormatting](../../aspose.words/bordercollection/clearformatting/)() | Tar bort alla kanter för ett objekt. |
-| [Equals](../../aspose.words/bordercollection/equals/#equals)(BorderCollection) | Jämför samlingar av ramar. |
+| [Equals](../../aspose.words/bordercollection/equals/#equals)(*BorderCollection*) | Jämför samlingar av ramar. |
 | [GetEnumerator](../../aspose.words/bordercollection/getenumerator/)() | Returnerar ett uppräkningsobjekt som kan användas för att iterera över alla gränser i samlingen. |
 
-### Anmärkningar
+## Anmärkningar
 
 Olika dokumentelement har olika ramar. Till exempel,[`ParagraphFormat`](../paragraphformat/)har[`Bottom`](./bottom/) ,[`Left`](./left/) ,[`Right`](./right/) och[`Top`](./top/) borders. Du kan ange olika formatering för varje kant oberoende av varandra eller räkna upp genom alla kanter och tillämpa samma formatering.
 
-### Exempel
+## Exempel
 
 Visar hur man infogar ett stycke med en övre kant.
 
@@ -71,5 +73,3 @@ doc.Save(ArtifactsDir + "Border.ParagraphTopBorder.docx");
 * class [Border](../border/)
 * namnutrymme [Aspose.Words](../../aspose.words/)
 * hopsättning [Aspose.Words](../../)
-
-

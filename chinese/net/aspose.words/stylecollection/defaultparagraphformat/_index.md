@@ -1,7 +1,9 @@
 ---
 title: StyleCollection.DefaultParagraphFormat
-second_title: Aspose.Words for .NET API 参考
-description: StyleCollection 财产. 获取文档默认段落格式
+linktitle: DefaultParagraphFormat
+articleTitle: DefaultParagraphFormat
+second_title: 用于 .NET 的 Aspose.Words
+description: StyleCollection DefaultParagraphFormat 财产. 获取文档默认段落格式 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words/stylecollection/defaultparagraphformat/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words/stylecollection/defaultparagraphformat/
 public ParagraphFormat DefaultParagraphFormat { get; }
 ```
 
-### 评论
+## 评论
 
 请注意，文档范围的默认值是在 Microsoft Word 2007 中引入的，并且完全支持 OOXML 格式（Docx) 仅。 早期文档格式不支持文档默认段落格式。
 
-### 例子
+## 例子
 
 演示如何将样式添加到文档的样式集合中。
 
@@ -42,7 +44,5 @@ Assert.AreEqual(15.0, styles["MyStyle"].ParagraphFormat.FirstLineIndent);
 
 * class [ParagraphFormat](../../paragraphformat/)
 * class [StyleCollection](../)
-* 命名空间 [Aspose.Words](../../stylecollection/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

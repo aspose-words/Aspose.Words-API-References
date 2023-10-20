@@ -1,12 +1,14 @@
 ---
-title: NodeImporter.NodeImporter
-second_title: Aspose.Words لمراجع .NET API
-description: NodeImporter البناء. تهيئة مثيل جديد لـNodeImporter فئة.
+title: NodeImporter
+linktitle: NodeImporter
+articleTitle: NodeImporter
+second_title: Aspose.Words لـ .NET
+description: NodeImporter البناء. تهيئة مثيل جديد لـNodeImporter فئة في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words/nodeimporter/nodeimporter/
 ---
-## NodeImporter(DocumentBase, DocumentBase, ImportFormatMode) {#constructor}
+## NodeImporter(*[DocumentBase](../../documentbase/), [DocumentBase](../../documentbase/), [ImportFormatMode](../../importformatmode/)*) {#constructor}
 
 تهيئة مثيل جديد لـ[`NodeImporter`](../) فئة.
 
@@ -20,7 +22,7 @@ public NodeImporter(DocumentBase srcDoc, DocumentBase dstDoc, ImportFormatMode i
 | dstDoc | DocumentBase | مستند الوجهة الذي سيكون مالك العقد المستوردة. |
 | importFormatMode | ImportFormatMode | يحدد كيفية دمج تنسيقات النمط التي تتعارض. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج محتويات مستند واحد في إشارة مرجعية في مستند آخر.
 
@@ -90,12 +92,12 @@ static void InsertDocument(Node insertionDestination, Document docToInsert)
 * class [DocumentBase](../../documentbase/)
 * enum [ImportFormatMode](../../importformatmode/)
 * class [NodeImporter](../)
-* مساحة الاسم [Aspose.Words](../../nodeimporter/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## NodeImporter(DocumentBase, DocumentBase, ImportFormatMode, ImportFormatOptions) {#constructor_1}
+## NodeImporter(*[DocumentBase](../../documentbase/), [DocumentBase](../../documentbase/), [ImportFormatMode](../../importformatmode/), [ImportFormatOptions](../../importformatoptions/)*) {#constructor_1}
 
 تهيئة مثيل جديد لـ[`NodeImporter`](../) فئة.
 
@@ -111,7 +113,7 @@ public NodeImporter(DocumentBase srcDoc, DocumentBase dstDoc, ImportFormatMode i
 | importFormatMode | ImportFormatMode | يحدد كيفية دمج تنسيقات النمط التي تتعارض. |
 | importFormatOptions | ImportFormatOptions | يحدد خيارات متنوعة لتنسيق العقدة المستوردة. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية حل التعارض عند استيراد المستندات التي تحتوي على قوائم بنفس معرف تعريف القائمة.
 
@@ -186,7 +188,5 @@ else
 * enum [ImportFormatMode](../../importformatmode/)
 * class [ImportFormatOptions](../../importformatoptions/)
 * class [NodeImporter](../)
-* مساحة الاسم [Aspose.Words](../../nodeimporter/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

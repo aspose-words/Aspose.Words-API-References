@@ -1,7 +1,9 @@
 ---
 title: FieldMergingArgsBase.FieldValue
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldMergingArgsBase propiedad. Obtiene o establece el valor del campo del origen de datos.
+linktitle: FieldValue
+articleTitle: FieldValue
+second_title: Aspose.Words para .NET
+description: FieldMergingArgsBase FieldValue propiedad. Obtiene o establece el valor del campo del origen de datos en C#.
 type: docs
 weight: 50
 url: /es/net/aspose.words.mailmerging/fieldmergingargsbase/fieldvalue/
@@ -14,11 +16,11 @@ Obtiene o establece el valor del campo del origen de datos.
 public object FieldValue { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 Esta propiedad contiene un valor que el motor de combinación de correspondencia acaba de seleccionar de su fuente de datos para este campo. También puede reemplazar el valor configurando la propiedad.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo editar los valores que reciben los MERGEFIELD cuando se realiza una combinación de correspondencia.
 
@@ -71,7 +73,5 @@ private class FieldValueMergingCallback : IFieldMergingCallback
 ### Ver también
 
 * class [FieldMergingArgsBase](../)
-* espacio de nombres [Aspose.Words.MailMerging](../../fieldmergingargsbase/)
+* espacio de nombres [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * asamblea [Aspose.Words](../../../)
-
-

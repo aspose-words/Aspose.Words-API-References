@@ -1,7 +1,9 @@
 ---
 title: FieldEnd.HasSeparator
-second_title: Aspose.Words for .NET API 参考
-description: FieldEnd 财产. 返回真的如果该字段有分隔符.
+linktitle: HasSeparator
+articleTitle: HasSeparator
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldEnd HasSeparator 财产. 返回真的如果该字段有分隔符 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.fields/fieldend/hasseparator/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fieldend/hasseparator/
 public bool HasSeparator { get; }
 ```
 
-### 例子
+## 例子
 
 展示如何使用字段集合。
 
@@ -117,7 +119,5 @@ public class FieldVisitor : DocumentVisitor
 ### 也可以看看
 
 * class [FieldEnd](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldend/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

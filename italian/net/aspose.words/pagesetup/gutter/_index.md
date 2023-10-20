@@ -1,7 +1,9 @@
 ---
 title: PageSetup.Gutter
-second_title: Aspose.Words per .NET API Reference
-description: PageSetup proprietà. Ottiene o imposta la quantità di spazio aggiuntivo aggiunto al margine per la rilegatura del documento.
+linktitle: Gutter
+articleTitle: Gutter
+second_title: Aspose.Words per .NET
+description: PageSetup Gutter proprietà. Ottiene o imposta la quantità di spazio aggiuntivo aggiunto al margine per la rilegatura del documento in C#.
 type: docs
 weight: 160
 url: /it/net/aspose.words/pagesetup/gutter/
@@ -14,7 +16,7 @@ Ottiene o imposta la quantità di spazio aggiuntivo aggiunto al margine per la r
 public double Gutter { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come configurare un documento che può essere stampato come piega a libro.
 
@@ -79,7 +81,5 @@ doc.Save(ArtifactsDir + "PageSetup.Gutter.docx");
 ### Guarda anche
 
 * class [PageSetup](../)
-* spazio dei nomi [Aspose.Words](../../pagesetup/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTagRangeStart.Id
-second_title: Aspose.Words för .NET API Referens
-description: StructuredDocumentTagRangeStart fast egendom. Anger ett unikt skrivskyddat beständigt numeriskt ID för denna strukturerade dokumenttagg.
+linktitle: Id
+articleTitle: Id
+second_title: Aspose.Words för .NET
+description: StructuredDocumentTagRangeStart Id fast egendom. Anger ett unikt skrivskyddat beständigt numeriskt ID för denna strukturerade dokumenttagg i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.markup/structureddocumenttagrangestart/id/
@@ -14,7 +16,7 @@ Anger ett unikt skrivskyddat beständigt numeriskt ID för denna strukturerade d
 public int Id { get; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Id-attribut ska följa dessa regler:
 
@@ -24,7 +26,7 @@ Id-attribut ska följa dessa regler:
 * Under fristående strukturerad dokumenttaggINodeCloningListener)operation nytt unikt ID kommer att genereras för den klonade strukturerade dokumenttaggnoden.
 * Om Id inte anges i källdokumentet, ska noden för strukturerade dokumenttagg ha en ny unik identifierare tilldelad när dokumentet laddas.
 
-### Exempel
+## Exempel
 
 Visar hur du får egenskaperna för strukturerade dokumenttaggar med flera sektioner.
 
@@ -59,7 +61,5 @@ Console.WriteLine($"\t|NodeType: {rangeEndTag.NodeType}");
 ### Se även
 
 * class [StructuredDocumentTagRangeStart](../)
-* namnutrymme [Aspose.Words.Markup](../../structureddocumenttagrangestart/)
+* namnutrymme [Aspose.Words.Markup](../../../aspose.words.markup/)
 * hopsättning [Aspose.Words](../../../)
-
-

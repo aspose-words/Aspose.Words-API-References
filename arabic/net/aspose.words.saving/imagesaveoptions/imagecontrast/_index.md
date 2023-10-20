@@ -1,7 +1,9 @@
 ---
 title: ImageSaveOptions.ImageContrast
-second_title: Aspose.Words لمراجع .NET API
-description: ImageSaveOptions ملكية. الحصول على أو ضبط تباين الصور التي تم إنشاؤها.
+linktitle: ImageContrast
+articleTitle: ImageContrast
+second_title: Aspose.Words لـ .NET
+description: ImageSaveOptions ImageContrast ملكية. الحصول على أو ضبط تباين الصور التي تم إنشاؤها في C#.
 type: docs
 weight: 60
 url: /ar/net/aspose.words.saving/imagesaveoptions/imagecontrast/
@@ -14,13 +16,13 @@ url: /ar/net/aspose.words.saving/imagesaveoptions/imagecontrast/
 public float ImageContrast { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 تؤثر هذه الخاصية فقط عند الحفظ في تنسيقات الصور النقطية.
 
 القيمة الافتراضية هي 0.5. يجب أن تكون القيمة في النطاق بين 0 و 1.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحرير الصورة بينما يقوم Aspose.Words بتحويل مستند إلى مستند.
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "ImageSaveOptions.EditImage.png", options);
 ### أنظر أيضا
 
 * class [ImageSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../imagesaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

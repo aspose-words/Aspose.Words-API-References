@@ -1,7 +1,9 @@
 ---
 title: DocumentProperty.Value
-second_title: Aspose.Words for .NET API 参考
-description: DocumentProperty 财产. 获取或设置属性的值
+linktitle: Value
+articleTitle: Value
+second_title: 用于 .NET 的 Aspose.Words
+description: DocumentProperty Value 财产. 获取或设置属性的值 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words.properties/documentproperty/value/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.properties/documentproperty/value/
 public object Value { get; set; }
 ```
 
-### 评论
+## 评论
 
 不可能是`无效的`。
 
-### 例子
+## 例子
 
 展示如何使用内置文档属性。
 
@@ -52,7 +54,5 @@ foreach (DocumentProperty docProperty in doc.BuiltInDocumentProperties)
 ### 也可以看看
 
 * class [DocumentProperty](../)
-* 命名空间 [Aspose.Words.Properties](../../documentproperty/)
+* 命名空间 [Aspose.Words.Properties](../../../aspose.words.properties/)
 * 部件 [Aspose.Words](../../../)
-
-

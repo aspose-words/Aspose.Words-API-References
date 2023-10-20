@@ -1,7 +1,9 @@
 ---
 title: FileFormatUtil.LoadFormatToExtension
-second_title: Referencia de API de Aspose.Words para .NET
-description: FileFormatUtil método. Convierte un valor enumerado de formato de carga en una extensión de archivo. La extensión devuelta es una cadena en minúsculas con un punto inicial.
+linktitle: LoadFormatToExtension
+articleTitle: LoadFormatToExtension
+second_title: Aspose.Words para .NET
+description: FileFormatUtil LoadFormatToExtension método. Convierte un valor enumerado de formato de carga en una extensión de archivo. La extensión devuelta es una cadena en minúsculas con un punto inicial en C#.
 type: docs
 weight: 60
 url: /es/net/aspose.words/fileformatutil/loadformattoextension/
@@ -20,11 +22,11 @@ public static string LoadFormatToExtension(LoadFormat loadFormat)
 | --- | --- |
 | ArgumentException | Lanza cuando no se puede convertir. |
 
-### Observaciones
+## Observaciones
 
 ElWordML El valor se convierte a ".wml".
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo utilizar los métodos FileFormatUtil para detectar el formato de un documento.
 
@@ -58,7 +60,5 @@ using (FileStream docStream = File.OpenRead(MyDir + "Word document with missing 
 
 * enum [LoadFormat](../../loadformat/)
 * class [FileFormatUtil](../)
-* espacio de nombres [Aspose.Words](../../fileformatutil/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: CompositeNode.Count
-second_title: Aspose.Words für .NET-API-Referenz
-description: CompositeNode eigendom. Ruft die Anzahl der unmittelbaren Kinder dieses Knotens ab.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words für .NET
+description: CompositeNode Count eigendom. Ruft die Anzahl der unmittelbaren Kinder dieses Knotens ab in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words/compositenode/count/
@@ -14,7 +16,7 @@ Ruft die Anzahl der unmittelbaren Kinder dieses Knotens ab.
 public int Count { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie untergeordnete Knoten in der untergeordneten Sammlung eines CompositeNode hinzugefügt, aktualisiert und gelöscht werden.
 
@@ -67,7 +69,5 @@ Assert.AreEqual(3, paragraph.GetChildNodes(NodeType.Any, true).Count);
 ### Siehe auch
 
 * class [CompositeNode](../)
-* namensraum [Aspose.Words](../../compositenode/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

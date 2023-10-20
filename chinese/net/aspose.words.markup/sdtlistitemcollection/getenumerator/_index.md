@@ -1,7 +1,9 @@
 ---
 title: SdtListItemCollection.GetEnumerator
-second_title: Aspose.Words for .NET API 参考
-description: SdtListItemCollection 方法. 返回一个枚举器对象可用于迭代集合中的所有项目
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: 用于 .NET 的 Aspose.Words
+description: SdtListItemCollection GetEnumerator 方法. 返回一个枚举器对象可用于迭代集合中的所有项目 在 C#.
 type: docs
 weight: 60
 url: /zh/net/aspose.words.markup/sdtlistitemcollection/getenumerator/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.markup/sdtlistitemcollection/getenumerator/
 public IEnumerator<SdtListItem> GetEnumerator()
 ```
 
-### 例子
+## 例子
 
 展示如何使用下拉列表结构化文档标签。
 
@@ -72,7 +74,5 @@ Assert.AreEqual(0, listItems.Count);
 
 * class [SdtListItem](../../sdtlistitem/)
 * class [SdtListItemCollection](../)
-* 命名空间 [Aspose.Words.Markup](../../sdtlistitemcollection/)
+* 命名空间 [Aspose.Words.Markup](../../../aspose.words.markup/)
 * 部件 [Aspose.Words](../../../)
-
-

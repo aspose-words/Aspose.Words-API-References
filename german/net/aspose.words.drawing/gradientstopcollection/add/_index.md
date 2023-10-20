@@ -1,7 +1,9 @@
 ---
 title: GradientStopCollection.Add
-second_title: Aspose.Words für .NET-API-Referenz
-description: GradientStopCollection methode. Fügt eine angegebene hinzuGradientStop zu einem Farbverlauf.
+linktitle: Add
+articleTitle: Add
+second_title: Aspose.Words für .NET
+description: GradientStopCollection Add methode. Fügt eine angegebene hinzuGradientStop zu einem Farbverlauf in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.drawing/gradientstopcollection/add/
@@ -14,7 +16,7 @@ Fügt eine angegebene hinzu[`GradientStop`](../../gradientstop/) zu einem Farbve
 public GradientStop Add(GradientStop gradientStop)
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man der Verlaufsfüllung Verlaufsstopps hinzufügt.
 
@@ -68,7 +70,5 @@ doc.Save(ArtifactsDir + "Shape.GradientStops.docx", saveOptions);
 
 * class [GradientStop](../../gradientstop/)
 * class [GradientStopCollection](../)
-* namensraum [Aspose.Words.Drawing](../../gradientstopcollection/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

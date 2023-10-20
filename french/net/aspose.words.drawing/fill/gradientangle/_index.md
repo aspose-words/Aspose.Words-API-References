@@ -1,9 +1,11 @@
 ---
 title: Fill.GradientAngle
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Fill propriété. Obtient ou définit langle du remplissage dégradé.
+linktitle: GradientAngle
+articleTitle: GradientAngle
+second_title: Aspose.Words pour .NET
+description: Fill GradientAngle propriété. Obtient ou définit langle du remplissage dégradé en C#.
 type: docs
-weight: 100
+weight: 90
 url: /fr/net/aspose.words.drawing/fill/gradientangle/
 ---
 ## Fill.GradientAngle property
@@ -14,7 +16,7 @@ Obtient ou définit l'angle du remplissage dégradé.
 public double GradientAngle { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment remplir une forme avec des dégradés.
 
@@ -55,7 +57,5 @@ doc.Save(ArtifactsDir + "Shape.GradientFill.docx", saveOptions);
 ### Voir également
 
 * class [Fill](../)
-* espace de noms [Aspose.Words.Drawing](../../fill/)
+* espace de noms [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Assemblée [Aspose.Words](../../../)
-
-

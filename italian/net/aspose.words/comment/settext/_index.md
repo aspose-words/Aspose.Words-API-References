@@ -1,9 +1,11 @@
 ---
 title: Comment.SetText
-second_title: Aspose.Words per .NET API Reference
-description: Comment metodo. Questo è un metodo comodo che consente di impostare facilmente il testo del commento.
+linktitle: SetText
+articleTitle: SetText
+second_title: Aspose.Words per .NET
+description: Comment SetText metodo. Questo è un metodo comodo che consente di impostare facilmente il testo del commento in C#.
 type: docs
-weight: 180
+weight: 150
 url: /it/net/aspose.words/comment/settext/
 ---
 ## Comment.SetText method
@@ -18,11 +20,11 @@ public void SetText(string text)
 | --- | --- | --- |
 | text | String | Il nuovo testo del commento. |
 
-### Osservazioni
+## Osservazioni
 
 Questo metodo consente di impostare rapidamente il testo di un commento da una stringa. La stringa può contenere interruzioni di paragrafo, questo creerà paragrafi di testo nel commento di conseguenza. Se desideri inserire elementi più complessi nel commento, ad esempio segnalibri o tabelle o applicare la formattazione avanzata, devi utilizzare le classi del nodo appropriate per creare il testo del commento.
 
-### Esempi
+## Esempi
 
 Mostra come aggiungere un commento a un documento e quindi rispondere.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "Comment.AddCommentWithReply.docx");
 ### Guarda anche
 
 * class [Comment](../)
-* spazio dei nomi [Aspose.Words](../../comment/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

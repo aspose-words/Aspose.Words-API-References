@@ -1,7 +1,9 @@
 ---
 title: DropDownItemCollection.Item
-second_title: Aspose.Words för .NET API Referens
-description: DropDownItemCollection fast egendom. Hämtar eller ställer in elementet vid angivet index.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words för .NET
+description: DropDownItemCollection Item fast egendom. Hämtar eller ställer in elementet vid angivet index i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.fields/dropdownitemcollection/item/
@@ -14,7 +16,7 @@ Hämtar eller ställer in elementet vid angivet index.
 public string this[int index] { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man infogar ett kombinationsrutafält och redigerar elementen i dess objektsamling.
 
@@ -68,7 +70,5 @@ dropDownItems.Clear();
 ### Se även
 
 * class [DropDownItemCollection](../)
-* namnutrymme [Aspose.Words.Fields](../../dropdownitemcollection/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

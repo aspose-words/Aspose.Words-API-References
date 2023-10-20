@@ -1,7 +1,9 @@
 ---
 title: PageInfo.PaperTray
-second_title: Aspose.Words per .NET API Reference
-description: PageInfo proprietà. Ottiene il vassoio della carta contenitore per questa pagina come specificato nel documento. Il valore è specifico dellimplementazione stampante.
+linktitle: PaperTray
+articleTitle: PaperTray
+second_title: Aspose.Words per .NET
+description: PageInfo PaperTray proprietà. Ottiene il vassoio della carta contenitore per questa pagina come specificato nel documento. Il valore è specifico dellimplementazione stampante in C#.
 type: docs
 weight: 50
 url: /it/net/aspose.words.rendering/pageinfo/papertray/
@@ -14,7 +16,7 @@ Ottiene il vassoio della carta (contenitore) per questa pagina come specificato 
 public int PaperTray { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come stampare le informazioni sulle dimensioni e sull'orientamento della pagina per ogni pagina di un documento Word.
 
@@ -56,7 +58,5 @@ for (int i = 0; i < doc.PageCount; i++)
 ### Guarda anche
 
 * class [PageInfo](../)
-* spazio dei nomi [Aspose.Words.Rendering](../../pageinfo/)
+* spazio dei nomi [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * assemblea [Aspose.Words](../../../)
-
-

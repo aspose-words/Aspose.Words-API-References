@@ -1,7 +1,9 @@
 ---
-title: FieldNumPages.FieldNumPages
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldNumPages constructeur. Default_Constructor
+title: FieldNumPages
+linktitle: FieldNumPages
+articleTitle: FieldNumPages
+second_title: Aspose.Words pour .NET
+description: FieldNumPages constructeur. Default_Constructor en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.fields/fieldnumpages/fieldnumpages/
@@ -17,7 +19,5 @@ public FieldNumPages()
 ### Voir également
 
 * class [FieldNumPages](../)
-* espace de noms [Aspose.Words.Fields](../../fieldnumpages/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

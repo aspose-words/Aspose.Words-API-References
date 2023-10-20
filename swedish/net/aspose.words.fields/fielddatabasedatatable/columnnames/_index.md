@@ -1,7 +1,9 @@
 ---
 title: FieldDatabaseDataTable.ColumnNames
-second_title: Aspose.Words för .NET API Referens
-description: FieldDatabaseDataTable fast egendom. Hämtar kolumner som hör till den här tabellen.
+linktitle: ColumnNames
+articleTitle: ColumnNames
+second_title: Aspose.Words för .NET
+description: FieldDatabaseDataTable ColumnNames fast egendom. Hämtar kolumner som hör till den här tabellen i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.fields/fielddatabasedatatable/columnnames/
@@ -17,7 +19,5 @@ public string[] ColumnNames { get; }
 ### Se även
 
 * class [FieldDatabaseDataTable](../)
-* namnutrymme [Aspose.Words.Fields](../../fielddatabasedatatable/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum OutlineLevel
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.OutlineLevel enum. Specifica il livello di struttura di un paragrafo nel documento.
+title: OutlineLevel Enum
+linktitle: OutlineLevel
+articleTitle: OutlineLevel
+second_title: Aspose.Words per .NET
+description: Aspose.Words.OutlineLevel enum. Specifica il livello di struttura di un paragrafo nel documento in C#.
 type: docs
 weight: 4330
 url: /it/net/aspose.words/outlinelevel/
@@ -33,5 +35,3 @@ public enum OutlineLevel
 
 * spazio dei nomi [Aspose.Words](../../aspose.words/)
 * assemblea [Aspose.Words](../../)
-
-

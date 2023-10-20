@@ -1,7 +1,9 @@
 ---
-title: Class ChartYValue
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Drawing.Charts.ChartYValue فصل. يمثل قيمة Y لسلسلة المخططات.
+title: ChartYValue Class
+linktitle: ChartYValue
+articleTitle: ChartYValue
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Drawing.Charts.ChartYValue فصل. يمثل قيمة Y لسلسلة المخططات في C#.
 type: docs
 weight: 870
 url: /ar/net/aspose.words.drawing.charts/chartyvalue/
@@ -27,13 +29,13 @@ public class ChartYValue
 
 | اسم | وصف |
 | --- | --- |
-| static [FromDateTime](../../aspose.words.drawing.charts/chartyvalue/fromdatetime/)(DateTime) | إنشاء ملف`ChartYValue` مثال علىDateTime اكتب. |
-| static [FromDouble](../../aspose.words.drawing.charts/chartyvalue/fromdouble/)(double) | إنشاء ملف`ChartYValue` مثال علىDouble اكتب. |
-| static [FromTimeSpan](../../aspose.words.drawing.charts/chartyvalue/fromtimespan/)(TimeSpan) | إنشاء ملف`ChartYValue` مثال علىTime اكتب. |
-| override [Equals](../../aspose.words.drawing.charts/chartyvalue/equals/)(object) | الحصول على علامة تشير إلى ما إذا كان الكائن المحدد يساوي كائن القيمة Y الحالي. |
+| static [FromDateTime](../../aspose.words.drawing.charts/chartyvalue/fromdatetime/)(*DateTime*) | إنشاء ملف`ChartYValue` مثال علىDateTime اكتب. |
+| static [FromDouble](../../aspose.words.drawing.charts/chartyvalue/fromdouble/)(*double*) | إنشاء ملف`ChartYValue` مثال علىDouble اكتب. |
+| static [FromTimeSpan](../../aspose.words.drawing.charts/chartyvalue/fromtimespan/)(*TimeSpan*) | إنشاء ملف`ChartYValue` مثال علىTime اكتب. |
+| override [Equals](../../aspose.words.drawing.charts/chartyvalue/equals/)(*object*) | الحصول على علامة تشير إلى ما إذا كان الكائن المحدد يساوي كائن القيمة Y الحالي. |
 | override [GetHashCode](../../aspose.words.drawing.charts/chartyvalue/gethashcode/)() | الحصول على رمز التجزئة لكائن القيمة Y الحالي. |
 
-### ملاحظات
+## ملاحظات
 
 تحتوي هذه الفئة على عدد من الطرق الثابتة لإنشاء قيمة Y لنوع معين. The [`ValueType`](./valuetype/) تتيح لك الخاصية تحديد نوع قيمة Y الموجودة.
 
@@ -43,5 +45,3 @@ public class ChartYValue
 
 * مساحة الاسم [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../)
-
-

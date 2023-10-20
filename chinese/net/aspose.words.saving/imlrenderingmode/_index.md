@@ -1,7 +1,9 @@
 ---
-title: Enum ImlRenderingMode
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Saving.ImlRenderingMode 枚举. 指定如何将墨迹 InkML 对象呈现为固定页面格式
+title: ImlRenderingMode Enum
+linktitle: ImlRenderingMode
+articleTitle: ImlRenderingMode
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Saving.ImlRenderingMode 枚举. 指定如何将墨迹 InkML 对象呈现为固定页面格式 在 C#.
 type: docs
 weight: 5250
 url: /zh/net/aspose.words.saving/imlrenderingmode/
@@ -21,7 +23,7 @@ public enum ImlRenderingMode
 | Fallback | `0` | 如果后备形状可用于墨迹 (InkML) 对象，Aspose.Words 将渲染后备形状而不是 InkML。 |
 | InkML | `1` | Aspose.Words 忽略墨迹 (InkML) 对象的后备形状并渲染 InkML 本身。 这是默认模式。 |
 
-### 例子
+## 例子
 
 演示如何渲染 Ink 对象。
 
@@ -43,5 +45,3 @@ doc.Save(ArtifactsDir + "ImageSaveOptions.RenderInkObject.jpeg", saveOptions);
 
 * 命名空间 [Aspose.Words.Saving](../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../)
-
-

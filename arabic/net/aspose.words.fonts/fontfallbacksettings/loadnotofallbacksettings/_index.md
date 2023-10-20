@@ -1,7 +1,9 @@
 ---
 title: FontFallbackSettings.LoadNotoFallbackSettings
-second_title: Aspose.Words لمراجع .NET API
-description: FontFallbackSettings طريقة. يقوم بتحميل الإعدادات الاحتياطية المحددة مسبقًا والتي تستخدم خطوط Google Noto.
+linktitle: LoadNotoFallbackSettings
+articleTitle: LoadNotoFallbackSettings
+second_title: Aspose.Words لـ .NET
+description: FontFallbackSettings LoadNotoFallbackSettings طريقة. يقوم بتحميل الإعدادات الاحتياطية المحددة مسبقًا والتي تستخدم خطوط Google Noto في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.fonts/fontfallbacksettings/loadnotofallbacksettings/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fonts/fontfallbacksettings/loadnotofallbacksettings/
 public void LoadNotoFallbackSettings()
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إضافة إعدادات احتياطية محددة مسبقًا لخطوط Google Noto.
 
@@ -65,7 +67,5 @@ fontFallbackSettings.Save(ArtifactsDir + "FontSettings.FallbackSettings.LoadNoto
 ### أنظر أيضا
 
 * class [FontFallbackSettings](../)
-* مساحة الاسم [Aspose.Words.Fonts](../../fontfallbacksettings/)
+* مساحة الاسم [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * المجسم [Aspose.Words](../../../)
-
-

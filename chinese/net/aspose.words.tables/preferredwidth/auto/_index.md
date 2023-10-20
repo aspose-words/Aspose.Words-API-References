@@ -1,7 +1,9 @@
 ---
 title: PreferredWidth.Auto
-second_title: Aspose.Words for .NET API 参考
-description: PreferredWidth 场地. 返回一个表示未指定首选宽度值的实例
+linktitle: Auto
+articleTitle: Auto
+second_title: 用于 .NET 的 Aspose.Words
+description: PreferredWidth Auto 场地. 返回一个表示未指定首选宽度值的实例 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.tables/preferredwidth/auto/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.tables/preferredwidth/auto/
 public static readonly PreferredWidth Auto;
 ```
 
-### 例子
+## 例子
 
 演示如何设置表格单元格的首选宽度。
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertCellsWithPreferredWidths.docx");
 ### 也可以看看
 
 * class [PreferredWidth](../)
-* 命名空间 [Aspose.Words.Tables](../../preferredwidth/)
+* 命名空间 [Aspose.Words.Tables](../../../aspose.words.tables/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Field.Unlink
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Field méthode. Effectue la dissociation du champ.
+linktitle: Unlink
+articleTitle: Unlink
+second_title: Aspose.Words pour .NET
+description: Field Unlink méthode. Effectue la dissociation du champ en C#.
 type: docs
 weight: 130
 url: /fr/net/aspose.words.fields/field/unlink/
@@ -18,13 +20,13 @@ public bool Unlink()
 
 `vrai` si le champ a été dissocié, sinon`FAUX` .
 
-### Remarques
+## Remarques
 
 Remplace le champ par son résultat le plus récent.
 
 Certains champs, tels que les champs XE (Index Entry) et SEQ (Sequence), ne peuvent pas être dissociés.
 
-### Exemples
+## Exemples
 
 Montre comment dissocier un champ.
 
@@ -36,7 +38,5 @@ doc.Range.Fields[1].Unlink();
 ### Voir également
 
 * class [Field](../)
-* espace de noms [Aspose.Words.Fields](../../field/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

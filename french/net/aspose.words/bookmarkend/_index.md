@@ -1,7 +1,9 @@
 ---
-title: Class BookmarkEnd
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.BookmarkEnd classe. Représente la fin dun signet dans un document Word.
+title: BookmarkEnd Class
+linktitle: BookmarkEnd
+articleTitle: BookmarkEnd
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.BookmarkEnd classe. Représente la fin dun signet dans un document Word en C#.
 type: docs
 weight: 60
 url: /fr/net/aspose.words/bookmarkend/
@@ -20,7 +22,7 @@ public class BookmarkEnd : Node
 
 | Nom | La description |
 | --- | --- |
-| [BookmarkEnd](bookmarkend/)(DocumentBase, string) | Initialise une nouvelle instance du`BookmarkEnd` classe. |
+| [BookmarkEnd](bookmarkend/)(*[DocumentBase](../documentbase/), string*) | Initialise une nouvelle instance du`BookmarkEnd` classe. |
 
 ## Propriétés
 
@@ -40,18 +42,18 @@ public class BookmarkEnd : Node
 
 | Nom | La description |
 | --- | --- |
-| override [Accept](../../aspose.words/bookmarkend/accept/)(DocumentVisitor) | Accepte un visiteur. |
-| [Clone](../../aspose.words/node/clone/)(bool) | Crée un duplicata du nœud. |
-| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Obtient le premier ancêtre du spécifié[`NodeType`](../nodetype/) . |
-| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Obtient le premier ancêtre du type d'objet spécifié. |
+| override [Accept](../../aspose.words/bookmarkend/accept/)(*[DocumentVisitor](../documentvisitor/)*) | Accepte un visiteur. |
+| [Clone](../../aspose.words/node/clone/)(*bool*) | Crée un duplicata du nœud. |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*[NodeType](../nodetype/)*) | Obtient le premier ancêtre du spécifié[`NodeType`](../nodetype/) . |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | Obtient le premier ancêtre du type d'objet spécifié. |
 | virtual [GetText](../../aspose.words/node/gettext/)() | Récupère le texte de ce nœud et de tous ses enfants. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Obtient le nœud suivant selon l'algorithme de traversée de l'arbre de pré-commande. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Obtient le nœud précédent selon l'algorithme de traversée d'arbre de pré-commande. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../node/)*) | Obtient le nœud suivant selon l'algorithme de traversée de l'arbre de pré-commande. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../node/)*) | Obtient le nœud précédent selon l'algorithme de traversée d'arbre de pré-commande. |
 | [Remove](../../aspose.words/node/remove/)() | Se supprime du parent. |
-| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Exporte le contenu du nœud dans une chaîne au format spécifié. |
-| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | Exporte le contenu du nœud dans une chaîne à l'aide des options de sauvegarde spécifiées. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../saveformat/)*) | Exporte le contenu du nœud dans une chaîne au format spécifié. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | Exporte le contenu du nœud dans une chaîne à l'aide des options de sauvegarde spécifiées. |
 
-### Remarques
+## Remarques
 
 Un signet complet dans un document Word se compose d'un[`BookmarkStart`](../bookmarkstart/) et un correspondant`BookmarkEnd` avec le même nom de signet.
 
@@ -59,7 +61,7 @@ Un signet complet dans un document Word se compose d'un[`BookmarkStart`](../book
 
 Utilisez le[`Bookmark`](../bookmark/) classe comme "façade" pour travailler avec un bookmark comme objet unique.
 
-### Exemples
+## Exemples
 
 Montre comment ajouter des signets et mettre à jour leur contenu.
 
@@ -150,5 +152,3 @@ public class BookmarkInfoPrinter : DocumentVisitor
 * class [Node](../node/)
 * espace de noms [Aspose.Words](../../aspose.words/)
 * Assemblée [Aspose.Words](../../)
-
-

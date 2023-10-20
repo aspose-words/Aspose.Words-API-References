@@ -1,7 +1,9 @@
 ---
-title: Enum ImageType
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Drawing.ImageType 枚举. 指定 Microsoft Word 文档中图像的类型格式
+title: ImageType Enum
+linktitle: ImageType
+articleTitle: ImageType
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Drawing.ImageType 枚举. 指定 Microsoft Word 文档中图像的类型格式 在 C#.
 type: docs
 weight: 1080
 url: /zh/net/aspose.words.drawing/imagetype/
@@ -28,7 +30,7 @@ public enum ImageType
 | Bmp | `7` | Windows 位图. |
 | Eps | `8` | 封装的 PostScript. |
 
-### 例子
+## 例子
 
 演示如何将图像添加到形状并检查其类型。
 
@@ -53,5 +55,3 @@ using (MemoryStream stream = new MemoryStream(imageBytes))
 * property [ImageType](../imagedata/imagetype/)
 * 命名空间 [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../)
-
-

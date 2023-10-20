@@ -1,7 +1,9 @@
 ---
-title: Class Metered
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Metered 班级. 提供设置计量密钥的方法
+title: Metered Class
+linktitle: Metered
+articleTitle: Metered
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Metered 班级. 提供设置计量密钥的方法 在 C#.
 type: docs
 weight: 4160
 url: /zh/net/aspose.words/metered/
@@ -26,11 +28,11 @@ public class Metered
 
 | 姓名 | 描述 |
 | --- | --- |
-| [SetMeteredKey](../../aspose.words/metered/setmeteredkey/)(string, string) | 设置计量公钥和私钥。 如果您购买计量许可证，则在启动应用程序时，应该调用此 API，通常，这就足够了。 但是，如果总是无法上传消费数据并且超过24小时，许可证将被设置为评估状态， 为了避免这种情况，您应该定期检查许可证状态，如果是评估状态，请再次调用此接口。 |
+| [SetMeteredKey](../../aspose.words/metered/setmeteredkey/)(*string, string*) | 设置计量公钥和私钥。 如果您购买计量许可证，则在启动应用程序时，应该调用此 API，通常，这就足够了。 但是，如果总是无法上传消费数据并且超过24小时，许可证将被设置为评估状态， 为了避免这种情况，您应该定期检查许可证状态，如果是评估状态，请再次调用此接口。 |
 | static [GetConsumptionCredit](../../aspose.words/metered/getconsumptioncredit/)() | 获取消费积分 |
 | static [GetConsumptionQuantity](../../aspose.words/metered/getconsumptionquantity/)() | 获取消耗文件大小 |
 
-### 例子
+## 例子
 
 在此示例中，将尝试设置计量公钥和私钥
 
@@ -73,5 +75,3 @@ Console.WriteLine($"Consumption quantity after operation: {Metered.GetConsumptio
 
 * 命名空间 [Aspose.Words](../../aspose.words/)
 * 部件 [Aspose.Words](../../)
-
-

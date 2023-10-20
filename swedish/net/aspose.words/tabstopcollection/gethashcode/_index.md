@@ -1,7 +1,9 @@
 ---
 title: TabStopCollection.GetHashCode
-second_title: Aspose.Words för .NET API Referens
-description: TabStopCollection metod. Fungerar som en hashfunktion för denna typ.
+linktitle: GetHashCode
+articleTitle: GetHashCode
+second_title: Aspose.Words för .NET
+description: TabStopCollection GetHashCode metod. Fungerar som en hashfunktion för denna typ i C#.
 type: docs
 weight: 80
 url: /sv/net/aspose.words/tabstopcollection/gethashcode/
@@ -14,7 +16,7 @@ Fungerar som en hashfunktion för denna typ.
 public override int GetHashCode()
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med ett dokuments samling av tabbstopp.
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "TabStopCollection.TabStopCollection.docx");
 ### Se även
 
 * class [TabStopCollection](../)
-* namnutrymme [Aspose.Words](../../tabstopcollection/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

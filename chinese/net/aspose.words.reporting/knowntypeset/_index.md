@@ -1,7 +1,9 @@
 ---
-title: Class KnownTypeSet
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Reporting.KnownTypeSet 班级. 表示一个无序集合即唯一项的集合包含Type对象 可以在报告模板中使用完全或部分限定名称来调用相应 类型的静态成员执行类型转换等
+title: KnownTypeSet Class
+linktitle: KnownTypeSet
+articleTitle: KnownTypeSet
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Reporting.KnownTypeSet 班级. 表示一个无序集合即唯一项的集合包含Type对象 可以在报告模板中使用完全或部分限定名称来调用相应 类型的静态成员执行类型转换等 在 C#.
 type: docs
 weight: 4710
 url: /zh/net/aspose.words.reporting/knowntypeset/
@@ -26,14 +28,12 @@ public class KnownTypeSet : IEnumerable<Type>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Add](../../aspose.words.reporting/knowntypeset/add/)(Type) | 添加指定的Type对象到集合。投掷ArgumentException在 以下情况： |
+| [Add](../../aspose.words.reporting/knowntypeset/add/)(*Type*) | 添加指定的Type对象到集合。投掷ArgumentException在 以下情况： |
 | [Clear](../../aspose.words.reporting/knowntypeset/clear/)() | 从集合中删除所有项目。 |
 | [GetEnumerator](../../aspose.words.reporting/knowntypeset/getenumerator/)() | 返回一个IEnumerator用于迭代集合中的项目的对象。 |
-| [Remove](../../aspose.words.reporting/knowntypeset/remove/)(Type) | 删除指定的Type集合中的对象。投掷ArgumentExceptionif *type*是`无效的`. |
+| [Remove](../../aspose.words.reporting/knowntypeset/remove/)(*Type*) | 删除指定的Type集合中的对象。投掷ArgumentExceptionif *type*是`无效的`. |
 
 ### 也可以看看
 
 * 命名空间 [Aspose.Words.Reporting](../../aspose.words.reporting/)
 * 部件 [Aspose.Words](../../)
-
-

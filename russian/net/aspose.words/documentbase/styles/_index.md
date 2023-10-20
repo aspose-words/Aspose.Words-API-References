@@ -1,7 +1,9 @@
 ---
 title: DocumentBase.Styles
-second_title: Справочник по API Aspose.Words для .NET
-description: DocumentBase свойство. Возвращает коллекцию стилей определенных в документе.
+linktitle: Styles
+articleTitle: Styles
+second_title: Aspose.Words для .NET
+description: DocumentBase Styles свойство. Возвращает коллекцию стилей определенных в документе на С#.
 type: docs
 weight: 80
 url: /ru/net/aspose.words/documentbase/styles/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words/documentbase/styles/
 public StyleCollection Styles { get; }
 ```
 
-### Примечания
+## Примечания
 
 Более подробную информацию смотрите в описании[`StyleCollection`](../../stylecollection/) сорт.
 
-### Примеры
+## Примеры
 
 Показывает, как получить доступ к коллекции стилей документа.
 
@@ -74,7 +76,5 @@ builder.Document.Save(ArtifactsDir + "Styles.ParagraphStyleBulletedList.docx");
 
 * class [StyleCollection](../../stylecollection/)
 * class [DocumentBase](../)
-* пространство имен [Aspose.Words](../../documentbase/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

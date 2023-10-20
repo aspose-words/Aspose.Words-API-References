@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.MetafileFormat
-second_title: Aspose.Words för .NET API Referens
-description: HtmlSaveOptions fast egendom. Anger i vilket format metafiler sparas vid export till HTML MHTML eller EPUB. Standardvärdet ärPng  vilket betyder att metafiler renderas till raster PNGbilder.
+linktitle: MetafileFormat
+articleTitle: MetafileFormat
+second_title: Aspose.Words för .NET
+description: HtmlSaveOptions MetafileFormat fast egendom. Anger i vilket format metafiler sparas vid export till HTML MHTML eller EPUB. Standardvärdet ärPng  vilket betyder att metafiler renderas till raster PNGbilder i C#.
 type: docs
 weight: 380
 url: /sv/net/aspose.words.saving/htmlsaveoptions/metafileformat/
@@ -14,13 +16,13 @@ Anger i vilket format metafiler sparas vid export till HTML, MHTML eller EPUB. S
 public HtmlMetafileFormat MetafileFormat { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Metafiler visas inte av HTML-webbläsare. Som standard konverterar Aspose.Words WMF- och EMF -bilder till PNG-filer vid export till HTML. Andra alternativ är att konvertera metafiler till SVG-bilder eller att exportera dem som de är utan konvertering.
 
 Vissa bildomvandlingar, särskilt bildbeskärning, kommer inte att tillämpas på metafilbilder om de exporteras till HTML utan konvertering.
 
-### Exempel
+## Exempel
 
 Visar hur du konverterar SVG-objekt till ett annat format när du sparar HTML-dokument.
 
@@ -82,7 +84,5 @@ switch (htmlMetafileFormat)
 * property [ScaleImageToShapeSize](../scaleimagetoshapesize/)
 * enum [HtmlMetafileFormat](../../htmlmetafileformat/)
 * class [HtmlSaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../htmlsaveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

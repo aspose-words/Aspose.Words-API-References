@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabelCollection.Font
-second_title: Справочник по API Aspose.Words для .NET
-description: ChartDataLabelCollection свойство. Предоставляет доступ к форматированию шрифта меток данных всей серии.
+linktitle: Font
+articleTitle: Font
+second_title: Aspose.Words для .NET
+description: ChartDataLabelCollection Font свойство. Предоставляет доступ к форматированию шрифта меток данных всей серии на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.drawing.charts/chartdatalabelcollection/font/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.drawing.charts/chartdatalabelcollection/font/
 public Font Font { get; }
 ```
 
-### Примечания
+## Примечания
 
 Значение, определенное для этого свойства, можно переопределить для отдельной метки данных с помощью the [`Font`](../../chartdatalabel/font/) свойство.
 
-### Примеры
+## Примеры
 
 Показывает, как включить и настроить метки данных для серии диаграмм.
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "Charts.DataLabelNumberFormat.docx");
 
 * class [Font](../../../aspose.words/font/)
 * class [ChartDataLabelCollection](../)
-* пространство имен [Aspose.Words.Drawing.Charts](../../chartdatalabelcollection/)
+* пространство имен [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../../)
-
-

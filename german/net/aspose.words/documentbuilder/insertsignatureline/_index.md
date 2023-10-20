@@ -1,12 +1,14 @@
 ---
 title: DocumentBuilder.InsertSignatureLine
-second_title: Aspose.Words für .NET-API-Referenz
-description: DocumentBuilder methode. Fügt eine Signaturzeile an der aktuellen Position ein.
+linktitle: InsertSignatureLine
+articleTitle: InsertSignatureLine
+second_title: Aspose.Words für .NET
+description: DocumentBuilder InsertSignatureLine methode. Fügt eine Signaturzeile an der aktuellen Position ein in C#.
 type: docs
-weight: 450
+weight: 440
 url: /de/net/aspose.words/documentbuilder/insertsignatureline/
 ---
-## InsertSignatureLine(SignatureLineOptions) {#insertsignatureline}
+## InsertSignatureLine(*[SignatureLineOptions](../../signaturelineoptions/)*) {#insertsignatureline}
 
 Fügt eine Signaturzeile an der aktuellen Position ein.
 
@@ -22,7 +24,7 @@ public Shape InsertSignatureLine(SignatureLineOptions signatureLineOptions)
 
 Der gerade eingefügte Signaturzeilenknoten.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man ein Dokument mit einem persönlichen Zertifikat und einer Signaturzeile signiert.
 
@@ -77,12 +79,12 @@ Assert.True(signatureLine.IsValid);
 * class [Shape](../../../aspose.words.drawing/shape/)
 * class [SignatureLineOptions](../../signaturelineoptions/)
 * class [DocumentBuilder](../)
-* namensraum [Aspose.Words](../../documentbuilder/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
 
 ---
 
-## InsertSignatureLine(SignatureLineOptions, RelativeHorizontalPosition, double, RelativeVerticalPosition, double, WrapType) {#insertsignatureline_1}
+## InsertSignatureLine(*[SignatureLineOptions](../../signaturelineoptions/), [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/), double, [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/), double, [WrapType](../../../aspose.words.drawing/wraptype/)*) {#insertsignatureline_1}
 
 Fügt eine Signaturzeile an der angegebenen Position ein.
 
@@ -105,11 +107,11 @@ public Shape InsertSignatureLine(SignatureLineOptions signatureLineOptions,
 
 Der gerade eingefügte Signaturzeilenknoten.
 
-### Bemerkungen
+## Bemerkungen
 
 Sie können die Bildgröße, Position, Positionierungsmethode und andere Einstellungen mit dem ändern[`Shape`](../../../aspose.words.drawing/shape/) Von dieser Methode zurückgegebenes Objekt.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie eine Inline-Signaturzeile in ein Dokument eingefügt wird.
 
@@ -143,7 +145,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.SignatureLineInline.docx");
 * enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/)
 * enum [WrapType](../../../aspose.words.drawing/wraptype/)
 * class [DocumentBuilder](../)
-* namensraum [Aspose.Words](../../documentbuilder/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

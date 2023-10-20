@@ -1,7 +1,9 @@
 ---
 title: Range.Bookmarks
-second_title: Aspose.Words för .NET API Referens
-description: Range fast egendom. Returnerar enBookmarks samling som representerar alla bokmärken i intervallet.
+linktitle: Bookmarks
+articleTitle: Bookmarks
+second_title: Aspose.Words för .NET
+description: Range Bookmarks fast egendom. Returnerar enBookmarks samling som representerar alla bokmärken i intervallet i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words/range/bookmarks/
@@ -14,7 +16,7 @@ Returnerar en`Bookmarks` samling som representerar alla bokmärken i intervallet
 public BookmarkCollection Bookmarks { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du lägger till bokmärken och uppdaterar deras innehåll.
 
@@ -104,7 +106,5 @@ public class BookmarkInfoPrinter : DocumentVisitor
 
 * class [BookmarkCollection](../../bookmarkcollection/)
 * class [Range](../)
-* namnutrymme [Aspose.Words](../../range/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

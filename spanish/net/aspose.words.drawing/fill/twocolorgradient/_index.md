@@ -1,12 +1,14 @@
 ---
 title: Fill.TwoColorGradient
-second_title: Referencia de API de Aspose.Words para .NET
-description: Fill método. Establece el relleno especificado en un degradado de dos colores.
+linktitle: TwoColorGradient
+articleTitle: TwoColorGradient
+second_title: Aspose.Words para .NET
+description: Fill TwoColorGradient método. Establece el relleno especificado en un degradado de dos colores en C#.
 type: docs
-weight: 270
+weight: 260
 url: /es/net/aspose.words.drawing/fill/twocolorgradient/
 ---
-## TwoColorGradient(GradientStyle, GradientVariant) {#twocolorgradient}
+## TwoColorGradient(*[GradientStyle](../../gradientstyle/), [GradientVariant](../../gradientvariant/)*) {#twocolorgradient}
 
 Establece el relleno especificado en un degradado de dos colores.
 
@@ -19,7 +21,7 @@ public void TwoColorGradient(GradientStyle style, GradientVariant variant)
 | style | GradientStyle | El estilo degradado[`GradientStyle`](../../gradientstyle/). |
 | variant | GradientVariant | La variante gradiente[`GradientVariant`](../../gradientvariant/) |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo rellenar una forma con degradados.
 
@@ -62,12 +64,12 @@ doc.Save(ArtifactsDir + "Shape.GradientFill.docx", saveOptions);
 * enum [GradientStyle](../../gradientstyle/)
 * enum [GradientVariant](../../gradientvariant/)
 * class [Fill](../)
-* espacio de nombres [Aspose.Words.Drawing](../../fill/)
+* espacio de nombres [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * asamblea [Aspose.Words](../../../)
 
 ---
 
-## TwoColorGradient(Color, Color, GradientStyle, GradientVariant) {#twocolorgradient_1}
+## TwoColorGradient(*Color, Color, [GradientStyle](../../gradientstyle/), [GradientVariant](../../gradientvariant/)*) {#twocolorgradient_1}
 
 Establece el relleno especificado en un degradado de dos colores.
 
@@ -83,7 +85,7 @@ public void TwoColorGradient(Color color1, Color color2, GradientStyle style,
 | style | GradientStyle | El estilo degradado[`GradientStyle`](../../gradientstyle/). |
 | variant | GradientVariant | La variante gradiente[`GradientVariant`](../../gradientvariant/) |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo rellenar una forma con degradados.
 
@@ -126,7 +128,5 @@ doc.Save(ArtifactsDir + "Shape.GradientFill.docx", saveOptions);
 * enum [GradientStyle](../../gradientstyle/)
 * enum [GradientVariant](../../gradientvariant/)
 * class [Fill](../)
-* espacio de nombres [Aspose.Words.Drawing](../../fill/)
+* espacio de nombres [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * asamblea [Aspose.Words](../../../)
-
-

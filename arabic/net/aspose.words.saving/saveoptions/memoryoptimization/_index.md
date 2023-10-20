@@ -1,7 +1,9 @@
 ---
 title: SaveOptions.MemoryOptimization
-second_title: Aspose.Words لمراجع .NET API
-description: SaveOptions ملكية. الحصول على أو تحديد القيمة التي تحدد ما إذا كان يجب إجراء تحسين الذاكرة قبل حفظ المستند. القيمة الافتراضية لهذه الخاصية هيخطأ شنيع .
+linktitle: MemoryOptimization
+articleTitle: MemoryOptimization
+second_title: Aspose.Words لـ .NET
+description: SaveOptions MemoryOptimization ملكية. الحصول على أو تحديد القيمة التي تحدد ما إذا كان يجب إجراء تحسين الذاكرة قبل حفظ المستند. القيمة الافتراضية لهذه الخاصية هيخطأ شنيع  في C#.
 type: docs
 weight: 100
 url: /ar/net/aspose.words.saving/saveoptions/memoryoptimization/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.saving/saveoptions/memoryoptimization/
 public bool MemoryOptimization { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 ضبط هذا الخيار على`حقيقي` يمكن أن يقلل بشكل كبير من استهلاك الذاكرة مع حفظ المستندات الكبيرة على حساب توفير الوقت بشكل أبطأ.
 
-### أمثلة
+## أمثلة
 
 يعرض خيارًا لتحسين استهلاك الذاكرة عند تحويل مستندات كبيرة إلى PDF.
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.MemoryOptimization.pdf", saveOptions);
 ### أنظر أيضا
 
 * class [SaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../saveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

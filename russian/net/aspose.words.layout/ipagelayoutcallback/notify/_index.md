@@ -1,7 +1,9 @@
 ---
 title: IPageLayoutCallback.Notify
-second_title: Справочник по API Aspose.Words для .NET
-description: IPageLayoutCallback метод. Вызывается для уведомления о построении макета и ходе рендеринга.
+linktitle: Notify
+articleTitle: Notify
+second_title: Aspose.Words для .NET
+description: IPageLayoutCallback Notify метод. Вызывается для уведомления о построении макета и ходе рендеринга на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.layout/ipagelayoutcallback/notify/
@@ -18,11 +20,11 @@ public void Notify(PageLayoutCallbackArgs args)
 | --- | --- | --- |
 | args | PageLayoutCallbackArgs | Аргумент события. |
 
-### Примечания
+## Примечания
 
 Исключение, вызванное реализацией, прерывает процесс построения макета.
 
-### Примеры
+## Примеры
 
 Показывает, как отслеживать изменения макета с помощью обратного вызова макета.
 
@@ -89,7 +91,5 @@ private class RenderPageLayoutCallback : IPageLayoutCallback
 
 * class [PageLayoutCallbackArgs](../../pagelayoutcallbackargs/)
 * interface [IPageLayoutCallback](../)
-* пространство имен [Aspose.Words.Layout](../../ipagelayoutcallback/)
+* пространство имен [Aspose.Words.Layout](../../../aspose.words.layout/)
 * сборка [Aspose.Words](../../../)
-
-

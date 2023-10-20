@@ -1,9 +1,11 @@
 ---
 title: CompositeNode.GetChild
-second_title: Aspose.Words per .NET API Reference
-description: CompositeNode metodo. Restituisce un Nesimo nodo figlio che corrisponde al tipo specificato.
+linktitle: GetChild
+articleTitle: GetChild
+second_title: Aspose.Words per .NET
+description: CompositeNode GetChild metodo. Restituisce un Nesimo nodo figlio che corrisponde al tipo specificato in C#.
 type: docs
-weight: 100
+weight: 80
 url: /it/net/aspose.words/compositenode/getchild/
 ---
 ## CompositeNode.GetChild method
@@ -24,13 +26,13 @@ public Node GetChild(NodeType nodeType, int index, bool isDeep)
 
 Il nodo figlio che corrisponde ai criteri o`nullo` se non viene trovato alcun nodo corrispondente.
 
-### Osservazioni
+## Osservazioni
 
 Se l'indice è fuori intervallo, a`nullo` viene restituito.
 
 Tieni presente che i nodi di markup (StructuredDocumentTag ESmartTag ) vengono attraversati anche quando*isDeep* =`falso` E`GetChild` viene richiamato per il tipo di nodo non markup. Ad esempio, se la prima esecuzione in un para è racchiusa in a[`StructuredDocumentTag`](../../../aspose.words.markup/structureddocumenttag/) , verrà comunque restituito entro`GetChild`(Run , 0,`falso`).
 
-### Esempi
+## Esempi
 
 Mostra come applicare le proprietà dello stile di una tabella direttamente agli elementi della tabella.
 
@@ -103,7 +105,5 @@ foreach (Node child in children)
 * class [Node](../../node/)
 * enum [NodeType](../../nodetype/)
 * class [CompositeNode](../)
-* spazio dei nomi [Aspose.Words](../../compositenode/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

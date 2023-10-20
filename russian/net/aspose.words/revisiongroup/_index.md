@@ -1,7 +1,9 @@
 ---
-title: Class RevisionGroup
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.RevisionGroup сорт. Представляет группу последовательныхRevision объекты.
+title: RevisionGroup Class
+linktitle: RevisionGroup
+articleTitle: RevisionGroup
+second_title: Aspose.Words для .NET
+description: Aspose.Words.RevisionGroup сорт. Представляет группу последовательныхRevision объекты на С#.
 type: docs
 weight: 4780
 url: /ru/net/aspose.words/revisiongroup/
@@ -24,7 +26,7 @@ public class RevisionGroup
 | [RevisionType](../../aspose.words/revisiongroup/revisiontype/) { get; } | Получает тип редакций, включенных в эту группу. |
 | [Text](../../aspose.words/revisiongroup/text/) { get; } | Возвращает вставленный/удаленный/перемещенный текст или описание изменения формата. |
 
-### Примеры
+## Примеры
 
 Показывает, как распечатать информацию о группе редакций в документе.
 
@@ -44,5 +46,3 @@ foreach (RevisionGroup group in doc.Revisions.Groups)
 
 * пространство имен [Aspose.Words](../../aspose.words/)
 * сборка [Aspose.Words](../../)
-
-

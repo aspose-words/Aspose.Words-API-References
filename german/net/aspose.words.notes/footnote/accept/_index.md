@@ -1,7 +1,9 @@
 ---
 title: Footnote.Accept
-second_title: Aspose.Words für .NET-API-Referenz
-description: Footnote methode. Akzeptiert einen Besucher.
+linktitle: Accept
+articleTitle: Accept
+second_title: Aspose.Words für .NET
+description: Footnote Accept methode. Akzeptiert einen Besucher in C#.
 type: docs
 weight: 70
 url: /de/net/aspose.words.notes/footnote/accept/
@@ -22,7 +24,7 @@ public override bool Accept(DocumentVisitor visitor)
 
 True, wenn alle Knoten besucht wurden; falsch wenn[`DocumentVisitor`](../../../aspose.words/documentvisitor/) stoppte den Vorgang, bevor alle Knoten besucht wurden.
 
-### Bemerkungen
+## Bemerkungen
 
 Listet diesen Knoten und alle seine untergeordneten Knoten auf. Jeder Knoten ruft eine entsprechende Methode auf[`DocumentVisitor`](../../../aspose.words/documentvisitor/).
 
@@ -30,7 +32,7 @@ Weitere Informationen finden Sie im Visitor-Entwurfsmuster.
 
 Ruft DocumentVisitor.VisitFootnoteStart auf, ruft dann Accept für alle untergeordneten Knoten der Fußnote auf und ruft am Ende DocumentVisitor.VisitFootnoteEnd auf.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Knotenstruktur jeder Fußnote in einem Dokument gedruckt wird.
 
@@ -123,7 +125,5 @@ public class FootnoteStructurePrinter : DocumentVisitor
 
 * class [DocumentVisitor](../../../aspose.words/documentvisitor/)
 * class [Footnote](../)
-* namensraum [Aspose.Words.Notes](../../footnote/)
+* namensraum [Aspose.Words.Notes](../../../aspose.words.notes/)
 * Montage [Aspose.Words](../../../)
-
-

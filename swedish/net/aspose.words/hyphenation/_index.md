@@ -1,7 +1,9 @@
 ---
-title: Class Hyphenation
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Hyphenation klass. Tillhandahåller metoder för att arbeta med avstavningsordböcker. Dessa ordböcker föreskriver var ord på ett specifikt språk kan avstavas.
+title: Hyphenation Class
+linktitle: Hyphenation
+articleTitle: Hyphenation
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Hyphenation klass. Tillhandahåller metoder för att arbeta med avstavningsordböcker. Dessa ordböcker föreskriver var ord på ett specifikt språk kan avstavas i C#.
 type: docs
 weight: 3150
 url: /sv/net/aspose.words/hyphenation/
@@ -27,12 +29,12 @@ public static class Hyphenation
 
 | namn | Beskrivning |
 | --- | --- |
-| static [IsDictionaryRegistered](../../aspose.words/hyphenation/isdictionaryregistered/)(string) | Returnerar`falsk` om det för det angivna språket inte finns någon ordbok registrerad eller om den är registrerad är Null-ordbok,`Sann` annars. |
-| static [RegisterDictionary](../../aspose.words/hyphenation/registerdictionary/#registerdictionary)(string, Stream) | Registrerar och laddar en avstavningsordlista för det angivna språket från en ström. Kastar om ordboken inte kan läsas eller har ogiltigt format. |
-| static [RegisterDictionary](../../aspose.words/hyphenation/registerdictionary/#registerdictionary_1)(string, string) | Registrerar och laddar en avstavningsordlista för det angivna språket från filen. Kastar om ordboken inte kan läsas eller har ogiltigt format. |
-| static [UnregisterDictionary](../../aspose.words/hyphenation/unregisterdictionary/)(string) | Avregistrerar en avstavningsordlista för det angivna språket. |
+| static [IsDictionaryRegistered](../../aspose.words/hyphenation/isdictionaryregistered/)(*string*) | Returnerar`falsk` om det för det angivna språket inte finns någon ordbok registrerad eller om den är registrerad är Null-ordbok,`Sann` annars. |
+| static [RegisterDictionary](../../aspose.words/hyphenation/registerdictionary/#registerdictionary)(*string, Stream*) | Registrerar och laddar en avstavningsordlista för det angivna språket från en ström. Kastar om ordboken inte kan läsas eller har ogiltigt format. |
+| static [RegisterDictionary](../../aspose.words/hyphenation/registerdictionary/#registerdictionary_1)(*string, string*) | Registrerar och laddar en avstavningsordlista för det angivna språket från filen. Kastar om ordboken inte kan läsas eller har ogiltigt format. |
+| static [UnregisterDictionary](../../aspose.words/hyphenation/unregisterdictionary/)(*string*) | Avregistrerar en avstavningsordlista för det angivna språket. |
 
-### Exempel
+## Exempel
 
 Visar hur man öppnar och registrerar en ordbok från en fil.
 
@@ -109,5 +111,3 @@ private class CustomHyphenationDictionaryRegister : IHyphenationCallback
 
 * namnutrymme [Aspose.Words](../../aspose.words/)
 * hopsättning [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Body.ParentSection
-second_title: Aspose.Words for .NET API 参考
-description: Body 财产. 获取此故事的父部分
+linktitle: ParentSection
+articleTitle: ParentSection
+second_title: 用于 .NET 的 Aspose.Words
+description: Body ParentSection 财产. 获取此故事的父部分 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words/body/parentsection/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words/body/parentsection/
 public Section ParentSection { get; }
 ```
 
-### 评论
+## 评论
 
 `ParentSection`相当于[`ParentNode`](../../node/parentnode/)投射到[`Section`](../../section/)。
 
-### 例子
+## 例子
 
 展示如何在每个部分的末尾存储尾注并修改它们的位置。
 
@@ -78,7 +80,5 @@ private static void InsertSectionWithEndnote(Document doc, string sectionBodyTex
 
 * class [Section](../../section/)
 * class [Body](../)
-* 命名空间 [Aspose.Words](../../body/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: TableStyle.BottomPadding
-second_title: Aspose.Words لمراجع .NET API
-description: TableStyle ملكية. الحصول على أو تعيين مقدار المسافة بالنقاط لإضافتها أسفل محتويات خلايا الجدول.
+linktitle: BottomPadding
+articleTitle: BottomPadding
+second_title: Aspose.Words لـ .NET
+description: TableStyle BottomPadding ملكية. الحصول على أو تعيين مقدار المسافة بالنقاط لإضافتها أسفل محتويات خلايا الجدول في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words/tablestyle/bottompadding/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/tablestyle/bottompadding/
 public double BottomPadding { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء إعدادات نمط مخصصة للجدول.
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "Table.TableStyleCreation.docx");
 ### أنظر أيضا
 
 * class [TableStyle](../)
-* مساحة الاسم [Aspose.Words](../../tablestyle/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

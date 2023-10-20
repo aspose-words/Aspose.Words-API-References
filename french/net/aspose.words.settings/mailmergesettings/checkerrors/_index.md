@@ -1,7 +1,9 @@
 ---
 title: MailMergeSettings.CheckErrors
-second_title: Référence de l'API Aspose.Words pour .NET
-description: MailMergeSettings propriété. Spécifie le type de rapport derreurs qui doit être effectué par Microsoft Word lors de lexécution dun publipostage. La valeur par défaut estDefault .
+linktitle: CheckErrors
+articleTitle: CheckErrors
+second_title: Aspose.Words pour .NET
+description: MailMergeSettings CheckErrors propriété. Spécifie le type de rapport derreurs qui doit être effectué par Microsoft Word lors de lexécution dun publipostage. La valeur par défaut estDefault  en C#.
 type: docs
 weight: 40
 url: /fr/net/aspose.words.settings/mailmergesettings/checkerrors/
@@ -14,7 +16,7 @@ Spécifie le type de rapport d'erreurs qui doit être effectué par Microsoft Wo
 public MailMergeCheckErrors CheckErrors { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment exécuter un publipostage avec des données provenant d’un objet source de données Office.
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 
 * enum [MailMergeCheckErrors](../../mailmergecheckerrors/)
 * class [MailMergeSettings](../)
-* espace de noms [Aspose.Words.Settings](../../mailmergesettings/)
+* espace de noms [Aspose.Words.Settings](../../../aspose.words.settings/)
 * Assemblée [Aspose.Words](../../../)
-
-

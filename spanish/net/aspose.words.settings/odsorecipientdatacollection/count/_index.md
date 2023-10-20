@@ -1,7 +1,9 @@
 ---
 title: OdsoRecipientDataCollection.Count
-second_title: Referencia de API de Aspose.Words para .NET
-description: OdsoRecipientDataCollection propiedad. Obtiene el número de elementos contenidos en la colección.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words para .NET
+description: OdsoRecipientDataCollection Count propiedad. Obtiene el número de elementos contenidos en la colección en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words.settings/odsorecipientdatacollection/count/
@@ -14,7 +16,7 @@ Obtiene el número de elementos contenidos en la colección.
 public int Count { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo acceder a la colección de datos que designa qué registros de origen de datos de combinación excluirá una combinación de correspondencia.
 
@@ -54,7 +56,5 @@ Assert.AreEqual(0, dataCollection.Count);
 ### Ver también
 
 * class [OdsoRecipientDataCollection](../)
-* espacio de nombres [Aspose.Words.Settings](../../odsorecipientdatacollection/)
+* espacio de nombres [Aspose.Words.Settings](../../../aspose.words.settings/)
 * asamblea [Aspose.Words](../../../)
-
-

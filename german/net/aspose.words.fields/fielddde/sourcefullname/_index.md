@@ -1,7 +1,9 @@
 ---
 title: FieldDde.SourceFullName
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldDde eigendom. Ruft den Namen und Speicherort der Quelldatei ab oder legt diesen fest.
+linktitle: SourceFullName
+articleTitle: SourceFullName
+second_title: Aspose.Words für .NET
+description: FieldDde SourceFullName eigendom. Ruft den Namen und Speicherort der Quelldatei ab oder legt diesen fest in C#.
 type: docs
 weight: 110
 url: /de/net/aspose.words.fields/fielddde/sourcefullname/
@@ -14,7 +16,7 @@ Ruft den Namen und Speicherort der Quelldatei ab oder legt diesen fest.
 public string SourceFullName { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie verschiedene Feldtypen verwenden, um eine Verknüpfung zu anderen Dokumenten im lokalen Dateisystem herzustellen und deren Inhalte anzuzeigen.
 
@@ -197,7 +199,5 @@ public enum InsertLinkedObjectAs
 ### Siehe auch
 
 * class [FieldDde](../)
-* namensraum [Aspose.Words.Fields](../../fielddde/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

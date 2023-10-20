@@ -1,7 +1,9 @@
 ---
 title: LayoutCollector.GetNumPagesSpanned
-second_title: Référence de l'API Aspose.Words pour .NET
-description: LayoutCollector méthode. Obtient le nombre de pages couvertes par le nœud spécifié. 0 si le nœud se trouve dans une seule page. Cest la même chose queGetEndPageIndex GetStartPageIndex .
+linktitle: GetNumPagesSpanned
+articleTitle: GetNumPagesSpanned
+second_title: Aspose.Words pour .NET
+description: LayoutCollector GetNumPagesSpanned méthode. Obtient le nombre de pages couvertes par le nœud spécifié. 0 si le nœud se trouve dans une seule page. Cest la même chose queGetEndPageIndex GetStartPageIndex  en C#.
 type: docs
 weight: 60
 url: /fr/net/aspose.words.layout/layoutcollector/getnumpagesspanned/
@@ -14,7 +16,7 @@ Obtient le nombre de pages couvertes par le nœud spécifié. 0 si le nœud se t
 public int GetNumPagesSpanned(Node node)
 ```
 
-### Exemples
+## Exemples
 
 Montre comment afficher les plages de pages couvertes par un nœud.
 
@@ -73,7 +75,5 @@ Assert.AreEqual("¶", layoutEnumerator.Text);
 
 * class [Node](../../../aspose.words/node/)
 * class [LayoutCollector](../)
-* espace de noms [Aspose.Words.Layout](../../layoutcollector/)
+* espace de noms [Aspose.Words.Layout](../../../aspose.words.layout/)
 * Assemblée [Aspose.Words](../../../)
-
-

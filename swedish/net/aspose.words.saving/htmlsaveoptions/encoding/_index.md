@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.Encoding
-second_title: Aspose.Words för .NET API Referens
-description: HtmlSaveOptions fast egendom. Anger kodningen som ska användas vid export till HTML MHTML eller EPUB. Standardvärdet ärny UTF8 Encodingfalse UTF8 utan stycklista.
+linktitle: Encoding
+articleTitle: Encoding
+second_title: Aspose.Words för .NET
+description: HtmlSaveOptions Encoding fast egendom. Anger kodningen som ska användas vid export till HTML MHTML eller EPUB. Standardvärdet ärny UTF8 Encodingfalse UTF8 utan stycklista i C#.
 type: docs
 weight: 100
 url: /sv/net/aspose.words.saving/htmlsaveoptions/encoding/
@@ -14,7 +16,7 @@ Anger kodningen som ska användas vid export till HTML, MHTML eller EPUB. Standa
 public Encoding Encoding { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du använder en specifik kodning när du sparar ett dokument i .epub.
 
@@ -41,7 +43,5 @@ doc.Save(ArtifactsDir + "HtmlSaveOptions.Doc2EpubSaveOptions.epub", saveOptions)
 ### Se även
 
 * class [HtmlSaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../htmlsaveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

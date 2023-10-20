@@ -1,7 +1,9 @@
 ---
 title: Odso.FirstRowContainsColumnNames
-second_title: Aspose.Words för .NET API Referens
-description: Odso fast egendom. Anger att en värdapplikation ska behandla den första raden med data i den angivna externa data källan som en rubrikrad som innehåller namnen på varje kolumn i datakällan. Standardvärdet ärfalsk .
+linktitle: FirstRowContainsColumnNames
+articleTitle: FirstRowContainsColumnNames
+second_title: Aspose.Words för .NET
+description: Odso FirstRowContainsColumnNames fast egendom. Anger att en värdapplikation ska behandla den första raden med data i den angivna externa data källan som en rubrikrad som innehåller namnen på varje kolumn i datakällan. Standardvärdet ärfalsk  i C#.
 type: docs
 weight: 60
 url: /sv/net/aspose.words.settings/odso/firstrowcontainscolumnnames/
@@ -14,11 +16,11 @@ Anger att en värdapplikation ska behandla den första raden med data i den angi
 public bool FirstRowContainsColumnNames { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 RK Jag har aldrig sett detta i bruk.
 
-### Exempel
+## Exempel
 
 Visar hur man kör en sammankoppling med data från ett Office-datakällobjekt.
 
@@ -70,7 +72,5 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ### Se även
 
 * class [Odso](../)
-* namnutrymme [Aspose.Words.Settings](../../odso/)
+* namnutrymme [Aspose.Words.Settings](../../../aspose.words.settings/)
 * hopsättning [Aspose.Words](../../../)
-
-

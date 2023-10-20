@@ -1,7 +1,9 @@
 ---
 title: FieldSymbol.IsAnsi
-second_title: Aspose.Words for .NET API 参考
-description: FieldSymbol 财产. 获取或设置是否将字符代码解释为 ANSI 字符的值
+linktitle: IsAnsi
+articleTitle: IsAnsi
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldSymbol IsAnsi 财产. 获取或设置是否将字符代码解释为 ANSI 字符的值 在 C#.
 type: docs
 weight: 60
 url: /zh/net/aspose.words.fields/fieldsymbol/isansi/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fieldsymbol/isansi/
 public bool IsAnsi { get; set; }
 ```
 
-### 例子
+## 例子
 
 显示如何使用 SYMBOL 字段。
 
@@ -70,7 +72,5 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 ### 也可以看看
 
 * class [FieldSymbol](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldsymbol/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Font.ThemeFontAscii
-second_title: Aspose.Words für .NET-API-Referenz
-description: Font eigendom. Ruft die Designschriftart ab die für lateinischen Text Zeichen mit Zeichencodes von 0 Null bis 127 verwendet wird oder legt diese fest. im angewendeten Schriftartenschema das damit verknüpft istFont Objekt.
+linktitle: ThemeFontAscii
+articleTitle: ThemeFontAscii
+second_title: Aspose.Words für .NET
+description: Font ThemeFontAscii eigendom. Ruft die Designschriftart ab die für lateinischen Text Zeichen mit Zeichencodes von 0 Null bis 127 verwendet wird oder legt diese fest. im angewendeten Schriftartenschema das damit verknüpft istFont Objekt in C#.
 type: docs
 weight: 480
 url: /de/net/aspose.words/font/themefontascii/
@@ -14,7 +16,7 @@ Ruft die Designschriftart ab, die für lateinischen Text (Zeichen mit Zeichencod
 public ThemeFont ThemeFontAscii { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit Designschriftarten und -farben gearbeitet wird.
 
@@ -101,7 +103,5 @@ Assert.AreEqual(Color.Blue.ToArgb(), font.Color.ToArgb());
 
 * enum [ThemeFont](../../../aspose.words.themes/themefont/)
 * class [Font](../)
-* namensraum [Aspose.Words](../../font/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

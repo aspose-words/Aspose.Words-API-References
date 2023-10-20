@@ -1,7 +1,9 @@
 ---
 title: Aspose.Words.Reporting
-second_title: Aspose.Words for .NET API 参考
-description: 此命名空间包含 Aspose.Words 的新报告引擎的类该引擎 支持使用基于 LINQ 方法语法的语言标记的报告模板
+linktitle: Aspose.Words.Reporting
+articleTitle: Aspose.Words.Reporting
+second_title: 用于 .NET 的 Aspose.Words
+description: 此命名空间包含 Aspose.Words 的新报告引擎的类该引擎 支持使用基于 LINQ 方法语法的语言标记的报告模板 在 C#.
 type: docs
 weight: 220
 url: /zh/net/aspose.words.reporting/
@@ -26,5 +28,3 @@ url: /zh/net/aspose.words.reporting/
 | --- | --- |
 | [JsonSimpleValueParseMode](./jsonsimplevalueparsemode/) | 指定加载 JSON 时解析 JSON 简单值（空、布尔值、数字、整数和字符串）的模式。 这种模式不会影响日期时间值的解析。 |
 | [ReportBuildOptions](./reportbuildoptions/) | 指定控制行为的选项[`ReportingEngine`](../aspose.words.reporting/reportingengine/)构建报告时. |
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldLink.AutoUpdate
-second_title: Aspose.Words لمراجع .NET API
-description: FieldLink ملكية. الحصول على أو تعيين ما إذا كان سيتم تحديث هذا الحقل تلقائيًا.
+linktitle: AutoUpdate
+articleTitle: AutoUpdate
+second_title: Aspose.Words لـ .NET
+description: FieldLink AutoUpdate ملكية. الحصول على أو تعيين ما إذا كان سيتم تحديث هذا الحقل تلقائيًا في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.fields/fieldlink/autoupdate/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldlink/autoupdate/
 public bool AutoUpdate { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام أنواع الحقول المختلفة للارتباط بالمستندات الأخرى في نظام الملفات المحلي وعرض محتوياتها.
 
@@ -197,7 +199,5 @@ public enum InsertLinkedObjectAs
 ### أنظر أيضا
 
 * class [FieldLink](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldlink/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

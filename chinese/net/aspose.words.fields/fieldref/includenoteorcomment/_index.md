@@ -1,7 +1,9 @@
 ---
 title: FieldRef.IncludeNoteOrComment
-second_title: Aspose.Words for .NET API 参考
-description: FieldRef 财产. 获取或设置是否增加书签标记的脚注尾注和注释编号并插入相应的脚注尾注和注释文本
+linktitle: IncludeNoteOrComment
+articleTitle: IncludeNoteOrComment
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldRef IncludeNoteOrComment 财产. 获取或设置是否增加书签标记的脚注尾注和注释编号并插入相应的脚注尾注和注释文本 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.fields/fieldref/includenoteorcomment/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fieldref/includenoteorcomment/
 public bool IncludeNoteOrComment { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何将 REF 字段插入到参考书签。
 
@@ -104,7 +106,5 @@ private static FieldRef InsertFieldRef(DocumentBuilder builder, string bookmarkN
 ### 也可以看看
 
 * class [FieldRef](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldref/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

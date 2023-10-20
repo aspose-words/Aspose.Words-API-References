@@ -1,7 +1,9 @@
 ---
-title: AsposeWordsPrintDocument.AsposeWordsPrintDocument
-second_title: Aspose.Words für .NET-API-Referenz
-description: AsposeWordsPrintDocument constructeur. Initialisiert eine neue Instanz dieser Klasse.
+title: AsposeWordsPrintDocument
+linktitle: AsposeWordsPrintDocument
+articleTitle: AsposeWordsPrintDocument
+second_title: Aspose.Words für .NET
+description: AsposeWordsPrintDocument constructeur. Initialisiert eine neue Instanz dieser Klasse in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words.rendering/asposewordsprintdocument/asposewordsprintdocument/
@@ -18,7 +20,7 @@ public AsposeWordsPrintDocument(Document document)
 | --- | --- | --- |
 | document | Document | Das zu druckende Dokument. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie einen Seitenbereich und einen Drucker zum Drucken des Dokuments auswählen und dann eine Druckvorschau aufrufen.
 
@@ -68,7 +70,5 @@ Console.WriteLine($"The numer of pages printed in color are {awPrintDoc.ColorPag
 
 * class [Document](../../../aspose.words/document/)
 * class [AsposeWordsPrintDocument](../)
-* namensraum [Aspose.Words.Rendering](../../asposewordsprintdocument/)
+* namensraum [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * Montage [Aspose.Words](../../../)
-
-

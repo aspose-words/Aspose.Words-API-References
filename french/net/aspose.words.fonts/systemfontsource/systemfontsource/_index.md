@@ -1,7 +1,9 @@
 ---
-title: SystemFontSource.SystemFontSource
-second_title: Référence de l'API Aspose.Words pour .NET
-description: SystemFontSource constructeur. Directeur.
+title: SystemFontSource
+linktitle: SystemFontSource
+articleTitle: SystemFontSource
+second_title: Aspose.Words pour .NET
+description: SystemFontSource constructeur. Directeur en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.fonts/systemfontsource/systemfontsource/
@@ -14,7 +16,7 @@ Directeur.
 public SystemFontSource()
 ```
 
-### Exemples
+## Exemples
 
 Montre comment accéder à la source de police système d’un document et définir des substituts de police.
 
@@ -70,12 +72,12 @@ Assert.AreEqual(1,
 ### Voir également
 
 * class [SystemFontSource](../)
-* espace de noms [Aspose.Words.Fonts](../../systemfontsource/)
+* espace de noms [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * Assemblée [Aspose.Words](../../../)
 
 ---
 
-## SystemFontSource(int) {#constructor_1}
+## SystemFontSource(*int*) {#constructor_1}
 
 Directeur.
 
@@ -87,7 +89,7 @@ public SystemFontSource(int priority)
 | --- | --- | --- |
 | priority | Int32 | Priorité de la source de police. Voir le[`Priority`](../../fontsourcebase/priority/) Description de la propriété pour plus d'informations. |
 
-### Exemples
+## Exemples
 
 Montre comment accéder à la source de police système d’un document et définir des substituts de police.
 
@@ -143,7 +145,5 @@ Assert.AreEqual(1,
 ### Voir également
 
 * class [SystemFontSource](../)
-* espace de noms [Aspose.Words.Fonts](../../systemfontsource/)
+* espace de noms [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ImageSavingArgs.ImageStream
-second_title: Справочник по API Aspose.Words для .NET
-description: ImageSavingArgs свойство. Позволяет указать поток в который будет сохранено изображение.
+linktitle: ImageStream
+articleTitle: ImageStream
+second_title: Aspose.Words для .NET
+description: ImageSavingArgs ImageStream свойство. Позволяет указать поток в который будет сохранено изображение на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.saving/imagesavingargs/imagestream/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.saving/imagesavingargs/imagestream/
 public Stream ImageStream { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Это свойство позволяет сохранять изображения в потоки вместо файлов во время HTML.
 
@@ -22,7 +24,7 @@ public Stream ImageStream { get; set; }
 
 С использованием[`IImageSavingCallback`](../../iimagesavingcallback/) вы не можете заменить одно изображение другим. Он предназначен только для контроля над местом сохранения изображений.
 
-### Примеры
+## Примеры
 
 Показывает, как включить обратный вызов сохранения изображения в процесс преобразования HTML.
 
@@ -68,7 +70,5 @@ private class ImageShapePrinter : IImageSavingCallback
 ### Смотрите также
 
 * class [ImageSavingArgs](../)
-* пространство имен [Aspose.Words.Saving](../../imagesavingargs/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

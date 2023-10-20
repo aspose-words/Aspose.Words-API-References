@@ -1,7 +1,9 @@
 ---
-title: ToaCategories.ToaCategories
-second_title: Aspose.Words لمراجع .NET API
-description: ToaCategories البناء. Default_Constructor
+title: ToaCategories
+linktitle: ToaCategories
+articleTitle: ToaCategories
+second_title: Aspose.Words لـ .NET
+description: ToaCategories البناء. Default_Constructor في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fields/toacategories/toacategories/
@@ -17,7 +19,5 @@ public ToaCategories()
 ### أنظر أيضا
 
 * class [ToaCategories](../)
-* مساحة الاسم [Aspose.Words.Fields](../../toacategories/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

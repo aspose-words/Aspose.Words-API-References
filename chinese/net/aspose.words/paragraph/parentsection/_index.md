@@ -1,7 +1,9 @@
 ---
 title: Paragraph.ParentSection
-second_title: Aspose.Words for .NET API 参考
-description: Paragraph 财产. 检索父级Section该段落的.
+linktitle: ParentSection
+articleTitle: ParentSection
+second_title: 用于 .NET 的 Aspose.Words
+description: Paragraph ParentSection 财产. 检索父级Section该段落的 在 C#.
 type: docs
 weight: 200
 url: /zh/net/aspose.words/paragraph/parentsection/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/paragraph/parentsection/
 public Section ParentSection { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何创建页眉和页脚。
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "HeaderFooter.Create.docx");
 
 * class [Section](../../section/)
 * class [Paragraph](../)
-* 命名空间 [Aspose.Words](../../paragraph/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

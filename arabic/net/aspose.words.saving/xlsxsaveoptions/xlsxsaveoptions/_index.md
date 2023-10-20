@@ -1,7 +1,9 @@
 ---
-title: XlsxSaveOptions.XlsxSaveOptions
-second_title: Aspose.Words لمراجع .NET API
-description: XlsxSaveOptions البناء. Default_Constructor
+title: XlsxSaveOptions
+linktitle: XlsxSaveOptions
+articleTitle: XlsxSaveOptions
+second_title: Aspose.Words لـ .NET
+description: XlsxSaveOptions البناء. Default_Constructor في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.saving/xlsxsaveoptions/xlsxsaveoptions/
@@ -17,7 +19,5 @@ public XlsxSaveOptions()
 ### أنظر أيضا
 
 * class [XlsxSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../xlsxsaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

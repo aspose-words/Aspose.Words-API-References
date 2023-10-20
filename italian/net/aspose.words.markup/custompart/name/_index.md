@@ -1,7 +1,9 @@
 ---
 title: CustomPart.Name
-second_title: Aspose.Words per .NET API Reference
-description: CustomPart proprietà. Ottiene o imposta il nome assoluto di questa parte allinterno del pacchetto OOXML o lURL di destinazione.
+linktitle: Name
+articleTitle: Name
+second_title: Aspose.Words per .NET
+description: CustomPart Name proprietà. Ottiene o imposta il nome assoluto di questa parte allinterno del pacchetto OOXML o lURL di destinazione in C#.
 type: docs
 weight: 50
 url: /it/net/aspose.words.markup/custompart/name/
@@ -14,13 +16,13 @@ Ottiene o imposta il nome assoluto di questa parte all'interno del pacchetto OOX
 public string Name { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Se la destinazione della relazione è interna, questa proprietà è il nome della parte assoluta all'interno del pacchetto. Se la destinazione della relazione è esterna, questa proprietà è l'URL di destinazione.
 
 Il valore predefinito è una stringa vuota. Un valore valido deve essere una stringa non vuota.
 
-### Esempi
+## Esempi
 
 Mostra come accedere alla raccolta di parti personalizzate arbitrarie di un documento.
 
@@ -64,7 +66,5 @@ Assert.AreEqual(0, doc.PackageCustomParts.Count);
 ### Guarda anche
 
 * class [CustomPart](../)
-* spazio dei nomi [Aspose.Words.Markup](../../custompart/)
+* spazio dei nomi [Aspose.Words.Markup](../../../aspose.words.markup/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldFillIn.DefaultResponse
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldFillIn propriété. Obtient ou définit la réponse utilisateur par défaut valeur initiale contenue dans la fenêtre dinvite.
+linktitle: DefaultResponse
+articleTitle: DefaultResponse
+second_title: Aspose.Words pour .NET
+description: FieldFillIn DefaultResponse propriété. Obtient ou définit la réponse utilisateur par défaut valeur initiale contenue dans la fenêtre dinvite en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.fields/fieldfillin/defaultresponse/
@@ -14,7 +16,7 @@ Obtient ou définit la réponse utilisateur par défaut (valeur initiale contenu
 public string DefaultResponse { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment utiliser le champ FILLIN pour demander une réponse à l'utilisateur.
 
@@ -63,7 +65,5 @@ private class PromptRespondent : IFieldUserPromptRespondent
 ### Voir également
 
 * class [FieldFillIn](../)
-* espace de noms [Aspose.Words.Fields](../../fieldfillin/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

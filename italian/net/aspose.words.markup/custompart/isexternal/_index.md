@@ -1,7 +1,9 @@
 ---
 title: CustomPart.IsExternal
-second_title: Aspose.Words per .NET API Reference
-description: CustomPart proprietà. False se questa parte personalizzata è archiviata nel pacchetto OOXML. Vero se questa parte personalizzata è una destinazione esterna.
+linktitle: IsExternal
+articleTitle: IsExternal
+second_title: Aspose.Words per .NET
+description: CustomPart IsExternal proprietà. False se questa parte personalizzata è archiviata nel pacchetto OOXML. Vero se questa parte personalizzata è una destinazione esterna in C#.
 type: docs
 weight: 40
 url: /it/net/aspose.words.markup/custompart/isexternal/
@@ -14,11 +16,11 @@ False se questa parte personalizzata è archiviata nel pacchetto OOXML. Vero se 
 public bool IsExternal { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Il valore predefinito è`falso`.
 
-### Esempi
+## Esempi
 
 Mostra come accedere alla raccolta di parti personalizzate arbitrarie di un documento.
 
@@ -62,7 +64,5 @@ Assert.AreEqual(0, doc.PackageCustomParts.Count);
 ### Guarda anche
 
 * class [CustomPart](../)
-* spazio dei nomi [Aspose.Words.Markup](../../custompart/)
+* spazio dei nomi [Aspose.Words.Markup](../../../aspose.words.markup/)
 * assemblea [Aspose.Words](../../../)
-
-

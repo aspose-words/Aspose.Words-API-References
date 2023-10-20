@@ -1,7 +1,9 @@
 ---
-title: Class VbaModule
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Vba.VbaModule classe. Fornisce laccesso al modulo del progetto VBA.
+title: VbaModule Class
+linktitle: VbaModule
+articleTitle: VbaModule
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Vba.VbaModule classe. Fornisce laccesso al modulo del progetto VBA in C#.
 type: docs
 weight: 6550
 url: /it/net/aspose.words.vba/vbamodule/
@@ -36,7 +38,7 @@ public class VbaModule
 | --- | --- |
 | [Clone](../../aspose.words.vba/vbamodule/clone/)() | Esegue una copia del file`VbaModule` . |
 
-### Esempi
+## Esempi
 
 Mostra come accedere alle informazioni sul progetto VBA di un documento.
 
@@ -68,5 +70,3 @@ vbaModules.Remove(vbaModules[2]);
 
 * spazio dei nomi [Aspose.Words.Vba](../../aspose.words.vba/)
 * assemblea [Aspose.Words](../../)
-
-

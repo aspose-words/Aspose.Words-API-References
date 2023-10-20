@@ -1,7 +1,9 @@
 ---
 title: Font.NameBi
-second_title: Referencia de API de Aspose.Words para .NET
-description: Font propiedad. Devuelve o establece el nombre de la fuente en un documento en idioma de derecha a izquierda.
+linktitle: NameBi
+articleTitle: NameBi
+second_title: Aspose.Words para .NET
+description: Font NameBi propiedad. Devuelve o establece el nombre de la fuente en un documento en idioma de derecha a izquierda en C#.
 type: docs
 weight: 250
 url: /es/net/aspose.words/font/namebi/
@@ -14,7 +16,7 @@ Devuelve o establece el nombre de la fuente en un documento en idioma de derecha
 public string NameBi { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo definir conjuntos separados de configuraciones de fuente para texto de derecha a izquierda y de derecha a izquierda.
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "Font.Bidi.docx");
 
 * property [Name](../name/)
 * class [Font](../)
-* espacio de nombres [Aspose.Words](../../font/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

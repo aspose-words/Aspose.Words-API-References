@@ -1,7 +1,9 @@
 ---
 title: Shape.LastParagraph
-second_title: Aspose.Words لمراجع .NET API
-description: Shape ملكية. الحصول على الفقرة الأخيرة في الشكل.
+linktitle: LastParagraph
+articleTitle: LastParagraph
+second_title: Aspose.Words لـ .NET
+description: Shape LastParagraph ملكية. الحصول على الفقرة الأخيرة في الشكل في C#.
 type: docs
 weight: 120
 url: /ar/net/aspose.words.drawing/shape/lastparagraph/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing/shape/lastparagraph/
 public Paragraph LastParagraph { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية ضبط اتجاه النص داخل مربع النص.
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "Shape.TextBoxLayoutFlow.docx");
 
 * class [Paragraph](../../../aspose.words/paragraph/)
 * class [Shape](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../shape/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

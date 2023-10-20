@@ -1,7 +1,9 @@
 ---
-title: ChmLoadOptions.ChmLoadOptions
-second_title: Aspose.Words لمراجع .NET API
-description: ChmLoadOptions البناء. تهيئة مثيل جديد لهذه الفئة بالقيم الافتراضية.
+title: ChmLoadOptions
+linktitle: ChmLoadOptions
+articleTitle: ChmLoadOptions
+second_title: Aspose.Words لـ .NET
+description: ChmLoadOptions البناء. تهيئة مثيل جديد لهذه الفئة بالقيم الافتراضية في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.loading/chmloadoptions/chmloadoptions/
@@ -17,7 +19,5 @@ public ChmLoadOptions()
 ### أنظر أيضا
 
 * class [ChmLoadOptions](../)
-* مساحة الاسم [Aspose.Words.Loading](../../chmloadoptions/)
+* مساحة الاسم [Aspose.Words.Loading](../../../aspose.words.loading/)
 * المجسم [Aspose.Words](../../../)
-
-

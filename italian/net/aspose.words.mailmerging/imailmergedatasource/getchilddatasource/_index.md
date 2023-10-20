@@ -1,7 +1,9 @@
 ---
 title: IMailMergeDataSource.GetChildDataSource
-second_title: Aspose.Words per .NET API Reference
-description: IMailMergeDataSource metodo. Il motore di stampa unione Aspose.Words richiama questo metodo quando incontra linizio di una regione di stampa unione nidificata.
+linktitle: GetChildDataSource
+articleTitle: GetChildDataSource
+second_title: Aspose.Words per .NET
+description: IMailMergeDataSource GetChildDataSource metodo. Il motore di stampa unione Aspose.Words richiama questo metodo quando incontra linizio di una regione di stampa unione nidificata in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words.mailmerging/imailmergedatasource/getchilddatasource/
@@ -22,7 +24,7 @@ public IMailMergeDataSource GetChildDataSource(string tableName)
 
 Un oggetto origine dati che fornirà l'accesso ai record di dati della tabella specificata.
 
-### Osservazioni
+## Osservazioni
 
 Quando i motori di stampa unione Aspose.Words popolano un'area di stampa unione con dati e incontrano l'inizio di una regione di stampa unione nidificata sotto forma di MERGEFIELD TableStart:TableName, richiama`GetChildDataSource` sull'oggetto origine dati current . La tua implementazione deve restituire un nuovo oggetto origine dati che fornirà l'accesso ai record child del record padre corrente. Aspose.Words utilizzerà l'origine dati restituita per popolare la regione di stampa unione nidificata.
 
@@ -34,7 +36,7 @@ Se questo oggetto origine dati non ha una relazione con la tabella con il nome s
 
 Se una tabella con il nome specificato non esiste, l'implementazione dovrebbe restituire`nullo` .
 
-### Esempi
+## Esempi
 
 Mostra come eseguire una stampa unione con un'origine dati sotto forma di oggetto personalizzato.
 
@@ -148,7 +150,5 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
 ### Guarda anche
 
 * interface [IMailMergeDataSource](../)
-* spazio dei nomi [Aspose.Words.MailMerging](../../imailmergedatasource/)
+* spazio dei nomi [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * assemblea [Aspose.Words](../../../)
-
-

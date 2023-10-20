@@ -1,7 +1,9 @@
 ---
 title: Chart.SourceFullName
-second_title: Aspose.Words für .NET-API-Referenz
-description: Chart eigendom. Ruft den Pfad und Namen einer XLS/XLSXDatei ab mit der dieses Diagramm verknüpft ist.
+linktitle: SourceFullName
+articleTitle: SourceFullName
+second_title: Aspose.Words für .NET
+description: Chart SourceFullName eigendom. Ruft den Pfad und Namen einer XLS/XLSXDatei ab mit der dieses Diagramm verknüpft ist in C#.
 type: docs
 weight: 70
 url: /de/net/aspose.words.drawing.charts/chart/sourcefullname/
@@ -14,7 +16,7 @@ Ruft den Pfad und Namen einer XLS/XLSX-Datei ab, mit der dieses Diagramm verknü
 public string SourceFullName { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie der vollständige Name des externen XLS/XLSX-Dokuments abgerufen/festgelegt wird, wenn das Diagramm verknüpft ist.
 
@@ -33,7 +35,5 @@ Assert.True(sourceFullName.Equals("D:\\Documents\\ChartData.xlsx", StringCompari
 ### Siehe auch
 
 * class [Chart](../)
-* namensraum [Aspose.Words.Drawing.Charts](../../chart/)
+* namensraum [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../../)
-
-

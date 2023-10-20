@@ -1,7 +1,9 @@
 ---
 title: ImageSaveOptions.Clone
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ImageSaveOptions méthode. Crée un clone profond de cet objet.
+linktitle: Clone
+articleTitle: Clone
+second_title: Aspose.Words pour .NET
+description: ImageSaveOptions Clone méthode. Crée un clone profond de cet objet en C#.
 type: docs
 weight: 210
 url: /fr/net/aspose.words.saving/imagesaveoptions/clone/
@@ -14,7 +16,7 @@ Crée un clone profond de cet objet.
 public ImageSaveOptions Clone()
 ```
 
-### Exemples
+## Exemples
 
 Montre comment sélectionner un débit bit par pixel avec lequel restituer un document en image.
 
@@ -79,7 +81,5 @@ Document doc = new Document();
 ### Voir également
 
 * class [ImageSaveOptions](../)
-* espace de noms [Aspose.Words.Saving](../../imagesaveoptions/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

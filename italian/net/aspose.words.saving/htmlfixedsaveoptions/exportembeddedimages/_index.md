@@ -1,7 +1,9 @@
 ---
 title: HtmlFixedSaveOptions.ExportEmbeddedImages
-second_title: Aspose.Words per .NET API Reference
-description: HtmlFixedSaveOptions proprietà. Specifica se le immagini devono essere incorporate nel documento Html in formato Base64. Nota che limpostazione di questo flag può aumentare significativamente la dimensione del file Html di output.
+linktitle: ExportEmbeddedImages
+articleTitle: ExportEmbeddedImages
+second_title: Aspose.Words per .NET
+description: HtmlFixedSaveOptions ExportEmbeddedImages proprietà. Specifica se le immagini devono essere incorporate nel documento Html in formato Base64. Nota che limpostazione di questo flag può aumentare significativamente la dimensione del file Html di output in C#.
 type: docs
 weight: 60
 url: /it/net/aspose.words.saving/htmlfixedsaveoptions/exportembeddedimages/
@@ -14,7 +16,7 @@ Specifica se le immagini devono essere incorporate nel documento Html in formato
 public bool ExportEmbeddedImages { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come determinare dove archiviare le immagini durante l'esportazione di un documento in HTML.
 
@@ -54,7 +56,5 @@ else
 ### Guarda anche
 
 * class [HtmlFixedSaveOptions](../)
-* spazio dei nomi [Aspose.Words.Saving](../../htmlfixedsaveoptions/)
+* spazio dei nomi [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../../)
-
-

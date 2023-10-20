@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.CategoryType
-second_title: Aspose.Words لمراجع .NET API
-description: ChartAxis ملكية. الحصول على أو تحديد نوع محور الفئة.
+linktitle: CategoryType
+articleTitle: CategoryType
+second_title: Aspose.Words لـ .NET
+description: ChartAxis CategoryType ملكية. الحصول على أو تحديد نوع محور الفئة في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.drawing.charts/chartaxis/categorytype/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.drawing.charts/chartaxis/categorytype/
 public AxisCategoryType CategoryType { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 فئات النص فقط (Category ) مسموح بها في مخططات MS Office 2016 الجديدة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج مخطط وتعديل مظهر محاوره.
 
@@ -72,7 +74,5 @@ doc.Save(ArtifactsDir + "Charts.AxisProperties.docx");
 
 * enum [AxisCategoryType](../../axiscategorytype/)
 * class [ChartAxis](../)
-* مساحة الاسم [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* مساحة الاسم [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../../)
-
-

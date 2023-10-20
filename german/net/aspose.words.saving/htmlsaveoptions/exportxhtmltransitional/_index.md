@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ExportXhtmlTransitional
-second_title: Aspose.Words für .NET-API-Referenz
-description: HtmlSaveOptions eigendom. Gibt an ob die DOCTYPEDeklaration beim Speichern in HTML oder MHTML geschrieben werden soll. WannWAHR  schreibt eine DOCTYPEDeklaration in das Dokument vor dem Wurzelelement. Der Standardwert istFALSCH. Beim Speichern in EPUB oder HTML5 Html5  Die DOCTYPE Deklaration wird immer geschrieben.
+linktitle: ExportXhtmlTransitional
+articleTitle: ExportXhtmlTransitional
+second_title: Aspose.Words für .NET
+description: HtmlSaveOptions ExportXhtmlTransitional eigendom. Gibt an ob die DOCTYPEDeklaration beim Speichern in HTML oder MHTML geschrieben werden soll. WannWAHR  schreibt eine DOCTYPEDeklaration in das Dokument vor dem Wurzelelement. Der Standardwert istFALSCH. Beim Speichern in EPUB oder HTML5 Html5  Die DOCTYPE Deklaration wird immer geschrieben in C#.
 type: docs
 weight: 280
 url: /de/net/aspose.words.saving/htmlsaveoptions/exportxhtmltransitional/
@@ -14,7 +16,7 @@ Gibt an, ob die DOCTYPE-Deklaration beim Speichern in HTML oder MHTML geschriebe
 public bool ExportXhtmlTransitional { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Aspose.Words schreibt unabhängig von dieser Einstellung immer wohlgeformtes HTML.
 
@@ -30,7 +32,7 @@ Aspose.Words zielt darauf ab, XHTML gemäß der XHTML 1.0 Transitional-Spezifika
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie eine DOCTYPE-Überschrift angezeigt wird, wenn Dokumente in den Übergangsstandard Xhtml 1.0 konvertiert werden.
 
@@ -64,7 +66,5 @@ else
 ### Siehe auch
 
 * class [HtmlSaveOptions](../)
-* namensraum [Aspose.Words.Saving](../../htmlsaveoptions/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

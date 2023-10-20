@@ -1,7 +1,9 @@
 ---
-title: Class JsonDataSource
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Reporting.JsonDataSource klass. Ger tillgång till data för en JSONfil eller ström som ska användas i en rapport.
+title: JsonDataSource Class
+linktitle: JsonDataSource
+articleTitle: JsonDataSource
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Reporting.JsonDataSource klass. Ger tillgång till data för en JSONfil eller ström som ska användas i en rapport i C#.
 type: docs
 weight: 4690
 url: /sv/net/aspose.words.reporting/jsondatasource/
@@ -20,12 +22,12 @@ public class JsonDataSource
 
 | namn | Beskrivning |
 | --- | --- |
-| [JsonDataSource](jsondatasource/#constructor)(Stream) | Skapar en ny datakälla med data från en JSON-ström med standardalternativ för att tolka JSON-data. |
-| [JsonDataSource](jsondatasource/#constructor_2)(string) | Skapar en ny datakälla med data från en JSON-fil med standardalternativ för att tolka JSON-data. |
-| [JsonDataSource](jsondatasource/#constructor_1)(Stream, JsonDataLoadOptions) | Skapar en ny datakälla med data från en JSON-ström med de angivna alternativen för att analysera JSON-data. |
-| [JsonDataSource](jsondatasource/#constructor_3)(string, JsonDataLoadOptions) | Skapar en ny datakälla med data från en JSON-fil med de angivna alternativen för att tolka JSON-data. |
+| [JsonDataSource](jsondatasource/#constructor)(*Stream*) | Skapar en ny datakälla med data från en JSON-ström med standardalternativ för att tolka JSON-data. |
+| [JsonDataSource](jsondatasource/#constructor_2)(*string*) | Skapar en ny datakälla med data från en JSON-fil med standardalternativ för att tolka JSON-data. |
+| [JsonDataSource](jsondatasource/#constructor_1)(*Stream, [JsonDataLoadOptions](../jsondataloadoptions/)*) | Skapar en ny datakälla med data från en JSON-ström med de angivna alternativen för att analysera JSON-data. |
+| [JsonDataSource](jsondatasource/#constructor_3)(*string, [JsonDataLoadOptions](../jsondataloadoptions/)*) | Skapar en ny datakälla med data från en JSON-fil med de angivna alternativen för att tolka JSON-data. |
 
-### Anmärkningar
+## Anmärkningar
 
 För att komma åt data för motsvarande fil eller ström medan du genererar en rapport, skicka en instans av den här klassen as en datakälla till en av[`ReportingEngine`](../reportingengine/) .BuildReport overloads.
 
@@ -47,5 +49,3 @@ För att åsidosätta standardbeteendet för JSON-dataladdning, initiera och ski
 
 * namnutrymme [Aspose.Words.Reporting](../../aspose.words.reporting/)
 * hopsättning [Aspose.Words](../../)
-
-

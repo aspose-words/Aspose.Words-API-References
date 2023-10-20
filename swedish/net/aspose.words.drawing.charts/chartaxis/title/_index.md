@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.Title
-second_title: Aspose.Words för .NET API Referens
-description: ChartAxis fast egendom. Ger tillgång till egenskaperna för axeltiteln.
+linktitle: Title
+articleTitle: Title
+second_title: Aspose.Words för .NET
+description: ChartAxis Title fast egendom. Ger tillgång till egenskaperna för axeltiteln i C#.
 type: docs
 weight: 280
 url: /sv/net/aspose.words.drawing.charts/chartaxis/title/
@@ -18,7 +20,5 @@ public ChartAxisTitle Title { get; }
 
 * class [ChartAxisTitle](../../chartaxistitle/)
 * class [ChartAxis](../)
-* namnutrymme [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* namnutrymme [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../../)
-
-

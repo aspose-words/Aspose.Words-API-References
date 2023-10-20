@@ -1,7 +1,9 @@
 ---
-title: Enum ListTemplate
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Lists.ListTemplate enumeración. Especifica uno de los formatos de lista predefinidos disponibles en Microsoft Word.
+title: ListTemplate Enum
+linktitle: ListTemplate
+articleTitle: ListTemplate
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Lists.ListTemplate enumeración. Especifica uno de los formatos de lista predefinidos disponibles en Microsoft Word en C#.
 type: docs
 weight: 3530
 url: /es/net/aspose.words.lists/listtemplate/
@@ -41,13 +43,13 @@ public enum ListTemplate
 | OutlineHeadingsNumbers | `18` | Una lista de esquema con niveles vinculados a estilos de título. |
 | OutlineHeadingsChapter | `19` | Una lista de esquema con niveles vinculados a estilos de título. |
 
-### Observaciones
+## Observaciones
 
 Un valor de plantilla de lista se utiliza como parámetro en the [`Add`](../listcollection/add/) método.
 
 Las plantillas de lista Aspose.Words corresponden a las 21 plantillas de lista disponibles en el cuadro de diálogo Numeración y viñetas en Microsoft Word 2003.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear un documento que contenga todas las plantillas de lista de encabezados de esquema.
 
@@ -184,5 +186,3 @@ doc.Save(ArtifactsDir + "Lists.SpecifyListLevel.docx");
 
 * espacio de nombres [Aspose.Words.Lists](../../aspose.words.lists/)
 * asamblea [Aspose.Words](../../)
-
-

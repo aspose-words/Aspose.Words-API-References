@@ -1,7 +1,9 @@
 ---
-title: HeaderFooter.HeaderFooter
-second_title: Справочник по API Aspose.Words для .NET
-description: HeaderFooter строитель. Создает новый верхний или нижний колонтитул указанного типа.
+title: HeaderFooter
+linktitle: HeaderFooter
+articleTitle: HeaderFooter
+second_title: Aspose.Words для .NET
+description: HeaderFooter строитель. Создает новый верхний или нижний колонтитул указанного типа на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words/headerfooter/headerfooter/
@@ -19,13 +21,13 @@ public HeaderFooter(DocumentBase doc, HeaderFooterType headerFooterType)
 | doc | DocumentBase | Документ владельца. |
 | headerFooterType | HeaderFooterType | А[`HeaderFooterType`](../headerfootertype/) value , указывающее тип верхнего или нижнего колонтитула. |
 
-### Примечания
+## Примечания
 
 Когда[`HeaderFooter`](../) создан, он принадлежит указанному документу, но еще не является частью документа и[`ParentNode`](../../node/parentnode/) является`нулевой`.
 
-Чтобы добавить[`HeaderFooter`](../)к[`Section`](../../section/) использоватьNode) ,Node) , или[`HeadersFooters`](../../section/headersfooters/) свойство и методы[`Add`](../../nodecollection/add/) ,[`Insert`](../../nodecollection/insert/).
+Чтобы добавить[`HeaderFooter`](../)к[`Section`](../../section/) использовать[`InsertAfter`](../../compositenode/insertafter/) ,[`InsertBefore`](../../compositenode/insertbefore/) , или[`HeadersFooters`](../../section/headersfooters/) свойство и методы[`Add`](../../nodecollection/add/) ,[`Insert`](../../nodecollection/insert/).
 
-### Примеры
+## Примеры
 
 Показывает, как создать верхний и нижний колонтитулы.
 
@@ -64,7 +66,5 @@ doc.Save(ArtifactsDir + "HeaderFooter.Create.docx");
 * class [DocumentBase](../../documentbase/)
 * enum [HeaderFooterType](../../headerfootertype/)
 * class [HeaderFooter](../)
-* пространство имен [Aspose.Words](../../headerfooter/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

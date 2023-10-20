@@ -1,7 +1,9 @@
 ---
-title: SystemFontSource.SystemFontSource
-second_title: Aspose.Words für .NET-API-Referenz
-description: SystemFontSource constructeur. Ctor.
+title: SystemFontSource
+linktitle: SystemFontSource
+articleTitle: SystemFontSource
+second_title: Aspose.Words für .NET
+description: SystemFontSource constructeur. Ctor in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words.fonts/systemfontsource/systemfontsource/
@@ -14,7 +16,7 @@ Ctor.
 public SystemFontSource()
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie auf die Systemschriftquelle eines Dokuments zugreifen und Schriftartersatz festlegen.
 
@@ -70,12 +72,12 @@ Assert.AreEqual(1,
 ### Siehe auch
 
 * class [SystemFontSource](../)
-* namensraum [Aspose.Words.Fonts](../../systemfontsource/)
+* namensraum [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * Montage [Aspose.Words](../../../)
 
 ---
 
-## SystemFontSource(int) {#constructor_1}
+## SystemFontSource(*int*) {#constructor_1}
 
 Ctor.
 
@@ -87,7 +89,7 @@ public SystemFontSource(int priority)
 | --- | --- | --- |
 | priority | Int32 | Priorität der Schriftartquelle. Siehe die[`Priority`](../../fontsourcebase/priority/) Weitere Informationen finden Sie in der Objektbeschreibung. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie auf die Systemschriftquelle eines Dokuments zugreifen und Schriftartersatz festlegen.
 
@@ -143,7 +145,5 @@ Assert.AreEqual(1,
 ### Siehe auch
 
 * class [SystemFontSource](../)
-* namensraum [Aspose.Words.Fonts](../../systemfontsource/)
+* namensraum [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * Montage [Aspose.Words](../../../)
-
-

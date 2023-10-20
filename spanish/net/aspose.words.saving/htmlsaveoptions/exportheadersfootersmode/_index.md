@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ExportHeadersFootersMode
-second_title: Referencia de API de Aspose.Words para .NET
-description: HtmlSaveOptions propiedad. Especifica cómo se envían los encabezados y pies de página a HTML MHTML o EPUB. El valor predeterminado esPerSection para HTML/MHTML yNone para EPUB.
+linktitle: ExportHeadersFootersMode
+articleTitle: ExportHeadersFootersMode
+second_title: Aspose.Words para .NET
+description: HtmlSaveOptions ExportHeadersFootersMode propiedad. Especifica cómo se envían los encabezados y pies de página a HTML MHTML o EPUB. El valor predeterminado esPerSection para HTML/MHTML yNone para EPUB en C#.
 type: docs
 weight: 160
 url: /es/net/aspose.words.saving/htmlsaveoptions/exportheadersfootersmode/
@@ -14,7 +16,7 @@ Especifica cómo se envían los encabezados y pies de página a HTML, MHTML o EP
 public ExportHeadersFootersMode ExportHeadersFootersMode { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 Es difícil generar encabezados y pies de página de manera significativa en HTML porque HTML no está paginado.
 
@@ -24,7 +26,7 @@ cuando esFirstSectionHeaderLastSectionFooter solo se exportan el primer encabeza
 
 Puede deshabilitar la exportación de encabezados y pies de página por completo configurando esta propiedad enNone.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo omitir encabezados/pies de página al guardar un documento en HTML.
 
@@ -53,7 +55,5 @@ Assert.IsFalse(doc.Range.Text.Contains("First header"));
 
 * enum [ExportHeadersFootersMode](../../exportheadersfootersmode/)
 * class [HtmlSaveOptions](../)
-* espacio de nombres [Aspose.Words.Saving](../../htmlsaveoptions/)
+* espacio de nombres [Aspose.Words.Saving](../../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../../)
-
-

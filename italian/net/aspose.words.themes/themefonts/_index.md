@@ -1,7 +1,9 @@
 ---
-title: Class ThemeFonts
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Themes.ThemeFonts classe. Rappresenta una raccolta di caratteri nello schema dei caratteri consentendo di specificare caratteri diversi per lingue diverseLatin EastAsian EComplexScript .
+title: ThemeFonts Class
+linktitle: ThemeFonts
+articleTitle: ThemeFonts
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Themes.ThemeFonts classe. Rappresenta una raccolta di caratteri nello schema dei caratteri consentendo di specificare caratteri diversi per lingue diverseLatin EastAsian EComplexScript  in C#.
 type: docs
 weight: 6500
 url: /it/net/aspose.words.themes/themefonts/
@@ -24,7 +26,7 @@ public class ThemeFonts
 | [EastAsian](../../aspose.words.themes/themefonts/eastasian/) { get; set; } | Specifica il nome del carattere per i caratteri dell'Asia orientale. |
 | [Latin](../../aspose.words.themes/themefonts/latin/) { get; set; } | Specifica il nome del carattere per i caratteri latini. |
 
-### Esempi
+## Esempi
 
 Mostra come impostare colori e caratteri personalizzati per i temi.
 
@@ -73,5 +75,3 @@ doc.Save(ArtifactsDir + "Themes.CustomColorsAndFonts.docx");
 
 * spazio dei nomi [Aspose.Words.Themes](../../aspose.words.themes/)
 * assemblea [Aspose.Words](../../)
-
-

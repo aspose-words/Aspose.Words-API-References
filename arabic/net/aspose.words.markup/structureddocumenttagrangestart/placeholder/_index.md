@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTagRangeStart.Placeholder
-second_title: Aspose.Words لمراجع .NET API
-description: StructuredDocumentTagRangeStart ملكية. يحصل علىBuildingBlockيحتوي على نص عنصر نائب يجب عرضه عندما تكون محتويات تشغيل علامة المستند المنظمة هذه فارغة وعنصر XML المعين المرتبط فارغ كما هو محدد عبرXmlMapping العنصر أوIsShowingPlaceholderText العنصر هوحقيقي .
+linktitle: Placeholder
+articleTitle: Placeholder
+second_title: Aspose.Words لـ .NET
+description: StructuredDocumentTagRangeStart Placeholder ملكية. يحصل علىBuildingBlockيحتوي على نص عنصر نائب يجب عرضه عندما تكون محتويات تشغيل علامة المستند المنظمة هذه فارغة وعنصر XML المعين المرتبط فارغ كما هو محدد عبرXmlMapping العنصر أوIsShowingPlaceholderText العنصر هوحقيقي  في C#.
 type: docs
 weight: 110
 url: /ar/net/aspose.words.markup/structureddocumenttagrangestart/placeholder/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.markup/structureddocumenttagrangestart/placeholder/
 public BuildingBlock Placeholder { get; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 يمكن ان يكون`باطل`، مما يعني أن العنصر النائب لا ينطبق على علامة المستند المنظمة هذه.
 
@@ -22,7 +24,5 @@ public BuildingBlock Placeholder { get; }
 
 * class [BuildingBlock](../../../aspose.words.buildingblocks/buildingblock/)
 * class [StructuredDocumentTagRangeStart](../)
-* مساحة الاسم [Aspose.Words.Markup](../../structureddocumenttagrangestart/)
+* مساحة الاسم [Aspose.Words.Markup](../../../aspose.words.markup/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Forms2OleControl.GroupName
-second_title: Aspose.Words för .NET API Referens
-description: Forms2OleControl fast egendom. Hämtar eller ställer in en sträng som anger en grupp av ömsesidigt uteslutande kontroller. Standardvärdet är en tom sträng.
+linktitle: GroupName
+articleTitle: GroupName
+second_title: Aspose.Words för .NET
+description: Forms2OleControl GroupName fast egendom. Hämtar eller ställer in en sträng som anger en grupp av ömsesidigt uteslutande kontroller. Standardvärdet är en tom sträng i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.drawing.ole/forms2olecontrol/groupname/
@@ -14,7 +16,7 @@ Hämtar eller ställer in en sträng som anger en grupp av ömsesidigt uteslutan
 public string GroupName { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du verifierar egenskaperna för en ActiveX-kontroll.
 
@@ -44,7 +46,5 @@ if (oleControl.IsForms2OleControl)
 ### Se även
 
 * class [Forms2OleControl](../)
-* namnutrymme [Aspose.Words.Drawing.Ole](../../forms2olecontrol/)
+* namnutrymme [Aspose.Words.Drawing.Ole](../../../aspose.words.drawing.ole/)
 * hopsättning [Aspose.Words](../../../)
-
-

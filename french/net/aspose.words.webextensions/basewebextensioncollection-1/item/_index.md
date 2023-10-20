@@ -1,7 +1,9 @@
 ---
 title: BaseWebExtensionCollection1.Item
-second_title: Référence de l'API Aspose.Words pour .NET
-description: BaseWebExtensionCollection propriété. Obtient ou définit un élément à lindex spécifié.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words pour .NET
+description: BaseWebExtensionCollection Item propriété. Obtient ou définit un élément à lindex spécifié en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.webextensions/basewebextensioncollection-1/item/
@@ -18,7 +20,7 @@ public T this[int index] { get; set; }
 | --- | --- |
 | index | Index de base zéro de l'élément. |
 
-### Exemples
+## Exemples
 
 Montre comment utiliser la collection d’extensions Web d’un document.
 
@@ -47,7 +49,5 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 ### Voir également
 
 * class [BaseWebExtensionCollection&lt;T&gt;](../)
-* espace de noms [Aspose.Words.WebExtensions](../../basewebextensioncollection-1/)
+* espace de noms [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * Assemblée [Aspose.Words](../../../)
-
-

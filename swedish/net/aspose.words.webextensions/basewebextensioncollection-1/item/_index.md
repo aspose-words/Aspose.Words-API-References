@@ -1,7 +1,9 @@
 ---
 title: BaseWebExtensionCollection1.Item
-second_title: Aspose.Words för .NET API Referens
-description: BaseWebExtensionCollection fast egendom. Hämtar eller ställer in ett objekt på angivet index.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words för .NET
+description: BaseWebExtensionCollection Item fast egendom. Hämtar eller ställer in ett objekt på angivet index i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.webextensions/basewebextensioncollection-1/item/
@@ -18,7 +20,7 @@ public T this[int index] { get; set; }
 | --- | --- |
 | index | Nollbaserat index för objektet. |
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med ett dokuments samling av webbtillägg.
 
@@ -47,7 +49,5 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 ### Se även
 
 * class [BaseWebExtensionCollection&lt;T&gt;](../)
-* namnutrymme [Aspose.Words.WebExtensions](../../basewebextensioncollection-1/)
+* namnutrymme [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * hopsättning [Aspose.Words](../../../)
-
-

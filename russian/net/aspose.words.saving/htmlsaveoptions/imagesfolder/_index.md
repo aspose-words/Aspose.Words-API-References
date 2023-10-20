@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ImagesFolder
-second_title: Справочник по API Aspose.Words для .NET
-description: HtmlSaveOptions свойство. Указывает физическую папку в которой сохраняются изображения при экспорте документа в формат HTML. По умолчанию  пустая строка.
+linktitle: ImagesFolder
+articleTitle: ImagesFolder
+second_title: Aspose.Words для .NET
+description: HtmlSaveOptions ImagesFolder свойство. Указывает физическую папку в которой сохраняются изображения при экспорте документа в формат HTML. По умолчанию  пустая строка на С#.
 type: docs
 weight: 360
 url: /ru/net/aspose.words.saving/htmlsaveoptions/imagesfolder/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.saving/htmlsaveoptions/imagesfolder/
 public string ImagesFolder { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Когда вы сохраняете[`Document`](../../../aspose.words/document/) в формате HTML Aspose.Words необходимо сохранить все изображения , встроенные в документ, как отдельные файлы.`ImagesFolder` позволяет указать, где будут сохраняться изображения и[`ImagesFolderAlias`](../imagesfolderalias/) позволяет указать, как будут создаваться URI изображения.
 
@@ -26,7 +28,7 @@ public string ImagesFolder { get; set; }
 
 [`ResourceFolder`](../resourcefolder/) это еще один способ указать папку, в которой следует сохранять изображения.
 
-### Примеры
+## Примеры
 
 Показывает, как указать папку для хранения связанных изображений после сохранения в .html.
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "HtmlSaveOptions.SaveHtmlWithOptions.html", options);
 ### Смотрите также
 
 * class [HtmlSaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../htmlsaveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

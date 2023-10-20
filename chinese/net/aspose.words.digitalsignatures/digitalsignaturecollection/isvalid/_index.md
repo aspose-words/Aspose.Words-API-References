@@ -1,7 +1,9 @@
 ---
 title: DigitalSignatureCollection.IsValid
-second_title: Aspose.Words for .NET API 参考
-description: DigitalSignatureCollection 财产. 返回真的如果此集合中的所有数字签名均有效且文档未被篡改 也返回真的如果没有数字签名 返回错误的如果至少有一个数字签名无效
+linktitle: IsValid
+articleTitle: IsValid
+second_title: 用于 .NET 的 Aspose.Words
+description: DigitalSignatureCollection IsValid 财产. 返回真的如果此集合中的所有数字签名均有效且文档未被篡改 也返回真的如果没有数字签名 返回错误的如果至少有一个数字签名无效 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.digitalsignatures/digitalsignaturecollection/isvalid/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.digitalsignatures/digitalsignaturecollection/isvalid/
 public bool IsValid { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何使用 X.509 证书签署文档。
 
@@ -57,7 +59,5 @@ Assert.AreEqual("CN=Morzal.Me", signedDoc.DigitalSignatures[0].SubjectName);
 ### 也可以看看
 
 * class [DigitalSignatureCollection](../)
-* 命名空间 [Aspose.Words.DigitalSignatures](../../digitalsignaturecollection/)
+* 命名空间 [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * 部件 [Aspose.Words](../../../)
-
-

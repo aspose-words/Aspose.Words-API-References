@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitSpecialChar
-second_title: Aspose.Words for .NET API 参考
-description: DocumentVisitor 方法. 当 a 时调用SpecialChar文档中遇到节点
+linktitle: VisitSpecialChar
+articleTitle: VisitSpecialChar
+second_title: 用于 .NET 的 Aspose.Words
+description: DocumentVisitor VisitSpecialChar 方法. 当 a 时调用SpecialChar文档中遇到节点 在 C#.
 type: docs
 weight: 430
 url: /zh/net/aspose.words/documentvisitor/visitspecialchar/
@@ -22,11 +24,11 @@ public virtual VisitorAction VisitSpecialChar(SpecialChar specialChar)
 
 A[`VisitorAction`](../../visitoraction/)指定如何继续枚举的值。
 
-### 评论
+## 评论
 
 不会为通用控制字符调用此方法（请参阅[`ControlChar`](../../controlchar/) 可以出现在文档中。
 
-### 例子
+## 例子
 
 演示如何使用 DocumentVisitor 实现从文档中删除所有隐藏内容。
 
@@ -224,7 +226,5 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [SpecialChar](../../specialchar/)
 * class [DocumentVisitor](../)
-* 命名空间 [Aspose.Words](../../documentvisitor/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

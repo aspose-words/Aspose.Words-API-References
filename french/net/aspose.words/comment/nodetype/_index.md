@@ -1,7 +1,9 @@
 ---
 title: Comment.NodeType
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Comment propriété. RetoursComment .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words pour .NET
+description: Comment NodeType propriété. RetoursComment  en C#.
 type: docs
 weight: 80
 url: /fr/net/aspose.words/comment/nodetype/
@@ -14,7 +16,7 @@ RetoursComment .
 public override NodeType NodeType { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment parcourir l’arborescence des nœuds enfants d’un nœud composite.
 
@@ -62,7 +64,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 
 * enum [NodeType](../../nodetype/)
 * class [Comment](../)
-* espace de noms [Aspose.Words](../../comment/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

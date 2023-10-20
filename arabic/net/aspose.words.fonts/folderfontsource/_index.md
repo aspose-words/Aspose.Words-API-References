@@ -1,7 +1,9 @@
 ---
-title: Class FolderFontSource
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Fonts.FolderFontSource فصل. يمثل المجلد الذي يحتوي على ملفات خطوط TrueType.
+title: FolderFontSource Class
+linktitle: FolderFontSource
+articleTitle: FolderFontSource
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Fonts.FolderFontSource فصل. يمثل المجلد الذي يحتوي على ملفات خطوط TrueType في C#.
 type: docs
 weight: 2880
 url: /ar/net/aspose.words.fonts/folderfontsource/
@@ -20,8 +22,8 @@ public class FolderFontSource : FontSourceBase
 
 | اسم | وصف |
 | --- | --- |
-| [FolderFontSource](folderfontsource/#constructor)(string, bool) | الممثل. |
-| [FolderFontSource](folderfontsource/#constructor_1)(string, bool, int) | الممثل. |
+| [FolderFontSource](folderfontsource/#constructor)(*string, bool*) | الممثل. |
+| [FolderFontSource](folderfontsource/#constructor_1)(*string, bool, int*) | الممثل. |
 
 ## الخصائص
 
@@ -39,7 +41,7 @@ public class FolderFontSource : FontSourceBase
 | --- | --- |
 | [GetAvailableFonts](../../aspose.words.fonts/fontsourcebase/getavailablefonts/)() | إرجاع قائمة الخطوط المتوفرة عبر هذا المصدر. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام مجلد النظام المحلي الذي يحتوي على الخطوط كمصدر للخط.
 
@@ -62,5 +64,3 @@ Assert.AreEqual(1, folderFontSource.Priority);
 * class [FontSourceBase](../fontsourcebase/)
 * مساحة الاسم [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * المجسم [Aspose.Words](../../)
-
-

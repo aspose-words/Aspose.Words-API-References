@@ -1,7 +1,9 @@
 ---
-title: Class ChartNumberFormat
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Drawing.Charts.ChartNumberFormat فصل. يمثل تنسيق الأرقام للعنصر الأصلي.
+title: ChartNumberFormat Class
+linktitle: ChartNumberFormat
+articleTitle: ChartNumberFormat
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Drawing.Charts.ChartNumberFormat فصل. يمثل تنسيق الأرقام للعنصر الأصلي في C#.
 type: docs
 weight: 770
 url: /ar/net/aspose.words.drawing.charts/chartnumberformat/
@@ -23,7 +25,7 @@ public class ChartNumberFormat
 | [FormatCode](../../aspose.words.drawing.charts/chartnumberformat/formatcode/) { get; set; } | الحصول على رمز التنسيق المطبق على تسمية البيانات أو تعيينه. |
 | [IsLinkedToSource](../../aspose.words.drawing.charts/chartnumberformat/islinkedtosource/) { get; set; } | يحدد ما إذا كان رمز التنسيق مرتبطًا بخلية مصدر أم لا. الافتراضي هو صحيح. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين التنسيق لقيم المخطط.
 
@@ -56,5 +58,3 @@ doc.Save(ArtifactsDir + "Charts.SetNumberFormatToChartAxis.docx");
 
 * مساحة الاسم [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../)
-
-

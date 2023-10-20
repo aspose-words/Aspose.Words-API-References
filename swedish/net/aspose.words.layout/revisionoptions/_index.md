@@ -1,7 +1,9 @@
 ---
-title: Class RevisionOptions
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Layout.RevisionOptions klass. Gör det möjligt att styra hur dokumentrevisioner hanteras under layoutprocessen.
+title: RevisionOptions Class
+linktitle: RevisionOptions
+articleTitle: RevisionOptions
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Layout.RevisionOptions klass. Gör det möjligt att styra hur dokumentrevisioner hanteras under layoutprocessen i C#.
 type: docs
 weight: 3390
 url: /sv/net/aspose.words.layout/revisionoptions/
@@ -40,7 +42,7 @@ public class RevisionOptions
 | [ShowRevisionBars](../../aspose.words.layout/revisionoptions/showrevisionbars/) { get; set; } | Tillåter att ange om revisionsstaplar ska renderas nära linjer som innehåller reviderat innehåll. Standardvärdet är`Sann` . |
 | [ShowRevisionMarks](../../aspose.words.layout/revisionoptions/showrevisionmarks/) { get; set; } | Tillåt att ange om versionstext ska markeras med speciell formateringsmarkering. Standardvärdet är`Sann` . |
 
-### Exempel
+## Exempel
 
 Visar hur man ändrar utseendet på revisioner i ett renderat utdatadokument.
 
@@ -66,5 +68,3 @@ doc.Save(ArtifactsDir + "Document.LayoutOptionsRevisions.pdf");
 
 * namnutrymme [Aspose.Words.Layout](../../aspose.words.layout/)
 * hopsättning [Aspose.Words](../../)
-
-

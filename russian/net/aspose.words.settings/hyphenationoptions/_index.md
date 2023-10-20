@@ -1,7 +1,9 @@
 ---
-title: Class HyphenationOptions
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Settings.HyphenationOptions сорт. Позволяет настроить параметры расстановки переносов в документе.
+title: HyphenationOptions Class
+linktitle: HyphenationOptions
+articleTitle: HyphenationOptions
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Settings.HyphenationOptions сорт. Позволяет настроить параметры расстановки переносов в документе на С#.
 type: docs
 weight: 5790
 url: /ru/net/aspose.words.settings/hyphenationoptions/
@@ -31,7 +33,7 @@ public class HyphenationOptions
 | [HyphenateCaps](../../aspose.words.settings/hyphenationoptions/hyphenatecaps/) { get; set; } | Получает или задает значение, определяющее, будут ли слова, написанные заглавными буквами, переноситься через дефис. Значение по умолчанию для этого свойства:`истинный` . |
 | [HyphenationZone](../../aspose.words.settings/hyphenationoptions/hyphenationzone/) { get; set; } | Получает или задает расстояние в 1/20 точки от правого поля, в пределах которого вы не хотите, чтобы переносил слова. Значение по умолчанию для этого свойства — 360 (0,25 дюйма). |
 
-### Примеры
+## Примеры
 
 Показывает, как настроить автоматическую расстановку переносов.
 
@@ -55,5 +57,3 @@ doc.Save(ArtifactsDir + "Document.HyphenationOptions.docx");
 
 * пространство имен [Aspose.Words.Settings](../../aspose.words.settings/)
 * сборка [Aspose.Words](../../)
-
-

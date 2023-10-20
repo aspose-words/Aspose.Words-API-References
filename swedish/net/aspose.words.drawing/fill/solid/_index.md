@@ -1,9 +1,11 @@
 ---
 title: Fill.Solid
-second_title: Aspose.Words för .NET API Referens
-description: Fill metod. Ställer in fyllningen till en enhetlig färg.
+linktitle: Solid
+articleTitle: Solid
+second_title: Aspose.Words för .NET
+description: Fill Solid metod. Ställer in fyllningen till en enhetlig färg i C#.
 type: docs
-weight: 260
+weight: 250
 url: /sv/net/aspose.words.drawing/fill/solid/
 ---
 ## Solid() {#solid}
@@ -14,19 +16,19 @@ Ställer in fyllningen till en enhetlig färg.
 public void Solid()
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Använd den här metoden för att konvertera någon av fyllningarna tillbaka till solid fill.
 
 ### Se även
 
 * class [Fill](../)
-* namnutrymme [Aspose.Words.Drawing](../../fill/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## Solid(Color) {#solid_1}
+## Solid(*Color*) {#solid_1}
 
 Ställer in fyllningen till en specificerad enhetlig färg.
 
@@ -34,11 +36,11 @@ Ställer in fyllningen till en specificerad enhetlig färg.
 public void Solid(Color color)
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Använd den här metoden för att konvertera någon av fyllningarna tillbaka till solid fill.
 
-### Exempel
+## Exempel
 
 Visar hur man konverterar någon av fyllningarna tillbaka till fast fyllning.
 
@@ -66,7 +68,5 @@ doc.Save(ArtifactsDir + "Drawing.FillSolid.docx");
 ### Se även
 
 * class [Fill](../)
-* namnutrymme [Aspose.Words.Drawing](../../fill/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

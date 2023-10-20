@@ -1,9 +1,11 @@
 ---
 title: Stroke.LineStyle
-second_title: Справочник по API Aspose.Words для .NET
-description: Stroke свойство. Определяет стиль линии обводки.
+linktitle: LineStyle
+articleTitle: LineStyle
+second_title: Aspose.Words для .NET
+description: Stroke LineStyle свойство. Определяет стиль линии обводки на С#.
 type: docs
-weight: 140
+weight: 130
 url: /ru/net/aspose.words.drawing/stroke/linestyle/
 ---
 ## Stroke.LineStyle property
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.drawing/stroke/linestyle/
 public ShapeLineStyle LineStyle { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Значение по умолчанию:Single.
 
-### Примеры
+## Примеры
 
 Показывает, как изменить свойства обводки.
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "Shape.Stroke.docx");
 
 * enum [ShapeLineStyle](../../shapelinestyle/)
 * class [Stroke](../)
-* пространство имен [Aspose.Words.Drawing](../../stroke/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

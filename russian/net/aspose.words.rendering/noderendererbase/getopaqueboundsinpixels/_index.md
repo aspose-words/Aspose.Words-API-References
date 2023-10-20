@@ -1,12 +1,14 @@
 ---
 title: NodeRendererBase.GetOpaqueBoundsInPixels
-second_title: Справочник по API Aspose.Words для .NET
-description: NodeRendererBase метод. Вычисляет непрозрачные границы фигуры в пикселях для указанного коэффициента масштабирования и разрешения.
+linktitle: GetOpaqueBoundsInPixels
+articleTitle: GetOpaqueBoundsInPixels
+second_title: Aspose.Words для .NET
+description: NodeRendererBase GetOpaqueBoundsInPixels метод. Вычисляет непрозрачные границы фигуры в пикселях для указанного коэффициента масштабирования и разрешения на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.rendering/noderendererbase/getopaqueboundsinpixels/
 ---
-## GetOpaqueBoundsInPixels(float, float) {#getopaqueboundsinpixels}
+## GetOpaqueBoundsInPixels(*float, float*) {#getopaqueboundsinpixels}
 
 Вычисляет непрозрачные границы фигуры в пикселях для указанного коэффициента масштабирования и разрешения.
 
@@ -23,11 +25,11 @@ public Rectangle GetOpaqueBoundsInPixels(float scale, float dpi)
 
 Непрозрачный прямоугольник фигуры в пикселях.
 
-### Примечания
+## Примечания
 
 Этот метод преобразует[`OpaqueBoundsInPoints`](../opaqueboundsinpoints/) в прямоугольник в пикселях, и это полезно , когда вы хотите создать растровое изображение для рендеринга фигуры только с непрозрачной частью фигуры.
 
-### Примеры
+## Примеры
 
 Показывает, как измерять и масштабировать фигуры.
 
@@ -74,12 +76,12 @@ Assert.AreEqual(30, bounds.Height);
 ### Смотрите также
 
 * class [NodeRendererBase](../)
-* пространство имен [Aspose.Words.Rendering](../../noderendererbase/)
+* пространство имен [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## GetOpaqueBoundsInPixels(float, float, float) {#getopaqueboundsinpixels_1}
+## GetOpaqueBoundsInPixels(*float, float, float*) {#getopaqueboundsinpixels_1}
 
 Вычисляет непрозрачные границы фигуры в пикселях для указанного коэффициента масштабирования и разрешения.
 
@@ -97,11 +99,11 @@ public Rectangle GetOpaqueBoundsInPixels(float scale, float horizontalDpi, float
 
 Непрозрачный прямоугольник фигуры в пикселях.
 
-### Примечания
+## Примечания
 
 Этот метод преобразует[`OpaqueBoundsInPoints`](../opaqueboundsinpoints/) в прямоугольник в пикселях, и это полезно , когда вы хотите создать растровое изображение для рендеринга фигуры только с непрозрачной частью фигуры.
 
-### Примеры
+## Примеры
 
 Показывает, как измерять и масштабировать фигуры.
 
@@ -148,7 +150,5 @@ Assert.AreEqual(30, bounds.Height);
 ### Смотрите также
 
 * class [NodeRendererBase](../)
-* пространство имен [Aspose.Words.Rendering](../../noderendererbase/)
+* пространство имен [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * сборка [Aspose.Words](../../../)
-
-

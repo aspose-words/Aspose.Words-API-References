@@ -1,7 +1,9 @@
 ---
 title: SystemFontSource.GetSystemFontFolders
-second_title: Aspose.Words per .NET API Reference
-description: SystemFontSource metodo. Restituisce le cartelle dei caratteri di sistema o un array vuoto se le cartelle non sono accessibili.
+linktitle: GetSystemFontFolders
+articleTitle: GetSystemFontFolders
+second_title: Aspose.Words per .NET
+description: SystemFontSource GetSystemFontFolders metodo. Restituisce le cartelle dei caratteri di sistema o un array vuoto se le cartelle non sono accessibili in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words.fonts/systemfontsource/getsystemfontfolders/
@@ -14,11 +16,11 @@ Restituisce le cartelle dei caratteri di sistema o un array vuoto se le cartelle
 public static string[] GetSystemFontFolders()
 ```
 
-### Osservazioni
+## Osservazioni
 
 Su alcune piattaforme Aspose.Words potrebbe cercare i caratteri di sistema non solo attraverso le cartelle ma anche in altre fonti. Ad esempio, sulla piattaforma Windows Aspose.Words cerca i caratteri anche nel registro.
 
-### Esempi
+## Esempi
 
 Mostra come accedere all'origine dei caratteri di sistema di un documento e impostare i sostituti dei caratteri.
 
@@ -74,7 +76,5 @@ Assert.AreEqual(1,
 ### Guarda anche
 
 * class [SystemFontSource](../)
-* spazio dei nomi [Aspose.Words.Fonts](../../systemfontsource/)
+* spazio dei nomi [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * assemblea [Aspose.Words](../../../)
-
-

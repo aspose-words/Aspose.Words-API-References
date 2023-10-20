@@ -1,7 +1,9 @@
 ---
 title: DocumentPartSavingArgs.Document
-second_title: Aspose.Words für .NET-API-Referenz
-description: DocumentPartSavingArgs eigendom. Ruft das Dokumentobjekt ab das gespeichert wird.
+linktitle: Document
+articleTitle: Document
+second_title: Aspose.Words für .NET
+description: DocumentPartSavingArgs Document eigendom. Ruft das Dokumentobjekt ab das gespeichert wird in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words.saving/documentpartsavingargs/document/
@@ -14,7 +16,7 @@ Ruft das Dokumentobjekt ab, das gespeichert wird.
 public Document Document { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man ein Dokument in Teile aufteilt und diese speichert.
 
@@ -132,7 +134,5 @@ public class SavedImageRename : IImageSavingCallback
 
 * class [Document](../../../aspose.words/document/)
 * class [DocumentPartSavingArgs](../)
-* namensraum [Aspose.Words.Saving](../../documentpartsavingargs/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

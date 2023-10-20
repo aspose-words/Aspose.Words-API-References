@@ -1,7 +1,9 @@
 ---
-title: Class ReplacingArgs
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Replacing.ReplacingArgs сорт. Предоставляет данные для пользовательской операции замены.
+title: ReplacingArgs Class
+linktitle: ReplacingArgs
+articleTitle: ReplacingArgs
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Replacing.ReplacingArgs сорт. Предоставляет данные для пользовательской операции замены на С#.
 type: docs
 weight: 4650
 url: /ru/net/aspose.words.replacing/replacingargs/
@@ -22,12 +24,12 @@ public class ReplacingArgs
 | --- | --- |
 | [GroupIndex](../../aspose.words.replacing/replacingargs/groupindex/) { get; set; } | Идентифицирует по индексу захваченную группу в[`Match`](./match/) , который необходимо заменить на[`Replacement`](./replacement/) строка. |
 | [GroupName](../../aspose.words.replacing/replacingargs/groupname/) { get; set; } | Идентифицирует по имени захваченную группу в[`Match`](./match/) , который необходимо заменить на[`Replacement`](./replacement/) строка. |
-| [Match](../../aspose.words.replacing/replacingargs/match/) { get; } | Match в результате одного совпадения выражения Regular во время **Заменять** . |
+| [Match](../../aspose.words.replacing/replacingargs/match/) { get; } | Match в результате одного совпадения выражения Regular во время**Заменять** . |
 | [MatchNode](../../aspose.words.replacing/replacingargs/matchnode/) { get; } | Получает узел, содержащий начало совпадения. |
 | [MatchOffset](../../aspose.words.replacing/replacingargs/matchoffset/) { get; } | Получает начальную позицию совпадения с отсчетом от нуля от начала узла, содержащего начало совпадения. |
 | [Replacement](../../aspose.words.replacing/replacingargs/replacement/) { get; set; } | Получает или задает строку замены. |
 
-### Примеры
+## Примеры
 
 Показывает, как заменить все вхождения шаблона регулярного выражения другой строкой, отслеживая при этом все такие замены.
 
@@ -156,5 +158,3 @@ private static void InsertDocument(Node insertionDestination, Document docToInse
 * method [Replace](../../aspose.words/range/replace/)
 * пространство имен [Aspose.Words.Replacing](../../aspose.words.replacing/)
 * сборка [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: RevisionOptions.MovedToTextColor
-second_title: Référence de l'API Aspose.Words pour .NET
-description: RevisionOptions propriété. Permet de spécifier la couleur à utiliser pour les zones vers lesquelles le contenu a été déplacéMoving . La valeur par défaut estByAuthor .
+linktitle: MovedToTextColor
+articleTitle: MovedToTextColor
+second_title: Aspose.Words pour .NET
+description: RevisionOptions MovedToTextColor propriété. Permet de spécifier la couleur à utiliser pour les zones vers lesquelles le contenu a été déplacéMoving . La valeur par défaut estByAuthor  en C#.
 type: docs
 weight: 90
 url: /fr/net/aspose.words.layout/revisionoptions/movedtotextcolor/
@@ -14,7 +16,7 @@ Permet de spécifier la couleur à utiliser pour les zones vers lesquelles le co
 public RevisionColor MovedToTextColor { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment modifier l’apparence des révisions.
 
@@ -66,7 +68,5 @@ doc.Save(ArtifactsDir + "Revision.RevisionOptions.pdf");
 
 * enum [RevisionColor](../../revisioncolor/)
 * class [RevisionOptions](../)
-* espace de noms [Aspose.Words.Layout](../../revisionoptions/)
+* espace de noms [Aspose.Words.Layout](../../../aspose.words.layout/)
 * Assemblée [Aspose.Words](../../../)
-
-

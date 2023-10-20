@@ -1,7 +1,9 @@
 ---
 title: NodeCollection.Contains
-second_title: Справочник по API Aspose.Words для .NET
-description: NodeCollection метод. Определяет находится ли узел в коллекции.
+linktitle: Contains
+articleTitle: Contains
+second_title: Aspose.Words для .NET
+description: NodeCollection Contains метод. Определяет находится ли узел в коллекции на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words/nodecollection/contains/
@@ -22,11 +24,11 @@ public bool Contains(Node node)
 
 `истинный` если элемент найден в коллекции; в противном случае,`ЛОЖЬ`.
 
-### Примечания
+## Примечания
 
 Этот метод выполняет линейный поиск; следовательно, среднее время выполнения пропорционально[`Count`](../count/).
 
-### Примеры
+## Примеры
 
 Показывает, как работать с NodeCollection.
 
@@ -64,7 +66,5 @@ Assert.False(runs.Contains(run));
 
 * class [Node](../../node/)
 * class [NodeCollection](../)
-* пространство имен [Aspose.Words](../../nodecollection/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

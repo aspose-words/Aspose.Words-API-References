@@ -1,7 +1,9 @@
 ---
 title: SaveOptions.TempFolder
-second_title: Aspose.Words per .NET API Reference
-description: SaveOptions proprietà. Specifica la cartella per i file temporanei utilizzata durante il salvataggio in un file DOC o DOCX. Per impostazione predefinita questa proprietà ènullo e non vengono utilizzati file temporanei.
+linktitle: TempFolder
+articleTitle: TempFolder
+second_title: Aspose.Words per .NET
+description: SaveOptions TempFolder proprietà. Specifica la cartella per i file temporanei utilizzata durante il salvataggio in un file DOC o DOCX. Per impostazione predefinita questa proprietà ènullo e non vengono utilizzati file temporanei in C#.
 type: docs
 weight: 140
 url: /it/net/aspose.words.saving/saveoptions/tempfolder/
@@ -14,7 +16,7 @@ Specifica la cartella per i file temporanei utilizzata durante il salvataggio in
 public string TempFolder { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Quando Aspose.Words salva un documento, è necessario creare strutture interne temporanee. Per impostazione predefinita, queste strutture interne vengono create in memoria e l'utilizzo della memoria aumenta per un breve periodo mentre il documento viene salvato. Al termine del salvataggio, la memoria viene liberata e recuperata dal Garbage Collector.
 
@@ -24,7 +26,7 @@ La cartella deve esistere ed essere scrivibile, altrimenti verrà generata un'ec
 
 Aspose.Words elimina automaticamente tutti i file temporanei al termine del salvataggio.
 
-### Esempi
+## Esempi
 
 Mostra come utilizzare il disco rigido anziché la memoria durante il salvataggio di un documento.
 
@@ -49,7 +51,5 @@ Assert.That(Directory.GetFiles(options.TempFolder), Is.Empty);
 ### Guarda anche
 
 * class [SaveOptions](../)
-* spazio dei nomi [Aspose.Words.Saving](../../saveoptions/)
+* spazio dei nomi [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../../)
-
-

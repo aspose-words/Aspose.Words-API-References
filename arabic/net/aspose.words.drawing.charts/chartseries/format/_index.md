@@ -1,7 +1,9 @@
 ---
 title: ChartSeries.Format
-second_title: Aspose.Words لمراجع .NET API
-description: ChartSeries ملكية. يوفر الوصول إلى التعبئة وتنسيق الخط للسلسلة.
+linktitle: Format
+articleTitle: Format
+second_title: Aspose.Words لـ .NET
+description: ChartSeries Format ملكية. يوفر الوصول إلى التعبئة وتنسيق الخط للسلسلة في C#.
 type: docs
 weight: 60
 url: /ar/net/aspose.words.drawing.charts/chartseries/format/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing.charts/chartseries/format/
 public ChartFormat Format { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يزرع كيفية ضبط لون السلسلة.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "Charts.SeriesColor.docx");
 
 * class [ChartFormat](../../chartformat/)
 * class [ChartSeries](../)
-* مساحة الاسم [Aspose.Words.Drawing.Charts](../../chartseries/)
+* مساحة الاسم [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../../)
-
-

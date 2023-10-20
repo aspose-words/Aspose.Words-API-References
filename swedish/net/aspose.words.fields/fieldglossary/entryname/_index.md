@@ -1,7 +1,9 @@
 ---
 title: FieldGlossary.EntryName
-second_title: Aspose.Words för .NET API Referens
-description: FieldGlossary fast egendom. Hämtar eller ställer in namnet på den ordlista som ska infogas.
+linktitle: EntryName
+articleTitle: EntryName
+second_title: Aspose.Words för .NET
+description: FieldGlossary EntryName fast egendom. Hämtar eller ställer in namnet på den ordlista som ska infogas i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.fields/fieldglossary/entryname/
@@ -14,7 +16,7 @@ Hämtar eller ställer in namnet på den ordlista som ska infogas.
 public string EntryName { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man visar ett byggblock med fälten AUTOTEXT och ORDLISTA.
 
@@ -64,7 +66,5 @@ doc.Save(ArtifactsDir + "Field.AUTOTEXT.GLOSSARY.dotx");
 ### Se även
 
 * class [FieldGlossary](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldglossary/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

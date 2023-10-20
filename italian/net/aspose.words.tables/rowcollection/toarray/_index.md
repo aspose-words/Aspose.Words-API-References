@@ -1,7 +1,9 @@
 ---
 title: RowCollection.ToArray
-second_title: Aspose.Words per .NET API Reference
-description: RowCollection metodo. Copia tutte le righe dalla raccolta in un nuovo array di righe.
+linktitle: ToArray
+articleTitle: ToArray
+second_title: Aspose.Words per .NET
+description: RowCollection ToArray metodo. Copia tutte le righe dalla raccolta in un nuovo array di righe in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words.tables/rowcollection/toarray/
@@ -18,7 +20,7 @@ public Row[] ToArray()
 
 Una matrice di righe.
 
-### Esempi
+## Esempi
 
 Mostra come scorrere tutte le tabelle del documento e stampare il contenuto di ciascuna cella.
 
@@ -65,7 +67,5 @@ for (int i = 0; i < tables.Count; i++)
 
 * class [Row](../../row/)
 * class [RowCollection](../)
-* spazio dei nomi [Aspose.Words.Tables](../../rowcollection/)
+* spazio dei nomi [Aspose.Words.Tables](../../../aspose.words.tables/)
 * assemblea [Aspose.Words](../../../)
-
-

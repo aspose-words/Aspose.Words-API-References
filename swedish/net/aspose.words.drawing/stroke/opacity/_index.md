@@ -1,9 +1,11 @@
 ---
 title: Stroke.Opacity
-second_title: Aspose.Words för .NET API Referens
-description: Stroke fast egendom. Definierar graden av genomskinlighet för ett streck. Giltigt intervall är från 0 till 1.
+linktitle: Opacity
+articleTitle: Opacity
+second_title: Aspose.Words för .NET
+description: Stroke Opacity fast egendom. Definierar graden av genomskinlighet för ett streck. Giltigt intervall är från 0 till 1 i C#.
 type: docs
-weight: 160
+weight: 150
 url: /sv/net/aspose.words.drawing/stroke/opacity/
 ---
 ## Stroke.Opacity property
@@ -14,11 +16,11 @@ Definierar graden av genomskinlighet för ett streck. Giltigt intervall är frå
 public double Opacity { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Standardvärdet är 1.
 
-### Exempel
+## Exempel
 
 Visar för att skapa en mängd olika former.
 
@@ -93,7 +95,5 @@ doc.Save(ArtifactsDir + "Drawing.VariousShapes.docx");
 ### Se även
 
 * class [Stroke](../)
-* namnutrymme [Aspose.Words.Drawing](../../stroke/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

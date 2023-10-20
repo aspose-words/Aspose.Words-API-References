@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.Comments
-second_title: Referencia de API de Aspose.Words para .NET
-description: BuiltInDocumentProperties propiedad. Obtiene o establece los comentarios del documento.
+linktitle: Comments
+articleTitle: Comments
+second_title: Aspose.Words para .NET
+description: BuiltInDocumentProperties Comments propiedad. Obtiene o establece los comentarios del documento en C#.
 type: docs
 weight: 60
 url: /es/net/aspose.words.properties/builtindocumentproperties/comments/
@@ -14,7 +16,7 @@ Obtiene o establece los comentarios del documento.
 public string Comments { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo trabajar con propiedades de documentos integradas en la categoría "Descripción".
 
@@ -59,7 +61,5 @@ doc.Save(ArtifactsDir + "DocumentProperties.Description.docx");
 ### Ver también
 
 * class [BuiltInDocumentProperties](../)
-* espacio de nombres [Aspose.Words.Properties](../../builtindocumentproperties/)
+* espacio de nombres [Aspose.Words.Properties](../../../aspose.words.properties/)
 * asamblea [Aspose.Words](../../../)
-
-

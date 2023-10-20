@@ -1,7 +1,9 @@
 ---
 title: FieldMergeBarcode.AddStartStopChar
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldMergeBarcode свойство. Получает или задает необходимость добавления символов начала/остановки для типов штрихкодов NW7 и CODE39. .
+linktitle: AddStartStopChar
+articleTitle: AddStartStopChar
+second_title: Aspose.Words для .NET
+description: FieldMergeBarcode AddStartStopChar свойство. Получает или задает необходимость добавления символов начала/остановки для типов штрихкодов NW7 и CODE39.  на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.fields/fieldmergebarcode/addstartstopchar/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldmergebarcode/addstartstopchar/
 public bool AddStartStopChar { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как выполнить слияние почты со штрих-кодами CODE39.
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "Field.MERGEBARCODE.CODE39.docx");
 ### Смотрите также
 
 * class [FieldMergeBarcode](../)
-* пространство имен [Aspose.Words.Fields](../../fieldmergebarcode/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

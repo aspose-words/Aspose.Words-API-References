@@ -1,7 +1,9 @@
 ---
 title: LayoutCollector.Document
-second_title: Referencia de API de Aspose.Words para .NET
-description: LayoutCollector propiedad. Obtiene o establece el documento al que está adjunta esta instancia de recopilador.
+linktitle: Document
+articleTitle: Document
+second_title: Aspose.Words para .NET
+description: LayoutCollector Document propiedad. Obtiene o establece el documento al que está adjunta esta instancia de recopilador en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words.layout/layoutcollector/document/
@@ -14,11 +16,11 @@ Obtiene o establece el documento al que está adjunta esta instancia de recopila
 public Document Document { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 Si necesita acceder a índices de páginas de los nodos del documento, debe configurar esta propiedad para que apunte a una instancia del documento, antes de crear el diseño de página del documento. Lo mejor es establecer esta propiedad en`nulo` después, de lo contrario, el recopilador continúa acumulando información de reconstrucciones posteriores del diseño de página del documento.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo ver los rangos de páginas que abarca un nodo.
 
@@ -77,7 +79,5 @@ Assert.AreEqual("¶", layoutEnumerator.Text);
 
 * class [Document](../../../aspose.words/document/)
 * class [LayoutCollector](../)
-* espacio de nombres [Aspose.Words.Layout](../../layoutcollector/)
+* espacio de nombres [Aspose.Words.Layout](../../../aspose.words.layout/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: DigitalSignature.SignatureType
-second_title: Справочник по API Aspose.Words для .NET
-description: DigitalSignature свойство. Получает тип цифровой подписи.
+linktitle: SignatureType
+articleTitle: SignatureType
+second_title: Aspose.Words для .NET
+description: DigitalSignature SignatureType свойство. Получает тип цифровой подписи на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.digitalsignatures/digitalsignature/signaturetype/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.digitalsignatures/digitalsignature/signaturetype/
 public DigitalSignatureType SignatureType { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как проверять и отображать информацию о каждой подписи в документе.
 
@@ -37,7 +39,5 @@ foreach (DigitalSignature signature in doc.DigitalSignatures)
 
 * enum [DigitalSignatureType](../../digitalsignaturetype/)
 * class [DigitalSignature](../)
-* пространство имен [Aspose.Words.DigitalSignatures](../../digitalsignature/)
+* пространство имен [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * сборка [Aspose.Words](../../../)
-
-

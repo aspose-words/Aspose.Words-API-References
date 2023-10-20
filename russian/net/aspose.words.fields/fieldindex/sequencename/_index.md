@@ -1,7 +1,9 @@
 ---
 title: FieldIndex.SequenceName
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldIndex свойство. Получает или задает имя последовательности номер которой включен в номер страницы.
+linktitle: SequenceName
+articleTitle: SequenceName
+second_title: Aspose.Words для .NET
+description: FieldIndex SequenceName свойство. Получает или задает имя последовательности номер которой включен в номер страницы на С#.
 type: docs
 weight: 150
 url: /ru/net/aspose.words.fields/fieldindex/sequencename/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldindex/sequencename/
 public string SequenceName { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как разделить документ на части, объединив поля INDEX и SEQ.
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "Field.INDEX.XE.Sequence.docx");
 ### Смотрите также
 
 * class [FieldIndex](../)
-* пространство имен [Aspose.Words.Fields](../../fieldindex/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

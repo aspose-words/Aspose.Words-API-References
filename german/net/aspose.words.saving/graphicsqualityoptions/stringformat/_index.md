@@ -1,7 +1,9 @@
 ---
 title: GraphicsQualityOptions.StringFormat
-second_title: Aspose.Words für .NET-API-Referenz
-description: GraphicsQualityOptions eigendom. Ruft Textlayoutinformationen z. B. Ausrichtung Ausrichtung und Tabstopps Anzeigemanipulationen z. B. Einfügen von Auslassungspunkten und nationale Ziffernersetzung und OpenTypeFunktionen ab oder legt diese fest.
+linktitle: StringFormat
+articleTitle: StringFormat
+second_title: Aspose.Words für .NET
+description: GraphicsQualityOptions StringFormat eigendom. Ruft Textlayoutinformationen z. B. Ausrichtung Ausrichtung und Tabstopps Anzeigemanipulationen z. B. Einfügen von Auslassungspunkten und nationale Ziffernersetzung und OpenTypeFunktionen ab oder legt diese fest in C#.
 type: docs
 weight: 60
 url: /de/net/aspose.words.saving/graphicsqualityoptions/stringformat/
@@ -14,7 +16,7 @@ Ruft Textlayoutinformationen (z. B. Ausrichtung, Ausrichtung und Tabstopps), Anz
 public StringFormat StringFormat { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Renderqualitätsoptionen beim Konvertieren von Dokumenten in Bildformate festgelegt werden.
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "ImageSaveOptions.GraphicsQuality.jpg", saveOptions);
 ### Siehe auch
 
 * class [GraphicsQualityOptions](../)
-* namensraum [Aspose.Words.Saving](../../graphicsqualityoptions/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

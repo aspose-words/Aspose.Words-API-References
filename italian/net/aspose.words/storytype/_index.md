@@ -1,7 +1,9 @@
 ---
-title: Enum StoryType
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.StoryType enum. Il testo di un documento Word è archiviato in brani.StoryType identifica una storia.
+title: StoryType Enum
+linktitle: StoryType
+articleTitle: StoryType
+second_title: Aspose.Words per .NET
+description: Aspose.Words.StoryType enum. Il testo di un documento Word è archiviato in brani.StoryType identifica una storia in C#.
 type: docs
 weight: 6120
 url: /it/net/aspose.words/storytype/
@@ -37,7 +39,7 @@ public enum StoryType
 | EndnoteContinuationSeparator | `16` | Contiene il testo del separatore di continuazione della nota di chiusura, rappresentato daFootnoteSeparator . |
 | EndnoteContinuationNotice | `17` | Contiene il testo del separatore dell'avviso di continuazione della nota di chiusura, rappresentato daFootnoteSeparator . |
 
-### Esempi
+## Esempi
 
 Mostra come rimuovere tutte le forme da un nodo.
 
@@ -62,5 +64,3 @@ Assert.AreEqual(0, doc.GetChildNodes(NodeType.Shape, true).Count);
 
 * spazio dei nomi [Aspose.Words](../../aspose.words/)
 * assemblea [Aspose.Words](../../)
-
-

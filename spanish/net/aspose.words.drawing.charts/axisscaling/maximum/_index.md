@@ -1,7 +1,9 @@
 ---
 title: AxisScaling.Maximum
-second_title: Referencia de API de Aspose.Words para .NET
-description: AxisScaling propiedad. Obtiene o establece el valor máximo del eje.
+linktitle: Maximum
+articleTitle: Maximum
+second_title: Aspose.Words para .NET
+description: AxisScaling Maximum propiedad. Obtiene o establece el valor máximo del eje en C#.
 type: docs
 weight: 30
 url: /es/net/aspose.words.drawing.charts/axisscaling/maximum/
@@ -14,11 +16,11 @@ Obtiene o establece el valor máximo del eje.
 public AxisBound Maximum { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 El valor predeterminado es "auto".
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo insertar un gráfico con valores de fecha/hora.
 
@@ -73,7 +75,5 @@ doc.Save(ArtifactsDir + "Charts.DateTimeValues.docx");
 
 * class [AxisBound](../../axisbound/)
 * class [AxisScaling](../)
-* espacio de nombres [Aspose.Words.Drawing.Charts](../../axisscaling/)
+* espacio de nombres [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * asamblea [Aspose.Words](../../../)
-
-

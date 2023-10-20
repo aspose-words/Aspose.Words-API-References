@@ -1,7 +1,9 @@
 ---
-title: Class ComparisonEvaluationResult
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Fields.ComparisonEvaluationResult klass. Resultatet av jämförelseutvärderingen.
+title: ComparisonEvaluationResult Class
+linktitle: ComparisonEvaluationResult
+articleTitle: ComparisonEvaluationResult
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Fields.ComparisonEvaluationResult klass. Resultatet av jämförelseutvärderingen i C#.
 type: docs
 weight: 1480
 url: /sv/net/aspose.words.fields/comparisonevaluationresult/
@@ -20,8 +22,8 @@ public sealed class ComparisonEvaluationResult
 
 | namn | Beskrivning |
 | --- | --- |
-| [ComparisonEvaluationResult](comparisonevaluationresult/#constructor)(bool) | Skapar ett resultat för jämförelseutvärdering. |
-| [ComparisonEvaluationResult](comparisonevaluationresult/#constructor_1)(string) | Skapar ett misslyckat resultat för jämförelseutvärdering med motsvarande felmeddelande. |
+| [ComparisonEvaluationResult](comparisonevaluationresult/#constructor)(*bool*) | Skapar ett resultat för jämförelseutvärdering. |
+| [ComparisonEvaluationResult](comparisonevaluationresult/#constructor_1)(*string*) | Skapar ett misslyckat resultat för jämförelseutvärdering med motsvarande felmeddelande. |
 
 ## Egenskaper
 
@@ -30,7 +32,7 @@ public sealed class ComparisonEvaluationResult
 | [ErrorMessage](../../aspose.words.fields/comparisonevaluationresult/errormessage/) { get; } | Får felmeddelandet om resultatet av den misslyckade jämförelseutvärderingen. |
 | [Result](../../aspose.words.fields/comparisonevaluationresult/result/) { get; } | Får resultatet av jämförelseutvärderingen. |
 
-### Exempel
+## Exempel
 
 Visar hur man implementerar anpassad utvärdering för IF- och COMPARE-fälten.
 
@@ -115,5 +117,3 @@ private class ComparisonExpressionEvaluator : IComparisonExpressionEvaluator
 
 * namnutrymme [Aspose.Words.Fields](../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FormField.MaxLength
-second_title: Aspose.Words for .NET API 参考
-description: FormField 财产. 文本字段的最大长度长度不受限制时为零
+linktitle: MaxLength
+articleTitle: MaxLength
+second_title: 用于 .NET 的 Aspose.Words
+description: FormField MaxLength 财产. 文本字段的最大长度长度不受限制时为零 在 C#.
 type: docs
 weight: 120
 url: /zh/net/aspose.words.fields/formfield/maxlength/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/formfield/maxlength/
 public int MaxLength { get; set; }
 ```
 
-### 例子
+## 例子
 
 展示如何将不同类型的表单字段插入到文档中，并使用文档访问者实现来处理它们。
 
@@ -148,7 +150,5 @@ public class FormFieldVisitor : DocumentVisitor
 ### 也可以看看
 
 * class [FormField](../)
-* 命名空间 [Aspose.Words.Fields](../../formfield/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

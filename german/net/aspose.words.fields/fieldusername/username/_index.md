@@ -1,7 +1,9 @@
 ---
 title: FieldUserName.UserName
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldUserName eigendom. Gest oder legt den Namen des aktuellen Benutzers fest.
+linktitle: UserName
+articleTitle: UserName
+second_title: Aspose.Words für .NET
+description: FieldUserName UserName eigendom. Gest oder legt den Namen des aktuellen Benutzers fest in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.fields/fieldusername/username/
@@ -14,7 +16,7 @@ Gest oder legt den Namen des aktuellen Benutzers fest.
 public string UserName { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie das Feld USERNAME verwendet wird.
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "Field.USERNAME.docx");
 ### Siehe auch
 
 * class [FieldUserName](../)
-* namensraum [Aspose.Words.Fields](../../fieldusername/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

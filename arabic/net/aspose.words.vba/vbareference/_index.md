@@ -1,7 +1,9 @@
 ---
-title: Class VbaReference
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Vba.VbaReference فصل. تنفيذ مرجع إلى مكتبة نوع الأتمتة أو مشروع VBA.
+title: VbaReference Class
+linktitle: VbaReference
+articleTitle: VbaReference
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Vba.VbaReference فصل. تنفيذ مرجع إلى مكتبة نوع الأتمتة أو مشروع VBA في C#.
 type: docs
 weight: 6590
 url: /ar/net/aspose.words.vba/vbareference/
@@ -23,7 +25,7 @@ public abstract class VbaReference
 | abstract [LibId](../../aspose.words.vba/vbareference/libid/) { get; } | الحصول على قيمة سلسلة تحتوي على معرف مكتبة نوع التنفيذ التلقائي. |
 | abstract [Type](../../aspose.words.vba/vbareference/type/) { get; } | يحصل[`VbaReferenceType`](../vbareferencetype/) كائن يشير إلى نوع المرجع الذي أ`VbaReference` يمثل الكائن. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الحصول على/إزالة عنصر من المجموعة المرجعية لـ VBA.
 
@@ -98,5 +100,3 @@ private static string GetLibIdProjectPath(string libIdProject)
 
 * مساحة الاسم [Aspose.Words.Vba](../../aspose.words.vba/)
 * المجسم [Aspose.Words](../../)
-
-

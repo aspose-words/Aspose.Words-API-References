@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.OptimizeFor
-second_title: Aspose.Words för .NET API Referens
-description: CompatibilityOptions metod. Tillåter att optimera dokumentinnehållet såväl som standard Aspose.Wordsbeteende för en viss version av MS Word.
+linktitle: OptimizeFor
+articleTitle: OptimizeFor
+second_title: Aspose.Words för .NET
+description: CompatibilityOptions OptimizeFor metod. Tillåter att optimera dokumentinnehållet såväl som standard Aspose.Wordsbeteende för en viss version av MS Word i C#.
 type: docs
 weight: 720
 url: /sv/net/aspose.words.settings/compatibilityoptions/optimizefor/
@@ -16,7 +18,7 @@ Använd den här metoden för att förhindra att MS Word visar bandet "Kompatibi
 public void OptimizeFor(MsWordVersion version)
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man vertikalt justerar textinnehållet i en textruta.
 
@@ -130,7 +132,5 @@ private static void PrintCompatibilityOptions(CompatibilityOptions options)
 
 * enum [MsWordVersion](../../mswordversion/)
 * class [CompatibilityOptions](../)
-* namnutrymme [Aspose.Words.Settings](../../compatibilityoptions/)
+* namnutrymme [Aspose.Words.Settings](../../../aspose.words.settings/)
 * hopsättning [Aspose.Words](../../../)
-
-

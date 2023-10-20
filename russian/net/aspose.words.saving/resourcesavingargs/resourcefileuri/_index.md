@@ -1,7 +1,9 @@
 ---
 title: ResourceSavingArgs.ResourceFileUri
-second_title: Справочник по API Aspose.Words для .NET
-description: ResourceSavingArgs свойство. Получает или задает универсальный идентификатор ресурса URI используемый для ссылки на файл ресурсов из документа.
+linktitle: ResourceFileUri
+articleTitle: ResourceFileUri
+second_title: Aspose.Words для .NET
+description: ResourceSavingArgs ResourceFileUri свойство. Получает или задает универсальный идентификатор ресурса URI используемый для ссылки на файл ресурсов из документа на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.saving/resourcesavingargs/resourcefileuri/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.saving/resourcesavingargs/resourcefileuri/
 public string ResourceFileUri { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Это свойство позволяет изменять URI файлов ресурсов, экспортированных в документы HTML или SVG с фиксированной страницей.
 
@@ -24,7 +26,7 @@ Aspose.Words автоматически генерирует URI для кажд
 
 [`ResourcesFolder`](../../htmlfixedsaveoptions/resourcesfolder/)[`ResourcesFolder`](../../svgsaveoptions/resourcesfolder/)[`ResourcesFolderAlias`](../../htmlfixedsaveoptions/resourcesfolderalias/)[`ResourcesFolderAlias`](../../svgsaveoptions/resourcesfolderalias/)
 
-### Примеры
+## Примеры
 
 Показывает, как использовать обратный вызов для отслеживания внешних ресурсов, созданных при преобразовании документа в HTML.
 
@@ -69,7 +71,5 @@ private class FontSavingCallback : IResourceSavingCallback
 ### Смотрите также
 
 * class [ResourceSavingArgs](../)
-* пространство имен [Aspose.Words.Saving](../../resourcesavingargs/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

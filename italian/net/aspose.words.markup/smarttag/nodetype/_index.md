@@ -1,7 +1,9 @@
 ---
 title: SmartTag.NodeType
-second_title: Aspose.Words per .NET API Reference
-description: SmartTag proprietà. RestituisceSmartTag .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words per .NET
+description: SmartTag NodeType proprietà. RestituisceSmartTag  in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words.markup/smarttag/nodetype/
@@ -14,7 +16,7 @@ RestituisceSmartTag .
 public override NodeType NodeType { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come attraversare l'albero dei nodi figlio di un nodo composito.
 
@@ -62,7 +64,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 
 * enum [NodeType](../../../aspose.words/nodetype/)
 * class [SmartTag](../)
-* spazio dei nomi [Aspose.Words.Markup](../../smarttag/)
+* spazio dei nomi [Aspose.Words.Markup](../../../aspose.words.markup/)
 * assemblea [Aspose.Words](../../../)
-
-

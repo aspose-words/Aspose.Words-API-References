@@ -1,7 +1,9 @@
 ---
 title: PdfDigitalSignatureDetails.Reason
-second_title: Aspose.Words for .NET API 参考
-description: PdfDigitalSignatureDetails 财产. 获取或设置签名的原因
+linktitle: Reason
+articleTitle: Reason
+second_title: 用于 .NET 的 Aspose.Words
+description: PdfDigitalSignatureDetails Reason 财产. 获取或设置签名的原因 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words.saving/pdfdigitalsignaturedetails/reason/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.saving/pdfdigitalsignaturedetails/reason/
 public string Reason { get; set; }
 ```
 
-### 评论
+## 评论
 
 默认值为`无效的`.
 
-### 例子
+## 例子
 
 演示如何签署生成的 PDF 文档。
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignature.pdf", options);
 ### 也可以看看
 
 * class [PdfDigitalSignatureDetails](../)
-* 命名空间 [Aspose.Words.Saving](../../pdfdigitalsignaturedetails/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

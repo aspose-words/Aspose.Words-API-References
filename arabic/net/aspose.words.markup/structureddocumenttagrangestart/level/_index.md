@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTagRangeStart.Level
-second_title: Aspose.Words لمراجع .NET API
-description: StructuredDocumentTagRangeStart ملكية. الحصول على المستوى الذي يبدأ عنده نطاق علامات المستند الهيكلي هذا في شجرة المستندات.
+linktitle: Level
+articleTitle: Level
+second_title: Aspose.Words لـ .NET
+description: StructuredDocumentTagRangeStart Level ملكية. الحصول على المستوى الذي يبدأ عنده نطاق علامات المستند الهيكلي هذا في شجرة المستندات في C#.
 type: docs
 weight: 70
 url: /ar/net/aspose.words.markup/structureddocumenttagrangestart/level/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.markup/structureddocumenttagrangestart/level/
 public MarkupLevel Level { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الحصول على خصائص علامات المستندات المنظمة متعددة الأقسام.
 
@@ -50,7 +52,5 @@ Console.WriteLine($"\t|NodeType: {rangeEndTag.NodeType}");
 
 * enum [MarkupLevel](../../markuplevel/)
 * class [StructuredDocumentTagRangeStart](../)
-* مساحة الاسم [Aspose.Words.Markup](../../structureddocumenttagrangestart/)
+* مساحة الاسم [Aspose.Words.Markup](../../../aspose.words.markup/)
 * المجسم [Aspose.Words](../../../)
-
-

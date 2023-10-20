@@ -1,7 +1,9 @@
 ---
 title: RevisionOptions.RevisionBarsWidth
-second_title: Aspose.Words för .NET API Referens
-description: RevisionOptions fast egendom. Hämtar eller ställer in bredden på revisionsstaplar punkter.
+linktitle: RevisionBarsWidth
+articleTitle: RevisionBarsWidth
+second_title: Aspose.Words för .NET
+description: RevisionOptions RevisionBarsWidth fast egendom. Hämtar eller ställer in bredden på revisionsstaplar punkter i C#.
 type: docs
 weight: 150
 url: /sv/net/aspose.words.layout/revisionoptions/revisionbarswidth/
@@ -14,7 +16,7 @@ Hämtar eller ställer in bredden på revisionsstaplar, punkter.
 public float RevisionBarsWidth { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man ändrar utseendet på revisioner.
 
@@ -65,7 +67,5 @@ doc.Save(ArtifactsDir + "Revision.RevisionOptions.pdf");
 ### Se även
 
 * class [RevisionOptions](../)
-* namnutrymme [Aspose.Words.Layout](../../revisionoptions/)
+* namnutrymme [Aspose.Words.Layout](../../../aspose.words.layout/)
 * hopsättning [Aspose.Words](../../../)
-
-

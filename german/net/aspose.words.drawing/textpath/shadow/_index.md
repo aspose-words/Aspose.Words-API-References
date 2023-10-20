@@ -1,7 +1,9 @@
 ---
 title: TextPath.Shadow
-second_title: Aspose.Words für .NET-API-Referenz
-description: TextPath eigendom. Definiert ob ein Schatten auf den Text auf einem Textpfad angewendet wird.
+linktitle: Shadow
+articleTitle: Shadow
+second_title: Aspose.Words für .NET
+description: TextPath Shadow eigendom. Definiert ob ein Schatten auf den Text auf einem Textpfad angewendet wird in C#.
 type: docs
 weight: 110
 url: /de/net/aspose.words.drawing/textpath/shadow/
@@ -14,11 +16,11 @@ Definiert, ob ein Schatten auf den Text auf einem Textpfad angewendet wird.
 public bool Shadow { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Der Standardwert ist`FALSCH`.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man mit WordArt arbeitet.
 
@@ -121,7 +123,5 @@ private static Shape AppendWordArt(Document doc, string text, string textFontFam
 ### Siehe auch
 
 * class [TextPath](../)
-* namensraum [Aspose.Words.Drawing](../../textpath/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Revision.RevisionType
-second_title: Aspose.Words för .NET API Referens
-description: Revision fast egendom. Hämtar typen av denna version.
+linktitle: RevisionType
+articleTitle: RevisionType
+second_title: Aspose.Words för .NET
+description: Revision RevisionType fast egendom. Hämtar typen av denna version i C#.
 type: docs
 weight: 60
 url: /sv/net/aspose.words/revision/revisiontype/
@@ -14,7 +16,7 @@ Hämtar typen av denna version.
 public RevisionType RevisionType { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med revisioner i ett dokument.
 
@@ -98,7 +100,5 @@ Assert.AreEqual("This is revision #1. \rThis is revision #2.", doc.GetText().Tri
 
 * enum [RevisionType](../../revisiontype/)
 * class [Revision](../)
-* namnutrymme [Aspose.Words](../../revision/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

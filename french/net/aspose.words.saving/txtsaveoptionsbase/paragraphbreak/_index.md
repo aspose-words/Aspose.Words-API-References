@@ -1,7 +1,9 @@
 ---
 title: TxtSaveOptionsBase.ParagraphBreak
-second_title: Référence de l'API Aspose.Words pour .NET
-description: TxtSaveOptionsBase propriété. Spécifie la chaîne à utiliser comme saut de paragraphe lors de lexportation au format texte.
+linktitle: ParagraphBreak
+articleTitle: ParagraphBreak
+second_title: Aspose.Words pour .NET
+description: TxtSaveOptionsBase ParagraphBreak propriété. Spécifie la chaîne à utiliser comme saut de paragraphe lors de lexportation au format texte en C#.
 type: docs
 weight: 40
 url: /fr/net/aspose.words.saving/txtsaveoptionsbase/paragraphbreak/
@@ -14,11 +16,11 @@ Spécifie la chaîne à utiliser comme saut de paragraphe lors de l'exportation 
 public string ParagraphBreak { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 La valeur par défaut est[`CrLf`](../../../aspose.words/controlchar/crlf/).
 
-### Exemples
+## Exemples
 
 Montre comment enregistrer un document .txt avec un saut de paragraphe personnalisé.
 
@@ -51,7 +53,5 @@ Assert.AreEqual("Paragraph 1. End of paragraph.\n\n\t" +
 ### Voir également
 
 * class [TxtSaveOptionsBase](../)
-* espace de noms [Aspose.Words.Saving](../../txtsaveoptionsbase/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

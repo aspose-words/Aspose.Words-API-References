@@ -1,7 +1,9 @@
 ---
 title: Aspose.Words.Markup
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Markup Пространство имен содержит классы которые представляют определяемую пользователем семантику в документе смарттеги настраиваемый XML и теги структурированного документа элементы управления содержимым.
+linktitle: Aspose.Words.Markup
+articleTitle: Aspose.Words.Markup
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Markup Пространство имен содержит классы которые представляют определяемую пользователем семантику в документе смарттеги настраиваемый XML и теги структурированного документа элементы управления содержимым на С#.
 type: docs
 weight: 160
 url: /ru/net/aspose.words.markup/
@@ -24,8 +26,8 @@ url: /ru/net/aspose.words.markup/
 | [SmartTag](./smarttag/) | Этот элемент определяет наличие смарт-тега вокруг одной или нескольких встроенных структур (прогонов, изображений, полей и т. д.) внутри абзаца. |
 | [StructuredDocumentTag](./structureddocumenttag/) | Представляет структурированный тег документа (SDT или элемент управления содержимым) в документе. |
 | [StructuredDocumentTagCollection](./structureddocumenttagcollection/) | Коллекция[`IStructuredDocumentTag`](../aspose.words.markup/istructureddocumenttag/) экземпляры, представляющие теги структурированного документа в указанном диапазоне. |
-| [StructuredDocumentTagRangeEnd](./structureddocumenttagrangeend/) | Обозначает конец **дальнего боя** тег структурированного документа, который принимает содержимое из нескольких разделов. См. также[`StructuredDocumentTagRangeStart`](../aspose.words.markup/structureddocumenttagrangestart/) узел. |
-| [StructuredDocumentTagRangeStart](./structureddocumenttagrangestart/) | Обозначает начало **дальнего боя** тег структурированного документа, который принимает содержимое из нескольких разделов. См. также[`StructuredDocumentTagRangeEnd`](../aspose.words.markup/structureddocumenttagrangeend/) . |
+| [StructuredDocumentTagRangeEnd](./structureddocumenttagrangeend/) | Обозначает конец**дальнего боя** тег структурированного документа, который принимает содержимое из нескольких разделов. См. также[`StructuredDocumentTagRangeStart`](../aspose.words.markup/structureddocumenttagrangestart/) узел. |
+| [StructuredDocumentTagRangeStart](./structureddocumenttagrangestart/) | Обозначает начало**дальнего боя** тег структурированного документа, который принимает содержимое из нескольких разделов. См. также[`StructuredDocumentTagRangeEnd`](../aspose.words.markup/structureddocumenttagrangeend/) . |
 | [XmlMapping](./xmlmapping/) | Указывает информацию, которая используется для установления сопоставления между тегом структурированного документа Parent и элементом XML, хранящимся в пользовательской части данных XML в документе. |
 ## Интерфейсы
 
@@ -41,5 +43,3 @@ url: /ru/net/aspose.words.markup/
 | [SdtCalendarType](./sdtcalendartype/) | Указывает возможные типы календарей, которые можно использовать для указания[`CalendarType`](../aspose.words.markup/structureddocumenttag/calendartype/) в документе Office Open XML. |
 | [SdtDateStorageFormat](./sdtdatestorageformat/) | Указывает, как дата для SDT даты сохраняется/извлекается, когда SDT привязан к узлу XML в хранилище данных документа. |
 | [SdtType](./sdttype/) | Указывает тип узла тега структурированного документа (SDT). |
-
-

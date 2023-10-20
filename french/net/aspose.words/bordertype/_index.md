@@ -1,7 +1,9 @@
 ---
-title: Enum BorderType
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.BorderType énumération. Spécifie les côtés dune bordure.
+title: BorderType Enum
+linktitle: BorderType
+articleTitle: BorderType
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.BorderType énumération. Spécifie les côtés dune bordure en C#.
 type: docs
 weight: 100
 url: /fr/net/aspose.words/bordertype/
@@ -30,7 +32,7 @@ public enum BorderType
 | DiagonalDown | `6` | Spécifie la bordure diagonale dans une cellule de tableau. |
 | DiagonalUp | `7` | Spécifie la bordure diagonale dans une cellule de tableau. |
 
-### Exemples
+## Exemples
 
 Montre comment insérer un paragraphe avec une bordure supérieure.
 
@@ -54,5 +56,3 @@ doc.Save(ArtifactsDir + "Border.ParagraphTopBorder.docx");
 
 * espace de noms [Aspose.Words](../../aspose.words/)
 * Assemblée [Aspose.Words](../../)
-
-

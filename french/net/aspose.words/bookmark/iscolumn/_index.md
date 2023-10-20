@@ -1,7 +1,9 @@
 ---
 title: Bookmark.IsColumn
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Bookmark propriété. Retoursvrai si ce signet est un signet de colonne de tableau.
+linktitle: IsColumn
+articleTitle: IsColumn
+second_title: Aspose.Words pour .NET
+description: Bookmark IsColumn propriété. Retoursvrai si ce signet est un signet de colonne de tableau en C#.
 type: docs
 weight: 40
 url: /fr/net/aspose.words/bookmark/iscolumn/
@@ -14,7 +16,7 @@ Retours`vrai` si ce signet est un signet de colonne de tableau.
 public bool IsColumn { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment obtenir des informations sur les signets des colonnes du tableau.
 
@@ -41,7 +43,5 @@ foreach (Bookmark bookmark in doc.Range.Bookmarks)
 ### Voir également
 
 * class [Bookmark](../)
-* espace de noms [Aspose.Words](../../bookmark/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

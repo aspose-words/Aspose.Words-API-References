@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.AllowNegativeIndent
-second_title: Справочник по API Aspose.Words для .NET
-description: HtmlSaveOptions свойство. Указывает нормализуются ли отрицательные отступы слева и справа от абзацев при сохранении в HTML MHTML или EPUB. Значение по умолчаниюЛОЖЬ .
+linktitle: AllowNegativeIndent
+articleTitle: AllowNegativeIndent
+second_title: Aspose.Words для .NET
+description: HtmlSaveOptions AllowNegativeIndent свойство. Указывает нормализуются ли отрицательные отступы слева и справа от абзацев при сохранении в HTML MHTML или EPUB. Значение по умолчаниюЛОЖЬ  на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.saving/htmlsaveoptions/allownegativeindent/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.saving/htmlsaveoptions/allownegativeindent/
 public bool AllowNegativeIndent { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Если отрицательный отступ не разрешен, он экспортируется как нулевое поле в HTML. Если отрицательный отступ разрешен, абзац может частично появиться за пределами окна браузера the .
 
-### Примеры
+## Примеры
 
 Показывает, как сохранить отрицательные отступы в выходном HTML-файле.
 
@@ -80,7 +82,5 @@ else
 ### Смотрите также
 
 * class [HtmlSaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../htmlsaveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

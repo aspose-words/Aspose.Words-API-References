@@ -1,7 +1,9 @@
 ---
 title: Document.Watermark
-second_title: Справочник по API Aspose.Words для .NET
-description: Document свойство. Обеспечивает доступ к водяному знаку документа.
+linktitle: Watermark
+articleTitle: Watermark
+second_title: Aspose.Words для .NET
+description: Document Watermark свойство. Обеспечивает доступ к водяному знаку документа на С#.
 type: docs
 weight: 480
 url: /ru/net/aspose.words/document/watermark/
@@ -18,7 +20,5 @@ public Watermark Watermark { get; }
 
 * class [Watermark](../../watermark/)
 * class [Document](../)
-* пространство имен [Aspose.Words](../../document/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

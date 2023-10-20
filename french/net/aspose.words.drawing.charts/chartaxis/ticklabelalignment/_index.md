@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.TickLabelAlignment
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ChartAxis propriété. Obtient ou définit lalignement du texte des étiquettes de graduation daxe.
+linktitle: TickLabelAlignment
+articleTitle: TickLabelAlignment
+second_title: Aspose.Words pour .NET
+description: ChartAxis TickLabelAlignment propriété. Obtient ou définit lalignement du texte des étiquettes de graduation daxe en C#.
 type: docs
 weight: 220
 url: /fr/net/aspose.words.drawing.charts/chartaxis/ticklabelalignment/
@@ -14,7 +16,7 @@ Obtient ou définit l'alignement du texte des étiquettes de graduation d'axe.
 public ParagraphAlignment TickLabelAlignment { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 Cette propriété n'a d'effet que pour les étiquettes multilignes.
 
@@ -22,7 +24,7 @@ La valeur par défaut estCenter.
 
 .
 
-### Exemples
+## Exemples
 
 Montre comment manipuler les graduations et les valeurs affichées d’un axe de graphique.
 
@@ -81,7 +83,5 @@ doc.Save(ArtifactsDir + "Charts.AxisDisplayUnit.docx");
 
 * enum [ParagraphAlignment](../../../aspose.words/paragraphalignment/)
 * class [ChartAxis](../)
-* espace de noms [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* espace de noms [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Chart.Axes
-second_title: Aspose.Words لمراجع .NET API
-description: Chart ملكية. الحصول على مجموعة من جميع محاور هذا المخطط.
+linktitle: Axes
+articleTitle: Axes
+second_title: Aspose.Words لـ .NET
+description: Chart Axes ملكية. الحصول على مجموعة من جميع محاور هذا المخطط في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.drawing.charts/chart/axes/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing.charts/chart/axes/
 public ChartAxisCollection Axes { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع مجموعة المحاور.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "Charts.AxisCollection.docx");
 
 * class [ChartAxisCollection](../../chartaxiscollection/)
 * class [Chart](../)
-* مساحة الاسم [Aspose.Words.Drawing.Charts](../../chart/)
+* مساحة الاسم [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../../)
-
-

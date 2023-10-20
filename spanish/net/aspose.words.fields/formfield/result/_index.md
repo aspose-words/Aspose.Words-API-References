@@ -1,7 +1,9 @@
 ---
 title: FormField.Result
-second_title: Referencia de API de Aspose.Words para .NET
-description: FormField propiedad. Obtiene o establece una cadena que representa el resultado de este campo de formulario.
+linktitle: Result
+articleTitle: Result
+second_title: Aspose.Words para .NET
+description: FormField Result propiedad. Obtiene o establece una cadena que representa el resultado de este campo de formulario en C#.
 type: docs
 weight: 170
 url: /es/net/aspose.words.fields/formfield/result/
@@ -14,7 +16,7 @@ Obtiene o establece una cadena que representa el resultado de este campo de form
 public string Result { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 Para un campo de formulario de texto, el resultado es el texto que hay en el campo.
 
@@ -26,7 +28,7 @@ Configuración`Result` para un campo de formulario de texto no se aplica el form
 
 Para un campo de formulario de texto, el[`TextInputDefault`](../textinputdefault/) se aplica el valor si*value* es`nulo`.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo insertar un cuadro combinado.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "FormFields.Create.html");
 ### Ver también
 
 * class [FormField](../)
-* espacio de nombres [Aspose.Words.Fields](../../formfield/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

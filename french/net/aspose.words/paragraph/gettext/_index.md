@@ -1,9 +1,11 @@
 ---
 title: Paragraph.GetText
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Paragraph méthode. Obtient le texte de ce paragraphe y compris le caractère de fin de paragraphe.
+linktitle: GetText
+articleTitle: GetText
+second_title: Aspose.Words pour .NET
+description: Paragraph GetText méthode. Obtient le texte de ce paragraphe y compris le caractère de fin de paragraphe en C#.
 type: docs
-weight: 280
+weight: 260
 url: /fr/net/aspose.words/paragraph/gettext/
 ---
 ## Paragraph.GetText method
@@ -14,7 +16,7 @@ Obtient le texte de ce paragraphe, y compris le caractère de fin de paragraphe.
 public override string GetText()
 ```
 
-### Remarques
+## Remarques
 
 Le texte de tous les nœuds enfants est concaténé et le caractère de fin de paragraphe est ajouté comme suit :
 
@@ -24,7 +26,7 @@ Le texte de tous les nœuds enfants est concaténé et le caractère de fin de p
 
 La chaîne renvoyée inclut tous les caractères de contrôle et spéciaux comme décrit dans[`ControlChar`](../../controlchar/).
 
-### Exemples
+## Exemples
 
 Montre comment ajouter, mettre à jour et supprimer des nœuds enfants dans la collection d’enfants d’un CompositeNode.
 
@@ -77,7 +79,5 @@ Assert.AreEqual(3, paragraph.GetChildNodes(NodeType.Any, true).Count);
 ### Voir également
 
 * class [Paragraph](../)
-* espace de noms [Aspose.Words](../../paragraph/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

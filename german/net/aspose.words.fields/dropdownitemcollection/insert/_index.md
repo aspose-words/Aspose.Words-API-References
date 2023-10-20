@@ -1,7 +1,9 @@
 ---
 title: DropDownItemCollection.Insert
-second_title: Aspose.Words für .NET-API-Referenz
-description: DropDownItemCollection methode. Fügt am angegebenen Index einen String in die Sammlung ein.
+linktitle: Insert
+articleTitle: Insert
+second_title: Aspose.Words für .NET
+description: DropDownItemCollection Insert methode. Fügt am angegebenen Index einen String in die Sammlung ein in C#.
 type: docs
 weight: 80
 url: /de/net/aspose.words.fields/dropdownitemcollection/insert/
@@ -19,7 +21,7 @@ public void Insert(int index, string value)
 | index | Int32 | Der nullbasierte Index, an dem der Wert eingefügt wird. |
 | value | String | Die einzufügende Zeichenfolge. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man ein Kombinationsfeldfeld einfügt und die Elemente in seiner Elementsammlung bearbeitet.
 
@@ -73,7 +75,5 @@ dropDownItems.Clear();
 ### Siehe auch
 
 * class [DropDownItemCollection](../)
-* namensraum [Aspose.Words.Fields](../../dropdownitemcollection/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

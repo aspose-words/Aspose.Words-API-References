@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.Encoding
-second_title: Aspose.Words per .NET API Reference
-description: HtmlSaveOptions proprietà. Specifica la codifica da utilizzare durante lesportazione in HTML MHTML o EPUB. Il valore predefinito ènuova codifica UTF8falso UTF8 senza distinta base.
+linktitle: Encoding
+articleTitle: Encoding
+second_title: Aspose.Words per .NET
+description: HtmlSaveOptions Encoding proprietà. Specifica la codifica da utilizzare durante lesportazione in HTML MHTML o EPUB. Il valore predefinito ènuova codifica UTF8falso UTF8 senza distinta base in C#.
 type: docs
 weight: 100
 url: /it/net/aspose.words.saving/htmlsaveoptions/encoding/
@@ -14,7 +16,7 @@ Specifica la codifica da utilizzare durante l'esportazione in HTML, MHTML o EPUB
 public Encoding Encoding { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come utilizzare una codifica specifica quando si salva un documento in .epub.
 
@@ -41,7 +43,5 @@ doc.Save(ArtifactsDir + "HtmlSaveOptions.Doc2EpubSaveOptions.epub", saveOptions)
 ### Guarda anche
 
 * class [HtmlSaveOptions](../)
-* spazio dei nomi [Aspose.Words.Saving](../../htmlsaveoptions/)
+* spazio dei nomi [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../../)
-
-

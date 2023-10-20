@@ -1,7 +1,9 @@
 ---
 title: DownsampleOptions.ResolutionThreshold
-second_title: Aspose.Words för .NET API Referens
-description: DownsampleOptions fast egendom. Anger tröskelupplösningen i pixlar per tum. Om upplösningen för en bild i dokumentet är lägre än tröskelvärdet kommer nedsamplingsalgoritmen inte att tillämpas. Ett värde på 0 betyder att tröskelkontrollen inte används och alla bilder som kan minskas i storlek är nedsamplade.
+linktitle: ResolutionThreshold
+articleTitle: ResolutionThreshold
+second_title: Aspose.Words för .NET
+description: DownsampleOptions ResolutionThreshold fast egendom. Anger tröskelupplösningen i pixlar per tum. Om upplösningen för en bild i dokumentet är lägre än tröskelvärdet kommer nedsamplingsalgoritmen inte att tillämpas. Ett värde på 0 betyder att tröskelkontrollen inte används och alla bilder som kan minskas i storlek är nedsamplade i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.saving/downsampleoptions/resolutionthreshold/
@@ -14,11 +16,11 @@ Anger tröskelupplösningen i pixlar per tum. Om upplösningen för en bild i do
 public int ResolutionThreshold { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Standardvärdet är 0.
 
-### Exempel
+## Exempel
 
 Visar hur du ändrar upplösningen på bilder i PDF-dokumentet.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.DownsampleOptions.LowerResolution.pdf", 
 ### Se även
 
 * class [DownsampleOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../downsampleoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

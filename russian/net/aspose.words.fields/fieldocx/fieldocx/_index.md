@@ -1,7 +1,9 @@
 ---
-title: FieldOcx.FieldOcx
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldOcx строитель. Конструктор по умолчанию.
+title: FieldOcx
+linktitle: FieldOcx
+articleTitle: FieldOcx
+second_title: Aspose.Words для .NET
+description: FieldOcx строитель. Конструктор по умолчанию на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fields/fieldocx/fieldocx/
@@ -17,7 +19,5 @@ public FieldOcx()
 ### Смотрите также
 
 * class [FieldOcx](../)
-* пространство имен [Aspose.Words.Fields](../../fieldocx/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: SectionCollection.ToArray
-second_title: Aspose.Words لمراجع .NET API
-description: SectionCollection طريقة. نسخ كافة الأقسام من المجموعة إلى مجموعة جديدة من الأقسام.
+linktitle: ToArray
+articleTitle: ToArray
+second_title: Aspose.Words لـ .NET
+description: SectionCollection ToArray طريقة. نسخ كافة الأقسام من المجموعة إلى مجموعة جديدة من الأقسام في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words/sectioncollection/toarray/
@@ -22,7 +24,5 @@ public Section[] ToArray()
 
 * class [Section](../../section/)
 * class [SectionCollection](../)
-* مساحة الاسم [Aspose.Words](../../sectioncollection/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

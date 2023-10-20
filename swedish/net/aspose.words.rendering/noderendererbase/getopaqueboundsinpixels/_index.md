@@ -1,12 +1,14 @@
 ---
 title: NodeRendererBase.GetOpaqueBoundsInPixels
-second_title: Aspose.Words för .NET API Referens
-description: NodeRendererBase metod. Beräknar de ogenomskinliga gränserna för formen i pixlar för en angiven zoomfaktor och upplösning.
+linktitle: GetOpaqueBoundsInPixels
+articleTitle: GetOpaqueBoundsInPixels
+second_title: Aspose.Words för .NET
+description: NodeRendererBase GetOpaqueBoundsInPixels metod. Beräknar de ogenomskinliga gränserna för formen i pixlar för en angiven zoomfaktor och upplösning i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.rendering/noderendererbase/getopaqueboundsinpixels/
 ---
-## GetOpaqueBoundsInPixels(float, float) {#getopaqueboundsinpixels}
+## GetOpaqueBoundsInPixels(*float, float*) {#getopaqueboundsinpixels}
 
 Beräknar de ogenomskinliga gränserna för formen i pixlar för en angiven zoomfaktor och upplösning.
 
@@ -23,11 +25,11 @@ public Rectangle GetOpaqueBoundsInPixels(float scale, float dpi)
 
 Formens ogenomskinliga rektangel i pixlar.
 
-### Anmärkningar
+## Anmärkningar
 
 Denna metod konverterar[`OpaqueBoundsInPoints`](../opaqueboundsinpoints/) till rektangel i pixlar och det är användbart när du vill skapa en bitmapp för att återge formen med endast ogenomskinlig del av formen.
 
-### Exempel
+## Exempel
 
 Visar hur man mäter och skalar former.
 
@@ -74,12 +76,12 @@ Assert.AreEqual(30, bounds.Height);
 ### Se även
 
 * class [NodeRendererBase](../)
-* namnutrymme [Aspose.Words.Rendering](../../noderendererbase/)
+* namnutrymme [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## GetOpaqueBoundsInPixels(float, float, float) {#getopaqueboundsinpixels_1}
+## GetOpaqueBoundsInPixels(*float, float, float*) {#getopaqueboundsinpixels_1}
 
 Beräknar de ogenomskinliga gränserna för formen i pixlar för en angiven zoomfaktor och upplösning.
 
@@ -97,11 +99,11 @@ public Rectangle GetOpaqueBoundsInPixels(float scale, float horizontalDpi, float
 
 Formens ogenomskinliga rektangel i pixlar.
 
-### Anmärkningar
+## Anmärkningar
 
 Denna metod konverterar[`OpaqueBoundsInPoints`](../opaqueboundsinpoints/) till rektangel i pixlar och det är användbart när du vill skapa en bitmapp för att återge formen med endast ogenomskinlig del av formen.
 
-### Exempel
+## Exempel
 
 Visar hur man mäter och skalar former.
 
@@ -148,7 +150,5 @@ Assert.AreEqual(30, bounds.Height);
 ### Se även
 
 * class [NodeRendererBase](../)
-* namnutrymme [Aspose.Words.Rendering](../../noderendererbase/)
+* namnutrymme [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * hopsättning [Aspose.Words](../../../)
-
-

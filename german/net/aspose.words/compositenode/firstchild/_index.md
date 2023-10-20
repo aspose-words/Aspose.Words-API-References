@@ -1,7 +1,9 @@
 ---
 title: CompositeNode.FirstChild
-second_title: Aspose.Words für .NET-API-Referenz
-description: CompositeNode eigendom. Ruft das erste untergeordnete Element des Knotens ab.
+linktitle: FirstChild
+articleTitle: FirstChild
+second_title: Aspose.Words für .NET
+description: CompositeNode FirstChild eigendom. Ruft das erste untergeordnete Element des Knotens ab in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words/compositenode/firstchild/
@@ -14,11 +16,11 @@ Ruft das erste untergeordnete Element des Knotens ab.
 public Node FirstChild { get; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Wenn es keinen ersten untergeordneten Knoten gibt, a`Null` wird zurückgegeben.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die NextSibling-Eigenschaft eines Knotens verwendet wird, um seine unmittelbaren untergeordneten Knoten aufzuzählen.
 
@@ -81,7 +83,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 
 * class [Node](../../node/)
 * class [CompositeNode](../)
-* namensraum [Aspose.Words](../../compositenode/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

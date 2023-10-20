@@ -1,7 +1,9 @@
 ---
-title: Class Document
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Document فصل. يمثل مستند Word.
+title: Document Class
+linktitle: Document
+articleTitle: Document
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Document فصل. يمثل مستند Word في C#.
 type: docs
 weight: 430
 url: /ar/net/aspose.words/document/
@@ -21,10 +23,10 @@ public class Document : DocumentBase
 | اسم | وصف |
 | --- | --- |
 | [Document](document/#constructor)() | إنشاء مستند Word فارغ. |
-| [Document](document/#constructor_1)(Stream) | فتح مستند موجود من الدفق. يكتشف تنسيق الملف تلقائيًا. |
-| [Document](document/#constructor_3)(string) | فتح مستند موجود من ملف. يكتشف تنسيق الملف تلقائيًا. |
-| [Document](document/#constructor_2)(Stream, LoadOptions) | فتح مستند موجود من الدفق. يسمح بتحديد خيارات إضافية مثل كلمة مرور التشفير. |
-| [Document](document/#constructor_4)(string, LoadOptions) | فتح مستند موجود من ملف. يسمح بتحديد خيارات إضافية مثل كلمة مرور التشفير. |
+| [Document](document/#constructor_1)(*Stream*) | فتح مستند موجود من الدفق. يكتشف تنسيق الملف تلقائيًا. |
+| [Document](document/#constructor_3)(*string*) | فتح مستند موجود من ملف. يكتشف تنسيق الملف تلقائيًا. |
+| [Document](document/#constructor_2)(*Stream, [LoadOptions](../../aspose.words.loading/loadoptions/)*) | فتح مستند موجود من الدفق. يسمح بتحديد خيارات إضافية مثل كلمة مرور التشفير. |
+| [Document](document/#constructor_4)(*string, [LoadOptions](../../aspose.words.loading/loadoptions/)*) | فتح مستند موجود من ملف. يسمح بتحديد خيارات إضافية مثل كلمة مرور التشفير. |
 
 ## الخصائص
 
@@ -34,7 +36,7 @@ public class Document : DocumentBase
 | [AutomaticallyUpdateStyles](../../aspose.words/document/automaticallyupdatestyles/) { get; set; } | الحصول على أو تعيين علامة تشير إلى ما إذا كانت الأنماط الموجودة في المستند قد تم تحديثها لتتوافق مع الأنماط الموجودة في القالب المرفق في كل مرة يتم فيها فتح المستند في برنامج MS Word. |
 | [BackgroundShape](../../aspose.words/documentbase/backgroundshape/) { get; set; } | الحصول على شكل خلفية المستند أو تعيينه. يمكن ان يكون`باطل` . |
 | [BuiltInDocumentProperties](../../aspose.words/document/builtindocumentproperties/) { get; } | إرجاع مجموعة تمثل كافة خصائص المستند المضمنة في المستند. |
-| [CompatibilityOptions](../../aspose.words/document/compatibilityoptions/) { get; } | يوفر الوصول إلى خيارات توافق المستندات (أي تفضيلات المستخدم التي تم إدخالها في ملف **التوافق** علامة التبويب **خيارات** الحوار في Word). |
+| [CompatibilityOptions](../../aspose.words/document/compatibilityoptions/) { get; } | يوفر الوصول إلى خيارات توافق المستندات (أي تفضيلات المستخدم التي تم إدخالها في ملف**التوافق** علامة التبويب**خيارات** الحوار في Word). |
 | [Compliance](../../aspose.words/document/compliance/) { get; } | الحصول على إصدار توافق OOXML المحدد من محتوى المستند الذي تم تحميله. هذا منطقي فقط لمستندات OOXML. |
 | [Count](../../aspose.words/compositenode/count/) { get; } | يحصل على عدد الأطفال المباشرين لهذه العقدة. |
 | [CustomDocumentProperties](../../aspose.words/document/customdocumentproperties/) { get; } | إرجاع مجموعة تمثل كافة خصائص المستند المخصصة للمستند. |
@@ -103,81 +105,79 @@ public class Document : DocumentBase
 
 | اسم | وصف |
 | --- | --- |
-| override [Accept](../../aspose.words/document/accept/)(DocumentVisitor) | يقبل الزائر. |
+| override [Accept](../../aspose.words/document/accept/)(*[DocumentVisitor](../documentvisitor/)*) | يقبل الزائر. |
 | [AcceptAllRevisions](../../aspose.words/document/acceptallrevisions/)() | قبول كافة التغييرات المتعقبة في المستند. |
-| override [AcceptEnd](../../aspose.words/document/acceptend/)(DocumentVisitor) |  |
-| override [AcceptStart](../../aspose.words/document/acceptstart/)(DocumentVisitor) |  |
-| [AppendChild&lt;T&gt;](../../aspose.words/compositenode/appendchild/)(T) |  |
-| [AppendDocument](../../aspose.words/document/appenddocument/#appenddocument)(Document, ImportFormatMode) | إلحاق المستند المحدد بنهاية هذا المستند. |
-| [AppendDocument](../../aspose.words/document/appenddocument/#appenddocument_1)(Document, ImportFormatMode, ImportFormatOptions) | إلحاق المستند المحدد بنهاية هذا المستند. |
+| [AppendChild](../../aspose.words/compositenode/appendchild/)(*[Node](../node/)*) | إضافة العقدة المحددة إلى نهاية قائمة العقد التابعة لهذه العقدة. |
+| [AppendDocument](../../aspose.words/document/appenddocument/#appenddocument)(*Document, [ImportFormatMode](../importformatmode/)*) | إلحاق المستند المحدد بنهاية هذا المستند. |
+| [AppendDocument](../../aspose.words/document/appenddocument/#appenddocument_1)(*Document, [ImportFormatMode](../importformatmode/), [ImportFormatOptions](../importformatoptions/)*) | إلحاق المستند المحدد بنهاية هذا المستند. |
 | [Cleanup](../../aspose.words/document/cleanup/#cleanup)() | ينظف الأنماط والقوائم غير المستخدمة من المستند. |
-| [Cleanup](../../aspose.words/document/cleanup/#cleanup_1)(CleanupOptions) | ينظف الأنماط والقوائم غير المستخدمة من المستند اعتمادًا على ما هو محدد[`CleanupOptions`](../cleanupoptions/) . |
+| [Cleanup](../../aspose.words/document/cleanup/#cleanup_1)(*[CleanupOptions](../cleanupoptions/)*) | ينظف الأنماط والقوائم غير المستخدمة من المستند اعتمادًا على ما هو محدد[`CleanupOptions`](../cleanupoptions/) . |
 | [Clone](../../aspose.words/document/clone/#clone)() | إجراء نسخة عميقة من ملف`Document` . |
-| [Clone](../../aspose.words/node/clone/)(bool) | إنشاء نسخة مكررة من العقدة. |
-| [Compare](../../aspose.words/document/compare/#compare)(Document, string, DateTime) | يقارن هذا المستند بمستند آخر ينتج عنه تغييرات حسب عدد مراجعات التحرير والتنسيق[`Revision`](../revision/) . |
-| [Compare](../../aspose.words/document/compare/#compare_1)(Document, string, DateTime, CompareOptions) | يقارن هذا المستند بمستند آخر ينتج عنه تغييرات بعدد من مراجعات التحرير والتنسيق[`Revision`](../revision/) . يسمح بتحديد خيارات المقارنة باستخدام[`CompareOptions`](../../aspose.words.comparing/compareoptions/) . |
-| [CopyStylesFromTemplate](../../aspose.words/document/copystylesfromtemplate/#copystylesfromtemplate)(Document) | نسخ الأنماط من القالب المحدد إلى مستند. |
-| [CopyStylesFromTemplate](../../aspose.words/document/copystylesfromtemplate/#copystylesfromtemplate_1)(string) | نسخ الأنماط من القالب المحدد إلى مستند. |
+| [Clone](../../aspose.words/node/clone/)(*bool*) | إنشاء نسخة مكررة من العقدة. |
+| [Compare](../../aspose.words/document/compare/#compare)(*Document, string, DateTime*) | يقارن هذا المستند بمستند آخر ينتج عنه تغييرات حسب عدد مراجعات التحرير والتنسيق[`Revision`](../revision/) . |
+| [Compare](../../aspose.words/document/compare/#compare_1)(*Document, string, DateTime, [CompareOptions](../../aspose.words.comparing/compareoptions/)*) | يقارن هذا المستند بمستند آخر ينتج عنه تغييرات بعدد من مراجعات التحرير والتنسيق[`Revision`](../revision/) . يسمح بتحديد خيارات المقارنة باستخدام[`CompareOptions`](../../aspose.words.comparing/compareoptions/) . |
+| [CopyStylesFromTemplate](../../aspose.words/document/copystylesfromtemplate/#copystylesfromtemplate)(*Document*) | نسخ الأنماط من القالب المحدد إلى مستند. |
+| [CopyStylesFromTemplate](../../aspose.words/document/copystylesfromtemplate/#copystylesfromtemplate_1)(*string*) | نسخ الأنماط من القالب المحدد إلى مستند. |
 | [CreateNavigator](../../aspose.words/compositenode/createnavigator/)() | إنشاء متصفح يمكن استخدامه لاجتياز العقد وقراءتها. |
 | [EnsureMinimum](../../aspose.words/document/ensureminimum/)() | إذا كانت الوثيقة لا تحتوي على أقسام، قم بإنشاء قسم واحد بفقرة واحدة. |
 | [ExpandTableStylesToDirectFormatting](../../aspose.words/document/expandtablestylestodirectformatting/)() | تحويل التنسيق المحدد في أنماط الجدول إلى تنسيق مباشر على الجداول في المستند. |
-| [ExtractPages](../../aspose.words/document/extractpages/)(int, int) | إرجاع`Document` كائن يمثل نطاقًا محددًا من الصفحات. |
-| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | يحصل على السلف الأول للمحدد[`NodeType`](../nodetype/) . |
-| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | الحصول على السلف الأول لنوع الكائن المحدد. |
-| [GetChild](../../aspose.words/compositenode/getchild/)(NodeType, int, bool) | إرجاع العقدة الفرعية N التي تطابق النوع المحدد. |
-| [GetChildNodes](../../aspose.words/compositenode/getchildnodes/)(NodeType, bool) | إرجاع مجموعة مباشرة من العقد الفرعية التي تطابق النوع المحدد. |
+| [ExtractPages](../../aspose.words/document/extractpages/)(*int, int*) | إرجاع`Document` كائن يمثل نطاقًا محددًا من الصفحات. |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*[NodeType](../nodetype/)*) | يحصل على السلف الأول للمحدد[`NodeType`](../nodetype/) . |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | الحصول على السلف الأول لنوع الكائن المحدد. |
+| [GetChild](../../aspose.words/compositenode/getchild/)(*[NodeType](../nodetype/), int, bool*) | إرجاع العقدة الفرعية N التي تطابق النوع المحدد. |
+| [GetChildNodes](../../aspose.words/compositenode/getchildnodes/)(*[NodeType](../nodetype/), bool*) | إرجاع مجموعة مباشرة من العقد الفرعية التي تطابق النوع المحدد. |
 | [GetEnumerator](../../aspose.words/compositenode/getenumerator/)() | يوفر الدعم لتكرار كل نمط عبر العقد الفرعية لهذه العقدة. |
-| [GetPageInfo](../../aspose.words/document/getpageinfo/)(int) | للحصول على حجم الصفحة واتجاهها ومعلومات أخرى حول الصفحة التي قد تكون مفيدة للطباعة أو العرض. |
+| [GetPageInfo](../../aspose.words/document/getpageinfo/)(*int*) | للحصول على حجم الصفحة واتجاهها ومعلومات أخرى حول الصفحة التي قد تكون مفيدة للطباعة أو العرض. |
 | override [GetText](../../aspose.words/compositenode/gettext/)() | الحصول على نص هذه العقدة وجميع أبنائها. |
-| [ImportNode](../../aspose.words/documentbase/importnode/)(Node, bool) | يستورد عقدة من مستند آخر إلى المستند الحالي. |
-| [ImportNode](../../aspose.words/documentbase/importnode/)(Node, bool, ImportFormatMode) | يستورد عقدة من مستند آخر إلى المستند الحالي مع خيار التحكم في التنسيق. |
-| [IndexOf](../../aspose.words/compositenode/indexof/)(Node) | إرجاع فهرس العقدة الفرعية المحددة في صفيف العقدة الفرعية. |
-| [InsertAfter&lt;T&gt;](../../aspose.words/compositenode/insertafter/)(T, Node) |  |
-| [InsertBefore&lt;T&gt;](../../aspose.words/compositenode/insertbefore/)(T, Node) |  |
+| [ImportNode](../../aspose.words/documentbase/importnode/)(*[Node](../node/), bool*) | يستورد عقدة من مستند آخر إلى المستند الحالي. |
+| [ImportNode](../../aspose.words/documentbase/importnode/)(*[Node](../node/), bool, [ImportFormatMode](../importformatmode/)*) | يستورد عقدة من مستند آخر إلى المستند الحالي مع خيار التحكم في التنسيق. |
+| [IndexOf](../../aspose.words/compositenode/indexof/)(*[Node](../node/)*) | إرجاع فهرس العقدة الفرعية المحددة في صفيف العقدة الفرعية. |
+| [InsertAfter](../../aspose.words/compositenode/insertafter/)(*[Node](../node/), [Node](../node/)*) | يقوم بإدراج العقدة المحددة مباشرة بعد العقدة المرجعية المحددة. |
+| [InsertBefore](../../aspose.words/compositenode/insertbefore/)(*[Node](../node/), [Node](../node/)*) | يقوم بإدراج العقدة المحددة مباشرة قبل العقدة المرجعية المحددة. |
 | [JoinRunsWithSameFormatting](../../aspose.words/document/joinrunswithsameformatting/)() | يتم تشغيل عمليات الانضمام بنفس التنسيق في جميع فقرات المستند. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | الحصول على العقدة التالية وفقًا لخوارزمية اجتياز شجرة الطلب المسبق. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../node/)*) | الحصول على العقدة التالية وفقًا لخوارزمية اجتياز شجرة الطلب المسبق. |
 | [NormalizeFieldTypes](../../aspose.words/document/normalizefieldtypes/)() | تغيير قيم نوع الحقل[`FieldType`](../../aspose.words.fields/fieldchar/fieldtype/) ل[`FieldStart`](../../aspose.words.fields/fieldstart/) ,[`FieldSeparator`](../../aspose.words.fields/fieldseparator/) ,[`FieldEnd`](../../aspose.words.fields/fieldend/) في المستند بأكمله بحيث تتوافق مع أنواع الحقول الموجودة في رموز الحقول. |
-| [PrependChild&lt;T&gt;](../../aspose.words/compositenode/prependchild/)(T) |  |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | الحصول على العقدة السابقة وفقًا لخوارزمية اجتياز شجرة الطلب المسبق. |
+| [PrependChild](../../aspose.words/compositenode/prependchild/)(*[Node](../node/)*) | إضافة العقدة المحددة إلى بداية قائمة العقد التابعة لهذه العقدة. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../node/)*) | الحصول على العقدة السابقة وفقًا لخوارزمية اجتياز شجرة الطلب المسبق. |
 | [Print](../../aspose.words/document/print/#print)() | طباعة المستند بالكامل إلى الطابعة الافتراضية. |
-| [Print](../../aspose.words/document/print/#print_1)(PrinterSettings) | يطبع المستند وفقًا لإعدادات الطابعة المحددة، باستخدام وحدة التحكم في الطباعة القياسية (بدون واجهة مستخدم). |
-| [Print](../../aspose.words/document/print/#print_3)(string) | طباعة المستند بالكامل إلى الطابعة المحددة، باستخدام وحدة التحكم في الطباعة القياسية (بدون واجهة مستخدم). |
-| [Print](../../aspose.words/document/print/#print_2)(PrinterSettings, string) | يطبع المستند وفقًا لإعدادات الطابعة المحددة، باستخدام وحدة التحكم في الطباعة القياسية (بدون واجهة مستخدم) واسم المستند. |
-| [Protect](../../aspose.words/document/protect/#protect)(ProtectionType) | يحمي المستند من التغييرات دون تغيير كلمة المرور الحالية أو تعيين كلمة مرور عشوائية. |
-| [Protect](../../aspose.words/document/protect/#protect_1)(ProtectionType, string) | يحمي المستند من التغييرات ويعين كلمة مرور الحماية بشكل اختياري. |
+| [Print](../../aspose.words/document/print/#print_1)(*PrinterSettings*) | يطبع المستند وفقًا لإعدادات الطابعة المحددة، باستخدام وحدة التحكم في الطباعة القياسية (بدون واجهة مستخدم). |
+| [Print](../../aspose.words/document/print/#print_3)(*string*) | طباعة المستند بالكامل إلى الطابعة المحددة، باستخدام وحدة التحكم في الطباعة القياسية (بدون واجهة مستخدم). |
+| [Print](../../aspose.words/document/print/#print_2)(*PrinterSettings, string*) | يطبع المستند وفقًا لإعدادات الطابعة المحددة، باستخدام وحدة التحكم في الطباعة القياسية (بدون واجهة مستخدم) واسم المستند. |
+| [Protect](../../aspose.words/document/protect/#protect)(*[ProtectionType](../protectiontype/)*) | يحمي المستند من التغييرات دون تغيير كلمة المرور الحالية أو تعيين كلمة مرور عشوائية. |
+| [Protect](../../aspose.words/document/protect/#protect_1)(*[ProtectionType](../protectiontype/), string*) | يحمي المستند من التغييرات ويعين كلمة مرور الحماية بشكل اختياري. |
 | [Remove](../../aspose.words/node/remove/)() | يزيل نفسه من الأصل. |
 | [RemoveAllChildren](../../aspose.words/compositenode/removeallchildren/)() | إزالة جميع العقد الفرعية للعقدة الحالية. |
-| [RemoveChild&lt;T&gt;](../../aspose.words/compositenode/removechild/)(T) |  |
+| [RemoveChild](../../aspose.words/compositenode/removechild/)(*[Node](../node/)*) | إزالة العقدة الفرعية المحددة. |
 | [RemoveExternalSchemaReferences](../../aspose.words/document/removeexternalschemareferences/)() | إزالة مراجع مخطط XML الخارجية من هذا المستند. |
 | [RemoveMacros](../../aspose.words/document/removemacros/)() | إزالة كافة وحدات الماكرو (مشروع VBA) بالإضافة إلى أشرطة الأدوات وتخصيصات الأوامر من المستند. |
 | [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags/)() | يزيل الكل[`SmartTag`](../../aspose.words.markup/smarttag/)العقد التابعة للعقدة الحالية. |
-| [RenderToScale](../../aspose.words/document/rendertoscale/)(int, Graphics, float, float, float) | يعرض صفحة المستند إلى ملفGraphics كائن بمقياس محدد. |
-| [RenderToSize](../../aspose.words/document/rendertosize/)(int, Graphics, float, float, float, float) | يعرض صفحة المستند إلى ملفGraphics كائن بحجم محدد. |
-| [Save](../../aspose.words/document/save/#save_2)(string) | يحفظ المستند في ملف. يحدد تنسيق الحفظ تلقائيًا من الامتداد. |
-| [Save](../../aspose.words/document/save/#save)(Stream, SaveFormat) | يحفظ المستند في دفق باستخدام التنسيق المحدد. |
-| [Save](../../aspose.words/document/save/#save_1)(Stream, SaveOptions) | يحفظ المستند في دفق باستخدام خيارات الحفظ المحددة. |
-| [Save](../../aspose.words/document/save/#save_3)(string, SaveFormat) | يحفظ المستند في ملف بالتنسيق المحدد. |
-| [Save](../../aspose.words/document/save/#save_4)(string, SaveOptions) | يحفظ المستند في ملف باستخدام خيارات الحفظ المحددة. |
-| [Save](../../aspose.words/document/save/#save_5)(HttpResponse, string, ContentDisposition, SaveOptions) | يرسل المستند إلى متصفح العميل. |
-| [SelectNodes](../../aspose.words/compositenode/selectnodes/)(string) | تحديد قائمة العقد المطابقة لتعبير XPath. |
-| [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(string) | تحديد الأول[`Node`](../node/) الذي يطابق تعبير XPath. |
-| [StartTrackRevisions](../../aspose.words/document/starttrackrevisions/#starttrackrevisions)(string) | يبدأ تلقائيًا بوضع علامة على كافة التغييرات الإضافية التي تجريها على المستند برمجيًا باعتبارها تغييرات مراجعة. |
-| [StartTrackRevisions](../../aspose.words/document/starttrackrevisions/#starttrackrevisions_1)(string, DateTime) | يبدأ تلقائيًا بوضع علامة على كافة التغييرات الإضافية التي تجريها على المستند برمجيًا باعتبارها تغييرات مراجعة. |
+| [RenderToScale](../../aspose.words/document/rendertoscale/)(*int, Graphics, float, float, float*) | يعرض صفحة المستند إلى ملفGraphics كائن بمقياس محدد. |
+| [RenderToSize](../../aspose.words/document/rendertosize/)(*int, Graphics, float, float, float, float*) | يعرض صفحة المستند إلى ملفGraphics كائن بحجم محدد. |
+| [Save](../../aspose.words/document/save/#save_2)(*string*) | يحفظ المستند في ملف. يحدد تنسيق الحفظ تلقائيًا من الامتداد. |
+| [Save](../../aspose.words/document/save/#save)(*Stream, [SaveFormat](../saveformat/)*) | يحفظ المستند في دفق باستخدام التنسيق المحدد. |
+| [Save](../../aspose.words/document/save/#save_1)(*Stream, [SaveOptions](../../aspose.words.saving/saveoptions/)*) | يحفظ المستند في دفق باستخدام خيارات الحفظ المحددة. |
+| [Save](../../aspose.words/document/save/#save_3)(*string, [SaveFormat](../saveformat/)*) | يحفظ المستند في ملف بالتنسيق المحدد. |
+| [Save](../../aspose.words/document/save/#save_4)(*string, [SaveOptions](../../aspose.words.saving/saveoptions/)*) | يحفظ المستند في ملف باستخدام خيارات الحفظ المحددة. |
+| [Save](../../aspose.words/document/save/#save_5)(*HttpResponse, string, [ContentDisposition](../contentdisposition/), [SaveOptions](../../aspose.words.saving/saveoptions/)*) | يرسل المستند إلى متصفح العميل. |
+| [SelectNodes](../../aspose.words/compositenode/selectnodes/)(*string*) | تحديد قائمة العقد المطابقة لتعبير XPath. |
+| [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(*string*) | تحديد الأول[`Node`](../node/) الذي يطابق تعبير XPath. |
+| [StartTrackRevisions](../../aspose.words/document/starttrackrevisions/#starttrackrevisions)(*string*) | يبدأ تلقائيًا بوضع علامة على كافة التغييرات الإضافية التي تجريها على المستند برمجيًا باعتبارها تغييرات مراجعة. |
+| [StartTrackRevisions](../../aspose.words/document/starttrackrevisions/#starttrackrevisions_1)(*string, DateTime*) | يبدأ تلقائيًا بوضع علامة على كافة التغييرات الإضافية التي تجريها على المستند برمجيًا باعتبارها تغييرات مراجعة. |
 | [StopTrackRevisions](../../aspose.words/document/stoptrackrevisions/)() | إيقاف وضع العلامات التلقائية على تغييرات المستند كمراجعات. |
-| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | تصدير محتوى العقدة إلى سلسلة بالتنسيق المحدد. |
-| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | تصدير محتوى العقدة إلى سلسلة باستخدام خيارات الحفظ المحددة. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../saveformat/)*) | تصدير محتوى العقدة إلى سلسلة بالتنسيق المحدد. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | تصدير محتوى العقدة إلى سلسلة باستخدام خيارات الحفظ المحددة. |
 | [UnlinkFields](../../aspose.words/document/unlinkfields/)() | إلغاء ربط الحقول في المستند بأكمله. |
 | [Unprotect](../../aspose.words/document/unprotect/#unprotect_1)() | إزالة الحماية عن المستند بغض النظر عن كلمة المرور. |
-| [Unprotect](../../aspose.words/document/unprotect/#unprotect)(string) | إزالة الحماية عن المستند إذا تم تحديد كلمة مرور صحيحة. |
+| [Unprotect](../../aspose.words/document/unprotect/#unprotect)(*string*) | إزالة الحماية عن المستند إذا تم تحديد كلمة مرور صحيحة. |
 | [UpdateFields](../../aspose.words/document/updatefields/)() | يقوم بتحديث قيم الحقول في المستند بأكمله. |
 | [UpdateListLabels](../../aspose.words/document/updatelistlabels/)() | تحديث تسميات القائمة لجميع عناصر القائمة في المستند. |
 | [UpdatePageLayout](../../aspose.words/document/updatepagelayout/)() | يعيد بناء تخطيط الصفحة للمستند. |
 | [UpdateThumbnail](../../aspose.words/document/updatethumbnail/#updatethumbnail)() | التحديثات[`Thumbnail`](../../aspose.words.properties/builtindocumentproperties/thumbnail/) للمستند باستخدام الخيارات الافتراضية. |
-| [UpdateThumbnail](../../aspose.words/document/updatethumbnail/#updatethumbnail_1)(ThumbnailGeneratingOptions) | التحديثات[`Thumbnail`](../../aspose.words.properties/builtindocumentproperties/thumbnail/) للمستند حسب الخيارات المحددة. |
+| [UpdateThumbnail](../../aspose.words/document/updatethumbnail/#updatethumbnail_1)(*[ThumbnailGeneratingOptions](../../aspose.words.rendering/thumbnailgeneratingoptions/)*) | التحديثات[`Thumbnail`](../../aspose.words.properties/builtindocumentproperties/thumbnail/) للمستند حسب الخيارات المحددة. |
 | [UpdateWordCount](../../aspose.words/document/updatewordcount/#updatewordcount)() | لتحديث خصائص عدد الكلمات في المستند. |
-| [UpdateWordCount](../../aspose.words/document/updatewordcount/#updatewordcount_1)(bool) | يقوم بتحديث خصائص عدد الكلمات في المستند، ويتم تحديثه بشكل اختياري[`Lines`](../../aspose.words.properties/builtindocumentproperties/lines/) الملكية. |
+| [UpdateWordCount](../../aspose.words/document/updatewordcount/#updatewordcount_1)(*bool*) | يقوم بتحديث خصائص عدد الكلمات في المستند، ويتم تحديثه بشكل اختياري[`Lines`](../../aspose.words.properties/builtindocumentproperties/lines/) الملكية. |
 
-### ملاحظات
+## ملاحظات
 
 ال`Document` هو كائن مركزي في مكتبة Aspose.Words.
 
@@ -185,11 +185,11 @@ public class Document : DocumentBase
 
 استخدم إحدى عمليات التحميل الزائد لطريقة الحفظ لحفظ المستند في أي من [`SaveFormat`](../saveformat/) التنسيقات.
 
-لرسم صفحات المستند مباشرةً على ملف **الرسومات** استخدام الكائن [`RenderToScale`](./rendertoscale/) أو[`RenderToSize`](./rendertosize/) طريقة.
+لرسم صفحات المستند مباشرةً على ملف**الرسومات** استخدام الكائن [`RenderToScale`](./rendertoscale/) أو[`RenderToSize`](./rendertosize/) طريقة.
 
 لطباعة المستند، استخدم أحد[`Print`](./print/) طُرق.
 
-[`MailMerge`](./mailmerge/) هو محرك تقارير Aspose.Words الذي يسمح بملء التقارير المصممة في Microsoft Word ببيانات من مصادر بيانات مختلفة بسرعة وسهولة. يمكن أن تكون البيانات من DataSet أو DataTable أو DataView أو IDataReader أو مجموعة من القيم.  **دمج المراسلات** سوف يقوم باستعراض السجلات الموجودة في مصدر البيانات وإدراجها في حقول دمج المراسلات في المستند والتي ستزيدها حسب الضرورة.
+[`MailMerge`](./mailmerge/) هو محرك تقارير Aspose.Words الذي يسمح بملء التقارير المصممة في Microsoft Word ببيانات من مصادر بيانات مختلفة بسرعة وسهولة. يمكن أن تكون البيانات من DataSet أو DataTable أو DataView أو IDataReader أو مجموعة من القيم. **دمج المراسلات** سوف يقوم باستعراض السجلات الموجودة في مصدر البيانات وإدراجها في حقول دمج المراسلات في المستند والتي ستزيدها حسب الضرورة.
 
 `Document` يقوم بتخزين معلومات على مستوى المستند مثل[`Styles`](../documentbase/styles/)[`BuiltInDocumentProperties`](./builtindocumentproperties/) ,[`CustomDocumentProperties`](./customdocumentproperties/)والقوائم ووحدات الماكرو. يمكن الوصول إلى معظم هذه الكائنات عبر الخصائص المقابلة لـ`Document`.
 
@@ -197,7 +197,7 @@ public class Document : DocumentBase
 
 * يمكن الوصول إلى عقد الوثيقة عبر المجموعات المكتوبة، على سبيل المثال[`Sections`](./sections/)[`ParagraphCollection`](../paragraphcollection/) إلخ.
 * يمكن تحديد عقد الوثيقة حسب نوع العقدة الخاصة بها باستخدام [`GetChildNodes`](../compositenode/getchildnodes/) أو باستخدام استعلام XPath مع[`SelectNodes`](../compositenode/selectnodes/) أو[`SelectSingleNode`](../compositenode/selectsinglenode/).
-* يمكن إضافة عقد المحتوى أو إزالتها من أي مكان في المستند باستخدام Node) ,Node)Node) وطرقother التي توفرها الفئة الأساسية[`CompositeNode`](../compositenode/).
+* يمكن إضافة عقد المحتوى أو إزالتها من أي مكان في المستند باستخدام [`InsertBefore`](../compositenode/insertbefore/) ,[`InsertAfter`](../compositenode/insertafter/)[`RemoveChild`](../compositenode/removechild/) وطرقother التي توفرها الفئة الأساسية[`CompositeNode`](../compositenode/).
 * يمكن تغيير سمات التنسيق لكل عقدة عبر خصائص تلك العقدة.
 
 فكر في استخدام[`DocumentBuilder`](../documentbuilder/)يؤدي ذلك إلى تبسيط مهمة إنشاء برمجيًا أو ملء شجرة المستندات.
@@ -206,7 +206,7 @@ public class Document : DocumentBase
 
 في Microsoft Word، يجب أن يحتوي المستند الصالح على قسم واحد على الأقل.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تنفيذ دمج البريد مع البيانات من DataTable.
 
@@ -256,5 +256,3 @@ private static Document CreateSourceDocExecuteDataTable()
 * class [DocumentBase](../documentbase/)
 * مساحة الاسم [Aspose.Words](../../aspose.words/)
 * المجسم [Aspose.Words](../../)
-
-

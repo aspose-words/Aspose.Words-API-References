@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.HasMinorGridlines
-second_title: Aspose.Words per .NET API Reference
-description: ChartAxis proprietà. Ottiene o imposta un flag che indica se lasse presenta griglie minori.
+linktitle: HasMinorGridlines
+articleTitle: HasMinorGridlines
+second_title: Aspose.Words per .NET
+description: ChartAxis HasMinorGridlines proprietà. Ottiene o imposta un flag che indica se lasse presenta griglie minori in C#.
 type: docs
 weight: 90
 url: /it/net/aspose.words.drawing.charts/chartaxis/hasminorgridlines/
@@ -14,7 +16,7 @@ Ottiene o imposta un flag che indica se l'asse presenta griglie minori.
 public bool HasMinorGridlines { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come inserire un grafico con valori di data/ora.
 
@@ -68,7 +70,5 @@ doc.Save(ArtifactsDir + "Charts.DateTimeValues.docx");
 ### Guarda anche
 
 * class [ChartAxis](../)
-* spazio dei nomi [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* spazio dei nomi [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * assemblea [Aspose.Words](../../../)
-
-

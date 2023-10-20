@@ -1,7 +1,9 @@
 ---
 title: BarcodeParameters.FacingIdentificationMark
-second_title: Справочник по API Aspose.Words для .NET
-description: BarcodeParameters свойство. Тип идентификационного знака облицовки FIM.
+linktitle: FacingIdentificationMark
+articleTitle: FacingIdentificationMark
+second_title: Aspose.Words для .NET
+description: BarcodeParameters FacingIdentificationMark свойство. Тип идентификационного знака облицовки FIM на С#.
 type: docs
 weight: 90
 url: /ru/net/aspose.words.fields/barcodeparameters/facingidentificationmark/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/barcodeparameters/facingidentificationmark/
 public string FacingIdentificationMark { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как использовать генератор штрих-кода.
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.docx");
 ### Смотрите также
 
 * class [BarcodeParameters](../)
-* пространство имен [Aspose.Words.Fields](../../barcodeparameters/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

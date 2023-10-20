@@ -1,9 +1,11 @@
 ---
 title: Document.UpdatePageLayout
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Document méthode. Reconstruit la mise en page du document.
+linktitle: UpdatePageLayout
+articleTitle: UpdatePageLayout
+second_title: Aspose.Words pour .NET
+description: Document UpdatePageLayout méthode. Reconstruit la mise en page du document en C#.
 type: docs
-weight: 790
+weight: 770
 url: /fr/net/aspose.words/document/updatepagelayout/
 ---
 ## Document.UpdatePageLayout method
@@ -14,13 +16,13 @@ Reconstruit la mise en page du document.
 public void UpdatePageLayout()
 ```
 
-### Remarques
+## Remarques
 
 Cette méthode formate un document en pages et met à jour les champs liés au numéro de page dans le document tels que comme PAGE, PAGES, PAGEREF et REF. Les informations de mise en page à jour sont requises pour un rendu correct du document aux formats de page fixes.
 
 Cette méthode est automatiquement invoquée lorsque vous convertissez pour la première fois un document en PDF, XPS, image ou que vous l'imprimez. Cependant, si vous modifiez le document après le rendu, puis tentez de le restituer à nouveau, Aspose.Words ne mettra pas automatiquement à jour la mise en page . Dans ce cas, vous devriez appeler`UpdatePageLayout` before rendu à nouveau.
 
-### Exemples
+## Exemples
 
 Indique quand recalculer la mise en page du document.
 
@@ -47,7 +49,5 @@ doc.Save(ArtifactsDir + "Document.UpdatePageLayout.2.pdf");
 ### Voir également
 
 * class [Document](../)
-* espace de noms [Aspose.Words](../../document/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

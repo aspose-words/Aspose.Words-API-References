@@ -1,9 +1,11 @@
 ---
 title: ImageData.ToImage
-second_title: Aspose.Words for .NET API 参考
-description: ImageData 方法. 获取存储在形状中的图像Image对象.
+linktitle: ToImage
+articleTitle: ToImage
+second_title: 用于 .NET 的 Aspose.Words
+description: ImageData ToImage 方法. 获取存储在形状中的图像Image对象 在 C#.
 type: docs
-weight: 230
+weight: 220
 url: /zh/net/aspose.words.drawing/imagedata/toimage/
 ---
 ## ImageData.ToImage method
@@ -14,13 +16,13 @@ url: /zh/net/aspose.words.drawing/imagedata/toimage/
 public Image ToImage()
 ```
 
-### 评论
+## 评论
 
 一个新的Image每次调用此方法时都会创建对象。
 
 调用者有责任处理图像对象。
 
-### 例子
+## 例子
 
 演示如何将文档中的所有图像保存到文件系统。
 
@@ -53,7 +55,5 @@ using (IEnumerator<Shape> enumerator = shapesWithImages.GetEnumerator())
 ### 也可以看看
 
 * class [ImageData](../)
-* 命名空间 [Aspose.Words.Drawing](../../imagedata/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

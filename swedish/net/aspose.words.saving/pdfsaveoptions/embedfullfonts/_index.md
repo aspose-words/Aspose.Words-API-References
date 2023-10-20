@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.EmbedFullFonts
-second_title: Aspose.Words för .NET API Referens
-description: PdfSaveOptions fast egendom. Styr hur teckensnitt bäddas in i de resulterande PDFdokumenten.
+linktitle: EmbedFullFonts
+articleTitle: EmbedFullFonts
+second_title: Aspose.Words för .NET
+description: PdfSaveOptions EmbedFullFonts fast egendom. Styr hur teckensnitt bäddas in i de resulterande PDFdokumenten i C#.
 type: docs
 weight: 120
 url: /sv/net/aspose.words.saving/pdfsaveoptions/embedfullfonts/
@@ -14,7 +16,7 @@ Styr hur teckensnitt bäddas in i de resulterande PDF-dokumenten.
 public bool EmbedFullFonts { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Standardvärdet är`falsk`, vilket innebär att teckensnitten är underinställda innan de bäddas in. Underinställning är användbar om du vill hålla utdatafilens storlek mindre. Underinställning tar bort all oanvända glyfer från ett teckensnitt.
 
@@ -22,7 +24,7 @@ När detta värde är satt till`Sann`, är en komplett teckensnittsfil inbäddad
 
 Vissa teckensnitt är stora (flera megabyte) och inbäddning av dem utan subsetting kommer att resultera i stora utdatadokument.
 
-### Exempel
+## Exempel
 
 Visar hur du aktiverar eller inaktiverar underinställningar när du bäddar in teckensnitt samtidigt som ett dokument renderas till PDF.
 
@@ -70,7 +72,5 @@ FontSettings.DefaultInstance.SetFontsSources(originalFontsSources);
 ### Se även
 
 * class [PdfSaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../pdfsaveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

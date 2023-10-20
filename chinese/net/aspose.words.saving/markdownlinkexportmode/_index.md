@@ -1,7 +1,9 @@
 ---
-title: Enum MarkdownLinkExportMode
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Saving.MarkdownLinkExportMode 枚举. 导出目标文档链接的模式
+title: MarkdownLinkExportMode Enum
+linktitle: MarkdownLinkExportMode
+articleTitle: MarkdownLinkExportMode
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Saving.MarkdownLinkExportMode 枚举. 导出目标文档链接的模式 在 C#.
 type: docs
 weight: 5260
 url: /zh/net/aspose.words.saving/markdownlinkexportmode/
@@ -26,5 +28,3 @@ public enum MarkdownLinkExportMode
 
 * 命名空间 [Aspose.Words.Saving](../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../)
-
-

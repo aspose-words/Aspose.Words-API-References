@@ -1,7 +1,9 @@
 ---
 title: PageSavingArgs.PageFileName
-second_title: Référence de l'API Aspose.Words pour .NET
-description: PageSavingArgs propriété. Obtient ou définit le nom du fichier dans lequel la page du document sera enregistrée.
+linktitle: PageFileName
+articleTitle: PageFileName
+second_title: Aspose.Words pour .NET
+description: PageSavingArgs PageFileName propriété. Obtient ou définit le nom du fichier dans lequel la page du document sera enregistrée en C#.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.saving/pagesavingargs/pagefilename/
@@ -14,11 +16,11 @@ Obtient ou définit le nom du fichier dans lequel la page du document sera enreg
 public string PageFileName { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 S'il n'est pas spécifié, le nom et le chemin du fichier d'échange seront générés automatiquement en utilisant le nom du fichier d'origine.
 
-### Exemples
+## Exemples
 
 Montre comment utiliser un rappel pour enregistrer un document au format HTML page par page.
 
@@ -75,7 +77,5 @@ private class CustomFileNamePageSavingCallback : IPageSavingCallback
 ### Voir également
 
 * class [PageSavingArgs](../)
-* espace de noms [Aspose.Words.Saving](../../pagesavingargs/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

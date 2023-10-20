@@ -1,26 +1,28 @@
 ---
 title: StructuredDocumentTag.DateDisplayLocale
-second_title: Référence de l'API Aspose.Words pour .NET
-description: StructuredDocumentTag propriété. Permet de définir/obtenir le format de langue pour la date affichée dans ce TSD .
+linktitle: DateDisplayLocale
+articleTitle: DateDisplayLocale
+second_title: Aspose.Words pour .NET
+description: StructuredDocumentTag DateDisplayLocale propriété. Permet de définir/obtenir le format de langue pour la date affichée dans ceTSD  en C#.
 type: docs
 weight: 100
 url: /fr/net/aspose.words.markup/structureddocumenttag/datedisplaylocale/
 ---
 ## StructuredDocumentTag.DateDisplayLocale property
 
-Permet de définir/obtenir le format de langue pour la date affichée dans ce **TSD** .
+Permet de définir/obtenir le format de langue pour la date affichée dans ce**TSD** .
 
 ```csharp
 public int DateDisplayLocale { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 L'accès à cette propriété ne fonctionnera que pourDate Type SDT.
 
 Pour tous les autres types de SDT, une exception se produira.
 
-### Exemples
+## Exemples
 
 Montre comment inviter l'utilisateur à saisir une date avec une balise de document structuré.
 
@@ -57,7 +59,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.Date.docx");
 ### Voir également
 
 * class [StructuredDocumentTag](../)
-* espace de noms [Aspose.Words.Markup](../../structureddocumenttag/)
+* espace de noms [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Assemblée [Aspose.Words](../../../)
-
-

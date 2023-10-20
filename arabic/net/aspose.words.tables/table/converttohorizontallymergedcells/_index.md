@@ -1,9 +1,11 @@
 ---
 title: Table.ConvertToHorizontallyMergedCells
-second_title: Aspose.Words لمراجع .NET API
-description: Table طريقة. تحويل الخلايا المدمجة أفقيا حسب العرض إلى الخلايا المدمجة بهاHorizontalMerge .
+linktitle: ConvertToHorizontallyMergedCells
+articleTitle: ConvertToHorizontallyMergedCells
+second_title: Aspose.Words لـ .NET
+description: Table ConvertToHorizontallyMergedCells طريقة. تحويل الخلايا المدمجة أفقيا حسب العرض إلى الخلايا المدمجة بهاHorizontalMerge  في C#.
 type: docs
-weight: 410
+weight: 390
 url: /ar/net/aspose.words.tables/table/converttohorizontallymergedcells/
 ---
 ## Table.ConvertToHorizontallyMergedCells method
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.tables/table/converttohorizontallymergedcells/
 public void ConvertToHorizontallyMergedCells()
 ```
 
-### ملاحظات
+## ملاحظات
 
 يمكن دمج خلايا الجدول أفقيًا إما باستخدام علامات الدمج[`HorizontalMerge`](../../cellformat/horizontalmerge/) أو باستخدام عرض الخلية[`Width`](../../cellformat/width/).
 
@@ -22,7 +24,7 @@ public void ConvertToHorizontallyMergedCells()
 
 استخدم هذه الطريقة لتحويل خلايا الجدول المدمجة أفقيًا حسب العرض إلى خلايا مدمجة بواسطة إشارات الدمج.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحويل الخلايا المدمجة أفقياً حسب العرض إلى خلايا مدمجة بواسطة CellFormat.HorizontalMerge.
 
@@ -58,7 +60,5 @@ Assert.AreEqual(CellMerge.None, row.Cells[6].CellFormat.HorizontalMerge);
 ### أنظر أيضا
 
 * class [Table](../)
-* مساحة الاسم [Aspose.Words.Tables](../../table/)
+* مساحة الاسم [Aspose.Words.Tables](../../../aspose.words.tables/)
 * المجسم [Aspose.Words](../../../)
-
-

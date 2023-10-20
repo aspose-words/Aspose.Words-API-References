@@ -1,7 +1,9 @@
 ---
 title: DownsampleOptions.Resolution
-second_title: Справочник по API Aspose.Words для .NET
-description: DownsampleOptions свойство. Указывает разрешение в пикселях на дюйм до которого изображения должны быть уменьшены.
+linktitle: Resolution
+articleTitle: Resolution
+second_title: Aspose.Words для .NET
+description: DownsampleOptions Resolution свойство. Указывает разрешение в пикселях на дюйм до которого изображения должны быть уменьшены на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.saving/downsampleoptions/resolution/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.saving/downsampleoptions/resolution/
 public int Resolution { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Значение по умолчанию — 220 пикселей на дюйм.
 
-### Примеры
+## Примеры
 
 Показывает, как изменить разрешение изображений в документе PDF.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.DownsampleOptions.LowerResolution.pdf", 
 ### Смотрите также
 
 * class [DownsampleOptions](../)
-* пространство имен [Aspose.Words.Saving](../../downsampleoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

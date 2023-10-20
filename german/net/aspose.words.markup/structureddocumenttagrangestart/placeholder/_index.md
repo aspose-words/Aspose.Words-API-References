@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTagRangeStart.Placeholder
-second_title: Aspose.Words für .NET-API-Referenz
-description: StructuredDocumentTagRangeStart eigendom. Ruft die abBuildingBlockEnthält Platzhaltertext der angezeigt werden soll wenn der Inhalt dieses strukturierten DokumentTags leer ist und das zugehörige zugeordnete XMLElement leer ist wie über angegeben XmlMapping Element oder dasIsShowingPlaceholderText Element istWAHR .
+linktitle: Placeholder
+articleTitle: Placeholder
+second_title: Aspose.Words für .NET
+description: StructuredDocumentTagRangeStart Placeholder eigendom. Ruft die abBuildingBlockEnthält Platzhaltertext der angezeigt werden soll wenn der Inhalt dieses strukturierten DokumentTags leer ist und das zugehörige zugeordnete XMLElement leer ist wie über angegeben XmlMapping Element oder dasIsShowingPlaceholderText Element istWAHR  in C#.
 type: docs
 weight: 110
 url: /de/net/aspose.words.markup/structureddocumenttagrangestart/placeholder/
@@ -14,7 +16,7 @@ Ruft die ab[`BuildingBlock`](../../../aspose.words.buildingblocks/buildingblock/
 public BuildingBlock Placeholder { get; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Kann sein`Null`, was bedeutet, dass der Platzhalter für dieses strukturierte Dokument-Tag nicht anwendbar ist.
 
@@ -22,7 +24,5 @@ Kann sein`Null`, was bedeutet, dass der Platzhalter für dieses strukturierte Do
 
 * class [BuildingBlock](../../../aspose.words.buildingblocks/buildingblock/)
 * class [StructuredDocumentTagRangeStart](../)
-* namensraum [Aspose.Words.Markup](../../structureddocumenttagrangestart/)
+* namensraum [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,9 +1,11 @@
 ---
 title: CellFormat.Shading
-second_title: Справочник по API Aspose.Words для .NET
-description: CellFormat свойство. ВозвращаетShading объект который относится к форматированию затенения ячейки.
+linktitle: Shading
+articleTitle: Shading
+second_title: Aspose.Words для .NET
+description: CellFormat Shading свойство. ВозвращаетShading объект который относится к форматированию затенения ячейки на С#.
 type: docs
-weight: 100
+weight: 90
 url: /ru/net/aspose.words.tables/cellformat/shading/
 ---
 ## CellFormat.Shading property
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.tables/cellformat/shading/
 public Shading Shading { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как изменить формат строк и ячеек в таблице.
 
@@ -113,7 +115,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
 
 * class [Shading](../../../aspose.words/shading/)
 * class [CellFormat](../)
-* пространство имен [Aspose.Words.Tables](../../cellformat/)
+* пространство имен [Aspose.Words.Tables](../../../aspose.words.tables/)
 * сборка [Aspose.Words](../../../)
-
-

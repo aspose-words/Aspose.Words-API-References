@@ -1,7 +1,9 @@
 ---
 title: Bookmark.FirstColumn
-second_title: Справочник по API Aspose.Words для .NET
-description: Bookmark свойство. Получает отсчитываемый от нуля индекс первого столбца диапазона столбцов таблицы связанного с закладкой.
+linktitle: FirstColumn
+articleTitle: FirstColumn
+second_title: Aspose.Words для .NET
+description: Bookmark FirstColumn свойство. Получает отсчитываемый от нуля индекс первого столбца диапазона столбцов таблицы связанного с закладкой на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words/bookmark/firstcolumn/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words/bookmark/firstcolumn/
 public int FirstColumn { get; }
 ```
 
-### Примечания
+## Примечания
 
-Возвращает **-1** если эта закладка не является закладкой столбца таблицы.
+Возвращает**-1** если эта закладка не является закладкой столбца таблицы.
 
-### Примеры
+## Примеры
 
 Показывает, как получить информацию о закладках столбцов таблицы.
 
@@ -45,7 +47,5 @@ foreach (Bookmark bookmark in doc.Range.Bookmarks)
 ### Смотрите также
 
 * class [Bookmark](../)
-* пространство имен [Aspose.Words](../../bookmark/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

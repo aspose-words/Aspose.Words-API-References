@@ -1,7 +1,9 @@
 ---
 title: NodeCollection.Insert
-second_title: Aspose.Words لمراجع .NET API
-description: NodeCollection طريقة. إدراج عقدة في المجموعة في الفهرس المحدد.
+linktitle: Insert
+articleTitle: Insert
+second_title: Aspose.Words لـ .NET
+description: NodeCollection Insert طريقة. إدراج عقدة في المجموعة في الفهرس المحدد في C#.
 type: docs
 weight: 80
 url: /ar/net/aspose.words/nodecollection/insert/
@@ -25,7 +27,7 @@ public void Insert(int index, Node node)
 | --- | --- |
 | NotSupportedException | ال[`NodeCollection`](../) هي مجموعة "عميقة". |
 
-### ملاحظات
+## ملاحظات
 
 يتم إدراج العقدة كطفل في كائن العقدة الذي تم إنشاء المجموعة منه.
 
@@ -35,7 +37,7 @@ public void Insert(int index, Node node)
 
 إذا تم إنشاء العقدة التي يتم إدراجها من مستند آخر، فيجب عليك استخدام [`ImportNode`](../../documentbase/importnode/) لاستيراد العقدة إلى المستند الحالي. يمكن بعد ذلك إدراج العقدة المستوردة في المستند الحالي.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع NodeCollection.
 
@@ -73,7 +75,5 @@ Assert.False(runs.Contains(run));
 
 * class [Node](../../node/)
 * class [NodeCollection](../)
-* مساحة الاسم [Aspose.Words](../../nodecollection/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

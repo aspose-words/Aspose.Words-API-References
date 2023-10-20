@@ -1,7 +1,9 @@
 ---
 title: KnownTypeSet.Remove
-second_title: Aspose.Words لمراجع .NET API
-description: KnownTypeSet طريقة. إزالة المحددTypeكائن من المجموعة. رمياتArgumentException إذا type يكونباطل .
+linktitle: Remove
+articleTitle: Remove
+second_title: Aspose.Words لـ .NET
+description: KnownTypeSet Remove طريقة. إزالة المحددTypeكائن من المجموعة. رمياتArgumentException إذا type يكونباطل  في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.reporting/knowntypeset/remove/
@@ -21,7 +23,5 @@ public void Remove(Type type)
 ### أنظر أيضا
 
 * class [KnownTypeSet](../)
-* مساحة الاسم [Aspose.Words.Reporting](../../knowntypeset/)
+* مساحة الاسم [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * المجسم [Aspose.Words](../../../)
-
-

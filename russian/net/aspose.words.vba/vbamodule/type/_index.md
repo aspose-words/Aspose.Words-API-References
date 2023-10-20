@@ -1,7 +1,9 @@
 ---
 title: VbaModule.Type
-second_title: Справочник по API Aspose.Words для .NET
-description: VbaModule свойство. Указывает является ли модуль процедурным модулем модулем документа модулем класса или модулем дизайнера.
+linktitle: Type
+articleTitle: Type
+second_title: Aspose.Words для .NET
+description: VbaModule Type свойство. Указывает является ли модуль процедурным модулем модулем документа модулем класса или модулем дизайнера на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.vba/vbamodule/type/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.vba/vbamodule/type/
 public VbaModuleType Type { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как создать проект VBA с помощью макросов.
 
@@ -42,7 +44,5 @@ doc.Save(ArtifactsDir + "VbaProject.CreateVBAMacros.docm");
 
 * enum [VbaModuleType](../../vbamoduletype/)
 * class [VbaModule](../)
-* пространство имен [Aspose.Words.Vba](../../vbamodule/)
+* пространство имен [Aspose.Words.Vba](../../../aspose.words.vba/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.CssStyleSheetType
-second_title: Aspose.Words for .NET API 参考
-description: HtmlSaveOptions 财产. 指定如何将 CSS层叠样式表样式导出为 HTMLMHTML 或 EPUB 默认值为Inline对于 HTML/MHTML 和 External对于 EPUB.
+linktitle: CssStyleSheetType
+articleTitle: CssStyleSheetType
+second_title: 用于 .NET 的 Aspose.Words
+description: HtmlSaveOptions CssStyleSheetType 财产. 指定如何将 CSS层叠样式表样式导出为 HTMLMHTML 或 EPUB 默认值为Inline对于 HTML/MHTML 和 External对于 EPUB 在 C#.
 type: docs
 weight: 60
 url: /zh/net/aspose.words.saving/htmlsaveoptions/cssstylesheettype/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.saving/htmlsaveoptions/cssstylesheettype/
 public CssStyleSheetType CssStyleSheetType { get; set; }
 ```
 
-### 评论
+## 评论
 
 仅当保存为 HTML 时才支持将 CSS 样式表保存到外部文件中。 当您导出为一种容器格式（EPUB 或 MHTML）并指定 时External，CSS文件将被封装 到输出包中。
 
-### 例子
+## 例子
 
 演示如何使用 HTML 转换创建的 CSS 样式表。
 
@@ -81,7 +83,5 @@ private class CustomCssSavingCallback : ICssSavingCallback
 * property [CssStyleSheetFileName](../cssstylesheetfilename/)
 * enum [CssStyleSheetType](../../cssstylesheettype/)
 * class [HtmlSaveOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../htmlsaveoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

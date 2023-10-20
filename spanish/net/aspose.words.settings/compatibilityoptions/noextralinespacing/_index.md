@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.NoExtraLineSpacing
-second_title: Referencia de API de Aspose.Words para .NET
-description: CompatibilityOptions propiedad. No centre el contenido en líneas con altura de línea exacta.
+linktitle: NoExtraLineSpacing
+articleTitle: NoExtraLineSpacing
+second_title: Aspose.Words para .NET
+description: CompatibilityOptions NoExtraLineSpacing propiedad. No centre el contenido en líneas con altura de línea exacta en C#.
 type: docs
 weight: 340
 url: /es/net/aspose.words.settings/compatibilityoptions/noextralinespacing/
@@ -17,7 +19,5 @@ public bool NoExtraLineSpacing { get; set; }
 ### Ver también
 
 * class [CompatibilityOptions](../)
-* espacio de nombres [Aspose.Words.Settings](../../compatibilityoptions/)
+* espacio de nombres [Aspose.Words.Settings](../../../aspose.words.settings/)
 * asamblea [Aspose.Words](../../../)
-
-

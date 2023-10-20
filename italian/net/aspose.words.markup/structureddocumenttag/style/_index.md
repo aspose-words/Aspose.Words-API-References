@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTag.Style
-second_title: Aspose.Words per .NET API Reference
-description: StructuredDocumentTag proprietà. Ottiene o imposta lo stile del tag del documento strutturato.
+linktitle: Style
+articleTitle: Style
+second_title: Aspose.Words per .NET
+description: StructuredDocumentTag Style proprietà. Ottiene o imposta lo stile del tag del documento strutturato in C#.
 type: docs
 weight: 260
 url: /it/net/aspose.words.markup/structureddocumenttag/style/
@@ -14,11 +16,11 @@ Ottiene o imposta lo stile del tag del documento strutturato.
 public Style Style { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 SoloCharacter stile oParagraph è possibile impostare uno stile con uno stile di carattere collegato.
 
-### Esempi
+## Esempi
 
 Mostra come utilizzare gli stili per gli elementi di controllo del contenuto.
 
@@ -58,7 +60,5 @@ foreach (Node node in tags)
 
 * class [Style](../../../aspose.words/style/)
 * class [StructuredDocumentTag](../)
-* spazio dei nomi [Aspose.Words.Markup](../../structureddocumenttag/)
+* spazio dei nomi [Aspose.Words.Markup](../../../aspose.words.markup/)
 * assemblea [Aspose.Words](../../../)
-
-

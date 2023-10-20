@@ -1,7 +1,9 @@
 ---
 title: OdsoFieldMapDataCollection.Clear
-second_title: Referencia de API de Aspose.Words para .NET
-description: OdsoFieldMapDataCollection método. Elimina todos los elementos de esta colección.
+linktitle: Clear
+articleTitle: Clear
+second_title: Aspose.Words para .NET
+description: OdsoFieldMapDataCollection Clear método. Elimina todos los elementos de esta colección en C#.
 type: docs
 weight: 50
 url: /es/net/aspose.words.settings/odsofieldmapdatacollection/clear/
@@ -14,7 +16,7 @@ Elimina todos los elementos de esta colección.
 public void Clear()
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo acceder a la colección de datos que asigna columnas de origen de datos para fusionar campos.
 
@@ -57,7 +59,5 @@ Assert.AreEqual(0, dataCollection.Count);
 ### Ver también
 
 * class [OdsoFieldMapDataCollection](../)
-* espacio de nombres [Aspose.Words.Settings](../../odsofieldmapdatacollection/)
+* espacio de nombres [Aspose.Words.Settings](../../../aspose.words.settings/)
 * asamblea [Aspose.Words](../../../)
-
-

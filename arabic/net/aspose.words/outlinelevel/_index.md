@@ -1,7 +1,9 @@
 ---
-title: Enum OutlineLevel
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.OutlineLevel تعداد. يحدد مستوى المخطط التفصيلي للفقرة في المستند.
+title: OutlineLevel Enum
+linktitle: OutlineLevel
+articleTitle: OutlineLevel
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.OutlineLevel تعداد. يحدد مستوى المخطط التفصيلي للفقرة في المستند في C#.
 type: docs
 weight: 4330
 url: /ar/net/aspose.words/outlinelevel/
@@ -33,5 +35,3 @@ public enum OutlineLevel
 
 * مساحة الاسم [Aspose.Words](../../aspose.words/)
 * المجسم [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class ControlChar
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.ControlChar فصل. أحرف التحكم التي يتم مواجهتها غالبًا في المستندات.
+title: ControlChar Class
+linktitle: ControlChar
+articleTitle: ControlChar
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.ControlChar فصل. أحرف التحكم التي يتم مواجهتها غالبًا في المستندات في C#.
 type: docs
 weight: 350
 url: /ar/net/aspose.words/controlchar/
@@ -49,11 +51,11 @@ public static class ControlChar
 | static readonly [Tab](../../aspose.words/controlchar/tab/) | حرف علامة التبويب: "\x0009" أو "\t". |
 | const [TabChar](../../aspose.words/controlchar/tabchar/) | حرف علامة التبويب: (char)9 أو "\t". |
 
-### ملاحظات
+## ملاحظات
 
 يوفر إصداري char وstring لنفس الثوابت. على سبيل المثال: سلسلة[`LineBreak`](./linebreak/) وشار[`LineBreakChar`](./linebreakchar/) لها نفس القيمة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام أحرف التحكم.
 
@@ -81,5 +83,3 @@ Assert.AreEqual($"Hello world!{ControlChar.Cr}" +
 
 * مساحة الاسم [Aspose.Words](../../aspose.words/)
 * المجسم [Aspose.Words](../../)
-
-

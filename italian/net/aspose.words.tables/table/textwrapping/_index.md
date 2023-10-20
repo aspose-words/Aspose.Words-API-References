@@ -1,7 +1,9 @@
 ---
 title: Table.TextWrapping
-second_title: Aspose.Words per .NET API Reference
-description: Table proprietà. Ottiene o impostaTextWrapping per tavolo.
+linktitle: TextWrapping
+articleTitle: TextWrapping
+second_title: Aspose.Words per .NET
+description: Table TextWrapping proprietà. Ottiene o impostaTextWrapping per tavolo in C#.
 type: docs
 weight: 310
 url: /it/net/aspose.words.tables/table/textwrapping/
@@ -14,7 +16,7 @@ Ottiene o imposta`TextWrapping` per tavolo.
 public TextWrapping TextWrapping { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come utilizzare la disposizione del testo della tabella.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "Table.WrapText.docx");
 
 * enum [TextWrapping](../../textwrapping/)
 * class [Table](../)
-* spazio dei nomi [Aspose.Words.Tables](../../table/)
+* spazio dei nomi [Aspose.Words.Tables](../../../aspose.words.tables/)
 * assemblea [Aspose.Words](../../../)
-
-

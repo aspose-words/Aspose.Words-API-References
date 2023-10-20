@@ -1,7 +1,9 @@
 ---
 title: FieldMergingArgsBase.Field
-second_title: Aspose.Words per .NET API Reference
-description: FieldMergingArgsBase proprietà. Ottiene loggetto che rappresenta il campo di unione corrente.
+linktitle: Field
+articleTitle: Field
+second_title: Aspose.Words per .NET
+description: FieldMergingArgsBase Field proprietà. Ottiene loggetto che rappresenta il campo di unione corrente in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words.mailmerging/fieldmergingargsbase/field/
@@ -14,7 +16,7 @@ Ottiene l'oggetto che rappresenta il campo di unione corrente.
 public FieldMergeField Field { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come eseguire una stampa unione con un callback personalizzato che gestisce i dati di unione sotto forma di documenti HTML.
 
@@ -83,7 +85,5 @@ private class HandleMergeFieldInsertHtml : IFieldMergingCallback
 
 * class [FieldMergeField](../../../aspose.words.fields/fieldmergefield/)
 * class [FieldMergingArgsBase](../)
-* spazio dei nomi [Aspose.Words.MailMerging](../../fieldmergingargsbase/)
+* spazio dei nomi [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * assemblea [Aspose.Words](../../../)
-
-

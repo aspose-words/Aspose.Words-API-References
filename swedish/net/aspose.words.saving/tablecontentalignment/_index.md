@@ -1,7 +1,9 @@
 ---
-title: Enum TableContentAlignment
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Saving.TableContentAlignment uppräkning. Tillåter att specificera justeringen av innehållet i tabellen som ska användas vid export till Markdownformat.
+title: TableContentAlignment Enum
+linktitle: TableContentAlignment
+articleTitle: TableContentAlignment
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Saving.TableContentAlignment uppräkning. Tillåter att specificera justeringen av innehållet i tabellen som ska användas vid export till Markdownformat i C#.
 type: docs
 weight: 5620
 url: /sv/net/aspose.words.saving/tablecontentalignment/
@@ -27,5 +29,3 @@ public enum TableContentAlignment
 
 * namnutrymme [Aspose.Words.Saving](../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../)
-
-

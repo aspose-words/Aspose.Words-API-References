@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.Keywords
-second_title: Aspose.Words لمراجع .NET API
-description: BuiltInDocumentProperties ملكية. الحصول على الكلمات الأساسية للمستند أو تعيينها.
+linktitle: Keywords
+articleTitle: Keywords
+second_title: Aspose.Words لـ .NET
+description: BuiltInDocumentProperties Keywords ملكية. الحصول على الكلمات الأساسية للمستند أو تعيينها في C#.
 type: docs
 weight: 140
 url: /ar/net/aspose.words.properties/builtindocumentproperties/keywords/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.properties/builtindocumentproperties/keywords/
 public string Keywords { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع خصائص المستند المضمنة في فئة "الوصف".
 
@@ -59,7 +61,5 @@ doc.Save(ArtifactsDir + "DocumentProperties.Description.docx");
 ### أنظر أيضا
 
 * class [BuiltInDocumentProperties](../)
-* مساحة الاسم [Aspose.Words.Properties](../../builtindocumentproperties/)
+* مساحة الاسم [Aspose.Words.Properties](../../../aspose.words.properties/)
 * المجسم [Aspose.Words](../../../)
-
-

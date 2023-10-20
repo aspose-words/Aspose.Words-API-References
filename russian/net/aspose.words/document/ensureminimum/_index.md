@@ -1,9 +1,11 @@
 ---
 title: Document.EnsureMinimum
-second_title: Справочник по API Aspose.Words для .NET
-description: Document метод. Если документ не содержит разделов создается один раздел с одним абзацем.
+linktitle: EnsureMinimum
+articleTitle: EnsureMinimum
+second_title: Aspose.Words для .NET
+description: Document EnsureMinimum метод. Если документ не содержит разделов создается один раздел с одним абзацем на С#.
 type: docs
-weight: 600
+weight: 580
 url: /ru/net/aspose.words/document/ensureminimum/
 ---
 ## Document.EnsureMinimum method
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/document/ensureminimum/
 public void EnsureMinimum()
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как гарантировать, что документ содержит минимальный набор узлов, необходимый для редактирования его содержимого.
 
@@ -52,7 +54,5 @@ Assert.AreEqual(NodeType.Paragraph, nodes[2].NodeType);
 ### Смотрите также
 
 * class [Document](../)
-* пространство имен [Aspose.Words](../../document/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

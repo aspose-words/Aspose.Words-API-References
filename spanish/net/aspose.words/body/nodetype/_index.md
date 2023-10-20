@@ -1,7 +1,9 @@
 ---
 title: Body.NodeType
-second_title: Referencia de API de Aspose.Words para .NET
-description: Body propiedad. DevolucionesBody .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words para .NET
+description: Body NodeType propiedad. DevolucionesBody  en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words/body/nodetype/
@@ -14,7 +16,7 @@ DevolucionesBody .
 public override NodeType NodeType { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo iterar a través de los hijos de un nodo compuesto.
 
@@ -64,7 +66,5 @@ foreach (Node node in section)
 
 * enum [NodeType](../../nodetype/)
 * class [Body](../)
-* espacio de nombres [Aspose.Words](../../body/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

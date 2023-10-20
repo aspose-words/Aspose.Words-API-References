@@ -1,7 +1,9 @@
 ---
-title: Class ReplacingArgs
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Replacing.ReplacingArgs فصل. يوفر بيانات لعملية استبدال مخصصة.
+title: ReplacingArgs Class
+linktitle: ReplacingArgs
+articleTitle: ReplacingArgs
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Replacing.ReplacingArgs فصل. يوفر بيانات لعملية استبدال مخصصة في C#.
 type: docs
 weight: 4650
 url: /ar/net/aspose.words.replacing/replacingargs/
@@ -22,12 +24,12 @@ public class ReplacingArgs
 | --- | --- |
 | [GroupIndex](../../aspose.words.replacing/replacingargs/groupindex/) { get; set; } | يحدد، حسب الفهرس، المجموعة الملتقطة في[`Match`](./match/) الذي سيتم استبداله بـ[`Replacement`](./replacement/) سلسلة. |
 | [GroupName](../../aspose.words.replacing/replacingargs/groupname/) { get; set; } | يحدد، بالاسم، المجموعة التي تم التقاطها في[`Match`](./match/) الذي سيتم استبداله بـ[`Replacement`](./replacement/) سلسلة. |
-| [Match](../../aspose.words.replacing/replacingargs/match/) { get; } | الMatch الناتجة عن تطابق تعبير Regular واحد أثناء a **يستبدل** . |
+| [Match](../../aspose.words.replacing/replacingargs/match/) { get; } | الMatch الناتجة عن تطابق تعبير Regular واحد أثناء a**يستبدل** . |
 | [MatchNode](../../aspose.words.replacing/replacingargs/matchnode/) { get; } | الحصول على العقدة التي تحتوي على بداية المباراة. |
 | [MatchOffset](../../aspose.words.replacing/replacingargs/matchoffset/) { get; } | الحصول على موضع البداية الصفري للمطابقة من بداية العقدة التي تحتوي على بداية المباراة. |
 | [Replacement](../../aspose.words.replacing/replacingargs/replacement/) { get; set; } | الحصول على سلسلة الاستبدال أو تعيينها. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استبدال كافة تكرارات نمط التعبير العادي بسلسلة أخرى، مع تتبع كل هذه الاستبدالات.
 
@@ -156,5 +158,3 @@ private static void InsertDocument(Node insertionDestination, Document docToInse
 * method [Replace](../../aspose.words/range/replace/)
 * مساحة الاسم [Aspose.Words.Replacing](../../aspose.words.replacing/)
 * المجسم [Aspose.Words](../../)
-
-

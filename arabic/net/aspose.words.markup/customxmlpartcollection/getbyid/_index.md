@@ -1,7 +1,9 @@
 ---
 title: CustomXmlPartCollection.GetById
-second_title: Aspose.Words لمراجع .NET API
-description: CustomXmlPartCollection طريقة. يبحث عن جزء XML مخصص ويعيده بواسطة معرفه.
+linktitle: GetById
+articleTitle: GetById
+second_title: Aspose.Words لـ .NET
+description: CustomXmlPartCollection GetById طريقة. يبحث عن جزء XML مخصص ويعيده بواسطة معرفه في C#.
 type: docs
 weight: 70
 url: /ar/net/aspose.words.markup/customxmlpartcollection/getbyid/
@@ -22,7 +24,7 @@ public CustomXmlPart GetById(string id)
 
 عائدات`باطل` إذا لم يتم العثور على جزء XML مخصص بالمعرف المحدد.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء علامة مستند منظمة باستخدام بيانات XML المخصصة.
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.CustomXml.docx");
 
 * class [CustomXmlPart](../../customxmlpart/)
 * class [CustomXmlPartCollection](../)
-* مساحة الاسم [Aspose.Words.Markup](../../customxmlpartcollection/)
+* مساحة الاسم [Aspose.Words.Markup](../../../aspose.words.markup/)
 * المجسم [Aspose.Words](../../../)
-
-

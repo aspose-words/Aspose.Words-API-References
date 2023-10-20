@@ -1,7 +1,9 @@
 ---
 title: MailMerge.GetFieldNames
-second_title: Aspose.Words per .NET API Reference
-description: MailMerge metodo. Restituisce una raccolta di nomi di campi di stampa unione disponibili nel documento.
+linktitle: GetFieldNames
+articleTitle: GetFieldNames
+second_title: Aspose.Words per .NET
+description: MailMerge GetFieldNames metodo. Restituisce una raccolta di nomi di campi di stampa unione disponibili nel documento in C#.
 type: docs
 weight: 220
 url: /it/net/aspose.words.mailmerging/mailmerge/getfieldnames/
@@ -14,7 +16,7 @@ Restituisce una raccolta di nomi di campi di stampa unione disponibili nel docum
 public string[] GetFieldNames()
 ```
 
-### Osservazioni
+## Osservazioni
 
 Restituisce i nomi completi dei campi di unione incluso il prefisso facoltativo. Non elimina i nomi di campo duplicati.
 
@@ -22,7 +24,7 @@ Ad ogni chiamata viene creato un nuovo array di stringhe.
 
 Include i nomi dei campi "baffi" se[`UseNonMergeFields`](../usenonmergefields/) È`VERO`.
 
-### Esempi
+## Esempi
 
 Mostra come ottenere i nomi di tutti i campi unione in un documento.
 
@@ -58,7 +60,5 @@ doc.MailMerge.Execute(dataTable);
 ### Guarda anche
 
 * class [MailMerge](../)
-* spazio dei nomi [Aspose.Words.MailMerging](../../mailmerge/)
+* spazio dei nomi [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * assemblea [Aspose.Words](../../../)
-
-

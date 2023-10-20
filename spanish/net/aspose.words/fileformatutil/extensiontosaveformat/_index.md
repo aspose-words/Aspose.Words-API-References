@@ -1,7 +1,9 @@
 ---
 title: FileFormatUtil.ExtensionToSaveFormat
-second_title: Referencia de API de Aspose.Words para .NET
-description: FileFormatUtil método. Convierte una extensión de nombre de archivo en unSaveFormat valor.
+linktitle: ExtensionToSaveFormat
+articleTitle: ExtensionToSaveFormat
+second_title: Aspose.Words para .NET
+description: FileFormatUtil ExtensionToSaveFormat método. Convierte una extensión de nombre de archivo en unSaveFormat valor en C#.
 type: docs
 weight: 40
 url: /es/net/aspose.words/fileformatutil/extensiontosaveformat/
@@ -24,11 +26,11 @@ public static SaveFormat ExtensionToSaveFormat(string extension)
 | --- | --- |
 | ArgumentNullException | Lanza si el parámetro es`nulo`. |
 
-### Observaciones
+## Observaciones
 
 Si la extensión no se puede reconocer, regresaUnknown.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo utilizar los métodos FileFormatUtil para detectar el formato de un documento.
 
@@ -62,7 +64,5 @@ using (FileStream docStream = File.OpenRead(MyDir + "Word document with missing 
 
 * enum [SaveFormat](../../saveformat/)
 * class [FileFormatUtil](../)
-* espacio de nombres [Aspose.Words](../../fileformatutil/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

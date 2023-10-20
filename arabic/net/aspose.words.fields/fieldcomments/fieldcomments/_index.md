@@ -1,7 +1,9 @@
 ---
-title: FieldComments.FieldComments
-second_title: Aspose.Words لمراجع .NET API
-description: FieldComments البناء. Default_Constructor
+title: FieldComments
+linktitle: FieldComments
+articleTitle: FieldComments
+second_title: Aspose.Words لـ .NET
+description: FieldComments البناء. Default_Constructor في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fields/fieldcomments/fieldcomments/
@@ -17,7 +19,5 @@ public FieldComments()
 ### أنظر أيضا
 
 * class [FieldComments](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldcomments/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

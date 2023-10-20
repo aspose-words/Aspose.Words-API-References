@@ -1,7 +1,9 @@
 ---
-title: Enum MailMergeDataType
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Settings.MailMergeDataType uppräkning. Anger typen av en extern kopplingsdatakälla.
+title: MailMergeDataType Enum
+linktitle: MailMergeDataType
+articleTitle: MailMergeDataType
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Settings.MailMergeDataType uppräkning. Anger typen av en extern kopplingsdatakälla i C#.
 type: docs
 weight: 5820
 url: /sv/net/aspose.words.settings/mailmergedatatype/
@@ -27,7 +29,7 @@ public enum MailMergeDataType
 | Native | `5` | Anger att ett givet dokument har kopplats till en extern datakälla via ODSO-gränssnittet (Office Data Source Object). |
 | Default | `-1` | MotsvararNone . |
 
-### Exempel
+## Exempel
 
 Visar hur man kör en sammankoppling med data från ett Office-datakällobjekt.
 
@@ -81,5 +83,3 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 * property [DataType](../mailmergesettings/datatype/)
 * namnutrymme [Aspose.Words.Settings](../../aspose.words.settings/)
 * hopsättning [Aspose.Words](../../)
-
-

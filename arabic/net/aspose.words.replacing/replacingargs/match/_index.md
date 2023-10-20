@@ -1,24 +1,26 @@
 ---
 title: ReplacingArgs.Match
-second_title: Aspose.Words لمراجع .NET API
-description: ReplacingArgs ملكية. الMatch الناتجة عن تطابق تعبير Regular واحد أثناء a يستبدل .
+linktitle: Match
+articleTitle: Match
+second_title: Aspose.Words لـ .NET
+description: ReplacingArgs Match ملكية. الMatch الناتجة عن تطابق تعبير Regular واحد أثناء aيستبدل  في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.replacing/replacingargs/match/
 ---
 ## ReplacingArgs.Match property
 
-الMatch الناتجة عن تطابق تعبير Regular واحد أثناء a **يستبدل** .
+الMatch الناتجة عن تطابق تعبير Regular واحد أثناء a**يستبدل** .
 
 ```csharp
 public Match Match { get; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 **"مطابقة. الفهرس"** يحصل على موضع start القائم على الصفر للمطابقة من بداية نطاق البحث والاستبدال.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تطبيق خط مختلف على المحتوى الجديد عبر FindReplaceOptions.
 
@@ -91,7 +93,5 @@ private class NumberHexer : IReplacingCallback
 ### أنظر أيضا
 
 * class [ReplacingArgs](../)
-* مساحة الاسم [Aspose.Words.Replacing](../../replacingargs/)
+* مساحة الاسم [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldAsk.PromptText
-second_title: Aspose.Words for .NET API 参考
-description: FieldAsk 财产. 获取或设置提示文本提示窗口的标题
+linktitle: PromptText
+articleTitle: PromptText
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldAsk PromptText 财产. 获取或设置提示文本提示窗口的标题 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words.fields/fieldask/prompttext/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fieldask/prompttext/
 public string PromptText { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何创建 ASK 字段并设置其属性。
 
@@ -76,7 +78,5 @@ private class MyPromptRespondent : IFieldUserPromptRespondent
 ### 也可以看看
 
 * class [FieldAsk](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldask/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum CompressionLevel
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Saving.CompressionLevel 枚举. OOXML 文件的压缩级别
+title: CompressionLevel Enum
+linktitle: CompressionLevel
+articleTitle: CompressionLevel
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Saving.CompressionLevel 枚举. OOXML 文件的压缩级别 在 C#.
 type: docs
 weight: 4870
 url: /zh/net/aspose.words.saving/compressionlevel/
@@ -27,7 +29,7 @@ public enum CompressionLevel
 | Fast | `2` | 快速压缩级别。 |
 | SuperFast | `3` | 超快速压缩级别。 Microsoft Word 使用此压缩级别。 |
 
-### 例子
+## 例子
 
 演示如何指定保存 OOXML 文档时要使用的压缩级别。
 
@@ -60,5 +62,3 @@ Console.WriteLine($"\tFile Size:\t{fileInfo.Length} bytes");
 
 * 命名空间 [Aspose.Words.Saving](../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../)
-
-

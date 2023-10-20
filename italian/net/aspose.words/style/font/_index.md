@@ -1,7 +1,9 @@
 ---
 title: Style.Font
-second_title: Aspose.Words per .NET API Reference
-description: Style proprietà. Ottiene la formattazione dei caratteri dello stile.
+linktitle: Font
+articleTitle: Font
+second_title: Aspose.Words per .NET
+description: Style Font proprietà. Ottiene la formattazione dei caratteri dello stile in C#.
 type: docs
 weight: 60
 url: /it/net/aspose.words/style/font/
@@ -14,11 +16,11 @@ Ottiene la formattazione dei caratteri dello stile.
 public Font Font { get; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Per gli stili di elenco questa proprietà restituisce`nullo`.
 
-### Esempi
+## Esempi
 
 Mostra come creare e utilizzare uno stile di paragrafo con formattazione elenco.
 
@@ -85,7 +87,5 @@ Assert.AreEqual(Color.Empty.ToArgb(), firstParagraphStyle.Font.Color.ToArgb());
 
 * class [Font](../../font/)
 * class [Style](../)
-* spazio dei nomi [Aspose.Words](../../style/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

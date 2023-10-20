@@ -1,7 +1,9 @@
 ---
 title: ThemeColors.Accent3
-second_title: Aspose.Words لمراجع .NET API
-description: ThemeColors ملكية. يحدد اللون المميز 3.
+linktitle: Accent3
+articleTitle: Accent3
+second_title: Aspose.Words لـ .NET
+description: ThemeColors Accent3 ملكية. يحدد اللون المميز 3 في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.themes/themecolors/accent3/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.themes/themecolors/accent3/
 public Color Accent3 { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين الألوان والخطوط المخصصة للموضوعات.
 
@@ -62,7 +64,5 @@ doc.Save(ArtifactsDir + "Themes.CustomColorsAndFonts.docx");
 ### أنظر أيضا
 
 * class [ThemeColors](../)
-* مساحة الاسم [Aspose.Words.Themes](../../themecolors/)
+* مساحة الاسم [Aspose.Words.Themes](../../../aspose.words.themes/)
 * المجسم [Aspose.Words](../../../)
-
-

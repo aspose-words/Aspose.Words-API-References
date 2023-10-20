@@ -1,9 +1,11 @@
 ---
 title: DocumentBuilder.MoveToField
-second_title: Aspose.Words för .NET API Referens
-description: DocumentBuilder metod. Flyttar markören till ett fält i dokumentet.
+linktitle: MoveToField
+articleTitle: MoveToField
+second_title: Aspose.Words för .NET
+description: DocumentBuilder MoveToField metod. Flyttar markören till ett fält i dokumentet i C#.
 type: docs
-weight: 540
+weight: 530
 url: /sv/net/aspose.words/documentbuilder/movetofield/
 ---
 ## DocumentBuilder.MoveToField method
@@ -19,7 +21,7 @@ public void MoveToField(Field field, bool isAfter)
 | field | Field | Fältet att flytta markören till. |
 | isAfter | Boolean | När`Sann` , flyttar markören så att den hamnar efter fältets slut. When`falsk`, flyttar markören till att vara före fältstarten. |
 
-### Exempel
+## Exempel
 
 Visar hur man flyttar markören för en dokumentbyggares nodinsättningspunkt till ett specifikt fält.
 
@@ -62,7 +64,5 @@ else
 
 * class [Field](../../../aspose.words.fields/field/)
 * class [DocumentBuilder](../)
-* namnutrymme [Aspose.Words](../../documentbuilder/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,20 +1,22 @@
 ---
 title: SignatureLineOptions.SignerTitle
-second_title: Referencia de API de Aspose.Words para .NET
-description: SignatureLineOptions propiedad. Obtiene o establece el título del firmante sugerido. El valor predeterminado para esta propiedad es cuerda vacía Empty.
+linktitle: SignerTitle
+articleTitle: SignerTitle
+second_title: Aspose.Words para .NET
+description: SignatureLineOptions SignerTitle propiedad. Obtiene o establece el título del firmante sugerido. El valor predeterminado para esta propiedad escuerda vacía Empty en C#.
 type: docs
 weight: 80
 url: /es/net/aspose.words/signaturelineoptions/signertitle/
 ---
 ## SignatureLineOptions.SignerTitle property
 
-Obtiene o establece el título del firmante sugerido. El valor predeterminado para esta propiedad es **cuerda vacía** (Empty).
+Obtiene o establece el título del firmante sugerido. El valor predeterminado para esta propiedad es**cuerda vacía** (Empty).
 
 ```csharp
 public string SignerTitle { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo agregar una línea de firma a un documento y luego firmarlo usando un certificado digital.
 
@@ -130,7 +132,5 @@ Muestra cómo agregar una línea de firma a un documento y luego firmarlo usando
 ### Ver también
 
 * class [SignatureLineOptions](../)
-* espacio de nombres [Aspose.Words](../../signaturelineoptions/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: PreferredWidth.Value
-second_title: Aspose.Words för .NET API Referens
-description: PreferredWidth fast egendom. Hämtar önskat breddvärde. Måttenheten anges iType egenskap.
+linktitle: Value
+articleTitle: Value
+second_title: Aspose.Words för .NET
+description: PreferredWidth Value fast egendom. Hämtar önskat breddvärde. Måttenheten anges iType egenskap i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.tables/preferredwidth/value/
@@ -14,7 +16,7 @@ Hämtar önskat breddvärde. Måttenheten anges i[`Type`](../type/) egenskap.
 public double Value { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man verifierar den föredragna breddtypen och värdet för en tabellcell.
 
@@ -31,7 +33,5 @@ Assert.AreEqual(11.16d, firstCell.CellFormat.PreferredWidth.Value);
 ### Se även
 
 * class [PreferredWidth](../)
-* namnutrymme [Aspose.Words.Tables](../../preferredwidth/)
+* namnutrymme [Aspose.Words.Tables](../../../aspose.words.tables/)
 * hopsättning [Aspose.Words](../../../)
-
-

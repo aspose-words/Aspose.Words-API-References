@@ -1,7 +1,9 @@
 ---
 title: HeaderFooter.ParentSection
-second_title: Aspose.Words لمراجع .NET API
-description: HeaderFooter ملكية. للحصول على القسم الأصلي لهذه القصة.
+linktitle: ParentSection
+articleTitle: ParentSection
+second_title: Aspose.Words لـ .NET
+description: HeaderFooter ParentSection ملكية. للحصول على القسم الأصلي لهذه القصة في C#.
 type: docs
 weight: 60
 url: /ar/net/aspose.words/headerfooter/parentsection/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words/headerfooter/parentsection/
 public Section ParentSection { get; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 `ParentSection` يعادل[`ParentNode`](../../node/parentnode/) يلقي ل[`Section`](../../section/).
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية ربط الرؤوس والتذييلات بين الأقسام.
 
@@ -84,7 +86,5 @@ doc.Save(ArtifactsDir + "HeaderFooter.Link.docx");
 
 * class [Section](../../section/)
 * class [HeaderFooter](../)
-* مساحة الاسم [Aspose.Words](../../headerfooter/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

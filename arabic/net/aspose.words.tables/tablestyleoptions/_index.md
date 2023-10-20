@@ -1,7 +1,9 @@
 ---
-title: Enum TableStyleOptions
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Tables.TableStyleOptions تعداد. يحدد كيفية تطبيق نمط الجدول على الجدول.
+title: TableStyleOptions Enum
+linktitle: TableStyleOptions
+articleTitle: TableStyleOptions
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Tables.TableStyleOptions تعداد. يحدد كيفية تطبيق نمط الجدول على الجدول في C#.
 type: docs
 weight: 6370
 url: /ar/net/aspose.words.tables/tablestyleoptions/
@@ -29,7 +31,7 @@ public enum TableStyleOptions
 | Default2003 | `600` | تم تطبيق نطاق الصفوف والأعمدة. هذا هو الإعداد الافتراضي لبرنامج Microsoft Word للتنسيقات القديمة مثل DOC وWML وRTF. |
 | Default | `2A0` | هذه هي الإعدادات الافتراضية لبرنامج Microsoft Word. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء جدول جديد أثناء تطبيق النمط.
 
@@ -82,5 +84,3 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTableWithStyle.docx");
 * property [StyleOptions](../table/styleoptions/)
 * مساحة الاسم [Aspose.Words.Tables](../../aspose.words.tables/)
 * المجسم [Aspose.Words](../../)
-
-

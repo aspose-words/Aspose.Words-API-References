@@ -1,7 +1,9 @@
 ---
 title: SubDocument.NodeType
-second_title: Aspose.Words för .NET API Referens
-description: SubDocument fast egendom. ReturnerarSubDocument .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words för .NET
+description: SubDocument NodeType fast egendom. ReturnerarSubDocument  i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words/subdocument/nodetype/
@@ -14,7 +16,7 @@ ReturnerarSubDocument .
 public override NodeType NodeType { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man kommer åt ett huvuddokuments underdokument.
 
@@ -32,7 +34,5 @@ Assert.False(subDocument.IsComposite);
 
 * enum [NodeType](../../nodetype/)
 * class [SubDocument](../)
-* namnutrymme [Aspose.Words](../../subdocument/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

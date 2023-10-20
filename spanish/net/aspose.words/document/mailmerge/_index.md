@@ -1,7 +1,9 @@
 ---
 title: Document.MailMerge
-second_title: Referencia de API de Aspose.Words para .NET
-description: Document propiedad. Devuelve unMailMerge objeto que representa la funcionalidad de combinación de correspondencia para el documento.
+linktitle: MailMerge
+articleTitle: MailMerge
+second_title: Aspose.Words para .NET
+description: Document MailMerge propiedad. Devuelve unMailMerge objeto que representa la funcionalidad de combinación de correspondencia para el documento en C#.
 type: docs
 weight: 260
 url: /es/net/aspose.words/document/mailmerge/
@@ -14,7 +16,7 @@ Devuelve un[`MailMerge`](../../../aspose.words.mailmerging/mailmerge/) objeto qu
 public MailMerge MailMerge { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo ejecutar una combinación de correspondencia con datos de un DataTable.
 
@@ -63,7 +65,5 @@ private static Document CreateSourceDocExecuteDataTable()
 
 * class [MailMerge](../../../aspose.words.mailmerging/mailmerge/)
 * class [Document](../)
-* espacio de nombres [Aspose.Words](../../document/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

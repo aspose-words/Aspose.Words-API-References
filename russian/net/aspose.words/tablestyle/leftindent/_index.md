@@ -1,7 +1,9 @@
 ---
 title: TableStyle.LeftIndent
-second_title: Справочник по API Aspose.Words для .NET
-description: TableStyle свойство. Получает или задает значение представляющее левый отступ таблицы.
+linktitle: LeftIndent
+articleTitle: LeftIndent
+second_title: Aspose.Words для .NET
+description: TableStyle LeftIndent свойство. Получает или задает значение представляющее левый отступ таблицы на С#.
 type: docs
 weight: 90
 url: /ru/net/aspose.words/tablestyle/leftindent/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/tablestyle/leftindent/
 public double LeftIndent { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как установить положение стола.
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "Table.SetTableAlignment.docx");
 ### Смотрите также
 
 * class [TableStyle](../)
-* пространство имен [Aspose.Words](../../tablestyle/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

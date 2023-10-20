@@ -1,7 +1,9 @@
 ---
-title: Enum FootnoteType
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Notes.FootnoteType enum. Specifica se si tratta di una nota a piè di pagina o di chiusura.
+title: FootnoteType Enum
+linktitle: FootnoteType
+articleTitle: FootnoteType
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Notes.FootnoteType enum. Specifica se si tratta di una nota a piè di pagina o di chiusura in C#.
 type: docs
 weight: 4300
 url: /it/net/aspose.words.notes/footnotetype/
@@ -21,11 +23,11 @@ public enum FootnoteType
 | Footnote | `0` | L'oggetto è una nota a piè di pagina. |
 | Endnote | `1` | L'oggetto è una nota di chiusura. |
 
-### Osservazioni
+## Osservazioni
 
 Sia le note a piè di pagina che le note di chiusura sono rappresentate da oggetti daFootnote classe. Utilizzo[`FootnoteType`](../footnote/footnotetype/) per distinguere tra note a piè di pagina e note di chiusura.
 
-### Esempi
+## Esempi
 
 Mostra come fare riferimento al testo con una nota a piè di pagina e una nota di chiusura.
 
@@ -100,5 +102,3 @@ doc.Save(ArtifactsDir + "InlineStory.AddFootnote.docx");
 
 * spazio dei nomi [Aspose.Words.Notes](../../aspose.words.notes/)
 * assemblea [Aspose.Words](../../)
-
-

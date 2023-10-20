@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.RelativeVerticalPosition
-second_title: Справочник по API Aspose.Words для .NET
-description: ShapeBase свойство. Указывает относительно того как фигура расположена по вертикали.
+linktitle: RelativeVerticalPosition
+articleTitle: RelativeVerticalPosition
+second_title: Aspose.Words для .NET
+description: ShapeBase RelativeVerticalPosition свойство. Указывает относительно того как фигура расположена по вертикали на С#.
 type: docs
 weight: 440
 url: /ru/net/aspose.words.drawing/shapebase/relativeverticalposition/
@@ -14,13 +16,13 @@ url: /ru/net/aspose.words.drawing/shapebase/relativeverticalposition/
 public RelativeVerticalPosition RelativeVerticalPosition { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Значение по умолчанию:Paragraph.
 
 Имеет эффект только для плавающих фигур верхнего уровня.
 
-### Примеры
+## Примеры
 
 Показывает, как вставить плавающее изображение в центр страницы.
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "Image.CreateFloatingPageCenter.docx");
 
 * enum [RelativeVerticalPosition](../../relativeverticalposition/)
 * class [ShapeBase](../)
-* пространство имен [Aspose.Words.Drawing](../../shapebase/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

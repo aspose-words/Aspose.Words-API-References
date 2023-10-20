@@ -1,7 +1,9 @@
 ---
 title: FieldMergeField.TextBefore
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldMergeField propriété. Obtient ou définit le texte à insérer avant le champ si le champ nest pas vide.
+linktitle: TextBefore
+articleTitle: TextBefore
+second_title: Aspose.Words pour .NET
+description: FieldMergeField TextBefore propriété. Obtient ou définit le texte à insérer avant le champ si le champ nest pas vide en C#.
 type: docs
 weight: 60
 url: /fr/net/aspose.words.fields/fieldmergefield/textbefore/
@@ -14,7 +16,7 @@ Obtient ou définit le texte à insérer avant le champ si le champ n'est pas vi
 public string TextBefore { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment utiliser les champs MERGEFIELD pour effectuer un publipostage.
 
@@ -56,7 +58,5 @@ Assert.AreEqual("Dear Mr. Doe:\u000cDear Mrs. Cardholder:", doc.GetText().Trim()
 ### Voir également
 
 * class [FieldMergeField](../)
-* espace de noms [Aspose.Words.Fields](../../fieldmergefield/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldAddressBlock.GetFieldNames
-second_title: Aspose.Words for .NET API 参考
-description: FieldAddressBlock 方法. 返回字段使用的邮件合并字段名称的集合
+linktitle: GetFieldNames
+articleTitle: GetFieldNames
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldAddressBlock GetFieldNames 方法. 返回字段使用的邮件合并字段名称的集合 在 C#.
 type: docs
 weight: 70
 url: /zh/net/aspose.words.fields/fieldaddressblock/getfieldnames/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fieldaddressblock/getfieldnames/
 public string[] GetFieldNames()
 ```
 
-### 例子
+## 例子
 
 显示如何获取字段使用的邮件合并字段名称。
 
@@ -34,7 +36,5 @@ string[] addressBlockFieldNames = addressBlockField.GetFieldNames();
 ### 也可以看看
 
 * class [FieldAddressBlock](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldaddressblock/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

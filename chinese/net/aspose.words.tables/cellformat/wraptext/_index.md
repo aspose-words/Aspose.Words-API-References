@@ -1,9 +1,11 @@
 ---
 title: CellFormat.WrapText
-second_title: Aspose.Words for .NET API 参考
-description: CellFormat 财产. 如果真的 单元格文本换行
+linktitle: WrapText
+articleTitle: WrapText
+second_title: 用于 .NET 的 Aspose.Words
+description: CellFormat WrapText 财产. 如果真的 单元格文本换行 在 C#.
 type: docs
-weight: 150
+weight: 140
 url: /zh/net/aspose.words.tables/cellformat/wraptext/
 ---
 ## CellFormat.WrapText property
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.tables/cellformat/wraptext/
 public bool WrapText { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何构建具有自定义边框的表格。
 
@@ -80,7 +82,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
 ### 也可以看看
 
 * class [CellFormat](../)
-* 命名空间 [Aspose.Words.Tables](../../cellformat/)
+* 命名空间 [Aspose.Words.Tables](../../../aspose.words.tables/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum LineStyle
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.LineStyle opsomming. Gibt den Linienstil von a anBorder .
+title: LineStyle Enum
+linktitle: LineStyle
+articleTitle: LineStyle
+second_title: Aspose.Words für .NET
+description: Aspose.Words.LineStyle opsomming. Gibt den Linienstil von a anBorder  in C#.
 type: docs
 weight: 3450
 url: /de/net/aspose.words/linestyle/
@@ -46,7 +48,7 @@ public enum LineStyle
 | Outset | `26` |  |
 | Inset | `27` |  |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man eine von einem Rahmen umgebene Zeichenfolge in ein Dokument einfügt.
 
@@ -67,5 +69,3 @@ doc.Save(ArtifactsDir + "Border.FontBorder.docx");
 
 * namensraum [Aspose.Words](../../aspose.words/)
 * Montage [Aspose.Words](../../)
-
-

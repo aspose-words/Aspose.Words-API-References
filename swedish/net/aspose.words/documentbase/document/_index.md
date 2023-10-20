@@ -1,7 +1,9 @@
 ---
 title: DocumentBase.Document
-second_title: Aspose.Words för .NET API Referens
-description: DocumentBase fast egendom. Hämtar den här instansen.
+linktitle: Document
+articleTitle: Document
+second_title: Aspose.Words för .NET
+description: DocumentBase Document fast egendom. Hämtar den här instansen i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words/documentbase/document/
@@ -17,7 +19,5 @@ public override DocumentBase Document { get; }
 ### Se även
 
 * class [DocumentBase](../)
-* namnutrymme [Aspose.Words](../../documentbase/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Story.DeleteShapes
-second_title: Aspose.Words for .NET API 参考
-description: Story 方法. 删除此故事文本中的所有形状
+linktitle: DeleteShapes
+articleTitle: DeleteShapes
+second_title: 用于 .NET 的 Aspose.Words
+description: Story DeleteShapes 方法. 删除此故事文本中的所有形状 在 C#.
 type: docs
 weight: 70
 url: /zh/net/aspose.words/story/deleteshapes/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/story/deleteshapes/
 public void DeleteShapes()
 ```
 
-### 例子
+## 例子
 
 演示如何从节点中删除所有形状。
 
@@ -38,7 +40,5 @@ Assert.AreEqual(0, doc.GetChildNodes(NodeType.Shape, true).Count);
 ### 也可以看看
 
 * class [Story](../)
-* 命名空间 [Aspose.Words](../../story/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

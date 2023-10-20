@@ -1,7 +1,9 @@
 ---
 title: NodeList.ToArray
-second_title: Referencia de API de Aspose.Words para .NET
-description: NodeList método. Copia todos los nodos de la colección en una nueva matriz de nodos.
+linktitle: ToArray
+articleTitle: ToArray
+second_title: Aspose.Words para .NET
+description: NodeList ToArray método. Copia todos los nodos de la colección en una nueva matriz de nodos en C#.
 type: docs
 weight: 40
 url: /es/net/aspose.words/nodelist/toarray/
@@ -18,13 +20,13 @@ public Node[] ToArray()
 
 Una serie de nodos.
 
-### Observaciones
+## Observaciones
 
 No debe agregar/eliminar nodos mientras itera sobre una colección de nodos porque invalida el iterador y requiere actualizaciones para las colecciones activas.
 
 Para poder agregar o eliminar nodos durante la iteración, utilice este método para copiar nodos en una matriz de tamaño fijo y luego iterar sobre la matriz.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo seleccionar ciertos nodos mediante una expresión XPath.
 
@@ -58,7 +60,5 @@ Assert.AreEqual(typeof(Paragraph), node.GetType());
 
 * class [Node](../../node/)
 * class [NodeList](../)
-* espacio de nombres [Aspose.Words](../../nodelist/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

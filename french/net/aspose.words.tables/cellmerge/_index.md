@@ -1,7 +1,9 @@
 ---
-title: Enum CellMerge
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Tables.CellMerge énumération. Spécifie comment une cellule dun tableau est fusionnée avec dautres cellules.
+title: CellMerge Enum
+linktitle: CellMerge
+articleTitle: CellMerge
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Tables.CellMerge énumération. Spécifie comment une cellule dun tableau est fusionnée avec dautres cellules en C#.
 type: docs
 weight: 6270
 url: /fr/net/aspose.words.tables/cellmerge/
@@ -22,7 +24,7 @@ public enum CellMerge
 | First | `1` | La cellule est la première cellule d'une plage de cellules fusionnées. |
 | Previous | `2` | La cellule est fusionnée avec la cellule précédente horizontalement ou verticalement. |
 
-### Exemples
+## Exemples
 
 Montre comment fusionner les cellules d’un tableau horizontalement.
 
@@ -121,5 +123,3 @@ doc.Save(ArtifactsDir + "CellFormat.VerticalMerge.docx");
 
 * espace de noms [Aspose.Words.Tables](../../aspose.words.tables/)
 * Assemblée [Aspose.Words](../../)
-
-

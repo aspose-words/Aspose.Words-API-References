@@ -1,7 +1,9 @@
 ---
 title: FormField.OwnHelp
-second_title: Aspose.Words für .NET-API-Referenz
-description: FormField eigendom. Gibt die Quelle des Textes an der in einem Meldungsfeld angezeigt wird wenn ein Formularfeld den Fokus hat und der Benutzer F1 drückt.
+linktitle: OwnHelp
+articleTitle: OwnHelp
+second_title: Aspose.Words für .NET
+description: FormField OwnHelp eigendom. Gibt die Quelle des Textes an der in einem Meldungsfeld angezeigt wird wenn ein Formularfeld den Fokus hat und der Benutzer F1 drückt in C#.
 type: docs
 weight: 150
 url: /de/net/aspose.words.fields/formfield/ownhelp/
@@ -14,11 +16,11 @@ Gibt die Quelle des Textes an, der in einem Meldungsfeld angezeigt wird, wenn ei
 public bool OwnHelp { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Wenn`WAHR` , der durch die angegebene Text[`HelpText`](../helptext/) Eigenschaft wird angezeigt. Wenn`FALSCH` , der Text im AutoText-Eintrag, der durch angegeben wird[`HelpText`](../helptext/) Eigenschaft angezeigt wird.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie verschiedene Arten von Formularfeldern in ein Dokument eingefügt und mithilfe einer Dokumentbesucherimplementierung verarbeitet werden.
 
@@ -152,7 +154,5 @@ public class FormFieldVisitor : DocumentVisitor
 ### Siehe auch
 
 * class [FormField](../)
-* namensraum [Aspose.Words.Fields](../../formfield/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

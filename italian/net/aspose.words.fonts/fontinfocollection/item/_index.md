@@ -1,7 +1,9 @@
 ---
 title: FontInfoCollection.Item
-second_title: Aspose.Words per .NET API Reference
-description: FontInfoCollection proprietà. Ottiene un carattere con il nome specificato.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words per .NET
+description: FontInfoCollection Item proprietà. Ottiene un carattere con il nome specificato in C#.
 type: docs
 weight: 40
 url: /it/net/aspose.words.fonts/fontinfocollection/item/
@@ -18,7 +20,7 @@ public FontInfo this[string name] { get; }
 | --- | --- |
 | name | Nome del carattere da individuare senza distinzione tra maiuscole e minuscole. |
 
-### Esempi
+## Esempi
 
 Mostra come estrarre un carattere incorporato da un documento e salvarlo nel file system locale.
 
@@ -46,7 +48,7 @@ File.WriteAllBytes(ArtifactsDir + "Alte DIN 1451 Mittelschrift.otf", embeddedFon
 
 * class [FontInfo](../../fontinfo/)
 * class [FontInfoCollection](../)
-* spazio dei nomi [Aspose.Words.Fonts](../../fontinfocollection/)
+* spazio dei nomi [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * assemblea [Aspose.Words](../../../)
 
 ---
@@ -63,7 +65,7 @@ public FontInfo this[int index] { get; }
 | --- | --- |
 | index | Indice in base zero del carattere. |
 
-### Esempi
+## Esempi
 
 Mostra come estrarre un carattere incorporato da un documento e salvarlo nel file system locale.
 
@@ -91,7 +93,5 @@ File.WriteAllBytes(ArtifactsDir + "Alte DIN 1451 Mittelschrift.otf", embeddedFon
 
 * class [FontInfo](../../fontinfo/)
 * class [FontInfoCollection](../)
-* spazio dei nomi [Aspose.Words.Fonts](../../fontinfocollection/)
+* spazio dei nomi [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * assemblea [Aspose.Words](../../../)
-
-

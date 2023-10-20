@@ -1,7 +1,9 @@
 ---
 title: GradientStopCollection.Count
-second_title: Aspose.Words für .NET-API-Referenz
-description: GradientStopCollection eigendom. Ruft einen ganzzahligen Wert ab der die Anzahl der Elemente in der Sammlung angibt.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words für .NET
+description: GradientStopCollection Count eigendom. Ruft einen ganzzahligen Wert ab der die Anzahl der Elemente in der Sammlung angibt in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words.drawing/gradientstopcollection/count/
@@ -14,7 +16,7 @@ Ruft einen ganzzahligen Wert ab, der die Anzahl der Elemente in der Sammlung ang
 public int Count { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man der Verlaufsfüllung Verlaufsstopps hinzufügt.
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "Shape.GradientStops.docx", saveOptions);
 ### Siehe auch
 
 * class [GradientStopCollection](../)
-* namensraum [Aspose.Words.Drawing](../../gradientstopcollection/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

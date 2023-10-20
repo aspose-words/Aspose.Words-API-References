@@ -1,9 +1,11 @@
 ---
 title: ChartFormat.Stroke
-second_title: Справочник по API Aspose.Words для .NET
-description: ChartFormat свойство. Получает форматирование строки для родительского элемента диаграммы.
+linktitle: Stroke
+articleTitle: Stroke
+second_title: Aspose.Words для .NET
+description: ChartFormat Stroke свойство. Получает форматирование строки для родительского элемента диаграммы на С#.
 type: docs
-weight: 40
+weight: 30
 url: /ru/net/aspose.words.drawing.charts/chartformat/stroke/
 ---
 ## ChartFormat.Stroke property
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.drawing.charts/chartformat/stroke/
 public Stroke Stroke { get; }
 ```
 
-### Примеры
+## Примеры
 
 Покажите, как установить форматирование маркера.
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "Charts.MarkerFormatting.docx");
 
 * class [Stroke](../../../aspose.words.drawing/stroke/)
 * class [ChartFormat](../)
-* пространство имен [Aspose.Words.Drawing.Charts](../../chartformat/)
+* пространство имен [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../../)
-
-

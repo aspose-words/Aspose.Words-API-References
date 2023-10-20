@@ -1,7 +1,9 @@
 ---
-title: Enum RelativeHorizontalPosition
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Drawing.RelativeHorizontalPosition enum. Specifica a cosa è relativa la posizione orizzontale di una forma o di una cornice di testo.
+title: RelativeHorizontalPosition Enum
+linktitle: RelativeHorizontalPosition
+articleTitle: RelativeHorizontalPosition
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Drawing.RelativeHorizontalPosition enum. Specifica a cosa è relativa la posizione orizzontale di una forma o di una cornice di testo in C#.
 type: docs
 weight: 1190
 url: /it/net/aspose.words.drawing/relativehorizontalposition/
@@ -28,7 +30,7 @@ public enum RelativeHorizontalPosition
 | OutsideMargin | `7` | Specifica che il posizionamento orizzontale sarà relativo al margine esterno della pagina corrente (il margine destro sulle pagine dispari, sinistro sulle pagine pari). |
 | Default | `2` | Il valore predefinito èColumn . |
 
-### Esempi
+## Esempi
 
 Mostra come inserire un'immagine mobile al centro di una pagina.
 
@@ -101,5 +103,3 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertWatermarkNetStandard2.docx");
 * property [RelativeHorizontalPosition](../shapebase/relativehorizontalposition/)
 * spazio dei nomi [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * assemblea [Aspose.Words](../../)
-
-

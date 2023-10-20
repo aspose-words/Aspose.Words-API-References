@@ -1,7 +1,9 @@
 ---
 title: RowFormat.HeightRule
-second_title: Aspose.Words لمراجع .NET API
-description: RowFormat ملكية. الحصول على أو تعيين قاعدة تحديد ارتفاع صف الجدول.
+linktitle: HeightRule
+articleTitle: HeightRule
+second_title: Aspose.Words لـ .NET
+description: RowFormat HeightRule ملكية. الحصول على أو تعيين قاعدة تحديد ارتفاع صف الجدول في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.tables/rowformat/heightrule/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.tables/rowformat/heightrule/
 public HeightRule HeightRule { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تنسيق الصفوف باستخدام أداة إنشاء المستندات.
 
@@ -110,7 +112,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.CreateFormattedTable.docx");
 
 * enum [HeightRule](../../../aspose.words/heightrule/)
 * class [RowFormat](../)
-* مساحة الاسم [Aspose.Words.Tables](../../rowformat/)
+* مساحة الاسم [Aspose.Words.Tables](../../../aspose.words.tables/)
 * المجسم [Aspose.Words](../../../)
-
-

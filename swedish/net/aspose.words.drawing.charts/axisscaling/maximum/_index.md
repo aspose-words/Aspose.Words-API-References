@@ -1,7 +1,9 @@
 ---
 title: AxisScaling.Maximum
-second_title: Aspose.Words för .NET API Referens
-description: AxisScaling fast egendom. Hämtar eller ställer in maxvärdet för axeln.
+linktitle: Maximum
+articleTitle: Maximum
+second_title: Aspose.Words för .NET
+description: AxisScaling Maximum fast egendom. Hämtar eller ställer in maxvärdet för axeln i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.drawing.charts/axisscaling/maximum/
@@ -14,11 +16,11 @@ Hämtar eller ställer in maxvärdet för axeln.
 public AxisBound Maximum { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Standardvärdet är "auto".
 
-### Exempel
+## Exempel
 
 Visar hur man infogar diagram med datum/tidsvärden.
 
@@ -73,7 +75,5 @@ doc.Save(ArtifactsDir + "Charts.DateTimeValues.docx");
 
 * class [AxisBound](../../axisbound/)
 * class [AxisScaling](../)
-* namnutrymme [Aspose.Words.Drawing.Charts](../../axisscaling/)
+* namnutrymme [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../../)
-
-

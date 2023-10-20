@@ -1,7 +1,9 @@
 ---
 title: List.ListId
-second_title: Aspose.Words für .NET-API-Referenz
-description: List eigendom. Ruft die eindeutige Kennung der Liste ab.
+linktitle: ListId
+articleTitle: ListId
+second_title: Aspose.Words für .NET
+description: List ListId eigendom. Ruft die eindeutige Kennung der Liste ab in C#.
 type: docs
 weight: 60
 url: /de/net/aspose.words.lists/list/listid/
@@ -14,11 +16,11 @@ Ruft die eindeutige Kennung der Liste ab.
 public int ListId { get; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Normalerweise müssen Sie diese Eigenschaft nicht nutzen. Aber wenn Sie es verwenden, tun Sie dies normalerweise in Verbindung mit dem[`GetListByListId`](../../listcollection/getlistbylistid/) Methode, um eine -Liste anhand ihrer Kennung zu finden.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Besitzerdokumenteigenschaften von Listen überprüft werden.
 
@@ -67,7 +69,5 @@ foreach (Paragraph para in paras.OfType<Paragraph>().Where(p => p.ListFormat.IsL
 ### Siehe auch
 
 * class [List](../)
-* namensraum [Aspose.Words.Lists](../../list/)
+* namensraum [Aspose.Words.Lists](../../../aspose.words.lists/)
 * Montage [Aspose.Words](../../../)
-
-

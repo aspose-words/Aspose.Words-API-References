@@ -1,7 +1,9 @@
 ---
 title: FieldDde.InsertAsUnicode
-second_title: Aspose.Words for .NET API 参考
-description: FieldDde 财产. 获取或设置是否将链接对象作为 Unicode 文本插入
+linktitle: InsertAsUnicode
+articleTitle: InsertAsUnicode
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldDde InsertAsUnicode 财产. 获取或设置是否将链接对象作为 Unicode 文本插入 在 C#.
 type: docs
 weight: 80
 url: /zh/net/aspose.words.fields/fielddde/insertasunicode/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fielddde/insertasunicode/
 public bool InsertAsUnicode { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何使用各种字段类型链接到本地文件系统中的其他文档并显示其内容。
 
@@ -197,7 +199,5 @@ public enum InsertLinkedObjectAs
 ### 也可以看看
 
 * class [FieldDde](../)
-* 命名空间 [Aspose.Words.Fields](../../fielddde/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

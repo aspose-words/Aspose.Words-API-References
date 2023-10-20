@@ -1,7 +1,9 @@
 ---
-title: FieldUserInitials.FieldUserInitials
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldUserInitials строитель. Конструктор по умолчанию.
+title: FieldUserInitials
+linktitle: FieldUserInitials
+articleTitle: FieldUserInitials
+second_title: Aspose.Words для .NET
+description: FieldUserInitials строитель. Конструктор по умолчанию на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fields/fielduserinitials/fielduserinitials/
@@ -17,7 +19,5 @@ public FieldUserInitials()
 ### Смотрите также
 
 * class [FieldUserInitials](../)
-* пространство имен [Aspose.Words.Fields](../../fielduserinitials/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum FootnotePosition
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Notes.FootnotePosition 枚举. 定义脚注位置
+title: FootnotePosition Enum
+linktitle: FootnotePosition
+articleTitle: FootnotePosition
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Notes.FootnotePosition 枚举. 定义脚注位置 在 C#.
 type: docs
 weight: 4290
 url: /zh/net/aspose.words.notes/footnoteposition/
@@ -21,7 +23,7 @@ public enum FootnotePosition
 | BottomOfPage | `1` | 脚注在每页底部输出。 |
 | BeneathText | `2` | 脚注输出在每页文本下方。 |
 
-### 例子
+## 例子
 
 演示如何选择文档收集和显示脚注的不同位置。
 
@@ -54,5 +56,3 @@ doc.Save(ArtifactsDir + "InlineStory.PositionFootnote.docx");
 * class [FootnoteOptions](../footnoteoptions/)
 * 命名空间 [Aspose.Words.Notes](../../aspose.words.notes/)
 * 部件 [Aspose.Words](../../)
-
-

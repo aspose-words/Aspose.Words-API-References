@@ -1,7 +1,9 @@
 ---
-title: Class BuiltInDocumentProperties
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Properties.BuiltInDocumentProperties classe. Une collection de propriétés de document intégrées.
+title: BuiltInDocumentProperties Class
+linktitle: BuiltInDocumentProperties
+articleTitle: BuiltInDocumentProperties
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Properties.BuiltInDocumentProperties classe. Une collection de propriétés de document intégrées en C#.
 type: docs
 weight: 4450
 url: /fr/net/aspose.words.properties/builtindocumentproperties/
@@ -61,13 +63,13 @@ public class BuiltInDocumentProperties : DocumentPropertyCollection
 | Nom | La description |
 | --- | --- |
 | [Clear](../../aspose.words.properties/documentpropertycollection/clear/)() | Supprime toutes les propriétés de la collection. |
-| [Contains](../../aspose.words.properties/documentpropertycollection/contains/)(string) | Retours`vrai` si une propriété avec le nom spécifié existe dans la collection. |
+| [Contains](../../aspose.words.properties/documentpropertycollection/contains/)(*string*) | Retours`vrai` si une propriété avec le nom spécifié existe dans la collection. |
 | [GetEnumerator](../../aspose.words.properties/documentpropertycollection/getenumerator/)() | Renvoie un objet énumérateur qui peut être utilisé pour parcourir tous les éléments de la collection. |
-| [IndexOf](../../aspose.words.properties/documentpropertycollection/indexof/)(string) | Obtient l'index d'une propriété par nom. |
-| [Remove](../../aspose.words.properties/documentpropertycollection/remove/)(string) | Supprime une propriété portant le nom spécifié de la collection. |
-| [RemoveAt](../../aspose.words.properties/documentpropertycollection/removeat/)(int) | Supprime une propriété à l'index spécifié. |
+| [IndexOf](../../aspose.words.properties/documentpropertycollection/indexof/)(*string*) | Obtient l'index d'une propriété par nom. |
+| [Remove](../../aspose.words.properties/documentpropertycollection/remove/)(*string*) | Supprime une propriété portant le nom spécifié de la collection. |
+| [RemoveAt](../../aspose.words.properties/documentpropertycollection/removeat/)(*int*) | Supprime une propriété à l'index spécifié. |
 
-### Remarques
+## Remarques
 
 Donne accès à[`DocumentProperty`](../documentproperty/) les objets par leurs noms (à l'aide d'un indexeur) et via un ensemble de propriétés typées qui renvoient des valeurs de types appropriés.
 
@@ -75,7 +77,7 @@ Les noms des propriétés ne sont pas sensibles à la casse.
 
 Les propriétés de la collection sont triées par ordre alphabétique de nom.
 
-### Exemples
+## Exemples
 
 Montre comment utiliser les propriétés de document intégrées.
 
@@ -114,5 +116,3 @@ foreach (DocumentProperty docProperty in doc.BuiltInDocumentProperties)
 * class [DocumentPropertyCollection](../documentpropertycollection/)
 * espace de noms [Aspose.Words.Properties](../../aspose.words.properties/)
 * Assemblée [Aspose.Words](../../)
-
-

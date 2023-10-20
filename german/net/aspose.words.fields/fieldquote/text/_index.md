@@ -1,7 +1,9 @@
 ---
 title: FieldQuote.Text
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldQuote eigendom. Ruft den abzurufenden Text ab oder legt ihn fest.
+linktitle: Text
+articleTitle: Text
+second_title: Aspose.Words für .NET
+description: FieldQuote Text eigendom. Ruft den abzurufenden Text ab oder legt ihn fest in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.fields/fieldquote/text/
@@ -14,7 +16,7 @@ Ruft den abzurufenden Text ab oder legt ihn fest.
 public string Text { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt die Verwendung des QUOTE-Felds an.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "Field.QUOTE.docx");
 ### Siehe auch
 
 * class [FieldQuote](../)
-* namensraum [Aspose.Words.Fields](../../fieldquote/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

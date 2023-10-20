@@ -1,7 +1,9 @@
 ---
 title: BuildingBlockCollection.Item
-second_title: Référence de l'API Aspose.Words pour .NET
-description: BuildingBlockCollection propriété. Récupère un bloc de construction à lindex donné.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words pour .NET
+description: BuildingBlockCollection Item propriété. Récupère un bloc de construction à lindex donné en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.buildingblocks/buildingblockcollection/item/
@@ -18,7 +20,7 @@ public BuildingBlock this[int index] { get; }
 | --- | --- |
 | index | Un index dans la liste des blocs de construction. |
 
-### Remarques
+## Remarques
 
 L'indice est de base zéro.
 
@@ -28,7 +30,7 @@ Si l'index est supérieur ou égal au nombre d'éléments de la liste, cela renv
 
 Si l'index est négatif et que sa valeur absolue est supérieure au nombre d'éléments de la liste, cela renvoie une référence nulle.
 
-### Exemples
+## Exemples
 
 Montre les moyens d'accéder aux blocs de construction dans un document glossaire.
 
@@ -133,7 +135,5 @@ public class GlossaryDocVisitor : DocumentVisitor
 
 * class [BuildingBlock](../../buildingblock/)
 * class [BuildingBlockCollection](../)
-* espace de noms [Aspose.Words.BuildingBlocks](../../buildingblockcollection/)
+* espace de noms [Aspose.Words.BuildingBlocks](../../../aspose.words.buildingblocks/)
 * Assemblée [Aspose.Words](../../../)
-
-

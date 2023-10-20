@@ -1,7 +1,9 @@
 ---
-title: Class HorizontalRuleFormat
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Drawing.HorizontalRuleFormat classe. Représente le formatage des règles horizontales.
+title: HorizontalRuleFormat Class
+linktitle: HorizontalRuleFormat
+articleTitle: HorizontalRuleFormat
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Drawing.HorizontalRuleFormat classe. Représente le formatage des règles horizontales en C#.
 type: docs
 weight: 1050
 url: /fr/net/aspose.words.drawing/horizontalruleformat/
@@ -26,7 +28,7 @@ public class HorizontalRuleFormat
 | [NoShade](../../aspose.words.drawing/horizontalruleformat/noshade/) { get; set; } | Indique la présence d'un ombrage 3D pour la règle horizontale. Si`vrai` alors la règle horizontale est sans ombrage 3D et une couleur unie est utilisée. |
 | [WidthPercent](../../aspose.words.drawing/horizontalruleformat/widthpercent/) { get; set; } | Obtient ou définit la longueur de la règle horizontale spécifiée exprimée en pourcentage de la largeur de la fenêtre. |
 
-### Exemples
+## Exemples
 
 Montre comment insérer une forme de règle horizontale et personnaliser sa mise en forme.
 
@@ -50,5 +52,3 @@ Assert.True(shape.HorizontalRuleFormat.NoShade);
 
 * espace de noms [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * Assemblée [Aspose.Words](../../)
-
-

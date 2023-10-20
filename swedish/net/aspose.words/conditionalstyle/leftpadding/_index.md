@@ -1,7 +1,9 @@
 ---
 title: ConditionalStyle.LeftPadding
-second_title: Aspose.Words för .NET API Referens
-description: ConditionalStyle fast egendom. Hämtar eller ställer in mängden utrymme i poäng som ska läggas till till vänster om innehållet i tabellceller.
+linktitle: LeftPadding
+articleTitle: LeftPadding
+second_title: Aspose.Words för .NET
+description: ConditionalStyle LeftPadding fast egendom. Hämtar eller ställer in mängden utrymme i poäng som ska läggas till till vänster om innehållet i tabellceller i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words/conditionalstyle/leftpadding/
@@ -14,7 +16,7 @@ Hämtar eller ställer in mängden utrymme (i poäng) som ska läggas till till 
 public double LeftPadding { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med vissa områdesstilar i en tabell.
 
@@ -84,7 +86,5 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 ### Se även
 
 * class [ConditionalStyle](../)
-* namnutrymme [Aspose.Words](../../conditionalstyle/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

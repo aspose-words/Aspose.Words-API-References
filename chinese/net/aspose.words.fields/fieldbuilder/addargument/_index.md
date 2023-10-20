@@ -1,12 +1,14 @@
 ---
 title: FieldBuilder.AddArgument
-second_title: Aspose.Words for .NET API 参考
-description: FieldBuilder 方法. 添加字段的参数
+linktitle: AddArgument
+articleTitle: AddArgument
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldBuilder AddArgument 方法. 添加字段的参数 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.fields/fieldbuilder/addargument/
 ---
-## AddArgument(string) {#addargument_4}
+## AddArgument(*string*) {#addargument_4}
 
 添加字段的参数。
 
@@ -18,7 +20,7 @@ public FieldBuilder AddArgument(string argument)
 | --- | --- | --- |
 | argument | String | 参数值。 |
 
-### 例子
+## 例子
 
 演示如何使用字段生成器构造字段，然后将它们插入到文档中。
 
@@ -101,12 +103,12 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 ### 也可以看看
 
 * class [FieldBuilder](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldbuilder/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## AddArgument(int) {#addargument_3}
+## AddArgument(*int*) {#addargument_3}
 
 添加字段的参数。
 
@@ -118,7 +120,7 @@ public FieldBuilder AddArgument(int argument)
 | --- | --- | --- |
 | argument | Int32 | 参数值。 |
 
-### 例子
+## 例子
 
 演示如何使用字段生成器构造字段，然后将它们插入到文档中。
 
@@ -201,12 +203,12 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 ### 也可以看看
 
 * class [FieldBuilder](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldbuilder/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## AddArgument(double) {#addargument_2}
+## AddArgument(*double*) {#addargument_2}
 
 添加字段的参数。
 
@@ -218,7 +220,7 @@ public FieldBuilder AddArgument(double argument)
 | --- | --- | --- |
 | argument | Double | 参数值。 |
 
-### 例子
+## 例子
 
 演示如何使用字段生成器构造字段，然后将它们插入到文档中。
 
@@ -301,12 +303,12 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 ### 也可以看看
 
 * class [FieldBuilder](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldbuilder/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## AddArgument(FieldBuilder) {#addargument_1}
+## AddArgument(*[FieldBuilder](../)*) {#addargument_1}
 
 添加由另一个子字段表示的子字段[`FieldBuilder`](../)字段代码.
 
@@ -314,11 +316,11 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 public FieldBuilder AddArgument(FieldBuilder argument)
 ```
 
-### 评论
+## 评论
 
 当参数由单个子字段组成时，使用此重载。
 
-### 例子
+## 例子
 
 演示如何使用字段生成器构造字段，然后将它们插入到文档中。
 
@@ -401,12 +403,12 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 ### 也可以看看
 
 * class [FieldBuilder](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldbuilder/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## AddArgument(FieldArgumentBuilder) {#addargument}
+## AddArgument(*[FieldArgumentBuilder](../../fieldargumentbuilder/)*) {#addargument}
 
 添加由以下表示的字段参数[`FieldArgumentBuilder`](../../fieldargumentbuilder/)字段代码.
 
@@ -414,11 +416,11 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 public FieldBuilder AddArgument(FieldArgumentBuilder argument)
 ```
 
-### 评论
+## 评论
 
 当参数由不同部分（例如子字段、节点和纯文本）混合组成时，使用此重载。
 
-### 例子
+## 例子
 
 演示如何使用字段生成器构造字段，然后将它们插入到文档中。
 
@@ -502,7 +504,5 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 
 * class [FieldArgumentBuilder](../../fieldargumentbuilder/)
 * class [FieldBuilder](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldbuilder/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,24 +1,26 @@
 ---
 title: SignOptions.DecryptionPassword
-second_title: Aspose.Words für .NET-API-Referenz
-description: SignOptions eigendom. Das Passwort zum Entschlüsseln des Quelldokuments. Der Standardwert ist leerer String Empty.
+linktitle: DecryptionPassword
+articleTitle: DecryptionPassword
+second_title: Aspose.Words für .NET
+description: SignOptions DecryptionPassword eigendom. Das Passwort zum Entschlüsseln des Quelldokuments. Der Standardwert istleerer String Empty in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.digitalsignatures/signoptions/decryptionpassword/
 ---
 ## SignOptions.DecryptionPassword property
 
-Das Passwort zum Entschlüsseln des Quelldokuments. Der Standardwert ist **leerer String** (Empty).
+Das Passwort zum Entschlüsseln des Quelldokuments. Der Standardwert ist**leerer String** (Empty).
 
 ```csharp
 public string DecryptionPassword { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Wenn das OOXML-Dokument verschlüsselt ist, sollten Sie ein Entschlüsselungskennwort angeben , um das Quelldokument zu entschlüsseln, bevor es signiert wird. Dies ist für Dokumente im binären DOC-Format nicht erforderlich.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie eine verschlüsselte Dokumentdatei signiert wird.
 
@@ -44,7 +46,5 @@ DigitalSignatureUtil.Sign(inputFileName, outputFileName, certificateHolder, sign
 ### Siehe auch
 
 * class [SignOptions](../)
-* namensraum [Aspose.Words.DigitalSignatures](../../signoptions/)
+* namensraum [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * Montage [Aspose.Words](../../../)
-
-

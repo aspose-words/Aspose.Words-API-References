@@ -1,7 +1,9 @@
 ---
 title: VariableCollection.Item
-second_title: Aspose.Words for .NET API 参考
-description: VariableCollection 财产. 通过不区分大小写的名称获取或设置文档变量 无效的值不允许作为赋值的右侧并将被空字符串替换
+linktitle: Item
+articleTitle: Item
+second_title: 用于 .NET 的 Aspose.Words
+description: VariableCollection Item 财产. 通过不区分大小写的名称获取或设置文档变量 无效的值不允许作为赋值的右侧并将被空字符串替换 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words/variablecollection/item/
@@ -17,7 +19,7 @@ public string this[string name] { get; set; }
 ### 也可以看看
 
 * class [VariableCollection](../)
-* 命名空间 [Aspose.Words](../../variablecollection/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
 
 ---
@@ -37,7 +39,5 @@ public string this[int index] { get; set; }
 ### 也可以看看
 
 * class [VariableCollection](../)
-* 命名空间 [Aspose.Words](../../variablecollection/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

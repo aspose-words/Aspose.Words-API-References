@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.IsHorizontalRule
-second_title: Aspose.Words لمراجع .NET API
-description: ShapeBase ملكية. إرجاعحقيقي إذا كان هذا الشكل مسطرة أفقية.
+linktitle: IsHorizontalRule
+articleTitle: IsHorizontalRule
+second_title: Aspose.Words لـ .NET
+description: ShapeBase IsHorizontalRule ملكية. إرجاعحقيقي إذا كان هذا الشكل مسطرة أفقية في C#.
 type: docs
 weight: 270
 url: /ar/net/aspose.words.drawing/shapebase/ishorizontalrule/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing/shapebase/ishorizontalrule/
 public bool IsHorizontalRule { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج شكل قاعدة أفقية، وتخصيص تنسيقه.
 
@@ -37,7 +39,5 @@ Assert.True(shape.HorizontalRuleFormat.NoShade);
 ### أنظر أيضا
 
 * class [ShapeBase](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../shapebase/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

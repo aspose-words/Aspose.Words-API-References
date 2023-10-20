@@ -1,7 +1,9 @@
 ---
 title: Bookmark.FirstColumn
-second_title: Aspose.Words for .NET API 参考
-description: Bookmark 财产. 获取与书签关联的表列范围第一列的从零开始的索引
+linktitle: FirstColumn
+articleTitle: FirstColumn
+second_title: 用于 .NET 的 Aspose.Words
+description: Bookmark FirstColumn 财产. 获取与书签关联的表列范围第一列的从零开始的索引 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words/bookmark/firstcolumn/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words/bookmark/firstcolumn/
 public int FirstColumn { get; }
 ```
 
-### 评论
+## 评论
 
-返回 **-1**如果此书签不是表列书签。
+返回**-1**如果此书签不是表列书签。
 
-### 例子
+## 例子
 
 演示如何获取有关表列书签的信息。
 
@@ -45,7 +47,5 @@ foreach (Bookmark bookmark in doc.Range.Bookmarks)
 ### 也可以看看
 
 * class [Bookmark](../)
-* 命名空间 [Aspose.Words](../../bookmark/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

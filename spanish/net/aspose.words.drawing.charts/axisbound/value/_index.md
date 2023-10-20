@@ -1,7 +1,9 @@
 ---
 title: AxisBound.Value
-second_title: Referencia de API de Aspose.Words para .NET
-description: AxisBound propiedad. Devuelve el valor numérico del límite del eje.
+linktitle: Value
+articleTitle: Value
+second_title: Aspose.Words para .NET
+description: AxisBound Value propiedad. Devuelve el valor numérico del límite del eje en C#.
 type: docs
 weight: 30
 url: /es/net/aspose.words.drawing.charts/axisbound/value/
@@ -14,7 +16,7 @@ Devuelve el valor numérico del límite del eje.
 public double Value { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo establecer límites de eje personalizados.
 
@@ -74,7 +76,5 @@ doc.Save(ArtifactsDir + "Charts.AxisBound.docx");
 ### Ver también
 
 * class [AxisBound](../)
-* espacio de nombres [Aspose.Words.Drawing.Charts](../../axisbound/)
+* espacio de nombres [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * asamblea [Aspose.Words](../../../)
-
-

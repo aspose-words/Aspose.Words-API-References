@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.AlternativeText
-second_title: Aspose.Words لمراجع .NET API
-description: ShapeBase ملكية. تحديد النص البديل الذي سيتم عرضه بدلاً من الرسم.
+linktitle: AlternativeText
+articleTitle: AlternativeText
+second_title: Aspose.Words لـ .NET
+description: ShapeBase AlternativeText ملكية. تحديد النص البديل الذي سيتم عرضه بدلاً من الرسم في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.drawing/shapebase/alternativetext/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.drawing/shapebase/alternativetext/
 public string AlternativeText { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 القيمة الافتراضية هي سلسلة فارغة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام النص البديل للشكل.
 
@@ -42,7 +44,5 @@ File.Delete(ArtifactsDir + "Shape.AltText.001.png");
 ### أنظر أيضا
 
 * class [ShapeBase](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../shapebase/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

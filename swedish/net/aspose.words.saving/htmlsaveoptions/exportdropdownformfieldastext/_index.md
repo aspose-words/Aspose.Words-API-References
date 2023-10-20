@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ExportDropDownFormFieldAsText
-second_title: Aspose.Words för .NET API Referens
-description: HtmlSaveOptions fast egendom. Styr hur formulärfält i rullgardinsmenyn sparas i HTML eller MHTML. Standardvärdet ärfalsk .
+linktitle: ExportDropDownFormFieldAsText
+articleTitle: ExportDropDownFormFieldAsText
+second_title: Aspose.Words för .NET
+description: HtmlSaveOptions ExportDropDownFormFieldAsText fast egendom. Styr hur formulärfält i rullgardinsmenyn sparas i HTML eller MHTML. Standardvärdet ärfalsk  i C#.
 type: docs
 weight: 130
 url: /sv/net/aspose.words.saving/htmlsaveoptions/exportdropdownformfieldastext/
@@ -14,13 +16,13 @@ Styr hur formulärfält i rullgardinsmenyn sparas i HTML eller MHTML. Standardv�
 public bool ExportDropDownFormFieldAsText { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 När inställd på`Sann` , exporterar rullgardinsfält som normal text. When`falsk`, exporterar rullgardinsfält som SELECT-element i HTML.
 
 Vid export till EPUB sparas formulärfälten i rullgardinsmenyn alltid som text på grund av till kraven i detta format.
 
-### Exempel
+## Exempel
 
 Visar hur du får formulärfält i rullgardinsmenyn att smälta in med stycketext när du sparar till html.
 
@@ -58,7 +60,5 @@ else
 ### Se även
 
 * class [HtmlSaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../htmlsaveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

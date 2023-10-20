@@ -1,7 +1,9 @@
 ---
 title: Paragraph.Accept
-second_title: Справочник по API Aspose.Words для .NET
-description: Paragraph метод. Принимает посетителя.
+linktitle: Accept
+articleTitle: Accept
+second_title: Aspose.Words для .NET
+description: Paragraph Accept метод. Принимает посетителя на С#.
 type: docs
 weight: 230
 url: /ru/net/aspose.words/paragraph/accept/
@@ -22,7 +24,7 @@ public override bool Accept(DocumentVisitor visitor)
 
 Истинно, если были посещены все узлы; ложь, если[`DocumentVisitor`](../../documentvisitor/) остановил операцию перед посещением всех узлов.
 
-### Примечания
+## Примечания
 
 Перечисляет этот узел и все его дочерние элементы. Каждый узел вызывает соответствующий метод[`DocumentVisitor`](../../documentvisitor/).
 
@@ -30,7 +32,7 @@ public override bool Accept(DocumentVisitor visitor)
 
 Звонки[`VisitParagraphStart`](../../documentvisitor/visitparagraphstart/) , затем звонит[`Accept`](../../node/accept/) для всех дочерних узлов абзаца и вызовов[`VisitParagraphEnd`](../../documentvisitor/visitparagraphend/) в конце.
 
-### Примеры
+## Примеры
 
 Показывает, как использовать реализацию DocumentVisitor для удаления всего скрытого содержимого из документа.
 
@@ -227,7 +229,5 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
 
 * class [DocumentVisitor](../../documentvisitor/)
 * class [Paragraph](../)
-* пространство имен [Aspose.Words](../../paragraph/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

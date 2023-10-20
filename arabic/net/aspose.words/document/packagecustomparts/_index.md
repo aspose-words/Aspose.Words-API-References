@@ -1,7 +1,9 @@
 ---
 title: Document.PackageCustomParts
-second_title: Aspose.Words لمراجع .NET API
-description: Document ملكية. الحصول على أو تعيين مجموعة الأجزاء المخصصة محتوى عشوائي المرتبطة بحزمة OOXML باستخدام علاقات غير معروفة.
+linktitle: PackageCustomParts
+articleTitle: PackageCustomParts
+second_title: Aspose.Words لـ .NET
+description: Document PackageCustomParts ملكية. الحصول على أو تعيين مجموعة الأجزاء المخصصة محتوى عشوائي المرتبطة بحزمة OOXML باستخدام علاقات غير معروفة في C#.
 type: docs
 weight: 310
 url: /ar/net/aspose.words/document/packagecustomparts/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/document/packagecustomparts/
 public CustomPartCollection PackageCustomParts { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 لا تخلط بين هذه الأجزاء المخصصة وبيانات XML المخصصة. إذا كنت بحاجة إلى الوصول إلى أجزاء XML المخصصة، فاستخدم ملف[`CustomXmlParts`](../customxmlparts/) ملكية.
 
@@ -24,7 +26,7 @@ public CustomPartCollection PackageCustomParts { get; set; }
 
 لا يمكن أن تكون هذه الخاصية`باطل`.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الوصول إلى مجموعة الأجزاء المخصصة العشوائية للمستند.
 
@@ -69,7 +71,5 @@ Assert.AreEqual(0, doc.PackageCustomParts.Count);
 
 * class [CustomPartCollection](../../../aspose.words.markup/custompartcollection/)
 * class [Document](../)
-* مساحة الاسم [Aspose.Words](../../document/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

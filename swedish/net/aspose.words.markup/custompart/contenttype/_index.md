@@ -1,7 +1,9 @@
 ---
 title: CustomPart.ContentType
-second_title: Aspose.Words för .NET API Referens
-description: CustomPart fast egendom. Anger innehållstypen för den här anpassade delen.
+linktitle: ContentType
+articleTitle: ContentType
+second_title: Aspose.Words för .NET
+description: CustomPart ContentType fast egendom. Anger innehållstypen för den här anpassade delen i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.markup/custompart/contenttype/
@@ -14,13 +16,13 @@ Anger innehållstypen för den här anpassade delen.
 public string ContentType { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Denna egenskap är endast tillämplig när[`IsExternal`](../isexternal/) är`falsk`.
 
 Standardvärdet är en tom sträng. Ett giltigt värde måste vara en icke-tom sträng.
 
-### Exempel
+## Exempel
 
 Visar hur man kommer åt ett dokuments godtyckliga anpassade delarsamling.
 
@@ -64,7 +66,5 @@ Assert.AreEqual(0, doc.PackageCustomParts.Count);
 ### Se även
 
 * class [CustomPart](../)
-* namnutrymme [Aspose.Words.Markup](../../custompart/)
+* namnutrymme [Aspose.Words.Markup](../../../aspose.words.markup/)
 * hopsättning [Aspose.Words](../../../)
-
-

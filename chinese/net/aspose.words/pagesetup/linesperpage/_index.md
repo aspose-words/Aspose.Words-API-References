@@ -1,7 +1,9 @@
 ---
 title: PageSetup.LinesPerPage
-second_title: Aspose.Words for .NET API 参考
-description: PageSetup 财产. 获取或设置文档网格中每页的行数
+linktitle: LinesPerPage
+articleTitle: LinesPerPage
+second_title: 用于 .NET 的 Aspose.Words
+description: PageSetup LinesPerPage 财产. 获取或设置文档网格中每页的行数 在 C#.
 type: docs
 weight: 240
 url: /zh/net/aspose.words/pagesetup/linesperpage/
@@ -14,13 +16,13 @@ url: /zh/net/aspose.words/pagesetup/linesperpage/
 public int LinesPerPage { get; set; }
 ```
 
-### 评论
+## 评论
 
 该属性的最小值为 1。最大值取决于页面高度和 Normal 样式的字体大小。最小行距为字体大小的 136%。例如，页边距为 1 英寸的 Letter 页面的每页最大行数为 39 行。
 
 默认情况下，该属性有一个值，该值的行间距是正常样式的 字体大小的1.5倍。
 
-### 例子
+## 例子
 
 演示如何指定每页可以拥有的行数限制。
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "PageSetup.LinesPerPage.docx");
 ### 也可以看看
 
 * class [PageSetup](../)
-* 命名空间 [Aspose.Words](../../pagesetup/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

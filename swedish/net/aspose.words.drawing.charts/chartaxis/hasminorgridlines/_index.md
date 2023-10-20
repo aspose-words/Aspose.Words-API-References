@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.HasMinorGridlines
-second_title: Aspose.Words för .NET API Referens
-description: ChartAxis fast egendom. Hämtar eller sätter en flagga som indikerar om axeln har mindre rutnätslinjer.
+linktitle: HasMinorGridlines
+articleTitle: HasMinorGridlines
+second_title: Aspose.Words för .NET
+description: ChartAxis HasMinorGridlines fast egendom. Hämtar eller sätter en flagga som indikerar om axeln har mindre rutnätslinjer i C#.
 type: docs
 weight: 90
 url: /sv/net/aspose.words.drawing.charts/chartaxis/hasminorgridlines/
@@ -14,7 +16,7 @@ Hämtar eller sätter en flagga som indikerar om axeln har mindre rutnätslinjer
 public bool HasMinorGridlines { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man infogar diagram med datum/tidsvärden.
 
@@ -68,7 +70,5 @@ doc.Save(ArtifactsDir + "Charts.DateTimeValues.docx");
 ### Se även
 
 * class [ChartAxis](../)
-* namnutrymme [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* namnutrymme [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../../)
-
-

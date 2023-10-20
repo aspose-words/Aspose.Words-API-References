@@ -1,7 +1,9 @@
 ---
 title: IHyphenationCallback.RequestDictionary
-second_title: Referencia de API de Aspose.Words para .NET
-description: IHyphenationCallback método. Notifica a la aplicación que no se encontró el diccionario de separación de palabras para el idioma especificado y que es posible que sea necesario registrarlo.
+linktitle: RequestDictionary
+articleTitle: RequestDictionary
+second_title: Aspose.Words para .NET
+description: IHyphenationCallback RequestDictionary método. Notifica a la aplicación que no se encontró el diccionario de separación de palabras para el idioma especificado y que es posible que sea necesario registrarlo en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words/ihyphenationcallback/requestdictionary/
@@ -22,11 +24,11 @@ public void RequestDictionary(string language)
 | --- | --- | --- |
 | language | String | Un nombre de idioma, por ejemplo, "en-US". Consulte la documentación de .NET para conocer el "nombre de la cultura" y RFC 4646 para obtener más detalles. |
 
-### Observaciones
+## Observaciones
 
 Las excepciones lanzadas por este método abortarán la ejecución del proceso de diseño de página.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo abrir y registrar un diccionario desde un archivo.
 
@@ -102,7 +104,5 @@ private class CustomHyphenationDictionaryRegister : IHyphenationCallback
 ### Ver también
 
 * interface [IHyphenationCallback](../)
-* espacio de nombres [Aspose.Words](../../ihyphenationcallback/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

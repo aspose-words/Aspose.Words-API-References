@@ -1,7 +1,9 @@
 ---
-title: Enum LineSpacingRule
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.LineSpacingRule перечисление. Указывает значения межстрочного интервала для абзаца.
+title: LineSpacingRule Enum
+linktitle: LineSpacingRule
+articleTitle: LineSpacingRule
+second_title: Aspose.Words для .NET
+description: Aspose.Words.LineSpacingRule перечисление. Указывает значения межстрочного интервала для абзаца на С#.
 type: docs
 weight: 3440
 url: /ru/net/aspose.words/linespacingrule/
@@ -26,5 +28,3 @@ public enum LineSpacingRule
 
 * пространство имен [Aspose.Words](../../aspose.words/)
 * сборка [Aspose.Words](../../)
-
-

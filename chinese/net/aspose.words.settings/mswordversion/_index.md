@@ -1,7 +1,9 @@
 ---
-title: Enum MsWordVersion
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Settings.MsWordVersion 枚举. 允许 Aspose.Wods 模仿 MS Word 版本特定的应用程序行为
+title: MsWordVersion Enum
+linktitle: MsWordVersion
+articleTitle: MsWordVersion
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Settings.MsWordVersion 枚举. 允许 Aspose.Wods 模仿 MS Word 版本特定的应用程序行为 在 C#.
 type: docs
 weight: 5860
 url: /zh/net/aspose.words.settings/mswordversion/
@@ -27,7 +29,7 @@ public enum MsWordVersion
 | Word2016 | `6` | 优化 Aspose.Words 行为以匹配 MS Word 2016 版本。 |
 | Word2019 | `7` | 优化 Aspose.Words 行为以匹配 MS Word 2019 版本。 |
 
-### 例子
+## 例子
 
 演示如何针对不同版本的 Microsoft Word 优化文档。
 
@@ -87,5 +89,3 @@ private static void PrintCompatibilityOptions(CompatibilityOptions options)
 
 * 命名空间 [Aspose.Words.Settings](../../aspose.words.settings/)
 * 部件 [Aspose.Words](../../)
-
-

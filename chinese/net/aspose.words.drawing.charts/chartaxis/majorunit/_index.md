@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.MajorUnit
-second_title: Aspose.Words for .NET API 参考
-description: ChartAxis 财产. 返回或设置主刻度线之间的距离
+linktitle: MajorUnit
+articleTitle: MajorUnit
+second_title: 用于 .NET 的 Aspose.Words
+description: ChartAxis MajorUnit 财产. 返回或设置主刻度线之间的距离 在 C#.
 type: docs
 weight: 120
 url: /zh/net/aspose.words.drawing.charts/chartaxis/majorunit/
@@ -14,13 +16,13 @@ url: /zh/net/aspose.words.drawing.charts/chartaxis/majorunit/
 public double MajorUnit { get; set; }
 ```
 
-### 评论
+## 评论
 
 值的有效范围大于零。该属性对时间类别和 值轴有影响。
 
 设置此属性会设置[`MajorUnitIsAuto`](../majorunitisauto/)财产给`错误的`。
 
-### 例子
+## 例子
 
 演示如何插入图表并修改其轴的外观。
 
@@ -73,7 +75,5 @@ doc.Save(ArtifactsDir + "Charts.AxisProperties.docx");
 ### 也可以看看
 
 * class [ChartAxis](../)
-* 命名空间 [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* 命名空间 [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * 部件 [Aspose.Words](../../../)
-
-

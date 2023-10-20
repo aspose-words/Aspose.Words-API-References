@@ -1,9 +1,11 @@
 ---
 title: Document.RemoveExternalSchemaReferences
-second_title: Aspose.Words لمراجع .NET API
-description: Document طريقة. إزالة مراجع مخطط XML الخارجية من هذا المستند.
+linktitle: RemoveExternalSchemaReferences
+articleTitle: RemoveExternalSchemaReferences
+second_title: Aspose.Words لـ .NET
+description: Document RemoveExternalSchemaReferences طريقة. إزالة مراجع مخطط XML الخارجية من هذا المستند في C#.
 type: docs
-weight: 680
+weight: 660
 url: /ar/net/aspose.words/document/removeexternalschemareferences/
 ---
 ## Document.RemoveExternalSchemaReferences method
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/document/removeexternalschemareferences/
 public void RemoveExternalSchemaReferences()
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إزالة كافة مراجع مخطط XML الخارجية من المستند.
 
@@ -27,7 +29,5 @@ doc.RemoveExternalSchemaReferences();
 ### أنظر أيضا
 
 * class [Document](../)
-* مساحة الاسم [Aspose.Words](../../document/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

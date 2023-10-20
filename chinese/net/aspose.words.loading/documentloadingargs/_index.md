@@ -1,7 +1,9 @@
 ---
-title: Class DocumentLoadingArgs
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Loading.DocumentLoadingArgs 班级. 参数传递到Notify.
+title: DocumentLoadingArgs Class
+linktitle: DocumentLoadingArgs
+articleTitle: DocumentLoadingArgs
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Loading.DocumentLoadingArgs 班级. 参数传递到Notify 在 C#.
 type: docs
 weight: 3590
 url: /zh/net/aspose.words.loading/documentloadingargs/
@@ -26,5 +28,3 @@ public sealed class DocumentLoadingArgs
 
 * 命名空间 [Aspose.Words.Loading](../../aspose.words.loading/)
 * 部件 [Aspose.Words](../../)
-
-

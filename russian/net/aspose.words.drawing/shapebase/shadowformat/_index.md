@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.ShadowFormat
-second_title: Справочник по API Aspose.Words для .NET
-description: ShapeBase свойство. Получает форматирование тени для фигуры.
+linktitle: ShadowFormat
+articleTitle: ShadowFormat
+second_title: Aspose.Words для .NET
+description: ShapeBase ShadowFormat свойство. Получает форматирование тени для фигуры на С#.
 type: docs
 weight: 490
 url: /ru/net/aspose.words.drawing/shapebase/shadowformat/
@@ -18,7 +20,5 @@ public ShadowFormat ShadowFormat { get; }
 
 * class [ShadowFormat](../../shadowformat/)
 * class [ShapeBase](../)
-* пространство имен [Aspose.Words.Drawing](../../shapebase/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

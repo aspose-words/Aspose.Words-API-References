@@ -1,7 +1,9 @@
 ---
-title: Class VbaModuleCollection
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Vba.VbaModuleCollection klass. Representerar en samling avVbaModule objekt.
+title: VbaModuleCollection Class
+linktitle: VbaModuleCollection
+articleTitle: VbaModuleCollection
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Vba.VbaModuleCollection klass. Representerar en samling avVbaModule objekt i C#.
 type: docs
 weight: 6560
 url: /sv/net/aspose.words.vba/vbamodulecollection/
@@ -27,10 +29,10 @@ public sealed class VbaModuleCollection : IEnumerable<VbaModule>
 
 | namn | Beskrivning |
 | --- | --- |
-| [Add](../../aspose.words.vba/vbamodulecollection/add/)(VbaModule) | Lägger till en modul i samlingen. |
-| [Remove](../../aspose.words.vba/vbamodulecollection/remove/)(VbaModule) | Tar bort den angivna modulen från samlingen. |
+| [Add](../../aspose.words.vba/vbamodulecollection/add/)(*[VbaModule](../vbamodule/)*) | Lägger till en modul i samlingen. |
+| [Remove](../../aspose.words.vba/vbamodulecollection/remove/)(*[VbaModule](../vbamodule/)*) | Tar bort den angivna modulen från samlingen. |
 
-### Exempel
+## Exempel
 
 Visar hur man kommer åt ett dokuments VBA-projektinformation.
 
@@ -63,5 +65,3 @@ vbaModules.Remove(vbaModules[2]);
 * class [VbaModule](../vbamodule/)
 * namnutrymme [Aspose.Words.Vba](../../aspose.words.vba/)
 * hopsättning [Aspose.Words](../../)
-
-

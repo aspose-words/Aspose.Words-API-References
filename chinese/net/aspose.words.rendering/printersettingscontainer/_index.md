@@ -1,7 +1,9 @@
 ---
-title: Class PrinterSettingsContainer
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Rendering.PrinterSettingsContainer 班级. 代表一些参数的存储PrinterSettings对象.
+title: PrinterSettingsContainer Class
+linktitle: PrinterSettingsContainer
+articleTitle: PrinterSettingsContainer
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Rendering.PrinterSettingsContainer 班级. 代表一些参数的存储PrinterSettings对象 在 C#.
 type: docs
 weight: 4580
 url: /zh/net/aspose.words.rendering/printersettingscontainer/
@@ -20,7 +22,7 @@ public class PrinterSettingsContainer
 
 | 姓名 | 描述 |
 | --- | --- |
-| [PrinterSettingsContainer](printersettingscontainer/)(PrinterSettings) | 创建一个容器PrinterSettings. |
+| [PrinterSettingsContainer](printersettingscontainer/)(*PrinterSettings*) | 创建一个容器PrinterSettings. |
 
 ## 特性
 
@@ -30,11 +32,11 @@ public class PrinterSettingsContainer
 | [PaperSizes](../../aspose.words.rendering/printersettingscontainer/papersizes/) { get; } | 参见PaperSizes. |
 | [PaperSources](../../aspose.words.rendering/printersettingscontainer/papersources/) { get; } | 参见PaperSources. |
 
-### 评论
+## 评论
 
 访问数据PrinterSettings需要很长时间. `PrinterSettingsContainer`缓存来自的参数PrinterSettings, 因此打印速度更快。
 
-### 例子
+## 例子
 
 演示如何访问并列出打印机的纸张来源和尺寸。
 
@@ -68,5 +70,3 @@ foreach (System.Drawing.Printing.PaperSize paperSize in container.PaperSizes)
 
 * 命名空间 [Aspose.Words.Rendering](../../aspose.words.rendering/)
 * 部件 [Aspose.Words](../../)
-
-

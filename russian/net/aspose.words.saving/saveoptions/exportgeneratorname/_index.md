@@ -1,7 +1,9 @@
 ---
 title: SaveOptions.ExportGeneratorName
-second_title: Справочник по API Aspose.Words для .NET
-description: SaveOptions свойство. Когдаистинный  приводит к внедрению имени и версии Aspose.Words в создаваемые файлы. Значение по умолчаниюистинный .
+linktitle: ExportGeneratorName
+articleTitle: ExportGeneratorName
+second_title: Aspose.Words для .NET
+description: SaveOptions ExportGeneratorName свойство. Когдаистинный  приводит к внедрению имени и версии Aspose.Words в создаваемые файлы. Значение по умолчаниюистинный  на С#.
 type: docs
 weight: 80
 url: /ru/net/aspose.words.saving/saveoptions/exportgeneratorname/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.saving/saveoptions/exportgeneratorname/
 public bool ExportGeneratorName { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как отключить добавление имени и версии Aspose.Words в создаваемые файлы.
 
@@ -30,7 +32,5 @@ doc.Save(ArtifactsDir + "OoxmlSaveOptions.ExportGeneratorName.docx", saveOptions
 ### Смотрите также
 
 * class [SaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../saveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

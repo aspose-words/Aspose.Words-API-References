@@ -1,7 +1,9 @@
 ---
-title: Class ShapeRenderer
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Rendering.ShapeRenderer сорт. Предоставляет методы для визуализации человекаShape илиGroupShape в растровое или векторное изображение или в графический объект.
+title: ShapeRenderer Class
+linktitle: ShapeRenderer
+articleTitle: ShapeRenderer
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Rendering.ShapeRenderer сорт. Предоставляет методы для визуализации человекаShape илиGroupShape в растровое или векторное изображение или в графический объект на С#.
 type: docs
 weight: 4590
 url: /ru/net/aspose.words.rendering/shaperenderer/
@@ -20,7 +22,7 @@ public class ShapeRenderer : NodeRendererBase
 
 | Имя | Описание |
 | --- | --- |
-| [ShapeRenderer](shaperenderer/)(ShapeBase) | Инициализирует новый экземпляр этого класса. |
+| [ShapeRenderer](shaperenderer/)(*[ShapeBase](../../aspose.words.drawing/shapebase/)*) | Инициализирует новый экземпляр этого класса. |
 
 ## Характеристики
 
@@ -34,18 +36,18 @@ public class ShapeRenderer : NodeRendererBase
 
 | Имя | Описание |
 | --- | --- |
-| [GetBoundsInPixels](../../aspose.words.rendering/noderendererbase/getboundsinpixels/)(float, float) | Вычисляет границы фигуры в пикселях для указанного коэффициента масштабирования и разрешения. |
-| [GetBoundsInPixels](../../aspose.words.rendering/noderendererbase/getboundsinpixels/)(float, float, float) | Вычисляет границы фигуры в пикселях для указанного коэффициента масштабирования и разрешения. |
-| [GetOpaqueBoundsInPixels](../../aspose.words.rendering/noderendererbase/getopaqueboundsinpixels/)(float, float) | Вычисляет непрозрачные границы фигуры в пикселях для указанного коэффициента масштабирования и разрешения. |
-| [GetOpaqueBoundsInPixels](../../aspose.words.rendering/noderendererbase/getopaqueboundsinpixels/)(float, float, float) | Вычисляет непрозрачные границы фигуры в пикселях для указанного коэффициента масштабирования и разрешения. |
-| [GetSizeInPixels](../../aspose.words.rendering/noderendererbase/getsizeinpixels/)(float, float) | Вычисляет размер фигуры в пикселях для указанного коэффициента масштабирования и разрешения. |
-| [GetSizeInPixels](../../aspose.words.rendering/noderendererbase/getsizeinpixels/)(float, float, float) | Вычисляет размер фигуры в пикселях для указанного коэффициента масштабирования и разрешения. |
-| [RenderToScale](../../aspose.words.rendering/noderendererbase/rendertoscale/)(Graphics, float, float, float) | Преобразует фигуру вGraphics объект в указанном масштабе. |
-| [RenderToSize](../../aspose.words.rendering/noderendererbase/rendertosize/)(Graphics, float, float, float, float) | Преобразует фигуру вGraphics объект указанного размера. |
-| [Save](../../aspose.words.rendering/noderendererbase/save/)(Stream, ImageSaveOptions) | Преобразует фигуру в изображение и сохраняет в поток. |
-| [Save](../../aspose.words.rendering/noderendererbase/save/)(string, ImageSaveOptions) | Преобразует форму в изображение и сохраняет в файл. |
+| [GetBoundsInPixels](../../aspose.words.rendering/noderendererbase/getboundsinpixels/)(*float, float*) | Вычисляет границы фигуры в пикселях для указанного коэффициента масштабирования и разрешения. |
+| [GetBoundsInPixels](../../aspose.words.rendering/noderendererbase/getboundsinpixels/)(*float, float, float*) | Вычисляет границы фигуры в пикселях для указанного коэффициента масштабирования и разрешения. |
+| [GetOpaqueBoundsInPixels](../../aspose.words.rendering/noderendererbase/getopaqueboundsinpixels/)(*float, float*) | Вычисляет непрозрачные границы фигуры в пикселях для указанного коэффициента масштабирования и разрешения. |
+| [GetOpaqueBoundsInPixels](../../aspose.words.rendering/noderendererbase/getopaqueboundsinpixels/)(*float, float, float*) | Вычисляет непрозрачные границы фигуры в пикселях для указанного коэффициента масштабирования и разрешения. |
+| [GetSizeInPixels](../../aspose.words.rendering/noderendererbase/getsizeinpixels/)(*float, float*) | Вычисляет размер фигуры в пикселях для указанного коэффициента масштабирования и разрешения. |
+| [GetSizeInPixels](../../aspose.words.rendering/noderendererbase/getsizeinpixels/)(*float, float, float*) | Вычисляет размер фигуры в пикселях для указанного коэффициента масштабирования и разрешения. |
+| [RenderToScale](../../aspose.words.rendering/noderendererbase/rendertoscale/)(*Graphics, float, float, float*) | Преобразует фигуру вGraphics объект в указанном масштабе. |
+| [RenderToSize](../../aspose.words.rendering/noderendererbase/rendertosize/)(*Graphics, float, float, float, float*) | Преобразует фигуру вGraphics объект указанного размера. |
+| [Save](../../aspose.words.rendering/noderendererbase/save/)(*Stream, [ImageSaveOptions](../../aspose.words.saving/imagesaveoptions/)*) | Преобразует фигуру в изображение и сохраняет в поток. |
+| [Save](../../aspose.words.rendering/noderendererbase/save/)(*string, [ImageSaveOptions](../../aspose.words.saving/imagesaveoptions/)*) | Преобразует форму в изображение и сохраняет в файл. |
 
-### Примеры
+## Примеры
 
 Показывает, как визуализировать фигуру с помощью объекта Graphics и отобразить ее с помощью формы Windows.
 
@@ -157,5 +159,3 @@ private class ShapeForm : Form
 * class [NodeRendererBase](../noderendererbase/)
 * пространство имен [Aspose.Words.Rendering](../../aspose.words.rendering/)
 * сборка [Aspose.Words](../../)
-
-

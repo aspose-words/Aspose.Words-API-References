@@ -1,7 +1,9 @@
 ---
 title: FieldAddressBlock.LanguageId
-second_title: Aspose.Words لمراجع .NET API
-description: FieldAddressBlock ملكية. الحصول على أو تعيين معرف اللغة المستخدم لتنسيق العنوان.
+linktitle: LanguageId
+articleTitle: LanguageId
+second_title: Aspose.Words لـ .NET
+description: FieldAddressBlock LanguageId ملكية. الحصول على أو تعيين معرف اللغة المستخدم لتنسيق العنوان في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.fields/fieldaddressblock/languageid/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldaddressblock/languageid/
 public string LanguageId { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج حقل ADDRESSBLOCK.
 
@@ -45,7 +47,5 @@ Assert.AreEqual(
 ### أنظر أيضا
 
 * class [FieldAddressBlock](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldaddressblock/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

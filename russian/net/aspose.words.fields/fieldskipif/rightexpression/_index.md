@@ -1,7 +1,9 @@
 ---
 title: FieldSkipIf.RightExpression
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldSkipIf свойство. Получает или задает правую часть выражения сравнения.
+linktitle: RightExpression
+articleTitle: RightExpression
+second_title: Aspose.Words для .NET
+description: FieldSkipIf RightExpression свойство. Получает или задает правую часть выражения сравнения на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.fields/fieldskipif/rightexpression/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldskipif/rightexpression/
 public string RightExpression { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как пропускать страницы при слиянии писем с помощью поля SKIPIF.
 
@@ -107,7 +109,5 @@ doc.Save(ArtifactsDir + "Field.MERGEREC.MERGESEQ.docx");
 ### Смотрите также
 
 * class [FieldSkipIf](../)
-* пространство имен [Aspose.Words.Fields](../../fieldskipif/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

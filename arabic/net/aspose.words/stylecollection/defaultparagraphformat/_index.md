@@ -1,7 +1,9 @@
 ---
 title: StyleCollection.DefaultParagraphFormat
-second_title: Aspose.Words لمراجع .NET API
-description: StyleCollection ملكية. الحصول على تنسيق الفقرة الافتراضي للمستند.
+linktitle: DefaultParagraphFormat
+articleTitle: DefaultParagraphFormat
+second_title: Aspose.Words لـ .NET
+description: StyleCollection DefaultParagraphFormat ملكية. الحصول على تنسيق الفقرة الافتراضي للمستند في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words/stylecollection/defaultparagraphformat/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words/stylecollection/defaultparagraphformat/
 public ParagraphFormat DefaultParagraphFormat { get; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 لاحظ أنه تم تقديم الإعدادات الافتراضية على مستوى المستند في Microsoft Word 2007 وهي مدعومة بالكامل بتنسيقات OOXML (Docx) فقط. لا تحتوي تنسيقات المستندات السابقة على دعم لتنسيق الفقرة الافتراضي للمستند.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إضافة نمط إلى مجموعة أنماط المستند.
 
@@ -42,7 +44,5 @@ Assert.AreEqual(15.0, styles["MyStyle"].ParagraphFormat.FirstLineIndent);
 
 * class [ParagraphFormat](../../paragraphformat/)
 * class [StyleCollection](../)
-* مساحة الاسم [Aspose.Words](../../stylecollection/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

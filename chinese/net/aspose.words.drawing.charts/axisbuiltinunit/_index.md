@@ -1,7 +1,9 @@
 ---
-title: Enum AxisBuiltInUnit
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Drawing.Charts.AxisBuiltInUnit 枚举. 指定轴的显示单位
+title: AxisBuiltInUnit Enum
+linktitle: AxisBuiltInUnit
+articleTitle: AxisBuiltInUnit
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Drawing.Charts.AxisBuiltInUnit 枚举. 指定轴的显示单位 在 C#.
 type: docs
 weight: 520
 url: /zh/net/aspose.words.drawing.charts/axisbuiltinunit/
@@ -31,7 +33,7 @@ public enum AxisBuiltInUnit
 | Trillions | `10` | 指定图表上的值应除以 1,000,000,000,0000。 |
 | Percentage | `11` | 指定图表上的值应除以 0.01。仅 MS Office 2016. 的新图表 类型支持此值。 |
 
-### 例子
+## 例子
 
 演示如何操作图表轴的刻度线和显示值。
 
@@ -90,5 +92,3 @@ doc.Save(ArtifactsDir + "Charts.AxisDisplayUnit.docx");
 
 * 命名空间 [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * 部件 [Aspose.Words](../../)
-
-

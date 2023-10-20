@@ -1,7 +1,9 @@
 ---
 title: Border.TintAndShade
-second_title: Aspose.Words für .NET-API-Referenz
-description: Border eigendom. Ruft einen DoubleWert ab oder legt ihn fest der eine Farbe heller oder dunkler macht.
+linktitle: TintAndShade
+articleTitle: TintAndShade
+second_title: Aspose.Words für .NET
+description: Border TintAndShade eigendom. Ruft einen DoubleWert ab oder legt ihn fest der eine Farbe heller oder dunkler macht in C#.
 type: docs
 weight: 80
 url: /de/net/aspose.words/border/tintandshade/
@@ -14,13 +16,13 @@ Ruft einen Double-Wert ab oder legt ihn fest, der eine Farbe heller oder dunkler
 public double TintAndShade { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Die zulässigen Werte für diese Eigenschaft liegen im Bereich von -1 (am dunkelsten) bis 1 (am hellsten). Null (0) ist neutral. Der Versuch, diese Eigenschaft auf einen Wert kleiner als -1 oder mehr als 1 festzulegen, führt zuArgumentOutOfRangeException.
 
 Das Festlegen dieser Eigenschaft für ein Rahmenobjekt mit Nicht-Theme-Farben führt zuInvalidOperationException.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Absatz mit einem oberen Rand eingefügt wird.
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "Border.ParagraphTopBorder.docx");
 ### Siehe auch
 
 * class [Border](../)
-* namensraum [Aspose.Words](../../border/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

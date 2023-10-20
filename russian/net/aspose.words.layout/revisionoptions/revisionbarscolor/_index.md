@@ -1,7 +1,9 @@
 ---
 title: RevisionOptions.RevisionBarsColor
-second_title: Справочник по API Aspose.Words для .NET
-description: RevisionOptions свойство. Позволяет указать цвет который будет использоваться для боковых полос которые идентифицируют строки документа содержащие измененную информацию. Значение по умолчаниюRed .
+linktitle: RevisionBarsColor
+articleTitle: RevisionBarsColor
+second_title: Aspose.Words для .NET
+description: RevisionOptions RevisionBarsColor свойство. Позволяет указать цвет который будет использоваться для боковых полос которые идентифицируют строки документа содержащие измененную информацию. Значение по умолчаниюRed  на С#.
 type: docs
 weight: 130
 url: /ru/net/aspose.words.layout/revisionoptions/revisionbarscolor/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.layout/revisionoptions/revisionbarscolor/
 public RevisionColor RevisionBarsColor { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Установка этого свойства вByAuthor илиNoHighlight Values приведет к скрытию полос редакций из макета.
 
-### Примеры
+## Примеры
 
 Показывает, как изменить внешний вид редакций.
 
@@ -70,7 +72,5 @@ doc.Save(ArtifactsDir + "Revision.RevisionOptions.pdf");
 
 * enum [RevisionColor](../../revisioncolor/)
 * class [RevisionOptions](../)
-* пространство имен [Aspose.Words.Layout](../../revisionoptions/)
+* пространство имен [Aspose.Words.Layout](../../../aspose.words.layout/)
 * сборка [Aspose.Words](../../../)
-
-

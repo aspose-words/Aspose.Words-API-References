@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.PrintBodyTextBeforeHeader
-second_title: Référence de l'API Aspose.Words pour .NET
-description: CompatibilityOptions propriété. Imprimer le corps du texte avant le contenu de lentête/pied de page.
+linktitle: PrintBodyTextBeforeHeader
+articleTitle: PrintBodyTextBeforeHeader
+second_title: Aspose.Words pour .NET
+description: CompatibilityOptions PrintBodyTextBeforeHeader propriété. Imprimer le corps du texte avant le contenu de lentête/pied de page en C#.
 type: docs
 weight: 390
 url: /fr/net/aspose.words.settings/compatibilityoptions/printbodytextbeforeheader/
@@ -17,7 +19,5 @@ public bool PrintBodyTextBeforeHeader { get; set; }
 ### Voir également
 
 * class [CompatibilityOptions](../)
-* espace de noms [Aspose.Words.Settings](../../compatibilityoptions/)
+* espace de noms [Aspose.Words.Settings](../../../aspose.words.settings/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: WriteProtection.IsWriteProtected
-second_title: Référence de l'API Aspose.Words pour .NET
-description: WriteProtection propriété. Retoursvrai lorsquun mot de passe de protection en écriture est défini.
+linktitle: IsWriteProtected
+articleTitle: IsWriteProtected
+second_title: Aspose.Words pour .NET
+description: WriteProtection IsWriteProtected propriété. Retoursvrai lorsquun mot de passe de protection en écriture est défini en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.settings/writeprotection/iswriteprotected/
@@ -14,7 +16,7 @@ Retours`vrai` lorsqu'un mot de passe de protection en écriture est défini.
 public bool IsWriteProtected { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment protéger un document avec un mot de passe.
 
@@ -46,7 +48,5 @@ Assert.AreEqual("Hello world! This document is protected." +
 ### Voir également
 
 * class [WriteProtection](../)
-* espace de noms [Aspose.Words.Settings](../../writeprotection/)
+* espace de noms [Aspose.Words.Settings](../../../aspose.words.settings/)
 * Assemblée [Aspose.Words](../../../)
-
-

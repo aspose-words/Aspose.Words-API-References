@@ -1,7 +1,9 @@
 ---
 title: NodeChangingArgs.Node
-second_title: Aspose.Words per .NET API Reference
-description: NodeChangingArgs proprietà. Ottiene il fileNode che viene aggiunto o rimosso.
+linktitle: Node
+articleTitle: Node
+second_title: Aspose.Words per .NET
+description: NodeChangingArgs Node proprietà. Ottiene il fileNode che viene aggiunto o rimosso in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words/nodechangingargs/node/
@@ -14,7 +16,7 @@ Ottiene il file`Node` che viene aggiunto o rimosso.
 public Node Node { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come personalizzare la modifica del nodo con un callback.
 
@@ -92,7 +94,5 @@ public class HandleNodeChangingFontChanger : INodeChangingCallback
 
 * class [Node](../../node/)
 * class [NodeChangingArgs](../)
-* spazio dei nomi [Aspose.Words](../../nodechangingargs/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

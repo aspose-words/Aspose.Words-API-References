@@ -1,7 +1,9 @@
 ---
 title: Cluster.DeepClone
-second_title: Aspose.Words för .NET API Referens
-description: Cluster metod. Returnerar en djup klon av denna instans.
+linktitle: DeepClone
+articleTitle: DeepClone
+second_title: Aspose.Words för .NET
+description: Cluster DeepClone metod. Returnerar en djup klon av denna instans i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.shaping/cluster/deepclone/
@@ -17,7 +19,5 @@ public Cluster DeepClone()
 ### Se även
 
 * class [Cluster](../)
-* namnutrymme [Aspose.Words.Shaping](../../cluster/)
+* namnutrymme [Aspose.Words.Shaping](../../../aspose.words.shaping/)
 * hopsättning [Aspose.Words](../../../)
-
-

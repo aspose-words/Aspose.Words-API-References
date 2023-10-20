@@ -1,7 +1,9 @@
 ---
 title: ListFormat.IsListItem
-second_title: Aspose.Words لمراجع .NET API
-description: ListFormat ملكية. صحيح عندما يتم تطبيق التنسيق النقطي أو الرقمي على الفقرة.
+linktitle: IsListItem
+articleTitle: IsListItem
+second_title: Aspose.Words لـ .NET
+description: ListFormat IsListItem ملكية. صحيح عندما يتم تطبيق التنسيق النقطي أو الرقمي على الفقرة في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.lists/listformat/islistitem/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.lists/listformat/islistitem/
 public bool IsListItem { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إخراج كافة الفقرات في مستند عبارة عن عناصر قائمة.
 
@@ -94,7 +96,5 @@ doc.Save(ArtifactsDir + "Lists.SpecifyListLevel.docx");
 ### أنظر أيضا
 
 * class [ListFormat](../)
-* مساحة الاسم [Aspose.Words.Lists](../../listformat/)
+* مساحة الاسم [Aspose.Words.Lists](../../../aspose.words.lists/)
 * المجسم [Aspose.Words](../../../)
-
-

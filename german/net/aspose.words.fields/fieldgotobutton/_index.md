@@ -1,7 +1,9 @@
 ---
-title: Class FieldGoToButton
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Fields.FieldGoToButton klas. Implementiert das GOTOBUTTONFeld.
+title: FieldGoToButton Class
+linktitle: FieldGoToButton
+articleTitle: FieldGoToButton
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Fields.FieldGoToButton klas. Implementiert das GOTOBUTTONFeld in C#.
 type: docs
 weight: 1970
 url: /de/net/aspose.words.fields/fieldgotobutton/
@@ -44,17 +46,17 @@ public class FieldGoToButton : Field
 | Name | Beschreibung |
 | --- | --- |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Gibt Text zwischen Feldanfang und Feldtrennzeichen zurück (oder Feldende, wenn kein Trennzeichen vorhanden ist). Sowohl der Feldcode als auch das Feldergebnis der untergeordneten Felder sind enthalten. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Gibt Text zwischen Feldanfang und Feldtrennzeichen zurück (oder Feldende, wenn kein Trennzeichen vorhanden ist). |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | Gibt Text zwischen Feldanfang und Feldtrennzeichen zurück (oder Feldende, wenn kein Trennzeichen vorhanden ist). |
 | [Remove](../../aspose.words.fields/field/remove/)() | Entfernt das Feld aus dem Dokument. Gibt einen Knoten direkt nach dem Feld zurück. Wenn das Ende des Felds das letzte child seines übergeordneten Knotens ist, wird dessen übergeordneter Absatz zurückgegeben. Wenn das Feld bereits entfernt wurde, wird zurückgegeben`Null` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | Führt das Feld unlink aus. |
 | [Update](../../aspose.words.fields/field/update/)() | Führt die Feldaktualisierung durch. Wird ausgelöst, wenn das Feld bereits aktualisiert wird. |
-| [Update](../../aspose.words.fields/field/update/)(bool) | Führt eine Feldaktualisierung durch. Wird ausgelöst, wenn das Feld bereits aktualisiert wird. |
+| [Update](../../aspose.words.fields/field/update/)(*bool*) | Führt eine Feldaktualisierung durch. Wird ausgelöst, wenn das Feld bereits aktualisiert wird. |
 
-### Bemerkungen
+## Bemerkungen
 
 Fügt einen Sprungbefehl ein, sodass bei Aktivierung der Einfügepunkt des Dokuments an die angegebene Position verschoben wird.
 
-### Beispiele
+## Beispiele
 
 Zeigt an, dass ein GOTOBUTTON-Feld eingefügt werden soll.
 
@@ -85,5 +87,3 @@ doc.Save(ArtifactsDir + "Field.GOTOBUTTON.docx");
 * class [Field](../field/)
 * namensraum [Aspose.Words.Fields](../../aspose.words.fields/)
 * Montage [Aspose.Words](../../)
-
-

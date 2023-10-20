@@ -1,7 +1,9 @@
 ---
 title: ThemeColors.Accent5
-second_title: Referencia de API de Aspose.Words para .NET
-description: ThemeColors propiedad. Especifica el color Acento 5.
+linktitle: Accent5
+articleTitle: Accent5
+second_title: Aspose.Words para .NET
+description: ThemeColors Accent5 propiedad. Especifica el color Acento 5 en C#.
 type: docs
 weight: 50
 url: /es/net/aspose.words.themes/themecolors/accent5/
@@ -14,7 +16,7 @@ Especifica el color Acento 5.
 public Color Accent5 { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo configurar colores y fuentes personalizados para temas.
 
@@ -62,7 +64,5 @@ doc.Save(ArtifactsDir + "Themes.CustomColorsAndFonts.docx");
 ### Ver también
 
 * class [ThemeColors](../)
-* espacio de nombres [Aspose.Words.Themes](../../themecolors/)
+* espacio de nombres [Aspose.Words.Themes](../../../aspose.words.themes/)
 * asamblea [Aspose.Words](../../../)
-
-

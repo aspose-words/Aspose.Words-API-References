@@ -1,7 +1,9 @@
 ---
 title: Document.LastSection
-second_title: Aspose.Words for .NET API 参考
-description: Document 财产. 获取文档中的最后一部分
+linktitle: LastSection
+articleTitle: LastSection
+second_title: 用于 .NET 的 Aspose.Words
+description: Document LastSection 财产. 获取文档中的最后一部分 在 C#.
 type: docs
 weight: 240
 url: /zh/net/aspose.words/document/lastsection/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words/document/lastsection/
 public Section LastSection { get; }
 ```
 
-### 评论
+## 评论
 
 返回`无效的`如果没有部分.
 
-### 例子
+## 例子
 
 演示如何使用文档生成器创建新部分。
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "Section.Create.docx");
 
 * class [Section](../../section/)
 * class [Document](../)
-* 命名空间 [Aspose.Words](../../document/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

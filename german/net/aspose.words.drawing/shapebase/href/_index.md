@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.HRef
-second_title: Aspose.Words für .NET-API-Referenz
-description: ShapeBase eigendom. Ruft die vollständige HyperlinkAdresse für eine Form ab oder legt diese fest.
+linktitle: HRef
+articleTitle: HRef
+second_title: Aspose.Words für .NET
+description: ShapeBase HRef eigendom. Ruft die vollständige HyperlinkAdresse für eine Form ab oder legt diese fest in C#.
 type: docs
 weight: 230
 url: /de/net/aspose.words.drawing/shapebase/href/
@@ -14,7 +16,7 @@ Ruft die vollständige Hyperlink-Adresse für eine Form ab oder legt diese fest.
 public string HRef { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Der Standardwert ist eine leere Zeichenfolge.
 
@@ -32,7 +34,7 @@ Lesezeichen in einem anderen Dokument:`https://www.aspose.com/Products/Default.a
 
 Lesezeichen in diesem Dokument:`#BookmakName`.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie eine Form eingefügt wird, die ein Bild enthält und gleichzeitig einen Hyperlink darstellt.
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "Image.InsertImageWithHyperlink.docx");
 ### Siehe auch
 
 * class [ShapeBase](../)
-* namensraum [Aspose.Words.Drawing](../../shapebase/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

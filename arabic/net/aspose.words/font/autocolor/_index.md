@@ -1,7 +1,9 @@
 ---
 title: Font.AutoColor
-second_title: Aspose.Words لمراجع .NET API
-description: Font ملكية. إرجاع اللون المحسوب الحالي للنص أسود أو أبيض لاستخدامه في اللون التلقائي. إذا لم يكن اللون تلقائيًا فسيتم إرجاعهColor .
+linktitle: AutoColor
+articleTitle: AutoColor
+second_title: Aspose.Words لـ .NET
+description: Font AutoColor ملكية. إرجاع اللون المحسوب الحالي للنص أسود أو أبيض لاستخدامه في اللون التلقائي. إذا لم يكن اللون تلقائيًا فسيتم إرجاعهColor  في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words/font/autocolor/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words/font/autocolor/
 public Color AutoColor { get; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 عندما يكون للنص "لون تلقائي"، يتم حساب اللون الفعلي للنص تلقائيًا بحيث يكون قابلاً للقراءة مقابل لون الخلفية. عندما تقوم بتغيير لون الخلفية، سيتحول لون النص تلقائيًا إلى الأسود أو الأبيض في برنامج MS Word لزيادة الوضوح إلى أقصى حد.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحسين إمكانية القراءة عن طريق تحديد لون النص تلقائيًا بناءً على سطوع خلفيته.
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "Font.SetFontAutoColor.docx");
 ### أنظر أيضا
 
 * class [Font](../)
-* مساحة الاسم [Aspose.Words](../../font/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

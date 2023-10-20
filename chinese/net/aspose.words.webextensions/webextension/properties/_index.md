@@ -1,7 +1,9 @@
 ---
 title: WebExtension.Properties
-second_title: Aspose.Words for .NET API 参考
-description: WebExtension 财产. 表示一组 Web 扩展自定义属性
+linktitle: Properties
+articleTitle: Properties
+second_title: 用于 .NET 的 Aspose.Words
+description: WebExtension Properties 财产. 表示一组 Web 扩展自定义属性 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words.webextensions/webextension/properties/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.webextensions/webextension/properties/
 public WebExtensionPropertyCollection Properties { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何向文档添加 Web 扩展。
 
@@ -60,7 +62,5 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 
 * class [WebExtensionPropertyCollection](../../webextensionpropertycollection/)
 * class [WebExtension](../)
-* 命名空间 [Aspose.Words.WebExtensions](../../webextension/)
+* 命名空间 [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * 部件 [Aspose.Words](../../../)
-
-

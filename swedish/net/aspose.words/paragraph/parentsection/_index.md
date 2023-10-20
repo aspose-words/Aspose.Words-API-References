@@ -1,7 +1,9 @@
 ---
 title: Paragraph.ParentSection
-second_title: Aspose.Words för .NET API Referens
-description: Paragraph fast egendom. Hämtar föräldernSection i stycket.
+linktitle: ParentSection
+articleTitle: ParentSection
+second_title: Aspose.Words för .NET
+description: Paragraph ParentSection fast egendom. Hämtar föräldernSection i stycket i C#.
 type: docs
 weight: 200
 url: /sv/net/aspose.words/paragraph/parentsection/
@@ -14,7 +16,7 @@ Hämtar föräldern[`Section`](../../section/) i stycket.
 public Section ParentSection { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man skapar ett sidhuvud och en sidfot.
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "HeaderFooter.Create.docx");
 
 * class [Section](../../section/)
 * class [Paragraph](../)
-* namnutrymme [Aspose.Words](../../paragraph/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

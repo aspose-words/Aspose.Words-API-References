@@ -1,7 +1,9 @@
 ---
-title: Class CustomPartCollection
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Markup.CustomPartCollection klass. Representerar en samling avCustomPart objekt.
+title: CustomPartCollection Class
+linktitle: CustomPartCollection
+articleTitle: CustomPartCollection
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Markup.CustomPartCollection klass. Representerar en samling avCustomPart objekt i C#.
 type: docs
 weight: 3910
 url: /sv/net/aspose.words.markup/custompartcollection/
@@ -33,17 +35,17 @@ public class CustomPartCollection : IEnumerable<CustomPart>
 
 | namn | Beskrivning |
 | --- | --- |
-| [Add](../../aspose.words.markup/custompartcollection/add/)(CustomPart) | Lägger till ett föremål i samlingen. |
+| [Add](../../aspose.words.markup/custompartcollection/add/)(*[CustomPart](../custompart/)*) | Lägger till ett föremål i samlingen. |
 | [Clear](../../aspose.words.markup/custompartcollection/clear/)() | Tar bort alla element från samlingen. |
 | [Clone](../../aspose.words.markup/custompartcollection/clone/)() | Gör en djup kopia av den här samlingen och dess föremål. |
 | [GetEnumerator](../../aspose.words.markup/custompartcollection/getenumerator/)() | Returnerar ett uppräkningsobjekt som kan användas för att iterera över alla objekt i samlingen. |
-| [RemoveAt](../../aspose.words.markup/custompartcollection/removeat/)(int) | Tar bort ett objekt vid angivet index. |
+| [RemoveAt](../../aspose.words.markup/custompartcollection/removeat/)(*int*) | Tar bort ett objekt vid angivet index. |
 
-### Anmärkningar
+## Anmärkningar
 
 Du behöver normalt inte skapa instanser av den här klassen. Du kommer åt anpassade delar relaterade till OOXML-paketet via[`PackageCustomParts`](../../aspose.words/document/packagecustomparts/) fast egendom.
 
-### Exempel
+## Exempel
 
 Visar hur man kommer åt ett dokuments godtyckliga anpassade delarsamling.
 
@@ -89,5 +91,3 @@ Assert.AreEqual(0, doc.PackageCustomParts.Count);
 * class [CustomPart](../custompart/)
 * namnutrymme [Aspose.Words.Markup](../../aspose.words.markup/)
 * hopsättning [Aspose.Words](../../)
-
-

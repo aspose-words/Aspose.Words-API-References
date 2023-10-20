@@ -1,9 +1,11 @@
 ---
 title: Table.SetBorders
-second_title: Справочник по API Aspose.Words для .NET
-description: Table метод. Устанавливает для всех границ таблицы указанный стиль ширину и цвет линий.
+linktitle: SetBorders
+articleTitle: SetBorders
+second_title: Aspose.Words для .NET
+description: Table SetBorders метод. Устанавливает для всех границ таблицы указанный стиль ширину и цвет линий на С#.
 type: docs
-weight: 440
+weight: 420
 url: /ru/net/aspose.words.tables/table/setborders/
 ---
 ## Table.SetBorders method
@@ -20,7 +22,7 @@ public void SetBorders(LineStyle lineStyle, double lineWidth, Color color)
 | lineWidth | Double | Толщина линии, которую необходимо установить (в пунктах). |
 | color | Color | Цвет, используемый для границы. |
 
-### Примеры
+## Примеры
 
 Показывает, как форматировать все границы таблицы одновременно.
 
@@ -77,7 +79,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.TableBordersAndShading.docx");
 
 * enum [LineStyle](../../../aspose.words/linestyle/)
 * class [Table](../)
-* пространство имен [Aspose.Words.Tables](../../table/)
+* пространство имен [Aspose.Words.Tables](../../../aspose.words.tables/)
 * сборка [Aspose.Words](../../../)
-
-

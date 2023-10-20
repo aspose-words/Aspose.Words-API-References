@@ -1,7 +1,9 @@
 ---
 title: ChartMarker.Size
-second_title: Aspose.Words for .NET API 参考
-description: ChartMarker 财产. 获取或设置图表标记大小 默认值为 7
+linktitle: Size
+articleTitle: Size
+second_title: 用于 .NET 的 Aspose.Words
+description: ChartMarker Size 财产. 获取或设置图表标记大小 默认值为 7 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.drawing.charts/chartmarker/size/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.drawing.charts/chartmarker/size/
 public int Size { get; set; }
 ```
 
-### 例子
+## 例子
 
 展示如何使用折线图上的数据点。
 
@@ -76,7 +78,5 @@ private static void ApplyDataPoints(ChartSeries series, int dataPointsCount, Mar
 ### 也可以看看
 
 * class [ChartMarker](../)
-* 命名空间 [Aspose.Words.Drawing.Charts](../../chartmarker/)
+* 命名空间 [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * 部件 [Aspose.Words](../../../)
-
-

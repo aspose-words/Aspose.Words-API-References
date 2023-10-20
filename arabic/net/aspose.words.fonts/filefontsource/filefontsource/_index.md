@@ -1,12 +1,14 @@
 ---
-title: FileFontSource.FileFontSource
-second_title: Aspose.Words لمراجع .NET API
-description: FileFontSource البناء. الممثل.
+title: FileFontSource
+linktitle: FileFontSource
+articleTitle: FileFontSource
+second_title: Aspose.Words لـ .NET
+description: FileFontSource البناء. الممثل في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fonts/filefontsource/filefontsource/
 ---
-## FileFontSource(string) {#constructor}
+## FileFontSource(*string*) {#constructor}
 
 الممثل.
 
@@ -18,7 +20,7 @@ public FileFontSource(string filePath)
 | --- | --- | --- |
 | filePath | String | المسار إلى ملف الخط. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام ملف الخط في نظام الملفات المحلي كمصدر للخط.
 
@@ -37,12 +39,12 @@ Assert.AreEqual(0, fileFontSource.Priority);
 ### أنظر أيضا
 
 * class [FileFontSource](../)
-* مساحة الاسم [Aspose.Words.Fonts](../../filefontsource/)
+* مساحة الاسم [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## FileFontSource(string, int) {#constructor_1}
+## FileFontSource(*string, int*) {#constructor_1}
 
 الممثل.
 
@@ -55,7 +57,7 @@ public FileFontSource(string filePath, int priority)
 | filePath | String | المسار إلى ملف الخط. |
 | priority | Int32 | أولوية مصدر الخط. انظر[`Priority`](../../fontsourcebase/priority/) وصف العقار لمزيد من المعلومات. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام ملف الخط في نظام الملفات المحلي كمصدر للخط.
 
@@ -74,12 +76,12 @@ Assert.AreEqual(0, fileFontSource.Priority);
 ### أنظر أيضا
 
 * class [FileFontSource](../)
-* مساحة الاسم [Aspose.Words.Fonts](../../filefontsource/)
+* مساحة الاسم [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## FileFontSource(string, int, string) {#constructor_2}
+## FileFontSource(*string, int, string*) {#constructor_2}
 
 الممثل.
 
@@ -93,7 +95,7 @@ public FileFontSource(string filePath, int priority, string cacheKey)
 | priority | Int32 | أولوية مصدر الخط. انظر[`Priority`](../../fontsourcebase/priority/) وصف العقار لمزيد من المعلومات. |
 | cacheKey | String | مفتاح هذا المصدر في ذاكرة التخزين المؤقت. يرى[`CacheKey`](../cachekey/) وصف العقار لمزيد من المعلومات. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تسريع عملية تهيئة ذاكرة التخزين المؤقت للخط.
 
@@ -144,7 +146,5 @@ private class SearchCacheStream : StreamFontSource
 ### أنظر أيضا
 
 * class [FileFontSource](../)
-* مساحة الاسم [Aspose.Words.Fonts](../../filefontsource/)
+* مساحة الاسم [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * المجسم [Aspose.Words](../../../)
-
-

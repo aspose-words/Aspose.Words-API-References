@@ -1,7 +1,9 @@
 ---
 title: Node.PreviousSibling
-second_title: Aspose.Words för .NET API Referens
-description: Node fast egendom. Hämtar noden omedelbart före denna nod.
+linktitle: PreviousSibling
+articleTitle: PreviousSibling
+second_title: Aspose.Words för .NET
+description: Node PreviousSibling fast egendom. Hämtar noden omedelbart före denna nod i C#.
 type: docs
 weight: 70
 url: /sv/net/aspose.words/node/previoussibling/
@@ -14,11 +16,11 @@ Hämtar noden omedelbart före denna nod.
 public Node PreviousSibling { get; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Om det inte finns någon föregående nod, a`null` returneras.
 
-### Exempel
+## Exempel
 
 Visar hur man använder metoderna för Node och CompositeNode för att ta bort ett avsnitt före det sista avsnittet i dokumentet.
 
@@ -45,7 +47,5 @@ Assert.AreEqual("Section 2 text.", doc.GetText().Trim());
 ### Se även
 
 * class [Node](../)
-* namnutrymme [Aspose.Words](../../node/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

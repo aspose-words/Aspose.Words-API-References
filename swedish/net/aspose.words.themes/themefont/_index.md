@@ -1,7 +1,9 @@
 ---
-title: Enum ThemeFont
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Themes.ThemeFont uppräkning. Anger typer av temateckensnittsnamn för dokumentteman.
+title: ThemeFont Enum
+linktitle: ThemeFont
+articleTitle: ThemeFont
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Themes.ThemeFont uppräkning. Anger typer av temateckensnittsnamn för dokumentteman i C#.
 type: docs
 weight: 6490
 url: /sv/net/aspose.words.themes/themefont/
@@ -22,11 +24,11 @@ public enum ThemeFont
 | Major | `1` | Typsnitt med huvudtema. |
 | Minor | `2` | Teckensnitt med mindre tema. |
 
-### Anmärkningar
+## Anmärkningar
 
 Anger en temateckensnittstyp som kan refereras till som ett temateckensnitt inom de överordnade objektets egenskaper. Detta temateckensnitt är en referens till ett av de fördefinierade temateckensnitten, som finns i dokumentets Tema-del, vilket möjliggör teckensnittsinformation för att ställas in centralt i dokumentet.
 
-### Exempel
+## Exempel
 
 Visar hur man skapar och använder stil med teman.
 
@@ -131,5 +133,3 @@ Assert.AreEqual(Color.Blue.ToArgb(), font.Color.ToArgb());
 
 * namnutrymme [Aspose.Words.Themes](../../aspose.words.themes/)
 * hopsättning [Aspose.Words](../../)
-
-

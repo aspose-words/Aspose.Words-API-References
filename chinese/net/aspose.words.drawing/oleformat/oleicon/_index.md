@@ -1,7 +1,9 @@
 ---
 title: OleFormat.OleIcon
-second_title: Aspose.Words for .NET API 参考
-description: OleFormat 财产. 获取 OLE 对象的绘制方面什么时候真的OLE 对象显示为图标 当错误的OLE 对象显示为内容
+linktitle: OleIcon
+articleTitle: OleIcon
+second_title: 用于 .NET 的 Aspose.Words
+description: OleFormat OleIcon 财产. 获取 OLE 对象的绘制方面什么时候真的OLE 对象显示为图标 当错误的OLE 对象显示为内容 在 C#.
 type: docs
 weight: 70
 url: /zh/net/aspose.words.drawing/oleformat/oleicon/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.drawing/oleformat/oleicon/
 public bool OleIcon { get; }
 ```
 
-### 评论
+## 评论
 
 Aspose.Words 不允许设置此属性以避免混淆。如果您能够在 Aspose.Words 中更改 绘图方面，Microsoft Word 仍会以其原始 绘图方面显示 OLE 对象，直到您在 Microsoft Word 中编辑或更新 OLE 对象为止。
 
-### 例子
+## 例子
 
 演示如何插入链接和未链接的 OLE 对象。
 
@@ -68,7 +70,5 @@ using (MemoryStream stream = oleFormat.GetOleEntry("\x0001CompObj"))
 ### 也可以看看
 
 * class [OleFormat](../)
-* 命名空间 [Aspose.Words.Drawing](../../oleformat/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: XlsxSaveOptions.CompressionLevel
-second_title: Справочник по API Aspose.Words для .NET
-description: XlsxSaveOptions свойство. Указывает уровень сжатия используемый для сохранения документа. Значение по умолчаниюNormal .
+linktitle: CompressionLevel
+articleTitle: CompressionLevel
+second_title: Aspose.Words для .NET
+description: XlsxSaveOptions CompressionLevel свойство. Указывает уровень сжатия используемый для сохранения документа. Значение по умолчаниюNormal  на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.saving/xlsxsaveoptions/compressionlevel/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.saving/xlsxsaveoptions/compressionlevel/
 public CompressionLevel CompressionLevel { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как сжать документ XLSX.
 
@@ -31,7 +33,5 @@ doc.Save(ArtifactsDir + "XlsxSaveOptions.CompressXlsx.xlsx", xlsxSaveOptions);
 
 * enum [CompressionLevel](../../compressionlevel/)
 * class [XlsxSaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../xlsxsaveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

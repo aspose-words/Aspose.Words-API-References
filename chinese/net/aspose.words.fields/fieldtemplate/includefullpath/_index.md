@@ -1,7 +1,9 @@
 ---
 title: FieldTemplate.IncludeFullPath
-second_title: Aspose.Words for .NET API 参考
-description: FieldTemplate 财产. 获取或设置是否包含完整文件路径名
+linktitle: IncludeFullPath
+articleTitle: IncludeFullPath
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldTemplate IncludeFullPath 财产. 获取或设置是否包含完整文件路径名 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.fields/fieldtemplate/includefullpath/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fieldtemplate/includefullpath/
 public bool IncludeFullPath { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何使用 TEMPLATE 字段来显示文档模板的本地文件系统位置。
 
@@ -42,7 +44,5 @@ doc.Save(ArtifactsDir + "Field.TEMPLATE.docx");
 ### 也可以看看
 
 * class [FieldTemplate](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldtemplate/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

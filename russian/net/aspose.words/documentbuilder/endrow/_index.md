@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.EndRow
-second_title: Справочник по API Aspose.Words для .NET
-description: DocumentBuilder метод. Завершает строку таблицы в документе.
+linktitle: EndRow
+articleTitle: EndRow
+second_title: Aspose.Words для .NET
+description: DocumentBuilder EndRow метод. Завершает строку таблицы в документе на С#.
 type: docs
 weight: 240
 url: /ru/net/aspose.words/documentbuilder/endrow/
@@ -18,13 +20,13 @@ public Row EndRow()
 
 Узел строки, который только что был завершен.
 
-### Примечания
+## Примечания
 
 Вызов`EndRow` завершить строку таблицы. Если вы позвоните[`InsertCell`](../insertcell/) немедленно после этого таблица продолжается в новой строке.
 
 Использовать[`RowFormat`](../rowformat/) свойство для указания форматирования строк.
 
-### Примеры
+## Примеры
 
 Показывает, как объединить ячейки таблицы по вертикали.
 
@@ -166,7 +168,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
 
 * class [Row](../../../aspose.words.tables/row/)
 * class [DocumentBuilder](../)
-* пространство имен [Aspose.Words](../../documentbuilder/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: SaveOptions.UseAntiAliasing
-second_title: Référence de l'API Aspose.Words pour .NET
-description: SaveOptions propriété. Obtient ou définit une valeur déterminant sil faut ou non utiliser lanticrénelage pour le rendu.
+linktitle: UseAntiAliasing
+articleTitle: UseAntiAliasing
+second_title: Aspose.Words pour .NET
+description: SaveOptions UseAntiAliasing propriété. Obtient ou définit une valeur déterminant sil faut ou non utiliser lanticrénelage pour le rendu en C#.
 type: docs
 weight: 190
 url: /fr/net/aspose.words.saving/saveoptions/useantialiasing/
@@ -14,13 +16,13 @@ Obtient ou définit une valeur déterminant s'il faut ou non utiliser l'anticré
 public bool UseAntiAliasing { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 La valeur par défaut est`FAUX` . Lorsque cette valeur est fixée à`vrai` l'anticrénelage is utilisé pour le rendu.
 
 Cette propriété est utilisée lorsque le document est exporté aux formats suivants : Tiff ,Png ,Bmp , Jpeg ,Emf . Lorsque le document est exporté vers the Html ,Mhtml , Epub ,Azw3 ouMobi formats, cette option est utilisée pour les images raster.
 
-### Exemples
+## Exemples
 
 Montre comment améliorer la qualité d’un document rendu avec SaveOptions.
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "Document.ImageSaveOptions.HighQuality.jpg", options);
 ### Voir également
 
 * class [SaveOptions](../)
-* espace de noms [Aspose.Words.Saving](../../saveoptions/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

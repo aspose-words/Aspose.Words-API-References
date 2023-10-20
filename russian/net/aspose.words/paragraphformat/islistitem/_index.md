@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.IsListItem
-second_title: Справочник по API Aspose.Words для .NET
-description: ParagraphFormat свойство. Истинно если абзац является элементом маркированного или нумерованного списка.
+linktitle: IsListItem
+articleTitle: IsListItem
+second_title: Aspose.Words для .NET
+description: ParagraphFormat IsListItem свойство. Истинно если абзац является элементом маркированного или нумерованного списка на С#.
 type: docs
 weight: 150
 url: /ru/net/aspose.words/paragraphformat/islistitem/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/paragraphformat/islistitem/
 public bool IsListItem { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как вложить список в другой список.
 
@@ -68,7 +70,5 @@ builder.Document.Save(ArtifactsDir + "Lists.NestedLists.docx");
 ### Смотрите также
 
 * class [ParagraphFormat](../)
-* пространство имен [Aspose.Words](../../paragraphformat/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

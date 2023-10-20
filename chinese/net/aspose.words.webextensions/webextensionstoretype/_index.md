@@ -1,7 +1,9 @@
 ---
-title: Enum WebExtensionStoreType
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.WebExtensions.WebExtensionStoreType 枚举. 枚举 Web 扩展存储的可用类型
+title: WebExtensionStoreType Enum
+linktitle: WebExtensionStoreType
+articleTitle: WebExtensionStoreType
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.WebExtensions.WebExtensionStoreType 枚举. 枚举 Web 扩展存储的可用类型 在 C#.
 type: docs
 weight: 6820
 url: /zh/net/aspose.words.webextensions/webextensionstoretype/
@@ -27,7 +29,7 @@ public enum WebExtensionStoreType
 | ExCatalog | `6` | 指定存储类型是通过 Exchange 进行集中部署。 |
 | Default | `0` | 默认值。 |
 
-### 例子
+## 例子
 
 演示如何向文档添加 Web 扩展。
 
@@ -73,5 +75,3 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 
 * 命名空间 [Aspose.Words.WebExtensions](../../aspose.words.webextensions/)
 * 部件 [Aspose.Words](../../)
-
-

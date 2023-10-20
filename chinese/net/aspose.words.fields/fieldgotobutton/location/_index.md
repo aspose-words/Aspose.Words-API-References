@@ -1,7 +1,9 @@
 ---
 title: FieldGoToButton.Location
-second_title: Aspose.Words for .NET API 参考
-description: FieldGoToButton 财产. 获取或设置书签的名称页码或要跳转到的其他项目
+linktitle: Location
+articleTitle: Location
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldGoToButton Location 财产. 获取或设置书签的名称页码或要跳转到的其他项目 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.fields/fieldgotobutton/location/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fieldgotobutton/location/
 public string Location { get; set; }
 ```
 
-### 例子
+## 例子
 
 显示插入 GOTOBUTTON 字段。
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "Field.GOTOBUTTON.docx");
 ### 也可以看看
 
 * class [FieldGoToButton](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldgotobutton/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

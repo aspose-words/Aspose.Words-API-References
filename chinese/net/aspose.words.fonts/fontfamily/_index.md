@@ -1,7 +1,9 @@
 ---
-title: Enum FontFamily
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Fonts.FontFamily 枚举. 代表字体系列
+title: FontFamily Enum
+linktitle: FontFamily
+articleTitle: FontFamily
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Fonts.FontFamily 枚举. 代表字体系列 在 C#.
 type: docs
 weight: 2910
 url: /zh/net/aspose.words.fonts/fontfamily/
@@ -25,11 +27,11 @@ public enum FontFamily
 | Script | `4` | 指定设计为看起来像手写的字体；示例包括脚本和草书。 |
 | Decorative | `5` | 指定新奇字体。一个例子是古英语。 |
 
-### 评论
+## 评论
 
 字体系列是一组具有共同笔划宽度和衬线特征的字体。
 
-### 例子
+## 例子
 
 演示如何访问和打印文档中每种字体的详细信息。
 
@@ -69,5 +71,3 @@ while (fontCollectionEnumerator.MoveNext())
 
 * 命名空间 [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * 部件 [Aspose.Words](../../)
-
-

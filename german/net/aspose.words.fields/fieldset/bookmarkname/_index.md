@@ -1,7 +1,9 @@
 ---
 title: FieldSet.BookmarkName
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldSet eigendom. Ruft den Namen des Lesezeichens ab oder legt ihn fest.
+linktitle: BookmarkName
+articleTitle: BookmarkName
+second_title: Aspose.Words für .NET
+description: FieldSet BookmarkName eigendom. Ruft den Namen des Lesezeichens ab oder legt ihn fest in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.fields/fieldset/bookmarkname/
@@ -14,7 +16,7 @@ Ruft den Namen des Lesezeichens ab oder legt ihn fest.
 public string BookmarkName { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie mit einem SET-Feld markierten Text erstellen und ihn dann mithilfe eines REF-Felds im Dokument anzeigen.
 
@@ -45,7 +47,5 @@ doc.Save(ArtifactsDir + "Field.SET.REF.docx");
 ### Siehe auch
 
 * class [FieldSet](../)
-* namensraum [Aspose.Words.Fields](../../fieldset/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

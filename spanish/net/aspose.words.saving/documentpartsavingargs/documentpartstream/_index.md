@@ -1,7 +1,9 @@
 ---
 title: DocumentPartSavingArgs.DocumentPartStream
-second_title: Referencia de API de Aspose.Words para .NET
-description: DocumentPartSavingArgs propiedad. Permite especificar la secuencia donde se guardará la parte del documento.
+linktitle: DocumentPartStream
+articleTitle: DocumentPartStream
+second_title: Aspose.Words para .NET
+description: DocumentPartSavingArgs DocumentPartStream propiedad. Permite especificar la secuencia donde se guardará la parte del documento en C#.
 type: docs
 weight: 30
 url: /es/net/aspose.words.saving/documentpartsavingargs/documentpartstream/
@@ -14,7 +16,7 @@ Permite especificar la secuencia donde se guardará la parte del documento.
 public Stream DocumentPartStream { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 Esta propiedad le permite guardar partes del documento en secuencias en lugar de archivos durante la exportación HTML.
 
@@ -24,7 +26,7 @@ Cuando se solicita guardar en una secuencia en formato HTML[`Save`](../../../asp
 
 Al guardar en formato EPUB, que es un formato contenedor basado en HTML,`DocumentPartStream` No se puede especificar porque todas las partes subsidiarias se encapsularán en un único paquete de salida.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo dividir un documento en partes y guardarlas.
 
@@ -141,7 +143,5 @@ public class SavedImageRename : IImageSavingCallback
 ### Ver también
 
 * class [DocumentPartSavingArgs](../)
-* espacio de nombres [Aspose.Words.Saving](../../documentpartsavingargs/)
+* espacio de nombres [Aspose.Words.Saving](../../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class MailMergeSettings
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Settings.MailMergeSettings classe. Specifica tutte le informazioni sulla stampa unione per un documento.
+title: MailMergeSettings Class
+linktitle: MailMergeSettings
+articleTitle: MailMergeSettings
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Settings.MailMergeSettings classe. Specifica tutte le informazioni sulla stampa unione per un documento in C#.
 type: docs
 weight: 5850
 url: /it/net/aspose.words.settings/mailmergesettings/
@@ -50,7 +52,7 @@ public class MailMergeSettings
 | [Clear](../../aspose.words.settings/mailmergesettings/clear/)() | Cancella le impostazioni di stampa unione in modo tale che quando il documento viene salvato, nessuna impostazione di stampa unione verrà salvata e diventerà un documento normale. |
 | [Clone](../../aspose.words.settings/mailmergesettings/clone/)() | Restituisce un clone profondo di questo oggetto. |
 
-### Osservazioni
+## Osservazioni
 
 È possibile utilizzare questo oggetto per specificare un'origine dati di stampa unione per un documento e queste informazioni (insieme ai campi dati disponibili) verranno visualizzate in Microsoft Word quando l'utente apre questo documento. Oppure è possibile utilizzare questo oggetto per eseguire query sulle impostazioni di stampa unione che l'utente ha specificato in Microsoft Word per questo documento.
 
@@ -64,7 +66,7 @@ Il modo migliore per imparare come utilizzare le proprietà di questo oggetto è
 
 Aspose.Words conserva le informazioni sulla stampa unione durante il caricamento, il salvataggio e la conversione di documenti tra diversi formati, ma non utilizza queste informazioni quando esegue la propria stampa unione utilizzando il comando[`MailMerge`](../../aspose.words.mailmerging/mailmerge/) oggetto.
 
-### Esempi
+## Esempi
 
 Mostra come eseguire una stampa unione con i dati di un oggetto origine dati di Office.
 
@@ -117,5 +119,3 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 
 * spazio dei nomi [Aspose.Words.Settings](../../aspose.words.settings/)
 * assemblea [Aspose.Words](../../)
-
-

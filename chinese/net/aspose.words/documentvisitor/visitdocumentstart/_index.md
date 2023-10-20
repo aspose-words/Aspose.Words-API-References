@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitDocumentStart
-second_title: Aspose.Words for .NET API 参考
-description: DocumentVisitor 方法. 在开始枚举文档时调用
+linktitle: VisitDocumentStart
+articleTitle: VisitDocumentStart
+second_title: 用于 .NET 的 Aspose.Words
+description: DocumentVisitor VisitDocumentStart 方法. 在开始枚举文档时调用 在 C#.
 type: docs
 weight: 150
 url: /zh/net/aspose.words/documentvisitor/visitdocumentstart/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitDocumentStart(Document doc)
 
 A[`VisitorAction`](../../visitoraction/)指定如何继续枚举的值。
 
-### 例子
+## 例子
 
 演示如何使用文档访问者打印文档的节点结构。
 
@@ -193,7 +195,5 @@ public class DocStructurePrinter : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [Document](../../document/)
 * class [DocumentVisitor](../)
-* 命名空间 [Aspose.Words](../../documentvisitor/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

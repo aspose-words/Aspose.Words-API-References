@@ -1,12 +1,14 @@
 ---
 title: TabStopCollection.Add
-second_title: Aspose.Words för .NET API Referens
-description: TabStopCollection metod. Lägger till eller ersätter ett tabbstopp i samlingen.
+linktitle: Add
+articleTitle: Add
+second_title: Aspose.Words för .NET
+description: TabStopCollection Add metod. Lägger till eller ersätter ett tabbstopp i samlingen i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words/tabstopcollection/add/
 ---
-## Add(TabStop) {#add}
+## Add(*[TabStop](../../tabstop/)*) {#add}
 
 Lägger till eller ersätter ett tabbstopp i samlingen.
 
@@ -18,11 +20,11 @@ public void Add(TabStop tabStop)
 | --- | --- | --- |
 | tabStop | TabStop | Ett tabbstoppobjekt att lägga till. |
 
-### Anmärkningar
+## Anmärkningar
 
 Om ett tabbstopp redan finns på den angivna positionen ersätts det.
 
-### Exempel
+## Exempel
 
 Visar hur man lägger till anpassade tabbstopp i ett dokument.
 
@@ -57,12 +59,12 @@ doc.Save(ArtifactsDir + "TabStopCollection.AddTabStops.docx");
 
 * class [TabStop](../../tabstop/)
 * class [TabStopCollection](../)
-* namnutrymme [Aspose.Words](../../tabstopcollection/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## Add(double, TabAlignment, TabLeader) {#add_1}
+## Add(*double, [TabAlignment](../../tabalignment/), [TabLeader](../../tableader/)*) {#add_1}
 
 Lägger till eller ersätter ett tabbstopp i samlingen.
 
@@ -76,11 +78,11 @@ public void Add(double position, TabAlignment alignment, TabLeader leader)
 | alignment | TabAlignment | A[`TabAlignment`](../../tabalignment/) värde that anger justeringen av text vid tabbstoppet. |
 | leader | TabLeader | A[`TabLeader`](../../tableader/) värde that anger typen av ledarraden som visas under tabbtecknet. |
 
-### Anmärkningar
+## Anmärkningar
 
 Om ett tabbstopp redan finns på den angivna positionen ersätts det.
 
-### Exempel
+## Exempel
 
 Visar hur man lägger till anpassade tabbstopp i ett dokument.
 
@@ -116,7 +118,5 @@ doc.Save(ArtifactsDir + "TabStopCollection.AddTabStops.docx");
 * enum [TabAlignment](../../tabalignment/)
 * enum [TabLeader](../../tableader/)
 * class [TabStopCollection](../)
-* namnutrymme [Aspose.Words](../../tabstopcollection/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

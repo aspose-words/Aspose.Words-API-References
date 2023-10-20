@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.IsGroup
-second_title: Aspose.Words لمراجع .NET API
-description: ShapeBase ملكية. إرجاعحقيقي إذا كان هذا شكل مجموعة.
+linktitle: IsGroup
+articleTitle: IsGroup
+second_title: Aspose.Words لـ .NET
+description: ShapeBase IsGroup ملكية. إرجاعحقيقي إذا كان هذا شكل مجموعة في C#.
 type: docs
 weight: 260
 url: /ar/net/aspose.words.drawing/shapebase/isgroup/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing/shapebase/isgroup/
 public bool IsGroup { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء مجموعة من الأشكال، وطباعة محتوياتها باستخدام زائر المستند.
 
@@ -105,7 +107,5 @@ public class ShapeGroupPrinter : DocumentVisitor
 ### أنظر أيضا
 
 * class [ShapeBase](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../shapebase/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

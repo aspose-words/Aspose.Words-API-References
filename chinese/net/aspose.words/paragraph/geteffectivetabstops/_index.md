@@ -1,9 +1,11 @@
 ---
 title: Paragraph.GetEffectiveTabStops
-second_title: Aspose.Words for .NET API 参考
-description: Paragraph 方法. 返回应用于此段落的所有制表位的数组包括通过样式或列表间接应用的
+linktitle: GetEffectiveTabStops
+articleTitle: GetEffectiveTabStops
+second_title: 用于 .NET 的 Aspose.Words
+description: Paragraph GetEffectiveTabStops 方法. 返回应用于此段落的所有制表位的数组包括通过样式或列表间接应用的 在 C#.
 type: docs
-weight: 270
+weight: 250
 url: /zh/net/aspose.words/paragraph/geteffectivetabstops/
 ---
 ## Paragraph.GetEffectiveTabStops method
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/paragraph/geteffectivetabstops/
 public TabStop[] GetEffectiveTabStops()
 ```
 
-### 例子
+## 例子
 
 演示如何为段落设置自定义制表位。
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "Paragraph.TabStops.docx");
 
 * class [TabStop](../../tabstop/)
 * class [Paragraph](../)
-* 命名空间 [Aspose.Words](../../paragraph/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

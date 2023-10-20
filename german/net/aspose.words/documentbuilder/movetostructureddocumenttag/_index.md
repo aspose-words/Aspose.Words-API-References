@@ -1,12 +1,14 @@
 ---
 title: DocumentBuilder.MoveToStructuredDocumentTag
-second_title: Aspose.Words für .NET-API-Referenz
-description: DocumentBuilder methode. Bewegt den Cursor zu einem strukturierten DokumentTag im aktuellen Abschnitt.
+linktitle: MoveToStructuredDocumentTag
+articleTitle: MoveToStructuredDocumentTag
+second_title: Aspose.Words für .NET
+description: DocumentBuilder MoveToStructuredDocumentTag methode. Bewegt den Cursor zu einem strukturierten DokumentTag im aktuellen Abschnitt in C#.
 type: docs
-weight: 590
+weight: 580
 url: /de/net/aspose.words/documentbuilder/movetostructureddocumenttag/
 ---
-## MoveToStructuredDocumentTag(int, int) {#movetostructureddocumenttag_1}
+## MoveToStructuredDocumentTag(*int, int*) {#movetostructureddocumenttag_1}
 
 Bewegt den Cursor zu einem strukturierten Dokument-Tag im aktuellen Abschnitt.
 
@@ -19,13 +21,13 @@ public void MoveToStructuredDocumentTag(int structuredDocumentTagIndex, int char
 | structuredDocumentTagIndex | Int32 | Der Index des strukturierten Dokumenttags, zu dem verschoben werden soll. |
 | characterIndex | Int32 | Der Index des Zeichens innerhalb des strukturierten Dokument-Tags. Mit einem negativen Wert können Sie eine Position ab dem Ende des strukturierten Dokument-Tags angeben. Verwenden Sie -1, um zum Ende des strukturierten Dokument-Tags zu verschieben. Wenn sich das Tag des strukturierten Dokuments auf Blockebene befindet und Sie den Cursor an das Ende des letzten Absatzes bewegen möchten, geben Sie -2 an. |
 
-### Bemerkungen
+## Bemerkungen
 
 Die Navigation erfolgt innerhalb der aktuellen Story des aktuellen Abschnitts. Das heißt, wenn Sie den -Cursor auf die primäre Kopfzeile des ersten Abschnitts verschoben haben, dann*structuredDocumentTagIndex* gab den Index des strukturierten Dokument-Tags in der Kopfzeile dieses Abschnitts an.
 
 Wann*structuredDocumentTagIndex* größer oder gleich 0 ist, gibt es einen index vom Anfang des Abschnitts an, wobei 0 das erste Tag des strukturierten Dokuments ist. Wann *structuredDocumentTagIndex* kleiner als 0 ist, wird ein Index vom Ende des Abschnitts angegeben, wobei -1 das letzte Tag des strukturierten Dokuments ist.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie der Cursor von DocumentBuilder innerhalb eines strukturierten Dokument-Tags bewegt wird.
 
@@ -57,12 +59,12 @@ doc.Save(ArtifactsDir + "Document.MoveToStructuredDocumentTag.docx");
 ### Siehe auch
 
 * class [DocumentBuilder](../)
-* namensraum [Aspose.Words](../../documentbuilder/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
 
 ---
 
-## MoveToStructuredDocumentTag(StructuredDocumentTag, int) {#movetostructureddocumenttag}
+## MoveToStructuredDocumentTag(*[StructuredDocumentTag](../../../aspose.words.markup/structureddocumenttag/), int*) {#movetostructureddocumenttag}
 
 Bewegt den Cursor zum Tag des strukturierten Dokuments.
 
@@ -76,7 +78,7 @@ public void MoveToStructuredDocumentTag(StructuredDocumentTag structuredDocument
 | structuredDocumentTag | StructuredDocumentTag | Das strukturierte Dokument-Tag, zu dem verschoben werden soll. |
 | characterIndex | Int32 | Der Index des Zeichens innerhalb des strukturierten Dokument-Tags. Mit einem negativen Wert können Sie eine Position ab dem Ende des strukturierten Dokument-Tags angeben. Verwenden Sie -1, um zum Ende des strukturierten Dokument-Tags zu verschieben. Wenn sich das Tag des strukturierten Dokuments auf Blockebene befindet und Sie den Cursor an das Ende des letzten Absatzes bewegen möchten, geben Sie -2 an. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie der Cursor von DocumentBuilder innerhalb eines strukturierten Dokument-Tags bewegt wird.
 
@@ -109,7 +111,5 @@ doc.Save(ArtifactsDir + "Document.MoveToStructuredDocumentTag.docx");
 
 * class [StructuredDocumentTag](../../../aspose.words.markup/structureddocumenttag/)
 * class [DocumentBuilder](../)
-* namensraum [Aspose.Words](../../documentbuilder/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

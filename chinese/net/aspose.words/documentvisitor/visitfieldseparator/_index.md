@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitFieldSeparator
-second_title: Aspose.Words for .NET API 参考
-description: DocumentVisitor 方法. 在文档中遇到字段分隔符时调用
+linktitle: VisitFieldSeparator
+articleTitle: VisitFieldSeparator
+second_title: 用于 .NET 的 Aspose.Words
+description: DocumentVisitor VisitFieldSeparator 方法. 在文档中遇到字段分隔符时调用 在 C#.
 type: docs
 weight: 190
 url: /zh/net/aspose.words/documentvisitor/visitfieldseparator/
@@ -22,13 +24,13 @@ public virtual VisitorAction VisitFieldSeparator(FieldSeparator fieldSeparator)
 
 A[`VisitorAction`](../../visitoraction/)指定如何继续枚举的值。
 
-### 评论
+## 评论
 
 字段分隔符将文档中的字段代码与字段值分开。请注意，某些 字段只有字段代码，没有字段分隔符和字段值。
 
 欲了解更多信息，请参阅[`VisitFieldStart`](../visitfieldstart/)
 
-### 例子
+## 例子
 
 演示如何打印文档中每个字段的节点结构。
 
@@ -133,7 +135,5 @@ public class FieldStructurePrinter : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [FieldSeparator](../../../aspose.words.fields/fieldseparator/)
 * class [DocumentVisitor](../)
-* 命名空间 [Aspose.Words](../../documentvisitor/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

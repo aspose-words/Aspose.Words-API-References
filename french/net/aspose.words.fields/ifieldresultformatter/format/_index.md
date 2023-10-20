@@ -1,12 +1,14 @@
 ---
 title: IFieldResultFormatter.Format
-second_title: Référence de l'API Aspose.Words pour .NET
-description: IFieldResultFormatter méthode. Appelé lorsque Aspose.Words applique un changement de format de majuscule cestàdire  Upper.
+linktitle: Format
+articleTitle: Format
+second_title: Aspose.Words pour .NET
+description: IFieldResultFormatter Format méthode. Appelé lorsque Aspose.Words applique un changement de format de majuscule cestàdire  Upper en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.fields/ifieldresultformatter/format/
 ---
-## Format(string, GeneralFormat) {#format_1}
+## Format(*string, [GeneralFormat](../../generalformat/)*) {#format_1}
 
 Appelé lorsque Aspose.Words applique un changement de format de majuscule, c'est-à-dire \* Upper.
 
@@ -14,11 +16,11 @@ Appelé lorsque Aspose.Words applique un changement de format de majuscule, c'es
 public string Format(string value, GeneralFormat format)
 ```
 
-### Remarques
+## Remarques
 
 L'implémentation devrait renvoyer`nul` pour indiquer que le formatage par défaut doit être appliqué.
 
-### Exemples
+## Exemples
 
 Montre comment appliquer automatiquement un format personnalisé aux résultats des champs à mesure que les champs sont mis à jour.
 
@@ -156,12 +158,12 @@ private class FieldResultFormatter : IFieldResultFormatter
 
 * enum [GeneralFormat](../../generalformat/)
 * interface [IFieldResultFormatter](../)
-* espace de noms [Aspose.Words.Fields](../../ifieldresultformatter/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
 
 ---
 
-## Format(double, GeneralFormat) {#format}
+## Format(*double, [GeneralFormat](../../generalformat/)*) {#format}
 
 Appelé lorsque Aspose.Words applique un changement de format numérique, c'est-à-dire \* Ordinal.
 
@@ -169,11 +171,11 @@ Appelé lorsque Aspose.Words applique un changement de format numérique, c'est-
 public string Format(double value, GeneralFormat format)
 ```
 
-### Remarques
+## Remarques
 
 L'implémentation devrait renvoyer`nul` pour indiquer que le formatage par défaut doit être appliqué.
 
-### Exemples
+## Exemples
 
 Montre comment appliquer automatiquement un format personnalisé aux résultats des champs à mesure que les champs sont mis à jour.
 
@@ -311,7 +313,5 @@ private class FieldResultFormatter : IFieldResultFormatter
 
 * enum [GeneralFormat](../../generalformat/)
 * interface [IFieldResultFormatter](../)
-* espace de noms [Aspose.Words.Fields](../../ifieldresultformatter/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

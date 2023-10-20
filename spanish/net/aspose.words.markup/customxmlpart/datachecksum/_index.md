@@ -1,7 +1,9 @@
 ---
 title: CustomXmlPart.DataChecksum
-second_title: Referencia de API de Aspose.Words para .NET
-description: CustomXmlPart propiedad. Especifica una suma de comprobación de verificación de redundancia cíclica CRC delData contenido.
+linktitle: DataChecksum
+articleTitle: DataChecksum
+second_title: Aspose.Words para .NET
+description: CustomXmlPart DataChecksum propiedad. Especifica una suma de comprobación de verificación de redundancia cíclica CRC delData contenido en C#.
 type: docs
 weight: 30
 url: /es/net/aspose.words.markup/customxmlpart/datachecksum/
@@ -14,7 +16,7 @@ Especifica una suma de comprobación de verificación de redundancia cíclica (C
 public long DataChecksum { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo se calcula la suma de comprobación en tiempo de ejecución.
 
@@ -44,7 +46,5 @@ Assert.AreNotEqual(checksum, updatedChecksum);
 ### Ver también
 
 * class [CustomXmlPart](../)
-* espacio de nombres [Aspose.Words.Markup](../../customxmlpart/)
+* espacio de nombres [Aspose.Words.Markup](../../../aspose.words.markup/)
 * asamblea [Aspose.Words](../../../)
-
-

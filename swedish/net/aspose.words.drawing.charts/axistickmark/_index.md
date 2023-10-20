@@ -1,7 +1,9 @@
 ---
-title: Enum AxisTickMark
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Drawing.Charts.AxisTickMark uppräkning. Anger möjliga positioner för bockmarkeringar.
+title: AxisTickMark Enum
+linktitle: AxisTickMark
+articleTitle: AxisTickMark
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Drawing.Charts.AxisTickMark uppräkning. Anger möjliga positioner för bockmarkeringar i C#.
 type: docs
 weight: 590
 url: /sv/net/aspose.words.drawing.charts/axistickmark/
@@ -23,7 +25,7 @@ public enum AxisTickMark
 | Outside | `2` | Anger att bockmarkeringarna ska vara utanför tomtområdet. |
 | None | `3` | Anger att det inte ska finnas några bockmarkeringar. |
 
-### Exempel
+## Exempel
 
 Visar hur man infogar diagram med datum/tidsvärden.
 
@@ -78,5 +80,3 @@ doc.Save(ArtifactsDir + "Charts.DateTimeValues.docx");
 
 * namnutrymme [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../)
-
-

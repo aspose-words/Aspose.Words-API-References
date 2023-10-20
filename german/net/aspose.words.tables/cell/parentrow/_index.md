@@ -1,7 +1,9 @@
 ---
 title: Cell.ParentRow
-second_title: Aspose.Words für .NET-API-Referenz
-description: Cell eigendom. Gibt die übergeordnete Zeile der Zelle zurück.
+linktitle: ParentRow
+articleTitle: ParentRow
+second_title: Aspose.Words für .NET
+description: Cell ParentRow eigendom. Gibt die übergeordnete Zeile der Zelle zurück in C#.
 type: docs
 weight: 100
 url: /de/net/aspose.words.tables/cell/parentrow/
@@ -14,11 +16,11 @@ Gibt die übergeordnete Zeile der Zelle zurück.
 public Row ParentRow { get; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 GleichwertigFirstNonMarkupParentNode gegossen zu[`Row`](../../row/).
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man eine Tabelle so einrichtet, dass sie auf derselben Seite bleibt.
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "Table.KeepTableTogether.docx");
 
 * class [Row](../../row/)
 * class [Cell](../)
-* namensraum [Aspose.Words.Tables](../../cell/)
+* namensraum [Aspose.Words.Tables](../../../aspose.words.tables/)
 * Montage [Aspose.Words](../../../)
-
-

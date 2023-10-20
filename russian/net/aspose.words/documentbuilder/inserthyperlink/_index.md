@@ -1,9 +1,11 @@
 ---
 title: DocumentBuilder.InsertHyperlink
-second_title: Справочник по API Aspose.Words для .NET
-description: DocumentBuilder метод. Вставляет гиперссылку в документ.
+linktitle: InsertHyperlink
+articleTitle: InsertHyperlink
+second_title: Aspose.Words для .NET
+description: DocumentBuilder InsertHyperlink метод. Вставляет гиперссылку в документ на С#.
 type: docs
-weight: 370
+weight: 360
 url: /ru/net/aspose.words/documentbuilder/inserthyperlink/
 ---
 ## DocumentBuilder.InsertHyperlink method
@@ -24,13 +26,13 @@ public Field InsertHyperlink(string displayText, string urlOrBookmark, bool isBo
 
 А[`Field`](../../../aspose.words.fields/field/) объект, представляющий вставленное поле.
 
-### Примечания
+## Примечания
 
 Обратите внимание, что вам необходимо указать форматирование шрифта для отображаемого текста гиперссылки явно с помощью[`Font`](../font/) свойство.
 
 Этот метод внутренне вызывает[`InsertField`](../insertfield/) чтобы вставить поле MS Word HYPERLINK field в документ.
 
-### Примеры
+## Примеры
 
 Показывает, как вставить гиперссылку, которая ссылается на локальную закладку.
 
@@ -108,7 +110,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.PushPopFont.docx");
 
 * class [Field](../../../aspose.words.fields/field/)
 * class [DocumentBuilder](../)
-* пространство имен [Aspose.Words](../../documentbuilder/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

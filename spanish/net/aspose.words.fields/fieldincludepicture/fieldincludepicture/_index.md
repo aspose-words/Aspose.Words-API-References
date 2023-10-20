@@ -1,7 +1,9 @@
 ---
-title: FieldIncludePicture.FieldIncludePicture
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldIncludePicture constructor. Constructor predeterminado
+title: FieldIncludePicture
+linktitle: FieldIncludePicture
+articleTitle: FieldIncludePicture
+second_title: Aspose.Words para .NET
+description: FieldIncludePicture constructor. Constructor predeterminado en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words.fields/fieldincludepicture/fieldincludepicture/
@@ -17,7 +19,5 @@ public FieldIncludePicture()
 ### Ver también
 
 * class [FieldIncludePicture](../)
-* espacio de nombres [Aspose.Words.Fields](../../fieldincludepicture/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

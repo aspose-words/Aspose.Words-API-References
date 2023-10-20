@@ -1,7 +1,9 @@
 ---
 title: FormFieldCollection.Count
-second_title: Aspose.Words für .NET-API-Referenz
-description: FormFieldCollection eigendom. Gibt die Anzahl der Formularfelder in der Sammlung zurück.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words für .NET
+description: FormFieldCollection Count eigendom. Gibt die Anzahl der Formularfelder in der Sammlung zurück in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words.fields/formfieldcollection/count/
@@ -14,7 +16,7 @@ Gibt die Anzahl der Formularfelder in der Sammlung zurück.
 public int Count { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie verschiedene Arten von Formularfeldern in ein Dokument eingefügt und mithilfe einer Dokumentbesucherimplementierung verarbeitet werden.
 
@@ -148,7 +150,5 @@ public class FormFieldVisitor : DocumentVisitor
 ### Siehe auch
 
 * class [FormFieldCollection](../)
-* namensraum [Aspose.Words.Fields](../../formfieldcollection/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

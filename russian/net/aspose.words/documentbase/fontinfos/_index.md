@@ -1,7 +1,9 @@
 ---
 title: DocumentBase.FontInfos
-second_title: Справочник по API Aspose.Words для .NET
-description: DocumentBase свойство. Предоставляет доступ к свойствам шрифтов используемых в этом документе.
+linktitle: FontInfos
+articleTitle: FontInfos
+second_title: Aspose.Words для .NET
+description: DocumentBase FontInfos свойство. Предоставляет доступ к свойствам шрифтов используемых в этом документе на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words/documentbase/fontinfos/
@@ -14,13 +16,13 @@ url: /ru/net/aspose.words/documentbase/fontinfos/
 public FontInfoCollection FontInfos { get; }
 ```
 
-### Примечания
+## Примечания
 
 Эта коллекция определений шрифтов загружается в том виде, в каком она есть из документа. В некоторых документах определения шрифтов могут быть необязательными, отсутствовать или быть неполными.
 
 Не полагайтесь на эту коллекцию, чтобы убедиться, что в документе используется определенный шрифт. Эту коллекцию следует использовать только для получения информации о шрифтах, которые могут использоваться в документе.
 
-### Примеры
+## Примеры
 
 Показывает, как распечатать сведения о том, какие шрифты присутствуют в документе.
 
@@ -59,7 +61,5 @@ else
 
 * class [FontInfoCollection](../../../aspose.words.fonts/fontinfocollection/)
 * class [DocumentBase](../)
-* пространство имен [Aspose.Words](../../documentbase/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

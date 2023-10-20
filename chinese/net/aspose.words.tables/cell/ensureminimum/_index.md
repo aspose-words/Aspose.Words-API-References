@@ -1,9 +1,11 @@
 ---
 title: Cell.EnsureMinimum
-second_title: Aspose.Words for .NET API 参考
-description: Cell 方法. 如果最后一个子级不是段落则创建并附加一个空段落
+linktitle: EnsureMinimum
+articleTitle: EnsureMinimum
+second_title: 用于 .NET 的 Aspose.Words
+description: Cell EnsureMinimum 方法. 如果最后一个子级不是段落则创建并附加一个空段落 在 C#.
 type: docs
-weight: 160
+weight: 140
 url: /zh/net/aspose.words.tables/cell/ensureminimum/
 ---
 ## Cell.EnsureMinimum method
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.tables/cell/ensureminimum/
 public void EnsureMinimum()
 ```
 
-### 例子
+## 例子
 
 展示如何确保单元节点包含我们开始向其添加内容所需的节点。
 
@@ -40,7 +42,5 @@ cell.FirstParagraph.AppendChild(new Run(doc, "Hello world!"));
 ### 也可以看看
 
 * class [Cell](../)
-* 命名空间 [Aspose.Words.Tables](../../cell/)
+* 命名空间 [Aspose.Words.Tables](../../../aspose.words.tables/)
 * 部件 [Aspose.Words](../../../)
-
-

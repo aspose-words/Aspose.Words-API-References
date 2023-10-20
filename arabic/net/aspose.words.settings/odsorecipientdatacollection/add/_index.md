@@ -1,7 +1,9 @@
 ---
 title: OdsoRecipientDataCollection.Add
-second_title: Aspose.Words لمراجع .NET API
-description: OdsoRecipientDataCollection طريقة. إضافة كائن إلى نهاية هذه المجموعة.
+linktitle: Add
+articleTitle: Add
+second_title: Aspose.Words لـ .NET
+description: OdsoRecipientDataCollection Add طريقة. إضافة كائن إلى نهاية هذه المجموعة في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.settings/odsorecipientdatacollection/add/
@@ -18,7 +20,7 @@ public int Add(OdsoRecipientData value)
 | --- | --- | --- |
 | value | OdsoRecipientData | الكائن المراد إضافته. لا يمكن`باطل`. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الوصول إلى مجموعة البيانات التي تحدد سجلات مصدر بيانات الدمج التي سيتم استبعادها من خلال دمج البريد.
 
@@ -59,7 +61,5 @@ Assert.AreEqual(0, dataCollection.Count);
 
 * class [OdsoRecipientData](../../odsorecipientdata/)
 * class [OdsoRecipientDataCollection](../)
-* مساحة الاسم [Aspose.Words.Settings](../../odsorecipientdatacollection/)
+* مساحة الاسم [Aspose.Words.Settings](../../../aspose.words.settings/)
 * المجسم [Aspose.Words](../../../)
-
-

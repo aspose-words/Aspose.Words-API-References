@@ -1,7 +1,9 @@
 ---
 title: DocumentPartSavingArgs.Document
-second_title: Справочник по API Aspose.Words для .NET
-description: DocumentPartSavingArgs свойство. Получает сохраняемый объект документа.
+linktitle: Document
+articleTitle: Document
+second_title: Aspose.Words для .NET
+description: DocumentPartSavingArgs Document свойство. Получает сохраняемый объект документа на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.saving/documentpartsavingargs/document/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.saving/documentpartsavingargs/document/
 public Document Document { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как разделить документ на части и сохранить их.
 
@@ -132,7 +134,5 @@ public class SavedImageRename : IImageSavingCallback
 
 * class [Document](../../../aspose.words/document/)
 * class [DocumentPartSavingArgs](../)
-* пространство имен [Aspose.Words.Saving](../../documentpartsavingargs/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.SizeInPoints
-second_title: Aspose.Words لمراجع .NET API
-description: ShapeBase ملكية. الحصول على حجم الشكل بالنقاط.
+linktitle: SizeInPoints
+articleTitle: SizeInPoints
+second_title: Aspose.Words لـ .NET
+description: ShapeBase SizeInPoints ملكية. الحصول على حجم الشكل بالنقاط في C#.
 type: docs
 weight: 510
 url: /ar/net/aspose.words.drawing/shapebase/sizeinpoints/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing/shapebase/sizeinpoints/
 public SizeF SizeInPoints { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التحقق من حجم الشكل ولغة الترميز.
 
@@ -31,7 +33,5 @@ Assert.AreEqual(new SizeF(300, 300), shape.SizeInPoints);
 ### أنظر أيضا
 
 * class [ShapeBase](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../shapebase/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

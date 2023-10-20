@@ -1,7 +1,9 @@
 ---
 title: Field.End
-second_title: Aspose.Words für .NET-API-Referenz
-description: Field eigendom. Ruft den Knoten ab der das Feldende darstellt.
+linktitle: End
+articleTitle: End
+second_title: Aspose.Words für .NET
+description: Field End eigendom. Ruft den Knoten ab der das Feldende darstellt in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.fields/field/end/
@@ -14,7 +16,7 @@ Ruft den Knoten ab, der das Feldende darstellt.
 public FieldEnd End { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit einer Sammlung von Feldern gearbeitet wird.
 
@@ -118,7 +120,5 @@ public class FieldVisitor : DocumentVisitor
 
 * class [FieldEnd](../../fieldend/)
 * class [Field](../)
-* namensraum [Aspose.Words.Fields](../../field/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

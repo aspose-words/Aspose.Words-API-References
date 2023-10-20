@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.OutlineLevel
-second_title: Aspose.Words för .NET API Referens
-description: ParagraphFormat fast egendom. Anger konturnivån för stycket i dokumentet.
+linktitle: OutlineLevel
+articleTitle: OutlineLevel
+second_title: Aspose.Words för .NET
+description: ParagraphFormat OutlineLevel fast egendom. Anger konturnivån för stycket i dokumentet i C#.
 type: docs
 weight: 250
 url: /sv/net/aspose.words/paragraphformat/outlinelevel/
@@ -14,7 +16,7 @@ Anger konturnivån för stycket i dokumentet.
 public OutlineLevel OutlineLevel { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du konfigurerar styckekonturnivåer för att skapa hopfällbar text.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "ParagraphFormat.ParagraphOutlineLevel.docx");
 
 * enum [OutlineLevel](../../outlinelevel/)
 * class [ParagraphFormat](../)
-* namnutrymme [Aspose.Words](../../paragraphformat/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

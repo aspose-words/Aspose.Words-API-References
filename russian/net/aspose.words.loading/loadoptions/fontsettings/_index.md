@@ -1,7 +1,9 @@
 ---
 title: LoadOptions.FontSettings
-second_title: Справочник по API Aspose.Words для .NET
-description: LoadOptions свойство. Позволяет указать настройки шрифта документа.
+linktitle: FontSettings
+articleTitle: FontSettings
+second_title: Aspose.Words для .NET
+description: LoadOptions FontSettings свойство. Позволяет указать настройки шрифта документа на С#.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.loading/loadoptions/fontsettings/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.loading/loadoptions/fontsettings/
 public FontSettings FontSettings { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 При загрузке некоторых форматов Aspose.Words может потребоваться разрешить шрифты. Например, при загрузке HTML-документов Aspose.Words может разрешить шрифты для выполнения резервного шрифта.
 
@@ -22,7 +24,7 @@ public FontSettings FontSettings { get; set; }
 
 Значение по умолчанию:`нулевой`.
 
-### Примеры
+## Примеры
 
 Показывает, как применить настройки подстановки шрифтов при загрузке документа.
 
@@ -69,7 +71,5 @@ doc.Save(ArtifactsDir + "FontSettings.ResolveFontsBeforeLoadingDocument.pdf");
 
 * class [FontSettings](../../../aspose.words.fonts/fontsettings/)
 * class [LoadOptions](../)
-* пространство имен [Aspose.Words.Loading](../../loadoptions/)
+* пространство имен [Aspose.Words.Loading](../../../aspose.words.loading/)
 * сборка [Aspose.Words](../../../)
-
-

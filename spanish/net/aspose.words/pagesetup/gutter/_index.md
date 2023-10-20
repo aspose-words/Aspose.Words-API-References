@@ -1,7 +1,9 @@
 ---
 title: PageSetup.Gutter
-second_title: Referencia de API de Aspose.Words para .NET
-description: PageSetup propiedad. Obtiene o establece la cantidad de espacio adicional agregado al margen para la encuadernación del documento.
+linktitle: Gutter
+articleTitle: Gutter
+second_title: Aspose.Words para .NET
+description: PageSetup Gutter propiedad. Obtiene o establece la cantidad de espacio adicional agregado al margen para la encuadernación del documento en C#.
 type: docs
 weight: 160
 url: /es/net/aspose.words/pagesetup/gutter/
@@ -14,7 +16,7 @@ Obtiene o establece la cantidad de espacio adicional agregado al margen para la 
 public double Gutter { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo configurar un documento que se puede imprimir como un pliegue de libro.
 
@@ -79,7 +81,5 @@ doc.Save(ArtifactsDir + "PageSetup.Gutter.docx");
 ### Ver también
 
 * class [PageSetup](../)
-* espacio de nombres [Aspose.Words](../../pagesetup/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

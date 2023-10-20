@@ -1,9 +1,11 @@
 ---
 title: Style.Equals
-second_title: Справочник по API Aspose.Words для .NET
-description: Style метод. Сравнивает с указанным стилем. Istd стилей сравниваются только для встроенных стилей. Стили по умолчанию не включаются в сравнение. Базовый стиль связанный стиль и стиль следующего абзаца рекурсивно сравниваются.
+linktitle: Equals
+articleTitle: Equals
+second_title: Aspose.Words для .NET
+description: Style Equals метод. Сравнивает с указанным стилем. Istd стилей сравниваются только для встроенных стилей. Стили по умолчанию не включаются в сравнение. Базовый стиль связанный стиль и стиль следующего абзаца рекурсивно сравниваются на С#.
 type: docs
-weight: 190
+weight: 180
 url: /ru/net/aspose.words/style/equals/
 ---
 ## Style.Equals method
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/style/equals/
 public bool Equals(Style style)
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как использовать псевдонимы стилей.
 
@@ -45,7 +47,5 @@ Assert.AreEqual(doc.FirstSection.Body.Paragraphs[0].ParagraphFormat.Style,
 ### Смотрите также
 
 * class [Style](../)
-* пространство имен [Aspose.Words](../../style/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

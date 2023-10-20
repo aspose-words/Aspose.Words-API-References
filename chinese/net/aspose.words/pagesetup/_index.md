@@ -1,7 +1,9 @@
 ---
-title: Class PageSetup
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.PageSetup 班级. 表示节的页面设置属性
+title: PageSetup Class
+linktitle: PageSetup
+articleTitle: PageSetup
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.PageSetup 班级. 表示节的页面设置属性 在 C#.
 type: docs
 weight: 4360
 url: /zh/net/aspose.words/pagesetup/
@@ -72,11 +74,11 @@ public class PageSetup
 | --- | --- |
 | [ClearFormatting](../../aspose.words/pagesetup/clearformatting/)() | 将页面设置重置为默认纸张尺寸、边距和方向。 |
 
-### 评论
+## 评论
 
 `PageSetup`对象包含section 的所有页面设置属性（左边距、下边距、纸张尺寸等）作为属性。
 
-### 例子
+## 例子
 
 演示如何将页面设置设置应用和恢复到文档中的各个部分。
 
@@ -111,5 +113,3 @@ doc.Save(ArtifactsDir + "PageSetup.ClearFormatting.docx");
 
 * 命名空间 [Aspose.Words](../../aspose.words/)
 * 部件 [Aspose.Words](../../)
-
-

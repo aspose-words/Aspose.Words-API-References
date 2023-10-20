@@ -1,7 +1,9 @@
 ---
 title: Font.ComplexScript
-second_title: Aspose.Words per .NET API Reference
-description: Font proprietà. Specifica se il contenuto di questa esecuzione deve essere trattato come testo di script complesso indipendentemente dai valori dei caratteri Unicode quando si determina la formattazione per questa esecuzione.
+linktitle: ComplexScript
+articleTitle: ComplexScript
+second_title: Aspose.Words per .NET
+description: Font ComplexScript proprietà. Specifica se il contenuto di questa esecuzione deve essere trattato come testo di script complesso indipendentemente dai valori dei caratteri Unicode quando si determina la formattazione per questa esecuzione in C#.
 type: docs
 weight: 80
 url: /it/net/aspose.words/font/complexscript/
@@ -14,7 +16,7 @@ Specifica se il contenuto di questa esecuzione deve essere trattato come testo d
 public bool ComplexScript { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come aggiungere testo che viene sempre trattato come script complesso.
 
@@ -32,7 +34,5 @@ doc.Save(ArtifactsDir + "Font.ComplexScript.docx");
 ### Guarda anche
 
 * class [Font](../)
-* spazio dei nomi [Aspose.Words](../../font/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class FieldSectionPages
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Fields.FieldSectionPages klass. Implementerar fältet SECTIONPAGES.
+title: FieldSectionPages Class
+linktitle: FieldSectionPages
+articleTitle: FieldSectionPages
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Fields.FieldSectionPages klass. Implementerar fältet SECTIONPAGES i C#.
 type: docs
 weight: 2370
 url: /sv/net/aspose.words.fields/fieldsectionpages/
@@ -42,17 +44,17 @@ public class FieldSectionPages : Field
 | namn | Beskrivning |
 | --- | --- |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Returnerar text mellan fältstart och fältavgränsare (eller fältslut om det inte finns någon avgränsare). Både fältkod och fältresultat för underordnade fält ingår. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Returnerar text mellan fältstart och fältavgränsare (eller fältslut om det inte finns någon avgränsare). |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | Returnerar text mellan fältstart och fältavgränsare (eller fältslut om det inte finns någon avgränsare). |
 | [Remove](../../aspose.words.fields/field/remove/)() | Tar bort fältet från dokumentet. Returnerar en nod direkt efter fältet. Om fältets slut är den sista child av dess överordnade nod, returnerar dess överordnade stycke. Om fältet redan är borttaget, returneras`null` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | Utför fältavlänkningen. |
 | [Update](../../aspose.words.fields/field/update/)() | Utför fältuppdateringen. Kastar om fältet redan uppdateras. |
-| [Update](../../aspose.words.fields/field/update/)(bool) | Utför en fältuppdatering. Kastar om fältet redan uppdateras. |
+| [Update](../../aspose.words.fields/field/update/)(*bool*) | Utför en fältuppdatering. Kastar om fältet redan uppdateras. |
 
-### Anmärkningar
+## Anmärkningar
 
 Hämtar numret på den aktuella sidan inom det aktuella avsnittet.
 
-### Exempel
+## Exempel
 
 Visar hur du använder fälten SECTION och SECTIONPAGES för att numrera sidor efter sektioner.
 
@@ -106,5 +108,3 @@ doc.Save(ArtifactsDir + "Field.SECTION.SECTIONPAGES.docx");
 * class [Field](../field/)
 * namnutrymme [Aspose.Words.Fields](../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../)
-
-

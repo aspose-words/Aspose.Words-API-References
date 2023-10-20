@@ -1,20 +1,22 @@
 ---
 title: FieldCitation.SourceTag
-second_title: Aspose.Words for .NET API 参考
-description: FieldCitation 财产. 获取或设置与 标签要插入的源的元素值
+linktitle: SourceTag
+articleTitle: SourceTag
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldCitation SourceTag 财产. 获取或设置与标签要插入的源的元素值 在 C#.
 type: docs
 weight: 60
 url: /zh/net/aspose.words.fields/fieldcitation/sourcetag/
 ---
 ## FieldCitation.SourceTag property
 
-获取或设置与 **标签**要插入的源的元素值。
+获取或设置与**标签**要插入的源的元素值。
 
 ```csharp
 public string SourceTag { get; set; }
 ```
 
-### 例子
+## 例子
 
 展示如何使用 CITATION 和 BIBLIOGRAPHY 字段。
 
@@ -68,7 +70,5 @@ doc.Save(ArtifactsDir + "Field.CITATION.docx");
 ### 也可以看看
 
 * class [FieldCitation](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldcitation/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

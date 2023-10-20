@@ -1,7 +1,9 @@
 ---
 title: RevisionOptions.RevisionBarsPosition
-second_title: Справочник по API Aspose.Words для .NET
-description: RevisionOptions свойство. Получает или задает положение рендеринга полос редакций. Значение по умолчаниюOutside .
+linktitle: RevisionBarsPosition
+articleTitle: RevisionBarsPosition
+second_title: Aspose.Words для .NET
+description: RevisionOptions RevisionBarsPosition свойство. Получает или задает положение рендеринга полос редакций. Значение по умолчаниюOutside  на С#.
 type: docs
 weight: 140
 url: /ru/net/aspose.words.layout/revisionoptions/revisionbarsposition/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.layout/revisionoptions/revisionbarsposition/
 public HorizontalAlignment RevisionBarsPosition { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 ЦенностиCenter иInside не разрешены и приведут кArgumentOutOfRangeException.
 
@@ -22,7 +24,5 @@ public HorizontalAlignment RevisionBarsPosition { get; set; }
 
 * enum [HorizontalAlignment](../../../aspose.words.drawing/horizontalalignment/)
 * class [RevisionOptions](../)
-* пространство имен [Aspose.Words.Layout](../../revisionoptions/)
+* пространство имен [Aspose.Words.Layout](../../../aspose.words.layout/)
 * сборка [Aspose.Words](../../../)
-
-

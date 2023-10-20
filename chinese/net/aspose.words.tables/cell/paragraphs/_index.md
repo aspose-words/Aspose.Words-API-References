@@ -1,7 +1,9 @@
 ---
 title: Cell.Paragraphs
-second_title: Aspose.Words for .NET API 参考
-description: Cell 财产. 获取作为单元格直接子级的段落的集合
+linktitle: Paragraphs
+articleTitle: Paragraphs
+second_title: 用于 .NET 的 Aspose.Words
+description: Cell Paragraphs 财产. 获取作为单元格直接子级的段落的集合 在 C#.
 type: docs
 weight: 90
 url: /zh/net/aspose.words.tables/cell/paragraphs/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.tables/cell/paragraphs/
 public ParagraphCollection Paragraphs { get; }
 ```
 
-### 例子
+## 例子
 
 展示如何将表格设置为在同一页面上保持在一起。
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "Table.KeepTableTogether.docx");
 
 * class [ParagraphCollection](../../../aspose.words/paragraphcollection/)
 * class [Cell](../)
-* 命名空间 [Aspose.Words.Tables](../../cell/)
+* 命名空间 [Aspose.Words.Tables](../../../aspose.words.tables/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: OdsoFieldMapDataCollection.RemoveAt
-second_title: Справочник по API Aspose.Words для .NET
-description: OdsoFieldMapDataCollection метод. Удаляет элемент по указанному индексу.
+linktitle: RemoveAt
+articleTitle: RemoveAt
+second_title: Aspose.Words для .NET
+description: OdsoFieldMapDataCollection RemoveAt метод. Удаляет элемент по указанному индексу на С#.
 type: docs
 weight: 70
 url: /ru/net/aspose.words.settings/odsofieldmapdatacollection/removeat/
@@ -18,7 +20,7 @@ public void RemoveAt(int index)
 | --- | --- | --- |
 | index | Int32 | Индекс элемента, отсчитываемый от нуля. |
 
-### Примеры
+## Примеры
 
 Показывает, как получить доступ к коллекции данных, которая сопоставляет столбцы источника данных с полями слияния.
 
@@ -61,7 +63,5 @@ Assert.AreEqual(0, dataCollection.Count);
 ### Смотрите также
 
 * class [OdsoFieldMapDataCollection](../)
-* пространство имен [Aspose.Words.Settings](../../odsofieldmapdatacollection/)
+* пространство имен [Aspose.Words.Settings](../../../aspose.words.settings/)
 * сборка [Aspose.Words](../../../)
-
-

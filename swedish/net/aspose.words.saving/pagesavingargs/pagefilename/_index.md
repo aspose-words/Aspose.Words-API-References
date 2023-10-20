@@ -1,7 +1,9 @@
 ---
 title: PageSavingArgs.PageFileName
-second_title: Aspose.Words för .NET API Referens
-description: PageSavingArgs fast egendom. Hämtar eller ställer in filnamnet där dokumentsidan ska sparas.
+linktitle: PageFileName
+articleTitle: PageFileName
+second_title: Aspose.Words för .NET
+description: PageSavingArgs PageFileName fast egendom. Hämtar eller ställer in filnamnet där dokumentsidan ska sparas i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.saving/pagesavingargs/pagefilename/
@@ -14,11 +16,11 @@ Hämtar eller ställer in filnamnet där dokumentsidan ska sparas.
 public string PageFileName { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Om det inte anges kommer sidfilnamn och sökväg att genereras automatiskt med det ursprungliga filnamnet.
 
-### Exempel
+## Exempel
 
 Visar hur man använder en återuppringning för att spara ett dokument i HTML sida för sida.
 
@@ -75,7 +77,5 @@ private class CustomFileNamePageSavingCallback : IPageSavingCallback
 ### Se även
 
 * class [PageSavingArgs](../)
-* namnutrymme [Aspose.Words.Saving](../../pagesavingargs/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: HorizontalRuleFormat.WidthPercent
-second_title: Aspose.Words for .NET API 参考
-description: HorizontalRuleFormat 财产. 获取或设置指定水平线的长度以窗口宽度的百分比表示
+linktitle: WidthPercent
+articleTitle: WidthPercent
+second_title: 用于 .NET 的 Aspose.Words
+description: HorizontalRuleFormat WidthPercent 财产. 获取或设置指定水平线的长度以窗口宽度的百分比表示 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words.drawing/horizontalruleformat/widthpercent/
@@ -20,13 +22,13 @@ public double WidthPercent { get; set; }
 | --- | --- |
 | ArgumentOutOfRangeException | 当参数超出有效值范围时抛出。 |
 
-### 评论
+## 评论
 
 有效值范围从 1 到 100（含）。
 
 默认值为 100。
 
-### 例子
+## 例子
 
 演示如何插入水平标尺形状并自定义其格式。
 
@@ -49,7 +51,5 @@ Assert.True(shape.HorizontalRuleFormat.NoShade);
 ### 也可以看看
 
 * class [HorizontalRuleFormat](../)
-* 命名空间 [Aspose.Words.Drawing](../../horizontalruleformat/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

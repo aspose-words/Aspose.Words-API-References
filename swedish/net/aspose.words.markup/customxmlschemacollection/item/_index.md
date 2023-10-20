@@ -1,7 +1,9 @@
 ---
 title: CustomXmlSchemaCollection.Item
-second_title: Aspose.Words för .NET API Referens
-description: CustomXmlSchemaCollection fast egendom. Hämtar eller ställer in elementet vid angivet index.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words för .NET
+description: CustomXmlSchemaCollection Item fast egendom. Hämtar eller ställer in elementet vid angivet index i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.markup/customxmlschemacollection/item/
@@ -14,7 +16,7 @@ Hämtar eller ställer in elementet vid angivet index.
 public string this[int index] { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med en XML-schemasamling.
 
@@ -60,7 +62,5 @@ Assert.AreEqual(0, schemas.Count);
 ### Se även
 
 * class [CustomXmlSchemaCollection](../)
-* namnutrymme [Aspose.Words.Markup](../../customxmlschemacollection/)
+* namnutrymme [Aspose.Words.Markup](../../../aspose.words.markup/)
 * hopsättning [Aspose.Words](../../../)
-
-

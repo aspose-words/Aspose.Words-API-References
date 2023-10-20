@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabelCollection.Font
-second_title: Referencia de API de Aspose.Words para .NET
-description: ChartDataLabelCollection propiedad. Proporciona acceso al formato de fuente de las etiquetas de datos de toda la serie.
+linktitle: Font
+articleTitle: Font
+second_title: Aspose.Words para .NET
+description: ChartDataLabelCollection Font propiedad. Proporciona acceso al formato de fuente de las etiquetas de datos de toda la serie en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words.drawing.charts/chartdatalabelcollection/font/
@@ -14,11 +16,11 @@ Proporciona acceso al formato de fuente de las etiquetas de datos de toda la ser
 public Font Font { get; }
 ```
 
-### Observaciones
+## Observaciones
 
 El valor definido para esta propiedad se puede anular para una etiqueta de datos individual usando the [`Font`](../../chartdatalabel/font/) propiedad.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo habilitar y configurar etiquetas de datos para una serie de gráficos.
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "Charts.DataLabelNumberFormat.docx");
 
 * class [Font](../../../aspose.words/font/)
 * class [ChartDataLabelCollection](../)
-* espacio de nombres [Aspose.Words.Drawing.Charts](../../chartdatalabelcollection/)
+* espacio de nombres [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.RightIndent
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ParagraphFormat propriété. Obtient ou définit la valeur en points qui représente le retrait droit du paragraphe.
+linktitle: RightIndent
+articleTitle: RightIndent
+second_title: Aspose.Words pour .NET
+description: ParagraphFormat RightIndent propriété. Obtient ou définit la valeur en points qui représente le retrait droit du paragraphe en C#.
 type: docs
 weight: 270
 url: /fr/net/aspose.words/paragraphformat/rightindent/
@@ -14,7 +16,7 @@ Obtient ou définit la valeur (en points) qui représente le retrait droit du pa
 public double RightIndent { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment configurer la mise en forme des paragraphes pour créer un texte décentré.
 
@@ -42,7 +44,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.SetParagraphFormatting.docx");
 ### Voir également
 
 * class [ParagraphFormat](../)
-* espace de noms [Aspose.Words](../../paragraphformat/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

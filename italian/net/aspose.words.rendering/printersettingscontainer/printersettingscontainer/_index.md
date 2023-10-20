@@ -1,7 +1,9 @@
 ---
-title: PrinterSettingsContainer.PrinterSettingsContainer
-second_title: Aspose.Words per .NET API Reference
-description: PrinterSettingsContainer costruttore. Crea un contenitore perPrinterSettings .
+title: PrinterSettingsContainer
+linktitle: PrinterSettingsContainer
+articleTitle: PrinterSettingsContainer
+second_title: Aspose.Words per .NET
+description: PrinterSettingsContainer costruttore. Crea un contenitore perPrinterSettings  in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words.rendering/printersettingscontainer/printersettingscontainer/
@@ -14,7 +16,7 @@ Crea un contenitore perPrinterSettings .
 public PrinterSettingsContainer(PrinterSettings settings)
 ```
 
-### Esempi
+## Esempi
 
 Mostra come accedere ed elencare le origini e i formati carta della stampante.
 
@@ -47,7 +49,5 @@ foreach (System.Drawing.Printing.PaperSize paperSize in container.PaperSizes)
 ### Guarda anche
 
 * class [PrinterSettingsContainer](../)
-* spazio dei nomi [Aspose.Words.Rendering](../../printersettingscontainer/)
+* spazio dei nomi [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * assemblea [Aspose.Words](../../../)
-
-

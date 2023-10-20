@@ -1,7 +1,9 @@
 ---
 title: Font.Style
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Font propriété. Obtient ou définit le style de caractère appliqué à cette mise en forme.
+linktitle: Style
+articleTitle: Style
+second_title: Aspose.Words pour .NET
+description: Font Style propriété. Obtient ou définit le style de caractère appliqué à cette mise en forme en C#.
 type: docs
 weight: 400
 url: /fr/net/aspose.words/font/style/
@@ -14,7 +16,7 @@ Obtient ou définit le style de caractère appliqué à cette mise en forme.
 public Style Style { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Applique un double soulignement à toutes les exécutions d'un document formatées avec des styles de caractères personnalisés.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "Font.Style.docx");
 
 * class [Style](../../style/)
 * class [Font](../)
-* espace de noms [Aspose.Words](../../font/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

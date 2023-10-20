@@ -1,7 +1,9 @@
 ---
-title: Interface IBibliographyStylesProvider
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Fields.IBibliographyStylesProvider gränssnitt. Implementera detta gränssnitt för att tillhandahålla bibliografistil för FieldBibliography ochFieldCitation fält när de uppdateras.
+title: IBibliographyStylesProvider Interface
+linktitle: IBibliographyStylesProvider
+articleTitle: IBibliographyStylesProvider
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Fields.IBibliographyStylesProvider gränssnitt. Implementera detta gränssnitt för att tillhandahålla bibliografistil för FieldBibliography ochFieldCitation fält när de uppdateras i C#.
 type: docs
 weight: 2670
 url: /sv/net/aspose.words.fields/ibibliographystylesprovider/
@@ -18,9 +20,9 @@ public interface IBibliographyStylesProvider
 
 | namn | Beskrivning |
 | --- | --- |
-| [GetStyle](../../aspose.words.fields/ibibliographystylesprovider/getstyle/)(string) | Returnerar bibliografistil. |
+| [GetStyle](../../aspose.words.fields/ibibliographystylesprovider/getstyle/)(*string*) | Returnerar bibliografistil. |
 
-### Exempel
+## Exempel
 
 Visar hur man åsidosätter inbyggda stilar eller tillhandahåller en anpassad.
 
@@ -48,5 +50,3 @@ public class BibliographyStylesProvider : IBibliographyStylesProvider
 
 * namnutrymme [Aspose.Words.Fields](../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../)
-
-

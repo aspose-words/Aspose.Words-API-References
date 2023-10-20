@@ -1,7 +1,9 @@
 ---
 title: BarcodeParameters.ForegroundColor
-second_title: Aspose.Words لمراجع .NET API
-description: BarcodeParameters ملكية. اللون الأمامي للرمز الشريطي 0x000000  0xFFFFFF
+linktitle: ForegroundColor
+articleTitle: ForegroundColor
+second_title: Aspose.Words لـ .NET
+description: BarcodeParameters ForegroundColor ملكية. اللون الأمامي للرمز الشريطي 0x000000  0xFFFFFF في C#.
 type: docs
 weight: 110
 url: /ar/net/aspose.words.fields/barcodeparameters/foregroundcolor/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/barcodeparameters/foregroundcolor/
 public string ForegroundColor { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام مولد الباركود.
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.docx");
 ### أنظر أيضا
 
 * class [BarcodeParameters](../)
-* مساحة الاسم [Aspose.Words.Fields](../../barcodeparameters/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTagRangeStart.IsShowingPlaceholderText
-second_title: Referencia de API de Aspose.Words para .NET
-description: StructuredDocumentTagRangeStart propiedad. Especifica si se interpretará que el contenido de esta etiqueta de documento estructurado contiene texto de marcador de posición a diferencia del contenido de texto normal dentro de la etiqueta de documento estructurado.
+linktitle: IsShowingPlaceholderText
+articleTitle: IsShowingPlaceholderText
+second_title: Aspose.Words para .NET
+description: StructuredDocumentTagRangeStart IsShowingPlaceholderText propiedad. Especifica si se interpretará que el contenido de esta etiqueta de documento estructurado contiene texto de marcador de posición a diferencia del contenido de texto normal dentro de la etiqueta de documento estructurado en C#.
 type: docs
 weight: 50
 url: /es/net/aspose.words.markup/structureddocumenttagrangestart/isshowingplaceholdertext/
@@ -16,7 +18,7 @@ si está configurado en`verdadero` , este estado se reanudará (mostrando texto 
 public bool IsShowingPlaceholderText { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo obtener las propiedades de etiquetas de documentos estructurados de varias secciones.
 
@@ -51,7 +53,5 @@ Console.WriteLine($"\t|NodeType: {rangeEndTag.NodeType}");
 ### Ver también
 
 * class [StructuredDocumentTagRangeStart](../)
-* espacio de nombres [Aspose.Words.Markup](../../structureddocumenttagrangestart/)
+* espacio de nombres [Aspose.Words.Markup](../../../aspose.words.markup/)
 * asamblea [Aspose.Words](../../../)
-
-

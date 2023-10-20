@@ -1,7 +1,9 @@
 ---
 title: Inline.ParentParagraph
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Inline propriété. Récupère le parentParagraph de ce nœud.
+linktitle: ParentParagraph
+articleTitle: ParentParagraph
+second_title: Aspose.Words pour .NET
+description: Inline ParentParagraph propriété. Récupère le parentParagraph de ce nœud en C#.
 type: docs
 weight: 70
 url: /fr/net/aspose.words/inline/parentparagraph/
@@ -14,7 +16,7 @@ Récupère le parent[`Paragraph`](../../paragraph/) de ce nœud.
 public Paragraph ParentParagraph { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment déterminer le type de révision d’un nœud en ligne.
 
@@ -71,7 +73,5 @@ Assert.IsTrue(runs[5].IsDeleteRevision);
 
 * class [Paragraph](../../paragraph/)
 * class [Inline](../)
-* espace de noms [Aspose.Words](../../inline/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

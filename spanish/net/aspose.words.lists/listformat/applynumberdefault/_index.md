@@ -1,7 +1,9 @@
 ---
 title: ListFormat.ApplyNumberDefault
-second_title: Referencia de API de Aspose.Words para .NET
-description: ListFormat método. Inicia una nueva lista numerada predeterminada y la aplica al párrafo.
+linktitle: ApplyNumberDefault
+articleTitle: ApplyNumberDefault
+second_title: Aspose.Words para .NET
+description: ListFormat ApplyNumberDefault método. Inicia una nueva lista numerada predeterminada y la aplica al párrafo en C#.
 type: docs
 weight: 60
 url: /es/net/aspose.words.lists/listformat/applynumberdefault/
@@ -14,11 +16,11 @@ Inicia una nueva lista numerada predeterminada y la aplica al párrafo.
 public void ApplyNumberDefault()
 ```
 
-### Observaciones
+## Observaciones
 
 Este es un método abreviado que crea una nueva lista utilizando la plantilla predeterminada numbered , la aplica al párrafo y selecciona el primer nivel de lista.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear listas numeradas y con viñetas.
 
@@ -103,7 +105,5 @@ doc.Save(ArtifactsDir + "Lists.ApplyDefaultBulletsAndNumbers.docx");
 ### Ver también
 
 * class [ListFormat](../)
-* espacio de nombres [Aspose.Words.Lists](../../listformat/)
+* espacio de nombres [Aspose.Words.Lists](../../../aspose.words.lists/)
 * asamblea [Aspose.Words](../../../)
-
-

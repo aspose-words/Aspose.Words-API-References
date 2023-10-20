@@ -1,7 +1,9 @@
 ---
 title: ChartYValue.DateTimeValue
-second_title: Aspose.Words för .NET API Referens
-description: ChartYValue fast egendom. Hämtar det lagrade datetimevärdet.
+linktitle: DateTimeValue
+articleTitle: DateTimeValue
+second_title: Aspose.Words för .NET
+description: ChartYValue DateTimeValue fast egendom. Hämtar det lagrade datetimevärdet i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.drawing.charts/chartyvalue/datetimevalue/
@@ -17,7 +19,5 @@ public DateTime DateTimeValue { get; }
 ### Se även
 
 * class [ChartYValue](../)
-* namnutrymme [Aspose.Words.Drawing.Charts](../../chartyvalue/)
+* namnutrymme [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../../)
-
-

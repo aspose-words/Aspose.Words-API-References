@@ -1,9 +1,11 @@
 ---
 title: Comment.RemoveAllReplies
-second_title: Aspose.Words für .NET-API-Referenz
-description: Comment methode. Entfernt alle Antworten auf diesen Kommentar.
+linktitle: RemoveAllReplies
+articleTitle: RemoveAllReplies
+second_title: Aspose.Words für .NET
+description: Comment RemoveAllReplies methode. Entfernt alle Antworten auf diesen Kommentar in C#.
 type: docs
-weight: 160
+weight: 130
 url: /de/net/aspose.words/comment/removeallreplies/
 ---
 ## Comment.RemoveAllReplies method
@@ -14,11 +16,11 @@ Entfernt alle Antworten auf diesen Kommentar.
 public void RemoveAllReplies()
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Alle Teilknoten der Antworten werden aus dem Dokument gelöscht.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Kommentarantworten entfernt werden.
 
@@ -50,7 +52,5 @@ Assert.AreEqual(0, comment.Replies.Count());
 ### Siehe auch
 
 * class [Comment](../)
-* namensraum [Aspose.Words](../../comment/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

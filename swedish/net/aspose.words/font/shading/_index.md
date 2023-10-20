@@ -1,7 +1,9 @@
 ---
 title: Font.Shading
-second_title: Aspose.Words för .NET API Referens
-description: Font fast egendom. Returnerar enShading objekt som hänvisar till skuggformateringen för teckensnittet.
+linktitle: Shading
+articleTitle: Shading
+second_title: Aspose.Words för .NET
+description: Font Shading fast egendom. Returnerar enShading objekt som hänvisar till skuggformateringen för teckensnittet i C#.
 type: docs
 weight: 320
 url: /sv/net/aspose.words/font/shading/
@@ -14,7 +16,7 @@ Returnerar en[`Shading`](../../shading/) objekt som hänvisar till skuggformater
 public Shading Shading { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man tillämpar skuggning på text som skapats av en dokumentbyggare.
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "Font.Shading.docx");
 
 * class [Shading](../../shading/)
 * class [Font](../)
-* namnutrymme [Aspose.Words](../../font/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

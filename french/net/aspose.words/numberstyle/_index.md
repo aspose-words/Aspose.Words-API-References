@@ -1,7 +1,9 @@
 ---
-title: Enum NumberStyle
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.NumberStyle énumération. Spécifie le style de numérotation dune liste les notes de bas de page et de fin les numéros de page.
+title: NumberStyle Enum
+linktitle: NumberStyle
+articleTitle: NumberStyle
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.NumberStyle énumération. Spécifie le style de numérotation dune liste les notes de bas de page et de fin les numéros de page en C#.
 type: docs
 weight: 4310
 url: /fr/net/aspose.words/numberstyle/
@@ -81,7 +83,7 @@ public enum NumberStyle
 | None | `255` | Pas de puce ni de numéro. |
 | Custom | `65280` | Format de numéro personnalisé. Il est pris en charge uniquement par le format DOCX. |
 
-### Exemples
+## Exemples
 
 Montre comment appliquer une mise en forme de liste personnalisée aux paragraphes lors de l’utilisation de DocumentBuilder.
 
@@ -141,5 +143,3 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateCustomList.docx");
 
 * espace de noms [Aspose.Words](../../aspose.words/)
 * Assemblée [Aspose.Words](../../)
-
-

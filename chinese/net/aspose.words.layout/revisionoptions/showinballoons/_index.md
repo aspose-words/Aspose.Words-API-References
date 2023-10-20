@@ -1,7 +1,9 @@
 ---
 title: RevisionOptions.ShowInBalloons
-second_title: Aspose.Words for .NET API 参考
-description: RevisionOptions 财产. 允许指定修订是否在气球中呈现 默认值为None.
+linktitle: ShowInBalloons
+articleTitle: ShowInBalloons
+second_title: 用于 .NET 的 Aspose.Words
+description: RevisionOptions ShowInBalloons 财产. 允许指定修订是否在气球中呈现 默认值为None 在 C#.
 type: docs
 weight: 160
 url: /zh/net/aspose.words.layout/revisionoptions/showinballoons/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.layout/revisionoptions/showinballoons/
 public ShowInBalloons ShowInBalloons { get; set; }
 ```
 
-### 评论
+## 评论
 
 请注意，修订不会在气球中呈现ShowInAnnotations.
 
-### 例子
+## 例子
 
 演示如何在气球中显示修订。
 
@@ -81,7 +83,5 @@ doc.Save(ArtifactsDir + "Revision.RevisionOptions.pdf");
 
 * enum [ShowInBalloons](../../showinballoons/)
 * class [RevisionOptions](../)
-* 命名空间 [Aspose.Words.Layout](../../revisionoptions/)
+* 命名空间 [Aspose.Words.Layout](../../../aspose.words.layout/)
 * 部件 [Aspose.Words](../../../)
-
-

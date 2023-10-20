@@ -1,7 +1,9 @@
 ---
 title: BubbleSizeCollection.GetEnumerator
-second_title: Aspose.Words för .NET API Referens
-description: BubbleSizeCollection metod. Returnerar ett uppräkningsobjekt.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words för .NET
+description: BubbleSizeCollection GetEnumerator metod. Returnerar ett uppräkningsobjekt i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.drawing.charts/bubblesizecollection/getenumerator/
@@ -17,7 +19,5 @@ public IEnumerator<double> GetEnumerator()
 ### Se även
 
 * class [BubbleSizeCollection](../)
-* namnutrymme [Aspose.Words.Drawing.Charts](../../bubblesizecollection/)
+* namnutrymme [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Section.Body
-second_title: Aspose.Words för .NET API Referens
-description: Section fast egendom. ReturnerarBody barnnod för sektionen.
+linktitle: Body
+articleTitle: Body
+second_title: Aspose.Words för .NET
+description: Section Body fast egendom. ReturnerarBody barnnod för sektionen i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words/section/body/
@@ -14,13 +16,13 @@ Returnerar[`Body`](../../body/) barnnod för sektionen.
 public Body Body { get; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 [`Body`](../../body/) innehåller huvudtexten i avsnittet.
 
 Returnerar`null` om avsnittet inte har en[`Body`](../../body/) nod bland sina barn.
 
-### Exempel
+## Exempel
 
 Rensar huvudtexten från alla avsnitt från dokumentet och lämnar själva avsnitten.
 
@@ -59,7 +61,5 @@ Assert.AreEqual("Hello world!", doc.GetText().Trim());
 
 * class [Body](../../body/)
 * class [Section](../)
-* namnutrymme [Aspose.Words](../../section/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class ConvertUtil
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.ConvertUtil classe. Fornisce funzioni di supporto per la conversione tra varie unità di misura.
+title: ConvertUtil Class
+linktitle: ConvertUtil
+articleTitle: ConvertUtil
+second_title: Aspose.Words per .NET
+description: Aspose.Words.ConvertUtil classe. Fornisce funzioni di supporto per la conversione tra varie unità di misura in C#.
 type: docs
 weight: 360
 url: /it/net/aspose.words/convertutil/
@@ -20,16 +22,16 @@ public static class ConvertUtil
 
 | Nome | Descrizione |
 | --- | --- |
-| static [InchToPoint](../../aspose.words/convertutil/inchtopoint/)(double) | Converte i pollici in punti. |
-| static [MillimeterToPoint](../../aspose.words/convertutil/millimetertopoint/)(double) | Converte i millimetri in punti. |
-| static [PixelToNewDpi](../../aspose.words/convertutil/pixeltonewdpi/)(double, double, double) | Converte i pixel da una risoluzione all'altra. |
-| static [PixelToPoint](../../aspose.words/convertutil/pixeltopoint/#pixeltopoint)(double) | Converte i pixel in punti a 96 dpi. |
-| static [PixelToPoint](../../aspose.words/convertutil/pixeltopoint/#pixeltopoint_1)(double, double) | Converte i pixel in punti alla risoluzione pixel specificata. |
-| static [PointToInch](../../aspose.words/convertutil/pointtoinch/)(double) | Converte i punti in pollici. |
-| static [PointToPixel](../../aspose.words/convertutil/pointtopixel/#pointtopixel)(double) | Converte i punti in pixel a 96 dpi. |
-| static [PointToPixel](../../aspose.words/convertutil/pointtopixel/#pointtopixel_1)(double, double) | Converte i punti in pixel alla risoluzione pixel specificata. |
+| static [InchToPoint](../../aspose.words/convertutil/inchtopoint/)(*double*) | Converte i pollici in punti. |
+| static [MillimeterToPoint](../../aspose.words/convertutil/millimetertopoint/)(*double*) | Converte i millimetri in punti. |
+| static [PixelToNewDpi](../../aspose.words/convertutil/pixeltonewdpi/)(*double, double, double*) | Converte i pixel da una risoluzione all'altra. |
+| static [PixelToPoint](../../aspose.words/convertutil/pixeltopoint/#pixeltopoint)(*double*) | Converte i pixel in punti a 96 dpi. |
+| static [PixelToPoint](../../aspose.words/convertutil/pixeltopoint/#pixeltopoint_1)(*double, double*) | Converte i pixel in punti alla risoluzione pixel specificata. |
+| static [PointToInch](../../aspose.words/convertutil/pointtoinch/)(*double*) | Converte i punti in pollici. |
+| static [PointToPixel](../../aspose.words/convertutil/pointtopixel/#pointtopixel)(*double*) | Converte i punti in pixel a 96 dpi. |
+| static [PointToPixel](../../aspose.words/convertutil/pointtopixel/#pointtopixel_1)(*double, double*) | Converte i punti in pixel alla risoluzione pixel specificata. |
 
-### Esempi
+## Esempi
 
 Mostra come regolare il formato della carta, l'orientamento, i margini e altre impostazioni per una sezione.
 
@@ -83,5 +85,3 @@ doc.Save(ArtifactsDir + "UtilityClasses.PointsAndInches.docx");
 
 * spazio dei nomi [Aspose.Words](../../aspose.words/)
 * assemblea [Aspose.Words](../../)
-
-

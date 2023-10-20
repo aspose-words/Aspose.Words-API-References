@@ -1,7 +1,9 @@
 ---
 title: ControlChar.ParagraphBreakChar
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ControlChar champ. Caractère de fin de paragraphe  car13 ou r.
+linktitle: ParagraphBreakChar
+articleTitle: ParagraphBreakChar
+second_title: Aspose.Words pour .NET
+description: ControlChar ParagraphBreakChar champ. Caractère de fin de paragraphe  car13 ou r en C#.
 type: docs
 weight: 230
 url: /fr/net/aspose.words/controlchar/paragraphbreakchar/
@@ -14,7 +16,7 @@ Caractère de fin de paragraphe : (car)13 ou "\r".
 public const char ParagraphBreakChar;
 ```
 
-### Exemples
+## Exemples
 
 Montre comment ajouter divers caractères de contrôle à un document.
 
@@ -86,7 +88,5 @@ Assert.AreEqual(Convert.ToChar(ControlChar.ColumnBreak), ControlChar.ColumnBreak
 ### Voir également
 
 * class [ControlChar](../)
-* espace de noms [Aspose.Words](../../controlchar/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

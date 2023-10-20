@@ -1,7 +1,9 @@
 ---
 title: SaveOptions.UpdateLastSavedTimeProperty
-second_title: Aspose.Words لمراجع .NET API
-description: SaveOptions ملكية. الحصول على أو تعيين قيمة لتحديد ما إذا كانLastSavedTime يتم تحديث الخاصية قبل الحفظ.
+linktitle: UpdateLastSavedTimeProperty
+articleTitle: UpdateLastSavedTimeProperty
+second_title: Aspose.Words لـ .NET
+description: SaveOptions UpdateLastSavedTimeProperty ملكية. الحصول على أو تعيين قيمة لتحديد ما إذا كانLastSavedTime يتم تحديث الخاصية قبل الحفظ في C#.
 type: docs
 weight: 180
 url: /ar/net/aspose.words.saving/saveoptions/updatelastsavedtimeproperty/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.saving/saveoptions/updatelastsavedtimeproperty/
 public bool UpdateLastSavedTimeProperty { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحديد ما إذا كان سيتم الاحتفاظ بخاصية "آخر وقت تم حفظه" للمستند عند الحفظ.
 
@@ -48,7 +50,5 @@ else
 ### أنظر أيضا
 
 * class [SaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../saveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

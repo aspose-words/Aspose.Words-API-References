@@ -1,7 +1,9 @@
 ---
 title: FieldMergingArgs.Text
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldMergingArgs propriété. Obtient ou définit le texte qui sera inséré dans le document pour le champ de fusion actuel.
+linktitle: Text
+articleTitle: Text
+second_title: Aspose.Words pour .NET
+description: FieldMergingArgs Text propriété. Obtient ou définit le texte qui sera inséré dans le document pour le champ de fusion actuel en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.mailmerging/fieldmergingargs/text/
@@ -14,7 +16,7 @@ Obtient ou définit le texte qui sera inséré dans le document pour le champ de
 public string Text { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 Lorsque votre gestionnaire d'événements est appelé, cette propriété est définie sur`nul`.
 
@@ -22,7 +24,7 @@ Si vous laissez Texte comme`nul` , le moteur de publipostage insérera[`FieldVal
 
 Si vous définissez Texte sur n'importe quelle chaîne (y compris vide), la chaîne sera insérée dans le document à la place du champ de fusion.
 
-### Exemples
+## Exemples
 
 Montre comment exécuter un publipostage avec un rappel personnalisé qui gère les données de fusion sous la forme de documents HTML.
 
@@ -90,7 +92,5 @@ private class HandleMergeFieldInsertHtml : IFieldMergingCallback
 ### Voir également
 
 * class [FieldMergingArgs](../)
-* espace de noms [Aspose.Words.MailMerging](../../fieldmergingargs/)
+* espace de noms [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * Assemblée [Aspose.Words](../../../)
-
-

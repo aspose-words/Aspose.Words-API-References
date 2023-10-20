@@ -1,7 +1,9 @@
 ---
-title: Class HtmlSaveOptions
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Saving.HtmlSaveOptions classe. Peut être utilisé pour spécifier des options supplémentaires lors de lenregistrement dun document dans le Html Mhtml Epub  Azw3 ouMobi format.
+title: HtmlSaveOptions Class
+linktitle: HtmlSaveOptions
+articleTitle: HtmlSaveOptions
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Saving.HtmlSaveOptions classe. Peut être utilisé pour spécifier des options supplémentaires lors de lenregistrement dun document dans le Html Mhtml Epub  Azw3 ouMobi format en C#.
 type: docs
 weight: 5110
 url: /fr/net/aspose.words.saving/htmlsaveoptions/
@@ -21,7 +23,7 @@ public class HtmlSaveOptions : SaveOptions
 | Nom | La description |
 | --- | --- |
 | [HtmlSaveOptions](htmlsaveoptions/#constructor)() | Initialise une nouvelle instance de cette classe qui peut être utilisée pour enregistrer un document dans leHtml format. |
-| [HtmlSaveOptions](htmlsaveoptions/#constructor_1)(SaveFormat) | Initialise une nouvelle instance de cette classe qui peut être utilisée pour enregistrer un document dans leHtml ,Mhtml ,Epub , Azw3 ouMobi format. |
+| [HtmlSaveOptions](htmlsaveoptions/#constructor_1)(*[SaveFormat](../../aspose.words/saveformat/)*) | Initialise une nouvelle instance de cette classe qui peut être utilisée pour enregistrer un document dans leHtml ,Mhtml ,Epub , Azw3 ouMobi format. |
 
 ## Propriétés
 
@@ -34,7 +36,7 @@ public class HtmlSaveOptions : SaveOptions
 | [CssStyleSheetFileName](../../aspose.words.saving/htmlsaveoptions/cssstylesheetfilename/) { get; set; } | Spécifie le chemin et le nom du fichier CSS (Cascading Style Sheet) écrit lorsqu'un document est exporté au format HTML. La valeur par défaut est une chaîne vide. |
 | [CssStyleSheetType](../../aspose.words.saving/htmlsaveoptions/cssstylesheettype/) { get; set; } | Spécifie comment les styles CSS (Cascading Style Sheet) sont exportés vers HTML, MHTML ou EPUB. La valeur par défaut estInline pour HTML/MHTML et External pour EPUB. |
 | [CustomTimeZoneInfo](../../aspose.words.saving/saveoptions/customtimezoneinfo/) { get; set; } | Obtient ou définit le fuseau horaire local personnalisé utilisé pour les champs de date/heure. |
-| [DefaultTemplate](../../aspose.words.saving/saveoptions/defaulttemplate/) { get; set; } | Obtient ou définit le chemin d'accès au modèle par défaut (y compris le nom de fichier). La valeur par défaut de cette propriété est **chaîne vide** (Empty). |
+| [DefaultTemplate](../../aspose.words.saving/saveoptions/defaulttemplate/) { get; set; } | Obtient ou définit le chemin d'accès au modèle par défaut (y compris le nom de fichier). La valeur par défaut de cette propriété est**chaîne vide** (Empty). |
 | [Dml3DEffectsRenderingMode](../../aspose.words.saving/saveoptions/dml3deffectsrenderingmode/) { get; set; } | Obtient ou définit une valeur déterminant la manière dont les effets 3D sont rendus. |
 | virtual [DmlEffectsRenderingMode](../../aspose.words.saving/saveoptions/dmleffectsrenderingmode/) { get; set; } | Obtient ou définit une valeur déterminant la façon dont les effets DrawingML sont rendus. |
 | [DmlRenderingMode](../../aspose.words.saving/saveoptions/dmlrenderingmode/) { get; set; } | Obtient ou définit une valeur déterminant la façon dont les formes DrawingML sont rendues. |
@@ -91,7 +93,7 @@ public class HtmlSaveOptions : SaveOptions
 | [UseAntiAliasing](../../aspose.words.saving/saveoptions/useantialiasing/) { get; set; } | Obtient ou définit une valeur déterminant s'il faut ou non utiliser l'anticrénelage pour le rendu. |
 | [UseHighQualityRendering](../../aspose.words.saving/saveoptions/usehighqualityrendering/) { get; set; } | Obtient ou définit une valeur déterminant s'il faut ou non utiliser des algorithmes de rendu de haute qualité (c'est-à-dire lents). |
 
-### Exemples
+## Exemples
 
 Montre comment spécifier le dossier dans lequel stocker les images liées après leur enregistrement au format .html.
 
@@ -254,5 +256,3 @@ public class SavedImageRename : IImageSavingCallback
 * class [SaveOptions](../saveoptions/)
 * espace de noms [Aspose.Words.Saving](../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../)
-
-

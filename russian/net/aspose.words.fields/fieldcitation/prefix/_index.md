@@ -1,7 +1,9 @@
 ---
 title: FieldCitation.Prefix
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldCitation свойство. Получает или задает префикс добавляемый к ссылке.
+linktitle: Prefix
+articleTitle: Prefix
+second_title: Aspose.Words для .NET
+description: FieldCitation Prefix свойство. Получает или задает префикс добавляемый к ссылке на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.fields/fieldcitation/prefix/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldcitation/prefix/
 public string Prefix { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как работать с полями ЦИТАТА и БИБЛИОГРАФИЯ.
 
@@ -68,7 +70,5 @@ doc.Save(ArtifactsDir + "Field.CITATION.docx");
 ### Смотрите также
 
 * class [FieldCitation](../)
-* пространство имен [Aspose.Words.Fields](../../fieldcitation/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: DocumentPartSavingArgs.KeepDocumentPartStreamOpen
-second_title: Referencia de API de Aspose.Words para .NET
-description: DocumentPartSavingArgs propiedad. Especifica si Aspose.Words debe mantener la secuencia abierta o cerrarla después de guardar una parte del documento.
+linktitle: KeepDocumentPartStreamOpen
+articleTitle: KeepDocumentPartStreamOpen
+second_title: Aspose.Words para .NET
+description: DocumentPartSavingArgs KeepDocumentPartStreamOpen propiedad. Especifica si Aspose.Words debe mantener la secuencia abierta o cerrarla después de guardar una parte del documento en C#.
 type: docs
 weight: 40
 url: /es/net/aspose.words.saving/documentpartsavingargs/keepdocumentpartstreamopen/
@@ -14,11 +16,11 @@ Especifica si Aspose.Words debe mantener la secuencia abierta o cerrarla despué
 public bool KeepDocumentPartStreamOpen { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 El valor predeterminado es`FALSO` y Aspose.Words cerrará la transmisión que proporcionó en el[`DocumentPartStream`](../documentpartstream/) propiedad después de escribir una parte del documento en ella. Especificar`verdadero` para mantener la corriente abierta. Tenga en cuenta que el flujo de salida principal proporcionado en la llamada a[`Save`](../../../aspose.words/document/save/)[`Save`](../../../aspose.words/document/save/) Aspose.Words nunca lo cerrará incluso si`KeepDocumentPartStreamOpen` se establece en`FALSO`.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo dividir un documento en partes y guardarlas.
 
@@ -135,7 +137,5 @@ public class SavedImageRename : IImageSavingCallback
 ### Ver también
 
 * class [DocumentPartSavingArgs](../)
-* espacio de nombres [Aspose.Words.Saving](../../documentpartsavingargs/)
+* espacio de nombres [Aspose.Words.Saving](../../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: SvgSaveOptions.SaveFormat
-second_title: Aspose.Words för .NET API Referens
-description: SvgSaveOptions fast egendom. Anger formatet som dokumentet kommer att sparas i om detta sparaalternativobjekt används. Kan endastSvg .
+linktitle: SaveFormat
+articleTitle: SaveFormat
+second_title: Aspose.Words för .NET
+description: SvgSaveOptions SaveFormat fast egendom. Anger formatet som dokumentet kommer att sparas i om detta sparaalternativobjekt används. Kan endastSvg  i C#.
 type: docs
 weight: 70
 url: /sv/net/aspose.words.saving/svgsaveoptions/saveformat/
@@ -14,7 +16,7 @@ Anger formatet som dokumentet kommer att sparas i om detta sparaalternativ-objek
 public override SaveFormat SaveFormat { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man manipulerar och skriver ut URI:erna för länkade resurser som skapas när ett dokument konverteras till .svg.
 
@@ -58,7 +60,5 @@ private class ResourceUriPrinter : IResourceSavingCallback
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
 * class [SvgSaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../svgsaveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

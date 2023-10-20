@@ -1,12 +1,14 @@
 ---
-title: JsonDataSource.JsonDataSource
-second_title: Aspose.Words for .NET API 参考
-description: JsonDataSource 构造函数. 使用解析 JSON 数据的默认选项使用 JSON 文件中的数据创建新数据源
+title: JsonDataSource
+linktitle: JsonDataSource
+articleTitle: JsonDataSource
+second_title: 用于 .NET 的 Aspose.Words
+description: JsonDataSource 构造函数. 使用解析 JSON 数据的默认选项使用 JSON 文件中的数据创建新数据源 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.reporting/jsondatasource/jsondatasource/
 ---
-## JsonDataSource(string) {#constructor_2}
+## JsonDataSource(*string*) {#constructor_2}
 
 使用解析 JSON 数据的默认选项，使用 JSON 文件中的数据创建新数据源。
 
@@ -21,12 +23,12 @@ public JsonDataSource(string jsonPath)
 ### 也可以看看
 
 * class [JsonDataSource](../)
-* 命名空间 [Aspose.Words.Reporting](../../jsondatasource/)
+* 命名空间 [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## JsonDataSource(Stream) {#constructor}
+## JsonDataSource(*Stream*) {#constructor}
 
 使用解析 JSON 数据的默认选项，使用来自 JSON 流的数据创建新数据源。
 
@@ -41,12 +43,12 @@ public JsonDataSource(Stream jsonStream)
 ### 也可以看看
 
 * class [JsonDataSource](../)
-* 命名空间 [Aspose.Words.Reporting](../../jsondatasource/)
+* 命名空间 [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## JsonDataSource(string, JsonDataLoadOptions) {#constructor_3}
+## JsonDataSource(*string, [JsonDataLoadOptions](../../jsondataloadoptions/)*) {#constructor_3}
 
 使用解析 JSON 数据的指定选项，使用 JSON 文件中的数据创建新数据源。
 
@@ -63,12 +65,12 @@ public JsonDataSource(string jsonPath, JsonDataLoadOptions options)
 
 * class [JsonDataLoadOptions](../../jsondataloadoptions/)
 * class [JsonDataSource](../)
-* 命名空间 [Aspose.Words.Reporting](../../jsondatasource/)
+* 命名空间 [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## JsonDataSource(Stream, JsonDataLoadOptions) {#constructor_1}
+## JsonDataSource(*Stream, [JsonDataLoadOptions](../../jsondataloadoptions/)*) {#constructor_1}
 
 使用解析 JSON 数据的指定选项，使用来自 JSON 流的数据创建新数据源。
 
@@ -85,7 +87,5 @@ public JsonDataSource(Stream jsonStream, JsonDataLoadOptions options)
 
 * class [JsonDataLoadOptions](../../jsondataloadoptions/)
 * class [JsonDataSource](../)
-* 命名空间 [Aspose.Words.Reporting](../../jsondatasource/)
+* 命名空间 [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * 部件 [Aspose.Words](../../../)
-
-

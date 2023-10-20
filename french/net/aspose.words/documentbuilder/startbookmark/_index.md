@@ -1,9 +1,11 @@
 ---
 title: DocumentBuilder.StartBookmark
-second_title: Référence de l'API Aspose.Words pour .NET
-description: DocumentBuilder méthode. Marque la position actuelle dans le document comme début de signet.
+linktitle: StartBookmark
+articleTitle: StartBookmark
+second_title: Aspose.Words pour .NET
+description: DocumentBuilder StartBookmark méthode. Marque la position actuelle dans le document comme début de signet en C#.
 type: docs
-weight: 620
+weight: 610
 url: /fr/net/aspose.words/documentbuilder/startbookmark/
 ---
 ## DocumentBuilder.StartBookmark method
@@ -22,13 +24,13 @@ public BookmarkStart StartBookmark(string bookmarkName)
 
 Le nœud de démarrage du signet qui vient d'être créé.
 
-### Remarques
+## Remarques
 
 Les signets d’un document peuvent se chevaucher et s’étendre sur n’importe quelle plage. Pour créer un signet valide, vous devez appeler les deux`StartBookmark` et[`EndBookmark`](../endbookmark/) avec le même*bookmarkName* Paramètre .
 
 Les signets mal formés ou les signets avec des noms en double seront ignorés lors de l'enregistrement du document.
 
-### Exemples
+## Exemples
 
 Montre comment créer un signet.
 
@@ -71,7 +73,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertHyperlinkToLocalBookmark.docx");
 
 * class [BookmarkStart](../../bookmarkstart/)
 * class [DocumentBuilder](../)
-* espace de noms [Aspose.Words](../../documentbuilder/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: CustomXmlPropertyCollection.Contains
-second_title: Referencia de API de Aspose.Words para .NET
-description: CustomXmlPropertyCollection método. Determina si la colección contiene una propiedad con el nombre indicado.
+linktitle: Contains
+articleTitle: Contains
+second_title: Aspose.Words para .NET
+description: CustomXmlPropertyCollection Contains método. Determina si la colección contiene una propiedad con el nombre indicado en C#.
 type: docs
 weight: 50
 url: /es/net/aspose.words.markup/customxmlpropertycollection/contains/
@@ -22,7 +24,7 @@ public bool Contains(string name)
 
 `verdadero` si el artículo se encuentra en la colección; de lo contrario,`FALSO`.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo trabajar con propiedades de etiquetas inteligentes para obtener información detallada sobre las etiquetas inteligentes.
 
@@ -79,7 +81,5 @@ Assert.AreEqual(0, properties.Count);
 ### Ver también
 
 * class [CustomXmlPropertyCollection](../)
-* espacio de nombres [Aspose.Words.Markup](../../customxmlpropertycollection/)
+* espacio de nombres [Aspose.Words.Markup](../../../aspose.words.markup/)
 * asamblea [Aspose.Words](../../../)
-
-

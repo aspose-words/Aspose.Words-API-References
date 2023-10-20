@@ -1,7 +1,9 @@
 ---
 title: PdfEncryptionDetails.Permissions
-second_title: Aspose.Words لمراجع .NET API
-description: PdfEncryptionDetails ملكية. يحدد العمليات المسموح بها للمستخدم على مستند PDF مشفر. القيمة الافتراضية هيDisallowAll .
+linktitle: Permissions
+articleTitle: Permissions
+second_title: Aspose.Words لـ .NET
+description: PdfEncryptionDetails Permissions ملكية. يحدد العمليات المسموح بها للمستخدم على مستند PDF مشفر. القيمة الافتراضية هيDisallowAll  في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.saving/pdfencryptiondetails/permissions/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.saving/pdfencryptiondetails/permissions/
 public PdfPermissions Permissions { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين الأذونات على مستند PDF محفوظ.
 
@@ -42,7 +44,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.EncryptionPermissions.pdf", saveOptions)
 
 * enum [PdfPermissions](../../pdfpermissions/)
 * class [PdfEncryptionDetails](../)
-* مساحة الاسم [Aspose.Words.Saving](../../pdfencryptiondetails/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

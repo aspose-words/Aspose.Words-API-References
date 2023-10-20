@@ -1,7 +1,9 @@
 ---
-title: Class BuildingBlockCollection
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.BuildingBlocks.BuildingBlockCollection فصل. مجموعة منBuildingBlockالكائنات الموجودة في المستند.
+title: BuildingBlockCollection Class
+linktitle: BuildingBlockCollection
+articleTitle: BuildingBlockCollection
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.BuildingBlocks.BuildingBlockCollection فصل. مجموعة منBuildingBlockالكائنات الموجودة في المستند في C#.
 type: docs
 weight: 150
 url: /ar/net/aspose.words.buildingblocks/buildingblockcollection/
@@ -27,21 +29,21 @@ public class BuildingBlockCollection : NodeCollection
 
 | اسم | وصف |
 | --- | --- |
-| [Add](../../aspose.words/nodecollection/add/)(Node) | إضافة عقدة إلى نهاية المجموعة. |
+| [Add](../../aspose.words/nodecollection/add/)(*[Node](../../aspose.words/node/)*) | إضافة عقدة إلى نهاية المجموعة. |
 | [Clear](../../aspose.words/nodecollection/clear/)() | إزالة كافة العقد من هذه المجموعة ومن المستند. |
-| [Contains](../../aspose.words/nodecollection/contains/)(Node) | تحديد ما إذا كانت العقدة موجودة في المجموعة. |
+| [Contains](../../aspose.words/nodecollection/contains/)(*[Node](../../aspose.words/node/)*) | تحديد ما إذا كانت العقدة موجودة في المجموعة. |
 | [GetEnumerator](../../aspose.words/nodecollection/getenumerator/)() | يوفر تكرارًا بسيطًا لنمط "foreach" عبر مجموعة العقد. |
-| [IndexOf](../../aspose.words/nodecollection/indexof/)(Node) | إرجاع الفهرس الصفري للعقدة المحددة. |
-| [Insert](../../aspose.words/nodecollection/insert/)(int, Node) | إدراج عقدة في المجموعة في الفهرس المحدد. |
-| [Remove](../../aspose.words/nodecollection/remove/)(Node) | إزالة العقدة من المجموعة ومن المستند. |
-| [RemoveAt](../../aspose.words/nodecollection/removeat/)(int) | إزالة العقدة الموجودة في الفهرس المحدد من المجموعة ومن المستند. |
+| [IndexOf](../../aspose.words/nodecollection/indexof/)(*[Node](../../aspose.words/node/)*) | إرجاع الفهرس الصفري للعقدة المحددة. |
+| [Insert](../../aspose.words/nodecollection/insert/)(*int, [Node](../../aspose.words/node/)*) | إدراج عقدة في المجموعة في الفهرس المحدد. |
+| [Remove](../../aspose.words/nodecollection/remove/)(*[Node](../../aspose.words/node/)*) | إزالة العقدة من المجموعة ومن المستند. |
+| [RemoveAt](../../aspose.words/nodecollection/removeat/)(*int*) | إزالة العقدة الموجودة في الفهرس المحدد من المجموعة ومن المستند. |
 | [ToArray](../../aspose.words.buildingblocks/buildingblockcollection/toarray/#toarray)() | نسخ كافة الكتل البرمجية الإنشائية من المجموعة إلى مجموعة جديدة من الكتل البرمجية الإنشائية. (2 methods) |
 
-### ملاحظات
+## ملاحظات
 
 لا تقم بإنشاء مثيلات هذه الفئة مباشرة. للوصول إلى مجموعة من الكتل البرمجية الإنشائية، استخدم[`BuildingBlocks`](../glossarydocument/buildingblocks/) ملكية.
 
-### أمثلة
+## أمثلة
 
 يعرض طرق الوصول إلى الكتل البرمجية الإنشائية في مستند المسرد.
 
@@ -147,5 +149,3 @@ public class GlossaryDocVisitor : DocumentVisitor
 * class [NodeCollection](../../aspose.words/nodecollection/)
 * مساحة الاسم [Aspose.Words.BuildingBlocks](../../aspose.words.buildingblocks/)
 * المجسم [Aspose.Words](../../)
-
-

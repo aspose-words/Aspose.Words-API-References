@@ -1,7 +1,9 @@
 ---
 title: Inline.IsMoveFromRevision
-second_title: Aspose.Words per .NET API Reference
-description: Inline proprietà. RestituisceVERO se questo oggetto è stato spostato eliminato in Microsoft Word mentre il rilevamento delle modifiche era abilitato.
+linktitle: IsMoveFromRevision
+articleTitle: IsMoveFromRevision
+second_title: Aspose.Words per .NET
+description: Inline IsMoveFromRevision proprietà. RestituisceVERO se questo oggetto è stato spostato eliminato in Microsoft Word mentre il rilevamento delle modifiche era abilitato in C#.
 type: docs
 weight: 50
 url: /it/net/aspose.words/inline/ismovefromrevision/
@@ -14,7 +16,7 @@ Restituisce`VERO` se questo oggetto è stato spostato (eliminato) in Microsoft W
 public bool IsMoveFromRevision { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come determinare il tipo di revisione di un nodo in linea.
 
@@ -70,7 +72,5 @@ Assert.IsTrue(runs[5].IsDeleteRevision);
 ### Guarda anche
 
 * class [Inline](../)
-* spazio dei nomi [Aspose.Words](../../inline/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

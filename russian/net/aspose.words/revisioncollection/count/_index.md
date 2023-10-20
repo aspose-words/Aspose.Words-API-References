@@ -1,7 +1,9 @@
 ---
 title: RevisionCollection.Count
-second_title: Справочник по API Aspose.Words для .NET
-description: RevisionCollection свойство. Возвращает количество ревизий в коллекции.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words для .NET
+description: RevisionCollection Count свойство. Возвращает количество ревизий в коллекции на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words/revisioncollection/count/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/revisioncollection/count/
 public int Count { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как работать с изменениями в документе.
 
@@ -97,7 +99,5 @@ Assert.AreEqual("This is revision #1. \rThis is revision #2.", doc.GetText().Tri
 ### Смотрите также
 
 * class [RevisionCollection](../)
-* пространство имен [Aspose.Words](../../revisioncollection/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

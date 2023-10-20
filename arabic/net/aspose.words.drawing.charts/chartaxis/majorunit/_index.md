@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.MajorUnit
-second_title: Aspose.Words لمراجع .NET API
-description: ChartAxis ملكية. إرجاع أو تعيين المسافة بين علامات التجزئة الرئيسية.
+linktitle: MajorUnit
+articleTitle: MajorUnit
+second_title: Aspose.Words لـ .NET
+description: ChartAxis MajorUnit ملكية. إرجاع أو تعيين المسافة بين علامات التجزئة الرئيسية في C#.
 type: docs
 weight: 120
 url: /ar/net/aspose.words.drawing.charts/chartaxis/majorunit/
@@ -14,13 +16,13 @@ url: /ar/net/aspose.words.drawing.charts/chartaxis/majorunit/
 public double MajorUnit { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 النطاق الصالح للقيمة أكبر من الصفر. الخاصية لها تأثير على فئة الوقت ومحاور القيمة .
 
 يؤدي تعيين هذه الخاصية إلى تعيين[`MajorUnitIsAuto`](../majorunitisauto/) الملكية ل`خطأ شنيع`.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج مخطط وتعديل مظهر محاوره.
 
@@ -73,7 +75,5 @@ doc.Save(ArtifactsDir + "Charts.AxisProperties.docx");
 ### أنظر أيضا
 
 * class [ChartAxis](../)
-* مساحة الاسم [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* مساحة الاسم [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: PageSetup.LineStartingNumber
-second_title: Aspose.Words لمراجع .NET API
-description: PageSetup ملكية. الحصول على رقم سطر البداية أو تعيينه.
+linktitle: LineStartingNumber
+articleTitle: LineStartingNumber
+second_title: Aspose.Words لـ .NET
+description: PageSetup LineStartingNumber ملكية. الحصول على رقم سطر البداية أو تعيينه في C#.
 type: docs
 weight: 250
 url: /ar/net/aspose.words/pagesetup/linestartingnumber/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/pagesetup/linestartingnumber/
 public int LineStartingNumber { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تمكين ترقيم الأسطر لقسم ما.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "PageSetup.LineNumbers.docx");
 ### أنظر أيضا
 
 * class [PageSetup](../)
-* مساحة الاسم [Aspose.Words](../../pagesetup/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

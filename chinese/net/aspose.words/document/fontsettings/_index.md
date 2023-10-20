@@ -1,7 +1,9 @@
 ---
 title: Document.FontSettings
-second_title: Aspose.Words for .NET API 参考
-description: Document 财产. 获取或设置文档字体设置
+linktitle: FontSettings
+articleTitle: FontSettings
+second_title: 用于 .NET 的 Aspose.Words
+description: Document FontSettings 财产. 获取或设置文档字体设置 在 C#.
 type: docs
 weight: 140
 url: /zh/net/aspose.words/document/fontsettings/
@@ -14,13 +16,13 @@ url: /zh/net/aspose.words/document/fontsettings/
 public FontSettings FontSettings { get; set; }
 ```
 
-### 评论
+## 评论
 
 此属性允许指定每个文档的字体设置。如果设置为`无效的`,默认静态字体设置 [`DefaultInstance`](../../../aspose.words.fonts/fontsettings/defaultinstance/)将会被使用。
 
 默认值为`无效的`。
 
-### 例子
+## 例子
 
 显示如何设置字体替换规则。
 
@@ -64,7 +66,5 @@ doc.Save(ArtifactsDir + "FontSettings.TableSubstitution.pdf");
 
 * class [FontSettings](../../../aspose.words.fonts/fontsettings/)
 * class [Document](../)
-* 命名空间 [Aspose.Words](../../document/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

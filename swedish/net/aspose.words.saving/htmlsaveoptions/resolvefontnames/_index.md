@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ResolveFontNames
-second_title: Aspose.Words för .NET API Referens
-description: HtmlSaveOptions fast egendom. Anger om teckensnittsfamiljnamn som används i dokumentet löses och ersätts enligt FontSettings när de skrivs i HTMLbaserade format.
+linktitle: ResolveFontNames
+articleTitle: ResolveFontNames
+second_title: Aspose.Words för .NET
+description: HtmlSaveOptions ResolveFontNames fast egendom. Anger om teckensnittsfamiljnamn som används i dokumentet löses och ersätts enligt FontSettings när de skrivs i HTMLbaserade format i C#.
 type: docs
 weight: 410
 url: /sv/net/aspose.words.saving/htmlsaveoptions/resolvefontnames/
@@ -14,13 +16,13 @@ Anger om teckensnittsfamiljnamn som används i dokumentet löses och ersätts en
 public bool ResolveFontNames { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Som standard är det här alternativet inställt på`falsk` och teckensnittsfamiljnamn skrivs till HTML som specificerat i källdokument. Det är,[`FontSettings`](../../../aspose.words/document/fontsettings/) ignoreras och ingen upplösning eller substitution av teckensnittsfamiljenamn utförs.
 
 Om det här alternativet är inställt på`Sann` , Aspose.Words använder[`FontSettings`](../../../aspose.words/document/fontsettings/) att lösa varje teckensnittsfamiljsnamn som anges i ett källdokument till namnet på en tillgänglig teckensnittsfamilj, genom att utföra teckensnittsersättning efter behov.
 
-### Exempel
+## Exempel
 
 Visar hur du löser alla teckensnittsnamn innan du skriver dem till HTML.
 
@@ -64,7 +66,5 @@ Assert.True(resolveFontNames
 ### Se även
 
 * class [HtmlSaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../htmlsaveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

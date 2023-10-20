@@ -1,7 +1,9 @@
 ---
 title: FileFormatInfo.HasDigitalSignature
-second_title: Aspose.Words for .NET API 参考
-description: FileFormatInfo 财产. 返回真的如果该文档包含数字签名 此属性仅通知文档上存在数字签名 但不指定签名是否有效
+linktitle: HasDigitalSignature
+articleTitle: HasDigitalSignature
+second_title: 用于 .NET 的 Aspose.Words
+description: FileFormatInfo HasDigitalSignature 财产. 返回真的如果该文档包含数字签名 此属性仅通知文档上存在数字签名 但不指定签名是否有效 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words/fileformatinfo/hasdigitalsignature/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words/fileformatinfo/hasdigitalsignature/
 public bool HasDigitalSignature { get; }
 ```
 
-### 评论
+## 评论
 
 此属性的存在是为了帮助您对经过数字签名的文档和未经数字签名的文档进行排序。 如果您使用 Aspose.Words 修改并保存经过数字签名的文档，则数字签名将 丢失。这是设计使然，因为数字签名的存在是为了保护文档的真实性。 使用此属性，您可以在以与普通 文档相同的方式处理数字签名文档之前检测它们，并采取一些操作以避免丢失数字签名，例如通知用户。
 
-### 例子
+## 例子
 
 演示如何使用 FileFormatUtil 类来检测文档格式和数字签名的存在。
 
@@ -45,7 +47,5 @@ Assert.AreEqual(1, DigitalSignatureUtil.LoadSignatures(ArtifactsDir + "File.Dete
 ### 也可以看看
 
 * class [FileFormatInfo](../)
-* 命名空间 [Aspose.Words](../../fileformatinfo/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

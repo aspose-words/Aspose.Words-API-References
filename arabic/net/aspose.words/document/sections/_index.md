@@ -1,7 +1,9 @@
 ---
 title: Document.Sections
-second_title: Aspose.Words لمراجع .NET API
-description: Document ملكية. إرجاع مجموعة تمثل كافة الأقسام في المستند.
+linktitle: Sections
+articleTitle: Sections
+second_title: Aspose.Words لـ .NET
+description: Document Sections ملكية. إرجاع مجموعة تمثل كافة الأقسام في المستند في C#.
 type: docs
 weight: 370
 url: /ar/net/aspose.words/document/sections/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/document/sections/
 public SectionCollection Sections { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إضافة وإزالة الأقسام في المستند.
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "PageSetup.SetSectionStart.docx");
 
 * class [SectionCollection](../../sectioncollection/)
 * class [Document](../)
-* مساحة الاسم [Aspose.Words](../../document/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

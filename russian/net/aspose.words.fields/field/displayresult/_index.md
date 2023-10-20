@@ -1,7 +1,9 @@
 ---
 title: Field.DisplayResult
-second_title: Справочник по API Aspose.Words для .NET
-description: Field свойство. Получает текст представляющий результат отображаемого поля.
+linktitle: DisplayResult
+articleTitle: DisplayResult
+second_title: Aspose.Words для .NET
+description: Field DisplayResult свойство. Получает текст представляющий результат отображаемого поля на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fields/field/displayresult/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.fields/field/displayresult/
 public string DisplayResult { get; }
 ```
 
-### Примечания
+## Примечания
 
 [`UpdateListLabels`](../../../aspose.words/document/updatelistlabels/) необходимо вызвать метод, чтобы получить правильное значение для the [`FieldListNum`](../../fieldlistnum/) ,[`FieldAutoNum`](../../fieldautonum/) ,[`FieldAutoNumOut`](../../fieldautonumout/) и[`FieldAutoNumLgl`](../../fieldautonumlgl/) поля.
 
-### Примеры
+## Примеры
 
 Показывает, как получить реальный текст, отображаемый в поле документа.
 
@@ -47,7 +49,5 @@ doc.Save(ArtifactsDir + "Field.DisplayResult.docx");
 ### Смотрите также
 
 * class [Field](../)
-* пространство имен [Aspose.Words.Fields](../../field/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

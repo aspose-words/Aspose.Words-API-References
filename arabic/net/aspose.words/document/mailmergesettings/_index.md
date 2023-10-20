@@ -1,7 +1,9 @@
 ---
 title: Document.MailMergeSettings
-second_title: Aspose.Words لمراجع .NET API
-description: Document ملكية. الحصول على الكائن الذي يحتوي على كافة معلومات دمج المراسلات لمستند أو تعيينه.
+linktitle: MailMergeSettings
+articleTitle: MailMergeSettings
+second_title: Aspose.Words لـ .NET
+description: Document MailMergeSettings ملكية. الحصول على الكائن الذي يحتوي على كافة معلومات دمج المراسلات لمستند أو تعيينه في C#.
 type: docs
 weight: 270
 url: /ar/net/aspose.words/document/mailmergesettings/
@@ -14,13 +16,13 @@ url: /ar/net/aspose.words/document/mailmergesettings/
 public MailMergeSettings MailMergeSettings { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 يمكنك استخدام هذا الكائن لتحديد مصدر بيانات دمج البريد لمستند وستظهر هذه المعلومات (مع حقول البيانات المتوفرة) في Microsoft Word عندما يفتح المستخدم هذا المستند. أو يمكنك استخدام هذا الكائن للاستعلام عن إعدادات دمج البريد التي حددها المستخدم في Microsoft Word لهذا المستند.
 
 هذا الكائن أبدا`باطل`.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تنفيذ دمج البريد مع البيانات من كائن مصدر بيانات Office.
 
@@ -73,7 +75,5 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 
 * class [MailMergeSettings](../../../aspose.words.settings/mailmergesettings/)
 * class [Document](../)
-* مساحة الاسم [Aspose.Words](../../document/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: PageInfo.GetSpecifiedPrinterPaperSource
-second_title: Referencia de API de Aspose.Words para .NET
-description: PageInfo método. Obtiene elPaperSource objeto adecuado para imprimir la página representada por estePageInfo .
+linktitle: GetSpecifiedPrinterPaperSource
+articleTitle: GetSpecifiedPrinterPaperSource
+second_title: Aspose.Words para .NET
+description: PageInfo GetSpecifiedPrinterPaperSource método. Obtiene elPaperSource objeto adecuado para imprimir la página representada por estePageInfo  en C#.
 type: docs
 weight: 100
 url: /es/net/aspose.words.rendering/pageinfo/getspecifiedprinterpapersource/
@@ -24,11 +26,11 @@ public PaperSource GetSpecifiedPrinterPaperSource(PaperSourceCollection paperSou
 
 Un objeto que puede utilizar en el marco de impresión .NET para especificar el origen del papel.
 
-### Observaciones
+## Observaciones
 
 Este método requiere .NET Framework 2.0 o posterior.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo imprimir información sobre el tamaño y la orientación de cada página de un documento de Word.
 
@@ -70,7 +72,5 @@ for (int i = 0; i < doc.PageCount; i++)
 ### Ver también
 
 * class [PageInfo](../)
-* espacio de nombres [Aspose.Words.Rendering](../../pageinfo/)
+* espacio de nombres [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FrameFormat.HorizontalAlignment
-second_title: Справочник по API Aspose.Words для .NET
-description: FrameFormat свойство. Получает горизонтальное выравнивание указанного кадра.
+linktitle: HorizontalAlignment
+articleTitle: HorizontalAlignment
+second_title: Aspose.Words для .NET
+description: FrameFormat HorizontalAlignment свойство. Получает горизонтальное выравнивание указанного кадра на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words/frameformat/horizontalalignment/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/frameformat/horizontalalignment/
 public HorizontalAlignment HorizontalAlignment { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как получить информацию о свойствах форматирования абзацев, являющихся фреймами.
 
@@ -40,7 +42,5 @@ Assert.AreEqual(0.0d, paragraphFrame.FrameFormat.VerticalDistanceFromText);
 
 * enum [HorizontalAlignment](../../../aspose.words.drawing/horizontalalignment/)
 * class [FrameFormat](../)
-* пространство имен [Aspose.Words](../../frameformat/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

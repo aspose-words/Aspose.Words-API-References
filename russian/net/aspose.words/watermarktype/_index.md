@@ -1,7 +1,9 @@
 ---
-title: Enum WatermarkType
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.WatermarkType перечисление. Указывает тип водяного знака.
+title: WatermarkType Enum
+linktitle: WatermarkType
+articleTitle: WatermarkType
+second_title: Aspose.Words для .NET
+description: Aspose.Words.WatermarkType перечисление. Указывает тип водяного знака на С#.
 type: docs
 weight: 6690
 url: /ru/net/aspose.words/watermarktype/
@@ -22,7 +24,7 @@ public enum WatermarkType
 | Image | `1` | Указывает, что изображение будет использоваться в качестве водяного знака. |
 | None | `2` | Указывает, что водяной знак не установлен. |
 
-### Примеры
+## Примеры
 
 Показывает, как создать текстовый водяной знак.
 
@@ -54,5 +56,3 @@ if (doc.Watermark.Type == WatermarkType.Text)
 
 * пространство имен [Aspose.Words](../../aspose.words/)
 * сборка [Aspose.Words](../../)
-
-

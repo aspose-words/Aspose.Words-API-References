@@ -1,7 +1,9 @@
 ---
 title: OutlineOptions.CreateOutlinesForHeadingsInTables
-second_title: Aspose.Words per .NET API Reference
-description: OutlineOptions proprietà. Specifica se creare o meno i contorni delle intestazioni paragrafi formattati con gli stili Intestazione allinterno delle tabelle.
+linktitle: CreateOutlinesForHeadingsInTables
+articleTitle: CreateOutlinesForHeadingsInTables
+second_title: Aspose.Words per .NET
+description: OutlineOptions CreateOutlinesForHeadingsInTables proprietà. Specifica se creare o meno i contorni delle intestazioni paragrafi formattati con gli stili Intestazione allinterno delle tabelle in C#.
 type: docs
 weight: 40
 url: /it/net/aspose.words.saving/outlineoptions/createoutlinesforheadingsintables/
@@ -14,11 +16,11 @@ Specifica se creare o meno i contorni delle intestazioni (paragrafi formattati c
 public bool CreateOutlinesForHeadingsInTables { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Il valore predefinito è`falso`.
 
-### Esempi
+## Esempi
 
 Mostra come creare voci di struttura del documento PDF per le intestazioni all'interno delle tabelle.
 
@@ -63,7 +65,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.TableHeadingOutlines.pdf", pdfSaveOption
 ### Guarda anche
 
 * class [OutlineOptions](../)
-* spazio dei nomi [Aspose.Words.Saving](../../outlineoptions/)
+* spazio dei nomi [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../../)
-
-

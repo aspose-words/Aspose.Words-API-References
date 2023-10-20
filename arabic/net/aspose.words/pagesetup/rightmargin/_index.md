@@ -1,7 +1,9 @@
 ---
 title: PageSetup.RightMargin
-second_title: Aspose.Words لمراجع .NET API
-description: PageSetup ملكية. إرجاع أو تعيين المسافة بالنقاط بين الحافة اليمنى للصفحة والحد الأيمن للنص الأساسي.
+linktitle: RightMargin
+articleTitle: RightMargin
+second_title: Aspose.Words لـ .NET
+description: PageSetup RightMargin ملكية. إرجاع أو تعيين المسافة بالنقاط بين الحافة اليمنى للصفحة والحد الأيمن للنص الأساسي في C#.
 type: docs
 weight: 370
 url: /ar/net/aspose.words/pagesetup/rightmargin/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/pagesetup/rightmargin/
 public double RightMargin { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية ضبط حجم الورق واتجاهه والهوامش بالإضافة إلى الإعدادات الأخرى لقسم ما.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "PageSetup.PageMargins.docx");
 ### أنظر أيضا
 
 * class [PageSetup](../)
-* مساحة الاسم [Aspose.Words](../../pagesetup/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.LinksUpToDate
-second_title: Aspose.Words per .NET API Reference
-description: BuiltInDocumentProperties proprietà. Indica se i collegamenti ipertestuali in un documento sono aggiornati.
+linktitle: LinksUpToDate
+articleTitle: LinksUpToDate
+second_title: Aspose.Words per .NET
+description: BuiltInDocumentProperties LinksUpToDate proprietà. Indica se i collegamenti ipertestuali in un documento sono aggiornati in C#.
 type: docs
 weight: 190
 url: /it/net/aspose.words.properties/builtindocumentproperties/linksuptodate/
@@ -14,11 +16,11 @@ Indica se i collegamenti ipertestuali in un documento sono aggiornati.
 public bool LinksUpToDate { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Aspose.Words non aggiorna questa proprietà.
 
-### Esempi
+## Esempi
 
 Mostra come lavorare con le proprietà del documento nella categoria "Contenuto".
 
@@ -128,7 +130,5 @@ private class LineCounter
 ### Guarda anche
 
 * class [BuiltInDocumentProperties](../)
-* spazio dei nomi [Aspose.Words.Properties](../../builtindocumentproperties/)
+* spazio dei nomi [Aspose.Words.Properties](../../../aspose.words.properties/)
 * assemblea [Aspose.Words](../../../)
-
-

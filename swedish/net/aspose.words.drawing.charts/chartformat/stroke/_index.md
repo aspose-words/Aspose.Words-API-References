@@ -1,9 +1,11 @@
 ---
 title: ChartFormat.Stroke
-second_title: Aspose.Words för .NET API Referens
-description: ChartFormat fast egendom. Hämtar linjeformatering för det överordnade diagramelementet.
+linktitle: Stroke
+articleTitle: Stroke
+second_title: Aspose.Words för .NET
+description: ChartFormat Stroke fast egendom. Hämtar linjeformatering för det överordnade diagramelementet i C#.
 type: docs
-weight: 40
+weight: 30
 url: /sv/net/aspose.words.drawing.charts/chartformat/stroke/
 ---
 ## ChartFormat.Stroke property
@@ -14,7 +16,7 @@ Hämtar linjeformatering för det överordnade diagramelementet.
 public Stroke Stroke { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visa hur du ställer in markörformatering.
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "Charts.MarkerFormatting.docx");
 
 * class [Stroke](../../../aspose.words.drawing/stroke/)
 * class [ChartFormat](../)
-* namnutrymme [Aspose.Words.Drawing.Charts](../../chartformat/)
+* namnutrymme [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../../)
-
-

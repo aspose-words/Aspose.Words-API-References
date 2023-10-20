@@ -1,7 +1,9 @@
 ---
 title: FieldMergeBarcode.SymbolHeight
-second_title: Aspose.Words för .NET API Referens
-description: FieldMergeBarcode fast egendom. Hämtar eller ställer in höjden på symbolen. Enheterna är i TWIPS 1/1440 tum.
+linktitle: SymbolHeight
+articleTitle: SymbolHeight
+second_title: Aspose.Words för .NET
+description: FieldMergeBarcode SymbolHeight fast egendom. Hämtar eller ställer in höjden på symbolen. Enheterna är i TWIPS 1/1440 tum i C#.
 type: docs
 weight: 130
 url: /sv/net/aspose.words.fields/fieldmergebarcode/symbolheight/
@@ -14,7 +16,7 @@ Hämtar eller ställer in höjden på symbolen. Enheterna är i TWIPS (1/1440 tu
 public string SymbolHeight { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man utför en sammanfogning på QR-streckkoder.
 
@@ -64,7 +66,5 @@ doc.Save(ArtifactsDir + "Field.MERGEBARCODE.QR.docx");
 ### Se även
 
 * class [FieldMergeBarcode](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldmergebarcode/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

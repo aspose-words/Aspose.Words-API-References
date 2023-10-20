@@ -1,7 +1,9 @@
 ---
-title: ChmLoadOptions.ChmLoadOptions
-second_title: Aspose.Words för .NET API Referens
-description: ChmLoadOptions byggare. Initierar en ny instans av denna klass med standardvärden.
+title: ChmLoadOptions
+linktitle: ChmLoadOptions
+articleTitle: ChmLoadOptions
+second_title: Aspose.Words för .NET
+description: ChmLoadOptions byggare. Initierar en ny instans av denna klass med standardvärden i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.loading/chmloadoptions/chmloadoptions/
@@ -17,7 +19,5 @@ public ChmLoadOptions()
 ### Se även
 
 * class [ChmLoadOptions](../)
-* namnutrymme [Aspose.Words.Loading](../../chmloadoptions/)
+* namnutrymme [Aspose.Words.Loading](../../../aspose.words.loading/)
 * hopsättning [Aspose.Words](../../../)
-
-

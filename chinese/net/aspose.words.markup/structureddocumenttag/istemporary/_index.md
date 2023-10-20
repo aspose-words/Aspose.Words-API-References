@@ -1,20 +1,22 @@
 ---
 title: StructuredDocumentTag.IsTemporary
-second_title: Aspose.Words for .NET API 参考
-description: StructuredDocumentTag 财产. 指定是否 特殊测试当其内容 被修改时应从WordProcessingML文档中删除
+linktitle: IsTemporary
+articleTitle: IsTemporary
+second_title: 用于 .NET 的 Aspose.Words
+description: StructuredDocumentTag IsTemporary 财产. 指定是否特殊测试当其内容 被修改时应从WordProcessingML文档中删除 在 C#.
 type: docs
 weight: 160
 url: /zh/net/aspose.words.markup/structureddocumenttag/istemporary/
 ---
 ## StructuredDocumentTag.IsTemporary property
 
-指定是否 **特殊测试**当其内容 被修改时，应从WordProcessingML文档中删除。
+指定是否**特殊测试**当其内容 被修改时，应从WordProcessingML文档中删除。
 
 ```csharp
 public bool IsTemporary { get; set; }
 ```
 
-### 例子
+## 例子
 
 展示如何制作一次性控件。
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.IsTemporary.docx");
 ### 也可以看看
 
 * class [StructuredDocumentTag](../)
-* 命名空间 [Aspose.Words.Markup](../../structureddocumenttag/)
+* 命名空间 [Aspose.Words.Markup](../../../aspose.words.markup/)
 * 部件 [Aspose.Words](../../../)
-
-

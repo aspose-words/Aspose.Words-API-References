@@ -1,7 +1,9 @@
 ---
 title: FieldNoteRef.BookmarkName
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldNoteRef propiedad. Obtiene o establece el nombre del marcador.
+linktitle: BookmarkName
+articleTitle: BookmarkName
+second_title: Aspose.Words para .NET
+description: FieldNoteRef BookmarkName propiedad. Obtiene o establece el nombre del marcador en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words.fields/fieldnoteref/bookmarkname/
@@ -14,7 +16,7 @@ Obtiene o establece el nombre del marcador.
 public string BookmarkName { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra para insertar campos NOTAREF y modificar su apariencia.
 
@@ -83,7 +85,5 @@ private static void InsertBookmarkWithFootnote(DocumentBuilder builder, string b
 ### Ver también
 
 * class [FieldNoteRef](../)
-* espacio de nombres [Aspose.Words.Fields](../../fieldnoteref/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

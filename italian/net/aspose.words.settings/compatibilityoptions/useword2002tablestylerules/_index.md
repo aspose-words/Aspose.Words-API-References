@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.UseWord2002TableStyleRules
-second_title: Aspose.Words per .NET API Reference
-description: CompatibilityOptions proprietà. Emula le regole di stile tabella di Word 2002.
+linktitle: UseWord2002TableStyleRules
+articleTitle: UseWord2002TableStyleRules
+second_title: Aspose.Words per .NET
+description: CompatibilityOptions UseWord2002TableStyleRules proprietà. Emula le regole di stile tabella di Word 2002 in C#.
 type: docs
 weight: 660
 url: /it/net/aspose.words.settings/compatibilityoptions/useword2002tablestylerules/
@@ -17,7 +19,5 @@ public bool UseWord2002TableStyleRules { get; set; }
 ### Guarda anche
 
 * class [CompatibilityOptions](../)
-* spazio dei nomi [Aspose.Words.Settings](../../compatibilityoptions/)
+* spazio dei nomi [Aspose.Words.Settings](../../../aspose.words.settings/)
 * assemblea [Aspose.Words](../../../)
-
-

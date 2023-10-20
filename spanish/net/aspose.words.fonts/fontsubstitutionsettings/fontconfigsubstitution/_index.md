@@ -1,7 +1,9 @@
 ---
 title: FontSubstitutionSettings.FontConfigSubstitution
-second_title: Referencia de API de Aspose.Words para .NET
-description: FontSubstitutionSettings propiedad. Configuraciones relacionadas con la regla de sustitución de configuración de fuentes.
+linktitle: FontConfigSubstitution
+articleTitle: FontConfigSubstitution
+second_title: Aspose.Words para .NET
+description: FontSubstitutionSettings FontConfigSubstitution propiedad. Configuraciones relacionadas con la regla de sustitución de configuración de fuentes en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words.fonts/fontsubstitutionsettings/fontconfigsubstitution/
@@ -14,7 +16,7 @@ Configuraciones relacionadas con la regla de sustitución de configuración de f
 public FontConfigSubstitutionRule FontConfigSubstitution { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra la sustitución de configuración de fuentes dependiente del sistema operativo.
 
@@ -51,7 +53,5 @@ if (isLinuxOrMac)
 
 * class [FontConfigSubstitutionRule](../../fontconfigsubstitutionrule/)
 * class [FontSubstitutionSettings](../)
-* espacio de nombres [Aspose.Words.Fonts](../../fontsubstitutionsettings/)
+* espacio de nombres [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * asamblea [Aspose.Words](../../../)
-
-

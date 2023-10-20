@@ -1,7 +1,9 @@
 ---
 title: IResourceSavingCallback.ResourceSaving
-second_title: Aspose.Words for .NET API 参考
-description: IResourceSavingCallback 方法. 当 Aspose.Words 将外部资源保存为固定页面 HTML 或 SVG 格式时调用
+linktitle: ResourceSaving
+articleTitle: ResourceSaving
+second_title: 用于 .NET 的 Aspose.Words
+description: IResourceSavingCallback ResourceSaving 方法. 当 Aspose.Words 将外部资源保存为固定页面 HTML 或 SVG 格式时调用 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.saving/iresourcesavingcallback/resourcesaving/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.saving/iresourcesavingcallback/resourcesaving/
 public void ResourceSaving(ResourceSavingArgs args)
 ```
 
-### 例子
+## 例子
 
 演示如何使用回调来跟踪将文档转换为 HTML 时创建的外部资源。
 
@@ -134,7 +136,5 @@ private class ResourceUriPrinter : IResourceSavingCallback
 
 * class [ResourceSavingArgs](../../resourcesavingargs/)
 * interface [IResourceSavingCallback](../)
-* 命名空间 [Aspose.Words.Saving](../../iresourcesavingcallback/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

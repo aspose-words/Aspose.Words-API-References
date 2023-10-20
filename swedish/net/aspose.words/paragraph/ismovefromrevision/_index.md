@@ -1,7 +1,9 @@
 ---
 title: Paragraph.IsMoveFromRevision
-second_title: Aspose.Words för .NET API Referens
-description: Paragraph fast egendom. ReturnerarSann om det här objektet flyttades borttogs i Microsoft Word medan ändringsspårning var aktiverad.
+linktitle: IsMoveFromRevision
+articleTitle: IsMoveFromRevision
+second_title: Aspose.Words för .NET
+description: Paragraph IsMoveFromRevision fast egendom. ReturnerarSann om det här objektet flyttades borttogs i Microsoft Word medan ändringsspårning var aktiverad i C#.
 type: docs
 weight: 130
 url: /sv/net/aspose.words/paragraph/ismovefromrevision/
@@ -14,7 +16,7 @@ Returnerar`Sann` om det här objektet flyttades (borttogs) i Microsoft Word meda
 public bool IsMoveFromRevision { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man kontrollerar om ett stycke är en flyttversion.
 
@@ -48,7 +50,5 @@ Assert.True(paragraphs[3].IsMoveToRevision);
 ### Se även
 
 * class [Paragraph](../)
-* namnutrymme [Aspose.Words](../../paragraph/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

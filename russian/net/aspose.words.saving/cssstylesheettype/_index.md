@@ -1,7 +1,9 @@
 ---
-title: Enum CssStyleSheetType
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Saving.CssStyleSheetType перечисление. Указывает как стили CSS каскадная таблица стилей экспортируются в HTML.
+title: CssStyleSheetType Enum
+linktitle: CssStyleSheetType
+articleTitle: CssStyleSheetType
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Saving.CssStyleSheetType перечисление. Указывает как стили CSS каскадная таблица стилей экспортируются в HTML на С#.
 type: docs
 weight: 4890
 url: /ru/net/aspose.words.saving/cssstylesheettype/
@@ -18,11 +20,11 @@ public enum CssStyleSheetType
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| Inline | `0` | Стили CSS записываются встроенно (как значение **стиль** атрибут каждого элемента). |
+| Inline | `0` | Стили CSS записываются встроенно (как значение**стиль** атрибут каждого элемента). |
 | Embedded | `1` | Стили CSS записываются отдельно от содержимого в таблице стилей, встроенной в файл HTML. |
 | External | `2` | Стили CSS записываются отдельно от содержимого таблицы стилей во внешнем файле. Файл HTML связывает таблицу стилей. |
 
-### Примеры
+## Примеры
 
 Показывает, как работать с таблицами стилей CSS, создаваемыми преобразованием HTML.
 
@@ -85,5 +87,3 @@ private class CustomCssSavingCallback : ICssSavingCallback
 * property [CssStyleSheetType](../htmlsaveoptions/cssstylesheettype/)
 * пространство имен [Aspose.Words.Saving](../../aspose.words.saving/)
 * сборка [Aspose.Words](../../)
-
-

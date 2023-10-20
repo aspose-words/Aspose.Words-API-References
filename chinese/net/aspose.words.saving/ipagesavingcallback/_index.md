@@ -1,7 +1,9 @@
 ---
-title: Interface IPageSavingCallback
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Saving.IPageSavingCallback 界面. 如果您想在 将文档保存为固定页面格式时控制 Aspose.Words 如何保存单独的页面请实现此接口
+title: IPageSavingCallback Interface
+linktitle: IPageSavingCallback
+articleTitle: IPageSavingCallback
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Saving.IPageSavingCallback 界面. 如果您想在 将文档保存为固定页面格式时控制 Aspose.Words 如何保存单独的页面请实现此接口 在 C#.
 type: docs
 weight: 5180
 url: /zh/net/aspose.words.saving/ipagesavingcallback/
@@ -18,9 +20,9 @@ public interface IPageSavingCallback
 
 | 姓名 | 描述 |
 | --- | --- |
-| [PageSaving](../../aspose.words.saving/ipagesavingcallback/pagesaving/)(PageSavingArgs) | 当 Aspose.Words 将单独页面保存为固定页面格式时调用。 |
+| [PageSaving](../../aspose.words.saving/ipagesavingcallback/pagesaving/)(*[PageSavingArgs](../pagesavingargs/)*) | 当 Aspose.Words 将单独页面保存为固定页面格式时调用。 |
 
-### 例子
+## 例子
 
 演示如何使用回调将文档逐页保存为 HTML。
 
@@ -78,5 +80,3 @@ private class CustomFileNamePageSavingCallback : IPageSavingCallback
 
 * 命名空间 [Aspose.Words.Saving](../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../)
-
-

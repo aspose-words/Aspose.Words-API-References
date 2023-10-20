@@ -1,7 +1,9 @@
 ---
 title: LayoutCollector.Document
-second_title: Aspose.Words för .NET API Referens
-description: LayoutCollector fast egendom. Hämtar eller ställer in dokumentet som denna samlarinstans är bifogad till.
+linktitle: Document
+articleTitle: Document
+second_title: Aspose.Words för .NET
+description: LayoutCollector Document fast egendom. Hämtar eller ställer in dokumentet som denna samlarinstans är bifogad till i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.layout/layoutcollector/document/
@@ -14,11 +16,11 @@ Hämtar eller ställer in dokumentet som denna samlarinstans är bifogad till.
 public Document Document { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Om du behöver komma åt sidindex för dokumentnoderna måste du ställa in den här egenskapen så att den pekar på en dokumentinstans, innan sidlayouten för dokumentet byggs. Det är bäst att ställa in den här egenskapen till`null` efteråt, annars fortsätter insamlaren att samla information från efterföljande ombyggnader av dokumentets sidlayout.
 
-### Exempel
+## Exempel
 
 Visar hur man kan se sidorna som en nod sträcker sig över.
 
@@ -77,7 +79,5 @@ Assert.AreEqual("¶", layoutEnumerator.Text);
 
 * class [Document](../../../aspose.words/document/)
 * class [LayoutCollector](../)
-* namnutrymme [Aspose.Words.Layout](../../layoutcollector/)
+* namnutrymme [Aspose.Words.Layout](../../../aspose.words.layout/)
 * hopsättning [Aspose.Words](../../../)
-
-

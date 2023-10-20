@@ -1,7 +1,9 @@
 ---
 title: BuildingBlock.Sections
-second_title: Aspose.Words für .NET-API-Referenz
-description: BuildingBlock eigendom. Gibt eine Sammlung zurück die alle Abschnitte im Baustein darstellt.
+linktitle: Sections
+articleTitle: Sections
+second_title: Aspose.Words für .NET
+description: BuildingBlock Sections eigendom. Gibt eine Sammlung zurück die alle Abschnitte im Baustein darstellt in C#.
 type: docs
 weight: 110
 url: /de/net/aspose.words.buildingblocks/buildingblock/sections/
@@ -14,7 +16,7 @@ Gibt eine Sammlung zurück, die alle Abschnitte im Baustein darstellt.
 public SectionCollection Sections { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man einem Dokument einen benutzerdefinierten Baustein hinzufügt.
 
@@ -112,7 +114,5 @@ public class BuildingBlockVisitor : DocumentVisitor
 
 * class [SectionCollection](../../../aspose.words/sectioncollection/)
 * class [BuildingBlock](../)
-* namensraum [Aspose.Words.BuildingBlocks](../../buildingblock/)
+* namensraum [Aspose.Words.BuildingBlocks](../../../aspose.words.buildingblocks/)
 * Montage [Aspose.Words](../../../)
-
-

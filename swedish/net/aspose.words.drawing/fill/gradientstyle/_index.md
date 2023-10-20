@@ -1,9 +1,11 @@
 ---
 title: Fill.GradientStyle
-second_title: Aspose.Words för .NET API Referens
-description: Fill fast egendom. Hämtar gradientstilenGradientStyle för fyllningen.
+linktitle: GradientStyle
+articleTitle: GradientStyle
+second_title: Aspose.Words för .NET
+description: Fill GradientStyle fast egendom. Hämtar gradientstilenGradientStyle för fyllningen i C#.
 type: docs
-weight: 120
+weight: 110
 url: /sv/net/aspose.words.drawing/fill/gradientstyle/
 ---
 ## Fill.GradientStyle property
@@ -14,7 +16,7 @@ Hämtar gradientstilen[`GradientStyle`](../../gradientstyle/) för fyllningen.
 public GradientStyle GradientStyle { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man fyller en form med övertoningar.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "Shape.GradientFill.docx", saveOptions);
 
 * enum [GradientStyle](../../gradientstyle/)
 * class [Fill](../)
-* namnutrymme [Aspose.Words.Drawing](../../fill/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

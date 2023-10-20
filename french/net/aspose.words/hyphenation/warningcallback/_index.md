@@ -1,7 +1,9 @@
 ---
 title: Hyphenation.WarningCallback
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Hyphenation propriété. Appelé lors dun chargement de modèles de césure lorsquun problème susceptible dentraîner une perte de fidélité du formatage est détecté.
+linktitle: WarningCallback
+articleTitle: WarningCallback
+second_title: Aspose.Words pour .NET
+description: Hyphenation WarningCallback propriété. Appelé lors dun chargement de modèles de césure lorsquun problème susceptible dentraîner une perte de fidélité du formatage est détecté en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words/hyphenation/warningcallback/
@@ -14,7 +16,7 @@ Appelé lors d'un chargement de modèles de césure, lorsqu'un problème suscept
 public static IWarningCallback WarningCallback { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment ouvrir et enregistrer un dictionnaire à partir d’un fichier.
 
@@ -91,7 +93,5 @@ private class CustomHyphenationDictionaryRegister : IHyphenationCallback
 
 * interface [IWarningCallback](../../iwarningcallback/)
 * class [Hyphenation](../)
-* espace de noms [Aspose.Words](../../hyphenation/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

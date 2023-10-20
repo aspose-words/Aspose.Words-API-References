@@ -1,7 +1,9 @@
 ---
 title: TextPath.FitPath
-second_title: Aspose.Words لمراجع .NET API
-description: TextPath ملكية. يحدد ما إذا كان النص يناسب مسار الشكل أم لا.
+linktitle: FitPath
+articleTitle: FitPath
+second_title: Aspose.Words لـ .NET
+description: TextPath FitPath ملكية. يحدد ما إذا كان النص يناسب مسار الشكل أم لا في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.drawing/textpath/fitpath/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.drawing/textpath/fitpath/
 public bool FitPath { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 القيمة الافتراضية هي`خطأ شنيع`.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع WordArt.
 
@@ -121,7 +123,5 @@ private static Shape AppendWordArt(Document doc, string text, string textFontFam
 ### أنظر أيضا
 
 * class [TextPath](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../textpath/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

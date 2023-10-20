@@ -1,12 +1,14 @@
 ---
 title: DocumentBuilder.InsertOnlineVideo
-second_title: Aspose.Words for .NET API 参考
-description: DocumentBuilder 方法. 将在线视频对象插入到文档中并将其缩放到指定的大小
+linktitle: InsertOnlineVideo
+articleTitle: InsertOnlineVideo
+second_title: 用于 .NET 的 Aspose.Words
+description: DocumentBuilder InsertOnlineVideo 方法. 将在线视频对象插入到文档中并将其缩放到指定的大小 在 C#.
 type: docs
-weight: 420
+weight: 410
 url: /zh/net/aspose.words/documentbuilder/insertonlinevideo/
 ---
-## InsertOnlineVideo(string, double, double) {#insertonlinevideo_1}
+## InsertOnlineVideo(*string, double, double*) {#insertonlinevideo_1}
 
 将在线视频对象插入到文档中并将其缩放到指定的大小。
 
@@ -24,7 +26,7 @@ public Shape InsertOnlineVideo(string videoUrl, double width, double height)
 
 刚刚插入的图像节点。
 
-### 评论
+## 评论
 
 您可以使用 更改图像大小、位置、定位方法和其他设置[`Shape`](../../../aspose.words.drawing/shape/)该方法返回的对象。
 
@@ -37,7 +39,7 @@ public Shape InsertOnlineVideo(string videoUrl, double width, double height)
 
 嵌入视频的代码可能因提供商而异，请咨询您选择的相应提供商了解详细信息。
 
-### 例子
+## 例子
 
 演示如何使用 URL 将在线视频插入到文档中。
 
@@ -55,12 +57,12 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertVideoWithUrl.docx");
 
 * class [Shape](../../../aspose.words.drawing/shape/)
 * class [DocumentBuilder](../)
-* 命名空间 [Aspose.Words](../../documentbuilder/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## InsertOnlineVideo(string, RelativeHorizontalPosition, double, RelativeVerticalPosition, double, double, double, WrapType) {#insertonlinevideo}
+## InsertOnlineVideo(*string, [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/), double, [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/), double, double, double, [WrapType](../../../aspose.words.drawing/wraptype/)*) {#insertonlinevideo}
 
 将在线视频对象插入到文档中并将其缩放到指定的大小。
 
@@ -84,7 +86,7 @@ public Shape InsertOnlineVideo(string videoUrl, RelativeHorizontalPosition horzP
 
 刚刚插入的图像节点。
 
-### 评论
+## 评论
 
 您可以使用 更改图像大小、位置、定位方法和其他设置[`Shape`](../../../aspose.words.drawing/shape/)该方法返回的对象。
 
@@ -97,7 +99,7 @@ public Shape InsertOnlineVideo(string videoUrl, RelativeHorizontalPosition horzP
 
 嵌入视频的代码可能因提供商而异，请咨询您选择的相应提供商了解详细信息。
 
-### 例子
+## 例子
 
 演示如何将在线视频插入文档中。
 
@@ -124,12 +126,12 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertOnlineVideo.docx");
 * enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/)
 * enum [WrapType](../../../aspose.words.drawing/wraptype/)
 * class [DocumentBuilder](../)
-* 命名空间 [Aspose.Words](../../documentbuilder/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## InsertOnlineVideo(string, string, byte[], double, double) {#insertonlinevideo_3}
+## InsertOnlineVideo(*string, string, byte[], double, double*) {#insertonlinevideo_3}
 
 将在线视频对象插入到文档中并将其缩放到指定的大小。
 
@@ -150,11 +152,11 @@ public Shape InsertOnlineVideo(string videoUrl, string videoEmbedCode, byte[] th
 
 刚刚插入的图像节点。
 
-### 评论
+## 评论
 
 您可以使用 更改图像大小、位置、定位方法和其他设置[`Shape`](../../../aspose.words.drawing/shape/)该方法返回的对象。
 
-### 例子
+## 例子
 
 演示如何使用自定义缩略图将在线视频插入到文档中。
 
@@ -197,12 +199,12 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertOnlineVideoCustomThumbnail.docx")
 
 * class [Shape](../../../aspose.words.drawing/shape/)
 * class [DocumentBuilder](../)
-* 命名空间 [Aspose.Words](../../documentbuilder/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## InsertOnlineVideo(string, string, byte[], RelativeHorizontalPosition, double, RelativeVerticalPosition, double, double, double, WrapType) {#insertonlinevideo_2}
+## InsertOnlineVideo(*string, string, byte[], [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/), double, [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/), double, double, double, [WrapType](../../../aspose.words.drawing/wraptype/)*) {#insertonlinevideo_2}
 
 将在线视频对象插入到文档中并将其缩放到指定的大小。
 
@@ -229,11 +231,11 @@ public Shape InsertOnlineVideo(string videoUrl, string videoEmbedCode, byte[] th
 
 刚刚插入的图像节点。
 
-### 评论
+## 评论
 
 您可以使用 更改图像大小、位置、定位方法和其他设置[`Shape`](../../../aspose.words.drawing/shape/)该方法返回的对象。
 
-### 例子
+## 例子
 
 演示如何使用自定义缩略图将在线视频插入到文档中。
 
@@ -279,7 +281,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertOnlineVideoCustomThumbnail.docx")
 * enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/)
 * enum [WrapType](../../../aspose.words.drawing/wraptype/)
 * class [DocumentBuilder](../)
-* 命名空间 [Aspose.Words](../../documentbuilder/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

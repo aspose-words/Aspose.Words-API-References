@@ -1,7 +1,9 @@
 ---
 title: CssSavingArgs.KeepCssStreamOpen
-second_title: Aspose.Words per .NET API Reference
-description: CssSavingArgs proprietà. Specifica se Aspose.Words deve mantenere aperto il flusso o chiuderlo dopo aver salvato uninformazione CSS.
+linktitle: KeepCssStreamOpen
+articleTitle: KeepCssStreamOpen
+second_title: Aspose.Words per .NET
+description: CssSavingArgs KeepCssStreamOpen proprietà. Specifica se Aspose.Words deve mantenere aperto il flusso o chiuderlo dopo aver salvato uninformazione CSS in C#.
 type: docs
 weight: 40
 url: /it/net/aspose.words.saving/csssavingargs/keepcssstreamopen/
@@ -14,11 +16,11 @@ Specifica se Aspose.Words deve mantenere aperto il flusso o chiuderlo dopo aver 
 public bool KeepCssStreamOpen { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 L'impostazione predefinita è`falso` e Aspose.Words chiuderà lo stream che hai fornito nel file[`CssStream`](../cssstream/) proprietà dopo aver scritto un'informazione CSS al suo interno. Specifica`VERO` per mantenere aperto il flusso.
 
-### Esempi
+## Esempi
 
 Mostra come lavorare con i fogli di stile CSS creati da una conversione HTML.
 
@@ -79,7 +81,5 @@ private class CustomCssSavingCallback : ICssSavingCallback
 ### Guarda anche
 
 * class [CssSavingArgs](../)
-* spazio dei nomi [Aspose.Words.Saving](../../csssavingargs/)
+* spazio dei nomi [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../../)
-
-

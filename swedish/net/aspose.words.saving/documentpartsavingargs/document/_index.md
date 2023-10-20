@@ -1,7 +1,9 @@
 ---
 title: DocumentPartSavingArgs.Document
-second_title: Aspose.Words för .NET API Referens
-description: DocumentPartSavingArgs fast egendom. Hämtar dokumentobjektet som sparas.
+linktitle: Document
+articleTitle: Document
+second_title: Aspose.Words för .NET
+description: DocumentPartSavingArgs Document fast egendom. Hämtar dokumentobjektet som sparas i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.saving/documentpartsavingargs/document/
@@ -14,7 +16,7 @@ Hämtar dokumentobjektet som sparas.
 public Document Document { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man delar upp ett dokument i delar och sparar dem.
 
@@ -132,7 +134,5 @@ public class SavedImageRename : IImageSavingCallback
 
 * class [Document](../../../aspose.words/document/)
 * class [DocumentPartSavingArgs](../)
-* namnutrymme [Aspose.Words.Saving](../../documentpartsavingargs/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

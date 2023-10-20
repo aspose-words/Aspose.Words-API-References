@@ -1,7 +1,9 @@
 ---
-title: Class LanguagePreferences
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Loading.LanguagePreferences сорт. Позволяет настроить языковые настройки.
+title: LanguagePreferences Class
+linktitle: LanguagePreferences
+articleTitle: LanguagePreferences
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Loading.LanguagePreferences сорт. Позволяет настроить языковые настройки на С#.
 type: docs
 weight: 3650
 url: /ru/net/aspose.words.loading/languagepreferences/
@@ -32,14 +34,14 @@ public class LanguagePreferences
 
 | Имя | Описание |
 | --- | --- |
-| [AddEditingLanguage](../../aspose.words.loading/languagepreferences/addeditinglanguage/)(EditingLanguage) | Добавляет дополнительный язык редактирования. |
-| [AddEditingLanguages](../../aspose.words.loading/languagepreferences/addeditinglanguages/)(EditingLanguage[]) | Добавляет дополнительные языки редактирования. |
+| [AddEditingLanguage](../../aspose.words.loading/languagepreferences/addeditinglanguage/)(*[EditingLanguage](../editinglanguage/)*) | Добавляет дополнительный язык редактирования. |
+| [AddEditingLanguages](../../aspose.words.loading/languagepreferences/addeditinglanguages/)(*EditingLanguage[]*) | Добавляет дополнительные языки редактирования. |
 
-### Примечания
+## Примечания
 
 Реализует диалоговое окно «Установить языковые настройки Office» в Word.
 
-### Примеры
+## Примеры
 
 Показывает, как применить языковые настройки при загрузке документа.
 
@@ -59,5 +61,3 @@ Console.WriteLine(localeIdFarEast == (int)EditingLanguage.Japanese
 
 * пространство имен [Aspose.Words.Loading](../../aspose.words.loading/)
 * сборка [Aspose.Words](../../)
-
-

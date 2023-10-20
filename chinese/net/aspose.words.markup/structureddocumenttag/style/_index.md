@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTag.Style
-second_title: Aspose.Words for .NET API 参考
-description: StructuredDocumentTag 财产. 获取或设置结构化文档标签的样式
+linktitle: Style
+articleTitle: Style
+second_title: 用于 .NET 的 Aspose.Words
+description: StructuredDocumentTag Style 财产. 获取或设置结构化文档标签的样式 在 C#.
 type: docs
 weight: 260
 url: /zh/net/aspose.words.markup/structureddocumenttag/style/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.markup/structureddocumenttag/style/
 public Style Style { get; set; }
 ```
 
-### 评论
+## 评论
 
 仅 Character风格或Paragraph可以设置链接字符样式的样式。
 
-### 例子
+## 例子
 
 展示如何使用内容控制元素的样式。
 
@@ -58,7 +60,5 @@ foreach (Node node in tags)
 
 * class [Style](../../../aspose.words/style/)
 * class [StructuredDocumentTag](../)
-* 命名空间 [Aspose.Words.Markup](../../structureddocumenttag/)
+* 命名空间 [Aspose.Words.Markup](../../../aspose.words.markup/)
 * 部件 [Aspose.Words](../../../)
-
-

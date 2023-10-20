@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.DoNotVertAlignInTxbx
-second_title: Référence de l'API Aspose.Words pour .NET
-description: CompatibilityOptions propriété. Ignorer lalignement vertical dans les zones de texte.
+linktitle: DoNotVertAlignInTxbx
+articleTitle: DoNotVertAlignInTxbx
+second_title: Aspose.Words pour .NET
+description: CompatibilityOptions DoNotVertAlignInTxbx propriété. Ignorer lalignement vertical dans les zones de texte en C#.
 type: docs
 weight: 240
 url: /fr/net/aspose.words.settings/compatibilityoptions/donotvertalignintxbx/
@@ -17,7 +19,5 @@ public bool DoNotVertAlignInTxbx { get; set; }
 ### Voir également
 
 * class [CompatibilityOptions](../)
-* espace de noms [Aspose.Words.Settings](../../compatibilityoptions/)
+* espace de noms [Aspose.Words.Settings](../../../aspose.words.settings/)
 * Assemblée [Aspose.Words](../../../)
-
-

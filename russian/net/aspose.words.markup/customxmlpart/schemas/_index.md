@@ -1,7 +1,9 @@
 ---
 title: CustomXmlPart.Schemas
-second_title: Справочник по API Aspose.Words для .NET
-description: CustomXmlPart свойство. Указывает набор схем XML связанных с этой пользовательской частью XML.
+linktitle: Schemas
+articleTitle: Schemas
+second_title: Aspose.Words для .NET
+description: CustomXmlPart Schemas свойство. Указывает набор схем XML связанных с этой пользовательской частью XML на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.markup/customxmlpart/schemas/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.markup/customxmlpart/schemas/
 public CustomXmlSchemaCollection Schemas { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как создать тег структурированного документа с пользовательскими данными XML.
 
@@ -82,7 +84,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.CustomXml.docx");
 
 * class [CustomXmlSchemaCollection](../../customxmlschemacollection/)
 * class [CustomXmlPart](../)
-* пространство имен [Aspose.Words.Markup](../../customxmlpart/)
+* пространство имен [Aspose.Words.Markup](../../../aspose.words.markup/)
 * сборка [Aspose.Words](../../../)
-
-

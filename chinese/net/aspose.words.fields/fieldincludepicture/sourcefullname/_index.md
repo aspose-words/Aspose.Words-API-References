@@ -1,7 +1,9 @@
 ---
 title: FieldIncludePicture.SourceFullName
-second_title: Aspose.Words for .NET API 参考
-description: FieldIncludePicture 财产. 使用 IRI 获取或设置图片的位置
+linktitle: SourceFullName
+articleTitle: SourceFullName
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldIncludePicture SourceFullName 财产. 使用 IRI 获取或设置图片的位置 在 C#.
 type: docs
 weight: 60
 url: /zh/net/aspose.words.fields/fieldincludepicture/sourcefullname/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fieldincludepicture/sourcefullname/
 public string SourceFullName { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何使用 IMPORT 和 INCLUDEPICTURE 字段插入图像。
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "Field.IMPORT.INCLUDEPICTURE.docx");
 ### 也可以看看
 
 * class [FieldIncludePicture](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldincludepicture/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

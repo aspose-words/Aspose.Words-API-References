@@ -1,7 +1,9 @@
 ---
 title: Font.Underline
-second_title: Referencia de API de Aspose.Words para .NET
-description: Font propiedad. Obtiene o establece el tipo de subrayado aplicado a la fuente.
+linktitle: Underline
+articleTitle: Underline
+second_title: Aspose.Words para .NET
+description: Font Underline propiedad. Obtiene o establece el tipo de subrayado aplicado a la fuente en C#.
 type: docs
 weight: 530
 url: /es/net/aspose.words/font/underline/
@@ -14,7 +16,7 @@ Obtiene o establece el tipo de subrayado aplicado a la fuente.
 public Underline Underline { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo configurar el estilo y el color de un subrayado de texto.
 
@@ -71,7 +73,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertHyperlink.docx");
 
 * enum [Underline](../../underline/)
 * class [Font](../)
-* espacio de nombres [Aspose.Words](../../font/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

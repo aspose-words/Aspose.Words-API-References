@@ -1,7 +1,9 @@
 ---
-title: Interface IResourceLoadingCallback
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Loading.IResourceLoadingCallback gränssnitt. Implementera detta gränssnitt om du vill kontrollera hur Aspose.Words laddar externa resurser när importerar ett dokument och infogar bilder med hjälp avDocumentBuilder .
+title: IResourceLoadingCallback Interface
+linktitle: IResourceLoadingCallback
+articleTitle: IResourceLoadingCallback
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Loading.IResourceLoadingCallback gränssnitt. Implementera detta gränssnitt om du vill kontrollera hur Aspose.Words laddar externa resurser när importerar ett dokument och infogar bilder med hjälp avDocumentBuilder  i C#.
 type: docs
 weight: 3640
 url: /sv/net/aspose.words.loading/iresourceloadingcallback/
@@ -18,9 +20,9 @@ public interface IResourceLoadingCallback
 
 | namn | Beskrivning |
 | --- | --- |
-| [ResourceLoading](../../aspose.words.loading/iresourceloadingcallback/resourceloading/)(ResourceLoadingArgs) | Anropas när Aspose.Words laddar någon extern resurs. |
+| [ResourceLoading](../../aspose.words.loading/iresourceloadingcallback/resourceloading/)(*[ResourceLoadingArgs](../resourceloadingargs/)*) | Anropas när Aspose.Words laddar någon extern resurs. |
 
-### Exempel
+## Exempel
 
 Visar hur man anpassar processen för att ladda externa resurser i ett dokument.
 
@@ -84,5 +86,3 @@ private class ImageNameHandler : IResourceLoadingCallback
 
 * namnutrymme [Aspose.Words.Loading](../../aspose.words.loading/)
 * hopsättning [Aspose.Words](../../)
-
-

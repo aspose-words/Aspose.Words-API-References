@@ -1,7 +1,9 @@
 ---
 title: AxisScaling.Type
-second_title: Aspose.Words per .NET API Reference
-description: AxisScaling proprietà. Ottiene o imposta il tipo di scala dellasse.
+linktitle: Type
+articleTitle: Type
+second_title: Aspose.Words per .NET
+description: AxisScaling Type proprietà. Ottiene o imposta il tipo di scala dellasse in C#.
 type: docs
 weight: 50
 url: /it/net/aspose.words.drawing.charts/axisscaling/type/
@@ -14,11 +16,11 @@ Ottiene o imposta il tipo di scala dell'asse.
 public AxisScaleType Type { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 IlLinear il valore è l'unico consentito nei nuovi grafici di MS Office 2016.
 
-### Esempi
+## Esempi
 
 Mostra come applicare la scala logaritmica all'asse di un grafico.
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "Charts.AxisScaling.docx");
 
 * enum [AxisScaleType](../../axisscaletype/)
 * class [AxisScaling](../)
-* spazio dei nomi [Aspose.Words.Drawing.Charts](../../axisscaling/)
+* spazio dei nomi [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * assemblea [Aspose.Words](../../../)
-
-

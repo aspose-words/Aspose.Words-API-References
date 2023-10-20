@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabelCollection.GetEnumerator
-second_title: Referencia de API de Aspose.Words para .NET
-description: ChartDataLabelCollection método. Devuelve un objeto enumerador.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words para .NET
+description: ChartDataLabelCollection GetEnumerator método. Devuelve un objeto enumerador en C#.
 type: docs
 weight: 160
 url: /es/net/aspose.words.drawing.charts/chartdatalabelcollection/getenumerator/
@@ -14,7 +16,7 @@ Devuelve un objeto enumerador.
 public IEnumerator<ChartDataLabel> GetEnumerator()
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo aplicar etiquetas a puntos de datos en un gráfico de líneas.
 
@@ -93,7 +95,5 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
 
 * class [ChartDataLabel](../../chartdatalabel/)
 * class [ChartDataLabelCollection](../)
-* espacio de nombres [Aspose.Words.Drawing.Charts](../../chartdatalabelcollection/)
+* espacio de nombres [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * asamblea [Aspose.Words](../../../)
-
-

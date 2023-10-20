@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitEditableRangeEnd
-second_title: Aspose.Words for .NET API 参考
-description: DocumentVisitor 方法. 当文档中遇到可编辑范围的末尾时调用
+linktitle: VisitEditableRangeEnd
+articleTitle: VisitEditableRangeEnd
+second_title: 用于 .NET 的 Aspose.Words
+description: DocumentVisitor VisitEditableRangeEnd 方法. 当文档中遇到可编辑范围的末尾时调用 在 C#.
 type: docs
 weight: 160
 url: /zh/net/aspose.words/documentvisitor/visiteditablerangeend/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitEditableRangeEnd(EditableRangeEnd editableRang
 
 A[`VisitorAction`](../../visitoraction/)指定如何继续枚举的值。
 
-### 例子
+## 例子
 
 演示如何打印文档中每个可编辑范围的节点结构。
 
@@ -118,7 +120,5 @@ public class EditableRangeStructurePrinter : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [EditableRangeEnd](../../editablerangeend/)
 * class [DocumentVisitor](../)
-* 命名空间 [Aspose.Words](../../documentvisitor/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

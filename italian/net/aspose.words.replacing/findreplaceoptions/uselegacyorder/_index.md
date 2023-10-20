@@ -1,7 +1,9 @@
 ---
 title: FindReplaceOptions.UseLegacyOrder
-second_title: Aspose.Words per .NET API Reference
-description: FindReplaceOptions proprietà. True indica che una ricerca di testo viene eseguita in sequenza dallalto verso il basso considerando le caselle di testo. Il valore predefinito èfalso .
+linktitle: UseLegacyOrder
+articleTitle: UseLegacyOrder
+second_title: Aspose.Words per .NET
+description: FindReplaceOptions UseLegacyOrder proprietà. True indica che una ricerca di testo viene eseguita in sequenza dallalto verso il basso considerando le caselle di testo. Il valore predefinito èfalso  in C#.
 type: docs
 weight: 170
 url: /it/net/aspose.words.replacing/findreplaceoptions/uselegacyorder/
@@ -14,7 +16,7 @@ True indica che una ricerca di testo viene eseguita in sequenza dall'alto verso 
 public bool UseLegacyOrder { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come modificare l'ordine di ricerca dei nodi durante l'esecuzione di un'operazione di ricerca e sostituzione del testo.
 
@@ -71,7 +73,5 @@ private class TextReplacementTracker : IReplacingCallback
 ### Guarda anche
 
 * class [FindReplaceOptions](../)
-* spazio dei nomi [Aspose.Words.Replacing](../../findreplaceoptions/)
+* spazio dei nomi [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * assemblea [Aspose.Words](../../../)
-
-

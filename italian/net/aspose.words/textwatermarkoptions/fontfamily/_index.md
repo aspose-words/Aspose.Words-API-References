@@ -1,7 +1,9 @@
 ---
 title: TextWatermarkOptions.FontFamily
-second_title: Aspose.Words per .NET API Reference
-description: TextWatermarkOptions proprietà. Ottiene o imposta il nome della famiglia di caratteri. Il valore predefinito è Calibri.
+linktitle: FontFamily
+articleTitle: FontFamily
+second_title: Aspose.Words per .NET
+description: TextWatermarkOptions FontFamily proprietà. Ottiene o imposta il nome della famiglia di caratteri. Il valore predefinito è Calibri in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words/textwatermarkoptions/fontfamily/
@@ -14,7 +16,7 @@ Ottiene o imposta il nome della famiglia di caratteri. Il valore predefinito è 
 public string FontFamily { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come creare una filigrana di testo.
 
@@ -45,7 +47,5 @@ if (doc.Watermark.Type == WatermarkType.Text)
 ### Guarda anche
 
 * class [TextWatermarkOptions](../)
-* spazio dei nomi [Aspose.Words](../../textwatermarkoptions/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FontSavingArgs.Italic
-second_title: Справочник по API Aspose.Words для .NET
-description: FontSavingArgs свойство. Указывает является ли текущий шрифт курсивом.
+linktitle: Italic
+articleTitle: Italic
+second_title: Aspose.Words для .NET
+description: FontSavingArgs Italic свойство. Указывает является ли текущий шрифт курсивом на С#.
 type: docs
 weight: 80
 url: /ru/net/aspose.words.saving/fontsavingargs/italic/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.saving/fontsavingargs/italic/
 public bool Italic { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как определить пользовательскую логику для экспорта шрифтов при сохранении в HTML.
 
@@ -74,7 +76,5 @@ public class HandleFontSaving : IFontSavingCallback
 ### Смотрите также
 
 * class [FontSavingArgs](../)
-* пространство имен [Aspose.Words.Saving](../../fontsavingargs/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

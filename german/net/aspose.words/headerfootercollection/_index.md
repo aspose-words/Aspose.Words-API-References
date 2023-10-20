@@ -1,7 +1,9 @@
 ---
-title: Class HeaderFooterCollection
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.HeaderFooterCollection klas. Bietet typisierten Zugriff aufHeaderFooter Knoten von aSection .
+title: HeaderFooterCollection Class
+linktitle: HeaderFooterCollection
+articleTitle: HeaderFooterCollection
+second_title: Aspose.Words für .NET
+description: Aspose.Words.HeaderFooterCollection klas. Bietet typisierten Zugriff aufHeaderFooter Knoten von aSection  in C#.
 type: docs
 weight: 3110
 url: /de/net/aspose.words/headerfootercollection/
@@ -27,19 +29,19 @@ public class HeaderFooterCollection : NodeCollection
 
 | Name | Beschreibung |
 | --- | --- |
-| [Add](../../aspose.words/nodecollection/add/)(Node) | Fügt einen Knoten am Ende der Sammlung hinzu. |
+| [Add](../../aspose.words/nodecollection/add/)(*[Node](../node/)*) | Fügt einen Knoten am Ende der Sammlung hinzu. |
 | [Clear](../../aspose.words/nodecollection/clear/)() | Entfernt alle Knoten aus dieser Sammlung und aus dem Dokument. |
-| [Contains](../../aspose.words/nodecollection/contains/)(Node) | Bestimmt, ob ein Knoten in der Sammlung ist. |
+| [Contains](../../aspose.words/nodecollection/contains/)(*[Node](../node/)*) | Bestimmt, ob ein Knoten in der Sammlung ist. |
 | [GetEnumerator](../../aspose.words/nodecollection/getenumerator/)() | Bietet eine einfache Iteration im „foreach“-Stil über die Sammlung von Knoten. |
-| [IndexOf](../../aspose.words/nodecollection/indexof/)(Node) | Gibt den nullbasierten Index des angegebenen Knotens zurück. |
-| [Insert](../../aspose.words/nodecollection/insert/)(int, Node) | Fügt am angegebenen Index einen Knoten in die Sammlung ein. |
-| [LinkToPrevious](../../aspose.words/headerfootercollection/linktoprevious/#linktoprevious_1)(bool) | Verknüpft alle Kopf- und Fußzeilen mit den entsprechenden Kopf- und Fußzeilen im vorherigen Abschnitt oder hebt die Verknüpfung auf. |
-| [LinkToPrevious](../../aspose.words/headerfootercollection/linktoprevious/#linktoprevious)(HeaderFooterType, bool) | Verknüpft oder hebt die Verknüpfung der angegebenen Kopf- oder Fußzeile mit der entsprechenden Kopf- oder Fußzeile im vorherigen Abschnitt auf. |
-| [Remove](../../aspose.words/nodecollection/remove/)(Node) | Entfernt den Knoten aus der Sammlung und aus dem Dokument. |
-| [RemoveAt](../../aspose.words/nodecollection/removeat/)(int) | Entfernt den Knoten am angegebenen Index aus der Sammlung und aus dem Dokument. |
+| [IndexOf](../../aspose.words/nodecollection/indexof/)(*[Node](../node/)*) | Gibt den nullbasierten Index des angegebenen Knotens zurück. |
+| [Insert](../../aspose.words/nodecollection/insert/)(*int, [Node](../node/)*) | Fügt am angegebenen Index einen Knoten in die Sammlung ein. |
+| [LinkToPrevious](../../aspose.words/headerfootercollection/linktoprevious/#linktoprevious_1)(*bool*) | Verknüpft alle Kopf- und Fußzeilen mit den entsprechenden Kopf- und Fußzeilen im vorherigen Abschnitt oder hebt die Verknüpfung auf. |
+| [LinkToPrevious](../../aspose.words/headerfootercollection/linktoprevious/#linktoprevious)(*[HeaderFooterType](../headerfootertype/), bool*) | Verknüpft oder hebt die Verknüpfung der angegebenen Kopf- oder Fußzeile mit der entsprechenden Kopf- oder Fußzeile im vorherigen Abschnitt auf. |
+| [Remove](../../aspose.words/nodecollection/remove/)(*[Node](../node/)*) | Entfernt den Knoten aus der Sammlung und aus dem Dokument. |
+| [RemoveAt](../../aspose.words/nodecollection/removeat/)(*int*) | Entfernt den Knoten am angegebenen Index aus der Sammlung und aus dem Dokument. |
 | [ToArray](../../aspose.words/headerfootercollection/toarray/#toarray)() | Kopiert alles`Kopf- und Fußzeile` s aus der Sammlung in ein neues Array von`Kopf- und Fußzeile` s. (2 methods) |
 
-### Bemerkungen
+## Bemerkungen
 
 Es kann maximal einer sein[`HeaderFooter`](../headerfooter/)
 
@@ -47,7 +49,7 @@ von jedem[`HeaderFooterType`](../headerfootertype/) per [`Section`](../section/)
 
 [`HeaderFooter`](../headerfooter/) Objekte können in beliebiger Reihenfolge in der Sammlung vorkommen.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie alle Fußzeilen aus einem Dokument gelöscht werden.
 
@@ -113,5 +115,3 @@ doc.Save(ArtifactsDir + "HeaderFooter.Create.docx");
 * class [NodeCollection](../nodecollection/)
 * namensraum [Aspose.Words](../../aspose.words/)
 * Montage [Aspose.Words](../../)
-
-

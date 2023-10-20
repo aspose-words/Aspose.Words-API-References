@@ -1,7 +1,9 @@
 ---
 title: OutlineOptions.DefaultBookmarksOutlineLevel
-second_title: Aspose.Words für .NET-API-Referenz
-description: OutlineOptions eigendom. Gibt die Standardebene in der Dokumentgliederung an auf der WordLesezeichen angezeigt werden.
+linktitle: DefaultBookmarksOutlineLevel
+articleTitle: DefaultBookmarksOutlineLevel
+second_title: Aspose.Words für .NET
+description: OutlineOptions DefaultBookmarksOutlineLevel eigendom. Gibt die Standardebene in der Dokumentgliederung an auf der WordLesezeichen angezeigt werden in C#.
 type: docs
 weight: 50
 url: /de/net/aspose.words.saving/outlineoptions/defaultbookmarksoutlinelevel/
@@ -14,7 +16,7 @@ Gibt die Standardebene in der Dokumentgliederung an, auf der Word-Lesezeichen an
 public int DefaultBookmarksOutlineLevel { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Die individuelle Lesezeichenebene kann mit angegeben werden[`BookmarksOutlineLevels`](../bookmarksoutlinelevels/) Eigentum.
 
@@ -22,7 +24,7 @@ Geben Sie 0 an, und Word-Lesezeichen werden nicht in der Dokumentgliederung ange
 
 Der Standardwert ist 0. Der gültige Bereich liegt zwischen 0 und 9.
 
-### Beispiele
+## Beispiele
 
 Zeigt an, dass Lesezeichen in Kopf-/Fußzeilen in einem Dokument verarbeitet werden, das wir als PDF rendern.
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.HeaderFooterBookmarksExportMode.pdf", sa
 ### Siehe auch
 
 * class [OutlineOptions](../)
-* namensraum [Aspose.Words.Saving](../../outlineoptions/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

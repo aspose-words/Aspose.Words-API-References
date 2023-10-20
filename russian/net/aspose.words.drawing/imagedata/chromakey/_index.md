@@ -1,7 +1,9 @@
 ---
 title: ImageData.ChromaKey
-second_title: Справочник по API Aspose.Words для .NET
-description: ImageData свойство. Определяет значение цвета изображения которое будет считаться прозрачным.
+linktitle: ChromaKey
+articleTitle: ChromaKey
+second_title: Aspose.Words для .NET
+description: ImageData ChromaKey свойство. Определяет значение цвета изображения которое будет считаться прозрачным на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.drawing/imagedata/chromakey/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.drawing/imagedata/chromakey/
 public Color ChromaKey { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Значение по умолчанию — 0.
 
-### Примеры
+## Примеры
 
 Показывает, как редактировать данные изображения фигуры.
 
@@ -81,7 +83,5 @@ dstDoc.Save(ArtifactsDir + "Drawing.ImageData.docx");
 ### Смотрите также
 
 * class [ImageData](../)
-* пространство имен [Aspose.Words.Drawing](../../imagedata/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

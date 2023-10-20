@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.SuppressSpacingAtTopOfPage
-second_title: Aspose.Words لمراجع .NET API
-description: CompatibilityOptions ملكية. تجاهل الحد الأدنى لارتفاع السطر للسطر الأول في الصفحة.
+linktitle: SuppressSpacingAtTopOfPage
+articleTitle: SuppressSpacingAtTopOfPage
+second_title: Aspose.Words لـ .NET
+description: CompatibilityOptions SuppressSpacingAtTopOfPage ملكية. تجاهل الحد الأدنى لارتفاع السطر للسطر الأول في الصفحة في C#.
 type: docs
 weight: 490
 url: /ar/net/aspose.words.settings/compatibilityoptions/suppressspacingattopofpage/
@@ -17,7 +19,5 @@ public bool SuppressSpacingAtTopOfPage { get; set; }
 ### أنظر أيضا
 
 * class [CompatibilityOptions](../)
-* مساحة الاسم [Aspose.Words.Settings](../../compatibilityoptions/)
+* مساحة الاسم [Aspose.Words.Settings](../../../aspose.words.settings/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: FieldToc.FieldToc
-second_title: Aspose.Words لمراجع .NET API
-description: FieldToc البناء. Default_Constructor
+title: FieldToc
+linktitle: FieldToc
+articleTitle: FieldToc
+second_title: Aspose.Words لـ .NET
+description: FieldToc البناء. Default_Constructor في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fields/fieldtoc/fieldtoc/
@@ -17,7 +19,5 @@ public FieldToc()
 ### أنظر أيضا
 
 * class [FieldToc](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldtoc/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

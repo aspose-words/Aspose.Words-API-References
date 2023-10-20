@@ -1,7 +1,9 @@
 ---
 title: FieldIncludeText.SourceFullName
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldIncludeText eigendom. Ruft den Speicherort des Dokuments mithilfe eines IRI ab oder legt diesen fest.
+linktitle: SourceFullName
+articleTitle: SourceFullName
+second_title: Aspose.Words für .NET
+description: FieldIncludeText SourceFullName eigendom. Ruft den Speicherort des Dokuments mithilfe eines IRI ab oder legt diesen fest in C#.
 type: docs
 weight: 70
 url: /de/net/aspose.words.fields/fieldincludetext/sourcefullname/
@@ -14,7 +16,7 @@ Ruft den Speicherort des Dokuments mithilfe eines IRI ab oder legt diesen fest.
 public string SourceFullName { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein INCLUDETEXT-Feld erstellt und seine Eigenschaften festgelegt werden.
 
@@ -59,7 +61,5 @@ public FieldIncludeText CreateFieldIncludeText(DocumentBuilder builder, string s
 ### Siehe auch
 
 * class [FieldIncludeText](../)
-* namensraum [Aspose.Words.Fields](../../fieldincludetext/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

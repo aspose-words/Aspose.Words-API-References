@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTag.Color
-second_title: Aspose.Words för .NET API Referens
-description: StructuredDocumentTag fast egendom. Hämtar eller ställer in färgen på den strukturerade dokumenttaggen.
+linktitle: Color
+articleTitle: Color
+second_title: Aspose.Words för .NET
+description: StructuredDocumentTag Color fast egendom. Hämtar eller ställer in färgen på den strukturerade dokumenttaggen i C#.
 type: docs
 weight: 70
 url: /sv/net/aspose.words.markup/structureddocumenttag/color/
@@ -14,7 +16,7 @@ Hämtar eller ställer in färgen på den strukturerade dokumenttaggen.
 public Color Color { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man skapar en strukturerad dokumenttagg i en vanlig textruta och ändrar dess utseende.
 
@@ -71,7 +73,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.PlainText.docx");
 ### Se även
 
 * class [StructuredDocumentTag](../)
-* namnutrymme [Aspose.Words.Markup](../../structureddocumenttag/)
+* namnutrymme [Aspose.Words.Markup](../../../aspose.words.markup/)
 * hopsättning [Aspose.Words](../../../)
-
-

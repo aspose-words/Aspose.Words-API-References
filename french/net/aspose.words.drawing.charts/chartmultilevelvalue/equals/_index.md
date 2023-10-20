@@ -1,7 +1,9 @@
 ---
 title: ChartMultilevelValue.Equals
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ChartMultilevelValue méthode. Obtient un indicateur indiquant si lobjet spécifié est égal à lobjet de données multiniveau actuel.
+linktitle: Equals
+articleTitle: Equals
+second_title: Aspose.Words pour .NET
+description: ChartMultilevelValue Equals méthode. Obtient un indicateur indiquant si lobjet spécifié est égal à lobjet de données multiniveau actuel en C#.
 type: docs
 weight: 50
 url: /fr/net/aspose.words.drawing.charts/chartmultilevelvalue/equals/
@@ -17,7 +19,5 @@ public override bool Equals(object obj)
 ### Voir également
 
 * class [ChartMultilevelValue](../)
-* espace de noms [Aspose.Words.Drawing.Charts](../../chartmultilevelvalue/)
+* espace de noms [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Assemblée [Aspose.Words](../../../)
-
-

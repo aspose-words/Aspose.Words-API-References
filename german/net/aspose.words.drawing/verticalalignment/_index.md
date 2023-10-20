@@ -1,7 +1,9 @@
 ---
-title: Enum VerticalAlignment
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Drawing.VerticalAlignment opsomming. Gibt die vertikale Ausrichtung einer schwebenden Form eines Textrahmens oder einer schwebenden Tabelle an.
+title: VerticalAlignment Enum
+linktitle: VerticalAlignment
+articleTitle: VerticalAlignment
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Drawing.VerticalAlignment opsomming. Gibt die vertikale Ausrichtung einer schwebenden Form eines Textrahmens oder einer schwebenden Tabelle an in C#.
 type: docs
 weight: 1380
 url: /de/net/aspose.words.drawing/verticalalignment/
@@ -18,7 +20,7 @@ public enum VerticalAlignment
 
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
-| None | `0` | Das Objekt wird explizit positioniert, normalerweise mithilfe von its **Spitze** Eigenschaft. |
+| None | `0` | Das Objekt wird explizit positioniert, normalerweise mithilfe von its**Spitze** Eigenschaft. |
 | Top | `1` | Gibt an, dass sich das Objekt oben auf der vertikalen Ausrichtungsbasis befinden soll. |
 | Center | `2` | Gibt an, dass das Objekt in Bezug auf die vertikale Ausrichtungsbasis zentriert werden soll. |
 | Bottom | `3` | Gibt an, dass sich das Objekt am unteren Rand der vertikalen Ausrichtungsbasis befinden soll. |
@@ -27,7 +29,7 @@ public enum VerticalAlignment
 | Inline | `-1` | Nicht dokumentiert. Scheint ein möglicher Wert für schwebende Absätze und Tabellen zu sein. |
 | Default | `0` | Das Gleiche wieNone . |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man ein schwebendes Bild in der Mitte einer Seite einfügt.
 
@@ -52,5 +54,3 @@ doc.Save(ArtifactsDir + "Image.CreateFloatingPageCenter.docx");
 * property [VerticalAlignment](../shapebase/verticalalignment/)
 * namensraum [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../)
-
-

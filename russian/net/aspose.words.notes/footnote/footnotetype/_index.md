@@ -1,7 +1,9 @@
 ---
 title: Footnote.FootnoteType
-second_title: Справочник по API Aspose.Words для .NET
-description: Footnote свойство. Возвращает значение указывающее является ли это сноской или концевой сноской.
+linktitle: FootnoteType
+articleTitle: FootnoteType
+second_title: Aspose.Words для .NET
+description: Footnote FootnoteType свойство. Возвращает значение указывающее является ли это сноской или концевой сноской на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.notes/footnote/footnotetype/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.notes/footnote/footnotetype/
 public FootnoteType FootnoteType { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает разницу между сносками и концевыми сносками.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "InlineStory.FootnoteEndnote.docx");
 
 * enum [FootnoteType](../../footnotetype/)
 * class [Footnote](../)
-* пространство имен [Aspose.Words.Notes](../../footnote/)
+* пространство имен [Aspose.Words.Notes](../../../aspose.words.notes/)
 * сборка [Aspose.Words](../../../)
-
-

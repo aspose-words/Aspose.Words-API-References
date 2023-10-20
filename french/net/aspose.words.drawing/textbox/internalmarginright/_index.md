@@ -1,7 +1,9 @@
 ---
 title: TextBox.InternalMarginRight
-second_title: Référence de l'API Aspose.Words pour .NET
-description: TextBox propriété. Spécifie la marge intérieure droite en points pour une forme.
+linktitle: InternalMarginRight
+articleTitle: InternalMarginRight
+second_title: Aspose.Words pour .NET
+description: TextBox InternalMarginRight propriété. Spécifie la marge intérieure droite en points pour une forme en C#.
 type: docs
 weight: 40
 url: /fr/net/aspose.words.drawing/textbox/internalmarginright/
@@ -14,11 +16,11 @@ Spécifie la marge intérieure droite en points pour une forme.
 public double InternalMarginRight { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 La valeur par défaut est 1/10 de pouce.
 
-### Exemples
+## Exemples
 
 Montre comment définir les marges internes d’une zone de texte.
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "Shape.TextBoxMargins.docx");
 ### Voir également
 
 * class [TextBox](../)
-* espace de noms [Aspose.Words.Drawing](../../textbox/)
+* espace de noms [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Assemblée [Aspose.Words](../../../)
-
-

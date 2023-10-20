@@ -1,7 +1,9 @@
 ---
 title: FieldCitation.SuppressTitle
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldCitation eigendom. Ruft ab oder legt fest ob die Titelinformationen aus dem Zitat unterdrückt werden.
+linktitle: SuppressTitle
+articleTitle: SuppressTitle
+second_title: Aspose.Words für .NET
+description: FieldCitation SuppressTitle eigendom. Ruft ab oder legt fest ob die Titelinformationen aus dem Zitat unterdrückt werden in C#.
 type: docs
 weight: 90
 url: /de/net/aspose.words.fields/fieldcitation/suppresstitle/
@@ -14,7 +16,7 @@ Ruft ab oder legt fest, ob die Titelinformationen aus dem Zitat unterdrückt wer
 public bool SuppressTitle { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit den Feldern CITATION und BIBLIOGRAPHY gearbeitet wird.
 
@@ -68,7 +70,5 @@ doc.Save(ArtifactsDir + "Field.CITATION.docx");
 ### Siehe auch
 
 * class [FieldCitation](../)
-* namensraum [Aspose.Words.Fields](../../fieldcitation/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

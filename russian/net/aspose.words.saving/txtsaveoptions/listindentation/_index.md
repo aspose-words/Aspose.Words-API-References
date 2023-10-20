@@ -1,7 +1,9 @@
 ---
 title: TxtSaveOptions.ListIndentation
-second_title: Справочник по API Aspose.Words для .NET
-description: TxtSaveOptions свойство. ПолучаетTxtListIndentation объект который определяет сколько и какой символ использовать для отступов уровней списка. По умолчанию это нулевое количество символов 0 что означает отсутствие отступов.
+linktitle: ListIndentation
+articleTitle: ListIndentation
+second_title: Aspose.Words для .NET
+description: TxtSaveOptions ListIndentation свойство. ПолучаетTxtListIndentation объект который определяет сколько и какой символ использовать для отступов уровней списка. По умолчанию это нулевое количество символов 0 что означает отсутствие отступов на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.saving/txtsaveoptions/listindentation/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.saving/txtsaveoptions/listindentation/
 public TxtListIndentation ListIndentation { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как настроить отступ списка при сохранении документа в виде открытого текста.
 
@@ -55,7 +57,5 @@ Assert.AreEqual("1. Item 1\r\n" +
 
 * class [TxtListIndentation](../../txtlistindentation/)
 * class [TxtSaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../txtsaveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

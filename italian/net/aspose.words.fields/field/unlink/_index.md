@@ -1,7 +1,9 @@
 ---
 title: Field.Unlink
-second_title: Aspose.Words per .NET API Reference
-description: Field metodo. Esegue lo scollegamento del campo.
+linktitle: Unlink
+articleTitle: Unlink
+second_title: Aspose.Words per .NET
+description: Field Unlink metodo. Esegue lo scollegamento del campo in C#.
 type: docs
 weight: 130
 url: /it/net/aspose.words.fields/field/unlink/
@@ -18,13 +20,13 @@ public bool Unlink()
 
 `VERO` se il campo è stato scollegato, altrimenti`falso` .
 
-### Osservazioni
+## Osservazioni
 
 Sostituisce il campo con il risultato più recente.
 
 Alcuni campi, come i campi XE (voce indice) e i campi SEQ (sequenza), non possono essere scollegati.
 
-### Esempi
+## Esempi
 
 Mostra come scollegare un campo.
 
@@ -36,7 +38,5 @@ doc.Range.Fields[1].Unlink();
 ### Guarda anche
 
 * class [Field](../)
-* spazio dei nomi [Aspose.Words.Fields](../../field/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

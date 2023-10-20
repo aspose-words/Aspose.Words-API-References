@@ -1,7 +1,9 @@
 ---
 title: ConvertUtil.InchToPoint
-second_title: Aspose.Words per .NET API Reference
-description: ConvertUtil metodo. Converte i pollici in punti.
+linktitle: InchToPoint
+articleTitle: InchToPoint
+second_title: Aspose.Words per .NET
+description: ConvertUtil InchToPoint metodo. Converte i pollici in punti in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words/convertutil/inchtopoint/
@@ -18,11 +20,11 @@ public static double InchToPoint(double inches)
 | --- | --- | --- |
 | inches | Double | Il valore da convertire. |
 
-### Osservazioni
+## Osservazioni
 
 1 pollice equivale a 72 punti.
 
-### Esempi
+## Esempi
 
 Mostra come regolare il formato della carta, l'orientamento, i margini e altre impostazioni per una sezione.
 
@@ -75,7 +77,5 @@ doc.Save(ArtifactsDir + "UtilityClasses.PointsAndInches.docx");
 ### Guarda anche
 
 * class [ConvertUtil](../)
-* spazio dei nomi [Aspose.Words](../../convertutil/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

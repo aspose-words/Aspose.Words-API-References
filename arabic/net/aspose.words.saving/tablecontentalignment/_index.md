@@ -1,7 +1,9 @@
 ---
-title: Enum TableContentAlignment
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Saving.TableContentAlignment تعداد. يسمح بتحديد محاذاة محتوى الجدول الذي سيتم استخدامه عند التصدير إلى تنسيق Markdown.
+title: TableContentAlignment Enum
+linktitle: TableContentAlignment
+articleTitle: TableContentAlignment
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Saving.TableContentAlignment تعداد. يسمح بتحديد محاذاة محتوى الجدول الذي سيتم استخدامه عند التصدير إلى تنسيق Markdown في C#.
 type: docs
 weight: 5620
 url: /ar/net/aspose.words.saving/tablecontentalignment/
@@ -27,5 +29,3 @@ public enum TableContentAlignment
 
 * مساحة الاسم [Aspose.Words.Saving](../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../)
-
-

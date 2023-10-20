@@ -1,7 +1,9 @@
 ---
 title: Document.Revisions
-second_title: Aspose.Words för .NET API Referens
-description: Document fast egendom. Hämtar en samling revisioner spårade ändringar som finns i detta dokument.
+linktitle: Revisions
+articleTitle: Revisions
+second_title: Aspose.Words för .NET
+description: Document Revisions fast egendom. Hämtar en samling revisioner spårade ändringar som finns i detta dokument i C#.
 type: docs
 weight: 350
 url: /sv/net/aspose.words/document/revisions/
@@ -14,11 +16,11 @@ Hämtar en samling revisioner (spårade ändringar) som finns i detta dokument.
 public RevisionCollection Revisions { get; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Den returnerade samlingen är en "live"-samling, vilket innebär att om du tar bort delar av ett dokument som innehåller revisioner kommer de borttagna revisionerna automatiskt att försvinna från denna samling.
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med revisioner i ett dokument.
 
@@ -102,7 +104,5 @@ Assert.AreEqual("This is revision #1. \rThis is revision #2.", doc.GetText().Tri
 
 * class [RevisionCollection](../../revisioncollection/)
 * class [Document](../)
-* namnutrymme [Aspose.Words](../../document/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

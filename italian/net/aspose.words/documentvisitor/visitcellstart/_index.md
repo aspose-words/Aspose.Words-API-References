@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitCellStart
-second_title: Aspose.Words per .NET API Reference
-description: DocumentVisitor metodo. Chiamato quando è iniziata lenumerazione di una cella di tabella.
+linktitle: VisitCellStart
+articleTitle: VisitCellStart
+second_title: Aspose.Words per .NET
+description: DocumentVisitor VisitCellStart metodo. Chiamato quando è iniziata lenumerazione di una cella di tabella in C#.
 type: docs
 weight: 90
 url: /it/net/aspose.words/documentvisitor/visitcellstart/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitCellStart(Cell cell)
 
 UN[`VisitorAction`](../../visitoraction/) valore che specifica come continuare l'enumerazione.
 
-### Esempi
+## Esempi
 
 Mostra come stampare la struttura dei nodi di ogni tabella in un documento.
 
@@ -187,7 +189,5 @@ public class TableStructurePrinter : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [Cell](../../../aspose.words.tables/cell/)
 * class [DocumentVisitor](../)
-* spazio dei nomi [Aspose.Words](../../documentvisitor/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

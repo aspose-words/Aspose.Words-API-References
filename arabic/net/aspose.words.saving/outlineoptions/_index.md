@@ -1,7 +1,9 @@
 ---
-title: Class OutlineOptions
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Saving.OutlineOptions فصل. يسمح بتحديد خيارات المخطط التفصيلي.
+title: OutlineOptions Class
+linktitle: OutlineOptions
+articleTitle: OutlineOptions
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Saving.OutlineOptions فصل. يسمح بتحديد خيارات المخطط التفصيلي في C#.
 type: docs
 weight: 5360
 url: /ar/net/aspose.words.saving/outlineoptions/
@@ -33,7 +35,7 @@ public class OutlineOptions
 | [ExpandedOutlineLevels](../../aspose.words.saving/outlineoptions/expandedoutlinelevels/) { get; set; } | يحدد عدد المستويات في المخطط التفصيلي للمستند الذي سيتم إظهاره موسعًا عند عرض الملف. |
 | [HeadingsOutlineLevels](../../aspose.words.saving/outlineoptions/headingsoutlinelevels/) { get; set; } | يحدد عدد مستويات العناوين (الفقرات المنسقة باستخدام أنماط العناوين) التي سيتم تضمينها في مخطط المستند . |
 
-### أمثلة
+## أمثلة
 
 يظهر لمعالجة الإشارات المرجعية في الرؤوس/التذييلات في المستند الذي نعرضه إلى PDF.
 
@@ -66,5 +68,3 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.HeaderFooterBookmarksExportMode.pdf", sa
 
 * مساحة الاسم [Aspose.Words.Saving](../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../)
-
-

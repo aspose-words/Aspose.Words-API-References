@@ -1,7 +1,9 @@
 ---
 title: MailMerge.MappedDataFields
-second_title: Aspose.Words per .NET API Reference
-description: MailMerge proprietà. Restituisce una raccolta che rappresenta i campi dati mappati per loperazione di stampa unione.
+linktitle: MappedDataFields
+articleTitle: MappedDataFields
+second_title: Aspose.Words per .NET
+description: MailMerge MappedDataFields proprietà. Restituisce una raccolta che rappresenta i campi dati mappati per loperazione di stampa unione in C#.
 type: docs
 weight: 50
 url: /it/net/aspose.words.mailmerging/mailmerge/mappeddatafields/
@@ -14,11 +16,11 @@ Restituisce una raccolta che rappresenta i campi dati mappati per l'operazione d
 public MappedDataFieldCollection MappedDataFields { get; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 I campi dati mappati consentono di mappare automaticamente i nomi dei campi nell'origine dati e i nomi dei campi della stampa unione nel documento.
 
-### Esempi
+## Esempi
 
 Mostra come mappare colonne di dati e MERGEFIELD con nomi diversi in modo che i dati vengano trasferiti tra loro durante una stampa unione.
 
@@ -104,7 +106,5 @@ private static DataTable CreateSourceTableMappedDataFields()
 
 * class [MappedDataFieldCollection](../../mappeddatafieldcollection/)
 * class [MailMerge](../)
-* spazio dei nomi [Aspose.Words.MailMerging](../../mailmerge/)
+* spazio dei nomi [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * assemblea [Aspose.Words](../../../)
-
-

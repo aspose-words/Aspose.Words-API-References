@@ -1,9 +1,11 @@
 ---
 title: Fill.Opacity
-second_title: Aspose.Words for .NET API 参考
-description: Fill 财产. 获取或设置指定填充的不透明度其值介于 0.0透明和 1.0不透明之间
+linktitle: Opacity
+articleTitle: Opacity
+second_title: 用于 .NET 的 Aspose.Words
+description: Fill Opacity 财产. 获取或设置指定填充的不透明度其值介于 0.0透明和 1.0不透明之间 在 C#.
 type: docs
-weight: 150
+weight: 140
 url: /zh/net/aspose.words.drawing/fill/opacity/
 ---
 ## Fill.Opacity property
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.drawing/fill/opacity/
 public double Opacity { get; set; }
 ```
 
-### 评论
+## 评论
 
 此属性与属性相反[`Transparency`](../transparency/)。
 
-### 例子
+## 例子
 
 演示如何用纯色填充形状。
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "Shape.Fill.docx");
 ### 也可以看看
 
 * class [Fill](../)
-* 命名空间 [Aspose.Words.Drawing](../../fill/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

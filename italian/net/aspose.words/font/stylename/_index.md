@@ -1,7 +1,9 @@
 ---
 title: Font.StyleName
-second_title: Aspose.Words per .NET API Reference
-description: Font proprietà. Ottiene o imposta il nome dello stile di carattere applicato a questa formattazione.
+linktitle: StyleName
+articleTitle: StyleName
+second_title: Aspose.Words per .NET
+description: Font StyleName proprietà. Ottiene o imposta il nome dello stile di carattere applicato a questa formattazione in C#.
 type: docs
 weight: 420
 url: /it/net/aspose.words/font/stylename/
@@ -14,7 +16,7 @@ Ottiene o imposta il nome dello stile di carattere applicato a questa formattazi
 public string StyleName { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come modificare lo stile del testo esistente.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "Font.ChangeStyle.docx");
 ### Guarda anche
 
 * class [Font](../)
-* spazio dei nomi [Aspose.Words](../../font/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

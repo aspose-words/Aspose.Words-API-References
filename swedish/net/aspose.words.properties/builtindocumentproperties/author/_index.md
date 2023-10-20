@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.Author
-second_title: Aspose.Words för .NET API Referens
-description: BuiltInDocumentProperties fast egendom. Hämtar eller ställer in namnet på dokumentets författare.
+linktitle: Author
+articleTitle: Author
+second_title: Aspose.Words för .NET
+description: BuiltInDocumentProperties Author fast egendom. Hämtar eller ställer in namnet på dokumentets författare i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.properties/builtindocumentproperties/author/
@@ -14,7 +16,7 @@ Hämtar eller ställer in namnet på dokumentets författare.
 public string Author { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med inbyggda dokumentegenskaper i kategorin "Beskrivning".
 
@@ -59,7 +61,5 @@ doc.Save(ArtifactsDir + "DocumentProperties.Description.docx");
 ### Se även
 
 * class [BuiltInDocumentProperties](../)
-* namnutrymme [Aspose.Words.Properties](../../builtindocumentproperties/)
+* namnutrymme [Aspose.Words.Properties](../../../aspose.words.properties/)
 * hopsättning [Aspose.Words](../../../)
-
-

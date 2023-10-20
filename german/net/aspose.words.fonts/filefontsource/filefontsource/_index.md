@@ -1,12 +1,14 @@
 ---
-title: FileFontSource.FileFontSource
-second_title: Aspose.Words für .NET-API-Referenz
-description: FileFontSource constructeur. Ctor.
+title: FileFontSource
+linktitle: FileFontSource
+articleTitle: FileFontSource
+second_title: Aspose.Words für .NET
+description: FileFontSource constructeur. Ctor in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words.fonts/filefontsource/filefontsource/
 ---
-## FileFontSource(string) {#constructor}
+## FileFontSource(*string*) {#constructor}
 
 Ctor.
 
@@ -18,7 +20,7 @@ public FileFontSource(string filePath)
 | --- | --- | --- |
 | filePath | String | Pfad zur Schriftartdatei. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie eine Schriftartendatei im lokalen Dateisystem als Schriftartenquelle verwendet wird.
 
@@ -37,12 +39,12 @@ Assert.AreEqual(0, fileFontSource.Priority);
 ### Siehe auch
 
 * class [FileFontSource](../)
-* namensraum [Aspose.Words.Fonts](../../filefontsource/)
+* namensraum [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * Montage [Aspose.Words](../../../)
 
 ---
 
-## FileFontSource(string, int) {#constructor_1}
+## FileFontSource(*string, int*) {#constructor_1}
 
 Ctor.
 
@@ -55,7 +57,7 @@ public FileFontSource(string filePath, int priority)
 | filePath | String | Pfad zur Schriftartdatei. |
 | priority | Int32 | Priorität der Schriftartquelle. Siehe die[`Priority`](../../fontsourcebase/priority/) Weitere Informationen finden Sie in der Objektbeschreibung. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie eine Schriftartendatei im lokalen Dateisystem als Schriftartenquelle verwendet wird.
 
@@ -74,12 +76,12 @@ Assert.AreEqual(0, fileFontSource.Priority);
 ### Siehe auch
 
 * class [FileFontSource](../)
-* namensraum [Aspose.Words.Fonts](../../filefontsource/)
+* namensraum [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * Montage [Aspose.Words](../../../)
 
 ---
 
-## FileFontSource(string, int, string) {#constructor_2}
+## FileFontSource(*string, int, string*) {#constructor_2}
 
 Ctor.
 
@@ -93,7 +95,7 @@ public FileFontSource(string filePath, int priority, string cacheKey)
 | priority | Int32 | Priorität der Schriftartquelle. Siehe die[`Priority`](../../fontsourcebase/priority/) Weitere Informationen finden Sie in der Objektbeschreibung. |
 | cacheKey | String | Der Schlüssel dieser Quelle im Cache. Sehen[`CacheKey`](../cachekey/) Weitere Informationen finden Sie in der Objektbeschreibung. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie der Initialisierungsprozess für den Schriftcache beschleunigt werden kann.
 
@@ -144,7 +146,5 @@ private class SearchCacheStream : StreamFontSource
 ### Siehe auch
 
 * class [FileFontSource](../)
-* namensraum [Aspose.Words.Fonts](../../filefontsource/)
+* namensraum [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * Montage [Aspose.Words](../../../)
-
-

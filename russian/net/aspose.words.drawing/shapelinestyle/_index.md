@@ -1,7 +1,9 @@
 ---
-title: Enum ShapeLineStyle
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Drawing.ShapeLineStyle перечисление. Определяет стиль составной линииShape .
+title: ShapeLineStyle Enum
+linktitle: ShapeLineStyle
+articleTitle: ShapeLineStyle
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Drawing.ShapeLineStyle перечисление. Определяет стиль составной линииShape  на С#.
 type: docs
 weight: 1270
 url: /ru/net/aspose.words.drawing/shapelinestyle/
@@ -25,7 +27,7 @@ public enum ShapeLineStyle
 | Triple | `4` | Три линии, тонкие, толстые, тонкие. |
 | Default | `0` | Значение по умолчанию:Single . |
 
-### Примеры
+## Примеры
 
 Показывает, как изменить свойства обводки.
 
@@ -60,5 +62,3 @@ doc.Save(ArtifactsDir + "Shape.Stroke.docx");
 * property [LineStyle](../stroke/linestyle/)
 * пространство имен [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../)
-
-

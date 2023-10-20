@@ -1,7 +1,9 @@
 ---
-title: Class OfficeMathRenderer
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Rendering.OfficeMathRenderer klas. Stellt Methoden zum Rendern einer Person bereitOfficeMath zu einem Raster oder Vektorbild oder zu einem Grafikobjekt.
+title: OfficeMathRenderer Class
+linktitle: OfficeMathRenderer
+articleTitle: OfficeMathRenderer
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Rendering.OfficeMathRenderer klas. Stellt Methoden zum Rendern einer Person bereitOfficeMath zu einem Raster oder Vektorbild oder zu einem Grafikobjekt in C#.
 type: docs
 weight: 4560
 url: /de/net/aspose.words.rendering/officemathrenderer/
@@ -20,7 +22,7 @@ public class OfficeMathRenderer : NodeRendererBase
 
 | Name | Beschreibung |
 | --- | --- |
-| [OfficeMathRenderer](officemathrenderer/)(OfficeMath) | Initialisiert eine neue Instanz dieser Klasse. |
+| [OfficeMathRenderer](officemathrenderer/)(*[OfficeMath](../../aspose.words.math/officemath/)*) | Initialisiert eine neue Instanz dieser Klasse. |
 
 ## Eigenschaften
 
@@ -34,18 +36,18 @@ public class OfficeMathRenderer : NodeRendererBase
 
 | Name | Beschreibung |
 | --- | --- |
-| [GetBoundsInPixels](../../aspose.words.rendering/noderendererbase/getboundsinpixels/)(float, float) | Berechnet die Grenzen der Form in Pixel für einen angegebenen Zoomfaktor und eine bestimmte Auflösung. |
-| [GetBoundsInPixels](../../aspose.words.rendering/noderendererbase/getboundsinpixels/)(float, float, float) | Berechnet die Grenzen der Form in Pixel für einen angegebenen Zoomfaktor und eine bestimmte Auflösung. |
-| [GetOpaqueBoundsInPixels](../../aspose.words.rendering/noderendererbase/getopaqueboundsinpixels/)(float, float) | Berechnet die undurchsichtigen Grenzen der Form in Pixel für einen angegebenen Zoomfaktor und eine bestimmte Auflösung. |
-| [GetOpaqueBoundsInPixels](../../aspose.words.rendering/noderendererbase/getopaqueboundsinpixels/)(float, float, float) | Berechnet die undurchsichtigen Grenzen der Form in Pixel für einen angegebenen Zoomfaktor und eine bestimmte Auflösung. |
-| [GetSizeInPixels](../../aspose.words.rendering/noderendererbase/getsizeinpixels/)(float, float) | Berechnet die Größe der Form in Pixel für einen angegebenen Zoomfaktor und eine bestimmte Auflösung. |
-| [GetSizeInPixels](../../aspose.words.rendering/noderendererbase/getsizeinpixels/)(float, float, float) | Berechnet die Größe der Form in Pixel für einen angegebenen Zoomfaktor und eine bestimmte Auflösung. |
-| [RenderToScale](../../aspose.words.rendering/noderendererbase/rendertoscale/)(Graphics, float, float, float) | Rendert die Form in eineGraphics Objekt in einem bestimmten Maßstab. |
-| [RenderToSize](../../aspose.words.rendering/noderendererbase/rendertosize/)(Graphics, float, float, float, float) | Rendert die Form in eineGraphics Objekt auf eine angegebene Größe. |
-| [Save](../../aspose.words.rendering/noderendererbase/save/)(Stream, ImageSaveOptions) | Rendert die Form in ein Bild und speichert es in einem Stream. |
-| [Save](../../aspose.words.rendering/noderendererbase/save/)(string, ImageSaveOptions) | Rendert die Form in ein Bild und speichert es in einer Datei. |
+| [GetBoundsInPixels](../../aspose.words.rendering/noderendererbase/getboundsinpixels/)(*float, float*) | Berechnet die Grenzen der Form in Pixel für einen angegebenen Zoomfaktor und eine bestimmte Auflösung. |
+| [GetBoundsInPixels](../../aspose.words.rendering/noderendererbase/getboundsinpixels/)(*float, float, float*) | Berechnet die Grenzen der Form in Pixel für einen angegebenen Zoomfaktor und eine bestimmte Auflösung. |
+| [GetOpaqueBoundsInPixels](../../aspose.words.rendering/noderendererbase/getopaqueboundsinpixels/)(*float, float*) | Berechnet die undurchsichtigen Grenzen der Form in Pixel für einen angegebenen Zoomfaktor und eine bestimmte Auflösung. |
+| [GetOpaqueBoundsInPixels](../../aspose.words.rendering/noderendererbase/getopaqueboundsinpixels/)(*float, float, float*) | Berechnet die undurchsichtigen Grenzen der Form in Pixel für einen angegebenen Zoomfaktor und eine bestimmte Auflösung. |
+| [GetSizeInPixels](../../aspose.words.rendering/noderendererbase/getsizeinpixels/)(*float, float*) | Berechnet die Größe der Form in Pixel für einen angegebenen Zoomfaktor und eine bestimmte Auflösung. |
+| [GetSizeInPixels](../../aspose.words.rendering/noderendererbase/getsizeinpixels/)(*float, float, float*) | Berechnet die Größe der Form in Pixel für einen angegebenen Zoomfaktor und eine bestimmte Auflösung. |
+| [RenderToScale](../../aspose.words.rendering/noderendererbase/rendertoscale/)(*Graphics, float, float, float*) | Rendert die Form in eineGraphics Objekt in einem bestimmten Maßstab. |
+| [RenderToSize](../../aspose.words.rendering/noderendererbase/rendertosize/)(*Graphics, float, float, float, float*) | Rendert die Form in eineGraphics Objekt auf eine angegebene Größe. |
+| [Save](../../aspose.words.rendering/noderendererbase/save/)(*Stream, [ImageSaveOptions](../../aspose.words.saving/imagesaveoptions/)*) | Rendert die Form in ein Bild und speichert es in einem Stream. |
+| [Save](../../aspose.words.rendering/noderendererbase/save/)(*string, [ImageSaveOptions](../../aspose.words.saving/imagesaveoptions/)*) | Rendert die Form in ein Bild und speichert es in einer Datei. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Formen gemessen und skaliert werden.
 
@@ -94,5 +96,3 @@ Assert.AreEqual(30, bounds.Height);
 * class [NodeRendererBase](../noderendererbase/)
 * namensraum [Aspose.Words.Rendering](../../aspose.words.rendering/)
 * Montage [Aspose.Words](../../)
-
-

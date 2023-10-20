@@ -1,7 +1,9 @@
 ---
-title: Interface INodeChangingCallback
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.INodeChangingCallback واجهه المستخدم. قم بتنفيذ هذه الواجهة إذا كنت تريد تلقي إشعارات عند إدراج العقد أو إزالتها في المستند.
+title: INodeChangingCallback Interface
+linktitle: INodeChangingCallback
+articleTitle: INodeChangingCallback
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.INodeChangingCallback واجهه المستخدم. قم بتنفيذ هذه الواجهة إذا كنت تريد تلقي إشعارات عند إدراج العقد أو إزالتها في المستند في C#.
 type: docs
 weight: 3200
 url: /ar/net/aspose.words/inodechangingcallback/
@@ -18,12 +20,12 @@ public interface INodeChangingCallback
 
 | اسم | وصف |
 | --- | --- |
-| [NodeInserted](../../aspose.words/inodechangingcallback/nodeinserted/)(NodeChangingArgs) | يتم استدعاؤه عند إدراج عقدة تنتمي إلى هذا المستند في عقدة أخرى. |
-| [NodeInserting](../../aspose.words/inodechangingcallback/nodeinserting/)(NodeChangingArgs) | يتم الاتصال به قبل أن تكون العقدة التي تنتمي إلى هذا المستند على وشك أن يتم إدراجها في عقدة أخرى. |
-| [NodeRemoved](../../aspose.words/inodechangingcallback/noderemoved/)(NodeChangingArgs) | يتم استدعاؤه عند إزالة العقدة التي تنتمي إلى هذا المستند من الأصل. |
-| [NodeRemoving](../../aspose.words/inodechangingcallback/noderemoving/)(NodeChangingArgs) | يتم الاتصال به قبل أن تكون العقدة التي تنتمي إلى هذا المستند على وشك الإزالة من المستند. |
+| [NodeInserted](../../aspose.words/inodechangingcallback/nodeinserted/)(*[NodeChangingArgs](../nodechangingargs/)*) | يتم استدعاؤه عند إدراج عقدة تنتمي إلى هذا المستند في عقدة أخرى. |
+| [NodeInserting](../../aspose.words/inodechangingcallback/nodeinserting/)(*[NodeChangingArgs](../nodechangingargs/)*) | يتم الاتصال به قبل أن تكون العقدة التي تنتمي إلى هذا المستند على وشك أن يتم إدراجها في عقدة أخرى. |
+| [NodeRemoved](../../aspose.words/inodechangingcallback/noderemoved/)(*[NodeChangingArgs](../nodechangingargs/)*) | يتم استدعاؤه عند إزالة العقدة التي تنتمي إلى هذا المستند من الأصل. |
+| [NodeRemoving](../../aspose.words/inodechangingcallback/noderemoving/)(*[NodeChangingArgs](../nodechangingargs/)*) | يتم الاتصال به قبل أن تكون العقدة التي تنتمي إلى هذا المستند على وشك الإزالة من المستند. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تخصيص تغيير العقدة من خلال رد الاتصال.
 
@@ -101,5 +103,3 @@ public class HandleNodeChangingFontChanger : INodeChangingCallback
 
 * مساحة الاسم [Aspose.Words](../../aspose.words/)
 * المجسم [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ImagesFolder
-second_title: Aspose.Words för .NET API Referens
-description: HtmlSaveOptions fast egendom. Anger den fysiska mappen där bilder sparas vid export av ett dokument till HTMLformat. Standard är en tom sträng.
+linktitle: ImagesFolder
+articleTitle: ImagesFolder
+second_title: Aspose.Words för .NET
+description: HtmlSaveOptions ImagesFolder fast egendom. Anger den fysiska mappen där bilder sparas vid export av ett dokument till HTMLformat. Standard är en tom sträng i C#.
 type: docs
 weight: 360
 url: /sv/net/aspose.words.saving/htmlsaveoptions/imagesfolder/
@@ -14,7 +16,7 @@ Anger den fysiska mappen där bilder sparas vid export av ett dokument till HTML
 public string ImagesFolder { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 När du sparar en[`Document`](../../../aspose.words/document/) i HTML-format måste Aspose.Words spara alla -bilder som är inbäddade i dokumentet som fristående filer.`ImagesFolder` låter dig ange var bilderna ska sparas och[`ImagesFolderAlias`](../imagesfolderalias/) tillåter att specificera hur bildens URI:er kommer att konstrueras.
 
@@ -26,7 +28,7 @@ Om mappen som anges av`ImagesFolder` inte finns skapas den automatiskt.
 
 [`ResourceFolder`](../resourcefolder/) är ett annat sätt att ange en mapp där bilderna ska sparas.
 
-### Exempel
+## Exempel
 
 Visar hur man anger mappen för lagring av länkade bilder efter att ha sparats i .html.
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "HtmlSaveOptions.SaveHtmlWithOptions.html", options);
 ### Se även
 
 * class [HtmlSaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../htmlsaveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

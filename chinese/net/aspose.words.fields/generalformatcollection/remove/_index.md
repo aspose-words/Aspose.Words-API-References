@@ -1,7 +1,9 @@
 ---
 title: GeneralFormatCollection.Remove
-second_title: Aspose.Words for .NET API 参考
-description: GeneralFormatCollection 方法. 从集合中删除所有出现的指定通用格式
+linktitle: Remove
+articleTitle: Remove
+second_title: 用于 .NET 的 Aspose.Words
+description: GeneralFormatCollection Remove 方法. 从集合中删除所有出现的指定通用格式 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words.fields/generalformatcollection/remove/
@@ -18,7 +20,7 @@ public void Remove(GeneralFormat item)
 | --- | --- | --- |
 | item | GeneralFormat | 通用格式。 |
 
-### 例子
+## 例子
 
 展示如何设置字段结果的格式。
 
@@ -83,7 +85,5 @@ Assert.AreEqual(0, format.GeneralFormats.Count);
 
 * enum [GeneralFormat](../../generalformat/)
 * class [GeneralFormatCollection](../)
-* 命名空间 [Aspose.Words.Fields](../../generalformatcollection/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

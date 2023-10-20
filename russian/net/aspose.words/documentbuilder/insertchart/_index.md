@@ -1,12 +1,14 @@
 ---
 title: DocumentBuilder.InsertChart
-second_title: Справочник по API Aspose.Words для .NET
-description: DocumentBuilder метод. Вставляет объект диаграммы в документ и масштабирует его до указанного размера.
+linktitle: InsertChart
+articleTitle: InsertChart
+second_title: Aspose.Words для .NET
+description: DocumentBuilder InsertChart метод. Вставляет объект диаграммы в документ и масштабирует его до указанного размера на С#.
 type: docs
 weight: 280
 url: /ru/net/aspose.words/documentbuilder/insertchart/
 ---
-## InsertChart(ChartType, double, double) {#insertchart_1}
+## InsertChart(*[ChartType](../../../aspose.words.drawing.charts/charttype/), double, double*) {#insertchart_1}
 
 Вставляет объект диаграммы в документ и масштабирует его до указанного размера.
 
@@ -24,11 +26,11 @@ public Shape InsertChart(ChartType chartType, double width, double height)
 
 Узел изображения, который был только что вставлен.
 
-### Примечания
+## Примечания
 
 Вы можете изменить размер изображения, местоположение, метод позиционирования и другие настройки с помощью [`Shape`](../../../aspose.words.drawing/shape/) объект, возвращаемый этим методом.
 
-### Примеры
+## Примеры
 
 Показывает, как вставить круговую диаграмму в документ.
 
@@ -51,12 +53,12 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertPieChart.docx");
 * class [Shape](../../../aspose.words.drawing/shape/)
 * enum [ChartType](../../../aspose.words.drawing.charts/charttype/)
 * class [DocumentBuilder](../)
-* пространство имен [Aspose.Words](../../documentbuilder/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## InsertChart(ChartType, RelativeHorizontalPosition, double, RelativeVerticalPosition, double, double, double, WrapType) {#insertchart}
+## InsertChart(*[ChartType](../../../aspose.words.drawing.charts/charttype/), [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/), double, [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/), double, double, double, [WrapType](../../../aspose.words.drawing/wraptype/)*) {#insertchart}
 
 Вставляет объект диаграммы в документ и масштабирует его до указанного размера.
 
@@ -80,11 +82,11 @@ public Shape InsertChart(ChartType chartType, RelativeHorizontalPosition horzPos
 
 Узел изображения, который был только что вставлен.
 
-### Примечания
+## Примечания
 
 Вы можете изменить размер изображения, местоположение, метод позиционирования и другие настройки с помощью [`Shape`](../../../aspose.words.drawing/shape/) объект, возвращаемый этим методом.
 
-### Примеры
+## Примеры
 
 Показывает, как указать положение и перенос при вставке диаграммы.
 
@@ -106,7 +108,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertedChartRelativePosition.docx");
 * enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/)
 * enum [WrapType](../../../aspose.words.drawing/wraptype/)
 * class [DocumentBuilder](../)
-* пространство имен [Aspose.Words](../../documentbuilder/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

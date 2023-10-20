@@ -1,7 +1,9 @@
 ---
 title: Font.TintAndShade
-second_title: Aspose.Words för .NET API Referens
-description: Font fast egendom. Hämtar eller ställer in ett dubbelt värde som gör en färg ljusare eller mörkare.
+linktitle: TintAndShade
+articleTitle: TintAndShade
+second_title: Aspose.Words för .NET
+description: Font TintAndShade fast egendom. Hämtar eller ställer in ett dubbelt värde som gör en färg ljusare eller mörkare i C#.
 type: docs
 weight: 520
 url: /sv/net/aspose.words/font/tintandshade/
@@ -14,13 +16,13 @@ Hämtar eller ställer in ett dubbelt värde som gör en färg ljusare eller mö
 public double TintAndShade { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 De tillåtna värdena ligger inom området -1 (mörkast) till 1 (ljusast) för den här egenskapen. Noll (0) är neutral. Ett försök att ställa in den här egenskapen till ett värde mindre än -1 eller mer än 1 resulterar i enArgumentOutOfRangeException.
 
 Ställer in den här egenskapen för[`Font`](../) objekt med icke-tema colors resulterar i enInvalidOperationException.
 
-### Exempel
+## Exempel
 
 Visar hur man skapar och använder stil med teman.
 
@@ -43,7 +45,5 @@ builder.Writeln("Text with themed style");
 ### Se även
 
 * class [Font](../)
-* namnutrymme [Aspose.Words](../../font/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

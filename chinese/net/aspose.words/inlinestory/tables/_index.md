@@ -1,7 +1,9 @@
 ---
 title: InlineStory.Tables
-second_title: Aspose.Words for .NET API 参考
-description: InlineStory 财产. 获取作为故事的直接子级的表的集合
+linktitle: Tables
+articleTitle: Tables
+second_title: 用于 .NET 的 Aspose.Words
+description: InlineStory Tables 财产. 获取作为故事的直接子级的表的集合 在 C#.
 type: docs
 weight: 110
 url: /zh/net/aspose.words/inlinestory/tables/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/inlinestory/tables/
 public TableCollection Tables { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何插入 InlineStory 节点。
 
@@ -74,7 +76,5 @@ doc.Save(ArtifactsDir + "InlineStory.InsertInlineStoryNodes.docx");
 
 * class [TableCollection](../../../aspose.words.tables/tablecollection/)
 * class [InlineStory](../)
-* 命名空间 [Aspose.Words](../../inlinestory/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: RowFormat.HeadingFormat
-second_title: Справочник по API Aspose.Words для .NET
-description: RowFormat свойство. Истинно если строка повторяется как заголовок таблицы на каждой странице если таблица занимает более одной страницы.
+linktitle: HeadingFormat
+articleTitle: HeadingFormat
+second_title: Aspose.Words для .NET
+description: RowFormat HeadingFormat свойство. Истинно если строка повторяется как заголовок таблицы на каждой странице если таблица занимает более одной страницы на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.tables/rowformat/headingformat/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.tables/rowformat/headingformat/
 public bool HeadingFormat { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как построить таблицу со строками, повторяющимися на каждой странице.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTableSetHeadingRow.docx");
 ### Смотрите также
 
 * class [RowFormat](../)
-* пространство имен [Aspose.Words.Tables](../../rowformat/)
+* пространство имен [Aspose.Words.Tables](../../../aspose.words.tables/)
 * сборка [Aspose.Words](../../../)
-
-

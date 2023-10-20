@@ -1,7 +1,9 @@
 ---
 title: FieldMergingArgsBase.Field
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldMergingArgsBase eigendom. Ruft das Objekt ab das das aktuelle Zusammenführungsfeld darstellt.
+linktitle: Field
+articleTitle: Field
+second_title: Aspose.Words für .NET
+description: FieldMergingArgsBase Field eigendom. Ruft das Objekt ab das das aktuelle Zusammenführungsfeld darstellt in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.mailmerging/fieldmergingargsbase/field/
@@ -14,7 +16,7 @@ Ruft das Objekt ab, das das aktuelle Zusammenführungsfeld darstellt.
 public FieldMergeField Field { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Serienbrief mit einem benutzerdefinierten Rückruf ausgeführt wird, der Seriendaten in Form von HTML-Dokumenten verarbeitet.
 
@@ -83,7 +85,5 @@ private class HandleMergeFieldInsertHtml : IFieldMergingCallback
 
 * class [FieldMergeField](../../../aspose.words.fields/fieldmergefield/)
 * class [FieldMergingArgsBase](../)
-* namensraum [Aspose.Words.MailMerging](../../fieldmergingargsbase/)
+* namensraum [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * Montage [Aspose.Words](../../../)
-
-

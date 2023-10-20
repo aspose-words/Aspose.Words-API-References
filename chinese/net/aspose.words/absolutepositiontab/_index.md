@@ -1,7 +1,9 @@
 ---
-title: Class AbsolutePositionTab
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.AbsolutePositionTab 班级. 绝对位置制表符是一个字符用于在显示此 WordprocessingML 内容时推进 当前文本行上的位置
+title: AbsolutePositionTab Class
+linktitle: AbsolutePositionTab
+articleTitle: AbsolutePositionTab
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.AbsolutePositionTab 班级. 绝对位置制表符是一个字符用于在显示此 WordprocessingML 内容时推进 当前文本行上的位置 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words/absolutepositiontab/
@@ -40,18 +42,18 @@ public class AbsolutePositionTab : SpecialChar
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [Accept](../../aspose.words/absolutepositiontab/accept/)(DocumentVisitor) | 接受访客。 |
-| [Clone](../../aspose.words/node/clone/)(bool) | 创建节点的副本。 |
-| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | 获取指定的第一个祖先[`NodeType`](../nodetype/). |
-| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | 获取指定对象类型的第一个祖先。 |
+| override [Accept](../../aspose.words/absolutepositiontab/accept/)(*[DocumentVisitor](../documentvisitor/)*) | 接受访客。 |
+| [Clone](../../aspose.words/node/clone/)(*bool*) | 创建节点的副本。 |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*[NodeType](../nodetype/)*) | 获取指定的第一个祖先[`NodeType`](../nodetype/). |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | 获取指定对象类型的第一个祖先。 |
 | override [GetText](../../aspose.words/specialchar/gettext/)() | 获取该节点代表的特殊字符。 |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | 根据先序树遍历算法获取下一个节点。 |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | 根据先序树遍历算法获取前一个节点。 |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../node/)*) | 根据先序树遍历算法获取下一个节点。 |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../node/)*) | 根据先序树遍历算法获取前一个节点。 |
 | [Remove](../../aspose.words/node/remove/)() | 将自身从父级中删除。 |
-| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | 将节点的内容导出为指定格式的字符串。 |
-| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | 使用指定的保存选项将节点的内容导出到字符串中。 |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../saveformat/)*) | 将节点的内容导出为指定格式的字符串。 |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | 使用指定的保存选项将节点的内容导出到字符串中。 |
 
-### 例子
+## 例子
 
 演示如何使用文档访问者处理绝对位置制表符。
 
@@ -129,5 +131,3 @@ public class DocTextExtractor : DocumentVisitor
 * class [SpecialChar](../specialchar/)
 * 命名空间 [Aspose.Words](../../aspose.words/)
 * 部件 [Aspose.Words](../../)
-
-

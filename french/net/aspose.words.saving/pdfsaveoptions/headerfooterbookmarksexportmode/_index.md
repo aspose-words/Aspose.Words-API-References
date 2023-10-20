@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.HeaderFooterBookmarksExportMode
-second_title: Référence de l'API Aspose.Words pour .NET
-description: PdfSaveOptions propriété. Détermine la manière dont les signets dans les entêtes/pieds de page sont exportés.
+linktitle: HeaderFooterBookmarksExportMode
+articleTitle: HeaderFooterBookmarksExportMode
+second_title: Aspose.Words pour .NET
+description: PdfSaveOptions HeaderFooterBookmarksExportMode propriété. Détermine la manière dont les signets dans les entêtes/pieds de page sont exportés en C#.
 type: docs
 weight: 180
 url: /fr/net/aspose.words.saving/pdfsaveoptions/headerfooterbookmarksexportmode/
@@ -14,13 +16,13 @@ Détermine la manière dont les signets dans les en-têtes/pieds de page sont ex
 public HeaderFooterBookmarksExportMode HeaderFooterBookmarksExportMode { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 La valeur par défaut estAll.
 
 Cette propriété est utilisée conjointement avec le[`OutlineOptions`](../outlineoptions/) option.
 
-### Exemples
+## Exemples
 
 Montre comment traiter les signets dans les en-têtes/pieds de page d'un document que nous rendons au format PDF.
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.HeaderFooterBookmarksExportMode.pdf", sa
 
 * enum [HeaderFooterBookmarksExportMode](../../headerfooterbookmarksexportmode/)
 * class [PdfSaveOptions](../)
-* espace de noms [Aspose.Words.Saving](../../pdfsaveoptions/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,12 +1,14 @@
 ---
-title: PdfEncryptionDetails.PdfEncryptionDetails
-second_title: Справочник по API Aspose.Words для .NET
-description: PdfEncryptionDetails строитель. Инициализирует экземпляр этого класса.
+title: PdfEncryptionDetails
+linktitle: PdfEncryptionDetails
+articleTitle: PdfEncryptionDetails
+second_title: Aspose.Words для .NET
+description: PdfEncryptionDetails строитель. Инициализирует экземпляр этого класса на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.saving/pdfencryptiondetails/pdfencryptiondetails/
 ---
-## PdfEncryptionDetails(string, string) {#constructor}
+## PdfEncryptionDetails(*string, string*) {#constructor}
 
 Инициализирует экземпляр этого класса.
 
@@ -17,12 +19,12 @@ public PdfEncryptionDetails(string userPassword, string ownerPassword)
 ### Смотрите также
 
 * class [PdfEncryptionDetails](../)
-* пространство имен [Aspose.Words.Saving](../../pdfencryptiondetails/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## PdfEncryptionDetails(string, string, PdfPermissions) {#constructor_1}
+## PdfEncryptionDetails(*string, string, [PdfPermissions](../../pdfpermissions/)*) {#constructor_1}
 
 Инициализирует экземпляр этого класса.
 
@@ -30,7 +32,7 @@ public PdfEncryptionDetails(string userPassword, string ownerPassword)
 public PdfEncryptionDetails(string userPassword, string ownerPassword, PdfPermissions permissions)
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как установить разрешения для сохраненного PDF-документа.
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.EncryptionPermissions.pdf", saveOptions)
 
 * enum [PdfPermissions](../../pdfpermissions/)
 * class [PdfEncryptionDetails](../)
-* пространство имен [Aspose.Words.Saving](../../pdfencryptiondetails/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

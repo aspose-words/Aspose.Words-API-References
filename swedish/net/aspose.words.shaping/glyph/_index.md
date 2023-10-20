@@ -1,7 +1,9 @@
 ---
-title: Class Glyph
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Shaping.Glyph klass. Representerar en glyph
+title: Glyph Class
+linktitle: Glyph
+articleTitle: Glyph
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Shaping.Glyph klass. Representerar en glyph i C#.
 type: docs
 weight: 6040
 url: /sv/net/aspose.words.shaping/glyph/
@@ -18,7 +20,7 @@ public class Glyph
 
 | namn | Beskrivning |
 | --- | --- |
-| [Glyph](glyph/)(int, short, short, short) | Initierar ny instans av denna klass. |
+| [Glyph](glyph/)(*int, short, short, short*) | Initierar ny instans av denna klass. |
 
 ## Egenskaper
 
@@ -34,11 +36,9 @@ public class Glyph
 | namn | Beskrivning |
 | --- | --- |
 | virtual [Clone](../../aspose.words.shaping/glyph/clone/)() | Returnerar en klon av denna instans. |
-| virtual [GetWidth](../../aspose.words.shaping/glyph/getwidth/)(int, float) | Returnerar bredden (förskott) för glyfen i punkter. |
+| virtual [GetWidth](../../aspose.words.shaping/glyph/getwidth/)(*int, float*) | Returnerar bredden (förskott) för glyfen i punkter. |
 
 ### Se även
 
 * namnutrymme [Aspose.Words.Shaping](../../aspose.words.shaping/)
 * hopsättning [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: AxisDisplayUnit.CustomUnit
-second_title: Справочник по API Aspose.Words для .NET
-description: AxisDisplayUnit свойство. Получает или задает определяемый пользователем делитель для масштабирования единиц отображения по оси значений.
+linktitle: CustomUnit
+articleTitle: CustomUnit
+second_title: Aspose.Words для .NET
+description: AxisDisplayUnit CustomUnit свойство. Получает или задает определяемый пользователем делитель для масштабирования единиц отображения по оси значений на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.drawing.charts/axisdisplayunit/customunit/
@@ -14,13 +16,13 @@ url: /ru/net/aspose.words.drawing.charts/axisdisplayunit/customunit/
 public double CustomUnit { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Это свойство не поддерживается новыми диаграммами MS Office 2016. Значение по умолчанию — 1.
 
 Установка этого свойства устанавливает[`Unit`](../unit/) свойство Custom.
 
-### Примеры
+## Примеры
 
 Показывает, как манипулировать делениями и отображаемыми значениями оси диаграммы.
 
@@ -78,7 +80,5 @@ doc.Save(ArtifactsDir + "Charts.AxisDisplayUnit.docx");
 ### Смотрите также
 
 * class [AxisDisplayUnit](../)
-* пространство имен [Aspose.Words.Drawing.Charts](../../axisdisplayunit/)
+* пространство имен [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../../)
-
-

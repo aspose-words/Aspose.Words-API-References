@@ -1,7 +1,9 @@
 ---
 title: ShadowFormat.Type
-second_title: Aspose.Words for .NET API 参考
-description: ShadowFormat 财产. 获取或设置指定的ShadowType对于 ShadowFormat.
+linktitle: Type
+articleTitle: Type
+second_title: 用于 .NET 的 Aspose.Words
+description: ShadowFormat Type 财产. 获取或设置指定的ShadowType对于 ShadowFormat 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.drawing/shadowformat/type/
@@ -18,7 +20,5 @@ public ShadowType Type { get; set; }
 
 * enum [ShadowType](../../shadowtype/)
 * class [ShadowFormat](../)
-* 命名空间 [Aspose.Words.Drawing](../../shadowformat/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

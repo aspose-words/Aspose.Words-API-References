@@ -1,12 +1,14 @@
 ---
 title: NodeRendererBase.GetOpaqueBoundsInPixels
-second_title: Referencia de API de Aspose.Words para .NET
-description: NodeRendererBase método. Calcula los límites opacos de la forma en píxeles para un factor de zoom y una resolución específicos.
+linktitle: GetOpaqueBoundsInPixels
+articleTitle: GetOpaqueBoundsInPixels
+second_title: Aspose.Words para .NET
+description: NodeRendererBase GetOpaqueBoundsInPixels método. Calcula los límites opacos de la forma en píxeles para un factor de zoom y una resolución específicos en C#.
 type: docs
 weight: 50
 url: /es/net/aspose.words.rendering/noderendererbase/getopaqueboundsinpixels/
 ---
-## GetOpaqueBoundsInPixels(float, float) {#getopaqueboundsinpixels}
+## GetOpaqueBoundsInPixels(*float, float*) {#getopaqueboundsinpixels}
 
 Calcula los límites opacos de la forma en píxeles para un factor de zoom y una resolución específicos.
 
@@ -23,11 +25,11 @@ public Rectangle GetOpaqueBoundsInPixels(float scale, float dpi)
 
 El rectángulo opaco de la forma en píxeles.
 
-### Observaciones
+## Observaciones
 
 Este método convierte[`OpaqueBoundsInPoints`](../opaqueboundsinpoints/) en un rectángulo en píxeles y es útil cuando desea crear un mapa de bits para representar la forma con solo una parte opaca de la forma.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo medir y escalar formas.
 
@@ -74,12 +76,12 @@ Assert.AreEqual(30, bounds.Height);
 ### Ver también
 
 * class [NodeRendererBase](../)
-* espacio de nombres [Aspose.Words.Rendering](../../noderendererbase/)
+* espacio de nombres [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * asamblea [Aspose.Words](../../../)
 
 ---
 
-## GetOpaqueBoundsInPixels(float, float, float) {#getopaqueboundsinpixels_1}
+## GetOpaqueBoundsInPixels(*float, float, float*) {#getopaqueboundsinpixels_1}
 
 Calcula los límites opacos de la forma en píxeles para un factor de zoom y una resolución específicos.
 
@@ -97,11 +99,11 @@ public Rectangle GetOpaqueBoundsInPixels(float scale, float horizontalDpi, float
 
 El rectángulo opaco de la forma en píxeles.
 
-### Observaciones
+## Observaciones
 
 Este método convierte[`OpaqueBoundsInPoints`](../opaqueboundsinpoints/) en un rectángulo en píxeles y es útil cuando desea crear un mapa de bits para representar la forma con solo una parte opaca de la forma.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo medir y escalar formas.
 
@@ -148,7 +150,5 @@ Assert.AreEqual(30, bounds.Height);
 ### Ver también
 
 * class [NodeRendererBase](../)
-* espacio de nombres [Aspose.Words.Rendering](../../noderendererbase/)
+* espacio de nombres [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * asamblea [Aspose.Words](../../../)
-
-

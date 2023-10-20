@@ -1,12 +1,14 @@
 ---
 title: PreferredWidth.Equals
-second_title: Aspose.Words per .NET API Reference
-description: PreferredWidth metodo. Determina se specificatoPreferredWidth ha lo stesso valore della correntePreferredWidth .
+linktitle: Equals
+articleTitle: Equals
+second_title: Aspose.Words per .NET
+description: PreferredWidth Equals metodo. Determina se specificatoPreferredWidth ha lo stesso valore della correntePreferredWidth  in C#.
 type: docs
 weight: 60
 url: /it/net/aspose.words.tables/preferredwidth/equals/
 ---
-## Equals(PreferredWidth) {#equals}
+## Equals(*[PreferredWidth](../)*) {#equals}
 
 Determina se specificato[`PreferredWidth`](../) ha lo stesso valore della corrente[`PreferredWidth`](../) .
 
@@ -14,7 +16,7 @@ Determina se specificato[`PreferredWidth`](../) ha lo stesso valore della corren
 public bool Equals(PreferredWidth other)
 ```
 
-### Esempi
+## Esempi
 
 Mostra come impostare la larghezza preferita per le celle della tabella.
 
@@ -54,12 +56,12 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertCellsWithPreferredWidths.docx");
 ### Guarda anche
 
 * class [PreferredWidth](../)
-* spazio dei nomi [Aspose.Words.Tables](../../preferredwidth/)
+* spazio dei nomi [Aspose.Words.Tables](../../../aspose.words.tables/)
 * assemblea [Aspose.Words](../../../)
 
 ---
 
-## Equals(object) {#equals_1}
+## Equals(*object*) {#equals_1}
 
 Determina se l'oggetto specificato ha un valore uguale all'oggetto corrente.
 
@@ -67,7 +69,7 @@ Determina se l'oggetto specificato ha un valore uguale all'oggetto corrente.
 public override bool Equals(object obj)
 ```
 
-### Esempi
+## Esempi
 
 Mostra come impostare la larghezza preferita per le celle della tabella.
 
@@ -107,7 +109,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertCellsWithPreferredWidths.docx");
 ### Guarda anche
 
 * class [PreferredWidth](../)
-* spazio dei nomi [Aspose.Words.Tables](../../preferredwidth/)
+* spazio dei nomi [Aspose.Words.Tables](../../../aspose.words.tables/)
 * assemblea [Aspose.Words](../../../)
-
-

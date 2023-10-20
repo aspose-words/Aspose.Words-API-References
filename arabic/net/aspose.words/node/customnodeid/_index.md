@@ -1,7 +1,9 @@
 ---
 title: Node.CustomNodeId
-second_title: Aspose.Words لمراجع .NET API
-description: Node ملكية. يحدد معرف العقدة المخصصة.
+linktitle: CustomNodeId
+articleTitle: CustomNodeId
+second_title: Aspose.Words لـ .NET
+description: Node CustomNodeId ملكية. يحدد معرف العقدة المخصصة في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words/node/customnodeid/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/node/customnodeid/
 public int CustomNodeId { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 الافتراضي هو صفر.
 
@@ -22,7 +24,7 @@ public int CustomNodeId { get; set; }
 
 ملاحظة مهمة، لا يتم حفظ القيمة المحددة في ملف الإخراج وتكون موجودة فقط خلال عمر العقدة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية اجتياز مجموعة العقد الفرعية للعقدة المركبة.
 
@@ -67,7 +69,5 @@ foreach (Node child in children)
 ### أنظر أيضا
 
 * class [Node](../)
-* مساحة الاسم [Aspose.Words](../../node/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

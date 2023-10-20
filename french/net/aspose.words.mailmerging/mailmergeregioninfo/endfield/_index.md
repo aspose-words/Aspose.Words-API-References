@@ -1,7 +1,9 @@
 ---
 title: MailMergeRegionInfo.EndField
-second_title: Référence de l'API Aspose.Words pour .NET
-description: MailMergeRegionInfo propriété. Renvoie un champ de fin pour la région.
+linktitle: EndField
+articleTitle: EndField
+second_title: Aspose.Words pour .NET
+description: MailMergeRegionInfo EndField propriété. Renvoie un champ de fin pour la région en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.mailmerging/mailmergeregioninfo/endfield/
@@ -14,7 +16,7 @@ Renvoie un champ de fin pour la région.
 public FieldMergeField EndField { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment vérifier les régions de publipostage.
 
@@ -60,7 +62,5 @@ Assert.AreEqual("TableEnd:NestedRegion1", endFieldMergeField.FieldName);
 
 * class [FieldMergeField](../../../aspose.words.fields/fieldmergefield/)
 * class [MailMergeRegionInfo](../)
-* espace de noms [Aspose.Words.MailMerging](../../mailmergeregioninfo/)
+* espace de noms [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class ChartMarker
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Drawing.Charts.ChartMarker 班级. 表示图表数据标记
+title: ChartMarker Class
+linktitle: ChartMarker
+articleTitle: ChartMarker
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Drawing.Charts.ChartMarker 班级. 表示图表数据标记 在 C#.
 type: docs
 weight: 750
 url: /zh/net/aspose.words.drawing.charts/chartmarker/
@@ -24,7 +26,7 @@ public class ChartMarker
 | [Size](../../aspose.words.drawing.charts/chartmarker/size/) { get; set; } | 获取或设置图表标记大小。 默认值为 7。 |
 | [Symbol](../../aspose.words.drawing.charts/chartmarker/symbol/) { get; set; } | 获取或设置图表标记符号。 |
 
-### 例子
+## 例子
 
 展示如何使用折线图上的数据点。
 
@@ -87,5 +89,3 @@ private static void ApplyDataPoints(ChartSeries series, int dataPointsCount, Mar
 
 * 命名空间 [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * 部件 [Aspose.Words](../../)
-
-

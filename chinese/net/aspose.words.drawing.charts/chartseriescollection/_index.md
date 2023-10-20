@@ -1,7 +1,9 @@
 ---
-title: Class ChartSeriesCollection
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Drawing.Charts.ChartSeriesCollection 班级. 代表一个集合ChartSeries.
+title: ChartSeriesCollection Class
+linktitle: ChartSeriesCollection
+articleTitle: ChartSeriesCollection
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Drawing.Charts.ChartSeriesCollection 班级. 代表一个集合ChartSeries 在 C#.
 type: docs
 weight: 790
 url: /zh/net/aspose.words.drawing.charts/chartseriescollection/
@@ -27,15 +29,15 @@ public class ChartSeriesCollection : IEnumerable<ChartSeries>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Add](../../aspose.words.drawing.charts/chartseriescollection/add/#add_2)(string, DateTime[], double[]) | 添加新内容[`ChartSeries`](../chartseries/)到此集合。 使用此方法将系列添加到任何类型的面积图、雷达图和股票图。 |
-| [Add](../../aspose.words.drawing.charts/chartseriescollection/add/#add)(string, double[], double[]) | 添加新内容[`ChartSeries`](../chartseries/)到此集合。 使用此方法将系列添加到任何类型的散点图。 |
-| [Add](../../aspose.words.drawing.charts/chartseriescollection/add/#add_3)(string, string[], double[]) | 添加新内容[`ChartSeries`](../chartseries/)到此集合。 使用此方法将系列添加到任何类型的条形图、柱形图、折线图和曲面图。 |
-| [Add](../../aspose.words.drawing.charts/chartseriescollection/add/#add_1)(string, double[], double[], double[]) | 添加新内容[`ChartSeries`](../chartseries/)到此集合。 使用此方法将系列添加到任何类型的气泡图。 |
+| [Add](../../aspose.words.drawing.charts/chartseriescollection/add/#add_2)(*string, DateTime[], double[]*) | 添加新内容[`ChartSeries`](../chartseries/)到此集合。 使用此方法将系列添加到任何类型的面积图、雷达图和股票图。 |
+| [Add](../../aspose.words.drawing.charts/chartseriescollection/add/#add)(*string, double[], double[]*) | 添加新内容[`ChartSeries`](../chartseries/)到此集合。 使用此方法将系列添加到任何类型的散点图。 |
+| [Add](../../aspose.words.drawing.charts/chartseriescollection/add/#add_3)(*string, string[], double[]*) | 添加新内容[`ChartSeries`](../chartseries/)到此集合。 使用此方法将系列添加到任何类型的条形图、柱形图、折线图和曲面图。 |
+| [Add](../../aspose.words.drawing.charts/chartseriescollection/add/#add_1)(*string, double[], double[], double[]*) | 添加新内容[`ChartSeries`](../chartseries/)到此集合。 使用此方法将系列添加到任何类型的气泡图。 |
 | [Clear](../../aspose.words.drawing.charts/chartseriescollection/clear/)() | 删除所有[`ChartSeries`](../chartseries/)来自这个集合. |
 | [GetEnumerator](../../aspose.words.drawing.charts/chartseriescollection/getenumerator/)() | 返回一个枚举器对象。 |
-| [RemoveAt](../../aspose.words.drawing.charts/chartseriescollection/removeat/)(int) | 删除一个[`ChartSeries`](../chartseries/)在指定的索引处。 |
+| [RemoveAt](../../aspose.words.drawing.charts/chartseriescollection/removeat/)(*int*) | 删除一个[`ChartSeries`](../chartseries/)在指定的索引处。 |
 
-### 例子
+## 例子
 
 演示如何在图表中添加和删除系列数据。
 
@@ -84,5 +86,3 @@ chartData.Clear();
 * class [ChartSeries](../chartseries/)
 * 命名空间 [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * 部件 [Aspose.Words](../../)
-
-

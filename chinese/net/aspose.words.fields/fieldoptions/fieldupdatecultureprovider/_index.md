@@ -1,7 +1,9 @@
 ---
 title: FieldOptions.FieldUpdateCultureProvider
-second_title: Aspose.Words for .NET API 参考
-description: FieldOptions 财产. 获取或设置返回特定于每个特定字段的区域性对象的提供程序
+linktitle: FieldUpdateCultureProvider
+articleTitle: FieldUpdateCultureProvider
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldOptions FieldUpdateCultureProvider 财产. 获取或设置返回特定于每个特定字段的区域性对象的提供程序 在 C#.
 type: docs
 weight: 100
 url: /zh/net/aspose.words.fields/fieldoptions/fieldupdatecultureprovider/
@@ -14,13 +16,13 @@ url: /zh/net/aspose.words.fields/fieldoptions/fieldupdatecultureprovider/
 public IFieldUpdateCultureProvider FieldUpdateCultureProvider { get; set; }
 ```
 
-### 评论
+## 评论
 
 当以下值时向提供者发出请求[`FieldUpdateCultureSource`](../fieldupdateculturesource/)是FieldCode。
 
 如果提供程序存在，则它返回的区域性对象将用于字段更新。否则，将使用系统文化。
 
-### 例子
+## 例子
 
 演示如何指定解析每个字段的日期/时间格式的区域性。
 
@@ -92,7 +94,5 @@ private class FieldUpdateCultureProvider : IFieldUpdateCultureProvider
 
 * interface [IFieldUpdateCultureProvider](../../ifieldupdatecultureprovider/)
 * class [FieldOptions](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldoptions/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

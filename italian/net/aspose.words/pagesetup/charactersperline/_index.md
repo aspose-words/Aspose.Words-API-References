@@ -1,7 +1,9 @@
 ---
 title: PageSetup.CharactersPerLine
-second_title: Aspose.Words per .NET API Reference
-description: PageSetup proprietà. Ottiene o imposta il numero di caratteri per riga nella griglia del documento.
+linktitle: CharactersPerLine
+articleTitle: CharactersPerLine
+second_title: Aspose.Words per .NET
+description: PageSetup CharactersPerLine proprietà. Ottiene o imposta il numero di caratteri per riga nella griglia del documento in C#.
 type: docs
 weight: 100
 url: /it/net/aspose.words/pagesetup/charactersperline/
@@ -14,13 +16,13 @@ Ottiene o imposta il numero di caratteri per riga nella griglia del documento.
 public int CharactersPerLine { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Il valore minimo della proprietà è 1. Il valore massimo dipende dalla larghezza della pagina e dalla dimensione del carattere dello stile Normal . La spaziatura minima del carattere è pari al 90% della dimensione del carattere. Ad esempio, il numero massimo di caratteri per riga di una pagina di lettere con margini di un pollice è 43.
 
 Per impostazione predefinita, la proprietà ha un valore in base al quale la spaziatura del carattere è uguale alla dimensione del carattere dello stile Normal .
 
-### Esempi
+## Esempi
 
 Mostra come specificare a per il numero di caratteri che ciascuna riga può contenere.
 
@@ -45,7 +47,5 @@ doc.Save(ArtifactsDir + "PageSetup.CharactersPerLine.docx");
 ### Guarda anche
 
 * class [PageSetup](../)
-* spazio dei nomi [Aspose.Words](../../pagesetup/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

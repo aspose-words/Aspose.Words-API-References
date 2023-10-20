@@ -1,7 +1,9 @@
 ---
 title: FontSubstitutionSettings.FontInfoSubstitution
-second_title: Aspose.Words for .NET API 参考
-description: FontSubstitutionSettings 财产. 与字体信息替换规则相关的设置
+linktitle: FontInfoSubstitution
+articleTitle: FontInfoSubstitution
+second_title: 用于 .NET 的 Aspose.Words
+description: FontSubstitutionSettings FontInfoSubstitution 财产. 与字体信息替换规则相关的设置 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.fonts/fontsubstitutionsettings/fontinfosubstitution/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fonts/fontsubstitutionsettings/fontinfosubstitution/
 public FontInfoSubstitutionRule FontInfoSubstitution { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何设置属性以从可用字体源中查找缺失字体的最接近匹配项。
 
@@ -75,7 +77,5 @@ public class HandleDocumentSubstitutionWarnings : IWarningCallback
 
 * class [FontInfoSubstitutionRule](../../fontinfosubstitutionrule/)
 * class [FontSubstitutionSettings](../)
-* 命名空间 [Aspose.Words.Fonts](../../fontsubstitutionsettings/)
+* 命名空间 [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * 部件 [Aspose.Words](../../../)
-
-

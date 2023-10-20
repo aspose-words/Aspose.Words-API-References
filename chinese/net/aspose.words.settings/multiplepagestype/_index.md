@@ -1,7 +1,9 @@
 ---
-title: Enum MultiplePagesType
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Settings.MultiplePagesType 枚举. 指定如何打印文档
+title: MultiplePagesType Enum
+linktitle: MultiplePagesType
+articleTitle: MultiplePagesType
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Settings.MultiplePagesType 枚举. 指定如何打印文档 在 C#.
 type: docs
 weight: 5870
 url: /zh/net/aspose.words.settings/multiplepagestype/
@@ -29,5 +31,3 @@ public enum MultiplePagesType
 
 * 命名空间 [Aspose.Words.Settings](../../aspose.words.settings/)
 * 部件 [Aspose.Words](../../)
-
-

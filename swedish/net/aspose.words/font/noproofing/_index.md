@@ -1,7 +1,9 @@
 ---
 title: Font.NoProofing
-second_title: Aspose.Words för .NET API Referens
-description: Font fast egendom. Sant när de formaterade tecknen inte ska stavningskontrolleras.
+linktitle: NoProofing
+articleTitle: NoProofing
+second_title: Aspose.Words för .NET
+description: Font NoProofing fast egendom. Sant när de formaterade tecknen inte ska stavningskontrolleras i C#.
 type: docs
 weight: 280
 url: /sv/net/aspose.words/font/noproofing/
@@ -14,7 +16,7 @@ Sant när de formaterade tecknen inte ska stavningskontrolleras.
 public bool NoProofing { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du förhindrar att text stavningskontrolleras av Microsoft Word.
 
@@ -35,7 +37,5 @@ doc.Save(ArtifactsDir + "Font.NoProofing.docx");
 ### Se även
 
 * class [Font](../)
-* namnutrymme [Aspose.Words](../../font/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

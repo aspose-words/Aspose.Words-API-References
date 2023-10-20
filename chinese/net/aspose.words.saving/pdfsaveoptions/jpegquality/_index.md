@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.JpegQuality
-second_title: Aspose.Words for .NET API 参考
-description: PdfSaveOptions 财产. 获取或设置决定 PDF 文档内 JPEG 图像质量的值
+linktitle: JpegQuality
+articleTitle: JpegQuality
+second_title: 用于 .NET 的 Aspose.Words
+description: PdfSaveOptions JpegQuality 财产. 获取或设置决定 PDF 文档内 JPEG 图像质量的值 在 C#.
 type: docs
 weight: 220
 url: /zh/net/aspose.words.saving/pdfsaveoptions/jpegquality/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.saving/pdfsaveoptions/jpegquality/
 public int JpegQuality { get; set; }
 ```
 
-### 评论
+## 评论
 
 默认值为 100。
 
@@ -24,7 +26,7 @@ public int JpegQuality { get; set; }
 
 使用此属性获取或设置以 PDF 格式保存时文档内图像的质量。 该值可能在 0 到 100 之间变化，其中 0 表示质量最差但压缩最大，100 表示质量最好但压缩最小。 如果质量是 100 并且源图像是 JPEG，这意味着不压缩 - 将保存原始字节。
 
-### 例子
+## 例子
 
 演示如何为我们要转换为 PDF 的文档中的所有图像指定压缩类型。
 
@@ -57,7 +59,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.ImageCompression.pdf", pdfSaveOptions);
 ### 也可以看看
 
 * class [PdfSaveOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../pdfsaveoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

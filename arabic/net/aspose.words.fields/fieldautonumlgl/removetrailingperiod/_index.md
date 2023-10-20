@@ -1,7 +1,9 @@
 ---
 title: FieldAutoNumLgl.RemoveTrailingPeriod
-second_title: Aspose.Words لمراجع .NET API
-description: FieldAutoNumLgl ملكية. الحصول على أو تعيين ما إذا كان سيتم عرض الرقم بدون نقطة زائدة.
+linktitle: RemoveTrailingPeriod
+articleTitle: RemoveTrailingPeriod
+second_title: Aspose.Words لـ .NET
+description: FieldAutoNumLgl RemoveTrailingPeriod ملكية. الحصول على أو تعيين ما إذا كان سيتم عرض الرقم بدون نقطة زائدة في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.fields/fieldautonumlgl/removetrailingperiod/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldautonumlgl/removetrailingperiod/
 public bool RemoveTrailingPeriod { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تنظيم مستند باستخدام حقول AUTONUMLGL.
 
@@ -90,7 +92,5 @@ private static void InsertNumberedClause(DocumentBuilder builder, string heading
 ### أنظر أيضا
 
 * class [FieldAutoNumLgl](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldautonumlgl/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

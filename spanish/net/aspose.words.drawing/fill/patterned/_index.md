@@ -1,12 +1,14 @@
 ---
 title: Fill.Patterned
-second_title: Referencia de API de Aspose.Words para .NET
-description: Fill método. Establece el relleno especificado en un patrón.
+linktitle: Patterned
+articleTitle: Patterned
+second_title: Aspose.Words para .NET
+description: Fill Patterned método. Establece el relleno especificado en un patrón en C#.
 type: docs
-weight: 230
+weight: 220
 url: /es/net/aspose.words.drawing/fill/patterned/
 ---
-## Patterned(PatternType) {#patterned}
+## Patterned(*[PatternType](../../patterntype/)*) {#patterned}
 
 Establece el relleno especificado en un patrón.
 
@@ -18,7 +20,7 @@ public void Patterned(PatternType patternType)
 | --- | --- | --- |
 | patternType | PatternType | [`PatternType`](../../patterntype/) |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo establecer un patrón para una forma.
 
@@ -44,12 +46,12 @@ doc.Save(ArtifactsDir + "Shape.FillPattern.docx");
 
 * enum [PatternType](../../patterntype/)
 * class [Fill](../)
-* espacio de nombres [Aspose.Words.Drawing](../../fill/)
+* espacio de nombres [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * asamblea [Aspose.Words](../../../)
 
 ---
 
-## Patterned(PatternType, Color, Color) {#patterned_1}
+## Patterned(*[PatternType](../../patterntype/), Color, Color*) {#patterned_1}
 
 Establece el relleno especificado en un patrón.
 
@@ -63,7 +65,7 @@ public void Patterned(PatternType patternType, Color foreColor, Color backColor)
 | foreColor | Color | El color del relleno de primer plano. |
 | backColor | Color | El color del relleno de fondo. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo establecer un patrón para una forma.
 
@@ -89,7 +91,5 @@ doc.Save(ArtifactsDir + "Shape.FillPattern.docx");
 
 * enum [PatternType](../../patterntype/)
 * class [Fill](../)
-* espacio de nombres [Aspose.Words.Drawing](../../fill/)
+* espacio de nombres [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * asamblea [Aspose.Words](../../../)
-
-

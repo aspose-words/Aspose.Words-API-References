@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.Company
-second_title: Aspose.Words für .NET-API-Referenz
-description: BuiltInDocumentProperties eigendom. Ruft die Firmeneigenschaft ab oder legt sie fest.
+linktitle: Company
+articleTitle: Company
+second_title: Aspose.Words für .NET
+description: BuiltInDocumentProperties Company eigendom. Ruft die Firmeneigenschaft ab oder legt sie fest in C#.
 type: docs
 weight: 70
 url: /de/net/aspose.words.properties/builtindocumentproperties/company/
@@ -14,7 +16,7 @@ Ruft die Firmeneigenschaft ab oder legt sie fest.
 public string Company { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit Dokumenteigenschaften in der Kategorie „Ursprung“ gearbeitet wird.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "DocumentProperties.Origin.docx");
 ### Siehe auch
 
 * class [BuiltInDocumentProperties](../)
-* namensraum [Aspose.Words.Properties](../../builtindocumentproperties/)
+* namensraum [Aspose.Words.Properties](../../../aspose.words.properties/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class GradientStopCollection
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Drawing.GradientStopCollection فصل. يحتوي على مجموعة منGradientStop الكائنات.
+title: GradientStopCollection Class
+linktitle: GradientStopCollection
+articleTitle: GradientStopCollection
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Drawing.GradientStopCollection فصل. يحتوي على مجموعة منGradientStop الكائنات في C#.
 type: docs
 weight: 990
 url: /ar/net/aspose.words.drawing/gradientstopcollection/
@@ -27,17 +29,17 @@ public class GradientStopCollection : IEnumerable<GradientStop>
 
 | اسم | وصف |
 | --- | --- |
-| [Add](../../aspose.words.drawing/gradientstopcollection/add/)(GradientStop) | يضيف المحدد[`GradientStop`](../gradientstop/) إلى التدرج. |
+| [Add](../../aspose.words.drawing/gradientstopcollection/add/)(*[GradientStop](../gradientstop/)*) | يضيف المحدد[`GradientStop`](../gradientstop/) إلى التدرج. |
 | [GetEnumerator](../../aspose.words.drawing/gradientstopcollection/getenumerator/)() | يُرجع عدادًا يتكرر خلال المجموعة. |
-| [Insert](../../aspose.words.drawing/gradientstopcollection/insert/)(int, GradientStop) | إدراج أ[`GradientStop`](../gradientstop/) إلى المجموعة في فهرس محدد. |
-| [Remove](../../aspose.words.drawing/gradientstopcollection/remove/)(GradientStop) | يزيل المحدد[`GradientStop`](../gradientstop/) من المجموعة. |
-| [RemoveAt](../../aspose.words.drawing/gradientstopcollection/removeat/)(int) | يزيل أ[`GradientStop`](../gradientstop/) من المجموعة في فهرس محدد. |
+| [Insert](../../aspose.words.drawing/gradientstopcollection/insert/)(*int, [GradientStop](../gradientstop/)*) | إدراج أ[`GradientStop`](../gradientstop/) إلى المجموعة في فهرس محدد. |
+| [Remove](../../aspose.words.drawing/gradientstopcollection/remove/)(*[GradientStop](../gradientstop/)*) | يزيل المحدد[`GradientStop`](../gradientstop/) من المجموعة. |
+| [RemoveAt](../../aspose.words.drawing/gradientstopcollection/removeat/)(*int*) | يزيل أ[`GradientStop`](../gradientstop/) من المجموعة في فهرس محدد. |
 
-### ملاحظات
+## ملاحظات
 
 لا تقم بإنشاء مثيلات لهذه الفئة مباشرة. استخدم[`GradientStops`](../fill/gradientstops/)خاصية الوصول إلى توقفات التدرج لكائنات التعبئة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إضافة نقاط توقف متدرجة إلى التعبئة المتدرجة.
 
@@ -92,5 +94,3 @@ doc.Save(ArtifactsDir + "Shape.GradientStops.docx", saveOptions);
 * class [GradientStop](../gradientstop/)
 * مساحة الاسم [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../)
-
-

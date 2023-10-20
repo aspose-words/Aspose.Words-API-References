@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabelCollection.Count
-second_title: Aspose.Words per .NET API Reference
-description: ChartDataLabelCollection proprietà. Restituisce il numero diChartDataLabel in questa raccolta.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words per .NET
+description: ChartDataLabelCollection Count proprietà. Restituisce il numero diChartDataLabel in questa raccolta in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words.drawing.charts/chartdatalabelcollection/count/
@@ -14,7 +16,7 @@ Restituisce il numero di[`ChartDataLabel`](../../chartdatalabel/) in questa racc
 public int Count { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come applicare etichette ai punti dati in un grafico a linee.
 
@@ -92,7 +94,5 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
 ### Guarda anche
 
 * class [ChartDataLabelCollection](../)
-* spazio dei nomi [Aspose.Words.Drawing.Charts](../../chartdatalabelcollection/)
+* spazio dei nomi [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * assemblea [Aspose.Words](../../../)
-
-

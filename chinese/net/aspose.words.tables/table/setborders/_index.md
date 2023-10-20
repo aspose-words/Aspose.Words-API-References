@@ -1,9 +1,11 @@
 ---
 title: Table.SetBorders
-second_title: Aspose.Words for .NET API 参考
-description: Table 方法. 将所有表格边框设置为指定的线条样式宽度和颜色
+linktitle: SetBorders
+articleTitle: SetBorders
+second_title: 用于 .NET 的 Aspose.Words
+description: Table SetBorders 方法. 将所有表格边框设置为指定的线条样式宽度和颜色 在 C#.
 type: docs
-weight: 440
+weight: 420
 url: /zh/net/aspose.words.tables/table/setborders/
 ---
 ## Table.SetBorders method
@@ -20,7 +22,7 @@ public void SetBorders(LineStyle lineStyle, double lineWidth, Color color)
 | lineWidth | Double | 要设置的线宽（以磅为单位）。 |
 | color | Color | 用于边框的颜色。 |
 
-### 例子
+## 例子
 
 展示如何一次性设置所有表格边框的格式。
 
@@ -77,7 +79,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.TableBordersAndShading.docx");
 
 * enum [LineStyle](../../../aspose.words/linestyle/)
 * class [Table](../)
-* 命名空间 [Aspose.Words.Tables](../../table/)
+* 命名空间 [Aspose.Words.Tables](../../../aspose.words.tables/)
 * 部件 [Aspose.Words](../../../)
-
-

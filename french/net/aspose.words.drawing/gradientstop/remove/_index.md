@@ -1,7 +1,9 @@
 ---
 title: GradientStop.Remove
-second_title: Référence de l'API Aspose.Words pour .NET
-description: GradientStop méthode. Supprime larrêt de dégradé du parentGradientStopCollection .
+linktitle: Remove
+articleTitle: Remove
+second_title: Aspose.Words pour .NET
+description: GradientStop Remove méthode. Supprime larrêt de dégradé du parentGradientStopCollection  en C#.
 type: docs
 weight: 60
 url: /fr/net/aspose.words.drawing/gradientstop/remove/
@@ -14,7 +16,7 @@ Supprime l'arrêt de dégradé du parent[`GradientStopCollection`](../../gradien
 public void Remove()
 ```
 
-### Exemples
+## Exemples
 
 Montre comment ajouter des points de dégradé au remplissage dégradé.
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "Shape.GradientStops.docx", saveOptions);
 ### Voir également
 
 * class [GradientStop](../)
-* espace de noms [Aspose.Words.Drawing](../../gradientstop/)
+* espace de noms [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class ChartSeries
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Drawing.Charts.ChartSeries сорт. Представляет свойства серии диаграмм.
+title: ChartSeries Class
+linktitle: ChartSeries
+articleTitle: ChartSeries
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Drawing.Charts.ChartSeries сорт. Представляет свойства серии диаграмм на С#.
 type: docs
 weight: 780
 url: /ru/net/aspose.words.drawing.charts/chartseries/
@@ -40,18 +42,17 @@ public class ChartSeries : IChartDataPoint
 
 | Имя | Описание |
 | --- | --- |
-| [Add](../../aspose.words.drawing.charts/chartseries/add/#add)(ChartXValue) | Добавляет указанное значение X в серию диаграмм. Если серия поддерживает значения Y и размеры пузырьков, они будут пустыми для значения X. |
-| [Add](../../aspose.words.drawing.charts/chartseries/add/#add_1)(ChartXValue, ChartYValue) | Добавляет указанные значения X и Y в серию диаграмм. |
-| [Add](../../aspose.words.drawing.charts/chartseries/add/#add_2)(ChartXValue, ChartYValue, double) | Добавляет указанное значение X, значение Y и размер пузырька в серию диаграмм. |
+| [Add](../../aspose.words.drawing.charts/chartseries/add/#add)(*[ChartXValue](../chartxvalue/)*) | Добавляет указанное значение X в серию диаграмм. Если серия поддерживает значения Y и размеры пузырьков, они будут пустыми для значения X. |
+| [Add](../../aspose.words.drawing.charts/chartseries/add/#add_1)(*[ChartXValue](../chartxvalue/), [ChartYValue](../chartyvalue/)*) | Добавляет указанные значения X и Y в серию диаграмм. |
+| [Add](../../aspose.words.drawing.charts/chartseries/add/#add_2)(*[ChartXValue](../chartxvalue/), [ChartYValue](../chartyvalue/), double*) | Добавляет указанное значение X, значение Y и размер пузырька в серию диаграмм. |
 | [Clear](../../aspose.words.drawing.charts/chartseries/clear/)() | Удаляет все значения данных из серии диаграмм. Формат всех отдельных точек данных и меток данных очищается. |
 | [ClearValues](../../aspose.words.drawing.charts/chartseries/clearvalues/)() | Удаляет все значения данных из серии диаграмм с сохранением формата точек данных и меток данных. |
-| [CopyFormatFrom](../../aspose.words.drawing.charts/chartseries/copyformatfrom/)(int) |  |
-| [Insert](../../aspose.words.drawing.charts/chartseries/insert/#insert)(int, ChartXValue) | Вставляет указанное значение X в серию диаграмм по указанному индексу. Если серия поддерживает значения Y и размеры пузырьков, они будут пустыми для значения X. |
-| [Insert](../../aspose.words.drawing.charts/chartseries/insert/#insert_1)(int, ChartXValue, ChartYValue) | Вставляет указанные значения X и Y в серию диаграмм по указанному индексу. |
-| [Insert](../../aspose.words.drawing.charts/chartseries/insert/#insert_2)(int, ChartXValue, ChartYValue, double) | Вставляет указанное значение X, значение Y и размер пузырька в серию диаграмм по указанному индексу. |
-| [Remove](../../aspose.words.drawing.charts/chartseries/remove/)(int) | Удаляет значение X, значение Y и размер пузырька, если поддерживается, из серии диаграмм по указанному индексу. Соответствующая точка данных и метка данных также удаляются. |
+| [Insert](../../aspose.words.drawing.charts/chartseries/insert/#insert)(*int, [ChartXValue](../chartxvalue/)*) | Вставляет указанное значение X в серию диаграмм по указанному индексу. Если серия поддерживает значения Y и размеры пузырьков, они будут пустыми для значения X. |
+| [Insert](../../aspose.words.drawing.charts/chartseries/insert/#insert_1)(*int, [ChartXValue](../chartxvalue/), [ChartYValue](../chartyvalue/)*) | Вставляет указанные значения X и Y в серию диаграмм по указанному индексу. |
+| [Insert](../../aspose.words.drawing.charts/chartseries/insert/#insert_2)(*int, [ChartXValue](../chartxvalue/), [ChartYValue](../chartyvalue/), double*) | Вставляет указанное значение X, значение Y и размер пузырька в серию диаграмм по указанному индексу. |
+| [Remove](../../aspose.words.drawing.charts/chartseries/remove/)(*int*) | Удаляет значение X, значение Y и размер пузырька, если поддерживается, из серии диаграмм по указанному индексу. Соответствующая точка данных и метка данных также удаляются. |
 
-### Примеры
+## Примеры
 
 Показывает, как применять метки к точкам данных на линейной диаграмме.
 
@@ -131,5 +132,3 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
 * interface [IChartDataPoint](../ichartdatapoint/)
 * пространство имен [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../)
-
-

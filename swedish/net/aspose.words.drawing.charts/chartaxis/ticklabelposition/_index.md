@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.TickLabelPosition
-second_title: Aspose.Words för .NET API Referens
-description: ChartAxis fast egendom. Returnerar eller ställer in ticketiketternas position på axeln.
+linktitle: TickLabelPosition
+articleTitle: TickLabelPosition
+second_title: Aspose.Words för .NET
+description: ChartAxis TickLabelPosition fast egendom. Returnerar eller ställer in ticketiketternas position på axeln i C#.
 type: docs
 weight: 240
 url: /sv/net/aspose.words.drawing.charts/chartaxis/ticklabelposition/
@@ -14,11 +16,11 @@ Returnerar eller ställer in ticketiketternas position på axeln.
 public AxisTickLabelPosition TickLabelPosition { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Egenskapen stöds inte av MS Office 2016 nya diagram.
 
-### Exempel
+## Exempel
 
 Visar hur man infogar ett diagram och ändrar utseendet på dess axlar.
 
@@ -72,7 +74,5 @@ doc.Save(ArtifactsDir + "Charts.AxisProperties.docx");
 
 * enum [AxisTickLabelPosition](../../axisticklabelposition/)
 * class [ChartAxis](../)
-* namnutrymme [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* namnutrymme [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../../)
-
-

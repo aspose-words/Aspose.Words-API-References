@@ -1,7 +1,9 @@
 ---
-title: Class Paragraph
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Paragraph сорт. Представляет абзац текста.
+title: Paragraph Class
+linktitle: Paragraph
+articleTitle: Paragraph
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Paragraph сорт. Представляет абзац текста на С#.
 type: docs
 weight: 4390
 url: /ru/net/aspose.words/paragraph/
@@ -20,7 +22,7 @@ public class Paragraph : CompositeNode
 
 | Имя | Описание |
 | --- | --- |
-| [Paragraph](paragraph/)(DocumentBase) | Инициализирует новый экземпляр`Paragraph` класс. |
+| [Paragraph](paragraph/)(*[DocumentBase](../documentbase/)*) | Инициализирует новый экземпляр`Paragraph` класс. |
 
 ## Характеристики
 
@@ -63,42 +65,40 @@ public class Paragraph : CompositeNode
 
 | Имя | Описание |
 | --- | --- |
-| override [Accept](../../aspose.words/paragraph/accept/)(DocumentVisitor) | Принимает посетителя. |
-| override [AcceptEnd](../../aspose.words/paragraph/acceptend/)(DocumentVisitor) |  |
-| override [AcceptStart](../../aspose.words/paragraph/acceptstart/)(DocumentVisitor) |  |
-| [AppendChild&lt;T&gt;](../../aspose.words/compositenode/appendchild/)(T) |  |
-| [AppendField](../../aspose.words/paragraph/appendfield/#appendfield_1)(string) | Добавляет поле к этому абзацу. |
-| [AppendField](../../aspose.words/paragraph/appendfield/#appendfield)(FieldType, bool) | Добавляет поле к этому абзацу. |
-| [AppendField](../../aspose.words/paragraph/appendfield/#appendfield_2)(string, string) | Добавляет поле к этому абзацу. |
-| [Clone](../../aspose.words/node/clone/)(bool) | Создает дубликат узла. |
+| override [Accept](../../aspose.words/paragraph/accept/)(*[DocumentVisitor](../documentvisitor/)*) | Принимает посетителя. |
+| [AppendChild](../../aspose.words/compositenode/appendchild/)(*[Node](../node/)*) | Добавляет указанный узел в конец списка дочерних узлов для этого узла. |
+| [AppendField](../../aspose.words/paragraph/appendfield/#appendfield_1)(*string*) | Добавляет поле к этому абзацу. |
+| [AppendField](../../aspose.words/paragraph/appendfield/#appendfield)(*[FieldType](../../aspose.words.fields/fieldtype/), bool*) | Добавляет поле к этому абзацу. |
+| [AppendField](../../aspose.words/paragraph/appendfield/#appendfield_2)(*string, string*) | Добавляет поле к этому абзацу. |
+| [Clone](../../aspose.words/node/clone/)(*bool*) | Создает дубликат узла. |
 | [CreateNavigator](../../aspose.words/compositenode/createnavigator/)() | Создает навигатор, который можно использовать для перемещения и чтения узлов. |
-| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Получает первого предка указанного[`NodeType`](../nodetype/) . |
-| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Получает первого предка указанного типа объекта. |
-| [GetChild](../../aspose.words/compositenode/getchild/)(NodeType, int, bool) | Возвращает N-й дочерний узел, соответствующий указанному типу. |
-| [GetChildNodes](../../aspose.words/compositenode/getchildnodes/)(NodeType, bool) | Возвращает живую коллекцию дочерних узлов, соответствующих указанному типу. |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*[NodeType](../nodetype/)*) | Получает первого предка указанного[`NodeType`](../nodetype/) . |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | Получает первого предка указанного типа объекта. |
+| [GetChild](../../aspose.words/compositenode/getchild/)(*[NodeType](../nodetype/), int, bool*) | Возвращает N-й дочерний узел, соответствующий указанному типу. |
+| [GetChildNodes](../../aspose.words/compositenode/getchildnodes/)(*[NodeType](../nodetype/), bool*) | Возвращает живую коллекцию дочерних узлов, соответствующих указанному типу. |
 | [GetEffectiveTabStops](../../aspose.words/paragraph/geteffectivetabstops/)() | Возвращает массив всех позиций табуляции, примененных к этому абзацу, в том числе примененных косвенно с помощью стилей или списков. |
 | [GetEnumerator](../../aspose.words/compositenode/getenumerator/)() | Обеспечивает поддержку для каждой итерации стиля над дочерними узлами этого узла. |
 | override [GetText](../../aspose.words/paragraph/gettext/)() | Получает текст этого абзаца, включая символ конца абзаца. |
-| [IndexOf](../../aspose.words/compositenode/indexof/)(Node) | Возвращает индекс указанного дочернего узла в массиве дочерних узлов. |
-| [InsertAfter&lt;T&gt;](../../aspose.words/compositenode/insertafter/)(T, Node) |  |
-| [InsertBefore&lt;T&gt;](../../aspose.words/compositenode/insertbefore/)(T, Node) |  |
-| [InsertField](../../aspose.words/paragraph/insertfield/#insertfield_1)(string, Node, bool) | Вставляет поле в этот абзац. |
-| [InsertField](../../aspose.words/paragraph/insertfield/#insertfield)(FieldType, bool, Node, bool) | Вставляет поле в этот абзац. |
-| [InsertField](../../aspose.words/paragraph/insertfield/#insertfield_2)(string, string, Node, bool) | Вставляет поле в этот абзац. |
+| [IndexOf](../../aspose.words/compositenode/indexof/)(*[Node](../node/)*) | Возвращает индекс указанного дочернего узла в массиве дочерних узлов. |
+| [InsertAfter](../../aspose.words/compositenode/insertafter/)(*[Node](../node/), [Node](../node/)*) | Вставляет указанный узел сразу после указанного ссылочного узла. |
+| [InsertBefore](../../aspose.words/compositenode/insertbefore/)(*[Node](../node/), [Node](../node/)*) | Вставляет указанный узел непосредственно перед указанным ссылочным узлом. |
+| [InsertField](../../aspose.words/paragraph/insertfield/#insertfield_1)(*string, [Node](../node/), bool*) | Вставляет поле в этот абзац. |
+| [InsertField](../../aspose.words/paragraph/insertfield/#insertfield)(*[FieldType](../../aspose.words.fields/fieldtype/), bool, [Node](../node/), bool*) | Вставляет поле в этот абзац. |
+| [InsertField](../../aspose.words/paragraph/insertfield/#insertfield_2)(*string, string, [Node](../node/), bool*) | Вставляет поле в этот абзац. |
 | [JoinRunsWithSameFormatting](../../aspose.words/paragraph/joinrunswithsameformatting/)() | Объединяет прогоны с тем же форматированием в абзаце. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Получает следующий узел в соответствии с алгоритмом обхода дерева предварительного заказа. |
-| [PrependChild&lt;T&gt;](../../aspose.words/compositenode/prependchild/)(T) |  |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Получает предыдущий узел в соответствии с алгоритмом обхода дерева предварительного заказа. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../node/)*) | Получает следующий узел в соответствии с алгоритмом обхода дерева предварительного заказа. |
+| [PrependChild](../../aspose.words/compositenode/prependchild/)(*[Node](../node/)*) | Добавляет указанный узел в начало списка дочерних узлов для этого узла. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../node/)*) | Получает предыдущий узел в соответствии с алгоритмом обхода дерева предварительного заказа. |
 | [Remove](../../aspose.words/node/remove/)() | Удаляет себя от родителя. |
 | [RemoveAllChildren](../../aspose.words/compositenode/removeallchildren/)() | Удаляет все дочерние узлы текущего узла. |
-| [RemoveChild&lt;T&gt;](../../aspose.words/compositenode/removechild/)(T) |  |
+| [RemoveChild](../../aspose.words/compositenode/removechild/)(*[Node](../node/)*) | Удаляет указанный дочерний узел. |
 | [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags/)() | Удаляет все[`SmartTag`](../../aspose.words.markup/smarttag/)узлы-потомки текущего узла. |
-| [SelectNodes](../../aspose.words/compositenode/selectnodes/)(string) | Выбирает список узлов, соответствующих выражению XPath. |
-| [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(string) | Выбирает первый[`Node`](../node/) которое соответствует выражению XPath. |
-| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Экспортирует содержимое узла в строку указанного формата. |
-| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | Экспортирует содержимое узла в строку, используя указанные параметры сохранения. |
+| [SelectNodes](../../aspose.words/compositenode/selectnodes/)(*string*) | Выбирает список узлов, соответствующих выражению XPath. |
+| [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(*string*) | Выбирает первый[`Node`](../node/) которое соответствует выражению XPath. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../saveformat/)*) | Экспортирует содержимое узла в строку указанного формата. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | Экспортирует содержимое узла в строку, используя указанные параметры сохранения. |
 
-### Примечания
+## Примечания
 
 `Paragraph` является узлом уровня блока и может быть дочерним классом, производным от [`Story`](../story/) или[`InlineStory`](../inlinestory/).
 
@@ -110,7 +110,7 @@ public class Paragraph : CompositeNode
 
 Не включайте конец абзаца[`ParagraphBreak`](../controlchar/paragraphbreak/) или конец ячейки[`Cell`](../controlchar/cell/) символы внутри текста абзаца, так как это может сделать абзац недействительным при открытии документа в Microsoft Word.
 
-### Примеры
+## Примеры
 
 Показывает, как вручную создать документ Aspose.Words.
 
@@ -162,5 +162,3 @@ doc.Save(ArtifactsDir + "Section.CreateManually.docx");
 * class [CompositeNode](../compositenode/)
 * пространство имен [Aspose.Words](../../aspose.words/)
 * сборка [Aspose.Words](../../)
-
-

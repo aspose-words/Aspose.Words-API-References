@@ -1,7 +1,9 @@
 ---
 title: HeaderFooterCollection.Item
-second_title: Справочник по API Aspose.Words для .NET
-description: HeaderFooterCollection свойство. ПолучаетHeaderFooter по данному индексу.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words для .NET
+description: HeaderFooterCollection Item свойство. ПолучаетHeaderFooter по данному индексу на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words/headerfootercollection/item/
@@ -18,7 +20,7 @@ public HeaderFooter this[int index] { get; }
 | --- | --- |
 | index | Индекс в коллекции. |
 
-### Примечания
+## Примечания
 
 Индекс отсчитывается от нуля.
 
@@ -28,7 +30,7 @@ public HeaderFooter this[int index] { get; }
 
 Если индекс отрицателен и его абсолютное значение превышает количество элементов в списке, возвращается нулевая ссылка.
 
-### Примеры
+## Примеры
 
 Показывает, как связать верхние и нижние колонтитулы между разделами.
 
@@ -94,7 +96,7 @@ doc.Save(ArtifactsDir + "HeaderFooter.Link.docx");
 
 * class [HeaderFooter](../../headerfooter/)
 * class [HeaderFooterCollection](../)
-* пространство имен [Aspose.Words](../../headerfootercollection/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
 
 ---
@@ -111,11 +113,11 @@ public HeaderFooter this[HeaderFooterType headerFooterType] { get; }
 | --- | --- |
 | headerFooterType | А[`HeaderFooterType`](../../headerfootertype/) value , указывающее тип извлекаемого верхнего или нижнего колонтитула. |
 
-### Примечания
+## Примечания
 
 Возвращает`нулевой` если верхний/нижний колонтитул указанного типа не найден.
 
-### Примеры
+## Примеры
 
 Показывает, как заменить текст в нижнем колонтитуле документа.
 
@@ -169,7 +171,5 @@ doc.Save(ArtifactsDir + "HeaderFooter.RemoveFooters.docx");
 * class [HeaderFooter](../../headerfooter/)
 * enum [HeaderFooterType](../../headerfootertype/)
 * class [HeaderFooterCollection](../)
-* пространство имен [Aspose.Words](../../headerfootercollection/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

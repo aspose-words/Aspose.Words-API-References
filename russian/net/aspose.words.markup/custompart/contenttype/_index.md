@@ -1,7 +1,9 @@
 ---
 title: CustomPart.ContentType
-second_title: Справочник по API Aspose.Words для .NET
-description: CustomPart свойство. Указывает тип содержимого этой пользовательской части.
+linktitle: ContentType
+articleTitle: ContentType
+second_title: Aspose.Words для .NET
+description: CustomPart ContentType свойство. Указывает тип содержимого этой пользовательской части на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.markup/custompart/contenttype/
@@ -14,13 +16,13 @@ url: /ru/net/aspose.words.markup/custompart/contenttype/
 public string ContentType { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Это свойство применимо только тогда, когда[`IsExternal`](../isexternal/) является`ЛОЖЬ`.
 
 Значение по умолчанию — пустая строка. Допустимое значение должно быть непустой строкой.
 
-### Примеры
+## Примеры
 
 Показывает, как получить доступ к произвольной коллекции пользовательских частей документа.
 
@@ -64,7 +66,5 @@ Assert.AreEqual(0, doc.PackageCustomParts.Count);
 ### Смотрите также
 
 * class [CustomPart](../)
-* пространство имен [Aspose.Words.Markup](../../custompart/)
+* пространство имен [Aspose.Words.Markup](../../../aspose.words.markup/)
 * сборка [Aspose.Words](../../../)
-
-

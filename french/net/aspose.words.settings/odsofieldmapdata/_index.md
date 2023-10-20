@@ -1,7 +1,9 @@
 ---
-title: Class OdsoFieldMapData
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Settings.OdsoFieldMapData classe. Spécifie comment une colonne de la source de données externe doit être mappée aux champs de fusion prédéfinis dans le document.
+title: OdsoFieldMapData Class
+linktitle: OdsoFieldMapData
+articleTitle: OdsoFieldMapData
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Settings.OdsoFieldMapData classe. Spécifie comment une colonne de la source de données externe doit être mappée aux champs de fusion prédéfinis dans le document en C#.
 type: docs
 weight: 5900
 url: /fr/net/aspose.words.settings/odsofieldmapdata/
@@ -37,11 +39,11 @@ public class OdsoFieldMapData
 | --- | --- |
 | [Clone](../../aspose.words.settings/odsofieldmapdata/clone/)() | Renvoie un clone profond de cet objet. |
 
-### Remarques
+## Remarques
 
 Microsoft Word fournit des noms de champs de fusion prédéfinis qu'il permet d'insérer dans un document en tant qu'utilisation MERGEFIELD ou dans les champs ADDRESSBLOCK ou GREETINGLINE. Les informations spécifiées dans`OdsoFieldMapData` permet de mapper une colonne de la source de données externe à un seul champ de fusion prédéfini.
 
-### Exemples
+## Exemples
 
 Montre comment accéder à la collection de données qui mappe les colonnes de la source de données aux champs de fusion.
 
@@ -85,5 +87,3 @@ Assert.AreEqual(0, dataCollection.Count);
 
 * espace de noms [Aspose.Words.Settings](../../aspose.words.settings/)
 * Assemblée [Aspose.Words](../../)
-
-

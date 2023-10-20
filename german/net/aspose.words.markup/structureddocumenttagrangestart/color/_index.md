@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTagRangeStart.Color
-second_title: Aspose.Words für .NET-API-Referenz
-description: StructuredDocumentTagRangeStart eigendom. Ruft die Farbe des strukturierten DokumentTags ab oder legt diese fest.
+linktitle: Color
+articleTitle: Color
+second_title: Aspose.Words für .NET
+description: StructuredDocumentTagRangeStart Color eigendom. Ruft die Farbe des strukturierten DokumentTags ab oder legt diese fest in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.markup/structureddocumenttagrangestart/color/
@@ -14,7 +16,7 @@ Ruft die Farbe des strukturierten Dokument-Tags ab oder legt diese fest.
 public Color Color { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Eigenschaften von strukturierten Dokument-Tags mit mehreren Abschnitten abgerufen werden.
 
@@ -49,7 +51,5 @@ Console.WriteLine($"\t|NodeType: {rangeEndTag.NodeType}");
 ### Siehe auch
 
 * class [StructuredDocumentTagRangeStart](../)
-* namensraum [Aspose.Words.Markup](../../structureddocumenttagrangestart/)
+* namensraum [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Montage [Aspose.Words](../../../)
-
-

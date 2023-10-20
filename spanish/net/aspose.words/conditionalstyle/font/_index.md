@@ -1,7 +1,9 @@
 ---
 title: ConditionalStyle.Font
-second_title: Referencia de API de Aspose.Words para .NET
-description: ConditionalStyle propiedad. Obtiene el formato de caracteres del estilo condicional.
+linktitle: Font
+articleTitle: Font
+second_title: Aspose.Words para .NET
+description: ConditionalStyle Font propiedad. Obtiene el formato de caracteres del estilo condicional en C#.
 type: docs
 weight: 30
 url: /es/net/aspose.words/conditionalstyle/font/
@@ -14,7 +16,7 @@ Obtiene el formato de caracteres del estilo condicional.
 public Font Font { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo trabajar con ciertos estilos de área de una tabla.
 
@@ -85,7 +87,5 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 
 * class [Font](../../font/)
 * class [ConditionalStyle](../)
-* espacio de nombres [Aspose.Words](../../conditionalstyle/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

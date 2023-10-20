@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.KeepWithNext
-second_title: Справочник по API Aspose.Words для .NET
-description: ParagraphFormat свойство. Истинно если абзац должен оставаться на той же странице что и следующий за ним абзац.
+linktitle: KeepWithNext
+articleTitle: KeepWithNext
+second_title: Aspose.Words для .NET
+description: ParagraphFormat KeepWithNext свойство. Истинно если абзац должен оставаться на той же странице что и следующий за ним абзац на С#.
 type: docs
 weight: 170
 url: /ru/net/aspose.words/paragraphformat/keepwithnext/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/paragraphformat/keepwithnext/
 public bool KeepWithNext { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как настроить таблицу так, чтобы она оставалась вместе на одной странице.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "Table.KeepTableTogether.docx");
 ### Смотрите также
 
 * class [ParagraphFormat](../)
-* пространство имен [Aspose.Words](../../paragraphformat/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

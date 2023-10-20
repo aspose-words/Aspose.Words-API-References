@@ -1,7 +1,9 @@
 ---
-title: Enum TextWrapping
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Tables.TextWrapping تعداد. يحدد كيفية التفاف النص حول الجدول.
+title: TextWrapping Enum
+linktitle: TextWrapping
+articleTitle: TextWrapping
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Tables.TextWrapping تعداد. يحدد كيفية التفاف النص حول الجدول في C#.
 type: docs
 weight: 6380
 url: /ar/net/aspose.words.tables/textwrapping/
@@ -22,7 +24,7 @@ public enum TextWrapping
 | Around | `1` | النص ملتف حول الجدول ويشغل المساحة الجانبية المتوفرة. |
 | Default | `0` | القيمة الافتراضية. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع التفاف نص الجدول.
 
@@ -54,5 +56,3 @@ doc.Save(ArtifactsDir + "Table.WrapText.docx");
 
 * مساحة الاسم [Aspose.Words.Tables](../../aspose.words.tables/)
 * المجسم [Aspose.Words](../../)
-
-

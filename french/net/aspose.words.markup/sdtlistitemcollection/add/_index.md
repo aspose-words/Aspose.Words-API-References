@@ -1,7 +1,9 @@
 ---
 title: SdtListItemCollection.Add
-second_title: Référence de l'API Aspose.Words pour .NET
-description: SdtListItemCollection méthode. Ajoute un élément à cette collection.
+linktitle: Add
+articleTitle: Add
+second_title: Aspose.Words pour .NET
+description: SdtListItemCollection Add méthode. Ajoute un élément à cette collection en C#.
 type: docs
 weight: 40
 url: /fr/net/aspose.words.markup/sdtlistitemcollection/add/
@@ -14,7 +16,7 @@ Ajoute un élément à cette collection.
 public void Add(SdtListItem item)
 ```
 
-### Exemples
+## Exemples
 
 Montre comment utiliser les balises de documents structurés à liste déroulante.
 
@@ -72,7 +74,5 @@ Assert.AreEqual(0, listItems.Count);
 
 * class [SdtListItem](../../sdtlistitem/)
 * class [SdtListItemCollection](../)
-* espace de noms [Aspose.Words.Markup](../../sdtlistitemcollection/)
+* espace de noms [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Assemblée [Aspose.Words](../../../)
-
-

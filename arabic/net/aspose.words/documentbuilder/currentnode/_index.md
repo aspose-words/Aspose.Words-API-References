@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.CurrentNode
-second_title: Aspose.Words لمراجع .NET API
-description: DocumentBuilder ملكية. يحصل على العقدة المحددة حاليًا في DocumentBuilder.
+linktitle: CurrentNode
+articleTitle: CurrentNode
+second_title: Aspose.Words لـ .NET
+description: DocumentBuilder CurrentNode ملكية. يحصل على العقدة المحددة حاليًا في DocumentBuilder في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words/documentbuilder/currentnode/
@@ -14,13 +16,13 @@ url: /ar/net/aspose.words/documentbuilder/currentnode/
 public Node CurrentNode { get; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 `CurrentNode` هو مؤشر[`DocumentBuilder`](../) ويشير إلى أ[`Node`](../../node/) وهو الابن المباشر لـ a[`Paragraph`](../../paragraph/) . أي عمليات إدراج تقوم بها باستخدام [`DocumentBuilder`](../) سيتم إدراجها قبل`CurrentNode`.
 
 عندما تكون الفقرة الحالية فارغة أو يتم وضع المؤشر just قبل نهاية فقرة أو علامة مستند منظم،`CurrentNode` عائدات`باطل`.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية نقل مؤشر أداة إنشاء المستندات إلى عقد مختلفة في المستند.
 
@@ -75,7 +77,5 @@ Assert.IsTrue(builder.IsAtStartOfParagraph);
 
 * class [Node](../../node/)
 * class [DocumentBuilder](../)
-* مساحة الاسم [Aspose.Words](../../documentbuilder/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

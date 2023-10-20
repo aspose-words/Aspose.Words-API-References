@@ -1,7 +1,9 @@
 ---
-title: Class MergeFieldImageDimension
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Fields.MergeFieldImageDimension classe. Représente une dimension dimage cestàdire la largeur ou la hauteur utilisée dans un processus de publipostage.
+title: MergeFieldImageDimension Class
+linktitle: MergeFieldImageDimension
+articleTitle: MergeFieldImageDimension
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Fields.MergeFieldImageDimension classe. Représente une dimension dimage cestàdire la largeur ou la hauteur utilisée dans un processus de publipostage en C#.
 type: docs
 weight: 2750
 url: /fr/net/aspose.words.fields/mergefieldimagedimension/
@@ -20,8 +22,8 @@ public class MergeFieldImageDimension
 
 | Nom | La description |
 | --- | --- |
-| [MergeFieldImageDimension](mergefieldimagedimension/#constructor)(double) | Crée une instance de dimension d'image avec la valeur donnée en points. |
-| [MergeFieldImageDimension](mergefieldimagedimension/#constructor_1)(double, MergeFieldImageDimensionUnit) | Crée une instance de dimension d'image avec la valeur donnée et l'unité donnée. |
+| [MergeFieldImageDimension](mergefieldimagedimension/#constructor)(*double*) | Crée une instance de dimension d'image avec la valeur donnée en points. |
+| [MergeFieldImageDimension](mergefieldimagedimension/#constructor_1)(*double, [MergeFieldImageDimensionUnit](../mergefieldimagedimensionunit/)*) | Crée une instance de dimension d'image avec la valeur donnée et l'unité donnée. |
 
 ## Propriétés
 
@@ -30,11 +32,11 @@ public class MergeFieldImageDimension
 | [Unit](../../aspose.words.fields/mergefieldimagedimension/unit/) { get; set; } | L'unité. |
 | [Value](../../aspose.words.fields/mergefieldimagedimension/value/) { get; set; } | La valeur. |
 
-### Remarques
+## Remarques
 
 Pour indiquer que l'image doit être insérée avec sa dimension d'origine lors d'un publipostage, vous devez attribuer une valeur négative au[`Value`](./value/) propriété.
 
-### Exemples
+## Exemples
 
 Montre comment définir les dimensions des images telles que MERGEFIELDS les accepte lors d'un publipostage.
 
@@ -105,5 +107,3 @@ private class MergedImageResizer : IFieldMergingCallback
 
 * espace de noms [Aspose.Words.Fields](../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../)
-
-

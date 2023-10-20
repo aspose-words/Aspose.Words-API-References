@@ -1,7 +1,9 @@
 ---
 title: PageSetup.RestartPageNumbering
-second_title: Aspose.Words لمراجع .NET API
-description: PageSetup ملكية. صحيح إذا تم إعادة تشغيل ترقيم الصفحات في بداية القسم.
+linktitle: RestartPageNumbering
+articleTitle: RestartPageNumbering
+second_title: Aspose.Words لـ .NET
+description: PageSetup RestartPageNumbering ملكية. صحيح إذا تم إعادة تشغيل ترقيم الصفحات في بداية القسم في C#.
 type: docs
 weight: 360
 url: /ar/net/aspose.words/pagesetup/restartpagenumbering/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words/pagesetup/restartpagenumbering/
 public bool RestartPageNumbering { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 إذا تم التعيين على`خطأ شنيع` ، ال`RestartPageNumbering` سوف تتجاوز الخاصية the [`PageStartingNumber`](../pagestartingnumber/) الخاصية بحيث يستمر ترقيم الصفحات من القسم السابق.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إعداد ترقيم الصفحات في القسم.
 
@@ -75,7 +77,5 @@ doc.Save(ArtifactsDir + "PageSetup.PageNumbering.docx");
 ### أنظر أيضا
 
 * class [PageSetup](../)
-* مساحة الاسم [Aspose.Words](../../pagesetup/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

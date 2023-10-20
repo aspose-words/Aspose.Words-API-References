@@ -1,7 +1,9 @@
 ---
 title: PageSetup.PaperSize
-second_title: Référence de l'API Aspose.Words pour .NET
-description: PageSetup propriété. Renvoie ou définit le format du papier.
+linktitle: PaperSize
+articleTitle: PaperSize
+second_title: Aspose.Words pour .NET
+description: PageSetup PaperSize propriété. Renvoie ou définit le format du papier en C#.
 type: docs
 weight: 350
 url: /fr/net/aspose.words/pagesetup/papersize/
@@ -14,11 +16,11 @@ Renvoie ou définit le format du papier.
 public PaperSize PaperSize { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 Définition des mises à jour de cette propriété[`PageWidth`](../pagewidth/) et[`PageHeight`](../pageheight/) valeurs. Définir cette valeur surCustom ne modifie pas les valeurs existantes.
 
-### Exemples
+## Exemples
 
 Montre comment ajuster le format du papier, l’orientation, les marges, ainsi que d’autres paramètres pour une section.
 
@@ -129,7 +131,5 @@ doc.Save(ArtifactsDir + "Section.CreateManually.docx");
 
 * enum [PaperSize](../../papersize/)
 * class [PageSetup](../)
-* espace de noms [Aspose.Words](../../pagesetup/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

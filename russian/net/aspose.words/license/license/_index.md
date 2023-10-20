@@ -1,7 +1,9 @@
 ---
-title: License.License
-second_title: Справочник по API Aspose.Words для .NET
-description: License строитель. Инициализирует новый экземпляр этого класса.
+title: License
+linktitle: License
+articleTitle: License
+second_title: Aspose.Words для .NET
+description: License строитель. Инициализирует новый экземпляр этого класса на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words/license/license/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/license/license/
 public License()
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как инициализировать лицензию для Aspose.Words с использованием файла лицензии в локальной файловой системе.
 
@@ -38,7 +40,5 @@ license.SetLicense("Aspose.Words.NET.lic");
 ### Смотрите также
 
 * class [License](../)
-* пространство имен [Aspose.Words](../../license/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

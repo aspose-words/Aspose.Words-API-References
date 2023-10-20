@@ -1,7 +1,9 @@
 ---
-title: Class FontConfigSubstitutionRule
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Fonts.FontConfigSubstitutionRule klass. Regel för ersättning av teckensnittskonfiguration.
+title: FontConfigSubstitutionRule Class
+linktitle: FontConfigSubstitutionRule
+articleTitle: FontConfigSubstitutionRule
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Fonts.FontConfigSubstitutionRule klass. Regel för ersättning av teckensnittskonfiguration i C#.
 type: docs
 weight: 2890
 url: /sv/net/aspose.words.fonts/fontconfigsubstitutionrule/
@@ -29,13 +31,13 @@ public class FontConfigSubstitutionRule : FontSubstitutionRule
 | [IsFontConfigAvailable](../../aspose.words.fonts/fontconfigsubstitutionrule/isfontconfigavailable/)() | Kontrollera om fontconfig-verktyget är tillgängligt eller inte. |
 | [ResetCache](../../aspose.words.fonts/fontconfigsubstitutionrule/resetcache/)() | Återställer cachen för fontconfig-anropsresultat. |
 
-### Anmärkningar
+## Anmärkningar
 
 Den här regeln använder verktyget fontconfig på Linux (och andra Unix-liknande) plattformar för att få substitution om det ursprungliga teckensnittet inte är tillgängligt.
 
 Om fontconfig-verktyget inte är tillgängligt kommer denna regel att ignoreras.
 
-### Exempel
+## Exempel
 
 Visar operativsystemberoende teckensnittskonfigurationsersättning.
 
@@ -73,5 +75,3 @@ if (isLinuxOrMac)
 * class [FontSubstitutionRule](../fontsubstitutionrule/)
 * namnutrymme [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * hopsättning [Aspose.Words](../../)
-
-

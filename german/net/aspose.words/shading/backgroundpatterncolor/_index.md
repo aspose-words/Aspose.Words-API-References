@@ -1,7 +1,9 @@
 ---
 title: Shading.BackgroundPatternColor
-second_title: Aspose.Words für .NET-API-Referenz
-description: Shading eigendom. Ruft die Farbe ab die auf den Hintergrund des angewendet wird oder legt diese festShading Objekt.
+linktitle: BackgroundPatternColor
+articleTitle: BackgroundPatternColor
+second_title: Aspose.Words für .NET
+description: Shading BackgroundPatternColor eigendom. Ruft die Farbe ab die auf den Hintergrund des angewendet wird oder legt diese festShading Objekt in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words/shading/backgroundpatterncolor/
@@ -14,7 +16,7 @@ Ruft die Farbe ab, die auf den Hintergrund des angewendet wird, oder legt diese 
 public Color BackgroundPatternColor { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Text mit Rändern und Schattierungen dekoriert wird.
 
@@ -41,7 +43,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.ApplyBordersAndShading.docx");
 ### Siehe auch
 
 * class [Shading](../)
-* namensraum [Aspose.Words](../../shading/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

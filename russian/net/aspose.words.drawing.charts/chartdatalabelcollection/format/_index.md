@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabelCollection.Format
-second_title: Справочник по API Aspose.Words для .NET
-description: ChartDataLabelCollection свойство. Предоставляет доступ к заполнению и форматированию строк меток данных.
+linktitle: Format
+articleTitle: Format
+second_title: Aspose.Words для .NET
+description: ChartDataLabelCollection Format свойство. Предоставляет доступ к заполнению и форматированию строк меток данных на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.drawing.charts/chartdatalabelcollection/format/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.drawing.charts/chartdatalabelcollection/format/
 public ChartFormat Format { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как настроить форматирование заливки, обводки и выносок для меток данных диаграммы.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "Charts.FormatDataLables.docx");
 
 * class [ChartFormat](../../chartformat/)
 * class [ChartDataLabelCollection](../)
-* пространство имен [Aspose.Words.Drawing.Charts](../../chartdatalabelcollection/)
+* пространство имен [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../../)
-
-

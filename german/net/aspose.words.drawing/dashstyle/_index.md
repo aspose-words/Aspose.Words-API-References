@@ -1,7 +1,9 @@
 ---
-title: Enum DashStyle
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Drawing.DashStyle opsomming. Gestrichelter Linienstil.
+title: DashStyle Enum
+linktitle: DashStyle
+articleTitle: DashStyle
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Drawing.DashStyle opsomming. Gestrichelter Linienstil in C#.
 type: docs
 weight: 930
 url: /de/net/aspose.words.drawing/dashstyle/
@@ -31,7 +33,7 @@ public enum DashStyle
 | LongDashDotDot | `10` | Langer Strich, kurzer Strich, kurzer Strich. |
 | Default | `0` | Das Gleiche wieSolid . |
 
-### Beispiele
+## Beispiele
 
 Zeigt, um eine Vielzahl von Formen zu erstellen.
 
@@ -108,5 +110,3 @@ doc.Save(ArtifactsDir + "Drawing.VariousShapes.docx");
 * property [DashStyle](../stroke/dashstyle/)
 * namensraum [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../)
-
-

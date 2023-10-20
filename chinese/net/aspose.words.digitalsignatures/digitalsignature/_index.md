@@ -1,7 +1,9 @@
 ---
-title: Class DigitalSignature
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.DigitalSignatures.DigitalSignature 班级. 表示文档上的数字签名及其验证结果
+title: DigitalSignature Class
+linktitle: DigitalSignature
+articleTitle: DigitalSignature
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.DigitalSignatures.DigitalSignature 班级. 表示文档上的数字签名及其验证结果 在 C#.
 type: docs
 weight: 380
 url: /zh/net/aspose.words.digitalsignatures/digitalsignature/
@@ -35,7 +37,7 @@ public class DigitalSignature
 | --- | --- |
 | override [ToString](../../aspose.words.digitalsignatures/digitalsignature/tostring/)() | 返回一个用户友好的字符串，显示该对象的值。 |
 
-### 例子
+## 例子
 
 演示如何验证和显示有关文档中每个签名的信息。
 
@@ -58,5 +60,3 @@ foreach (DigitalSignature signature in doc.DigitalSignatures)
 
 * 命名空间 [Aspose.Words.DigitalSignatures](../../aspose.words.digitalsignatures/)
 * 部件 [Aspose.Words](../../)
-
-

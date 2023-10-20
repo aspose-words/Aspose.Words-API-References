@@ -1,7 +1,9 @@
 ---
 title: IPageLayoutCallback.Notify
-second_title: Aspose.Words for .NET API 参考
-description: IPageLayoutCallback 方法. 调用此函数以通知布局构建和渲染进度
+linktitle: Notify
+articleTitle: Notify
+second_title: 用于 .NET 的 Aspose.Words
+description: IPageLayoutCallback Notify 方法. 调用此函数以通知布局构建和渲染进度 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.layout/ipagelayoutcallback/notify/
@@ -18,11 +20,11 @@ public void Notify(PageLayoutCallbackArgs args)
 | --- | --- | --- |
 | args | PageLayoutCallbackArgs | 事件的一个论点。 |
 
-### 评论
+## 评论
 
 实现抛出异常时会中止布局构建过程。
 
-### 例子
+## 例子
 
 展示如何使用布局回调跟踪布局更改。
 
@@ -89,7 +91,5 @@ private class RenderPageLayoutCallback : IPageLayoutCallback
 
 * class [PageLayoutCallbackArgs](../../pagelayoutcallbackargs/)
 * interface [IPageLayoutCallback](../)
-* 命名空间 [Aspose.Words.Layout](../../ipagelayoutcallback/)
+* 命名空间 [Aspose.Words.Layout](../../../aspose.words.layout/)
 * 部件 [Aspose.Words](../../../)
-
-

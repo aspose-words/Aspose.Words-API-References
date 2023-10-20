@@ -1,7 +1,9 @@
 ---
 title: TabStop.Position
-second_title: Aspose.Words لمراجع .NET API
-description: TabStop ملكية. الحصول على موضع علامة التبويب بالنقاط.
+linktitle: Position
+articleTitle: Position
+second_title: Aspose.Words لـ .NET
+description: TabStop Position ملكية. الحصول على موضع علامة التبويب بالنقاط في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words/tabstop/position/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/tabstop/position/
 public double Position { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعديل موضع علامة التبويب اليمنى في الفقرات ذات الصلة بجدول المحتويات.
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "Styles.ChangeTocsTabStops.docx");
 ### أنظر أيضا
 
 * class [TabStop](../)
-* مساحة الاسم [Aspose.Words](../../tabstop/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

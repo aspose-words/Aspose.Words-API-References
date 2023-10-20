@@ -1,7 +1,9 @@
 ---
 title: LayoutEnumerator.MoveNext
-second_title: Aspose.Words für .NET-API-Referenz
-description: LayoutEnumerator methode. Wechselt in visueller Reihenfolge zur nächsten gleichgeordneten Entität. Beim Iterieren von Zeilen eines Absatzes die über Seiten hinweg unterbrochen sind wechselt diese Methode nicht zur nächsten Seite sondern zur nächsten Entität auf derselben Seite.
+linktitle: MoveNext
+articleTitle: MoveNext
+second_title: Aspose.Words für .NET
+description: LayoutEnumerator MoveNext methode. Wechselt in visueller Reihenfolge zur nächsten gleichgeordneten Entität. Beim Iterieren von Zeilen eines Absatzes die über Seiten hinweg unterbrochen sind wechselt diese Methode nicht zur nächsten Seite sondern zur nächsten Entität auf derselben Seite in C#.
 type: docs
 weight: 120
 url: /de/net/aspose.words.layout/layoutenumerator/movenext/
@@ -14,7 +16,7 @@ Wechselt in visueller Reihenfolge zur nächsten gleichgeordneten Entität. Beim 
 public bool MoveNext()
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt Möglichkeiten zum Durchlaufen der Layoutelemente eines Dokuments.
 
@@ -159,7 +161,5 @@ private static void PrintCurrentEntity(LayoutEnumerator layoutEnumerator, int in
 ### Siehe auch
 
 * class [LayoutEnumerator](../)
-* namensraum [Aspose.Words.Layout](../../layoutenumerator/)
+* namensraum [Aspose.Words.Layout](../../../aspose.words.layout/)
 * Montage [Aspose.Words](../../../)
-
-

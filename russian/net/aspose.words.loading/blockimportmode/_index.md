@@ -1,7 +1,9 @@
 ---
-title: Enum BlockImportMode
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Loading.BlockImportMode перечисление. Указывает как свойства элементов уровня блока импортируются из документов на основе HTML.
+title: BlockImportMode Enum
+linktitle: BlockImportMode
+articleTitle: BlockImportMode
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Loading.BlockImportMode перечисление. Указывает как свойства элементов уровня блока импортируются из документов на основе HTML на С#.
 type: docs
 weight: 3560
 url: /ru/net/aspose.words.loading/blockimportmode/
@@ -21,7 +23,7 @@ public enum BlockImportMode
 | Merge | `0` | Свойства родительских блоков объединяются и сохраняются в дочерних элементах (т.е. абзацах или таблицах). |
 | Preserve | `1` | Свойства родительских блоков импортируются в специальную логическую структуру и хранятся отдельно от узлов документа. |
 
-### Примеры
+## Примеры
 
 Показывает, как свойства элементов уровня блока импортируются из документов на основе HTML.
 
@@ -49,5 +51,3 @@ doc.Save(ArtifactsDir + "HtmlLoadOptions.BlockImport.docx");
 
 * пространство имен [Aspose.Words.Loading](../../aspose.words.loading/)
 * сборка [Aspose.Words](../../)
-
-

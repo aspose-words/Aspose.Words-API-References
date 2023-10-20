@@ -1,7 +1,9 @@
 ---
 title: IFieldResultFormatter.FormatDateTime
-second_title: Aspose.Words لمراجع .NET API
-description: IFieldResultFormatter طريقة. يتم استدعاؤه عندما يقوم Aspose.Words بتطبيق تبديل تنسيق التاريخ/الوقت على سبيل المثال  dd.MM.yyyy.
+linktitle: FormatDateTime
+articleTitle: FormatDateTime
+second_title: Aspose.Words لـ .NET
+description: IFieldResultFormatter FormatDateTime طريقة. يتم استدعاؤه عندما يقوم Aspose.Words بتطبيق تبديل تنسيق التاريخ/الوقت على سبيل المثال  dd.MM.yyyy في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.fields/ifieldresultformatter/formatdatetime/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.fields/ifieldresultformatter/formatdatetime/
 public string FormatDateTime(DateTime value, string format, CalendarType calendarType)
 ```
 
-### ملاحظات
+## ملاحظات
 
 يجب أن يعود التنفيذ`باطل` للإشارة إلى ضرورة تطبيق التنسيق الافتراضي.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تطبيق تنسيق مخصص تلقائيًا على نتائج الحقول عندما يتم تحديث الحقول.
 
@@ -156,7 +158,5 @@ private class FieldResultFormatter : IFieldResultFormatter
 
 * enum [CalendarType](../../../aspose.words/calendartype/)
 * interface [IFieldResultFormatter](../)
-* مساحة الاسم [Aspose.Words.Fields](../../ifieldresultformatter/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

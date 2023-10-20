@@ -1,7 +1,9 @@
 ---
 title: StyleCollection.Count
-second_title: Справочник по API Aspose.Words для .NET
-description: StyleCollection свойство. Получает количество стилей в коллекции.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words для .NET
+description: StyleCollection Count свойство. Получает количество стилей в коллекции на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words/stylecollection/count/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/stylecollection/count/
 public int Count { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как добавить стиль в коллекцию стилей документа.
 
@@ -37,7 +39,5 @@ Assert.AreEqual(15.0, styles["MyStyle"].ParagraphFormat.FirstLineIndent);
 ### Смотрите также
 
 * class [StyleCollection](../)
-* пространство имен [Aspose.Words](../../stylecollection/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

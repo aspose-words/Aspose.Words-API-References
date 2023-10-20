@@ -1,7 +1,9 @@
 ---
-title: Class OoxmlSaveOptions
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Saving.OoxmlSaveOptions 班级. 可用于在将文档保存到Docx DocmDotxDotm或 FlatOpc格式.
+title: OoxmlSaveOptions Class
+linktitle: OoxmlSaveOptions
+articleTitle: OoxmlSaveOptions
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Saving.OoxmlSaveOptions 班级. 可用于在将文档保存到Docx DocmDotxDotm或 FlatOpc格式 在 C#.
 type: docs
 weight: 5350
 url: /zh/net/aspose.words.saving/ooxmlsaveoptions/
@@ -21,7 +23,7 @@ public class OoxmlSaveOptions : SaveOptions
 | 姓名 | 描述 |
 | --- | --- |
 | [OoxmlSaveOptions](ooxmlsaveoptions/#constructor)() | 初始化此类的一个新实例，该实例可用于将文档保存在Docx格式. |
-| [OoxmlSaveOptions](ooxmlsaveoptions/#constructor_1)(SaveFormat) | 初始化此类的一个新实例，该实例可用于将文档保存在Docx, Docm,Dotx,Dotm或 FlatOpc格式. |
+| [OoxmlSaveOptions](ooxmlsaveoptions/#constructor_1)(*[SaveFormat](../../aspose.words/saveformat/)*) | 初始化此类的一个新实例，该实例可用于将文档保存在Docx, Docm,Dotx,Dotm或 FlatOpc格式. |
 
 ## 特性
 
@@ -31,7 +33,7 @@ public class OoxmlSaveOptions : SaveOptions
 | [Compliance](../../aspose.words.saving/ooxmlsaveoptions/compliance/) { get; set; } | 指定输出文档的 OOXML 版本。 默认值为Ecma376_2006. |
 | [CompressionLevel](../../aspose.words.saving/ooxmlsaveoptions/compressionlevel/) { get; set; } | 指定用于保存文档的压缩级别。 默认值为Normal. |
 | [CustomTimeZoneInfo](../../aspose.words.saving/saveoptions/customtimezoneinfo/) { get; set; } | 获取或设置用于日期/时间字段的自定义本地时区。 |
-| [DefaultTemplate](../../aspose.words.saving/saveoptions/defaulttemplate/) { get; set; } | 获取或设置默认模板的路径（包括文件名）。 此属性的默认值为 **空字符串**（Empty). |
+| [DefaultTemplate](../../aspose.words.saving/saveoptions/defaulttemplate/) { get; set; } | 获取或设置默认模板的路径（包括文件名）。 此属性的默认值为**空字符串**（Empty). |
 | [Dml3DEffectsRenderingMode](../../aspose.words.saving/saveoptions/dml3deffectsrenderingmode/) { get; set; } | 获取或设置一个确定如何渲染 3D 效果的值。 |
 | virtual [DmlEffectsRenderingMode](../../aspose.words.saving/saveoptions/dmleffectsrenderingmode/) { get; set; } | 获取或设置一个值，确定如何呈现 DrawingML 效果。 |
 | [DmlRenderingMode](../../aspose.words.saving/saveoptions/dmlrenderingmode/) { get; set; } | 获取或设置一个值，确定如何呈现 DrawingML 形状。 |
@@ -51,7 +53,7 @@ public class OoxmlSaveOptions : SaveOptions
 | [UseAntiAliasing](../../aspose.words.saving/saveoptions/useantialiasing/) { get; set; } | 获取或设置一个值，确定是否使用抗锯齿进行渲染。 |
 | [UseHighQualityRendering](../../aspose.words.saving/saveoptions/usehighqualityrendering/) { get; set; } | 获取或设置一个值，确定是否使用高质量（即慢速）渲染算法。 |
 
-### 例子
+## 例子
 
 演示如何为保存的文档设置要遵守的 OOXML 合规性规范。
 
@@ -88,5 +90,3 @@ Assert.AreEqual(ShapeMarkupLanguage.Dml, ((Shape)doc.GetChild(NodeType.Shape, 0,
 * class [SaveOptions](../saveoptions/)
 * 命名空间 [Aspose.Words.Saving](../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../)
-
-

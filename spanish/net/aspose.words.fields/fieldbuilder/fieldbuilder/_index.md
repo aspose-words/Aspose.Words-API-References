@@ -1,7 +1,9 @@
 ---
-title: FieldBuilder.FieldBuilder
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldBuilder constructor. Inicializa una instancia delFieldBuilder clase.
+title: FieldBuilder
+linktitle: FieldBuilder
+articleTitle: FieldBuilder
+second_title: Aspose.Words para .NET
+description: FieldBuilder constructor. Inicializa una instancia delFieldBuilder clase en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words.fields/fieldbuilder/fieldbuilder/
@@ -18,7 +20,7 @@ public FieldBuilder(FieldType fieldType)
 | --- | --- | --- |
 | fieldType | FieldType | El tipo de campo a construir. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear e insertar un campo usando un generador de campos.
 
@@ -47,7 +49,5 @@ doc.Save(ArtifactsDir + "Field.CreateWithFieldBuilder.docx");
 
 * enum [FieldType](../../fieldtype/)
 * class [FieldBuilder](../)
-* espacio de nombres [Aspose.Words.Fields](../../fieldbuilder/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

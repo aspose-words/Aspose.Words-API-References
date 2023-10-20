@@ -1,7 +1,9 @@
 ---
 title: Shading.Texture
-second_title: Aspose.Words for .NET API 参考
-description: Shading 财产. 获取或设置着色纹理
+linktitle: Texture
+articleTitle: Texture
+second_title: 用于 .NET 的 Aspose.Words
+description: Shading Texture 财产. 获取或设置着色纹理 在 C#.
 type: docs
 weight: 70
 url: /zh/net/aspose.words/shading/texture/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/shading/texture/
 public TextureIndex Texture { get; set; }
 ```
 
-### 例子
+## 例子
 
 展示如何用边框和底纹装饰文本。
 
@@ -42,7 +44,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.ApplyBordersAndShading.docx");
 
 * enum [TextureIndex](../../textureindex/)
 * class [Shading](../)
-* 命名空间 [Aspose.Words](../../shading/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

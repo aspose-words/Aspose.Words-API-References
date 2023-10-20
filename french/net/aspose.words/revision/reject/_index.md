@@ -1,7 +1,9 @@
 ---
 title: Revision.Reject
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Revision méthode. Rejeter cette révision.
+linktitle: Reject
+articleTitle: Reject
+second_title: Aspose.Words pour .NET
+description: Revision Reject méthode. Rejeter cette révision en C#.
 type: docs
 weight: 80
 url: /fr/net/aspose.words/revision/reject/
@@ -14,7 +16,7 @@ Rejeter cette révision.
 public void Reject()
 ```
 
-### Exemples
+## Exemples
 
 Montre comment travailler avec les révisions dans un document.
 
@@ -97,7 +99,5 @@ Assert.AreEqual("This is revision #1. \rThis is revision #2.", doc.GetText().Tri
 ### Voir également
 
 * class [Revision](../)
-* espace de noms [Aspose.Words](../../revision/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

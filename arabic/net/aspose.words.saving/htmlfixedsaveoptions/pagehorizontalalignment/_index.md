@@ -1,7 +1,9 @@
 ---
 title: HtmlFixedSaveOptions.PageHorizontalAlignment
-second_title: Aspose.Words لمراجع .NET API
-description: HtmlFixedSaveOptions ملكية. يحدد المحاذاة الأفقية للصفحات في مستند HTML. القيمة الافتراضية هيCenter .
+linktitle: PageHorizontalAlignment
+articleTitle: PageHorizontalAlignment
+second_title: Aspose.Words لـ .NET
+description: HtmlFixedSaveOptions PageHorizontalAlignment ملكية. يحدد المحاذاة الأفقية للصفحات في مستند HTML. القيمة الافتراضية هيCenter  في C#.
 type: docs
 weight: 110
 url: /ar/net/aspose.words.saving/htmlfixedsaveoptions/pagehorizontalalignment/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.saving/htmlfixedsaveoptions/pagehorizontalalignment/
 public HtmlFixedPageHorizontalAlignment PageHorizontalAlignment { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية ضبط المحاذاة الأفقية للصفحات عند حفظ مستند بتنسيق HTML.
 
@@ -51,7 +53,5 @@ switch (pageHorizontalAlignment)
 
 * enum [HtmlFixedPageHorizontalAlignment](../../htmlfixedpagehorizontalalignment/)
 * class [HtmlFixedSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../htmlfixedsaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

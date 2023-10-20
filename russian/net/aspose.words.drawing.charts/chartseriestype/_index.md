@@ -1,7 +1,9 @@
 ---
-title: Enum ChartSeriesType
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Drawing.Charts.ChartSeriesType перечисление. Указывает тип серии диаграмм.
+title: ChartSeriesType Enum
+linktitle: ChartSeriesType
+articleTitle: ChartSeriesType
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Drawing.Charts.ChartSeriesType перечисление. Указывает тип серии диаграмм на С#.
 type: docs
 weight: 800
 url: /ru/net/aspose.words.drawing.charts/chartseriestype/
@@ -63,7 +65,7 @@ public enum ChartSeriesType
 | Funnel | `42` | Представляет серию диаграмм-воронок. |
 | RegionMap | `43` | Представляет серию диаграмм карты региона. |
 
-### Примеры
+## Примеры
 
 Показывает, как
 
@@ -90,5 +92,3 @@ doc.Save(ArtifactsDir + "Charts.RemoveSpecificChartSeries.docx");
 
 * пространство имен [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../)
-
-

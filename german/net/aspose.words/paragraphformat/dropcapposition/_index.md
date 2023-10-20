@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.DropCapPosition
-second_title: Aspose.Words für .NET-API-Referenz
-description: ParagraphFormat eigendom. Ruft die Position für einen Initialtext ab oder legt diese fest.
+linktitle: DropCapPosition
+articleTitle: DropCapPosition
+second_title: Aspose.Words für .NET
+description: ParagraphFormat DropCapPosition eigendom. Ruft die Position für einen Initialtext ab oder legt diese fest in C#.
 type: docs
 weight: 100
 url: /de/net/aspose.words/paragraphformat/dropcapposition/
@@ -14,7 +16,7 @@ Ruft die Position für einen Initialtext ab oder legt diese fest.
 public DropCapPosition DropCapPosition { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie eine Liste in einer anderen Liste verschachtelt wird.
 
@@ -69,7 +71,5 @@ builder.Document.Save(ArtifactsDir + "Lists.NestedLists.docx");
 
 * enum [DropCapPosition](../../dropcapposition/)
 * class [ParagraphFormat](../)
-* namensraum [Aspose.Words](../../paragraphformat/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

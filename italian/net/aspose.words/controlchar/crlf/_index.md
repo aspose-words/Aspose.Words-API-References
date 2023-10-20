@@ -1,7 +1,9 @@
 ---
 title: ControlChar.CrLf
-second_title: Aspose.Words per .NET API Reference
-description: ControlChar campo. Ritorno a capo seguito dal carattere di avanzamento riga x000dx000a o rn. Non utilizzato come tale nei documenti Microsoft Word ma comunemente utilizzato nei file di testo per le interruzioni di paragrafo.
+linktitle: CrLf
+articleTitle: CrLf
+second_title: Aspose.Words per .NET
+description: ControlChar CrLf campo. Ritorno a capo seguito dal carattere di avanzamento riga x000dx000a o rn. Non utilizzato come tale nei documenti Microsoft Word ma comunemente utilizzato nei file di testo per le interruzioni di paragrafo in C#.
 type: docs
 weight: 60
 url: /it/net/aspose.words/controlchar/crlf/
@@ -14,7 +16,7 @@ Ritorno a capo seguito dal carattere di avanzamento riga: "\x000d\x000a" o "\r\n
 public static readonly string CrLf;
 ```
 
-### Esempi
+## Esempi
 
 Mostra come aggiungere vari caratteri di controllo a un documento.
 
@@ -86,7 +88,5 @@ Assert.AreEqual(Convert.ToChar(ControlChar.ColumnBreak), ControlChar.ColumnBreak
 ### Guarda anche
 
 * class [ControlChar](../)
-* spazio dei nomi [Aspose.Words](../../controlchar/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

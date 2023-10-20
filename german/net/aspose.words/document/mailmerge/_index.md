@@ -1,7 +1,9 @@
 ---
 title: Document.MailMerge
-second_title: Aspose.Words für .NET-API-Referenz
-description: Document eigendom. Gibt a zurückMailMerge Objekt das die Serienbrieffunktion für das Dokument darstellt.
+linktitle: MailMerge
+articleTitle: MailMerge
+second_title: Aspose.Words für .NET
+description: Document MailMerge eigendom. Gibt a zurückMailMerge Objekt das die Serienbrieffunktion für das Dokument darstellt in C#.
 type: docs
 weight: 260
 url: /de/net/aspose.words/document/mailmerge/
@@ -14,7 +16,7 @@ Gibt a zurück[`MailMerge`](../../../aspose.words.mailmerging/mailmerge/) Objekt
 public MailMerge MailMerge { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Serienbrief mit Daten aus einer DataTable ausgeführt wird.
 
@@ -63,7 +65,5 @@ private static Document CreateSourceDocExecuteDataTable()
 
 * class [MailMerge](../../../aspose.words.mailmerging/mailmerge/)
 * class [Document](../)
-* namensraum [Aspose.Words](../../document/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

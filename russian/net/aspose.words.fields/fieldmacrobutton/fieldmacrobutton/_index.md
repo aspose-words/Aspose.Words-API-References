@@ -1,7 +1,9 @@
 ---
-title: FieldMacroButton.FieldMacroButton
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldMacroButton строитель. Конструктор по умолчанию.
+title: FieldMacroButton
+linktitle: FieldMacroButton
+articleTitle: FieldMacroButton
+second_title: Aspose.Words для .NET
+description: FieldMacroButton строитель. Конструктор по умолчанию на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fields/fieldmacrobutton/fieldmacrobutton/
@@ -17,7 +19,5 @@ public FieldMacroButton()
 ### Смотрите также
 
 * class [FieldMacroButton](../)
-* пространство имен [Aspose.Words.Fields](../../fieldmacrobutton/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

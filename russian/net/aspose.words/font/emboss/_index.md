@@ -1,7 +1,9 @@
 ---
 title: Font.Emboss
-second_title: Справочник по API Aspose.Words для .NET
-description: Font свойство. True если шрифт отформатирован как рельефный.
+linktitle: Emboss
+articleTitle: Emboss
+second_title: Aspose.Words для .NET
+description: Font Emboss свойство. True если шрифт отформатирован как рельефный на С#.
 type: docs
 weight: 100
 url: /ru/net/aspose.words/font/emboss/
@@ -14,7 +16,7 @@ True, если шрифт отформатирован как рельефный
 public bool Emboss { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как применять эффекты гравировки/тиснения к тексту.
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "Font.EngraveEmboss.docx");
 ### Смотрите также
 
 * class [Font](../)
-* пространство имен [Aspose.Words](../../font/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

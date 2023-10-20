@@ -1,7 +1,9 @@
 ---
-title: CustomXmlProperty.CustomXmlProperty
-second_title: Aspose.Words لمراجع .NET API
-description: CustomXmlProperty البناء. تهيئة مثيل جديد لهذه الفئة.
+title: CustomXmlProperty
+linktitle: CustomXmlProperty
+articleTitle: CustomXmlProperty
+second_title: Aspose.Words لـ .NET
+description: CustomXmlProperty البناء. تهيئة مثيل جديد لهذه الفئة في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.markup/customxmlproperty/customxmlproperty/
@@ -20,7 +22,7 @@ public CustomXmlProperty(string name, string uri, string value)
 | uri | String | معرف URI لمساحة الاسم الخاص بالخاصية. لا يمكن`باطل`. |
 | value | String | قيمة العقار. لا يمكن`باطل`. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء العلامات الذكية.
 
@@ -121,7 +123,5 @@ private class SmartTagPrinter : DocumentVisitor
 ### أنظر أيضا
 
 * class [CustomXmlProperty](../)
-* مساحة الاسم [Aspose.Words.Markup](../../customxmlproperty/)
+* مساحة الاسم [Aspose.Words.Markup](../../../aspose.words.markup/)
 * المجسم [Aspose.Words](../../../)
-
-

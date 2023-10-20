@@ -1,7 +1,9 @@
 ---
 title: Document.ShowGrammaticalErrors
-second_title: Aspose.Words für .NET-API-Referenz
-description: Document eigendom. Gibt an ob Grammatikfehler in diesem Dokument angezeigt werden sollen.
+linktitle: ShowGrammaticalErrors
+articleTitle: ShowGrammaticalErrors
+second_title: Aspose.Words für .NET
+description: Document ShowGrammaticalErrors eigendom. Gibt an ob Grammatikfehler in diesem Dokument angezeigt werden sollen in C#.
 type: docs
 weight: 390
 url: /de/net/aspose.words/document/showgrammaticalerrors/
@@ -14,7 +16,7 @@ Gibt an, ob Grammatikfehler in diesem Dokument angezeigt werden sollen.
 public bool ShowGrammaticalErrors { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Fehler im Dokument angezeigt/ausgeblendet werden.
 
@@ -38,7 +40,5 @@ doc.Save(ArtifactsDir + "Document.SpellingAndGrammarErrors.docx");
 ### Siehe auch
 
 * class [Document](../)
-* namensraum [Aspose.Words](../../document/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,12 +1,14 @@
 ---
 title: Aspose.Words.Rendering
-second_title: Aspose.Words for .NET API 参考
-description: 这 Aspose.Words.Rendering命名空间提供允许 to 自定义文档打印或呈现的类
+linktitle: Aspose.Words.Rendering
+articleTitle: Aspose.Words.Rendering
+second_title: 用于 .NET 的 Aspose.Words
+description: 这Aspose.Words.Rendering命名空间提供允许 to 自定义文档打印或呈现的类 在 C#.
 type: docs
 weight: 200
 url: /zh/net/aspose.words.rendering/
 ---
-这 **Aspose.Words.Rendering**命名空间提供允许 to 自定义文档打印或呈现的类。
+这**Aspose.Words.Rendering**命名空间提供允许 to 自定义文档打印或呈现的类。
 
 ## 课程
 
@@ -24,5 +26,3 @@ url: /zh/net/aspose.words.rendering/
 | 枚举 | 描述 |
 | --- | --- |
 | [ColorPrintMode](./colorprintmode/) | 指定如果设备支持彩色打印，如何打印非彩色页面。 |
-
-

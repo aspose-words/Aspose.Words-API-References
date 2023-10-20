@@ -1,7 +1,9 @@
 ---
 title: CustomPart.RelationshipType
-second_title: Aspose.Words für .NET-API-Referenz
-description: CustomPart eigendom. Ruft den Beziehungstyp vom übergeordneten Teil zu diesem benutzerdefinierten Teil ab oder legt diesen fest.
+linktitle: RelationshipType
+articleTitle: RelationshipType
+second_title: Aspose.Words für .NET
+description: CustomPart RelationshipType eigendom. Ruft den Beziehungstyp vom übergeordneten Teil zu diesem benutzerdefinierten Teil ab oder legt diesen fest in C#.
 type: docs
 weight: 60
 url: /de/net/aspose.words.markup/custompart/relationshiptype/
@@ -14,13 +16,13 @@ Ruft den Beziehungstyp vom übergeordneten Teil zu diesem benutzerdefinierten Te
 public string RelationshipType { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Der Beziehungstyp für ein benutzerdefiniertes Teil muss „unbekannt“ sein, z. B. ein benutzerdefinierter Beziehungstyp, und nicht einer der in ISO/IEC 29500 definierten Beziehungstypen.
 
 Der Standardwert ist eine leere Zeichenfolge. Ein gültiger Wert muss eine nicht leere Zeichenfolge sein.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie auf die beliebige benutzerdefinierte Teilesammlung eines Dokuments zugegriffen wird.
 
@@ -64,7 +66,5 @@ Assert.AreEqual(0, doc.PackageCustomParts.Count);
 ### Siehe auch
 
 * class [CustomPart](../)
-* namensraum [Aspose.Words.Markup](../../custompart/)
+* namensraum [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Montage [Aspose.Words](../../../)
-
-

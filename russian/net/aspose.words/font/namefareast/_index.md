@@ -1,7 +1,9 @@
 ---
 title: Font.NameFarEast
-second_title: Справочник по API Aspose.Words для .NET
-description: Font свойство. Возвращает или задает имя восточноазиатского шрифта.
+linktitle: NameFarEast
+articleTitle: NameFarEast
+second_title: Aspose.Words для .NET
+description: Font NameFarEast свойство. Возвращает или задает имя восточноазиатского шрифта на С#.
 type: docs
 weight: 260
 url: /ru/net/aspose.words/font/namefareast/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/font/namefareast/
 public string NameFarEast { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как вставлять и форматировать текст на дальневосточном языке.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "Font.FarEast.docx");
 
 * property [Name](../name/)
 * class [Font](../)
-* пространство имен [Aspose.Words](../../font/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

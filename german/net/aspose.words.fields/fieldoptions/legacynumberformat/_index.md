@@ -1,7 +1,9 @@
 ---
 title: FieldOptions.LegacyNumberFormat
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldOptions eigendom. Ruft den Wert ab oder legt diesen fest der angibt ob das alte Zahlenformat früher als AW 13.10 für Felder aktiviert ist oder nicht.
+linktitle: LegacyNumberFormat
+articleTitle: LegacyNumberFormat
+second_title: Aspose.Words für .NET
+description: FieldOptions LegacyNumberFormat eigendom. Ruft den Wert ab oder legt diesen fest der angibt ob das alte Zahlenformat früher als AW 13.10 für Felder aktiviert ist oder nicht in C#.
 type: docs
 weight: 160
 url: /de/net/aspose.words.fields/fieldoptions/legacynumberformat/
@@ -14,7 +16,7 @@ Ruft den Wert ab oder legt diesen fest, der angibt, ob das alte Zahlenformat (fr
 public bool LegacyNumberFormat { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Wenn diese Eigenschaft auf festgelegt ist`WAHR`, Vorlagensymbol „#“ funktionierte wie in .net: Ersetzt das Nummernzeichen durch die entsprechende Ziffer, falls vorhanden; andernfalls werden in der Ergebniszeichenfolge keine Symbole angezeigt.
 
@@ -22,7 +24,7 @@ Wenn diese Eigenschaft auf festgelegt ist`FALSCH`, das Vorlagensymbol „#“ fu
 
 Der Standardwert ist`FALSCH`.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie die alte Zahlenformatierung für Felder aktivieren.
 
@@ -43,7 +45,5 @@ Assert.AreEqual("$5", field.Result);
 ### Siehe auch
 
 * class [FieldOptions](../)
-* namensraum [Aspose.Words.Fields](../../fieldoptions/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

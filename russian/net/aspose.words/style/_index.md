@@ -1,7 +1,9 @@
 ---
-title: Class Style
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Style сорт. Представляет один встроенный или пользовательский стиль.
+title: Style Class
+linktitle: Style
+articleTitle: Style
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Style сорт. Представляет один встроенный или пользовательский стиль на С#.
 type: docs
 weight: 6130
 url: /ru/net/aspose.words/style/
@@ -31,7 +33,6 @@ public class Style
 | [LinkedStyleName](../../aspose.words/style/linkedstylename/) { get; } | Получает имя`Style` связан с этим. Возвращает пустую строку, если стили не связаны. |
 | [List](../../aspose.words/style/list/) { get; } | Получает список, определяющий форматирование этого стиля списка. |
 | [ListFormat](../../aspose.words/style/listformat/) { get; } | Предоставляет доступ к свойствам форматирования списка стиля абзаца. |
-| [Locked](../../aspose.words/style/locked/) { get; set; } |  |
 | [Name](../../aspose.words/style/name/) { get; set; } | Получает или задает имя стиля. |
 | [NextParagraphStyleName](../../aspose.words/style/nextparagraphstylename/) { get; set; } | Получает/устанавливает имя стиля, который будет автоматически применяться к новому абзацу, вставленному после абзаца a , отформатированного с использованием указанного стиля. |
 | [ParagraphFormat](../../aspose.words/style/paragraphformat/) { get; } | Получает форматирование абзаца стиля. |
@@ -43,10 +44,10 @@ public class Style
 
 | Имя | Описание |
 | --- | --- |
-| [Equals](../../aspose.words/style/equals/#equals)(Style) | Сравнивает с указанным стилем. Istd стилей сравниваются только для встроенных стилей. Стили по умолчанию не включаются в сравнение. Базовый стиль, связанный стиль и стиль следующего абзаца рекурсивно сравниваются. |
+| [Equals](../../aspose.words/style/equals/#equals)(*Style*) | Сравнивает с указанным стилем. Istd стилей сравниваются только для встроенных стилей. Стили по умолчанию не включаются в сравнение. Базовый стиль, связанный стиль и стиль следующего абзаца рекурсивно сравниваются. |
 | [Remove](../../aspose.words/style/remove/)() | Удаляет указанный стиль из документа. |
 
-### Примеры
+## Примеры
 
 Показывает, как создать и использовать стиль абзаца с форматированием списка.
 
@@ -113,5 +114,3 @@ Assert.AreEqual(Color.Empty.ToArgb(), firstParagraphStyle.Font.Color.ToArgb());
 
 * пространство имен [Aspose.Words](../../aspose.words/)
 * сборка [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldIndex.NumberOfColumns
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldIndex свойство. Получает или задает количество столбцов на странице используемое при построении индекса.
+linktitle: NumberOfColumns
+articleTitle: NumberOfColumns
+second_title: Aspose.Words для .NET
+description: FieldIndex NumberOfColumns свойство. Получает или задает количество столбцов на странице используемое при построении индекса на С#.
 type: docs
 weight: 100
 url: /ru/net/aspose.words.fields/fieldindex/numberofcolumns/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldindex/numberofcolumns/
 public string NumberOfColumns { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как заполнить поле INDEX записями с использованием полей XE, а также изменить его внешний вид.
 
@@ -86,7 +88,5 @@ doc.Save(ArtifactsDir + "Field.INDEX.XE.Formatting.docx");
 ### Смотрите также
 
 * class [FieldIndex](../)
-* пространство имен [Aspose.Words.Fields](../../fieldindex/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

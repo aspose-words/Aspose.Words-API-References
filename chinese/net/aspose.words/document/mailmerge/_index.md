@@ -1,7 +1,9 @@
 ---
 title: Document.MailMerge
-second_title: Aspose.Words for .NET API 参考
-description: Document 财产. 返回一个MailMerge代表文档邮件合并功能的对象
+linktitle: MailMerge
+articleTitle: MailMerge
+second_title: 用于 .NET 的 Aspose.Words
+description: Document MailMerge 财产. 返回一个MailMerge代表文档邮件合并功能的对象 在 C#.
 type: docs
 weight: 260
 url: /zh/net/aspose.words/document/mailmerge/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/document/mailmerge/
 public MailMerge MailMerge { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何使用数据表中的数据执行邮件合并。
 
@@ -63,7 +65,5 @@ private static Document CreateSourceDocExecuteDataTable()
 
 * class [MailMerge](../../../aspose.words.mailmerging/mailmerge/)
 * class [Document](../)
-* 命名空间 [Aspose.Words](../../document/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

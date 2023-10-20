@@ -1,7 +1,9 @@
 ---
 title: Forms2OleControl.Type
-second_title: Aspose.Words för .NET API Referens
-description: Forms2OleControl fast egendom. Får typ av Forms 2.0kontroll.
+linktitle: Type
+articleTitle: Type
+second_title: Aspose.Words för .NET
+description: Forms2OleControl Type fast egendom. Får typ av Forms 2.0kontroll i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.drawing.ole/forms2olecontrol/type/
@@ -14,7 +16,7 @@ Får typ av Forms 2.0-kontroll.
 public abstract Forms2OleControlType Type { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du verifierar egenskaperna för en ActiveX-kontroll.
 
@@ -45,7 +47,5 @@ if (oleControl.IsForms2OleControl)
 
 * enum [Forms2OleControlType](../../forms2olecontroltype/)
 * class [Forms2OleControl](../)
-* namnutrymme [Aspose.Words.Drawing.Ole](../../forms2olecontrol/)
+* namnutrymme [Aspose.Words.Drawing.Ole](../../../aspose.words.drawing.ole/)
 * hopsättning [Aspose.Words](../../../)
-
-

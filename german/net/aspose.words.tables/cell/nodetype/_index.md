@@ -1,7 +1,9 @@
 ---
 title: Cell.NodeType
-second_title: Aspose.Words für .NET-API-Referenz
-description: Cell eigendom. Gibt zurückCell .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words für .NET
+description: Cell NodeType eigendom. Gibt zurückCell  in C#.
 type: docs
 weight: 80
 url: /de/net/aspose.words.tables/cell/nodetype/
@@ -14,7 +16,7 @@ Gibt zurückCell .
 public override NodeType NodeType { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie der Baum der untergeordneten Knoten eines zusammengesetzten Knotens durchlaufen wird.
 
@@ -62,7 +64,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 
 * enum [NodeType](../../../aspose.words/nodetype/)
 * class [Cell](../)
-* namensraum [Aspose.Words.Tables](../../cell/)
+* namensraum [Aspose.Words.Tables](../../../aspose.words.tables/)
 * Montage [Aspose.Words](../../../)
-
-

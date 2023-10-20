@@ -1,7 +1,9 @@
 ---
 title: RevisionOptions.MovedFromTextColor
-second_title: Aspose.Words för .NET API Referens
-description: RevisionOptions fast egendom. Tillåter att ange färgen som ska användas för områden där innehållet har flyttats frånMoving . Standardvärdet ärByAuthor .
+linktitle: MovedFromTextColor
+articleTitle: MovedFromTextColor
+second_title: Aspose.Words för .NET
+description: RevisionOptions MovedFromTextColor fast egendom. Tillåter att ange färgen som ska användas för områden där innehållet har flyttats frånMoving . Standardvärdet ärByAuthor  i C#.
 type: docs
 weight: 70
 url: /sv/net/aspose.words.layout/revisionoptions/movedfromtextcolor/
@@ -14,7 +16,7 @@ Tillåter att ange färgen som ska användas för områden där innehållet har 
 public RevisionColor MovedFromTextColor { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man ändrar utseendet på revisioner.
 
@@ -66,7 +68,5 @@ doc.Save(ArtifactsDir + "Revision.RevisionOptions.pdf");
 
 * enum [RevisionColor](../../revisioncolor/)
 * class [RevisionOptions](../)
-* namnutrymme [Aspose.Words.Layout](../../revisionoptions/)
+* namnutrymme [Aspose.Words.Layout](../../../aspose.words.layout/)
 * hopsättning [Aspose.Words](../../../)
-
-

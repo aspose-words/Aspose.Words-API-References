@@ -1,7 +1,9 @@
 ---
-title: Class AsposeWordsPrintDocument
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Rendering.AsposeWordsPrintDocument classe. Fournit une implémentation par défaut pour limpression dunDocument au sein du framework dimpression .NET.
+title: AsposeWordsPrintDocument Class
+linktitle: AsposeWordsPrintDocument
+articleTitle: AsposeWordsPrintDocument
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Rendering.AsposeWordsPrintDocument classe. Fournit une implémentation par défaut pour limpression dunDocument au sein du framework dimpression .NET en C#.
 type: docs
 weight: 4530
 url: /fr/net/aspose.words.rendering/asposewordsprintdocument/
@@ -20,7 +22,7 @@ public class AsposeWordsPrintDocument : PrintDocument
 
 | Nom | La description |
 | --- | --- |
-| [AsposeWordsPrintDocument](asposewordsprintdocument/)(Document) | Initialise une nouvelle instance de cette classe. |
+| [AsposeWordsPrintDocument](asposewordsprintdocument/)(*[Document](../../aspose.words/document/)*) | Initialise une nouvelle instance de cette classe. |
 
 ## Propriétés
 
@@ -35,7 +37,7 @@ public class AsposeWordsPrintDocument : PrintDocument
 | --- | --- |
 | [CachePrinterSettings](../../aspose.words.rendering/asposewordsprintdocument/cacheprintersettings/)() | Lit et met en cache certains champs dePrinterSettings pour réduire le temps d'impression. |
 
-### Remarques
+## Remarques
 
 `AsposeWordsPrintDocument` remplacementsPrintEventArgs) pour imprimer la plage de pages spécifiée dansPrinterSettings.
 
@@ -47,5 +49,3 @@ Microsoft Word stocke les valeurs spécifiques à l'imprimante pour les bacs à 
 
 * espace de noms [Aspose.Words.Rendering](../../aspose.words.rendering/)
 * Assemblée [Aspose.Words](../../)
-
-

@@ -1,9 +1,11 @@
 ---
 title: ChartFormat.ShapeType
-second_title: Aspose.Words für .NET-API-Referenz
-description: ChartFormat eigendom. Ruft den Formtyp des übergeordneten Diagrammelements ab oder legt diesen fest.
+linktitle: ShapeType
+articleTitle: ShapeType
+second_title: Aspose.Words für .NET
+description: ChartFormat ShapeType eigendom. Ruft den Formtyp des übergeordneten Diagrammelements ab oder legt diesen fest in C#.
 type: docs
-weight: 30
+weight: 20
 url: /de/net/aspose.words.drawing.charts/chartformat/shapetype/
 ---
 ## ChartFormat.ShapeType property
@@ -14,11 +16,11 @@ Ruft den Formtyp des übergeordneten Diagrammelements ab oder legt diesen fest.
 public ChartShapeType ShapeType { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Derzeit kann die Eigenschaft nur für Datenbeschriftungen verwendet werden.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Füll-, Strich- und Beschriftungsformatierungen für Diagrammdatenbeschriftungen festgelegt werden.
 
@@ -60,7 +62,5 @@ doc.Save(ArtifactsDir + "Charts.FormatDataLables.docx");
 
 * enum [ChartShapeType](../../chartshapetype/)
 * class [ChartFormat](../)
-* namensraum [Aspose.Words.Drawing.Charts](../../chartformat/)
+* namensraum [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../../)
-
-

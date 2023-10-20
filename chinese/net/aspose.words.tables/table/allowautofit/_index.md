@@ -1,7 +1,9 @@
 ---
 title: Table.AllowAutoFit
-second_title: Aspose.Words for .NET API 参考
-description: Table 财产. 允许 Microsoft Word 和 Aspose.Words 自动调整表格中单元格的大小以适合其内容
+linktitle: AllowAutoFit
+articleTitle: AllowAutoFit
+second_title: 用于 .NET 的 Aspose.Words
+description: Table AllowAutoFit 财产. 允许 Microsoft Word 和 Aspose.Words 自动调整表格中单元格的大小以适合其内容 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words.tables/table/allowautofit/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.tables/table/allowautofit/
 public bool AllowAutoFit { get; set; }
 ```
 
-### 评论
+## 评论
 
 默认值为`真的`。
 
-### 例子
+## 例子
 
 显示如何启用/禁用自动调整表格单元格大小。
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "Table.AllowAutoFitOnTable.html");
 ### 也可以看看
 
 * class [Table](../)
-* 命名空间 [Aspose.Words.Tables](../../table/)
+* 命名空间 [Aspose.Words.Tables](../../../aspose.words.tables/)
 * 部件 [Aspose.Words](../../../)
-
-

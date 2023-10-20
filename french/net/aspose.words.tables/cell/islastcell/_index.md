@@ -1,7 +1,9 @@
 ---
 title: Cell.IsLastCell
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Cell propriété. True sil sagit de la dernière cellule dune ligne  faux sinon.
+linktitle: IsLastCell
+articleTitle: IsLastCell
+second_title: Aspose.Words pour .NET
+description: Cell IsLastCell propriété. True sil sagit de la dernière cellule dune ligne  faux sinon en C#.
 type: docs
 weight: 50
 url: /fr/net/aspose.words.tables/cell/islastcell/
@@ -14,7 +16,7 @@ True s'il s'agit de la dernière cellule d'une ligne ; faux sinon.
 public bool IsLastCell { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment imprimer la structure des nœuds de chaque table d'un document.
 
@@ -177,7 +179,5 @@ public class TableStructurePrinter : DocumentVisitor
 ### Voir également
 
 * class [Cell](../)
-* espace de noms [Aspose.Words.Tables](../../cell/)
+* espace de noms [Aspose.Words.Tables](../../../aspose.words.tables/)
 * Assemblée [Aspose.Words](../../../)
-
-

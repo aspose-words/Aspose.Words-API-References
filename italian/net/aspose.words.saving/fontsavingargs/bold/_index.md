@@ -1,7 +1,9 @@
 ---
 title: FontSavingArgs.Bold
-second_title: Aspose.Words per .NET API Reference
-description: FontSavingArgs proprietà. Indica se il carattere corrente è in grassetto.
+linktitle: Bold
+articleTitle: Bold
+second_title: Aspose.Words per .NET
+description: FontSavingArgs Bold proprietà. Indica se il carattere corrente è in grassetto in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words.saving/fontsavingargs/bold/
@@ -14,7 +16,7 @@ Indica se il carattere corrente è in grassetto.
 public bool Bold { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come definire la logica personalizzata per l'esportazione dei caratteri durante il salvataggio in HTML.
 
@@ -74,7 +76,5 @@ public class HandleFontSaving : IFontSavingCallback
 ### Guarda anche
 
 * class [FontSavingArgs](../)
-* spazio dei nomi [Aspose.Words.Saving](../../fontsavingargs/)
+* spazio dei nomi [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../../)
-
-

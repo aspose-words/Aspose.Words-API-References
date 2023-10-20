@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.TableWidthOutputMode
-second_title: Aspose.Words för .NET API Referens
-description: HtmlSaveOptions fast egendom. Styr hur tabell rad och cellbredder exporteras till HTML MHTML eller EPUB. Standardvärdet ärAll .
+linktitle: TableWidthOutputMode
+articleTitle: TableWidthOutputMode
+second_title: Aspose.Words för .NET
+description: HtmlSaveOptions TableWidthOutputMode fast egendom. Styr hur tabell rad och cellbredder exporteras till HTML MHTML eller EPUB. Standardvärdet ärAll  i C#.
 type: docs
 weight: 460
 url: /sv/net/aspose.words.saving/htmlsaveoptions/tablewidthoutputmode/
@@ -14,15 +16,15 @@ Styr hur tabell-, rad- och cellbredder exporteras till HTML, MHTML eller EPUB. S
 public HtmlElementSizeOutputMode TableWidthOutputMode { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
-HTML-formatet, tabell-, rad- och cellelement ( **&lt;tabell&gt;** , **&lt;tr&gt;** , **&lt;th&gt;** , **&lt;td&gt;**) kan ha sina bredder specificerade antingen i relativ (procent) eller i absoluta enheter. I ett dokument i Aspose. Words, tabeller, rader och celler kan ha sina bredder specificerade med antingen relativa eller absoluta enheter.
+HTML-formatet, tabell-, rad- och cellelement (**&lt;tabell&gt;** ,**&lt;tr&gt;** ,**&lt;th&gt;** ,**&lt;td&gt;**) kan ha sina bredder specificerade antingen i relativ (procent) eller i absoluta enheter. I ett dokument i Aspose. Words, tabeller, rader och celler kan ha sina bredder specificerade med antingen relativa eller absoluta enheter.
 
 När du konverterar ett dokument till HTML med Aspose.Words kanske du vill kontrollera hur tabell-, rad- och cellbredder exporteras för att påverka hur det resulterande dokumentet visas i den visuella agenten (t.ex. en webbläsare eller visningsprogram).
 
 Använd den här egenskapen som ett filter för att ange vilka tabellbreddsvärden som ska exporteras till måldokumentet. Om du till exempel konverterar ett dokument till EPUB och tänker visa dokumentet på en mobil läsenhet, vill du förmodligen undvika exporterar absoluta breddvärden. För att göra detta måste du ange utgångslägetRelativeOnly ellerNone så att tittaren på den mobila enheten kan layouta tabellen så att den passar skärmens bredd så bra som den kan.
 
-### Exempel
+## Exempel
 
 Visar hur man bevarar negativa indrag i utdata .html.
 
@@ -85,7 +87,5 @@ else
 
 * enum [HtmlElementSizeOutputMode](../../htmlelementsizeoutputmode/)
 * class [HtmlSaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../htmlsaveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

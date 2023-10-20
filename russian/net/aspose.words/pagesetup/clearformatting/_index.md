@@ -1,7 +1,9 @@
 ---
 title: PageSetup.ClearFormatting
-second_title: Справочник по API Aspose.Words для .NET
-description: PageSetup метод. Сбрасывает настройки страницы на размер бумаги поля и ориентацию по умолчанию.
+linktitle: ClearFormatting
+articleTitle: ClearFormatting
+second_title: Aspose.Words для .NET
+description: PageSetup ClearFormatting метод. Сбрасывает настройки страницы на размер бумаги поля и ориентацию по умолчанию на С#.
 type: docs
 weight: 460
 url: /ru/net/aspose.words/pagesetup/clearformatting/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/pagesetup/clearformatting/
 public void ClearFormatting()
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как применить и вернуть параметры настройки страницы к разделам документа.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "PageSetup.ClearFormatting.docx");
 ### Смотрите также
 
 * class [PageSetup](../)
-* пространство имен [Aspose.Words](../../pagesetup/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

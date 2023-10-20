@@ -1,7 +1,9 @@
 ---
 title: DocumentProperty.ToString
-second_title: Aspose.Words för .NET API Referens
-description: DocumentProperty metod. Returnerar egenskapsvärdet som en sträng formaterad enligt det aktuella språket.
+linktitle: ToString
+articleTitle: ToString
+second_title: Aspose.Words för .NET
+description: DocumentProperty ToString metod. Returnerar egenskapsvärdet som en sträng formaterad enligt det aktuella språket i C#.
 type: docs
 weight: 110
 url: /sv/net/aspose.words.properties/documentproperty/tostring/
@@ -14,11 +16,11 @@ Returnerar egenskapsvärdet som en sträng formaterad enligt det aktuella språk
 public override string ToString()
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Konverterar en boolesk egenskap till "Y" eller "N". Konverterar en date-egenskap till en kort datumsträng. För alla andra typer konverterar en egenskap med Object.ToString().
 
-### Exempel
+## Exempel
 
 Visar olika typer av konverteringsmetoder för anpassade dokumentegenskaper.
 
@@ -63,7 +65,5 @@ foreach (var customDocumentProperty in doc.CustomDocumentProperties)
 ### Se även
 
 * class [DocumentProperty](../)
-* namnutrymme [Aspose.Words.Properties](../../documentproperty/)
+* namnutrymme [Aspose.Words.Properties](../../../aspose.words.properties/)
 * hopsättning [Aspose.Words](../../../)
-
-

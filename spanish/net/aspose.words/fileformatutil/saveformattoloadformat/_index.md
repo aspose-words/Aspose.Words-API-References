@@ -1,7 +1,9 @@
 ---
 title: FileFormatUtil.SaveFormatToLoadFormat
-second_title: Referencia de API de Aspose.Words para .NET
-description: FileFormatUtil método. Convierte unSaveFormat valor a unLoadFormat valor si es posible.
+linktitle: SaveFormatToLoadFormat
+articleTitle: SaveFormatToLoadFormat
+second_title: Aspose.Words para .NET
+description: FileFormatUtil SaveFormatToLoadFormat método. Convierte unSaveFormat valor a unLoadFormat valor si es posible en C#.
 type: docs
 weight: 90
 url: /es/net/aspose.words/fileformatutil/saveformattoloadformat/
@@ -20,7 +22,7 @@ public static LoadFormat SaveFormatToLoadFormat(SaveFormat saveFormat)
 | --- | --- |
 | ArgumentException | Lanza cuando no se puede convertir. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo convertir un formato de guardado a su formato de carga correspondiente.
 
@@ -37,7 +39,5 @@ Assert.Throws<ArgumentException>(() => FileFormatUtil.SaveFormatToLoadFormat(Sav
 * enum [LoadFormat](../../loadformat/)
 * enum [SaveFormat](../../saveformat/)
 * class [FileFormatUtil](../)
-* espacio de nombres [Aspose.Words](../../fileformatutil/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

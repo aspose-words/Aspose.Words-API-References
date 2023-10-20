@@ -1,7 +1,9 @@
 ---
 title: OdsoFieldMapDataCollection.Add
-second_title: Aspose.Words for .NET API 参考
-description: OdsoFieldMapDataCollection 方法. 将一个对象添加到此集合的末尾
+linktitle: Add
+articleTitle: Add
+second_title: 用于 .NET 的 Aspose.Words
+description: OdsoFieldMapDataCollection Add 方法. 将一个对象添加到此集合的末尾 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.settings/odsofieldmapdatacollection/add/
@@ -18,7 +20,7 @@ public int Add(OdsoFieldMapData value)
 | --- | --- | --- |
 | value | OdsoFieldMapData | 要添加的对象。不可能是`无效的`。 |
 
-### 例子
+## 例子
 
 演示如何访问将数据源列映射到合并字段的数据集合。
 
@@ -62,7 +64,5 @@ Assert.AreEqual(0, dataCollection.Count);
 
 * class [OdsoFieldMapData](../../odsofieldmapdata/)
 * class [OdsoFieldMapDataCollection](../)
-* 命名空间 [Aspose.Words.Settings](../../odsofieldmapdatacollection/)
+* 命名空间 [Aspose.Words.Settings](../../../aspose.words.settings/)
 * 部件 [Aspose.Words](../../../)
-
-

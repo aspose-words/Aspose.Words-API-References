@@ -1,7 +1,9 @@
 ---
 title: FontSourceBase.GetAvailableFonts
-second_title: Aspose.Words لمراجع .NET API
-description: FontSourceBase طريقة. إرجاع قائمة الخطوط المتوفرة عبر هذا المصدر.
+linktitle: GetAvailableFonts
+articleTitle: GetAvailableFonts
+second_title: Aspose.Words لـ .NET
+description: FontSourceBase GetAvailableFonts طريقة. إرجاع قائمة الخطوط المتوفرة عبر هذا المصدر في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.fonts/fontsourcebase/getavailablefonts/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fonts/fontsourcebase/getavailablefonts/
 public IList<PhysicalFontInfo> GetAvailableFonts()
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية سرد الخطوط المتاحة.
 
@@ -35,7 +37,5 @@ foreach (PhysicalFontInfo fontInfo in folderFontSource[0].GetAvailableFonts())
 
 * class [PhysicalFontInfo](../../physicalfontinfo/)
 * class [FontSourceBase](../)
-* مساحة الاسم [Aspose.Words.Fonts](../../fontsourcebase/)
+* مساحة الاسم [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * المجسم [Aspose.Words](../../../)
-
-

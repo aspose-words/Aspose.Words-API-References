@@ -1,7 +1,9 @@
 ---
-title: Enum RevisionsView
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.RevisionsView перечисление. Позволяет указать работать ли с исходной или исправленной версией документа.
+title: RevisionsView Enum
+linktitle: RevisionsView
+articleTitle: RevisionsView
+second_title: Aspose.Words для .NET
+description: Aspose.Words.RevisionsView перечисление. Позволяет указать работать ли с исходной или исправленной версией документа на С#.
 type: docs
 weight: 4810
 url: /ru/net/aspose.words/revisionsview/
@@ -21,7 +23,7 @@ public enum RevisionsView
 | Original | `0` | Указывает исходную версию документа. |
 | Final | `1` | Указывает исправленную версию документа. |
 
-### Примеры
+## Примеры
 
 Показывает, как переключаться между измененным и исходным видом документа.
 
@@ -46,5 +48,3 @@ Assert.AreEqual("a.", paragraphs[2].ListLabel.LabelString);
 
 * пространство имен [Aspose.Words](../../aspose.words/)
 * сборка [Aspose.Words](../../)
-
-

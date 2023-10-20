@@ -1,7 +1,9 @@
 ---
 title: TextPath.On
-second_title: Aspose.Words für .NET-API-Referenz
-description: TextPath eigendom. Definiert ob der Text angezeigt wird.
+linktitle: On
+articleTitle: On
+second_title: Aspose.Words für .NET
+description: TextPath On eigendom. Definiert ob der Text angezeigt wird in C#.
 type: docs
 weight: 70
 url: /de/net/aspose.words.drawing/textpath/on/
@@ -14,11 +16,11 @@ Definiert, ob der Text angezeigt wird.
 public bool On { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Der Standardwert ist`FALSCH`.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man mit WordArt arbeitet.
 
@@ -121,7 +123,5 @@ private static Shape AppendWordArt(Document doc, string text, string textFontFam
 ### Siehe auch
 
 * class [TextPath](../)
-* namensraum [Aspose.Words.Drawing](../../textpath/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

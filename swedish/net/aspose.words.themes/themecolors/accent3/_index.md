@@ -1,7 +1,9 @@
 ---
 title: ThemeColors.Accent3
-second_title: Aspose.Words för .NET API Referens
-description: ThemeColors fast egendom. Anger färg Accent 3.
+linktitle: Accent3
+articleTitle: Accent3
+second_title: Aspose.Words för .NET
+description: ThemeColors Accent3 fast egendom. Anger färg Accent 3 i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.themes/themecolors/accent3/
@@ -14,7 +16,7 @@ Anger färg Accent 3.
 public Color Accent3 { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du ställer in anpassade färger och teckensnitt för teman.
 
@@ -62,7 +64,5 @@ doc.Save(ArtifactsDir + "Themes.CustomColorsAndFonts.docx");
 ### Se även
 
 * class [ThemeColors](../)
-* namnutrymme [Aspose.Words.Themes](../../themecolors/)
+* namnutrymme [Aspose.Words.Themes](../../../aspose.words.themes/)
 * hopsättning [Aspose.Words](../../../)
-
-

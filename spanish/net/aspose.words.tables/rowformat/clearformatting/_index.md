@@ -1,7 +1,9 @@
 ---
 title: RowFormat.ClearFormatting
-second_title: Referencia de API de Aspose.Words para .NET
-description: RowFormat método. Restablece el formato de fila predeterminado.
+linktitle: ClearFormatting
+articleTitle: ClearFormatting
+second_title: Aspose.Words para .NET
+description: RowFormat ClearFormatting método. Restablece el formato de fila predeterminado en C#.
 type: docs
 weight: 60
 url: /es/net/aspose.words.tables/rowformat/clearformatting/
@@ -14,7 +16,7 @@ Restablece el formato de fila predeterminado.
 public void ClearFormatting()
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear una tabla con bordes personalizados.
 
@@ -80,7 +82,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
 ### Ver también
 
 * class [RowFormat](../)
-* espacio de nombres [Aspose.Words.Tables](../../rowformat/)
+* espacio de nombres [Aspose.Words.Tables](../../../aspose.words.tables/)
 * asamblea [Aspose.Words](../../../)
-
-

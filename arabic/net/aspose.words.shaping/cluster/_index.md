@@ -1,7 +1,9 @@
 ---
-title: Class Cluster
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Shaping.Cluster فصل. يقوم بتغليف نقاط التعليمات البرمجية والحروف الرسومية التي تشكل حرفًا.
+title: Cluster Class
+linktitle: Cluster
+articleTitle: Cluster
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Shaping.Cluster فصل. يقوم بتغليف نقاط التعليمات البرمجية والحروف الرسومية التي تشكل حرفًا في C#.
 type: docs
 weight: 6010
 url: /ar/net/aspose.words.shaping/cluster/
@@ -18,7 +20,7 @@ public class Cluster
 
 | اسم | وصف |
 | --- | --- |
-| [Cluster](cluster/)(int[], Glyph[]) | تهيئة المثيل الجديد لهذه الفئة. |
+| [Cluster](cluster/)(*int[], Glyph[]*) | تهيئة المثيل الجديد لهذه الفئة. |
 
 ## الخصائص
 
@@ -34,12 +36,10 @@ public class Cluster
 | --- | --- |
 | [DeepClone](../../aspose.words.shaping/cluster/deepclone/)() | يُرجع نسخة عميقة من هذا المثيل. |
 | [GetString](../../aspose.words.shaping/cluster/getstring/)() | ينشئString باستخدام نقاط التشفير من هذه المجموعة. |
-| [GetWidth](../../aspose.words.shaping/cluster/getwidth/)(int, float) | إرجاع عرض المجموعة. |
-| static [GetString](../../aspose.words.shaping/cluster/getstring/)(Cluster[]) | ينشئString باستخدام نقاط التشفير من المجموعات المحددة. |
+| [GetWidth](../../aspose.words.shaping/cluster/getwidth/)(*int, float*) | إرجاع عرض المجموعة. |
+| static [GetString](../../aspose.words.shaping/cluster/getstring/)(*Cluster[]*) | ينشئString باستخدام نقاط التشفير من المجموعات المحددة. |
 
 ### أنظر أيضا
 
 * مساحة الاسم [Aspose.Words.Shaping](../../aspose.words.shaping/)
 * المجسم [Aspose.Words](../../)
-
-

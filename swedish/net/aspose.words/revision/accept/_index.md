@@ -1,7 +1,9 @@
 ---
 title: Revision.Accept
-second_title: Aspose.Words för .NET API Referens
-description: Revision metod. Accepterar denna version.
+linktitle: Accept
+articleTitle: Accept
+second_title: Aspose.Words för .NET
+description: Revision Accept metod. Accepterar denna version i C#.
 type: docs
 weight: 70
 url: /sv/net/aspose.words/revision/accept/
@@ -14,7 +16,7 @@ Accepterar denna version.
 public void Accept()
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med revisioner i ett dokument.
 
@@ -97,7 +99,5 @@ Assert.AreEqual("This is revision #1. \rThis is revision #2.", doc.GetText().Tri
 ### Se även
 
 * class [Revision](../)
-* namnutrymme [Aspose.Words](../../revision/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

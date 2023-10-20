@@ -1,7 +1,9 @@
 ---
 title: Range.Text
-second_title: Aspose.Words لمراجع .NET API
-description: Range ملكية. يحصل على نص النطاق.
+linktitle: Text
+articleTitle: Text
+second_title: Aspose.Words لـ .NET
+description: Range Text ملكية. يحصل على نص النطاق في C#.
 type: docs
 weight: 60
 url: /ar/net/aspose.words/range/text/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words/range/text/
 public string Text { get; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 تتضمن السلسلة التي تم إرجاعها جميع عناصر التحكم والأحرف الخاصة كما هو موضح في[`ControlChar`](../../controlchar/).
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الحصول على محتويات النص لجميع العقد التي يغطيها النطاق.
 
@@ -34,7 +36,5 @@ Assert.AreEqual("Hello world!", doc.Range.Text.Trim());
 ### أنظر أيضا
 
 * class [Range](../)
-* مساحة الاسم [Aspose.Words](../../range/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

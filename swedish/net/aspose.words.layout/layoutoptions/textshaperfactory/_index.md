@@ -1,7 +1,9 @@
 ---
 title: LayoutOptions.TextShaperFactory
-second_title: Aspose.Words för .NET API Referens
-description: LayoutOptions fast egendom. Hämtar eller sätterITextShaperFactory implementering som används för avancerade typografirenderingsfunktioner.
+linktitle: TextShaperFactory
+articleTitle: TextShaperFactory
+second_title: Aspose.Words för .NET
+description: LayoutOptions TextShaperFactory fast egendom. Hämtar eller sätterITextShaperFactory implementering som används för avancerade typografirenderingsfunktioner i C#.
 type: docs
 weight: 100
 url: /sv/net/aspose.words.layout/layoutoptions/textshaperfactory/
@@ -14,7 +16,7 @@ Hämtar eller sätter[`ITextShaperFactory`](../../../aspose.words.shaping/itexts
 public ITextShaperFactory TextShaperFactory { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man stöder OpenType-funktioner med hjälp av HarfBuzz-motorn för textformning.
 
@@ -36,7 +38,5 @@ doc.Save(ArtifactsDir + "Document.OpenType.pdf");
 
 * interface [ITextShaperFactory](../../../aspose.words.shaping/itextshaperfactory/)
 * class [LayoutOptions](../)
-* namnutrymme [Aspose.Words.Layout](../../layoutoptions/)
+* namnutrymme [Aspose.Words.Layout](../../../aspose.words.layout/)
 * hopsättning [Aspose.Words](../../../)
-
-

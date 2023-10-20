@@ -1,7 +1,9 @@
 ---
 title: FieldToa.BookmarkName
-second_title: Aspose.Words لمراجع .NET API
-description: FieldToa ملكية. الحصول على أو تعيين اسم الإشارة المرجعية التي تحدد جزء المستند المستخدم لإنشاء الجدول.
+linktitle: BookmarkName
+articleTitle: BookmarkName
+second_title: Aspose.Words لـ .NET
+description: FieldToa BookmarkName ملكية. الحصول على أو تعيين اسم الإشارة المرجعية التي تحدد جزء المستند المستخدم لإنشاء الجدول في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.fields/fieldtoa/bookmarkname/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldtoa/bookmarkname/
 public string BookmarkName { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء جدول المراجع المصدقة وتخصيصه باستخدام حقلي TOA وTA.
 
@@ -137,7 +139,5 @@ private static FieldTA InsertToaEntry(DocumentBuilder builder, string entryCateg
 ### أنظر أيضا
 
 * class [FieldToa](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldtoa/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

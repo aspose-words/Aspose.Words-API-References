@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.DeleteRow
-second_title: Aspose.Words for .NET API 参考
-description: DocumentBuilder 方法. 从表中删除一行
+linktitle: DeleteRow
+articleTitle: DeleteRow
+second_title: 用于 .NET 的 Aspose.Words
+description: DocumentBuilder DeleteRow 方法. 从表中删除一行 在 C#.
 type: docs
 weight: 200
 url: /zh/net/aspose.words/documentbuilder/deleterow/
@@ -23,7 +25,7 @@ public Row DeleteRow(int tableIndex, int rowIndex)
 
 刚刚删除的行节点。
 
-### 评论
+## 评论
 
 如果光标位于要删除的行内部，则光标将移出 到下一行或表后的下一个段落。
 
@@ -31,7 +33,7 @@ public Row DeleteRow(int tableIndex, int rowIndex)
 
 对于索引参数，当index大于或等于0时，指定索引从 开始，以0为第一个元素。当index小于0时，它指定一个索引from 结尾，-1是最后一个元素。
 
-### 例子
+## 例子
 
 演示如何从表中删除行。
 
@@ -64,7 +66,5 @@ Assert.AreEqual("Row 2, cell 1.\aRow 2, cell 2.\a\a", table.GetText().Trim());
 
 * class [Row](../../../aspose.words.tables/row/)
 * class [DocumentBuilder](../)
-* 命名空间 [Aspose.Words](../../documentbuilder/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

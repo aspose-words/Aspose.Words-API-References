@@ -1,7 +1,9 @@
 ---
 title: MailMergeRegionInfo.MustacheTags
-second_title: Справочник по API Aspose.Words для .NET
-description: MailMergeRegionInfo свойство. Возвращает список дочерних тегов усы.
+linktitle: MustacheTags
+articleTitle: MustacheTags
+second_title: Aspose.Words для .NET
+description: MailMergeRegionInfo MustacheTags свойство. Возвращает список дочерних тегов усы на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.mailmerging/mailmergeregioninfo/mustachetags/
@@ -18,7 +20,5 @@ public IList<MustacheTag> MustacheTags { get; }
 
 * class [MustacheTag](../../mustachetag/)
 * class [MailMergeRegionInfo](../)
-* пространство имен [Aspose.Words.MailMerging](../../mailmergeregioninfo/)
+* пространство имен [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * сборка [Aspose.Words](../../../)
-
-

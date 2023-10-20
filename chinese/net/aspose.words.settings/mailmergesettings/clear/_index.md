@@ -1,7 +1,9 @@
 ---
 title: MailMergeSettings.Clear
-second_title: Aspose.Words for .NET API 参考
-description: MailMergeSettings 方法. 清除邮件合并设置这样当保存文档时 不会保存任何邮件合并设置它将成为普通文档
+linktitle: Clear
+articleTitle: Clear
+second_title: 用于 .NET 的 Aspose.Words
+description: MailMergeSettings Clear 方法. 清除邮件合并设置这样当保存文档时 不会保存任何邮件合并设置它将成为普通文档 在 C#.
 type: docs
 weight: 180
 url: /zh/net/aspose.words.settings/mailmergesettings/clear/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.settings/mailmergesettings/clear/
 public void Clear()
 ```
 
-### 例子
+## 例子
 
 演示如何在连接到外部数据源时执行邮件合并。
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "MailMerge.OdsoEmail.docx");
 ### 也可以看看
 
 * class [MailMergeSettings](../)
-* 命名空间 [Aspose.Words.Settings](../../mailmergesettings/)
+* 命名空间 [Aspose.Words.Settings](../../../aspose.words.settings/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Document.OriginalFileName
-second_title: Aspose.Words for .NET API 参考
-description: Document 财产. 获取文档的原始文件名
+linktitle: OriginalFileName
+articleTitle: OriginalFileName
+second_title: 用于 .NET 的 Aspose.Words
+description: Document OriginalFileName 财产. 获取文档的原始文件名 在 C#.
 type: docs
 weight: 290
 url: /zh/net/aspose.words/document/originalfilename/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words/document/originalfilename/
 public string OriginalFileName { get; }
 ```
 
-### 评论
+## 评论
 
 退货`无效的`如果文档是从流加载的或创建为空白。
 
-### 例子
+## 例子
 
 演示如何检索文档加载操作的详细信息。
 
@@ -60,7 +62,5 @@ using (FileStream docStream = File.OpenRead(MyDir + "Word document with missing 
 ### 也可以看看
 
 * class [Document](../)
-* 命名空间 [Aspose.Words](../../document/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class GeneralFormatCollection
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Fields.GeneralFormatCollection classe. Représente une collection typée de formats généraux.
+title: GeneralFormatCollection Class
+linktitle: GeneralFormatCollection
+articleTitle: GeneralFormatCollection
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Fields.GeneralFormatCollection classe. Représente une collection typée de formats généraux en C#.
 type: docs
 weight: 2650
 url: /fr/net/aspose.words.fields/generalformatcollection/
@@ -27,12 +29,12 @@ public class GeneralFormatCollection : IEnumerable<GeneralFormat>
 
 | Nom | La description |
 | --- | --- |
-| [Add](../../aspose.words.fields/generalformatcollection/add/)(GeneralFormat) | Ajoute un format général à la collection. |
+| [Add](../../aspose.words.fields/generalformatcollection/add/)(*[GeneralFormat](../generalformat/)*) | Ajoute un format général à la collection. |
 | [GetEnumerator](../../aspose.words.fields/generalformatcollection/getenumerator/)() | Renvoie un objet énumérateur. |
-| [Remove](../../aspose.words.fields/generalformatcollection/remove/)(GeneralFormat) | Supprime toutes les occurrences du format général spécifié de la collection. |
-| [RemoveAt](../../aspose.words.fields/generalformatcollection/removeat/)(int) | Supprime une occurrence de format général à l'index spécifié. |
+| [Remove](../../aspose.words.fields/generalformatcollection/remove/)(*[GeneralFormat](../generalformat/)*) | Supprime toutes les occurrences du format général spécifié de la collection. |
+| [RemoveAt](../../aspose.words.fields/generalformatcollection/removeat/)(*int*) | Supprime une occurrence de format général à l'index spécifié. |
 
-### Exemples
+## Exemples
 
 Montre comment formater les résultats des champs.
 
@@ -98,5 +100,3 @@ Assert.AreEqual(0, format.GeneralFormats.Count);
 * enum [GeneralFormat](../generalformat/)
 * espace de noms [Aspose.Words.Fields](../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../)
-
-

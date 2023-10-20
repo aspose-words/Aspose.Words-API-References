@@ -1,9 +1,11 @@
 ---
 title: Fill.GradientVariant
-second_title: Aspose.Words för .NET API Referens
-description: Fill fast egendom. Hämtar gradientvariantenGradientVariant för fyllningen.
+linktitle: GradientVariant
+articleTitle: GradientVariant
+second_title: Aspose.Words för .NET
+description: Fill GradientVariant fast egendom. Hämtar gradientvariantenGradientVariant för fyllningen i C#.
 type: docs
-weight: 130
+weight: 120
 url: /sv/net/aspose.words.drawing/fill/gradientvariant/
 ---
 ## Fill.GradientVariant property
@@ -14,7 +16,7 @@ Hämtar gradientvarianten[`GradientVariant`](../../gradientvariant/) för fyllni
 public GradientVariant GradientVariant { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man fyller en form med övertoningar.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "Shape.GradientFill.docx", saveOptions);
 
 * enum [GradientVariant](../../gradientvariant/)
 * class [Fill](../)
-* namnutrymme [Aspose.Words.Drawing](../../fill/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ImageFieldMergingArgs.ImageFileName
-second_title: Aspose.Words für .NET-API-Referenz
-description: ImageFieldMergingArgs eigendom. Legt den Dateinamen des Bildes fest das die SerienbriefEngine in das Dokument einfügen muss.
+linktitle: ImageFileName
+articleTitle: ImageFileName
+second_title: Aspose.Words für .NET
+description: ImageFieldMergingArgs ImageFileName eigendom. Legt den Dateinamen des Bildes fest das die SerienbriefEngine in das Dokument einfügen muss in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.mailmerging/imagefieldmergingargs/imagefilename/
@@ -14,7 +16,7 @@ Legt den Dateinamen des Bildes fest, das die Serienbrief-Engine in das Dokument 
 public string ImageFileName { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Abmessungen von Bildern festgelegt werden, wenn MERGEFIELDS sie während eines Seriendrucks akzeptiert.
 
@@ -84,7 +86,5 @@ private class MergedImageResizer : IFieldMergingCallback
 ### Siehe auch
 
 * class [ImageFieldMergingArgs](../)
-* namensraum [Aspose.Words.MailMerging](../../imagefieldmergingargs/)
+* namensraum [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * Montage [Aspose.Words](../../../)
-
-

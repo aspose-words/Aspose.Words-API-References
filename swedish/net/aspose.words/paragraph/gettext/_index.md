@@ -1,9 +1,11 @@
 ---
 title: Paragraph.GetText
-second_title: Aspose.Words för .NET API Referens
-description: Paragraph metod. Hämtar texten i detta stycke inklusive slutet av styckets tecken.
+linktitle: GetText
+articleTitle: GetText
+second_title: Aspose.Words för .NET
+description: Paragraph GetText metod. Hämtar texten i detta stycke inklusive slutet av styckets tecken i C#.
 type: docs
-weight: 280
+weight: 260
 url: /sv/net/aspose.words/paragraph/gettext/
 ---
 ## Paragraph.GetText method
@@ -14,7 +16,7 @@ Hämtar texten i detta stycke inklusive slutet av styckets tecken.
 public override string GetText()
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Texten för alla underordnade noder är sammanlänkade och slutet av styckets tecken läggs till enligt följande:
 
@@ -24,7 +26,7 @@ Texten för alla underordnade noder är sammanlänkade och slutet av styckets te
 
 Den returnerade strängen innehåller alla kontroll- och specialtecken som beskrivs i[`ControlChar`](../../controlchar/).
 
-### Exempel
+## Exempel
 
 Visar hur man lägger till, uppdaterar och tar bort underordnade noder i en CompositeNodes samling av barn.
 
@@ -77,7 +79,5 @@ Assert.AreEqual(3, paragraph.GetChildNodes(NodeType.Any, true).Count);
 ### Se även
 
 * class [Paragraph](../)
-* namnutrymme [Aspose.Words](../../paragraph/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

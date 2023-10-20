@@ -1,7 +1,9 @@
 ---
 title: MappedDataFieldCollection.Item
-second_title: Aspose.Words لمراجع .NET API
-description: MappedDataFieldCollection ملكية. الحصول على اسم الحقل في مصدر البيانات المقترن بحقل دمج المراسلات المحدد أو تعيينه.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words لـ .NET
+description: MappedDataFieldCollection Item ملكية. الحصول على اسم الحقل في مصدر البيانات المقترن بحقل دمج المراسلات المحدد أو تعيينه في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.mailmerging/mappeddatafieldcollection/item/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.mailmerging/mappeddatafieldcollection/item/
 public string this[string documentFieldName] { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين أعمدة البيانات وMERGEFIELD بأسماء مختلفة بحيث يتم نقل البيانات فيما بينها أثناء عملية دمج البريد.
 
@@ -99,7 +101,5 @@ private static DataTable CreateSourceTableMappedDataFields()
 ### أنظر أيضا
 
 * class [MappedDataFieldCollection](../)
-* مساحة الاسم [Aspose.Words.MailMerging](../../mappeddatafieldcollection/)
+* مساحة الاسم [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * المجسم [Aspose.Words](../../../)
-
-

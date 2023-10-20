@@ -1,7 +1,9 @@
 ---
-title: Class Run
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Run 班级. 表示具有相同字体格式的一串字符
+title: Run Class
+linktitle: Run
+articleTitle: Run
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Run 班级. 表示具有相同字体格式的一串字符 在 C#.
 type: docs
 weight: 4820
 url: /zh/net/aspose.words/run/
@@ -20,8 +22,8 @@ public class Run : Inline
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Run](run/#constructor)(DocumentBase) | 初始化一个新实例`Run`类. |
-| [Run](run/#constructor_1)(DocumentBase, string) | 初始化一个新实例 **跑步**类. |
+| [Run](run/#constructor)(*[DocumentBase](../documentbase/)*) | 初始化一个新实例`Run`类. |
+| [Run](run/#constructor_1)(*[DocumentBase](../documentbase/), string*) | 初始化一个新实例**跑步**类. |
 
 ## 特性
 
@@ -50,24 +52,24 @@ public class Run : Inline
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [Accept](../../aspose.words/run/accept/)(DocumentVisitor) | 接受访客。 |
-| [Clone](../../aspose.words/node/clone/)(bool) | 创建节点的副本。 |
-| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | 获取指定的第一个祖先[`NodeType`](../nodetype/). |
-| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | 获取指定对象类型的第一个祖先。 |
+| override [Accept](../../aspose.words/run/accept/)(*[DocumentVisitor](../documentvisitor/)*) | 接受访客。 |
+| [Clone](../../aspose.words/node/clone/)(*bool*) | 创建节点的副本。 |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*[NodeType](../nodetype/)*) | 获取指定的第一个祖先[`NodeType`](../nodetype/). |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | 获取指定对象类型的第一个祖先。 |
 | override [GetText](../../aspose.words/run/gettext/)() | 获取运行文本。 |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | 根据先序树遍历算法获取下一个节点。 |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | 根据先序树遍历算法获取前一个节点。 |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../node/)*) | 根据先序树遍历算法获取下一个节点。 |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../node/)*) | 根据先序树遍历算法获取前一个节点。 |
 | [Remove](../../aspose.words/node/remove/)() | 将自身从父级中删除。 |
-| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | 将节点的内容导出为指定格式的字符串。 |
-| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | 使用指定的保存选项将节点的内容导出到字符串中。 |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../saveformat/)*) | 将节点的内容导出为指定格式的字符串。 |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | 使用指定的保存选项将节点的内容导出到字符串中。 |
 
-### 评论
+## 评论
 
 文档的所有文本都存储在文本串中。
 
 `Run`只能是一个孩子[`Paragraph`](../paragraph/)或内联[`StructuredDocumentTag`](../../aspose.words.markup/structureddocumenttag/)。
 
-### 例子
+## 例子
 
 演示如何使用其字体属性设置文本串的格式。
 
@@ -182,5 +184,3 @@ Assert.AreEqual(3, paragraph.GetChildNodes(NodeType.Any, true).Count);
 * class [Inline](../inline/)
 * 命名空间 [Aspose.Words](../../aspose.words/)
 * 部件 [Aspose.Words](../../)
-
-

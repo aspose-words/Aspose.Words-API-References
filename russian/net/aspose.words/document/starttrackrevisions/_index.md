@@ -1,12 +1,14 @@
 ---
 title: Document.StartTrackRevisions
-second_title: Справочник по API Aspose.Words для .NET
-description: Document метод. Начинает автоматически отмечать все дальнейшие изменения которые вы вносите в документ программно как изменения версии.
+linktitle: StartTrackRevisions
+articleTitle: StartTrackRevisions
+second_title: Aspose.Words для .NET
+description: Document StartTrackRevisions метод. Начинает автоматически отмечать все дальнейшие изменения которые вы вносите в документ программно как изменения версии на С#.
 type: docs
-weight: 730
+weight: 710
 url: /ru/net/aspose.words/document/starttrackrevisions/
 ---
-## StartTrackRevisions(string, DateTime) {#starttrackrevisions_1}
+## StartTrackRevisions(*string, DateTime*) {#starttrackrevisions_1}
 
 Начинает автоматически отмечать все дальнейшие изменения, которые вы вносите в документ программно, как изменения версии.
 
@@ -19,7 +21,7 @@ public void StartTrackRevisions(string author, DateTime dateTime)
 | author | String | Инициалы автора для исправлений. |
 | dateTime | DateTime | Дата и время, используемые для изменений. |
 
-### Примечания
+## Примечания
 
 Если вы вызовете этот метод, а затем внесете некоторые изменения в документ программно, сохраните документ и позже откроете его в MS Word, вы увидите эти изменения как исправления.
 
@@ -29,7 +31,7 @@ public void StartTrackRevisions(string author, DateTime dateTime)
 
 Этот метод не меняет[`TrackRevisions`](../trackrevisions/) и не использует его значение value для отслеживания версий.
 
-### Примеры
+## Примеры
 
 Показывает, как отслеживать изменения при редактировании документа.
 
@@ -78,12 +80,12 @@ doc.Save(ArtifactsDir + "Document.StartTrackRevisions.docx");
 
 * method [StopTrackRevisions](../stoptrackrevisions/)
 * class [Document](../)
-* пространство имен [Aspose.Words](../../document/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## StartTrackRevisions(string) {#starttrackrevisions}
+## StartTrackRevisions(*string*) {#starttrackrevisions}
 
 Начинает автоматически отмечать все дальнейшие изменения, которые вы вносите в документ программно, как изменения версии.
 
@@ -95,7 +97,7 @@ public void StartTrackRevisions(string author)
 | --- | --- | --- |
 | author | String | Инициалы автора для исправлений. |
 
-### Примечания
+## Примечания
 
 Если вы вызовете этот метод, а затем внесете некоторые изменения в документ программно, сохраните документ и позже откроете его в MS Word, вы увидите эти изменения как исправления.
 
@@ -105,7 +107,7 @@ public void StartTrackRevisions(string author)
 
 Этот метод не меняет[`TrackRevisions`](../trackrevisions/) и не использует его значение value для отслеживания версий.
 
-### Примеры
+## Примеры
 
 Показывает, как отслеживать изменения при редактировании документа.
 
@@ -154,7 +156,5 @@ doc.Save(ArtifactsDir + "Document.StartTrackRevisions.docx");
 
 * method [StopTrackRevisions](../stoptrackrevisions/)
 * class [Document](../)
-* пространство имен [Aspose.Words](../../document/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

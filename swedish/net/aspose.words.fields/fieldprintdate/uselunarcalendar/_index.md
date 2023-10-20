@@ -1,7 +1,9 @@
 ---
 title: FieldPrintDate.UseLunarCalendar
-second_title: Aspose.Words för .NET API Referens
-description: FieldPrintDate fast egendom. Hämtar eller ställer in om du vill använda Hijri Lunar eller Hebrew Lunar kalender.
+linktitle: UseLunarCalendar
+articleTitle: UseLunarCalendar
+second_title: Aspose.Words för .NET
+description: FieldPrintDate UseLunarCalendar fast egendom. Hämtar eller ställer in om du vill använda Hijri Lunar eller Hebrew Lunar kalender i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.fields/fieldprintdate/uselunarcalendar/
@@ -14,7 +16,7 @@ Hämtar eller ställer in om du vill använda Hijri Lunar eller Hebrew Lunar kal
 public bool UseLunarCalendar { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar läs PRINTDATE-fält.
 
@@ -56,7 +58,5 @@ Assert.AreEqual(" PRINTDATE  \\s", field.GetFieldCode());
 ### Se även
 
 * class [FieldPrintDate](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldprintdate/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

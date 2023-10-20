@@ -1,7 +1,9 @@
 ---
 title: NodeRendererBase.RenderToSize
-second_title: Aspose.Words لمراجع .NET API
-description: NodeRendererBase طريقة. يحول الشكل إلى aGraphics كائن بحجم محدد.
+linktitle: RenderToSize
+articleTitle: RenderToSize
+second_title: Aspose.Words لـ .NET
+description: NodeRendererBase RenderToSize طريقة. يحول الشكل إلى aGraphics كائن بحجم محدد في C#.
 type: docs
 weight: 80
 url: /ar/net/aspose.words.rendering/noderendererbase/rendertosize/
@@ -26,7 +28,7 @@ public float RenderToSize(Graphics graphics, float x, float y, float width, floa
 
 المقياس الذي تم حسابه تلقائيًا للشكل المعروض ليناسب الحجم المحدد.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تقديم شكل باستخدام كائن رسومي وعرضه باستخدام نموذج Windows.
 
@@ -136,7 +138,5 @@ private class ShapeForm : Form
 ### أنظر أيضا
 
 * class [NodeRendererBase](../)
-* مساحة الاسم [Aspose.Words.Rendering](../../noderendererbase/)
+* مساحة الاسم [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * المجسم [Aspose.Words](../../../)
-
-

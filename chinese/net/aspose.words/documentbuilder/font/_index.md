@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.Font
-second_title: Aspose.Words for .NET API 参考
-description: DocumentBuilder 财产. 返回表示当前字体格式属性的对象
+linktitle: Font
+articleTitle: Font
+second_title: 用于 .NET 的 Aspose.Words
+description: DocumentBuilder Font 财产. 返回表示当前字体格式属性的对象 在 C#.
 type: docs
 weight: 100
 url: /zh/net/aspose.words/documentbuilder/font/
@@ -14,13 +16,13 @@ url: /zh/net/aspose.words/documentbuilder/font/
 public Font Font { get; }
 ```
 
-### 评论
+## 评论
 
 使用`Font`访问和修改字体格式属性。
 
 在插入文本之前指定字体格式。
 
-### 例子
+## 例子
 
 演示如何将边框包围的字符串插入到文档中。
 
@@ -99,7 +101,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.CreateFormattedTable.docx");
 
 * class [Font](../../font/)
 * class [DocumentBuilder](../)
-* 命名空间 [Aspose.Words](../../documentbuilder/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

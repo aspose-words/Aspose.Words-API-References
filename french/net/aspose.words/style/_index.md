@@ -1,7 +1,9 @@
 ---
-title: Class Style
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Style classe. Représente un seul style intégré ou défini par lutilisateur.
+title: Style Class
+linktitle: Style
+articleTitle: Style
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Style classe. Représente un seul style intégré ou défini par lutilisateur en C#.
 type: docs
 weight: 6130
 url: /fr/net/aspose.words/style/
@@ -31,7 +33,6 @@ public class Style
 | [LinkedStyleName](../../aspose.words/style/linkedstylename/) { get; } | Obtient le nom du`Style` lié à celui-ci. Renvoie une chaîne vide si aucun style n'est lié. |
 | [List](../../aspose.words/style/list/) { get; } | Obtient la liste qui définit le formatage de ce style de liste. |
 | [ListFormat](../../aspose.words/style/listformat/) { get; } | Permet d'accéder aux propriétés de formatage de liste d'un style de paragraphe. |
-| [Locked](../../aspose.words/style/locked/) { get; set; } |  |
 | [Name](../../aspose.words/style/name/) { get; set; } | Obtient ou définit le nom du style. |
 | [NextParagraphStyleName](../../aspose.words/style/nextparagraphstylename/) { get; set; } | Obtient/définit le nom du style à appliquer automatiquement à un nouveau paragraphe inséré après un paragraphe formaté avec le style spécifié. |
 | [ParagraphFormat](../../aspose.words/style/paragraphformat/) { get; } | Obtient la mise en forme du paragraphe du style. |
@@ -43,10 +44,10 @@ public class Style
 
 | Nom | La description |
 | --- | --- |
-| [Equals](../../aspose.words/style/equals/#equals)(Style) | Se compare au style spécifié. Les styles Istds sont comparés uniquement pour les styles intégrés. Les styles par défaut ne sont pas inclus dans la comparaison. Le style de base, le style lié et le style du paragraphe suivant sont comparés de manière récursive. |
+| [Equals](../../aspose.words/style/equals/#equals)(*Style*) | Se compare au style spécifié. Les styles Istds sont comparés uniquement pour les styles intégrés. Les styles par défaut ne sont pas inclus dans la comparaison. Le style de base, le style lié et le style du paragraphe suivant sont comparés de manière récursive. |
 | [Remove](../../aspose.words/style/remove/)() | Supprime le style spécifié du document. |
 
-### Exemples
+## Exemples
 
 Montre comment créer et utiliser un style de paragraphe avec une mise en forme de liste.
 
@@ -113,5 +114,3 @@ Assert.AreEqual(Color.Empty.ToArgb(), firstParagraphStyle.Font.Color.ToArgb());
 
 * espace de noms [Aspose.Words](../../aspose.words/)
 * Assemblée [Aspose.Words](../../)
-
-

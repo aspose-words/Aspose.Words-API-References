@@ -1,7 +1,9 @@
 ---
-title: Class ReportingEngine
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Reporting.ReportingEngine clase. Proporciona rutinas para completar documentos de plantilla con datos y un conjunto de configuraciones para controlar estas rutinas.
+title: ReportingEngine Class
+linktitle: ReportingEngine
+articleTitle: ReportingEngine
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Reporting.ReportingEngine clase. Proporciona rutinas para completar documentos de plantilla con datos y un conjunto de configuraciones para controlar estas rutinas en C#.
 type: docs
 weight: 4730
 url: /es/net/aspose.words.reporting/reportingengine/
@@ -34,15 +36,13 @@ public class ReportingEngine
 
 | Nombre | Descripción |
 | --- | --- |
-| [BuildReport](../../aspose.words.reporting/reportingengine/buildreport/#buildreport)(Document, object) | Completa el documento de plantilla especificado con datos de la fuente especificada, convirtiéndolo en un informe listo. |
-| [BuildReport](../../aspose.words.reporting/reportingengine/buildreport/#buildreport_1)(Document, object, string) | Completa el documento de plantilla especificado con datos de la fuente especificada, convirtiéndolo en un informe listo. |
-| [BuildReport](../../aspose.words.reporting/reportingengine/buildreport/#buildreport_2)(Document, object[], string[]) | Completa el documento de plantilla especificado con datos de las fuentes especificadas, convirtiéndolo en un informe listo. |
-| [Equals](../../aspose.words.reporting/reportingengine/equals/)(object) | Determina si el objeto especificado tiene el mismo valor que el objeto actual. |
+| [BuildReport](../../aspose.words.reporting/reportingengine/buildreport/#buildreport)(*[Document](../../aspose.words/document/), object*) | Completa el documento de plantilla especificado con datos de la fuente especificada, convirtiéndolo en un informe listo. |
+| [BuildReport](../../aspose.words.reporting/reportingengine/buildreport/#buildreport_1)(*[Document](../../aspose.words/document/), object, string*) | Completa el documento de plantilla especificado con datos de la fuente especificada, convirtiéndolo en un informe listo. |
+| [BuildReport](../../aspose.words.reporting/reportingengine/buildreport/#buildreport_2)(*[Document](../../aspose.words/document/), object[], string[]*) | Completa el documento de plantilla especificado con datos de las fuentes especificadas, convirtiéndolo en un informe listo. |
+| [Equals](../../aspose.words.reporting/reportingengine/equals/)(*object*) | Determina si el objeto especificado tiene el mismo valor que el objeto actual. |
 | [GetHashCode](../../aspose.words.reporting/reportingengine/gethashcode/)() | Sirve como función hash para este tipo. |
 
 ### Ver también
 
 * espacio de nombres [Aspose.Words.Reporting](../../aspose.words.reporting/)
 * asamblea [Aspose.Words](../../)
-
-

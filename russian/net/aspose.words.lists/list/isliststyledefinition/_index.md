@@ -1,7 +1,9 @@
 ---
 title: List.IsListStyleDefinition
-second_title: Справочник по API Aspose.Words для .NET
-description: List свойство. Возвращаетистинный если этот список является определением стиля списка.
+linktitle: IsListStyleDefinition
+articleTitle: IsListStyleDefinition
+second_title: Aspose.Words для .NET
+description: List IsListStyleDefinition свойство. Возвращаетистинный если этот список является определением стиля списка на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.lists/list/isliststyledefinition/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.lists/list/isliststyledefinition/
 public bool IsListStyleDefinition { get; }
 ```
 
-### Примечания
+## Примечания
 
 Когда это свойство`истинный` ,[`Style`](../style/) Свойство возвращает стиль списка, который определяет этот список.
 
@@ -22,7 +24,7 @@ public bool IsListStyleDefinition { get; }
 
 Список, являющийся определением стиля списка, не может быть применен непосредственно к параграфам для их нумерации.
 
-### Примеры
+## Примеры
 
 Показывает, как создать стиль списка и использовать его в документе.
 
@@ -83,7 +85,5 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateAndUseListStyle.docx");
 ### Смотрите также
 
 * class [List](../)
-* пространство имен [Aspose.Words.Lists](../../list/)
+* пространство имен [Aspose.Words.Lists](../../../aspose.words.lists/)
 * сборка [Aspose.Words](../../../)
-
-

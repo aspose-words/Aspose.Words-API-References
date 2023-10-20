@@ -1,12 +1,14 @@
 ---
 title: CustomDocumentProperties.Add
-second_title: Aspose.Words لمراجع .NET API
-description: CustomDocumentProperties طريقة. إنشاء خاصية مستند مخصصة جديدة لـString نوع البيانات.
+linktitle: Add
+articleTitle: Add
+second_title: Aspose.Words لـ .NET
+description: CustomDocumentProperties Add طريقة. إنشاء خاصية مستند مخصصة جديدة لـString نوع البيانات في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.properties/customdocumentproperties/add/
 ---
-## Add(string, string) {#add_4}
+## Add(*string, string*) {#add_4}
 
 إنشاء خاصية مستند مخصصة جديدة لـString نوع البيانات.
 
@@ -23,7 +25,7 @@ public DocumentProperty Add(string name, string value)
 
 كائن الخاصية الذي تم إنشاؤه حديثًا.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التعامل مع الخصائص المخصصة للمستند.
 
@@ -84,12 +86,12 @@ Assert.AreEqual(0, properties.Count);
 
 * class [DocumentProperty](../../documentproperty/)
 * class [CustomDocumentProperties](../)
-* مساحة الاسم [Aspose.Words.Properties](../../customdocumentproperties/)
+* مساحة الاسم [Aspose.Words.Properties](../../../aspose.words.properties/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## Add(string, int) {#add_2}
+## Add(*string, int*) {#add_2}
 
 إنشاء خاصية مستند مخصصة جديدة لـNumber نوع البيانات.
 
@@ -106,7 +108,7 @@ public DocumentProperty Add(string name, int value)
 
 كائن الخاصية الذي تم إنشاؤه حديثًا.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التعامل مع الخصائص المخصصة للمستند.
 
@@ -167,12 +169,12 @@ Assert.AreEqual(0, properties.Count);
 
 * class [DocumentProperty](../../documentproperty/)
 * class [CustomDocumentProperties](../)
-* مساحة الاسم [Aspose.Words.Properties](../../customdocumentproperties/)
+* مساحة الاسم [Aspose.Words.Properties](../../../aspose.words.properties/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## Add(string, DateTime) {#add_3}
+## Add(*string, DateTime*) {#add_3}
 
 إنشاء خاصية مستند مخصصة جديدة لـDateTime نوع البيانات.
 
@@ -189,7 +191,7 @@ public DocumentProperty Add(string name, DateTime value)
 
 كائن الخاصية الذي تم إنشاؤه حديثًا.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء خاصية مستند مخصصة تحتوي على التاريخ والوقت.
 
@@ -260,12 +262,12 @@ Assert.AreEqual(0, properties.Count);
 
 * class [DocumentProperty](../../documentproperty/)
 * class [CustomDocumentProperties](../)
-* مساحة الاسم [Aspose.Words.Properties](../../customdocumentproperties/)
+* مساحة الاسم [Aspose.Words.Properties](../../../aspose.words.properties/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## Add(string, bool) {#add}
+## Add(*string, bool*) {#add}
 
 إنشاء خاصية مستند مخصصة جديدة لـBoolean نوع البيانات.
 
@@ -282,7 +284,7 @@ public DocumentProperty Add(string name, bool value)
 
 كائن الخاصية الذي تم إنشاؤه حديثًا.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التعامل مع الخصائص المخصصة للمستند.
 
@@ -343,12 +345,12 @@ Assert.AreEqual(0, properties.Count);
 
 * class [DocumentProperty](../../documentproperty/)
 * class [CustomDocumentProperties](../)
-* مساحة الاسم [Aspose.Words.Properties](../../customdocumentproperties/)
+* مساحة الاسم [Aspose.Words.Properties](../../../aspose.words.properties/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## Add(string, double) {#add_1}
+## Add(*string, double*) {#add_1}
 
 إنشاء خاصية مستند مخصصة جديدة لـDouble نوع البيانات.
 
@@ -365,7 +367,7 @@ public DocumentProperty Add(string name, double value)
 
 كائن الخاصية الذي تم إنشاؤه حديثًا.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التعامل مع الخصائص المخصصة للمستند.
 
@@ -426,7 +428,5 @@ Assert.AreEqual(0, properties.Count);
 
 * class [DocumentProperty](../../documentproperty/)
 * class [CustomDocumentProperties](../)
-* مساحة الاسم [Aspose.Words.Properties](../../customdocumentproperties/)
+* مساحة الاسم [Aspose.Words.Properties](../../../aspose.words.properties/)
 * المجسم [Aspose.Words](../../../)
-
-

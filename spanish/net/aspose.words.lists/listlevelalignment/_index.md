@@ -1,7 +1,9 @@
 ---
-title: Enum ListLevelAlignment
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Lists.ListLevelAlignment enumeración. Especifica la alineación del número de lista o viñeta.
+title: ListLevelAlignment Enum
+linktitle: ListLevelAlignment
+articleTitle: ListLevelAlignment
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Lists.ListLevelAlignment enumeración. Especifica la alineación del número de lista o viñeta en C#.
 type: docs
 weight: 3510
 url: /es/net/aspose.words.lists/listlevelalignment/
@@ -22,11 +24,11 @@ public enum ListLevelAlignment
 | Center | `1` | La etiqueta de la lista está centrada en la posición del número. |
 | Right | `2` | Esta etiqueta de lista está alineada a la derecha de la posición del número. |
 
-### Observaciones
+## Observaciones
 
 Se utiliza como valor para el[`Alignment`](../listlevel/alignment/) propiedad.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo aplicar formato de lista personalizado a párrafos cuando se utiliza DocumentBuilder.
 
@@ -86,5 +88,3 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateCustomList.docx");
 
 * espacio de nombres [Aspose.Words.Lists](../../aspose.words.lists/)
 * asamblea [Aspose.Words](../../)
-
-

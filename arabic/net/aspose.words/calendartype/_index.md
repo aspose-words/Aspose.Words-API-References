@@ -1,7 +1,9 @@
 ---
-title: Enum CalendarType
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.CalendarType تعداد. يحدد نوع التقويم.
+title: CalendarType Enum
+linktitle: CalendarType
+articleTitle: CalendarType
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.CalendarType تعداد. يحدد نوع التقويم في C#.
 type: docs
 weight: 190
 url: /ar/net/aspose.words/calendartype/
@@ -24,7 +26,7 @@ public enum CalendarType
 | SakaEra | `3` | تقويم عصر ساكا. |
 | UmAlQura | `4` | تقويم أم القرى. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تطبيق تنسيق مخصص تلقائيًا على نتائج الحقول عندما يتم تحديث الحقول.
 
@@ -162,5 +164,3 @@ private class FieldResultFormatter : IFieldResultFormatter
 
 * مساحة الاسم [Aspose.Words](../../aspose.words/)
 * المجسم [Aspose.Words](../../)
-
-

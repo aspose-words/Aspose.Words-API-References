@@ -1,7 +1,9 @@
 ---
-title: Class OdsoRecipientData
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Settings.OdsoRecipientData 班级. 表示有关外部数据源中要从邮件合并中排除的单个记录的信息
+title: OdsoRecipientData Class
+linktitle: OdsoRecipientData
+articleTitle: OdsoRecipientData
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Settings.OdsoRecipientData 班级. 表示有关外部数据源中要从邮件合并中排除的单个记录的信息 在 C#.
 type: docs
 weight: 5930
 url: /zh/net/aspose.words.settings/odsorecipientdata/
@@ -37,11 +39,11 @@ public class OdsoRecipientData
 | --- | --- |
 | [Clone](../../aspose.words.settings/odsorecipientdata/clone/)() | 返回此对象的深度克隆。 |
 
-### 评论
+## 评论
 
 如果记录应合并到合并文档中，则不需要有关该记录的信息。 但是，如果给定记录不应合并到合并文档中，则该记录的唯一键 的值应存储在[`UniqueTag`](./uniquetag/)该对象的属性来指示此排除。
 
-### 例子
+## 例子
 
 显示如何访问指定邮件合并将排除哪些合并数据源记录的数据集合。
 
@@ -82,5 +84,3 @@ Assert.AreEqual(0, dataCollection.Count);
 
 * 命名空间 [Aspose.Words.Settings](../../aspose.words.settings/)
 * 部件 [Aspose.Words](../../)
-
-

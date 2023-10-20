@@ -1,7 +1,9 @@
 ---
 title: SaveOptions.ExportGeneratorName
-second_title: Aspose.Words for .NET API 参考
-description: SaveOptions 财产. 当真的 导致 Aspose.Words 的名称和版本嵌入到生成的文件中 默认值为真的.
+linktitle: ExportGeneratorName
+articleTitle: ExportGeneratorName
+second_title: 用于 .NET 的 Aspose.Words
+description: SaveOptions ExportGeneratorName 财产. 当真的 导致 Aspose.Words 的名称和版本嵌入到生成的文件中 默认值为真的 在 C#.
 type: docs
 weight: 80
 url: /zh/net/aspose.words.saving/saveoptions/exportgeneratorname/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.saving/saveoptions/exportgeneratorname/
 public bool ExportGeneratorName { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何禁止将 Aspose.Words 的名称和版本添加到生成的文件中。
 
@@ -30,7 +32,5 @@ doc.Save(ArtifactsDir + "OoxmlSaveOptions.ExportGeneratorName.docx", saveOptions
 ### 也可以看看
 
 * class [SaveOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../saveoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

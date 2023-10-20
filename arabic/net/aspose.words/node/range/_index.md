@@ -1,7 +1,9 @@
 ---
 title: Node.Range
-second_title: Aspose.Words لمراجع .NET API
-description: Node ملكية. إرجاع أRange الكائن الذي يمثل جزء المستند الموجود في هذه العقدة.
+linktitle: Range
+articleTitle: Range
+second_title: Aspose.Words لـ .NET
+description: Node Range ملكية. إرجاع أRange الكائن الذي يمثل جزء المستند الموجود في هذه العقدة في C#.
 type: docs
 weight: 80
 url: /ar/net/aspose.words/node/range/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/node/range/
 public Range Range { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية حذف جميع العقد من النطاق.
 
@@ -41,7 +43,5 @@ Assert.AreEqual("Section 2.", doc.GetText().Trim());
 
 * class [Range](../../range/)
 * class [Node](../)
-* مساحة الاسم [Aspose.Words](../../node/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

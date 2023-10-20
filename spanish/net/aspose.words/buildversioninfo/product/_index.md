@@ -1,7 +1,9 @@
 ---
 title: BuildVersionInfo.Product
-second_title: Referencia de API de Aspose.Words para .NET
-description: BuildVersionInfo propiedad. Obtiene el nombre completo del producto.
+linktitle: Product
+articleTitle: Product
+second_title: Aspose.Words para .NET
+description: BuildVersionInfo Product propiedad. Obtiene el nombre completo del producto en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words/buildversioninfo/product/
@@ -14,7 +16,7 @@ Obtiene el nombre completo del producto.
 public static string Product { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo mostrar información sobre su versión instalada de Aspose.Words.
 
@@ -25,7 +27,5 @@ Console.WriteLine($"I am currently using {BuildVersionInfo.Product}, version num
 ### Ver también
 
 * class [BuildVersionInfo](../)
-* espacio de nombres [Aspose.Words](../../buildversioninfo/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

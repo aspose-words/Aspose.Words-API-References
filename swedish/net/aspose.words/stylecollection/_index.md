@@ -1,7 +1,9 @@
 ---
-title: Class StyleCollection
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.StyleCollection klass. En samling avStyle objekt som representerar både den inbyggda och användardefinierade stilen i ett dokument.
+title: StyleCollection Class
+linktitle: StyleCollection
+articleTitle: StyleCollection
+second_title: Aspose.Words för .NET
+description: Aspose.Words.StyleCollection klass. En samling avStyle objekt som representerar både den inbyggda och användardefinierade stilen i ett dokument i C#.
 type: docs
 weight: 6140
 url: /sv/net/aspose.words/stylecollection/
@@ -30,12 +32,12 @@ public class StyleCollection : IEnumerable<Style>
 
 | namn | Beskrivning |
 | --- | --- |
-| [Add](../../aspose.words/stylecollection/add/)(StyleType, string) | Skapar en ny användardefinierad stil och lägger till den i samlingen. |
-| [AddCopy](../../aspose.words/stylecollection/addcopy/)(Style) | Kopierar en stil till den här samlingen. |
+| [Add](../../aspose.words/stylecollection/add/)(*[StyleType](../styletype/), string*) | Skapar en ny användardefinierad stil och lägger till den i samlingen. |
+| [AddCopy](../../aspose.words/stylecollection/addcopy/)(*[Style](../style/)*) | Kopierar en stil till den här samlingen. |
 | [ClearQuickStyleGallery](../../aspose.words/stylecollection/clearquickstylegallery/)() | Tar bort alla stilar från panelen Quick Style Gallery. |
 | [GetEnumerator](../../aspose.words/stylecollection/getenumerator/)() | Hämtar ett uppräkningsobjekt som kommer att räkna upp stilar i alfabetisk ordning efter deras namn. |
 
-### Exempel
+## Exempel
 
 Visar hur du skapar och använder ett styckeformat med listformatering.
 
@@ -69,5 +71,3 @@ builder.Document.Save(ArtifactsDir + "Styles.ParagraphStyleBulletedList.docx");
 * class [Style](../style/)
 * namnutrymme [Aspose.Words](../../aspose.words/)
 * hopsättning [Aspose.Words](../../)
-
-

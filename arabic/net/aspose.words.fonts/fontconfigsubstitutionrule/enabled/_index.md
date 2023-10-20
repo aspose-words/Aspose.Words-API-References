@@ -1,7 +1,9 @@
 ---
 title: FontConfigSubstitutionRule.Enabled
-second_title: Aspose.Words لمراجع .NET API
-description: FontConfigSubstitutionRule ملكية. يحدد ما إذا كانت القاعدة مفعلة أم لا.
+linktitle: Enabled
+articleTitle: Enabled
+second_title: Aspose.Words لـ .NET
+description: FontConfigSubstitutionRule Enabled ملكية. يحدد ما إذا كانت القاعدة مفعلة أم لا في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fonts/fontconfigsubstitutionrule/enabled/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fonts/fontconfigsubstitutionrule/enabled/
 public override bool Enabled { set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يعرض استبدال تكوين الخط المعتمد على نظام التشغيل.
 
@@ -50,7 +52,5 @@ if (isLinuxOrMac)
 ### أنظر أيضا
 
 * class [FontConfigSubstitutionRule](../)
-* مساحة الاسم [Aspose.Words.Fonts](../../fontconfigsubstitutionrule/)
+* مساحة الاسم [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * المجسم [Aspose.Words](../../../)
-
-

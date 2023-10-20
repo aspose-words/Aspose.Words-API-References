@@ -1,7 +1,9 @@
 ---
 title: GradientStopCollection.Item
-second_title: Referencia de API de Aspose.Words para .NET
-description: GradientStopCollection propiedad. Obtiene o establece unGradientStop objeto en la colección.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words para .NET
+description: GradientStopCollection Item propiedad. Obtiene o establece unGradientStop objeto en la colección en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words.drawing/gradientstopcollection/item/
@@ -14,7 +16,7 @@ Obtiene o establece un[`GradientStop`](../../gradientstop/) objeto en la colecci
 public GradientStop this[int index] { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo agregar paradas de degradado al relleno de degradado.
 
@@ -68,7 +70,5 @@ doc.Save(ArtifactsDir + "Shape.GradientStops.docx", saveOptions);
 
 * class [GradientStop](../../gradientstop/)
 * class [GradientStopCollection](../)
-* espacio de nombres [Aspose.Words.Drawing](../../gradientstopcollection/)
+* espacio de nombres [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * asamblea [Aspose.Words](../../../)
-
-

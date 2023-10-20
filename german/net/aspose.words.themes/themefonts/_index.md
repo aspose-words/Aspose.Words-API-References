@@ -1,7 +1,9 @@
 ---
-title: Class ThemeFonts
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Themes.ThemeFonts klas. Stellt eine Sammlung von Schriftarten im Schriftartenschema dar und ermöglicht die Angabe verschiedener Schriftarten für verschiedene SprachenLatin EastAsian UndComplexScript .
+title: ThemeFonts Class
+linktitle: ThemeFonts
+articleTitle: ThemeFonts
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Themes.ThemeFonts klas. Stellt eine Sammlung von Schriftarten im Schriftartenschema dar und ermöglicht die Angabe verschiedener Schriftarten für verschiedene SprachenLatin EastAsian UndComplexScript  in C#.
 type: docs
 weight: 6500
 url: /de/net/aspose.words.themes/themefonts/
@@ -24,7 +26,7 @@ public class ThemeFonts
 | [EastAsian](../../aspose.words.themes/themefonts/eastasian/) { get; set; } | Gibt den Schriftartnamen für ostasiatische Zeichen an. |
 | [Latin](../../aspose.words.themes/themefonts/latin/) { get; set; } | Gibt den Schriftartnamen für lateinische Zeichen an. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie benutzerdefinierte Farben und Schriftarten für Designs festlegen.
 
@@ -73,5 +75,3 @@ doc.Save(ArtifactsDir + "Themes.CustomColorsAndFonts.docx");
 
 * namensraum [Aspose.Words.Themes](../../aspose.words.themes/)
 * Montage [Aspose.Words](../../)
-
-

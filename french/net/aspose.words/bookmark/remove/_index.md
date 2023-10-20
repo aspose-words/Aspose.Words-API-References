@@ -1,7 +1,9 @@
 ---
 title: Bookmark.Remove
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Bookmark méthode. Supprime le signet du document. Ne supprime pas le texte à lintérieur du signet.
+linktitle: Remove
+articleTitle: Remove
+second_title: Aspose.Words pour .NET
+description: Bookmark Remove méthode. Supprime le signet du document. Ne supprime pas le texte à lintérieur du signet en C#.
 type: docs
 weight: 80
 url: /fr/net/aspose.words/bookmark/remove/
@@ -14,7 +16,7 @@ Supprime le signet du document. Ne supprime pas le texte à l'intérieur du sign
 public void Remove()
 ```
 
-### Exemples
+## Exemples
 
 Montre comment supprimer des signets d’un document.
 
@@ -75,7 +77,5 @@ Assert.AreEqual("Text inside MyBookmark_1.\r" +
 ### Voir également
 
 * class [Bookmark](../)
-* espace de noms [Aspose.Words](../../bookmark/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

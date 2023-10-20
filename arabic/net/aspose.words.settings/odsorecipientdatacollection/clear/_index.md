@@ -1,7 +1,9 @@
 ---
 title: OdsoRecipientDataCollection.Clear
-second_title: Aspose.Words لمراجع .NET API
-description: OdsoRecipientDataCollection طريقة. إزالة كافة العناصر من هذه المجموعة.
+linktitle: Clear
+articleTitle: Clear
+second_title: Aspose.Words لـ .NET
+description: OdsoRecipientDataCollection Clear طريقة. إزالة كافة العناصر من هذه المجموعة في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.settings/odsorecipientdatacollection/clear/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.settings/odsorecipientdatacollection/clear/
 public void Clear()
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الوصول إلى مجموعة البيانات التي تحدد سجلات مصدر بيانات الدمج التي سيتم استبعادها من خلال دمج البريد.
 
@@ -54,7 +56,5 @@ Assert.AreEqual(0, dataCollection.Count);
 ### أنظر أيضا
 
 * class [OdsoRecipientDataCollection](../)
-* مساحة الاسم [Aspose.Words.Settings](../../odsorecipientdatacollection/)
+* مساحة الاسم [Aspose.Words.Settings](../../../aspose.words.settings/)
 * المجسم [Aspose.Words](../../../)
-
-

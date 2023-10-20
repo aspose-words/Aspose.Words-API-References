@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.AxisBetweenCategories
-second_title: Aspose.Words لمراجع .NET API
-description: ChartAxis ملكية. الحصول على أو تعيين علامة تشير إلى ما إذا كان محور القيمة يتقاطع مع محور الفئة بين الفئات.
+linktitle: AxisBetweenCategories
+articleTitle: AxisBetweenCategories
+second_title: Aspose.Words لـ .NET
+description: ChartAxis AxisBetweenCategories ملكية. الحصول على أو تعيين علامة تشير إلى ما إذا كان محور القيمة يتقاطع مع محور الفئة بين الفئات في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.drawing.charts/chartaxis/axisbetweencategories/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.drawing.charts/chartaxis/axisbetweencategories/
 public bool AxisBetweenCategories { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 الخاصية لها تأثير فقط على محاور القيمة. وهو غير مدعوم من قبل مخططات MS Office 2016 الجديدة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الحصول على محور الرسم البياني للعبور في موقع مخصص.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "Charts.AxisCross.docx");
 ### أنظر أيضا
 
 * class [ChartAxis](../)
-* مساحة الاسم [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* مساحة الاسم [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../../)
-
-

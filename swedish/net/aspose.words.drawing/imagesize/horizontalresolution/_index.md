@@ -1,7 +1,9 @@
 ---
 title: ImageSize.HorizontalResolution
-second_title: Aspose.Words för .NET API Referens
-description: ImageSize fast egendom. Får den horisontella upplösningen i DPI.
+linktitle: HorizontalResolution
+articleTitle: HorizontalResolution
+second_title: Aspose.Words för .NET
+description: ImageSize HorizontalResolution fast egendom. Får den horisontella upplösningen i DPI i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.drawing/imagesize/horizontalresolution/
@@ -14,7 +16,7 @@ Får den horisontella upplösningen i DPI.
 public double HorizontalResolution { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man läser egenskaperna för en bild i en form.
 
@@ -47,7 +49,5 @@ doc.Save(ArtifactsDir + "Drawing.ImageSize.docx");
 ### Se även
 
 * class [ImageSize](../)
-* namnutrymme [Aspose.Words.Drawing](../../imagesize/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldToc.CustomStyles
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldToc propriété. Obtient ou définit une liste de styles autres que les styles de titre intégrés à inclure dans la table des matières.
+linktitle: CustomStyles
+articleTitle: CustomStyles
+second_title: Aspose.Words pour .NET
+description: FieldToc CustomStyles propriété. Obtient ou définit une liste de styles autres que les styles de titre intégrés à inclure dans la table des matières en C#.
 type: docs
 weight: 40
 url: /fr/net/aspose.words.fields/fieldtoc/customstyles/
@@ -14,7 +16,7 @@ Obtient ou définit une liste de styles autres que les styles de titre intégré
 public string CustomStyles { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment insérer une table des matières et la remplir avec des entrées basées sur les styles de titre.
 
@@ -99,7 +101,5 @@ public void InsertNewPageWithHeading(DocumentBuilder builder, string captionText
 ### Voir également
 
 * class [FieldToc](../)
-* espace de noms [Aspose.Words.Fields](../../fieldtoc/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

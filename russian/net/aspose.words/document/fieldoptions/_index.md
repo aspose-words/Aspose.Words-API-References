@@ -1,7 +1,9 @@
 ---
 title: Document.FieldOptions
-second_title: Справочник по API Aspose.Words для .NET
-description: Document свойство. ПолучаетFieldOptions объект который представляет параметры управления обработкой полей в документе.
+linktitle: FieldOptions
+articleTitle: FieldOptions
+second_title: Aspose.Words для .NET
+description: Document FieldOptions свойство. ПолучаетFieldOptions объект который представляет параметры управления обработкой полей в документе на С#.
 type: docs
 weight: 120
 url: /ru/net/aspose.words/document/fieldoptions/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/document/fieldoptions/
 public FieldOptions FieldOptions { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как указать источник языка и региональных параметров, используемый для форматирования даты во время обновления поля или слияния почты.
 
@@ -50,7 +52,5 @@ Thread.CurrentThread.CurrentCulture = currentCulture;
 
 * class [FieldOptions](../../../aspose.words.fields/fieldoptions/)
 * class [Document](../)
-* пространство имен [Aspose.Words](../../document/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

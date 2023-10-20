@@ -1,9 +1,11 @@
 ---
 title: Fill.Pattern
-second_title: Справочник по API Aspose.Words для .NET
-description: Fill свойство. ПолучаетPatternType для заливки.
+linktitle: Pattern
+articleTitle: Pattern
+second_title: Aspose.Words для .NET
+description: Fill Pattern свойство. ПолучаетPatternType для заливки на С#.
 type: docs
-weight: 160
+weight: 150
 url: /ru/net/aspose.words.drawing/fill/pattern/
 ---
 ## Fill.Pattern property
@@ -18,7 +20,5 @@ public PatternType Pattern { get; }
 
 * enum [PatternType](../../patterntype/)
 * class [Fill](../)
-* пространство имен [Aspose.Words.Drawing](../../fill/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

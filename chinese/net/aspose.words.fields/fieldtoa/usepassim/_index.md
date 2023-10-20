@@ -1,7 +1,9 @@
 ---
 title: FieldToa.UsePassim
-second_title: Aspose.Words for .NET API 参考
-description: FieldToa 财产. 获取或设置是否将对同一 权威的五个或更多不同页面引用替换为passim用于指示某个单词或段落在引用的作品中频繁出现 
+linktitle: UsePassim
+articleTitle: UsePassim
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldToa UsePassim 财产. 获取或设置是否将对同一 权威的五个或更多不同页面引用替换为passim用于指示某个单词或段落在引用的作品中频繁出现  在 C#.
 type: docs
 weight: 110
 url: /zh/net/aspose.words.fields/fieldtoa/usepassim/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fieldtoa/usepassim/
 public bool UsePassim { get; set; }
 ```
 
-### 例子
+## 例子
 
 展示如何使用 TOA 和 TA 字段构建和自定义权限表。
 
@@ -137,7 +139,5 @@ private static FieldTA InsertToaEntry(DocumentBuilder builder, string entryCateg
 ### 也可以看看
 
 * class [FieldToa](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldtoa/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

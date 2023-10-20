@@ -1,7 +1,9 @@
 ---
 title: FieldIndex.LetterRange
-second_title: Aspose.Words for .NET API 参考
-description: FieldIndex 财产. 获取或设置限制索引的字母范围
+linktitle: LetterRange
+articleTitle: LetterRange
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldIndex LetterRange 财产. 获取或设置限制索引的字母范围 在 C#.
 type: docs
 weight: 90
 url: /zh/net/aspose.words.fields/fieldindex/letterrange/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fieldindex/letterrange/
 public string LetterRange { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何使用 XE 字段用条目填充 INDEX 字段，并修改其外观。
 
@@ -86,7 +88,5 @@ doc.Save(ArtifactsDir + "Field.INDEX.XE.Formatting.docx");
 ### 也可以看看
 
 * class [FieldIndex](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldindex/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class PdfDigitalSignatureDetails
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Saving.PdfDigitalSignatureDetails classe. Contiene i dettagli per firmare un documento PDF con firma digitale.
+title: PdfDigitalSignatureDetails Class
+linktitle: PdfDigitalSignatureDetails
+articleTitle: PdfDigitalSignatureDetails
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Saving.PdfDigitalSignatureDetails classe. Contiene i dettagli per firmare un documento PDF con firma digitale in C#.
 type: docs
 weight: 5430
 url: /it/net/aspose.words.saving/pdfdigitalsignaturedetails/
@@ -19,7 +21,7 @@ public class PdfDigitalSignatureDetails
 | Nome | Descrizione |
 | --- | --- |
 | [PdfDigitalSignatureDetails](pdfdigitalsignaturedetails/#constructor)() | Inizializza un'istanza di questa classe. |
-| [PdfDigitalSignatureDetails](pdfdigitalsignaturedetails/#constructor_1)(CertificateHolder, string, string, DateTime) | Inizializza un'istanza di questa classe. |
+| [PdfDigitalSignatureDetails](pdfdigitalsignaturedetails/#constructor_1)(*[CertificateHolder](../../aspose.words.digitalsignatures/certificateholder/), string, string, DateTime*) | Inizializza un'istanza di questa classe. |
 
 ## Proprietà
 
@@ -32,7 +34,7 @@ public class PdfDigitalSignatureDetails
 | [SignatureDate](../../aspose.words.saving/pdfdigitalsignaturedetails/signaturedate/) { get; set; } | Ottiene o imposta la data della firma. |
 | [TimestampSettings](../../aspose.words.saving/pdfdigitalsignaturedetails/timestampsettings/) { get; set; } | Ottiene o imposta le impostazioni del timestamp della firma digitale. |
 
-### Osservazioni
+## Osservazioni
 
 Al momento la firma digitale dei documenti PDF è disponibile solo su .NET 2.0 o versioni successive.
 
@@ -40,7 +42,7 @@ Per firmare digitalmente un documento PDF quando viene creato da Aspose.Words, i
 
 Aspose.Words crea una firma PKCS#7 sull'intero documento PDF e utilizza il filtro "Adobe.PPKMS" e il sottofiltro "adbe.pkcs7.sha1" durante la creazione di una firma digitale.
 
-### Esempi
+## Esempi
 
 Mostra come firmare un documento PDF generato.
 
@@ -73,5 +75,3 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignature.pdf", options);
 
 * spazio dei nomi [Aspose.Words.Saving](../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../)
-
-

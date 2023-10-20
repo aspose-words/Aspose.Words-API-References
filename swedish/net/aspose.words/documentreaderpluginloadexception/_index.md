@@ -1,7 +1,9 @@
 ---
-title: Class DocumentReaderPluginLoadException
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.DocumentReaderPluginLoadException klass. Kastas under dokumentladdning när pluginprogrammet som krävs för att läsa dokumentformatet inte kan laddas.
+title: DocumentReaderPluginLoadException Class
+linktitle: DocumentReaderPluginLoadException
+articleTitle: DocumentReaderPluginLoadException
+second_title: Aspose.Words för .NET
+description: Aspose.Words.DocumentReaderPluginLoadException klass. Kastas under dokumentladdning när pluginprogrammet som krävs för att läsa dokumentformatet inte kan laddas i C#.
 type: docs
 weight: 460
 url: /sv/net/aspose.words/documentreaderpluginloadexception/
@@ -18,5 +20,3 @@ public class DocumentReaderPluginLoadException : Exception
 
 * namnutrymme [Aspose.Words](../../aspose.words/)
 * hopsättning [Aspose.Words](../../)
-
-

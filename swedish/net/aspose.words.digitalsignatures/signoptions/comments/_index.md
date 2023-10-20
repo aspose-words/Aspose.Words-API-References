@@ -1,20 +1,22 @@
 ---
 title: SignOptions.Comments
-second_title: Aspose.Words för .NET API Referens
-description: SignOptions fast egendom. Anger kommentarer om den digitala signaturen. Standardvärdet är tom sträng Empty.
+linktitle: Comments
+articleTitle: Comments
+second_title: Aspose.Words för .NET
+description: SignOptions Comments fast egendom. Anger kommentarer om den digitala signaturen. Standardvärdet ärtom sträng Empty i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.digitalsignatures/signoptions/comments/
 ---
 ## SignOptions.Comments property
 
-Anger kommentarer om den digitala signaturen. Standardvärdet är **tom sträng** (Empty).
+Anger kommentarer om den digitala signaturen. Standardvärdet är**tom sträng** (Empty).
 
 ```csharp
 public string Comments { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man digitalt signerar dokument.
 
@@ -43,7 +45,5 @@ using (Stream streamIn = new FileStream(MyDir + "Document.docx", FileMode.Open))
 ### Se även
 
 * class [SignOptions](../)
-* namnutrymme [Aspose.Words.DigitalSignatures](../../signoptions/)
+* namnutrymme [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: TableSubstitutionRule.AddSubstitutes
-second_title: Aspose.Words per .NET API Reference
-description: TableSubstitutionRule metodo. Aggiunge nomi di font sostitutivi per il nome del font originale specificato.
+linktitle: AddSubstitutes
+articleTitle: AddSubstitutes
+second_title: Aspose.Words per .NET
+description: TableSubstitutionRule AddSubstitutes metodo. Aggiunge nomi di font sostitutivi per il nome del font originale specificato in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words.fonts/tablesubstitutionrule/addsubstitutes/
@@ -19,7 +21,7 @@ public void AddSubstitutes(string originalFontName, params string[] substituteFo
 | originalFontName | String | Nome del carattere originale. |
 | substituteFontNames | String[] | Elenco di nomi di caratteri alternativi. |
 
-### Esempi
+## Esempi
 
 Mostra come accedere all'origine dei caratteri di sistema di un documento e impostare i sostituti dei caratteri.
 
@@ -131,7 +133,5 @@ doc.Save(ArtifactsDir + "FontSettings.TableSubstitutionRule.Custom.pdf");
 ### Guarda anche
 
 * class [TableSubstitutionRule](../)
-* spazio dei nomi [Aspose.Words.Fonts](../../tablesubstitutionrule/)
+* spazio dei nomi [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * assemblea [Aspose.Words](../../../)
-
-

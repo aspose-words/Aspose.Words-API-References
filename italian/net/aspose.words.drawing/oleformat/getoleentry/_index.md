@@ -1,7 +1,9 @@
 ---
 title: OleFormat.GetOleEntry
-second_title: Aspose.Words per .NET API Reference
-description: OleFormat metodo. Ottiene limmissione dei dati delloggetto OLE.
+linktitle: GetOleEntry
+articleTitle: GetOleEntry
+second_title: Aspose.Words per .NET
+description: OleFormat GetOleEntry metodo. Ottiene limmissione dei dati delloggetto OLE in C#.
 type: docs
 weight: 140
 url: /it/net/aspose.words.drawing/oleformat/getoleentry/
@@ -22,7 +24,7 @@ public MemoryStream GetOleEntry(string oleEntryName)
 
 Un flusso di dati OLE o`nullo`.
 
-### Esempi
+## Esempi
 
 Mostra come inserire oggetti OLE collegati e scollegati.
 
@@ -72,7 +74,5 @@ using (MemoryStream stream = oleFormat.GetOleEntry("\x0001CompObj"))
 ### Guarda anche
 
 * class [OleFormat](../)
-* spazio dei nomi [Aspose.Words.Drawing](../../oleformat/)
+* spazio dei nomi [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assemblea [Aspose.Words](../../../)
-
-

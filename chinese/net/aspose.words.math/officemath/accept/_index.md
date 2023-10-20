@@ -1,7 +1,9 @@
 ---
 title: OfficeMath.Accept
-second_title: Aspose.Words for .NET API 参考
-description: OfficeMath 方法. 接受访客
+linktitle: Accept
+articleTitle: Accept
+second_title: 用于 .NET 的 Aspose.Words
+description: OfficeMath Accept 方法. 接受访客 在 C#.
 type: docs
 weight: 60
 url: /zh/net/aspose.words.math/officemath/accept/
@@ -22,7 +24,7 @@ public override bool Accept(DocumentVisitor visitor)
 
 如果访问了所有节点，则为 True；假如果[`DocumentVisitor`](../../../aspose.words/documentvisitor/)在访问所有节点之前停止操作。
 
-### 评论
+## 评论
 
 枚举该节点及其所有子节点。每个节点调用相应的方法[`DocumentVisitor`](../../../aspose.words/documentvisitor/)。
 
@@ -30,7 +32,7 @@ public override bool Accept(DocumentVisitor visitor)
 
 通话[`VisitOfficeMathStart`](../../../aspose.words/documentvisitor/visitofficemathstart/)，然后调用[`Accept`](../../../aspose.words/node/accept/)对于 Office Math 的 all 子节点并调用[`VisitOfficeMathEnd`](../../../aspose.words/documentvisitor/visitofficemathend/)最后.
 
-### 例子
+## 例子
 
 演示如何打印文档中每个 Office Math 节点的节点结构。
 
@@ -123,7 +125,5 @@ public class OfficeMathStructurePrinter : DocumentVisitor
 
 * class [DocumentVisitor](../../../aspose.words/documentvisitor/)
 * class [OfficeMath](../)
-* 命名空间 [Aspose.Words.Math](../../officemath/)
+* 命名空间 [Aspose.Words.Math](../../../aspose.words.math/)
 * 部件 [Aspose.Words](../../../)
-
-

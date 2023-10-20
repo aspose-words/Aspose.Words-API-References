@@ -1,7 +1,9 @@
 ---
 title: Shape.ExtrusionEnabled
-second_title: Referencia de API de Aspose.Words para .NET
-description: Shape propiedad. Devolucionesverdadero si un efecto de extrusión está habilitado.
+linktitle: ExtrusionEnabled
+articleTitle: ExtrusionEnabled
+second_title: Aspose.Words para .NET
+description: Shape ExtrusionEnabled propiedad. Devolucionesverdadero si un efecto de extrusión está habilitado en C#.
 type: docs
 weight: 30
 url: /es/net/aspose.words.drawing/shape/extrusionenabled/
@@ -14,7 +16,7 @@ Devoluciones`verdadero` si un efecto de extrusión está habilitado.
 public bool ExtrusionEnabled { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo iterar sobre todas las formas de un documento.
 
@@ -137,7 +139,5 @@ private class ShapeAppearancePrinter : DocumentVisitor
 ### Ver también
 
 * class [Shape](../)
-* espacio de nombres [Aspose.Words.Drawing](../../shape/)
+* espacio de nombres [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * asamblea [Aspose.Words](../../../)
-
-

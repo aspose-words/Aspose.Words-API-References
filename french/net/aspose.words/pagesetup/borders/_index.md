@@ -1,7 +1,9 @@
 ---
 title: PageSetup.Borders
-second_title: Référence de l'API Aspose.Words pour .NET
-description: PageSetup propriété. Obtient une collection des bordures de page.
+linktitle: Borders
+articleTitle: Borders
+second_title: Aspose.Words pour .NET
+description: PageSetup Borders propriété. Obtient une collection des bordures de page en C#.
 type: docs
 weight: 50
 url: /fr/net/aspose.words/pagesetup/borders/
@@ -14,7 +16,7 @@ Obtient une collection des bordures de page.
 public BorderCollection Borders { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment créer une bordure de page ondulée verte avec une ombre.
 
@@ -35,7 +37,5 @@ doc.Save(ArtifactsDir + "PageSetup.PageBorders.docx");
 
 * class [BorderCollection](../../bordercollection/)
 * class [PageSetup](../)
-* espace de noms [Aspose.Words](../../pagesetup/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

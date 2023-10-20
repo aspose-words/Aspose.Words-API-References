@@ -1,7 +1,9 @@
 ---
 title: DropDownItemCollection.Item
-second_title: Справочник по API Aspose.Words для .NET
-description: DropDownItemCollection свойство. Получает или задает элемент по указанному индексу.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words для .NET
+description: DropDownItemCollection Item свойство. Получает или задает элемент по указанному индексу на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.fields/dropdownitemcollection/item/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/dropdownitemcollection/item/
 public string this[int index] { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как вставить поле со списком и отредактировать элементы в его коллекции элементов.
 
@@ -68,7 +70,5 @@ dropDownItems.Clear();
 ### Смотрите также
 
 * class [DropDownItemCollection](../)
-* пространство имен [Aspose.Words.Fields](../../dropdownitemcollection/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

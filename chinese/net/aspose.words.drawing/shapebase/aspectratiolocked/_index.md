@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.AspectRatioLocked
-second_title: Aspose.Words for .NET API 参考
-description: ShapeBase 财产. 指定是否锁定形状的纵横比
+linktitle: AspectRatioLocked
+articleTitle: AspectRatioLocked
+second_title: 用于 .NET 的 Aspose.Words
+description: ShapeBase AspectRatioLocked 财产. 指定是否锁定形状的纵横比 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.drawing/shapebase/aspectratiolocked/
@@ -14,13 +16,13 @@ url: /zh/net/aspose.words.drawing/shapebase/aspectratiolocked/
 public bool AspectRatioLocked { get; set; }
 ```
 
-### 评论
+## 评论
 
 默认值取决于[`ShapeType`](../../shapetype/)， 为了Image这是`真的` 但对于其他形状类型来说是`错误的`。
 
 仅对顶级形状有效。
 
-### 例子
+## 例子
 
 展示如何锁定/解锁形状的纵横比。
 
@@ -45,7 +47,5 @@ doc.Save(ArtifactsDir + "Shape.AspectRatio.docx");
 ### 也可以看看
 
 * class [ShapeBase](../)
-* 命名空间 [Aspose.Words.Drawing](../../shapebase/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

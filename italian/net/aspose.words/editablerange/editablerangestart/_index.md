@@ -1,7 +1,9 @@
 ---
 title: EditableRange.EditableRangeStart
-second_title: Aspose.Words per .NET API Reference
-description: EditableRange proprietà. Ottiene il nodo che rappresenta linizio dellintervallo modificabile.
+linktitle: EditableRangeStart
+articleTitle: EditableRangeStart
+second_title: Aspose.Words per .NET
+description: EditableRange EditableRangeStart proprietà. Ottiene il nodo che rappresenta linizio dellintervallo modificabile in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words/editablerange/editablerangestart/
@@ -14,7 +16,7 @@ Ottiene il nodo che rappresenta l'inizio dell'intervallo modificabile.
 public EditableRangeStart EditableRangeStart { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come lavorare con un intervallo modificabile.
 
@@ -61,7 +63,5 @@ editableRange.Remove();
 
 * class [EditableRangeStart](../../editablerangestart/)
 * class [EditableRange](../)
-* spazio dei nomi [Aspose.Words](../../editablerange/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitRowStart
-second_title: Aspose.Words per .NET API Reference
-description: DocumentVisitor metodo. Chiamato quando è iniziata lenumerazione di una riga della tabella.
+linktitle: VisitRowStart
+articleTitle: VisitRowStart
+second_title: Aspose.Words per .NET
+description: DocumentVisitor VisitRowStart metodo. Chiamato quando è iniziata lenumerazione di una riga della tabella in C#.
 type: docs
 weight: 350
 url: /it/net/aspose.words/documentvisitor/visitrowstart/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitRowStart(Row row)
 
 UN[`VisitorAction`](../../visitoraction/) valore che specifica come continuare l'enumerazione.
 
-### Esempi
+## Esempi
 
 Mostra come stampare la struttura dei nodi di ogni tabella in un documento.
 
@@ -187,7 +189,5 @@ public class TableStructurePrinter : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [Row](../../../aspose.words.tables/row/)
 * class [DocumentVisitor](../)
-* spazio dei nomi [Aspose.Words](../../documentvisitor/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

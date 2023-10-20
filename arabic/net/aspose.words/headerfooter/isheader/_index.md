@@ -1,7 +1,9 @@
 ---
 title: HeaderFooter.IsHeader
-second_title: Aspose.Words لمراجع .NET API
-description: HeaderFooter ملكية. صحيح إذا كان هذاHeaderFooter الكائن عبارة عن رأس.
+linktitle: IsHeader
+articleTitle: IsHeader
+second_title: Aspose.Words لـ .NET
+description: HeaderFooter IsHeader ملكية. صحيح إذا كان هذاHeaderFooter الكائن عبارة عن رأس في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words/headerfooter/isheader/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/headerfooter/isheader/
 public bool IsHeader { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء رأس وتذييل.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "HeaderFooter.Create.docx");
 ### أنظر أيضا
 
 * class [HeaderFooter](../)
-* مساحة الاسم [Aspose.Words](../../headerfooter/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

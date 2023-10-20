@@ -1,7 +1,9 @@
 ---
-title: Enum FootnoteNumberingRule
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Notes.FootnoteNumberingRule перечисление. Определяет когда перезапускается автоматическая нумерация сносок или концевых сносок.
+title: FootnoteNumberingRule Enum
+linktitle: FootnoteNumberingRule
+articleTitle: FootnoteNumberingRule
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Notes.FootnoteNumberingRule перечисление. Определяет когда перезапускается автоматическая нумерация сносок или концевых сносок на С#.
 type: docs
 weight: 4270
 url: /ru/net/aspose.words.notes/footnotenumberingrule/
@@ -23,7 +25,7 @@ public enum FootnoteNumberingRule
 | RestartPage | `2` | Нумерация возобновляется на каждой странице. Действительно только для сносок. |
 | Default | `0` | РавноContinuous . |
 
-### Примеры
+## Примеры
 
 Показывает, как перезапустить нумерацию сносок/концевых сносок в определенных местах документа.
 
@@ -81,5 +83,3 @@ doc.Save(ArtifactsDir + "InlineStory.NumberingRule.docx");
 * class [EndnoteOptions](../endnoteoptions/)
 * пространство имен [Aspose.Words.Notes](../../aspose.words.notes/)
 * сборка [Aspose.Words](../../)
-
-

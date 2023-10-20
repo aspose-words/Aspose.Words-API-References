@@ -1,7 +1,9 @@
 ---
 title: ViewOptions.ViewType
-second_title: Aspose.Words for .NET API 参考
-description: ViewOptions 财产. 控制 Microsoft Word 中的查看模式
+linktitle: ViewType
+articleTitle: ViewType
+second_title: 用于 .NET 的 Aspose.Words
+description: ViewOptions ViewType 财产. 控制 Microsoft Word 中的查看模式 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.settings/viewoptions/viewtype/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.settings/viewoptions/viewtype/
 public ViewType ViewType { get; set; }
 ```
 
-### 评论
+## 评论
 
 尽管 Aspose.Words 能够读取和写入此选项，但其用法是特定于应用程序的。 例如，MS Word 2013 不尊重此选项的值。
 
-### 例子
+## 例子
 
 演示如何设置自定义缩放系数，旧版本的 Microsoft Word 将在加载时应用于文档。
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "ViewOptions.SetZoomPercentage.doc");
 
 * enum [ViewType](../../viewtype/)
 * class [ViewOptions](../)
-* 命名空间 [Aspose.Words.Settings](../../viewoptions/)
+* 命名空间 [Aspose.Words.Settings](../../../aspose.words.settings/)
 * 部件 [Aspose.Words](../../../)
-
-

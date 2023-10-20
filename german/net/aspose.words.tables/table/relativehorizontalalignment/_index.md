@@ -1,7 +1,9 @@
 ---
 title: Table.RelativeHorizontalAlignment
-second_title: Aspose.Words für .NET-API-Referenz
-description: Table eigendom. Ruft die relative horizontale Ausrichtung der schwebenden Tabelle ab oder legt sie fest.
+linktitle: RelativeHorizontalAlignment
+articleTitle: RelativeHorizontalAlignment
+second_title: Aspose.Words für .NET
+description: Table RelativeHorizontalAlignment eigendom. Ruft die relative horizontale Ausrichtung der schwebenden Tabelle ab oder legt sie fest in C#.
 type: docs
 weight: 230
 url: /de/net/aspose.words.tables/table/relativehorizontalalignment/
@@ -14,7 +16,7 @@ Ruft die relative horizontale Ausrichtung der schwebenden Tabelle ab oder legt s
 public HorizontalAlignment RelativeHorizontalAlignment { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Position schwebender Tabellen festgelegt wird.
 
@@ -49,7 +51,5 @@ doc.Save(ArtifactsDir + "Table.ChangeFloatingTableProperties.docx");
 
 * enum [HorizontalAlignment](../../../aspose.words.drawing/horizontalalignment/)
 * class [Table](../)
-* namensraum [Aspose.Words.Tables](../../table/)
+* namensraum [Aspose.Words.Tables](../../../aspose.words.tables/)
 * Montage [Aspose.Words](../../../)
-
-

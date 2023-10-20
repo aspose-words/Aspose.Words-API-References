@@ -1,7 +1,9 @@
 ---
-title: Enum GradientVariant
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Drawing.GradientVariant تعداد. يحدد المتغير للتعبئة المتدرجة.
+title: GradientVariant Enum
+linktitle: GradientVariant
+articleTitle: GradientVariant
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Drawing.GradientVariant تعداد. يحدد المتغير للتعبئة المتدرجة في C#.
 type: docs
 weight: 1010
 url: /ar/net/aspose.words.drawing/gradientvariant/
@@ -24,11 +26,11 @@ public enum GradientVariant
 | Variant3 | `3` | متغير التدرج 3. |
 | Variant4 | `4` | متغير التدرج 4. |
 
-### ملاحظات
+## ملاحظات
 
 يتوافق مع المتغيرات الأربعة الموجودة في علامة التبويب "التدرج" في مربع الحوار "تأثيرات التعبئة" في Word.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعبئة الشكل بالتدرجات اللونية.
 
@@ -70,5 +72,3 @@ doc.Save(ArtifactsDir + "Shape.GradientFill.docx", saveOptions);
 
 * مساحة الاسم [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../)
-
-

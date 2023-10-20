@@ -1,7 +1,9 @@
 ---
 title: FieldDisplayBarcode.DisplayText
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldDisplayBarcode eigendom. Ruft ab oder legt fest ob BarcodeDaten Text zusammen mit dem Bild angezeigt werden sollen.
+linktitle: DisplayText
+articleTitle: DisplayText
+second_title: Aspose.Words für .NET
+description: FieldDisplayBarcode DisplayText eigendom. Ruft ab oder legt fest ob BarcodeDaten Text zusammen mit dem Bild angezeigt werden sollen in C#.
 type: docs
 weight: 70
 url: /de/net/aspose.words.fields/fielddisplaybarcode/displaytext/
@@ -14,7 +16,7 @@ Ruft ab oder legt fest, ob Barcode-Daten (Text) zusammen mit dem Bild angezeigt 
 public bool DisplayText { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein DISPLAYBARCODE-Feld eingefügt und seine Eigenschaften festgelegt werden.
 
@@ -72,7 +74,5 @@ doc.Save(ArtifactsDir + "Field.DISPLAYBARCODE.docx");
 ### Siehe auch
 
 * class [FieldDisplayBarcode](../)
-* namensraum [Aspose.Words.Fields](../../fielddisplaybarcode/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

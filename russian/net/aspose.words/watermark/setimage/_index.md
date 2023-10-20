@@ -1,12 +1,14 @@
 ---
 title: Watermark.SetImage
-second_title: Справочник по API Aspose.Words для .NET
-description: Watermark метод. Добавляет водяной знак изображения в документ.
+linktitle: SetImage
+articleTitle: SetImage
+second_title: Aspose.Words для .NET
+description: Watermark SetImage метод. Добавляет водяной знак изображения в документ на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words/watermark/setimage/
 ---
-## SetImage(Image) {#setimage}
+## SetImage(*Image*) {#setimage}
 
 Добавляет водяной знак изображения в документ.
 
@@ -27,12 +29,12 @@ public void SetImage(Image image)
 ### Смотрите также
 
 * class [Watermark](../)
-* пространство имен [Aspose.Words](../../watermark/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## SetImage(Image, ImageWatermarkOptions) {#setimage_1}
+## SetImage(*Image, [ImageWatermarkOptions](../../imagewatermarkoptions/)*) {#setimage_1}
 
 Добавляет водяной знак изображения в документ.
 
@@ -51,11 +53,11 @@ public void SetImage(Image image, ImageWatermarkOptions options)
 | --- | --- |
 | ArgumentNullException | Выдает, когда изображение`нулевой` . |
 
-### Примечания
+## Примечания
 
 Если[`ImageWatermarkOptions`](../../imagewatermarkoptions/) является`нулевой`, для водяного знака будут установлены параметры по умолчанию.
 
-### Примеры
+## Примеры
 
 Показывает, как создать водяной знак из изображения в локальной файловой системе.
 
@@ -84,12 +86,12 @@ Document doc = new Document();
 
 * class [ImageWatermarkOptions](../../imagewatermarkoptions/)
 * class [Watermark](../)
-* пространство имен [Aspose.Words](../../watermark/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## SetImage(string, ImageWatermarkOptions) {#setimage_2}
+## SetImage(*string, [ImageWatermarkOptions](../../imagewatermarkoptions/)*) {#setimage_2}
 
 Добавляет водяной знак изображения в документ.
 
@@ -108,7 +110,7 @@ public void SetImage(string imagePath, ImageWatermarkOptions options)
 | --- | --- |
 | ArgumentNullException | Выдает, когда путь`нулевой` . |
 
-### Примечания
+## Примечания
 
 Если[`ImageWatermarkOptions`](../../imagewatermarkoptions/) является`нулевой`, для водяного знака будут установлены параметры по умолчанию.
 
@@ -116,7 +118,5 @@ public void SetImage(string imagePath, ImageWatermarkOptions options)
 
 * class [ImageWatermarkOptions](../../imagewatermarkoptions/)
 * class [Watermark](../)
-* пространство имен [Aspose.Words](../../watermark/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

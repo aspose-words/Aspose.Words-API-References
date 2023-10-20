@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTag.StyleName
-second_title: Aspose.Words för .NET API Referens
-description: StructuredDocumentTag fast egendom. Hämtar eller ställer in namnet på stilen som tillämpas på den strukturerade dokumenttaggen.
+linktitle: StyleName
+articleTitle: StyleName
+second_title: Aspose.Words för .NET
+description: StructuredDocumentTag StyleName fast egendom. Hämtar eller ställer in namnet på stilen som tillämpas på den strukturerade dokumenttaggen i C#.
 type: docs
 weight: 270
 url: /sv/net/aspose.words.markup/structureddocumenttag/stylename/
@@ -14,7 +16,7 @@ Hämtar eller ställer in namnet på stilen som tillämpas på den strukturerade
 public string StyleName { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med stilar för innehållskontrollelement.
 
@@ -53,7 +55,5 @@ foreach (Node node in tags)
 ### Se även
 
 * class [StructuredDocumentTag](../)
-* namnutrymme [Aspose.Words.Markup](../../structureddocumenttag/)
+* namnutrymme [Aspose.Words.Markup](../../../aspose.words.markup/)
 * hopsättning [Aspose.Words](../../../)
-
-

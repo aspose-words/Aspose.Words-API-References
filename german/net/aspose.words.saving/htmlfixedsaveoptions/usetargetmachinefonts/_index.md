@@ -1,7 +1,9 @@
 ---
 title: HtmlFixedSaveOptions.UseTargetMachineFonts
-second_title: Aspose.Words für .NET-API-Referenz
-description: HtmlFixedSaveOptions eigendom. Flag gibt an ob Schriftarten vom Zielcomputer zum Anzeigen des Dokuments verwendet werden müssen. Wenn dieses Flag auf gesetzt istWAHR FontFormat UndExportEmbeddedFonts Eigenschaften haben auch keine Auswirkung ResourceSavingCallback wird für Schriftarten nicht ausgelöst. Standard istFALSCH .
+linktitle: UseTargetMachineFonts
+articleTitle: UseTargetMachineFonts
+second_title: Aspose.Words für .NET
+description: HtmlFixedSaveOptions UseTargetMachineFonts eigendom. Flag gibt an ob Schriftarten vom Zielcomputer zum Anzeigen des Dokuments verwendet werden müssen. Wenn dieses Flag auf gesetzt istWAHR FontFormat UndExportEmbeddedFonts Eigenschaften haben auch keine Auswirkung ResourceSavingCallback wird für Schriftarten nicht ausgelöst. Standard istFALSCH  in C#.
 type: docs
 weight: 190
 url: /de/net/aspose.words.saving/htmlfixedsaveoptions/usetargetmachinefonts/
@@ -14,7 +16,7 @@ Flag gibt an, ob Schriftarten vom Zielcomputer zum Anzeigen des Dokuments verwen
 public bool UseTargetMachineFonts { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie beim Speichern eines Dokuments im HTML-Format Schriftarten nur vom Zielcomputer verwendet werden.
 
@@ -44,7 +46,5 @@ else
 ### Siehe auch
 
 * class [HtmlFixedSaveOptions](../)
-* namensraum [Aspose.Words.Saving](../../htmlfixedsaveoptions/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

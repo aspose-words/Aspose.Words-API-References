@@ -1,7 +1,9 @@
 ---
 title: IFieldUpdatingCallback.FieldUpdating
-second_title: Aspose.Words for .NET API 参考
-description: IFieldUpdatingCallback 方法. 在更新字段之前调用的用户定义方法
+linktitle: FieldUpdating
+articleTitle: FieldUpdating
+second_title: 用于 .NET 的 Aspose.Words
+description: IFieldUpdatingCallback FieldUpdating 方法. 在更新字段之前调用的用户定义方法 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.fields/ifieldupdatingcallback/fieldupdating/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/ifieldupdatingcallback/fieldupdating/
 public void FieldUpdating(Field field)
 ```
 
-### 例子
+## 例子
 
 演示如何在字段更新期间使用回调方法。
 
@@ -83,7 +85,5 @@ public class FieldUpdatingCallback : IFieldUpdatingCallback, IFieldUpdatingProgr
 
 * class [Field](../../field/)
 * interface [IFieldUpdatingCallback](../)
-* 命名空间 [Aspose.Words.Fields](../../ifieldupdatingcallback/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

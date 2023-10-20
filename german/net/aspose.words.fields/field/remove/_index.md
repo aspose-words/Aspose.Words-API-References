@@ -1,7 +1,9 @@
 ---
 title: Field.Remove
-second_title: Aspose.Words für .NET-API-Referenz
-description: Field methode. Entfernt das Feld aus dem Dokument. Gibt einen Knoten direkt nach dem Feld zurück. Wenn das Ende des Felds das letzte child seines übergeordneten Knotens ist wird dessen übergeordneter Absatz zurückgegeben. Wenn das Feld bereits entfernt wurde wird zurückgegebenNull .
+linktitle: Remove
+articleTitle: Remove
+second_title: Aspose.Words für .NET
+description: Field Remove methode. Entfernt das Feld aus dem Dokument. Gibt einen Knoten direkt nach dem Feld zurück. Wenn das Ende des Felds das letzte child seines übergeordneten Knotens ist wird dessen übergeordneter Absatz zurückgegeben. Wenn das Feld bereits entfernt wurde wird zurückgegebenNull  in C#.
 type: docs
 weight: 120
 url: /de/net/aspose.words.fields/field/remove/
@@ -14,7 +16,7 @@ Entfernt das Feld aus dem Dokument. Gibt einen Knoten direkt nach dem Feld zurü
 public Node Remove()
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Felder aus einer Feldsammlung entfernt werden.
 
@@ -123,7 +125,5 @@ public class FieldPrivateRemover : DocumentVisitor
 
 * class [Node](../../../aspose.words/node/)
 * class [Field](../)
-* namensraum [Aspose.Words.Fields](../../field/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

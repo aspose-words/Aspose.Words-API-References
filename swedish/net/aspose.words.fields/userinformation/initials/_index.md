@@ -1,7 +1,9 @@
 ---
 title: UserInformation.Initials
-second_title: Aspose.Words för .NET API Referens
-description: UserInformation fast egendom. Hämtar eller ställer in användarens initialer.
+linktitle: Initials
+articleTitle: Initials
+second_title: Aspose.Words för .NET
+description: UserInformation Initials fast egendom. Hämtar eller ställer in användarens initialer i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.fields/userinformation/initials/
@@ -14,7 +16,7 @@ Hämtar eller ställer in användarens initialer.
 public string Initials { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du ställer in användarinformation och visar dem med hjälp av fält.
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "FieldOptions.CurrentUser.docx");
 ### Se även
 
 * class [UserInformation](../)
-* namnutrymme [Aspose.Words.Fields](../../userinformation/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

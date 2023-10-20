@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.Compliance
-second_title: Aspose.Words for .NET API 参考
-description: PdfSaveOptions 财产. 指定输出文档的 PDF 标准合规级别
+linktitle: Compliance
+articleTitle: Compliance
+second_title: 用于 .NET 的 Aspose.Words
+description: PdfSaveOptions Compliance 财产. 指定输出文档的 PDF 标准合规级别 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.saving/pdfsaveoptions/compliance/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.saving/pdfsaveoptions/compliance/
 public PdfCompliance Compliance { get; set; }
 ```
 
-### 评论
+## 评论
 
 默认为Pdf17。
 
-### 例子
+## 例子
 
 演示如何设置已保存 PDF 文档的 PDF 标准合规级别。
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.Compliance.pdf", saveOptions);
 
 * enum [PdfCompliance](../../pdfcompliance/)
 * class [PdfSaveOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../pdfsaveoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

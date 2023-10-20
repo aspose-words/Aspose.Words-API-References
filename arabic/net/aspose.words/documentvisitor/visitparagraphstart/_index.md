@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitParagraphStart
-second_title: Aspose.Words لمراجع .NET API
-description: DocumentVisitor طريقة. يتم استدعاؤه عند بدء تعداد الفقرة.
+linktitle: VisitParagraphStart
+articleTitle: VisitParagraphStart
+second_title: Aspose.Words لـ .NET
+description: DocumentVisitor VisitParagraphStart طريقة. يتم استدعاؤه عند بدء تعداد الفقرة في C#.
 type: docs
 weight: 330
 url: /ar/net/aspose.words/documentvisitor/visitparagraphstart/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitParagraphStart(Paragraph paragraph)
 
 أ[`VisitorAction`](../../visitoraction/) القيمة التي تحدد كيفية متابعة التعداد.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام زائر المستند لطباعة بنية عقدة المستند.
 
@@ -384,7 +386,5 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [Paragraph](../../paragraph/)
 * class [DocumentVisitor](../)
-* مساحة الاسم [Aspose.Words](../../documentvisitor/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

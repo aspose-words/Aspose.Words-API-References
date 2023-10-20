@@ -1,7 +1,9 @@
 ---
-title: AxisScaling.AxisScaling
-second_title: Aspose.Words für .NET-API-Referenz
-description: AxisScaling constructeur. Default_Constructor
+title: AxisScaling
+linktitle: AxisScaling
+articleTitle: AxisScaling
+second_title: Aspose.Words für .NET
+description: AxisScaling constructeur. Default_Constructor in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words.drawing.charts/axisscaling/axisscaling/
@@ -17,7 +19,5 @@ public AxisScaling()
 ### Siehe auch
 
 * class [AxisScaling](../)
-* namensraum [Aspose.Words.Drawing.Charts](../../axisscaling/)
+* namensraum [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../../)
-
-

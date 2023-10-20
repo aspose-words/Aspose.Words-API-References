@@ -1,7 +1,9 @@
 ---
 title: MailMergeSettings.Clear
-second_title: Aspose.Words för .NET API Referens
-description: MailMergeSettings metod. Rensar inställningarna för sammankoppling av dokument på ett sådant sätt att när dokumentet sparas kommer inga sammanslagningsinställningar att sparas och det blir ett normalt dokument.
+linktitle: Clear
+articleTitle: Clear
+second_title: Aspose.Words för .NET
+description: MailMergeSettings Clear metod. Rensar inställningarna för sammankoppling av dokument på ett sådant sätt att när dokumentet sparas kommer inga sammanslagningsinställningar att sparas och det blir ett normalt dokument i C#.
 type: docs
 weight: 180
 url: /sv/net/aspose.words.settings/mailmergesettings/clear/
@@ -14,7 +16,7 @@ Rensar inställningarna för sammankoppling av dokument på ett sådant sätt at
 public void Clear()
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man kör en sammankoppling av brev samtidigt som man ansluter till en extern datakälla.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "MailMerge.OdsoEmail.docx");
 ### Se även
 
 * class [MailMergeSettings](../)
-* namnutrymme [Aspose.Words.Settings](../../mailmergesettings/)
+* namnutrymme [Aspose.Words.Settings](../../../aspose.words.settings/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: AxisScaling.Minimum
-second_title: Справочник по API Aspose.Words для .NET
-description: AxisScaling свойство. Получает или задает минимальное значение оси.
+linktitle: Minimum
+articleTitle: Minimum
+second_title: Aspose.Words для .NET
+description: AxisScaling Minimum свойство. Получает или задает минимальное значение оси на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.drawing.charts/axisscaling/minimum/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.drawing.charts/axisscaling/minimum/
 public AxisBound Minimum { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Значение по умолчанию — «авто».
 
-### Примеры
+## Примеры
 
 Показывает, как вставить диаграмму со значениями даты и времени.
 
@@ -73,7 +75,5 @@ doc.Save(ArtifactsDir + "Charts.DateTimeValues.docx");
 
 * class [AxisBound](../../axisbound/)
 * class [AxisScaling](../)
-* пространство имен [Aspose.Words.Drawing.Charts](../../axisscaling/)
+* пространство имен [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../../)
-
-

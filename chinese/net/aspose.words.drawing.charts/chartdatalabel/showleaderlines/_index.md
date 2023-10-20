@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabel.ShowLeaderLines
-second_title: Aspose.Words for .NET API 参考
-description: ChartDataLabel 财产. 允许指定是否需要显示数据标签引导线 默认值为错误的.
+linktitle: ShowLeaderLines
+articleTitle: ShowLeaderLines
+second_title: 用于 .NET 的 Aspose.Words
+description: ChartDataLabel ShowLeaderLines 财产. 允许指定是否需要显示数据标签引导线 默认值为错误的 在 C#.
 type: docs
 weight: 110
 url: /zh/net/aspose.words.drawing.charts/chartdatalabel/showleaderlines/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.drawing.charts/chartdatalabel/showleaderlines/
 public bool ShowLeaderLines { get; set; }
 ```
 
-### 评论
+## 评论
 
 仅适用于饼图。 引导线在数据标签与其对应的数据点之间创建视觉连接。
 
-### 例子
+## 例子
 
 展示如何将标签应用到折线图中的数据点。
 
@@ -96,7 +98,5 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
 ### 也可以看看
 
 * class [ChartDataLabel](../)
-* 命名空间 [Aspose.Words.Drawing.Charts](../../chartdatalabel/)
+* 命名空间 [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: SaveOptions.MemoryOptimization
-second_title: Aspose.Words for .NET API 参考
-description: SaveOptions 财产. 获取或设置确定在保存文档之前是否应执行内存优化的值 此属性的默认值为错误的.
+linktitle: MemoryOptimization
+articleTitle: MemoryOptimization
+second_title: 用于 .NET 的 Aspose.Words
+description: SaveOptions MemoryOptimization 财产. 获取或设置确定在保存文档之前是否应执行内存优化的值 此属性的默认值为错误的 在 C#.
 type: docs
 weight: 100
 url: /zh/net/aspose.words.saving/saveoptions/memoryoptimization/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.saving/saveoptions/memoryoptimization/
 public bool MemoryOptimization { get; set; }
 ```
 
-### 评论
+## 评论
 
 将此选项设置为`真的`可以显着减少内存消耗，同时保存大型文档，但代价是保存时间较慢。
 
-### 例子
+## 例子
 
 显示将大型文档渲染为 PDF 时优化内存消耗的选项。
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.MemoryOptimization.pdf", saveOptions);
 ### 也可以看看
 
 * class [SaveOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../saveoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: SaveOutputParameters.ContentType
-second_title: Aspose.Words for .NET API 参考
-description: SaveOutputParameters 财产. 返回标识已保存文档类型的 ContentType 字符串Internet 媒体类型
+linktitle: ContentType
+articleTitle: ContentType
+second_title: 用于 .NET 的 Aspose.Words
+description: SaveOutputParameters ContentType 财产. 返回标识已保存文档类型的 ContentType 字符串Internet 媒体类型 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.saving/saveoutputparameters/contenttype/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.saving/saveoutputparameters/contenttype/
 public string ContentType { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何访问文档保存操作的输出参数。
 
@@ -37,7 +39,5 @@ Assert.AreEqual("application/pdf", parameters.ContentType);
 ### 也可以看看
 
 * class [SaveOutputParameters](../)
-* 命名空间 [Aspose.Words.Saving](../../saveoutputparameters/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

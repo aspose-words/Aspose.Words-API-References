@@ -1,7 +1,9 @@
 ---
-title: MailMergeSettings.MailMergeSettings
-second_title: Referencia de API de Aspose.Words para .NET
-description: MailMergeSettings constructor. Constructor predeterminado
+title: MailMergeSettings
+linktitle: MailMergeSettings
+articleTitle: MailMergeSettings
+second_title: Aspose.Words para .NET
+description: MailMergeSettings constructor. Constructor predeterminado en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words.settings/mailmergesettings/mailmergesettings/
@@ -17,7 +19,5 @@ public MailMergeSettings()
 ### Ver también
 
 * class [MailMergeSettings](../)
-* espacio de nombres [Aspose.Words.Settings](../../mailmergesettings/)
+* espacio de nombres [Aspose.Words.Settings](../../../aspose.words.settings/)
 * asamblea [Aspose.Words](../../../)
-
-

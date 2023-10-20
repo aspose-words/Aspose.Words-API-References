@@ -1,7 +1,9 @@
 ---
 title: FieldOptions.BarcodeGenerator
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldOptions propriété. Obtient ou définit un générateur de codesbarres personnalisé.
+linktitle: BarcodeGenerator
+articleTitle: BarcodeGenerator
+second_title: Aspose.Words pour .NET
+description: FieldOptions BarcodeGenerator propriété. Obtient ou définit un générateur de codesbarres personnalisé en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.fields/fieldoptions/barcodegenerator/
@@ -14,11 +16,11 @@ Obtient ou définit un générateur de codes-barres personnalisé.
 public IBarcodeGenerator BarcodeGenerator { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 Le générateur de codes-barres personnalisé doit implémenter une interface publique[`IBarcodeGenerator`](../../ibarcodegenerator/) .
 
-### Exemples
+## Exemples
 
 Montre comment utiliser un générateur de codes-barres.
 
@@ -95,7 +97,5 @@ doc.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.docx");
 
 * interface [IBarcodeGenerator](../../ibarcodegenerator/)
 * class [FieldOptions](../)
-* espace de noms [Aspose.Words.Fields](../../fieldoptions/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

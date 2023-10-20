@@ -1,7 +1,9 @@
 ---
 title: ImportFormatOptions.IgnoreHeaderFooter
-second_title: Aspose.Words för .NET API Referens
-description: ImportFormatOptions fast egendom. Hämtar eller ställer in ett booleskt värde som anger att källformateringen av sidhuvuden/sidfotsinnehåll ignoreras omKeepSourceFormatting läge används. Standardvärdet ärSann .
+linktitle: IgnoreHeaderFooter
+articleTitle: IgnoreHeaderFooter
+second_title: Aspose.Words för .NET
+description: ImportFormatOptions IgnoreHeaderFooter fast egendom. Hämtar eller ställer in ett booleskt värde som anger att källformateringen av sidhuvuden/sidfotsinnehåll ignoreras omKeepSourceFormatting läge används. Standardvärdet ärSann  i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words/importformatoptions/ignoreheaderfooter/
@@ -14,7 +16,7 @@ Hämtar eller ställer in ett booleskt värde som anger att källformateringen a
 public bool IgnoreHeaderFooter { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man anger att ignorera eller inte källformatering av sidhuvuden/sidfotsinnehåll.
 
@@ -33,7 +35,5 @@ dstDoc.Save(ArtifactsDir + "DocumentBuilder.DoNotIgnoreHeaderFooter.docx");
 ### Se även
 
 * class [ImportFormatOptions](../)
-* namnutrymme [Aspose.Words](../../importformatoptions/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,12 +1,14 @@
 ---
 title: Watermark.SetText
-second_title: Aspose.Words per .NET API Reference
-description: Watermark metodo. Aggiunge una filigrana di testo nel documento.
+linktitle: SetText
+articleTitle: SetText
+second_title: Aspose.Words per .NET
+description: Watermark SetText metodo. Aggiunge una filigrana di testo nel documento in C#.
 type: docs
 weight: 40
 url: /it/net/aspose.words/watermark/settext/
 ---
-## SetText(string) {#settext}
+## SetText(*string*) {#settext}
 
 Aggiunge una filigrana di testo nel documento.
 
@@ -25,11 +27,11 @@ public void SetText(string text)
 | ArgumentOutOfRangeException | Viene generato quando la lunghezza del testo è fuori intervallo o il testo contiene solo spazi bianchi. |
 | ArgumentNullException | Genera quando il testo è`nullo` . |
 
-### Osservazioni
+## Osservazioni
 
 La lunghezza del testo deve essere compresa tra 1 e 200 inclusi. Il testo non può essere`nullo` o contenere solo spazi.
 
-### Esempi
+## Esempi
 
 Mostra come creare una filigrana di testo.
 
@@ -60,12 +62,12 @@ if (doc.Watermark.Type == WatermarkType.Text)
 ### Guarda anche
 
 * class [Watermark](../)
-* spazio dei nomi [Aspose.Words](../../watermark/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
 
 ---
 
-## SetText(string, TextWatermarkOptions) {#settext_1}
+## SetText(*string, [TextWatermarkOptions](../../textwatermarkoptions/)*) {#settext_1}
 
 Aggiunge una filigrana di testo nel documento.
 
@@ -85,13 +87,13 @@ public void SetText(string text, TextWatermarkOptions options)
 | ArgumentOutOfRangeException | Viene generato quando la lunghezza del testo è fuori intervallo o il testo contiene solo spazi bianchi. |
 | ArgumentNullException | Genera quando il testo è`nullo` . |
 
-### Osservazioni
+## Osservazioni
 
 La lunghezza del testo deve essere compresa tra 1 e 200 inclusi. Il testo non può essere`nullo` o contenere solo spazi.
 
 Se[`TextWatermarkOptions`](../../textwatermarkoptions/) È`nullo`, la filigrana verrà impostata con le opzioni predefinite.
 
-### Esempi
+## Esempi
 
 Mostra come creare una filigrana di testo.
 
@@ -123,7 +125,5 @@ if (doc.Watermark.Type == WatermarkType.Text)
 
 * class [TextWatermarkOptions](../../textwatermarkoptions/)
 * class [Watermark](../)
-* spazio dei nomi [Aspose.Words](../../watermark/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

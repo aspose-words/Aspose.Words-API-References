@@ -1,7 +1,9 @@
 ---
 title: FieldRef.NumberSeparator
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldRef свойство. Получает или задает последовательность символов которая используется для разделения порядковых номеров и номеров страниц.
+linktitle: NumberSeparator
+articleTitle: NumberSeparator
+second_title: Aspose.Words для .NET
+description: FieldRef NumberSeparator свойство. Получает или задает последовательность символов которая используется для разделения порядковых номеров и номеров страниц на С#.
 type: docs
 weight: 90
 url: /ru/net/aspose.words.fields/fieldref/numberseparator/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldref/numberseparator/
 public string NumberSeparator { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как вставлять поля REF в ссылочные закладки.
 
@@ -104,7 +106,5 @@ private static FieldRef InsertFieldRef(DocumentBuilder builder, string bookmarkN
 ### Смотрите также
 
 * class [FieldRef](../)
-* пространство имен [Aspose.Words.Fields](../../fieldref/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

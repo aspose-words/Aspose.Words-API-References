@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.IsTopLevel
-second_title: Aspose.Words för .NET API Referens
-description: ShapeBase fast egendom. ReturnerarSannom denna form inte är ett underordnat till en gruppform.
+linktitle: IsTopLevel
+articleTitle: IsTopLevel
+second_title: Aspose.Words för .NET
+description: ShapeBase IsTopLevel fast egendom. ReturnerarSannom denna form inte är ett underordnat till en gruppform i C#.
 type: docs
 weight: 350
 url: /sv/net/aspose.words.drawing/shapebase/istoplevel/
@@ -14,7 +16,7 @@ Returnerar`Sann`om denna form inte är ett underordnat till en gruppform.
 public bool IsTopLevel { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man avgör om en form är en del av en gruppform.
 
@@ -39,7 +41,5 @@ Assert.False(shape.IsTopLevel);
 ### Se även
 
 * class [ShapeBase](../)
-* namnutrymme [Aspose.Words.Drawing](../../shapebase/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

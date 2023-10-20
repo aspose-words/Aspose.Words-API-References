@@ -1,7 +1,9 @@
 ---
 title: FontInfo.Name
-second_title: Referencia de API de Aspose.Words para .NET
-description: FontInfo propiedad. Obtiene el nombre de la fuente.
+linktitle: Name
+articleTitle: Name
+second_title: Aspose.Words para .NET
+description: FontInfo Name propiedad. Obtiene el nombre de la fuente en C#.
 type: docs
 weight: 50
 url: /es/net/aspose.words.fonts/fontinfo/name/
@@ -14,11 +16,11 @@ Obtiene el nombre de la fuente.
 public string Name { get; }
 ```
 
-### Observaciones
+## Observaciones
 
 No puede ser`nulo`. Puede ser una cadena vacía.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo imprimir los detalles de las fuentes presentes en un documento.
 
@@ -38,7 +40,5 @@ for (int i = 0; i < allFonts.Count; i++)
 ### Ver también
 
 * class [FontInfo](../)
-* espacio de nombres [Aspose.Words.Fonts](../../fontinfo/)
+* espacio de nombres [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * asamblea [Aspose.Words](../../../)
-
-

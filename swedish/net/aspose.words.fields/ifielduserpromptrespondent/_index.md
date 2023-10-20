@@ -1,7 +1,9 @@
 ---
-title: Interface IFieldUserPromptRespondent
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Fields.IFieldUserPromptRespondent gränssnitt. Representerar respondenten för användarmeddelanden under fältuppdatering.
+title: IFieldUserPromptRespondent Interface
+linktitle: IFieldUserPromptRespondent
+articleTitle: IFieldUserPromptRespondent
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Fields.IFieldUserPromptRespondent gränssnitt. Representerar respondenten för användarmeddelanden under fältuppdatering i C#.
 type: docs
 weight: 2740
 url: /sv/net/aspose.words.fields/ifielduserpromptrespondent/
@@ -18,13 +20,13 @@ public interface IFieldUserPromptRespondent
 
 | namn | Beskrivning |
 | --- | --- |
-| [Respond](../../aspose.words.fields/ifielduserpromptrespondent/respond/)(string, string) | När den är implementerad returneras ett svar från användaren vid uppmaning. Din implementering bör returneras`null` för att indikera att användaren inte har svarat på prompten (dvs användaren har tryckt på knappen Avbryt i promptfönstret). |
+| [Respond](../../aspose.words.fields/ifielduserpromptrespondent/respond/)(*string, string*) | När den är implementerad returneras ett svar från användaren vid uppmaning. Din implementering bör returneras`null` för att indikera att användaren inte har svarat på prompten (dvs användaren har tryckt på knappen Avbryt i promptfönstret). |
 
-### Anmärkningar
+## Anmärkningar
 
 Fälten ASK och FILLIN är exempel på fält som ber användaren om något svar. Implementera detta interface och tilldela det till[`UserPromptRespondent`](../fieldoptions/userpromptrespondent/) egenskap för att etablera interaktion mellan fältet update och användaren.
 
-### Exempel
+## Exempel
 
 Visar hur man skapar ett ASK-fält och ställer in dess egenskaper.
 
@@ -87,5 +89,3 @@ private class MyPromptRespondent : IFieldUserPromptRespondent
 
 * namnutrymme [Aspose.Words.Fields](../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../)
-
-

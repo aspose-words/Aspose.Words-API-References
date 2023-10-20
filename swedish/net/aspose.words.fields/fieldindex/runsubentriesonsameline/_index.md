@@ -1,7 +1,9 @@
 ---
 title: FieldIndex.RunSubentriesOnSameLine
-second_title: Aspose.Words för .NET API Referens
-description: FieldIndex fast egendom. Hämtar eller ställer in om underposter ska köras på samma rad som huvudposten.
+linktitle: RunSubentriesOnSameLine
+articleTitle: RunSubentriesOnSameLine
+second_title: Aspose.Words för .NET
+description: FieldIndex RunSubentriesOnSameLine fast egendom. Hämtar eller ställer in om underposter ska köras på samma rad som huvudposten i C#.
 type: docs
 weight: 140
 url: /sv/net/aspose.words.fields/fieldindex/runsubentriesonsameline/
@@ -14,7 +16,7 @@ Hämtar eller ställer in om underposter ska köras på samma rad som huvudposte
 public bool RunSubentriesOnSameLine { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med underposter i ett INDEX-fält.
 
@@ -72,7 +74,5 @@ doc.Save(ArtifactsDir + $"Field.INDEX.XE.Subheading.docx");
 ### Se även
 
 * class [FieldIndex](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldindex/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldToc.HideInWebLayout
-second_title: Aspose.Words لمراجع .NET API
-description: FieldToc ملكية. الحصول على أو تعيين ما إذا كان سيتم إخفاء بادئة علامة التبويب وأرقام الصفحات في عرض تخطيط الويب.
+linktitle: HideInWebLayout
+articleTitle: HideInWebLayout
+second_title: Aspose.Words لـ .NET
+description: FieldToc HideInWebLayout ملكية. الحصول على أو تعيين ما إذا كان سيتم إخفاء بادئة علامة التبويب وأرقام الصفحات في عرض تخطيط الويب في C#.
 type: docs
 weight: 90
 url: /ar/net/aspose.words.fields/fieldtoc/hideinweblayout/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldtoc/hideinweblayout/
 public bool HideInWebLayout { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج جدول محتويات، وتعبئته بالإدخالات بناءً على أنماط العناوين.
 
@@ -99,7 +101,5 @@ public void InsertNewPageWithHeading(DocumentBuilder builder, string captionText
 ### أنظر أيضا
 
 * class [FieldToc](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldtoc/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

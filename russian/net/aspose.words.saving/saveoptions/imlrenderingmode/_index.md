@@ -1,7 +1,9 @@
 ---
 title: SaveOptions.ImlRenderingMode
-second_title: Справочник по API Aspose.Words для .NET
-description: SaveOptions свойство. Получает или задает значение определяющее способ визуализации объектов рукописного ввода InkML.
+linktitle: ImlRenderingMode
+articleTitle: ImlRenderingMode
+second_title: Aspose.Words для .NET
+description: SaveOptions ImlRenderingMode свойство. Получает или задает значение определяющее способ визуализации объектов рукописного ввода InkML на С#.
 type: docs
 weight: 90
 url: /ru/net/aspose.words.saving/saveoptions/imlrenderingmode/
@@ -14,13 +16,13 @@ url: /ru/net/aspose.words.saving/saveoptions/imlrenderingmode/
 public ImlRenderingMode ImlRenderingMode { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Значение по умолчанию:InkML .
 
 Это свойство используется, когда документ экспортируется в фиксированные форматы страниц.
 
-### Примеры
+## Примеры
 
 Показывает, как визуализировать объект Ink.
 
@@ -42,7 +44,5 @@ doc.Save(ArtifactsDir + "ImageSaveOptions.RenderInkObject.jpeg", saveOptions);
 
 * enum [ImlRenderingMode](../../imlrenderingmode/)
 * class [SaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../saveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

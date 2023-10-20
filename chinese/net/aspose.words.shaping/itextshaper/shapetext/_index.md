@@ -1,7 +1,9 @@
 ---
 title: ITextShaper.ShapeText
-second_title: Aspose.Words for .NET API 参考
-description: ITextShaper 方法. 返回Cluster从一系列文本片段生成的对象 返回数组的长度等于runs. 如果在索引处运行具有相应的簇则同一索引处的结果将记录它们
+linktitle: ShapeText
+articleTitle: ShapeText
+second_title: 用于 .NET 的 Aspose.Words
+description: ITextShaper ShapeText 方法. 返回Cluster从一系列文本片段生成的对象 返回数组的长度等于runs. 如果在索引处运行具有相应的簇则同一索引处的结果将记录它们 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.shaping/itextshaper/shapetext/
@@ -29,7 +31,5 @@ public Cluster[][] ShapeText(string[] runs, Direction direction, UnicodeScript s
 * enum [UnicodeScript](../../unicodescript/)
 * enum [FontFeature](../../fontfeature/)
 * interface [ITextShaper](../)
-* 命名空间 [Aspose.Words.Shaping](../../itextshaper/)
+* 命名空间 [Aspose.Words.Shaping](../../../aspose.words.shaping/)
 * 部件 [Aspose.Words](../../../)
-
-

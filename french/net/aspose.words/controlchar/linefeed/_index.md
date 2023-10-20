@@ -1,7 +1,9 @@
 ---
 title: ControlChar.LineFeed
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ControlChar champ. Caractère de saut de ligne  x000a ou n. Pareil queLf .
+linktitle: LineFeed
+articleTitle: LineFeed
+second_title: Aspose.Words pour .NET
+description: ControlChar LineFeed champ. Caractère de saut de ligne  x000a ou n. Pareil queLf  en C#.
 type: docs
 weight: 140
 url: /fr/net/aspose.words/controlchar/linefeed/
@@ -14,7 +16,7 @@ Caractère de saut de ligne : "\x000a" ou "\n". Pareil que[`Lf`](../lf/) .
 public static readonly string LineFeed;
 ```
 
-### Exemples
+## Exemples
 
 Montre comment ajouter divers caractères de contrôle à un document.
 
@@ -86,7 +88,5 @@ Assert.AreEqual(Convert.ToChar(ControlChar.ColumnBreak), ControlChar.ColumnBreak
 ### Voir également
 
 * class [ControlChar](../)
-* espace de noms [Aspose.Words](../../controlchar/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

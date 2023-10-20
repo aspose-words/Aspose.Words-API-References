@@ -1,7 +1,9 @@
 ---
 title: FieldAsk.PromptOnceOnMailMerge
-second_title: Aspose.Words لمراجع .NET API
-description: FieldAsk ملكية. الحصول على أو تعيين ما إذا كان يجب تلقي استجابة المستخدم مرة واحدة لكل عملية دمج البريد.
+linktitle: PromptOnceOnMailMerge
+articleTitle: PromptOnceOnMailMerge
+second_title: Aspose.Words لـ .NET
+description: FieldAsk PromptOnceOnMailMerge ملكية. الحصول على أو تعيين ما إذا كان يجب تلقي استجابة المستخدم مرة واحدة لكل عملية دمج البريد في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.fields/fieldask/promptonceonmailmerge/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldask/promptonceonmailmerge/
 public bool PromptOnceOnMailMerge { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء حقل ASK وتعيين خصائصه.
 
@@ -76,7 +78,5 @@ private class MyPromptRespondent : IFieldUserPromptRespondent
 ### أنظر أيضا
 
 * class [FieldAsk](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldask/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

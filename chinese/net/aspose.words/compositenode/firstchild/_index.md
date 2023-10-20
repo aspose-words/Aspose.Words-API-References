@@ -1,7 +1,9 @@
 ---
 title: CompositeNode.FirstChild
-second_title: Aspose.Words for .NET API 参考
-description: CompositeNode 财产. 获取节点的第一个子节点
+linktitle: FirstChild
+articleTitle: FirstChild
+second_title: 用于 .NET 的 Aspose.Words
+description: CompositeNode FirstChild 财产. 获取节点的第一个子节点 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words/compositenode/firstchild/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words/compositenode/firstchild/
 public Node FirstChild { get; }
 ```
 
-### 评论
+## 评论
 
 如果没有第一个子节点，则`无效的`返回。
 
-### 例子
+## 例子
 
 演示如何使用节点的 NextSibling 属性来枚举其直接子节点。
 
@@ -81,7 +83,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 
 * class [Node](../../node/)
 * class [CompositeNode](../)
-* 命名空间 [Aspose.Words](../../compositenode/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

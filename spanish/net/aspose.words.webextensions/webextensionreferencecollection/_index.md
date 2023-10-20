@@ -1,7 +1,9 @@
 ---
-title: Class WebExtensionReferenceCollection
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.WebExtensions.WebExtensionReferenceCollection clase. Especifica una lista de referencias de extensiones web.
+title: WebExtensionReferenceCollection Class
+linktitle: WebExtensionReferenceCollection
+articleTitle: WebExtensionReferenceCollection
+second_title: Aspose.Words para .NET
+description: Aspose.Words.WebExtensions.WebExtensionReferenceCollection clase. Especifica una lista de referencias de extensiones web en C#.
 type: docs
 weight: 6810
 url: /es/net/aspose.words.webextensions/webextensionreferencecollection/
@@ -27,10 +29,10 @@ public class WebExtensionReferenceCollection : BaseWebExtensionCollection<WebExt
 
 | Nombre | Descripción |
 | --- | --- |
-| [Add](../../aspose.words.webextensions/basewebextensioncollection-1/add/)(WebExtensionReference) |  |
+| [Add](../../aspose.words.webextensions/basewebextensioncollection-1/add/)(*[WebExtensionReference](../webextensionreference/)*) |  |
 | [Clear](../../aspose.words.webextensions/basewebextensioncollection-1/clear/)() |  |
 | [GetEnumerator](../../aspose.words.webextensions/basewebextensioncollection-1/getenumerator/)() |  |
-| [Remove](../../aspose.words.webextensions/basewebextensioncollection-1/remove/)(int) |  |
+| [Remove](../../aspose.words.webextensions/basewebextensioncollection-1/remove/)(*int*) |  |
 
 ### Ver también
 
@@ -38,5 +40,3 @@ public class WebExtensionReferenceCollection : BaseWebExtensionCollection<WebExt
 * class [WebExtensionReference](../webextensionreference/)
 * espacio de nombres [Aspose.Words.WebExtensions](../../aspose.words.webextensions/)
 * asamblea [Aspose.Words](../../)
-
-

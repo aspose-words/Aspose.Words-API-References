@@ -1,12 +1,14 @@
 ---
 title: DocumentBuilder.Writeln
-second_title: Aspose.Words für .NET-API-Referenz
-description: DocumentBuilder methode. Fügt eine Zeichenfolge und einen Absatzumbruch in das Dokument ein.
+linktitle: Writeln
+articleTitle: Writeln
+second_title: Aspose.Words für .NET
+description: DocumentBuilder Writeln methode. Fügt eine Zeichenfolge und einen Absatzumbruch in das Dokument ein in C#.
 type: docs
-weight: 670
+weight: 660
 url: /de/net/aspose.words/documentbuilder/writeln/
 ---
-## Writeln(string) {#writeln_1}
+## Writeln(*string*) {#writeln_1}
 
 Fügt eine Zeichenfolge und einen Absatzumbruch in das Dokument ein.
 
@@ -18,11 +20,11 @@ public void Writeln(string text)
 | --- | --- | --- |
 | text | String | Die Zeichenfolge, die in das Dokument eingefügt werden soll. |
 
-### Bemerkungen
+## Bemerkungen
 
 Aktuelle Schriftart und Absatzformatierung, die durch angegeben wird[`Font`](../font/) Und[`ParagraphFormat`](../paragraphformat/) Eigenschaften werden verwendet.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie eine formatierte 2x2-Tabelle erstellt wird.
 
@@ -68,7 +70,7 @@ doc.Save(ArtifactsDir + "DocumentBuilder.BuildTable.docx");
 ### Siehe auch
 
 * class [DocumentBuilder](../)
-* namensraum [Aspose.Words](../../documentbuilder/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
 
 ---
@@ -81,11 +83,11 @@ Fügt einen Absatzumbruch in das Dokument ein.
 public void Writeln()
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Anrufe[`InsertParagraph`](../insertparagraph/).
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man mit DocumentBuilder Kopf- und Fußzeilen in einem Dokument erstellt.
 
@@ -118,7 +120,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.HeadersAndFooters.docx");
 ### Siehe auch
 
 * class [DocumentBuilder](../)
-* namensraum [Aspose.Words](../../documentbuilder/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

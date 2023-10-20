@@ -1,7 +1,9 @@
 ---
-title: Enum SdtAppearance
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Markup.SdtAppearance enumeración. Especifica la apariencia de una etiqueta de documento estructurado.
+title: SdtAppearance Enum
+linktitle: SdtAppearance
+articleTitle: SdtAppearance
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Markup.SdtAppearance enumeración. Especifica la apariencia de una etiqueta de documento estructurado en C#.
 type: docs
 weight: 3990
 url: /es/net/aspose.words.markup/sdtappearance/
@@ -27,5 +29,3 @@ public enum SdtAppearance
 
 * espacio de nombres [Aspose.Words.Markup](../../aspose.words.markup/)
 * asamblea [Aspose.Words](../../)
-
-

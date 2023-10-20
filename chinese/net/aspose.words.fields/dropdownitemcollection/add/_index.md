@@ -1,7 +1,9 @@
 ---
 title: DropDownItemCollection.Add
-second_title: Aspose.Words for .NET API 参考
-description: DropDownItemCollection 方法. 将字符串添加到集合的末尾
+linktitle: Add
+articleTitle: Add
+second_title: 用于 .NET 的 Aspose.Words
+description: DropDownItemCollection Add 方法. 将字符串添加到集合的末尾 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.fields/dropdownitemcollection/add/
@@ -22,7 +24,7 @@ public int Add(string value)
 
 插入新元素的从零开始的索引。
 
-### 例子
+## 例子
 
 演示如何插入组合框字段以及编辑其项目集合中的元素。
 
@@ -76,7 +78,5 @@ dropDownItems.Clear();
 ### 也可以看看
 
 * class [DropDownItemCollection](../)
-* 命名空间 [Aspose.Words.Fields](../../dropdownitemcollection/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

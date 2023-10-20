@@ -1,7 +1,9 @@
 ---
-title: Class AxisBound
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Drawing.Charts.AxisBound 班级. 表示轴值的最小或最大界限
+title: AxisBound Class
+linktitle: AxisBound
+articleTitle: AxisBound
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Drawing.Charts.AxisBound 班级. 表示轴值的最小或最大界限 在 C#.
 type: docs
 weight: 510
 url: /zh/net/aspose.words.drawing.charts/axisbound/
@@ -21,8 +23,8 @@ public sealed class AxisBound
 | 姓名 | 描述 |
 | --- | --- |
 | [AxisBound](axisbound/#constructor)() | 创建一个新实例，指示轴边界应由字处理 应用程序自动确定。 |
-| [AxisBound](axisbound/#constructor_2)(DateTime) | 创建表示为日期时间值的轴边界。 |
-| [AxisBound](axisbound/#constructor_1)(double) | 创建一个以数字表示的轴边界。 |
+| [AxisBound](axisbound/#constructor_2)(*DateTime*) | 创建表示为日期时间值的轴边界。 |
+| [AxisBound](axisbound/#constructor_1)(*double*) | 创建一个以数字表示的轴边界。 |
 
 ## 特性
 
@@ -36,17 +38,17 @@ public sealed class AxisBound
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [Equals](../../aspose.words.drawing.charts/axisbound/equals/)(object) | 确定指定对象的值是否等于当前对象。 |
+| override [Equals](../../aspose.words.drawing.charts/axisbound/equals/)(*object*) | 确定指定对象的值是否等于当前对象。 |
 | override [GetHashCode](../../aspose.words.drawing.charts/axisbound/gethashcode/)() | 用作该类型的哈希函数。 |
 | override [ToString](../../aspose.words.drawing.charts/axisbound/tostring/)() | 返回一个用户友好的字符串，显示该对象的值。 |
 
-### 评论
+## 评论
 
 绑定可以指定为数字、日期时间或特殊的“自动”值。
 
 该类的实例是不可变的。
 
-### 例子
+## 例子
 
 演示如何插入带有日期/时间值的图表。
 
@@ -101,5 +103,3 @@ doc.Save(ArtifactsDir + "Charts.DateTimeValues.docx");
 
 * 命名空间 [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * 部件 [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Glyph.Advance
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Glyph propriété. Largeur avancée indiquant lemplacement du glyphe suivant.
+linktitle: Advance
+articleTitle: Advance
+second_title: Aspose.Words pour .NET
+description: Glyph Advance propriété. Largeur avancée indiquant lemplacement du glyphe suivant en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.shaping/glyph/advance/
@@ -17,7 +19,5 @@ public short Advance { get; set; }
 ### Voir également
 
 * class [Glyph](../)
-* espace de noms [Aspose.Words.Shaping](../../glyph/)
+* espace de noms [Aspose.Words.Shaping](../../../aspose.words.shaping/)
 * Assemblée [Aspose.Words](../../../)
-
-

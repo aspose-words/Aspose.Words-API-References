@@ -1,7 +1,9 @@
 ---
-title: Enum Granularity
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Comparing.Granularity énumération. Spécifie la granularité des modifications à suivre lors de la comparaison de deux documents.
+title: Granularity Enum
+linktitle: Granularity
+articleTitle: Granularity
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Comparing.Granularity énumération. Spécifie la granularité des modifications à suivre lors de la comparaison de deux documents en C#.
 type: docs
 weight: 290
 url: /fr/net/aspose.words.comparing/granularity/
@@ -21,7 +23,7 @@ public enum Granularity
 | CharLevel | `0` |  |
 | WordLevel | `1` |  |
 
-### Exemples
+## Exemples
 
 Montre pour spécifier une granularité lors de la comparaison de documents.
 
@@ -50,5 +52,3 @@ Assert.AreEqual(5, groups.Count);
 
 * espace de noms [Aspose.Words.Comparing](../../aspose.words.comparing/)
 * Assemblée [Aspose.Words](../../)
-
-

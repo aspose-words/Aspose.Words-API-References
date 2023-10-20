@@ -1,7 +1,9 @@
 ---
 title: VbaModule.Type
-second_title: Aspose.Words för .NET API Referens
-description: VbaModule fast egendom. Anger om modulen är en procedurmodul dokumentmodul klassmodul eller designermodul.
+linktitle: Type
+articleTitle: Type
+second_title: Aspose.Words för .NET
+description: VbaModule Type fast egendom. Anger om modulen är en procedurmodul dokumentmodul klassmodul eller designermodul i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.vba/vbamodule/type/
@@ -14,7 +16,7 @@ Anger om modulen är en procedurmodul, dokumentmodul, klassmodul eller designerm
 public VbaModuleType Type { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man skapar ett VBA-projekt med hjälp av makron.
 
@@ -42,7 +44,5 @@ doc.Save(ArtifactsDir + "VbaProject.CreateVBAMacros.docm");
 
 * enum [VbaModuleType](../../vbamoduletype/)
 * class [VbaModule](../)
-* namnutrymme [Aspose.Words.Vba](../../vbamodule/)
+* namnutrymme [Aspose.Words.Vba](../../../aspose.words.vba/)
 * hopsättning [Aspose.Words](../../../)
-
-

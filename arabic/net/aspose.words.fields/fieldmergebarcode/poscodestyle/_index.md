@@ -1,7 +1,9 @@
 ---
 title: FieldMergeBarcode.PosCodeStyle
-second_title: Aspose.Words لمراجع .NET API
-description: FieldMergeBarcode ملكية. الحصول على أو تعيين نمط الرمز الشريطي لنقطة البيع أنواع الرموز الشريطية UPCAUPCEEAN13EAN8. القيم الصالحة غير حساسة لحالة الأحرف هي STDSUP2SUP5CASE.
+linktitle: PosCodeStyle
+articleTitle: PosCodeStyle
+second_title: Aspose.Words لـ .NET
+description: FieldMergeBarcode PosCodeStyle ملكية. الحصول على أو تعيين نمط الرمز الشريطي لنقطة البيع أنواع الرموز الشريطية UPCAUPCEEAN13EAN8. القيم الصالحة غير حساسة لحالة الأحرف هي STDSUP2SUP5CASE في C#.
 type: docs
 weight: 110
 url: /ar/net/aspose.words.fields/fieldmergebarcode/poscodestyle/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldmergebarcode/poscodestyle/
 public string PosCodeStyle { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إجراء دمج البريد على الرموز الشريطية EAN13.
 
@@ -60,7 +62,5 @@ doc.Save(ArtifactsDir + "Field.MERGEBARCODE.EAN13.docx");
 ### أنظر أيضا
 
 * class [FieldMergeBarcode](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldmergebarcode/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

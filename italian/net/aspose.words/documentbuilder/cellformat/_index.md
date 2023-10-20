@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.CellFormat
-second_title: Aspose.Words per .NET API Reference
-description: DocumentBuilder proprietà. Restituisce un oggetto che rappresenta le proprietà di formattazione della cella della tabella corrente.
+linktitle: CellFormat
+articleTitle: CellFormat
+second_title: Aspose.Words per .NET
+description: DocumentBuilder CellFormat proprietà. Restituisce un oggetto che rappresenta le proprietà di formattazione della cella della tabella corrente in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words/documentbuilder/cellformat/
@@ -14,7 +16,7 @@ Restituisce un oggetto che rappresenta le proprietà di formattazione della cell
 public CellFormat CellFormat { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come formattare le celle con un generatore di documenti.
 
@@ -164,7 +166,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
 
 * class [CellFormat](../../../aspose.words.tables/cellformat/)
 * class [DocumentBuilder](../)
-* spazio dei nomi [Aspose.Words](../../documentbuilder/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

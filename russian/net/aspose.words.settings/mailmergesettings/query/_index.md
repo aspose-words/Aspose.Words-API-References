@@ -1,7 +1,9 @@
 ---
 title: MailMergeSettings.Query
-second_title: Справочник по API Aspose.Words для .NET
-description: MailMergeSettings свойство. Содержит строку языка структурированных запросов которая должна быть запущена для указанного внешнего источника данных чтобы вернуть набор записей которые должны быть импортированы в документ при выполнении операции слияния почты. Значение по умолчанию  пустая строка.
+linktitle: Query
+articleTitle: Query
+second_title: Aspose.Words для .NET
+description: MailMergeSettings Query свойство. Содержит строку языка структурированных запросов которая должна быть запущена для указанного внешнего источника данных чтобы вернуть набор записей которые должны быть импортированы в документ при выполнении операции слияния почты. Значение по умолчанию  пустая строка на С#.
 type: docs
 weight: 160
 url: /ru/net/aspose.words.settings/mailmergesettings/query/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.settings/mailmergesettings/query/
 public string Query { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как выполнить слияние почты с данными из объекта источника данных Office.
 
@@ -66,7 +68,5 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ### Смотрите также
 
 * class [MailMergeSettings](../)
-* пространство имен [Aspose.Words.Settings](../../mailmergesettings/)
+* пространство имен [Aspose.Words.Settings](../../../aspose.words.settings/)
 * сборка [Aspose.Words](../../../)
-
-

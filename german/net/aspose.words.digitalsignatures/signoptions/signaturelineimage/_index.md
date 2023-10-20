@@ -1,7 +1,9 @@
 ---
 title: SignOptions.SignatureLineImage
-second_title: Aspose.Words für .NET-API-Referenz
-description: SignOptions eigendom. Das Bild das im Zusammenhang angezeigt wirdSignatureLine . Der Standardwert istNull .
+linktitle: SignatureLineImage
+articleTitle: SignatureLineImage
+second_title: Aspose.Words für .NET
+description: SignOptions SignatureLineImage eigendom. Das Bild das im Zusammenhang angezeigt wirdSignatureLine . Der Standardwert istNull  in C#.
 type: docs
 weight: 60
 url: /de/net/aspose.words.digitalsignatures/signoptions/signaturelineimage/
@@ -14,7 +16,7 @@ Das Bild, das im Zusammenhang angezeigt wird[`SignatureLine`](../../../aspose.wo
 public byte[] SignatureLineImage { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man einem Dokument eine Signaturzeile hinzufügt und es dann mit einem digitalen Zertifikat signiert.
 
@@ -130,7 +132,5 @@ Zeigt, wie man einem Dokument eine Signaturzeile hinzufügt und es dann mit eine
 ### Siehe auch
 
 * class [SignOptions](../)
-* namensraum [Aspose.Words.DigitalSignatures](../../signoptions/)
+* namensraum [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * Montage [Aspose.Words](../../../)
-
-

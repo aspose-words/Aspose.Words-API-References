@@ -1,7 +1,9 @@
 ---
 title: IDocumentLoadingCallback.Notify
-second_title: Référence de l'API Aspose.Words pour .NET
-description: IDocumentLoadingCallback méthode. Ceci est appelé pour informer de la progression du chargement du document.
+linktitle: Notify
+articleTitle: Notify
+second_title: Aspose.Words pour .NET
+description: IDocumentLoadingCallback Notify méthode. Ceci est appelé pour informer de la progression du chargement du document en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.loading/idocumentloadingcallback/notify/
@@ -18,13 +20,13 @@ public void Notify(DocumentLoadingArgs args)
 | --- | --- | --- |
 | args | DocumentLoadingArgs | Un argument de l'événement. |
 
-### Remarques
+## Remarques
 
 Les principales utilisations de cette interface sont de permettre au code d'application d'obtenir l'état de progression et d'abandonner le processus de chargement.
 
 Une exception doit être levée à partir du rappel de progression pour l'avortement et elle doit être interceptée dans le code du consommateur.
 
-### Exemples
+## Exemples
 
 Montre comment avertir l'utilisateur si le chargement du document a dépassé le temps de chargement prévu.
 
@@ -90,7 +92,5 @@ public class LoadingProgressCallback : IDocumentLoadingCallback
 * property [ProgressCallback](../../loadoptions/progresscallback/)
 * class [DocumentLoadingArgs](../../documentloadingargs/)
 * interface [IDocumentLoadingCallback](../)
-* espace de noms [Aspose.Words.Loading](../../idocumentloadingcallback/)
+* espace de noms [Aspose.Words.Loading](../../../aspose.words.loading/)
 * Assemblée [Aspose.Words](../../../)
-
-

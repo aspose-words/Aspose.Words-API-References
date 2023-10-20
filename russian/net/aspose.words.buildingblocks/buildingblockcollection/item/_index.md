@@ -1,7 +1,9 @@
 ---
 title: BuildingBlockCollection.Item
-second_title: Справочник по API Aspose.Words для .NET
-description: BuildingBlockCollection свойство. Извлекает строительный блок по заданному индексу.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words для .NET
+description: BuildingBlockCollection Item свойство. Извлекает строительный блок по заданному индексу на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.buildingblocks/buildingblockcollection/item/
@@ -18,7 +20,7 @@ public BuildingBlock this[int index] { get; }
 | --- | --- |
 | index | Индекс в списке строительных блоков. |
 
-### Примечания
+## Примечания
 
 Индекс отсчитывается от нуля.
 
@@ -28,7 +30,7 @@ public BuildingBlock this[int index] { get; }
 
 Если индекс отрицателен и его абсолютное значение превышает количество элементов в списке, возвращается нулевая ссылка.
 
-### Примеры
+## Примеры
 
 Показывает способы доступа к строительным блокам в документе глоссария.
 
@@ -133,7 +135,5 @@ public class GlossaryDocVisitor : DocumentVisitor
 
 * class [BuildingBlock](../../buildingblock/)
 * class [BuildingBlockCollection](../)
-* пространство имен [Aspose.Words.BuildingBlocks](../../buildingblockcollection/)
+* пространство имен [Aspose.Words.BuildingBlocks](../../../aspose.words.buildingblocks/)
 * сборка [Aspose.Words](../../../)
-
-

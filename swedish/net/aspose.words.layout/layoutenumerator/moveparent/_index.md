@@ -1,7 +1,9 @@
 ---
 title: LayoutEnumerator.MoveParent
-second_title: Aspose.Words för .NET API Referens
-description: LayoutEnumerator metod. Flyttar till den överordnade enheten.
+linktitle: MoveParent
+articleTitle: MoveParent
+second_title: Aspose.Words för .NET
+description: LayoutEnumerator MoveParent metod. Flyttar till den överordnade enheten i C#.
 type: docs
 weight: 140
 url: /sv/net/aspose.words.layout/layoutenumerator/moveparent/
@@ -14,7 +16,7 @@ Flyttar till den överordnade enheten.
 public bool MoveParent()
 ```
 
-### Exempel
+## Exempel
 
 Visar sätt att gå igenom ett dokuments layoutenheter.
 
@@ -159,12 +161,12 @@ private static void PrintCurrentEntity(LayoutEnumerator layoutEnumerator, int in
 ### Se även
 
 * class [LayoutEnumerator](../)
-* namnutrymme [Aspose.Words.Layout](../../layoutenumerator/)
+* namnutrymme [Aspose.Words.Layout](../../../aspose.words.layout/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## MoveParent(LayoutEntityType) {#moveparent_1}
+## MoveParent(*[LayoutEntityType](../../layoutentitytype/)*) {#moveparent_1}
 
 Flyttar till den överordnade entiteten av den angivna typen.
 
@@ -176,11 +178,11 @@ public bool MoveParent(LayoutEntityType types)
 | --- | --- | --- |
 | types | LayoutEntityType | Den överordnade enhetstypen att flytta till. Använd bitvis-ELLER för att ange flera överordnade typer. |
 
-### Anmärkningar
+## Anmärkningar
 
 Den här metoden är användbar om du behöver hitta entitetens cell, kolumn eller sidhuvud/sidfotsförälder.
 
-### Exempel
+## Exempel
 
 Visar sätt att gå igenom ett dokuments layoutenheter.
 
@@ -326,7 +328,5 @@ private static void PrintCurrentEntity(LayoutEnumerator layoutEnumerator, int in
 
 * enum [LayoutEntityType](../../layoutentitytype/)
 * class [LayoutEnumerator](../)
-* namnutrymme [Aspose.Words.Layout](../../layoutenumerator/)
+* namnutrymme [Aspose.Words.Layout](../../../aspose.words.layout/)
 * hopsättning [Aspose.Words](../../../)
-
-

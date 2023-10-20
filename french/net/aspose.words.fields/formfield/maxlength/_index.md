@@ -1,7 +1,9 @@
 ---
 title: FormField.MaxLength
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FormField propriété. Longueur maximale du champ de texte. Zéro lorsque la longueur nest pas limitée.
+linktitle: MaxLength
+articleTitle: MaxLength
+second_title: Aspose.Words pour .NET
+description: FormField MaxLength propriété. Longueur maximale du champ de texte. Zéro lorsque la longueur nest pas limitée en C#.
 type: docs
 weight: 120
 url: /fr/net/aspose.words.fields/formfield/maxlength/
@@ -14,7 +16,7 @@ Longueur maximale du champ de texte. Zéro lorsque la longueur n'est pas limité
 public int MaxLength { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment insérer différents types de champs de formulaire dans un document et les traiter à l'aide d'une implémentation de visiteur de document.
 
@@ -148,7 +150,5 @@ public class FormFieldVisitor : DocumentVisitor
 ### Voir également
 
 * class [FormField](../)
-* espace de noms [Aspose.Words.Fields](../../formfield/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

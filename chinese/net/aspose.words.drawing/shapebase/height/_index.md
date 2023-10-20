@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.Height
-second_title: Aspose.Words for .NET API 参考
-description: ShapeBase 财产. 获取或设置形状包含块的高度
+linktitle: Height
+articleTitle: Height
+second_title: 用于 .NET 的 Aspose.Words
+description: ShapeBase Height 财产. 获取或设置形状包含块的高度 在 C#.
 type: docs
 weight: 200
 url: /zh/net/aspose.words.drawing/shapebase/height/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.drawing/shapebase/height/
 public double Height { get; set; }
 ```
 
-### 评论
+## 评论
 
 对于顶级形状，该值以点为单位。
 
@@ -22,7 +24,7 @@ public double Height { get; set; }
 
 默认值为 0。
 
-### 例子
+## 例子
 
 演示如何插入浮动图像，并指定其位置和大小。
 
@@ -111,7 +113,5 @@ doc.Save(ArtifactsDir + "Image.CreateFloatingPositionSize.docx");
 ### 也可以看看
 
 * class [ShapeBase](../)
-* 命名空间 [Aspose.Words.Drawing](../../shapebase/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: OleControl.Name
-second_title: Справочник по API Aspose.Words для .NET
-description: OleControl свойство. Получает или задает имя элемента управления ActiveX.
+linktitle: Name
+articleTitle: Name
+second_title: Aspose.Words для .NET
+description: OleControl Name свойство. Получает или задает имя элемента управления ActiveX на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.drawing.ole/olecontrol/name/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.drawing.ole/olecontrol/name/
 public string Name { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как проверить свойства элемента управления ActiveX.
 
@@ -44,7 +46,5 @@ if (oleControl.IsForms2OleControl)
 ### Смотрите также
 
 * class [OleControl](../)
-* пространство имен [Aspose.Words.Drawing.Ole](../../olecontrol/)
+* пространство имен [Aspose.Words.Drawing.Ole](../../../aspose.words.drawing.ole/)
 * сборка [Aspose.Words](../../../)
-
-

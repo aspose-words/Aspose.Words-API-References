@@ -1,12 +1,14 @@
 ---
 title: ChartSeries.Add
-second_title: Referencia de API de Aspose.Words para .NET
-description: ChartSeries método. Agrega el valor X especificado a la serie del gráfico. Si la serie admite valores Y y tamaños de burbujas estarán vacíos para el valor X.
+linktitle: Add
+articleTitle: Add
+second_title: Aspose.Words para .NET
+description: ChartSeries Add método. Agrega el valor X especificado a la serie del gráfico. Si la serie admite valores Y y tamaños de burbujas estarán vacíos para el valor X en C#.
 type: docs
 weight: 160
 url: /es/net/aspose.words.drawing.charts/chartseries/add/
 ---
-## Add(ChartXValue) {#add}
+## Add(*[ChartXValue](../../chartxvalue/)*) {#add}
 
 Agrega el valor X especificado a la serie del gráfico. Si la serie admite valores Y y tamaños de burbujas, estarán vacíos para el valor X.
 
@@ -18,12 +20,12 @@ public void Add(ChartXValue xValue)
 
 * class [ChartXValue](../../chartxvalue/)
 * class [ChartSeries](../)
-* espacio de nombres [Aspose.Words.Drawing.Charts](../../chartseries/)
+* espacio de nombres [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * asamblea [Aspose.Words](../../../)
 
 ---
 
-## Add(ChartXValue, ChartYValue) {#add_1}
+## Add(*[ChartXValue](../../chartxvalue/), [ChartYValue](../../chartyvalue/)*) {#add_1}
 
 Agrega los valores X e Y especificados a la serie del gráfico.
 
@@ -31,7 +33,7 @@ Agrega los valores X e Y especificados a la serie del gráfico.
 public void Add(ChartXValue xValue, ChartYValue yValue)
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo agregar/eliminar valores de datos del gráfico.
 
@@ -94,12 +96,12 @@ doc.Save(ArtifactsDir + "Charts.PopulateChartWithData.docx");
 * class [ChartXValue](../../chartxvalue/)
 * class [ChartYValue](../../chartyvalue/)
 * class [ChartSeries](../)
-* espacio de nombres [Aspose.Words.Drawing.Charts](../../chartseries/)
+* espacio de nombres [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * asamblea [Aspose.Words](../../../)
 
 ---
 
-## Add(ChartXValue, ChartYValue, double) {#add_2}
+## Add(*[ChartXValue](../../chartxvalue/), [ChartYValue](../../chartyvalue/), double*) {#add_2}
 
 Agrega el valor X, el valor Y y el tamaño de burbuja especificados a la serie del gráfico.
 
@@ -112,7 +114,5 @@ public void Add(ChartXValue xValue, ChartYValue yValue, double bubbleSize)
 * class [ChartXValue](../../chartxvalue/)
 * class [ChartYValue](../../chartyvalue/)
 * class [ChartSeries](../)
-* espacio de nombres [Aspose.Words.Drawing.Charts](../../chartseries/)
+* espacio de nombres [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * asamblea [Aspose.Words](../../../)
-
-

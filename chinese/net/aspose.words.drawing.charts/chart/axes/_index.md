@@ -1,7 +1,9 @@
 ---
 title: Chart.Axes
-second_title: Aspose.Words for .NET API 参考
-description: Chart 财产. 获取此图表所有轴的集合
+linktitle: Axes
+articleTitle: Axes
+second_title: 用于 .NET 的 Aspose.Words
+description: Chart Axes 财产. 获取此图表所有轴的集合 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.drawing.charts/chart/axes/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.drawing.charts/chart/axes/
 public ChartAxisCollection Axes { get; }
 ```
 
-### 例子
+## 例子
 
 展示如何使用轴集合。
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "Charts.AxisCollection.docx");
 
 * class [ChartAxisCollection](../../chartaxiscollection/)
 * class [Chart](../)
-* 命名空间 [Aspose.Words.Drawing.Charts](../../chart/)
+* 命名空间 [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * 部件 [Aspose.Words](../../../)
-
-

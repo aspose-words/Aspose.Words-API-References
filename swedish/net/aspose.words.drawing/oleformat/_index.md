@@ -1,7 +1,9 @@
 ---
-title: Class OleFormat
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Drawing.OleFormat klass. Ger åtkomst till data för ett OLEobjekt eller ActiveXkontroll.
+title: OleFormat Class
+linktitle: OleFormat
+articleTitle: OleFormat
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Drawing.OleFormat klass. Ger åtkomst till data för ett OLEobjekt eller ActiveXkontroll i C#.
 type: docs
 weight: 1150
 url: /sv/net/aspose.words.drawing/oleformat/
@@ -38,16 +40,16 @@ public class OleFormat
 
 | namn | Beskrivning |
 | --- | --- |
-| [GetOleEntry](../../aspose.words.drawing/oleformat/getoleentry/)(string) | Hämtar OLE-objektdatainmatning. |
+| [GetOleEntry](../../aspose.words.drawing/oleformat/getoleentry/)(*string*) | Hämtar OLE-objektdatainmatning. |
 | [GetRawData](../../aspose.words.drawing/oleformat/getrawdata/)() | Hämtar rådata för OLE-objekt. |
-| [Save](../../aspose.words.drawing/oleformat/save/#save)(Stream) | Sparar data för det inbäddade objektet i den angivna strömmen. |
-| [Save](../../aspose.words.drawing/oleformat/save/#save_1)(string) | Sparar data för det inbäddade objektet i en fil med det angivna namnet. |
+| [Save](../../aspose.words.drawing/oleformat/save/#save)(*Stream*) | Sparar data för det inbäddade objektet i den angivna strömmen. |
+| [Save](../../aspose.words.drawing/oleformat/save/#save_1)(*string*) | Sparar data för det inbäddade objektet i en fil med det angivna namnet. |
 
-### Anmärkningar
+## Anmärkningar
 
 Använd[`OleFormat`](../shape/oleformat/)egenskap för att komma åt data för ett OLE-objekt. Du skapar inte instanser av`OleFormat` klass direkt.
 
-### Exempel
+## Exempel
 
 Visar hur man extraherar inbäddade OLE-objekt till filer.
 
@@ -83,5 +85,3 @@ oleFormat.Save(ArtifactsDir + "OLE spreadsheet saved directly" + oleFormat.Sugge
 
 * namnutrymme [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../)
-
-

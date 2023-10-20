@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.DocumentSplitHeadingLevel
-second_title: Aspose.Words per .NET API Reference
-description: HtmlSaveOptions proprietà. Specifica il livello massimo di intestazioni a cui dividere il documento. Il valore predefinito è2 .
+linktitle: DocumentSplitHeadingLevel
+articleTitle: DocumentSplitHeadingLevel
+second_title: Aspose.Words per .NET
+description: HtmlSaveOptions DocumentSplitHeadingLevel proprietà. Specifica il livello massimo di intestazioni a cui dividere il documento. Il valore predefinito è2  in C#.
 type: docs
 weight: 90
 url: /it/net/aspose.words.saving/htmlsaveoptions/documentsplitheadinglevel/
@@ -14,13 +16,13 @@ Specifica il livello massimo di intestazioni a cui dividere il documento. Il val
 public int DocumentSplitHeadingLevel { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
-Quando[`DocumentSplitCriteria`](../documentsplitcriteria/) includeHeadingParagraph e questa proprietà è impostata su un valore compreso tra 1 e 9, il documento verrà diviso in paragrafi formattati utilizzando  **Rubrica 1** , **Rubrica 2** , **Rubrica 3**ecc. stili fino al livello di intestazione specificato.
+Quando[`DocumentSplitCriteria`](../documentsplitcriteria/) includeHeadingParagraph e questa proprietà è impostata su un valore compreso tra 1 e 9, il documento verrà diviso in paragrafi formattati utilizzando **Rubrica 1** ,**Rubrica 2** ,**Rubrica 3**ecc. stili fino al livello di intestazione specificato.
 
-Solo per impostazione predefinita **Rubrica 1** E **Rubrica 2** i paragrafi causano la divisione del documento. Impostando questa proprietà su zero, il documento non verrà affatto diviso nei paragrafi di intestazione.
+Solo per impostazione predefinita**Rubrica 1** E**Rubrica 2** i paragrafi causano la divisione del documento. Impostando questa proprietà su zero, il documento non verrà affatto diviso nei paragrafi di intestazione.
 
-### Esempi
+## Esempi
 
 Mostra come dividere un documento HTML di output in base alle intestazioni in più parti.
 
@@ -82,7 +84,5 @@ Assert.AreEqual("Heading #5\r" +
 ### Guarda anche
 
 * class [HtmlSaveOptions](../)
-* spazio dei nomi [Aspose.Words.Saving](../../htmlsaveoptions/)
+* spazio dei nomi [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../../)
-
-

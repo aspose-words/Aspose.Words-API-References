@@ -1,7 +1,9 @@
 ---
 title: Shape.StoryType
-second_title: Aspose.Words for .NET API 参考
-description: Shape 财产. 返回Textbox.
+linktitle: StoryType
+articleTitle: StoryType
+second_title: 用于 .NET 的 Aspose.Words
+description: Shape StoryType 财产. 返回Textbox 在 C#.
 type: docs
 weight: 170
 url: /zh/net/aspose.words.drawing/shape/storytype/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.drawing/shape/storytype/
 public StoryType StoryType { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何迭代文档中的所有形状。
 
@@ -138,7 +140,5 @@ private class ShapeAppearancePrinter : DocumentVisitor
 
 * enum [StoryType](../../../aspose.words/storytype/)
 * class [Shape](../)
-* 命名空间 [Aspose.Words.Drawing](../../shape/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

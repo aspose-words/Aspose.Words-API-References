@@ -1,7 +1,9 @@
 ---
 title: Font.Style
-second_title: Aspose.Words für .NET-API-Referenz
-description: Font eigendom. Ruft den auf diese Formatierung angewendeten Zeichenstil ab oder legt diesen fest.
+linktitle: Style
+articleTitle: Style
+second_title: Aspose.Words für .NET
+description: Font Style eigendom. Ruft den auf diese Formatierung angewendeten Zeichenstil ab oder legt diesen fest in C#.
 type: docs
 weight: 400
 url: /de/net/aspose.words/font/style/
@@ -14,7 +16,7 @@ Ruft den auf diese Formatierung angewendeten Zeichenstil ab oder legt diesen fes
 public Style Style { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Wendet eine doppelte Unterstreichung auf alle Zeilen in einem Dokument an, die mit benutzerdefinierten Zeichenstilen formatiert sind.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "Font.Style.docx");
 
 * class [Style](../../style/)
 * class [Font](../)
-* namensraum [Aspose.Words](../../font/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

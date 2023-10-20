@@ -1,7 +1,9 @@
 ---
 title: FieldIndex.LetterRange
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldIndex свойство. Получает или задает диапазон букв которым ограничивается индекс.
+linktitle: LetterRange
+articleTitle: LetterRange
+second_title: Aspose.Words для .NET
+description: FieldIndex LetterRange свойство. Получает или задает диапазон букв которым ограничивается индекс на С#.
 type: docs
 weight: 90
 url: /ru/net/aspose.words.fields/fieldindex/letterrange/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldindex/letterrange/
 public string LetterRange { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как заполнить поле INDEX записями с использованием полей XE, а также изменить его внешний вид.
 
@@ -86,7 +88,5 @@ doc.Save(ArtifactsDir + "Field.INDEX.XE.Formatting.docx");
 ### Смотрите также
 
 * class [FieldIndex](../)
-* пространство имен [Aspose.Words.Fields](../../fieldindex/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

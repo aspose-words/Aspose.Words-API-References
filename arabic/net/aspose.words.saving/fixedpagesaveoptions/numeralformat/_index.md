@@ -1,7 +1,9 @@
 ---
 title: FixedPageSaveOptions.NumeralFormat
-second_title: Aspose.Words لمراجع .NET API
-description: FixedPageSaveOptions ملكية. يحصل على أو مجموعاتNumeralFormat تستخدم لعرض الأرقام. يتم استخدام الأرقام الأوروبية بشكل افتراضي.
+linktitle: NumeralFormat
+articleTitle: NumeralFormat
+second_title: Aspose.Words لـ .NET
+description: FixedPageSaveOptions NumeralFormat ملكية. يحصل على أو مجموعاتNumeralFormat تستخدم لعرض الأرقام. يتم استخدام الأرقام الأوروبية بشكل افتراضي في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.saving/fixedpagesaveoptions/numeralformat/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.saving/fixedpagesaveoptions/numeralformat/
 public NumeralFormat NumeralFormat { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 إذا تم تغيير قيمة هذه الخاصية وتم إنشاء تخطيط الصفحة بالفعل، إذن [`UpdatePageLayout`](../../../aspose.words/document/updatepagelayout/) يتم استدعاؤه تلقائيًا لتحديث أي تغييرات.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية ضبط التنسيق الرقمي المستخدم عند الحفظ إلى PDF.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.SetNumeralFormat.pdf", options);
 
 * enum [NumeralFormat](../../numeralformat/)
 * class [FixedPageSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../fixedpagesaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

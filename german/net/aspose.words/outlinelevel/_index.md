@@ -1,7 +1,9 @@
 ---
-title: Enum OutlineLevel
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.OutlineLevel opsomming. Gibt die Gliederungsebene eines Absatzes im Dokument an.
+title: OutlineLevel Enum
+linktitle: OutlineLevel
+articleTitle: OutlineLevel
+second_title: Aspose.Words für .NET
+description: Aspose.Words.OutlineLevel opsomming. Gibt die Gliederungsebene eines Absatzes im Dokument an in C#.
 type: docs
 weight: 4330
 url: /de/net/aspose.words/outlinelevel/
@@ -33,5 +35,3 @@ public enum OutlineLevel
 
 * namensraum [Aspose.Words](../../aspose.words/)
 * Montage [Aspose.Words](../../)
-
-

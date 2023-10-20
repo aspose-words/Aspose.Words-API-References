@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.DocumentSplitCriteria
-second_title: Référence de l'API Aspose.Words pour .NET
-description: HtmlSaveOptions propriété. Spécifie comment le document doit être divisé lors de lenregistrement surHtml  Epub ouAzw3 format. La valeur par défaut estNone pour HTML et HeadingParagraph pour EPUB et AZW3.
+linktitle: DocumentSplitCriteria
+articleTitle: DocumentSplitCriteria
+second_title: Aspose.Words pour .NET
+description: HtmlSaveOptions DocumentSplitCriteria propriété. Spécifie comment le document doit être divisé lors de lenregistrement surHtml  Epub ouAzw3 format. La valeur par défaut estNone pour HTML et HeadingParagraph pour EPUB et AZW3 en C#.
 type: docs
 weight: 80
 url: /fr/net/aspose.words.saving/htmlsaveoptions/documentsplitcriteria/
@@ -14,13 +16,13 @@ Spécifie comment le document doit être divisé lors de l'enregistrement surHtm
 public DocumentSplitCriteria DocumentSplitCriteria { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 Normalement, vous souhaiteriez qu’un document soit enregistré au format HTML sous forme de fichier unique. Mais dans certains cas, il est préférable de diviser la sortie en plusieurs pages HTML plus petites. Lors de l'enregistrement au format HTML, ces pages seront sorties dans des fichiers ou des flux individuels. Lors de l'enregistrement au format EPUB, ils seront incorporés dans les packages correspondants.
 
 Un document ne peut pas être fractionné lors de son enregistrement au format MHTML.
 
-### Exemples
+## Exemples
 
 Montre comment utiliser un encodage spécifique lors de l’enregistrement d’un document au format .epub.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "HtmlSaveOptions.Doc2EpubSaveOptions.epub", saveOptions)
 
 * enum [DocumentSplitCriteria](../../documentsplitcriteria/)
 * class [HtmlSaveOptions](../)
-* espace de noms [Aspose.Words.Saving](../../htmlsaveoptions/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

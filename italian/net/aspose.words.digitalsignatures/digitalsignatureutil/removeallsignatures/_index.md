@@ -1,12 +1,14 @@
 ---
 title: DigitalSignatureUtil.RemoveAllSignatures
-second_title: Aspose.Words per .NET API Reference
-description: DigitalSignatureUtil metodo. Rimuove tutte le firme digitali dal file di origine e scrive il file non firmato nel file di destinazione.
+linktitle: RemoveAllSignatures
+articleTitle: RemoveAllSignatures
+second_title: Aspose.Words per .NET
+description: DigitalSignatureUtil RemoveAllSignatures metodo. Rimuove tutte le firme digitali dal file di origine e scrive il file non firmato nel file di destinazione in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words.digitalsignatures/digitalsignatureutil/removeallsignatures/
 ---
-## RemoveAllSignatures(string, string) {#removeallsignatures_1}
+## RemoveAllSignatures(*string, string*) {#removeallsignatures_1}
 
 Rimuove tutte le firme digitali dal file di origine e scrive il file non firmato nel file di destinazione.
 
@@ -16,7 +18,7 @@ I seguenti formati sono compatibili per la rimozione della firma digitale: Doc ,
 public static void RemoveAllSignatures(string srcFileName, string dstFileName)
 ```
 
-### Esempi
+## Esempi
 
 Mostra come rimuovere le firme digitali da un documento firmato digitalmente.
 
@@ -44,12 +46,12 @@ Assert.That(DigitalSignatureUtil.LoadSignatures(ArtifactsDir + "DigitalSignature
 ### Guarda anche
 
 * class [DigitalSignatureUtil](../)
-* spazio dei nomi [Aspose.Words.DigitalSignatures](../../digitalsignatureutil/)
+* spazio dei nomi [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * assemblea [Aspose.Words](../../../)
 
 ---
 
-## RemoveAllSignatures(Stream, Stream) {#removeallsignatures}
+## RemoveAllSignatures(*Stream, Stream*) {#removeallsignatures}
 
 Rimuove tutte le firme digitali dal documento nel flusso di origine e scrive il documento non firmato nel flusso di destinazione.
 
@@ -61,7 +63,7 @@ I seguenti formati sono compatibili per la rimozione della firma digitale: Doc ,
 public static void RemoveAllSignatures(Stream srcStream, Stream dstStream)
 ```
 
-### Esempi
+## Esempi
 
 Mostra come rimuovere le firme digitali da un documento firmato digitalmente.
 
@@ -89,7 +91,5 @@ Assert.That(DigitalSignatureUtil.LoadSignatures(ArtifactsDir + "DigitalSignature
 ### Guarda anche
 
 * class [DigitalSignatureUtil](../)
-* spazio dei nomi [Aspose.Words.DigitalSignatures](../../digitalsignatureutil/)
+* spazio dei nomi [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * assemblea [Aspose.Words](../../../)
-
-

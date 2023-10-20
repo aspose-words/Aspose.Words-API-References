@@ -1,7 +1,9 @@
 ---
 title: FormField.DropDownSelectedIndex
-second_title: Aspose.Words for .NET API 参考
-description: FormField 财产. 获取或设置指定下拉表单字段中当前所选项目的索引
+linktitle: DropDownSelectedIndex
+articleTitle: DropDownSelectedIndex
+second_title: 用于 .NET 的 Aspose.Words
+description: FormField DropDownSelectedIndex 财产. 获取或设置指定下拉表单字段中当前所选项目的索引 在 C#.
 type: docs
 weight: 60
 url: /zh/net/aspose.words.fields/formfield/dropdownselectedindex/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/formfield/dropdownselectedindex/
 public int DropDownSelectedIndex { get; set; }
 ```
 
-### 例子
+## 例子
 
 展示如何将不同类型的表单字段插入到文档中，并使用文档访问者实现来处理它们。
 
@@ -148,7 +150,5 @@ public class FormFieldVisitor : DocumentVisitor
 ### 也可以看看
 
 * class [FormField](../)
-* 命名空间 [Aspose.Words.Fields](../../formfield/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

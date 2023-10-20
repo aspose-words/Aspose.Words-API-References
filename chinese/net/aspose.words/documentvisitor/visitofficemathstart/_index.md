@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitOfficeMathStart
-second_title: Aspose.Words for .NET API 参考
-description: DocumentVisitor 方法. 在开始枚举 Office Math 对象时调用
+linktitle: VisitOfficeMathStart
+articleTitle: VisitOfficeMathStart
+second_title: 用于 .NET 的 Aspose.Words
+description: DocumentVisitor VisitOfficeMathStart 方法. 在开始枚举 Office Math 对象时调用 在 C#.
 type: docs
 weight: 310
 url: /zh/net/aspose.words/documentvisitor/visitofficemathstart/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitOfficeMathStart(OfficeMath officeMath)
 
 A[`VisitorAction`](../../visitoraction/)指定如何继续枚举的值。
 
-### 例子
+## 例子
 
 演示如何打印文档中每个 Office Math 节点的节点结构。
 
@@ -116,7 +118,5 @@ public class OfficeMathStructurePrinter : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [OfficeMath](../../../aspose.words.math/officemath/)
 * class [DocumentVisitor](../)
-* 命名空间 [Aspose.Words](../../documentvisitor/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

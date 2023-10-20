@@ -1,9 +1,11 @@
 ---
 title: Stroke.Visible
-second_title: Справочник по API Aspose.Words для .NET
-description: Stroke свойство. Получает или задает флаг указывающий отображается ли обводка.
+linktitle: Visible
+articleTitle: Visible
+second_title: Aspose.Words для .NET
+description: Stroke Visible свойство. Получает или задает флаг указывающий отображается ли обводка на С#.
 type: docs
-weight: 210
+weight: 200
 url: /ru/net/aspose.words.drawing/stroke/visible/
 ---
 ## Stroke.Visible property
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.drawing/stroke/visible/
 public bool Visible { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Значение по умолчанию для[`Shape`](../../shape/) является`истинный` .
 
-### Примеры
+## Примеры
 
 Покажите, как установить форматирование маркера.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "Charts.MarkerFormatting.docx");
 ### Смотрите также
 
 * class [Stroke](../)
-* пространство имен [Aspose.Words.Drawing](../../stroke/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

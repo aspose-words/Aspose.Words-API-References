@@ -1,7 +1,9 @@
 ---
-title: Class Frameset
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Framesets.Frameset klas. Stellt eine FramesSeite oder einen einzelnen Frame auf einer FramesSeite dar.
+title: Frameset Class
+linktitle: Frameset
+articleTitle: Frameset
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Framesets.Frameset klas. Stellt eine FramesSeite oder einen einzelnen Frame auf einer FramesSeite dar in C#.
 type: docs
 weight: 3080
 url: /de/net/aspose.words.framesets/frameset/
@@ -30,11 +32,11 @@ public class Frameset
 | [FrameDefaultUrl](../../aspose.words.framesets/frameset/framedefaulturl/) { get; set; } | Ruft die URL der Webseite oder den Namen der Dokumentdatei ab, die in diesem Frame angezeigt werden sollen, oder legt diese fest. |
 | [IsFrameLinkToFile](../../aspose.words.framesets/frameset/isframelinktofile/) { get; set; } | Ruft einen Wert ab oder legt diesen fest, der angibt, ob der in the angegebene Webseiten- oder Dokumentdateiname verwendet wird.[`FrameDefaultUrl`](./framedefaulturl/) Eigenschaft ist eine externe Ressource, mit der der Frame verknüpft ist. |
 
-### Bemerkungen
+## Bemerkungen
 
 Wenn die[`ChildFramesets`](./childframesets/) Die Eigenschaft enthält Elemente. Diese Instanz ist eine Frames-Seite, andernfalls handelt es sich um einen einzelnen Frame.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man auf Frames auf der Seite zugreift.
 
@@ -60,5 +62,3 @@ doc.Frameset.ChildFramesets[0].ChildFramesets[0].IsFrameLinkToFile = false;
 
 * namensraum [Aspose.Words.Framesets](../../aspose.words.framesets/)
 * Montage [Aspose.Words](../../)
-
-

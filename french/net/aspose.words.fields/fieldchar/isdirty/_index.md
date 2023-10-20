@@ -1,7 +1,9 @@
 ---
 title: FieldChar.IsDirty
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldChar propriété. Obtient ou définit si le résultat actuel du champ nest plus correct périmé en raison dautres modifications apportées au document.
+linktitle: IsDirty
+articleTitle: IsDirty
+second_title: Aspose.Words pour .NET
+description: FieldChar IsDirty propriété. Obtient ou définit si le résultat actuel du champ nest plus correct périmé en raison dautres modifications apportées au document en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.fields/fieldchar/isdirty/
@@ -14,7 +16,7 @@ Obtient ou définit si le résultat actuel du champ n'est plus correct (périmé
 public bool IsDirty { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment travailler avec un nœud FieldStart.
 
@@ -45,7 +47,5 @@ field.Update();
 ### Voir également
 
 * class [FieldChar](../)
-* espace de noms [Aspose.Words.Fields](../../fieldchar/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

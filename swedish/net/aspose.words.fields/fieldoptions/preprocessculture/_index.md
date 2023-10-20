@@ -1,7 +1,9 @@
 ---
 title: FieldOptions.PreProcessCulture
-second_title: Aspose.Words för .NET API Referens
-description: FieldOptions fast egendom. Hämtar eller ställer in kulturen för att förbehandla fältvärden.
+linktitle: PreProcessCulture
+articleTitle: PreProcessCulture
+second_title: Aspose.Words för .NET
+description: FieldOptions PreProcessCulture fast egendom. Hämtar eller ställer in kulturen för att förbehandla fältvärden i C#.
 type: docs
 weight: 170
 url: /sv/net/aspose.words.fields/fieldoptions/preprocessculture/
@@ -14,13 +16,13 @@ Hämtar eller ställer in kulturen för att förbehandla fältvärden.
 public CultureInfo PreProcessCulture { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 För närvarande påverkar denna egenskap endast värdet av[`FieldDocProperty`](../../fielddocproperty/) fält.
 
 Standardvärdet är`null` . När den här egenskapen är inställd på`null` , den[`FieldDocProperty`](../../fielddocproperty/)fältets värde är preprocessed med kulturen kontrollerad av[`FieldUpdateCultureSource`](../fieldupdateculturesource/) fast egendom.
 
-### Exempel
+## Exempel
 
 Visar hur man ställer in förprocesskulturen.
 
@@ -47,7 +49,5 @@ Assert.IsTrue(Regex.Match(field.Result, @"\d{2}[/]\d{2}[/]\d{4} \d{2}[:]\d{2}").
 ### Se även
 
 * class [FieldOptions](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldoptions/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

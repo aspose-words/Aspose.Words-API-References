@@ -1,7 +1,9 @@
 ---
 title: PdfEncryptionDetails.Permissions
-second_title: Справочник по API Aspose.Words для .NET
-description: PdfEncryptionDetails свойство. Указывает операции которые разрешены пользователю с зашифрованным PDFдокументом. Значение по умолчаниюDisallowAll .
+linktitle: Permissions
+articleTitle: Permissions
+second_title: Aspose.Words для .NET
+description: PdfEncryptionDetails Permissions свойство. Указывает операции которые разрешены пользователю с зашифрованным PDFдокументом. Значение по умолчаниюDisallowAll  на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.saving/pdfencryptiondetails/permissions/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.saving/pdfencryptiondetails/permissions/
 public PdfPermissions Permissions { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как установить разрешения для сохраненного PDF-документа.
 
@@ -42,7 +44,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.EncryptionPermissions.pdf", saveOptions)
 
 * enum [PdfPermissions](../../pdfpermissions/)
 * class [PdfEncryptionDetails](../)
-* пространство имен [Aspose.Words.Saving](../../pdfencryptiondetails/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

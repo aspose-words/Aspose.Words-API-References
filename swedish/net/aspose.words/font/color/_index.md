@@ -1,7 +1,9 @@
 ---
 title: Font.Color
-second_title: Aspose.Words för .NET API Referens
-description: Font fast egendom. Hämtar eller ställer in färgen på teckensnittet.
+linktitle: Color
+articleTitle: Color
+second_title: Aspose.Words för .NET
+description: Font Color fast egendom. Hämtar eller ställer in färgen på teckensnittet i C#.
 type: docs
 weight: 70
 url: /sv/net/aspose.words/font/color/
@@ -14,7 +16,7 @@ Hämtar eller ställer in färgen på teckensnittet.
 public Color Color { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man infogar formaterad text med DocumentBuilder.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertHyperlink.docx");
 ### Se även
 
 * class [Font](../)
-* namnutrymme [Aspose.Words](../../font/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

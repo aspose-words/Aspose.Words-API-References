@@ -1,7 +1,9 @@
 ---
 title: AxisDisplayUnit.Document
-second_title: Справочник по API Aspose.Words для .NET
-description: AxisDisplayUnit свойство. Возвращает документ которому принадлежит правообладатель.
+linktitle: Document
+articleTitle: Document
+second_title: Aspose.Words для .NET
+description: AxisDisplayUnit Document свойство. Возвращает документ которому принадлежит правообладатель на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.drawing.charts/axisdisplayunit/document/
@@ -18,7 +20,5 @@ public DocumentBase Document { get; }
 
 * class [DocumentBase](../../../aspose.words/documentbase/)
 * class [AxisDisplayUnit](../)
-* пространство имен [Aspose.Words.Drawing.Charts](../../axisdisplayunit/)
+* пространство имен [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../../)
-
-

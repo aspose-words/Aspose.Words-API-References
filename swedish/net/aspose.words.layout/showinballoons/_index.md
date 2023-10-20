@@ -1,7 +1,9 @@
 ---
-title: Enum ShowInBalloons
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Layout.ShowInBalloons uppräkning. Anger vilka revisioner som renderas i ballonger.
+title: ShowInBalloons Enum
+linktitle: ShowInBalloons
+articleTitle: ShowInBalloons
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Layout.ShowInBalloons uppräkning. Anger vilka revisioner som renderas i ballonger i C#.
 type: docs
 weight: 3410
 url: /sv/net/aspose.words.layout/showinballoons/
@@ -22,11 +24,11 @@ public enum ShowInBalloons
 | Format | `1` | Återger infoga och ta bort revisioner inline, formatera revisioner i ballonger. |
 | FormatAndDelete | `2` | Återger infoga revisioner inline, radera och formatera revisioner i ballonger. |
 
-### Anmärkningar
+## Anmärkningar
 
 Observera att revisioner inte återges i ballonger förShowInAnnotations .
 
-### Exempel
+## Exempel
 
 Visar hur man ändrar utseendet på revisioner.
 
@@ -78,5 +80,3 @@ doc.Save(ArtifactsDir + "Revision.RevisionOptions.pdf");
 
 * namnutrymme [Aspose.Words.Layout](../../aspose.words.layout/)
 * hopsättning [Aspose.Words](../../)
-
-

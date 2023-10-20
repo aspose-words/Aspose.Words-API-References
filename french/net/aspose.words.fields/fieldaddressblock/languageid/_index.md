@@ -1,7 +1,9 @@
 ---
 title: FieldAddressBlock.LanguageId
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldAddressBlock propriété. Obtient ou définit lID de langue utilisé pour formater ladresse.
+linktitle: LanguageId
+articleTitle: LanguageId
+second_title: Aspose.Words pour .NET
+description: FieldAddressBlock LanguageId propriété. Obtient ou définit lID de langue utilisé pour formater ladresse en C#.
 type: docs
 weight: 50
 url: /fr/net/aspose.words.fields/fieldaddressblock/languageid/
@@ -14,7 +16,7 @@ Obtient ou définit l'ID de langue utilisé pour formater l'adresse.
 public string LanguageId { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment insérer un champ ADDRESSBLOCK.
 
@@ -45,7 +47,5 @@ Assert.AreEqual(
 ### Voir également
 
 * class [FieldAddressBlock](../)
-* espace de noms [Aspose.Words.Fields](../../fieldaddressblock/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldSet.BookmarkName
-second_title: Aspose.Words per .NET API Reference
-description: FieldSet proprietà. Ottiene o imposta il nome del segnalibro.
+linktitle: BookmarkName
+articleTitle: BookmarkName
+second_title: Aspose.Words per .NET
+description: FieldSet BookmarkName proprietà. Ottiene o imposta il nome del segnalibro in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words.fields/fieldset/bookmarkname/
@@ -14,7 +16,7 @@ Ottiene o imposta il nome del segnalibro.
 public string BookmarkName { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come creare testo con segnalibro con un campo SET e quindi visualizzarlo nel documento utilizzando un campo REF.
 
@@ -45,7 +47,5 @@ doc.Save(ArtifactsDir + "Field.SET.REF.docx");
 ### Guarda anche
 
 * class [FieldSet](../)
-* spazio dei nomi [Aspose.Words.Fields](../../fieldset/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

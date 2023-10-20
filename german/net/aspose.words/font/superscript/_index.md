@@ -1,7 +1,9 @@
 ---
 title: Font.Superscript
-second_title: Aspose.Words für .NET-API-Referenz
-description: Font eigendom. True wenn die Schriftart hochgestellt formatiert ist.
+linktitle: Superscript
+articleTitle: Superscript
+second_title: Aspose.Words für .NET
+description: Font Superscript eigendom. True wenn die Schriftart hochgestellt formatiert ist in C#.
 type: docs
 weight: 440
 url: /de/net/aspose.words/font/superscript/
@@ -14,7 +16,7 @@ True, wenn die Schriftart hochgestellt formatiert ist.
 public bool Superscript { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Text formatiert wird, um seine Position zu versetzen.
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "Font.PositionSubscript.docx");
 ### Siehe auch
 
 * class [Font](../)
-* namensraum [Aspose.Words](../../font/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

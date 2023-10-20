@@ -1,7 +1,9 @@
 ---
 title: TabStopCollection.Count
-second_title: Referencia de API de Aspose.Words para .NET
-description: TabStopCollection propiedad. Obtiene el número de tabulaciones en la colección.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words para .NET
+description: TabStopCollection Count propiedad. Obtiene el número de tabulaciones en la colección en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words/tabstopcollection/count/
@@ -14,7 +16,7 @@ Obtiene el número de tabulaciones en la colección.
 public int Count { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo trabajar con la colección de tabulaciones de un documento.
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "TabStopCollection.TabStopCollection.docx");
 ### Ver también
 
 * class [TabStopCollection](../)
-* espacio de nombres [Aspose.Words](../../tabstopcollection/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

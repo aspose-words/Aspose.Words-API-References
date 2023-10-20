@@ -1,7 +1,9 @@
 ---
-title: Class OdsoRecipientDataCollection
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Settings.OdsoRecipientDataCollection فصل. مجموعة مطبوعة منOdsoRecipientData
+title: OdsoRecipientDataCollection Class
+linktitle: OdsoRecipientDataCollection
+articleTitle: OdsoRecipientDataCollection
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Settings.OdsoRecipientDataCollection فصل. مجموعة مطبوعة منOdsoRecipientData في C#.
 type: docs
 weight: 5940
 url: /ar/net/aspose.words.settings/odsorecipientdatacollection/
@@ -33,12 +35,12 @@ public class OdsoRecipientDataCollection : IEnumerable<OdsoRecipientData>
 
 | اسم | وصف |
 | --- | --- |
-| [Add](../../aspose.words.settings/odsorecipientdatacollection/add/)(OdsoRecipientData) | إضافة كائن إلى نهاية هذه المجموعة. |
+| [Add](../../aspose.words.settings/odsorecipientdatacollection/add/)(*[OdsoRecipientData](../odsorecipientdata/)*) | إضافة كائن إلى نهاية هذه المجموعة. |
 | [Clear](../../aspose.words.settings/odsorecipientdatacollection/clear/)() | إزالة كافة العناصر من هذه المجموعة. |
 | [GetEnumerator](../../aspose.words.settings/odsorecipientdatacollection/getenumerator/)() | إرجاع كائن العداد الذي يمكن استخدامه للتكرار على كافة العناصر الموجودة في المجموعة. |
-| [RemoveAt](../../aspose.words.settings/odsorecipientdatacollection/removeat/)(int) | إزالة العنصر الموجود في الفهرس المحدد. |
+| [RemoveAt](../../aspose.words.settings/odsorecipientdatacollection/removeat/)(*int*) | إزالة العنصر الموجود في الفهرس المحدد. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الوصول إلى مجموعة البيانات التي تحدد سجلات مصدر بيانات الدمج التي سيتم استبعادها من خلال دمج البريد.
 
@@ -80,5 +82,3 @@ Assert.AreEqual(0, dataCollection.Count);
 * class [OdsoRecipientData](../odsorecipientdata/)
 * مساحة الاسم [Aspose.Words.Settings](../../aspose.words.settings/)
 * المجسم [Aspose.Words](../../)
-
-

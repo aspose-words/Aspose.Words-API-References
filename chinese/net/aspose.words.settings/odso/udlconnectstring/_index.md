@@ -1,7 +1,9 @@
 ---
 title: Odso.UdlConnectString
-second_title: Aspose.Words for .NET API 参考
-description: Odso 财产. 指定用于连接到外部数据源的通用数据链接 UDL 连接字符串 默认值为空字符串
+linktitle: UdlConnectString
+articleTitle: UdlConnectString
+second_title: 用于 .NET 的 Aspose.Words
+description: Odso UdlConnectString 财产. 指定用于连接到外部数据源的通用数据链接 UDL 连接字符串 默认值为空字符串 在 C#.
 type: docs
 weight: 90
 url: /zh/net/aspose.words.settings/odso/udlconnectstring/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.settings/odso/udlconnectstring/
 public string UdlConnectString { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何在连接到外部数据源时执行邮件合并。
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "MailMerge.OdsoEmail.docx");
 ### 也可以看看
 
 * class [Odso](../)
-* 命名空间 [Aspose.Words.Settings](../../odso/)
+* 命名空间 [Aspose.Words.Settings](../../../aspose.words.settings/)
 * 部件 [Aspose.Words](../../../)
-
-

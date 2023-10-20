@@ -1,7 +1,9 @@
 ---
 title: BorderCollection.Vertical
-second_title: Referencia de API de Aspose.Words para .NET
-description: BorderCollection propiedad. Obtiene el borde vertical que se utiliza entre las celdas.
+linktitle: Vertical
+articleTitle: Vertical
+second_title: Aspose.Words para .NET
+description: BorderCollection Vertical propiedad. Obtiene el borde vertical que se utiliza entre las celdas en C#.
 type: docs
 weight: 130
 url: /es/net/aspose.words/bordercollection/vertical/
@@ -14,7 +16,7 @@ Obtiene el borde vertical que se utiliza entre las celdas.
 public Border Vertical { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo aplicar configuraciones a los bordes verticales al formato de fila de una tabla.
 
@@ -60,7 +62,5 @@ doc.Save(ArtifactsDir + "Border.VerticalBorders.docx");
 
 * class [Border](../../border/)
 * class [BorderCollection](../)
-* espacio de nombres [Aspose.Words](../../bordercollection/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: WebExtensionBinding.Id
-second_title: Aspose.Words för .NET API Referens
-description: WebExtensionBinding fast egendom. Anger bindningsidentifieraren.
+linktitle: Id
+articleTitle: Id
+second_title: Aspose.Words för .NET
+description: WebExtensionBinding Id fast egendom. Anger bindningsidentifieraren i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.webextensions/webextensionbinding/id/
@@ -17,7 +19,5 @@ public string Id { get; set; }
 ### Se även
 
 * class [WebExtensionBinding](../)
-* namnutrymme [Aspose.Words.WebExtensions](../../webextensionbinding/)
+* namnutrymme [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * hopsättning [Aspose.Words](../../../)
-
-

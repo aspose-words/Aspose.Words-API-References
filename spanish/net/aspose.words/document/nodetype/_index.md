@@ -1,7 +1,9 @@
 ---
 title: Document.NodeType
-second_title: Referencia de API de Aspose.Words para .NET
-description: Document propiedad. DevolucionesDocument .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words para .NET
+description: Document NodeType propiedad. DevolucionesDocument  en C#.
 type: docs
 weight: 280
 url: /es/net/aspose.words/document/nodetype/
@@ -14,7 +16,7 @@ DevolucionesDocument .
 public override NodeType NodeType { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo recorrer el árbol de nodos secundarios de un nodo compuesto.
 
@@ -62,7 +64,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 
 * enum [NodeType](../../nodetype/)
 * class [Document](../)
-* espacio de nombres [Aspose.Words](../../document/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

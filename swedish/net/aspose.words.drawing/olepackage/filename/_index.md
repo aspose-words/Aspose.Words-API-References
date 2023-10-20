@@ -1,7 +1,9 @@
 ---
 title: OlePackage.FileName
-second_title: Aspose.Words för .NET API Referens
-description: OlePackage fast egendom. Hämtar eller ställer in OLEpaketets filnamn.
+linktitle: FileName
+articleTitle: FileName
+second_title: Aspose.Words för .NET
+description: OlePackage FileName fast egendom. Hämtar eller ställer in OLEpaketets filnamn i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.drawing/olepackage/filename/
@@ -14,7 +16,7 @@ Hämtar eller ställer in OLE-paketets filnamn.
 public string FileName { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man infogar ett OLE-objekt i ett dokument.
 
@@ -41,7 +43,5 @@ doc.Save(ArtifactsDir + "Shape.InsertOlePackage.docx");
 ### Se även
 
 * class [OlePackage](../)
-* namnutrymme [Aspose.Words.Drawing](../../olepackage/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

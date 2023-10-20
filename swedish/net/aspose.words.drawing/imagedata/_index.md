@@ -1,7 +1,9 @@
 ---
-title: Class ImageData
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Drawing.ImageData klass. Definierar en bild för en form.
+title: ImageData Class
+linktitle: ImageData
+articleTitle: ImageData
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Drawing.ImageData klass. Definierar en bild för en form i C#.
 type: docs
 weight: 1060
 url: /sv/net/aspose.words.drawing/imagedata/
@@ -43,17 +45,16 @@ public class ImageData
 
 | namn | Beskrivning |
 | --- | --- |
-| [FitImageToShape](../../aspose.words.drawing/imagedata/fitimagetoshape/)() |  |
-| [Save](../../aspose.words.drawing/imagedata/save/#save)(Stream) | Sparar bilden i den angivna strömmen. |
-| [Save](../../aspose.words.drawing/imagedata/save/#save_1)(string) | Sparar bilden i en fil. |
-| [SetImage](../../aspose.words.drawing/imagedata/setimage/#setimage)(Image) | Ställer in bilden som formen visar. |
-| [SetImage](../../aspose.words.drawing/imagedata/setimage/#setimage_1)(Stream) | Ställer in bilden som formen visar. |
-| [SetImage](../../aspose.words.drawing/imagedata/setimage/#setimage_2)(string) | Ställer in bilden som formen visar. |
+| [Save](../../aspose.words.drawing/imagedata/save/#save)(*Stream*) | Sparar bilden i den angivna strömmen. |
+| [Save](../../aspose.words.drawing/imagedata/save/#save_1)(*string*) | Sparar bilden i en fil. |
+| [SetImage](../../aspose.words.drawing/imagedata/setimage/#setimage)(*Image*) | Ställer in bilden som formen visar. |
+| [SetImage](../../aspose.words.drawing/imagedata/setimage/#setimage_1)(*Stream*) | Ställer in bilden som formen visar. |
+| [SetImage](../../aspose.words.drawing/imagedata/setimage/#setimage_2)(*string*) | Ställer in bilden som formen visar. |
 | [ToByteArray](../../aspose.words.drawing/imagedata/tobytearray/)() | Returnerar bildbyte för alla bilder oavsett om bilden är lagrad eller länkad. |
 | [ToImage](../../aspose.words.drawing/imagedata/toimage/)() | Får bilden lagrad i formen som enImage objekt. |
 | [ToStream](../../aspose.words.drawing/imagedata/tostream/)() | Skapar och returnerar en ström som innehåller bildbytes. |
 
-### Anmärkningar
+## Anmärkningar
 
 Använd[`ImageData`](../shape/imagedata/) egenskap för att komma åt och ändra bilden i en form. Du skapar inte instanser av`ImageData` klass direkt.
 
@@ -63,7 +64,7 @@ Oavsett om bilden är lagrad i formen eller länkad, kan du alltid komma åt den
 
 För att lagra en bild i en form använd[`SetImage`](./setimage/) metod. För att länka en bild till en form, ställ in[`SourceFullName`](./sourcefullname/) fast egendom.
 
-### Exempel
+## Exempel
 
 Visar hur man extraherar bilder från ett dokument och sparar dem i det lokala filsystemet som enskilda filer.
 
@@ -132,5 +133,3 @@ Assert.True(10000 > new FileInfo(ArtifactsDir + "Image.CreateLinkedImage.Linked.
 
 * namnutrymme [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../)
-
-

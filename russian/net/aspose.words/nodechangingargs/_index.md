@@ -1,7 +1,9 @@
 ---
-title: Class NodeChangingArgs
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.NodeChangingArgs сорт. Предоставляет данные для методовINodeChangingCallback интерфейс.
+title: NodeChangingArgs Class
+linktitle: NodeChangingArgs
+articleTitle: NodeChangingArgs
+second_title: Aspose.Words для .NET
+description: Aspose.Words.NodeChangingArgs сорт. Предоставляет данные для методовINodeChangingCallback интерфейс на С#.
 type: docs
 weight: 4190
 url: /ru/net/aspose.words/nodechangingargs/
@@ -25,7 +27,7 @@ public class NodeChangingArgs
 | [Node](../../aspose.words/nodechangingargs/node/) { get; } | Получает[`Node`](./node/) который добавляется или удаляется. |
 | [OldParent](../../aspose.words/nodechangingargs/oldparent/) { get; } | Получает родительский узел до начала операции. |
 
-### Примеры
+## Примеры
 
 Показывает, как настроить изменение узла с помощью обратного вызова.
 
@@ -103,5 +105,3 @@ public class HandleNodeChangingFontChanger : INodeChangingCallback
 
 * пространство имен [Aspose.Words](../../aspose.words/)
 * сборка [Aspose.Words](../../)
-
-

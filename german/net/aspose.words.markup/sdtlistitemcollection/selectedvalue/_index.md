@@ -1,7 +1,9 @@
 ---
 title: SdtListItemCollection.SelectedValue
-second_title: Aspose.Words für .NET-API-Referenz
-description: SdtListItemCollection eigendom. Gibt den aktuell ausgewählten Wert in dieser Liste an. Nullwert zulässig was bedeutet dass kein aktuell ausgewählter Eintrag mit dieser Listenelementsammlung verknüpft ist.
+linktitle: SelectedValue
+articleTitle: SelectedValue
+second_title: Aspose.Words für .NET
+description: SdtListItemCollection SelectedValue eigendom. Gibt den aktuell ausgewählten Wert in dieser Liste an. Nullwert zulässig was bedeutet dass kein aktuell ausgewählter Eintrag mit dieser Listenelementsammlung verknüpft ist in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.markup/sdtlistitemcollection/selectedvalue/
@@ -14,7 +16,7 @@ Gibt den aktuell ausgewählten Wert in dieser Liste an. Nullwert zulässig, was 
 public SdtListItem SelectedValue { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit strukturierten Dropdown-Dokument-Tags gearbeitet wird.
 
@@ -72,7 +74,5 @@ Assert.AreEqual(0, listItems.Count);
 
 * class [SdtListItem](../../sdtlistitem/)
 * class [SdtListItemCollection](../)
-* namensraum [Aspose.Words.Markup](../../sdtlistitemcollection/)
+* namensraum [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Montage [Aspose.Words](../../../)
-
-

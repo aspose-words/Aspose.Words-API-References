@@ -1,7 +1,9 @@
 ---
-title: Enum PageBorderDistanceFrom
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.PageBorderDistanceFrom تعداد. يحدد موضع حدود الصفحة بالنسبة لهامش الصفحة.
+title: PageBorderDistanceFrom Enum
+linktitle: PageBorderDistanceFrom
+articleTitle: PageBorderDistanceFrom
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.PageBorderDistanceFrom تعداد. يحدد موضع حدود الصفحة بالنسبة لهامش الصفحة في C#.
 type: docs
 weight: 4350
 url: /ar/net/aspose.words/pageborderdistancefrom/
@@ -21,7 +23,7 @@ public enum PageBorderDistanceFrom
 | Text | `0` | يتم قياس موضع الحدود من هامش الصفحة. |
 | PageEdge | `1` | يتم قياس موضع الحدود من حافة الصفحة. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء حد شريطي أزرق عريض في أعلى الصفحة الأولى.
 
@@ -48,5 +50,3 @@ doc.Save(ArtifactsDir + "PageSetup.PageBorderProperties.docx");
 * property [BorderDistanceFrom](../pagesetup/borderdistancefrom/)
 * مساحة الاسم [Aspose.Words](../../aspose.words/)
 * المجسم [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.RowFormat
-second_title: Aspose.Words لمراجع .NET API
-description: DocumentBuilder ملكية. إرجاع كائن يمثل خصائص تنسيق صف الجدول الحالي.
+linktitle: RowFormat
+articleTitle: RowFormat
+second_title: Aspose.Words لـ .NET
+description: DocumentBuilder RowFormat ملكية. إرجاع كائن يمثل خصائص تنسيق صف الجدول الحالي في C#.
 type: docs
 weight: 180
 url: /ar/net/aspose.words/documentbuilder/rowformat/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/documentbuilder/rowformat/
 public RowFormat RowFormat { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تنسيق الصفوف باستخدام أداة إنشاء المستندات.
 
@@ -154,7 +156,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
 
 * class [RowFormat](../../../aspose.words.tables/rowformat/)
 * class [DocumentBuilder](../)
-* مساحة الاسم [Aspose.Words](../../documentbuilder/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Chart.Series
-second_title: Aspose.Words per .NET API Reference
-description: Chart proprietà. Fornisce laccesso alla raccolta delle serie.
+linktitle: Series
+articleTitle: Series
+second_title: Aspose.Words per .NET
+description: Chart Series proprietà. Fornisce laccesso alla raccolta delle serie in C#.
 type: docs
 weight: 60
 url: /it/net/aspose.words.drawing.charts/chart/series/
@@ -14,7 +16,7 @@ Fornisce l'accesso alla raccolta delle serie.
 public ChartSeriesCollection Series { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come creare un tipo appropriato di serie di grafici per un tipo di grafico.
 
@@ -104,7 +106,5 @@ private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, d
 
 * class [ChartSeriesCollection](../../chartseriescollection/)
 * class [Chart](../)
-* spazio dei nomi [Aspose.Words.Drawing.Charts](../../chart/)
+* spazio dei nomi [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ChartSeriesCollection.Item
-second_title: Referencia de API de Aspose.Words para .NET
-description: ChartSeriesCollection propiedad. Devuelve unChartSeries en el índice especificado.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words para .NET
+description: ChartSeriesCollection Item propiedad. Devuelve unChartSeries en el índice especificado en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words.drawing.charts/chartseriescollection/item/
@@ -18,7 +20,7 @@ public ChartSeries this[int index] { get; }
 | --- | --- |
 | index | Un índice de la colección. |
 
-### Observaciones
+## Observaciones
 
 El índice tiene base cero.
 
@@ -28,7 +30,7 @@ Si el índice es mayor o igual que el número de elementos de la lista, esto dev
 
 Si el índice es negativo y su valor absoluto es mayor que el número de elementos de la lista, esto devuelve una referencia nula.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo agregar y eliminar datos de series en un gráfico.
 
@@ -76,7 +78,5 @@ chartData.Clear();
 
 * class [ChartSeries](../../chartseries/)
 * class [ChartSeriesCollection](../)
-* espacio de nombres [Aspose.Words.Drawing.Charts](../../chartseriescollection/)
+* espacio de nombres [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * asamblea [Aspose.Words](../../../)
-
-

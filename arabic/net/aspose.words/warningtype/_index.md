@@ -1,7 +1,9 @@
 ---
-title: Enum WarningType
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.WarningType تعداد. يحدد نوع التحذير الذي يصدره Aspose.Words أثناء تحميل المستند أو حفظه.
+title: WarningType Enum
+linktitle: WarningType
+articleTitle: WarningType
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.WarningType تعداد. يحدد نوع التحذير الذي يصدره Aspose.Words أثناء تحميل المستند أو حفظه في C#.
 type: docs
 weight: 6660
 url: /ar/net/aspose.words/warningtype/
@@ -31,7 +33,7 @@ public enum WarningType
 | UnexpectedContent | `1000000` | محتوى عام غير متوقع، بدون رمز محدد. |
 | Hint | `10000000` | ينصح بوجود مشكلة محتملة أو يقترح تحسينًا. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين الخاصية للعثور على أقرب تطابق لخط مفقود من مصادر الخطوط المتوفرة.
 
@@ -92,5 +94,3 @@ public class HandleDocumentSubstitutionWarnings : IWarningCallback
 
 * مساحة الاسم [Aspose.Words](../../aspose.words/)
 * المجسم [Aspose.Words](../../)
-
-

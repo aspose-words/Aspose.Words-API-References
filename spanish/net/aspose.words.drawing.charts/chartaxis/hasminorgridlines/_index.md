@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.HasMinorGridlines
-second_title: Referencia de API de Aspose.Words para .NET
-description: ChartAxis propiedad. Obtiene o establece un indicador que indica si el eje tiene líneas de cuadrícula menores.
+linktitle: HasMinorGridlines
+articleTitle: HasMinorGridlines
+second_title: Aspose.Words para .NET
+description: ChartAxis HasMinorGridlines propiedad. Obtiene o establece un indicador que indica si el eje tiene líneas de cuadrícula menores en C#.
 type: docs
 weight: 90
 url: /es/net/aspose.words.drawing.charts/chartaxis/hasminorgridlines/
@@ -14,7 +16,7 @@ Obtiene o establece un indicador que indica si el eje tiene líneas de cuadrícu
 public bool HasMinorGridlines { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo insertar un gráfico con valores de fecha/hora.
 
@@ -68,7 +70,5 @@ doc.Save(ArtifactsDir + "Charts.DateTimeValues.docx");
 ### Ver también
 
 * class [ChartAxis](../)
-* espacio de nombres [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* espacio de nombres [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * asamblea [Aspose.Words](../../../)
-
-

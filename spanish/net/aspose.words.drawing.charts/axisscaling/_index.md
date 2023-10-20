@@ -1,7 +1,9 @@
 ---
-title: Class AxisScaling
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Drawing.Charts.AxisScaling clase. Representa las opciones de escala del eje.
+title: AxisScaling Class
+linktitle: AxisScaling
+articleTitle: AxisScaling
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Drawing.Charts.AxisScaling clase. Representa las opciones de escala del eje en C#.
 type: docs
 weight: 570
 url: /es/net/aspose.words.drawing.charts/axisscaling/
@@ -31,7 +33,7 @@ public class AxisScaling
 | [Minimum](../../aspose.words.drawing.charts/axisscaling/minimum/) { get; set; } | Obtiene o establece el valor mínimo del eje. |
 | [Type](../../aspose.words.drawing.charts/axisscaling/type/) { get; set; } | Obtiene o establece el tipo de escala del eje. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo aplicar una escala logarítmica a un eje de gráfico.
 
@@ -66,5 +68,3 @@ doc.Save(ArtifactsDir + "Charts.AxisScaling.docx");
 
 * espacio de nombres [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * asamblea [Aspose.Words](../../)
-
-

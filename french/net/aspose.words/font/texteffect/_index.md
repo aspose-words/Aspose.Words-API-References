@@ -1,7 +1,9 @@
 ---
 title: Font.TextEffect
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Font propriété. Obtient ou définit leffet danimation de la police.
+linktitle: TextEffect
+articleTitle: TextEffect
+second_title: Aspose.Words pour .NET
+description: Font TextEffect propriété. Obtient ou définit leffet danimation de la police en C#.
 type: docs
 weight: 450
 url: /fr/net/aspose.words/font/texteffect/
@@ -14,7 +16,7 @@ Obtient ou définit l'effet d'animation de la police.
 public TextEffect TextEffect { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment appliquer un effet visuel à une exécution.
 
@@ -35,7 +37,5 @@ doc.Save(ArtifactsDir + "Font.SparklingText.doc");
 
 * enum [TextEffect](../../texteffect/)
 * class [Font](../)
-* espace de noms [Aspose.Words](../../font/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

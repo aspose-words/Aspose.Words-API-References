@@ -1,7 +1,9 @@
 ---
 title: Document.PageCount
-second_title: Справочник по API Aspose.Words для .NET
-description: Document свойство. Получает количество страниц в документе рассчитанное с помощью последней операции макета страницы.
+linktitle: PageCount
+articleTitle: PageCount
+second_title: Aspose.Words для .NET
+description: Document PageCount свойство. Получает количество страниц в документе рассчитанное с помощью последней операции макета страницы на С#.
 type: docs
 weight: 320
 url: /ru/net/aspose.words/document/pagecount/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/document/pagecount/
 public int PageCount { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как подсчитать количество страниц в документе.
 
@@ -41,7 +43,5 @@ doc.Save(ArtifactsDir + "Document.GetPageCount.pdf");
 
 * method [UpdatePageLayout](../updatepagelayout/)
 * class [Document](../)
-* пространство имен [Aspose.Words](../../document/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ComparisonExpression.LeftExpression
-second_title: Referencia de API de Aspose.Words para .NET
-description: ComparisonExpression propiedad. Obtiene la expresión izquierda.
+linktitle: LeftExpression
+articleTitle: LeftExpression
+second_title: Aspose.Words para .NET
+description: ComparisonExpression LeftExpression propiedad. Obtiene la expresión izquierda en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words.fields/comparisonexpression/leftexpression/
@@ -14,7 +16,7 @@ Obtiene la expresión izquierda.
 public string LeftExpression { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo implementar una evaluación personalizada para los campos SI y COMPARAR.
 
@@ -98,7 +100,5 @@ private class ComparisonExpressionEvaluator : IComparisonExpressionEvaluator
 ### Ver también
 
 * class [ComparisonExpression](../)
-* espacio de nombres [Aspose.Words.Fields](../../comparisonexpression/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

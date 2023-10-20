@@ -1,7 +1,9 @@
 ---
 title: TextPath.FontFamily
-second_title: Справочник по API Aspose.Words для .NET
-description: TextPath свойство. Определяет семейство шрифта текстового пути.
+linktitle: FontFamily
+articleTitle: FontFamily
+second_title: Aspose.Words для .NET
+description: TextPath FontFamily свойство. Определяет семейство шрифта текстового пути на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.drawing/textpath/fontfamily/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.drawing/textpath/fontfamily/
 public string FontFamily { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Значение по умолчанию — Arial.
 
-### Примеры
+## Примеры
 
 Показывает, как работать с WordArt.
 
@@ -121,7 +123,5 @@ private static Shape AppendWordArt(Document doc, string text, string textFontFam
 ### Смотрите также
 
 * class [TextPath](../)
-* пространство имен [Aspose.Words.Drawing](../../textpath/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class FontSavingArgs
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Saving.FontSavingArgs classe. Fornisce i dati per ilFontSaving evento.
+title: FontSavingArgs Class
+linktitle: FontSavingArgs
+articleTitle: FontSavingArgs
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Saving.FontSavingArgs classe. Fornisce i dati per ilFontSaving evento in C#.
 type: docs
 weight: 5030
 url: /it/net/aspose.words.saving/fontsavingargs/
@@ -32,7 +34,7 @@ public class FontSavingArgs
 | [OriginalFileName](../../aspose.words.saving/fontsavingargs/originalfilename/) { get; } | Ottiene il nome del file del carattere originale con un'estensione. |
 | [OriginalFileSize](../../aspose.words.saving/fontsavingargs/originalfilesize/) { get; } | Ottiene la dimensione del file del carattere originale. |
 
-### Osservazioni
+## Osservazioni
 
 Quando Aspose.Words salva un documento in HTML o formati correlati e[`ExportFontResources`](../htmlsaveoptions/exportfontresources/) è impostato su`VERO`, salva ciascun oggetto del carattere per l'esportazione in un file separato.
 
@@ -44,7 +46,7 @@ Per decidere se salvare una particolare risorsa di carattere, utilizzare il file
 
 Per salvare i caratteri in flussi anziché in file, utilizzare il file[`FontStream`](./fontstream/) proprietà.
 
-### Esempi
+## Esempi
 
 Mostra come definire la logica personalizzata per l'esportazione dei caratteri durante il salvataggio in HTML.
 
@@ -105,5 +107,3 @@ public class HandleFontSaving : IFontSavingCallback
 
 * spazio dei nomi [Aspose.Words.Saving](../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../)
-
-

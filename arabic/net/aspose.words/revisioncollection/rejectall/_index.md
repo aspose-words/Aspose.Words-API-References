@@ -1,7 +1,9 @@
 ---
 title: RevisionCollection.RejectAll
-second_title: Aspose.Words لمراجع .NET API
-description: RevisionCollection طريقة. يرفض كافة المراجعات في هذه المجموعة.
+linktitle: RejectAll
+articleTitle: RejectAll
+second_title: Aspose.Words لـ .NET
+description: RevisionCollection RejectAll طريقة. يرفض كافة المراجعات في هذه المجموعة في C#.
 type: docs
 weight: 60
 url: /ar/net/aspose.words/revisioncollection/rejectall/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/revisioncollection/rejectall/
 public void RejectAll()
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التعامل مع مجموعة مراجعات المستند.
 
@@ -70,7 +72,5 @@ Assert.AreEqual(0, revisions.Count);
 ### أنظر أيضا
 
 * class [RevisionCollection](../)
-* مساحة الاسم [Aspose.Words](../../revisioncollection/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

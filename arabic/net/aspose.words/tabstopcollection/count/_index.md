@@ -1,7 +1,9 @@
 ---
 title: TabStopCollection.Count
-second_title: Aspose.Words لمراجع .NET API
-description: TabStopCollection ملكية. الحصول على عدد علامات الجدولة في المجموعة.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words لـ .NET
+description: TabStopCollection Count ملكية. الحصول على عدد علامات الجدولة في المجموعة في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words/tabstopcollection/count/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/tabstopcollection/count/
 public int Count { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التعامل مع مجموعة علامات الجدولة الخاصة بالمستند.
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "TabStopCollection.TabStopCollection.docx");
 ### أنظر أيضا
 
 * class [TabStopCollection](../)
-* مساحة الاسم [Aspose.Words](../../tabstopcollection/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

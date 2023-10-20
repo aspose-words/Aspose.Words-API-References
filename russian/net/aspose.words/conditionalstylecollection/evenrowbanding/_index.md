@@ -1,7 +1,9 @@
 ---
 title: ConditionalStyleCollection.EvenRowBanding
-second_title: Справочник по API Aspose.Words для .NET
-description: ConditionalStyleCollection свойство. Получает стиль четных полос строк.
+linktitle: EvenRowBanding
+articleTitle: EvenRowBanding
+second_title: Aspose.Words для .NET
+description: ConditionalStyleCollection EvenRowBanding свойство. Получает стиль четных полос строк на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words/conditionalstylecollection/evenrowbanding/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/conditionalstylecollection/evenrowbanding/
 public ConditionalStyle EvenRowBanding { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как работать с определенными стилями областей таблицы.
 
@@ -85,7 +87,5 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 
 * class [ConditionalStyle](../../conditionalstyle/)
 * class [ConditionalStyleCollection](../)
-* пространство имен [Aspose.Words](../../conditionalstylecollection/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

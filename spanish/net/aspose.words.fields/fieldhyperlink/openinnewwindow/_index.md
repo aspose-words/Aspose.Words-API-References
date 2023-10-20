@@ -1,7 +1,9 @@
 ---
 title: FieldHyperlink.OpenInNewWindow
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldHyperlink propiedad. Obtiene o establece si se debe abrir el sitio de destino en una nueva ventana del navegador web.
+linktitle: OpenInNewWindow
+articleTitle: OpenInNewWindow
+second_title: Aspose.Words para .NET
+description: FieldHyperlink OpenInNewWindow propiedad. Obtiene o establece si se debe abrir el sitio de destino en una nueva ventana del navegador web en C#.
 type: docs
 weight: 40
 url: /es/net/aspose.words.fields/fieldhyperlink/openinnewwindow/
@@ -14,7 +16,7 @@ Obtiene o establece si se debe abrir el sitio de destino en una nueva ventana de
 public bool OpenInNewWindow { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo utilizar los campos HIPERVÍNCULO para vincular documentos en el sistema de archivos local.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "Field.HYPERLINK.docx");
 ### Ver también
 
 * class [FieldHyperlink](../)
-* espacio de nombres [Aspose.Words.Fields](../../fieldhyperlink/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Hyphenation.UnregisterDictionary
-second_title: Aspose.Words لمراجع .NET API
-description: Hyphenation طريقة. إلغاء تسجيل قاموس الواصلة للغة المحددة.
+linktitle: UnregisterDictionary
+articleTitle: UnregisterDictionary
+second_title: Aspose.Words لـ .NET
+description: Hyphenation UnregisterDictionary طريقة. إلغاء تسجيل قاموس الواصلة للغة المحددة في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words/hyphenation/unregisterdictionary/
@@ -20,7 +22,7 @@ public static void UnregisterDictionary(string language)
 | --- | --- | --- |
 | language | String | اسم لغة، على سبيل المثال "en-US". راجع وثائق .NET لـ "اسم الثقافة" وRFC 4646 للحصول على التفاصيل. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تسجيل قاموس الواصلة.
 
@@ -57,7 +59,5 @@ doc.Save(ArtifactsDir + "Hyphenation.Dictionary.Unregistered.pdf");
 ### أنظر أيضا
 
 * class [Hyphenation](../)
-* مساحة الاسم [Aspose.Words](../../hyphenation/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

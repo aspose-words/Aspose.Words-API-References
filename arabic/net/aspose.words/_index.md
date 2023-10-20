@@ -1,12 +1,14 @@
 ---
 title: Aspose.Words
-second_title: Aspose.Words لمراجع .NET API
-description: ال Aspose.Words توفر مساحة الاسم فئات لإنشاء مستندات Microsoft Word وتحويلها وتعديلها وعرضها وطباعتها دون استخدام Microsoft Word.
+linktitle: Aspose.Words
+articleTitle: Aspose.Words
+second_title: Aspose.Words لـ .NET
+description: الAspose.Words توفر مساحة الاسم فئات لإنشاء مستندات Microsoft Word وتحويلها وتعديلها وعرضها وطباعتها دون استخدام Microsoft Word في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words/
 ---
-ال **Aspose.Words** توفر مساحة الاسم فئات لإنشاء مستندات Microsoft Word وتحويلها وتعديلها وعرضها وطباعتها دون استخدام Microsoft Word.
+ال**Aspose.Words** توفر مساحة الاسم فئات لإنشاء مستندات Microsoft Word وتحويلها وتعديلها وعرضها وطباعتها دون استخدام Microsoft Word.
 
 ## الطبقات
 
@@ -82,7 +84,7 @@ url: /ar/net/aspose.words/
 | [Story](./story/) | الفئة الأساسية للعناصر التي تحتوي على عقد على مستوى الكتلة[`Paragraph`](../aspose.words/paragraph/) و[`Table`](../aspose.words.tables/table/) . |
 | [Style](./style/) | يمثل نمطًا واحدًا مدمجًا أو محددًا من قبل المستخدم. |
 | [StyleCollection](./stylecollection/) | مجموعة من[`Style`](../aspose.words/style/) الكائنات التي تمثل الأنماط المضمنة والمحددة من قبل المستخدم في المستند. |
-| [SubDocument](./subdocument/) | يمثل أ **مستند فرعي** - وهو مرجع إلى مستند مخزن خارجيًا. |
+| [SubDocument](./subdocument/) | يمثل أ**مستند فرعي** - وهو مرجع إلى مستند مخزن خارجيًا. |
 | [TableStyle](./tablestyle/) | يمثل نمط الجدول. |
 | [TabStop](./tabstop/) | يمثل علامة تبويب مخصصة واحدة. ال[`TabStop`](../aspose.words/tabstop/)الكائن عضو في the [`TabStopCollection`](../aspose.words/tabstopcollection/) المجموعة. |
 | [TabStopCollection](./tabstopcollection/) | مجموعة من[`TabStop`](../aspose.words/tabstop/) الكائنات التي تمثل علامات تبويب مخصصة لفقرة أو نمط. |
@@ -159,5 +161,3 @@ url: /ar/net/aspose.words/
 | [WarningType](./warningtype/) | يحدد نوع التحذير الذي يصدره Aspose.Words أثناء تحميل المستند أو حفظه. |
 | [WatermarkLayout](./watermarklayout/) | يحدد تخطيط العلامة المائية بالنسبة لمركز العلامة المائية. |
 | [WatermarkType](./watermarktype/) | يحدد نوع العلامة المائية. |
-
-

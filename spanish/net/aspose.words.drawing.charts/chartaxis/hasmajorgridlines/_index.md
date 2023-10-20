@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.HasMajorGridlines
-second_title: Referencia de API de Aspose.Words para .NET
-description: ChartAxis propiedad. Obtiene o establece un indicador que indica si el eje tiene líneas de cuadrícula principales.
+linktitle: HasMajorGridlines
+articleTitle: HasMajorGridlines
+second_title: Aspose.Words para .NET
+description: ChartAxis HasMajorGridlines propiedad. Obtiene o establece un indicador que indica si el eje tiene líneas de cuadrícula principales en C#.
 type: docs
 weight: 80
 url: /es/net/aspose.words.drawing.charts/chartaxis/hasmajorgridlines/
@@ -14,7 +16,7 @@ Obtiene o establece un indicador que indica si el eje tiene líneas de cuadrícu
 public bool HasMajorGridlines { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo insertar un gráfico con valores de fecha/hora.
 
@@ -68,7 +70,5 @@ doc.Save(ArtifactsDir + "Charts.DateTimeValues.docx");
 ### Ver también
 
 * class [ChartAxis](../)
-* espacio de nombres [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* espacio de nombres [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * asamblea [Aspose.Words](../../../)
-
-

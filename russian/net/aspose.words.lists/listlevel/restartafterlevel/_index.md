@@ -1,7 +1,9 @@
 ---
 title: ListLevel.RestartAfterLevel
-second_title: Справочник по API Aspose.Words для .NET
-description: ListLevel свойство. Устанавливает или возвращает уровень списка который должен появиться перед тем как указанный уровень списка перезапустит нумерацию.
+linktitle: RestartAfterLevel
+articleTitle: RestartAfterLevel
+second_title: Aspose.Words для .NET
+description: ListLevel RestartAfterLevel свойство. Устанавливает или возвращает уровень списка который должен появиться перед тем как указанный уровень списка перезапустит нумерацию на С#.
 type: docs
 weight: 100
 url: /ru/net/aspose.words.lists/listlevel/restartafterlevel/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.lists/listlevel/restartafterlevel/
 public int RestartAfterLevel { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Значение -1 означает, что нумерация продолжится.
 
-### Примеры
+## Примеры
 
 Показывает усовершенствованные способы настройки меток списков.
 
@@ -79,7 +81,5 @@ doc.Save(ArtifactsDir + "Lists.CreateListRestartAfterHigher.docx");
 ### Смотрите также
 
 * class [ListLevel](../)
-* пространство имен [Aspose.Words.Lists](../../listlevel/)
+* пространство имен [Aspose.Words.Lists](../../../aspose.words.lists/)
 * сборка [Aspose.Words](../../../)
-
-

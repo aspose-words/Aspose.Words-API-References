@@ -1,7 +1,9 @@
 ---
 title: ToaCategories.Item
-second_title: Aspose.Words für .NET-API-Referenz
-description: ToaCategories eigendom. Ruft die Kategorieüberschrift nach Kategorienummer ab oder legt sie fest.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words für .NET
+description: ToaCategories Item eigendom. Ruft die Kategorieüberschrift nach Kategorienummer ab oder legt sie fest in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.fields/toacategories/item/
@@ -14,7 +16,7 @@ Ruft die Kategorieüberschrift nach Kategorienummer ab oder legt sie fest.
 public string this[int number] { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie eine Reihe von Kategorien für TOA-Felder angegeben werden.
 
@@ -62,7 +64,5 @@ doc.Save(ArtifactsDir + "FieldOptions.TOA.Categories.docx");
 ### Siehe auch
 
 * class [ToaCategories](../)
-* namensraum [Aspose.Words.Fields](../../toacategories/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

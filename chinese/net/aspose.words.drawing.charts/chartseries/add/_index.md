@@ -1,12 +1,14 @@
 ---
 title: ChartSeries.Add
-second_title: Aspose.Words for .NET API 参考
-description: ChartSeries 方法. 将指定的 X 值添加到图表系列如果该系列支持 Y 值和气泡大小它们将为 X 值 留空
+linktitle: Add
+articleTitle: Add
+second_title: 用于 .NET 的 Aspose.Words
+description: ChartSeries Add 方法. 将指定的 X 值添加到图表系列如果该系列支持 Y 值和气泡大小它们将为 X 值 留空 在 C#.
 type: docs
 weight: 160
 url: /zh/net/aspose.words.drawing.charts/chartseries/add/
 ---
-## Add(ChartXValue) {#add}
+## Add(*[ChartXValue](../../chartxvalue/)*) {#add}
 
 将指定的 X 值添加到图表系列。如果该系列支持 Y 值和气泡大小，它们将为 X 值 留空。
 
@@ -18,12 +20,12 @@ public void Add(ChartXValue xValue)
 
 * class [ChartXValue](../../chartxvalue/)
 * class [ChartSeries](../)
-* 命名空间 [Aspose.Words.Drawing.Charts](../../chartseries/)
+* 命名空间 [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## Add(ChartXValue, ChartYValue) {#add_1}
+## Add(*[ChartXValue](../../chartxvalue/), [ChartYValue](../../chartyvalue/)*) {#add_1}
 
 将指定的 X 和 Y 值添加到图表系列。
 
@@ -31,7 +33,7 @@ public void Add(ChartXValue xValue)
 public void Add(ChartXValue xValue, ChartYValue yValue)
 ```
 
-### 例子
+## 例子
 
 展示如何添加/删除图表数据值。
 
@@ -94,12 +96,12 @@ doc.Save(ArtifactsDir + "Charts.PopulateChartWithData.docx");
 * class [ChartXValue](../../chartxvalue/)
 * class [ChartYValue](../../chartyvalue/)
 * class [ChartSeries](../)
-* 命名空间 [Aspose.Words.Drawing.Charts](../../chartseries/)
+* 命名空间 [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## Add(ChartXValue, ChartYValue, double) {#add_2}
+## Add(*[ChartXValue](../../chartxvalue/), [ChartYValue](../../chartyvalue/), double*) {#add_2}
 
 将指定的 X 值、Y 值和气泡大小添加到图表系列中。
 
@@ -112,7 +114,5 @@ public void Add(ChartXValue xValue, ChartYValue yValue, double bubbleSize)
 * class [ChartXValue](../../chartxvalue/)
 * class [ChartYValue](../../chartyvalue/)
 * class [ChartSeries](../)
-* 命名空间 [Aspose.Words.Drawing.Charts](../../chartseries/)
+* 命名空间 [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * 部件 [Aspose.Words](../../../)
-
-

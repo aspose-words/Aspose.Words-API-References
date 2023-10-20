@@ -1,7 +1,9 @@
 ---
 title: FieldCompare.RightExpression
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldCompare eigendom. Ruft den rechten Teil des Vergleichsausdrucks ab oder legt diesen fest.
+linktitle: RightExpression
+articleTitle: RightExpression
+second_title: Aspose.Words für .NET
+description: FieldCompare RightExpression eigendom. Ruft den rechten Teil des Vergleichsausdrucks ab oder legt diesen fest in C#.
 type: docs
 weight: 40
 url: /de/net/aspose.words.fields/fieldcompare/rightexpression/
@@ -14,7 +16,7 @@ Ruft den rechten Teil des Vergleichsausdrucks ab oder legt diesen fest.
 public string RightExpression { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Ausdrücke mithilfe eines COMPARE-Felds verglichen werden.
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "Field.COMPARE.docx");
 ### Siehe auch
 
 * class [FieldCompare](../)
-* namensraum [Aspose.Words.Fields](../../fieldcompare/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

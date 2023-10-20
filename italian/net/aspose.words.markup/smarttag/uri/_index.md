@@ -1,7 +1,9 @@
 ---
 title: SmartTag.Uri
-second_title: Aspose.Words per .NET API Reference
-description: SmartTag proprietà. Specifica lURI dello spazio dei nomi dello smart tag.
+linktitle: Uri
+articleTitle: Uri
+second_title: Aspose.Words per .NET
+description: SmartTag Uri proprietà. Specifica lURI dello spazio dei nomi dello smart tag in C#.
 type: docs
 weight: 50
 url: /it/net/aspose.words.markup/smarttag/uri/
@@ -14,13 +16,13 @@ Specifica l'URI dello spazio dei nomi dello smart tag.
 public string Uri { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Non può essere`nullo`.
 
 L'impostazione predefinita è una stringa vuota.
 
-### Esempi
+## Esempi
 
 Mostra come creare smart tag.
 
@@ -121,7 +123,5 @@ private class SmartTagPrinter : DocumentVisitor
 ### Guarda anche
 
 * class [SmartTag](../)
-* spazio dei nomi [Aspose.Words.Markup](../../smarttag/)
+* spazio dei nomi [Aspose.Words.Markup](../../../aspose.words.markup/)
 * assemblea [Aspose.Words](../../../)
-
-

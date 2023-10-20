@@ -1,7 +1,9 @@
 ---
 title: Cell.Tables
-second_title: Aspose.Words لمراجع .NET API
-description: Cell ملكية. الحصول على مجموعة من الجداول التي تعتبر فرعية مباشرة للخلية.
+linktitle: Tables
+articleTitle: Tables
+second_title: Aspose.Words لـ .NET
+description: Cell Tables ملكية. الحصول على مجموعة من الجداول التي تعتبر فرعية مباشرة للخلية في C#.
 type: docs
 weight: 120
 url: /ar/net/aspose.words.tables/cell/tables/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.tables/cell/tables/
 public TableCollection Tables { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية معرفة ما إذا كانت الجداول متداخلة.
 
@@ -93,7 +95,5 @@ private static int GetChildTableCount(Table table)
 
 * class [TableCollection](../../tablecollection/)
 * class [Cell](../)
-* مساحة الاسم [Aspose.Words.Tables](../../cell/)
+* مساحة الاسم [Aspose.Words.Tables](../../../aspose.words.tables/)
 * المجسم [Aspose.Words](../../../)
-
-

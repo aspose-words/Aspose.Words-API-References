@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabel.IsVisible
-second_title: Aspose.Words für .NET-API-Referenz
-description: ChartDataLabel eigendom. Gibt zurückWAHR ob dieses Datenetikett etwas anzuzeigen hat.
+linktitle: IsVisible
+articleTitle: IsVisible
+second_title: Aspose.Words für .NET
+description: ChartDataLabel IsVisible eigendom. Gibt zurückWAHR ob dieses Datenetikett etwas anzuzeigen hat in C#.
 type: docs
 weight: 50
 url: /de/net/aspose.words.drawing.charts/chartdatalabel/isvisible/
@@ -14,7 +16,7 @@ Gibt zurück`WAHR` ob dieses Datenetikett etwas anzuzeigen hat.
 public bool IsVisible { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Beschriftungen auf Datenpunkte in einem Liniendiagramm angewendet werden.
 
@@ -92,7 +94,5 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
 ### Siehe auch
 
 * class [ChartDataLabel](../)
-* namensraum [Aspose.Words.Drawing.Charts](../../chartdatalabel/)
+* namensraum [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../../)
-
-

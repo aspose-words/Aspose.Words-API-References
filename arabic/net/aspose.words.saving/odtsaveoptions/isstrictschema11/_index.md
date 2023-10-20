@@ -1,7 +1,9 @@
 ---
 title: OdtSaveOptions.IsStrictSchema11
-second_title: Aspose.Words لمراجع .NET API
-description: OdtSaveOptions ملكية. يحدد ما إذا كان يجب أن يتوافق التصدير مع مواصفات ODT 1.1 بدقة. OOo 3.0 يعرض الملفات بشكل صحيح عندما تحتوي على عناصر وسمات ODT 1.2. استخدم خطأ لهذا الغرض أو صحيح للمطابقة الصارمة للمواصفات 1.1. القيمة الافتراضية هيخطأ شنيع .
+linktitle: IsStrictSchema11
+articleTitle: IsStrictSchema11
+second_title: Aspose.Words لـ .NET
+description: OdtSaveOptions IsStrictSchema11 ملكية. يحدد ما إذا كان يجب أن يتوافق التصدير مع مواصفات ODT 1.1 بدقة. OOo 3.0 يعرض الملفات بشكل صحيح عندما تحتوي على عناصر وسمات ODT 1.2. استخدم خطأ لهذا الغرض أو صحيح للمطابقة الصارمة للمواصفات 1.1. القيمة الافتراضية هيخطأ شنيع  في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.saving/odtsaveoptions/isstrictschema11/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.saving/odtsaveoptions/isstrictschema11/
 public bool IsStrictSchema11 { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية جعل المستند المحفوظ يتوافق مع مخطط ODT الأقدم.
 
@@ -33,7 +35,5 @@ doc.Save(ArtifactsDir + "OdtSaveOptions.Odt11Schema.odt", saveOptions);
 ### أنظر أيضا
 
 * class [OdtSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../odtsaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

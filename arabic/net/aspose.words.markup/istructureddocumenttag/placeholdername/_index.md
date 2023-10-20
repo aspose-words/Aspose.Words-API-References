@@ -1,7 +1,9 @@
 ---
 title: IStructuredDocumentTag.PlaceholderName
-second_title: Aspose.Words لمراجع .NET API
-description: IStructuredDocumentTag ملكية. الحصول على أو تعيين اسمBuildingBlock تحتوي على نص نائب.
+linktitle: PlaceholderName
+articleTitle: PlaceholderName
+second_title: Aspose.Words لـ .NET
+description: IStructuredDocumentTag PlaceholderName ملكية. الحصول على أو تعيين اسمBuildingBlock تحتوي على نص نائب في C#.
 type: docs
 weight: 80
 url: /ar/net/aspose.words.markup/istructureddocumenttag/placeholdername/
@@ -19,7 +21,5 @@ public string PlaceholderName { get; set; }
 ### أنظر أيضا
 
 * interface [IStructuredDocumentTag](../)
-* مساحة الاسم [Aspose.Words.Markup](../../istructureddocumenttag/)
+* مساحة الاسم [Aspose.Words.Markup](../../../aspose.words.markup/)
 * المجسم [Aspose.Words](../../../)
-
-

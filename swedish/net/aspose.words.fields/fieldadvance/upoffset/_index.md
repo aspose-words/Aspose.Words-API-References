@@ -1,7 +1,9 @@
 ---
 title: FieldAdvance.UpOffset
-second_title: Aspose.Words för .NET API Referens
-description: FieldAdvance fast egendom. Hämtar eller ställer in antalet punkter som texten som följer efter fältet ska flyttas upp med.
+linktitle: UpOffset
+articleTitle: UpOffset
+second_title: Aspose.Words för .NET
+description: FieldAdvance UpOffset fast egendom. Hämtar eller ställer in antalet punkter som texten som följer efter fältet ska flyttas upp med i C#.
 type: docs
 weight: 60
 url: /sv/net/aspose.words.fields/fieldadvance/upoffset/
@@ -14,7 +16,7 @@ Hämtar eller ställer in antalet punkter som texten som följer efter fältet s
 public string UpOffset { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man infogar ett ADVANCE-fält och redigerar dess egenskaper.
 
@@ -59,7 +61,5 @@ doc.Save(ArtifactsDir + "Field.ADVANCE.docx");
 ### Se även
 
 * class [FieldAdvance](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldadvance/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

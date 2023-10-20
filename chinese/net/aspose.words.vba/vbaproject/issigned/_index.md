@@ -1,7 +1,9 @@
 ---
 title: VbaProject.IsSigned
-second_title: Aspose.Words for .NET API 参考
-description: VbaProject 财产. 显示是否VbaProject是否已签名
+linktitle: IsSigned
+articleTitle: IsSigned
+second_title: 用于 .NET 的 Aspose.Words
+description: VbaProject IsSigned 财产. 显示是否VbaProject是否已签名 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.vba/vbaproject/issigned/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.vba/vbaproject/issigned/
 public bool IsSigned { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何访问文档的 VBA 项目信息。
 
@@ -45,7 +47,5 @@ vbaModules.Remove(vbaModules[2]);
 ### 也可以看看
 
 * class [VbaProject](../)
-* 命名空间 [Aspose.Words.Vba](../../vbaproject/)
+* 命名空间 [Aspose.Words.Vba](../../../aspose.words.vba/)
 * 部件 [Aspose.Words](../../../)
-
-

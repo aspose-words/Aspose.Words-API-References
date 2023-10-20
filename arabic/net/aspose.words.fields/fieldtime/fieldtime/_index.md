@@ -1,7 +1,9 @@
 ---
-title: FieldTime.FieldTime
-second_title: Aspose.Words لمراجع .NET API
-description: FieldTime البناء. Default_Constructor
+title: FieldTime
+linktitle: FieldTime
+articleTitle: FieldTime
+second_title: Aspose.Words لـ .NET
+description: FieldTime البناء. Default_Constructor في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fields/fieldtime/fieldtime/
@@ -17,7 +19,5 @@ public FieldTime()
 ### أنظر أيضا
 
 * class [FieldTime](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldtime/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

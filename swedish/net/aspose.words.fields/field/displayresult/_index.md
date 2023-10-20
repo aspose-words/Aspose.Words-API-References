@@ -1,7 +1,9 @@
 ---
 title: Field.DisplayResult
-second_title: Aspose.Words för .NET API Referens
-description: Field fast egendom. Hämtar texten som representerar det visade fältresultatet.
+linktitle: DisplayResult
+articleTitle: DisplayResult
+second_title: Aspose.Words för .NET
+description: Field DisplayResult fast egendom. Hämtar texten som representerar det visade fältresultatet i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.fields/field/displayresult/
@@ -14,11 +16,11 @@ Hämtar texten som representerar det visade fältresultatet.
 public string DisplayResult { get; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Den[`UpdateListLabels`](../../../aspose.words/document/updatelistlabels/) metod måste anropas för att erhålla korrekt värde för [`FieldListNum`](../../fieldlistnum/) ,[`FieldAutoNum`](../../fieldautonum/) ,[`FieldAutoNumOut`](../../fieldautonumout/) och[`FieldAutoNumLgl`](../../fieldautonumlgl/) fields.
 
-### Exempel
+## Exempel
 
 Visar hur man får fram den verkliga texten som ett fält visar i dokumentet.
 
@@ -47,7 +49,5 @@ doc.Save(ArtifactsDir + "Field.DisplayResult.docx");
 ### Se även
 
 * class [Field](../)
-* namnutrymme [Aspose.Words.Fields](../../field/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

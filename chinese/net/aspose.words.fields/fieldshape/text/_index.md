@@ -1,7 +1,9 @@
 ---
 title: FieldShape.Text
-second_title: Aspose.Words for .NET API 参考
-description: FieldShape 财产. 获取或设置要检索的文本
+linktitle: Text
+articleTitle: Text
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldShape Text 财产. 获取或设置要检索的文本 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.fields/fieldshape/text/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fieldshape/text/
 public string Text { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何使用 BIDIOUTLINE 字段创建从右到左的语言兼容列表。
 
@@ -83,7 +85,5 @@ Assert.AreEqual(ShapeType.OleObject, shape.ShapeType);
 ### 也可以看看
 
 * class [FieldShape](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldshape/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

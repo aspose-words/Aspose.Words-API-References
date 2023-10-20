@@ -1,7 +1,9 @@
 ---
-title: Class CustomPart
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Markup.CustomPart 班级. 表示自定义任意内容部分ISO/IEC 29500 标准未定义
+title: CustomPart Class
+linktitle: CustomPart
+articleTitle: CustomPart
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Markup.CustomPart 班级. 表示自定义任意内容部分ISO/IEC 29500 标准未定义 在 C#.
 type: docs
 weight: 3900
 url: /zh/net/aspose.words.markup/custompart/
@@ -38,7 +40,7 @@ public class CustomPart
 | --- | --- |
 | [Clone](../../aspose.words.markup/custompart/clone/)() | 制作对象的“足够深”的副本。 不重复字节[`Data`](./data/)值. |
 
-### 评论
+## 评论
 
 此类表示作为“未知关系”目标的 OOXML 部分。 ISO/IEC 29500 中未定义的所有关系都被视为“未知关系”。 Office Open XML 文档中允许未知关系，只要它们 符合关系标记指南。
 
@@ -48,7 +50,7 @@ Aspose.Words 还可以往返自定义部件，此外，还允许通过以下方�
 
 不要将自定义部件与自定义 XML 数据混淆。使用[`CustomXmlPart`](../customxmlpart/)如果您需要 来访问自定义 XML 数据。
 
-### 例子
+## 例子
 
 演示如何访问文档的任意自定义部件集合。
 
@@ -93,5 +95,3 @@ Assert.AreEqual(0, doc.PackageCustomParts.Count);
 
 * 命名空间 [Aspose.Words.Markup](../../aspose.words.markup/)
 * 部件 [Aspose.Words](../../)
-
-

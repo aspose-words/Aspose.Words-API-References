@@ -1,7 +1,9 @@
 ---
 title: FindReplaceOptions.LegacyMode
-second_title: Aspose.Words für .NET-API-Referenz
-description: FindReplaceOptions eigendom. Ruft einen booleschen Wert ab oder legt diesen fest der angibt dass der alte Such/Ersetzungsalgorithmus verwendet wird.
+linktitle: LegacyMode
+articleTitle: LegacyMode
+second_title: Aspose.Words für .NET
+description: FindReplaceOptions LegacyMode eigendom. Ruft einen booleschen Wert ab oder legt diesen fest der angibt dass der alte Such/Ersetzungsalgorithmus verwendet wird in C#.
 type: docs
 weight: 130
 url: /de/net/aspose.words.replacing/findreplaceoptions/legacymode/
@@ -14,11 +16,11 @@ Ruft einen booleschen Wert ab oder legt diesen fest, der angibt, dass der alte S
 public bool LegacyMode { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Verwenden Sie dieses Flag, wenn Sie genau das gleiche Verhalten wie vor der Einführung der erweiterten Such-/Ersetzungsfunktion benötigen. Beachten Sie, dass der alte Algorithmus keine erweiterten Funktionen wie das Ersetzen durch Umbrüche, das Anwenden von Formatierungen usw. unterstützt.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Ersetzungen innerhalb von Ersetzungsmustern erkannt und verwendet werden.
 
@@ -44,7 +46,5 @@ Assert.AreEqual(doc.GetText(), "Paul took money from Jason.\f");
 ### Siehe auch
 
 * class [FindReplaceOptions](../)
-* namensraum [Aspose.Words.Replacing](../../findreplaceoptions/)
+* namensraum [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * Montage [Aspose.Words](../../../)
-
-

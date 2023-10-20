@@ -1,7 +1,9 @@
 ---
-title: Enum DashStyle
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Drawing.DashStyle enum. Stile linea tratteggiata.
+title: DashStyle Enum
+linktitle: DashStyle
+articleTitle: DashStyle
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Drawing.DashStyle enum. Stile linea tratteggiata in C#.
 type: docs
 weight: 930
 url: /it/net/aspose.words.drawing/dashstyle/
@@ -31,7 +33,7 @@ public enum DashStyle
 | LongDashDotDot | `10` | Trattino lungo trattino corto trattino corto. |
 | Default | `0` | Uguale aSolid . |
 
-### Esempi
+## Esempi
 
 Mostra per creare una varietà di forme.
 
@@ -108,5 +110,3 @@ doc.Save(ArtifactsDir + "Drawing.VariousShapes.docx");
 * property [DashStyle](../stroke/dashstyle/)
 * spazio dei nomi [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * assemblea [Aspose.Words](../../)
-
-

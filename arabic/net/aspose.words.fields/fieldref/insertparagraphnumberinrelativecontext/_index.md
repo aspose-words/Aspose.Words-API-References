@@ -1,7 +1,9 @@
 ---
 title: FieldRef.InsertParagraphNumberInRelativeContext
-second_title: Aspose.Words لمراجع .NET API
-description: FieldRef ملكية. الحصول على أو تعيين ما إذا كان سيتم إدراج رقم الفقرة للفقرة المشار إليها في السياق النسبي.
+linktitle: InsertParagraphNumberInRelativeContext
+articleTitle: InsertParagraphNumberInRelativeContext
+second_title: Aspose.Words لـ .NET
+description: FieldRef InsertParagraphNumberInRelativeContext ملكية. الحصول على أو تعيين ما إذا كان سيتم إدراج رقم الفقرة للفقرة المشار إليها في السياق النسبي في C#.
 type: docs
 weight: 70
 url: /ar/net/aspose.words.fields/fieldref/insertparagraphnumberinrelativecontext/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldref/insertparagraphnumberinrelativecontext
 public bool InsertParagraphNumberInRelativeContext { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج حقول REF للإشارة إلى الإشارات المرجعية.
 
@@ -104,7 +106,5 @@ private static FieldRef InsertFieldRef(DocumentBuilder builder, string bookmarkN
 ### أنظر أيضا
 
 * class [FieldRef](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldref/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

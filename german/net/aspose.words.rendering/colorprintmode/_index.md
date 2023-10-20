@@ -1,7 +1,9 @@
 ---
-title: Enum ColorPrintMode
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Rendering.ColorPrintMode opsomming. Gibt an wie nicht farbige Seiten gedruckt werden wenn das Gerät Farbdruck unterstützt.
+title: ColorPrintMode Enum
+linktitle: ColorPrintMode
+articleTitle: ColorPrintMode
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Rendering.ColorPrintMode opsomming. Gibt an wie nicht farbige Seiten gedruckt werden wenn das Gerät Farbdruck unterstützt in C#.
 type: docs
 weight: 4540
 url: /de/net/aspose.words.rendering/colorprintmode/
@@ -21,7 +23,7 @@ public enum ColorPrintMode
 | Normal | `0` | Alle Seiten werden entsprechend den Fähigkeiten und Einstellungen des Druckers gedruckt. |
 | GrayscaleAuto | `1` | Nicht farbige Seiten werden, sofern erkannt, in Graustufen gedruckt. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie einen Seitenbereich und einen Drucker zum Drucken des Dokuments auswählen und dann eine Druckvorschau aufrufen.
 
@@ -71,5 +73,3 @@ Console.WriteLine($"The numer of pages printed in color are {awPrintDoc.ColorPag
 
 * namensraum [Aspose.Words.Rendering](../../aspose.words.rendering/)
 * Montage [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitFootnoteStart
-second_title: Aspose.Words لمراجع .NET API
-description: DocumentVisitor طريقة. يتم استدعاؤه عند بدء تعداد نص الحاشية السفلية أو التعليق الختامي.
+linktitle: VisitFootnoteStart
+articleTitle: VisitFootnoteStart
+second_title: Aspose.Words لـ .NET
+description: DocumentVisitor VisitFootnoteStart طريقة. يتم استدعاؤه عند بدء تعداد نص الحاشية السفلية أو التعليق الختامي في C#.
 type: docs
 weight: 220
 url: /ar/net/aspose.words/documentvisitor/visitfootnotestart/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitFootnoteStart(Footnote footnote)
 
 أ[`VisitorAction`](../../visitoraction/) القيمة التي تحدد كيفية متابعة التعداد.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية طباعة بنية العقدة لكل حاشية سفلية في المستند.
 
@@ -307,7 +309,5 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [Footnote](../../../aspose.words.notes/footnote/)
 * class [DocumentVisitor](../)
-* مساحة الاسم [Aspose.Words](../../documentvisitor/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

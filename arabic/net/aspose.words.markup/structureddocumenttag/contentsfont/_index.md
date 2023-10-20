@@ -1,20 +1,22 @@
 ---
 title: StructuredDocumentTag.ContentsFont
-second_title: Aspose.Words لمراجع .NET API
-description: StructuredDocumentTag ملكية. تنسيق الخط الذي سيتم تطبيقه على النص الذي تم إدخاله المعاملة الخاصة والتفضيلية .
+linktitle: ContentsFont
+articleTitle: ContentsFont
+second_title: Aspose.Words لـ .NET
+description: StructuredDocumentTag ContentsFont ملكية. تنسيق الخط الذي سيتم تطبيقه على النص الذي تم إدخالهالمعاملة الخاصة والتفضيلية  في C#.
 type: docs
 weight: 80
 url: /ar/net/aspose.words.markup/structureddocumenttag/contentsfont/
 ---
 ## StructuredDocumentTag.ContentsFont property
 
-تنسيق الخط الذي سيتم تطبيقه على النص الذي تم إدخاله **المعاملة الخاصة والتفضيلية** .
+تنسيق الخط الذي سيتم تطبيقه على النص الذي تم إدخاله**المعاملة الخاصة والتفضيلية** .
 
 ```csharp
 public Font ContentsFont { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء علامة مستند منظمة في مربع نص عادي وتعديل مظهرها.
 
@@ -72,7 +74,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.PlainText.docx");
 
 * class [Font](../../../aspose.words/font/)
 * class [StructuredDocumentTag](../)
-* مساحة الاسم [Aspose.Words.Markup](../../structureddocumenttag/)
+* مساحة الاسم [Aspose.Words.Markup](../../../aspose.words.markup/)
 * المجسم [Aspose.Words](../../../)
-
-

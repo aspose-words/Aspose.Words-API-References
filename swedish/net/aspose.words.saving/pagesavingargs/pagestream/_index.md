@@ -1,7 +1,9 @@
 ---
 title: PageSavingArgs.PageStream
-second_title: Aspose.Words för .NET API Referens
-description: PageSavingArgs fast egendom. Tillåter att ange strömmen där dokumentsidan ska sparas.
+linktitle: PageStream
+articleTitle: PageStream
+second_title: Aspose.Words för .NET
+description: PageSavingArgs PageStream fast egendom. Tillåter att ange strömmen där dokumentsidan ska sparas i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.saving/pagesavingargs/pagestream/
@@ -14,7 +16,7 @@ Tillåter att ange strömmen där dokumentsidan ska sparas.
 public Stream PageStream { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Den här egenskapen låter dig spara dokumentsidor till strömmar istället för filer.
 
@@ -22,7 +24,7 @@ Standardvärdet är`null` . När denna fastighet är`null` , kommer dokumentsida
 
 Om båda`PageStream` och[`PageFileName`](../pagefilename/) är inställda, kommer PageStream att användas.
 
-### Exempel
+## Exempel
 
 Visar hur man använder en återuppringning för att spara ett dokument i HTML sida för sida.
 
@@ -79,7 +81,5 @@ private class CustomFileNamePageSavingCallback : IPageSavingCallback
 ### Se även
 
 * class [PageSavingArgs](../)
-* namnutrymme [Aspose.Words.Saving](../../pagesavingargs/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,14 +1,16 @@
 ---
-title: StructuredDocumentTag.StructuredDocumentTag
-second_title: Référence de l'API Aspose.Words pour .NET
-description: StructuredDocumentTag constructeur. Initialise une nouvelle instance du Balise de document structuré classe.
+title: StructuredDocumentTag
+linktitle: StructuredDocumentTag
+articleTitle: StructuredDocumentTag
+second_title: Aspose.Words pour .NET
+description: StructuredDocumentTag constructeur. Initialise une nouvelle instance duBalise de document structuré classe en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.markup/structureddocumenttag/structureddocumenttag/
 ---
 ## StructuredDocumentTag constructor
 
-Initialise une nouvelle instance du **Balise de document structuré** classe.
+Initialise une nouvelle instance du**Balise de document structuré** classe.
 
 ```csharp
 public StructuredDocumentTag(DocumentBase doc, SdtType type, MarkupLevel level)
@@ -20,7 +22,7 @@ public StructuredDocumentTag(DocumentBase doc, SdtType type, MarkupLevel level)
 | type | SdtType | Type de nœud SDT. |
 | level | MarkupLevel | Niveau du nœud SDT dans le document. |
 
-### Remarques
+## Remarques
 
 Les types de SDT suivants peuvent être créés :
 
@@ -34,7 +36,7 @@ Les types de SDT suivants peuvent être créés :
 * RichText
 * PlainText
 
-### Exemples
+## Exemples
 
 Montrez comment créer une balise de document structuré sous la forme d'une case à cocher.
 
@@ -60,7 +62,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.CheckBox.docx");
 * enum [SdtType](../../sdttype/)
 * enum [MarkupLevel](../../markuplevel/)
 * class [StructuredDocumentTag](../)
-* espace de noms [Aspose.Words.Markup](../../structureddocumenttag/)
+* espace de noms [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Assemblée [Aspose.Words](../../../)
-
-

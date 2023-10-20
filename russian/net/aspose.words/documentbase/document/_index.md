@@ -1,7 +1,9 @@
 ---
 title: DocumentBase.Document
-second_title: Справочник по API Aspose.Words для .NET
-description: DocumentBase свойство. Получает этот экземпляр.
+linktitle: Document
+articleTitle: Document
+second_title: Aspose.Words для .NET
+description: DocumentBase Document свойство. Получает этот экземпляр на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words/documentbase/document/
@@ -17,7 +19,5 @@ public override DocumentBase Document { get; }
 ### Смотрите также
 
 * class [DocumentBase](../)
-* пространство имен [Aspose.Words](../../documentbase/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: BarcodeParameters.BackgroundColor
-second_title: Справочник по API Aspose.Words для .NET
-description: BarcodeParameters свойство. Цвет фона штрихкода 0x000000  0xFFFFFF
+linktitle: BackgroundColor
+articleTitle: BackgroundColor
+second_title: Aspose.Words для .NET
+description: BarcodeParameters BackgroundColor свойство. Цвет фона штрихкода 0x000000  0xFFFFFF на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.fields/barcodeparameters/backgroundcolor/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/barcodeparameters/backgroundcolor/
 public string BackgroundColor { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как использовать генератор штрих-кода.
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.docx");
 ### Смотрите также
 
 * class [BarcodeParameters](../)
-* пространство имен [Aspose.Words.Fields](../../barcodeparameters/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Font.SizeBi
-second_title: Aspose.Words for .NET API 参考
-description: Font 财产. 获取或设置从右到左文档中使用的字体大小以磅为单位
+linktitle: SizeBi
+articleTitle: SizeBi
+second_title: 用于 .NET 的 Aspose.Words
+description: Font SizeBi 财产. 获取或设置从右到左文档中使用的字体大小以磅为单位 在 C#.
 type: docs
 weight: 350
 url: /zh/net/aspose.words/font/sizebi/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/font/sizebi/
 public double SizeBi { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何为从右到左和从右到左的文本定义单独的字体设置集。
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "Font.Bidi.docx");
 ### 也可以看看
 
 * class [Font](../)
-* 命名空间 [Aspose.Words](../../font/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

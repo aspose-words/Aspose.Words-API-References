@@ -1,9 +1,11 @@
 ---
 title: Document.Cleanup
-second_title: Referencia de API de Aspose.Words para .NET
-description: Document método. Limpia estilos y listas no utilizados del documento.
+linktitle: Cleanup
+articleTitle: Cleanup
+second_title: Aspose.Words para .NET
+description: Document Cleanup método. Limpia estilos y listas no utilizados del documento en C#.
 type: docs
-weight: 560
+weight: 540
 url: /es/net/aspose.words/document/cleanup/
 ---
 ## Cleanup() {#cleanup}
@@ -14,7 +16,7 @@ Limpia estilos y listas no utilizados del documento.
 public void Cleanup()
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo eliminar estilos personalizados no utilizados de un documento.
 
@@ -56,12 +58,12 @@ Assert.AreEqual(4, doc.Styles.Count);
 ### Ver también
 
 * class [Document](../)
-* espacio de nombres [Aspose.Words](../../document/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
 
 ---
 
-## Cleanup(CleanupOptions) {#cleanup_1}
+## Cleanup(*[CleanupOptions](../../cleanupoptions/)*) {#cleanup_1}
 
 Limpia estilos y listas no utilizados del documento según lo dado[`CleanupOptions`](../../cleanupoptions/) .
 
@@ -69,7 +71,7 @@ Limpia estilos y listas no utilizados del documento según lo dado[`CleanupOptio
 public void Cleanup(CleanupOptions options)
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo eliminar todos los estilos personalizados no utilizados de un documento.
 
@@ -119,7 +121,5 @@ Assert.AreEqual(2, doc.Styles.Count);
 
 * class [CleanupOptions](../../cleanupoptions/)
 * class [Document](../)
-* espacio de nombres [Aspose.Words](../../document/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: CustomXmlPropertyCollection.IndexOfKey
-second_title: Référence de l'API Aspose.Words pour .NET
-description: CustomXmlPropertyCollection méthode. Renvoie lindex de base zéro de la propriété spécifiée dans la collection.
+linktitle: IndexOfKey
+articleTitle: IndexOfKey
+second_title: Aspose.Words pour .NET
+description: CustomXmlPropertyCollection IndexOfKey méthode. Renvoie lindex de base zéro de la propriété spécifiée dans la collection en C#.
 type: docs
 weight: 70
 url: /fr/net/aspose.words.markup/customxmlpropertycollection/indexofkey/
@@ -22,7 +24,7 @@ public int IndexOfKey(string name)
 
 L'indice de base zéro. Valeur négative si introuvable.
 
-### Exemples
+## Exemples
 
 Montre comment utiliser les propriétés des balises actives pour obtenir des informations détaillées sur les balises actives.
 
@@ -79,7 +81,5 @@ Assert.AreEqual(0, properties.Count);
 ### Voir également
 
 * class [CustomXmlPropertyCollection](../)
-* espace de noms [Aspose.Words.Markup](../../customxmlpropertycollection/)
+* espace de noms [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Assemblée [Aspose.Words](../../../)
-
-

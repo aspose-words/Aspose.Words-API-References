@@ -1,7 +1,9 @@
 ---
-title: Enum GradientStyle
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Drawing.GradientStyle تعداد. يحدد نمط التعبئة المتدرجة.
+title: GradientStyle Enum
+linktitle: GradientStyle
+articleTitle: GradientStyle
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Drawing.GradientStyle تعداد. يحدد نمط التعبئة المتدرجة في C#.
 type: docs
 weight: 1000
 url: /ar/net/aspose.words.drawing/gradientstyle/
@@ -26,7 +28,7 @@ public enum GradientStyle
 | FromCorner | `5` | التدرج من الزاوية إلى الزوايا الثلاث الأخرى. |
 | FromCenter | `6` | التدرج يمتد من المركز إلى الزوايا. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعبئة الشكل بالتدرجات اللونية.
 
@@ -68,5 +70,3 @@ doc.Save(ArtifactsDir + "Shape.GradientFill.docx", saveOptions);
 
 * مساحة الاسم [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../)
-
-

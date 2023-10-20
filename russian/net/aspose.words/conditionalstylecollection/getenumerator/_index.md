@@ -1,7 +1,9 @@
 ---
 title: ConditionalStyleCollection.GetEnumerator
-second_title: Справочник по API Aspose.Words для .NET
-description: ConditionalStyleCollection метод. Возвращает объект перечислителя который можно использовать для перебора всех условных стилей в коллекции.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words для .NET
+description: ConditionalStyleCollection GetEnumerator метод. Возвращает объект перечислителя который можно использовать для перебора всех условных стилей в коллекции на С#.
 type: docs
 weight: 160
 url: /ru/net/aspose.words/conditionalstylecollection/getenumerator/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/conditionalstylecollection/getenumerator/
 public IEnumerator<ConditionalStyle> GetEnumerator()
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как работать с определенными стилями областей таблицы.
 
@@ -85,7 +87,5 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 
 * class [ConditionalStyle](../../conditionalstyle/)
 * class [ConditionalStyleCollection](../)
-* пространство имен [Aspose.Words](../../conditionalstylecollection/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

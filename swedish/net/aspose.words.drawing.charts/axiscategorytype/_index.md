@@ -1,7 +1,9 @@
 ---
-title: Enum AxisCategoryType
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Drawing.Charts.AxisCategoryType uppräkning. Anger typen av en kategoriaxel.
+title: AxisCategoryType Enum
+linktitle: AxisCategoryType
+articleTitle: AxisCategoryType
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Drawing.Charts.AxisCategoryType uppräkning. Anger typen av en kategoriaxel i C#.
 type: docs
 weight: 530
 url: /sv/net/aspose.words.drawing.charts/axiscategorytype/
@@ -22,7 +24,7 @@ public enum AxisCategoryType
 | Category | `1` | Anger en axel för en godtycklig uppsättning kategorier. |
 | Time | `2` | Anger en tidskategoriaxel. |
 
-### Exempel
+## Exempel
 
 Visar hur man infogar ett diagram och ändrar utseendet på dess axlar.
 
@@ -76,5 +78,3 @@ doc.Save(ArtifactsDir + "Charts.AxisProperties.docx");
 
 * namnutrymme [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../)
-
-

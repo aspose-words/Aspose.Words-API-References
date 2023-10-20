@@ -1,7 +1,9 @@
 ---
 title: Table.RelativeVerticalAlignment
-second_title: Aspose.Words per .NET API Reference
-description: Table proprietà. Ottiene o imposta lallineamento verticale relativo della tabella mobile.
+linktitle: RelativeVerticalAlignment
+articleTitle: RelativeVerticalAlignment
+second_title: Aspose.Words per .NET
+description: Table RelativeVerticalAlignment proprietà. Ottiene o imposta lallineamento verticale relativo della tabella mobile in C#.
 type: docs
 weight: 240
 url: /it/net/aspose.words.tables/table/relativeverticalalignment/
@@ -14,7 +16,7 @@ Ottiene o imposta l'allineamento verticale relativo della tabella mobile.
 public VerticalAlignment RelativeVerticalAlignment { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come impostare la posizione delle tabelle mobili.
 
@@ -49,7 +51,5 @@ doc.Save(ArtifactsDir + "Table.ChangeFloatingTableProperties.docx");
 
 * enum [VerticalAlignment](../../../aspose.words.drawing/verticalalignment/)
 * class [Table](../)
-* spazio dei nomi [Aspose.Words.Tables](../../table/)
+* spazio dei nomi [Aspose.Words.Tables](../../../aspose.words.tables/)
 * assemblea [Aspose.Words](../../../)
-
-

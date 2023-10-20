@@ -1,7 +1,9 @@
 ---
 title: FieldToc.CustomStyles
-second_title: Aspose.Words لمراجع .NET API
-description: FieldToc ملكية. الحصول على أو تعيين قائمة من الأنماط بخلاف أنماط العناوين المضمنة لتضمينها في جدول المحتويات.
+linktitle: CustomStyles
+articleTitle: CustomStyles
+second_title: Aspose.Words لـ .NET
+description: FieldToc CustomStyles ملكية. الحصول على أو تعيين قائمة من الأنماط بخلاف أنماط العناوين المضمنة لتضمينها في جدول المحتويات في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.fields/fieldtoc/customstyles/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldtoc/customstyles/
 public string CustomStyles { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج جدول محتويات، وتعبئته بالإدخالات بناءً على أنماط العناوين.
 
@@ -99,7 +101,5 @@ public void InsertNewPageWithHeading(DocumentBuilder builder, string captionText
 ### أنظر أيضا
 
 * class [FieldToc](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldtoc/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class ChartMarker
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Drawing.Charts.ChartMarker classe. Représente un marqueur de données de graphique.
+title: ChartMarker Class
+linktitle: ChartMarker
+articleTitle: ChartMarker
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Drawing.Charts.ChartMarker classe. Représente un marqueur de données de graphique en C#.
 type: docs
 weight: 750
 url: /fr/net/aspose.words.drawing.charts/chartmarker/
@@ -24,7 +26,7 @@ public class ChartMarker
 | [Size](../../aspose.words.drawing.charts/chartmarker/size/) { get; set; } | Obtient ou définit la taille du marqueur de graphique. La valeur par défaut est 7. |
 | [Symbol](../../aspose.words.drawing.charts/chartmarker/symbol/) { get; set; } | Obtient ou définit le symbole du marqueur de graphique. |
 
-### Exemples
+## Exemples
 
 Montre comment utiliser des points de données sur un graphique linéaire.
 
@@ -87,5 +89,3 @@ private static void ApplyDataPoints(ChartSeries series, int dataPointsCount, Mar
 
 * espace de noms [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * Assemblée [Aspose.Words](../../)
-
-

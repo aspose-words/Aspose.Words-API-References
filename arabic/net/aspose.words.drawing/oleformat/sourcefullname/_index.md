@@ -1,7 +1,9 @@
 ---
 title: OleFormat.SourceFullName
-second_title: Aspose.Words لمراجع .NET API
-description: OleFormat ملكية. الحصول على أو تعيين مسار واسم الملف المصدر لكائن OLE المرتبط.
+linktitle: SourceFullName
+articleTitle: SourceFullName
+second_title: Aspose.Words لـ .NET
+description: OleFormat SourceFullName ملكية. الحصول على أو تعيين مسار واسم الملف المصدر لكائن OLE المرتبط في C#.
 type: docs
 weight: 100
 url: /ar/net/aspose.words.drawing/oleformat/sourcefullname/
@@ -14,13 +16,13 @@ url: /ar/net/aspose.words.drawing/oleformat/sourcefullname/
 public string SourceFullName { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 القيمة الافتراضية هي سلسلة فارغة.
 
 لو`SourceFullName` ليست سلسلة فارغة، فإن كائن OLE مرتبط.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج كائنات OLE المرتبطة وغير المرتبطة.
 
@@ -70,7 +72,5 @@ using (MemoryStream stream = oleFormat.GetOleEntry("\x0001CompObj"))
 ### أنظر أيضا
 
 * class [OleFormat](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../oleformat/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,9 +1,11 @@
 ---
 title: Section.ClearHeadersFooters
-second_title: Aspose.Words لمراجع .NET API
-description: Section طريقة. مسح رؤوس وتذييلات هذا القسم.
+linktitle: ClearHeadersFooters
+articleTitle: ClearHeadersFooters
+second_title: Aspose.Words لـ .NET
+description: Section ClearHeadersFooters طريقة. مسح رؤوس وتذييلات هذا القسم في C#.
 type: docs
-weight: 120
+weight: 100
 url: /ar/net/aspose.words/section/clearheadersfooters/
 ---
 ## Section.ClearHeadersFooters method
@@ -14,13 +16,13 @@ url: /ar/net/aspose.words/section/clearheadersfooters/
 public void ClearHeadersFooters()
 ```
 
-### ملاحظات
+## ملاحظات
 
 يتم مسح نص كافة الرؤوس والتذييلات، ولكن[`HeaderFooter`](../../headerfooter/) لا تتم إزالة الكائنات نفسها.
 
 وهذا يجعل رؤوس وتذييلات هذا القسم مرتبطة برؤوس وتذييلات القسم السابق.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية مسح محتويات كافة الرؤوس والتذييلات في القسم.
 
@@ -54,7 +56,5 @@ Assert.AreEqual(string.Empty, doc.FirstSection.HeadersFooters[HeaderFooterType.F
 ### أنظر أيضا
 
 * class [Section](../)
-* مساحة الاسم [Aspose.Words](../../section/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

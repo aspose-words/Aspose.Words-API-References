@@ -1,12 +1,14 @@
 ---
 title: Border.Equals
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Border méthode. Détermine si la bordure spécifiée est égale en valeur à la bordure actuelle.
+linktitle: Equals
+articleTitle: Equals
+second_title: Aspose.Words pour .NET
+description: Border Equals méthode. Détermine si la bordure spécifiée est égale en valeur à la bordure actuelle en C#.
 type: docs
 weight: 100
 url: /fr/net/aspose.words/border/equals/
 ---
-## Equals(Border) {#equals}
+## Equals(*[Border](../)*) {#equals}
 
 Détermine si la bordure spécifiée est égale en valeur à la bordure actuelle.
 
@@ -14,7 +16,7 @@ Détermine si la bordure spécifiée est égale en valeur à la bordure actuelle
 public bool Equals(Border rhs)
 ```
 
-### Exemples
+## Exemples
 
 Montre comment les collections de bordures peuvent partager des éléments.
 
@@ -56,12 +58,12 @@ doc.Save(ArtifactsDir + "Border.SharedElements.docx");
 ### Voir également
 
 * class [Border](../)
-* espace de noms [Aspose.Words](../../border/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
 
 ---
 
-## Equals(object) {#equals_1}
+## Equals(*object*) {#equals_1}
 
 Détermine si l'objet spécifié a une valeur égale à l'objet actuel.
 
@@ -69,7 +71,7 @@ Détermine si l'objet spécifié a une valeur égale à l'objet actuel.
 public override bool Equals(object obj)
 ```
 
-### Exemples
+## Exemples
 
 Montre comment les collections de bordures peuvent partager des éléments.
 
@@ -111,7 +113,5 @@ doc.Save(ArtifactsDir + "Border.SharedElements.docx");
 ### Voir également
 
 * class [Border](../)
-* espace de noms [Aspose.Words](../../border/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

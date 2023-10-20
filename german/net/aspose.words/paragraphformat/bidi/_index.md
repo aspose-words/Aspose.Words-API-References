@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.Bidi
-second_title: Aspose.Words für .NET-API-Referenz
-description: ParagraphFormat eigendom. Ruft ab oder legt fest ob es sich um einen Absatz mit Schreibrichtung von rechts nach links handelt.
+linktitle: Bidi
+articleTitle: Bidi
+second_title: Aspose.Words für .NET
+description: ParagraphFormat Bidi eigendom. Ruft ab oder legt fest ob es sich um einen Absatz mit Schreibrichtung von rechts nach links handelt in C#.
 type: docs
 weight: 50
 url: /de/net/aspose.words/paragraphformat/bidi/
@@ -14,11 +16,11 @@ Ruft ab oder legt fest, ob es sich um einen Absatz mit Schreibrichtung von recht
 public bool Bidi { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Wann`WAHR`, die Läufe und andere Inline-Objekte in diesem Absatz sind von rechts nach links angeordnet.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Textrichtung eines Klartextdokuments erkannt wird.
 
@@ -77,7 +79,5 @@ doc.Save(ArtifactsDir + "Field.BIDIOUTLINE.docx");
 ### Siehe auch
 
 * class [ParagraphFormat](../)
-* namensraum [Aspose.Words](../../paragraphformat/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

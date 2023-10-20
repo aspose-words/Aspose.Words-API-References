@@ -1,7 +1,9 @@
 ---
 title: BuildingBlock.LastSection
-second_title: Aspose.Words för .NET API Referens
-description: BuildingBlock fast egendom. Hämtar det sista avsnittet i byggblocket.
+linktitle: LastSection
+articleTitle: LastSection
+second_title: Aspose.Words för .NET
+description: BuildingBlock LastSection fast egendom. Hämtar det sista avsnittet i byggblocket i C#.
 type: docs
 weight: 80
 url: /sv/net/aspose.words.buildingblocks/buildingblock/lastsection/
@@ -14,11 +16,11 @@ Hämtar det sista avsnittet i byggblocket.
 public Section LastSection { get; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Returnerar`null` om det inte finns några avsnitt.
 
-### Exempel
+## Exempel
 
 Visar hur man lägger till ett anpassat byggblock till ett dokument.
 
@@ -116,7 +118,5 @@ public class BuildingBlockVisitor : DocumentVisitor
 
 * class [Section](../../../aspose.words/section/)
 * class [BuildingBlock](../)
-* namnutrymme [Aspose.Words.BuildingBlocks](../../buildingblock/)
+* namnutrymme [Aspose.Words.BuildingBlocks](../../../aspose.words.buildingblocks/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum ImagePixelFormat
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Saving.ImagePixelFormat 枚举. 指定生成的文档页面图像的像素格式
+title: ImagePixelFormat Enum
+linktitle: ImagePixelFormat
+articleTitle: ImagePixelFormat
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Saving.ImagePixelFormat 枚举. 指定生成的文档页面图像的像素格式 在 C#.
 type: docs
 weight: 5220
 url: /zh/net/aspose.words.saving/imagepixelformat/
@@ -30,7 +32,7 @@ public enum ImagePixelFormat
 | Format64BppPArgb | `9` | 每像素 64 位，ARGB，预乘 alpha。 |
 | Format1bppIndexed | `10` | 每像素 1 位，索引。 |
 
-### 例子
+## 例子
 
 演示如何选择将文档渲染为图像的每像素比特率。
 
@@ -96,5 +98,3 @@ Document doc = new Document();
 
 * 命名空间 [Aspose.Words.Saving](../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../)
-
-

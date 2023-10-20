@@ -1,7 +1,9 @@
 ---
 title: LayoutEnumerator.MoveParent
-second_title: Aspose.Words für .NET-API-Referenz
-description: LayoutEnumerator methode. Verschiebt sich zur übergeordneten Entität.
+linktitle: MoveParent
+articleTitle: MoveParent
+second_title: Aspose.Words für .NET
+description: LayoutEnumerator MoveParent methode. Verschiebt sich zur übergeordneten Entität in C#.
 type: docs
 weight: 140
 url: /de/net/aspose.words.layout/layoutenumerator/moveparent/
@@ -14,7 +16,7 @@ Verschiebt sich zur übergeordneten Entität.
 public bool MoveParent()
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt Möglichkeiten zum Durchlaufen der Layoutelemente eines Dokuments.
 
@@ -159,12 +161,12 @@ private static void PrintCurrentEntity(LayoutEnumerator layoutEnumerator, int in
 ### Siehe auch
 
 * class [LayoutEnumerator](../)
-* namensraum [Aspose.Words.Layout](../../layoutenumerator/)
+* namensraum [Aspose.Words.Layout](../../../aspose.words.layout/)
 * Montage [Aspose.Words](../../../)
 
 ---
 
-## MoveParent(LayoutEntityType) {#moveparent_1}
+## MoveParent(*[LayoutEntityType](../../layoutentitytype/)*) {#moveparent_1}
 
 Verschiebt sich zur übergeordneten Entität des angegebenen Typs.
 
@@ -176,11 +178,11 @@ public bool MoveParent(LayoutEntityType types)
 | --- | --- | --- |
 | types | LayoutEntityType | Der übergeordnete Entitätstyp, zu dem verschoben werden soll. Verwenden Sie bitweises ODER, um mehrere übergeordnete Typen anzugeben. |
 
-### Bemerkungen
+## Bemerkungen
 
 Diese Methode ist nützlich, wenn Sie die übergeordnete Zelle, Spalte oder Kopf-/Fußzeile der Entität suchen müssen.
 
-### Beispiele
+## Beispiele
 
 Zeigt Möglichkeiten zum Durchlaufen der Layoutelemente eines Dokuments.
 
@@ -326,7 +328,5 @@ private static void PrintCurrentEntity(LayoutEnumerator layoutEnumerator, int in
 
 * enum [LayoutEntityType](../../layoutentitytype/)
 * class [LayoutEnumerator](../)
-* namensraum [Aspose.Words.Layout](../../layoutenumerator/)
+* namensraum [Aspose.Words.Layout](../../../aspose.words.layout/)
 * Montage [Aspose.Words](../../../)
-
-

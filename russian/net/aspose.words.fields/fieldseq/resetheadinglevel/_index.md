@@ -1,7 +1,9 @@
 ---
 title: FieldSeq.ResetHeadingLevel
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldSeq свойство. Получает или задает целое число представляющее уровень заголовка для сброса порядкового номера. Возвращает 1 если номер отсутствует.
+linktitle: ResetHeadingLevel
+articleTitle: ResetHeadingLevel
+second_title: Aspose.Words для .NET
+description: FieldSeq ResetHeadingLevel свойство. Получает или задает целое число представляющее уровень заголовка для сброса порядкового номера. Возвращает 1 если номер отсутствует на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.fields/fieldseq/resetheadinglevel/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldseq/resetheadinglevel/
 public string ResetHeadingLevel { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает создание нумерации с использованием полей SEQ.
 
@@ -78,7 +80,5 @@ doc.Save(ArtifactsDir + "Field.SEQ.ResetNumbering.docx");
 ### Смотрите также
 
 * class [FieldSeq](../)
-* пространство имен [Aspose.Words.Fields](../../fieldseq/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

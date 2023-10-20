@@ -1,7 +1,9 @@
 ---
 title: MailMergeSettings.LinkToQuery
-second_title: Référence de l'API Aspose.Words pour .NET
-description: MailMergeSettings propriété. Je ne suis pas sûr de celuici. La référence dautomatisation de Microsoft Word suggère que cela spécifie que la requête est exécutée chaque fois que le document est ouvert dans Microsoft Word. Mais la spécification OOXML suggère que cela spécifie que la requête contient une référence à un fichier de requête externe qui contient la requête réelle. La valeur par défaut estFAUX .
+linktitle: LinkToQuery
+articleTitle: LinkToQuery
+second_title: Aspose.Words pour .NET
+description: MailMergeSettings LinkToQuery propriété. Je ne suis pas sûr de celuici. La référence dautomatisation de Microsoft Word suggère que cela spécifie que la requête est exécutée chaque fois que le document est ouvert dans Microsoft Word. Mais la spécification OOXML suggère que cela spécifie que la requête contient une référence à un fichier de requête externe qui contient la requête réelle. La valeur par défaut estFAUX  en C#.
 type: docs
 weight: 110
 url: /fr/net/aspose.words.settings/mailmergesettings/linktoquery/
@@ -14,7 +16,7 @@ Je ne suis pas sûr de celui-ci. La référence d'automatisation de Microsoft Wo
 public bool LinkToQuery { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment exécuter un publipostage avec des données provenant d’un objet source de données Office.
 
@@ -66,7 +68,5 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ### Voir également
 
 * class [MailMergeSettings](../)
-* espace de noms [Aspose.Words.Settings](../../mailmergesettings/)
+* espace de noms [Aspose.Words.Settings](../../../aspose.words.settings/)
 * Assemblée [Aspose.Words](../../../)
-
-

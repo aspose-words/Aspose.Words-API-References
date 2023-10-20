@@ -1,7 +1,9 @@
 ---
-title: Enum MergeFieldImageDimensionUnit
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Fields.MergeFieldImageDimensionUnit opsomming. Gibt eine Einheit einer Bildabmessung z. B. Breite oder Höhe an die in einem Serienbriefprozess verwendet wird.
+title: MergeFieldImageDimensionUnit Enum
+linktitle: MergeFieldImageDimensionUnit
+articleTitle: MergeFieldImageDimensionUnit
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Fields.MergeFieldImageDimensionUnit opsomming. Gibt eine Einheit einer Bildabmessung z. B. Breite oder Höhe an die in einem Serienbriefprozess verwendet wird in C#.
 type: docs
 weight: 2760
 url: /de/net/aspose.words.fields/mergefieldimagedimensionunit/
@@ -21,7 +23,7 @@ public enum MergeFieldImageDimensionUnit
 | Point | `0` | Der Punkt (dh 1/72 Zoll). |
 | Percent | `1` | Der Prozentsatz des ursprünglichen Bilddimensionswerts. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Abmessungen von Bildern festgelegt werden, wenn MERGEFIELDS sie während eines Seriendrucks akzeptiert.
 
@@ -92,5 +94,3 @@ private class MergedImageResizer : IFieldMergingCallback
 
 * namensraum [Aspose.Words.Fields](../../aspose.words.fields/)
 * Montage [Aspose.Words](../../)
-
-

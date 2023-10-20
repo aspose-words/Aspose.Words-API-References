@@ -1,7 +1,9 @@
 ---
 title: FieldDatabase.Connection
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldDatabase propiedad. Obtiene o establece una conexión a los datos.
+linktitle: Connection
+articleTitle: Connection
+second_title: Aspose.Words para .NET
+description: FieldDatabase Connection propiedad. Obtiene o establece una conexión a los datos en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words.fields/fielddatabase/connection/
@@ -14,7 +16,7 @@ Obtiene o establece una conexión a los datos.
 public string Connection { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo extraer datos de una base de datos e insertarlos como un campo en un documento.
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "Field.DATABASE.docx");
 ### Ver también
 
 * class [FieldDatabase](../)
-* espacio de nombres [Aspose.Words.Fields](../../fielddatabase/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

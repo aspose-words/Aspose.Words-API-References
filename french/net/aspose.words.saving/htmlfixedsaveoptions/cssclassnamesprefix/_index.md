@@ -1,7 +1,9 @@
 ---
 title: HtmlFixedSaveOptions.CssClassNamesPrefix
-second_title: Référence de l'API Aspose.Words pour .NET
-description: HtmlFixedSaveOptions propriété. Spécifie le préfixe qui est ajouté à tous les noms de classe dans le fichier style.css. La valeur par défaut estoh .
+linktitle: CssClassNamesPrefix
+articleTitle: CssClassNamesPrefix
+second_title: Aspose.Words pour .NET
+description: HtmlFixedSaveOptions CssClassNamesPrefix propriété. Spécifie le préfixe qui est ajouté à tous les noms de classe dans le fichier style.css. La valeur par défaut estoh  en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.saving/htmlfixedsaveoptions/cssclassnamesprefix/
@@ -14,7 +16,7 @@ Spécifie le préfixe qui est ajouté à tous les noms de classe dans le fichier
 public string CssClassNamesPrefix { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment placer CSS dans un fichier séparé et ajouter un préfixe à tous ses noms de classe CSS.
 
@@ -46,7 +48,5 @@ Assert.True(Regex.Match(outDocContents,
 ### Voir également
 
 * class [HtmlFixedSaveOptions](../)
-* espace de noms [Aspose.Words.Saving](../../htmlfixedsaveoptions/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

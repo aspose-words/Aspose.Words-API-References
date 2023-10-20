@@ -1,7 +1,9 @@
 ---
 title: Table.DistanceTop
-second_title: Aspose.Words لمراجع .NET API
-description: Table ملكية. الحصول على أو تعيين المسافة بين سطح الطاولة والنص المحيط بالنقاط.
+linktitle: DistanceTop
+articleTitle: DistanceTop
+second_title: Aspose.Words لـ .NET
+description: Table DistanceTop ملكية. الحصول على أو تعيين المسافة بين سطح الطاولة والنص المحيط بالنقاط في C#.
 type: docs
 weight: 150
 url: /ar/net/aspose.words.tables/table/distancetop/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.tables/table/distancetop/
 public double DistanceTop { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية ضبط المسافة بين حدود الجدول والنص.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "Table.DistanceBetweenTableAndText.docx");
 ### أنظر أيضا
 
 * class [Table](../)
-* مساحة الاسم [Aspose.Words.Tables](../../table/)
+* مساحة الاسم [Aspose.Words.Tables](../../../aspose.words.tables/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,9 +1,11 @@
 ---
 title: ChartAxisTitle.Overlay
-second_title: Aspose.Words för .NET API Referens
-description: ChartAxisTitle fast egendom. Bestämmer om andra diagramelement ska tillåtas överlappa titeln. Standardvärdet ärfalsk .
+linktitle: Overlay
+articleTitle: Overlay
+second_title: Aspose.Words för .NET
+description: ChartAxisTitle Overlay fast egendom. Bestämmer om andra diagramelement ska tillåtas överlappa titeln. Standardvärdet ärfalsk  i C#.
 type: docs
-weight: 20
+weight: 10
 url: /sv/net/aspose.words.drawing.charts/chartaxistitle/overlay/
 ---
 ## ChartAxisTitle.Overlay property
@@ -14,7 +16,7 @@ Bestämmer om andra diagramelement ska tillåtas överlappa titeln. Standardvär
 public bool Overlay { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man ställer in diagramaxelns titel.
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "Charts.ChartAxisTitle.docx");
 ### Se även
 
 * class [ChartAxisTitle](../)
-* namnutrymme [Aspose.Words.Drawing.Charts](../../chartaxistitle/)
+* namnutrymme [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../../)
-
-

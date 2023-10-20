@@ -1,9 +1,11 @@
 ---
 title: DocumentBuilder.InsertTextInput
-second_title: Aspose.Words for .NET API 参考
-description: DocumentBuilder 方法. 在当前位置插入文本表单字段
+linktitle: InsertTextInput
+articleTitle: InsertTextInput
+second_title: 用于 .NET 的 Aspose.Words
+description: DocumentBuilder InsertTextInput 方法. 在当前位置插入文本表单字段 在 C#.
 type: docs
-weight: 480
+weight: 470
 url: /zh/net/aspose.words/documentbuilder/inserttextinput/
 ---
 ## DocumentBuilder.InsertTextInput method
@@ -27,11 +29,11 @@ public FormField InsertTextInput(string name, TextFormFieldType type, string for
 
 刚刚插入的表单字段节点。
 
-### 评论
+## 评论
 
 如果您为表单字段指定名称，则会自动创建同名的书签。
 
-### 例子
+## 例子
 
 演示如何将文本输入表单字段插入到文档中。
 
@@ -90,7 +92,5 @@ builder.Document.Save(ArtifactsDir + "DocumentBuilder.CreateForm.docx");
 * class [FormField](../../../aspose.words.fields/formfield/)
 * enum [TextFormFieldType](../../../aspose.words.fields/textformfieldtype/)
 * class [DocumentBuilder](../)
-* 命名空间 [Aspose.Words](../../documentbuilder/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Document.GrammarChecked
-second_title: Aspose.Words for .NET API 参考
-description: Document 财产. 返回真的如果文档已经过语法检查
+linktitle: GrammarChecked
+articleTitle: GrammarChecked
+second_title: 用于 .NET 的 Aspose.Words
+description: Document GrammarChecked 财产. 返回真的如果文档已经过语法检查 在 C#.
 type: docs
 weight: 180
 url: /zh/net/aspose.words/document/grammarchecked/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words/document/grammarchecked/
 public bool GrammarChecked { get; set; }
 ```
 
-### 评论
+## 评论
 
 要重新检查文档中的语法，请将此属性设置为`错误的`.
 
-### 例子
+## 例子
 
 演示如何设置拼写或语法验证。
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "Document.SpellingOrGrammar.docx");
 ### 也可以看看
 
 * class [Document](../)
-* 命名空间 [Aspose.Words](../../document/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

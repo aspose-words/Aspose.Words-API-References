@@ -1,7 +1,9 @@
 ---
-title: Enum StoryType
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.StoryType opsomming. Text eines WordDokuments wird in Storys gespeichert.StoryType identifiziert eine Geschichte.
+title: StoryType Enum
+linktitle: StoryType
+articleTitle: StoryType
+second_title: Aspose.Words für .NET
+description: Aspose.Words.StoryType opsomming. Text eines WordDokuments wird in Storys gespeichert.StoryType identifiziert eine Geschichte in C#.
 type: docs
 weight: 6120
 url: /de/net/aspose.words/storytype/
@@ -37,7 +39,7 @@ public enum StoryType
 | EndnoteContinuationSeparator | `16` | Enthält den Text des Endnoten-Fortsetzungstrennzeichens, dargestellt durchFootnoteSeparator . |
 | EndnoteContinuationNotice | `17` | Enthält den Text des Endnoten-Fortsetzungshinweistrennzeichens, dargestellt durchFootnoteSeparator . |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie alle Formen von einem Knoten entfernt werden.
 
@@ -62,5 +64,3 @@ Assert.AreEqual(0, doc.GetChildNodes(NodeType.Shape, true).Count);
 
 * namensraum [Aspose.Words](../../aspose.words/)
 * Montage [Aspose.Words](../../)
-
-

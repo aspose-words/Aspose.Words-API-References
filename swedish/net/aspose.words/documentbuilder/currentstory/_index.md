@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.CurrentStory
-second_title: Aspose.Words för .NET API Referens
-description: DocumentBuilder fast egendom. Hämtar berättelsen som för närvarande är vald i dennaDocumentBuilder .
+linktitle: CurrentStory
+articleTitle: CurrentStory
+second_title: Aspose.Words för .NET
+description: DocumentBuilder CurrentStory fast egendom. Hämtar berättelsen som för närvarande är vald i dennaDocumentBuilder  i C#.
 type: docs
 weight: 70
 url: /sv/net/aspose.words/documentbuilder/currentstory/
@@ -14,7 +16,7 @@ Hämtar berättelsen som för närvarande är vald i denna[`DocumentBuilder`](..
 public Story CurrentStory { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med en dokumentbyggares aktuella historia.
 
@@ -44,7 +46,5 @@ Assert.IsTrue(builder.CurrentStory.Tables.Contains(table));
 
 * class [Story](../../story/)
 * class [DocumentBuilder](../)
-* namnutrymme [Aspose.Words](../../documentbuilder/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

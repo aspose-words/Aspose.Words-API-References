@@ -1,7 +1,9 @@
 ---
-title: Enum PageBorderDistanceFrom
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.PageBorderDistanceFrom opsomming. Gibt die Positionierung des Seitenrandes relativ zum Seitenrand an.
+title: PageBorderDistanceFrom Enum
+linktitle: PageBorderDistanceFrom
+articleTitle: PageBorderDistanceFrom
+second_title: Aspose.Words für .NET
+description: Aspose.Words.PageBorderDistanceFrom opsomming. Gibt die Positionierung des Seitenrandes relativ zum Seitenrand an in C#.
 type: docs
 weight: 4350
 url: /de/net/aspose.words/pageborderdistancefrom/
@@ -21,7 +23,7 @@ public enum PageBorderDistanceFrom
 | Text | `0` | Die Randposition wird vom Seitenrand aus gemessen. |
 | PageEdge | `1` | Die Randposition wird vom Seitenrand aus gemessen. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man oben auf der ersten Seite einen breiten blauen Bandrand erstellt.
 
@@ -48,5 +50,3 @@ doc.Save(ArtifactsDir + "PageSetup.PageBorderProperties.docx");
 * property [BorderDistanceFrom](../pagesetup/borderdistancefrom/)
 * namensraum [Aspose.Words](../../aspose.words/)
 * Montage [Aspose.Words](../../)
-
-

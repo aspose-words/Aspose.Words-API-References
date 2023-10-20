@@ -1,7 +1,9 @@
 ---
 title: DocumentPropertyCollection.IndexOf
-second_title: Aspose.Words per .NET API Reference
-description: DocumentPropertyCollection metodo. Ottiene lindice di una proprietà per nome.
+linktitle: IndexOf
+articleTitle: IndexOf
+second_title: Aspose.Words per .NET
+description: DocumentPropertyCollection IndexOf metodo. Ottiene lindice di una proprietà per nome in C#.
 type: docs
 weight: 60
 url: /it/net/aspose.words.properties/documentpropertycollection/indexof/
@@ -22,7 +24,7 @@ public int IndexOf(string name)
 
 L'indice a base zero. Valore negativo se non trovato.
 
-### Esempi
+## Esempi
 
 Mostra come utilizzare le proprietà personalizzate di un documento.
 
@@ -82,7 +84,5 @@ Assert.AreEqual(0, properties.Count);
 ### Guarda anche
 
 * class [DocumentPropertyCollection](../)
-* spazio dei nomi [Aspose.Words.Properties](../../documentpropertycollection/)
+* spazio dei nomi [Aspose.Words.Properties](../../../aspose.words.properties/)
 * assemblea [Aspose.Words](../../../)
-
-

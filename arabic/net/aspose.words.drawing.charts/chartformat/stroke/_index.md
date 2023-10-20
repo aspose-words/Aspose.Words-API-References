@@ -1,9 +1,11 @@
 ---
 title: ChartFormat.Stroke
-second_title: Aspose.Words لمراجع .NET API
-description: ChartFormat ملكية. الحصول على تنسيق الخط لعنصر المخطط الأصلي.
+linktitle: Stroke
+articleTitle: Stroke
+second_title: Aspose.Words لـ .NET
+description: ChartFormat Stroke ملكية. الحصول على تنسيق الخط لعنصر المخطط الأصلي في C#.
 type: docs
-weight: 40
+weight: 30
 url: /ar/net/aspose.words.drawing.charts/chartformat/stroke/
 ---
 ## ChartFormat.Stroke property
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing.charts/chartformat/stroke/
 public Stroke Stroke { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 أظهر كيفية ضبط تنسيق العلامة.
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "Charts.MarkerFormatting.docx");
 
 * class [Stroke](../../../aspose.words.drawing/stroke/)
 * class [ChartFormat](../)
-* مساحة الاسم [Aspose.Words.Drawing.Charts](../../chartformat/)
+* مساحة الاسم [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../../)
-
-

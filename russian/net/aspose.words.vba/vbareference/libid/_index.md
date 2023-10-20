@@ -1,7 +1,9 @@
 ---
 title: VbaReference.LibId
-second_title: Справочник по API Aspose.Words для .NET
-description: VbaReference свойство. Получает строковое значение содержащее идентификатор библиотеки типов автоматизации.
+linktitle: LibId
+articleTitle: LibId
+second_title: Aspose.Words для .NET
+description: VbaReference LibId свойство. Получает строковое значение содержащее идентификатор библиотеки типов автоматизации на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.vba/vbareference/libid/
@@ -14,14 +16,14 @@ url: /ru/net/aspose.words.vba/vbareference/libid/
 public abstract string LibId { get; }
 ```
 
-### Примечания
+## Примечания
 
 В зависимости от типа ссылки значение этого свойства может быть:
 
 * LibidReference, указанный в 2.1.1.8 LibidReference [MS-OVBA]: https://docs.microsoft.com/en-us/openspecs/office_file_formats/ms-ovba/3737ef6e-d819-4186-a5f2-6e258ddf66a5
 * ProjectReference, указанный в 2.1.1.12 ProjectReference [MS-OVBA]: https://docs.microsoft.com/en-us/openspecs/office_file_formats/ms-ovba/9a45ac1a-f1ff-4ebd-958e-537701aa8131
 
-### Примеры
+## Примеры
 
 Показывает, как получить или удалить элемент из коллекции ссылок VBA.
 
@@ -95,7 +97,5 @@ private static string GetLibIdProjectPath(string libIdProject)
 ### Смотрите также
 
 * class [VbaReference](../)
-* пространство имен [Aspose.Words.Vba](../../vbareference/)
+* пространство имен [Aspose.Words.Vba](../../../aspose.words.vba/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ConditionalStyleCollection.Item
-second_title: Справочник по API Aspose.Words для .NET
-description: ConditionalStyleCollection свойство. ПолучаетConditionalStyle объект по типу условного стиля.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words для .NET
+description: ConditionalStyleCollection Item свойство. ПолучаетConditionalStyle объект по типу условного стиля на С#.
 type: docs
 weight: 80
 url: /ru/net/aspose.words/conditionalstylecollection/item/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/conditionalstylecollection/item/
 public ConditionalStyle this[ConditionalStyleType conditionalStyleType] { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как работать с определенными стилями областей таблицы.
 
@@ -86,7 +88,7 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 * class [ConditionalStyle](../../conditionalstyle/)
 * enum [ConditionalStyleType](../../conditionalstyletype/)
 * class [ConditionalStyleCollection](../)
-* пространство имен [Aspose.Words](../../conditionalstylecollection/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
 
 ---
@@ -103,7 +105,7 @@ public ConditionalStyle this[int index] { get; }
 | --- | --- |
 | index | Отсчитываемый от нуля индекс условного стиля, который требуется получить. |
 
-### Примеры
+## Примеры
 
 Показывает, как работать с определенными стилями областей таблицы.
 
@@ -174,7 +176,5 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 
 * class [ConditionalStyle](../../conditionalstyle/)
 * class [ConditionalStyleCollection](../)
-* пространство имен [Aspose.Words](../../conditionalstylecollection/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: TableStyle.VerticalAlignment
-second_title: Справочник по API Aspose.Words для .NET
-description: TableStyle свойство. Определяет вертикальное выравнивание ячеек.
+linktitle: VerticalAlignment
+articleTitle: VerticalAlignment
+second_title: Aspose.Words для .NET
+description: TableStyle VerticalAlignment свойство. Определяет вертикальное выравнивание ячеек на С#.
 type: docs
 weight: 150
 url: /ru/net/aspose.words/tablestyle/verticalalignment/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words/tablestyle/verticalalignment/
 public CellVerticalAlignment VerticalAlignment { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Значение по умолчанию:Top .
 
-### Примеры
+## Примеры
 
 Показывает, как создать пользовательские настройки стиля для таблицы.
 
@@ -63,7 +65,5 @@ doc.Save(ArtifactsDir + "Table.TableStyleCreation.docx");
 
 * enum [CellVerticalAlignment](../../../aspose.words.tables/cellverticalalignment/)
 * class [TableStyle](../)
-* пространство имен [Aspose.Words](../../tablestyle/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

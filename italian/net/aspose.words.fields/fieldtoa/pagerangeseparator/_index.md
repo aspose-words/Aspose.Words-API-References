@@ -1,7 +1,9 @@
 ---
 title: FieldToa.PageRangeSeparator
-second_title: Aspose.Words per .NET API Reference
-description: FieldToa proprietà. Ottiene o imposta la sequenza di caratteri utilizzata per separare linizio e la fine di un intervallo di pagine.
+linktitle: PageRangeSeparator
+articleTitle: PageRangeSeparator
+second_title: Aspose.Words per .NET
+description: FieldToa PageRangeSeparator proprietà. Ottiene o imposta la sequenza di caratteri utilizzata per separare linizio e la fine di un intervallo di pagine in C#.
 type: docs
 weight: 60
 url: /it/net/aspose.words.fields/fieldtoa/pagerangeseparator/
@@ -14,7 +16,7 @@ Ottiene o imposta la sequenza di caratteri utilizzata per separare l'inizio e la
 public string PageRangeSeparator { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come creare e personalizzare una tabella di autorità utilizzando i campi TOA e TA.
 
@@ -137,7 +139,5 @@ private static FieldTA InsertToaEntry(DocumentBuilder builder, string entryCateg
 ### Guarda anche
 
 * class [FieldToa](../)
-* spazio dei nomi [Aspose.Words.Fields](../../fieldtoa/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

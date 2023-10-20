@@ -1,7 +1,9 @@
 ---
 title: FontSubstitutionSettings.DefaultFontSubstitution
-second_title: Referencia de API de Aspose.Words para .NET
-description: FontSubstitutionSettings propiedad. Configuraciones relacionadas con la regla de sustitución de fuentes predeterminada.
+linktitle: DefaultFontSubstitution
+articleTitle: DefaultFontSubstitution
+second_title: Aspose.Words para .NET
+description: FontSubstitutionSettings DefaultFontSubstitution propiedad. Configuraciones relacionadas con la regla de sustitución de fuentes predeterminada en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words.fonts/fontsubstitutionsettings/defaultfontsubstitution/
@@ -14,7 +16,7 @@ Configuraciones relacionadas con la regla de sustitución de fuentes predetermin
 public DefaultFontSubstitutionRule DefaultFontSubstitution { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo configurar la regla de sustitución de fuentes predeterminada.
 
@@ -47,7 +49,5 @@ doc.Save(ArtifactsDir + "FontSettings.DefaultFontSubstitutionRule.pdf");
 
 * class [DefaultFontSubstitutionRule](../../defaultfontsubstitutionrule/)
 * class [FontSubstitutionSettings](../)
-* espacio de nombres [Aspose.Words.Fonts](../../fontsubstitutionsettings/)
+* espacio de nombres [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * asamblea [Aspose.Words](../../../)
-
-

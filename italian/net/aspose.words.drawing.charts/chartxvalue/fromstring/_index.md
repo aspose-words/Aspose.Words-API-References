@@ -1,7 +1,9 @@
 ---
 title: ChartXValue.FromString
-second_title: Aspose.Words per .NET API Reference
-description: ChartXValue metodo. Crea unChartXValue istanza delString tipo.
+linktitle: FromString
+articleTitle: FromString
+second_title: Aspose.Words per .NET
+description: ChartXValue FromString metodo. Crea unChartXValue istanza delString tipo in C#.
 type: docs
 weight: 40
 url: /it/net/aspose.words.drawing.charts/chartxvalue/fromstring/
@@ -14,7 +16,7 @@ Crea un[`ChartXValue`](../) istanza delString tipo.
 public static ChartXValue FromString(string value)
 ```
 
-### Esempi
+## Esempi
 
 Mostra come aggiungere/rimuovere i valori dei dati del grafico.
 
@@ -42,7 +44,5 @@ doc.Save(ArtifactsDir + "Charts.ChartDataValues.docx");
 ### Guarda anche
 
 * class [ChartXValue](../)
-* spazio dei nomi [Aspose.Words.Drawing.Charts](../../chartxvalue/)
+* spazio dei nomi [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * assemblea [Aspose.Words](../../../)
-
-

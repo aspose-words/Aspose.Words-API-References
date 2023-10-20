@@ -1,7 +1,9 @@
 ---
 title: INodeChangingCallback.NodeRemoving
-second_title: Aspose.Words för .NET API Referens
-description: INodeChangingCallback metod. Anropas precis innan en nod som tillhör detta dokument är på väg att tas bort från dokumentet.
+linktitle: NodeRemoving
+articleTitle: NodeRemoving
+second_title: Aspose.Words för .NET
+description: INodeChangingCallback NodeRemoving metod. Anropas precis innan en nod som tillhör detta dokument är på väg att tas bort från dokumentet i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words/inodechangingcallback/noderemoving/
@@ -14,7 +16,7 @@ Anropas precis innan en nod som tillhör detta dokument är på väg att tas bor
 public void NodeRemoving(NodeChangingArgs args)
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du anpassar nodbyte med en återuppringning.
 
@@ -92,7 +94,5 @@ public class HandleNodeChangingFontChanger : INodeChangingCallback
 
 * class [NodeChangingArgs](../../nodechangingargs/)
 * interface [INodeChangingCallback](../)
-* namnutrymme [Aspose.Words](../../inodechangingcallback/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

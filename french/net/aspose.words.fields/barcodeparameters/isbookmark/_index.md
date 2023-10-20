@@ -1,7 +1,9 @@
 ---
 title: BarcodeParameters.IsBookmark
-second_title: Référence de l'API Aspose.Words pour .NET
-description: BarcodeParameters propriété. Que ce soitPostalAddress est le nom dun signet.
+linktitle: IsBookmark
+articleTitle: IsBookmark
+second_title: Aspose.Words pour .NET
+description: BarcodeParameters IsBookmark propriété. Que ce soitPostalAddress est le nom dun signet en C#.
 type: docs
 weight: 120
 url: /fr/net/aspose.words.fields/barcodeparameters/isbookmark/
@@ -14,7 +16,7 @@ Que ce soit[`PostalAddress`](../postaladdress/) est le nom d'un signet.
 public bool IsBookmark { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment utiliser un générateur de codes-barres.
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.docx");
 ### Voir également
 
 * class [BarcodeParameters](../)
-* espace de noms [Aspose.Words.Fields](../../barcodeparameters/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: SvgSaveOptions.ResourcesFolder
-second_title: Справочник по API Aspose.Words для .NET
-description: SvgSaveOptions свойство. Указывает физическую папку в которой сохраняются ресурсы изображения при экспорте документа в формат Svg. Значение по умолчаниюнулевой .
+linktitle: ResourcesFolder
+articleTitle: ResourcesFolder
+second_title: Aspose.Words для .NET
+description: SvgSaveOptions ResourcesFolder свойство. Указывает физическую папку в которой сохраняются ресурсы изображения при экспорте документа в формат Svg. Значение по умолчаниюнулевой  на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.saving/svgsaveoptions/resourcesfolder/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.saving/svgsaveoptions/resourcesfolder/
 public string ResourcesFolder { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Имеет эффект только в том случае, если[`ExportEmbeddedImages`](../exportembeddedimages/) собственность`ЛОЖЬ`.
 
@@ -24,7 +26,7 @@ public string ResourcesFolder { get; set; }
 
 Если вы сохраняете документ в поток, Aspose.Words не имеет папки для сохранения изображений, , но все равно необходимо где-то сохранять изображения. В этом случае вам необходимо указать доступную папку в поле`ResourcesFolder` свойство
 
-### Примеры
+## Примеры
 
 Показывает, как манипулировать и печатать URI связанных ресурсов, созданных при преобразовании документа в SVG.
 
@@ -67,7 +69,5 @@ private class ResourceUriPrinter : IResourceSavingCallback
 ### Смотрите также
 
 * class [SvgSaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../svgsaveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

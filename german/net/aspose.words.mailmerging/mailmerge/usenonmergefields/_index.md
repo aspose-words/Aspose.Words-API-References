@@ -1,7 +1,9 @@
 ---
 title: MailMerge.UseNonMergeFields
-second_title: Aspose.Words für .NET-API-Referenz
-description: MailMerge eigendom. WannWAHR  gibt an dass der Seriendruck zusätzlich zu MERGEFIELDFeldern auch in einigen anderen Feldtypen und auch in fieldNameTags durchgeführt wird.
+linktitle: UseNonMergeFields
+articleTitle: UseNonMergeFields
+second_title: Aspose.Words für .NET
+description: MailMerge UseNonMergeFields eigendom. WannWAHR  gibt an dass der Seriendruck zusätzlich zu MERGEFIELDFeldern auch in einigen anderen Feldtypen und auch in fieldNameTags durchgeführt wird in C#.
 type: docs
 weight: 150
 url: /de/net/aspose.words.mailmerging/mailmerge/usenonmergefields/
@@ -14,7 +16,7 @@ Wann`WAHR` , gibt an, dass der Seriendruck zusätzlich zu MERGEFIELD-Feldern auc
 public bool UseNonMergeFields { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Normalerweise wird der Seriendruck nur in MERGEFIELD-Feldern durchgeführt, aber bei mehreren Kunden wurde das Reporting mit anderen Feldern erstellt und viele Dokumente wurden auf diese Weise erstellt. Um die Migration zu vereinfachen (und weil dieser -Ansatz von mehreren Kunden unabhängig voneinander verwendet wurde), wurde die Möglichkeit eingeführt, Serienbriefe in andere Felder zu übertragen.
 
@@ -28,7 +30,7 @@ WENN 0 = 0 „{FieldName}“ „“
 
 Auch wann`UseNonMergeFields` ist eingestellt auf`WAHR`, Aspose.Words führt einen Seriendruck in Text-Tags „{{fieldName}}“ durch. Dabei handelt es sich nicht um Felder, sondern nur um Text-Tags.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie das Erscheinungsbild alternativer Seriendruck-Tags erhalten bleibt, die während eines Seriendrucks nicht verwendet werden.
 
@@ -92,7 +94,5 @@ private static DataTable CreateSourceTablePreserveUnusedTags()
 ### Siehe auch
 
 * class [MailMerge](../)
-* namensraum [Aspose.Words.MailMerging](../../mailmerge/)
+* namensraum [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * Montage [Aspose.Words](../../../)
-
-

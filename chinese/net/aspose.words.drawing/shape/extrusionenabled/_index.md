@@ -1,7 +1,9 @@
 ---
 title: Shape.ExtrusionEnabled
-second_title: Aspose.Words for .NET API 参考
-description: Shape 财产. 返回真的如果启用挤压效果.
+linktitle: ExtrusionEnabled
+articleTitle: ExtrusionEnabled
+second_title: 用于 .NET 的 Aspose.Words
+description: Shape ExtrusionEnabled 财产. 返回真的如果启用挤压效果 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.drawing/shape/extrusionenabled/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.drawing/shape/extrusionenabled/
 public bool ExtrusionEnabled { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何迭代文档中的所有形状。
 
@@ -137,7 +139,5 @@ private class ShapeAppearancePrinter : DocumentVisitor
 ### 也可以看看
 
 * class [Shape](../)
-* 命名空间 [Aspose.Words.Drawing](../../shape/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

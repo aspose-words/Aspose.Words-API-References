@@ -1,7 +1,9 @@
 ---
 title: FieldPageRef.InsertRelativePosition
-second_title: Aspose.Words for .NET API 参考
-description: FieldPageRef 财产. 获取或设置是否插入书签段落的相对位置
+linktitle: InsertRelativePosition
+articleTitle: InsertRelativePosition
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldPageRef InsertRelativePosition 财产. 获取或设置是否插入书签段落的相对位置 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.fields/fieldpageref/insertrelativeposition/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fieldpageref/insertrelativeposition/
 public bool InsertRelativePosition { get; set; }
 ```
 
-### 例子
+## 例子
 
 显示插入 PAGEREF 字段以显示书签的相对位置。
 
@@ -84,7 +86,5 @@ private static void InsertAndNameBookmark(DocumentBuilder builder, string bookma
 ### 也可以看看
 
 * class [FieldPageRef](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldpageref/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

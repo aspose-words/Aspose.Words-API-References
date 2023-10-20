@@ -1,7 +1,9 @@
 ---
-title: Enum TxtExportHeadersFootersMode
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Saving.TxtExportHeadersFootersMode enum. Specifica il modo in cui le intestazioni e i piè di pagina vengono esportati in formato testo normale.
+title: TxtExportHeadersFootersMode Enum
+linktitle: TxtExportHeadersFootersMode
+articleTitle: TxtExportHeadersFootersMode
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Saving.TxtExportHeadersFootersMode enum. Specifica il modo in cui le intestazioni e i piè di pagina vengono esportati in formato testo normale in C#.
 type: docs
 weight: 5640
 url: /it/net/aspose.words.saving/txtexportheadersfootersmode/
@@ -22,7 +24,7 @@ public enum TxtExportHeadersFootersMode
 | PrimaryOnly | `1` | All'inizio e alla fine di ogni sezione vengono esportati solo le intestazioni e i piè di pagina primari. |
 | AllAtEnd | `2` | Tutte le intestazioni e i piè di pagina vengono posizionati dopo tutti i corpi delle sezioni alla fine di un documento. |
 
-### Esempi
+## Esempi
 
 Mostra come specificare come esportare intestazioni e piè di pagina in formato testo normale.
 
@@ -94,5 +96,3 @@ switch (txtExportHeadersFootersMode)
 
 * spazio dei nomi [Aspose.Words.Saving](../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../)
-
-

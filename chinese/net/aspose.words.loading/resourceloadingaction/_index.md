@@ -1,7 +1,9 @@
 ---
-title: Enum ResourceLoadingAction
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Loading.ResourceLoadingAction 枚举. 指定资源加载模式
+title: ResourceLoadingAction Enum
+linktitle: ResourceLoadingAction
+articleTitle: ResourceLoadingAction
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Loading.ResourceLoadingAction 枚举. 指定资源加载模式 在 C#.
 type: docs
 weight: 3680
 url: /zh/net/aspose.words.loading/resourceloadingaction/
@@ -24,7 +26,7 @@ public enum ResourceLoadingAction
 | Skip | `1` | Aspose.Words 将跳过此资源的加载。 图像只会存储没有数据的链接，HTML 格式将忽略 CSS 样式表。 |
 | UserProvided | `2` | Aspose.Words 将使用用户提供的字节数组[`SetData`](../resourceloadingargs/setdata/)作为资源数据. |
 
-### 例子
+## 例子
 
 演示如何自定义将外部资源加载到文档中的过程。
 
@@ -88,5 +90,3 @@ private class ImageNameHandler : IResourceLoadingCallback
 
 * 命名空间 [Aspose.Words.Loading](../../aspose.words.loading/)
 * 部件 [Aspose.Words](../../)
-
-

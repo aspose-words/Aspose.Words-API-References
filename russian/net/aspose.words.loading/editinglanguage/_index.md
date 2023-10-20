@@ -1,7 +1,9 @@
 ---
-title: Enum EditingLanguage
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Loading.EditingLanguage перечисление. Указывает язык редактирования.
+title: EditingLanguage Enum
+linktitle: EditingLanguage
+articleTitle: EditingLanguage
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Loading.EditingLanguage перечисление. Указывает язык редактирования на С#.
 type: docs
 weight: 3600
 url: /ru/net/aspose.words.loading/editinglanguage/
@@ -246,7 +248,7 @@ public enum EditingLanguage
 | Yiddish | `1085` |  |
 | Yoruba | `1130` |  |
 
-### Примеры
+## Примеры
 
 Показывает, как применить языковые настройки при загрузке документа.
 
@@ -266,5 +268,3 @@ Console.WriteLine(localeIdFarEast == (int)EditingLanguage.Japanese
 
 * пространство имен [Aspose.Words.Loading](../../aspose.words.loading/)
 * сборка [Aspose.Words](../../)
-
-

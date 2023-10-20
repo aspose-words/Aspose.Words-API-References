@@ -1,7 +1,9 @@
 ---
 title: BaseWebExtensionCollection1.Clear
-second_title: Aspose.Words for .NET API 参考
-description: BaseWebExtensionCollection 方法. 从集合中删除所有元素
+linktitle: Clear
+articleTitle: Clear
+second_title: 用于 .NET 的 Aspose.Words
+description: BaseWebExtensionCollection Clear 方法. 从集合中删除所有元素 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.webextensions/basewebextensioncollection-1/clear/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.webextensions/basewebextensioncollection-1/clear/
 public void Clear()
 ```
 
-### 例子
+## 例子
 
 演示如何向文档添加 Web 扩展。
 
@@ -59,7 +61,5 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 ### 也可以看看
 
 * class [BaseWebExtensionCollection&lt;T&gt;](../)
-* 命名空间 [Aspose.Words.WebExtensions](../../basewebextensioncollection-1/)
+* 命名空间 [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * 部件 [Aspose.Words](../../../)
-
-

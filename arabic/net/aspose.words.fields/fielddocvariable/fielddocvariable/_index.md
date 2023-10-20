@@ -1,7 +1,9 @@
 ---
-title: FieldDocVariable.FieldDocVariable
-second_title: Aspose.Words لمراجع .NET API
-description: FieldDocVariable البناء. Default_Constructor
+title: FieldDocVariable
+linktitle: FieldDocVariable
+articleTitle: FieldDocVariable
+second_title: Aspose.Words لـ .NET
+description: FieldDocVariable البناء. Default_Constructor في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fields/fielddocvariable/fielddocvariable/
@@ -17,7 +19,5 @@ public FieldDocVariable()
 ### أنظر أيضا
 
 * class [FieldDocVariable](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fielddocvariable/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

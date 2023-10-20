@@ -1,7 +1,9 @@
 ---
 title: Bookmark.BookmarkStart
-second_title: Aspose.Words for .NET API 参考
-description: Bookmark 财产. 获取表示书签开头的节点
+linktitle: BookmarkStart
+articleTitle: BookmarkStart
+second_title: 用于 .NET 的 Aspose.Words
+description: Bookmark BookmarkStart 财产. 获取表示书签开头的节点 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words/bookmark/bookmarkstart/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/bookmark/bookmarkstart/
 public BookmarkStart BookmarkStart { get; }
 ```
 
-### 例子
+## 例子
 
 展示如何添加书签并更新其内容。
 
@@ -104,7 +106,5 @@ public class BookmarkInfoPrinter : DocumentVisitor
 
 * class [BookmarkStart](../../bookmarkstart/)
 * class [Bookmark](../)
-* 命名空间 [Aspose.Words](../../bookmark/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

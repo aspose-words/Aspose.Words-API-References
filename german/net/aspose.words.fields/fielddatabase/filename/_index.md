@@ -1,7 +1,9 @@
 ---
 title: FieldDatabase.FileName
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldDatabase eigendom. Ruft den vollständigen Pfad und Dateinamen der Datenbank ab oder legt diesen fest
+linktitle: FileName
+articleTitle: FileName
+second_title: Aspose.Words für .NET
+description: FieldDatabase FileName eigendom. Ruft den vollständigen Pfad und Dateinamen der Datenbank ab oder legt diesen fest in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.fields/fielddatabase/filename/
@@ -14,7 +16,7 @@ Ruft den vollständigen Pfad und Dateinamen der Datenbank ab oder legt diesen fe
 public string FileName { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man Daten aus einer Datenbank extrahiert und als Feld in ein Dokument einfügt.
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "Field.DATABASE.docx");
 ### Siehe auch
 
 * class [FieldDatabase](../)
-* namensraum [Aspose.Words.Fields](../../fielddatabase/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

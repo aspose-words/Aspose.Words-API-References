@@ -1,7 +1,9 @@
 ---
 title: OdsoFieldMapData.Clone
-second_title: Aspose.Words for .NET API 参考
-description: OdsoFieldMapData 方法. 返回此对象的深度克隆
+linktitle: Clone
+articleTitle: Clone
+second_title: 用于 .NET 的 Aspose.Words
+description: OdsoFieldMapData Clone 方法. 返回此对象的深度克隆 在 C#.
 type: docs
 weight: 60
 url: /zh/net/aspose.words.settings/odsofieldmapdata/clone/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.settings/odsofieldmapdata/clone/
 public OdsoFieldMapData Clone()
 ```
 
-### 例子
+## 例子
 
 演示如何访问将数据源列映射到合并字段的数据集合。
 
@@ -57,7 +59,5 @@ Assert.AreEqual(0, dataCollection.Count);
 ### 也可以看看
 
 * class [OdsoFieldMapData](../)
-* 命名空间 [Aspose.Words.Settings](../../odsofieldmapdata/)
+* 命名空间 [Aspose.Words.Settings](../../../aspose.words.settings/)
 * 部件 [Aspose.Words](../../../)
-
-

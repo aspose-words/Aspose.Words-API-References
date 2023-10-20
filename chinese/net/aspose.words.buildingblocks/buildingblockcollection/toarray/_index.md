@@ -1,7 +1,9 @@
 ---
 title: BuildingBlockCollection.ToArray
-second_title: Aspose.Words for .NET API 参考
-description: BuildingBlockCollection 方法. 将集合中的所有构建块复制到新的构建块数组
+linktitle: ToArray
+articleTitle: ToArray
+second_title: 用于 .NET 的 Aspose.Words
+description: BuildingBlockCollection ToArray 方法. 将集合中的所有构建块复制到新的构建块数组 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.buildingblocks/buildingblockcollection/toarray/
@@ -18,7 +20,7 @@ public BuildingBlock[] ToArray()
 
 一系列构建块。
 
-### 例子
+## 例子
 
 显示访问术语表文档中的构建块的方法。
 
@@ -123,7 +125,5 @@ public class GlossaryDocVisitor : DocumentVisitor
 
 * class [BuildingBlock](../../buildingblock/)
 * class [BuildingBlockCollection](../)
-* 命名空间 [Aspose.Words.BuildingBlocks](../../buildingblockcollection/)
+* 命名空间 [Aspose.Words.BuildingBlocks](../../../aspose.words.buildingblocks/)
 * 部件 [Aspose.Words](../../../)
-
-

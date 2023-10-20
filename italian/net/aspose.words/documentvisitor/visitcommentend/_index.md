@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitCommentEnd
-second_title: Aspose.Words per .NET API Reference
-description: DocumentVisitor metodo. Chiamato al termine dellenumerazione del testo di un commento.
+linktitle: VisitCommentEnd
+articleTitle: VisitCommentEnd
+second_title: Aspose.Words per .NET
+description: DocumentVisitor VisitCommentEnd metodo. Chiamato al termine dellenumerazione del testo di un commento in C#.
 type: docs
 weight: 100
 url: /it/net/aspose.words/documentvisitor/visitcommentend/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitCommentEnd(Comment comment)
 
 UN[`VisitorAction`](../../visitoraction/) valore che specifica come continuare l'enumerazione.
 
-### Esempi
+## Esempi
 
 Mostra come stampare la struttura dei nodi di ogni commento e intervallo di commenti in un documento.
 
@@ -143,7 +145,5 @@ public class CommentStructurePrinter : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [Comment](../../comment/)
 * class [DocumentVisitor](../)
-* spazio dei nomi [Aspose.Words](../../documentvisitor/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

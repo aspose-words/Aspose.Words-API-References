@@ -1,7 +1,9 @@
 ---
 title: Font.ThemeFont
-second_title: Referencia de API de Aspose.Words para .NET
-description: Font propiedad. Obtiene o establece la fuente del tema en el esquema de fuente aplicado que está asociado con esteFont objeto.
+linktitle: ThemeFont
+articleTitle: ThemeFont
+second_title: Aspose.Words para .NET
+description: Font ThemeFont propiedad. Obtiene o establece la fuente del tema en el esquema de fuente aplicado que está asociado con esteFont objeto en C#.
 type: docs
 weight: 470
 url: /es/net/aspose.words/font/themefont/
@@ -14,7 +16,7 @@ Obtiene o establece la fuente del tema en el esquema de fuente aplicado que est�
 public ThemeFont ThemeFont { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear y utilizar estilos temáticos.
 
@@ -119,7 +121,5 @@ Assert.AreEqual(Color.Blue.ToArgb(), font.Color.ToArgb());
 
 * enum [ThemeFont](../../../aspose.words.themes/themefont/)
 * class [Font](../)
-* espacio de nombres [Aspose.Words](../../font/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

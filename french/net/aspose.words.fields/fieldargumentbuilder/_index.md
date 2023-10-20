@@ -1,7 +1,9 @@
 ---
-title: Class FieldArgumentBuilder
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Fields.FieldArgumentBuilder classe. Construit un argument de champ complexe composé de champs de nœuds et de texte brut.
+title: FieldArgumentBuilder Class
+linktitle: FieldArgumentBuilder
+articleTitle: FieldArgumentBuilder
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Fields.FieldArgumentBuilder classe. Construit un argument de champ complexe composé de champs de nœuds et de texte brut en C#.
 type: docs
 weight: 1550
 url: /fr/net/aspose.words.fields/fieldargumentbuilder/
@@ -26,11 +28,11 @@ public class FieldArgumentBuilder
 
 | Nom | La description |
 | --- | --- |
-| [AddField](../../aspose.words.fields/fieldargumentbuilder/addfield/)(FieldBuilder) | Ajoute un champ représenté par un[`FieldBuilder`](../fieldbuilder/) à l'argument. |
-| [AddNode](../../aspose.words.fields/fieldargumentbuilder/addnode/)(Inline) | Ajoute un nœud à l'argument. |
-| [AddText](../../aspose.words.fields/fieldargumentbuilder/addtext/)(string) | Ajoute un texte brut à l'argument. |
+| [AddField](../../aspose.words.fields/fieldargumentbuilder/addfield/)(*[FieldBuilder](../fieldbuilder/)*) | Ajoute un champ représenté par un[`FieldBuilder`](../fieldbuilder/) à l'argument. |
+| [AddNode](../../aspose.words.fields/fieldargumentbuilder/addnode/)(*[Inline](../../aspose.words/inline/)*) | Ajoute un nœud à l'argument. |
+| [AddText](../../aspose.words.fields/fieldargumentbuilder/addtext/)(*string*) | Ajoute un texte brut à l'argument. |
 
-### Exemples
+## Exemples
 
 Montre comment construire des champs à l’aide d’un générateur de champs, puis les insérer dans le document.
 
@@ -114,5 +116,3 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 
 * espace de noms [Aspose.Words.Fields](../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../)
-
-

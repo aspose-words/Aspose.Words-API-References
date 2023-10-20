@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ExportListLabels
-second_title: Aspose.Words لمراجع .NET API
-description: HtmlSaveOptions ملكية. يتحكم في كيفية إخراج تسميات القائمة إلى HTML أو MHTML أو EPUB. القيمة الافتراضية هيAuto .
+linktitle: ExportListLabels
+articleTitle: ExportListLabels
+second_title: Aspose.Words لـ .NET
+description: HtmlSaveOptions ExportListLabels ملكية. يتحكم في كيفية إخراج تسميات القائمة إلى HTML أو MHTML أو EPUB. القيمة الافتراضية هيAuto  في C#.
 type: docs
 weight: 190
 url: /ar/net/aspose.words.saving/htmlsaveoptions/exportlistlabels/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.saving/htmlsaveoptions/exportlistlabels/
 public ExportListLabels ExportListLabels { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تكوين قائمة التصدير إلى HTML.
 
@@ -101,7 +103,5 @@ switch (exportListLabels)
 
 * enum [ExportListLabels](../../exportlistlabels/)
 * class [HtmlSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../htmlsaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

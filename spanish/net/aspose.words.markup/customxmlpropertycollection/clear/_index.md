@@ -1,7 +1,9 @@
 ---
 title: CustomXmlPropertyCollection.Clear
-second_title: Referencia de API de Aspose.Words para .NET
-description: CustomXmlPropertyCollection método. Elimina todos los elementos de la colección.
+linktitle: Clear
+articleTitle: Clear
+second_title: Aspose.Words para .NET
+description: CustomXmlPropertyCollection Clear método. Elimina todos los elementos de la colección en C#.
 type: docs
 weight: 40
 url: /es/net/aspose.words.markup/customxmlpropertycollection/clear/
@@ -14,7 +16,7 @@ Elimina todos los elementos de la colección.
 public void Clear()
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo trabajar con propiedades de etiquetas inteligentes para obtener información detallada sobre las etiquetas inteligentes.
 
@@ -71,7 +73,5 @@ Assert.AreEqual(0, properties.Count);
 ### Ver también
 
 * class [CustomXmlPropertyCollection](../)
-* espacio de nombres [Aspose.Words.Markup](../../customxmlpropertycollection/)
+* espacio de nombres [Aspose.Words.Markup](../../../aspose.words.markup/)
 * asamblea [Aspose.Words](../../../)
-
-

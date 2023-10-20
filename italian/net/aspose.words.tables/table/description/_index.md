@@ -1,7 +1,9 @@
 ---
 title: Table.Description
-second_title: Aspose.Words per .NET API Reference
-description: Table proprietà. Ottiene o imposta la descrizione di questa tabella. Fornisce una rappresentazione testuale alternativa delle informazioni contenute nella tabella.
+linktitle: Description
+articleTitle: Description
+second_title: Aspose.Words per .NET
+description: Table Description proprietà. Ottiene o imposta la descrizione di questa tabella. Fornisce una rappresentazione testuale alternativa delle informazioni contenute nella tabella in C#.
 type: docs
 weight: 110
 url: /it/net/aspose.words.tables/table/description/
@@ -14,13 +16,13 @@ Ottiene o imposta la descrizione di questa tabella. Fornisce una rappresentazion
 public string Description { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Il valore predefinito è una stringa vuota.
 
 Questa proprietà è significativa per i documenti DOCX conformi a ISO/IEC 29500 ([`OoxmlCompliance`](../../../aspose.words.saving/ooxmlcompliance/)). Se salvata in formati precedenti a ISO/IEC 29500, la proprietà viene ignorata.
 
-### Esempi
+## Esempi
 
 Mostra come creare una tabella nidificata senza utilizzare un generatore di documenti.
 
@@ -76,7 +78,5 @@ private static Table CreateTable(Document doc, int rowCount, int cellCount, stri
 ### Guarda anche
 
 * class [Table](../)
-* spazio dei nomi [Aspose.Words.Tables](../../table/)
+* spazio dei nomi [Aspose.Words.Tables](../../../aspose.words.tables/)
 * assemblea [Aspose.Words](../../../)
-
-

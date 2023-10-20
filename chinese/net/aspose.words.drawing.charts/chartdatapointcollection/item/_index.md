@@ -1,7 +1,9 @@
 ---
 title: ChartDataPointCollection.Item
-second_title: Aspose.Words for .NET API 参考
-description: ChartDataPointCollection 财产. 返回ChartDataPoint对于指定的索引.
+linktitle: Item
+articleTitle: Item
+second_title: 用于 .NET 的 Aspose.Words
+description: ChartDataPointCollection Item 财产. 返回ChartDataPoint对于指定的索引 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.drawing.charts/chartdatapointcollection/item/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.drawing.charts/chartdatapointcollection/item/
 public ChartDataPoint this[int index] { get; }
 ```
 
-### 例子
+## 例子
 
 展示如何使用折线图上的数据点。
 
@@ -77,7 +79,5 @@ private static void ApplyDataPoints(ChartSeries series, int dataPointsCount, Mar
 
 * class [ChartDataPoint](../../chartdatapoint/)
 * class [ChartDataPointCollection](../)
-* 命名空间 [Aspose.Words.Drawing.Charts](../../chartdatapointcollection/)
+* 命名空间 [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * 部件 [Aspose.Words](../../../)
-
-

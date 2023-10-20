@@ -1,7 +1,9 @@
 ---
 title: SdtListItem.Value
-second_title: Aspose.Words لمراجع .NET API
-description: SdtListItem ملكية. يحصل على قيمة عنصر القائمة هذا.
+linktitle: Value
+articleTitle: Value
+second_title: Aspose.Words لـ .NET
+description: SdtListItem Value ملكية. يحصل على قيمة عنصر القائمة هذا في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.markup/sdtlistitem/value/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.markup/sdtlistitem/value/
 public string Value { get; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 لا يمكن`باطل` ولا يمكن أن تكون سلسلة فارغة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع علامات المستندات المنظمة ذات القائمة المنسدلة.
 
@@ -75,7 +77,5 @@ Assert.AreEqual(0, listItems.Count);
 ### أنظر أيضا
 
 * class [SdtListItem](../)
-* مساحة الاسم [Aspose.Words.Markup](../../sdtlistitem/)
+* مساحة الاسم [Aspose.Words.Markup](../../../aspose.words.markup/)
 * المجسم [Aspose.Words](../../../)
-
-

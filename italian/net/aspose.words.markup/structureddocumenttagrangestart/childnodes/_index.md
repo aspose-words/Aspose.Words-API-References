@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTagRangeStart.ChildNodes
-second_title: Aspose.Words per .NET API Reference
-description: StructuredDocumentTagRangeStart proprietà. Ottiene tutti i nodi tra questo nodo iniziale dellintervallo e il nodo finale dellintervallo.
+linktitle: ChildNodes
+articleTitle: ChildNodes
+second_title: Aspose.Words per .NET
+description: StructuredDocumentTagRangeStart ChildNodes proprietà. Ottiene tutti i nodi tra questo nodo iniziale dellintervallo e il nodo finale dellintervallo in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words.markup/structureddocumenttagrangestart/childnodes/
@@ -18,7 +20,5 @@ public NodeCollection ChildNodes { get; }
 
 * class [NodeCollection](../../../aspose.words/nodecollection/)
 * class [StructuredDocumentTagRangeStart](../)
-* spazio dei nomi [Aspose.Words.Markup](../../structureddocumenttagrangestart/)
+* spazio dei nomi [Aspose.Words.Markup](../../../aspose.words.markup/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ChartYValue.DoubleValue
-second_title: Справочник по API Aspose.Words для .NET
-description: ChartYValue свойство. Получает сохраненное числовое значение.
+linktitle: DoubleValue
+articleTitle: DoubleValue
+second_title: Aspose.Words для .NET
+description: ChartYValue DoubleValue свойство. Получает сохраненное числовое значение на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.drawing.charts/chartyvalue/doublevalue/
@@ -17,7 +19,5 @@ public double DoubleValue { get; }
 ### Смотрите также
 
 * class [ChartYValue](../)
-* пространство имен [Aspose.Words.Drawing.Charts](../../chartyvalue/)
+* пространство имен [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../../)
-
-

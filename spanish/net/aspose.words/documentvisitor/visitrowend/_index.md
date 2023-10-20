@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitRowEnd
-second_title: Referencia de API de Aspose.Words para .NET
-description: DocumentVisitor método. Se llama cuando finaliza la enumeración de una fila de la tabla.
+linktitle: VisitRowEnd
+articleTitle: VisitRowEnd
+second_title: Aspose.Words para .NET
+description: DocumentVisitor VisitRowEnd método. Se llama cuando finaliza la enumeración de una fila de la tabla en C#.
 type: docs
 weight: 340
 url: /es/net/aspose.words/documentvisitor/visitrowend/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitRowEnd(Row row)
 
 A[`VisitorAction`](../../visitoraction/) valor que especifica cómo continuar la enumeración.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo imprimir la estructura de nodos de cada tabla en un documento.
 
@@ -378,7 +380,5 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [Row](../../../aspose.words.tables/row/)
 * class [DocumentVisitor](../)
-* espacio de nombres [Aspose.Words](../../documentvisitor/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

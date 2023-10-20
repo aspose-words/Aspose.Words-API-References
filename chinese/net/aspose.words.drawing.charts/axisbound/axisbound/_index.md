@@ -1,7 +1,9 @@
 ---
-title: AxisBound.AxisBound
-second_title: Aspose.Words for .NET API 参考
-description: AxisBound 构造函数. 创建一个新实例指示轴边界应由字处理 应用程序自动确定
+title: AxisBound
+linktitle: AxisBound
+articleTitle: AxisBound
+second_title: 用于 .NET 的 Aspose.Words
+description: AxisBound 构造函数. 创建一个新实例指示轴边界应由字处理 应用程序自动确定 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.drawing.charts/axisbound/axisbound/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.drawing.charts/axisbound/axisbound/
 public AxisBound()
 ```
 
-### 例子
+## 例子
 
 展示如何设置自定义轴边界。
 
@@ -74,12 +76,12 @@ doc.Save(ArtifactsDir + "Charts.AxisBound.docx");
 ### 也可以看看
 
 * class [AxisBound](../)
-* 命名空间 [Aspose.Words.Drawing.Charts](../../axisbound/)
+* 命名空间 [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## AxisBound(double) {#constructor_1}
+## AxisBound(*double*) {#constructor_1}
 
 创建一个以数字表示的轴边界。
 
@@ -87,7 +89,7 @@ doc.Save(ArtifactsDir + "Charts.AxisBound.docx");
 public AxisBound(double value)
 ```
 
-### 例子
+## 例子
 
 演示如何插入带有日期/时间值的图表。
 
@@ -141,12 +143,12 @@ doc.Save(ArtifactsDir + "Charts.DateTimeValues.docx");
 ### 也可以看看
 
 * class [AxisBound](../)
-* 命名空间 [Aspose.Words.Drawing.Charts](../../axisbound/)
+* 命名空间 [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## AxisBound(DateTime) {#constructor_2}
+## AxisBound(*DateTime*) {#constructor_2}
 
 创建表示为日期时间值的轴边界。
 
@@ -154,7 +156,7 @@ doc.Save(ArtifactsDir + "Charts.DateTimeValues.docx");
 public AxisBound(DateTime datetime)
 ```
 
-### 例子
+## 例子
 
 演示如何插入带有日期/时间值的图表。
 
@@ -208,7 +210,5 @@ doc.Save(ArtifactsDir + "Charts.DateTimeValues.docx");
 ### 也可以看看
 
 * class [AxisBound](../)
-* 命名空间 [Aspose.Words.Drawing.Charts](../../axisbound/)
+* 命名空间 [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * 部件 [Aspose.Words](../../../)
-
-

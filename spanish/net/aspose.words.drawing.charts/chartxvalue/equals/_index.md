@@ -1,7 +1,9 @@
 ---
 title: ChartXValue.Equals
-second_title: Referencia de API de Aspose.Words para .NET
-description: ChartXValue método. Obtiene una bandera que indica si el objeto especificado es igual al objeto de valor X actual.
+linktitle: Equals
+articleTitle: Equals
+second_title: Aspose.Words para .NET
+description: ChartXValue Equals método. Obtiene una bandera que indica si el objeto especificado es igual al objeto de valor X actual en C#.
 type: docs
 weight: 120
 url: /es/net/aspose.words.drawing.charts/chartxvalue/equals/
@@ -17,7 +19,5 @@ public override bool Equals(object obj)
 ### Ver también
 
 * class [ChartXValue](../)
-* espacio de nombres [Aspose.Words.Drawing.Charts](../../chartxvalue/)
+* espacio de nombres [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * asamblea [Aspose.Words](../../../)
-
-

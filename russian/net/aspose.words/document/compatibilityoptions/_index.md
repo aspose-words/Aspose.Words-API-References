@@ -1,20 +1,22 @@
 ---
 title: Document.CompatibilityOptions
-second_title: Справочник по API Aspose.Words для .NET
-description: Document свойство. Предоставляет доступ к параметрам совместимости документов т. е. к пользовательским настройкам введенным в Совместимость вкладка  Параметры диалог в Word.
+linktitle: CompatibilityOptions
+articleTitle: CompatibilityOptions
+second_title: Aspose.Words для .NET
+description: Document CompatibilityOptions свойство. Предоставляет доступ к параметрам совместимости документов т. е. к пользовательским настройкам введенным вСовместимость вкладка Параметры диалог в Word на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words/document/compatibilityoptions/
 ---
 ## Document.CompatibilityOptions property
 
-Предоставляет доступ к параметрам совместимости документов (т. е. к пользовательским настройкам, введенным в **Совместимость** вкладка  **Параметры** диалог в Word).
+Предоставляет доступ к параметрам совместимости документов (т. е. к пользовательским настройкам, введенным в**Совместимость** вкладка **Параметры** диалог в Word).
 
 ```csharp
 public CompatibilityOptions CompatibilityOptions { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как оптимизировать документ для разных версий Microsoft Word.
 
@@ -74,7 +76,5 @@ private static void PrintCompatibilityOptions(CompatibilityOptions options)
 
 * class [CompatibilityOptions](../../../aspose.words.settings/compatibilityoptions/)
 * class [Document](../)
-* пространство имен [Aspose.Words](../../document/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

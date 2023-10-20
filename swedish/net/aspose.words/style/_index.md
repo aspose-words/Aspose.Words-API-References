@@ -1,7 +1,9 @@
 ---
-title: Class Style
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Style klass. Representerar en enda inbyggd eller användardefinierad stil.
+title: Style Class
+linktitle: Style
+articleTitle: Style
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Style klass. Representerar en enda inbyggd eller användardefinierad stil i C#.
 type: docs
 weight: 6130
 url: /sv/net/aspose.words/style/
@@ -31,7 +33,6 @@ public class Style
 | [LinkedStyleName](../../aspose.words/style/linkedstylename/) { get; } | Hämtar namnet på`Style` kopplat till denna. Returnerar tom sträng om inga stilar är länkade. |
 | [List](../../aspose.words/style/list/) { get; } | Hämtar listan som definierar formateringen av denna liststil. |
 | [ListFormat](../../aspose.words/style/listformat/) { get; } | Ger tillgång till listformateringsegenskaperna för en styckestil. |
-| [Locked](../../aspose.words/style/locked/) { get; set; } |  |
 | [Name](../../aspose.words/style/name/) { get; set; } | Hämtar eller ställer in namnet på stilen. |
 | [NextParagraphStyleName](../../aspose.words/style/nextparagraphstylename/) { get; set; } | Hämtar/ställer in namnet på formatet som ska tillämpas automatiskt på ett nytt stycke som infogas efter a stycke formaterat med det angivna formatet. |
 | [ParagraphFormat](../../aspose.words/style/paragraphformat/) { get; } | Hämtar formatets styckeformatering. |
@@ -43,10 +44,10 @@ public class Style
 
 | namn | Beskrivning |
 | --- | --- |
-| [Equals](../../aspose.words/style/equals/#equals)(Style) | Jämförs med den angivna stilen. Stilar Istds jämförs endast för inbyggda stilar. Standardinställningar för format ingår inte i jämförelsen. Basstil, länkad stil och nästa styckestil jämförs rekursivt. |
+| [Equals](../../aspose.words/style/equals/#equals)(*Style*) | Jämförs med den angivna stilen. Stilar Istds jämförs endast för inbyggda stilar. Standardinställningar för format ingår inte i jämförelsen. Basstil, länkad stil och nästa styckestil jämförs rekursivt. |
 | [Remove](../../aspose.words/style/remove/)() | Tar bort den angivna stilen från dokumentet. |
 
-### Exempel
+## Exempel
 
 Visar hur du skapar och använder ett styckeformat med listformatering.
 
@@ -113,5 +114,3 @@ Assert.AreEqual(Color.Empty.ToArgb(), firstParagraphStyle.Font.Color.ToArgb());
 
 * namnutrymme [Aspose.Words](../../aspose.words/)
 * hopsättning [Aspose.Words](../../)
-
-

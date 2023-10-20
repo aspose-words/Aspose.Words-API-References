@@ -1,7 +1,9 @@
 ---
-title: Class FontSourceBase
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Fonts.FontSourceBase classe. Il sagit dune classe de base abstraite pour les classes qui permettent à lutilisateur de spécifier diverses sources de polices.
+title: FontSourceBase Class
+linktitle: FontSourceBase
+articleTitle: FontSourceBase
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Fonts.FontSourceBase classe. Il sagit dune classe de base abstraite pour les classes qui permettent à lutilisateur de spécifier diverses sources de polices en C#.
 type: docs
 weight: 2980
 url: /fr/net/aspose.words.fonts/fontsourcebase/
@@ -30,7 +32,7 @@ public abstract class FontSourceBase
 | --- | --- |
 | [GetAvailableFonts](../../aspose.words.fonts/fontsourcebase/getavailablefonts/)() | Renvoie la liste des polices disponibles via cette source. |
 
-### Exemples
+## Exemples
 
 Montre comment utiliser un fichier de police dans le système de fichiers local comme source de police.
 
@@ -50,5 +52,3 @@ Assert.AreEqual(0, fileFontSource.Priority);
 
 * espace de noms [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * Assemblée [Aspose.Words](../../)
-
-

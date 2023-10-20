@@ -1,7 +1,9 @@
 ---
-title: Class EditableRange
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.EditableRange klas. Stellt einen einzelnen bearbeitbaren Bereich dar.
+title: EditableRange Class
+linktitle: EditableRange
+articleTitle: EditableRange
+second_title: Aspose.Words für .NET
+description: Aspose.Words.EditableRange klas. Stellt einen einzelnen bearbeitbaren Bereich dar in C#.
 type: docs
 weight: 1420
 url: /de/net/aspose.words/editablerange/
@@ -32,11 +34,11 @@ public class EditableRange
 | --- | --- |
 | [Remove](../../aspose.words/editablerange/remove/)() | Entfernt den bearbeitbaren Bereich aus dem Dokument. Inhalte innerhalb des bearbeitbaren Bereichs werden nicht entfernt. |
 
-### Bemerkungen
+## Bemerkungen
 
 `EditableRange` ist ein „Fassaden“-Objekt, das zwei Knoten kapselt[`EditableRangeStart`](./editablerangestart/) und[`EditableRangeEnd`](./editablerangeend/) in einem Dokumentbaum und ermöglicht das Arbeiten mit einem bearbeitbaren Bereich als einzelnes Objekt.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit einem bearbeitbaren Bereich gearbeitet wird.
 
@@ -189,5 +191,3 @@ public class EditableRangePrinter : DocumentVisitor
 
 * namensraum [Aspose.Words](../../aspose.words/)
 * Montage [Aspose.Words](../../)
-
-

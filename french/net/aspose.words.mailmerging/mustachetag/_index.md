@@ -1,7 +1,9 @@
 ---
-title: Class MustacheTag
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.MailMerging.MustacheTag classe. Représente la balise moustache.
+title: MustacheTag Class
+linktitle: MustacheTag
+articleTitle: MustacheTag
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.MailMerging.MustacheTag classe. Représente la balise moustache en C#.
 type: docs
 weight: 3880
 url: /fr/net/aspose.words.mailmerging/mustachetag/
@@ -26,5 +28,3 @@ public class MustacheTag
 
 * espace de noms [Aspose.Words.MailMerging](../../aspose.words.mailmerging/)
 * Assemblée [Aspose.Words](../../)
-
-

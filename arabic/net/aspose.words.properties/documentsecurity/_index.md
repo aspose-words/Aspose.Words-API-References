@@ -1,7 +1,9 @@
 ---
-title: Enum DocumentSecurity
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Properties.DocumentSecurity تعداد. تستخدم كقيمة لـSecurity property. يحدد مستوى الأمان للمستند كقيمة رقمية.
+title: DocumentSecurity Enum
+linktitle: DocumentSecurity
+articleTitle: DocumentSecurity
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Properties.DocumentSecurity تعداد. تستخدم كقيمة لـSecurity property. يحدد مستوى الأمان للمستند كقيمة رقمية في C#.
 type: docs
 weight: 4490
 url: /ar/net/aspose.words.properties/documentsecurity/
@@ -25,7 +27,7 @@ public enum DocumentSecurity
 | ReadOnlyEnforced | `4` | المستند الذي سيتم فتحه دائمًا للقراءة فقط. |
 | ReadOnlyExceptAnnotations | `8` | المستند الذي سيتم فتحه دائمًا للقراءة فقط باستثناء التعليقات التوضيحية. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام خصائص المستند لعرض مستوى أمان المستند.
 
@@ -71,5 +73,3 @@ Assert.AreEqual(DocumentSecurity.ReadOnlyExceptAnnotations,
 
 * مساحة الاسم [Aspose.Words.Properties](../../aspose.words.properties/)
 * المجسم [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ExportXhtmlTransitional
-second_title: Справочник по API Aspose.Words для .NET
-description: HtmlSaveOptions свойство. Указывает следует ли записывать объявление DOCTYPE при сохранении в HTML или MHTML. Когдаистинный  записывает объявление DOCTYPE в документ перед корневым элементом. Значение по умолчаниюЛОЖЬ. При сохранении в EPUB или HTML5 Html5  объявление DOCTYPE всегда записывается.
+linktitle: ExportXhtmlTransitional
+articleTitle: ExportXhtmlTransitional
+second_title: Aspose.Words для .NET
+description: HtmlSaveOptions ExportXhtmlTransitional свойство. Указывает следует ли записывать объявление DOCTYPE при сохранении в HTML или MHTML. Когдаистинный  записывает объявление DOCTYPE в документ перед корневым элементом. Значение по умолчаниюЛОЖЬ. При сохранении в EPUB или HTML5 Html5  объявление DOCTYPE всегда записывается на С#.
 type: docs
 weight: 280
 url: /ru/net/aspose.words.saving/htmlsaveoptions/exportxhtmltransitional/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.saving/htmlsaveoptions/exportxhtmltransitional/
 public bool ExportXhtmlTransitional { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Aspose.Words всегда пишет правильно сформированный HTML независимо от этой настройки.
 
@@ -30,7 +32,7 @@ Aspose.Words стремится выводить XHTML в соответстви
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как отображать заголовок DOCTYPE при преобразовании документов в переходный стандарт Xhtml 1.0.
 
@@ -64,7 +66,5 @@ else
 ### Смотрите также
 
 * class [HtmlSaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../htmlsaveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

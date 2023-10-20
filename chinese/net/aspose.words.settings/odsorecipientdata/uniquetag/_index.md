@@ -1,7 +1,9 @@
 ---
 title: OdsoRecipientData.UniqueTag
-second_title: Aspose.Words for .NET API 参考
-description: OdsoRecipientData 财产. 指定包含唯一数据的列中给定记录的内容 默认值为无效的.
+linktitle: UniqueTag
+articleTitle: UniqueTag
+second_title: 用于 .NET 的 Aspose.Words
+description: OdsoRecipientData UniqueTag 财产. 指定包含唯一数据的列中给定记录的内容 默认值为无效的 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words.settings/odsorecipientdata/uniquetag/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.settings/odsorecipientdata/uniquetag/
 public byte[] UniqueTag { get; set; }
 ```
 
-### 例子
+## 例子
 
 显示如何访问指定邮件合并将排除哪些合并数据源记录的数据集合。
 
@@ -54,7 +56,5 @@ Assert.AreEqual(0, dataCollection.Count);
 ### 也可以看看
 
 * class [OdsoRecipientData](../)
-* 命名空间 [Aspose.Words.Settings](../../odsorecipientdata/)
+* 命名空间 [Aspose.Words.Settings](../../../aspose.words.settings/)
 * 部件 [Aspose.Words](../../../)
-
-

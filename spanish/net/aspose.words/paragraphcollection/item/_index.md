@@ -1,7 +1,9 @@
 ---
 title: ParagraphCollection.Item
-second_title: Referencia de API de Aspose.Words para .NET
-description: ParagraphCollection propiedad. Recupera unParagraph en el índice dado.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words para .NET
+description: ParagraphCollection Item propiedad. Recupera unParagraph en el índice dado en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words/paragraphcollection/item/
@@ -18,7 +20,7 @@ public Paragraph this[int index] { get; }
 | --- | --- |
 | index | Un índice de la colección. |
 
-### Observaciones
+## Observaciones
 
 El índice tiene base cero.
 
@@ -28,7 +30,7 @@ Si el índice es mayor o igual que el número de elementos de la lista, esto dev
 
 Si el índice es negativo y su valor absoluto es mayor que el número de elementos de la lista, esto devuelve una referencia nula.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo comprobar si un párrafo es una revisión movida.
 
@@ -63,7 +65,5 @@ Assert.True(paragraphs[3].IsMoveToRevision);
 
 * class [Paragraph](../../paragraph/)
 * class [ParagraphCollection](../)
-* espacio de nombres [Aspose.Words](../../paragraphcollection/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

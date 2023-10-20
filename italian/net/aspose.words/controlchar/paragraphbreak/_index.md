@@ -1,7 +1,9 @@
 ---
 title: ControlChar.ParagraphBreak
-second_title: Aspose.Words per .NET API Reference
-description: ControlChar campo. Carattere di fine paragrafo x000d o r. Uguale aCr
+linktitle: ParagraphBreak
+articleTitle: ParagraphBreak
+second_title: Aspose.Words per .NET
+description: ControlChar ParagraphBreak campo. Carattere di fine paragrafo x000d o r. Uguale aCr in C#.
 type: docs
 weight: 220
 url: /it/net/aspose.words/controlchar/paragraphbreak/
@@ -14,7 +16,7 @@ Carattere di fine paragrafo: "\x000d" o "\r". Uguale a[`Cr`](../cr/)
 public static readonly string ParagraphBreak;
 ```
 
-### Esempi
+## Esempi
 
 Mostra come aggiungere vari caratteri di controllo a un documento.
 
@@ -86,7 +88,5 @@ Assert.AreEqual(Convert.ToChar(ControlChar.ColumnBreak), ControlChar.ColumnBreak
 ### Guarda anche
 
 * class [ControlChar](../)
-* spazio dei nomi [Aspose.Words](../../controlchar/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

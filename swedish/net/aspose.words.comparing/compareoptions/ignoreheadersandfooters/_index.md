@@ -1,7 +1,9 @@
 ---
 title: CompareOptions.IgnoreHeadersAndFooters
-second_title: Aspose.Words för .NET API Referens
-description: CompareOptions fast egendom. True indikerar att innehållet i sidhuvuden och sidfötter ignoreras. Som standard ignoreras inte sidhuvuden och sidfötter.
+linktitle: IgnoreHeadersAndFooters
+articleTitle: IgnoreHeadersAndFooters
+second_title: Aspose.Words för .NET
+description: CompareOptions IgnoreHeadersAndFooters fast egendom. True indikerar att innehållet i sidhuvuden och sidfötter ignoreras. Som standard ignoreras inte sidhuvuden och sidfötter i C#.
 type: docs
 weight: 100
 url: /sv/net/aspose.words.comparing/compareoptions/ignoreheadersandfooters/
@@ -14,7 +16,7 @@ True indikerar att innehållet i sidhuvuden och sidfötter ignoreras. Som standa
 public bool IgnoreHeadersAndFooters { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man filtrerar specifika typer av dokumentelement när man gör en jämförelse.
 
@@ -88,7 +90,5 @@ docOriginal.Save(ArtifactsDir + "Document.CompareOptions.docx");
 ### Se även
 
 * class [CompareOptions](../)
-* namnutrymme [Aspose.Words.Comparing](../../compareoptions/)
+* namnutrymme [Aspose.Words.Comparing](../../../aspose.words.comparing/)
 * hopsättning [Aspose.Words](../../../)
-
-

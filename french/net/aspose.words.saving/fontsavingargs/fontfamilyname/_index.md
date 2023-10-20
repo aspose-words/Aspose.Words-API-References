@@ -1,7 +1,9 @@
 ---
 title: FontSavingArgs.FontFamilyName
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FontSavingArgs propriété. Indique le nom de la famille de police actuelle.
+linktitle: FontFamilyName
+articleTitle: FontFamilyName
+second_title: Aspose.Words pour .NET
+description: FontSavingArgs FontFamilyName propriété. Indique le nom de la famille de police actuelle en C#.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.saving/fontsavingargs/fontfamilyname/
@@ -14,7 +16,7 @@ Indique le nom de la famille de police actuelle.
 public string FontFamilyName { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment définir une logique personnalisée pour l’exportation des polices lors de l’enregistrement au format HTML.
 
@@ -74,7 +76,5 @@ public class HandleFontSaving : IFontSavingCallback
 ### Voir également
 
 * class [FontSavingArgs](../)
-* espace de noms [Aspose.Words.Saving](../../fontsavingargs/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

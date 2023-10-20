@@ -1,7 +1,9 @@
 ---
-title: Enum BorderType
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.BorderType uppräkning. Anger sidor av en kantlinje.
+title: BorderType Enum
+linktitle: BorderType
+articleTitle: BorderType
+second_title: Aspose.Words för .NET
+description: Aspose.Words.BorderType uppräkning. Anger sidor av en kantlinje i C#.
 type: docs
 weight: 100
 url: /sv/net/aspose.words/bordertype/
@@ -30,7 +32,7 @@ public enum BorderType
 | DiagonalDown | `6` | Anger den diagonala gränsen i en tabellcell. |
 | DiagonalUp | `7` | Anger den diagonala gränsen i en tabellcell. |
 
-### Exempel
+## Exempel
 
 Visar hur man infogar ett stycke med en övre kant.
 
@@ -54,5 +56,3 @@ doc.Save(ArtifactsDir + "Border.ParagraphTopBorder.docx");
 
 * namnutrymme [Aspose.Words](../../aspose.words/)
 * hopsättning [Aspose.Words](../../)
-
-

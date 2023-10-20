@@ -1,7 +1,9 @@
 ---
 title: Shading.GetHashCode
-second_title: Aspose.Words for .NET API 参考
-description: Shading 方法. 用作该类型的哈希函数
+linktitle: GetHashCode
+articleTitle: GetHashCode
+second_title: 用于 .NET 的 Aspose.Words
+description: Shading GetHashCode 方法. 用作该类型的哈希函数 在 C#.
 type: docs
 weight: 100
 url: /zh/net/aspose.words/shading/gethashcode/
@@ -17,7 +19,5 @@ public override int GetHashCode()
 ### 也可以看看
 
 * class [Shading](../)
-* 命名空间 [Aspose.Words](../../shading/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

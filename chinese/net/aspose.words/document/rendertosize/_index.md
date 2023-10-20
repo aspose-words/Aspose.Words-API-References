@@ -1,9 +1,11 @@
 ---
 title: Document.RenderToSize
-second_title: Aspose.Words for .NET API 参考
-description: Document 方法. 将文档页面呈现为Graphics指定大小的对象
+linktitle: RenderToSize
+articleTitle: RenderToSize
+second_title: 用于 .NET 的 Aspose.Words
+description: Document RenderToSize 方法. 将文档页面呈现为Graphics指定大小的对象 在 C#.
 type: docs
-weight: 710
+weight: 690
 url: /zh/net/aspose.words/document/rendertosize/
 ---
 ## Document.RenderToSize method
@@ -28,7 +30,7 @@ public float RenderToSize(int pageIndex, Graphics graphics, float x, float y, fl
 
 自动计算渲染页面以适合指定尺寸的比例。
 
-### 例子
+## 例子
 
 演示如何将文档呈现为指定位置和大小的位图 (.NetStandard 2.0)。
 
@@ -144,7 +146,5 @@ using (Bitmap bmp = new Bitmap(700, 700))
 ### 也可以看看
 
 * class [Document](../)
-* 命名空间 [Aspose.Words](../../document/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

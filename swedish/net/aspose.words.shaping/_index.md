@@ -1,12 +1,14 @@
 ---
 title: Aspose.Words.Shaping
-second_title: Aspose.Words för .NET API Referens
-description: Den Aspose.Words.Shaping namnutrymmet innehåller klasser för att ge stöd för OpenTypefunktioner med hjälp av externa textformningsmotorer.
+linktitle: Aspose.Words.Shaping
+articleTitle: Aspose.Words.Shaping
+second_title: Aspose.Words för .NET
+description: DenAspose.Words.Shaping namnutrymmet innehåller klasser för att ge stöd för OpenTypefunktioner med hjälp av externa textformningsmotorer i C#.
 type: docs
 weight: 250
 url: /sv/net/aspose.words.shaping/
 ---
-Den **Aspose.Words.Shaping** namnutrymmet innehåller klasser för att ge stöd för OpenType-funktioner med hjälp av externa textformningsmotorer.
+Den**Aspose.Words.Shaping** namnutrymmet innehåller klasser för att ge stöd för OpenType-funktioner med hjälp av externa textformningsmotorer.
 
 ## Klasser
 
@@ -29,5 +31,3 @@ Den **Aspose.Words.Shaping** namnutrymmet innehåller klasser för att ge stöd 
 | [FontFeature](./fontfeature/) | Funktioner ger information om hur glyfer används i ett teckensnitt för att rendera ett skript. https://docs.microsoft.com/en-us/typography/opentype/spec/featuretags |
 | [ScriptShapingLevel](./scriptshapinglevel/) | Beskriver formningsnivåer som krävs av ett skript. |
 | [UnicodeScript](./unicodescript/) | Unicode Character Database-egenskap: Script (sc). |
-
-

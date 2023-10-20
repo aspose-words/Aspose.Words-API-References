@@ -1,7 +1,9 @@
 ---
 title: FieldMacroButton.DisplayText
-second_title: Aspose.Words för .NET API Referens
-description: FieldMacroButton fast egendom. Hämtar eller ställer in texten så att den visas som knappen som är vald för att köra makrot eller kommandot.
+linktitle: DisplayText
+articleTitle: DisplayText
+second_title: Aspose.Words för .NET
+description: FieldMacroButton DisplayText fast egendom. Hämtar eller ställer in texten så att den visas som knappen som är vald för att köra makrot eller kommandot i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.fields/fieldmacrobutton/displaytext/
@@ -14,7 +16,7 @@ Hämtar eller ställer in texten så att den visas som "knappen" som är vald f�
 public string DisplayText { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man använder MACROBUTTON-fält för att tillåta oss att köra ett dokuments makron genom att klicka.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "Field.MACROBUTTON.docm");
 ### Se även
 
 * class [FieldMacroButton](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldmacrobutton/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

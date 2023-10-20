@@ -1,7 +1,9 @@
 ---
-title: Class BasicTextShaperCache
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Shaping.BasicTextShaperCache فصل. يطبق ذاكرة التخزين المؤقت الأساسية لـITextShaper الحالات. هذه الفئة آمنة لمؤشر الترابط.
+title: BasicTextShaperCache Class
+linktitle: BasicTextShaperCache
+articleTitle: BasicTextShaperCache
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Shaping.BasicTextShaperCache فصل. يطبق ذاكرة التخزين المؤقت الأساسية لـITextShaper الحالات. هذه الفئة آمنة لمؤشر الترابط في C#.
 type: docs
 weight: 6000
 url: /ar/net/aspose.words.shaping/basictextshapercache/
@@ -18,7 +20,7 @@ public sealed class BasicTextShaperCache : IDisposable, ITextShaperFactory
 
 | اسم | وصف |
 | --- | --- |
-| [BasicTextShaperCache](basictextshapercache/)(ITextShaperFactory) | يلتف*factory* والمخابئ[`GetTextShaper`](../itextshaperfactory/gettextshaper/) النتائج. |
+| [BasicTextShaperCache](basictextshapercache/)(*[ITextShaperFactory](../itextshaperfactory/)*) | يلتف*factory* والمخابئ[`GetTextShaper`](../itextshaperfactory/gettextshaper/) النتائج. |
 
 ## طُرق
 
@@ -31,5 +33,3 @@ public sealed class BasicTextShaperCache : IDisposable, ITextShaperFactory
 * interface [ITextShaperFactory](../itextshaperfactory/)
 * مساحة الاسم [Aspose.Words.Shaping](../../aspose.words.shaping/)
 * المجسم [Aspose.Words](../../)
-
-

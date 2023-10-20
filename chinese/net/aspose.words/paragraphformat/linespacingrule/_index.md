@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.LineSpacingRule
-second_title: Aspose.Words for .NET API 参考
-description: ParagraphFormat 财产. 获取或设置段落的行距
+linktitle: LineSpacingRule
+articleTitle: LineSpacingRule
+second_title: 用于 .NET 的 Aspose.Words
+description: ParagraphFormat LineSpacingRule 财产. 获取或设置段落的行距 在 C#.
 type: docs
 weight: 200
 url: /zh/net/aspose.words/paragraphformat/linespacingrule/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/paragraphformat/linespacingrule/
 public LineSpacingRule LineSpacingRule { get; set; }
 ```
 
-### 例子
+## 例子
 
 展示如何使用行间距。
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "ParagraphFormat.LineSpacing.docx");
 
 * enum [LineSpacingRule](../../linespacingrule/)
 * class [ParagraphFormat](../)
-* 命名空间 [Aspose.Words](../../paragraphformat/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,9 +1,11 @@
 ---
 title: DocumentBuilder.InsertNode
-second_title: Aspose.Words per .NET API Reference
-description: DocumentBuilder metodo. Inserisce un nodo prima del cursore.
+linktitle: InsertNode
+articleTitle: InsertNode
+second_title: Aspose.Words per .NET
+description: DocumentBuilder InsertNode metodo. Inserisce un nodo prima del cursore in C#.
 type: docs
-weight: 390
+weight: 380
 url: /it/net/aspose.words/documentbuilder/insertnode/
 ---
 ## DocumentBuilder.InsertNode method
@@ -14,7 +16,7 @@ Inserisce un nodo prima del cursore.
 public void InsertNode(Node node)
 ```
 
-### Esempi
+## Esempi
 
 Mostra come inserire un'immagine collegata in un documento.
 
@@ -57,7 +59,5 @@ Assert.True(10000 > new FileInfo(ArtifactsDir + "Image.CreateLinkedImage.Linked.
 
 * class [Node](../../node/)
 * class [DocumentBuilder](../)
-* spazio dei nomi [Aspose.Words](../../documentbuilder/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

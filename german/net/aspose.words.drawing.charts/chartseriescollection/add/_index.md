@@ -1,12 +1,14 @@
 ---
 title: ChartSeriesCollection.Add
-second_title: Aspose.Words für .NET-API-Referenz
-description: ChartSeriesCollection methode. Fügt Neues hinzuChartSeries zu dieser Sammlung. Verwenden Sie diese Methode um Reihen zu jeder Art von Balken Säulen Linien und Oberflächendiagrammen hinzuzufügen.
+linktitle: Add
+articleTitle: Add
+second_title: Aspose.Words für .NET
+description: ChartSeriesCollection Add methode. Fügt Neues hinzuChartSeries zu dieser Sammlung. Verwenden Sie diese Methode um Reihen zu jeder Art von Balken Säulen Linien und Oberflächendiagrammen hinzuzufügen in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.drawing.charts/chartseriescollection/add/
 ---
-## Add(string, string[], double[]) {#add_3}
+## Add(*string, string[], double[]*) {#add_3}
 
 Fügt Neues hinzu[`ChartSeries`](../../chartseries/) zu dieser Sammlung. Verwenden Sie diese Methode, um Reihen zu jeder Art von Balken-, Säulen-, Linien- und Oberflächendiagrammen hinzuzufügen.
 
@@ -18,7 +20,7 @@ public ChartSeries Add(string seriesName, string[] categories, double[] values)
 
 Kürzlich hinzugefügt[`ChartSeries`](../../chartseries/) Objekt.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie eine geeignete Art von Diagrammreihe für einen Diagrammtyp erstellt wird.
 
@@ -108,12 +110,12 @@ private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, d
 
 * class [ChartSeries](../../chartseries/)
 * class [ChartSeriesCollection](../)
-* namensraum [Aspose.Words.Drawing.Charts](../../chartseriescollection/)
+* namensraum [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../../)
 
 ---
 
-## Add(string, double[], double[]) {#add}
+## Add(*string, double[], double[]*) {#add}
 
 Fügt Neues hinzu[`ChartSeries`](../../chartseries/) zu dieser Sammlung. Verwenden Sie diese Methode, um Reihen zu jeder Art von Streudiagrammen hinzuzufügen.
 
@@ -125,7 +127,7 @@ public ChartSeries Add(string seriesName, double[] xValues, double[] yValues)
 
 Kürzlich hinzugefügt[`ChartSeries`](../../chartseries/) Objekt.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie eine geeignete Art von Diagrammreihe für einen Diagrammtyp erstellt wird.
 
@@ -215,12 +217,12 @@ private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, d
 
 * class [ChartSeries](../../chartseries/)
 * class [ChartSeriesCollection](../)
-* namensraum [Aspose.Words.Drawing.Charts](../../chartseriescollection/)
+* namensraum [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../../)
 
 ---
 
-## Add(string, DateTime[], double[]) {#add_2}
+## Add(*string, DateTime[], double[]*) {#add_2}
 
 Fügt Neues hinzu[`ChartSeries`](../../chartseries/) zu dieser Sammlung. Verwenden Sie diese Methode, um Serien zu jeder Art von Flächen-, Radar- und Aktiendiagrammen hinzuzufügen.
 
@@ -228,7 +230,7 @@ Fügt Neues hinzu[`ChartSeries`](../../chartseries/) zu dieser Sammlung. Verwend
 public ChartSeries Add(string seriesName, DateTime[] dates, double[] values)
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie eine geeignete Art von Diagrammreihe für einen Diagrammtyp erstellt wird.
 
@@ -318,12 +320,12 @@ private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, d
 
 * class [ChartSeries](../../chartseries/)
 * class [ChartSeriesCollection](../)
-* namensraum [Aspose.Words.Drawing.Charts](../../chartseriescollection/)
+* namensraum [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../../)
 
 ---
 
-## Add(string, double[], double[], double[]) {#add_1}
+## Add(*string, double[], double[], double[]*) {#add_1}
 
 Fügt Neues hinzu[`ChartSeries`](../../chartseries/)zu dieser Sammlung. Verwenden Sie diese Methode, um Reihen zu jeder Art von Blasendiagrammen hinzuzufügen.
 
@@ -335,7 +337,7 @@ public ChartSeries Add(string seriesName, double[] xValues, double[] yValues, do
 
 Kürzlich hinzugefügt[`ChartSeries`](../../chartseries/) Objekt.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie eine geeignete Art von Diagrammreihe für einen Diagrammtyp erstellt wird.
 
@@ -425,7 +427,5 @@ private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, d
 
 * class [ChartSeries](../../chartseries/)
 * class [ChartSeriesCollection](../)
-* namensraum [Aspose.Words.Drawing.Charts](../../chartseriescollection/)
+* namensraum [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../../)
-
-

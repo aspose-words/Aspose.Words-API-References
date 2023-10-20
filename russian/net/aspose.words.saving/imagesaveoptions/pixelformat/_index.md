@@ -1,7 +1,9 @@
 ---
 title: ImageSaveOptions.PixelFormat
-second_title: Справочник по API Aspose.Words для .NET
-description: ImageSaveOptions свойство. Получает или задает формат пикселей для создаваемых изображений.
+linktitle: PixelFormat
+articleTitle: PixelFormat
+second_title: Aspose.Words для .NET
+description: ImageSaveOptions PixelFormat свойство. Получает или задает формат пикселей для создаваемых изображений на С#.
 type: docs
 weight: 120
 url: /ru/net/aspose.words.saving/imagesaveoptions/pixelformat/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.saving/imagesaveoptions/pixelformat/
 public ImagePixelFormat PixelFormat { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Это свойство действует только при сохранении в форматах растровых изображений.
 
@@ -22,7 +24,7 @@ public ImagePixelFormat PixelFormat { get; set; }
 
 Формат пикселей выходного изображения может отличаться от установленного значения из-за работы GDI+.
 
-### Примеры
+## Примеры
 
 Показывает, как выбрать скорость передачи битов на пиксель для преобразования документа в изображение.
 
@@ -88,7 +90,5 @@ Document doc = new Document();
 
 * enum [ImagePixelFormat](../../imagepixelformat/)
 * class [ImageSaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../imagesaveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

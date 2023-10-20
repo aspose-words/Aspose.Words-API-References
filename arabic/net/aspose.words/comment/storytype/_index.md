@@ -1,9 +1,11 @@
 ---
 title: Comment.StoryType
-second_title: Aspose.Words لمراجع .NET API
-description: Comment ملكية. إرجاعComments .
+linktitle: StoryType
+articleTitle: StoryType
+second_title: Aspose.Words لـ .NET
+description: Comment StoryType ملكية. إرجاعComments  في C#.
 type: docs
-weight: 110
+weight: 100
 url: /ar/net/aspose.words/comment/storytype/
 ---
 ## Comment.StoryType property
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/comment/storytype/
 public override StoryType StoryType { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج عقد InlineStory.
 
@@ -74,7 +76,5 @@ doc.Save(ArtifactsDir + "InlineStory.InsertInlineStoryNodes.docx");
 
 * enum [StoryType](../../storytype/)
 * class [Comment](../)
-* مساحة الاسم [Aspose.Words](../../comment/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

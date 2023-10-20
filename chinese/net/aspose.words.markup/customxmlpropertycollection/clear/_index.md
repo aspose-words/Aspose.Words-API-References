@@ -1,7 +1,9 @@
 ---
 title: CustomXmlPropertyCollection.Clear
-second_title: Aspose.Words for .NET API 参考
-description: CustomXmlPropertyCollection 方法. 从集合中删除所有元素
+linktitle: Clear
+articleTitle: Clear
+second_title: 用于 .NET 的 Aspose.Words
+description: CustomXmlPropertyCollection Clear 方法. 从集合中删除所有元素 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.markup/customxmlpropertycollection/clear/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.markup/customxmlpropertycollection/clear/
 public void Clear()
 ```
 
-### 例子
+## 例子
 
 展示如何使用智能标记属性来获取有关智能标记的深入信息。
 
@@ -71,7 +73,5 @@ Assert.AreEqual(0, properties.Count);
 ### 也可以看看
 
 * class [CustomXmlPropertyCollection](../)
-* 命名空间 [Aspose.Words.Markup](../../customxmlpropertycollection/)
+* 命名空间 [Aspose.Words.Markup](../../../aspose.words.markup/)
 * 部件 [Aspose.Words](../../../)
-
-

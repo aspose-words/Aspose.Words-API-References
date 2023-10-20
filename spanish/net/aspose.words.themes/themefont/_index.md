@@ -1,7 +1,9 @@
 ---
-title: Enum ThemeFont
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Themes.ThemeFont enumeración. Especifica los tipos de nombres de fuentes de temas para temas de documentos.
+title: ThemeFont Enum
+linktitle: ThemeFont
+articleTitle: ThemeFont
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Themes.ThemeFont enumeración. Especifica los tipos de nombres de fuentes de temas para temas de documentos en C#.
 type: docs
 weight: 6490
 url: /es/net/aspose.words.themes/themefont/
@@ -22,11 +24,11 @@ public enum ThemeFont
 | Major | `1` | Fuente del tema principal. |
 | Minor | `2` | Fuente del tema menor. |
 
-### Observaciones
+## Observaciones
 
 Especifica un tipo de fuente de tema al que se puede hacer referencia como fuente de tema dentro de las propiedades del objeto principal. Esta fuente de tema es una referencia a una de las fuentes de tema predefinidas, ubicada en la parte Tema del documento , que permite que la información de fuente configurarse centralmente en el documento.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear y utilizar estilos temáticos.
 
@@ -131,5 +133,3 @@ Assert.AreEqual(Color.Blue.ToArgb(), font.Color.ToArgb());
 
 * espacio de nombres [Aspose.Words.Themes](../../aspose.words.themes/)
 * asamblea [Aspose.Words](../../)
-
-

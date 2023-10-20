@@ -1,7 +1,9 @@
 ---
 title: Paragraph.ListLabel
-second_title: Справочник по API Aspose.Words для .NET
-description: Paragraph свойство. ПолучаетListLabelобъект предоставляющий доступ к значению нумерации списка и форматированию для этого абзаца.
+linktitle: ListLabel
+articleTitle: ListLabel
+second_title: Aspose.Words для .NET
+description: Paragraph ListLabel свойство. ПолучаетListLabelобъект предоставляющий доступ к значению нумерации списка и форматированию для этого абзаца на С#.
 type: docs
 weight: 160
 url: /ru/net/aspose.words/paragraph/listlabel/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/paragraph/listlabel/
 public ListLabel ListLabel { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как извлечь метки списка всех абзацев, которые являются элементами списка.
 
@@ -50,7 +52,5 @@ foreach (Paragraph paragraph in paras.OfType<Paragraph>().Where(p => p.ListForma
 
 * class [ListLabel](../../../aspose.words.lists/listlabel/)
 * class [Paragraph](../)
-* пространство имен [Aspose.Words](../../paragraph/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

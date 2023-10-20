@@ -1,7 +1,9 @@
 ---
 title: TxtListIndentation.Character
-second_title: Aspose.Words für .NET-API-Referenz
-description: TxtListIndentation eigendom. Ruft ab oder legt fest welches Zeichen zum Einrücken von Listenebenen verwendet werden soll. Der Standardwert ist 0 das heißt es gibt keine Einrückung.
+linktitle: Character
+articleTitle: Character
+second_title: Aspose.Words für .NET
+description: TxtListIndentation Character eigendom. Ruft ab oder legt fest welches Zeichen zum Einrücken von Listenebenen verwendet werden soll. Der Standardwert ist 0 das heißt es gibt keine Einrückung in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.saving/txtlistindentation/character/
@@ -14,7 +16,7 @@ Ruft ab oder legt fest, welches Zeichen zum Einrücken von Listenebenen verwende
 public char Character { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Listeneinrückung beim Speichern eines Dokuments im Klartext konfiguriert wird.
 
@@ -54,7 +56,5 @@ Assert.AreEqual("1. Item 1\r\n" +
 ### Siehe auch
 
 * class [TxtListIndentation](../)
-* namensraum [Aspose.Words.Saving](../../txtlistindentation/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

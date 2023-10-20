@@ -1,9 +1,11 @@
 ---
 title: CompositeNode.GetText
-second_title: Aspose.Words for .NET API 参考
-description: CompositeNode 方法. 获取此节点及其所有子节点的文本
+linktitle: GetText
+articleTitle: GetText
+second_title: 用于 .NET 的 Aspose.Words
+description: CompositeNode GetText 方法. 获取此节点及其所有子节点的文本 在 C#.
 type: docs
-weight: 130
+weight: 110
 url: /zh/net/aspose.words/compositenode/gettext/
 ---
 ## CompositeNode.GetText method
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words/compositenode/gettext/
 public override string GetText()
 ```
 
-### 评论
+## 评论
 
 返回的字符串包括所有控制字符和特殊字符，如中所述[`ControlChar`](../../controlchar/)。
 
-### 例子
+## 例子
 
 显示在节点上调用 GetText 和 ToString 方法之间的区别。
 
@@ -65,7 +67,5 @@ foreach (Paragraph para in paras.OfType<Paragraph>().Where(p => p.ListFormat.IsL
 ### 也可以看看
 
 * class [CompositeNode](../)
-* 命名空间 [Aspose.Words](../../compositenode/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: PageSetup.PaperSize
-second_title: Aspose.Words لمراجع .NET API
-description: PageSetup ملكية. إرجاع حجم الورق أو تعيينه.
+linktitle: PaperSize
+articleTitle: PaperSize
+second_title: Aspose.Words لـ .NET
+description: PageSetup PaperSize ملكية. إرجاع حجم الورق أو تعيينه في C#.
 type: docs
 weight: 350
 url: /ar/net/aspose.words/pagesetup/papersize/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words/pagesetup/papersize/
 public PaperSize PaperSize { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 تحديد تحديثات هذه الخاصية[`PageWidth`](../pagewidth/) و[`PageHeight`](../pageheight/) value. تحديد هذه القيمة علىCustom لا يغير القيم الموجودة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية ضبط حجم الورق واتجاهه والهوامش بالإضافة إلى الإعدادات الأخرى لقسم ما.
 
@@ -129,7 +131,5 @@ doc.Save(ArtifactsDir + "Section.CreateManually.docx");
 
 * enum [PaperSize](../../papersize/)
 * class [PageSetup](../)
-* مساحة الاسم [Aspose.Words](../../pagesetup/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

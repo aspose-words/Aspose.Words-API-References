@@ -1,7 +1,9 @@
 ---
 title: Forms2OleControlCollection.GetEnumerator
-second_title: Aspose.Words لمراجع .NET API
-description: Forms2OleControlCollection طريقة. يحصل على العداد.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words لـ .NET
+description: Forms2OleControlCollection GetEnumerator طريقة. يحصل على العداد في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.drawing.ole/forms2olecontrolcollection/getenumerator/
@@ -18,7 +20,5 @@ public IEnumerator<Forms2OleControl> GetEnumerator()
 
 * class [Forms2OleControl](../../forms2olecontrol/)
 * class [Forms2OleControlCollection](../)
-* مساحة الاسم [Aspose.Words.Drawing.Ole](../../forms2olecontrolcollection/)
+* مساحة الاسم [Aspose.Words.Drawing.Ole](../../../aspose.words.drawing.ole/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: NodeRendererBase.OpaqueBoundsInPoints
-second_title: Aspose.Words für .NET-API-Referenz
-description: NodeRendererBase eigendom. Ruft die undurchsichtigen Grenzen der Form in Punkten ab.
+linktitle: OpaqueBoundsInPoints
+articleTitle: OpaqueBoundsInPoints
+second_title: Aspose.Words für .NET
+description: NodeRendererBase OpaqueBoundsInPoints eigendom. Ruft die undurchsichtigen Grenzen der Form in Punkten ab in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.rendering/noderendererbase/opaqueboundsinpoints/
@@ -14,11 +16,11 @@ Ruft die undurchsichtigen Grenzen der Form in Punkten ab.
 public RectangleF OpaqueBoundsInPoints { get; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Diese Eigenschaft gibt den undurchsichtigen (dh transparente Teile der Form werden ignoriert) Begrenzungsrahmen der Form zurück. Die Grenzen berücksichtigen die Drehung der Form.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Formen gemessen und skaliert werden.
 
@@ -65,7 +67,5 @@ Assert.AreEqual(30, bounds.Height);
 ### Siehe auch
 
 * class [NodeRendererBase](../)
-* namensraum [Aspose.Words.Rendering](../../noderendererbase/)
+* namensraum [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * Montage [Aspose.Words](../../../)
-
-

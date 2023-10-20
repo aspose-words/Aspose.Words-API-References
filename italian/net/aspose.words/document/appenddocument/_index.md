@@ -1,12 +1,14 @@
 ---
 title: Document.AppendDocument
-second_title: Aspose.Words per .NET API Reference
-description: Document metodo. Aggiunge il documento specificato alla fine di questo documento.
+linktitle: AppendDocument
+articleTitle: AppendDocument
+second_title: Aspose.Words per .NET
+description: Document AppendDocument metodo. Aggiunge il documento specificato alla fine di questo documento in C#.
 type: docs
-weight: 550
+weight: 530
 url: /it/net/aspose.words/document/appenddocument/
 ---
-## AppendDocument(Document, ImportFormatMode) {#appenddocument}
+## AppendDocument(*[Document](../), [ImportFormatMode](../../importformatmode/)*) {#appenddocument}
 
 Aggiunge il documento specificato alla fine di questo documento.
 
@@ -19,7 +21,7 @@ public void AppendDocument(Document srcDoc, ImportFormatMode importFormatMode)
 | srcDoc | Document | Il documento da allegare. |
 | importFormatMode | ImportFormatMode | Specifica come unire la formattazione dello stile in conflitto. |
 
-### Esempi
+## Esempi
 
 Mostra come aggiungere un documento alla fine di un altro documento.
 
@@ -66,12 +68,12 @@ dstDoc.Save(ArtifactsDir + "Document.AppendAllDocumentsInFolder.doc");
 
 * enum [ImportFormatMode](../../importformatmode/)
 * class [Document](../)
-* spazio dei nomi [Aspose.Words](../../document/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
 
 ---
 
-## AppendDocument(Document, ImportFormatMode, ImportFormatOptions) {#appenddocument_1}
+## AppendDocument(*[Document](../), [ImportFormatMode](../../importformatmode/), [ImportFormatOptions](../../importformatoptions/)*) {#appenddocument_1}
 
 Aggiunge il documento specificato alla fine di questo documento.
 
@@ -86,7 +88,7 @@ public void AppendDocument(Document srcDoc, ImportFormatMode importFormatMode,
 | importFormatMode | ImportFormatMode | Specifica come unire la formattazione dello stile in conflitto. |
 | importFormatOptions | ImportFormatOptions | Consente di specificare le opzioni che influiscono sulla formattazione di un documento risultato. |
 
-### Esempi
+## Esempi
 
 Mostra come gestire le interferenze tra gli stili di elenco mentre si aggiunge un clone di un documento a se stesso.
 
@@ -170,7 +172,5 @@ dstDoc.Save(ArtifactsDir + "DocumentBuilder.AppendDocumentAndResolveStyles.docx"
 * enum [ImportFormatMode](../../importformatmode/)
 * class [ImportFormatOptions](../../importformatoptions/)
 * class [Document](../)
-* spazio dei nomi [Aspose.Words](../../document/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

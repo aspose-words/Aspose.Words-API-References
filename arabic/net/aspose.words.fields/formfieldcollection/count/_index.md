@@ -1,7 +1,9 @@
 ---
 title: FormFieldCollection.Count
-second_title: Aspose.Words لمراجع .NET API
-description: FormFieldCollection ملكية. إرجاع عدد حقول النموذج في المجموعة.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words لـ .NET
+description: FormFieldCollection Count ملكية. إرجاع عدد حقول النموذج في المجموعة في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fields/formfieldcollection/count/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/formfieldcollection/count/
 public int Count { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج أنواع مختلفة من حقول النموذج في المستند ومعالجتها باستخدام تطبيق زائر المستند.
 
@@ -148,7 +150,5 @@ public class FormFieldVisitor : DocumentVisitor
 ### أنظر أيضا
 
 * class [FormFieldCollection](../)
-* مساحة الاسم [Aspose.Words.Fields](../../formfieldcollection/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

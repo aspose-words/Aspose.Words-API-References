@@ -1,7 +1,9 @@
 ---
 title: MailMerge.MergeDuplicateRegions
-second_title: Aspose.Words for .NET API 参考
-description: MailMerge 财产. 获取或设置一个值该值指示在针对数据源或仅第一个区域执行邮件合并时是否应合并具有数据源 名称的所有文档邮件合并区域
+linktitle: MergeDuplicateRegions
+articleTitle: MergeDuplicateRegions
+second_title: 用于 .NET 的 Aspose.Words
+description: MailMerge MergeDuplicateRegions 财产. 获取或设置一个值该值指示在针对数据源或仅第一个区域执行邮件合并时是否应合并具有数据源 名称的所有文档邮件合并区域 在 C#.
 type: docs
 weight: 60
 url: /zh/net/aspose.words.mailmerging/mailmerge/mergeduplicateregions/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.mailmerging/mailmerge/mergeduplicateregions/
 public bool MergeDuplicateRegions { get; set; }
 ```
 
-### 评论
+## 评论
 
 默认值为`错误的`.
 
-### 例子
+## 例子
 
 演示如何使用重复的邮件合并区域。
 
@@ -76,7 +78,5 @@ private static DataTable CreateSourceTableMergeDuplicateRegions()
 ### 也可以看看
 
 * class [MailMerge](../)
-* 命名空间 [Aspose.Words.MailMerging](../../mailmerge/)
+* 命名空间 [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * 部件 [Aspose.Words](../../../)
-
-

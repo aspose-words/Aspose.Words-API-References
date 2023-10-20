@@ -1,7 +1,9 @@
 ---
 title: PageSetup.Bidi
-second_title: Aspose.Words för .NET API Referens
-description: PageSetup fast egendom. Anger att det här avsnittet innehåller dubbelriktad komplexa skript text.
+linktitle: Bidi
+articleTitle: Bidi
+second_title: Aspose.Words för .NET
+description: PageSetup Bidi fast egendom. Anger att det här avsnittet innehåller dubbelriktad komplexa skript text i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words/pagesetup/bidi/
@@ -14,11 +16,11 @@ Anger att det här avsnittet innehåller dubbelriktad (komplexa skript) text.
 public bool Bidi { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 När`Sann`är kolumnerna i detta avsnitt upplagda från höger till vänster.
 
-### Exempel
+## Exempel
 
 Visar hur man ställer in ordningen på textkolumner i ett avsnitt.
 
@@ -47,7 +49,5 @@ doc.Save(ArtifactsDir + "PageSetup.Bidi.docx");
 ### Se även
 
 * class [PageSetup](../)
-* namnutrymme [Aspose.Words](../../pagesetup/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

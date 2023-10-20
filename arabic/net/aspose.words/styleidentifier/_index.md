@@ -1,7 +1,9 @@
 ---
-title: Enum StyleIdentifier
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.StyleIdentifier تعداد. معرف النمط المستقل للإعدادات المحلية.
+title: StyleIdentifier Enum
+linktitle: StyleIdentifier
+articleTitle: StyleIdentifier
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.StyleIdentifier تعداد. معرف النمط المستقل للإعدادات المحلية في C#.
 type: docs
 weight: 6150
 url: /ar/net/aspose.words/styleidentifier/
@@ -397,13 +399,13 @@ public enum StyleIdentifier
 | User | `4094` | نمط محدد من قبل المستخدم. |
 | Nil | `12287` | محجوز للاستخدام الداخلي. |
 
-### ملاحظات
+## ملاحظات
 
 تمت ترجمة أسماء الأنماط المضمنة في برنامج MS Word للغات مختلفة. باستخدام معرف النمط، يمكنك العثور على النمط الصحيح بغض النظر عن لغة المستند.
 
 يتم تعيين كافة الأنماط المعرفة بواسطة المستخدمUser قيمة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تغيير نمط النص الموجود.
 
@@ -438,5 +440,3 @@ doc.Save(ArtifactsDir + "Font.ChangeStyle.docx");
 
 * مساحة الاسم [Aspose.Words](../../aspose.words/)
 * المجسم [Aspose.Words](../../)
-
-

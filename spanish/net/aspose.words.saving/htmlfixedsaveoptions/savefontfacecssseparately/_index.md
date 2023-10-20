@@ -1,7 +1,9 @@
 ---
 title: HtmlFixedSaveOptions.SaveFontFaceCssSeparately
-second_title: Referencia de API de Aspose.Words para .NET
-description: HtmlFixedSaveOptions propiedad. El indicador indica si las reglas CSS fontface deben colocarse en un archivo separado fontFaces.css cuando un documento se guarda con una hoja de estilo externa es decir cuandoExportEmbeddedCss esFALSO . El valor predeterminado esFALSO  todas las reglas CSS se escriben en un único archivo styles.css.
+linktitle: SaveFontFaceCssSeparately
+articleTitle: SaveFontFaceCssSeparately
+second_title: Aspose.Words para .NET
+description: HtmlFixedSaveOptions SaveFontFaceCssSeparately propiedad. El indicador indica si las reglas CSS fontface deben colocarse en un archivo separado fontFaces.css cuando un documento se guarda con una hoja de estilo externa es decir cuandoExportEmbeddedCss esFALSO . El valor predeterminado esFALSO  todas las reglas CSS se escriben en un único archivo styles.css en C#.
 type: docs
 weight: 160
 url: /es/net/aspose.words.saving/htmlfixedsaveoptions/savefontfacecssseparately/
@@ -14,11 +16,11 @@ El indicador indica si las reglas CSS "@font-face" deben colocarse en un archivo
 public bool SaveFontFaceCssSeparately { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 Establecer esta propiedad en`verdadero` restaura el comportamiento anterior (archivos separados) para compatibilidad con el código heredado.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo colocar CSS en un archivo separado y agregar un prefijo a todos sus nombres de clases CSS.
 
@@ -50,7 +52,5 @@ Assert.True(Regex.Match(outDocContents,
 ### Ver también
 
 * class [HtmlFixedSaveOptions](../)
-* espacio de nombres [Aspose.Words.Saving](../../htmlfixedsaveoptions/)
+* espacio de nombres [Aspose.Words.Saving](../../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../../)
-
-

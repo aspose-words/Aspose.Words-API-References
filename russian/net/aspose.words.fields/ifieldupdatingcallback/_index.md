@@ -1,7 +1,9 @@
 ---
-title: Interface IFieldUpdatingCallback
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Fields.IFieldUpdatingCallback интерфейс. Реализуйте этот интерфейс если вы хотите чтобы во время обновления поля вызывались ваши собственные методы.
+title: IFieldUpdatingCallback Interface
+linktitle: IFieldUpdatingCallback
+articleTitle: IFieldUpdatingCallback
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Fields.IFieldUpdatingCallback интерфейс. Реализуйте этот интерфейс если вы хотите чтобы во время обновления поля вызывались ваши собственные методы на С#.
 type: docs
 weight: 2720
 url: /ru/net/aspose.words.fields/ifieldupdatingcallback/
@@ -18,10 +20,10 @@ public interface IFieldUpdatingCallback
 
 | Имя | Описание |
 | --- | --- |
-| [FieldUpdated](../../aspose.words.fields/ifieldupdatingcallback/fieldupdated/)(Field) | Определенный пользователем метод, который вызывается сразу после обновления поля. |
-| [FieldUpdating](../../aspose.words.fields/ifieldupdatingcallback/fieldupdating/)(Field) | Определенный пользователем метод, который вызывается непосредственно перед обновлением поля. |
+| [FieldUpdated](../../aspose.words.fields/ifieldupdatingcallback/fieldupdated/)(*[Field](../field/)*) | Определенный пользователем метод, который вызывается сразу после обновления поля. |
+| [FieldUpdating](../../aspose.words.fields/ifieldupdatingcallback/fieldupdating/)(*[Field](../field/)*) | Определенный пользователем метод, который вызывается непосредственно перед обновлением поля. |
 
-### Примеры
+## Примеры
 
 Показывает, как использовать методы обратного вызова во время обновления поля.
 
@@ -90,5 +92,3 @@ public class FieldUpdatingCallback : IFieldUpdatingCallback, IFieldUpdatingProgr
 
 * пространство имен [Aspose.Words.Fields](../../aspose.words.fields/)
 * сборка [Aspose.Words](../../)
-
-

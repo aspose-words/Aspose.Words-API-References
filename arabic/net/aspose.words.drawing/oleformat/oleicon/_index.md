@@ -1,7 +1,9 @@
 ---
 title: OleFormat.OleIcon
-second_title: Aspose.Words لمراجع .NET API
-description: OleFormat ملكية. الحصول على مظهر الرسم لكائن OLE. متىحقيقي  يتم عرض كائن OLE كرمز. متىخطأ شنيع  يتم عرض كائن OLE كمحتوى.
+linktitle: OleIcon
+articleTitle: OleIcon
+second_title: Aspose.Words لـ .NET
+description: OleFormat OleIcon ملكية. الحصول على مظهر الرسم لكائن OLE. متىحقيقي  يتم عرض كائن OLE كرمز. متىخطأ شنيع  يتم عرض كائن OLE كمحتوى في C#.
 type: docs
 weight: 70
 url: /ar/net/aspose.words.drawing/oleformat/oleicon/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.drawing/oleformat/oleicon/
 public bool OleIcon { get; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 لا يسمح Aspose.Words بتعيين هذه الخاصية لتجنب الالتباس. إذا تمكنت من تغيير جانب الرسم في Aspose.Words، فسيظل Microsoft Word يعرض كائن OLE في جانب الرسم original الخاص به حتى تقوم بتحرير كائن OLE أو تحديثه في Microsoft Word.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج كائنات OLE المرتبطة وغير المرتبطة.
 
@@ -68,7 +70,5 @@ using (MemoryStream stream = oleFormat.GetOleEntry("\x0001CompObj"))
 ### أنظر أيضا
 
 * class [OleFormat](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../oleformat/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

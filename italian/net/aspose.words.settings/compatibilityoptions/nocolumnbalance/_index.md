@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.NoColumnBalance
-second_title: Aspose.Words per .NET API Reference
-description: CompatibilityOptions proprietà. Non bilanciare le colonne di testo allinterno di una sezione.
+linktitle: NoColumnBalance
+articleTitle: NoColumnBalance
+second_title: Aspose.Words per .NET
+description: CompatibilityOptions NoColumnBalance proprietà. Non bilanciare le colonne di testo allinterno di una sezione in C#.
 type: docs
 weight: 330
 url: /it/net/aspose.words.settings/compatibilityoptions/nocolumnbalance/
@@ -17,7 +19,5 @@ public bool NoColumnBalance { get; set; }
 ### Guarda anche
 
 * class [CompatibilityOptions](../)
-* spazio dei nomi [Aspose.Words.Settings](../../compatibilityoptions/)
+* spazio dei nomi [Aspose.Words.Settings](../../../aspose.words.settings/)
 * assemblea [Aspose.Words](../../../)
-
-

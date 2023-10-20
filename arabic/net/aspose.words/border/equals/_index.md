@@ -1,12 +1,14 @@
 ---
 title: Border.Equals
-second_title: Aspose.Words لمراجع .NET API
-description: Border طريقة. تحديد ما إذا كان الحد المحدد مساويًا في القيمة للحد الحالي.
+linktitle: Equals
+articleTitle: Equals
+second_title: Aspose.Words لـ .NET
+description: Border Equals طريقة. تحديد ما إذا كان الحد المحدد مساويًا في القيمة للحد الحالي في C#.
 type: docs
 weight: 100
 url: /ar/net/aspose.words/border/equals/
 ---
-## Equals(Border) {#equals}
+## Equals(*[Border](../)*) {#equals}
 
 تحديد ما إذا كان الحد المحدد مساويًا في القيمة للحد الحالي.
 
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/border/equals/
 public bool Equals(Border rhs)
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيف يمكن لمجموعات الحدود مشاركة العناصر.
 
@@ -56,12 +58,12 @@ doc.Save(ArtifactsDir + "Border.SharedElements.docx");
 ### أنظر أيضا
 
 * class [Border](../)
-* مساحة الاسم [Aspose.Words](../../border/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## Equals(object) {#equals_1}
+## Equals(*object*) {#equals_1}
 
 تحديد ما إذا كان الكائن المحدد يساوي قيمة الكائن الحالي.
 
@@ -69,7 +71,7 @@ doc.Save(ArtifactsDir + "Border.SharedElements.docx");
 public override bool Equals(object obj)
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيف يمكن لمجموعات الحدود مشاركة العناصر.
 
@@ -111,7 +113,5 @@ doc.Save(ArtifactsDir + "Border.SharedElements.docx");
 ### أنظر أيضا
 
 * class [Border](../)
-* مساحة الاسم [Aspose.Words](../../border/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Shape.HasImage
-second_title: Aspose.Words for .NET API 参考
-description: Shape 财产. 返回真的如果形状具有图像字节或链接图像
+linktitle: HasImage
+articleTitle: HasImage
+second_title: 用于 .NET 的 Aspose.Words
+description: Shape HasImage 财产. 返回真的如果形状具有图像字节或链接图像 在 C#.
 type: docs
 weight: 80
 url: /zh/net/aspose.words.drawing/shape/hasimage/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.drawing/shape/hasimage/
 public bool HasImage { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何从文档中删除所有带有图像的形状。
 
@@ -60,7 +62,5 @@ foreach (Shape shape in shapes.OfType<Shape>())
 ### 也可以看看
 
 * class [Shape](../)
-* 命名空间 [Aspose.Words.Drawing](../../shape/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

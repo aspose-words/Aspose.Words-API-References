@@ -1,7 +1,9 @@
 ---
 title: ConditionalStyle.ClearFormatting
-second_title: Aspose.Words för .NET API Referens
-description: ConditionalStyle metod. Rensar formateringen av denna villkorliga stil.
+linktitle: ClearFormatting
+articleTitle: ClearFormatting
+second_title: Aspose.Words för .NET
+description: ConditionalStyle ClearFormatting metod. Rensar formateringen av denna villkorliga stil i C#.
 type: docs
 weight: 100
 url: /sv/net/aspose.words/conditionalstyle/clearformatting/
@@ -14,7 +16,7 @@ Rensar formateringen av denna villkorliga stil.
 public void ClearFormatting()
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man återställer villkorliga tabellstilar.
 
@@ -54,7 +56,5 @@ Assert.True(tableStyle.ConditionalStyles.All(s => s.Borders.Color == Color.Empty
 ### Se även
 
 * class [ConditionalStyle](../)
-* namnutrymme [Aspose.Words](../../conditionalstyle/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

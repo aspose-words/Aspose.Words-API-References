@@ -1,7 +1,9 @@
 ---
 title: BorderCollection.Equals
-second_title: Aspose.Words per .NET API Reference
-description: BorderCollection metodo. Confronta raccolte di bordi.
+linktitle: Equals
+articleTitle: Equals
+second_title: Aspose.Words per .NET
+description: BorderCollection Equals metodo. Confronta raccolte di bordi in C#.
 type: docs
 weight: 150
 url: /it/net/aspose.words/bordercollection/equals/
@@ -14,7 +16,7 @@ Confronta raccolte di bordi.
 public bool Equals(BorderCollection brColl)
 ```
 
-### Esempi
+## Esempi
 
 Mostra come le raccolte di bordi possono condividere elementi.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "Border.SharedElements.docx");
 ### Guarda anche
 
 * class [BorderCollection](../)
-* spazio dei nomi [Aspose.Words](../../bordercollection/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

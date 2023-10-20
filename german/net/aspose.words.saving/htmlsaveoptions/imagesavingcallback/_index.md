@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ImageSavingCallback
-second_title: Aspose.Words für .NET-API-Referenz
-description: HtmlSaveOptions eigendom. Ermöglicht die Steuerung wie Bilder gespeichert werden wenn ein Dokument in HTML MHTML oder EPUB gespeichert wird.
+linktitle: ImageSavingCallback
+articleTitle: ImageSavingCallback
+second_title: Aspose.Words für .NET
+description: HtmlSaveOptions ImageSavingCallback eigendom. Ermöglicht die Steuerung wie Bilder gespeichert werden wenn ein Dokument in HTML MHTML oder EPUB gespeichert wird in C#.
 type: docs
 weight: 350
 url: /de/net/aspose.words.saving/htmlsaveoptions/imagesavingcallback/
@@ -14,7 +16,7 @@ Ermöglicht die Steuerung, wie Bilder gespeichert werden, wenn ein Dokument in H
 public IImageSavingCallback ImageSavingCallback { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man ein Dokument in Teile aufteilt und diese speichert.
 
@@ -132,7 +134,5 @@ public class SavedImageRename : IImageSavingCallback
 
 * interface [IImageSavingCallback](../../iimagesavingcallback/)
 * class [HtmlSaveOptions](../)
-* namensraum [Aspose.Words.Saving](../../htmlsaveoptions/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

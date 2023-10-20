@@ -1,7 +1,9 @@
 ---
 title: ImageSize.WidthPoints
-second_title: Aspose.Words för .NET API Referens
-description: ImageSize fast egendom. Hämtar bildens bredd i punkter. 1 poäng är 1/72 tum.
+linktitle: WidthPoints
+articleTitle: WidthPoints
+second_title: Aspose.Words för .NET
+description: ImageSize WidthPoints fast egendom. Hämtar bildens bredd i punkter. 1 poäng är 1/72 tum i C#.
 type: docs
 weight: 70
 url: /sv/net/aspose.words.drawing/imagesize/widthpoints/
@@ -14,7 +16,7 @@ Hämtar bildens bredd i punkter. 1 poäng är 1/72 tum.
 public double WidthPoints { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man ändrar storlek på en form med en bild.
 
@@ -71,7 +73,5 @@ Visar hur man ändrar storlek på en form med en bild.
 ### Se även
 
 * class [ImageSize](../)
-* namnutrymme [Aspose.Words.Drawing](../../imagesize/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

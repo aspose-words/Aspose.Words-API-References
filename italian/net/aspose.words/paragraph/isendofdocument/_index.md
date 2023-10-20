@@ -1,7 +1,9 @@
 ---
 title: Paragraph.IsEndOfDocument
-second_title: Aspose.Words per .NET API Reference
-description: Paragraph proprietà. Vero se questo paragrafo è lultimo paragrafo dellultima sezione del documento.
+linktitle: IsEndOfDocument
+articleTitle: IsEndOfDocument
+second_title: Aspose.Words per .NET
+description: Paragraph IsEndOfDocument proprietà. Vero se questo paragrafo è lultimo paragrafo dellultima sezione del documento in C#.
 type: docs
 weight: 60
 url: /it/net/aspose.words/paragraph/isendofdocument/
@@ -14,7 +16,7 @@ Vero se questo paragrafo è l'ultimo paragrafo dell'ultima sezione del documento
 public bool IsEndOfDocument { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come inserire un paragrafo nel documento.
 
@@ -46,7 +48,5 @@ Assert.True(builder.CurrentParagraph.IsEndOfDocument);
 ### Guarda anche
 
 * class [Paragraph](../)
-* spazio dei nomi [Aspose.Words](../../paragraph/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

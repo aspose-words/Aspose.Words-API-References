@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitOfficeMathStart
-second_title: Справочник по API Aspose.Words для .NET
-description: DocumentVisitor метод. Вызывается когда начинается перечисление объекта Office Math.
+linktitle: VisitOfficeMathStart
+articleTitle: VisitOfficeMathStart
+second_title: Aspose.Words для .NET
+description: DocumentVisitor VisitOfficeMathStart метод. Вызывается когда начинается перечисление объекта Office Math на С#.
 type: docs
 weight: 310
 url: /ru/net/aspose.words/documentvisitor/visitofficemathstart/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitOfficeMathStart(OfficeMath officeMath)
 
 А[`VisitorAction`](../../visitoraction/) значение, указывающее, как продолжить перечисление.
 
-### Примеры
+## Примеры
 
 Показывает, как распечатать структуру каждого узла офисной математики в документе.
 
@@ -116,7 +118,5 @@ public class OfficeMathStructurePrinter : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [OfficeMath](../../../aspose.words.math/officemath/)
 * class [DocumentVisitor](../)
-* пространство имен [Aspose.Words](../../documentvisitor/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

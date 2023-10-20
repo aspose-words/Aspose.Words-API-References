@@ -1,7 +1,9 @@
 ---
 title: SaveOptions.UpdateLastPrintedProperty
-second_title: Aspose.Words for .NET API 参考
-description: SaveOptions 财产. 获取或设置一个值确定是否LastPrinted属性在保存前更新
+linktitle: UpdateLastPrintedProperty
+articleTitle: UpdateLastPrintedProperty
+second_title: 用于 .NET 的 Aspose.Words
+description: SaveOptions UpdateLastPrintedProperty 财产. 获取或设置一个值确定是否LastPrinted属性在保存前更新 在 C#.
 type: docs
 weight: 170
 url: /zh/net/aspose.words.saving/saveoptions/updatelastprintedproperty/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.saving/saveoptions/updatelastprintedproperty/
 public bool UpdateLastPrintedProperty { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何在保存时更新文档的“CreatedTime”属性。
 
@@ -61,7 +63,5 @@ Assert.AreNotEqual(isUpdateLastPrintedProperty, new DateTime(2019, 12, 20) == do
 ### 也可以看看
 
 * class [SaveOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../saveoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

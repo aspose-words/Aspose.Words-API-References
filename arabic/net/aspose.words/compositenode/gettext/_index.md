@@ -1,9 +1,11 @@
 ---
 title: CompositeNode.GetText
-second_title: Aspose.Words لمراجع .NET API
-description: CompositeNode طريقة. الحصول على نص هذه العقدة وجميع أبنائها.
+linktitle: GetText
+articleTitle: GetText
+second_title: Aspose.Words لـ .NET
+description: CompositeNode GetText طريقة. الحصول على نص هذه العقدة وجميع أبنائها في C#.
 type: docs
-weight: 130
+weight: 110
 url: /ar/net/aspose.words/compositenode/gettext/
 ---
 ## CompositeNode.GetText method
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words/compositenode/gettext/
 public override string GetText()
 ```
 
-### ملاحظات
+## ملاحظات
 
 تتضمن السلسلة التي تم إرجاعها جميع عناصر التحكم والأحرف الخاصة كما هو موضح في[`ControlChar`](../../controlchar/).
 
-### أمثلة
+## أمثلة
 
 يُظهر الفرق بين استدعاء طريقتي GetText وToString على العقدة.
 
@@ -65,7 +67,5 @@ foreach (Paragraph para in paras.OfType<Paragraph>().Where(p => p.ListFormat.IsL
 ### أنظر أيضا
 
 * class [CompositeNode](../)
-* مساحة الاسم [Aspose.Words](../../compositenode/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

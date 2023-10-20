@@ -1,7 +1,9 @@
 ---
-title: Enum PageBorderAppliesTo
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.PageBorderAppliesTo 枚举. 指定在哪些页面上打印页面边框
+title: PageBorderAppliesTo Enum
+linktitle: PageBorderAppliesTo
+articleTitle: PageBorderAppliesTo
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.PageBorderAppliesTo 枚举. 指定在哪些页面上打印页面边框 在 C#.
 type: docs
 weight: 4340
 url: /zh/net/aspose.words/pageborderappliesto/
@@ -22,7 +24,7 @@ public enum PageBorderAppliesTo
 | FirstPage | `1` | 页面边框仅显示在该部分的第一页上。 |
 | OtherPages | `2` | 页面边框显示在除该部分的第一页之外的所有页面上。 |
 
-### 例子
+## 例子
 
 演示如何在第一页顶部创建宽蓝色带边框。
 
@@ -49,5 +51,3 @@ doc.Save(ArtifactsDir + "PageSetup.PageBorderProperties.docx");
 * property [BorderAppliesTo](../pagesetup/borderappliesto/)
 * 命名空间 [Aspose.Words](../../aspose.words/)
 * 部件 [Aspose.Words](../../)
-
-

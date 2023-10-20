@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitAbsolutePositionTab
-second_title: Aspose.Words for .NET API 参考
-description: DocumentVisitor 方法. 当 a 时调用AbsolutePositionTab文档中遇到节点
+linktitle: VisitAbsolutePositionTab
+articleTitle: VisitAbsolutePositionTab
+second_title: 用于 .NET 的 Aspose.Words
+description: DocumentVisitor VisitAbsolutePositionTab 方法. 当 a 时调用AbsolutePositionTab文档中遇到节点 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words/documentvisitor/visitabsolutepositiontab/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitAbsolutePositionTab(AbsolutePositionTab tab)
 
 A[`VisitorAction`](../../visitoraction/)指定如何继续枚举的值。
 
-### 例子
+## 例子
 
 演示如何使用文档访问者处理绝对位置制表符。
 
@@ -100,7 +102,5 @@ public class DocTextExtractor : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [AbsolutePositionTab](../../absolutepositiontab/)
 * class [DocumentVisitor](../)
-* 命名空间 [Aspose.Words](../../documentvisitor/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

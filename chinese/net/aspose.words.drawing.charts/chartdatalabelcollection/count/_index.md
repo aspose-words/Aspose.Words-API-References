@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabelCollection.Count
-second_title: Aspose.Words for .NET API 参考
-description: ChartDataLabelCollection 财产. 返回数量ChartDataLabel在这个集合中.
+linktitle: Count
+articleTitle: Count
+second_title: 用于 .NET 的 Aspose.Words
+description: ChartDataLabelCollection Count 财产. 返回数量ChartDataLabel在这个集合中 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.drawing.charts/chartdatalabelcollection/count/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.drawing.charts/chartdatalabelcollection/count/
 public int Count { get; }
 ```
 
-### 例子
+## 例子
 
 展示如何将标签应用到折线图中的数据点。
 
@@ -92,7 +94,5 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
 ### 也可以看看
 
 * class [ChartDataLabelCollection](../)
-* 命名空间 [Aspose.Words.Drawing.Charts](../../chartdatalabelcollection/)
+* 命名空间 [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * 部件 [Aspose.Words](../../../)
-
-

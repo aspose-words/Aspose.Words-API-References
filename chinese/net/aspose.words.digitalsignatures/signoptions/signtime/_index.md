@@ -1,20 +1,22 @@
 ---
 title: SignOptions.SignTime
-second_title: Aspose.Words for .NET API 参考
-description: SignOptions 财产. 签名日期 默认值为 当前时间Now.
+linktitle: SignTime
+articleTitle: SignTime
+second_title: 用于 .NET 的 Aspose.Words
+description: SignOptions SignTime 财产. 签名日期 默认值为当前时间Now 在 C#.
 type: docs
 weight: 70
 url: /zh/net/aspose.words.digitalsignatures/signoptions/signtime/
 ---
 ## SignOptions.SignTime property
 
-签名日期。 默认值为 **当前时间**（Now).
+签名日期。 默认值为**当前时间**（Now).
 
 ```csharp
 public DateTime SignTime { get; set; }
 ```
 
-### 例子
+## 例子
 
 展示如何对文档进行数字签名。
 
@@ -43,7 +45,5 @@ using (Stream streamIn = new FileStream(MyDir + "Document.docx", FileMode.Open))
 ### 也可以看看
 
 * class [SignOptions](../)
-* 命名空间 [Aspose.Words.DigitalSignatures](../../signoptions/)
+* 命名空间 [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: MailMergeRegionInfo.Level
-second_title: Aspose.Words per .NET API Reference
-description: MailMergeRegionInfo proprietà. Restituisce il livello di nidificazione per la regione.
+linktitle: Level
+articleTitle: Level
+second_title: Aspose.Words per .NET
+description: MailMergeRegionInfo Level proprietà. Restituisce il livello di nidificazione per la regione in C#.
 type: docs
 weight: 40
 url: /it/net/aspose.words.mailmerging/mailmergeregioninfo/level/
@@ -14,7 +16,7 @@ Restituisce il livello di nidificazione per la regione.
 public int Level { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come verificare le regioni di stampa unione.
 
@@ -59,7 +61,5 @@ Assert.AreEqual("TableEnd:NestedRegion1", endFieldMergeField.FieldName);
 ### Guarda anche
 
 * class [MailMergeRegionInfo](../)
-* spazio dei nomi [Aspose.Words.MailMerging](../../mailmergeregioninfo/)
+* spazio dei nomi [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * assemblea [Aspose.Words](../../../)
-
-

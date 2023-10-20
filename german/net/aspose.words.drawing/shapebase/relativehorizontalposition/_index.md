@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.RelativeHorizontalPosition
-second_title: Aspose.Words für .NET-API-Referenz
-description: ShapeBase eigendom. Gibt relativ zur horizontalen Positionierung der Form an.
+linktitle: RelativeHorizontalPosition
+articleTitle: RelativeHorizontalPosition
+second_title: Aspose.Words für .NET
+description: ShapeBase RelativeHorizontalPosition eigendom. Gibt relativ zur horizontalen Positionierung der Form an in C#.
 type: docs
 weight: 420
 url: /de/net/aspose.words.drawing/shapebase/relativehorizontalposition/
@@ -14,13 +16,13 @@ Gibt relativ zur horizontalen Positionierung der Form an.
 public RelativeHorizontalPosition RelativeHorizontalPosition { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Der Standardwert istColumn.
 
 Hat nur Auswirkungen auf schwebende Formen der obersten Ebene.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man ein schwebendes Bild in der Mitte einer Seite einfügt.
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "Image.CreateFloatingPageCenter.docx");
 
 * enum [RelativeHorizontalPosition](../../relativehorizontalposition/)
 * class [ShapeBase](../)
-* namensraum [Aspose.Words.Drawing](../../shapebase/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

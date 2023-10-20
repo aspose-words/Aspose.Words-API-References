@@ -1,20 +1,22 @@
 ---
 title: DocumentBuilder.IsAtEndOfStructuredDocumentTag
-second_title: Aspose.Words for .NET API 参考
-description: DocumentBuilder 财产. 返回 真的如果光标位于结构化文档标记的末尾
+linktitle: IsAtEndOfStructuredDocumentTag
+articleTitle: IsAtEndOfStructuredDocumentTag
+second_title: 用于 .NET 的 Aspose.Words
+description: DocumentBuilder IsAtEndOfStructuredDocumentTag 财产. 返回真的如果光标位于结构化文档标记的末尾 在 C#.
 type: docs
 weight: 120
 url: /zh/net/aspose.words/documentbuilder/isatendofstructureddocumenttag/
 ---
 ## DocumentBuilder.IsAtEndOfStructuredDocumentTag property
 
-返回 **真的**如果光标位于结构化文档标记的末尾。
+返回**真的**如果光标位于结构化文档标记的末尾。
 
 ```csharp
 public bool IsAtEndOfStructuredDocumentTag { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何在结构化文档标签内移动 DocumentBuilder 的光标。
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "Document.MoveToStructuredDocumentTag.docx");
 ### 也可以看看
 
 * class [DocumentBuilder](../)
-* 命名空间 [Aspose.Words](../../documentbuilder/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

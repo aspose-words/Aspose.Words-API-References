@@ -1,7 +1,9 @@
 ---
-title: Class AxisDisplayUnit
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Drawing.Charts.AxisDisplayUnit classe. Fornisce laccesso alle opzioni di scala delle unità di visualizzazione per lasse dei valori.
+title: AxisDisplayUnit Class
+linktitle: AxisDisplayUnit
+articleTitle: AxisDisplayUnit
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Drawing.Charts.AxisDisplayUnit classe. Fornisce laccesso alle opzioni di scala delle unità di visualizzazione per lasse dei valori in C#.
 type: docs
 weight: 550
 url: /it/net/aspose.words.drawing.charts/axisdisplayunit/
@@ -30,7 +32,7 @@ public class AxisDisplayUnit
 | [Document](../../aspose.words.drawing.charts/axisdisplayunit/document/) { get; } | Restituisce il documento a cui appartiene il titolare. |
 | [Unit](../../aspose.words.drawing.charts/axisdisplayunit/unit/) { get; set; } | Ottiene o imposta il valore di scala delle unità di visualizzazione come uno dei valori predefiniti. |
 
-### Esempi
+## Esempi
 
 Mostra come manipolare i segni di graduazione e i valori visualizzati di un asse del grafico.
 
@@ -89,5 +91,3 @@ doc.Save(ArtifactsDir + "Charts.AxisDisplayUnit.docx");
 
 * spazio dei nomi [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * assemblea [Aspose.Words](../../)
-
-

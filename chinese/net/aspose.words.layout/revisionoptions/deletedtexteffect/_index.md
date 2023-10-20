@@ -1,7 +1,9 @@
 ---
 title: RevisionOptions.DeletedTextEffect
-second_title: Aspose.Words for .NET API 参考
-description: RevisionOptions 财产. 允许指定要应用于已删除内容的效果Deletion. 默认值为StrikeThrough
+linktitle: DeletedTextEffect
+articleTitle: DeletedTextEffect
+second_title: 用于 .NET 的 Aspose.Words
+description: RevisionOptions DeletedTextEffect 财产. 允许指定要应用于已删除内容的效果Deletion. 默认值为StrikeThrough 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.layout/revisionoptions/deletedtexteffect/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.layout/revisionoptions/deletedtexteffect/
 public RevisionTextEffect DeletedTextEffect { get; set; }
 ```
 
-### 例子
+## 例子
 
 展示如何修改修订版本的外观。
 
@@ -66,7 +68,5 @@ doc.Save(ArtifactsDir + "Revision.RevisionOptions.pdf");
 
 * enum [RevisionTextEffect](../../revisiontexteffect/)
 * class [RevisionOptions](../)
-* 命名空间 [Aspose.Words.Layout](../../revisionoptions/)
+* 命名空间 [Aspose.Words.Layout](../../../aspose.words.layout/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: FieldFormText.FieldFormText
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldFormText строитель. Конструктор по умолчанию.
+title: FieldFormText
+linktitle: FieldFormText
+articleTitle: FieldFormText
+second_title: Aspose.Words для .NET
+description: FieldFormText строитель. Конструктор по умолчанию на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fields/fieldformtext/fieldformtext/
@@ -17,7 +19,5 @@ public FieldFormText()
 ### Смотрите также
 
 * class [FieldFormText](../)
-* пространство имен [Aspose.Words.Fields](../../fieldformtext/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FontInfo.Charset
-second_title: Aspose.Words per .NET API Reference
-description: FontInfo proprietà. Ottiene o imposta il set di caratteri per il carattere.
+linktitle: Charset
+articleTitle: Charset
+second_title: Aspose.Words per .NET
+description: FontInfo Charset proprietà. Ottiene o imposta il set di caratteri per il carattere in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words.fonts/fontinfo/charset/
@@ -14,7 +16,7 @@ Ottiene o imposta il set di caratteri per il carattere.
 public int Charset { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come accedere e stampare i dettagli di ciascun carattere in un documento.
 
@@ -53,7 +55,5 @@ while (fontCollectionEnumerator.MoveNext())
 ### Guarda anche
 
 * class [FontInfo](../)
-* spazio dei nomi [Aspose.Words.Fonts](../../fontinfo/)
+* spazio dei nomi [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * assemblea [Aspose.Words](../../../)
-
-

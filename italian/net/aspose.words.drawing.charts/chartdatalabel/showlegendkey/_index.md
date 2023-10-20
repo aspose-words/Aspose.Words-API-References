@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabel.ShowLegendKey
-second_title: Aspose.Words per .NET API Reference
-description: ChartDataLabel proprietà. Permette di specificare se visualizzare la chiave della legenda per le etichette dati su un grafico. Il valore predefinito èfalso .
+linktitle: ShowLegendKey
+articleTitle: ShowLegendKey
+second_title: Aspose.Words per .NET
+description: ChartDataLabel ShowLegendKey proprietà. Permette di specificare se visualizzare la chiave della legenda per le etichette dati su un grafico. Il valore predefinito èfalso  in C#.
 type: docs
 weight: 120
 url: /it/net/aspose.words.drawing.charts/chartdatalabel/showlegendkey/
@@ -14,7 +16,7 @@ Permette di specificare se visualizzare la chiave della legenda per le etichette
 public bool ShowLegendKey { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come applicare etichette ai punti dati in un grafico a linee.
 
@@ -92,7 +94,5 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
 ### Guarda anche
 
 * class [ChartDataLabel](../)
-* spazio dei nomi [Aspose.Words.Drawing.Charts](../../chartdatalabel/)
+* spazio dei nomi [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ThumbnailGeneratingOptions.GenerateFromFirstPage
-second_title: Aspose.Words for .NET API 参考
-description: ThumbnailGeneratingOptions 财产. 指定是否从文档的第一页或第一张图像生成缩略图
+linktitle: GenerateFromFirstPage
+articleTitle: GenerateFromFirstPage
+second_title: 用于 .NET 的 Aspose.Words
+description: ThumbnailGeneratingOptions GenerateFromFirstPage 财产. 指定是否从文档的第一页或第一张图像生成缩略图 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.rendering/thumbnailgeneratingoptions/generatefromfirstpage/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.rendering/thumbnailgeneratingoptions/generatefromfirst
 public bool GenerateFromFirstPage { get; set; }
 ```
 
-### 评论
+## 评论
 
 默认为`真的`，这意味着将从文档的第一页生成缩略图。 如果值为`错误的`并且文档中没有图像，将从文档的第一页生成缩略图 。
 
-### 例子
+## 例子
 
 展示如何更新文档的缩略图。
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "Document.UpdateThumbnail.FirstImage.epub");
 ### 也可以看看
 
 * class [ThumbnailGeneratingOptions](../)
-* 命名空间 [Aspose.Words.Rendering](../../thumbnailgeneratingoptions/)
+* 命名空间 [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * 部件 [Aspose.Words](../../../)
-
-

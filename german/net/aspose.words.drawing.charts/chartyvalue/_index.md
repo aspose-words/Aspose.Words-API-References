@@ -1,7 +1,9 @@
 ---
-title: Class ChartYValue
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Drawing.Charts.ChartYValue klas. Stellt einen YWert für eine Diagrammreihe dar.
+title: ChartYValue Class
+linktitle: ChartYValue
+articleTitle: ChartYValue
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Drawing.Charts.ChartYValue klas. Stellt einen YWert für eine Diagrammreihe dar in C#.
 type: docs
 weight: 870
 url: /de/net/aspose.words.drawing.charts/chartyvalue/
@@ -27,13 +29,13 @@ public class ChartYValue
 
 | Name | Beschreibung |
 | --- | --- |
-| static [FromDateTime](../../aspose.words.drawing.charts/chartyvalue/fromdatetime/)(DateTime) | Erstellt eine`ChartYValue` Instanz derDateTime Typ. |
-| static [FromDouble](../../aspose.words.drawing.charts/chartyvalue/fromdouble/)(double) | Erstellt eine`ChartYValue` Instanz derDouble Typ. |
-| static [FromTimeSpan](../../aspose.words.drawing.charts/chartyvalue/fromtimespan/)(TimeSpan) | Erstellt eine`ChartYValue` Instanz derTime Typ. |
-| override [Equals](../../aspose.words.drawing.charts/chartyvalue/equals/)(object) | Ruft ein Flag ab, das angibt, ob das angegebene Objekt gleich dem aktuellen Y-Wert-Objekt ist. |
+| static [FromDateTime](../../aspose.words.drawing.charts/chartyvalue/fromdatetime/)(*DateTime*) | Erstellt eine`ChartYValue` Instanz derDateTime Typ. |
+| static [FromDouble](../../aspose.words.drawing.charts/chartyvalue/fromdouble/)(*double*) | Erstellt eine`ChartYValue` Instanz derDouble Typ. |
+| static [FromTimeSpan](../../aspose.words.drawing.charts/chartyvalue/fromtimespan/)(*TimeSpan*) | Erstellt eine`ChartYValue` Instanz derTime Typ. |
+| override [Equals](../../aspose.words.drawing.charts/chartyvalue/equals/)(*object*) | Ruft ein Flag ab, das angibt, ob das angegebene Objekt gleich dem aktuellen Y-Wert-Objekt ist. |
 | override [GetHashCode](../../aspose.words.drawing.charts/chartyvalue/gethashcode/)() | Ruft einen Hash-Code für das aktuelle Y-Wert-Objekt ab. |
 
-### Bemerkungen
+## Bemerkungen
 
 Diese Klasse enthält eine Reihe statischer Methoden zum Erstellen eines Y-Werts eines bestimmten Typs. The [`ValueType`](./valuetype/) Mit der Eigenschaft können Sie den Typ eines vorhandenen Y-Werts bestimmen.
 
@@ -43,5 +45,3 @@ Alle Y-Werte ungleich Null einer Diagrammreihe müssen gleich sein[`ChartYValueT
 
 * namensraum [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../)
-
-

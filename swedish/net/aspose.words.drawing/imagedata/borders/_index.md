@@ -1,7 +1,9 @@
 ---
 title: ImageData.Borders
-second_title: Aspose.Words för .NET API Referens
-description: ImageData fast egendom. Hämtar samlingen av kanter för bilden. Kanter har endast effekt för inlinebilder.
+linktitle: Borders
+articleTitle: Borders
+second_title: Aspose.Words för .NET
+description: ImageData Borders fast egendom. Hämtar samlingen av kanter för bilden. Kanter har endast effekt för inlinebilder i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.drawing/imagedata/borders/
@@ -14,7 +16,7 @@ Hämtar samlingen av kanter för bilden. Kanter har endast effekt för inline-bi
 public BorderCollection Borders { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man redigerar en forms bilddata.
 
@@ -78,7 +80,5 @@ dstDoc.Save(ArtifactsDir + "Drawing.ImageData.docx");
 
 * class [BorderCollection](../../../aspose.words/bordercollection/)
 * class [ImageData](../)
-* namnutrymme [Aspose.Words.Drawing](../../imagedata/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class LoadOptions
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Loading.LoadOptions сорт. Позволяет указать дополнительные параметры например пароль или базовый URI при загрузке документа вDocument объект.
+title: LoadOptions Class
+linktitle: LoadOptions
+articleTitle: LoadOptions
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Loading.LoadOptions сорт. Позволяет указать дополнительные параметры например пароль или базовый URI при загрузке документа вDocument объект на С#.
 type: docs
 weight: 3660
 url: /ru/net/aspose.words.loading/loadoptions/
@@ -21,8 +23,8 @@ public class LoadOptions
 | Имя | Описание |
 | --- | --- |
 | [LoadOptions](loadoptions/#constructor)() | Инициализирует новый экземпляр этого класса со значениями по умолчанию. |
-| [LoadOptions](loadoptions/#constructor_2)(string) | Ярлык для инициализации нового экземпляра этого класса с указанным паролем для загрузки зашифрованного документа. |
-| [LoadOptions](loadoptions/#constructor_1)(LoadFormat, string, string) | Ярлык для инициализации нового экземпляра этого класса со свойствами, установленными в указанные значения. |
+| [LoadOptions](loadoptions/#constructor_2)(*string*) | Ярлык для инициализации нового экземпляра этого класса с указанным паролем для загрузки зашифрованного документа. |
+| [LoadOptions](loadoptions/#constructor_1)(*[LoadFormat](../../aspose.words/loadformat/), string, string*) | Ярлык для инициализации нового экземпляра этого класса со свойствами, установленными в указанные значения. |
 
 ## Характеристики
 
@@ -49,9 +51,9 @@ public class LoadOptions
 
 | Имя | Описание |
 | --- | --- |
-| override [Equals](../../aspose.words.loading/loadoptions/equals/)(object) |  |
+| override [Equals](../../aspose.words.loading/loadoptions/equals/)(*object*) |  |
 
-### Примеры
+## Примеры
 
 Показывает, как загрузить зашифрованный документ Microsoft Word.
 
@@ -78,5 +80,3 @@ using (Stream stream = File.OpenRead(MyDir + "Encrypted.docx"))
 
 * пространство имен [Aspose.Words.Loading](../../aspose.words.loading/)
 * сборка [Aspose.Words](../../)
-
-

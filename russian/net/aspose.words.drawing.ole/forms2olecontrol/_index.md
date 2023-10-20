@@ -1,7 +1,9 @@
 ---
-title: Class Forms2OleControl
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Drawing.Ole.Forms2OleControl сорт. Представляет элемент управления OLE Microsoft Forms 2.0.
+title: Forms2OleControl Class
+linktitle: Forms2OleControl
+articleTitle: Forms2OleControl
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Drawing.Ole.Forms2OleControl сорт. Представляет элемент управления OLE Microsoft Forms 2.0 на С#.
 type: docs
 weight: 1110
 url: /ru/net/aspose.words.drawing.ole/forms2olecontrol/
@@ -29,7 +31,7 @@ public abstract class Forms2OleControl : OleControl
 | abstract [Type](../../aspose.words.drawing.ole/forms2olecontrol/type/) { get; } | Получает тип элемента управления Forms 2.0. |
 | [Value](../../aspose.words.drawing.ole/forms2olecontrol/value/) { get; } | Получает базовое свойство Value, которое часто представляет состояние элемента управления. Например, отмеченная кнопка выбора имеет значение «1», а неотмеченная — «0». Значение по умолчанию — пустая строка. |
 
-### Примеры
+## Примеры
 
 Показывает, как проверить свойства элемента управления ActiveX.
 
@@ -61,5 +63,3 @@ if (oleControl.IsForms2OleControl)
 * class [OleControl](../olecontrol/)
 * пространство имен [Aspose.Words.Drawing.Ole](../../aspose.words.drawing.ole/)
 * сборка [Aspose.Words](../../)
-
-

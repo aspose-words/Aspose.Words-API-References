@@ -1,7 +1,9 @@
 ---
-title: Class GradientStopCollection
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Drawing.GradientStopCollection klass. Innehåller en samling avGradientStop objekt.
+title: GradientStopCollection Class
+linktitle: GradientStopCollection
+articleTitle: GradientStopCollection
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Drawing.GradientStopCollection klass. Innehåller en samling avGradientStop objekt i C#.
 type: docs
 weight: 990
 url: /sv/net/aspose.words.drawing/gradientstopcollection/
@@ -27,17 +29,17 @@ public class GradientStopCollection : IEnumerable<GradientStop>
 
 | namn | Beskrivning |
 | --- | --- |
-| [Add](../../aspose.words.drawing/gradientstopcollection/add/)(GradientStop) | Lägger till en specificerad[`GradientStop`](../gradientstop/) till en gradient. |
+| [Add](../../aspose.words.drawing/gradientstopcollection/add/)(*[GradientStop](../gradientstop/)*) | Lägger till en specificerad[`GradientStop`](../gradientstop/) till en gradient. |
 | [GetEnumerator](../../aspose.words.drawing/gradientstopcollection/getenumerator/)() | Returnerar en uppräkning som itererar genom samlingen. |
-| [Insert](../../aspose.words.drawing/gradientstopcollection/insert/)(int, GradientStop) | Infogar en[`GradientStop`](../gradientstop/) till samlingen vid ett specificerat index. |
-| [Remove](../../aspose.words.drawing/gradientstopcollection/remove/)(GradientStop) | Tar bort en angiven[`GradientStop`](../gradientstop/) från samlingen. |
-| [RemoveAt](../../aspose.words.drawing/gradientstopcollection/removeat/)(int) | Tar bort en[`GradientStop`](../gradientstop/) från samlingen vid ett specificerat index. |
+| [Insert](../../aspose.words.drawing/gradientstopcollection/insert/)(*int, [GradientStop](../gradientstop/)*) | Infogar en[`GradientStop`](../gradientstop/) till samlingen vid ett specificerat index. |
+| [Remove](../../aspose.words.drawing/gradientstopcollection/remove/)(*[GradientStop](../gradientstop/)*) | Tar bort en angiven[`GradientStop`](../gradientstop/) från samlingen. |
+| [RemoveAt](../../aspose.words.drawing/gradientstopcollection/removeat/)(*int*) | Tar bort en[`GradientStop`](../gradientstop/) från samlingen vid ett specificerat index. |
 
-### Anmärkningar
+## Anmärkningar
 
 Du skapar inte instanser av den här klassen direkt. Använd[`GradientStops`](../fill/gradientstops/)egenskap för att komma åt övertoningsstopp för fyllningsobjekt.
 
-### Exempel
+## Exempel
 
 Visar hur man lägger till övertoningsstopp i övertoningsfyllningen.
 
@@ -92,5 +94,3 @@ doc.Save(ArtifactsDir + "Shape.GradientStops.docx", saveOptions);
 * class [GradientStop](../gradientstop/)
 * namnutrymme [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../)
-
-

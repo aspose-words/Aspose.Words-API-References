@@ -1,7 +1,9 @@
 ---
 title: BookmarkCollection.Clear
-second_title: Aspose.Words per .NET API Reference
-description: BookmarkCollection metodo. Rimuove tutti i segnalibri da questa raccolta e dal documento.
+linktitle: Clear
+articleTitle: Clear
+second_title: Aspose.Words per .NET
+description: BookmarkCollection Clear metodo. Rimuove tutti i segnalibri da questa raccolta e dal documento in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words/bookmarkcollection/clear/
@@ -14,7 +16,7 @@ Rimuove tutti i segnalibri da questa raccolta e dal documento.
 public void Clear()
 ```
 
-### Esempi
+## Esempi
 
 Mostra come rimuovere i segnalibri da un documento.
 
@@ -75,7 +77,5 @@ Assert.AreEqual("Text inside MyBookmark_1.\r" +
 ### Guarda anche
 
 * class [BookmarkCollection](../)
-* spazio dei nomi [Aspose.Words](../../bookmarkcollection/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

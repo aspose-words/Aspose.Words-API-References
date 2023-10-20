@@ -1,7 +1,9 @@
 ---
 title: FieldBarcode.IsBookmark
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldBarcode propiedad. Obtiene o establece siPostalAddress es el nombre de un marcador.
+linktitle: IsBookmark
+articleTitle: IsBookmark
+second_title: Aspose.Words para .NET
+description: FieldBarcode IsBookmark propiedad. Obtiene o establece siPostalAddress es el nombre de un marcador en C#.
 type: docs
 weight: 30
 url: /es/net/aspose.words.fields/fieldbarcode/isbookmark/
@@ -14,7 +16,7 @@ Obtiene o establece si[`PostalAddress`](../postaladdress/) es el nombre de un ma
 public bool IsBookmark { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo utilizar el campo CÓDIGO DE BARRAS para mostrar códigos postales de EE. UU. en forma de código de barras.
 
@@ -57,7 +59,5 @@ doc.Save(ArtifactsDir + "Field.BARCODE.docx");
 ### Ver también
 
 * class [FieldBarcode](../)
-* espacio de nombres [Aspose.Words.Fields](../../fieldbarcode/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

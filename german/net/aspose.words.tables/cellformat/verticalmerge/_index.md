@@ -1,9 +1,11 @@
 ---
 title: CellFormat.VerticalMerge
-second_title: Aspose.Words für .NET-API-Referenz
-description: CellFormat eigendom. Gibt an wie die Zelle vertikal mit anderen Zellen zusammengeführt wird.
+linktitle: VerticalMerge
+articleTitle: VerticalMerge
+second_title: Aspose.Words für .NET
+description: CellFormat VerticalMerge eigendom. Gibt an wie die Zelle vertikal mit anderen Zellen zusammengeführt wird in C#.
 type: docs
-weight: 130
+weight: 120
 url: /de/net/aspose.words.tables/cellformat/verticalmerge/
 ---
 ## CellFormat.VerticalMerge property
@@ -14,13 +16,13 @@ Gibt an, wie die Zelle vertikal mit anderen Zellen zusammengeführt wird.
 public CellMerge VerticalMerge { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Zellen können nur dann vertikal zusammengeführt werden, wenn ihre linken und rechten Grenzen identisch sind.
 
 Wenn Zellen vertikal zusammengeführt werden, werden die Anzeigebereiche der zusammengeführten Zellen konsolidiert. Der konsolidierte Bereich wird verwendet, um den Inhalt der ersten vertikal zusammengeführten Zelle anzuzeigen und alle anderen vertikal zusammengeführten Zellen müssen leer sein.
 
-### Beispiele
+## Beispiele
 
 Druckt den horizontalen und vertikalen Zusammenführungstyp einer Zelle.
 
@@ -89,7 +91,5 @@ doc.Save(ArtifactsDir + "CellFormat.VerticalMerge.docx");
 
 * enum [CellMerge](../../cellmerge/)
 * class [CellFormat](../)
-* namensraum [Aspose.Words.Tables](../../cellformat/)
+* namensraum [Aspose.Words.Tables](../../../aspose.words.tables/)
 * Montage [Aspose.Words](../../../)
-
-

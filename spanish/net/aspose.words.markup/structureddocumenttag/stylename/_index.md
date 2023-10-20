@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTag.StyleName
-second_title: Referencia de API de Aspose.Words para .NET
-description: StructuredDocumentTag propiedad. Obtiene o establece el nombre del estilo aplicado a la etiqueta del documento estructurado.
+linktitle: StyleName
+articleTitle: StyleName
+second_title: Aspose.Words para .NET
+description: StructuredDocumentTag StyleName propiedad. Obtiene o establece el nombre del estilo aplicado a la etiqueta del documento estructurado en C#.
 type: docs
 weight: 270
 url: /es/net/aspose.words.markup/structureddocumenttag/stylename/
@@ -14,7 +16,7 @@ Obtiene o establece el nombre del estilo aplicado a la etiqueta del documento es
 public string StyleName { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo trabajar con estilos para elementos de control de contenido.
 
@@ -53,7 +55,5 @@ foreach (Node node in tags)
 ### Ver también
 
 * class [StructuredDocumentTag](../)
-* espacio de nombres [Aspose.Words.Markup](../../structureddocumenttag/)
+* espacio de nombres [Aspose.Words.Markup](../../../aspose.words.markup/)
 * asamblea [Aspose.Words](../../../)
-
-

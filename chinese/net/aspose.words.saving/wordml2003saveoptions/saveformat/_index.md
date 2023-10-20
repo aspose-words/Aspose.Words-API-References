@@ -1,7 +1,9 @@
 ---
 title: WordML2003SaveOptions.SaveFormat
-second_title: Aspose.Words for .NET API 参考
-description: WordML2003SaveOptions 财产. 指定使用此保存选项对象时保存文档的格式 只能是WordML.
+linktitle: SaveFormat
+articleTitle: SaveFormat
+second_title: 用于 .NET 的 Aspose.Words
+description: WordML2003SaveOptions SaveFormat 财产. 指定使用此保存选项对象时保存文档的格式 只能是WordML 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.saving/wordml2003saveoptions/saveformat/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.saving/wordml2003saveoptions/saveformat/
 public override SaveFormat SaveFormat { get; set; }
 ```
 
-### 例子
+## 例子
 
 展示如何管理输出文档的原始内容。
 
@@ -62,7 +64,5 @@ else
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
 * class [WordML2003SaveOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../wordml2003saveoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

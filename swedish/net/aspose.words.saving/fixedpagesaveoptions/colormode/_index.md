@@ -1,7 +1,9 @@
 ---
 title: FixedPageSaveOptions.ColorMode
-second_title: Aspose.Words för .NET API Referens
-description: FixedPageSaveOptions fast egendom. Hämtar eller ställer in ett värde som bestämmer hur färger återges.
+linktitle: ColorMode
+articleTitle: ColorMode
+second_title: Aspose.Words för .NET
+description: FixedPageSaveOptions ColorMode fast egendom. Hämtar eller ställer in ett värde som bestämmer hur färger återges i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.saving/fixedpagesaveoptions/colormode/
@@ -14,11 +16,11 @@ Hämtar eller ställer in ett värde som bestämmer hur färger återges.
 public ColorMode ColorMode { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Standardvärdet ärNormal .
 
-### Exempel
+## Exempel
 
 Visar hur du ändrar bildfärg med egenskapen sparalternativ.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.ColorRendering.pdf", pdfSaveOptions);
 
 * enum [ColorMode](../../colormode/)
 * class [FixedPageSaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../fixedpagesaveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

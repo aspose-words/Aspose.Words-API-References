@@ -1,7 +1,9 @@
 ---
 title: MailMerge.TrimWhitespaces
-second_title: Справочник по API Aspose.Words для .NET
-description: MailMerge свойство. Получает или задает значение указывающее удаляются ли конечные и начальные пробелы из значений слияния почты.
+linktitle: TrimWhitespaces
+articleTitle: TrimWhitespaces
+second_title: Aspose.Words для .NET
+description: MailMerge TrimWhitespaces свойство. Получает или задает значение указывающее удаляются ли конечные и начальные пробелы из значений слияния почты на С#.
 type: docs
 weight: 130
 url: /ru/net/aspose.words.mailmerging/mailmerge/trimwhitespaces/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.mailmerging/mailmerge/trimwhitespaces/
 public bool TrimWhitespaces { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Значение по умолчанию:`истинный` .
 
-### Примеры
+## Примеры
 
 Показывает, как удалить пробелы из значений источника данных при выполнении слияния почты.
 
@@ -37,7 +39,5 @@ Assert.AreEqual(trimWhitespaces ? "hello world!\f" : "\t hello world! \f", doc.G
 ### Смотрите также
 
 * class [MailMerge](../)
-* пространство имен [Aspose.Words.MailMerging](../../mailmerge/)
+* пространство имен [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: FieldNumWords.FieldNumWords
-second_title: Aspose.Words för .NET API Referens
-description: FieldNumWords byggare. Default_Constructor
+title: FieldNumWords
+linktitle: FieldNumWords
+articleTitle: FieldNumWords
+second_title: Aspose.Words för .NET
+description: FieldNumWords byggare. Default_Constructor i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.fields/fieldnumwords/fieldnumwords/
@@ -17,7 +19,5 @@ public FieldNumWords()
 ### Se även
 
 * class [FieldNumWords](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldnumwords/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

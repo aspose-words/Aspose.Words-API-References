@@ -1,7 +1,9 @@
 ---
 title: ImageSavingArgs.Document
-second_title: Aspose.Words für .NET-API-Referenz
-description: ImageSavingArgs eigendom. Ruft das Dokumentobjekt ab das gerade gespeichert wird.
+linktitle: Document
+articleTitle: Document
+second_title: Aspose.Words für .NET
+description: ImageSavingArgs Document eigendom. Ruft das Dokumentobjekt ab das gerade gespeichert wird in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.saving/imagesavingargs/document/
@@ -14,7 +16,7 @@ Ruft das Dokumentobjekt ab, das gerade gespeichert wird.
 public Document Document { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Rückruf zum Speichern von Bildern in einen HTML-Konvertierungsprozess einbezogen wird.
 
@@ -61,7 +63,5 @@ private class ImageShapePrinter : IImageSavingCallback
 
 * class [Document](../../../aspose.words/document/)
 * class [ImageSavingArgs](../)
-* namensraum [Aspose.Words.Saving](../../imagesavingargs/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

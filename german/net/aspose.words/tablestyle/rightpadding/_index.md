@@ -1,7 +1,9 @@
 ---
 title: TableStyle.RightPadding
-second_title: Aspose.Words für .NET-API-Referenz
-description: TableStyle eigendom. Ruft die Menge an Platz in Punkten ab die rechts vom Inhalt von Tabellenzellen hinzugefügt werden soll oder legt diese fest.
+linktitle: RightPadding
+articleTitle: RightPadding
+second_title: Aspose.Words für .NET
+description: TableStyle RightPadding eigendom. Ruft die Menge an Platz in Punkten ab die rechts vom Inhalt von Tabellenzellen hinzugefügt werden soll oder legt diese fest in C#.
 type: docs
 weight: 110
 url: /de/net/aspose.words/tablestyle/rightpadding/
@@ -14,7 +16,7 @@ Ruft die Menge an Platz (in Punkten) ab, die rechts vom Inhalt von Tabellenzelle
 public double RightPadding { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie benutzerdefinierte Stileinstellungen für die Tabelle erstellen.
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "Table.TableStyleCreation.docx");
 ### Siehe auch
 
 * class [TableStyle](../)
-* namensraum [Aspose.Words](../../tablestyle/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

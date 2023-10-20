@@ -1,12 +1,14 @@
 ---
 title: TableSubstitutionRule.Load
-second_title: Aspose.Words per .NET API Reference
-description: TableSubstitutionRule metodo. Carica le impostazioni di sostituzione della tabella dal file XML.
+linktitle: Load
+articleTitle: Load
+second_title: Aspose.Words per .NET
+description: TableSubstitutionRule Load metodo. Carica le impostazioni di sostituzione della tabella dal file XML in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words.fonts/tablesubstitutionrule/load/
 ---
-## Load(string) {#load_1}
+## Load(*string*) {#load_1}
 
 Carica le impostazioni di sostituzione della tabella dal file XML.
 
@@ -18,7 +20,7 @@ public void Load(string fileName)
 | --- | --- | --- |
 | fileName | String | Inserisci il nome del file. |
 
-### Esempi
+## Esempi
 
 Mostra come lavorare con le tabelle di sostituzione dei caratteri personalizzate.
 
@@ -79,12 +81,12 @@ doc.Save(ArtifactsDir + "FontSettings.TableSubstitutionRule.Custom.pdf");
 ### Guarda anche
 
 * class [TableSubstitutionRule](../)
-* spazio dei nomi [Aspose.Words.Fonts](../../tablesubstitutionrule/)
+* spazio dei nomi [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * assemblea [Aspose.Words](../../../)
 
 ---
 
-## Load(Stream) {#load}
+## Load(*Stream*) {#load}
 
 Carica le impostazioni di sostituzione della tabella dal flusso XML.
 
@@ -96,7 +98,7 @@ public void Load(Stream stream)
 | --- | --- | --- |
 | stream | Stream | Flusso di input. |
 
-### Esempi
+## Esempi
 
 Mostra come lavorare con le tabelle di sostituzione dei caratteri personalizzate.
 
@@ -157,7 +159,5 @@ doc.Save(ArtifactsDir + "FontSettings.TableSubstitutionRule.Custom.pdf");
 ### Guarda anche
 
 * class [TableSubstitutionRule](../)
-* spazio dei nomi [Aspose.Words.Fonts](../../tablesubstitutionrule/)
+* spazio dei nomi [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * assemblea [Aspose.Words](../../../)
-
-

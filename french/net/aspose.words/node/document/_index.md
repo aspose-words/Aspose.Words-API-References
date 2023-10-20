@@ -1,7 +1,9 @@
 ---
 title: Node.Document
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Node propriété. Obtient le document auquel appartient ce nœud.
+linktitle: Document
+articleTitle: Document
+second_title: Aspose.Words pour .NET
+description: Node Document propriété. Obtient le document auquel appartient ce nœud en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words/node/document/
@@ -14,11 +16,11 @@ Obtient le document auquel appartient ce nœud.
 public virtual DocumentBase Document { get; }
 ```
 
-### Remarques
+## Remarques
 
 Le nœud appartient toujours à un document même s'il vient d'être créé et pas encore ajouté à l'arborescence, ou s'il a été supprimé de l'arborescence.
 
-### Exemples
+## Exemples
 
 Montre comment créer un nœud et définir son document propriétaire.
 
@@ -51,7 +53,5 @@ Assert.AreEqual("Hello world!", doc.GetText().Trim());
 
 * class [DocumentBase](../../documentbase/)
 * class [Node](../)
-* espace de noms [Aspose.Words](../../node/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

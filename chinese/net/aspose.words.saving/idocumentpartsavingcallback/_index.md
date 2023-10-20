@@ -1,7 +1,9 @@
 ---
-title: Interface IDocumentPartSavingCallback
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Saving.IDocumentPartSavingCallback 界面. 如果您想接收通知并控制如何 Aspose.Words 在将文档导出到时保存文档部分请实现此接口Html 或Epub格式.
+title: IDocumentPartSavingCallback Interface
+linktitle: IDocumentPartSavingCallback
+articleTitle: IDocumentPartSavingCallback
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Saving.IDocumentPartSavingCallback 界面. 如果您想接收通知并控制如何 Aspose.Words 在将文档导出到时保存文档部分请实现此接口Html 或Epub格式 在 C#.
 type: docs
 weight: 5140
 url: /zh/net/aspose.words.saving/idocumentpartsavingcallback/
@@ -18,9 +20,9 @@ public interface IDocumentPartSavingCallback
 
 | 姓名 | 描述 |
 | --- | --- |
-| [DocumentPartSaving](../../aspose.words.saving/idocumentpartsavingcallback/documentpartsaving/)(DocumentPartSavingArgs) | 当 Aspose.Words 即将保存文档部分时调用。 |
+| [DocumentPartSaving](../../aspose.words.saving/idocumentpartsavingcallback/documentpartsaving/)(*[DocumentPartSavingArgs](../documentpartsavingargs/)*) | 当 Aspose.Words 即将保存文档部分时调用。 |
 
-### 例子
+## 例子
 
 演示如何将文档拆分为多个部分并保存它们。
 
@@ -138,5 +140,3 @@ public class SavedImageRename : IImageSavingCallback
 
 * 命名空间 [Aspose.Words.Saving](../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../)
-
-

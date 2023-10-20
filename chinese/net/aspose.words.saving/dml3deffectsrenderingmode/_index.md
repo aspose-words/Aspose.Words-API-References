@@ -1,7 +1,9 @@
 ---
-title: Enum Dml3DEffectsRenderingMode
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Saving.Dml3DEffectsRenderingMode 枚举. 指定如何渲染 3D 形状效果
+title: Dml3DEffectsRenderingMode Enum
+linktitle: Dml3DEffectsRenderingMode
+articleTitle: Dml3DEffectsRenderingMode
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Saving.Dml3DEffectsRenderingMode 枚举. 指定如何渲染 3D 形状效果 在 C#.
 type: docs
 weight: 4900
 url: /zh/net/aspose.words.saving/dml3deffectsrenderingmode/
@@ -25,5 +27,3 @@ public enum Dml3DEffectsRenderingMode
 
 * 命名空间 [Aspose.Words.Saving](../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../)
-
-

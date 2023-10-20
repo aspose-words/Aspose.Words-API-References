@@ -1,7 +1,9 @@
 ---
 title: SdtListItemCollection.Clear
-second_title: Référence de l'API Aspose.Words pour .NET
-description: SdtListItemCollection méthode. Efface tous les éléments de cette collection.
+linktitle: Clear
+articleTitle: Clear
+second_title: Aspose.Words pour .NET
+description: SdtListItemCollection Clear méthode. Efface tous les éléments de cette collection en C#.
 type: docs
 weight: 50
 url: /fr/net/aspose.words.markup/sdtlistitemcollection/clear/
@@ -14,7 +16,7 @@ Efface tous les éléments de cette collection.
 public void Clear()
 ```
 
-### Exemples
+## Exemples
 
 Montre comment utiliser les balises de documents structurés à liste déroulante.
 
@@ -71,7 +73,5 @@ Assert.AreEqual(0, listItems.Count);
 ### Voir également
 
 * class [SdtListItemCollection](../)
-* espace de noms [Aspose.Words.Markup](../../sdtlistitemcollection/)
+* espace de noms [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Assemblée [Aspose.Words](../../../)
-
-

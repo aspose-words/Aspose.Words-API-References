@@ -1,12 +1,14 @@
 ---
 title: DocumentBuilder.InsertShape
-second_title: Aspose.Words för .NET API Referens
-description: DocumentBuilder metod. Infogar inline form med angiven typ och storlek.
+linktitle: InsertShape
+articleTitle: InsertShape
+second_title: Aspose.Words för .NET
+description: DocumentBuilder InsertShape metod. Infogar inline form med angiven typ och storlek i C#.
 type: docs
-weight: 440
+weight: 430
 url: /sv/net/aspose.words/documentbuilder/insertshape/
 ---
-## InsertShape(ShapeType, double, double) {#insertshape_1}
+## InsertShape(*[ShapeType](../../../aspose.words.drawing/shapetype/), double, double*) {#insertshape_1}
 
 Infogar inline form med angiven typ och storlek.
 
@@ -24,7 +26,7 @@ public Shape InsertShape(ShapeType shapeType, double width, double height)
 
 Formnoden som infogades.
 
-### Exempel
+## Exempel
 
 Visar hur man infogar DML-former i ett dokument.
 
@@ -54,12 +56,12 @@ doc.Save(ArtifactsDir + "Shape.ShapeInsertion.docx", saveOptions);
 * class [Shape](../../../aspose.words.drawing/shape/)
 * enum [ShapeType](../../../aspose.words.drawing/shapetype/)
 * class [DocumentBuilder](../)
-* namnutrymme [Aspose.Words](../../documentbuilder/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## InsertShape(ShapeType, RelativeHorizontalPosition, double, RelativeVerticalPosition, double, double, double, WrapType) {#insertshape}
+## InsertShape(*[ShapeType](../../../aspose.words.drawing/shapetype/), [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/), double, [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/), double, double, double, [WrapType](../../../aspose.words.drawing/wraptype/)*) {#insertshape}
 
 Infogar fritt svävande form med angiven position, storlek och typ av textbrytning.
 
@@ -83,7 +85,7 @@ public Shape InsertShape(ShapeType shapeType, RelativeHorizontalPosition horzPos
 
 Formnoden som infogades.
 
-### Exempel
+## Exempel
 
 Visar hur man infogar DML-former i ett dokument.
 
@@ -116,7 +118,5 @@ doc.Save(ArtifactsDir + "Shape.ShapeInsertion.docx", saveOptions);
 * enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/)
 * enum [WrapType](../../../aspose.words.drawing/wraptype/)
 * class [DocumentBuilder](../)
-* namnutrymme [Aspose.Words](../../documentbuilder/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

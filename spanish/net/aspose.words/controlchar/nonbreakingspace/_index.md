@@ -1,7 +1,9 @@
 ---
 title: ControlChar.NonBreakingSpace
-second_title: Referencia de API de Aspose.Words para .NET
-description: ControlChar campo. Carácter de espacio de no separación x00a0.
+linktitle: NonBreakingSpace
+articleTitle: NonBreakingSpace
+second_title: Aspose.Words para .NET
+description: ControlChar NonBreakingSpace campo. Carácter de espacio de no separación x00a0 en C#.
 type: docs
 weight: 170
 url: /es/net/aspose.words/controlchar/nonbreakingspace/
@@ -14,7 +16,7 @@ Carácter de espacio de no separación: "\x00a0".
 public static readonly string NonBreakingSpace;
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo agregar varios caracteres de control a un documento.
 
@@ -86,7 +88,5 @@ Assert.AreEqual(Convert.ToChar(ControlChar.ColumnBreak), ControlChar.ColumnBreak
 ### Ver también
 
 * class [ControlChar](../)
-* espacio de nombres [Aspose.Words](../../controlchar/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

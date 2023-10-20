@@ -1,7 +1,9 @@
 ---
-title: Class LayoutOptions
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Layout.LayoutOptions فصل. يحمل الخيارات التي تسمح بالتحكم في عملية تخطيط المستند.
+title: LayoutOptions Class
+linktitle: LayoutOptions
+articleTitle: LayoutOptions
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Layout.LayoutOptions فصل. يحمل الخيارات التي تسمح بالتحكم في عملية تخطيط المستند في C#.
 type: docs
 weight: 3350
 url: /ar/net/aspose.words.layout/layoutoptions/
@@ -36,13 +38,13 @@ public class LayoutOptions
 | [ShowParagraphMarks](../../aspose.words.layout/layoutoptions/showparagraphmarks/) { get; set; } | الحصول على أو تعيين الإشارة إلى ما إذا كان سيتم عرض علامات الفقرة أم لا. الإعداد الافتراضي هو`خطأ شنيع` . |
 | [TextShaperFactory](../../aspose.words.layout/layoutoptions/textshaperfactory/) { get; set; } | يحصل على أو مجموعات[`ITextShaperFactory`](../../aspose.words.shaping/itextshaperfactory/) التنفيذ المستخدم لميزات عرض الطباعة المتقدمة. |
 
-### ملاحظات
+## ملاحظات
 
 لا يمكنك إنشاء مثيلات لهذه الفئة مباشرة. استخدم ال[`LayoutOptions`](../../aspose.words/document/layoutoptions/) الخاصية للوصول إلى خيارات التخطيط لهذا المستند.
 
 لاحظ أنه بعد تغيير أي من الخيارات الموجودة في هذا الفصل،[`UpdatePageLayout`](../../aspose.words/document/updatepagelayout/) يجب استدعاء الأسلوب حتى يتم تطبيق الخيارات التي تم تغييرها على التخطيط.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إخفاء النص في مستند الإخراج المقدم.
 
@@ -98,5 +100,3 @@ doc.Save(ArtifactsDir + "Document.LayoutOptionsRevisions.pdf");
 
 * مساحة الاسم [Aspose.Words.Layout](../../aspose.words.layout/)
 * المجسم [Aspose.Words](../../)
-
-

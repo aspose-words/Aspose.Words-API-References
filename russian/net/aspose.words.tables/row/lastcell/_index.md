@@ -1,7 +1,9 @@
 ---
 title: Row.LastCell
-second_title: Справочник по API Aspose.Words для .NET
-description: Row свойство. Возвращает последнийCell в строке.
+linktitle: LastCell
+articleTitle: LastCell
+second_title: Aspose.Words для .NET
+description: Row LastCell свойство. Возвращает последнийCell в строке на С#.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.tables/row/lastcell/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.tables/row/lastcell/
 public Cell LastCell { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как распечатать структуру узлов каждой таблицы в документе.
 
@@ -178,7 +180,5 @@ public class TableStructurePrinter : DocumentVisitor
 
 * class [Cell](../../cell/)
 * class [Row](../)
-* пространство имен [Aspose.Words.Tables](../../row/)
+* пространство имен [Aspose.Words.Tables](../../../aspose.words.tables/)
 * сборка [Aspose.Words](../../../)
-
-

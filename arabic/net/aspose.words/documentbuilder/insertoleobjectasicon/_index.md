@@ -1,12 +1,14 @@
 ---
 title: DocumentBuilder.InsertOleObjectAsIcon
-second_title: Aspose.Words لمراجع .NET API
-description: DocumentBuilder طريقة. يقوم بإدراج كائن OLE مضمن أو مرتبط كأيقونة في المستند. يسمح بتحديد ملف الرمز والتسمية التوضيحية. يكتشف نوع كائن OLE باستخدام امتداد الملف.
+linktitle: InsertOleObjectAsIcon
+articleTitle: InsertOleObjectAsIcon
+second_title: Aspose.Words لـ .NET
+description: DocumentBuilder InsertOleObjectAsIcon طريقة. يقوم بإدراج كائن OLE مضمن أو مرتبط كأيقونة في المستند. يسمح بتحديد ملف الرمز والتسمية التوضيحية. يكتشف نوع كائن OLE باستخدام امتداد الملف في C#.
 type: docs
-weight: 410
+weight: 400
 url: /ar/net/aspose.words/documentbuilder/insertoleobjectasicon/
 ---
-## InsertOleObjectAsIcon(string, bool, string, string) {#insertoleobjectasicon_1}
+## InsertOleObjectAsIcon(*string, bool, string, string*) {#insertoleobjectasicon_1}
 
 يقوم بإدراج كائن OLE مضمن أو مرتبط كأيقونة في المستند. يسمح بتحديد ملف الرمز والتسمية التوضيحية. يكتشف نوع كائن OLE باستخدام امتداد الملف.
 
@@ -26,7 +28,7 @@ public Shape InsertOleObjectAsIcon(string fileName, bool isLinked, string iconFi
 
 عقدة الشكل تحتوي على كائن Ole وتم إدراجها في موضع Builder الحالي.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج كائن OLE في مستند.
 
@@ -63,12 +65,12 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertOleObject.docx");
 
 * class [Shape](../../../aspose.words.drawing/shape/)
 * class [DocumentBuilder](../)
-* مساحة الاسم [Aspose.Words](../../documentbuilder/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## InsertOleObjectAsIcon(string, string, bool, string, string) {#insertoleobjectasicon_2}
+## InsertOleObjectAsIcon(*string, string, bool, string, string*) {#insertoleobjectasicon_2}
 
 يقوم بإدراج كائن OLE مضمن أو مرتبط كأيقونة في المستند. يسمح بتحديد ملف الرمز والتسمية التوضيحية. يكتشف نوع كائن OLE باستخدام معلمة progID المحددة.
 
@@ -89,7 +91,7 @@ public Shape InsertOleObjectAsIcon(string fileName, string progId, bool isLinked
 
 عقدة الشكل تحتوي على كائن Ole وتم إدراجها في موضع Builder الحالي.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج كائن OLE مضمن أو مرتبط كأيقونة في المستند.
 
@@ -122,12 +124,12 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertOleObjectAsIcon.docx");
 
 * class [Shape](../../../aspose.words.drawing/shape/)
 * class [DocumentBuilder](../)
-* مساحة الاسم [Aspose.Words](../../documentbuilder/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## InsertOleObjectAsIcon(Stream, string, string, string) {#insertoleobjectasicon}
+## InsertOleObjectAsIcon(*Stream, string, string, string*) {#insertoleobjectasicon}
 
 إدراج كائن OLE مضمن كأيقونة من دفق في المستند. يسمح بتحديد ملف الرمز والتسمية التوضيحية. يكتشف نوع كائن OLE باستخدام معلمة progID المحددة.
 
@@ -147,7 +149,7 @@ public Shape InsertOleObjectAsIcon(Stream stream, string progId, string iconFile
 
 عقدة الشكل تحتوي على كائن Ole وتم إدراجها في موضع Builder الحالي.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج كائن OLE مضمن أو مرتبط كأيقونة في المستند.
 
@@ -180,7 +182,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertOleObjectAsIcon.docx");
 
 * class [Shape](../../../aspose.words.drawing/shape/)
 * class [DocumentBuilder](../)
-* مساحة الاسم [Aspose.Words](../../documentbuilder/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

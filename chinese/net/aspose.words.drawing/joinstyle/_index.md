@@ -1,7 +1,9 @@
 ---
-title: Enum JoinStyle
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Drawing.JoinStyle 枚举. 线连接样式
+title: JoinStyle Enum
+linktitle: JoinStyle
+articleTitle: JoinStyle
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Drawing.JoinStyle 枚举. 线连接样式 在 C#.
 type: docs
 weight: 1090
 url: /zh/net/aspose.words.drawing/joinstyle/
@@ -22,7 +24,7 @@ public enum JoinStyle
 | Miter | `1` | 延伸边直到它们连接。 |
 | Round | `2` | 在两条边之间绘制圆弧。 |
 
-### 例子
+## 例子
 
 展示创造出各种形状。
 
@@ -99,5 +101,3 @@ doc.Save(ArtifactsDir + "Drawing.VariousShapes.docx");
 * property [JoinStyle](../stroke/joinstyle/)
 * 命名空间 [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../)
-
-

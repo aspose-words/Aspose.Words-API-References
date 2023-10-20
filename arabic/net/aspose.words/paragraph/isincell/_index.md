@@ -1,7 +1,9 @@
 ---
 title: Paragraph.IsInCell
-second_title: Aspose.Words لمراجع .NET API
-description: Paragraph ملكية. صحيح إذا كانت هذه الفقرة فرعًا مباشرًا لـCell  كاذبة خلاف ذلك.
+linktitle: IsInCell
+articleTitle: IsInCell
+second_title: Aspose.Words لـ .NET
+description: Paragraph IsInCell ملكية. صحيح إذا كانت هذه الفقرة فرعًا مباشرًا لـCell  كاذبة خلاف ذلك في C#.
 type: docs
 weight: 100
 url: /ar/net/aspose.words/paragraph/isincell/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/paragraph/isincell/
 public bool IsInCell { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إعداد جدول للبقاء معًا في نفس الصفحة.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "Table.KeepTableTogether.docx");
 ### أنظر أيضا
 
 * class [Paragraph](../)
-* مساحة الاسم [Aspose.Words](../../paragraph/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

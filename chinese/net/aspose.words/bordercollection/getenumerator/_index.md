@@ -1,7 +1,9 @@
 ---
 title: BorderCollection.GetEnumerator
-second_title: Aspose.Words for .NET API 参考
-description: BorderCollection 方法. 返回一个枚举器对象可用于迭代集合中的所有边框
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: 用于 .NET 的 Aspose.Words
+description: BorderCollection GetEnumerator 方法. 返回一个枚举器对象可用于迭代集合中的所有边框 在 C#.
 type: docs
 weight: 160
 url: /zh/net/aspose.words/bordercollection/getenumerator/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/bordercollection/getenumerator/
 public IEnumerator<Border> GetEnumerator()
 ```
 
-### 例子
+## 例子
 
 演示如何迭代和编辑段落格式对象中的所有边框。
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "BorderCollection.GetBordersEnumerator.docx");
 
 * class [Border](../../border/)
 * class [BorderCollection](../)
-* 命名空间 [Aspose.Words](../../bordercollection/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

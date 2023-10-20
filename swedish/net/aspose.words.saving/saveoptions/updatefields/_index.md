@@ -1,7 +1,9 @@
 ---
 title: SaveOptions.UpdateFields
-second_title: Aspose.Words för .NET API Referens
-description: SaveOptions fast egendom. Hämtar eller ställer in ett värde som avgör om fält av vissa typer ska uppdateras innan dokumentet sparas till ett fast sidformat. Standardvärdet för den här egenskapen ärSann .
+linktitle: UpdateFields
+articleTitle: UpdateFields
+second_title: Aspose.Words för .NET
+description: SaveOptions UpdateFields fast egendom. Hämtar eller ställer in ett värde som avgör om fält av vissa typer ska uppdateras innan dokumentet sparas till ett fast sidformat. Standardvärdet för den här egenskapen ärSann  i C#.
 type: docs
 weight: 160
 url: /sv/net/aspose.words.saving/saveoptions/updatefields/
@@ -14,11 +16,11 @@ Hämtar eller ställer in ett värde som avgör om fält av vissa typer ska uppd
 public bool UpdateFields { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Gör det möjligt att ange om MS Word-beteende ska härma eller inte.
 
-### Exempel
+## Exempel
 
 Visar hur du uppdaterar alla fält i ett dokument direkt innan du sparar det till PDF.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.UpdateFields.pdf", options);
 ### Se även
 
 * class [SaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../saveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class FieldSet
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Fields.FieldSet klass. Implementerar SETfältet.
+title: FieldSet Class
+linktitle: FieldSet
+articleTitle: FieldSet
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Fields.FieldSet klass. Implementerar SETfältet i C#.
 type: docs
 weight: 2400
 url: /sv/net/aspose.words.fields/fieldset/
@@ -44,17 +46,17 @@ public class FieldSet : Field
 | namn | Beskrivning |
 | --- | --- |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Returnerar text mellan fältstart och fältavgränsare (eller fältslut om det inte finns någon avgränsare). Både fältkod och fältresultat för underordnade fält ingår. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Returnerar text mellan fältstart och fältavgränsare (eller fältslut om det inte finns någon avgränsare). |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | Returnerar text mellan fältstart och fältavgränsare (eller fältslut om det inte finns någon avgränsare). |
 | [Remove](../../aspose.words.fields/field/remove/)() | Tar bort fältet från dokumentet. Returnerar en nod direkt efter fältet. Om fältets slut är den sista child av dess överordnade nod, returnerar dess överordnade stycke. Om fältet redan är borttaget, returneras`null` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | Utför fältavlänkningen. |
 | [Update](../../aspose.words.fields/field/update/)() | Utför fältuppdateringen. Kastar om fältet redan uppdateras. |
-| [Update](../../aspose.words.fields/field/update/)(bool) | Utför en fältuppdatering. Kastar om fältet redan uppdateras. |
+| [Update](../../aspose.words.fields/field/update/)(*bool*) | Utför en fältuppdatering. Kastar om fältet redan uppdateras. |
 
-### Anmärkningar
+## Anmärkningar
 
 Tilldelar ny text till ett bokmärke.
 
-### Exempel
+## Exempel
 
 Visar hur man skapar bokmärkt text med ett SET-fält och sedan visar det i dokumentet med ett REF-fält.
 
@@ -87,5 +89,3 @@ doc.Save(ArtifactsDir + "Field.SET.REF.docx");
 * class [Field](../field/)
 * namnutrymme [Aspose.Words.Fields](../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../)
-
-

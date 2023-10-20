@@ -1,7 +1,9 @@
 ---
-title: Enum ResourceType
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Loading.ResourceType 枚举. 加载资源的类型
+title: ResourceType Enum
+linktitle: ResourceType
+articleTitle: ResourceType
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Loading.ResourceType 枚举. 加载资源的类型 在 C#.
 type: docs
 weight: 3700
 url: /zh/net/aspose.words.loading/resourcetype/
@@ -22,7 +24,7 @@ public enum ResourceType
 | CssStyleSheet | `1` | CSS 样式表. |
 | Document | `2` | 文档. |
 
-### 例子
+## 例子
 
 演示如何自定义将外部资源加载到文档中的过程。
 
@@ -86,5 +88,3 @@ private class ImageNameHandler : IResourceLoadingCallback
 
 * 命名空间 [Aspose.Words.Loading](../../aspose.words.loading/)
 * 部件 [Aspose.Words](../../)
-
-

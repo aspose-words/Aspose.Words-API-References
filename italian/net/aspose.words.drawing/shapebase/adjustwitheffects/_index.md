@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.AdjustWithEffects
-second_title: Aspose.Words per .NET API Reference
-description: ShapeBase metodo. Aggiunge al rettangolo di origine i valori dellestensione delleffetto e restituisce il rettangolo finale.
+linktitle: AdjustWithEffects
+articleTitle: AdjustWithEffects
+second_title: Aspose.Words per .NET
+description: ShapeBase AdjustWithEffects metodo. Aggiunge al rettangolo di origine i valori dellestensione delleffetto e restituisce il rettangolo finale in C#.
 type: docs
 weight: 620
 url: /it/net/aspose.words.drawing/shapebase/adjustwitheffects/
@@ -14,7 +16,7 @@ Aggiunge al rettangolo di origine i valori dell'estensione dell'effetto e restit
 public RectangleF AdjustWithEffects(RectangleF source)
 ```
 
-### Esempi
+## Esempi
 
 Mostra come verificare in che modo i limiti di una forma vengono influenzati dagli effetti della forma.
 
@@ -83,7 +85,5 @@ Assert.AreEqual(279, shape.BoundsWithEffects.Height);
 ### Guarda anche
 
 * class [ShapeBase](../)
-* spazio dei nomi [Aspose.Words.Drawing](../../shapebase/)
+* spazio dei nomi [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assemblea [Aspose.Words](../../../)
-
-

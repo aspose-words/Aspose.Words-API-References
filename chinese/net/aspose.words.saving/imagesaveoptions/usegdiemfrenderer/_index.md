@@ -1,7 +1,9 @@
 ---
 title: ImageSaveOptions.UseGdiEmfRenderer
-second_title: Aspose.Words for .NET API 参考
-description: ImageSaveOptions 财产. 获取或设置一个值确定在保存到 EMF 时是否使用 GDI 或 Aspose.Words 图元文件渲染器
+linktitle: UseGdiEmfRenderer
+articleTitle: UseGdiEmfRenderer
+second_title: 用于 .NET 的 Aspose.Words
+description: ImageSaveOptions UseGdiEmfRenderer 财产. 获取或设置一个值确定在保存到 EMF 时是否使用 GDI 或 Aspose.Words 图元文件渲染器 在 C#.
 type: docs
 weight: 190
 url: /zh/net/aspose.words.saving/imagesaveoptions/usegdiemfrenderer/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.saving/imagesaveoptions/usegdiemfrenderer/
 public bool UseGdiEmfRenderer { get; set; }
 ```
 
-### 评论
+## 评论
 
 如果设置为`真的`使用 GDI+ 图元文件渲染器。即内容写入GDI+graphics 对象并保存到图元文件。
 
@@ -26,7 +28,7 @@ GDI+ 保存仅适用于 .NET。
 
 默认值为`真的`。
 
-### 例子
+## 例子
 
 演示将文档转换为 .emf 时如何选择渲染器。
 
@@ -60,7 +62,5 @@ Document doc = new Document();
 ### 也可以看看
 
 * class [ImageSaveOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../imagesaveoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

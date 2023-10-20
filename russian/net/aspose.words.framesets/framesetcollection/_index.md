@@ -1,7 +1,9 @@
 ---
-title: Class FramesetCollection
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Framesets.FramesetCollection сорт. Представляет коллекцию экземпляровFrameset класс.
+title: FramesetCollection Class
+linktitle: FramesetCollection
+articleTitle: FramesetCollection
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Framesets.FramesetCollection сорт. Представляет коллекцию экземпляровFrameset класс на С#.
 type: docs
 weight: 3090
 url: /ru/net/aspose.words.framesets/framesetcollection/
@@ -40,5 +42,3 @@ public class FramesetCollection : IEnumerable<Frameset>
 * class [Frameset](../frameset/)
 * пространство имен [Aspose.Words.Framesets](../../aspose.words.framesets/)
 * сборка [Aspose.Words](../../)
-
-

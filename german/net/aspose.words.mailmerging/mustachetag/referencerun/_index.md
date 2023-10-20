@@ -1,7 +1,9 @@
 ---
 title: MustacheTag.ReferenceRun
-second_title: Aspose.Words für .NET-API-Referenz
-description: MustacheTag eigendom. Ruft den Lauf ab der den Anfang des Tags enthält.
+linktitle: ReferenceRun
+articleTitle: ReferenceRun
+second_title: Aspose.Words für .NET
+description: MustacheTag ReferenceRun eigendom. Ruft den Lauf ab der den Anfang des Tags enthält in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.mailmerging/mustachetag/referencerun/
@@ -14,7 +16,7 @@ Ruft den Lauf ab, der den Anfang des Tags enthält.
 public Run ReferenceRun { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit den Moustache-Tags gearbeitet wird.
 
@@ -42,7 +44,5 @@ foreach (MailMergeRegionInfo region in hierarchy.Regions)
 
 * class [Run](../../../aspose.words/run/)
 * class [MustacheTag](../)
-* namensraum [Aspose.Words.MailMerging](../../mustachetag/)
+* namensraum [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: TabStopCollection.After
-second_title: Aspose.Words لمراجع .NET API
-description: TabStopCollection طريقة. الحصول على علامة الجدولة الأولى على يمين الموضع المحدد.
+linktitle: After
+articleTitle: After
+second_title: Aspose.Words لـ .NET
+description: TabStopCollection After طريقة. الحصول على علامة الجدولة الأولى على يمين الموضع المحدد في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words/tabstopcollection/after/
@@ -22,11 +24,11 @@ public TabStop After(double position)
 
 كائن توقف الجدولة أو`باطل` إذا لم يتم العثور على علامة جدولة مناسبة.
 
-### ملاحظات
+## ملاحظات
 
 تخطي علامات التبويب مع[`Alignment`](../../tabstop/alignment/) ضبط لBar.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التعامل مع مجموعة علامات الجدولة الخاصة بالمستند.
 
@@ -71,7 +73,5 @@ doc.Save(ArtifactsDir + "TabStopCollection.TabStopCollection.docx");
 
 * class [TabStop](../../tabstop/)
 * class [TabStopCollection](../)
-* مساحة الاسم [Aspose.Words](../../tabstopcollection/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

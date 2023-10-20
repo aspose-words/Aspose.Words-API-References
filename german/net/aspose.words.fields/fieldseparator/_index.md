@@ -1,7 +1,9 @@
 ---
-title: Class FieldSeparator
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Fields.FieldSeparator klas. Stellt ein WordFeldtrennzeichen dar das den Feldcode vom Feldergebnis trennt.
+title: FieldSeparator Class
+linktitle: FieldSeparator
+articleTitle: FieldSeparator
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Fields.FieldSeparator klas. Stellt ein WordFeldtrennzeichen dar das den Feldcode vom Feldergebnis trennt in C#.
 type: docs
 weight: 2380
 url: /de/net/aspose.words.fields/fieldseparator/
@@ -43,19 +45,19 @@ public class FieldSeparator : FieldChar
 
 | Name | Beschreibung |
 | --- | --- |
-| override [Accept](../../aspose.words.fields/fieldseparator/accept/)(DocumentVisitor) | Akzeptiert einen Besucher. |
-| [Clone](../../aspose.words/node/clone/)(bool) | Erstellt ein Duplikat des Knotens. |
-| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Ruft den ersten Vorfahren des angegebenen ab[`NodeType`](../../aspose.words/nodetype/) . |
-| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Ruft den ersten Vorfahren des angegebenen Objekttyps ab. |
+| override [Accept](../../aspose.words.fields/fieldseparator/accept/)(*[DocumentVisitor](../../aspose.words/documentvisitor/)*) | Akzeptiert einen Besucher. |
+| [Clone](../../aspose.words/node/clone/)(*bool*) | Erstellt ein Duplikat des Knotens. |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*[NodeType](../../aspose.words/nodetype/)*) | Ruft den ersten Vorfahren des angegebenen ab[`NodeType`](../../aspose.words/nodetype/) . |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | Ruft den ersten Vorfahren des angegebenen Objekttyps ab. |
 | [GetField](../../aspose.words.fields/fieldchar/getfield/)() | Gibt ein Feld für das Feld char zurück. |
 | override [GetText](../../aspose.words/specialchar/gettext/)() | Ruft das Sonderzeichen ab, das dieser Knoten darstellt. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Ruft den nächsten Knoten gemäß dem Pre-Order-Tree-Traversal-Algorithmus ab. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Ruft den vorherigen Knoten gemäß dem Pre-Order-Tree-Traversal-Algorithmus ab. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../../aspose.words/node/)*) | Ruft den nächsten Knoten gemäß dem Pre-Order-Tree-Traversal-Algorithmus ab. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../../aspose.words/node/)*) | Ruft den vorherigen Knoten gemäß dem Pre-Order-Tree-Traversal-Algorithmus ab. |
 | [Remove](../../aspose.words/node/remove/)() | Entfernt sich selbst vom übergeordneten Element. |
-| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Exportiert den Inhalt des Knotens in einen String im angegebenen Format. |
-| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | Exportiert den Inhalt des Knotens mit den angegebenen Speicheroptionen in einen String. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../../aspose.words/saveformat/)*) | Exportiert den Inhalt des Knotens in einen String im angegebenen Format. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | Exportiert den Inhalt des Knotens mit den angegebenen Speicheroptionen in einen String. |
 
-### Bemerkungen
+## Bemerkungen
 
 `FieldSeparator` ist ein Knoten auf Inline-Ebene und wird durch dargestellt[`FieldSeparatorChar`](../../aspose.words/controlchar/fieldseparatorchar/) Steuerzeichen im Dokument.
 
@@ -65,7 +67,7 @@ Ein vollständiges Feld in einem Microsoft Word-Dokument ist eine komplexe Struk
 
 Um ganz einfach ein neues Feld in ein Dokument einzufügen, verwenden Sie die[`InsertField`](../../aspose.words/documentbuilder/insertfield/) -Methode.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit einer Sammlung von Feldern gearbeitet wird.
 
@@ -170,5 +172,3 @@ public class FieldVisitor : DocumentVisitor
 * class [FieldChar](../fieldchar/)
 * namensraum [Aspose.Words.Fields](../../aspose.words.fields/)
 * Montage [Aspose.Words](../../)
-
-

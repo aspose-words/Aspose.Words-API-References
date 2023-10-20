@@ -1,7 +1,9 @@
 ---
 title: CompositeNode.IsComposite
-second_title: Aspose.Words för .NET API Referens
-description: CompositeNode fast egendom. ReturnerarSann eftersom denna nod kan ha underordnade noder.
+linktitle: IsComposite
+articleTitle: IsComposite
+second_title: Aspose.Words för .NET
+description: CompositeNode IsComposite fast egendom. ReturnerarSann eftersom denna nod kan ha underordnade noder i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words/compositenode/iscomposite/
@@ -14,7 +16,7 @@ Returnerar`Sann` eftersom denna nod kan ha underordnade noder.
 public override bool IsComposite { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man korsar en sammansatt nods träd med undernoder.
 
@@ -61,7 +63,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 ### Se även
 
 * class [CompositeNode](../)
-* namnutrymme [Aspose.Words](../../compositenode/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

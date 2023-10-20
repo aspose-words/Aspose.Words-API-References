@@ -1,7 +1,9 @@
 ---
 title: Odso.UdlConnectString
-second_title: Aspose.Words för .NET API Referens
-description: Odso fast egendom. Anger anslutningssträngen Universal Data Link UDL som används för att ansluta till en extern datakälla. Standardvärdet är en tom sträng.
+linktitle: UdlConnectString
+articleTitle: UdlConnectString
+second_title: Aspose.Words för .NET
+description: Odso UdlConnectString fast egendom. Anger anslutningssträngen Universal Data Link UDL som används för att ansluta till en extern datakälla. Standardvärdet är en tom sträng i C#.
 type: docs
 weight: 90
 url: /sv/net/aspose.words.settings/odso/udlconnectstring/
@@ -14,7 +16,7 @@ Anger anslutningssträngen Universal Data Link (UDL) som används för att anslu
 public string UdlConnectString { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man kör en sammankoppling av brev samtidigt som man ansluter till en extern datakälla.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "MailMerge.OdsoEmail.docx");
 ### Se även
 
 * class [Odso](../)
-* namnutrymme [Aspose.Words.Settings](../../odso/)
+* namnutrymme [Aspose.Words.Settings](../../../aspose.words.settings/)
 * hopsättning [Aspose.Words](../../../)
-
-

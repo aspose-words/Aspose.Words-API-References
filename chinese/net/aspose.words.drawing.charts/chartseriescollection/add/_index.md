@@ -1,12 +1,14 @@
 ---
 title: ChartSeriesCollection.Add
-second_title: Aspose.Words for .NET API 参考
-description: ChartSeriesCollection 方法. 添加新内容ChartSeries到此集合 使用此方法将系列添加到任何类型的条形图柱形图折线图和曲面图
+linktitle: Add
+articleTitle: Add
+second_title: 用于 .NET 的 Aspose.Words
+description: ChartSeriesCollection Add 方法. 添加新内容ChartSeries到此集合 使用此方法将系列添加到任何类型的条形图柱形图折线图和曲面图 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.drawing.charts/chartseriescollection/add/
 ---
-## Add(string, string[], double[]) {#add_3}
+## Add(*string, string[], double[]*) {#add_3}
 
 添加新内容[`ChartSeries`](../../chartseries/)到此集合。 使用此方法将系列添加到任何类型的条形图、柱形图、折线图和曲面图。
 
@@ -18,7 +20,7 @@ public ChartSeries Add(string seriesName, string[] categories, double[] values)
 
 最近添加的[`ChartSeries`](../../chartseries/)目的。
 
-### 例子
+## 例子
 
 展示如何为图形类型创建适当类型的图表系列。
 
@@ -108,12 +110,12 @@ private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, d
 
 * class [ChartSeries](../../chartseries/)
 * class [ChartSeriesCollection](../)
-* 命名空间 [Aspose.Words.Drawing.Charts](../../chartseriescollection/)
+* 命名空间 [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## Add(string, double[], double[]) {#add}
+## Add(*string, double[], double[]*) {#add}
 
 添加新内容[`ChartSeries`](../../chartseries/)到此集合。 使用此方法将系列添加到任何类型的散点图。
 
@@ -125,7 +127,7 @@ public ChartSeries Add(string seriesName, double[] xValues, double[] yValues)
 
 最近添加的[`ChartSeries`](../../chartseries/)目的。
 
-### 例子
+## 例子
 
 展示如何为图形类型创建适当类型的图表系列。
 
@@ -215,12 +217,12 @@ private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, d
 
 * class [ChartSeries](../../chartseries/)
 * class [ChartSeriesCollection](../)
-* 命名空间 [Aspose.Words.Drawing.Charts](../../chartseriescollection/)
+* 命名空间 [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## Add(string, DateTime[], double[]) {#add_2}
+## Add(*string, DateTime[], double[]*) {#add_2}
 
 添加新内容[`ChartSeries`](../../chartseries/)到此集合。 使用此方法将系列添加到任何类型的面积图、雷达图和股票图。
 
@@ -228,7 +230,7 @@ private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, d
 public ChartSeries Add(string seriesName, DateTime[] dates, double[] values)
 ```
 
-### 例子
+## 例子
 
 展示如何为图形类型创建适当类型的图表系列。
 
@@ -318,12 +320,12 @@ private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, d
 
 * class [ChartSeries](../../chartseries/)
 * class [ChartSeriesCollection](../)
-* 命名空间 [Aspose.Words.Drawing.Charts](../../chartseriescollection/)
+* 命名空间 [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## Add(string, double[], double[], double[]) {#add_1}
+## Add(*string, double[], double[], double[]*) {#add_1}
 
 添加新内容[`ChartSeries`](../../chartseries/)到此集合。 使用此方法将系列添加到任何类型的气泡图。
 
@@ -335,7 +337,7 @@ public ChartSeries Add(string seriesName, double[] xValues, double[] yValues, do
 
 最近添加的[`ChartSeries`](../../chartseries/)目的。
 
-### 例子
+## 例子
 
 展示如何为图形类型创建适当类型的图表系列。
 
@@ -425,7 +427,5 @@ private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, d
 
 * class [ChartSeries](../../chartseries/)
 * class [ChartSeriesCollection](../)
-* 命名空间 [Aspose.Words.Drawing.Charts](../../chartseriescollection/)
+* 命名空间 [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * 部件 [Aspose.Words](../../../)
-
-

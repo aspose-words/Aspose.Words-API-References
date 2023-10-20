@@ -1,7 +1,9 @@
 ---
 title: IDocumentMergerPlugin.Merge
-second_title: Aspose.Words per .NET API Reference
-description: IDocumentMergerPlugin metodo. Unisce i documenti PDF di input specificati in un singolo documento PDF di output utilizzando i flussi di input e output specificati.
+linktitle: Merge
+articleTitle: Merge
+second_title: Aspose.Words per .NET
+description: IDocumentMergerPlugin Merge metodo. Unisce i documenti PDF di input specificati in un singolo documento PDF di output utilizzando i flussi di input e output specificati in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words/idocumentmergerplugin/merge/
@@ -22,7 +24,5 @@ public void Merge(Stream outputStream, params Stream[] inputStreams)
 ### Guarda anche
 
 * interface [IDocumentMergerPlugin](../)
-* spazio dei nomi [Aspose.Words](../../idocumentmergerplugin/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

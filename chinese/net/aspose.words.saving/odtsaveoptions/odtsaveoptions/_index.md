@@ -1,7 +1,9 @@
 ---
-title: OdtSaveOptions.OdtSaveOptions
-second_title: Aspose.Words for .NET API 参考
-description: OdtSaveOptions 构造函数. 初始化此类的一个新实例该实例可用于将文档保存在Odt格式.
+title: OdtSaveOptions
+linktitle: OdtSaveOptions
+articleTitle: OdtSaveOptions
+second_title: 用于 .NET 的 Aspose.Words
+description: OdtSaveOptions 构造函数. 初始化此类的一个新实例该实例可用于将文档保存在Odt格式 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.saving/odtsaveoptions/odtsaveoptions/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.saving/odtsaveoptions/odtsaveoptions/
 public OdtSaveOptions()
 ```
 
-### 例子
+## 例子
 
 演示如何使保存的文档符合旧版 ODT 架构。
 
@@ -33,12 +35,12 @@ doc.Save(ArtifactsDir + "OdtSaveOptions.Odt11Schema.odt", saveOptions);
 ### 也可以看看
 
 * class [OdtSaveOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../odtsaveoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## OdtSaveOptions(string) {#constructor_2}
+## OdtSaveOptions(*string*) {#constructor_2}
 
 初始化此类的一个新实例，该实例可用于将文档保存在Odt format 使用密码加密。
 
@@ -49,12 +51,12 @@ public OdtSaveOptions(string password)
 ### 也可以看看
 
 * class [OdtSaveOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../odtsaveoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## OdtSaveOptions(SaveFormat) {#constructor_1}
+## OdtSaveOptions(*[SaveFormat](../../../aspose.words/saveformat/)*) {#constructor_1}
 
 初始化此类的一个新实例，该实例可用于将文档保存在Odt或 Ott格式.
 
@@ -66,7 +68,7 @@ public OdtSaveOptions(SaveFormat saveFormat)
 | --- | --- | --- |
 | saveFormat | SaveFormat | 可Odt或者Ott。 |
 
-### 例子
+## 例子
 
 演示如何使用密码加密保存的 ODT/OTT 文档，然后使用 Aspose.Words 加载它。
 
@@ -102,7 +104,5 @@ Assert.AreEqual("Hello world!", doc.GetText().Trim());
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
 * class [OdtSaveOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../odtsaveoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

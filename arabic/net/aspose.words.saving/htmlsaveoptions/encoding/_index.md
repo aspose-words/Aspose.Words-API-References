@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.Encoding
-second_title: Aspose.Words لمراجع .NET API
-description: HtmlSaveOptions ملكية. يحدد الترميز الذي سيتم استخدامه عند التصدير إلى HTML أو MHTML أو EPUB. القيمة الافتراضية هيترميز UTF8 الجديد خطأ UTF8 بدون قائمة مكونات الصنف.
+linktitle: Encoding
+articleTitle: Encoding
+second_title: Aspose.Words لـ .NET
+description: HtmlSaveOptions Encoding ملكية. يحدد الترميز الذي سيتم استخدامه عند التصدير إلى HTML أو MHTML أو EPUB. القيمة الافتراضية هيترميز UTF8 الجديد خطأ UTF8 بدون قائمة مكونات الصنف في C#.
 type: docs
 weight: 100
 url: /ar/net/aspose.words.saving/htmlsaveoptions/encoding/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.saving/htmlsaveoptions/encoding/
 public Encoding Encoding { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام ترميز معين عند حفظ مستند إلى .epub.
 
@@ -41,7 +43,5 @@ doc.Save(ArtifactsDir + "HtmlSaveOptions.Doc2EpubSaveOptions.epub", saveOptions)
 ### أنظر أيضا
 
 * class [HtmlSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../htmlsaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum HorizontalAlignment
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Drawing.HorizontalAlignment تعداد. يحدد المحاذاة الأفقية لشكل عائم أو إطار نص أو جدول عائم.
+title: HorizontalAlignment Enum
+linktitle: HorizontalAlignment
+articleTitle: HorizontalAlignment
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Drawing.HorizontalAlignment تعداد. يحدد المحاذاة الأفقية لشكل عائم أو إطار نص أو جدول عائم في C#.
 type: docs
 weight: 1030
 url: /ar/net/aspose.words.drawing/horizontalalignment/
@@ -18,7 +20,7 @@ public enum HorizontalAlignment
 
 | اسم | قيمة | وصف |
 | --- | --- | --- |
-| None | `0` | يتم تحديد موضع الكائن بشكل واضح، عادةً باستخدام **غادر** الملكية. |
+| None | `0` | يتم تحديد موضع الكائن بشكل واضح، عادةً باستخدام**غادر** الملكية. |
 | Default | `0` | نفسNone . |
 | Left | `1` | يحدد أنه يجب ترك الكائن محاذيًا لقاعدة المحاذاة الأفقية. |
 | Center | `2` | يحدد أن الكائن يجب أن يتم توسيطه فيما يتعلق بقاعدة المحاذاة الأفقية. |
@@ -26,7 +28,7 @@ public enum HorizontalAlignment
 | Inside | `4` | يحدد أن الكائن يجب أن يكون داخل قاعدة المحاذاة الأفقية. |
 | Outside | `5` | يحدد أن الكائن يجب أن يكون خارج قاعدة المحاذاة الأفقية. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج صورة عائمة في وسط الصفحة.
 
@@ -51,5 +53,3 @@ doc.Save(ArtifactsDir + "Image.CreateFloatingPageCenter.docx");
 * property [HorizontalAlignment](../shapebase/horizontalalignment/)
 * مساحة الاسم [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../)
-
-

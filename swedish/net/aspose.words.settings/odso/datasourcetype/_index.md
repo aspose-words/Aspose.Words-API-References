@@ -1,7 +1,9 @@
 ---
 title: Odso.DataSourceType
-second_title: Aspose.Words för .NET API Referens
-description: Odso fast egendom. Anger typen av den externa datakällan som ska anslutas till som en del av ODSOanslutningsinformationen för denna koppling. Standardvärdet ärDefault .
+linktitle: DataSourceType
+articleTitle: DataSourceType
+second_title: Aspose.Words för .NET
+description: Odso DataSourceType fast egendom. Anger typen av den externa datakällan som ska anslutas till som en del av ODSOanslutningsinformationen för denna koppling. Standardvärdet ärDefault  i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.settings/odso/datasourcetype/
@@ -14,11 +16,11 @@ Anger typen av den externa datakällan som ska anslutas till som en del av ODSO-
 public OdsoDataSourceType DataSourceType { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Den här inställningen är enbart ett förslag på datakällans typ som används för den här kopplingen.
 
-### Exempel
+## Exempel
 
 Visar hur man kör en sammankoppling med data från ett Office-datakällobjekt.
 
@@ -71,7 +73,5 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 
 * enum [OdsoDataSourceType](../../odsodatasourcetype/)
 * class [Odso](../)
-* namnutrymme [Aspose.Words.Settings](../../odso/)
+* namnutrymme [Aspose.Words.Settings](../../../aspose.words.settings/)
 * hopsättning [Aspose.Words](../../../)
-
-

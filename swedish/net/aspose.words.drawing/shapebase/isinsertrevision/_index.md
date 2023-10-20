@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.IsInsertRevision
-second_title: Aspose.Words för .NET API Referens
-description: ShapeBase fast egendom. Returnerar sant om det här objektet infogades i Microsoft Word medan ändringsspårning var aktiverad.
+linktitle: IsInsertRevision
+articleTitle: IsInsertRevision
+second_title: Aspose.Words för .NET
+description: ShapeBase IsInsertRevision fast egendom. Returnerar sant om det här objektet infogades i Microsoft Word medan ändringsspårning var aktiverad i C#.
 type: docs
 weight: 300
 url: /sv/net/aspose.words.drawing/shapebase/isinsertrevision/
@@ -14,7 +16,7 @@ Returnerar sant om det här objektet infogades i Microsoft Word medan ändringss
 public bool IsInsertRevision { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med revideringsformer.
 
@@ -61,7 +63,5 @@ Assert.True(shapes[1].IsInsertRevision);
 ### Se även
 
 * class [ShapeBase](../)
-* namnutrymme [Aspose.Words.Drawing](../../shapebase/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

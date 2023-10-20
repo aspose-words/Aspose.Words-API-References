@@ -1,7 +1,9 @@
 ---
 title: FieldAutoTextList.EntryName
-second_title: Aspose.Words för .NET API Referens
-description: FieldAutoTextList fast egendom. Hämtar eller ställer in namnet på AutoTextposten.
+linktitle: EntryName
+articleTitle: EntryName
+second_title: Aspose.Words för .NET
+description: FieldAutoTextList EntryName fast egendom. Hämtar eller ställer in namnet på AutoTextposten i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.fields/fieldautotextlist/entryname/
@@ -14,7 +16,7 @@ Hämtar eller ställer in namnet på AutoText-posten.
 public string EntryName { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man använder ett AUTOTEXTLIST-fält för att välja från en lista med AutoText-poster.
 
@@ -69,7 +71,5 @@ private static void AppendAutoTextEntry(GlossaryDocument glossaryDoc, string nam
 ### Se även
 
 * class [FieldAutoTextList](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldautotextlist/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTagRangeStart.RemoveAllChildren
-second_title: Aspose.Words for .NET API 参考
-description: StructuredDocumentTagRangeStart 方法. 删除该范围起始节点和范围结束节点之间的所有节点
+linktitle: RemoveAllChildren
+articleTitle: RemoveAllChildren
+second_title: 用于 .NET 的 Aspose.Words
+description: StructuredDocumentTagRangeStart RemoveAllChildren 方法. 删除该范围起始节点和范围结束节点之间的所有节点 在 C#.
 type: docs
 weight: 230
 url: /zh/net/aspose.words.markup/structureddocumenttagrangestart/removeallchildren/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.markup/structureddocumenttagrangestart/removeallchildr
 public void RemoveAllChildren()
 ```
 
-### 例子
+## 例子
 
 展示如何创建/删除结构化文档标签及其内容。
 
@@ -66,7 +68,5 @@ public void InsertStructuredDocumentTagRanges(Document doc, out StructuredDocume
 ### 也可以看看
 
 * class [StructuredDocumentTagRangeStart](../)
-* 命名空间 [Aspose.Words.Markup](../../structureddocumenttagrangestart/)
+* 命名空间 [Aspose.Words.Markup](../../../aspose.words.markup/)
 * 部件 [Aspose.Words](../../../)
-
-

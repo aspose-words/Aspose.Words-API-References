@@ -1,7 +1,9 @@
 ---
 title: Document.BuiltInDocumentProperties
-second_title: Aspose.Words لمراجع .NET API
-description: Document ملكية. إرجاع مجموعة تمثل كافة خصائص المستند المضمنة في المستند.
+linktitle: BuiltInDocumentProperties
+articleTitle: BuiltInDocumentProperties
+second_title: Aspose.Words لـ .NET
+description: Document BuiltInDocumentProperties ملكية. إرجاع مجموعة تمثل كافة خصائص المستند المضمنة في المستند في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words/document/builtindocumentproperties/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/document/builtindocumentproperties/
 public BuiltInDocumentProperties BuiltInDocumentProperties { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع خصائص المستند المضمنة.
 
@@ -49,7 +51,5 @@ foreach (DocumentProperty docProperty in doc.BuiltInDocumentProperties)
 
 * class [BuiltInDocumentProperties](../../../aspose.words.properties/builtindocumentproperties/)
 * class [Document](../)
-* مساحة الاسم [Aspose.Words](../../document/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: ImportFormatOptions.ImportFormatOptions
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ImportFormatOptions constructeur. Default_Constructor
+title: ImportFormatOptions
+linktitle: ImportFormatOptions
+articleTitle: ImportFormatOptions
+second_title: Aspose.Words pour .NET
+description: ImportFormatOptions constructeur. Default_Constructor en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words/importformatoptions/importformatoptions/
@@ -17,7 +19,5 @@ public ImportFormatOptions()
 ### Voir également
 
 * class [ImportFormatOptions](../)
-* espace de noms [Aspose.Words](../../importformatoptions/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

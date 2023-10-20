@@ -1,7 +1,9 @@
 ---
 title: DocumentProperty.LinkSource
-second_title: Aspose.Words for .NET API 参考
-description: DocumentProperty 财产. 获取链接的自定义文档属性的源
+linktitle: LinkSource
+articleTitle: LinkSource
+second_title: 用于 .NET 的 Aspose.Words
+description: DocumentProperty LinkSource 财产. 获取链接的自定义文档属性的源 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.properties/documentproperty/linksource/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.properties/documentproperty/linksource/
 public string LinkSource { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何将自定义文档属性链接到书签。
 
@@ -41,7 +43,5 @@ doc.Save(ArtifactsDir + "DocumentProperties.LinkCustomDocumentPropertiesToBookma
 ### 也可以看看
 
 * class [DocumentProperty](../)
-* 命名空间 [Aspose.Words.Properties](../../documentproperty/)
+* 命名空间 [Aspose.Words.Properties](../../../aspose.words.properties/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,14 +1,16 @@
 ---
-title: Class CertificateHolder
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.DigitalSignatures.CertificateHolder klas. Stellt einen Inhaber dar X509Zertifikat2 Instanz.
+title: CertificateHolder Class
+linktitle: CertificateHolder
+articleTitle: CertificateHolder
+second_title: Aspose.Words für .NET
+description: Aspose.Words.DigitalSignatures.CertificateHolder klas. Stellt einen Inhaber darX509Zertifikat2 Instanz in C#.
 type: docs
 weight: 370
 url: /de/net/aspose.words.digitalsignatures/certificateholder/
 ---
 ## CertificateHolder class
 
-Stellt einen Inhaber dar **X509Zertifikat2** Instanz.
+Stellt einen Inhaber dar**X509Zertifikat2** Instanz.
 
 Um mehr zu erfahren, besuchen Sie die[Arbeiten Sie mit digitalen Signaturen](https://docs.aspose.com/words/net/working-with-digital-signatures/) Dokumentationsartikel.
 
@@ -20,22 +22,22 @@ public class CertificateHolder
 
 | Name | Beschreibung |
 | --- | --- |
-| [Certificate](../../aspose.words.digitalsignatures/certificateholder/certificate/) { get; } | Gibt die Instanz von zurück **X509Zertifikat2** das private, öffentliche Schlüssel und die Zertifikatskette enthält. |
+| [Certificate](../../aspose.words.digitalsignatures/certificateholder/certificate/) { get; } | Gibt die Instanz von zurück**X509Zertifikat2** das private, öffentliche Schlüssel und die Zertifikatskette enthält. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| static [Create](../../aspose.words.digitalsignatures/certificateholder/create/#create)(byte[], SecureString) | Erstellt`CertificateHolder` Objekt unter Verwendung des Byte-Arrays des PKCS12-Speichers und seines Passworts. |
-| static [Create](../../aspose.words.digitalsignatures/certificateholder/create/#create_1)(byte[], string) | Erstellt`CertificateHolder` Objekt unter Verwendung des Byte-Arrays des PKCS12-Speichers und seines Passworts. |
-| static [Create](../../aspose.words.digitalsignatures/certificateholder/create/#create_2)(string, string) | Erstellt`CertificateHolder` Objekt unter Verwendung des Pfads zum PKCS12-Speicher und seines Passworts. |
-| static [Create](../../aspose.words.digitalsignatures/certificateholder/create/#create_3)(string, string, string) | Erstellt`CertificateHolder` Objekt unter Verwendung des Pfads zum PKCS12-Speicher, seines Passworts und des Alias, mit dem der private Schlüssel und das Zertifikat gefunden werden. |
+| static [Create](../../aspose.words.digitalsignatures/certificateholder/create/#create)(*byte[], SecureString*) | Erstellt`CertificateHolder` Objekt unter Verwendung des Byte-Arrays des PKCS12-Speichers und seines Passworts. |
+| static [Create](../../aspose.words.digitalsignatures/certificateholder/create/#create_1)(*byte[], string*) | Erstellt`CertificateHolder` Objekt unter Verwendung des Byte-Arrays des PKCS12-Speichers und seines Passworts. |
+| static [Create](../../aspose.words.digitalsignatures/certificateholder/create/#create_2)(*string, string*) | Erstellt`CertificateHolder` Objekt unter Verwendung des Pfads zum PKCS12-Speicher und seines Passworts. |
+| static [Create](../../aspose.words.digitalsignatures/certificateholder/create/#create_3)(*string, string, string*) | Erstellt`CertificateHolder` Objekt unter Verwendung des Pfads zum PKCS12-Speicher, seines Passworts und des Alias, mit dem der private Schlüssel und das Zertifikat gefunden werden. |
 
-### Bemerkungen
+## Bemerkungen
 
-`CertificateHolder` kann nur mit statischen Factory-Methoden erstellt werden. Es enthält eine Instanz von **X509Zertifikat2** die verwendet wird, um private, öffentliche Schlüssel und Zertifikatsketten in das System einzuführen. Diese Klasse wird in angewendet[`DigitalSignatureUtil`](../digitalsignatureutil/) Und[`PdfDigitalSignatureDetails`](../../aspose.words.saving/pdfdigitalsignaturedetails/) statt veralteter Methoden mit X509Certificate2 als Parameter.
+`CertificateHolder` kann nur mit statischen Factory-Methoden erstellt werden. Es enthält eine Instanz von**X509Zertifikat2** die verwendet wird, um private, öffentliche Schlüssel und Zertifikatsketten in das System einzuführen. Diese Klasse wird in angewendet[`DigitalSignatureUtil`](../digitalsignatureutil/) Und[`PdfDigitalSignatureDetails`](../../aspose.words.saving/pdfdigitalsignaturedetails/) statt veralteter Methoden mit X509Certificate2 als Parameter.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie eine verschlüsselte Dokumentdatei signiert wird.
 
@@ -197,5 +199,3 @@ Zeigt, wie man einem Dokument eine Signaturzeile hinzufügt und es dann mit eine
 
 * namensraum [Aspose.Words.DigitalSignatures](../../aspose.words.digitalsignatures/)
 * Montage [Aspose.Words](../../)
-
-

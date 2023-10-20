@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.CurrentParagraph
-second_title: Aspose.Words لمراجع .NET API
-description: DocumentBuilder ملكية. يحصل على الفقرة المحددة حاليًا في هذاDocumentBuilder .
+linktitle: CurrentParagraph
+articleTitle: CurrentParagraph
+second_title: Aspose.Words لـ .NET
+description: DocumentBuilder CurrentParagraph ملكية. يحصل على الفقرة المحددة حاليًا في هذاDocumentBuilder  في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words/documentbuilder/currentparagraph/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words/documentbuilder/currentparagraph/
 public Paragraph CurrentParagraph { get; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 [`CurrentNode`](../currentnode/)
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية نقل مؤشر أداة إنشاء المستندات إلى عقد مختلفة في المستند.
 
@@ -73,7 +75,5 @@ Assert.IsTrue(builder.IsAtStartOfParagraph);
 
 * class [Paragraph](../../paragraph/)
 * class [DocumentBuilder](../)
-* مساحة الاسم [Aspose.Words](../../documentbuilder/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

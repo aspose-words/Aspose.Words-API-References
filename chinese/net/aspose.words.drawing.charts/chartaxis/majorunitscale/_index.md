@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.MajorUnitScale
-second_title: Aspose.Words for .NET API 参考
-description: ChartAxis 财产. 返回或设置时间类别轴上主要刻度线的刻度值
+linktitle: MajorUnitScale
+articleTitle: MajorUnitScale
+second_title: 用于 .NET 的 Aspose.Words
+description: ChartAxis MajorUnitScale 财产. 返回或设置时间类别轴上主要刻度线的刻度值 在 C#.
 type: docs
 weight: 140
 url: /zh/net/aspose.words.drawing.charts/chartaxis/majorunitscale/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.drawing.charts/chartaxis/majorunitscale/
 public AxisTimeUnit MajorUnitScale { get; set; }
 ```
 
-### 评论
+## 评论
 
 该属性仅对时间类别轴有效。
 
-### 例子
+## 例子
 
 演示如何操作图表轴的刻度线和显示值。
 
@@ -77,7 +79,5 @@ doc.Save(ArtifactsDir + "Charts.AxisDisplayUnit.docx");
 
 * enum [AxisTimeUnit](../../axistimeunit/)
 * class [ChartAxis](../)
-* 命名空间 [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* 命名空间 [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * 部件 [Aspose.Words](../../../)
-
-

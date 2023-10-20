@@ -1,7 +1,9 @@
 ---
 title: FieldToa.EntrySeparator
-second_title: Aspose.Words per .NET API Reference
-description: FieldToa proprietà. Ottiene o imposta la sequenza di caratteri utilizzata per separare una voce della tabella delle autorità e il relativo numero di pagina.
+linktitle: EntrySeparator
+articleTitle: EntrySeparator
+second_title: Aspose.Words per .NET
+description: FieldToa EntrySeparator proprietà. Ottiene o imposta la sequenza di caratteri utilizzata per separare una voce della tabella delle autorità e il relativo numero di pagina in C#.
 type: docs
 weight: 40
 url: /it/net/aspose.words.fields/fieldtoa/entryseparator/
@@ -14,7 +16,7 @@ Ottiene o imposta la sequenza di caratteri utilizzata per separare una voce dell
 public string EntrySeparator { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come creare e personalizzare una tabella di autorità utilizzando i campi TOA e TA.
 
@@ -137,7 +139,5 @@ private static FieldTA InsertToaEntry(DocumentBuilder builder, string entryCateg
 ### Guarda anche
 
 * class [FieldToa](../)
-* spazio dei nomi [Aspose.Words.Fields](../../fieldtoa/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

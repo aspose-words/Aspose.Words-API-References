@@ -1,7 +1,9 @@
 ---
-title: Class PdfLoadOptions
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Loading.PdfLoadOptions clase. Permite especificar opciones adicionales al cargar un documento PDF en unDocument objeto.
+title: PdfLoadOptions Class
+linktitle: PdfLoadOptions
+articleTitle: PdfLoadOptions
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Loading.PdfLoadOptions clase. Permite especificar opciones adicionales al cargar un documento PDF en unDocument objeto en C#.
 type: docs
 weight: 3670
 url: /es/net/aspose.words.loading/pdfloadoptions/
@@ -50,12 +52,10 @@ public class PdfLoadOptions : LoadOptions
 
 | Nombre | Descripción |
 | --- | --- |
-| override [Equals](../../aspose.words.loading/loadoptions/equals/)(object) |  |
+| override [Equals](../../aspose.words.loading/loadoptions/equals/)(*object*) |  |
 
 ### Ver también
 
 * class [LoadOptions](../loadoptions/)
 * espacio de nombres [Aspose.Words.Loading](../../aspose.words.loading/)
 * asamblea [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class WebExtensionProperty
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.WebExtensions.WebExtensionProperty klass. Anger en anpassad egenskap för webbtillägg.
+title: WebExtensionProperty Class
+linktitle: WebExtensionProperty
+articleTitle: WebExtensionProperty
+second_title: Aspose.Words för .NET
+description: Aspose.Words.WebExtensions.WebExtensionProperty klass. Anger en anpassad egenskap för webbtillägg i C#.
 type: docs
 weight: 6780
 url: /sv/net/aspose.words.webextensions/webextensionproperty/
@@ -20,7 +22,7 @@ public class WebExtensionProperty
 
 | namn | Beskrivning |
 | --- | --- |
-| [WebExtensionProperty](webextensionproperty/)(string, string) | Skapar anpassad egendom för webbtillägg med angivet namn och värde. |
+| [WebExtensionProperty](webextensionproperty/)(*string, string*) | Skapar anpassad egendom för webbtillägg med angivet namn och värde. |
 
 ## Egenskaper
 
@@ -33,5 +35,3 @@ public class WebExtensionProperty
 
 * namnutrymme [Aspose.Words.WebExtensions](../../aspose.words.webextensions/)
 * hopsättning [Aspose.Words](../../)
-
-

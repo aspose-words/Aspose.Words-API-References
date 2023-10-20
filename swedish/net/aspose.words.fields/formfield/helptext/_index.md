@@ -1,7 +1,9 @@
 ---
 title: FormField.HelpText
-second_title: Aspose.Words för .NET API Referens
-description: FormField fast egendom. Returnerar eller ställer in texten som visas i en meddelanderuta när formulärfältet har fokus och användaren trycker på F1.
+linktitle: HelpText
+articleTitle: HelpText
+second_title: Aspose.Words för .NET
+description: FormField HelpText fast egendom. Returnerar eller ställer in texten som visas i en meddelanderuta när formulärfältet har fokus och användaren trycker på F1 i C#.
 type: docs
 weight: 100
 url: /sv/net/aspose.words.fields/formfield/helptext/
@@ -14,13 +16,13 @@ Returnerar eller ställer in texten som visas i en meddelanderuta när formulär
 public string HelpText { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Om[`OwnHelp`](../ownhelp/) egenskapen är inställd på`Sann` ,`HelpText` anger textsträngens värde. If[`OwnHelp`](../ownhelp/) är satt till`falsk` ,`HelpText`anger namnet på en AutoText-post som innehåller hjälp text för formulärfältet.
 
 Microsoft Word tillåter strängar med högst 255 tecken.
 
-### Exempel
+## Exempel
 
 Visar hur man infogar olika typer av formulärfält i ett dokument och bearbetar dem med hjälp av en dokumentbesökarimplementering.
 
@@ -154,7 +156,5 @@ public class FormFieldVisitor : DocumentVisitor
 ### Se även
 
 * class [FormField](../)
-* namnutrymme [Aspose.Words.Fields](../../formfield/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

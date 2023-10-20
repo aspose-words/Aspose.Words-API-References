@@ -1,7 +1,9 @@
 ---
 title: NodeImporter.ImportNode
-second_title: Aspose.Words per .NET API Reference
-description: NodeImporter metodo. Importa un nodo da un documento in un altro.
+linktitle: ImportNode
+articleTitle: ImportNode
+second_title: Aspose.Words per .NET
+description: NodeImporter ImportNode metodo. Importa un nodo da un documento in un altro in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words/nodeimporter/importnode/
@@ -23,15 +25,15 @@ public Node ImportNode(Node srcNode, bool isImportChildren)
 
 Il nodo clonato e importato. Il nodo appartiene al documento di destinazione, ma non ha un genitore.
 
-### Osservazioni
+## Osservazioni
 
 L'importazione di un nodo crea una copia del nodo di origine appartenente al documento di importazione. Il nodo restituito non ha genitore. Il nodo di origine non viene alterato o rimosso dal documento originale.
 
-Prima che un nodo di un altro documento possa essere inserito in questo documento, deve essere importato. Durante l'importazione, le proprietà specifiche del documento come i riferimenti a stili ed elenchi vengono tradotte dal documento originale al documento importato. Dopo che il nodo è stato importato, può essere inserito nella posizione appropriata nel documento utilizzandoNode) o Node).
+Prima che un nodo di un altro documento possa essere inserito in questo documento, deve essere importato. Durante l'importazione, le proprietà specifiche del documento come i riferimenti a stili ed elenchi vengono tradotte dal documento originale al documento importato. Dopo che il nodo è stato importato, può essere inserito nella posizione appropriata nel documento utilizzando[`InsertBefore`](../../compositenode/insertbefore/) o [`InsertAfter`](../../compositenode/insertafter/).
 
 Se il nodo di origine appartiene già al documento di destinazione, viene semplicemente creato un deep clone del nodo di origine.
 
-### Esempi
+## Esempi
 
 Mostra come inserire il contenuto di un documento in un segnalibro in un altro documento.
 
@@ -100,7 +102,5 @@ static void InsertDocument(Node insertionDestination, Document docToInsert)
 
 * class [Node](../../node/)
 * class [NodeImporter](../)
-* spazio dei nomi [Aspose.Words](../../nodeimporter/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

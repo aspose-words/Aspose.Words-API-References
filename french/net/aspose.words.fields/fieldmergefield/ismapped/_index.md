@@ -1,7 +1,9 @@
 ---
 title: FieldMergeField.IsMapped
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldMergeField propriété. Obtient ou définit si ce champ est un champ mappé.
+linktitle: IsMapped
+articleTitle: IsMapped
+second_title: Aspose.Words pour .NET
+description: FieldMergeField IsMapped propriété. Obtient ou définit si ce champ est un champ mappé en C#.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.fields/fieldmergefield/ismapped/
@@ -14,7 +16,7 @@ Obtient ou définit si ce champ est un champ mappé.
 public bool IsMapped { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment utiliser les champs MERGEFIELD pour effectuer un publipostage.
 
@@ -56,7 +58,5 @@ Assert.AreEqual("Dear Mr. Doe:\u000cDear Mrs. Cardholder:", doc.GetText().Trim()
 ### Voir également
 
 * class [FieldMergeField](../)
-* espace de noms [Aspose.Words.Fields](../../fieldmergefield/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

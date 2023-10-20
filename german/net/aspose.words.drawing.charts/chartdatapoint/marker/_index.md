@@ -1,7 +1,9 @@
 ---
 title: ChartDataPoint.Marker
-second_title: Aspose.Words für .NET-API-Referenz
-description: ChartDataPoint eigendom. Gibt die Diagrammdatenmarkierung an.
+linktitle: Marker
+articleTitle: Marker
+second_title: Aspose.Words für .NET
+description: ChartDataPoint Marker eigendom. Gibt die Diagrammdatenmarkierung an in C#.
 type: docs
 weight: 60
 url: /de/net/aspose.words.drawing.charts/chartdatapoint/marker/
@@ -18,7 +20,5 @@ public ChartMarker Marker { get; }
 
 * class [ChartMarker](../../chartmarker/)
 * class [ChartDataPoint](../)
-* namensraum [Aspose.Words.Drawing.Charts](../../chartdatapoint/)
+* namensraum [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../../)
-
-

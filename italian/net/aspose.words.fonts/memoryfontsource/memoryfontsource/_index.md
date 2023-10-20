@@ -1,12 +1,14 @@
 ---
-title: MemoryFontSource.MemoryFontSource
-second_title: Aspose.Words per .NET API Reference
-description: MemoryFontSource costruttore. Ctor.
+title: MemoryFontSource
+linktitle: MemoryFontSource
+articleTitle: MemoryFontSource
+second_title: Aspose.Words per .NET
+description: MemoryFontSource costruttore. Ctor in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words.fonts/memoryfontsource/memoryfontsource/
 ---
-## MemoryFontSource(byte[]) {#constructor}
+## MemoryFontSource(*byte[]*) {#constructor}
 
 Ctor.
 
@@ -18,7 +20,7 @@ public MemoryFontSource(byte[] fontData)
 | --- | --- | --- |
 | fontData | Byte[] | Dati di carattere binario. |
 
-### Esempi
+## Esempi
 
 Mostra come utilizzare una matrice di byte con i dati di un file di caratteri come origine dei caratteri.
 
@@ -37,12 +39,12 @@ Assert.AreEqual(0, memoryFontSource.Priority);
 ### Guarda anche
 
 * class [MemoryFontSource](../)
-* spazio dei nomi [Aspose.Words.Fonts](../../memoryfontsource/)
+* spazio dei nomi [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * assemblea [Aspose.Words](../../../)
 
 ---
 
-## MemoryFontSource(byte[], int) {#constructor_1}
+## MemoryFontSource(*byte[], int*) {#constructor_1}
 
 Ctor.
 
@@ -55,7 +57,7 @@ public MemoryFontSource(byte[] fontData, int priority)
 | fontData | Byte[] | Dati di carattere binario. |
 | priority | Int32 | Priorità della fonte del carattere. Vedi il[`Priority`](../../fontsourcebase/priority/) descrizione della proprietà per ulteriori informazioni. |
 
-### Esempi
+## Esempi
 
 Mostra come utilizzare una matrice di byte con i dati di un file di caratteri come origine dei caratteri.
 
@@ -74,12 +76,12 @@ Assert.AreEqual(0, memoryFontSource.Priority);
 ### Guarda anche
 
 * class [MemoryFontSource](../)
-* spazio dei nomi [Aspose.Words.Fonts](../../memoryfontsource/)
+* spazio dei nomi [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * assemblea [Aspose.Words](../../../)
 
 ---
 
-## MemoryFontSource(byte[], int, string) {#constructor_2}
+## MemoryFontSource(*byte[], int, string*) {#constructor_2}
 
 Ctor.
 
@@ -93,7 +95,7 @@ public MemoryFontSource(byte[] fontData, int priority, string cacheKey)
 | priority | Int32 | Priorità della fonte del carattere. Vedi il[`Priority`](../../fontsourcebase/priority/) descrizione della proprietà per ulteriori informazioni. |
 | cacheKey | String | La chiave di questa origine nella cache. Vedere[`CacheKey`](../cachekey/) descrizione della proprietà per ulteriori informazioni. |
 
-### Esempi
+## Esempi
 
 Mostra come velocizzare il processo di inizializzazione della cache dei caratteri.
 
@@ -144,7 +146,5 @@ private class SearchCacheStream : StreamFontSource
 ### Guarda anche
 
 * class [MemoryFontSource](../)
-* spazio dei nomi [Aspose.Words.Fonts](../../memoryfontsource/)
+* spazio dei nomi [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * assemblea [Aspose.Words](../../../)
-
-

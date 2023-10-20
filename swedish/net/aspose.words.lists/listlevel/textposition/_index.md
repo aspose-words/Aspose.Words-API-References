@@ -1,7 +1,9 @@
 ---
 title: ListLevel.TextPosition
-second_title: Aspose.Words för .NET API Referens
-description: ListLevel fast egendom. Returnerar eller ställer in positionen i punkter för den andra radbrytningstexten för listnivån.
+linktitle: TextPosition
+articleTitle: TextPosition
+second_title: Aspose.Words för .NET
+description: ListLevel TextPosition fast egendom. Returnerar eller ställer in positionen i punkter för den andra radbrytningstexten för listnivån i C#.
 type: docs
 weight: 130
 url: /sv/net/aspose.words.lists/listlevel/textposition/
@@ -14,11 +16,11 @@ Returnerar eller ställer in positionen (i punkter) för den andra radbrytningst
 public double TextPosition { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 `TextPosition` motsvarar LeftIndent i stycket.
 
-### Exempel
+## Exempel
 
 Visar hur du använder anpassad listformatering på stycken när du använder DocumentBuilder.
 
@@ -77,7 +79,5 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateCustomList.docx");
 ### Se även
 
 * class [ListLevel](../)
-* namnutrymme [Aspose.Words.Lists](../../listlevel/)
+* namnutrymme [Aspose.Words.Lists](../../../aspose.words.lists/)
 * hopsättning [Aspose.Words](../../../)
-
-

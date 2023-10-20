@@ -1,12 +1,14 @@
 ---
 title: Fill.SetImage
-second_title: Aspose.Words for .NET API 参考
-description: Fill 方法. 将填充类型更改为单个图像
+linktitle: SetImage
+articleTitle: SetImage
+second_title: 用于 .NET 的 Aspose.Words
+description: Fill SetImage 方法. 将填充类型更改为单个图像 在 C#.
 type: docs
-weight: 250
+weight: 240
 url: /zh/net/aspose.words.drawing/fill/setimage/
 ---
-## SetImage(string) {#setimage_2}
+## SetImage(*string*) {#setimage_2}
 
 将填充类型更改为单个图像。
 
@@ -18,7 +20,7 @@ public void SetImage(string fileName)
 | --- | --- | --- |
 | fileName | String | 图像文件的路径。 |
 
-### 例子
+## 例子
 
 演示如何将形状填充类型设置为图像。
 
@@ -45,12 +47,12 @@ doc.Save(ArtifactsDir + "Shape.FillImage.Stream.docx");
 ### 也可以看看
 
 * class [Fill](../)
-* 命名空间 [Aspose.Words.Drawing](../../fill/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## SetImage(Stream) {#setimage_1}
+## SetImage(*Stream*) {#setimage_1}
 
 将填充类型更改为单个图像。
 
@@ -65,12 +67,12 @@ public void SetImage(Stream stream)
 ### 也可以看看
 
 * class [Fill](../)
-* 命名空间 [Aspose.Words.Drawing](../../fill/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## SetImage(byte[]) {#setimage}
+## SetImage(*byte[]*) {#setimage}
 
 将填充类型更改为单个图像。
 
@@ -85,7 +87,5 @@ public void SetImage(byte[] imageBytes)
 ### 也可以看看
 
 * class [Fill](../)
-* 命名空间 [Aspose.Words.Drawing](../../fill/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

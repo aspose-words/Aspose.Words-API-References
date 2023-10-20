@@ -1,7 +1,9 @@
 ---
 title: KnownTypeSet.Remove
-second_title: Aspose.Words for .NET API 参考
-description: KnownTypeSet 方法. 删除指定的Type集合中的对象投掷ArgumentExceptionif type是无效的.
+linktitle: Remove
+articleTitle: Remove
+second_title: 用于 .NET 的 Aspose.Words
+description: KnownTypeSet Remove 方法. 删除指定的Type集合中的对象投掷ArgumentExceptionif type是无效的 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words.reporting/knowntypeset/remove/
@@ -21,7 +23,5 @@ public void Remove(Type type)
 ### 也可以看看
 
 * class [KnownTypeSet](../)
-* 命名空间 [Aspose.Words.Reporting](../../knowntypeset/)
+* 命名空间 [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * 部件 [Aspose.Words](../../../)
-
-

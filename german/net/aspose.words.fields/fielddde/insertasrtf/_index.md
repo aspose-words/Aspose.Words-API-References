@@ -1,7 +1,9 @@
 ---
 title: FieldDde.InsertAsRtf
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldDde eigendom. Ruft ab oder legt fest ob das verknüpfte Objekt im RichTextFormat RTF eingefügt werden soll.
+linktitle: InsertAsRtf
+articleTitle: InsertAsRtf
+second_title: Aspose.Words für .NET
+description: FieldDde InsertAsRtf eigendom. Ruft ab oder legt fest ob das verknüpfte Objekt im RichTextFormat RTF eingefügt werden soll in C#.
 type: docs
 weight: 60
 url: /de/net/aspose.words.fields/fielddde/insertasrtf/
@@ -14,7 +16,7 @@ Ruft ab oder legt fest, ob das verknüpfte Objekt im Rich-Text-Format (RTF) eing
 public bool InsertAsRtf { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie verschiedene Feldtypen verwenden, um eine Verknüpfung zu anderen Dokumenten im lokalen Dateisystem herzustellen und deren Inhalte anzuzeigen.
 
@@ -197,7 +199,5 @@ public enum InsertLinkedObjectAs
 ### Siehe auch
 
 * class [FieldDde](../)
-* namensraum [Aspose.Words.Fields](../../fielddde/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Shape.ImageData
-second_title: Aspose.Words for .NET API 参考
-description: Shape 财产. 提供对形状图像的访问 返回无效的如果形状不能有图像.
+linktitle: ImageData
+articleTitle: ImageData
+second_title: 用于 .NET 的 Aspose.Words
+description: Shape ImageData 财产. 提供对形状图像的访问 返回无效的如果形状不能有图像 在 C#.
 type: docs
 weight: 110
 url: /zh/net/aspose.words.drawing/shape/imagedata/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.drawing/shape/imagedata/
 public ImageData ImageData { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何从文档中提取图像，并将它们作为单独的文件保存到本地文件系统。
 
@@ -83,7 +85,5 @@ Assert.True(10000 > new FileInfo(ArtifactsDir + "Image.CreateLinkedImage.Linked.
 
 * class [ImageData](../../imagedata/)
 * class [Shape](../)
-* 命名空间 [Aspose.Words.Drawing](../../shape/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

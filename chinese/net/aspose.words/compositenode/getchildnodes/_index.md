@@ -1,9 +1,11 @@
 ---
 title: CompositeNode.GetChildNodes
-second_title: Aspose.Words for .NET API 参考
-description: CompositeNode 方法. 返回与指定类型匹配的子节点的实时集合
+linktitle: GetChildNodes
+articleTitle: GetChildNodes
+second_title: 用于 .NET 的 Aspose.Words
+description: CompositeNode GetChildNodes 方法. 返回与指定类型匹配的子节点的实时集合 在 C#.
 type: docs
-weight: 110
+weight: 90
 url: /zh/net/aspose.words/compositenode/getchildnodes/
 ---
 ## CompositeNode.GetChildNodes method
@@ -23,13 +25,13 @@ public NodeCollection GetChildNodes(NodeType nodeType, bool isDeep)
 
 指定类型的子节点的实时集合。
 
-### 评论
+## 评论
 
 此方法返回的节点集合始终是活动的。
 
 实时收藏始终与文档同步。例如，如果 you 选择文档中的所有部分，并通过集合枚举 删除这些部分，则当从文档中删除该部分时，该部分会立即从集合中删除 。
 
-### 例子
+## 例子
 
 演示如何打印文档的所有注释及其回复。
 
@@ -171,7 +173,5 @@ Assert.AreEqual(3, paragraph.GetChildNodes(NodeType.Any, true).Count);
 * class [NodeCollection](../../nodecollection/)
 * enum [NodeType](../../nodetype/)
 * class [CompositeNode](../)
-* 命名空间 [Aspose.Words](../../compositenode/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

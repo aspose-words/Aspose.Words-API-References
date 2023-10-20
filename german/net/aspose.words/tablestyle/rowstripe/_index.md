@@ -1,7 +1,9 @@
 ---
 title: TableStyle.RowStripe
-second_title: Aspose.Words für .NET-API-Referenz
-description: TableStyle eigendom. Ruft eine Anzahl von Zeilen ab die in die Banderstellung einbezogen werden sollen oder legt diese fest wenn der Stil ungerade/gerade Zeilenbanderstellung angibt.
+linktitle: RowStripe
+articleTitle: RowStripe
+second_title: Aspose.Words für .NET
+description: TableStyle RowStripe eigendom. Ruft eine Anzahl von Zeilen ab die in die Banderstellung einbezogen werden sollen oder legt diese fest wenn der Stil ungerade/gerade Zeilenbanderstellung angibt in C#.
 type: docs
 weight: 120
 url: /de/net/aspose.words/tablestyle/rowstripe/
@@ -14,7 +16,7 @@ Ruft eine Anzahl von Zeilen ab, die in die Banderstellung einbezogen werden soll
 public int RowStripe { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie bedingte Tabellenstile erstellt werden, die zwischen Zeilen wechseln.
 
@@ -69,7 +71,5 @@ doc.Save(ArtifactsDir + "Table.AlternatingRowStyles.docx");
 ### Siehe auch
 
 * class [TableStyle](../)
-* namensraum [Aspose.Words](../../tablestyle/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldLink.IsLinked
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldLink eigendom. Ruft ab oder legt fest ob die Dateigröße reduziert werden soll indem keine Grafikdaten mit dem Dokument gespeichert werden.
+linktitle: IsLinked
+articleTitle: IsLinked
+second_title: Aspose.Words für .NET
+description: FieldLink IsLinked eigendom. Ruft ab oder legt fest ob die Dateigröße reduziert werden soll indem keine Grafikdaten mit dem Dokument gespeichert werden in C#.
 type: docs
 weight: 100
 url: /de/net/aspose.words.fields/fieldlink/islinked/
@@ -14,7 +16,7 @@ Ruft ab oder legt fest, ob die Dateigröße reduziert werden soll, indem keine G
 public bool IsLinked { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie verschiedene Feldtypen verwenden, um eine Verknüpfung zu anderen Dokumenten im lokalen Dateisystem herzustellen und deren Inhalte anzuzeigen.
 
@@ -197,7 +199,5 @@ public enum InsertLinkedObjectAs
 ### Siehe auch
 
 * class [FieldLink](../)
-* namensraum [Aspose.Words.Fields](../../fieldlink/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

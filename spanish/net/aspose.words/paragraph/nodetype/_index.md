@@ -1,7 +1,9 @@
 ---
 title: Paragraph.NodeType
-second_title: Referencia de API de Aspose.Words para .NET
-description: Paragraph propiedad. DevolucionesParagraph .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words para .NET
+description: Paragraph NodeType propiedad. DevolucionesParagraph  en C#.
 type: docs
 weight: 170
 url: /es/net/aspose.words/paragraph/nodetype/
@@ -14,7 +16,7 @@ DevolucionesParagraph .
 public override NodeType NodeType { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo recorrer el árbol de nodos secundarios de un nodo compuesto.
 
@@ -62,7 +64,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 
 * enum [NodeType](../../nodetype/)
 * class [Paragraph](../)
-* espacio de nombres [Aspose.Words](../../paragraph/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

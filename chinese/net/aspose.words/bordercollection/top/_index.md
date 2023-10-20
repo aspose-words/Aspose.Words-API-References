@@ -1,7 +1,9 @@
 ---
 title: BorderCollection.Top
-second_title: Aspose.Words for .NET API 参考
-description: BorderCollection 财产. 获取顶部边框
+linktitle: Top
+articleTitle: Top
+second_title: 用于 .NET 的 Aspose.Words
+description: BorderCollection Top 财产. 获取顶部边框 在 C#.
 type: docs
 weight: 120
 url: /zh/net/aspose.words/bordercollection/top/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/bordercollection/top/
 public Border Top { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何在构建表格时应用边框和底纹颜色。
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.TableBordersAndShading.docx");
 
 * class [Border](../../border/)
 * class [BorderCollection](../)
-* 命名空间 [Aspose.Words](../../bordercollection/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

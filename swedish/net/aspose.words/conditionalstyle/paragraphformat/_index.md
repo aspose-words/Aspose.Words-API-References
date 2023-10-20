@@ -1,7 +1,9 @@
 ---
 title: ConditionalStyle.ParagraphFormat
-second_title: Aspose.Words för .NET API Referens
-description: ConditionalStyle fast egendom. Hämtar styckeformateringen av den villkorliga stilen.
+linktitle: ParagraphFormat
+articleTitle: ParagraphFormat
+second_title: Aspose.Words för .NET
+description: ConditionalStyle ParagraphFormat fast egendom. Hämtar styckeformateringen av den villkorliga stilen i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words/conditionalstyle/paragraphformat/
@@ -14,7 +16,7 @@ Hämtar styckeformateringen av den villkorliga stilen.
 public ParagraphFormat ParagraphFormat { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med vissa områdesstilar i en tabell.
 
@@ -85,7 +87,5 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 
 * class [ParagraphFormat](../../paragraphformat/)
 * class [ConditionalStyle](../)
-* namnutrymme [Aspose.Words](../../conditionalstyle/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

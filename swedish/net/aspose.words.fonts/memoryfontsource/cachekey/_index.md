@@ -1,7 +1,9 @@
 ---
 title: MemoryFontSource.CacheKey
-second_title: Aspose.Words för .NET API Referens
-description: MemoryFontSource fast egendom. Nyckeln till denna källa i cachen.
+linktitle: CacheKey
+articleTitle: CacheKey
+second_title: Aspose.Words för .NET
+description: MemoryFontSource CacheKey fast egendom. Nyckeln till denna källa i cachen i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.fonts/memoryfontsource/cachekey/
@@ -14,14 +16,12 @@ Nyckeln till denna källa i cachen.
 public string CacheKey { get; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Den här nyckeln används för att identifiera cacheobjekt när du sparar/laddar typsnittssökningscache med [`SaveSearchCache`](../../fontsettings/savesearchcache/) och[`SetFontsSources`](../../fontsettings/setfontssources/)metoder.
 
 ### Se även
 
 * class [MemoryFontSource](../)
-* namnutrymme [Aspose.Words.Fonts](../../memoryfontsource/)
+* namnutrymme [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * hopsättning [Aspose.Words](../../../)
-
-

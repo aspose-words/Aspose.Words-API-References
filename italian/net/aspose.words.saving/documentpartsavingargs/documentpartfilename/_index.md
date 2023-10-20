@@ -1,7 +1,9 @@
 ---
 title: DocumentPartSavingArgs.DocumentPartFileName
-second_title: Aspose.Words per .NET API Reference
-description: DocumentPartSavingArgs proprietà. Ottiene o imposta il nome del file senza percorso in cui verrà salvata la parte del documento.
+linktitle: DocumentPartFileName
+articleTitle: DocumentPartFileName
+second_title: Aspose.Words per .NET
+description: DocumentPartSavingArgs DocumentPartFileName proprietà. Ottiene o imposta il nome del file senza percorso in cui verrà salvata la parte del documento in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words.saving/documentpartsavingargs/documentpartfilename/
@@ -14,7 +16,7 @@ Ottiene o imposta il nome del file (senza percorso) in cui verrà salvata la par
 public string DocumentPartFileName { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Questa proprietà consente di ridefinire il modo in cui vengono generati i nomi dei file delle parti del documento durante l'esportazione in HTML o EPUB.
 
@@ -22,7 +24,7 @@ Quando viene richiamato il callback, questa proprietà contiene il nome del file
 
 `DocumentPartFileName` deve contenere solo il nome del file senza il percorso. Aspose.Words determina il percorso per il salvataggio utilizzando il nome del file del documento. Se il nome file del documento di output non è stato specificato, ad esempio durante il salvataggio in un flusso, questo nome file viene utilizzato solo per fare riferimento alle parti del documento. Lo stesso vale quando si salva in formato EPUB.
 
-### Esempi
+## Esempi
 
 Mostra come dividere un documento in parti e salvarle.
 
@@ -139,7 +141,5 @@ public class SavedImageRename : IImageSavingCallback
 ### Guarda anche
 
 * class [DocumentPartSavingArgs](../)
-* spazio dei nomi [Aspose.Words.Saving](../../documentpartsavingargs/)
+* spazio dei nomi [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../../)
-
-

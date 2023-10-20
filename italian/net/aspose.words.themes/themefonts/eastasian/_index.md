@@ -1,7 +1,9 @@
 ---
 title: ThemeFonts.EastAsian
-second_title: Aspose.Words per .NET API Reference
-description: ThemeFonts proprietà. Specifica il nome del carattere per i caratteri dellAsia orientale.
+linktitle: EastAsian
+articleTitle: EastAsian
+second_title: Aspose.Words per .NET
+description: ThemeFonts EastAsian proprietà. Specifica il nome del carattere per i caratteri dellAsia orientale in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words.themes/themefonts/eastasian/
@@ -14,7 +16,7 @@ Specifica il nome del carattere per i caratteri dell'Asia orientale.
 public string EastAsian { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come impostare colori e caratteri personalizzati per i temi.
 
@@ -62,7 +64,5 @@ doc.Save(ArtifactsDir + "Themes.CustomColorsAndFonts.docx");
 ### Guarda anche
 
 * class [ThemeFonts](../)
-* spazio dei nomi [Aspose.Words.Themes](../../themefonts/)
+* spazio dei nomi [Aspose.Words.Themes](../../../aspose.words.themes/)
 * assemblea [Aspose.Words](../../../)
-
-

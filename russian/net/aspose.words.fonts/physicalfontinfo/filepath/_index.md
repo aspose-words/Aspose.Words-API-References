@@ -1,7 +1,9 @@
 ---
 title: PhysicalFontInfo.FilePath
-second_title: Справочник по API Aspose.Words для .NET
-description: PhysicalFontInfo свойство. Путь к файлу шрифта если есть.
+linktitle: FilePath
+articleTitle: FilePath
+second_title: Aspose.Words для .NET
+description: PhysicalFontInfo FilePath свойство. Путь к файлу шрифта если есть на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fonts/physicalfontinfo/filepath/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fonts/physicalfontinfo/filepath/
 public string FilePath { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как составить список доступных шрифтов.
 
@@ -34,7 +36,5 @@ foreach (PhysicalFontInfo fontInfo in folderFontSource[0].GetAvailableFonts())
 ### Смотрите также
 
 * class [PhysicalFontInfo](../)
-* пространство имен [Aspose.Words.Fonts](../../physicalfontinfo/)
+* пространство имен [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * сборка [Aspose.Words](../../../)
-
-

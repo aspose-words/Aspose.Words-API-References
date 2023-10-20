@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.EncryptionDetails
-second_title: Справочник по API Aspose.Words для .NET
-description: PdfSaveOptions свойство. Получает или задает сведения для шифрования выходного PDFдокумента.
+linktitle: EncryptionDetails
+articleTitle: EncryptionDetails
+second_title: Aspose.Words для .NET
+description: PdfSaveOptions EncryptionDetails свойство. Получает или задает сведения для шифрования выходного PDFдокумента на С#.
 type: docs
 weight: 130
 url: /ru/net/aspose.words.saving/pdfsaveoptions/encryptiondetails/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.saving/pdfsaveoptions/encryptiondetails/
 public PdfEncryptionDetails EncryptionDetails { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Значение по умолчанию:`нулевой` и выходной документ не будет зашифрован. Если для этого свойства установлено допустимое значение[`PdfEncryptionDetails`](../../pdfencryptiondetails/) object, , то выходной PDF-документ будет зашифрован.
 
@@ -26,7 +28,7 @@ ContentCopyForAccessibility разрешение требуется PDF/UA Compl
 
 ContentCopyForAccessibility разрешение устарело в формате PDF 2.0. Это разрешение будет игнорироваться при сохранении в PDF 2.0.
 
-### Примеры
+## Примеры
 
 Показывает, как установить разрешения для сохраненного PDF-документа.
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.EncryptionPermissions.pdf", saveOptions)
 
 * class [PdfEncryptionDetails](../../pdfencryptiondetails/)
 * class [PdfSaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../pdfsaveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

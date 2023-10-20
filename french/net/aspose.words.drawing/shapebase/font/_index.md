@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.Font
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ShapeBase propriété. Donne accès au formatage de la police de cet objet.
+linktitle: Font
+articleTitle: Font
+second_title: Aspose.Words pour .NET
+description: ShapeBase Font propriété. Donne accès au formatage de la police de cet objet en C#.
 type: docs
 weight: 190
 url: /fr/net/aspose.words.drawing/shapebase/font/
@@ -14,7 +16,7 @@ Donne accès au formatage de la police de cet objet.
 public Font Font { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment insérer une zone de texte et définir la police de son contenu.
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "Shape.Font.docx");
 
 * class [Font](../../../aspose.words/font/)
 * class [ShapeBase](../)
-* espace de noms [Aspose.Words.Drawing](../../shapebase/)
+* espace de noms [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Assemblée [Aspose.Words](../../../)
-
-

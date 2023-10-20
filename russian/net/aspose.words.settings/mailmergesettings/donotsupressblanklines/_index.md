@@ -1,7 +1,9 @@
 ---
 title: MailMergeSettings.DoNotSupressBlankLines
-second_title: Справочник по API Aspose.Words для .NET
-description: MailMergeSettings свойство. Указывает как приложение выполняющее слияние почты должно обрабатывать пустые строки в объединенных документах полученных в результате слияния почты. Значение по умолчаниюЛОЖЬ .
+linktitle: DoNotSupressBlankLines
+articleTitle: DoNotSupressBlankLines
+second_title: Aspose.Words для .NET
+description: MailMergeSettings DoNotSupressBlankLines свойство. Указывает как приложение выполняющее слияние почты должно обрабатывать пустые строки в объединенных документах полученных в результате слияния почты. Значение по умолчаниюЛОЖЬ  на С#.
 type: docs
 weight: 90
 url: /ru/net/aspose.words.settings/mailmergesettings/donotsupressblanklines/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.settings/mailmergesettings/donotsupressblanklines/
 public bool DoNotSupressBlankLines { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как выполнить слияние почты с данными из объекта источника данных Office.
 
@@ -66,7 +68,5 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ### Смотрите также
 
 * class [MailMergeSettings](../)
-* пространство имен [Aspose.Words.Settings](../../mailmergesettings/)
+* пространство имен [Aspose.Words.Settings](../../../aspose.words.settings/)
 * сборка [Aspose.Words](../../../)
-
-

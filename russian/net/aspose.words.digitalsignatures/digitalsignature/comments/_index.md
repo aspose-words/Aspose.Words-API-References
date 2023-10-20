@@ -1,7 +1,9 @@
 ---
 title: DigitalSignature.Comments
-second_title: Справочник по API Aspose.Words для .NET
-description: DigitalSignature свойство. Получает комментарий цели подписи.
+linktitle: Comments
+articleTitle: Comments
+second_title: Aspose.Words для .NET
+description: DigitalSignature Comments свойство. Получает комментарий цели подписи на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.digitalsignatures/digitalsignature/comments/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.digitalsignatures/digitalsignature/comments/
 public string Comments { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как проверять и отображать информацию о каждой подписи в документе.
 
@@ -36,7 +38,5 @@ foreach (DigitalSignature signature in doc.DigitalSignatures)
 ### Смотрите также
 
 * class [DigitalSignature](../)
-* пространство имен [Aspose.Words.DigitalSignatures](../../digitalsignature/)
+* пространство имен [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * сборка [Aspose.Words](../../../)
-
-

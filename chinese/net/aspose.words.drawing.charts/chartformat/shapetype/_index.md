@@ -1,9 +1,11 @@
 ---
 title: ChartFormat.ShapeType
-second_title: Aspose.Words for .NET API 参考
-description: ChartFormat 财产. 获取或设置父图表元素的形状类型
+linktitle: ShapeType
+articleTitle: ShapeType
+second_title: 用于 .NET 的 Aspose.Words
+description: ChartFormat ShapeType 财产. 获取或设置父图表元素的形状类型 在 C#.
 type: docs
-weight: 30
+weight: 20
 url: /zh/net/aspose.words.drawing.charts/chartformat/shapetype/
 ---
 ## ChartFormat.ShapeType property
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.drawing.charts/chartformat/shapetype/
 public ChartShapeType ShapeType { get; set; }
 ```
 
-### 评论
+## 评论
 
 目前，该属性只能用于数据标签。
 
-### 例子
+## 例子
 
 演示如何设置图表数据标签的填充、描边和标注格式。
 
@@ -60,7 +62,5 @@ doc.Save(ArtifactsDir + "Charts.FormatDataLables.docx");
 
 * enum [ChartShapeType](../../chartshapetype/)
 * class [ChartFormat](../)
-* 命名空间 [Aspose.Words.Drawing.Charts](../../chartformat/)
+* 命名空间 [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * 部件 [Aspose.Words](../../../)
-
-

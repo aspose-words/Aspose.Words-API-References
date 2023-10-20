@@ -1,7 +1,9 @@
 ---
 title: GlossaryDocument.Accept
-second_title: Aspose.Words for .NET API 参考
-description: GlossaryDocument 方法. 接受访客
+linktitle: Accept
+articleTitle: Accept
+second_title: 用于 .NET 的 Aspose.Words
+description: GlossaryDocument Accept 方法. 接受访客 在 C#.
 type: docs
 weight: 60
 url: /zh/net/aspose.words.buildingblocks/glossarydocument/accept/
@@ -22,7 +24,7 @@ public override bool Accept(DocumentVisitor visitor)
 
 如果访问了所有节点，则为 True；假如果[`DocumentVisitor`](../../../aspose.words/documentvisitor/)在访问所有节点之前停止操作。
 
-### 评论
+## 评论
 
 枚举该节点及其所有子节点。每个节点调用相应的方法[`DocumentVisitor`](../../../aspose.words/documentvisitor/)。
 
@@ -32,7 +34,7 @@ public override bool Accept(DocumentVisitor visitor)
 
 注意：当您在 a Visitor 上执行 a Visitor 时，不会访问词汇表文档节点及其子节点。[`Document`](../../../aspose.words/document/) 。如果你想对a 词汇表文档执行Visitor，你需要调用`Accept`.
 
-### 例子
+## 例子
 
 显示访问术语表文档中的构建块的方法。
 
@@ -137,7 +139,5 @@ public class GlossaryDocVisitor : DocumentVisitor
 
 * class [DocumentVisitor](../../../aspose.words/documentvisitor/)
 * class [GlossaryDocument](../)
-* 命名空间 [Aspose.Words.BuildingBlocks](../../glossarydocument/)
+* 命名空间 [Aspose.Words.BuildingBlocks](../../../aspose.words.buildingblocks/)
 * 部件 [Aspose.Words](../../../)
-
-

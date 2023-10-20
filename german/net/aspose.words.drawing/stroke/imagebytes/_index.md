@@ -1,9 +1,11 @@
 ---
 title: Stroke.ImageBytes
-second_title: Aspose.Words für .NET-API-Referenz
-description: Stroke eigendom. Definiert das Bild für ein Strichbild oder eine Musterfüllung.
+linktitle: ImageBytes
+articleTitle: ImageBytes
+second_title: Aspose.Words für .NET
+description: Stroke ImageBytes eigendom. Definiert das Bild für ein Strichbild oder eine Musterfüllung in C#.
 type: docs
-weight: 120
+weight: 110
 url: /de/net/aspose.words.drawing/stroke/imagebytes/
 ---
 ## Stroke.ImageBytes property
@@ -14,7 +16,7 @@ Definiert das Bild für ein Strichbild oder eine Musterfüllung.
 public byte[] ImageBytes { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Formstrich-Features verarbeitet werden.
 
@@ -35,7 +37,5 @@ File.WriteAllBytes(ArtifactsDir + "Drawing.StrokePattern.png", stroke.ImageBytes
 ### Siehe auch
 
 * class [Stroke](../)
-* namensraum [Aspose.Words.Drawing](../../stroke/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

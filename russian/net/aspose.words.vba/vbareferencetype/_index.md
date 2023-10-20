@@ -1,7 +1,9 @@
 ---
-title: Enum VbaReferenceType
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Vba.VbaReferenceType перечисление. Позволяет указать типVbaReference объект.
+title: VbaReferenceType Enum
+linktitle: VbaReferenceType
+articleTitle: VbaReferenceType
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Vba.VbaReferenceType перечисление. Позволяет указать типVbaReference объект на С#.
 type: docs
 weight: 6610
 url: /ru/net/aspose.words.vba/vbareferencetype/
@@ -23,7 +25,7 @@ public enum VbaReferenceType
 | Original | `51` | Указывает исходный ссылочный тип библиотеки типов автоматизации. |
 | Control | `47` | Указывает измененный ссылочный тип библиотеки типов. |
 
-### Примеры
+## Примеры
 
 Показывает, как получить или удалить элемент из коллекции ссылок VBA.
 
@@ -98,5 +100,3 @@ private static string GetLibIdProjectPath(string libIdProject)
 
 * пространство имен [Aspose.Words.Vba](../../aspose.words.vba/)
 * сборка [Aspose.Words](../../)
-
-

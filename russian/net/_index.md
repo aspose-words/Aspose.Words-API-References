@@ -1,10 +1,12 @@
 ---
 title: Aspose.Words для .NET
+linktitle: Aspose.Words для .NET
+articleTitle: Aspose.Words для .NET
 type: docs
 weight: 10
 url: /ru/net/
-keywords: "Aspose.Words for .NET, Aspose Words, Aspose API Reference."
-description: "Aspose.Words — это библиотека классов, которую разработчики могут использовать на различных платформах для решения различных задач обработки документов."
+keywords: Aspose.Words для .NET Aspose Words Справочник по API Aspose docx в pdf конвертировать сравнить создать редактировать разделение слов bmp rtf odt open office html tiff doc dot wordml mobi chm txt md markdown xps svg ps postscript pcl epub azw3 kf8 png emf jpg gif таблица слияния почты отчетный документ
+description: Aspose.Words — это библиотека классов, которую могут использовать разработчики различных платформ для самых разных задач обработки документов.
 is_root: true
 ---
 
@@ -41,5 +43,3 @@ is_root: true
 | [Aspose.Words.Themes](./aspose.words.themes/) | **Aspose.Words.Themes** пространство имен предоставляет классы, которые позволяют получать доступ к информации о теме в документах Microsoft Word. |
 | [Aspose.Words.Vba](./aspose.words.vba/) | **Aspose.Words.Vba** пространство имен предоставляет классы для работы с проектами VBA. |
 | [Aspose.Words.WebExtensions](./aspose.words.webextensions/) | **Aspose.Words.WebExtensions**Пространство имен предоставляет классы, которые позволяют to настраивать элементы и атрибуты, расширяющие словарь XML для представления надстроек Office. |
-
-

@@ -1,7 +1,9 @@
 ---
 title: InlineStory.FirstParagraph
-second_title: Справочник по API Aspose.Words для .NET
-description: InlineStory свойство. Получает первый абзац статьи.
+linktitle: FirstParagraph
+articleTitle: FirstParagraph
+second_title: Aspose.Words для .NET
+description: InlineStory FirstParagraph свойство. Получает первый абзац статьи на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words/inlinestory/firstparagraph/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/inlinestory/firstparagraph/
 public Paragraph FirstParagraph { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как добавить комментарий к абзацу.
 
@@ -81,7 +83,5 @@ doc.Save(ArtifactsDir + "InlineStory.AddFootnote.docx");
 
 * class [Paragraph](../../paragraph/)
 * class [InlineStory](../)
-* пространство имен [Aspose.Words](../../inlinestory/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum PdfFontEmbeddingMode
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Saving.PdfFontEmbeddingMode تعداد. يحدد كيفية قيام Aspose.Words بتضمين الخطوط.
+title: PdfFontEmbeddingMode Enum
+linktitle: PdfFontEmbeddingMode
+articleTitle: PdfFontEmbeddingMode
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Saving.PdfFontEmbeddingMode تعداد. يحدد كيفية قيام Aspose.Words بتضمين الخطوط في C#.
 type: docs
 weight: 5470
 url: /ar/net/aspose.words.saving/pdffontembeddingmode/
@@ -22,7 +24,7 @@ public enum PdfFontEmbeddingMode
 | EmbedNonstandard | `1` | يقوم Aspose.Words بتضمين جميع الخطوط باستثناء خطوط Windows القياسية Arial وTimes New Roman. تتأثر خطوط Arial وTimes New Roman فقط في هذا الوضع لأن MS Word لا يقوم بتضمين هذه الخطوط فقط عند حفظ المستند إلى PDF. |
 | EmbedNone | `2` | Aspose.Words لا تتضمن أي خطوط. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية ضبط Aspose.Words لتخطي تضمين خطوط Arial وTimes New Roman في مستند PDF.
 
@@ -68,5 +70,3 @@ switch (pdfFontEmbeddingMode)
 
 * مساحة الاسم [Aspose.Words.Saving](../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../)
-
-

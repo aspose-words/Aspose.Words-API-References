@@ -1,7 +1,9 @@
 ---
 title: SvgSaveOptions.ShowPageBorder
-second_title: Aspose.Words för .NET API Referens
-description: SvgSaveOptions fast egendom. Styr om en ram läggs till i konturen av sidan. Standard ärSann .
+linktitle: ShowPageBorder
+articleTitle: ShowPageBorder
+second_title: Aspose.Words för .NET
+description: SvgSaveOptions ShowPageBorder fast egendom. Styr om en ram läggs till i konturen av sidan. Standard ärSann  i C#.
 type: docs
 weight: 80
 url: /sv/net/aspose.words.saving/svgsaveoptions/showpageborder/
@@ -14,7 +16,7 @@ Styr om en ram läggs till i konturen av sidan. Standard är`Sann` .
 public bool ShowPageBorder { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man efterliknar egenskaperna hos bilder när man konverterar ett .docx-dokument till .svg.
 
@@ -35,7 +37,5 @@ doc.Save(ArtifactsDir + "SvgSaveOptions.SaveLikeImage.svg", options);
 ### Se även
 
 * class [SvgSaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../svgsaveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

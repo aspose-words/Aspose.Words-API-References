@@ -1,7 +1,9 @@
 ---
-title: Enum SdtDateStorageFormat
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Markup.SdtDateStorageFormat uppräkning. Anger hur datumet för ett datum SDT lagras/hämtas när SDT är bunden till en XMLnod i dokumentets datalager.
+title: SdtDateStorageFormat Enum
+linktitle: SdtDateStorageFormat
+articleTitle: SdtDateStorageFormat
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Markup.SdtDateStorageFormat uppräkning. Anger hur datumet för ett datum SDT lagras/hämtas när SDT är bunden till en XMLnod i dokumentets datalager i C#.
 type: docs
 weight: 4010
 url: /sv/net/aspose.words.markup/sdtdatestorageformat/
@@ -27,5 +29,3 @@ public enum SdtDateStorageFormat
 
 * namnutrymme [Aspose.Words.Markup](../../aspose.words.markup/)
 * hopsättning [Aspose.Words](../../)
-
-

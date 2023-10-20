@@ -1,7 +1,9 @@
 ---
 title: ConditionalStyle.RightPadding
-second_title: Referencia de API de Aspose.Words para .NET
-description: ConditionalStyle propiedad. Obtiene o establece la cantidad de espacio en puntos que se agregará a la derecha del contenido de las celdas de la tabla.
+linktitle: RightPadding
+articleTitle: RightPadding
+second_title: Aspose.Words para .NET
+description: ConditionalStyle RightPadding propiedad. Obtiene o establece la cantidad de espacio en puntos que se agregará a la derecha del contenido de las celdas de la tabla en C#.
 type: docs
 weight: 60
 url: /es/net/aspose.words/conditionalstyle/rightpadding/
@@ -14,7 +16,7 @@ Obtiene o establece la cantidad de espacio (en puntos) que se agregará a la der
 public double RightPadding { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo trabajar con ciertos estilos de área de una tabla.
 
@@ -84,7 +86,5 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 ### Ver también
 
 * class [ConditionalStyle](../)
-* espacio de nombres [Aspose.Words](../../conditionalstyle/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

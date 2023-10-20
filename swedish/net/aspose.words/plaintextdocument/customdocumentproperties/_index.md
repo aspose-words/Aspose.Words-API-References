@@ -1,7 +1,9 @@
 ---
 title: PlainTextDocument.CustomDocumentProperties
-second_title: Aspose.Words för .NET API Referens
-description: PlainTextDocument fast egendom. BlirCustomDocumentProperties av dokumentet.
+linktitle: CustomDocumentProperties
+articleTitle: CustomDocumentProperties
+second_title: Aspose.Words för .NET
+description: PlainTextDocument CustomDocumentProperties fast egendom. BlirCustomDocumentProperties av dokumentet i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words/plaintextdocument/customdocumentproperties/
@@ -14,7 +16,7 @@ Blir`CustomDocumentProperties` av dokumentet.
 public CustomDocumentProperties CustomDocumentProperties { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du laddar innehållet i ett Microsoft Word-dokument i klartext och sedan kommer åt originaldokumentets anpassade egenskaper.
 
@@ -37,7 +39,5 @@ Assert.AreEqual("123 Main St, London, UK", plaintext.CustomDocumentProperties["L
 
 * class [CustomDocumentProperties](../../../aspose.words.properties/customdocumentproperties/)
 * class [PlainTextDocument](../)
-* namnutrymme [Aspose.Words](../../plaintextdocument/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

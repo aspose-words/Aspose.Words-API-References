@@ -1,7 +1,9 @@
 ---
-title: Enum ThemeColor
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Themes.ThemeColor opsomming. Gibt die Designfarben für Dokumentdesigns an.
+title: ThemeColor Enum
+linktitle: ThemeColor
+articleTitle: ThemeColor
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Themes.ThemeColor opsomming. Gibt die Designfarben für Dokumentdesigns an in C#.
 type: docs
 weight: 6470
 url: /de/net/aspose.words.themes/themecolor/
@@ -38,11 +40,11 @@ public enum ThemeColor
 | Background1 | `14` | Hintergrundfarbe 1. |
 | Background2 | `15` | Hintergrundfarbe 2. |
 
-### Bemerkungen
+## Bemerkungen
 
 Die angegebene Designfarbe ist ein Verweis auf eine der vordefinierten Designfarben, die sich im Designteil des -Dokuments befindet und die zentrale Festlegung von Farbinformationen im Dokument ermöglicht.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Themenstil erstellt und verwendet wird.
 
@@ -147,5 +149,3 @@ Assert.AreEqual(Color.Blue.ToArgb(), font.Color.ToArgb());
 
 * namensraum [Aspose.Words.Themes](../../aspose.words.themes/)
 * Montage [Aspose.Words](../../)
-
-

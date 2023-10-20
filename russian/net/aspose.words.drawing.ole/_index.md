@@ -1,7 +1,9 @@
 ---
 title: Aspose.Words.Drawing.Ole
-second_title: Справочник по API Aspose.Words для .NET
-description: Содержит классы для работы с элементами управления OLE/ActiveX и формами в документах Microsoft Word.
+linktitle: Aspose.Words.Drawing.Ole
+articleTitle: Aspose.Words.Drawing.Ole
+second_title: Aspose.Words для .NET
+description: Содержит классы для работы с элементами управления OLE/ActiveX и формами в документах Microsoft Word на С#.
 type: docs
 weight: 70
 url: /ru/net/aspose.words.drawing.ole/
@@ -20,5 +22,3 @@ url: /ru/net/aspose.words.drawing.ole/
 | перечисление | Описание |
 | --- | --- |
 | [Forms2OleControlType](./forms2olecontroltype/) | Перечисляет типы элементов управления Forms 2.0. |
-
-

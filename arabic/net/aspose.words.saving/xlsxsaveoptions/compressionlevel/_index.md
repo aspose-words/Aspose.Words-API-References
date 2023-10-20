@@ -1,7 +1,9 @@
 ---
 title: XlsxSaveOptions.CompressionLevel
-second_title: Aspose.Words لمراجع .NET API
-description: XlsxSaveOptions ملكية. يحدد مستوى الضغط المستخدم لحفظ المستند. القيمة الافتراضية هيNormal .
+linktitle: CompressionLevel
+articleTitle: CompressionLevel
+second_title: Aspose.Words لـ .NET
+description: XlsxSaveOptions CompressionLevel ملكية. يحدد مستوى الضغط المستخدم لحفظ المستند. القيمة الافتراضية هيNormal  في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.saving/xlsxsaveoptions/compressionlevel/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.saving/xlsxsaveoptions/compressionlevel/
 public CompressionLevel CompressionLevel { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية ضغط مستند XLSX.
 
@@ -31,7 +33,5 @@ doc.Save(ArtifactsDir + "XlsxSaveOptions.CompressXlsx.xlsx", xlsxSaveOptions);
 
 * enum [CompressionLevel](../../compressionlevel/)
 * class [XlsxSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../xlsxsaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

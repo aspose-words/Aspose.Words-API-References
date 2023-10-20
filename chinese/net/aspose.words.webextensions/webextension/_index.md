@@ -1,7 +1,9 @@
 ---
-title: Class WebExtension
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.WebExtensions.WebExtension 班级. 表示 Web 扩展对象
+title: WebExtension Class
+linktitle: WebExtension
+articleTitle: WebExtension
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.WebExtensions.WebExtension 班级. 表示 Web 扩展对象 在 C#.
 type: docs
 weight: 6740
 url: /zh/net/aspose.words.webextensions/webextension/
@@ -27,7 +29,7 @@ public class WebExtension
 | [Properties](../../aspose.words.webextensions/webextension/properties/) { get; } | 表示一组 Web 扩展自定义属性。 |
 | [Reference](../../aspose.words.webextensions/webextension/reference/) { get; } | 指定对 Web 扩展的主要引用。 |
 
-### 例子
+## 例子
 
 演示如何向文档添加 Web 扩展。
 
@@ -73,5 +75,3 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 
 * 命名空间 [Aspose.Words.WebExtensions](../../aspose.words.webextensions/)
 * 部件 [Aspose.Words](../../)
-
-

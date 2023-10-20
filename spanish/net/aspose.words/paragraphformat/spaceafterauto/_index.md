@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.SpaceAfterAuto
-second_title: Referencia de API de Aspose.Words para .NET
-description: ParagraphFormat propiedad. Verdadero si la cantidad de espacio después del párrafo se establece automáticamente.
+linktitle: SpaceAfterAuto
+articleTitle: SpaceAfterAuto
+second_title: Aspose.Words para .NET
+description: ParagraphFormat SpaceAfterAuto propiedad. Verdadero si la cantidad de espacio después del párrafo se establece automáticamente en C#.
 type: docs
 weight: 310
 url: /es/net/aspose.words/paragraphformat/spaceafterauto/
@@ -14,7 +16,7 @@ Verdadero si la cantidad de espacio después del párrafo se establece automáti
 public bool SpaceAfterAuto { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 Cuando se establece en`verdadero` , anula el efecto de[`SpaceAfter`](../spaceafter/).
 
@@ -27,7 +29,7 @@ Cuando configura el Espacio antes y el Espacio después del párrafo en Automát
 * No se agrega espacio después de una tabla si es el último bloque de una celda de la tabla.
 * No se agrega espacio después del último párrafo en una celda de la tabla.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo configurar el espaciado automático de párrafos.
 
@@ -55,7 +57,5 @@ doc.Save(ArtifactsDir + "ParagraphFormat.ParagraphSpacingAuto.docx");
 ### Ver también
 
 * class [ParagraphFormat](../)
-* espacio de nombres [Aspose.Words](../../paragraphformat/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

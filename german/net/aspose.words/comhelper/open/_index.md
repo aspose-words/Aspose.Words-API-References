@@ -1,12 +1,14 @@
 ---
 title: ComHelper.Open
-second_title: Aspose.Words für .NET-API-Referenz
-description: ComHelper methode. Ermöglicht einer COMAnwendung das Laden von aDocument aus einer Datei.
+linktitle: Open
+articleTitle: Open
+second_title: Aspose.Words für .NET
+description: ComHelper Open methode. Ermöglicht einer COMAnwendung das Laden von aDocument aus einer Datei in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words/comhelper/open/
 ---
-## Open(string) {#open_1}
+## Open(*string*) {#open_1}
 
 Ermöglicht einer COM-Anwendung das Laden von a[`Document`](../../document/) aus einer Datei.
 
@@ -22,11 +24,11 @@ public Document Open(string fileName)
 
 A[`Document`](../../document/)Objekt, das ein Word-Dokument darstellt.
 
-### Bemerkungen
+## Bemerkungen
 
 Diese Methode entspricht dem Aufruf von[`Document`](../../document/) Konstruktor mit einem Dateinamenparameter.
 
-### Beispiele
+## Beispiele
 
 ```csharp
 [VBScript]
@@ -62,12 +64,12 @@ using (FileStream stream = new FileStream(MyDir + "Document.docx", FileMode.Open
 
 * class [Document](../../document/)
 * class [ComHelper](../)
-* namensraum [Aspose.Words](../../comhelper/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
 
 ---
 
-## Open(Stream) {#open}
+## Open(*Stream*) {#open}
 
 Ermöglicht das Laden einer COM-Anwendung[`Document`](../../document/) aus einem Stream.
 
@@ -83,11 +85,11 @@ public Document Open(Stream stream)
 
 A[`Document`](../../document/)Objekt, das ein Word-Dokument darstellt.
 
-### Bemerkungen
+## Bemerkungen
 
 Diese Methode entspricht dem Aufruf von[`Document`](../../document/) Konstruktor mit einem Stream-Parameter.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Dokumente mit der ComHelper-Klasse geöffnet werden.
 
@@ -113,7 +115,5 @@ using (FileStream stream = new FileStream(MyDir + "Document.docx", FileMode.Open
 
 * class [Document](../../document/)
 * class [ComHelper](../)
-* namensraum [Aspose.Words](../../comhelper/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

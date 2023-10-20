@@ -1,7 +1,9 @@
 ---
 title: AxisDisplayUnit.CustomUnit
-second_title: Aspose.Words لمراجع .NET API
-description: AxisDisplayUnit ملكية. الحصول على مقسوم محدد من قبل المستخدم أو تعيينه لقياس وحدات العرض على محور القيمة.
+linktitle: CustomUnit
+articleTitle: CustomUnit
+second_title: Aspose.Words لـ .NET
+description: AxisDisplayUnit CustomUnit ملكية. الحصول على مقسوم محدد من قبل المستخدم أو تعيينه لقياس وحدات العرض على محور القيمة في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.drawing.charts/axisdisplayunit/customunit/
@@ -14,13 +16,13 @@ url: /ar/net/aspose.words.drawing.charts/axisdisplayunit/customunit/
 public double CustomUnit { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 الخاصية غير مدعومة بمخططات MS Office 2016 الجديدة. القيمة الافتراضية هي 1.
 
 يؤدي تعيين هذه الخاصية إلى تعيين[`Unit`](../unit/) الخاصية إلى Custom.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التعامل مع علامات التجزئة والقيم المعروضة لمحور المخطط.
 
@@ -78,7 +80,5 @@ doc.Save(ArtifactsDir + "Charts.AxisDisplayUnit.docx");
 ### أنظر أيضا
 
 * class [AxisDisplayUnit](../)
-* مساحة الاسم [Aspose.Words.Drawing.Charts](../../axisdisplayunit/)
+* مساحة الاسم [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../../)
-
-

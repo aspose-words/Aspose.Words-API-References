@@ -1,7 +1,9 @@
 ---
-title: Class SaveOptions
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Saving.SaveOptions فصل. هذه فئة أساسية مجردة للفئات التي تسمح للمستخدم بتحديد خيارات إضافية عند حفظ مستند بتنسيق معين.
+title: SaveOptions Class
+linktitle: SaveOptions
+articleTitle: SaveOptions
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Saving.SaveOptions فصل. هذه فئة أساسية مجردة للفئات التي تسمح للمستخدم بتحديد خيارات إضافية عند حفظ مستند بتنسيق معين في C#.
 type: docs
 weight: 5580
 url: /ar/net/aspose.words.saving/saveoptions/
@@ -22,7 +24,7 @@ public abstract class SaveOptions
 | --- | --- |
 | [AllowEmbeddingPostScriptFonts](../../aspose.words.saving/saveoptions/allowembeddingpostscriptfonts/) { get; set; } | الحصول على قيمة منطقية أو تعيينها تشير إلى ما إذا كان سيتم السماح بدمج الخطوط باستخدام مخططات PostScript عند حفظ تضمين خطوط TrueType في مستند. القيمة الافتراضية هي`خطأ شنيع` . |
 | [CustomTimeZoneInfo](../../aspose.words.saving/saveoptions/customtimezoneinfo/) { get; set; } | الحصول على أو تعيين المنطقة الزمنية المحلية المخصصة المستخدمة لحقول التاريخ/الوقت. |
-| [DefaultTemplate](../../aspose.words.saving/saveoptions/defaulttemplate/) { get; set; } | الحصول على أو تعيين المسار إلى القالب الافتراضي (بما في ذلك اسم الملف). القيمة الافتراضية لهذه الخاصية هي **سلسلة فارغة** (Empty). |
+| [DefaultTemplate](../../aspose.words.saving/saveoptions/defaulttemplate/) { get; set; } | الحصول على أو تعيين المسار إلى القالب الافتراضي (بما في ذلك اسم الملف). القيمة الافتراضية لهذه الخاصية هي**سلسلة فارغة** (Empty). |
 | [Dml3DEffectsRenderingMode](../../aspose.words.saving/saveoptions/dml3deffectsrenderingmode/) { get; set; } | الحصول على قيمة أو تعيينها لتحديد كيفية عرض التأثيرات ثلاثية الأبعاد. |
 | virtual [DmlEffectsRenderingMode](../../aspose.words.saving/saveoptions/dmleffectsrenderingmode/) { get; set; } | الحصول على قيمة أو تعيينها لتحديد كيفية عرض تأثيرات DrawML. |
 | [DmlRenderingMode](../../aspose.words.saving/saveoptions/dmlrenderingmode/) { get; set; } | الحصول على قيمة أو تعيينها لتحديد كيفية عرض أشكال DrawML. |
@@ -44,14 +46,14 @@ public abstract class SaveOptions
 
 | اسم | وصف |
 | --- | --- |
-| static [CreateSaveOptions](../../aspose.words.saving/saveoptions/createsaveoptions/#createsaveoptions)(SaveFormat) | إنشاء كائن خيارات الحفظ من فئة مناسبة لتنسيق الحفظ المحدد. |
-| static [CreateSaveOptions](../../aspose.words.saving/saveoptions/createsaveoptions/#createsaveoptions_1)(string) | إنشاء كائن خيارات حفظ من فئة مناسبة لامتداد الملف المحدد في اسم الملف المحدد. |
+| static [CreateSaveOptions](../../aspose.words.saving/saveoptions/createsaveoptions/#createsaveoptions)(*[SaveFormat](../../aspose.words/saveformat/)*) | إنشاء كائن خيارات الحفظ من فئة مناسبة لتنسيق الحفظ المحدد. |
+| static [CreateSaveOptions](../../aspose.words.saving/saveoptions/createsaveoptions/#createsaveoptions_1)(*string*) | إنشاء كائن خيارات حفظ من فئة مناسبة لامتداد الملف المحدد في اسم الملف المحدد. |
 
-### ملاحظات
+## ملاحظات
 
 مثال على`SaveOptions` يتم تمرير الفئة أو أي فئة مشتقة إلى الدفق[`Save`](../../aspose.words/document/save/) أو سلسلة[`Save`](../../aspose.words/document/save/) التحميل الزائد للمستخدم لتحديد الخيارات المخصصة عند حفظ مستند.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام ترميز معين عند حفظ مستند إلى .epub.
 
@@ -79,5 +81,3 @@ doc.Save(ArtifactsDir + "HtmlSaveOptions.Doc2EpubSaveOptions.epub", saveOptions)
 
 * مساحة الاسم [Aspose.Words.Saving](../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../)
-
-

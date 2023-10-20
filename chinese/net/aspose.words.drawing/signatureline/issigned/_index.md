@@ -1,7 +1,9 @@
 ---
 title: SignatureLine.IsSigned
-second_title: Aspose.Words for .NET API 参考
-description: SignatureLine 财产. 表示签名行由数字签名签名
+linktitle: IsSigned
+articleTitle: IsSigned
+second_title: 用于 .NET 的 Aspose.Words
+description: SignatureLine IsSigned 财产. 表示签名行由数字签名签名 在 C#.
 type: docs
 weight: 60
 url: /zh/net/aspose.words.drawing/signatureline/issigned/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.drawing/signatureline/issigned/
 public bool IsSigned { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何使用个人证书和签名行签署文档。
 
@@ -67,7 +69,5 @@ Assert.True(signatureLine.IsValid);
 ### 也可以看看
 
 * class [SignatureLine](../)
-* 命名空间 [Aspose.Words.Drawing](../../signatureline/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

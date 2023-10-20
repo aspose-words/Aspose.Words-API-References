@@ -1,7 +1,9 @@
 ---
 title: FieldToc.PreserveLineBreaks
-second_title: Aspose.Words per .NET API Reference
-description: FieldToc proprietà. Ottiene o imposta se conservare i caratteri di nuova riga allinterno delle voci della tabella.
+linktitle: PreserveLineBreaks
+articleTitle: PreserveLineBreaks
+second_title: Aspose.Words per .NET
+description: FieldToc PreserveLineBreaks proprietà. Ottiene o imposta se conservare i caratteri di nuova riga allinterno delle voci della tabella in C#.
 type: docs
 weight: 130
 url: /it/net/aspose.words.fields/fieldtoc/preservelinebreaks/
@@ -14,7 +16,7 @@ Ottiene o imposta se conservare i caratteri di nuova riga all'interno delle voci
 public bool PreserveLineBreaks { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come inserire un sommario e popolarlo con voci basate sugli stili di intestazione.
 
@@ -99,7 +101,5 @@ public void InsertNewPageWithHeading(DocumentBuilder builder, string captionText
 ### Guarda anche
 
 * class [FieldToc](../)
-* spazio dei nomi [Aspose.Words.Fields](../../fieldtoc/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

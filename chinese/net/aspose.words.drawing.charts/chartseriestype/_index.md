@@ -1,7 +1,9 @@
 ---
-title: Enum ChartSeriesType
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Drawing.Charts.ChartSeriesType 枚举. 指定图表系列的类型
+title: ChartSeriesType Enum
+linktitle: ChartSeriesType
+articleTitle: ChartSeriesType
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Drawing.Charts.ChartSeriesType 枚举. 指定图表系列的类型 在 C#.
 type: docs
 weight: 800
 url: /zh/net/aspose.words.drawing.charts/chartseriestype/
@@ -63,7 +65,7 @@ public enum ChartSeriesType
 | Funnel | `42` | 代表漏斗图系列。 |
 | RegionMap | `43` | 代表区域地图图表系列。 |
 
-### 例子
+## 例子
 
 展示如何
 
@@ -90,5 +92,3 @@ doc.Save(ArtifactsDir + "Charts.RemoveSpecificChartSeries.docx");
 
 * 命名空间 [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * 部件 [Aspose.Words](../../)
-
-

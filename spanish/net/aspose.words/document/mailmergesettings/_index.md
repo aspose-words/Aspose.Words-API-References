@@ -1,7 +1,9 @@
 ---
 title: Document.MailMergeSettings
-second_title: Referencia de API de Aspose.Words para .NET
-description: Document propiedad. Obtiene o establece el objeto que contiene toda la información de combinación de correspondencia para un documento.
+linktitle: MailMergeSettings
+articleTitle: MailMergeSettings
+second_title: Aspose.Words para .NET
+description: Document MailMergeSettings propiedad. Obtiene o establece el objeto que contiene toda la información de combinación de correspondencia para un documento en C#.
 type: docs
 weight: 270
 url: /es/net/aspose.words/document/mailmergesettings/
@@ -14,13 +16,13 @@ Obtiene o establece el objeto que contiene toda la información de combinación 
 public MailMergeSettings MailMergeSettings { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 Puede usar este objeto para especificar una fuente de datos de combinación de correspondencia para un documento y esta información (junto con los campos de datos disponibles) aparecerá en Microsoft Word cuando el usuario abra este documento. O puede usar este objeto para consultar la configuración de combinación de correspondencia que el usuario ha especificado en Microsoft Word para este documento.
 
 Este objeto nunca es`nulo`.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo ejecutar una combinación de correspondencia con datos de un objeto de origen de datos de Office.
 
@@ -73,7 +75,5 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 
 * class [MailMergeSettings](../../../aspose.words.settings/mailmergesettings/)
 * class [Document](../)
-* espacio de nombres [Aspose.Words](../../document/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

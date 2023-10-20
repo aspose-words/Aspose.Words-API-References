@@ -1,7 +1,9 @@
 ---
 title: HtmlFixedSaveOptions.ExportEmbeddedSvg
-second_title: Aspose.Words for .NET API 参考
-description: HtmlFixedSaveOptions 财产. 指定 SVG 资源是否应嵌入到 Html 文档中 默认值为真的.
+linktitle: ExportEmbeddedSvg
+articleTitle: ExportEmbeddedSvg
+second_title: 用于 .NET 的 Aspose.Words
+description: HtmlFixedSaveOptions ExportEmbeddedSvg 财产. 指定 SVG 资源是否应嵌入到 Html 文档中 默认值为真的 在 C#.
 type: docs
 weight: 70
 url: /zh/net/aspose.words.saving/htmlfixedsaveoptions/exportembeddedsvg/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.saving/htmlfixedsaveoptions/exportembeddedsvg/
 public bool ExportEmbeddedSvg { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示将文档导出为 Html 时如何确定 SVG 对象的存储位置。
 
@@ -53,7 +55,5 @@ else
 ### 也可以看看
 
 * class [HtmlFixedSaveOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../htmlfixedsaveoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

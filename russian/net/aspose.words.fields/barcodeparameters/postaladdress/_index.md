@@ -1,7 +1,9 @@
 ---
 title: BarcodeParameters.PostalAddress
-second_title: Справочник по API Aspose.Words для .NET
-description: BarcodeParameters свойство. Почтовый адрес со штрихкодом.
+linktitle: PostalAddress
+articleTitle: PostalAddress
+second_title: Aspose.Words для .NET
+description: BarcodeParameters PostalAddress свойство. Почтовый адрес со штрихкодом на С#.
 type: docs
 weight: 150
 url: /ru/net/aspose.words.fields/barcodeparameters/postaladdress/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/barcodeparameters/postaladdress/
 public string PostalAddress { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как использовать генератор штрих-кода.
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.docx");
 ### Смотрите также
 
 * class [BarcodeParameters](../)
-* пространство имен [Aspose.Words.Fields](../../barcodeparameters/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

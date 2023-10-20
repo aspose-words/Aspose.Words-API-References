@@ -1,7 +1,9 @@
 ---
 title: Field.Result
-second_title: Aspose.Words per .NET API Reference
-description: Field proprietà. Ottiene o imposta il testo compreso tra il separatore di campo e la fine del campo.
+linktitle: Result
+articleTitle: Result
+second_title: Aspose.Words per .NET
+description: Field Result proprietà. Ottiene o imposta il testo compreso tra il separatore di campo e la fine del campo in C#.
 type: docs
 weight: 70
 url: /it/net/aspose.words.fields/field/result/
@@ -14,7 +16,7 @@ Ottiene o imposta il testo compreso tra il separatore di campo e la fine del cam
 public string Result { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come inserire un campo in un documento utilizzando un codice di campo.
 
@@ -34,7 +36,5 @@ Assert.That(DateTime.Parse(field.Result), Is.EqualTo(DateTime.Today).Within(1).D
 ### Guarda anche
 
 * class [Field](../)
-* spazio dei nomi [Aspose.Words.Fields](../../field/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

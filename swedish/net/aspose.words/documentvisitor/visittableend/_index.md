@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitTableEnd
-second_title: Aspose.Words för .NET API Referens
-description: DocumentVisitor metod. Anropas när uppräkningen av en tabell är avslutad.
+linktitle: VisitTableEnd
+articleTitle: VisitTableEnd
+second_title: Aspose.Words för .NET
+description: DocumentVisitor VisitTableEnd metod. Anropas när uppräkningen av en tabell är avslutad i C#.
 type: docs
 weight: 490
 url: /sv/net/aspose.words/documentvisitor/visittableend/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitTableEnd(Table table)
 
 A[`VisitorAction`](../../visitoraction/) värde som anger hur uppräkningen ska fortsätta.
 
-### Exempel
+## Exempel
 
 Visar hur man skriver ut nodstrukturen för varje tabell i ett dokument.
 
@@ -378,7 +380,5 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [Table](../../../aspose.words.tables/table/)
 * class [DocumentVisitor](../)
-* namnutrymme [Aspose.Words](../../documentvisitor/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

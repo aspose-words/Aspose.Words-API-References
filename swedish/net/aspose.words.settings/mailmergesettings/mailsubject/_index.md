@@ -1,7 +1,9 @@
 ---
 title: MailMergeSettings.MailSubject
-second_title: Aspose.Words för .NET API Referens
-description: MailMergeSettings fast egendom. Anger texten som ska visas i ämnesraden för epostmeddelanden eller fax som produceras under sammanslagningen. Standardvärdet är en tom sträng.
+linktitle: MailSubject
+articleTitle: MailSubject
+second_title: Aspose.Words för .NET
+description: MailMergeSettings MailSubject fast egendom. Anger texten som ska visas i ämnesraden för epostmeddelanden eller fax som produceras under sammanslagningen. Standardvärdet är en tom sträng i C#.
 type: docs
 weight: 130
 url: /sv/net/aspose.words.settings/mailmergesettings/mailsubject/
@@ -14,7 +16,7 @@ Anger texten som ska visas i ämnesraden för e-postmeddelanden eller fax som pr
 public string MailSubject { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man kör en sammankoppling av brev samtidigt som man ansluter till en extern datakälla.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "MailMerge.OdsoEmail.docx");
 ### Se även
 
 * class [MailMergeSettings](../)
-* namnutrymme [Aspose.Words.Settings](../../mailmergesettings/)
+* namnutrymme [Aspose.Words.Settings](../../../aspose.words.settings/)
 * hopsättning [Aspose.Words](../../../)
-
-

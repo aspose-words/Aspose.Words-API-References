@@ -1,7 +1,9 @@
 ---
 title: ImageData.GrayScale
-second_title: Referencia de API de Aspose.Words para .NET
-description: ImageData propiedad. Determina si una imagen se mostrará en modo de escala de grises.
+linktitle: GrayScale
+articleTitle: GrayScale
+second_title: Aspose.Words para .NET
+description: ImageData GrayScale propiedad. Determina si una imagen se mostrará en modo de escala de grises en C#.
 type: docs
 weight: 100
 url: /es/net/aspose.words.drawing/imagedata/grayscale/
@@ -14,11 +16,11 @@ Determina si una imagen se mostrará en modo de escala de grises.
 public bool GrayScale { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 El valor predeterminado es`FALSO`.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo editar los datos de imagen de una forma.
 
@@ -81,7 +83,5 @@ dstDoc.Save(ArtifactsDir + "Drawing.ImageData.docx");
 ### Ver también
 
 * class [ImageData](../)
-* espacio de nombres [Aspose.Words.Drawing](../../imagedata/)
+* espacio de nombres [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: TextBox.VerticalAnchor
-second_title: Справочник по API Aspose.Words для .NET
-description: TextBox свойство. Определяет вертикальное выравнивание текста внутри фигуры.
+linktitle: VerticalAnchor
+articleTitle: VerticalAnchor
+second_title: Aspose.Words для .NET
+description: TextBox VerticalAnchor свойство. Определяет вертикальное выравнивание текста внутри фигуры на С#.
 type: docs
 weight: 120
 url: /ru/net/aspose.words.drawing/textbox/verticalanchor/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.drawing/textbox/verticalanchor/
 public TextBoxAnchor VerticalAnchor { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Значение по умолчанию:Top.
 
-### Примеры
+## Примеры
 
 Показывает, как выровнять текстовое содержимое текстового поля по вертикали.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "Shape.VerticalAnchor.docx");
 
 * enum [TextBoxAnchor](../../textboxanchor/)
 * class [TextBox](../)
-* пространство имен [Aspose.Words.Drawing](../../textbox/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

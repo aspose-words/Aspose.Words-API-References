@@ -1,7 +1,9 @@
 ---
-title: Class StreamFontSource
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Fonts.StreamFontSource klass. Basklass för användardefinierad strömteckensnittskälla.
+title: StreamFontSource Class
+linktitle: StreamFontSource
+articleTitle: StreamFontSource
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Fonts.StreamFontSource klass. Basklass för användardefinierad strömteckensnittskälla i C#.
 type: docs
 weight: 3040
 url: /sv/net/aspose.words.fonts/streamfontsource/
@@ -32,7 +34,7 @@ public abstract class StreamFontSource : FontSourceBase
 | [GetAvailableFonts](../../aspose.words.fonts/fontsourcebase/getavailablefonts/)() | Returnerar en lista över teckensnitt som är tillgängliga via den här källan. |
 | abstract [OpenFontDataStream](../../aspose.words.fonts/streamfontsource/openfontdatastream/)() | Den här metoden bör öppna flödet med teckensnittsdata på begäran. |
 
-### Anmärkningar
+## Anmärkningar
 
 För att använda strömfontkällan bör du skapa en härledd klass från`StreamFontSource` och tillhandahålla implementering av[`OpenFontDataStream`](./openfontdatastream/) metod.
 
@@ -40,7 +42,7 @@ För att använda strömfontkällan bör du skapa en härledd klass från`Stream
 
 `StreamFontSource` kan vara användbart eftersom det gör det möjligt att ladda teckensnittsdata endast när det krävs och inte lagra det i minnet för[`FontSettings`](../fontsettings/) livstid.
 
-### Exempel
+## Exempel
 
 Visar hur man laddar typsnitt från stream.
 
@@ -76,5 +78,3 @@ private class StreamFontSourceFile : StreamFontSource
 * class [FontSourceBase](../fontsourcebase/)
 * namnutrymme [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * hopsättning [Aspose.Words](../../)
-
-

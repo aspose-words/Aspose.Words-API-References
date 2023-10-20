@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.CurrentStructuredDocumentTag
-second_title: Référence de l'API Aspose.Words pour .NET
-description: DocumentBuilder propriété. Obtient la balise de document structuré actuellement sélectionnée dans ceDocumentBuilder .
+linktitle: CurrentStructuredDocumentTag
+articleTitle: CurrentStructuredDocumentTag
+second_title: Aspose.Words pour .NET
+description: DocumentBuilder CurrentStructuredDocumentTag propriété. Obtient la balise de document structuré actuellement sélectionnée dans ceDocumentBuilder  en C#.
 type: docs
 weight: 80
 url: /fr/net/aspose.words/documentbuilder/currentstructureddocumenttag/
@@ -14,7 +16,7 @@ Obtient la balise de document structuré actuellement sélectionnée dans ce[`Do
 public StructuredDocumentTag CurrentStructuredDocumentTag { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment déplacer le curseur de DocumentBuilder à l'intérieur d'une balise de document structuré.
 
@@ -47,7 +49,5 @@ doc.Save(ArtifactsDir + "Document.MoveToStructuredDocumentTag.docx");
 
 * class [StructuredDocumentTag](../../../aspose.words.markup/structureddocumenttag/)
 * class [DocumentBuilder](../)
-* espace de noms [Aspose.Words](../../documentbuilder/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,9 +1,11 @@
 ---
 title: DocumentBuilder.StartTable
-second_title: Aspose.Words for .NET API 参考
-description: DocumentBuilder 方法. 在文档中启动一个表格
+linktitle: StartTable
+articleTitle: StartTable
+second_title: 用于 .NET 的 Aspose.Words
+description: DocumentBuilder StartTable 方法. 在文档中启动一个表格 在 C#.
 type: docs
-weight: 650
+weight: 640
 url: /zh/net/aspose.words/documentbuilder/starttable/
 ---
 ## DocumentBuilder.StartTable method
@@ -18,13 +20,13 @@ public Table StartTable()
 
 刚刚创建的表节点。
 
-### 评论
+## 评论
 
 下一个调用的方法是[`InsertCell`](../insertcell/)。
 
 当在单元格内调用时，此方法会启动一个嵌套表。
 
-### 例子
+## 例子
 
 演示如何使用文档生成器设置单元格格式。
 
@@ -174,7 +176,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
 
 * class [Table](../../../aspose.words.tables/table/)
 * class [DocumentBuilder](../)
-* 命名空间 [Aspose.Words](../../documentbuilder/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

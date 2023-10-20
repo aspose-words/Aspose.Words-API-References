@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.CssStyleSheetFileName
-second_title: Referencia de API de Aspose.Words para .NET
-description: HtmlSaveOptions propiedad. Especifica la ruta y el nombre del archivo de hoja de estilos en cascada CSS escrito cuando un documento se exporta a HTML. El valor predeterminado es una cadena vacía.
+linktitle: CssStyleSheetFileName
+articleTitle: CssStyleSheetFileName
+second_title: Aspose.Words para .NET
+description: HtmlSaveOptions CssStyleSheetFileName propiedad. Especifica la ruta y el nombre del archivo de hoja de estilos en cascada CSS escrito cuando un documento se exporta a HTML. El valor predeterminado es una cadena vacía en C#.
 type: docs
 weight: 50
 url: /es/net/aspose.words.saving/htmlsaveoptions/cssstylesheetfilename/
@@ -14,7 +16,7 @@ Especifica la ruta y el nombre del archivo de hoja de estilos en cascada (CSS) e
 public string CssStyleSheetFileName { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 Esta propiedad tiene efecto sólo cuando se guarda un documento en formato HTML y se solicita una hoja de estilo CSS externa usando[`CssStyleSheetType`](../cssstylesheettype/).
 
@@ -26,7 +28,7 @@ Si la carpeta especificada por esta propiedad no existe, se creará automáticam
 
 Otra forma de especificar una carpeta donde se guarda el archivo CSS externo es usar[`ResourceFolder`](../resourcefolder/) .
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo trabajar con hojas de estilo CSS que crea una conversión HTML.
 
@@ -87,7 +89,5 @@ private class CustomCssSavingCallback : ICssSavingCallback
 ### Ver también
 
 * class [HtmlSaveOptions](../)
-* espacio de nombres [Aspose.Words.Saving](../../htmlsaveoptions/)
+* espacio de nombres [Aspose.Words.Saving](../../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: IDocumentLoadingCallback.Notify
-second_title: Aspose.Words for .NET API 参考
-description: IDocumentLoadingCallback 方法. 调用此函数以通知文档加载进度
+linktitle: Notify
+articleTitle: Notify
+second_title: 用于 .NET 的 Aspose.Words
+description: IDocumentLoadingCallback Notify 方法. 调用此函数以通知文档加载进度 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.loading/idocumentloadingcallback/notify/
@@ -18,13 +20,13 @@ public void Notify(DocumentLoadingArgs args)
 | --- | --- | --- |
 | args | DocumentLoadingArgs | 事件的一个论点。 |
 
-### 评论
+## 评论
 
 该接口的主要用途是允许应用程序代码获取进度状态并中止加载过程。
 
 应该从中止的进度回调中抛出异常，并且应该在消费者代码中捕获该异常。
 
-### 例子
+## 例子
 
 演示如何在文档加载超出预期加载时间时通知用户。
 
@@ -90,7 +92,5 @@ public class LoadingProgressCallback : IDocumentLoadingCallback
 * property [ProgressCallback](../../loadoptions/progresscallback/)
 * class [DocumentLoadingArgs](../../documentloadingargs/)
 * interface [IDocumentLoadingCallback](../)
-* 命名空间 [Aspose.Words.Loading](../../idocumentloadingcallback/)
+* 命名空间 [Aspose.Words.Loading](../../../aspose.words.loading/)
 * 部件 [Aspose.Words](../../../)
-
-

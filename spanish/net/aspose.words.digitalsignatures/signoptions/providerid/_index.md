@@ -1,20 +1,22 @@
 ---
 title: SignOptions.ProviderId
-second_title: Referencia de API de Aspose.Words para .NET
-description: SignOptions propiedad. Especifica el ID de clase del proveedor de firma. El valor predeterminado es Guía vacía todo ceros .
+linktitle: ProviderId
+articleTitle: ProviderId
+second_title: Aspose.Words para .NET
+description: SignOptions ProviderId propiedad. Especifica el ID de clase del proveedor de firma. El valor predeterminado esGuía vacía todo ceros  en C#.
 type: docs
 weight: 40
 url: /es/net/aspose.words.digitalsignatures/signoptions/providerid/
 ---
 ## SignOptions.ProviderId property
 
-Especifica el ID de clase del proveedor de firma. El valor predeterminado es **Guía vacía (todo ceros)** .
+Especifica el ID de clase del proveedor de firma. El valor predeterminado es**Guía vacía (todo ceros)** .
 
 ```csharp
 public Guid ProviderId { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 El proveedor de servicios criptográficos (CSP) es un módulo de software independiente que en realidad realiza algoritmos de criptografía para autenticación, codificación y cifrado. MS Office reserva el valor de {00000000-0000-0000-0000-000000000000} para su proveedor de firma predeterminado.
 
@@ -22,7 +24,7 @@ El GUID del proveedor instalado adicionalmente debe obtenerse de la documentaci�
 
 Además, todos los proveedores criptográficos instalados se enumeran en el registro de Windows. Se puede encontrar en la siguiente ruta: HKLM\SOFTWARE\Microsoft\Cryptography\Defaults\Provider. Hay un nombre de clave "CP Service UUID" que corresponde a un GUID del proveedor de firmas.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo firmar un documento con un certificado personal y una línea de firma.
 
@@ -75,7 +77,5 @@ Assert.True(signatureLine.IsValid);
 ### Ver también
 
 * class [SignOptions](../)
-* espacio de nombres [Aspose.Words.DigitalSignatures](../../signoptions/)
+* espacio de nombres [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * asamblea [Aspose.Words](../../../)
-
-

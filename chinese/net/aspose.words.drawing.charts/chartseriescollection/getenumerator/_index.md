@@ -1,7 +1,9 @@
 ---
 title: ChartSeriesCollection.GetEnumerator
-second_title: Aspose.Words for .NET API 参考
-description: ChartSeriesCollection 方法. 返回一个枚举器对象
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: 用于 .NET 的 Aspose.Words
+description: ChartSeriesCollection GetEnumerator 方法. 返回一个枚举器对象 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words.drawing.charts/chartseriescollection/getenumerator/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.drawing.charts/chartseriescollection/getenumerator/
 public IEnumerator<ChartSeries> GetEnumerator()
 ```
 
-### 例子
+## 例子
 
 演示如何在图表中添加和删除系列数据。
 
@@ -62,7 +64,5 @@ chartData.Clear();
 
 * class [ChartSeries](../../chartseries/)
 * class [ChartSeriesCollection](../)
-* 命名空间 [Aspose.Words.Drawing.Charts](../../chartseriescollection/)
+* 命名空间 [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * 部件 [Aspose.Words](../../../)
-
-

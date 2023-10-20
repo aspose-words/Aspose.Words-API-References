@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.Pages
-second_title: Aspose.Words for .NET API 参考
-description: BuiltInDocumentProperties 财产. 表示文档中页数的估计值
+linktitle: Pages
+articleTitle: Pages
+second_title: 用于 .NET 的 Aspose.Words
+description: BuiltInDocumentProperties Pages 财产. 表示文档中页数的估计值 在 C#.
 type: docs
 weight: 220
 url: /zh/net/aspose.words.properties/builtindocumentproperties/pages/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.properties/builtindocumentproperties/pages/
 public int Pages { get; set; }
 ```
 
-### 评论
+## 评论
 
 当您调用时，Aspose.Words 会更新此属性[`UpdatePageLayout`](../../../aspose.words/document/updatepagelayout/)。
 
-### 例子
+## 例子
 
 展示如何使用“内容”类别中的文档属性。
 
@@ -128,7 +130,5 @@ private class LineCounter
 ### 也可以看看
 
 * class [BuiltInDocumentProperties](../)
-* 命名空间 [Aspose.Words.Properties](../../builtindocumentproperties/)
+* 命名空间 [Aspose.Words.Properties](../../../aspose.words.properties/)
 * 部件 [Aspose.Words](../../../)
-
-

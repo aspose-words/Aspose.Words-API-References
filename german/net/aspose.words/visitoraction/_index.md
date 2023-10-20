@@ -1,7 +1,9 @@
 ---
-title: Enum VisitorAction
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.VisitorAction opsomming. Ermöglicht dem Besucher die Aufzählung der Knoten zu steuern.
+title: VisitorAction Enum
+linktitle: VisitorAction
+articleTitle: VisitorAction
+second_title: Aspose.Words für .NET
+description: Aspose.Words.VisitorAction opsomming. Ermöglicht dem Besucher die Aufzählung der Knoten zu steuern in C#.
 type: docs
 weight: 6620
 url: /de/net/aspose.words/visitoraction/
@@ -26,5 +28,3 @@ public enum VisitorAction
 
 * namensraum [Aspose.Words](../../aspose.words/)
 * Montage [Aspose.Words](../../)
-
-

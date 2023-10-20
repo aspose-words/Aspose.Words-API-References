@@ -1,7 +1,9 @@
 ---
 title: FieldGlossary.EntryName
-second_title: Aspose.Words لمراجع .NET API
-description: FieldGlossary ملكية. الحصول على اسم مُدخل المسرد المراد إدراجه أو تعيينه.
+linktitle: EntryName
+articleTitle: EntryName
+second_title: Aspose.Words لـ .NET
+description: FieldGlossary EntryName ملكية. الحصول على اسم مُدخل المسرد المراد إدراجه أو تعيينه في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.fields/fieldglossary/entryname/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldglossary/entryname/
 public string EntryName { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية عرض الكتلة البرمجية الإنشائية باستخدام حقلي النص التلقائي والمسرد.
 
@@ -64,7 +66,5 @@ doc.Save(ArtifactsDir + "Field.AUTOTEXT.GLOSSARY.dotx");
 ### أنظر أيضا
 
 * class [FieldGlossary](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldglossary/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: TextWatermarkOptions.FontFamily
-second_title: Aspose.Words for .NET API 参考
-description: TextWatermarkOptions 财产. 获取或设置字体系列名称默认值为Calibri
+linktitle: FontFamily
+articleTitle: FontFamily
+second_title: 用于 .NET 的 Aspose.Words
+description: TextWatermarkOptions FontFamily 财产. 获取或设置字体系列名称默认值为Calibri 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words/textwatermarkoptions/fontfamily/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/textwatermarkoptions/fontfamily/
 public string FontFamily { get; set; }
 ```
 
-### 例子
+## 例子
 
 展示如何创建文本水印。
 
@@ -45,7 +47,5 @@ if (doc.Watermark.Type == WatermarkType.Text)
 ### 也可以看看
 
 * class [TextWatermarkOptions](../)
-* 命名空间 [Aspose.Words](../../textwatermarkoptions/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ListLevel.NumberFormat
-second_title: Aspose.Words لمراجع .NET API
-description: ListLevel ملكية. إرجاع أو تعيين تنسيق الأرقام لمستوى القائمة.
+linktitle: NumberFormat
+articleTitle: NumberFormat
+second_title: Aspose.Words لـ .NET
+description: ListLevel NumberFormat ملكية. إرجاع أو تعيين تنسيق الأرقام لمستوى القائمة في C#.
 type: docs
 weight: 70
 url: /ar/net/aspose.words.lists/listlevel/numberformat/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.lists/listlevel/numberformat/
 public string NumberFormat { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 من بين أحرف النص العادية، يمكن أن تحتوي السلسلة على أحرف نائبة \x0000 إلى \x0008 تمثل الأرقام من مستويات القائمة المقابلة.
 
@@ -22,7 +24,7 @@ public string NumberFormat { get; set; }
 
 غير مسموح بالقيمة Null، لكن السلسلة الفارغة تعني عدم وجود رقم صالح.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تطبيق تنسيق القائمة المخصصة على الفقرات عند استخدام DocumentBuilder.
 
@@ -137,7 +139,5 @@ doc.Save(ArtifactsDir + "Lists.CreateListRestartAfterHigher.docx");
 ### أنظر أيضا
 
 * class [ListLevel](../)
-* مساحة الاسم [Aspose.Words.Lists](../../listlevel/)
+* مساحة الاسم [Aspose.Words.Lists](../../../aspose.words.lists/)
 * المجسم [Aspose.Words](../../../)
-
-

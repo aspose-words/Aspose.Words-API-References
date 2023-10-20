@@ -1,7 +1,9 @@
 ---
 title: Watermark.Remove
-second_title: Referencia de API de Aspose.Words para .NET
-description: Watermark método. Elimina la marca de agua.
+linktitle: Remove
+articleTitle: Remove
+second_title: Aspose.Words para .NET
+description: Watermark Remove método. Elimina la marca de agua en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words/watermark/remove/
@@ -14,7 +16,7 @@ Elimina la marca de agua.
 public void Remove()
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear una marca de agua de texto.
 
@@ -45,7 +47,5 @@ if (doc.Watermark.Type == WatermarkType.Text)
 ### Ver también
 
 * class [Watermark](../)
-* espacio de nombres [Aspose.Words](../../watermark/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

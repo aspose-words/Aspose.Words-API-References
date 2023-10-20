@@ -1,18 +1,20 @@
 ---
 title: Aspose.Words.MailMerging
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Le Aspose.Words.MailMergingLespace de noms contient les classes du moteur de reporting de publipostage original.
+linktitle: Aspose.Words.MailMerging
+articleTitle: Aspose.Words.MailMerging
+second_title: Aspose.Words pour .NET
+description: LeAspose.Words.MailMergingLespace de noms contient les classes du moteur de reporting de publipostage original en C#.
 type: docs
 weight: 150
 url: /fr/net/aspose.words.mailmerging/
 ---
-Le **Aspose.Words.MailMerging**L'espace de noms contient les classes du moteur de reporting de publipostage "original".
+Le**Aspose.Words.MailMerging**L'espace de noms contient les classes du moteur de reporting de publipostage "original".
 
 ## Des classes
 
 | Classer | La description |
 | --- | --- |
-| [FieldMergingArgs](./fieldmergingargs/) | Fournit des données pour le **Champ de fusion** événement. |
+| [FieldMergingArgs](./fieldmergingargs/) | Fournit des données pour le**Champ de fusion** événement. |
 | [FieldMergingArgsBase](./fieldmergingargsbase/) | Classe de base pour[`FieldMergingArgs`](../aspose.words.mailmerging/fieldmergingargs/) et[`ImageFieldMergingArgs`](../aspose.words.mailmerging/imagefieldmergingargs/) . |
 | [ImageFieldMergingArgs](./imagefieldmergingargs/) | Fournit des données pour le[`ImageFieldMerging`](../aspose.words.mailmerging/ifieldmergingcallback/imagefieldmerging/) événement. |
 | [MailMerge](./mailmerge/) | Représente la fonctionnalité de publipostage. |
@@ -32,5 +34,3 @@ Le **Aspose.Words.MailMerging**L'espace de noms contient les classes du moteur d
 | Énumération | La description |
 | --- | --- |
 | [MailMergeCleanupOptions](./mailmergecleanupoptions/) | Spécifie les options qui déterminent quels éléments sont supprimés lors du publipostage. |
-
-

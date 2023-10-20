@@ -1,7 +1,9 @@
 ---
 title: FieldCompare.RightExpression
-second_title: Aspose.Words لمراجع .NET API
-description: FieldCompare ملكية. الحصول على أو تعيين الجزء الأيمن من تعبير المقارنة.
+linktitle: RightExpression
+articleTitle: RightExpression
+second_title: Aspose.Words لـ .NET
+description: FieldCompare RightExpression ملكية. الحصول على أو تعيين الجزء الأيمن من تعبير المقارنة في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.fields/fieldcompare/rightexpression/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldcompare/rightexpression/
 public string RightExpression { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية مقارنة التعبيرات باستخدام حقل المقارنة.
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "Field.COMPARE.docx");
 ### أنظر أيضا
 
 * class [FieldCompare](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldcompare/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

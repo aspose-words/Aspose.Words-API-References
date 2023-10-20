@@ -1,7 +1,9 @@
 ---
 title: BookmarkCollection.GetEnumerator
-second_title: Aspose.Words for .NET API 参考
-description: BookmarkCollection 方法. 返回一个枚举器对象
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: 用于 .NET 的 Aspose.Words
+description: BookmarkCollection GetEnumerator 方法. 返回一个枚举器对象 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words/bookmarkcollection/getenumerator/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/bookmarkcollection/getenumerator/
 public IEnumerator<Bookmark> GetEnumerator()
 ```
 
-### 例子
+## 例子
 
 展示如何添加书签并更新其内容。
 
@@ -104,7 +106,5 @@ public class BookmarkInfoPrinter : DocumentVisitor
 
 * class [Bookmark](../../bookmark/)
 * class [BookmarkCollection](../)
-* 命名空间 [Aspose.Words](../../bookmarkcollection/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

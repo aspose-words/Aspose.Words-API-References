@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabel.IsVisible
-second_title: Справочник по API Aspose.Words для .NET
-description: ChartDataLabel свойство. Возвращаетистинный если в этой метке данных есть что отображать.
+linktitle: IsVisible
+articleTitle: IsVisible
+second_title: Aspose.Words для .NET
+description: ChartDataLabel IsVisible свойство. Возвращаетистинный если в этой метке данных есть что отображать на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.drawing.charts/chartdatalabel/isvisible/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.drawing.charts/chartdatalabel/isvisible/
 public bool IsVisible { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как применять метки к точкам данных на линейной диаграмме.
 
@@ -92,7 +94,5 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
 ### Смотрите также
 
 * class [ChartDataLabel](../)
-* пространство имен [Aspose.Words.Drawing.Charts](../../chartdatalabel/)
+* пространство имен [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../../)
-
-

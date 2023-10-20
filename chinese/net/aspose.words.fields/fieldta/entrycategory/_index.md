@@ -1,7 +1,9 @@
 ---
 title: FieldTA.EntryCategory
-second_title: Aspose.Words for .NET API 参考
-description: FieldTA 财产. 获取或设置积分条目类别它是与 类别顺序对应的数字
+linktitle: EntryCategory
+articleTitle: EntryCategory
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldTA EntryCategory 财产. 获取或设置积分条目类别它是与 类别顺序对应的数字 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.fields/fieldta/entrycategory/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fieldta/entrycategory/
 public string EntryCategory { get; set; }
 ```
 
-### 例子
+## 例子
 
 展示如何使用 TOA 和 TA 字段构建和自定义权限表。
 
@@ -137,7 +139,5 @@ private static FieldTA InsertToaEntry(DocumentBuilder builder, string entryCateg
 ### 也可以看看
 
 * class [FieldTA](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldta/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

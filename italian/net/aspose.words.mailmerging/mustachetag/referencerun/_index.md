@@ -1,7 +1,9 @@
 ---
 title: MustacheTag.ReferenceRun
-second_title: Aspose.Words per .NET API Reference
-description: MustacheTag proprietà. Ottiene lesecuzione che contiene linizio del tag.
+linktitle: ReferenceRun
+articleTitle: ReferenceRun
+second_title: Aspose.Words per .NET
+description: MustacheTag ReferenceRun proprietà. Ottiene lesecuzione che contiene linizio del tag in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words.mailmerging/mustachetag/referencerun/
@@ -14,7 +16,7 @@ Ottiene l'esecuzione che contiene l'inizio del tag.
 public Run ReferenceRun { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come lavorare con le etichette dei baffi.
 
@@ -42,7 +44,5 @@ foreach (MailMergeRegionInfo region in hierarchy.Regions)
 
 * class [Run](../../../aspose.words/run/)
 * class [MustacheTag](../)
-* spazio dei nomi [Aspose.Words.MailMerging](../../mustachetag/)
+* spazio dei nomi [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * assemblea [Aspose.Words](../../../)
-
-

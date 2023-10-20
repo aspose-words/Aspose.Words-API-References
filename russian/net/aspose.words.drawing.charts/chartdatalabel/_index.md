@@ -1,7 +1,9 @@
 ---
-title: Class ChartDataLabel
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Drawing.Charts.ChartDataLabel сорт. Представляет метку данных на точке диаграммы или линии тренда.
+title: ChartDataLabel Class
+linktitle: ChartDataLabel
+articleTitle: ChartDataLabel
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Drawing.Charts.ChartDataLabel сорт. Представляет метку данных на точке диаграммы или линии тренда на С#.
 type: docs
 weight: 670
 url: /ru/net/aspose.words.drawing.charts/chartdatalabel/
@@ -42,11 +44,11 @@ public class ChartDataLabel
 | --- | --- |
 | [ClearFormat](../../aspose.words.drawing.charts/chartdatalabel/clearformat/)() | Очищает формат этой метки данных. Для свойств установлены значения по умолчанию, определенные в родительской коллекции меток data . . |
 
-### Примечания
+## Примечания
 
 В сериале`ChartDataLabel` объект является членом[`ChartDataLabelCollection`](../chartdatalabelcollection/) . [`ChartDataLabelCollection`](../chartdatalabelcollection/) содержит`ChartDataLabel` объект для каждой точки.
 
-### Примеры
+## Примеры
 
 Показывает, как применять метки к точкам данных на линейной диаграмме.
 
@@ -125,5 +127,3 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
 
 * пространство имен [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../)
-
-

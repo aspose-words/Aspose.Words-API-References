@@ -1,7 +1,9 @@
 ---
 title: LayoutCollector.Clear
-second_title: Aspose.Words لمراجع .NET API
-description: LayoutCollector طريقة. مسح كافة بيانات التخطيط المجمعة. قم باستدعاء هذه الطريقة بعد تحديث المستند يدويًا أو إعادة إنشاء التخطيط.
+linktitle: Clear
+articleTitle: Clear
+second_title: Aspose.Words لـ .NET
+description: LayoutCollector Clear طريقة. مسح كافة بيانات التخطيط المجمعة. قم باستدعاء هذه الطريقة بعد تحديث المستند يدويًا أو إعادة إنشاء التخطيط في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.layout/layoutcollector/clear/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.layout/layoutcollector/clear/
 public void Clear()
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية رؤية نطاقات الصفحات التي تمتد عليها العقدة.
 
@@ -72,7 +74,5 @@ Assert.AreEqual("¶", layoutEnumerator.Text);
 ### أنظر أيضا
 
 * class [LayoutCollector](../)
-* مساحة الاسم [Aspose.Words.Layout](../../layoutcollector/)
+* مساحة الاسم [Aspose.Words.Layout](../../../aspose.words.layout/)
 * المجسم [Aspose.Words](../../../)
-
-

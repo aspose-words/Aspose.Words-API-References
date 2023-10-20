@@ -1,12 +1,14 @@
 ---
 title: MailMerge.GetFieldNamesForRegion
-second_title: Aspose.Words für .NET-API-Referenz
-description: MailMerge methode. Gibt eine Sammlung von Serienbrieffeldnamen zurück die in der Region verfügbar sind.
+linktitle: GetFieldNamesForRegion
+articleTitle: GetFieldNamesForRegion
+second_title: Aspose.Words für .NET
+description: MailMerge GetFieldNamesForRegion methode. Gibt eine Sammlung von Serienbrieffeldnamen zurück die in der Region verfügbar sind in C#.
 type: docs
 weight: 230
 url: /de/net/aspose.words.mailmerging/mailmerge/getfieldnamesforregion/
 ---
-## GetFieldNamesForRegion(string) {#getfieldnamesforregion}
+## GetFieldNamesForRegion(*string*) {#getfieldnamesforregion}
 
 Gibt eine Sammlung von Serienbrieffeldnamen zurück, die in der Region verfügbar sind.
 
@@ -18,7 +20,7 @@ public string[] GetFieldNamesForRegion(string regionName)
 | --- | --- | --- |
 | regionName | String | Regionsname (ohne Berücksichtigung der Groß- und Kleinschreibung). |
 
-### Bemerkungen
+## Bemerkungen
 
 Gibt vollständige Briefvorlagenfeldnamen einschließlich optionalem Präfix zurück. Eliminiert keine doppelten Feldnamen.
 
@@ -26,7 +28,7 @@ Wenn das Dokument mehrere Regionen mit demselben Namen enthält, wird die allere
 
 Bei jedem Aufruf wird ein neues String-Array erstellt.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Seriendruckbereiche erstellt, aufgelistet und gelesen werden.
 
@@ -81,12 +83,12 @@ Assert.AreEqual("Column2", mergeFieldNames[0]);
 ### Siehe auch
 
 * class [MailMerge](../)
-* namensraum [Aspose.Words.MailMerging](../../mailmerge/)
+* namensraum [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * Montage [Aspose.Words](../../../)
 
 ---
 
-## GetFieldNamesForRegion(string, int) {#getfieldnamesforregion_1}
+## GetFieldNamesForRegion(*string, int*) {#getfieldnamesforregion_1}
 
 Gibt eine Sammlung von Serienbrieffeldnamen zurück, die in der Region verfügbar sind.
 
@@ -99,7 +101,7 @@ public string[] GetFieldNamesForRegion(string regionName, int regionIndex)
 | regionName | String | Regionsname (ohne Berücksichtigung der Groß- und Kleinschreibung). |
 | regionIndex | Int32 | Regionsindex (nullbasiert). |
 
-### Bemerkungen
+## Bemerkungen
 
 Gibt vollständige Briefvorlagenfeldnamen einschließlich optionalem Präfix zurück. Eliminiert keine doppelten Feldnamen.
 
@@ -107,7 +109,7 @@ Wenn das Dokument mehrere Regionen mit demselben Namen enthält, wird die N-te R
 
 Bei jedem Aufruf wird ein neues String-Array erstellt.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Seriendruckbereiche erstellt, aufgelistet und gelesen werden.
 
@@ -162,7 +164,5 @@ Assert.AreEqual("Column2", mergeFieldNames[0]);
 ### Siehe auch
 
 * class [MailMerge](../)
-* namensraum [Aspose.Words.MailMerging](../../mailmerge/)
+* namensraum [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * Montage [Aspose.Words](../../../)
-
-

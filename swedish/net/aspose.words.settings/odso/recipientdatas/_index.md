@@ -1,7 +1,9 @@
 ---
 title: Odso.RecipientDatas
-second_title: Aspose.Words för .NET API Referens
-description: Odso fast egendom. Hämtar eller ställer in en samling objekt som anger inkludering/exkludering av enskilda poster i kopplingen. Detta objekt är aldrignull .
+linktitle: RecipientDatas
+articleTitle: RecipientDatas
+second_title: Aspose.Words för .NET
+description: Odso RecipientDatas fast egendom. Hämtar eller ställer in en samling objekt som anger inkludering/exkludering av enskilda poster i kopplingen. Detta objekt är aldrignull  i C#.
 type: docs
 weight: 70
 url: /sv/net/aspose.words.settings/odso/recipientdatas/
@@ -14,7 +16,7 @@ Hämtar eller ställer in en samling objekt som anger inkludering/exkludering av
 public OdsoRecipientDataCollection RecipientDatas { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man får åtkomst till insamlingen av data som anger vilka sammanslagningsdatakällaposter en sammanslagning kommer att utesluta.
 
@@ -55,7 +57,5 @@ Assert.AreEqual(0, dataCollection.Count);
 
 * class [OdsoRecipientDataCollection](../../odsorecipientdatacollection/)
 * class [Odso](../)
-* namnutrymme [Aspose.Words.Settings](../../odso/)
+* namnutrymme [Aspose.Words.Settings](../../../aspose.words.settings/)
 * hopsättning [Aspose.Words](../../../)
-
-

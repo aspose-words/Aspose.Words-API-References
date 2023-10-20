@@ -1,7 +1,9 @@
 ---
 title: FindReplaceOptions.IgnoreFieldCodes
-second_title: Referencia de API de Aspose.Words para .NET
-description: FindReplaceOptions propiedad. Obtiene o establece un valor booleano que indica que se debe ignorar el texto dentro de los códigos de campo. El valor predeterminado esFALSO .
+linktitle: IgnoreFieldCodes
+articleTitle: IgnoreFieldCodes
+second_title: Aspose.Words para .NET
+description: FindReplaceOptions IgnoreFieldCodes propiedad. Obtiene o establece un valor booleano que indica que se debe ignorar el texto dentro de los códigos de campo. El valor predeterminado esFALSO  en C#.
 type: docs
 weight: 70
 url: /es/net/aspose.words.replacing/findreplaceoptions/ignorefieldcodes/
@@ -14,13 +16,13 @@ Obtiene o establece un valor booleano que indica que se debe ignorar el texto de
 public bool IgnoreFieldCodes { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 Esta opción afecta sólo a los códigos de campo (no ignora los nodos entre FieldSeparator yFieldEnd).
 
 Para ignorar todo el campo, utilice la opción correspondiente[`IgnoreFields`](../ignorefields/).
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo ignorar el texto dentro de los códigos de campo.
 
@@ -45,7 +47,5 @@ Assert.AreEqual(
 ### Ver también
 
 * class [FindReplaceOptions](../)
-* espacio de nombres [Aspose.Words.Replacing](../../findreplaceoptions/)
+* espacio de nombres [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * asamblea [Aspose.Words](../../../)
-
-

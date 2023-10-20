@@ -1,7 +1,9 @@
 ---
 title: FootnoteOptions.Position
-second_title: Aspose.Words för .NET API Referens
-description: FootnoteOptions fast egendom. Anger fotnoternas position.
+linktitle: Position
+articleTitle: Position
+second_title: Aspose.Words för .NET
+description: FootnoteOptions Position fast egendom. Anger fotnoternas position i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.notes/footnoteoptions/position/
@@ -14,7 +16,7 @@ Anger fotnoternas position.
 public FootnotePosition Position { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du väljer en annan plats där dokumentet samlas in och visar dess fotnoter.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "InlineStory.PositionFootnote.docx");
 
 * enum [FootnotePosition](../../footnoteposition/)
 * class [FootnoteOptions](../)
-* namnutrymme [Aspose.Words.Notes](../../footnoteoptions/)
+* namnutrymme [Aspose.Words.Notes](../../../aspose.words.notes/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,12 +1,14 @@
 ---
 title: DocumentBuilder.InsertOleObject
-second_title: Справочник по API Aspose.Words для .NET
-description: DocumentBuilder метод. Вставляет внедренный объект OLE из потока в документ.
+linktitle: InsertOleObject
+articleTitle: InsertOleObject
+second_title: Aspose.Words для .NET
+description: DocumentBuilder InsertOleObject метод. Вставляет внедренный объект OLE из потока в документ на С#.
 type: docs
-weight: 400
+weight: 390
 url: /ru/net/aspose.words/documentbuilder/insertoleobject/
 ---
-## InsertOleObject(Stream, string, bool, Stream) {#insertoleobject}
+## InsertOleObject(*Stream, string, bool, Stream*) {#insertoleobject}
 
 Вставляет внедренный объект OLE из потока в документ.
 
@@ -25,7 +27,7 @@ public Shape InsertOleObject(Stream stream, string progId, bool asIcon, Stream p
 
 Узел формы, содержащий объект Ole и вставленный в текущую позицию Builder.
 
-### Примеры
+## Примеры
 
 Показывает, как использовать построитель документов для внедрения объектов OLE в документ.
 
@@ -69,12 +71,12 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertOleObjects.docx");
 
 * class [Shape](../../../aspose.words.drawing/shape/)
 * class [DocumentBuilder](../)
-* пространство имен [Aspose.Words](../../documentbuilder/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## InsertOleObject(string, bool, bool, Stream) {#insertoleobject_1}
+## InsertOleObject(*string, bool, bool, Stream*) {#insertoleobject_1}
 
 Вставляет внедренный или связанный объект OLE из файла в документ. Обнаруживает тип объекта OLE по расширению файла.
 
@@ -93,7 +95,7 @@ public Shape InsertOleObject(string fileName, bool isLinked, bool asIcon, Stream
 
 Узел формы, содержащий объект Ole и вставленный в текущую позицию Builder.
 
-### Примеры
+## Примеры
 
 Показывает, как вставить объект OLE в документ.
 
@@ -130,12 +132,12 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertOleObject.docx");
 
 * class [Shape](../../../aspose.words.drawing/shape/)
 * class [DocumentBuilder](../)
-* пространство имен [Aspose.Words](../../documentbuilder/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## InsertOleObject(string, string, bool, bool, Stream) {#insertoleobject_2}
+## InsertOleObject(*string, string, bool, bool, Stream*) {#insertoleobject_2}
 
 Вставляет внедренный или связанный объект OLE из файла в документ. Обнаруживает тип объекта OLE, используя заданный параметр progID.
 
@@ -156,7 +158,7 @@ public Shape InsertOleObject(string fileName, string progId, bool isLinked, bool
 
 Узел формы, содержащий объект Ole и вставленный в текущую позицию Builder.
 
-### Примеры
+## Примеры
 
 Показывает, как вставить объект OLE в документ.
 
@@ -193,7 +195,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertOleObject.docx");
 
 * class [Shape](../../../aspose.words.drawing/shape/)
 * class [DocumentBuilder](../)
-* пространство имен [Aspose.Words](../../documentbuilder/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

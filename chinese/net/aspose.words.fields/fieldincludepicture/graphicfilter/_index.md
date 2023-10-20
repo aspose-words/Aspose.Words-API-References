@@ -1,7 +1,9 @@
 ---
 title: FieldIncludePicture.GraphicFilter
-second_title: Aspose.Words for .NET API 参考
-description: FieldIncludePicture 财产. 获取或设置要插入的图形格式的过滤器名称
+linktitle: GraphicFilter
+articleTitle: GraphicFilter
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldIncludePicture GraphicFilter 财产. 获取或设置要插入的图形格式的过滤器名称 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.fields/fieldincludepicture/graphicfilter/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fieldincludepicture/graphicfilter/
 public string GraphicFilter { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何使用 IMPORT 和 INCLUDEPICTURE 字段插入图像。
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "Field.IMPORT.INCLUDEPICTURE.docx");
 ### 也可以看看
 
 * class [FieldIncludePicture](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldincludepicture/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

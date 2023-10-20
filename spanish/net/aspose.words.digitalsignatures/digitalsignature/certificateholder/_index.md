@@ -1,7 +1,9 @@
 ---
 title: DigitalSignature.CertificateHolder
-second_title: Referencia de API de Aspose.Words para .NET
-description: DigitalSignature propiedad. Devuelve el objeto del titular del certificado que contiene el certificado que se utilizó para firmar el documento.
+linktitle: CertificateHolder
+articleTitle: CertificateHolder
+second_title: Aspose.Words para .NET
+description: DigitalSignature CertificateHolder propiedad. Devuelve el objeto del titular del certificado que contiene el certificado que se utilizó para firmar el documento en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words.digitalsignatures/digitalsignature/certificateholder/
@@ -14,7 +16,7 @@ Devuelve el objeto del titular del certificado que contiene el certificado que s
 public CertificateHolder CertificateHolder { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo firmar documentos con certificados X.509.
 
@@ -58,7 +60,5 @@ Assert.AreEqual("CN=Morzal.Me", signedDoc.DigitalSignatures[0].SubjectName);
 
 * class [CertificateHolder](../../certificateholder/)
 * class [DigitalSignature](../)
-* espacio de nombres [Aspose.Words.DigitalSignatures](../../digitalsignature/)
+* espacio de nombres [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * asamblea [Aspose.Words](../../../)
-
-

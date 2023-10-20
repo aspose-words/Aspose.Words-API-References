@@ -1,12 +1,14 @@
 ---
-title: ComparisonEvaluationResult.ComparisonEvaluationResult
-second_title: Справочник по API Aspose.Words для .NET
-description: ComparisonEvaluationResult строитель. Создает результат сравнения.
+title: ComparisonEvaluationResult
+linktitle: ComparisonEvaluationResult
+articleTitle: ComparisonEvaluationResult
+second_title: Aspose.Words для .NET
+description: ComparisonEvaluationResult строитель. Создает результат сравнения на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fields/comparisonevaluationresult/comparisonevaluationresult/
 ---
-## ComparisonEvaluationResult(bool) {#constructor}
+## ComparisonEvaluationResult(*bool*) {#constructor}
 
 Создает результат сравнения.
 
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/comparisonevaluationresult/comparisonevaluation
 public ComparisonEvaluationResult(bool result)
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как реализовать пользовательскую оценку для полей IF и COMPARE.
 
@@ -98,12 +100,12 @@ private class ComparisonExpressionEvaluator : IComparisonExpressionEvaluator
 ### Смотрите также
 
 * class [ComparisonEvaluationResult](../)
-* пространство имен [Aspose.Words.Fields](../../comparisonevaluationresult/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## ComparisonEvaluationResult(string) {#constructor_1}
+## ComparisonEvaluationResult(*string*) {#constructor_1}
 
 Создает неудавшийся результат сравнения с соответствующим сообщением об ошибке.
 
@@ -111,7 +113,7 @@ private class ComparisonExpressionEvaluator : IComparisonExpressionEvaluator
 public ComparisonEvaluationResult(string errorMessage)
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как реализовать пользовательскую оценку для полей IF и COMPARE.
 
@@ -195,7 +197,5 @@ private class ComparisonExpressionEvaluator : IComparisonExpressionEvaluator
 ### Смотрите также
 
 * class [ComparisonEvaluationResult](../)
-* пространство имен [Aspose.Words.Fields](../../comparisonevaluationresult/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Style.BuiltIn
-second_title: Aspose.Words för .NET API Referens
-description: Style fast egendom. Sant om denna stil är en av de inbyggda stilarna i MS Word.
+linktitle: BuiltIn
+articleTitle: BuiltIn
+second_title: Aspose.Words för .NET
+description: Style BuiltIn fast egendom. Sant om denna stil är en av de inbyggda stilarna i MS Word i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words/style/builtin/
@@ -14,7 +16,7 @@ Sant om denna stil är en av de inbyggda stilarna i MS Word.
 public bool BuiltIn { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man kan skilja anpassade stilar från inbyggda stilar.
 
@@ -41,7 +43,5 @@ Assert.False(style.BuiltIn);
 ### Se även
 
 * class [Style](../)
-* namnutrymme [Aspose.Words](../../style/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

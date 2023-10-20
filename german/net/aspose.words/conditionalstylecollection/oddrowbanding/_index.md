@@ -1,7 +1,9 @@
 ---
 title: ConditionalStyleCollection.OddRowBanding
-second_title: Aspose.Words für .NET-API-Referenz
-description: ConditionalStyleCollection eigendom. Ruft den Streifenstil für ungerade Zeilen ab.
+linktitle: OddRowBanding
+articleTitle: OddRowBanding
+second_title: Aspose.Words für .NET
+description: ConditionalStyleCollection OddRowBanding eigendom. Ruft den Streifenstil für ungerade Zeilen ab in C#.
 type: docs
 weight: 120
 url: /de/net/aspose.words/conditionalstylecollection/oddrowbanding/
@@ -14,7 +16,7 @@ Ruft den Streifenstil für ungerade Zeilen ab.
 public ConditionalStyle OddRowBanding { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit bestimmten Bereichsstilen einer Tabelle gearbeitet wird.
 
@@ -85,7 +87,5 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 
 * class [ConditionalStyle](../../conditionalstyle/)
 * class [ConditionalStyleCollection](../)
-* namensraum [Aspose.Words](../../conditionalstylecollection/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

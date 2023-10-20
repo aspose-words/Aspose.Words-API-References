@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.SpaceBeforeAuto
-second_title: Aspose.Words لمراجع .NET API
-description: ParagraphFormat ملكية. صحيح إذا تم ضبط مقدار التباعد قبل الفقرة تلقائيًا.
+linktitle: SpaceBeforeAuto
+articleTitle: SpaceBeforeAuto
+second_title: Aspose.Words لـ .NET
+description: ParagraphFormat SpaceBeforeAuto ملكية. صحيح إذا تم ضبط مقدار التباعد قبل الفقرة تلقائيًا في C#.
 type: docs
 weight: 330
 url: /ar/net/aspose.words/paragraphformat/spacebeforeauto/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/paragraphformat/spacebeforeauto/
 public bool SpaceBeforeAuto { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 عند التعيين على`حقيقي` ، يتجاوز تأثير[`SpaceBefore`](../spacebefore/).
 
@@ -27,7 +29,7 @@ public bool SpaceBeforeAuto { get; set; }
 * لا تتم إضافة التباعد بعد الجدول إذا كان هو الكتلة الأخيرة في خلية الجدول.
 * لا تتم إضافة التباعد بعد الفقرة الأخيرة في خلية الجدول.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية ضبط التباعد التلقائي للفقرات.
 
@@ -55,7 +57,5 @@ doc.Save(ArtifactsDir + "ParagraphFormat.ParagraphSpacingAuto.docx");
 ### أنظر أيضا
 
 * class [ParagraphFormat](../)
-* مساحة الاسم [Aspose.Words](../../paragraphformat/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

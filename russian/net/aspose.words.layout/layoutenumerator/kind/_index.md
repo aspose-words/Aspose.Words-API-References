@@ -1,7 +1,9 @@
 ---
 title: LayoutEnumerator.Kind
-second_title: Справочник по API Aspose.Words для .NET
-description: LayoutEnumerator свойство. Получает тип текущего объекта. Это может быть пустая строка но никогданулевой .
+linktitle: Kind
+articleTitle: Kind
+second_title: Aspose.Words для .NET
+description: LayoutEnumerator Kind свойство. Получает тип текущего объекта. Это может быть пустая строка но никогданулевой  на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.layout/layoutenumerator/kind/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.layout/layoutenumerator/kind/
 public string Kind { get; }
 ```
 
-### Примечания
+## Примечания
 
 Это более конкретный тип текущего объекта, например, диапазон закладок имеетSpan type and может иметь тип BOOKMARKSTART или BOOKMARKEND.
 
-### Примеры
+## Примеры
 
 Показывает способы перемещения по объектам макета документа.
 
@@ -163,7 +165,5 @@ private static void PrintCurrentEntity(LayoutEnumerator layoutEnumerator, int in
 ### Смотрите также
 
 * class [LayoutEnumerator](../)
-* пространство имен [Aspose.Words.Layout](../../layoutenumerator/)
+* пространство имен [Aspose.Words.Layout](../../../aspose.words.layout/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class ImageSize
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Drawing.ImageSize 班级. 包含有关图像大小和分辨率的信息
+title: ImageSize Class
+linktitle: ImageSize
+articleTitle: ImageSize
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Drawing.ImageSize 班级. 包含有关图像大小和分辨率的信息 在 C#.
 type: docs
 weight: 1070
 url: /zh/net/aspose.words.drawing/imagesize/
@@ -20,8 +22,8 @@ public class ImageSize
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ImageSize](imagesize/#constructor)(int, int) | 将宽度和高度初始化为给定值（以像素为单位）。将分辨率初始化为 96 dpi. |
-| [ImageSize](imagesize/#constructor_1)(int, int, double, double) | 将宽度、高度和分辨率初始化为给定值。 |
+| [ImageSize](imagesize/#constructor)(*int, int*) | 将宽度和高度初始化为给定值（以像素为单位）。将分辨率初始化为 96 dpi. |
+| [ImageSize](imagesize/#constructor_1)(*int, int, double, double*) | 将宽度、高度和分辨率初始化为给定值。 |
 
 ## 特性
 
@@ -34,7 +36,7 @@ public class ImageSize
 | [WidthPixels](../../aspose.words.drawing/imagesize/widthpixels/) { get; } | 获取图像的宽度（以像素为单位）。 |
 | [WidthPoints](../../aspose.words.drawing/imagesize/widthpoints/) { get; } | 获取图像的宽度（以磅为单位）。 1 点为 1/72 英寸。 |
 
-### 例子
+## 例子
 
 演示如何使用图像调整形状的大小。
 
@@ -93,5 +95,3 @@ public class ImageSize
 * property [ImageSize](../imagedata/imagesize/)
 * 命名空间 [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: VbaProject.VbaProject
-second_title: Aspose.Words لمراجع .NET API
-description: VbaProject البناء. إنشاء فراغVbaProject .
+title: VbaProject
+linktitle: VbaProject
+articleTitle: VbaProject
+second_title: Aspose.Words لـ .NET
+description: VbaProject البناء. إنشاء فراغVbaProject  في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.vba/vbaproject/vbaproject/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.vba/vbaproject/vbaproject/
 public VbaProject()
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء مشروع VBA باستخدام وحدات الماكرو.
 
@@ -41,7 +43,5 @@ doc.Save(ArtifactsDir + "VbaProject.CreateVBAMacros.docm");
 ### أنظر أيضا
 
 * class [VbaProject](../)
-* مساحة الاسم [Aspose.Words.Vba](../../vbaproject/)
+* مساحة الاسم [Aspose.Words.Vba](../../../aspose.words.vba/)
 * المجسم [Aspose.Words](../../../)
-
-

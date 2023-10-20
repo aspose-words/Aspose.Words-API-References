@@ -1,7 +1,9 @@
 ---
-title: Class FieldArgumentBuilder
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Fields.FieldArgumentBuilder klas. Erstellt ein komplexes Feldargument bestehend aus Feldern Knoten und einfachem Text.
+title: FieldArgumentBuilder Class
+linktitle: FieldArgumentBuilder
+articleTitle: FieldArgumentBuilder
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Fields.FieldArgumentBuilder klas. Erstellt ein komplexes Feldargument bestehend aus Feldern Knoten und einfachem Text in C#.
 type: docs
 weight: 1550
 url: /de/net/aspose.words.fields/fieldargumentbuilder/
@@ -26,11 +28,11 @@ public class FieldArgumentBuilder
 
 | Name | Beschreibung |
 | --- | --- |
-| [AddField](../../aspose.words.fields/fieldargumentbuilder/addfield/)(FieldBuilder) | Fügt ein durch a dargestelltes Feld hinzu[`FieldBuilder`](../fieldbuilder/) zum Argument. |
-| [AddNode](../../aspose.words.fields/fieldargumentbuilder/addnode/)(Inline) | Fügt dem Argument einen Knoten hinzu. |
-| [AddText](../../aspose.words.fields/fieldargumentbuilder/addtext/)(string) | Fügt dem Argument einen einfachen Text hinzu. |
+| [AddField](../../aspose.words.fields/fieldargumentbuilder/addfield/)(*[FieldBuilder](../fieldbuilder/)*) | Fügt ein durch a dargestelltes Feld hinzu[`FieldBuilder`](../fieldbuilder/) zum Argument. |
+| [AddNode](../../aspose.words.fields/fieldargumentbuilder/addnode/)(*[Inline](../../aspose.words/inline/)*) | Fügt dem Argument einen Knoten hinzu. |
+| [AddText](../../aspose.words.fields/fieldargumentbuilder/addtext/)(*string*) | Fügt dem Argument einen einfachen Text hinzu. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Felder mit einem Feld-Builder erstellt und dann in das Dokument eingefügt werden.
 
@@ -114,5 +116,3 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 
 * namensraum [Aspose.Words.Fields](../../aspose.words.fields/)
 * Montage [Aspose.Words](../../)
-
-

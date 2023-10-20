@@ -1,7 +1,9 @@
 ---
 title: LoadOptions.MswVersion
-second_title: Aspose.Words per .NET API Reference
-description: LoadOptions proprietà. Permette di specificare che il processo di caricamento del documento deve corrispondere a una specifica versione di MS Word. Il valore predefinito èWord2019
+linktitle: MswVersion
+articleTitle: MswVersion
+second_title: Aspose.Words per .NET
+description: LoadOptions MswVersion proprietà. Permette di specificare che il processo di caricamento del documento deve corrispondere a una specifica versione di MS Word. Il valore predefinito èWord2019 in C#.
 type: docs
 weight: 100
 url: /it/net/aspose.words.loading/loadoptions/mswversion/
@@ -14,11 +16,11 @@ Permette di specificare che il processo di caricamento del documento deve corris
 public MsWordVersion MswVersion { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Versioni diverse di Word potrebbero gestire alcuni aspetti del contenuto del documento e della formattazione in modo leggermente diverso durante il processo di caricamento, il che potrebbe comportare piccole differenze nel Document Object Model.
 
-### Esempi
+## Esempi
 
 Mostra come emulare la procedura di caricamento di una specifica versione di Microsoft Word durante il caricamento del documento.
 
@@ -41,7 +43,5 @@ Assert.AreEqual(12.95d, doc.Styles.DefaultParagraphFormat.LineSpacing, 0.01d);
 
 * enum [MsWordVersion](../../../aspose.words.settings/mswordversion/)
 * class [LoadOptions](../)
-* spazio dei nomi [Aspose.Words.Loading](../../loadoptions/)
+* spazio dei nomi [Aspose.Words.Loading](../../../aspose.words.loading/)
 * assemblea [Aspose.Words](../../../)
-
-

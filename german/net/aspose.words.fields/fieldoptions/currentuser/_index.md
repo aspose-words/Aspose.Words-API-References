@@ -1,7 +1,9 @@
 ---
 title: FieldOptions.CurrentUser
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldOptions eigendom. Ruft die aktuellen Benutzerinformationen ab oder legt diese fest.
+linktitle: CurrentUser
+articleTitle: CurrentUser
+second_title: Aspose.Words für .NET
+description: FieldOptions CurrentUser eigendom. Ruft die aktuellen Benutzerinformationen ab oder legt diese fest in C#.
 type: docs
 weight: 50
 url: /de/net/aspose.words.fields/fieldoptions/currentuser/
@@ -14,7 +16,7 @@ Ruft die aktuellen Benutzerinformationen ab oder legt diese fest.
 public UserInformation CurrentUser { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Benutzerdetails festgelegt und mithilfe von Feldern angezeigt werden.
 
@@ -55,7 +57,5 @@ doc.Save(ArtifactsDir + "FieldOptions.CurrentUser.docx");
 
 * class [UserInformation](../../userinformation/)
 * class [FieldOptions](../)
-* namensraum [Aspose.Words.Fields](../../fieldoptions/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

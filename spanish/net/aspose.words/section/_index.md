@@ -1,7 +1,9 @@
 ---
-title: Class Section
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Section clase. Representa una única sección de un documento.
+title: Section Class
+linktitle: Section
+articleTitle: Section
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Section clase. Representa una única sección de un documento en C#.
 type: docs
 weight: 5730
 url: /es/net/aspose.words/section/
@@ -20,7 +22,7 @@ public sealed class Section : CompositeNode
 
 | Nombre | Descripción |
 | --- | --- |
-| [Section](section/)(DocumentBase) | Inicializa una nueva instancia de la clase Sección. |
+| [Section](section/)(*[DocumentBase](../documentbase/)*) | Inicializa una nueva instancia de la clase Sección. |
 
 ## Propiedades
 
@@ -47,41 +49,39 @@ public sealed class Section : CompositeNode
 
 | Nombre | Descripción |
 | --- | --- |
-| override [Accept](../../aspose.words/section/accept/)(DocumentVisitor) | Acepta un visitante. |
-| override [AcceptEnd](../../aspose.words/section/acceptend/)(DocumentVisitor) |  |
-| override [AcceptStart](../../aspose.words/section/acceptstart/)(DocumentVisitor) |  |
-| [AppendChild&lt;T&gt;](../../aspose.words/compositenode/appendchild/)(T) |  |
-| [AppendContent](../../aspose.words/section/appendcontent/)(Section) | Inserta una copia del contenido de la sección fuente al final de esta sección. |
+| override [Accept](../../aspose.words/section/accept/)(*[DocumentVisitor](../documentvisitor/)*) | Acepta un visitante. |
+| [AppendChild](../../aspose.words/compositenode/appendchild/)(*[Node](../node/)*) | Agrega el nodo especificado al final de la lista de nodos secundarios para este nodo. |
+| [AppendContent](../../aspose.words/section/appendcontent/)(*Section*) | Inserta una copia del contenido de la sección fuente al final de esta sección. |
 | [ClearContent](../../aspose.words/section/clearcontent/)() | Borra la sección. |
 | [ClearHeadersFooters](../../aspose.words/section/clearheadersfooters/)() | Borra los encabezados y pies de página de esta sección. |
 | [Clone](../../aspose.words/section/clone/#clone_1)() | Crea un duplicado de esta sección. |
-| [Clone](../../aspose.words/node/clone/)(bool) | Crea un duplicado del nodo. |
+| [Clone](../../aspose.words/node/clone/)(*bool*) | Crea un duplicado del nodo. |
 | [CreateNavigator](../../aspose.words/compositenode/createnavigator/)() | Crea un navegador que se puede utilizar para atravesar y leer nodos. |
 | [DeleteHeaderFooterShapes](../../aspose.words/section/deleteheaderfootershapes/)() | Elimina todas las formas (objetos de dibujo) de los encabezados y pies de página de esta sección. |
 | [EnsureMinimum](../../aspose.words/section/ensureminimum/)() | Asegura que la sección tiene[`Body`](./body/) con uno[`Paragraph`](../paragraph/) . |
-| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Obtiene el primer ancestro del especificado[`NodeType`](../nodetype/) . |
-| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Obtiene el primer antepasado del tipo de objeto especificado. |
-| [GetChild](../../aspose.words/compositenode/getchild/)(NodeType, int, bool) | Devuelve un enésimo nodo secundario que coincide con el tipo especificado. |
-| [GetChildNodes](../../aspose.words/compositenode/getchildnodes/)(NodeType, bool) | Devuelve una colección activa de nodos secundarios que coinciden con el tipo especificado. |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*[NodeType](../nodetype/)*) | Obtiene el primer ancestro del especificado[`NodeType`](../nodetype/) . |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | Obtiene el primer antepasado del tipo de objeto especificado. |
+| [GetChild](../../aspose.words/compositenode/getchild/)(*[NodeType](../nodetype/), int, bool*) | Devuelve un enésimo nodo secundario que coincide con el tipo especificado. |
+| [GetChildNodes](../../aspose.words/compositenode/getchildnodes/)(*[NodeType](../nodetype/), bool*) | Devuelve una colección activa de nodos secundarios que coinciden con el tipo especificado. |
 | [GetEnumerator](../../aspose.words/compositenode/getenumerator/)() | Proporciona soporte para cada iteración de estilo sobre los nodos secundarios de este nodo. |
 | override [GetText](../../aspose.words/compositenode/gettext/)() | Obtiene el texto de este nodo y de todos sus hijos. |
-| [IndexOf](../../aspose.words/compositenode/indexof/)(Node) | Devuelve el índice del nodo secundario especificado en la matriz de nodos secundarios. |
-| [InsertAfter&lt;T&gt;](../../aspose.words/compositenode/insertafter/)(T, Node) |  |
-| [InsertBefore&lt;T&gt;](../../aspose.words/compositenode/insertbefore/)(T, Node) |  |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Obtiene el siguiente nodo según el algoritmo transversal del árbol de pedidos anticipados. |
-| [PrependChild&lt;T&gt;](../../aspose.words/compositenode/prependchild/)(T) |  |
-| [PrependContent](../../aspose.words/section/prependcontent/)(Section) | Inserta una copia del contenido de la sección fuente al principio de esta sección. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Obtiene el nodo anterior según el algoritmo transversal del árbol de pedidos anticipados. |
+| [IndexOf](../../aspose.words/compositenode/indexof/)(*[Node](../node/)*) | Devuelve el índice del nodo secundario especificado en la matriz de nodos secundarios. |
+| [InsertAfter](../../aspose.words/compositenode/insertafter/)(*[Node](../node/), [Node](../node/)*) | Inserta el nodo especificado inmediatamente después del nodo de referencia especificado. |
+| [InsertBefore](../../aspose.words/compositenode/insertbefore/)(*[Node](../node/), [Node](../node/)*) | Inserta el nodo especificado inmediatamente antes del nodo de referencia especificado. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../node/)*) | Obtiene el siguiente nodo según el algoritmo transversal del árbol de pedidos anticipados. |
+| [PrependChild](../../aspose.words/compositenode/prependchild/)(*[Node](../node/)*) | Agrega el nodo especificado al principio de la lista de nodos secundarios para este nodo. |
+| [PrependContent](../../aspose.words/section/prependcontent/)(*Section*) | Inserta una copia del contenido de la sección fuente al principio de esta sección. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../node/)*) | Obtiene el nodo anterior según el algoritmo transversal del árbol de pedidos anticipados. |
 | [Remove](../../aspose.words/node/remove/)() | Se elimina del padre. |
 | [RemoveAllChildren](../../aspose.words/compositenode/removeallchildren/)() | Elimina todos los nodos secundarios del nodo actual. |
-| [RemoveChild&lt;T&gt;](../../aspose.words/compositenode/removechild/)(T) |  |
+| [RemoveChild](../../aspose.words/compositenode/removechild/)(*[Node](../node/)*) | Elimina el nodo secundario especificado. |
 | [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags/)() | Elimina todo[`SmartTag`](../../aspose.words.markup/smarttag/)nodos descendientes del nodo actual. |
-| [SelectNodes](../../aspose.words/compositenode/selectnodes/)(string) | Selecciona una lista de nodos que coinciden con la expresión XPath. |
-| [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(string) | Selecciona el primero[`Node`](../node/) que coincide con la expresión XPath. |
-| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Exporta el contenido del nodo a una cadena en el formato especificado. |
-| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | Exporta el contenido del nodo a una cadena usando las opciones de guardado especificadas. |
+| [SelectNodes](../../aspose.words/compositenode/selectnodes/)(*string*) | Selecciona una lista de nodos que coinciden con la expresión XPath. |
+| [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(*string*) | Selecciona el primero[`Node`](../node/) que coincide con la expresión XPath. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../saveformat/)*) | Exporta el contenido del nodo a una cadena en el formato especificado. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | Exporta el contenido del nodo a una cadena usando las opciones de guardado especificadas. |
 
-### Observaciones
+## Observaciones
 
 `Section` puede tener uno[`Body`](../body/) y máximo uno[`HeaderFooter`](../headerfooter/) de cada uno[`HeaderFooterType`](../headerfootertype/) .[`Body`](../body/) y[`HeaderFooter`](../headerfooter/) nodes puede estar en cualquier orden dentro`Section`.
 
@@ -95,7 +95,7 @@ Para agregar, insertar o eliminar una sección completa, incluido el salto de se
 
 Para copiar e insertar solo el contenido de la sección excluyendo la sección break y las propiedades de la sección, use[`AppendContent`](./appendcontent/) y[`PrependContent`](./prependcontent/) métodos.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo construir un documento Aspose.Words a mano.
 
@@ -147,5 +147,3 @@ doc.Save(ArtifactsDir + "Section.CreateManually.docx");
 * class [CompositeNode](../compositenode/)
 * espacio de nombres [Aspose.Words](../../aspose.words/)
 * asamblea [Aspose.Words](../../)
-
-

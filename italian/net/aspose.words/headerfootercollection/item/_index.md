@@ -1,7 +1,9 @@
 ---
 title: HeaderFooterCollection.Item
-second_title: Aspose.Words per .NET API Reference
-description: HeaderFooterCollection proprietà. Recupera aHeaderFooter allindice indicato.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words per .NET
+description: HeaderFooterCollection Item proprietà. Recupera aHeaderFooter allindice indicato in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words/headerfootercollection/item/
@@ -18,7 +20,7 @@ public HeaderFooter this[int index] { get; }
 | --- | --- |
 | index | Un indice nella raccolta. |
 
-### Osservazioni
+## Osservazioni
 
 L'indice è a base zero.
 
@@ -28,7 +30,7 @@ Se indice è maggiore o uguale al numero di elementi nell'elenco, restituisce un
 
 Se indice è negativo e il suo valore assoluto è maggiore del numero di elementi nell'elenco, restituisce un riferimento null.
 
-### Esempi
+## Esempi
 
 Mostra come collegare intestazioni e piè di pagina tra le sezioni.
 
@@ -94,7 +96,7 @@ doc.Save(ArtifactsDir + "HeaderFooter.Link.docx");
 
 * class [HeaderFooter](../../headerfooter/)
 * class [HeaderFooterCollection](../)
-* spazio dei nomi [Aspose.Words](../../headerfootercollection/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
 
 ---
@@ -111,11 +113,11 @@ public HeaderFooter this[HeaderFooterType headerFooterType] { get; }
 | --- | --- |
 | headerFooterType | UN[`HeaderFooterType`](../../headerfootertype/) value che specifica il tipo di intestazione/piè di pagina da recuperare. |
 
-### Osservazioni
+## Osservazioni
 
 Restituisce`nullo` se l'intestazione/piè di pagina del tipo specificato non viene trovata.
 
-### Esempi
+## Esempi
 
 Mostra come sostituire il testo nel piè di pagina di un documento.
 
@@ -169,7 +171,5 @@ doc.Save(ArtifactsDir + "HeaderFooter.RemoveFooters.docx");
 * class [HeaderFooter](../../headerfooter/)
 * enum [HeaderFooterType](../../headerfootertype/)
 * class [HeaderFooterCollection](../)
-* spazio dei nomi [Aspose.Words](../../headerfootercollection/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

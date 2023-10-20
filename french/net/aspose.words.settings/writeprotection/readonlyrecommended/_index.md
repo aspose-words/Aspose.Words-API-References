@@ -1,7 +1,9 @@
 ---
 title: WriteProtection.ReadOnlyRecommended
-second_title: Référence de l'API Aspose.Words pour .NET
-description: WriteProtection propriété. Spécifie si lauteur du document a recommandé que le document soit ouvert en lecture seule.
+linktitle: ReadOnlyRecommended
+articleTitle: ReadOnlyRecommended
+second_title: Aspose.Words pour .NET
+description: WriteProtection ReadOnlyRecommended propriété. Spécifie si lauteur du document a recommandé que le document soit ouvert en lecture seule en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.settings/writeprotection/readonlyrecommended/
@@ -14,7 +16,7 @@ Spécifie si l'auteur du document a recommandé que le document soit ouvert en l
 public bool ReadOnlyRecommended { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment protéger un document avec un mot de passe.
 
@@ -46,7 +48,5 @@ Assert.AreEqual("Hello world! This document is protected." +
 ### Voir également
 
 * class [WriteProtection](../)
-* espace de noms [Aspose.Words.Settings](../../writeprotection/)
+* espace de noms [Aspose.Words.Settings](../../../aspose.words.settings/)
 * Assemblée [Aspose.Words](../../../)
-
-

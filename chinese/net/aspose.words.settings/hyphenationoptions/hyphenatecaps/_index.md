@@ -1,7 +1,9 @@
 ---
 title: HyphenationOptions.HyphenateCaps
-second_title: Aspose.Words for .NET API 参考
-description: HyphenationOptions 财产. 获取或设置确定全部大写字母书写的单词是否连字符的值 此属性的默认值为真的.
+linktitle: HyphenateCaps
+articleTitle: HyphenateCaps
+second_title: 用于 .NET 的 Aspose.Words
+description: HyphenationOptions HyphenateCaps 财产. 获取或设置确定全部大写字母书写的单词是否连字符的值 此属性的默认值为真的 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.settings/hyphenationoptions/hyphenatecaps/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.settings/hyphenationoptions/hyphenatecaps/
 public bool HyphenateCaps { get; set; }
 ```
 
-### 例子
+## 例子
 
 展示如何配置自动连字。
 
@@ -37,7 +39,5 @@ doc.Save(ArtifactsDir + "Document.HyphenationOptions.docx");
 ### 也可以看看
 
 * class [HyphenationOptions](../)
-* 命名空间 [Aspose.Words.Settings](../../hyphenationoptions/)
+* 命名空间 [Aspose.Words.Settings](../../../aspose.words.settings/)
 * 部件 [Aspose.Words](../../../)
-
-

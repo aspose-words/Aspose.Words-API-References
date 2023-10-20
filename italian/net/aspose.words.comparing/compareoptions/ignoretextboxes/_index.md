@@ -1,7 +1,9 @@
 ---
 title: CompareOptions.IgnoreTextboxes
-second_title: Aspose.Words per .NET API Reference
-description: CompareOptions proprietà. Specifica se confrontare le differenze nei dati contenuti nelle caselle di testo. Per impostazione predefinita le caselle di testo non vengono ignorate.
+linktitle: IgnoreTextboxes
+articleTitle: IgnoreTextboxes
+second_title: Aspose.Words per .NET
+description: CompareOptions IgnoreTextboxes proprietà. Specifica se confrontare le differenze nei dati contenuti nelle caselle di testo. Per impostazione predefinita le caselle di testo non vengono ignorate in C#.
 type: docs
 weight: 120
 url: /it/net/aspose.words.comparing/compareoptions/ignoretextboxes/
@@ -14,7 +16,7 @@ Specifica se confrontare le differenze nei dati contenuti nelle caselle di testo
 public bool IgnoreTextboxes { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come filtrare tipi specifici di elementi del documento quando si effettua un confronto.
 
@@ -88,7 +90,5 @@ docOriginal.Save(ArtifactsDir + "Document.CompareOptions.docx");
 ### Guarda anche
 
 * class [CompareOptions](../)
-* spazio dei nomi [Aspose.Words.Comparing](../../compareoptions/)
+* spazio dei nomi [Aspose.Words.Comparing](../../../aspose.words.comparing/)
 * assemblea [Aspose.Words](../../../)
-
-

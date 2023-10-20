@@ -1,7 +1,9 @@
 ---
 title: FieldToc.BookmarkName
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldToc свойство. Получает или задает имя закладки которая отмечает часть документа использованную для построения таблицы.
+linktitle: BookmarkName
+articleTitle: BookmarkName
+second_title: Aspose.Words для .NET
+description: FieldToc BookmarkName свойство. Получает или задает имя закладки которая отмечает часть документа использованную для построения таблицы на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.fields/fieldtoc/bookmarkname/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldtoc/bookmarkname/
 public string BookmarkName { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как вставить оглавление и заполнить его записями на основе стилей заголовков.
 
@@ -99,7 +101,5 @@ public void InsertNewPageWithHeading(DocumentBuilder builder, string captionText
 ### Смотрите также
 
 * class [FieldToc](../)
-* пространство имен [Aspose.Words.Fields](../../fieldtoc/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum NumeralFormat
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Saving.NumeralFormat opsomming. Gibt den Symbolsatz an der zur Darstellung von Zahlen beim Rendern in feste Seitenformate verwendet wird.
+title: NumeralFormat Enum
+linktitle: NumeralFormat
+articleTitle: NumeralFormat
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Saving.NumeralFormat opsomming. Gibt den Symbolsatz an der zur Darstellung von Zahlen beim Rendern in feste Seitenformate verwendet wird in C#.
 type: docs
 weight: 5310
 url: /de/net/aspose.words.saving/numeralformat/
@@ -24,7 +26,7 @@ public enum NumeralFormat
 | Context | `3` | Der Symbolsatz wird anhand des Kontexts (Gebietsschema und RTL-Eigenschaft) festgelegt. |
 | System | `4` | DIESE OPTION WIRD NICHT UNTERSTÜTZT. Der Symbolsatz wird anhand der regionalen Einstellungen festgelegt. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie das beim Speichern als PDF verwendete Zahlenformat festgelegt wird.
 
@@ -56,5 +58,3 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.SetNumeralFormat.pdf", options);
 
 * namensraum [Aspose.Words.Saving](../../aspose.words.saving/)
 * Montage [Aspose.Words](../../)
-
-

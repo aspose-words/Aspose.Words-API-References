@@ -1,7 +1,9 @@
 ---
 title: IResourceSavingCallback.ResourceSaving
-second_title: Aspose.Words för .NET API Referens
-description: IResourceSavingCallback metod. Anropas när Aspose.Words sparar en extern resurs till fasta HTML eller SVGformat på sidan.
+linktitle: ResourceSaving
+articleTitle: ResourceSaving
+second_title: Aspose.Words för .NET
+description: IResourceSavingCallback ResourceSaving metod. Anropas när Aspose.Words sparar en extern resurs till fasta HTML eller SVGformat på sidan i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.saving/iresourcesavingcallback/resourcesaving/
@@ -14,7 +16,7 @@ Anropas när Aspose.Words sparar en extern resurs till fasta HTML- eller SVG-for
 public void ResourceSaving(ResourceSavingArgs args)
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man använder en återuppringning för att spåra externa resurser som skapas när ett dokument konverteras till HTML.
 
@@ -134,7 +136,5 @@ private class ResourceUriPrinter : IResourceSavingCallback
 
 * class [ResourceSavingArgs](../../resourcesavingargs/)
 * interface [IResourceSavingCallback](../)
-* namnutrymme [Aspose.Words.Saving](../../iresourcesavingcallback/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

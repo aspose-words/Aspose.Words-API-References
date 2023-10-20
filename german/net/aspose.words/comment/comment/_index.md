@@ -1,12 +1,14 @@
 ---
-title: Comment.Comment
-second_title: Aspose.Words für .NET-API-Referenz
-description: Comment constructeur. Initialisiert eine neue Instanz vonComment Klasse.
+title: Comment
+linktitle: Comment
+articleTitle: Comment
+second_title: Aspose.Words für .NET
+description: Comment constructeur. Initialisiert eine neue Instanz vonComment Klasse in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words/comment/comment/
 ---
-## Comment(DocumentBase) {#constructor}
+## Comment(*[DocumentBase](../../documentbase/)*) {#constructor}
 
 Initialisiert eine neue Instanz von[`Comment`](../) Klasse.
 
@@ -18,15 +20,15 @@ public Comment(DocumentBase doc)
 | --- | --- | --- |
 | doc | DocumentBase | Das Eigentümerdokument. |
 
-### Bemerkungen
+## Bemerkungen
 
 Wann[`Comment`](../) erstellt wird, gehört es zum angegebenen Dokument, ist aber noch nicht Teil des Dokuments und[`ParentNode`](../../node/parentnode/) Ist`Null`.
 
-Anhängen[`Comment`](../) zur DokumentenverwendungNode) oderNode) in dem Absatz, in den Sie den Kommentar einfügen möchten.
+Anhängen[`Comment`](../) zur Dokumentenverwendung[`InsertAfter`](../../compositenode/insertafter/) oder[`InsertBefore`](../../compositenode/insertbefore/) in dem Absatz, in den Sie den Kommentar einfügen möchten.
 
 Vergessen Sie nach dem Erstellen eines Kommentars nicht, ihn festzulegen[`Author`](../author/) , [`Initial`](../initial/) Und[`DateTime`](../datetime/) Eigenschaften.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie der Inhalt aller Kommentare und deren Kommentarbereiche mithilfe eines Dokumentbesuchers gedruckt wird.
 
@@ -188,12 +190,12 @@ public class CommentInfoPrinter : DocumentVisitor
 
 * class [DocumentBase](../../documentbase/)
 * class [Comment](../)
-* namensraum [Aspose.Words](../../comment/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
 
 ---
 
-## Comment(DocumentBase, string, string, DateTime) {#constructor_1}
+## Comment(*[DocumentBase](../../documentbase/), string, string, DateTime*) {#constructor_1}
 
 Initialisiert eine neue Instanz von[`Comment`](../) Klasse.
 
@@ -208,7 +210,7 @@ public Comment(DocumentBase doc, string author, string initial, DateTime dateTim
 | initial | String | Die Initialen des Autors für den Kommentar. Kann nicht sein`Null`. |
 | dateTime | DateTime | Datum und Uhrzeit des Kommentars. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man einem Absatz einen Kommentar hinzufügt.
 
@@ -232,7 +234,5 @@ doc.Save(ArtifactsDir + "InlineStory.AddComment.docx");
 
 * class [DocumentBase](../../documentbase/)
 * class [Comment](../)
-* namensraum [Aspose.Words](../../comment/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

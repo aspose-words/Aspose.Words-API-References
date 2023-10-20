@@ -1,7 +1,9 @@
 ---
 title: MailMergeSettings.MainDocumentType
-second_title: Referencia de API de Aspose.Words para .NET
-description: MailMergeSettings propiedad. Especifica el tipo de documento principal de combinación de correspondencia. El valor predeterminado esDefault .
+linktitle: MainDocumentType
+articleTitle: MainDocumentType
+second_title: Aspose.Words para .NET
+description: MailMergeSettings MainDocumentType propiedad. Especifica el tipo de documento principal de combinación de correspondencia. El valor predeterminado esDefault  en C#.
 type: docs
 weight: 140
 url: /es/net/aspose.words.settings/mailmergesettings/maindocumenttype/
@@ -14,11 +16,11 @@ Especifica el tipo de documento principal de combinación de correspondencia. El
 public MailMergeMainDocumentType MainDocumentType { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 El documento principal es el documento que contiene información que es la misma para cada versión del documento combinado.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo ejecutar una combinación de correspondencia con datos de un objeto de origen de datos de Office.
 
@@ -71,7 +73,5 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 
 * enum [MailMergeMainDocumentType](../../mailmergemaindocumenttype/)
 * class [MailMergeSettings](../)
-* espacio de nombres [Aspose.Words.Settings](../../mailmergesettings/)
+* espacio de nombres [Aspose.Words.Settings](../../../aspose.words.settings/)
 * asamblea [Aspose.Words](../../../)
-
-

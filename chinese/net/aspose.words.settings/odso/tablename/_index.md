@@ -1,7 +1,9 @@
 ---
 title: Odso.TableName
-second_title: Aspose.Words for .NET API 参考
-description: Odso 财产. 指定源应在外部数据源内连接到的特定数据集 默认值为空字符串
+linktitle: TableName
+articleTitle: TableName
+second_title: 用于 .NET 的 Aspose.Words
+description: Odso TableName 财产. 指定源应在外部数据源内连接到的特定数据集 默认值为空字符串 在 C#.
 type: docs
 weight: 80
 url: /zh/net/aspose.words.settings/odso/tablename/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.settings/odso/tablename/
 public string TableName { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何在连接到外部数据源时执行邮件合并。
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "MailMerge.OdsoEmail.docx");
 ### 也可以看看
 
 * class [Odso](../)
-* 命名空间 [Aspose.Words.Settings](../../odso/)
+* 命名空间 [Aspose.Words.Settings](../../../aspose.words.settings/)
 * 部件 [Aspose.Words](../../../)
-
-

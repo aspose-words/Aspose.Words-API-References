@@ -1,7 +1,9 @@
 ---
 title: TextColumn.SpaceAfter
-second_title: Aspose.Words für .NET-API-Referenz
-description: TextColumn eigendom. Ruft den Abstand zwischen dieser Spalte und der nächsten Spalte in Punkten ab oder legt diesen fest. Für die letzte Spalte nicht erforderlich.
+linktitle: SpaceAfter
+articleTitle: SpaceAfter
+second_title: Aspose.Words für .NET
+description: TextColumn SpaceAfter eigendom. Ruft den Abstand zwischen dieser Spalte und der nächsten Spalte in Punkten ab oder legt diesen fest. Für die letzte Spalte nicht erforderlich in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words/textcolumn/spaceafter/
@@ -14,7 +16,7 @@ Ruft den Abstand zwischen dieser Spalte und der nächsten Spalte in Punkten ab o
 public double SpaceAfter { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ungleichmäßig verteilte Spalten erstellt werden.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "PageSetup.CustomColumnWidth.docx");
 ### Siehe auch
 
 * class [TextColumn](../)
-* namensraum [Aspose.Words](../../textcolumn/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

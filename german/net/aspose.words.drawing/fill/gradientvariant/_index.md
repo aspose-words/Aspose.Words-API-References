@@ -1,9 +1,11 @@
 ---
 title: Fill.GradientVariant
-second_title: Aspose.Words für .NET-API-Referenz
-description: Fill eigendom. Ruft die Verlaufsvariante abGradientVariant für die Füllung.
+linktitle: GradientVariant
+articleTitle: GradientVariant
+second_title: Aspose.Words für .NET
+description: Fill GradientVariant eigendom. Ruft die Verlaufsvariante abGradientVariant für die Füllung in C#.
 type: docs
-weight: 130
+weight: 120
 url: /de/net/aspose.words.drawing/fill/gradientvariant/
 ---
 ## Fill.GradientVariant property
@@ -14,7 +16,7 @@ Ruft die Verlaufsvariante ab[`GradientVariant`](../../gradientvariant/) für die
 public GradientVariant GradientVariant { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie eine Form mit Farbverläufen gefüllt wird.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "Shape.GradientFill.docx", saveOptions);
 
 * enum [GradientVariant](../../gradientvariant/)
 * class [Fill](../)
-* namensraum [Aspose.Words.Drawing](../../fill/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

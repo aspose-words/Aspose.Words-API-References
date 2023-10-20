@@ -1,12 +1,14 @@
 ---
 title: DocumentBuilder.InsertOnlineVideo
-second_title: Справочник по API Aspose.Words для .NET
-description: DocumentBuilder метод. Вставляет объект онлайнвидео в документ и масштабирует его до указанного размера.
+linktitle: InsertOnlineVideo
+articleTitle: InsertOnlineVideo
+second_title: Aspose.Words для .NET
+description: DocumentBuilder InsertOnlineVideo метод. Вставляет объект онлайнвидео в документ и масштабирует его до указанного размера на С#.
 type: docs
-weight: 420
+weight: 410
 url: /ru/net/aspose.words/documentbuilder/insertonlinevideo/
 ---
-## InsertOnlineVideo(string, double, double) {#insertonlinevideo_1}
+## InsertOnlineVideo(*string, double, double*) {#insertonlinevideo_1}
 
 Вставляет объект онлайн-видео в документ и масштабирует его до указанного размера.
 
@@ -24,7 +26,7 @@ public Shape InsertOnlineVideo(string videoUrl, double width, double height)
 
 Узел изображения, который был только что вставлен.
 
-### Примечания
+## Примечания
 
 Вы можете изменить размер изображения, местоположение, метод позиционирования и другие настройки с помощью [`Shape`](../../../aspose.words.drawing/shape/) объект, возвращаемый этим методом.
 
@@ -37,7 +39,7 @@ public Shape InsertOnlineVideo(string videoUrl, double width, double height)
 
 Код для встраивания видео может различаться в зависимости от поставщика. За подробностями обратитесь к соответствующему поставщику.
 
-### Примеры
+## Примеры
 
 Показывает, как вставить онлайн-видео в документ с помощью URL-адреса.
 
@@ -55,12 +57,12 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertVideoWithUrl.docx");
 
 * class [Shape](../../../aspose.words.drawing/shape/)
 * class [DocumentBuilder](../)
-* пространство имен [Aspose.Words](../../documentbuilder/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## InsertOnlineVideo(string, RelativeHorizontalPosition, double, RelativeVerticalPosition, double, double, double, WrapType) {#insertonlinevideo}
+## InsertOnlineVideo(*string, [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/), double, [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/), double, double, double, [WrapType](../../../aspose.words.drawing/wraptype/)*) {#insertonlinevideo}
 
 Вставляет объект онлайн-видео в документ и масштабирует его до указанного размера.
 
@@ -84,7 +86,7 @@ public Shape InsertOnlineVideo(string videoUrl, RelativeHorizontalPosition horzP
 
 Узел изображения, который был только что вставлен.
 
-### Примечания
+## Примечания
 
 Вы можете изменить размер изображения, местоположение, метод позиционирования и другие настройки с помощью [`Shape`](../../../aspose.words.drawing/shape/) объект, возвращаемый этим методом.
 
@@ -97,7 +99,7 @@ public Shape InsertOnlineVideo(string videoUrl, RelativeHorizontalPosition horzP
 
 Код для встраивания видео может различаться в зависимости от поставщика. За подробностями обратитесь к соответствующему поставщику.
 
-### Примеры
+## Примеры
 
 Показывает, как вставить онлайн-видео в документ.
 
@@ -124,12 +126,12 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertOnlineVideo.docx");
 * enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/)
 * enum [WrapType](../../../aspose.words.drawing/wraptype/)
 * class [DocumentBuilder](../)
-* пространство имен [Aspose.Words](../../documentbuilder/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## InsertOnlineVideo(string, string, byte[], double, double) {#insertonlinevideo_3}
+## InsertOnlineVideo(*string, string, byte[], double, double*) {#insertonlinevideo_3}
 
 Вставляет объект онлайн-видео в документ и масштабирует его до указанного размера.
 
@@ -150,11 +152,11 @@ public Shape InsertOnlineVideo(string videoUrl, string videoEmbedCode, byte[] th
 
 Узел изображения, который был только что вставлен.
 
-### Примечания
+## Примечания
 
 Вы можете изменить размер изображения, местоположение, метод позиционирования и другие настройки с помощью [`Shape`](../../../aspose.words.drawing/shape/) объект, возвращаемый этим методом.
 
-### Примеры
+## Примеры
 
 Показывает, как вставить онлайн-видео в документ с настраиваемой миниатюрой.
 
@@ -197,12 +199,12 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertOnlineVideoCustomThumbnail.docx")
 
 * class [Shape](../../../aspose.words.drawing/shape/)
 * class [DocumentBuilder](../)
-* пространство имен [Aspose.Words](../../documentbuilder/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## InsertOnlineVideo(string, string, byte[], RelativeHorizontalPosition, double, RelativeVerticalPosition, double, double, double, WrapType) {#insertonlinevideo_2}
+## InsertOnlineVideo(*string, string, byte[], [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/), double, [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/), double, double, double, [WrapType](../../../aspose.words.drawing/wraptype/)*) {#insertonlinevideo_2}
 
 Вставляет объект онлайн-видео в документ и масштабирует его до указанного размера.
 
@@ -229,11 +231,11 @@ public Shape InsertOnlineVideo(string videoUrl, string videoEmbedCode, byte[] th
 
 Узел изображения, который был только что вставлен.
 
-### Примечания
+## Примечания
 
 Вы можете изменить размер изображения, местоположение, метод позиционирования и другие настройки с помощью [`Shape`](../../../aspose.words.drawing/shape/) объект, возвращаемый этим методом.
 
-### Примеры
+## Примеры
 
 Показывает, как вставить онлайн-видео в документ с настраиваемой миниатюрой.
 
@@ -279,7 +281,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertOnlineVideoCustomThumbnail.docx")
 * enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/)
 * enum [WrapType](../../../aspose.words.drawing/wraptype/)
 * class [DocumentBuilder](../)
-* пространство имен [Aspose.Words](../../documentbuilder/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Row.NextRow
-second_title: Aspose.Words für .NET-API-Referenz
-description: Row eigendom. Ruft den nächsten abRow node.
+linktitle: NextRow
+articleTitle: NextRow
+second_title: Aspose.Words für .NET
+description: Row NextRow eigendom. Ruft den nächsten abRow node in C#.
 type: docs
 weight: 70
 url: /de/net/aspose.words.tables/row/nextrow/
@@ -14,11 +16,11 @@ Ruft den nächsten ab[`Row`](../) node.
 public Row NextRow { get; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Die Methode kann verwendet werden, wenn Sie typisierten Zugriff auf Tabellenzeilen benötigen. Wenn a [`StructuredDocumentTag`](../../../aspose.words.markup/structureddocumenttag/)Der Knoten wird in einer Tabelle statt in einer Zeile gefunden. Er wird automatisch durchlaufen, um eine darin enthaltene Zeile zu erhalten.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie alle Tabellenzellen aufgezählt werden.
 
@@ -39,7 +41,5 @@ for (Row row = table.FirstRow; row != null; row = row.NextRow)
 ### Siehe auch
 
 * class [Row](../)
-* namensraum [Aspose.Words.Tables](../../row/)
+* namensraum [Aspose.Words.Tables](../../../aspose.words.tables/)
 * Montage [Aspose.Words](../../../)
-
-

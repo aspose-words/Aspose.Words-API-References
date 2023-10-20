@@ -1,7 +1,9 @@
 ---
 title: FieldToa.RemoveEntryFormatting
-second_title: Aspose.Words for .NET API 参考
-description: FieldToa 财产. 获取或设置是否从权限表中的 条目中删除文档中条目文本的格式
+linktitle: RemoveEntryFormatting
+articleTitle: RemoveEntryFormatting
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldToa RemoveEntryFormatting 财产. 获取或设置是否从权限表中的 条目中删除文档中条目文本的格式 在 C#.
 type: docs
 weight: 70
 url: /zh/net/aspose.words.fields/fieldtoa/removeentryformatting/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fieldtoa/removeentryformatting/
 public bool RemoveEntryFormatting { get; set; }
 ```
 
-### 例子
+## 例子
 
 展示如何使用 TOA 和 TA 字段构建和自定义权限表。
 
@@ -137,7 +139,5 @@ private static FieldTA InsertToaEntry(DocumentBuilder builder, string entryCateg
 ### 也可以看看
 
 * class [FieldToa](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldtoa/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

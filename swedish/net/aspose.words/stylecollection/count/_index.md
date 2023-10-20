@@ -1,7 +1,9 @@
 ---
 title: StyleCollection.Count
-second_title: Aspose.Words för .NET API Referens
-description: StyleCollection fast egendom. Hämtar antalet stilar i samlingen.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words för .NET
+description: StyleCollection Count fast egendom. Hämtar antalet stilar i samlingen i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words/stylecollection/count/
@@ -14,7 +16,7 @@ Hämtar antalet stilar i samlingen.
 public int Count { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man lägger till en stil till ett dokuments stilsamling.
 
@@ -37,7 +39,5 @@ Assert.AreEqual(15.0, styles["MyStyle"].ParagraphFormat.FirstLineIndent);
 ### Se även
 
 * class [StyleCollection](../)
-* namnutrymme [Aspose.Words](../../stylecollection/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

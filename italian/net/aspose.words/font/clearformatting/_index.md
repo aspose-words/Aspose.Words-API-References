@@ -1,7 +1,9 @@
 ---
 title: Font.ClearFormatting
-second_title: Aspose.Words per .NET API Reference
-description: Font metodo. Ripristina la formattazione predefinita dei caratteri.
+linktitle: ClearFormatting
+articleTitle: ClearFormatting
+second_title: Aspose.Words per .NET
+description: Font ClearFormatting metodo. Ripristina la formattazione predefinita dei caratteri in C#.
 type: docs
 weight: 550
 url: /it/net/aspose.words/font/clearformatting/
@@ -14,11 +16,11 @@ Ripristina la formattazione predefinita dei caratteri.
 public void ClearFormatting()
 ```
 
-### Osservazioni
+## Osservazioni
 
 Rimuove tutta la formattazione dei caratteri specificata esplicitamente sull'oggetto da cui [`Font`](../) è stato ottenuto in modo che la formattazione del carattere venga ereditata da il genitore appropriato.
 
-### Esempi
+## Esempi
 
 Mostra come inserire un campo di collegamento ipertestuale.
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertHyperlink.docx");
 ### Guarda anche
 
 * class [Font](../)
-* spazio dei nomi [Aspose.Words](../../font/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: OlePackage.FileName
-second_title: Aspose.Words لمراجع .NET API
-description: OlePackage ملكية. الحصول على اسم ملف حزمة OLE أو تعيينه.
+linktitle: FileName
+articleTitle: FileName
+second_title: Aspose.Words لـ .NET
+description: OlePackage FileName ملكية. الحصول على اسم ملف حزمة OLE أو تعيينه في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.drawing/olepackage/filename/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing/olepackage/filename/
 public string FileName { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج كائن OLE في المستند.
 
@@ -41,7 +43,5 @@ doc.Save(ArtifactsDir + "Shape.InsertOlePackage.docx");
 ### أنظر أيضا
 
 * class [OlePackage](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../olepackage/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

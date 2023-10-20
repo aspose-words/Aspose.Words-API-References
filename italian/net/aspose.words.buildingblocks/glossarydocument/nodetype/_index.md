@@ -1,7 +1,9 @@
 ---
 title: GlossaryDocument.NodeType
-second_title: Aspose.Words per .NET API Reference
-description: GlossaryDocument proprietà. Restituisce ilGlossaryDocument valore.
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words per .NET
+description: GlossaryDocument NodeType proprietà. Restituisce ilGlossaryDocument valore in C#.
 type: docs
 weight: 50
 url: /it/net/aspose.words.buildingblocks/glossarydocument/nodetype/
@@ -14,7 +16,7 @@ Restituisce ilGlossaryDocument valore.
 public override NodeType NodeType { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come attraversare l'albero dei nodi figlio di un nodo composito.
 
@@ -62,7 +64,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 
 * enum [NodeType](../../../aspose.words/nodetype/)
 * class [GlossaryDocument](../)
-* spazio dei nomi [Aspose.Words.BuildingBlocks](../../glossarydocument/)
+* spazio dei nomi [Aspose.Words.BuildingBlocks](../../../aspose.words.buildingblocks/)
 * assemblea [Aspose.Words](../../../)
-
-

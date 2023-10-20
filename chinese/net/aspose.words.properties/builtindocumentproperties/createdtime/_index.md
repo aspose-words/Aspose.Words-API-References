@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.CreatedTime
-second_title: Aspose.Words for .NET API 参考
-description: BuiltInDocumentProperties 财产. 获取或设置文档创建日期UTC
+linktitle: CreatedTime
+articleTitle: CreatedTime
+second_title: 用于 .NET 的 Aspose.Words
+description: BuiltInDocumentProperties CreatedTime 财产. 获取或设置文档创建日期UTC 在 C#.
 type: docs
 weight: 100
 url: /zh/net/aspose.words.properties/builtindocumentproperties/createdtime/
@@ -14,13 +16,13 @@ url: /zh/net/aspose.words.properties/builtindocumentproperties/createdtime/
 public DateTime CreatedTime { get; set; }
 ```
 
-### 评论
+## 评论
 
 对于源自 RTF 格式的文档，此属性返回文档创建时作者计算机的本地时间。
 
 Aspose.Words 不会更新此属性。
 
-### 例子
+## 例子
 
 展示如何使用“来源”类别中的文档属性。
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "DocumentProperties.Origin.docx");
 ### 也可以看看
 
 * class [BuiltInDocumentProperties](../)
-* 命名空间 [Aspose.Words.Properties](../../builtindocumentproperties/)
+* 命名空间 [Aspose.Words.Properties](../../../aspose.words.properties/)
 * 部件 [Aspose.Words](../../../)
-
-

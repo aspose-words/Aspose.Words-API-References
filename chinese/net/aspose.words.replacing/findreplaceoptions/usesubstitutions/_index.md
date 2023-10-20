@@ -1,7 +1,9 @@
 ---
 title: FindReplaceOptions.UseSubstitutions
-second_title: Aspose.Words for .NET API 参考
-description: FindReplaceOptions 财产. 获取或设置一个布尔值指示是否在替换模式中识别和使用替换 默认值为错误的.
+linktitle: UseSubstitutions
+articleTitle: UseSubstitutions
+second_title: 用于 .NET 的 Aspose.Words
+description: FindReplaceOptions UseSubstitutions 财产. 获取或设置一个布尔值指示是否在替换模式中识别和使用替换 默认值为错误的 在 C#.
 type: docs
 weight: 180
 url: /zh/net/aspose.words.replacing/findreplaceoptions/usesubstitutions/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.replacing/findreplaceoptions/usesubstitutions/
 public bool UseSubstitutions { get; set; }
 ```
 
-### 评论
+## 评论
 
 有关替换元素的详细信息，请参阅： https://docs.microsoft.com/en-us/dotnet/standard/base-types/substitutions-in-regular-expressions.
 
-### 例子
+## 例子
 
 展示如何识别和使用替换模式中的替换。
 
@@ -70,7 +72,5 @@ Assert.AreEqual(
 ### 也可以看看
 
 * class [FindReplaceOptions](../)
-* 命名空间 [Aspose.Words.Replacing](../../findreplaceoptions/)
+* 命名空间 [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * 部件 [Aspose.Words](../../../)
-
-

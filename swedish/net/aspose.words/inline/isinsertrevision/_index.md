@@ -1,7 +1,9 @@
 ---
 title: Inline.IsInsertRevision
-second_title: Aspose.Words för .NET API Referens
-description: Inline fast egendom. Returnerar sant om det här objektet infogades i Microsoft Word medan ändringsspårning var aktiverad.
+linktitle: IsInsertRevision
+articleTitle: IsInsertRevision
+second_title: Aspose.Words för .NET
+description: Inline IsInsertRevision fast egendom. Returnerar sant om det här objektet infogades i Microsoft Word medan ändringsspårning var aktiverad i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words/inline/isinsertrevision/
@@ -14,7 +16,7 @@ Returnerar sant om det här objektet infogades i Microsoft Word medan ändringss
 public bool IsInsertRevision { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man bestämmer revisionstypen för en inline-nod.
 
@@ -70,7 +72,5 @@ Assert.IsTrue(runs[5].IsDeleteRevision);
 ### Se även
 
 * class [Inline](../)
-* namnutrymme [Aspose.Words](../../inline/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

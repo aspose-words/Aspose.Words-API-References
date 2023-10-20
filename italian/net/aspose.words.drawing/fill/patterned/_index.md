@@ -1,12 +1,14 @@
 ---
 title: Fill.Patterned
-second_title: Aspose.Words per .NET API Reference
-description: Fill metodo. Imposta il riempimento specificato su un motivo.
+linktitle: Patterned
+articleTitle: Patterned
+second_title: Aspose.Words per .NET
+description: Fill Patterned metodo. Imposta il riempimento specificato su un motivo in C#.
 type: docs
-weight: 230
+weight: 220
 url: /it/net/aspose.words.drawing/fill/patterned/
 ---
-## Patterned(PatternType) {#patterned}
+## Patterned(*[PatternType](../../patterntype/)*) {#patterned}
 
 Imposta il riempimento specificato su un motivo.
 
@@ -18,7 +20,7 @@ public void Patterned(PatternType patternType)
 | --- | --- | --- |
 | patternType | PatternType | [`PatternType`](../../patterntype/) |
 
-### Esempi
+## Esempi
 
 Mostra come impostare il modello per una forma.
 
@@ -44,12 +46,12 @@ doc.Save(ArtifactsDir + "Shape.FillPattern.docx");
 
 * enum [PatternType](../../patterntype/)
 * class [Fill](../)
-* spazio dei nomi [Aspose.Words.Drawing](../../fill/)
+* spazio dei nomi [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assemblea [Aspose.Words](../../../)
 
 ---
 
-## Patterned(PatternType, Color, Color) {#patterned_1}
+## Patterned(*[PatternType](../../patterntype/), Color, Color*) {#patterned_1}
 
 Imposta il riempimento specificato su un motivo.
 
@@ -63,7 +65,7 @@ public void Patterned(PatternType patternType, Color foreColor, Color backColor)
 | foreColor | Color | Il colore del riempimento in primo piano. |
 | backColor | Color | Il colore del riempimento dello sfondo. |
 
-### Esempi
+## Esempi
 
 Mostra come impostare il modello per una forma.
 
@@ -89,7 +91,5 @@ doc.Save(ArtifactsDir + "Shape.FillPattern.docx");
 
 * enum [PatternType](../../patterntype/)
 * class [Fill](../)
-* spazio dei nomi [Aspose.Words.Drawing](../../fill/)
+* spazio dei nomi [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assemblea [Aspose.Words](../../../)
-
-

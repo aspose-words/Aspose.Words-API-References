@@ -1,7 +1,9 @@
 ---
-title: Enum VerticalAlignment
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Drawing.VerticalAlignment 枚举. 指定浮动形状文本框架或浮动表格的垂直对齐方式
+title: VerticalAlignment Enum
+linktitle: VerticalAlignment
+articleTitle: VerticalAlignment
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Drawing.VerticalAlignment 枚举. 指定浮动形状文本框架或浮动表格的垂直对齐方式 在 C#.
 type: docs
 weight: 1380
 url: /zh/net/aspose.words.drawing/verticalalignment/
@@ -18,7 +20,7 @@ public enum VerticalAlignment
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| None | `0` | 对象被显式定位，通常使用其 **顶部**属性. |
+| None | `0` | 对象被显式定位，通常使用其**顶部**属性. |
 | Top | `1` | 指定对象应位于垂直对齐底座的顶部。 |
 | Center | `2` | 指定对象应相对于垂直对齐基准居中。 |
 | Bottom | `3` | 指定对象应位于垂直对齐底座的底部。 |
@@ -27,7 +29,7 @@ public enum VerticalAlignment
 | Inline | `-1` | 未记录。似乎是浮动段落和表格的可能值。 |
 | Default | `0` | 与相同None. |
 
-### 例子
+## 例子
 
 演示如何将浮动图像插入到页面中央。
 
@@ -52,5 +54,3 @@ doc.Save(ArtifactsDir + "Image.CreateFloatingPageCenter.docx");
 * property [VerticalAlignment](../shapebase/verticalalignment/)
 * 命名空间 [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../)
-
-

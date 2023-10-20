@@ -1,7 +1,9 @@
 ---
 title: Comment.Initial
-second_title: Aspose.Words لمراجع .NET API
-description: Comment ملكية. إرجاع أو تعيين الأحرف الأولى من اسم المستخدم المرتبط بتعليق معين.
+linktitle: Initial
+articleTitle: Initial
+second_title: Aspose.Words لـ .NET
+description: Comment Initial ملكية. إرجاع أو تعيين الأحرف الأولى من اسم المستخدم المرتبط بتعليق معين في C#.
 type: docs
 weight: 70
 url: /ar/net/aspose.words/comment/initial/
@@ -14,13 +16,13 @@ url: /ar/net/aspose.words/comment/initial/
 public string Initial { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 لا يمكن`باطل`.
 
 الافتراضي هو سلسلة فارغة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية طباعة محتويات جميع التعليقات ونطاقات التعليقات الخاصة بها باستخدام زائر المستند.
 
@@ -181,7 +183,5 @@ public class CommentInfoPrinter : DocumentVisitor
 ### أنظر أيضا
 
 * class [Comment](../)
-* مساحة الاسم [Aspose.Words](../../comment/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

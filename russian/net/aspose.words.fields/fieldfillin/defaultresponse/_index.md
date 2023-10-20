@@ -1,7 +1,9 @@
 ---
 title: FieldFillIn.DefaultResponse
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldFillIn свойство. Получает или задает ответ пользователя по умолчанию начальное значение содержащееся в окне подсказки.
+linktitle: DefaultResponse
+articleTitle: DefaultResponse
+second_title: Aspose.Words для .NET
+description: FieldFillIn DefaultResponse свойство. Получает или задает ответ пользователя по умолчанию начальное значение содержащееся в окне подсказки на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.fields/fieldfillin/defaultresponse/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldfillin/defaultresponse/
 public string DefaultResponse { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как использовать поле ЗАПОЛНИТЬ, чтобы запросить у пользователя ответ.
 
@@ -63,7 +65,5 @@ private class PromptRespondent : IFieldUserPromptRespondent
 ### Смотрите также
 
 * class [FieldFillIn](../)
-* пространство имен [Aspose.Words.Fields](../../fieldfillin/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

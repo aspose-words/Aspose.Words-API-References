@@ -1,7 +1,9 @@
 ---
 title: ChartSeries.Marker
-second_title: Aspose.Words لمراجع .NET API
-description: ChartSeries ملكية. يحدد علامة البيانات. يتم إنشاء العلامة تلقائيًا عند الطلب.
+linktitle: Marker
+articleTitle: Marker
+second_title: Aspose.Words لـ .NET
+description: ChartSeries Marker ملكية. يحدد علامة البيانات. يتم إنشاء العلامة تلقائيًا عند الطلب في C#.
 type: docs
 weight: 100
 url: /ar/net/aspose.words.drawing.charts/chartseries/marker/
@@ -18,7 +20,5 @@ public ChartMarker Marker { get; }
 
 * class [ChartMarker](../../chartmarker/)
 * class [ChartSeries](../)
-* مساحة الاسم [Aspose.Words.Drawing.Charts](../../chartseries/)
+* مساحة الاسم [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../../)
-
-

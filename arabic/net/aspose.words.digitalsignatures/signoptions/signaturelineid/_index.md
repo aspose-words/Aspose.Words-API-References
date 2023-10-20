@@ -1,24 +1,26 @@
 ---
 title: SignOptions.SignatureLineId
-second_title: Aspose.Words لمراجع .NET API
-description: SignOptions ملكية. معرف سطر التوقيع. القيمة الافتراضية هي دليل فارغ جميع الأصفار. .
+linktitle: SignatureLineId
+articleTitle: SignatureLineId
+second_title: Aspose.Words لـ .NET
+description: SignOptions SignatureLineId ملكية. معرف سطر التوقيع. القيمة الافتراضية هيدليل فارغ جميع الأصفار.  في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.digitalsignatures/signoptions/signaturelineid/
 ---
 ## SignOptions.SignatureLineId property
 
-معرف سطر التوقيع. القيمة الافتراضية هي **دليل فارغ (جميع الأصفار).** .
+معرف سطر التوقيع. القيمة الافتراضية هي**دليل فارغ (جميع الأصفار).** .
 
 ```csharp
 public Guid SignatureLineId { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 عند التعيين، يتم ربطه[`SignatureLine`](../../../aspose.words.drawing/signatureline/) مع المقابلة[`DigitalSignature`](../../digitalsignature/) .
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إضافة سطر توقيع إلى مستند، ثم التوقيع عليه باستخدام شهادة رقمية.
 
@@ -134,7 +136,5 @@ public Guid SignatureLineId { get; set; }
 ### أنظر أيضا
 
 * class [SignOptions](../)
-* مساحة الاسم [Aspose.Words.DigitalSignatures](../../signoptions/)
+* مساحة الاسم [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * المجسم [Aspose.Words](../../../)
-
-

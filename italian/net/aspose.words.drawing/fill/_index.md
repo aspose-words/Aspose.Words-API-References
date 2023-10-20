@@ -1,7 +1,9 @@
 ---
-title: Class Fill
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Drawing.Fill classe. Rappresenta la formattazione di riempimento per un oggetto.
+title: Fill Class
+linktitle: Fill
+articleTitle: Fill
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Drawing.Fill classe. Rappresenta la formattazione di riempimento per un oggetto in C#.
 type: docs
 weight: 950
 url: /it/net/aspose.words.drawing/fill/
@@ -23,7 +25,6 @@ public class Fill
 | [BackColor](../../aspose.words.drawing/fill/backcolor/) { get; set; } | Ottiene o imposta un oggetto Color che rappresenta il colore di sfondo per il riempimento. |
 | [BackThemeColor](../../aspose.words.drawing/fill/backthemecolor/) { get; set; } | Ottiene o imposta un oggetto ThemeColor che rappresenta il colore di sfondo per il riempimento. |
 | [BackTintAndShade](../../aspose.words.drawing/fill/backtintandshade/) { get; set; } | Ottiene o imposta un valore double che schiarisce o scurisce il colore di sfondo. |
-| [BaseForeColor](../../aspose.words.drawing/fill/baseforecolor/) { get; } |  |
 | [Color](../../aspose.words.drawing/fill/color/) { get; set; } | Ottiene o imposta un oggetto Color che rappresenta il colore di primo piano per il riempimento. |
 | [FillType](../../aspose.words.drawing/fill/filltype/) { get; } | Ottiene un tipo di riempimento. |
 | [ForeColor](../../aspose.words.drawing/fill/forecolor/) { get; set; } | Ottiene o imposta un oggetto Color che rappresenta il colore di primo piano per il riempimento. |
@@ -46,24 +47,24 @@ public class Fill
 
 | Nome | Descrizione |
 | --- | --- |
-| [OneColorGradient](../../aspose.words.drawing/fill/onecolorgradient/#onecolorgradient)(GradientStyle, GradientVariant, double) | Imposta il riempimento specificato su una sfumatura di un colore. |
-| [OneColorGradient](../../aspose.words.drawing/fill/onecolorgradient/#onecolorgradient_1)(Color, GradientStyle, GradientVariant, double) | Imposta il riempimento specificato su una sfumatura di un colore utilizzando il colore specificato. |
-| [Patterned](../../aspose.words.drawing/fill/patterned/#patterned)(PatternType) | Imposta il riempimento specificato su un motivo. |
-| [Patterned](../../aspose.words.drawing/fill/patterned/#patterned_1)(PatternType, Color, Color) | Imposta il riempimento specificato su un motivo. |
-| [PresetTextured](../../aspose.words.drawing/fill/presettextured/)(PresetTexture) | Imposta il riempimento su una texture preimpostata. |
-| [SetImage](../../aspose.words.drawing/fill/setimage/#setimage)(byte[]) | Modifica il tipo di riempimento in immagine singola. |
-| [SetImage](../../aspose.words.drawing/fill/setimage/#setimage_1)(Stream) | Modifica il tipo di riempimento in immagine singola. |
-| [SetImage](../../aspose.words.drawing/fill/setimage/#setimage_2)(string) | Modifica il tipo di riempimento in immagine singola. |
+| [OneColorGradient](../../aspose.words.drawing/fill/onecolorgradient/#onecolorgradient)(*[GradientStyle](../gradientstyle/), [GradientVariant](../gradientvariant/), double*) | Imposta il riempimento specificato su una sfumatura di un colore. |
+| [OneColorGradient](../../aspose.words.drawing/fill/onecolorgradient/#onecolorgradient_1)(*Color, [GradientStyle](../gradientstyle/), [GradientVariant](../gradientvariant/), double*) | Imposta il riempimento specificato su una sfumatura di un colore utilizzando il colore specificato. |
+| [Patterned](../../aspose.words.drawing/fill/patterned/#patterned)(*[PatternType](../patterntype/)*) | Imposta il riempimento specificato su un motivo. |
+| [Patterned](../../aspose.words.drawing/fill/patterned/#patterned_1)(*[PatternType](../patterntype/), Color, Color*) | Imposta il riempimento specificato su un motivo. |
+| [PresetTextured](../../aspose.words.drawing/fill/presettextured/)(*[PresetTexture](../presettexture/)*) | Imposta il riempimento su una texture preimpostata. |
+| [SetImage](../../aspose.words.drawing/fill/setimage/#setimage)(*byte[]*) | Modifica il tipo di riempimento in immagine singola. |
+| [SetImage](../../aspose.words.drawing/fill/setimage/#setimage_1)(*Stream*) | Modifica il tipo di riempimento in immagine singola. |
+| [SetImage](../../aspose.words.drawing/fill/setimage/#setimage_2)(*string*) | Modifica il tipo di riempimento in immagine singola. |
 | [Solid](../../aspose.words.drawing/fill/solid/#solid)() | Imposta il riempimento su un colore uniforme. |
-| [Solid](../../aspose.words.drawing/fill/solid/#solid_1)(Color) | Imposta il riempimento su un colore uniforme specificato. |
-| [TwoColorGradient](../../aspose.words.drawing/fill/twocolorgradient/#twocolorgradient)(GradientStyle, GradientVariant) | Imposta il riempimento specificato su una sfumatura a due colori. |
-| [TwoColorGradient](../../aspose.words.drawing/fill/twocolorgradient/#twocolorgradient_1)(Color, Color, GradientStyle, GradientVariant) | Imposta il riempimento specificato su una sfumatura a due colori. |
+| [Solid](../../aspose.words.drawing/fill/solid/#solid_1)(*Color*) | Imposta il riempimento su un colore uniforme specificato. |
+| [TwoColorGradient](../../aspose.words.drawing/fill/twocolorgradient/#twocolorgradient)(*[GradientStyle](../gradientstyle/), [GradientVariant](../gradientvariant/)*) | Imposta il riempimento specificato su una sfumatura a due colori. |
+| [TwoColorGradient](../../aspose.words.drawing/fill/twocolorgradient/#twocolorgradient_1)(*Color, Color, [GradientStyle](../gradientstyle/), [GradientVariant](../gradientvariant/)*) | Imposta il riempimento specificato su una sfumatura a due colori. |
 
-### Osservazioni
+## Osservazioni
 
 Usa il[`Fill`](../shapebase/fill/) O[`Fill`](../../aspose.words/font/fill/) property per accedere alle proprietà di riempimento di un oggetto. Non si creano istanze di`Fill` classe direttamente.
 
-### Esempi
+## Esempi
 
 Mostra come riempire una forma con un colore a tinta unita.
 
@@ -99,5 +100,3 @@ doc.Save(ArtifactsDir + "Shape.Fill.docx");
 
 * spazio dei nomi [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * assemblea [Aspose.Words](../../)
-
-

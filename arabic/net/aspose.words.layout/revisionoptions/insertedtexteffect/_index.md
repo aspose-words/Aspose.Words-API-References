@@ -1,7 +1,9 @@
 ---
 title: RevisionOptions.InsertedTextEffect
-second_title: Aspose.Words لمراجع .NET API
-description: RevisionOptions ملكية. يسمح بتحديد التأثير الذي سيتم تطبيقه على المحتوى المدرجInsertion . القيمة الافتراضية هيUnderline .
+linktitle: InsertedTextEffect
+articleTitle: InsertedTextEffect
+second_title: Aspose.Words لـ .NET
+description: RevisionOptions InsertedTextEffect ملكية. يسمح بتحديد التأثير الذي سيتم تطبيقه على المحتوى المدرجInsertion . القيمة الافتراضية هيUnderline  في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.layout/revisionoptions/insertedtexteffect/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.layout/revisionoptions/insertedtexteffect/
 public RevisionTextEffect InsertedTextEffect { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 قيمHidden وDoubleStrikeThrough غير مسموح به وسيتسببArgumentOutOfRangeException.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعديل مظهر المراجعات.
 
@@ -70,7 +72,5 @@ doc.Save(ArtifactsDir + "Revision.RevisionOptions.pdf");
 
 * enum [RevisionTextEffect](../../revisiontexteffect/)
 * class [RevisionOptions](../)
-* مساحة الاسم [Aspose.Words.Layout](../../revisionoptions/)
+* مساحة الاسم [Aspose.Words.Layout](../../../aspose.words.layout/)
 * المجسم [Aspose.Words](../../../)
-
-

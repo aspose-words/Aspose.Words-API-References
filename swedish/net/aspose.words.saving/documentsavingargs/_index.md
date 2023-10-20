@@ -1,7 +1,9 @@
 ---
-title: Class DocumentSavingArgs
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Saving.DocumentSavingArgs klass. Ett argument passerat inNotify .
+title: DocumentSavingArgs Class
+linktitle: DocumentSavingArgs
+articleTitle: DocumentSavingArgs
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Saving.DocumentSavingArgs klass. Ett argument passerat inNotify  i C#.
 type: docs
 weight: 4950
 url: /sv/net/aspose.words.saving/documentsavingargs/
@@ -26,5 +28,3 @@ public sealed class DocumentSavingArgs
 
 * namnutrymme [Aspose.Words.Saving](../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../)
-
-

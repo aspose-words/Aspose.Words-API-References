@@ -1,7 +1,9 @@
 ---
 title: BorderCollection.GetEnumerator
-second_title: Aspose.Words per .NET API Reference
-description: BorderCollection metodo. Restituisce un oggetto enumeratore che può essere utilizzato per scorrere tutti i bordi della raccolta.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words per .NET
+description: BorderCollection GetEnumerator metodo. Restituisce un oggetto enumeratore che può essere utilizzato per scorrere tutti i bordi della raccolta in C#.
 type: docs
 weight: 160
 url: /it/net/aspose.words/bordercollection/getenumerator/
@@ -14,7 +16,7 @@ Restituisce un oggetto enumeratore che può essere utilizzato per scorrere tutti
 public IEnumerator<Border> GetEnumerator()
 ```
 
-### Esempi
+## Esempi
 
 Mostra come scorrere e modificare tutti i bordi in un oggetto in formato paragrafo.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "BorderCollection.GetBordersEnumerator.docx");
 
 * class [Border](../../border/)
 * class [BorderCollection](../)
-* spazio dei nomi [Aspose.Words](../../bordercollection/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

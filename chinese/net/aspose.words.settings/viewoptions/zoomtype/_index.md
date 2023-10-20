@@ -1,7 +1,9 @@
 ---
 title: ViewOptions.ZoomType
-second_title: Aspose.Words for .NET API 参考
-description: ViewOptions 财产. 获取或设置基于窗口大小的缩放值
+linktitle: ZoomType
+articleTitle: ZoomType
+second_title: 用于 .NET 的 Aspose.Words
+description: ViewOptions ZoomType 财产. 获取或设置基于窗口大小的缩放值 在 C#.
 type: docs
 weight: 60
 url: /zh/net/aspose.words.settings/viewoptions/zoomtype/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.settings/viewoptions/zoomtype/
 public ZoomType ZoomType { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何设置自定义缩放系数，旧版本的 Microsoft Word 将在加载时应用于文档。
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "ViewOptions.SetZoomType.doc");
 
 * enum [ZoomType](../../zoomtype/)
 * class [ViewOptions](../)
-* 命名空间 [Aspose.Words.Settings](../../viewoptions/)
+* 命名空间 [Aspose.Words.Settings](../../../aspose.words.settings/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Odso.RecipientDatas
-second_title: Aspose.Words لمراجع .NET API
-description: Odso ملكية. الحصول على أو تعيين مجموعة من الكائنات التي تحدد التضمين/الاستبعاد للسجلات الفردية في دمج المراسلات. لا يتم استخدام هذا الكائن أبدًاباطل .
+linktitle: RecipientDatas
+articleTitle: RecipientDatas
+second_title: Aspose.Words لـ .NET
+description: Odso RecipientDatas ملكية. الحصول على أو تعيين مجموعة من الكائنات التي تحدد التضمين/الاستبعاد للسجلات الفردية في دمج المراسلات. لا يتم استخدام هذا الكائن أبدًاباطل  في C#.
 type: docs
 weight: 70
 url: /ar/net/aspose.words.settings/odso/recipientdatas/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.settings/odso/recipientdatas/
 public OdsoRecipientDataCollection RecipientDatas { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الوصول إلى مجموعة البيانات التي تحدد سجلات مصدر بيانات الدمج التي سيتم استبعادها من خلال دمج البريد.
 
@@ -55,7 +57,5 @@ Assert.AreEqual(0, dataCollection.Count);
 
 * class [OdsoRecipientDataCollection](../../odsorecipientdatacollection/)
 * class [Odso](../)
-* مساحة الاسم [Aspose.Words.Settings](../../odso/)
+* مساحة الاسم [Aspose.Words.Settings](../../../aspose.words.settings/)
 * المجسم [Aspose.Words](../../../)
-
-

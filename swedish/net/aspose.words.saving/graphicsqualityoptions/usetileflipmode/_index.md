@@ -1,7 +1,9 @@
 ---
 title: GraphicsQualityOptions.UseTileFlipMode
-second_title: Aspose.Words för .NET API Referens
-description: GraphicsQualityOptions fast egendom. Hämtar eller ställer in en flagga som indikerar om WrapMode är TileFlipXY.
+linktitle: UseTileFlipMode
+articleTitle: UseTileFlipMode
+second_title: Aspose.Words för .NET
+description: GraphicsQualityOptions UseTileFlipMode fast egendom. Hämtar eller ställer in en flagga som indikerar om WrapMode är TileFlipXY i C#.
 type: docs
 weight: 80
 url: /sv/net/aspose.words.saving/graphicsqualityoptions/usetileflipmode/
@@ -14,7 +16,7 @@ Hämtar eller ställer in en flagga som indikerar om WrapMode är TileFlipXY.
 public bool UseTileFlipMode { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 DeWrapMode anger hur en struktur eller gradient är sida vid sida när den är mindre än området som fylls.
 
@@ -22,7 +24,7 @@ Använder som standardTile (anger plattsättning utan att vända). Detta orsakar
 
 Den här egenskapen gör det möjligt att byta WrapMode tillTileFlipXY (anger att brickor vänds horisontellt när du flyttar längs en rad och vänds vertikalt när du flyttar längs en kolumn).
 
-### Exempel
+## Exempel
 
 Visar hur man förhindrar att den vita linjen visas vid rendering med hög upplösning.
 
@@ -42,7 +44,5 @@ renderer.Save(ArtifactsDir + "ImageSaveOptions.UseTileFlipMode.png", saveOptions
 ### Se även
 
 * class [GraphicsQualityOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../graphicsqualityoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

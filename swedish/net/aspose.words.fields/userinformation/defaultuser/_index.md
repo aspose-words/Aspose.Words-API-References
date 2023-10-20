@@ -1,7 +1,9 @@
 ---
 title: UserInformation.DefaultUser
-second_title: Aspose.Words för .NET API Referens
-description: UserInformation fast egendom. Standardanvändarinformation.
+linktitle: DefaultUser
+articleTitle: DefaultUser
+second_title: Aspose.Words för .NET
+description: UserInformation DefaultUser fast egendom. Standardanvändarinformation i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.fields/userinformation/defaultuser/
@@ -14,11 +16,11 @@ Standardanvändarinformation.
 public static UserInformation DefaultUser { get; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Använd[`CurrentUser`](../../fieldoptions/currentuser/) egenskap för att ange användarinformation för enstaka dokument.
 
-### Exempel
+## Exempel
 
 Visar hur du ställer in användarinformation och visar dem med hjälp av fält.
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "FieldOptions.CurrentUser.docx");
 ### Se även
 
 * class [UserInformation](../)
-* namnutrymme [Aspose.Words.Fields](../../userinformation/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

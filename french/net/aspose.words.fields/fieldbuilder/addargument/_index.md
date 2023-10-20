@@ -1,12 +1,14 @@
 ---
 title: FieldBuilder.AddArgument
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldBuilder méthode. Ajoute largument dun champ.
+linktitle: AddArgument
+articleTitle: AddArgument
+second_title: Aspose.Words pour .NET
+description: FieldBuilder AddArgument méthode. Ajoute largument dun champ en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.fields/fieldbuilder/addargument/
 ---
-## AddArgument(string) {#addargument_4}
+## AddArgument(*string*) {#addargument_4}
 
 Ajoute l'argument d'un champ.
 
@@ -18,7 +20,7 @@ public FieldBuilder AddArgument(string argument)
 | --- | --- | --- |
 | argument | String | La valeur de l'argument. |
 
-### Exemples
+## Exemples
 
 Montre comment construire des champs à l’aide d’un générateur de champs, puis les insérer dans le document.
 
@@ -101,12 +103,12 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 ### Voir également
 
 * class [FieldBuilder](../)
-* espace de noms [Aspose.Words.Fields](../../fieldbuilder/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
 
 ---
 
-## AddArgument(int) {#addargument_3}
+## AddArgument(*int*) {#addargument_3}
 
 Ajoute l'argument d'un champ.
 
@@ -118,7 +120,7 @@ public FieldBuilder AddArgument(int argument)
 | --- | --- | --- |
 | argument | Int32 | La valeur de l'argument. |
 
-### Exemples
+## Exemples
 
 Montre comment construire des champs à l’aide d’un générateur de champs, puis les insérer dans le document.
 
@@ -201,12 +203,12 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 ### Voir également
 
 * class [FieldBuilder](../)
-* espace de noms [Aspose.Words.Fields](../../fieldbuilder/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
 
 ---
 
-## AddArgument(double) {#addargument_2}
+## AddArgument(*double*) {#addargument_2}
 
 Ajoute l'argument d'un champ.
 
@@ -218,7 +220,7 @@ public FieldBuilder AddArgument(double argument)
 | --- | --- | --- |
 | argument | Double | La valeur de l'argument. |
 
-### Exemples
+## Exemples
 
 Montre comment construire des champs à l’aide d’un générateur de champs, puis les insérer dans le document.
 
@@ -301,12 +303,12 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 ### Voir également
 
 * class [FieldBuilder](../)
-* espace de noms [Aspose.Words.Fields](../../fieldbuilder/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
 
 ---
 
-## AddArgument(FieldBuilder) {#addargument_1}
+## AddArgument(*[FieldBuilder](../)*) {#addargument_1}
 
 Ajoute un champ enfant représenté par un autre[`FieldBuilder`](../) au code du champ.
 
@@ -314,11 +316,11 @@ Ajoute un champ enfant représenté par un autre[`FieldBuilder`](../) au code du
 public FieldBuilder AddArgument(FieldBuilder argument)
 ```
 
-### Remarques
+## Remarques
 
 Cette surcharge est utilisée lorsque l'argument est constitué d'un seul champ enfant.
 
-### Exemples
+## Exemples
 
 Montre comment construire des champs à l’aide d’un générateur de champs, puis les insérer dans le document.
 
@@ -401,12 +403,12 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 ### Voir également
 
 * class [FieldBuilder](../)
-* espace de noms [Aspose.Words.Fields](../../fieldbuilder/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
 
 ---
 
-## AddArgument(FieldArgumentBuilder) {#addargument}
+## AddArgument(*[FieldArgumentBuilder](../../fieldargumentbuilder/)*) {#addargument}
 
 Ajoute l'argument d'un champ représenté par[`FieldArgumentBuilder`](../../fieldargumentbuilder/) au code du champ.
 
@@ -414,11 +416,11 @@ Ajoute l'argument d'un champ représenté par[`FieldArgumentBuilder`](../../fiel
 public FieldBuilder AddArgument(FieldArgumentBuilder argument)
 ```
 
-### Remarques
+## Remarques
 
 Cette surcharge est utilisée lorsque l'argument est constitué d'un mélange de différentes parties telles que des champs enfants, des nœuds et du texte brut.
 
-### Exemples
+## Exemples
 
 Montre comment construire des champs à l’aide d’un générateur de champs, puis les insérer dans le document.
 
@@ -502,7 +504,5 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 
 * class [FieldArgumentBuilder](../../fieldargumentbuilder/)
 * class [FieldBuilder](../)
-* espace de noms [Aspose.Words.Fields](../../fieldbuilder/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

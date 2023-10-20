@@ -1,7 +1,9 @@
 ---
 title: GeneralFormatCollection.Count
-second_title: Référence de l'API Aspose.Words pour .NET
-description: GeneralFormatCollection propriété. Obtient le nombre total déléments de la collection.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words pour .NET
+description: GeneralFormatCollection Count propriété. Obtient le nombre total déléments de la collection en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.fields/generalformatcollection/count/
@@ -14,7 +16,7 @@ Obtient le nombre total d'éléments de la collection.
 public int Count { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment formater les résultats des champs.
 
@@ -78,7 +80,5 @@ Assert.AreEqual(0, format.GeneralFormats.Count);
 ### Voir également
 
 * class [GeneralFormatCollection](../)
-* espace de noms [Aspose.Words.Fields](../../generalformatcollection/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: CommentRangeStart.CommentRangeStart
-second_title: Справочник по API Aspose.Words для .NET
-description: CommentRangeStart строитель. Инициализирует новый экземпляр этого класса.
+title: CommentRangeStart
+linktitle: CommentRangeStart
+articleTitle: CommentRangeStart
+second_title: Aspose.Words для .NET
+description: CommentRangeStart строитель. Инициализирует новый экземпляр этого класса на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words/commentrangestart/commentrangestart/
@@ -19,13 +21,13 @@ public CommentRangeStart(DocumentBase doc, int id)
 | doc | DocumentBase | Документ владельца. |
 | id | Int32 | Идентификатор комментария, с которым связан этот объект. |
 
-### Примечания
+## Примечания
 
 Когда[`CommentRangeStart`](../) создан, он принадлежит указанному документу, но еще не является частью документа и[`ParentNode`](../../node/parentnode/) является`нулевой`.
 
 Чтобы добавить[`CommentRangeStart`](../) к документу используйте InsertAfter или InsertBefore в абзаце, в который вы хотите вставить комментарий.
 
-### Примеры
+## Примеры
 
 Показывает, как распечатать содержимое всех комментариев и их диапазоны комментариев с помощью посетителя документов.
 
@@ -187,7 +189,5 @@ public class CommentInfoPrinter : DocumentVisitor
 
 * class [DocumentBase](../../documentbase/)
 * class [CommentRangeStart](../)
-* пространство имен [Aspose.Words](../../commentrangestart/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

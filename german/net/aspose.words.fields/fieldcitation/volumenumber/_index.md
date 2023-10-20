@@ -1,7 +1,9 @@
 ---
 title: FieldCitation.VolumeNumber
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldCitation eigendom. Ruft eine mit dem Zitat verknüpfte Bandnummer ab oder legt diese fest.
+linktitle: VolumeNumber
+articleTitle: VolumeNumber
+second_title: Aspose.Words für .NET
+description: FieldCitation VolumeNumber eigendom. Ruft eine mit dem Zitat verknüpfte Bandnummer ab oder legt diese fest in C#.
 type: docs
 weight: 110
 url: /de/net/aspose.words.fields/fieldcitation/volumenumber/
@@ -14,7 +16,7 @@ Ruft eine mit dem Zitat verknüpfte Bandnummer ab oder legt diese fest.
 public string VolumeNumber { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit den Feldern CITATION und BIBLIOGRAPHY gearbeitet wird.
 
@@ -68,7 +70,5 @@ doc.Save(ArtifactsDir + "Field.CITATION.docx");
 ### Siehe auch
 
 * class [FieldCitation](../)
-* namensraum [Aspose.Words.Fields](../../fieldcitation/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

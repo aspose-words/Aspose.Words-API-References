@@ -1,9 +1,11 @@
 ---
 title: CellFormat.VerticalMerge
-second_title: Aspose.Words för .NET API Referens
-description: CellFormat fast egendom. Anger hur cellen sammanfogas med andra celler vertikalt.
+linktitle: VerticalMerge
+articleTitle: VerticalMerge
+second_title: Aspose.Words för .NET
+description: CellFormat VerticalMerge fast egendom. Anger hur cellen sammanfogas med andra celler vertikalt i C#.
 type: docs
-weight: 130
+weight: 120
 url: /sv/net/aspose.words.tables/cellformat/verticalmerge/
 ---
 ## CellFormat.VerticalMerge property
@@ -14,13 +16,13 @@ Anger hur cellen sammanfogas med andra celler vertikalt.
 public CellMerge VerticalMerge { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Celler kan bara slås samman vertikalt om deras vänstra och högra gränser är identiska.
 
 När celler sammanfogas vertikalt, konsolideras visningsområdena för de sammanslagna cellerna. Det konsoliderade området används för att visa innehållet i den första vertikalt sammanslagna cellen och alla andra vertikalt sammanslagna celler måste vara tomma.
 
-### Exempel
+## Exempel
 
 Skriver ut den horisontella och vertikala sammanslagningstypen för en cell.
 
@@ -89,7 +91,5 @@ doc.Save(ArtifactsDir + "CellFormat.VerticalMerge.docx");
 
 * enum [CellMerge](../../cellmerge/)
 * class [CellFormat](../)
-* namnutrymme [Aspose.Words.Tables](../../cellformat/)
+* namnutrymme [Aspose.Words.Tables](../../../aspose.words.tables/)
 * hopsättning [Aspose.Words](../../../)
-
-

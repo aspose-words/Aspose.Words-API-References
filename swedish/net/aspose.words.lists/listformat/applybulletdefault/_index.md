@@ -1,7 +1,9 @@
 ---
 title: ListFormat.ApplyBulletDefault
-second_title: Aspose.Words för .NET API Referens
-description: ListFormat metod. Startar en ny standard punktlista och tillämpar den på stycket.
+linktitle: ApplyBulletDefault
+articleTitle: ApplyBulletDefault
+second_title: Aspose.Words för .NET
+description: ListFormat ApplyBulletDefault metod. Startar en ny standard punktlista och tillämpar den på stycket i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.lists/listformat/applybulletdefault/
@@ -14,11 +16,11 @@ Startar en ny standard punktlista och tillämpar den på stycket.
 public void ApplyBulletDefault()
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Detta är en genvägsmetod som skapar en ny lista med standardmallen bulleted , tillämpar den på stycket och väljer den första listnivån.
 
-### Exempel
+## Exempel
 
 Visar hur man skapar punktlistor och numrerade listor.
 
@@ -103,7 +105,5 @@ doc.Save(ArtifactsDir + "Lists.ApplyDefaultBulletsAndNumbers.docx");
 ### Se även
 
 * class [ListFormat](../)
-* namnutrymme [Aspose.Words.Lists](../../listformat/)
+* namnutrymme [Aspose.Words.Lists](../../../aspose.words.lists/)
 * hopsättning [Aspose.Words](../../../)
-
-

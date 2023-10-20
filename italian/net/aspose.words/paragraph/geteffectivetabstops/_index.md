@@ -1,9 +1,11 @@
 ---
 title: Paragraph.GetEffectiveTabStops
-second_title: Aspose.Words per .NET API Reference
-description: Paragraph metodo. Restituisce larray di tutti i punti di tabulazione applicati a questo paragrafo inclusi quelli applicati indirettamente da stili o elenchi.
+linktitle: GetEffectiveTabStops
+articleTitle: GetEffectiveTabStops
+second_title: Aspose.Words per .NET
+description: Paragraph GetEffectiveTabStops metodo. Restituisce larray di tutti i punti di tabulazione applicati a questo paragrafo inclusi quelli applicati indirettamente da stili o elenchi in C#.
 type: docs
-weight: 270
+weight: 250
 url: /it/net/aspose.words/paragraph/geteffectivetabstops/
 ---
 ## Paragraph.GetEffectiveTabStops method
@@ -14,7 +16,7 @@ Restituisce l'array di tutti i punti di tabulazione applicati a questo paragrafo
 public TabStop[] GetEffectiveTabStops()
 ```
 
-### Esempi
+## Esempi
 
 Mostra come impostare tabulazioni personalizzate per un paragrafo.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "Paragraph.TabStops.docx");
 
 * class [TabStop](../../tabstop/)
 * class [Paragraph](../)
-* spazio dei nomi [Aspose.Words](../../paragraph/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

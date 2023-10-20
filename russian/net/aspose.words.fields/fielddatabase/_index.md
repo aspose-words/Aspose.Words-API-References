@@ -1,7 +1,9 @@
 ---
-title: Class FieldDatabase
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Fields.FieldDatabase сорт. Реализует поле БАЗЫ ДАННЫХ.
+title: FieldDatabase Class
+linktitle: FieldDatabase
+articleTitle: FieldDatabase
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Fields.FieldDatabase сорт. Реализует поле БАЗЫ ДАННЫХ на С#.
 type: docs
 weight: 1740
 url: /ru/net/aspose.words.fields/fielddatabase/
@@ -51,17 +53,17 @@ public class FieldDatabase : Field
 | Имя | Описание |
 | --- | --- |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Возвращает текст между началом поля и разделителем поля (или концом поля, если разделителя нет). Включены как код поля, так и результат поля дочерних полей. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Возвращает текст между началом поля и разделителем полей (или концом поля, если разделителя нет). |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | Возвращает текст между началом поля и разделителем полей (или концом поля, если разделителя нет). |
 | [Remove](../../aspose.words.fields/field/remove/)() | Удаляет поле из документа. Возвращает узел сразу после поля. Если конец поля является последним дочерним его родительского узла, возвращает его родительский абзац. Если поле уже удалено, возвращается`нулевой` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | Выполняет отсоединение поля. |
 | [Update](../../aspose.words.fields/field/update/)() | Выполняет обновление поля. Выдает, если поле уже обновляется. |
-| [Update](../../aspose.words.fields/field/update/)(bool) | Выполняет обновление поля. Выдает, если поле уже обновляется. |
+| [Update](../../aspose.words.fields/field/update/)(*bool*) | Выполняет обновление поля. Выдает, если поле уже обновляется. |
 
-### Примечания
+## Примечания
 
 Вставляет результаты запроса к базе данных в таблицу WordprocessingML.
 
-### Примеры
+## Примеры
 
 Показывает, как извлечь данные из базы данных и вставить их как поле в документ.
 
@@ -116,5 +118,3 @@ doc.Save(ArtifactsDir + "Field.DATABASE.docx");
 * class [Field](../field/)
 * пространство имен [Aspose.Words.Fields](../../aspose.words.fields/)
 * сборка [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Font.Shading
-second_title: Referencia de API de Aspose.Words para .NET
-description: Font propiedad. Devuelve unShading objeto que hace referencia al formato de sombreado de la fuente.
+linktitle: Shading
+articleTitle: Shading
+second_title: Aspose.Words para .NET
+description: Font Shading propiedad. Devuelve unShading objeto que hace referencia al formato de sombreado de la fuente en C#.
 type: docs
 weight: 320
 url: /es/net/aspose.words/font/shading/
@@ -14,7 +16,7 @@ Devuelve un[`Shading`](../../shading/) objeto que hace referencia al formato de 
 public Shading Shading { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo aplicar sombreado al texto creado por un generador de documentos.
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "Font.Shading.docx");
 
 * class [Shading](../../shading/)
 * class [Font](../)
-* espacio de nombres [Aspose.Words](../../font/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

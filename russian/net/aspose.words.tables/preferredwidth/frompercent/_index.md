@@ -1,7 +1,9 @@
 ---
 title: PreferredWidth.FromPercent
-second_title: Справочник по API Aspose.Words для .NET
-description: PreferredWidth метод. Метод создания который возвращает новый экземпляр представляющий предпочтительную ширину указанную в процентах.
+linktitle: FromPercent
+articleTitle: FromPercent
+second_title: Aspose.Words для .NET
+description: PreferredWidth FromPercent метод. Метод создания который возвращает новый экземпляр представляющий предпочтительную ширину указанную в процентах на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.tables/preferredwidth/frompercent/
@@ -18,7 +20,7 @@ public static PreferredWidth FromPercent(double percent)
 | --- | --- | --- |
 | percent | Double | Значение должно быть от 0 до 100. |
 
-### Примеры
+## Примеры
 
 Показывает, как настроить автоматическое размещение таблицы на 50 % ширины страницы.
 
@@ -77,7 +79,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertCellsWithPreferredWidths.docx");
 ### Смотрите также
 
 * class [PreferredWidth](../)
-* пространство имен [Aspose.Words.Tables](../../preferredwidth/)
+* пространство имен [Aspose.Words.Tables](../../../aspose.words.tables/)
 * сборка [Aspose.Words](../../../)
-
-

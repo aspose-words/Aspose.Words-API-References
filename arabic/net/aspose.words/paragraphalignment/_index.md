@@ -1,7 +1,9 @@
 ---
-title: Enum ParagraphAlignment
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.ParagraphAlignment تعداد. يحدد محاذاة النص في الفقرة.
+title: ParagraphAlignment Enum
+linktitle: ParagraphAlignment
+articleTitle: ParagraphAlignment
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.ParagraphAlignment تعداد. يحدد محاذاة النص في الفقرة في C#.
 type: docs
 weight: 4400
 url: /ar/net/aspose.words/paragraphalignment/
@@ -29,7 +31,7 @@ public enum ParagraphAlignment
 | ThaiDistributed | `9` | التايلاندية فقط. تم تبرير النص من خلال تحسين اللغة التايلاندية. |
 | MathElementCenterAsGroup | `10` | عنصر الرياضيات الوحيد في السطر، محاذٍ كـ "توسيط كمجموعة". |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء مستند Aspose.Words يدويًا.
 
@@ -80,5 +82,3 @@ doc.Save(ArtifactsDir + "Section.CreateManually.docx");
 
 * مساحة الاسم [Aspose.Words](../../aspose.words/)
 * المجسم [Aspose.Words](../../)
-
-

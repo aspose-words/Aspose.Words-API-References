@@ -1,7 +1,9 @@
 ---
 title: HtmlFixedSaveOptions.ResourceSavingCallback
-second_title: Aspose.Words لمراجع .NET API
-description: HtmlFixedSaveOptions ملكية. يسمح بالتحكم في كيفية حفظ الموارد الصور والخطوط وCSS عند تصدير مستند إلى تنسيق Html لصفحة ثابتة.
+linktitle: ResourceSavingCallback
+articleTitle: ResourceSavingCallback
+second_title: Aspose.Words لـ .NET
+description: HtmlFixedSaveOptions ResourceSavingCallback ملكية. يسمح بالتحكم في كيفية حفظ الموارد الصور والخطوط وCSS عند تصدير مستند إلى تنسيق Html لصفحة ثابتة في C#.
 type: docs
 weight: 130
 url: /ar/net/aspose.words.saving/htmlfixedsaveoptions/resourcesavingcallback/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.saving/htmlfixedsaveoptions/resourcesavingcallback/
 public IResourceSavingCallback ResourceSavingCallback { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام رد اتصال لطباعة معرفات URI للموارد الخارجية التي تم إنشاؤها أثناء تحويل مستند إلى HTML.
 
@@ -94,7 +96,5 @@ private class ResourceUriPrinter : IResourceSavingCallback
 
 * interface [IResourceSavingCallback](../../iresourcesavingcallback/)
 * class [HtmlFixedSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../htmlfixedsaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

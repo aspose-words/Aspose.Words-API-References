@@ -1,7 +1,9 @@
 ---
 title: XamlFlowSaveOptions.ImagesFolderAlias
-second_title: Aspose.Words for .NET API 参考
-description: XamlFlowSaveOptions 财产. 指定用于构建写入 XAML 文档的图像 URI 的文件夹名称 默认为空字符串
+linktitle: ImagesFolderAlias
+articleTitle: ImagesFolderAlias
+second_title: 用于 .NET 的 Aspose.Words
+description: XamlFlowSaveOptions ImagesFolderAlias 财产. 指定用于构建写入 XAML 文档的图像 URI 的文件夹名称 默认为空字符串 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.saving/xamlflowsaveoptions/imagesfolderalias/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.saving/xamlflowsaveoptions/imagesfolderalias/
 public string ImagesFolderAlias { get; set; }
 ```
 
-### 评论
+## 评论
 
 当您保存一个[`Document`](../../../aspose.words/document/)在 XAML 格式中，Aspose.Words 需要将文档中嵌入的所有 图像保存为独立文件。[`ImagesFolder`](../imagesfolder/) 允许您指定图像的保存位置`ImagesFolderAlias` 允许指定如何构建图像 URI。
 
@@ -24,7 +26,7 @@ public string ImagesFolderAlias { get; set; }
 
 如果`ImagesFolderAlias`被设定为 '。' （点），那么无论其他选项如何，图像文件名 将被写入 XAML，不带路径。
 
-### 例子
+## 例子
 
 演示如何打印在将文档转换为流格式 .xaml 时创建的链接图像的文件名。
 
@@ -90,7 +92,5 @@ private class ImageUriPrinter : IImageSavingCallback
 ### 也可以看看
 
 * class [XamlFlowSaveOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../xamlflowsaveoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

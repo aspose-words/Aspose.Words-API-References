@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.ContentStatus
-second_title: Aspose.Words för .NET API Referens
-description: BuiltInDocumentProperties fast egendom. Hämtar eller ställer inContentStatus av dokumentet.
+linktitle: ContentStatus
+articleTitle: ContentStatus
+second_title: Aspose.Words för .NET
+description: BuiltInDocumentProperties ContentStatus fast egendom. Hämtar eller ställer inContentStatus av dokumentet i C#.
 type: docs
 weight: 80
 url: /sv/net/aspose.words.properties/builtindocumentproperties/contentstatus/
@@ -14,7 +16,7 @@ Hämtar eller ställer inContentStatus av dokumentet.
 public string ContentStatus { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med dokumentegenskaper i kategorin "Innehåll".
 
@@ -124,7 +126,5 @@ private class LineCounter
 ### Se även
 
 * class [BuiltInDocumentProperties](../)
-* namnutrymme [Aspose.Words.Properties](../../builtindocumentproperties/)
+* namnutrymme [Aspose.Words.Properties](../../../aspose.words.properties/)
 * hopsättning [Aspose.Words](../../../)
-
-

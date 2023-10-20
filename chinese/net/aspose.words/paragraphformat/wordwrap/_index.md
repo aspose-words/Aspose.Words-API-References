@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.WordWrap
-second_title: Aspose.Words for .NET API 参考
-description: ParagraphFormat 财产. 如果此属性是错误的 单词中间的拉丁文本可以换行 for 当前段落否则拉丁文本将被整个单词包围
+linktitle: WordWrap
+articleTitle: WordWrap
+second_title: 用于 .NET 的 Aspose.Words
+description: ParagraphFormat WordWrap 财产. 如果此属性是错误的 单词中间的拉丁文本可以换行 for 当前段落否则拉丁文本将被整个单词包围 在 C#.
 type: docs
 weight: 410
 url: /zh/net/aspose.words/paragraphformat/wordwrap/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/paragraphformat/wordwrap/
 public bool WordWrap { get; set; }
 ```
 
-### 例子
+## 例子
 
 展示如何设置亚洲版式的特殊属性。
 
@@ -32,7 +34,5 @@ doc.Save(ArtifactsDir + "ParagraphFormat.AsianTypographyProperties.docx");
 ### 也可以看看
 
 * class [ParagraphFormat](../)
-* 命名空间 [Aspose.Words](../../paragraphformat/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

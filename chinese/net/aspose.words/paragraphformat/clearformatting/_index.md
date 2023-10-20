@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.ClearFormatting
-second_title: Aspose.Words for .NET API 参考
-description: ParagraphFormat 方法. 重置为默认段落格式
+linktitle: ClearFormatting
+articleTitle: ClearFormatting
+second_title: 用于 .NET 的 Aspose.Words
+description: ParagraphFormat ClearFormatting 方法. 重置为默认段落格式 在 C#.
 type: docs
 weight: 420
 url: /zh/net/aspose.words/paragraphformat/clearformatting/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words/paragraphformat/clearformatting/
 public void ClearFormatting()
 ```
 
-### 评论
+## 评论
 
 默认段落格式为普通样式，左对齐，无缩进， 无间距，无边框，无底纹。
 
-### 例子
+## 例子
 
 演示如何将一个列表嵌套在另一个列表中。
 
@@ -72,7 +74,5 @@ builder.Document.Save(ArtifactsDir + "Lists.NestedLists.docx");
 ### 也可以看看
 
 * class [ParagraphFormat](../)
-* 命名空间 [Aspose.Words](../../paragraphformat/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

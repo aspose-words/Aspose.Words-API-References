@@ -1,7 +1,9 @@
 ---
-title: FieldToa.FieldToa
-second_title: Aspose.Words لمراجع .NET API
-description: FieldToa البناء. Default_Constructor
+title: FieldToa
+linktitle: FieldToa
+articleTitle: FieldToa
+second_title: Aspose.Words لـ .NET
+description: FieldToa البناء. Default_Constructor في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fields/fieldtoa/fieldtoa/
@@ -17,7 +19,5 @@ public FieldToa()
 ### أنظر أيضا
 
 * class [FieldToa](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldtoa/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

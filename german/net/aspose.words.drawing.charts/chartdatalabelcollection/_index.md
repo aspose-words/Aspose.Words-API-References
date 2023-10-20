@@ -1,7 +1,9 @@
 ---
-title: Class ChartDataLabelCollection
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Drawing.Charts.ChartDataLabelCollection klas. Stellt eine Sammlung von darChartDataLabel .
+title: ChartDataLabelCollection Class
+linktitle: ChartDataLabelCollection
+articleTitle: ChartDataLabelCollection
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Drawing.Charts.ChartDataLabelCollection klas. Stellt eine Sammlung von darChartDataLabel  in C#.
 type: docs
 weight: 680
 url: /de/net/aspose.words.drawing.charts/chartdatalabelcollection/
@@ -42,7 +44,7 @@ public class ChartDataLabelCollection : IEnumerable<ChartDataLabel>
 | [ClearFormat](../../aspose.words.drawing.charts/chartdatalabelcollection/clearformat/)() | Löscht das gesamte Format[`ChartDataLabel`](../chartdatalabel/) in dieser Sammlung. |
 | [GetEnumerator](../../aspose.words.drawing.charts/chartdatalabelcollection/getenumerator/)() | Gibt ein Enumeratorobjekt zurück. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Beschriftungen auf Datenpunkte in einem Liniendiagramm angewendet werden.
 
@@ -122,5 +124,3 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
 * class [ChartDataLabel](../chartdatalabel/)
 * namensraum [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../)
-
-

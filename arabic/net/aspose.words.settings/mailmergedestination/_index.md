@@ -1,7 +1,9 @@
 ---
-title: Enum MailMergeDestination
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Settings.MailMergeDestination تعداد. يحدد النتائج المحتملة التي قد يتم إنشاؤها عند تنفيذ عملية دمج البريد على مستند.
+title: MailMergeDestination Enum
+linktitle: MailMergeDestination
+articleTitle: MailMergeDestination
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Settings.MailMergeDestination تعداد. يحدد النتائج المحتملة التي قد يتم إنشاؤها عند تنفيذ عملية دمج البريد على مستند في C#.
 type: docs
 weight: 5830
 url: /ar/net/aspose.words.settings/mailmergedestination/
@@ -24,7 +26,7 @@ public enum MailMergeDestination
 | Fax | `4` | يحدد أن تطبيقات الاستضافة المطابقة يجب أن تقوم بإنشاء فاكسات باستخدام المستندات الناتجة عن ملء الحقول داخل مستند معين ببيانات من مصدر البيانات الخارجي المحدد. |
 | Default | `0` | يساويNewDocument القيمة. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تنفيذ دمج البريد مع البيانات من كائن مصدر بيانات Office.
 
@@ -78,5 +80,3 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 * property [Destination](../mailmergesettings/destination/)
 * مساحة الاسم [Aspose.Words.Settings](../../aspose.words.settings/)
 * المجسم [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class CustomXmlProperty
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Markup.CustomXmlProperty сорт. Представляет один пользовательский атрибут XML или свойство смарттега.
+title: CustomXmlProperty Class
+linktitle: CustomXmlProperty
+articleTitle: CustomXmlProperty
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Markup.CustomXmlProperty сорт. Представляет один пользовательский атрибут XML или свойство смарттега на С#.
 type: docs
 weight: 3940
 url: /ru/net/aspose.words.markup/customxmlproperty/
@@ -20,7 +22,7 @@ public class CustomXmlProperty
 
 | Имя | Описание |
 | --- | --- |
-| [CustomXmlProperty](customxmlproperty/)(string, string, string) | Инициализирует новый экземпляр этого класса. |
+| [CustomXmlProperty](customxmlproperty/)(*string, string, string*) | Инициализирует новый экземпляр этого класса. |
 
 ## Характеристики
 
@@ -30,11 +32,11 @@ public class CustomXmlProperty
 | [Uri](../../aspose.words.markup/customxmlproperty/uri/) { get; set; } | Получает или задает URI пространства имен пользовательского атрибута XML или свойства смарт-тега. |
 | [Value](../../aspose.words.markup/customxmlproperty/value/) { get; set; } | Получает или задает значение пользовательского атрибута XML или свойства смарт-тега. |
 
-### Примечания
+## Примечания
 
 Используется как предмет[`CustomXmlPropertyCollection`](../customxmlpropertycollection/) коллекция.
 
-### Примеры
+## Примеры
 
 Показывает, как создавать смарт-теги.
 
@@ -136,5 +138,3 @@ private class SmartTagPrinter : DocumentVisitor
 
 * пространство имен [Aspose.Words.Markup](../../aspose.words.markup/)
 * сборка [Aspose.Words](../../)
-
-

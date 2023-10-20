@@ -1,7 +1,9 @@
 ---
 title: FieldMergingArgs.Text
-second_title: Aspose.Words for .NET API 参考
-description: FieldMergingArgs 财产. 获取或设置将插入当前合并字段文档中的文本
+linktitle: Text
+articleTitle: Text
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldMergingArgs Text 财产. 获取或设置将插入当前合并字段文档中的文本 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.mailmerging/fieldmergingargs/text/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.mailmerging/fieldmergingargs/text/
 public string Text { get; set; }
 ```
 
-### 评论
+## 评论
 
 当您的事件处理程序被调用时，该属性被设置为`无效的`。
 
@@ -22,7 +24,7 @@ public string Text { get; set; }
 
 如果将 Text 设置为任何字符串（包括空），则该字符串将插入到文档中代替合并字段。
 
-### 例子
+## 例子
 
 演示如何使用自定义回调执行邮件合并，该回调处理 HTML 文档形式的合并数据。
 
@@ -90,7 +92,5 @@ private class HandleMergeFieldInsertHtml : IFieldMergingCallback
 ### 也可以看看
 
 * class [FieldMergingArgs](../)
-* 命名空间 [Aspose.Words.MailMerging](../../fieldmergingargs/)
+* 命名空间 [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * 部件 [Aspose.Words](../../../)
-
-

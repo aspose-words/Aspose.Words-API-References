@@ -1,7 +1,9 @@
 ---
 title: FormField.DropDownSelectedIndex
-second_title: Referencia de API de Aspose.Words para .NET
-description: FormField propiedad. Obtiene o establece el índice que especifica el elemento seleccionado actualmente en un campo de formulario desplegable.
+linktitle: DropDownSelectedIndex
+articleTitle: DropDownSelectedIndex
+second_title: Aspose.Words para .NET
+description: FormField DropDownSelectedIndex propiedad. Obtiene o establece el índice que especifica el elemento seleccionado actualmente en un campo de formulario desplegable en C#.
 type: docs
 weight: 60
 url: /es/net/aspose.words.fields/formfield/dropdownselectedindex/
@@ -14,7 +16,7 @@ Obtiene o establece el índice que especifica el elemento seleccionado actualmen
 public int DropDownSelectedIndex { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo insertar diferentes tipos de campos de formulario en un documento y procesarlos mediante una implementación de visitante de documentos.
 
@@ -148,7 +150,5 @@ public class FormFieldVisitor : DocumentVisitor
 ### Ver también
 
 * class [FormField](../)
-* espacio de nombres [Aspose.Words.Fields](../../formfield/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

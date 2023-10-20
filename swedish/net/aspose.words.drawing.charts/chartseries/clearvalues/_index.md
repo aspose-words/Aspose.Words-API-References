@@ -1,7 +1,9 @@
 ---
 title: ChartSeries.ClearValues
-second_title: Aspose.Words för .NET API Referens
-description: ChartSeries metod. Tar bort alla datavärden från diagramserien med att bevara formatet för datapunkterna och dataetiketterna.
+linktitle: ClearValues
+articleTitle: ClearValues
+second_title: Aspose.Words för .NET
+description: ChartSeries ClearValues metod. Tar bort alla datavärden från diagramserien med att bevara formatet för datapunkterna och dataetiketterna i C#.
 type: docs
 weight: 180
 url: /sv/net/aspose.words.drawing.charts/chartseries/clearvalues/
@@ -17,7 +19,5 @@ public void ClearValues()
 ### Se även
 
 * class [ChartSeries](../)
-* namnutrymme [Aspose.Words.Drawing.Charts](../../chartseries/)
+* namnutrymme [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../../)
-
-

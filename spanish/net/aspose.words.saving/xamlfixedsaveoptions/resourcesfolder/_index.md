@@ -1,7 +1,9 @@
 ---
 title: XamlFixedSaveOptions.ResourcesFolder
-second_title: Referencia de API de Aspose.Words para .NET
-description: XamlFixedSaveOptions propiedad. Especifica la carpeta física donde se guardan los recursos imágenes y fuentes al exportar un documento al formato Xaml de página fija. El valor predeterminado esnulo .
+linktitle: ResourcesFolder
+articleTitle: ResourcesFolder
+second_title: Aspose.Words para .NET
+description: XamlFixedSaveOptions ResourcesFolder propiedad. Especifica la carpeta física donde se guardan los recursos imágenes y fuentes al exportar un documento al formato Xaml de página fija. El valor predeterminado esnulo  en C#.
 type: docs
 weight: 30
 url: /es/net/aspose.words.saving/xamlfixedsaveoptions/resourcesfolder/
@@ -14,7 +16,7 @@ Especifica la carpeta física donde se guardan los recursos (imágenes y fuentes
 public string ResourcesFolder { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 Cuando guardas un[`Document`](../../../aspose.words/document/) en formato Xaml de página fija, Aspose.Words necesita guardar todas las imágenes incrustadas en el documento como archivos independientes.`ResourcesFolder` le permite especificar dónde se guardarán las imágenes y[`ResourcesFolderAlias`](../resourcesfolderalias/) permite especificar cómo se construirán los URI de la imagen.
 
@@ -22,7 +24,7 @@ Si guarda un documento en un archivo y proporciona un nombre de archivo, Aspose.
 
 Si guarda un documento en una secuencia, Aspose.Words no tiene una carpeta donde guardar las imágenes, pero aún necesita guardar las imágenes en algún lugar. En este caso, debe especificar una carpeta accesible mediante el comando`ResourcesFolder` propiedad
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo imprimir los URI de los recursos vinculados creados al convertir un documento a .xaml de formato fijo.
 
@@ -85,7 +87,5 @@ private class ResourceUriPrinter : IResourceSavingCallback
 ### Ver también
 
 * class [XamlFixedSaveOptions](../)
-* espacio de nombres [Aspose.Words.Saving](../../xamlfixedsaveoptions/)
+* espacio de nombres [Aspose.Words.Saving](../../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: OleFormat.IconCaption
-second_title: Aspose.Words for .NET API 参考
-description: OleFormat 财产. 获取 OLE 对象的图标标题
+linktitle: IconCaption
+articleTitle: IconCaption
+second_title: 用于 .NET 的 Aspose.Words
+description: OleFormat IconCaption 财产. 获取 OLE 对象的图标标题 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.drawing/oleformat/iconcaption/
@@ -16,7 +18,7 @@ url: /zh/net/aspose.words.drawing/oleformat/iconcaption/
 public string IconCaption { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何插入链接和未链接的 OLE 对象。
 
@@ -66,7 +68,5 @@ using (MemoryStream stream = oleFormat.GetOleEntry("\x0001CompObj"))
 ### 也可以看看
 
 * class [OleFormat](../)
-* 命名空间 [Aspose.Words.Drawing](../../oleformat/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

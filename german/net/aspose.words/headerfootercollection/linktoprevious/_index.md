@@ -1,12 +1,14 @@
 ---
 title: HeaderFooterCollection.LinkToPrevious
-second_title: Aspose.Words für .NET-API-Referenz
-description: HeaderFooterCollection methode. Verknüpft alle Kopf und Fußzeilen mit den entsprechenden Kopf und Fußzeilen im vorherigen Abschnitt oder hebt die Verknüpfung auf.
+linktitle: LinkToPrevious
+articleTitle: LinkToPrevious
+second_title: Aspose.Words für .NET
+description: HeaderFooterCollection LinkToPrevious methode. Verknüpft alle Kopf und Fußzeilen mit den entsprechenden Kopf und Fußzeilen im vorherigen Abschnitt oder hebt die Verknüpfung auf in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words/headerfootercollection/linktoprevious/
 ---
-## LinkToPrevious(bool) {#linktoprevious_1}
+## LinkToPrevious(*bool*) {#linktoprevious_1}
 
 Verknüpft alle Kopf- und Fußzeilen mit den entsprechenden Kopf- und Fußzeilen im vorherigen Abschnitt oder hebt die Verknüpfung auf.
 
@@ -18,11 +20,11 @@ public void LinkToPrevious(bool isLinkToPrevious)
 | --- | --- | --- |
 | isLinkToPrevious | Boolean | `WAHR` um die Kopf- und Fußzeilen mit dem vorherigen Abschnitt zu verknüpfen; `FALSCH` um sie zu entkoppeln. |
 
-### Bemerkungen
+## Bemerkungen
 
 Wenn eine der Kopf- oder Fußzeilen nicht vorhanden ist, werden sie automatisch erstellt.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Kopf- und Fußzeilen zwischen Abschnitten verknüpft werden.
 
@@ -87,12 +89,12 @@ doc.Save(ArtifactsDir + "HeaderFooter.Link.docx");
 ### Siehe auch
 
 * class [HeaderFooterCollection](../)
-* namensraum [Aspose.Words](../../headerfootercollection/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
 
 ---
 
-## LinkToPrevious(HeaderFooterType, bool) {#linktoprevious}
+## LinkToPrevious(*[HeaderFooterType](../../headerfootertype/), bool*) {#linktoprevious}
 
 Verknüpft oder hebt die Verknüpfung der angegebenen Kopf- oder Fußzeile mit der entsprechenden Kopf- oder Fußzeile im vorherigen Abschnitt auf.
 
@@ -105,11 +107,11 @@ public void LinkToPrevious(HeaderFooterType headerFooterType, bool isLinkToPrevi
 | headerFooterType | HeaderFooterType | A[`HeaderFooterType`](../../headerfootertype/) value , der die Kopf- oder Fußzeile angibt, die verknüpft/verknüpft werden soll. |
 | isLinkToPrevious | Boolean | `WAHR`um die Kopf- oder Fußzeile mit dem vorherigen Abschnitt zu verknüpfen; `FALSCH` Verknüpfung aufheben. |
 
-### Bemerkungen
+## Bemerkungen
 
 Wenn die Kopf- oder Fußzeile des angegebenen Typs nicht vorhanden ist, wird sie automatisch erstellt.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Kopf- und Fußzeilen zwischen Abschnitten verknüpft werden.
 
@@ -175,7 +177,5 @@ doc.Save(ArtifactsDir + "HeaderFooter.Link.docx");
 
 * enum [HeaderFooterType](../../headerfootertype/)
 * class [HeaderFooterCollection](../)
-* namensraum [Aspose.Words](../../headerfootercollection/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

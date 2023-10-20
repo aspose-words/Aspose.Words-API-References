@@ -1,7 +1,9 @@
 ---
 title: BorderCollection.Vertical
-second_title: Справочник по API Aspose.Words для .NET
-description: BorderCollection свойство. Получает вертикальную границу которая используется между ячейками.
+linktitle: Vertical
+articleTitle: Vertical
+second_title: Aspose.Words для .NET
+description: BorderCollection Vertical свойство. Получает вертикальную границу которая используется между ячейками на С#.
 type: docs
 weight: 130
 url: /ru/net/aspose.words/bordercollection/vertical/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/bordercollection/vertical/
 public Border Vertical { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как применить настройки к вертикальным границам формата строки таблицы.
 
@@ -60,7 +62,5 @@ doc.Save(ArtifactsDir + "Border.VerticalBorders.docx");
 
 * class [Border](../../border/)
 * class [BorderCollection](../)
-* пространство имен [Aspose.Words](../../bordercollection/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Document.IncludeTextboxesFootnotesEndnotesInStat
-second_title: Aspose.Words für .NET-API-Referenz
-description: Document eigendom. Gibt an ob Textfelder Fußnoten und Endnoten in die Wortzahlstatistik einbezogen werden sollen.
+linktitle: IncludeTextboxesFootnotesEndnotesInStat
+articleTitle: IncludeTextboxesFootnotesEndnotesInStat
+second_title: Aspose.Words für .NET
+description: Document IncludeTextboxesFootnotesEndnotesInStat eigendom. Gibt an ob Textfelder Fußnoten und Endnoten in die Wortzahlstatistik einbezogen werden sollen in C#.
 type: docs
 weight: 220
 url: /de/net/aspose.words/document/includetextboxesfootnotesendnotesinstat/
@@ -14,7 +16,7 @@ Gibt an, ob Textfelder, Fußnoten und Endnoten in die Wortzahlstatistik einbezog
 public bool IncludeTextboxesFootnotesEndnotesInStat { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Textfelder, Fußnoten und Endnoten in die Wortzahlstatistik einbezogen oder ausgeschlossen werden.
 
@@ -38,7 +40,5 @@ Assert.AreEqual(4, doc.BuiltInDocumentProperties.Words);
 ### Siehe auch
 
 * class [Document](../)
-* namensraum [Aspose.Words](../../document/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

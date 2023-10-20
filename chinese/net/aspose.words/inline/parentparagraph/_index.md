@@ -1,7 +1,9 @@
 ---
 title: Inline.ParentParagraph
-second_title: Aspose.Words for .NET API 参考
-description: Inline 财产. 检索父级Paragraph此节点的.
+linktitle: ParentParagraph
+articleTitle: ParentParagraph
+second_title: 用于 .NET 的 Aspose.Words
+description: Inline ParentParagraph 财产. 检索父级Paragraph此节点的 在 C#.
 type: docs
 weight: 70
 url: /zh/net/aspose.words/inline/parentparagraph/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/inline/parentparagraph/
 public Paragraph ParentParagraph { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何确定内联节点的修订类型。
 
@@ -71,7 +73,5 @@ Assert.IsTrue(runs[5].IsDeleteRevision);
 
 * class [Paragraph](../../paragraph/)
 * class [Inline](../)
-* 命名空间 [Aspose.Words](../../inline/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

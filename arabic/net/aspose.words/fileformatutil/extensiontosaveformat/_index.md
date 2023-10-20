@@ -1,7 +1,9 @@
 ---
 title: FileFormatUtil.ExtensionToSaveFormat
-second_title: Aspose.Words لمراجع .NET API
-description: FileFormatUtil طريقة. تحويل امتداد اسم الملف إلى ملفSaveFormat القيمة.
+linktitle: ExtensionToSaveFormat
+articleTitle: ExtensionToSaveFormat
+second_title: Aspose.Words لـ .NET
+description: FileFormatUtil ExtensionToSaveFormat طريقة. تحويل امتداد اسم الملف إلى ملفSaveFormat القيمة في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words/fileformatutil/extensiontosaveformat/
@@ -24,11 +26,11 @@ public static SaveFormat ExtensionToSaveFormat(string extension)
 | --- | --- |
 | ArgumentNullException | يلقي إذا كانت المعلمة`باطل`. |
 
-### ملاحظات
+## ملاحظات
 
 إذا تعذر التعرف على الامتداد، فسيتم إرجاعهUnknown.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام أساليب FileFormatUtil للكشف عن تنسيق المستند.
 
@@ -62,7 +64,5 @@ using (FileStream docStream = File.OpenRead(MyDir + "Word document with missing 
 
 * enum [SaveFormat](../../saveformat/)
 * class [FileFormatUtil](../)
-* مساحة الاسم [Aspose.Words](../../fileformatutil/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

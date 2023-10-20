@@ -1,7 +1,9 @@
 ---
 title: SaveOptions.AllowEmbeddingPostScriptFonts
-second_title: Aspose.Words لمراجع .NET API
-description: SaveOptions ملكية. الحصول على قيمة منطقية أو تعيينها تشير إلى ما إذا كان سيتم السماح بدمج الخطوط باستخدام مخططات PostScript عند حفظ تضمين خطوط TrueType في مستند. القيمة الافتراضية هيخطأ شنيع .
+linktitle: AllowEmbeddingPostScriptFonts
+articleTitle: AllowEmbeddingPostScriptFonts
+second_title: Aspose.Words لـ .NET
+description: SaveOptions AllowEmbeddingPostScriptFonts ملكية. الحصول على قيمة منطقية أو تعيينها تشير إلى ما إذا كان سيتم السماح بدمج الخطوط باستخدام مخططات PostScript عند حفظ تضمين خطوط TrueType في مستند. القيمة الافتراضية هيخطأ شنيع  في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.saving/saveoptions/allowembeddingpostscriptfonts/
@@ -14,13 +16,13 @@ url: /ar/net/aspose.words.saving/saveoptions/allowembeddingpostscriptfonts/
 public bool AllowEmbeddingPostScriptFonts { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 لاحظ أن Word لا يقوم بتضمين خطوط PostScript، لكن يمكنه فتح مستندات تحتوي على خطوط مضمنة من هذا النوع.
 
 هذا الخيار يعمل فقط عندما[`EmbedTrueTypeFonts`](../../../aspose.words.fonts/fontinfocollection/embedtruetypefonts/) من the [`FontInfos`](../../../aspose.words/documentbase/fontinfos/) تم تعيين الخاصية على`حقيقي`.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية حفظ المستند بخط PostScript.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "Document.AllowEmbeddingPostScriptFonts.docx", saveOptio
 ### أنظر أيضا
 
 * class [SaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../saveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

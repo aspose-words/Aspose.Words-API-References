@@ -1,9 +1,11 @@
 ---
 title: StructuredDocumentTag.RemoveSelfOnly
-second_title: Aspose.Words per .NET API Reference
-description: StructuredDocumentTag metodo. Rimuove solo questo nodo SDT stesso ma ne mantiene il contenuto allinterno dellalbero del documento.
+linktitle: RemoveSelfOnly
+articleTitle: RemoveSelfOnly
+second_title: Aspose.Words per .NET
+description: StructuredDocumentTag RemoveSelfOnly metodo. Rimuove solo questo nodo SDT stesso ma ne mantiene il contenuto allinterno dellalbero del documento in C#.
 type: docs
-weight: 370
+weight: 350
 url: /it/net/aspose.words.markup/structureddocumenttag/removeselfonly/
 ---
 ## StructuredDocumentTag.RemoveSelfOnly method
@@ -14,7 +16,7 @@ Rimuove solo questo nodo SDT stesso, ma ne mantiene il contenuto all'interno del
 public void RemoveSelfOnly()
 ```
 
-### Esempi
+## Esempi
 
 Mostra come creare un tag di documento strutturato in una casella di testo semplice e modificarne l'aspetto.
 
@@ -71,7 +73,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.PlainText.docx");
 ### Guarda anche
 
 * class [StructuredDocumentTag](../)
-* spazio dei nomi [Aspose.Words.Markup](../../structureddocumenttag/)
+* spazio dei nomi [Aspose.Words.Markup](../../../aspose.words.markup/)
 * assemblea [Aspose.Words](../../../)
-
-

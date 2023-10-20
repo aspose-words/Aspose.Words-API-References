@@ -1,9 +1,11 @@
 ---
 title: Section.Clone
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Section méthode. Crée un double de cette section.
+linktitle: Clone
+articleTitle: Clone
+second_title: Aspose.Words pour .NET
+description: Section Clone méthode. Crée un double de cette section en C#.
 type: docs
-weight: 130
+weight: 110
 url: /fr/net/aspose.words/section/clone/
 ---
 ## Section.Clone method
@@ -14,7 +16,7 @@ Crée un double de cette section.
 public Section Clone()
 ```
 
-### Exemples
+## Exemples
 
 Montre comment ajouter et supprimer des sections dans un document.
 
@@ -44,7 +46,5 @@ Assert.AreEqual("Section 2\x000cSection 2", doc.GetText().Trim());
 ### Voir également
 
 * class [Section](../)
-* espace de noms [Aspose.Words](../../section/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

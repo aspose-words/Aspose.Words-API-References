@@ -1,12 +1,14 @@
 ---
 title: Merger.Merge
-second_title: Справочник по API Aspose.Words для .NET
-description: Merger метод. Объединяет данные входные документы в один выходной документ используя указанные имена входных и выходных файлов.
+linktitle: Merge
+articleTitle: Merge
+second_title: Aspose.Words для .NET
+description: Merger Merge метод. Объединяет данные входные документы в один выходной документ используя указанные имена входных и выходных файлов на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.lowcode/merger/merge/
 ---
-## Merge(string, string[]) {#merge_4}
+## Merge(*string, string[]*) {#merge_4}
 
 Объединяет данные входные документы в один выходной документ, используя указанные имена входных и выходных файлов.
 
@@ -19,11 +21,11 @@ public static void Merge(string outputFile, string[] inputFiles)
 | outputFile | String | Имя выходного файла. |
 | inputFiles | String[] | Имена входных файлов. |
 
-### Примечания
+## Примечания
 
 По умолчаниюKeepSourceFormatting используется.
 
-### Примеры
+## Примеры
 
 Показывает, как объединить документы в один выходной документ.
 
@@ -42,12 +44,12 @@ doc.Save(ArtifactsDir + "LowCode.MergeDocument.DocumentInstance.docx");
 ### Смотрите также
 
 * class [Merger](../)
-* пространство имен [Aspose.Words.LowCode](../../merger/)
+* пространство имен [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## Merge(string, string[], SaveFormat, MergeFormatMode) {#merge_5}
+## Merge(*string, string[], [SaveFormat](../../../aspose.words/saveformat/), [MergeFormatMode](../../mergeformatmode/)*) {#merge_5}
 
 Объединяет данные входные документы в один выходной документ, используя указанные имена входных выходных файлов и формат окончательного документа.
 
@@ -63,7 +65,7 @@ public static void Merge(string outputFile, string[] inputFiles, SaveFormat save
 | saveFormat | SaveFormat | Формат сохранения. |
 | mergeFormatMode | MergeFormatMode | Указывает, как объединить конфликтующее форматирование. |
 
-### Примеры
+## Примеры
 
 Показывает, как объединить документы в один выходной документ.
 
@@ -84,12 +86,12 @@ doc.Save(ArtifactsDir + "LowCode.MergeDocument.DocumentInstance.docx");
 * enum [SaveFormat](../../../aspose.words/saveformat/)
 * enum [MergeFormatMode](../../mergeformatmode/)
 * class [Merger](../)
-* пространство имен [Aspose.Words.LowCode](../../merger/)
+* пространство имен [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## Merge(string, string[], SaveOptions, MergeFormatMode) {#merge_6}
+## Merge(*string, string[], [SaveOptions](../../../aspose.words.saving/saveoptions/), [MergeFormatMode](../../mergeformatmode/)*) {#merge_6}
 
 Объединяет данные входные документы в один выходной документ, используя указанные имена входных выходных файлов и параметры сохранения.
 
@@ -105,7 +107,7 @@ public static void Merge(string outputFile, string[] inputFiles, SaveOptions sav
 | saveOptions | SaveOptions | Варианты сохранения. |
 | mergeFormatMode | MergeFormatMode | Указывает, как объединить конфликтующее форматирование. |
 
-### Примеры
+## Примеры
 
 Показывает, как объединить документы в один выходной документ.
 
@@ -126,12 +128,12 @@ doc.Save(ArtifactsDir + "LowCode.MergeDocument.DocumentInstance.docx");
 * class [SaveOptions](../../../aspose.words.saving/saveoptions/)
 * enum [MergeFormatMode](../../mergeformatmode/)
 * class [Merger](../)
-* пространство имен [Aspose.Words.LowCode](../../merger/)
+* пространство имен [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## Merge(string[], MergeFormatMode) {#merge_1}
+## Merge(*string[], [MergeFormatMode](../../mergeformatmode/)*) {#merge_1}
 
 Объединяет данные входные документы в один документ и возвращает[`Document`](../../../aspose.words/document/) экземпляр итогового документа.
 
@@ -144,7 +146,7 @@ public static Document Merge(string[] inputFiles, MergeFormatMode mergeFormatMod
 | inputFiles | String[] | Имена входных файлов. |
 | mergeFormatMode | MergeFormatMode | Указывает, как объединить конфликтующее форматирование. |
 
-### Примеры
+## Примеры
 
 Показывает, как объединить документы в один выходной документ.
 
@@ -165,12 +167,12 @@ doc.Save(ArtifactsDir + "LowCode.MergeDocument.DocumentInstance.docx");
 * class [Document](../../../aspose.words/document/)
 * enum [MergeFormatMode](../../mergeformatmode/)
 * class [Merger](../)
-* пространство имен [Aspose.Words.LowCode](../../merger/)
+* пространство имен [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## Merge(Stream, Stream[], SaveFormat) {#merge_2}
+## Merge(*Stream, Stream[], [SaveFormat](../../../aspose.words/saveformat/)*) {#merge_2}
 
 Объединяет данные входные документы в один выходной документ, используя указанные потоки ввода-вывода и конечный формат документа.
 
@@ -184,7 +186,7 @@ public static void Merge(Stream outputStream, Stream[] inputStreams, SaveFormat 
 | inputStreams | Stream[] | Входные потоки. |
 | saveFormat | SaveFormat | Формат сохранения. |
 
-### Примеры
+## Примеры
 
 Показывает, как объединить документы из потока в один выходной документ.
 
@@ -210,12 +212,12 @@ using (FileStream firstStreamIn = new FileStream(MyDir + "Big document.docx", Fi
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
 * class [Merger](../)
-* пространство имен [Aspose.Words.LowCode](../../merger/)
+* пространство имен [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## Merge(Stream, Stream[], SaveOptions, MergeFormatMode) {#merge_3}
+## Merge(*Stream, Stream[], [SaveOptions](../../../aspose.words.saving/saveoptions/), [MergeFormatMode](../../mergeformatmode/)*) {#merge_3}
 
 Объединяет данные входные документы в один выходной документ, используя указанные потоки ввода-вывода и параметры сохранения.
 
@@ -231,7 +233,7 @@ public static void Merge(Stream outputStream, Stream[] inputStreams, SaveOptions
 | saveOptions | SaveOptions | Варианты сохранения. |
 | mergeFormatMode | MergeFormatMode | Указывает, как объединить конфликтующее форматирование. |
 
-### Примеры
+## Примеры
 
 Показывает, как объединить документы из потока в один выходной документ.
 
@@ -258,12 +260,12 @@ using (FileStream firstStreamIn = new FileStream(MyDir + "Big document.docx", Fi
 * class [SaveOptions](../../../aspose.words.saving/saveoptions/)
 * enum [MergeFormatMode](../../mergeformatmode/)
 * class [Merger](../)
-* пространство имен [Aspose.Words.LowCode](../../merger/)
+* пространство имен [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## Merge(Stream[], MergeFormatMode) {#merge}
+## Merge(*Stream[], [MergeFormatMode](../../mergeformatmode/)*) {#merge}
 
 Объединяет данные входные документы в один документ и возвращает[`Document`](../../../aspose.words/document/) экземпляр итогового документа.
 
@@ -276,7 +278,7 @@ public static Document Merge(Stream[] inputStreams, MergeFormatMode mergeFormatM
 | inputStreams | Stream[] | Входные потоки. |
 | mergeFormatMode | MergeFormatMode | Указывает, как объединить конфликтующее форматирование. |
 
-### Примеры
+## Примеры
 
 Показывает, как объединить документы из потока в один выходной документ.
 
@@ -303,7 +305,5 @@ using (FileStream firstStreamIn = new FileStream(MyDir + "Big document.docx", Fi
 * class [Document](../../../aspose.words/document/)
 * enum [MergeFormatMode](../../mergeformatmode/)
 * class [Merger](../)
-* пространство имен [Aspose.Words.LowCode](../../merger/)
+* пространство имен [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
 * сборка [Aspose.Words](../../../)
-
-

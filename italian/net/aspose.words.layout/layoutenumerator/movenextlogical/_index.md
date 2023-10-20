@@ -1,7 +1,9 @@
 ---
 title: LayoutEnumerator.MoveNextLogical
-second_title: Aspose.Words per .NET API Reference
-description: LayoutEnumerator metodo. Passa allentità di pari livello successiva in ordine logico. Quando si ripetono le righe di un paragrafo interrotte su più pagine questo metodo si sposterà alla riga successiva anche se risiede su unaltra pagina.
+linktitle: MoveNextLogical
+articleTitle: MoveNextLogical
+second_title: Aspose.Words per .NET
+description: LayoutEnumerator MoveNextLogical metodo. Passa allentità di pari livello successiva in ordine logico. Quando si ripetono le righe di un paragrafo interrotte su più pagine questo metodo si sposterà alla riga successiva anche se risiede su unaltra pagina in C#.
 type: docs
 weight: 130
 url: /it/net/aspose.words.layout/layoutenumerator/movenextlogical/
@@ -14,11 +16,11 @@ Passa all'entità di pari livello successiva in ordine logico. Quando si ripeton
 public bool MoveNextLogical()
 ```
 
-### Osservazioni
+## Osservazioni
 
 Nota che tuttoSpan le entità sono collegate tra loro quindi se[`Current`](../current/) l'entità è estesa, la chiamata ripetuta di questo metodo ripeterà la storia completa del documento.
 
-### Esempi
+## Esempi
 
 Mostra le modalità per attraversare le entità di layout di un documento.
 
@@ -163,7 +165,5 @@ private static void PrintCurrentEntity(LayoutEnumerator layoutEnumerator, int in
 ### Guarda anche
 
 * class [LayoutEnumerator](../)
-* spazio dei nomi [Aspose.Words.Layout](../../layoutenumerator/)
+* spazio dei nomi [Aspose.Words.Layout](../../../aspose.words.layout/)
 * assemblea [Aspose.Words](../../../)
-
-

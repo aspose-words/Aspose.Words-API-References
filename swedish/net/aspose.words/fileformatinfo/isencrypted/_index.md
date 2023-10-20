@@ -1,7 +1,9 @@
 ---
 title: FileFormatInfo.IsEncrypted
-second_title: Aspose.Words för .NET API Referens
-description: FileFormatInfo fast egendom. ReturnerarSann om dokumentet är krypterat och kräver ett lösenord för att öppnas.
+linktitle: IsEncrypted
+articleTitle: IsEncrypted
+second_title: Aspose.Words för .NET
+description: FileFormatInfo IsEncrypted fast egendom. ReturnerarSann om dokumentet är krypterat och kräver ett lösenord för att öppnas i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words/fileformatinfo/isencrypted/
@@ -14,11 +16,11 @@ Returnerar`Sann` om dokumentet är krypterat och kräver ett lösenord för att 
 public bool IsEncrypted { get; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Den här egenskapen finns för att hjälpa dig att sortera dokument som är krypterade från de som inte är det. Om du försöker ladda ett krypterat dokument med Aspose.Words utan att ange ett lösenord kommer ett undantag att kastas. Du kan använda den här egenskapen för att upptäcka om ett dokument kräver ett lösenord och vidta några åtgärder innan du laddar ett dokument, till exempel fråga användaren om ett lösenord.
 
-### Exempel
+## Exempel
 
 Visar hur du använder klassen FileFormatUtil för att upptäcka dokumentformat och kryptering.
 
@@ -42,7 +44,5 @@ Assert.True(info.IsEncrypted);
 ### Se även
 
 * class [FileFormatInfo](../)
-* namnutrymme [Aspose.Words](../../fileformatinfo/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

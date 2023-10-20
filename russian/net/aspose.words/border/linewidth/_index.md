@@ -1,7 +1,9 @@
 ---
 title: Border.LineWidth
-second_title: Справочник по API Aspose.Words для .NET
-description: Border свойство. Получает или задает ширину границы в пунктах.
+linktitle: LineWidth
+articleTitle: LineWidth
+second_title: Aspose.Words для .NET
+description: Border LineWidth свойство. Получает или задает ширину границы в пунктах на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words/border/linewidth/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words/border/linewidth/
 public double LineWidth { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Если вы установите ширину линии больше нуля, когда стиль линии равен «Нет», стиль линии is автоматически изменится на одинарную.
 
-### Примеры
+## Примеры
 
 Показывает, как вставить в документ строку, окруженную рамкой.
 
@@ -38,7 +40,5 @@ doc.Save(ArtifactsDir + "Border.FontBorder.docx");
 ### Смотрите также
 
 * class [Border](../)
-* пространство имен [Aspose.Words](../../border/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: LayoutEnumerator.PageIndex
-second_title: Справочник по API Aspose.Words для .NET
-description: LayoutEnumerator свойство. Получает индекс страницы отсчитываемый от 1 которая содержит текущий объект.
+linktitle: PageIndex
+articleTitle: PageIndex
+second_title: Aspose.Words для .NET
+description: LayoutEnumerator PageIndex свойство. Получает индекс страницы отсчитываемый от 1 которая содержит текущий объект на С#.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.layout/layoutenumerator/pageindex/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.layout/layoutenumerator/pageindex/
 public int PageIndex { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает способы перемещения по объектам макета документа.
 
@@ -159,7 +161,5 @@ private static void PrintCurrentEntity(LayoutEnumerator layoutEnumerator, int in
 ### Смотрите также
 
 * class [LayoutEnumerator](../)
-* пространство имен [Aspose.Words.Layout](../../layoutenumerator/)
+* пространство имен [Aspose.Words.Layout](../../../aspose.words.layout/)
 * сборка [Aspose.Words](../../../)
-
-

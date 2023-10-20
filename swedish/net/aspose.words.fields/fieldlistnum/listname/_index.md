@@ -1,7 +1,9 @@
 ---
 title: FieldListNum.ListName
-second_title: Aspose.Words för .NET API Referens
-description: FieldListNum fast egendom. Hämtar eller ställer in namnet på den abstrakta numreringsdefinitionen som används för numreringen.
+linktitle: ListName
+articleTitle: ListName
+second_title: Aspose.Words för .NET
+description: FieldListNum ListName fast egendom. Hämtar eller ställer in namnet på den abstrakta numreringsdefinitionen som används för numreringen i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.fields/fieldlistnum/listname/
@@ -14,7 +16,7 @@ Hämtar eller ställer in namnet på den abstrakta numreringsdefinitionen som an
 public string ListName { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man numrerar stycken med LISTNUM-fält.
 
@@ -84,7 +86,5 @@ doc.Save(ArtifactsDir + "Field.LISTNUM.docx");
 ### Se även
 
 * class [FieldListNum](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldlistnum/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

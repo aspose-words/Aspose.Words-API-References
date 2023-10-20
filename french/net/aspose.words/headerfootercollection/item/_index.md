@@ -1,7 +1,9 @@
 ---
 title: HeaderFooterCollection.Item
-second_title: Référence de l'API Aspose.Words pour .NET
-description: HeaderFooterCollection propriété. Récupère unHeaderFooter à lindex donné.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words pour .NET
+description: HeaderFooterCollection Item propriété. Récupère unHeaderFooter à lindex donné en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words/headerfootercollection/item/
@@ -18,7 +20,7 @@ public HeaderFooter this[int index] { get; }
 | --- | --- |
 | index | Un index dans la collection. |
 
-### Remarques
+## Remarques
 
 L'indice est de base zéro.
 
@@ -28,7 +30,7 @@ Si l'index est supérieur ou égal au nombre d'éléments de la liste, cela renv
 
 Si l'index est négatif et que sa valeur absolue est supérieure au nombre d'éléments de la liste, cela renvoie une référence nulle.
 
-### Exemples
+## Exemples
 
 Montre comment lier les en-têtes et les pieds de page entre les sections.
 
@@ -94,7 +96,7 @@ doc.Save(ArtifactsDir + "HeaderFooter.Link.docx");
 
 * class [HeaderFooter](../../headerfooter/)
 * class [HeaderFooterCollection](../)
-* espace de noms [Aspose.Words](../../headerfootercollection/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
 
 ---
@@ -111,11 +113,11 @@ public HeaderFooter this[HeaderFooterType headerFooterType] { get; }
 | --- | --- |
 | headerFooterType | UN[`HeaderFooterType`](../../headerfootertype/) value qui spécifie le type d'en-tête/pied de page à récupérer. |
 
-### Remarques
+## Remarques
 
 Retours`nul` si l'en-tête/pied de page du type spécifié est introuvable.
 
-### Exemples
+## Exemples
 
 Montre comment remplacer du texte dans le pied de page d'un document.
 
@@ -169,7 +171,5 @@ doc.Save(ArtifactsDir + "HeaderFooter.RemoveFooters.docx");
 * class [HeaderFooter](../../headerfooter/)
 * enum [HeaderFooterType](../../headerfootertype/)
 * class [HeaderFooterCollection](../)
-* espace de noms [Aspose.Words](../../headerfootercollection/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

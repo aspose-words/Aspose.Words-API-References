@@ -1,9 +1,11 @@
 ---
 title: StructuredDocumentTag.SetCheckedSymbol
-second_title: Referencia de API de Aspose.Words para .NET
-description: StructuredDocumentTag método. Establece el símbolo utilizado para representar el estado marcado de un control de contenido de casilla de verificación.
+linktitle: SetCheckedSymbol
+articleTitle: SetCheckedSymbol
+second_title: Aspose.Words para .NET
+description: StructuredDocumentTag SetCheckedSymbol método. Establece el símbolo utilizado para representar el estado marcado de un control de contenido de casilla de verificación en C#.
 type: docs
-weight: 380
+weight: 360
 url: /es/net/aspose.words.markup/structureddocumenttag/setcheckedsymbol/
 ---
 ## StructuredDocumentTag.SetCheckedSymbol method
@@ -19,13 +21,13 @@ public void SetCheckedSymbol(int characterCode, string fontName)
 | characterCode | Int32 | El código de carácter para el símbolo especificado. |
 | fontName | String | El nombre de la fuente que contiene el símbolo. |
 
-### Observaciones
+## Observaciones
 
 Acceder a este método sólo funcionará paraCheckbox Tipos de TDS.
 
 Para todos los demás tipos de SDT se producirá una excepción.
 
-### Ejemplos
+## Ejemplos
 
 Muestre cómo crear una etiqueta de documento estructurada en forma de casilla de verificación.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.CheckBox.docx");
 ### Ver también
 
 * class [StructuredDocumentTag](../)
-* espacio de nombres [Aspose.Words.Markup](../../structureddocumenttag/)
+* espacio de nombres [Aspose.Words.Markup](../../../aspose.words.markup/)
 * asamblea [Aspose.Words](../../../)
-
-

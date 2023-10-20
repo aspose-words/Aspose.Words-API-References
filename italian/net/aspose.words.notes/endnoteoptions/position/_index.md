@@ -1,7 +1,9 @@
 ---
 title: EndnoteOptions.Position
-second_title: Aspose.Words per .NET API Reference
-description: EndnoteOptions proprietà. Specifica la posizione delle note di chiusura.
+linktitle: Position
+articleTitle: Position
+second_title: Aspose.Words per .NET
+description: EndnoteOptions Position proprietà. Specifica la posizione delle note di chiusura in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words.notes/endnoteoptions/position/
@@ -14,7 +16,7 @@ Specifica la posizione delle note di chiusura.
 public EndnotePosition Position { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come selezionare una posizione diversa in cui il documento raccoglie e visualizza le sue note di chiusura.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "InlineStory.PositionEndnote.docx");
 
 * enum [EndnotePosition](../../endnoteposition/)
 * class [EndnoteOptions](../)
-* spazio dei nomi [Aspose.Words.Notes](../../endnoteoptions/)
+* spazio dei nomi [Aspose.Words.Notes](../../../aspose.words.notes/)
 * assemblea [Aspose.Words](../../../)
-
-

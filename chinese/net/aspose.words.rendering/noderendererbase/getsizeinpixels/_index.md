@@ -1,12 +1,14 @@
 ---
 title: NodeRendererBase.GetSizeInPixels
-second_title: Aspose.Words for .NET API 参考
-description: NodeRendererBase 方法. 计算指定缩放系数和分辨率下形状的大小以像素为单位
+linktitle: GetSizeInPixels
+articleTitle: GetSizeInPixels
+second_title: 用于 .NET 的 Aspose.Words
+description: NodeRendererBase GetSizeInPixels 方法. 计算指定缩放系数和分辨率下形状的大小以像素为单位 在 C#.
 type: docs
 weight: 60
 url: /zh/net/aspose.words.rendering/noderendererbase/getsizeinpixels/
 ---
-## GetSizeInPixels(float, float) {#getsizeinpixels}
+## GetSizeInPixels(*float, float*) {#getsizeinpixels}
 
 计算指定缩放系数和分辨率下形状的大小（以像素为单位）。
 
@@ -23,11 +25,11 @@ public Size GetSizeInPixels(float scale, float dpi)
 
 形状的大小（以像素为单位）。
 
-### 评论
+## 评论
 
 这个方法转换[`SizeInPoints`](../sizeinpoints/)以像素为单位的大小，当您想要创建一个位图以将形状整齐地渲染到位图上时，它很有用 。
 
-### 例子
+## 例子
 
 展示如何测量和缩放形状。
 
@@ -74,12 +76,12 @@ Assert.AreEqual(30, bounds.Height);
 ### 也可以看看
 
 * class [NodeRendererBase](../)
-* 命名空间 [Aspose.Words.Rendering](../../noderendererbase/)
+* 命名空间 [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## GetSizeInPixels(float, float, float) {#getsizeinpixels_1}
+## GetSizeInPixels(*float, float, float*) {#getsizeinpixels_1}
 
 计算指定缩放系数和分辨率下形状的大小（以像素为单位）。
 
@@ -97,11 +99,11 @@ public Size GetSizeInPixels(float scale, float horizontalDpi, float verticalDpi)
 
 形状的大小（以像素为单位）。
 
-### 评论
+## 评论
 
 这个方法转换[`SizeInPoints`](../sizeinpoints/)以像素为单位的大小，当您想要创建一个位图以将形状整齐地渲染到位图上时，它很有用 。
 
-### 例子
+## 例子
 
 展示如何测量和缩放形状。
 
@@ -148,7 +150,5 @@ Assert.AreEqual(30, bounds.Height);
 ### 也可以看看
 
 * class [NodeRendererBase](../)
-* 命名空间 [Aspose.Words.Rendering](../../noderendererbase/)
+* 命名空间 [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * 部件 [Aspose.Words](../../../)
-
-

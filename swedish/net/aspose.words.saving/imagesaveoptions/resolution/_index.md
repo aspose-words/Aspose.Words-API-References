@@ -1,7 +1,9 @@
 ---
 title: ImageSaveOptions.Resolution
-second_title: Aspose.Words för .NET API Referens
-description: ImageSaveOptions fast egendom. Ställer in både horisontell och vertikal upplösning för de genererade bilderna i punkter per tum.
+linktitle: Resolution
+articleTitle: Resolution
+second_title: Aspose.Words för .NET
+description: ImageSaveOptions Resolution fast egendom. Ställer in både horisontell och vertikal upplösning för de genererade bilderna i punkter per tum i C#.
 type: docs
 weight: 130
 url: /sv/net/aspose.words.saving/imagesaveoptions/resolution/
@@ -14,11 +16,11 @@ Ställer in både horisontell och vertikal upplösning för de genererade bilder
 public float Resolution { set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Den här egenskapen har endast effekt när du sparar i rasterbildsformat.
 
-### Exempel
+## Exempel
 
 Visar hur man anger en upplösning när ett dokument renderas till PNG.
 
@@ -79,7 +81,5 @@ Document doc = new Document();
 ### Se även
 
 * class [ImageSaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../imagesaveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: VariableCollection.IndexOfKey
-second_title: Справочник по API Aspose.Words для .NET
-description: VariableCollection метод. Возвращает отсчитываемый от нуля индекс указанной переменной документа в коллекции.
+linktitle: IndexOfKey
+articleTitle: IndexOfKey
+second_title: Aspose.Words для .NET
+description: VariableCollection IndexOfKey метод. Возвращает отсчитываемый от нуля индекс указанной переменной документа в коллекции на С#.
 type: docs
 weight: 70
 url: /ru/net/aspose.words/variablecollection/indexofkey/
@@ -22,7 +24,7 @@ public int IndexOfKey(string name)
 
 Индекс, отсчитываемый от нуля. Отрицательное значение, если не обнаружено.
 
-### Примеры
+## Примеры
 
 Показывает, как работать с коллекцией переменных документа.
 
@@ -89,7 +91,5 @@ Assert.That(variables, Is.Empty);
 ### Смотрите также
 
 * class [VariableCollection](../)
-* пространство имен [Aspose.Words](../../variablecollection/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

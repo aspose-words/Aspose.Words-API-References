@@ -1,12 +1,14 @@
 ---
 title: DocumentBuilder.InsertField
-second_title: Aspose.Words لمراجع .NET API
-description: DocumentBuilder طريقة. يقوم بإدراج حقل Word في مستند ويقوم بتحديث نتيجة الحقل بشكل اختياري.
+linktitle: InsertField
+articleTitle: InsertField
+second_title: Aspose.Words لـ .NET
+description: DocumentBuilder InsertField طريقة. يقوم بإدراج حقل Word في مستند ويقوم بتحديث نتيجة الحقل بشكل اختياري في C#.
 type: docs
-weight: 330
+weight: 320
 url: /ar/net/aspose.words/documentbuilder/insertfield/
 ---
-## InsertField(FieldType, bool) {#insertfield}
+## InsertField(*[FieldType](../../../aspose.words.fields/fieldtype/), bool*) {#insertfield}
 
 يقوم بإدراج حقل Word في مستند ويقوم بتحديث نتيجة الحقل بشكل اختياري.
 
@@ -23,11 +25,11 @@ public Field InsertField(FieldType fieldType, bool updateField)
 
 أ[`Field`](../../../aspose.words.fields/field/) كائن يمثل الحقل المدرج.
 
-### ملاحظات
+## ملاحظات
 
 تقوم هذه الطريقة بإدراج حقل في مستند. Aspose. يمكن للكلمات تحديث الحقول لمعظم الأنواع، ولكن ليس كلها. لمزيد من التفاصيل راجع the `InsertField` الزائد.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج حقل في مستند باستخدام FieldType.
 
@@ -74,12 +76,12 @@ else
 * class [Field](../../../aspose.words.fields/field/)
 * enum [FieldType](../../../aspose.words.fields/fieldtype/)
 * class [DocumentBuilder](../)
-* مساحة الاسم [Aspose.Words](../../documentbuilder/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## InsertField(string) {#insertfield_1}
+## InsertField(*string*) {#insertfield_1}
 
 إدراج حقل Word في المستند وتحديث نتيجة الحقل.
 
@@ -95,11 +97,11 @@ public Field InsertField(string fieldCode)
 
 أ[`Field`](../../../aspose.words.fields/field/) كائن يمثل الحقل المدرج.
 
-### ملاحظات
+## ملاحظات
 
 تقوم هذه الطريقة بإدراج حقل في مستند وتحديث نتيجة الحقل على الفور. يمكن لـ Aspose.Words تحديث الحقول لمعظم الأنواع، ولكن ليس كلها. لمزيد من التفاصيل راجع the `InsertField` الزائد.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج حقل في مستند باستخدام رمز الحقل.
 
@@ -144,12 +146,12 @@ doc.Save(ArtifactsDir + "DocumentBuilder.MergeFields.docx");
 
 * class [Field](../../../aspose.words.fields/field/)
 * class [DocumentBuilder](../)
-* مساحة الاسم [Aspose.Words](../../documentbuilder/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## InsertField(string, string) {#insertfield_2}
+## InsertField(*string, string*) {#insertfield_2}
 
 إدراج حقل Word في مستند دون تحديث نتيجة الحقل.
 
@@ -166,7 +168,7 @@ public Field InsertField(string fieldCode, string fieldValue)
 
 أ[`Field`](../../../aspose.words.fields/field/) كائن يمثل الحقل المدرج.
 
-### ملاحظات
+## ملاحظات
 
 تتكون الحقول في مستندات Microsoft Word من رمز الحقل ونتيجة الحقل. يشبه رمز الحقل الصيغة وتكون نتيجة الحقل مثل القيمة التي تنتجها الصيغة . قد يحتوي رمز الحقل أيضًا على مفاتيح الحقل التي تشبه الإرشادات الإضافية لتنفيذ إجراء معين.
 
@@ -176,7 +178,7 @@ public Field InsertField(string fieldCode, string fieldValue)
 
 يمكن لـ Aspose.Words حساب نتائج الحقل لمعظم أنواع الحقول، لكن هذه الطريقة لا تقوم بتحديث نتيجة الحقل تلقائيًا. نظرًا لأن نتيجة الحقل لا يتم حسابها تلقائيًا، فمن المتوقع أن تمرر بعض قيم السلسلة (أو حتى سلسلة فارغة) التي سيتم إدراجها في نتيجة الحقل. ستبقى هذه القيمة في نتيجة الحقل كعنصر نائب حتى يتم إضافة الحقل update. لتحديث النتيجة الميدانية يمكنك الاتصال[`Update`](../../../aspose.words.fields/field/update/)على الكائن الميداني return إليك أو[`UpdateFields`](../../document/updatefields/) لتحديث الحقول في المستند بأكمله.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إعداد ترقيم الصفحات في القسم.
 
@@ -234,7 +236,5 @@ doc.Save(ArtifactsDir + "PageSetup.PageNumbering.docx");
 
 * class [Field](../../../aspose.words.fields/field/)
 * class [DocumentBuilder](../)
-* مساحة الاسم [Aspose.Words](../../documentbuilder/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

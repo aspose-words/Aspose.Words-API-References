@@ -1,12 +1,14 @@
 ---
 title: List.Equals
-second_title: Référence de l'API Aspose.Words pour .NET
-description: List méthode. Compare avec la liste spécifiée.
+linktitle: Equals
+articleTitle: Equals
+second_title: Aspose.Words pour .NET
+description: List Equals méthode. Compare avec la liste spécifiée en C#.
 type: docs
 weight: 100
 url: /fr/net/aspose.words.lists/list/equals/
 ---
-## Equals(List) {#equals}
+## Equals(*[List](../)*) {#equals}
 
 Compare avec la liste spécifiée.
 
@@ -17,12 +19,12 @@ public bool Equals(List list)
 ### Voir également
 
 * class [List](../)
-* espace de noms [Aspose.Words.Lists](../../list/)
+* espace de noms [Aspose.Words.Lists](../../../aspose.words.lists/)
 * Assemblée [Aspose.Words](../../../)
 
 ---
 
-## Equals(object) {#equals_1}
+## Equals(*object*) {#equals_1}
 
 Détermine si l'objet spécifié a une valeur égale à l'objet actuel.
 
@@ -33,7 +35,5 @@ public override bool Equals(object obj)
 ### Voir également
 
 * class [List](../)
-* espace de noms [Aspose.Words.Lists](../../list/)
+* espace de noms [Aspose.Words.Lists](../../../aspose.words.lists/)
 * Assemblée [Aspose.Words](../../../)
-
-

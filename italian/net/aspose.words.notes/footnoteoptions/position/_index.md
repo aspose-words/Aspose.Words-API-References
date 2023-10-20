@@ -1,7 +1,9 @@
 ---
 title: FootnoteOptions.Position
-second_title: Aspose.Words per .NET API Reference
-description: FootnoteOptions proprietà. Specifica la posizione delle note a piè di pagina.
+linktitle: Position
+articleTitle: Position
+second_title: Aspose.Words per .NET
+description: FootnoteOptions Position proprietà. Specifica la posizione delle note a piè di pagina in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words.notes/footnoteoptions/position/
@@ -14,7 +16,7 @@ Specifica la posizione delle note a piè di pagina.
 public FootnotePosition Position { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come selezionare una posizione diversa in cui il documento raccoglie e visualizza le note a piè di pagina.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "InlineStory.PositionFootnote.docx");
 
 * enum [FootnotePosition](../../footnoteposition/)
 * class [FootnoteOptions](../)
-* spazio dei nomi [Aspose.Words.Notes](../../footnoteoptions/)
+* spazio dei nomi [Aspose.Words.Notes](../../../aspose.words.notes/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class CustomDocumentProperties
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Properties.CustomDocumentProperties فصل. مجموعة من خصائص المستند المخصصة.
+title: CustomDocumentProperties Class
+linktitle: CustomDocumentProperties
+articleTitle: CustomDocumentProperties
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Properties.CustomDocumentProperties فصل. مجموعة من خصائص المستند المخصصة في C#.
 type: docs
 weight: 4460
 url: /ar/net/aspose.words.properties/customdocumentproperties/
@@ -28,20 +30,20 @@ public class CustomDocumentProperties : DocumentPropertyCollection
 
 | اسم | وصف |
 | --- | --- |
-| [Add](../../aspose.words.properties/customdocumentproperties/add/#add)(string, bool) | إنشاء خاصية مستند مخصصة جديدة لـBoolean نوع البيانات. |
-| [Add](../../aspose.words.properties/customdocumentproperties/add/#add_3)(string, DateTime) | إنشاء خاصية مستند مخصصة جديدة لـDateTime نوع البيانات. |
-| [Add](../../aspose.words.properties/customdocumentproperties/add/#add_1)(string, double) | إنشاء خاصية مستند مخصصة جديدة لـDouble نوع البيانات. |
-| [Add](../../aspose.words.properties/customdocumentproperties/add/#add_2)(string, int) | إنشاء خاصية مستند مخصصة جديدة لـNumber نوع البيانات. |
-| [Add](../../aspose.words.properties/customdocumentproperties/add/#add_4)(string, string) | إنشاء خاصية مستند مخصصة جديدة لـString نوع البيانات. |
-| [AddLinkToContent](../../aspose.words.properties/customdocumentproperties/addlinktocontent/)(string, string) | إنشاء خاصية وثيقة مخصصة جديدة مرتبطة بالمحتوى. |
+| [Add](../../aspose.words.properties/customdocumentproperties/add/#add)(*string, bool*) | إنشاء خاصية مستند مخصصة جديدة لـBoolean نوع البيانات. |
+| [Add](../../aspose.words.properties/customdocumentproperties/add/#add_3)(*string, DateTime*) | إنشاء خاصية مستند مخصصة جديدة لـDateTime نوع البيانات. |
+| [Add](../../aspose.words.properties/customdocumentproperties/add/#add_1)(*string, double*) | إنشاء خاصية مستند مخصصة جديدة لـDouble نوع البيانات. |
+| [Add](../../aspose.words.properties/customdocumentproperties/add/#add_2)(*string, int*) | إنشاء خاصية مستند مخصصة جديدة لـNumber نوع البيانات. |
+| [Add](../../aspose.words.properties/customdocumentproperties/add/#add_4)(*string, string*) | إنشاء خاصية مستند مخصصة جديدة لـString نوع البيانات. |
+| [AddLinkToContent](../../aspose.words.properties/customdocumentproperties/addlinktocontent/)(*string, string*) | إنشاء خاصية وثيقة مخصصة جديدة مرتبطة بالمحتوى. |
 | [Clear](../../aspose.words.properties/documentpropertycollection/clear/)() | إزالة كافة الخصائص من المجموعة. |
-| [Contains](../../aspose.words.properties/documentpropertycollection/contains/)(string) | إرجاع`حقيقي` في حالة وجود خاصية بالاسم المحدد في المجموعة. |
+| [Contains](../../aspose.words.properties/documentpropertycollection/contains/)(*string*) | إرجاع`حقيقي` في حالة وجود خاصية بالاسم المحدد في المجموعة. |
 | [GetEnumerator](../../aspose.words.properties/documentpropertycollection/getenumerator/)() | إرجاع كائن العداد الذي يمكن استخدامه للتكرار على كافة العناصر الموجودة في المجموعة. |
-| [IndexOf](../../aspose.words.properties/documentpropertycollection/indexof/)(string) | الحصول على فهرس الخاصية بالاسم. |
-| [Remove](../../aspose.words.properties/documentpropertycollection/remove/)(string) | إزالة خاصية بالاسم المحدد من المجموعة. |
-| [RemoveAt](../../aspose.words.properties/documentpropertycollection/removeat/)(int) | إزالة خاصية في الفهرس المحدد. |
+| [IndexOf](../../aspose.words.properties/documentpropertycollection/indexof/)(*string*) | الحصول على فهرس الخاصية بالاسم. |
+| [Remove](../../aspose.words.properties/documentpropertycollection/remove/)(*string*) | إزالة خاصية بالاسم المحدد من المجموعة. |
+| [RemoveAt](../../aspose.words.properties/documentpropertycollection/removeat/)(*int*) | إزالة خاصية في الفهرس المحدد. |
 
-### ملاحظات
+## ملاحظات
 
 كل[`DocumentProperty`](../documentproperty/) يمثل الكائن خاصية مخصصة لمستند الحاوية.
 
@@ -49,7 +51,7 @@ public class CustomDocumentProperties : DocumentPropertyCollection
 
 يتم فرز الخصائص الموجودة في المجموعة أبجديًا حسب الاسم.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع خصائص المستند المخصصة.
 
@@ -79,5 +81,3 @@ foreach (var customDocumentProperty in doc.CustomDocumentProperties)
 * class [DocumentPropertyCollection](../documentpropertycollection/)
 * مساحة الاسم [Aspose.Words.Properties](../../aspose.words.properties/)
 * المجسم [Aspose.Words](../../)
-
-

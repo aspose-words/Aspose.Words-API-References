@@ -1,7 +1,9 @@
 ---
 title: IFieldResultFormatter.FormatNumeric
-second_title: Aspose.Words für .NET-API-Referenz
-description: IFieldResultFormatter methode. Wird aufgerufen wenn Aspose.Words einen numerischen Formatwechsel anwendet z. B.  ..
+linktitle: FormatNumeric
+articleTitle: FormatNumeric
+second_title: Aspose.Words für .NET
+description: IFieldResultFormatter FormatNumeric methode. Wird aufgerufen wenn Aspose.Words einen numerischen Formatwechsel anwendet z. B.   in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.fields/ifieldresultformatter/formatnumeric/
@@ -14,11 +16,11 @@ Wird aufgerufen, wenn Aspose.Words einen numerischen Formatwechsel anwendet, z. 
 public string FormatNumeric(double value, string format)
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Die Implementierung sollte zurückkehren`Null` um anzugeben, dass die Standardformatierung angewendet werden soll.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie automatisch ein benutzerdefiniertes Format auf Feldergebnisse angewendet wird, wenn die Felder aktualisiert werden.
 
@@ -155,7 +157,5 @@ private class FieldResultFormatter : IFieldResultFormatter
 ### Siehe auch
 
 * interface [IFieldResultFormatter](../)
-* namensraum [Aspose.Words.Fields](../../ifieldresultformatter/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

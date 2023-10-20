@@ -1,7 +1,9 @@
 ---
 title: RevisionOptions.RevisedPropertiesEffect
-second_title: Aspose.Words för .NET API Referens
-description: RevisionOptions fast egendom. Tillåter att specificera effekten för innehållsområden med ändringar av formateringsegenskaperFormatChange Standardvärdet ärNone
+linktitle: RevisedPropertiesEffect
+articleTitle: RevisedPropertiesEffect
+second_title: Aspose.Words för .NET
+description: RevisionOptions RevisedPropertiesEffect fast egendom. Tillåter att specificera effekten för innehållsområden med ändringar av formateringsegenskaperFormatChange Standardvärdet ärNone i C#.
 type: docs
 weight: 120
 url: /sv/net/aspose.words.layout/revisionoptions/revisedpropertieseffect/
@@ -14,11 +16,11 @@ Tillåter att specificera effekten för innehållsområden med ändringar av for
 public RevisionTextEffect RevisedPropertiesEffect { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Hiddenär inte tillåtet och kommer att orsakaArgumentOutOfRangeException.
 
-### Exempel
+## Exempel
 
 Visar hur man ändrar utseendet på revisioner.
 
@@ -70,7 +72,5 @@ doc.Save(ArtifactsDir + "Revision.RevisionOptions.pdf");
 
 * enum [RevisionTextEffect](../../revisiontexteffect/)
 * class [RevisionOptions](../)
-* namnutrymme [Aspose.Words.Layout](../../revisionoptions/)
+* namnutrymme [Aspose.Words.Layout](../../../aspose.words.layout/)
 * hopsättning [Aspose.Words](../../../)
-
-

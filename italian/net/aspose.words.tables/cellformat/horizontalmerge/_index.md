@@ -1,9 +1,11 @@
 ---
 title: CellFormat.HorizontalMerge
-second_title: Aspose.Words per .NET API Reference
-description: CellFormat proprietà. Specifica come la cella viene unita orizzontalmente con le altre celle nella riga.
+linktitle: HorizontalMerge
+articleTitle: HorizontalMerge
+second_title: Aspose.Words per .NET
+description: CellFormat HorizontalMerge proprietà. Specifica come la cella viene unita orizzontalmente con le altre celle nella riga in C#.
 type: docs
-weight: 50
+weight: 40
 url: /it/net/aspose.words.tables/cellformat/horizontalmerge/
 ---
 ## CellFormat.HorizontalMerge property
@@ -14,7 +16,7 @@ Specifica come la cella viene unita orizzontalmente con le altre celle nella rig
 public CellMerge HorizontalMerge { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come unire le celle della tabella orizzontalmente.
 
@@ -80,7 +82,5 @@ public string PrintCellMergeType(Cell cell)
 * property [VerticalMerge](../verticalmerge/)
 * enum [CellMerge](../../cellmerge/)
 * class [CellFormat](../)
-* spazio dei nomi [Aspose.Words.Tables](../../cellformat/)
+* spazio dei nomi [Aspose.Words.Tables](../../../aspose.words.tables/)
 * assemblea [Aspose.Words](../../../)
-
-

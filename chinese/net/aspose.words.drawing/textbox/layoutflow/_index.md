@@ -1,7 +1,9 @@
 ---
 title: TextBox.LayoutFlow
-second_title: Aspose.Words for .NET API 参考
-description: TextBox 财产. 确定形状中文本布局的流程
+linktitle: LayoutFlow
+articleTitle: LayoutFlow
+second_title: 用于 .NET 的 Aspose.Words
+description: TextBox LayoutFlow 财产. 确定形状中文本布局的流程 在 C#.
 type: docs
 weight: 60
 url: /zh/net/aspose.words.drawing/textbox/layoutflow/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.drawing/textbox/layoutflow/
 public LayoutFlow LayoutFlow { get; set; }
 ```
 
-### 评论
+## 评论
 
 默认值为Horizontal。
 
-### 例子
+## 例子
 
 演示如何设置文本框中文本的方向。
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "Shape.TextBoxLayoutFlow.docx");
 
 * enum [LayoutFlow](../../layoutflow/)
 * class [TextBox](../)
-* 命名空间 [Aspose.Words.Drawing](../../textbox/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

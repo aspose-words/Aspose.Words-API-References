@@ -1,7 +1,9 @@
 ---
 title: BarcodeParameters.IsUSPostalAddress
-second_title: Référence de l'API Aspose.Words pour .NET
-description: BarcodeParameters propriété. Que ce soitPostalAddress est une adresse postale aux ÉtatsUnis.
+linktitle: IsUSPostalAddress
+articleTitle: IsUSPostalAddress
+second_title: Aspose.Words pour .NET
+description: BarcodeParameters IsUSPostalAddress propriété. Que ce soitPostalAddress est une adresse postale aux ÉtatsUnis en C#.
 type: docs
 weight: 130
 url: /fr/net/aspose.words.fields/barcodeparameters/isuspostaladdress/
@@ -14,7 +16,7 @@ Que ce soit[`PostalAddress`](../postaladdress/) est une adresse postale aux Éta
 public bool IsUSPostalAddress { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment utiliser un générateur de codes-barres.
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.docx");
 ### Voir également
 
 * class [BarcodeParameters](../)
-* espace de noms [Aspose.Words.Fields](../../barcodeparameters/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

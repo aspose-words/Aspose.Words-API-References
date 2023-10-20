@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitBodyEnd
-second_title: Referencia de API de Aspose.Words para .NET
-description: DocumentVisitor método. Se llama cuando finaliza la enumeración de la historia del texto principal en una sección.
+linktitle: VisitBodyEnd
+articleTitle: VisitBodyEnd
+second_title: Aspose.Words para .NET
+description: DocumentVisitor VisitBodyEnd método. Se llama cuando finaliza la enumeración de la historia del texto principal en una sección en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words/documentvisitor/visitbodyend/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitBodyEnd(Body body)
 
 A[`VisitorAction`](../../visitoraction/) valor que especifica cómo continuar la enumeración.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo utilizar un visitante de documentos para imprimir la estructura de nodos de un documento.
 
@@ -193,7 +195,5 @@ public class DocStructurePrinter : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [Body](../../body/)
 * class [DocumentVisitor](../)
-* espacio de nombres [Aspose.Words](../../documentvisitor/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

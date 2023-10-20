@@ -1,7 +1,9 @@
 ---
 title: Style.BaseStyleName
-second_title: Aspose.Words för .NET API Referens
-description: Style fast egendom. Hämtar/ställer in namnet på stilen som denna stil är baserad på.
+linktitle: BaseStyleName
+articleTitle: BaseStyleName
+second_title: Aspose.Words för .NET
+description: Style BaseStyleName fast egendom. Hämtar/ställer in namnet på stilen som denna stil är baserad på i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words/style/basestylename/
@@ -14,11 +16,11 @@ Hämtar/ställer in namnet på stilen som denna stil är baserad på.
 public string BaseStyleName { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Detta kommer att vara en tom sträng om stilen inte är baserad på någon annan stil och den kan sättas till en tom sträng.
 
-### Exempel
+## Exempel
 
 Visar hur man använder stilalias.
 
@@ -49,7 +51,5 @@ Assert.AreEqual(doc.FirstSection.Body.Paragraphs[0].ParagraphFormat.Style,
 ### Se även
 
 * class [Style](../)
-* namnutrymme [Aspose.Words](../../style/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

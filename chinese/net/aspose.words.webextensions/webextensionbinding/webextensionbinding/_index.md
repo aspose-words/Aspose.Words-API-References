@@ -1,7 +1,9 @@
 ---
-title: WebExtensionBinding.WebExtensionBinding
-second_title: Aspose.Words for .NET API 参考
-description: WebExtensionBinding 构造函数. 使用指定参数创建 Web 扩展绑定
+title: WebExtensionBinding
+linktitle: WebExtensionBinding
+articleTitle: WebExtensionBinding
+second_title: 用于 .NET 的 Aspose.Words
+description: WebExtensionBinding 构造函数. 使用指定参数创建 Web 扩展绑定 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.webextensions/webextensionbinding/webextensionbinding/
@@ -20,7 +22,7 @@ public WebExtensionBinding(string id, WebExtensionBindingType bindingType, strin
 | bindingType | WebExtensionBindingType | 绑定类型。 |
 | appRef | String | 绑定键用于将此列表中的绑定条目与文档中的绑定数据进行映射。 |
 
-### 例子
+## 例子
 
 演示如何向文档添加 Web 扩展。
 
@@ -66,7 +68,5 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 
 * enum [WebExtensionBindingType](../../webextensionbindingtype/)
 * class [WebExtensionBinding](../)
-* 命名空间 [Aspose.Words.WebExtensions](../../webextensionbinding/)
+* 命名空间 [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * 部件 [Aspose.Words](../../../)
-
-

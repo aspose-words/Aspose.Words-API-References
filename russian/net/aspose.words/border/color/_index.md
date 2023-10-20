@@ -1,7 +1,9 @@
 ---
 title: Border.Color
-second_title: Справочник по API Aspose.Words для .NET
-description: Border свойство. Получает или задает цвет границы.
+linktitle: Color
+articleTitle: Color
+second_title: Aspose.Words для .NET
+description: Border Color свойство. Получает или задает цвет границы на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words/border/color/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/border/color/
 public Color Color { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как вставить в документ строку, окруженную рамкой.
 
@@ -34,7 +36,5 @@ doc.Save(ArtifactsDir + "Border.FontBorder.docx");
 ### Смотрите также
 
 * class [Border](../)
-* пространство имен [Aspose.Words](../../border/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

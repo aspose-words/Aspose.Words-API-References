@@ -1,7 +1,9 @@
 ---
 title: GeneralFormatCollection.Item
-second_title: Aspose.Words for .NET API 参考
-description: GeneralFormatCollection 财产. 获取指定索引处的通用格式
+linktitle: Item
+articleTitle: Item
+second_title: 用于 .NET 的 Aspose.Words
+description: GeneralFormatCollection Item 财产. 获取指定索引处的通用格式 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.fields/generalformatcollection/item/
@@ -22,7 +24,7 @@ public GeneralFormat this[int index] { get; }
 
 通用格式。
 
-### 例子
+## 例子
 
 展示如何设置字段结果的格式。
 
@@ -87,7 +89,5 @@ Assert.AreEqual(0, format.GeneralFormats.Count);
 
 * enum [GeneralFormat](../../generalformat/)
 * class [GeneralFormatCollection](../)
-* 命名空间 [Aspose.Words.Fields](../../generalformatcollection/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

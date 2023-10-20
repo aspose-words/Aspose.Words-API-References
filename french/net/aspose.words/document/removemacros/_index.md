@@ -1,9 +1,11 @@
 ---
 title: Document.RemoveMacros
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Document méthode. Supprime toutes les macros le projet VBA ainsi que les barres doutils et les personnalisations de commandes du document.
+linktitle: RemoveMacros
+articleTitle: RemoveMacros
+second_title: Aspose.Words pour .NET
+description: Document RemoveMacros méthode. Supprime toutes les macros le projet VBA ainsi que les barres doutils et les personnalisations de commandes du document en C#.
 type: docs
-weight: 690
+weight: 670
 url: /fr/net/aspose.words/document/removemacros/
 ---
 ## Document.RemoveMacros method
@@ -14,11 +16,11 @@ Supprime toutes les macros (le projet VBA) ainsi que les barres d'outils et les 
 public void RemoveMacros()
 ```
 
-### Remarques
+## Remarques
 
 En supprimant toutes les macros d'un document, vous pouvez vous assurer que le document ne contient aucun virus de macro.
 
-### Exemples
+## Exemples
 
 Montre comment supprimer toutes les macros d’un document.
 
@@ -38,7 +40,5 @@ Assert.Null(doc.VbaProject);
 ### Voir également
 
 * class [Document](../)
-* espace de noms [Aspose.Words](../../document/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

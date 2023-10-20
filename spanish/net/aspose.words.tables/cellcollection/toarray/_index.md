@@ -1,7 +1,9 @@
 ---
 title: CellCollection.ToArray
-second_title: Referencia de API de Aspose.Words para .NET
-description: CellCollection método. Copia todas las celdas de la colección en una nueva matriz de celdas.
+linktitle: ToArray
+articleTitle: ToArray
+second_title: Aspose.Words para .NET
+description: CellCollection ToArray método. Copia todas las celdas de la colección en una nueva matriz de celdas en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words.tables/cellcollection/toarray/
@@ -18,7 +20,7 @@ public Cell[] ToArray()
 
 Una serie de células.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo recorrer todas las tablas del documento e imprimir el contenido de cada celda.
 
@@ -65,7 +67,5 @@ for (int i = 0; i < tables.Count; i++)
 
 * class [Cell](../../cell/)
 * class [CellCollection](../)
-* espacio de nombres [Aspose.Words.Tables](../../cellcollection/)
+* espacio de nombres [Aspose.Words.Tables](../../../aspose.words.tables/)
 * asamblea [Aspose.Words](../../../)
-
-

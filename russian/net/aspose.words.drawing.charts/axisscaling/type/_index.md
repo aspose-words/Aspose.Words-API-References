@@ -1,7 +1,9 @@
 ---
 title: AxisScaling.Type
-second_title: Справочник по API Aspose.Words для .NET
-description: AxisScaling свойство. Получает или задает тип масштабирования оси.
+linktitle: Type
+articleTitle: Type
+second_title: Aspose.Words для .NET
+description: AxisScaling Type свойство. Получает или задает тип масштабирования оси на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.drawing.charts/axisscaling/type/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.drawing.charts/axisscaling/type/
 public AxisScaleType Type { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Linear значение — единственное, что разрешено в новых диаграммах MS Office 2016.
 
-### Примеры
+## Примеры
 
 Показывает, как применить логарифмическое масштабирование к оси диаграммы.
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "Charts.AxisScaling.docx");
 
 * enum [AxisScaleType](../../axisscaletype/)
 * class [AxisScaling](../)
-* пространство имен [Aspose.Words.Drawing.Charts](../../axisscaling/)
+* пространство имен [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../../)
-
-

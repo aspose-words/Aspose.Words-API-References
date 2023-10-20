@@ -1,7 +1,9 @@
 ---
 title: Font.TintAndShade
-second_title: Справочник по API Aspose.Words для .NET
-description: Font свойство. Получает или задает двойное значение которое осветляет или затемняет цвет.
+linktitle: TintAndShade
+articleTitle: TintAndShade
+second_title: Aspose.Words для .NET
+description: Font TintAndShade свойство. Получает или задает двойное значение которое осветляет или затемняет цвет на С#.
 type: docs
 weight: 520
 url: /ru/net/aspose.words/font/tintandshade/
@@ -14,13 +16,13 @@ url: /ru/net/aspose.words/font/tintandshade/
 public double TintAndShade { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Допустимые значения для этого свойства находятся в диапазоне от -1 (самый темный) до 1 (самый светлый). Ноль (0) является нейтральным. Попытка установить для этого свойства значение меньше -1 или больше 1 приводит кArgumentOutOfRangeException.
 
 Установка этого свойства для[`Font`](../) объект с цветовой гаммой, не относящейся к теме, приводит кInvalidOperationException.
 
-### Примеры
+## Примеры
 
 Показывает, как создавать и использовать тематический стиль.
 
@@ -43,7 +45,5 @@ builder.Writeln("Text with themed style");
 ### Смотрите также
 
 * class [Font](../)
-* пространство имен [Aspose.Words](../../font/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

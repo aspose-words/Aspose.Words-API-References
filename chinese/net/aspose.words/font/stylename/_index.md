@@ -1,7 +1,9 @@
 ---
 title: Font.StyleName
-second_title: Aspose.Words for .NET API 参考
-description: Font 财产. 获取或设置应用于此格式的字符样式的名称
+linktitle: StyleName
+articleTitle: StyleName
+second_title: 用于 .NET 的 Aspose.Words
+description: Font StyleName 财产. 获取或设置应用于此格式的字符样式的名称 在 C#.
 type: docs
 weight: 420
 url: /zh/net/aspose.words/font/stylename/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/font/stylename/
 public string StyleName { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何更改现有文本的样式。
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "Font.ChangeStyle.docx");
 ### 也可以看看
 
 * class [Font](../)
-* 命名空间 [Aspose.Words](../../font/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

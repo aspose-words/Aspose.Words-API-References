@@ -1,7 +1,9 @@
 ---
 title: Shading.Texture
-second_title: Aspose.Words لمراجع .NET API
-description: Shading ملكية. الحصول على نسيج التظليل أو تعيينه.
+linktitle: Texture
+articleTitle: Texture
+second_title: Aspose.Words لـ .NET
+description: Shading Texture ملكية. الحصول على نسيج التظليل أو تعيينه في C#.
 type: docs
 weight: 70
 url: /ar/net/aspose.words/shading/texture/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/shading/texture/
 public TextureIndex Texture { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تزيين النص بالحدود والتظليل.
 
@@ -42,7 +44,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.ApplyBordersAndShading.docx");
 
 * enum [TextureIndex](../../textureindex/)
 * class [Shading](../)
-* مساحة الاسم [Aspose.Words](../../shading/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

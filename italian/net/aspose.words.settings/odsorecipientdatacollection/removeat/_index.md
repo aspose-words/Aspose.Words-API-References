@@ -1,7 +1,9 @@
 ---
 title: OdsoRecipientDataCollection.RemoveAt
-second_title: Aspose.Words per .NET API Reference
-description: OdsoRecipientDataCollection metodo. Rimuove lelemento allindice specificato.
+linktitle: RemoveAt
+articleTitle: RemoveAt
+second_title: Aspose.Words per .NET
+description: OdsoRecipientDataCollection RemoveAt metodo. Rimuove lelemento allindice specificato in C#.
 type: docs
 weight: 70
 url: /it/net/aspose.words.settings/odsorecipientdatacollection/removeat/
@@ -18,7 +20,7 @@ public void RemoveAt(int index)
 | --- | --- | --- |
 | index | Int32 | L'indice in base zero dell'elemento. |
 
-### Esempi
+## Esempi
 
 Mostra come accedere alla raccolta di dati che indica quali record dell'origine dati di unione verranno esclusi da una stampa unione.
 
@@ -58,7 +60,5 @@ Assert.AreEqual(0, dataCollection.Count);
 ### Guarda anche
 
 * class [OdsoRecipientDataCollection](../)
-* spazio dei nomi [Aspose.Words.Settings](../../odsorecipientdatacollection/)
+* spazio dei nomi [Aspose.Words.Settings](../../../aspose.words.settings/)
 * assemblea [Aspose.Words](../../../)
-
-

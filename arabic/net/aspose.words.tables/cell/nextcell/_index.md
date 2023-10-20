@@ -1,7 +1,9 @@
 ---
 title: Cell.NextCell
-second_title: Aspose.Words لمراجع .NET API
-description: Cell ملكية. يحصل على التاليCell العقدة
+linktitle: NextCell
+articleTitle: NextCell
+second_title: Aspose.Words لـ .NET
+description: Cell NextCell ملكية. يحصل على التاليCell العقدة في C#.
 type: docs
 weight: 70
 url: /ar/net/aspose.words.tables/cell/nextcell/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.tables/cell/nextcell/
 public Cell NextCell { get; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 يمكن استخدام هذه الطريقة عندما تحتاج إلى الوصول إلى خلايا a[`Row`](../../row/) . إذا كان a [`StructuredDocumentTag`](../../../aspose.words.markup/structureddocumenttag/) تم العثور على العقدة في صف بدلاً من خلية، ويتم اجتيازها تلقائيًا للحصول على خلية موجودة بداخلها.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعداد جميع خلايا الجدول.
 
@@ -39,7 +41,5 @@ for (Row row = table.FirstRow; row != null; row = row.NextRow)
 ### أنظر أيضا
 
 * class [Cell](../)
-* مساحة الاسم [Aspose.Words.Tables](../../cell/)
+* مساحة الاسم [Aspose.Words.Tables](../../../aspose.words.tables/)
 * المجسم [Aspose.Words](../../../)
-
-

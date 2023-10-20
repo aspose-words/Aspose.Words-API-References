@@ -1,7 +1,9 @@
 ---
 title: FieldTA.IsBold
-second_title: Aspose.Words för .NET API Referens
-description: FieldTA fast egendom. Hämtar eller ställer in om fet formatering ska tillämpas på sidnumret för posten.
+linktitle: IsBold
+articleTitle: IsBold
+second_title: Aspose.Words för .NET
+description: FieldTA IsBold fast egendom. Hämtar eller ställer in om fet formatering ska tillämpas på sidnumret för posten i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.fields/fieldta/isbold/
@@ -14,7 +16,7 @@ Hämtar eller ställer in om fet formatering ska tillämpas på sidnumret för p
 public bool IsBold { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man bygger och anpassar en tabell över myndigheter med hjälp av TOA- och TA-fält.
 
@@ -137,7 +139,5 @@ private static FieldTA InsertToaEntry(DocumentBuilder builder, string entryCateg
 ### Se även
 
 * class [FieldTA](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldta/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

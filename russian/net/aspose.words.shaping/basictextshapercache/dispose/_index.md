@@ -1,7 +1,9 @@
 ---
 title: BasicTextShaperCache.Dispose
-second_title: Справочник по API Aspose.Words для .NET
-description: BasicTextShaperCache метод. Удаляет кэшированные данные.ITextShaper экземпляры.
+linktitle: Dispose
+articleTitle: Dispose
+second_title: Aspose.Words для .NET
+description: BasicTextShaperCache Dispose метод. Удаляет кэшированные данные.ITextShaper экземпляры на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.shaping/basictextshapercache/dispose/
@@ -17,7 +19,5 @@ public void Dispose()
 ### Смотрите также
 
 * class [BasicTextShaperCache](../)
-* пространство имен [Aspose.Words.Shaping](../../basictextshapercache/)
+* пространство имен [Aspose.Words.Shaping](../../../aspose.words.shaping/)
 * сборка [Aspose.Words](../../../)
-
-

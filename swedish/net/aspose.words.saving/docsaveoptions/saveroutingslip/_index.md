@@ -1,7 +1,9 @@
 ---
 title: DocSaveOptions.SaveRoutingSlip
-second_title: Aspose.Words för .NET API Referens
-description: DocSaveOptions fast egendom. Närfalsk  RoutingSlipdata sparas inte i utdatadokumentet. Standardvärdet ärSann .
+linktitle: SaveRoutingSlip
+articleTitle: SaveRoutingSlip
+second_title: Aspose.Words för .NET
+description: DocSaveOptions SaveRoutingSlip fast egendom. Närfalsk  RoutingSlipdata sparas inte i utdatadokumentet. Standardvärdet ärSann  i C#.
 type: docs
 weight: 60
 url: /sv/net/aspose.words.saving/docsaveoptions/saveroutingslip/
@@ -14,7 +16,7 @@ När`falsk` , RoutingSlip-data sparas inte i utdatadokumentet. Standardvärdet �
 public bool SaveRoutingSlip { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du ställer in sparalternativ för äldre Microsoft Word-format.
 
@@ -47,7 +49,5 @@ Assert.AreEqual("Hello world!", doc.GetText().Trim());
 ### Se även
 
 * class [DocSaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../docsaveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

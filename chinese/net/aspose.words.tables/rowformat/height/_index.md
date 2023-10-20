@@ -1,7 +1,9 @@
 ---
 title: RowFormat.Height
-second_title: Aspose.Words for .NET API 参考
-description: RowFormat 财产. 获取或设置表格行的高度以磅为单位
+linktitle: Height
+articleTitle: Height
+second_title: 用于 .NET 的 Aspose.Words
+description: RowFormat Height 财产. 获取或设置表格行的高度以磅为单位 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.tables/rowformat/height/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.tables/rowformat/height/
 public double Height { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何使用文档生成器设置行格式。
 
@@ -109,7 +111,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.CreateFormattedTable.docx");
 ### 也可以看看
 
 * class [RowFormat](../)
-* 命名空间 [Aspose.Words.Tables](../../rowformat/)
+* 命名空间 [Aspose.Words.Tables](../../../aspose.words.tables/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: VbaReferenceCollection.RemoveAt
-second_title: Aspose.Words for .NET API 参考
-description: VbaReferenceCollection 方法. 删除VbaReference集合中指定索引处的元素
+linktitle: RemoveAt
+articleTitle: RemoveAt
+second_title: 用于 .NET 的 Aspose.Words
+description: VbaReferenceCollection RemoveAt 方法. 删除VbaReference集合中指定索引处的元素 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.vba/vbareferencecollection/removeat/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.vba/vbareferencecollection/removeat/
 public void RemoveAt(int index)
 ```
 
-### 例子
+## 例子
 
 演示如何从 VBA 参考集合中获取/删除元素。
 
@@ -88,7 +90,5 @@ private static string GetLibIdProjectPath(string libIdProject)
 ### 也可以看看
 
 * class [VbaReferenceCollection](../)
-* 命名空间 [Aspose.Words.Vba](../../vbareferencecollection/)
+* 命名空间 [Aspose.Words.Vba](../../../aspose.words.vba/)
 * 部件 [Aspose.Words](../../../)
-
-

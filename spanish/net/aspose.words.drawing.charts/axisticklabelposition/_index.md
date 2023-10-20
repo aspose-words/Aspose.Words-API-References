@@ -1,7 +1,9 @@
 ---
-title: Enum AxisTickLabelPosition
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Drawing.Charts.AxisTickLabelPosition enumeración. Especifica las posibles posiciones para las etiquetas de marca.
+title: AxisTickLabelPosition Enum
+linktitle: AxisTickLabelPosition
+articleTitle: AxisTickLabelPosition
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Drawing.Charts.AxisTickLabelPosition enumeración. Especifica las posibles posiciones para las etiquetas de marca en C#.
 type: docs
 weight: 580
 url: /es/net/aspose.words.drawing.charts/axisticklabelposition/
@@ -24,7 +26,7 @@ public enum AxisTickLabelPosition
 | None | `3` | Especifica que las etiquetas de los ejes no se dibujan. |
 | Default | `2` | Especifica el valor predeterminado de la posición de las etiquetas de marca. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo insertar un gráfico con valores de fecha/hora.
 
@@ -79,5 +81,3 @@ doc.Save(ArtifactsDir + "Charts.DateTimeValues.docx");
 
 * espacio de nombres [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * asamblea [Aspose.Words](../../)
-
-

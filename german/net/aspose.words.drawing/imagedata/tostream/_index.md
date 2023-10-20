@@ -1,9 +1,11 @@
 ---
 title: ImageData.ToStream
-second_title: Aspose.Words für .NET-API-Referenz
-description: ImageData methode. Erstellt einen Stream der die Bildbytes enthält und gibt ihn zurück.
+linktitle: ToStream
+articleTitle: ToStream
+second_title: Aspose.Words für .NET
+description: ImageData ToStream methode. Erstellt einen Stream der die Bildbytes enthält und gibt ihn zurück in C#.
 type: docs
-weight: 240
+weight: 230
 url: /de/net/aspose.words.drawing/imagedata/tostream/
 ---
 ## ImageData.ToStream method
@@ -14,7 +16,7 @@ Erstellt einen Stream, der die Bildbytes enthält, und gibt ihn zurück.
 public Stream ToStream()
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Wenn die Bildbytes in der Form gespeichert sind, wird eine erstellt und zurückgegebenMemoryStream Objekt.
 
@@ -24,7 +26,7 @@ Wenn das Bild verlinkt und in einer externen URL gespeichert ist, wird die Datei
 
 Liegt es in der Verantwortung des Aufrufers, das Stream-Objekt zu entsorgen?
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie eine Bilddatei aus den Rohbilddaten einer Form erstellt wird.
 
@@ -51,7 +53,5 @@ using (Stream imgStream = imgShape.ImageData.ToStream())
 ### Siehe auch
 
 * class [ImageData](../)
-* namensraum [Aspose.Words.Drawing](../../imagedata/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

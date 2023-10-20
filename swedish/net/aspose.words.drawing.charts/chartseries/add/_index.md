@@ -1,12 +1,14 @@
 ---
 title: ChartSeries.Add
-second_title: Aspose.Words för .NET API Referens
-description: ChartSeries metod. Lägger till det angivna Xvärdet till diagramserien. Om serien stöder Yvärden och bubbelstorlekar kommer de att vara tomma för Xvärdet.
+linktitle: Add
+articleTitle: Add
+second_title: Aspose.Words för .NET
+description: ChartSeries Add metod. Lägger till det angivna Xvärdet till diagramserien. Om serien stöder Yvärden och bubbelstorlekar kommer de att vara tomma för Xvärdet i C#.
 type: docs
 weight: 160
 url: /sv/net/aspose.words.drawing.charts/chartseries/add/
 ---
-## Add(ChartXValue) {#add}
+## Add(*[ChartXValue](../../chartxvalue/)*) {#add}
 
 Lägger till det angivna X-värdet till diagramserien. Om serien stöder Y-värden och bubbelstorlekar kommer de att vara tomma för X-värdet.
 
@@ -18,12 +20,12 @@ public void Add(ChartXValue xValue)
 
 * class [ChartXValue](../../chartxvalue/)
 * class [ChartSeries](../)
-* namnutrymme [Aspose.Words.Drawing.Charts](../../chartseries/)
+* namnutrymme [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## Add(ChartXValue, ChartYValue) {#add_1}
+## Add(*[ChartXValue](../../chartxvalue/), [ChartYValue](../../chartyvalue/)*) {#add_1}
 
 Lägger till de angivna X- och Y-värdena till diagramserien.
 
@@ -31,7 +33,7 @@ Lägger till de angivna X- och Y-värdena till diagramserien.
 public void Add(ChartXValue xValue, ChartYValue yValue)
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man lägger till/tar bort diagramdatavärden.
 
@@ -94,12 +96,12 @@ doc.Save(ArtifactsDir + "Charts.PopulateChartWithData.docx");
 * class [ChartXValue](../../chartxvalue/)
 * class [ChartYValue](../../chartyvalue/)
 * class [ChartSeries](../)
-* namnutrymme [Aspose.Words.Drawing.Charts](../../chartseries/)
+* namnutrymme [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## Add(ChartXValue, ChartYValue, double) {#add_2}
+## Add(*[ChartXValue](../../chartxvalue/), [ChartYValue](../../chartyvalue/), double*) {#add_2}
 
 Lägger till det angivna X-värdet, Y-värdet och bubbelstorleken till diagramserien.
 
@@ -112,7 +114,5 @@ public void Add(ChartXValue xValue, ChartYValue yValue, double bubbleSize)
 * class [ChartXValue](../../chartxvalue/)
 * class [ChartYValue](../../chartyvalue/)
 * class [ChartSeries](../)
-* namnutrymme [Aspose.Words.Drawing.Charts](../../chartseries/)
+* namnutrymme [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../../)
-
-

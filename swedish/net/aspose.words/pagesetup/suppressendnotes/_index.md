@@ -1,7 +1,9 @@
 ---
 title: PageSetup.SuppressEndnotes
-second_title: Aspose.Words för .NET API Referens
-description: PageSetup fast egendom. True om slutnoter skrivs ut i slutet av nästa avsnitt som inte undertrycker slutnoter. Undertryckta slutnoter skrivs ut före slutnoterna i det avsnittet.
+linktitle: SuppressEndnotes
+articleTitle: SuppressEndnotes
+second_title: Aspose.Words för .NET
+description: PageSetup SuppressEndnotes fast egendom. True om slutnoter skrivs ut i slutet av nästa avsnitt som inte undertrycker slutnoter. Undertryckta slutnoter skrivs ut före slutnoterna i det avsnittet i C#.
 type: docs
 weight: 410
 url: /sv/net/aspose.words/pagesetup/suppressendnotes/
@@ -14,7 +16,7 @@ True om slutnoter skrivs ut i slutet av nästa avsnitt som inte undertrycker slu
 public bool SuppressEndnotes { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man lagrar slutnoter i slutet av varje avsnitt och ändrar deras positioner.
 
@@ -73,7 +75,5 @@ private static void InsertSectionWithEndnote(Document doc, string sectionBodyTex
 ### Se även
 
 * class [PageSetup](../)
-* namnutrymme [Aspose.Words](../../pagesetup/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

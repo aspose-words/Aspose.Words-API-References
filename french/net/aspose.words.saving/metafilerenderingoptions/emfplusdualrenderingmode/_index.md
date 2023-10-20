@@ -1,7 +1,9 @@
 ---
 title: MetafileRenderingOptions.EmfPlusDualRenderingMode
-second_title: Référence de l'API Aspose.Words pour .NET
-description: MetafileRenderingOptions propriété. Obtient ou définit une valeur déterminant comment les métafichiers EMF Dual doivent être rendus.
+linktitle: EmfPlusDualRenderingMode
+articleTitle: EmfPlusDualRenderingMode
+second_title: Aspose.Words pour .NET
+description: MetafileRenderingOptions EmfPlusDualRenderingMode propriété. Obtient ou définit une valeur déterminant comment les métafichiers EMF Dual doivent être rendus en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.saving/metafilerenderingoptions/emfplusdualrenderingmode/
@@ -14,7 +16,7 @@ Obtient ou définit une valeur déterminant comment les métafichiers EMF+ Dual 
 public EmfPlusDualRenderingMode EmfPlusDualRenderingMode { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 Les métafichiers EMF+ Dual contiennent à la fois des parties EMF+ et EMF. MS Word et GDI+ restituent toujours la partie EMF+. Aspose.Words ne prend actuellement pas entièrement en charge tous les enregistrements EMF+ et, dans certains cas, le résultat du rendu de la partie EMF est meilleur que le résultat du rendu de la partie EMF+.
 
@@ -22,7 +24,7 @@ Cette option est utilisée uniquement lorsque le métafichier est rendu sous for
 
 La valeur par défaut estEmfPlusWithFallback.
 
-### Exemples
+## Exemples
 
 Montre comment configurer les options de rendu liées aux métafichiers Windows améliorés lors de l’enregistrement au format PDF.
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.RenderMetafile.pdf", saveOptions);
 
 * enum [EmfPlusDualRenderingMode](../../emfplusdualrenderingmode/)
 * class [MetafileRenderingOptions](../)
-* espace de noms [Aspose.Words.Saving](../../metafilerenderingoptions/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

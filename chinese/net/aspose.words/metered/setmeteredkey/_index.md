@@ -1,7 +1,9 @@
 ---
 title: Metered.SetMeteredKey
-second_title: Aspose.Words for .NET API 参考
-description: Metered 方法. 设置计量公钥和私钥 如果您购买计量许可证则在启动应用程序时应该调用此 API通常这就足够了 但是如果总是无法上传消费数据并且超过24小时许可证将被设置为评估状态 为了避免这种情况您应该定期检查许可证状态如果是评估状态请再次调用此接口
+linktitle: SetMeteredKey
+articleTitle: SetMeteredKey
+second_title: 用于 .NET 的 Aspose.Words
+description: Metered SetMeteredKey 方法. 设置计量公钥和私钥 如果您购买计量许可证则在启动应用程序时应该调用此 API通常这就足够了 但是如果总是无法上传消费数据并且超过24小时许可证将被设置为评估状态 为了避免这种情况您应该定期检查许可证状态如果是评估状态请再次调用此接口 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words/metered/setmeteredkey/
@@ -19,7 +21,7 @@ public void SetMeteredKey(string publicKey, string privateKey)
 | publicKey | String | 公钥 |
 | privateKey | String | 私钥 |
 
-### 例子
+## 例子
 
 展示如何激活计量许可证并跟踪信用/消耗。
 
@@ -46,7 +48,5 @@ Console.WriteLine($"Consumption quantity after operation: {Metered.GetConsumptio
 ### 也可以看看
 
 * class [Metered](../)
-* 命名空间 [Aspose.Words](../../metered/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

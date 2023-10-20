@@ -1,7 +1,9 @@
 ---
 title: EditableRange.Id
-second_title: Referencia de API de Aspose.Words para .NET
-description: EditableRange propiedad. Obtiene el identificador de rango editable.
+linktitle: Id
+articleTitle: Id
+second_title: Aspose.Words para .NET
+description: EditableRange Id propiedad. Obtiene el identificador de rango editable en C#.
 type: docs
 weight: 40
 url: /es/net/aspose.words/editablerange/id/
@@ -14,13 +16,13 @@ Obtiene el identificador de rango editable.
 public int Id { get; }
 ```
 
-### Observaciones
+## Observaciones
 
 La región debe ser demarcada utilizando el[`EditableRangeStart`](../editablerangestart/) y[`EditableRangeEnd`](../editablerangeend/)
 
 Se supone que los identificadores de rango editables son únicos en un documento y Aspose.Words automáticamente mantiene identificadores de rango editables al cargar, guardar y combinar documentos.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo trabajar con un rango editable.
 
@@ -66,7 +68,5 @@ editableRange.Remove();
 ### Ver también
 
 * class [EditableRange](../)
-* espacio de nombres [Aspose.Words](../../editablerange/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

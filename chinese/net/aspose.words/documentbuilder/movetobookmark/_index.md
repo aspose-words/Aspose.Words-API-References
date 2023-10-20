@@ -1,12 +1,14 @@
 ---
 title: DocumentBuilder.MoveToBookmark
-second_title: Aspose.Words for .NET API 参考
-description: DocumentBuilder 方法. 将光标移动到书签
+linktitle: MoveToBookmark
+articleTitle: MoveToBookmark
+second_title: 用于 .NET 的 Aspose.Words
+description: DocumentBuilder MoveToBookmark 方法. 将光标移动到书签 在 C#.
 type: docs
-weight: 500
+weight: 490
 url: /zh/net/aspose.words/documentbuilder/movetobookmark/
 ---
-## MoveToBookmark(string) {#movetobookmark}
+## MoveToBookmark(*string*) {#movetobookmark}
 
 将光标移动到书签。
 
@@ -22,7 +24,7 @@ public bool MoveToBookmark(string bookmarkName)
 
 `真的`如果找到书签；`错误的`否则。
 
-### 评论
+## 评论
 
 将光标移动到指定名称 的书签开头后面的位置。
 
@@ -32,7 +34,7 @@ public bool MoveToBookmark(string bookmarkName)
 
 请注意，文档中的某些书签已分配给表单字段。 移动到此类书签并在其中插入文本会将文本插入到 表单字段代码中。虽然这不会使表单字段无效，但 insert 文本将不可见，因为它成为字段代码的一部分。
 
-### 例子
+## 例子
 
 演示如何将文档生成器的光标移动到文档中的不同节点。
 
@@ -86,12 +88,12 @@ Assert.IsTrue(builder.IsAtStartOfParagraph);
 ### 也可以看看
 
 * class [DocumentBuilder](../)
-* 命名空间 [Aspose.Words](../../documentbuilder/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## MoveToBookmark(string, bool, bool) {#movetobookmark_1}
+## MoveToBookmark(*string, bool, bool*) {#movetobookmark_1}
 
 以更高精度将光标移动到书签。
 
@@ -109,7 +111,7 @@ public bool MoveToBookmark(string bookmarkName, bool isStart, bool isAfter)
 
 `真的`如果找到书签；`错误的`否则。
 
-### 评论
+## 评论
 
 将光标移动到书签开始或结束之前或之后的位置。
 
@@ -117,7 +119,7 @@ public bool MoveToBookmark(string bookmarkName, bool isStart, bool isAfter)
 
 比较不区分大小写。如果没有找到书签，`错误的` is 返回并且光标未移动。
 
-### 例子
+## 例子
 
 演示如何将文档生成器的节点插入点光标移动到书签。
 
@@ -166,7 +168,5 @@ Assert.AreEqual("1. 2. Hello world! 3. 4.", doc.GetText().Trim());
 ### 也可以看看
 
 * class [DocumentBuilder](../)
-* 命名空间 [Aspose.Words](../../documentbuilder/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

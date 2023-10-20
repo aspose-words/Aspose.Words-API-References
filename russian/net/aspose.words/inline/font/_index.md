@@ -1,7 +1,9 @@
 ---
 title: Inline.Font
-second_title: Справочник по API Aspose.Words для .NET
-description: Inline свойство. Предоставляет доступ к форматированию шрифта этого объекта.
+linktitle: Font
+articleTitle: Font
+second_title: Aspose.Words для .NET
+description: Inline Font свойство. Предоставляет доступ к форматированию шрифта этого объекта на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words/inline/font/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/inline/font/
 public Font Font { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как вручную создать документ Aspose.Words.
 
@@ -65,7 +67,5 @@ doc.Save(ArtifactsDir + "Section.CreateManually.docx");
 
 * class [Font](../../font/)
 * class [Inline](../)
-* пространство имен [Aspose.Words](../../inline/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

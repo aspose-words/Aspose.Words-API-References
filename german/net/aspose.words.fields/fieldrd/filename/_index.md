@@ -1,7 +1,9 @@
 ---
 title: FieldRD.FileName
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldRD eigendom. Ruft den Namen der Datei ab die beim Generieren eines Inhaltsverzeichnisses Autoritätsverzeichnisses oder Index einbezogen werden soll oder legt diesen fest.
+linktitle: FileName
+articleTitle: FileName
+second_title: Aspose.Words für .NET
+description: FieldRD FileName eigendom. Ruft den Namen der Datei ab die beim Generieren eines Inhaltsverzeichnisses Autoritätsverzeichnisses oder Index einbezogen werden soll oder legt diesen fest in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.fields/fieldrd/filename/
@@ -14,7 +16,7 @@ Ruft den Namen der Datei ab, die beim Generieren eines Inhaltsverzeichnisses, Au
 public string FileName { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt die Verwendung des RD-Felds zum Erstellen eines Inhaltsverzeichniseintrags aus Überschriften in anderen Dokumenten an.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "Field.RD.docx");
 ### Siehe auch
 
 * class [FieldRD](../)
-* namensraum [Aspose.Words.Fields](../../fieldrd/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

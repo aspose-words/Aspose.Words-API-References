@@ -1,7 +1,9 @@
 ---
 title: Revision.RevisionType
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Revision propriété. Obtient le type de cette révision.
+linktitle: RevisionType
+articleTitle: RevisionType
+second_title: Aspose.Words pour .NET
+description: Revision RevisionType propriété. Obtient le type de cette révision en C#.
 type: docs
 weight: 60
 url: /fr/net/aspose.words/revision/revisiontype/
@@ -14,7 +16,7 @@ Obtient le type de cette révision.
 public RevisionType RevisionType { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment travailler avec les révisions dans un document.
 
@@ -98,7 +100,5 @@ Assert.AreEqual("This is revision #1. \rThis is revision #2.", doc.GetText().Tri
 
 * enum [RevisionType](../../revisiontype/)
 * class [Revision](../)
-* espace de noms [Aspose.Words](../../revision/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

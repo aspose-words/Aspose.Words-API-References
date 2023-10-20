@@ -1,7 +1,9 @@
 ---
-title: Class FormField
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Fields.FormField 班级. 代表单个表单字段
+title: FormField Class
+linktitle: FormField
+articleTitle: FormField
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Fields.FormField 班级. 代表单个表单字段 在 C#.
 type: docs
 weight: 2620
 url: /zh/net/aspose.words.fields/formfield/
@@ -61,20 +63,20 @@ public class FormField : SpecialChar
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [Accept](../../aspose.words.fields/formfield/accept/)(DocumentVisitor) | 接受访客。 |
-| [Clone](../../aspose.words/node/clone/)(bool) | 创建节点的副本。 |
-| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | 获取指定的第一个祖先[`NodeType`](../../aspose.words/nodetype/). |
-| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | 获取指定对象类型的第一个祖先。 |
+| override [Accept](../../aspose.words.fields/formfield/accept/)(*[DocumentVisitor](../../aspose.words/documentvisitor/)*) | 接受访客。 |
+| [Clone](../../aspose.words/node/clone/)(*bool*) | 创建节点的副本。 |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*[NodeType](../../aspose.words/nodetype/)*) | 获取指定的第一个祖先[`NodeType`](../../aspose.words/nodetype/). |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | 获取指定对象类型的第一个祖先。 |
 | override [GetText](../../aspose.words/specialchar/gettext/)() | 获取该节点代表的特殊字符。 |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | 根据先序树遍历算法获取下一个节点。 |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | 根据先序树遍历算法获取前一个节点。 |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../../aspose.words/node/)*) | 根据先序树遍历算法获取下一个节点。 |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../../aspose.words/node/)*) | 根据先序树遍历算法获取前一个节点。 |
 | [Remove](../../aspose.words/node/remove/)() | 将自身从父级中删除。 |
 | [RemoveField](../../aspose.words.fields/formfield/removefield/)() | 删除整个表单字段，而不仅仅是表单字段特殊字符。 |
-| [SetTextInputValue](../../aspose.words.fields/formfield/settextinputvalue/)(object) | 应用中指定的文本格式[`TextInputFormat`](./textinputformat/)并将值存储在[`Result`](./result/). |
-| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | 将节点的内容导出为指定格式的字符串。 |
-| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | 使用指定的保存选项将节点的内容导出到字符串中。 |
+| [SetTextInputValue](../../aspose.words.fields/formfield/settextinputvalue/)(*object*) | 应用中指定的文本格式[`TextInputFormat`](./textinputformat/)并将值存储在[`Result`](./result/). |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../../aspose.words/saveformat/)*) | 将节点的内容导出为指定格式的字符串。 |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | 使用指定的保存选项将节点的内容导出到字符串中。 |
 
-### 评论
+## 评论
 
 Microsoft Word 提供以下表单字段：复选框、文本输入和下拉列表（组合框）。
 
@@ -84,7 +86,7 @@ Microsoft Word 提供以下表单字段：复选框、文本输入和下拉列�
 
 Word文档中完整的表单字段是由几个 个节点表示的复杂结构：字段开始、字段代码（例如FORMTEXT）、表单字段数据、字段分隔符、 字段结果、字段结束和书签。要以编程方式在 Word 文档中创建表单字段，请使用 [`InsertCheckBox`](../../aspose.words/documentbuilder/insertcheckbox/), [`InsertTextInput`](../../aspose.words/documentbuilder/inserttextinput/)和 [`InsertComboBox`](../../aspose.words/documentbuilder/insertcombobox/) which 确保所有表单字段节点都以正确的顺序和合适的状态创建。
 
-### 例子
+## 例子
 
 演示如何格式化整个 FormField，包括字段值。
 
@@ -132,5 +134,3 @@ doc.Save(ArtifactsDir + "FormFields.Create.html");
 * class [SpecialChar](../../aspose.words/specialchar/)
 * 命名空间 [Aspose.Words.Fields](../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../)
-
-

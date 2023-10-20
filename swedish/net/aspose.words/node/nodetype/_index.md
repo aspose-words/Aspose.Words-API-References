@@ -1,7 +1,9 @@
 ---
 title: Node.NodeType
-second_title: Aspose.Words för .NET API Referens
-description: Node fast egendom. Hämtar typen av denna nod.
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words för .NET
+description: Node NodeType fast egendom. Hämtar typen av denna nod i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words/node/nodetype/
@@ -14,7 +16,7 @@ Hämtar typen av denna nod.
 public abstract NodeType NodeType { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man använder en nods NextSibling-egenskap för att räkna upp sina närmaste barn.
 
@@ -102,7 +104,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 
 * enum [NodeType](../../nodetype/)
 * class [Node](../)
-* namnutrymme [Aspose.Words](../../node/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

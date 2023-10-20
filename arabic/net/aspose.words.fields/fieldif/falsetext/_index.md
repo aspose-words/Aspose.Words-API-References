@@ -1,7 +1,9 @@
 ---
 title: FieldIf.FalseText
-second_title: Aspose.Words لمراجع .NET API
-description: FieldIf ملكية. الحصول على أو تعيين النص المعروض إذا كان تعبير المقارنة كذلكخطأ شنيع .
+linktitle: FalseText
+articleTitle: FalseText
+second_title: Aspose.Words لـ .NET
+description: FieldIf FalseText ملكية. الحصول على أو تعيين النص المعروض إذا كان تعبير المقارنة كذلكخطأ شنيع  في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.fields/fieldif/falsetext/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldif/falsetext/
 public string FalseText { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج حقل IF.
 
@@ -60,7 +62,5 @@ doc.Save(ArtifactsDir + "Field.IF.docx");
 ### أنظر أيضا
 
 * class [FieldIf](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldif/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

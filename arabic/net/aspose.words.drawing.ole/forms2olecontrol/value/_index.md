@@ -1,7 +1,9 @@
 ---
 title: Forms2OleControl.Value
-second_title: Aspose.Words لمراجع .NET API
-description: Forms2OleControl ملكية. يحصل على خاصية القيمة الأساسية التي غالبًا ما تمثل حالة التحكم. على سبيل المثال يحتوي زر الخيار المحدد على القيمة 1 بينما يحتوي زر الخيار غير المحدد على 0. القيمة الافتراضية هي سلسلة فارغة.
+linktitle: Value
+articleTitle: Value
+second_title: Aspose.Words لـ .NET
+description: Forms2OleControl Value ملكية. يحصل على خاصية القيمة الأساسية التي غالبًا ما تمثل حالة التحكم. على سبيل المثال يحتوي زر الخيار المحدد على القيمة 1 بينما يحتوي زر الخيار غير المحدد على 0. القيمة الافتراضية هي سلسلة فارغة في C#.
 type: docs
 weight: 60
 url: /ar/net/aspose.words.drawing.ole/forms2olecontrol/value/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing.ole/forms2olecontrol/value/
 public string Value { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التحقق من خصائص عنصر تحكم ActiveX.
 
@@ -44,7 +46,5 @@ if (oleControl.IsForms2OleControl)
 ### أنظر أيضا
 
 * class [Forms2OleControl](../)
-* مساحة الاسم [Aspose.Words.Drawing.Ole](../../forms2olecontrol/)
+* مساحة الاسم [Aspose.Words.Drawing.Ole](../../../aspose.words.drawing.ole/)
 * المجسم [Aspose.Words](../../../)
-
-

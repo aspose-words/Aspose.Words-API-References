@@ -1,7 +1,9 @@
 ---
 title: FormField.DropDownItems
-second_title: Aspose.Words für .NET-API-Referenz
-description: FormField eigendom. Bietet Zugriff auf die Elemente eines DropdownFormularfelds.
+linktitle: DropDownItems
+articleTitle: DropDownItems
+second_title: Aspose.Words für .NET
+description: FormField DropDownItems eigendom. Bietet Zugriff auf die Elemente eines DropdownFormularfelds in C#.
 type: docs
 weight: 50
 url: /de/net/aspose.words.fields/formfield/dropdownitems/
@@ -14,11 +16,11 @@ Bietet Zugriff auf die Elemente eines Dropdown-Formularfelds.
 public DropDownItemCollection DropDownItems { get; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Microsoft Word erlaubt maximal 25 Elemente in einem Dropdown-Formularfeld.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie verschiedene Arten von Formularfeldern in ein Dokument eingefügt und mithilfe einer Dokumentbesucherimplementierung verarbeitet werden.
 
@@ -153,7 +155,5 @@ public class FormFieldVisitor : DocumentVisitor
 
 * class [DropDownItemCollection](../../dropdownitemcollection/)
 * class [FormField](../)
-* namensraum [Aspose.Words.Fields](../../formfield/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

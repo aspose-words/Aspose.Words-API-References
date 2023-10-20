@@ -1,7 +1,9 @@
 ---
 title: FieldDisplayBarcode.CaseCodeStyle
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldDisplayBarcode propiedad. Obtiene o establece el estilo de un Código de caso para el tipo de código de barras ITF14. Los valores válidos son STDEXTADD
+linktitle: CaseCodeStyle
+articleTitle: CaseCodeStyle
+second_title: Aspose.Words para .NET
+description: FieldDisplayBarcode CaseCodeStyle propiedad. Obtiene o establece el estilo de un Código de caso para el tipo de código de barras ITF14. Los valores válidos son STDEXTADD en C#.
 type: docs
 weight: 60
 url: /es/net/aspose.words.fields/fielddisplaybarcode/casecodestyle/
@@ -14,7 +16,7 @@ Obtiene o establece el estilo de un Código de caso para el tipo de código de b
 public string CaseCodeStyle { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo insertar un campo DISPLAYBARCODE y establecer sus propiedades.
 
@@ -72,7 +74,5 @@ doc.Save(ArtifactsDir + "Field.DISPLAYBARCODE.docx");
 ### Ver también
 
 * class [FieldDisplayBarcode](../)
-* espacio de nombres [Aspose.Words.Fields](../../fielddisplaybarcode/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

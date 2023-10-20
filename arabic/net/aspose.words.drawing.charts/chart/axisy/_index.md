@@ -1,7 +1,9 @@
 ---
 title: Chart.AxisY
-second_title: Aspose.Words لمراجع .NET API
-description: Chart ملكية. يوفر الوصول إلى خصائص المحور Y للمخطط.
+linktitle: AxisY
+articleTitle: AxisY
+second_title: Aspose.Words لـ .NET
+description: Chart AxisY ملكية. يوفر الوصول إلى خصائص المحور Y للمخطط في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.drawing.charts/chart/axisy/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing.charts/chart/axisy/
 public ChartAxis AxisY { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج مخطط وتعديل مظهر محاوره.
 
@@ -68,7 +70,5 @@ doc.Save(ArtifactsDir + "Charts.AxisProperties.docx");
 
 * class [ChartAxis](../../chartaxis/)
 * class [Chart](../)
-* مساحة الاسم [Aspose.Words.Drawing.Charts](../../chart/)
+* مساحة الاسم [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../../)
-
-

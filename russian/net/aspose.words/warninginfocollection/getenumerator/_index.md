@@ -1,7 +1,9 @@
 ---
 title: WarningInfoCollection.GetEnumerator
-second_title: Справочник по API Aspose.Words для .NET
-description: WarningInfoCollection метод. Возвращает объект перечислителя который можно использовать для перебора всех элементов коллекции.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words для .NET
+description: WarningInfoCollection GetEnumerator метод. Возвращает объект перечислителя который можно использовать для перебора всех элементов коллекции на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words/warninginfocollection/getenumerator/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/warninginfocollection/getenumerator/
 public IEnumerator<WarningInfo> GetEnumerator()
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как настроить свойство для поиска ближайшего соответствия отсутствующему шрифту из доступных источников шрифтов.
 
@@ -75,7 +77,5 @@ public class HandleDocumentSubstitutionWarnings : IWarningCallback
 
 * class [WarningInfo](../../warninginfo/)
 * class [WarningInfoCollection](../)
-* пространство имен [Aspose.Words](../../warninginfocollection/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

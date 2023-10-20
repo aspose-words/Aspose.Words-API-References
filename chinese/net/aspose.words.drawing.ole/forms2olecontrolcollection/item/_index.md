@@ -1,7 +1,9 @@
 ---
 title: Forms2OleControlCollection.Item
-second_title: Aspose.Words for .NET API 参考
-description: Forms2OleControlCollection 财产. 获取Forms2OleControl指定索引处的对象.
+linktitle: Item
+articleTitle: Item
+second_title: 用于 .NET 的 Aspose.Words
+description: Forms2OleControlCollection Item 财产. 获取Forms2OleControl指定索引处的对象 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.drawing.ole/forms2olecontrolcollection/item/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.drawing.ole/forms2olecontrolcollection/item/
 public Forms2OleControl this[int index] { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何访问嵌入在文档中的 OLE 控件及其子控件。
 
@@ -47,7 +49,5 @@ Assert.AreEqual("0", oleControlCollection[2].Value);
 
 * class [Forms2OleControl](../../forms2olecontrol/)
 * class [Forms2OleControlCollection](../)
-* 命名空间 [Aspose.Words.Drawing.Ole](../../forms2olecontrolcollection/)
+* 命名空间 [Aspose.Words.Drawing.Ole](../../../aspose.words.drawing.ole/)
 * 部件 [Aspose.Words](../../../)
-
-

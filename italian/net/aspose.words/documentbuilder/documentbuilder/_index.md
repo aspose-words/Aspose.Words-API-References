@@ -1,7 +1,9 @@
 ---
-title: DocumentBuilder.DocumentBuilder
-second_title: Aspose.Words per .NET API Reference
-description: DocumentBuilder costruttore. Inizializza una nuova istanza di questa classe.
+title: DocumentBuilder
+linktitle: DocumentBuilder
+articleTitle: DocumentBuilder
+second_title: Aspose.Words per .NET
+description: DocumentBuilder costruttore. Inizializza una nuova istanza di questa classe in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words/documentbuilder/documentbuilder/
@@ -14,11 +16,11 @@ Inizializza una nuova istanza di questa classe.
 public DocumentBuilder()
 ```
 
-### Osservazioni
+## Osservazioni
 
 Crea un nuovo[`DocumentBuilder`](../) oggetto e lo allega a un nuovo[`Document`](../../document/) oggetto.
 
-### Esempi
+## Esempi
 
 Mostra come inserire testo formattato utilizzando DocumentBuilder.
 
@@ -40,12 +42,12 @@ builder.Write("Hello world!");
 ### Guarda anche
 
 * class [DocumentBuilder](../)
-* spazio dei nomi [Aspose.Words](../../documentbuilder/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
 
 ---
 
-## DocumentBuilder(Document) {#constructor_1}
+## DocumentBuilder(*[Document](../../document/)*) {#constructor_1}
 
 Inizializza una nuova istanza di questa classe.
 
@@ -57,11 +59,11 @@ public DocumentBuilder(Document doc)
 | --- | --- | --- |
 | doc | Document | IL[`Document`](../../document/) oggetto a cui allegare. |
 
-### Osservazioni
+## Osservazioni
 
 Crea un nuovo[`DocumentBuilder`](../) oggetto, si attribuisce a quanto specificato[`Document`](../../document/)oggetto. Il cursore è posizionato all'inizio del documento.
 
-### Esempi
+## Esempi
 
 Mostra come creare intestazioni e piè di pagina in un documento utilizzando DocumentBuilder.
 
@@ -142,7 +144,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertToc.docx");
 
 * class [Document](../../document/)
 * class [DocumentBuilder](../)
-* spazio dei nomi [Aspose.Words](../../documentbuilder/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

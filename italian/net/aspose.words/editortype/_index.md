@@ -1,7 +1,9 @@
 ---
-title: Enum EditorType
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.EditorType enum. Specifica linsieme di possibili alias o gruppi di modifica che possono essere utilizzati come alias per determinare se allutente corrente sarà consentito modificare un singolo intervallo definito da un intervallo modificabile allinterno di un documento.
+title: EditorType Enum
+linktitle: EditorType
+articleTitle: EditorType
+second_title: Aspose.Words per .NET
+description: Aspose.Words.EditorType enum. Specifica linsieme di possibili alias o gruppi di modifica che possono essere utilizzati come alias per determinare se allutente corrente sarà consentito modificare un singolo intervallo definito da un intervallo modificabile allinterno di un documento in C#.
 type: docs
 weight: 1450
 url: /it/net/aspose.words/editortype/
@@ -28,7 +30,7 @@ public enum EditorType
 | Owners | `7` | Specifica che agli utenti associati al gruppo Proprietari sarà consentito modificare gli intervalli modificabili utilizzando questo tipo di modifica quando la protezione del documento è abilitata. |
 | Default | `0` | Uguale aUnspecified . |
 
-### Esempi
+## Esempi
 
 Mostra come limitare i diritti di modifica degli intervalli modificabili a un gruppo/utente specifico.
 
@@ -140,5 +142,3 @@ public class EditableRangePrinter : DocumentVisitor
 
 * spazio dei nomi [Aspose.Words](../../aspose.words/)
 * assemblea [Aspose.Words](../../)
-
-

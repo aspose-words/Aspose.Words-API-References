@@ -1,7 +1,9 @@
 ---
 title: FieldDisplayBarcode.PosCodeStyle
-second_title: Aspose.Words for .NET API 参考
-description: FieldDisplayBarcode 财产. 获取或设置销售点条形码的样式条形码类型 UPCAUPCEEAN13EAN8有效值不区分大小写为 STDSUP2SUP5CASE.
+linktitle: PosCodeStyle
+articleTitle: PosCodeStyle
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldDisplayBarcode PosCodeStyle 财产. 获取或设置销售点条形码的样式条形码类型 UPCAUPCEEAN13EAN8有效值不区分大小写为 STDSUP2SUP5CASE 在 C#.
 type: docs
 weight: 110
 url: /zh/net/aspose.words.fields/fielddisplaybarcode/poscodestyle/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fielddisplaybarcode/poscodestyle/
 public string PosCodeStyle { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何插入 DISPLAYBARCODE 字段并设置其属性。
 
@@ -72,7 +74,5 @@ doc.Save(ArtifactsDir + "Field.DISPLAYBARCODE.docx");
 ### 也可以看看
 
 * class [FieldDisplayBarcode](../)
-* 命名空间 [Aspose.Words.Fields](../../fielddisplaybarcode/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

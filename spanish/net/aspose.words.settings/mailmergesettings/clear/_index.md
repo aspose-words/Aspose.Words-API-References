@@ -1,7 +1,9 @@
 ---
 title: MailMergeSettings.Clear
-second_title: Referencia de API de Aspose.Words para .NET
-description: MailMergeSettings método. Borra la configuración de combinación de correspondencia de tal manera que cuando se guarde el documento no se guardará ninguna configuración de combinación de correspondencia y se convertirá en un documento normal.
+linktitle: Clear
+articleTitle: Clear
+second_title: Aspose.Words para .NET
+description: MailMergeSettings Clear método. Borra la configuración de combinación de correspondencia de tal manera que cuando se guarde el documento no se guardará ninguna configuración de combinación de correspondencia y se convertirá en un documento normal en C#.
 type: docs
 weight: 180
 url: /es/net/aspose.words.settings/mailmergesettings/clear/
@@ -14,7 +16,7 @@ Borra la configuración de combinación de correspondencia de tal manera que cua
 public void Clear()
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo ejecutar una combinación de correspondencia mientras se conecta a una fuente de datos externa.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "MailMerge.OdsoEmail.docx");
 ### Ver también
 
 * class [MailMergeSettings](../)
-* espacio de nombres [Aspose.Words.Settings](../../mailmergesettings/)
+* espacio de nombres [Aspose.Words.Settings](../../../aspose.words.settings/)
 * asamblea [Aspose.Words](../../../)
-
-

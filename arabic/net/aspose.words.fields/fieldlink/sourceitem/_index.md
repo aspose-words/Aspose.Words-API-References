@@ -1,7 +1,9 @@
 ---
 title: FieldLink.SourceItem
-second_title: Aspose.Words لمراجع .NET API
-description: FieldLink ملكية. الحصول على أو تعيين جزء الملف المصدر الذي يتم ربطه.
+linktitle: SourceItem
+articleTitle: SourceItem
+second_title: Aspose.Words لـ .NET
+description: FieldLink SourceItem ملكية. الحصول على أو تعيين جزء الملف المصدر الذي يتم ربطه في C#.
 type: docs
 weight: 130
 url: /ar/net/aspose.words.fields/fieldlink/sourceitem/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldlink/sourceitem/
 public string SourceItem { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام أنواع الحقول المختلفة للارتباط بالمستندات الأخرى في نظام الملفات المحلي وعرض محتوياتها.
 
@@ -197,7 +199,5 @@ public enum InsertLinkedObjectAs
 ### أنظر أيضا
 
 * class [FieldLink](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldlink/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

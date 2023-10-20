@@ -1,7 +1,9 @@
 ---
 title: GraphicsQualityOptions.StringFormat
-second_title: Aspose.Words för .NET API Referens
-description: GraphicsQualityOptions fast egendom. Hämtar eller ställer in information om textlayout som justering orientering och tabbstopp visningsmanipulationer som ellipsinsättning och nationell siffrorsättning och OpenTypefunktioner.
+linktitle: StringFormat
+articleTitle: StringFormat
+second_title: Aspose.Words för .NET
+description: GraphicsQualityOptions StringFormat fast egendom. Hämtar eller ställer in information om textlayout som justering orientering och tabbstopp visningsmanipulationer som ellipsinsättning och nationell siffrorsättning och OpenTypefunktioner i C#.
 type: docs
 weight: 60
 url: /sv/net/aspose.words.saving/graphicsqualityoptions/stringformat/
@@ -14,7 +16,7 @@ Hämtar eller ställer in information om textlayout (som justering, orientering 
 public StringFormat StringFormat { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du ställer in alternativ för återgivningskvalitet när du konverterar dokument till bildformat.
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "ImageSaveOptions.GraphicsQuality.jpg", saveOptions);
 ### Se även
 
 * class [GraphicsQualityOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../graphicsqualityoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

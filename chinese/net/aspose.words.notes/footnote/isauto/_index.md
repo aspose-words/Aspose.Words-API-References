@@ -1,7 +1,9 @@
 ---
 title: Footnote.IsAuto
-second_title: Aspose.Words for .NET API 参考
-description: Footnote 财产. 保存一个值指定这是自动编号的脚注还是带有用户定义的自定义引用标记的 脚注
+linktitle: IsAuto
+articleTitle: IsAuto
+second_title: 用于 .NET 的 Aspose.Words
+description: Footnote IsAuto 财产. 保存一个值指定这是自动编号的脚注还是带有用户定义的自定义引用标记的 脚注 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.notes/footnote/isauto/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.notes/footnote/isauto/
 public bool IsAuto { get; set; }
 ```
 
-### 评论
+## 评论
 
 [`ReferenceMark`](../referencemark/)用空字符串初始化 if`IsAuto`设置`错误的`.
 
-### 例子
+## 例子
 
 演示如何插入和自定义脚注。
 
@@ -66,7 +68,5 @@ doc.Save(ArtifactsDir + "InlineStory.AddFootnote.docx");
 ### 也可以看看
 
 * class [Footnote](../)
-* 命名空间 [Aspose.Words.Notes](../../footnote/)
+* 命名空间 [Aspose.Words.Notes](../../../aspose.words.notes/)
 * 部件 [Aspose.Words](../../../)
-
-

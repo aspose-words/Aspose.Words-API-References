@@ -1,7 +1,9 @@
 ---
 title: DropDownItemCollection.GetEnumerator
-second_title: Справочник по API Aspose.Words для .NET
-description: DropDownItemCollection метод. Возвращает объект перечислителя который можно использовать для перебора всех элементов коллекции.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words для .NET
+description: DropDownItemCollection GetEnumerator метод. Возвращает объект перечислителя который можно использовать для перебора всех элементов коллекции на С#.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.fields/dropdownitemcollection/getenumerator/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/dropdownitemcollection/getenumerator/
 public IEnumerator<string> GetEnumerator()
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как вставить поле со списком и отредактировать элементы в его коллекции элементов.
 
@@ -68,7 +70,5 @@ dropDownItems.Clear();
 ### Смотрите также
 
 * class [DropDownItemCollection](../)
-* пространство имен [Aspose.Words.Fields](../../dropdownitemcollection/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

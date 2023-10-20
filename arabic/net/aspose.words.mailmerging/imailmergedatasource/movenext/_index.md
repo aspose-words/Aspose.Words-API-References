@@ -1,7 +1,9 @@
 ---
 title: IMailMergeDataSource.MoveNext
-second_title: Aspose.Words لمراجع .NET API
-description: IMailMergeDataSource طريقة. التقدم إلى السجل التالي في مصدر البيانات.
+linktitle: MoveNext
+articleTitle: MoveNext
+second_title: Aspose.Words لـ .NET
+description: IMailMergeDataSource MoveNext طريقة. التقدم إلى السجل التالي في مصدر البيانات في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.mailmerging/imailmergedatasource/movenext/
@@ -18,7 +20,7 @@ public bool MoveNext()
 
 `حقيقي` إذا تم نقله إلى السجل التالي بنجاح؛`خطأ شنيع` إذا وصلت إلى نهاية مصدر البيانات.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تنفيذ دمج البريد مع مصدر بيانات في شكل كائن مخصص.
 
@@ -132,7 +134,5 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
 ### أنظر أيضا
 
 * interface [IMailMergeDataSource](../)
-* مساحة الاسم [Aspose.Words.MailMerging](../../imailmergedatasource/)
+* مساحة الاسم [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * المجسم [Aspose.Words](../../../)
-
-

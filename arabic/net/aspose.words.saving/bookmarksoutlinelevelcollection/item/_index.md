@@ -1,7 +1,9 @@
 ---
 title: BookmarksOutlineLevelCollection.Item
-second_title: Aspose.Words لمراجع .NET API
-description: BookmarksOutlineLevelCollection ملكية. الحصول على أو تعيين مستوى المخطط التفصيلي للإشارة المرجعية حسب اسم الإشارة المرجعية.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words لـ .NET
+description: BookmarksOutlineLevelCollection Item ملكية. الحصول على أو تعيين مستوى المخطط التفصيلي للإشارة المرجعية حسب اسم الإشارة المرجعية في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.saving/bookmarksoutlinelevelcollection/item/
@@ -22,7 +24,7 @@ public int this[string name] { get; set; }
 
 مستوى المخطط التفصيلي للإشارة المرجعية. النطاق الصالح هو 0 إلى 9.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين مستويات المخطط التفصيلي للإشارات المرجعية.
 
@@ -80,7 +82,7 @@ outlineLevels.Clear();
 ### أنظر أيضا
 
 * class [BookmarksOutlineLevelCollection](../)
-* مساحة الاسم [Aspose.Words.Saving](../../bookmarksoutlinelevelcollection/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
 
 ---
@@ -101,7 +103,7 @@ public int this[int index] { get; set; }
 
 مستوى المخطط التفصيلي للإشارة المرجعية. النطاق الصالح هو 0 إلى 9.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين مستويات المخطط التفصيلي للإشارات المرجعية.
 
@@ -159,7 +161,5 @@ outlineLevels.Clear();
 ### أنظر أيضا
 
 * class [BookmarksOutlineLevelCollection](../)
-* مساحة الاسم [Aspose.Words.Saving](../../bookmarksoutlinelevelcollection/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: GradientStop.Transparency
-second_title: Справочник по API Aspose.Words для .NET
-description: GradientStop свойство. Получает или задает значение представляющее прозрачность градиента fill  выраженную в процентах в диапазоне от 00 до 10. .
+linktitle: Transparency
+articleTitle: Transparency
+second_title: Aspose.Words для .NET
+description: GradientStop Transparency свойство. Получает или задает значение представляющее прозрачность градиента fill  выраженную в процентах в диапазоне от 00 до 10.  на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.drawing/gradientstop/transparency/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.drawing/gradientstop/transparency/
 public double Transparency { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как добавить остановки градиента к градиентной заливке.
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "Shape.GradientStops.docx", saveOptions);
 ### Смотрите также
 
 * class [GradientStop](../)
-* пространство имен [Aspose.Words.Drawing](../../gradientstop/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

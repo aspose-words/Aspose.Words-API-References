@@ -1,12 +1,14 @@
 ---
 title: FieldBuilder.AddArgument
-second_title: Aspose.Words för .NET API Referens
-description: FieldBuilder metod. Lägger till ett fälts argument.
+linktitle: AddArgument
+articleTitle: AddArgument
+second_title: Aspose.Words för .NET
+description: FieldBuilder AddArgument metod. Lägger till ett fälts argument i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.fields/fieldbuilder/addargument/
 ---
-## AddArgument(string) {#addargument_4}
+## AddArgument(*string*) {#addargument_4}
 
 Lägger till ett fälts argument.
 
@@ -18,7 +20,7 @@ public FieldBuilder AddArgument(string argument)
 | --- | --- | --- |
 | argument | String | Argumentvärdet. |
 
-### Exempel
+## Exempel
 
 Visar hur man konstruerar fält med en fältbyggare och sedan infogar dem i dokumentet.
 
@@ -101,12 +103,12 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 ### Se även
 
 * class [FieldBuilder](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldbuilder/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## AddArgument(int) {#addargument_3}
+## AddArgument(*int*) {#addargument_3}
 
 Lägger till ett fälts argument.
 
@@ -118,7 +120,7 @@ public FieldBuilder AddArgument(int argument)
 | --- | --- | --- |
 | argument | Int32 | Argumentvärdet. |
 
-### Exempel
+## Exempel
 
 Visar hur man konstruerar fält med en fältbyggare och sedan infogar dem i dokumentet.
 
@@ -201,12 +203,12 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 ### Se även
 
 * class [FieldBuilder](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldbuilder/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## AddArgument(double) {#addargument_2}
+## AddArgument(*double*) {#addargument_2}
 
 Lägger till ett fälts argument.
 
@@ -218,7 +220,7 @@ public FieldBuilder AddArgument(double argument)
 | --- | --- | --- |
 | argument | Double | Argumentvärdet. |
 
-### Exempel
+## Exempel
 
 Visar hur man konstruerar fält med en fältbyggare och sedan infogar dem i dokumentet.
 
@@ -301,12 +303,12 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 ### Se även
 
 * class [FieldBuilder](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldbuilder/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## AddArgument(FieldBuilder) {#addargument_1}
+## AddArgument(*[FieldBuilder](../)*) {#addargument_1}
 
 Lägger till ett underordnat fält som representeras av ett annat[`FieldBuilder`](../) till fältets kod.
 
@@ -314,11 +316,11 @@ Lägger till ett underordnat fält som representeras av ett annat[`FieldBuilder`
 public FieldBuilder AddArgument(FieldBuilder argument)
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Denna överbelastning används när argumentet består av ett enda underordnat fält.
 
-### Exempel
+## Exempel
 
 Visar hur man konstruerar fält med en fältbyggare och sedan infogar dem i dokumentet.
 
@@ -401,12 +403,12 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 ### Se även
 
 * class [FieldBuilder](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldbuilder/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## AddArgument(FieldArgumentBuilder) {#addargument}
+## AddArgument(*[FieldArgumentBuilder](../../fieldargumentbuilder/)*) {#addargument}
 
 Lägger till ett fälts argument representerat av[`FieldArgumentBuilder`](../../fieldargumentbuilder/) till fältets kod.
 
@@ -414,11 +416,11 @@ Lägger till ett fälts argument representerat av[`FieldArgumentBuilder`](../../
 public FieldBuilder AddArgument(FieldArgumentBuilder argument)
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Denna överbelastning används när argumentet består av en blandning av olika delar såsom underordnade fält, noder och vanlig text.
 
-### Exempel
+## Exempel
 
 Visar hur man konstruerar fält med en fältbyggare och sedan infogar dem i dokumentet.
 
@@ -502,7 +504,5 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 
 * class [FieldArgumentBuilder](../../fieldargumentbuilder/)
 * class [FieldBuilder](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldbuilder/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,12 +1,14 @@
 ---
 title: Document.StartTrackRevisions
-second_title: Aspose.Words för .NET API Referens
-description: Document metod. Börjar automatiskt markera alla ytterligare ändringar du gör i dokumentet programmatiskt som revisionsändringar.
+linktitle: StartTrackRevisions
+articleTitle: StartTrackRevisions
+second_title: Aspose.Words för .NET
+description: Document StartTrackRevisions metod. Börjar automatiskt markera alla ytterligare ändringar du gör i dokumentet programmatiskt som revisionsändringar i C#.
 type: docs
-weight: 730
+weight: 710
 url: /sv/net/aspose.words/document/starttrackrevisions/
 ---
-## StartTrackRevisions(string, DateTime) {#starttrackrevisions_1}
+## StartTrackRevisions(*string, DateTime*) {#starttrackrevisions_1}
 
 Börjar automatiskt markera alla ytterligare ändringar du gör i dokumentet programmatiskt som revisionsändringar.
 
@@ -19,7 +21,7 @@ public void StartTrackRevisions(string author, DateTime dateTime)
 | author | String | Författarens initialer att använda för revisioner. |
 | dateTime | DateTime | Datum och tid som ska användas för revisioner. |
 
-### Anmärkningar
+## Anmärkningar
 
 Om du anropar den här metoden och sedan gör några ändringar i dokumentet programmatiskt, sparar dokumentet och senare öppnar dokumentet i MS Word kommer du att se dessa ändringar som revisioner.
 
@@ -29,7 +31,7 @@ Automatisk spårning av ändringar stöds både vid modifiering av detta dokumen
 
 Denna metod ändrar inte[`TrackRevisions`](../trackrevisions/) alternativet och använder inte dess värde för revisionsspårning.
 
-### Exempel
+## Exempel
 
 Visar hur man spårar revisioner medan man redigerar ett dokument.
 
@@ -78,12 +80,12 @@ doc.Save(ArtifactsDir + "Document.StartTrackRevisions.docx");
 
 * method [StopTrackRevisions](../stoptrackrevisions/)
 * class [Document](../)
-* namnutrymme [Aspose.Words](../../document/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## StartTrackRevisions(string) {#starttrackrevisions}
+## StartTrackRevisions(*string*) {#starttrackrevisions}
 
 Börjar automatiskt markera alla ytterligare ändringar du gör i dokumentet programmatiskt som revisionsändringar.
 
@@ -95,7 +97,7 @@ public void StartTrackRevisions(string author)
 | --- | --- | --- |
 | author | String | Författarens initialer att använda för revisioner. |
 
-### Anmärkningar
+## Anmärkningar
 
 Om du anropar den här metoden och sedan gör några ändringar i dokumentet programmatiskt, sparar dokumentet och senare öppnar dokumentet i MS Word kommer du att se dessa ändringar som revisioner.
 
@@ -105,7 +107,7 @@ Automatisk spårning av ändringar stöds både vid modifiering av detta dokumen
 
 Denna metod ändrar inte[`TrackRevisions`](../trackrevisions/) alternativet och använder inte dess värde för revisionsspårning.
 
-### Exempel
+## Exempel
 
 Visar hur man spårar revisioner medan man redigerar ett dokument.
 
@@ -154,7 +156,5 @@ doc.Save(ArtifactsDir + "Document.StartTrackRevisions.docx");
 
 * method [StopTrackRevisions](../stoptrackrevisions/)
 * class [Document](../)
-* namnutrymme [Aspose.Words](../../document/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

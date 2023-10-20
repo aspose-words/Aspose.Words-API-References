@@ -1,7 +1,9 @@
 ---
 title: ChartSeriesCollection.Count
-second_title: Справочник по API Aspose.Words для .NET
-description: ChartSeriesCollection свойство. Возвращает количествоChartSeries в этой коллекции.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words для .NET
+description: ChartSeriesCollection Count свойство. Возвращает количествоChartSeries в этой коллекции на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.drawing.charts/chartseriescollection/count/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.drawing.charts/chartseriescollection/count/
 public int Count { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как добавлять и удалять данные рядов на диаграмме.
 
@@ -61,7 +63,5 @@ chartData.Clear();
 ### Смотрите также
 
 * class [ChartSeriesCollection](../)
-* пространство имен [Aspose.Words.Drawing.Charts](../../chartseriescollection/)
+* пространство имен [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../../)
-
-

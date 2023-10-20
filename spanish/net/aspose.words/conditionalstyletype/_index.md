@@ -1,7 +1,9 @@
 ---
-title: Enum ConditionalStyleType
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.ConditionalStyleType enumeración. Representa posibles áreas de tabla en las que se puede definir formato condicional en un estilo de tabla.
+title: ConditionalStyleType Enum
+linktitle: ConditionalStyleType
+articleTitle: ConditionalStyleType
+second_title: Aspose.Words para .NET
+description: Aspose.Words.ConditionalStyleType enumeración. Representa posibles áreas de tabla en las que se puede definir formato condicional en un estilo de tabla en C#.
 type: docs
 weight: 330
 url: /es/net/aspose.words/conditionalstyletype/
@@ -31,7 +33,7 @@ public enum ConditionalStyleType
 | BottomLeftCell | `10` | Especifica el formato de la celda inferior izquierda de una tabla. |
 | BottomRightCell | `11` | Especifica el formato de la celda inferior derecha de una tabla. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo trabajar con ciertos estilos de área de una tabla.
 
@@ -102,5 +104,3 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 
 * espacio de nombres [Aspose.Words](../../aspose.words/)
 * asamblea [Aspose.Words](../../)
-
-

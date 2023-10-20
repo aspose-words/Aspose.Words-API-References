@@ -1,7 +1,9 @@
 ---
 title: RevisionGroup.Author
-second_title: Referencia de API de Aspose.Words para .NET
-description: RevisionGroup propiedad. Obtiene el autor de este grupo de revisión.
+linktitle: Author
+articleTitle: Author
+second_title: Aspose.Words para .NET
+description: RevisionGroup Author propiedad. Obtiene el autor de este grupo de revisión en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words/revisiongroup/author/
@@ -14,7 +16,7 @@ Obtiene el autor de este grupo de revisión.
 public string Author { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo imprimir información sobre un grupo de revisiones en un documento.
 
@@ -33,7 +35,5 @@ foreach (RevisionGroup group in doc.Revisions.Groups)
 ### Ver también
 
 * class [RevisionGroup](../)
-* espacio de nombres [Aspose.Words](../../revisiongroup/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

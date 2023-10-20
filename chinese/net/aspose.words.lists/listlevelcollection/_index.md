@@ -1,7 +1,9 @@
 ---
-title: Class ListLevelCollection
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Lists.ListLevelCollection 班级. 列表中每个级别的列表格式集合
+title: ListLevelCollection Class
+linktitle: ListLevelCollection
+articleTitle: ListLevelCollection
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Lists.ListLevelCollection 班级. 列表中每个级别的列表格式集合 在 C#.
 type: docs
 weight: 3520
 url: /zh/net/aspose.words.lists/listlevelcollection/
@@ -29,7 +31,7 @@ public class ListLevelCollection : IEnumerable<ListLevel>
 | --- | --- |
 | [GetEnumerator](../../aspose.words.lists/listlevelcollection/getenumerator/)() | 获取将枚举此列表中级别的枚举器对象。 |
 
-### 例子
+## 例子
 
 演示如何创建列表样式并在文档中使用它。
 
@@ -146,5 +148,3 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateCustomList.docx");
 * class [ListLevel](../listlevel/)
 * 命名空间 [Aspose.Words.Lists](../../aspose.words.lists/)
 * 部件 [Aspose.Words](../../)
-
-

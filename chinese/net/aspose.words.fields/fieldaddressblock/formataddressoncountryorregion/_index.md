@@ -1,7 +1,9 @@
 ---
 title: FieldAddressBlock.FormatAddressOnCountryOrRegion
-second_title: Aspose.Words for .NET API 参考
-description: FieldAddressBlock 财产. 获取或设置是否根据 POSTCODE Universal Postal Union 2006 定义的收件人 的国家/地区来格式化地址
+linktitle: FormatAddressOnCountryOrRegion
+articleTitle: FormatAddressOnCountryOrRegion
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldAddressBlock FormatAddressOnCountryOrRegion 财产. 获取或设置是否根据 POSTCODE Universal Postal Union 2006 定义的收件人 的国家/地区来格式化地址 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.fields/fieldaddressblock/formataddressoncountryorregion/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fieldaddressblock/formataddressoncountryorregio
 public bool FormatAddressOnCountryOrRegion { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何插入 ADDRESSBLOCK 字段。
 
@@ -45,7 +47,5 @@ Assert.AreEqual(
 ### 也可以看看
 
 * class [FieldAddressBlock](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldaddressblock/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

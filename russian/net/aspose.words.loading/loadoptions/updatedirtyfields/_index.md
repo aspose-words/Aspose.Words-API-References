@@ -1,7 +1,9 @@
 ---
 title: LoadOptions.UpdateDirtyFields
-second_title: Справочник по API Aspose.Words для .NET
-description: LoadOptions свойство. Указывает обновлять ли поля с помощьюгрязный атрибут.
+linktitle: UpdateDirtyFields
+articleTitle: UpdateDirtyFields
+second_title: Aspose.Words для .NET
+description: LoadOptions UpdateDirtyFields свойство. Указывает обновлять ли поля с помощьюгрязный атрибут на С#.
 type: docs
 weight: 160
 url: /ru/net/aspose.words.loading/loadoptions/updatedirtyfields/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.loading/loadoptions/updatedirtyfields/
 public bool UpdateDirtyFields { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как использовать специальное свойство для обновления результатов поля.
 
@@ -71,7 +73,5 @@ using (MemoryStream docStream = new MemoryStream())
 ### Смотрите также
 
 * class [LoadOptions](../)
-* пространство имен [Aspose.Words.Loading](../../loadoptions/)
+* пространство имен [Aspose.Words.Loading](../../../aspose.words.loading/)
 * сборка [Aspose.Words](../../../)
-
-

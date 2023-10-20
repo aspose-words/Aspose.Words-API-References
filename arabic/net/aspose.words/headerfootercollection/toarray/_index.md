@@ -1,7 +1,9 @@
 ---
 title: HeaderFooterCollection.ToArray
-second_title: Aspose.Words لمراجع .NET API
-description: HeaderFooterCollection طريقة. نسخ الكلHeaderForter من المجموعة إلى مجموعة جديدة منHeaderForter ق.
+linktitle: ToArray
+articleTitle: ToArray
+second_title: Aspose.Words لـ .NET
+description: HeaderFooterCollection ToArray طريقة. نسخ الكلHeaderForter من المجموعة إلى مجموعة جديدة منHeaderForter ق في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words/headerfootercollection/toarray/
@@ -18,7 +20,7 @@ public HeaderFooter[] ToArray()
 
 مجموعة من`HeaderForter`س.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية طباعة بنية العقدة لكل رأس وتذييل في المستند.
 
@@ -112,7 +114,5 @@ public class HeaderFooterStructurePrinter : DocumentVisitor
 
 * class [HeaderFooter](../../headerfooter/)
 * class [HeaderFooterCollection](../)
-* مساحة الاسم [Aspose.Words](../../headerfootercollection/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

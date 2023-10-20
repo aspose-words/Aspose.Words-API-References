@@ -1,7 +1,9 @@
 ---
-title: Enum StyleType
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.StyleType uppräkning. Representerar typ av stil.
+title: StyleType Enum
+linktitle: StyleType
+articleTitle: StyleType
+second_title: Aspose.Words för .NET
+description: Aspose.Words.StyleType uppräkning. Representerar typ av stil i C#.
 type: docs
 weight: 6160
 url: /sv/net/aspose.words/styletype/
@@ -23,7 +25,7 @@ public enum StyleType
 | Table | `3` | Stilen är en tabellstil. |
 | List | `4` | Stilen är en liststil. |
 
-### Exempel
+## Exempel
 
 Visar hur du skapar en liststil och använder den i ett dokument.
 
@@ -85,5 +87,3 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateAndUseListStyle.docx");
 
 * namnutrymme [Aspose.Words](../../aspose.words/)
 * hopsättning [Aspose.Words](../../)
-
-

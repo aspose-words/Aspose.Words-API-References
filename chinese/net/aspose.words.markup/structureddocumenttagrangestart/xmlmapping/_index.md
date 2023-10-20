@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTagRangeStart.XmlMapping
-second_title: Aspose.Words for .NET API 参考
-description: StructuredDocumentTagRangeStart 财产. 获取一个对象该对象表示此结构化文档标记范围到当前文档的自定义 XML 部分中的 XML 数据 的映射
+linktitle: XmlMapping
+articleTitle: XmlMapping
+second_title: 用于 .NET 的 Aspose.Words
+description: StructuredDocumentTagRangeStart XmlMapping 财产. 获取一个对象该对象表示此结构化文档标记范围到当前文档的自定义 XML 部分中的 XML 数据 的映射 在 C#.
 type: docs
 weight: 180
 url: /zh/net/aspose.words.markup/structureddocumenttagrangestart/xmlmapping/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.markup/structureddocumenttagrangestart/xmlmapping/
 public XmlMapping XmlMapping { get; }
 ```
 
-### 评论
+## 评论
 
 您可以使用[`SetMapping`](../../xmlmapping/setmapping/)this 对象的方法将结构化文档标记范围映射到 XML 数据。
 
-### 例子
+## 例子
 
 演示如何为结构化文档标记的范围开始设置 XML 映射。
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.StructuredDocumentTagRangeStartXm
 
 * class [XmlMapping](../../xmlmapping/)
 * class [StructuredDocumentTagRangeStart](../)
-* 命名空间 [Aspose.Words.Markup](../../structureddocumenttagrangestart/)
+* 命名空间 [Aspose.Words.Markup](../../../aspose.words.markup/)
 * 部件 [Aspose.Words](../../../)
-
-

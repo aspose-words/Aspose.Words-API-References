@@ -1,7 +1,9 @@
 ---
 title: FieldDatabase.FormatAttributes
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldDatabase propiedad. Obtiene o establece qué atributos del formato se aplicarán a la tabla.
+linktitle: FormatAttributes
+articleTitle: FormatAttributes
+second_title: Aspose.Words para .NET
+description: FieldDatabase FormatAttributes propiedad. Obtiene o establece qué atributos del formato se aplicarán a la tabla en C#.
 type: docs
 weight: 50
 url: /es/net/aspose.words.fields/fielddatabase/formatattributes/
@@ -14,7 +16,7 @@ Obtiene o establece qué atributos del formato se aplicarán a la tabla.
 public string FormatAttributes { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo extraer datos de una base de datos e insertarlos como un campo en un documento.
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "Field.DATABASE.docx");
 ### Ver también
 
 * class [FieldDatabase](../)
-* espacio de nombres [Aspose.Words.Fields](../../fielddatabase/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

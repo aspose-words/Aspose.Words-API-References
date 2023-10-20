@@ -1,12 +1,14 @@
 ---
 title: Aspose.Words.Tables
-second_title: Aspose.Words für .NET-API-Referenz
-description: Der Aspose.Words.Tables Der Namespace enthält Klassen die Tabellen Zeilen Zellen und deren Formatierung darstellen.
+linktitle: Aspose.Words.Tables
+articleTitle: Aspose.Words.Tables
+second_title: Aspose.Words für .NET
+description: DerAspose.Words.Tables Der Namespace enthält Klassen die Tabellen Zeilen Zellen und deren Formatierung darstellen in C#.
 type: docs
 weight: 260
 url: /de/net/aspose.words.tables/
 ---
-Der **Aspose.Words.Tables** Der Namespace enthält Klassen, die Tabellen, Zeilen, Zellen und deren Formatierung darstellen.
+Der**Aspose.Words.Tables** Der Namespace enthält Klassen, die Tabellen, Zeilen, Zellen und deren Formatierung darstellen.
 
 ## Klassen
 
@@ -32,5 +34,3 @@ Der **Aspose.Words.Tables** Der Namespace enthält Klassen, die Tabellen, Zeilen
 | [TableAlignment](./tablealignment/) | Gibt die Ausrichtung für eine Inline-Tabelle an. |
 | [TableStyleOptions](./tablestyleoptions/) | Gibt an, wie der Tabellenstil auf eine Tabelle angewendet wird. |
 | [TextWrapping](./textwrapping/) | Gibt an, wie Text um die Tabelle gewickelt wird. |
-
-

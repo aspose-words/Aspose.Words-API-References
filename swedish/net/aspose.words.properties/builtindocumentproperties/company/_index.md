@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.Company
-second_title: Aspose.Words för .NET API Referens
-description: BuiltInDocumentProperties fast egendom. Hämtar eller ställer in företagsegenskapen.
+linktitle: Company
+articleTitle: Company
+second_title: Aspose.Words för .NET
+description: BuiltInDocumentProperties Company fast egendom. Hämtar eller ställer in företagsegenskapen i C#.
 type: docs
 weight: 70
 url: /sv/net/aspose.words.properties/builtindocumentproperties/company/
@@ -14,7 +16,7 @@ Hämtar eller ställer in företagsegenskapen.
 public string Company { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med dokumentegenskaper i kategorin "Ursprung".
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "DocumentProperties.Origin.docx");
 ### Se även
 
 * class [BuiltInDocumentProperties](../)
-* namnutrymme [Aspose.Words.Properties](../../builtindocumentproperties/)
+* namnutrymme [Aspose.Words.Properties](../../../aspose.words.properties/)
 * hopsättning [Aspose.Words](../../../)
-
-

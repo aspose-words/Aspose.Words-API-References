@@ -1,7 +1,9 @@
 ---
 title: BookmarksOutlineLevelCollection.Contains
-second_title: Référence de l'API Aspose.Words pour .NET
-description: BookmarksOutlineLevelCollection méthode. Détermine si la collection contient un signet portant le nom donné.
+linktitle: Contains
+articleTitle: Contains
+second_title: Aspose.Words pour .NET
+description: BookmarksOutlineLevelCollection Contains méthode. Détermine si la collection contient un signet portant le nom donné en C#.
 type: docs
 weight: 60
 url: /fr/net/aspose.words.saving/bookmarksoutlinelevelcollection/contains/
@@ -22,7 +24,7 @@ public bool Contains(string name)
 
 `vrai` si l'article est trouvé dans la collection ; sinon,`FAUX`.
 
-### Exemples
+## Exemples
 
 Montre comment définir les niveaux de plan pour les signets.
 
@@ -80,7 +82,5 @@ outlineLevels.Clear();
 ### Voir également
 
 * class [BookmarksOutlineLevelCollection](../)
-* espace de noms [Aspose.Words.Saving](../../bookmarksoutlinelevelcollection/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

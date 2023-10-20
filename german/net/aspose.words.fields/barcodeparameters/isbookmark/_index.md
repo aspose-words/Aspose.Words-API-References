@@ -1,7 +1,9 @@
 ---
 title: BarcodeParameters.IsBookmark
-second_title: Aspose.Words für .NET-API-Referenz
-description: BarcodeParameters eigendom. ObPostalAddress ist der Name eines Lesezeichens.
+linktitle: IsBookmark
+articleTitle: IsBookmark
+second_title: Aspose.Words für .NET
+description: BarcodeParameters IsBookmark eigendom. ObPostalAddress ist der Name eines Lesezeichens in C#.
 type: docs
 weight: 120
 url: /de/net/aspose.words.fields/barcodeparameters/isbookmark/
@@ -14,7 +16,7 @@ Ob[`PostalAddress`](../postaladdress/) ist der Name eines Lesezeichens.
 public bool IsBookmark { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Barcode-Generator verwendet wird.
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.docx");
 ### Siehe auch
 
 * class [BarcodeParameters](../)
-* namensraum [Aspose.Words.Fields](../../barcodeparameters/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

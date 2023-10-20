@@ -1,7 +1,9 @@
 ---
 title: FrameFormat.HorizontalDistanceFromText
-second_title: Aspose.Words for .NET API 参考
-description: FrameFormat 财产. 获取框架与周围文本之间的水平距离以磅为单位
+linktitle: HorizontalDistanceFromText
+articleTitle: HorizontalDistanceFromText
+second_title: 用于 .NET 的 Aspose.Words
+description: FrameFormat HorizontalDistanceFromText 财产. 获取框架与周围文本之间的水平距离以磅为单位 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words/frameformat/horizontaldistancefromtext/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/frameformat/horizontaldistancefromtext/
 public double HorizontalDistanceFromText { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何获取有关框架段落的格式设置属性的信息。
 
@@ -39,7 +41,5 @@ Assert.AreEqual(0.0d, paragraphFrame.FrameFormat.VerticalDistanceFromText);
 ### 也可以看看
 
 * class [FrameFormat](../)
-* 命名空间 [Aspose.Words](../../frameformat/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

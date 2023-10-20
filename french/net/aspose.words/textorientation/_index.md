@@ -1,7 +1,9 @@
 ---
-title: Enum TextOrientation
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.TextOrientation énumération. Spécifie lorientation du texte sur une page dans une cellule de tableau ou un cadre de texte.
+title: TextOrientation Enum
+linktitle: TextOrientation
+articleTitle: TextOrientation
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.TextOrientation énumération. Spécifie lorientation du texte sur une page dans une cellule de tableau ou un cadre de texte en C#.
 type: docs
 weight: 6430
 url: /fr/net/aspose.words/textorientation/
@@ -25,7 +27,7 @@ public enum TextOrientation
 | VerticalFarEast | `5` | Les caractères d'Extrême-Orient apparaissent verticalement, le reste du texte est pivoté de 90 degrés vers la droite pour apparaître de haut en bas (tb-rl-v). |
 | VerticalRotatedFarEast | `7` | Les caractères d'Extrême-Orient apparaissent verticalement, le reste du texte est pivoté de 90 degrés vers la droite pour apparaître verticalement de haut en bas, puis de gauche à droite horizontalement (tb-lr-v). |
 
-### Exemples
+## Exemples
 
 Montre comment créer un tableau 2x2 formaté.
 
@@ -72,5 +74,3 @@ doc.Save(ArtifactsDir + "DocumentBuilder.BuildTable.docx");
 
 * espace de noms [Aspose.Words](../../aspose.words/)
 * Assemblée [Aspose.Words](../../)
-
-

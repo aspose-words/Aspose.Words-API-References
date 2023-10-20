@@ -1,7 +1,9 @@
 ---
-title: Enum BuildingBlockBehavior
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.BuildingBlocks.BuildingBlockBehavior opsomming. Gibt das Verhalten an das auf den Inhalt des Bausteins angewendet werden soll wenn dieser in das Hauptdokument eingefügt wird.
+title: BuildingBlockBehavior Enum
+linktitle: BuildingBlockBehavior
+articleTitle: BuildingBlockBehavior
+second_title: Aspose.Words für .NET
+description: Aspose.Words.BuildingBlocks.BuildingBlockBehavior opsomming. Gibt das Verhalten an das auf den Inhalt des Bausteins angewendet werden soll wenn dieser in das Hauptdokument eingefügt wird in C#.
 type: docs
 weight: 140
 url: /de/net/aspose.words.buildingblocks/buildingblockbehavior/
@@ -23,11 +25,11 @@ public enum BuildingBlockBehavior
 | Page | `2` | Gibt an, dass der Baustein zu einer eigenen Seite hinzugefügt werden soll. |
 | Default | `0` | Das Gleiche wieContent . |
 
-### Bemerkungen
+## Bemerkungen
 
-Entspricht dem **ST_DocPartBehavior** Geben Sie OOXML ein.
+Entspricht dem**ST_DocPartBehavior** Geben Sie OOXML ein.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man einem Dokument einen benutzerdefinierten Baustein hinzufügt.
 
@@ -125,5 +127,3 @@ public class BuildingBlockVisitor : DocumentVisitor
 
 * namensraum [Aspose.Words.BuildingBlocks](../../aspose.words.buildingblocks/)
 * Montage [Aspose.Words](../../)
-
-

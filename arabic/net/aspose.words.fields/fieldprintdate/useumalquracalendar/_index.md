@@ -1,7 +1,9 @@
 ---
 title: FieldPrintDate.UseUmAlQuraCalendar
-second_title: Aspose.Words لمراجع .NET API
-description: FieldPrintDate ملكية. الحصول على أو تحديد ما إذا كان سيتم استخدام تقويم أم القرى.
+linktitle: UseUmAlQuraCalendar
+articleTitle: UseUmAlQuraCalendar
+second_title: Aspose.Words لـ .NET
+description: FieldPrintDate UseUmAlQuraCalendar ملكية. الحصول على أو تحديد ما إذا كان سيتم استخدام تقويم أم القرى في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.fields/fieldprintdate/useumalquracalendar/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldprintdate/useumalquracalendar/
 public bool UseUmAlQuraCalendar { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يظهر قراءة حقول PRINTDATE.
 
@@ -56,7 +58,5 @@ Assert.AreEqual(" PRINTDATE  \\s", field.GetFieldCode());
 ### أنظر أيضا
 
 * class [FieldPrintDate](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldprintdate/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

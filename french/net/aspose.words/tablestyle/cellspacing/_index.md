@@ -1,7 +1,9 @@
 ---
 title: TableStyle.CellSpacing
-second_title: Référence de l'API Aspose.Words pour .NET
-description: TableStyle propriété. Obtient ou définit la quantité despace en points entre les cellules.
+linktitle: CellSpacing
+articleTitle: CellSpacing
+second_title: Aspose.Words pour .NET
+description: TableStyle CellSpacing propriété. Obtient ou définit la quantité despace en points entre les cellules en C#.
 type: docs
 weight: 60
 url: /fr/net/aspose.words/tablestyle/cellspacing/
@@ -14,7 +16,7 @@ Obtient ou définit la quantité d'espace (en points) entre les cellules.
 public double CellSpacing { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment créer des paramètres de style personnalisés pour le tableau.
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "Table.TableStyleCreation.docx");
 ### Voir également
 
 * class [TableStyle](../)
-* espace de noms [Aspose.Words](../../tablestyle/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

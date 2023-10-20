@@ -1,9 +1,11 @@
 ---
 title: Stroke.Transparency
-second_title: Aspose.Words for .NET API 参考
-description: Stroke 财产. 获取或设置 0.0不透明和 1.0清晰之间的值表示笔划的透明度 
+linktitle: Transparency
+articleTitle: Transparency
+second_title: 用于 .NET 的 Aspose.Words
+description: Stroke Transparency 财产. 获取或设置 0.0不透明和 1.0清晰之间的值表示笔划的透明度  在 C#.
 type: docs
-weight: 200
+weight: 190
 url: /zh/net/aspose.words.drawing/stroke/transparency/
 ---
 ## Stroke.Transparency property
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.drawing/stroke/transparency/
 public double Transparency { get; set; }
 ```
 
-### 评论
+## 评论
 
 默认值为 0.
 
-### 例子
+## 例子
 
 展示如何设置标记格式。
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "Charts.MarkerFormatting.docx");
 ### 也可以看看
 
 * class [Stroke](../)
-* 命名空间 [Aspose.Words.Drawing](../../stroke/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

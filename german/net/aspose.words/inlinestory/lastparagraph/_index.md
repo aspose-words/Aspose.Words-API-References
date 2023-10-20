@@ -1,7 +1,9 @@
 ---
 title: InlineStory.LastParagraph
-second_title: Aspose.Words für .NET-API-Referenz
-description: InlineStory eigendom. Ruft den letzten Absatz in der Geschichte ab.
+linktitle: LastParagraph
+articleTitle: LastParagraph
+second_title: Aspose.Words für .NET
+description: InlineStory LastParagraph eigendom. Ruft den letzten Absatz in der Geschichte ab in C#.
 type: docs
 weight: 70
 url: /de/net/aspose.words/inlinestory/lastparagraph/
@@ -14,7 +16,7 @@ Ruft den letzten Absatz in der Geschichte ab.
 public Paragraph LastParagraph { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie InlineStory-Knoten eingefügt werden.
 
@@ -74,7 +76,5 @@ doc.Save(ArtifactsDir + "InlineStory.InsertInlineStoryNodes.docx");
 
 * class [Paragraph](../../paragraph/)
 * class [InlineStory](../)
-* namensraum [Aspose.Words](../../inlinestory/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

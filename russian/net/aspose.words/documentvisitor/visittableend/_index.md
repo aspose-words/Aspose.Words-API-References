@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitTableEnd
-second_title: Справочник по API Aspose.Words для .NET
-description: DocumentVisitor метод. Вызывается когда перечисление таблицы завершено.
+linktitle: VisitTableEnd
+articleTitle: VisitTableEnd
+second_title: Aspose.Words для .NET
+description: DocumentVisitor VisitTableEnd метод. Вызывается когда перечисление таблицы завершено на С#.
 type: docs
 weight: 490
 url: /ru/net/aspose.words/documentvisitor/visittableend/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitTableEnd(Table table)
 
 А[`VisitorAction`](../../visitoraction/) значение, указывающее, как продолжить перечисление.
 
-### Примеры
+## Примеры
 
 Показывает, как распечатать структуру узлов каждой таблицы в документе.
 
@@ -378,7 +380,5 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [Table](../../../aspose.words.tables/table/)
 * class [DocumentVisitor](../)
-* пространство имен [Aspose.Words](../../documentvisitor/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

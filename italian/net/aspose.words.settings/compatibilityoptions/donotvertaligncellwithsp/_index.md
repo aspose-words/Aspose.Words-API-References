@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.DoNotVertAlignCellWithSp
-second_title: Aspose.Words per .NET API Reference
-description: CompatibilityOptions proprietà. Non allineare verticalmente le celle contenenti oggetti mobili.
+linktitle: DoNotVertAlignCellWithSp
+articleTitle: DoNotVertAlignCellWithSp
+second_title: Aspose.Words per .NET
+description: CompatibilityOptions DoNotVertAlignCellWithSp proprietà. Non allineare verticalmente le celle contenenti oggetti mobili in C#.
 type: docs
 weight: 230
 url: /it/net/aspose.words.settings/compatibilityoptions/donotvertaligncellwithsp/
@@ -17,7 +19,5 @@ public bool DoNotVertAlignCellWithSp { get; set; }
 ### Guarda anche
 
 * class [CompatibilityOptions](../)
-* spazio dei nomi [Aspose.Words.Settings](../../compatibilityoptions/)
+* spazio dei nomi [Aspose.Words.Settings](../../../aspose.words.settings/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldDde.InsertAsUnicode
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldDde propriété. Obtient ou définit sil faut insérer lobjet lié sous forme de texte Unicode.
+linktitle: InsertAsUnicode
+articleTitle: InsertAsUnicode
+second_title: Aspose.Words pour .NET
+description: FieldDde InsertAsUnicode propriété. Obtient ou définit sil faut insérer lobjet lié sous forme de texte Unicode en C#.
 type: docs
 weight: 80
 url: /fr/net/aspose.words.fields/fielddde/insertasunicode/
@@ -14,7 +16,7 @@ Obtient ou définit s'il faut insérer l'objet lié sous forme de texte Unicode.
 public bool InsertAsUnicode { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment utiliser différents types de champs pour créer des liens vers d’autres documents dans le système de fichiers local et afficher leur contenu.
 
@@ -197,7 +199,5 @@ public enum InsertLinkedObjectAs
 ### Voir également
 
 * class [FieldDde](../)
-* espace de noms [Aspose.Words.Fields](../../fielddde/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

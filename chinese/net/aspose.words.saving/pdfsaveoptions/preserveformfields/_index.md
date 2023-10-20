@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.PreserveFormFields
-second_title: Aspose.Words for .NET API 参考
-description: PdfSaveOptions 财产. 指定是将 Microsoft Word 表单字段保留为 PDF 中的表单字段还是将其转换为文本 默认为错误的.
+linktitle: PreserveFormFields
+articleTitle: PreserveFormFields
+second_title: 用于 .NET 的 Aspose.Words
+description: PdfSaveOptions PreserveFormFields 财产. 指定是将 Microsoft Word 表单字段保留为 PDF 中的表单字段还是将其转换为文本 默认为错误的 在 C#.
 type: docs
 weight: 270
 url: /zh/net/aspose.words.saving/pdfsaveoptions/preserveformfields/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.saving/pdfsaveoptions/preserveformfields/
 public bool PreserveFormFields { get; set; }
 ```
 
-### 评论
+## 评论
 
 Microsoft Word 表单字段包括文本输入、下拉列表和复选框控件。
 
@@ -28,7 +30,7 @@ PDF/A 合规性禁止可编辑表单。`错误的`保存为 PDF/A 时，将自�
 
 保存为 PDF/UA 时不支持表单字段。`错误的`值将被自动使用。
 
-### 例子
+## 例子
 
 演示如何使用 Save 方法和 PdfSaveOptions 类将文档保存为 PDF 格式。
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.PreserveFormFields.pdf", pdfOptions);
 ### 也可以看看
 
 * class [PdfSaveOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../pdfsaveoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

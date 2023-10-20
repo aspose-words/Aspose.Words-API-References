@@ -1,7 +1,9 @@
 ---
 title: ImportFormatOptions.KeepSourceNumbering
-second_title: Referencia de API de Aspose.Words para .NET
-description: ImportFormatOptions propiedad. Obtiene o establece un valor booleano que especifica cómo se importará la numeración cuando entre en conflicto en los documentos de origen y de destino. El valor predeterminado esFALSO .
+linktitle: KeepSourceNumbering
+articleTitle: KeepSourceNumbering
+second_title: Aspose.Words para .NET
+description: ImportFormatOptions KeepSourceNumbering propiedad. Obtiene o establece un valor booleano que especifica cómo se importará la numeración cuando entre en conflicto en los documentos de origen y de destino. El valor predeterminado esFALSO  en C#.
 type: docs
 weight: 60
 url: /es/net/aspose.words/importformatoptions/keepsourcenumbering/
@@ -14,7 +16,7 @@ Obtiene o establece un valor booleano que especifica cómo se importará la nume
 public bool KeepSourceNumbering { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo resolver un conflicto al importar documentos que tienen listas con el mismo identificador de definición de lista.
 
@@ -108,7 +110,5 @@ else
 ### Ver también
 
 * class [ImportFormatOptions](../)
-* espacio de nombres [Aspose.Words](../../importformatoptions/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

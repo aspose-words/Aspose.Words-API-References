@@ -1,7 +1,9 @@
 ---
-title: Class MailMergeSettings
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Settings.MailMergeSettings فصل. تحديد كافة معلومات دمج البريد للمستند.
+title: MailMergeSettings Class
+linktitle: MailMergeSettings
+articleTitle: MailMergeSettings
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Settings.MailMergeSettings فصل. تحديد كافة معلومات دمج البريد للمستند في C#.
 type: docs
 weight: 5850
 url: /ar/net/aspose.words.settings/mailmergesettings/
@@ -50,7 +52,7 @@ public class MailMergeSettings
 | [Clear](../../aspose.words.settings/mailmergesettings/clear/)() | مسح إعدادات دمج البريد بحيث أنه عند حفظ المستند، لن يتم حفظ أي إعدادات لدمج البريد وسيصبح مستندًا عاديًا. |
 | [Clone](../../aspose.words.settings/mailmergesettings/clone/)() | يُرجع نسخة عميقة من هذا الكائن. |
 
-### ملاحظات
+## ملاحظات
 
 يمكنك استخدام هذا الكائن لتحديد مصدر بيانات دمج البريد لمستند وستظهر هذه المعلومات (مع حقول البيانات المتوفرة) في Microsoft Word عندما يفتح المستخدم هذا المستند. أو يمكنك استخدام هذا الكائن للاستعلام عن إعدادات دمج البريد التي حددها المستخدم في Microsoft Word لهذا المستند.
 
@@ -64,7 +66,7 @@ public class MailMergeSettings
 
 يحتفظ Aspose.Words بمعلومات دمج البريد عند تحميل وحفظ وتحويل المستندات بين تنسيقات مختلفة، ولكنه لا يستخدم هذه المعلومات عند إجراء دمج البريد الخاص به باستخدام[`MailMerge`](../../aspose.words.mailmerging/mailmerge/) هدف.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تنفيذ دمج البريد مع البيانات من كائن مصدر بيانات Office.
 
@@ -117,5 +119,3 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 
 * مساحة الاسم [Aspose.Words.Settings](../../aspose.words.settings/)
 * المجسم [Aspose.Words](../../)
-
-

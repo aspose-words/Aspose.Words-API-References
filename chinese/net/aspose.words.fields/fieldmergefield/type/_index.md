@@ -1,7 +1,9 @@
 ---
 title: FieldMergeField.Type
-second_title: Aspose.Words for .NET API 参考
-description: FieldMergeField 财产. 获取 Microsoft Word 字段类型
+linktitle: Type
+articleTitle: Type
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldMergeField Type 财产. 获取 Microsoft Word 字段类型 在 C#.
 type: docs
 weight: 70
 url: /zh/net/aspose.words.fields/fieldmergefield/type/
@@ -18,7 +20,5 @@ public override FieldType Type { get; }
 
 * enum [FieldType](../../fieldtype/)
 * class [FieldMergeField](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldmergefield/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

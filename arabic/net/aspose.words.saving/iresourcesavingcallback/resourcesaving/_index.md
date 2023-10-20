@@ -1,7 +1,9 @@
 ---
 title: IResourceSavingCallback.ResourceSaving
-second_title: Aspose.Words لمراجع .NET API
-description: IResourceSavingCallback طريقة. يتم استدعاؤه عندما يقوم Aspose.Words بحفظ مورد خارجي في تنسيقات HTML أو SVG للصفحة الثابتة.
+linktitle: ResourceSaving
+articleTitle: ResourceSaving
+second_title: Aspose.Words لـ .NET
+description: IResourceSavingCallback ResourceSaving طريقة. يتم استدعاؤه عندما يقوم Aspose.Words بحفظ مورد خارجي في تنسيقات HTML أو SVG للصفحة الثابتة في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.saving/iresourcesavingcallback/resourcesaving/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.saving/iresourcesavingcallback/resourcesaving/
 public void ResourceSaving(ResourceSavingArgs args)
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام رد اتصال لتتبع الموارد الخارجية التي تم إنشاؤها أثناء تحويل مستند إلى HTML.
 
@@ -134,7 +136,5 @@ private class ResourceUriPrinter : IResourceSavingCallback
 
 * class [ResourceSavingArgs](../../resourcesavingargs/)
 * interface [IResourceSavingCallback](../)
-* مساحة الاسم [Aspose.Words.Saving](../../iresourcesavingcallback/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

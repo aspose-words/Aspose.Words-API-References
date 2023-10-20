@@ -1,7 +1,9 @@
 ---
 title: FieldDatabaseDataTable.ColumnNames
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldDatabaseDataTable eigendom. Ruft Spalten ab die zu dieser Tabelle gehören.
+linktitle: ColumnNames
+articleTitle: ColumnNames
+second_title: Aspose.Words für .NET
+description: FieldDatabaseDataTable ColumnNames eigendom. Ruft Spalten ab die zu dieser Tabelle gehören in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.fields/fielddatabasedatatable/columnnames/
@@ -17,7 +19,5 @@ public string[] ColumnNames { get; }
 ### Siehe auch
 
 * class [FieldDatabaseDataTable](../)
-* namensraum [Aspose.Words.Fields](../../fielddatabasedatatable/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

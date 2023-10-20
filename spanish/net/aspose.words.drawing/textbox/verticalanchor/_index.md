@@ -1,7 +1,9 @@
 ---
 title: TextBox.VerticalAnchor
-second_title: Referencia de API de Aspose.Words para .NET
-description: TextBox propiedad. Especifica la alineación vertical del texto dentro de una forma.
+linktitle: VerticalAnchor
+articleTitle: VerticalAnchor
+second_title: Aspose.Words para .NET
+description: TextBox VerticalAnchor propiedad. Especifica la alineación vertical del texto dentro de una forma en C#.
 type: docs
 weight: 120
 url: /es/net/aspose.words.drawing/textbox/verticalanchor/
@@ -14,11 +16,11 @@ Especifica la alineación vertical del texto dentro de una forma.
 public TextBoxAnchor VerticalAnchor { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 El valor predeterminado esTop.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo alinear verticalmente el contenido de texto de un cuadro de texto.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "Shape.VerticalAnchor.docx");
 
 * enum [TextBoxAnchor](../../textboxanchor/)
 * class [TextBox](../)
-* espacio de nombres [Aspose.Words.Drawing](../../textbox/)
+* espacio de nombres [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * asamblea [Aspose.Words](../../../)
-
-

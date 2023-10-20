@@ -1,7 +1,9 @@
 ---
 title: FieldXE.PageNumberReplacement
-second_title: Aspose.Words لمراجع .NET API
-description: FieldXE ملكية. الحصول على النص المستخدم أو تعيينه بدلاً من رقم الصفحة.
+linktitle: PageNumberReplacement
+articleTitle: PageNumberReplacement
+second_title: Aspose.Words لـ .NET
+description: FieldXE PageNumberReplacement ملكية. الحصول على النص المستخدم أو تعيينه بدلاً من رقم الصفحة في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.fields/fieldxe/pagenumberreplacement/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldxe/pagenumberreplacement/
 public string PageNumberReplacement { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحديد المراجع الترافقية في حقل INDEX.
 
@@ -64,7 +66,5 @@ doc.Save(ArtifactsDir + "Field.INDEX.XE.CrossReferenceSeparator.docx");
 ### أنظر أيضا
 
 * class [FieldXE](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldxe/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

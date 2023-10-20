@@ -1,7 +1,9 @@
 ---
 title: Run.PhoneticGuide
-second_title: Справочник по API Aspose.Words для .NET
-description: Run свойство. ПолучаетPhoneticGuide объект.
+linktitle: PhoneticGuide
+articleTitle: PhoneticGuide
+second_title: Aspose.Words для .NET
+description: Run PhoneticGuide свойство. ПолучаетPhoneticGuide объект на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words/run/phoneticguide/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/run/phoneticguide/
 public PhoneticGuide PhoneticGuide { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как получить свойства фонетического справочника.
 
@@ -32,7 +34,5 @@ Assert.AreEqual("ruby", runs[0].PhoneticGuide.RubyText);
 
 * class [PhoneticGuide](../../phoneticguide/)
 * class [Run](../)
-* пространство имен [Aspose.Words](../../run/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

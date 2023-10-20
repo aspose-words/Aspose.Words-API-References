@@ -1,7 +1,9 @@
 ---
 title: LanguagePreferences.AddEditingLanguages
-second_title: Aspose.Words لمراجع .NET API
-description: LanguagePreferences طريقة. إضافة لغات تحرير إضافية.
+linktitle: AddEditingLanguages
+articleTitle: AddEditingLanguages
+second_title: Aspose.Words لـ .NET
+description: LanguagePreferences AddEditingLanguages طريقة. إضافة لغات تحرير إضافية في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.loading/languagepreferences/addeditinglanguages/
@@ -18,7 +20,5 @@ public void AddEditingLanguages(EditingLanguage[] languages)
 
 * enum [EditingLanguage](../../editinglanguage/)
 * class [LanguagePreferences](../)
-* مساحة الاسم [Aspose.Words.Loading](../../languagepreferences/)
+* مساحة الاسم [Aspose.Words.Loading](../../../aspose.words.loading/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class SdtListItemCollection
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Markup.SdtListItemCollection فصل. يوفر الوصول إلىSdtListItem عناصر علامة المستند المنظمة.
+title: SdtListItemCollection Class
+linktitle: SdtListItemCollection
+articleTitle: SdtListItemCollection
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Markup.SdtListItemCollection فصل. يوفر الوصول إلىSdtListItem عناصر علامة المستند المنظمة في C#.
 type: docs
 weight: 4030
 url: /ar/net/aspose.words.markup/sdtlistitemcollection/
@@ -28,12 +30,12 @@ public class SdtListItemCollection : IEnumerable<SdtListItem>
 
 | اسم | وصف |
 | --- | --- |
-| [Add](../../aspose.words.markup/sdtlistitemcollection/add/)(SdtListItem) | إضافة عنصر إلى هذه المجموعة. |
+| [Add](../../aspose.words.markup/sdtlistitemcollection/add/)(*[SdtListItem](../sdtlistitem/)*) | إضافة عنصر إلى هذه المجموعة. |
 | [Clear](../../aspose.words.markup/sdtlistitemcollection/clear/)() | مسح كافة العناصر من هذه المجموعة. |
 | [GetEnumerator](../../aspose.words.markup/sdtlistitemcollection/getenumerator/)() | إرجاع كائن العداد الذي يمكن استخدامه للتكرار على كافة العناصر الموجودة في المجموعة. |
-| [RemoveAt](../../aspose.words.markup/sdtlistitemcollection/removeat/)(int) | إزالة عنصر قائمة في الفهرس المحدد. |
+| [RemoveAt](../../aspose.words.markup/sdtlistitemcollection/removeat/)(*int*) | إزالة عنصر قائمة في الفهرس المحدد. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع علامات المستندات المنظمة ذات القائمة المنسدلة.
 
@@ -92,5 +94,3 @@ Assert.AreEqual(0, listItems.Count);
 * class [SdtListItem](../sdtlistitem/)
 * مساحة الاسم [Aspose.Words.Markup](../../aspose.words.markup/)
 * المجسم [Aspose.Words](../../)
-
-

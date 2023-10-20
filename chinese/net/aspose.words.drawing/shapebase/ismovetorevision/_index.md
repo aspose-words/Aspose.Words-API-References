@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.IsMoveToRevision
-second_title: Aspose.Words for .NET API 参考
-description: ShapeBase 财产. 返回真的如果在启用更改跟踪的情况下在 Microsoft Word 中移动插入此对象
+linktitle: IsMoveToRevision
+articleTitle: IsMoveToRevision
+second_title: 用于 .NET 的 Aspose.Words
+description: ShapeBase IsMoveToRevision 财产. 返回真的如果在启用更改跟踪的情况下在 Microsoft Word 中移动插入此对象 在 C#.
 type: docs
 weight: 330
 url: /zh/net/aspose.words.drawing/shapebase/ismovetorevision/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.drawing/shapebase/ismovetorevision/
 public bool IsMoveToRevision { get; }
 ```
 
-### 例子
+## 例子
 
 展示如何识别移动修订形状。
 
@@ -46,7 +48,5 @@ Assert.False(shapes[1].IsMoveToRevision);
 ### 也可以看看
 
 * class [ShapeBase](../)
-* 命名空间 [Aspose.Words.Drawing](../../shapebase/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

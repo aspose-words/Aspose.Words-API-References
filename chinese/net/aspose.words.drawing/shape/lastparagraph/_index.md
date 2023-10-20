@@ -1,7 +1,9 @@
 ---
 title: Shape.LastParagraph
-second_title: Aspose.Words for .NET API 参考
-description: Shape 财产. 获取形状中的最后一段
+linktitle: LastParagraph
+articleTitle: LastParagraph
+second_title: 用于 .NET 的 Aspose.Words
+description: Shape LastParagraph 财产. 获取形状中的最后一段 在 C#.
 type: docs
 weight: 120
 url: /zh/net/aspose.words.drawing/shape/lastparagraph/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.drawing/shape/lastparagraph/
 public Paragraph LastParagraph { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何设置文本框中文本的方向。
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "Shape.TextBoxLayoutFlow.docx");
 
 * class [Paragraph](../../../aspose.words/paragraph/)
 * class [Shape](../)
-* 命名空间 [Aspose.Words.Drawing](../../shape/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

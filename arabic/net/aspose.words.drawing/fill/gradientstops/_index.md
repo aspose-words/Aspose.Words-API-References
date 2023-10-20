@@ -1,9 +1,11 @@
 ---
 title: Fill.GradientStops
-second_title: Aspose.Words لمراجع .NET API
-description: Fill ملكية. يحصل على مجموعة منGradientStop كائنات للتعبئة.
+linktitle: GradientStops
+articleTitle: GradientStops
+second_title: Aspose.Words لـ .NET
+description: Fill GradientStops ملكية. يحصل على مجموعة منGradientStop كائنات للتعبئة في C#.
 type: docs
-weight: 110
+weight: 100
 url: /ar/net/aspose.words.drawing/fill/gradientstops/
 ---
 ## Fill.GradientStops property
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing/fill/gradientstops/
 public GradientStopCollection GradientStops { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إضافة نقاط توقف متدرجة إلى التعبئة المتدرجة.
 
@@ -68,7 +70,5 @@ doc.Save(ArtifactsDir + "Shape.GradientStops.docx", saveOptions);
 
 * class [GradientStopCollection](../../gradientstopcollection/)
 * class [Fill](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../fill/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

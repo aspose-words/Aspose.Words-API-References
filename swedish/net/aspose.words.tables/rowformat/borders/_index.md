@@ -1,7 +1,9 @@
 ---
 title: RowFormat.Borders
-second_title: Aspose.Words för .NET API Referens
-description: RowFormat fast egendom. Hämtar samlingen av standardcellkanter för raden.
+linktitle: Borders
+articleTitle: Borders
+second_title: Aspose.Words för .NET
+description: RowFormat Borders fast egendom. Hämtar samlingen av standardcellkanter för raden i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.tables/rowformat/borders/
@@ -14,7 +16,7 @@ Hämtar samlingen av standardcellkanter för raden.
 public BorderCollection Borders { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man bygger en tabell med anpassade ramar.
 
@@ -81,7 +83,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
 
 * class [BorderCollection](../../../aspose.words/bordercollection/)
 * class [RowFormat](../)
-* namnutrymme [Aspose.Words.Tables](../../rowformat/)
+* namnutrymme [Aspose.Words.Tables](../../../aspose.words.tables/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabelCollection.ShowLegendKey
-second_title: Aspose.Words für .NET-API-Referenz
-description: ChartDataLabelCollection eigendom. Ermöglicht die Angabe ob der Legendenschlüssel für die Datenbeschriftungen der gesamten Serie angezeigt werden soll. Der Standardwert istFALSCH .
+linktitle: ShowLegendKey
+articleTitle: ShowLegendKey
+second_title: Aspose.Words für .NET
+description: ChartDataLabelCollection ShowLegendKey eigendom. Ermöglicht die Angabe ob der Legendenschlüssel für die Datenbeschriftungen der gesamten Serie angezeigt werden soll. Der Standardwert istFALSCH  in C#.
 type: docs
 weight: 110
 url: /de/net/aspose.words.drawing.charts/chartdatalabelcollection/showlegendkey/
@@ -14,11 +16,11 @@ Ermöglicht die Angabe, ob der Legendenschlüssel für die Datenbeschriftungen d
 public bool ShowLegendKey { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Der für diese Eigenschaft definierte Wert kann für eine einzelne Datenbeschriftung mithilfe von überschrieben werden.[`ShowLegendKey`](../../chartdatalabel/showlegendkey/) Eigenschaft.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit Datenbeschriftungen eines Kreisdiagramms gearbeitet wird.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "Charts.DataLabelsPieChart.docx");
 ### Siehe auch
 
 * class [ChartDataLabelCollection](../)
-* namensraum [Aspose.Words.Drawing.Charts](../../chartdatalabelcollection/)
+* namensraum [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum HeightRule
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.HeightRule تعداد. يحدد قاعدة تحديد ارتفاع الكائن.
+title: HeightRule Enum
+linktitle: HeightRule
+articleTitle: HeightRule
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.HeightRule تعداد. يحدد قاعدة تحديد ارتفاع الكائن في C#.
 type: docs
 weight: 3130
 url: /ar/net/aspose.words/heightrule/
@@ -22,7 +24,7 @@ public enum HeightRule
 | Exactly | `1` | الارتفاع محدد بالنقاط بالضبط. يرجى ملاحظة أنه إذا لم يكن من الممكن احتواء النص داخل الكائن بهذا الارتفاع، فسيظهر مقطوعًا. |
 | Auto | `2` | سيزداد الارتفاع تلقائيًا لاستيعاب كل النص الموجود داخل الكائن. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تنسيق الصفوف باستخدام أداة إنشاء المستندات.
 
@@ -60,5 +62,3 @@ doc.Save(ArtifactsDir + "DocumentBuilder.SetRowFormatting.docx");
 
 * مساحة الاسم [Aspose.Words](../../aspose.words/)
 * المجسم [Aspose.Words](../../)
-
-

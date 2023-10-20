@@ -1,7 +1,9 @@
 ---
-title: Enum ShapeLineStyle
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Drawing.ShapeLineStyle enumeración. Especifica el estilo de línea compuesta de unShape .
+title: ShapeLineStyle Enum
+linktitle: ShapeLineStyle
+articleTitle: ShapeLineStyle
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Drawing.ShapeLineStyle enumeración. Especifica el estilo de línea compuesta de unShape  en C#.
 type: docs
 weight: 1270
 url: /es/net/aspose.words.drawing/shapelinestyle/
@@ -25,7 +27,7 @@ public enum ShapeLineStyle
 | Triple | `4` | Tres líneas, fina, gruesa, fina. |
 | Default | `0` | El valor predeterminado esSingle . |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo cambiar las propiedades del trazo.
 
@@ -60,5 +62,3 @@ doc.Save(ArtifactsDir + "Shape.Stroke.docx");
 * property [LineStyle](../stroke/linestyle/)
 * espacio de nombres [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * asamblea [Aspose.Words](../../)
-
-

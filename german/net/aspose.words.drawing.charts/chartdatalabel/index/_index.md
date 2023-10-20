@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabel.Index
-second_title: Aspose.Words für .NET-API-Referenz
-description: ChartDataLabel eigendom. Gibt den Index des enthaltenden Elements an. Dieser Index soll bestimmen für welche untergeordnete Sammlung des übergeordneten Elements dieses Element gilt. Der Standardwert ist 0.
+linktitle: Index
+articleTitle: Index
+second_title: Aspose.Words für .NET
+description: ChartDataLabel Index eigendom. Gibt den Index des enthaltenden Elements an. Dieser Index soll bestimmen für welche untergeordnete Sammlung des übergeordneten Elements dieses Element gilt. Der Standardwert ist 0 in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.drawing.charts/chartdatalabel/index/
@@ -14,7 +16,7 @@ Gibt den Index des enthaltenden Elements an. Dieser Index soll bestimmen, für w
 public int Index { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Beschriftungen auf Datenpunkte in einem Liniendiagramm angewendet werden.
 
@@ -92,7 +94,5 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
 ### Siehe auch
 
 * class [ChartDataLabel](../)
-* namensraum [Aspose.Words.Drawing.Charts](../../chartdatalabel/)
+* namensraum [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../../)
-
-

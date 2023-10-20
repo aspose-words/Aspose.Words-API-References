@@ -1,7 +1,9 @@
 ---
 title: FileFormatUtil.ExtensionToSaveFormat
-second_title: Aspose.Words för .NET API Referens
-description: FileFormatUtil metod. Konverterar ett filnamnstillägg till enSaveFormat värde.
+linktitle: ExtensionToSaveFormat
+articleTitle: ExtensionToSaveFormat
+second_title: Aspose.Words för .NET
+description: FileFormatUtil ExtensionToSaveFormat metod. Konverterar ett filnamnstillägg till enSaveFormat värde i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words/fileformatutil/extensiontosaveformat/
@@ -24,11 +26,11 @@ public static SaveFormat ExtensionToSaveFormat(string extension)
 | --- | --- |
 | ArgumentNullException | Kastar om parametern är`null`. |
 
-### Anmärkningar
+## Anmärkningar
 
 Om anknytningen inte kan kännas igen, returnerasUnknown.
 
-### Exempel
+## Exempel
 
 Visar hur du använder FileFormatUtil-metoderna för att upptäcka formatet på ett dokument.
 
@@ -62,7 +64,5 @@ using (FileStream docStream = File.OpenRead(MyDir + "Word document with missing 
 
 * enum [SaveFormat](../../saveformat/)
 * class [FileFormatUtil](../)
-* namnutrymme [Aspose.Words](../../fileformatutil/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

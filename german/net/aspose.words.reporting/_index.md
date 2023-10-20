@@ -1,7 +1,9 @@
 ---
 title: Aspose.Words.Reporting
-second_title: Aspose.Words für .NET-API-Referenz
-description: Dieser Namespace enthält Klassen der neuen BerichtsEngine von Aspose.Words die Berichtsvorlagen unterstützt die mit einer Sprache markiert sind die auf der LINQMethodensyntax basiert.
+linktitle: Aspose.Words.Reporting
+articleTitle: Aspose.Words.Reporting
+second_title: Aspose.Words für .NET
+description: Dieser Namespace enthält Klassen der neuen BerichtsEngine von Aspose.Words die Berichtsvorlagen unterstützt die mit einer Sprache markiert sind die auf der LINQMethodensyntax basiert in C#.
 type: docs
 weight: 220
 url: /de/net/aspose.words.reporting/
@@ -26,5 +28,3 @@ Dieser Namespace enthält Klassen der neuen Berichts-Engine von Aspose.Words, di
 | --- | --- |
 | [JsonSimpleValueParseMode](./jsonsimplevalueparsemode/) | Gibt einen Modus zum Parsen einfacher JSON-Werte (Null, Boolescher Wert, Zahl, Ganzzahl und Zeichenfolge) beim Laden von JSON an. Ein solcher Modus hat keinen Einfluss auf das Parsen von Datums-/Uhrzeitwerten. |
 | [ReportBuildOptions](./reportbuildoptions/) | Gibt Optionen an, die das Verhalten von steuern[`ReportingEngine`](../aspose.words.reporting/reportingengine/) beim Erstellen eines Berichts. |
-
-

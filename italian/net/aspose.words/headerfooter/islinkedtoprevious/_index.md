@@ -1,7 +1,9 @@
 ---
 title: HeaderFooter.IsLinkedToPrevious
-second_title: Aspose.Words per .NET API Reference
-description: HeaderFooter proprietà. Vero se questa intestazione o piè di pagina è collegata allintestazione o piè di pagina corrispondente nella sezione precedente.
+linktitle: IsLinkedToPrevious
+articleTitle: IsLinkedToPrevious
+second_title: Aspose.Words per .NET
+description: HeaderFooter IsLinkedToPrevious proprietà. Vero se questa intestazione o piè di pagina è collegata allintestazione o piè di pagina corrispondente nella sezione precedente in C#.
 type: docs
 weight: 40
 url: /it/net/aspose.words/headerfooter/islinkedtoprevious/
@@ -14,13 +16,13 @@ Vero se questa intestazione o piè di pagina è collegata all'intestazione o pi�
 public bool IsLinkedToPrevious { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 L'impostazione predefinita è`VERO`.
 
 Tieni presente che quando colleghi un'intestazione o un piè di pagina, il suo contenuto viene cancellato.
 
-### Esempi
+## Esempi
 
 Mostra come collegare intestazioni e piè di pagina tra le sezioni.
 
@@ -85,7 +87,5 @@ doc.Save(ArtifactsDir + "HeaderFooter.Link.docx");
 ### Guarda anche
 
 * class [HeaderFooter](../)
-* spazio dei nomi [Aspose.Words](../../headerfooter/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class MailMergeRegionInfo
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.MailMerging.MailMergeRegionInfo klas. Enthält Informationen zu einer Seriendruckregion.
+title: MailMergeRegionInfo Class
+linktitle: MailMergeRegionInfo
+articleTitle: MailMergeRegionInfo
+second_title: Aspose.Words für .NET
+description: Aspose.Words.MailMerging.MailMergeRegionInfo klas. Enthält Informationen zu einer Seriendruckregion in C#.
 type: docs
 weight: 3860
 url: /de/net/aspose.words.mailmerging/mailmergeregioninfo/
@@ -31,7 +33,7 @@ public class MailMergeRegionInfo
 | [StartField](../../aspose.words.mailmerging/mailmergeregioninfo/startfield/) { get; } | Gibt ein Startfeld für die Region zurück. |
 | [StartMustacheTag](../../aspose.words.mailmerging/mailmergeregioninfo/startmustachetag/) { get; } | Gibt ein Start-„Mustache“-Tag für die Region zurück. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Seriendruckbereiche überprüft werden.
 
@@ -77,5 +79,3 @@ Assert.AreEqual("TableEnd:NestedRegion1", endFieldMergeField.FieldName);
 
 * namensraum [Aspose.Words.MailMerging](../../aspose.words.mailmerging/)
 * Montage [Aspose.Words](../../)
-
-

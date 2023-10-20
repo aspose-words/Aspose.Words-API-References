@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ScaleImageToShapeSize
-second_title: Référence de l'API Aspose.Words pour .NET
-description: HtmlSaveOptions propriété. Spécifie si les images sont mises à léchelle par Aspose.Words à la taille de la forme englobante lors de lexportation au format HTML MHTML ou EPUB. La valeur par défaut estvrai .
+linktitle: ScaleImageToShapeSize
+articleTitle: ScaleImageToShapeSize
+second_title: Aspose.Words pour .NET
+description: HtmlSaveOptions ScaleImageToShapeSize propriété. Spécifie si les images sont mises à léchelle par Aspose.Words à la taille de la forme englobante lors de lexportation au format HTML MHTML ou EPUB. La valeur par défaut estvrai  en C#.
 type: docs
 weight: 450
 url: /fr/net/aspose.words.saving/htmlsaveoptions/scaleimagetoshapesize/
@@ -14,7 +16,7 @@ Spécifie si les images sont mises à l'échelle par Aspose.Words à la taille d
 public bool ScaleImageToShapeSize { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 Une image dans un document Microsoft Word est une forme. La forme a une taille et image a sa propre taille. Les tailles ne sont pas directement liées. Par exemple, l'image peut faire 1024 x 786 pixels, mais la forme qui affiche cette image peut faire 400 x 300 points.
 
@@ -26,7 +28,7 @@ En général, les navigateurs effectuent une mise à l'échelle rapide et de mau
 
 En plus des formes contenant des images raster individuelles, cette option affecte également les formes de groupe consistant d'images raster. Si`ScaleImageToShapeSize` est`FAUX` et une forme de groupe contient des images raster dont la résolution intrinsèque est supérieure à la valeur spécifiée dans[`ImageResolution`](../imageresolution/), Aspose.Words will augmentera la résolution de rendu pour ce groupe. Cela permet de mieux préserver la qualité des images groupées haute résolution lors de l'enregistrement au format HTML.
 
-### Exemples
+## Exemples
 
 Montre comment désactiver la mise à l’échelle des images selon les dimensions de leur forme parent lors de l’enregistrement au format .html.
 
@@ -82,7 +84,5 @@ Document doc = new Document();
 
 * property [ImageResolution](../imageresolution/)
 * class [HtmlSaveOptions](../)
-* espace de noms [Aspose.Words.Saving](../../htmlsaveoptions/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

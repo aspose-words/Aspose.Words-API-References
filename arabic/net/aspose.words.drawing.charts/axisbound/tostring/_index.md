@@ -1,7 +1,9 @@
 ---
 title: AxisBound.ToString
-second_title: Aspose.Words لمراجع .NET API
-description: AxisBound طريقة. تُرجع سلسلة سهلة الاستخدام تعرض قيمة هذا الكائن.
+linktitle: ToString
+articleTitle: ToString
+second_title: Aspose.Words لـ .NET
+description: AxisBound ToString طريقة. تُرجع سلسلة سهلة الاستخدام تعرض قيمة هذا الكائن في C#.
 type: docs
 weight: 70
 url: /ar/net/aspose.words.drawing.charts/axisbound/tostring/
@@ -17,7 +19,5 @@ public override string ToString()
 ### أنظر أيضا
 
 * class [AxisBound](../)
-* مساحة الاسم [Aspose.Words.Drawing.Charts](../../axisbound/)
+* مساحة الاسم [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ChartAxisCollection.Count
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ChartAxisCollection propriété. Obtient le nombre daxes dans cette collection.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words pour .NET
+description: ChartAxisCollection Count propriété. Obtient le nombre daxes dans cette collection en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.drawing.charts/chartaxiscollection/count/
@@ -17,7 +19,5 @@ public int Count { get; }
 ### Voir également
 
 * class [ChartAxisCollection](../)
-* espace de noms [Aspose.Words.Drawing.Charts](../../chartaxiscollection/)
+* espace de noms [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Assemblée [Aspose.Words](../../../)
-
-

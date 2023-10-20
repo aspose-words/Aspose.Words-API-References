@@ -1,7 +1,9 @@
 ---
 title: Footnote.StoryType
-second_title: Aspose.Words per .NET API Reference
-description: Footnote proprietà. RestituisceFootnotes OEndnotes .
+linktitle: StoryType
+articleTitle: StoryType
+second_title: Aspose.Words per .NET
+description: Footnote StoryType proprietà. RestituisceFootnotes OEndnotes  in C#.
 type: docs
 weight: 60
 url: /it/net/aspose.words.notes/footnote/storytype/
@@ -14,7 +16,7 @@ RestituisceFootnotes OEndnotes .
 public override StoryType StoryType { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come inserire i nodi InlineStory.
 
@@ -74,7 +76,5 @@ doc.Save(ArtifactsDir + "InlineStory.InsertInlineStoryNodes.docx");
 
 * enum [StoryType](../../../aspose.words/storytype/)
 * class [Footnote](../)
-* spazio dei nomi [Aspose.Words.Notes](../../footnote/)
+* spazio dei nomi [Aspose.Words.Notes](../../../aspose.words.notes/)
 * assemblea [Aspose.Words](../../../)
-
-

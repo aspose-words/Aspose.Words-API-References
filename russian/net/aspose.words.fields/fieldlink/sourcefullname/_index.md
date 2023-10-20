@@ -1,7 +1,9 @@
 ---
 title: FieldLink.SourceFullName
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldLink свойство. Получает или задает имя и расположение исходного файла.
+linktitle: SourceFullName
+articleTitle: SourceFullName
+second_title: Aspose.Words для .NET
+description: FieldLink SourceFullName свойство. Получает или задает имя и расположение исходного файла на С#.
 type: docs
 weight: 120
 url: /ru/net/aspose.words.fields/fieldlink/sourcefullname/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldlink/sourcefullname/
 public string SourceFullName { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как использовать различные типы полей для связи с другими документами в локальной файловой системе и отображения их содержимого.
 
@@ -197,7 +199,5 @@ public enum InsertLinkedObjectAs
 ### Смотрите также
 
 * class [FieldLink](../)
-* пространство имен [Aspose.Words.Fields](../../fieldlink/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

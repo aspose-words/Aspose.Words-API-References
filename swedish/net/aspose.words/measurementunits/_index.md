@@ -1,7 +1,9 @@
 ---
-title: Enum MeasurementUnits
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.MeasurementUnits uppräkning. Anger måttenheten.
+title: MeasurementUnits Enum
+linktitle: MeasurementUnits
+articleTitle: MeasurementUnits
+second_title: Aspose.Words för .NET
+description: Aspose.Words.MeasurementUnits uppräkning. Anger måttenheten i C#.
 type: docs
 weight: 4150
 url: /sv/net/aspose.words/measurementunits/
@@ -28,5 +30,3 @@ public enum MeasurementUnits
 
 * namnutrymme [Aspose.Words](../../aspose.words/)
 * hopsättning [Aspose.Words](../../)
-
-

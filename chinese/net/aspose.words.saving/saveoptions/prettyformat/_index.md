@@ -1,7 +1,9 @@
 ---
 title: SaveOptions.PrettyFormat
-second_title: Aspose.Words for .NET API 参考
-description: SaveOptions 财产. 当真的在适用的情况下漂亮的格式输出 默认值为错误的.
+linktitle: PrettyFormat
+articleTitle: PrettyFormat
+second_title: 用于 .NET 的 Aspose.Words
+description: SaveOptions PrettyFormat 财产. 当真的在适用的情况下漂亮的格式输出 默认值为错误的 在 C#.
 type: docs
 weight: 110
 url: /zh/net/aspose.words.saving/saveoptions/prettyformat/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.saving/saveoptions/prettyformat/
 public bool PrettyFormat { get; set; }
 ```
 
-### 评论
+## 评论
 
 设置`真的`使 HTML、MHTML、EPUB、WordML、RTF、DOCX 和 ODT 输出人类可读。 对于测试或调试很有用。
 
-### 例子
+## 例子
 
 演示如何增强已保存 .html 文档的原始代码的可读性。
 
@@ -69,7 +71,5 @@ else
 ### 也可以看看
 
 * class [SaveOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../saveoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

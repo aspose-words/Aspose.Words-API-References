@@ -1,7 +1,9 @@
 ---
-title: Class ChartDataLabel
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Drawing.Charts.ChartDataLabel klas. Stellt die Datenbeschriftung auf einem Diagrammpunkt oder einer Trendlinie dar.
+title: ChartDataLabel Class
+linktitle: ChartDataLabel
+articleTitle: ChartDataLabel
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Drawing.Charts.ChartDataLabel klas. Stellt die Datenbeschriftung auf einem Diagrammpunkt oder einer Trendlinie dar in C#.
 type: docs
 weight: 670
 url: /de/net/aspose.words.drawing.charts/chartdatalabel/
@@ -42,11 +44,11 @@ public class ChartDataLabel
 | --- | --- |
 | [ClearFormat](../../aspose.words.drawing.charts/chartdatalabel/clearformat/)() | Löscht das Format dieser Datenbeschriftung. Die Eigenschaften werden auf die Standardwerte gesetzt, die in der übergeordneten data Label-Sammlung definiert sind. |
 
-### Bemerkungen
+## Bemerkungen
 
 Auf einer Serie, die`ChartDataLabel` Das Objekt ist Mitglied von[`ChartDataLabelCollection`](../chartdatalabelcollection/) . Die[`ChartDataLabelCollection`](../chartdatalabelcollection/) enthält ein`ChartDataLabel` Objekt für jeden Punkt.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Beschriftungen auf Datenpunkte in einem Liniendiagramm angewendet werden.
 
@@ -125,5 +127,3 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
 
 * namensraum [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../)
-
-

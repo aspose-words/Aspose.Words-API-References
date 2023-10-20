@@ -1,24 +1,26 @@
 ---
 title: ReplacingArgs.Match
-second_title: Справочник по API Aspose.Words для .NET
-description: ReplacingArgs свойство. Match в результате одного совпадения выражения Regular во время Заменять .
+linktitle: Match
+articleTitle: Match
+second_title: Aspose.Words для .NET
+description: ReplacingArgs Match свойство. Match в результате одного совпадения выражения Regular во времяЗаменять  на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.replacing/replacingargs/match/
 ---
 ## ReplacingArgs.Match property
 
-Match в результате одного совпадения выражения Regular во время **Заменять** .
+Match в результате одного совпадения выражения Regular во время**Заменять** .
 
 ```csharp
 public Match Match { get; }
 ```
 
-### Примечания
+## Примечания
 
 **Матч.Индекс"** получает отсчитываемую от нуля позицию start совпадения от начала диапазона поиска и замены.
 
-### Примеры
+## Примеры
 
 Показывает, как применить другой шрифт к новому содержимому с помощью FindReplaceOptions.
 
@@ -91,7 +93,5 @@ private class NumberHexer : IReplacingCallback
 ### Смотрите также
 
 * class [ReplacingArgs](../)
-* пространство имен [Aspose.Words.Replacing](../../replacingargs/)
+* пространство имен [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ThemeColors.Accent4
-second_title: Aspose.Words لمراجع .NET API
-description: ThemeColors ملكية. يحدد اللون المميز 4.
+linktitle: Accent4
+articleTitle: Accent4
+second_title: Aspose.Words لـ .NET
+description: ThemeColors Accent4 ملكية. يحدد اللون المميز 4 في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.themes/themecolors/accent4/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.themes/themecolors/accent4/
 public Color Accent4 { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين الألوان والخطوط المخصصة للموضوعات.
 
@@ -62,7 +64,5 @@ doc.Save(ArtifactsDir + "Themes.CustomColorsAndFonts.docx");
 ### أنظر أيضا
 
 * class [ThemeColors](../)
-* مساحة الاسم [Aspose.Words.Themes](../../themecolors/)
+* مساحة الاسم [Aspose.Words.Themes](../../../aspose.words.themes/)
 * المجسم [Aspose.Words](../../../)
-
-

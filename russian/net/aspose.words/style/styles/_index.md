@@ -1,9 +1,11 @@
 ---
 title: Style.Styles
-second_title: Справочник по API Aspose.Words для .NET
-description: Style свойство. Получает коллекцию стилей которым принадлежит этот стиль.
+linktitle: Styles
+articleTitle: Styles
+second_title: Aspose.Words для .NET
+description: Style Styles свойство. Получает коллекцию стилей которым принадлежит этот стиль на С#.
 type: docs
-weight: 170
+weight: 160
 url: /ru/net/aspose.words/style/styles/
 ---
 ## Style.Styles property
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/style/styles/
 public StyleCollection Styles { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как получить доступ к коллекции стилей документа.
 
@@ -43,7 +45,5 @@ using (IEnumerator<Style> stylesEnum = doc.Styles.GetEnumerator())
 
 * class [StyleCollection](../../stylecollection/)
 * class [Style](../)
-* пространство имен [Aspose.Words](../../style/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

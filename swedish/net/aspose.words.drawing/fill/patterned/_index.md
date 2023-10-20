@@ -1,12 +1,14 @@
 ---
 title: Fill.Patterned
-second_title: Aspose.Words för .NET API Referens
-description: Fill metod. Ställer in den angivna fyllningen till ett mönster.
+linktitle: Patterned
+articleTitle: Patterned
+second_title: Aspose.Words för .NET
+description: Fill Patterned metod. Ställer in den angivna fyllningen till ett mönster i C#.
 type: docs
-weight: 230
+weight: 220
 url: /sv/net/aspose.words.drawing/fill/patterned/
 ---
-## Patterned(PatternType) {#patterned}
+## Patterned(*[PatternType](../../patterntype/)*) {#patterned}
 
 Ställer in den angivna fyllningen till ett mönster.
 
@@ -18,7 +20,7 @@ public void Patterned(PatternType patternType)
 | --- | --- | --- |
 | patternType | PatternType | [`PatternType`](../../patterntype/) |
 
-### Exempel
+## Exempel
 
 Visar hur man ställer in mönster för en form.
 
@@ -44,12 +46,12 @@ doc.Save(ArtifactsDir + "Shape.FillPattern.docx");
 
 * enum [PatternType](../../patterntype/)
 * class [Fill](../)
-* namnutrymme [Aspose.Words.Drawing](../../fill/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## Patterned(PatternType, Color, Color) {#patterned_1}
+## Patterned(*[PatternType](../../patterntype/), Color, Color*) {#patterned_1}
 
 Ställer in den angivna fyllningen till ett mönster.
 
@@ -63,7 +65,7 @@ public void Patterned(PatternType patternType, Color foreColor, Color backColor)
 | foreColor | Color | Färgen på förgrundsfyllningen. |
 | backColor | Color | Färgen på bakgrundsfyllningen. |
 
-### Exempel
+## Exempel
 
 Visar hur man ställer in mönster för en form.
 
@@ -89,7 +91,5 @@ doc.Save(ArtifactsDir + "Shape.FillPattern.docx");
 
 * enum [PatternType](../../patterntype/)
 * class [Fill](../)
-* namnutrymme [Aspose.Words.Drawing](../../fill/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

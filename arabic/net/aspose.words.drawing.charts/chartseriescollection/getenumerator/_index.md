@@ -1,7 +1,9 @@
 ---
 title: ChartSeriesCollection.GetEnumerator
-second_title: Aspose.Words لمراجع .NET API
-description: ChartSeriesCollection طريقة. يُرجع كائن العداد.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words لـ .NET
+description: ChartSeriesCollection GetEnumerator طريقة. يُرجع كائن العداد في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.drawing.charts/chartseriescollection/getenumerator/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing.charts/chartseriescollection/getenumerator/
 public IEnumerator<ChartSeries> GetEnumerator()
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إضافة وإزالة بيانات السلسلة في مخطط.
 
@@ -62,7 +64,5 @@ chartData.Clear();
 
 * class [ChartSeries](../../chartseries/)
 * class [ChartSeriesCollection](../)
-* مساحة الاسم [Aspose.Words.Drawing.Charts](../../chartseriescollection/)
+* مساحة الاسم [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../../)
-
-

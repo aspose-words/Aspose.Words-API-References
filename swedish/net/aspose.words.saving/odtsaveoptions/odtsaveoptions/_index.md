@@ -1,7 +1,9 @@
 ---
-title: OdtSaveOptions.OdtSaveOptions
-second_title: Aspose.Words för .NET API Referens
-description: OdtSaveOptions byggare. Initierar en ny instans av denna klass som kan användas för att spara ett dokument iOdt format.
+title: OdtSaveOptions
+linktitle: OdtSaveOptions
+articleTitle: OdtSaveOptions
+second_title: Aspose.Words för .NET
+description: OdtSaveOptions byggare. Initierar en ny instans av denna klass som kan användas för att spara ett dokument iOdt format i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.saving/odtsaveoptions/odtsaveoptions/
@@ -14,7 +16,7 @@ Initierar en ny instans av denna klass som kan användas för att spara ett doku
 public OdtSaveOptions()
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man får ett sparat dokument att överensstämma med ett äldre ODT-schema.
 
@@ -33,12 +35,12 @@ doc.Save(ArtifactsDir + "OdtSaveOptions.Odt11Schema.odt", saveOptions);
 ### Se även
 
 * class [OdtSaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../odtsaveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## OdtSaveOptions(string) {#constructor_2}
+## OdtSaveOptions(*string*) {#constructor_2}
 
 Initierar en ny instans av denna klass som kan användas för att spara ett dokument iOdt format krypterad med ett lösenord.
 
@@ -49,12 +51,12 @@ public OdtSaveOptions(string password)
 ### Se även
 
 * class [OdtSaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../odtsaveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## OdtSaveOptions(SaveFormat) {#constructor_1}
+## OdtSaveOptions(*[SaveFormat](../../../aspose.words/saveformat/)*) {#constructor_1}
 
 Initierar en ny instans av denna klass som kan användas för att spara ett dokument iOdt or Ott format.
 
@@ -66,7 +68,7 @@ public OdtSaveOptions(SaveFormat saveFormat)
 | --- | --- | --- |
 | saveFormat | SaveFormat | Kan varaOdt ellerOtt. |
 
-### Exempel
+## Exempel
 
 Visar hur man krypterar ett sparat ODT/OTT-dokument med ett lösenord och sedan laddar det med Aspose.Words.
 
@@ -102,7 +104,5 @@ Assert.AreEqual("Hello world!", doc.GetText().Trim());
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
 * class [OdtSaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../odtsaveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

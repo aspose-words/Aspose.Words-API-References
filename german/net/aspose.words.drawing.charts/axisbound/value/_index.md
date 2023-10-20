@@ -1,7 +1,9 @@
 ---
 title: AxisBound.Value
-second_title: Aspose.Words für .NET-API-Referenz
-description: AxisBound eigendom. Gibt den numerischen Wert der Achsengrenze zurück.
+linktitle: Value
+articleTitle: Value
+second_title: Aspose.Words für .NET
+description: AxisBound Value eigendom. Gibt den numerischen Wert der Achsengrenze zurück in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.drawing.charts/axisbound/value/
@@ -14,7 +16,7 @@ Gibt den numerischen Wert der Achsengrenze zurück.
 public double Value { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie benutzerdefinierte Achsengrenzen festgelegt werden.
 
@@ -74,7 +76,5 @@ doc.Save(ArtifactsDir + "Charts.AxisBound.docx");
 ### Siehe auch
 
 * class [AxisBound](../)
-* namensraum [Aspose.Words.Drawing.Charts](../../axisbound/)
+* namensraum [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../../)
-
-

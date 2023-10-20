@@ -1,12 +1,14 @@
 ---
 title: DocumentBuilder.InsertChart
-second_title: Aspose.Words per .NET API Reference
-description: DocumentBuilder metodo. Inserisce un oggetto grafico nel documento e lo ridimensiona alla dimensione specificata.
+linktitle: InsertChart
+articleTitle: InsertChart
+second_title: Aspose.Words per .NET
+description: DocumentBuilder InsertChart metodo. Inserisce un oggetto grafico nel documento e lo ridimensiona alla dimensione specificata in C#.
 type: docs
 weight: 280
 url: /it/net/aspose.words/documentbuilder/insertchart/
 ---
-## InsertChart(ChartType, double, double) {#insertchart_1}
+## InsertChart(*[ChartType](../../../aspose.words.drawing.charts/charttype/), double, double*) {#insertchart_1}
 
 Inserisce un oggetto grafico nel documento e lo ridimensiona alla dimensione specificata.
 
@@ -24,11 +26,11 @@ public Shape InsertChart(ChartType chartType, double width, double height)
 
 Il nodo immagine appena inserito.
 
-### Osservazioni
+## Osservazioni
 
 Puoi modificare le dimensioni dell'immagine, la posizione, il metodo di posizionamento e altre impostazioni utilizzando [`Shape`](../../../aspose.words.drawing/shape/) oggetto restituito da questo metodo.
 
-### Esempi
+## Esempi
 
 Mostra come inserire un grafico a torta in un documento.
 
@@ -51,12 +53,12 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertPieChart.docx");
 * class [Shape](../../../aspose.words.drawing/shape/)
 * enum [ChartType](../../../aspose.words.drawing.charts/charttype/)
 * class [DocumentBuilder](../)
-* spazio dei nomi [Aspose.Words](../../documentbuilder/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
 
 ---
 
-## InsertChart(ChartType, RelativeHorizontalPosition, double, RelativeVerticalPosition, double, double, double, WrapType) {#insertchart}
+## InsertChart(*[ChartType](../../../aspose.words.drawing.charts/charttype/), [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/), double, [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/), double, double, double, [WrapType](../../../aspose.words.drawing/wraptype/)*) {#insertchart}
 
 Inserisce un oggetto grafico nel documento e lo ridimensiona alla dimensione specificata.
 
@@ -80,11 +82,11 @@ public Shape InsertChart(ChartType chartType, RelativeHorizontalPosition horzPos
 
 Il nodo immagine appena inserito.
 
-### Osservazioni
+## Osservazioni
 
 Puoi modificare le dimensioni dell'immagine, la posizione, il metodo di posizionamento e altre impostazioni utilizzando [`Shape`](../../../aspose.words.drawing/shape/) oggetto restituito da questo metodo.
 
-### Esempi
+## Esempi
 
 Mostra come specificare la posizione e il ritorno a capo durante l'inserimento di un grafico.
 
@@ -106,7 +108,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertedChartRelativePosition.docx");
 * enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/)
 * enum [WrapType](../../../aspose.words.drawing/wraptype/)
 * class [DocumentBuilder](../)
-* spazio dei nomi [Aspose.Words](../../documentbuilder/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

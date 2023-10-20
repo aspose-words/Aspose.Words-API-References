@@ -1,7 +1,9 @@
 ---
-title: Class EditableRange
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.EditableRange classe. Représente une seule plage modifiable.
+title: EditableRange Class
+linktitle: EditableRange
+articleTitle: EditableRange
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.EditableRange classe. Représente une seule plage modifiable en C#.
 type: docs
 weight: 1420
 url: /fr/net/aspose.words/editablerange/
@@ -32,11 +34,11 @@ public class EditableRange
 | --- | --- |
 | [Remove](../../aspose.words/editablerange/remove/)() | Supprime la plage modifiable du document. Ne supprime pas le contenu à l'intérieur de la plage modifiable. |
 
-### Remarques
+## Remarques
 
 `EditableRange` est un objet "façade" qui encapsule deux nœuds[`EditableRangeStart`](./editablerangestart/) et[`EditableRangeEnd`](./editablerangeend/) dans une arborescence de documents et permet de travailler avec une plage modifiable comme un objet unique.
 
-### Exemples
+## Exemples
 
 Montre comment travailler avec une plage modifiable.
 
@@ -189,5 +191,3 @@ public class EditableRangePrinter : DocumentVisitor
 
 * espace de noms [Aspose.Words](../../aspose.words/)
 * Assemblée [Aspose.Words](../../)
-
-

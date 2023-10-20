@@ -1,9 +1,11 @@
 ---
 title: TxtLoadOptions.TrailingSpacesOptions
-second_title: Справочник по API Aspose.Words для .NET
-description: TxtLoadOptions свойство. Получает или задает предпочтительный вариант обработки конечного пробела. Значение по умолчаниюTrim .
+linktitle: TrailingSpacesOptions
+articleTitle: TrailingSpacesOptions
+second_title: Aspose.Words для .NET
+description: TxtLoadOptions TrailingSpacesOptions свойство. Получает или задает предпочтительный вариант обработки конечного пробела. Значение по умолчаниюTrim  на С#.
 type: docs
-weight: 70
+weight: 60
 url: /ru/net/aspose.words.loading/txtloadoptions/trailingspacesoptions/
 ---
 ## TxtLoadOptions.TrailingSpacesOptions property
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.loading/txtloadoptions/trailingspacesoptions/
 public TxtTrailingSpacesOptions TrailingSpacesOptions { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как обрезать пробелы при загрузке документов с открытым текстом.
 
@@ -91,7 +93,5 @@ switch (txtTrailingSpacesOptions)
 
 * enum [TxtTrailingSpacesOptions](../../txttrailingspacesoptions/)
 * class [TxtLoadOptions](../)
-* пространство имен [Aspose.Words.Loading](../../txtloadoptions/)
+* пространство имен [Aspose.Words.Loading](../../../aspose.words.loading/)
 * сборка [Aspose.Words](../../../)
-
-

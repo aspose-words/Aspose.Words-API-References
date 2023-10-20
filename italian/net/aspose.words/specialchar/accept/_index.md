@@ -1,7 +1,9 @@
 ---
 title: SpecialChar.Accept
-second_title: Aspose.Words per .NET API Reference
-description: SpecialChar metodo. Accetta un visitatore.
+linktitle: Accept
+articleTitle: Accept
+second_title: Aspose.Words per .NET
+description: SpecialChar Accept metodo. Accetta un visitatore in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words/specialchar/accept/
@@ -22,7 +24,7 @@ public override bool Accept(DocumentVisitor visitor)
 
 `falso` se il visitatore ha richiesto l'interruzione dell'enumerazione.
 
-### Osservazioni
+## Osservazioni
 
 Chiamate[`VisitSpecialChar`](../../documentvisitor/visitspecialchar/).
 
@@ -32,7 +34,5 @@ Per maggiori informazioni vedere il modello di progettazione Visitor.
 
 * class [DocumentVisitor](../../documentvisitor/)
 * class [SpecialChar](../)
-* spazio dei nomi [Aspose.Words](../../specialchar/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

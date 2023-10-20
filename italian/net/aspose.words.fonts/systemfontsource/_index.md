@@ -1,7 +1,9 @@
 ---
-title: Class SystemFontSource
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Fonts.SystemFontSource classe. Rappresenta tutti i caratteri TrueType installati nel sistema.
+title: SystemFontSource Class
+linktitle: SystemFontSource
+articleTitle: SystemFontSource
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Fonts.SystemFontSource classe. Rappresenta tutti i caratteri TrueType installati nel sistema in C#.
 type: docs
 weight: 3050
 url: /it/net/aspose.words.fonts/systemfontsource/
@@ -21,7 +23,7 @@ public class SystemFontSource : FontSourceBase
 | Nome | Descrizione |
 | --- | --- |
 | [SystemFontSource](systemfontsource/#constructor)() | Ctor. |
-| [SystemFontSource](systemfontsource/#constructor_1)(int) | Ctor. |
+| [SystemFontSource](systemfontsource/#constructor_1)(*int*) | Ctor. |
 
 ## Proprietà
 
@@ -38,7 +40,7 @@ public class SystemFontSource : FontSourceBase
 | [GetAvailableFonts](../../aspose.words.fonts/fontsourcebase/getavailablefonts/)() | Restituisce l'elenco dei caratteri disponibili tramite questa origine. |
 | static [GetSystemFontFolders](../../aspose.words.fonts/systemfontsource/getsystemfontfolders/)() | Restituisce le cartelle dei caratteri di sistema o un array vuoto se le cartelle non sono accessibili. |
 
-### Esempi
+## Esempi
 
 Mostra come accedere all'origine dei caratteri di sistema di un documento e impostare i sostituti dei caratteri.
 
@@ -96,5 +98,3 @@ Assert.AreEqual(1,
 * class [FontSourceBase](../fontsourcebase/)
 * spazio dei nomi [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * assemblea [Aspose.Words](../../)
-
-

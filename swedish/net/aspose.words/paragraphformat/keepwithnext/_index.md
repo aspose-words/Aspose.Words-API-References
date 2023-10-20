@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.KeepWithNext
-second_title: Aspose.Words för .NET API Referens
-description: ParagraphFormat fast egendom. Sant om stycket ska förbli på samma sida som stycket som följer efter det.
+linktitle: KeepWithNext
+articleTitle: KeepWithNext
+second_title: Aspose.Words för .NET
+description: ParagraphFormat KeepWithNext fast egendom. Sant om stycket ska förbli på samma sida som stycket som följer efter det i C#.
 type: docs
 weight: 170
 url: /sv/net/aspose.words/paragraphformat/keepwithnext/
@@ -14,7 +16,7 @@ Sant om stycket ska förbli på samma sida som stycket som följer efter det.
 public bool KeepWithNext { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man ställer in ett bord för att hålla ihop på samma sida.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "Table.KeepTableTogether.docx");
 ### Se även
 
 * class [ParagraphFormat](../)
-* namnutrymme [Aspose.Words](../../paragraphformat/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

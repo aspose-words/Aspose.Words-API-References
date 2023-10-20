@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.Subject
-second_title: Aspose.Words för .NET API Referens
-description: BuiltInDocumentProperties fast egendom. Hämtar eller ställer in ämnet för dokumentet.
+linktitle: Subject
+articleTitle: Subject
+second_title: Aspose.Words för .NET
+description: BuiltInDocumentProperties Subject fast egendom. Hämtar eller ställer in ämnet för dokumentet i C#.
 type: docs
 weight: 260
 url: /sv/net/aspose.words.properties/builtindocumentproperties/subject/
@@ -14,7 +16,7 @@ Hämtar eller ställer in ämnet för dokumentet.
 public string Subject { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med inbyggda dokumentegenskaper i kategorin "Beskrivning".
 
@@ -59,7 +61,5 @@ doc.Save(ArtifactsDir + "DocumentProperties.Description.docx");
 ### Se även
 
 * class [BuiltInDocumentProperties](../)
-* namnutrymme [Aspose.Words.Properties](../../builtindocumentproperties/)
+* namnutrymme [Aspose.Words.Properties](../../../aspose.words.properties/)
 * hopsättning [Aspose.Words](../../../)
-
-

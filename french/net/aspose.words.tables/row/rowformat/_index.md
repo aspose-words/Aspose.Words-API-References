@@ -1,7 +1,9 @@
 ---
 title: Row.RowFormat
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Row propriété. Donne accès aux propriétés de formatage de la ligne.
+linktitle: RowFormat
+articleTitle: RowFormat
+second_title: Aspose.Words pour .NET
+description: Row RowFormat propriété. Donne accès aux propriétés de formatage de la ligne en C#.
 type: docs
 weight: 110
 url: /fr/net/aspose.words.tables/row/rowformat/
@@ -14,7 +16,7 @@ Donne accès aux propriétés de formatage de la ligne.
 public RowFormat RowFormat { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment modifier le formatage d’une ligne de tableau.
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "Table.RowCellFormat.docx");
 
 * class [RowFormat](../../rowformat/)
 * class [Row](../)
-* espace de noms [Aspose.Words.Tables](../../row/)
+* espace de noms [Aspose.Words.Tables](../../../aspose.words.tables/)
 * Assemblée [Aspose.Words](../../../)
-
-

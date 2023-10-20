@@ -1,7 +1,9 @@
 ---
-title: Class Glyph
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Shaping.Glyph 班级. 代表字形
+title: Glyph Class
+linktitle: Glyph
+articleTitle: Glyph
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Shaping.Glyph 班级. 代表字形 在 C#.
 type: docs
 weight: 6040
 url: /zh/net/aspose.words.shaping/glyph/
@@ -18,7 +20,7 @@ public class Glyph
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Glyph](glyph/)(int, short, short, short) | 初始化此类的新实例。 |
+| [Glyph](glyph/)(*int, short, short, short*) | 初始化此类的新实例。 |
 
 ## 特性
 
@@ -34,11 +36,9 @@ public class Glyph
 | 姓名 | 描述 |
 | --- | --- |
 | virtual [Clone](../../aspose.words.shaping/glyph/clone/)() | 返回此实例的克隆。 |
-| virtual [GetWidth](../../aspose.words.shaping/glyph/getwidth/)(int, float) | 返回字形的宽度（提前），以点为单位。 |
+| virtual [GetWidth](../../aspose.words.shaping/glyph/getwidth/)(*int, float*) | 返回字形的宽度（提前），以点为单位。 |
 
 ### 也可以看看
 
 * 命名空间 [Aspose.Words.Shaping](../../aspose.words.shaping/)
 * 部件 [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: CompositeNode.FirstChild
-second_title: Справочник по API Aspose.Words для .NET
-description: CompositeNode свойство. Получает первого дочернего элемента узла.
+linktitle: FirstChild
+articleTitle: FirstChild
+second_title: Aspose.Words для .NET
+description: CompositeNode FirstChild свойство. Получает первого дочернего элемента узла на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words/compositenode/firstchild/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words/compositenode/firstchild/
 public Node FirstChild { get; }
 ```
 
-### Примечания
+## Примечания
 
 Если нет первого дочернего узла,`нулевой` возвращается.
 
-### Примеры
+## Примеры
 
 Показывает, как использовать свойство NextSibling узла для перечисления его непосредственных дочерних элементов.
 
@@ -81,7 +83,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 
 * class [Node](../../node/)
 * class [CompositeNode](../)
-* пространство имен [Aspose.Words](../../compositenode/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

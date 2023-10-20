@@ -1,7 +1,9 @@
 ---
 title: LayoutOptions.KeepOriginalFontMetrics
-second_title: Referencia de API de Aspose.Words para .NET
-description: LayoutOptions propiedad. Obtiene o establece una indicación de si las métricas de fuente originales deben usarse después de la sustitución de fuentes. El valor predeterminado esverdadero .
+linktitle: KeepOriginalFontMetrics
+articleTitle: KeepOriginalFontMetrics
+second_title: Aspose.Words para .NET
+description: LayoutOptions KeepOriginalFontMetrics propiedad. Obtiene o establece una indicación de si las métricas de fuente originales deben usarse después de la sustitución de fuentes. El valor predeterminado esverdadero  en C#.
 type: docs
 weight: 60
 url: /es/net/aspose.words.layout/layoutoptions/keeporiginalfontmetrics/
@@ -14,7 +16,7 @@ Obtiene o establece una indicación de si las métricas de fuente originales deb
 public bool KeepOriginalFontMetrics { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo configurar la propiedad para encontrar la coincidencia más cercana para una fuente faltante entre las fuentes de fuentes disponibles.
 
@@ -74,7 +76,5 @@ public class HandleDocumentSubstitutionWarnings : IWarningCallback
 ### Ver también
 
 * class [LayoutOptions](../)
-* espacio de nombres [Aspose.Words.Layout](../../layoutoptions/)
+* espacio de nombres [Aspose.Words.Layout](../../../aspose.words.layout/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class DropDownItemCollection
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Fields.DropDownItemCollection klass. En samling strängar som representerar alla objekt i ett rullgardinsfält.
+title: DropDownItemCollection Class
+linktitle: DropDownItemCollection
+articleTitle: DropDownItemCollection
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Fields.DropDownItemCollection klass. En samling strängar som representerar alla objekt i ett rullgardinsfält i C#.
 type: docs
 weight: 1500
 url: /sv/net/aspose.words.fields/dropdownitemcollection/
@@ -27,16 +29,16 @@ public class DropDownItemCollection : IEnumerable<string>
 
 | namn | Beskrivning |
 | --- | --- |
-| [Add](../../aspose.words.fields/dropdownitemcollection/add/)(string) | Lägger till en sträng i slutet av samlingen. |
+| [Add](../../aspose.words.fields/dropdownitemcollection/add/)(*string*) | Lägger till en sträng i slutet av samlingen. |
 | [Clear](../../aspose.words.fields/dropdownitemcollection/clear/)() | Tar bort alla element från samlingen. |
-| [Contains](../../aspose.words.fields/dropdownitemcollection/contains/)(string) | Bestämmer om samlingen innehåller det angivna värdet. |
+| [Contains](../../aspose.words.fields/dropdownitemcollection/contains/)(*string*) | Bestämmer om samlingen innehåller det angivna värdet. |
 | [GetEnumerator](../../aspose.words.fields/dropdownitemcollection/getenumerator/)() | Returnerar ett uppräkningsobjekt som kan användas för att iterera över alla objekt i samlingen. |
-| [IndexOf](../../aspose.words.fields/dropdownitemcollection/indexof/)(string) | Returnerar det nollbaserade indexet för det angivna värdet i samlingen. |
-| [Insert](../../aspose.words.fields/dropdownitemcollection/insert/)(int, string) | Infogar en sträng i samlingen vid det angivna indexet. |
-| [Remove](../../aspose.words.fields/dropdownitemcollection/remove/)(string) | Tar bort det angivna värdet från samlingen. |
-| [RemoveAt](../../aspose.words.fields/dropdownitemcollection/removeat/)(int) | Tar bort ett värde vid det angivna indexet. |
+| [IndexOf](../../aspose.words.fields/dropdownitemcollection/indexof/)(*string*) | Returnerar det nollbaserade indexet för det angivna värdet i samlingen. |
+| [Insert](../../aspose.words.fields/dropdownitemcollection/insert/)(*int, string*) | Infogar en sträng i samlingen vid det angivna indexet. |
+| [Remove](../../aspose.words.fields/dropdownitemcollection/remove/)(*string*) | Tar bort det angivna värdet från samlingen. |
+| [RemoveAt](../../aspose.words.fields/dropdownitemcollection/removeat/)(*int*) | Tar bort ett värde vid det angivna indexet. |
 
-### Exempel
+## Exempel
 
 Visar hur man infogar ett kombinationsrutafält och redigerar elementen i dess objektsamling.
 
@@ -93,5 +95,3 @@ dropDownItems.Clear();
 * property [DropDownItems](../formfield/dropdownitems/)
 * namnutrymme [Aspose.Words.Fields](../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../)
-
-

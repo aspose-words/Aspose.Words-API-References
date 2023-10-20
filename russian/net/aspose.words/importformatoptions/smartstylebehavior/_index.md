@@ -1,7 +1,9 @@
 ---
 title: ImportFormatOptions.SmartStyleBehavior
-second_title: Справочник по API Aspose.Words для .NET
-description: ImportFormatOptions свойство. Получает или задает логическое значение определяющее как будут импортироваться стили  если они имеют одинаковые имена в исходном и целевом документах. Значение по умолчаниюЛОЖЬ .
+linktitle: SmartStyleBehavior
+articleTitle: SmartStyleBehavior
+second_title: Aspose.Words для .NET
+description: ImportFormatOptions SmartStyleBehavior свойство. Получает или задает логическое значение определяющее как будут импортироваться стили  если они имеют одинаковые имена в исходном и целевом документах. Значение по умолчаниюЛОЖЬ  на С#.
 type: docs
 weight: 80
 url: /ru/net/aspose.words/importformatoptions/smartstylebehavior/
@@ -14,13 +16,13 @@ url: /ru/net/aspose.words/importformatoptions/smartstylebehavior/
 public bool SmartStyleBehavior { get; set; }
 ```
 
-### Примечания
+## Примечания
 
-Когда эта опция **включено** , исходный стиль будет расширен до прямых атрибутов внутри целевого документа a , еслиKeepSourceFormatting используется режим импорта.
+Когда эта опция**включено** , исходный стиль будет расширен до прямых атрибутов внутри целевого документа a , еслиKeepSourceFormatting используется режим импорта.
 
-Когда эта опция **неполноценный**, исходный стиль будет развернут, только если он пронумерован. Существующие атрибуты назначения не будут переопределены, включая списки.
+Когда эта опция**неполноценный**, исходный стиль будет развернут, только если он пронумерован. Существующие атрибуты назначения не будут переопределены, включая списки.
 
-### Примеры
+## Примеры
 
 Показывает, как устранить повторяющиеся стили при вставке документов.
 
@@ -55,7 +57,5 @@ dstDoc.Save(ArtifactsDir + "DocumentBuilder.SmartStyleBehavior.docx");
 ### Смотрите также
 
 * class [ImportFormatOptions](../)
-* пространство имен [Aspose.Words](../../importformatoptions/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

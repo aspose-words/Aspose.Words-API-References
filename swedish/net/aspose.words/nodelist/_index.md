@@ -1,7 +1,9 @@
 ---
-title: Class NodeList
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.NodeList klass. Representerar en samling noder som matchar en XPathfråga som körs medSelectNodes metod.
+title: NodeList Class
+linktitle: NodeList
+articleTitle: NodeList
+second_title: Aspose.Words för .NET
+description: Aspose.Words.NodeList klass. Representerar en samling noder som matchar en XPathfråga som körs medSelectNodes metod i C#.
 type: docs
 weight: 4220
 url: /sv/net/aspose.words/nodelist/
@@ -30,7 +32,7 @@ public class NodeList : IEnumerable<Node>
 | [GetEnumerator](../../aspose.words/nodelist/getenumerator/)() | Ger en enkel "foreach" stil iteration över samlingen av noder. |
 | [ToArray](../../aspose.words/nodelist/toarray/)() | Kopierar alla noder från samlingen till en ny array av noder. |
 
-### Anmärkningar
+## Anmärkningar
 
 `NodeList` returneras av[`SelectNodes`](../compositenode/selectnodes/) och innehåller en samling av noder som matchar XPath-frågan.
 
@@ -38,7 +40,7 @@ public class NodeList : IEnumerable<Node>
 
 Behandla`NodeList` samling som en "snapshot"-samling.`NodeList`starts som en "live"-samling eftersom noderna faktiskt inte hämtas när XPath-frågan körs. Noderna hämtas först vid åtkomst och vid denna tidpunkt cachelagras noden och alla noder som föregår den och bildar en "snapshot"-samling.
 
-### Exempel
+## Exempel
 
 Visar hur du hittar alla hyperlänkar i ett Word-dokument och sedan ändrar deras webbadresser och visningsnamn.
 
@@ -257,5 +259,3 @@ namespace ApiExamples
 * class [Node](../node/)
 * namnutrymme [Aspose.Words](../../aspose.words/)
 * hopsättning [Aspose.Words](../../)
-
-

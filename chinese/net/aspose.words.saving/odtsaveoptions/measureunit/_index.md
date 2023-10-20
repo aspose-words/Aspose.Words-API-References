@@ -1,7 +1,9 @@
 ---
 title: OdtSaveOptions.MeasureUnit
-second_title: Aspose.Words for .NET API 参考
-description: OdtSaveOptions 财产. 允许指定应用于文档内容的测量单位 默认值为Centimeters
+linktitle: MeasureUnit
+articleTitle: MeasureUnit
+second_title: 用于 .NET 的 Aspose.Words
+description: OdtSaveOptions MeasureUnit 财产. 允许指定应用于文档内容的测量单位 默认值为Centimeters 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.saving/odtsaveoptions/measureunit/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.saving/odtsaveoptions/measureunit/
 public OdtSaveMeasureUnit MeasureUnit { get; set; }
 ```
 
-### 评论
+## 评论
 
 Open Office 在指定长度、宽度和其他可测量格式以及文档中的 内容属性时使用厘米，而 MS Office 使用英寸。
 
-### 例子
+## 例子
 
 演示如何使用不同的测量单位来定义已保存 ODT 文档的样式参数。
 
@@ -42,7 +44,5 @@ doc.Save(ArtifactsDir + "OdtSaveOptions.Odt11Schema.odt", saveOptions);
 
 * enum [OdtSaveMeasureUnit](../../odtsavemeasureunit/)
 * class [OdtSaveOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../odtsaveoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

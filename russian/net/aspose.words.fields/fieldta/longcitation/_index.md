@@ -1,7 +1,9 @@
 ---
 title: FieldTA.LongCitation
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldTA свойство. Получает или задает длинную ссылку на запись.
+linktitle: LongCitation
+articleTitle: LongCitation
+second_title: Aspose.Words для .NET
+description: FieldTA LongCitation свойство. Получает или задает длинную ссылку на запись на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.fields/fieldta/longcitation/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldta/longcitation/
 public string LongCitation { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как построить и настроить таблицу авторитетов, используя поля TOA и TA.
 
@@ -137,7 +139,5 @@ private static FieldTA InsertToaEntry(DocumentBuilder builder, string entryCateg
 ### Смотрите также
 
 * class [FieldTA](../)
-* пространство имен [Aspose.Words.Fields](../../fieldta/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

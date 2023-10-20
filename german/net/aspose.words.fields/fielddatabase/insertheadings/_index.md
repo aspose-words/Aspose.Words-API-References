@@ -1,7 +1,9 @@
 ---
 title: FieldDatabase.InsertHeadings
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldDatabase eigendom. Ruft ab oder legt fest ob die Feldnamen aus der Datenbank als Spaltenüberschriften in der resultierenden Tabelle eingefügt werden sollen.
+linktitle: InsertHeadings
+articleTitle: InsertHeadings
+second_title: Aspose.Words für .NET
+description: FieldDatabase InsertHeadings eigendom. Ruft ab oder legt fest ob die Feldnamen aus der Datenbank als Spaltenüberschriften in der resultierenden Tabelle eingefügt werden sollen in C#.
 type: docs
 weight: 60
 url: /de/net/aspose.words.fields/fielddatabase/insertheadings/
@@ -14,7 +16,7 @@ Ruft ab oder legt fest, ob die Feldnamen aus der Datenbank als Spaltenüberschri
 public bool InsertHeadings { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man Daten aus einer Datenbank extrahiert und als Feld in ein Dokument einfügt.
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "Field.DATABASE.docx");
 ### Siehe auch
 
 * class [FieldDatabase](../)
-* namensraum [Aspose.Words.Fields](../../fielddatabase/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

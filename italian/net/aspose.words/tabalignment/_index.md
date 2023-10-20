@@ -1,7 +1,9 @@
 ---
-title: Enum TabAlignment
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.TabAlignment enum. Specifica lallineamento/tipo di una tabulazione.
+title: TabAlignment Enum
+linktitle: TabAlignment
+articleTitle: TabAlignment
+second_title: Aspose.Words per .NET
+description: Aspose.Words.TabAlignment enum. Specifica lallineamento/tipo di una tabulazione in C#.
 type: docs
 weight: 6180
 url: /it/net/aspose.words/tabalignment/
@@ -30,5 +32,3 @@ public enum TabAlignment
 
 * spazio dei nomi [Aspose.Words](../../aspose.words/)
 * assemblea [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class TxtListIndentation
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Saving.TxtListIndentation 班级. 指定当文档导出到时列表级别如何缩进Text格式.
+title: TxtListIndentation Class
+linktitle: TxtListIndentation
+articleTitle: TxtListIndentation
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Saving.TxtListIndentation 班级. 指定当文档导出到时列表级别如何缩进Text格式 在 C#.
 type: docs
 weight: 5650
 url: /zh/net/aspose.words.saving/txtlistindentation/
@@ -29,7 +31,7 @@ public class TxtListIndentation
 | [Character](../../aspose.words.saving/txtlistindentation/character/) { get; set; } | 获取或设置用于缩进列表级别的字符。 默认值为 '\0'，这意味着没有缩进。 |
 | [Count](../../aspose.words.saving/txtlistindentation/count/) { get; set; } | 获取或设置多少[`Character`](./character/)用作每一级列表的缩进。 默认值为 0，这意味着没有缩进。 |
 
-### 例子
+## 例子
 
 演示如何在将文档保存为纯文本时配置列表缩进。
 
@@ -70,5 +72,3 @@ Assert.AreEqual("1. Item 1\r\n" +
 
 * 命名空间 [Aspose.Words.Saving](../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../)
-
-

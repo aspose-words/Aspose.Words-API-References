@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.OutlineOptions
-second_title: Référence de l'API Aspose.Words pour .NET
-description: PdfSaveOptions propriété. Permet de spécifier les options de contour.
+linktitle: OutlineOptions
+articleTitle: OutlineOptions
+second_title: Aspose.Words pour .NET
+description: PdfSaveOptions OutlineOptions propriété. Permet de spécifier les options de contour en C#.
 type: docs
 weight: 240
 url: /fr/net/aspose.words.saving/pdfsaveoptions/outlineoptions/
@@ -14,7 +16,7 @@ Permet de spécifier les options de contour.
 public OutlineOptions OutlineOptions { get; }
 ```
 
-### Remarques
+## Remarques
 
 Des plans peuvent être créés à partir de titres et de signets.
 
@@ -26,7 +28,7 @@ Pour les signets, le niveau de plan peut être défini dans les options comme va
 
 De plus, les contours peuvent être exportés au format XPS en utilisant le même`OutlineOptions` classe.
 
-### Exemples
+## Exemples
 
 Montre comment limiter le niveau des titres qui apparaîtront dans le plan d'un document PDF enregistré.
 
@@ -107,7 +109,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.CreateMissingOutlineLevels.pdf", saveOpt
 
 * class [OutlineOptions](../../outlineoptions/)
 * class [PdfSaveOptions](../)
-* espace de noms [Aspose.Words.Saving](../../pdfsaveoptions/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

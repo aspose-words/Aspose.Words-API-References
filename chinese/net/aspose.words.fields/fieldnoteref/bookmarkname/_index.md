@@ -1,7 +1,9 @@
 ---
 title: FieldNoteRef.BookmarkName
-second_title: Aspose.Words for .NET API 参考
-description: FieldNoteRef 财产. 获取或设置书签的名称
+linktitle: BookmarkName
+articleTitle: BookmarkName
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldNoteRef BookmarkName 财产. 获取或设置书签的名称 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.fields/fieldnoteref/bookmarkname/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fieldnoteref/bookmarkname/
 public string BookmarkName { get; set; }
 ```
 
-### 例子
+## 例子
 
 显示插入NOTEREF 字段并修改其外观。
 
@@ -83,7 +85,5 @@ private static void InsertBookmarkWithFootnote(DocumentBuilder builder, string b
 ### 也可以看看
 
 * class [FieldNoteRef](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldnoteref/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

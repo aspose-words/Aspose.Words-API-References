@@ -1,7 +1,9 @@
 ---
-title: Class BorderCollection
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.BorderCollection فصل. مجموعة منBorder الكائنات.
+title: BorderCollection Class
+linktitle: BorderCollection
+articleTitle: BorderCollection
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.BorderCollection فصل. مجموعة منBorder الكائنات في C#.
 type: docs
 weight: 90
 url: /ar/net/aspose.words/bordercollection/
@@ -39,14 +41,14 @@ public sealed class BorderCollection : IEnumerable<Border>
 | اسم | وصف |
 | --- | --- |
 | [ClearFormatting](../../aspose.words/bordercollection/clearformatting/)() | إزالة كافة حدود الكائن. |
-| [Equals](../../aspose.words/bordercollection/equals/#equals)(BorderCollection) | مقارنة مجموعات الحدود. |
+| [Equals](../../aspose.words/bordercollection/equals/#equals)(*BorderCollection*) | مقارنة مجموعات الحدود. |
 | [GetEnumerator](../../aspose.words/bordercollection/getenumerator/)() | يُرجع كائن العداد الذي يمكن استخدامه للتكرار عبر كافة الحدود في المجموعة. |
 
-### ملاحظات
+## ملاحظات
 
 عناصر المستند المختلفة لها حدود مختلفة. على سبيل المثال،[`ParagraphFormat`](../paragraphformat/)لديه[`Bottom`](./bottom/) ,[`Left`](./left/) ,[`Right`](./right/) و[`Top`](./top/) border. يمكنك تحديد تنسيق مختلف لكل حد بشكل مستقل أو تعداد كافة الحدود وتطبيق نفس التنسيق.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج فقرة ذات حد علوي.
 
@@ -71,5 +73,3 @@ doc.Save(ArtifactsDir + "Border.ParagraphTopBorder.docx");
 * class [Border](../border/)
 * مساحة الاسم [Aspose.Words](../../aspose.words/)
 * المجسم [Aspose.Words](../../)
-
-

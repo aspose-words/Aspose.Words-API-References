@@ -1,7 +1,9 @@
 ---
 title: VbaModule.Name
-second_title: Referencia de API de Aspose.Words para .NET
-description: VbaModule propiedad. Obtiene o establece el nombre del módulo del proyecto VBA.
+linktitle: Name
+articleTitle: Name
+second_title: Aspose.Words para .NET
+description: VbaModule Name propiedad. Obtiene o establece el nombre del módulo del proyecto VBA en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words.vba/vbamodule/name/
@@ -14,7 +16,7 @@ Obtiene o establece el nombre del módulo del proyecto VBA.
 public string Name { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear un proyecto VBA usando macros.
 
@@ -67,7 +69,5 @@ vbaModules.Remove(vbaModules[2]);
 ### Ver también
 
 * class [VbaModule](../)
-* espacio de nombres [Aspose.Words.Vba](../../vbamodule/)
+* espacio de nombres [Aspose.Words.Vba](../../../aspose.words.vba/)
 * asamblea [Aspose.Words](../../../)
-
-

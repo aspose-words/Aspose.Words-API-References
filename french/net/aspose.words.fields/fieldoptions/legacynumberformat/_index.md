@@ -1,7 +1,9 @@
 ---
 title: FieldOptions.LegacyNumberFormat
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldOptions propriété. Obtient ou définit la valeur indiquant si le format numérique existant antérieur à AW 13.10 pour les champs est activé ou non.
+linktitle: LegacyNumberFormat
+articleTitle: LegacyNumberFormat
+second_title: Aspose.Words pour .NET
+description: FieldOptions LegacyNumberFormat propriété. Obtient ou définit la valeur indiquant si le format numérique existant antérieur à AW 13.10 pour les champs est activé ou non en C#.
 type: docs
 weight: 160
 url: /fr/net/aspose.words.fields/fieldoptions/legacynumberformat/
@@ -14,7 +16,7 @@ Obtient ou définit la valeur indiquant si le format numérique existant (antér
 public bool LegacyNumberFormat { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 Lorsque cette propriété est définie sur`vrai`, le symbole de modèle "#" fonctionnait comme dans .net: Remplace le signe dièse par le chiffre correspondant s'il en est un ; sinon, aucun symbole n'apparaît dans la chaîne de résultat.
 
@@ -22,7 +24,7 @@ Lorsque cette propriété est définie sur`FAUX`, le symbole de modèle « # » 
 
 La valeur par défaut est`FAUX`.
 
-### Exemples
+## Exemples
 
 Montre comment activer le formatage des nombres hérité pour les champs.
 
@@ -43,7 +45,5 @@ Assert.AreEqual("$5", field.Result);
 ### Voir également
 
 * class [FieldOptions](../)
-* espace de noms [Aspose.Words.Fields](../../fieldoptions/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

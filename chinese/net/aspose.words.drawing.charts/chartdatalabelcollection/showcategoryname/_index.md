@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabelCollection.ShowCategoryName
-second_title: Aspose.Words for .NET API 参考
-description: ChartDataLabelCollection 财产. 允许指定是否为整个系列的数据标签显示类别名称 默认值为错误的.
+linktitle: ShowCategoryName
+articleTitle: ShowCategoryName
+second_title: 用于 .NET 的 Aspose.Words
+description: ChartDataLabelCollection ShowCategoryName 财产. 允许指定是否为整个系列的数据标签显示类别名称 默认值为错误的 在 C#.
 type: docs
 weight: 80
 url: /zh/net/aspose.words.drawing.charts/chartdatalabelcollection/showcategoryname/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.drawing.charts/chartdatalabelcollection/showcategoryna
 public bool ShowCategoryName { get; set; }
 ```
 
-### 评论
+## 评论
 
 可以使用 the 覆盖单个数据标签为此属性定义的值[`ShowCategoryName`](../../chartdatalabel/showcategoryname/)属性.
 
-### 例子
+## 例子
 
 演示如何使用气泡图的数据标签。
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "Charts.DataLabelsBubbleChart.docx");
 ### 也可以看看
 
 * class [ChartDataLabelCollection](../)
-* 命名空间 [Aspose.Words.Drawing.Charts](../../chartdatalabelcollection/)
+* 命名空间 [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldToc.CustomStyles
-second_title: Aspose.Words per .NET API Reference
-description: FieldToc proprietà. Ottiene o imposta un elenco di stili diversi dagli stili di intestazione incorporati da includere nel sommario.
+linktitle: CustomStyles
+articleTitle: CustomStyles
+second_title: Aspose.Words per .NET
+description: FieldToc CustomStyles proprietà. Ottiene o imposta un elenco di stili diversi dagli stili di intestazione incorporati da includere nel sommario in C#.
 type: docs
 weight: 40
 url: /it/net/aspose.words.fields/fieldtoc/customstyles/
@@ -14,7 +16,7 @@ Ottiene o imposta un elenco di stili diversi dagli stili di intestazione incorpo
 public string CustomStyles { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come inserire un sommario e popolarlo con voci basate sugli stili di intestazione.
 
@@ -99,7 +101,5 @@ public void InsertNewPageWithHeading(DocumentBuilder builder, string captionText
 ### Guarda anche
 
 * class [FieldToc](../)
-* spazio dei nomi [Aspose.Words.Fields](../../fieldtoc/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

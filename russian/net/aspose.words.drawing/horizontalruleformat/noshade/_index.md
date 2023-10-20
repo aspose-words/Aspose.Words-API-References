@@ -1,7 +1,9 @@
 ---
 title: HorizontalRuleFormat.NoShade
-second_title: Справочник по API Aspose.Words для .NET
-description: HorizontalRuleFormat свойство. Указывает наличие 3Dзатенения для горизонтальной линейки. Еслиистинный то горизонтальная линейка без 3Dзатенения и используется сплошной цвет.
+linktitle: NoShade
+articleTitle: NoShade
+second_title: Aspose.Words для .NET
+description: HorizontalRuleFormat NoShade свойство. Указывает наличие 3Dзатенения для горизонтальной линейки. Еслиистинный то горизонтальная линейка без 3Dзатенения и используется сплошной цвет на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.drawing/horizontalruleformat/noshade/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.drawing/horizontalruleformat/noshade/
 public bool NoShade { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Значение по умолчанию:`ЛОЖЬ`.
 
-### Примеры
+## Примеры
 
 Показывает, как вставить фигуру горизонтальной линейки и настроить ее форматирование.
 
@@ -41,7 +43,5 @@ Assert.True(shape.HorizontalRuleFormat.NoShade);
 ### Смотрите также
 
 * class [HorizontalRuleFormat](../)
-* пространство имен [Aspose.Words.Drawing](../../horizontalruleformat/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

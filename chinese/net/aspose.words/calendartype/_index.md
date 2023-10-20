@@ -1,7 +1,9 @@
 ---
-title: Enum CalendarType
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.CalendarType 枚举. 指定日历的类型
+title: CalendarType Enum
+linktitle: CalendarType
+articleTitle: CalendarType
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.CalendarType 枚举. 指定日历的类型 在 C#.
 type: docs
 weight: 190
 url: /zh/net/aspose.words/calendartype/
@@ -24,7 +26,7 @@ public enum CalendarType
 | SakaEra | `3` | 坂时代日历。 |
 | UmAlQura | `4` | Um-al-Qura 日历。 |
 
-### 例子
+## 例子
 
 展示如何在更新字段时自动将自定义格式应用于字段结果。
 
@@ -162,5 +164,3 @@ private class FieldResultFormatter : IFieldResultFormatter
 
 * 命名空间 [Aspose.Words](../../aspose.words/)
 * 部件 [Aspose.Words](../../)
-
-

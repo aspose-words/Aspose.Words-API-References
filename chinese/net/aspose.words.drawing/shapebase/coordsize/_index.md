@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.CoordSize
-second_title: Aspose.Words for .NET API 参考
-description: ShapeBase 财产. 该形状的包含块内坐标空间的宽度和高度
+linktitle: CoordSize
+articleTitle: CoordSize
+second_title: 用于 .NET 的 Aspose.Words
+description: ShapeBase CoordSize 财产. 该形状的包含块内坐标空间的宽度和高度 在 C#.
 type: docs
 weight: 120
 url: /zh/net/aspose.words.drawing/shapebase/coordsize/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.drawing/shapebase/coordsize/
 public Size CoordSize { get; set; }
 ```
 
-### 评论
+## 评论
 
 默认值为 (1000, 1000)。
 
-### 例子
+## 例子
 
 演示如何将形状坐标平面上的 x 和 y 坐标位置转换为父形状坐标平面上的位置。
 
@@ -164,7 +166,5 @@ doc.Save(ArtifactsDir + "Shape.GroupShape.docx");
 ### 也可以看看
 
 * class [ShapeBase](../)
-* 命名空间 [Aspose.Words.Drawing](../../shapebase/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

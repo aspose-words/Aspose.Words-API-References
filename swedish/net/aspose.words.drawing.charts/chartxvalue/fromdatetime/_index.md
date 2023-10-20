@@ -1,7 +1,9 @@
 ---
 title: ChartXValue.FromDateTime
-second_title: Aspose.Words för .NET API Referens
-description: ChartXValue metod. Skapar enChartXValue instans avDateTime typ.
+linktitle: FromDateTime
+articleTitle: FromDateTime
+second_title: Aspose.Words för .NET
+description: ChartXValue FromDateTime metod. Skapar enChartXValue instans avDateTime typ i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.drawing.charts/chartxvalue/fromdatetime/
@@ -17,7 +19,5 @@ public static ChartXValue FromDateTime(DateTime value)
 ### Se även
 
 * class [ChartXValue](../)
-* namnutrymme [Aspose.Words.Drawing.Charts](../../chartxvalue/)
+* namnutrymme [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../../)
-
-

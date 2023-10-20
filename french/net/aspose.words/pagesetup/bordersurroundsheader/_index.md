@@ -1,7 +1,9 @@
 ---
 title: PageSetup.BorderSurroundsHeader
-second_title: Référence de l'API Aspose.Words pour .NET
-description: PageSetup propriété. Spécifie si la bordure de la page inclut ou exclut lentête.
+linktitle: BorderSurroundsHeader
+articleTitle: BorderSurroundsHeader
+second_title: Aspose.Words pour .NET
+description: PageSetup BorderSurroundsHeader propriété. Spécifie si la bordure de la page inclut ou exclut lentête en C#.
 type: docs
 weight: 70
 url: /fr/net/aspose.words/pagesetup/bordersurroundsheader/
@@ -14,11 +16,11 @@ Spécifie si la bordure de la page inclut ou exclut l'en-tête.
 public bool BorderSurroundsHeader { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 Notez que la modification de cette propriété affecte toutes les sections du document.
 
-### Exemples
+## Exemples
 
 Montre comment appliquer une bordure à la page et à l'en-tête/pied de page.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "PageSetup.PageBorder.docx");
 ### Voir également
 
 * class [PageSetup](../)
-* espace de noms [Aspose.Words](../../pagesetup/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

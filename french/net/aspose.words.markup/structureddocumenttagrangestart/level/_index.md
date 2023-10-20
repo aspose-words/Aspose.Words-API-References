@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTagRangeStart.Level
-second_title: Référence de l'API Aspose.Words pour .NET
-description: StructuredDocumentTagRangeStart propriété. Obtient le niveau auquel le début de cette plage de balises de document structuré se produit dans larborescence du document.
+linktitle: Level
+articleTitle: Level
+second_title: Aspose.Words pour .NET
+description: StructuredDocumentTagRangeStart Level propriété. Obtient le niveau auquel le début de cette plage de balises de document structuré se produit dans larborescence du document en C#.
 type: docs
 weight: 70
 url: /fr/net/aspose.words.markup/structureddocumenttagrangestart/level/
@@ -14,7 +16,7 @@ Obtient le niveau auquel le début de cette plage de balises de document structu
 public MarkupLevel Level { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment obtenir les propriétés des balises de documents structurés à plusieurs sections.
 
@@ -50,7 +52,5 @@ Console.WriteLine($"\t|NodeType: {rangeEndTag.NodeType}");
 
 * enum [MarkupLevel](../../markuplevel/)
 * class [StructuredDocumentTagRangeStart](../)
-* espace de noms [Aspose.Words.Markup](../../structureddocumenttagrangestart/)
+* espace de noms [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Assemblée [Aspose.Words](../../../)
-
-

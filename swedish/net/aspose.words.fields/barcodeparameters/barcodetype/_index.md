@@ -1,7 +1,9 @@
 ---
 title: BarcodeParameters.BarcodeType
-second_title: Aspose.Words för .NET API Referens
-description: BarcodeParameters fast egendom. Streckkodstyp.
+linktitle: BarcodeType
+articleTitle: BarcodeType
+second_title: Aspose.Words för .NET
+description: BarcodeParameters BarcodeType fast egendom. Streckkodstyp i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.fields/barcodeparameters/barcodetype/
@@ -14,7 +16,7 @@ Streckkodstyp.
 public string BarcodeType { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man använder en streckkodsgenerator.
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.docx");
 ### Se även
 
 * class [BarcodeParameters](../)
-* namnutrymme [Aspose.Words.Fields](../../barcodeparameters/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

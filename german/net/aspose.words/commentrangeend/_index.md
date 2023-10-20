@@ -1,7 +1,9 @@
 ---
-title: Class CommentRangeEnd
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.CommentRangeEnd klas. Bezeichnet das Ende eines Textbereichs dem ein Kommentar zugeordnet ist.
+title: CommentRangeEnd Class
+linktitle: CommentRangeEnd
+articleTitle: CommentRangeEnd
+second_title: Aspose.Words für .NET
+description: Aspose.Words.CommentRangeEnd klas. Bezeichnet das Ende eines Textbereichs dem ein Kommentar zugeordnet ist in C#.
 type: docs
 weight: 250
 url: /de/net/aspose.words/commentrangeend/
@@ -20,7 +22,7 @@ public sealed class CommentRangeEnd : Node
 
 | Name | Beschreibung |
 | --- | --- |
-| [CommentRangeEnd](commentrangeend/)(DocumentBase, int) | Initialisiert eine neue Instanz dieser Klasse. |
+| [CommentRangeEnd](commentrangeend/)(*[DocumentBase](../documentbase/), int*) | Initialisiert eine neue Instanz dieser Klasse. |
 
 ## Eigenschaften
 
@@ -40,24 +42,24 @@ public sealed class CommentRangeEnd : Node
 
 | Name | Beschreibung |
 | --- | --- |
-| override [Accept](../../aspose.words/commentrangeend/accept/)(DocumentVisitor) | Akzeptiert einen Besucher. |
-| [Clone](../../aspose.words/node/clone/)(bool) | Erstellt ein Duplikat des Knotens. |
-| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Ruft den ersten Vorfahren des angegebenen ab[`NodeType`](../nodetype/) . |
-| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Ruft den ersten Vorfahren des angegebenen Objekttyps ab. |
+| override [Accept](../../aspose.words/commentrangeend/accept/)(*[DocumentVisitor](../documentvisitor/)*) | Akzeptiert einen Besucher. |
+| [Clone](../../aspose.words/node/clone/)(*bool*) | Erstellt ein Duplikat des Knotens. |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*[NodeType](../nodetype/)*) | Ruft den ersten Vorfahren des angegebenen ab[`NodeType`](../nodetype/) . |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | Ruft den ersten Vorfahren des angegebenen Objekttyps ab. |
 | virtual [GetText](../../aspose.words/node/gettext/)() | Ruft den Text dieses Knotens und aller seiner untergeordneten Knoten ab. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Ruft den nächsten Knoten gemäß dem Pre-Order-Tree-Traversal-Algorithmus ab. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Ruft den vorherigen Knoten gemäß dem Pre-Order-Tree-Traversal-Algorithmus ab. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../node/)*) | Ruft den nächsten Knoten gemäß dem Pre-Order-Tree-Traversal-Algorithmus ab. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../node/)*) | Ruft den vorherigen Knoten gemäß dem Pre-Order-Tree-Traversal-Algorithmus ab. |
 | [Remove](../../aspose.words/node/remove/)() | Entfernt sich selbst vom übergeordneten Element. |
-| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Exportiert den Inhalt des Knotens in einen String im angegebenen Format. |
-| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | Exportiert den Inhalt des Knotens mit den angegebenen Speicheroptionen in einen String. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../saveformat/)*) | Exportiert den Inhalt des Knotens in einen String im angegebenen Format. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | Exportiert den Inhalt des Knotens mit den angegebenen Speicheroptionen in einen String. |
 
-### Bemerkungen
+## Bemerkungen
 
 Um einen Kommentar zu erstellen, der in einem Textbereich verankert ist, müssen Sie einen erstellen[`Comment`](../comment/) and dann erstellen[`CommentRangeStart`](../commentrangestart/) Und`CommentRangeEnd`und setzen Sie ihre Bezeichner auf den gleichen Wert[`Id`](../comment/id/) Wert.
 
 `CommentRangeEnd` ist ein Knoten auf Inline-Ebene und kann nur ein untergeordnetes Element von sein[`Paragraph`](../paragraph/).
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie der Inhalt aller Kommentare und deren Kommentarbereiche mithilfe eines Dokumentbesuchers gedruckt wird.
 
@@ -220,5 +222,3 @@ public class CommentInfoPrinter : DocumentVisitor
 * class [Node](../node/)
 * namensraum [Aspose.Words](../../aspose.words/)
 * Montage [Aspose.Words](../../)
-
-

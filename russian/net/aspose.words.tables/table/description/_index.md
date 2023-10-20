@@ -1,7 +1,9 @@
 ---
 title: Table.Description
-second_title: Справочник по API Aspose.Words для .NET
-description: Table свойство. Получает или задает описание этой таблицы. Предоставляет альтернативное текстовое представление информации содержащейся в таблице.
+linktitle: Description
+articleTitle: Description
+second_title: Aspose.Words для .NET
+description: Table Description свойство. Получает или задает описание этой таблицы. Предоставляет альтернативное текстовое представление информации содержащейся в таблице на С#.
 type: docs
 weight: 110
 url: /ru/net/aspose.words.tables/table/description/
@@ -14,13 +16,13 @@ url: /ru/net/aspose.words.tables/table/description/
 public string Description { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Значение по умолчанию — пустая строка.
 
 Это свойство имеет смысл для документов DOCX , соответствующих стандарту ISO/IEC 29500 ([`OoxmlCompliance`](../../../aspose.words.saving/ooxmlcompliance/)). При сохранении в форматах, предшествующих ISO/IEC 29500, это свойство игнорируется.
 
-### Примеры
+## Примеры
 
 Показывает, как построить вложенную таблицу без использования построителя документов.
 
@@ -76,7 +78,5 @@ private static Table CreateTable(Document doc, int rowCount, int cellCount, stri
 ### Смотрите также
 
 * class [Table](../)
-* пространство имен [Aspose.Words.Tables](../../table/)
+* пространство имен [Aspose.Words.Tables](../../../aspose.words.tables/)
 * сборка [Aspose.Words](../../../)
-
-

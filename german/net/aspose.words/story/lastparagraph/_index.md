@@ -1,7 +1,9 @@
 ---
 title: Story.LastParagraph
-second_title: Aspose.Words für .NET-API-Referenz
-description: Story eigendom. Ruft den letzten Absatz in der Geschichte ab.
+linktitle: LastParagraph
+articleTitle: LastParagraph
+second_title: Aspose.Words für .NET
+description: Story LastParagraph eigendom. Ruft den letzten Absatz in der Geschichte ab in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words/story/lastparagraph/
@@ -14,7 +16,7 @@ Ruft den letzten Absatz in der Geschichte ab.
 public Paragraph LastParagraph { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Cursorposition eines DocumentBuilders auf einen angegebenen Knoten verschoben wird.
 
@@ -47,7 +49,5 @@ Assert.AreEqual("Run 2. \rRun 1. \rRun 3.", doc.GetText().Trim());
 
 * class [Paragraph](../../paragraph/)
 * class [Story](../)
-* namensraum [Aspose.Words](../../story/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

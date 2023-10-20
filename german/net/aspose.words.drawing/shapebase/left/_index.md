@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.Left
-second_title: Aspose.Words für .NET-API-Referenz
-description: ShapeBase eigendom. Ruft die Position der linken Kante des enthaltenden Blocks der Form ab oder legt diese fest.
+linktitle: Left
+articleTitle: Left
+second_title: Aspose.Words für .NET
+description: ShapeBase Left eigendom. Ruft die Position der linken Kante des enthaltenden Blocks der Form ab oder legt diese fest in C#.
 type: docs
 weight: 370
 url: /de/net/aspose.words.drawing/shapebase/left/
@@ -14,7 +16,7 @@ Ruft die Position der linken Kante des enthaltenden Blocks der Form ab oder legt
 public double Left { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Für eine Form der obersten Ebene wird der Wert in Punkten und relativ zum Formanker angegeben.
 
@@ -24,7 +26,7 @@ Der Standardwert ist 0.
 
 Hat nur Auswirkungen auf schwebende Formen.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man ein schwebendes Bild einfügt und seine Position und Größe angibt.
 
@@ -61,7 +63,5 @@ doc.Save(ArtifactsDir + "Image.CreateFloatingPositionSize.docx");
 ### Siehe auch
 
 * class [ShapeBase](../)
-* namensraum [Aspose.Words.Drawing](../../shapebase/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

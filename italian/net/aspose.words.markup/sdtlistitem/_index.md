@@ -1,7 +1,9 @@
 ---
-title: Class SdtListItem
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Markup.SdtListItem classe. Questo elemento specifica un singolo elemento dellelenco allinterno di un genitoreComboBox ODropDownList tag documento strutturato.
+title: SdtListItem Class
+linktitle: SdtListItem
+articleTitle: SdtListItem
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Markup.SdtListItem classe. Questo elemento specifica un singolo elemento dellelenco allinterno di un genitoreComboBox ODropDownList tag documento strutturato in C#.
 type: docs
 weight: 4020
 url: /it/net/aspose.words.markup/sdtlistitem/
@@ -20,8 +22,8 @@ public class SdtListItem
 
 | Nome | Descrizione |
 | --- | --- |
-| [SdtListItem](sdtlistitem/#constructor)(string) | Inizializza una nuova istanza di questa classe. |
-| [SdtListItem](sdtlistitem/#constructor_1)(string, string) | Inizializza una nuova istanza di questa classe. |
+| [SdtListItem](sdtlistitem/#constructor)(*string*) | Inizializza una nuova istanza di questa classe. |
+| [SdtListItem](sdtlistitem/#constructor_1)(*string, string*) | Inizializza una nuova istanza di questa classe. |
 
 ## Proprietà
 
@@ -30,7 +32,7 @@ public class SdtListItem
 | [DisplayText](../../aspose.words.markup/sdtlistitem/displaytext/) { get; } | Ottiene il testo da visualizzare nel contenuto dell'esecuzione al posto di[`Value`](./value/) contenuto dell'attributo per questa voce di elenco. |
 | [Value](../../aspose.words.markup/sdtlistitem/value/) { get; } | Ottiene il valore di questa voce di elenco. |
 
-### Esempi
+## Esempi
 
 Mostra come lavorare con i tag dei documenti strutturati con elenco a discesa.
 
@@ -88,5 +90,3 @@ Assert.AreEqual(0, listItems.Count);
 
 * spazio dei nomi [Aspose.Words.Markup](../../aspose.words.markup/)
 * assemblea [Aspose.Words](../../)
-
-

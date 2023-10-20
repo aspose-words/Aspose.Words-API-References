@@ -1,12 +1,14 @@
 ---
 title: DigitalSignatureUtil.RemoveAllSignatures
-second_title: Référence de l'API Aspose.Words pour .NET
-description: DigitalSignatureUtil méthode. Supprime toutes les signatures numériques du fichier source et écrit le fichier non signé dans le fichier de destination.
+linktitle: RemoveAllSignatures
+articleTitle: RemoveAllSignatures
+second_title: Aspose.Words pour .NET
+description: DigitalSignatureUtil RemoveAllSignatures méthode. Supprime toutes les signatures numériques du fichier source et écrit le fichier non signé dans le fichier de destination en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.digitalsignatures/digitalsignatureutil/removeallsignatures/
 ---
-## RemoveAllSignatures(string, string) {#removeallsignatures_1}
+## RemoveAllSignatures(*string, string*) {#removeallsignatures_1}
 
 Supprime toutes les signatures numériques du fichier source et écrit le fichier non signé dans le fichier de destination.
 
@@ -16,7 +18,7 @@ Les formats suivants sont compatibles pour la suppression des signatures numéri
 public static void RemoveAllSignatures(string srcFileName, string dstFileName)
 ```
 
-### Exemples
+## Exemples
 
 Montre comment supprimer les signatures numériques d’un document signé numériquement.
 
@@ -44,12 +46,12 @@ Assert.That(DigitalSignatureUtil.LoadSignatures(ArtifactsDir + "DigitalSignature
 ### Voir également
 
 * class [DigitalSignatureUtil](../)
-* espace de noms [Aspose.Words.DigitalSignatures](../../digitalsignatureutil/)
+* espace de noms [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * Assemblée [Aspose.Words](../../../)
 
 ---
 
-## RemoveAllSignatures(Stream, Stream) {#removeallsignatures}
+## RemoveAllSignatures(*Stream, Stream*) {#removeallsignatures}
 
 Supprime toutes les signatures numériques du document dans le flux source et écrit le document non signé dans le flux de destination.
 
@@ -61,7 +63,7 @@ Les formats suivants sont compatibles pour la suppression des signatures numéri
 public static void RemoveAllSignatures(Stream srcStream, Stream dstStream)
 ```
 
-### Exemples
+## Exemples
 
 Montre comment supprimer les signatures numériques d’un document signé numériquement.
 
@@ -89,7 +91,5 @@ Assert.That(DigitalSignatureUtil.LoadSignatures(ArtifactsDir + "DigitalSignature
 ### Voir également
 
 * class [DigitalSignatureUtil](../)
-* espace de noms [Aspose.Words.DigitalSignatures](../../digitalsignatureutil/)
+* espace de noms [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * Assemblée [Aspose.Words](../../../)
-
-

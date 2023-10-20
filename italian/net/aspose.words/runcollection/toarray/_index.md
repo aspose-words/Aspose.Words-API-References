@@ -1,7 +1,9 @@
 ---
 title: RunCollection.ToArray
-second_title: Aspose.Words per .NET API Reference
-description: RunCollection metodo. Copia tutte le esecuzioni dalla raccolta in un nuovo array di esecuzioni.
+linktitle: ToArray
+articleTitle: ToArray
+second_title: Aspose.Words per .NET
+description: RunCollection ToArray metodo. Copia tutte le esecuzioni dalla raccolta in un nuovo array di esecuzioni in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words/runcollection/toarray/
@@ -18,7 +20,7 @@ public Run[] ToArray()
 
 Una serie di corse.
 
-### Esempi
+## Esempi
 
 Mostra come determinare il tipo di revisione di un nodo in linea.
 
@@ -75,7 +77,5 @@ Assert.IsTrue(runs[5].IsDeleteRevision);
 
 * class [Run](../../run/)
 * class [RunCollection](../)
-* spazio dei nomi [Aspose.Words](../../runcollection/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

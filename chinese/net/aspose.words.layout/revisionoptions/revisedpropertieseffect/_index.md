@@ -1,7 +1,9 @@
 ---
 title: RevisionOptions.RevisedPropertiesEffect
-second_title: Aspose.Words for .NET API 参考
-description: RevisionOptions 财产. 允许通过更改格式属性来指定内容区域的效果FormatChange 默认值为None
+linktitle: RevisedPropertiesEffect
+articleTitle: RevisedPropertiesEffect
+second_title: 用于 .NET 的 Aspose.Words
+description: RevisionOptions RevisedPropertiesEffect 财产. 允许通过更改格式属性来指定内容区域的效果FormatChange 默认值为None 在 C#.
 type: docs
 weight: 120
 url: /zh/net/aspose.words.layout/revisionoptions/revisedpropertieseffect/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.layout/revisionoptions/revisedpropertieseffect/
 public RevisionTextEffect RevisedPropertiesEffect { get; set; }
 ```
 
-### 评论
+## 评论
 
 Hidden是不允许的并且会导致ArgumentOutOfRangeException。
 
-### 例子
+## 例子
 
 展示如何修改修订版本的外观。
 
@@ -70,7 +72,5 @@ doc.Save(ArtifactsDir + "Revision.RevisionOptions.pdf");
 
 * enum [RevisionTextEffect](../../revisiontexteffect/)
 * class [RevisionOptions](../)
-* 命名空间 [Aspose.Words.Layout](../../revisionoptions/)
+* 命名空间 [Aspose.Words.Layout](../../../aspose.words.layout/)
 * 部件 [Aspose.Words](../../../)
-
-

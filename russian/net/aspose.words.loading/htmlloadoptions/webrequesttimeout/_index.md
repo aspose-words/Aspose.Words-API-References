@@ -1,7 +1,9 @@
 ---
 title: HtmlLoadOptions.WebRequestTimeout
-second_title: Справочник по API Aspose.Words для .NET
-description: HtmlLoadOptions свойство. Число миллисекунд ожидания до истечения времени ожидания вебзапроса. Значение по умолчанию  100000 миллисекунд 100 секунд. .
+linktitle: WebRequestTimeout
+articleTitle: WebRequestTimeout
+second_title: Aspose.Words для .NET
+description: HtmlLoadOptions WebRequestTimeout свойство. Число миллисекунд ожидания до истечения времени ожидания вебзапроса. Значение по умолчанию  100000 миллисекунд 100 секунд.  на С#.
 type: docs
 weight: 70
 url: /ru/net/aspose.words.loading/htmlloadoptions/webrequesttimeout/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.loading/htmlloadoptions/webrequesttimeout/
 public int WebRequestTimeout { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Количество миллисекунд, в течение которых Aspose.Words ожидает ответа при загрузке внешних ресурсов (изображений, листов style ), связанных в документах HTML и MHTML.
 
-### Примеры
+## Примеры
 
 Показывает, как установить ограничение по времени для веб-запросов при загрузке документа с внешними ресурсами, связанными URL-адресами.
 
@@ -87,7 +89,5 @@ private class ListDocumentWarnings : IWarningCallback
 ### Смотрите также
 
 * class [HtmlLoadOptions](../)
-* пространство имен [Aspose.Words.Loading](../../htmlloadoptions/)
+* пространство имен [Aspose.Words.Loading](../../../aspose.words.loading/)
 * сборка [Aspose.Words](../../../)
-
-

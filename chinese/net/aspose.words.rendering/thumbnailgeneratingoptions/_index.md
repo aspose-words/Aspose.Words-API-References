@@ -1,7 +1,9 @@
 ---
-title: Class ThumbnailGeneratingOptions
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Rendering.ThumbnailGeneratingOptions 班级. 可用于在生成文档缩略图时指定其他选项
+title: ThumbnailGeneratingOptions Class
+linktitle: ThumbnailGeneratingOptions
+articleTitle: ThumbnailGeneratingOptions
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Rendering.ThumbnailGeneratingOptions 班级. 可用于在生成文档缩略图时指定其他选项 在 C#.
 type: docs
 weight: 4600
 url: /zh/net/aspose.words.rendering/thumbnailgeneratingoptions/
@@ -27,11 +29,11 @@ public class ThumbnailGeneratingOptions
 | [GenerateFromFirstPage](../../aspose.words.rendering/thumbnailgeneratingoptions/generatefromfirstpage/) { get; set; } | 指定是否从文档的第一页或第一张图像生成缩略图。 |
 | [ThumbnailSize](../../aspose.words.rendering/thumbnailgeneratingoptions/thumbnailsize/) { get; set; } | 生成的缩略图的大小（以像素为单位）。 默认值为 600x900。 |
 
-### 评论
+## 评论
 
 用户可以调用方法[`UpdateThumbnail`](../../aspose.words/document/updatethumbnail/)生成 [`Thumbnail`](../../aspose.words.properties/builtindocumentproperties/thumbnail/)对于文档.
 
-### 例子
+## 例子
 
 展示如何更新文档的缩略图。
 
@@ -60,5 +62,3 @@ doc.Save(ArtifactsDir + "Document.UpdateThumbnail.FirstImage.epub");
 
 * 命名空间 [Aspose.Words.Rendering](../../aspose.words.rendering/)
 * 部件 [Aspose.Words](../../)
-
-

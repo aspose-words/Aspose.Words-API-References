@@ -1,12 +1,14 @@
 ---
 title: Aspose.Words.Shaping
-second_title: Aspose.Words für .NET-API-Referenz
-description: Die Aspose.Words.Shaping Der Namespace enthält Klassen zur Bereitstellung Unterstützung für OpenTypeFunktionen mithilfe externer TextformungsEngines.
+linktitle: Aspose.Words.Shaping
+articleTitle: Aspose.Words.Shaping
+second_title: Aspose.Words für .NET
+description: DieAspose.Words.Shaping Der Namespace enthält Klassen zur Bereitstellung Unterstützung für OpenTypeFunktionen mithilfe externer TextformungsEngines in C#.
 type: docs
 weight: 250
 url: /de/net/aspose.words.shaping/
 ---
-Die **Aspose.Words.Shaping** Der Namespace enthält Klassen zur Bereitstellung Unterstützung für OpenType-Funktionen mithilfe externer Textformungs-Engines.
+Die**Aspose.Words.Shaping** Der Namespace enthält Klassen zur Bereitstellung Unterstützung für OpenType-Funktionen mithilfe externer Textformungs-Engines.
 
 ## Klassen
 
@@ -29,5 +31,3 @@ Die **Aspose.Words.Shaping** Der Namespace enthält Klassen zur Bereitstellung U
 | [FontFeature](./fontfeature/) | Funktionen bieten Informationen darüber, wie Glyphen in einer Schriftart zum Rendern eines Skripts verwendet werden. https://docs.microsoft.com/en-us/typography/opentype/spec/featuretags |
 | [ScriptShapingLevel](./scriptshapinglevel/) | Beschreibt die für ein Skript erforderlichen Formungsebenen. |
 | [UnicodeScript](./unicodescript/) | Eigenschaft der Unicode-Zeichendatenbank: Script (sc). |
-
-

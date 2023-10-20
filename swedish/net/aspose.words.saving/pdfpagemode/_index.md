@@ -1,7 +1,9 @@
 ---
-title: Enum PdfPageMode
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Saving.PdfPageMode uppräkning. Anger hur PDFdokumentet ska visas när det öppnas i PDFläsaren.
+title: PdfPageMode Enum
+linktitle: PdfPageMode
+articleTitle: PdfPageMode
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Saving.PdfPageMode uppräkning. Anger hur PDFdokumentet ska visas när det öppnas i PDFläsaren i C#.
 type: docs
 weight: 5500
 url: /sv/net/aspose.words.saving/pdfpagemode/
@@ -25,7 +27,7 @@ public enum PdfPageMode
 | UseOC | `4` | Valfri innehållsgruppspanel är synlig. |
 | UseAttachments | `5` | Bilagspanelen är synlig. |
 
-### Exempel
+## Exempel
 
 Visar hur du ställer in instruktioner för vissa PDF-läsare att följa när du öppnar ett utdatadokument.
 
@@ -84,5 +86,3 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.HeaderFooterBookmarksExportMode.pdf", sa
 
 * namnutrymme [Aspose.Words.Saving](../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitFormField
-second_title: Aspose.Words for .NET API 参考
-description: DocumentVisitor 方法. 在文档中遇到表单字段时调用
+linktitle: VisitFormField
+articleTitle: VisitFormField
+second_title: 用于 .NET 的 Aspose.Words
+description: DocumentVisitor VisitFormField 方法. 在文档中遇到表单字段时调用 在 C#.
 type: docs
 weight: 230
 url: /zh/net/aspose.words/documentvisitor/visitformfield/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitFormField(FormField formField)
 
 A[`VisitorAction`](../../visitoraction/)指定如何继续枚举的值。
 
-### 例子
+## 例子
 
 演示如何使用 DocumentVisitor 实现从文档中删除所有隐藏内容。
 
@@ -220,7 +222,5 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [FormField](../../../aspose.words.fields/formfield/)
 * class [DocumentVisitor](../)
-* 命名空间 [Aspose.Words](../../documentvisitor/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

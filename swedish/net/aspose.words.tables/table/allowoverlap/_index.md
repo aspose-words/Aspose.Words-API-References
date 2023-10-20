@@ -1,7 +1,9 @@
 ---
 title: Table.AllowOverlap
-second_title: Aspose.Words för .NET API Referens
-description: Table fast egendom. Hämtar om en flytande tabell ska tillåta andra flytande objekt i document att överlappa dess omfattning när den visas. Standardvärdet ärSann .
+linktitle: AllowOverlap
+articleTitle: AllowOverlap
+second_title: Aspose.Words för .NET
+description: Table AllowOverlap fast egendom. Hämtar om en flytande tabell ska tillåta andra flytande objekt i document att överlappa dess omfattning när den visas. Standardvärdet ärSann  i C#.
 type: docs
 weight: 70
 url: /sv/net/aspose.words.tables/table/allowoverlap/
@@ -14,7 +16,7 @@ Hämtar om en flytande tabell ska tillåta andra flytande objekt i document att 
 public bool AllowOverlap { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med egenskaper för flytande tabeller.
 
@@ -42,7 +44,5 @@ if (table.TextWrapping == TextWrapping.Around)
 ### Se även
 
 * class [Table](../)
-* namnutrymme [Aspose.Words.Tables](../../table/)
+* namnutrymme [Aspose.Words.Tables](../../../aspose.words.tables/)
 * hopsättning [Aspose.Words](../../../)
-
-

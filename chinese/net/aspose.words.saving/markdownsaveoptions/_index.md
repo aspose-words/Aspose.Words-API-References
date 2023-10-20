@@ -1,7 +1,9 @@
 ---
-title: Class MarkdownSaveOptions
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Saving.MarkdownSaveOptions 班级. 类用于在将文档保存到时指定附加选项Markdown格式.
+title: MarkdownSaveOptions Class
+linktitle: MarkdownSaveOptions
+articleTitle: MarkdownSaveOptions
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Saving.MarkdownSaveOptions 班级. 类用于在将文档保存到时指定附加选项Markdown格式 在 C#.
 type: docs
 weight: 5280
 url: /zh/net/aspose.words.saving/markdownsaveoptions/
@@ -28,11 +30,11 @@ public class MarkdownSaveOptions : TxtSaveOptionsBase
 | --- | --- |
 | [AllowEmbeddingPostScriptFonts](../../aspose.words.saving/saveoptions/allowembeddingpostscriptfonts/) { get; set; } | 获取或设置一个布尔值，指示在保存的文档中嵌入 TrueType 字体时是否允许使用 PostScript 轮廓嵌入字体。 默认值为`错误的`. |
 | [CustomTimeZoneInfo](../../aspose.words.saving/saveoptions/customtimezoneinfo/) { get; set; } | 获取或设置用于日期/时间字段的自定义本地时区。 |
-| [DefaultTemplate](../../aspose.words.saving/saveoptions/defaulttemplate/) { get; set; } | 获取或设置默认模板的路径（包括文件名）。 此属性的默认值为 **空字符串**（Empty). |
+| [DefaultTemplate](../../aspose.words.saving/saveoptions/defaulttemplate/) { get; set; } | 获取或设置默认模板的路径（包括文件名）。 此属性的默认值为**空字符串**（Empty). |
 | [Dml3DEffectsRenderingMode](../../aspose.words.saving/saveoptions/dml3deffectsrenderingmode/) { get; set; } | 获取或设置一个确定如何渲染 3D 效果的值。 |
 | virtual [DmlEffectsRenderingMode](../../aspose.words.saving/saveoptions/dmleffectsrenderingmode/) { get; set; } | 获取或设置一个值，确定如何呈现 DrawingML 效果。 |
 | [DmlRenderingMode](../../aspose.words.saving/saveoptions/dmlrenderingmode/) { get; set; } | 获取或设置一个值，确定如何呈现 DrawingML 形状。 |
-| [Encoding](../../aspose.words.saving/txtsaveoptionsbase/encoding/) { get; set; } | 指定以文本格式导出时要使用的编码。 默认值为 **编码.UTF8**. |
+| [Encoding](../../aspose.words.saving/txtsaveoptionsbase/encoding/) { get; set; } | 指定以文本格式导出时要使用的编码。 默认值为**编码.UTF8**. |
 | [ExportGeneratorName](../../aspose.words.saving/saveoptions/exportgeneratorname/) { get; set; } | 当`真的` ，导致 Aspose.Words 的名称和版本嵌入到生成的文件中。 默认值为`真的`. |
 | [ExportHeadersFootersMode](../../aspose.words.saving/txtsaveoptionsbase/exportheadersfootersmode/) { get; set; } | 指定页眉和页脚导出为文本格式的方式。 默认值为PrimaryOnly. |
 | [ExportImagesAsBase64](../../aspose.words.saving/markdownsaveoptions/exportimagesasbase64/) { get; set; } | 指定图像是否以 Base64 格式保存到输出文件。 默认值为`错误的`. |
@@ -61,5 +63,3 @@ public class MarkdownSaveOptions : TxtSaveOptionsBase
 * class [TxtSaveOptionsBase](../txtsaveoptionsbase/)
 * 命名空间 [Aspose.Words.Saving](../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../)
-
-

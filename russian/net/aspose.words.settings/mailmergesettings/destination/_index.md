@@ -1,7 +1,9 @@
 ---
 title: MailMergeSettings.Destination
-second_title: Справочник по API Aspose.Words для .NET
-description: MailMergeSettings свойство. Указывает как Microsoft Word будет выводить результаты слияния почты. Значение по умолчаниюDefault .
+linktitle: Destination
+articleTitle: Destination
+second_title: Aspose.Words для .NET
+description: MailMergeSettings Destination свойство. Указывает как Microsoft Word будет выводить результаты слияния почты. Значение по умолчаниюDefault  на С#.
 type: docs
 weight: 80
 url: /ru/net/aspose.words.settings/mailmergesettings/destination/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.settings/mailmergesettings/destination/
 public MailMergeDestination Destination { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как выполнить слияние почты с данными из объекта источника данных Office.
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 
 * enum [MailMergeDestination](../../mailmergedestination/)
 * class [MailMergeSettings](../)
-* пространство имен [Aspose.Words.Settings](../../mailmergesettings/)
+* пространство имен [Aspose.Words.Settings](../../../aspose.words.settings/)
 * сборка [Aspose.Words](../../../)
-
-

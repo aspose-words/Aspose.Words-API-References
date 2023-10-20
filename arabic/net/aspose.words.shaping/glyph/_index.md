@@ -1,7 +1,9 @@
 ---
-title: Class Glyph
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Shaping.Glyph فصل. يمثل الصورة الرمزية
+title: Glyph Class
+linktitle: Glyph
+articleTitle: Glyph
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Shaping.Glyph فصل. يمثل الصورة الرمزية في C#.
 type: docs
 weight: 6040
 url: /ar/net/aspose.words.shaping/glyph/
@@ -18,7 +20,7 @@ public class Glyph
 
 | اسم | وصف |
 | --- | --- |
-| [Glyph](glyph/)(int, short, short, short) | تهيئة المثيل الجديد لهذه الفئة. |
+| [Glyph](glyph/)(*int, short, short, short*) | تهيئة المثيل الجديد لهذه الفئة. |
 
 ## الخصائص
 
@@ -34,11 +36,9 @@ public class Glyph
 | اسم | وصف |
 | --- | --- |
 | virtual [Clone](../../aspose.words.shaping/glyph/clone/)() | إرجاع نسخة من هذا المثيل. |
-| virtual [GetWidth](../../aspose.words.shaping/glyph/getwidth/)(int, float) | إرجاع عرض (مقدمة) الحرف الرسومي بالنقاط. |
+| virtual [GetWidth](../../aspose.words.shaping/glyph/getwidth/)(*int, float*) | إرجاع عرض (مقدمة) الحرف الرسومي بالنقاط. |
 
 ### أنظر أيضا
 
 * مساحة الاسم [Aspose.Words.Shaping](../../aspose.words.shaping/)
 * المجسم [Aspose.Words](../../)
-
-

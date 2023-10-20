@@ -1,7 +1,9 @@
 ---
-title: Class XmlMapping
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Markup.XmlMapping 班级. 指定用于在parent 结构化文档标记与存储在文档中的自定义XML 数据部分中的XML 元素之间建立映射的信息
+title: XmlMapping Class
+linktitle: XmlMapping
+articleTitle: XmlMapping
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Markup.XmlMapping 班级. 指定用于在parent 结构化文档标记与存储在文档中的自定义XML 数据部分中的XML 元素之间建立映射的信息 在 C#.
 type: docs
 weight: 4100
 url: /zh/net/aspose.words.markup/xmlmapping/
@@ -31,9 +33,9 @@ public class XmlMapping
 | 姓名 | 描述 |
 | --- | --- |
 | [Delete](../../aspose.words.markup/xmlmapping/delete/)() | 删除父结构化文档到 XML 数据的映射。 |
-| [SetMapping](../../aspose.words.markup/xmlmapping/setmapping/)(CustomXmlPart, string, string) | 设置父结构化文档标记与自定义 XML 数据部分的 XML 节点之间的映射。 |
+| [SetMapping](../../aspose.words.markup/xmlmapping/setmapping/)(*[CustomXmlPart](../customxmlpart/), string, string*) | 设置父结构化文档标记与自定义 XML 数据部分的 XML 节点之间的映射。 |
 
-### 例子
+## 例子
 
 演示如何为自定义 XML 部件设置 XML 映射。
 
@@ -70,5 +72,3 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.XmlMapping.docx");
 
 * 命名空间 [Aspose.Words.Markup](../../aspose.words.markup/)
 * 部件 [Aspose.Words](../../)
-
-

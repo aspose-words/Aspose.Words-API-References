@@ -1,9 +1,11 @@
 ---
 title: Stroke.Transparency
-second_title: Aspose.Words لمراجع .NET API
-description: Stroke ملكية. الحصول على أو تعيين قيمة بين 0.0 معتم و1.0 واضح تمثل درجة الشفافية للحد.
+linktitle: Transparency
+articleTitle: Transparency
+second_title: Aspose.Words لـ .NET
+description: Stroke Transparency ملكية. الحصول على أو تعيين قيمة بين 0.0 معتم و1.0 واضح تمثل درجة الشفافية للحد في C#.
 type: docs
-weight: 200
+weight: 190
 url: /ar/net/aspose.words.drawing/stroke/transparency/
 ---
 ## Stroke.Transparency property
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.drawing/stroke/transparency/
 public double Transparency { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 القيمة الافتراضية هي 0.
 
-### أمثلة
+## أمثلة
 
 أظهر كيفية ضبط تنسيق العلامة.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "Charts.MarkerFormatting.docx");
 ### أنظر أيضا
 
 * class [Stroke](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../stroke/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

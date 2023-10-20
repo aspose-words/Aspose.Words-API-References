@@ -1,7 +1,9 @@
 ---
-title: Enum OdsoDataSourceType
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Settings.OdsoDataSourceType enum. Specifica il tipo di origine dati esterna a cui connettersi come parte delle informazioni di connessione ODSO.
+title: OdsoDataSourceType Enum
+linktitle: OdsoDataSourceType
+articleTitle: OdsoDataSourceType
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Settings.OdsoDataSourceType enum. Specifica il tipo di origine dati esterna a cui connettersi come parte delle informazioni di connessione ODSO in C#.
 type: docs
 weight: 5890
 url: /it/net/aspose.words.settings/odsodatasourcetype/
@@ -30,11 +32,11 @@ public enum OdsoDataSourceType
 | Master | `9` | Specifica che un determinato documento è stato connesso a un'origine dati che aggrega altre origini dati. |
 | Default | `7` | Uguale aNone . |
 
-### Osservazioni
+## Osservazioni
 
 La specifica OOXML è molto vaga per questa enumerazione. Immagino che potrebbe corrispondere all'enumerazione WdMergeSubType http://msdn.microsoft.com/en-us/library/bb237801.aspx.
 
-### Esempi
+## Esempi
 
 Mostra come eseguire una stampa unione con i dati di un oggetto origine dati di Office.
 
@@ -87,5 +89,3 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 
 * spazio dei nomi [Aspose.Words.Settings](../../aspose.words.settings/)
 * assemblea [Aspose.Words](../../)
-
-

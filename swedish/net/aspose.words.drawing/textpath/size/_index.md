@@ -1,7 +1,9 @@
 ---
 title: TextPath.Size
-second_title: Aspose.Words för .NET API Referens
-description: TextPath fast egendom. Definierar storleken på teckensnittet i punkter.
+linktitle: Size
+articleTitle: Size
+second_title: Aspose.Words för .NET
+description: TextPath Size fast egendom. Definierar storleken på teckensnittet i punkter i C#.
 type: docs
 weight: 120
 url: /sv/net/aspose.words.drawing/textpath/size/
@@ -14,14 +16,12 @@ Definierar storleken på teckensnittet i punkter.
 public double Size { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Standardvärdet är 36.
 
 ### Se även
 
 * class [TextPath](../)
-* namnutrymme [Aspose.Words.Drawing](../../textpath/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: StyleCollection.Item
-second_title: Aspose.Words för .NET API Referens
-description: StyleCollection fast egendom. Får en stil efter namn eller alias.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words för .NET
+description: StyleCollection Item fast egendom. Får en stil efter namn eller alias i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words/stylecollection/item/
@@ -14,13 +16,13 @@ Får en stil efter namn eller alias.
 public Style this[string name] { get; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Skiftlägeskänslig, returnerar`null` om stilen med det angivna namnet inte hittas.
 
 Om detta är ett engelskt namn på en inbyggd stil som ännu inte finns skapas den automatiskt.
 
-### Exempel
+## Exempel
 
 Visar när sidlayouten för dokumentet ska beräknas om.
 
@@ -48,7 +50,7 @@ doc.Save(ArtifactsDir + "Document.UpdatePageLayout.2.pdf");
 
 * class [Style](../../style/)
 * class [StyleCollection](../)
-* namnutrymme [Aspose.Words](../../stylecollection/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
@@ -65,11 +67,11 @@ public Style this[StyleIdentifier sti] { get; }
 | --- | --- |
 | sti | A[`StyleIdentifier`](../../styleidentifier/) värde som anger den inbyggda stilen som ska hämtas. |
 
-### Anmärkningar
+## Anmärkningar
 
 När du kommer åt en stil som ännu inte finns skapas den automatiskt.
 
-### Exempel
+## Exempel
 
 Visar hur man lägger till en stil till ett dokuments stilsamling.
 
@@ -94,7 +96,7 @@ Assert.AreEqual(15.0, styles["MyStyle"].ParagraphFormat.FirstLineIndent);
 * class [Style](../../style/)
 * enum [StyleIdentifier](../../styleidentifier/)
 * class [StyleCollection](../)
-* namnutrymme [Aspose.Words](../../stylecollection/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
@@ -107,7 +109,7 @@ Får en stil efter index.
 public Style this[int index] { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man lägger till en stil till ett dokuments stilsamling.
 
@@ -131,7 +133,5 @@ Assert.AreEqual(15.0, styles["MyStyle"].ParagraphFormat.FirstLineIndent);
 
 * class [Style](../../style/)
 * class [StyleCollection](../)
-* namnutrymme [Aspose.Words](../../stylecollection/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

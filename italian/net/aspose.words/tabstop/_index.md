@@ -1,7 +1,9 @@
 ---
-title: Class TabStop
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.TabStop classe. Rappresenta una singola tabulazione personalizzata. ILTabStoploggetto è un membro di the TabStopCollection collezione.
+title: TabStop Class
+linktitle: TabStop
+articleTitle: TabStop
+second_title: Aspose.Words per .NET
+description: Aspose.Words.TabStop classe. Rappresenta una singola tabulazione personalizzata. ILTabStoploggetto è un membro di the TabStopCollection collezione in C#.
 type: docs
 weight: 6200
 url: /it/net/aspose.words/tabstop/
@@ -20,8 +22,8 @@ public sealed class TabStop
 
 | Nome | Descrizione |
 | --- | --- |
-| [TabStop](tabstop/#constructor)(double) | Inizializza una nuova istanza di questa classe. |
-| [TabStop](tabstop/#constructor_1)(double, TabAlignment, TabLeader) | Inizializza una nuova istanza di questa classe. |
+| [TabStop](tabstop/#constructor)(*double*) | Inizializza una nuova istanza di questa classe. |
+| [TabStop](tabstop/#constructor_1)(*double, [TabAlignment](../tabalignment/), [TabLeader](../tableader/)*) | Inizializza una nuova istanza di questa classe. |
 
 ## Proprietà
 
@@ -36,16 +38,16 @@ public sealed class TabStop
 
 | Nome | Descrizione |
 | --- | --- |
-| [Equals](../../aspose.words/tabstop/equals/#equals)(TabStop) | Confronta con quanto specificato`TabStop` . |
+| [Equals](../../aspose.words/tabstop/equals/#equals)(*TabStop*) | Confronta con quanto specificato`TabStop` . |
 | override [GetHashCode](../../aspose.words/tabstop/gethashcode/)() | Calcola il codice hash per questo oggetto. |
 
-### Osservazioni
+## Osservazioni
 
 Normalmente, un punto di tabulazione specifica una posizione in cui esiste un punto di tabulazione. Ma poiché i punti di tabulazione possono essere ereditati dagli stili principali, potrebbe essere necessario che l'oggetto figlio definisca esplicitamente che non ci sono punti di tabulazione in una determinata posizione. Per cancellare una tabulazione ereditata in una determinata posizione, crea un file`TabStop` oggetto e set [`Alignment`](./alignment/) AClear.
 
 Per ulteriori informazioni, vedere[`TabStopCollection`](../tabstopcollection/).
 
-### Esempi
+## Esempi
 
 Mostra come modificare la posizione della tabulazione destra nei paragrafi relativi al sommario.
 
@@ -72,5 +74,3 @@ doc.Save(ArtifactsDir + "Styles.ChangeTocsTabStops.docx");
 
 * spazio dei nomi [Aspose.Words](../../aspose.words/)
 * assemblea [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ChartNumberFormat.FormatCode
-second_title: Aspose.Words per .NET API Reference
-description: ChartNumberFormat proprietà. Ottiene o imposta il codice di formato applicato a unetichetta dati.
+linktitle: FormatCode
+articleTitle: FormatCode
+second_title: Aspose.Words per .NET
+description: ChartNumberFormat FormatCode proprietà. Ottiene o imposta il codice di formato applicato a unetichetta dati in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words.drawing.charts/chartnumberformat/formatcode/
@@ -14,7 +16,7 @@ Ottiene o imposta il codice di formato applicato a un'etichetta dati.
 public string FormatCode { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 La formattazione dei numeri viene utilizzata per modificare il modo in cui un valore viene visualizzato nell'etichetta dati e può essere utilizzata in modi molto creativi. Esempi di formati numerici:
 
@@ -38,7 +40,7 @@ Contabilità - "_-\"$\"* #,##0.00_-;-\"$\"* #,##0.00_-;_-\"$\"* \"-\"??_ -;_-@_-
 
 Personalizzato con colore: "[Rosso]-#,##0.0"
 
-### Esempi
+## Esempi
 
 Mostra come impostare la formattazione per i valori del grafico.
 
@@ -100,7 +102,5 @@ doc.Save(ArtifactsDir + "Charts.DataLabelNumberFormat.docx");
 ### Guarda anche
 
 * class [ChartNumberFormat](../)
-* spazio dei nomi [Aspose.Words.Drawing.Charts](../../chartnumberformat/)
+* spazio dei nomi [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * assemblea [Aspose.Words](../../../)
-
-

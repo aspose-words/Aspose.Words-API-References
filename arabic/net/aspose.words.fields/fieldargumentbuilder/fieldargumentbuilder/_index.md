@@ -1,7 +1,9 @@
 ---
-title: FieldArgumentBuilder.FieldArgumentBuilder
-second_title: Aspose.Words لمراجع .NET API
-description: FieldArgumentBuilder البناء. تهيئة مثيل لـFieldArgumentBuilder فئة.
+title: FieldArgumentBuilder
+linktitle: FieldArgumentBuilder
+articleTitle: FieldArgumentBuilder
+second_title: Aspose.Words لـ .NET
+description: FieldArgumentBuilder البناء. تهيئة مثيل لـFieldArgumentBuilder فئة في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fields/fieldargumentbuilder/fieldargumentbuilder/
@@ -17,7 +19,5 @@ public FieldArgumentBuilder()
 ### أنظر أيضا
 
 * class [FieldArgumentBuilder](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldargumentbuilder/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

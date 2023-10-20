@@ -1,7 +1,9 @@
 ---
-title: Enum SectionStart
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.SectionStart 枚举. 节开头的中断类型
+title: SectionStart Enum
+linktitle: SectionStart
+articleTitle: SectionStart
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.SectionStart 枚举. 节开头的中断类型 在 C#.
 type: docs
 weight: 5760
 url: /zh/net/aspose.words/sectionstart/
@@ -24,7 +26,7 @@ public enum SectionStart
 | EvenPage | `3` | 该部分从新的偶数页开始。 |
 | OddPage | `4` | 该部分从新的奇数页开始。 |
 
-### 例子
+## 例子
 
 展示如何手动构建 Aspose.Words 文档。
 
@@ -120,5 +122,3 @@ doc.Save(ArtifactsDir + "PageSetup.SetSectionStart.docx");
 
 * 命名空间 [Aspose.Words](../../aspose.words/)
 * 部件 [Aspose.Words](../../)
-
-

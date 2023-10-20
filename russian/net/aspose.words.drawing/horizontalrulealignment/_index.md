@@ -1,7 +1,9 @@
 ---
-title: Enum HorizontalRuleAlignment
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Drawing.HorizontalRuleAlignment перечисление. Представляет выравнивание для указанной горизонтальной линейки.
+title: HorizontalRuleAlignment Enum
+linktitle: HorizontalRuleAlignment
+articleTitle: HorizontalRuleAlignment
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Drawing.HorizontalRuleAlignment перечисление. Представляет выравнивание для указанной горизонтальной линейки на С#.
 type: docs
 weight: 1040
 url: /ru/net/aspose.words.drawing/horizontalrulealignment/
@@ -26,5 +28,3 @@ public enum HorizontalRuleAlignment
 
 * пространство имен [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../)
-
-

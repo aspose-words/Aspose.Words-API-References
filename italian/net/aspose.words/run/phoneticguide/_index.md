@@ -1,7 +1,9 @@
 ---
 title: Run.PhoneticGuide
-second_title: Aspose.Words per .NET API Reference
-description: Run proprietà. Ottiene aPhoneticGuide oggetto.
+linktitle: PhoneticGuide
+articleTitle: PhoneticGuide
+second_title: Aspose.Words per .NET
+description: Run PhoneticGuide proprietà. Ottiene aPhoneticGuide oggetto in C#.
 type: docs
 weight: 40
 url: /it/net/aspose.words/run/phoneticguide/
@@ -14,7 +16,7 @@ Ottiene a`PhoneticGuide` oggetto.
 public PhoneticGuide PhoneticGuide { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come ottenere le proprietà della guida fonetica.
 
@@ -32,7 +34,5 @@ Assert.AreEqual("ruby", runs[0].PhoneticGuide.RubyText);
 
 * class [PhoneticGuide](../../phoneticguide/)
 * class [Run](../)
-* spazio dei nomi [Aspose.Words](../../run/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

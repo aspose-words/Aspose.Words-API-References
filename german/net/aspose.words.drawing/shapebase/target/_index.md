@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.Target
-second_title: Aspose.Words für .NET-API-Referenz
-description: ShapeBase eigendom. Ruft den Zielrahmen für den FormHyperlink ab oder legt diesen fest.
+linktitle: Target
+articleTitle: Target
+second_title: Aspose.Words für .NET
+description: ShapeBase Target eigendom. Ruft den Zielrahmen für den FormHyperlink ab oder legt diesen fest in C#.
 type: docs
 weight: 520
 url: /de/net/aspose.words.drawing/shapebase/target/
@@ -14,11 +16,11 @@ Ruft den Zielrahmen für den Form-Hyperlink ab oder legt diesen fest.
 public string Target { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Der Standardwert ist eine leere Zeichenfolge.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie eine Form eingefügt wird, die ein Bild enthält und gleichzeitig einen Hyperlink darstellt.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "Image.InsertImageWithHyperlink.docx");
 ### Siehe auch
 
 * class [ShapeBase](../)
-* namensraum [Aspose.Words.Drawing](../../shapebase/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

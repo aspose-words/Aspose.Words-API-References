@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTagCollection.GetEnumerator
-second_title: Aspose.Words för .NET API Referens
-description: StructuredDocumentTagCollection metod. Returnerar ett uppräkningsobjekt.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words för .NET
+description: StructuredDocumentTagCollection GetEnumerator metod. Returnerar ett uppräkningsobjekt i C#.
 type: docs
 weight: 60
 url: /sv/net/aspose.words.markup/structureddocumenttagcollection/getenumerator/
@@ -18,7 +20,5 @@ public IEnumerator<IStructuredDocumentTag> GetEnumerator()
 
 * interface [IStructuredDocumentTag](../../istructureddocumenttag/)
 * class [StructuredDocumentTagCollection](../)
-* namnutrymme [Aspose.Words.Markup](../../structureddocumenttagcollection/)
+* namnutrymme [Aspose.Words.Markup](../../../aspose.words.markup/)
 * hopsättning [Aspose.Words](../../../)
-
-

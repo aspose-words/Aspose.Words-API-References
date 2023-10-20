@@ -1,7 +1,9 @@
 ---
 title: CustomXmlPropertyCollection.Item
-second_title: Referencia de API de Aspose.Words para .NET
-description: CustomXmlPropertyCollection propiedad. Obtiene una propiedad con el nombre especificado.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words para .NET
+description: CustomXmlPropertyCollection Item propiedad. Obtiene una propiedad con el nombre especificado en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words.markup/customxmlpropertycollection/item/
@@ -18,7 +20,7 @@ public CustomXmlProperty this[string name] { get; }
 | --- | --- |
 | name | Nombre de la propiedad que se va a localizar, que distingue entre mayúsculas y minúsculas. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo trabajar con propiedades de etiquetas inteligentes para obtener información detallada sobre las etiquetas inteligentes.
 
@@ -76,7 +78,7 @@ Assert.AreEqual(0, properties.Count);
 
 * class [CustomXmlProperty](../../customxmlproperty/)
 * class [CustomXmlPropertyCollection](../)
-* espacio de nombres [Aspose.Words.Markup](../../customxmlpropertycollection/)
+* espacio de nombres [Aspose.Words.Markup](../../../aspose.words.markup/)
 * asamblea [Aspose.Words](../../../)
 
 ---
@@ -93,7 +95,7 @@ public CustomXmlProperty this[int index] { get; }
 | --- | --- |
 | index | Índice de base cero del inmueble. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo trabajar con propiedades de etiquetas inteligentes para obtener información detallada sobre las etiquetas inteligentes.
 
@@ -151,7 +153,5 @@ Assert.AreEqual(0, properties.Count);
 
 * class [CustomXmlProperty](../../customxmlproperty/)
 * class [CustomXmlPropertyCollection](../)
-* espacio de nombres [Aspose.Words.Markup](../../customxmlpropertycollection/)
+* espacio de nombres [Aspose.Words.Markup](../../../aspose.words.markup/)
 * asamblea [Aspose.Words](../../../)
-
-

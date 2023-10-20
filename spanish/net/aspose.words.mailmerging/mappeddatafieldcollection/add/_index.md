@@ -1,7 +1,9 @@
 ---
 title: MappedDataFieldCollection.Add
-second_title: Referencia de API de Aspose.Words para .NET
-description: MappedDataFieldCollection método. Agrega una nueva asignación de campo.
+linktitle: Add
+articleTitle: Add
+second_title: Aspose.Words para .NET
+description: MappedDataFieldCollection Add método. Agrega una nueva asignación de campo en C#.
 type: docs
 weight: 30
 url: /es/net/aspose.words.mailmerging/mappeddatafieldcollection/add/
@@ -19,7 +21,7 @@ public void Add(string documentFieldName, string dataSourceFieldName)
 | documentFieldName | String | Nombre que distingue entre mayúsculas y minúsculas del campo de combinación de correspondencia del documento. |
 | dataSourceFieldName | String | Nombre del campo en la fuente de datos que distingue entre mayúsculas y minúsculas. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo asignar columnas de datos y MERGEFIELD con diferentes nombres para que los datos se transfieran entre ellos durante una combinación de correspondencia.
 
@@ -104,7 +106,5 @@ private static DataTable CreateSourceTableMappedDataFields()
 ### Ver también
 
 * class [MappedDataFieldCollection](../)
-* espacio de nombres [Aspose.Words.MailMerging](../../mappeddatafieldcollection/)
+* espacio de nombres [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * asamblea [Aspose.Words](../../../)
-
-

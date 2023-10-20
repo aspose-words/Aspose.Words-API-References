@@ -1,7 +1,9 @@
 ---
 title: ControlChar.NonBreakingSpaceChar
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ControlChar champ. Caractère espace insécable  char160.
+linktitle: NonBreakingSpaceChar
+articleTitle: NonBreakingSpaceChar
+second_title: Aspose.Words pour .NET
+description: ControlChar NonBreakingSpaceChar champ. Caractère espace insécable  char160 en C#.
 type: docs
 weight: 180
 url: /fr/net/aspose.words/controlchar/nonbreakingspacechar/
@@ -14,7 +16,7 @@ Caractère espace insécable : (char)160.
 public const char NonBreakingSpaceChar;
 ```
 
-### Exemples
+## Exemples
 
 Montre comment ajouter divers caractères de contrôle à un document.
 
@@ -86,7 +88,5 @@ Assert.AreEqual(Convert.ToChar(ControlChar.ColumnBreak), ControlChar.ColumnBreak
 ### Voir également
 
 * class [ControlChar](../)
-* espace de noms [Aspose.Words](../../controlchar/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

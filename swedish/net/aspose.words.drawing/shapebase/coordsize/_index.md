@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.CoordSize
-second_title: Aspose.Words för .NET API Referens
-description: ShapeBase fast egendom. Bredden och höjden på koordinatutrymmet inuti det innehållande blocket med denna form.
+linktitle: CoordSize
+articleTitle: CoordSize
+second_title: Aspose.Words för .NET
+description: ShapeBase CoordSize fast egendom. Bredden och höjden på koordinatutrymmet inuti det innehållande blocket med denna form i C#.
 type: docs
 weight: 120
 url: /sv/net/aspose.words.drawing/shapebase/coordsize/
@@ -14,11 +16,11 @@ Bredden och höjden på koordinatutrymmet inuti det innehållande blocket med de
 public Size CoordSize { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Standardvärdet är (1000, 1000).
 
-### Exempel
+## Exempel
 
 Visar hur man översätter x- och y-koordinatpositionen på en forms koordinatplan till en plats på den överordnade formens koordinatplan.
 
@@ -164,7 +166,5 @@ doc.Save(ArtifactsDir + "Shape.GroupShape.docx");
 ### Se även
 
 * class [ShapeBase](../)
-* namnutrymme [Aspose.Words.Drawing](../../shapebase/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: AxisScaling.Maximum
-second_title: Aspose.Words für .NET-API-Referenz
-description: AxisScaling eigendom. Ruft den Maximalwert der Achse ab oder setzt ihn.
+linktitle: Maximum
+articleTitle: Maximum
+second_title: Aspose.Words für .NET
+description: AxisScaling Maximum eigendom. Ruft den Maximalwert der Achse ab oder setzt ihn in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.drawing.charts/axisscaling/maximum/
@@ -14,11 +16,11 @@ Ruft den Maximalwert der Achse ab oder setzt ihn.
 public AxisBound Maximum { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Der Standardwert ist „auto“.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Diagramm mit Datums-/Uhrzeitwerten eingefügt wird.
 
@@ -73,7 +75,5 @@ doc.Save(ArtifactsDir + "Charts.DateTimeValues.docx");
 
 * class [AxisBound](../../axisbound/)
 * class [AxisScaling](../)
-* namensraum [Aspose.Words.Drawing.Charts](../../axisscaling/)
+* namensraum [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../../)
-
-

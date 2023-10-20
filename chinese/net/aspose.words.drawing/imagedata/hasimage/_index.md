@@ -1,7 +1,9 @@
 ---
 title: ImageData.HasImage
-second_title: Aspose.Words for .NET API 参考
-description: ImageData 财产. 返回真的如果形状具有图像字节或链接图像
+linktitle: HasImage
+articleTitle: HasImage
+second_title: 用于 .NET 的 Aspose.Words
+description: ImageData HasImage 财产. 返回真的如果形状具有图像字节或链接图像 在 C#.
 type: docs
 weight: 110
 url: /zh/net/aspose.words.drawing/imagedata/hasimage/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.drawing/imagedata/hasimage/
 public bool HasImage { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何将文档中的所有图像保存到文件系统。
 
@@ -47,7 +49,5 @@ using (IEnumerator<Shape> enumerator = shapesWithImages.GetEnumerator())
 ### 也可以看看
 
 * class [ImageData](../)
-* 命名空间 [Aspose.Words.Drawing](../../imagedata/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

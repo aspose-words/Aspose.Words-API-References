@@ -1,7 +1,9 @@
 ---
 title: Node.GetText
-second_title: Справочник по API Aspose.Words для .NET
-description: Node метод. Получает текст этого узла и всех его дочерних элементов.
+linktitle: GetText
+articleTitle: GetText
+second_title: Aspose.Words для .NET
+description: Node GetText метод. Получает текст этого узла и всех его дочерних элементов на С#.
 type: docs
 weight: 120
 url: /ru/net/aspose.words/node/gettext/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words/node/gettext/
 public virtual string GetText()
 ```
 
-### Примечания
+## Примечания
 
 Возвращенная строка включает все управляющие и специальные символы, как описано в разделе[`ControlChar`](../../controlchar/).
 
-### Примеры
+## Примеры
 
 Показывает, как использовать управляющие символы.
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "Section.CreateManually.docx");
 ### Смотрите также
 
 * class [Node](../)
-* пространство имен [Aspose.Words](../../node/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

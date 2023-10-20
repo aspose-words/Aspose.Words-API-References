@@ -1,7 +1,9 @@
 ---
 title: PageSetup.PageHeight
-second_title: Aspose.Words per .NET API Reference
-description: PageSetup proprietà. Restituisce o imposta laltezza della pagina in punti.
+linktitle: PageHeight
+articleTitle: PageHeight
+second_title: Aspose.Words per .NET
+description: PageSetup PageHeight proprietà. Restituisce o imposta laltezza della pagina in punti in C#.
 type: docs
 weight: 310
 url: /it/net/aspose.words/pagesetup/pageheight/
@@ -14,7 +16,7 @@ Restituisce o imposta l'altezza della pagina in punti.
 public double PageHeight { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come inserire un'immagine e utilizzarla come filigrana.
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertWatermarkNetStandard2.docx");
 ### Guarda anche
 
 * class [PageSetup](../)
-* spazio dei nomi [Aspose.Words](../../pagesetup/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

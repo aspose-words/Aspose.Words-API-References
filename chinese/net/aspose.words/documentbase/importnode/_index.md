@@ -1,12 +1,14 @@
 ---
 title: DocumentBase.ImportNode
-second_title: Aspose.Words for .NET API 参考
-description: DocumentBase 方法. 将节点从另一个文档导入到当前文档
+linktitle: ImportNode
+articleTitle: ImportNode
+second_title: 用于 .NET 的 Aspose.Words
+description: DocumentBase ImportNode 方法. 将节点从另一个文档导入到当前文档 在 C#.
 type: docs
 weight: 100
 url: /zh/net/aspose.words/documentbase/importnode/
 ---
-## ImportNode(Node, bool) {#importnode}
+## ImportNode(*[Node](../../node/), bool*) {#importnode}
 
 将节点从另一个文档导入到当前文档。
 
@@ -23,17 +25,17 @@ public Node ImportNode(Node srcNode, bool isImportChildren)
 
 属于当前文档的克隆节点。
 
-### 评论
+## 评论
 
 该方法使用UseDestinationStyles解决格式问题的选项。
 
 导入节点会创建属于导入文档的源节点的副本。 返回的节点没有父节点。源节点不会从原始文档中更改或删除。
 
-在将另一个文档中的节点插入到此文档中之前，必须将其导入。 在导入期间，特定于文档的属性（例如对样式和列表的引用）将从原始文档翻译 到导入文档。导入节点后，可以使用将其插入 到文档中的适当位置Node)或 Node)。
+在将另一个文档中的节点插入到此文档中之前，必须将其导入。 在导入期间，特定于文档的属性（例如对样式和列表的引用）将从原始文档翻译 到导入文档。导入节点后，可以使用将其插入 到文档中的适当位置[`InsertBefore`](../../compositenode/insertbefore/)或 [`InsertAfter`](../../compositenode/insertafter/)。
 
 如果源节点已经属于目标文档，则只需创建源节点的深层clone 。
 
-### 例子
+## 例子
 
 演示如何将节点从一个文档导入到另一个文档。
 
@@ -68,12 +70,12 @@ Assert.AreEqual("Destination document first paragraph text.\r\nSource document f
 
 * class [Node](../../node/)
 * class [DocumentBase](../)
-* 命名空间 [Aspose.Words](../../documentbase/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## ImportNode(Node, bool, ImportFormatMode) {#importnode_1}
+## ImportNode(*[Node](../../node/), bool, [ImportFormatMode](../../importformatmode/)*) {#importnode_1}
 
 将节点从另一个文档导入到当前文档，并提供控制格式的选项。
 
@@ -91,17 +93,17 @@ public Node ImportNode(Node srcNode, bool isImportChildren, ImportFormatMode imp
 
 克隆的导入节点。该节点属于目标文档，但没有父节点。
 
-### 评论
+## 评论
 
 此重载对于控制样式和列表格式的导入方式很有用。
 
 导入节点会创建属于导入文档的源节点的副本。 返回的节点没有父节点。源节点不会从原始文档中更改或删除。
 
-在将另一个文档中的节点插入到此文档中之前，必须将其导入。 在导入期间，特定于文档的属性（例如对样式和列表的引用）将从原始文档翻译 到导入文档。导入节点后，可以使用将其插入 到文档中的适当位置Node)或 Node)。
+在将另一个文档中的节点插入到此文档中之前，必须将其导入。 在导入期间，特定于文档的属性（例如对样式和列表的引用）将从原始文档翻译 到导入文档。导入节点后，可以使用将其插入 到文档中的适当位置[`InsertBefore`](../../compositenode/insertbefore/)或 [`InsertAfter`](../../compositenode/insertafter/)。
 
 如果源节点已经属于目标文档，则只需创建源节点的深层clone 。
 
-### 例子
+## 例子
 
 演示如何使用特定选项将节点从源文档导入到目标文档。
 
@@ -141,7 +143,5 @@ Assert.AreEqual(srcStyle.Font.Name, dstDoc.Styles["My style_0"].Font.Name);
 * class [Node](../../node/)
 * enum [ImportFormatMode](../../importformatmode/)
 * class [DocumentBase](../)
-* 命名空间 [Aspose.Words](../../documentbase/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum TableAlignment
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Tables.TableAlignment перечисление. Задает выравнивание встроенной таблицы.
+title: TableAlignment Enum
+linktitle: TableAlignment
+articleTitle: TableAlignment
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Tables.TableAlignment перечисление. Задает выравнивание встроенной таблицы на С#.
 type: docs
 weight: 6350
 url: /ru/net/aspose.words.tables/tablealignment/
@@ -22,7 +24,7 @@ public enum TableAlignment
 | Center | `1` | Таблица центрирована. |
 | Right | `2` | Таблица выравнивается по правому краю. |
 
-### Примеры
+## Примеры
 
 Показывает, как применить контурную рамку к таблице.
 
@@ -53,5 +55,3 @@ doc.Save(ArtifactsDir + "Table.SetOutlineBorders.docx");
 
 * пространство имен [Aspose.Words.Tables](../../aspose.words.tables/)
 * сборка [Aspose.Words](../../)
-
-

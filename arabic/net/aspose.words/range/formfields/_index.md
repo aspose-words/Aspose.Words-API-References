@@ -1,7 +1,9 @@
 ---
 title: Range.FormFields
-second_title: Aspose.Words لمراجع .NET API
-description: Range ملكية. إرجاع أFormFields المجموعة التي تمثل جميع حقول النموذج في النطاق.
+linktitle: FormFields
+articleTitle: FormFields
+second_title: Aspose.Words لـ .NET
+description: Range FormFields ملكية. إرجاع أFormFields المجموعة التي تمثل جميع حقول النموذج في النطاق في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words/range/formfields/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/range/formfields/
 public FormFieldCollection FormFields { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج أنواع مختلفة من حقول النموذج في المستند ومعالجتها باستخدام تطبيق زائر المستند.
 
@@ -149,7 +151,5 @@ public class FormFieldVisitor : DocumentVisitor
 
 * class [FormFieldCollection](../../../aspose.words.fields/formfieldcollection/)
 * class [Range](../)
-* مساحة الاسم [Aspose.Words](../../range/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabel.Index
-second_title: Aspose.Words for .NET API 参考
-description: ChartDataLabel 财产. 指定包含元素的索引 该索引应确定该元素适用于父集合的哪个子集合 默认值为 0
+linktitle: Index
+articleTitle: Index
+second_title: 用于 .NET 的 Aspose.Words
+description: ChartDataLabel Index 财产. 指定包含元素的索引 该索引应确定该元素适用于父集合的哪个子集合 默认值为 0 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.drawing.charts/chartdatalabel/index/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.drawing.charts/chartdatalabel/index/
 public int Index { get; }
 ```
 
-### 例子
+## 例子
 
 展示如何将标签应用到折线图中的数据点。
 
@@ -92,7 +94,5 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
 ### 也可以看看
 
 * class [ChartDataLabel](../)
-* 命名空间 [Aspose.Words.Drawing.Charts](../../chartdatalabel/)
+* 命名空间 [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * 部件 [Aspose.Words](../../../)
-
-

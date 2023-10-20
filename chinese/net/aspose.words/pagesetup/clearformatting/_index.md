@@ -1,7 +1,9 @@
 ---
 title: PageSetup.ClearFormatting
-second_title: Aspose.Words for .NET API 参考
-description: PageSetup 方法. 将页面设置重置为默认纸张尺寸边距和方向
+linktitle: ClearFormatting
+articleTitle: ClearFormatting
+second_title: 用于 .NET 的 Aspose.Words
+description: PageSetup ClearFormatting 方法. 将页面设置重置为默认纸张尺寸边距和方向 在 C#.
 type: docs
 weight: 460
 url: /zh/net/aspose.words/pagesetup/clearformatting/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/pagesetup/clearformatting/
 public void ClearFormatting()
 ```
 
-### 例子
+## 例子
 
 演示如何将页面设置设置应用和恢复到文档中的各个部分。
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "PageSetup.ClearFormatting.docx");
 ### 也可以看看
 
 * class [PageSetup](../)
-* 命名空间 [Aspose.Words](../../pagesetup/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

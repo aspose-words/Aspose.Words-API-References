@@ -1,7 +1,9 @@
 ---
 title: TextPath.Kerning
-second_title: Aspose.Words لمراجع .NET API
-description: TextPath ملكية. تحديد ما إذا كان قد تم تشغيل المسافات بين الحروف أم لا.
+linktitle: Kerning
+articleTitle: Kerning
+second_title: Aspose.Words لـ .NET
+description: TextPath Kerning ملكية. تحديد ما إذا كان قد تم تشغيل المسافات بين الحروف أم لا في C#.
 type: docs
 weight: 60
 url: /ar/net/aspose.words.drawing/textpath/kerning/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.drawing/textpath/kerning/
 public bool Kerning { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 القيمة الافتراضية هي`خطأ شنيع`.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع WordArt.
 
@@ -121,7 +123,5 @@ private static Shape AppendWordArt(Document doc, string text, string textFontFam
 ### أنظر أيضا
 
 * class [TextPath](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../textpath/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

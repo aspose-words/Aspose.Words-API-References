@@ -1,7 +1,9 @@
 ---
 title: Paragraph.ParagraphBreakFont
-second_title: Aspose.Words per .NET API Reference
-description: Paragraph proprietà. Fornisce laccesso alla formattazione del carattere del carattere di interruzione di paragrafo.
+linktitle: ParagraphBreakFont
+articleTitle: ParagraphBreakFont
+second_title: Aspose.Words per .NET
+description: Paragraph ParagraphBreakFont proprietà. Fornisce laccesso alla formattazione del carattere del carattere di interruzione di paragrafo in C#.
 type: docs
 weight: 180
 url: /it/net/aspose.words/paragraph/paragraphbreakfont/
@@ -14,7 +16,7 @@ Fornisce l'accesso alla formattazione del carattere del carattere di interruzion
 public Font ParagraphBreakFont { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come utilizzare un'implementazione di DocumentVisitor per rimuovere tutto il contenuto nascosto da un documento.
 
@@ -211,7 +213,5 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
 
 * class [Font](../../font/)
 * class [Paragraph](../)
-* spazio dei nomi [Aspose.Words](../../paragraph/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

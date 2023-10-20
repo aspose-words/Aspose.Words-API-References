@@ -1,7 +1,9 @@
 ---
 title: Table.RightPadding
-second_title: Aspose.Words لمراجع .NET API
-description: Table ملكية. الحصول على أو تعيين مقدار المسافة بالنقاط المراد إضافتها إلى يمين محتويات الخلايا.
+linktitle: RightPadding
+articleTitle: RightPadding
+second_title: Aspose.Words لـ .NET
+description: Table RightPadding ملكية. الحصول على أو تعيين مقدار المسافة بالنقاط المراد إضافتها إلى يمين محتويات الخلايا في C#.
 type: docs
 weight: 250
 url: /ar/net/aspose.words.tables/table/rightpadding/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.tables/table/rightpadding/
 public double RightPadding { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تكوين حشوة المحتوى في الجدول.
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.SetRowFormatting.docx");
 ### أنظر أيضا
 
 * class [Table](../)
-* مساحة الاسم [Aspose.Words.Tables](../../table/)
+* مساحة الاسم [Aspose.Words.Tables](../../../aspose.words.tables/)
 * المجسم [Aspose.Words](../../../)
-
-

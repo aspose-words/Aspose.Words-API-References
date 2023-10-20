@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitGroupShapeStart
-second_title: Aspose.Words för .NET API Referens
-description: DocumentVisitor metod. Anropas när uppräkningen av en gruppform har börjat.
+linktitle: VisitGroupShapeStart
+articleTitle: VisitGroupShapeStart
+second_title: Aspose.Words för .NET
+description: DocumentVisitor VisitGroupShapeStart metod. Anropas när uppräkningen av en gruppform har börjat i C#.
 type: docs
 weight: 270
 url: /sv/net/aspose.words/documentvisitor/visitgroupshapestart/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitGroupShapeStart(GroupShape groupShape)
 
 A[`VisitorAction`](../../visitoraction/) värde som anger hur uppräkningen ska fortsätta.
 
-### Exempel
+## Exempel
 
 Visar hur man skapar en grupp av former och skriver ut dess innehåll med hjälp av en dokumentbesökare.
 
@@ -306,7 +308,5 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [GroupShape](../../../aspose.words.drawing/groupshape/)
 * class [DocumentVisitor](../)
-* namnutrymme [Aspose.Words](../../documentvisitor/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

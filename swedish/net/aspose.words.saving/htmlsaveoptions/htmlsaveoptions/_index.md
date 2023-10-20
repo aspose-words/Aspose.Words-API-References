@@ -1,7 +1,9 @@
 ---
-title: HtmlSaveOptions.HtmlSaveOptions
-second_title: Aspose.Words för .NET API Referens
-description: HtmlSaveOptions byggare. Initierar en ny instans av denna klass som kan användas för att spara ett document iHtml format.
+title: HtmlSaveOptions
+linktitle: HtmlSaveOptions
+articleTitle: HtmlSaveOptions
+second_title: Aspose.Words för .NET
+description: HtmlSaveOptions byggare. Initierar en ny instans av denna klass som kan användas för att spara ett document iHtml format i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.saving/htmlsaveoptions/htmlsaveoptions/
@@ -14,7 +16,7 @@ Initierar en ny instans av denna klass som kan användas för att spara ett docu
 public HtmlSaveOptions()
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du använder en specifik kodning när du sparar ett dokument i .epub.
 
@@ -41,12 +43,12 @@ doc.Save(ArtifactsDir + "HtmlSaveOptions.Doc2EpubSaveOptions.epub", saveOptions)
 ### Se även
 
 * class [HtmlSaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../htmlsaveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## HtmlSaveOptions(SaveFormat) {#constructor_1}
+## HtmlSaveOptions(*[SaveFormat](../../../aspose.words/saveformat/)*) {#constructor_1}
 
 Initierar en ny instans av denna klass som kan användas för att spara ett document iHtml ,Mhtml ,Epub , Azw3 ellerMobi format.
 
@@ -58,7 +60,7 @@ public HtmlSaveOptions(SaveFormat saveFormat)
 | --- | --- | --- |
 | saveFormat | SaveFormat | Kan varaHtml ,Mhtml ,Epub , Azw3 ellerMobi . |
 
-### Exempel
+## Exempel
 
 Visar hur man sparar ett dokument till en specifik version av HTML.
 
@@ -95,7 +97,5 @@ switch (htmlVersion)
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
 * class [HtmlSaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../htmlsaveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

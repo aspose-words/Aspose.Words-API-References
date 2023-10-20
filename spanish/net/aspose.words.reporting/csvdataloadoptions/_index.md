@@ -1,7 +1,9 @@
 ---
-title: Class CsvDataLoadOptions
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Reporting.CsvDataLoadOptions clase. Representa opciones para analizar datos CSV.
+title: CsvDataLoadOptions Class
+linktitle: CsvDataLoadOptions
+articleTitle: CsvDataLoadOptions
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Reporting.CsvDataLoadOptions clase. Representa opciones para analizar datos CSV en C#.
 type: docs
 weight: 4660
 url: /es/net/aspose.words.reporting/csvdataloadoptions/
@@ -21,7 +23,7 @@ public class CsvDataLoadOptions
 | Nombre | Descripción |
 | --- | --- |
 | [CsvDataLoadOptions](csvdataloadoptions/#constructor)() | Inicializa una nueva instancia de esta clase con opciones predeterminadas. |
-| [CsvDataLoadOptions](csvdataloadoptions/#constructor_1)(bool) | Inicializa una nueva instancia de esta clase especificando si los datos CSV contienen nombres de columna en la primera línea. |
+| [CsvDataLoadOptions](csvdataloadoptions/#constructor_1)(*bool*) | Inicializa una nueva instancia de esta clase especificando si los datos CSV contienen nombres de columna en la primera línea. |
 
 ## Propiedades
 
@@ -32,7 +34,7 @@ public class CsvDataLoadOptions
 | [HasHeaders](../../aspose.words.reporting/csvdataloadoptions/hasheaders/) { get; set; } | Obtiene o establece un valor que indica si el primer registro de datos CSV contiene nombres de columnas. |
 | [QuoteChar](../../aspose.words.reporting/csvdataloadoptions/quotechar/) { get; set; } | Obtiene o establece el carácter que se utiliza para citar los valores de los campos. |
 
-### Observaciones
+## Observaciones
 
 Una instancia de esta clase se puede pasar a los constructores de[`CsvDataSource`](../csvdatasource/) .
 
@@ -40,5 +42,3 @@ Una instancia de esta clase se puede pasar a los constructores de[`CsvDataSource
 
 * espacio de nombres [Aspose.Words.Reporting](../../aspose.words.reporting/)
 * asamblea [Aspose.Words](../../)
-
-

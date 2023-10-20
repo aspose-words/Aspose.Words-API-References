@@ -1,7 +1,9 @@
 ---
 title: Row.IsLastRow
-second_title: Aspose.Words für .NET-API-Referenz
-description: Row eigendom. True wenn dies die letzte Zeile in einer Tabelle ist sonst falsch.
+linktitle: IsLastRow
+articleTitle: IsLastRow
+second_title: Aspose.Words für .NET
+description: Row IsLastRow eigendom. True wenn dies die letzte Zeile in einer Tabelle ist sonst falsch in C#.
 type: docs
 weight: 50
 url: /de/net/aspose.words.tables/row/islastrow/
@@ -14,7 +16,7 @@ True, wenn dies die letzte Zeile in einer Tabelle ist; sonst falsch.
 public bool IsLastRow { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man eine Tabelle so einrichtet, dass sie auf derselben Seite bleibt.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "Table.KeepTableTogether.docx");
 ### Siehe auch
 
 * class [Row](../)
-* namensraum [Aspose.Words.Tables](../../row/)
+* namensraum [Aspose.Words.Tables](../../../aspose.words.tables/)
 * Montage [Aspose.Words](../../../)
-
-

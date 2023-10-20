@@ -1,7 +1,9 @@
 ---
 title: OleFormat.SourceItem
-second_title: Aspose.Words for .NET API 参考
-description: OleFormat 财产. 获取或设置一个字符串用于标识正在链接的源文件部分
+linktitle: SourceItem
+articleTitle: SourceItem
+second_title: 用于 .NET 的 Aspose.Words
+description: OleFormat SourceItem 财产. 获取或设置一个字符串用于标识正在链接的源文件部分 在 C#.
 type: docs
 weight: 110
 url: /zh/net/aspose.words.drawing/oleformat/sourceitem/
@@ -14,13 +16,13 @@ url: /zh/net/aspose.words.drawing/oleformat/sourceitem/
 public string SourceItem { get; set; }
 ```
 
-### 评论
+## 评论
 
 默认值为空字符串。
 
 例如，如果源文件是 Microsoft Excel 工作簿，则`SourceItem`如果 OLE 对象仅包含工作表 中的几个单元格， 属性可能会返回“Workbook1!R3C1:R4C2”。
 
-### 例子
+## 例子
 
 演示如何插入链接和未链接的 OLE 对象。
 
@@ -70,7 +72,5 @@ using (MemoryStream stream = oleFormat.GetOleEntry("\x0001CompObj"))
 ### 也可以看看
 
 * class [OleFormat](../)
-* 命名空间 [Aspose.Words.Drawing](../../oleformat/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

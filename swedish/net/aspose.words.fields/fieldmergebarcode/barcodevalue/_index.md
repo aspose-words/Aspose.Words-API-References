@@ -1,7 +1,9 @@
 ---
 title: FieldMergeBarcode.BarcodeValue
-second_title: Aspose.Words för .NET API Referens
-description: FieldMergeBarcode fast egendom. Hämtar eller ställer in streckkodsvärdet.
+linktitle: BarcodeValue
+articleTitle: BarcodeValue
+second_title: Aspose.Words för .NET
+description: FieldMergeBarcode BarcodeValue fast egendom. Hämtar eller ställer in streckkodsvärdet i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.fields/fieldmergebarcode/barcodevalue/
@@ -14,7 +16,7 @@ Hämtar eller ställer in streckkodsvärdet.
 public string BarcodeValue { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man utför en brevkoppling på EAN13 streckkoder.
 
@@ -105,7 +107,5 @@ doc.Save(ArtifactsDir + "Field.MERGEBARCODE.QR.docx");
 ### Se även
 
 * class [FieldMergeBarcode](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldmergebarcode/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

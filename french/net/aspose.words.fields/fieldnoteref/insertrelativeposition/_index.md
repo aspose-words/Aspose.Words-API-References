@@ -1,7 +1,9 @@
 ---
 title: FieldNoteRef.InsertRelativePosition
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldNoteRef propriété. Obtient ou définit sil faut insérer une position relative du paragraphe marqué par un signet.
+linktitle: InsertRelativePosition
+articleTitle: InsertRelativePosition
+second_title: Aspose.Words pour .NET
+description: FieldNoteRef InsertRelativePosition propriété. Obtient ou définit sil faut insérer une position relative du paragraphe marqué par un signet en C#.
 type: docs
 weight: 50
 url: /fr/net/aspose.words.fields/fieldnoteref/insertrelativeposition/
@@ -14,7 +16,7 @@ Obtient ou définit s'il faut insérer une position relative du paragraphe marqu
 public bool InsertRelativePosition { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre pour insérer des champs NOTEREF et modifier leur apparence.
 
@@ -83,7 +85,5 @@ private static void InsertBookmarkWithFootnote(DocumentBuilder builder, string b
 ### Voir également
 
 * class [FieldNoteRef](../)
-* espace de noms [Aspose.Words.Fields](../../fieldnoteref/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: BookmarkStart.GetText
-second_title: Справочник по API Aspose.Words для .NET
-description: BookmarkStart метод. Возвращает пустую строку.
+linktitle: GetText
+articleTitle: GetText
+second_title: Aspose.Words для .NET
+description: BookmarkStart GetText метод. Возвращает пустую строку на С#.
 type: docs
 weight: 60
 url: /ru/net/aspose.words/bookmarkstart/gettext/
@@ -18,7 +20,7 @@ public override string GetText()
 
 Пустая строка.
 
-### Примеры
+## Примеры
 
 Показывает, как добавлять закладки и обновлять их содержимое.
 
@@ -107,7 +109,5 @@ public class BookmarkInfoPrinter : DocumentVisitor
 ### Смотрите также
 
 * class [BookmarkStart](../)
-* пространство имен [Aspose.Words](../../bookmarkstart/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

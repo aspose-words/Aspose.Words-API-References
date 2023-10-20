@@ -1,9 +1,11 @@
 ---
 title: Style.Remove
-second_title: Aspose.Words für .NET-API-Referenz
-description: Style methode. Entfernt den angegebenen Stil aus dem Dokument.
+linktitle: Remove
+articleTitle: Remove
+second_title: Aspose.Words für .NET
+description: Style Remove methode. Entfernt den angegebenen Stil aus dem Dokument in C#.
 type: docs
-weight: 200
+weight: 190
 url: /de/net/aspose.words/style/remove/
 ---
 ## Style.Remove method
@@ -14,7 +16,7 @@ Entfernt den angegebenen Stil aus dem Dokument.
 public void Remove()
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Das Entfernen des Stils hat folgende Auswirkungen auf das Dokumentmodell:
 
@@ -22,7 +24,7 @@ Das Entfernen des Stils hat folgende Auswirkungen auf das Dokumentmodell:
 * Wenn der Basisstil entfernt wird, wird seine Formatierung auf untergeordnete Stile verschoben.
 * Wenn der zu löschende Stil über einen verknüpften Stil verfügt, werden beide gelöscht.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein benutzerdefinierter Stil erstellt und angewendet wird.
 
@@ -61,7 +63,5 @@ Assert.AreEqual(Color.Empty.ToArgb(), firstParagraphStyle.Font.Color.ToArgb());
 ### Siehe auch
 
 * class [Style](../)
-* namensraum [Aspose.Words](../../style/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

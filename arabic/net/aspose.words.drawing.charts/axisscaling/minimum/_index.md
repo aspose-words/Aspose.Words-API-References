@@ -1,7 +1,9 @@
 ---
 title: AxisScaling.Minimum
-second_title: Aspose.Words لمراجع .NET API
-description: AxisScaling ملكية. الحصول على أو تعيين الحد الأدنى لقيمة المحور.
+linktitle: Minimum
+articleTitle: Minimum
+second_title: Aspose.Words لـ .NET
+description: AxisScaling Minimum ملكية. الحصول على أو تعيين الحد الأدنى لقيمة المحور في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.drawing.charts/axisscaling/minimum/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.drawing.charts/axisscaling/minimum/
 public AxisBound Minimum { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 القيمة الافتراضية هي "تلقائي".
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج مخطط بقيم التاريخ/الوقت.
 
@@ -73,7 +75,5 @@ doc.Save(ArtifactsDir + "Charts.DateTimeValues.docx");
 
 * class [AxisBound](../../axisbound/)
 * class [AxisScaling](../)
-* مساحة الاسم [Aspose.Words.Drawing.Charts](../../axisscaling/)
+* مساحة الاسم [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../../)
-
-

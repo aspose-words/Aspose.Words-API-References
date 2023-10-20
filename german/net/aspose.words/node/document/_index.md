@@ -1,7 +1,9 @@
 ---
 title: Node.Document
-second_title: Aspose.Words für .NET-API-Referenz
-description: Node eigendom. Ruft das Dokument ab zu dem dieser Knoten gehört.
+linktitle: Document
+articleTitle: Document
+second_title: Aspose.Words für .NET
+description: Node Document eigendom. Ruft das Dokument ab zu dem dieser Knoten gehört in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words/node/document/
@@ -14,11 +16,11 @@ Ruft das Dokument ab, zu dem dieser Knoten gehört.
 public virtual DocumentBase Document { get; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Der Knoten gehört immer zu einem Dokument, auch wenn er gerade erst erstellt und noch nicht zum Baum hinzugefügt wurde, oder wenn er aus dem Baum entfernt wurde.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Knoten erstellt und sein besitzendes Dokument festgelegt wird.
 
@@ -51,7 +53,5 @@ Assert.AreEqual("Hello world!", doc.GetText().Trim());
 
 * class [DocumentBase](../../documentbase/)
 * class [Node](../)
-* namensraum [Aspose.Words](../../node/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

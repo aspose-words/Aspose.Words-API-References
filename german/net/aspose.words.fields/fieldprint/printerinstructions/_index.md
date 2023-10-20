@@ -1,7 +1,9 @@
 ---
 title: FieldPrint.PrinterInstructions
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldPrint eigendom. Ruft die druckerspezifischen Steuercodezeichen oder PostScriptAnweisungen ab oder legt diese fest.
+linktitle: PrinterInstructions
+articleTitle: PrinterInstructions
+second_title: Aspose.Words für .NET
+description: FieldPrint PrinterInstructions eigendom. Ruft die druckerspezifischen Steuercodezeichen oder PostScriptAnweisungen ab oder legt diese fest in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.fields/fieldprint/printerinstructions/
@@ -14,7 +16,7 @@ Ruft die druckerspezifischen Steuercodezeichen oder PostScript-Anweisungen ab od
 public string PrinterInstructions { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt an, wie ein PRINT-Feld eingefügt werden soll.
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "Field.PRINT.docx");
 ### Siehe auch
 
 * class [FieldPrint](../)
-* namensraum [Aspose.Words.Fields](../../fieldprint/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

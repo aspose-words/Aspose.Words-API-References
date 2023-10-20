@@ -1,7 +1,9 @@
 ---
 title: Font.SizeBi
-second_title: Справочник по API Aspose.Words для .NET
-description: Font свойство. Получает или задает размер шрифта в пунктах используемый в документе с письмом справа налево.
+linktitle: SizeBi
+articleTitle: SizeBi
+second_title: Aspose.Words для .NET
+description: Font SizeBi свойство. Получает или задает размер шрифта в пунктах используемый в документе с письмом справа налево на С#.
 type: docs
 weight: 350
 url: /ru/net/aspose.words/font/sizebi/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/font/sizebi/
 public double SizeBi { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как определить отдельные наборы настроек шрифта для текста, написанного справа налево и справа налево.
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "Font.Bidi.docx");
 ### Смотрите также
 
 * class [Font](../)
-* пространство имен [Aspose.Words](../../font/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

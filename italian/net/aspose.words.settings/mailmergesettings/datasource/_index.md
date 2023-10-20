@@ -1,7 +1,9 @@
 ---
 title: MailMergeSettings.DataSource
-second_title: Aspose.Words per .NET API Reference
-description: MailMergeSettings proprietà. Specifica il percorso dellorigine dati di stampa unione. Il valore predefinito è una stringa vuota.
+linktitle: DataSource
+articleTitle: DataSource
+second_title: Aspose.Words per .NET
+description: MailMergeSettings DataSource proprietà. Specifica il percorso dellorigine dati di stampa unione. Il valore predefinito è una stringa vuota in C#.
 type: docs
 weight: 60
 url: /it/net/aspose.words.settings/mailmergesettings/datasource/
@@ -14,7 +16,7 @@ Specifica il percorso dell'origine dati di stampa unione. Il valore predefinito 
 public string DataSource { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come costruire un'origine dati per una stampa unione da un'origine intestazione e un'origine dati.
 
@@ -79,7 +81,5 @@ doc.Save(ArtifactsDir + "MailMerge.MailingLabelMerge.docx");
 ### Guarda anche
 
 * class [MailMergeSettings](../)
-* spazio dei nomi [Aspose.Words.Settings](../../mailmergesettings/)
+* spazio dei nomi [Aspose.Words.Settings](../../../aspose.words.settings/)
 * assemblea [Aspose.Words](../../../)
-
-

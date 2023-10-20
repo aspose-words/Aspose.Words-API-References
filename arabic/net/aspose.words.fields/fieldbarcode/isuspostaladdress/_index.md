@@ -1,7 +1,9 @@
 ---
 title: FieldBarcode.IsUSPostalAddress
-second_title: Aspose.Words لمراجع .NET API
-description: FieldBarcode ملكية. يحصل على أو يحدد ما إذا كانPostalAddress هو عنوان بريدي أمريكي.
+linktitle: IsUSPostalAddress
+articleTitle: IsUSPostalAddress
+second_title: Aspose.Words لـ .NET
+description: FieldBarcode IsUSPostalAddress ملكية. يحصل على أو يحدد ما إذا كانPostalAddress هو عنوان بريدي أمريكي في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.fields/fieldbarcode/isuspostaladdress/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldbarcode/isuspostaladdress/
 public bool IsUSPostalAddress { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام حقل BARCODE لعرض الرموز البريدية الأمريكية على شكل باركود.
 
@@ -57,7 +59,5 @@ doc.Save(ArtifactsDir + "Field.BARCODE.docx");
 ### أنظر أيضا
 
 * class [FieldBarcode](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldbarcode/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

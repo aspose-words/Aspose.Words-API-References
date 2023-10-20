@@ -1,9 +1,11 @@
 ---
 title: Stroke.StartArrowType
-second_title: Aspose.Words for .NET API 参考
-description: Stroke 财产. 定义笔划起点的箭头
+linktitle: StartArrowType
+articleTitle: StartArrowType
+second_title: 用于 .NET 的 Aspose.Words
+description: Stroke StartArrowType 财产. 定义笔划起点的箭头 在 C#.
 type: docs
-weight: 180
+weight: 170
 url: /zh/net/aspose.words.drawing/stroke/startarrowtype/
 ---
 ## Stroke.StartArrowType property
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.drawing/stroke/startarrowtype/
 public ArrowType StartArrowType { get; set; }
 ```
 
-### 评论
+## 评论
 
 默认值为None。
 
-### 例子
+## 例子
 
 展示创造出各种形状。
 
@@ -94,7 +96,5 @@ doc.Save(ArtifactsDir + "Drawing.VariousShapes.docx");
 
 * enum [ArrowType](../../arrowtype/)
 * class [Stroke](../)
-* 命名空间 [Aspose.Words.Drawing](../../stroke/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Table.HorizontalAnchor
-second_title: Aspose.Words for .NET API 参考
-description: Table 财产. 获取计算浮动台水平位置的基础对象 默认值为Column.
+linktitle: HorizontalAnchor
+articleTitle: HorizontalAnchor
+second_title: 用于 .NET 的 Aspose.Words
+description: Table HorizontalAnchor 财产. 获取计算浮动台水平位置的基础对象 默认值为Column 在 C#.
 type: docs
 weight: 170
 url: /zh/net/aspose.words.tables/table/horizontalanchor/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.tables/table/horizontalanchor/
 public RelativeHorizontalPosition HorizontalAnchor { get; set; }
 ```
 
-### 例子
+## 例子
 
 展示如何使用浮动表属性。
 
@@ -43,7 +45,5 @@ if (table.TextWrapping == TextWrapping.Around)
 
 * enum [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/)
 * class [Table](../)
-* 命名空间 [Aspose.Words.Tables](../../table/)
+* 命名空间 [Aspose.Words.Tables](../../../aspose.words.tables/)
 * 部件 [Aspose.Words](../../../)
-
-

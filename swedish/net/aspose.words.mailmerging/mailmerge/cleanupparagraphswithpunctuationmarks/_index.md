@@ -1,7 +1,9 @@
 ---
 title: MailMerge.CleanupParagraphsWithPunctuationMarks
-second_title: Aspose.Words för .NET API Referens
-description: MailMerge fast egendom. Hämtar eller ställer in ett värde som anger om stycken med skiljetecken anses vara tomma och bör tas bort omRemoveEmptyParagraphs alternativet är specificerat.
+linktitle: CleanupParagraphsWithPunctuationMarks
+articleTitle: CleanupParagraphsWithPunctuationMarks
+second_title: Aspose.Words för .NET
+description: MailMerge CleanupParagraphsWithPunctuationMarks fast egendom. Hämtar eller ställer in ett värde som anger om stycken med skiljetecken anses vara tomma och bör tas bort omRemoveEmptyParagraphs alternativet är specificerat i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.mailmerging/mailmerge/cleanupparagraphswithpunctuationmarks/
@@ -14,7 +16,7 @@ Hämtar eller ställer in ett värde som anger om stycken med skiljetecken anses
 public bool CleanupParagraphsWithPunctuationMarks { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Standardvärdet är`Sann` .
 
@@ -29,7 +31,7 @@ Här är den kompletta listan över rensbara skiljetecken:
 * ¡
 * ¿
 
-### Exempel
+## Exempel
 
 Visar hur man tar bort stycken med skiljetecken efter en kopplingsoperation.
 
@@ -63,7 +65,5 @@ doc.Save(ArtifactsDir + "MailMerge.RemoveColonBetweenEmptyMergeFields.docx");
 ### Se även
 
 * class [MailMerge](../)
-* namnutrymme [Aspose.Words.MailMerging](../../mailmerge/)
+* namnutrymme [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * hopsättning [Aspose.Words](../../../)
-
-

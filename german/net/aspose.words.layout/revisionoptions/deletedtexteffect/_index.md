@@ -1,7 +1,9 @@
 ---
 title: RevisionOptions.DeletedTextEffect
-second_title: Aspose.Words für .NET-API-Referenz
-description: RevisionOptions eigendom. Ermöglicht die Angabe des Effekts der auf den gelöschten Inhalt angewendet werden sollDeletion . Der Standardwert istStrikeThrough
+linktitle: DeletedTextEffect
+articleTitle: DeletedTextEffect
+second_title: Aspose.Words für .NET
+description: RevisionOptions DeletedTextEffect eigendom. Ermöglicht die Angabe des Effekts der auf den gelöschten Inhalt angewendet werden sollDeletion . Der Standardwert istStrikeThrough in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.layout/revisionoptions/deletedtexteffect/
@@ -14,7 +16,7 @@ Ermöglicht die Angabe des Effekts, der auf den gelöschten Inhalt angewendet we
 public RevisionTextEffect DeletedTextEffect { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie das Erscheinungsbild von Revisionen geändert wird.
 
@@ -66,7 +68,5 @@ doc.Save(ArtifactsDir + "Revision.RevisionOptions.pdf");
 
 * enum [RevisionTextEffect](../../revisiontexteffect/)
 * class [RevisionOptions](../)
-* namensraum [Aspose.Words.Layout](../../revisionoptions/)
+* namensraum [Aspose.Words.Layout](../../../aspose.words.layout/)
 * Montage [Aspose.Words](../../../)
-
-

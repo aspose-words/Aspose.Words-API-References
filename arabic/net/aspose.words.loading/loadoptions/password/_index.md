@@ -1,7 +1,9 @@
 ---
 title: LoadOptions.Password
-second_title: Aspose.Words لمراجع .NET API
-description: LoadOptions ملكية. الحصول على كلمة المرور أو تعيينها لفتح مستند مشفر. يمكن أن يكونباطل أو سلسلة فارغة. الافتراضي هوباطل .
+linktitle: Password
+articleTitle: Password
+second_title: Aspose.Words لـ .NET
+description: LoadOptions Password ملكية. الحصول على كلمة المرور أو تعيينها لفتح مستند مشفر. يمكن أن يكونباطل أو سلسلة فارغة. الافتراضي هوباطل  في C#.
 type: docs
 weight: 110
 url: /ar/net/aspose.words.loading/loadoptions/password/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.loading/loadoptions/password/
 public string Password { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 تحتاج إلى معرفة كلمة المرور لفتح مستند مشفر. إذا لم يكن المستند مشفرًا، فاضبط هذا على`باطل` أو سلسلة فارغة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية توقيع ملف المستند المشفر.
 
@@ -44,7 +46,5 @@ DigitalSignatureUtil.Sign(inputFileName, outputFileName, certificateHolder, sign
 ### أنظر أيضا
 
 * class [LoadOptions](../)
-* مساحة الاسم [Aspose.Words.Loading](../../loadoptions/)
+* مساحة الاسم [Aspose.Words.Loading](../../../aspose.words.loading/)
 * المجسم [Aspose.Words](../../../)
-
-

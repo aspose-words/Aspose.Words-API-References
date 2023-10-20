@@ -1,9 +1,11 @@
 ---
 title: CellFormat.PreferredWidth
-second_title: Aspose.Words för .NET API Referens
-description: CellFormat fast egendom. Returnerar eller ställer in önskad bredd på cellen.
+linktitle: PreferredWidth
+articleTitle: PreferredWidth
+second_title: Aspose.Words för .NET
+description: CellFormat PreferredWidth fast egendom. Returnerar eller ställer in önskad bredd på cellen i C#.
 type: docs
-weight: 80
+weight: 70
 url: /sv/net/aspose.words.tables/cellformat/preferredwidth/
 ---
 ## CellFormat.PreferredWidth property
@@ -14,7 +16,7 @@ Returnerar eller ställer in önskad bredd på cellen.
 public PreferredWidth PreferredWidth { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Den föredragna bredden (tillsammans med tabellens Autopassningsalternativ) bestämmer hur den faktiska bredden på cellen beräknas av tabelllayoutalgoritmen. Tabelllayout kan utföras av Aspose.Words när det sparar dokumentet eller av Microsoft Word när det visar dokumentet.
 
@@ -22,7 +24,7 @@ Den föredragna bredden kan anges i punkter eller i procent. Den föredragna wid
 
 Standardvärdet är[`Auto`](../../preferredwidth/auto/).
 
-### Exempel
+## Exempel
 
 Visar hur man ställer in en föredragen bredd för tabellceller.
 
@@ -63,7 +65,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertCellsWithPreferredWidths.docx");
 
 * class [PreferredWidth](../../preferredwidth/)
 * class [CellFormat](../)
-* namnutrymme [Aspose.Words.Tables](../../cellformat/)
+* namnutrymme [Aspose.Words.Tables](../../../aspose.words.tables/)
 * hopsättning [Aspose.Words](../../../)
-
-

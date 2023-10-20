@@ -1,7 +1,9 @@
 ---
 title: ControlChar.FieldSeparatorChar
-second_title: Aspose.Words für .NET-API-Referenz
-description: ControlChar veld. Das Feldtrennzeichen trennt den Feldcode vom Feldwert. In einigen Bereichen optional. Wert char20.
+linktitle: FieldSeparatorChar
+articleTitle: FieldSeparatorChar
+second_title: Aspose.Words für .NET
+description: ControlChar FieldSeparatorChar veld. Das Feldtrennzeichen trennt den Feldcode vom Feldwert. In einigen Bereichen optional. Wert char20 in C#.
 type: docs
 weight: 90
 url: /de/net/aspose.words/controlchar/fieldseparatorchar/
@@ -14,7 +16,7 @@ Das Feldtrennzeichen trennt den Feldcode vom Feldwert. In einigen Bereichen opti
 public const char FieldSeparatorChar;
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man einem Dokument verschiedene Steuerzeichen hinzufügt.
 
@@ -86,7 +88,5 @@ Assert.AreEqual(Convert.ToChar(ControlChar.ColumnBreak), ControlChar.ColumnBreak
 ### Siehe auch
 
 * class [ControlChar](../)
-* namensraum [Aspose.Words](../../controlchar/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

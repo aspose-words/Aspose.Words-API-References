@@ -1,7 +1,9 @@
 ---
 title: CompositeNode.HasChildNodes
-second_title: Aspose.Words für .NET-API-Referenz
-description: CompositeNode eigendom. Gibt zurückWAHR wenn dieser Knoten untergeordnete Knoten hat.
+linktitle: HasChildNodes
+articleTitle: HasChildNodes
+second_title: Aspose.Words für .NET
+description: CompositeNode HasChildNodes eigendom. Gibt zurückWAHR wenn dieser Knoten untergeordnete Knoten hat in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words/compositenode/haschildnodes/
@@ -14,7 +16,7 @@ Gibt zurück`WAHR` wenn dieser Knoten untergeordnete Knoten hat.
 public bool HasChildNodes { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Zeilen aus zwei Tabellen zu einer kombiniert werden.
 
@@ -41,7 +43,5 @@ doc.Save(ArtifactsDir + "Table.CombineTables.docx");
 ### Siehe auch
 
 * class [CompositeNode](../)
-* namensraum [Aspose.Words](../../compositenode/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

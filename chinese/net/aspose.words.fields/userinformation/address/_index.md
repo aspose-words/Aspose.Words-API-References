@@ -1,7 +1,9 @@
 ---
 title: UserInformation.Address
-second_title: Aspose.Words for .NET API 参考
-description: UserInformation 财产. 获取或设置用户的邮政地址
+linktitle: Address
+articleTitle: Address
+second_title: 用于 .NET 的 Aspose.Words
+description: UserInformation Address 财产. 获取或设置用户的邮政地址 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.fields/userinformation/address/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/userinformation/address/
 public string Address { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何设置用户详细信息并使用字段显示它们。
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "FieldOptions.CurrentUser.docx");
 ### 也可以看看
 
 * class [UserInformation](../)
-* 命名空间 [Aspose.Words.Fields](../../userinformation/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

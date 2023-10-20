@@ -1,7 +1,9 @@
 ---
 title: FieldMergeBarcode.ErrorCorrectionLevel
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldMergeBarcode свойство. Получает или задает уровень исправления ошибок QRкода. Допустимые значения 0 3. .
+linktitle: ErrorCorrectionLevel
+articleTitle: ErrorCorrectionLevel
+second_title: Aspose.Words для .NET
+description: FieldMergeBarcode ErrorCorrectionLevel свойство. Получает или задает уровень исправления ошибок QRкода. Допустимые значения 0 3.  на С#.
 type: docs
 weight: 80
 url: /ru/net/aspose.words.fields/fieldmergebarcode/errorcorrectionlevel/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldmergebarcode/errorcorrectionlevel/
 public string ErrorCorrectionLevel { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как выполнить объединение почты по QR-штрих-кодам.
 
@@ -64,7 +66,5 @@ doc.Save(ArtifactsDir + "Field.MERGEBARCODE.QR.docx");
 ### Смотрите также
 
 * class [FieldMergeBarcode](../)
-* пространство имен [Aspose.Words.Fields](../../fieldmergebarcode/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,9 +1,11 @@
 ---
 title: Cell.EnsureMinimum
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Cell méthode. Si le dernier enfant nest pas un paragraphe crée et ajoute un paragraphe vide.
+linktitle: EnsureMinimum
+articleTitle: EnsureMinimum
+second_title: Aspose.Words pour .NET
+description: Cell EnsureMinimum méthode. Si le dernier enfant nest pas un paragraphe crée et ajoute un paragraphe vide en C#.
 type: docs
-weight: 160
+weight: 140
 url: /fr/net/aspose.words.tables/cell/ensureminimum/
 ---
 ## Cell.EnsureMinimum method
@@ -14,7 +16,7 @@ Si le dernier enfant n'est pas un paragraphe, crée et ajoute un paragraphe vide
 public void EnsureMinimum()
 ```
 
-### Exemples
+## Exemples
 
 Montre comment garantir qu'un nœud de cellule contient les nœuds dont nous avons besoin pour commencer à y ajouter du contenu.
 
@@ -40,7 +42,5 @@ cell.FirstParagraph.AppendChild(new Run(doc, "Hello world!"));
 ### Voir également
 
 * class [Cell](../)
-* espace de noms [Aspose.Words.Tables](../../cell/)
+* espace de noms [Aspose.Words.Tables](../../../aspose.words.tables/)
 * Assemblée [Aspose.Words](../../../)
-
-

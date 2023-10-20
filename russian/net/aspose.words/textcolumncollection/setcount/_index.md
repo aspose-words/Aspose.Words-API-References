@@ -1,7 +1,9 @@
 ---
 title: TextColumnCollection.SetCount
-second_title: Справочник по API Aspose.Words для .NET
-description: TextColumnCollection метод. Упорядочивает текст в указанное количество текстовых столбцов.
+linktitle: SetCount
+articleTitle: SetCount
+second_title: Aspose.Words для .NET
+description: TextColumnCollection SetCount метод. Упорядочивает текст в указанное количество текстовых столбцов на С#.
 type: docs
 weight: 70
 url: /ru/net/aspose.words/textcolumncollection/setcount/
@@ -18,11 +20,11 @@ public void SetCount(int newCount)
 | --- | --- | --- |
 | newCount | Int32 | Количество столбцов, в которых будет размещен текст. |
 
-### Примечания
+## Примечания
 
 Когда[`EvenlySpaced`](../evenlyspaced/) является`ЛОЖЬ` и вы увеличиваете количество столбцов, new[`TextColumn`](../../textcolumn/) объекты создаются с нулевой шириной и интервалом. Вам необходимо установить ширину и интервал для новых столбцов.
 
-### Примеры
+## Примеры
 
 Показывает, как создать в разделе несколько равномерно расположенных столбцов.
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "PageSetup.ColumnsSameWidth.docx");
 ### Смотрите также
 
 * class [TextColumnCollection](../)
-* пространство имен [Aspose.Words](../../textcolumncollection/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.IsSignatureLine
-second_title: Referencia de API de Aspose.Words para .NET
-description: ShapeBase propiedad. Indica que la forma es unaSignatureLine .
+linktitle: IsSignatureLine
+articleTitle: IsSignatureLine
+second_title: Aspose.Words para .NET
+description: ShapeBase IsSignatureLine propiedad. Indica que la forma es unaSignatureLine  en C#.
 type: docs
 weight: 340
 url: /es/net/aspose.words.drawing/shapebase/issignatureline/
@@ -14,7 +16,7 @@ Indica que la forma es una[`SignatureLine`](../../signatureline/) .
 public bool IsSignatureLine { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear una línea para una firma e insertarla en un documento.
 
@@ -59,7 +61,5 @@ doc.Save(ArtifactsDir + "Shape.SignatureLine.docx");
 ### Ver también
 
 * class [ShapeBase](../)
-* espacio de nombres [Aspose.Words.Drawing](../../shapebase/)
+* espacio de nombres [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * asamblea [Aspose.Words](../../../)
-
-

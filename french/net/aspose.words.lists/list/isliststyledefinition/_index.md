@@ -1,7 +1,9 @@
 ---
 title: List.IsListStyleDefinition
-second_title: Référence de l'API Aspose.Words pour .NET
-description: List propriété. Retoursvrai si cette liste est une définition dun style de liste.
+linktitle: IsListStyleDefinition
+articleTitle: IsListStyleDefinition
+second_title: Aspose.Words pour .NET
+description: List IsListStyleDefinition propriété. Retoursvrai si cette liste est une définition dun style de liste en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.lists/list/isliststyledefinition/
@@ -14,7 +16,7 @@ Retours`vrai` si cette liste est une définition d'un style de liste.
 public bool IsListStyleDefinition { get; }
 ```
 
-### Remarques
+## Remarques
 
 Lorsque cette propriété est`vrai` , le[`Style`](../style/) La propriété renvoie le style de liste défini par cette liste .
 
@@ -22,7 +24,7 @@ En modifiant les propriétés d'une liste qui définit un style de liste, vous m
 
 Une liste qui est une définition d'un style de liste ne peut pas être appliquée directement aux paragraphes pour les numéroter.
 
-### Exemples
+## Exemples
 
 Montre comment créer un style de liste et l’utiliser dans un document.
 
@@ -83,7 +85,5 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateAndUseListStyle.docx");
 ### Voir également
 
 * class [List](../)
-* espace de noms [Aspose.Words.Lists](../../list/)
+* espace de noms [Aspose.Words.Lists](../../../aspose.words.lists/)
 * Assemblée [Aspose.Words](../../../)
-
-

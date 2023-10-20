@@ -1,7 +1,9 @@
 ---
 title: SignatureLine.IsValid
-second_title: Aspose.Words per .NET API Reference
-description: SignatureLine proprietà. Indica che la riga della firma è firmata tramite firma digitale e questa firma digitale è valida.
+linktitle: IsValid
+articleTitle: IsValid
+second_title: Aspose.Words per .NET
+description: SignatureLine IsValid proprietà. Indica che la riga della firma è firmata tramite firma digitale e questa firma digitale è valida in C#.
 type: docs
 weight: 70
 url: /it/net/aspose.words.drawing/signatureline/isvalid/
@@ -14,7 +16,7 @@ Indica che la riga della firma è firmata tramite firma digitale e questa firma 
 public bool IsValid { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come firmare un documento con un certificato personale e una riga per la firma.
 
@@ -67,7 +69,5 @@ Assert.True(signatureLine.IsValid);
 ### Guarda anche
 
 * class [SignatureLine](../)
-* spazio dei nomi [Aspose.Words.Drawing](../../signatureline/)
+* spazio dei nomi [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assemblea [Aspose.Words](../../../)
-
-

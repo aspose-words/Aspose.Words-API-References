@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.AlignTablesRowByRow
-second_title: Aspose.Words لمراجع .NET API
-description: CompatibilityOptions ملكية. محاذاة صفوف الجدول بشكل مستقل.
+linktitle: AlignTablesRowByRow
+articleTitle: AlignTablesRowByRow
+second_title: Aspose.Words لـ .NET
+description: CompatibilityOptions AlignTablesRowByRow ملكية. محاذاة صفوف الجدول بشكل مستقل في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.settings/compatibilityoptions/aligntablesrowbyrow/
@@ -17,7 +19,5 @@ public bool AlignTablesRowByRow { get; set; }
 ### أنظر أيضا
 
 * class [CompatibilityOptions](../)
-* مساحة الاسم [Aspose.Words.Settings](../../compatibilityoptions/)
+* مساحة الاسم [Aspose.Words.Settings](../../../aspose.words.settings/)
 * المجسم [Aspose.Words](../../../)
-
-

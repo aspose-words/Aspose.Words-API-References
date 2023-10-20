@@ -1,7 +1,9 @@
 ---
-title: Enum SaveFormat
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.SaveFormat تعداد. يشير إلى التنسيق الذي يتم حفظ المستند به.
+title: SaveFormat Enum
+linktitle: SaveFormat
+articleTitle: SaveFormat
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.SaveFormat تعداد. يشير إلى التنسيق الذي يتم حفظ المستند به في C#.
 type: docs
 weight: 4840
 url: /ar/net/aspose.words/saveformat/
@@ -59,7 +61,7 @@ public enum SaveFormat
 | Gif | `105` | يعرض صفحة من المستند ويحفظها كملف GIF. |
 | Eps | `106` | يعرض صفحة من المستند ويحفظها كملف EPS. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التحويل من تنسيق DOCX إلى تنسيق HTML.
 
@@ -75,5 +77,3 @@ doc.Save(ArtifactsDir + "Document.ConvertToHtml.html", SaveFormat.Html);
 * class [SaveOptions](../../aspose.words.saving/saveoptions/)
 * مساحة الاسم [Aspose.Words](../../aspose.words/)
 * المجسم [Aspose.Words](../../)
-
-

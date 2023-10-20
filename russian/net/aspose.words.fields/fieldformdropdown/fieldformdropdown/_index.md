@@ -1,7 +1,9 @@
 ---
-title: FieldFormDropDown.FieldFormDropDown
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldFormDropDown строитель. Конструктор по умолчанию.
+title: FieldFormDropDown
+linktitle: FieldFormDropDown
+articleTitle: FieldFormDropDown
+second_title: Aspose.Words для .NET
+description: FieldFormDropDown строитель. Конструктор по умолчанию на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fields/fieldformdropdown/fieldformdropdown/
@@ -17,7 +19,5 @@ public FieldFormDropDown()
 ### Смотрите также
 
 * class [FieldFormDropDown](../)
-* пространство имен [Aspose.Words.Fields](../../fieldformdropdown/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

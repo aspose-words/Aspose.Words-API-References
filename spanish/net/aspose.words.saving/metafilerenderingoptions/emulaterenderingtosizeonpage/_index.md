@@ -1,7 +1,9 @@
 ---
 title: MetafileRenderingOptions.EmulateRenderingToSizeOnPage
-second_title: Referencia de API de Aspose.Words para .NET
-description: MetafileRenderingOptions propiedad. Obtiene o establece un valor que determina si la representación del metarchivo emula la visualización del metarchivo según el tamaño en la página o la visualización del metarchivo en su tamaño predeterminado.
+linktitle: EmulateRenderingToSizeOnPage
+articleTitle: EmulateRenderingToSizeOnPage
+second_title: Aspose.Words para .NET
+description: MetafileRenderingOptions EmulateRenderingToSizeOnPage propiedad. Obtiene o establece un valor que determina si la representación del metarchivo emula la visualización del metarchivo según el tamaño en la página o la visualización del metarchivo en su tamaño predeterminado en C#.
 type: docs
 weight: 40
 url: /es/net/aspose.words.saving/metafilerenderingoptions/emulaterenderingtosizeonpage/
@@ -14,7 +16,7 @@ Obtiene o establece un valor que determina si la representación del metarchivo 
 public bool EmulateRenderingToSizeOnPage { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 Cuando los metarchivos se muestran en MS Word, algunos gráficos pueden escalarse de acuerdo con el tamaño real del metarchivo en píxeles. Es decir, incluso el zoom puede afectar la visualización del metarchivo.
 
@@ -26,7 +28,7 @@ Esta opción se utiliza sólo cuando el metarchivo se representa como gráficos 
 
 El valor predeterminado es`verdadero`.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo visualizar el metarchivo según el tamaño de la página.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.EmulateRenderingToSizeOnPage.pdf", saveO
 ### Ver también
 
 * class [MetafileRenderingOptions](../)
-* espacio de nombres [Aspose.Words.Saving](../../metafilerenderingoptions/)
+* espacio de nombres [Aspose.Words.Saving](../../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../../)
-
-

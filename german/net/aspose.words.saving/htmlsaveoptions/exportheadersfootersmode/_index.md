@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ExportHeadersFootersMode
-second_title: Aspose.Words für .NET-API-Referenz
-description: HtmlSaveOptions eigendom. Gibt an wie Kopf und Fußzeilen in HTML MHTML oder EPUB ausgegeben werden. Der Standardwert istPerSection für HTML/MHTML undNone für EPUB.
+linktitle: ExportHeadersFootersMode
+articleTitle: ExportHeadersFootersMode
+second_title: Aspose.Words für .NET
+description: HtmlSaveOptions ExportHeadersFootersMode eigendom. Gibt an wie Kopf und Fußzeilen in HTML MHTML oder EPUB ausgegeben werden. Der Standardwert istPerSection für HTML/MHTML undNone für EPUB in C#.
 type: docs
 weight: 160
 url: /de/net/aspose.words.saving/htmlsaveoptions/exportheadersfootersmode/
@@ -14,7 +16,7 @@ Gibt an, wie Kopf- und Fußzeilen in HTML, MHTML oder EPUB ausgegeben werden. De
 public ExportHeadersFootersMode ExportHeadersFootersMode { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Es ist schwierig, Kopf- und Fußzeilen sinnvoll in HTML auszugeben, da HTML nicht paginiert ist.
 
@@ -24,7 +26,7 @@ Wann ist esFirstSectionHeaderLastSectionFooter Es werden nur die erste primäre 
 
 Sie können den Export von Kopf- und Fußzeilen vollständig deaktivieren, indem Sie diese Eigenschaft auf setzenNone.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Kopf-/Fußzeilen weggelassen werden, wenn ein Dokument im HTML-Format gespeichert wird.
 
@@ -53,7 +55,5 @@ Assert.IsFalse(doc.Range.Text.Contains("First header"));
 
 * enum [ExportHeadersFootersMode](../../exportheadersfootersmode/)
 * class [HtmlSaveOptions](../)
-* namensraum [Aspose.Words.Saving](../../htmlsaveoptions/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

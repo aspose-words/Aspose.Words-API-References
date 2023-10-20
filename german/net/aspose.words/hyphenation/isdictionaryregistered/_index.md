@@ -1,7 +1,9 @@
 ---
 title: Hyphenation.IsDictionaryRegistered
-second_title: Aspose.Words für .NET-API-Referenz
-description: Hyphenation methode. Gibt zurückFALSCH wenn für die angegebene Sprache kein Wörterbuch registriert ist oder wenn registriert ein NullWörterbuch istWAHR sonst.
+linktitle: IsDictionaryRegistered
+articleTitle: IsDictionaryRegistered
+second_title: Aspose.Words für .NET
+description: Hyphenation IsDictionaryRegistered methode. Gibt zurückFALSCH wenn für die angegebene Sprache kein Wörterbuch registriert ist oder wenn registriert ein NullWörterbuch istWAHR sonst in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words/hyphenation/isdictionaryregistered/
@@ -14,7 +16,7 @@ Gibt zurück`FALSCH` wenn für die angegebene Sprache kein Wörterbuch registrie
 public static bool IsDictionaryRegistered(string language)
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man ein Silbentrennungswörterbuch registriert.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "Hyphenation.Dictionary.Unregistered.pdf");
 ### Siehe auch
 
 * class [Hyphenation](../)
-* namensraum [Aspose.Words](../../hyphenation/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

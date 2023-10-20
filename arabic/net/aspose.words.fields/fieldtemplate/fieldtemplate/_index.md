@@ -1,7 +1,9 @@
 ---
-title: FieldTemplate.FieldTemplate
-second_title: Aspose.Words لمراجع .NET API
-description: FieldTemplate البناء. Default_Constructor
+title: FieldTemplate
+linktitle: FieldTemplate
+articleTitle: FieldTemplate
+second_title: Aspose.Words لـ .NET
+description: FieldTemplate البناء. Default_Constructor في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fields/fieldtemplate/fieldtemplate/
@@ -17,7 +19,5 @@ public FieldTemplate()
 ### أنظر أيضا
 
 * class [FieldTemplate](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldtemplate/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

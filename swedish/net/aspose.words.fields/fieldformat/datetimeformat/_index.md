@@ -1,7 +1,9 @@
 ---
 title: FieldFormat.DateTimeFormat
-second_title: Aspose.Words för .NET API Referens
-description: FieldFormat fast egendom. Hämtar eller ställer in en formatering som tillämpas på ett datum och tidsfältresultat. Motsvarar omkopplaren .
+linktitle: DateTimeFormat
+articleTitle: DateTimeFormat
+second_title: Aspose.Words för .NET
+description: FieldFormat DateTimeFormat fast egendom. Hämtar eller ställer in en formatering som tillämpas på ett datum och tidsfältresultat. Motsvarar omkopplaren  i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.fields/fieldformat/datetimeformat/
@@ -14,7 +16,7 @@ Hämtar eller ställer in en formatering som tillämpas på ett datum- och tidsf
 public string DateTimeFormat { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man formaterar fältresultat.
 
@@ -78,7 +80,5 @@ Assert.AreEqual(0, format.GeneralFormats.Count);
 ### Se även
 
 * class [FieldFormat](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldformat/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

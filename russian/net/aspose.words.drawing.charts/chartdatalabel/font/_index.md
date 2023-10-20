@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabel.Font
-second_title: Справочник по API Aspose.Words для .NET
-description: ChartDataLabel свойство. Предоставляет доступ к форматированию шрифта этой метки данных.
+linktitle: Font
+articleTitle: Font
+second_title: Aspose.Words для .NET
+description: ChartDataLabel Font свойство. Предоставляет доступ к форматированию шрифта этой метки данных на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.drawing.charts/chartdatalabel/font/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.drawing.charts/chartdatalabel/font/
 public Font Font { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как использовать 3D-эффекты с пузырьковыми диаграммами.
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "Charts.Bubble3D.docx");
 
 * class [Font](../../../aspose.words/font/)
 * class [ChartDataLabel](../)
-* пространство имен [Aspose.Words.Drawing.Charts](../../chartdatalabel/)
+* пространство имен [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../../)
-
-

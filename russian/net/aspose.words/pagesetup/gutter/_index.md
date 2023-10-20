@@ -1,7 +1,9 @@
 ---
 title: PageSetup.Gutter
-second_title: Справочник по API Aspose.Words для .NET
-description: PageSetup свойство. Получает или задает объем дополнительного пространства добавляемого к полю для привязки документа.
+linktitle: Gutter
+articleTitle: Gutter
+second_title: Aspose.Words для .NET
+description: PageSetup Gutter свойство. Получает или задает объем дополнительного пространства добавляемого к полю для привязки документа на С#.
 type: docs
 weight: 160
 url: /ru/net/aspose.words/pagesetup/gutter/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/pagesetup/gutter/
 public double Gutter { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как настроить документ, который можно распечатать в виде сгиба книги.
 
@@ -79,7 +81,5 @@ doc.Save(ArtifactsDir + "PageSetup.Gutter.docx");
 ### Смотрите также
 
 * class [PageSetup](../)
-* пространство имен [Aspose.Words](../../pagesetup/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

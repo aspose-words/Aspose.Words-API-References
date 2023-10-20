@@ -1,7 +1,9 @@
 ---
 title: Theme.MinorFonts
-second_title: Aspose.Words لمراجع .NET API
-description: Theme ملكية. يسمح بتحديد مجموعة الخطوط الثانوية للغات المختلفة.
+linktitle: MinorFonts
+articleTitle: MinorFonts
+second_title: Aspose.Words لـ .NET
+description: Theme MinorFonts ملكية. يسمح بتحديد مجموعة الخطوط الثانوية للغات المختلفة في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.themes/theme/minorfonts/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.themes/theme/minorfonts/
 public ThemeFonts MinorFonts { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين الألوان والخطوط المخصصة للموضوعات.
 
@@ -63,7 +65,5 @@ doc.Save(ArtifactsDir + "Themes.CustomColorsAndFonts.docx");
 
 * class [ThemeFonts](../../themefonts/)
 * class [Theme](../)
-* مساحة الاسم [Aspose.Words.Themes](../../theme/)
+* مساحة الاسم [Aspose.Words.Themes](../../../aspose.words.themes/)
 * المجسم [Aspose.Words](../../../)
-
-

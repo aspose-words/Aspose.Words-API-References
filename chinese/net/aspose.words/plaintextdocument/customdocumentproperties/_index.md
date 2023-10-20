@@ -1,7 +1,9 @@
 ---
 title: PlainTextDocument.CustomDocumentProperties
-second_title: Aspose.Words for .NET API 参考
-description: PlainTextDocument 财产. 获取CustomDocumentProperties文档的.
+linktitle: CustomDocumentProperties
+articleTitle: CustomDocumentProperties
+second_title: 用于 .NET 的 Aspose.Words
+description: PlainTextDocument CustomDocumentProperties 财产. 获取CustomDocumentProperties文档的 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words/plaintextdocument/customdocumentproperties/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/plaintextdocument/customdocumentproperties/
 public CustomDocumentProperties CustomDocumentProperties { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何以纯文本形式加载 Microsoft Word 文档的内容，然后访问原始文档的自定义属性。
 
@@ -37,7 +39,5 @@ Assert.AreEqual("123 Main St, London, UK", plaintext.CustomDocumentProperties["L
 
 * class [CustomDocumentProperties](../../../aspose.words.properties/customdocumentproperties/)
 * class [PlainTextDocument](../)
-* 命名空间 [Aspose.Words](../../plaintextdocument/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

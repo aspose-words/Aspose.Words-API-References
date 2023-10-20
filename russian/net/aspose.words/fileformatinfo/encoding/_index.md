@@ -1,7 +1,9 @@
 ---
 title: FileFormatInfo.Encoding
-second_title: Справочник по API Aspose.Words для .NET
-description: FileFormatInfo свойство. Получает обнаруженную кодировку если она применима к текущему формату документа. На данный момент определяет кодировку только для документов HTML.
+linktitle: Encoding
+articleTitle: Encoding
+second_title: Aspose.Words для .NET
+description: FileFormatInfo Encoding свойство. Получает обнаруженную кодировку если она применима к текущему формату документа. На данный момент определяет кодировку только для документов HTML на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words/fileformatinfo/encoding/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/fileformatinfo/encoding/
 public Encoding Encoding { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как определить кодировку в html-файле.
 
@@ -31,7 +33,5 @@ Assert.AreEqual(1252, info.Encoding.CodePage);
 ### Смотрите также
 
 * class [FileFormatInfo](../)
-* пространство имен [Aspose.Words](../../fileformatinfo/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

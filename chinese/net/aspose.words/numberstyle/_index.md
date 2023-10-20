@@ -1,7 +1,9 @@
 ---
-title: Enum NumberStyle
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.NumberStyle 枚举. 指定列表脚注和尾注页码的编号样式
+title: NumberStyle Enum
+linktitle: NumberStyle
+articleTitle: NumberStyle
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.NumberStyle 枚举. 指定列表脚注和尾注页码的编号样式 在 C#.
 type: docs
 weight: 4310
 url: /zh/net/aspose.words/numberstyle/
@@ -81,7 +83,7 @@ public enum NumberStyle
 | None | `255` | 无项目符号或编号。 |
 | Custom | `65280` | 自定义数字格式。仅支持 DOCX 格式。 |
 
-### 例子
+## 例子
 
 演示如何在使用 DocumentBuilder 时将自定义列表格式应用于段落。
 
@@ -141,5 +143,3 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateCustomList.docx");
 
 * 命名空间 [Aspose.Words](../../aspose.words/)
 * 部件 [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitBookmarkEnd
-second_title: Aspose.Words لمراجع .NET API
-description: DocumentVisitor طريقة. يتم استدعاؤه عند مواجهة نهاية الإشارة المرجعية في المستند.
+linktitle: VisitBookmarkEnd
+articleTitle: VisitBookmarkEnd
+second_title: Aspose.Words لـ .NET
+description: DocumentVisitor VisitBookmarkEnd طريقة. يتم استدعاؤه عند مواجهة نهاية الإشارة المرجعية في المستند في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words/documentvisitor/visitbookmarkend/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitBookmarkEnd(BookmarkEnd bookmarkEnd)
 
 أ[`VisitorAction`](../../visitoraction/) القيمة التي تحدد كيفية متابعة التعداد.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إضافة الإشارات المرجعية وتحديث محتوياتها.
 
@@ -113,7 +115,5 @@ public class BookmarkInfoPrinter : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [BookmarkEnd](../../bookmarkend/)
 * class [DocumentVisitor](../)
-* مساحة الاسم [Aspose.Words](../../documentvisitor/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

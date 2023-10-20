@@ -1,7 +1,9 @@
 ---
-title: Enum MergeFormatMode
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.LowCode.MergeFormatMode 枚举. 指定合并多个文档时如何合并格式
+title: MergeFormatMode Enum
+linktitle: MergeFormatMode
+articleTitle: MergeFormatMode
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.LowCode.MergeFormatMode 枚举. 指定合并多个文档时如何合并格式 在 C#.
 type: docs
 weight: 3750
 url: /zh/net/aspose.words.lowcode/mergeformatmode/
@@ -26,5 +28,3 @@ public enum MergeFormatMode
 
 * 命名空间 [Aspose.Words.LowCode](../../aspose.words.lowcode/)
 * 部件 [Aspose.Words](../../)
-
-

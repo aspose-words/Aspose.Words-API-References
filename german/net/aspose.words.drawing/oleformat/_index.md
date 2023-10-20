@@ -1,7 +1,9 @@
 ---
-title: Class OleFormat
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Drawing.OleFormat klas. Bietet Zugriff auf die Daten eines OLEObjekts oder ActiveXSteuerelements.
+title: OleFormat Class
+linktitle: OleFormat
+articleTitle: OleFormat
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Drawing.OleFormat klas. Bietet Zugriff auf die Daten eines OLEObjekts oder ActiveXSteuerelements in C#.
 type: docs
 weight: 1150
 url: /de/net/aspose.words.drawing/oleformat/
@@ -38,16 +40,16 @@ public class OleFormat
 
 | Name | Beschreibung |
 | --- | --- |
-| [GetOleEntry](../../aspose.words.drawing/oleformat/getoleentry/)(string) | Ruft den OLE-Objektdateneintrag ab. |
+| [GetOleEntry](../../aspose.words.drawing/oleformat/getoleentry/)(*string*) | Ruft den OLE-Objektdateneintrag ab. |
 | [GetRawData](../../aspose.words.drawing/oleformat/getrawdata/)() | Ruft OLE-Objekt-Rohdaten ab. |
-| [Save](../../aspose.words.drawing/oleformat/save/#save)(Stream) | Speichert die Daten des eingebetteten Objekts im angegebenen Stream. |
-| [Save](../../aspose.words.drawing/oleformat/save/#save_1)(string) | Speichert die Daten des eingebetteten Objekts in einer Datei mit dem angegebenen Namen. |
+| [Save](../../aspose.words.drawing/oleformat/save/#save)(*Stream*) | Speichert die Daten des eingebetteten Objekts im angegebenen Stream. |
+| [Save](../../aspose.words.drawing/oleformat/save/#save_1)(*string*) | Speichert die Daten des eingebetteten Objekts in einer Datei mit dem angegebenen Namen. |
 
-### Bemerkungen
+## Bemerkungen
 
 Benutzen Sie die[`OleFormat`](../shape/oleformat/)Eigenschaft, um auf die Daten eines OLE-Objekts zuzugreifen. Sie erstellen keine Instanzen davon`OleFormat` Klasse direkt.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie eingebettete OLE-Objekte in Dateien extrahiert werden.
 
@@ -83,5 +85,3 @@ oleFormat.Save(ArtifactsDir + "OLE spreadsheet saved directly" + oleFormat.Sugge
 
 * namensraum [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../)
-
-

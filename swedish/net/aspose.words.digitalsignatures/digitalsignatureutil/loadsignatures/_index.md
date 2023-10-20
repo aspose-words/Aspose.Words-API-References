@@ -1,12 +1,14 @@
 ---
 title: DigitalSignatureUtil.LoadSignatures
-second_title: Aspose.Words för .NET API Referens
-description: DigitalSignatureUtil metod. Laddar digitala signaturer från dokument.
+linktitle: LoadSignatures
+articleTitle: LoadSignatures
+second_title: Aspose.Words för .NET
+description: DigitalSignatureUtil LoadSignatures metod. Laddar digitala signaturer från dokument i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.digitalsignatures/digitalsignatureutil/loadsignatures/
 ---
-## LoadSignatures(string) {#loadsignatures_1}
+## LoadSignatures(*string*) {#loadsignatures_1}
 
 Laddar digitala signaturer från dokument.
 
@@ -22,7 +24,7 @@ public static DigitalSignatureCollection LoadSignatures(string fileName)
 
 Samling av digitala signaturer. Returnerar tom samling om filen inte är signerad.
 
-### Exempel
+## Exempel
 
 Visar hur man laddar signaturer från ett digitalt signerat dokument.
 
@@ -70,12 +72,12 @@ Assert.That(DigitalSignatureUtil.LoadSignatures(ArtifactsDir + "DigitalSignature
 
 * class [DigitalSignatureCollection](../../digitalsignaturecollection/)
 * class [DigitalSignatureUtil](../)
-* namnutrymme [Aspose.Words.DigitalSignatures](../../digitalsignatureutil/)
+* namnutrymme [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## LoadSignatures(Stream) {#loadsignatures}
+## LoadSignatures(*Stream*) {#loadsignatures}
 
 Laddar digitala signaturer från dokument med stream.
 
@@ -91,7 +93,7 @@ public static DigitalSignatureCollection LoadSignatures(Stream stream)
 
 Samling av digitala signaturer. Returnerar tom samling om filen inte är signerad.
 
-### Exempel
+## Exempel
 
 Visar hur man laddar signaturer från ett digitalt signerat dokument.
 
@@ -116,7 +118,5 @@ using (Stream stream = new FileStream(MyDir + "Digitally signed.docx", FileMode.
 
 * class [DigitalSignatureCollection](../../digitalsignaturecollection/)
 * class [DigitalSignatureUtil](../)
-* namnutrymme [Aspose.Words.DigitalSignatures](../../digitalsignatureutil/)
+* namnutrymme [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ExportOriginalUrlForLinkedImages
-second_title: Aspose.Words för .NET API Referens
-description: HtmlSaveOptions fast egendom. Anger om den ursprungliga webbadressen ska användas som URL för de länkade bilderna. Standardvärdet ärfalsk .
+linktitle: ExportOriginalUrlForLinkedImages
+articleTitle: ExportOriginalUrlForLinkedImages
+second_title: Aspose.Words för .NET
+description: HtmlSaveOptions ExportOriginalUrlForLinkedImages fast egendom. Anger om den ursprungliga webbadressen ska användas som URL för de länkade bilderna. Standardvärdet ärfalsk  i C#.
 type: docs
 weight: 200
 url: /sv/net/aspose.words.saving/htmlsaveoptions/exportoriginalurlforlinkedimages/
@@ -14,13 +16,13 @@ Anger om den ursprungliga webbadressen ska användas som URL för de länkade bi
 public bool ExportOriginalUrlForLinkedImages { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Om värdet är satt till`Sann`[`SourceFullName`](../../../aspose.words.drawing/imagedata/sourcefullname/) värdet används eftersom webbadressen till länkade bilder och länkade bilder inte läses in i dokumentets folder eller[`ImagesFolder`](../imagesfolder/).
 
 Om värdet är satt till`falsk`länkade bilder läses in i dokumentets folder eller[`ImagesFolder`](../imagesfolder/) och URL för varje länkad bild är konstruerad beroende på dokumentets mapp,[`ImagesFolder`](../imagesfolder/) och[`ImagesFolderAlias`](../imagesfolderalias/) egenskaper.
 
-### Exempel
+## Exempel
 
 Visar hur man ställer in mappar och mappalias för externt sparade resurser som Aspose.Words skapar när ett dokument sparas till HTML.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "HtmlSaveOptions.FolderAlias.html", options);
 ### Se även
 
 * class [HtmlSaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../htmlsaveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

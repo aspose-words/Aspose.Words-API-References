@@ -1,9 +1,11 @@
 ---
 title: CellFormat.SetPaddings
-second_title: Referencia de API de Aspose.Words para .NET
-description: CellFormat método. Establece la cantidad de espacio en puntos que se agregará a la izquierda/arriba/derecha/abajo del contenido de la celda.
+linktitle: SetPaddings
+articleTitle: SetPaddings
+second_title: Aspose.Words para .NET
+description: CellFormat SetPaddings método. Establece la cantidad de espacio en puntos que se agregará a la izquierda/arriba/derecha/abajo del contenido de la celda en C#.
 type: docs
-weight: 170
+weight: 160
 url: /es/net/aspose.words.tables/cellformat/setpaddings/
 ---
 ## CellFormat.SetPaddings method
@@ -15,7 +17,7 @@ public void SetPaddings(double leftPadding, double topPadding, double rightPaddi
     double bottomPadding)
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo rellenar el contenido de una celda con espacios en blanco.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "CellFormat.Padding.docx");
 ### Ver también
 
 * class [CellFormat](../)
-* espacio de nombres [Aspose.Words.Tables](../../cellformat/)
+* espacio de nombres [Aspose.Words.Tables](../../../aspose.words.tables/)
 * asamblea [Aspose.Words](../../../)
-
-

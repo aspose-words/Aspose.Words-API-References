@@ -1,7 +1,9 @@
 ---
 title: ImageData.ImageSize
-second_title: Aspose.Words for .NET API 参考
-description: ImageData 财产. 获取有关图像大小和分辨率的信息
+linktitle: ImageSize
+articleTitle: ImageSize
+second_title: 用于 .NET 的 Aspose.Words
+description: ImageData ImageSize 财产. 获取有关图像大小和分辨率的信息 在 C#.
 type: docs
 weight: 130
 url: /zh/net/aspose.words.drawing/imagedata/imagesize/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.drawing/imagedata/imagesize/
 public ImageSize ImageSize { get; }
 ```
 
-### 评论
+## 评论
 
 如果图像仅链接且未存储在文档中，则返回零大小。
 
-### 例子
+## 例子
 
 演示如何使用图像调整形状的大小。
 
@@ -76,7 +78,5 @@ public ImageSize ImageSize { get; }
 
 * class [ImageSize](../../imagesize/)
 * class [ImageData](../)
-* 命名空间 [Aspose.Words.Drawing](../../imagedata/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

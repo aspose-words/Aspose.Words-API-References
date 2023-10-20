@@ -1,7 +1,9 @@
 ---
 title: BuildingBlock.Type
-second_title: Aspose.Words for .NET API 参考
-description: BuildingBlock 财产. 指定构建块类型
+linktitle: Type
+articleTitle: Type
+second_title: 用于 .NET 的 Aspose.Words
+description: BuildingBlock Type 财产. 指定构建块类型 在 C#.
 type: docs
 weight: 120
 url: /zh/net/aspose.words.buildingblocks/buildingblock/type/
@@ -14,13 +16,13 @@ url: /zh/net/aspose.words.buildingblocks/buildingblock/type/
 public BuildingBlockType Type { get; set; }
 ```
 
-### 评论
+## 评论
 
 构建块类型可以影响 构建块在 Microsoft Word 中的可见性和行为。
 
-对应于 **docPartPr.类型** OOXML 中的元素。
+对应于**docPartPr.类型** OOXML 中的元素。
 
-### 例子
+## 例子
 
 演示如何将自定义构建块添加到文档中。
 
@@ -118,7 +120,5 @@ public class BuildingBlockVisitor : DocumentVisitor
 
 * enum [BuildingBlockType](../../buildingblocktype/)
 * class [BuildingBlock](../)
-* 命名空间 [Aspose.Words.BuildingBlocks](../../buildingblock/)
+* 命名空间 [Aspose.Words.BuildingBlocks](../../../aspose.words.buildingblocks/)
 * 部件 [Aspose.Words](../../../)
-
-

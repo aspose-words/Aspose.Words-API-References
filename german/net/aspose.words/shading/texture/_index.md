@@ -1,7 +1,9 @@
 ---
 title: Shading.Texture
-second_title: Aspose.Words für .NET-API-Referenz
-description: Shading eigendom. Ruft die Schattierungstextur ab oder legt sie fest.
+linktitle: Texture
+articleTitle: Texture
+second_title: Aspose.Words für .NET
+description: Shading Texture eigendom. Ruft die Schattierungstextur ab oder legt sie fest in C#.
 type: docs
 weight: 70
 url: /de/net/aspose.words/shading/texture/
@@ -14,7 +16,7 @@ Ruft die Schattierungstextur ab oder legt sie fest.
 public TextureIndex Texture { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Text mit Rändern und Schattierungen dekoriert wird.
 
@@ -42,7 +44,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.ApplyBordersAndShading.docx");
 
 * enum [TextureIndex](../../textureindex/)
 * class [Shading](../)
-* namensraum [Aspose.Words](../../shading/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

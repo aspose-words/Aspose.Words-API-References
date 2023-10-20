@@ -1,7 +1,9 @@
 ---
-title: Enum DocumentSecurity
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Properties.DocumentSecurity 枚举. 用作Securityproperty. 将文档的安全级别指定为数值
+title: DocumentSecurity Enum
+linktitle: DocumentSecurity
+articleTitle: DocumentSecurity
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Properties.DocumentSecurity 枚举. 用作Securityproperty. 将文档的安全级别指定为数值 在 C#.
 type: docs
 weight: 4490
 url: /zh/net/aspose.words.properties/documentsecurity/
@@ -25,7 +27,7 @@ public enum DocumentSecurity
 | ReadOnlyEnforced | `4` | 始终以只读方式打开的文档。 |
 | ReadOnlyExceptAnnotations | `8` | 除注释外始终以只读方式打开的文档。 |
 
-### 例子
+## 例子
 
 演示如何使用文档属性来显示文档的安全级别。
 
@@ -71,5 +73,3 @@ Assert.AreEqual(DocumentSecurity.ReadOnlyExceptAnnotations,
 
 * 命名空间 [Aspose.Words.Properties](../../aspose.words.properties/)
 * 部件 [Aspose.Words](../../)
-
-

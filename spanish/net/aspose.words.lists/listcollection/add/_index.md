@@ -1,12 +1,14 @@
 ---
 title: ListCollection.Add
-second_title: Referencia de API de Aspose.Words para .NET
-description: ListCollection método. Crea una nueva lista basada en una plantilla predefinida y la agrega a la colección de listas en el documento.
+linktitle: Add
+articleTitle: Add
+second_title: Aspose.Words para .NET
+description: ListCollection Add método. Crea una nueva lista basada en una plantilla predefinida y la agrega a la colección de listas en el documento en C#.
 type: docs
 weight: 40
 url: /es/net/aspose.words.lists/listcollection/add/
 ---
-## Add(ListTemplate) {#add}
+## Add(*[ListTemplate](../../listtemplate/)*) {#add}
 
 Crea una nueva lista basada en una plantilla predefinida y la agrega a la colección de listas en el documento.
 
@@ -22,13 +24,13 @@ public List Add(ListTemplate listTemplate)
 
 La lista recién creada.
 
-### Observaciones
+## Observaciones
 
 Las plantillas de lista Aspose.Words corresponden a las 21 plantillas de lista disponibles en el cuadro de diálogo Numeración y viñetas en Microsoft Word 2003.
 
 Todas las listas creadas con este método tienen 9 niveles de lista.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear una lista aplicando un nuevo formato de lista a una colección de párrafos.
 
@@ -147,12 +149,12 @@ doc.Save(ArtifactsDir + "Lists.SpecifyListLevel.docx");
 * class [List](../../list/)
 * enum [ListTemplate](../../listtemplate/)
 * class [ListCollection](../)
-* espacio de nombres [Aspose.Words.Lists](../../listcollection/)
+* espacio de nombres [Aspose.Words.Lists](../../../aspose.words.lists/)
 * asamblea [Aspose.Words](../../../)
 
 ---
 
-## Add(Style) {#add_1}
+## Add(*[Style](../../../aspose.words/style/)*) {#add_1}
 
 Crea una nueva lista que hace referencia a un estilo de lista y la agrega a la colección de listas en el documento.
 
@@ -168,11 +170,11 @@ public List Add(Style listStyle)
 
 La lista recién creada.
 
-### Observaciones
+## Observaciones
 
 La lista recién creada hace referencia al estilo de lista. Si cambia las propiedades del estilo list , se refleja en las propiedades de la lista. Viceversa, si cambia las propiedades de la lista, se refleja en las propiedades del estilo de lista.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear un estilo de lista y usarlo en un documento.
 
@@ -235,7 +237,5 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateAndUseListStyle.docx");
 * class [List](../../list/)
 * class [Style](../../../aspose.words/style/)
 * class [ListCollection](../)
-* espacio de nombres [Aspose.Words.Lists](../../listcollection/)
+* espacio de nombres [Aspose.Words.Lists](../../../aspose.words.lists/)
 * asamblea [Aspose.Words](../../../)
-
-

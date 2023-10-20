@@ -1,7 +1,9 @@
 ---
 title: FieldToc.EntrySeparator
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldToc свойство. Получает или задает последовательность символов разделяющую запись и номер ее страницы.
+linktitle: EntrySeparator
+articleTitle: EntrySeparator
+second_title: Aspose.Words для .NET
+description: FieldToc EntrySeparator свойство. Получает или задает последовательность символов разделяющую запись и номер ее страницы на С#.
 type: docs
 weight: 70
 url: /ru/net/aspose.words.fields/fieldtoc/entryseparator/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldtoc/entryseparator/
 public string EntrySeparator { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как вставить оглавление и заполнить его записями на основе стилей заголовков.
 
@@ -99,7 +101,5 @@ public void InsertNewPageWithHeading(DocumentBuilder builder, string captionText
 ### Смотрите также
 
 * class [FieldToc](../)
-* пространство имен [Aspose.Words.Fields](../../fieldtoc/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

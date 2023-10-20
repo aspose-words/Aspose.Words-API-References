@@ -1,7 +1,9 @@
 ---
 title: Bookmark.Text
-second_title: Aspose.Words für .NET-API-Referenz
-description: Bookmark eigendom. Ruft den im Lesezeichen eingeschlossenen Text ab oder legt diesen fest.
+linktitle: Text
+articleTitle: Text
+second_title: Aspose.Words für .NET
+description: Bookmark Text eigendom. Ruft den im Lesezeichen eingeschlossenen Text ab oder legt diesen fest in C#.
 type: docs
 weight: 70
 url: /de/net/aspose.words/bookmark/text/
@@ -14,7 +16,7 @@ Ruft den im Lesezeichen eingeschlossenen Text ab oder legt diesen fest.
 public string Text { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie Lesezeichen hinzufügen und deren Inhalte aktualisieren.
 
@@ -103,7 +105,5 @@ public class BookmarkInfoPrinter : DocumentVisitor
 ### Siehe auch
 
 * class [Bookmark](../)
-* namensraum [Aspose.Words](../../bookmark/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

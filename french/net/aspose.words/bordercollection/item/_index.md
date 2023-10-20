@@ -1,7 +1,9 @@
 ---
 title: BorderCollection.Item
-second_title: Référence de l'API Aspose.Words pour .NET
-description: BorderCollection propriété. Récupère unBorder objet par type de bordure.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words pour .NET
+description: BorderCollection Item propriété. Récupère unBorder objet par type de bordure en C#.
 type: docs
 weight: 60
 url: /fr/net/aspose.words/bordercollection/item/
@@ -18,11 +20,11 @@ public Border this[BorderType borderType] { get; }
 | --- | --- |
 | borderType | UN[`BorderType`](../../bordertype/) value qui spécifie le type de bordure à récupérer. |
 
-### Remarques
+## Remarques
 
 Notez que toutes les bordures ne sont pas présentes pour les différents éléments du document. Cette méthode lève une exception si vous demandez une bordure non applicable à l'objet actuel.
 
-### Exemples
+## Exemples
 
 Montre comment décorer du texte avec des bordures et des ombrages.
 
@@ -51,7 +53,7 @@ doc.Save(ArtifactsDir + "DocumentBuilder.ApplyBordersAndShading.docx");
 * class [Border](../../border/)
 * enum [BorderType](../../bordertype/)
 * class [BorderCollection](../)
-* espace de noms [Aspose.Words](../../bordercollection/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
 
 ---
@@ -68,7 +70,7 @@ public Border this[int index] { get; }
 | --- | --- |
 | index | Index de base zéro de la bordure à récupérer. |
 
-### Exemples
+## Exemples
 
 Montre comment les collections de bordures peuvent partager des éléments.
 
@@ -111,7 +113,5 @@ doc.Save(ArtifactsDir + "Border.SharedElements.docx");
 
 * class [Border](../../border/)
 * class [BorderCollection](../)
-* espace de noms [Aspose.Words](../../bordercollection/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

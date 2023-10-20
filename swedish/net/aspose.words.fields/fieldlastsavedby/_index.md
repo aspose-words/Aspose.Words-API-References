@@ -1,7 +1,9 @@
 ---
-title: Class FieldLastSavedBy
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Fields.FieldLastSavedBy klass. Implementerar fältet LASTSAVEDBY.
+title: FieldLastSavedBy Class
+linktitle: FieldLastSavedBy
+articleTitle: FieldLastSavedBy
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Fields.FieldLastSavedBy klass. Implementerar fältet LASTSAVEDBY i C#.
 type: docs
 weight: 2100
 url: /sv/net/aspose.words.fields/fieldlastsavedby/
@@ -42,17 +44,17 @@ public class FieldLastSavedBy : Field
 | namn | Beskrivning |
 | --- | --- |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Returnerar text mellan fältstart och fältavgränsare (eller fältslut om det inte finns någon avgränsare). Både fältkod och fältresultat för underordnade fält ingår. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Returnerar text mellan fältstart och fältavgränsare (eller fältslut om det inte finns någon avgränsare). |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | Returnerar text mellan fältstart och fältavgränsare (eller fältslut om det inte finns någon avgränsare). |
 | [Remove](../../aspose.words.fields/field/remove/)() | Tar bort fältet från dokumentet. Returnerar en nod direkt efter fältet. Om fältets slut är den sista child av dess överordnade nod, returnerar dess överordnade stycke. Om fältet redan är borttaget, returneras`null` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | Utför fältavlänkningen. |
 | [Update](../../aspose.words.fields/field/update/)() | Utför fältuppdateringen. Kastar om fältet redan uppdateras. |
-| [Update](../../aspose.words.fields/field/update/)(bool) | Utför en fältuppdatering. Kastar om fältet redan uppdateras. |
+| [Update](../../aspose.words.fields/field/update/)(*bool*) | Utför en fältuppdatering. Kastar om fältet redan uppdateras. |
 
-### Anmärkningar
+## Anmärkningar
 
-Hämtar namnet på den användare som senast ändrade och sparade det aktuella dokumentet, som registrerats i **LastModifiedBy** egenskapen för de inbyggda dokumentegenskaperna.
+Hämtar namnet på den användare som senast ändrade och sparade det aktuella dokumentet, som registrerats i**LastModifiedBy** egenskapen för de inbyggda dokumentegenskaperna.
 
-### Exempel
+## Exempel
 
 Visar hur man använder fältet LASTSAVEDBY.
 
@@ -78,5 +80,3 @@ doc.Save(ArtifactsDir + "Field.LASTSAVEDBY.docx");
 * class [Field](../field/)
 * namnutrymme [Aspose.Words.Fields](../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../)
-
-

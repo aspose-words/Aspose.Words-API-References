@@ -1,7 +1,9 @@
 ---
 title: FieldTA.ShortCitation
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldTA свойство. Получает или задает краткую ссылку на запись.
+linktitle: ShortCitation
+articleTitle: ShortCitation
+second_title: Aspose.Words для .NET
+description: FieldTA ShortCitation свойство. Получает или задает краткую ссылку на запись на С#.
 type: docs
 weight: 70
 url: /ru/net/aspose.words.fields/fieldta/shortcitation/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldta/shortcitation/
 public string ShortCitation { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как построить и настроить таблицу авторитетов, используя поля TOA и TA.
 
@@ -137,7 +139,5 @@ private static FieldTA InsertToaEntry(DocumentBuilder builder, string entryCateg
 ### Смотрите также
 
 * class [FieldTA](../)
-* пространство имен [Aspose.Words.Fields](../../fieldta/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

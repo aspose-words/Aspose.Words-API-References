@@ -1,7 +1,9 @@
 ---
 title: FieldIncludePicture.GraphicFilter
-second_title: Aspose.Words för .NET API Referens
-description: FieldIncludePicture fast egendom. Hämtar eller ställer in namnet på filtret för formatet på grafiken som ska infogas.
+linktitle: GraphicFilter
+articleTitle: GraphicFilter
+second_title: Aspose.Words för .NET
+description: FieldIncludePicture GraphicFilter fast egendom. Hämtar eller ställer in namnet på filtret för formatet på grafiken som ska infogas i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.fields/fieldincludepicture/graphicfilter/
@@ -14,7 +16,7 @@ Hämtar eller ställer in namnet på filtret för formatet på grafiken som ska 
 public string GraphicFilter { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man infogar bilder med hjälp av IMPORT- och INCLUDEPICTURE-fälten.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "Field.IMPORT.INCLUDEPICTURE.docx");
 ### Se även
 
 * class [FieldIncludePicture](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldincludepicture/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,12 +1,14 @@
 ---
 title: Aspose.Words.Rendering
-second_title: Aspose.Words لمراجع .NET API
-description: ال Aspose.Words.Rendering توفر مساحة الاسم فئات تسمح بتخصيص طباعة المستندات أو عرضها.
+linktitle: Aspose.Words.Rendering
+articleTitle: Aspose.Words.Rendering
+second_title: Aspose.Words لـ .NET
+description: الAspose.Words.Rendering توفر مساحة الاسم فئات تسمح بتخصيص طباعة المستندات أو عرضها في C#.
 type: docs
 weight: 200
 url: /ar/net/aspose.words.rendering/
 ---
-ال **Aspose.Words.Rendering** توفر مساحة الاسم فئات تسمح بتخصيص طباعة المستندات أو عرضها.
+ال**Aspose.Words.Rendering** توفر مساحة الاسم فئات تسمح بتخصيص طباعة المستندات أو عرضها.
 
 ## الطبقات
 
@@ -24,5 +26,3 @@ url: /ar/net/aspose.words.rendering/
 | تعداد | وصف |
 | --- | --- |
 | [ColorPrintMode](./colorprintmode/) | يحدد كيفية طباعة الصفحات غير الملونة إذا كان الجهاز يدعم الطباعة الملونة. |
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum GradientVariant
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Drawing.GradientVariant opsomming. Gibt die Variante für eine Verlaufsfüllung an.
+title: GradientVariant Enum
+linktitle: GradientVariant
+articleTitle: GradientVariant
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Drawing.GradientVariant opsomming. Gibt die Variante für eine Verlaufsfüllung an in C#.
 type: docs
 weight: 1010
 url: /de/net/aspose.words.drawing/gradientvariant/
@@ -24,11 +26,11 @@ public enum GradientVariant
 | Variant3 | `3` | Verlaufsvariante 3. |
 | Variant4 | `4` | Verlaufsvariante 4. |
 
-### Bemerkungen
+## Bemerkungen
 
 Entspricht den vier Varianten auf der Registerkarte „Verlauf“ im Dialogfeld „Fülleffekte“ in Word.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie eine Form mit Farbverläufen gefüllt wird.
 
@@ -70,5 +72,3 @@ doc.Save(ArtifactsDir + "Shape.GradientFill.docx", saveOptions);
 
 * namensraum [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../)
-
-

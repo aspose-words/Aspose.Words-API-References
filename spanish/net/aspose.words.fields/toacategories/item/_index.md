@@ -1,7 +1,9 @@
 ---
 title: ToaCategories.Item
-second_title: Referencia de API de Aspose.Words para .NET
-description: ToaCategories propiedad. Obtiene o establece el encabezado de categoría por número de categoría.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words para .NET
+description: ToaCategories Item propiedad. Obtiene o establece el encabezado de categoría por número de categoría en C#.
 type: docs
 weight: 30
 url: /es/net/aspose.words.fields/toacategories/item/
@@ -14,7 +16,7 @@ Obtiene o establece el encabezado de categoría por número de categoría.
 public string this[int number] { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo especificar un conjunto de categorías para campos TOA.
 
@@ -62,7 +64,5 @@ doc.Save(ArtifactsDir + "FieldOptions.TOA.Categories.docx");
 ### Ver también
 
 * class [ToaCategories](../)
-* espacio de nombres [Aspose.Words.Fields](../../toacategories/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: OdsoRecipientData.Hash
-second_title: Aspose.Words für .NET-API-Referenz
-description: OdsoRecipientData eigendom. Stellt den Hashcode für diesen Datensatz dar. Manchmal verwendet Microsoft WordHash eines ganzen Datensatzes statt einesUniqueTag value. Der Standardwert ist 0.
+linktitle: Hash
+articleTitle: Hash
+second_title: Aspose.Words für .NET
+description: OdsoRecipientData Hash eigendom. Stellt den Hashcode für diesen Datensatz dar. Manchmal verwendet Microsoft WordHash eines ganzen Datensatzes statt einesUniqueTag value. Der Standardwert ist 0 in C#.
 type: docs
 weight: 40
 url: /de/net/aspose.words.settings/odsorecipientdata/hash/
@@ -14,7 +16,7 @@ Stellt den Hashcode für diesen Datensatz dar. Manchmal verwendet Microsoft Word
 public int Hash { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie auf die Datensammlung zugegriffen wird, die angibt, welche Zusammenführungsdatenquellendatensätze von einem Serienbrief ausgeschlossen werden.
 
@@ -54,7 +56,5 @@ Assert.AreEqual(0, dataCollection.Count);
 ### Siehe auch
 
 * class [OdsoRecipientData](../)
-* namensraum [Aspose.Words.Settings](../../odsorecipientdata/)
+* namensraum [Aspose.Words.Settings](../../../aspose.words.settings/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,9 +1,11 @@
 ---
 title: Section.PrependContent
-second_title: Aspose.Words für .NET-API-Referenz
-description: Section methode. Fügt eine Kopie des Inhalts des Quellabschnitts am Anfang dieses Abschnitts ein.
+linktitle: PrependContent
+articleTitle: PrependContent
+second_title: Aspose.Words für .NET
+description: Section PrependContent methode. Fügt eine Kopie des Inhalts des Quellabschnitts am Anfang dieses Abschnitts ein in C#.
 type: docs
-weight: 160
+weight: 140
 url: /de/net/aspose.words/section/prependcontent/
 ---
 ## Section.PrependContent method
@@ -18,7 +20,7 @@ public void PrependContent(Section sourceSection)
 | --- | --- | --- |
 | sourceSection | Section | Der Abschnitt, aus dem Inhalte kopiert werden sollen. |
 
-### Bemerkungen
+## Bemerkungen
 
 Nur Inhalt von[`Body`](../body/) des Quellabschnitts wird kopiert, Seiteneinrichtung, Kopf- und Fußzeilen werden nicht kopiert.
 
@@ -26,7 +28,7 @@ Die Knoten werden automatisch importiert, wenn der Quellabschnitt zu einem ander
 
 Im Zieldokument wird kein neuer Abschnitt erstellt.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie der Inhalt eines Abschnitts an einen anderen Abschnitt angehängt wird.
 
@@ -62,7 +64,5 @@ Assert.AreEqual("Section 1" + ControlChar.ParagraphBreak +
 ### Siehe auch
 
 * class [Section](../)
-* namensraum [Aspose.Words](../../section/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

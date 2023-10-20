@@ -1,7 +1,9 @@
 ---
-title: Class BookmarkEnd
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.BookmarkEnd clase. Representa el final de un marcador en un documento de Word.
+title: BookmarkEnd Class
+linktitle: BookmarkEnd
+articleTitle: BookmarkEnd
+second_title: Aspose.Words para .NET
+description: Aspose.Words.BookmarkEnd clase. Representa el final de un marcador en un documento de Word en C#.
 type: docs
 weight: 60
 url: /es/net/aspose.words/bookmarkend/
@@ -20,7 +22,7 @@ public class BookmarkEnd : Node
 
 | Nombre | Descripción |
 | --- | --- |
-| [BookmarkEnd](bookmarkend/)(DocumentBase, string) | Inicializa una nueva instancia del`BookmarkEnd` clase. |
+| [BookmarkEnd](bookmarkend/)(*[DocumentBase](../documentbase/), string*) | Inicializa una nueva instancia del`BookmarkEnd` clase. |
 
 ## Propiedades
 
@@ -40,18 +42,18 @@ public class BookmarkEnd : Node
 
 | Nombre | Descripción |
 | --- | --- |
-| override [Accept](../../aspose.words/bookmarkend/accept/)(DocumentVisitor) | Acepta un visitante. |
-| [Clone](../../aspose.words/node/clone/)(bool) | Crea un duplicado del nodo. |
-| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Obtiene el primer ancestro del especificado[`NodeType`](../nodetype/) . |
-| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Obtiene el primer antepasado del tipo de objeto especificado. |
+| override [Accept](../../aspose.words/bookmarkend/accept/)(*[DocumentVisitor](../documentvisitor/)*) | Acepta un visitante. |
+| [Clone](../../aspose.words/node/clone/)(*bool*) | Crea un duplicado del nodo. |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*[NodeType](../nodetype/)*) | Obtiene el primer ancestro del especificado[`NodeType`](../nodetype/) . |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | Obtiene el primer antepasado del tipo de objeto especificado. |
 | virtual [GetText](../../aspose.words/node/gettext/)() | Obtiene el texto de este nodo y de todos sus hijos. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Obtiene el siguiente nodo según el algoritmo transversal del árbol de pedidos anticipados. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Obtiene el nodo anterior según el algoritmo transversal del árbol de pedidos anticipados. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../node/)*) | Obtiene el siguiente nodo según el algoritmo transversal del árbol de pedidos anticipados. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../node/)*) | Obtiene el nodo anterior según el algoritmo transversal del árbol de pedidos anticipados. |
 | [Remove](../../aspose.words/node/remove/)() | Se elimina del padre. |
-| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Exporta el contenido del nodo a una cadena en el formato especificado. |
-| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | Exporta el contenido del nodo a una cadena usando las opciones de guardado especificadas. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../saveformat/)*) | Exporta el contenido del nodo a una cadena en el formato especificado. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | Exporta el contenido del nodo a una cadena usando las opciones de guardado especificadas. |
 
-### Observaciones
+## Observaciones
 
 Un marcador completo en un documento de Word consta de un[`BookmarkStart`](../bookmarkstart/) y una coincidencia`BookmarkEnd` con el mismo nombre de marcador.
 
@@ -59,7 +61,7 @@ Un marcador completo en un documento de Word consta de un[`BookmarkStart`](../bo
 
 Utilizar el[`Bookmark`](../bookmark/) clase como "fachada" para trabajar con un bookmark como un solo objeto.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo agregar marcadores y actualizar su contenido.
 
@@ -150,5 +152,3 @@ public class BookmarkInfoPrinter : DocumentVisitor
 * class [Node](../node/)
 * espacio de nombres [Aspose.Words](../../aspose.words/)
 * asamblea [Aspose.Words](../../)
-
-

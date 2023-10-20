@@ -1,26 +1,28 @@
 ---
 title: StructuredDocumentTag.CalendarType
-second_title: Référence de l'API Aspose.Words pour .NET
-description: StructuredDocumentTag propriété. Spécifie le type de calendrier pour cela TSD . La valeur par défaut estDefault
+linktitle: CalendarType
+articleTitle: CalendarType
+second_title: Aspose.Words pour .NET
+description: StructuredDocumentTag CalendarType propriété. Spécifie le type de calendrier pour celaTSD . La valeur par défaut estDefault en C#.
 type: docs
 weight: 50
 url: /fr/net/aspose.words.markup/structureddocumenttag/calendartype/
 ---
 ## StructuredDocumentTag.CalendarType property
 
-Spécifie le type de calendrier pour cela **TSD** . La valeur par défaut estDefault
+Spécifie le type de calendrier pour cela**TSD** . La valeur par défaut estDefault
 
 ```csharp
 public SdtCalendarType CalendarType { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 L'accès à cette propriété ne fonctionnera que pourDate Type SDT.
 
 Pour tous les autres types de SDT, une exception se produira.
 
-### Exemples
+## Exemples
 
 Montre comment inviter l'utilisateur à saisir une date avec une balise de document structuré.
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.Date.docx");
 
 * enum [SdtCalendarType](../../sdtcalendartype/)
 * class [StructuredDocumentTag](../)
-* espace de noms [Aspose.Words.Markup](../../structureddocumenttag/)
+* espace de noms [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Assemblée [Aspose.Words](../../../)
-
-

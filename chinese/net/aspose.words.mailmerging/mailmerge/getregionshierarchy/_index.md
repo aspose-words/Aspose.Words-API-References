@@ -1,7 +1,9 @@
 ---
 title: MailMerge.GetRegionsHierarchy
-second_title: Aspose.Words for .NET API 参考
-description: MailMerge 方法. 返回文档中可用区域带字段的完整层次结构
+linktitle: GetRegionsHierarchy
+articleTitle: GetRegionsHierarchy
+second_title: 用于 .NET 的 Aspose.Words
+description: MailMerge GetRegionsHierarchy 方法. 返回文档中可用区域带字段的完整层次结构 在 C#.
 type: docs
 weight: 250
 url: /zh/net/aspose.words.mailmerging/mailmerge/getregionshierarchy/
@@ -18,11 +20,11 @@ public MailMergeRegionInfo GetRegionsHierarchy()
 
 区域的等级制度。
 
-### 评论
+## 评论
 
 层次结构以以下形式返回[`MailMergeRegionInfo`](../../mailmergeregioninfo/)班级。
 
-### 例子
+## 例子
 
 演示如何验证邮件合并区域。
 
@@ -68,7 +70,5 @@ Assert.AreEqual("TableEnd:NestedRegion1", endFieldMergeField.FieldName);
 
 * class [MailMergeRegionInfo](../../mailmergeregioninfo/)
 * class [MailMerge](../)
-* 命名空间 [Aspose.Words.MailMerging](../../mailmerge/)
+* 命名空间 [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * 部件 [Aspose.Words](../../../)
-
-

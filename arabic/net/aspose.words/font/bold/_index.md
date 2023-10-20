@@ -1,7 +1,9 @@
 ---
 title: Font.Bold
-second_title: Aspose.Words لمراجع .NET API
-description: Font ملكية. صحيح إذا كان الخط منسقًا بالخط الغامق.
+linktitle: Bold
+articleTitle: Bold
+second_title: Aspose.Words لـ .NET
+description: Font Bold ملكية. صحيح إذا كان الخط منسقًا بالخط الغامق في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words/font/bold/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/font/bold/
 public bool Bold { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج نص منسق باستخدام DocumentBuilder.
 
@@ -36,7 +38,5 @@ builder.Write("Hello world!");
 ### أنظر أيضا
 
 * class [Font](../)
-* مساحة الاسم [Aspose.Words](../../font/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

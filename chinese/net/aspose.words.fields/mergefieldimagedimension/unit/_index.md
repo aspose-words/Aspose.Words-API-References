@@ -1,7 +1,9 @@
 ---
 title: MergeFieldImageDimension.Unit
-second_title: Aspose.Words for .NET API 参考
-description: MergeFieldImageDimension 财产. 单位.
+linktitle: Unit
+articleTitle: Unit
+second_title: 用于 .NET 的 Aspose.Words
+description: MergeFieldImageDimension Unit 财产. 单位 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.fields/mergefieldimagedimension/unit/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/mergefieldimagedimension/unit/
 public MergeFieldImageDimensionUnit Unit { get; set; }
 ```
 
-### 例子
+## 例子
 
 展示如何在 MERGEFIELDS 在邮件合并期间接受图像时设置图像尺寸。
 
@@ -85,7 +87,5 @@ private class MergedImageResizer : IFieldMergingCallback
 
 * enum [MergeFieldImageDimensionUnit](../../mergefieldimagedimensionunit/)
 * class [MergeFieldImageDimension](../)
-* 命名空间 [Aspose.Words.Fields](../../mergefieldimagedimension/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

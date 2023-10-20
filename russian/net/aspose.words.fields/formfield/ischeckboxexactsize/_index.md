@@ -1,7 +1,9 @@
 ---
 title: FormField.IsCheckBoxExactSize
-second_title: Справочник по API Aspose.Words для .NET
-description: FormField свойство. Получает или задает логическое значение указывающее является ли размер текстового поля автоматическим или заданным явно.
+linktitle: IsCheckBoxExactSize
+articleTitle: IsCheckBoxExactSize
+second_title: Aspose.Words для .NET
+description: FormField IsCheckBoxExactSize свойство. Получает или задает логическое значение указывающее является ли размер текстового поля автоматическим или заданным явно на С#.
 type: docs
 weight: 110
 url: /ru/net/aspose.words.fields/formfield/ischeckboxexactsize/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.fields/formfield/ischeckboxexactsize/
 public bool IsCheckBoxExactSize { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Применимо только для поля формы флажка.
 
-### Примеры
+## Примеры
 
 Показывает, как вставлять в документ различные типы полей формы и обрабатывать их с помощью реализации посетителя документа.
 
@@ -152,7 +154,5 @@ public class FormFieldVisitor : DocumentVisitor
 ### Смотрите также
 
 * class [FormField](../)
-* пространство имен [Aspose.Words.Fields](../../formfield/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ExportXhtmlTransitional
-second_title: Aspose.Words for .NET API 参考
-description: HtmlSaveOptions 财产. 指定保存为 HTML 或 MHTML 时是否写入 DOCTYPE 声明 当真的在文档中的根元素之前写入 DOCTYPE 声明 默认值为错误的. 保存到 EPUB 或 HTML5 时Html5  始终写入 DOCTYPE 声明
+linktitle: ExportXhtmlTransitional
+articleTitle: ExportXhtmlTransitional
+second_title: 用于 .NET 的 Aspose.Words
+description: HtmlSaveOptions ExportXhtmlTransitional 财产. 指定保存为 HTML 或 MHTML 时是否写入 DOCTYPE 声明 当真的在文档中的根元素之前写入 DOCTYPE 声明 默认值为错误的. 保存到 EPUB 或 HTML5 时Html5  始终写入 DOCTYPE 声明 在 C#.
 type: docs
 weight: 280
 url: /zh/net/aspose.words.saving/htmlsaveoptions/exportxhtmltransitional/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.saving/htmlsaveoptions/exportxhtmltransitional/
 public bool ExportXhtmlTransitional { get; set; }
 ```
 
-### 评论
+## 评论
 
 无论此设置如何，Aspose.Words 始终会编写格式良好的 HTML。
 
@@ -30,7 +32,7 @@ Aspose.Words 旨在根据 XHTML 1.0 Transitional 规范 输出 XHTML，但输出
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 ```
 
-### 例子
+## 例子
 
 演示将文档转换为 Xhtml 1.0 过渡标准时如何显示 DOCTYPE 标题。
 
@@ -64,7 +66,5 @@ else
 ### 也可以看看
 
 * class [HtmlSaveOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../htmlsaveoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Forms2OleControl.Value
-second_title: Справочник по API Aspose.Words для .NET
-description: Forms2OleControl свойство. Получает базовое свойство Value которое часто представляет состояние элемента управления. Например отмеченная кнопка выбора имеет значение 1 а неотмеченная  0. Значение по умолчанию  пустая строка.
+linktitle: Value
+articleTitle: Value
+second_title: Aspose.Words для .NET
+description: Forms2OleControl Value свойство. Получает базовое свойство Value которое часто представляет состояние элемента управления. Например отмеченная кнопка выбора имеет значение 1 а неотмеченная  0. Значение по умолчанию  пустая строка на С#.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.drawing.ole/forms2olecontrol/value/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.drawing.ole/forms2olecontrol/value/
 public string Value { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как проверить свойства элемента управления ActiveX.
 
@@ -44,7 +46,5 @@ if (oleControl.IsForms2OleControl)
 ### Смотрите также
 
 * class [Forms2OleControl](../)
-* пространство имен [Aspose.Words.Drawing.Ole](../../forms2olecontrol/)
+* пространство имен [Aspose.Words.Drawing.Ole](../../../aspose.words.drawing.ole/)
 * сборка [Aspose.Words](../../../)
-
-

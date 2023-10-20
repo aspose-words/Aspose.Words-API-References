@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitGroupShapeEnd
-second_title: Referencia de API de Aspose.Words para .NET
-description: DocumentVisitor método. Se llama cuando finaliza la enumeración de una forma de grupo.
+linktitle: VisitGroupShapeEnd
+articleTitle: VisitGroupShapeEnd
+second_title: Aspose.Words para .NET
+description: DocumentVisitor VisitGroupShapeEnd método. Se llama cuando finaliza la enumeración de una forma de grupo en C#.
 type: docs
 weight: 260
 url: /es/net/aspose.words/documentvisitor/visitgroupshapeend/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitGroupShapeEnd(GroupShape groupShape)
 
 A[`VisitorAction`](../../visitoraction/) valor que especifica cómo continuar la enumeración.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear un grupo de formas e imprimir su contenido utilizando un visitante de documentos.
 
@@ -115,7 +117,5 @@ public class ShapeGroupPrinter : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [GroupShape](../../../aspose.words.drawing/groupshape/)
 * class [DocumentVisitor](../)
-* espacio de nombres [Aspose.Words](../../documentvisitor/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

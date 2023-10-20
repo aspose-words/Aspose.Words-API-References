@@ -1,7 +1,9 @@
 ---
 title: FieldIncludeText.NamespaceMappings
-second_title: Aspose.Words for .NET API 参考
-description: FieldIncludeText 财产. 获取或设置 XPath 查询的命名空间映射
+linktitle: NamespaceMappings
+articleTitle: NamespaceMappings
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldIncludeText NamespaceMappings 财产. 获取或设置 XPath 查询的命名空间映射 在 C#.
 type: docs
 weight: 60
 url: /zh/net/aspose.words.fields/fieldincludetext/namespacemappings/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fieldincludetext/namespacemappings/
 public string NamespaceMappings { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何创建 INCLUDETEXT 字段并设置其属性。
 
@@ -59,7 +61,5 @@ public FieldIncludeText CreateFieldIncludeText(DocumentBuilder builder, string s
 ### 也可以看看
 
 * class [FieldIncludeText](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldincludetext/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

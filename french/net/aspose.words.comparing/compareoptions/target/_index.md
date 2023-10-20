@@ -1,7 +1,9 @@
 ---
 title: CompareOptions.Target
-second_title: Référence de l'API Aspose.Words pour .NET
-description: CompareOptions propriété. Spécifie quel document doit être utilisé comme cible lors de la comparaison.
+linktitle: Target
+articleTitle: Target
+second_title: Aspose.Words pour .NET
+description: CompareOptions Target propriété. Spécifie quel document doit être utilisé comme cible lors de la comparaison en C#.
 type: docs
 weight: 130
 url: /fr/net/aspose.words.comparing/compareoptions/target/
@@ -14,7 +16,7 @@ Spécifie quel document doit être utilisé comme cible lors de la comparaison.
 public ComparisonTargetType Target { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment filtrer des types spécifiques d’éléments de document lors d’une comparaison.
 
@@ -89,7 +91,5 @@ docOriginal.Save(ArtifactsDir + "Document.CompareOptions.docx");
 
 * enum [ComparisonTargetType](../../comparisontargettype/)
 * class [CompareOptions](../)
-* espace de noms [Aspose.Words.Comparing](../../compareoptions/)
+* espace de noms [Aspose.Words.Comparing](../../../aspose.words.comparing/)
 * Assemblée [Aspose.Words](../../../)
-
-

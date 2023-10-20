@@ -1,14 +1,16 @@
 ---
 title: CertificateHolder.Certificate
-second_title: Aspose.Words för .NET API Referens
-description: CertificateHolder fast egendom. Returnerar instansen av X509Certifikat2 som har privata offentliga nycklar och certifikatkedja.
+linktitle: Certificate
+articleTitle: Certificate
+second_title: Aspose.Words för .NET
+description: CertificateHolder Certificate fast egendom. Returnerar instansen avX509Certifikat2 som har privata offentliga nycklar och certifikatkedja i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.digitalsignatures/certificateholder/certificate/
 ---
 ## CertificateHolder.Certificate property
 
-Returnerar instansen av **X509Certifikat2** som har privata, offentliga nycklar och certifikatkedja.
+Returnerar instansen av**X509Certifikat2** som har privata, offentliga nycklar och certifikatkedja.
 
 ```csharp
 public X509Certificate2 Certificate { get; }
@@ -18,7 +20,7 @@ public X509Certificate2 Certificate { get; }
 
 X509Certificate2 exempel
 
-### Exempel
+## Exempel
 
 Visar hur man validerar och visar information om varje signatur i ett dokument.
 
@@ -40,7 +42,5 @@ foreach (DigitalSignature signature in doc.DigitalSignatures)
 ### Se även
 
 * class [CertificateHolder](../)
-* namnutrymme [Aspose.Words.DigitalSignatures](../../certificateholder/)
+* namnutrymme [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * hopsättning [Aspose.Words](../../../)
-
-

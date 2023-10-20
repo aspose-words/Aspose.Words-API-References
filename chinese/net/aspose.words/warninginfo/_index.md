@@ -1,7 +1,9 @@
 ---
-title: Class WarningInfo
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.WarningInfo 班级. 包含有关 Aspose.Words 在文档加载或保存期间发出的警告的信息
+title: WarningInfo Class
+linktitle: WarningInfo
+articleTitle: WarningInfo
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.WarningInfo 班级. 包含有关 Aspose.Words 在文档加载或保存期间发出的警告的信息 在 C#.
 type: docs
 weight: 6630
 url: /zh/net/aspose.words/warninginfo/
@@ -24,11 +26,11 @@ public class WarningInfo
 | [Source](../../aspose.words/warninginfo/source/) { get; } | 返回警告的来源。 |
 | [WarningType](../../aspose.words/warninginfo/warningtype/) { get; } | 返回警告的类型。 |
 
-### 评论
+## 评论
 
 您不创建此类的实例。此类的对象被创建 并由Aspose.Words传递到[`Warning`](../iwarningcallback/warning/)方法。
 
-### 例子
+## 例子
 
 演示如何设置属性以从可用字体源中查找缺失字体的最接近匹配项。
 
@@ -89,5 +91,3 @@ public class HandleDocumentSubstitutionWarnings : IWarningCallback
 
 * 命名空间 [Aspose.Words](../../aspose.words/)
 * 部件 [Aspose.Words](../../)
-
-

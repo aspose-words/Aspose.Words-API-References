@@ -1,7 +1,9 @@
 ---
-title: Class Stroke
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Drawing.Stroke فصل. يحدد حد الشكل.
+title: Stroke Class
+linktitle: Stroke
+articleTitle: Stroke
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Drawing.Stroke فصل. يحدد حد الشكل في C#.
 type: docs
 weight: 1310
 url: /ar/net/aspose.words.drawing/stroke/
@@ -21,7 +23,6 @@ public class Stroke
 | اسم | وصف |
 | --- | --- |
 | [BackColor](../../aspose.words.drawing/stroke/backcolor/) { get; set; } | الحصول على أو تعيين لون خلفية الحد. |
-| [BaseForeColor](../../aspose.words.drawing/stroke/baseforecolor/) { get; } |  |
 | [Color](../../aspose.words.drawing/stroke/color/) { get; set; } | يحدد لون الحد. |
 | [Color2](../../aspose.words.drawing/stroke/color2/) { get; set; } | يحدد اللون الثاني للحد. |
 | [DashStyle](../../aspose.words.drawing/stroke/dashstyle/) { get; set; } | يحدد نمط النقطة والشرطة للحد. |
@@ -43,11 +44,11 @@ public class Stroke
 | [Visible](../../aspose.words.drawing/stroke/visible/) { get; set; } | الحصول على أو تعيين علامة تشير إلى ما إذا كانت الحدود مرئية أم لا. |
 | [Weight](../../aspose.words.drawing/stroke/weight/) { get; set; } | يحدد سمك الفرشاة الذي يحدد مسار الشكل بالنقاط. |
 
-### ملاحظات
+## ملاحظات
 
 استخدم ال[`Stroke`](../shape/stroke/) الخاصية للوصول إلى خصائص حد الشكل. لا تقم بإنشاء مثيلات لل`Stroke` الصف مباشرة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تغيير خصائص السكتة الدماغية.
 
@@ -81,5 +82,3 @@ doc.Save(ArtifactsDir + "Shape.Stroke.docx");
 
 * مساحة الاسم [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabelCollection.ShowValue
-second_title: Aspose.Words لمراجع .NET API
-description: ChartDataLabelCollection ملكية. يسمح بتحديد ما إذا كان سيتم عرض القيم في تسميات البيانات للسلسلة بأكملها. القيمة الافتراضية هيخطأ شنيع .
+linktitle: ShowValue
+articleTitle: ShowValue
+second_title: Aspose.Words لـ .NET
+description: ChartDataLabelCollection ShowValue ملكية. يسمح بتحديد ما إذا كان سيتم عرض القيم في تسميات البيانات للسلسلة بأكملها. القيمة الافتراضية هيخطأ شنيع  في C#.
 type: docs
 weight: 140
 url: /ar/net/aspose.words.drawing.charts/chartdatalabelcollection/showvalue/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.drawing.charts/chartdatalabelcollection/showvalue/
 public bool ShowValue { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 يمكن تجاوز القيمة المحددة لهذه الخاصية لتسمية بيانات فردية باستخدام [`ShowValue`](../../chartdatalabel/showvalue/) الملكية.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التعامل مع تسميات البيانات الخاصة بالمخطط الدائري.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "Charts.DataLabelsPieChart.docx");
 ### أنظر أيضا
 
 * class [ChartDataLabelCollection](../)
-* مساحة الاسم [Aspose.Words.Drawing.Charts](../../chartdatalabelcollection/)
+* مساحة الاسم [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../../)
-
-

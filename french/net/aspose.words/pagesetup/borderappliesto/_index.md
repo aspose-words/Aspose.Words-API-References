@@ -1,7 +1,9 @@
 ---
 title: PageSetup.BorderAppliesTo
-second_title: Référence de l'API Aspose.Words pour .NET
-description: PageSetup propriété. Spécifie sur quelles pages la bordure de page est imprimée.
+linktitle: BorderAppliesTo
+articleTitle: BorderAppliesTo
+second_title: Aspose.Words pour .NET
+description: PageSetup BorderAppliesTo propriété. Spécifie sur quelles pages la bordure de page est imprimée en C#.
 type: docs
 weight: 30
 url: /fr/net/aspose.words/pagesetup/borderappliesto/
@@ -14,7 +16,7 @@ Spécifie sur quelles pages la bordure de page est imprimée.
 public PageBorderAppliesTo BorderAppliesTo { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment créer une large bordure bleue en haut de la première page.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "PageSetup.PageBorderProperties.docx");
 
 * enum [PageBorderAppliesTo](../../pageborderappliesto/)
 * class [PageSetup](../)
-* espace de noms [Aspose.Words](../../pagesetup/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

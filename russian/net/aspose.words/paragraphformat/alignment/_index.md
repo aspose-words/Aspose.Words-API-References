@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.Alignment
-second_title: Справочник по API Aspose.Words для .NET
-description: ParagraphFormat свойство. Получает или задает выравнивание текста для абзаца.
+linktitle: Alignment
+articleTitle: Alignment
+second_title: Aspose.Words для .NET
+description: ParagraphFormat Alignment свойство. Получает или задает выравнивание текста для абзаца на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words/paragraphformat/alignment/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/paragraphformat/alignment/
 public ParagraphAlignment Alignment { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как вставить абзац в документ.
 
@@ -92,7 +94,5 @@ doc.Save(ArtifactsDir + "Section.CreateManually.docx");
 
 * enum [ParagraphAlignment](../../paragraphalignment/)
 * class [ParagraphFormat](../)
-* пространство имен [Aspose.Words](../../paragraphformat/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

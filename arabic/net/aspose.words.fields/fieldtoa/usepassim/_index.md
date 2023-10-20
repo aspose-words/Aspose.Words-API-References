@@ -1,7 +1,9 @@
 ---
 title: FieldToa.UsePassim
-second_title: Aspose.Words لمراجع .NET API
-description: FieldToa ملكية. الحصول على أو تعيين ما إذا كان سيتم استبدال خمسة أو أكثر من مراجع الصفحات المختلفة لنفس المرجع بكلمة passim والتي تستخدم للإشارة إلى تكرار كلمة أو مقطع ما في العمل المستشهد به.
+linktitle: UsePassim
+articleTitle: UsePassim
+second_title: Aspose.Words لـ .NET
+description: FieldToa UsePassim ملكية. الحصول على أو تعيين ما إذا كان سيتم استبدال خمسة أو أكثر من مراجع الصفحات المختلفة لنفس المرجع بكلمة passim والتي تستخدم للإشارة إلى تكرار كلمة أو مقطع ما في العمل المستشهد به في C#.
 type: docs
 weight: 110
 url: /ar/net/aspose.words.fields/fieldtoa/usepassim/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldtoa/usepassim/
 public bool UsePassim { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء جدول المراجع المصدقة وتخصيصه باستخدام حقلي TOA وTA.
 
@@ -137,7 +139,5 @@ private static FieldTA InsertToaEntry(DocumentBuilder builder, string entryCateg
 ### أنظر أيضا
 
 * class [FieldToa](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldtoa/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

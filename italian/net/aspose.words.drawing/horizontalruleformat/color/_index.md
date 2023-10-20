@@ -1,7 +1,9 @@
 ---
 title: HorizontalRuleFormat.Color
-second_title: Aspose.Words per .NET API Reference
-description: HorizontalRuleFormat proprietà. Ottiene o imposta il colore del pennello che riempie il filetto orizzontale.
+linktitle: Color
+articleTitle: Color
+second_title: Aspose.Words per .NET
+description: HorizontalRuleFormat Color proprietà. Ottiene o imposta il colore del pennello che riempie il filetto orizzontale in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words.drawing/horizontalruleformat/color/
@@ -14,13 +16,13 @@ Ottiene o imposta il colore del pennello che riempie il filetto orizzontale.
 public Color Color { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Questa è una scorciatoia per[`Color`](../../fill/color/) proprietà.
 
 Il valore predefinito è Gray.
 
-### Esempi
+## Esempi
 
 Mostra come inserire una forma di filetto orizzontale e personalizzarne la formattazione.
 
@@ -43,7 +45,5 @@ Assert.True(shape.HorizontalRuleFormat.NoShade);
 ### Guarda anche
 
 * class [HorizontalRuleFormat](../)
-* spazio dei nomi [Aspose.Words.Drawing](../../horizontalruleformat/)
+* spazio dei nomi [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assemblea [Aspose.Words](../../../)
-
-

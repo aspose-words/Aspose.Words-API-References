@@ -1,7 +1,9 @@
 ---
 title: BorderCollection.LineWidth
-second_title: Aspose.Words für .NET-API-Referenz
-description: BorderCollection eigendom. Ruft die Rahmenbreite in Punkten ab oder legt sie fest.
+linktitle: LineWidth
+articleTitle: LineWidth
+second_title: Aspose.Words für .NET
+description: BorderCollection LineWidth eigendom. Ruft die Rahmenbreite in Punkten ab oder legt sie fest in C#.
 type: docs
 weight: 90
 url: /de/net/aspose.words/bordercollection/linewidth/
@@ -14,13 +16,13 @@ Ruft die Rahmenbreite in Punkten ab oder legt sie fest.
 public double LineWidth { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Gibt die Breite des ersten Rahmens in der Sammlung zurück.
 
 Legt die Breite aller Rahmen in der Sammlung fest, mit Ausnahme diagonaler Ränder.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man einen grünen, wellenförmigen Seitenrand mit einem Schatten erstellt.
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "PageSetup.PageBorders.docx");
 ### Siehe auch
 
 * class [BorderCollection](../)
-* namensraum [Aspose.Words](../../bordercollection/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

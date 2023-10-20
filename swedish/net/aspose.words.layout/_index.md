@@ -1,12 +1,14 @@
 ---
 title: Aspose.Words.Layout
-second_title: Aspose.Words för .NET API Referens
-description: De Aspose.Words.Layout namnrymden tillhandahåller klasser som gör det möjligt att komma åt information om som på vilken sida och var på en sida särskilda dokumentelement är placerade när dokumentet formateras till sidor.
+linktitle: Aspose.Words.Layout
+articleTitle: Aspose.Words.Layout
+second_title: Aspose.Words för .NET
+description: DeAspose.Words.Layout namnrymden tillhandahåller klasser som gör det möjligt att komma åt information om som på vilken sida och var på en sida särskilda dokumentelement är placerade när dokumentet formateras till sidor i C#.
 type: docs
 weight: 110
 url: /sv/net/aspose.words.layout/
 ---
-De **Aspose.Words.Layout** namnrymden tillhandahåller klasser som gör det möjligt att komma åt information om som på vilken sida och var på en sida särskilda dokumentelement är placerade när dokumentet formateras till sidor.
+De**Aspose.Words.Layout** namnrymden tillhandahåller klasser som gör det möjligt att komma åt information om som på vilken sida och var på en sida särskilda dokumentelement är placerade när dokumentet formateras till sidor.
 
 ## Klasser
 
@@ -33,5 +35,3 @@ De **Aspose.Words.Layout** namnrymden tillhandahåller klasser som gör det möj
 | [RevisionColor](./revisioncolor/) | Gör det möjligt att ange färg på dokumentrevisioner. |
 | [RevisionTextEffect](./revisiontexteffect/) | Tillåter att specificera dekorationseffekt för revisioner av dokumenttext. |
 | [ShowInBalloons](./showinballoons/) | Anger vilka revisioner som renderas i ballonger. |
-
-

@@ -1,7 +1,9 @@
 ---
-title: GroupShape.GroupShape
-second_title: Aspose.Words لمراجع .NET API
-description: GroupShape البناء. إنشاء شكل مجموعة جديد.
+title: GroupShape
+linktitle: GroupShape
+articleTitle: GroupShape
+second_title: Aspose.Words لـ .NET
+description: GroupShape البناء. إنشاء شكل مجموعة جديد في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.drawing/groupshape/groupshape/
@@ -18,13 +20,13 @@ public GroupShape(DocumentBase doc)
 | --- | --- | --- |
 | doc | DocumentBase | وثيقة المالك. |
 
-### ملاحظات
+## ملاحظات
 
 بشكل افتراضي، يكون الشكل عائمًا وله موقع وحجم افتراضيان.
 
 يجب عليك تحديد خصائص الشكل المطلوب بعد إنشاء الشكل.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء مجموعة من الأشكال، وطباعة محتوياتها باستخدام زائر المستند.
 
@@ -116,7 +118,5 @@ public class ShapeGroupPrinter : DocumentVisitor
 
 * class [DocumentBase](../../../aspose.words/documentbase/)
 * class [GroupShape](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../groupshape/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

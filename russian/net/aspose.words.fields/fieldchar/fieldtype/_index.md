@@ -1,7 +1,9 @@
 ---
 title: FieldChar.FieldType
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldChar свойство. Возвращает тип поля.
+linktitle: FieldType
+articleTitle: FieldType
+second_title: Aspose.Words для .NET
+description: FieldChar FieldType свойство. Возвращает тип поля на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fields/fieldchar/fieldtype/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldchar/fieldtype/
 public FieldType FieldType { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как работать с узлом FieldStart.
 
@@ -46,7 +48,5 @@ field.Update();
 
 * enum [FieldType](../../fieldtype/)
 * class [FieldChar](../)
-* пространство имен [Aspose.Words.Fields](../../fieldchar/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

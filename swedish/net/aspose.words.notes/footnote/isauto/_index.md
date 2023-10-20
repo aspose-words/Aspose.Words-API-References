@@ -1,7 +1,9 @@
 ---
 title: Footnote.IsAuto
-second_title: Aspose.Words för .NET API Referens
-description: Footnote fast egendom. Innehåller ett värde som anger om detta är en automatiskt numrerad fotnot eller fotnot med användardefinierat anpassat referensmärke.
+linktitle: IsAuto
+articleTitle: IsAuto
+second_title: Aspose.Words för .NET
+description: Footnote IsAuto fast egendom. Innehåller ett värde som anger om detta är en automatiskt numrerad fotnot eller fotnot med användardefinierat anpassat referensmärke i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.notes/footnote/isauto/
@@ -14,11 +16,11 @@ Innehåller ett värde som anger om detta är en automatiskt numrerad fotnot ell
 public bool IsAuto { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 [`ReferenceMark`](../referencemark/)initieras med tom sträng if`IsAuto` satt till`falsk` .
 
-### Exempel
+## Exempel
 
 Visar hur man infogar och anpassar fotnoter.
 
@@ -66,7 +68,5 @@ doc.Save(ArtifactsDir + "InlineStory.AddFootnote.docx");
 ### Se även
 
 * class [Footnote](../)
-* namnutrymme [Aspose.Words.Notes](../../footnote/)
+* namnutrymme [Aspose.Words.Notes](../../../aspose.words.notes/)
 * hopsättning [Aspose.Words](../../../)
-
-

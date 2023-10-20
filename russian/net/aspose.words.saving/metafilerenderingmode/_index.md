@@ -1,7 +1,9 @@
 ---
-title: Enum MetafileRenderingMode
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Saving.MetafileRenderingMode перечисление. Указывает как Aspose.Words должен отображать метафайлы WMF и EMF.
+title: MetafileRenderingMode Enum
+linktitle: MetafileRenderingMode
+articleTitle: MetafileRenderingMode
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Saving.MetafileRenderingMode перечисление. Указывает как Aspose.Words должен отображать метафайлы WMF и EMF на С#.
 type: docs
 weight: 5290
 url: /ru/net/aspose.words.saving/metafilerenderingmode/
@@ -22,7 +24,7 @@ public enum MetafileRenderingMode
 | Vector | `1` | Aspose.Words отображает метафайл как векторную графику. |
 | Bitmap | `2` | Aspose.Words вызывает GDI+ для преобразования метафайла в растровое изображение, а затем сохраняет растровое изображение в выходной документ. |
 
-### Примеры
+## Примеры
 
 Показывает добавлен запасной вариант рендеринга растровых изображений и изменение типа предупреждений о неподдерживаемых записях метафайлов.
 
@@ -78,5 +80,3 @@ public class HandleDocumentWarnings : IWarningCallback
 
 * пространство имен [Aspose.Words.Saving](../../aspose.words.saving/)
 * сборка [Aspose.Words](../../)
-
-

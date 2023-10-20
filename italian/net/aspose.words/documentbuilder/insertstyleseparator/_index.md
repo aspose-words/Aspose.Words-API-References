@@ -1,9 +1,11 @@
 ---
 title: DocumentBuilder.InsertStyleSeparator
-second_title: Aspose.Words per .NET API Reference
-description: DocumentBuilder metodo. Inserisce il separatore di stile nel documento.
+linktitle: InsertStyleSeparator
+articleTitle: InsertStyleSeparator
+second_title: Aspose.Words per .NET
+description: DocumentBuilder InsertStyleSeparator metodo. Inserisce il separatore di stile nel documento in C#.
 type: docs
-weight: 460
+weight: 450
 url: /it/net/aspose.words/documentbuilder/insertstyleseparator/
 ---
 ## DocumentBuilder.InsertStyleSeparator method
@@ -14,11 +16,11 @@ Inserisce il separatore di stile nel documento.
 public void InsertStyleSeparator()
 ```
 
-### Osservazioni
+## Osservazioni
 
 Questo metodo consente di applicare stili di paragrafo diversi a due parti diverse di una riga di testo.
 
-### Esempi
+## Esempi
 
 Mostra come lavorare con i separatori di stile.
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertStyleSeparator.docx");
 ### Guarda anche
 
 * class [DocumentBuilder](../)
-* spazio dei nomi [Aspose.Words](../../documentbuilder/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

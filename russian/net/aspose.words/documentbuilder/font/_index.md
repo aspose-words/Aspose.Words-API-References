@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.Font
-second_title: Справочник по API Aspose.Words для .NET
-description: DocumentBuilder свойство. Возвращает объект представляющий текущие свойства форматирования шрифта.
+linktitle: Font
+articleTitle: Font
+second_title: Aspose.Words для .NET
+description: DocumentBuilder Font свойство. Возвращает объект представляющий текущие свойства форматирования шрифта на С#.
 type: docs
 weight: 100
 url: /ru/net/aspose.words/documentbuilder/font/
@@ -14,13 +16,13 @@ url: /ru/net/aspose.words/documentbuilder/font/
 public Font Font { get; }
 ```
 
-### Примечания
+## Примечания
 
 Использовать`Font` для доступа и изменения свойств форматирования шрифта.
 
 Укажите форматирование шрифта перед вставкой текста.
 
-### Примеры
+## Примеры
 
 Показывает, как вставить в документ строку, окруженную рамкой.
 
@@ -99,7 +101,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.CreateFormattedTable.docx");
 
 * class [Font](../../font/)
 * class [DocumentBuilder](../)
-* пространство имен [Aspose.Words](../../documentbuilder/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

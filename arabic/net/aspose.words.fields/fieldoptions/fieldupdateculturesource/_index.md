@@ -1,7 +1,9 @@
 ---
 title: FieldOptions.FieldUpdateCultureSource
-second_title: Aspose.Words لمراجع .NET API
-description: FieldOptions ملكية. يحدد الثقافة التي سيتم استخدامها لتنسيق نتيجة الحقل.
+linktitle: FieldUpdateCultureSource
+articleTitle: FieldUpdateCultureSource
+second_title: Aspose.Words لـ .NET
+description: FieldOptions FieldUpdateCultureSource ملكية. يحدد الثقافة التي سيتم استخدامها لتنسيق نتيجة الحقل في C#.
 type: docs
 weight: 110
 url: /ar/net/aspose.words.fields/fieldoptions/fieldupdateculturesource/
@@ -14,13 +16,13 @@ url: /ar/net/aspose.words.fields/fieldoptions/fieldupdateculturesource/
 public FieldUpdateCultureSource FieldUpdateCultureSource { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 بشكل افتراضي، يتم استخدام ثقافة مؤشر الترابط الحالي.
 
 يؤثر الإعداد فقط على حقول التاريخ/الوقت مع مفتاح التنسيق \\@.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحديد مصدر الثقافة المستخدمة لتنسيق التاريخ أثناء تحديث الحقل أو دمج المراسلات.
 
@@ -56,7 +58,5 @@ Thread.CurrentThread.CurrentCulture = currentCulture;
 
 * enum [FieldUpdateCultureSource](../../fieldupdateculturesource/)
 * class [FieldOptions](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldoptions/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

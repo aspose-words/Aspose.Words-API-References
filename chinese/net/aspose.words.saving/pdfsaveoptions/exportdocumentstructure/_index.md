@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.ExportDocumentStructure
-second_title: Aspose.Words for .NET API 参考
-description: PdfSaveOptions 财产. 获取或设置决定是否导出文档结构的值
+linktitle: ExportDocumentStructure
+articleTitle: ExportDocumentStructure
+second_title: 用于 .NET 的 Aspose.Words
+description: PdfSaveOptions ExportDocumentStructure 财产. 获取或设置决定是否导出文档结构的值 在 C#.
 type: docs
 weight: 140
 url: /zh/net/aspose.words.saving/pdfsaveoptions/exportdocumentstructure/
@@ -14,13 +16,13 @@ url: /zh/net/aspose.words.saving/pdfsaveoptions/exportdocumentstructure/
 public bool ExportDocumentStructure { get; set; }
 ```
 
-### 评论
+## 评论
 
 保存到 PDF/A-1a、PDF/A-2a 和 PDF/UA-1 时将忽略该值，因为此合规性需要文档结构。
 
 请注意，导出文档结构会显着增加内存消耗，尤其是 对于大型文档。
 
-### 例子
+## 例子
 
 展示如何保留文档结构元素，这可以帮助以编程方式解释我们的文档。
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.ExportDocumentStructure.pdf", options);
 ### 也可以看看
 
 * class [PdfSaveOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../pdfsaveoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ConditionalStyleCollection.EvenRowBanding
-second_title: Aspose.Words for .NET API 参考
-description: ConditionalStyleCollection 财产. 获取偶数行条带样式
+linktitle: EvenRowBanding
+articleTitle: EvenRowBanding
+second_title: 用于 .NET 的 Aspose.Words
+description: ConditionalStyleCollection EvenRowBanding 财产. 获取偶数行条带样式 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words/conditionalstylecollection/evenrowbanding/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/conditionalstylecollection/evenrowbanding/
 public ConditionalStyle EvenRowBanding { get; }
 ```
 
-### 例子
+## 例子
 
 展示如何使用表格的某些区域样式。
 
@@ -85,7 +87,5 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 
 * class [ConditionalStyle](../../conditionalstyle/)
 * class [ConditionalStyleCollection](../)
-* 命名空间 [Aspose.Words](../../conditionalstylecollection/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

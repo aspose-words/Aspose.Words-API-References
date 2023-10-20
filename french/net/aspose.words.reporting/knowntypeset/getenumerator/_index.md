@@ -1,7 +1,9 @@
 ---
 title: KnownTypeSet.GetEnumerator
-second_title: Référence de l'API Aspose.Words pour .NET
-description: KnownTypeSet méthode. renvoie unIEnumerator objet pour parcourir les éléments de lensemble.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words pour .NET
+description: KnownTypeSet GetEnumerator méthode. renvoie unIEnumerator objet pour parcourir les éléments de lensemble en C#.
 type: docs
 weight: 40
 url: /fr/net/aspose.words.reporting/knowntypeset/getenumerator/
@@ -21,7 +23,5 @@ UnIEnumerator objet pour parcourir les éléments de l’ensemble.
 ### Voir également
 
 * class [KnownTypeSet](../)
-* espace de noms [Aspose.Words.Reporting](../../knowntypeset/)
+* espace de noms [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * Assemblée [Aspose.Words](../../../)
-
-

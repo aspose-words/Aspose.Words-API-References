@@ -1,12 +1,14 @@
 ---
 title: Node.ToString
-second_title: Aspose.Words für .NET-API-Referenz
-description: Node methode. Exportiert den Inhalt des Knotens in einen String im angegebenen Format.
+linktitle: ToString
+articleTitle: ToString
+second_title: Aspose.Words für .NET
+description: Node ToString methode. Exportiert den Inhalt des Knotens in einen String im angegebenen Format in C#.
 type: docs
 weight: 160
 url: /de/net/aspose.words/node/tostring/
 ---
-## ToString(SaveFormat) {#tostring_1}
+## ToString(*[SaveFormat](../../saveformat/)*) {#tostring_1}
 
 Exportiert den Inhalt des Knotens in einen String im angegebenen Format.
 
@@ -18,7 +20,7 @@ public string ToString(SaveFormat saveFormat)
 
 Der Inhalt des Knotens im angegebenen Format.
 
-### Beispiele
+## Beispiele
 
 Zeigt den Unterschied zwischen dem Aufruf der GetText- und ToString-Methoden auf einem Knoten.
 
@@ -91,12 +93,12 @@ foreach (Paragraph paragraph in paras.OfType<Paragraph>().Where(p => p.ListForma
 
 * enum [SaveFormat](../../saveformat/)
 * class [Node](../)
-* namensraum [Aspose.Words](../../node/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
 
 ---
 
-## ToString(SaveOptions) {#tostring_2}
+## ToString(*[SaveOptions](../../../aspose.words.saving/saveoptions/)*) {#tostring_2}
 
 Exportiert den Inhalt des Knotens mit den angegebenen Speicheroptionen in einen String.
 
@@ -112,7 +114,7 @@ public string ToString(SaveOptions saveOptions)
 
 Der Inhalt des Knotens im angegebenen Format.
 
-### Beispiele
+## Beispiele
 
 Exportiert den Inhalt eines Knotens als String im HTML-Format.
 
@@ -140,7 +142,5 @@ Assert.AreEqual("<p style=\"margin-top:0pt; margin-bottom:8pt; line-height:108%\
 
 * class [SaveOptions](../../../aspose.words.saving/saveoptions/)
 * class [Node](../)
-* namensraum [Aspose.Words](../../node/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

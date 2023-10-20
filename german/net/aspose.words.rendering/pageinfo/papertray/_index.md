@@ -1,7 +1,9 @@
 ---
 title: PageInfo.PaperTray
-second_title: Aspose.Words für .NET-API-Referenz
-description: PageInfo eigendom. Ruft das Papierfach Fach für diese Seite ab wie im Dokument angegeben. Der Wert ist ImplementierungsDruckerspezifisch.
+linktitle: PaperTray
+articleTitle: PaperTray
+second_title: Aspose.Words für .NET
+description: PageInfo PaperTray eigendom. Ruft das Papierfach Fach für diese Seite ab wie im Dokument angegeben. Der Wert ist ImplementierungsDruckerspezifisch in C#.
 type: docs
 weight: 50
 url: /de/net/aspose.words.rendering/pageinfo/papertray/
@@ -14,7 +16,7 @@ Ruft das Papierfach (Fach) für diese Seite ab, wie im Dokument angegeben. Der W
 public int PaperTray { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Seitengrößen- und Ausrichtungsinformationen für jede Seite in einem Word-Dokument gedruckt werden.
 
@@ -56,7 +58,5 @@ for (int i = 0; i < doc.PageCount; i++)
 ### Siehe auch
 
 * class [PageInfo](../)
-* namensraum [Aspose.Words.Rendering](../../pageinfo/)
+* namensraum [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * Montage [Aspose.Words](../../../)
-
-

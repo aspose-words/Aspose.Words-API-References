@@ -1,7 +1,9 @@
 ---
-title: Enum MailMergeDestination
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Settings.MailMergeDestination 枚举. 指定对文档执行邮件合并时可能生成的结果
+title: MailMergeDestination Enum
+linktitle: MailMergeDestination
+articleTitle: MailMergeDestination
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Settings.MailMergeDestination 枚举. 指定对文档执行邮件合并时可能生成的结果 在 C#.
 type: docs
 weight: 5830
 url: /zh/net/aspose.words.settings/mailmergedestination/
@@ -24,7 +26,7 @@ public enum MailMergeDestination
 | Fax | `4` | 指定符合要求的托管应用程序应使用以下文档生成传真： 使用来自指定外部数据源的数据填充给定文档内的字段。 |
 | Default | `0` | 等于NewDocument值. |
 
-### 例子
+## 例子
 
 演示如何使用 Office 数据源对象中的数据执行邮件合并。
 
@@ -78,5 +80,3 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 * property [Destination](../mailmergesettings/destination/)
 * 命名空间 [Aspose.Words.Settings](../../aspose.words.settings/)
 * 部件 [Aspose.Words](../../)
-
-

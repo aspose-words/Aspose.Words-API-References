@@ -1,7 +1,9 @@
 ---
 title: FieldUserName.UserName
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldUserName propriété. Gest ou définit le nom de lutilisateur actuel.
+linktitle: UserName
+articleTitle: UserName
+second_title: Aspose.Words pour .NET
+description: FieldUserName UserName propriété. Gest ou définit le nom de lutilisateur actuel en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.fields/fieldusername/username/
@@ -14,7 +16,7 @@ Gest ou définit le nom de l'utilisateur actuel.
 public string UserName { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment utiliser le champ USERNAME.
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "Field.USERNAME.docx");
 ### Voir également
 
 * class [FieldUserName](../)
-* espace de noms [Aspose.Words.Fields](../../fieldusername/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

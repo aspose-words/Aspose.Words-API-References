@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.StyleIdentifier
-second_title: Aspose.Words for .NET API 参考
-description: ParagraphFormat 财产. 获取或设置应用于此格式的段落样式的区域设置独立样式标识符
+linktitle: StyleIdentifier
+articleTitle: StyleIdentifier
+second_title: 用于 .NET 的 Aspose.Words
+description: ParagraphFormat StyleIdentifier 财产. 获取或设置应用于此格式的段落样式的区域设置独立样式标识符 在 C#.
 type: docs
 weight: 350
 url: /zh/net/aspose.words/paragraphformat/styleidentifier/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/paragraphformat/styleidentifier/
 public StyleIdentifier StyleIdentifier { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何使用标题样式作为条目将目录 (TOC) 插入到文档中。
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertToc.docx");
 
 * enum [StyleIdentifier](../../styleidentifier/)
 * class [ParagraphFormat](../)
-* 命名空间 [Aspose.Words](../../paragraphformat/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

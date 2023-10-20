@@ -1,7 +1,9 @@
 ---
 title: ImageSaveOptions.Scale
-second_title: Aspose.Words لمراجع .NET API
-description: ImageSaveOptions ملكية. الحصول على أو تعيين عامل التكبير للصور التي تم إنشاؤها.
+linktitle: Scale
+articleTitle: Scale
+second_title: Aspose.Words لـ .NET
+description: ImageSaveOptions Scale ملكية. الحصول على أو تعيين عامل التكبير للصور التي تم إنشاؤها في C#.
 type: docs
 weight: 150
 url: /ar/net/aspose.words.saving/imagesaveoptions/scale/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.saving/imagesaveoptions/scale/
 public float Scale { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 القيمة الافتراضية هي 1.0. يجب أن تكون القيمة أكبر من 0.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تقديم كائن Office Math إلى ملف صورة في نظام الملفات المحلي.
 
@@ -73,7 +75,5 @@ doc.Save(ArtifactsDir + "ImageSaveOptions.EditImage.png", options);
 ### أنظر أيضا
 
 * class [ImageSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../imagesaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

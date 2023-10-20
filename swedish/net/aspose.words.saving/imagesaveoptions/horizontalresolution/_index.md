@@ -1,7 +1,9 @@
 ---
 title: ImageSaveOptions.HorizontalResolution
-second_title: Aspose.Words för .NET API Referens
-description: ImageSaveOptions fast egendom. Hämtar eller ställer in den horisontella upplösningen för de genererade bilderna i punkter per tum.
+linktitle: HorizontalResolution
+articleTitle: HorizontalResolution
+second_title: Aspose.Words för .NET
+description: ImageSaveOptions HorizontalResolution fast egendom. Hämtar eller ställer in den horisontella upplösningen för de genererade bilderna i punkter per tum i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.saving/imagesaveoptions/horizontalresolution/
@@ -14,13 +16,13 @@ Hämtar eller ställer in den horisontella upplösningen för de genererade bild
 public float HorizontalResolution { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Den här egenskapen har endast effekt när du sparar i rasterbildsformat och påverkar utdatastorleken i pixlar.
 
 Standardvärdet är 96.
 
-### Exempel
+## Exempel
 
 Visar hur man redigerar bilden medan Aspose.Words konverterar ett dokument till ett.
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "ImageSaveOptions.EditImage.png", options);
 ### Se även
 
 * class [ImageSaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../imagesaveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

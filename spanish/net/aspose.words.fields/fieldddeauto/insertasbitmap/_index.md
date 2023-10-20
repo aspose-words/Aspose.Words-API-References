@@ -1,7 +1,9 @@
 ---
 title: FieldDdeAuto.InsertAsBitmap
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldDdeAuto propiedad. Obtiene o establece si se debe insertar el objeto vinculado como mapa de bits.
+linktitle: InsertAsBitmap
+articleTitle: InsertAsBitmap
+second_title: Aspose.Words para .NET
+description: FieldDdeAuto InsertAsBitmap propiedad. Obtiene o establece si se debe insertar el objeto vinculado como mapa de bits en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words.fields/fieldddeauto/insertasbitmap/
@@ -14,7 +16,7 @@ Obtiene o establece si se debe insertar el objeto vinculado como mapa de bits.
 public bool InsertAsBitmap { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo utilizar varios tipos de campos para vincular a otros documentos en el sistema de archivos local y mostrar su contenido.
 
@@ -197,7 +199,5 @@ public enum InsertLinkedObjectAs
 ### Ver también
 
 * class [FieldDdeAuto](../)
-* espacio de nombres [Aspose.Words.Fields](../../fieldddeauto/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: NodeList.Item
-second_title: Aspose.Words for .NET API 参考
-description: NodeList 财产. 检索给定索引处的节点
+linktitle: Item
+articleTitle: Item
+second_title: 用于 .NET 的 Aspose.Words
+description: NodeList Item 财产. 检索给定索引处的节点 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words/nodelist/item/
@@ -18,7 +20,7 @@ public Node this[int index] { get; }
 | --- | --- |
 | index | 节点列表的索引。 |
 
-### 评论
+## 评论
 
 该索引是从零开始的。
 
@@ -28,7 +30,7 @@ public Node this[int index] { get; }
 
 如果索引为负并且其绝对值大于列表中的项目数，则返回空引用。
 
-### 例子
+## 例子
 
 演示如何使用 XPath 导航 NodeList。
 
@@ -87,7 +89,5 @@ Assert.True(shape.HasImage);
 
 * class [Node](../../node/)
 * class [NodeList](../)
-* 命名空间 [Aspose.Words](../../nodelist/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

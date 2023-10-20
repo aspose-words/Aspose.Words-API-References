@@ -1,7 +1,9 @@
 ---
 title: Cell.IsFirstCell
-second_title: Aspose.Words för .NET API Referens
-description: Cell fast egendom. Sant om detta är den första cellen i en rad falskt annars.
+linktitle: IsFirstCell
+articleTitle: IsFirstCell
+second_title: Aspose.Words för .NET
+description: Cell IsFirstCell fast egendom. Sant om detta är den första cellen i en rad falskt annars i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.tables/cell/isfirstcell/
@@ -14,7 +16,7 @@ Sant om detta är den första cellen i en rad; falskt annars.
 public bool IsFirstCell { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man skriver ut nodstrukturen för varje tabell i ett dokument.
 
@@ -177,7 +179,5 @@ public class TableStructurePrinter : DocumentVisitor
 ### Se även
 
 * class [Cell](../)
-* namnutrymme [Aspose.Words.Tables](../../cell/)
+* namnutrymme [Aspose.Words.Tables](../../../aspose.words.tables/)
 * hopsättning [Aspose.Words](../../../)
-
-

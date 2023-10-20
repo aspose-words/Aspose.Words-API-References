@@ -1,7 +1,9 @@
 ---
 title: FieldArgumentBuilder.AddText
-second_title: Aspose.Words for .NET API 参考
-description: FieldArgumentBuilder 方法. 将纯文本添加到参数中
+linktitle: AddText
+articleTitle: AddText
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldArgumentBuilder AddText 方法. 将纯文本添加到参数中 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.fields/fieldargumentbuilder/addtext/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fieldargumentbuilder/addtext/
 public FieldArgumentBuilder AddText(string text)
 ```
 
-### 例子
+## 例子
 
 演示如何使用字段生成器构造字段，然后将它们插入到文档中。
 
@@ -97,7 +99,5 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 ### 也可以看看
 
 * class [FieldArgumentBuilder](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldargumentbuilder/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,9 +1,11 @@
 ---
 title: DocumentBuilder.MoveToParagraph
-second_title: Aspose.Words per .NET API Reference
-description: DocumentBuilder metodo. Sposta il cursore su un paragrafo della sezione corrente.
+linktitle: MoveToParagraph
+articleTitle: MoveToParagraph
+second_title: Aspose.Words per .NET
+description: DocumentBuilder MoveToParagraph metodo. Sposta il cursore su un paragrafo della sezione corrente in C#.
 type: docs
-weight: 570
+weight: 560
 url: /it/net/aspose.words/documentbuilder/movetoparagraph/
 ---
 ## DocumentBuilder.MoveToParagraph method
@@ -19,13 +21,13 @@ public void MoveToParagraph(int paragraphIndex, int characterIndex)
 | paragraphIndex | Int32 | L'indice del paragrafo a cui spostarsi. |
 | characterIndex | Int32 | L'indice del carattere all'interno del paragrafo. Un valore negativo consente di specificare una posizione dalla fine del paragrafo. Usa -1 per spostarti alla fine di il paragrafo. |
 
-### Osservazioni
+## Osservazioni
 
 La navigazione viene eseguita all'interno della storia corrente della sezione corrente. Cioè, se hai spostato il cursore sull'intestazione principale della prima sezione, allora*paragraphIndex*ha specificato l'indice del paragrafo all'interno dell'intestazione di quella sezione.
 
 Quando*paragraphIndex* è maggiore o uguale a 0, specifica un indice da all'inizio della sezione dove 0 è il primo paragrafo. Quando*paragraphIndex* è inferiore a 0, ha specificato un indice dalla fine della sezione dove -1 è l'ultimo paragrafo.
 
-### Esempi
+## Esempi
 
 Mostra come spostare la posizione del cursore di un generatore su un paragrafo specifico.
 
@@ -51,7 +53,5 @@ builder.Writeln("This is a new third paragraph. ");
 ### Guarda anche
 
 * class [DocumentBuilder](../)
-* spazio dei nomi [Aspose.Words](../../documentbuilder/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

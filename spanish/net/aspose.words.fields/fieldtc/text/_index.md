@@ -1,7 +1,9 @@
 ---
 title: FieldTC.Text
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldTC propiedad. Obtiene o establece el texto de la entrada.
+linktitle: Text
+articleTitle: Text
+second_title: Aspose.Words para .NET
+description: FieldTC Text propiedad. Obtiene o establece el texto de la entrada en C#.
 type: docs
 weight: 40
 url: /es/net/aspose.words.fields/fieldtc/text/
@@ -14,7 +16,7 @@ Obtiene o establece el texto de la entrada.
 public string Text { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo insertar un campo TOC y filtrar qué campos TC terminan como entradas.
 
@@ -66,7 +68,5 @@ public void InsertTocEntry(DocumentBuilder builder, string text, string typeIden
 ### Ver también
 
 * class [FieldTC](../)
-* espacio de nombres [Aspose.Words.Fields](../../fieldtc/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

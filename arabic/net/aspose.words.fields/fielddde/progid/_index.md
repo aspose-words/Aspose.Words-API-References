@@ -1,7 +1,9 @@
 ---
 title: FieldDde.ProgId
-second_title: Aspose.Words لمراجع .NET API
-description: FieldDde ملكية. الحصول على أو تعيين نوع التطبيق لمعلومات الارتباط.
+linktitle: ProgId
+articleTitle: ProgId
+second_title: Aspose.Words لـ .NET
+description: FieldDde ProgId ملكية. الحصول على أو تعيين نوع التطبيق لمعلومات الارتباط في C#.
 type: docs
 weight: 100
 url: /ar/net/aspose.words.fields/fielddde/progid/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fielddde/progid/
 public string ProgId { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام أنواع الحقول المختلفة للارتباط بالمستندات الأخرى في نظام الملفات المحلي وعرض محتوياتها.
 
@@ -197,7 +199,5 @@ public enum InsertLinkedObjectAs
 ### أنظر أيضا
 
 * class [FieldDde](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fielddde/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

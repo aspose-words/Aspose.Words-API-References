@@ -1,7 +1,9 @@
 ---
-title: Class LayoutOptions
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Layout.LayoutOptions 班级. 包含允许控制文档布局过程的选项
+title: LayoutOptions Class
+linktitle: LayoutOptions
+articleTitle: LayoutOptions
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Layout.LayoutOptions 班级. 包含允许控制文档布局过程的选项 在 C#.
 type: docs
 weight: 3350
 url: /zh/net/aspose.words.layout/layoutoptions/
@@ -36,13 +38,13 @@ public class LayoutOptions
 | [ShowParagraphMarks](../../aspose.words.layout/layoutoptions/showparagraphmarks/) { get; set; } | 获取或设置是否呈现段落标记的指示。 默认为`错误的`. |
 | [TextShaperFactory](../../aspose.words.layout/layoutoptions/textshaperfactory/) { get; set; } | 获取或设置[`ITextShaperFactory`](../../aspose.words.shaping/itextshaperfactory/)用于高级版式渲染功能的实现。 |
 
-### 评论
+## 评论
 
 您不直接创建此类的实例。使用[`LayoutOptions`](../../aspose.words/document/layoutoptions/)属性来访问此文档的布局选项。
 
 请注意，更改此类中存在的任何选项后，[`UpdatePageLayout`](../../aspose.words/document/updatepagelayout/)应调用 method 以便将更改的选项应用于布局。
 
-### 例子
+## 例子
 
 演示如何在渲染的输出文档中隐藏文本。
 
@@ -98,5 +100,3 @@ doc.Save(ArtifactsDir + "Document.LayoutOptionsRevisions.pdf");
 
 * 命名空间 [Aspose.Words.Layout](../../aspose.words.layout/)
 * 部件 [Aspose.Words](../../)
-
-

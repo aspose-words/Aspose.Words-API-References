@@ -1,7 +1,9 @@
 ---
 title: CustomXmlPropertyCollection.Item
-second_title: Aspose.Words för .NET API Referens
-description: CustomXmlPropertyCollection fast egendom. Får en egenskap med det angivna namnet.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words för .NET
+description: CustomXmlPropertyCollection Item fast egendom. Får en egenskap med det angivna namnet i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.markup/customxmlpropertycollection/item/
@@ -18,7 +20,7 @@ public CustomXmlProperty this[string name] { get; }
 | --- | --- |
 | name | Skiftlägeskänsligt namn på egendomen som ska hittas. |
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med smarta taggars egenskaper för att få djupgående information om smarta taggar.
 
@@ -76,7 +78,7 @@ Assert.AreEqual(0, properties.Count);
 
 * class [CustomXmlProperty](../../customxmlproperty/)
 * class [CustomXmlPropertyCollection](../)
-* namnutrymme [Aspose.Words.Markup](../../customxmlpropertycollection/)
+* namnutrymme [Aspose.Words.Markup](../../../aspose.words.markup/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
@@ -93,7 +95,7 @@ public CustomXmlProperty this[int index] { get; }
 | --- | --- |
 | index | Nollbaserat index för fastigheten. |
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med smarta taggars egenskaper för att få djupgående information om smarta taggar.
 
@@ -151,7 +153,5 @@ Assert.AreEqual(0, properties.Count);
 
 * class [CustomXmlProperty](../../customxmlproperty/)
 * class [CustomXmlPropertyCollection](../)
-* namnutrymme [Aspose.Words.Markup](../../customxmlpropertycollection/)
+* namnutrymme [Aspose.Words.Markup](../../../aspose.words.markup/)
 * hopsättning [Aspose.Words](../../../)
-
-

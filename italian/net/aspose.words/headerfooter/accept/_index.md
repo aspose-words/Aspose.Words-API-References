@@ -1,7 +1,9 @@
 ---
 title: HeaderFooter.Accept
-second_title: Aspose.Words per .NET API Reference
-description: HeaderFooter metodo. Accetta un visitatore.
+linktitle: Accept
+articleTitle: Accept
+second_title: Aspose.Words per .NET
+description: HeaderFooter Accept metodo. Accetta un visitatore in C#.
 type: docs
 weight: 70
 url: /it/net/aspose.words/headerfooter/accept/
@@ -22,7 +24,7 @@ public override bool Accept(DocumentVisitor visitor)
 
 Vero se tutti i nodi sono stati visitati; falso se[`DocumentVisitor`](../../documentvisitor/) ha interrotto l'operazione prima di visitare tutti i nodi.
 
-### Osservazioni
+## Osservazioni
 
 Enumera questo nodo e tutti i relativi figli. Ogni nodo chiama un metodo corrispondente[`DocumentVisitor`](../../documentvisitor/).
 
@@ -30,7 +32,7 @@ Per maggiori informazioni vedere il modello di progettazione Visitor.
 
 Chiamate[`VisitHeaderFooterStart`](../../documentvisitor/visitheaderfooterstart/) , poi chiama[`Accept`](../../node/accept/) per tutti i nodi figlio della sezione e chiamate[`VisitHeaderFooterEnd`](../../documentvisitor/visitheaderfooterend/) alla fine.
 
-### Esempi
+## Esempi
 
 Mostra come stampare la struttura dei nodi di ogni intestazione e piè di pagina in un documento.
 
@@ -124,7 +126,5 @@ public class HeaderFooterStructurePrinter : DocumentVisitor
 
 * class [DocumentVisitor](../../documentvisitor/)
 * class [HeaderFooter](../)
-* spazio dei nomi [Aspose.Words](../../headerfooter/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldOptions.TemplateName
-second_title: Aspose.Words لمراجع .NET API
-description: FieldOptions ملكية. الحصول على أو تعيين اسم ملف القالب الذي يستخدمه المستند.
+linktitle: TemplateName
+articleTitle: TemplateName
+second_title: Aspose.Words لـ .NET
+description: FieldOptions TemplateName ملكية. الحصول على أو تعيين اسم ملف القالب الذي يستخدمه المستند في C#.
 type: docs
 weight: 190
 url: /ar/net/aspose.words.fields/fieldoptions/templatename/
@@ -14,13 +16,13 @@ url: /ar/net/aspose.words.fields/fieldoptions/templatename/
 public string TemplateName { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 يتم استخدام هذه الخاصية من قبل[`FieldTemplate`](../../fieldtemplate/) الحقل إذا[`AttachedTemplate`](../../../aspose.words/document/attachedtemplate/) الملكية فارغة.
 
 إذا كانت هذه الخاصية فارغة، اسم ملف القالب الافتراضي`عادي.dotm` يستخدم.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام حقل القالب لعرض موقع نظام الملفات المحلي لقالب المستند.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "Field.TEMPLATE.docx");
 ### أنظر أيضا
 
 * class [FieldOptions](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldoptions/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

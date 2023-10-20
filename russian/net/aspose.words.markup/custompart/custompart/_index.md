@@ -1,7 +1,9 @@
 ---
-title: CustomPart.CustomPart
-second_title: Справочник по API Aspose.Words для .NET
-description: CustomPart строитель. Конструктор по умолчанию.
+title: CustomPart
+linktitle: CustomPart
+articleTitle: CustomPart
+second_title: Aspose.Words для .NET
+description: CustomPart строитель. Конструктор по умолчанию на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.markup/custompart/custompart/
@@ -17,7 +19,5 @@ public CustomPart()
 ### Смотрите также
 
 * class [CustomPart](../)
-* пространство имен [Aspose.Words.Markup](../../custompart/)
+* пространство имен [Aspose.Words.Markup](../../../aspose.words.markup/)
 * сборка [Aspose.Words](../../../)
-
-

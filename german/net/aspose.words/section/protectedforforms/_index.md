@@ -1,7 +1,9 @@
 ---
 title: Section.ProtectedForForms
-second_title: Aspose.Words für .NET-API-Referenz
-description: Section eigendom. True wenn der Abschnitt für Formulare geschützt ist. Wenn ein Abschnitt für Formulare geschützt ist können Benutzer Text nur in Formularfeldern in Microsoft Word auswählen und ändern.
+linktitle: ProtectedForForms
+articleTitle: ProtectedForForms
+second_title: Aspose.Words für .NET
+description: Section ProtectedForForms eigendom. True wenn der Abschnitt für Formulare geschützt ist. Wenn ein Abschnitt für Formulare geschützt ist können Benutzer Text nur in Formularfeldern in Microsoft Word auswählen und ändern in C#.
 type: docs
 weight: 60
 url: /de/net/aspose.words/section/protectedforforms/
@@ -14,7 +16,7 @@ True, wenn der Abschnitt für Formulare geschützt ist. Wenn ein Abschnitt für 
 public bool ProtectedForForms { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie der Schutz für einen Abschnitt deaktiviert wird.
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "Section.Protect.docx");
 ### Siehe auch
 
 * class [Section](../)
-* namensraum [Aspose.Words](../../section/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ControlChar.NonBreakingHyphenChar
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ControlChar champ. Le trait dunion insécable dans Microsoft Word est car30.
+linktitle: NonBreakingHyphenChar
+articleTitle: NonBreakingHyphenChar
+second_title: Aspose.Words pour .NET
+description: ControlChar NonBreakingHyphenChar champ. Le trait dunion insécable dans Microsoft Word est car30 en C#.
 type: docs
 weight: 160
 url: /fr/net/aspose.words/controlchar/nonbreakinghyphenchar/
@@ -14,13 +16,13 @@ Le trait d'union insécable dans Microsoft Word est (car)30.
 public const char NonBreakingHyphenChar;
 ```
 
-### Remarques
+## Remarques
 
 Le trait d'union insécable dans Microsoft Word ne correspond pas au caractère Unicode U+2011, mais représente plutôt des informations internes qui indiquent à Microsoft Word d'afficher un trait d'union et de ne pas couper une ligne.
 
 Informations utiles : http://www.cs.tut.fi/~jkorpela/dashes.html#linebreaks.
 
-### Exemples
+## Exemples
 
 Montre comment ajouter divers caractères de contrôle à un document.
 
@@ -92,7 +94,5 @@ Assert.AreEqual(Convert.ToChar(ControlChar.ColumnBreak), ControlChar.ColumnBreak
 ### Voir également
 
 * class [ControlChar](../)
-* espace de noms [Aspose.Words](../../controlchar/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

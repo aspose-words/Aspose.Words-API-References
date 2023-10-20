@@ -1,7 +1,9 @@
 ---
 title: TextBox.Next
-second_title: Aspose.Words for .NET API 参考
-description: TextBox 财产. 返回或设置TextBox代表下一个TextBox以一系列形状.
+linktitle: Next
+articleTitle: Next
+second_title: 用于 .NET 的 Aspose.Words
+description: TextBox Next 财产. 返回或设置TextBox代表下一个TextBox以一系列形状 在 C#.
 type: docs
 weight: 70
 url: /zh/net/aspose.words.drawing/textbox/next/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.drawing/textbox/next/
 public TextBox Next { get; set; }
 ```
 
-### 例子
+## 例子
 
 展示如何链接文本框。
 
@@ -75,7 +77,5 @@ doc.Save(ArtifactsDir + "Shape.CreateLinkBetweenTextBoxes.docx");
 ### 也可以看看
 
 * class [TextBox](../)
-* 命名空间 [Aspose.Words.Drawing](../../textbox/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

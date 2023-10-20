@@ -1,7 +1,9 @@
 ---
 title: PageSetup.TopMargin
-second_title: Aspose.Words für .NET-API-Referenz
-description: PageSetup eigendom. Gibt den Abstand in Punkt zwischen dem oberen Rand der Seite und der oberen Grenze des Textkörpers zurück oder legt ihn fest.
+linktitle: TopMargin
+articleTitle: TopMargin
+second_title: Aspose.Words für .NET
+description: PageSetup TopMargin eigendom. Gibt den Abstand in Punkt zwischen dem oberen Rand der Seite und der oberen Grenze des Textkörpers zurück oder legt ihn fest in C#.
 type: docs
 weight: 440
 url: /de/net/aspose.words/pagesetup/topmargin/
@@ -14,7 +16,7 @@ Gibt den Abstand (in Punkt) zwischen dem oberen Rand der Seite und der oberen Gr
 public double TopMargin { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Papiergröße, Ausrichtung, Ränder und andere Einstellungen für einen Abschnitt angepasst werden.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "PageSetup.PageMargins.docx");
 ### Siehe auch
 
 * class [PageSetup](../)
-* namensraum [Aspose.Words](../../pagesetup/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

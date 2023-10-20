@@ -1,7 +1,9 @@
 ---
-title: Enum ScriptShapingLevel
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Shaping.ScriptShapingLevel перечисление. Описывает уровни формирования необходимые для сценария.
+title: ScriptShapingLevel Enum
+linktitle: ScriptShapingLevel
+articleTitle: ScriptShapingLevel
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Shaping.ScriptShapingLevel перечисление. Описывает уровни формирования необходимые для сценария на С#.
 type: docs
 weight: 6070
 url: /ru/net/aspose.words.shaping/scriptshapinglevel/
@@ -27,5 +29,3 @@ public enum ScriptShapingLevel
 
 * пространство имен [Aspose.Words.Shaping](../../aspose.words.shaping/)
 * сборка [Aspose.Words](../../)
-
-

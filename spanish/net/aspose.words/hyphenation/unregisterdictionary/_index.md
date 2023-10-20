@@ -1,7 +1,9 @@
 ---
 title: Hyphenation.UnregisterDictionary
-second_title: Referencia de API de Aspose.Words para .NET
-description: Hyphenation método. Anula el registro de un diccionario de separación de palabras para el idioma especificado.
+linktitle: UnregisterDictionary
+articleTitle: UnregisterDictionary
+second_title: Aspose.Words para .NET
+description: Hyphenation UnregisterDictionary método. Anula el registro de un diccionario de separación de palabras para el idioma especificado en C#.
 type: docs
 weight: 50
 url: /es/net/aspose.words/hyphenation/unregisterdictionary/
@@ -20,7 +22,7 @@ public static void UnregisterDictionary(string language)
 | --- | --- | --- |
 | language | String | Un nombre de idioma, por ejemplo, "en-US". Consulte la documentación de .NET para conocer el "nombre de la cultura" y RFC 4646 para obtener más detalles. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo registrar un diccionario de separación de palabras.
 
@@ -57,7 +59,5 @@ doc.Save(ArtifactsDir + "Hyphenation.Dictionary.Unregistered.pdf");
 ### Ver también
 
 * class [Hyphenation](../)
-* espacio de nombres [Aspose.Words](../../hyphenation/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: OutlineOptions.DefaultBookmarksOutlineLevel
-second_title: Aspose.Words för .NET API Referens
-description: OutlineOptions fast egendom. Anger standardnivån i dokumentkonturen där Wordbokmärken ska visas.
+linktitle: DefaultBookmarksOutlineLevel
+articleTitle: DefaultBookmarksOutlineLevel
+second_title: Aspose.Words för .NET
+description: OutlineOptions DefaultBookmarksOutlineLevel fast egendom. Anger standardnivån i dokumentkonturen där Wordbokmärken ska visas i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.saving/outlineoptions/defaultbookmarksoutlinelevel/
@@ -14,7 +16,7 @@ Anger standardnivån i dokumentkonturen där Word-bokmärken ska visas.
 public int DefaultBookmarksOutlineLevel { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Individuell bokmärkesnivå kan specificeras med hjälp av[`BookmarksOutlineLevels`](../bookmarksoutlinelevels/) fast egendom.
 
@@ -22,7 +24,7 @@ Ange 0 och Word-bokmärken kommer inte att visas i dokumentkonturen. Ange 1 och 
 
 Standard är 0. Giltigt intervall är 0 till 9.
 
-### Exempel
+## Exempel
 
 Visar att bearbeta bokmärken i sidhuvuden/sidfötter i ett dokument som vi renderar till PDF.
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.HeaderFooterBookmarksExportMode.pdf", sa
 ### Se även
 
 * class [OutlineOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../outlineoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

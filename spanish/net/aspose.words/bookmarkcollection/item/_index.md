@@ -1,7 +1,9 @@
 ---
 title: BookmarkCollection.Item
-second_title: Referencia de API de Aspose.Words para .NET
-description: BookmarkCollection propiedad. Devuelve un marcador en el índice especificado.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words para .NET
+description: BookmarkCollection Item propiedad. Devuelve un marcador en el índice especificado en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words/bookmarkcollection/item/
@@ -18,7 +20,7 @@ public Bookmark this[int index] { get; }
 | --- | --- |
 | index | Un índice de la colección. |
 
-### Observaciones
+## Observaciones
 
 El índice tiene base cero.
 
@@ -28,7 +30,7 @@ Si el índice es mayor o igual que el número de elementos de la lista, esto dev
 
 Si el índice es negativo y su valor absoluto es mayor que el número de elementos de la lista, esto devuelve una referencia nula.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo agregar marcadores y actualizar su contenido.
 
@@ -118,7 +120,7 @@ public class BookmarkInfoPrinter : DocumentVisitor
 
 * class [Bookmark](../../bookmark/)
 * class [BookmarkCollection](../)
-* espacio de nombres [Aspose.Words](../../bookmarkcollection/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
 
 ---
@@ -135,11 +137,11 @@ public Bookmark this[string bookmarkName] { get; }
 | --- | --- |
 | bookmarkName | Nombre del marcador que no distingue entre mayúsculas y minúsculas. |
 
-### Observaciones
+## Observaciones
 
 Devoluciones`nulo`si no se puede encontrar el marcador con el nombre especificado.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo agregar marcadores y actualizar su contenido.
 
@@ -229,7 +231,5 @@ public class BookmarkInfoPrinter : DocumentVisitor
 
 * class [Bookmark](../../bookmark/)
 * class [BookmarkCollection](../)
-* espacio de nombres [Aspose.Words](../../bookmarkcollection/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

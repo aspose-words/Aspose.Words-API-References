@@ -1,7 +1,9 @@
 ---
 title: Table.Description
-second_title: Aspose.Words for .NET API 参考
-description: Table 财产. 获取或设置此表的描述 它提供表中包含的信息的替代文本表示形式
+linktitle: Description
+articleTitle: Description
+second_title: 用于 .NET 的 Aspose.Words
+description: Table Description 财产. 获取或设置此表的描述 它提供表中包含的信息的替代文本表示形式 在 C#.
 type: docs
 weight: 110
 url: /zh/net/aspose.words.tables/table/description/
@@ -14,13 +16,13 @@ url: /zh/net/aspose.words.tables/table/description/
 public string Description { get; set; }
 ```
 
-### 评论
+## 评论
 
 默认值为空字符串。
 
 此属性对于符合 ISO/IEC 29500 的 DOCX 文档 有意义（[`OoxmlCompliance`](../../../aspose.words.saving/ooxmlcompliance/)). 当保存为 ISO/IEC 29500 之前的格式时，该属性将被忽略。
 
-### 例子
+## 例子
 
 演示如何在不使用文档生成器的情况下构建嵌套表。
 
@@ -76,7 +78,5 @@ private static Table CreateTable(Document doc, int rowCount, int cellCount, stri
 ### 也可以看看
 
 * class [Table](../)
-* 命名空间 [Aspose.Words.Tables](../../table/)
+* 命名空间 [Aspose.Words.Tables](../../../aspose.words.tables/)
 * 部件 [Aspose.Words](../../../)
-
-

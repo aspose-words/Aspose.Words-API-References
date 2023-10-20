@@ -1,7 +1,9 @@
 ---
-title: TxtSaveOptions.TxtSaveOptions
-second_title: Aspose.Words för .NET API Referens
-description: TxtSaveOptions byggare. Default_Constructor
+title: TxtSaveOptions
+linktitle: TxtSaveOptions
+articleTitle: TxtSaveOptions
+second_title: Aspose.Words för .NET
+description: TxtSaveOptions byggare. Default_Constructor i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.saving/txtsaveoptions/txtsaveoptions/
@@ -17,7 +19,5 @@ public TxtSaveOptions()
 ### Se även
 
 * class [TxtSaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../txtsaveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

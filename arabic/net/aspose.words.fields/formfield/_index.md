@@ -1,7 +1,9 @@
 ---
-title: Class FormField
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Fields.FormField فصل. يمثل حقل نموذج واحد.
+title: FormField Class
+linktitle: FormField
+articleTitle: FormField
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Fields.FormField فصل. يمثل حقل نموذج واحد في C#.
 type: docs
 weight: 2620
 url: /ar/net/aspose.words.fields/formfield/
@@ -61,20 +63,20 @@ public class FormField : SpecialChar
 
 | اسم | وصف |
 | --- | --- |
-| override [Accept](../../aspose.words.fields/formfield/accept/)(DocumentVisitor) | يقبل الزائر. |
-| [Clone](../../aspose.words/node/clone/)(bool) | إنشاء نسخة مكررة من العقدة. |
-| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | يحصل على السلف الأول للمحدد[`NodeType`](../../aspose.words/nodetype/) . |
-| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | الحصول على السلف الأول لنوع الكائن المحدد. |
+| override [Accept](../../aspose.words.fields/formfield/accept/)(*[DocumentVisitor](../../aspose.words/documentvisitor/)*) | يقبل الزائر. |
+| [Clone](../../aspose.words/node/clone/)(*bool*) | إنشاء نسخة مكررة من العقدة. |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*[NodeType](../../aspose.words/nodetype/)*) | يحصل على السلف الأول للمحدد[`NodeType`](../../aspose.words/nodetype/) . |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | الحصول على السلف الأول لنوع الكائن المحدد. |
 | override [GetText](../../aspose.words/specialchar/gettext/)() | الحصول على الحرف الخاص الذي تمثله هذه العقدة. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | الحصول على العقدة التالية وفقًا لخوارزمية اجتياز شجرة الطلب المسبق. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | الحصول على العقدة السابقة وفقًا لخوارزمية اجتياز شجرة الطلب المسبق. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../../aspose.words/node/)*) | الحصول على العقدة التالية وفقًا لخوارزمية اجتياز شجرة الطلب المسبق. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../../aspose.words/node/)*) | الحصول على العقدة السابقة وفقًا لخوارزمية اجتياز شجرة الطلب المسبق. |
 | [Remove](../../aspose.words/node/remove/)() | يزيل نفسه من الأصل. |
 | [RemoveField](../../aspose.words.fields/formfield/removefield/)() | إزالة حقل النموذج بالكامل، وليس فقط الحرف الخاص لحقل النموذج. |
-| [SetTextInputValue](../../aspose.words.fields/formfield/settextinputvalue/)(object) | يطبق تنسيق النص المحدد في[`TextInputFormat`](./textinputformat/) ويخزن القيمة فيها[`Result`](./result/) . |
-| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | تصدير محتوى العقدة إلى سلسلة بالتنسيق المحدد. |
-| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | تصدير محتوى العقدة إلى سلسلة باستخدام خيارات الحفظ المحددة. |
+| [SetTextInputValue](../../aspose.words.fields/formfield/settextinputvalue/)(*object*) | يطبق تنسيق النص المحدد في[`TextInputFormat`](./textinputformat/) ويخزن القيمة فيها[`Result`](./result/) . |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../../aspose.words/saveformat/)*) | تصدير محتوى العقدة إلى سلسلة بالتنسيق المحدد. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | تصدير محتوى العقدة إلى سلسلة باستخدام خيارات الحفظ المحددة. |
 
-### ملاحظات
+## ملاحظات
 
 يوفر Microsoft Word حقول النموذج التالية: مربع الاختيار وإدخال النص والقائمة المنسدلة (مربع التحرير والسرد).
 
@@ -84,7 +86,7 @@ public class FormField : SpecialChar
 
 يعد حقل النموذج الكامل في مستند Word عبارة عن بنية معقدة يتم تمثيلها بعدة عقد : بداية الحقل، ورمز الحقل مثل FORMTEXT، وبيانات حقل النموذج، وفاصل الحقل، ونتيجة الحقل ، ونهاية الحقل، والإشارة المرجعية. لإنشاء حقول نموذج برمجياً في مستند Word، استخدم [`InsertCheckBox`](../../aspose.words/documentbuilder/insertcheckbox/)[`InsertTextInput`](../../aspose.words/documentbuilder/inserttextinput/) و [`InsertComboBox`](../../aspose.words/documentbuilder/insertcombobox/) who تأكد من إنشاء كافة عقد حقل النموذج بالترتيب الصحيح وفي الحالة المناسبة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تنسيق FormField بأكمله، بما في ذلك قيمة الحقل.
 
@@ -132,5 +134,3 @@ doc.Save(ArtifactsDir + "FormFields.Create.html");
 * class [SpecialChar](../../aspose.words/specialchar/)
 * مساحة الاسم [Aspose.Words.Fields](../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../)
-
-

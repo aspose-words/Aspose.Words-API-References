@@ -1,7 +1,9 @@
 ---
 title: BookmarkCollection.Clear
-second_title: Référence de l'API Aspose.Words pour .NET
-description: BookmarkCollection méthode. Supprime tous les signets de cette collection et du document.
+linktitle: Clear
+articleTitle: Clear
+second_title: Aspose.Words pour .NET
+description: BookmarkCollection Clear méthode. Supprime tous les signets de cette collection et du document en C#.
 type: docs
 weight: 30
 url: /fr/net/aspose.words/bookmarkcollection/clear/
@@ -14,7 +16,7 @@ Supprime tous les signets de cette collection et du document.
 public void Clear()
 ```
 
-### Exemples
+## Exemples
 
 Montre comment supprimer des signets d’un document.
 
@@ -75,7 +77,5 @@ Assert.AreEqual("Text inside MyBookmark_1.\r" +
 ### Voir également
 
 * class [BookmarkCollection](../)
-* espace de noms [Aspose.Words](../../bookmarkcollection/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

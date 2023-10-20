@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitFootnoteEnd
-second_title: Aspose.Words für .NET-API-Referenz
-description: DocumentVisitor methode. Wird aufgerufen wenn die Aufzählung eines Fußnoten oder Endnotentextes beendet wurde.
+linktitle: VisitFootnoteEnd
+articleTitle: VisitFootnoteEnd
+second_title: Aspose.Words für .NET
+description: DocumentVisitor VisitFootnoteEnd methode. Wird aufgerufen wenn die Aufzählung eines Fußnoten oder Endnotentextes beendet wurde in C#.
 type: docs
 weight: 210
 url: /de/net/aspose.words/documentvisitor/visitfootnoteend/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitFootnoteEnd(Footnote footnote)
 
 A[`VisitorAction`](../../visitoraction/) Wert, der angibt, wie die Enumeration fortgesetzt werden soll.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Knotenstruktur jeder Fußnote in einem Dokument gedruckt wird.
 
@@ -116,7 +118,5 @@ public class FootnoteStructurePrinter : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [Footnote](../../../aspose.words.notes/footnote/)
 * class [DocumentVisitor](../)
-* namensraum [Aspose.Words](../../documentvisitor/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

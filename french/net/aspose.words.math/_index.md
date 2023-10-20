@@ -1,12 +1,14 @@
 ---
 title: Aspose.Words.Math
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Le Aspose.Words.Math Lespace de noms contient des classes qui représentent des éléments Office Math.
+linktitle: Aspose.Words.Math
+articleTitle: Aspose.Words.Math
+second_title: Aspose.Words pour .NET
+description: LeAspose.Words.Math Lespace de noms contient des classes qui représentent des éléments Office Math en C#.
 type: docs
 weight: 170
 url: /fr/net/aspose.words.math/
 ---
-Le **Aspose.Words.Math** L’espace de noms contient des classes qui représentent des éléments Office Math.
+Le**Aspose.Words.Math** L’espace de noms contient des classes qui représentent des éléments Office Math.
 
 ## Des classes
 
@@ -20,5 +22,3 @@ Le **Aspose.Words.Math** L’espace de noms contient des classes qui représente
 | [MathObjectType](./mathobjecttype/) | Spécifie le type d'un objet Office Math. |
 | [OfficeMathDisplayType](./officemathdisplaytype/) | Spécifie le type de format d'affichage de l'équation. |
 | [OfficeMathJustification](./officemathjustification/) | Spécifie la justification de l'équation. |
-
-

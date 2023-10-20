@@ -1,7 +1,9 @@
 ---
 title: LayoutCollector.GetStartPageIndex
-second_title: Aspose.Words für .NET-API-Referenz
-description: LayoutCollector methode. Ruft den 1basierten Index der Seite ab auf der der Knoten beginnt. Gibt 0 zurück wenn der Knoten keiner Seite zugeordnet werden kann.
+linktitle: GetStartPageIndex
+articleTitle: GetStartPageIndex
+second_title: Aspose.Words für .NET
+description: LayoutCollector GetStartPageIndex methode. Ruft den 1basierten Index der Seite ab auf der der Knoten beginnt. Gibt 0 zurück wenn der Knoten keiner Seite zugeordnet werden kann in C#.
 type: docs
 weight: 70
 url: /de/net/aspose.words.layout/layoutcollector/getstartpageindex/
@@ -14,7 +16,7 @@ Ruft den 1-basierten Index der Seite ab, auf der der Knoten beginnt. Gibt 0 zur�
 public int GetStartPageIndex(Node node)
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Seitenbereiche angezeigt werden, die ein Knoten umfasst.
 
@@ -73,7 +75,5 @@ Assert.AreEqual("¶", layoutEnumerator.Text);
 
 * class [Node](../../../aspose.words/node/)
 * class [LayoutCollector](../)
-* namensraum [Aspose.Words.Layout](../../layoutcollector/)
+* namensraum [Aspose.Words.Layout](../../../aspose.words.layout/)
 * Montage [Aspose.Words](../../../)
-
-

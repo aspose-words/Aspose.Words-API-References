@@ -1,7 +1,9 @@
 ---
 title: FieldDate.UseLastFormat
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldDate propiedad. Obtiene o establece si se debe utilizar un formato utilizado por última vez por la aplicación de alojamiento al insertar un nuevo campo FECHA.
+linktitle: UseLastFormat
+articleTitle: UseLastFormat
+second_title: Aspose.Words para .NET
+description: FieldDate UseLastFormat propiedad. Obtiene o establece si se debe utilizar un formato utilizado por última vez por la aplicación de alojamiento al insertar un nuevo campo FECHA en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words.fields/fielddate/uselastformat/
@@ -14,7 +16,7 @@ Obtiene o establece si se debe utilizar un formato utilizado por última vez por
 public bool UseLastFormat { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo utilizar los campos FECHA para mostrar fechas según diferentes tipos de calendarios.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "Field.DATE.docx");
 ### Ver también
 
 * class [FieldDate](../)
-* espacio de nombres [Aspose.Words.Fields](../../fielddate/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

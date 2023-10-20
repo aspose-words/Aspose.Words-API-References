@@ -1,7 +1,9 @@
 ---
 title: SystemFontSource.GetSystemFontFolders
-second_title: Справочник по API Aspose.Words для .NET
-description: SystemFontSource метод. Возвращает папки системных шрифтов или пустой массив если папки недоступны.
+linktitle: GetSystemFontFolders
+articleTitle: GetSystemFontFolders
+second_title: Aspose.Words для .NET
+description: SystemFontSource GetSystemFontFolders метод. Возвращает папки системных шрифтов или пустой массив если папки недоступны на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.fonts/systemfontsource/getsystemfontfolders/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.fonts/systemfontsource/getsystemfontfolders/
 public static string[] GetSystemFontFolders()
 ```
 
-### Примечания
+## Примечания
 
 На некоторых платформах Aspose.Words мог искать системные шрифты не только в папках, но и в других источниках. Например, на платформе Windows Aspose.Words ищет шрифты также в реестре.
 
-### Примеры
+## Примеры
 
 Показывает, как получить доступ к источнику системных шрифтов документа и установить заменители шрифтов.
 
@@ -74,7 +76,5 @@ Assert.AreEqual(1,
 ### Смотрите также
 
 * class [SystemFontSource](../)
-* пространство имен [Aspose.Words.Fonts](../../systemfontsource/)
+* пространство имен [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * сборка [Aspose.Words](../../../)
-
-

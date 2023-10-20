@@ -1,7 +1,9 @@
 ---
 title: FieldAutoNumLgl.RemoveTrailingPeriod
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldAutoNumLgl eigendom. Ruft ab oder legt fest ob die Zahl ohne nachgestellten Punkt angezeigt werden soll.
+linktitle: RemoveTrailingPeriod
+articleTitle: RemoveTrailingPeriod
+second_title: Aspose.Words für .NET
+description: FieldAutoNumLgl RemoveTrailingPeriod eigendom. Ruft ab oder legt fest ob die Zahl ohne nachgestellten Punkt angezeigt werden soll in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.fields/fieldautonumlgl/removetrailingperiod/
@@ -14,7 +16,7 @@ Ruft ab oder legt fest, ob die Zahl ohne nachgestellten Punkt angezeigt werden s
 public bool RemoveTrailingPeriod { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Dokument mithilfe von AUTONUMLGL-Feldern organisiert wird.
 
@@ -90,7 +92,5 @@ private static void InsertNumberedClause(DocumentBuilder builder, string heading
 ### Siehe auch
 
 * class [FieldAutoNumLgl](../)
-* namensraum [Aspose.Words.Fields](../../fieldautonumlgl/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

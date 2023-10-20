@@ -1,7 +1,9 @@
 ---
 title: FieldNextIf.LeftExpression
-second_title: Aspose.Words لمراجع .NET API
-description: FieldNextIf ملكية. الحصول على أو تعيين الجزء الأيسر من تعبير المقارنة.
+linktitle: LeftExpression
+articleTitle: LeftExpression
+second_title: Aspose.Words لـ .NET
+description: FieldNextIf LeftExpression ملكية. الحصول على أو تعيين الجزء الأيسر من تعبير المقارنة في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.fields/fieldnextif/leftexpression/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldnextif/leftexpression/
 public string LeftExpression { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام حقول NEXT/NEXTIF لدمج صفوف متعددة في صفحة واحدة أثناء عملية دمج البريد.
 
@@ -96,7 +98,5 @@ public void InsertMergeField(DocumentBuilder builder, string fieldName, string t
 ### أنظر أيضا
 
 * class [FieldNextIf](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldnextif/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

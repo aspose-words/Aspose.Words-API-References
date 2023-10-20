@@ -1,7 +1,9 @@
 ---
 title: TextPath.Trim
-second_title: Aspose.Words för .NET API Referens
-description: TextPath fast egendom. Bestämmer om extra mellanslag ska tas bort ovanför och under texten.
+linktitle: Trim
+articleTitle: Trim
+second_title: Aspose.Words för .NET
+description: TextPath Trim fast egendom. Bestämmer om extra mellanslag ska tas bort ovanför och under texten i C#.
 type: docs
 weight: 180
 url: /sv/net/aspose.words.drawing/textpath/trim/
@@ -14,11 +16,11 @@ Bestämmer om extra mellanslag ska tas bort ovanför och under texten.
 public bool Trim { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Standardvärdet är`falsk`.
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med WordArt.
 
@@ -121,7 +123,5 @@ private static Shape AppendWordArt(Document doc, string text, string textFontFam
 ### Se även
 
 * class [TextPath](../)
-* namnutrymme [Aspose.Words.Drawing](../../textpath/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

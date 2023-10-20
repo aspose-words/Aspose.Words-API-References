@@ -1,7 +1,9 @@
 ---
 title: RevisionOptions.DeletedTextEffect
-second_title: Справочник по API Aspose.Words для .NET
-description: RevisionOptions свойство. Позволяет указать эффект который будет применен к удаленному содержимому.Deletion . Значение по умолчаниюStrikeThrough
+linktitle: DeletedTextEffect
+articleTitle: DeletedTextEffect
+second_title: Aspose.Words для .NET
+description: RevisionOptions DeletedTextEffect свойство. Позволяет указать эффект который будет применен к удаленному содержимому.Deletion . Значение по умолчаниюStrikeThrough на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.layout/revisionoptions/deletedtexteffect/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.layout/revisionoptions/deletedtexteffect/
 public RevisionTextEffect DeletedTextEffect { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как изменить внешний вид редакций.
 
@@ -66,7 +68,5 @@ doc.Save(ArtifactsDir + "Revision.RevisionOptions.pdf");
 
 * enum [RevisionTextEffect](../../revisiontexteffect/)
 * class [RevisionOptions](../)
-* пространство имен [Aspose.Words.Layout](../../revisionoptions/)
+* пространство имен [Aspose.Words.Layout](../../../aspose.words.layout/)
 * сборка [Aspose.Words](../../../)
-
-

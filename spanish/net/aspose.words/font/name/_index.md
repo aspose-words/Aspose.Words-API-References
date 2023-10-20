@@ -1,7 +1,9 @@
 ---
 title: Font.Name
-second_title: Referencia de API de Aspose.Words para .NET
-description: Font propiedad. Obtiene o establece el nombre de la fuente.
+linktitle: Name
+articleTitle: Name
+second_title: Aspose.Words para .NET
+description: Font Name propiedad. Obtiene o establece el nombre de la fuente en C#.
 type: docs
 weight: 230
 url: /es/net/aspose.words/font/name/
@@ -14,13 +16,13 @@ Obtiene o establece el nombre de la fuente.
 public string Name { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 Al llegar, regresa[`NameAscii`](../nameascii/).
 
 Al configurar, establece[`NameAscii`](../nameascii/) ,[`NameBi`](../namebi/) ,[`NameFarEast`](../namefareast/) y[`NameOther`](../nameother/) al valor especificado.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo dar formato a una serie de texto usando su propiedad de fuente.
 
@@ -57,7 +59,5 @@ builder.Write("Hello world!");
 ### Ver también
 
 * class [Font](../)
-* espacio de nombres [Aspose.Words](../../font/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

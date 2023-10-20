@@ -1,9 +1,11 @@
 ---
 title: Stroke.Opacity
-second_title: Aspose.Words for .NET API 参考
-description: Stroke 财产. 定义笔划的透明度量有效范围为 0 到 1.
+linktitle: Opacity
+articleTitle: Opacity
+second_title: 用于 .NET 的 Aspose.Words
+description: Stroke Opacity 财产. 定义笔划的透明度量有效范围为 0 到 1 在 C#.
 type: docs
-weight: 160
+weight: 150
 url: /zh/net/aspose.words.drawing/stroke/opacity/
 ---
 ## Stroke.Opacity property
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.drawing/stroke/opacity/
 public double Opacity { get; set; }
 ```
 
-### 评论
+## 评论
 
 默认值为 1。
 
-### 例子
+## 例子
 
 展示创造出各种形状。
 
@@ -93,7 +95,5 @@ doc.Save(ArtifactsDir + "Drawing.VariousShapes.docx");
 ### 也可以看看
 
 * class [Stroke](../)
-* 命名空间 [Aspose.Words.Drawing](../../stroke/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

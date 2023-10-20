@@ -1,7 +1,9 @@
 ---
 title: CustomXmlPartCollection.Item
-second_title: Référence de l'API Aspose.Words pour .NET
-description: CustomXmlPartCollection propriété. Obtient ou définit un élément à lindex spécifié.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words pour .NET
+description: CustomXmlPartCollection Item propriété. Obtient ou définit un élément à lindex spécifié en C#.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.markup/customxmlpartcollection/item/
@@ -18,7 +20,7 @@ public CustomXmlPart this[int index] { get; set; }
 | --- | --- |
 | index | Index de base zéro de l'élément. |
 
-### Exemples
+## Exemples
 
 Montre comment créer une balise de document structuré avec des données XML personnalisées.
 
@@ -86,7 +88,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.CustomXml.docx");
 
 * class [CustomXmlPart](../../customxmlpart/)
 * class [CustomXmlPartCollection](../)
-* espace de noms [Aspose.Words.Markup](../../customxmlpartcollection/)
+* espace de noms [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Assemblée [Aspose.Words](../../../)
-
-

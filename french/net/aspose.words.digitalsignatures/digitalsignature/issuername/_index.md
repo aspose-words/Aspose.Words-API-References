@@ -1,7 +1,9 @@
 ---
 title: DigitalSignature.IssuerName
-second_title: Référence de l'API Aspose.Words pour .NET
-description: DigitalSignature propriété. Renvoie le nom unique du sujet du certificat isuuer.
+linktitle: IssuerName
+articleTitle: IssuerName
+second_title: Aspose.Words pour .NET
+description: DigitalSignature IssuerName propriété. Renvoie le nom unique du sujet du certificat isuuer en C#.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.digitalsignatures/digitalsignature/issuername/
@@ -14,7 +16,7 @@ Renvoie le nom unique du sujet du certificat isuuer.
 public string IssuerName { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment signer des documents avec des certificats X.509.
 
@@ -57,7 +59,5 @@ Assert.AreEqual("CN=Morzal.Me", signedDoc.DigitalSignatures[0].SubjectName);
 ### Voir également
 
 * class [DigitalSignature](../)
-* espace de noms [Aspose.Words.DigitalSignatures](../../digitalsignature/)
+* espace de noms [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * Assemblée [Aspose.Words](../../../)
-
-

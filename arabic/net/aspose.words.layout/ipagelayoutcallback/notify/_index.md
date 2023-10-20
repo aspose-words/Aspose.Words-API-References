@@ -1,7 +1,9 @@
 ---
 title: IPageLayoutCallback.Notify
-second_title: Aspose.Words لمراجع .NET API
-description: IPageLayoutCallback طريقة. يتم استدعاؤه للإخطار ببناء التخطيط وتقديم التقدم.
+linktitle: Notify
+articleTitle: Notify
+second_title: Aspose.Words لـ .NET
+description: IPageLayoutCallback Notify طريقة. يتم استدعاؤه للإخطار ببناء التخطيط وتقديم التقدم في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.layout/ipagelayoutcallback/notify/
@@ -18,11 +20,11 @@ public void Notify(PageLayoutCallbackArgs args)
 | --- | --- | --- |
 | args | PageLayoutCallbackArgs | حجة الحدث. |
 
-### ملاحظات
+## ملاحظات
 
 الاستثناء عند طرحه بواسطة التنفيذ يجهض عملية بناء التخطيط.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تتبع تغييرات التخطيط من خلال رد اتصال التخطيط.
 
@@ -89,7 +91,5 @@ private class RenderPageLayoutCallback : IPageLayoutCallback
 
 * class [PageLayoutCallbackArgs](../../pagelayoutcallbackargs/)
 * interface [IPageLayoutCallback](../)
-* مساحة الاسم [Aspose.Words.Layout](../../ipagelayoutcallback/)
+* مساحة الاسم [Aspose.Words.Layout](../../../aspose.words.layout/)
 * المجسم [Aspose.Words](../../../)
-
-

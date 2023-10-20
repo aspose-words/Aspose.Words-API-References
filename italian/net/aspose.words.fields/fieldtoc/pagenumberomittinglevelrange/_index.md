@@ -1,7 +1,9 @@
 ---
 title: FieldToc.PageNumberOmittingLevelRange
-second_title: Aspose.Words per .NET API Reference
-description: FieldToc proprietà. Ottiene o imposta un intervallo di livelli delle voci del sommario da cui omettere i numeri di pagina.
+linktitle: PageNumberOmittingLevelRange
+articleTitle: PageNumberOmittingLevelRange
+second_title: Aspose.Words per .NET
+description: FieldToc PageNumberOmittingLevelRange proprietà. Ottiene o imposta un intervallo di livelli delle voci del sommario da cui omettere i numeri di pagina in C#.
 type: docs
 weight: 110
 url: /it/net/aspose.words.fields/fieldtoc/pagenumberomittinglevelrange/
@@ -14,7 +16,7 @@ Ottiene o imposta un intervallo di livelli delle voci del sommario da cui omette
 public string PageNumberOmittingLevelRange { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come inserire un sommario e popolarlo con voci basate sugli stili di intestazione.
 
@@ -99,7 +101,5 @@ public void InsertNewPageWithHeading(DocumentBuilder builder, string captionText
 ### Guarda anche
 
 * class [FieldToc](../)
-* spazio dei nomi [Aspose.Words.Fields](../../fieldtoc/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

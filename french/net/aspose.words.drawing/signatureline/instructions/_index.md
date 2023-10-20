@@ -1,20 +1,22 @@
 ---
 title: SignatureLine.Instructions
-second_title: Référence de l'API Aspose.Words pour .NET
-description: SignatureLine propriété. Obtient ou définit les instructions destinées au signataire qui sont affichées lors de la signature de la ligne de signature. Cette propriété est ignorée siDefaultInstructionsest défini. La valeur par défaut de cette propriété est chaîne vide Empty.
+linktitle: Instructions
+articleTitle: Instructions
+second_title: Aspose.Words pour .NET
+description: SignatureLine Instructions propriété. Obtient ou définit les instructions destinées au signataire qui sont affichées lors de la signature de la ligne de signature. Cette propriété est ignorée siDefaultInstructionsest défini. La valeur par défaut de cette propriété estchaîne vide Empty en C#.
 type: docs
 weight: 50
 url: /fr/net/aspose.words.drawing/signatureline/instructions/
 ---
 ## SignatureLine.Instructions property
 
-Obtient ou définit les instructions destinées au signataire qui sont affichées lors de la signature de la ligne de signature. Cette propriété est ignorée si[`DefaultInstructions`](../defaultinstructions/)est défini. La valeur par défaut de cette propriété est **chaîne vide** (Empty).
+Obtient ou définit les instructions destinées au signataire qui sont affichées lors de la signature de la ligne de signature. Cette propriété est ignorée si[`DefaultInstructions`](../defaultinstructions/)est défini. La valeur par défaut de cette propriété est**chaîne vide** (Empty).
 
 ```csharp
 public string Instructions { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment créer une ligne pour une signature et l'insérer dans un document.
 
@@ -59,7 +61,5 @@ doc.Save(ArtifactsDir + "Shape.SignatureLine.docx");
 ### Voir également
 
 * class [SignatureLine](../)
-* espace de noms [Aspose.Words.Drawing](../../signatureline/)
+* espace de noms [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Assemblée [Aspose.Words](../../../)
-
-

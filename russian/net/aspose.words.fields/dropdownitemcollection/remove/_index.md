@@ -1,7 +1,9 @@
 ---
 title: DropDownItemCollection.Remove
-second_title: Справочник по API Aspose.Words для .NET
-description: DropDownItemCollection метод. Удаляет указанное значение из коллекции.
+linktitle: Remove
+articleTitle: Remove
+second_title: Aspose.Words для .NET
+description: DropDownItemCollection Remove метод. Удаляет указанное значение из коллекции на С#.
 type: docs
 weight: 90
 url: /ru/net/aspose.words.fields/dropdownitemcollection/remove/
@@ -18,7 +20,7 @@ public void Remove(string name)
 | --- | --- | --- |
 | name | String | Значение с учетом регистра, которое необходимо удалить. |
 
-### Примеры
+## Примеры
 
 Показывает, как вставить поле со списком и отредактировать элементы в его коллекции элементов.
 
@@ -72,7 +74,5 @@ dropDownItems.Clear();
 ### Смотрите также
 
 * class [DropDownItemCollection](../)
-* пространство имен [Aspose.Words.Fields](../../dropdownitemcollection/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

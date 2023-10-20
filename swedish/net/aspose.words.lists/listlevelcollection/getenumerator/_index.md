@@ -1,7 +1,9 @@
 ---
 title: ListLevelCollection.GetEnumerator
-second_title: Aspose.Words för .NET API Referens
-description: ListLevelCollection metod. Hämtar uppräkningsobjektet som kommer att räkna upp nivåer i den här listan.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words för .NET
+description: ListLevelCollection GetEnumerator metod. Hämtar uppräkningsobjektet som kommer att räkna upp nivåer i den här listan i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.lists/listlevelcollection/getenumerator/
@@ -14,7 +16,7 @@ Hämtar uppräkningsobjektet som kommer att räkna upp nivåer i den här listan
 public IEnumerator<ListLevel> GetEnumerator()
 ```
 
-### Exempel
+## Exempel
 
 Visar avancerade sätt att anpassa listetiketter.
 
@@ -76,7 +78,5 @@ doc.Save(ArtifactsDir + "Lists.CreateListRestartAfterHigher.docx");
 
 * class [ListLevel](../../listlevel/)
 * class [ListLevelCollection](../)
-* namnutrymme [Aspose.Words.Lists](../../listlevelcollection/)
+* namnutrymme [Aspose.Words.Lists](../../../aspose.words.lists/)
 * hopsättning [Aspose.Words](../../../)
-
-

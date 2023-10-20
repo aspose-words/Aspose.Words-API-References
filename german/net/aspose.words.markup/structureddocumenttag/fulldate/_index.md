@@ -1,26 +1,28 @@
 ---
 title: StructuredDocumentTag.FullDate
-second_title: Aspose.Words für .NET-API-Referenz
-description: StructuredDocumentTag eigendom. Gibt das vollständige Datum und die Uhrzeit an die zuletzt eingegeben wurden SDT .
+linktitle: FullDate
+articleTitle: FullDate
+second_title: Aspose.Words für .NET
+description: StructuredDocumentTag FullDate eigendom. Gibt das vollständige Datum und die Uhrzeit an die zuletzt eingegeben wurdenSDT  in C#.
 type: docs
 weight: 130
 url: /de/net/aspose.words.markup/structureddocumenttag/fulldate/
 ---
 ## StructuredDocumentTag.FullDate property
 
-Gibt das vollständige Datum und die Uhrzeit an, die zuletzt eingegeben wurden **SDT** .
+Gibt das vollständige Datum und die Uhrzeit an, die zuletzt eingegeben wurden**SDT** .
 
 ```csharp
 public DateTime FullDate { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Der Zugriff auf diese Eigenschaft funktioniert nur fürDate SDT-Typ.
 
 Bei allen anderen SDT-Typen tritt eine Ausnahme auf.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie der Benutzer mit einem strukturierten Dokument-Tag zur Eingabe eines Datums aufgefordert wird.
 
@@ -57,7 +59,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.Date.docx");
 ### Siehe auch
 
 * class [StructuredDocumentTag](../)
-* namensraum [Aspose.Words.Markup](../../structureddocumenttag/)
+* namensraum [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Montage [Aspose.Words](../../../)
-
-

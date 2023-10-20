@@ -1,7 +1,9 @@
 ---
 title: ChartMarker.Symbol
-second_title: Aspose.Words for .NET API 参考
-description: ChartMarker 财产. 获取或设置图表标记符号
+linktitle: Symbol
+articleTitle: Symbol
+second_title: 用于 .NET 的 Aspose.Words
+description: ChartMarker Symbol 财产. 获取或设置图表标记符号 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.drawing.charts/chartmarker/symbol/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.drawing.charts/chartmarker/symbol/
 public MarkerSymbol Symbol { get; set; }
 ```
 
-### 例子
+## 例子
 
 展示如何使用折线图上的数据点。
 
@@ -77,7 +79,5 @@ private static void ApplyDataPoints(ChartSeries series, int dataPointsCount, Mar
 
 * enum [MarkerSymbol](../../markersymbol/)
 * class [ChartMarker](../)
-* 命名空间 [Aspose.Words.Drawing.Charts](../../chartmarker/)
+* 命名空间 [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * 部件 [Aspose.Words](../../../)
-
-

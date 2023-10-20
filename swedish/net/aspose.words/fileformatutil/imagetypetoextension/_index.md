@@ -1,7 +1,9 @@
 ---
 title: FileFormatUtil.ImageTypeToExtension
-second_title: Aspose.Words för .NET API Referens
-description: FileFormatUtil metod. Konverterar ett uppräknat värde av bildtyp Aspose.Words till ett filtillägg. Det returnerade tillägget är en sträng med små bokstäver med en inledande punkt.
+linktitle: ImageTypeToExtension
+articleTitle: ImageTypeToExtension
+second_title: Aspose.Words för .NET
+description: FileFormatUtil ImageTypeToExtension metod. Konverterar ett uppräknat värde av bildtyp Aspose.Words till ett filtillägg. Det returnerade tillägget är en sträng med små bokstäver med en inledande punkt i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words/fileformatutil/imagetypetoextension/
@@ -20,7 +22,7 @@ public static string ImageTypeToExtension(ImageType imageType)
 | --- | --- |
 | ArgumentException | Kastar när det inte går att konvertera. |
 
-### Exempel
+## Exempel
 
 Visar hur man extraherar bilder från ett dokument och sparar dem i det lokala filsystemet som enskilda filer.
 
@@ -52,7 +54,5 @@ foreach (Shape shape in shapes.OfType<Shape>())
 
 * enum [ImageType](../../../aspose.words.drawing/imagetype/)
 * class [FileFormatUtil](../)
-* namnutrymme [Aspose.Words](../../fileformatutil/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

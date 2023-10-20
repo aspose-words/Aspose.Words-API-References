@@ -1,7 +1,9 @@
 ---
 title: BarcodeParameters.PosCodeStyle
-second_title: Справочник по API Aspose.Words для .NET
-description: BarcodeParameters свойство. Стиль штрихкода торговой точки типы штрихкодов UPCAUPCEEAN13EAN8. Допустимые значения без учета регистра STDSUP2SUP5CASE.
+linktitle: PosCodeStyle
+articleTitle: PosCodeStyle
+second_title: Aspose.Words для .NET
+description: BarcodeParameters PosCodeStyle свойство. Стиль штрихкода торговой точки типы штрихкодов UPCAUPCEEAN13EAN8. Допустимые значения без учета регистра STDSUP2SUP5CASE на С#.
 type: docs
 weight: 140
 url: /ru/net/aspose.words.fields/barcodeparameters/poscodestyle/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/barcodeparameters/poscodestyle/
 public string PosCodeStyle { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как использовать генератор штрих-кода.
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.docx");
 ### Смотрите также
 
 * class [BarcodeParameters](../)
-* пространство имен [Aspose.Words.Fields](../../barcodeparameters/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

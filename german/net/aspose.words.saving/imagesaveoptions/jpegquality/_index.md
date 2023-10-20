@@ -1,7 +1,9 @@
 ---
 title: ImageSaveOptions.JpegQuality
-second_title: Aspose.Words für .NET-API-Referenz
-description: ImageSaveOptions eigendom. Ruft einen Wert ab oder legt diesen fest der die Qualität der generierten JPEGBilder bestimmt.
+linktitle: JpegQuality
+articleTitle: JpegQuality
+second_title: Aspose.Words für .NET
+description: ImageSaveOptions JpegQuality eigendom. Ruft einen Wert ab oder legt diesen fest der die Qualität der generierten JPEGBilder bestimmt in C#.
 type: docs
 weight: 80
 url: /de/net/aspose.words.saving/imagesaveoptions/jpegquality/
@@ -14,7 +16,7 @@ Ruft einen Wert ab oder legt diesen fest, der die Qualität der generierten JPEG
 public int JpegQuality { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Hat nur Auswirkungen, wenn im JPEG-Format gespeichert wird.
 
@@ -22,7 +24,7 @@ Verwenden Sie diese Eigenschaft, um die Qualität der generierten Bilder beim Sp
 
 Der Standardwert ist 95.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Komprimierung beim Speichern eines Dokuments als JPEG konfiguriert wird.
 
@@ -55,7 +57,5 @@ Assert.That(60000, Is.LessThan(new FileInfo(ArtifactsDir + "ImageSaveOptions.Jpe
 ### Siehe auch
 
 * class [ImageSaveOptions](../)
-* namensraum [Aspose.Words.Saving](../../imagesaveoptions/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

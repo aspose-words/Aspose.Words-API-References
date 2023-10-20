@@ -1,7 +1,9 @@
 ---
 title: BookmarksOutlineLevelCollection.Count
-second_title: Aspose.Words for .NET API 参考
-description: BookmarksOutlineLevelCollection 财产. 获取集合中包含的元素数量
+linktitle: Count
+articleTitle: Count
+second_title: 用于 .NET 的 Aspose.Words
+description: BookmarksOutlineLevelCollection Count 财产. 获取集合中包含的元素数量 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.saving/bookmarksoutlinelevelcollection/count/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.saving/bookmarksoutlinelevelcollection/count/
 public int Count { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何设置书签的大纲级别。
 
@@ -72,7 +74,5 @@ outlineLevels.Clear();
 ### 也可以看看
 
 * class [BookmarksOutlineLevelCollection](../)
-* 命名空间 [Aspose.Words.Saving](../../bookmarksoutlinelevelcollection/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

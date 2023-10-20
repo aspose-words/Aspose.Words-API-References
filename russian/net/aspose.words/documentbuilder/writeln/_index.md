@@ -1,12 +1,14 @@
 ---
 title: DocumentBuilder.Writeln
-second_title: Справочник по API Aspose.Words для .NET
-description: DocumentBuilder метод. Вставляет в документ строку и разрыв абзаца.
+linktitle: Writeln
+articleTitle: Writeln
+second_title: Aspose.Words для .NET
+description: DocumentBuilder Writeln метод. Вставляет в документ строку и разрыв абзаца на С#.
 type: docs
-weight: 670
+weight: 660
 url: /ru/net/aspose.words/documentbuilder/writeln/
 ---
-## Writeln(string) {#writeln_1}
+## Writeln(*string*) {#writeln_1}
 
 Вставляет в документ строку и разрыв абзаца.
 
@@ -18,11 +20,11 @@ public void Writeln(string text)
 | --- | --- | --- |
 | text | String | Строка, которую нужно вставить в документ. |
 
-### Примечания
+## Примечания
 
 Текущий шрифт и форматирование абзацев, заданное[`Font`](../font/) и[`ParagraphFormat`](../paragraphformat/) используются свойства.
 
-### Примеры
+## Примеры
 
 Показывает, как построить форматированную таблицу 2x2.
 
@@ -68,7 +70,7 @@ doc.Save(ArtifactsDir + "DocumentBuilder.BuildTable.docx");
 ### Смотрите также
 
 * class [DocumentBuilder](../)
-* пространство имен [Aspose.Words](../../documentbuilder/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
 
 ---
@@ -81,11 +83,11 @@ doc.Save(ArtifactsDir + "DocumentBuilder.BuildTable.docx");
 public void Writeln()
 ```
 
-### Примечания
+## Примечания
 
 Звонки[`InsertParagraph`](../insertparagraph/).
 
-### Примеры
+## Примеры
 
 Показывает, как создавать верхние и нижние колонтитулы в документе с помощью DocumentBuilder.
 
@@ -118,7 +120,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.HeadersAndFooters.docx");
 ### Смотрите также
 
 * class [DocumentBuilder](../)
-* пространство имен [Aspose.Words](../../documentbuilder/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum FieldType
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Fields.FieldType opsomming. Gibt Microsoft WordFeldtypen an.
+title: FieldType Enum
+linktitle: FieldType
+articleTitle: FieldType
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Fields.FieldType opsomming. Gibt Microsoft WordFeldtypen an in C#.
 type: docs
 weight: 2540
 url: /de/net/aspose.words.fields/fieldtype/
@@ -116,7 +118,7 @@ public enum FieldType
 | FieldUserInitials | `61` | Gibt das USERINITIALS-Feld an. |
 | FieldUserName | `60` | Gibt das USERNAME-Feld an. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man mithilfe eines Feldcodes ein Feld in ein Dokument einfügt.
 
@@ -163,5 +165,3 @@ field.Update();
 
 * namensraum [Aspose.Words.Fields](../../aspose.words.fields/)
 * Montage [Aspose.Words](../../)
-
-

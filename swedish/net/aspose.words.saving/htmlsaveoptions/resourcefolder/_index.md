@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ResourceFolder
-second_title: Aspose.Words för .NET API Referens
-description: HtmlSaveOptions fast egendom. Anger en fysisk mapp där alla resurser som bilder typsnitt och extern CSS sparas när ett document exporteras till HTML. Standard är en tom sträng.
+linktitle: ResourceFolder
+articleTitle: ResourceFolder
+second_title: Aspose.Words för .NET
+description: HtmlSaveOptions ResourceFolder fast egendom. Anger en fysisk mapp där alla resurser som bilder typsnitt och extern CSS sparas när ett document exporteras till HTML. Standard är en tom sträng i C#.
 type: docs
 weight: 420
 url: /sv/net/aspose.words.saving/htmlsaveoptions/resourcefolder/
@@ -14,7 +16,7 @@ Anger en fysisk mapp där alla resurser som bilder, typsnitt och extern CSS spar
 public string ResourceFolder { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 `ResourceFolder` är det enklaste sättet att ange en mapp där alla resurser ska skrivas. Ett annat sätt är att använda enskilda egenskaper[`FontsFolder`](../fontsfolder/) ,[`ImagesFolder`](../imagesfolder/) , och[`CssStyleSheetFileName`](../cssstylesheetfilename/).
 
@@ -22,7 +24,7 @@ public string ResourceFolder { get; set; }
 
 Om mappen som anges av`ResourceFolder` inte finns skapas den automatiskt.
 
-### Exempel
+## Exempel
 
 Visar hur man ställer in mappar och mappalias för externt sparade resurser som Aspose.Words skapar när ett dokument sparas till HTML.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "HtmlSaveOptions.FolderAlias.html", options);
 ### Se även
 
 * class [HtmlSaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../htmlsaveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

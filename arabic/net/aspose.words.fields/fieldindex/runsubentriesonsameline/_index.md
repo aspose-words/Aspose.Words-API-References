@@ -1,7 +1,9 @@
 ---
 title: FieldIndex.RunSubentriesOnSameLine
-second_title: Aspose.Words لمراجع .NET API
-description: FieldIndex ملكية. يحصل على أو يحدد ما إذا كان سيتم تشغيل الإدخالات الفرعية في نفس سطر الإدخال الرئيسي.
+linktitle: RunSubentriesOnSameLine
+articleTitle: RunSubentriesOnSameLine
+second_title: Aspose.Words لـ .NET
+description: FieldIndex RunSubentriesOnSameLine ملكية. يحصل على أو يحدد ما إذا كان سيتم تشغيل الإدخالات الفرعية في نفس سطر الإدخال الرئيسي في C#.
 type: docs
 weight: 140
 url: /ar/net/aspose.words.fields/fieldindex/runsubentriesonsameline/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldindex/runsubentriesonsameline/
 public bool RunSubentriesOnSameLine { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع الإدخالات الفرعية في حقل INDEX.
 
@@ -72,7 +74,5 @@ doc.Save(ArtifactsDir + $"Field.INDEX.XE.Subheading.docx");
 ### أنظر أيضا
 
 * class [FieldIndex](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldindex/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

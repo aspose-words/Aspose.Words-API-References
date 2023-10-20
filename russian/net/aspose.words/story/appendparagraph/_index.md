@@ -1,7 +1,9 @@
 ---
 title: Story.AppendParagraph
-second_title: Справочник по API Aspose.Words для .NET
-description: Story метод. Ярлык метода создающийParagraph объект с необязательным текстом и добавляет его в конец этого объекта.
+linktitle: AppendParagraph
+articleTitle: AppendParagraph
+second_title: Aspose.Words для .NET
+description: Story AppendParagraph метод. Ярлык метода создающийParagraph объект с необязательным текстом и добавляет его в конец этого объекта на С#.
 type: docs
 weight: 60
 url: /ru/net/aspose.words/story/appendparagraph/
@@ -22,7 +24,7 @@ public Paragraph AppendParagraph(string text)
 
 Вновь созданный и добавленный абзац.
 
-### Примеры
+## Примеры
 
 Показывает, как создать верхний и нижний колонтитулы.
 
@@ -60,7 +62,5 @@ doc.Save(ArtifactsDir + "HeaderFooter.Create.docx");
 
 * class [Paragraph](../../paragraph/)
 * class [Story](../)
-* пространство имен [Aspose.Words](../../story/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

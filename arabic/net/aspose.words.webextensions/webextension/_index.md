@@ -1,7 +1,9 @@
 ---
-title: Class WebExtension
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.WebExtensions.WebExtension فصل. يمثل كائن ملحق الويب.
+title: WebExtension Class
+linktitle: WebExtension
+articleTitle: WebExtension
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.WebExtensions.WebExtension فصل. يمثل كائن ملحق الويب في C#.
 type: docs
 weight: 6740
 url: /ar/net/aspose.words.webextensions/webextension/
@@ -27,7 +29,7 @@ public class WebExtension
 | [Properties](../../aspose.words.webextensions/webextension/properties/) { get; } | يمثل مجموعة من الخصائص المخصصة لامتداد الويب. |
 | [Reference](../../aspose.words.webextensions/webextension/reference/) { get; } | يحدد المرجع الأساسي لامتداد الويب. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إضافة ملحق ويب إلى مستند.
 
@@ -73,5 +75,3 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 
 * مساحة الاسم [Aspose.Words.WebExtensions](../../aspose.words.webextensions/)
 * المجسم [Aspose.Words](../../)
-
-

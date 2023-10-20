@@ -1,7 +1,9 @@
 ---
 title: OleFormat.SuggestedFileName
-second_title: Aspose.Words for .NET API 参考
-description: OleFormat 财产. 如果要将当前嵌入对象保存到文件中则获取建议的文件名
+linktitle: SuggestedFileName
+articleTitle: SuggestedFileName
+second_title: 用于 .NET 的 Aspose.Words
+description: OleFormat SuggestedFileName 财产. 如果要将当前嵌入对象保存到文件中则获取建议的文件名 在 C#.
 type: docs
 weight: 130
 url: /zh/net/aspose.words.drawing/oleformat/suggestedfilename/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.drawing/oleformat/suggestedfilename/
 public string SuggestedFileName { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何获取 OLE 对象的建议文件名。
 
@@ -38,7 +40,5 @@ using (FileStream fileStream = new FileStream(ArtifactsDir + suggestedFileName, 
 ### 也可以看看
 
 * class [OleFormat](../)
-* 命名空间 [Aspose.Words.Drawing](../../oleformat/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

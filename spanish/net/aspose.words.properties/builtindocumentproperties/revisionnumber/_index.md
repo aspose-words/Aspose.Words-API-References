@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.RevisionNumber
-second_title: Referencia de API de Aspose.Words para .NET
-description: BuiltInDocumentProperties propiedad. Obtiene o establece el número de revisión del documento.
+linktitle: RevisionNumber
+articleTitle: RevisionNumber
+second_title: Aspose.Words para .NET
+description: BuiltInDocumentProperties RevisionNumber propiedad. Obtiene o establece el número de revisión del documento en C#.
 type: docs
 weight: 240
 url: /es/net/aspose.words.properties/builtindocumentproperties/revisionnumber/
@@ -14,11 +16,11 @@ Obtiene o establece el número de revisión del documento.
 public int RevisionNumber { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 Aspose.Words no actualiza esta propiedad.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo trabajar con campos REVNUM.
 
@@ -78,7 +80,5 @@ doc.Save(ArtifactsDir + "DocumentProperties.Origin.docx");
 ### Ver también
 
 * class [BuiltInDocumentProperties](../)
-* espacio de nombres [Aspose.Words.Properties](../../builtindocumentproperties/)
+* espacio de nombres [Aspose.Words.Properties](../../../aspose.words.properties/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: OdsoRecipientDataCollection.Count
-second_title: Справочник по API Aspose.Words для .NET
-description: OdsoRecipientDataCollection свойство. Получает количество элементов содержащихся в коллекции.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words для .NET
+description: OdsoRecipientDataCollection Count свойство. Получает количество элементов содержащихся в коллекции на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.settings/odsorecipientdatacollection/count/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.settings/odsorecipientdatacollection/count/
 public int Count { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как получить доступ к коллекции данных, определяющей, какие записи источника данных слияния будут исключены при слиянии почты.
 
@@ -54,7 +56,5 @@ Assert.AreEqual(0, dataCollection.Count);
 ### Смотрите также
 
 * class [OdsoRecipientDataCollection](../)
-* пространство имен [Aspose.Words.Settings](../../odsorecipientdatacollection/)
+* пространство имен [Aspose.Words.Settings](../../../aspose.words.settings/)
 * сборка [Aspose.Words](../../../)
-
-

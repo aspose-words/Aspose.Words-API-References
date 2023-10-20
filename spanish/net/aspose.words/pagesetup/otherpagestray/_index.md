@@ -1,7 +1,9 @@
 ---
 title: PageSetup.OtherPagesTray
-second_title: Referencia de API de Aspose.Words para .NET
-description: PageSetup propiedad. Obtiene o establece la bandeja de papel bandeja que se utilizará para todas las páginas excepto la primera de una sección. El valor es específico de la implementación impresora.
+linktitle: OtherPagesTray
+articleTitle: OtherPagesTray
+second_title: Aspose.Words para .NET
+description: PageSetup OtherPagesTray propiedad. Obtiene o establece la bandeja de papel bandeja que se utilizará para todas las páginas excepto la primera de una sección. El valor es específico de la implementación impresora en C#.
 type: docs
 weight: 300
 url: /es/net/aspose.words/pagesetup/otherpagestray/
@@ -14,7 +16,7 @@ Obtiene o establece la bandeja de papel (bandeja) que se utilizará para todas l
 public int OtherPagesTray { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo hacer que todas las secciones de un documento utilicen la bandeja de papel predeterminada de la impresora seleccionada.
 
@@ -70,7 +72,5 @@ foreach (Section section in doc.Sections.OfType<Section>())
 ### Ver también
 
 * class [PageSetup](../)
-* espacio de nombres [Aspose.Words](../../pagesetup/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

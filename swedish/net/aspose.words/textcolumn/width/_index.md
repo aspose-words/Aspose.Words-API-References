@@ -1,7 +1,9 @@
 ---
 title: TextColumn.Width
-second_title: Aspose.Words för .NET API Referens
-description: TextColumn fast egendom. Hämtar eller ställer in bredden på textkolumnen i punkter.
+linktitle: Width
+articleTitle: Width
+second_title: Aspose.Words för .NET
+description: TextColumn Width fast egendom. Hämtar eller ställer in bredden på textkolumnen i punkter i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words/textcolumn/width/
@@ -14,7 +16,7 @@ Hämtar eller ställer in bredden på textkolumnen i punkter.
 public double Width { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man skapar ojämnt fördelade kolumner.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "PageSetup.CustomColumnWidth.docx");
 ### Se även
 
 * class [TextColumn](../)
-* namnutrymme [Aspose.Words](../../textcolumn/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

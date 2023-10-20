@@ -1,7 +1,9 @@
 ---
 title: Font.ThemeFontFarEast
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Font propriété. Obtient ou définit la police du thème dAsie de lEst dans le jeu de polices appliqué associé à ce thème.Font objet.
+linktitle: ThemeFontFarEast
+articleTitle: ThemeFontFarEast
+second_title: Aspose.Words pour .NET
+description: Font ThemeFontFarEast propriété. Obtient ou définit la police du thème dAsie de lEst dans le jeu de polices appliqué associé à ce thème.Font objet en C#.
 type: docs
 weight: 500
 url: /fr/net/aspose.words/font/themefontfareast/
@@ -14,7 +16,7 @@ Obtient ou définit la police du thème d'Asie de l'Est dans le jeu de polices a
 public ThemeFont ThemeFontFarEast { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment utiliser les polices et les couleurs du thème.
 
@@ -101,7 +103,5 @@ Assert.AreEqual(Color.Blue.ToArgb(), font.Color.ToArgb());
 
 * enum [ThemeFont](../../../aspose.words.themes/themefont/)
 * class [Font](../)
-* espace de noms [Aspose.Words](../../font/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

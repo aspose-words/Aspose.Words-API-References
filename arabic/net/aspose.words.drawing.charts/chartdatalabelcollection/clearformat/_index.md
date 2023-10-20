@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabelCollection.ClearFormat
-second_title: Aspose.Words لمراجع .NET API
-description: ChartDataLabelCollection طريقة. مسح التنسيق للجميعChartDataLabel في هذه المجموعة.
+linktitle: ClearFormat
+articleTitle: ClearFormat
+second_title: Aspose.Words لـ .NET
+description: ChartDataLabelCollection ClearFormat طريقة. مسح التنسيق للجميعChartDataLabel في هذه المجموعة في C#.
 type: docs
 weight: 150
 url: /ar/net/aspose.words.drawing.charts/chartdatalabelcollection/clearformat/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing.charts/chartdatalabelcollection/clearformat/
 public void ClearFormat()
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تطبيق التسميات على نقاط البيانات في مخطط خطي.
 
@@ -92,7 +94,5 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
 ### أنظر أيضا
 
 * class [ChartDataLabelCollection](../)
-* مساحة الاسم [Aspose.Words.Drawing.Charts](../../chartdatalabelcollection/)
+* مساحة الاسم [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../../)
-
-

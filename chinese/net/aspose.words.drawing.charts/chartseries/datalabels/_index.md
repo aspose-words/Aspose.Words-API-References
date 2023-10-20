@@ -1,7 +1,9 @@
 ---
 title: ChartSeries.DataLabels
-second_title: Aspose.Words for .NET API 参考
-description: ChartSeries 财产. 指定整个系列的数据标签的设置
+linktitle: DataLabels
+articleTitle: DataLabels
+second_title: 用于 .NET 的 Aspose.Words
+description: ChartSeries DataLabels 财产. 指定整个系列的数据标签的设置 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.drawing.charts/chartseries/datalabels/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.drawing.charts/chartseries/datalabels/
 public ChartDataLabelCollection DataLabels { get; }
 ```
 
-### 例子
+## 例子
 
 展示如何将标签应用到折线图中的数据点。
 
@@ -93,7 +95,5 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
 
 * class [ChartDataLabelCollection](../../chartdatalabelcollection/)
 * class [ChartSeries](../)
-* 命名空间 [Aspose.Words.Drawing.Charts](../../chartseries/)
+* 命名空间 [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * 部件 [Aspose.Words](../../../)
-
-

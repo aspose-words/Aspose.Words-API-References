@@ -1,7 +1,9 @@
 ---
-title: Class FieldBuilder
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Fields.FieldBuilder klass. Bygger ett fält från fältkodtokens argument och switchar.
+title: FieldBuilder Class
+linktitle: FieldBuilder
+articleTitle: FieldBuilder
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Fields.FieldBuilder klass. Bygger ett fält från fältkodtokens argument och switchar i C#.
 type: docs
 weight: 1660
 url: /sv/net/aspose.words.fields/fieldbuilder/
@@ -20,25 +22,25 @@ public class FieldBuilder
 
 | namn | Beskrivning |
 | --- | --- |
-| [FieldBuilder](fieldbuilder/)(FieldType) | Initierar en instans av`FieldBuilder` class. |
+| [FieldBuilder](fieldbuilder/)(*[FieldType](../fieldtype/)*) | Initierar en instans av`FieldBuilder` class. |
 
 ## Metoder
 
 | namn | Beskrivning |
 | --- | --- |
-| [AddArgument](../../aspose.words.fields/fieldbuilder/addargument/#addargument_2)(double) | Lägger till ett fälts argument. |
-| [AddArgument](../../aspose.words.fields/fieldbuilder/addargument/#addargument)(FieldArgumentBuilder) | Lägger till ett fälts argument representerat av[`FieldArgumentBuilder`](../fieldargumentbuilder/) till fältets kod. |
-| [AddArgument](../../aspose.words.fields/fieldbuilder/addargument/#addargument_1)(FieldBuilder) | Lägger till ett underordnat fält som representeras av ett annat`FieldBuilder` till fältets kod. |
-| [AddArgument](../../aspose.words.fields/fieldbuilder/addargument/#addargument_3)(int) | Lägger till ett fälts argument. |
-| [AddArgument](../../aspose.words.fields/fieldbuilder/addargument/#addargument_4)(string) | Lägger till ett fälts argument. |
-| [AddSwitch](../../aspose.words.fields/fieldbuilder/addswitch/#addswitch)(string) | Lägger till ett fälts switch. |
-| [AddSwitch](../../aspose.words.fields/fieldbuilder/addswitch/#addswitch_1)(string, double) | Lägger till ett fälts switch. |
-| [AddSwitch](../../aspose.words.fields/fieldbuilder/addswitch/#addswitch_2)(string, int) | Lägger till ett fälts switch. |
-| [AddSwitch](../../aspose.words.fields/fieldbuilder/addswitch/#addswitch_3)(string, string) | Lägger till ett fälts switch. |
-| [BuildAndInsert](../../aspose.words.fields/fieldbuilder/buildandinsert/#buildandinsert)(Inline) | Bygger och infogar ett fält i dokumentet före den angivna inline-noden. |
-| [BuildAndInsert](../../aspose.words.fields/fieldbuilder/buildandinsert/#buildandinsert_1)(Paragraph) | Bygger och infogar ett fält i dokumentet till slutet av det angivna stycket. |
+| [AddArgument](../../aspose.words.fields/fieldbuilder/addargument/#addargument_2)(*double*) | Lägger till ett fälts argument. |
+| [AddArgument](../../aspose.words.fields/fieldbuilder/addargument/#addargument)(*[FieldArgumentBuilder](../fieldargumentbuilder/)*) | Lägger till ett fälts argument representerat av[`FieldArgumentBuilder`](../fieldargumentbuilder/) till fältets kod. |
+| [AddArgument](../../aspose.words.fields/fieldbuilder/addargument/#addargument_1)(*FieldBuilder*) | Lägger till ett underordnat fält som representeras av ett annat`FieldBuilder` till fältets kod. |
+| [AddArgument](../../aspose.words.fields/fieldbuilder/addargument/#addargument_3)(*int*) | Lägger till ett fälts argument. |
+| [AddArgument](../../aspose.words.fields/fieldbuilder/addargument/#addargument_4)(*string*) | Lägger till ett fälts argument. |
+| [AddSwitch](../../aspose.words.fields/fieldbuilder/addswitch/#addswitch)(*string*) | Lägger till ett fälts switch. |
+| [AddSwitch](../../aspose.words.fields/fieldbuilder/addswitch/#addswitch_1)(*string, double*) | Lägger till ett fälts switch. |
+| [AddSwitch](../../aspose.words.fields/fieldbuilder/addswitch/#addswitch_2)(*string, int*) | Lägger till ett fälts switch. |
+| [AddSwitch](../../aspose.words.fields/fieldbuilder/addswitch/#addswitch_3)(*string, string*) | Lägger till ett fälts switch. |
+| [BuildAndInsert](../../aspose.words.fields/fieldbuilder/buildandinsert/#buildandinsert)(*[Inline](../../aspose.words/inline/)*) | Bygger och infogar ett fält i dokumentet före den angivna inline-noden. |
+| [BuildAndInsert](../../aspose.words.fields/fieldbuilder/buildandinsert/#buildandinsert_1)(*[Paragraph](../../aspose.words/paragraph/)*) | Bygger och infogar ett fält i dokumentet till slutet av det angivna stycket. |
 
-### Exempel
+## Exempel
 
 Visar hur man konstruerar fält med en fältbyggare och sedan infogar dem i dokumentet.
 
@@ -122,5 +124,3 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 
 * namnutrymme [Aspose.Words.Fields](../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../)
-
-

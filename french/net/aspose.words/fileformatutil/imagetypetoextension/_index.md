@@ -1,7 +1,9 @@
 ---
 title: FileFormatUtil.ImageTypeToExtension
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FileFormatUtil méthode. Convertit une valeur énumérée de type dimage Aspose.Words en une extension de fichier. Lextension renvoyée est une chaîne minuscule précédée dun point.
+linktitle: ImageTypeToExtension
+articleTitle: ImageTypeToExtension
+second_title: Aspose.Words pour .NET
+description: FileFormatUtil ImageTypeToExtension méthode. Convertit une valeur énumérée de type dimage Aspose.Words en une extension de fichier. Lextension renvoyée est une chaîne minuscule précédée dun point en C#.
 type: docs
 weight: 50
 url: /fr/net/aspose.words/fileformatutil/imagetypetoextension/
@@ -20,7 +22,7 @@ public static string ImageTypeToExtension(ImageType imageType)
 | --- | --- |
 | ArgumentException | Lance quand on ne peut pas convertir. |
 
-### Exemples
+## Exemples
 
 Montre comment extraire des images d'un document et les enregistrer sur le système de fichiers local en tant que fichiers individuels.
 
@@ -52,7 +54,5 @@ foreach (Shape shape in shapes.OfType<Shape>())
 
 * enum [ImageType](../../../aspose.words.drawing/imagetype/)
 * class [FileFormatUtil](../)
-* espace de noms [Aspose.Words](../../fileformatutil/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

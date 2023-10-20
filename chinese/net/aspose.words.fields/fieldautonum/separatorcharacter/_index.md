@@ -1,7 +1,9 @@
 ---
 title: FieldAutoNum.SeparatorCharacter
-second_title: Aspose.Words for .NET API 参考
-description: FieldAutoNum 财产. 获取或设置要使用的分隔符
+linktitle: SeparatorCharacter
+articleTitle: SeparatorCharacter
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldAutoNum SeparatorCharacter 财产. 获取或设置要使用的分隔符 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.fields/fieldautonum/separatorcharacter/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fieldautonum/separatorcharacter/
 public string SeparatorCharacter { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何使用自动编号字段对段落进行编号。
 
@@ -49,7 +51,5 @@ doc.Save(ArtifactsDir + "Field.AUTONUM.docx");
 ### 也可以看看
 
 * class [FieldAutoNum](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldautonum/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

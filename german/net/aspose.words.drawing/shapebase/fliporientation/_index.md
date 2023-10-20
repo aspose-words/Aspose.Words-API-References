@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.FlipOrientation
-second_title: Aspose.Words für .NET-API-Referenz
-description: ShapeBase eigendom. Ändert die Ausrichtung einer Form.
+linktitle: FlipOrientation
+articleTitle: FlipOrientation
+second_title: Aspose.Words für .NET
+description: ShapeBase FlipOrientation eigendom. Ändert die Ausrichtung einer Form in C#.
 type: docs
 weight: 180
 url: /de/net/aspose.words.drawing/shapebase/fliporientation/
@@ -14,11 +16,11 @@ url: /de/net/aspose.words.drawing/shapebase/fliporientation/
 public FlipOrientation FlipOrientation { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Der Standardwert istNone.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie eine Form auf einer Achse gespiegelt wird.
 
@@ -64,7 +66,5 @@ doc.Save(ArtifactsDir + "Shape.FlipShapeOrientation.docx");
 
 * enum [FlipOrientation](../../fliporientation/)
 * class [ShapeBase](../)
-* namensraum [Aspose.Words.Drawing](../../shapebase/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

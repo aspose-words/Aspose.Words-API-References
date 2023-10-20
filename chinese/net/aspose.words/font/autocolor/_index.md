@@ -1,7 +1,9 @@
 ---
 title: Font.AutoColor
-second_title: Aspose.Words for .NET API 参考
-description: Font 财产. 返回当前计算的用于自动颜色的文本颜色黑色或白色 如果颜色不是自动则返回Color.
+linktitle: AutoColor
+articleTitle: AutoColor
+second_title: 用于 .NET 的 Aspose.Words
+description: Font AutoColor 财产. 返回当前计算的用于自动颜色的文本颜色黑色或白色 如果颜色不是自动则返回Color 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words/font/autocolor/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words/font/autocolor/
 public Color AutoColor { get; }
 ```
 
-### 评论
+## 评论
 
 当文本具有“自动颜色”时，会自动计算文本的实际颜色 ，以便在背景颜色的衬托下可读。当您更改背景颜色时， MS Word 中的文本颜色将自动切换为黑色或白色，以最大限度地提高可读性。
 
-### 例子
+## 例子
 
 演示如何通过根据背景亮度自动选择文本颜色来提高可读性。
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "Font.SetFontAutoColor.docx");
 ### 也可以看看
 
 * class [Font](../)
-* 命名空间 [Aspose.Words](../../font/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: InlineStory.IsDeleteRevision
-second_title: Aspose.Words für .NET-API-Referenz
-description: InlineStory eigendom. Gibt true zurück wenn dieses Objekt in Microsoft Word gelöscht wurde während die Änderungsverfolgung aktiviert war.
+linktitle: IsDeleteRevision
+articleTitle: IsDeleteRevision
+second_title: Aspose.Words für .NET
+description: InlineStory IsDeleteRevision eigendom. Gibt true zurück wenn dieses Objekt in Microsoft Word gelöscht wurde während die Änderungsverfolgung aktiviert war in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words/inlinestory/isdeleterevision/
@@ -14,7 +16,7 @@ Gibt „true“ zurück, wenn dieses Objekt in Microsoft Word gelöscht wurde, w
 public bool IsDeleteRevision { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie revisionsbezogene Eigenschaften von InlineStory-Knoten angezeigt werden.
 
@@ -62,7 +64,5 @@ Assert.IsTrue(footnotes[3].IsDeleteRevision);
 ### Siehe auch
 
 * class [InlineStory](../)
-* namensraum [Aspose.Words](../../inlinestory/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

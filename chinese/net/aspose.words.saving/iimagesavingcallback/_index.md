@@ -1,7 +1,9 @@
 ---
-title: Interface IImageSavingCallback
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Saving.IImageSavingCallback 界面. 如果您想在 将文档保存为 HTML 时控制 Aspose.Words 如何保存图像请实现此接口可以被其他格式使用
+title: IImageSavingCallback Interface
+linktitle: IImageSavingCallback
+articleTitle: IImageSavingCallback
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Saving.IImageSavingCallback 界面. 如果您想在 将文档保存为 HTML 时控制 Aspose.Words 如何保存图像请实现此接口可以被其他格式使用 在 C#.
 type: docs
 weight: 5170
 url: /zh/net/aspose.words.saving/iimagesavingcallback/
@@ -18,9 +20,9 @@ public interface IImageSavingCallback
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ImageSaving](../../aspose.words.saving/iimagesavingcallback/imagesaving/)(ImageSavingArgs) | 当 Aspose.Words 将图像保存为 HTML 时调用。 |
+| [ImageSaving](../../aspose.words.saving/iimagesavingcallback/imagesaving/)(*[ImageSavingArgs](../imagesavingargs/)*) | 当 Aspose.Words 将图像保存为 HTML 时调用。 |
 
-### 例子
+## 例子
 
 演示如何在保存到 Markdown 文档期间重命名图像名称。
 
@@ -192,5 +194,3 @@ public class SavedImageRename : IImageSavingCallback
 
 * 命名空间 [Aspose.Words.Saving](../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../)
-
-

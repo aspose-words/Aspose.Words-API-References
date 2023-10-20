@@ -1,7 +1,9 @@
 ---
 title: RevisionOptions.ShowInBalloons
-second_title: Aspose.Words für .NET-API-Referenz
-description: RevisionOptions eigendom. Ermöglicht die Angabe ob die Revisionen in den Sprechblasen gerendert werden. Der Standardwert istNone .
+linktitle: ShowInBalloons
+articleTitle: ShowInBalloons
+second_title: Aspose.Words für .NET
+description: RevisionOptions ShowInBalloons eigendom. Ermöglicht die Angabe ob die Revisionen in den Sprechblasen gerendert werden. Der Standardwert istNone  in C#.
 type: docs
 weight: 160
 url: /de/net/aspose.words.layout/revisionoptions/showinballoons/
@@ -14,11 +16,11 @@ Ermöglicht die Angabe, ob die Revisionen in den Sprechblasen gerendert werden. 
 public ShowInBalloons ShowInBalloons { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Beachten Sie, dass Revisionen nicht in Sprechblasen gerendert werdenShowInAnnotations .
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Revisionen in Sprechblasen angezeigt werden.
 
@@ -81,7 +83,5 @@ doc.Save(ArtifactsDir + "Revision.RevisionOptions.pdf");
 
 * enum [ShowInBalloons](../../showinballoons/)
 * class [RevisionOptions](../)
-* namensraum [Aspose.Words.Layout](../../revisionoptions/)
+* namensraum [Aspose.Words.Layout](../../../aspose.words.layout/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: DocumentPropertyCollection.RemoveAt
-second_title: Aspose.Words for .NET API 参考
-description: DocumentPropertyCollection 方法. 删除指定索引处的属性
+linktitle: RemoveAt
+articleTitle: RemoveAt
+second_title: 用于 .NET 的 Aspose.Words
+description: DocumentPropertyCollection RemoveAt 方法. 删除指定索引处的属性 在 C#.
 type: docs
 weight: 80
 url: /zh/net/aspose.words.properties/documentpropertycollection/removeat/
@@ -18,7 +20,7 @@ public void RemoveAt(int index)
 | --- | --- | --- |
 | index | Int32 | 从零开始的索引。 |
 
-### 例子
+## 例子
 
 展示如何使用文档的自定义属性。
 
@@ -78,7 +80,5 @@ Assert.AreEqual(0, properties.Count);
 ### 也可以看看
 
 * class [DocumentPropertyCollection](../)
-* 命名空间 [Aspose.Words.Properties](../../documentpropertycollection/)
+* 命名空间 [Aspose.Words.Properties](../../../aspose.words.properties/)
 * 部件 [Aspose.Words](../../../)
-
-

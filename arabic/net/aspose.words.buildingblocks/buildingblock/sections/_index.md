@@ -1,7 +1,9 @@
 ---
 title: BuildingBlock.Sections
-second_title: Aspose.Words لمراجع .NET API
-description: BuildingBlock ملكية. إرجاع مجموعة تمثل كافة الأقسام الموجودة في الكتلة البرمجية الإنشائية.
+linktitle: Sections
+articleTitle: Sections
+second_title: Aspose.Words لـ .NET
+description: BuildingBlock Sections ملكية. إرجاع مجموعة تمثل كافة الأقسام الموجودة في الكتلة البرمجية الإنشائية في C#.
 type: docs
 weight: 110
 url: /ar/net/aspose.words.buildingblocks/buildingblock/sections/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.buildingblocks/buildingblock/sections/
 public SectionCollection Sections { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إضافة كتلة إنشاء مخصصة إلى مستند.
 
@@ -112,7 +114,5 @@ public class BuildingBlockVisitor : DocumentVisitor
 
 * class [SectionCollection](../../../aspose.words/sectioncollection/)
 * class [BuildingBlock](../)
-* مساحة الاسم [Aspose.Words.BuildingBlocks](../../buildingblock/)
+* مساحة الاسم [Aspose.Words.BuildingBlocks](../../../aspose.words.buildingblocks/)
 * المجسم [Aspose.Words](../../../)
-
-

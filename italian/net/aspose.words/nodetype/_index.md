@@ -1,7 +1,9 @@
 ---
-title: Enum NodeType
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.NodeType enum. Specifica il tipo di nodo di un documento Word.
+title: NodeType Enum
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words per .NET
+description: Aspose.Words.NodeType enum. Specifica il tipo di nodo di un documento Word in C#.
 type: docs
 weight: 4230
 url: /it/net/aspose.words/nodetype/
@@ -47,8 +49,8 @@ public enum NodeType
 | SpecialChar | `26` | Un carattere speciale che non è uno dei tipi di caratteri speciali più specifici. |
 | SmartTag | `27` | Uno smart tag attorno a una o più strutture in linea (sequenze, immagini, campi e così via) all'interno di un paragrafo |
 | StructuredDocumentTag | `28` | Permette di definire le informazioni specifiche del cliente e le relative modalità di presentazione. |
-| StructuredDocumentTagRangeStart | `29` | Un inizio di **variato** tag di documento strutturato che accetta contenuti multi-sezione. |
-| StructuredDocumentTagRangeEnd | `30` | Una fine di **variato** tag di documento strutturato che accetta contenuti multi-sezione. |
+| StructuredDocumentTagRangeStart | `29` | Un inizio di**variato** tag di documento strutturato che accetta contenuti multi-sezione. |
+| StructuredDocumentTagRangeEnd | `30` | Una fine di**variato** tag di documento strutturato che accetta contenuti multi-sezione. |
 | GlossaryDocument | `31` | Un documento di glossario all'interno del documento principale. |
 | BuildingBlock | `32` | Un elemento costitutivo all'interno di un documento di glossario (ad esempio, voce di documento di glossario). |
 | CommentRangeStart | `33` | Un nodo marcatore che rappresenta l'inizio di un intervallo commentato. |
@@ -58,7 +60,7 @@ public enum NodeType
 | System | `37` | Riservato per uso interno da Aspose.Words. |
 | Null | `38` | Riservato per uso interno da Aspose.Words. |
 
-### Esempi
+## Esempi
 
 Mostra come attraversare la raccolta di nodi figlio di un nodo composito.
 
@@ -104,5 +106,3 @@ foreach (Node child in children)
 
 * spazio dei nomi [Aspose.Words](../../aspose.words/)
 * assemblea [Aspose.Words](../../)
-
-

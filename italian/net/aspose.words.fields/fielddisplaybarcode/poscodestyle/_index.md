@@ -1,7 +1,9 @@
 ---
 title: FieldDisplayBarcode.PosCodeStyle
-second_title: Aspose.Words per .NET API Reference
-description: FieldDisplayBarcode proprietà. Ottiene o imposta lo stile di un codice a barre del punto vendita tipi di codice a barre UPCAUPCEEAN13EAN8. I valori validi senza distinzione tra maiuscole e minuscole sono STDSUP2SUP5CASE.
+linktitle: PosCodeStyle
+articleTitle: PosCodeStyle
+second_title: Aspose.Words per .NET
+description: FieldDisplayBarcode PosCodeStyle proprietà. Ottiene o imposta lo stile di un codice a barre del punto vendita tipi di codice a barre UPCAUPCEEAN13EAN8. I valori validi senza distinzione tra maiuscole e minuscole sono STDSUP2SUP5CASE in C#.
 type: docs
 weight: 110
 url: /it/net/aspose.words.fields/fielddisplaybarcode/poscodestyle/
@@ -14,7 +16,7 @@ Ottiene o imposta lo stile di un codice a barre del punto vendita (tipi di codic
 public string PosCodeStyle { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come inserire un campo DISPLAYBARCODE e impostarne le proprietà.
 
@@ -72,7 +74,5 @@ doc.Save(ArtifactsDir + "Field.DISPLAYBARCODE.docx");
 ### Guarda anche
 
 * class [FieldDisplayBarcode](../)
-* spazio dei nomi [Aspose.Words.Fields](../../fielddisplaybarcode/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

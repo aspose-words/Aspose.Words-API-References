@@ -1,7 +1,9 @@
 ---
-title: Enum StoryType
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.StoryType перечисление. Текст документа Word хранится в историях.StoryType идентифицирует историю.
+title: StoryType Enum
+linktitle: StoryType
+articleTitle: StoryType
+second_title: Aspose.Words для .NET
+description: Aspose.Words.StoryType перечисление. Текст документа Word хранится в историях.StoryType идентифицирует историю на С#.
 type: docs
 weight: 6120
 url: /ru/net/aspose.words/storytype/
@@ -37,7 +39,7 @@ public enum StoryType
 | EndnoteContinuationSeparator | `16` | Содержит текст разделителя продолжения концевой сноски, представленныйFootnoteSeparator . |
 | EndnoteContinuationNotice | `17` | Содержит текст разделителя уведомления о продолжении концевой сноски, представленныйFootnoteSeparator . |
 
-### Примеры
+## Примеры
 
 Показывает, как удалить все фигуры из узла.
 
@@ -62,5 +64,3 @@ Assert.AreEqual(0, doc.GetChildNodes(NodeType.Shape, true).Count);
 
 * пространство имен [Aspose.Words](../../aspose.words/)
 * сборка [Aspose.Words](../../)
-
-

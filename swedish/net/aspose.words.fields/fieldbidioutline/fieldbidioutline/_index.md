@@ -1,7 +1,9 @@
 ---
-title: FieldBidiOutline.FieldBidiOutline
-second_title: Aspose.Words för .NET API Referens
-description: FieldBidiOutline byggare. Default_Constructor
+title: FieldBidiOutline
+linktitle: FieldBidiOutline
+articleTitle: FieldBidiOutline
+second_title: Aspose.Words för .NET
+description: FieldBidiOutline byggare. Default_Constructor i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.fields/fieldbidioutline/fieldbidioutline/
@@ -17,7 +19,5 @@ public FieldBidiOutline()
 ### Se även
 
 * class [FieldBidiOutline](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldbidioutline/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

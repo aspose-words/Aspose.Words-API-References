@@ -1,7 +1,9 @@
 ---
-title: Class GradientStop
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Drawing.GradientStop сорт. Представляет одну остановку градиента.
+title: GradientStop Class
+linktitle: GradientStop
+articleTitle: GradientStop
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Drawing.GradientStop сорт. Представляет одну остановку градиента на С#.
 type: docs
 weight: 980
 url: /ru/net/aspose.words.drawing/gradientstop/
@@ -20,8 +22,8 @@ public class GradientStop
 
 | Имя | Описание |
 | --- | --- |
-| [GradientStop](gradientstop/#constructor)(Color, double) | Инициализирует новый экземпляр`GradientStop` класс. |
-| [GradientStop](gradientstop/#constructor_1)(Color, double, double) | Инициализирует новый экземпляр`GradientStop` класс. |
+| [GradientStop](gradientstop/#constructor)(*Color, double*) | Инициализирует новый экземпляр`GradientStop` класс. |
+| [GradientStop](gradientstop/#constructor_1)(*Color, double, double*) | Инициализирует новый экземпляр`GradientStop` класс. |
 
 ## Характеристики
 
@@ -42,5 +44,3 @@ public class GradientStop
 
 * пространство имен [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../)
-
-

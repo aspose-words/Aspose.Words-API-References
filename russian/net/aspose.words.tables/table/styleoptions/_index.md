@@ -1,7 +1,9 @@
 ---
 title: Table.StyleOptions
-second_title: Справочник по API Aspose.Words для .NET
-description: Table свойство. Получает или устанавливает битовые флаги определяющие как стиль таблицы применяется к этой таблице.
+linktitle: StyleOptions
+articleTitle: StyleOptions
+second_title: Aspose.Words для .NET
+description: Table StyleOptions свойство. Получает или устанавливает битовые флаги определяющие как стиль таблицы применяется к этой таблице на С#.
 type: docs
 weight: 300
 url: /ru/net/aspose.words.tables/table/styleoptions/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.tables/table/styleoptions/
 public TableStyleOptions StyleOptions { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как построить новую таблицу с применением стиля.
 
@@ -66,7 +68,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTableWithStyle.docx");
 
 * enum [TableStyleOptions](../../tablestyleoptions/)
 * class [Table](../)
-* пространство имен [Aspose.Words.Tables](../../table/)
+* пространство имен [Aspose.Words.Tables](../../../aspose.words.tables/)
 * сборка [Aspose.Words](../../../)
-
-

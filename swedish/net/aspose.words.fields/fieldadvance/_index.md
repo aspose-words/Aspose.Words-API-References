@@ -1,7 +1,9 @@
 ---
-title: Class FieldAdvance
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Fields.FieldAdvance klass. Implementerar ADVANCEfältet.
+title: FieldAdvance Class
+linktitle: FieldAdvance
+articleTitle: FieldAdvance
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Fields.FieldAdvance klass. Implementerar ADVANCEfältet i C#.
 type: docs
 weight: 1540
 url: /sv/net/aspose.words.fields/fieldadvance/
@@ -48,17 +50,17 @@ public class FieldAdvance : Field
 | namn | Beskrivning |
 | --- | --- |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Returnerar text mellan fältstart och fältavgränsare (eller fältslut om det inte finns någon avgränsare). Både fältkod och fältresultat för underordnade fält ingår. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Returnerar text mellan fältstart och fältavgränsare (eller fältslut om det inte finns någon avgränsare). |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | Returnerar text mellan fältstart och fältavgränsare (eller fältslut om det inte finns någon avgränsare). |
 | [Remove](../../aspose.words.fields/field/remove/)() | Tar bort fältet från dokumentet. Returnerar en nod direkt efter fältet. Om fältets slut är den sista child av dess överordnade nod, returnerar dess överordnade stycke. Om fältet redan är borttaget, returneras`null` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | Utför fältavlänkningen. |
 | [Update](../../aspose.words.fields/field/update/)() | Utför fältuppdateringen. Kastar om fältet redan uppdateras. |
-| [Update](../../aspose.words.fields/field/update/)(bool) | Utför en fältuppdatering. Kastar om fältet redan uppdateras. |
+| [Update](../../aspose.words.fields/field/update/)(*bool*) | Utför en fältuppdatering. Kastar om fältet redan uppdateras. |
 
-### Anmärkningar
+## Anmärkningar
 
 Flyttar startpunkten där texten som lexikalt följer fältet visas till höger eller vänster, uppåt eller nedåt, eller till en specifik horisontell eller vertikal position.
 
-### Exempel
+## Exempel
 
 Visar hur man infogar ett ADVANCE-fält och redigerar dess egenskaper.
 
@@ -105,5 +107,3 @@ doc.Save(ArtifactsDir + "Field.ADVANCE.docx");
 * class [Field](../field/)
 * namnutrymme [Aspose.Words.Fields](../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../)
-
-

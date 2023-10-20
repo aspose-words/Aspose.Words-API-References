@@ -1,7 +1,9 @@
 ---
-title: Class BookmarkCollection
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.BookmarkCollection сорт. КоллекцияBookmark объекты представляющие закладки в указанном диапазоне.
+title: BookmarkCollection Class
+linktitle: BookmarkCollection
+articleTitle: BookmarkCollection
+second_title: Aspose.Words для .NET
+description: Aspose.Words.BookmarkCollection сорт. КоллекцияBookmark объекты представляющие закладки в указанном диапазоне на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words/bookmarkcollection/
@@ -29,11 +31,11 @@ public class BookmarkCollection : IEnumerable<Bookmark>
 | --- | --- |
 | [Clear](../../aspose.words/bookmarkcollection/clear/)() | Удаляет все закладки из этой коллекции и из документа. |
 | [GetEnumerator](../../aspose.words/bookmarkcollection/getenumerator/)() | Возвращает объект перечислителя. |
-| [Remove](../../aspose.words/bookmarkcollection/remove/#remove)(Bookmark) | Удаляет указанную закладку из документа. |
-| [Remove](../../aspose.words/bookmarkcollection/remove/#remove_1)(string) | Удаляет закладку с указанным именем. |
-| [RemoveAt](../../aspose.words/bookmarkcollection/removeat/)(int) | Удаляет закладку по указанному индексу. |
+| [Remove](../../aspose.words/bookmarkcollection/remove/#remove)(*[Bookmark](../bookmark/)*) | Удаляет указанную закладку из документа. |
+| [Remove](../../aspose.words/bookmarkcollection/remove/#remove_1)(*string*) | Удаляет закладку с указанным именем. |
+| [RemoveAt](../../aspose.words/bookmarkcollection/removeat/)(*int*) | Удаляет закладку по указанному индексу. |
 
-### Примеры
+## Примеры
 
 Показывает, как добавлять закладки и обновлять их содержимое.
 
@@ -124,5 +126,3 @@ public class BookmarkInfoPrinter : DocumentVisitor
 * class [Bookmark](../bookmark/)
 * пространство имен [Aspose.Words](../../aspose.words/)
 * сборка [Aspose.Words](../../)
-
-

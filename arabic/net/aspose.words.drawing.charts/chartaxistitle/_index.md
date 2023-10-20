@@ -1,7 +1,9 @@
 ---
-title: Class ChartAxisTitle
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Drawing.Charts.ChartAxisTitle فصل. يوفر الوصول إلى خصائص عنوان المحور.
+title: ChartAxisTitle Class
+linktitle: ChartAxisTitle
+articleTitle: ChartAxisTitle
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Drawing.Charts.ChartAxisTitle فصل. يوفر الوصول إلى خصائص عنوان المحور في C#.
 type: docs
 weight: 650
 url: /ar/net/aspose.words.drawing.charts/chartaxistitle/
@@ -20,12 +22,11 @@ public class ChartAxisTitle
 
 | اسم | وصف |
 | --- | --- |
-| [Font](../../aspose.words.drawing.charts/chartaxistitle/font/) { get; } |  |
 | [Overlay](../../aspose.words.drawing.charts/chartaxistitle/overlay/) { get; set; } | يحدد ما إذا كان سيتم السماح لعناصر المخطط الأخرى بتداخل العنوان. القيمة الافتراضية هي`خطأ شنيع` . |
 | [Show](../../aspose.words.drawing.charts/chartaxistitle/show/) { get; set; } | تحديد ما إذا كان سيتم عرض العنوان للمحور أم لا. القيمة الافتراضية هي`خطأ شنيع` . |
 | [Text](../../aspose.words.drawing.charts/chartaxistitle/text/) { get; set; } | الحصول على نص عنوان المحور أو تعيينه. If`باطل` أو تم تحديد قيمة فارغة، سيتم عرض العنوان الذي تم إنشاؤه تلقائيًا. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين عنوان محور المخطط.
 
@@ -56,5 +57,3 @@ doc.Save(ArtifactsDir + "Charts.ChartAxisTitle.docx");
 
 * مساحة الاسم [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../)
-
-

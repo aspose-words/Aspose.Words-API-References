@@ -1,7 +1,9 @@
 ---
 title: BorderCollection.Equals
-second_title: Aspose.Words för .NET API Referens
-description: BorderCollection metod. Jämför samlingar av ramar.
+linktitle: Equals
+articleTitle: Equals
+second_title: Aspose.Words för .NET
+description: BorderCollection Equals metod. Jämför samlingar av ramar i C#.
 type: docs
 weight: 150
 url: /sv/net/aspose.words/bordercollection/equals/
@@ -14,7 +16,7 @@ Jämför samlingar av ramar.
 public bool Equals(BorderCollection brColl)
 ```
 
-### Exempel
+## Exempel
 
 Visar hur gränssamlingar kan dela element.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "Border.SharedElements.docx");
 ### Se även
 
 * class [BorderCollection](../)
-* namnutrymme [Aspose.Words](../../bordercollection/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

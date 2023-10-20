@@ -1,7 +1,9 @@
 ---
 title: NodeChangingArgs.Action
-second_title: Справочник по API Aspose.Words для .NET
-description: NodeChangingArgs свойство. Получает значение указывающее какой тип события изменения узла происходит.
+linktitle: Action
+articleTitle: Action
+second_title: Aspose.Words для .NET
+description: NodeChangingArgs Action свойство. Получает значение указывающее какой тип события изменения узла происходит на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words/nodechangingargs/action/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/nodechangingargs/action/
 public NodeChangingAction Action { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как использовать NodeChangingCallback для отслеживания изменений в дереве документа в режиме реального времени по мере его редактирования.
 
@@ -90,7 +92,5 @@ private class NodeChangingPrinter : INodeChangingCallback
 
 * enum [NodeChangingAction](../../nodechangingaction/)
 * class [NodeChangingArgs](../)
-* пространство имен [Aspose.Words](../../nodechangingargs/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

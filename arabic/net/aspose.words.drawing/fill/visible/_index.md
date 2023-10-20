@@ -1,9 +1,11 @@
 ---
 title: Fill.Visible
-second_title: Aspose.Words لمراجع .NET API
-description: Fill ملكية. الحصول على القيمة أو تحديدهاحقيقي إذا كان التنسيق المطبق على هذه الحالة مرئيًا.
+linktitle: Visible
+articleTitle: Visible
+second_title: Aspose.Words لـ .NET
+description: Fill Visible ملكية. الحصول على القيمة أو تحديدهاحقيقي إذا كان التنسيق المطبق على هذه الحالة مرئيًا في C#.
 type: docs
-weight: 210
+weight: 200
 url: /ar/net/aspose.words.drawing/fill/visible/
 ---
 ## Fill.Visible property
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing/fill/visible/
 public bool Visible { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يظهر لإنشاء مجموعة متنوعة من الأشكال.
 
@@ -89,7 +91,5 @@ doc.Save(ArtifactsDir + "Drawing.VariousShapes.docx");
 ### أنظر أيضا
 
 * class [Fill](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../fill/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

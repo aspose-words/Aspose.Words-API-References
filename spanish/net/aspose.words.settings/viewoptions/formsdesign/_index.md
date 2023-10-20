@@ -1,7 +1,9 @@
 ---
 title: ViewOptions.FormsDesign
-second_title: Referencia de API de Aspose.Words para .NET
-description: ViewOptions propiedad. Especifica si el documento está en modo de diseño de formularios.
+linktitle: FormsDesign
+articleTitle: FormsDesign
+second_title: Aspose.Words para .NET
+description: ViewOptions FormsDesign propiedad. Especifica si el documento está en modo de diseño de formularios en C#.
 type: docs
 weight: 30
 url: /es/net/aspose.words.settings/viewoptions/formsdesign/
@@ -14,11 +16,11 @@ Especifica si el documento está en modo de diseño de formularios.
 public bool FormsDesign { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 Actualmente sólo funciona con documentos en formato WordML.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo habilitar/deshabilitar el modo de diseño de formularios.
 
@@ -40,7 +42,5 @@ Assert.AreEqual(useFormsDesign,
 ### Ver también
 
 * class [ViewOptions](../)
-* espacio de nombres [Aspose.Words.Settings](../../viewoptions/)
+* espacio de nombres [Aspose.Words.Settings](../../../aspose.words.settings/)
 * asamblea [Aspose.Words](../../../)
-
-

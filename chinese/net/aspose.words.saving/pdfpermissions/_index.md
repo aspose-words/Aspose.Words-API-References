@@ -1,7 +1,9 @@
 ---
-title: Enum PdfPermissions
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Saving.PdfPermissions 枚举. 指定允许用户对加密的 PDF 文档执行的操作
+title: PdfPermissions Enum
+linktitle: PdfPermissions
+articleTitle: PdfPermissions
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Saving.PdfPermissions 枚举. 指定允许用户对加密的 PDF 文档执行的操作 在 C#.
 type: docs
 weight: 5510
 url: /zh/net/aspose.words.saving/pdfpermissions/
@@ -30,7 +32,7 @@ public enum PdfPermissions
 | Printing | `4` | 打印文档（可能不是最高质量级别，取决于是否 HighResolutionPrinting也已设置). |
 | HighResolutionPrinting | `804` | 将文档打印为一种表示形式，根据依赖于实现的算法，可以根据该表示形式生成 PDF 内容的忠实数字副本。当该标志被清除时（and Printing设置），打印应仅限于外观的低级表示， 可能质量下降。 |
 
-### 例子
+## 例子
 
 演示如何设置已保存 PDF 文档的权限。
 
@@ -58,5 +60,3 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.EncryptionPermissions.pdf", saveOptions)
 
 * 命名空间 [Aspose.Words.Saving](../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../)
-
-

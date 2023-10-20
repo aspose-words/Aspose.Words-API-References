@@ -1,7 +1,9 @@
 ---
 title: FieldIndex.PageNumberSeparator
-second_title: Aspose.Words لمراجع .NET API
-description: FieldIndex ملكية. الحصول على أو تعيين تسلسل الأحرف المستخدم لفصل إدخال الفهرس ورقم الصفحة الخاصة به.
+linktitle: PageNumberSeparator
+articleTitle: PageNumberSeparator
+second_title: Aspose.Words لـ .NET
+description: FieldIndex PageNumberSeparator ملكية. الحصول على أو تعيين تسلسل الأحرف المستخدم لفصل إدخال الفهرس ورقم الصفحة الخاصة به في C#.
 type: docs
 weight: 120
 url: /ar/net/aspose.words.fields/fieldindex/pagenumberseparator/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldindex/pagenumberseparator/
 public string PageNumberSeparator { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحرير فاصل رقم الصفحة في حقل INDEX.
 
@@ -61,7 +63,5 @@ doc.Save(ArtifactsDir + "Field.INDEX.XE.PageNumberList.docx");
 ### أنظر أيضا
 
 * class [FieldIndex](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldindex/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

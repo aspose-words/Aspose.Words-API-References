@@ -1,12 +1,14 @@
 ---
 title: DocumentBuilder.InsertDocument
-second_title: Référence de l'API Aspose.Words pour .NET
-description: DocumentBuilder méthode. Insère un document à la position du curseur.
+linktitle: InsertDocument
+articleTitle: InsertDocument
+second_title: Aspose.Words pour .NET
+description: DocumentBuilder InsertDocument méthode. Insère un document à la position du curseur en C#.
 type: docs
 weight: 310
 url: /fr/net/aspose.words/documentbuilder/insertdocument/
 ---
-## InsertDocument(Document, ImportFormatMode) {#insertdocument}
+## InsertDocument(*[Document](../../document/), [ImportFormatMode](../../importformatmode/)*) {#insertdocument}
 
 Insère un document à la position du curseur.
 
@@ -23,11 +25,11 @@ public Node InsertDocument(Document srcDoc, ImportFormatMode importFormatMode)
 
 Premier nœud du contenu inséré.
 
-### Remarques
+## Remarques
 
 Cette méthode imite le comportement de MS Word, comme si CTRL+'A' (sélectionner tout le contenu) était enfoncé, puis CTRL+'C' (copie sélectionnée dans le tampon) à l'intérieur d'un document puis CTRL+'V' (insérer le contenu du tampon) dans un autre document.
 
-### Exemples
+## Exemples
 
 Montre comment insérer un document dans un autre document.
 
@@ -50,12 +52,12 @@ builder.Document.Save(ArtifactsDir + "DocumentBuilder.InsertDocument.docx");
 * class [Document](../../document/)
 * enum [ImportFormatMode](../../importformatmode/)
 * class [DocumentBuilder](../)
-* espace de noms [Aspose.Words](../../documentbuilder/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
 
 ---
 
-## InsertDocument(Document, ImportFormatMode, ImportFormatOptions) {#insertdocument_1}
+## InsertDocument(*[Document](../../document/), [ImportFormatMode](../../importformatmode/), [ImportFormatOptions](../../importformatoptions/)*) {#insertdocument_1}
 
 Insère un document à la position du curseur.
 
@@ -74,11 +76,11 @@ public Node InsertDocument(Document srcDoc, ImportFormatMode importFormatMode,
 
 Premier nœud du contenu inséré.
 
-### Remarques
+## Remarques
 
 Cette méthode imite le comportement de MS Word, comme si CTRL+'A' (sélectionner tout le contenu) était enfoncé, puis CTRL+'C' (copie sélectionnée dans le tampon) à l'intérieur d'un document puis CTRL+'V' (insérer le contenu du tampon) dans un autre document.
 
-### Exemples
+## Exemples
 
 Montre comment résoudre les styles en double lors de l’insertion de documents.
 
@@ -117,7 +119,5 @@ dstDoc.Save(ArtifactsDir + "DocumentBuilder.SmartStyleBehavior.docx");
 * enum [ImportFormatMode](../../importformatmode/)
 * class [ImportFormatOptions](../../importformatoptions/)
 * class [DocumentBuilder](../)
-* espace de noms [Aspose.Words](../../documentbuilder/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

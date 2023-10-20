@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.WPJustification
-second_title: Aspose.Words för .NET API Referens
-description: CompatibilityOptions fast egendom. Emulate WordPerfect 6.x Paragraph Justification.
+linktitle: WPJustification
+articleTitle: WPJustification
+second_title: Aspose.Words för .NET
+description: CompatibilityOptions WPJustification fast egendom. Emulate WordPerfect 6.x Paragraph Justification i C#.
 type: docs
 weight: 690
 url: /sv/net/aspose.words.settings/compatibilityoptions/wpjustification/
@@ -17,7 +19,5 @@ public bool WPJustification { get; set; }
 ### Se även
 
 * class [CompatibilityOptions](../)
-* namnutrymme [Aspose.Words.Settings](../../compatibilityoptions/)
+* namnutrymme [Aspose.Words.Settings](../../../aspose.words.settings/)
 * hopsättning [Aspose.Words](../../../)
-
-

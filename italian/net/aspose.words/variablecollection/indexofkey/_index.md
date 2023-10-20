@@ -1,7 +1,9 @@
 ---
 title: VariableCollection.IndexOfKey
-second_title: Aspose.Words per .NET API Reference
-description: VariableCollection metodo. Restituisce lindice in base zero della variabile del documento specificata nella raccolta.
+linktitle: IndexOfKey
+articleTitle: IndexOfKey
+second_title: Aspose.Words per .NET
+description: VariableCollection IndexOfKey metodo. Restituisce lindice in base zero della variabile del documento specificata nella raccolta in C#.
 type: docs
 weight: 70
 url: /it/net/aspose.words/variablecollection/indexofkey/
@@ -22,7 +24,7 @@ public int IndexOfKey(string name)
 
 L'indice a base zero. Valore negativo se non trovato.
 
-### Esempi
+## Esempi
 
 Mostra come lavorare con la raccolta di variabili di un documento.
 
@@ -89,7 +91,5 @@ Assert.That(variables, Is.Empty);
 ### Guarda anche
 
 * class [VariableCollection](../)
-* spazio dei nomi [Aspose.Words](../../variablecollection/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: CssSavingArgs.KeepCssStreamOpen
-second_title: Aspose.Words för .NET API Referens
-description: CssSavingArgs fast egendom. Anger om Aspose.Words ska hålla strömmen öppen eller stänga den efter att ha sparat en CSSinformation.
+linktitle: KeepCssStreamOpen
+articleTitle: KeepCssStreamOpen
+second_title: Aspose.Words för .NET
+description: CssSavingArgs KeepCssStreamOpen fast egendom. Anger om Aspose.Words ska hålla strömmen öppen eller stänga den efter att ha sparat en CSSinformation i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.saving/csssavingargs/keepcssstreamopen/
@@ -14,11 +16,11 @@ Anger om Aspose.Words ska hålla strömmen öppen eller stänga den efter att ha
 public bool KeepCssStreamOpen { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Standard är`falsk` och Aspose.Words kommer att stänga strömmen du angav i[`CssStream`](../cssstream/) egenskap efter att ha skrivit in en CSS-information i den. Specificera`Sann` för att hålla strömmen öppen.
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med CSS-formatmallar som en HTML-konvertering skapar.
 
@@ -79,7 +81,5 @@ private class CustomCssSavingCallback : ICssSavingCallback
 ### Se även
 
 * class [CssSavingArgs](../)
-* namnutrymme [Aspose.Words.Saving](../../csssavingargs/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

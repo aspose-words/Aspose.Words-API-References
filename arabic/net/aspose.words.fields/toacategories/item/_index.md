@@ -1,7 +1,9 @@
 ---
 title: ToaCategories.Item
-second_title: Aspose.Words لمراجع .NET API
-description: ToaCategories ملكية. الحصول على عنوان الفئة أو تعيينه حسب رقم الفئة.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words لـ .NET
+description: ToaCategories Item ملكية. الحصول على عنوان الفئة أو تعيينه حسب رقم الفئة في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.fields/toacategories/item/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/toacategories/item/
 public string this[int number] { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحديد مجموعة من الفئات لحقول TOA.
 
@@ -62,7 +64,5 @@ doc.Save(ArtifactsDir + "FieldOptions.TOA.Categories.docx");
 ### أنظر أيضا
 
 * class [ToaCategories](../)
-* مساحة الاسم [Aspose.Words.Fields](../../toacategories/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

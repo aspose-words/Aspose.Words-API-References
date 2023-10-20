@@ -1,7 +1,9 @@
 ---
 title: XmlMapping.StoreItemId
-second_title: Справочник по API Aspose.Words для .NET
-description: XmlMapping свойство. Указывает пользовательский идентификатор XMLданных для пользовательской части данных XML который должен использоваться для оценкиXPath выражение.
+linktitle: StoreItemId
+articleTitle: StoreItemId
+second_title: Aspose.Words для .NET
+description: XmlMapping StoreItemId свойство. Указывает пользовательский идентификатор XMLданных для пользовательской части данных XML который должен использоваться для оценкиXPath выражение на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.markup/xmlmapping/storeitemid/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.markup/xmlmapping/storeitemid/
 public string StoreItemId { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как получить пользовательский идентификатор данных XML части XML.
 
@@ -30,7 +32,5 @@ Assert.AreEqual("{F3029283-4FF8-4DD2-9F31-395F19ACEE85}", tag.XmlMapping.StoreIt
 ### Смотрите также
 
 * class [XmlMapping](../)
-* пространство имен [Aspose.Words.Markup](../../xmlmapping/)
+* пространство имен [Aspose.Words.Markup](../../../aspose.words.markup/)
 * сборка [Aspose.Words](../../../)
-
-

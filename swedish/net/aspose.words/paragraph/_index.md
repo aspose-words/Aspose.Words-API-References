@@ -1,7 +1,9 @@
 ---
-title: Class Paragraph
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Paragraph klass. Representerar ett textstycke.
+title: Paragraph Class
+linktitle: Paragraph
+articleTitle: Paragraph
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Paragraph klass. Representerar ett textstycke i C#.
 type: docs
 weight: 4390
 url: /sv/net/aspose.words/paragraph/
@@ -20,7 +22,7 @@ public class Paragraph : CompositeNode
 
 | namn | Beskrivning |
 | --- | --- |
-| [Paragraph](paragraph/)(DocumentBase) | Initierar en ny instans av`Paragraph` class. |
+| [Paragraph](paragraph/)(*[DocumentBase](../documentbase/)*) | Initierar en ny instans av`Paragraph` class. |
 
 ## Egenskaper
 
@@ -63,42 +65,40 @@ public class Paragraph : CompositeNode
 
 | namn | Beskrivning |
 | --- | --- |
-| override [Accept](../../aspose.words/paragraph/accept/)(DocumentVisitor) | Accepterar en besökare. |
-| override [AcceptEnd](../../aspose.words/paragraph/acceptend/)(DocumentVisitor) |  |
-| override [AcceptStart](../../aspose.words/paragraph/acceptstart/)(DocumentVisitor) |  |
-| [AppendChild&lt;T&gt;](../../aspose.words/compositenode/appendchild/)(T) |  |
-| [AppendField](../../aspose.words/paragraph/appendfield/#appendfield_1)(string) | Lägger till ett fält i detta stycke. |
-| [AppendField](../../aspose.words/paragraph/appendfield/#appendfield)(FieldType, bool) | Lägger till ett fält i detta stycke. |
-| [AppendField](../../aspose.words/paragraph/appendfield/#appendfield_2)(string, string) | Lägger till ett fält i detta stycke. |
-| [Clone](../../aspose.words/node/clone/)(bool) | Skapar en dubblett av noden. |
+| override [Accept](../../aspose.words/paragraph/accept/)(*[DocumentVisitor](../documentvisitor/)*) | Accepterar en besökare. |
+| [AppendChild](../../aspose.words/compositenode/appendchild/)(*[Node](../node/)*) | Lägger till den angivna noden i slutet av listan över underordnade noder för denna nod. |
+| [AppendField](../../aspose.words/paragraph/appendfield/#appendfield_1)(*string*) | Lägger till ett fält i detta stycke. |
+| [AppendField](../../aspose.words/paragraph/appendfield/#appendfield)(*[FieldType](../../aspose.words.fields/fieldtype/), bool*) | Lägger till ett fält i detta stycke. |
+| [AppendField](../../aspose.words/paragraph/appendfield/#appendfield_2)(*string, string*) | Lägger till ett fält i detta stycke. |
+| [Clone](../../aspose.words/node/clone/)(*bool*) | Skapar en dubblett av noden. |
 | [CreateNavigator](../../aspose.words/compositenode/createnavigator/)() | Skapar navigator som kan användas för att korsa och läsa noder. |
-| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Hämtar den första förfadern till den angivna[`NodeType`](../nodetype/) . |
-| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Hämtar den första förfadern till den angivna objekttypen. |
-| [GetChild](../../aspose.words/compositenode/getchild/)(NodeType, int, bool) | Returnerar en N:te underordnad nod som matchar den angivna typen. |
-| [GetChildNodes](../../aspose.words/compositenode/getchildnodes/)(NodeType, bool) | Returnerar en aktiv samling av underordnade noder som matchar den angivna typen. |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*[NodeType](../nodetype/)*) | Hämtar den första förfadern till den angivna[`NodeType`](../nodetype/) . |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | Hämtar den första förfadern till den angivna objekttypen. |
+| [GetChild](../../aspose.words/compositenode/getchild/)(*[NodeType](../nodetype/), int, bool*) | Returnerar en N:te underordnad nod som matchar den angivna typen. |
+| [GetChildNodes](../../aspose.words/compositenode/getchildnodes/)(*[NodeType](../nodetype/), bool*) | Returnerar en aktiv samling av underordnade noder som matchar den angivna typen. |
 | [GetEffectiveTabStops](../../aspose.words/paragraph/geteffectivetabstops/)() | Returnerar array av alla tabbstopp som tillämpas på detta stycke, inklusive applicerade indirekt av stilar eller listor. |
 | [GetEnumerator](../../aspose.words/compositenode/getenumerator/)() | Tillhandahåller stöd för varje stiliteration över undernoderna för denna nod. |
 | override [GetText](../../aspose.words/paragraph/gettext/)() | Hämtar texten i detta stycke inklusive slutet av styckets tecken. |
-| [IndexOf](../../aspose.words/compositenode/indexof/)(Node) | Returnerar indexet för den angivna undernoden i den underordnade nodmatrisen. |
-| [InsertAfter&lt;T&gt;](../../aspose.words/compositenode/insertafter/)(T, Node) |  |
-| [InsertBefore&lt;T&gt;](../../aspose.words/compositenode/insertbefore/)(T, Node) |  |
-| [InsertField](../../aspose.words/paragraph/insertfield/#insertfield_1)(string, Node, bool) | Infogar ett fält i detta stycke. |
-| [InsertField](../../aspose.words/paragraph/insertfield/#insertfield)(FieldType, bool, Node, bool) | Infogar ett fält i detta stycke. |
-| [InsertField](../../aspose.words/paragraph/insertfield/#insertfield_2)(string, string, Node, bool) | Infogar ett fält i detta stycke. |
+| [IndexOf](../../aspose.words/compositenode/indexof/)(*[Node](../node/)*) | Returnerar indexet för den angivna undernoden i den underordnade nodmatrisen. |
+| [InsertAfter](../../aspose.words/compositenode/insertafter/)(*[Node](../node/), [Node](../node/)*) | Infogar den angivna noden omedelbart efter den angivna referensnoden. |
+| [InsertBefore](../../aspose.words/compositenode/insertbefore/)(*[Node](../node/), [Node](../node/)*) | Infogar den angivna noden omedelbart före den angivna referensnoden. |
+| [InsertField](../../aspose.words/paragraph/insertfield/#insertfield_1)(*string, [Node](../node/), bool*) | Infogar ett fält i detta stycke. |
+| [InsertField](../../aspose.words/paragraph/insertfield/#insertfield)(*[FieldType](../../aspose.words.fields/fieldtype/), bool, [Node](../node/), bool*) | Infogar ett fält i detta stycke. |
+| [InsertField](../../aspose.words/paragraph/insertfield/#insertfield_2)(*string, string, [Node](../node/), bool*) | Infogar ett fält i detta stycke. |
 | [JoinRunsWithSameFormatting](../../aspose.words/paragraph/joinrunswithsameformatting/)() | Joins körs med samma formatering i stycket. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Hämtar nästa nod enligt algoritmen för förbeställningsträdet. |
-| [PrependChild&lt;T&gt;](../../aspose.words/compositenode/prependchild/)(T) |  |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Hämtar föregående nod enligt algoritmen för förbeställningsträdet. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../node/)*) | Hämtar nästa nod enligt algoritmen för förbeställningsträdet. |
+| [PrependChild](../../aspose.words/compositenode/prependchild/)(*[Node](../node/)*) | Lägger till den angivna noden i början av listan över underordnade noder för denna nod. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../node/)*) | Hämtar föregående nod enligt algoritmen för förbeställningsträdet. |
 | [Remove](../../aspose.words/node/remove/)() | Tar bort sig själv från föräldern. |
 | [RemoveAllChildren](../../aspose.words/compositenode/removeallchildren/)() | Tar bort alla undernoder för den aktuella noden. |
-| [RemoveChild&lt;T&gt;](../../aspose.words/compositenode/removechild/)(T) |  |
+| [RemoveChild](../../aspose.words/compositenode/removechild/)(*[Node](../node/)*) | Tar bort den angivna underordnade noden. |
 | [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags/)() | Tar bort alla[`SmartTag`](../../aspose.words.markup/smarttag/)underliggande noder till den aktuella noden. |
-| [SelectNodes](../../aspose.words/compositenode/selectnodes/)(string) | Väljer en lista med noder som matchar XPath-uttrycket. |
-| [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(string) | Väljer den första[`Node`](../node/) som matchar XPath-uttrycket. |
-| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Exporterar innehållet i noden till en sträng i angivet format. |
-| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | Exporterar innehållet i noden till en sträng med de angivna sparalternativen. |
+| [SelectNodes](../../aspose.words/compositenode/selectnodes/)(*string*) | Väljer en lista med noder som matchar XPath-uttrycket. |
+| [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(*string*) | Väljer den första[`Node`](../node/) som matchar XPath-uttrycket. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../saveformat/)*) | Exporterar innehållet i noden till en sträng i angivet format. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | Exporterar innehållet i noden till en sträng med de angivna sparalternativen. |
 
-### Anmärkningar
+## Anmärkningar
 
 `Paragraph` är en nod på blocknivå och kan vara ett barn av klasser härledda från [`Story`](../story/) eller[`InlineStory`](../inlinestory/).
 
@@ -110,7 +110,7 @@ Ett giltigt stycke i Microsoft Word slutar alltid med ett styckebrytningstecken 
 
 Inkludera inte slutet av stycket[`ParagraphBreak`](../controlchar/paragraphbreak/) eller slutet av cellen[`Cell`](../controlchar/cell/) tecken i texten i stycket eftersom det kan göra stycket ogiltigt när dokumentet öppnas i Microsoft Word.
 
-### Exempel
+## Exempel
 
 Visar hur man konstruerar ett Aspose.Words-dokument för hand.
 
@@ -162,5 +162,3 @@ doc.Save(ArtifactsDir + "Section.CreateManually.docx");
 * class [CompositeNode](../compositenode/)
 * namnutrymme [Aspose.Words](../../aspose.words/)
 * hopsättning [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class TextColumnCollection
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.TextColumnCollection klas. Eine Sammlung vonTextColumn Objekte die alle Textspalten in einem Abschnitt eines Dokuments darstellen.
+title: TextColumnCollection Class
+linktitle: TextColumnCollection
+articleTitle: TextColumnCollection
+second_title: Aspose.Words für .NET
+description: Aspose.Words.TextColumnCollection klas. Eine Sammlung vonTextColumn Objekte die alle Textspalten in einem Abschnitt eines Dokuments darstellen in C#.
 type: docs
 weight: 6400
 url: /de/net/aspose.words/textcolumncollection/
@@ -31,9 +33,9 @@ public class TextColumnCollection
 
 | Name | Beschreibung |
 | --- | --- |
-| [SetCount](../../aspose.words/textcolumncollection/setcount/)(int) | Ordnet Text in der angegebenen Anzahl von Textspalten an. |
+| [SetCount](../../aspose.words/textcolumncollection/setcount/)(*int*) | Ordnet Text in der angegebenen Anzahl von Textspalten an. |
 
-### Bemerkungen
+## Bemerkungen
 
 Verwenden[`SetCount`](./setcount/) um die Anzahl der Textspalten festzulegen.
 
@@ -43,7 +45,7 @@ Wenn Sie haben[`EvenlySpaced`](./evenlyspaced/) einstellen`FALSCH` , müssen Sie
 
 Wenn Sie benutzerdefinierte Spaltenbreiten verwenden, stellen Sie sicher, dass die Summe aller Spaltenbreiten und Abstände dazwischen der Seitenbreite minus dem linken und rechten Seitenrand entspricht.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie mehrere gleichmäßig verteilte Spalten in einem Abschnitt erstellen.
 
@@ -66,5 +68,3 @@ doc.Save(ArtifactsDir + "PageSetup.ColumnsSameWidth.docx");
 
 * namensraum [Aspose.Words](../../aspose.words/)
 * Montage [Aspose.Words](../../)
-
-

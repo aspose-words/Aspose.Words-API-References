@@ -1,12 +1,14 @@
 ---
 title: ImageData.SetImage
-second_title: Aspose.Words per .NET API Reference
-description: ImageData metodo. Imposta limmagine visualizzata dalla forma.
+linktitle: SetImage
+articleTitle: SetImage
+second_title: Aspose.Words per .NET
+description: ImageData SetImage metodo. Imposta limmagine visualizzata dalla forma in C#.
 type: docs
-weight: 210
+weight: 200
 url: /it/net/aspose.words.drawing/imagedata/setimage/
 ---
-## SetImage(Image) {#setimage}
+## SetImage(*Image*) {#setimage}
 
 Imposta l'immagine visualizzata dalla forma.
 
@@ -18,7 +20,7 @@ public void SetImage(Image image)
 | --- | --- | --- |
 | image | Image | L'oggetto immagine. |
 
-### Esempi
+## Esempi
 
 Mostra come visualizzare le immagini dal file system locale in un documento.
 
@@ -53,12 +55,12 @@ doc.Save(ArtifactsDir + "Drawing.ImportImage.docx");
 ### Guarda anche
 
 * class [ImageData](../)
-* spazio dei nomi [Aspose.Words.Drawing](../../imagedata/)
+* spazio dei nomi [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assemblea [Aspose.Words](../../../)
 
 ---
 
-## SetImage(Stream) {#setimage_1}
+## SetImage(*Stream*) {#setimage_1}
 
 Imposta l'immagine visualizzata dalla forma.
 
@@ -70,7 +72,7 @@ public void SetImage(Stream stream)
 | --- | --- | --- |
 | stream | Stream | Lo stream che contiene l'immagine. |
 
-### Esempi
+## Esempi
 
 Mostra come visualizzare le immagini dal file system locale in un documento.
 
@@ -105,12 +107,12 @@ doc.Save(ArtifactsDir + "Drawing.ImportImage.docx");
 ### Guarda anche
 
 * class [ImageData](../)
-* spazio dei nomi [Aspose.Words.Drawing](../../imagedata/)
+* spazio dei nomi [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assemblea [Aspose.Words](../../../)
 
 ---
 
-## SetImage(string) {#setimage_2}
+## SetImage(*string*) {#setimage_2}
 
 Imposta l'immagine visualizzata dalla forma.
 
@@ -122,7 +124,7 @@ public void SetImage(string fileName)
 | --- | --- | --- |
 | fileName | String | Il file immagine. Può essere un nome file o un URL. |
 
-### Esempi
+## Esempi
 
 Mostra come inserire un'immagine collegata in un documento.
 
@@ -164,7 +166,5 @@ Assert.True(10000 > new FileInfo(ArtifactsDir + "Image.CreateLinkedImage.Linked.
 ### Guarda anche
 
 * class [ImageData](../)
-* spazio dei nomi [Aspose.Words.Drawing](../../imagedata/)
+* spazio dei nomi [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assemblea [Aspose.Words](../../../)
-
-

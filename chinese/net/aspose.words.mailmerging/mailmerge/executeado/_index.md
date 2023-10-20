@@ -1,7 +1,9 @@
 ---
 title: MailMerge.ExecuteADO
-second_title: Aspose.Words for .NET API 参考
-description: MailMerge 方法. 将 ADO Recordset 对象的邮件合并到文档中
+linktitle: ExecuteADO
+articleTitle: ExecuteADO
+second_title: 用于 .NET 的 Aspose.Words
+description: MailMerge ExecuteADO 方法. 将 ADO Recordset 对象的邮件合并到文档中 在 C#.
 type: docs
 weight: 190
 url: /zh/net/aspose.words.mailmerging/mailmerge/executeado/
@@ -18,7 +20,7 @@ public void ExecuteADO(object recordset)
 | --- | --- | --- |
 | recordset | Object | ADO 记录集或记录对象。 |
 
-### 评论
+## 评论
 
 当您打算使用非托管代码中的 Aspose.Words 类 as COM 对象（例如使用 ASP 或 Visual Basic 6.0 构建的应用程序）时，此方法非常有用。
 
@@ -26,7 +28,7 @@ public void ExecuteADO(object recordset)
 
 欲了解更多信息，请参阅描述[`Execute`](../execute/)。
 
-### 例子
+## 例子
 
 ```csharp
 [VBScript]
@@ -101,7 +103,5 @@ private static Document CreateSourceDocADOMailMerge()
 ### 也可以看看
 
 * class [MailMerge](../)
-* 命名空间 [Aspose.Words.MailMerging](../../mailmerge/)
+* 命名空间 [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * 部件 [Aspose.Words](../../../)
-
-

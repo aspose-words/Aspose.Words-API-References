@@ -1,7 +1,9 @@
 ---
 title: OfficeMath.DisplayType
-second_title: Aspose.Words för .NET API Referens
-description: OfficeMath fast egendom. Hämtar/ställer in Office Math visningsformattyp som representerar om en ekvation visas inline med text eller visas på sin egen rad.
+linktitle: DisplayType
+articleTitle: DisplayType
+second_title: Aspose.Words för .NET
+description: OfficeMath DisplayType fast egendom. Hämtar/ställer in Office Math visningsformattyp som representerar om en ekvation visas inline med text eller visas på sin egen rad i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.math/officemath/displaytype/
@@ -14,13 +16,13 @@ Hämtar/ställer in Office Math visningsformattyp som representerar om en ekvati
 public OfficeMathDisplayType DisplayType { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Visningsformattyp har endast effekt för Office Math på högsta nivån.
 
 Returnerad visningsformattyp är alltidInline för kapslad Office Math.
 
-### Exempel
+## Exempel
 
 Visar hur du ställer in kontorsmattevisningsformatering.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "Shape.OfficeMath.docx");
 
 * enum [OfficeMathDisplayType](../../officemathdisplaytype/)
 * class [OfficeMath](../)
-* namnutrymme [Aspose.Words.Math](../../officemath/)
+* namnutrymme [Aspose.Words.Math](../../../aspose.words.math/)
 * hopsättning [Aspose.Words](../../../)
-
-

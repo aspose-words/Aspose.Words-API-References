@@ -1,7 +1,9 @@
 ---
 title: Odso.TableName
-second_title: Aspose.Words per .NET API Reference
-description: Odso proprietà. Specifica il particolare set di dati a cui deve essere connessa unorigine allinterno di unorigine dati esterna. Il valore predefinito è una stringa vuota.
+linktitle: TableName
+articleTitle: TableName
+second_title: Aspose.Words per .NET
+description: Odso TableName proprietà. Specifica il particolare set di dati a cui deve essere connessa unorigine allinterno di unorigine dati esterna. Il valore predefinito è una stringa vuota in C#.
 type: docs
 weight: 80
 url: /it/net/aspose.words.settings/odso/tablename/
@@ -14,7 +16,7 @@ Specifica il particolare set di dati a cui deve essere connessa un'origine all'i
 public string TableName { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come eseguire una stampa unione durante la connessione a un'origine dati esterna.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "MailMerge.OdsoEmail.docx");
 ### Guarda anche
 
 * class [Odso](../)
-* spazio dei nomi [Aspose.Words.Settings](../../odso/)
+* spazio dei nomi [Aspose.Words.Settings](../../../aspose.words.settings/)
 * assemblea [Aspose.Words](../../../)
-
-

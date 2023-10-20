@@ -1,7 +1,9 @@
 ---
 title: RtfLoadOptions.RecognizeUtf8Text
-second_title: Référence de l'API Aspose.Words pour .NET
-description: RtfLoadOptions propriété. Lorsquil est réglé survrai CharsetDetector va essayer de détecter les caractères UTF8 ils seront conservés lors de limportation.
+linktitle: RecognizeUtf8Text
+articleTitle: RecognizeUtf8Text
+second_title: Aspose.Words pour .NET
+description: RtfLoadOptions RecognizeUtf8Text propriété. Lorsquil est réglé survrai CharsetDetector va essayer de détecter les caractères UTF8 ils seront conservés lors de limportation en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.loading/rtfloadoptions/recognizeutf8text/
@@ -16,7 +18,7 @@ La valeur par défaut est`FAUX` .
 public bool RecognizeUtf8Text { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment détecter les caractères UTF-8 lors du chargement d'un document RTF.
 
@@ -43,7 +45,5 @@ Assert.AreEqual(
 ### Voir également
 
 * class [RtfLoadOptions](../)
-* espace de noms [Aspose.Words.Loading](../../rtfloadoptions/)
+* espace de noms [Aspose.Words.Loading](../../../aspose.words.loading/)
 * Assemblée [Aspose.Words](../../../)
-
-

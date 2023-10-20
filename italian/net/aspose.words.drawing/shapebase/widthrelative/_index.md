@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.WidthRelative
-second_title: Aspose.Words per .NET API Reference
-description: ShapeBase proprietà. Ottiene o imposta il valore che rappresenta la percentuale della larghezza relativa della forma.
+linktitle: WidthRelative
+articleTitle: WidthRelative
+second_title: Aspose.Words per .NET
+description: ShapeBase WidthRelative proprietà. Ottiene o imposta il valore che rappresenta la percentuale della larghezza relativa della forma in C#.
 type: docs
 weight: 580
 url: /it/net/aspose.words.drawing/shapebase/widthrelative/
@@ -14,7 +16,7 @@ Ottiene o imposta il valore che rappresenta la percentuale della larghezza relat
 public float WidthRelative { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come impostare la dimensione e la posizione relativa.
 
@@ -69,7 +71,5 @@ doc.Save(ArtifactsDir + "Shape.RelativeSizeAndPosition.docx");
 ### Guarda anche
 
 * class [ShapeBase](../)
-* spazio dei nomi [Aspose.Words.Drawing](../../shapebase/)
+* spazio dei nomi [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assemblea [Aspose.Words](../../../)
-
-

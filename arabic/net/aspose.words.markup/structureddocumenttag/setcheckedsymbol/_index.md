@@ -1,9 +1,11 @@
 ---
 title: StructuredDocumentTag.SetCheckedSymbol
-second_title: Aspose.Words لمراجع .NET API
-description: StructuredDocumentTag طريقة. يعين الرمز المستخدم لتمثيل الحالة المحددة لعنصر تحكم محتوى خانة الاختيار.
+linktitle: SetCheckedSymbol
+articleTitle: SetCheckedSymbol
+second_title: Aspose.Words لـ .NET
+description: StructuredDocumentTag SetCheckedSymbol طريقة. يعين الرمز المستخدم لتمثيل الحالة المحددة لعنصر تحكم محتوى خانة الاختيار في C#.
 type: docs
-weight: 380
+weight: 360
 url: /ar/net/aspose.words.markup/structureddocumenttag/setcheckedsymbol/
 ---
 ## StructuredDocumentTag.SetCheckedSymbol method
@@ -19,13 +21,13 @@ public void SetCheckedSymbol(int characterCode, string fontName)
 | characterCode | Int32 | رمز الحرف للرمز المحدد. |
 | fontName | String | اسم الخط الذي يحتوي على الرمز. |
 
-### ملاحظات
+## ملاحظات
 
 الوصول إلى هذه الطريقة لن يعمل إلا من أجلCheckbox أنواع المعاملة الخاصة والتفضيلية.
 
 بالنسبة لجميع أنواع SDT الأخرى، سيحدث استثناء.
 
-### أمثلة
+## أمثلة
 
 أظهر كيفية إنشاء علامة مستند منظمة على شكل مربع اختيار.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.CheckBox.docx");
 ### أنظر أيضا
 
 * class [StructuredDocumentTag](../)
-* مساحة الاسم [Aspose.Words.Markup](../../structureddocumenttag/)
+* مساحة الاسم [Aspose.Words.Markup](../../../aspose.words.markup/)
 * المجسم [Aspose.Words](../../../)
-
-

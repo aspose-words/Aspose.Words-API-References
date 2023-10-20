@@ -1,7 +1,9 @@
 ---
 title: FontInfoCollection.Count
-second_title: Aspose.Words لمراجع .NET API
-description: FontInfoCollection ملكية. الحصول على عدد العناصر الموجودة في المجموعة.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words لـ .NET
+description: FontInfoCollection Count ملكية. الحصول على عدد العناصر الموجودة في المجموعة في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fonts/fontinfocollection/count/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fonts/fontinfocollection/count/
 public int Count { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يعرض معلومات حول الخطوط الموجودة في المستند الفارغ.
 
@@ -35,7 +37,5 @@ Assert.True(doc.FontInfos.Contains("Arial"));
 ### أنظر أيضا
 
 * class [FontInfoCollection](../)
-* مساحة الاسم [Aspose.Words.Fonts](../../fontinfocollection/)
+* مساحة الاسم [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * المجسم [Aspose.Words](../../../)
-
-

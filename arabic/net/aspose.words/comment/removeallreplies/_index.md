@@ -1,9 +1,11 @@
 ---
 title: Comment.RemoveAllReplies
-second_title: Aspose.Words لمراجع .NET API
-description: Comment طريقة. يزيل كافة الردود على هذا التعليق.
+linktitle: RemoveAllReplies
+articleTitle: RemoveAllReplies
+second_title: Aspose.Words لـ .NET
+description: Comment RemoveAllReplies طريقة. يزيل كافة الردود على هذا التعليق في C#.
 type: docs
-weight: 160
+weight: 130
 url: /ar/net/aspose.words/comment/removeallreplies/
 ---
 ## Comment.RemoveAllReplies method
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words/comment/removeallreplies/
 public void RemoveAllReplies()
 ```
 
-### ملاحظات
+## ملاحظات
 
 سيتم حذف كافة العقد المكونة للردود من المستند.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إزالة ردود التعليقات.
 
@@ -50,7 +52,5 @@ Assert.AreEqual(0, comment.Replies.Count());
 ### أنظر أيضا
 
 * class [Comment](../)
-* مساحة الاسم [Aspose.Words](../../comment/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

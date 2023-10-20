@@ -1,7 +1,9 @@
 ---
 title: FrameFormat.Width
-second_title: Referencia de API de Aspose.Words para .NET
-description: FrameFormat propiedad. Obtiene el ancho del marco especificado en puntos.
+linktitle: Width
+articleTitle: Width
+second_title: Aspose.Words para .NET
+description: FrameFormat Width propiedad. Obtiene el ancho del marco especificado en puntos en C#.
 type: docs
 weight: 120
 url: /es/net/aspose.words/frameformat/width/
@@ -14,7 +16,7 @@ Obtiene el ancho del marco especificado, en puntos.
 public double Width { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo obtener información sobre las propiedades de formato de párrafos que son marcos.
 
@@ -39,7 +41,5 @@ Assert.AreEqual(0.0d, paragraphFrame.FrameFormat.VerticalDistanceFromText);
 ### Ver también
 
 * class [FrameFormat](../)
-* espacio de nombres [Aspose.Words](../../frameformat/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

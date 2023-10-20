@@ -1,7 +1,9 @@
 ---
-title: Class FieldToc
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Fields.FieldToc сорт. Реализует поле TOC.
+title: FieldToc Class
+linktitle: FieldToc
+articleTitle: FieldToc
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Fields.FieldToc сорт. Реализует поле TOC на С#.
 type: docs
 weight: 2530
 url: /ru/net/aspose.words.fields/fieldtoc/
@@ -58,18 +60,18 @@ public class FieldToc : Field
 | Имя | Описание |
 | --- | --- |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Возвращает текст между началом поля и разделителем поля (или концом поля, если разделителя нет). Включены как код поля, так и результат поля дочерних полей. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Возвращает текст между началом поля и разделителем полей (или концом поля, если разделителя нет). |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | Возвращает текст между началом поля и разделителем полей (или концом поля, если разделителя нет). |
 | [Remove](../../aspose.words.fields/field/remove/)() | Удаляет поле из документа. Возвращает узел сразу после поля. Если конец поля является последним дочерним его родительского узла, возвращает его родительский абзац. Если поле уже удалено, возвращается`нулевой` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | Выполняет отсоединение поля. |
 | [Update](../../aspose.words.fields/field/update/)() | Выполняет обновление поля. Выдает, если поле уже обновляется. |
-| [Update](../../aspose.words.fields/field/update/)(bool) | Выполняет обновление поля. Выдает, если поле уже обновляется. |
+| [Update](../../aspose.words.fields/field/update/)(*bool*) | Выполняет обновление поля. Выдает, если поле уже обновляется. |
 | [UpdatePageNumbers](../../aspose.words.fields/fieldtoc/updatepagenumbers/)() | Обновляет номера страниц для элементов в этом оглавлении. |
 
-### Примечания
+## Примечания
 
 Создает оглавление (которое также может быть таблицей рисунков) с использованием записей, указанных в полях TC, их уровней заголовков и указанных стилей, и вставляет эту таблицу в это место документа.
 
-### Примеры
+## Примеры
 
 Показывает, как вставить оглавление и заполнить его записями на основе стилей заголовков.
 
@@ -227,5 +229,3 @@ doc.Save(ArtifactsDir + "Field.TOC.SEQ.docx");
 * class [Field](../field/)
 * пространство имен [Aspose.Words.Fields](../../aspose.words.fields/)
 * сборка [Aspose.Words](../../)
-
-

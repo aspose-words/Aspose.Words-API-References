@@ -1,7 +1,9 @@
 ---
-title: Class List
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Lists.List 班级. 表示列表的格式化
+title: List Class
+linktitle: List
+articleTitle: List
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Lists.List 班级. 表示列表的格式化 在 C#.
 type: docs
 weight: 3460
 url: /zh/net/aspose.words.lists/list/
@@ -33,14 +35,14 @@ public class List : IComparable<List>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [CompareTo](../../aspose.words.lists/list/compareto/#compareto)(List) | 将指定列表与当前列表进行比较。 |
-| [CompareTo](../../aspose.words.lists/list/compareto/#compareto_1)(object) | 将指定对象与当前对象进行比较。 |
-| [Equals](../../aspose.words.lists/list/equals/#equals)(List) | 与指定列表进行比较。 |
-| override [Equals](../../aspose.words.lists/list/equals/#equals_1)(object) | 确定指定对象的值是否等于当前对象。 |
+| [CompareTo](../../aspose.words.lists/list/compareto/#compareto)(*List*) | 将指定列表与当前列表进行比较。 |
+| [CompareTo](../../aspose.words.lists/list/compareto/#compareto_1)(*object*) | 将指定对象与当前对象进行比较。 |
+| [Equals](../../aspose.words.lists/list/equals/#equals)(*List*) | 与指定列表进行比较。 |
+| override [Equals](../../aspose.words.lists/list/equals/#equals_1)(*object*) | 确定指定对象的值是否等于当前对象。 |
 | override [GetHashCode](../../aspose.words.lists/list/gethashcode/)() | 计算此列表对象的哈希码。 |
-| [HasSameTemplate](../../aspose.words.lists/list/hassametemplate/)(List) | 如果当前列表和给定列表是从同一模板创建的，则返回 true。 |
+| [HasSameTemplate](../../aspose.words.lists/list/hassametemplate/)(*List*) | 如果当前列表和给定列表是从同一模板创建的，则返回 true。 |
 
-### 评论
+## 评论
 
 Microsoft Word 文档中的列表是一组列表格式属性。 每个列表最多可以有 9 个级别，并且为每个级别单独定义格式属性，例如数字样式、起始值、 缩进、制表符位置等。
 
@@ -52,7 +54,7 @@ A`List`对象总是属于[`ListCollection`](../listcollection/)收藏。
 
 要应用或删除段落中的列表格式，请使用[`ListFormat`](../listformat/)。
 
-### 例子
+## 例子
 
 演示如何通过复制列表来重新开始列表中的编号。
 
@@ -199,5 +201,3 @@ doc.Save(ArtifactsDir + "Lists.SpecifyListLevel.docx");
 
 * 命名空间 [Aspose.Words.Lists](../../aspose.words.lists/)
 * 部件 [Aspose.Words](../../)
-
-

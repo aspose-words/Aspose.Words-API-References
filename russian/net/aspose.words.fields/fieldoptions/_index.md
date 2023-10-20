@@ -1,7 +1,9 @@
 ---
-title: Class FieldOptions
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Fields.FieldOptions сорт. Представляет параметры управления обработкой полей в документе.
+title: FieldOptions Class
+linktitle: FieldOptions
+articleTitle: FieldOptions
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Fields.FieldOptions сорт. Представляет параметры управления обработкой полей в документе на С#.
 type: docs
 weight: 2250
 url: /ru/net/aspose.words.fields/fieldoptions/
@@ -43,7 +45,7 @@ public sealed class FieldOptions
 | [UseInvariantCultureNumberFormat](../../aspose.words.fields/fieldoptions/useinvariantculturenumberformat/) { get; set; } | Получает или задает значение, указывающее, что числовой формат анализируется с использованием инвариантного языка и региональных параметров или нет |
 | [UserPromptRespondent](../../aspose.words.fields/fieldoptions/userpromptrespondent/) { get; set; } | Получает или задает респондента на запросы пользователя во время обновления поля. |
 
-### Примеры
+## Примеры
 
 Показывает, как указать источник языка и региональных параметров, используемый для форматирования даты во время обновления поля или слияния почты.
 
@@ -79,5 +81,3 @@ Thread.CurrentThread.CurrentCulture = currentCulture;
 
 * пространство имен [Aspose.Words.Fields](../../aspose.words.fields/)
 * сборка [Aspose.Words](../../)
-
-

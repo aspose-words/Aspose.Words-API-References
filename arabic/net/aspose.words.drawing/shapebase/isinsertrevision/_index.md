@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.IsInsertRevision
-second_title: Aspose.Words لمراجع .NET API
-description: ShapeBase ملكية. إرجاع صحيح إذا تم إدراج هذا الكائن في Microsoft Word أثناء تمكين تعقب التغييرات.
+linktitle: IsInsertRevision
+articleTitle: IsInsertRevision
+second_title: Aspose.Words لـ .NET
+description: ShapeBase IsInsertRevision ملكية. إرجاع صحيح إذا تم إدراج هذا الكائن في Microsoft Word أثناء تمكين تعقب التغييرات في C#.
 type: docs
 weight: 300
 url: /ar/net/aspose.words.drawing/shapebase/isinsertrevision/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing/shapebase/isinsertrevision/
 public bool IsInsertRevision { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع أشكال المراجعة.
 
@@ -61,7 +63,5 @@ Assert.True(shapes[1].IsInsertRevision);
 ### أنظر أيضا
 
 * class [ShapeBase](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../shapebase/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

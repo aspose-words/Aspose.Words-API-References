@@ -1,7 +1,9 @@
 ---
 title: DocumentBase.ResourceLoadingCallback
-second_title: Aspose.Words لمراجع .NET API
-description: DocumentBase ملكية. يسمح بالتحكم في كيفية تحميل الموارد الخارجية.
+linktitle: ResourceLoadingCallback
+articleTitle: ResourceLoadingCallback
+second_title: Aspose.Words لـ .NET
+description: DocumentBase ResourceLoadingCallback ملكية. يسمح بالتحكم في كيفية تحميل الموارد الخارجية في C#.
 type: docs
 weight: 70
 url: /ar/net/aspose.words/documentbase/resourceloadingcallback/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/documentbase/resourceloadingcallback/
 public IResourceLoadingCallback ResourceLoadingCallback { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تخصيص عملية تحميل الموارد الخارجية إلى مستند.
 
@@ -78,7 +80,5 @@ private class ImageNameHandler : IResourceLoadingCallback
 
 * interface [IResourceLoadingCallback](../../../aspose.words.loading/iresourceloadingcallback/)
 * class [DocumentBase](../)
-* مساحة الاسم [Aspose.Words](../../documentbase/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

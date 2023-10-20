@@ -1,7 +1,9 @@
 ---
-title: Shape.Shape
-second_title: Aspose.Words for .NET API 参考
-description: Shape 构造函数. 创建一个新的形状对象
+title: Shape
+linktitle: Shape
+articleTitle: Shape
+second_title: 用于 .NET 的 Aspose.Words
+description: Shape 构造函数. 创建一个新的形状对象 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.drawing/shape/shape/
@@ -19,11 +21,11 @@ public Shape(DocumentBase doc, ShapeType shapeType)
 | doc | DocumentBase | 所有者文件。 |
 | shapeType | ShapeType | 要创建的形状的类型。 |
 
-### 评论
+## 评论
 
 创建形状后，您应该指定所需的形状属性。
 
-### 例子
+## 例子
 
 演示如何将带有图像的形状从本地文件系统插入到文档中。
 
@@ -77,7 +79,5 @@ doc.Save(ArtifactsDir + "Shape.CreateTextBox.docx");
 * class [DocumentBase](../../../aspose.words/documentbase/)
 * enum [ShapeType](../../shapetype/)
 * class [Shape](../)
-* 命名空间 [Aspose.Words.Drawing](../../shape/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

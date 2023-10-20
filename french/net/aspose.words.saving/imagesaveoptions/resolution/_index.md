@@ -1,7 +1,9 @@
 ---
 title: ImageSaveOptions.Resolution
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ImageSaveOptions propriété. Définit la résolution horizontale et verticale des images générées en points par pouce.
+linktitle: Resolution
+articleTitle: Resolution
+second_title: Aspose.Words pour .NET
+description: ImageSaveOptions Resolution propriété. Définit la résolution horizontale et verticale des images générées en points par pouce en C#.
 type: docs
 weight: 130
 url: /fr/net/aspose.words.saving/imagesaveoptions/resolution/
@@ -14,11 +16,11 @@ Définit la résolution horizontale et verticale des images générées, en poin
 public float Resolution { set; }
 ```
 
-### Remarques
+## Remarques
 
 Cette propriété n'a d'effet que lors de l'enregistrement au format d'image raster.
 
-### Exemples
+## Exemples
 
 Montre comment spécifier une résolution lors du rendu d’un document au format PNG.
 
@@ -79,7 +81,5 @@ Document doc = new Document();
 ### Voir également
 
 * class [ImageSaveOptions](../)
-* espace de noms [Aspose.Words.Saving](../../imagesaveoptions/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTag.WordOpenXML
-second_title: Aspose.Words for .NET API 参考
-description: StructuredDocumentTag 财产. 获取表示节点中包含的 XML 的字符串FlatOpc格式.
+linktitle: WordOpenXML
+articleTitle: WordOpenXML
+second_title: 用于 .NET 的 Aspose.Words
+description: StructuredDocumentTag WordOpenXML 财产. 获取表示节点中包含的 XML 的字符串FlatOpc格式 在 C#.
 type: docs
 weight: 300
 url: /zh/net/aspose.words.markup/structureddocumenttag/wordopenxml/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.markup/structureddocumenttag/wordopenxml/
 public string WordOpenXML { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何获取包含在节点中的 FlatOpc 格式的 XML。
 
@@ -32,7 +34,5 @@ Assert.True(tags[0].WordOpenXML
 ### 也可以看看
 
 * class [StructuredDocumentTag](../)
-* 命名空间 [Aspose.Words.Markup](../../structureddocumenttag/)
+* 命名空间 [Aspose.Words.Markup](../../../aspose.words.markup/)
 * 部件 [Aspose.Words](../../../)
-
-

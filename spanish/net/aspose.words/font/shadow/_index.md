@@ -1,7 +1,9 @@
 ---
 title: Font.Shadow
-second_title: Referencia de API de Aspose.Words para .NET
-description: Font propiedad. Verdadero si la fuente tiene el formato sombreado.
+linktitle: Shadow
+articleTitle: Shadow
+second_title: Aspose.Words para .NET
+description: Font Shadow propiedad. Verdadero si la fuente tiene el formato sombreado en C#.
 type: docs
 weight: 330
 url: /es/net/aspose.words/font/shadow/
@@ -14,7 +16,7 @@ Verdadero si la fuente tiene el formato sombreado.
 public bool Shadow { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear una serie de texto formateado con una sombra.
 
@@ -35,7 +37,5 @@ doc.Save(ArtifactsDir + "Font.Shadow.docx");
 ### Ver también
 
 * class [Font](../)
-* espacio de nombres [Aspose.Words](../../font/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

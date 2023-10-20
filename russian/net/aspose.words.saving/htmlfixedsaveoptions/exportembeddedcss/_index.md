@@ -1,7 +1,9 @@
 ---
 title: HtmlFixedSaveOptions.ExportEmbeddedCss
-second_title: Справочник по API Aspose.Words для .NET
-description: HtmlFixedSaveOptions свойство. Указывает следует ли внедрять CSS каскадную таблицу стилей в HTMLдокумент.
+linktitle: ExportEmbeddedCss
+articleTitle: ExportEmbeddedCss
+second_title: Aspose.Words для .NET
+description: HtmlFixedSaveOptions ExportEmbeddedCss свойство. Указывает следует ли внедрять CSS каскадную таблицу стилей в HTMLдокумент на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.saving/htmlfixedsaveoptions/exportembeddedcss/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.saving/htmlfixedsaveoptions/exportembeddedcss/
 public bool ExportEmbeddedCss { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как определить, где хранить таблицы стилей CSS при экспорте документа в Html.
 
@@ -51,7 +53,5 @@ else
 ### Смотрите также
 
 * class [HtmlFixedSaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../htmlfixedsaveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

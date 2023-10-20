@@ -1,7 +1,9 @@
 ---
-title: AxisDisplayUnit.AxisDisplayUnit
-second_title: Aspose.Words لمراجع .NET API
-description: AxisDisplayUnit البناء. Default_Constructor
+title: AxisDisplayUnit
+linktitle: AxisDisplayUnit
+articleTitle: AxisDisplayUnit
+second_title: Aspose.Words لـ .NET
+description: AxisDisplayUnit البناء. Default_Constructor في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.drawing.charts/axisdisplayunit/axisdisplayunit/
@@ -17,7 +19,5 @@ public AxisDisplayUnit()
 ### أنظر أيضا
 
 * class [AxisDisplayUnit](../)
-* مساحة الاسم [Aspose.Words.Drawing.Charts](../../axisdisplayunit/)
+* مساحة الاسم [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ImageSize.HorizontalResolution
-second_title: Aspose.Words per .NET API Reference
-description: ImageSize proprietà. Ottiene la risoluzione orizzontale in DPI.
+linktitle: HorizontalResolution
+articleTitle: HorizontalResolution
+second_title: Aspose.Words per .NET
+description: ImageSize HorizontalResolution proprietà. Ottiene la risoluzione orizzontale in DPI in C#.
 type: docs
 weight: 40
 url: /it/net/aspose.words.drawing/imagesize/horizontalresolution/
@@ -14,7 +16,7 @@ Ottiene la risoluzione orizzontale in DPI.
 public double HorizontalResolution { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come leggere le proprietà di un'immagine in una forma.
 
@@ -47,7 +49,5 @@ doc.Save(ArtifactsDir + "Drawing.ImageSize.docx");
 ### Guarda anche
 
 * class [ImageSize](../)
-* spazio dei nomi [Aspose.Words.Drawing](../../imagesize/)
+* spazio dei nomi [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.IsAtStartOfParagraph
-second_title: Aspose.Words for .NET API 参考
-description: DocumentBuilder 财产. 返回真的如果光标位于当前段落的开头光标之前没有文本
+linktitle: IsAtStartOfParagraph
+articleTitle: IsAtStartOfParagraph
+second_title: 用于 .NET 的 Aspose.Words
+description: DocumentBuilder IsAtStartOfParagraph 财产. 返回真的如果光标位于当前段落的开头光标之前没有文本 在 C#.
 type: docs
 weight: 130
 url: /zh/net/aspose.words/documentbuilder/isatstartofparagraph/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/documentbuilder/isatstartofparagraph/
 public bool IsAtStartOfParagraph { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何将文档生成器的光标移动到文档中的不同节点。
 
@@ -68,7 +70,5 @@ Assert.IsTrue(builder.IsAtStartOfParagraph);
 ### 也可以看看
 
 * class [DocumentBuilder](../)
-* 命名空间 [Aspose.Words](../../documentbuilder/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

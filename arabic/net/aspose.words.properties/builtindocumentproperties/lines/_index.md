@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.Lines
-second_title: Aspose.Words لمراجع .NET API
-description: BuiltInDocumentProperties ملكية. يمثل تقديرًا لعدد الأسطر في المستند.
+linktitle: Lines
+articleTitle: Lines
+second_title: Aspose.Words لـ .NET
+description: BuiltInDocumentProperties Lines ملكية. يمثل تقديرًا لعدد الأسطر في المستند في C#.
 type: docs
 weight: 180
 url: /ar/net/aspose.words.properties/builtindocumentproperties/lines/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.properties/builtindocumentproperties/lines/
 public int Lines { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 يقوم Aspose.Words بتحديث هذه الخاصية عند الاتصال[`UpdateWordCount`](../../../aspose.words/document/updatewordcount/).
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحديث جميع تسميات القائمة في المستند.
 
@@ -160,7 +162,5 @@ private class LineCounter
 ### أنظر أيضا
 
 * class [BuiltInDocumentProperties](../)
-* مساحة الاسم [Aspose.Words.Properties](../../builtindocumentproperties/)
+* مساحة الاسم [Aspose.Words.Properties](../../../aspose.words.properties/)
 * المجسم [Aspose.Words](../../../)
-
-

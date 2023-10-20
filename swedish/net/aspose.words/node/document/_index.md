@@ -1,7 +1,9 @@
 ---
 title: Node.Document
-second_title: Aspose.Words för .NET API Referens
-description: Node fast egendom. Hämtar dokumentet som denna nod tillhör.
+linktitle: Document
+articleTitle: Document
+second_title: Aspose.Words för .NET
+description: Node Document fast egendom. Hämtar dokumentet som denna nod tillhör i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words/node/document/
@@ -14,11 +16,11 @@ Hämtar dokumentet som denna nod tillhör.
 public virtual DocumentBase Document { get; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Noden tillhör alltid ett dokument även om den precis har skapats och ännu inte lagts till i trädet, eller om den har tagits bort från trädet.
 
-### Exempel
+## Exempel
 
 Visar hur man skapar en nod och ställer in dess ägande dokument.
 
@@ -51,7 +53,5 @@ Assert.AreEqual("Hello world!", doc.GetText().Trim());
 
 * class [DocumentBase](../../documentbase/)
 * class [Node](../)
-* namnutrymme [Aspose.Words](../../node/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

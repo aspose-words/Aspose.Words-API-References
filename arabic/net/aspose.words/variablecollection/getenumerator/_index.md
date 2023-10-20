@@ -1,7 +1,9 @@
 ---
 title: VariableCollection.GetEnumerator
-second_title: Aspose.Words لمراجع .NET API
-description: VariableCollection طريقة. يُرجع كائن العداد الذي يمكن استخدامه للتكرار على كافة المتغيرات في المجموعة.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words لـ .NET
+description: VariableCollection GetEnumerator طريقة. يُرجع كائن العداد الذي يمكن استخدامه للتكرار على كافة المتغيرات في المجموعة في C#.
 type: docs
 weight: 60
 url: /ar/net/aspose.words/variablecollection/getenumerator/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/variablecollection/getenumerator/
 public IEnumerator<KeyValuePair<string, string>> GetEnumerator()
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع مجموعة متغيرات المستند.
 
@@ -81,7 +83,5 @@ Assert.That(variables, Is.Empty);
 ### أنظر أيضا
 
 * class [VariableCollection](../)
-* مساحة الاسم [Aspose.Words](../../variablecollection/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

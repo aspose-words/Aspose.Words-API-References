@@ -1,9 +1,11 @@
 ---
 title: Style.StyleIdentifier
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Style propriété. Obtient lidentifiant de style indépendant des paramètres régionaux pour un style intégré.
+linktitle: StyleIdentifier
+articleTitle: StyleIdentifier
+second_title: Aspose.Words pour .NET
+description: Style StyleIdentifier propriété. Obtient lidentifiant de style indépendant des paramètres régionaux pour un style intégré en C#.
 type: docs
-weight: 160
+weight: 150
 url: /fr/net/aspose.words/style/styleidentifier/
 ---
 ## Style.StyleIdentifier property
@@ -14,11 +16,11 @@ Obtient l'identifiant de style indépendant des paramètres régionaux pour un s
 public StyleIdentifier StyleIdentifier { get; }
 ```
 
-### Remarques
+## Remarques
 
 Pour les styles définis par l'utilisateur (personnalisés), cette propriété renvoieUser.
 
-### Exemples
+## Exemples
 
 Montre comment modifier la position du taquet de tabulation droit dans les paragraphes liés à la table des matières.
 
@@ -45,7 +47,5 @@ doc.Save(ArtifactsDir + "Styles.ChangeTocsTabStops.docx");
 
 * enum [StyleIdentifier](../../styleidentifier/)
 * class [Style](../)
-* espace de noms [Aspose.Words](../../style/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

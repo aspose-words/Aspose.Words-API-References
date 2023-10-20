@@ -1,7 +1,9 @@
 ---
 title: ComparisonExpression.RightExpression
-second_title: Aspose.Words för .NET API Referens
-description: ComparisonExpression fast egendom. Får rätt uttryck.
+linktitle: RightExpression
+articleTitle: RightExpression
+second_title: Aspose.Words för .NET
+description: ComparisonExpression RightExpression fast egendom. Får rätt uttryck i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.fields/comparisonexpression/rightexpression/
@@ -14,7 +16,7 @@ Får rätt uttryck.
 public string RightExpression { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man implementerar anpassad utvärdering för IF- och COMPARE-fälten.
 
@@ -98,7 +100,5 @@ private class ComparisonExpressionEvaluator : IComparisonExpressionEvaluator
 ### Se även
 
 * class [ComparisonExpression](../)
-* namnutrymme [Aspose.Words.Fields](../../comparisonexpression/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

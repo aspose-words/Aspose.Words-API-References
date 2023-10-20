@@ -1,7 +1,9 @@
 ---
-title: Class ThemeFonts
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Themes.ThemeFonts فصل. يمثل مجموعة من الخطوط في نظام الخطوط مما يسمح بتحديد خطوط مختلفة للغات مختلفةLatin EastAsian وComplexScript .
+title: ThemeFonts Class
+linktitle: ThemeFonts
+articleTitle: ThemeFonts
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Themes.ThemeFonts فصل. يمثل مجموعة من الخطوط في نظام الخطوط مما يسمح بتحديد خطوط مختلفة للغات مختلفةLatin EastAsian وComplexScript  في C#.
 type: docs
 weight: 6500
 url: /ar/net/aspose.words.themes/themefonts/
@@ -24,7 +26,7 @@ public class ThemeFonts
 | [EastAsian](../../aspose.words.themes/themefonts/eastasian/) { get; set; } | يحدد اسم الخط لأحرف EastAsian. |
 | [Latin](../../aspose.words.themes/themefonts/latin/) { get; set; } | يحدد اسم الخط للأحرف اللاتينية. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين الألوان والخطوط المخصصة للموضوعات.
 
@@ -73,5 +75,3 @@ doc.Save(ArtifactsDir + "Themes.CustomColorsAndFonts.docx");
 
 * مساحة الاسم [Aspose.Words.Themes](../../aspose.words.themes/)
 * المجسم [Aspose.Words](../../)
-
-

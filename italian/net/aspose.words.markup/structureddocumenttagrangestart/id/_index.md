@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTagRangeStart.Id
-second_title: Aspose.Words per .NET API Reference
-description: StructuredDocumentTagRangeStart proprietà. Specifica un ID numerico persistente univoco di sola lettura per questo tag di documento strutturato.
+linktitle: Id
+articleTitle: Id
+second_title: Aspose.Words per .NET
+description: StructuredDocumentTagRangeStart Id proprietà. Specifica un ID numerico persistente univoco di sola lettura per questo tag di documento strutturato in C#.
 type: docs
 weight: 40
 url: /it/net/aspose.words.markup/structureddocumenttagrangestart/id/
@@ -14,7 +16,7 @@ Specifica un ID numerico persistente univoco di sola lettura per questo tag di d
 public int Id { get; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 L'attributo ID deve seguire queste regole:
 
@@ -24,7 +26,7 @@ L'attributo ID deve seguire queste regole:
 * Durante il tag del documento strutturato autonomoINodeCloningListener)operazione, il nuovo ID univoco verrà generato per il nodo tag del documento strutturato clonato.
 * Se Id non è specificato nel documento di origine, al nodo tag del documento strutturato verrà assegnato un nuovo identificatore univoco quando il documento viene caricato.
 
-### Esempi
+## Esempi
 
 Mostra come ottenere le proprietà dei tag di documenti strutturati a più sezioni.
 
@@ -59,7 +61,5 @@ Console.WriteLine($"\t|NodeType: {rangeEndTag.NodeType}");
 ### Guarda anche
 
 * class [StructuredDocumentTagRangeStart](../)
-* spazio dei nomi [Aspose.Words.Markup](../../structureddocumenttagrangestart/)
+* spazio dei nomi [Aspose.Words.Markup](../../../aspose.words.markup/)
 * assemblea [Aspose.Words](../../../)
-
-

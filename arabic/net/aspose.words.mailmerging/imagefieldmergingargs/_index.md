@@ -1,7 +1,9 @@
 ---
-title: Class ImageFieldMergingArgs
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.MailMerging.ImageFieldMergingArgs فصل. يوفر بيانات لـImageFieldMerging حدث.
+title: ImageFieldMergingArgs Class
+linktitle: ImageFieldMergingArgs
+articleTitle: ImageFieldMergingArgs
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.MailMerging.ImageFieldMergingArgs فصل. يوفر بيانات لـImageFieldMerging حدث في C#.
 type: docs
 weight: 3830
 url: /ar/net/aspose.words.mailmerging/imagefieldmergingargs/
@@ -34,7 +36,7 @@ public class ImageFieldMergingArgs : FieldMergingArgsBase
 | [Shape](../../aspose.words.mailmerging/imagefieldmergingargs/shape/) { get; set; } | تحديد الشكل الذي يجب على محرك دمج المراسلات إدراجه في المستند. |
 | [TableName](../../aspose.words.mailmerging/fieldmergingargsbase/tablename/) { get; } | يحصل على اسم جدول البيانات لعملية الدمج الحالية أو سلسلة فارغة إذا كان الاسم غير متاح. |
 
-### ملاحظات
+## ملاحظات
 
 يحدث هذا الحدث أثناء دمج البريد عند مواجهة حقل merge لبريد الصورة في المستند. يمكنك الرد على هذا الحدث لإرجاع اسم ملف a أو دفق أو ملفImage كائن إلى محرك merge البريد بحيث يتم إدراجه في المستند.
 
@@ -42,7 +44,7 @@ public class ImageFieldMergingArgs : FieldMergingArgsBase
 
 لإدراج حقل دمج بريد صورة في مستند في Word، حدد أمر إدراج/حقل، ثم حدد MergeField واكتب Image:MyFieldName.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج الصور المخزنة في حقل BLOB بقاعدة البيانات في تقرير.
 
@@ -158,5 +160,3 @@ private class MergedImageResizer : IFieldMergingCallback
 * class [FieldMergingArgsBase](../fieldmergingargsbase/)
 * مساحة الاسم [Aspose.Words.MailMerging](../../aspose.words.mailmerging/)
 * المجسم [Aspose.Words](../../)
-
-

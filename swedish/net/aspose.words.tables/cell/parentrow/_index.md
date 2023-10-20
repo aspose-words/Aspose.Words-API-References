@@ -1,7 +1,9 @@
 ---
 title: Cell.ParentRow
-second_title: Aspose.Words för .NET API Referens
-description: Cell fast egendom. Returnerar cellens överordnade rad.
+linktitle: ParentRow
+articleTitle: ParentRow
+second_title: Aspose.Words för .NET
+description: Cell ParentRow fast egendom. Returnerar cellens överordnade rad i C#.
 type: docs
 weight: 100
 url: /sv/net/aspose.words.tables/cell/parentrow/
@@ -14,11 +16,11 @@ Returnerar cellens överordnade rad.
 public Row ParentRow { get; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Ekvivalent medFirstNonMarkupParentNode gjutna till[`Row`](../../row/).
 
-### Exempel
+## Exempel
 
 Visar hur man ställer in ett bord för att hålla ihop på samma sida.
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "Table.KeepTableTogether.docx");
 
 * class [Row](../../row/)
 * class [Cell](../)
-* namnutrymme [Aspose.Words.Tables](../../cell/)
+* namnutrymme [Aspose.Words.Tables](../../../aspose.words.tables/)
 * hopsättning [Aspose.Words](../../../)
-
-

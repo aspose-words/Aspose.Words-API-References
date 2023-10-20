@@ -1,7 +1,9 @@
 ---
 title: FieldDate.UseUmAlQuraCalendar
-second_title: Aspose.Words for .NET API 参考
-description: FieldDate 财产. 获取或设置是否使用 UmalQura 日历
+linktitle: UseUmAlQuraCalendar
+articleTitle: UseUmAlQuraCalendar
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldDate UseUmAlQuraCalendar 财产. 获取或设置是否使用 UmalQura 日历 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words.fields/fielddate/useumalquracalendar/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fielddate/useumalquracalendar/
 public bool UseUmAlQuraCalendar { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何使用 DATE 字段根据不同类型的日历显示日期。
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "Field.DATE.docx");
 ### 也可以看看
 
 * class [FieldDate](../)
-* 命名空间 [Aspose.Words.Fields](../../fielddate/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

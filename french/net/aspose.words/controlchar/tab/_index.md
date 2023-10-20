@@ -1,7 +1,9 @@
 ---
 title: ControlChar.Tab
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ControlChar champ. Caractère de tabulation  x0009 ou t.
+linktitle: Tab
+articleTitle: Tab
+second_title: Aspose.Words pour .NET
+description: ControlChar Tab champ. Caractère de tabulation  x0009 ou t en C#.
 type: docs
 weight: 270
 url: /fr/net/aspose.words/controlchar/tab/
@@ -14,7 +16,7 @@ Caractère de tabulation : "\x0009" ou "\t".
 public static readonly string Tab;
 ```
 
-### Exemples
+## Exemples
 
 Montre comment définir un intervalle personnalisé pour les positions des taquets de tabulation.
 
@@ -33,7 +35,5 @@ builder.Writeln("Hello" + ControlChar.TabChar + "World!");
 ### Voir également
 
 * class [ControlChar](../)
-* espace de noms [Aspose.Words](../../controlchar/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

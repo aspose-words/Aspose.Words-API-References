@@ -1,7 +1,9 @@
 ---
-title: Class TableSubstitutionRule
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Fonts.TableSubstitutionRule сорт. Правило замены шрифта таблицы.
+title: TableSubstitutionRule Class
+linktitle: TableSubstitutionRule
+articleTitle: TableSubstitutionRule
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Fonts.TableSubstitutionRule сорт. Правило замены шрифта таблицы на С#.
 type: docs
 weight: 3060
 url: /ru/net/aspose.words.fonts/tablesubstitutionrule/
@@ -26,22 +28,22 @@ public class TableSubstitutionRule : FontSubstitutionRule
 
 | Имя | Описание |
 | --- | --- |
-| [AddSubstitutes](../../aspose.words.fonts/tablesubstitutionrule/addsubstitutes/)(string, params string[]) | Добавляет замещающие имена шрифтов для данного исходного имени шрифта. |
-| [GetSubstitutes](../../aspose.words.fonts/tablesubstitutionrule/getsubstitutes/)(string) | Возвращает массив, содержащий имена замещающих шрифтов для указанного исходного имени шрифта. |
-| [Load](../../aspose.words.fonts/tablesubstitutionrule/load/#load)(Stream) | Загружает настройки подстановки таблиц из XML-потока. |
-| [Load](../../aspose.words.fonts/tablesubstitutionrule/load/#load_1)(string) | Загружает настройки подстановки таблиц из XML-файла. |
+| [AddSubstitutes](../../aspose.words.fonts/tablesubstitutionrule/addsubstitutes/)(*string, params string[]*) | Добавляет замещающие имена шрифтов для данного исходного имени шрифта. |
+| [GetSubstitutes](../../aspose.words.fonts/tablesubstitutionrule/getsubstitutes/)(*string*) | Возвращает массив, содержащий имена замещающих шрифтов для указанного исходного имени шрифта. |
+| [Load](../../aspose.words.fonts/tablesubstitutionrule/load/#load)(*Stream*) | Загружает настройки подстановки таблиц из XML-потока. |
+| [Load](../../aspose.words.fonts/tablesubstitutionrule/load/#load_1)(*string*) | Загружает настройки подстановки таблиц из XML-файла. |
 | [LoadAndroidSettings](../../aspose.words.fonts/tablesubstitutionrule/loadandroidsettings/)() | Загружает предопределенные настройки замены таблиц для платформы Android. |
 | [LoadLinuxSettings](../../aspose.words.fonts/tablesubstitutionrule/loadlinuxsettings/)() | Загружает предопределенные настройки подстановки таблиц для платформы Linux. |
 | [LoadWindowsSettings](../../aspose.words.fonts/tablesubstitutionrule/loadwindowssettings/)() | Загружает предопределенные параметры замены таблиц для платформы Windows. |
-| [Save](../../aspose.words.fonts/tablesubstitutionrule/save/#save)(Stream) | Сохраняет текущие настройки замены таблицы в поток. |
-| [Save](../../aspose.words.fonts/tablesubstitutionrule/save/#save_1)(string) | Сохраняет текущие настройки подстановки таблицы в файл. |
-| [SetSubstitutes](../../aspose.words.fonts/tablesubstitutionrule/setsubstitutes/)(string, params string[]) | Переопределить имена замещающих шрифтов для данного исходного имени шрифта. |
+| [Save](../../aspose.words.fonts/tablesubstitutionrule/save/#save)(*Stream*) | Сохраняет текущие настройки замены таблицы в поток. |
+| [Save](../../aspose.words.fonts/tablesubstitutionrule/save/#save_1)(*string*) | Сохраняет текущие настройки подстановки таблицы в файл. |
+| [SetSubstitutes](../../aspose.words.fonts/tablesubstitutionrule/setsubstitutes/)(*string, params string[]*) | Переопределить имена замещающих шрифтов для данного исходного имени шрифта. |
 
-### Примечания
+## Примечания
 
 Это правило определяет список имен замещающих шрифтов, которые будут использоваться, если исходный шрифт недоступен. Замены будут проверяться для имени шрифта и[`AltName`](../fontinfo/altname/) (если есть).
 
-### Примеры
+## Примеры
 
 Показывает, как получить доступ к таблицам замены шрифтов для Windows и Linux.
 
@@ -82,5 +84,3 @@ using (FileStream fileStream = new FileStream(ArtifactsDir + "FontSettings.Table
 * class [FontSubstitutionRule](../fontsubstitutionrule/)
 * пространство имен [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * сборка [Aspose.Words](../../)
-
-

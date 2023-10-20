@@ -1,7 +1,9 @@
 ---
 title: AxisBound.IsAuto
-second_title: Aspose.Words per .NET API Reference
-description: AxisBound proprietà. Restituisce un flag che indica che il limite dellasse deve essere determinato automaticamente.
+linktitle: IsAuto
+articleTitle: IsAuto
+second_title: Aspose.Words per .NET
+description: AxisBound IsAuto proprietà. Restituisce un flag che indica che il limite dellasse deve essere determinato automaticamente in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words.drawing.charts/axisbound/isauto/
@@ -14,7 +16,7 @@ Restituisce un flag che indica che il limite dell'asse deve essere determinato a
 public bool IsAuto { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come impostare i limiti degli assi personalizzati.
 
@@ -74,7 +76,5 @@ doc.Save(ArtifactsDir + "Charts.AxisBound.docx");
 ### Guarda anche
 
 * class [AxisBound](../)
-* spazio dei nomi [Aspose.Words.Drawing.Charts](../../axisbound/)
+* spazio dei nomi [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * assemblea [Aspose.Words](../../../)
-
-

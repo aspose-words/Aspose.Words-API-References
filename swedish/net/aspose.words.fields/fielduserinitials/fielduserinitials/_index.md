@@ -1,7 +1,9 @@
 ---
-title: FieldUserInitials.FieldUserInitials
-second_title: Aspose.Words för .NET API Referens
-description: FieldUserInitials byggare. Default_Constructor
+title: FieldUserInitials
+linktitle: FieldUserInitials
+articleTitle: FieldUserInitials
+second_title: Aspose.Words för .NET
+description: FieldUserInitials byggare. Default_Constructor i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.fields/fielduserinitials/fielduserinitials/
@@ -17,7 +19,5 @@ public FieldUserInitials()
 ### Se även
 
 * class [FieldUserInitials](../)
-* namnutrymme [Aspose.Words.Fields](../../fielduserinitials/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

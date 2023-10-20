@@ -1,7 +1,9 @@
 ---
 title: Paragraph.IsEndOfDocument
-second_title: Aspose.Words für .NET-API-Referenz
-description: Paragraph eigendom. True wenn dieser Absatz der letzte Absatz im letzten Abschnitt des Dokuments ist.
+linktitle: IsEndOfDocument
+articleTitle: IsEndOfDocument
+second_title: Aspose.Words für .NET
+description: Paragraph IsEndOfDocument eigendom. True wenn dieser Absatz der letzte Absatz im letzten Abschnitt des Dokuments ist in C#.
 type: docs
 weight: 60
 url: /de/net/aspose.words/paragraph/isendofdocument/
@@ -14,7 +16,7 @@ True, wenn dieser Absatz der letzte Absatz im letzten Abschnitt des Dokuments is
 public bool IsEndOfDocument { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Absatz in das Dokument eingefügt wird.
 
@@ -46,7 +48,5 @@ Assert.True(builder.CurrentParagraph.IsEndOfDocument);
 ### Siehe auch
 
 * class [Paragraph](../)
-* namensraum [Aspose.Words](../../paragraph/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

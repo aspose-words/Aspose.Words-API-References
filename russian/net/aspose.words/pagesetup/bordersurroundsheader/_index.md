@@ -1,7 +1,9 @@
 ---
 title: PageSetup.BorderSurroundsHeader
-second_title: Справочник по API Aspose.Words для .NET
-description: PageSetup свойство. Указывает включает ли граница страницы заголовок или исключает его.
+linktitle: BorderSurroundsHeader
+articleTitle: BorderSurroundsHeader
+second_title: Aspose.Words для .NET
+description: PageSetup BorderSurroundsHeader свойство. Указывает включает ли граница страницы заголовок или исключает его на С#.
 type: docs
 weight: 70
 url: /ru/net/aspose.words/pagesetup/bordersurroundsheader/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words/pagesetup/bordersurroundsheader/
 public bool BorderSurroundsHeader { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Обратите внимание: изменение этого свойства влияет на все разделы документа.
 
-### Примеры
+## Примеры
 
 Показывает, как применить рамку к странице и верхнему/нижнему колонтитулу.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "PageSetup.PageBorder.docx");
 ### Смотрите также
 
 * class [PageSetup](../)
-* пространство имен [Aspose.Words](../../pagesetup/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

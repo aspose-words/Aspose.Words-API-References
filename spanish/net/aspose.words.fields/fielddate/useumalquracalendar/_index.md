@@ -1,7 +1,9 @@
 ---
 title: FieldDate.UseUmAlQuraCalendar
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldDate propiedad. Obtiene o establece si se debe utilizar el calendario UmalQura.
+linktitle: UseUmAlQuraCalendar
+articleTitle: UseUmAlQuraCalendar
+second_title: Aspose.Words para .NET
+description: FieldDate UseUmAlQuraCalendar propiedad. Obtiene o establece si se debe utilizar el calendario UmalQura en C#.
 type: docs
 weight: 50
 url: /es/net/aspose.words.fields/fielddate/useumalquracalendar/
@@ -14,7 +16,7 @@ Obtiene o establece si se debe utilizar el calendario Um-al-Qura.
 public bool UseUmAlQuraCalendar { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo utilizar los campos FECHA para mostrar fechas según diferentes tipos de calendarios.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "Field.DATE.docx");
 ### Ver también
 
 * class [FieldDate](../)
-* espacio de nombres [Aspose.Words.Fields](../../fielddate/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

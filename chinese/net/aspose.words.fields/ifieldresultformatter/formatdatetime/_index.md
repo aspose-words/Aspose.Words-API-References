@@ -1,7 +1,9 @@
 ---
 title: IFieldResultFormatter.FormatDateTime
-second_title: Aspose.Words for .NET API 参考
-description: IFieldResultFormatter 方法. 当 Aspose.Words 应用日期/时间格式切换时调用即  dd.MM.yyyy.
+linktitle: FormatDateTime
+articleTitle: FormatDateTime
+second_title: 用于 .NET 的 Aspose.Words
+description: IFieldResultFormatter FormatDateTime 方法. 当 Aspose.Words 应用日期/时间格式切换时调用即  dd.MM.yyyy 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.fields/ifieldresultformatter/formatdatetime/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.fields/ifieldresultformatter/formatdatetime/
 public string FormatDateTime(DateTime value, string format, CalendarType calendarType)
 ```
 
-### 评论
+## 评论
 
 实现应该返回`无效的`指示应应用默认格式。
 
-### 例子
+## 例子
 
 展示如何在更新字段时自动将自定义格式应用于字段结果。
 
@@ -156,7 +158,5 @@ private class FieldResultFormatter : IFieldResultFormatter
 
 * enum [CalendarType](../../../aspose.words/calendartype/)
 * interface [IFieldResultFormatter](../)
-* 命名空间 [Aspose.Words.Fields](../../ifieldresultformatter/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

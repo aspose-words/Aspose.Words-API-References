@@ -1,7 +1,9 @@
 ---
 title: ResourceSavingArgs.Document
-second_title: Aspose.Words for .NET API 参考
-description: ResourceSavingArgs 财产. 获取当前正在保存的文档对象
+linktitle: Document
+articleTitle: Document
+second_title: 用于 .NET 的 Aspose.Words
+description: ResourceSavingArgs Document 财产. 获取当前正在保存的文档对象 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.saving/resourcesavingargs/document/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.saving/resourcesavingargs/document/
 public Document Document { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何使用回调来跟踪将文档转换为 HTML 时创建的外部资源。
 
@@ -60,7 +62,5 @@ private class FontSavingCallback : IResourceSavingCallback
 
 * class [Document](../../../aspose.words/document/)
 * class [ResourceSavingArgs](../)
-* 命名空间 [Aspose.Words.Saving](../../resourcesavingargs/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: BookmarkCollection.Count
-second_title: Référence de l'API Aspose.Words pour .NET
-description: BookmarkCollection propriété. Renvoie le nombre de signets dans la collection.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words pour .NET
+description: BookmarkCollection Count propriété. Renvoie le nombre de signets dans la collection en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words/bookmarkcollection/count/
@@ -14,7 +16,7 @@ Renvoie le nombre de signets dans la collection.
 public int Count { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment supprimer des signets d’un document.
 
@@ -75,7 +77,5 @@ Assert.AreEqual("Text inside MyBookmark_1.\r" +
 ### Voir également
 
 * class [BookmarkCollection](../)
-* espace de noms [Aspose.Words](../../bookmarkcollection/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

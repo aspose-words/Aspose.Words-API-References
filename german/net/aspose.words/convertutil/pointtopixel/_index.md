@@ -1,12 +1,14 @@
 ---
 title: ConvertUtil.PointToPixel
-second_title: Aspose.Words für .NET-API-Referenz
-description: ConvertUtil methode. Konvertiert Punkte in Pixel mit 96 dpi.
+linktitle: PointToPixel
+articleTitle: PointToPixel
+second_title: Aspose.Words für .NET
+description: ConvertUtil PointToPixel methode. Konvertiert Punkte in Pixel mit 96 dpi in C#.
 type: docs
 weight: 60
 url: /de/net/aspose.words/convertutil/pointtopixel/
 ---
-## PointToPixel(double) {#pointtopixel}
+## PointToPixel(*double*) {#pointtopixel}
 
 Konvertiert Punkte in Pixel mit 96 dpi.
 
@@ -18,11 +20,11 @@ public static double PointToPixel(double points)
 | --- | --- | --- |
 | points | Double | Der zu konvertierende Wert. |
 
-### Bemerkungen
+## Bemerkungen
 
 1 Zoll entspricht 72 Punkten.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Seiteneigenschaften in Pixeln angegeben werden.
 
@@ -58,12 +60,12 @@ doc.Save(ArtifactsDir + "UtilityClasses.PointsAndPixels.docx");
 ### Siehe auch
 
 * class [ConvertUtil](../)
-* namensraum [Aspose.Words](../../convertutil/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
 
 ---
 
-## PointToPixel(double, double) {#pointtopixel_1}
+## PointToPixel(*double, double*) {#pointtopixel_1}
 
 Konvertiert Punkte in Pixel mit der angegebenen Pixelauflösung.
 
@@ -76,11 +78,11 @@ public static double PointToPixel(double points, double resolution)
 | points | Double | Der zu konvertierende Wert. |
 | resolution | Double | Die dpi-Auflösung (Punkte pro Zoll). |
 
-### Bemerkungen
+## Bemerkungen
 
 1 Zoll entspricht 72 Punkten.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Punkte in Pixel mit Standardauflösung und benutzerdefinierter Auflösung konvertiert werden.
 
@@ -116,7 +118,5 @@ doc.Save(ArtifactsDir + "UtilityClasses.PointsAndPixelsDpi.docx");
 ### Siehe auch
 
 * class [ConvertUtil](../)
-* namensraum [Aspose.Words](../../convertutil/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

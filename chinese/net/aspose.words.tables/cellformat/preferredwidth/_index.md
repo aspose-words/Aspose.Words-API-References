@@ -1,9 +1,11 @@
 ---
 title: CellFormat.PreferredWidth
-second_title: Aspose.Words for .NET API 参考
-description: CellFormat 财产. 返回或设置单元格的首选宽度
+linktitle: PreferredWidth
+articleTitle: PreferredWidth
+second_title: 用于 .NET 的 Aspose.Words
+description: CellFormat PreferredWidth 财产. 返回或设置单元格的首选宽度 在 C#.
 type: docs
-weight: 80
+weight: 70
 url: /zh/net/aspose.words.tables/cellformat/preferredwidth/
 ---
 ## CellFormat.PreferredWidth property
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.tables/cellformat/preferredwidth/
 public PreferredWidth PreferredWidth { get; set; }
 ```
 
-### 评论
+## 评论
 
 首选宽度（以及表格的自动调整选项）确定表格布局算法如何计算单元格的实际 宽度。表格布局可以由 Aspose.Words 在保存文档时执行，或由 Microsoft Word 在显示文档时执行。
 
@@ -22,7 +24,7 @@ public PreferredWidth PreferredWidth { get; set; }
 
 默认值为[`Auto`](../../preferredwidth/auto/)。
 
-### 例子
+## 例子
 
 演示如何设置表格单元格的首选宽度。
 
@@ -63,7 +65,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertCellsWithPreferredWidths.docx");
 
 * class [PreferredWidth](../../preferredwidth/)
 * class [CellFormat](../)
-* 命名空间 [Aspose.Words.Tables](../../cellformat/)
+* 命名空间 [Aspose.Words.Tables](../../../aspose.words.tables/)
 * 部件 [Aspose.Words](../../../)
-
-

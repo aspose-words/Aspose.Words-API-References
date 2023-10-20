@@ -1,7 +1,9 @@
 ---
-title: LayoutCollector.LayoutCollector
-second_title: Referencia de API de Aspose.Words para .NET
-description: LayoutCollector constructor. Inicializa una instancia de esta clase.
+title: LayoutCollector
+linktitle: LayoutCollector
+articleTitle: LayoutCollector
+second_title: Aspose.Words para .NET
+description: LayoutCollector constructor. Inicializa una instancia de esta clase en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words.layout/layoutcollector/layoutcollector/
@@ -18,7 +20,7 @@ public LayoutCollector(Document doc)
 | --- | --- | --- |
 | doc | Document | El documento al que se adjuntará esta instancia de recopilador. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo ver los rangos de páginas que abarca un nodo.
 
@@ -77,7 +79,5 @@ Assert.AreEqual("¶", layoutEnumerator.Text);
 
 * class [Document](../../../aspose.words/document/)
 * class [LayoutCollector](../)
-* espacio de nombres [Aspose.Words.Layout](../../layoutcollector/)
+* espacio de nombres [Aspose.Words.Layout](../../../aspose.words.layout/)
 * asamblea [Aspose.Words](../../../)
-
-

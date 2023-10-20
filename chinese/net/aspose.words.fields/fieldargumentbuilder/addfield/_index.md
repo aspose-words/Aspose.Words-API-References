@@ -1,7 +1,9 @@
 ---
 title: FieldArgumentBuilder.AddField
-second_title: Aspose.Words for .NET API 参考
-description: FieldArgumentBuilder 方法. 添加一个由 a 表示的字段FieldBuilder到论点.
+linktitle: AddField
+articleTitle: AddField
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldArgumentBuilder AddField 方法. 添加一个由 a 表示的字段FieldBuilder到论点 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.fields/fieldargumentbuilder/addfield/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fieldargumentbuilder/addfield/
 public FieldArgumentBuilder AddField(FieldBuilder fieldBuilder)
 ```
 
-### 例子
+## 例子
 
 演示如何使用字段生成器构造字段，然后将它们插入到文档中。
 
@@ -98,7 +100,5 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 
 * class [FieldBuilder](../../fieldbuilder/)
 * class [FieldArgumentBuilder](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldargumentbuilder/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

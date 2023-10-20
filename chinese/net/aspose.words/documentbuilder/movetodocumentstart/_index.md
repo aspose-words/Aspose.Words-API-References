@@ -1,9 +1,11 @@
 ---
 title: DocumentBuilder.MoveToDocumentStart
-second_title: Aspose.Words for .NET API 参考
-description: DocumentBuilder 方法. 将光标移动到文档的开头
+linktitle: MoveToDocumentStart
+articleTitle: MoveToDocumentStart
+second_title: 用于 .NET 的 Aspose.Words
+description: DocumentBuilder MoveToDocumentStart 方法. 将光标移动到文档的开头 在 C#.
 type: docs
-weight: 530
+weight: 520
 url: /zh/net/aspose.words/documentbuilder/movetodocumentstart/
 ---
 ## DocumentBuilder.MoveToDocumentStart method
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/documentbuilder/movetodocumentstart/
 public void MoveToDocumentStart()
 ```
 
-### 例子
+## 例子
 
 演示如何将文档生成器的光标移动到文档中的不同节点。
 
@@ -68,7 +70,5 @@ Assert.IsTrue(builder.IsAtStartOfParagraph);
 ### 也可以看看
 
 * class [DocumentBuilder](../)
-* 命名空间 [Aspose.Words](../../documentbuilder/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

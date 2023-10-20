@@ -1,9 +1,11 @@
 ---
 title: Stroke.DashStyle
-second_title: Aspose.Words for .NET API 参考
-description: Stroke 财产. 指定笔划的点和划线图案
+linktitle: DashStyle
+articleTitle: DashStyle
+second_title: 用于 .NET 的 Aspose.Words
+description: Stroke DashStyle 财产. 指定笔划的点和划线图案 在 C#.
 type: docs
-weight: 50
+weight: 40
 url: /zh/net/aspose.words.drawing/stroke/dashstyle/
 ---
 ## Stroke.DashStyle property
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.drawing/stroke/dashstyle/
 public DashStyle DashStyle { get; set; }
 ```
 
-### 评论
+## 评论
 
 默认值为Solid。
 
-### 例子
+## 例子
 
 展示创造出各种形状。
 
@@ -94,7 +96,5 @@ doc.Save(ArtifactsDir + "Drawing.VariousShapes.docx");
 
 * enum [DashStyle](../../dashstyle/)
 * class [Stroke](../)
-* 命名空间 [Aspose.Words.Drawing](../../stroke/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

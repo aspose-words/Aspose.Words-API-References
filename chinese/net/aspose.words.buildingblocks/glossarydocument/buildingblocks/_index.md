@@ -1,7 +1,9 @@
 ---
 title: GlossaryDocument.BuildingBlocks
-second_title: Aspose.Words for .NET API 参考
-description: GlossaryDocument 财产. 返回一个类型化集合表示术语表文档中的所有构建块
+linktitle: BuildingBlocks
+articleTitle: BuildingBlocks
+second_title: 用于 .NET 的 Aspose.Words
+description: GlossaryDocument BuildingBlocks 财产. 返回一个类型化集合表示术语表文档中的所有构建块 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.buildingblocks/glossarydocument/buildingblocks/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.buildingblocks/glossarydocument/buildingblocks/
 public BuildingBlockCollection BuildingBlocks { get; }
 ```
 
-### 例子
+## 例子
 
 显示访问术语表文档中的构建块的方法。
 
@@ -119,7 +121,5 @@ public class GlossaryDocVisitor : DocumentVisitor
 
 * class [BuildingBlockCollection](../../buildingblockcollection/)
 * class [GlossaryDocument](../)
-* 命名空间 [Aspose.Words.BuildingBlocks](../../glossarydocument/)
+* 命名空间 [Aspose.Words.BuildingBlocks](../../../aspose.words.buildingblocks/)
 * 部件 [Aspose.Words](../../../)
-
-

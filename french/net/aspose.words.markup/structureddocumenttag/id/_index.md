@@ -1,20 +1,22 @@
 ---
 title: StructuredDocumentTag.Id
-second_title: Référence de l'API Aspose.Words pour .NET
-description: StructuredDocumentTag propriété. Spécifie un identifiant numérique persistant unique en lecture seule pour cet objet. TSD.
+linktitle: Id
+articleTitle: Id
+second_title: Aspose.Words pour .NET
+description: StructuredDocumentTag Id propriété. Spécifie un identifiant numérique persistant unique en lecture seule pour cet objet.TSD en C#.
 type: docs
 weight: 140
 url: /fr/net/aspose.words.markup/structureddocumenttag/id/
 ---
 ## StructuredDocumentTag.Id property
 
-Spécifie un identifiant numérique persistant unique en lecture seule pour cet objet. **TSD**.
+Spécifie un identifiant numérique persistant unique en lecture seule pour cet objet.**TSD**.
 
 ```csharp
 public int Id { get; }
 ```
 
-### Remarques
+## Remarques
 
 L'attribut Id doit suivre ces règles :
 
@@ -24,7 +26,7 @@ L'attribut Id doit suivre ces règles :
 * Pendant le SDT autonomeINodeCloningListener) opération, un nouvel ID unique sera généré pour le nœud SDT cloné.
 * Si l'ID n'est pas spécifié dans le document source, alors le nœud SDT se verra attribuer un nouvel identifiant unique lorsque le document est chargé.
 
-### Exemples
+## Exemples
 
 Montre comment créer une balise de document structuré dans une zone de texte brut et modifier son apparence.
 
@@ -81,7 +83,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.PlainText.docx");
 ### Voir également
 
 * class [StructuredDocumentTag](../)
-* espace de noms [Aspose.Words.Markup](../../structureddocumenttag/)
+* espace de noms [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Assemblée [Aspose.Words](../../../)
-
-

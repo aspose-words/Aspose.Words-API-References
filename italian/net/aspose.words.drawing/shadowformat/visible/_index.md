@@ -1,7 +1,9 @@
 ---
 title: ShadowFormat.Visible
-second_title: Aspose.Words per .NET API Reference
-description: ShadowFormat proprietà. RestituisceVERO se la formattazione applicata a questa istanza è visibile.
+linktitle: Visible
+articleTitle: Visible
+second_title: Aspose.Words per .NET
+description: ShadowFormat Visible proprietà. RestituisceVERO se la formattazione applicata a questa istanza è visibile in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words.drawing/shadowformat/visible/
@@ -14,11 +16,11 @@ Restituisce`VERO` se la formattazione applicata a questa istanza è visibile.
 public bool Visible { get; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 A differenza[`Clear`](../clear/) , assegnando`falso` a Visibile non cancella la formattazione, nasconde solo l'effetto forma.
 
-### Esempi
+## Esempi
 
 Mostra come utilizzare la formattazione dell'ombra per la forma.
 
@@ -36,7 +38,5 @@ if (shape.ShadowFormat.Type == ShadowType.ShadowMixed)
 ### Guarda anche
 
 * class [ShadowFormat](../)
-* spazio dei nomi [Aspose.Words.Drawing](../../shadowformat/)
+* spazio dei nomi [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assemblea [Aspose.Words](../../../)
-
-

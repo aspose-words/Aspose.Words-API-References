@@ -1,7 +1,9 @@
 ---
-title: Enum ZoomType
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Settings.ZoomType 枚举. 文档在 Microsoft Word 屏幕上显示的大小的可能值
+title: ZoomType Enum
+linktitle: ZoomType
+articleTitle: ZoomType
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Settings.ZoomType 枚举. 文档在 Microsoft Word 屏幕上显示的大小的可能值 在 C#.
 type: docs
 weight: 5980
 url: /zh/net/aspose.words.settings/zoomtype/
@@ -30,5 +32,3 @@ public enum ZoomType
 * property [ZoomType](../viewoptions/zoomtype/)
 * 命名空间 [Aspose.Words.Settings](../../aspose.words.settings/)
 * 部件 [Aspose.Words](../../)
-
-

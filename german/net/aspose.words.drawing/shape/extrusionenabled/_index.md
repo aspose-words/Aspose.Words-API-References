@@ -1,7 +1,9 @@
 ---
 title: Shape.ExtrusionEnabled
-second_title: Aspose.Words für .NET-API-Referenz
-description: Shape eigendom. Gibt zurückWAHR wenn ein Extrusionseffekt aktiviert ist.
+linktitle: ExtrusionEnabled
+articleTitle: ExtrusionEnabled
+second_title: Aspose.Words für .NET
+description: Shape ExtrusionEnabled eigendom. Gibt zurückWAHR wenn ein Extrusionseffekt aktiviert ist in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.drawing/shape/extrusionenabled/
@@ -14,7 +16,7 @@ Gibt zurück`WAHR` wenn ein Extrusionseffekt aktiviert ist.
 public bool ExtrusionEnabled { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie alle Formen in einem Dokument durchlaufen werden.
 
@@ -137,7 +139,5 @@ private class ShapeAppearancePrinter : DocumentVisitor
 ### Siehe auch
 
 * class [Shape](../)
-* namensraum [Aspose.Words.Drawing](../../shape/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

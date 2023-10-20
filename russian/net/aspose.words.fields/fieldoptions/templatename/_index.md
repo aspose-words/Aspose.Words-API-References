@@ -1,7 +1,9 @@
 ---
 title: FieldOptions.TemplateName
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldOptions свойство. Получает или задает имя файла шаблона используемого документом.
+linktitle: TemplateName
+articleTitle: TemplateName
+second_title: Aspose.Words для .NET
+description: FieldOptions TemplateName свойство. Получает или задает имя файла шаблона используемого документом на С#.
 type: docs
 weight: 190
 url: /ru/net/aspose.words.fields/fieldoptions/templatename/
@@ -14,13 +16,13 @@ url: /ru/net/aspose.words.fields/fieldoptions/templatename/
 public string TemplateName { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Это свойство используется[`FieldTemplate`](../../fieldtemplate/) поле, если[`AttachedTemplate`](../../../aspose.words/document/attachedtemplate/) недвижимость пуста.
 
 Если это свойство пусто, имя файла шаблона по умолчанию`Нормальный.dotm` используется.
 
-### Примеры
+## Примеры
 
 Показывает, как использовать поле ШАБЛОН для отображения местоположения шаблона документа в локальной файловой системе.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "Field.TEMPLATE.docx");
 ### Смотрите также
 
 * class [FieldOptions](../)
-* пространство имен [Aspose.Words.Fields](../../fieldoptions/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

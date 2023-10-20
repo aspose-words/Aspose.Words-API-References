@@ -1,7 +1,9 @@
 ---
 title: Section.PageSetup
-second_title: Referencia de API de Aspose.Words para .NET
-description: Section propiedad. Devuelve un objeto que representa la configuración de página y las propiedades de sección.
+linktitle: PageSetup
+articleTitle: PageSetup
+second_title: Aspose.Words para .NET
+description: Section PageSetup propiedad. Devuelve un objeto que representa la configuración de página y las propiedades de sección en C#.
 type: docs
 weight: 50
 url: /es/net/aspose.words/section/pagesetup/
@@ -14,7 +16,7 @@ Devuelve un objeto que representa la configuración de página y las propiedades
 public PageSetup PageSetup { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear un borde de banda azul ancho en la parte superior de la primera página.
 
@@ -84,7 +86,5 @@ doc.Save(ArtifactsDir + "Section.CreateManually.docx");
 
 * class [PageSetup](../../pagesetup/)
 * class [Section](../)
-* espacio de nombres [Aspose.Words](../../section/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

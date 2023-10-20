@@ -1,7 +1,9 @@
 ---
 title: FieldCompare.ComparisonOperator
-second_title: Aspose.Words för .NET API Referens
-description: FieldCompare fast egendom. Hämtar eller ställer in jämförelseoperatorn.
+linktitle: ComparisonOperator
+articleTitle: ComparisonOperator
+second_title: Aspose.Words för .NET
+description: FieldCompare ComparisonOperator fast egendom. Hämtar eller ställer in jämförelseoperatorn i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.fields/fieldcompare/comparisonoperator/
@@ -14,7 +16,7 @@ Hämtar eller ställer in jämförelseoperatorn.
 public string ComparisonOperator { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man jämför uttryck med ett COMPARE-fält.
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "Field.COMPARE.docx");
 ### Se även
 
 * class [FieldCompare](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldcompare/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: DocumentBase.NodeChangingCallback
-second_title: Aspose.Words لمراجع .NET API
-description: DocumentBase ملكية. يتم استدعاؤه عند إدراج عقدة أو إزالتها في المستند.
+linktitle: NodeChangingCallback
+articleTitle: NodeChangingCallback
+second_title: Aspose.Words لـ .NET
+description: DocumentBase NodeChangingCallback ملكية. يتم استدعاؤه عند إدراج عقدة أو إزالتها في المستند في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words/documentbase/nodechangingcallback/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/documentbase/nodechangingcallback/
 public INodeChangingCallback NodeChangingCallback { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تخصيص تغيير العقدة من خلال رد الاتصال.
 
@@ -92,7 +94,5 @@ public class HandleNodeChangingFontChanger : INodeChangingCallback
 
 * interface [INodeChangingCallback](../../inodechangingcallback/)
 * class [DocumentBase](../)
-* مساحة الاسم [Aspose.Words](../../documentbase/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

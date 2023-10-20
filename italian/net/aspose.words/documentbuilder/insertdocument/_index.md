@@ -1,12 +1,14 @@
 ---
 title: DocumentBuilder.InsertDocument
-second_title: Aspose.Words per .NET API Reference
-description: DocumentBuilder metodo. Inserisce un documento nella posizione del cursore.
+linktitle: InsertDocument
+articleTitle: InsertDocument
+second_title: Aspose.Words per .NET
+description: DocumentBuilder InsertDocument metodo. Inserisce un documento nella posizione del cursore in C#.
 type: docs
 weight: 310
 url: /it/net/aspose.words/documentbuilder/insertdocument/
 ---
-## InsertDocument(Document, ImportFormatMode) {#insertdocument}
+## InsertDocument(*[Document](../../document/), [ImportFormatMode](../../importformatmode/)*) {#insertdocument}
 
 Inserisce un documento nella posizione del cursore.
 
@@ -23,11 +25,11 @@ public Node InsertDocument(Document srcDoc, ImportFormatMode importFormatMode)
 
 Primo nodo del contenuto inserito.
 
-### Osservazioni
+## Osservazioni
 
 Questo metodo imita il comportamento di MS Word, come se fosse premuto CTRL+'A' (seleziona tutto il contenuto), poi CTRL+'C' (copia selezionata nel buffer) all'interno di un documento e poi CTRL+'V' (inserisci contenuto dal buffer) all'interno di un altro documento.
 
-### Esempi
+## Esempi
 
 Mostra come inserire un documento in un altro documento.
 
@@ -50,12 +52,12 @@ builder.Document.Save(ArtifactsDir + "DocumentBuilder.InsertDocument.docx");
 * class [Document](../../document/)
 * enum [ImportFormatMode](../../importformatmode/)
 * class [DocumentBuilder](../)
-* spazio dei nomi [Aspose.Words](../../documentbuilder/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
 
 ---
 
-## InsertDocument(Document, ImportFormatMode, ImportFormatOptions) {#insertdocument_1}
+## InsertDocument(*[Document](../../document/), [ImportFormatMode](../../importformatmode/), [ImportFormatOptions](../../importformatoptions/)*) {#insertdocument_1}
 
 Inserisce un documento nella posizione del cursore.
 
@@ -74,11 +76,11 @@ public Node InsertDocument(Document srcDoc, ImportFormatMode importFormatMode,
 
 Primo nodo del contenuto inserito.
 
-### Osservazioni
+## Osservazioni
 
 Questo metodo imita il comportamento di MS Word, come se fosse premuto CTRL+'A' (seleziona tutto il contenuto), poi CTRL+'C' (copia selezionata nel buffer) all'interno di un documento e poi CTRL+'V' (inserisci contenuto dal buffer) all'interno di un altro documento.
 
-### Esempi
+## Esempi
 
 Mostra come risolvere gli stili duplicati durante l'inserimento di documenti.
 
@@ -117,7 +119,5 @@ dstDoc.Save(ArtifactsDir + "DocumentBuilder.SmartStyleBehavior.docx");
 * enum [ImportFormatMode](../../importformatmode/)
 * class [ImportFormatOptions](../../importformatoptions/)
 * class [DocumentBuilder](../)
-* spazio dei nomi [Aspose.Words](../../documentbuilder/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

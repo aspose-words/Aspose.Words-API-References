@@ -1,7 +1,9 @@
 ---
 title: Table.AllowAutoFit
-second_title: Aspose.Words لمراجع .NET API
-description: Table ملكية. يسمح لـ Microsoft Word وAspose.Words بتغيير حجم الخلايا تلقائيًا في الجدول لتناسب محتوياتها.
+linktitle: AllowAutoFit
+articleTitle: AllowAutoFit
+second_title: Aspose.Words لـ .NET
+description: Table AllowAutoFit ملكية. يسمح لـ Microsoft Word وAspose.Words بتغيير حجم الخلايا تلقائيًا في الجدول لتناسب محتوياتها في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.tables/table/allowautofit/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.tables/table/allowautofit/
 public bool AllowAutoFit { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 القيمة الافتراضية هي`حقيقي`.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تمكين/تعطيل تغيير الحجم التلقائي لخلية الجدول.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "Table.AllowAutoFitOnTable.html");
 ### أنظر أيضا
 
 * class [Table](../)
-* مساحة الاسم [Aspose.Words.Tables](../../table/)
+* مساحة الاسم [Aspose.Words.Tables](../../../aspose.words.tables/)
 * المجسم [Aspose.Words](../../../)
-
-

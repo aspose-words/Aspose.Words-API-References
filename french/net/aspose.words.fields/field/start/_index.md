@@ -1,7 +1,9 @@
 ---
 title: Field.Start
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Field propriété. Obtient le nœud qui représente le début du champ.
+linktitle: Start
+articleTitle: Start
+second_title: Aspose.Words pour .NET
+description: Field Start propriété. Obtient le nœud qui représente le début du champ en C#.
 type: docs
 weight: 90
 url: /fr/net/aspose.words.fields/field/start/
@@ -14,7 +16,7 @@ Obtient le nœud qui représente le début du champ.
 public FieldStart Start { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment travailler avec une collection de champs.
 
@@ -118,7 +120,5 @@ public class FieldVisitor : DocumentVisitor
 
 * class [FieldStart](../../fieldstart/)
 * class [Field](../)
-* espace de noms [Aspose.Words.Fields](../../field/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

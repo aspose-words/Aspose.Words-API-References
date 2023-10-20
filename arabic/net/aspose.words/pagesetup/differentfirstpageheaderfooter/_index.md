@@ -1,7 +1,9 @@
 ---
 title: PageSetup.DifferentFirstPageHeaderFooter
-second_title: Aspose.Words لمراجع .NET API
-description: PageSetup ملكية. صحيح إذا تم استخدام رأس أو تذييل مختلف في الصفحة الأولى.
+linktitle: DifferentFirstPageHeaderFooter
+articleTitle: DifferentFirstPageHeaderFooter
+second_title: Aspose.Words لـ .NET
+description: PageSetup DifferentFirstPageHeaderFooter ملكية. صحيح إذا تم استخدام رأس أو تذييل مختلف في الصفحة الأولى في C#.
 type: docs
 weight: 110
 url: /ar/net/aspose.words/pagesetup/differentfirstpageheaderfooter/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/pagesetup/differentfirstpageheaderfooter/
 public bool DifferentFirstPageHeaderFooter { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء الرؤوس والتذييلات في مستند باستخدام DocumentBuilder.
 
@@ -136,7 +138,5 @@ public void Order(bool differentFirstPageHeaderFooter)
 ### أنظر أيضا
 
 * class [PageSetup](../)
-* مساحة الاسم [Aspose.Words](../../pagesetup/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

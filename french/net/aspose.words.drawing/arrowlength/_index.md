@@ -1,7 +1,9 @@
 ---
-title: Enum ArrowLength
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Drawing.ArrowLength énumération. Longueur de la flèche en fin de ligne.
+title: ArrowLength Enum
+linktitle: ArrowLength
+articleTitle: ArrowLength
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Drawing.ArrowLength énumération. Longueur de la flèche en fin de ligne en C#.
 type: docs
 weight: 480
 url: /fr/net/aspose.words.drawing/arrowlength/
@@ -23,7 +25,7 @@ public enum ArrowLength
 | Long | `2` |  |
 | Default | `0` | Identique àShort . |
 
-### Exemples
+## Exemples
 
 Montre pour créer une variété de formes.
 
@@ -101,5 +103,3 @@ doc.Save(ArtifactsDir + "Drawing.VariousShapes.docx");
 * property [EndArrowLength](../stroke/endarrowlength/)
 * espace de noms [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * Assemblée [Aspose.Words](../../)
-
-

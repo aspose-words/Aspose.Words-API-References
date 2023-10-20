@@ -1,7 +1,9 @@
 ---
 title: Odso.DataSource
-second_title: Aspose.Words for .NET API 参考
-description: Odso 财产. 指定要连接到文档以执行邮件合并的外部数据源的位置 默认值为空字符串
+linktitle: DataSource
+articleTitle: DataSource
+second_title: 用于 .NET 的 Aspose.Words
+description: Odso DataSource 财产. 指定要连接到文档以执行邮件合并的外部数据源的位置 默认值为空字符串 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.settings/odso/datasource/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.settings/odso/datasource/
 public string DataSource { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何使用 Office 数据源对象中的数据执行邮件合并。
 
@@ -66,7 +68,5 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ### 也可以看看
 
 * class [Odso](../)
-* 命名空间 [Aspose.Words.Settings](../../odso/)
+* 命名空间 [Aspose.Words.Settings](../../../aspose.words.settings/)
 * 部件 [Aspose.Words](../../../)
-
-

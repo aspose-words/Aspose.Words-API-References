@@ -1,7 +1,9 @@
 ---
-title: Class RowFormat
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Tables.RowFormat 班级. 表示表格行的所有格式
+title: RowFormat Class
+linktitle: RowFormat
+articleTitle: RowFormat
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Tables.RowFormat 班级. 表示表格行的所有格式 在 C#.
 type: docs
 weight: 6330
 url: /zh/net/aspose.words.tables/rowformat/
@@ -32,7 +34,7 @@ public class RowFormat
 | --- | --- |
 | [ClearFormatting](../../aspose.words.tables/rowformat/clearformatting/)() | 重置为默认行格式。 |
 
-### 例子
+## 例子
 
 演示如何修改表行的格式。
 
@@ -146,5 +148,3 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
 
 * 命名空间 [Aspose.Words.Tables](../../aspose.words.tables/)
 * 部件 [Aspose.Words](../../)
-
-

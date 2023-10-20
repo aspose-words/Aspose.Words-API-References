@@ -1,7 +1,9 @@
 ---
-title: HtmlSaveOptions.HtmlSaveOptions
-second_title: Aspose.Words لمراجع .NET API
-description: HtmlSaveOptions البناء. تهيئة مثيل جديد لهذه الفئة يمكن استخدامه لحفظ document فيHtml التنسيق.
+title: HtmlSaveOptions
+linktitle: HtmlSaveOptions
+articleTitle: HtmlSaveOptions
+second_title: Aspose.Words لـ .NET
+description: HtmlSaveOptions البناء. تهيئة مثيل جديد لهذه الفئة يمكن استخدامه لحفظ document فيHtml التنسيق في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.saving/htmlsaveoptions/htmlsaveoptions/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.saving/htmlsaveoptions/htmlsaveoptions/
 public HtmlSaveOptions()
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام ترميز معين عند حفظ مستند إلى .epub.
 
@@ -41,12 +43,12 @@ doc.Save(ArtifactsDir + "HtmlSaveOptions.Doc2EpubSaveOptions.epub", saveOptions)
 ### أنظر أيضا
 
 * class [HtmlSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../htmlsaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## HtmlSaveOptions(SaveFormat) {#constructor_1}
+## HtmlSaveOptions(*[SaveFormat](../../../aspose.words/saveformat/)*) {#constructor_1}
 
 تهيئة مثيل جديد لهذه الفئة يمكن استخدامه لحفظ document فيHtml ,Mhtml ,EpubAzw3 أوMobi التنسيق.
 
@@ -58,7 +60,7 @@ public HtmlSaveOptions(SaveFormat saveFormat)
 | --- | --- | --- |
 | saveFormat | SaveFormat | يمكن أن يكونHtml ,Mhtml ,EpubAzw3 أوMobi . |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية حفظ مستند إلى إصدار محدد من HTML.
 
@@ -95,7 +97,5 @@ switch (htmlVersion)
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
 * class [HtmlSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../htmlsaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

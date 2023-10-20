@@ -1,7 +1,9 @@
 ---
-title: Enum PropertyType
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Properties.PropertyType 枚举. 指定文档属性的数据类型
+title: PropertyType Enum
+linktitle: PropertyType
+articleTitle: PropertyType
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Properties.PropertyType 枚举. 指定文档属性的数据类型 在 C#.
 type: docs
 weight: 4500
 url: /zh/net/aspose.words.properties/propertytype/
@@ -28,7 +30,7 @@ public enum PropertyType
 | ByteArray | `7` | 该属性是一个字节数组。 |
 | Other | `8` | 该属性是其他类型。 |
 
-### 例子
+## 例子
 
 展示如何使用文档的自定义属性。
 
@@ -91,5 +93,3 @@ Assert.AreEqual(0, properties.Count);
 * property [Type](../documentproperty/type/)
 * 命名空间 [Aspose.Words.Properties](../../aspose.words.properties/)
 * 部件 [Aspose.Words](../../)
-
-

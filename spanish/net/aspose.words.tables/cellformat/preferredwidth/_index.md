@@ -1,9 +1,11 @@
 ---
 title: CellFormat.PreferredWidth
-second_title: Referencia de API de Aspose.Words para .NET
-description: CellFormat propiedad. Devuelve o establece el ancho preferido de la celda.
+linktitle: PreferredWidth
+articleTitle: PreferredWidth
+second_title: Aspose.Words para .NET
+description: CellFormat PreferredWidth propiedad. Devuelve o establece el ancho preferido de la celda en C#.
 type: docs
-weight: 80
+weight: 70
 url: /es/net/aspose.words.tables/cellformat/preferredwidth/
 ---
 ## CellFormat.PreferredWidth property
@@ -14,7 +16,7 @@ Devuelve o establece el ancho preferido de la celda.
 public PreferredWidth PreferredWidth { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 El ancho preferido (junto con la opción Ajuste automático de la tabla) determina cómo el algoritmo de diseño de la tabla calcula el ancho real de la celda. El diseño de la tabla se puede realizar mediante Aspose.Words cuando guarda el documento o mediante Microsoft Word cuando muestra el documento.
 
@@ -22,7 +24,7 @@ El ancho preferido se puede especificar en puntos o en porcentaje. El ancho pref
 
 El valor predeterminado es[`Auto`](../../preferredwidth/auto/).
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo establecer un ancho preferido para las celdas de la tabla.
 
@@ -63,7 +65,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertCellsWithPreferredWidths.docx");
 
 * class [PreferredWidth](../../preferredwidth/)
 * class [CellFormat](../)
-* espacio de nombres [Aspose.Words.Tables](../../cellformat/)
+* espacio de nombres [Aspose.Words.Tables](../../../aspose.words.tables/)
 * asamblea [Aspose.Words](../../../)
-
-

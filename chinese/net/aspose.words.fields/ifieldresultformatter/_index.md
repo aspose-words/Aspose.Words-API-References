@@ -1,7 +1,9 @@
 ---
-title: Interface IFieldResultFormatter
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Fields.IFieldResultFormatter 界面. 如果您想控制字段结果的格式请实现此接口
+title: IFieldResultFormatter Interface
+linktitle: IFieldResultFormatter
+articleTitle: IFieldResultFormatter
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Fields.IFieldResultFormatter 界面. 如果您想控制字段结果的格式请实现此接口 在 C#.
 type: docs
 weight: 2700
 url: /zh/net/aspose.words.fields/ifieldresultformatter/
@@ -18,12 +20,12 @@ public interface IFieldResultFormatter
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Format](../../aspose.words.fields/ifieldresultformatter/format/#format)(double, GeneralFormat) | 当 Aspose.Words 应用数字格式切换时调用，即 \* Ordinal. |
-| [Format](../../aspose.words.fields/ifieldresultformatter/format/#format_1)(string, GeneralFormat) | 当 Aspose.Words 应用大写格式切换时调用，即 \* Upper. |
-| [FormatDateTime](../../aspose.words.fields/ifieldresultformatter/formatdatetime/)(DateTime, string, CalendarType) | 当 Aspose.Words 应用日期/时间格式切换时调用，即 \@ "dd.MM.yyyy". |
-| [FormatNumeric](../../aspose.words.fields/ifieldresultformatter/formatnumeric/)(double, string) | 当 Aspose.Words 应用数字格式开关时调用，即 \# "#.##". |
+| [Format](../../aspose.words.fields/ifieldresultformatter/format/#format)(*double, [GeneralFormat](../generalformat/)*) | 当 Aspose.Words 应用数字格式切换时调用，即 \* Ordinal. |
+| [Format](../../aspose.words.fields/ifieldresultformatter/format/#format_1)(*string, [GeneralFormat](../generalformat/)*) | 当 Aspose.Words 应用大写格式切换时调用，即 \* Upper. |
+| [FormatDateTime](../../aspose.words.fields/ifieldresultformatter/formatdatetime/)(*DateTime, string, [CalendarType](../../aspose.words/calendartype/)*) | 当 Aspose.Words 应用日期/时间格式切换时调用，即 \@ "dd.MM.yyyy". |
+| [FormatNumeric](../../aspose.words.fields/ifieldresultformatter/formatnumeric/)(*double, string*) | 当 Aspose.Words 应用数字格式开关时调用，即 \# "#.##". |
 
-### 例子
+## 例子
 
 展示如何在更新字段时自动将自定义格式应用于字段结果。
 
@@ -161,5 +163,3 @@ private class FieldResultFormatter : IFieldResultFormatter
 
 * 命名空间 [Aspose.Words.Fields](../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../)
-
-

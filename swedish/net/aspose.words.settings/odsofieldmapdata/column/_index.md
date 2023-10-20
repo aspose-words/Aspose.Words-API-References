@@ -1,7 +1,9 @@
 ---
 title: OdsoFieldMapData.Column
-second_title: Aspose.Words för .NET API Referens
-description: OdsoFieldMapData fast egendom. Anger det nollbaserade indexet för kolumnen inom en extern datakälla som ska mappas till det lokala namnet på ett specifikt MERGEFIELDfält. Standardvärdet är 0.
+linktitle: Column
+articleTitle: Column
+second_title: Aspose.Words för .NET
+description: OdsoFieldMapData Column fast egendom. Anger det nollbaserade indexet för kolumnen inom en extern datakälla som ska mappas till det lokala namnet på ett specifikt MERGEFIELDfält. Standardvärdet är 0 i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.settings/odsofieldmapdata/column/
@@ -14,7 +16,7 @@ Anger det nollbaserade indexet för kolumnen inom en extern datakälla som ska m
 public int Column { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du får åtkomst till insamlingen av data som mappar datakällans kolumner för att slå samman fält.
 
@@ -57,7 +59,5 @@ Assert.AreEqual(0, dataCollection.Count);
 ### Se även
 
 * class [OdsoFieldMapData](../)
-* namnutrymme [Aspose.Words.Settings](../../odsofieldmapdata/)
+* namnutrymme [Aspose.Words.Settings](../../../aspose.words.settings/)
 * hopsättning [Aspose.Words](../../../)
-
-

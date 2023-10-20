@@ -1,7 +1,9 @@
 ---
 title: PageInfo.PaperTray
-second_title: Referencia de API de Aspose.Words para .NET
-description: PageInfo propiedad. Obtiene la bandeja de papel bandeja para esta página tal como se especifica en el documento. El valor es específico de la implementación impresora.
+linktitle: PaperTray
+articleTitle: PaperTray
+second_title: Aspose.Words para .NET
+description: PageInfo PaperTray propiedad. Obtiene la bandeja de papel bandeja para esta página tal como se especifica en el documento. El valor es específico de la implementación impresora en C#.
 type: docs
 weight: 50
 url: /es/net/aspose.words.rendering/pageinfo/papertray/
@@ -14,7 +16,7 @@ Obtiene la bandeja de papel (bandeja) para esta página tal como se especifica e
 public int PaperTray { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo imprimir información sobre el tamaño y la orientación de cada página de un documento de Word.
 
@@ -56,7 +58,5 @@ for (int i = 0; i < doc.PageCount; i++)
 ### Ver también
 
 * class [PageInfo](../)
-* espacio de nombres [Aspose.Words.Rendering](../../pageinfo/)
+* espacio de nombres [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * asamblea [Aspose.Words](../../../)
-
-

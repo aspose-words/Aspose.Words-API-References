@@ -1,7 +1,9 @@
 ---
 title: AxisDisplayUnit.CustomUnit
-second_title: Référence de l'API Aspose.Words pour .NET
-description: AxisDisplayUnit propriété. Obtient ou définit un diviseur défini par lutilisateur pour mettre à léchelle les unités daffichage sur laxe des valeurs.
+linktitle: CustomUnit
+articleTitle: CustomUnit
+second_title: Aspose.Words pour .NET
+description: AxisDisplayUnit CustomUnit propriété. Obtient ou définit un diviseur défini par lutilisateur pour mettre à léchelle les unités daffichage sur laxe des valeurs en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.drawing.charts/axisdisplayunit/customunit/
@@ -14,13 +16,13 @@ Obtient ou définit un diviseur défini par l'utilisateur pour mettre à l'éche
 public double CustomUnit { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 La propriété n'est pas prise en charge par les nouveaux graphiques MS Office 2016. La valeur par défaut est 1.
 
 La définition de cette propriété définit le[`Unit`](../unit/) propriété à Custom.
 
-### Exemples
+## Exemples
 
 Montre comment manipuler les graduations et les valeurs affichées d’un axe de graphique.
 
@@ -78,7 +80,5 @@ doc.Save(ArtifactsDir + "Charts.AxisDisplayUnit.docx");
 ### Voir également
 
 * class [AxisDisplayUnit](../)
-* espace de noms [Aspose.Words.Drawing.Charts](../../axisdisplayunit/)
+* espace de noms [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Assemblée [Aspose.Words](../../../)
-
-

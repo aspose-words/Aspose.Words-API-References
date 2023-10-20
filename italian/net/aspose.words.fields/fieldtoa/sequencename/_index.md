@@ -1,7 +1,9 @@
 ---
 title: FieldToa.SequenceName
-second_title: Aspose.Words per .NET API Reference
-description: FieldToa proprietà. Ottiene o imposta il nome di una sequenza il cui numero è incluso nel numero di pagina.
+linktitle: SequenceName
+articleTitle: SequenceName
+second_title: Aspose.Words per .NET
+description: FieldToa SequenceName proprietà. Ottiene o imposta il nome di una sequenza il cui numero è incluso nel numero di pagina in C#.
 type: docs
 weight: 80
 url: /it/net/aspose.words.fields/fieldtoa/sequencename/
@@ -14,7 +16,7 @@ Ottiene o imposta il nome di una sequenza il cui numero è incluso nel numero di
 public string SequenceName { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come creare e personalizzare una tabella di autorità utilizzando i campi TOA e TA.
 
@@ -137,7 +139,5 @@ private static FieldTA InsertToaEntry(DocumentBuilder builder, string entryCateg
 ### Guarda anche
 
 * class [FieldToa](../)
-* spazio dei nomi [Aspose.Words.Fields](../../fieldtoa/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Chart.Axes
-second_title: Справочник по API Aspose.Words для .NET
-description: Chart свойство. Получает коллекцию всех осей этой диаграммы.
+linktitle: Axes
+articleTitle: Axes
+second_title: Aspose.Words для .NET
+description: Chart Axes свойство. Получает коллекцию всех осей этой диаграммы на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.drawing.charts/chart/axes/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.drawing.charts/chart/axes/
 public ChartAxisCollection Axes { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как работать с коллекцией осей.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "Charts.AxisCollection.docx");
 
 * class [ChartAxisCollection](../../chartaxiscollection/)
 * class [Chart](../)
-* пространство имен [Aspose.Words.Drawing.Charts](../../chart/)
+* пространство имен [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../../)
-
-

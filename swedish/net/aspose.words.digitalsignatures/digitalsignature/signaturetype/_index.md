@@ -1,7 +1,9 @@
 ---
 title: DigitalSignature.SignatureType
-second_title: Aspose.Words för .NET API Referens
-description: DigitalSignature fast egendom. Hämtar typen av digital signatur.
+linktitle: SignatureType
+articleTitle: SignatureType
+second_title: Aspose.Words för .NET
+description: DigitalSignature SignatureType fast egendom. Hämtar typen av digital signatur i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.digitalsignatures/digitalsignature/signaturetype/
@@ -14,7 +16,7 @@ Hämtar typen av digital signatur.
 public DigitalSignatureType SignatureType { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man validerar och visar information om varje signatur i ett dokument.
 
@@ -37,7 +39,5 @@ foreach (DigitalSignature signature in doc.DigitalSignatures)
 
 * enum [DigitalSignatureType](../../digitalsignaturetype/)
 * class [DigitalSignature](../)
-* namnutrymme [Aspose.Words.DigitalSignatures](../../digitalsignature/)
+* namnutrymme [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * hopsättning [Aspose.Words](../../../)
-
-

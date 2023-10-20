@@ -1,12 +1,14 @@
 ---
 title: Aspose.Words.Markup
-second_title: Aspose.Words per .NET API Reference
-description: IL Aspose.Words.Markup lo spazio dei nomi contiene classi che rappresentano la semantica definita dal cliente in un documento smart tag XML personalizzato e tag di documenti strutturati controlli del contenuto.
+linktitle: Aspose.Words.Markup
+articleTitle: Aspose.Words.Markup
+second_title: Aspose.Words per .NET
+description: ILAspose.Words.Markup lo spazio dei nomi contiene classi che rappresentano la semantica definita dal cliente in un documento smart tag XML personalizzato e tag di documenti strutturati controlli del contenuto in C#.
 type: docs
 weight: 160
 url: /it/net/aspose.words.markup/
 ---
-IL **Aspose.Words.Markup** lo spazio dei nomi contiene classi che rappresentano la semantica definita dal cliente in un documento: smart tag, XML personalizzato e tag di documenti strutturati (controlli del contenuto).
+IL**Aspose.Words.Markup** lo spazio dei nomi contiene classi che rappresentano la semantica definita dal cliente in un documento: smart tag, XML personalizzato e tag di documenti strutturati (controlli del contenuto).
 
 ## Classi
 
@@ -24,8 +26,8 @@ IL **Aspose.Words.Markup** lo spazio dei nomi contiene classi che rappresentano 
 | [SmartTag](./smarttag/) | Questo elemento specifica la presenza di uno smart tag attorno a una o più strutture inline (sequenze, immagini, campi, ecc.) all'interno di un paragrafo. |
 | [StructuredDocumentTag](./structureddocumenttag/) | Rappresenta un tag di documento strutturato (SDT o controllo del contenuto) in un documento. |
 | [StructuredDocumentTagCollection](./structureddocumenttagcollection/) | Una raccolta di[`IStructuredDocumentTag`](../aspose.words.markup/istructureddocumenttag/) istanze che rappresentano i tag del documento strutturato nell'intervallo specificato. |
-| [StructuredDocumentTagRangeEnd](./structureddocumenttagrangeend/) | Rappresenta la fine di **variato** tag di documento strutturato che accetta contenuti multi-sezione. Vedi anche[`StructuredDocumentTagRangeStart`](../aspose.words.markup/structureddocumenttagrangestart/) nodo. |
-| [StructuredDocumentTagRangeStart](./structureddocumenttagrangestart/) | Rappresenta l'inizio di **variato** tag di documento strutturato che accetta contenuti multi-sezione. Vedi anche[`StructuredDocumentTagRangeEnd`](../aspose.words.markup/structureddocumenttagrangeend/) . |
+| [StructuredDocumentTagRangeEnd](./structureddocumenttagrangeend/) | Rappresenta la fine di**variato** tag di documento strutturato che accetta contenuti multi-sezione. Vedi anche[`StructuredDocumentTagRangeStart`](../aspose.words.markup/structureddocumenttagrangestart/) nodo. |
+| [StructuredDocumentTagRangeStart](./structureddocumenttagrangestart/) | Rappresenta l'inizio di**variato** tag di documento strutturato che accetta contenuti multi-sezione. Vedi anche[`StructuredDocumentTagRangeEnd`](../aspose.words.markup/structureddocumenttagrangeend/) . |
 | [XmlMapping](./xmlmapping/) | Specifica le informazioni utilizzate per stabilire una mappatura tra il tag del documento strutturato parent e un elemento XML archiviato all'interno di una parte di dati XML personalizzata nel documento. |
 ## Interfacce
 
@@ -41,5 +43,3 @@ IL **Aspose.Words.Markup** lo spazio dei nomi contiene classi che rappresentano 
 | [SdtCalendarType](./sdtcalendartype/) | Specifica i possibili tipi di calendari che possono essere utilizzati per specificare[`CalendarType`](../aspose.words.markup/structureddocumenttag/calendartype/) in un documento Office Open XML. |
 | [SdtDateStorageFormat](./sdtdatestorageformat/) | Specifica il modo in cui la data per un SDT di data viene archiviata/recuperata quando l'SDT è associato a un nodo XML nell'archivio dati del documento. |
 | [SdtType](./sdttype/) | Specifica il tipo di nodo di un tag di documento strutturato (SDT). |
-
-

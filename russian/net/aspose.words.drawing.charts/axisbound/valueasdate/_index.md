@@ -1,7 +1,9 @@
 ---
 title: AxisBound.ValueAsDate
-second_title: Справочник по API Aspose.Words для .NET
-description: AxisBound свойство. Возвращает значение границы оси представленное как datetime.
+linktitle: ValueAsDate
+articleTitle: ValueAsDate
+second_title: Aspose.Words для .NET
+description: AxisBound ValueAsDate свойство. Возвращает значение границы оси представленное как datetime на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.drawing.charts/axisbound/valueasdate/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.drawing.charts/axisbound/valueasdate/
 public DateTime ValueAsDate { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как установить пользовательские границы оси.
 
@@ -74,7 +76,5 @@ doc.Save(ArtifactsDir + "Charts.AxisBound.docx");
 ### Смотрите также
 
 * class [AxisBound](../)
-* пространство имен [Aspose.Words.Drawing.Charts](../../axisbound/)
+* пространство имен [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../../)
-
-

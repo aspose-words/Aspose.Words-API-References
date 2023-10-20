@@ -1,7 +1,9 @@
 ---
 title: Shape.SignatureLine
-second_title: Aspose.Words for .NET API 参考
-description: Shape 财产. 获取SignatureLine如果形状是签名线则为对象退货无效的否则.
+linktitle: SignatureLine
+articleTitle: SignatureLine
+second_title: 用于 .NET 的 Aspose.Words
+description: Shape SignatureLine 财产. 获取SignatureLine如果形状是签名线则为对象退货无效的否则 在 C#.
 type: docs
 weight: 160
 url: /zh/net/aspose.words.drawing/shape/signatureline/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.drawing/shape/signatureline/
 public SignatureLine SignatureLine { get; }
 ```
 
-### 评论
+## 评论
 
 您可以插入新的[`SignatureLine`](../../signatureline/)到文档中使用[`InsertSignatureLine`](../../../aspose.words/documentbuilder/insertsignatureline/)和
 
-### 例子
+## 例子
 
 演示如何创建签名行并将其插入文档中。
 
@@ -64,7 +66,5 @@ doc.Save(ArtifactsDir + "Shape.SignatureLine.docx");
 
 * class [SignatureLine](../../signatureline/)
 * class [Shape](../)
-* 命名空间 [Aspose.Words.Drawing](../../shape/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

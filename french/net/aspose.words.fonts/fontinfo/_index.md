@@ -1,7 +1,9 @@
 ---
-title: Class FontInfo
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Fonts.FontInfo classe. Spécifie des informations sur une police utilisée dans le document.
+title: FontInfo Class
+linktitle: FontInfo
+articleTitle: FontInfo
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Fonts.FontInfo classe. Spécifie des informations sur une police utilisée dans le document en C#.
 type: docs
 weight: 2920
 url: /fr/net/aspose.words.fonts/fontinfo/
@@ -32,14 +34,14 @@ public class FontInfo
 
 | Nom | La description |
 | --- | --- |
-| [GetEmbeddedFont](../../aspose.words.fonts/fontinfo/getembeddedfont/)(EmbeddedFontFormat, EmbeddedFontStyle) | Obtient un fichier de police intégré spécifique. |
-| [GetEmbeddedFontAsOpenType](../../aspose.words.fonts/fontinfo/getembeddedfontasopentype/)(EmbeddedFontStyle) | Obtient un fichier de police incorporé au format OpenType. Les polices au format Embedded OpenType sont converties en OpenType. |
+| [GetEmbeddedFont](../../aspose.words.fonts/fontinfo/getembeddedfont/)(*[EmbeddedFontFormat](../embeddedfontformat/), [EmbeddedFontStyle](../embeddedfontstyle/)*) | Obtient un fichier de police intégré spécifique. |
+| [GetEmbeddedFontAsOpenType](../../aspose.words.fonts/fontinfo/getembeddedfontasopentype/)(*[EmbeddedFontStyle](../embeddedfontstyle/)*) | Obtient un fichier de police incorporé au format OpenType. Les polices au format Embedded OpenType sont converties en OpenType. |
 
-### Remarques
+## Remarques
 
 Vous ne créez pas directement des instances de cette classe. Utilisez le[`FontInfos`](../../aspose.words/documentbase/fontinfos/) propriété pour accéder à la collection de polices définie dans un document.
 
-### Exemples
+## Exemples
 
 Montre comment imprimer les détails des polices présentes dans un document.
 
@@ -60,5 +62,3 @@ for (int i = 0; i < allFonts.Count; i++)
 
 * espace de noms [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * Assemblée [Aspose.Words](../../)
-
-

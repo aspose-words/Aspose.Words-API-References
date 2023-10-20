@@ -1,7 +1,9 @@
 ---
 title: Bookmark.LastColumn
-second_title: Aspose.Words för .NET API Referens
-description: Bookmark fast egendom. Hämtar det nollbaserade indexet för den sista kolumnen i tabellkolumnintervallet som är associerat med bokmärket.
+linktitle: LastColumn
+articleTitle: LastColumn
+second_title: Aspose.Words för .NET
+description: Bookmark LastColumn fast egendom. Hämtar det nollbaserade indexet för den sista kolumnen i tabellkolumnintervallet som är associerat med bokmärket i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words/bookmark/lastcolumn/
@@ -14,11 +16,11 @@ Hämtar det nollbaserade indexet för den sista kolumnen i tabellkolumnintervall
 public int LastColumn { get; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
-Returnerar **-1** om detta bokmärke inte är ett tabellkolumnbokmärke.
+Returnerar**-1** om detta bokmärke inte är ett tabellkolumnbokmärke.
 
-### Exempel
+## Exempel
 
 Visar hur man får information om bokmärken för tabellkolumner.
 
@@ -45,7 +47,5 @@ foreach (Bookmark bookmark in doc.Range.Bookmarks)
 ### Se även
 
 * class [Bookmark](../)
-* namnutrymme [Aspose.Words](../../bookmark/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.InsertBreak
-second_title: Aspose.Words för .NET API Referens
-description: DocumentBuilder metod. Infogar en brytning av angiven typ i dokumentet.
+linktitle: InsertBreak
+articleTitle: InsertBreak
+second_title: Aspose.Words för .NET
+description: DocumentBuilder InsertBreak metod. Infogar en brytning av angiven typ i dokumentet i C#.
 type: docs
 weight: 260
 url: /sv/net/aspose.words/documentbuilder/insertbreak/
@@ -18,11 +20,11 @@ public void InsertBreak(BreakType breakType)
 | --- | --- | --- |
 | breakType | BreakType | Anger typen av brytning som ska infogas. |
 
-### Anmärkningar
+## Anmärkningar
 
 Använd den här metoden för att infoga stycke, sida, kolumn, avsnitt eller radbrytning i dokumentet.
 
-### Exempel
+## Exempel
 
 Visar hur du skapar sidhuvuden och sidfötter i ett dokument med DocumentBuilder.
 
@@ -132,7 +134,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertToc.docx");
 
 * enum [BreakType](../../breaktype/)
 * class [DocumentBuilder](../)
-* namnutrymme [Aspose.Words](../../documentbuilder/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,9 +1,11 @@
 ---
 title: DocumentBuilder.InsertHyperlink
-second_title: Aspose.Words per .NET API Reference
-description: DocumentBuilder metodo. Inserisce un collegamento ipertestuale nel documento.
+linktitle: InsertHyperlink
+articleTitle: InsertHyperlink
+second_title: Aspose.Words per .NET
+description: DocumentBuilder InsertHyperlink metodo. Inserisce un collegamento ipertestuale nel documento in C#.
 type: docs
-weight: 370
+weight: 360
 url: /it/net/aspose.words/documentbuilder/inserthyperlink/
 ---
 ## DocumentBuilder.InsertHyperlink method
@@ -24,13 +26,13 @@ public Field InsertHyperlink(string displayText, string urlOrBookmark, bool isBo
 
 UN[`Field`](../../../aspose.words.fields/field/) oggetto che rappresenta il campo inserito.
 
-### Osservazioni
+## Osservazioni
 
 Tieni presente che devi specificare la formattazione del carattere per il testo visualizzato del collegamento ipertestuale esplicitamente utilizzando il file[`Font`](../font/) proprietà.
 
 Questo metodo chiama internamente[`InsertField`](../insertfield/) per inserire un campo HYPERLINK di MS Word nel documento.
 
-### Esempi
+## Esempi
 
 Mostra come inserire un collegamento ipertestuale che fa riferimento a un segnalibro locale.
 
@@ -108,7 +110,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.PushPopFont.docx");
 
 * class [Field](../../../aspose.words.fields/field/)
 * class [DocumentBuilder](../)
-* spazio dei nomi [Aspose.Words](../../documentbuilder/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum ColorMode
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Saving.ColorMode 枚举. 指定如何渲染颜色
+title: ColorMode Enum
+linktitle: ColorMode
+articleTitle: ColorMode
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Saving.ColorMode 枚举. 指定如何渲染颜色 在 C#.
 type: docs
 weight: 4860
 url: /zh/net/aspose.words.saving/colormode/
@@ -21,7 +23,7 @@ public enum ColorMode
 | Normal | `0` | 使用未修改的颜色进行渲染。 |
 | Grayscale | `1` | 使用从白色到黑色的一系列灰色色调的颜色进行渲染。 |
 
-### 例子
+## 例子
 
 演示如何使用保存选项属性更改图像颜色。
 
@@ -42,5 +44,3 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.ColorRendering.pdf", pdfSaveOptions);
 
 * 命名空间 [Aspose.Words.Saving](../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../)
-
-

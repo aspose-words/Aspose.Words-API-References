@@ -1,7 +1,9 @@
 ---
 title: CustomXmlPartCollection.RemoveAt
-second_title: Справочник по API Aspose.Words для .NET
-description: CustomXmlPartCollection метод. Удаляет элемент по указанному индексу.
+linktitle: RemoveAt
+articleTitle: RemoveAt
+second_title: Aspose.Words для .NET
+description: CustomXmlPartCollection RemoveAt метод. Удаляет элемент по указанному индексу на С#.
 type: docs
 weight: 90
 url: /ru/net/aspose.words.markup/customxmlpartcollection/removeat/
@@ -18,7 +20,7 @@ public void RemoveAt(int index)
 | --- | --- | --- |
 | index | Int32 | Индекс, отсчитываемый от нуля. |
 
-### Примеры
+## Примеры
 
 Показывает, как создать тег структурированного документа с пользовательскими данными XML.
 
@@ -85,7 +87,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.CustomXml.docx");
 ### Смотрите также
 
 * class [CustomXmlPartCollection](../)
-* пространство имен [Aspose.Words.Markup](../../customxmlpartcollection/)
+* пространство имен [Aspose.Words.Markup](../../../aspose.words.markup/)
 * сборка [Aspose.Words](../../../)
-
-

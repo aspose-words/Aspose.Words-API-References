@@ -1,7 +1,9 @@
 ---
 title: FieldInclude.TextConverter
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldInclude propiedad. Obtiene o establece el nombre del convertidor de texto para el formato del archivo incluido.
+linktitle: TextConverter
+articleTitle: TextConverter
+second_title: Aspose.Words para .NET
+description: FieldInclude TextConverter propiedad. Obtiene o establece el nombre del convertidor de texto para el formato del archivo incluido en C#.
 type: docs
 weight: 50
 url: /es/net/aspose.words.fields/fieldinclude/textconverter/
@@ -14,7 +16,7 @@ Obtiene o establece el nombre del convertidor de texto para el formato del archi
 public string TextConverter { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear un campo INCLUDE y establecer sus propiedades.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "Field.INCLUDE.docx");
 ### Ver también
 
 * class [FieldInclude](../)
-* espacio de nombres [Aspose.Words.Fields](../../fieldinclude/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

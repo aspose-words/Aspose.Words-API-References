@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabel.ShowDataLabelsRange
-second_title: Referencia de API de Aspose.Words para .NET
-description: ChartDataLabel propiedad. Permite especificar si los valores de las etiquetas de datos se mostrarán en las etiquetas de datos. El valor predeterminado esFALSO .
+linktitle: ShowDataLabelsRange
+articleTitle: ShowDataLabelsRange
+second_title: Aspose.Words para .NET
+description: ChartDataLabel ShowDataLabelsRange propiedad. Permite especificar si los valores de las etiquetas de datos se mostrarán en las etiquetas de datos. El valor predeterminado esFALSO  en C#.
 type: docs
 weight: 100
 url: /es/net/aspose.words.drawing.charts/chartdatalabel/showdatalabelsrange/
@@ -14,7 +16,7 @@ Permite especificar si los valores de las etiquetas de datos se mostrarán en la
 public bool ShowDataLabelsRange { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo aplicar etiquetas a puntos de datos en un gráfico de líneas.
 
@@ -92,7 +94,5 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
 ### Ver también
 
 * class [ChartDataLabel](../)
-* espacio de nombres [Aspose.Words.Drawing.Charts](../../chartdatalabel/)
+* espacio de nombres [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * asamblea [Aspose.Words](../../../)
-
-

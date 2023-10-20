@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.Type
-second_title: Aspose.Words لمراجع .NET API
-description: ChartAxis ملكية. إرجاع نوع المحور.
+linktitle: Type
+articleTitle: Type
+second_title: Aspose.Words لـ .NET
+description: ChartAxis Type ملكية. إرجاع نوع المحور في C#.
 type: docs
 weight: 290
 url: /ar/net/aspose.words.drawing.charts/chartaxis/type/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing.charts/chartaxis/type/
 public ChartAxisType Type { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء نوع مناسب من سلسلة المخططات لنوع الرسم البياني.
 
@@ -104,7 +106,5 @@ private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, d
 
 * enum [ChartAxisType](../../chartaxistype/)
 * class [ChartAxis](../)
-* مساحة الاسم [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* مساحة الاسم [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../../)
-
-

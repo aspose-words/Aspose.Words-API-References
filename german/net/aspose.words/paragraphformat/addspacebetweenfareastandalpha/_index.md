@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.AddSpaceBetweenFarEastAndAlpha
-second_title: Aspose.Words für .NET-API-Referenz
-description: ParagraphFormat eigendom. Ruft ein Flag ab oder legt es fest das angibt ob der Zeichenabstand zwischen Regionen lateinischen Texts und Regionen ostasiatischen Texts im aktuellen Absatz automatisch angepasst wird.
+linktitle: AddSpaceBetweenFarEastAndAlpha
+articleTitle: AddSpaceBetweenFarEastAndAlpha
+second_title: Aspose.Words für .NET
+description: ParagraphFormat AddSpaceBetweenFarEastAndAlpha eigendom. Ruft ein Flag ab oder legt es fest das angibt ob der Zeichenabstand zwischen Regionen lateinischen Texts und Regionen ostasiatischen Texts im aktuellen Absatz automatisch angepasst wird in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words/paragraphformat/addspacebetweenfareastandalpha/
@@ -14,7 +16,7 @@ Ruft ein Flag ab oder legt es fest, das angibt, ob der Zeichenabstand zwischen R
 public bool AddSpaceBetweenFarEastAndAlpha { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Absatz in das Dokument eingefügt wird.
 
@@ -46,7 +48,5 @@ Assert.True(builder.CurrentParagraph.IsEndOfDocument);
 ### Siehe auch
 
 * class [ParagraphFormat](../)
-* namensraum [Aspose.Words](../../paragraphformat/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

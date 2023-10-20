@@ -1,7 +1,9 @@
 ---
 title: LayoutCollector.GetNumPagesSpanned
-second_title: Aspose.Words لمراجع .NET API
-description: LayoutCollector طريقة. يحصل على عدد الصفحات التي تمتد عليها العقدة المحددة. 0 إذا كانت العقدة ضمن صفحة واحدة. وهذا هو نفسهGetEndPageIndex GetStartPageIndex .
+linktitle: GetNumPagesSpanned
+articleTitle: GetNumPagesSpanned
+second_title: Aspose.Words لـ .NET
+description: LayoutCollector GetNumPagesSpanned طريقة. يحصل على عدد الصفحات التي تمتد عليها العقدة المحددة. 0 إذا كانت العقدة ضمن صفحة واحدة. وهذا هو نفسهGetEndPageIndex GetStartPageIndex  في C#.
 type: docs
 weight: 60
 url: /ar/net/aspose.words.layout/layoutcollector/getnumpagesspanned/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.layout/layoutcollector/getnumpagesspanned/
 public int GetNumPagesSpanned(Node node)
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية رؤية نطاقات الصفحات التي تمتد عليها العقدة.
 
@@ -73,7 +75,5 @@ Assert.AreEqual("¶", layoutEnumerator.Text);
 
 * class [Node](../../../aspose.words/node/)
 * class [LayoutCollector](../)
-* مساحة الاسم [Aspose.Words.Layout](../../layoutcollector/)
+* مساحة الاسم [Aspose.Words.Layout](../../../aspose.words.layout/)
 * المجسم [Aspose.Words](../../../)
-
-

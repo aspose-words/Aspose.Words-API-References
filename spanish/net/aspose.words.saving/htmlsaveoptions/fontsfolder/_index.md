@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.FontsFolder
-second_title: Referencia de API de Aspose.Words para .NET
-description: HtmlSaveOptions propiedad. Especifica la carpeta física donde se guardan las fuentes al exportar un documento a HTML. El valor predeterminado es una cadena vacía.
+linktitle: FontsFolder
+articleTitle: FontsFolder
+second_title: Aspose.Words para .NET
+description: HtmlSaveOptions FontsFolder propiedad. Especifica la carpeta física donde se guardan las fuentes al exportar un documento a HTML. El valor predeterminado es una cadena vacía en C#.
 type: docs
 weight: 310
 url: /es/net/aspose.words.saving/htmlsaveoptions/fontsfolder/
@@ -14,7 +16,7 @@ Especifica la carpeta física donde se guardan las fuentes al exportar un docume
 public string FontsFolder { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 Cuando guardas un[`Document`](../../../aspose.words/document/) en formato HTML y[`ExportFontResources`](../exportfontresources/) está configurado en`verdadero` , Aspose.Words necesita guardar las fuentes utilizadas en el documento como archivos independientes. `FontsFolder` le permite especificar dónde se guardarán las fuentes y [`FontsFolderAlias`](../fontsfolderalias/) permite especificar cómo se construirán los URI de fuente.
 
@@ -26,7 +28,7 @@ Si la carpeta especificada por`FontsFolder` no existe, se creará automáticamen
 
 [`ResourceFolder`](../resourcefolder/) es otra forma de especificar una carpeta donde se deben guardar las fuentes.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo configurar carpetas y alias de carpetas para recursos guardados externamente que Aspose.Words creará al guardar un documento en HTML.
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "HtmlSaveOptions.FolderAlias.html", options);
 ### Ver también
 
 * class [HtmlSaveOptions](../)
-* espacio de nombres [Aspose.Words.Saving](../../htmlsaveoptions/)
+* espacio de nombres [Aspose.Words.Saving](../../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../../)
-
-

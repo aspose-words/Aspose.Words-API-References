@@ -1,7 +1,9 @@
 ---
 title: MappedDataFieldCollection.Clear
-second_title: Aspose.Words för .NET API Referens
-description: MappedDataFieldCollection metod. Tar bort alla element från samlingen.
+linktitle: Clear
+articleTitle: Clear
+second_title: Aspose.Words för .NET
+description: MappedDataFieldCollection Clear metod. Tar bort alla element från samlingen i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.mailmerging/mappeddatafieldcollection/clear/
@@ -14,7 +16,7 @@ Tar bort alla element från samlingen.
 public void Clear()
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man mappar datakolumner och MERGEFIELDs med olika namn så att data överförs mellan dem under en sammankoppling.
 
@@ -99,7 +101,5 @@ private static DataTable CreateSourceTableMappedDataFields()
 ### Se även
 
 * class [MappedDataFieldCollection](../)
-* namnutrymme [Aspose.Words.MailMerging](../../mappeddatafieldcollection/)
+* namnutrymme [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * hopsättning [Aspose.Words](../../../)
-
-

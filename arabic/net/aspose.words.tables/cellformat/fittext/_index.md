@@ -1,7 +1,9 @@
 ---
 title: CellFormat.FitText
-second_title: Aspose.Words لمراجع .NET API
-description: CellFormat ملكية. إذاحقيقي  لاحتواء النص في الخلية وضغط كل فقرة على عرض الخلية.
+linktitle: FitText
+articleTitle: FitText
+second_title: Aspose.Words لـ .NET
+description: CellFormat FitText ملكية. إذاحقيقي  لاحتواء النص في الخلية وضغط كل فقرة على عرض الخلية في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.tables/cellformat/fittext/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.tables/cellformat/fittext/
 public bool FitText { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء جدول بحدود مخصصة.
 
@@ -80,7 +82,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
 ### أنظر أيضا
 
 * class [CellFormat](../)
-* مساحة الاسم [Aspose.Words.Tables](../../cellformat/)
+* مساحة الاسم [Aspose.Words.Tables](../../../aspose.words.tables/)
 * المجسم [Aspose.Words](../../../)
-
-

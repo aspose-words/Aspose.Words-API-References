@@ -1,7 +1,9 @@
 ---
 title: TabStopCollection.GetPositionByIndex
-second_title: Aspose.Words لمراجع .NET API
-description: TabStopCollection طريقة. الحصول على موضع علامة التبويب بالنقاط عند الفهرس المحدد.
+linktitle: GetPositionByIndex
+articleTitle: GetPositionByIndex
+second_title: Aspose.Words لـ .NET
+description: TabStopCollection GetPositionByIndex طريقة. الحصول على موضع علامة التبويب بالنقاط عند الفهرس المحدد في C#.
 type: docs
 weight: 100
 url: /ar/net/aspose.words/tabstopcollection/getpositionbyindex/
@@ -22,7 +24,7 @@ public double GetPositionByIndex(int index)
 
 موضع علامة التبويب.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العثور على علامة تبويب والتوقف عند فهرسها والتحقق من موضعها.
 
@@ -40,7 +42,5 @@ Assert.AreEqual(ConvertUtil.MillimeterToPoint(60), tabStops.GetPositionByIndex(1
 ### أنظر أيضا
 
 * class [TabStopCollection](../)
-* مساحة الاسم [Aspose.Words](../../tabstopcollection/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

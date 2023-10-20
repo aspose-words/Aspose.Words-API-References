@@ -1,7 +1,9 @@
 ---
 title: HorizontalRuleFormat.Alignment
-second_title: Aspose.Words für .NET-API-Referenz
-description: HorizontalRuleFormat eigendom. Ruft die Ausrichtung der horizontalen Regel ab oder legt sie fest.
+linktitle: Alignment
+articleTitle: Alignment
+second_title: Aspose.Words für .NET
+description: HorizontalRuleFormat Alignment eigendom. Ruft die Ausrichtung der horizontalen Regel ab oder legt sie fest in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words.drawing/horizontalruleformat/alignment/
@@ -14,11 +16,11 @@ Ruft die Ausrichtung der horizontalen Regel ab oder legt sie fest.
 public HorizontalRuleAlignment Alignment { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Der Standardwert istLeft.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man eine horizontale Regelform einfügt und deren Formatierung anpasst.
 
@@ -42,7 +44,5 @@ Assert.True(shape.HorizontalRuleFormat.NoShade);
 
 * enum [HorizontalRuleAlignment](../../horizontalrulealignment/)
 * class [HorizontalRuleFormat](../)
-* namensraum [Aspose.Words.Drawing](../../horizontalruleformat/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

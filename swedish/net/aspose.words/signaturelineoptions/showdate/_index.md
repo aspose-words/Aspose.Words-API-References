@@ -1,7 +1,9 @@
 ---
 title: SignatureLineOptions.ShowDate
-second_title: Aspose.Words för .NET API Referens
-description: SignatureLineOptions fast egendom. Hämtar eller ställer in ett värde som anger att teckendatum visas på signaturraden. Standardvärdet för den här egenskapen ärSann .
+linktitle: ShowDate
+articleTitle: ShowDate
+second_title: Aspose.Words för .NET
+description: SignatureLineOptions ShowDate fast egendom. Hämtar eller ställer in ett värde som anger att teckendatum visas på signaturraden. Standardvärdet för den här egenskapen ärSann  i C#.
 type: docs
 weight: 60
 url: /sv/net/aspose.words/signaturelineoptions/showdate/
@@ -14,7 +16,7 @@ Hämtar eller ställer in ett värde som anger att teckendatum visas på signatu
 public bool ShowDate { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man signerar ett dokument med ett personligt certifikat och en signaturrad.
 
@@ -67,7 +69,5 @@ Assert.True(signatureLine.IsValid);
 ### Se även
 
 * class [SignatureLineOptions](../)
-* namnutrymme [Aspose.Words](../../signaturelineoptions/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

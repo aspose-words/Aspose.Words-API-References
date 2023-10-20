@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.HangingPunctuation
-second_title: Aspose.Words für .NET-API-Referenz
-description: ParagraphFormat eigendom. Ruft ein Flag ab oder setzt es das angibt ob hängende Satzzeichen für den aktuellen Absatz aktiviert sind.
+linktitle: HangingPunctuation
+articleTitle: HangingPunctuation
+second_title: Aspose.Words für .NET
+description: ParagraphFormat HangingPunctuation eigendom. Ruft ein Flag ab oder setzt es das angibt ob hängende Satzzeichen für den aktuellen Absatz aktiviert sind in C#.
 type: docs
 weight: 130
 url: /de/net/aspose.words/paragraphformat/hangingpunctuation/
@@ -14,7 +16,7 @@ Ruft ein Flag ab oder setzt es, das angibt, ob hängende Satzzeichen für den ak
 public bool HangingPunctuation { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie spezielle Eigenschaften für asiatische Typografie festgelegt werden.
 
@@ -32,7 +34,5 @@ doc.Save(ArtifactsDir + "ParagraphFormat.AsianTypographyProperties.docx");
 ### Siehe auch
 
 * class [ParagraphFormat](../)
-* namensraum [Aspose.Words](../../paragraphformat/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

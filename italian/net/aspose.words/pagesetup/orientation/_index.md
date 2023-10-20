@@ -1,7 +1,9 @@
 ---
 title: PageSetup.Orientation
-second_title: Aspose.Words per .NET API Reference
-description: PageSetup proprietà. Restituisce o imposta lorientamento della pagina.
+linktitle: Orientation
+articleTitle: Orientation
+second_title: Aspose.Words per .NET
+description: PageSetup Orientation proprietà. Restituisce o imposta lorientamento della pagina in C#.
 type: docs
 weight: 290
 url: /it/net/aspose.words/pagesetup/orientation/
@@ -14,11 +16,11 @@ Restituisce o imposta l'orientamento della pagina.
 public Orientation Orientation { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Mutevole`Orientation` scambi[`PageWidth`](../pagewidth/) E[`PageHeight`](../pageheight/).
 
-### Esempi
+## Esempi
 
 Mostra come regolare il formato della carta, l'orientamento, i margini e altre impostazioni per una sezione.
 
@@ -73,7 +75,5 @@ doc.Save(ArtifactsDir + "PageSetup.ClearFormatting.docx");
 
 * enum [Orientation](../../orientation/)
 * class [PageSetup](../)
-* spazio dei nomi [Aspose.Words](../../pagesetup/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

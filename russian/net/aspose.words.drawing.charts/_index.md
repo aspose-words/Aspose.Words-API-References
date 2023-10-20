@@ -1,7 +1,9 @@
 ---
 title: Aspose.Words.Drawing.Charts
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Drawing.Charts пространство имен предоставляет классы которые позволяют получать доступ к диаграммам в документах Microsoft Word.
+linktitle: Aspose.Words.Drawing.Charts
+articleTitle: Aspose.Words.Drawing.Charts
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Drawing.Charts пространство имен предоставляет классы которые позволяют получать доступ к диаграммам в документах Microsoft Word на С#.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.drawing.charts/
@@ -62,5 +64,3 @@ url: /ru/net/aspose.words.drawing.charts/
 | [ChartYValueType](./chartyvaluetype/) | Позволяет указать тип значения Y серии диаграмм. |
 | [LegendPosition](./legendposition/) | Указывает возможные положения легенды диаграммы. |
 | [MarkerSymbol](./markersymbol/) | Определяет стиль символа маркера. |
-
-

@@ -1,7 +1,9 @@
 ---
 title: Node.PreviousSibling
-second_title: Aspose.Words لمراجع .NET API
-description: Node ملكية. يحصل على العقدة التي تسبق هذه العقدة مباشرة.
+linktitle: PreviousSibling
+articleTitle: PreviousSibling
+second_title: Aspose.Words لـ .NET
+description: Node PreviousSibling ملكية. يحصل على العقدة التي تسبق هذه العقدة مباشرة في C#.
 type: docs
 weight: 70
 url: /ar/net/aspose.words/node/previoussibling/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words/node/previoussibling/
 public Node PreviousSibling { get; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 إذا لم تكن هناك عقدة سابقة، أ`باطل` تم إرجاعها.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام طريقتي Node وCompositeNode لإزالة قسم قبل القسم الأخير في المستند.
 
@@ -45,7 +47,5 @@ Assert.AreEqual("Section 2 text.", doc.GetText().Trim());
 ### أنظر أيضا
 
 * class [Node](../)
-* مساحة الاسم [Aspose.Words](../../node/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

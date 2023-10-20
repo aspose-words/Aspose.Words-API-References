@@ -1,7 +1,9 @@
 ---
-title: Enum MsWordVersion
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Settings.MsWordVersion enumeración. Permite que Aspose.Wods imite el comportamiento de la aplicación específica de la versión de MS Word.
+title: MsWordVersion Enum
+linktitle: MsWordVersion
+articleTitle: MsWordVersion
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Settings.MsWordVersion enumeración. Permite que Aspose.Wods imite el comportamiento de la aplicación específica de la versión de MS Word en C#.
 type: docs
 weight: 5860
 url: /es/net/aspose.words.settings/mswordversion/
@@ -27,7 +29,7 @@ public enum MsWordVersion
 | Word2016 | `6` | Optimice el comportamiento de Aspose.Words para que coincida con la versión de MS Word 2016. |
 | Word2019 | `7` | Optimice el comportamiento de Aspose.Words para que coincida con la versión de MS Word 2019. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo optimizar el documento para diferentes versiones de Microsoft Word.
 
@@ -87,5 +89,3 @@ private static void PrintCompatibilityOptions(CompatibilityOptions options)
 
 * espacio de nombres [Aspose.Words.Settings](../../aspose.words.settings/)
 * asamblea [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: GradientStop.Transparency
-second_title: Aspose.Words für .NET-API-Referenz
-description: GradientStop eigendom. Ruft einen Wert ab oder legt diesen fest der die Transparenz der Farbverlaufsfüllung darstellt  ausgedrückt als Prozentsatz im Bereich von 00 bis 10.
+linktitle: Transparency
+articleTitle: Transparency
+second_title: Aspose.Words für .NET
+description: GradientStop Transparency eigendom. Ruft einen Wert ab oder legt diesen fest der die Transparenz der Farbverlaufsfüllung darstellt  ausgedrückt als Prozentsatz im Bereich von 00 bis 10 in C#.
 type: docs
 weight: 50
 url: /de/net/aspose.words.drawing/gradientstop/transparency/
@@ -14,7 +16,7 @@ Ruft einen Wert ab oder legt diesen fest, der die Transparenz der Farbverlaufsf�
 public double Transparency { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man der Verlaufsfüllung Verlaufsstopps hinzufügt.
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "Shape.GradientStops.docx", saveOptions);
 ### Siehe auch
 
 * class [GradientStop](../)
-* namensraum [Aspose.Words.Drawing](../../gradientstop/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

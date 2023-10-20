@@ -1,7 +1,9 @@
 ---
 title: Range.ToDocument
-second_title: Aspose.Words per .NET API Reference
-description: Range metodo. Costruisce un nuovo documento completamente formato che contiene lintervallo.
+linktitle: ToDocument
+articleTitle: ToDocument
+second_title: Aspose.Words per .NET
+description: Range ToDocument metodo. Costruisce un nuovo documento completamente formato che contiene lintervallo in C#.
 type: docs
 weight: 100
 url: /it/net/aspose.words/range/todocument/
@@ -18,7 +20,5 @@ public Document ToDocument()
 
 * class [Document](../../document/)
 * class [Range](../)
-* spazio dei nomi [Aspose.Words](../../range/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

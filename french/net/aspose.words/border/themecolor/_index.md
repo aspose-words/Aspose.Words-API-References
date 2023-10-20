@@ -1,7 +1,9 @@
 ---
 title: Border.ThemeColor
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Border propriété. Obtient ou définit la couleur du thème dans le jeu de couleurs appliqué associé à cet objet Border.
+linktitle: ThemeColor
+articleTitle: ThemeColor
+second_title: Aspose.Words pour .NET
+description: Border ThemeColor propriété. Obtient ou définit la couleur du thème dans le jeu de couleurs appliqué associé à cet objet Border en C#.
 type: docs
 weight: 70
 url: /fr/net/aspose.words/border/themecolor/
@@ -14,7 +16,7 @@ Obtient ou définit la couleur du thème dans le jeu de couleurs appliqué assoc
 public ThemeColor ThemeColor { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment insérer un paragraphe avec une bordure supérieure.
 
@@ -38,7 +40,5 @@ doc.Save(ArtifactsDir + "Border.ParagraphTopBorder.docx");
 
 * enum [ThemeColor](../../../aspose.words.themes/themecolor/)
 * class [Border](../)
-* espace de noms [Aspose.Words](../../border/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum PresetTexture
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Drawing.PresetTexture 枚举. 指定用于填充形状的纹理
+title: PresetTexture Enum
+linktitle: PresetTexture
+articleTitle: PresetTexture
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Drawing.PresetTexture 枚举. 指定用于填充形状的纹理 在 C#.
 type: docs
 weight: 1180
 url: /zh/net/aspose.words.drawing/presettexture/
@@ -48,5 +50,3 @@ public enum PresetTexture
 
 * 命名空间 [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../)
-
-

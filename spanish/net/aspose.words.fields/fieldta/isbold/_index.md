@@ -1,7 +1,9 @@
 ---
 title: FieldTA.IsBold
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldTA propiedad. Obtiene o establece si se aplica formato en negrita al número de página de la entrada.
+linktitle: IsBold
+articleTitle: IsBold
+second_title: Aspose.Words para .NET
+description: FieldTA IsBold propiedad. Obtiene o establece si se aplica formato en negrita al número de página de la entrada en C#.
 type: docs
 weight: 30
 url: /es/net/aspose.words.fields/fieldta/isbold/
@@ -14,7 +16,7 @@ Obtiene o establece si se aplica formato en negrita al número de página de la 
 public bool IsBold { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear y personalizar una tabla de autoridades utilizando los campos TOA y TA.
 
@@ -137,7 +139,5 @@ private static FieldTA InsertToaEntry(DocumentBuilder builder, string entryCateg
 ### Ver también
 
 * class [FieldTA](../)
-* espacio de nombres [Aspose.Words.Fields](../../fieldta/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

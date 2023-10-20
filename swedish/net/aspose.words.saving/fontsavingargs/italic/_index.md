@@ -1,7 +1,9 @@
 ---
 title: FontSavingArgs.Italic
-second_title: Aspose.Words för .NET API Referens
-description: FontSavingArgs fast egendom. Indikerar om det aktuella teckensnittet är kursivt.
+linktitle: Italic
+articleTitle: Italic
+second_title: Aspose.Words för .NET
+description: FontSavingArgs Italic fast egendom. Indikerar om det aktuella teckensnittet är kursivt i C#.
 type: docs
 weight: 80
 url: /sv/net/aspose.words.saving/fontsavingargs/italic/
@@ -14,7 +16,7 @@ Indikerar om det aktuella teckensnittet är kursivt.
 public bool Italic { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man definierar anpassad logik för att exportera teckensnitt när man sparar till HTML.
 
@@ -74,7 +76,5 @@ public class HandleFontSaving : IFontSavingCallback
 ### Se även
 
 * class [FontSavingArgs](../)
-* namnutrymme [Aspose.Words.Saving](../../fontsavingargs/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

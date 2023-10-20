@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.Template
-second_title: Aspose.Words لمراجع .NET API
-description: BuiltInDocumentProperties ملكية. الحصول على الاسم المعلوماتي لقالب المستند أو تعيينه.
+linktitle: Template
+articleTitle: Template
+second_title: Aspose.Words لـ .NET
+description: BuiltInDocumentProperties Template ملكية. الحصول على الاسم المعلوماتي لقالب المستند أو تعيينه في C#.
 type: docs
 weight: 270
 url: /ar/net/aspose.words.properties/builtindocumentproperties/template/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.properties/builtindocumentproperties/template/
 public string Template { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 في Microsoft Word، تكون هذه الخاصية لأغراض إعلامية فقط و عادةً ما تحتوي فقط على اسم ملف القالب بدون المسار.
 
@@ -22,7 +24,7 @@ public string Template { get; set; }
 
 للحصول على الاسم الفعلي للقالب المرفق أو تعيينه، استخدم the [`AttachedTemplate`](../../../aspose.words/document/attachedtemplate/) ملكية.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع خصائص المستند في فئة "الأصل".
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "DocumentProperties.Origin.docx");
 ### أنظر أيضا
 
 * class [BuiltInDocumentProperties](../)
-* مساحة الاسم [Aspose.Words.Properties](../../builtindocumentproperties/)
+* مساحة الاسم [Aspose.Words.Properties](../../../aspose.words.properties/)
 * المجسم [Aspose.Words](../../../)
-
-

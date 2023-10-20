@@ -1,7 +1,9 @@
 ---
 title: DocumentProperty.Type
-second_title: Aspose.Words für .NET-API-Referenz
-description: DocumentProperty eigendom. Ruft den Datentyp der Eigenschaft ab.
+linktitle: Type
+articleTitle: Type
+second_title: Aspose.Words für .NET
+description: DocumentProperty Type eigendom. Ruft den Datentyp der Eigenschaft ab in C#.
 type: docs
 weight: 40
 url: /de/net/aspose.words.properties/documentproperty/type/
@@ -14,7 +16,7 @@ Ruft den Datentyp der Eigenschaft ab.
 public PropertyType Type { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit integrierten Dokumenteigenschaften gearbeitet wird.
 
@@ -104,7 +106,5 @@ Assert.AreEqual(0, properties.Count);
 
 * enum [PropertyType](../../propertytype/)
 * class [DocumentProperty](../)
-* namensraum [Aspose.Words.Properties](../../documentproperty/)
+* namensraum [Aspose.Words.Properties](../../../aspose.words.properties/)
 * Montage [Aspose.Words](../../../)
-
-

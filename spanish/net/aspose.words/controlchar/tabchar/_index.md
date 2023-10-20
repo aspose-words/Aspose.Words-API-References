@@ -1,7 +1,9 @@
 ---
 title: ControlChar.TabChar
-second_title: Referencia de API de Aspose.Words para .NET
-description: ControlChar campo. Carácter de tabulación char9 o t.
+linktitle: TabChar
+articleTitle: TabChar
+second_title: Aspose.Words para .NET
+description: ControlChar TabChar campo. Carácter de tabulación char9 o t en C#.
 type: docs
 weight: 280
 url: /es/net/aspose.words/controlchar/tabchar/
@@ -14,7 +16,7 @@ Carácter de tabulación: (char)9 o "\t".
 public const char TabChar;
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo establecer un intervalo personalizado para las posiciones de tabulación.
 
@@ -33,7 +35,5 @@ builder.Writeln("Hello" + ControlChar.TabChar + "World!");
 ### Ver también
 
 * class [ControlChar](../)
-* espacio de nombres [Aspose.Words](../../controlchar/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

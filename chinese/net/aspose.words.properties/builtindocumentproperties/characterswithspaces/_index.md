@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.CharactersWithSpaces
-second_title: Aspose.Words for .NET API 参考
-description: BuiltInDocumentProperties 财产. 表示文档中字符数包括空格的估计值
+linktitle: CharactersWithSpaces
+articleTitle: CharactersWithSpaces
+second_title: 用于 .NET 的 Aspose.Words
+description: BuiltInDocumentProperties CharactersWithSpaces 财产. 表示文档中字符数包括空格的估计值 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words.properties/builtindocumentproperties/characterswithspaces/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.properties/builtindocumentproperties/characterswithspa
 public int CharactersWithSpaces { get; set; }
 ```
 
-### 评论
+## 评论
 
 当您调用时，Aspose.Words 会更新此属性[`UpdateWordCount`](../../../aspose.words/document/updatewordcount/)。
 
-### 例子
+## 例子
 
 展示如何使用“内容”类别中的文档属性。
 
@@ -128,7 +130,5 @@ private class LineCounter
 ### 也可以看看
 
 * class [BuiltInDocumentProperties](../)
-* 命名空间 [Aspose.Words.Properties](../../builtindocumentproperties/)
+* 命名空间 [Aspose.Words.Properties](../../../aspose.words.properties/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldHyperlink.Address
-second_title: Aspose.Words per .NET API Reference
-description: FieldHyperlink proprietà. Ottiene o imposta una posizione in cui salta questo collegamento ipertestuale.
+linktitle: Address
+articleTitle: Address
+second_title: Aspose.Words per .NET
+description: FieldHyperlink Address proprietà. Ottiene o imposta una posizione in cui salta questo collegamento ipertestuale in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words.fields/fieldhyperlink/address/
@@ -14,7 +16,7 @@ Ottiene o imposta una posizione in cui salta questo collegamento ipertestuale.
 public string Address { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come utilizzare i campi HYPERLINK per collegarsi ai documenti nel file system locale.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "Field.HYPERLINK.docx");
 ### Guarda anche
 
 * class [FieldHyperlink](../)
-* spazio dei nomi [Aspose.Words.Fields](../../fieldhyperlink/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

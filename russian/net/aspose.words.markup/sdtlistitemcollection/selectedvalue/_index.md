@@ -1,7 +1,9 @@
 ---
 title: SdtListItemCollection.SelectedValue
-second_title: Справочник по API Aspose.Words для .NET
-description: SdtListItemCollection свойство. Указывает текущее выбранное значение в этом списке. Допустимо нулевое значение что означает что ни одна выбранная в данный момент запись не связана с этой коллекцией элементов списка.
+linktitle: SelectedValue
+articleTitle: SelectedValue
+second_title: Aspose.Words для .NET
+description: SdtListItemCollection SelectedValue свойство. Указывает текущее выбранное значение в этом списке. Допустимо нулевое значение что означает что ни одна выбранная в данный момент запись не связана с этой коллекцией элементов списка на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.markup/sdtlistitemcollection/selectedvalue/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.markup/sdtlistitemcollection/selectedvalue/
 public SdtListItem SelectedValue { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как работать с тегами структурированных документов с раскрывающимся списком.
 
@@ -72,7 +74,5 @@ Assert.AreEqual(0, listItems.Count);
 
 * class [SdtListItem](../../sdtlistitem/)
 * class [SdtListItemCollection](../)
-* пространство имен [Aspose.Words.Markup](../../sdtlistitemcollection/)
+* пространство имен [Aspose.Words.Markup](../../../aspose.words.markup/)
 * сборка [Aspose.Words](../../../)
-
-

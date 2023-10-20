@@ -1,7 +1,9 @@
 ---
-title: Class ChmLoadOptions
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Loading.ChmLoadOptions فصل. يسمح بتحديد خيارات إضافية عند تحميل مستند آلية تبادل المعلومات CHM في ملفDocument الكائن.
+title: ChmLoadOptions Class
+linktitle: ChmLoadOptions
+articleTitle: ChmLoadOptions
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Loading.ChmLoadOptions فصل. يسمح بتحديد خيارات إضافية عند تحميل مستند آلية تبادل المعلومات CHM في ملفDocument الكائن في C#.
 type: docs
 weight: 3570
 url: /ar/net/aspose.words.loading/chmloadoptions/
@@ -48,12 +50,10 @@ public class ChmLoadOptions : LoadOptions
 
 | اسم | وصف |
 | --- | --- |
-| override [Equals](../../aspose.words.loading/loadoptions/equals/)(object) |  |
+| override [Equals](../../aspose.words.loading/loadoptions/equals/)(*object*) |  |
 
 ### أنظر أيضا
 
 * class [LoadOptions](../loadoptions/)
 * مساحة الاسم [Aspose.Words.Loading](../../aspose.words.loading/)
 * المجسم [Aspose.Words](../../)
-
-

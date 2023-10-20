@@ -1,7 +1,9 @@
 ---
 title: LayoutEnumerator.Item
-second_title: Aspose.Words لمراجع .NET API
-description: LayoutEnumerator ملكية. الحصول على خاصية مسماة للكيان.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words لـ .NET
+description: LayoutEnumerator Item ملكية. الحصول على خاصية مسماة للكيان في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.layout/layoutenumerator/item/
@@ -22,14 +24,12 @@ public object this[string key] { get; }
 
 لاغ إذا كان العقار غير متوفر، وإلا قيمة العقار.
 
-### ملاحظات
+## ملاحظات
 
 يُستخدم هذا حاليًا للحصول على خصائص الخط ذات الامتدادات. انظر[`Font`](../../../aspose.words/font/) فئة لأسماء الخصائص المحتملة. ليست كل الخصائص مدعومة.
 
 ### أنظر أيضا
 
 * class [LayoutEnumerator](../)
-* مساحة الاسم [Aspose.Words.Layout](../../layoutenumerator/)
+* مساحة الاسم [Aspose.Words.Layout](../../../aspose.words.layout/)
 * المجسم [Aspose.Words](../../../)
-
-

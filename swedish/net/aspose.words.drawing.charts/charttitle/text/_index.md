@@ -1,9 +1,11 @@
 ---
 title: ChartTitle.Text
-second_title: Aspose.Words för .NET API Referens
-description: ChartTitle fast egendom. Hämtar eller ställer in texten i diagrammets titel. Omnull eller tomt värde anges kommer automatiskt genererad titel att visas.
+linktitle: Text
+articleTitle: Text
+second_title: Aspose.Words för .NET
+description: ChartTitle Text fast egendom. Hämtar eller ställer in texten i diagrammets titel. Omnull eller tomt värde anges kommer automatiskt genererad titel att visas i C#.
 type: docs
-weight: 40
+weight: 30
 url: /sv/net/aspose.words.drawing.charts/charttitle/text/
 ---
 ## ChartTitle.Text property
@@ -14,11 +16,11 @@ Hämtar eller ställer in texten i diagrammets titel. Om`null` eller tomt värde
 public string Text { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Använda sig av[`Show`](../show/) alternativet om du behöver dölja titeln.
 
-### Exempel
+## Exempel
 
 Visar hur man infogar ett diagram och ställer in en titel.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "Charts.ChartTitle.docx");
 ### Se även
 
 * class [ChartTitle](../)
-* namnutrymme [Aspose.Words.Drawing.Charts](../../charttitle/)
+* namnutrymme [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../../)
-
-

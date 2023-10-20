@@ -1,7 +1,9 @@
 ---
 title: PageSavingArgs.KeepPageStreamOpen
-second_title: Aspose.Words لمراجع .NET API
-description: PageSavingArgs ملكية. يحدد ما إذا كان يجب على Aspose.Words إبقاء الدفق مفتوحًا أو إغلاقه بعد حفظ صفحة المستند.
+linktitle: KeepPageStreamOpen
+articleTitle: KeepPageStreamOpen
+second_title: Aspose.Words لـ .NET
+description: PageSavingArgs KeepPageStreamOpen ملكية. يحدد ما إذا كان يجب على Aspose.Words إبقاء الدفق مفتوحًا أو إغلاقه بعد حفظ صفحة المستند في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.saving/pagesavingargs/keeppagestreamopen/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.saving/pagesavingargs/keeppagestreamopen/
 public bool KeepPageStreamOpen { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 الافتراضي هو`خطأ شنيع` وسيقوم Aspose.Words بإغلاق الدفق الذي قدمته في ملف[`PageStream`](../pagestream/) الخاصية بعد كتابة صفحة المستند فيها. حدد`حقيقي` لإبقاء الدفق مفتوحًا.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام رد الاتصال لحفظ مستند إلى HTML صفحة تلو الأخرى.
 
@@ -75,7 +77,5 @@ private class CustomFileNamePageSavingCallback : IPageSavingCallback
 ### أنظر أيضا
 
 * class [PageSavingArgs](../)
-* مساحة الاسم [Aspose.Words.Saving](../../pagesavingargs/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

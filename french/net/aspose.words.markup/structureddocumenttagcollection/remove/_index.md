@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTagCollection.Remove
-second_title: Référence de l'API Aspose.Words pour .NET
-description: StructuredDocumentTagCollection méthode. Supprime la balise du document structuré avec lidentifiant spécifié.
+linktitle: Remove
+articleTitle: Remove
+second_title: Aspose.Words pour .NET
+description: StructuredDocumentTagCollection Remove méthode. Supprime la balise du document structuré avec lidentifiant spécifié en C#.
 type: docs
 weight: 70
 url: /fr/net/aspose.words.markup/structureddocumenttagcollection/remove/
@@ -18,7 +20,7 @@ public void Remove(int id)
 | --- | --- | --- |
 | id | Int32 | L’identifiant de la balise du document structuré. |
 
-### Exemples
+## Exemples
 
 Montre comment supprimer la balise de document structuré.
 
@@ -47,7 +49,5 @@ Assert.AreEqual(3, structuredDocumentTags.Count);
 ### Voir également
 
 * class [StructuredDocumentTagCollection](../)
-* espace de noms [Aspose.Words.Markup](../../structureddocumenttagcollection/)
+* espace de noms [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Assemblée [Aspose.Words](../../../)
-
-

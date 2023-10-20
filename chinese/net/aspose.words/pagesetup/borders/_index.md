@@ -1,7 +1,9 @@
 ---
 title: PageSetup.Borders
-second_title: Aspose.Words for .NET API 参考
-description: PageSetup 财产. 获取页面边框的集合
+linktitle: Borders
+articleTitle: Borders
+second_title: 用于 .NET 的 Aspose.Words
+description: PageSetup Borders 财产. 获取页面边框的集合 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words/pagesetup/borders/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/pagesetup/borders/
 public BorderCollection Borders { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何创建带阴影的绿色波浪页面边框。
 
@@ -35,7 +37,5 @@ doc.Save(ArtifactsDir + "PageSetup.PageBorders.docx");
 
 * class [BorderCollection](../../bordercollection/)
 * class [PageSetup](../)
-* 命名空间 [Aspose.Words](../../pagesetup/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

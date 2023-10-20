@@ -1,7 +1,9 @@
 ---
-title: Class MemoryFontSource
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Fonts.MemoryFontSource сорт. Представляет один файл шрифта TrueType хранящийся в памяти.
+title: MemoryFontSource Class
+linktitle: MemoryFontSource
+articleTitle: MemoryFontSource
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Fonts.MemoryFontSource сорт. Представляет один файл шрифта TrueType хранящийся в памяти на С#.
 type: docs
 weight: 3020
 url: /ru/net/aspose.words.fonts/memoryfontsource/
@@ -20,9 +22,9 @@ public class MemoryFontSource : FontSourceBase
 
 | Имя | Описание |
 | --- | --- |
-| [MemoryFontSource](memoryfontsource/#constructor)(byte[]) | Cтор. |
-| [MemoryFontSource](memoryfontsource/#constructor_1)(byte[], int) | Cтор. |
-| [MemoryFontSource](memoryfontsource/#constructor_2)(byte[], int, string) | Cтор. |
+| [MemoryFontSource](memoryfontsource/#constructor)(*byte[]*) | Cтор. |
+| [MemoryFontSource](memoryfontsource/#constructor_1)(*byte[], int*) | Cтор. |
+| [MemoryFontSource](memoryfontsource/#constructor_2)(*byte[], int, string*) | Cтор. |
 
 ## Характеристики
 
@@ -40,7 +42,7 @@ public class MemoryFontSource : FontSourceBase
 | --- | --- |
 | [GetAvailableFonts](../../aspose.words.fonts/fontsourcebase/getavailablefonts/)() | Возвращает список шрифтов, доступных через этот источник. |
 
-### Примеры
+## Примеры
 
 Показывает, как использовать массив байтов с данными из файла шрифта в качестве источника шрифта.
 
@@ -61,5 +63,3 @@ Assert.AreEqual(0, memoryFontSource.Priority);
 * class [FontSourceBase](../fontsourcebase/)
 * пространство имен [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * сборка [Aspose.Words](../../)
-
-

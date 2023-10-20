@@ -1,7 +1,9 @@
 ---
 title: FormField.Result
-second_title: Aspose.Words for .NET API 参考
-description: FormField 财产. 获取或设置表示此表单字段结果的字符串
+linktitle: Result
+articleTitle: Result
+second_title: 用于 .NET 的 Aspose.Words
+description: FormField Result 财产. 获取或设置表示此表单字段结果的字符串 在 C#.
 type: docs
 weight: 170
 url: /zh/net/aspose.words.fields/formfield/result/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/formfield/result/
 public string Result { get; set; }
 ```
 
-### 评论
+## 评论
 
 对于文本表单字段，结果是字段中的文本。
 
@@ -26,7 +28,7 @@ public string Result { get; set; }
 
 对于文本表单字段[`TextInputDefault`](../textinputdefault/)值已应用 如果*value*是`无效的`。
 
-### 例子
+## 例子
 
 演示如何插入组合框。
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "FormFields.Create.html");
 ### 也可以看看
 
 * class [FormField](../)
-* 命名空间 [Aspose.Words.Fields](../../formfield/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: List.IsRestartAtEachSection
-second_title: Aspose.Words für .NET-API-Referenz
-description: List eigendom. Gibt an ob die Liste in jedem Abschnitt neu gestartet werden soll. Der Standardwert istFALSCH .
+linktitle: IsRestartAtEachSection
+articleTitle: IsRestartAtEachSection
+second_title: Aspose.Words für .NET
+description: List IsRestartAtEachSection eigendom. Gibt an ob die Liste in jedem Abschnitt neu gestartet werden soll. Der Standardwert istFALSCH  in C#.
 type: docs
 weight: 50
 url: /de/net/aspose.words.lists/list/isrestartateachsection/
@@ -14,13 +16,13 @@ Gibt an, ob die Liste in jedem Abschnitt neu gestartet werden soll. Der Standard
 public bool IsRestartAtEachSection { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Diese Option wird nur in den Dokumentformaten RTF, DOC und DOCX unterstützt.
 
 Diese Option wird nur dann in DOCX geschrieben, wenn[`OoxmlCompliance`](../../../aspose.words.saving/ooxmlcompliance/) ist dann höherEcma376_2006.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie eine Liste konfiguriert wird, um die Nummerierung in jedem Abschnitt neu zu starten.
 
@@ -58,7 +60,5 @@ Assert.AreEqual(restartListAtEachSection, doc.Lists[0].IsRestartAtEachSection);
 ### Siehe auch
 
 * class [List](../)
-* namensraum [Aspose.Words.Lists](../../list/)
+* namensraum [Aspose.Words.Lists](../../../aspose.words.lists/)
 * Montage [Aspose.Words](../../../)
-
-

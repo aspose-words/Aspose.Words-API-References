@@ -1,7 +1,9 @@
 ---
 title: FieldPrintDate.UseLunarCalendar
-second_title: Aspose.Words لمراجع .NET API
-description: FieldPrintDate ملكية. الحصول على أو تحديد ما إذا كان سيتم استخدام التقويم القمري الهجري أو القمري العبري.
+linktitle: UseLunarCalendar
+articleTitle: UseLunarCalendar
+second_title: Aspose.Words لـ .NET
+description: FieldPrintDate UseLunarCalendar ملكية. الحصول على أو تحديد ما إذا كان سيتم استخدام التقويم القمري الهجري أو القمري العبري في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.fields/fieldprintdate/uselunarcalendar/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldprintdate/uselunarcalendar/
 public bool UseLunarCalendar { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يظهر قراءة حقول PRINTDATE.
 
@@ -56,7 +58,5 @@ Assert.AreEqual(" PRINTDATE  \\s", field.GetFieldCode());
 ### أنظر أيضا
 
 * class [FieldPrintDate](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldprintdate/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ChartSeries.YValues
-second_title: Aspose.Words لمراجع .NET API
-description: ChartSeries ملكية. الحصول على مجموعة من قيم Y لسلسلة المخططات هذه.
+linktitle: YValues
+articleTitle: YValues
+second_title: Aspose.Words لـ .NET
+description: ChartSeries YValues ملكية. الحصول على مجموعة من قيم Y لسلسلة المخططات هذه في C#.
 type: docs
 weight: 150
 url: /ar/net/aspose.words.drawing.charts/chartseries/yvalues/
@@ -18,7 +20,5 @@ public ChartYValueCollection YValues { get; }
 
 * class [ChartYValueCollection](../../chartyvaluecollection/)
 * class [ChartSeries](../)
-* مساحة الاسم [Aspose.Words.Drawing.Charts](../../chartseries/)
+* مساحة الاسم [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../../)
-
-

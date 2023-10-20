@@ -1,7 +1,9 @@
 ---
 title: PageSetup.PageHeight
-second_title: Справочник по API Aspose.Words для .NET
-description: PageSetup свойство. Возвращает или задает высоту страницы в пунктах.
+linktitle: PageHeight
+articleTitle: PageHeight
+second_title: Aspose.Words для .NET
+description: PageSetup PageHeight свойство. Возвращает или задает высоту страницы в пунктах на С#.
 type: docs
 weight: 310
 url: /ru/net/aspose.words/pagesetup/pageheight/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/pagesetup/pageheight/
 public double PageHeight { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как вставить изображение и использовать его в качестве водяного знака.
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertWatermarkNetStandard2.docx");
 ### Смотрите также
 
 * class [PageSetup](../)
-* пространство имен [Aspose.Words](../../pagesetup/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

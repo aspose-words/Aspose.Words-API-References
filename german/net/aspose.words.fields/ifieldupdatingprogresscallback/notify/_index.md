@@ -1,7 +1,9 @@
 ---
 title: IFieldUpdatingProgressCallback.Notify
-second_title: Aspose.Words für .NET-API-Referenz
-description: IFieldUpdatingProgressCallback methode. Eine benutzerdefinierte Methode die aufgerufen wird wenn der Aktualisierungsfortschritt geändert wird.
+linktitle: Notify
+articleTitle: Notify
+second_title: Aspose.Words für .NET
+description: IFieldUpdatingProgressCallback Notify methode. Eine benutzerdefinierte Methode die aufgerufen wird wenn der Aktualisierungsfortschritt geändert wird in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words.fields/ifieldupdatingprogresscallback/notify/
@@ -14,7 +16,7 @@ Eine benutzerdefinierte Methode, die aufgerufen wird, wenn der Aktualisierungsfo
 public void Notify(FieldUpdatingProgressArgs args)
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Callback-Methoden während einer Feldaktualisierung verwendet werden.
 
@@ -83,7 +85,5 @@ public class FieldUpdatingCallback : IFieldUpdatingCallback, IFieldUpdatingProgr
 
 * class [FieldUpdatingProgressArgs](../../fieldupdatingprogressargs/)
 * interface [IFieldUpdatingProgressCallback](../)
-* namensraum [Aspose.Words.Fields](../../ifieldupdatingprogresscallback/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

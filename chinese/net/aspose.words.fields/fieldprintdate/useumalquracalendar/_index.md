@@ -1,7 +1,9 @@
 ---
 title: FieldPrintDate.UseUmAlQuraCalendar
-second_title: Aspose.Words for .NET API 参考
-description: FieldPrintDate 财产. 获取或设置是否使用 UmalQura 日历
+linktitle: UseUmAlQuraCalendar
+articleTitle: UseUmAlQuraCalendar
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldPrintDate UseUmAlQuraCalendar 财产. 获取或设置是否使用 UmalQura 日历 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.fields/fieldprintdate/useumalquracalendar/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fieldprintdate/useumalquracalendar/
 public bool UseUmAlQuraCalendar { get; set; }
 ```
 
-### 例子
+## 例子
 
 显示读取的 PRINTDATE 字段。
 
@@ -56,7 +58,5 @@ Assert.AreEqual(" PRINTDATE  \\s", field.GetFieldCode());
 ### 也可以看看
 
 * class [FieldPrintDate](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldprintdate/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

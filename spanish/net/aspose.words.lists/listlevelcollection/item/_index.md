@@ -1,7 +1,9 @@
 ---
 title: ListLevelCollection.Item
-second_title: Referencia de API de Aspose.Words para .NET
-description: ListLevelCollection propiedad. Obtiene un nivel de lista por índice.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words para .NET
+description: ListLevelCollection Item propiedad. Obtiene un nivel de lista por índice en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words.lists/listlevelcollection/item/
@@ -14,7 +16,7 @@ Obtiene un nivel de lista por índice.
 public ListLevel this[int index] { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear un estilo de lista y usarlo en un documento.
 
@@ -130,7 +132,5 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateCustomList.docx");
 
 * class [ListLevel](../../listlevel/)
 * class [ListLevelCollection](../)
-* espacio de nombres [Aspose.Words.Lists](../../listlevelcollection/)
+* espacio de nombres [Aspose.Words.Lists](../../../aspose.words.lists/)
 * asamblea [Aspose.Words](../../../)
-
-

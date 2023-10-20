@@ -1,7 +1,9 @@
 ---
 title: HtmlFixedSaveOptions.ExportFormFields
-second_title: Referencia de API de Aspose.Words para .NET
-description: HtmlFixedSaveOptions propiedad. Obtiene o establece una indicación de si los campos del formulario se exportan como elementos interactivos como etiqueta de entrada en lugar de convertirse a texto o gráficos.
+linktitle: ExportFormFields
+articleTitle: ExportFormFields
+second_title: Aspose.Words para .NET
+description: HtmlFixedSaveOptions ExportFormFields propiedad. Obtiene o establece una indicación de si los campos del formulario se exportan como elementos interactivos como etiqueta de entrada en lugar de convertirse a texto o gráficos en C#.
 type: docs
 weight: 80
 url: /es/net/aspose.words.saving/htmlfixedsaveoptions/exportformfields/
@@ -14,7 +16,7 @@ Obtiene o establece una indicación de si los campos del formulario se exportan 
 public bool ExportFormFields { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo exportar campos de formulario a HTML.
 
@@ -56,7 +58,5 @@ else
 ### Ver también
 
 * class [HtmlFixedSaveOptions](../)
-* espacio de nombres [Aspose.Words.Saving](../../htmlfixedsaveoptions/)
+* espacio de nombres [Aspose.Words.Saving](../../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../../)
-
-

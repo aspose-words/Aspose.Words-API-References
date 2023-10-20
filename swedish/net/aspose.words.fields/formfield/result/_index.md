@@ -1,7 +1,9 @@
 ---
 title: FormField.Result
-second_title: Aspose.Words för .NET API Referens
-description: FormField fast egendom. Hämtar eller ställer in en sträng som representerar resultatet av detta formulärfält.
+linktitle: Result
+articleTitle: Result
+second_title: Aspose.Words för .NET
+description: FormField Result fast egendom. Hämtar eller ställer in en sträng som representerar resultatet av detta formulärfält i C#.
 type: docs
 weight: 170
 url: /sv/net/aspose.words.fields/formfield/result/
@@ -14,7 +16,7 @@ Hämtar eller ställer in en sträng som representerar resultatet av detta formu
 public string Result { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 För ett textformulärfält blir resultatet den text som finns i fältet.
 
@@ -26,7 +28,7 @@ Miljö`Result` för ett textformulärsfält gäller inte textformat som anges i[
 
 För ett textformulärfält[`TextInputDefault`](../textinputdefault/) värde tillämpas if*value* är`null`.
 
-### Exempel
+## Exempel
 
 Visar hur man infogar en kombinationsruta.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "FormFields.Create.html");
 ### Se även
 
 * class [FormField](../)
-* namnutrymme [Aspose.Words.Fields](../../formfield/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

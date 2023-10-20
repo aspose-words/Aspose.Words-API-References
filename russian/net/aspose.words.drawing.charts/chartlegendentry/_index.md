@@ -1,7 +1,9 @@
 ---
-title: Class ChartLegendEntry
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Drawing.Charts.ChartLegendEntry сорт. Представляет запись легенды диаграммы.
+title: ChartLegendEntry Class
+linktitle: ChartLegendEntry
+articleTitle: ChartLegendEntry
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Drawing.Charts.ChartLegendEntry сорт. Представляет запись легенды диаграммы на С#.
 type: docs
 weight: 730
 url: /ru/net/aspose.words.drawing.charts/chartlegendentry/
@@ -21,9 +23,9 @@ public class ChartLegendEntry
 | Имя | Описание |
 | --- | --- |
 | [Font](../../aspose.words.drawing.charts/chartlegendentry/font/) { get; } | Предоставляет доступ к форматированию шрифта этой записи легенды. |
-| [IsHidden](../../aspose.words.drawing.charts/chartlegendentry/ishidden/) { get; set; } | Получает или задает значение, указывающее, скрыта ли эта запись в легенде диаграммы. Значение по умолчанию: **ЛОЖЬ** . |
+| [IsHidden](../../aspose.words.drawing.charts/chartlegendentry/ishidden/) { get; set; } | Получает или задает значение, указывающее, скрыта ли эта запись в легенде диаграммы. Значение по умолчанию:**ЛОЖЬ** . |
 
-### Примечания
+## Примечания
 
 Запись легенды соответствует определенной серии диаграмм или линии тренда.
 
@@ -33,5 +35,3 @@ public class ChartLegendEntry
 
 * пространство имен [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../)
-
-

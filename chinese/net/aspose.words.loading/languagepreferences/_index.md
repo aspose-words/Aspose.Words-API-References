@@ -1,7 +1,9 @@
 ---
-title: Class LanguagePreferences
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Loading.LanguagePreferences 班级. 允许设置语言首选项
+title: LanguagePreferences Class
+linktitle: LanguagePreferences
+articleTitle: LanguagePreferences
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Loading.LanguagePreferences 班级. 允许设置语言首选项 在 C#.
 type: docs
 weight: 3650
 url: /zh/net/aspose.words.loading/languagepreferences/
@@ -32,14 +34,14 @@ public class LanguagePreferences
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AddEditingLanguage](../../aspose.words.loading/languagepreferences/addeditinglanguage/)(EditingLanguage) | 添加额外的编辑语言。 |
-| [AddEditingLanguages](../../aspose.words.loading/languagepreferences/addeditinglanguages/)(EditingLanguage[]) | 添加其他编辑语言。 |
+| [AddEditingLanguage](../../aspose.words.loading/languagepreferences/addeditinglanguage/)(*[EditingLanguage](../editinglanguage/)*) | 添加额外的编辑语言。 |
+| [AddEditingLanguages](../../aspose.words.loading/languagepreferences/addeditinglanguages/)(*EditingLanguage[]*) | 添加其他编辑语言。 |
 
-### 评论
+## 评论
 
 在 Word 中实现“设置 Office 语言首选项”对话框。
 
-### 例子
+## 例子
 
 演示如何在加载文档时应用语言首选项。
 
@@ -59,5 +61,3 @@ Console.WriteLine(localeIdFarEast == (int)EditingLanguage.Japanese
 
 * 命名空间 [Aspose.Words.Loading](../../aspose.words.loading/)
 * 部件 [Aspose.Words](../../)
-
-

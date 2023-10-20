@@ -1,7 +1,9 @@
 ---
 title: Shape.SignatureLine
-second_title: Referencia de API de Aspose.Words para .NET
-description: Shape propiedad. ObtieneSignatureLine objeto si la forma es una línea de firma. Devolucionesnulo de lo contrario.
+linktitle: SignatureLine
+articleTitle: SignatureLine
+second_title: Aspose.Words para .NET
+description: Shape SignatureLine propiedad. ObtieneSignatureLine objeto si la forma es una línea de firma. Devolucionesnulo de lo contrario en C#.
 type: docs
 weight: 160
 url: /es/net/aspose.words.drawing/shape/signatureline/
@@ -14,11 +16,11 @@ Obtiene[`SignatureLine`](../../signatureline/) objeto si la forma es una línea 
 public SignatureLine SignatureLine { get; }
 ```
 
-### Observaciones
+## Observaciones
 
 Puedes insertar nuevos[`SignatureLine`](../../signatureline/) en el documento usando[`InsertSignatureLine`](../../../aspose.words/documentbuilder/insertsignatureline/) y
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear una línea para una firma e insertarla en un documento.
 
@@ -64,7 +66,5 @@ doc.Save(ArtifactsDir + "Shape.SignatureLine.docx");
 
 * class [SignatureLine](../../signatureline/)
 * class [Shape](../)
-* espacio de nombres [Aspose.Words.Drawing](../../shape/)
+* espacio de nombres [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * asamblea [Aspose.Words](../../../)
-
-

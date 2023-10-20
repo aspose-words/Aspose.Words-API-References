@@ -1,7 +1,9 @@
 ---
 title: Cell.ParentRow
-second_title: Aspose.Words for .NET API 参考
-description: Cell 财产. 返回单元格的父行
+linktitle: ParentRow
+articleTitle: ParentRow
+second_title: 用于 .NET 的 Aspose.Words
+description: Cell ParentRow 财产. 返回单元格的父行 在 C#.
 type: docs
 weight: 100
 url: /zh/net/aspose.words.tables/cell/parentrow/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.tables/cell/parentrow/
 public Row ParentRow { get; }
 ```
 
-### 评论
+## 评论
 
 相当于FirstNonMarkupParentNode投射到[`Row`](../../row/)。
 
-### 例子
+## 例子
 
 展示如何将表格设置为在同一页面上保持在一起。
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "Table.KeepTableTogether.docx");
 
 * class [Row](../../row/)
 * class [Cell](../)
-* 命名空间 [Aspose.Words.Tables](../../cell/)
+* 命名空间 [Aspose.Words.Tables](../../../aspose.words.tables/)
 * 部件 [Aspose.Words](../../../)
-
-

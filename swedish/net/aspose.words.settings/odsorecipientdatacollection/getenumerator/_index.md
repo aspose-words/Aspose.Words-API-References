@@ -1,7 +1,9 @@
 ---
 title: OdsoRecipientDataCollection.GetEnumerator
-second_title: Aspose.Words för .NET API Referens
-description: OdsoRecipientDataCollection metod. Returnerar ett uppräkningsobjekt som kan användas för att iterera över alla objekt i samlingen.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words för .NET
+description: OdsoRecipientDataCollection GetEnumerator metod. Returnerar ett uppräkningsobjekt som kan användas för att iterera över alla objekt i samlingen i C#.
 type: docs
 weight: 60
 url: /sv/net/aspose.words.settings/odsorecipientdatacollection/getenumerator/
@@ -14,7 +16,7 @@ Returnerar ett uppräkningsobjekt som kan användas för att iterera över alla 
 public IEnumerator<OdsoRecipientData> GetEnumerator()
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man får åtkomst till insamlingen av data som anger vilka sammanslagningsdatakällaposter en sammanslagning kommer att utesluta.
 
@@ -55,7 +57,5 @@ Assert.AreEqual(0, dataCollection.Count);
 
 * class [OdsoRecipientData](../../odsorecipientdata/)
 * class [OdsoRecipientDataCollection](../)
-* namnutrymme [Aspose.Words.Settings](../../odsorecipientdatacollection/)
+* namnutrymme [Aspose.Words.Settings](../../../aspose.words.settings/)
 * hopsättning [Aspose.Words](../../../)
-
-

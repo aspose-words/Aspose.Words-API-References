@@ -1,7 +1,9 @@
 ---
 title: FieldListNum.ListName
-second_title: Aspose.Words for .NET API 参考
-description: FieldListNum 财产. 获取或设置用于编号的抽象编号定义的名称
+linktitle: ListName
+articleTitle: ListName
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldListNum ListName 财产. 获取或设置用于编号的抽象编号定义的名称 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.fields/fieldlistnum/listname/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fieldlistnum/listname/
 public string ListName { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何使用 LISTNUM 字段对段落进行编号。
 
@@ -84,7 +86,5 @@ doc.Save(ArtifactsDir + "Field.LISTNUM.docx");
 ### 也可以看看
 
 * class [FieldListNum](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldlistnum/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

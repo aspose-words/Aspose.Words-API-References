@@ -1,7 +1,9 @@
 ---
 title: OdsoFieldMapData.Clone
-second_title: Справочник по API Aspose.Words для .NET
-description: OdsoFieldMapData метод. Возвращает глубокую копию этого объекта.
+linktitle: Clone
+articleTitle: Clone
+second_title: Aspose.Words для .NET
+description: OdsoFieldMapData Clone метод. Возвращает глубокую копию этого объекта на С#.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.settings/odsofieldmapdata/clone/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.settings/odsofieldmapdata/clone/
 public OdsoFieldMapData Clone()
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как получить доступ к коллекции данных, которая сопоставляет столбцы источника данных с полями слияния.
 
@@ -57,7 +59,5 @@ Assert.AreEqual(0, dataCollection.Count);
 ### Смотрите также
 
 * class [OdsoFieldMapData](../)
-* пространство имен [Aspose.Words.Settings](../../odsofieldmapdata/)
+* пространство имен [Aspose.Words.Settings](../../../aspose.words.settings/)
 * сборка [Aspose.Words](../../../)
-
-

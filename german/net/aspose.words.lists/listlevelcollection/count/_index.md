@@ -1,7 +1,9 @@
 ---
 title: ListLevelCollection.Count
-second_title: Aspose.Words für .NET-API-Referenz
-description: ListLevelCollection eigendom. Ruft die Anzahl der Ebenen in dieser Liste ab.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words für .NET
+description: ListLevelCollection Count eigendom. Ruft die Anzahl der Ebenen in dieser Liste ab in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words.lists/listlevelcollection/count/
@@ -14,11 +16,11 @@ Ruft die Anzahl der Ebenen in dieser Liste ab.
 public int Count { get; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Eine Liste kann 1 oder 9 Ebenen enthalten.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Listenstil erstellt und in einem Dokument verwendet wird.
 
@@ -79,7 +81,5 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateAndUseListStyle.docx");
 ### Siehe auch
 
 * class [ListLevelCollection](../)
-* namensraum [Aspose.Words.Lists](../../listlevelcollection/)
+* namensraum [Aspose.Words.Lists](../../../aspose.words.lists/)
 * Montage [Aspose.Words](../../../)
-
-

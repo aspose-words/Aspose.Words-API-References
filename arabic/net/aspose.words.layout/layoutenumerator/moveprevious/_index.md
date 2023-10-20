@@ -1,7 +1,9 @@
 ---
 title: LayoutEnumerator.MovePrevious
-second_title: Aspose.Words لمراجع .NET API
-description: LayoutEnumerator طريقة. ينتقل إلى الكيان الشقيق السابق.
+linktitle: MovePrevious
+articleTitle: MovePrevious
+second_title: Aspose.Words لـ .NET
+description: LayoutEnumerator MovePrevious طريقة. ينتقل إلى الكيان الشقيق السابق في C#.
 type: docs
 weight: 150
 url: /ar/net/aspose.words.layout/layoutenumerator/moveprevious/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.layout/layoutenumerator/moveprevious/
 public bool MovePrevious()
 ```
 
-### أمثلة
+## أمثلة
 
 يُظهر طرق اجتياز كيانات تخطيط المستند.
 
@@ -159,7 +161,5 @@ private static void PrintCurrentEntity(LayoutEnumerator layoutEnumerator, int in
 ### أنظر أيضا
 
 * class [LayoutEnumerator](../)
-* مساحة الاسم [Aspose.Words.Layout](../../layoutenumerator/)
+* مساحة الاسم [Aspose.Words.Layout](../../../aspose.words.layout/)
 * المجسم [Aspose.Words](../../../)
-
-

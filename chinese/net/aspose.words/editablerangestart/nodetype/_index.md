@@ -1,7 +1,9 @@
 ---
 title: EditableRangeStart.NodeType
-second_title: Aspose.Words for .NET API 参考
-description: EditableRangeStart 财产. 返回EditableRangeStart.
+linktitle: NodeType
+articleTitle: NodeType
+second_title: 用于 .NET 的 Aspose.Words
+description: EditableRangeStart NodeType 财产. 返回EditableRangeStart 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words/editablerangestart/nodetype/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/editablerangestart/nodetype/
 public override NodeType NodeType { get; }
 ```
 
-### 例子
+## 例子
 
 展示如何使用可编辑范围。
 
@@ -61,7 +63,5 @@ editableRange.Remove();
 
 * enum [NodeType](../../nodetype/)
 * class [EditableRangeStart](../)
-* 命名空间 [Aspose.Words](../../editablerangestart/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

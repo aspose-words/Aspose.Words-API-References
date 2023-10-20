@@ -1,7 +1,9 @@
 ---
 title: LoadOptions.MswVersion
-second_title: Aspose.Words för .NET API Referens
-description: LoadOptions fast egendom. Tillåter att ange att dokumentladdningsprocessen ska matcha en specifik MS Wordversion. Standardvärdet ärWord2019
+linktitle: MswVersion
+articleTitle: MswVersion
+second_title: Aspose.Words för .NET
+description: LoadOptions MswVersion fast egendom. Tillåter att ange att dokumentladdningsprocessen ska matcha en specifik MS Wordversion. Standardvärdet ärWord2019 i C#.
 type: docs
 weight: 100
 url: /sv/net/aspose.words.loading/loadoptions/mswversion/
@@ -14,11 +16,11 @@ Tillåter att ange att dokumentladdningsprocessen ska matcha en specifik MS Word
 public MsWordVersion MswVersion { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Olika Word-versioner kan hantera vissa aspekter av dokumentinnehåll och formatering något annorlunda under laddningsprocessen, vilket kan resultera i mindre skillnader i dokumentobjektmodellen.
 
-### Exempel
+## Exempel
 
 Visar hur man emulerar laddningsproceduren för en specifik Microsoft Word-version under dokumentladdning.
 
@@ -41,7 +43,5 @@ Assert.AreEqual(12.95d, doc.Styles.DefaultParagraphFormat.LineSpacing, 0.01d);
 
 * enum [MsWordVersion](../../../aspose.words.settings/mswordversion/)
 * class [LoadOptions](../)
-* namnutrymme [Aspose.Words.Loading](../../loadoptions/)
+* namnutrymme [Aspose.Words.Loading](../../../aspose.words.loading/)
 * hopsättning [Aspose.Words](../../../)
-
-

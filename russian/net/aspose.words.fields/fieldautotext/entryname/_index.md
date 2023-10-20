@@ -1,7 +1,9 @@
 ---
 title: FieldAutoText.EntryName
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldAutoText свойство. Получает или задает имя записи автотекста.
+linktitle: EntryName
+articleTitle: EntryName
+second_title: Aspose.Words для .NET
+description: FieldAutoText EntryName свойство. Получает или задает имя записи автотекста на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.fields/fieldautotext/entryname/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldautotext/entryname/
 public string EntryName { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как отобразить стандартный блок с полями АВТОТЕКСТ и ГЛОССАРИЙ.
 
@@ -64,7 +66,5 @@ doc.Save(ArtifactsDir + "Field.AUTOTEXT.GLOSSARY.dotx");
 ### Смотрите также
 
 * class [FieldAutoText](../)
-* пространство имен [Aspose.Words.Fields](../../fieldautotext/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

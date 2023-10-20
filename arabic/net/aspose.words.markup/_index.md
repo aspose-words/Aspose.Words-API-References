@@ -1,12 +1,14 @@
 ---
 title: Aspose.Words.Markup
-second_title: Aspose.Words لمراجع .NET API
-description: ال Aspose.Words.Markup تحتوي مساحة الاسم على فئات تمثل دلالات يحددها العميل في المستند العلامات الذكية وعلامات XML المخصصة و علامات المستندات المنظمة عناصر التحكم في المحتوى.
+linktitle: Aspose.Words.Markup
+articleTitle: Aspose.Words.Markup
+second_title: Aspose.Words لـ .NET
+description: الAspose.Words.Markup تحتوي مساحة الاسم على فئات تمثل دلالات يحددها العميل في المستند العلامات الذكية وعلامات XML المخصصة و علامات المستندات المنظمة عناصر التحكم في المحتوى في C#.
 type: docs
 weight: 160
 url: /ar/net/aspose.words.markup/
 ---
-ال **Aspose.Words.Markup** تحتوي مساحة الاسم على فئات تمثل دلالات يحددها العميل في المستند: العلامات الذكية وعلامات XML المخصصة و علامات المستندات المنظمة (عناصر التحكم في المحتوى).
+ال**Aspose.Words.Markup** تحتوي مساحة الاسم على فئات تمثل دلالات يحددها العميل في المستند: العلامات الذكية وعلامات XML المخصصة و علامات المستندات المنظمة (عناصر التحكم في المحتوى).
 
 ## الطبقات
 
@@ -24,8 +26,8 @@ url: /ar/net/aspose.words.markup/
 | [SmartTag](./smarttag/) | يحدد هذا العنصر وجود علامة ذكية حول بنية سطرية واحدة أو أكثر (عمليات التشغيل والصور والحقول وما إلى ذلك) داخل الفقرة. |
 | [StructuredDocumentTag](./structureddocumenttag/) | يمثل علامة مستند منظمة (SDT أو التحكم في المحتوى) في المستند. |
 | [StructuredDocumentTagCollection](./structureddocumenttagcollection/) | مجموعة من[`IStructuredDocumentTag`](../aspose.words.markup/istructureddocumenttag/) المثيلات التي تمثل علامات المستندات المنظمة في النطاق المحدد. |
-| [StructuredDocumentTagRangeEnd](./structureddocumenttagrangeend/) | يمثل نهاية **تراوحت** علامة مستند منظمة تقبل محتوى متعدد الأقسام. راجع أيضًا[`StructuredDocumentTagRangeStart`](../aspose.words.markup/structureddocumenttagrangestart/) العقدة |
-| [StructuredDocumentTagRangeStart](./structureddocumenttagrangestart/) | يمثل بداية **تراوحت** علامة مستند منظمة تقبل محتوى متعدد الأقسام. راجع أيضًا[`StructuredDocumentTagRangeEnd`](../aspose.words.markup/structureddocumenttagrangeend/) . |
+| [StructuredDocumentTagRangeEnd](./structureddocumenttagrangeend/) | يمثل نهاية**تراوحت** علامة مستند منظمة تقبل محتوى متعدد الأقسام. راجع أيضًا[`StructuredDocumentTagRangeStart`](../aspose.words.markup/structureddocumenttagrangestart/) العقدة |
+| [StructuredDocumentTagRangeStart](./structureddocumenttagrangestart/) | يمثل بداية**تراوحت** علامة مستند منظمة تقبل محتوى متعدد الأقسام. راجع أيضًا[`StructuredDocumentTagRangeEnd`](../aspose.words.markup/structureddocumenttagrangeend/) . |
 | [XmlMapping](./xmlmapping/) | يحدد المعلومات المستخدمة لتأسيس تعيين بين علامة المستند الهيكليةparent وعنصر XML المخزن داخل جزء بيانات XML مخصص في المستند. |
 ## واجهات
 
@@ -41,5 +43,3 @@ url: /ar/net/aspose.words.markup/
 | [SdtCalendarType](./sdtcalendartype/) | يحدد الأنواع المحتملة من التقويمات التي يمكن استخدامها للتحديد[`CalendarType`](../aspose.words.markup/structureddocumenttag/calendartype/) في مستند Office Open XML. |
 | [SdtDateStorageFormat](./sdtdatestorageformat/) | يحدد كيفية تخزين/استرداد تاريخ SDT عندما تكون SDT مرتبطة بعقدة XML في مخزن بيانات المستند. |
 | [SdtType](./sdttype/) | يحدد نوع عقدة علامة المستند المنظمة (SDT). |
-
-

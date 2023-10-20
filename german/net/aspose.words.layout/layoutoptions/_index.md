@@ -1,7 +1,9 @@
 ---
-title: Class LayoutOptions
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Layout.LayoutOptions klas. Enthält die Optionen die die Steuerung des Dokumentlayoutprozesses ermöglichen.
+title: LayoutOptions Class
+linktitle: LayoutOptions
+articleTitle: LayoutOptions
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Layout.LayoutOptions klas. Enthält die Optionen die die Steuerung des Dokumentlayoutprozesses ermöglichen in C#.
 type: docs
 weight: 3350
 url: /de/net/aspose.words.layout/layoutoptions/
@@ -36,13 +38,13 @@ public class LayoutOptions
 | [ShowParagraphMarks](../../aspose.words.layout/layoutoptions/showparagraphmarks/) { get; set; } | Ruft den Hinweis ab, ob Absatzmarken gerendert werden, oder legt diesen fest. Der Standardwert ist`FALSCH` . |
 | [TextShaperFactory](../../aspose.words.layout/layoutoptions/textshaperfactory/) { get; set; } | Ruft ab oder legt fest[`ITextShaperFactory`](../../aspose.words.shaping/itextshaperfactory/) Implementierung, die für erweiterte Typografie-Renderingfunktionen verwendet wird. |
 
-### Bemerkungen
+## Bemerkungen
 
 Sie erstellen keine Instanzen dieser Klasse direkt. Benutzen Sie die[`LayoutOptions`](../../aspose.words/document/layoutoptions/) Eigenschaft, um auf Layoutoptionen für dieses Dokument zuzugreifen.
 
 Beachten Sie, dass nach dem Ändern einer der in dieser Klasse vorhandenen Optionen[`UpdatePageLayout`](../../aspose.words/document/updatepagelayout/) method sollte aufgerufen werden, damit die geänderten Optionen auf das Layout angewendet werden.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Text in einem gerenderten Ausgabedokument ausgeblendet wird.
 
@@ -98,5 +100,3 @@ doc.Save(ArtifactsDir + "Document.LayoutOptionsRevisions.pdf");
 
 * namensraum [Aspose.Words.Layout](../../aspose.words.layout/)
 * Montage [Aspose.Words](../../)
-
-

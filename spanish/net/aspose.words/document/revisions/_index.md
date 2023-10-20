@@ -1,7 +1,9 @@
 ---
 title: Document.Revisions
-second_title: Referencia de API de Aspose.Words para .NET
-description: Document propiedad. Obtiene una colección de revisiones cambios rastreados que existen en este documento.
+linktitle: Revisions
+articleTitle: Revisions
+second_title: Aspose.Words para .NET
+description: Document Revisions propiedad. Obtiene una colección de revisiones cambios rastreados que existen en este documento en C#.
 type: docs
 weight: 350
 url: /es/net/aspose.words/document/revisions/
@@ -14,11 +16,11 @@ Obtiene una colección de revisiones (cambios rastreados) que existen en este do
 public RevisionCollection Revisions { get; }
 ```
 
-### Observaciones
+## Observaciones
 
 La colección devuelta es una colección "activa", lo que significa que si elimina partes de un documento que contiene revisiones, las revisiones eliminadas desaparecerán automáticamente de esta colección.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo trabajar con revisiones en un documento.
 
@@ -102,7 +104,5 @@ Assert.AreEqual("This is revision #1. \rThis is revision #2.", doc.GetText().Tri
 
 * class [RevisionCollection](../../revisioncollection/)
 * class [Document](../)
-* espacio de nombres [Aspose.Words](../../document/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FrameFormat.HorizontalAlignment
-second_title: Aspose.Words für .NET-API-Referenz
-description: FrameFormat eigendom. Ruft die horizontale Ausrichtung des angegebenen Frames ab.
+linktitle: HorizontalAlignment
+articleTitle: HorizontalAlignment
+second_title: Aspose.Words für .NET
+description: FrameFormat HorizontalAlignment eigendom. Ruft die horizontale Ausrichtung des angegebenen Frames ab in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words/frameformat/horizontalalignment/
@@ -14,7 +16,7 @@ Ruft die horizontale Ausrichtung des angegebenen Frames ab.
 public HorizontalAlignment HorizontalAlignment { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie Informationen zu Formatierungseigenschaften von Absätzen erhalten, die Rahmen sind.
 
@@ -40,7 +42,5 @@ Assert.AreEqual(0.0d, paragraphFrame.FrameFormat.VerticalDistanceFromText);
 
 * enum [HorizontalAlignment](../../../aspose.words.drawing/horizontalalignment/)
 * class [FrameFormat](../)
-* namensraum [Aspose.Words](../../frameformat/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

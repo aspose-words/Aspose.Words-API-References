@@ -1,9 +1,11 @@
 ---
 title: DocumentBuilder.MoveToSection
-second_title: Aspose.Words for .NET API 参考
-description: DocumentBuilder 方法. 将光标移动到指定节中正文的开头
+linktitle: MoveToSection
+articleTitle: MoveToSection
+second_title: 用于 .NET 的 Aspose.Words
+description: DocumentBuilder MoveToSection 方法. 将光标移动到指定节中正文的开头 在 C#.
 type: docs
-weight: 580
+weight: 570
 url: /zh/net/aspose.words/documentbuilder/movetosection/
 ---
 ## DocumentBuilder.MoveToSection method
@@ -18,13 +20,13 @@ public void MoveToSection(int sectionIndex)
 | --- | --- | --- |
 | sectionIndex | Int32 | 要移动到的部分的索引。 |
 
-### 评论
+## 评论
 
 什么时候*sectionIndex*大于或等于 0，它指定索引 from 文档的开头，其中 0 是第一个部分。什么时候*sectionIndex*小于 0, 它指定从文档末尾开始的索引，-1 是最后一个部分。
 
 光标移至第一段[`Body`](../../body/)指定部分的。
 
-### 例子
+## 例子
 
 演示如何使用 DocumentBuilder 在文档中创建页眉和页脚。
 
@@ -57,7 +59,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.HeadersAndFooters.docx");
 ### 也可以看看
 
 * class [DocumentBuilder](../)
-* 命名空间 [Aspose.Words](../../documentbuilder/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

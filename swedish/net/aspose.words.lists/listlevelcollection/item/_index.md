@@ -1,7 +1,9 @@
 ---
 title: ListLevelCollection.Item
-second_title: Aspose.Words för .NET API Referens
-description: ListLevelCollection fast egendom. Får en listnivå efter index.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words för .NET
+description: ListLevelCollection Item fast egendom. Får en listnivå efter index i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.lists/listlevelcollection/item/
@@ -14,7 +16,7 @@ Får en listnivå efter index.
 public ListLevel this[int index] { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du skapar en liststil och använder den i ett dokument.
 
@@ -130,7 +132,5 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateCustomList.docx");
 
 * class [ListLevel](../../listlevel/)
 * class [ListLevelCollection](../)
-* namnutrymme [Aspose.Words.Lists](../../listlevelcollection/)
+* namnutrymme [Aspose.Words.Lists](../../../aspose.words.lists/)
 * hopsättning [Aspose.Words](../../../)
-
-

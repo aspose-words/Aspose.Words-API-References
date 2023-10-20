@@ -1,7 +1,9 @@
 ---
 title: FieldGreetingLine.NameFormat
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldGreetingLine propiedad. Obtiene o establece el formato del nombre incluido en el campo.
+linktitle: NameFormat
+articleTitle: NameFormat
+second_title: Aspose.Words para .NET
+description: FieldGreetingLine NameFormat propiedad. Obtiene o establece el formato del nombre incluido en el campo en C#.
 type: docs
 weight: 40
 url: /es/net/aspose.words.fields/fieldgreetingline/nameformat/
@@ -14,7 +16,7 @@ Obtiene o establece el formato del nombre incluido en el campo.
 public string NameFormat { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo insertar un campo GREETINGLINE.
 
@@ -74,7 +76,5 @@ Assert.AreEqual("Dear Mr. Doe,\r\r\tThis is your custom greeting, created progra
 ### Ver también
 
 * class [FieldGreetingLine](../)
-* espacio de nombres [Aspose.Words.Fields](../../fieldgreetingline/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

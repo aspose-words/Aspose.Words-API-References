@@ -1,7 +1,9 @@
 ---
 title: Border.LineStyle
-second_title: Справочник по API Aspose.Words для .NET
-description: Border свойство. Получает или задает стиль границы.
+linktitle: LineStyle
+articleTitle: LineStyle
+second_title: Aspose.Words для .NET
+description: Border LineStyle свойство. Получает или задает стиль границы на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words/border/linestyle/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words/border/linestyle/
 public LineStyle LineStyle { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Если для стиля линии установлено значение «Нет», ширина линии автоматически изменится на нулевую.
 
-### Примеры
+## Примеры
 
 Показывает, как вставить в документ строку, окруженную рамкой.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "Border.FontBorder.docx");
 
 * enum [LineStyle](../../linestyle/)
 * class [Border](../)
-* пространство имен [Aspose.Words](../../border/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

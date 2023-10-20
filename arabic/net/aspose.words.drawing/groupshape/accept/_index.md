@@ -1,7 +1,9 @@
 ---
 title: GroupShape.Accept
-second_title: Aspose.Words لمراجع .NET API
-description: GroupShape طريقة. يقبل الزائر.
+linktitle: Accept
+articleTitle: Accept
+second_title: Aspose.Words لـ .NET
+description: GroupShape Accept طريقة. يقبل الزائر في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.drawing/groupshape/accept/
@@ -22,7 +24,7 @@ public override bool Accept(DocumentVisitor visitor)
 
 صحيح إذا تمت زيارة جميع العقد؛ كاذبة إذا[`DocumentVisitor`](../../../aspose.words/documentvisitor/) أوقفت العملية قبل زيارة كافة العقد.
 
-### ملاحظات
+## ملاحظات
 
 يعدد هذه العقدة وجميع أبنائها. تستدعي كل عقدة الطريقة المقابلة لها[`DocumentVisitor`](../../../aspose.words/documentvisitor/).
 
@@ -30,7 +32,7 @@ public override bool Accept(DocumentVisitor visitor)
 
 المكالمات[`VisitGroupShapeStart`](../../../aspose.words/documentvisitor/visitgroupshapestart/) ، ثم يتصل[`Accept`](../../../aspose.words/node/accept/) لجميع الأشكال الفرعية لشكل المجموعة واستدعاءاتها[`VisitGroupShapeEnd`](../../../aspose.words/documentvisitor/visitgroupshapeend/) في النهاية.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء مجموعة من الأشكال، وطباعة محتوياتها باستخدام زائر المستند.
 
@@ -122,7 +124,5 @@ public class ShapeGroupPrinter : DocumentVisitor
 
 * class [DocumentVisitor](../../../aspose.words/documentvisitor/)
 * class [GroupShape](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../groupshape/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

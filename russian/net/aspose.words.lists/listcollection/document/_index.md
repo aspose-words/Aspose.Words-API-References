@@ -1,7 +1,9 @@
 ---
 title: ListCollection.Document
-second_title: Справочник по API Aspose.Words для .NET
-description: ListCollection свойство. Получает документ владельца.
+linktitle: Document
+articleTitle: Document
+second_title: Aspose.Words для .NET
+description: ListCollection Document свойство. Получает документ владельца на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.lists/listcollection/document/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.lists/listcollection/document/
 public DocumentBase Document { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как проверить свойства документов владельцев списков.
 
@@ -37,7 +39,5 @@ Console.WriteLine("List is the same by ListId: " + (lists.GetListByListId(1).Equ
 
 * class [DocumentBase](../../../aspose.words/documentbase/)
 * class [ListCollection](../)
-* пространство имен [Aspose.Words.Lists](../../listcollection/)
+* пространство имен [Aspose.Words.Lists](../../../aspose.words.lists/)
 * сборка [Aspose.Words](../../../)
-
-

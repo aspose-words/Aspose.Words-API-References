@@ -1,7 +1,9 @@
 ---
 title: Document.BuiltInDocumentProperties
-second_title: Справочник по API Aspose.Words для .NET
-description: Document свойство. Возвращает коллекцию которая представляет все встроенные свойства документа document. .
+linktitle: BuiltInDocumentProperties
+articleTitle: BuiltInDocumentProperties
+second_title: Aspose.Words для .NET
+description: Document BuiltInDocumentProperties свойство. Возвращает коллекцию которая представляет все встроенные свойства документа document.  на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words/document/builtindocumentproperties/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/document/builtindocumentproperties/
 public BuiltInDocumentProperties BuiltInDocumentProperties { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как работать со встроенными свойствами документа.
 
@@ -49,7 +51,5 @@ foreach (DocumentProperty docProperty in doc.BuiltInDocumentProperties)
 
 * class [BuiltInDocumentProperties](../../../aspose.words.properties/builtindocumentproperties/)
 * class [Document](../)
-* пространство имен [Aspose.Words](../../document/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

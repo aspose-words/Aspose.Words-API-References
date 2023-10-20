@@ -1,7 +1,9 @@
 ---
-title: Enum SdtType
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Markup.SdtType تعداد. يحدد نوع عقدة علامة المستند المنظمة SDT.
+title: SdtType Enum
+linktitle: SdtType
+articleTitle: SdtType
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Markup.SdtType تعداد. يحدد نوع عقدة علامة المستند المنظمة SDT في C#.
 type: docs
 weight: 4040
 url: /ar/net/aspose.words.markup/sdttype/
@@ -36,7 +38,7 @@ public enum SdtType
 | RepeatingSectionItem | `15` | يمثل SDT عنصر القسم المتكرر. |
 | EntityPicker | `16` | يمثل SDT منتقي الكيان الذي يسمح للمستخدم بتحديد مثيل لنوع محتوى خارجي. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء علامة مستند منظمة للمجموعة على مستوى الصف.
 
@@ -172,5 +174,3 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.RepeatingSectionItem.docx");
 
 * مساحة الاسم [Aspose.Words.Markup](../../aspose.words.markup/)
 * المجسم [Aspose.Words](../../)
-
-

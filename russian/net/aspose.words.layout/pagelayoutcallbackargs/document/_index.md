@@ -1,7 +1,9 @@
 ---
 title: PageLayoutCallbackArgs.Document
-second_title: Справочник по API Aspose.Words для .NET
-description: PageLayoutCallbackArgs свойство. Получает документ.
+linktitle: Document
+articleTitle: Document
+second_title: Aspose.Words для .NET
+description: PageLayoutCallbackArgs Document свойство. Получает документ на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.layout/pagelayoutcallbackargs/document/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.layout/pagelayoutcallbackargs/document/
 public Document Document { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как отслеживать изменения макета с помощью обратного вызова макета.
 
@@ -81,7 +83,5 @@ private class RenderPageLayoutCallback : IPageLayoutCallback
 
 * class [Document](../../../aspose.words/document/)
 * class [PageLayoutCallbackArgs](../)
-* пространство имен [Aspose.Words.Layout](../../pagelayoutcallbackargs/)
+* пространство имен [Aspose.Words.Layout](../../../aspose.words.layout/)
 * сборка [Aspose.Words](../../../)
-
-

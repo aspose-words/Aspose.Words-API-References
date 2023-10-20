@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabel.Font
-second_title: Aspose.Words for .NET API 参考
-description: ChartDataLabel 财产. 提供对此数据标签的字体格式的访问
+linktitle: Font
+articleTitle: Font
+second_title: 用于 .NET 的 Aspose.Words
+description: ChartDataLabel Font 财产. 提供对此数据标签的字体格式的访问 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.drawing.charts/chartdatalabel/font/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.drawing.charts/chartdatalabel/font/
 public Font Font { get; }
 ```
 
-### 例子
+## 例子
 
 展示如何将 3D 效果与气泡图结合使用。
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "Charts.Bubble3D.docx");
 
 * class [Font](../../../aspose.words/font/)
 * class [ChartDataLabel](../)
-* 命名空间 [Aspose.Words.Drawing.Charts](../../chartdatalabel/)
+* 命名空间 [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * 部件 [Aspose.Words](../../../)
-
-

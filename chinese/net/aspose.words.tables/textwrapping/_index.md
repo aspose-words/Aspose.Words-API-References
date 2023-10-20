@@ -1,7 +1,9 @@
 ---
-title: Enum TextWrapping
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Tables.TextWrapping 枚举. 指定文本如何环绕表格
+title: TextWrapping Enum
+linktitle: TextWrapping
+articleTitle: TextWrapping
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Tables.TextWrapping 枚举. 指定文本如何环绕表格 在 C#.
 type: docs
 weight: 6380
 url: /zh/net/aspose.words.tables/textwrapping/
@@ -22,7 +24,7 @@ public enum TextWrapping
 | Around | `1` | 文本环绕表格，占据可用的侧面空间。 |
 | Default | `0` | 默认值。 |
 
-### 例子
+## 例子
 
 展示如何使用表格文本换行。
 
@@ -54,5 +56,3 @@ doc.Save(ArtifactsDir + "Table.WrapText.docx");
 
 * 命名空间 [Aspose.Words.Tables](../../aspose.words.tables/)
 * 部件 [Aspose.Words](../../)
-
-

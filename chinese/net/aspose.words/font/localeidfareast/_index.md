@@ -1,7 +1,9 @@
 ---
 title: Font.LocaleIdFarEast
-second_title: Aspose.Words for .NET API 参考
-description: Font 财产. 获取或设置格式化亚洲字符的区域设置标识符语言
+linktitle: LocaleIdFarEast
+articleTitle: LocaleIdFarEast
+second_title: 用于 .NET 的 Aspose.Words
+description: Font LocaleIdFarEast 财产. 获取或设置格式化亚洲字符的区域设置标识符语言 在 C#.
 type: docs
 weight: 220
 url: /zh/net/aspose.words/font/localeidfareast/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words/font/localeidfareast/
 public int LocaleIdFarEast { get; set; }
 ```
 
-### 评论
+## 评论
 
 有关区域设置标识符的列表，请参阅 https://msdn.microsoft.com/en-us/library/cc233965.aspx
 
-### 例子
+## 例子
 
 演示如何用远东语言插入文本并设置其格式。
 
@@ -49,7 +51,5 @@ doc.Save(ArtifactsDir + "Font.FarEast.docx");
 ### 也可以看看
 
 * class [Font](../)
-* 命名空间 [Aspose.Words](../../font/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

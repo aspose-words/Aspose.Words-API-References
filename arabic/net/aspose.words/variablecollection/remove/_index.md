@@ -1,7 +1,9 @@
 ---
 title: VariableCollection.Remove
-second_title: Aspose.Words لمراجع .NET API
-description: VariableCollection طريقة. إزالة متغير مستند بالاسم المحدد من المجموعة.
+linktitle: Remove
+articleTitle: Remove
+second_title: Aspose.Words لـ .NET
+description: VariableCollection Remove طريقة. إزالة متغير مستند بالاسم المحدد من المجموعة في C#.
 type: docs
 weight: 80
 url: /ar/net/aspose.words/variablecollection/remove/
@@ -18,7 +20,7 @@ public void Remove(string name)
 | --- | --- | --- |
 | name | String | اسم المتغير غير حساس لحالة الأحرف. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع مجموعة متغيرات المستند.
 
@@ -85,7 +87,5 @@ Assert.That(variables, Is.Empty);
 ### أنظر أيضا
 
 * class [VariableCollection](../)
-* مساحة الاسم [Aspose.Words](../../variablecollection/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

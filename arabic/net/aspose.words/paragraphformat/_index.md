@@ -1,7 +1,9 @@
 ---
-title: Class ParagraphFormat
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.ParagraphFormat فصل. يمثل كافة التنسيقات الخاصة بالفقرة.
+title: ParagraphFormat Class
+linktitle: ParagraphFormat
+articleTitle: ParagraphFormat
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.ParagraphFormat فصل. يمثل كافة التنسيقات الخاصة بالفقرة في C#.
 type: docs
 weight: 4420
 url: /ar/net/aspose.words/paragraphformat/
@@ -68,7 +70,7 @@ public class ParagraphFormat
 | --- | --- |
 | [ClearFormatting](../../aspose.words/paragraphformat/clearformatting/)() | إعادة التعيين إلى تنسيق الفقرة الافتراضي. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء مستند Aspose.Words يدويًا.
 
@@ -119,5 +121,3 @@ doc.Save(ArtifactsDir + "Section.CreateManually.docx");
 
 * مساحة الاسم [Aspose.Words](../../aspose.words/)
 * المجسم [Aspose.Words](../../)
-
-

@@ -1,20 +1,22 @@
 ---
 title: StructuredDocumentTag.SdtType
-second_title: Aspose.Words för .NET API Referens
-description: StructuredDocumentTag fast egendom. Får typ av detta Strukturerad dokumenttagg .
+linktitle: SdtType
+articleTitle: SdtType
+second_title: Aspose.Words för .NET
+description: StructuredDocumentTag SdtType fast egendom. Får typ av dettaStrukturerad dokumenttagg  i C#.
 type: docs
 weight: 250
 url: /sv/net/aspose.words.markup/structureddocumenttag/sdttype/
 ---
 ## StructuredDocumentTag.SdtType property
 
-Får typ av detta **Strukturerad dokumenttagg** .
+Får typ av detta**Strukturerad dokumenttagg** .
 
 ```csharp
 public SdtType SdtType { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du får typen av en strukturerad dokumenttagg.
 
@@ -33,7 +35,5 @@ Assert.AreEqual(SdtType.RichText, tags[2].SdtType);
 
 * enum [SdtType](../../sdttype/)
 * class [StructuredDocumentTag](../)
-* namnutrymme [Aspose.Words.Markup](../../structureddocumenttag/)
+* namnutrymme [Aspose.Words.Markup](../../../aspose.words.markup/)
 * hopsättning [Aspose.Words](../../../)
-
-

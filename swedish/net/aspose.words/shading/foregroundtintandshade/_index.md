@@ -1,7 +1,9 @@
 ---
 title: Shading.ForegroundTintAndShade
-second_title: Aspose.Words för .NET API Referens
-description: Shading fast egendom. Hämtar eller ställer in ett dubbelt värde som gör en förgrundstemafärg ljusare eller mörkare.
+linktitle: ForegroundTintAndShade
+articleTitle: ForegroundTintAndShade
+second_title: Aspose.Words för .NET
+description: Shading ForegroundTintAndShade fast egendom. Hämtar eller ställer in ett dubbelt värde som gör en förgrundstemafärg ljusare eller mörkare i C#.
 type: docs
 weight: 60
 url: /sv/net/aspose.words/shading/foregroundtintandshade/
@@ -14,13 +16,13 @@ Hämtar eller ställer in ett dubbelt värde som gör en förgrundstemafärg lju
 public double ForegroundTintAndShade { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 De tillåtna värdena ligger i intervallet från -1 (den mörkaste) till 1 (den ljusaste) för den här egenskapen. Noll (0) är neutral. Ett försök att ställa in den här egenskapen till ett värde mindre än -1 eller mer än 1 resulterar iArgumentOutOfRangeException.
 
 Om du ställer in den här egenskapen för Shading objekt med icke-tema colors resulterar iInvalidOperationException.
 
-### Exempel
+## Exempel
 
 Visar hur man ställer in förgrunds- och bakgrundsfärger för skuggning av textur.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "Font.ForegroundAndBackground.docx");
 ### Se även
 
 * class [Shading](../)
-* namnutrymme [Aspose.Words](../../shading/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

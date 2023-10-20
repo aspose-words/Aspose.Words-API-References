@@ -1,7 +1,9 @@
 ---
 title: Font.HasDmlEffect
-second_title: Aspose.Words för .NET API Referens
-description: Font metod. Kontrollerar om en viss DrawingMLtexteffekt tillämpas.
+linktitle: HasDmlEffect
+articleTitle: HasDmlEffect
+second_title: Aspose.Words för .NET
+description: Font HasDmlEffect metod. Kontrollerar om en viss DrawingMLtexteffekt tillämpas i C#.
 type: docs
 weight: 560
 url: /sv/net/aspose.words/font/hasdmleffect/
@@ -22,7 +24,7 @@ public bool HasDmlEffect(TextDmlEffect dmlEffectType)
 
 `Sann` om en viss DrawingML-texteffekt tillämpas.
 
-### Exempel
+## Exempel
 
 Visar hur man kontrollerar om en körning visar en DrawingML-texteffekt.
 
@@ -42,7 +44,5 @@ Assert.True(runs[4].Font.HasDmlEffect(TextDmlEffect.Fill));
 
 * enum [TextDmlEffect](../../textdmleffect/)
 * class [Font](../)
-* namnutrymme [Aspose.Words](../../font/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

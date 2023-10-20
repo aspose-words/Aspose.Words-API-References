@@ -1,9 +1,11 @@
 ---
 title: Fill.Visible
-second_title: Aspose.Words for .NET API 参考
-description: Fill 财产. 获取或设置值真的如果应用于此实例的格式可见
+linktitle: Visible
+articleTitle: Visible
+second_title: 用于 .NET 的 Aspose.Words
+description: Fill Visible 财产. 获取或设置值真的如果应用于此实例的格式可见 在 C#.
 type: docs
-weight: 210
+weight: 200
 url: /zh/net/aspose.words.drawing/fill/visible/
 ---
 ## Fill.Visible property
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.drawing/fill/visible/
 public bool Visible { get; set; }
 ```
 
-### 例子
+## 例子
 
 展示创造出各种形状。
 
@@ -89,7 +91,5 @@ doc.Save(ArtifactsDir + "Drawing.VariousShapes.docx");
 ### 也可以看看
 
 * class [Fill](../)
-* 命名空间 [Aspose.Words.Drawing](../../fill/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

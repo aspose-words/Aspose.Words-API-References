@@ -1,7 +1,9 @@
 ---
 title: ListFormat.ListLevel
-second_title: Aspose.Words per .NET API Reference
-description: ListFormat proprietà. Restituisce la formattazione a livello di elenco più eventuali sostituzioni di formattazione applicate al paragrafo corrente.
+linktitle: ListLevel
+articleTitle: ListLevel
+second_title: Aspose.Words per .NET
+description: ListFormat ListLevel proprietà. Restituisce la formattazione a livello di elenco più eventuali sostituzioni di formattazione applicate al paragrafo corrente in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words.lists/listformat/listlevel/
@@ -14,7 +16,7 @@ Restituisce la formattazione a livello di elenco più eventuali sostituzioni di 
 public ListLevel ListLevel { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come applicare la formattazione dell'elenco personalizzato ai paragrafi quando si utilizza DocumentBuilder.
 
@@ -74,7 +76,5 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateCustomList.docx");
 
 * class [ListLevel](../../listlevel/)
 * class [ListFormat](../)
-* spazio dei nomi [Aspose.Words.Lists](../../listformat/)
+* spazio dei nomi [Aspose.Words.Lists](../../../aspose.words.lists/)
 * assemblea [Aspose.Words](../../../)
-
-

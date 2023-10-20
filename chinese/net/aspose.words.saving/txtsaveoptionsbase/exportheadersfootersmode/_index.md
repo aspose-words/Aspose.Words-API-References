@@ -1,7 +1,9 @@
 ---
 title: TxtSaveOptionsBase.ExportHeadersFootersMode
-second_title: Aspose.Words for .NET API 参考
-description: TxtSaveOptionsBase 财产. 指定页眉和页脚导出为文本格式的方式 默认值为PrimaryOnly.
+linktitle: ExportHeadersFootersMode
+articleTitle: ExportHeadersFootersMode
+second_title: 用于 .NET 的 Aspose.Words
+description: TxtSaveOptionsBase ExportHeadersFootersMode 财产. 指定页眉和页脚导出为文本格式的方式 默认值为PrimaryOnly 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.saving/txtsaveoptionsbase/exportheadersfootersmode/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.saving/txtsaveoptionsbase/exportheadersfootersmode/
 public TxtExportHeadersFootersMode ExportHeadersFootersMode { get; set; }
 ```
 
-### 例子
+## 例子
 
 显示如何指定如何将页眉和页脚导出为纯文本格式。
 
@@ -86,7 +88,5 @@ switch (txtExportHeadersFootersMode)
 
 * enum [TxtExportHeadersFootersMode](../../txtexportheadersfootersmode/)
 * class [TxtSaveOptionsBase](../)
-* 命名空间 [Aspose.Words.Saving](../../txtsaveoptionsbase/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

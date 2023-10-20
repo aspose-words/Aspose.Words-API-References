@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.CurrentStructuredDocumentTag
-second_title: Aspose.Words for .NET API 参考
-description: DocumentBuilder 财产. 获取当前在此选择的结构化文档标签DocumentBuilder.
+linktitle: CurrentStructuredDocumentTag
+articleTitle: CurrentStructuredDocumentTag
+second_title: 用于 .NET 的 Aspose.Words
+description: DocumentBuilder CurrentStructuredDocumentTag 财产. 获取当前在此选择的结构化文档标签DocumentBuilder 在 C#.
 type: docs
 weight: 80
 url: /zh/net/aspose.words/documentbuilder/currentstructureddocumenttag/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/documentbuilder/currentstructureddocumenttag/
 public StructuredDocumentTag CurrentStructuredDocumentTag { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何在结构化文档标签内移动 DocumentBuilder 的光标。
 
@@ -47,7 +49,5 @@ doc.Save(ArtifactsDir + "Document.MoveToStructuredDocumentTag.docx");
 
 * class [StructuredDocumentTag](../../../aspose.words.markup/structureddocumenttag/)
 * class [DocumentBuilder](../)
-* 命名空间 [Aspose.Words](../../documentbuilder/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

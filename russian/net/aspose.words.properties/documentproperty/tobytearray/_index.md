@@ -1,7 +1,9 @@
 ---
 title: DocumentProperty.ToByteArray
-second_title: Справочник по API Aspose.Words для .NET
-description: DocumentProperty метод. Возвращает значение свойства в виде массива байтов.
+linktitle: ToByteArray
+articleTitle: ToByteArray
+second_title: Aspose.Words для .NET
+description: DocumentProperty ToByteArray метод. Возвращает значение свойства в виде массива байтов на С#.
 type: docs
 weight: 70
 url: /ru/net/aspose.words.properties/documentproperty/tobytearray/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.properties/documentproperty/tobytearray/
 public byte[] ToByteArray()
 ```
 
-### Примечания
+## Примечания
 
 Выдает исключение, если тип свойства неByteArray.
 
-### Примеры
+## Примеры
 
 Показывает, как добавить миниатюру к документу, который мы сохраняем как Epub.
 
@@ -44,7 +46,5 @@ File.WriteAllBytes(ArtifactsDir + "DocumentProperties.Thumbnail.gif", thumbnail.
 ### Смотрите также
 
 * class [DocumentProperty](../)
-* пространство имен [Aspose.Words.Properties](../../documentproperty/)
+* пространство имен [Aspose.Words.Properties](../../../aspose.words.properties/)
 * сборка [Aspose.Words](../../../)
-
-

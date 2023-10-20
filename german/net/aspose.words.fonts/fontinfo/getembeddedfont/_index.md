@@ -1,7 +1,9 @@
 ---
 title: FontInfo.GetEmbeddedFont
-second_title: Aspose.Words für .NET-API-Referenz
-description: FontInfo methode. Ruft eine bestimmte eingebettete Schriftartdatei ab.
+linktitle: GetEmbeddedFont
+articleTitle: GetEmbeddedFont
+second_title: Aspose.Words für .NET
+description: FontInfo GetEmbeddedFont methode. Ruft eine bestimmte eingebettete Schriftartdatei ab in C#.
 type: docs
 weight: 80
 url: /de/net/aspose.words.fonts/fontinfo/getembeddedfont/
@@ -23,7 +25,7 @@ public byte[] GetEmbeddedFont(EmbeddedFontFormat format, EmbeddedFontStyle style
 
 Kehrt zurück`Null`wenn die angegebene Schriftart nicht eingebettet ist.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man eine eingebettete Schriftart aus einem Dokument extrahiert und im lokalen Dateisystem speichert.
 
@@ -52,7 +54,5 @@ File.WriteAllBytes(ArtifactsDir + "Alte DIN 1451 Mittelschrift.otf", embeddedFon
 * enum [EmbeddedFontFormat](../../embeddedfontformat/)
 * enum [EmbeddedFontStyle](../../embeddedfontstyle/)
 * class [FontInfo](../)
-* namensraum [Aspose.Words.Fonts](../../fontinfo/)
+* namensraum [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * Montage [Aspose.Words](../../../)
-
-

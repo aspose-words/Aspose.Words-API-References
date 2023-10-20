@@ -1,7 +1,9 @@
 ---
 title: Cell.IsFirstCell
-second_title: Aspose.Words for .NET API 参考
-description: Cell 财产. 如果这是一行中的第一个单元格则为 True否则为假
+linktitle: IsFirstCell
+articleTitle: IsFirstCell
+second_title: 用于 .NET 的 Aspose.Words
+description: Cell IsFirstCell 财产. 如果这是一行中的第一个单元格则为 True否则为假 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.tables/cell/isfirstcell/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.tables/cell/isfirstcell/
 public bool IsFirstCell { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何打印文档中每个表的节点结构。
 
@@ -177,7 +179,5 @@ public class TableStructurePrinter : DocumentVisitor
 ### 也可以看看
 
 * class [Cell](../)
-* 命名空间 [Aspose.Words.Tables](../../cell/)
+* 命名空间 [Aspose.Words.Tables](../../../aspose.words.tables/)
 * 部件 [Aspose.Words](../../../)
-
-

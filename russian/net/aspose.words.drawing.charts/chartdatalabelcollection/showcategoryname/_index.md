@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabelCollection.ShowCategoryName
-second_title: Справочник по API Aspose.Words для .NET
-description: ChartDataLabelCollection свойство. Позволяет указать должно ли имя категории отображаться для меток данных всей серии. Значение по умолчаниюЛОЖЬ .
+linktitle: ShowCategoryName
+articleTitle: ShowCategoryName
+second_title: Aspose.Words для .NET
+description: ChartDataLabelCollection ShowCategoryName свойство. Позволяет указать должно ли имя категории отображаться для меток данных всей серии. Значение по умолчаниюЛОЖЬ  на С#.
 type: docs
 weight: 80
 url: /ru/net/aspose.words.drawing.charts/chartdatalabelcollection/showcategoryname/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.drawing.charts/chartdatalabelcollection/showcategoryna
 public bool ShowCategoryName { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Значение, определенное для этого свойства, можно переопределить для отдельной метки данных с помощью the [`ShowCategoryName`](../../chartdatalabel/showcategoryname/) свойство.
 
-### Примеры
+## Примеры
 
 Показывает, как работать с метками данных пузырьковой диаграммы.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "Charts.DataLabelsBubbleChart.docx");
 ### Смотрите также
 
 * class [ChartDataLabelCollection](../)
-* пространство имен [Aspose.Words.Drawing.Charts](../../chartdatalabelcollection/)
+* пространство имен [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../../)
-
-

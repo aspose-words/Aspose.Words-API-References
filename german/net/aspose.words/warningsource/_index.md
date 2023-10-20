@@ -1,7 +1,9 @@
 ---
-title: Enum WarningSource
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.WarningSource opsomming. Gibt das Modul an das beim Laden oder Speichern von Dokumenten eine Warnung erzeugt.
+title: WarningSource Enum
+linktitle: WarningSource
+articleTitle: WarningSource
+second_title: Aspose.Words für .NET
+description: Aspose.Words.WarningSource opsomming. Gibt das Modul an das beim Laden oder Speichern von Dokumenten eine Warnung erzeugt in C#.
 type: docs
 weight: 6650
 url: /de/net/aspose.words/warningsource/
@@ -51,5 +53,3 @@ public enum WarningSource
 
 * namensraum [Aspose.Words](../../aspose.words/)
 * Montage [Aspose.Words](../../)
-
-

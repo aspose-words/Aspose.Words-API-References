@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTagRangeStart.RemoveSelfOnly
-second_title: Referencia de API de Aspose.Words para .NET
-description: StructuredDocumentTagRangeStart método. Elimina este inicio de rango y los nodos de final de rango apropiados de la etiqueta del documento estructurado pero mantiene su contenido dentro del árbol del documento.
+linktitle: RemoveSelfOnly
+articleTitle: RemoveSelfOnly
+second_title: Aspose.Words para .NET
+description: StructuredDocumentTagRangeStart RemoveSelfOnly método. Elimina este inicio de rango y los nodos de final de rango apropiados de la etiqueta del documento estructurado pero mantiene su contenido dentro del árbol del documento en C#.
 type: docs
 weight: 240
 url: /es/net/aspose.words.markup/structureddocumenttagrangestart/removeselfonly/
@@ -14,7 +16,7 @@ Elimina este inicio de rango y los nodos de final de rango apropiados de la etiq
 public void RemoveSelfOnly()
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear/eliminar etiquetas de documentos estructurados y su contenido.
 
@@ -66,7 +68,5 @@ public void InsertStructuredDocumentTagRanges(Document doc, out StructuredDocume
 ### Ver también
 
 * class [StructuredDocumentTagRangeStart](../)
-* espacio de nombres [Aspose.Words.Markup](../../structureddocumenttagrangestart/)
+* espacio de nombres [Aspose.Words.Markup](../../../aspose.words.markup/)
 * asamblea [Aspose.Words](../../../)
-
-

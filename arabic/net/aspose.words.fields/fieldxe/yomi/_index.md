@@ -1,7 +1,9 @@
 ---
 title: FieldXE.Yomi
-second_title: Aspose.Words لمراجع .NET API
-description: FieldXE ملكية. الحصول على أو تعيين الحرف yomi الحرف الصوتي الأول لفرز الفهارس لإدخال الفهرس
+linktitle: Yomi
+articleTitle: Yomi
+second_title: Aspose.Words لـ .NET
+description: FieldXE Yomi ملكية. الحصول على أو تعيين الحرف yomi الحرف الصوتي الأول لفرز الفهارس لإدخال الفهرس في C#.
 type: docs
 weight: 80
 url: /ar/net/aspose.words.fields/fieldxe/yomi/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldxe/yomi/
 public string Yomi { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية فرز إدخالات حقل INDEX صوتيًا.
 
@@ -73,7 +75,5 @@ doc.Save(ArtifactsDir + "Field.INDEX.XE.Yomi.docx");
 ### أنظر أيضا
 
 * class [FieldXE](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldxe/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

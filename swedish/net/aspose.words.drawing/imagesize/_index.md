@@ -1,7 +1,9 @@
 ---
-title: Class ImageSize
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Drawing.ImageSize klass. Innehåller information om bildstorlek och upplösning.
+title: ImageSize Class
+linktitle: ImageSize
+articleTitle: ImageSize
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Drawing.ImageSize klass. Innehåller information om bildstorlek och upplösning i C#.
 type: docs
 weight: 1070
 url: /sv/net/aspose.words.drawing/imagesize/
@@ -20,8 +22,8 @@ public class ImageSize
 
 | namn | Beskrivning |
 | --- | --- |
-| [ImageSize](imagesize/#constructor)(int, int) | Initierar bredd och höjd till de givna värdena i pixlar. Initierar upplösning till 96 dpi. |
-| [ImageSize](imagesize/#constructor_1)(int, int, double, double) | Initierar bredd, höjd och upplösning till de givna värdena. |
+| [ImageSize](imagesize/#constructor)(*int, int*) | Initierar bredd och höjd till de givna värdena i pixlar. Initierar upplösning till 96 dpi. |
+| [ImageSize](imagesize/#constructor_1)(*int, int, double, double*) | Initierar bredd, höjd och upplösning till de givna värdena. |
 
 ## Egenskaper
 
@@ -34,7 +36,7 @@ public class ImageSize
 | [WidthPixels](../../aspose.words.drawing/imagesize/widthpixels/) { get; } | Hämtar bildens bredd i pixlar. |
 | [WidthPoints](../../aspose.words.drawing/imagesize/widthpoints/) { get; } | Hämtar bildens bredd i punkter. 1 poäng är 1/72 tum. |
 
-### Exempel
+## Exempel
 
 Visar hur man ändrar storlek på en form med en bild.
 
@@ -93,5 +95,3 @@ Visar hur man ändrar storlek på en form med en bild.
 * property [ImageSize](../imagedata/imagesize/)
 * namnutrymme [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../)
-
-

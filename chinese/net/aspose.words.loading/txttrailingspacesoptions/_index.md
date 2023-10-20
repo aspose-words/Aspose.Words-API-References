@@ -1,7 +1,9 @@
 ---
-title: Enum TxtTrailingSpacesOptions
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Loading.TxtTrailingSpacesOptions 枚举. 指定导入期间尾随空格处理的可用选项Text文件.
+title: TxtTrailingSpacesOptions Enum
+linktitle: TxtTrailingSpacesOptions
+articleTitle: TxtTrailingSpacesOptions
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Loading.TxtTrailingSpacesOptions 枚举. 指定导入期间尾随空格处理的可用选项Text文件 在 C#.
 type: docs
 weight: 3740
 url: /zh/net/aspose.words.loading/txttrailingspacesoptions/
@@ -21,7 +23,7 @@ public enum TxtTrailingSpacesOptions
 | Trim | `0` |  |
 | Preserve | `1` |  |
 
-### 例子
+## 例子
 
 演示如何在加载纯文本文档时修剪空白。
 
@@ -98,5 +100,3 @@ switch (txtTrailingSpacesOptions)
 
 * 命名空间 [Aspose.Words.Loading](../../aspose.words.loading/)
 * 部件 [Aspose.Words](../../)
-
-

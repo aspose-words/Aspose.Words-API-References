@@ -1,12 +1,14 @@
 ---
 title: DigitalSignatureUtil.LoadSignatures
-second_title: Справочник по API Aspose.Words для .NET
-description: DigitalSignatureUtil метод. Загружает цифровые подписи из документа.
+linktitle: LoadSignatures
+articleTitle: LoadSignatures
+second_title: Aspose.Words для .NET
+description: DigitalSignatureUtil LoadSignatures метод. Загружает цифровые подписи из документа на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.digitalsignatures/digitalsignatureutil/loadsignatures/
 ---
-## LoadSignatures(string) {#loadsignatures_1}
+## LoadSignatures(*string*) {#loadsignatures_1}
 
 Загружает цифровые подписи из документа.
 
@@ -22,7 +24,7 @@ public static DigitalSignatureCollection LoadSignatures(string fileName)
 
 Сбор цифровых подписей. Возвращает пустую коллекцию, если файл не подписан.
 
-### Примеры
+## Примеры
 
 Показывает, как загрузить подписи из документа с цифровой подписью.
 
@@ -70,12 +72,12 @@ Assert.That(DigitalSignatureUtil.LoadSignatures(ArtifactsDir + "DigitalSignature
 
 * class [DigitalSignatureCollection](../../digitalsignaturecollection/)
 * class [DigitalSignatureUtil](../)
-* пространство имен [Aspose.Words.DigitalSignatures](../../digitalsignatureutil/)
+* пространство имен [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## LoadSignatures(Stream) {#loadsignatures}
+## LoadSignatures(*Stream*) {#loadsignatures}
 
 Загружает цифровые подписи из документа с помощью потока.
 
@@ -91,7 +93,7 @@ public static DigitalSignatureCollection LoadSignatures(Stream stream)
 
 Сбор цифровых подписей. Возвращает пустую коллекцию, если файл не подписан.
 
-### Примеры
+## Примеры
 
 Показывает, как загрузить подписи из документа с цифровой подписью.
 
@@ -116,7 +118,5 @@ using (Stream stream = new FileStream(MyDir + "Digitally signed.docx", FileMode.
 
 * class [DigitalSignatureCollection](../../digitalsignaturecollection/)
 * class [DigitalSignatureUtil](../)
-* пространство имен [Aspose.Words.DigitalSignatures](../../digitalsignatureutil/)
+* пространство имен [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * сборка [Aspose.Words](../../../)
-
-

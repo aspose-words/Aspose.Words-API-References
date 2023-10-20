@@ -1,7 +1,9 @@
 ---
 title: TextColumnCollection.SetCount
-second_title: Aspose.Words für .NET-API-Referenz
-description: TextColumnCollection methode. Ordnet Text in der angegebenen Anzahl von Textspalten an.
+linktitle: SetCount
+articleTitle: SetCount
+second_title: Aspose.Words für .NET
+description: TextColumnCollection SetCount methode. Ordnet Text in der angegebenen Anzahl von Textspalten an in C#.
 type: docs
 weight: 70
 url: /de/net/aspose.words/textcolumncollection/setcount/
@@ -18,11 +20,11 @@ public void SetCount(int newCount)
 | --- | --- | --- |
 | newCount | Int32 | Die Anzahl der Spalten, in die der Text angeordnet werden soll. |
 
-### Bemerkungen
+## Bemerkungen
 
 Wann[`EvenlySpaced`](../evenlyspaced/) Ist`FALSCH` und Sie erhöhen die Anzahl der Spalten, neu[`TextColumn`](../../textcolumn/) Objekte werden mit einer Breite und einem Abstand von Null erstellt. Sie müssen Breite und Abstand für die neuen Spalten festlegen.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie mehrere gleichmäßig verteilte Spalten in einem Abschnitt erstellen.
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "PageSetup.ColumnsSameWidth.docx");
 ### Siehe auch
 
 * class [TextColumnCollection](../)
-* namensraum [Aspose.Words](../../textcolumncollection/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

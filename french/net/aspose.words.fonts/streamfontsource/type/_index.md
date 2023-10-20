@@ -1,7 +1,9 @@
 ---
 title: StreamFontSource.Type
-second_title: Référence de l'API Aspose.Words pour .NET
-description: StreamFontSource propriété. Renvoie le type de la source de police.
+linktitle: Type
+articleTitle: Type
+second_title: Aspose.Words pour .NET
+description: StreamFontSource Type propriété. Renvoie le type de la source de police en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.fonts/streamfontsource/type/
@@ -18,7 +20,5 @@ public FontSourceType Type { get; }
 
 * enum [FontSourceType](../../fontsourcetype/)
 * class [StreamFontSource](../)
-* espace de noms [Aspose.Words.Fonts](../../streamfontsource/)
+* espace de noms [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * Assemblée [Aspose.Words](../../../)
-
-

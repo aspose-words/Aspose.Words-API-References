@@ -1,7 +1,9 @@
 ---
-title: Enum VbaModuleType
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Vba.VbaModuleType 枚举. 指定 VBA 项目中模型的类型
+title: VbaModuleType Enum
+linktitle: VbaModuleType
+articleTitle: VbaModuleType
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Vba.VbaModuleType 枚举. 指定 VBA 项目中模型的类型 在 C#.
 type: docs
 weight: 6570
 url: /zh/net/aspose.words.vba/vbamoduletype/
@@ -23,7 +25,7 @@ public enum VbaModuleType
 | ClassModule | `2` | 包含新对象定义的模块。类的每个实例都会创建一个新对象 ，并且模块中定义的过程成为该对象的属性和方法。 |
 | DesignerModule | `3` | 一个 VBA 模块，用于扩展已在项目中注册的 ActiveX 控件的方法和属性。 |
 
-### 例子
+## 例子
 
 演示如何使用宏创建 VBA 项目。
 
@@ -51,5 +53,3 @@ doc.Save(ArtifactsDir + "VbaProject.CreateVBAMacros.docm");
 
 * 命名空间 [Aspose.Words.Vba](../../aspose.words.vba/)
 * 部件 [Aspose.Words](../../)
-
-

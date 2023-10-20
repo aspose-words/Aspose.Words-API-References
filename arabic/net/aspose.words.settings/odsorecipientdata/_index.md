@@ -1,7 +1,9 @@
 ---
-title: Class OdsoRecipientData
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Settings.OdsoRecipientData فصل. يمثل معلومات حول سجل واحد ضمن مصدر بيانات خارجي سيتم استبعاده من دمج البريد.
+title: OdsoRecipientData Class
+linktitle: OdsoRecipientData
+articleTitle: OdsoRecipientData
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Settings.OdsoRecipientData فصل. يمثل معلومات حول سجل واحد ضمن مصدر بيانات خارجي سيتم استبعاده من دمج البريد في C#.
 type: docs
 weight: 5930
 url: /ar/net/aspose.words.settings/odsorecipientdata/
@@ -37,11 +39,11 @@ public class OdsoRecipientData
 | --- | --- |
 | [Clone](../../aspose.words.settings/odsorecipientdata/clone/)() | يُرجع نسخة عميقة من هذا الكائن. |
 
-### ملاحظات
+## ملاحظات
 
 إذا تم دمج سجل في مستند مدمج، فلن تكون هناك حاجة إلى معلومات حول هذا السجل. ومع ذلك، إذا لم يتم دمج سجل معين في مستند مدمج، فسيتم تخزين قيمة المفتاح الفريد لهذا السجل في[`UniqueTag`](./uniquetag/)خاصية هذا الكائن للإشارة إلى هذا الاستبعاد.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الوصول إلى مجموعة البيانات التي تحدد سجلات مصدر بيانات الدمج التي سيتم استبعادها من خلال دمج البريد.
 
@@ -82,5 +84,3 @@ Assert.AreEqual(0, dataCollection.Count);
 
 * مساحة الاسم [Aspose.Words.Settings](../../aspose.words.settings/)
 * المجسم [Aspose.Words](../../)
-
-

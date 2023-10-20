@@ -1,7 +1,9 @@
 ---
 title: Paragraph.IsListItem
-second_title: Referencia de API de Aspose.Words para .NET
-description: Paragraph propiedad. Verdadero cuando el párrafo es un elemento en una lista numerada o con viñetas en la revisión original.
+linktitle: IsListItem
+articleTitle: IsListItem
+second_title: Aspose.Words para .NET
+description: Paragraph IsListItem propiedad. Verdadero cuando el párrafo es un elemento en una lista numerada o con viñetas en la revisión original en C#.
 type: docs
 weight: 120
 url: /es/net/aspose.words/paragraph/islistitem/
@@ -14,7 +16,7 @@ Verdadero cuando el párrafo es un elemento en una lista numerada o con viñetas
 public bool IsListItem { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo anidar una lista dentro de otra lista.
 
@@ -68,7 +70,5 @@ builder.Document.Save(ArtifactsDir + "Lists.NestedLists.docx");
 ### Ver también
 
 * class [Paragraph](../)
-* espacio de nombres [Aspose.Words](../../paragraph/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

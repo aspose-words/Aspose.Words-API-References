@@ -1,7 +1,9 @@
 ---
-title: Class TxtSaveOptionsBase
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Saving.TxtSaveOptionsBase 班级. 用于在将文档保存为基于文本的格式时指定附加选项的基类
+title: TxtSaveOptionsBase Class
+linktitle: TxtSaveOptionsBase
+articleTitle: TxtSaveOptionsBase
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Saving.TxtSaveOptionsBase 班级. 用于在将文档保存为基于文本的格式时指定附加选项的基类 在 C#.
 type: docs
 weight: 5670
 url: /zh/net/aspose.words.saving/txtsaveoptionsbase/
@@ -22,11 +24,11 @@ public abstract class TxtSaveOptionsBase : SaveOptions
 | --- | --- |
 | [AllowEmbeddingPostScriptFonts](../../aspose.words.saving/saveoptions/allowembeddingpostscriptfonts/) { get; set; } | 获取或设置一个布尔值，指示在保存的文档中嵌入 TrueType 字体时是否允许使用 PostScript 轮廓嵌入字体。 默认值为`错误的`. |
 | [CustomTimeZoneInfo](../../aspose.words.saving/saveoptions/customtimezoneinfo/) { get; set; } | 获取或设置用于日期/时间字段的自定义本地时区。 |
-| [DefaultTemplate](../../aspose.words.saving/saveoptions/defaulttemplate/) { get; set; } | 获取或设置默认模板的路径（包括文件名）。 此属性的默认值为 **空字符串**（Empty). |
+| [DefaultTemplate](../../aspose.words.saving/saveoptions/defaulttemplate/) { get; set; } | 获取或设置默认模板的路径（包括文件名）。 此属性的默认值为**空字符串**（Empty). |
 | [Dml3DEffectsRenderingMode](../../aspose.words.saving/saveoptions/dml3deffectsrenderingmode/) { get; set; } | 获取或设置一个确定如何渲染 3D 效果的值。 |
 | virtual [DmlEffectsRenderingMode](../../aspose.words.saving/saveoptions/dmleffectsrenderingmode/) { get; set; } | 获取或设置一个值，确定如何呈现 DrawingML 效果。 |
 | [DmlRenderingMode](../../aspose.words.saving/saveoptions/dmlrenderingmode/) { get; set; } | 获取或设置一个值，确定如何呈现 DrawingML 形状。 |
-| [Encoding](../../aspose.words.saving/txtsaveoptionsbase/encoding/) { get; set; } | 指定以文本格式导出时要使用的编码。 默认值为 **编码.UTF8**. |
+| [Encoding](../../aspose.words.saving/txtsaveoptionsbase/encoding/) { get; set; } | 指定以文本格式导出时要使用的编码。 默认值为**编码.UTF8**. |
 | [ExportGeneratorName](../../aspose.words.saving/saveoptions/exportgeneratorname/) { get; set; } | 当`真的` ，导致 Aspose.Words 的名称和版本嵌入到生成的文件中。 默认值为`真的`. |
 | [ExportHeadersFootersMode](../../aspose.words.saving/txtsaveoptionsbase/exportheadersfootersmode/) { get; set; } | 指定页眉和页脚导出为文本格式的方式。 默认值为PrimaryOnly. |
 | [ForcePageBreaks](../../aspose.words.saving/txtsaveoptionsbase/forcepagebreaks/) { get; set; } | 允许指定导出期间是否应保留分页符。 |
@@ -44,7 +46,7 @@ public abstract class TxtSaveOptionsBase : SaveOptions
 | [UseAntiAliasing](../../aspose.words.saving/saveoptions/useantialiasing/) { get; set; } | 获取或设置一个值，确定是否使用抗锯齿进行渲染。 |
 | [UseHighQualityRendering](../../aspose.words.saving/saveoptions/usehighqualityrendering/) { get; set; } | 获取或设置一个值，确定是否使用高质量（即慢速）渲染算法。 |
 
-### 例子
+## 例子
 
 演示如何使用自定义分段符保存 .txt 文档。
 
@@ -79,5 +81,3 @@ Assert.AreEqual("Paragraph 1. End of paragraph.\n\n\t" +
 * class [SaveOptions](../saveoptions/)
 * 命名空间 [Aspose.Words.Saving](../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../)
-
-

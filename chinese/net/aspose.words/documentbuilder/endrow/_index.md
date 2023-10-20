@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.EndRow
-second_title: Aspose.Words for .NET API 参考
-description: DocumentBuilder 方法. 结束文档中的表格行
+linktitle: EndRow
+articleTitle: EndRow
+second_title: 用于 .NET 的 Aspose.Words
+description: DocumentBuilder EndRow 方法. 结束文档中的表格行 在 C#.
 type: docs
 weight: 240
 url: /zh/net/aspose.words/documentbuilder/endrow/
@@ -18,13 +20,13 @@ public Row EndRow()
 
 刚刚完成的行节点。
 
-### 评论
+## 评论
 
 称呼`EndRow`结束表格行。如果你打电话[`InsertCell`](../insertcell/)之后立即 ，然后表继续新行。
 
 使用[`RowFormat`](../rowformat/)属性来指定行格式。
 
-### 例子
+## 例子
 
 演示如何垂直合并表格单元格。
 
@@ -166,7 +168,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
 
 * class [Row](../../../aspose.words.tables/row/)
 * class [DocumentBuilder](../)
-* 命名空间 [Aspose.Words](../../documentbuilder/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

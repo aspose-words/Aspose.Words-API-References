@@ -1,7 +1,9 @@
 ---
-title: Class Run
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Run clase. Representa una serie de caracteres con el mismo formato de fuente.
+title: Run Class
+linktitle: Run
+articleTitle: Run
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Run clase. Representa una serie de caracteres con el mismo formato de fuente en C#.
 type: docs
 weight: 4820
 url: /es/net/aspose.words/run/
@@ -20,8 +22,8 @@ public class Run : Inline
 
 | Nombre | Descripción |
 | --- | --- |
-| [Run](run/#constructor)(DocumentBase) | Inicializa una nueva instancia del`Run` clase. |
-| [Run](run/#constructor_1)(DocumentBase, string) | Inicializa una nueva instancia del **Correr** clase. |
+| [Run](run/#constructor)(*[DocumentBase](../documentbase/)*) | Inicializa una nueva instancia del`Run` clase. |
+| [Run](run/#constructor_1)(*[DocumentBase](../documentbase/), string*) | Inicializa una nueva instancia del**Correr** clase. |
 
 ## Propiedades
 
@@ -50,24 +52,24 @@ public class Run : Inline
 
 | Nombre | Descripción |
 | --- | --- |
-| override [Accept](../../aspose.words/run/accept/)(DocumentVisitor) | Acepta un visitante. |
-| [Clone](../../aspose.words/node/clone/)(bool) | Crea un duplicado del nodo. |
-| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Obtiene el primer ancestro del especificado[`NodeType`](../nodetype/) . |
-| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Obtiene el primer antepasado del tipo de objeto especificado. |
+| override [Accept](../../aspose.words/run/accept/)(*[DocumentVisitor](../documentvisitor/)*) | Acepta un visitante. |
+| [Clone](../../aspose.words/node/clone/)(*bool*) | Crea un duplicado del nodo. |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*[NodeType](../nodetype/)*) | Obtiene el primer ancestro del especificado[`NodeType`](../nodetype/) . |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | Obtiene el primer antepasado del tipo de objeto especificado. |
 | override [GetText](../../aspose.words/run/gettext/)() | Obtiene el texto de la ejecución. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Obtiene el siguiente nodo según el algoritmo transversal del árbol de pedidos anticipados. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Obtiene el nodo anterior según el algoritmo transversal del árbol de pedidos anticipados. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../node/)*) | Obtiene el siguiente nodo según el algoritmo transversal del árbol de pedidos anticipados. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../node/)*) | Obtiene el nodo anterior según el algoritmo transversal del árbol de pedidos anticipados. |
 | [Remove](../../aspose.words/node/remove/)() | Se elimina del padre. |
-| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Exporta el contenido del nodo a una cadena en el formato especificado. |
-| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | Exporta el contenido del nodo a una cadena usando las opciones de guardado especificadas. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../saveformat/)*) | Exporta el contenido del nodo a una cadena en el formato especificado. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | Exporta el contenido del nodo a una cadena usando las opciones de guardado especificadas. |
 
-### Observaciones
+## Observaciones
 
 Todo el texto del documento se almacena en tiradas de texto.
 
 `Run` sólo puede ser hijo de[`Paragraph`](../paragraph/) o en línea[`StructuredDocumentTag`](../../aspose.words.markup/structureddocumenttag/).
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo dar formato a una serie de texto usando su propiedad de fuente.
 
@@ -182,5 +184,3 @@ Assert.AreEqual(3, paragraph.GetChildNodes(NodeType.Any, true).Count);
 * class [Inline](../inline/)
 * espacio de nombres [Aspose.Words](../../aspose.words/)
 * asamblea [Aspose.Words](../../)
-
-

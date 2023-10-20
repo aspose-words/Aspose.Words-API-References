@@ -1,14 +1,16 @@
 ---
-title: Class CertificateHolder
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.DigitalSignatures.CertificateHolder clase. Representa un titular de Certificado X5092 instancia.
+title: CertificateHolder Class
+linktitle: CertificateHolder
+articleTitle: CertificateHolder
+second_title: Aspose.Words para .NET
+description: Aspose.Words.DigitalSignatures.CertificateHolder clase. Representa un titular deCertificado X5092 instancia en C#.
 type: docs
 weight: 370
 url: /es/net/aspose.words.digitalsignatures/certificateholder/
 ---
 ## CertificateHolder class
 
-Representa un titular de **Certificado X5092** instancia.
+Representa un titular de**Certificado X5092** instancia.
 
 Para obtener más información, visite el[Trabajar con firmas digitales](https://docs.aspose.com/words/net/working-with-digital-signatures/) artículo de documentación.
 
@@ -20,22 +22,22 @@ public class CertificateHolder
 
 | Nombre | Descripción |
 | --- | --- |
-| [Certificate](../../aspose.words.digitalsignatures/certificateholder/certificate/) { get; } | Devuelve la instancia de **Certificado X5092** que contiene claves públicas y privadas y cadena de certificados. |
+| [Certificate](../../aspose.words.digitalsignatures/certificateholder/certificate/) { get; } | Devuelve la instancia de**Certificado X5092** que contiene claves públicas y privadas y cadena de certificados. |
 
 ## Métodos
 
 | Nombre | Descripción |
 | --- | --- |
-| static [Create](../../aspose.words.digitalsignatures/certificateholder/create/#create)(byte[], SecureString) | Crea`CertificateHolder` objeto que utiliza una matriz de bytes del almacén PKCS12 y su contraseña. |
-| static [Create](../../aspose.words.digitalsignatures/certificateholder/create/#create_1)(byte[], string) | Crea`CertificateHolder` objeto que utiliza una matriz de bytes del almacén PKCS12 y su contraseña. |
-| static [Create](../../aspose.words.digitalsignatures/certificateholder/create/#create_2)(string, string) | Crea`CertificateHolder` objeto usando la ruta al almacén PKCS12 y su contraseña. |
-| static [Create](../../aspose.words.digitalsignatures/certificateholder/create/#create_3)(string, string, string) | Crea`CertificateHolder` objeto usando la ruta al almacén PKCS12, su contraseña y el alias mediante el cual se encontrará la clave privada y el certificado. |
+| static [Create](../../aspose.words.digitalsignatures/certificateholder/create/#create)(*byte[], SecureString*) | Crea`CertificateHolder` objeto que utiliza una matriz de bytes del almacén PKCS12 y su contraseña. |
+| static [Create](../../aspose.words.digitalsignatures/certificateholder/create/#create_1)(*byte[], string*) | Crea`CertificateHolder` objeto que utiliza una matriz de bytes del almacén PKCS12 y su contraseña. |
+| static [Create](../../aspose.words.digitalsignatures/certificateholder/create/#create_2)(*string, string*) | Crea`CertificateHolder` objeto usando la ruta al almacén PKCS12 y su contraseña. |
+| static [Create](../../aspose.words.digitalsignatures/certificateholder/create/#create_3)(*string, string, string*) | Crea`CertificateHolder` objeto usando la ruta al almacén PKCS12, su contraseña y el alias mediante el cual se encontrará la clave privada y el certificado. |
 
-### Observaciones
+## Observaciones
 
-`CertificateHolder` Solo se puede crear mediante métodos de fábrica estáticos. Contiene una instancia de **Certificado X5092** que se utiliza para introducir claves públicas y privadas y cadenas de certificados en el sistema. Esta clase se aplica en[`DigitalSignatureUtil`](../digitalsignatureutil/) y[`PdfDigitalSignatureDetails`](../../aspose.words.saving/pdfdigitalsignaturedetails/) en lugar de métodos obsoletos con X509Certificate2 como parámetros.
+`CertificateHolder` Solo se puede crear mediante métodos de fábrica estáticos. Contiene una instancia de**Certificado X5092** que se utiliza para introducir claves públicas y privadas y cadenas de certificados en el sistema. Esta clase se aplica en[`DigitalSignatureUtil`](../digitalsignatureutil/) y[`PdfDigitalSignatureDetails`](../../aspose.words.saving/pdfdigitalsignaturedetails/) en lugar de métodos obsoletos con X509Certificate2 como parámetros.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo firmar un archivo de documento cifrado.
 
@@ -197,5 +199,3 @@ Muestra cómo agregar una línea de firma a un documento y luego firmarlo usando
 
 * espacio de nombres [Aspose.Words.DigitalSignatures](../../aspose.words.digitalsignatures/)
 * asamblea [Aspose.Words](../../)
-
-

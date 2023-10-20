@@ -1,7 +1,9 @@
 ---
 title: FontSettings.SaveSearchCache
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FontSettings méthode. Enregistre le cache de recherche de polices dans le flux.
+linktitle: SaveSearchCache
+articleTitle: SaveSearchCache
+second_title: Aspose.Words pour .NET
+description: FontSettings SaveSearchCache méthode. Enregistre le cache de recherche de polices dans le flux en C#.
 type: docs
 weight: 70
 url: /fr/net/aspose.words.fonts/fontsettings/savesearchcache/
@@ -18,11 +20,11 @@ public void SaveSearchCache(Stream outputStream)
 | --- | --- | --- |
 | outputStream | Stream | Flux de sortie. |
 
-### Remarques
+## Remarques
 
 Voir[`SetFontsSources`](../setfontssources/) description de la méthode pour plus d'informations.
 
-### Exemples
+## Exemples
 
 Montre comment accélérer le processus d’initialisation du cache de polices.
 
@@ -73,7 +75,5 @@ private class SearchCacheStream : StreamFontSource
 ### Voir également
 
 * class [FontSettings](../)
-* espace de noms [Aspose.Words.Fonts](../../fontsettings/)
+* espace de noms [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * Assemblée [Aspose.Words](../../../)
-
-

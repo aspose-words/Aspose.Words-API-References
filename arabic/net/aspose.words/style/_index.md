@@ -1,7 +1,9 @@
 ---
-title: Class Style
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Style فصل. يمثل نمطًا واحدًا مدمجًا أو محددًا من قبل المستخدم.
+title: Style Class
+linktitle: Style
+articleTitle: Style
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Style فصل. يمثل نمطًا واحدًا مدمجًا أو محددًا من قبل المستخدم في C#.
 type: docs
 weight: 6130
 url: /ar/net/aspose.words/style/
@@ -31,7 +33,6 @@ public class Style
 | [LinkedStyleName](../../aspose.words/style/linkedstylename/) { get; } | يحصل على اسم`Style` مرتبطة بهذا. إرجاع سلسلة فارغة إذا لم يتم ربط أي أنماط. |
 | [List](../../aspose.words/style/list/) { get; } | الحصول على القائمة التي تحدد تنسيق نمط القائمة هذا. |
 | [ListFormat](../../aspose.words/style/listformat/) { get; } | يوفر الوصول إلى خصائص تنسيق القائمة لنمط الفقرة. |
-| [Locked](../../aspose.words/style/locked/) { get; set; } |  |
 | [Name](../../aspose.words/style/name/) { get; set; } | الحصول على اسم النمط أو تعيينه. |
 | [NextParagraphStyleName](../../aspose.words/style/nextparagraphstylename/) { get; set; } | الحصول على/تعيين اسم النمط الذي سيتم تطبيقه تلقائيًا على فقرة جديدة تم إدراجها بعد a فقرة منسقة بالنمط المحدد. |
 | [ParagraphFormat](../../aspose.words/style/paragraphformat/) { get; } | الحصول على تنسيق الفقرة للنمط. |
@@ -43,10 +44,10 @@ public class Style
 
 | اسم | وصف |
 | --- | --- |
-| [Equals](../../aspose.words/style/equals/#equals)(Style) | يقارن مع النمط المحدد. تتم مقارنة أنماط الأنماط للأنماط المضمنة فقط. لا يتم تضمين افتراضيات الأنماط في المقارنة. تتم مقارنة النمط الأساسي والنمط المرتبط ونمط الفقرة التالية بشكل متكرر. |
+| [Equals](../../aspose.words/style/equals/#equals)(*Style*) | يقارن مع النمط المحدد. تتم مقارنة أنماط الأنماط للأنماط المضمنة فقط. لا يتم تضمين افتراضيات الأنماط في المقارنة. تتم مقارنة النمط الأساسي والنمط المرتبط ونمط الفقرة التالية بشكل متكرر. |
 | [Remove](../../aspose.words/style/remove/)() | إزالة النمط المحدد من المستند. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء نمط فقرة واستخدامه بتنسيق القائمة.
 
@@ -113,5 +114,3 @@ Assert.AreEqual(Color.Empty.ToArgb(), firstParagraphStyle.Font.Color.ToArgb());
 
 * مساحة الاسم [Aspose.Words](../../aspose.words/)
 * المجسم [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabelCollection.ShowValue
-second_title: Aspose.Words per .NET API Reference
-description: ChartDataLabelCollection proprietà. Permette di specificare se i valori devono essere visualizzati nelle etichette dati dellintera serie. Il valore predefinito èfalso .
+linktitle: ShowValue
+articleTitle: ShowValue
+second_title: Aspose.Words per .NET
+description: ChartDataLabelCollection ShowValue proprietà. Permette di specificare se i valori devono essere visualizzati nelle etichette dati dellintera serie. Il valore predefinito èfalso  in C#.
 type: docs
 weight: 140
 url: /it/net/aspose.words.drawing.charts/chartdatalabelcollection/showvalue/
@@ -14,11 +16,11 @@ Permette di specificare se i valori devono essere visualizzati nelle etichette d
 public bool ShowValue { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Il valore definito per questa proprietà può essere sovrascritto per una singola etichetta dati utilizzando [`ShowValue`](../../chartdatalabel/showvalue/) proprietà.
 
-### Esempi
+## Esempi
 
 Mostra come lavorare con le etichette dati di un grafico a torta.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "Charts.DataLabelsPieChart.docx");
 ### Guarda anche
 
 * class [ChartDataLabelCollection](../)
-* spazio dei nomi [Aspose.Words.Drawing.Charts](../../chartdatalabelcollection/)
+* spazio dei nomi [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ControlChar.Cr
-second_title: Aspose.Words für .NET-API-Referenz
-description: ControlChar veld. Wagenrücklaufzeichen x000d oder r. Gleich wieParagraphBreak .
+linktitle: Cr
+articleTitle: Cr
+second_title: Aspose.Words für .NET
+description: ControlChar Cr veld. Wagenrücklaufzeichen x000d oder r. Gleich wieParagraphBreak  in C#.
 type: docs
 weight: 50
 url: /de/net/aspose.words/controlchar/cr/
@@ -14,7 +16,7 @@ Wagenrücklaufzeichen: „\x000d“ oder „\r“. Gleich wie[`ParagraphBreak`](
 public static readonly string Cr;
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Steuerzeichen verwendet werden.
 
@@ -41,7 +43,5 @@ Assert.AreEqual($"Hello world!{ControlChar.Cr}" +
 ### Siehe auch
 
 * class [ControlChar](../)
-* namensraum [Aspose.Words](../../controlchar/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

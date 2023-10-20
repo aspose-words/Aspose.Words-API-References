@@ -1,9 +1,11 @@
 ---
 title: Style.Styles
-second_title: Aspose.Words for .NET API 参考
-description: Style 财产. 获取该样式所属的样式集合
+linktitle: Styles
+articleTitle: Styles
+second_title: 用于 .NET 的 Aspose.Words
+description: Style Styles 财产. 获取该样式所属的样式集合 在 C#.
 type: docs
-weight: 170
+weight: 160
 url: /zh/net/aspose.words/style/styles/
 ---
 ## Style.Styles property
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/style/styles/
 public StyleCollection Styles { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何访问文档的样式集合。
 
@@ -43,7 +45,5 @@ using (IEnumerator<Style> stylesEnum = doc.Styles.GetEnumerator())
 
 * class [StyleCollection](../../stylecollection/)
 * class [Style](../)
-* 命名空间 [Aspose.Words](../../style/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

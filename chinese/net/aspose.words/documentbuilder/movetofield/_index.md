@@ -1,9 +1,11 @@
 ---
 title: DocumentBuilder.MoveToField
-second_title: Aspose.Words for .NET API 参考
-description: DocumentBuilder 方法. 将光标移动到文档中的字段
+linktitle: MoveToField
+articleTitle: MoveToField
+second_title: 用于 .NET 的 Aspose.Words
+description: DocumentBuilder MoveToField 方法. 将光标移动到文档中的字段 在 C#.
 type: docs
-weight: 540
+weight: 530
 url: /zh/net/aspose.words/documentbuilder/movetofield/
 ---
 ## DocumentBuilder.MoveToField method
@@ -19,7 +21,7 @@ public void MoveToField(Field field, bool isAfter)
 | field | Field | 将光标移动到的字段。 |
 | isAfter | Boolean | 什么时候`真的` , 将光标移动到字段末尾之后。 时`错误的`，将光标移动到字段开始之前。 |
 
-### 例子
+## 例子
 
 演示如何将文档生成器的节点插入点光标移动到特定字段。
 
@@ -62,7 +64,5 @@ else
 
 * class [Field](../../../aspose.words.fields/field/)
 * class [DocumentBuilder](../)
-* 命名空间 [Aspose.Words](../../documentbuilder/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

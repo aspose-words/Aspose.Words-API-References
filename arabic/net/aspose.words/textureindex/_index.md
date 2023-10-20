@@ -1,7 +1,9 @@
 ---
-title: Enum TextureIndex
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.TextureIndex تعداد. يحدد نسيج التظليل.
+title: TextureIndex Enum
+linktitle: TextureIndex
+articleTitle: TextureIndex
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.TextureIndex تعداد. يحدد نسيج التظليل في C#.
 type: docs
 weight: 6450
 url: /ar/net/aspose.words/textureindex/
@@ -73,7 +75,7 @@ public enum TextureIndex
 | TextureVertical | `21` |  |
 | TextureNil | `65535` | يحدد عدم استخدام أي نمط في المنطقة المظللة الحالية (أي يجب أن يكون النمط مملوءًا بالكامل بلون الخلفية). |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تزيين النص بالحدود والتظليل.
 
@@ -126,5 +128,3 @@ doc.Save(ArtifactsDir + "Table.SetOutlineBorders.docx");
 
 * مساحة الاسم [Aspose.Words](../../aspose.words/)
 * المجسم [Aspose.Words](../../)
-
-

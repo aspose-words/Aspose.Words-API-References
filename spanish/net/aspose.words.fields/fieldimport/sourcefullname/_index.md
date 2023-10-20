@@ -1,7 +1,9 @@
 ---
 title: FieldImport.SourceFullName
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldImport propiedad. Obtiene o establece la ubicación de la imagen.
+linktitle: SourceFullName
+articleTitle: SourceFullName
+second_title: Aspose.Words para .NET
+description: FieldImport SourceFullName propiedad. Obtiene o establece la ubicación de la imagen en C#.
 type: docs
 weight: 40
 url: /es/net/aspose.words.fields/fieldimport/sourcefullname/
@@ -14,7 +16,7 @@ Obtiene o establece la ubicación de la imagen.
 public string SourceFullName { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo insertar imágenes usando los campos IMPORTAR e INCLUDEPICTURE.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "Field.IMPORT.INCLUDEPICTURE.docx");
 ### Ver también
 
 * class [FieldImport](../)
-* espacio de nombres [Aspose.Words.Fields](../../fieldimport/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

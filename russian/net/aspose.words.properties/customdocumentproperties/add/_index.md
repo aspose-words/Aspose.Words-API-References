@@ -1,12 +1,14 @@
 ---
 title: CustomDocumentProperties.Add
-second_title: Справочник по API Aspose.Words для .NET
-description: CustomDocumentProperties метод. Создает новое пользовательское свойство документаString тип данных.
+linktitle: Add
+articleTitle: Add
+second_title: Aspose.Words для .NET
+description: CustomDocumentProperties Add метод. Создает новое пользовательское свойство документаString тип данных на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.properties/customdocumentproperties/add/
 ---
-## Add(string, string) {#add_4}
+## Add(*string, string*) {#add_4}
 
 Создает новое пользовательское свойство документаString тип данных.
 
@@ -23,7 +25,7 @@ public DocumentProperty Add(string name, string value)
 
 Вновь созданный объект свойства.
 
-### Примеры
+## Примеры
 
 Показывает, как работать с настраиваемыми свойствами документа.
 
@@ -84,12 +86,12 @@ Assert.AreEqual(0, properties.Count);
 
 * class [DocumentProperty](../../documentproperty/)
 * class [CustomDocumentProperties](../)
-* пространство имен [Aspose.Words.Properties](../../customdocumentproperties/)
+* пространство имен [Aspose.Words.Properties](../../../aspose.words.properties/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## Add(string, int) {#add_2}
+## Add(*string, int*) {#add_2}
 
 Создает новое пользовательское свойство документаNumber тип данных.
 
@@ -106,7 +108,7 @@ public DocumentProperty Add(string name, int value)
 
 Вновь созданный объект свойства.
 
-### Примеры
+## Примеры
 
 Показывает, как работать с настраиваемыми свойствами документа.
 
@@ -167,12 +169,12 @@ Assert.AreEqual(0, properties.Count);
 
 * class [DocumentProperty](../../documentproperty/)
 * class [CustomDocumentProperties](../)
-* пространство имен [Aspose.Words.Properties](../../customdocumentproperties/)
+* пространство имен [Aspose.Words.Properties](../../../aspose.words.properties/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## Add(string, DateTime) {#add_3}
+## Add(*string, DateTime*) {#add_3}
 
 Создает новое пользовательское свойство документаDateTime тип данных.
 
@@ -189,7 +191,7 @@ public DocumentProperty Add(string name, DateTime value)
 
 Вновь созданный объект свойства.
 
-### Примеры
+## Примеры
 
 Показывает, как создать настраиваемое свойство документа, содержащее дату и время.
 
@@ -260,12 +262,12 @@ Assert.AreEqual(0, properties.Count);
 
 * class [DocumentProperty](../../documentproperty/)
 * class [CustomDocumentProperties](../)
-* пространство имен [Aspose.Words.Properties](../../customdocumentproperties/)
+* пространство имен [Aspose.Words.Properties](../../../aspose.words.properties/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## Add(string, bool) {#add}
+## Add(*string, bool*) {#add}
 
 Создает новое пользовательское свойство документаBoolean тип данных.
 
@@ -282,7 +284,7 @@ public DocumentProperty Add(string name, bool value)
 
 Вновь созданный объект свойства.
 
-### Примеры
+## Примеры
 
 Показывает, как работать с настраиваемыми свойствами документа.
 
@@ -343,12 +345,12 @@ Assert.AreEqual(0, properties.Count);
 
 * class [DocumentProperty](../../documentproperty/)
 * class [CustomDocumentProperties](../)
-* пространство имен [Aspose.Words.Properties](../../customdocumentproperties/)
+* пространство имен [Aspose.Words.Properties](../../../aspose.words.properties/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## Add(string, double) {#add_1}
+## Add(*string, double*) {#add_1}
 
 Создает новое пользовательское свойство документаDouble тип данных.
 
@@ -365,7 +367,7 @@ public DocumentProperty Add(string name, double value)
 
 Вновь созданный объект свойства.
 
-### Примеры
+## Примеры
 
 Показывает, как работать с настраиваемыми свойствами документа.
 
@@ -426,7 +428,5 @@ Assert.AreEqual(0, properties.Count);
 
 * class [DocumentProperty](../../documentproperty/)
 * class [CustomDocumentProperties](../)
-* пространство имен [Aspose.Words.Properties](../../customdocumentproperties/)
+* пространство имен [Aspose.Words.Properties](../../../aspose.words.properties/)
 * сборка [Aspose.Words](../../../)
-
-

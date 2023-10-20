@@ -1,7 +1,9 @@
 ---
 title: PageSetup.HeadingLevelForChapter
-second_title: Aspose.Words per .NET API Reference
-description: PageSetup proprietà. Ottiene o imposta lo stile del livello di intestazione applicato ai titoli dei capitoli nel documento.
+linktitle: HeadingLevelForChapter
+articleTitle: HeadingLevelForChapter
+second_title: Aspose.Words per .NET
+description: PageSetup HeadingLevelForChapter proprietà. Ottiene o imposta lo stile del livello di intestazione applicato ai titoli dei capitoli nel documento in C#.
 type: docs
 weight: 180
 url: /it/net/aspose.words/pagesetup/headinglevelforchapter/
@@ -14,13 +16,13 @@ Ottiene o imposta lo stile del livello di intestazione applicato ai titoli dei c
 public int HeadingLevelForChapter { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Può essere un numero compreso tra 0 e 9. 0 significa nessun numero di capitolo se applicato al numero di pagina.
 
 Prima di poter creare numeri di pagina che includano numeri di capitolo, è necessario che alle intestazioni del documento sia applicato un formato struttura numerata.
 
-### Esempi
+## Esempi
 
 Mostra come lavorare con i capitoli di pagina.
 
@@ -37,7 +39,5 @@ pageSetup.HeadingLevelForChapter = 1;
 ### Guarda anche
 
 * class [PageSetup](../)
-* spazio dei nomi [Aspose.Words](../../pagesetup/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

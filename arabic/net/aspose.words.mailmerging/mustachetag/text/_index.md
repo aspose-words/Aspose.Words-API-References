@@ -1,7 +1,9 @@
 ---
 title: MustacheTag.Text
-second_title: Aspose.Words لمراجع .NET API
-description: MustacheTag ملكية. يحصل على نص العلامة.
+linktitle: Text
+articleTitle: Text
+second_title: Aspose.Words لـ .NET
+description: MustacheTag Text ملكية. يحصل على نص العلامة في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.mailmerging/mustachetag/text/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.mailmerging/mustachetag/text/
 public string Text { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع علامات الشارب.
 
@@ -41,7 +43,5 @@ foreach (MailMergeRegionInfo region in hierarchy.Regions)
 ### أنظر أيضا
 
 * class [MustacheTag](../)
-* مساحة الاسم [Aspose.Words.MailMerging](../../mustachetag/)
+* مساحة الاسم [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * المجسم [Aspose.Words](../../../)
-
-

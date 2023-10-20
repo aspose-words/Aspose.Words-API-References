@@ -1,7 +1,9 @@
 ---
-title: Enum RevisionColor
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Layout.RevisionColor تعداد. يسمح بتحديد لون مراجعات المستند.
+title: RevisionColor Enum
+linktitle: RevisionColor
+articleTitle: RevisionColor
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Layout.RevisionColor تعداد. يسمح بتحديد لون مراجعات المستند في C#.
 type: docs
 weight: 3380
 url: /ar/net/aspose.words.layout/revisioncolor/
@@ -40,7 +42,7 @@ public enum RevisionColor
 | NoHighlight | `19` | لم يتم استخدام أي لون لتسليط الضوء على تغييرات المراجعة. |
 | ByAuthor | `20` | تحصل مراجعات كل مؤلف على اللون الخاص بها لتسليط الضوء عليها من مجموعة محددة مسبقًا من الألوان عالية التباين. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تغيير مظهر المراجعات في مستند الإخراج المقدم.
 
@@ -66,5 +68,3 @@ doc.Save(ArtifactsDir + "Document.LayoutOptionsRevisions.pdf");
 
 * مساحة الاسم [Aspose.Words.Layout](../../aspose.words.layout/)
 * المجسم [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class FileFormatUtil
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.FileFormatUtil klass. Tillhandahåller verktygsmetoder för att arbeta med filformat som att upptäcka filformat eller konvertera filtillägg till/från filformat enums.
+title: FileFormatUtil Class
+linktitle: FileFormatUtil
+articleTitle: FileFormatUtil
+second_title: Aspose.Words för .NET
+description: Aspose.Words.FileFormatUtil klass. Tillhandahåller verktygsmetoder för att arbeta med filformat som att upptäcka filformat eller konvertera filtillägg till/från filformat enums i C#.
 type: docs
 weight: 2820
 url: /sv/net/aspose.words/fileformatutil/
@@ -20,18 +22,18 @@ public static class FileFormatUtil
 
 | namn | Beskrivning |
 | --- | --- |
-| static [ContentTypeToLoadFormat](../../aspose.words/fileformatutil/contenttypetoloadformat/)(string) | Konverterar IANA-innehållstyp till ett laddningsformat uppräknat värde. |
-| static [ContentTypeToSaveFormat](../../aspose.words/fileformatutil/contenttypetosaveformat/)(string) | Konverterar IANA-innehållstyp till ett sparat format uppräknat värde. |
-| static [DetectFileFormat](../../aspose.words/fileformatutil/detectfileformat/#detectfileformat)(Stream) | Upptäcker och returnerar information om formatet för ett dokument som lagras i en ström. |
-| static [DetectFileFormat](../../aspose.words/fileformatutil/detectfileformat/#detectfileformat_1)(string) | Upptäcker och returnerar information om formatet för ett dokument som lagras i en diskfil. |
-| static [ExtensionToSaveFormat](../../aspose.words/fileformatutil/extensiontosaveformat/)(string) | Konverterar ett filnamnstillägg till en[`SaveFormat`](../saveformat/) värde. |
-| static [ImageTypeToExtension](../../aspose.words/fileformatutil/imagetypetoextension/)(ImageType) | Konverterar ett uppräknat värde av bildtyp Aspose.Words till ett filtillägg. Det returnerade tillägget är en sträng med små bokstäver med en inledande punkt. |
-| static [LoadFormatToExtension](../../aspose.words/fileformatutil/loadformattoextension/)(LoadFormat) | Konverterar ett laddningsformat uppräknat värde till ett filtillägg. Det returnerade tillägget är en sträng med små bokstäver med en inledande punkt. |
-| static [LoadFormatToSaveFormat](../../aspose.words/fileformatutil/loadformattosaveformat/)(LoadFormat) | Konverterar en[`LoadFormat`](../loadformat/) värde till a[`SaveFormat`](../saveformat/) värde om möjligt. |
-| static [SaveFormatToExtension](../../aspose.words/fileformatutil/saveformattoextension/)(SaveFormat) | Konverterar ett sparat format uppräknat värde till ett filtillägg. Det returnerade tillägget är en sträng med små bokstäver med en inledande punkt. |
-| static [SaveFormatToLoadFormat](../../aspose.words/fileformatutil/saveformattoloadformat/)(SaveFormat) | Konverterar en[`SaveFormat`](../saveformat/) värde till a[`LoadFormat`](../loadformat/) värde om möjligt. |
+| static [ContentTypeToLoadFormat](../../aspose.words/fileformatutil/contenttypetoloadformat/)(*string*) | Konverterar IANA-innehållstyp till ett laddningsformat uppräknat värde. |
+| static [ContentTypeToSaveFormat](../../aspose.words/fileformatutil/contenttypetosaveformat/)(*string*) | Konverterar IANA-innehållstyp till ett sparat format uppräknat värde. |
+| static [DetectFileFormat](../../aspose.words/fileformatutil/detectfileformat/#detectfileformat)(*Stream*) | Upptäcker och returnerar information om formatet för ett dokument som lagras i en ström. |
+| static [DetectFileFormat](../../aspose.words/fileformatutil/detectfileformat/#detectfileformat_1)(*string*) | Upptäcker och returnerar information om formatet för ett dokument som lagras i en diskfil. |
+| static [ExtensionToSaveFormat](../../aspose.words/fileformatutil/extensiontosaveformat/)(*string*) | Konverterar ett filnamnstillägg till en[`SaveFormat`](../saveformat/) värde. |
+| static [ImageTypeToExtension](../../aspose.words/fileformatutil/imagetypetoextension/)(*[ImageType](../../aspose.words.drawing/imagetype/)*) | Konverterar ett uppräknat värde av bildtyp Aspose.Words till ett filtillägg. Det returnerade tillägget är en sträng med små bokstäver med en inledande punkt. |
+| static [LoadFormatToExtension](../../aspose.words/fileformatutil/loadformattoextension/)(*[LoadFormat](../loadformat/)*) | Konverterar ett laddningsformat uppräknat värde till ett filtillägg. Det returnerade tillägget är en sträng med små bokstäver med en inledande punkt. |
+| static [LoadFormatToSaveFormat](../../aspose.words/fileformatutil/loadformattosaveformat/)(*[LoadFormat](../loadformat/)*) | Konverterar en[`LoadFormat`](../loadformat/) värde till a[`SaveFormat`](../saveformat/) värde om möjligt. |
+| static [SaveFormatToExtension](../../aspose.words/fileformatutil/saveformattoextension/)(*[SaveFormat](../saveformat/)*) | Konverterar ett sparat format uppräknat värde till ett filtillägg. Det returnerade tillägget är en sträng med små bokstäver med en inledande punkt. |
+| static [SaveFormatToLoadFormat](../../aspose.words/fileformatutil/saveformattoloadformat/)(*[SaveFormat](../saveformat/)*) | Konverterar en[`SaveFormat`](../saveformat/) värde till a[`LoadFormat`](../loadformat/) värde om möjligt. |
 
-### Exempel
+## Exempel
 
 Visar hur man upptäcker kodning i en html-fil.
 
@@ -49,5 +51,3 @@ Assert.AreEqual(1252, info.Encoding.CodePage);
 
 * namnutrymme [Aspose.Words](../../aspose.words/)
 * hopsättning [Aspose.Words](../../)
-
-

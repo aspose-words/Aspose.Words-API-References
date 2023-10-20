@@ -1,7 +1,9 @@
 ---
 title: FieldPrintDate.UseSakaEraCalendar
-second_title: Aspose.Words for .NET API 参考
-description: FieldPrintDate 财产. 获取或设置是否使用Saka Era日历
+linktitle: UseSakaEraCalendar
+articleTitle: UseSakaEraCalendar
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldPrintDate UseSakaEraCalendar 财产. 获取或设置是否使用Saka Era日历 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.fields/fieldprintdate/usesakaeracalendar/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fieldprintdate/usesakaeracalendar/
 public bool UseSakaEraCalendar { get; set; }
 ```
 
-### 例子
+## 例子
 
 显示读取的 PRINTDATE 字段。
 
@@ -56,7 +58,5 @@ Assert.AreEqual(" PRINTDATE  \\s", field.GetFieldCode());
 ### 也可以看看
 
 * class [FieldPrintDate](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldprintdate/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

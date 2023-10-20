@@ -1,7 +1,9 @@
 ---
 title: FormField.Enabled
-second_title: Aspose.Words for .NET API 参考
-description: FormField 财产. 如果启用了表单字段则为 True
+linktitle: Enabled
+articleTitle: Enabled
+second_title: 用于 .NET 的 Aspose.Words
+description: FormField Enabled 财产. 如果启用了表单字段则为 True 在 C#.
 type: docs
 weight: 70
 url: /zh/net/aspose.words.fields/formfield/enabled/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.fields/formfield/enabled/
 public bool Enabled { get; set; }
 ```
 
-### 评论
+## 评论
 
 如果启用了表单字段，则可以在填写表单时更改其内容。
 
-### 例子
+## 例子
 
 展示如何将不同类型的表单字段插入到文档中，并使用文档访问者实现来处理它们。
 
@@ -152,7 +154,5 @@ public class FormFieldVisitor : DocumentVisitor
 ### 也可以看看
 
 * class [FormField](../)
-* 命名空间 [Aspose.Words.Fields](../../formfield/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

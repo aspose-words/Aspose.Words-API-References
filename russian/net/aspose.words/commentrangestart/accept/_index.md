@@ -1,7 +1,9 @@
 ---
 title: CommentRangeStart.Accept
-second_title: Справочник по API Aspose.Words для .NET
-description: CommentRangeStart метод. Принимает посетителя.
+linktitle: Accept
+articleTitle: Accept
+second_title: Aspose.Words для .NET
+description: CommentRangeStart Accept метод. Принимает посетителя на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words/commentrangestart/accept/
@@ -22,13 +24,13 @@ public override bool Accept(DocumentVisitor visitor)
 
 `ЛОЖЬ` если посетитель запросил остановку перечисления.
 
-### Примечания
+## Примечания
 
 Звонки[`VisitCommentRangeStart`](../../documentvisitor/visitcommentrangestart/).
 
 Дополнительные сведения см. в шаблоне проектирования «Посетитель».
 
-### Примеры
+## Примеры
 
 Показывает, как распечатать содержимое всех комментариев и их диапазоны комментариев с помощью посетителя документов.
 
@@ -190,7 +192,5 @@ public class CommentInfoPrinter : DocumentVisitor
 
 * class [DocumentVisitor](../../documentvisitor/)
 * class [CommentRangeStart](../)
-* пространство имен [Aspose.Words](../../commentrangestart/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

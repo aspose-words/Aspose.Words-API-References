@@ -1,7 +1,9 @@
 ---
-title: Class PageRange
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Saving.PageRange classe. Représente une plage continue de pages.
+title: PageRange Class
+linktitle: PageRange
+articleTitle: PageRange
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Saving.PageRange classe. Représente une plage continue de pages en C#.
 type: docs
 weight: 5370
 url: /fr/net/aspose.words.saving/pagerange/
@@ -20,11 +22,9 @@ public sealed class PageRange
 
 | Nom | La description |
 | --- | --- |
-| [PageRange](pagerange/)(int, int) | Crée un nouvel objet de plage de pages. |
+| [PageRange](pagerange/)(*int, int*) | Crée un nouvel objet de plage de pages. |
 
 ### Voir également
 
 * espace de noms [Aspose.Words.Saving](../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../)
-
-

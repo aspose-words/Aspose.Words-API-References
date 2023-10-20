@@ -1,12 +1,14 @@
 ---
 title: DocumentBuilder.InsertFootnote
-second_title: Aspose.Words for .NET API 参考
-description: DocumentBuilder 方法. 在文档中插入脚注或尾注
+linktitle: InsertFootnote
+articleTitle: InsertFootnote
+second_title: 用于 .NET 的 Aspose.Words
+description: DocumentBuilder InsertFootnote 方法. 在文档中插入脚注或尾注 在 C#.
 type: docs
-weight: 340
+weight: 330
 url: /zh/net/aspose.words/documentbuilder/insertfootnote/
 ---
-## InsertFootnote(FootnoteType, string) {#insertfootnote}
+## InsertFootnote(*[FootnoteType](../../../aspose.words.notes/footnotetype/), string*) {#insertfootnote}
 
 在文档中插入脚注或尾注。
 
@@ -23,7 +25,7 @@ public Footnote InsertFootnote(FootnoteType footnoteType, string footnoteText)
 
 返回刚刚创建的脚注对象。
 
-### 例子
+## 例子
 
 演示如何使用脚注和尾注引用文本。
 
@@ -56,12 +58,12 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertFootnote.docx");
 * class [Footnote](../../../aspose.words.notes/footnote/)
 * enum [FootnoteType](../../../aspose.words.notes/footnotetype/)
 * class [DocumentBuilder](../)
-* 命名空间 [Aspose.Words](../../documentbuilder/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## InsertFootnote(FootnoteType, string, string) {#insertfootnote_1}
+## InsertFootnote(*[FootnoteType](../../../aspose.words.notes/footnotetype/), string, string*) {#insertfootnote_1}
 
 在文档中插入脚注或尾注。
 
@@ -79,7 +81,7 @@ public Footnote InsertFootnote(FootnoteType footnoteType, string footnoteText, s
 
 返回刚刚创建的脚注对象。
 
-### 例子
+## 例子
 
 演示如何使用脚注和尾注引用文本。
 
@@ -112,7 +114,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertFootnote.docx");
 * class [Footnote](../../../aspose.words.notes/footnote/)
 * enum [FootnoteType](../../../aspose.words.notes/footnotetype/)
 * class [DocumentBuilder](../)
-* 命名空间 [Aspose.Words](../../documentbuilder/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

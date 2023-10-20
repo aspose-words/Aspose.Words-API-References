@@ -1,7 +1,9 @@
 ---
 title: FixedPageSaveOptions.NumeralFormat
-second_title: Aspose.Words for .NET API 参考
-description: FixedPageSaveOptions 财产. 获取或设置NumeralFormat用于呈现数字 默认使用欧洲数字
+linktitle: NumeralFormat
+articleTitle: NumeralFormat
+second_title: 用于 .NET 的 Aspose.Words
+description: FixedPageSaveOptions NumeralFormat 财产. 获取或设置NumeralFormat用于呈现数字 默认使用欧洲数字 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.saving/fixedpagesaveoptions/numeralformat/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.saving/fixedpagesaveoptions/numeralformat/
 public NumeralFormat NumeralFormat { get; set; }
 ```
 
-### 评论
+## 评论
 
 如果更改此属性的值并且页面布局已构建，则 [`UpdatePageLayout`](../../../aspose.words/document/updatepagelayout/)自动调用以更新任何更改。
 
-### 例子
+## 例子
 
 显示如何设置保存为 PDF 时使用的数字格式。
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.SetNumeralFormat.pdf", options);
 
 * enum [NumeralFormat](../../numeralformat/)
 * class [FixedPageSaveOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../fixedpagesaveoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: MarkdownSaveOptions.ListExportMode
-second_title: Справочник по API Aspose.Words для .NET
-description: MarkdownSaveOptions свойство. Указывает как элементы списка будут записываться в выходной файл. Значение по умолчаниюMarkdownSyntax .
+linktitle: ListExportMode
+articleTitle: ListExportMode
+second_title: Aspose.Words для .NET
+description: MarkdownSaveOptions ListExportMode свойство. Указывает как элементы списка будут записываться в выходной файл. Значение по умолчаниюMarkdownSyntax  на С#.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.saving/markdownsaveoptions/listexportmode/
@@ -14,13 +16,13 @@ url: /ru/net/aspose.words.saving/markdownsaveoptions/listexportmode/
 public MarkdownListExportMode ListExportMode { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Когда для этого свойства установлено значениеPlainText все метки списков обновляются с использованием[`UpdateListLabels`](../../../aspose.words/document/updatelistlabels/)и экспортированы с их фактическими значениями. Такие lists могут быть несовместимы с форматом Markdown и в этом случае будут распознаваться как обычный текст при импорте.
 
 Когда для этого свойства установлено значениеMarkdownSyntax, писатель пытается экспортировать элементы списка Export таким образом, чтобы можно было нумеровать элементы списка в автоматическом режиме с помощью Markdown.
 
-### Примеры
+## Примеры
 
 Показывает, как список элементов будет записан в документ уценки.
 
@@ -36,7 +38,5 @@ doc.Save(ArtifactsDir + "MarkdownSaveOptions.ListExportMode.md", options);
 
 * enum [MarkdownListExportMode](../../markdownlistexportmode/)
 * class [MarkdownSaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../markdownsaveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

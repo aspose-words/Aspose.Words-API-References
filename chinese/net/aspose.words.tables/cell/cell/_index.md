@@ -1,7 +1,9 @@
 ---
-title: Cell.Cell
-second_title: Aspose.Words for .NET API 参考
-description: Cell 构造函数. 初始化一个新实例Cell类.
+title: Cell
+linktitle: Cell
+articleTitle: Cell
+second_title: 用于 .NET 的 Aspose.Words
+description: Cell 构造函数. 初始化一个新实例Cell类 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.tables/cell/cell/
@@ -18,13 +20,13 @@ public Cell(DocumentBase doc)
 | --- | --- | --- |
 | doc | DocumentBase | 所有者文件。 |
 
-### 评论
+## 评论
 
 什么时候[`Cell`](../)创建后，它属于指定文档，但还不是 文档的一部分并且[`ParentNode`](../../../aspose.words/node/parentnode/)是`无效的`。
 
-追加[`Cell`](../)到文档使用Node)或者Node) 在您想要插入单元格的行上。
+追加[`Cell`](../)到文档使用[`InsertAfter`](../../../aspose.words/compositenode/insertafter/)或者[`InsertBefore`](../../../aspose.words/compositenode/insertbefore/) 在您想要插入单元格的行上。
 
-### 例子
+## 例子
 
 演示如何在不使用文档生成器的情况下构建嵌套表。
 
@@ -81,7 +83,5 @@ private static Table CreateTable(Document doc, int rowCount, int cellCount, stri
 
 * class [DocumentBase](../../../aspose.words/documentbase/)
 * class [Cell](../)
-* 命名空间 [Aspose.Words.Tables](../../cell/)
+* 命名空间 [Aspose.Words.Tables](../../../aspose.words.tables/)
 * 部件 [Aspose.Words](../../../)
-
-

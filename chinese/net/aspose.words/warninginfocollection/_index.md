@@ -1,7 +1,9 @@
 ---
-title: Class WarningInfoCollection
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.WarningInfoCollection 班级. 表示类型化集合WarningInfo对象.
+title: WarningInfoCollection Class
+linktitle: WarningInfoCollection
+articleTitle: WarningInfoCollection
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.WarningInfoCollection 班级. 表示类型化集合WarningInfo对象 在 C#.
 type: docs
 weight: 6640
 url: /zh/net/aspose.words/warninginfocollection/
@@ -35,13 +37,13 @@ public class WarningInfoCollection : IEnumerable<WarningInfo>, IWarningCallback
 | --- | --- |
 | [Clear](../../aspose.words/warninginfocollection/clear/)() | 从集合中删除所有元素。 |
 | [GetEnumerator](../../aspose.words/warninginfocollection/getenumerator/)() | 返回一个枚举器对象，可用于迭代集合中的所有项目。 |
-| [Warning](../../aspose.words/warninginfocollection/warning/)(WarningInfo) | 实现[`IWarningCallback`](../iwarningcallback/)界面。向此集合添加警告。 |
+| [Warning](../../aspose.words/warninginfocollection/warning/)(*[WarningInfo](../warninginfo/)*) | 实现[`IWarningCallback`](../iwarningcallback/)界面。向此集合添加警告。 |
 
-### 评论
+## 评论
 
 您可以将此集合对象用作最简单的形式[`IWarningCallback`](../iwarningcallback/)实现收集 Aspose.Words 在加载或保存操作期间生成的所有警告。创建此类的一个实例并将其分配给 [`WarningCallback`](../../aspose.words.loading/loadoptions/warningcallback/)或者[`WarningCallback`](../documentbase/warningcallback/)财产。
 
-### 例子
+## 例子
 
 演示如何设置属性以从可用字体源中查找缺失字体的最接近匹配项。
 
@@ -104,5 +106,3 @@ public class HandleDocumentSubstitutionWarnings : IWarningCallback
 * interface [IWarningCallback](../iwarningcallback/)
 * 命名空间 [Aspose.Words](../../aspose.words/)
 * 部件 [Aspose.Words](../../)
-
-

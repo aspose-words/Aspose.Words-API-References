@@ -1,7 +1,9 @@
 ---
 title: FieldRef.BookmarkName
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldRef propriété. Obtient ou définit le nom du signet référencé.
+linktitle: BookmarkName
+articleTitle: BookmarkName
+second_title: Aspose.Words pour .NET
+description: FieldRef BookmarkName propriété. Obtient ou définit le nom du signet référencé en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.fields/fieldref/bookmarkname/
@@ -14,7 +16,7 @@ Obtient ou définit le nom du signet référencé.
 public string BookmarkName { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment créer un texte mis en signet avec un champ SET, puis l'afficher dans le document à l'aide d'un champ REF.
 
@@ -130,7 +132,5 @@ private static FieldRef InsertFieldRef(DocumentBuilder builder, string bookmarkN
 ### Voir également
 
 * class [FieldRef](../)
-* espace de noms [Aspose.Words.Fields](../../fieldref/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

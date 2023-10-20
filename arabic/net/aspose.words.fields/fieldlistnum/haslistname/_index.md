@@ -1,7 +1,9 @@
 ---
 title: FieldListNum.HasListName
-second_title: Aspose.Words لمراجع .NET API
-description: FieldListNum ملكية. إرجاع قيمة تشير إلى ما إذا كان اسم تعريف الترقيم المجرد مقدمًا بواسطة رمز الحقل.
+linktitle: HasListName
+articleTitle: HasListName
+second_title: Aspose.Words لـ .NET
+description: FieldListNum HasListName ملكية. إرجاع قيمة تشير إلى ما إذا كان اسم تعريف الترقيم المجرد مقدمًا بواسطة رمز الحقل في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.fields/fieldlistnum/haslistname/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldlistnum/haslistname/
 public bool HasListName { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية ترقيم الفقرات باستخدام حقول LISTNUM.
 
@@ -84,7 +86,5 @@ doc.Save(ArtifactsDir + "Field.LISTNUM.docx");
 ### أنظر أيضا
 
 * class [FieldListNum](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldlistnum/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

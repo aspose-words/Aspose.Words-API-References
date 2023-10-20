@@ -1,7 +1,9 @@
 ---
 title: Font.Shading
-second_title: Aspose.Words für .NET-API-Referenz
-description: Font eigendom. Gibt a zurückShading Objekt das sich auf die Schattierungsformatierung für die Schriftart bezieht.
+linktitle: Shading
+articleTitle: Shading
+second_title: Aspose.Words für .NET
+description: Font Shading eigendom. Gibt a zurückShading Objekt das sich auf die Schattierungsformatierung für die Schriftart bezieht in C#.
 type: docs
 weight: 320
 url: /de/net/aspose.words/font/shading/
@@ -14,7 +16,7 @@ Gibt a zurück[`Shading`](../../shading/) Objekt, das sich auf die Schattierungs
 public Shading Shading { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man Schattierungen auf Text anwendet, der von einem Dokumentersteller erstellt wurde.
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "Font.Shading.docx");
 
 * class [Shading](../../shading/)
 * class [Font](../)
-* namensraum [Aspose.Words](../../font/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

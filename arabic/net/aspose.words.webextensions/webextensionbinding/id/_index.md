@@ -1,7 +1,9 @@
 ---
 title: WebExtensionBinding.Id
-second_title: Aspose.Words لمراجع .NET API
-description: WebExtensionBinding ملكية. يحدد معرف الربط.
+linktitle: Id
+articleTitle: Id
+second_title: Aspose.Words لـ .NET
+description: WebExtensionBinding Id ملكية. يحدد معرف الربط في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.webextensions/webextensionbinding/id/
@@ -17,7 +19,5 @@ public string Id { get; set; }
 ### أنظر أيضا
 
 * class [WebExtensionBinding](../)
-* مساحة الاسم [Aspose.Words.WebExtensions](../../webextensionbinding/)
+* مساحة الاسم [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * المجسم [Aspose.Words](../../../)
-
-

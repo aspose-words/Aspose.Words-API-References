@@ -1,7 +1,9 @@
 ---
 title: SystemFontSource.Type
-second_title: Référence de l'API Aspose.Words pour .NET
-description: SystemFontSource propriété. Renvoie le type de la source de police.
+linktitle: Type
+articleTitle: Type
+second_title: Aspose.Words pour .NET
+description: SystemFontSource Type propriété. Renvoie le type de la source de police en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.fonts/systemfontsource/type/
@@ -14,7 +16,7 @@ Renvoie le type de la source de police.
 public override FontSourceType Type { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment accéder à la source de police système d’un document et définir des substituts de police.
 
@@ -71,7 +73,5 @@ Assert.AreEqual(1,
 
 * enum [FontSourceType](../../fontsourcetype/)
 * class [SystemFontSource](../)
-* espace de noms [Aspose.Words.Fonts](../../systemfontsource/)
+* espace de noms [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * Assemblée [Aspose.Words](../../../)
-
-

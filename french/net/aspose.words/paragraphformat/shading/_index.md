@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.Shading
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ParagraphFormat propriété. Renvoie unShading objet qui fait référence au formatage dombrage du paragraphe.
+linktitle: Shading
+articleTitle: Shading
+second_title: Aspose.Words pour .NET
+description: ParagraphFormat Shading propriété. Renvoie unShading objet qui fait référence au formatage dombrage du paragraphe en C#.
 type: docs
 weight: 280
 url: /fr/net/aspose.words/paragraphformat/shading/
@@ -14,7 +16,7 @@ Renvoie un[`Shading`](../../shading/) objet qui fait référence au formatage d'
 public Shading Shading { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment décorer du texte avec des bordures et des ombrages.
 
@@ -42,7 +44,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.ApplyBordersAndShading.docx");
 
 * class [Shading](../../shading/)
 * class [ParagraphFormat](../)
-* espace de noms [Aspose.Words](../../paragraphformat/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

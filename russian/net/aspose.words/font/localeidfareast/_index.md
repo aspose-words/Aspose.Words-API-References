@@ -1,7 +1,9 @@
 ---
 title: Font.LocaleIdFarEast
-second_title: Справочник по API Aspose.Words для .NET
-description: Font свойство. Получает или задает идентификатор локали языка форматированных азиатских символов.
+linktitle: LocaleIdFarEast
+articleTitle: LocaleIdFarEast
+second_title: Aspose.Words для .NET
+description: Font LocaleIdFarEast свойство. Получает или задает идентификатор локали языка форматированных азиатских символов на С#.
 type: docs
 weight: 220
 url: /ru/net/aspose.words/font/localeidfareast/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words/font/localeidfareast/
 public int LocaleIdFarEast { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Список идентификаторов локали см. на https://msdn.microsoft.com/en-us/library/cc233965.aspx .
 
-### Примеры
+## Примеры
 
 Показывает, как вставлять и форматировать текст на дальневосточном языке.
 
@@ -49,7 +51,5 @@ doc.Save(ArtifactsDir + "Font.FarEast.docx");
 ### Смотрите также
 
 * class [Font](../)
-* пространство имен [Aspose.Words](../../font/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: PageSetup.ChapterPageSeparator
-second_title: Aspose.Words لمراجع .NET API
-description: PageSetup ملكية. الحصول على أو تعيين الحرف الفاصل الذي يظهر بين رقم الفصل ورقم الصفحة.
+linktitle: ChapterPageSeparator
+articleTitle: ChapterPageSeparator
+second_title: Aspose.Words لـ .NET
+description: PageSetup ChapterPageSeparator ملكية. الحصول على أو تعيين الحرف الفاصل الذي يظهر بين رقم الفصل ورقم الصفحة في C#.
 type: docs
 weight: 90
 url: /ar/net/aspose.words/pagesetup/chapterpageseparator/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words/pagesetup/chapterpageseparator/
 public ChapterPageSeparator ChapterPageSeparator { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 قبل أن تتمكن من إنشاء أرقام الصفحات التي تتضمن أرقام الفصول، يجب أن يكون لعناوين المستند تنسيق مخطط تفصيلي مرقّم مطبق.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع فصول الصفحة.
 
@@ -36,7 +38,5 @@ pageSetup.HeadingLevelForChapter = 1;
 
 * enum [ChapterPageSeparator](../../chapterpageseparator/)
 * class [PageSetup](../)
-* مساحة الاسم [Aspose.Words](../../pagesetup/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

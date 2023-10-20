@@ -1,7 +1,9 @@
 ---
-title: Glyph.Glyph
-second_title: Справочник по API Aspose.Words для .NET
-description: Glyph строитель. Инициализирует новый экземпляр этого класса.
+title: Glyph
+linktitle: Glyph
+articleTitle: Glyph
+second_title: Aspose.Words для .NET
+description: Glyph строитель. Инициализирует новый экземпляр этого класса на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.shaping/glyph/glyph/
@@ -24,7 +26,5 @@ public Glyph(int glyphIndex, short advance, short advanceOffset, short ascenderO
 ### Смотрите также
 
 * class [Glyph](../)
-* пространство имен [Aspose.Words.Shaping](../../glyph/)
+* пространство имен [Aspose.Words.Shaping](../../../aspose.words.shaping/)
 * сборка [Aspose.Words](../../../)
-
-

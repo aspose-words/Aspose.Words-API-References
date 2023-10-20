@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.InterpolateImages
-second_title: Aspose.Words per .NET API Reference
-description: PdfSaveOptions proprietà. Un flag che indica se linterpolazione dellimmagine deve essere eseguita da un lettore conforme. Quandofalso è specificato il flag non viene scritto nel documento di output e al suo posto viene utilizzato il comportamento predefinito del lettore.
+linktitle: InterpolateImages
+articleTitle: InterpolateImages
+second_title: Aspose.Words per .NET
+description: PdfSaveOptions InterpolateImages proprietà. Un flag che indica se linterpolazione dellimmagine deve essere eseguita da un lettore conforme. Quandofalso è specificato il flag non viene scritto nel documento di output e al suo posto viene utilizzato il comportamento predefinito del lettore in C#.
 type: docs
 weight: 210
 url: /it/net/aspose.words.saving/pdfsaveoptions/interpolateimages/
@@ -14,7 +16,7 @@ Un flag che indica se l'interpolazione dell'immagine deve essere eseguita da un 
 public bool InterpolateImages { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Quando la risoluzione di un'immagine sorgente è significativamente inferiore a quella del dispositivo di output, ciascun campione sorgente copre molti pixel del dispositivo. Di conseguenza, le immagini possono apparire frastagliate o squadrate. Questi artefatti visivi possono essere ridotti applicando un algoritmo di interpolazione dell'immagine durante il rendering. Invece di dipingere tutti i pixel coperti da un campione sorgente con lo stesso colore, l'interpolazione dell'immagine tenta di produrre un'immagine uniforme transizione tra valori campione adiacenti.
 
@@ -24,7 +26,7 @@ Il valore predefinito è`falso`.
 
 Il flag di interpolazione è vietato dalla conformità PDF/A.`falso` il valore verrà utilizzato automaticamente durante il salvataggio in PDF/A.
 
-### Esempi
+## Esempi
 
 Mostra come eseguire l'interpolazione sulle immagini durante il salvataggio di un documento in PDF.
 
@@ -75,7 +77,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.InterpolateImagesNetStandard2.pdf", save
 ### Guarda anche
 
 * class [PdfSaveOptions](../)
-* spazio dei nomi [Aspose.Words.Saving](../../pdfsaveoptions/)
+* spazio dei nomi [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,9 +1,11 @@
 ---
 title: CellFormat.VerticalAlignment
-second_title: Aspose.Words för .NET API Referens
-description: CellFormat fast egendom. Returnerar eller ställer in den vertikala justeringen av text i cellen.
+linktitle: VerticalAlignment
+articleTitle: VerticalAlignment
+second_title: Aspose.Words för .NET
+description: CellFormat VerticalAlignment fast egendom. Returnerar eller ställer in den vertikala justeringen av text i cellen i C#.
 type: docs
-weight: 120
+weight: 110
 url: /sv/net/aspose.words.tables/cellformat/verticalalignment/
 ---
 ## CellFormat.VerticalAlignment property
@@ -14,7 +16,7 @@ Returnerar eller ställer in den vertikala justeringen av text i cellen.
 public CellVerticalAlignment VerticalAlignment { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man bygger en tabell med anpassade ramar.
 
@@ -81,7 +83,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
 
 * enum [CellVerticalAlignment](../../cellverticalalignment/)
 * class [CellFormat](../)
-* namnutrymme [Aspose.Words.Tables](../../cellformat/)
+* namnutrymme [Aspose.Words.Tables](../../../aspose.words.tables/)
 * hopsättning [Aspose.Words](../../../)
-
-

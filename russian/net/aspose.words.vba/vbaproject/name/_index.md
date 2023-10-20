@@ -1,7 +1,9 @@
 ---
 title: VbaProject.Name
-second_title: Справочник по API Aspose.Words для .NET
-description: VbaProject свойство. Получает или задает имя проекта VBA.
+linktitle: Name
+articleTitle: Name
+second_title: Aspose.Words для .NET
+description: VbaProject Name свойство. Получает или задает имя проекта VBA на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.vba/vbaproject/name/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.vba/vbaproject/name/
 public string Name { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как создать проект VBA с помощью макросов.
 
@@ -67,7 +69,5 @@ vbaModules.Remove(vbaModules[2]);
 ### Смотрите также
 
 * class [VbaProject](../)
-* пространство имен [Aspose.Words.Vba](../../vbaproject/)
+* пространство имен [Aspose.Words.Vba](../../../aspose.words.vba/)
 * сборка [Aspose.Words](../../../)
-
-

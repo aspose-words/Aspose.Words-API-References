@@ -1,7 +1,9 @@
 ---
-title: Class FolderFontSource
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Fonts.FolderFontSource classe. Représente le dossier contenant les fichiers de police TrueType.
+title: FolderFontSource Class
+linktitle: FolderFontSource
+articleTitle: FolderFontSource
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Fonts.FolderFontSource classe. Représente le dossier contenant les fichiers de police TrueType en C#.
 type: docs
 weight: 2880
 url: /fr/net/aspose.words.fonts/folderfontsource/
@@ -20,8 +22,8 @@ public class FolderFontSource : FontSourceBase
 
 | Nom | La description |
 | --- | --- |
-| [FolderFontSource](folderfontsource/#constructor)(string, bool) | Directeur. |
-| [FolderFontSource](folderfontsource/#constructor_1)(string, bool, int) | Directeur. |
+| [FolderFontSource](folderfontsource/#constructor)(*string, bool*) | Directeur. |
+| [FolderFontSource](folderfontsource/#constructor_1)(*string, bool, int*) | Directeur. |
 
 ## Propriétés
 
@@ -39,7 +41,7 @@ public class FolderFontSource : FontSourceBase
 | --- | --- |
 | [GetAvailableFonts](../../aspose.words.fonts/fontsourcebase/getavailablefonts/)() | Renvoie la liste des polices disponibles via cette source. |
 
-### Exemples
+## Exemples
 
 Montre comment utiliser un dossier système local contenant des polices comme source de polices.
 
@@ -62,5 +64,3 @@ Assert.AreEqual(1, folderFontSource.Priority);
 * class [FontSourceBase](../fontsourcebase/)
 * espace de noms [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * Assemblée [Aspose.Words](../../)
-
-

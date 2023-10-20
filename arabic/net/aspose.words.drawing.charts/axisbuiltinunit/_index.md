@@ -1,7 +1,9 @@
 ---
-title: Enum AxisBuiltInUnit
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Drawing.Charts.AxisBuiltInUnit تعداد. تحديد وحدات العرض للمحور.
+title: AxisBuiltInUnit Enum
+linktitle: AxisBuiltInUnit
+articleTitle: AxisBuiltInUnit
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Drawing.Charts.AxisBuiltInUnit تعداد. تحديد وحدات العرض للمحور في C#.
 type: docs
 weight: 520
 url: /ar/net/aspose.words.drawing.charts/axisbuiltinunit/
@@ -31,7 +33,7 @@ public enum AxisBuiltInUnit
 | Trillions | `10` | تحديد القيم الموجودة على المخطط والتي سيتم تقسيمها على 1,000,000,000,0000. |
 | Percentage | `11` | يحدد القيم الموجودة على المخطط والتي يجب تقسيمها على 0.01. يتم دعم هذه القيمة فقط من خلال أنواع Chart الجديدة من MS Office 2016. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التعامل مع علامات التجزئة والقيم المعروضة لمحور المخطط.
 
@@ -90,5 +92,3 @@ doc.Save(ArtifactsDir + "Charts.AxisDisplayUnit.docx");
 
 * مساحة الاسم [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../)
-
-

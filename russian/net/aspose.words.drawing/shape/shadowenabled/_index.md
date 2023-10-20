@@ -1,7 +1,9 @@
 ---
 title: Shape.ShadowEnabled
-second_title: Справочник по API Aspose.Words для .NET
-description: Shape свойство. Возвращаетистинный если эффект тени включен.
+linktitle: ShadowEnabled
+articleTitle: ShadowEnabled
+second_title: Aspose.Words для .NET
+description: Shape ShadowEnabled свойство. Возвращаетистинный если эффект тени включен на С#.
 type: docs
 weight: 150
 url: /ru/net/aspose.words.drawing/shape/shadowenabled/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.drawing/shape/shadowenabled/
 public bool ShadowEnabled { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как перебирать все фигуры в документе.
 
@@ -137,7 +139,5 @@ private class ShapeAppearancePrinter : DocumentVisitor
 ### Смотрите также
 
 * class [Shape](../)
-* пространство имен [Aspose.Words.Drawing](../../shape/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

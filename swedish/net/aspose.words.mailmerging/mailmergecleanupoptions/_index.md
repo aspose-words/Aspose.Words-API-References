@@ -1,7 +1,9 @@
 ---
-title: Enum MailMergeCleanupOptions
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.MailMerging.MailMergeCleanupOptions uppräkning. Anger alternativ som bestämmer vilka objekt som tas bort under kopplingen.
+title: MailMergeCleanupOptions Enum
+linktitle: MailMergeCleanupOptions
+articleTitle: MailMergeCleanupOptions
+second_title: Aspose.Words för .NET
+description: Aspose.Words.MailMerging.MailMergeCleanupOptions uppräkning. Anger alternativ som bestämmer vilka objekt som tas bort under kopplingen i C#.
 type: docs
 weight: 3850
 url: /sv/net/aspose.words.mailmerging/mailmergecleanupoptions/
@@ -27,7 +29,7 @@ public enum MailMergeCleanupOptions
 | RemoveStaticFields | `10` | Anger om statiska fält ska tas bort från dokumentet. Statiska fält är fält, som resultat förblir desamma vid alla dokumentändringar. Fält, som inte lagrar sina resultat i ett document och som beräknas i farten (somFieldListNum , FieldSymbol , etc.) anses inte vara statiska. |
 | RemoveEmptyTableRows | `20` | Anger om tomma rader som innehåller kopplingsregioner ska tas bort från dokumentet. |
 
-### Exempel
+## Exempel
 
 Visar hur man tar bort tomma stycken som en sammankoppling kan skapa från sammanslagningsutdatadokumentet.
 
@@ -100,5 +102,3 @@ else
 
 * namnutrymme [Aspose.Words.MailMerging](../../aspose.words.mailmerging/)
 * hopsättning [Aspose.Words](../../)
-
-

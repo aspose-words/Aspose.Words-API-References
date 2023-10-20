@@ -1,7 +1,9 @@
 ---
 title: CompareOptions.IgnoreCaseChanges
-second_title: Aspose.Words for .NET API 参考
-description: CompareOptions 财产. True 表示文档比较不区分大小写 默认情况下比较区分大小写
+linktitle: IgnoreCaseChanges
+articleTitle: IgnoreCaseChanges
+second_title: 用于 .NET 的 Aspose.Words
+description: CompareOptions IgnoreCaseChanges 财产. True 表示文档比较不区分大小写 默认情况下比较区分大小写 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.comparing/compareoptions/ignorecasechanges/
@@ -14,7 +16,7 @@ True 表示文档比较不区分大小写。 默认情况下比较区分大小�
 public bool IgnoreCaseChanges { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何在进行比较时过滤特定类型的文档元素。
 
@@ -88,7 +90,5 @@ docOriginal.Save(ArtifactsDir + "Document.CompareOptions.docx");
 ### 也可以看看
 
 * class [CompareOptions](../)
-* 命名空间 [Aspose.Words.Comparing](../../compareoptions/)
+* 命名空间 [Aspose.Words.Comparing](../../../aspose.words.comparing/)
 * 部件 [Aspose.Words](../../../)
-
-

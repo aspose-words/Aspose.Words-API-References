@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitFieldStart
-second_title: Aspose.Words لمراجع .NET API
-description: DocumentVisitor طريقة. يتم استدعاؤه عند بدء حقل في المستند.
+linktitle: VisitFieldStart
+articleTitle: VisitFieldStart
+second_title: Aspose.Words لـ .NET
+description: DocumentVisitor VisitFieldStart طريقة. يتم استدعاؤه عند بدء حقل في المستند في C#.
 type: docs
 weight: 200
 url: /ar/net/aspose.words/documentvisitor/visitfieldstart/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitFieldStart(FieldStart fieldStart)
 
 أ[`VisitorAction`](../../visitoraction/) القيمة التي تحدد كيفية متابعة التعداد.
 
-### ملاحظات
+## ملاحظات
 
 يتكون الحقل الموجود في مستند Word من رمز الحقل وقيمة الحقل.
 
@@ -34,7 +36,7 @@ public virtual VisitorAction VisitFieldStart(FieldStart fieldStart)
 
 يمكن أن تكون متداخلة الحقول.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية طباعة بنية العقدة لكل حقل في المستند.
 
@@ -139,7 +141,5 @@ public class FieldStructurePrinter : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [FieldStart](../../../aspose.words.fields/fieldstart/)
 * class [DocumentVisitor](../)
-* مساحة الاسم [Aspose.Words](../../documentvisitor/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

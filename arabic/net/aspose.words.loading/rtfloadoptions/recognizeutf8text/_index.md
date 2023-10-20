@@ -1,7 +1,9 @@
 ---
 title: RtfLoadOptions.RecognizeUtf8Text
-second_title: Aspose.Words لمراجع .NET API
-description: RtfLoadOptions ملكية. عند التعيين علىحقيقي CharsetDetector سيحاول اكتشاف أحرف UTF8 سيتم الاحتفاظ بها أثناء الاستيراد.
+linktitle: RecognizeUtf8Text
+articleTitle: RecognizeUtf8Text
+second_title: Aspose.Words لـ .NET
+description: RtfLoadOptions RecognizeUtf8Text ملكية. عند التعيين علىحقيقي CharsetDetector سيحاول اكتشاف أحرف UTF8 سيتم الاحتفاظ بها أثناء الاستيراد في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.loading/rtfloadoptions/recognizeutf8text/
@@ -16,7 +18,7 @@ url: /ar/net/aspose.words.loading/rtfloadoptions/recognizeutf8text/
 public bool RecognizeUtf8Text { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية اكتشاف أحرف UTF-8 أثناء تحميل مستند RTF.
 
@@ -43,7 +45,5 @@ Assert.AreEqual(
 ### أنظر أيضا
 
 * class [RtfLoadOptions](../)
-* مساحة الاسم [Aspose.Words.Loading](../../rtfloadoptions/)
+* مساحة الاسم [Aspose.Words.Loading](../../../aspose.words.loading/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: IDocumentSavingCallback.Notify
-second_title: Справочник по API Aspose.Words для .NET
-description: IDocumentSavingCallback метод. Вызывается для уведомления о ходе сохранения документа.
+linktitle: Notify
+articleTitle: Notify
+second_title: Aspose.Words для .NET
+description: IDocumentSavingCallback Notify метод. Вызывается для уведомления о ходе сохранения документа на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.saving/idocumentsavingcallback/notify/
@@ -18,13 +20,13 @@ public void Notify(DocumentSavingArgs args)
 | --- | --- | --- |
 | args | DocumentSavingArgs | Аргумент события. |
 
-### Примечания
+## Примечания
 
 Основное использование этого интерфейса — позволить коду приложения получать статус выполнения и прерывать процесс сохранения.
 
 Должно быть выдано исключение из обратного вызова прогресса для прерывания, и оно должно быть перехвачено в потребительском коде.
 
-### Примеры
+## Примеры
 
 Показывает, как управлять документом при сохранении в HTML.
 
@@ -195,7 +197,5 @@ public class SavingProgressCallback : IDocumentSavingCallback
 
 * class [DocumentSavingArgs](../../documentsavingargs/)
 * interface [IDocumentSavingCallback](../)
-* пространство имен [Aspose.Words.Saving](../../idocumentsavingcallback/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ChartSeriesCollection.RemoveAt
-second_title: Aspose.Words لمراجع .NET API
-description: ChartSeriesCollection طريقة. يزيل أChartSeries في الفهرس المحدد.
+linktitle: RemoveAt
+articleTitle: RemoveAt
+second_title: Aspose.Words لـ .NET
+description: ChartSeriesCollection RemoveAt طريقة. يزيل أChartSeries في الفهرس المحدد في C#.
 type: docs
 weight: 60
 url: /ar/net/aspose.words.drawing.charts/chartseriescollection/removeat/
@@ -18,7 +20,7 @@ public void RemoveAt(int index)
 | --- | --- | --- |
 | index | Int32 | المؤشر الصفري[`ChartSeries`](../../chartseries/) لازالة. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إضافة وإزالة بيانات السلسلة في مخطط.
 
@@ -65,7 +67,5 @@ chartData.Clear();
 ### أنظر أيضا
 
 * class [ChartSeriesCollection](../)
-* مساحة الاسم [Aspose.Words.Drawing.Charts](../../chartseriescollection/)
+* مساحة الاسم [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Interface IMailMergeCallback
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.MailMerging.IMailMergeCallback interfaccia. Implementa questa interfaccia se desideri ricevere notifiche durante lesecuzione della stampa unione.
+title: IMailMergeCallback Interface
+linktitle: IMailMergeCallback
+articleTitle: IMailMergeCallback
+second_title: Aspose.Words per .NET
+description: Aspose.Words.MailMerging.IMailMergeCallback interfaccia. Implementa questa interfaccia se desideri ricevere notifiche durante lesecuzione della stampa unione in C#.
 type: docs
 weight: 3800
 url: /it/net/aspose.words.mailmerging/imailmergecallback/
@@ -20,7 +22,7 @@ public interface IMailMergeCallback
 | --- | --- |
 | [TagsReplaced](../../aspose.words.mailmerging/imailmergecallback/tagsreplaced/)() | Chiamato quando i tag di testo "baffi" vengono sostituiti con campi MERGEFIELD. |
 
-### Esempi
+## Esempi
 
 Mostra come definire la logica personalizzata per la gestione degli eventi durante la stampa unione.
 
@@ -72,5 +74,3 @@ private class MailMergeTagReplacementCounter : IMailMergeCallback
 
 * spazio dei nomi [Aspose.Words.MailMerging](../../aspose.words.mailmerging/)
 * assemblea [Aspose.Words](../../)
-
-

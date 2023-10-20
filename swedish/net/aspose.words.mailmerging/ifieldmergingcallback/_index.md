@@ -1,7 +1,9 @@
 ---
-title: Interface IFieldMergingCallback
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.MailMerging.IFieldMergingCallback gränssnitt. Implementera det här gränssnittet om du vill styra hur data infogas i sammanfogningsfält under en sammankopplingsoperation.
+title: IFieldMergingCallback Interface
+linktitle: IFieldMergingCallback
+articleTitle: IFieldMergingCallback
+second_title: Aspose.Words för .NET
+description: Aspose.Words.MailMerging.IFieldMergingCallback gränssnitt. Implementera det här gränssnittet om du vill styra hur data infogas i sammanfogningsfält under en sammankopplingsoperation i C#.
 type: docs
 weight: 3790
 url: /sv/net/aspose.words.mailmerging/ifieldmergingcallback/
@@ -18,10 +20,10 @@ public interface IFieldMergingCallback
 
 | namn | Beskrivning |
 | --- | --- |
-| [FieldMerging](../../aspose.words.mailmerging/ifieldmergingcallback/fieldmerging/)(FieldMergingArgs) | Anropas när kopplingsmotorn i Aspose.Words håller på att infoga data i ett sammanfogningsfält i dokumentet. |
-| [ImageFieldMerging](../../aspose.words.mailmerging/ifieldmergingcallback/imagefieldmerging/)(ImageFieldMergingArgs) | Anropas när kopplingsmotorn Aspose.Words håller på att infoga en bild i ett sammanfogningsfält. |
+| [FieldMerging](../../aspose.words.mailmerging/ifieldmergingcallback/fieldmerging/)(*[FieldMergingArgs](../fieldmergingargs/)*) | Anropas när kopplingsmotorn i Aspose.Words håller på att infoga data i ett sammanfogningsfält i dokumentet. |
+| [ImageFieldMerging](../../aspose.words.mailmerging/ifieldmergingcallback/imagefieldmerging/)(*[ImageFieldMergingArgs](../imagefieldmergingargs/)*) | Anropas när kopplingsmotorn Aspose.Words håller på att infoga en bild i ett sammanfogningsfält. |
 
-### Exempel
+## Exempel
 
 Visar hur man infogar bilder lagrade i ett databas BLOB-fält i en rapport.
 
@@ -134,5 +136,3 @@ private class HandleMergeFieldInsertHtml : IFieldMergingCallback
 
 * namnutrymme [Aspose.Words.MailMerging](../../aspose.words.mailmerging/)
 * hopsättning [Aspose.Words](../../)
-
-

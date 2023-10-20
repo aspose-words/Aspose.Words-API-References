@@ -1,7 +1,9 @@
 ---
 title: BaseWebExtensionCollection1.GetEnumerator
-second_title: Aspose.Words för .NET API Referens
-description: BaseWebExtensionCollection metod. Returnerar en uppräkning som kan iterera genom en samling.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words för .NET
+description: BaseWebExtensionCollection GetEnumerator metod. Returnerar en uppräkning som kan iterera genom en samling i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.webextensions/basewebextensioncollection-1/getenumerator/
@@ -14,7 +16,7 @@ Returnerar en uppräkning som kan iterera genom en samling.
 public IEnumerator<T> GetEnumerator()
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med ett dokuments samling av webbtillägg.
 
@@ -43,7 +45,5 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 ### Se även
 
 * class [BaseWebExtensionCollection&lt;T&gt;](../)
-* namnutrymme [Aspose.Words.WebExtensions](../../basewebextensioncollection-1/)
+* namnutrymme [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * hopsättning [Aspose.Words](../../../)
-
-

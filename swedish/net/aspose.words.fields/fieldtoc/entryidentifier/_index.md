@@ -1,7 +1,9 @@
 ---
 title: FieldToc.EntryIdentifier
-second_title: Aspose.Words för .NET API Referens
-description: FieldToc fast egendom. Hämtar eller ställer in en sträng som ska matcha typidentifierare för TCfält som ingår.
+linktitle: EntryIdentifier
+articleTitle: EntryIdentifier
+second_title: Aspose.Words för .NET
+description: FieldToc EntryIdentifier fast egendom. Hämtar eller ställer in en sträng som ska matcha typidentifierare för TCfält som ingår i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.fields/fieldtoc/entryidentifier/
@@ -14,7 +16,7 @@ Hämtar eller ställer in en sträng som ska matcha typidentifierare för TC-fä
 public string EntryIdentifier { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man infogar ett TOC-fält och filtrerar vilka TC-fält som slutar som poster.
 
@@ -66,7 +68,5 @@ public void InsertTocEntry(DocumentBuilder builder, string text, string typeIden
 ### Se även
 
 * class [FieldToc](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldtoc/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

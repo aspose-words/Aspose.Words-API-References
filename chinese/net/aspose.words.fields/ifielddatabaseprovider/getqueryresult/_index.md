@@ -1,7 +1,9 @@
 ---
 title: IFieldDatabaseProvider.GetQueryResult
-second_title: Aspose.Words for .NET API 参考
-description: IFieldDatabaseProvider 方法. 返回查询结果
+linktitle: GetQueryResult
+articleTitle: GetQueryResult
+second_title: 用于 .NET 的 Aspose.Words
+description: IFieldDatabaseProvider GetQueryResult 方法. 返回查询结果 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.fields/ifielddatabaseprovider/getqueryresult/
@@ -31,7 +33,5 @@ public FieldDatabaseDataTable GetQueryResult(string fileName, string connection,
 * class [FieldDatabaseDataTable](../../fielddatabasedatatable/)
 * class [FieldDatabase](../../fielddatabase/)
 * interface [IFieldDatabaseProvider](../)
-* 命名空间 [Aspose.Words.Fields](../../ifielddatabaseprovider/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

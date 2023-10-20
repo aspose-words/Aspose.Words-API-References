@@ -1,7 +1,9 @@
 ---
-title: Class Style
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Style 班级. 表示单个内置或用户定义的样式
+title: Style Class
+linktitle: Style
+articleTitle: Style
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Style 班级. 表示单个内置或用户定义的样式 在 C#.
 type: docs
 weight: 6130
 url: /zh/net/aspose.words/style/
@@ -31,7 +33,6 @@ public class Style
 | [LinkedStyleName](../../aspose.words/style/linkedstylename/) { get; } | 获取名称`Style`与此相关。如果没有链接样式，则返回空字符串。 |
 | [List](../../aspose.words/style/list/) { get; } | 获取定义此列表样式格式的列表。 |
 | [ListFormat](../../aspose.words/style/listformat/) { get; } | 提供对段落样式的列表格式属性的访问。 |
-| [Locked](../../aspose.words/style/locked/) { get; set; } |  |
 | [Name](../../aspose.words/style/name/) { get; set; } | 获取或设置样式的名称。 |
 | [NextParagraphStyleName](../../aspose.words/style/nextparagraphstylename/) { get; set; } | 获取/设置要自动应用于在使用指定样式格式化的 a 段落之后插入的新段落的样式名称。 |
 | [ParagraphFormat](../../aspose.words/style/paragraphformat/) { get; } | 获取样式的段落格式。 |
@@ -43,10 +44,10 @@ public class Style
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Equals](../../aspose.words/style/equals/#equals)(Style) | 与指定样式进行比较。 仅比较内置样式的样式 Istd。 比较中不包括默认样式。 递归比较基本样式、链接样式和下一段样式。 |
+| [Equals](../../aspose.words/style/equals/#equals)(*Style*) | 与指定样式进行比较。 仅比较内置样式的样式 Istd。 比较中不包括默认样式。 递归比较基本样式、链接样式和下一段样式。 |
 | [Remove](../../aspose.words/style/remove/)() | 从文档中删除指定的样式。 |
 
-### 例子
+## 例子
 
 演示如何创建和使用具有列表格式的段落样式。
 
@@ -113,5 +114,3 @@ Assert.AreEqual(Color.Empty.ToArgb(), firstParagraphStyle.Font.Color.ToArgb());
 
 * 命名空间 [Aspose.Words](../../aspose.words/)
 * 部件 [Aspose.Words](../../)
-
-

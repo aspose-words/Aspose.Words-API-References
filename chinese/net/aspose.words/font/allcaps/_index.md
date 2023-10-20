@@ -1,7 +1,9 @@
 ---
 title: Font.AllCaps
-second_title: Aspose.Words for .NET API 参考
-description: Font 财产. 如果字体格式为全部大写字母则为 True
+linktitle: AllCaps
+articleTitle: AllCaps
+second_title: 用于 .NET 的 Aspose.Words
+description: Font AllCaps 财产. 如果字体格式为全部大写字母则为 True 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words/font/allcaps/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/font/allcaps/
 public bool AllCaps { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何设置运行格式以大写显示其内容。
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "Font.Caps.docx");
 ### 也可以看看
 
 * class [Font](../)
-* 命名空间 [Aspose.Words](../../font/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

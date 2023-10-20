@@ -1,7 +1,9 @@
 ---
 title: Field.Unlink
-second_title: Referencia de API de Aspose.Words para .NET
-description: Field método. Realiza la desvinculación del campo.
+linktitle: Unlink
+articleTitle: Unlink
+second_title: Aspose.Words para .NET
+description: Field Unlink método. Realiza la desvinculación del campo en C#.
 type: docs
 weight: 130
 url: /es/net/aspose.words.fields/field/unlink/
@@ -18,13 +20,13 @@ public bool Unlink()
 
 `verdadero` si el campo ha sido desvinculado, en caso contrario`FALSO` .
 
-### Observaciones
+## Observaciones
 
 Reemplaza el campo con su resultado más reciente.
 
 Algunos campos, como los campos XE (entrada de índice) y los campos SEQ (secuencia), no se pueden desvincular.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo desvincular un campo.
 
@@ -36,7 +38,5 @@ doc.Range.Fields[1].Unlink();
 ### Ver también
 
 * class [Field](../)
-* espacio de nombres [Aspose.Words.Fields](../../field/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FontSettings.FallbackSettings
-second_title: Aspose.Words per .NET API Reference
-description: FontSettings proprietà. Impostazioni relative al meccanismo di fallback dei caratteri.
+linktitle: FallbackSettings
+articleTitle: FallbackSettings
+second_title: Aspose.Words per .NET
+description: FontSettings FallbackSettings proprietà. Impostazioni relative al meccanismo di fallback dei caratteri in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words.fonts/fontsettings/fallbacksettings/
@@ -14,7 +16,7 @@ Impostazioni relative al meccanismo di fallback dei caratteri.
 public FontFallbackSettings FallbackSettings { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come distribuire i caratteri di fallback negli intervalli di codici di caratteri Unicode.
 
@@ -74,7 +76,5 @@ doc.Save(ArtifactsDir + "FontSettings.FallbackSettingsCustom.pdf");
 
 * class [FontFallbackSettings](../../fontfallbacksettings/)
 * class [FontSettings](../)
-* spazio dei nomi [Aspose.Words.Fonts](../../fontsettings/)
+* spazio dei nomi [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * assemblea [Aspose.Words](../../../)
-
-

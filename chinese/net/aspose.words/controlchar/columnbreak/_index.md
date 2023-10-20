@@ -1,7 +1,9 @@
 ---
 title: ControlChar.ColumnBreak
-second_title: Aspose.Words for .NET API 参考
-description: ControlChar 场地. 列结束字符x000e.
+linktitle: ColumnBreak
+articleTitle: ColumnBreak
+second_title: 用于 .NET 的 Aspose.Words
+description: ControlChar ColumnBreak 场地. 列结束字符x000e 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words/controlchar/columnbreak/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/controlchar/columnbreak/
 public static readonly string ColumnBreak;
 ```
 
-### 例子
+## 例子
 
 演示如何向文档添加各种控制字符。
 
@@ -86,7 +88,5 @@ Assert.AreEqual(Convert.ToChar(ControlChar.ColumnBreak), ControlChar.ColumnBreak
 ### 也可以看看
 
 * class [ControlChar](../)
-* 命名空间 [Aspose.Words](../../controlchar/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

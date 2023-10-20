@@ -1,7 +1,9 @@
 ---
 title: ConditionalStyle.ParagraphFormat
-second_title: Aspose.Words for .NET API 参考
-description: ConditionalStyle 财产. 获取条件样式的段落格式
+linktitle: ParagraphFormat
+articleTitle: ParagraphFormat
+second_title: 用于 .NET 的 Aspose.Words
+description: ConditionalStyle ParagraphFormat 财产. 获取条件样式的段落格式 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words/conditionalstyle/paragraphformat/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/conditionalstyle/paragraphformat/
 public ParagraphFormat ParagraphFormat { get; }
 ```
 
-### 例子
+## 例子
 
 展示如何使用表格的某些区域样式。
 
@@ -85,7 +87,5 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 
 * class [ParagraphFormat](../../paragraphformat/)
 * class [ConditionalStyle](../)
-* 命名空间 [Aspose.Words](../../conditionalstyle/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

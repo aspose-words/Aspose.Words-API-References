@@ -1,7 +1,9 @@
 ---
 title: Style.Aliases
-second_title: Aspose.Words لمراجع .NET API
-description: Style ملكية. يحصل على كافة الأسماء المستعارة لهذا النمط. إذا لم يكن النمط يحتوي على أسماء مستعارة فسيتم إرجاع مجموعة فارغة من السلسلة.
+linktitle: Aliases
+articleTitle: Aliases
+second_title: Aspose.Words لـ .NET
+description: Style Aliases ملكية. يحصل على كافة الأسماء المستعارة لهذا النمط. إذا لم يكن النمط يحتوي على أسماء مستعارة فسيتم إرجاع مجموعة فارغة من السلسلة في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words/style/aliases/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/style/aliases/
 public string[] Aliases { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام الأسماء المستعارة للأسلوب.
 
@@ -45,7 +47,5 @@ Assert.AreEqual(doc.FirstSection.Body.Paragraphs[0].ParagraphFormat.Style,
 ### أنظر أيضا
 
 * class [Style](../)
-* مساحة الاسم [Aspose.Words](../../style/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

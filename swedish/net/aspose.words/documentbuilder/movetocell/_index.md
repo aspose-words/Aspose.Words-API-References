@@ -1,9 +1,11 @@
 ---
 title: DocumentBuilder.MoveToCell
-second_title: Aspose.Words för .NET API Referens
-description: DocumentBuilder metod. Flyttar markören till en tabellcell i det aktuella avsnittet.
+linktitle: MoveToCell
+articleTitle: MoveToCell
+second_title: Aspose.Words för .NET
+description: DocumentBuilder MoveToCell metod. Flyttar markören till en tabellcell i det aktuella avsnittet i C#.
 type: docs
-weight: 510
+weight: 500
 url: /sv/net/aspose.words/documentbuilder/movetocell/
 ---
 ## DocumentBuilder.MoveToCell method
@@ -21,13 +23,13 @@ public void MoveToCell(int tableIndex, int rowIndex, int columnIndex, int charac
 | columnIndex | Int32 | Indexet för kolumnen i tabellen. |
 | characterIndex | Int32 | Indexet för tecknet inuti cellen. Ett negativt värde låter dig ange en position från slutet av cellen. Använd -1 för att flytta till slutet av cellen. |
 
-### Anmärkningar
+## Anmärkningar
 
 Navigeringen utförs i den aktuella berättelsen i det aktuella avsnittet.
 
 För indexparametrarna, när index är större än eller lika med 0, anger det ett index from början med 0 som det första elementet. När index är mindre än 0, specificerade det ett index från slutet med -1 som det sista elementet.
 
-### Exempel
+## Exempel
 
 Visar hur man flyttar en dokumentbyggares markör till en cell i en tabell.
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.MoveToCell.docx");
 ### Se även
 
 * class [DocumentBuilder](../)
-* namnutrymme [Aspose.Words](../../documentbuilder/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

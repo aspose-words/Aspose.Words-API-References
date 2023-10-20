@@ -1,7 +1,9 @@
 ---
 title: FieldOptions.BibliographyStylesProvider
-second_title: Aspose.Words for .NET API 参考
-description: FieldOptions 财产. 获取或设置返回 的参考书目样式的提供程序FieldBibliography和FieldCitation字段.
+linktitle: BibliographyStylesProvider
+articleTitle: BibliographyStylesProvider
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldOptions BibliographyStylesProvider 财产. 获取或设置返回 的参考书目样式的提供程序FieldBibliography和FieldCitation字段 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.fields/fieldoptions/bibliographystylesprovider/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fieldoptions/bibliographystylesprovider/
 public IBibliographyStylesProvider BibliographyStylesProvider { get; set; }
 ```
 
-### 例子
+## 例子
 
 展示如何覆盖内置样式或提供自定义样式。
 
@@ -42,7 +44,5 @@ public class BibliographyStylesProvider : IBibliographyStylesProvider
 
 * interface [IBibliographyStylesProvider](../../ibibliographystylesprovider/)
 * class [FieldOptions](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldoptions/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

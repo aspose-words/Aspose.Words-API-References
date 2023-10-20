@@ -1,7 +1,9 @@
 ---
 title: HtmlFixedSaveOptions.ExportFormFields
-second_title: Aspose.Words لمراجع .NET API
-description: HtmlFixedSaveOptions ملكية. الحصول على أو تعيين الإشارة إلى ما إذا كان سيتم تصدير حقول النموذج كعناصر تفاعلية كعلامة إدخال بدلاً من تحويلها إلى نص أو رسومات.
+linktitle: ExportFormFields
+articleTitle: ExportFormFields
+second_title: Aspose.Words لـ .NET
+description: HtmlFixedSaveOptions ExportFormFields ملكية. الحصول على أو تعيين الإشارة إلى ما إذا كان سيتم تصدير حقول النموذج كعناصر تفاعلية كعلامة إدخال بدلاً من تحويلها إلى نص أو رسومات في C#.
 type: docs
 weight: 80
 url: /ar/net/aspose.words.saving/htmlfixedsaveoptions/exportformfields/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.saving/htmlfixedsaveoptions/exportformfields/
 public bool ExportFormFields { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تصدير حقول النموذج إلى Html.
 
@@ -56,7 +58,5 @@ else
 ### أنظر أيضا
 
 * class [HtmlFixedSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../htmlfixedsaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

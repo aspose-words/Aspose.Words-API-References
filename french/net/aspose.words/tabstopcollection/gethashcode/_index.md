@@ -1,7 +1,9 @@
 ---
 title: TabStopCollection.GetHashCode
-second_title: Référence de l'API Aspose.Words pour .NET
-description: TabStopCollection méthode. Sert de fonction de hachage pour ce type.
+linktitle: GetHashCode
+articleTitle: GetHashCode
+second_title: Aspose.Words pour .NET
+description: TabStopCollection GetHashCode méthode. Sert de fonction de hachage pour ce type en C#.
 type: docs
 weight: 80
 url: /fr/net/aspose.words/tabstopcollection/gethashcode/
@@ -14,7 +16,7 @@ Sert de fonction de hachage pour ce type.
 public override int GetHashCode()
 ```
 
-### Exemples
+## Exemples
 
 Montre comment utiliser la collection de taquets de tabulation d’un document.
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "TabStopCollection.TabStopCollection.docx");
 ### Voir également
 
 * class [TabStopCollection](../)
-* espace de noms [Aspose.Words](../../tabstopcollection/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

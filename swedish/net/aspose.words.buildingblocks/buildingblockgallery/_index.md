@@ -1,7 +1,9 @@
 ---
-title: Enum BuildingBlockGallery
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.BuildingBlocks.BuildingBlockGallery uppräkning. Anger det fördefinierade galleriet som ett byggblock klassificeras i.
+title: BuildingBlockGallery Enum
+linktitle: BuildingBlockGallery
+articleTitle: BuildingBlockGallery
+second_title: Aspose.Words för .NET
+description: Aspose.Words.BuildingBlocks.BuildingBlockGallery uppräkning. Anger det fördefinierade galleriet som ett byggblock klassificeras i i C#.
 type: docs
 weight: 160
 url: /sv/net/aspose.words.buildingblocks/buildingblockgallery/
@@ -58,11 +60,11 @@ public enum BuildingBlockGallery
 | Watermarks | `37` |  |
 | Default | `0` | Samma somAll . |
 
-### Anmärkningar
+## Anmärkningar
 
-Motsvarar **ST_DocPartGallery** skriv in OOXML.
+Motsvarar**ST_DocPartGallery** skriv in OOXML.
 
-### Exempel
+## Exempel
 
 Visar sätt att komma åt byggstenar i ett ordlistadokument.
 
@@ -167,5 +169,3 @@ public class GlossaryDocVisitor : DocumentVisitor
 
 * namnutrymme [Aspose.Words.BuildingBlocks](../../aspose.words.buildingblocks/)
 * hopsättning [Aspose.Words](../../)
-
-

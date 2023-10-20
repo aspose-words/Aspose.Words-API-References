@@ -1,7 +1,9 @@
 ---
 title: ConditionalStyleCollection.TopRightCell
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ConditionalStyleCollection propriété. Obtient le style de cellule en haut à droite.
+linktitle: TopRightCell
+articleTitle: TopRightCell
+second_title: Aspose.Words pour .NET
+description: ConditionalStyleCollection TopRightCell propriété. Obtient le style de cellule en haut à droite en C#.
 type: docs
 weight: 140
 url: /fr/net/aspose.words/conditionalstylecollection/toprightcell/
@@ -14,7 +16,7 @@ Obtient le style de cellule en haut à droite.
 public ConditionalStyle TopRightCell { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment travailler avec certains styles de zones d'un tableau.
 
@@ -85,7 +87,5 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 
 * class [ConditionalStyle](../../conditionalstyle/)
 * class [ConditionalStyleCollection](../)
-* espace de noms [Aspose.Words](../../conditionalstylecollection/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

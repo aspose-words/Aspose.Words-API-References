@@ -1,7 +1,9 @@
 ---
-title: Enum SectionLayoutMode
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.SectionLayoutMode перечисление. Указывает режим макета для раздела позволяющий определить поведение сетки документа.
+title: SectionLayoutMode Enum
+linktitle: SectionLayoutMode
+articleTitle: SectionLayoutMode
+second_title: Aspose.Words для .NET
+description: Aspose.Words.SectionLayoutMode перечисление. Указывает режим макета для раздела позволяющий определить поведение сетки документа на С#.
 type: docs
 weight: 5750
 url: /ru/net/aspose.words/sectionlayoutmode/
@@ -23,7 +25,7 @@ public enum SectionLayoutMode
 | LineGrid | `2` | Указывает, что в соответствующем разделе к каждой строке внутри it должен быть добавлен дополнительный шаг строки, чтобы поддерживать указанное количество строк на странице. |
 | SnapToChars | `3` | Указывает, что в соответствующем разделе должен быть добавлен как дополнительный шаг строки, так и шаг символов к каждой строке и символу внутри нее, чтобы поддерживать определенное количество строк на странице и символов в строке. Символы будут автоматически выравниваться по линиям сетки при вводе. |
 
-### Примеры
+## Примеры
 
 Показывает, как указать количество символов, которое может иметь каждая строка.
 
@@ -68,5 +70,3 @@ doc.Save(ArtifactsDir + "PageSetup.LinesPerPage.docx");
 
 * пространство имен [Aspose.Words](../../aspose.words/)
 * сборка [Aspose.Words](../../)
-
-

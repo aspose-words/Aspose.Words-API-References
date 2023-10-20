@@ -1,7 +1,9 @@
 ---
 title: Font.ItalicBi
-second_title: Referencia de API de Aspose.Words para .NET
-description: Font propiedad. Verdadero si el texto de derecha a izquierda tiene el formato de cursiva.
+linktitle: ItalicBi
+articleTitle: ItalicBi
+second_title: Aspose.Words para .NET
+description: Font ItalicBi propiedad. Verdadero si el texto de derecha a izquierda tiene el formato de cursiva en C#.
 type: docs
 weight: 170
 url: /es/net/aspose.words/font/italicbi/
@@ -14,7 +16,7 @@ Verdadero si el texto de derecha a izquierda tiene el formato de cursiva.
 public bool ItalicBi { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo definir conjuntos separados de configuraciones de fuente para texto de derecha a izquierda y de derecha a izquierda.
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "Font.Bidi.docx");
 ### Ver también
 
 * class [Font](../)
-* espacio de nombres [Aspose.Words](../../font/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

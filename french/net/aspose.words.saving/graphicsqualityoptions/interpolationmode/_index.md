@@ -1,7 +1,9 @@
 ---
 title: GraphicsQualityOptions.InterpolationMode
-second_title: Référence de l'API Aspose.Words pour .NET
-description: GraphicsQualityOptions propriété. Obtient ou définit le mode dinterpolation associé à ce Graphics.
+linktitle: InterpolationMode
+articleTitle: InterpolationMode
+second_title: Aspose.Words pour .NET
+description: GraphicsQualityOptions InterpolationMode propriété. Obtient ou définit le mode dinterpolation associé à ce Graphics en C#.
 type: docs
 weight: 40
 url: /fr/net/aspose.words.saving/graphicsqualityoptions/interpolationmode/
@@ -14,7 +16,7 @@ Obtient ou définit le mode d'interpolation associé à ce Graphics.
 public InterpolationMode? InterpolationMode { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment définir les options de qualité de rendu lors de la conversion de documents aux formats d'image.
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "ImageSaveOptions.GraphicsQuality.jpg", saveOptions);
 ### Voir également
 
 * class [GraphicsQualityOptions](../)
-* espace de noms [Aspose.Words.Saving](../../graphicsqualityoptions/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldSymbol.DontAffectsLineSpacing
-second_title: Aspose.Words لمراجع .NET API
-description: FieldSymbol ملكية. الحصول على أو تعيين ما إذا كان الحرف الذي يتم استرداده بواسطة الحقل يؤثر على تباعد الأسطر في الفقرة.
+linktitle: DontAffectsLineSpacing
+articleTitle: DontAffectsLineSpacing
+second_title: Aspose.Words لـ .NET
+description: FieldSymbol DontAffectsLineSpacing ملكية. الحصول على أو تعيين ما إذا كان الحرف الذي يتم استرداده بواسطة الحقل يؤثر على تباعد الأسطر في الفقرة في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.fields/fieldsymbol/dontaffectslinespacing/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldsymbol/dontaffectslinespacing/
 public bool DontAffectsLineSpacing { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام حقل الرمز.
 
@@ -70,7 +72,5 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 ### أنظر أيضا
 
 * class [FieldSymbol](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldsymbol/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Paragraph.IsEndOfDocument
-second_title: Справочник по API Aspose.Words для .NET
-description: Paragraph свойство. True если этот абзац является последним абзацем в последнем разделе документа.
+linktitle: IsEndOfDocument
+articleTitle: IsEndOfDocument
+second_title: Aspose.Words для .NET
+description: Paragraph IsEndOfDocument свойство. True если этот абзац является последним абзацем в последнем разделе документа на С#.
 type: docs
 weight: 60
 url: /ru/net/aspose.words/paragraph/isendofdocument/
@@ -14,7 +16,7 @@ True, если этот абзац является последним абза�
 public bool IsEndOfDocument { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как вставить абзац в документ.
 
@@ -46,7 +48,5 @@ Assert.True(builder.CurrentParagraph.IsEndOfDocument);
 ### Смотрите также
 
 * class [Paragraph](../)
-* пространство имен [Aspose.Words](../../paragraph/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

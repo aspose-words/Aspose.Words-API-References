@@ -1,7 +1,9 @@
 ---
-title: Class MailMerge
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.MailMerging.MailMerge clase. Representa la funcionalidad de combinación de correspondencia.
+title: MailMerge Class
+linktitle: MailMerge
+articleTitle: MailMerge
+second_title: Aspose.Words para .NET
+description: Aspose.Words.MailMerging.MailMerge clase. Representa la funcionalidad de combinación de correspondencia en C#.
 type: docs
 weight: 3840
 url: /es/net/aspose.words.mailmerging/mailmerge/
@@ -35,48 +37,48 @@ public class MailMerge
 | [TrimWhitespaces](../../aspose.words.mailmerging/mailmerge/trimwhitespaces/) { get; set; } | Obtiene o establece un valor que indica si los espacios en blanco iniciales y finales se recortan de los valores de combinación de correspondencia. |
 | [UnconditionalMergeFieldsAndRegions](../../aspose.words.mailmerging/mailmerge/unconditionalmergefieldsandregions/) { get; set; } | Obtiene o establece un valor que indica si los campos de combinación y las regiones de combinación se combinan independientemente de la condición del campo IF principal. |
 | [UseNonMergeFields](../../aspose.words.mailmerging/mailmerge/usenonmergefields/) { get; set; } | cuando`verdadero` , especifica que además de los campos MERGEFIELD, la combinación de correspondencia se realiza en otros tipos de campos y también en las etiquetas "{{fieldName}}". |
-| [UseWholeParagraphAsRegion](../../aspose.words.mailmerging/mailmerge/usewholeparagraphasregion/) { get; set; } | Obtiene o establece un valor que indica si el párrafo completo con **Inicio de tabla** o **Fin de la tabla** field o rango particular entre **Inicio de tabla** y **Fin de la tabla** Los campos deben incluirse en la región de combinación de correspondencia. |
+| [UseWholeParagraphAsRegion](../../aspose.words.mailmerging/mailmerge/usewholeparagraphasregion/) { get; set; } | Obtiene o establece un valor que indica si el párrafo completo con**Inicio de tabla** o**Fin de la tabla** field o rango particular entre**Inicio de tabla** y**Fin de la tabla** Los campos deben incluirse en la región de combinación de correspondencia. |
 
 ## Métodos
 
 | Nombre | Descripción |
 | --- | --- |
 | [DeleteFields](../../aspose.words.mailmerging/mailmerge/deletefields/)() | Elimina los campos relacionados con la combinación de correspondencia del documento. |
-| [Execute](../../aspose.words.mailmerging/mailmerge/execute/#execute_1)(DataRow) | Realiza combinación de correspondencia desde un **fila de datos** en el documento. |
-| [Execute](../../aspose.words.mailmerging/mailmerge/execute/#execute_2)(DataTable) | Realiza combinación de correspondencia desde una tabla de datos en el documento. |
-| [Execute](../../aspose.words.mailmerging/mailmerge/execute/#execute_3)(DataView) | Realiza combinación de correspondencia desde un **Vista de datos** en el documento. |
-| [Execute](../../aspose.words.mailmerging/mailmerge/execute/#execute_4)(IDataReader) | Realiza combinación de correspondencia desde **Lector de datos** en el documento. |
-| [Execute](../../aspose.words.mailmerging/mailmerge/execute/#execute)(IMailMergeDataSource) | Realiza una combinación de correspondencia desde una fuente de datos personalizada. |
-| [Execute](../../aspose.words.mailmerging/mailmerge/execute/#execute_5)(string[], object[]) | Realiza una operación de combinación de correspondencia para un solo registro. |
-| [ExecuteADO](../../aspose.words.mailmerging/mailmerge/executeado/)(object) | Realiza una combinación de correspondencia desde un objeto Recordset de ADO en el documento. |
-| [ExecuteWithRegions](../../aspose.words.mailmerging/mailmerge/executewithregions/#executewithregions_2)(DataSet) | Realiza combinación de correspondencia desde un **Conjunto de datos** en un documento con regiones de combinación de correspondencia. |
-| [ExecuteWithRegions](../../aspose.words.mailmerging/mailmerge/executewithregions/#executewithregions_3)(DataTable) | Realiza combinación de correspondencia desde un **Tabla de datos** en el documento con regiones de combinación de correspondencia. |
-| [ExecuteWithRegions](../../aspose.words.mailmerging/mailmerge/executewithregions/#executewithregions_4)(DataView) | Realiza combinación de correspondencia desde un **Vista de datos** en el documento con regiones de combinación de correspondencia. |
-| [ExecuteWithRegions](../../aspose.words.mailmerging/mailmerge/executewithregions/#executewithregions)(IMailMergeDataSource) | Realiza una combinación de correspondencia desde una fuente de datos personalizada con regiones de combinación de correspondencia. |
-| [ExecuteWithRegions](../../aspose.words.mailmerging/mailmerge/executewithregions/#executewithregions_1)(IMailMergeDataSourceRoot) | Realiza una combinación de correspondencia desde una fuente de datos personalizada con regiones de combinación de correspondencia. |
-| [ExecuteWithRegions](../../aspose.words.mailmerging/mailmerge/executewithregions/#executewithregions_5)(IDataReader, string) | Realiza combinación de correspondencia desde **Lector de datos** en el documento con regiones de combinación de correspondencia. |
-| [ExecuteWithRegionsADO](../../aspose.words.mailmerging/mailmerge/executewithregionsado/)(object, string) | Realiza una combinación de correspondencia desde un objeto Recordset de ADO en el documento con regiones de combinación de correspondencia. |
+| [Execute](../../aspose.words.mailmerging/mailmerge/execute/#execute_1)(*DataRow*) | Realiza combinación de correspondencia desde un**fila de datos** en el documento. |
+| [Execute](../../aspose.words.mailmerging/mailmerge/execute/#execute_2)(*DataTable*) | Realiza combinación de correspondencia desde una tabla de datos en el documento. |
+| [Execute](../../aspose.words.mailmerging/mailmerge/execute/#execute_3)(*DataView*) | Realiza combinación de correspondencia desde un**Vista de datos** en el documento. |
+| [Execute](../../aspose.words.mailmerging/mailmerge/execute/#execute_4)(*IDataReader*) | Realiza combinación de correspondencia desde**Lector de datos** en el documento. |
+| [Execute](../../aspose.words.mailmerging/mailmerge/execute/#execute)(*[IMailMergeDataSource](../imailmergedatasource/)*) | Realiza una combinación de correspondencia desde una fuente de datos personalizada. |
+| [Execute](../../aspose.words.mailmerging/mailmerge/execute/#execute_5)(*string[], object[]*) | Realiza una operación de combinación de correspondencia para un solo registro. |
+| [ExecuteADO](../../aspose.words.mailmerging/mailmerge/executeado/)(*object*) | Realiza una combinación de correspondencia desde un objeto Recordset de ADO en el documento. |
+| [ExecuteWithRegions](../../aspose.words.mailmerging/mailmerge/executewithregions/#executewithregions_2)(*DataSet*) | Realiza combinación de correspondencia desde un**Conjunto de datos** en un documento con regiones de combinación de correspondencia. |
+| [ExecuteWithRegions](../../aspose.words.mailmerging/mailmerge/executewithregions/#executewithregions_3)(*DataTable*) | Realiza combinación de correspondencia desde un**Tabla de datos** en el documento con regiones de combinación de correspondencia. |
+| [ExecuteWithRegions](../../aspose.words.mailmerging/mailmerge/executewithregions/#executewithregions_4)(*DataView*) | Realiza combinación de correspondencia desde un**Vista de datos** en el documento con regiones de combinación de correspondencia. |
+| [ExecuteWithRegions](../../aspose.words.mailmerging/mailmerge/executewithregions/#executewithregions)(*[IMailMergeDataSource](../imailmergedatasource/)*) | Realiza una combinación de correspondencia desde una fuente de datos personalizada con regiones de combinación de correspondencia. |
+| [ExecuteWithRegions](../../aspose.words.mailmerging/mailmerge/executewithregions/#executewithregions_1)(*[IMailMergeDataSourceRoot](../imailmergedatasourceroot/)*) | Realiza una combinación de correspondencia desde una fuente de datos personalizada con regiones de combinación de correspondencia. |
+| [ExecuteWithRegions](../../aspose.words.mailmerging/mailmerge/executewithregions/#executewithregions_5)(*IDataReader, string*) | Realiza combinación de correspondencia desde**Lector de datos** en el documento con regiones de combinación de correspondencia. |
+| [ExecuteWithRegionsADO](../../aspose.words.mailmerging/mailmerge/executewithregionsado/)(*object, string*) | Realiza una combinación de correspondencia desde un objeto Recordset de ADO en el documento con regiones de combinación de correspondencia. |
 | [GetFieldNames](../../aspose.words.mailmerging/mailmerge/getfieldnames/)() | Devuelve una colección de nombres de campos de combinación de correspondencia disponibles en el documento. |
-| [GetFieldNamesForRegion](../../aspose.words.mailmerging/mailmerge/getfieldnamesforregion/#getfieldnamesforregion)(string) | Devuelve una colección de nombres de campos de combinación de correspondencia disponibles en la región. |
-| [GetFieldNamesForRegion](../../aspose.words.mailmerging/mailmerge/getfieldnamesforregion/#getfieldnamesforregion_1)(string, int) | Devuelve una colección de nombres de campos de combinación de correspondencia disponibles en la región. |
-| [GetRegionsByName](../../aspose.words.mailmerging/mailmerge/getregionsbyname/)(string) | Devuelve una colección de regiones de combinación de correspondencia con el nombre especificado. |
+| [GetFieldNamesForRegion](../../aspose.words.mailmerging/mailmerge/getfieldnamesforregion/#getfieldnamesforregion)(*string*) | Devuelve una colección de nombres de campos de combinación de correspondencia disponibles en la región. |
+| [GetFieldNamesForRegion](../../aspose.words.mailmerging/mailmerge/getfieldnamesforregion/#getfieldnamesforregion_1)(*string, int*) | Devuelve una colección de nombres de campos de combinación de correspondencia disponibles en la región. |
+| [GetRegionsByName](../../aspose.words.mailmerging/mailmerge/getregionsbyname/)(*string*) | Devuelve una colección de regiones de combinación de correspondencia con el nombre especificado. |
 | [GetRegionsHierarchy](../../aspose.words.mailmerging/mailmerge/getregionshierarchy/)() | Devuelve una jerarquía completa de regiones (con campos) disponibles en el documento. |
 
-### Observaciones
+## Observaciones
 
 Para que la operación de combinación de correspondencia funcione, el documento debe contener Word MERGEFIELD y opcionalmente los campos NEXT. Durante la operación de combinación de correspondencia, los campos de combinación en el documento se reemplazan con valores de su fuente de datos.
 
 Hay dos formas distintas de utilizar la combinación de correspondencia: con regiones de combinación de correspondencia y sin ellas.
 
-La combinación de correspondencia más sencilla es sin regiones y es muy similar a cómo funciona mail merge en Word. UsarEjecutar métodos para fusionar información de alguna fuente de datos como **Tabla de datos** , **Conjunto de datos** , **Vista de datos** , **Lector de datos** o una serie de objetos en su documento. El `MailMerge` El objeto procesa todos los registros de la fuente de datos y copia y agrega el contenido de todo el documento para cada registro.
+La combinación de correspondencia más sencilla es sin regiones y es muy similar a cómo funciona mail merge en Word. UsarEjecutar métodos para fusionar información de alguna fuente de datos como**Tabla de datos** ,**Conjunto de datos** ,**Vista de datos** ,**Lector de datos** o una serie de objetos en su documento. El `MailMerge` El objeto procesa todos los registros de la fuente de datos y copia y agrega el contenido de todo el documento para cada registro.
 
 Tenga en cuenta que cuando`MailMerge` El objeto encuentra un campo SIGUIENTE, selecciona el siguiente registro en la fuente de datos y continúa fusionando sin copiar ningún contenido.
 
-Usar[`ExecuteWithRegions`](./executewithregions/) y otras sobrecargas para fusionar información en un documento con regiones de combinación de correspondencia definidas. Puedes usar  **Conjunto de datos** , **Tabla de datos** , **Vista de datos** o **Lector de datos** como fuentes de datos para esta operación.
+Usar[`ExecuteWithRegions`](./executewithregions/) y otras sobrecargas para fusionar información en un documento con regiones de combinación de correspondencia definidas. Puedes usar **Conjunto de datos** ,**Tabla de datos** ,**Vista de datos** o**Lector de datos** como fuentes de datos para esta operación.
 
 Debe utilizar regiones de combinación de correspondencia si desea hacer crecer dinámicamente partes dentro del documento . Sin regiones de combinación de correspondencia, se repetirá todo el documento para cada registro de la fuente de datos.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo ejecutar una combinación de correspondencia con datos de un DataTable.
 
@@ -125,5 +127,3 @@ private static Document CreateSourceDocExecuteDataTable()
 
 * espacio de nombres [Aspose.Words.MailMerging](../../aspose.words.mailmerging/)
 * asamblea [Aspose.Words](../../)
-
-

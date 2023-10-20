@@ -1,7 +1,9 @@
 ---
 title: LayoutCollector.GetEntity
-second_title: Aspose.Words für .NET-API-Referenz
-description: LayoutCollector methode. Gibt eine undurchsichtige Position des zurückLayoutEnumerator was dem angegebenen Knoten entspricht. Sie können den zurückgegebenen Wert als Argument für verwendenCurrent vorausgesetzt dass das Dokument das aufgezählt wird und das Dokument des Knotens gleich sind.
+linktitle: GetEntity
+articleTitle: GetEntity
+second_title: Aspose.Words für .NET
+description: LayoutCollector GetEntity methode. Gibt eine undurchsichtige Position des zurückLayoutEnumerator was dem angegebenen Knoten entspricht. Sie können den zurückgegebenen Wert als Argument für verwendenCurrent vorausgesetzt dass das Dokument das aufgezählt wird und das Dokument des Knotens gleich sind in C#.
 type: docs
 weight: 50
 url: /de/net/aspose.words.layout/layoutcollector/getentity/
@@ -14,7 +16,7 @@ Gibt eine undurchsichtige Position des zurück[`LayoutEnumerator`](../../layoute
 public object GetEntity(Node node)
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Diese Methode funktioniert nur für[`Paragraph`](../../../aspose.words/paragraph/) Knoten sowie unteilbare Inline-Knoten, zB[`BookmarkStart`](../../../aspose.words/bookmarkstart/) oder[`Shape`](../../../aspose.words.drawing/shape/) . Es funktioniert nicht[`Run`](../../../aspose.words/run/) ,[`Cell`](../../../aspose.words.tables/cell/)[`Row`](../../../aspose.words.tables/row/) oder[`Table`](../../../aspose.words.tables/table/) Knoten und Knoten innerhalb der Kopf-/Fußzeile.
 
@@ -24,7 +26,7 @@ Wenn Sie zu a navigieren müssen[`Run`](../../../aspose.words/run/) Wenn Sie ein
 
 Wenn Sie zu a navigieren müssen[`Cell`](../../../aspose.words.tables/cell/) Knoten, dann können Sie zu einem wechseln[`Paragraph`](../../../aspose.words/paragraph/) -Knoten in dieser Zelle und steigen Sie dann zu einer übergeordneten Entität auf. Der gleiche Ansatz kann verwendet werden für[`Row`](../../../aspose.words.tables/row/) und[`Table`](../../../aspose.words.tables/table/) Knoten.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Seitenbereiche angezeigt werden, die ein Knoten umfasst.
 
@@ -83,7 +85,5 @@ Assert.AreEqual("¶", layoutEnumerator.Text);
 
 * class [Node](../../../aspose.words/node/)
 * class [LayoutCollector](../)
-* namensraum [Aspose.Words.Layout](../../layoutcollector/)
+* namensraum [Aspose.Words.Layout](../../../aspose.words.layout/)
 * Montage [Aspose.Words](../../../)
-
-

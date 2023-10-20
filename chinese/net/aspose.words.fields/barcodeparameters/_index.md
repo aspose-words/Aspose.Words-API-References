@@ -1,7 +1,9 @@
 ---
-title: Class BarcodeParameters
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Fields.BarcodeParameters 班级. 用于将条形码参数传递到 BarcodeGenerator 的容器类
+title: BarcodeParameters Class
+linktitle: BarcodeParameters
+articleTitle: BarcodeParameters
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Fields.BarcodeParameters 班级. 用于将条形码参数传递到 BarcodeGenerator 的容器类 在 C#.
 type: docs
 weight: 1470
 url: /zh/net/aspose.words.fields/barcodeparameters/
@@ -44,11 +46,11 @@ public class BarcodeParameters
 | [SymbolHeight](../../aspose.words.fields/barcodeparameters/symbolheight/) { get; set; } | 条形码图像高度（以缇为单位 - 1/1440 英寸） |
 | [SymbolRotation](../../aspose.words.fields/barcodeparameters/symbolrotation/) { get; set; } | 条形码符号的旋转。有效值为 [0, 3]. |
 
-### 评论
+## 评论
 
 参数集根据 DISPLAYBARCODE 字段选项。 请参阅以下位置的确切列表：[https://msdn.microsoft.com/en-us/library/hh745901(v=office.12).aspx](https://msdn.microsoft.com/en-us/library/hh745901(v=office.12).aspx)
 
-### 例子
+## 例子
 
 展示如何使用条形码生成器。
 
@@ -125,5 +127,3 @@ doc.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.docx");
 
 * 命名空间 [Aspose.Words.Fields](../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../)
-
-

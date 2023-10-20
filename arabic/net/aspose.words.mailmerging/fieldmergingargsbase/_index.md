@@ -1,7 +1,9 @@
 ---
-title: Class FieldMergingArgsBase
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.MailMerging.FieldMergingArgsBase فصل. الفئة الأساسية لـFieldMergingArgs وImageFieldMergingArgs .
+title: FieldMergingArgsBase Class
+linktitle: FieldMergingArgsBase
+articleTitle: FieldMergingArgsBase
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.MailMerging.FieldMergingArgsBase فصل. الفئة الأساسية لـFieldMergingArgs وImageFieldMergingArgs  في C#.
 type: docs
 weight: 3780
 url: /ar/net/aspose.words.mailmerging/fieldmergingargsbase/
@@ -28,7 +30,7 @@ public abstract class FieldMergingArgsBase
 | [RecordIndex](../../aspose.words.mailmerging/fieldmergingargsbase/recordindex/) { get; } | الحصول على الفهرس الصفري للسجل الذي يتم دمجه. |
 | [TableName](../../aspose.words.mailmerging/fieldmergingargsbase/tablename/) { get; } | يحصل على اسم جدول البيانات لعملية الدمج الحالية أو سلسلة فارغة إذا كان الاسم غير متاح. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تنفيذ عملية دمج البريد باستخدام رد اتصال مخصص يتعامل مع بيانات الدمج في شكل مستندات HTML.
 
@@ -97,5 +99,3 @@ private class HandleMergeFieldInsertHtml : IFieldMergingCallback
 
 * مساحة الاسم [Aspose.Words.MailMerging](../../aspose.words.mailmerging/)
 * المجسم [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: TableCollection.Item
-second_title: Aspose.Words لمراجع .NET API
-description: TableCollection ملكية. يسترد أTable في الفهرس المحدد.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words لـ .NET
+description: TableCollection Item ملكية. يسترد أTable في الفهرس المحدد في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.tables/tablecollection/item/
@@ -18,7 +20,7 @@ public Table this[int index] { get; }
 | --- | --- |
 | index | فهرس في المجموعة. |
 
-### ملاحظات
+## ملاحظات
 
 المؤشر قائم على الصفر.
 
@@ -28,7 +30,7 @@ public Table this[int index] { get; }
 
 إذا كان الفهرس سالبًا وقيمته المطلقة أكبر من عدد العناصر الموجودة في القائمة، فسيُرجع هذا مرجعًا فارغًا.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التكرار عبر كافة الجداول في المستند وطباعة محتويات كل خلية.
 
@@ -75,7 +77,5 @@ for (int i = 0; i < tables.Count; i++)
 
 * class [Table](../../table/)
 * class [TableCollection](../)
-* مساحة الاسم [Aspose.Words.Tables](../../tablecollection/)
+* مساحة الاسم [Aspose.Words.Tables](../../../aspose.words.tables/)
 * المجسم [Aspose.Words](../../../)
-
-

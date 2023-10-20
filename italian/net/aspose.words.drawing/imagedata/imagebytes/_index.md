@@ -1,7 +1,9 @@
 ---
 title: ImageData.ImageBytes
-second_title: Aspose.Words per .NET API Reference
-description: ImageData proprietà. Ottiene o imposta i byte grezzi dellimmagine archiviata nella forma.
+linktitle: ImageBytes
+articleTitle: ImageBytes
+second_title: Aspose.Words per .NET
+description: ImageData ImageBytes proprietà. Ottiene o imposta i byte grezzi dellimmagine archiviata nella forma in C#.
 type: docs
 weight: 120
 url: /it/net/aspose.words.drawing/imagedata/imagebytes/
@@ -14,13 +16,13 @@ Ottiene o imposta i byte grezzi dell'immagine archiviata nella forma.
 public byte[] ImageBytes { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Impostando il valore su`nullo` oppure un array vuoto rimuoverà l'immagine dalla forma.
 
 ritorna`nullo` se l'immagine non è memorizzata nel documento (ad esempio, in questo caso l'immagine è probabilmente collegata).
 
-### Esempi
+## Esempi
 
 Mostra come creare un file immagine dai dati immagine grezzi di una forma.
 
@@ -47,7 +49,5 @@ using (Stream imgStream = imgShape.ImageData.ToStream())
 ### Guarda anche
 
 * class [ImageData](../)
-* spazio dei nomi [Aspose.Words.Drawing](../../imagedata/)
+* spazio dei nomi [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assemblea [Aspose.Words](../../../)
-
-

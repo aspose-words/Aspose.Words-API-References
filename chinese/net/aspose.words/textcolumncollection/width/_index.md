@@ -1,7 +1,9 @@
 ---
 title: TextColumnCollection.Width
-second_title: Aspose.Words for .NET API 参考
-description: TextColumnCollection 财产. 当列均匀分布时获取列的宽度
+linktitle: Width
+articleTitle: Width
+second_title: 用于 .NET 的 Aspose.Words
+description: TextColumnCollection Width 财产. 当列均匀分布时获取列的宽度 在 C#.
 type: docs
 weight: 60
 url: /zh/net/aspose.words/textcolumncollection/width/
@@ -14,14 +16,12 @@ url: /zh/net/aspose.words/textcolumncollection/width/
 public double Width { get; }
 ```
 
-### 评论
+## 评论
 
 仅当[`EvenlySpaced`](../evenlyspaced/)被设定为`真的`。
 
 ### 也可以看看
 
 * class [TextColumnCollection](../)
-* 命名空间 [Aspose.Words](../../textcolumncollection/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

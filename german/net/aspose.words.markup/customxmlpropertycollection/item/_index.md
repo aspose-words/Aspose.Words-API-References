@@ -1,7 +1,9 @@
 ---
 title: CustomXmlPropertyCollection.Item
-second_title: Aspose.Words für .NET-API-Referenz
-description: CustomXmlPropertyCollection eigendom. Ruft eine Eigenschaft mit dem angegebenen Namen ab.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words für .NET
+description: CustomXmlPropertyCollection Item eigendom. Ruft eine Eigenschaft mit dem angegebenen Namen ab in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.markup/customxmlpropertycollection/item/
@@ -18,7 +20,7 @@ public CustomXmlProperty this[string name] { get; }
 | --- | --- |
 | name | Groß- und Kleinschreibung beachtender Name der zu suchenden Eigenschaft. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie mit Smart-Tag-Eigenschaften arbeiten, um detaillierte Informationen zu Smart-Tags zu erhalten.
 
@@ -76,7 +78,7 @@ Assert.AreEqual(0, properties.Count);
 
 * class [CustomXmlProperty](../../customxmlproperty/)
 * class [CustomXmlPropertyCollection](../)
-* namensraum [Aspose.Words.Markup](../../customxmlpropertycollection/)
+* namensraum [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Montage [Aspose.Words](../../../)
 
 ---
@@ -93,7 +95,7 @@ public CustomXmlProperty this[int index] { get; }
 | --- | --- |
 | index | Nullbasierter Index der Eigenschaft. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie mit Smart-Tag-Eigenschaften arbeiten, um detaillierte Informationen zu Smart-Tags zu erhalten.
 
@@ -151,7 +153,5 @@ Assert.AreEqual(0, properties.Count);
 
 * class [CustomXmlProperty](../../customxmlproperty/)
 * class [CustomXmlPropertyCollection](../)
-* namensraum [Aspose.Words.Markup](../../customxmlpropertycollection/)
+* namensraum [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Montage [Aspose.Words](../../../)
-
-

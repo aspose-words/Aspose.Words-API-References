@@ -1,7 +1,9 @@
 ---
 title: TableStyle.LeftIndent
-second_title: Referencia de API de Aspose.Words para .NET
-description: TableStyle propiedad. Obtiene o establece el valor que representa la sangría izquierda de una tabla.
+linktitle: LeftIndent
+articleTitle: LeftIndent
+second_title: Aspose.Words para .NET
+description: TableStyle LeftIndent propiedad. Obtiene o establece el valor que representa la sangría izquierda de una tabla en C#.
 type: docs
 weight: 90
 url: /es/net/aspose.words/tablestyle/leftindent/
@@ -14,7 +16,7 @@ Obtiene o establece el valor que representa la sangría izquierda de una tabla.
 public double LeftIndent { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo establecer la posición de una mesa.
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "Table.SetTableAlignment.docx");
 ### Ver también
 
 * class [TableStyle](../)
-* espacio de nombres [Aspose.Words](../../tablestyle/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

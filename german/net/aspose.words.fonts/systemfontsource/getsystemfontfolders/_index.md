@@ -1,7 +1,9 @@
 ---
 title: SystemFontSource.GetSystemFontFolders
-second_title: Aspose.Words für .NET-API-Referenz
-description: SystemFontSource methode. Gibt Systemschriftartenordner oder ein leeres Array zurück wenn auf Ordner nicht zugegriffen werden kann.
+linktitle: GetSystemFontFolders
+articleTitle: GetSystemFontFolders
+second_title: Aspose.Words für .NET
+description: SystemFontSource GetSystemFontFolders methode. Gibt Systemschriftartenordner oder ein leeres Array zurück wenn auf Ordner nicht zugegriffen werden kann in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.fonts/systemfontsource/getsystemfontfolders/
@@ -14,11 +16,11 @@ Gibt Systemschriftartenordner oder ein leeres Array zurück, wenn auf Ordner nic
 public static string[] GetSystemFontFolders()
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Auf einigen Plattformen konnte Aspose.Words Systemschriftarten nicht nur in Ordnern, sondern auch in anderen Quellen durchsuchen. Beispielsweise suchen Aspose.Words auf der Windows-Plattform Schriftarten auch in der Registrierung.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie auf die Systemschriftquelle eines Dokuments zugreifen und Schriftartersatz festlegen.
 
@@ -74,7 +76,5 @@ Assert.AreEqual(1,
 ### Siehe auch
 
 * class [SystemFontSource](../)
-* namensraum [Aspose.Words.Fonts](../../systemfontsource/)
+* namensraum [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * Montage [Aspose.Words](../../../)
-
-

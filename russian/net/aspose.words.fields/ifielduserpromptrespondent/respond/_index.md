@@ -1,7 +1,9 @@
 ---
 title: IFieldUserPromptRespondent.Respond
-second_title: Справочник по API Aspose.Words для .NET
-description: IFieldUserPromptRespondent метод. При реализации возвращает ответ пользователя на запрос. Ваша реализация должна возвращатьнулевой чтобы указать что пользователь не ответил на приглашение т. е. пользователь нажал кнопку Отмена в окне приглашения.
+linktitle: Respond
+articleTitle: Respond
+second_title: Aspose.Words для .NET
+description: IFieldUserPromptRespondent Respond метод. При реализации возвращает ответ пользователя на запрос. Ваша реализация должна возвращатьнулевой чтобы указать что пользователь не ответил на приглашение т. е. пользователь нажал кнопку Отмена в окне приглашения на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fields/ifielduserpromptrespondent/respond/
@@ -23,7 +25,7 @@ public string Respond(string promptText, string defaultResponse)
 
 Ответ пользователя (т. е. подтвержденное значение, содержащееся в окне подсказки).
 
-### Примеры
+## Примеры
 
 Показывает, как создать поле ASK и настроить его свойства.
 
@@ -85,7 +87,5 @@ private class MyPromptRespondent : IFieldUserPromptRespondent
 ### Смотрите также
 
 * interface [IFieldUserPromptRespondent](../)
-* пространство имен [Aspose.Words.Fields](../../ifielduserpromptrespondent/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

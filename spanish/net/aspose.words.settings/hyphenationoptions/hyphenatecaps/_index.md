@@ -1,7 +1,9 @@
 ---
 title: HyphenationOptions.HyphenateCaps
-second_title: Referencia de API de Aspose.Words para .NET
-description: HyphenationOptions propiedad. Obtiene o establece el valor que determina si las palabras escritas en letras mayúsculas están divididas con guiones. El valor predeterminado para esta propiedad esverdadero .
+linktitle: HyphenateCaps
+articleTitle: HyphenateCaps
+second_title: Aspose.Words para .NET
+description: HyphenationOptions HyphenateCaps propiedad. Obtiene o establece el valor que determina si las palabras escritas en letras mayúsculas están divididas con guiones. El valor predeterminado para esta propiedad esverdadero  en C#.
 type: docs
 weight: 40
 url: /es/net/aspose.words.settings/hyphenationoptions/hyphenatecaps/
@@ -14,7 +16,7 @@ Obtiene o establece el valor que determina si las palabras escritas en letras ma
 public bool HyphenateCaps { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo configurar la separación de palabras automática.
 
@@ -37,7 +39,5 @@ doc.Save(ArtifactsDir + "Document.HyphenationOptions.docx");
 ### Ver también
 
 * class [HyphenationOptions](../)
-* espacio de nombres [Aspose.Words.Settings](../../hyphenationoptions/)
+* espacio de nombres [Aspose.Words.Settings](../../../aspose.words.settings/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class FrameFormat
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.FrameFormat classe. Représente le formatage lié au cadre pour un paragraphe.
+title: FrameFormat Class
+linktitle: FrameFormat
+articleTitle: FrameFormat
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.FrameFormat classe. Représente le formatage lié au cadre pour un paragraphe en C#.
 type: docs
 weight: 3070
 url: /fr/net/aspose.words/frameformat/
@@ -31,13 +33,13 @@ public class FrameFormat
 | [VerticalPosition](../../aspose.words/frameformat/verticalposition/) { get; } | Obtient la distance verticale entre le bord du cadre et l'élément spécifié par le[`RelativeVerticalPosition`](./relativeverticalposition/) propriété. |
 | [Width](../../aspose.words/frameformat/width/) { get; } | Obtient la largeur du cadre spécifié, en points. |
 
-### Remarques
+## Remarques
 
 Cet objet est toujours créé. Si un paragraphe est un cadre, alors toutes les propriétés contiendront des valeurs respectives, sinon toutes les propriétés sont définies sur leurs valeurs par défaut.
 
 Utiliser[`IsFrame`](./isframe/) pour vérifier si le paragraphe est un cadre.
 
-### Exemples
+## Exemples
 
 Montre comment obtenir des informations sur les propriétés de mise en forme des paragraphes qui sont des cadres.
 
@@ -63,5 +65,3 @@ Assert.AreEqual(0.0d, paragraphFrame.FrameFormat.VerticalDistanceFromText);
 
 * espace de noms [Aspose.Words](../../aspose.words/)
 * Assemblée [Aspose.Words](../../)
-
-

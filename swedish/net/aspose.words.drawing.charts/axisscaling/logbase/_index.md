@@ -1,7 +1,9 @@
 ---
 title: AxisScaling.LogBase
-second_title: Aspose.Words för .NET API Referens
-description: AxisScaling fast egendom. Hämtar eller ställer in den logaritmiska basen för en logaritmisk axel.
+linktitle: LogBase
+articleTitle: LogBase
+second_title: Aspose.Words för .NET
+description: AxisScaling LogBase fast egendom. Hämtar eller ställer in den logaritmiska basen för en logaritmisk axel i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.drawing.charts/axisscaling/logbase/
@@ -14,7 +16,7 @@ Hämtar eller ställer in den logaritmiska basen för en logaritmisk axel.
 public double LogBase { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Egenskapen stöds inte av MS Office 2016 nya diagram.
 
@@ -22,7 +24,7 @@ Giltigt intervall för ett flyttalsvärde är större än eller lika med 2 och m
 
 Om du ställer in den här egenskapen ställer du in[`Type`](../type/) egendom tillLogarithmic .
 
-### Exempel
+## Exempel
 
 Visar hur man tillämpar logaritmisk skalning på en diagramaxel.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "Charts.AxisScaling.docx");
 ### Se även
 
 * class [AxisScaling](../)
-* namnutrymme [Aspose.Words.Drawing.Charts](../../axisscaling/)
+* namnutrymme [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../../)
-
-

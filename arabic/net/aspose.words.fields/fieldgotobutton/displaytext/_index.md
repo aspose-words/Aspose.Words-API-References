@@ -1,7 +1,9 @@
 ---
 title: FieldGoToButton.DisplayText
-second_title: Aspose.Words لمراجع .NET API
-description: FieldGoToButton ملكية. الحصول على أو تعيين نص الزر الذي يظهر في المستند بحيث يمكن تحديده لتنشيط الانتقال.
+linktitle: DisplayText
+articleTitle: DisplayText
+second_title: Aspose.Words لـ .NET
+description: FieldGoToButton DisplayText ملكية. الحصول على أو تعيين نص الزر الذي يظهر في المستند بحيث يمكن تحديده لتنشيط الانتقال في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.fields/fieldgotobutton/displaytext/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldgotobutton/displaytext/
 public string DisplayText { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يظهر لإدراج حقل GOTOBUTTON.
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "Field.GOTOBUTTON.docx");
 ### أنظر أيضا
 
 * class [FieldGoToButton](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldgotobutton/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

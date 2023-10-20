@@ -1,7 +1,9 @@
 ---
 title: Paragraph.ParentStory
-second_title: Aspose.Words per .NET API Reference
-description: Paragraph proprietà. Recupera la storia a livello di sezione principale che può essereBody OHeaderFooter .
+linktitle: ParentStory
+articleTitle: ParentStory
+second_title: Aspose.Words per .NET
+description: Paragraph ParentStory proprietà. Recupera la storia a livello di sezione principale che può essereBody OHeaderFooter  in C#.
 type: docs
 weight: 210
 url: /it/net/aspose.words/paragraph/parentstory/
@@ -14,7 +16,7 @@ Recupera la storia a livello di sezione principale che può essere[`Body`](../..
 public Story ParentStory { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come creare un'intestazione e un piè di pagina.
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "HeaderFooter.Create.docx");
 
 * class [Story](../../story/)
 * class [Paragraph](../)
-* spazio dei nomi [Aspose.Words](../../paragraph/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

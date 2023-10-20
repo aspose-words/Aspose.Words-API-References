@@ -1,7 +1,9 @@
 ---
 title: Document.HasRevisions
-second_title: Referencia de API de Aspose.Words para .NET
-description: Document propiedad. Devolucionesverdadero si el documento tiene algún cambio registrado.
+linktitle: HasRevisions
+articleTitle: HasRevisions
+second_title: Aspose.Words para .NET
+description: Document HasRevisions propiedad. Devolucionesverdadero si el documento tiene algún cambio registrado en C#.
 type: docs
 weight: 200
 url: /es/net/aspose.words/document/hasrevisions/
@@ -14,11 +16,11 @@ Devoluciones`verdadero` si el documento tiene algún cambio registrado.
 public bool HasRevisions { get; }
 ```
 
-### Observaciones
+## Observaciones
 
 Esta propiedad es un atajo para comparar[`Count`](../../revisioncollection/count/) cero.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo trabajar con revisiones en un documento.
 
@@ -101,7 +103,5 @@ Assert.AreEqual("This is revision #1. \rThis is revision #2.", doc.GetText().Tri
 ### Ver también
 
 * class [Document](../)
-* espacio de nombres [Aspose.Words](../../document/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

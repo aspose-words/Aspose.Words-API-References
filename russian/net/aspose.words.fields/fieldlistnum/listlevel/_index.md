@@ -1,7 +1,9 @@
 ---
 title: FieldListNum.ListLevel
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldListNum свойство. Получает или задает уровень в списке переопределяя поведение поля по умолчанию.
+linktitle: ListLevel
+articleTitle: ListLevel
+second_title: Aspose.Words для .NET
+description: FieldListNum ListLevel свойство. Получает или задает уровень в списке переопределяя поведение поля по умолчанию на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.fields/fieldlistnum/listlevel/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldlistnum/listlevel/
 public string ListLevel { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как нумеровать абзацы с помощью полей LISTNUM.
 
@@ -84,7 +86,5 @@ doc.Save(ArtifactsDir + "Field.LISTNUM.docx");
 ### Смотрите также
 
 * class [FieldListNum](../)
-* пространство имен [Aspose.Words.Fields](../../fieldlistnum/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

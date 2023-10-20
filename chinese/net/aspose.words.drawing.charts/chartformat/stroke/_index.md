@@ -1,9 +1,11 @@
 ---
 title: ChartFormat.Stroke
-second_title: Aspose.Words for .NET API 参考
-description: ChartFormat 财产. 获取父图表元素的线条格式
+linktitle: Stroke
+articleTitle: Stroke
+second_title: 用于 .NET 的 Aspose.Words
+description: ChartFormat Stroke 财产. 获取父图表元素的线条格式 在 C#.
 type: docs
-weight: 40
+weight: 30
 url: /zh/net/aspose.words.drawing.charts/chartformat/stroke/
 ---
 ## ChartFormat.Stroke property
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.drawing.charts/chartformat/stroke/
 public Stroke Stroke { get; }
 ```
 
-### 例子
+## 例子
 
 展示如何设置标记格式。
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "Charts.MarkerFormatting.docx");
 
 * class [Stroke](../../../aspose.words.drawing/stroke/)
 * class [ChartFormat](../)
-* 命名空间 [Aspose.Words.Drawing.Charts](../../chartformat/)
+* 命名空间 [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class FormFieldCollection
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Fields.FormFieldCollection сорт. КоллекцияFormField объекты которые представляют все поля формы в диапазоне.
+title: FormFieldCollection Class
+linktitle: FormFieldCollection
+articleTitle: FormFieldCollection
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Fields.FormFieldCollection сорт. КоллекцияFormField объекты которые представляют все поля формы в диапазоне на С#.
 type: docs
 weight: 2630
 url: /ru/net/aspose.words.fields/formfieldcollection/
@@ -29,10 +31,10 @@ public class FormFieldCollection : IEnumerable<FormField>
 | --- | --- |
 | [Clear](../../aspose.words.fields/formfieldcollection/clear/)() | Удаляет все поля формы из этой коллекции и из документа. |
 | [GetEnumerator](../../aspose.words.fields/formfieldcollection/getenumerator/)() | Возвращает объект перечислителя. |
-| [Remove](../../aspose.words.fields/formfieldcollection/remove/)(string) | Удаляет поле формы с указанным именем. |
-| [RemoveAt](../../aspose.words.fields/formfieldcollection/removeat/)(int) | Удаляет поле формы по указанному индексу. |
+| [Remove](../../aspose.words.fields/formfieldcollection/remove/)(*string*) | Удаляет поле формы с указанным именем. |
+| [RemoveAt](../../aspose.words.fields/formfieldcollection/removeat/)(*int*) | Удаляет поле формы по указанному индексу. |
 
-### Примеры
+## Примеры
 
 Показывает, как вставлять в документ различные типы полей формы и обрабатывать их с помощью реализации посетителя документа.
 
@@ -168,5 +170,3 @@ public class FormFieldVisitor : DocumentVisitor
 * class [FormField](../formfield/)
 * пространство имен [Aspose.Words.Fields](../../aspose.words.fields/)
 * сборка [Aspose.Words](../../)
-
-

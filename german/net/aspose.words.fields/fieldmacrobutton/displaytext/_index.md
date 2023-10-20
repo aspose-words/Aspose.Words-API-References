@@ -1,7 +1,9 @@
 ---
 title: FieldMacroButton.DisplayText
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldMacroButton eigendom. Ruft den Text ab oder legt ihn fest der als Schaltfläche angezeigt wird die zum Ausführen des Makros oder Befehls ausgewählt wird.
+linktitle: DisplayText
+articleTitle: DisplayText
+second_title: Aspose.Words für .NET
+description: FieldMacroButton DisplayText eigendom. Ruft den Text ab oder legt ihn fest der als Schaltfläche angezeigt wird die zum Ausführen des Makros oder Befehls ausgewählt wird in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.fields/fieldmacrobutton/displaytext/
@@ -14,7 +16,7 @@ Ruft den Text ab oder legt ihn fest, der als „Schaltfläche“ angezeigt wird,
 public string DisplayText { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie wir MACROBUTTON-Felder verwenden, um die Makros eines Dokuments durch Klicken auszuführen.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "Field.MACROBUTTON.docm");
 ### Siehe auch
 
 * class [FieldMacroButton](../)
-* namensraum [Aspose.Words.Fields](../../fieldmacrobutton/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

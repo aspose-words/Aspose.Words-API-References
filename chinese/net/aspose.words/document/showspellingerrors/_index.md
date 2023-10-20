@@ -1,7 +1,9 @@
 ---
 title: Document.ShowSpellingErrors
-second_title: Aspose.Words for .NET API 参考
-description: Document 财产. 指定是否显示本文档中的拼写错误
+linktitle: ShowSpellingErrors
+articleTitle: ShowSpellingErrors
+second_title: 用于 .NET 的 Aspose.Words
+description: Document ShowSpellingErrors 财产. 指定是否显示本文档中的拼写错误 在 C#.
 type: docs
 weight: 400
 url: /zh/net/aspose.words/document/showspellingerrors/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/document/showspellingerrors/
 public bool ShowSpellingErrors { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何显示/隐藏文档中的错误。
 
@@ -38,7 +40,5 @@ doc.Save(ArtifactsDir + "Document.SpellingAndGrammarErrors.docx");
 ### 也可以看看
 
 * class [Document](../)
-* 命名空间 [Aspose.Words](../../document/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

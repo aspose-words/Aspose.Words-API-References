@@ -1,7 +1,9 @@
 ---
 title: ListFormat.IsListItem
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ListFormat propriété. Vrai lorsque le paragraphe est doté dune mise en forme de puces ou de numéros.
+linktitle: IsListItem
+articleTitle: IsListItem
+second_title: Aspose.Words pour .NET
+description: ListFormat IsListItem propriété. Vrai lorsque le paragraphe est doté dune mise en forme de puces ou de numéros en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.lists/listformat/islistitem/
@@ -14,7 +16,7 @@ Vrai lorsque le paragraphe est doté d'une mise en forme de puces ou de numéros
 public bool IsListItem { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment afficher tous les paragraphes d’un document qui sont des éléments de liste.
 
@@ -94,7 +96,5 @@ doc.Save(ArtifactsDir + "Lists.SpecifyListLevel.docx");
 ### Voir également
 
 * class [ListFormat](../)
-* espace de noms [Aspose.Words.Lists](../../listformat/)
+* espace de noms [Aspose.Words.Lists](../../../aspose.words.lists/)
 * Assemblée [Aspose.Words](../../../)
-
-

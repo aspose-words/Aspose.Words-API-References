@@ -1,7 +1,9 @@
 ---
 title: Range.ToDocument
-second_title: Aspose.Words لمراجع .NET API
-description: Range طريقة. إنشاء مستند جديد كامل التكوين يحتوي على النطاق.
+linktitle: ToDocument
+articleTitle: ToDocument
+second_title: Aspose.Words لـ .NET
+description: Range ToDocument طريقة. إنشاء مستند جديد كامل التكوين يحتوي على النطاق في C#.
 type: docs
 weight: 100
 url: /ar/net/aspose.words/range/todocument/
@@ -18,7 +20,5 @@ public Document ToDocument()
 
 * class [Document](../../document/)
 * class [Range](../)
-* مساحة الاسم [Aspose.Words](../../range/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

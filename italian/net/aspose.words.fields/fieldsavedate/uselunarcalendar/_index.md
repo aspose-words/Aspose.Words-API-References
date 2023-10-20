@@ -1,7 +1,9 @@
 ---
 title: FieldSaveDate.UseLunarCalendar
-second_title: Aspose.Words per .NET API Reference
-description: FieldSaveDate proprietà. Ottiene o imposta se utilizzare il calendario lunare Hijri o quello lunare ebraico.
+linktitle: UseLunarCalendar
+articleTitle: UseLunarCalendar
+second_title: Aspose.Words per .NET
+description: FieldSaveDate UseLunarCalendar proprietà. Ottiene o imposta se utilizzare il calendario lunare Hijri o quello lunare ebraico in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words.fields/fieldsavedate/uselunarcalendar/
@@ -14,7 +16,7 @@ Ottiene o imposta se utilizzare il calendario lunare Hijri o quello lunare ebrai
 public bool UseLunarCalendar { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come utilizzare il campo SAVEDATE per visualizzare la data/ora dell'operazione di salvataggio più recente del documento eseguita utilizzando Microsoft Word.
 
@@ -60,7 +62,5 @@ doc.Save(ArtifactsDir + "Field.SAVEDATE.docx");
 ### Guarda anche
 
 * class [FieldSaveDate](../)
-* spazio dei nomi [Aspose.Words.Fields](../../fieldsavedate/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

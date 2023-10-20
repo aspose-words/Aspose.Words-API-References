@@ -1,7 +1,9 @@
 ---
 title: ImageData.CropRight
-second_title: Referencia de API de Aspose.Words para .NET
-description: ImageData propiedad. Define la fracción de eliminación de la imagen desde el lado derecho.
+linktitle: CropRight
+articleTitle: CropRight
+second_title: Aspose.Words para .NET
+description: ImageData CropRight propiedad. Define la fracción de eliminación de la imagen desde el lado derecho en C#.
 type: docs
 weight: 80
 url: /es/net/aspose.words.drawing/imagedata/cropright/
@@ -14,13 +16,13 @@ Define la fracción de eliminación de la imagen desde el lado derecho.
 public double CropRight { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 La cantidad de recorte puede oscilar entre -1,0 y 1,0. El valor predeterminado es 0. Tenga en cuenta que un valor de 1 no mostrará ninguna imagen. Los valores negativos darán como resultado que la imagen se comprima hacia adentro desde el borde que se está recortando (el espacio vacío entre la imagen y el borde recortado se llenará con el color de relleno de la forma ). Los valores positivos inferiores a 1 darán como resultado que la imagen restante se estire para ajustarse a la forma.
 
 El valor predeterminado es 0.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo editar los datos de imagen de una forma.
 
@@ -83,7 +85,5 @@ dstDoc.Save(ArtifactsDir + "Drawing.ImageData.docx");
 ### Ver también
 
 * class [ImageData](../)
-* espacio de nombres [Aspose.Words.Drawing](../../imagedata/)
+* espacio de nombres [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * asamblea [Aspose.Words](../../../)
-
-

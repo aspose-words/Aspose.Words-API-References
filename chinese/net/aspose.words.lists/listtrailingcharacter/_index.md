@@ -1,7 +1,9 @@
 ---
-title: Enum ListTrailingCharacter
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Lists.ListTrailingCharacter 枚举. 指定将列表标签与段落文本分隔开的字符
+title: ListTrailingCharacter Enum
+linktitle: ListTrailingCharacter
+articleTitle: ListTrailingCharacter
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Lists.ListTrailingCharacter 枚举. 指定将列表标签与段落文本分隔开的字符 在 C#.
 type: docs
 weight: 3540
 url: /zh/net/aspose.words.lists/listtrailingcharacter/
@@ -22,11 +24,11 @@ public enum ListTrailingCharacter
 | Space | `1` | 列表标签和段落文本之间放置一个空格字符。 |
 | Nothing | `2` | 列表标签和段落文本之间没有分隔符。 |
 
-### 评论
+## 评论
 
 用作值[`TrailingCharacter`](../listlevel/trailingcharacter/)财产。
 
-### 例子
+## 例子
 
 演示如何在使用 DocumentBuilder 时将自定义列表格式应用于段落。
 
@@ -86,5 +88,3 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateCustomList.docx");
 
 * 命名空间 [Aspose.Words.Lists](../../aspose.words.lists/)
 * 部件 [Aspose.Words](../../)
-
-

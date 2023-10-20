@@ -1,7 +1,9 @@
 ---
 title: RevisionCollection.Count
-second_title: Aspose.Words لمراجع .NET API
-description: RevisionCollection ملكية. إرجاع عدد المراجعات في المجموعة.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words لـ .NET
+description: RevisionCollection Count ملكية. إرجاع عدد المراجعات في المجموعة في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words/revisioncollection/count/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/revisioncollection/count/
 public int Count { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التعامل مع المراجعات في المستند.
 
@@ -97,7 +99,5 @@ Assert.AreEqual("This is revision #1. \rThis is revision #2.", doc.GetText().Tri
 ### أنظر أيضا
 
 * class [RevisionCollection](../)
-* مساحة الاسم [Aspose.Words](../../revisioncollection/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

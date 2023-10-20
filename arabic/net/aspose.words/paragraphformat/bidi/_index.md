@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.Bidi
-second_title: Aspose.Words لمراجع .NET API
-description: ParagraphFormat ملكية. الحصول على أو تحديد ما إذا كانت هذه فقرة من اليمين إلى اليسار.
+linktitle: Bidi
+articleTitle: Bidi
+second_title: Aspose.Words لـ .NET
+description: ParagraphFormat Bidi ملكية. الحصول على أو تحديد ما إذا كانت هذه فقرة من اليمين إلى اليسار في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words/paragraphformat/bidi/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words/paragraphformat/bidi/
 public bool Bidi { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 متى`حقيقي`، تم وضع عمليات التشغيل والكائنات المضمنة الأخرى في هذه الفقرة من اليمين إلى اليسار.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية اكتشاف اتجاه نص مستند النص العادي.
 
@@ -77,7 +79,5 @@ doc.Save(ArtifactsDir + "Field.BIDIOUTLINE.docx");
 ### أنظر أيضا
 
 * class [ParagraphFormat](../)
-* مساحة الاسم [Aspose.Words](../../paragraphformat/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

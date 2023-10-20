@@ -1,7 +1,9 @@
 ---
 title: FindReplaceOptions.IgnoreFootnotes
-second_title: Aspose.Words för .NET API Referens
-description: FindReplaceOptions fast egendom. Hämtar eller ställer in ett booleskt värde som indikerar att antingen ignorera fotnoter. Standardvärdet ärfalsk .
+linktitle: IgnoreFootnotes
+articleTitle: IgnoreFootnotes
+second_title: Aspose.Words för .NET
+description: FindReplaceOptions IgnoreFootnotes fast egendom. Hämtar eller ställer in ett booleskt värde som indikerar att antingen ignorera fotnoter. Standardvärdet ärfalsk  i C#.
 type: docs
 weight: 90
 url: /sv/net/aspose.words.replacing/findreplaceoptions/ignorefootnotes/
@@ -14,7 +16,7 @@ Hämtar eller ställer in ett booleskt värde som indikerar att antingen ignorer
 public bool IgnoreFootnotes { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man ignorerar fotnoter under en sök-och-ersätt-operation.
 
@@ -41,7 +43,5 @@ doc.Range.Replace("Lorem ipsum", "Replaced Lorem ipsum", options);
 ### Se även
 
 * class [FindReplaceOptions](../)
-* namnutrymme [Aspose.Words.Replacing](../../findreplaceoptions/)
+* namnutrymme [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * hopsättning [Aspose.Words](../../../)
-
-

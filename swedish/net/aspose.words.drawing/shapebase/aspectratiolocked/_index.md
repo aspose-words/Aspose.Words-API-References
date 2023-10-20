@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.AspectRatioLocked
-second_title: Aspose.Words för .NET API Referens
-description: ShapeBase fast egendom. Anger om formens bildförhållande är låst.
+linktitle: AspectRatioLocked
+articleTitle: AspectRatioLocked
+second_title: Aspose.Words för .NET
+description: ShapeBase AspectRatioLocked fast egendom. Anger om formens bildförhållande är låst i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.drawing/shapebase/aspectratiolocked/
@@ -14,13 +16,13 @@ Anger om formens bildförhållande är låst.
 public bool AspectRatioLocked { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Standardvärdet beror på[`ShapeType`](../../shapetype/) , förImage det är`Sann` men för de andra formtyperna är det`falsk`.
 
 Har effekt endast för former på toppnivå.
 
-### Exempel
+## Exempel
 
 Visar hur man låser/låser upp en forms bildförhållande.
 
@@ -45,7 +47,5 @@ doc.Save(ArtifactsDir + "Shape.AspectRatio.docx");
 ### Se även
 
 * class [ShapeBase](../)
-* namnutrymme [Aspose.Words.Drawing](../../shapebase/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.LineSpacingRule
-second_title: Aspose.Words för .NET API Referens
-description: ParagraphFormat fast egendom. Hämtar eller ställer in radavståndet för stycket.
+linktitle: LineSpacingRule
+articleTitle: LineSpacingRule
+second_title: Aspose.Words för .NET
+description: ParagraphFormat LineSpacingRule fast egendom. Hämtar eller ställer in radavståndet för stycket i C#.
 type: docs
 weight: 200
 url: /sv/net/aspose.words/paragraphformat/linespacingrule/
@@ -14,7 +16,7 @@ Hämtar eller ställer in radavståndet för stycket.
 public LineSpacingRule LineSpacingRule { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med radavstånd.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "ParagraphFormat.LineSpacing.docx");
 
 * enum [LineSpacingRule](../../linespacingrule/)
 * class [ParagraphFormat](../)
-* namnutrymme [Aspose.Words](../../paragraphformat/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

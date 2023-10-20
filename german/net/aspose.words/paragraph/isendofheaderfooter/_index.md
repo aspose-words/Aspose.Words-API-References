@@ -1,7 +1,9 @@
 ---
 title: Paragraph.IsEndOfHeaderFooter
-second_title: Aspose.Words für .NET-API-Referenz
-description: Paragraph eigendom. True wenn dieser Absatz der letzte Absatz im istHeaderFooter Haupttextgeschichte von aSection  sonst falsch.
+linktitle: IsEndOfHeaderFooter
+articleTitle: IsEndOfHeaderFooter
+second_title: Aspose.Words für .NET
+description: Paragraph IsEndOfHeaderFooter eigendom. True wenn dieser Absatz der letzte Absatz im istHeaderFooter Haupttextgeschichte von aSection  sonst falsch in C#.
 type: docs
 weight: 70
 url: /de/net/aspose.words/paragraph/isendofheaderfooter/
@@ -14,7 +16,7 @@ True, wenn dieser Absatz der letzte Absatz im ist[`HeaderFooter`](../../headerfo
 public bool IsEndOfHeaderFooter { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie eine Kopf- und Fußzeile erstellt wird.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "HeaderFooter.Create.docx");
 ### Siehe auch
 
 * class [Paragraph](../)
-* namensraum [Aspose.Words](../../paragraph/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FindReplaceOptions.Direction
-second_title: Aspose.Words لمراجع .NET API
-description: FindReplaceOptions ملكية. تحديد اتجاه الاستبدال. القيمة الافتراضية هيForward .
+linktitle: Direction
+articleTitle: Direction
+second_title: Aspose.Words لـ .NET
+description: FindReplaceOptions Direction ملكية. تحديد اتجاه الاستبدال. القيمة الافتراضية هيForward  في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.replacing/findreplaceoptions/direction/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.replacing/findreplaceoptions/direction/
 public FindReplaceDirection Direction { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحديد الاتجاه الذي تعبر فيه عملية البحث والاستبدال المستند.
 
@@ -81,7 +83,5 @@ private class TextReplacementRecorder : IReplacingCallback
 
 * enum [FindReplaceDirection](../../findreplacedirection/)
 * class [FindReplaceOptions](../)
-* مساحة الاسم [Aspose.Words.Replacing](../../findreplaceoptions/)
+* مساحة الاسم [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * المجسم [Aspose.Words](../../../)
-
-

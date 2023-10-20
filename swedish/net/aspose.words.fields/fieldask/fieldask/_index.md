@@ -1,7 +1,9 @@
 ---
-title: FieldAsk.FieldAsk
-second_title: Aspose.Words för .NET API Referens
-description: FieldAsk byggare. Default_Constructor
+title: FieldAsk
+linktitle: FieldAsk
+articleTitle: FieldAsk
+second_title: Aspose.Words för .NET
+description: FieldAsk byggare. Default_Constructor i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.fields/fieldask/fieldask/
@@ -17,7 +19,5 @@ public FieldAsk()
 ### Se även
 
 * class [FieldAsk](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldask/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

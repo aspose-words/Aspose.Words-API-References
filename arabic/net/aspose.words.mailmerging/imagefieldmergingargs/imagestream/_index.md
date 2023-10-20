@@ -1,7 +1,9 @@
 ---
 title: ImageFieldMergingArgs.ImageStream
-second_title: Aspose.Words لمراجع .NET API
-description: ImageFieldMergingArgs ملكية. تحديد الدفق لمحرك دمج المراسلات لقراءة الصورة منه.
+linktitle: ImageStream
+articleTitle: ImageStream
+second_title: Aspose.Words لـ .NET
+description: ImageFieldMergingArgs ImageStream ملكية. تحديد الدفق لمحرك دمج المراسلات لقراءة الصورة منه في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.mailmerging/imagefieldmergingargs/imagestream/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.mailmerging/imagefieldmergingargs/imagestream/
 public Stream ImageStream { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 يقوم Aspose.Words بإغلاق هذا الدفق بعد أن يقوم بدمج الصورة في المستند.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج الصور المخزنة في حقل BLOB بقاعدة البيانات في تقرير.
 
@@ -67,7 +69,5 @@ private class HandleMergeImageFieldFromBlob : IFieldMergingCallback
 ### أنظر أيضا
 
 * class [ImageFieldMergingArgs](../)
-* مساحة الاسم [Aspose.Words.MailMerging](../../imagefieldmergingargs/)
+* مساحة الاسم [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * المجسم [Aspose.Words](../../../)
-
-

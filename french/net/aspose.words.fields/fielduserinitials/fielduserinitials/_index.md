@@ -1,7 +1,9 @@
 ---
-title: FieldUserInitials.FieldUserInitials
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldUserInitials constructeur. Default_Constructor
+title: FieldUserInitials
+linktitle: FieldUserInitials
+articleTitle: FieldUserInitials
+second_title: Aspose.Words pour .NET
+description: FieldUserInitials constructeur. Default_Constructor en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.fields/fielduserinitials/fielduserinitials/
@@ -17,7 +19,5 @@ public FieldUserInitials()
 ### Voir également
 
 * class [FieldUserInitials](../)
-* espace de noms [Aspose.Words.Fields](../../fielduserinitials/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldUserInitials.UserInitials
-second_title: Aspose.Words for .NET API 参考
-description: FieldUserInitials 财产. 获取或设置当前用户的姓名缩写
+linktitle: UserInitials
+articleTitle: UserInitials
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldUserInitials UserInitials 财产. 获取或设置当前用户的姓名缩写 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.fields/fielduserinitials/userinitials/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fielduserinitials/userinitials/
 public string UserInitials { get; set; }
 ```
 
-### 例子
+## 例子
 
 显示如何使用 USERINITIALS 字段。
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "Field.USERINITIALS.docx");
 ### 也可以看看
 
 * class [FieldUserInitials](../)
-* 命名空间 [Aspose.Words.Fields](../../fielduserinitials/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class FieldOcx
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Fields.FieldOcx clase. Implementa el campo OCX.
+title: FieldOcx Class
+linktitle: FieldOcx
+articleTitle: FieldOcx
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Fields.FieldOcx clase. Implementa el campo OCX en C#.
 type: docs
 weight: 2240
 url: /es/net/aspose.words.fields/fieldocx/
@@ -42,13 +44,13 @@ public class FieldOcx : Field
 | Nombre | Descripción |
 | --- | --- |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Devuelve texto entre el inicio del campo y el separador de campo (o el final del campo si no hay separador). Se incluyen tanto el código de campo como el resultado del campo de los campos secundarios. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Devuelve texto entre el inicio del campo y el separador de campo (o el final del campo si no hay separador). |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | Devuelve texto entre el inicio del campo y el separador de campo (o el final del campo si no hay separador). |
 | [Remove](../../aspose.words.fields/field/remove/)() | Elimina el campo del documento. Devuelve un nodo justo después del campo. Si el final del campo es el último hijo de su nodo principal, devuelve su párrafo principal. Si el campo ya está eliminado, devuelve`nulo` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | Realiza la desvinculación del campo. |
 | [Update](../../aspose.words.fields/field/update/)() | Realiza la actualización del campo. Se produce si el campo ya se está actualizando. |
-| [Update](../../aspose.words.fields/field/update/)(bool) | Realiza una actualización de campo. Se produce si el campo ya se está actualizando. |
+| [Update](../../aspose.words.fields/field/update/)(*bool*) | Realiza una actualización de campo. Se produce si el campo ya se está actualizando. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo insertar un campo OCX.
 
@@ -66,5 +68,3 @@ Assert.AreEqual(" OCX ", field.GetFieldCode());
 * class [Field](../field/)
 * espacio de nombres [Aspose.Words.Fields](../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../)
-
-

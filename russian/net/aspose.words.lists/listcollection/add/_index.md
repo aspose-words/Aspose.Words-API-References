@@ -1,12 +1,14 @@
 ---
 title: ListCollection.Add
-second_title: Справочник по API Aspose.Words для .NET
-description: ListCollection метод. Создает новый список на основе предопределенного шаблона и добавляет его в коллекцию списков в документе.
+linktitle: Add
+articleTitle: Add
+second_title: Aspose.Words для .NET
+description: ListCollection Add метод. Создает новый список на основе предопределенного шаблона и добавляет его в коллекцию списков в документе на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.lists/listcollection/add/
 ---
-## Add(ListTemplate) {#add}
+## Add(*[ListTemplate](../../listtemplate/)*) {#add}
 
 Создает новый список на основе предопределенного шаблона и добавляет его в коллекцию списков в документе.
 
@@ -22,13 +24,13 @@ public List Add(ListTemplate listTemplate)
 
 Недавно созданный список.
 
-### Примечания
+## Примечания
 
 Шаблоны списков Aspose.Words соответствуют 21 шаблону списков Available в диалоговом окне «Маркеры и нумерация» в Microsoft Word 2003.
 
 Все списки, созданные с помощью этого метода, имеют 9 уровней списков.
 
-### Примеры
+## Примеры
 
 Показывает, как создать список, применив новый формат списка к коллекции абзацев.
 
@@ -147,12 +149,12 @@ doc.Save(ArtifactsDir + "Lists.SpecifyListLevel.docx");
 * class [List](../../list/)
 * enum [ListTemplate](../../listtemplate/)
 * class [ListCollection](../)
-* пространство имен [Aspose.Words.Lists](../../listcollection/)
+* пространство имен [Aspose.Words.Lists](../../../aspose.words.lists/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## Add(Style) {#add_1}
+## Add(*[Style](../../../aspose.words/style/)*) {#add_1}
 
 Создает новый список, ссылающийся на стиль списка, и добавляет его в коллекцию списков в документе.
 
@@ -168,11 +170,11 @@ public List Add(Style listStyle)
 
 Недавно созданный список.
 
-### Примечания
+## Примечания
 
 Вновь созданный список ссылается на стиль списка. Если вы измените свойства стиля list , это отразится на свойствах списка. И наоборот, если вы измените свойства списка, это отразится в свойствах стиля списка.
 
-### Примеры
+## Примеры
 
 Показывает, как создать стиль списка и использовать его в документе.
 
@@ -235,7 +237,5 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateAndUseListStyle.docx");
 * class [List](../../list/)
 * class [Style](../../../aspose.words/style/)
 * class [ListCollection](../)
-* пространство имен [Aspose.Words.Lists](../../listcollection/)
+* пространство имен [Aspose.Words.Lists](../../../aspose.words.lists/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: IMailMergeDataSourceRoot.GetDataSource
-second_title: Aspose.Words für .NET-API-Referenz
-description: IMailMergeDataSourceRoot methode. Die MailMergeEngine von Aspose.Words ruft diese Methode auf wenn sie auf den Anfang eines MailMergeBereichs der obersten Ebene stößt.
+linktitle: GetDataSource
+articleTitle: GetDataSource
+second_title: Aspose.Words für .NET
+description: IMailMergeDataSourceRoot GetDataSource methode. Die MailMergeEngine von Aspose.Words ruft diese Methode auf wenn sie auf den Anfang eines MailMergeBereichs der obersten Ebene stößt in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words.mailmerging/imailmergedatasourceroot/getdatasource/
@@ -22,13 +24,13 @@ public IMailMergeDataSource GetDataSource(string tableName)
 
 Ein Datenquellenobjekt, das Zugriff auf die Datensätze der angegebenen Tabelle ermöglicht.
 
-### Bemerkungen
+## Bemerkungen
 
 Wenn die Mail-Merge-Engines von Aspose.Words ein Dokument mit Daten füllen und auf MERGEFIELD TableStart:TableName, stoßen, wird es aufgerufen`GetDataSource` zu diesem Objekt. Ihre Implementierung muss ein neues Datenquellenobjekt zurückgeben. Aspose.Words verwendet die zurückgegebene Datenquelle, um den Seriendruckbereich zu füllen.
 
 Wenn eine Datenquelle (Tabelle) mit dem angegebenen Namen nicht vorhanden ist, sollte Ihre Implementierung zurückkehren`Null` .
 
-### Beispiele
+## Beispiele
 
 Führt einen Serienbrief aus einer benutzerdefinierten Datenquelle mit Master-Detail-Daten durch.
 
@@ -212,7 +214,5 @@ private class EmployeeListMailMergeSource : IMailMergeDataSource
 
 * interface [IMailMergeDataSource](../../imailmergedatasource/)
 * interface [IMailMergeDataSourceRoot](../)
-* namensraum [Aspose.Words.MailMerging](../../imailmergedatasourceroot/)
+* namensraum [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * Montage [Aspose.Words](../../../)
-
-

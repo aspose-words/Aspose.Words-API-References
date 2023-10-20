@@ -1,7 +1,9 @@
 ---
 title: NodeCollection.Contains
-second_title: Referencia de API de Aspose.Words para .NET
-description: NodeCollection método. Determina si un nodo está en la colección.
+linktitle: Contains
+articleTitle: Contains
+second_title: Aspose.Words para .NET
+description: NodeCollection Contains método. Determina si un nodo está en la colección en C#.
 type: docs
 weight: 50
 url: /es/net/aspose.words/nodecollection/contains/
@@ -22,11 +24,11 @@ public bool Contains(Node node)
 
 `verdadero` si el artículo se encuentra en la colección; de lo contrario,`FALSO`.
 
-### Observaciones
+## Observaciones
 
 Este método realiza una búsqueda lineal; por lo tanto, el tiempo promedio de ejecución es proporcional a[`Count`](../count/).
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo trabajar con NodeCollection.
 
@@ -64,7 +66,5 @@ Assert.False(runs.Contains(run));
 
 * class [Node](../../node/)
 * class [NodeCollection](../)
-* espacio de nombres [Aspose.Words](../../nodecollection/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

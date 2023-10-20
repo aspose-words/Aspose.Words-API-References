@@ -1,7 +1,9 @@
 ---
 title: PageSavingArgs.PageIndex
-second_title: Aspose.Words لمراجع .NET API
-description: PageSavingArgs ملكية. فهرس الصفحة الحالية.
+linktitle: PageIndex
+articleTitle: PageIndex
+second_title: Aspose.Words لـ .NET
+description: PageSavingArgs PageIndex ملكية. فهرس الصفحة الحالية في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.saving/pagesavingargs/pageindex/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.saving/pagesavingargs/pageindex/
 public int PageIndex { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام رد الاتصال لحفظ مستند إلى HTML صفحة تلو الأخرى.
 
@@ -71,7 +73,5 @@ private class CustomFileNamePageSavingCallback : IPageSavingCallback
 ### أنظر أيضا
 
 * class [PageSavingArgs](../)
-* مساحة الاسم [Aspose.Words.Saving](../../pagesavingargs/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

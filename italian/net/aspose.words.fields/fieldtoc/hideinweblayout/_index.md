@@ -1,7 +1,9 @@
 ---
 title: FieldToc.HideInWebLayout
-second_title: Aspose.Words per .NET API Reference
-description: FieldToc proprietà. Ottiene o imposta se nascondere il leader di tabulazione e i numeri di pagina nella visualizzazione layout Web.
+linktitle: HideInWebLayout
+articleTitle: HideInWebLayout
+second_title: Aspose.Words per .NET
+description: FieldToc HideInWebLayout proprietà. Ottiene o imposta se nascondere il leader di tabulazione e i numeri di pagina nella visualizzazione layout Web in C#.
 type: docs
 weight: 90
 url: /it/net/aspose.words.fields/fieldtoc/hideinweblayout/
@@ -14,7 +16,7 @@ Ottiene o imposta se nascondere il leader di tabulazione e i numeri di pagina ne
 public bool HideInWebLayout { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come inserire un sommario e popolarlo con voci basate sugli stili di intestazione.
 
@@ -99,7 +101,5 @@ public void InsertNewPageWithHeading(DocumentBuilder builder, string captionText
 ### Guarda anche
 
 * class [FieldToc](../)
-* spazio dei nomi [Aspose.Words.Fields](../../fieldtoc/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

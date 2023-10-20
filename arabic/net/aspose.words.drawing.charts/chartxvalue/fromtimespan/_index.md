@@ -1,7 +1,9 @@
 ---
 title: ChartXValue.FromTimeSpan
-second_title: Aspose.Words لمراجع .NET API
-description: ChartXValue طريقة. إنشاء ملفChartXValue مثال علىTime اكتب.
+linktitle: FromTimeSpan
+articleTitle: FromTimeSpan
+second_title: Aspose.Words لـ .NET
+description: ChartXValue FromTimeSpan طريقة. إنشاء ملفChartXValue مثال علىTime اكتب في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.drawing.charts/chartxvalue/fromtimespan/
@@ -17,7 +19,5 @@ public static ChartXValue FromTimeSpan(TimeSpan value)
 ### أنظر أيضا
 
 * class [ChartXValue](../)
-* مساحة الاسم [Aspose.Words.Drawing.Charts](../../chartxvalue/)
+* مساحة الاسم [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../../)
-
-

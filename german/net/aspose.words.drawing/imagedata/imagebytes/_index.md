@@ -1,7 +1,9 @@
 ---
 title: ImageData.ImageBytes
-second_title: Aspose.Words für .NET-API-Referenz
-description: ImageData eigendom. Ruft die Rohbytes des in der Form gespeicherten Bildes ab oder legt diese fest.
+linktitle: ImageBytes
+articleTitle: ImageBytes
+second_title: Aspose.Words für .NET
+description: ImageData ImageBytes eigendom. Ruft die Rohbytes des in der Form gespeicherten Bildes ab oder legt diese fest in C#.
 type: docs
 weight: 120
 url: /de/net/aspose.words.drawing/imagedata/imagebytes/
@@ -14,13 +16,13 @@ Ruft die Rohbytes des in der Form gespeicherten Bildes ab oder legt diese fest.
 public byte[] ImageBytes { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Den Wert auf setzen`Null` oder ein leeres Array entfernt das Bild aus der Form.
 
 Kehrt zurück`Null` wenn das Bild nicht im Dokument gespeichert ist (z. B. ist das Bild in diesem Fall wahrscheinlich verlinkt).
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie eine Bilddatei aus den Rohbilddaten einer Form erstellt wird.
 
@@ -47,7 +49,5 @@ using (Stream imgStream = imgShape.ImageData.ToStream())
 ### Siehe auch
 
 * class [ImageData](../)
-* namensraum [Aspose.Words.Drawing](../../imagedata/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

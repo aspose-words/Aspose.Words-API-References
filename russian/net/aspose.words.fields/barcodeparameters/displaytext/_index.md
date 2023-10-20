@@ -1,7 +1,9 @@
 ---
 title: BarcodeParameters.DisplayText
-second_title: Справочник по API Aspose.Words для .NET
-description: BarcodeParameters свойство. Отображать ли данные штрихкода текст вместе с изображением.
+linktitle: DisplayText
+articleTitle: DisplayText
+second_title: Aspose.Words для .NET
+description: BarcodeParameters DisplayText свойство. Отображать ли данные штрихкода текст вместе с изображением на С#.
 type: docs
 weight: 70
 url: /ru/net/aspose.words.fields/barcodeparameters/displaytext/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/barcodeparameters/displaytext/
 public bool DisplayText { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как использовать генератор штрих-кода.
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.docx");
 ### Смотрите также
 
 * class [BarcodeParameters](../)
-* пространство имен [Aspose.Words.Fields](../../barcodeparameters/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

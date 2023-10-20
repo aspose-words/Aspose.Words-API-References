@@ -1,7 +1,9 @@
 ---
-title: Enum SdtAppearance
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Markup.SdtAppearance 枚举. 指定结构化文档标记的外观
+title: SdtAppearance Enum
+linktitle: SdtAppearance
+articleTitle: SdtAppearance
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Markup.SdtAppearance 枚举. 指定结构化文档标记的外观 在 C#.
 type: docs
 weight: 3990
 url: /zh/net/aspose.words.markup/sdtappearance/
@@ -27,5 +29,3 @@ public enum SdtAppearance
 
 * 命名空间 [Aspose.Words.Markup](../../aspose.words.markup/)
 * 部件 [Aspose.Words](../../)
-
-

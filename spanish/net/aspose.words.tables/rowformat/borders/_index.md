@@ -1,7 +1,9 @@
 ---
 title: RowFormat.Borders
-second_title: Referencia de API de Aspose.Words para .NET
-description: RowFormat propiedad. Obtiene la colección de bordes de celda predeterminados para la fila.
+linktitle: Borders
+articleTitle: Borders
+second_title: Aspose.Words para .NET
+description: RowFormat Borders propiedad. Obtiene la colección de bordes de celda predeterminados para la fila en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words.tables/rowformat/borders/
@@ -14,7 +16,7 @@ Obtiene la colección de bordes de celda predeterminados para la fila.
 public BorderCollection Borders { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear una tabla con bordes personalizados.
 
@@ -81,7 +83,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
 
 * class [BorderCollection](../../../aspose.words/bordercollection/)
 * class [RowFormat](../)
-* espacio de nombres [Aspose.Words.Tables](../../rowformat/)
+* espacio de nombres [Aspose.Words.Tables](../../../aspose.words.tables/)
 * asamblea [Aspose.Words](../../../)
-
-

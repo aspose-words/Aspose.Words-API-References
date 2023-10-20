@@ -1,7 +1,9 @@
 ---
 title: FieldIndex.SequenceSeparator
-second_title: Aspose.Words för .NET API Referens
-description: FieldIndex fast egendom. Hämtar eller ställer in teckensekvensen som används för att separera sekvensnummer och sidnummer.
+linktitle: SequenceSeparator
+articleTitle: SequenceSeparator
+second_title: Aspose.Words för .NET
+description: FieldIndex SequenceSeparator fast egendom. Hämtar eller ställer in teckensekvensen som används för att separera sekvensnummer och sidnummer i C#.
 type: docs
 weight: 160
 url: /sv/net/aspose.words.fields/fieldindex/sequenceseparator/
@@ -14,7 +16,7 @@ Hämtar eller ställer in teckensekvensen som används för att separera sekvens
 public string SequenceSeparator { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man delar upp ett dokument i delar genom att kombinera INDEX- och SEQ-fält.
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "Field.INDEX.XE.Sequence.docx");
 ### Se även
 
 * class [FieldIndex](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldindex/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

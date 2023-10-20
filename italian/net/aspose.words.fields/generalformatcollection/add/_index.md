@@ -1,7 +1,9 @@
 ---
 title: GeneralFormatCollection.Add
-second_title: Aspose.Words per .NET API Reference
-description: GeneralFormatCollection metodo. Aggiunge un formato generale alla raccolta.
+linktitle: Add
+articleTitle: Add
+second_title: Aspose.Words per .NET
+description: GeneralFormatCollection Add metodo. Aggiunge un formato generale alla raccolta in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words.fields/generalformatcollection/add/
@@ -18,7 +20,7 @@ public void Add(GeneralFormat item)
 | --- | --- | --- |
 | item | GeneralFormat | Un formato generale. |
 
-### Esempi
+## Esempi
 
 Mostra come formattare i risultati dei campi.
 
@@ -83,7 +85,5 @@ Assert.AreEqual(0, format.GeneralFormats.Count);
 
 * enum [GeneralFormat](../../generalformat/)
 * class [GeneralFormatCollection](../)
-* spazio dei nomi [Aspose.Words.Fields](../../generalformatcollection/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

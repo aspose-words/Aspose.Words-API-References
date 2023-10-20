@@ -1,7 +1,9 @@
 ---
 title: SignatureLine.IsValid
-second_title: Справочник по API Aspose.Words для .NET
-description: SignatureLine свойство. Указывает что строка подписи подписана цифровой подписью и эта цифровая подпись действительна.
+linktitle: IsValid
+articleTitle: IsValid
+second_title: Aspose.Words для .NET
+description: SignatureLine IsValid свойство. Указывает что строка подписи подписана цифровой подписью и эта цифровая подпись действительна на С#.
 type: docs
 weight: 70
 url: /ru/net/aspose.words.drawing/signatureline/isvalid/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.drawing/signatureline/isvalid/
 public bool IsValid { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как подписать документ личным удостоверением и строкой подписи.
 
@@ -67,7 +69,5 @@ Assert.True(signatureLine.IsValid);
 ### Смотрите также
 
 * class [SignatureLine](../)
-* пространство имен [Aspose.Words.Drawing](../../signatureline/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

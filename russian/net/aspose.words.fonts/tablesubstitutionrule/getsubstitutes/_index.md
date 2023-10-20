@@ -1,7 +1,9 @@
 ---
 title: TableSubstitutionRule.GetSubstitutes
-second_title: Справочник по API Aspose.Words для .NET
-description: TableSubstitutionRule метод. Возвращает массив содержащий имена замещающих шрифтов для указанного исходного имени шрифта.
+linktitle: GetSubstitutes
+articleTitle: GetSubstitutes
+second_title: Aspose.Words для .NET
+description: TableSubstitutionRule GetSubstitutes метод. Возвращает массив содержащий имена замещающих шрифтов для указанного исходного имени шрифта на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.fonts/tablesubstitutionrule/getsubstitutes/
@@ -22,7 +24,7 @@ public IEnumerable<string> GetSubstitutes(string originalFontName)
 
 Список альтернативных названий шрифтов.
 
-### Примеры
+## Примеры
 
 Показывает, как получить доступ к источнику системных шрифтов документа и установить заменители шрифтов.
 
@@ -134,7 +136,5 @@ doc.Save(ArtifactsDir + "FontSettings.TableSubstitutionRule.Custom.pdf");
 ### Смотрите также
 
 * class [TableSubstitutionRule](../)
-* пространство имен [Aspose.Words.Fonts](../../tablesubstitutionrule/)
+* пространство имен [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,9 +1,11 @@
 ---
 title: ChartSeries.Remove
-second_title: Aspose.Words för .NET API Referens
-description: ChartSeries metod. Tar bort Xvärdet Yvärdet och bubbelstorleken om det stöds från diagramserien vid det angivna indexet. Motsvarande datapunkt och dataetikett tas också bort.
+linktitle: Remove
+articleTitle: Remove
+second_title: Aspose.Words för .NET
+description: ChartSeries Remove metod. Tar bort Xvärdet Yvärdet och bubbelstorleken om det stöds från diagramserien vid det angivna indexet. Motsvarande datapunkt och dataetikett tas också bort i C#.
 type: docs
-weight: 210
+weight: 200
 url: /sv/net/aspose.words.drawing.charts/chartseries/remove/
 ---
 ## ChartSeries.Remove method
@@ -14,7 +16,7 @@ Tar bort X-värdet, Y-värdet och bubbelstorleken, om det stöds, från diagrams
 public void Remove(int index)
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man lägger till/tar bort diagramdatavärden.
 
@@ -42,7 +44,5 @@ doc.Save(ArtifactsDir + "Charts.ChartDataValues.docx");
 ### Se även
 
 * class [ChartSeries](../)
-* namnutrymme [Aspose.Words.Drawing.Charts](../../chartseries/)
+* namnutrymme [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../../)
-
-

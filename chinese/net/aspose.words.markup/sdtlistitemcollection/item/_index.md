@@ -1,7 +1,9 @@
 ---
 title: SdtListItemCollection.Item
-second_title: Aspose.Words for .NET API 参考
-description: SdtListItemCollection 财产. 返回一个SdtListItem对象在集合中给出从零开始的索引
+linktitle: Item
+articleTitle: Item
+second_title: 用于 .NET 的 Aspose.Words
+description: SdtListItemCollection Item 财产. 返回一个SdtListItem对象在集合中给出从零开始的索引 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.markup/sdtlistitemcollection/item/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.markup/sdtlistitemcollection/item/
 public SdtListItem this[int index] { get; }
 ```
 
-### 例子
+## 例子
 
 展示如何使用下拉列表结构化文档标签。
 
@@ -72,7 +74,5 @@ Assert.AreEqual(0, listItems.Count);
 
 * class [SdtListItem](../../sdtlistitem/)
 * class [SdtListItemCollection](../)
-* 命名空间 [Aspose.Words.Markup](../../sdtlistitemcollection/)
+* 命名空间 [Aspose.Words.Markup](../../../aspose.words.markup/)
 * 部件 [Aspose.Words](../../../)
-
-

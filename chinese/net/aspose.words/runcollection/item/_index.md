@@ -1,7 +1,9 @@
 ---
 title: RunCollection.Item
-second_title: Aspose.Words for .NET API 参考
-description: RunCollection 财产. 检索Run在给定的索引.
+linktitle: Item
+articleTitle: Item
+second_title: 用于 .NET 的 Aspose.Words
+description: RunCollection Item 财产. 检索Run在给定的索引 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words/runcollection/item/
@@ -18,7 +20,7 @@ public Run this[int index] { get; }
 | --- | --- |
 | index | 集合的索引。 |
 
-### 评论
+## 评论
 
 该索引是从零开始的。
 
@@ -28,7 +30,7 @@ public Run this[int index] { get; }
 
 如果索引为负并且其绝对值大于列表中的项目数，则返回空引用。
 
-### 例子
+## 例子
 
 演示如何确定内联节点的修订类型。
 
@@ -85,7 +87,5 @@ Assert.IsTrue(runs[5].IsDeleteRevision);
 
 * class [Run](../../run/)
 * class [RunCollection](../)
-* 命名空间 [Aspose.Words](../../runcollection/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

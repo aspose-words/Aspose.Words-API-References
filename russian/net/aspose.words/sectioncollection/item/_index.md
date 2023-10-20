@@ -1,7 +1,9 @@
 ---
 title: SectionCollection.Item
-second_title: Справочник по API Aspose.Words для .NET
-description: SectionCollection свойство. Извлекает раздел по заданному индексу.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words для .NET
+description: SectionCollection Item свойство. Извлекает раздел по заданному индексу на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words/sectioncollection/item/
@@ -18,7 +20,7 @@ public Section this[int index] { get; }
 | --- | --- |
 | index | Индекс в списке разделов. |
 
-### Примечания
+## Примечания
 
 Индекс отсчитывается от нуля.
 
@@ -28,7 +30,7 @@ public Section this[int index] { get; }
 
 Если индекс отрицателен и его абсолютное значение превышает количество элементов в списке, возвращается нулевая ссылка.
 
-### Примеры
+## Примеры
 
 Показывает, когда следует пересчитать макет страницы документа.
 
@@ -83,7 +85,5 @@ Assert.AreEqual("Hello world!", doc.GetText().Trim());
 
 * class [Section](../../section/)
 * class [SectionCollection](../)
-* пространство имен [Aspose.Words](../../sectioncollection/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

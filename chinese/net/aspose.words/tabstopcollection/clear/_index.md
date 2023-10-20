@@ -1,7 +1,9 @@
 ---
 title: TabStopCollection.Clear
-second_title: Aspose.Words for .NET API 参考
-description: TabStopCollection 方法. 删除所有制表位位置
+linktitle: Clear
+articleTitle: Clear
+second_title: 用于 .NET 的 Aspose.Words
+description: TabStopCollection Clear 方法. 删除所有制表位位置 在 C#.
 type: docs
 weight: 60
 url: /zh/net/aspose.words/tabstopcollection/clear/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/tabstopcollection/clear/
 public void Clear()
 ```
 
-### 例子
+## 例子
 
 展示如何使用文档的制表位集合。
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "TabStopCollection.TabStopCollection.docx");
 ### 也可以看看
 
 * class [TabStopCollection](../)
-* 命名空间 [Aspose.Words](../../tabstopcollection/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

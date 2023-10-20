@@ -1,7 +1,9 @@
 ---
-title: Class FontSavingArgs
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Saving.FontSavingArgs فصل. يوفر بيانات لـFontSaving حدث.
+title: FontSavingArgs Class
+linktitle: FontSavingArgs
+articleTitle: FontSavingArgs
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Saving.FontSavingArgs فصل. يوفر بيانات لـFontSaving حدث في C#.
 type: docs
 weight: 5030
 url: /ar/net/aspose.words.saving/fontsavingargs/
@@ -32,7 +34,7 @@ public class FontSavingArgs
 | [OriginalFileName](../../aspose.words.saving/fontsavingargs/originalfilename/) { get; } | يحصل على اسم ملف الخط الأصلي بامتداد. |
 | [OriginalFileSize](../../aspose.words.saving/fontsavingargs/originalfilesize/) { get; } | الحصول على حجم ملف الخط الأصلي. |
 
-### ملاحظات
+## ملاحظات
 
 عندما يقوم Aspose.Words بحفظ مستند بتنسيق HTML أو التنسيقات ذات الصلة و[`ExportFontResources`](../htmlsaveoptions/exportfontresources/) تم ضبط على`حقيقي`، فهو يحفظ كل موضوع خط لتصديره إلى ملف منفصل.
 
@@ -44,7 +46,7 @@ public class FontSavingArgs
 
 لحفظ الخطوط في التدفقات بدلاً من الملفات، استخدم الملف[`FontStream`](./fontstream/) ملكية.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحديد المنطق المخصص لتصدير الخطوط عند الحفظ إلى HTML.
 
@@ -105,5 +107,3 @@ public class HandleFontSaving : IFontSavingCallback
 
 * مساحة الاسم [Aspose.Words.Saving](../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../)
-
-

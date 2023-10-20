@@ -1,7 +1,9 @@
 ---
 title: SignatureLineOptions.DefaultInstructions
-second_title: Справочник по API Aspose.Words для .NET
-description: SignatureLineOptions свойство. Получает или задает значение указывающее что инструкции по умолчанию отображаются в диалоговом окне Подпись. Значение по умолчанию для этого свойстваистинный .
+linktitle: DefaultInstructions
+articleTitle: DefaultInstructions
+second_title: Aspose.Words для .NET
+description: SignatureLineOptions DefaultInstructions свойство. Получает или задает значение указывающее что инструкции по умолчанию отображаются в диалоговом окне Подпись. Значение по умолчанию для этого свойстваистинный  на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words/signaturelineoptions/defaultinstructions/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/signaturelineoptions/defaultinstructions/
 public bool DefaultInstructions { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как подписать документ личным удостоверением и строкой подписи.
 
@@ -67,7 +69,5 @@ Assert.True(signatureLine.IsValid);
 ### Смотрите также
 
 * class [SignatureLineOptions](../)
-* пространство имен [Aspose.Words](../../signaturelineoptions/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

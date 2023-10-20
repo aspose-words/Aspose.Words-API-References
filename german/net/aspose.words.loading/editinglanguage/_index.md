@@ -1,7 +1,9 @@
 ---
-title: Enum EditingLanguage
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Loading.EditingLanguage opsomming. Gibt die Bearbeitungssprache an.
+title: EditingLanguage Enum
+linktitle: EditingLanguage
+articleTitle: EditingLanguage
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Loading.EditingLanguage opsomming. Gibt die Bearbeitungssprache an in C#.
 type: docs
 weight: 3600
 url: /de/net/aspose.words.loading/editinglanguage/
@@ -246,7 +248,7 @@ public enum EditingLanguage
 | Yiddish | `1085` |  |
 | Yoruba | `1130` |  |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie beim Laden eines Dokuments Spracheinstellungen angewendet werden.
 
@@ -266,5 +268,3 @@ Console.WriteLine(localeIdFarEast == (int)EditingLanguage.Japanese
 
 * namensraum [Aspose.Words.Loading](../../aspose.words.loading/)
 * Montage [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.GetShapeRenderer
-second_title: Aspose.Words for .NET API 参考
-description: ShapeBase 方法. 创建并返回一个可用于将此形状渲染为图像的对象
+linktitle: GetShapeRenderer
+articleTitle: GetShapeRenderer
+second_title: 用于 .NET 的 Aspose.Words
+description: ShapeBase GetShapeRenderer 方法. 创建并返回一个可用于将此形状渲染为图像的对象 在 C#.
 type: docs
 weight: 660
 url: /zh/net/aspose.words.drawing/shapebase/getshaperenderer/
@@ -18,11 +20,11 @@ public ShapeRenderer GetShapeRenderer()
 
 该形状的渲染器对象。
 
-### 评论
+## 评论
 
 这个方法只是调用[`ShapeRenderer`](../../../aspose.words.rendering/shaperenderer/)构造函数并传递 这个对象作为参数。
 
-### 例子
+## 例子
 
 演示如何使用形状渲染器将形状导出到本地文件系统中的文件。
 
@@ -48,7 +50,5 @@ foreach (Shape shape in doc.GetChildNodes(NodeType.Shape, true).OfType<Shape>())
 
 * class [ShapeRenderer](../../../aspose.words.rendering/shaperenderer/)
 * class [ShapeBase](../)
-* 命名空间 [Aspose.Words.Drawing](../../shapebase/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

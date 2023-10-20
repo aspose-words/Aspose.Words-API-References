@@ -1,7 +1,9 @@
 ---
 title: NodeList.ToArray
-second_title: Справочник по API Aspose.Words для .NET
-description: NodeList метод. Копирует все узлы из коллекции в новый массив узлов.
+linktitle: ToArray
+articleTitle: ToArray
+second_title: Aspose.Words для .NET
+description: NodeList ToArray метод. Копирует все узлы из коллекции в новый массив узлов на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words/nodelist/toarray/
@@ -18,13 +20,13 @@ public Node[] ToArray()
 
 Массив узлов.
 
-### Примечания
+## Примечания
 
 Не следует добавлять/удалять узлы во время итерации по коллекции узлов , поскольку это делает итератор недействительным и требует обновления для живых коллекций.
 
 Чтобы иметь возможность добавлять/удалять узлы во время итерации, используйте этот метод для копирования узлов в массив фиксированного размера, а затем перебирайте массив.
 
-### Примеры
+## Примеры
 
 Показывает, как выбрать определенные узлы с помощью выражения XPath.
 
@@ -58,7 +60,5 @@ Assert.AreEqual(typeof(Paragraph), node.GetType());
 
 * class [Node](../../node/)
 * class [NodeList](../)
-* пространство имен [Aspose.Words](../../nodelist/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

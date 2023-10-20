@@ -1,7 +1,9 @@
 ---
 title: Field.Type
-second_title: Aspose.Words لمراجع .NET API
-description: Field ملكية. الحصول على نوع حقل Microsoft Word.
+linktitle: Type
+articleTitle: Type
+second_title: Aspose.Words لـ .NET
+description: Field Type ملكية. الحصول على نوع حقل Microsoft Word في C#.
 type: docs
 weight: 100
 url: /ar/net/aspose.words.fields/field/type/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/field/type/
 public virtual FieldType Type { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج حقل في مستند باستخدام رمز الحقل.
 
@@ -35,7 +37,5 @@ Assert.That(DateTime.Parse(field.Result), Is.EqualTo(DateTime.Today).Within(1).D
 
 * enum [FieldType](../../fieldtype/)
 * class [Field](../)
-* مساحة الاسم [Aspose.Words.Fields](../../field/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

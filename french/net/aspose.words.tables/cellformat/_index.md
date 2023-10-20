@@ -1,7 +1,9 @@
 ---
-title: Class CellFormat
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Tables.CellFormat classe. Représente tout le formatage dune cellule de tableau.
+title: CellFormat Class
+linktitle: CellFormat
+articleTitle: CellFormat
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Tables.CellFormat classe. Représente tout le formatage dune cellule de tableau en C#.
 type: docs
 weight: 6260
 url: /fr/net/aspose.words.tables/cellformat/
@@ -23,7 +25,6 @@ public class CellFormat
 | [Borders](../../aspose.words.tables/cellformat/borders/) { get; } | Obtient la collection de bordures de la cellule. |
 | [BottomPadding](../../aspose.words.tables/cellformat/bottompadding/) { get; set; } | Renvoie ou définit la quantité d'espace (en points) à ajouter sous le contenu de la cellule. |
 | [FitText](../../aspose.words.tables/cellformat/fittext/) { get; set; } | Si`vrai` , ajuste le texte dans la cellule, en compressant chaque paragraphe à la largeur de la cellule. |
-| [HideMark](../../aspose.words.tables/cellformat/hidemark/) { get; set; } |  |
 | [HorizontalMerge](../../aspose.words.tables/cellformat/horizontalmerge/) { get; set; } | Spécifie comment la cellule est fusionnée horizontalement avec les autres cellules de la ligne. |
 | [LeftPadding](../../aspose.words.tables/cellformat/leftpadding/) { get; set; } | Renvoie ou définit la quantité d'espace (en points) à ajouter à gauche du contenu de la cellule. |
 | [Orientation](../../aspose.words.tables/cellformat/orientation/) { get; set; } | Renvoie ou définit l'orientation du texte dans une cellule de tableau. |
@@ -41,9 +42,9 @@ public class CellFormat
 | Nom | La description |
 | --- | --- |
 | [ClearFormatting](../../aspose.words.tables/cellformat/clearformatting/)() | Réinitialise le formatage de cellule par défaut. Ne modifie pas la largeur de la cellule. |
-| [SetPaddings](../../aspose.words.tables/cellformat/setpaddings/)(double, double, double, double) | Définit la quantité d'espace (en points) à ajouter à gauche/en haut/à droite/en bas du contenu de la cellule. |
+| [SetPaddings](../../aspose.words.tables/cellformat/setpaddings/)(*double, double, double, double*) | Définit la quantité d'espace (en points) à ajouter à gauche/en haut/à droite/en bas du contenu de la cellule. |
 
-### Exemples
+## Exemples
 
 Montre comment modifier le formatage d’une cellule de tableau.
 
@@ -157,5 +158,3 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
 
 * espace de noms [Aspose.Words.Tables](../../aspose.words.tables/)
 * Assemblée [Aspose.Words](../../)
-
-

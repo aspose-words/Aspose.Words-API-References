@@ -1,7 +1,9 @@
 ---
 title: PrinterSettingsContainer.DefaultPageSettingsPaperSource
-second_title: Aspose.Words for .NET API 参考
-description: PrinterSettingsContainer 财产. 参见PaperSource的DefaultPageSettings.
+linktitle: DefaultPageSettingsPaperSource
+articleTitle: DefaultPageSettingsPaperSource
+second_title: 用于 .NET 的 Aspose.Words
+description: PrinterSettingsContainer DefaultPageSettingsPaperSource 财产. 参见PaperSource的DefaultPageSettings 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.rendering/printersettingscontainer/defaultpagesettingspapersource/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.rendering/printersettingscontainer/defaultpagesettings
 public PaperSource DefaultPageSettingsPaperSource { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何访问并列出打印机的纸张来源和尺寸。
 
@@ -47,7 +49,5 @@ foreach (System.Drawing.Printing.PaperSize paperSize in container.PaperSizes)
 ### 也可以看看
 
 * class [PrinterSettingsContainer](../)
-* 命名空间 [Aspose.Words.Rendering](../../printersettingscontainer/)
+* 命名空间 [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * 部件 [Aspose.Words](../../../)
-
-

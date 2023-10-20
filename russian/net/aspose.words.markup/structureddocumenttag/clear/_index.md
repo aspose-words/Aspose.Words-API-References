@@ -1,9 +1,11 @@
 ---
 title: StructuredDocumentTag.Clear
-second_title: Справочник по API Aspose.Words для .NET
-description: StructuredDocumentTag метод. Очищает содержимое этого тега структурированного документа и отображает заполнитель если он определен.
+linktitle: Clear
+articleTitle: Clear
+second_title: Aspose.Words для .NET
+description: StructuredDocumentTag Clear метод. Очищает содержимое этого тега структурированного документа и отображает заполнитель если он определен на С#.
 type: docs
-weight: 360
+weight: 340
 url: /ru/net/aspose.words.markup/structureddocumenttag/clear/
 ---
 ## StructuredDocumentTag.Clear method
@@ -14,13 +16,13 @@ url: /ru/net/aspose.words.markup/structureddocumenttag/clear/
 public void Clear()
 ```
 
-### Примечания
+## Примечания
 
 Невозможно очистить содержимое тега структурированного документа, если он имеет версии.
 
 Если этот тег структурированного документа сопоставлен с пользовательским XML (с использованием[`XmlMapping`](../xmlmapping/) ), указанный узел XML очищается.
 
-### Примеры
+## Примеры
 
 Показывает, как удалить содержимое элементов тега структурированного документа.
 
@@ -68,7 +70,5 @@ Assert.AreEqual("Custom placeholder text.", tag.GetText().Trim());
 ### Смотрите также
 
 * class [StructuredDocumentTag](../)
-* пространство имен [Aspose.Words.Markup](../../structureddocumenttag/)
+* пространство имен [Aspose.Words.Markup](../../../aspose.words.markup/)
 * сборка [Aspose.Words](../../../)
-
-

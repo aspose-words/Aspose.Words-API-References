@@ -1,7 +1,9 @@
 ---
 title: ThemeColors.Dark1
-second_title: Aspose.Words für .NET-API-Referenz
-description: ThemeColors eigendom. Gibt die Farbe Dunkel an. 1.
+linktitle: Dark1
+articleTitle: Dark1
+second_title: Aspose.Words für .NET
+description: ThemeColors Dark1 eigendom. Gibt die Farbe Dunkel an. 1 in C#.
 type: docs
 weight: 70
 url: /de/net/aspose.words.themes/themecolors/dark1/
@@ -14,7 +16,7 @@ Gibt die Farbe Dunkel an. 1.
 public Color Dark1 { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie benutzerdefinierte Farben und Schriftarten für Designs festlegen.
 
@@ -62,7 +64,5 @@ doc.Save(ArtifactsDir + "Themes.CustomColorsAndFonts.docx");
 ### Siehe auch
 
 * class [ThemeColors](../)
-* namensraum [Aspose.Words.Themes](../../themecolors/)
+* namensraum [Aspose.Words.Themes](../../../aspose.words.themes/)
 * Montage [Aspose.Words](../../../)
-
-

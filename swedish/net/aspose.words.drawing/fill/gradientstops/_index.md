@@ -1,9 +1,11 @@
 ---
 title: Fill.GradientStops
-second_title: Aspose.Words för .NET API Referens
-description: Fill fast egendom. Får en samling avGradientStop objekt för fill.
+linktitle: GradientStops
+articleTitle: GradientStops
+second_title: Aspose.Words för .NET
+description: Fill GradientStops fast egendom. Får en samling avGradientStop objekt för fill i C#.
 type: docs
-weight: 110
+weight: 100
 url: /sv/net/aspose.words.drawing/fill/gradientstops/
 ---
 ## Fill.GradientStops property
@@ -14,7 +16,7 @@ Får en samling av[`GradientStop`](../../gradientstop/) objekt för fill.
 public GradientStopCollection GradientStops { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man lägger till övertoningsstopp i övertoningsfyllningen.
 
@@ -68,7 +70,5 @@ doc.Save(ArtifactsDir + "Shape.GradientStops.docx", saveOptions);
 
 * class [GradientStopCollection](../../gradientstopcollection/)
 * class [Fill](../)
-* namnutrymme [Aspose.Words.Drawing](../../fill/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

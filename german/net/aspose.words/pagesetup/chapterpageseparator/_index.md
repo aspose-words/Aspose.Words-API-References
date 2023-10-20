@@ -1,7 +1,9 @@
 ---
 title: PageSetup.ChapterPageSeparator
-second_title: Aspose.Words für .NET-API-Referenz
-description: PageSetup eigendom. Ruft das Trennzeichen ab das zwischen der Kapitelnummer und der Seitennummer angezeigt wird oder legt dieses fest.
+linktitle: ChapterPageSeparator
+articleTitle: ChapterPageSeparator
+second_title: Aspose.Words für .NET
+description: PageSetup ChapterPageSeparator eigendom. Ruft das Trennzeichen ab das zwischen der Kapitelnummer und der Seitennummer angezeigt wird oder legt dieses fest in C#.
 type: docs
 weight: 90
 url: /de/net/aspose.words/pagesetup/chapterpageseparator/
@@ -14,11 +16,11 @@ Ruft das Trennzeichen ab, das zwischen der Kapitelnummer und der Seitennummer an
 public ChapterPageSeparator ChapterPageSeparator { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Bevor Sie Seitenzahlen erstellen können, die Kapitelnummern enthalten, muss auf die Dokumentüberschriften ein nummeriertes Gliederungsformat angewendet werden.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit Seitenkapiteln gearbeitet wird.
 
@@ -36,7 +38,5 @@ pageSetup.HeadingLevelForChapter = 1;
 
 * enum [ChapterPageSeparator](../../chapterpageseparator/)
 * class [PageSetup](../)
-* namensraum [Aspose.Words](../../pagesetup/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

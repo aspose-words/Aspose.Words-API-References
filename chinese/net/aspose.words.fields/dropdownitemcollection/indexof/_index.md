@@ -1,7 +1,9 @@
 ---
 title: DropDownItemCollection.IndexOf
-second_title: Aspose.Words for .NET API 参考
-description: DropDownItemCollection 方法. 返回集合中指定值的从零开始的索引
+linktitle: IndexOf
+articleTitle: IndexOf
+second_title: 用于 .NET 的 Aspose.Words
+description: DropDownItemCollection IndexOf 方法. 返回集合中指定值的从零开始的索引 在 C#.
 type: docs
 weight: 70
 url: /zh/net/aspose.words.fields/dropdownitemcollection/indexof/
@@ -22,7 +24,7 @@ public int IndexOf(string value)
 
 从零开始的索引。如果没有找到则为负值。
 
-### 例子
+## 例子
 
 演示如何插入组合框字段以及编辑其项目集合中的元素。
 
@@ -76,7 +78,5 @@ dropDownItems.Clear();
 ### 也可以看看
 
 * class [DropDownItemCollection](../)
-* 命名空间 [Aspose.Words.Fields](../../dropdownitemcollection/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

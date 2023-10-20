@@ -1,7 +1,9 @@
 ---
 title: DocumentProperty.Name
-second_title: Справочник по API Aspose.Words для .NET
-description: DocumentProperty свойство. Возвращает имя свойства.
+linktitle: Name
+articleTitle: Name
+second_title: Aspose.Words для .NET
+description: DocumentProperty Name свойство. Возвращает имя свойства на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.properties/documentproperty/name/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.properties/documentproperty/name/
 public string Name { get; }
 ```
 
-### Примечания
+## Примечания
 
 Не может быть`нулевой` и не может быть пустой строкой.
 
-### Примеры
+## Примеры
 
 Показывает, как работать со встроенными свойствами документа.
 
@@ -52,7 +54,5 @@ foreach (DocumentProperty docProperty in doc.BuiltInDocumentProperties)
 ### Смотрите также
 
 * class [DocumentProperty](../)
-* пространство имен [Aspose.Words.Properties](../../documentproperty/)
+* пространство имен [Aspose.Words.Properties](../../../aspose.words.properties/)
 * сборка [Aspose.Words](../../../)
-
-

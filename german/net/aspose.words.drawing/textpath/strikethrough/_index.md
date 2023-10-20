@@ -1,7 +1,9 @@
 ---
 title: TextPath.StrikeThrough
-second_title: Aspose.Words für .NET-API-Referenz
-description: TextPath eigendom. True wenn die Schriftart als durchgestrichener Text formatiert ist.
+linktitle: StrikeThrough
+articleTitle: StrikeThrough
+second_title: Aspose.Words für .NET
+description: TextPath StrikeThrough eigendom. True wenn die Schriftart als durchgestrichener Text formatiert ist in C#.
 type: docs
 weight: 150
 url: /de/net/aspose.words.drawing/textpath/strikethrough/
@@ -14,11 +16,11 @@ True, wenn die Schriftart als durchgestrichener Text formatiert ist.
 public bool StrikeThrough { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Der Standardwert ist`FALSCH`.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man mit WordArt arbeitet.
 
@@ -121,7 +123,5 @@ private static Shape AppendWordArt(Document doc, string text, string textFontFam
 ### Siehe auch
 
 * class [TextPath](../)
-* namensraum [Aspose.Words.Drawing](../../textpath/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

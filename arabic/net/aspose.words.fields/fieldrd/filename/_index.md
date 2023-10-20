@@ -1,7 +1,9 @@
 ---
 title: FieldRD.FileName
-second_title: Aspose.Words لمراجع .NET API
-description: FieldRD ملكية. الحصول على أو تعيين اسم الملف الذي سيتم تضمينه عند إنشاء جدول محتويات أو جدول المراجع أو الفهرس.
+linktitle: FileName
+articleTitle: FileName
+second_title: Aspose.Words لـ .NET
+description: FieldRD FileName ملكية. الحصول على أو تعيين اسم الملف الذي سيتم تضمينه عند إنشاء جدول محتويات أو جدول المراجع أو الفهرس في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.fields/fieldrd/filename/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldrd/filename/
 public string FileName { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يظهر كيفية استخدام حقل RD لإنشاء جدول محتويات الإدخالات من العناوين في المستندات الأخرى.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "Field.RD.docx");
 ### أنظر أيضا
 
 * class [FieldRD](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldrd/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

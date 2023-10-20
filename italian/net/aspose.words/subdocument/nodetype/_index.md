@@ -1,7 +1,9 @@
 ---
 title: SubDocument.NodeType
-second_title: Aspose.Words per .NET API Reference
-description: SubDocument proprietà. RestituisceSubDocument .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words per .NET
+description: SubDocument NodeType proprietà. RestituisceSubDocument  in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words/subdocument/nodetype/
@@ -14,7 +16,7 @@ RestituisceSubDocument .
 public override NodeType NodeType { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come accedere al documento secondario di un documento master.
 
@@ -32,7 +34,5 @@ Assert.False(subDocument.IsComposite);
 
 * enum [NodeType](../../nodetype/)
 * class [SubDocument](../)
-* spazio dei nomi [Aspose.Words](../../subdocument/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

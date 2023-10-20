@@ -1,7 +1,9 @@
 ---
 title: WarningInfoCollection.Item
-second_title: Aspose.Words لمراجع .NET API
-description: WarningInfoCollection ملكية. الحصول على عنصر في الفهرس المحدد.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words لـ .NET
+description: WarningInfoCollection Item ملكية. الحصول على عنصر في الفهرس المحدد في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words/warninginfocollection/item/
@@ -22,7 +24,5 @@ public WarningInfo this[int index] { get; }
 
 * class [WarningInfo](../../warninginfo/)
 * class [WarningInfoCollection](../)
-* مساحة الاسم [Aspose.Words](../../warninginfocollection/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

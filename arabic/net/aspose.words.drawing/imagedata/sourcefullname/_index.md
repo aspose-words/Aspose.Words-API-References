@@ -1,7 +1,9 @@
 ---
 title: ImageData.SourceFullName
-second_title: Aspose.Words لمراجع .NET API
-description: ImageData ملكية. الحصول على أو تعيين مسار واسم الملف المصدر للصورة المرتبطة.
+linktitle: SourceFullName
+articleTitle: SourceFullName
+second_title: Aspose.Words لـ .NET
+description: ImageData SourceFullName ملكية. الحصول على أو تعيين مسار واسم الملف المصدر للصورة المرتبطة في C#.
 type: docs
 weight: 170
 url: /ar/net/aspose.words.drawing/imagedata/sourcefullname/
@@ -14,13 +16,13 @@ url: /ar/net/aspose.words.drawing/imagedata/sourcefullname/
 public string SourceFullName { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 القيمة الافتراضية هي سلسلة فارغة.
 
 لو`SourceFullName` ليست سلسلة فارغة، الصورة مرتبطة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج صورة مرتبطة في مستند.
 
@@ -62,7 +64,5 @@ Assert.True(10000 > new FileInfo(ArtifactsDir + "Image.CreateLinkedImage.Linked.
 ### أنظر أيضا
 
 * class [ImageData](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../imagedata/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

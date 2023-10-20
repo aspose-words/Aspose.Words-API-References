@@ -1,7 +1,9 @@
 ---
 title: ReplacingArgs.MatchOffset
-second_title: Aspose.Words لمراجع .NET API
-description: ReplacingArgs ملكية. الحصول على موضع البداية الصفري للمطابقة من بداية العقدة التي تحتوي على بداية المباراة.
+linktitle: MatchOffset
+articleTitle: MatchOffset
+second_title: Aspose.Words لـ .NET
+description: ReplacingArgs MatchOffset ملكية. الحصول على موضع البداية الصفري للمطابقة من بداية العقدة التي تحتوي على بداية المباراة في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.replacing/replacingargs/matchoffset/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.replacing/replacingargs/matchoffset/
 public int MatchOffset { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تطبيق خط مختلف على المحتوى الجديد عبر FindReplaceOptions.
 
@@ -87,7 +89,5 @@ private class NumberHexer : IReplacingCallback
 ### أنظر أيضا
 
 * class [ReplacingArgs](../)
-* مساحة الاسم [Aspose.Words.Replacing](../../replacingargs/)
+* مساحة الاسم [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * المجسم [Aspose.Words](../../../)
-
-

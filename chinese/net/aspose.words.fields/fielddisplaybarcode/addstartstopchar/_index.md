@@ -1,7 +1,9 @@
 ---
 title: FieldDisplayBarcode.AddStartStopChar
-second_title: Aspose.Words for .NET API 参考
-description: FieldDisplayBarcode 财产. 获取或设置是否为条码类型NW7和CODE39添加开始/停止字符
+linktitle: AddStartStopChar
+articleTitle: AddStartStopChar
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldDisplayBarcode AddStartStopChar 财产. 获取或设置是否为条码类型NW7和CODE39添加开始/停止字符 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.fields/fielddisplaybarcode/addstartstopchar/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fielddisplaybarcode/addstartstopchar/
 public bool AddStartStopChar { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何插入 DISPLAYBARCODE 字段并设置其属性。
 
@@ -72,7 +74,5 @@ doc.Save(ArtifactsDir + "Field.DISPLAYBARCODE.docx");
 ### 也可以看看
 
 * class [FieldDisplayBarcode](../)
-* 命名空间 [Aspose.Words.Fields](../../fielddisplaybarcode/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

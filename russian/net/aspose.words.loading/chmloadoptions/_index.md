@@ -1,7 +1,9 @@
 ---
-title: Class ChmLoadOptions
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Loading.ChmLoadOptions сорт. Позволяет указать дополнительные параметры при загрузке документа CHM в файл.Document объект.
+title: ChmLoadOptions Class
+linktitle: ChmLoadOptions
+articleTitle: ChmLoadOptions
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Loading.ChmLoadOptions сорт. Позволяет указать дополнительные параметры при загрузке документа CHM в файл.Document объект на С#.
 type: docs
 weight: 3570
 url: /ru/net/aspose.words.loading/chmloadoptions/
@@ -48,12 +50,10 @@ public class ChmLoadOptions : LoadOptions
 
 | Имя | Описание |
 | --- | --- |
-| override [Equals](../../aspose.words.loading/loadoptions/equals/)(object) |  |
+| override [Equals](../../aspose.words.loading/loadoptions/equals/)(*object*) |  |
 
 ### Смотрите также
 
 * class [LoadOptions](../loadoptions/)
 * пространство имен [Aspose.Words.Loading](../../aspose.words.loading/)
 * сборка [Aspose.Words](../../)
-
-

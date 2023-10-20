@@ -1,7 +1,9 @@
 ---
 title: LoadOptions.PreserveIncludePictureField
-second_title: Aspose.Words for .NET API 参考
-description: LoadOptions 财产. 获取或设置读取 Microsoft Word 格式时是否保留 INCLUDEPICTURE 字段 默认值为错误的.
+linktitle: PreserveIncludePictureField
+articleTitle: PreserveIncludePictureField
+second_title: 用于 .NET 的 Aspose.Words
+description: LoadOptions PreserveIncludePictureField 财产. 获取或设置读取 Microsoft Word 格式时是否保留 INCLUDEPICTURE 字段 默认值为错误的 在 C#.
 type: docs
 weight: 120
 url: /zh/net/aspose.words.loading/loadoptions/preserveincludepicturefield/
@@ -14,13 +16,13 @@ url: /zh/net/aspose.words.loading/loadoptions/preserveincludepicturefield/
 public bool PreserveIncludePictureField { get; set; }
 ```
 
-### 评论
+## 评论
 
 默认情况下，INCLUDEPICTURE 字段会转换为形状对象。如果您需要保留字段（例如，如果您希望以编程方式更新它），则可以覆盖该字段。但请注意，this 方法对于 Aspose.Words 并不常见。自行承担使用风险。
 
 可能的用例之一可能是使用 MERGEFIELD 作为子字段来动态更改图片的源 path 。在这种情况下，您需要将 INCLUDEPICTURE 保留在模型中。
 
-### 例子
+## 例子
 
 演示如何在加载文档时保留或丢弃 INCLUDEPICTURE 字段。
 
@@ -62,7 +64,5 @@ using (MemoryStream docStream = new MemoryStream())
 ### 也可以看看
 
 * class [LoadOptions](../)
-* 命名空间 [Aspose.Words.Loading](../../loadoptions/)
+* 命名空间 [Aspose.Words.Loading](../../../aspose.words.loading/)
 * 部件 [Aspose.Words](../../../)
-
-

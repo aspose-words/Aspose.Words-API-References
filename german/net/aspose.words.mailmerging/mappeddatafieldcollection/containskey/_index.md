@@ -1,7 +1,9 @@
 ---
 title: MappedDataFieldCollection.ContainsKey
-second_title: Aspose.Words für .NET-API-Referenz
-description: MappedDataFieldCollection methode. Bestimmt ob eine Zuordnung aus dem angegebenen Feld im Dokument in der Sammlung vorhanden ist.
+linktitle: ContainsKey
+articleTitle: ContainsKey
+second_title: Aspose.Words für .NET
+description: MappedDataFieldCollection ContainsKey methode. Bestimmt ob eine Zuordnung aus dem angegebenen Feld im Dokument in der Sammlung vorhanden ist in C#.
 type: docs
 weight: 50
 url: /de/net/aspose.words.mailmerging/mappeddatafieldcollection/containskey/
@@ -22,7 +24,7 @@ public bool ContainsKey(string documentFieldName)
 
 `WAHR` wenn Artikel in der Sammlung gefunden wird; ansonsten,`FALSCH`.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Datenspalten und MERGEFIELDs mit unterschiedlichen Namen zugeordnet werden, damit die Daten während eines Seriendrucks zwischen ihnen übertragen werden.
 
@@ -107,7 +109,5 @@ private static DataTable CreateSourceTableMappedDataFields()
 ### Siehe auch
 
 * class [MappedDataFieldCollection](../)
-* namensraum [Aspose.Words.MailMerging](../../mappeddatafieldcollection/)
+* namensraum [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * Montage [Aspose.Words](../../../)
-
-

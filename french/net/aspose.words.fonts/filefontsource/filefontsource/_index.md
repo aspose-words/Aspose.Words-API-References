@@ -1,12 +1,14 @@
 ---
-title: FileFontSource.FileFontSource
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FileFontSource constructeur. Directeur.
+title: FileFontSource
+linktitle: FileFontSource
+articleTitle: FileFontSource
+second_title: Aspose.Words pour .NET
+description: FileFontSource constructeur. Directeur en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.fonts/filefontsource/filefontsource/
 ---
-## FileFontSource(string) {#constructor}
+## FileFontSource(*string*) {#constructor}
 
 Directeur.
 
@@ -18,7 +20,7 @@ public FileFontSource(string filePath)
 | --- | --- | --- |
 | filePath | String | Chemin d'accès au fichier de police. |
 
-### Exemples
+## Exemples
 
 Montre comment utiliser un fichier de police dans le système de fichiers local comme source de police.
 
@@ -37,12 +39,12 @@ Assert.AreEqual(0, fileFontSource.Priority);
 ### Voir également
 
 * class [FileFontSource](../)
-* espace de noms [Aspose.Words.Fonts](../../filefontsource/)
+* espace de noms [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * Assemblée [Aspose.Words](../../../)
 
 ---
 
-## FileFontSource(string, int) {#constructor_1}
+## FileFontSource(*string, int*) {#constructor_1}
 
 Directeur.
 
@@ -55,7 +57,7 @@ public FileFontSource(string filePath, int priority)
 | filePath | String | Chemin d'accès au fichier de police. |
 | priority | Int32 | Priorité de la source de police. Voir le[`Priority`](../../fontsourcebase/priority/) Description de la propriété pour plus d'informations. |
 
-### Exemples
+## Exemples
 
 Montre comment utiliser un fichier de police dans le système de fichiers local comme source de police.
 
@@ -74,12 +76,12 @@ Assert.AreEqual(0, fileFontSource.Priority);
 ### Voir également
 
 * class [FileFontSource](../)
-* espace de noms [Aspose.Words.Fonts](../../filefontsource/)
+* espace de noms [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * Assemblée [Aspose.Words](../../../)
 
 ---
 
-## FileFontSource(string, int, string) {#constructor_2}
+## FileFontSource(*string, int, string*) {#constructor_2}
 
 Directeur.
 
@@ -93,7 +95,7 @@ public FileFontSource(string filePath, int priority, string cacheKey)
 | priority | Int32 | Priorité de la source de police. Voir le[`Priority`](../../fontsourcebase/priority/) Description de la propriété pour plus d'informations. |
 | cacheKey | String | La clé de cette source dans le cache. Voir[`CacheKey`](../cachekey/) Description de la propriété pour plus d'informations. |
 
-### Exemples
+## Exemples
 
 Montre comment accélérer le processus d’initialisation du cache de polices.
 
@@ -144,7 +146,5 @@ private class SearchCacheStream : StreamFontSource
 ### Voir également
 
 * class [FileFontSource](../)
-* espace de noms [Aspose.Words.Fonts](../../filefontsource/)
+* espace de noms [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * Assemblée [Aspose.Words](../../../)
-
-

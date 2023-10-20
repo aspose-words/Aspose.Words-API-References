@@ -1,7 +1,9 @@
 ---
 title: FieldToc.EntryIdentifier
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldToc свойство. Получает или задает строку которая должна соответствовать идентификаторам типов включаемых полей TC.
+linktitle: EntryIdentifier
+articleTitle: EntryIdentifier
+second_title: Aspose.Words для .NET
+description: FieldToc EntryIdentifier свойство. Получает или задает строку которая должна соответствовать идентификаторам типов включаемых полей TC на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.fields/fieldtoc/entryidentifier/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldtoc/entryidentifier/
 public string EntryIdentifier { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как вставить поле TOC и отфильтровать поля TC, которые в конечном итоге станут записями.
 
@@ -66,7 +68,5 @@ public void InsertTocEntry(DocumentBuilder builder, string text, string typeIden
 ### Смотрите также
 
 * class [FieldToc](../)
-* пространство имен [Aspose.Words.Fields](../../fieldtoc/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

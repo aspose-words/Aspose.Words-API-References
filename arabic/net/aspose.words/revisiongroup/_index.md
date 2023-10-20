@@ -1,7 +1,9 @@
 ---
-title: Class RevisionGroup
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.RevisionGroup فصل. يمثل مجموعة متسلسلةRevision الكائنات.
+title: RevisionGroup Class
+linktitle: RevisionGroup
+articleTitle: RevisionGroup
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.RevisionGroup فصل. يمثل مجموعة متسلسلةRevision الكائنات في C#.
 type: docs
 weight: 4780
 url: /ar/net/aspose.words/revisiongroup/
@@ -24,7 +26,7 @@ public class RevisionGroup
 | [RevisionType](../../aspose.words/revisiongroup/revisiontype/) { get; } | الحصول على نوع المراجعات المضمنة في هذه المجموعة. |
 | [Text](../../aspose.words/revisiongroup/text/) { get; } | إرجاع النص المدرج/المحذوف/المنقول أو وصف تغيير التنسيق. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية طباعة معلومات حول مجموعة من المراجعات في مستند.
 
@@ -44,5 +46,3 @@ foreach (RevisionGroup group in doc.Revisions.Groups)
 
 * مساحة الاسم [Aspose.Words](../../aspose.words/)
 * المجسم [Aspose.Words](../../)
-
-

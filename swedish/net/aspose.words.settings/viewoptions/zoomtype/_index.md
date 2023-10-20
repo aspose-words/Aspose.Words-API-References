@@ -1,7 +1,9 @@
 ---
 title: ViewOptions.ZoomType
-second_title: Aspose.Words för .NET API Referens
-description: ViewOptions fast egendom. Hämtar eller ställer in ett zoomvärde baserat på fönstrets storlek.
+linktitle: ZoomType
+articleTitle: ZoomType
+second_title: Aspose.Words för .NET
+description: ViewOptions ZoomType fast egendom. Hämtar eller ställer in ett zoomvärde baserat på fönstrets storlek i C#.
 type: docs
 weight: 60
 url: /sv/net/aspose.words.settings/viewoptions/zoomtype/
@@ -14,7 +16,7 @@ Hämtar eller ställer in ett zoomvärde baserat på fönstrets storlek.
 public ZoomType ZoomType { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man ställer in en anpassad zoomfaktor, vilken äldre versioner av Microsoft Word kommer att tillämpa på ett dokument vid inläsning.
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "ViewOptions.SetZoomType.doc");
 
 * enum [ZoomType](../../zoomtype/)
 * class [ViewOptions](../)
-* namnutrymme [Aspose.Words.Settings](../../viewoptions/)
+* namnutrymme [Aspose.Words.Settings](../../../aspose.words.settings/)
 * hopsättning [Aspose.Words](../../../)
-
-

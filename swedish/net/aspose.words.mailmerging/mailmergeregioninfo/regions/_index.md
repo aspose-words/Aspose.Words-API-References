@@ -1,7 +1,9 @@
 ---
 title: MailMergeRegionInfo.Regions
-second_title: Aspose.Words för .NET API Referens
-description: MailMergeRegionInfo fast egendom. Returnerar en lista över underordnade regioner.
+linktitle: Regions
+articleTitle: Regions
+second_title: Aspose.Words för .NET
+description: MailMergeRegionInfo Regions fast egendom. Returnerar en lista över underordnade regioner i C#.
 type: docs
 weight: 80
 url: /sv/net/aspose.words.mailmerging/mailmergeregioninfo/regions/
@@ -14,7 +16,7 @@ Returnerar en lista över underordnade regioner.
 public IList<MailMergeRegionInfo> Regions { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man verifierar kopplingsregioner.
 
@@ -59,7 +61,5 @@ Assert.AreEqual("TableEnd:NestedRegion1", endFieldMergeField.FieldName);
 ### Se även
 
 * class [MailMergeRegionInfo](../)
-* namnutrymme [Aspose.Words.MailMerging](../../mailmergeregioninfo/)
+* namnutrymme [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * hopsättning [Aspose.Words](../../../)
-
-

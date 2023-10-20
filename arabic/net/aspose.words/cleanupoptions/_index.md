@@ -1,7 +1,9 @@
 ---
-title: Class CleanupOptions
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.CleanupOptions فصل. يسمح بتحديد خيارات تنظيف المستندات.
+title: CleanupOptions Class
+linktitle: CleanupOptions
+articleTitle: CleanupOptions
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.CleanupOptions فصل. يسمح بتحديد خيارات تنظيف المستندات في C#.
 type: docs
 weight: 210
 url: /ar/net/aspose.words/cleanupoptions/
@@ -31,7 +33,7 @@ public class CleanupOptions
 | [UnusedLists](../../aspose.words/cleanupoptions/unusedlists/) { get; set; } | يحدد ما إذا كان يجب إزالة القائمة غير المستخدمة وتعريفات القائمة من المستند. القيمة الافتراضية هي`حقيقي` . |
 | [UnusedStyles](../../aspose.words/cleanupoptions/unusedstyles/) { get; set; } | يحدد ما إذا كان يجب إزالة الأنماط غير المستخدمة من المستند. القيمة الافتراضية هي`حقيقي` . |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إزالة جميع الأنماط المخصصة غير المستخدمة من المستند.
 
@@ -81,5 +83,3 @@ Assert.AreEqual(2, doc.Styles.Count);
 
 * مساحة الاسم [Aspose.Words](../../aspose.words/)
 * المجسم [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: OdsoFieldMapDataCollection.GetEnumerator
-second_title: Aspose.Words for .NET API 参考
-description: OdsoFieldMapDataCollection 方法. 返回一个枚举器对象可用于迭代集合中的所有项目
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: 用于 .NET 的 Aspose.Words
+description: OdsoFieldMapDataCollection GetEnumerator 方法. 返回一个枚举器对象可用于迭代集合中的所有项目 在 C#.
 type: docs
 weight: 60
 url: /zh/net/aspose.words.settings/odsofieldmapdatacollection/getenumerator/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.settings/odsofieldmapdatacollection/getenumerator/
 public IEnumerator<OdsoFieldMapData> GetEnumerator()
 ```
 
-### 例子
+## 例子
 
 演示如何访问将数据源列映射到合并字段的数据集合。
 
@@ -58,7 +60,5 @@ Assert.AreEqual(0, dataCollection.Count);
 
 * class [OdsoFieldMapData](../../odsofieldmapdata/)
 * class [OdsoFieldMapDataCollection](../)
-* 命名空间 [Aspose.Words.Settings](../../odsofieldmapdatacollection/)
+* 命名空间 [Aspose.Words.Settings](../../../aspose.words.settings/)
 * 部件 [Aspose.Words](../../../)
-
-

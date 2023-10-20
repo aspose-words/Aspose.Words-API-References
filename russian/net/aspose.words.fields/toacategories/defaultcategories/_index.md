@@ -1,7 +1,9 @@
 ---
 title: ToaCategories.DefaultCategories
-second_title: Справочник по API Aspose.Words для .NET
-description: ToaCategories свойство. Получает таблицу категорий полномочий по умолчанию.
+linktitle: DefaultCategories
+articleTitle: DefaultCategories
+second_title: Aspose.Words для .NET
+description: ToaCategories DefaultCategories свойство. Получает таблицу категорий полномочий по умолчанию на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.fields/toacategories/defaultcategories/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.fields/toacategories/defaultcategories/
 public static ToaCategories DefaultCategories { get; }
 ```
 
-### Примечания
+## Примечания
 
 Используйте[`ToaCategories`](../../fieldoptions/toacategories/) свойство для указания таблицы категорий полномочий для одного документа.
 
-### Примеры
+## Примеры
 
 Показывает, как указать набор категорий для полей TOA.
 
@@ -66,7 +68,5 @@ doc.Save(ArtifactsDir + "FieldOptions.TOA.Categories.docx");
 ### Смотрите также
 
 * class [ToaCategories](../)
-* пространство имен [Aspose.Words.Fields](../../toacategories/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

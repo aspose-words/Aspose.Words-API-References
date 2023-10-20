@@ -1,7 +1,9 @@
 ---
 title: IPageLayoutCallback.Notify
-second_title: Aspose.Words per .NET API Reference
-description: IPageLayoutCallback metodo. Viene richiamato per notificare la creazione del layout e lavanzamento del rendering.
+linktitle: Notify
+articleTitle: Notify
+second_title: Aspose.Words per .NET
+description: IPageLayoutCallback Notify metodo. Viene richiamato per notificare la creazione del layout e lavanzamento del rendering in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words.layout/ipagelayoutcallback/notify/
@@ -18,11 +20,11 @@ public void Notify(PageLayoutCallbackArgs args)
 | --- | --- | --- |
 | args | PageLayoutCallbackArgs | Un argomento dell'evento. |
 
-### Osservazioni
+## Osservazioni
 
 L'eccezione generata dall'implementazione interrompe il processo di creazione del layout.
 
-### Esempi
+## Esempi
 
 Mostra come tenere traccia delle modifiche al layout con un callback del layout.
 
@@ -89,7 +91,5 @@ private class RenderPageLayoutCallback : IPageLayoutCallback
 
 * class [PageLayoutCallbackArgs](../../pagelayoutcallbackargs/)
 * interface [IPageLayoutCallback](../)
-* spazio dei nomi [Aspose.Words.Layout](../../ipagelayoutcallback/)
+* spazio dei nomi [Aspose.Words.Layout](../../../aspose.words.layout/)
 * assemblea [Aspose.Words](../../../)
-
-

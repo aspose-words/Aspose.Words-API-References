@@ -1,7 +1,9 @@
 ---
 title: ImageSaveOptions.UseGdiEmfRenderer
-second_title: Referencia de API de Aspose.Words para .NET
-description: ImageSaveOptions propiedad. Obtiene o establece un valor que determina si se debe usar el procesador de metarchivos GDI o Aspose.Words al guardar en EMF.
+linktitle: UseGdiEmfRenderer
+articleTitle: UseGdiEmfRenderer
+second_title: Aspose.Words para .NET
+description: ImageSaveOptions UseGdiEmfRenderer propiedad. Obtiene o establece un valor que determina si se debe usar el procesador de metarchivos GDI o Aspose.Words al guardar en EMF en C#.
 type: docs
 weight: 190
 url: /es/net/aspose.words.saving/imagesaveoptions/usegdiemfrenderer/
@@ -14,7 +16,7 @@ Obtiene o establece un valor que determina si se debe usar el procesador de meta
 public bool UseGdiEmfRenderer { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 Si se establece en`verdadero` Se utiliza el renderizador de metarchivos GDI+. Es decir, el contenido se escribe en el objeto Graphics GDI+ y se guarda en un metarchivo.
 
@@ -26,7 +28,7 @@ El guardado de GDI+ solo funciona en .NET.
 
 El valor predeterminado es`verdadero`.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo elegir un procesador al convertir un documento a .emf.
 
@@ -60,7 +62,5 @@ Document doc = new Document();
 ### Ver también
 
 * class [ImageSaveOptions](../)
-* espacio de nombres [Aspose.Words.Saving](../../imagesaveoptions/)
+* espacio de nombres [Aspose.Words.Saving](../../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../../)
-
-

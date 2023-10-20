@@ -1,7 +1,9 @@
 ---
 title: IHyphenationCallback.RequestDictionary
-second_title: Aspose.Words for .NET API 参考
-description: IHyphenationCallback 方法. 通知应用程序未找到指定语言的连字符字典可能需要注册
+linktitle: RequestDictionary
+articleTitle: RequestDictionary
+second_title: 用于 .NET 的 Aspose.Words
+description: IHyphenationCallback RequestDictionary 方法. 通知应用程序未找到指定语言的连字符字典可能需要注册 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words/ihyphenationcallback/requestdictionary/
@@ -22,11 +24,11 @@ public void RequestDictionary(string language)
 | --- | --- | --- |
 | language | String | 语言名称，例如“en-US”。有关详细信息，请参阅 .NET 文档中的“区域性名称”和 RFC 4646。 |
 
-### 评论
+## 评论
 
 此方法抛出的异常将中止页面布局过程的执行。
 
-### 例子
+## 例子
 
 演示如何从文件打开和注册字典。
 
@@ -102,7 +104,5 @@ private class CustomHyphenationDictionaryRegister : IHyphenationCallback
 ### 也可以看看
 
 * interface [IHyphenationCallback](../)
-* 命名空间 [Aspose.Words](../../ihyphenationcallback/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

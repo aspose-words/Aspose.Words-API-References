@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ScaleImageToShapeSize
-second_title: Aspose.Words per .NET API Reference
-description: HtmlSaveOptions proprietà. Specifica se le immagini vengono ridimensionate da Aspose.Words alla dimensione della forma delimitante durante lesportazione in HTML MHTML o EPUB. Il valore predefinito èVERO .
+linktitle: ScaleImageToShapeSize
+articleTitle: ScaleImageToShapeSize
+second_title: Aspose.Words per .NET
+description: HtmlSaveOptions ScaleImageToShapeSize proprietà. Specifica se le immagini vengono ridimensionate da Aspose.Words alla dimensione della forma delimitante durante lesportazione in HTML MHTML o EPUB. Il valore predefinito èVERO  in C#.
 type: docs
 weight: 450
 url: /it/net/aspose.words.saving/htmlsaveoptions/scaleimagetoshapesize/
@@ -14,7 +16,7 @@ Specifica se le immagini vengono ridimensionate da Aspose.Words alla dimensione 
 public bool ScaleImageToShapeSize { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Un'immagine in un documento di Microsoft Word è una forma. La forma ha una dimensione e l'immagine ha una propria dimensione. Le dimensioni non sono direttamente collegate. Ad esempio, l'immagine può essere 1024x786 pixel, ma la forma che visualizza questa immagine può essere 400x300 punti.
 
@@ -26,7 +28,7 @@ In generale, i browser eseguono un ridimensionamento rapido e di scarsa qualità
 
 Oltre alle forme contenenti singole immagini raster, questa opzione influisce anche sulle forme di gruppo costituite da immagini raster. Se`ScaleImageToShapeSize` È`falso` e una forma di gruppo contiene immagini raster la cui risoluzione intrinseca è superiore al valore specificato in[`ImageResolution`](../imageresolution/), Aspose.Words aumenterà la risoluzione di rendering per quel gruppo. Ciò consente di preservare meglio la qualità delle immagini raggruppate ad alta risoluzione durante il salvataggio in HTML.
 
-### Esempi
+## Esempi
 
 Mostra come disabilitare il ridimensionamento delle immagini rispetto alle dimensioni della forma principale durante il salvataggio in .html.
 
@@ -82,7 +84,5 @@ Document doc = new Document();
 
 * property [ImageResolution](../imageresolution/)
 * class [HtmlSaveOptions](../)
-* spazio dei nomi [Aspose.Words.Saving](../../htmlsaveoptions/)
+* spazio dei nomi [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../../)
-
-

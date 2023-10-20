@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ExportFontsAsBase64
-second_title: Aspose.Words لمراجع .NET API
-description: HtmlSaveOptions ملكية. يحدد ما إذا كان يجب تضمين موارد الخطوط في HTML في ترميز Base64. الافتراضي هوخطأ شنيع .
+linktitle: ExportFontsAsBase64
+articleTitle: ExportFontsAsBase64
+second_title: Aspose.Words لـ .NET
+description: HtmlSaveOptions ExportFontsAsBase64 ملكية. يحدد ما إذا كان يجب تضمين موارد الخطوط في HTML في ترميز Base64. الافتراضي هوخطأ شنيع  في C#.
 type: docs
 weight: 150
 url: /ar/net/aspose.words.saving/htmlsaveoptions/exportfontsasbase64/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.saving/htmlsaveoptions/exportfontsasbase64/
 public bool ExportFontsAsBase64 { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 بشكل افتراضي، تتم كتابة الخطوط لملفات منفصلة. إذا تم ضبط هذا الخيار على`حقيقي`سيتم تضمين الخطوط في ملف CSS الخاص بالمستند بتشفير Base64.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تضمين الخطوط داخل مستند HTML محفوظ.
 
@@ -58,7 +60,5 @@ Assert.True(exportImagesAsBase64
 ### أنظر أيضا
 
 * class [HtmlSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../htmlsaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldListNum.HasListName
-second_title: Aspose.Words per .NET API Reference
-description: FieldListNum proprietà. Restituisce un valore che indica se il nome di una definizione di numerazione astratta è fornito dal codice del campo.
+linktitle: HasListName
+articleTitle: HasListName
+second_title: Aspose.Words per .NET
+description: FieldListNum HasListName proprietà. Restituisce un valore che indica se il nome di una definizione di numerazione astratta è fornito dal codice del campo in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words.fields/fieldlistnum/haslistname/
@@ -14,7 +16,7 @@ Restituisce un valore che indica se il nome di una definizione di numerazione as
 public bool HasListName { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come numerare i paragrafi con i campi LISTNUM.
 
@@ -84,7 +86,5 @@ doc.Save(ArtifactsDir + "Field.LISTNUM.docx");
 ### Guarda anche
 
 * class [FieldListNum](../)
-* spazio dei nomi [Aspose.Words.Fields](../../fieldlistnum/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

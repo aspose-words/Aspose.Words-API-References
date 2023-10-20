@@ -1,7 +1,9 @@
 ---
 title: Table.Description
-second_title: Aspose.Words för .NET API Referens
-description: Table fast egendom. Hämtar eller ställer in en beskrivning av denna tabell. Den ger en alternativ textrepresentation av informationen i tabellen.
+linktitle: Description
+articleTitle: Description
+second_title: Aspose.Words för .NET
+description: Table Description fast egendom. Hämtar eller ställer in en beskrivning av denna tabell. Den ger en alternativ textrepresentation av informationen i tabellen i C#.
 type: docs
 weight: 110
 url: /sv/net/aspose.words.tables/table/description/
@@ -14,13 +16,13 @@ Hämtar eller ställer in en beskrivning av denna tabell. Den ger en alternativ 
 public string Description { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Standardvärdet är en tom sträng.
 
 Den här egenskapen är meningsfull för ISO/IEC 29500-kompatibla DOCX documents ([`OoxmlCompliance`](../../../aspose.words.saving/ooxmlcompliance/)). När egenskapen sparas i pre-ISO/IEC 29500-format ignoreras egenskapen.
 
-### Exempel
+## Exempel
 
 Visar hur man bygger en kapslad tabell utan att använda ett dokumentbyggare.
 
@@ -76,7 +78,5 @@ private static Table CreateTable(Document doc, int rowCount, int cellCount, stri
 ### Se även
 
 * class [Table](../)
-* namnutrymme [Aspose.Words.Tables](../../table/)
+* namnutrymme [Aspose.Words.Tables](../../../aspose.words.tables/)
 * hopsättning [Aspose.Words](../../../)
-
-

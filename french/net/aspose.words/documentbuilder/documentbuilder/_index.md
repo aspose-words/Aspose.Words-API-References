@@ -1,7 +1,9 @@
 ---
-title: DocumentBuilder.DocumentBuilder
-second_title: Référence de l'API Aspose.Words pour .NET
-description: DocumentBuilder constructeur. Initialise une nouvelle instance de cette classe.
+title: DocumentBuilder
+linktitle: DocumentBuilder
+articleTitle: DocumentBuilder
+second_title: Aspose.Words pour .NET
+description: DocumentBuilder constructeur. Initialise une nouvelle instance de cette classe en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words/documentbuilder/documentbuilder/
@@ -14,11 +16,11 @@ Initialise une nouvelle instance de cette classe.
 public DocumentBuilder()
 ```
 
-### Remarques
+## Remarques
 
 Crée un nouveau[`DocumentBuilder`](../) objet et l'attache à un nouveau[`Document`](../../document/) objet.
 
-### Exemples
+## Exemples
 
 Montre comment insérer du texte formaté à l’aide de DocumentBuilder.
 
@@ -40,12 +42,12 @@ builder.Write("Hello world!");
 ### Voir également
 
 * class [DocumentBuilder](../)
-* espace de noms [Aspose.Words](../../documentbuilder/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
 
 ---
 
-## DocumentBuilder(Document) {#constructor_1}
+## DocumentBuilder(*[Document](../../document/)*) {#constructor_1}
 
 Initialise une nouvelle instance de cette classe.
 
@@ -57,11 +59,11 @@ public DocumentBuilder(Document doc)
 | --- | --- | --- |
 | doc | Document | Le[`Document`](../../document/) objet auquel s’attacher. |
 
-### Remarques
+## Remarques
 
 Crée un nouveau[`DocumentBuilder`](../) objet, s'attache à l'objet spécifié[`Document`](../../document/)object. Le curseur est positionné au début du document.
 
-### Exemples
+## Exemples
 
 Montre comment créer des en-têtes et des pieds de page dans un document à l'aide de DocumentBuilder.
 
@@ -142,7 +144,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertToc.docx");
 
 * class [Document](../../document/)
 * class [DocumentBuilder](../)
-* espace de noms [Aspose.Words](../../documentbuilder/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

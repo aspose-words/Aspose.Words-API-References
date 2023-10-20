@@ -1,9 +1,11 @@
 ---
 title: DocumentBuilder.StartBookmark
-second_title: Aspose.Words for .NET API 参考
-description: DocumentBuilder 方法. 将文档中的当前位置标记为书签开始
+linktitle: StartBookmark
+articleTitle: StartBookmark
+second_title: 用于 .NET 的 Aspose.Words
+description: DocumentBuilder StartBookmark 方法. 将文档中的当前位置标记为书签开始 在 C#.
 type: docs
-weight: 620
+weight: 610
 url: /zh/net/aspose.words/documentbuilder/startbookmark/
 ---
 ## DocumentBuilder.StartBookmark method
@@ -22,13 +24,13 @@ public BookmarkStart StartBookmark(string bookmarkName)
 
 刚刚创建的书签起始节点。
 
-### 评论
+## 评论
 
 文档中的书签可以重叠并跨越任何范围。要创建有效的书签，您需要 调用两者`StartBookmark`和[`EndBookmark`](../endbookmark/)与相同的*bookmarkName* 参数。
 
 保存文档时，格式错误的书签或名称重复的书签将被忽略。
 
-### 例子
+## 例子
 
 展示如何创建书签。
 
@@ -71,7 +73,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertHyperlinkToLocalBookmark.docx");
 
 * class [BookmarkStart](../../bookmarkstart/)
 * class [DocumentBuilder](../)
-* 命名空间 [Aspose.Words](../../documentbuilder/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: EditableRange.Remove
-second_title: Aspose.Words لمراجع .NET API
-description: EditableRange طريقة. يزيل النطاق القابل للتحرير من المستند. لا يزيل المحتوى الموجود داخل النطاق القابل للتحرير.
+linktitle: Remove
+articleTitle: Remove
+second_title: Aspose.Words لـ .NET
+description: EditableRange Remove طريقة. يزيل النطاق القابل للتحرير من المستند. لا يزيل المحتوى الموجود داخل النطاق القابل للتحرير في C#.
 type: docs
 weight: 60
 url: /ar/net/aspose.words/editablerange/remove/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/editablerange/remove/
 public void Remove()
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع نطاق قابل للتحرير.
 
@@ -60,7 +62,5 @@ editableRange.Remove();
 ### أنظر أيضا
 
 * class [EditableRange](../)
-* مساحة الاسم [Aspose.Words](../../editablerange/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

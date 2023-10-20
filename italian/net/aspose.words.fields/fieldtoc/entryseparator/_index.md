@@ -1,7 +1,9 @@
 ---
 title: FieldToc.EntrySeparator
-second_title: Aspose.Words per .NET API Reference
-description: FieldToc proprietà. Ottiene o imposta una sequenza di caratteri che separano una voce e il relativo numero di pagina.
+linktitle: EntrySeparator
+articleTitle: EntrySeparator
+second_title: Aspose.Words per .NET
+description: FieldToc EntrySeparator proprietà. Ottiene o imposta una sequenza di caratteri che separano una voce e il relativo numero di pagina in C#.
 type: docs
 weight: 70
 url: /it/net/aspose.words.fields/fieldtoc/entryseparator/
@@ -14,7 +16,7 @@ Ottiene o imposta una sequenza di caratteri che separano una voce e il relativo 
 public string EntrySeparator { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come inserire un sommario e popolarlo con voci basate sugli stili di intestazione.
 
@@ -99,7 +101,5 @@ public void InsertNewPageWithHeading(DocumentBuilder builder, string captionText
 ### Guarda anche
 
 * class [FieldToc](../)
-* spazio dei nomi [Aspose.Words.Fields](../../fieldtoc/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,9 +1,11 @@
 ---
 title: ChartFormat.ShapeType
-second_title: Aspose.Words per .NET API Reference
-description: ChartFormat proprietà. Ottiene o imposta il tipo di forma dellelemento del grafico principale.
+linktitle: ShapeType
+articleTitle: ShapeType
+second_title: Aspose.Words per .NET
+description: ChartFormat ShapeType proprietà. Ottiene o imposta il tipo di forma dellelemento del grafico principale in C#.
 type: docs
-weight: 30
+weight: 20
 url: /it/net/aspose.words.drawing.charts/chartformat/shapetype/
 ---
 ## ChartFormat.ShapeType property
@@ -14,11 +16,11 @@ Ottiene o imposta il tipo di forma dell'elemento del grafico principale.
 public ChartShapeType ShapeType { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Attualmente la proprietà può essere utilizzata solo per le etichette dati.
 
-### Esempi
+## Esempi
 
 Mostra come impostare la formattazione di riempimento, tratto e didascalia per le etichette dei dati del grafico.
 
@@ -60,7 +62,5 @@ doc.Save(ArtifactsDir + "Charts.FormatDataLables.docx");
 
 * enum [ChartShapeType](../../chartshapetype/)
 * class [ChartFormat](../)
-* spazio dei nomi [Aspose.Words.Drawing.Charts](../../chartformat/)
+* spazio dei nomi [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * assemblea [Aspose.Words](../../../)
-
-

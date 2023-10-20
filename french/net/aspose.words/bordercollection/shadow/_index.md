@@ -1,7 +1,9 @@
 ---
 title: BorderCollection.Shadow
-second_title: Référence de l'API Aspose.Words pour .NET
-description: BorderCollection propriété. Obtient ou définit une valeur indiquant si la bordure a une ombre.
+linktitle: Shadow
+articleTitle: Shadow
+second_title: Aspose.Words pour .NET
+description: BorderCollection Shadow propriété. Obtient ou définit une valeur indiquant si la bordure a une ombre en C#.
 type: docs
 weight: 110
 url: /fr/net/aspose.words/bordercollection/shadow/
@@ -14,13 +16,13 @@ Obtient ou définit une valeur indiquant si la bordure a une ombre.
 public bool Shadow { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 Obtient la valeur de la première bordure de la collection.
 
 Définit la valeur de toutes les bordures de la collection, à l'exception des bordures diagonales.
 
-### Exemples
+## Exemples
 
 Montre comment créer une bordure de page ondulée verte avec une ombre.
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "PageSetup.PageBorders.docx");
 ### Voir également
 
 * class [BorderCollection](../)
-* espace de noms [Aspose.Words](../../bordercollection/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FileFormatUtil.SaveFormatToExtension
-second_title: Referencia de API de Aspose.Words para .NET
-description: FileFormatUtil método. Convierte un valor enumerado de formato guardado en una extensión de archivo. La extensión devuelta es una cadena en minúsculas con un punto inicial.
+linktitle: SaveFormatToExtension
+articleTitle: SaveFormatToExtension
+second_title: Aspose.Words para .NET
+description: FileFormatUtil SaveFormatToExtension método. Convierte un valor enumerado de formato guardado en una extensión de archivo. La extensión devuelta es una cadena en minúsculas con un punto inicial en C#.
 type: docs
 weight: 80
 url: /es/net/aspose.words/fileformatutil/saveformattoextension/
@@ -20,13 +22,13 @@ public static string SaveFormatToExtension(SaveFormat saveFormat)
 | --- | --- |
 | ArgumentException | Lanza cuando no se puede convertir. |
 
-### Observaciones
+## Observaciones
 
 ElWordML El valor se convierte a ".wml".
 
 ElFlatOpc El valor se convierte a ".fopc".
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo utilizar los métodos FileFormatUtil para detectar el formato de un documento.
 
@@ -60,7 +62,5 @@ using (FileStream docStream = File.OpenRead(MyDir + "Word document with missing 
 
 * enum [SaveFormat](../../saveformat/)
 * class [FileFormatUtil](../)
-* espacio de nombres [Aspose.Words](../../fileformatutil/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

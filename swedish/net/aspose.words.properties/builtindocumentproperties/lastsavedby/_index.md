@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.LastSavedBy
-second_title: Aspose.Words för .NET API Referens
-description: BuiltInDocumentProperties fast egendom. Hämtar eller ställer in namnet på den senaste författaren.
+linktitle: LastSavedBy
+articleTitle: LastSavedBy
+second_title: Aspose.Words för .NET
+description: BuiltInDocumentProperties LastSavedBy fast egendom. Hämtar eller ställer in namnet på den senaste författaren i C#.
 type: docs
 weight: 160
 url: /sv/net/aspose.words.properties/builtindocumentproperties/lastsavedby/
@@ -14,11 +16,11 @@ Hämtar eller ställer in namnet på den senaste författaren.
 public string LastSavedBy { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Aspose.Words uppdaterar inte den här egenskapen.
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med dokumentegenskaper i kategorin "Ursprung".
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "DocumentProperties.Origin.docx");
 ### Se även
 
 * class [BuiltInDocumentProperties](../)
-* namnutrymme [Aspose.Words.Properties](../../builtindocumentproperties/)
+* namnutrymme [Aspose.Words.Properties](../../../aspose.words.properties/)
 * hopsättning [Aspose.Words](../../../)
-
-

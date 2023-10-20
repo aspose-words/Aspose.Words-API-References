@@ -1,7 +1,9 @@
 ---
 title: ImageSaveOptions.PixelFormat
-second_title: Aspose.Words for .NET API 参考
-description: ImageSaveOptions 财产. 获取或设置生成图像的像素格式
+linktitle: PixelFormat
+articleTitle: PixelFormat
+second_title: 用于 .NET 的 Aspose.Words
+description: ImageSaveOptions PixelFormat 财产. 获取或设置生成图像的像素格式 在 C#.
 type: docs
 weight: 120
 url: /zh/net/aspose.words.saving/imagesaveoptions/pixelformat/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.saving/imagesaveoptions/pixelformat/
 public ImagePixelFormat PixelFormat { get; set; }
 ```
 
-### 评论
+## 评论
 
 此属性仅在保存为光栅图像格式时有效。
 
@@ -22,7 +24,7 @@ public ImagePixelFormat PixelFormat { get; set; }
 
 由于 GDI+ 的工作，输出图像的像素格式可能与设置的 value 不同。
 
-### 例子
+## 例子
 
 演示如何选择将文档渲染为图像的每像素比特率。
 
@@ -88,7 +90,5 @@ Document doc = new Document();
 
 * enum [ImagePixelFormat](../../imagepixelformat/)
 * class [ImageSaveOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../imagesaveoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

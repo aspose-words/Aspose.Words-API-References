@@ -1,9 +1,11 @@
 ---
 title: CellFormat.Width
-second_title: Aspose.Words per .NET API Reference
-description: CellFormat proprietà. Ottiene la larghezza della cella in punti.
+linktitle: Width
+articleTitle: Width
+second_title: Aspose.Words per .NET
+description: CellFormat Width proprietà. Ottiene la larghezza della cella in punti in C#.
 type: docs
-weight: 140
+weight: 130
 url: /it/net/aspose.words.tables/cellformat/width/
 ---
 ## CellFormat.Width property
@@ -14,13 +16,13 @@ Ottiene la larghezza della cella in punti.
 public double Width { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 La larghezza viene calcolata da Aspose.Words durante il caricamento e il salvataggio del documento. Attualmente, non tutte le combinazioni di proprietà di tabella, cella e documento sono supportate. Il valore restituito potrebbe non essere accurato per alcuni documenti. Potrebbe non corrispondere esattamente al larghezza della cella calcolata da MS Word quando il documento viene aperto in MS Word.
 
 L'impostazione di questa proprietà non è consigliata. Non vi è alcuna garanzia che la cella abbia effettivamente la larghezza impostata. La larghezza può essere regolata per adattarsi al contenuto della cella in un layout di tabella con adattamento automatico. Le celle in altre righe potrebbero avere una larghezza in conflitto settings. La tabella può essere ridimensionata per adattarsi al contenitore o per soddisfare le impostazioni di larghezza della tabella. Considera l'utilizzo[`PreferredWidth`](../preferredwidth/) per impostare la larghezza della cella. L'impostazione di questa proprietà imposta[`PreferredWidth`](../preferredwidth/)implicitamente dalla versione 15.8.
 
-### Esempi
+## Esempi
 
 Mostra come formattare le celle con un generatore di documenti.
 
@@ -128,7 +130,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
 ### Guarda anche
 
 * class [CellFormat](../)
-* spazio dei nomi [Aspose.Words.Tables](../../cellformat/)
+* spazio dei nomi [Aspose.Words.Tables](../../../aspose.words.tables/)
 * assemblea [Aspose.Words](../../../)
-
-

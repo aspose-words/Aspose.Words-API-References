@@ -1,7 +1,9 @@
 ---
 title: Hyphenation.UnregisterDictionary
-second_title: Aspose.Words för .NET API Referens
-description: Hyphenation metod. Avregistrerar en avstavningsordlista för det angivna språket.
+linktitle: UnregisterDictionary
+articleTitle: UnregisterDictionary
+second_title: Aspose.Words för .NET
+description: Hyphenation UnregisterDictionary metod. Avregistrerar en avstavningsordlista för det angivna språket i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words/hyphenation/unregisterdictionary/
@@ -20,7 +22,7 @@ public static void UnregisterDictionary(string language)
 | --- | --- | --- |
 | language | String | Ett språknamn, t.ex. "en-US". Se .NET-dokumentationen för "kulturnamn" och RFC 4646 för detaljer. |
 
-### Exempel
+## Exempel
 
 Visar hur man registrerar en avstavningsordbok.
 
@@ -57,7 +59,5 @@ doc.Save(ArtifactsDir + "Hyphenation.Dictionary.Unregistered.pdf");
 ### Se även
 
 * class [Hyphenation](../)
-* namnutrymme [Aspose.Words](../../hyphenation/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

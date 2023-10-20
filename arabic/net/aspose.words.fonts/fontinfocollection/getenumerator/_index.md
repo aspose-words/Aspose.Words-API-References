@@ -1,7 +1,9 @@
 ---
 title: FontInfoCollection.GetEnumerator
-second_title: Aspose.Words لمراجع .NET API
-description: FontInfoCollection طريقة. إرجاع كائن العداد الذي يمكن استخدامه للتكرار على كافة العناصر الموجودة في المجموعة.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words لـ .NET
+description: FontInfoCollection GetEnumerator طريقة. إرجاع كائن العداد الذي يمكن استخدامه للتكرار على كافة العناصر الموجودة في المجموعة في C#.
 type: docs
 weight: 70
 url: /ar/net/aspose.words.fonts/fontinfocollection/getenumerator/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fonts/fontinfocollection/getenumerator/
 public IEnumerator<FontInfo> GetEnumerator()
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الوصول إلى تفاصيل كل خط في المستند وطباعتها.
 
@@ -54,7 +56,5 @@ while (fontCollectionEnumerator.MoveNext())
 
 * class [FontInfo](../../fontinfo/)
 * class [FontInfoCollection](../)
-* مساحة الاسم [Aspose.Words.Fonts](../../fontinfocollection/)
+* مساحة الاسم [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * المجسم [Aspose.Words](../../../)
-
-

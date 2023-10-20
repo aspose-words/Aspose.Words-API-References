@@ -1,7 +1,9 @@
 ---
 title: NodeCollection.Contains
-second_title: Aspose.Words för .NET API Referens
-description: NodeCollection metod. Bestämmer om en nod finns i samlingen.
+linktitle: Contains
+articleTitle: Contains
+second_title: Aspose.Words för .NET
+description: NodeCollection Contains metod. Bestämmer om en nod finns i samlingen i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words/nodecollection/contains/
@@ -22,11 +24,11 @@ public bool Contains(Node node)
 
 `Sann` om föremål finns i samlingen; annat,`falsk`.
 
-### Anmärkningar
+## Anmärkningar
 
 Denna metod utför en linjär sökning; därför är den genomsnittliga exekveringstiden proportionell mot[`Count`](../count/).
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med en NodeCollection.
 
@@ -64,7 +66,5 @@ Assert.False(runs.Contains(run));
 
 * class [Node](../../node/)
 * class [NodeCollection](../)
-* namnutrymme [Aspose.Words](../../nodecollection/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

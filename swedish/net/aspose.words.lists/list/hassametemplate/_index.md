@@ -1,7 +1,9 @@
 ---
 title: List.HasSameTemplate
-second_title: Aspose.Words för .NET API Referens
-description: List metod. Returnerar sant om den aktuella listan och den givna listan skapas från samma mall.
+linktitle: HasSameTemplate
+articleTitle: HasSameTemplate
+second_title: Aspose.Words för .NET
+description: List HasSameTemplate metod. Returnerar sant om den aktuella listan och den givna listan skapas från samma mall i C#.
 type: docs
 weight: 120
 url: /sv/net/aspose.words.lists/list/hassametemplate/
@@ -14,7 +16,7 @@ Returnerar sant om den aktuella listan och den givna listan skapas från samma m
 public bool HasSameTemplate(List other)
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man definierar listor med samma ListDefId.
 
@@ -28,7 +30,5 @@ Assert.False(doc.Lists[1].HasSameTemplate(doc.Lists[2]));
 ### Se även
 
 * class [List](../)
-* namnutrymme [Aspose.Words.Lists](../../list/)
+* namnutrymme [Aspose.Words.Lists](../../../aspose.words.lists/)
 * hopsättning [Aspose.Words](../../../)
-
-

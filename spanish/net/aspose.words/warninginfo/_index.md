@@ -1,7 +1,9 @@
 ---
-title: Class WarningInfo
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.WarningInfo clase. Contiene información sobre una advertencia que Aspose.Words emitió durante la carga o el guardado del documento.
+title: WarningInfo Class
+linktitle: WarningInfo
+articleTitle: WarningInfo
+second_title: Aspose.Words para .NET
+description: Aspose.Words.WarningInfo clase. Contiene información sobre una advertencia que Aspose.Words emitió durante la carga o el guardado del documento en C#.
 type: docs
 weight: 6630
 url: /es/net/aspose.words/warninginfo/
@@ -24,11 +26,11 @@ public class WarningInfo
 | [Source](../../aspose.words/warninginfo/source/) { get; } | Devuelve el origen de la advertencia. |
 | [WarningType](../../aspose.words/warninginfo/warningtype/) { get; } | Devuelve el tipo de advertencia. |
 
-### Observaciones
+## Observaciones
 
 No crea instancias de esta clase. Los objetos de esta clase son creados y Aspose.Words los pasa al[`Warning`](../iwarningcallback/warning/) método.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo configurar la propiedad para encontrar la coincidencia más cercana para una fuente faltante entre las fuentes de fuentes disponibles.
 
@@ -89,5 +91,3 @@ public class HandleDocumentSubstitutionWarnings : IWarningCallback
 
 * espacio de nombres [Aspose.Words](../../aspose.words/)
 * asamblea [Aspose.Words](../../)
-
-

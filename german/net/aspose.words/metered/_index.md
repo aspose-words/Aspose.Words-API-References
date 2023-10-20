@@ -1,7 +1,9 @@
 ---
-title: Class Metered
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Metered klas. Stellt Methoden zum Festlegen des gemessenen Schlüssels bereit.
+title: Metered Class
+linktitle: Metered
+articleTitle: Metered
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Metered klas. Stellt Methoden zum Festlegen des gemessenen Schlüssels bereit in C#.
 type: docs
 weight: 4160
 url: /de/net/aspose.words/metered/
@@ -26,11 +28,11 @@ public class Metered
 
 | Name | Beschreibung |
 | --- | --- |
-| [SetMeteredKey](../../aspose.words/metered/setmeteredkey/)(string, string) | Legt einen gemessenen öffentlichen und privaten Schlüssel fest. Wenn Sie eine gemessene Lizenz erwerben, sollte beim Starten der Anwendung diese API aufgerufen werden. Normalerweise reicht dies aus. Wenn jedoch das Hochladen der Verbrauchsdaten immer fehlschlägt und 24 Stunden überschritten werden, wird die Lizenz auf den Evaluierungsstatus gesetzt. Um einen solchen Fall zu vermeiden, sollten Sie den Lizenzstatus regelmäßig überprüfen. Wenn es sich um den Evaluierungsstatus handelt, rufen Sie diese API erneut auf. |
+| [SetMeteredKey](../../aspose.words/metered/setmeteredkey/)(*string, string*) | Legt einen gemessenen öffentlichen und privaten Schlüssel fest. Wenn Sie eine gemessene Lizenz erwerben, sollte beim Starten der Anwendung diese API aufgerufen werden. Normalerweise reicht dies aus. Wenn jedoch das Hochladen der Verbrauchsdaten immer fehlschlägt und 24 Stunden überschritten werden, wird die Lizenz auf den Evaluierungsstatus gesetzt. Um einen solchen Fall zu vermeiden, sollten Sie den Lizenzstatus regelmäßig überprüfen. Wenn es sich um den Evaluierungsstatus handelt, rufen Sie diese API erneut auf. |
 | static [GetConsumptionCredit](../../aspose.words/metered/getconsumptioncredit/)() | Erhält Verbrauchsgutschrift |
 | static [GetConsumptionQuantity](../../aspose.words/metered/getconsumptionquantity/)() | Ruft die Größe der Verbrauchsdatei ab |
 
-### Beispiele
+## Beispiele
 
 In diesem Beispiel wird versucht, einen gemessenen öffentlichen und privaten Schlüssel festzulegen
 
@@ -73,5 +75,3 @@ Console.WriteLine($"Consumption quantity after operation: {Metered.GetConsumptio
 
 * namensraum [Aspose.Words](../../aspose.words/)
 * Montage [Aspose.Words](../../)
-
-

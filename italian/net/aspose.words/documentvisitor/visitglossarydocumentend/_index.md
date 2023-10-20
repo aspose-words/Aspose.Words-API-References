@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitGlossaryDocumentEnd
-second_title: Aspose.Words per .NET API Reference
-description: DocumentVisitor metodo. Chiamato al termine dellenumerazione di un documento di glossario.
+linktitle: VisitGlossaryDocumentEnd
+articleTitle: VisitGlossaryDocumentEnd
+second_title: Aspose.Words per .NET
+description: DocumentVisitor VisitGlossaryDocumentEnd metodo. Chiamato al termine dellenumerazione di un documento di glossario in C#.
 type: docs
 weight: 240
 url: /it/net/aspose.words/documentvisitor/visitglossarydocumentend/
@@ -22,11 +24,11 @@ public virtual VisitorAction VisitGlossaryDocumentEnd(GlossaryDocument glossary)
 
 UN[`VisitorAction`](../../visitoraction/) valore che specifica come continuare l'enumerazione.
 
-### Osservazioni
+## Osservazioni
 
 Nota: un nodo del documento glossario e i suoi figli non vengono visitati quando si esegue un Visitor su un[`Document`](../../document/) . Se vuoi eseguire un Visitatore su un documento di glossario , devi chiamare[`Accept`](../../../aspose.words.buildingblocks/glossarydocument/accept/) .
 
-### Esempi
+## Esempi
 
 Mostra le modalità di accesso agli elementi costitutivi in un documento di glossario.
 
@@ -132,7 +134,5 @@ public class GlossaryDocVisitor : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [GlossaryDocument](../../../aspose.words.buildingblocks/glossarydocument/)
 * class [DocumentVisitor](../)
-* spazio dei nomi [Aspose.Words](../../documentvisitor/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

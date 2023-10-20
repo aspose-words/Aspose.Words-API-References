@@ -1,9 +1,11 @@
 ---
 title: StructuredDocumentTag.SetUncheckedSymbol
-second_title: Referencia de API de Aspose.Words para .NET
-description: StructuredDocumentTag método. Establece el símbolo utilizado para representar el estado no marcado de un control de contenido de casilla de verificación.
+linktitle: SetUncheckedSymbol
+articleTitle: SetUncheckedSymbol
+second_title: Aspose.Words para .NET
+description: StructuredDocumentTag SetUncheckedSymbol método. Establece el símbolo utilizado para representar el estado no marcado de un control de contenido de casilla de verificación en C#.
 type: docs
-weight: 390
+weight: 370
 url: /es/net/aspose.words.markup/structureddocumenttag/setuncheckedsymbol/
 ---
 ## StructuredDocumentTag.SetUncheckedSymbol method
@@ -19,13 +21,13 @@ public void SetUncheckedSymbol(int characterCode, string fontName)
 | characterCode | Int32 | El código de carácter para el símbolo especificado. |
 | fontName | String | El nombre de la fuente que contiene el símbolo. |
 
-### Observaciones
+## Observaciones
 
 Acceder a este método sólo funcionará paraCheckbox Tipos de TDS.
 
 Para todos los demás tipos de SDT se producirá una excepción.
 
-### Ejemplos
+## Ejemplos
 
 Muestre cómo crear una etiqueta de documento estructurada en forma de casilla de verificación.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.CheckBox.docx");
 ### Ver también
 
 * class [StructuredDocumentTag](../)
-* espacio de nombres [Aspose.Words.Markup](../../structureddocumenttag/)
+* espacio de nombres [Aspose.Words.Markup](../../../aspose.words.markup/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ChartSeries.Smooth
-second_title: Aspose.Words für .NET-API-Referenz
-description: ChartSeries eigendom. Ermöglicht die Angabe ob die Linie die die Punkte im Diagramm verbindet mithilfe von CatmullRomSplines geglättet werden soll.
+linktitle: Smooth
+articleTitle: Smooth
+second_title: Aspose.Words für .NET
+description: ChartSeries Smooth eigendom. Ermöglicht die Angabe ob die Linie die die Punkte im Diagramm verbindet mithilfe von CatmullRomSplines geglättet werden soll in C#.
 type: docs
 weight: 130
 url: /de/net/aspose.words.drawing.charts/chartseries/smooth/
@@ -14,7 +16,7 @@ Ermöglicht die Angabe, ob die Linie, die die Punkte im Diagramm verbindet, mith
 public bool Smooth { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit Datenpunkten in einem Liniendiagramm gearbeitet wird.
 
@@ -76,7 +78,5 @@ private static void ApplyDataPoints(ChartSeries series, int dataPointsCount, Mar
 ### Siehe auch
 
 * class [ChartSeries](../)
-* namensraum [Aspose.Words.Drawing.Charts](../../chartseries/)
+* namensraum [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../../)
-
-

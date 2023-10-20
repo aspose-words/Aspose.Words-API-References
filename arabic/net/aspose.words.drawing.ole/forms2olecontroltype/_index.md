@@ -1,7 +1,9 @@
 ---
-title: Enum Forms2OleControlType
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Drawing.Ole.Forms2OleControlType تعداد. تعداد أنواع عناصر التحكم في Forms 2.0.
+title: Forms2OleControlType Enum
+linktitle: Forms2OleControlType
+articleTitle: Forms2OleControlType
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Drawing.Ole.Forms2OleControlType تعداد. تعداد أنواع عناصر التحكم في Forms 2.0 في C#.
 type: docs
 weight: 1130
 url: /ar/net/aspose.words.drawing.ole/forms2olecontroltype/
@@ -38,5 +40,3 @@ public enum Forms2OleControlType
 
 * مساحة الاسم [Aspose.Words.Drawing.Ole](../../aspose.words.drawing.ole/)
 * المجسم [Aspose.Words](../../)
-
-

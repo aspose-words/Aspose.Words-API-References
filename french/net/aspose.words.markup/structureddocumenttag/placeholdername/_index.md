@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTag.PlaceholderName
-second_title: Référence de l'API Aspose.Words pour .NET
-description: StructuredDocumentTag propriété. Obtient ou définit le nom duBuildingBlock contenant du texte despace réservé.
+linktitle: PlaceholderName
+articleTitle: PlaceholderName
+second_title: Aspose.Words pour .NET
+description: StructuredDocumentTag PlaceholderName propriété. Obtient ou définit le nom duBuildingBlock contenant du texte despace réservé en C#.
 type: docs
 weight: 240
 url: /fr/net/aspose.words.markup/structureddocumenttag/placeholdername/
@@ -16,7 +18,7 @@ Obtient ou définit le nom du[`BuildingBlock`](../../../aspose.words.buildingblo
 public string PlaceholderName { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment utiliser le contenu d'un bloc de construction comme texte d'espace réservé personnalisé pour une balise de document structuré.
 
@@ -63,7 +65,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.PlaceholderBuildingBlock.docx");
 ### Voir également
 
 * class [StructuredDocumentTag](../)
-* espace de noms [Aspose.Words.Markup](../../structureddocumenttag/)
+* espace de noms [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Assemblée [Aspose.Words](../../../)
-
-

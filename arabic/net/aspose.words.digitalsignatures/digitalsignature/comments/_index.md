@@ -1,7 +1,9 @@
 ---
 title: DigitalSignature.Comments
-second_title: Aspose.Words لمراجع .NET API
-description: DigitalSignature ملكية. الحصول على تعليق غرض التوقيع.
+linktitle: Comments
+articleTitle: Comments
+second_title: Aspose.Words لـ .NET
+description: DigitalSignature Comments ملكية. الحصول على تعليق غرض التوقيع في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.digitalsignatures/digitalsignature/comments/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.digitalsignatures/digitalsignature/comments/
 public string Comments { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التحقق من صحة وعرض المعلومات حول كل توقيع في المستند.
 
@@ -36,7 +38,5 @@ foreach (DigitalSignature signature in doc.DigitalSignatures)
 ### أنظر أيضا
 
 * class [DigitalSignature](../)
-* مساحة الاسم [Aspose.Words.DigitalSignatures](../../digitalsignature/)
+* مساحة الاسم [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * المجسم [Aspose.Words](../../../)
-
-

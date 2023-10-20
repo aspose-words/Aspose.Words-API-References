@@ -1,7 +1,9 @@
 ---
 title: CleanupOptions.UnusedLists
-second_title: Aspose.Words für .NET-API-Referenz
-description: CleanupOptions eigendom. Gibt an ob nicht verwendete Listen und Listendefinitionen aus dem Dokument entfernt werden sollen. Der Standardwert istWAHR .
+linktitle: UnusedLists
+articleTitle: UnusedLists
+second_title: Aspose.Words für .NET
+description: CleanupOptions UnusedLists eigendom. Gibt an ob nicht verwendete Listen und Listendefinitionen aus dem Dokument entfernt werden sollen. Der Standardwert istWAHR  in C#.
 type: docs
 weight: 40
 url: /de/net/aspose.words/cleanupoptions/unusedlists/
@@ -14,7 +16,7 @@ Gibt an, ob nicht verwendete Listen und Listendefinitionen aus dem Dokument entf
 public bool UnusedLists { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie alle nicht verwendeten benutzerdefinierten Stile aus einem Dokument entfernt werden.
 
@@ -63,7 +65,5 @@ Assert.AreEqual(2, doc.Styles.Count);
 ### Siehe auch
 
 * class [CleanupOptions](../)
-* namensraum [Aspose.Words](../../cleanupoptions/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

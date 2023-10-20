@@ -1,7 +1,9 @@
 ---
-title: Class RunCollection
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.RunCollection classe. Fournit un accès typé à une collection deRun nœuds.
+title: RunCollection Class
+linktitle: RunCollection
+articleTitle: RunCollection
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.RunCollection classe. Fournit un accès typé à une collection deRun nœuds en C#.
 type: docs
 weight: 4830
 url: /fr/net/aspose.words/runcollection/
@@ -27,17 +29,17 @@ public class RunCollection : NodeCollection
 
 | Nom | La description |
 | --- | --- |
-| [Add](../../aspose.words/nodecollection/add/)(Node) | Ajoute un nœud à la fin de la collection. |
+| [Add](../../aspose.words/nodecollection/add/)(*[Node](../node/)*) | Ajoute un nœud à la fin de la collection. |
 | [Clear](../../aspose.words/nodecollection/clear/)() | Supprime tous les nœuds de cette collection et du document. |
-| [Contains](../../aspose.words/nodecollection/contains/)(Node) | Détermine si un nœud fait partie de la collection. |
+| [Contains](../../aspose.words/nodecollection/contains/)(*[Node](../node/)*) | Détermine si un nœud fait partie de la collection. |
 | [GetEnumerator](../../aspose.words/nodecollection/getenumerator/)() | Fournit une simple itération de style "foreach" sur la collection de nœuds. |
-| [IndexOf](../../aspose.words/nodecollection/indexof/)(Node) | Renvoie l'index de base zéro du nœud spécifié. |
-| [Insert](../../aspose.words/nodecollection/insert/)(int, Node) | Insère un nœud dans la collection à l'index spécifié. |
-| [Remove](../../aspose.words/nodecollection/remove/)(Node) | Supprime le nœud de la collection et du document. |
-| [RemoveAt](../../aspose.words/nodecollection/removeat/)(int) | Supprime le nœud à l'index spécifié de la collection et du document. |
+| [IndexOf](../../aspose.words/nodecollection/indexof/)(*[Node](../node/)*) | Renvoie l'index de base zéro du nœud spécifié. |
+| [Insert](../../aspose.words/nodecollection/insert/)(*int, [Node](../node/)*) | Insère un nœud dans la collection à l'index spécifié. |
+| [Remove](../../aspose.words/nodecollection/remove/)(*[Node](../node/)*) | Supprime le nœud de la collection et du document. |
+| [RemoveAt](../../aspose.words/nodecollection/removeat/)(*int*) | Supprime le nœud à l'index spécifié de la collection et du document. |
 | [ToArray](../../aspose.words/runcollection/toarray/#toarray_1)() | Copie toutes les exécutions de la collection vers un nouveau tableau d'exécutions. (2 methods) |
 
-### Exemples
+## Exemples
 
 Montre comment déterminer le type de révision d’un nœud en ligne.
 
@@ -95,5 +97,3 @@ Assert.IsTrue(runs[5].IsDeleteRevision);
 * class [NodeCollection](../nodecollection/)
 * espace de noms [Aspose.Words](../../aspose.words/)
 * Assemblée [Aspose.Words](../../)
-
-

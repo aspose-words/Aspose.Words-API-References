@@ -1,7 +1,9 @@
 ---
 title: TableSubstitutionRule.LoadLinuxSettings
-second_title: Aspose.Words لمراجع .NET API
-description: TableSubstitutionRule طريقة. تحميل إعدادات استبدال الجدول المحددة مسبقًا لنظام التشغيل Linux.
+linktitle: LoadLinuxSettings
+articleTitle: LoadLinuxSettings
+second_title: Aspose.Words لـ .NET
+description: TableSubstitutionRule LoadLinuxSettings طريقة. تحميل إعدادات استبدال الجدول المحددة مسبقًا لنظام التشغيل Linux في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.fonts/tablesubstitutionrule/loadlinuxsettings/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fonts/tablesubstitutionrule/loadlinuxsettings/
 public void LoadLinuxSettings()
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الوصول إلى جداول استبدال الخطوط لنظامي التشغيل Windows وLinux.
 
@@ -53,7 +55,5 @@ using (FileStream fileStream = new FileStream(ArtifactsDir + "FontSettings.Table
 ### أنظر أيضا
 
 * class [TableSubstitutionRule](../)
-* مساحة الاسم [Aspose.Words.Fonts](../../tablesubstitutionrule/)
+* مساحة الاسم [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.Version
-second_title: Aspose.Words for .NET API 参考
-description: BuiltInDocumentProperties 财产. 表示创建文档的应用程序的版本号
+linktitle: Version
+articleTitle: Version
+second_title: 用于 .NET 的 Aspose.Words
+description: BuiltInDocumentProperties Version 财产. 表示创建文档的应用程序的版本号 在 C#.
 type: docs
 weight: 320
 url: /zh/net/aspose.words.properties/builtindocumentproperties/version/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.properties/builtindocumentproperties/version/
 public int Version { get; set; }
 ```
 
-### 评论
+## 评论
 
 当 Microsoft Word 创建文档时，高 16 位代表 主版本，低 16 位代表内部版本号。
 
-### 例子
+## 例子
 
 展示如何使用“来源”类别中的文档属性。
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "DocumentProperties.Origin.docx");
 ### 也可以看看
 
 * class [BuiltInDocumentProperties](../)
-* 命名空间 [Aspose.Words.Properties](../../builtindocumentproperties/)
+* 命名空间 [Aspose.Words.Properties](../../../aspose.words.properties/)
 * 部件 [Aspose.Words](../../../)
-
-

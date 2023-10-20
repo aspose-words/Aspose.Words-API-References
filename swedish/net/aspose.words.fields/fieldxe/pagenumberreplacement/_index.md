@@ -1,7 +1,9 @@
 ---
 title: FieldXE.PageNumberReplacement
-second_title: Aspose.Words för .NET API Referens
-description: FieldXE fast egendom. Hämtar eller ställer in text som används i stället för ett sidnummer.
+linktitle: PageNumberReplacement
+articleTitle: PageNumberReplacement
+second_title: Aspose.Words för .NET
+description: FieldXE PageNumberReplacement fast egendom. Hämtar eller ställer in text som används i stället för ett sidnummer i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.fields/fieldxe/pagenumberreplacement/
@@ -14,7 +16,7 @@ Hämtar eller ställer in text som används i stället för ett sidnummer.
 public string PageNumberReplacement { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man definierar korsreferenser i ett INDEX-fält.
 
@@ -64,7 +66,5 @@ doc.Save(ArtifactsDir + "Field.INDEX.XE.CrossReferenceSeparator.docx");
 ### Se även
 
 * class [FieldXE](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldxe/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

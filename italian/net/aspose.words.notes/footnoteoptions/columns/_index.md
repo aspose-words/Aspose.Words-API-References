@@ -1,7 +1,9 @@
 ---
 title: FootnoteOptions.Columns
-second_title: Aspose.Words per .NET API Reference
-description: FootnoteOptions proprietà. Specifica il numero di colonne con cui è formattata larea delle note a piè di pagina.
+linktitle: Columns
+articleTitle: Columns
+second_title: Aspose.Words per .NET
+description: FootnoteOptions Columns proprietà. Specifica il numero di colonne con cui è formattata larea delle note a piè di pagina in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words.notes/footnoteoptions/columns/
@@ -14,11 +16,11 @@ Specifica il numero di colonne con cui è formattata l'area delle note a piè di
 public int Columns { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Se questa proprietà ha valore 0, l'area delle note a piè di pagina viene formattata con un numero di colonne basato sul numero di colonne nella pagina visualizzata. Il valore predefinito è 0.
 
-### Esempi
+## Esempi
 
 Mostra come dividere la sezione della nota a piè di pagina in un determinato numero di colonne.
 
@@ -31,7 +33,5 @@ doc.Save(ArtifactsDir + "Document.FootnoteColumns.docx");
 ### Guarda anche
 
 * class [FootnoteOptions](../)
-* spazio dei nomi [Aspose.Words.Notes](../../footnoteoptions/)
+* spazio dei nomi [Aspose.Words.Notes](../../../aspose.words.notes/)
 * assemblea [Aspose.Words](../../../)
-
-

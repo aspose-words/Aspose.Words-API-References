@@ -1,7 +1,9 @@
 ---
 title: FindReplaceOptions.SmartParagraphBreakReplacement
-second_title: Aspose.Words لمراجع .NET API
-description: FindReplaceOptions ملكية. الحصول على قيمة منطقية أو تعيينها تشير إلى أنه مسموح باستبدال الفقرة Break عندما لا تكون هناك فقرة شقيقة تالية.
+linktitle: SmartParagraphBreakReplacement
+articleTitle: SmartParagraphBreakReplacement
+second_title: Aspose.Words لـ .NET
+description: FindReplaceOptions SmartParagraphBreakReplacement ملكية. الحصول على قيمة منطقية أو تعيينها تشير إلى أنه مسموح باستبدال الفقرة Break عندما لا تكون هناك فقرة شقيقة تالية في C#.
 type: docs
 weight: 160
 url: /ar/net/aspose.words.replacing/findreplaceoptions/smartparagraphbreakreplacement/
@@ -16,11 +18,11 @@ url: /ar/net/aspose.words.replacing/findreplaceoptions/smartparagraphbreakreplac
 public bool SmartParagraphBreakReplacement { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 يسمح هذا الخيار باستبدال فاصل الفقرة في حالة عدم وجود فقرة فرعية تالية يمكن نقل جميع العقد التابعة لها، وذلك من خلال البحث عن أي فقرة تالية (ليست بالضرورة فرعية) بعد الفقرة التي يتم استبدالها.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إزالة فقرة من خلية جدول تحتوي على جدول متداخل.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "Table.RemoveParagraphTextAndMark.docx");
 ### أنظر أيضا
 
 * class [FindReplaceOptions](../)
-* مساحة الاسم [Aspose.Words.Replacing](../../findreplaceoptions/)
+* مساحة الاسم [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: PageSetup.FooterDistance
-second_title: Aspose.Words for .NET API 参考
-description: PageSetup 财产. 返回或设置页脚与页面底部之间的距离以磅为单位
+linktitle: FooterDistance
+articleTitle: FooterDistance
+second_title: 用于 .NET 的 Aspose.Words
+description: PageSetup FooterDistance 财产. 返回或设置页脚与页面底部之间的距离以磅为单位 在 C#.
 type: docs
 weight: 140
 url: /zh/net/aspose.words/pagesetup/footerdistance/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/pagesetup/footerdistance/
 public double FooterDistance { get; set; }
 ```
 
-### 例子
+## 例子
 
 展示如何调整纸张尺寸、方向、边距以及某个部分的其他设置。
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "PageSetup.PageMargins.docx");
 ### 也可以看看
 
 * class [PageSetup](../)
-* 命名空间 [Aspose.Words](../../pagesetup/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

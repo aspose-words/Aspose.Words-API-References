@@ -1,7 +1,9 @@
 ---
 title: ImageData.CropTop
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ImageData propriété. Définit la fraction de suppression de limage du côté supérieur.
+linktitle: CropTop
+articleTitle: CropTop
+second_title: Aspose.Words pour .NET
+description: ImageData CropTop propriété. Définit la fraction de suppression de limage du côté supérieur en C#.
 type: docs
 weight: 90
 url: /fr/net/aspose.words.drawing/imagedata/croptop/
@@ -14,13 +16,13 @@ Définit la fraction de suppression de l'image du côté supérieur.
 public double CropTop { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 La quantité de recadrage peut varier de -1,0 à 1,0. La valeur par défaut est 0. Notez qu'une valeur de 1 n'affichera aucune image. Des valeurs négatives entraîneront que l'image soit comprimée vers l'intérieur à partir du bord recadré (l'espace vide entre l'image et le bord recadré sera rempli par la couleur de remplissage de la forme ). Des valeurs positives inférieures à 1 entraîneront l'étirement de l'image restante pour s'adapter à la forme.
 
 La valeur par défaut est 0.
 
-### Exemples
+## Exemples
 
 Montre comment modifier les données d’image d’une forme.
 
@@ -83,7 +85,5 @@ dstDoc.Save(ArtifactsDir + "Drawing.ImageData.docx");
 ### Voir également
 
 * class [ImageData](../)
-* espace de noms [Aspose.Words.Drawing](../../imagedata/)
+* espace de noms [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitCommentRangeStart
-second_title: Aspose.Words för .NET API Referens
-description: DocumentVisitor metod. Anropas när början av ett kommenterat textintervall påträffas.
+linktitle: VisitCommentRangeStart
+articleTitle: VisitCommentRangeStart
+second_title: Aspose.Words för .NET
+description: DocumentVisitor VisitCommentRangeStart metod. Anropas när början av ett kommenterat textintervall påträffas i C#.
 type: docs
 weight: 120
 url: /sv/net/aspose.words/documentvisitor/visitcommentrangestart/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitCommentRangeStart(CommentRangeStart commentRan
 
 A[`VisitorAction`](../../visitoraction/) värde som anger hur uppräkningen ska fortsätta.
 
-### Exempel
+## Exempel
 
 Visar hur du skriver ut nodstrukturen för varje kommentar och kommentarintervall i ett dokument.
 
@@ -143,7 +145,5 @@ public class CommentStructurePrinter : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [CommentRangeStart](../../commentrangestart/)
 * class [DocumentVisitor](../)
-* namnutrymme [Aspose.Words](../../documentvisitor/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

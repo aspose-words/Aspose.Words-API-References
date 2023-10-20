@@ -1,7 +1,9 @@
 ---
-title: Enum TextEffect
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.TextEffect uppräkning. Animationseffekt för textkörningar.
+title: TextEffect Enum
+linktitle: TextEffect
+articleTitle: TextEffect
+second_title: Aspose.Words för .NET
+description: Aspose.Words.TextEffect uppräkning. Animationseffekt för textkörningar i C#.
 type: docs
 weight: 6420
 url: /sv/net/aspose.words/texteffect/
@@ -30,5 +32,3 @@ public enum TextEffect
 
 * namnutrymme [Aspose.Words](../../aspose.words/)
 * hopsättning [Aspose.Words](../../)
-
-

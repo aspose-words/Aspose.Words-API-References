@@ -1,7 +1,9 @@
 ---
-title: Class NodeCollection
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.NodeCollection 班级. 表示特定类型的节点集合
+title: NodeCollection Class
+linktitle: NodeCollection
+articleTitle: NodeCollection
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.NodeCollection 班级. 表示特定类型的节点集合 在 C#.
 type: docs
 weight: 4200
 url: /zh/net/aspose.words/nodecollection/
@@ -27,17 +29,17 @@ public class NodeCollection : IEnumerable<Node>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Add](../../aspose.words/nodecollection/add/)(Node) | 将节点添加到集合的末尾。 |
+| [Add](../../aspose.words/nodecollection/add/)(*[Node](../node/)*) | 将节点添加到集合的末尾。 |
 | [Clear](../../aspose.words/nodecollection/clear/)() | 从此集合和文档中删除所有节点。 |
-| [Contains](../../aspose.words/nodecollection/contains/)(Node) | 确定节点是否在集合中。 |
+| [Contains](../../aspose.words/nodecollection/contains/)(*[Node](../node/)*) | 确定节点是否在集合中。 |
 | [GetEnumerator](../../aspose.words/nodecollection/getenumerator/)() | 在节点集合上提供简单的“foreach”样式迭代。 |
-| [IndexOf](../../aspose.words/nodecollection/indexof/)(Node) | 返回指定节点的从零开始的索引。 |
-| [Insert](../../aspose.words/nodecollection/insert/)(int, Node) | 将节点插入集合中指定索引处。 |
-| [Remove](../../aspose.words/nodecollection/remove/)(Node) | 从集合和文档中删除节点。 |
-| [RemoveAt](../../aspose.words/nodecollection/removeat/)(int) | 从集合和文档中删除指定索引处的节点。 |
+| [IndexOf](../../aspose.words/nodecollection/indexof/)(*[Node](../node/)*) | 返回指定节点的从零开始的索引。 |
+| [Insert](../../aspose.words/nodecollection/insert/)(*int, [Node](../node/)*) | 将节点插入集合中指定索引处。 |
+| [Remove](../../aspose.words/nodecollection/remove/)(*[Node](../node/)*) | 从集合和文档中删除节点。 |
+| [RemoveAt](../../aspose.words/nodecollection/removeat/)(*int*) | 从集合和文档中删除指定索引处的节点。 |
 | [ToArray](../../aspose.words/nodecollection/toarray/)() | 将集合中的所有节点复制到新的节点数组。 |
 
-### 评论
+## 评论
 
 `NodeCollection`不拥有它包含的节点，而是只是指定类型的节点 的选择，但节点存储在树中各自的父节点下。
 
@@ -49,7 +51,7 @@ public class NodeCollection : IEnumerable<Node>
 
 `NodeCollection`可以是“扁平”的并且仅包含其创建的节点 的直接子节点，也可以是“深”的并且包含所有后代子节点。
 
-### 例子
+## 例子
 
 演示如何用图像形状替换所有文本框形状。
 
@@ -96,5 +98,3 @@ doc.Save(ArtifactsDir + "Shape.ReplaceTextboxesWithImages.docx");
 * class [Node](../node/)
 * 命名空间 [Aspose.Words](../../aspose.words/)
 * 部件 [Aspose.Words](../../)
-
-

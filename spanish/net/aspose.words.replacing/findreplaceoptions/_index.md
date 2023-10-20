@@ -1,7 +1,9 @@
 ---
-title: Class FindReplaceOptions
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Replacing.FindReplaceOptions clase. Especifica opciones para operaciones de buscar/reemplazar.
+title: FindReplaceOptions Class
+linktitle: FindReplaceOptions
+articleTitle: FindReplaceOptions
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Replacing.FindReplaceOptions clase. Especifica opciones para operaciones de buscar/reemplazar en C#.
 type: docs
 weight: 4620
 url: /es/net/aspose.words.replacing/findreplaceoptions/
@@ -21,9 +23,9 @@ public class FindReplaceOptions
 | Nombre | Descripción |
 | --- | --- |
 | [FindReplaceOptions](findreplaceoptions/#constructor)() | Constructor predeterminado |
-| [FindReplaceOptions](findreplaceoptions/#constructor_1)(FindReplaceDirection) |  |
-| [FindReplaceOptions](findreplaceoptions/#constructor_3)(IReplacingCallback) |  |
-| [FindReplaceOptions](findreplaceoptions/#constructor_2)(FindReplaceDirection, IReplacingCallback) |  |
+| [FindReplaceOptions](findreplaceoptions/#constructor_1)(*[FindReplaceDirection](../findreplacedirection/)*) |  |
+| [FindReplaceOptions](findreplaceoptions/#constructor_3)(*[IReplacingCallback](../ireplacingcallback/)*) |  |
+| [FindReplaceOptions](findreplaceoptions/#constructor_2)(*[FindReplaceDirection](../findreplacedirection/), [IReplacingCallback](../ireplacingcallback/)*) |  |
 
 ## Propiedades
 
@@ -47,7 +49,7 @@ public class FindReplaceOptions
 | [UseLegacyOrder](../../aspose.words.replacing/findreplaceoptions/uselegacyorder/) { get; set; } | Verdadero indica que una búsqueda de texto se realiza secuencialmente de arriba a abajo considerando los cuadros de texto. El valor predeterminado es`FALSO` . |
 | [UseSubstitutions](../../aspose.words.replacing/findreplaceoptions/usesubstitutions/) { get; set; } | Obtiene o establece un valor booleano que indica si se reconocen y utilizan sustituciones dentro de los patrones de reemplazo. El valor predeterminado es`FALSO` . |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo alternar la distinción entre mayúsculas y minúsculas al realizar una operación de buscar y reemplazar.
 
@@ -96,5 +98,3 @@ Assert.AreEqual(
 
 * espacio de nombres [Aspose.Words.Replacing](../../aspose.words.replacing/)
 * asamblea [Aspose.Words](../../)
-
-

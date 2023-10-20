@@ -1,7 +1,9 @@
 ---
 title: FieldMergingArgsBase.FieldValue
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldMergingArgsBase eigendom. Ruft den Wert des Felds aus der Datenquelle ab oder legt diesen fest.
+linktitle: FieldValue
+articleTitle: FieldValue
+second_title: Aspose.Words für .NET
+description: FieldMergingArgsBase FieldValue eigendom. Ruft den Wert des Felds aus der Datenquelle ab oder legt diesen fest in C#.
 type: docs
 weight: 50
 url: /de/net/aspose.words.mailmerging/fieldmergingargsbase/fieldvalue/
@@ -14,11 +16,11 @@ Ruft den Wert des Felds aus der Datenquelle ab oder legt diesen fest.
 public object FieldValue { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Diese Eigenschaft enthält einen Wert, der gerade von der Serienbrief-Engine aus Ihrer Datenquelle für dieses Feld ausgewählt wurde. Sie können den Wert auch ersetzen, indem Sie die Eigenschaft festlegen.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Werte bearbeitet werden, die MERGEFIELDs erhalten, wenn ein Serienbrief stattfindet.
 
@@ -71,7 +73,5 @@ private class FieldValueMergingCallback : IFieldMergingCallback
 ### Siehe auch
 
 * class [FieldMergingArgsBase](../)
-* namensraum [Aspose.Words.MailMerging](../../fieldmergingargsbase/)
+* namensraum [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * Montage [Aspose.Words](../../../)
-
-

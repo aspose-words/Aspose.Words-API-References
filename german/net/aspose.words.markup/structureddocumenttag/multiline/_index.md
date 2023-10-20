@@ -1,26 +1,28 @@
 ---
 title: StructuredDocumentTag.Multiline
-second_title: Aspose.Words für .NET-API-Referenz
-description: StructuredDocumentTag eigendom. Gibt an ob dies der Fall ist SDT Ermöglicht mehrere Textzeilen.
+linktitle: Multiline
+articleTitle: Multiline
+second_title: Aspose.Words für .NET
+description: StructuredDocumentTag Multiline eigendom. Gibt an ob dies der Fall istSDT Ermöglicht mehrere Textzeilen in C#.
 type: docs
 weight: 210
 url: /de/net/aspose.words.markup/structureddocumenttag/multiline/
 ---
 ## StructuredDocumentTag.Multiline property
 
-Gibt an, ob dies der Fall ist **SDT** Ermöglicht mehrere Textzeilen.
+Gibt an, ob dies der Fall ist**SDT** Ermöglicht mehrere Textzeilen.
 
 ```csharp
 public bool Multiline { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Der Zugriff auf diese Eigenschaft funktioniert nur fürRichText UndPlainText SDT-Typ.
 
 Bei allen anderen SDT-Typen tritt eine Ausnahme auf.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man ein strukturiertes Dokument-Tag in einem Nur-Text-Feld erstellt und sein Erscheinungsbild ändert.
 
@@ -77,7 +79,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.PlainText.docx");
 ### Siehe auch
 
 * class [StructuredDocumentTag](../)
-* namensraum [Aspose.Words.Markup](../../structureddocumenttag/)
+* namensraum [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Montage [Aspose.Words](../../../)
-
-

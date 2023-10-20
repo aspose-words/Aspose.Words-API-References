@@ -1,7 +1,9 @@
 ---
-title: Class FontSourceBase
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Fonts.FontSourceBase classe. Questa è una classe base astratta per le classi che consentono allutente di specificare varie origini di caratteri.
+title: FontSourceBase Class
+linktitle: FontSourceBase
+articleTitle: FontSourceBase
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Fonts.FontSourceBase classe. Questa è una classe base astratta per le classi che consentono allutente di specificare varie origini di caratteri in C#.
 type: docs
 weight: 2980
 url: /it/net/aspose.words.fonts/fontsourcebase/
@@ -30,7 +32,7 @@ public abstract class FontSourceBase
 | --- | --- |
 | [GetAvailableFonts](../../aspose.words.fonts/fontsourcebase/getavailablefonts/)() | Restituisce l'elenco dei caratteri disponibili tramite questa origine. |
 
-### Esempi
+## Esempi
 
 Mostra come utilizzare un file di font nel file system locale come origine di font.
 
@@ -50,5 +52,3 @@ Assert.AreEqual(0, fileFontSource.Priority);
 
 * spazio dei nomi [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * assemblea [Aspose.Words](../../)
-
-

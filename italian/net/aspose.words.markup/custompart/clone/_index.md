@@ -1,7 +1,9 @@
 ---
 title: CustomPart.Clone
-second_title: Aspose.Words per .NET API Reference
-description: CustomPart metodo. Crea una copia abbastanza profonda delloggetto. Non duplica i byte del fileData valore.
+linktitle: Clone
+articleTitle: Clone
+second_title: Aspose.Words per .NET
+description: CustomPart Clone metodo. Crea una copia abbastanza profonda delloggetto. Non duplica i byte del fileData valore in C#.
 type: docs
 weight: 70
 url: /it/net/aspose.words.markup/custompart/clone/
@@ -14,7 +16,7 @@ Crea una copia "abbastanza profonda" dell'oggetto. Non duplica i byte del file[`
 public CustomPart Clone()
 ```
 
-### Esempi
+## Esempi
 
 Mostra come accedere alla raccolta di parti personalizzate arbitrarie di un documento.
 
@@ -58,7 +60,5 @@ Assert.AreEqual(0, doc.PackageCustomParts.Count);
 ### Guarda anche
 
 * class [CustomPart](../)
-* spazio dei nomi [Aspose.Words.Markup](../../custompart/)
+* spazio dei nomi [Aspose.Words.Markup](../../../aspose.words.markup/)
 * assemblea [Aspose.Words](../../../)
-
-

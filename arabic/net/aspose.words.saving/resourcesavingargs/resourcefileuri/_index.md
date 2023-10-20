@@ -1,7 +1,9 @@
 ---
 title: ResourceSavingArgs.ResourceFileUri
-second_title: Aspose.Words لمراجع .NET API
-description: ResourceSavingArgs ملكية. الحصول على أو تعيين معرف المورد الموحد URI المستخدم للإشارة إلى ملف المورد من المستند.
+linktitle: ResourceFileUri
+articleTitle: ResourceFileUri
+second_title: Aspose.Words لـ .NET
+description: ResourceSavingArgs ResourceFileUri ملكية. الحصول على أو تعيين معرف المورد الموحد URI المستخدم للإشارة إلى ملف المورد من المستند في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.saving/resourcesavingargs/resourcefileuri/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.saving/resourcesavingargs/resourcefileuri/
 public string ResourceFileUri { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 تسمح لك هذه الخاصية بتغيير معرفات URI لملفات الموارد المصدرة إلى مستندات HTML أو SVG ذات صفحة ثابتة.
 
@@ -24,7 +26,7 @@ public string ResourceFileUri { get; set; }
 
 [`ResourcesFolder`](../../htmlfixedsaveoptions/resourcesfolder/)[`ResourcesFolder`](../../svgsaveoptions/resourcesfolder/)[`ResourcesFolderAlias`](../../htmlfixedsaveoptions/resourcesfolderalias/)[`ResourcesFolderAlias`](../../svgsaveoptions/resourcesfolderalias/)
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام رد اتصال لتتبع الموارد الخارجية التي تم إنشاؤها أثناء تحويل مستند إلى HTML.
 
@@ -69,7 +71,5 @@ private class FontSavingCallback : IResourceSavingCallback
 ### أنظر أيضا
 
 * class [ResourceSavingArgs](../)
-* مساحة الاسم [Aspose.Words.Saving](../../resourcesavingargs/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

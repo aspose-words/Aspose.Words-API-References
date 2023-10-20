@@ -1,7 +1,9 @@
 ---
 title: FieldImport.SourceFullName
-second_title: Aspose.Words لمراجع .NET API
-description: FieldImport ملكية. الحصول على أو تعيين موقع الصورة.
+linktitle: SourceFullName
+articleTitle: SourceFullName
+second_title: Aspose.Words لـ .NET
+description: FieldImport SourceFullName ملكية. الحصول على أو تعيين موقع الصورة في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.fields/fieldimport/sourcefullname/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldimport/sourcefullname/
 public string SourceFullName { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج الصور باستخدام حقلي الاستيراد والتضمين.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "Field.IMPORT.INCLUDEPICTURE.docx");
 ### أنظر أيضا
 
 * class [FieldImport](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldimport/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

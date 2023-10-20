@@ -1,7 +1,9 @@
 ---
 title: SignatureLine.Id
-second_title: Aspose.Words for .NET API 参考
-description: SignatureLine 财产. 获取或设置此签名行的标识符
+linktitle: Id
+articleTitle: Id
+second_title: 用于 .NET 的 Aspose.Words
+description: SignatureLine Id 财产. 获取或设置此签名行的标识符 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.drawing/signatureline/id/
@@ -16,7 +18,7 @@ url: /zh/net/aspose.words.drawing/signatureline/id/
 public Guid Id { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何向文档添加签名行，然后使用数字证书对其进行签名。
 
@@ -132,7 +134,5 @@ public Guid Id { get; set; }
 ### 也可以看看
 
 * class [SignatureLine](../)
-* 命名空间 [Aspose.Words.Drawing](../../signatureline/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: BookmarkEnd.Accept
-second_title: Référence de l'API Aspose.Words pour .NET
-description: BookmarkEnd méthode. Accepte un visiteur.
+linktitle: Accept
+articleTitle: Accept
+second_title: Aspose.Words pour .NET
+description: BookmarkEnd Accept méthode. Accepte un visiteur en C#.
 type: docs
 weight: 40
 url: /fr/net/aspose.words/bookmarkend/accept/
@@ -22,13 +24,13 @@ public override bool Accept(DocumentVisitor visitor)
 
 `FAUX` si le visiteur a demandé l'arrêt de l'énumération.
 
-### Remarques
+## Remarques
 
 Appels[`VisitBookmarkEnd`](../../documentvisitor/visitbookmarkend/).
 
 Pour plus d’informations, consultez le modèle de conception Visiteur.
 
-### Exemples
+## Exemples
 
 Montre comment ajouter des signets et mettre à jour leur contenu.
 
@@ -118,7 +120,5 @@ public class BookmarkInfoPrinter : DocumentVisitor
 
 * class [DocumentVisitor](../../documentvisitor/)
 * class [BookmarkEnd](../)
-* espace de noms [Aspose.Words](../../bookmarkend/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

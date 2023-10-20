@@ -1,7 +1,9 @@
 ---
 title: Section.PageSetup
-second_title: Справочник по API Aspose.Words для .NET
-description: Section свойство. Возвращает объект который представляет настройки страницы и свойства раздела.
+linktitle: PageSetup
+articleTitle: PageSetup
+second_title: Aspose.Words для .NET
+description: Section PageSetup свойство. Возвращает объект который представляет настройки страницы и свойства раздела на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words/section/pagesetup/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/section/pagesetup/
 public PageSetup PageSetup { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как создать широкую синюю рамку в верхней части первой страницы.
 
@@ -84,7 +86,5 @@ doc.Save(ArtifactsDir + "Section.CreateManually.docx");
 
 * class [PageSetup](../../pagesetup/)
 * class [Section](../)
-* пространство имен [Aspose.Words](../../section/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

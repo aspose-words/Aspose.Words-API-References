@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabel.ShowSeriesName
-second_title: Aspose.Words for .NET API 参考
-description: ChartDataLabel 财产. 返回或设置一个布尔值以指示图表上数据标签的系列名称显示行为 真的显示系列名称错误的隐藏默认情况下错误的.
+linktitle: ShowSeriesName
+articleTitle: ShowSeriesName
+second_title: 用于 .NET 的 Aspose.Words
+description: ChartDataLabel ShowSeriesName 财产. 返回或设置一个布尔值以指示图表上数据标签的系列名称显示行为 真的显示系列名称错误的隐藏默认情况下错误的 在 C#.
 type: docs
 weight: 140
 url: /zh/net/aspose.words.drawing.charts/chartdatalabel/showseriesname/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.drawing.charts/chartdatalabel/showseriesname/
 public bool ShowSeriesName { get; set; }
 ```
 
-### 例子
+## 例子
 
 展示如何将标签应用到折线图中的数据点。
 
@@ -92,7 +94,5 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
 ### 也可以看看
 
 * class [ChartDataLabel](../)
-* 命名空间 [Aspose.Words.Drawing.Charts](../../chartdatalabel/)
+* 命名空间 [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * 部件 [Aspose.Words](../../../)
-
-

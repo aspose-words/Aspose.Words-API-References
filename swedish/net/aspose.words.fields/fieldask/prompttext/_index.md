@@ -1,7 +1,9 @@
 ---
 title: FieldAsk.PromptText
-second_title: Aspose.Words för .NET API Referens
-description: FieldAsk fast egendom. Hämtar eller ställer in prompttexten titeln på promptfönstret.
+linktitle: PromptText
+articleTitle: PromptText
+second_title: Aspose.Words för .NET
+description: FieldAsk PromptText fast egendom. Hämtar eller ställer in prompttexten titeln på promptfönstret i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.fields/fieldask/prompttext/
@@ -14,7 +16,7 @@ Hämtar eller ställer in prompttexten (titeln på promptfönstret).
 public string PromptText { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man skapar ett ASK-fält och ställer in dess egenskaper.
 
@@ -76,7 +78,5 @@ private class MyPromptRespondent : IFieldUserPromptRespondent
 ### Se även
 
 * class [FieldAsk](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldask/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

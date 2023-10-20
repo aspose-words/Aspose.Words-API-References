@@ -1,7 +1,9 @@
 ---
 title: OdsoRecipientDataCollection.RemoveAt
-second_title: Référence de l'API Aspose.Words pour .NET
-description: OdsoRecipientDataCollection méthode. Supprime lélément à lindex spécifié.
+linktitle: RemoveAt
+articleTitle: RemoveAt
+second_title: Aspose.Words pour .NET
+description: OdsoRecipientDataCollection RemoveAt méthode. Supprime lélément à lindex spécifié en C#.
 type: docs
 weight: 70
 url: /fr/net/aspose.words.settings/odsorecipientdatacollection/removeat/
@@ -18,7 +20,7 @@ public void RemoveAt(int index)
 | --- | --- | --- |
 | index | Int32 | L'index de base zéro de l'élément. |
 
-### Exemples
+## Exemples
 
 Montre comment accéder à la collection de données qui désigne les enregistrements de source de données de fusion qu'un publipostage exclura.
 
@@ -58,7 +60,5 @@ Assert.AreEqual(0, dataCollection.Count);
 ### Voir également
 
 * class [OdsoRecipientDataCollection](../)
-* espace de noms [Aspose.Words.Settings](../../odsorecipientdatacollection/)
+* espace de noms [Aspose.Words.Settings](../../../aspose.words.settings/)
 * Assemblée [Aspose.Words](../../../)
-
-

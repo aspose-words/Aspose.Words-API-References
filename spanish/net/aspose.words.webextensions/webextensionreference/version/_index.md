@@ -1,7 +1,9 @@
 ---
 title: WebExtensionReference.Version
-second_title: Referencia de API de Aspose.Words para .NET
-description: WebExtensionReference propiedad. Especifica la versión de la extensión web.
+linktitle: Version
+articleTitle: Version
+second_title: Aspose.Words para .NET
+description: WebExtensionReference Version propiedad. Especifica la versión de la extensión web en C#.
 type: docs
 weight: 50
 url: /es/net/aspose.words.webextensions/webextensionreference/version/
@@ -14,7 +16,7 @@ Especifica la versión de la extensión web.
 public string Version { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo agregar una extensión web a un documento.
 
@@ -59,7 +61,5 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 ### Ver también
 
 * class [WebExtensionReference](../)
-* espacio de nombres [Aspose.Words.WebExtensions](../../webextensionreference/)
+* espacio de nombres [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * asamblea [Aspose.Words](../../../)
-
-

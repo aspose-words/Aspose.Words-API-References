@@ -1,7 +1,9 @@
 ---
-title: HtmlSaveOptions.HtmlSaveOptions
-second_title: Aspose.Words for .NET API 参考
-description: HtmlSaveOptions 构造函数. 初始化此类的一个新实例该实例可用于将 document 保存在Html格式.
+title: HtmlSaveOptions
+linktitle: HtmlSaveOptions
+articleTitle: HtmlSaveOptions
+second_title: 用于 .NET 的 Aspose.Words
+description: HtmlSaveOptions 构造函数. 初始化此类的一个新实例该实例可用于将 document 保存在Html格式 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.saving/htmlsaveoptions/htmlsaveoptions/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.saving/htmlsaveoptions/htmlsaveoptions/
 public HtmlSaveOptions()
 ```
 
-### 例子
+## 例子
 
 演示将文档保存为 .epub 时如何使用特定编码。
 
@@ -41,12 +43,12 @@ doc.Save(ArtifactsDir + "HtmlSaveOptions.Doc2EpubSaveOptions.epub", saveOptions)
 ### 也可以看看
 
 * class [HtmlSaveOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../htmlsaveoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## HtmlSaveOptions(SaveFormat) {#constructor_1}
+## HtmlSaveOptions(*[SaveFormat](../../../aspose.words/saveformat/)*) {#constructor_1}
 
 初始化此类的一个新实例，该实例可用于将 document 保存在Html,Mhtml,Epub, Azw3或者Mobi格式.
 
@@ -58,7 +60,7 @@ public HtmlSaveOptions(SaveFormat saveFormat)
 | --- | --- | --- |
 | saveFormat | SaveFormat | 可以Html,Mhtml,Epub, Azw3或者Mobi. |
 
-### 例子
+## 例子
 
 演示如何将文档保存为特定版本的 HTML。
 
@@ -95,7 +97,5 @@ switch (htmlVersion)
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
 * class [HtmlSaveOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../htmlsaveoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

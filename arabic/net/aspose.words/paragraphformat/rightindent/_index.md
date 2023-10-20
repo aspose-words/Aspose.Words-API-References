@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.RightIndent
-second_title: Aspose.Words لمراجع .NET API
-description: ParagraphFormat ملكية. الحصول على أو تعيين القيمة بالنقاط التي تمثل المسافة البادئة الصحيحة للفقرة.
+linktitle: RightIndent
+articleTitle: RightIndent
+second_title: Aspose.Words لـ .NET
+description: ParagraphFormat RightIndent ملكية. الحصول على أو تعيين القيمة بالنقاط التي تمثل المسافة البادئة الصحيحة للفقرة في C#.
 type: docs
 weight: 270
 url: /ar/net/aspose.words/paragraphformat/rightindent/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/paragraphformat/rightindent/
 public double RightIndent { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تكوين تنسيق الفقرة لإنشاء نص خارج المركز.
 
@@ -42,7 +44,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.SetParagraphFormatting.docx");
 ### أنظر أيضا
 
 * class [ParagraphFormat](../)
-* مساحة الاسم [Aspose.Words](../../paragraphformat/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: PrinterSettingsContainer.PaperSources
-second_title: Справочник по API Aspose.Words для .NET
-description: PrinterSettingsContainer свойство. См.PaperSources .
+linktitle: PaperSources
+articleTitle: PaperSources
+second_title: Aspose.Words для .NET
+description: PrinterSettingsContainer PaperSources свойство. См.PaperSources  на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.rendering/printersettingscontainer/papersources/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.rendering/printersettingscontainer/papersources/
 public PaperSourceCollection PaperSources { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как получить доступ к источникам и форматам бумаги вашего принтера и составить их список.
 
@@ -47,7 +49,5 @@ foreach (System.Drawing.Printing.PaperSize paperSize in container.PaperSizes)
 ### Смотрите также
 
 * class [PrinterSettingsContainer](../)
-* пространство имен [Aspose.Words.Rendering](../../printersettingscontainer/)
+* пространство имен [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * сборка [Aspose.Words](../../../)
-
-

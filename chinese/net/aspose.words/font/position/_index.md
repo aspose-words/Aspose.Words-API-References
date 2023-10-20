@@ -1,7 +1,9 @@
 ---
 title: Font.Position
-second_title: Aspose.Words for .NET API 参考
-description: Font 财产. 获取或设置文本相对于基线的位置以磅为单位 正数会升高文本负数会降低文本
+linktitle: Position
+articleTitle: Position
+second_title: 用于 .NET 的 Aspose.Words
+description: Font Position 财产. 获取或设置文本相对于基线的位置以磅为单位 正数会升高文本负数会降低文本 在 C#.
 type: docs
 weight: 300
 url: /zh/net/aspose.words/font/position/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/font/position/
 public double Position { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何设置文本格式以偏移其位置。
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "Font.PositionSubscript.docx");
 ### 也可以看看
 
 * class [Font](../)
-* 命名空间 [Aspose.Words](../../font/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class Frameset
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Framesets.Frameset classe. Représente une page de cadres ou un seul cadre sur une page de cadres.
+title: Frameset Class
+linktitle: Frameset
+articleTitle: Frameset
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Framesets.Frameset classe. Représente une page de cadres ou un seul cadre sur une page de cadres en C#.
 type: docs
 weight: 3080
 url: /fr/net/aspose.words.framesets/frameset/
@@ -30,11 +32,11 @@ public class Frameset
 | [FrameDefaultUrl](../../aspose.words.framesets/frameset/framedefaulturl/) { get; set; } | Obtient ou définit l'URL de la page Web ou le nom du fichier de document à afficher dans ce cadre. |
 | [IsFrameLinkToFile](../../aspose.words.framesets/frameset/isframelinktofile/) { get; set; } | Obtient ou définit une valeur indiquant si le nom de la page Web ou du fichier de document spécifié dans the [`FrameDefaultUrl`](./framedefaulturl/) la propriété est une ressource externe à laquelle le cadre est lié. |
 
-### Remarques
+## Remarques
 
 Si le[`ChildFramesets`](./childframesets/) la propriété contient des éléments, cette instance est une page de cadres, sinon il s'agit d'un seul cadre.
 
-### Exemples
+## Exemples
 
 Montre comment accéder aux cadres sur la page.
 
@@ -60,5 +62,3 @@ doc.Frameset.ChildFramesets[0].ChildFramesets[0].IsFrameLinkToFile = false;
 
 * espace de noms [Aspose.Words.Framesets](../../aspose.words.framesets/)
 * Assemblée [Aspose.Words](../../)
-
-

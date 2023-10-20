@@ -1,7 +1,9 @@
 ---
 title: ControlChar.DefaultTextInputChar
-second_title: Aspose.Words für .NET-API-Referenz
-description: ControlChar veld. Dies ist das oZeichen das als Standardwert in Texteingabeformularfeldern verwendet wird.
+linktitle: DefaultTextInputChar
+articleTitle: DefaultTextInputChar
+second_title: Aspose.Words für .NET
+description: ControlChar DefaultTextInputChar veld. Dies ist das oZeichen das als Standardwert in Texteingabeformularfeldern verwendet wird in C#.
 type: docs
 weight: 70
 url: /de/net/aspose.words/controlchar/defaulttextinputchar/
@@ -14,7 +16,7 @@ Dies ist das „o“-Zeichen, das als Standardwert in Texteingabeformularfeldern
 public const char DefaultTextInputChar;
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man einem Dokument verschiedene Steuerzeichen hinzufügt.
 
@@ -86,7 +88,5 @@ Assert.AreEqual(Convert.ToChar(ControlChar.ColumnBreak), ControlChar.ColumnBreak
 ### Siehe auch
 
 * class [ControlChar](../)
-* namensraum [Aspose.Words](../../controlchar/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

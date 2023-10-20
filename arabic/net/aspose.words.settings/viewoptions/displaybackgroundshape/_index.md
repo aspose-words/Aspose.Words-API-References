@@ -1,7 +1,9 @@
 ---
 title: ViewOptions.DisplayBackgroundShape
-second_title: Aspose.Words لمراجع .NET API
-description: ViewOptions ملكية. يتحكم في عرض شكل الخلفية في عرض تخطيط الطباعة.
+linktitle: DisplayBackgroundShape
+articleTitle: DisplayBackgroundShape
+second_title: Aspose.Words لـ .NET
+description: ViewOptions DisplayBackgroundShape ملكية. يتحكم في عرض شكل الخلفية في عرض تخطيط الطباعة في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.settings/viewoptions/displaybackgroundshape/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.settings/viewoptions/displaybackgroundshape/
 public bool DisplayBackgroundShape { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إخفاء/عرض صور خلفية المستند في خيارات العرض.
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "ViewOptions.DisplayBackgroundShape.docx");
 ### أنظر أيضا
 
 * class [ViewOptions](../)
-* مساحة الاسم [Aspose.Words.Settings](../../viewoptions/)
+* مساحة الاسم [Aspose.Words.Settings](../../../aspose.words.settings/)
 * المجسم [Aspose.Words](../../../)
-
-

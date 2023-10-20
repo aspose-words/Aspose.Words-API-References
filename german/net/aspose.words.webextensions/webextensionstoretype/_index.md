@@ -1,7 +1,9 @@
 ---
-title: Enum WebExtensionStoreType
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.WebExtensions.WebExtensionStoreType opsomming. Listet verfügbare Typen eines WebErweiterungsspeichers auf.
+title: WebExtensionStoreType Enum
+linktitle: WebExtensionStoreType
+articleTitle: WebExtensionStoreType
+second_title: Aspose.Words für .NET
+description: Aspose.Words.WebExtensions.WebExtensionStoreType opsomming. Listet verfügbare Typen eines WebErweiterungsspeichers auf in C#.
 type: docs
 weight: 6820
 url: /de/net/aspose.words.webextensions/webextensionstoretype/
@@ -27,7 +29,7 @@ public enum WebExtensionStoreType
 | ExCatalog | `6` | Gibt an, dass der Speichertyp „Zentralisierte Bereitstellung über Exchange“ ist. |
 | Default | `0` | Standardwert. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man einem Dokument eine Weberweiterung hinzufügt.
 
@@ -73,5 +75,3 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 
 * namensraum [Aspose.Words.WebExtensions](../../aspose.words.webextensions/)
 * Montage [Aspose.Words](../../)
-
-

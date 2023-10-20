@@ -1,7 +1,9 @@
 ---
-title: Class Style
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Style classe. Rappresenta un singolo stile integrato o definito dallutente.
+title: Style Class
+linktitle: Style
+articleTitle: Style
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Style classe. Rappresenta un singolo stile integrato o definito dallutente in C#.
 type: docs
 weight: 6130
 url: /it/net/aspose.words/style/
@@ -31,7 +33,6 @@ public class Style
 | [LinkedStyleName](../../aspose.words/style/linkedstylename/) { get; } | Ottiene il nome del file`Style` legato a questo. Restituisce una stringa vuota se non ci sono stili collegati. |
 | [List](../../aspose.words/style/list/) { get; } | Ottiene l'elenco che definisce la formattazione di questo stile di elenco. |
 | [ListFormat](../../aspose.words/style/listformat/) { get; } | Fornisce l'accesso alle proprietà di formattazione dell'elenco di uno stile di paragrafo. |
-| [Locked](../../aspose.words/style/locked/) { get; set; } |  |
 | [Name](../../aspose.words/style/name/) { get; set; } | Ottiene o imposta il nome dello stile. |
 | [NextParagraphStyleName](../../aspose.words/style/nextparagraphstylename/) { get; set; } | Ottiene/imposta il nome dello stile da applicare automaticamente ad un nuovo paragrafo inserito dopo un paragrafo formattato con lo stile specificato. |
 | [ParagraphFormat](../../aspose.words/style/paragraphformat/) { get; } | Ottiene la formattazione del paragrafo dello stile. |
@@ -43,10 +44,10 @@ public class Style
 
 | Nome | Descrizione |
 | --- | --- |
-| [Equals](../../aspose.words/style/equals/#equals)(Style) | Confronta con lo stile specificato. Gli stili Istd vengono confrontati solo per gli stili incorporati. Gli stili predefiniti non sono inclusi nel confronto. Lo stile di base, lo stile collegato e lo stile del paragrafo successivo vengono confrontati ricorsivamente. |
+| [Equals](../../aspose.words/style/equals/#equals)(*Style*) | Confronta con lo stile specificato. Gli stili Istd vengono confrontati solo per gli stili incorporati. Gli stili predefiniti non sono inclusi nel confronto. Lo stile di base, lo stile collegato e lo stile del paragrafo successivo vengono confrontati ricorsivamente. |
 | [Remove](../../aspose.words/style/remove/)() | Rimuove lo stile specificato dal documento. |
 
-### Esempi
+## Esempi
 
 Mostra come creare e utilizzare uno stile di paragrafo con formattazione elenco.
 
@@ -113,5 +114,3 @@ Assert.AreEqual(Color.Empty.ToArgb(), firstParagraphStyle.Font.Color.ToArgb());
 
 * spazio dei nomi [Aspose.Words](../../aspose.words/)
 * assemblea [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldNextIf.ComparisonOperator
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldNextIf свойство. Получает или задает оператор сравнения.
+linktitle: ComparisonOperator
+articleTitle: ComparisonOperator
+second_title: Aspose.Words для .NET
+description: FieldNextIf ComparisonOperator свойство. Получает или задает оператор сравнения на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.fields/fieldnextif/comparisonoperator/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldnextif/comparisonoperator/
 public string ComparisonOperator { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как использовать поля NEXT/NEXTIF для объединения нескольких строк на одну страницу во время слияния почты.
 
@@ -96,7 +98,5 @@ public void InsertMergeField(DocumentBuilder builder, string fieldName, string t
 ### Смотрите также
 
 * class [FieldNextIf](../)
-* пространство имен [Aspose.Words.Fields](../../fieldnextif/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

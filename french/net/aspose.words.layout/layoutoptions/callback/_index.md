@@ -1,7 +1,9 @@
 ---
 title: LayoutOptions.Callback
-second_title: Référence de l'API Aspose.Words pour .NET
-description: LayoutOptions propriété. Obtient ou définitIPageLayoutCallback implémentation utilisée par le modèle de mise en page.
+linktitle: Callback
+articleTitle: Callback
+second_title: Aspose.Words pour .NET
+description: LayoutOptions Callback propriété. Obtient ou définitIPageLayoutCallback implémentation utilisée par le modèle de mise en page en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.layout/layoutoptions/callback/
@@ -18,7 +20,5 @@ public IPageLayoutCallback Callback { get; set; }
 
 * interface [IPageLayoutCallback](../../ipagelayoutcallback/)
 * class [LayoutOptions](../)
-* espace de noms [Aspose.Words.Layout](../../layoutoptions/)
+* espace de noms [Aspose.Words.Layout](../../../aspose.words.layout/)
 * Assemblée [Aspose.Words](../../../)
-
-

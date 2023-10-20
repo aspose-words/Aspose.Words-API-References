@@ -1,7 +1,9 @@
 ---
 title: HeaderFooterCollection.Item
-second_title: Aspose.Words لمراجع .NET API
-description: HeaderFooterCollection ملكية. يسترد أHeaderFooter في الفهرس المحدد.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words لـ .NET
+description: HeaderFooterCollection Item ملكية. يسترد أHeaderFooter في الفهرس المحدد في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words/headerfootercollection/item/
@@ -18,7 +20,7 @@ public HeaderFooter this[int index] { get; }
 | --- | --- |
 | index | فهرس في المجموعة. |
 
-### ملاحظات
+## ملاحظات
 
 المؤشر قائم على الصفر.
 
@@ -28,7 +30,7 @@ public HeaderFooter this[int index] { get; }
 
 إذا كان الفهرس سالبًا وقيمته المطلقة أكبر من عدد العناصر الموجودة في القائمة، فسيُرجع هذا مرجعًا فارغًا.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية ربط الرؤوس والتذييلات بين الأقسام.
 
@@ -94,7 +96,7 @@ doc.Save(ArtifactsDir + "HeaderFooter.Link.docx");
 
 * class [HeaderFooter](../../headerfooter/)
 * class [HeaderFooterCollection](../)
-* مساحة الاسم [Aspose.Words](../../headerfootercollection/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
 
 ---
@@ -111,11 +113,11 @@ public HeaderFooter this[HeaderFooterType headerFooterType] { get; }
 | --- | --- |
 | headerFooterType | أ[`HeaderFooterType`](../../headerfootertype/) value الذي يحدد نوع الرأس/التذييل المطلوب استرداده. |
 
-### ملاحظات
+## ملاحظات
 
 إرجاع`باطل` إذا لم يتم العثور على رأس/تذييل الصفحة من النوع المحدد.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استبدال النص في تذييل المستند.
 
@@ -169,7 +171,5 @@ doc.Save(ArtifactsDir + "HeaderFooter.RemoveFooters.docx");
 * class [HeaderFooter](../../headerfooter/)
 * enum [HeaderFooterType](../../headerfootertype/)
 * class [HeaderFooterCollection](../)
-* مساحة الاسم [Aspose.Words](../../headerfootercollection/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

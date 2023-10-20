@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.EndTable
-second_title: Referencia de API de Aspose.Words para .NET
-description: DocumentBuilder método. Finaliza una tabla en el documento.
+linktitle: EndTable
+articleTitle: EndTable
+second_title: Aspose.Words para .NET
+description: DocumentBuilder EndTable método. Finaliza una tabla en el documento en C#.
 type: docs
 weight: 250
 url: /es/net/aspose.words/documentbuilder/endtable/
@@ -18,11 +20,11 @@ public Table EndTable()
 
 El nodo de la tabla que acaba de terminar.
 
-### Observaciones
+## Observaciones
 
 Este método debe llamarse sólo una vez después[`EndRow`](../endrow/) fue llamado. Cuando lo llaman, `EndTable` mueve el cursor fuera de la celda actual para señalar justo después de la tabla.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo dar formato a celdas con un generador de documentos.
 
@@ -172,7 +174,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
 
 * class [Table](../../../aspose.words.tables/table/)
 * class [DocumentBuilder](../)
-* espacio de nombres [Aspose.Words](../../documentbuilder/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

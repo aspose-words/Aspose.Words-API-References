@@ -1,7 +1,9 @@
 ---
-title: Cluster.Cluster
-second_title: Справочник по API Aspose.Words для .NET
-description: Cluster строитель. Инициализирует новый экземпляр этого класса.
+title: Cluster
+linktitle: Cluster
+articleTitle: Cluster
+second_title: Aspose.Words для .NET
+description: Cluster строитель. Инициализирует новый экземпляр этого класса на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.shaping/cluster/cluster/
@@ -23,7 +25,5 @@ public Cluster(int[] codepoints, Glyph[] glyphs)
 
 * class [Glyph](../../glyph/)
 * class [Cluster](../)
-* пространство имен [Aspose.Words.Shaping](../../cluster/)
+* пространство имен [Aspose.Words.Shaping](../../../aspose.words.shaping/)
 * сборка [Aspose.Words](../../../)
-
-

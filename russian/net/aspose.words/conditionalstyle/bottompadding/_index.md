@@ -1,7 +1,9 @@
 ---
 title: ConditionalStyle.BottomPadding
-second_title: Справочник по API Aspose.Words для .NET
-description: ConditionalStyle свойство. Получает или задает объем пространства в пунктах добавляемого под содержимым ячеек таблицы.
+linktitle: BottomPadding
+articleTitle: BottomPadding
+second_title: Aspose.Words для .NET
+description: ConditionalStyle BottomPadding свойство. Получает или задает объем пространства в пунктах добавляемого под содержимым ячеек таблицы на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words/conditionalstyle/bottompadding/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/conditionalstyle/bottompadding/
 public double BottomPadding { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как работать с определенными стилями областей таблицы.
 
@@ -84,7 +86,5 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 ### Смотрите также
 
 * class [ConditionalStyle](../)
-* пространство имен [Aspose.Words](../../conditionalstyle/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

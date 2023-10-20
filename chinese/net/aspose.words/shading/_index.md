@@ -1,7 +1,9 @@
 ---
-title: Class Shading
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Shading 班级. 包含对象的着色属性
+title: Shading Class
+linktitle: Shading
+articleTitle: Shading
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Shading 班级. 包含对象的着色属性 在 C#.
 type: docs
 weight: 5990
 url: /zh/net/aspose.words/shading/
@@ -33,11 +35,11 @@ public class Shading : InternableComplexAttr
 | 姓名 | 描述 |
 | --- | --- |
 | [ClearFormatting](../../aspose.words/shading/clearformatting/)() | 删除对象的阴影。 |
-| override [Equals](../../aspose.words/shading/equals/#equals_1)(object) | 确定指定对象的值是否等于当前对象。 |
-| [Equals](../../aspose.words/shading/equals/#equals)(Shading) | 判断是否指定`Shading`与当前值相等`Shading`. |
+| override [Equals](../../aspose.words/shading/equals/#equals_1)(*object*) | 确定指定对象的值是否等于当前对象。 |
+| [Equals](../../aspose.words/shading/equals/#equals)(*Shading*) | 判断是否指定`Shading`与当前值相等`Shading`. |
 | override [GetHashCode](../../aspose.words/shading/gethashcode/)() | 用作该类型的哈希函数。 |
 
-### 例子
+## 例子
 
 展示如何用边框和底纹装饰文本。
 
@@ -102,5 +104,3 @@ doc.Save(ArtifactsDir + "DocumentBuilder.TableBordersAndShading.docx");
 * class [InternableComplexAttr](../internablecomplexattr/)
 * 命名空间 [Aspose.Words](../../aspose.words/)
 * 部件 [Aspose.Words](../../)
-
-

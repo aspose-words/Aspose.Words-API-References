@@ -1,7 +1,9 @@
 ---
 title: ChartXValue.DoubleValue
-second_title: Aspose.Words för .NET API Referens
-description: ChartXValue fast egendom. Hämtar det lagrade numeriska värdet.
+linktitle: DoubleValue
+articleTitle: DoubleValue
+second_title: Aspose.Words för .NET
+description: ChartXValue DoubleValue fast egendom. Hämtar det lagrade numeriska värdet i C#.
 type: docs
 weight: 70
 url: /sv/net/aspose.words.drawing.charts/chartxvalue/doublevalue/
@@ -17,7 +19,5 @@ public double DoubleValue { get; }
 ### Se även
 
 * class [ChartXValue](../)
-* namnutrymme [Aspose.Words.Drawing.Charts](../../chartxvalue/)
+* namnutrymme [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../../)
-
-

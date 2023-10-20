@@ -1,14 +1,16 @@
 ---
 title: StructuredDocumentTag.IsShowingPlaceholderText
-second_title: Aspose.Words für .NET-API-Referenz
-description: StructuredDocumentTag eigendom. Gibt an ob der Inhalt davon SDTwird so interpretiert dass es Platzhaltertext enthält im Gegensatz zu regulären Textinhalten innerhalb des SDT.
+linktitle: IsShowingPlaceholderText
+articleTitle: IsShowingPlaceholderText
+second_title: Aspose.Words für .NET
+description: StructuredDocumentTag IsShowingPlaceholderText eigendom. Gibt an ob der Inhalt davonSDTwird so interpretiert dass es Platzhaltertext enthält im Gegensatz zu regulären Textinhalten innerhalb des SDT in C#.
 type: docs
 weight: 150
 url: /de/net/aspose.words.markup/structureddocumenttag/isshowingplaceholdertext/
 ---
 ## StructuredDocumentTag.IsShowingPlaceholderText property
 
-Gibt an, ob der Inhalt davon **SDT**wird so interpretiert, dass es Platzhaltertext enthält (im Gegensatz zu regulären Textinhalten innerhalb des SDT).
+Gibt an, ob der Inhalt davon**SDT**wird so interpretiert, dass es Platzhaltertext enthält (im Gegensatz zu regulären Textinhalten innerhalb des SDT).
 
 , wenn auf eingestellt`WAHR` , dieser Zustand wird beim Öffnen dieses Dokuments wieder aufgenommen (mit Platzhaltertext).
 
@@ -16,7 +18,7 @@ Gibt an, ob der Inhalt davon **SDT**wird so interpretiert, dass es Platzhalterte
 public bool IsShowingPlaceholderText { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie der Inhalt eines Bausteins als benutzerdefinierter Platzhaltertext für ein strukturiertes Dokument-Tag verwendet wird.
 
@@ -63,7 +65,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.PlaceholderBuildingBlock.docx");
 ### Siehe auch
 
 * class [StructuredDocumentTag](../)
-* namensraum [Aspose.Words.Markup](../../structureddocumenttag/)
+* namensraum [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Montage [Aspose.Words](../../../)
-
-

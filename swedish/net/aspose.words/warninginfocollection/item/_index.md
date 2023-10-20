@@ -1,7 +1,9 @@
 ---
 title: WarningInfoCollection.Item
-second_title: Aspose.Words för .NET API Referens
-description: WarningInfoCollection fast egendom. Hämtar ett objekt vid angivet index.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words för .NET
+description: WarningInfoCollection Item fast egendom. Hämtar ett objekt vid angivet index i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words/warninginfocollection/item/
@@ -22,7 +24,5 @@ public WarningInfo this[int index] { get; }
 
 * class [WarningInfo](../../warninginfo/)
 * class [WarningInfoCollection](../)
-* namnutrymme [Aspose.Words](../../warninginfocollection/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

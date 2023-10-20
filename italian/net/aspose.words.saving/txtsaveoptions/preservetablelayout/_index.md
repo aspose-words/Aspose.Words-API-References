@@ -1,7 +1,9 @@
 ---
 title: TxtSaveOptions.PreserveTableLayout
-second_title: Aspose.Words per .NET API Reference
-description: TxtSaveOptions proprietà. Specifica se il programma deve tentare di preservare il layout delle tabelle durante il salvataggio in formato testo normale. Il valore predefinito èfalso .
+linktitle: PreserveTableLayout
+articleTitle: PreserveTableLayout
+second_title: Aspose.Words per .NET
+description: TxtSaveOptions PreserveTableLayout proprietà. Specifica se il programma deve tentare di preservare il layout delle tabelle durante il salvataggio in formato testo normale. Il valore predefinito èfalso  in C#.
 type: docs
 weight: 50
 url: /it/net/aspose.words.saving/txtsaveoptions/preservetablelayout/
@@ -14,7 +16,7 @@ Specifica se il programma deve tentare di preservare il layout delle tabelle dur
 public bool PreserveTableLayout { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come preservare il layout delle tabelle durante la conversione in testo normale.
 
@@ -61,7 +63,5 @@ else
 ### Guarda anche
 
 * class [TxtSaveOptions](../)
-* spazio dei nomi [Aspose.Words.Saving](../../txtsaveoptions/)
+* spazio dei nomi [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../../)
-
-

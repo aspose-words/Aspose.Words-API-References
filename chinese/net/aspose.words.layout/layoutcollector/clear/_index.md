@@ -1,7 +1,9 @@
 ---
 title: LayoutCollector.Clear
-second_title: Aspose.Words for .NET API 参考
-description: LayoutCollector 方法. 清除所有收集的布局数据手动更新文档或重建布局后调用此方法
+linktitle: Clear
+articleTitle: Clear
+second_title: 用于 .NET 的 Aspose.Words
+description: LayoutCollector Clear 方法. 清除所有收集的布局数据手动更新文档或重建布局后调用此方法 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.layout/layoutcollector/clear/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.layout/layoutcollector/clear/
 public void Clear()
 ```
 
-### 例子
+## 例子
 
 演示如何查看节点跨越的页面范围。
 
@@ -72,7 +74,5 @@ Assert.AreEqual("¶", layoutEnumerator.Text);
 ### 也可以看看
 
 * class [LayoutCollector](../)
-* 命名空间 [Aspose.Words.Layout](../../layoutcollector/)
+* 命名空间 [Aspose.Words.Layout](../../../aspose.words.layout/)
 * 部件 [Aspose.Words](../../../)
-
-

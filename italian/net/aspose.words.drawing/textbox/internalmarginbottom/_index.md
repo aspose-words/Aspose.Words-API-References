@@ -1,7 +1,9 @@
 ---
 title: TextBox.InternalMarginBottom
-second_title: Aspose.Words per .NET API Reference
-description: TextBox proprietà. Specifica il margine inferiore interno in punti per una forma.
+linktitle: InternalMarginBottom
+articleTitle: InternalMarginBottom
+second_title: Aspose.Words per .NET
+description: TextBox InternalMarginBottom proprietà. Specifica il margine inferiore interno in punti per una forma in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words.drawing/textbox/internalmarginbottom/
@@ -14,11 +16,11 @@ Specifica il margine inferiore interno in punti per una forma.
 public double InternalMarginBottom { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Il valore predefinito è 1/20 di pollice.
 
-### Esempi
+## Esempi
 
 Mostra come impostare i margini interni per una casella di testo.
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "Shape.TextBoxMargins.docx");
 ### Guarda anche
 
 * class [TextBox](../)
-* spazio dei nomi [Aspose.Words.Drawing](../../textbox/)
+* spazio dei nomi [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assemblea [Aspose.Words](../../../)
-
-

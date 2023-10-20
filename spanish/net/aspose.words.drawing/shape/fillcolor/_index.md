@@ -1,7 +1,9 @@
 ---
 title: Shape.FillColor
-second_title: Referencia de API de Aspose.Words para .NET
-description: Shape propiedad. Define el color del pincel que rellena el trazado cerrado de la forma.
+linktitle: FillColor
+articleTitle: FillColor
+second_title: Aspose.Words para .NET
+description: Shape FillColor propiedad. Define el color del pincel que rellena el trazado cerrado de la forma en C#.
 type: docs
 weight: 40
 url: /es/net/aspose.words.drawing/shape/fillcolor/
@@ -14,13 +16,13 @@ Define el color del pincel que rellena el trazado cerrado de la forma.
 public Color FillColor { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 Este es un atajo hacia el[`Color`](../../fill/color/) propiedad.
 
 El valor predeterminado es White.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo rellenar una forma con un color sólido.
 
@@ -55,7 +57,5 @@ doc.Save(ArtifactsDir + "Shape.Fill.docx");
 ### Ver también
 
 * class [Shape](../)
-* espacio de nombres [Aspose.Words.Drawing](../../shape/)
+* espacio de nombres [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * asamblea [Aspose.Words](../../../)
-
-

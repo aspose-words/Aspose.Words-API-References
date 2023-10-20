@@ -1,7 +1,9 @@
 ---
 title: List.ListId
-second_title: Aspose.Words for .NET API 参考
-description: List 财产. 获取列表的唯一标识符
+linktitle: ListId
+articleTitle: ListId
+second_title: 用于 .NET 的 Aspose.Words
+description: List ListId 财产. 获取列表的唯一标识符 在 C#.
 type: docs
 weight: 60
 url: /zh/net/aspose.words.lists/list/listid/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.lists/list/listid/
 public int ListId { get; }
 ```
 
-### 评论
+## 评论
 
 您通常不需要使用此属性。但如果你使用它，你通常会与 so 结合使用[`GetListByListId`](../../listcollection/getlistbylistid/)方法通过标识符查找 a 列表。
 
-### 例子
+## 例子
 
 演示如何验证列表的所有者文档属性。
 
@@ -67,7 +69,5 @@ foreach (Paragraph para in paras.OfType<Paragraph>().Where(p => p.ListFormat.IsL
 ### 也可以看看
 
 * class [List](../)
-* 命名空间 [Aspose.Words.Lists](../../list/)
+* 命名空间 [Aspose.Words.Lists](../../../aspose.words.lists/)
 * 部件 [Aspose.Words](../../../)
-
-

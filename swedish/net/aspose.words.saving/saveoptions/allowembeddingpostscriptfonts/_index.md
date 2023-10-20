@@ -1,7 +1,9 @@
 ---
 title: SaveOptions.AllowEmbeddingPostScriptFonts
-second_title: Aspose.Words för .NET API Referens
-description: SaveOptions fast egendom. Hämtar eller ställer in ett booleskt värde som indikerar om man ska tillåta inbäddning av teckensnitt med PostScript outlines när inbäddning av TrueTypeteckensnitt i ett dokument på det sparas. Standardvärdet ärfalsk .
+linktitle: AllowEmbeddingPostScriptFonts
+articleTitle: AllowEmbeddingPostScriptFonts
+second_title: Aspose.Words för .NET
+description: SaveOptions AllowEmbeddingPostScriptFonts fast egendom. Hämtar eller ställer in ett booleskt värde som indikerar om man ska tillåta inbäddning av teckensnitt med PostScript outlines när inbäddning av TrueTypeteckensnitt i ett dokument på det sparas. Standardvärdet ärfalsk  i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.saving/saveoptions/allowembeddingpostscriptfonts/
@@ -14,13 +16,13 @@ Hämtar eller ställer in ett booleskt värde som indikerar om man ska tillåta 
 public bool AllowEmbeddingPostScriptFonts { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Obs, Word bäddar inte in PostScript-teckensnitt, men kan öppna dokument med inbäddade typsnitt av denna typ.
 
 Det här alternativet fungerar bara när[`EmbedTrueTypeFonts`](../../../aspose.words.fonts/fontinfocollection/embedtruetypefonts/) av [`FontInfos`](../../../aspose.words/documentbase/fontinfos/) egenskapen är inställd på`Sann`.
 
-### Exempel
+## Exempel
 
 Visar hur du sparar dokumentet med PostScript-teckensnitt.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "Document.AllowEmbeddingPostScriptFonts.docx", saveOptio
 ### Se även
 
 * class [SaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../saveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

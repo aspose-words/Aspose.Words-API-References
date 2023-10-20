@@ -1,7 +1,9 @@
 ---
 title: HorizontalRuleFormat.Color
-second_title: Aspose.Words لمراجع .NET API
-description: HorizontalRuleFormat ملكية. الحصول على أو تعيين لون الفرشاة الذي يملأ القاعدة الأفقية.
+linktitle: Color
+articleTitle: Color
+second_title: Aspose.Words لـ .NET
+description: HorizontalRuleFormat Color ملكية. الحصول على أو تعيين لون الفرشاة الذي يملأ القاعدة الأفقية في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.drawing/horizontalruleformat/color/
@@ -14,13 +16,13 @@ url: /ar/net/aspose.words.drawing/horizontalruleformat/color/
 public Color Color { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 هذا اختصار لل[`Color`](../../fill/color/) ملكية.
 
 القيمة الافتراضية هي Gray.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج شكل قاعدة أفقية، وتخصيص تنسيقه.
 
@@ -43,7 +45,5 @@ Assert.True(shape.HorizontalRuleFormat.NoShade);
 ### أنظر أيضا
 
 * class [HorizontalRuleFormat](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../horizontalruleformat/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

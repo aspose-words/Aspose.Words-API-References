@@ -1,7 +1,9 @@
 ---
 title: SystemFontSource.GetSystemFontFolders
-second_title: Aspose.Words för .NET API Referens
-description: SystemFontSource metod. Returnerar systemfontmappar eller tom array om mappar inte är tillgängliga.
+linktitle: GetSystemFontFolders
+articleTitle: GetSystemFontFolders
+second_title: Aspose.Words för .NET
+description: SystemFontSource GetSystemFontFolders metod. Returnerar systemfontmappar eller tom array om mappar inte är tillgängliga i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.fonts/systemfontsource/getsystemfontfolders/
@@ -14,11 +16,11 @@ Returnerar systemfontmappar eller tom array om mappar inte är tillgängliga.
 public static string[] GetSystemFontFolders()
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 På vissa plattformar kunde Aspose.Words söka efter systemteckensnitt inte bara genom mappar utan också i andra källor. Till exempel, på Windows platform Aspose.Words sökteckensnitt även i registret.
 
-### Exempel
+## Exempel
 
 Visar hur du kommer åt ett dokuments systemteckensnittskälla och ställer in teckensnittsersättningar.
 
@@ -74,7 +76,5 @@ Assert.AreEqual(1,
 ### Se även
 
 * class [SystemFontSource](../)
-* namnutrymme [Aspose.Words.Fonts](../../systemfontsource/)
+* namnutrymme [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * hopsättning [Aspose.Words](../../../)
-
-

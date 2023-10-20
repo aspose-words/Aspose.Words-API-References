@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.ExportParagraphGraphicsToArtifact
-second_title: Aspose.Words för .NET API Referens
-description: PdfSaveOptions fast egendom. Hämtar eller ställer in ett värde som avgör om en styckegrafik ska markeras som en artefakt.
+linktitle: ExportParagraphGraphicsToArtifact
+articleTitle: ExportParagraphGraphicsToArtifact
+second_title: Aspose.Words för .NET
+description: PdfSaveOptions ExportParagraphGraphicsToArtifact fast egendom. Hämtar eller ställer in ett värde som avgör om en styckegrafik ska markeras som en artefakt i C#.
 type: docs
 weight: 160
 url: /sv/net/aspose.words.saving/pdfsaveoptions/exportparagraphgraphicstoartifact/
@@ -14,7 +16,7 @@ Hämtar eller ställer in ett värde som avgör om en styckegrafik ska markeras 
 public bool ExportParagraphGraphicsToArtifact { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Standardvärdet är`falsk` och styckegrafik (understrykningar, betoning av text, etc.) kommer att markeras som "Span" i dokumentets logiska struktur.
 
@@ -22,7 +24,7 @@ När värdet är`Sann` styckegrafiken kommer att markeras som "Artefakt".
 
 Detta värde ignoreras när[`ExportDocumentStructure`](../exportdocumentstructure/) är`falsk` .
 
-### Exempel
+## Exempel
 
 Visar hur man exporterar styckegrafik som artefakt (understrykningar, betoning av text, etc.).
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.ExportParagraphGraphicsToArtifact.pdf", 
 ### Se även
 
 * class [PdfSaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../pdfsaveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

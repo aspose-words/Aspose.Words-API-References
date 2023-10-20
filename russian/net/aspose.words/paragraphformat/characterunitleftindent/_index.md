@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.CharacterUnitLeftIndent
-second_title: Справочник по API Aspose.Words для .NET
-description: ParagraphFormat свойство. Получает или задает значение левого отступа в символах для указанных абзацев.
+linktitle: CharacterUnitLeftIndent
+articleTitle: CharacterUnitLeftIndent
+second_title: Aspose.Words для .NET
+description: ParagraphFormat CharacterUnitLeftIndent свойство. Получает или задает значение левого отступа в символах для указанных абзацев на С#.
 type: docs
 weight: 80
 url: /ru/net/aspose.words/paragraphformat/characterunitleftindent/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/paragraphformat/characterunitleftindent/
 public double CharacterUnitLeftIndent { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как изменить интервал между абзацами и отступы.
 
@@ -68,7 +70,5 @@ builder.Write("测试文档测试文档测试文档测试文档测试文档测�
 ### Смотрите также
 
 * class [ParagraphFormat](../)
-* пространство имен [Aspose.Words](../../paragraphformat/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

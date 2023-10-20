@@ -1,7 +1,9 @@
 ---
 title: Fill.BackThemeColor
-second_title: Aspose.Words for .NET API 参考
-description: Fill 财产. 获取或设置一个 ThemeColor 对象该对象表示填充的背景颜色
+linktitle: BackThemeColor
+articleTitle: BackThemeColor
+second_title: 用于 .NET 的 Aspose.Words
+description: Fill BackThemeColor 财产. 获取或设置一个 ThemeColor 对象该对象表示填充的背景颜色 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.drawing/fill/backthemecolor/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.drawing/fill/backthemecolor/
 public ThemeColor BackThemeColor { get; set; }
 ```
 
-### 例子
+## 例子
 
 展示如何设置前景色/背景形状颜色的主题颜色。
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "Shape.FillThemeColor.docx");
 
 * enum [ThemeColor](../../../aspose.words.themes/themecolor/)
 * class [Fill](../)
-* 命名空间 [Aspose.Words.Drawing](../../fill/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

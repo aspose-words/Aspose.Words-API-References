@@ -1,9 +1,11 @@
 ---
 title: CompositeNode.SelectNodes
-second_title: Aspose.Words لمراجع .NET API
-description: CompositeNode طريقة. تحديد قائمة العقد المطابقة لتعبير XPath.
+linktitle: SelectNodes
+articleTitle: SelectNodes
+second_title: Aspose.Words لـ .NET
+description: CompositeNode SelectNodes طريقة. تحديد قائمة العقد المطابقة لتعبير XPath في C#.
 type: docs
-weight: 210
+weight: 190
 url: /ar/net/aspose.words/compositenode/selectnodes/
 ---
 ## CompositeNode.SelectNodes method
@@ -22,11 +24,11 @@ public NodeList SelectNodes(string xpath)
 
 قائمة العقد المطابقة لاستعلام XPath.
 
-### ملاحظات
+## ملاحظات
 
 يتم دعم التعبيرات التي تحتوي على أسماء العناصر فقط في الوقت الحالي. Expressions التي تستخدم أسماء السمات غير مدعومة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام تعبير XPath لاختبار ما إذا كانت العقدة موجودة داخل الحقل.
 
@@ -75,7 +77,5 @@ Assert.AreEqual(typeof(Paragraph), node.GetType());
 
 * class [NodeList](../../nodelist/)
 * class [CompositeNode](../)
-* مساحة الاسم [Aspose.Words](../../compositenode/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

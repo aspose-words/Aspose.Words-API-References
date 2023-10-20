@@ -1,7 +1,9 @@
 ---
 title: DocumentPropertyCollection.Remove
-second_title: Aspose.Words för .NET API Referens
-description: DocumentPropertyCollection metod. Tar bort en egenskap med det angivna namnet från samlingen.
+linktitle: Remove
+articleTitle: Remove
+second_title: Aspose.Words för .NET
+description: DocumentPropertyCollection Remove metod. Tar bort en egenskap med det angivna namnet från samlingen i C#.
 type: docs
 weight: 70
 url: /sv/net/aspose.words.properties/documentpropertycollection/remove/
@@ -18,7 +20,7 @@ public void Remove(string name)
 | --- | --- | --- |
 | name | String | Egendomens namn som inte är skiftlägeskänsligt. |
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med ett dokuments anpassade egenskaper.
 
@@ -78,7 +80,5 @@ Assert.AreEqual(0, properties.Count);
 ### Se även
 
 * class [DocumentPropertyCollection](../)
-* namnutrymme [Aspose.Words.Properties](../../documentpropertycollection/)
+* namnutrymme [Aspose.Words.Properties](../../../aspose.words.properties/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: List.ListId
-second_title: Справочник по API Aspose.Words для .NET
-description: List свойство. Получает уникальный идентификатор списка.
+linktitle: ListId
+articleTitle: ListId
+second_title: Aspose.Words для .NET
+description: List ListId свойство. Получает уникальный идентификатор списка на С#.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.lists/list/listid/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.lists/list/listid/
 public int ListId { get; }
 ```
 
-### Примечания
+## Примечания
 
 Обычно вам не нужно использовать это свойство. Но если вы его используете, вы обычно делаете so в сочетании с[`GetListByListId`](../../listcollection/getlistbylistid/) метод для поиска списка a по его идентификатору.
 
-### Примеры
+## Примеры
 
 Показывает, как проверить свойства документов владельцев списков.
 
@@ -67,7 +69,5 @@ foreach (Paragraph para in paras.OfType<Paragraph>().Where(p => p.ListFormat.IsL
 ### Смотрите также
 
 * class [List](../)
-* пространство имен [Aspose.Words.Lists](../../list/)
+* пространство имен [Aspose.Words.Lists](../../../aspose.words.lists/)
 * сборка [Aspose.Words](../../../)
-
-

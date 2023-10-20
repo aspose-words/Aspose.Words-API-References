@@ -1,20 +1,22 @@
 ---
 title: TxtSaveOptionsBase.Encoding
-second_title: Aspose.Words لمراجع .NET API
-description: TxtSaveOptionsBase ملكية. يحدد الترميز الذي سيتم استخدامه عند التصدير بتنسيقات نصية. القيمة الافتراضية هي الترميز.UTF8 .
+linktitle: Encoding
+articleTitle: Encoding
+second_title: Aspose.Words لـ .NET
+description: TxtSaveOptionsBase Encoding ملكية. يحدد الترميز الذي سيتم استخدامه عند التصدير بتنسيقات نصية. القيمة الافتراضية هيالترميز.UTF8  في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.saving/txtsaveoptionsbase/encoding/
 ---
 ## TxtSaveOptionsBase.Encoding property
 
-يحدد الترميز الذي سيتم استخدامه عند التصدير بتنسيقات نصية. القيمة الافتراضية هي **الترميز.UTF8** .
+يحدد الترميز الذي سيتم استخدامه عند التصدير بتنسيقات نصية. القيمة الافتراضية هي**الترميز.UTF8** .
 
 ```csharp
 public Encoding Encoding { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية ضبط الترميز لمستند إخراج .txt.
 
@@ -49,7 +51,5 @@ Assert.AreEqual("? ? ? ? ?.\r\n", docText);
 ### أنظر أيضا
 
 * class [TxtSaveOptionsBase](../)
-* مساحة الاسم [Aspose.Words.Saving](../../txtsaveoptionsbase/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ChartXValue.MultilevelValue
-second_title: Aspose.Words för .NET API Referens
-description: ChartXValue fast egendom. Hämtar det lagrade flernivåvärdet.
+linktitle: MultilevelValue
+articleTitle: MultilevelValue
+second_title: Aspose.Words för .NET
+description: ChartXValue MultilevelValue fast egendom. Hämtar det lagrade flernivåvärdet i C#.
 type: docs
 weight: 80
 url: /sv/net/aspose.words.drawing.charts/chartxvalue/multilevelvalue/
@@ -18,7 +20,5 @@ public ChartMultilevelValue MultilevelValue { get; }
 
 * class [ChartMultilevelValue](../../chartmultilevelvalue/)
 * class [ChartXValue](../)
-* namnutrymme [Aspose.Words.Drawing.Charts](../../chartxvalue/)
+* namnutrymme [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../../)
-
-

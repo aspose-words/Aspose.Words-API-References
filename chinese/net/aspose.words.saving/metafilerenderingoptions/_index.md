@@ -1,7 +1,9 @@
 ---
-title: Class MetafileRenderingOptions
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Saving.MetafileRenderingOptions 班级. 允许指定其他图元文件渲染选项
+title: MetafileRenderingOptions Class
+linktitle: MetafileRenderingOptions
+articleTitle: MetafileRenderingOptions
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Saving.MetafileRenderingOptions 班级. 允许指定其他图元文件渲染选项 在 C#.
 type: docs
 weight: 5300
 url: /zh/net/aspose.words.saving/metafilerenderingoptions/
@@ -34,7 +36,7 @@ public class MetafileRenderingOptions
 | [UseEmfEmbeddedToWmf](../../aspose.words.saving/metafilerenderingoptions/useemfembeddedtowmf/) { get; set; } | 获取或设置一个值，确定如何呈现嵌入 EMF 图元文件的 WMF 图元文件。 |
 | [UseGdiRasterOperationsEmulation](../../aspose.words.saving/metafilerenderingoptions/usegdirasteroperationsemulation/) { get; set; } | 获取或设置一个值，确定是否使用 GDI+ 进行光栅操作模拟。 |
 
-### 例子
+## 例子
 
 显示添加了位图渲染的回退和更改有关不支持的图元文件记录的警告类型。
 
@@ -90,5 +92,3 @@ public class HandleDocumentWarnings : IWarningCallback
 
 * 命名空间 [Aspose.Words.Saving](../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../)
-
-

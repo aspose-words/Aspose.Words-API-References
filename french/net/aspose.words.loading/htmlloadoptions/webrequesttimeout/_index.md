@@ -1,7 +1,9 @@
 ---
 title: HtmlLoadOptions.WebRequestTimeout
-second_title: Référence de l'API Aspose.Words pour .NET
-description: HtmlLoadOptions propriété. Le nombre de millisecondes à attendre avant lexpiration de la requête Web. La valeur par défaut est 100 000 milliseconds 100 secondes.
+linktitle: WebRequestTimeout
+articleTitle: WebRequestTimeout
+second_title: Aspose.Words pour .NET
+description: HtmlLoadOptions WebRequestTimeout propriété. Le nombre de millisecondes à attendre avant lexpiration de la requête Web. La valeur par défaut est 100 000 milliseconds 100 secondes en C#.
 type: docs
 weight: 70
 url: /fr/net/aspose.words.loading/htmlloadoptions/webrequesttimeout/
@@ -14,11 +16,11 @@ Le nombre de millisecondes à attendre avant l'expiration de la requête Web. La
 public int WebRequestTimeout { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 Le nombre de millisecondes pendant lesquelles Aspose.Words attend une réponse lors du chargement de ressources externes (images, feuilles style ) liées dans des documents HTML et MHTML.
 
-### Exemples
+## Exemples
 
 Montre comment définir une limite de temps pour les requêtes Web lors du chargement d'un document avec des ressources externes liées par des URL.
 
@@ -87,7 +89,5 @@ private class ListDocumentWarnings : IWarningCallback
 ### Voir également
 
 * class [HtmlLoadOptions](../)
-* espace de noms [Aspose.Words.Loading](../../htmlloadoptions/)
+* espace de noms [Aspose.Words.Loading](../../../aspose.words.loading/)
 * Assemblée [Aspose.Words](../../../)
-
-

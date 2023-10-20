@@ -1,7 +1,9 @@
 ---
-title: Class ListFormat
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Lists.ListFormat 班级. 允许控制应用于段落的列表格式
+title: ListFormat Class
+linktitle: ListFormat
+articleTitle: ListFormat
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Lists.ListFormat 班级. 允许控制应用于段落的列表格式 在 C#.
 type: docs
 weight: 3480
 url: /zh/net/aspose.words.lists/listformat/
@@ -35,7 +37,7 @@ public class ListFormat
 | [ListOutdent](../../aspose.words.lists/listformat/listoutdent/)() | 将当前段落的列表级别降低一级。 |
 | [RemoveNumbers](../../aspose.words.lists/listformat/removenumbers/)() | 从当前段落中删除数字或项目符号并将列表级别设置为零。 |
 
-### 评论
+## 评论
 
 Microsoft Word 文档中的段落可以添加项目符号或编号。 当段落添加项目符号或编号时，表示列表格式 应用于该段落。
 
@@ -51,7 +53,7 @@ Microsoft Word 文档中的段落可以添加项目符号或编号。 当段落�
 
 这些段落实际上不属于列表。段落 just 通过[`List`](./list/)property 和列表中的特定级别[`ListLevelNumber`](./listlevelnumber/)property. 通过设置这两个属性，您可以控制应用于段落的项目符号和编号 。
 
-### 例子
+## 例子
 
 展示如何使用列表级别。
 
@@ -105,5 +107,3 @@ doc.Save(ArtifactsDir + "Lists.SpecifyListLevel.docx");
 
 * 命名空间 [Aspose.Words.Lists](../../aspose.words.lists/)
 * 部件 [Aspose.Words](../../)
-
-

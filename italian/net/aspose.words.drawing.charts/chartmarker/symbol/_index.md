@@ -1,7 +1,9 @@
 ---
 title: ChartMarker.Symbol
-second_title: Aspose.Words per .NET API Reference
-description: ChartMarker proprietà. Ottiene o imposta il simbolo dellindicatore del grafico.
+linktitle: Symbol
+articleTitle: Symbol
+second_title: Aspose.Words per .NET
+description: ChartMarker Symbol proprietà. Ottiene o imposta il simbolo dellindicatore del grafico in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words.drawing.charts/chartmarker/symbol/
@@ -14,7 +16,7 @@ Ottiene o imposta il simbolo dell'indicatore del grafico.
 public MarkerSymbol Symbol { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come utilizzare i punti dati su un grafico a linee.
 
@@ -77,7 +79,5 @@ private static void ApplyDataPoints(ChartSeries series, int dataPointsCount, Mar
 
 * enum [MarkerSymbol](../../markersymbol/)
 * class [ChartMarker](../)
-* spazio dei nomi [Aspose.Words.Drawing.Charts](../../chartmarker/)
+* spazio dei nomi [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * assemblea [Aspose.Words](../../../)
-
-

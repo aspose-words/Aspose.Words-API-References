@@ -1,7 +1,9 @@
 ---
 title: ConditionalStyle.Shading
-second_title: Aspose.Words for .NET API 参考
-description: ConditionalStyle 财产. 获得Shading引用此条件样式的着色格式的对象
+linktitle: Shading
+articleTitle: Shading
+second_title: 用于 .NET 的 Aspose.Words
+description: ConditionalStyle Shading 财产. 获得Shading引用此条件样式的着色格式的对象 在 C#.
 type: docs
 weight: 70
 url: /zh/net/aspose.words/conditionalstyle/shading/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/conditionalstyle/shading/
 public Shading Shading { get; }
 ```
 
-### 例子
+## 例子
 
 展示如何使用表格的某些区域样式。
 
@@ -85,7 +87,5 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 
 * class [Shading](../../shading/)
 * class [ConditionalStyle](../)
-* 命名空间 [Aspose.Words](../../conditionalstyle/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

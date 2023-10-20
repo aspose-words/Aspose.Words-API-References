@@ -1,7 +1,9 @@
 ---
 title: BorderCollection.Top
-second_title: Aspose.Words för .NET API Referens
-description: BorderCollection fast egendom. Får den övre kanten.
+linktitle: Top
+articleTitle: Top
+second_title: Aspose.Words för .NET
+description: BorderCollection Top fast egendom. Får den övre kanten i C#.
 type: docs
 weight: 120
 url: /sv/net/aspose.words/bordercollection/top/
@@ -14,7 +16,7 @@ Får den övre kanten.
 public Border Top { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man applicerar kant- och skuggfärg när man bygger ett bord.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.TableBordersAndShading.docx");
 
 * class [Border](../../border/)
 * class [BorderCollection](../)
-* namnutrymme [Aspose.Words](../../bordercollection/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

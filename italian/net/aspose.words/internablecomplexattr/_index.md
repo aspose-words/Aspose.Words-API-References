@@ -1,7 +1,9 @@
 ---
-title: Class InternableComplexAttr
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.InternableComplexAttr classe. Classe base per attributo complesso internabile. Lattributo complesso internabile dovrebbe avvisare la raccolta principale quando verrà modificato.
+title: InternableComplexAttr Class
+linktitle: InternableComplexAttr
+articleTitle: InternableComplexAttr
+second_title: Aspose.Words per .NET
+description: Aspose.Words.InternableComplexAttr classe. Classe base per attributo complesso internabile. Lattributo complesso internabile dovrebbe avvisare la raccolta principale quando verrà modificato in C#.
 type: docs
 weight: 3280
 url: /it/net/aspose.words/internablecomplexattr/
@@ -20,5 +22,3 @@ public abstract class InternableComplexAttr
 
 * spazio dei nomi [Aspose.Words](../../aspose.words/)
 * assemblea [Aspose.Words](../../)
-
-

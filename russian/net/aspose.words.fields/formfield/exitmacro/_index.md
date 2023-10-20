@@ -1,7 +1,9 @@
 ---
 title: FormField.ExitMacro
-second_title: Справочник по API Aspose.Words для .NET
-description: FormField свойство. Возвращает или задает имя макроса выхода для поля формы.
+linktitle: ExitMacro
+articleTitle: ExitMacro
+second_title: Aspose.Words для .NET
+description: FormField ExitMacro свойство. Возвращает или задает имя макроса выхода для поля формы на С#.
 type: docs
 weight: 90
 url: /ru/net/aspose.words.fields/formfield/exitmacro/
@@ -14,13 +16,13 @@ url: /ru/net/aspose.words.fields/formfield/exitmacro/
 public string ExitMacro { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Макрос выхода запускается, когда поле формы теряет фокус в Microsoft Word.
 
 Microsoft Word допускает строки длиной не более 32 символов.
 
-### Примеры
+## Примеры
 
 Показывает, как вставлять в документ различные типы полей формы и обрабатывать их с помощью реализации посетителя документа.
 
@@ -154,7 +156,5 @@ public class FormFieldVisitor : DocumentVisitor
 ### Смотрите также
 
 * class [FormField](../)
-* пространство имен [Aspose.Words.Fields](../../formfield/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

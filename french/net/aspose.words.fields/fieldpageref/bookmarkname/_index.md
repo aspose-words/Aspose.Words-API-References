@@ -1,7 +1,9 @@
 ---
 title: FieldPageRef.BookmarkName
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldPageRef propriété. Obtient ou définit le nom du signet.
+linktitle: BookmarkName
+articleTitle: BookmarkName
+second_title: Aspose.Words pour .NET
+description: FieldPageRef BookmarkName propriété. Obtient ou définit le nom du signet en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.fields/fieldpageref/bookmarkname/
@@ -14,7 +16,7 @@ Obtient ou définit le nom du signet.
 public string BookmarkName { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Permet d'insérer des champs PAGEREF pour afficher l'emplacement relatif des signets.
 
@@ -84,7 +86,5 @@ private static void InsertAndNameBookmark(DocumentBuilder builder, string bookma
 ### Voir également
 
 * class [FieldPageRef](../)
-* espace de noms [Aspose.Words.Fields](../../fieldpageref/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

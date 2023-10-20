@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.DoNotLeaveBackslashAlone
-second_title: Aspose.Words per .NET API Reference
-description: CompatibilityOptions proprietà. Converti la barra rovesciata nel segno dello yen quando inserita.
+linktitle: DoNotLeaveBackslashAlone
+articleTitle: DoNotLeaveBackslashAlone
+second_title: Aspose.Words per .NET
+description: CompatibilityOptions DoNotLeaveBackslashAlone proprietà. Converti la barra rovesciata nel segno dello yen quando inserita in C#.
 type: docs
 weight: 160
 url: /it/net/aspose.words.settings/compatibilityoptions/donotleavebackslashalone/
@@ -17,7 +19,5 @@ public bool DoNotLeaveBackslashAlone { get; set; }
 ### Guarda anche
 
 * class [CompatibilityOptions](../)
-* spazio dei nomi [Aspose.Words.Settings](../../compatibilityoptions/)
+* spazio dei nomi [Aspose.Words.Settings](../../../aspose.words.settings/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: IDocumentLoadingCallback.Notify
-second_title: Aspose.Words per .NET API Reference
-description: IDocumentLoadingCallback metodo. Viene richiamato per notificare lavanzamento del caricamento del documento.
+linktitle: Notify
+articleTitle: Notify
+second_title: Aspose.Words per .NET
+description: IDocumentLoadingCallback Notify metodo. Viene richiamato per notificare lavanzamento del caricamento del documento in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words.loading/idocumentloadingcallback/notify/
@@ -18,13 +20,13 @@ public void Notify(DocumentLoadingArgs args)
 | --- | --- | --- |
 | args | DocumentLoadingArgs | Un argomento dell'evento. |
 
-### Osservazioni
+## Osservazioni
 
 L'utilizzo principale di questa interfaccia è consentire al codice dell'applicazione di ottenere lo stato di avanzamento e interrompere il processo di caricamento.
 
 Dovrebbe essere lanciata un'eccezione dal callback di avanzamento per l'aborto e dovrebbe essere inclusa nel codice del consumo.
 
-### Esempi
+## Esempi
 
 Mostra come avvisare l'utente se il caricamento del documento ha superato il tempo di caricamento previsto.
 
@@ -90,7 +92,5 @@ public class LoadingProgressCallback : IDocumentLoadingCallback
 * property [ProgressCallback](../../loadoptions/progresscallback/)
 * class [DocumentLoadingArgs](../../documentloadingargs/)
 * interface [IDocumentLoadingCallback](../)
-* spazio dei nomi [Aspose.Words.Loading](../../idocumentloadingcallback/)
+* spazio dei nomi [Aspose.Words.Loading](../../../aspose.words.loading/)
 * assemblea [Aspose.Words](../../../)
-
-

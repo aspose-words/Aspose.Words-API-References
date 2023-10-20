@@ -1,7 +1,9 @@
 ---
-title: ImageWatermarkOptions.ImageWatermarkOptions
-second_title: Aspose.Words لمراجع .NET API
-description: ImageWatermarkOptions البناء. Default_Constructor
+title: ImageWatermarkOptions
+linktitle: ImageWatermarkOptions
+articleTitle: ImageWatermarkOptions
+second_title: Aspose.Words لـ .NET
+description: ImageWatermarkOptions البناء. Default_Constructor في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words/imagewatermarkoptions/imagewatermarkoptions/
@@ -17,7 +19,5 @@ public ImageWatermarkOptions()
 ### أنظر أيضا
 
 * class [ImageWatermarkOptions](../)
-* مساحة الاسم [Aspose.Words](../../imagewatermarkoptions/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,9 +1,11 @@
 ---
 title: Fill.RotateWithObject
-second_title: Referencia de API de Aspose.Words para .NET
-description: Fill propiedad. Obtiene o establece si el relleno gira con el objeto especificado.
+linktitle: RotateWithObject
+articleTitle: RotateWithObject
+second_title: Aspose.Words para .NET
+description: Fill RotateWithObject propiedad. Obtiene o establece si el relleno gira con el objeto especificado en C#.
 type: docs
-weight: 180
+weight: 170
 url: /es/net/aspose.words.drawing/fill/rotatewithobject/
 ---
 ## Fill.RotateWithObject property
@@ -17,7 +19,5 @@ public bool RotateWithObject { get; set; }
 ### Ver también
 
 * class [Fill](../)
-* espacio de nombres [Aspose.Words.Drawing](../../fill/)
+* espacio de nombres [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * asamblea [Aspose.Words](../../../)
-
-

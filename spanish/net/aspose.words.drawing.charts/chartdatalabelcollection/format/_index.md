@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabelCollection.Format
-second_title: Referencia de API de Aspose.Words para .NET
-description: ChartDataLabelCollection propiedad. Proporciona acceso al formato de relleno y línea de las etiquetas de datos.
+linktitle: Format
+articleTitle: Format
+second_title: Aspose.Words para .NET
+description: ChartDataLabelCollection Format propiedad. Proporciona acceso al formato de relleno y línea de las etiquetas de datos en C#.
 type: docs
 weight: 30
 url: /es/net/aspose.words.drawing.charts/chartdatalabelcollection/format/
@@ -14,7 +16,7 @@ Proporciona acceso al formato de relleno y línea de las etiquetas de datos.
 public ChartFormat Format { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo configurar el formato de relleno, trazo y llamada para las etiquetas de datos del gráfico.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "Charts.FormatDataLables.docx");
 
 * class [ChartFormat](../../chartformat/)
 * class [ChartDataLabelCollection](../)
-* espacio de nombres [Aspose.Words.Drawing.Charts](../../chartdatalabelcollection/)
+* espacio de nombres [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * asamblea [Aspose.Words](../../../)
-
-

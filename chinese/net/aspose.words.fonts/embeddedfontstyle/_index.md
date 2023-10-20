@@ -1,7 +1,9 @@
 ---
-title: Enum EmbeddedFontStyle
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Fonts.EmbeddedFontStyle 枚举. 指定嵌入字体的样式FontInfo对象.
+title: EmbeddedFontStyle Enum
+linktitle: EmbeddedFontStyle
+articleTitle: EmbeddedFontStyle
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Fonts.EmbeddedFontStyle 枚举. 指定嵌入字体的样式FontInfo对象 在 C#.
 type: docs
 weight: 2860
 url: /zh/net/aspose.words.fonts/embeddedfontstyle/
@@ -24,7 +26,7 @@ public enum EmbeddedFontStyle
 | Italic | `2` | 指定斜体嵌入字体。 |
 | BoldItalic | `3` | 指定粗斜体嵌入字体。 |
 
-### 例子
+## 例子
 
 演示如何从文档中提取嵌入字体，并将其保存到本地文件系统。
 
@@ -52,5 +54,3 @@ File.WriteAllBytes(ArtifactsDir + "Alte DIN 1451 Mittelschrift.otf", embeddedFon
 
 * 命名空间 [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * 部件 [Aspose.Words](../../)
-
-

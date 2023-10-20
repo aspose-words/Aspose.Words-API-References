@@ -1,7 +1,9 @@
 ---
-title: Class FieldAutoNum
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Fields.FieldAutoNum فصل. ينفذ الحقل AUTONUM.
+title: FieldAutoNum Class
+linktitle: FieldAutoNum
+articleTitle: FieldAutoNum
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Fields.FieldAutoNum فصل. ينفذ الحقل AUTONUM في C#.
 type: docs
 weight: 1580
 url: /ar/net/aspose.words.fields/fieldautonum/
@@ -43,17 +45,17 @@ public class FieldAutoNum : Field
 | اسم | وصف |
 | --- | --- |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | إرجاع النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل). يتم تضمين كل من رمز الحقل ونتيجة الحقل للحقول الفرعية. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | إرجاع النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل). |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | إرجاع النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل). |
 | [Remove](../../aspose.words.fields/field/remove/)() | إزالة الحقل من المستند. إرجاع عقدة مباشرة بعد الحقل. إذا كانت نهاية الحقل هي الطفل الأخير للعقدة الأصلية، فسيتم إرجاع الفقرة الأصلية الخاصة به. إذا تمت إزالة الحقل بالفعل، فسيتم إرجاعه`باطل` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | يقوم بإلغاء ربط الحقل. |
 | [Update](../../aspose.words.fields/field/update/)() | يقوم بإجراء التحديث الميداني. يتم الرمي إذا تم تحديث الحقل بالفعل. |
-| [Update](../../aspose.words.fields/field/update/)(bool) | إجراء تحديث ميداني. يتم الرمي إذا تم تحديث الحقل بالفعل. |
+| [Update](../../aspose.words.fields/field/update/)(*bool*) | إجراء تحديث ميداني. يتم الرمي إذا تم تحديث الحقل بالفعل. |
 
-### ملاحظات
+## ملاحظات
 
 إدراج رقم تلقائي.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية ترقيم الفقرات باستخدام الحقول التلقائية.
 
@@ -90,5 +92,3 @@ doc.Save(ArtifactsDir + "Field.AUTONUM.docx");
 * class [Field](../field/)
 * مساحة الاسم [Aspose.Words.Fields](../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../)
-
-

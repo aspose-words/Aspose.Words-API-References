@@ -1,7 +1,9 @@
 ---
 title: CustomXmlPartCollection.GetEnumerator
-second_title: Aspose.Words för .NET API Referens
-description: CustomXmlPartCollection metod. Returnerar ett uppräkningsobjekt som kan användas för att iterera över alla objekt i samlingen.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words för .NET
+description: CustomXmlPartCollection GetEnumerator metod. Returnerar ett uppräkningsobjekt som kan användas för att iterera över alla objekt i samlingen i C#.
 type: docs
 weight: 80
 url: /sv/net/aspose.words.markup/customxmlpartcollection/getenumerator/
@@ -14,7 +16,7 @@ Returnerar ett uppräkningsobjekt som kan användas för att iterera över alla 
 public IEnumerator<CustomXmlPart> GetEnumerator()
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man skapar en strukturerad dokumenttagg med anpassade XML-data.
 
@@ -82,7 +84,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.CustomXml.docx");
 
 * class [CustomXmlPart](../../customxmlpart/)
 * class [CustomXmlPartCollection](../)
-* namnutrymme [Aspose.Words.Markup](../../customxmlpartcollection/)
+* namnutrymme [Aspose.Words.Markup](../../../aspose.words.markup/)
 * hopsättning [Aspose.Words](../../../)
-
-

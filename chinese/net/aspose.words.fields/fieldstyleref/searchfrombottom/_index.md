@@ -1,7 +1,9 @@
 ---
 title: FieldStyleRef.SearchFromBottom
-second_title: Aspose.Words for .NET API 参考
-description: FieldStyleRef 财产. 获取或设置是否从当前页面的底部搜索而不是从顶部搜索
+linktitle: SearchFromBottom
+articleTitle: SearchFromBottom
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldStyleRef SearchFromBottom 财产. 获取或设置是否从当前页面的底部搜索而不是从顶部搜索 在 C#.
 type: docs
 weight: 60
 url: /zh/net/aspose.words.fields/fieldstyleref/searchfrombottom/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fieldstyleref/searchfrombottom/
 public bool SearchFromBottom { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何使用 STYLEREF 字段。
 
@@ -85,7 +87,5 @@ doc.Save(ArtifactsDir + "Field.STYLEREF.docx");
 ### 也可以看看
 
 * class [FieldStyleRef](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldstyleref/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

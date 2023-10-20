@@ -1,7 +1,9 @@
 ---
 title: ChartSeries.BubbleSizes
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ChartSeries propriété. Obtient une collection de tailles de bulles pour cette série de graphiques.
+linktitle: BubbleSizes
+articleTitle: BubbleSizes
+second_title: Aspose.Words pour .NET
+description: ChartSeries BubbleSizes propriété. Obtient une collection de tailles de bulles pour cette série de graphiques en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.drawing.charts/chartseries/bubblesizes/
@@ -18,7 +20,5 @@ public BubbleSizeCollection BubbleSizes { get; }
 
 * class [BubbleSizeCollection](../../bubblesizecollection/)
 * class [ChartSeries](../)
-* espace de noms [Aspose.Words.Drawing.Charts](../../chartseries/)
+* espace de noms [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Assemblée [Aspose.Words](../../../)
-
-

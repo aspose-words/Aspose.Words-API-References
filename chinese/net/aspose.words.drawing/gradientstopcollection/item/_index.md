@@ -1,7 +1,9 @@
 ---
 title: GradientStopCollection.Item
-second_title: Aspose.Words for .NET API 参考
-description: GradientStopCollection 财产. 获取或设置GradientStop集合中的对象.
+linktitle: Item
+articleTitle: Item
+second_title: 用于 .NET 的 Aspose.Words
+description: GradientStopCollection Item 财产. 获取或设置GradientStop集合中的对象 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.drawing/gradientstopcollection/item/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.drawing/gradientstopcollection/item/
 public GradientStop this[int index] { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何向渐变填充添加渐变停止点。
 
@@ -68,7 +70,5 @@ doc.Save(ArtifactsDir + "Shape.GradientStops.docx", saveOptions);
 
 * class [GradientStop](../../gradientstop/)
 * class [GradientStopCollection](../)
-* 命名空间 [Aspose.Words.Drawing](../../gradientstopcollection/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

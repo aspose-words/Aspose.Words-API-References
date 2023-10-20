@@ -1,7 +1,9 @@
 ---
 title: FormField.TextInputFormat
-second_title: Aspose.Words för .NET API Referens
-description: FormField fast egendom. Returnerar eller ställer in textformateringen för ett textformulärfält.
+linktitle: TextInputFormat
+articleTitle: TextInputFormat
+second_title: Aspose.Words för .NET
+description: FormField TextInputFormat fast egendom. Returnerar eller ställer in textformateringen för ett textformulärfält i C#.
 type: docs
 weight: 200
 url: /sv/net/aspose.words.fields/formfield/textinputformat/
@@ -14,7 +16,7 @@ Returnerar eller ställer in textformateringen för ett textformulärfält.
 public string TextInputFormat { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Om textformulärfältet innehåller vanlig text, är giltiga formatsträngar "", "STORA BOKSTAVER", "MINA BOSTAVER", "FÖRSTA VERSAL" och "TITLE CASE". Strings är skiftlägeskänsliga.
 
@@ -22,7 +24,7 @@ Om textformulärfältet innehåller ett nummer eller ett datum-/tidsvärde är v
 
 Microsoft Word tillåter strängar med högst 64 tecken.
 
-### Exempel
+## Exempel
 
 Visar hur man infogar olika typer av formulärfält i ett dokument och bearbetar dem med hjälp av en dokumentbesökarimplementering.
 
@@ -156,7 +158,5 @@ public class FormFieldVisitor : DocumentVisitor
 ### Se även
 
 * class [FormField](../)
-* namnutrymme [Aspose.Words.Fields](../../formfield/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

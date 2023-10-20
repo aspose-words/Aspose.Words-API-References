@@ -1,7 +1,9 @@
 ---
-title: Enum PropertyType
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Properties.PropertyType opsomming. Gibt den Datentyp einer Dokumenteigenschaft an.
+title: PropertyType Enum
+linktitle: PropertyType
+articleTitle: PropertyType
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Properties.PropertyType opsomming. Gibt den Datentyp einer Dokumenteigenschaft an in C#.
 type: docs
 weight: 4500
 url: /de/net/aspose.words.properties/propertytype/
@@ -28,7 +30,7 @@ public enum PropertyType
 | ByteArray | `7` | Die Eigenschaft ist ein Array von Bytes. |
 | Other | `8` | Die Eigenschaft ist von einem anderen Typ. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit den benutzerdefinierten Eigenschaften eines Dokuments gearbeitet wird.
 
@@ -91,5 +93,3 @@ Assert.AreEqual(0, properties.Count);
 * property [Type](../documentproperty/type/)
 * namensraum [Aspose.Words.Properties](../../aspose.words.properties/)
 * Montage [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.CacheBackgroundGraphics
-second_title: Aspose.Words لمراجع .NET API
-description: PdfSaveOptions ملكية. الحصول على أو تعيين قيمة تحدد ما إذا كان سيتم تخزين الرسومات الموضوعة في خلفية المستند أم لا.
+linktitle: CacheBackgroundGraphics
+articleTitle: CacheBackgroundGraphics
+second_title: Aspose.Words لـ .NET
+description: PdfSaveOptions CacheBackgroundGraphics ملكية. الحصول على أو تعيين قيمة تحدد ما إذا كان سيتم تخزين الرسومات الموضوعة في خلفية المستند أم لا في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.saving/pdfsaveoptions/cachebackgroundgraphics/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.saving/pdfsaveoptions/cachebackgroundgraphics/
 public bool CacheBackgroundGraphics { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 القيمة الافتراضية هي`حقيقي` ويتم كتابة رسومات الخلفية على مستند PDF على هيئة xObject.
 
@@ -24,7 +26,7 @@ public bool CacheBackgroundGraphics { get; set; }
 
 رسم خلفية المستند عبارة عن أشكال ومخططات وصور مختلفة يتم وضعها في التذييل أو الرأس، بالإضافة إلى خلفية وحدود الصفحة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تخزين الرسومات الموضوعة في خلفية المستند مؤقتًا.
 
@@ -45,7 +47,5 @@ Assert.Less(asposeToPdfSize, wordToPdfSize);
 ### أنظر أيضا
 
 * class [PdfSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../pdfsaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

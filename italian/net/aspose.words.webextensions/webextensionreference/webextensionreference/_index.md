@@ -1,7 +1,9 @@
 ---
-title: WebExtensionReference.WebExtensionReference
-second_title: Aspose.Words per .NET API Reference
-description: WebExtensionReference costruttore. Default_Costruttore
+title: WebExtensionReference
+linktitle: WebExtensionReference
+articleTitle: WebExtensionReference
+second_title: Aspose.Words per .NET
+description: WebExtensionReference costruttore. Default_Costruttore in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words.webextensions/webextensionreference/webextensionreference/
@@ -17,7 +19,5 @@ public WebExtensionReference()
 ### Guarda anche
 
 * class [WebExtensionReference](../)
-* spazio dei nomi [Aspose.Words.WebExtensions](../../webextensionreference/)
+* spazio dei nomi [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * assemblea [Aspose.Words](../../../)
-
-

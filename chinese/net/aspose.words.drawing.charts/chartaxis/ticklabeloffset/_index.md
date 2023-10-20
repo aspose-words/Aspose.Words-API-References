@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.TickLabelOffset
-second_title: Aspose.Words for .NET API 参考
-description: ChartAxis 财产. 获取或设置标签距轴的距离
+linktitle: TickLabelOffset
+articleTitle: TickLabelOffset
+second_title: 用于 .NET 的 Aspose.Words
+description: ChartAxis TickLabelOffset 财产. 获取或设置标签距轴的距离 在 C#.
 type: docs
 weight: 230
 url: /zh/net/aspose.words.drawing.charts/chartaxis/ticklabeloffset/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.drawing.charts/chartaxis/ticklabeloffset/
 public int TickLabelOffset { get; set; }
 ```
 
-### 评论
+## 评论
 
 该属性表示默认标签偏移量的百分比。
 
@@ -22,7 +24,7 @@ public int TickLabelOffset { get; set; }
 
 该属性仅对类别轴有效。 MS Office 2016 新图表不支持它。
 
-### 例子
+## 例子
 
 演示如何插入图表并修改其轴的外观。
 
@@ -75,7 +77,5 @@ doc.Save(ArtifactsDir + "Charts.AxisProperties.docx");
 ### 也可以看看
 
 * class [ChartAxis](../)
-* 命名空间 [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* 命名空间 [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * 部件 [Aspose.Words](../../../)
-
-

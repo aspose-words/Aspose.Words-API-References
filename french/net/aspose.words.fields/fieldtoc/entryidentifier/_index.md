@@ -1,7 +1,9 @@
 ---
 title: FieldToc.EntryIdentifier
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldToc propriété. Obtient ou définit une chaîne qui doit correspondre aux identifiants de type des champs TC inclus.
+linktitle: EntryIdentifier
+articleTitle: EntryIdentifier
+second_title: Aspose.Words pour .NET
+description: FieldToc EntryIdentifier propriété. Obtient ou définit une chaîne qui doit correspondre aux identifiants de type des champs TC inclus en C#.
 type: docs
 weight: 50
 url: /fr/net/aspose.words.fields/fieldtoc/entryidentifier/
@@ -14,7 +16,7 @@ Obtient ou définit une chaîne qui doit correspondre aux identifiants de type d
 public string EntryIdentifier { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment insérer un champ TOC et filtrer les champs TC qui finissent comme entrées.
 
@@ -66,7 +68,5 @@ public void InsertTocEntry(DocumentBuilder builder, string text, string typeIden
 ### Voir également
 
 * class [FieldToc](../)
-* espace de noms [Aspose.Words.Fields](../../fieldtoc/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: WebExtension.Reference
-second_title: Справочник по API Aspose.Words для .NET
-description: WebExtension свойство. Указывает основную ссылку на вебрасширение.
+linktitle: Reference
+articleTitle: Reference
+second_title: Aspose.Words для .NET
+description: WebExtension Reference свойство. Указывает основную ссылку на вебрасширение на С#.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.webextensions/webextension/reference/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.webextensions/webextension/reference/
 public WebExtensionReference Reference { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как добавить веб-расширение в документ.
 
@@ -60,7 +62,5 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 
 * class [WebExtensionReference](../../webextensionreference/)
 * class [WebExtension](../)
-* пространство имен [Aspose.Words.WebExtensions](../../webextension/)
+* пространство имен [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * сборка [Aspose.Words](../../../)
-
-

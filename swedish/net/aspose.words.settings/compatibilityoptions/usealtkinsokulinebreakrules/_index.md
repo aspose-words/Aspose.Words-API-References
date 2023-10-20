@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.UseAltKinsokuLineBreakRules
-second_title: Aspose.Words för .NET API Referens
-description: CompatibilityOptions fast egendom. Använd alternativ uppsättning östasiatiska linjebrytningsregler.
+linktitle: UseAltKinsokuLineBreakRules
+articleTitle: UseAltKinsokuLineBreakRules
+second_title: Aspose.Words för .NET
+description: CompatibilityOptions UseAltKinsokuLineBreakRules fast egendom. Använd alternativ uppsättning östasiatiska linjebrytningsregler i C#.
 type: docs
 weight: 600
 url: /sv/net/aspose.words.settings/compatibilityoptions/usealtkinsokulinebreakrules/
@@ -17,7 +19,5 @@ public bool UseAltKinsokuLineBreakRules { get; set; }
 ### Se även
 
 * class [CompatibilityOptions](../)
-* namnutrymme [Aspose.Words.Settings](../../compatibilityoptions/)
+* namnutrymme [Aspose.Words.Settings](../../../aspose.words.settings/)
 * hopsättning [Aspose.Words](../../../)
-
-

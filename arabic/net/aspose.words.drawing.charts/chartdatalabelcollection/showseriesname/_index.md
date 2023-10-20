@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabelCollection.ShowSeriesName
-second_title: Aspose.Words لمراجع .NET API
-description: ChartDataLabelCollection ملكية. إرجاع قيمة منطقية أو تعيينها للإشارة إلى سلوك عرض اسم السلسلة لتسميات البيانات الخاصة بالسلسلة بأكملها. حقيقي لإظهار اسم المسلسلخطأ شنيع لإخفاء. بشكل افتراضيخطأ شنيع .
+linktitle: ShowSeriesName
+articleTitle: ShowSeriesName
+second_title: Aspose.Words لـ .NET
+description: ChartDataLabelCollection ShowSeriesName ملكية. إرجاع قيمة منطقية أو تعيينها للإشارة إلى سلوك عرض اسم السلسلة لتسميات البيانات الخاصة بالسلسلة بأكملها. حقيقي لإظهار اسم المسلسلخطأ شنيع لإخفاء. بشكل افتراضيخطأ شنيع  في C#.
 type: docs
 weight: 130
 url: /ar/net/aspose.words.drawing.charts/chartdatalabelcollection/showseriesname/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.drawing.charts/chartdatalabelcollection/showseriesname
 public bool ShowSeriesName { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 يمكن تجاوز القيمة المحددة لهذه الخاصية لتسمية بيانات فردية باستخدام [`ShowSeriesName`](../../chartdatalabel/showseriesname/) الملكية.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التعامل مع تسميات البيانات الخاصة بالمخطط الفقاعي.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "Charts.DataLabelsBubbleChart.docx");
 ### أنظر أيضا
 
 * class [ChartDataLabelCollection](../)
-* مساحة الاسم [Aspose.Words.Drawing.Charts](../../chartdatalabelcollection/)
+* مساحة الاسم [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../../)
-
-

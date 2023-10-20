@@ -1,7 +1,9 @@
 ---
 title: NodeList.ToArray
-second_title: Aspose.Words per .NET API Reference
-description: NodeList metodo. Copia tutti i nodi dalla raccolta in un nuovo array di nodi.
+linktitle: ToArray
+articleTitle: ToArray
+second_title: Aspose.Words per .NET
+description: NodeList ToArray metodo. Copia tutti i nodi dalla raccolta in un nuovo array di nodi in C#.
 type: docs
 weight: 40
 url: /it/net/aspose.words/nodelist/toarray/
@@ -18,13 +20,13 @@ public Node[] ToArray()
 
 Una matrice di nodi.
 
-### Osservazioni
+## Osservazioni
 
 Non dovresti aggiungere/rimuovere nodi durante l'iterazione su una raccolta di nodi perché invalida l'iteratore e richiede aggiornamenti per le raccolte attive.
 
 Per poter aggiungere/rimuovere nodi durante l'iterazione, utilizzare questo metodo per copiare i nodi in un array di dimensioni fisse e quindi scorrere l'array.
 
-### Esempi
+## Esempi
 
 Mostra come selezionare determinati nodi utilizzando un'espressione XPath.
 
@@ -58,7 +60,5 @@ Assert.AreEqual(typeof(Paragraph), node.GetType());
 
 * class [Node](../../node/)
 * class [NodeList](../)
-* spazio dei nomi [Aspose.Words](../../nodelist/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

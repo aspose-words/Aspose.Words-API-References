@@ -1,7 +1,9 @@
 ---
 title: BookmarkCollection.RemoveAt
-second_title: Référence de l'API Aspose.Words pour .NET
-description: BookmarkCollection méthode. Supprime un signet à lindex spécifié.
+linktitle: RemoveAt
+articleTitle: RemoveAt
+second_title: Aspose.Words pour .NET
+description: BookmarkCollection RemoveAt méthode. Supprime un signet à lindex spécifié en C#.
 type: docs
 weight: 60
 url: /fr/net/aspose.words/bookmarkcollection/removeat/
@@ -18,7 +20,7 @@ public void RemoveAt(int index)
 | --- | --- | --- |
 | index | Int32 | Index de base zéro du signet à supprimer. |
 
-### Exemples
+## Exemples
 
 Montre comment supprimer des signets d’un document.
 
@@ -79,7 +81,5 @@ Assert.AreEqual("Text inside MyBookmark_1.\r" +
 ### Voir également
 
 * class [BookmarkCollection](../)
-* espace de noms [Aspose.Words](../../bookmarkcollection/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

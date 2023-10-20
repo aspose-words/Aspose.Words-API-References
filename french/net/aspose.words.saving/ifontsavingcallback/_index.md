@@ -1,7 +1,9 @@
 ---
-title: Interface IFontSavingCallback
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Saving.IFontSavingCallback interface. Implémentez cette interface si vous souhaitez recevoir des notifications et contrôler comment Aspose.Words enregistre les polices lors de lexportation dun document au format HTML.
+title: IFontSavingCallback Interface
+linktitle: IFontSavingCallback
+articleTitle: IFontSavingCallback
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Saving.IFontSavingCallback interface. Implémentez cette interface si vous souhaitez recevoir des notifications et contrôler comment Aspose.Words enregistre les polices lors de lexportation dun document au format HTML en C#.
 type: docs
 weight: 5160
 url: /fr/net/aspose.words.saving/ifontsavingcallback/
@@ -18,9 +20,9 @@ public interface IFontSavingCallback
 
 | Nom | La description |
 | --- | --- |
-| [FontSaving](../../aspose.words.saving/ifontsavingcallback/fontsaving/)(FontSavingArgs) | Appelé lorsqu'Aspose.Words est sur le point d'enregistrer une ressource de police. |
+| [FontSaving](../../aspose.words.saving/ifontsavingcallback/fontsaving/)(*[FontSavingArgs](../fontsavingargs/)*) | Appelé lorsqu'Aspose.Words est sur le point d'enregistrer une ressource de police. |
 
-### Exemples
+## Exemples
 
 Montre comment définir une logique personnalisée pour l’exportation des polices lors de l’enregistrement au format HTML.
 
@@ -81,5 +83,3 @@ public class HandleFontSaving : IFontSavingCallback
 
 * espace de noms [Aspose.Words.Saving](../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../)
-
-

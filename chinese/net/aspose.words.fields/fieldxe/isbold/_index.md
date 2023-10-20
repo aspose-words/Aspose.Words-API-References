@@ -1,7 +1,9 @@
 ---
 title: FieldXE.IsBold
-second_title: Aspose.Words for .NET API 参考
-description: FieldXE 财产. 获取或设置是否对条目的页码应用粗体格式
+linktitle: IsBold
+articleTitle: IsBold
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldXE IsBold 财产. 获取或设置是否对条目的页码应用粗体格式 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.fields/fieldxe/isbold/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fieldxe/isbold/
 public bool IsBold { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何使用 XE 字段用条目填充 INDEX 字段，并修改其外观。
 
@@ -86,7 +88,5 @@ doc.Save(ArtifactsDir + "Field.INDEX.XE.Formatting.docx");
 ### 也可以看看
 
 * class [FieldXE](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldxe/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

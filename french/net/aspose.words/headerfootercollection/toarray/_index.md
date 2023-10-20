@@ -1,7 +1,9 @@
 ---
 title: HeaderFooterCollection.ToArray
-second_title: Référence de l'API Aspose.Words pour .NET
-description: HeaderFooterCollection méthode. Copie toutEntêteFoorter s de la collection à une nouvelle gamme deEntêteFoorter s.
+linktitle: ToArray
+articleTitle: ToArray
+second_title: Aspose.Words pour .NET
+description: HeaderFooterCollection ToArray méthode. Copie toutEntêteFoorter s de la collection à une nouvelle gamme deEntêteFoorter s en C#.
 type: docs
 weight: 30
 url: /fr/net/aspose.words/headerfootercollection/toarray/
@@ -18,7 +20,7 @@ public HeaderFooter[] ToArray()
 
 Un étalage de`En-têteFoorter`s.
 
-### Exemples
+## Exemples
 
 Montre comment imprimer la structure des nœuds de chaque en-tête et pied de page d'un document.
 
@@ -112,7 +114,5 @@ public class HeaderFooterStructurePrinter : DocumentVisitor
 
 * class [HeaderFooter](../../headerfooter/)
 * class [HeaderFooterCollection](../)
-* espace de noms [Aspose.Words](../../headerfootercollection/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

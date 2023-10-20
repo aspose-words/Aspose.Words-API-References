@@ -1,7 +1,9 @@
 ---
 title: PageInfo.PaperSize
-second_title: Referencia de API de Aspose.Words para .NET
-description: PageInfo propiedad. Obtiene el tamaño del papel como enumeración.
+linktitle: PaperSize
+articleTitle: PaperSize
+second_title: Aspose.Words para .NET
+description: PageInfo PaperSize propiedad. Obtiene el tamaño del papel como enumeración en C#.
 type: docs
 weight: 40
 url: /es/net/aspose.words.rendering/pageinfo/papersize/
@@ -14,7 +16,7 @@ Obtiene el tamaño del papel como enumeración.
 public PaperSize PaperSize { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo imprimir información sobre el tamaño y la orientación de cada página de un documento de Word.
 
@@ -57,7 +59,5 @@ for (int i = 0; i < doc.PageCount; i++)
 
 * enum [PaperSize](../../../aspose.words/papersize/)
 * class [PageInfo](../)
-* espacio de nombres [Aspose.Words.Rendering](../../pageinfo/)
+* espacio de nombres [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * asamblea [Aspose.Words](../../../)
-
-

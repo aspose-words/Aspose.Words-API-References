@@ -1,7 +1,9 @@
 ---
-title: Class ChartDataLabelCollection
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Drawing.Charts.ChartDataLabelCollection сорт. Представляет коллекциюChartDataLabel .
+title: ChartDataLabelCollection Class
+linktitle: ChartDataLabelCollection
+articleTitle: ChartDataLabelCollection
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Drawing.Charts.ChartDataLabelCollection сорт. Представляет коллекциюChartDataLabel  на С#.
 type: docs
 weight: 680
 url: /ru/net/aspose.words.drawing.charts/chartdatalabelcollection/
@@ -42,7 +44,7 @@ public class ChartDataLabelCollection : IEnumerable<ChartDataLabel>
 | [ClearFormat](../../aspose.words.drawing.charts/chartdatalabelcollection/clearformat/)() | Очищает формат всех[`ChartDataLabel`](../chartdatalabel/) в этой коллекции. |
 | [GetEnumerator](../../aspose.words.drawing.charts/chartdatalabelcollection/getenumerator/)() | Возвращает объект перечислителя. |
 
-### Примеры
+## Примеры
 
 Показывает, как применять метки к точкам данных на линейной диаграмме.
 
@@ -122,5 +124,3 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
 * class [ChartDataLabel](../chartdatalabel/)
 * пространство имен [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../)
-
-

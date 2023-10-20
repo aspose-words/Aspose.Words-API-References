@@ -1,7 +1,9 @@
 ---
 title: Footnote.NodeType
-second_title: Aspose.Words لمراجع .NET API
-description: Footnote ملكية. إرجاعFootnote .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words لـ .NET
+description: Footnote NodeType ملكية. إرجاعFootnote  في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.notes/footnote/nodetype/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.notes/footnote/nodetype/
 public override NodeType NodeType { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية اجتياز شجرة العقدة المركبة من العقد الفرعية.
 
@@ -62,7 +64,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 
 * enum [NodeType](../../../aspose.words/nodetype/)
 * class [Footnote](../)
-* مساحة الاسم [Aspose.Words.Notes](../../footnote/)
+* مساحة الاسم [Aspose.Words.Notes](../../../aspose.words.notes/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: NodeRendererBase.BoundsInPoints
-second_title: Aspose.Words för .NET API Referens
-description: NodeRendererBase fast egendom. Får formens faktiska gränser i poäng.
+linktitle: BoundsInPoints
+articleTitle: BoundsInPoints
+second_title: Aspose.Words för .NET
+description: NodeRendererBase BoundsInPoints fast egendom. Får formens faktiska gränser i poäng i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.rendering/noderendererbase/boundsinpoints/
@@ -14,11 +16,11 @@ Får formens faktiska gränser i poäng.
 public RectangleF BoundsInPoints { get; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Den här egenskapen returnerar den faktiska (som återges på sidan) begränsningsrutan för formen. Gränserna tar hänsyn till formrotation (om någon).
 
-### Exempel
+## Exempel
 
 Visar hur man mäter och skalar former.
 
@@ -65,7 +67,5 @@ Assert.AreEqual(30, bounds.Height);
 ### Se även
 
 * class [NodeRendererBase](../)
-* namnutrymme [Aspose.Words.Rendering](../../noderendererbase/)
+* namnutrymme [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * hopsättning [Aspose.Words](../../../)
-
-

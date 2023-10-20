@@ -1,7 +1,9 @@
 ---
-title: Enum FieldIfComparisonResult
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Fields.FieldIfComparisonResult تعداد. يحدد نتيجة تقييم حالة حقل IF.
+title: FieldIfComparisonResult Enum
+linktitle: FieldIfComparisonResult
+articleTitle: FieldIfComparisonResult
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Fields.FieldIfComparisonResult تعداد. يحدد نتيجة تقييم حالة حقل IF في C#.
 type: docs
 weight: 2010
 url: /ar/net/aspose.words.fields/fieldifcomparisonresult/
@@ -22,7 +24,7 @@ public enum FieldIfComparisonResult
 | True | `1` | الشرط هو`حقيقي` . |
 | False | `2` | الشرط هو`خطأ شنيع` . |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج حقل IF.
 
@@ -69,5 +71,3 @@ doc.Save(ArtifactsDir + "Field.IF.docx");
 
 * مساحة الاسم [Aspose.Words.Fields](../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../)
-
-

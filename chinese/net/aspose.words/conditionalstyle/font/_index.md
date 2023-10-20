@@ -1,7 +1,9 @@
 ---
 title: ConditionalStyle.Font
-second_title: Aspose.Words for .NET API 参考
-description: ConditionalStyle 财产. 获取条件样式的字符格式
+linktitle: Font
+articleTitle: Font
+second_title: 用于 .NET 的 Aspose.Words
+description: ConditionalStyle Font 财产. 获取条件样式的字符格式 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words/conditionalstyle/font/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/conditionalstyle/font/
 public Font Font { get; }
 ```
 
-### 例子
+## 例子
 
 展示如何使用表格的某些区域样式。
 
@@ -85,7 +87,5 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 
 * class [Font](../../font/)
 * class [ConditionalStyle](../)
-* 命名空间 [Aspose.Words](../../conditionalstyle/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

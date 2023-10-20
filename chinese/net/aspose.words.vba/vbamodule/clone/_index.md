@@ -1,7 +1,9 @@
 ---
 title: VbaModule.Clone
-second_title: Aspose.Words for .NET API 参考
-description: VbaModule 方法. 执行复制VbaModule.
+linktitle: Clone
+articleTitle: Clone
+second_title: 用于 .NET 的 Aspose.Words
+description: VbaModule Clone 方法. 执行复制VbaModule 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words.vba/vbamodule/clone/
@@ -18,7 +20,7 @@ public VbaModule Clone()
 
 克隆人[`VbaModule`](../)。
 
-### 例子
+## 例子
 
 演示如何深度克隆 VBA 项目和模块。
 
@@ -42,7 +44,5 @@ destDoc.Save(ArtifactsDir + "VbaProject.CloneVbaProject.docm");
 ### 也可以看看
 
 * class [VbaModule](../)
-* 命名空间 [Aspose.Words.Vba](../../vbamodule/)
+* 命名空间 [Aspose.Words.Vba](../../../aspose.words.vba/)
 * 部件 [Aspose.Words](../../../)
-
-

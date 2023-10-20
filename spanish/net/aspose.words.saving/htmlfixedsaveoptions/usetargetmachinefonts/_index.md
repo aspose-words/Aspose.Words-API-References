@@ -1,7 +1,9 @@
 ---
 title: HtmlFixedSaveOptions.UseTargetMachineFonts
-second_title: Referencia de API de Aspose.Words para .NET
-description: HtmlFixedSaveOptions propiedad. El indicador indica si se deben usar fuentes de la máquina de destino para mostrar el documento. Si este indicador está configurado enverdadero FontFormat yExportEmbeddedFonts las propiedades no tienen efecto tambiénResourceSavingCallback no se activa para las fuentes. El valor predeterminado esFALSO .
+linktitle: UseTargetMachineFonts
+articleTitle: UseTargetMachineFonts
+second_title: Aspose.Words para .NET
+description: HtmlFixedSaveOptions UseTargetMachineFonts propiedad. El indicador indica si se deben usar fuentes de la máquina de destino para mostrar el documento. Si este indicador está configurado enverdadero FontFormat yExportEmbeddedFonts las propiedades no tienen efecto tambiénResourceSavingCallback no se activa para las fuentes. El valor predeterminado esFALSO  en C#.
 type: docs
 weight: 190
 url: /es/net/aspose.words.saving/htmlfixedsaveoptions/usetargetmachinefonts/
@@ -14,7 +16,7 @@ El indicador indica si se deben usar fuentes de la máquina de destino para most
 public bool UseTargetMachineFonts { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo usar fuentes solo de la máquina de destino al guardar un documento en HTML.
 
@@ -44,7 +46,5 @@ else
 ### Ver también
 
 * class [HtmlFixedSaveOptions](../)
-* espacio de nombres [Aspose.Words.Saving](../../htmlfixedsaveoptions/)
+* espacio de nombres [Aspose.Words.Saving](../../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../../)
-
-

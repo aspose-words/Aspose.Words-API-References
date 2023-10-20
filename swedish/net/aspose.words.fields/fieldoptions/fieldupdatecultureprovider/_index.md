@@ -1,7 +1,9 @@
 ---
 title: FieldOptions.FieldUpdateCultureProvider
-second_title: Aspose.Words för .NET API Referens
-description: FieldOptions fast egendom. Hämtar eller ställer in en leverantör som returnerar ett kulturobjekt specifikt för varje särskilt fält.
+linktitle: FieldUpdateCultureProvider
+articleTitle: FieldUpdateCultureProvider
+second_title: Aspose.Words för .NET
+description: FieldOptions FieldUpdateCultureProvider fast egendom. Hämtar eller ställer in en leverantör som returnerar ett kulturobjekt specifikt för varje särskilt fält i C#.
 type: docs
 weight: 100
 url: /sv/net/aspose.words.fields/fieldoptions/fieldupdatecultureprovider/
@@ -14,13 +16,13 @@ Hämtar eller ställer in en leverantör som returnerar ett kulturobjekt specifi
 public IFieldUpdateCultureProvider FieldUpdateCultureProvider { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Leverantören efterfrågas när värdet av[`FieldUpdateCultureSource`](../fieldupdateculturesource/) ärFieldCode.
 
 Om leverantören är närvarande används kulturobjektet som den returnerar för fältuppdateringen. Annars används en systemkultur.
 
-### Exempel
+## Exempel
 
 Visar hur man anger en kultur som analyserar formatering av datum/tid för varje fält.
 
@@ -92,7 +94,5 @@ private class FieldUpdateCultureProvider : IFieldUpdateCultureProvider
 
 * interface [IFieldUpdateCultureProvider](../../ifieldupdatecultureprovider/)
 * class [FieldOptions](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldoptions/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

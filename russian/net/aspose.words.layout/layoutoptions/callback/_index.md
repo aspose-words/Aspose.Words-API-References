@@ -1,7 +1,9 @@
 ---
 title: LayoutOptions.Callback
-second_title: Справочник по API Aspose.Words для .NET
-description: LayoutOptions свойство. Получает или устанавливаетIPageLayoutCallback реализация используемая моделью макета страницы.
+linktitle: Callback
+articleTitle: Callback
+second_title: Aspose.Words для .NET
+description: LayoutOptions Callback свойство. Получает или устанавливаетIPageLayoutCallback реализация используемая моделью макета страницы на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.layout/layoutoptions/callback/
@@ -18,7 +20,5 @@ public IPageLayoutCallback Callback { get; set; }
 
 * interface [IPageLayoutCallback](../../ipagelayoutcallback/)
 * class [LayoutOptions](../)
-* пространство имен [Aspose.Words.Layout](../../layoutoptions/)
+* пространство имен [Aspose.Words.Layout](../../../aspose.words.layout/)
 * сборка [Aspose.Words](../../../)
-
-

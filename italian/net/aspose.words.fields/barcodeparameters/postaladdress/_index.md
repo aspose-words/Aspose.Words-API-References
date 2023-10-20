@@ -1,7 +1,9 @@
 ---
 title: BarcodeParameters.PostalAddress
-second_title: Aspose.Words per .NET API Reference
-description: BarcodeParameters proprietà. Indirizzo postale con codice a barre.
+linktitle: PostalAddress
+articleTitle: PostalAddress
+second_title: Aspose.Words per .NET
+description: BarcodeParameters PostalAddress proprietà. Indirizzo postale con codice a barre in C#.
 type: docs
 weight: 150
 url: /it/net/aspose.words.fields/barcodeparameters/postaladdress/
@@ -14,7 +16,7 @@ Indirizzo postale con codice a barre.
 public string PostalAddress { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come utilizzare un generatore di codici a barre.
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.docx");
 ### Guarda anche
 
 * class [BarcodeParameters](../)
-* spazio dei nomi [Aspose.Words.Fields](../../barcodeparameters/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

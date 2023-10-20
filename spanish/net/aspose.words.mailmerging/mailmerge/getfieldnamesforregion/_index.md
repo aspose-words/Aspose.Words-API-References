@@ -1,12 +1,14 @@
 ---
 title: MailMerge.GetFieldNamesForRegion
-second_title: Referencia de API de Aspose.Words para .NET
-description: MailMerge método. Devuelve una colección de nombres de campos de combinación de correspondencia disponibles en la región.
+linktitle: GetFieldNamesForRegion
+articleTitle: GetFieldNamesForRegion
+second_title: Aspose.Words para .NET
+description: MailMerge GetFieldNamesForRegion método. Devuelve una colección de nombres de campos de combinación de correspondencia disponibles en la región en C#.
 type: docs
 weight: 230
 url: /es/net/aspose.words.mailmerging/mailmerge/getfieldnamesforregion/
 ---
-## GetFieldNamesForRegion(string) {#getfieldnamesforregion}
+## GetFieldNamesForRegion(*string*) {#getfieldnamesforregion}
 
 Devuelve una colección de nombres de campos de combinación de correspondencia disponibles en la región.
 
@@ -18,7 +20,7 @@ public string[] GetFieldNamesForRegion(string regionName)
 | --- | --- | --- |
 | regionName | String | Nombre de la región (no distingue entre mayúsculas y minúsculas). |
 
-### Observaciones
+## Observaciones
 
 Devuelve nombres completos de campos de combinación, incluido el prefijo opcional. No elimina nombres de campos duplicados.
 
@@ -26,7 +28,7 @@ Si el documento contiene varias regiones con el mismo nombre, se procesa la prim
 
 Se crea una nueva matriz de cadenas en cada llamada.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear, enumerar y leer regiones de combinación de correspondencia.
 
@@ -81,12 +83,12 @@ Assert.AreEqual("Column2", mergeFieldNames[0]);
 ### Ver también
 
 * class [MailMerge](../)
-* espacio de nombres [Aspose.Words.MailMerging](../../mailmerge/)
+* espacio de nombres [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * asamblea [Aspose.Words](../../../)
 
 ---
 
-## GetFieldNamesForRegion(string, int) {#getfieldnamesforregion_1}
+## GetFieldNamesForRegion(*string, int*) {#getfieldnamesforregion_1}
 
 Devuelve una colección de nombres de campos de combinación de correspondencia disponibles en la región.
 
@@ -99,7 +101,7 @@ public string[] GetFieldNamesForRegion(string regionName, int regionIndex)
 | regionName | String | Nombre de la región (no distingue entre mayúsculas y minúsculas). |
 | regionIndex | Int32 | Índice de región (base cero). |
 
-### Observaciones
+## Observaciones
 
 Devuelve nombres completos de campos de combinación, incluido el prefijo opcional. No elimina nombres de campos duplicados.
 
@@ -107,7 +109,7 @@ Si el documento contiene varias regiones con el mismo nombre, se procesa la ené
 
 Se crea una nueva matriz de cadenas en cada llamada.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear, enumerar y leer regiones de combinación de correspondencia.
 
@@ -162,7 +164,5 @@ Assert.AreEqual("Column2", mergeFieldNames[0]);
 ### Ver también
 
 * class [MailMerge](../)
-* espacio de nombres [Aspose.Words.MailMerging](../../mailmerge/)
+* espacio de nombres [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * asamblea [Aspose.Words](../../../)
-
-

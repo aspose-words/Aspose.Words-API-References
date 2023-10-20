@@ -1,7 +1,9 @@
 ---
 title: ChartXValue.Equals
-second_title: Aspose.Words för .NET API Referens
-description: ChartXValue metod. Får en flagga som indikerar om det angivna objektet är lika med det aktuella Xvärdeobjektet.
+linktitle: Equals
+articleTitle: Equals
+second_title: Aspose.Words för .NET
+description: ChartXValue Equals metod. Får en flagga som indikerar om det angivna objektet är lika med det aktuella Xvärdeobjektet i C#.
 type: docs
 weight: 120
 url: /sv/net/aspose.words.drawing.charts/chartxvalue/equals/
@@ -17,7 +19,5 @@ public override bool Equals(object obj)
 ### Se även
 
 * class [ChartXValue](../)
-* namnutrymme [Aspose.Words.Drawing.Charts](../../chartxvalue/)
+* namnutrymme [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../../)
-
-

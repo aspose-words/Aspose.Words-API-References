@@ -1,7 +1,9 @@
 ---
 title: NodeChangingArgs.NewParent
-second_title: Aspose.Words för .NET API Referens
-description: NodeChangingArgs fast egendom. Hämtar nodens överordnade som kommer att ställas in efter att operationen är klar.
+linktitle: NewParent
+articleTitle: NewParent
+second_title: Aspose.Words för .NET
+description: NodeChangingArgs NewParent fast egendom. Hämtar nodens överordnade som kommer att ställas in efter att operationen är klar i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words/nodechangingargs/newparent/
@@ -14,7 +16,7 @@ Hämtar nodens överordnade som kommer att ställas in efter att operationen är
 public Node NewParent { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man använder en NodeChangingCallback för att övervaka ändringar i dokumentträdet i realtid när vi redigerar det.
 
@@ -90,7 +92,5 @@ private class NodeChangingPrinter : INodeChangingCallback
 
 * class [Node](../../node/)
 * class [NodeChangingArgs](../)
-* namnutrymme [Aspose.Words](../../nodechangingargs/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

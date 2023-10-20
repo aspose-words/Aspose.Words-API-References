@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.UsePrinterMetrics
-second_title: Aspose.Words لمراجع .NET API
-description: CompatibilityOptions ملكية. استخدم مقاييس الطابعة لعرض المستندات.
+linktitle: UsePrinterMetrics
+articleTitle: UsePrinterMetrics
+second_title: Aspose.Words لـ .NET
+description: CompatibilityOptions UsePrinterMetrics ملكية. استخدم مقاييس الطابعة لعرض المستندات في C#.
 type: docs
 weight: 640
 url: /ar/net/aspose.words.settings/compatibilityoptions/useprintermetrics/
@@ -14,14 +16,12 @@ url: /ar/net/aspose.words.settings/compatibilityoptions/useprintermetrics/
 public bool UsePrinterMetrics { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 قد تختلف مقاييس الطابعة وفقًا لبرامج التشغيل المستخدمة. على سبيل المثال، يوفر Windows "Microsoft OpenXPS Class Driver 2" و"Microsoft Print to PDF" مقاييس مختلفة قليلاً. لذلك، قد يتغير تخطيط المستند النهائي إذا تم تمكين هذا الخيار.
 
 ### أنظر أيضا
 
 * class [CompatibilityOptions](../)
-* مساحة الاسم [Aspose.Words.Settings](../../compatibilityoptions/)
+* مساحة الاسم [Aspose.Words.Settings](../../../aspose.words.settings/)
 * المجسم [Aspose.Words](../../../)
-
-

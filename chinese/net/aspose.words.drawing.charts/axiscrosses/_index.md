@@ -1,7 +1,9 @@
 ---
-title: Enum AxisCrosses
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Drawing.Charts.AxisCrosses 枚举. 指定轴可能的交叉点
+title: AxisCrosses Enum
+linktitle: AxisCrosses
+articleTitle: AxisCrosses
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Drawing.Charts.AxisCrosses 枚举. 指定轴可能的交叉点 在 C#.
 type: docs
 weight: 540
 url: /zh/net/aspose.words.drawing.charts/axiscrosses/
@@ -23,7 +25,7 @@ public enum AxisCrosses
 | Minimum | `2` | 垂直轴在轴的最小值处相交。 |
 | Custom | `3` | 垂直轴在轴的指定值处交叉。 |
 
-### 例子
+## 例子
 
 演示如何插入图表并修改其轴的外观。
 
@@ -77,5 +79,3 @@ doc.Save(ArtifactsDir + "Charts.AxisProperties.docx");
 
 * 命名空间 [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * 部件 [Aspose.Words](../../)
-
-

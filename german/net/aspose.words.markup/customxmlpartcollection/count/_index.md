@@ -1,7 +1,9 @@
 ---
 title: CustomXmlPartCollection.Count
-second_title: Aspose.Words für .NET-API-Referenz
-description: CustomXmlPartCollection eigendom. Ruft die Anzahl der in der Sammlung enthaltenen Elemente ab.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words für .NET
+description: CustomXmlPartCollection Count eigendom. Ruft die Anzahl der in der Sammlung enthaltenen Elemente ab in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.markup/customxmlpartcollection/count/
@@ -14,7 +16,7 @@ Ruft die Anzahl der in der Sammlung enthaltenen Elemente ab.
 public int Count { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein strukturiertes Dokument-Tag mit benutzerdefinierten XML-Daten erstellt wird.
 
@@ -81,7 +83,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.CustomXml.docx");
 ### Siehe auch
 
 * class [CustomXmlPartCollection](../)
-* namensraum [Aspose.Words.Markup](../../customxmlpartcollection/)
+* namensraum [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Montage [Aspose.Words](../../../)
-
-

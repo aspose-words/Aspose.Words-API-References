@@ -1,7 +1,9 @@
 ---
 title: FieldToc.CustomStyles
-second_title: Aspose.Words for .NET API 参考
-description: FieldToc 财产. 获取或设置要包含在目录中的内置标题样式以外的样式列表
+linktitle: CustomStyles
+articleTitle: CustomStyles
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldToc CustomStyles 财产. 获取或设置要包含在目录中的内置标题样式以外的样式列表 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.fields/fieldtoc/customstyles/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fieldtoc/customstyles/
 public string CustomStyles { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何插入目录，并使用基于标题样式的条目填充它。
 
@@ -99,7 +101,5 @@ public void InsertNewPageWithHeading(DocumentBuilder builder, string captionText
 ### 也可以看看
 
 * class [FieldToc](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldtoc/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

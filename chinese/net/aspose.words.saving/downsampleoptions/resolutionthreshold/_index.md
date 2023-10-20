@@ -1,7 +1,9 @@
 ---
 title: DownsampleOptions.ResolutionThreshold
-second_title: Aspose.Words for .NET API 参考
-description: DownsampleOptions 财产. 指定阈值分辨率以每英寸像素为单位 如果文档中图像的分辨率小于阈值则 将不会应用下采样算法 值 0 表示不使用阈值检查并且所有图像都将使用阈值检查可以减小尺寸并进行下采样
+linktitle: ResolutionThreshold
+articleTitle: ResolutionThreshold
+second_title: 用于 .NET 的 Aspose.Words
+description: DownsampleOptions ResolutionThreshold 财产. 指定阈值分辨率以每英寸像素为单位 如果文档中图像的分辨率小于阈值则 将不会应用下采样算法 值 0 表示不使用阈值检查并且所有图像都将使用阈值检查可以减小尺寸并进行下采样 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.saving/downsampleoptions/resolutionthreshold/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.saving/downsampleoptions/resolutionthreshold/
 public int ResolutionThreshold { get; set; }
 ```
 
-### 评论
+## 评论
 
 默认值为 0.
 
-### 例子
+## 例子
 
 演示如何更改 PDF 文档中图像的分辨率。
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.DownsampleOptions.LowerResolution.pdf", 
 ### 也可以看看
 
 * class [DownsampleOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../downsampleoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

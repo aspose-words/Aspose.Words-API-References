@@ -1,7 +1,9 @@
 ---
 title: FindReplaceOptions.Direction
-second_title: Aspose.Words für .NET-API-Referenz
-description: FindReplaceOptions eigendom. Wählt die Richtung zum Ersetzen aus. Der Standardwert istForward .
+linktitle: Direction
+articleTitle: Direction
+second_title: Aspose.Words für .NET
+description: FindReplaceOptions Direction eigendom. Wählt die Richtung zum Ersetzen aus. Der Standardwert istForward  in C#.
 type: docs
 weight: 40
 url: /de/net/aspose.words.replacing/findreplaceoptions/direction/
@@ -14,7 +16,7 @@ Wählt die Richtung zum Ersetzen aus. Der Standardwert istForward .
 public FindReplaceDirection Direction { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie bestimmen, in welche Richtung ein Suchen-und-Ersetzen-Vorgang das Dokument durchläuft.
 
@@ -81,7 +83,5 @@ private class TextReplacementRecorder : IReplacingCallback
 
 * enum [FindReplaceDirection](../../findreplacedirection/)
 * class [FindReplaceOptions](../)
-* namensraum [Aspose.Words.Replacing](../../findreplaceoptions/)
+* namensraum [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * Montage [Aspose.Words](../../../)
-
-

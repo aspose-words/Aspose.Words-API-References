@@ -1,9 +1,11 @@
 ---
 title: Table.SetBorders
-second_title: Aspose.Words för .NET API Referens
-description: Table metod. Ställer in alla tabellkanter till angiven linjestil bredd och färg.
+linktitle: SetBorders
+articleTitle: SetBorders
+second_title: Aspose.Words för .NET
+description: Table SetBorders metod. Ställer in alla tabellkanter till angiven linjestil bredd och färg i C#.
 type: docs
-weight: 440
+weight: 420
 url: /sv/net/aspose.words.tables/table/setborders/
 ---
 ## Table.SetBorders method
@@ -20,7 +22,7 @@ public void SetBorders(LineStyle lineStyle, double lineWidth, Color color)
 | lineWidth | Double | Linjebredden som ska ställas in (i punkter). |
 | color | Color | Färgen som ska användas för bården. |
 
-### Exempel
+## Exempel
 
 Visar hur man formaterar alla en tabells ramar samtidigt.
 
@@ -77,7 +79,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.TableBordersAndShading.docx");
 
 * enum [LineStyle](../../../aspose.words/linestyle/)
 * class [Table](../)
-* namnutrymme [Aspose.Words.Tables](../../table/)
+* namnutrymme [Aspose.Words.Tables](../../../aspose.words.tables/)
 * hopsättning [Aspose.Words](../../../)
-
-

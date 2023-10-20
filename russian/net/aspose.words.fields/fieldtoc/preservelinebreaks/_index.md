@@ -1,7 +1,9 @@
 ---
 title: FieldToc.PreserveLineBreaks
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldToc свойство. Получает или задает сохранять ли символы новой строки в записях таблицы.
+linktitle: PreserveLineBreaks
+articleTitle: PreserveLineBreaks
+second_title: Aspose.Words для .NET
+description: FieldToc PreserveLineBreaks свойство. Получает или задает сохранять ли символы новой строки в записях таблицы на С#.
 type: docs
 weight: 130
 url: /ru/net/aspose.words.fields/fieldtoc/preservelinebreaks/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldtoc/preservelinebreaks/
 public bool PreserveLineBreaks { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как вставить оглавление и заполнить его записями на основе стилей заголовков.
 
@@ -99,7 +101,5 @@ public void InsertNewPageWithHeading(DocumentBuilder builder, string captionText
 ### Смотрите также
 
 * class [FieldToc](../)
-* пространство имен [Aspose.Words.Fields](../../fieldtoc/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

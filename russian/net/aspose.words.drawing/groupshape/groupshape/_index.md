@@ -1,7 +1,9 @@
 ---
-title: GroupShape.GroupShape
-second_title: Справочник по API Aspose.Words для .NET
-description: GroupShape строитель. Создает новую фигуру группы.
+title: GroupShape
+linktitle: GroupShape
+articleTitle: GroupShape
+second_title: Aspose.Words для .NET
+description: GroupShape строитель. Создает новую фигуру группы на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.drawing/groupshape/groupshape/
@@ -18,13 +20,13 @@ public GroupShape(DocumentBase doc)
 | --- | --- | --- |
 | doc | DocumentBase | Документ владельца. |
 
-### Примечания
+## Примечания
 
 По умолчанию фигура является плавающей и имеет местоположение и размер по умолчанию.
 
 Вам следует указать желаемые свойства фигуры после ее создания.
 
-### Примеры
+## Примеры
 
 Показывает, как создать группу фигур и распечатать ее содержимое с помощью посетителя документа.
 
@@ -116,7 +118,5 @@ public class ShapeGroupPrinter : DocumentVisitor
 
 * class [DocumentBase](../../../aspose.words/documentbase/)
 * class [GroupShape](../)
-* пространство имен [Aspose.Words.Drawing](../../groupshape/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

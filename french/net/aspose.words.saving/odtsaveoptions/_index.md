@@ -1,7 +1,9 @@
 ---
-title: Class OdtSaveOptions
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Saving.OdtSaveOptions classe. Peut être utilisé pour spécifier des options supplémentaires lors de lenregistrement dun document dans leOdt ou Ott format.
+title: OdtSaveOptions Class
+linktitle: OdtSaveOptions
+articleTitle: OdtSaveOptions
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Saving.OdtSaveOptions classe. Peut être utilisé pour spécifier des options supplémentaires lors de lenregistrement dun document dans leOdt ou Ott format en C#.
 type: docs
 weight: 5330
 url: /fr/net/aspose.words.saving/odtsaveoptions/
@@ -21,8 +23,8 @@ public class OdtSaveOptions : SaveOptions
 | Nom | La description |
 | --- | --- |
 | [OdtSaveOptions](odtsaveoptions/#constructor)() | Initialise une nouvelle instance de cette classe qui peut être utilisée pour enregistrer un document dans leOdt format. |
-| [OdtSaveOptions](odtsaveoptions/#constructor_1)(SaveFormat) | Initialise une nouvelle instance de cette classe qui peut être utilisée pour enregistrer un document dans leOdt ou Ott format. |
-| [OdtSaveOptions](odtsaveoptions/#constructor_2)(string) | Initialise une nouvelle instance de cette classe qui peut être utilisée pour enregistrer un document dans leOdt format chiffré avec un mot de passe. |
+| [OdtSaveOptions](odtsaveoptions/#constructor_1)(*[SaveFormat](../../aspose.words/saveformat/)*) | Initialise une nouvelle instance de cette classe qui peut être utilisée pour enregistrer un document dans leOdt ou Ott format. |
+| [OdtSaveOptions](odtsaveoptions/#constructor_2)(*string*) | Initialise une nouvelle instance de cette classe qui peut être utilisée pour enregistrer un document dans leOdt format chiffré avec un mot de passe. |
 
 ## Propriétés
 
@@ -30,7 +32,7 @@ public class OdtSaveOptions : SaveOptions
 | --- | --- |
 | [AllowEmbeddingPostScriptFonts](../../aspose.words.saving/saveoptions/allowembeddingpostscriptfonts/) { get; set; } | Obtient ou définit une valeur booléenne indiquant s'il faut autoriser l'incorporation de polices avec des contours PostScript lors de l'incorporation de polices TrueType dans un document lors de son enregistrement. La valeur par défaut est`FAUX` . |
 | [CustomTimeZoneInfo](../../aspose.words.saving/saveoptions/customtimezoneinfo/) { get; set; } | Obtient ou définit le fuseau horaire local personnalisé utilisé pour les champs de date/heure. |
-| [DefaultTemplate](../../aspose.words.saving/saveoptions/defaulttemplate/) { get; set; } | Obtient ou définit le chemin d'accès au modèle par défaut (y compris le nom de fichier). La valeur par défaut de cette propriété est **chaîne vide** (Empty). |
+| [DefaultTemplate](../../aspose.words.saving/saveoptions/defaulttemplate/) { get; set; } | Obtient ou définit le chemin d'accès au modèle par défaut (y compris le nom de fichier). La valeur par défaut de cette propriété est**chaîne vide** (Empty). |
 | [Dml3DEffectsRenderingMode](../../aspose.words.saving/saveoptions/dml3deffectsrenderingmode/) { get; set; } | Obtient ou définit une valeur déterminant la manière dont les effets 3D sont rendus. |
 | virtual [DmlEffectsRenderingMode](../../aspose.words.saving/saveoptions/dmleffectsrenderingmode/) { get; set; } | Obtient ou définit une valeur déterminant la façon dont les effets DrawingML sont rendus. |
 | [DmlRenderingMode](../../aspose.words.saving/saveoptions/dmlrenderingmode/) { get; set; } | Obtient ou définit une valeur déterminant la façon dont les formes DrawingML sont rendues. |
@@ -51,11 +53,11 @@ public class OdtSaveOptions : SaveOptions
 | [UseAntiAliasing](../../aspose.words.saving/saveoptions/useantialiasing/) { get; set; } | Obtient ou définit une valeur déterminant s'il faut ou non utiliser l'anticrénelage pour le rendu. |
 | [UseHighQualityRendering](../../aspose.words.saving/saveoptions/usehighqualityrendering/) { get; set; } | Obtient ou définit une valeur déterminant s'il faut ou non utiliser des algorithmes de rendu de haute qualité (c'est-à-dire lents). |
 
-### Remarques
+## Remarques
 
 Pour le moment, il ne fournit que le[`SaveFormat`](./saveformat/) propriété, mais à l'avenir d'autres options seront ajoutées, telles qu'un mot de passe de cryptage ou des paramètres de signature numérique.
 
-### Exemples
+## Exemples
 
 Montre comment rendre un document enregistré conforme à un ancien schéma ODT.
 
@@ -94,5 +96,3 @@ doc.Save(ArtifactsDir + "OdtSaveOptions.Odt11Schema.odt", saveOptions);
 * class [SaveOptions](../saveoptions/)
 * espace de noms [Aspose.Words.Saving](../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../)
-
-

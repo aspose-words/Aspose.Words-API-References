@@ -1,7 +1,9 @@
 ---
 title: FieldBibliography.FormatLanguageId
-second_title: Aspose.Words for .NET API 参考
-description: FieldBibliography 财产. 获取或设置用于格式化文档中书目来源的语言 ID
+linktitle: FormatLanguageId
+articleTitle: FormatLanguageId
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldBibliography FormatLanguageId 财产. 获取或设置用于格式化文档中书目来源的语言 ID 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.fields/fieldbibliography/formatlanguageid/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fieldbibliography/formatlanguageid/
 public string FormatLanguageId { get; set; }
 ```
 
-### 例子
+## 例子
 
 展示如何使用 CITATION 和 BIBLIOGRAPHY 字段。
 
@@ -68,7 +70,5 @@ doc.Save(ArtifactsDir + "Field.CITATION.docx");
 ### 也可以看看
 
 * class [FieldBibliography](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldbibliography/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

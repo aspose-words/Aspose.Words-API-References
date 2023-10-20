@@ -1,7 +1,9 @@
 ---
 title: Bookmark.Text
-second_title: Aspose.Words for .NET API 参考
-description: Bookmark 财产. 获取或设置书签中包含的文本
+linktitle: Text
+articleTitle: Text
+second_title: 用于 .NET 的 Aspose.Words
+description: Bookmark Text 财产. 获取或设置书签中包含的文本 在 C#.
 type: docs
 weight: 70
 url: /zh/net/aspose.words/bookmark/text/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/bookmark/text/
 public string Text { get; set; }
 ```
 
-### 例子
+## 例子
 
 展示如何添加书签并更新其内容。
 
@@ -103,7 +105,5 @@ public class BookmarkInfoPrinter : DocumentVisitor
 ### 也可以看看
 
 * class [Bookmark](../)
-* 命名空间 [Aspose.Words](../../bookmark/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

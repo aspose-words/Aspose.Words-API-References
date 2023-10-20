@@ -1,7 +1,9 @@
 ---
 title: TextPath.Bold
-second_title: Aspose.Words för .NET API Referens
-description: TextPath fast egendom. Sant om teckensnittet är formaterat med fet stil.
+linktitle: Bold
+articleTitle: Bold
+second_title: Aspose.Words för .NET
+description: TextPath Bold fast egendom. Sant om teckensnittet är formaterat med fet stil i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.drawing/textpath/bold/
@@ -14,11 +16,11 @@ Sant om teckensnittet är formaterat med fet stil.
 public bool Bold { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Standardvärdet är`falsk`.
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med WordArt.
 
@@ -121,7 +123,5 @@ private static Shape AppendWordArt(Document doc, string text, string textFontFam
 ### Se även
 
 * class [TextPath](../)
-* namnutrymme [Aspose.Words.Drawing](../../textpath/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

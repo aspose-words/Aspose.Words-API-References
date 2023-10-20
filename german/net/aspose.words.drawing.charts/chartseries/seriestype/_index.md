@@ -1,7 +1,9 @@
 ---
 title: ChartSeries.SeriesType
-second_title: Aspose.Words für .NET-API-Referenz
-description: ChartSeries eigendom. Ruft den Typ dieser Diagrammreihe ab.
+linktitle: SeriesType
+articleTitle: SeriesType
+second_title: Aspose.Words für .NET
+description: ChartSeries SeriesType eigendom. Ruft den Typ dieser Diagrammreihe ab in C#.
 type: docs
 weight: 120
 url: /de/net/aspose.words.drawing.charts/chartseries/seriestype/
@@ -14,7 +16,7 @@ Ruft den Typ dieser Diagrammreihe ab.
 public ChartSeriesType SeriesType { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie es geht
 
@@ -41,7 +43,5 @@ doc.Save(ArtifactsDir + "Charts.RemoveSpecificChartSeries.docx");
 
 * enum [ChartSeriesType](../../chartseriestype/)
 * class [ChartSeries](../)
-* namensraum [Aspose.Words.Drawing.Charts](../../chartseries/)
+* namensraum [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../../)
-
-

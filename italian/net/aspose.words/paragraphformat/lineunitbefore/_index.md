@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.LineUnitBefore
-second_title: Aspose.Words per .NET API Reference
-description: ParagraphFormat proprietà. Ottiene o imposta la quantità di spaziatura nelle griglie prima dei paragrafi.
+linktitle: LineUnitBefore
+articleTitle: LineUnitBefore
+second_title: Aspose.Words per .NET
+description: ParagraphFormat LineUnitBefore proprietà. Ottiene o imposta la quantità di spaziatura nelle griglie prima dei paragrafi in C#.
 type: docs
 weight: 230
 url: /it/net/aspose.words/paragraphformat/lineunitbefore/
@@ -14,7 +16,7 @@ Ottiene o imposta la quantità di spaziatura (nelle griglie) prima dei paragrafi
 public double LineUnitBefore { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come modificare la spaziatura e i rientri dei paragrafi.
 
@@ -68,7 +70,5 @@ builder.Write("测试文档测试文档测试文档测试文档测试文档测�
 ### Guarda anche
 
 * class [ParagraphFormat](../)
-* spazio dei nomi [Aspose.Words](../../paragraphformat/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,9 +1,11 @@
 ---
 title: Fill.GradientStyle
-second_title: Aspose.Words per .NET API Reference
-description: Fill proprietà. Ottiene lo stile del gradienteGradientStyle per il riempimento.
+linktitle: GradientStyle
+articleTitle: GradientStyle
+second_title: Aspose.Words per .NET
+description: Fill GradientStyle proprietà. Ottiene lo stile del gradienteGradientStyle per il riempimento in C#.
 type: docs
-weight: 120
+weight: 110
 url: /it/net/aspose.words.drawing/fill/gradientstyle/
 ---
 ## Fill.GradientStyle property
@@ -14,7 +16,7 @@ Ottiene lo stile del gradiente[`GradientStyle`](../../gradientstyle/) per il rie
 public GradientStyle GradientStyle { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come riempire una forma con sfumature.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "Shape.GradientFill.docx", saveOptions);
 
 * enum [GradientStyle](../../gradientstyle/)
 * class [Fill](../)
-* spazio dei nomi [Aspose.Words.Drawing](../../fill/)
+* spazio dei nomi [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assemblea [Aspose.Words](../../../)
-
-

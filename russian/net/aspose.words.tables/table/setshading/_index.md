@@ -1,9 +1,11 @@
 ---
 title: Table.SetShading
-second_title: Справочник по API Aspose.Words для .NET
-description: Table метод. Устанавливает затенение на указанные значения для всей таблицы.
+linktitle: SetShading
+articleTitle: SetShading
+second_title: Aspose.Words для .NET
+description: Table SetShading метод. Устанавливает затенение на указанные значения для всей таблицы на С#.
 type: docs
-weight: 450
+weight: 430
 url: /ru/net/aspose.words.tables/table/setshading/
 ---
 ## Table.SetShading method
@@ -20,7 +22,7 @@ public void SetShading(TextureIndex texture, Color foregroundColor, Color backgr
 | foregroundColor | Color | Цвет текстуры. |
 | backgroundColor | Color | Цвет заливки фона. |
 
-### Примеры
+## Примеры
 
 Показывает, как применить контурную рамку к таблице.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "Table.SetOutlineBorders.docx");
 
 * enum [TextureIndex](../../../aspose.words/textureindex/)
 * class [Table](../)
-* пространство имен [Aspose.Words.Tables](../../table/)
+* пространство имен [Aspose.Words.Tables](../../../aspose.words.tables/)
 * сборка [Aspose.Words](../../../)
-
-

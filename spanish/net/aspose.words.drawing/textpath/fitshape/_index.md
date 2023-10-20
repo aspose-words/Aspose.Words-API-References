@@ -1,7 +1,9 @@
 ---
 title: TextPath.FitShape
-second_title: Referencia de API de Aspose.Words para .NET
-description: TextPath propiedad. Define si el texto se ajusta al cuadro delimitador de una forma.
+linktitle: FitShape
+articleTitle: FitShape
+second_title: Aspose.Words para .NET
+description: TextPath FitShape propiedad. Define si el texto se ajusta al cuadro delimitador de una forma en C#.
 type: docs
 weight: 30
 url: /es/net/aspose.words.drawing/textpath/fitshape/
@@ -14,11 +16,11 @@ Define si el texto se ajusta al cuadro delimitador de una forma.
 public bool FitShape { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 El valor predeterminado es`FALSO`.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo trabajar con WordArt.
 
@@ -121,7 +123,5 @@ private static Shape AppendWordArt(Document doc, string text, string textFontFam
 ### Ver también
 
 * class [TextPath](../)
-* espacio de nombres [Aspose.Words.Drawing](../../textpath/)
+* espacio de nombres [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * asamblea [Aspose.Words](../../../)
-
-

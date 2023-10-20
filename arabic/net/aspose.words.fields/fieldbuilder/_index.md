@@ -1,7 +1,9 @@
 ---
-title: Class FieldBuilder
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Fields.FieldBuilder فصل. إنشاء حقل من الرموز المميزة لرمز الحقل الوسائط والمفاتيح.
+title: FieldBuilder Class
+linktitle: FieldBuilder
+articleTitle: FieldBuilder
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Fields.FieldBuilder فصل. إنشاء حقل من الرموز المميزة لرمز الحقل الوسائط والمفاتيح في C#.
 type: docs
 weight: 1660
 url: /ar/net/aspose.words.fields/fieldbuilder/
@@ -20,25 +22,25 @@ public class FieldBuilder
 
 | اسم | وصف |
 | --- | --- |
-| [FieldBuilder](fieldbuilder/)(FieldType) | تهيئة مثيل لـ`FieldBuilder` فئة. |
+| [FieldBuilder](fieldbuilder/)(*[FieldType](../fieldtype/)*) | تهيئة مثيل لـ`FieldBuilder` فئة. |
 
 ## طُرق
 
 | اسم | وصف |
 | --- | --- |
-| [AddArgument](../../aspose.words.fields/fieldbuilder/addargument/#addargument_2)(double) | إضافة وسيطة الحقل. |
-| [AddArgument](../../aspose.words.fields/fieldbuilder/addargument/#addargument)(FieldArgumentBuilder) | يضيف وسيطة الحقل الممثلة بـ[`FieldArgumentBuilder`](../fieldargumentbuilder/) إلى رمز الحقل. |
-| [AddArgument](../../aspose.words.fields/fieldbuilder/addargument/#addargument_1)(FieldBuilder) | إضافة حقل فرعي يمثله حقل آخر`FieldBuilder` إلى رمز الحقل. |
-| [AddArgument](../../aspose.words.fields/fieldbuilder/addargument/#addargument_3)(int) | إضافة وسيطة الحقل. |
-| [AddArgument](../../aspose.words.fields/fieldbuilder/addargument/#addargument_4)(string) | إضافة وسيطة الحقل. |
-| [AddSwitch](../../aspose.words.fields/fieldbuilder/addswitch/#addswitch)(string) | إضافة مفتاح الحقل. |
-| [AddSwitch](../../aspose.words.fields/fieldbuilder/addswitch/#addswitch_1)(string, double) | إضافة مفتاح الحقل. |
-| [AddSwitch](../../aspose.words.fields/fieldbuilder/addswitch/#addswitch_2)(string, int) | إضافة مفتاح الحقل. |
-| [AddSwitch](../../aspose.words.fields/fieldbuilder/addswitch/#addswitch_3)(string, string) | إضافة مفتاح الحقل. |
-| [BuildAndInsert](../../aspose.words.fields/fieldbuilder/buildandinsert/#buildandinsert)(Inline) | إنشاء وإدراج حقل في المستند قبل العقدة المضمنة المحددة. |
-| [BuildAndInsert](../../aspose.words.fields/fieldbuilder/buildandinsert/#buildandinsert_1)(Paragraph) | إنشاء حقل وإدراجه في المستند حتى نهاية الفقرة المحددة. |
+| [AddArgument](../../aspose.words.fields/fieldbuilder/addargument/#addargument_2)(*double*) | إضافة وسيطة الحقل. |
+| [AddArgument](../../aspose.words.fields/fieldbuilder/addargument/#addargument)(*[FieldArgumentBuilder](../fieldargumentbuilder/)*) | يضيف وسيطة الحقل الممثلة بـ[`FieldArgumentBuilder`](../fieldargumentbuilder/) إلى رمز الحقل. |
+| [AddArgument](../../aspose.words.fields/fieldbuilder/addargument/#addargument_1)(*FieldBuilder*) | إضافة حقل فرعي يمثله حقل آخر`FieldBuilder` إلى رمز الحقل. |
+| [AddArgument](../../aspose.words.fields/fieldbuilder/addargument/#addargument_3)(*int*) | إضافة وسيطة الحقل. |
+| [AddArgument](../../aspose.words.fields/fieldbuilder/addargument/#addargument_4)(*string*) | إضافة وسيطة الحقل. |
+| [AddSwitch](../../aspose.words.fields/fieldbuilder/addswitch/#addswitch)(*string*) | إضافة مفتاح الحقل. |
+| [AddSwitch](../../aspose.words.fields/fieldbuilder/addswitch/#addswitch_1)(*string, double*) | إضافة مفتاح الحقل. |
+| [AddSwitch](../../aspose.words.fields/fieldbuilder/addswitch/#addswitch_2)(*string, int*) | إضافة مفتاح الحقل. |
+| [AddSwitch](../../aspose.words.fields/fieldbuilder/addswitch/#addswitch_3)(*string, string*) | إضافة مفتاح الحقل. |
+| [BuildAndInsert](../../aspose.words.fields/fieldbuilder/buildandinsert/#buildandinsert)(*[Inline](../../aspose.words/inline/)*) | إنشاء وإدراج حقل في المستند قبل العقدة المضمنة المحددة. |
+| [BuildAndInsert](../../aspose.words.fields/fieldbuilder/buildandinsert/#buildandinsert_1)(*[Paragraph](../../aspose.words/paragraph/)*) | إنشاء حقل وإدراجه في المستند حتى نهاية الفقرة المحددة. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء الحقول باستخدام منشئ الحقول، ثم إدراجها في المستند.
 
@@ -122,5 +124,3 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 
 * مساحة الاسم [Aspose.Words.Fields](../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../)
-
-

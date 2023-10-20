@@ -1,7 +1,9 @@
 ---
 title: FieldDisplayBarcode.BarcodeType
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldDisplayBarcode propiedad. Obtiene o establece el tipo de código de barras QR etc.
+linktitle: BarcodeType
+articleTitle: BarcodeType
+second_title: Aspose.Words para .NET
+description: FieldDisplayBarcode BarcodeType propiedad. Obtiene o establece el tipo de código de barras QR etc en C#.
 type: docs
 weight: 40
 url: /es/net/aspose.words.fields/fielddisplaybarcode/barcodetype/
@@ -14,7 +16,7 @@ Obtiene o establece el tipo de código de barras (QR, etc.)
 public string BarcodeType { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo insertar un campo DISPLAYBARCODE y establecer sus propiedades.
 
@@ -72,7 +74,5 @@ doc.Save(ArtifactsDir + "Field.DISPLAYBARCODE.docx");
 ### Ver también
 
 * class [FieldDisplayBarcode](../)
-* espacio de nombres [Aspose.Words.Fields](../../fielddisplaybarcode/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum AxisCategoryType
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Drawing.Charts.AxisCategoryType enum. Specifica il tipo di un asse delle categorie.
+title: AxisCategoryType Enum
+linktitle: AxisCategoryType
+articleTitle: AxisCategoryType
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Drawing.Charts.AxisCategoryType enum. Specifica il tipo di un asse delle categorie in C#.
 type: docs
 weight: 530
 url: /it/net/aspose.words.drawing.charts/axiscategorytype/
@@ -22,7 +24,7 @@ public enum AxisCategoryType
 | Category | `1` | Specifica un asse di un insieme arbitrario di categorie. |
 | Time | `2` | Specifica un asse della categoria temporale. |
 
-### Esempi
+## Esempi
 
 Mostra come inserire un grafico e modificare l'aspetto dei suoi assi.
 
@@ -76,5 +78,3 @@ doc.Save(ArtifactsDir + "Charts.AxisProperties.docx");
 
 * spazio dei nomi [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * assemblea [Aspose.Words](../../)
-
-

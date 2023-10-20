@@ -1,7 +1,9 @@
 ---
 title: ThemeColors.Accent3
-second_title: Aspose.Words per .NET API Reference
-description: ThemeColors proprietà. Specifica laccento colore 3.
+linktitle: Accent3
+articleTitle: Accent3
+second_title: Aspose.Words per .NET
+description: ThemeColors Accent3 proprietà. Specifica laccento colore 3 in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words.themes/themecolors/accent3/
@@ -14,7 +16,7 @@ Specifica l'accento colore 3.
 public Color Accent3 { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come impostare colori e caratteri personalizzati per i temi.
 
@@ -62,7 +64,5 @@ doc.Save(ArtifactsDir + "Themes.CustomColorsAndFonts.docx");
 ### Guarda anche
 
 * class [ThemeColors](../)
-* spazio dei nomi [Aspose.Words.Themes](../../themecolors/)
+* spazio dei nomi [Aspose.Words.Themes](../../../aspose.words.themes/)
 * assemblea [Aspose.Words](../../../)
-
-

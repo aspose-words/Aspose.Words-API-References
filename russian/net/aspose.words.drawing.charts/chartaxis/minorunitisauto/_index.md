@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.MinorUnitIsAuto
-second_title: Справочник по API Aspose.Words для .NET
-description: ChartAxis свойство. Получает или задает флаг указывающий следует ли использовать расстояние по умолчанию между второстепенными делениями.
+linktitle: MinorUnitIsAuto
+articleTitle: MinorUnitIsAuto
+second_title: Aspose.Words для .NET
+description: ChartAxis MinorUnitIsAuto свойство. Получает или задает флаг указывающий следует ли использовать расстояние по умолчанию между второстепенными делениями на С#.
 type: docs
 weight: 170
 url: /ru/net/aspose.words.drawing.charts/chartaxis/minorunitisauto/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.drawing.charts/chartaxis/minorunitisauto/
 public bool MinorUnitIsAuto { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Свойство влияет на категорию времени и оси значений.
 
-### Примеры
+## Примеры
 
 Показывает, как манипулировать делениями и отображаемыми значениями оси диаграммы.
 
@@ -76,7 +78,5 @@ doc.Save(ArtifactsDir + "Charts.AxisDisplayUnit.docx");
 ### Смотрите также
 
 * class [ChartAxis](../)
-* пространство имен [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* пространство имен [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../../)
-
-

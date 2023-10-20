@@ -1,7 +1,9 @@
 ---
 title: FieldXE.IsItalic
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldXE свойство. Получает или задает необходимость применения курсива к номеру страницы записи.
+linktitle: IsItalic
+articleTitle: IsItalic
+second_title: Aspose.Words для .NET
+description: FieldXE IsItalic свойство. Получает или задает необходимость применения курсива к номеру страницы записи на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.fields/fieldxe/isitalic/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldxe/isitalic/
 public bool IsItalic { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как заполнить поле INDEX записями с использованием полей XE, а также изменить его внешний вид.
 
@@ -86,7 +88,5 @@ doc.Save(ArtifactsDir + "Field.INDEX.XE.Formatting.docx");
 ### Смотрите также
 
 * class [FieldXE](../)
-* пространство имен [Aspose.Words.Fields](../../fieldxe/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

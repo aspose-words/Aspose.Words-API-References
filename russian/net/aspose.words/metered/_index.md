@@ -1,7 +1,9 @@
 ---
-title: Class Metered
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Metered сорт. Предоставляет методы для установки дозированного ключа.
+title: Metered Class
+linktitle: Metered
+articleTitle: Metered
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Metered сорт. Предоставляет методы для установки дозированного ключа на С#.
 type: docs
 weight: 4160
 url: /ru/net/aspose.words/metered/
@@ -26,11 +28,11 @@ public class Metered
 
 | Имя | Описание |
 | --- | --- |
-| [SetMeteredKey](../../aspose.words/metered/setmeteredkey/)(string, string) | Устанавливает лимитированный открытый и закрытый ключ. Если вы приобретаете лимитированную лицензию, при запуске приложения этот API должен вызываться, обычно этого достаточно. Однако, если всегда не удается загрузить данные о потреблении и превышает 24 часа, лицензия будет переведена в оценочный статус, , чтобы избежать такого случая, вам следует регулярно проверять статус лицензии. Если это оценочный статус, вызовите этот API еще раз. |
+| [SetMeteredKey](../../aspose.words/metered/setmeteredkey/)(*string, string*) | Устанавливает лимитированный открытый и закрытый ключ. Если вы приобретаете лимитированную лицензию, при запуске приложения этот API должен вызываться, обычно этого достаточно. Однако, если всегда не удается загрузить данные о потреблении и превышает 24 часа, лицензия будет переведена в оценочный статус, , чтобы избежать такого случая, вам следует регулярно проверять статус лицензии. Если это оценочный статус, вызовите этот API еще раз. |
 | static [GetConsumptionCredit](../../aspose.words/metered/getconsumptioncredit/)() | Получает потребительский кредит |
 | static [GetConsumptionQuantity](../../aspose.words/metered/getconsumptionquantity/)() | Получает файл потребления size |
 
-### Примеры
+## Примеры
 
 В этом примере будет предпринята попытка установить дозированный открытый и закрытый ключ
 
@@ -73,5 +75,3 @@ Console.WriteLine($"Consumption quantity after operation: {Metered.GetConsumptio
 
 * пространство имен [Aspose.Words](../../aspose.words/)
 * сборка [Aspose.Words](../../)
-
-

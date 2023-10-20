@@ -1,7 +1,9 @@
 ---
 title: Paragraph.IsListItem
-second_title: Aspose.Words für .NET-API-Referenz
-description: Paragraph eigendom. True wenn der Absatz ein Element in einer Liste mit Aufzählungszeichen oder Nummern in der Originalrevision ist.
+linktitle: IsListItem
+articleTitle: IsListItem
+second_title: Aspose.Words für .NET
+description: Paragraph IsListItem eigendom. True wenn der Absatz ein Element in einer Liste mit Aufzählungszeichen oder Nummern in der Originalrevision ist in C#.
 type: docs
 weight: 120
 url: /de/net/aspose.words/paragraph/islistitem/
@@ -14,7 +16,7 @@ True, wenn der Absatz ein Element in einer Liste mit Aufzählungszeichen oder Nu
 public bool IsListItem { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie eine Liste in einer anderen Liste verschachtelt wird.
 
@@ -68,7 +70,5 @@ builder.Document.Save(ArtifactsDir + "Lists.NestedLists.docx");
 ### Siehe auch
 
 * class [Paragraph](../)
-* namensraum [Aspose.Words](../../paragraph/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

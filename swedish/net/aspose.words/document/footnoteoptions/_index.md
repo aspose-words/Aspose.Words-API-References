@@ -1,7 +1,9 @@
 ---
 title: Document.FootnoteOptions
-second_title: Aspose.Words för .NET API Referens
-description: Document fast egendom. Ger alternativ som styr numrering och placering av fotnoter i detta dokument.
+linktitle: FootnoteOptions
+articleTitle: FootnoteOptions
+second_title: Aspose.Words för .NET
+description: Document FootnoteOptions fast egendom. Ger alternativ som styr numrering och placering av fotnoter i detta dokument i C#.
 type: docs
 weight: 150
 url: /sv/net/aspose.words/document/footnoteoptions/
@@ -14,7 +16,7 @@ Ger alternativ som styr numrering och placering av fotnoter i detta dokument.
 public FootnoteOptions FootnoteOptions { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du väljer en annan plats där dokumentet samlas in och visar dess fotnoter.
 
@@ -186,7 +188,5 @@ doc.Save(ArtifactsDir + "InlineStory.NumberingRule.docx");
 
 * class [FootnoteOptions](../../../aspose.words.notes/footnoteoptions/)
 * class [Document](../)
-* namnutrymme [Aspose.Words](../../document/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

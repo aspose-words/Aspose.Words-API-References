@@ -1,7 +1,9 @@
 ---
 title: Cell.FirstParagraph
-second_title: Aspose.Words for .NET API 参考
-description: Cell 财产. 获取直接子级中的第一个段落
+linktitle: FirstParagraph
+articleTitle: FirstParagraph
+second_title: 用于 .NET 的 Aspose.Words
+description: Cell FirstParagraph 财产. 获取直接子级中的第一个段落 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.tables/cell/firstparagraph/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.tables/cell/firstparagraph/
 public Paragraph FirstParagraph { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何使用文档生成器创建嵌套表。
 
@@ -95,7 +97,5 @@ private static Table CreateTable(Document doc, int rowCount, int cellCount, stri
 
 * class [Paragraph](../../../aspose.words/paragraph/)
 * class [Cell](../)
-* 命名空间 [Aspose.Words.Tables](../../cell/)
+* 命名空间 [Aspose.Words.Tables](../../../aspose.words.tables/)
 * 部件 [Aspose.Words](../../../)
-
-

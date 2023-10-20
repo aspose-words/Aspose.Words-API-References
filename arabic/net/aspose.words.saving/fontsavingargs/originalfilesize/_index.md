@@ -1,7 +1,9 @@
 ---
 title: FontSavingArgs.OriginalFileSize
-second_title: Aspose.Words لمراجع .NET API
-description: FontSavingArgs ملكية. الحصول على حجم ملف الخط الأصلي.
+linktitle: OriginalFileSize
+articleTitle: OriginalFileSize
+second_title: Aspose.Words لـ .NET
+description: FontSavingArgs OriginalFileSize ملكية. الحصول على حجم ملف الخط الأصلي في C#.
 type: docs
 weight: 110
 url: /ar/net/aspose.words.saving/fontsavingargs/originalfilesize/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.saving/fontsavingargs/originalfilesize/
 public int OriginalFileSize { get; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 تحتوي هذه الخاصية على حجم الملف الأصلي للخط الحالي إذا كان معروفًا. وإلا فإنه يمكن أن يكون صفر.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحديد المنطق المخصص لتصدير الخطوط عند الحفظ إلى HTML.
 
@@ -78,7 +80,5 @@ public class HandleFontSaving : IFontSavingCallback
 ### أنظر أيضا
 
 * class [FontSavingArgs](../)
-* مساحة الاسم [Aspose.Words.Saving](../../fontsavingargs/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

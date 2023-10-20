@@ -1,7 +1,9 @@
 ---
 title: CustomXmlSchemaCollection.GetEnumerator
-second_title: Справочник по API Aspose.Words для .NET
-description: CustomXmlSchemaCollection метод. Возвращает объект перечислителя который можно использовать для перебора всех элементов коллекции.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words для .NET
+description: CustomXmlSchemaCollection GetEnumerator метод. Возвращает объект перечислителя который можно использовать для перебора всех элементов коллекции на С#.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.markup/customxmlschemacollection/getenumerator/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.markup/customxmlschemacollection/getenumerator/
 public IEnumerator<string> GetEnumerator()
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как работать с коллекцией схем XML.
 
@@ -60,7 +62,5 @@ Assert.AreEqual(0, schemas.Count);
 ### Смотрите также
 
 * class [CustomXmlSchemaCollection](../)
-* пространство имен [Aspose.Words.Markup](../../customxmlschemacollection/)
+* пространство имен [Aspose.Words.Markup](../../../aspose.words.markup/)
 * сборка [Aspose.Words](../../../)
-
-

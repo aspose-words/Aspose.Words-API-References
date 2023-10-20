@@ -1,7 +1,9 @@
 ---
-title: Enum TextDmlEffect
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.TextDmlEffect enum. Effetto testo Dml per sequenze di testo.
+title: TextDmlEffect Enum
+linktitle: TextDmlEffect
+articleTitle: TextDmlEffect
+second_title: Aspose.Words per .NET
+description: Aspose.Words.TextDmlEffect enum. Effetto testo Dml per sequenze di testo in C#.
 type: docs
 weight: 6410
 url: /it/net/aspose.words/textdmleffect/
@@ -29,5 +31,3 @@ public enum TextDmlEffect
 
 * spazio dei nomi [Aspose.Words](../../aspose.words/)
 * assemblea [Aspose.Words](../../)
-
-

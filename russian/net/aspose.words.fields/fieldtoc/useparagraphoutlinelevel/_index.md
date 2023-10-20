@@ -1,7 +1,9 @@
 ---
 title: FieldToc.UseParagraphOutlineLevel
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldToc свойство. Получает или задает следует ли использовать примененный уровень структуры абзаца.
+linktitle: UseParagraphOutlineLevel
+articleTitle: UseParagraphOutlineLevel
+second_title: Aspose.Words для .NET
+description: FieldToc UseParagraphOutlineLevel свойство. Получает или задает следует ли использовать примененный уровень структуры абзаца на С#.
 type: docs
 weight: 170
 url: /ru/net/aspose.words.fields/fieldtoc/useparagraphoutlinelevel/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldtoc/useparagraphoutlinelevel/
 public bool UseParagraphOutlineLevel { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как вставить оглавление и заполнить его записями на основе стилей заголовков.
 
@@ -99,7 +101,5 @@ public void InsertNewPageWithHeading(DocumentBuilder builder, string captionText
 ### Смотрите также
 
 * class [FieldToc](../)
-* пространство имен [Aspose.Words.Fields](../../fieldtoc/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

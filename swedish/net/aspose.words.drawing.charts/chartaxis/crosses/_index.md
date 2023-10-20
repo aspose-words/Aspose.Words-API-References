@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.Crosses
-second_title: Aspose.Words för .NET API Referens
-description: ChartAxis fast egendom. Anger hur denna axel korsar den vinkelräta axeln.
+linktitle: Crosses
+articleTitle: Crosses
+second_title: Aspose.Words för .NET
+description: ChartAxis Crosses fast egendom. Anger hur denna axel korsar den vinkelräta axeln i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.drawing.charts/chartaxis/crosses/
@@ -14,13 +16,13 @@ Anger hur denna axel korsar den vinkelräta axeln.
 public AxisCrosses Crosses { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Standardvärdet ärAutomatic.
 
 Egenskapen stöds inte av MS Office 2016 nya diagram.
 
-### Exempel
+## Exempel
 
 Visar hur man infogar ett diagram och ändrar utseendet på dess axlar.
 
@@ -74,7 +76,5 @@ doc.Save(ArtifactsDir + "Charts.AxisProperties.docx");
 
 * enum [AxisCrosses](../../axiscrosses/)
 * class [ChartAxis](../)
-* namnutrymme [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* namnutrymme [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../../)
-
-

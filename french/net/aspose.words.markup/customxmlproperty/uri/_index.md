@@ -1,7 +1,9 @@
 ---
 title: CustomXmlProperty.Uri
-second_title: Référence de l'API Aspose.Words pour .NET
-description: CustomXmlProperty propriété. Obtient ou définit lURI de lespace de noms de lattribut XML personnalisé ou de la propriété de balise active.
+linktitle: Uri
+articleTitle: Uri
+second_title: Aspose.Words pour .NET
+description: CustomXmlProperty Uri propriété. Obtient ou définit lURI de lespace de noms de lattribut XML personnalisé ou de la propriété de balise active en C#.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.markup/customxmlproperty/uri/
@@ -14,13 +16,13 @@ Obtient ou définit l'URI de l'espace de noms de l'attribut XML personnalisé ou
 public string Uri { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 C'est pas possible`nul`.
 
 La valeur par défaut est une chaîne vide.
 
-### Exemples
+## Exemples
 
 Montre comment utiliser les propriétés des balises actives pour obtenir des informations détaillées sur les balises actives.
 
@@ -77,7 +79,5 @@ Assert.AreEqual(0, properties.Count);
 ### Voir également
 
 * class [CustomXmlProperty](../)
-* espace de noms [Aspose.Words.Markup](../../customxmlproperty/)
+* espace de noms [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Assemblée [Aspose.Words](../../../)
-
-

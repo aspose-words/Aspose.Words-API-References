@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.DistanceTop
-second_title: Aspose.Words for .NET API 参考
-description: ShapeBase 财产. 返回或设置文档文本与形状上边缘之间的距离以磅为单位
+linktitle: DistanceTop
+articleTitle: DistanceTop
+second_title: 用于 .NET 的 Aspose.Words
+description: ShapeBase DistanceTop 财产. 返回或设置文档文本与形状上边缘之间的距离以磅为单位 在 C#.
 type: docs
 weight: 160
 url: /zh/net/aspose.words.drawing/shapebase/distancetop/
@@ -14,13 +16,13 @@ url: /zh/net/aspose.words.drawing/shapebase/distancetop/
 public double DistanceTop { get; set; }
 ```
 
-### 评论
+## 评论
 
 默认值为 0。
 
 仅对顶级形状有效。
 
-### 例子
+## 例子
 
 演示如何设置围绕形状的文本的环绕距离。
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "Shape.Coordinates.docx");
 ### 也可以看看
 
 * class [ShapeBase](../)
-* 命名空间 [Aspose.Words.Drawing](../../shapebase/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

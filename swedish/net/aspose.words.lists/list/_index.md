@@ -1,7 +1,9 @@
 ---
-title: Class List
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Lists.List klass. Representerar formatering av en lista.
+title: List Class
+linktitle: List
+articleTitle: List
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Lists.List klass. Representerar formatering av en lista i C#.
 type: docs
 weight: 3460
 url: /sv/net/aspose.words.lists/list/
@@ -33,14 +35,14 @@ public class List : IComparable<List>
 
 | namn | Beskrivning |
 | --- | --- |
-| [CompareTo](../../aspose.words.lists/list/compareto/#compareto)(List) | Jämför den angivna listan med den aktuella listan. |
-| [CompareTo](../../aspose.words.lists/list/compareto/#compareto_1)(object) | Jämför det angivna objektet med det aktuella objektet. |
-| [Equals](../../aspose.words.lists/list/equals/#equals)(List) | Jämför med den angivna listan. |
-| override [Equals](../../aspose.words.lists/list/equals/#equals_1)(object) | Bestämmer om det angivna objektet har samma värde som det aktuella objektet. |
+| [CompareTo](../../aspose.words.lists/list/compareto/#compareto)(*List*) | Jämför den angivna listan med den aktuella listan. |
+| [CompareTo](../../aspose.words.lists/list/compareto/#compareto_1)(*object*) | Jämför det angivna objektet med det aktuella objektet. |
+| [Equals](../../aspose.words.lists/list/equals/#equals)(*List*) | Jämför med den angivna listan. |
+| override [Equals](../../aspose.words.lists/list/equals/#equals_1)(*object*) | Bestämmer om det angivna objektet har samma värde som det aktuella objektet. |
 | override [GetHashCode](../../aspose.words.lists/list/gethashcode/)() | Beräknar hashkod för detta listobjekt. |
-| [HasSameTemplate](../../aspose.words.lists/list/hassametemplate/)(List) | Returnerar sant om den aktuella listan och den givna listan skapas från samma mall. |
+| [HasSameTemplate](../../aspose.words.lists/list/hassametemplate/)(*List*) | Returnerar sant om den aktuella listan och den givna listan skapas från samma mall. |
 
-### Anmärkningar
+## Anmärkningar
 
 En lista i ett Microsoft Word-dokument är en uppsättning listformateringsegenskaper. Varje lista kan ha upp till 9 nivåer och formateringsegenskaper, såsom talstil, startvärde, indrag, tabbposition etc definieras separat för varje nivå.
 
@@ -52,7 +54,7 @@ För att ändra formateringen av en lista, använd[`ListLevel`](../listlevel/) o
 
 För att tillämpa eller ta bort listformatering från ett stycke, använd[`ListFormat`](../listformat/).
 
-### Exempel
+## Exempel
 
 Visar hur man startar om numrering i en lista genom att kopiera en lista.
 
@@ -199,5 +201,3 @@ doc.Save(ArtifactsDir + "Lists.SpecifyListLevel.docx");
 
 * namnutrymme [Aspose.Words.Lists](../../aspose.words.lists/)
 * hopsättning [Aspose.Words](../../)
-
-

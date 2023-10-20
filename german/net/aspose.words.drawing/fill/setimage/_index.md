@@ -1,12 +1,14 @@
 ---
 title: Fill.SetImage
-second_title: Aspose.Words für .NET-API-Referenz
-description: Fill methode. Ändert den Fülltyp in Einzelbild.
+linktitle: SetImage
+articleTitle: SetImage
+second_title: Aspose.Words für .NET
+description: Fill SetImage methode. Ändert den Fülltyp in Einzelbild in C#.
 type: docs
-weight: 250
+weight: 240
 url: /de/net/aspose.words.drawing/fill/setimage/
 ---
-## SetImage(string) {#setimage_2}
+## SetImage(*string*) {#setimage_2}
 
 Ändert den Fülltyp in Einzelbild.
 
@@ -18,7 +20,7 @@ public void SetImage(string fileName)
 | --- | --- | --- |
 | fileName | String | Der Pfad zur Bilddatei. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie der Formfüllungstyp als Bild festgelegt wird.
 
@@ -45,12 +47,12 @@ doc.Save(ArtifactsDir + "Shape.FillImage.Stream.docx");
 ### Siehe auch
 
 * class [Fill](../)
-* namensraum [Aspose.Words.Drawing](../../fill/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
 
 ---
 
-## SetImage(Stream) {#setimage_1}
+## SetImage(*Stream*) {#setimage_1}
 
 Ändert den Fülltyp in Einzelbild.
 
@@ -65,12 +67,12 @@ public void SetImage(Stream stream)
 ### Siehe auch
 
 * class [Fill](../)
-* namensraum [Aspose.Words.Drawing](../../fill/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
 
 ---
 
-## SetImage(byte[]) {#setimage}
+## SetImage(*byte[]*) {#setimage}
 
 Ändert den Fülltyp in Einzelbild.
 
@@ -85,7 +87,5 @@ public void SetImage(byte[] imageBytes)
 ### Siehe auch
 
 * class [Fill](../)
-* namensraum [Aspose.Words.Drawing](../../fill/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

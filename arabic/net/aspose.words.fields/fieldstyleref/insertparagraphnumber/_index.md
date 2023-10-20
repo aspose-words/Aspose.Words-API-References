@@ -1,7 +1,9 @@
 ---
 title: FieldStyleRef.InsertParagraphNumber
-second_title: Aspose.Words لمراجع .NET API
-description: FieldStyleRef ملكية. الحصول على أو تعيين ما إذا كان سيتم إدراج رقم الفقرة للفقرة المشار إليها تمامًا كما يظهر في المستند.
+linktitle: InsertParagraphNumber
+articleTitle: InsertParagraphNumber
+second_title: Aspose.Words لـ .NET
+description: FieldStyleRef InsertParagraphNumber ملكية. الحصول على أو تعيين ما إذا كان سيتم إدراج رقم الفقرة للفقرة المشار إليها تمامًا كما يظهر في المستند في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.fields/fieldstyleref/insertparagraphnumber/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldstyleref/insertparagraphnumber/
 public bool InsertParagraphNumber { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام حقول STYLEREF.
 
@@ -85,7 +87,5 @@ doc.Save(ArtifactsDir + "Field.STYLEREF.docx");
 ### أنظر أيضا
 
 * class [FieldStyleRef](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldstyleref/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

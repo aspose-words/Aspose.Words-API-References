@@ -1,7 +1,9 @@
 ---
-title: Enum Compatibility
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Settings.Compatibility uppräkning. Anger namn på kompatibilitetsalternativ.
+title: Compatibility Enum
+linktitle: Compatibility
+articleTitle: Compatibility
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Settings.Compatibility uppräkning. Anger namn på kompatibilitetsalternativ i C#.
 type: docs
 weight: 5770
 url: /sv/net/aspose.words.settings/compatibility/
@@ -90,7 +92,7 @@ public enum Compatibility
 | SwapInsideAndOutsideForMirrorIndentsAndRelativePositioning | `69` |  |
 | UseWord2010TableStyleRules | `70` |  |
 
-### Exempel
+## Exempel
 
 Visar hur man optimerar dokumentet för olika versioner av Microsoft Word.
 
@@ -150,5 +152,3 @@ private static void PrintCompatibilityOptions(CompatibilityOptions options)
 
 * namnutrymme [Aspose.Words.Settings](../../aspose.words.settings/)
 * hopsättning [Aspose.Words](../../)
-
-

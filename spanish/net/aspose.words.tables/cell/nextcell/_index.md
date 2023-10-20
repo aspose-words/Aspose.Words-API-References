@@ -1,7 +1,9 @@
 ---
 title: Cell.NextCell
-second_title: Referencia de API de Aspose.Words para .NET
-description: Cell propiedad. Obtiene el siguienteCell nodo.
+linktitle: NextCell
+articleTitle: NextCell
+second_title: Aspose.Words para .NET
+description: Cell NextCell propiedad. Obtiene el siguienteCell nodo en C#.
 type: docs
 weight: 70
 url: /es/net/aspose.words.tables/cell/nextcell/
@@ -14,11 +16,11 @@ Obtiene el siguiente[`Cell`](../) nodo.
 public Cell NextCell { get; }
 ```
 
-### Observaciones
+## Observaciones
 
 El método se puede utilizar cuando necesita tener acceso escrito a las celdas de un[`Row`](../../row/) . Si a [`StructuredDocumentTag`](../../../aspose.words.markup/structureddocumenttag/) Si un nodo se encuentra en una fila en lugar de en una celda, se recorre automáticamente para obtener una celda contenida dentro.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo enumerar todas las celdas de la tabla.
 
@@ -39,7 +41,5 @@ for (Row row = table.FirstRow; row != null; row = row.NextRow)
 ### Ver también
 
 * class [Cell](../)
-* espacio de nombres [Aspose.Words.Tables](../../cell/)
+* espacio de nombres [Aspose.Words.Tables](../../../aspose.words.tables/)
 * asamblea [Aspose.Words](../../../)
-
-

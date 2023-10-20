@@ -1,7 +1,9 @@
 ---
 title: Document.LayoutOptions
-second_title: Aspose.Words per .NET API Reference
-description: Document proprietà. Ottiene aLayoutOptions oggetto che rappresenta le opzioni per controllare il processo di layout di questo documento.
+linktitle: LayoutOptions
+articleTitle: LayoutOptions
+second_title: Aspose.Words per .NET
+description: Document LayoutOptions proprietà. Ottiene aLayoutOptions oggetto che rappresenta le opzioni per controllare il processo di layout di questo documento in C#.
 type: docs
 weight: 250
 url: /it/net/aspose.words/document/layoutoptions/
@@ -14,7 +16,7 @@ Ottiene a[`LayoutOptions`](../../../aspose.words.layout/layoutoptions/) oggetto 
 public LayoutOptions LayoutOptions { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come nascondere il testo in un documento di output sottoposto a rendering.
 
@@ -70,7 +72,5 @@ doc.Save(ArtifactsDir + "Document.LayoutOptionsRevisions.pdf");
 
 * class [LayoutOptions](../../../aspose.words.layout/layoutoptions/)
 * class [Document](../)
-* spazio dei nomi [Aspose.Words](../../document/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: CompositeNode.Count
-second_title: Aspose.Words for .NET API 参考
-description: CompositeNode 财产. 获取此节点的直接子节点的数量
+linktitle: Count
+articleTitle: Count
+second_title: 用于 .NET 的 Aspose.Words
+description: CompositeNode Count 财产. 获取此节点的直接子节点的数量 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words/compositenode/count/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/compositenode/count/
 public int Count { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何在 CompositeNode 的子节点集合中添加、更新和删除子节点。
 
@@ -67,7 +69,5 @@ Assert.AreEqual(3, paragraph.GetChildNodes(NodeType.Any, true).Count);
 ### 也可以看看
 
 * class [CompositeNode](../)
-* 命名空间 [Aspose.Words](../../compositenode/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

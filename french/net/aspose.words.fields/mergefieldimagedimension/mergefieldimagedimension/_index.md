@@ -1,12 +1,14 @@
 ---
-title: MergeFieldImageDimension.MergeFieldImageDimension
-second_title: Référence de l'API Aspose.Words pour .NET
-description: MergeFieldImageDimension constructeur. Crée une instance de dimension dimage avec la valeur donnée en points.
+title: MergeFieldImageDimension
+linktitle: MergeFieldImageDimension
+articleTitle: MergeFieldImageDimension
+second_title: Aspose.Words pour .NET
+description: MergeFieldImageDimension constructeur. Crée une instance de dimension dimage avec la valeur donnée en points en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.fields/mergefieldimagedimension/mergefieldimagedimension/
 ---
-## MergeFieldImageDimension(double) {#constructor}
+## MergeFieldImageDimension(*double*) {#constructor}
 
 Crée une instance de dimension d'image avec la valeur donnée en points.
 
@@ -18,11 +20,11 @@ public MergeFieldImageDimension(double value)
 | --- | --- | --- |
 | value | Double | La valeur. |
 
-### Remarques
+## Remarques
 
 Vous devez utiliser une valeur négative pour indiquer que la valeur d'origine de la dimension de l'image correspondante doit être appliquée.
 
-### Exemples
+## Exemples
 
 Montre comment définir les dimensions des images telles que MERGEFIELDS les accepte lors d'un publipostage.
 
@@ -92,12 +94,12 @@ private class MergedImageResizer : IFieldMergingCallback
 ### Voir également
 
 * class [MergeFieldImageDimension](../)
-* espace de noms [Aspose.Words.Fields](../../mergefieldimagedimension/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
 
 ---
 
-## MergeFieldImageDimension(double, MergeFieldImageDimensionUnit) {#constructor_1}
+## MergeFieldImageDimension(*double, [MergeFieldImageDimensionUnit](../../mergefieldimagedimensionunit/)*) {#constructor_1}
 
 Crée une instance de dimension d'image avec la valeur donnée et l'unité donnée.
 
@@ -110,11 +112,11 @@ public MergeFieldImageDimension(double value, MergeFieldImageDimensionUnit unit)
 | value | Double | La valeur. |
 | unit | MergeFieldImageDimensionUnit | L'unité. |
 
-### Remarques
+## Remarques
 
 Vous devez utiliser une valeur négative pour indiquer que la valeur d'origine de la dimension de l'image correspondante doit être appliquée.
 
-### Exemples
+## Exemples
 
 Montre comment définir les dimensions des images telles que MERGEFIELDS les accepte lors d'un publipostage.
 
@@ -185,7 +187,5 @@ private class MergedImageResizer : IFieldMergingCallback
 
 * enum [MergeFieldImageDimensionUnit](../../mergefieldimagedimensionunit/)
 * class [MergeFieldImageDimension](../)
-* espace de noms [Aspose.Words.Fields](../../mergefieldimagedimension/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-
